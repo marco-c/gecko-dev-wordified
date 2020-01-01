@@ -2297,6 +2297,16 @@ all
 if
 (
 !
+cx
+-
+>
+compartment
+)
+return
+;
+if
+(
+!
 all
 )
 {
