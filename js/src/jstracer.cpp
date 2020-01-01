@@ -16628,9 +16628,9 @@ flag
 It
 is
 updated
+*
 asynchronously
 whenever
-*
 the
 callback
 is
@@ -16641,6 +16641,7 @@ invoked
 We
 can
 use
+*
 w
 .
 nameImmpNonGC
@@ -16652,14 +16653,14 @@ ed
 code
 is
 per
-*
 thread
 and
 cannot
+*
 outlive
 the
 corresponding
-JSThreadData
+ThreadData
 .
 *
 /

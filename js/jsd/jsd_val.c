@@ -3857,10 +3857,6 @@ obj
 =
 JS_UnwrapObject
 (
-jsdc
--
->
-dumbContext
 obj
 )
 ;

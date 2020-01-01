@@ -608,7 +608,7 @@ JSObject
 proxy
 )
 {
-JSPendingProxyOperation
+PendingProxyOperation
 *
 op
 =
@@ -4761,11 +4761,11 @@ singleton
 class
 AutoPendingProxyOperation
 {
-JSThreadData
+ThreadData
 *
 data
 ;
-JSPendingProxyOperation
+PendingProxyOperation
 op
 ;
 public

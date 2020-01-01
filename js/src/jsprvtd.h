@@ -732,11 +732,6 @@ JSThread
 ;
 typedef
 struct
-JSThreadData
-JSThreadData
-;
-typedef
-struct
 JSTreeContext
 JSTreeContext
 ;
