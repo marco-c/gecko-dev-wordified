@@ -17827,11 +17827,10 @@ JSGC_MODE
 *
 Number
 of
+cached
+empty
 GC
 chunks
-waiting
-to
-expire
 .
 *
 /
