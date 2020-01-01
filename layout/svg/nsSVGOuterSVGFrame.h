@@ -290,6 +290,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -299,18 +300,21 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntrinsicSize
 GetIntrinsicSize
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -351,6 +355,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidReflow
@@ -365,6 +370,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -413,6 +419,7 @@ GetSplittableType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -442,6 +449,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -454,6 +462,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -481,6 +490,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -488,6 +498,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -558,6 +569,7 @@ gfxMatrix
 aFromParentTransform
 )
 const
+MOZ_OVERRIDE
 {
 /
 /
@@ -630,6 +642,7 @@ nsIntRect
 *
 aDirtyRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGBBox
@@ -642,6 +655,7 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -655,6 +669,7 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -777,6 +792,7 @@ gfxMatrix
 aTransform
 )
 const
+MOZ_OVERRIDE
 {
 /
 /
@@ -1602,6 +1618,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -1646,6 +1663,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1659,6 +1677,7 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -1733,6 +1752,7 @@ gfxMatrix
 aTransform
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

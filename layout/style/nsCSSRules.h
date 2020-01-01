@@ -1477,6 +1477,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -1640,6 +1641,7 @@ nsAString
 &
 aEncoding
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetEncoding
@@ -1649,6 +1651,7 @@ nsAString
 &
 aEncoding
 )
+MOZ_OVERRIDE
 ;
 virtual
 size_t
@@ -2220,6 +2223,7 @@ nsMediaQueryResultCacheKey
 &
 aKey
 )
+MOZ_OVERRIDE
 ;
 const
 nsString

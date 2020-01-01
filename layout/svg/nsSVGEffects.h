@@ -801,6 +801,7 @@ Element
 *
 aTo
 )
+MOZ_OVERRIDE
 {
 mContainer
 -
@@ -863,6 +864,7 @@ bool
 IsPersistent
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

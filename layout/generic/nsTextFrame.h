@@ -102,6 +102,15 @@ nsTextFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFrame
 .
 h
@@ -326,6 +335,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCursor
@@ -341,6 +351,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CharacterDataChanged
@@ -349,6 +360,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -358,6 +370,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -366,6 +379,7 @@ GetNextContinuation
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mNextContinuation
@@ -378,6 +392,7 @@ nsIFrame
 *
 aNextContinuation
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -457,6 +472,7 @@ GetNextInFlowVirtual
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 GetNextInFlow
@@ -498,6 +514,7 @@ nsIFrame
 *
 aNextInFlow
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -578,6 +595,7 @@ GetLastInFlow
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -586,6 +604,7 @@ GetLastContinuation
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsSplittableType
@@ -593,6 +612,7 @@ GetSplittableType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 NS_FRAME_SPLITTABLE
@@ -626,6 +646,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -635,6 +656,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 /
 /
@@ -690,6 +712,7 @@ aDisplayItemKey
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -704,6 +727,7 @@ aDisplayItemKey
 =
 0
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -722,6 +746,7 @@ aFlags
 0
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFrameName
@@ -731,6 +756,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -740,6 +766,7 @@ GetDebugStateBits
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -750,6 +777,7 @@ CalcContentOffsetsFromFramePoint
 nsPoint
 aPoint
 )
+MOZ_OVERRIDE
 ;
 ContentOffsets
 GetCharacterOffsetAtFramePoint
@@ -859,6 +887,7 @@ int32_t
 *
 aOffset
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -874,6 +903,7 @@ aRespectClusters
 =
 true
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -892,6 +922,7 @@ PeekWordState
 *
 aState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CheckVisibility
@@ -912,6 +943,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -965,6 +997,7 @@ int32_t
 end
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -975,6 +1008,7 @@ start
 int32_t
 end
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPointFromOffset
@@ -985,6 +1019,7 @@ nsPoint
 *
 outPoint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetChildFrameContainingOffset
@@ -1001,6 +1036,7 @@ nsIFrame
 *
 outChildFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1010,18 +1046,21 @@ nsISelection
 *
 aSelection
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
+MOZ_OVERRIDE
 {
 return
 IsEmpty
@@ -1074,6 +1113,7 @@ HasTerminalNewline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1211,6 +1251,7 @@ void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -1220,6 +1261,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -1229,6 +1271,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1241,6 +1284,7 @@ InlineMinWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1253,6 +1297,7 @@ InlinePrefWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -1285,6 +1330,7 @@ gfxContext
 aContext
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -1303,6 +1349,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1310,6 +1357,7 @@ CanContinueTextRun
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1490,6 +1538,7 @@ aSkippedMaxLength
 =
 UINT32_MAX
 )
+MOZ_OVERRIDE
 ;
 nsOverflowAreas
 RecomputeOverflow
@@ -2550,6 +2599,7 @@ GetCaretColorAt
 int32_t
 aOffset
 )
+MOZ_OVERRIDE
 ;
 int16_t
 GetSelectionStatus
@@ -3492,6 +3542,7 @@ IsFrameSelected
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -4179,6 +4230,7 @@ bool
 HasAnyNoncollapsedCharacters
 (
 )
+MOZ_OVERRIDE
 ;
 void
 ClearMetrics

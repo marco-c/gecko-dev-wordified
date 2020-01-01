@@ -224,6 +224,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 }
 ;

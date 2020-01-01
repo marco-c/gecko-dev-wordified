@@ -102,6 +102,15 @@ __NS_SVGFILTERFRAME_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFrame
 .
 h
@@ -261,6 +270,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -596,6 +606,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :

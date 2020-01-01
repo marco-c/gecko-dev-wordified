@@ -102,6 +102,15 @@ __NS_SVGGRADIENTFRAME_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -265,6 +274,7 @@ gfxRect
 *
 aOverrideBounds
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -282,6 +292,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -294,6 +305,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -912,6 +924,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -933,6 +946,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -945,6 +959,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -996,12 +1011,14 @@ SVGLinearGradientElement
 *
 aDefault
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 GradientVectorLengthIsZero
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1011,6 +1028,7 @@ gfxPattern
 CreateGradient
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -1242,6 +1260,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1263,6 +1282,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -1275,6 +1295,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -1351,12 +1372,14 @@ SVGRadialGradientElement
 *
 aDefault
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 GradientVectorLengthIsZero
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1366,6 +1389,7 @@ gfxPattern
 CreateGradient
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

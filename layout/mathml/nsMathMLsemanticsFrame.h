@@ -102,6 +102,15 @@ nsMathMLsemanticsFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsMathMLSelectedFrame
 .
 h
@@ -171,6 +180,7 @@ nsIFrame
 GetSelectedFrame
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

@@ -102,6 +102,15 @@ nsMenuBarListener_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h
@@ -180,6 +189,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 nsresult
 KeyUp

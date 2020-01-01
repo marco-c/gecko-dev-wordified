@@ -13790,6 +13790,7 @@ FILE
 *
 aOutput
 )
+MOZ_OVERRIDE
 {
 fprintf
 (
@@ -15851,6 +15852,7 @@ FILE
 *
 aOutput
 )
+MOZ_OVERRIDE
 {
 fprintf
 (

@@ -482,6 +482,7 @@ nsNPAPIPluginInstance
 *
 aPluginInstance
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1505,6 +1506,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

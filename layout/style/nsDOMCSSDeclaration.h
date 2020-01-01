@@ -209,6 +209,7 @@ void
 *
 aInstancePtr
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -249,6 +250,7 @@ nsrefcnt
 AddRef
 (
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -259,6 +261,7 @@ nsrefcnt
 Release
 (
 )
+MOZ_OVERRIDE
 =
 0
 ;

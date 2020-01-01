@@ -102,6 +102,15 @@ __NS_SVGGEOMETRYFRAME_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -271,6 +280,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsSVGGeometryFrameBase

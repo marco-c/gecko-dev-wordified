@@ -102,6 +102,15 @@ NSSVGGFRAME_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -203,6 +212,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -215,6 +225,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -247,6 +258,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -260,6 +272,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -273,6 +286,7 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 ;
 nsAutoPtr
 <

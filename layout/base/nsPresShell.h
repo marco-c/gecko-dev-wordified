@@ -472,6 +472,7 @@ SetDisplaySelection
 int16_t
 aToggle
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDisplaySelection
@@ -480,6 +481,7 @@ int16_t
 *
 aToggle
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ScrollSelectionIntoView
@@ -1008,6 +1010,7 @@ ReconstructFrames
 (
 void
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1316,6 +1319,7 @@ SetCaretEnabled
 bool
 aInEnable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCaretReadOnly
@@ -1323,6 +1327,7 @@ SetCaretReadOnly
 bool
 aReadOnly
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCaretEnabled
@@ -1331,6 +1336,7 @@ bool
 *
 aOutEnabled
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCaretVisibilityDuringSelection
@@ -1338,6 +1344,7 @@ SetCaretVisibilityDuringSelection
 bool
 aVisibility
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCaretVisible
@@ -1346,6 +1353,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1379,6 +1387,7 @@ int16_t
 *
 aOutEnable
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1391,16 +1400,19 @@ aForward
 bool
 aExtend
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CharacterExtendForDelete
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CharacterExtendForBackspace
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WordMove
@@ -1410,6 +1422,7 @@ aForward
 bool
 aExtend
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WordExtendForDelete
@@ -1417,6 +1430,7 @@ WordExtendForDelete
 bool
 aForward
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 LineMove
@@ -1426,6 +1440,7 @@ aForward
 bool
 aExtend
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IntraLineMove
@@ -1435,6 +1450,7 @@ aForward
 bool
 aExtend
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PageMove
@@ -1444,6 +1460,7 @@ aForward
 bool
 aExtend
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ScrollPage
@@ -1451,6 +1468,7 @@ ScrollPage
 bool
 aForward
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ScrollLine
@@ -1458,6 +1476,7 @@ ScrollLine
 bool
 aForward
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ScrollCharacter
@@ -1465,6 +1484,7 @@ ScrollCharacter
 bool
 aRight
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CompleteScroll
@@ -1472,6 +1492,7 @@ CompleteScroll
 bool
 aForward
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CompleteMove
@@ -1481,11 +1502,13 @@ aForward
 bool
 aExtend
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectAll
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CheckVisibility
@@ -1501,6 +1524,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1517,6 +1541,7 @@ bool
 *
 aRetval
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1554,6 +1579,7 @@ void
 DumpReflows
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_

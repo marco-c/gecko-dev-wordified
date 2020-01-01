@@ -3572,6 +3572,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (

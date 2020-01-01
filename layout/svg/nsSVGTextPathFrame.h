@@ -102,6 +102,15 @@ NSSVGTEXTPATHFRAME_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -257,6 +266,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -286,6 +296,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -298,6 +309,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -441,6 +453,7 @@ SVGUserUnitList
 *
 aY
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -453,6 +466,7 @@ SVGUserUnitList
 *
 aDy
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -461,6 +475,7 @@ SVGNumberList
 GetRotate
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

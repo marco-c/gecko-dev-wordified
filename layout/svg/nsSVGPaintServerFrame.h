@@ -102,6 +102,15 @@ __NS_SVGPAINTSERVERFRAME_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -361,6 +370,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsSVGPaintServerFrameBase

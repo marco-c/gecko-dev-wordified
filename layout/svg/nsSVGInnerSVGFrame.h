@@ -223,6 +223,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -235,6 +236,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -262,6 +264,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -279,12 +282,14 @@ nsIntRect
 *
 aDirtyRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowSVG
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -293,6 +298,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -306,6 +312,7 @@ nsPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -319,6 +326,7 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -329,6 +337,7 @@ gfxMatrix
 aTransform
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

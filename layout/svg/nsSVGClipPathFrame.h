@@ -102,6 +102,15 @@ __NS_SVGCLIPPATHFRAME_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -308,6 +317,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -353,6 +363,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -365,6 +376,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -536,6 +548,7 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 ;
 }
 ;
