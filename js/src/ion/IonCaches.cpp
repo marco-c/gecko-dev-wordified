@@ -2541,6 +2541,15 @@ obj
 isNative
 (
 )
+&
+&
+!
+obj
+-
+>
+watched
+(
+)
 )
 {
 cache
