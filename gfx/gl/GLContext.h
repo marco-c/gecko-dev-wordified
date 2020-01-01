@@ -3572,6 +3572,7 @@ enum
 {
 RendererAdreno200
 RendererAdreno205
+RendererSGX530
 RendererSGX540
 RendererOther
 }
