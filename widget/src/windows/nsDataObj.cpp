@@ -11103,10 +11103,6 @@ Length
 )
 )
 {
-dfInx
-+
-+
-;
 if
 (
 mDataFlavors
@@ -11127,6 +11123,10 @@ PR_TRUE
 break
 ;
 }
+dfInx
++
++
+;
 }
 if
 (
