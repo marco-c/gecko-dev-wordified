@@ -3042,6 +3042,7 @@ function
 testInstallAddon
 (
 addon
+metadata
 cb
 )
 {
@@ -3166,9 +3167,12 @@ makeSpinningCallback
 ;
 store
 .
-installAddonsFromIDs
+installAddons
 (
 [
+{
+id
+:
 "
 rewrite
 tests
@@ -3177,6 +3181,7 @@ mozilla
 .
 org
 "
+}
 ]
 installCallback
 )
@@ -3294,10 +3299,14 @@ makeSpinningCallback
 ;
 store
 .
-installAddonsFromIDs
+installAddons
 (
 [
+{
+id
+:
 ID
+}
 ]
 cb
 )
