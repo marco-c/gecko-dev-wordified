@@ -1045,6 +1045,10 @@ nsTimeout
 (
 )
 ;
+NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
+(
+nsTimeout
+)
 nsrefcnt
 Release
 (
@@ -1298,7 +1302,7 @@ count
 for
 shared
 usage
-PRInt32
+nsAutoRefCnt
 mRefCnt
 ;
 }
