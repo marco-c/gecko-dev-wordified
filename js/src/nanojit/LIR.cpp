@@ -7914,7 +7914,7 @@ next
 )
 ;
 #
-ifdef
+ifndef
 NANOJIT_64BIT
 l
 -
