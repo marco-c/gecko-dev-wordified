@@ -759,6 +759,10 @@ destructor
 do
 it
 .
+mCanvasElement
+=
+nsnull
+;
 return
 NS_OK
 ;
