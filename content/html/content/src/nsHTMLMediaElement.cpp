@@ -11331,10 +11331,13 @@ nsIRunnable
 >
 event
 =
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsHTMLMediaElement
 this
+&
+nsHTMLMediaElement
+:
+:
 DoRemoveSelfReference
 )
 ;

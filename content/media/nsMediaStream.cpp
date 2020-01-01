@@ -4404,13 +4404,7 @@ return
 ;
 mDataReceivedEvent
 =
-new
-nsRunnableMethod
-<
-nsMediaChannelStream
-void
-false
->
+NS_NewNonOwningRunnableMethod
 (
 this
 &

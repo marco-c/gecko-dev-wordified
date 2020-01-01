@@ -2069,7 +2069,7 @@ as
 /
 /
 an
-NS_NEW_RUNNABLE_METHOD
+nsRunnableMethod
 .
 This
 continually

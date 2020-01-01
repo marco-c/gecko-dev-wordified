@@ -1667,10 +1667,13 @@ nsIRunnable
 >
 ev
 =
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-imgRequestProxy
 this
+&
+imgRequestProxy
+:
+:
 DoRemoveFromLoadGroup
 )
 ;

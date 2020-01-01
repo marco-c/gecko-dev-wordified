@@ -16154,10 +16154,13 @@ PresShell
 >
 resizeEvent
 =
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-PresShell
 this
+&
+PresShell
+:
+:
 FireResizeEvent
 )
 ;

@@ -12193,11 +12193,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
-nsRunnableMethod
-<
-nsHTMLInputElement
->
+NS_NewRunnableMethod
 (
 this
 &

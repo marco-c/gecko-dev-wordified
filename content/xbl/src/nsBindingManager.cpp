@@ -5330,10 +5330,13 @@ PostProcessAttachedQueueEvent
 {
 mProcessAttachedQueueEvent
 =
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsBindingManager
 this
+&
+nsBindingManager
+:
+:
 DoProcessAttachedQueue
 )
 ;

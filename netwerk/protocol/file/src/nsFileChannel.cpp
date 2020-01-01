@@ -1727,10 +1727,13 @@ nsIRunnable
 >
 callback
 =
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsFileUploadContentStream
 this
+&
+nsFileUploadContentStream
+:
+:
 OnCopyComplete
 )
 ;

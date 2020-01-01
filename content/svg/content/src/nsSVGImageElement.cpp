@@ -1706,11 +1706,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
-nsRunnableMethod
-<
-nsSVGImageElement
->
+NS_NewRunnableMethod
 (
 this
 &

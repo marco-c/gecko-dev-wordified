@@ -16299,10 +16299,13 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsHTMLDocument
 this
+&
+nsHTMLDocument
+:
+:
 MaybeEditingStateChanged
 )
 )
