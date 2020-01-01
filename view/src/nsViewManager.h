@@ -1158,7 +1158,9 @@ PRUint32
 aUpdateFlags
 )
 ;
-NS_IMETHOD
+virtual
+nsIViewManager
+*
 BeginUpdateViewBatch
 (
 void

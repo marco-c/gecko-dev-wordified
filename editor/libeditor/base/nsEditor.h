@@ -605,6 +605,13 @@ nsStubMutationObserver
 .
 h
 "
+#
+include
+"
+nsIViewManager
+.
+h
+"
 class
 nsIDOMCharacterData
 ;
@@ -613,9 +620,6 @@ nsIDOMRange
 ;
 class
 nsIPresShell
-;
-class
-nsIViewManager
 ;
 class
 ChangeAttributeTxn
@@ -3682,6 +3686,12 @@ mViewManager
 ;
 PRInt32
 mUpdateCount
+;
+nsIViewManager
+:
+:
+UpdateViewBatch
+mBatch
 ;
 /
 /
