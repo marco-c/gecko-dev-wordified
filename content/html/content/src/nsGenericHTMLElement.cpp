@@ -3922,6 +3922,15 @@ nsGkAtoms
 :
 form
 )
+|
+|
+IsHTML
+(
+nsGkAtoms
+:
+:
+img
+)
 "
 FindAncestorForm
 should
