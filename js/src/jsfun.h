@@ -1780,6 +1780,7 @@ cx
 JSFunction
 *
 fun
+struct
 JSArenaPool
 *
 pool
