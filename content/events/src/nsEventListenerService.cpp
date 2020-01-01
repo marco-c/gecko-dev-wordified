@@ -1597,7 +1597,6 @@ NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
 ;
-return
 manager
 -
 >
@@ -1607,6 +1606,9 @@ aListener
 aType
 flags
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -5254,8 +5254,6 @@ if
 elmP
 )
 {
-rv
-=
 elmP
 -
 >
@@ -5273,14 +5271,6 @@ NS_EVENT_FLAG_BUBBLE
 NS_EVENT_FLAG_SYSTEM_EVENT
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-rv
-=
 elmP
 -
 >

@@ -600,7 +600,7 @@ NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 nsEventListenerManager
 )
-nsresult
+void
 AddEventListener
 (
 const
@@ -648,7 +648,7 @@ event
 listener
 *
 /
-nsresult
+void
 AddEventListenerByType
 (
 nsIDOMEventListener
@@ -1141,7 +1141,7 @@ PRBool
 aPermitUntrustedEvents
 )
 ;
-nsresult
+void
 AddEventListener
 (
 nsIDOMEventListener

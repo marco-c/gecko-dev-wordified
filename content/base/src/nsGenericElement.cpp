@@ -6210,7 +6210,6 @@ NS_ENSURE_STATE
 listener_manager
 )
 ;
-return
 listener_manager
 -
 >
@@ -6221,6 +6220,9 @@ aListener
 aUseCapture
 aWantsUntrusted
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
