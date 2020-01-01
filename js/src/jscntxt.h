@@ -10520,7 +10520,14 @@ JS_GUARD_OBJECT_NOTIFIER_PARAM
 AutoGCRooter
 (
 cx
-IDARRAY
+ida
+?
+ida
+-
+>
+length
+:
+0
 )
 idArray
 (
