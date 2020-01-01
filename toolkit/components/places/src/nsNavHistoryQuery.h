@@ -1143,6 +1143,9 @@ applicable
 PRUint32
 mSort
 ;
+nsCString
+mSortingAnnotation
+;
 PRUint32
 mResultType
 ;
