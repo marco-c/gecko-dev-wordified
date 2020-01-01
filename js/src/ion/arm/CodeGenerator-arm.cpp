@@ -9542,8 +9542,6 @@ needsBarrier
 (
 )
 )
-masm
-.
 emitPreBarrier
 (
 Address
