@@ -9497,6 +9497,12 @@ send
 it
 to
 Gecko
+if
+(
+!
+mIsRestoringActivity
+)
+{
 String
 restoreMessage
 =
@@ -9508,10 +9514,6 @@ mRestoreMode
 !
 =
 RESTORE_NONE
-&
-&
-!
-mIsRestoringActivity
 )
 {
 try
@@ -9655,6 +9657,7 @@ restoreMessage
 )
 )
 ;
+}
 /
 /
 External
