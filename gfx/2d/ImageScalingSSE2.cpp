@@ -447,6 +447,13 @@ xmmintrin
 .
 h
 >
+#
+include
+<
+emmintrin
+.
+h
+>
 /
 *
 The
