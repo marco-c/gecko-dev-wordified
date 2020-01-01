@@ -1041,6 +1041,10 @@ available
 .
 *
 /
+if
+(
+normal
+)
 *
 normal
 =
@@ -1058,6 +1062,10 @@ DtoaState
 0
 )
 ;
+if
+(
+temporary
+)
 *
 temporary
 =
@@ -1068,6 +1076,11 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+if
+(
+regexpCode
+)
+{
 size_t
 method
 =
@@ -1123,6 +1136,11 @@ regexp
 +
 unused
 ;
+}
+if
+(
+stackCommitted
+)
 *
 stackCommitted
 =
@@ -1571,6 +1589,10 @@ regexpCode
 stackCommitted
 )
 ;
+if
+(
+normal
+)
 *
 normal
 +
