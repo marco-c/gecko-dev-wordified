@@ -3220,7 +3220,11 @@ static
 warn_unused
 =
 0
+                 
 inline
+=
+0
+force_inline
 =
 0
                  
@@ -3286,6 +3290,27 @@ isinstance
 (
 ret
 list
+)
+        
+for
+decl
+in
+params
+:
+assert
+not
+isinstance
+(
+decl
+str
+)
+        
+assert
+not
+isinstance
+(
+T
+int
 )
         
 if
@@ -3374,13 +3399,21 @@ bool
         
 self
 .
-inline
+force_inline
 =
 (
-inline
+force_inline
 or
 T
 )
+#
+bool
+        
+self
+.
+inline
+=
+inline
 #
 bool
         
@@ -3420,6 +3453,8 @@ self
 .
 name
             
+params
+=
 copy
 .
 deepcopy
@@ -3430,6 +3465,8 @@ params
 memo
 )
             
+ret
+=
 copy
 .
 deepcopy
@@ -3440,22 +3477,50 @@ ret
 memo
 )
             
+virtual
+=
 self
 .
 virtual
+            
+const
+=
 self
 .
 const
+            
+pure
+=
 self
 .
 pure
+            
+static
+=
 self
 .
 static
+            
+warn_unused
+=
 self
 .
 warn_unused
             
+inline
+=
+self
+.
+inline
+            
+force_inline
+=
+self
+.
+force_inline
+            
+typeop
+=
 copy
 .
 deepcopy
@@ -3466,6 +3531,8 @@ typeop
 memo
 )
             
+T
+=
 copy
 .
 deepcopy
@@ -3475,10 +3542,6 @@ self
 T
 memo
 )
-            
-self
-.
-inline
 )
 class
 MethodDefn
@@ -3526,6 +3589,9 @@ params
 explicit
 =
 0
+force_inline
+=
+0
 )
 :
         
@@ -3541,6 +3607,10 @@ params
 ret
 =
 None
+                            
+force_inline
+=
+force_inline
 )
         
 self
@@ -3625,6 +3695,12 @@ name
 virtual
 =
 0
+force_inline
+=
+0
+inline
+=
+0
 )
 :
         
@@ -3645,6 +3721,13 @@ None
 virtual
 =
 virtual
+                            
+force_inline
+=
+force_inline
+inline
+=
+inline
 )
     
 def
@@ -3661,9 +3744,24 @@ DestructorDecl
 self
 .
 name
+                              
+virtual
+=
 self
 .
 virtual
+                              
+force_inline
+=
+self
+.
+force_inline
+                              
+inline
+=
+self
+.
+inline
 )
 class
 DestructorDefn
@@ -5231,6 +5329,12 @@ self
 expr
 )
 :
+        
+assert
+expr
+is
+not
+None
         
 Node
 .

@@ -1634,6 +1634,21 @@ printdent
 if
 md
 .
+inline
+:
+            
+self
+.
+write
+(
+'
+inline
+'
+)
+        
+if
+md
+.
 static
 :
             
@@ -2052,6 +2067,21 @@ self
 dd
 )
 :
+        
+if
+dd
+.
+inline
+:
+            
+self
+.
+write
+(
+'
+inline
+'
+)
         
 if
 dd
