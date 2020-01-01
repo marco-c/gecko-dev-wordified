@@ -727,7 +727,9 @@ NS_IsMainThread
 )
 )
 ;
-return
+nsresult
+rv
+=
 mWebNav
 -
 >
@@ -749,6 +751,16 @@ NULL
 NULL
 NULL
 )
+;
+return
+NS_FAILED
+(
+rv
+)
+?
+false
+:
+true
 ;
 }
 bool
