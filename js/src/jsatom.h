@@ -2412,6 +2412,10 @@ valueAtom
 ;
 JSAtom
 *
+testAtom
+;
+JSAtom
+*
 useStrictAtom
 ;
 #
@@ -3364,6 +3368,13 @@ extern
 const
 char
 js_value_str
+[
+]
+;
+extern
+const
+char
+js_test_str
 [
 ]
 ;
