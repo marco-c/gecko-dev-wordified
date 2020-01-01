@@ -2459,6 +2459,8 @@ CloneNode
 (
 bool
 aDeep
+PRUint8
+aOptionalArgc
 nsIDOMNode
 *
 *
@@ -2478,6 +2480,17 @@ nsIDocument
 eCloneNode
 )
 ;
+if
+(
+!
+aOptionalArgc
+)
+{
+aDeep
+=
+true
+;
+}
 return
 nsNodeUtils
 :

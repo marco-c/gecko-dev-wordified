@@ -970,6 +970,8 @@ CloneNode
 (
 bool
 deep
+PRUint8
+aOptionalArgc
 nsIDOMNode
 *
 *
