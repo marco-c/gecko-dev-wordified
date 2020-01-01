@@ -163,8 +163,6 @@ querySelectorAll
 (
 "
 #
-event
--
 details
 -
 pane
@@ -184,8 +182,6 @@ querySelectorAll
 (
 "
 #
-event
--
 details
 -
 pane
