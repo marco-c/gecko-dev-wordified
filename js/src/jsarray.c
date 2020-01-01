@@ -2491,6 +2491,10 @@ NULL
 ;
 newslots
 =
+(
+jsval
+*
+)
 JS_realloc
 (
 cx
@@ -6068,6 +6072,10 @@ JSObjectMap
 *
 map
 =
+(
+JSObjectMap
+*
+)
 JS_malloc
 (
 cx

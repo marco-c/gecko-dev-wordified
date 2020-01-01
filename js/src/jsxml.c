@@ -49580,6 +49580,10 @@ JS_FALSE
 ;
 filter
 =
+(
+JSXMLFilter
+*
+)
 JS_malloc
 (
 cx
