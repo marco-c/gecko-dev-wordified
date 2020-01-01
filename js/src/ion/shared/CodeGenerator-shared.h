@@ -1150,17 +1150,6 @@ uint32
 startIndex
 )
 ;
-Operand
-createArraySlotOperand
-(
-Register
-slots
-const
-LAllocation
-*
-index
-)
-;
 /
 /
 Attempts

@@ -2511,7 +2511,7 @@ offsetOfInitializedLength
 ;
 masm
 .
-loadInt32
+load32
 (
 initLength
 ToRegister

@@ -927,7 +927,7 @@ Zero
 ;
 }
 void
-loadInt32
+load32
 (
 const
 Address
