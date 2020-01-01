@@ -1603,7 +1603,6 @@ WM_USER_FLASH
 mp1
 mp2
 )
-nsnull
 inst
 )
 ;
@@ -2611,7 +2610,6 @@ msg
 mp1
 mp2
 )
-nsnull
 inst
 )
 ;
@@ -2633,7 +2631,6 @@ msg
 mp1
 mp2
 )
-nsnull
 inst
 )
 ;
@@ -3196,7 +3193,6 @@ GetLParam
 (
 )
 )
-nsnull
 inst
 )
 ;
