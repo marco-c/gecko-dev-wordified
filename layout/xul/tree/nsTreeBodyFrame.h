@@ -3254,7 +3254,7 @@ ScrollEvent
 >
 mScrollEvent
 ;
-nsCOMPtr
+nsRefPtr
 <
 ScrollbarActivity
 >

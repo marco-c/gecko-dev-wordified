@@ -554,6 +554,12 @@ void
 aSelf
 )
 {
+nsRefPtr
+<
+ScrollbarActivity
+>
+scrollbarActivity
+(
 reinterpret_cast
 <
 ScrollbarActivity
@@ -562,6 +568,9 @@ ScrollbarActivity
 (
 aSelf
 )
+)
+;
+scrollbarActivity
 -
 >
 BeginFade
