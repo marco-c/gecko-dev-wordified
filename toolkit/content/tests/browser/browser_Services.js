@@ -506,6 +506,16 @@ nsIPrefService
 checkService
 (
 "
+contentPrefs
+"
+Ci
+.
+nsIContentPrefService
+)
+;
+checkService
+(
+"
 wm
 "
 Ci
