@@ -691,6 +691,13 @@ iconId
 0
 )
 {
+guid
+.
+SetIsVoid
+(
+PR_TRUE
+)
+;
 }
 PRInt64
 id
@@ -719,6 +726,9 @@ schemas
 .
 PRInt64
 iconId
+;
+nsCString
+guid
 ;
 }
 ;

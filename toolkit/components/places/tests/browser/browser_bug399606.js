@@ -729,8 +729,6 @@ onTitleChanged
 :
 function
 (
-aURI
-aPageTitle
 )
 {
 }
@@ -738,7 +736,6 @@ onBeforeDeleteURI
 :
 function
 (
-aURI
 )
 {
 }
@@ -746,7 +743,6 @@ onDeleteURI
 :
 function
 (
-aURI
 )
 {
 }
@@ -761,9 +757,6 @@ onPageChanged
 :
 function
 (
-aURI
-aWhat
-aValue
 )
 {
 }

@@ -1106,6 +1106,7 @@ historyObserver_onPageChanged
 pageURI
 what
 value
+guid
 )
 {
 if
@@ -1147,6 +1148,12 @@ dump_table
 "
 moz_favicons
 "
+)
+;
+do_check_guid_for_uri
+(
+pageURI
+guid
 )
 ;
 /
