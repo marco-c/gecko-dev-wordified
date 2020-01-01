@@ -1050,11 +1050,12 @@ METER
 (
 x
 )
-/
-*
-nothing
-*
-/
+(
+(
+void
+)
+0
+)
 #
 endif
 bool
