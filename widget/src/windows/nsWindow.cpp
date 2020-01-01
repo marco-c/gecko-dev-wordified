@@ -2704,7 +2704,7 @@ character
 processing
 .
 static
-nsKeyboardLayout
+KeyboardLayout
 gKbdLayout
 ;
 #
@@ -41831,7 +41831,7 @@ IsDeadKey
 )
 &
 &
-nsKeyboardLayout
+KeyboardLayout
 :
 :
 IsPrintableCharKey
@@ -42316,7 +42316,7 @@ mIsAltDown
 &
 &
 (
-nsKeyboardLayout
+KeyboardLayout
 :
 :
 IsPrintableCharKey
@@ -42325,7 +42325,7 @@ virtualKeyCode
 )
 |
 |
-nsKeyboardLayout
+KeyboardLayout
 :
 :
 IsNumpadKey
@@ -42603,7 +42603,7 @@ default
 :
 if
 (
-nsKeyboardLayout
+KeyboardLayout
 :
 :
 IsPrintableCharKey

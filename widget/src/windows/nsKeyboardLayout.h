@@ -449,10 +449,6 @@ h
 >
 #
 define
-NS_NUM_OF_KEYS
-50
-#
-define
 VK_OEM_1
 0xBA
 /
@@ -643,7 +639,7 @@ class
 DeadKeyTable
 ;
 class
-nsVirtualKey
+VirtualKey
 {
 union
 KeyShiftState
@@ -696,7 +692,6 @@ if
 (
 aIsDeadKey
 )
-{
 mIsDeadKey
 |
 =
@@ -705,9 +700,7 @@ mIsDeadKey
 <
 aShiftState
 ;
-}
 else
-{
 mIsDeadKey
 &
 =
@@ -719,7 +712,6 @@ mIsDeadKey
 aShiftState
 )
 ;
-}
 }
 public
 :
@@ -847,7 +839,7 @@ const
 }
 ;
 class
-nsKeyboardLayout
+KeyboardLayout
 {
 struct
 DeadKeyTableListEntry
@@ -864,13 +856,17 @@ data
 ;
 }
 ;
+#
+define
+NUM_OF_KEYS
+50
 HKL
 mKeyboardLayout
 ;
-nsVirtualKey
+VirtualKey
 mVirtualKeys
 [
-NS_NUM_OF_KEYS
+NUM_OF_KEYS
 ]
 ;
 DeadKeyTableListEntry
@@ -966,6 +962,7 @@ void
 aArg2
 void
 *
+aData
 )
 ;
 static
@@ -1037,12 +1034,12 @@ ReleaseDeadKeyTables
 ;
 public
 :
-nsKeyboardLayout
+KeyboardLayout
 (
 )
 ;
 ~
-nsKeyboardLayout
+KeyboardLayout
 (
 )
 ;
