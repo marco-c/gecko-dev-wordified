@@ -426,7 +426,7 @@ GeckoEvent
 createBroadcastEvent
 (
 "
-Distribution
+Campaign
 :
 Set
 "
