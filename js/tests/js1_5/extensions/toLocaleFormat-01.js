@@ -436,6 +436,8 @@ gTestfile
 =
 '
 toLocaleFormat
+-
+01
 .
 js
 '
