@@ -1755,13 +1755,16 @@ makeHMACKey
 function
 generateNewKeys
 (
+collectionKeys
 collections
+=
+null
 )
 {
 let
 wbo
 =
-CollectionKeys
+collectionKeys
 .
 generateNewKeysWBO
 (
@@ -1775,7 +1778,7 @@ new_timestamp
 (
 )
 ;
-CollectionKeys
+collectionKeys
 .
 setContents
 (

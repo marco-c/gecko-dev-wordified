@@ -207,6 +207,9 @@ abcdeabcdeabcdeabcdeabcdea
 ;
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 let
