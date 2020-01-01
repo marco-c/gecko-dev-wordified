@@ -577,7 +577,7 @@ PRInt16
 mMode
 ;
 nsCString
-mFilename
+mFileURI
 ;
 private
 :

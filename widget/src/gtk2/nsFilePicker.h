@@ -607,7 +607,7 @@ aFile
 NS_IMETHODIMP
 GetFileURL
 (
-nsIFileURL
+nsIURI
 *
 *
 aFileURL
@@ -685,8 +685,11 @@ mMode
 PRInt16
 mSelectedType
 ;
+PRBool
+mAllowURLs
+;
 nsCString
-mFile
+mFileURL
 ;
 nsString
 mTitle
