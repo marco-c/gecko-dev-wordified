@@ -443,6 +443,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -496,6 +505,7 @@ definition
 /
 class
 nsExceptionService
+MOZ_FINAL
 :
 public
 nsIExceptionService
