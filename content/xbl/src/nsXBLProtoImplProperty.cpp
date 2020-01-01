@@ -1305,7 +1305,7 @@ const
 nsCString
 &
 aClassStr
-void
+JSObject
 *
 aClassObject
 )
