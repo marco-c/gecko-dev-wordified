@@ -2238,7 +2238,7 @@ session
 state
 as
 a
-string
+jsval
 *
 /
 get
