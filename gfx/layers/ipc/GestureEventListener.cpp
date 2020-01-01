@@ -478,6 +478,8 @@ foundAlreadyExistingTouch
 =
 true
 ;
+break
+;
 }
 }
 NS_WARN_IF_FALSE
