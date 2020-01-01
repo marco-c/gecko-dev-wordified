@@ -395,7 +395,7 @@ bdo
 HTML_TAG
 (
 bgsound
-Span
+Unknown
 )
 HTML_HTMLELEMENT_TAG
 (
@@ -607,10 +607,9 @@ HTML_TAG
 iframe
 IFrame
 )
-HTML_TAG
+HTML_HTMLELEMENT_TAG
 (
 image
-Span
 )
 HTML_TAG
 (
@@ -701,7 +700,7 @@ Meter
 HTML_TAG
 (
 multicol
-Span
+Unknown
 )
 HTML_HTMLELEMENT_TAG
 (
