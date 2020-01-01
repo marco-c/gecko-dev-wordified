@@ -6922,6 +6922,17 @@ GetType
 =
 =
 SURFACE_COREGRAPHICS_IMAGE
+|
+|
+aSurface
+-
+>
+GetType
+(
+)
+=
+=
+SURFACE_COREGRAPHICS_CGCONTEXT
 )
 {
 image
