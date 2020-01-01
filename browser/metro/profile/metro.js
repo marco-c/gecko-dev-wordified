@@ -3942,7 +3942,7 @@ support
 baseURL
 "
 "
-http
+https
 :
 /
 /
