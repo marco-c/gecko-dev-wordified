@@ -1147,6 +1147,7 @@ shell
 RestyleForAnimation
 (
 mElement
+eRestyle_Self
 )
 ;
 }

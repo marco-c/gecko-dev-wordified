@@ -17785,6 +17785,7 @@ shell
 RestyleForAnimation
 (
 this
+eRestyle_Self
 )
 ;
 }
