@@ -3729,7 +3729,7 @@ mImpl
 ;
 mConnectionStatus
 =
-SOCKET_CONNECTING
+SOCKET_LISTENING
 ;
 return
 true
