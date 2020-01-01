@@ -6668,7 +6668,7 @@ false
 }
 static
 JSBool
-DebugObject_getPrototype
+DebugObject_getProto
 (
 JSContext
 *
@@ -6686,7 +6686,7 @@ cx
 vp
 "
 get
-prototype
+proto
 "
 refobj
 )
@@ -7436,9 +7436,9 @@ DebugObject_properties
 JS_PSG
 (
 "
-prototype
+proto
 "
-DebugObject_getPrototype
+DebugObject_getProto
 0
 )
 JS_PSG

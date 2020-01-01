@@ -131,7 +131,7 @@ assertEq
 (
 Op
 .
-prototype
+proto
 null
 )
 ;
@@ -147,7 +147,7 @@ dbgeval
 "
 )
 .
-prototype
+proto
 Op
 )
 ;
@@ -162,7 +162,7 @@ dbgeval
 "
 )
 .
-prototype
+proto
 ;
 assertEq
 (
@@ -181,7 +181,7 @@ assertEq
 (
 Ap
 .
-prototype
+proto
 Op
 )
 ;
@@ -194,7 +194,7 @@ Object
 "
 )
 .
-prototype
+proto
 dbgeval
 (
 "
