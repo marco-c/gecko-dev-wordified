@@ -723,6 +723,8 @@ return_val
 *
 aAbortOpen
 =
+!
+!
 return_val
 ;
 return

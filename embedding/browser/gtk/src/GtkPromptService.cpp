@@ -3178,10 +3178,14 @@ NULL
 *
 aRememberDecision
 =
+!
+!
+(
 cookie_struct
 -
 >
 remember_decision
+)
 ;
 *
 aAccept
