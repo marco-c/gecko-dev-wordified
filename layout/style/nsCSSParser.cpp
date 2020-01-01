@@ -9256,6 +9256,16 @@ eCSSSection_General
 else
 if
 (
+(
+nsCSSProps
+:
+:
+IsEnabled
+(
+eCSSPropertyAlias_MozAnimation
+)
+&
+&
 mToken
 .
 mIdent
@@ -9268,6 +9278,7 @@ moz
 -
 keyframes
 "
+)
 )
 |
 |
