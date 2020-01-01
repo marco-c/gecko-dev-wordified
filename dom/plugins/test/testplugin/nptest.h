@@ -397,6 +397,7 @@ enum
 {
 AD_NONE
 AD_BITMAP
+AD_DXGI
 }
 AsyncDrawing
 ;
