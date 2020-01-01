@@ -1952,7 +1952,7 @@ add
 another
 7
 new
-entires
+entries
 but
 we
 still

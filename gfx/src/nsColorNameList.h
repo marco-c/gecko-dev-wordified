@@ -474,7 +474,7 @@ C
 preprocessing
 .
 All
-entires
+entries
 must
 be
 enclosed

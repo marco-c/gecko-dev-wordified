@@ -3364,7 +3364,7 @@ will
 move
 the
 top
-entires
+entries
 in
 the
 entry

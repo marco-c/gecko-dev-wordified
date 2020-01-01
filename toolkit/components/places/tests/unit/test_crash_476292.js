@@ -531,7 +531,7 @@ there
 will
 be
 no
-entires
+entries
 to
 update
 frecencies
