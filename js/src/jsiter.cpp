@@ -2216,7 +2216,7 @@ ATOM_TO_JSID
 (
 atom
 )
-false
+JSGET_NO_METHOD_BARRIER
 vp
 )
 )
