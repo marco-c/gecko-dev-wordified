@@ -618,6 +618,9 @@ T
 >
 class
 Queue
+:
+public
+GCObject
 {
 T
 *
@@ -1347,6 +1350,9 @@ errtype
 ;
 class
 TraceRecorder
+:
+public
+GCObject
 {
 JSContext
 *

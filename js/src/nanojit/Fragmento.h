@@ -557,6 +557,9 @@ NIns
 ;
 struct
 AllocEntry
+:
+public
+GCObject
 {
 Page
 *
