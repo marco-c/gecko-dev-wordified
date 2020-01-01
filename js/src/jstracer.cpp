@@ -71198,6 +71198,17 @@ LIns
 return
 ;
 }
+if
+(
+!
+fp
+-
+>
+isEvalFrame
+(
+)
+)
+{
 /
 *
 For
@@ -71268,6 +71279,7 @@ LIns
 0
 )
 ;
+}
 which
 .
 set
@@ -71302,6 +71314,8 @@ LIns
 0
 )
 ;
+Value
+*
 vp
 =
 fp
@@ -71311,6 +71325,8 @@ slots
 (
 )
 ;
+Value
+*
 vpend
 =
 fp
