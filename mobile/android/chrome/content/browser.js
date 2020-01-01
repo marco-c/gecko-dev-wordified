@@ -6865,6 +6865,13 @@ focused
 instanceof
 HTMLTextAreaElement
 )
+|
+|
+(
+focused
+.
+isContentEditable
+)
 )
 {
 let
