@@ -1519,6 +1519,14 @@ sChildProcessType
 =
 aProcess
 ;
+gArgv
+=
+aArgv
+;
+gArgc
+=
+aArgc
+;
 SetupErrorHandling
 (
 aArgv

@@ -1102,7 +1102,7 @@ true
 if
 defined
 (
-OS_LINUX
+MOZ_WIDGET_GTK2
 )
 typedef
 void
@@ -1600,6 +1600,12 @@ embedded
 =
 wrap_gtk_plug_embedded
 ;
+#
+elif
+defined
+(
+MOZ_WIDGET_QT
+)
 #
 else
 /

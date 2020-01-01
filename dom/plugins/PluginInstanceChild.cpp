@@ -2764,6 +2764,9 @@ type
 NPWindowTypeWindow
 )
 {
+#
+ifdef
+MOZ_WIDGET_GTK2
 if
 (
 GdkWindow
@@ -2843,6 +2846,8 @@ GUINT_TO_POINTER
 )
 ;
 }
+#
+endif
 }
 *
 rv
