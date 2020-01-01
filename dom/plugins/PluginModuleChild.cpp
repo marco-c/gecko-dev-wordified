@@ -804,6 +804,10 @@ mLibrary
 (
 0
 )
+mQuirks
+(
+QUIRKS_NOT_INITIALIZED
+)
 mShutdownFunc
 (
 0
@@ -811,10 +815,6 @@ mShutdownFunc
 mInitializeFunc
 (
 0
-)
-mQuirks
-(
-QUIRKS_NOT_INITIALIZED
 )
 #
 if
