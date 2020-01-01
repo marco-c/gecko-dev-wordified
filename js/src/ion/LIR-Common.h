@@ -1092,12 +1092,8 @@ class
 LNewArray
 :
 public
-LVMCallInstructionHelper
+LCallInstructionHelper
 <
-LDefinition
-:
-:
-OBJECT
 1
 0
 0
@@ -5255,12 +5251,8 @@ class
 LLoadPropertyGeneric
 :
 public
-LVMCallInstructionHelper
+LCallInstructionHelper
 <
-LDefinition
-:
-:
-BOX
 BOX_PIECES
 1
 0
