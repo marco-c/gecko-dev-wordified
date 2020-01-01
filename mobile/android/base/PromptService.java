@@ -2804,8 +2804,6 @@ mButtons
 [
 0
 ]
-.
-label
 this
 )
 ;
@@ -2824,8 +2822,6 @@ mButtons
 [
 1
 ]
-.
-label
 this
 )
 ;
@@ -2844,8 +2840,6 @@ mButtons
 [
 2
 ]
-.
-label
 this
 )
 ;
