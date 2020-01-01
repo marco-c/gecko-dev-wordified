@@ -1529,8 +1529,10 @@ mozIStorageStatement
 >
 mGetIdsForURIStatement
 ;
+nsAutoPtr
+<
 mozStorageTransaction
-*
+>
 mHistoryTransaction
 ;
 static
