@@ -8338,6 +8338,17 @@ base
 ;
 bdr
 .
+digit
+=
+0
+;
+/
+/
+shut
+GCC
+up
+bdr
+.
 digitMask
 =
 0

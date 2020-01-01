@@ -13203,17 +13203,6 @@ AvmCore
 (
 )
 ;
-static
-avmplus
-:
-:
-AvmCore
-*
-core
-=
-&
-s_core
-;
 /
 *
 Return

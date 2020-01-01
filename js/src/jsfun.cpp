@@ -11714,6 +11714,12 @@ name
 {
 uintN
 index
+=
+(
+uintN
+)
+-
+1
 ;
 #
 ifdef
