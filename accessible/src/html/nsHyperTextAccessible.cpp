@@ -7789,7 +7789,7 @@ this
 PRInt32
 lineNumber
 =
-GetCaretLineNumber
+CaretLineNumber
 (
 )
 ;
@@ -10395,7 +10395,7 @@ PRInt32
 nsHyperTextAccessible
 :
 :
-GetCaretLineNumber
+CaretLineNumber
 (
 )
 {
