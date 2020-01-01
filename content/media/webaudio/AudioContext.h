@@ -166,17 +166,6 @@ mozilla
 /
 dom
 /
-BindingUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 TypedArray
 .
 h
