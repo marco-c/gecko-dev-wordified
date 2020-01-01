@@ -84,6 +84,8 @@ in
 mobile
 /
 android
+/
+locales
 .
 "
 "
