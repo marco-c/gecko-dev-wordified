@@ -134,6 +134,15 @@ nsIXULTemplateResult
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -148,6 +157,7 @@ query
 /
 class
 nsXULTemplateResultXML
+MOZ_FINAL
 :
 public
 nsIXULTemplateResult

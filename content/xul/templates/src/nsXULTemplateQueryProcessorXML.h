@@ -197,6 +197,15 @@ nsIXMLHttpRequest
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsXULTemplateQueryProcessorXML
 ;
@@ -222,6 +231,7 @@ NS_IXMLQUERY_IID
 }
 class
 nsXMLQuery
+MOZ_FINAL
 :
 public
 nsISupports
@@ -435,6 +445,7 @@ NS_IXMLQUERY_IID
 )
 class
 nsXULTemplateResultSetXML
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator
@@ -545,6 +556,7 @@ mPosition
 ;
 class
 nsXULTemplateQueryProcessorXML
+MOZ_FINAL
 :
 public
 nsIXULTemplateQueryProcessor

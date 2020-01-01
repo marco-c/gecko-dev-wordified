@@ -127,6 +127,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -143,6 +152,7 @@ mozstorage
 /
 class
 nsXULTemplateResultStorage
+MOZ_FINAL
 :
 public
 nsIXULTemplateResult

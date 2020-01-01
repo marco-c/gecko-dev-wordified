@@ -146,6 +146,13 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMSVGTESTS
+virtual
+~
+DOMSVGTests
+(
+)
+{
+}
 friend
 class
 mozilla

@@ -136,6 +136,15 @@ nsAutoPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -225,6 +234,7 @@ nsXTFInterfaceAggregator
 class
 class
 nsXTFInterfaceAggregator
+MOZ_FINAL
 :
 protected
 nsAutoXPTCStub

@@ -127,6 +127,15 @@ nsIXTFElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 typedef
 nsXMLElement
 nsXTFElementWrapperBase
@@ -800,6 +809,7 @@ NS_XTFELEMENTWRAPPER_IID
 )
 class
 nsXTFClassInfo
+MOZ_FINAL
 :
 public
 nsXPCClassInfo

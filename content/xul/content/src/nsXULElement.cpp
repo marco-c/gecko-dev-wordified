@@ -666,6 +666,15 @@ nsAttrValueOrString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 The
@@ -767,6 +776,7 @@ nsIScriptEventHandlerOwner
 /
 class
 nsScriptEventHandlerOwnerTearoff
+MOZ_FINAL
 :
 public
 nsIScriptEventHandlerOwner
@@ -1047,6 +1057,7 @@ gNumCacheFills
 endif
 class
 nsXULElementTearoff
+MOZ_FINAL
 :
 public
 nsIDOMElementCSSInlineStyle
@@ -4698,7 +4709,8 @@ nsContentUtils
 HoldJSObjects
 (
 elem
-NS_CYCLE_COLLECTION_PARTICIPANT
+&
+NS_CYCLE_COLLECTION_NAME
 (
 nsXULPrototypeNode
 )
@@ -18409,7 +18421,8 @@ nsContentUtils
 HoldJSObjects
 (
 this
-NS_CYCLE_COLLECTION_PARTICIPANT
+&
+NS_CYCLE_COLLECTION_NAME
 (
 nsXULPrototypeNode
 )

@@ -289,6 +289,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 plbase64
 .
 h
@@ -382,6 +391,7 @@ instead
 .
 class
 DataOwnerAdapter
+MOZ_FINAL
 :
 public
 nsIInputStream

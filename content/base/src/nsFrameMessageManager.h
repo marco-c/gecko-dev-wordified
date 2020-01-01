@@ -204,6 +204,15 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -305,6 +314,7 @@ aJSON
 ;
 class
 nsFrameMessageManager
+MOZ_FINAL
 :
 public
 nsIContentFrameMessageManager
@@ -1250,6 +1260,7 @@ mExec
 ;
 class
 nsScriptCacheCleaner
+MOZ_FINAL
 :
 public
 nsIObserver

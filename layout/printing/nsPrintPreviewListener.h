@@ -129,6 +129,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 /
@@ -187,6 +196,7 @@ RemoveChromeListeners
 /
 class
 nsPrintPreviewListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

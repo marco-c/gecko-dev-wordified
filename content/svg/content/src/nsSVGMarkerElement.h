@@ -162,6 +162,15 @@ SVGAnimatedPreserveAspectRatio
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSVGOrientType
 {
@@ -315,6 +324,7 @@ mBaseVal
 ;
 struct
 DOMAnimatedEnum
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedEnumeration

@@ -127,6 +127,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -143,6 +152,7 @@ string
 /
 class
 nsXPathNSResolver
+MOZ_FINAL
 :
 public
 nsIDOMXPathNSResolver

@@ -185,6 +185,13 @@ txAExprResult
 )
 ;
 }
+virtual
+~
+txXPathObjectAdaptor
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_IMETHODIMP_
 (

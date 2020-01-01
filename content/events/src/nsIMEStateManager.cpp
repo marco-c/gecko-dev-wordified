@@ -323,6 +323,15 @@ nsHTMLFormElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -2435,6 +2444,7 @@ focused
 editor
 class
 nsTextStateManager
+MOZ_FINAL
 :
 public
 nsISelectionListener

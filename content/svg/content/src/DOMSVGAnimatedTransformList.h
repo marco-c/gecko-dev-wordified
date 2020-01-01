@@ -153,6 +153,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -284,6 +293,7 @@ refs
 /
 class
 DOMSVGAnimatedTransformList
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedTransformList

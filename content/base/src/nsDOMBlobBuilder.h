@@ -115,6 +115,15 @@ CheckedInt
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -758,6 +767,7 @@ mDataBufferLen
 ;
 class
 nsDOMBlobBuilder
+MOZ_FINAL
 :
 public
 nsIDOMMozBlobBuilder

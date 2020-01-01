@@ -156,6 +156,15 @@ nsXTFElementWrapper
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 /
@@ -234,6 +243,7 @@ nsXTFService
 class
 class
 nsXTFService
+MOZ_FINAL
 :
 public
 nsIXTFService

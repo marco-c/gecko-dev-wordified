@@ -155,6 +155,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -171,6 +180,7 @@ string
 /
 class
 nsXPathEvaluator
+MOZ_FINAL
 :
 public
 nsIDOMXPathEvaluator

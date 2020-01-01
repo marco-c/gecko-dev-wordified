@@ -90,6 +90,15 @@ nsIEffectiveTLDService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIURI
 ;
@@ -101,6 +110,7 @@ nsIDOMWindow
 ;
 class
 ThirdPartyUtil
+MOZ_FINAL
 :
 public
 mozIThirdPartyUtil

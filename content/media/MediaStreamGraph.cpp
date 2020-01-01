@@ -188,6 +188,15 @@ VideoUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -10056,6 +10065,7 @@ Init
 ;
 class
 MediaStreamGraphShutdownObserver
+MOZ_FINAL
 :
 public
 nsIObserver

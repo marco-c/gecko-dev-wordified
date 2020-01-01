@@ -212,6 +212,15 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 NS_DEFINE_CID
 (
@@ -221,6 +230,7 @@ NS_XMLDOCUMENT_CID
 ;
 class
 nsXMLContentBuilder
+MOZ_FINAL
 :
 public
 nsIXMLContentBuilder

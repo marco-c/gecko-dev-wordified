@@ -162,6 +162,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMNode
 ;
@@ -271,6 +280,7 @@ Processor
 /
 class
 txMozillaXSLTProcessor
+MOZ_FINAL
 :
 public
 nsIXSLTProcessor

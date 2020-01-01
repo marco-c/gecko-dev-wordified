@@ -619,6 +619,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
@@ -18975,6 +18984,7 @@ nsXMLHttpRequest
 /
 class
 AsyncVerifyRedirectCallbackForwarder
+MOZ_FINAL
 :
 public
 nsIAsyncVerifyRedirectCallback

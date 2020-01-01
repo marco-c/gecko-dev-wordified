@@ -6113,6 +6113,7 @@ nsIDOMDOMStringList
 .
 class
 nsDOMStyleSheetSetList
+MOZ_FINAL
 :
 public
 nsIDOMDOMStringList
@@ -39682,6 +39683,7 @@ cache
 /
 class
 StubCSSLoaderObserver
+MOZ_FINAL
 :
 public
 nsICSSLoaderObserver

@@ -120,6 +120,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsXULTemplateResultXML
 ;
@@ -244,6 +253,7 @@ processor
 /
 class
 nsXMLBindingSet
+MOZ_FINAL
 {
 public
 :

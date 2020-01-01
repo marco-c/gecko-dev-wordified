@@ -161,6 +161,15 @@ IWYU
 pragma
 :
 keep
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMSVGPoint
 ;
@@ -381,6 +390,7 @@ them
 /
 class
 DOMSVGPointList
+MOZ_FINAL
 :
 public
 nsIDOMSVGPointList

@@ -141,6 +141,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 Expr
 ;
@@ -163,6 +172,7 @@ string
 /
 class
 nsXPathExpression
+MOZ_FINAL
 :
 public
 nsIDOMXPathExpression

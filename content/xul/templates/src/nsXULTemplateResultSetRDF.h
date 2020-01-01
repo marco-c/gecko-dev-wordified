@@ -134,6 +134,15 @@ nsXULTemplateResultRDF
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsXULTemplateQueryProcessorRDF
 ;
@@ -159,6 +168,7 @@ results
 /
 class
 nsXULTemplateResultSetRDF
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

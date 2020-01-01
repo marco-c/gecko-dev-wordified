@@ -134,6 +134,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -372,6 +381,7 @@ requested
 /
 class
 DOMSVGStringList
+MOZ_FINAL
 :
 public
 nsIDOMSVGStringList

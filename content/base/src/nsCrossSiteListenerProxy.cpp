@@ -4303,6 +4303,7 @@ CORS
 check
 class
 nsCORSPreflightListener
+MOZ_FINAL
 :
 public
 nsIStreamListener

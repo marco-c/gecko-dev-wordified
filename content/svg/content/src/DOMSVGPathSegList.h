@@ -161,6 +161,15 @@ IWYU
 pragma
 :
 keep
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMSVGPathSeg
 ;
@@ -381,6 +390,7 @@ them
 /
 class
 DOMSVGPathSegList
+MOZ_FINAL
 :
 public
 nsIDOMSVGPathSegList
