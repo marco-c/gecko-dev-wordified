@@ -9201,10 +9201,14 @@ if
 (
 obj
 =
-js_ComputeThisForFrame
+(
+fp
+)
+-
+>
+getThisObject
 (
 cx
-fp
 )
 )
 )
