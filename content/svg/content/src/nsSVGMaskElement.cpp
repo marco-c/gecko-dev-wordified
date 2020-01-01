@@ -1405,6 +1405,7 @@ sFEFloodMap
 sFiltersMap
 sFontSpecificationMap
 sGradientStopMap
+sGraphicsMap
 sMarkersMap
 sTextContentElementsMap
 sViewportsMap
