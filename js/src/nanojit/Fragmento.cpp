@@ -733,6 +733,7 @@ OPDEF
 op
 number
 operands
+repkind
 )
 \
 NanoAssertMsg
@@ -759,12 +760,15 @@ OPDEF64
 op
 number
 operands
+repkind
 )
+\
 OPDEF
 (
 op
 number
 operands
+repkind
 )
 #
 include
