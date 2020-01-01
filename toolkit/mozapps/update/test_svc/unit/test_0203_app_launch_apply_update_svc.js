@@ -227,7 +227,7 @@ it
 const
 APP_TIMER_TIMEOUT
 =
-15000
+20000
 ;
 Components
 .
