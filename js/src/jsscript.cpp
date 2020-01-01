@@ -7472,7 +7472,7 @@ jschar
 chars
 ;
 #
-if
+ifdef
 USE_ZLIB
 Rooted
 <
@@ -7485,6 +7485,8 @@ cx
 NULL
 )
 ;
+#
+endif
 #
 ifdef
 JS_THREADSAFE
@@ -7514,6 +7516,9 @@ currentChars
 else
 #
 endif
+#
+ifdef
+USE_ZLIB
 if
 (
 compressed
