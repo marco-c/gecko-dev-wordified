@@ -998,6 +998,10 @@ const
 nsACString
 &
 aHost
+uint32_t
+aAppId
+bool
+aIsInBrowserElement
 const
 nsCString
 &
