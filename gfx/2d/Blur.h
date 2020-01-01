@@ -388,7 +388,7 @@ is
 safe
 to
 pass
-NULL
+nullptr
 here
 .
 *
@@ -429,7 +429,7 @@ is
 safe
 to
 pass
-NULL
+nullptr
 here
 .
 *
@@ -628,7 +628,7 @@ to
 the
 constructor
 or
-NULL
+nullptr
 *
 if
 none

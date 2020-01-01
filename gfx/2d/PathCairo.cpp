@@ -291,7 +291,7 @@ mDrawTarget
 >
 SetPathObserver
 (
-NULL
+nullptr
 )
 ;
 }
@@ -331,7 +331,7 @@ mDrawTarget
 >
 SetPathObserver
 (
-NULL
+nullptr
 )
 ;
 }
@@ -939,7 +939,7 @@ ForgetDrawTarget
 {
 mDrawTarget
 =
-NULL
+nullptr
 ;
 }
 bool

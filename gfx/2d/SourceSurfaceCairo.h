@@ -145,7 +145,7 @@ aDrawTarget
 is
 non
 -
-NULL
+nullptr
 it
 is
 assumed
@@ -197,7 +197,7 @@ DrawTargetCairo
 *
 aDrawTarget
 =
-NULL
+nullptr
 )
 ;
 virtual

@@ -425,7 +425,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 tmpTexture
@@ -745,7 +745,7 @@ CombineWithGeometry
 (
 mClippedArea
 D2D1_COMBINE_MODE_EXCLUDE
-NULL
+nullptr
 sink
 )
 ;
@@ -869,7 +869,7 @@ false
 )
 mPrivateData
 (
-NULL
+nullptr
 )
 {
 }
@@ -1042,7 +1042,7 @@ mCachedLayers
 i
 ]
 =
-NULL
+nullptr
 ;
 mVRAMUsageDT
 -
@@ -1841,7 +1841,7 @@ ID3D10ShaderResourceView
 >
 srView
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1955,7 +1955,7 @@ mDevice
 CreateRenderTargetView
 (
 mTempTexture
-NULL
+nullptr
 byRef
 (
 mTempRTView
@@ -2040,7 +2040,7 @@ mDevice
 CreateShaderResourceView
 (
 mCurrentClipMaskTexture
-NULL
+nullptr
 byRef
 (
 maskSRView
@@ -2413,7 +2413,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 mipTexture
@@ -2629,7 +2629,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 tmpDSTexture
@@ -2756,7 +2756,7 @@ mDevice
 CreateShaderResourceView
 (
 mipTexture
-NULL
+nullptr
 byRef
 (
 srView
@@ -2789,7 +2789,7 @@ mDevice
 CreateRenderTargetView
 (
 tmpDSTexture
-NULL
+nullptr
 byRef
 (
 dsRTView
@@ -2802,7 +2802,7 @@ mDevice
 CreateShaderResourceView
 (
 tmpDSTexture
-NULL
+nullptr
 byRef
 (
 dsSRView
@@ -2871,7 +2871,7 @@ OMSetRenderTargets
 1
 &
 rtViews
-NULL
+nullptr
 )
 ;
 viewport
@@ -2982,7 +2982,7 @@ GetBlendStateForOperator
 (
 OP_OVER
 )
-NULL
+nullptr
 0xffffffff
 )
 ;
@@ -3442,7 +3442,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 tmpTexture
@@ -3455,7 +3455,7 @@ mDevice
 CreateRenderTargetView
 (
 tmpTexture
-NULL
+nullptr
 byRef
 (
 tmpRTView
@@ -3468,7 +3468,7 @@ mDevice
 CreateShaderResourceView
 (
 tmpTexture
-NULL
+nullptr
 byRef
 (
 tmpSRView
@@ -3492,7 +3492,7 @@ OMSetRenderTargets
 1
 &
 rtViews
-NULL
+nullptr
 )
 ;
 mPrivateData
@@ -3867,7 +3867,7 @@ OMSetRenderTargets
 1
 &
 rtViews
-NULL
+nullptr
 )
 ;
 Point
@@ -4197,7 +4197,7 @@ GetBlendStateForOperator
 (
 aOperator
 )
-NULL
+nullptr
 0xffffffff
 )
 ;
@@ -4528,7 +4528,7 @@ GetBlendStateForOperator
 (
 aOperator
 )
-NULL
+nullptr
 0xffffffff
 )
 ;
@@ -5710,7 +5710,7 @@ IDWriteRenderingParams
 *
 params
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6055,7 +6055,7 @@ D2D1
 InfiniteRect
 (
 )
-NULL
+nullptr
 D2D1_ANTIALIAS_MODE_PER_PRIMITIVE
 D2D1
 :
@@ -6193,11 +6193,11 @@ return
 }
 mCurrentClipMaskTexture
 =
-NULL
+nullptr
 ;
 mCurrentClippedGeometry
 =
-NULL
+nullptr
 ;
 RefPtr
 <
@@ -6367,7 +6367,7 @@ mTransform
 1
 .
 0f
-NULL
+nullptr
 options
 )
 clip
@@ -6391,11 +6391,11 @@ aRect
 {
 mCurrentClipMaskTexture
 =
-NULL
+nullptr
 ;
 mCurrentClippedGeometry
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6634,11 +6634,11 @@ PopClip
 {
 mCurrentClipMaskTexture
 =
-NULL
+nullptr
 ;
 mCurrentClippedGeometry
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6732,7 +6732,7 @@ mRT
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -6759,7 +6759,7 @@ const
 Unsupported
 !
 return
-NULL
+nullptr
 ;
 }
 TemporaryRef
@@ -6815,7 +6815,7 @@ surface
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 RefPtr
@@ -6875,7 +6875,7 @@ texture
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -6950,7 +6950,7 @@ Size
 aSize
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -7022,7 +7022,7 @@ Code
 hr
 ;
 return
-NULL
+nullptr
 ;
 }
 RefPtr
@@ -7073,7 +7073,7 @@ Code
 hr
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7239,7 +7239,7 @@ Code
 hr
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -7270,7 +7270,7 @@ NATIVE_SURFACE_D3D10_TEXTURE
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -7387,7 +7387,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 mTexture
@@ -7743,7 +7743,7 @@ d2deffect
 )
 0
 mDevice
-NULL
+nullptr
 byRef
 (
 mPrivateData
@@ -8410,7 +8410,7 @@ it
 .
 mSnapshot
 =
-NULL
+nullptr
 ;
 }
 else
@@ -9293,7 +9293,7 @@ OMSetRenderTargets
 1
 &
 rtViews
-NULL
+nullptr
 )
 ;
 UINT
@@ -9640,7 +9640,7 @@ GetBlendStateForOperator
 (
 aOperator
 )
-NULL
+nullptr
 0xffffffff
 )
 ;
@@ -10203,7 +10203,7 @@ surface
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 D3D10_TEXTURE2D_DESC
@@ -10306,7 +10306,7 @@ texture
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -10369,7 +10369,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 mTempTexture
@@ -10429,7 +10429,7 @@ mDevice
 CreateShaderResourceView
 (
 mTempTexture
-NULL
+nullptr
 byRef
 (
 mSRView
@@ -10482,7 +10482,7 @@ mDevice
 CreateRenderTargetView
 (
 mTexture
-NULL
+nullptr
 byRef
 (
 mRTView
@@ -10651,7 +10651,7 @@ mTransform
 1
 .
 0f
-NULL
+nullptr
 options
 )
 iter
@@ -10797,7 +10797,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 mCurrentClipMaskTexture
@@ -11429,7 +11429,7 @@ mDevice
 CreateShaderResourceView
 (
 tex
-NULL
+nullptr
 byRef
 (
 srView
@@ -11828,7 +11828,7 @@ mDevice
 CreateShaderResourceView
 (
 mCurrentClipMaskTexture
-NULL
+nullptr
 byRef
 (
 srViewMask
@@ -11985,7 +11985,7 @@ mDevice
 CreateRenderTargetView
 (
 mTexture
-NULL
+nullptr
 byRef
 (
 rtView
@@ -12004,7 +12004,7 @@ OMSetRenderTargets
 1
 &
 rtViews
-NULL
+nullptr
 )
 ;
 mDevice
@@ -12236,7 +12236,7 @@ pattern
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -12457,7 +12457,7 @@ pattern
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -12592,7 +12592,7 @@ pattern
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 RefPtr
@@ -12660,7 +12660,7 @@ bitmap
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -12751,7 +12751,7 @@ bitmap
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -12830,7 +12830,7 @@ detected
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 TemporaryRef
@@ -13149,7 +13149,7 @@ aStrokeOptions
 .
 mMiterLimit
 )
-NULL
+nullptr
 0
 byRef
 (
@@ -13857,7 +13857,7 @@ delete
 texture
 ;
 return
-NULL
+nullptr
 ;
 }
 int
@@ -14149,7 +14149,7 @@ hr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -14268,7 +14268,7 @@ be
 drawn
 .
 return
-NULL
+nullptr
 ;
 }
 Rect
@@ -14922,7 +14922,7 @@ false
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ImageHalfScaler
@@ -15393,7 +15393,7 @@ mDevice
 CreateShaderResourceView
 (
 tex
-NULL
+nullptr
 byRef
 (
 srView
@@ -16047,7 +16047,7 @@ function
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 D2D1_FACTORY_OPTIONS
@@ -16188,7 +16188,7 @@ function
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 HRESULT

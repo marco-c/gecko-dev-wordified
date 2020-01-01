@@ -522,7 +522,7 @@ GlyphRenderingOptions
 *
 aRenderingOptions
 =
-NULL
+nullptr
 )
 ;
 virtual
@@ -764,7 +764,7 @@ Path
 *
 aPath
 =
-NULL
+nullptr
 )
 ;
 private
@@ -876,7 +876,7 @@ Path
 *
 aPath
 =
-NULL
+nullptr
 )
 ;
 /

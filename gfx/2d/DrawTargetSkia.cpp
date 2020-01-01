@@ -1010,7 +1010,7 @@ this
 )
 {
 return
-NULL
+nullptr
 ;
 }
 AppendSnapshot
@@ -1978,7 +1978,7 @@ mCanvas
 >
 saveLayer
 (
-NULL
+nullptr
 &
 temp
 )
@@ -3670,7 +3670,7 @@ Size
 aSize
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3720,7 +3720,7 @@ aFormat
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3743,7 +3743,7 @@ aSurface
 const
 {
 return
-NULL
+nullptr
 ;
 }
 TemporaryRef
@@ -3763,7 +3763,7 @@ aSurface
 const
 {
 return
-NULL
+nullptr
 ;
 }
 void

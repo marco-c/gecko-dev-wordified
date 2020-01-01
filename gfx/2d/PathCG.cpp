@@ -153,7 +153,7 @@ aPoint
 CGPathMoveToPoint
 (
 mCGPath
-NULL
+nullptr
 aPoint
 .
 x
@@ -191,7 +191,7 @@ else
 CGPathAddLineToPoint
 (
 mCGPath
-NULL
+nullptr
 aPoint
 .
 x
@@ -236,7 +236,7 @@ aCP1
 CGPathAddCurveToPoint
 (
 mCGPath
-NULL
+nullptr
 aCP1
 .
 x
@@ -289,7 +289,7 @@ aCP1
 CGPathAddQuadCurveToPoint
 (
 mCGPath
-NULL
+nullptr
 aCP1
 .
 x
@@ -904,7 +904,7 @@ return
 CGPathContainsPoint
 (
 mPath
-NULL
+nullptr
 point
 mFillRule
 =
@@ -956,7 +956,7 @@ callbacks
 =
 {
 PutBytesNull
-NULL
+nullptr
 }
 ;
 CGDataConsumerRef
@@ -964,7 +964,7 @@ consumer
 =
 CGDataConsumerCreate
 (
-NULL
+nullptr
 &
 callbacks
 )
@@ -975,8 +975,8 @@ cg
 CGPDFContextCreate
 (
 consumer
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 CGDataConsumerRelease

@@ -1279,7 +1279,7 @@ Code
 hr
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1387,7 +1387,7 @@ Code
 hr
 ;
 return
-NULL
+nullptr
 ;
 }
 RefPtr
@@ -1438,7 +1438,7 @@ Code
 hr
 ;
 return
-NULL
+nullptr
 ;
 }
 if
