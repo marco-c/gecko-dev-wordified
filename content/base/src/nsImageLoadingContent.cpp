@@ -615,6 +615,13 @@ h
 #
 include
 "
+nsGenericHTMLElement
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h
@@ -4349,7 +4356,7 @@ if
 corsmode
 =
 =
-nsImageLoadingContent
+nsGenericHTMLElement
 :
 :
 CORS_ANONYMOUS
@@ -4370,7 +4377,7 @@ if
 corsmode
 =
 =
-nsImageLoadingContent
+nsGenericHTMLElement
 :
 :
 CORS_USE_CREDENTIALS
@@ -6513,7 +6520,7 @@ mSuppressed
 mSuppressed
 ;
 }
-nsImageLoadingContent
+nsGenericHTMLElement
 :
 :
 CORSMode
@@ -6525,6 +6532,9 @@ GetCORSMode
 )
 {
 return
+nsGenericHTMLElement
+:
+:
 CORS_NONE
 ;
 }
