@@ -2733,6 +2733,11 @@ manifest
 msg
 .
 manifest
+target
+:
+msg
+.
+target
 }
 )
 ;

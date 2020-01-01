@@ -500,6 +500,16 @@ manifest
 aPage
 .
 manifest
+type
+:
+aPage
+.
+type
+target
+:
+aMessage
+.
+target
 }
 ;
 debug
