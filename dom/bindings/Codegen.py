@@ -4645,7 +4645,7 @@ m
 return
 m
 .
-extendedAttribute
+getExtendedAttribute
 (
 "
 ChromeOnly
