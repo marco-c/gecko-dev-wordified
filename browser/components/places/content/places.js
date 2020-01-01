@@ -3426,11 +3426,9 @@ nsIFilePicker
 returnCancel
 )
 {
-PlacesUtils
+BookmarkJSONUtils
 .
-backups
-.
-saveBookmarksToJSONFile
+exportToFile
 (
 fp
 .

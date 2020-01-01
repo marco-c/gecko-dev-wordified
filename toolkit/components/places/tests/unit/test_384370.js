@@ -526,11 +526,10 @@ exported
 json
 try
 {
-PlacesUtils
+yield
+BookmarkJSONUtils
 .
-backups
-.
-saveBookmarksToJSONFile
+exportToFile
 (
 jsonFile
 )
