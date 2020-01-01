@@ -1312,13 +1312,6 @@ h
 #
 include
 "
-jsinterpinlines
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h
@@ -8887,8 +8880,8 @@ isArray
 (
 )
 )
-{
-ReportIncompatibleMethod
+return
+HandleNonGenericMethodClassMismatch
 (
 cx
 args
@@ -8896,10 +8889,6 @@ args
 ArrayClass
 )
 ;
-return
-false
-;
-}
 ArraySharpDetector
 detector
 (
