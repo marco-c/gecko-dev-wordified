@@ -168,7 +168,7 @@ ETextEquivRule
 No
 rule
 .
-eNoRule
+eNoNameRule
 =
 0x00
 /
@@ -204,7 +204,7 @@ equivalent
 computation
 )
 .
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 =
 0x01
 /
@@ -217,7 +217,7 @@ subtree
 is
 allowed
 .
-eFromSubtree
+eNameFromSubtreeRule
 =
 0x03
 /
@@ -262,7 +262,7 @@ can
 remove
 this
 .
-eFromValue
+eNameFromValueRule
 =
 0x04
 }
