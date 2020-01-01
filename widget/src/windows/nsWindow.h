@@ -2119,6 +2119,12 @@ aLParam
 PRBool
 &
 aResult
+LRESULT
+*
+aRetValue
+PRBool
+&
+aQuitProcessing
 )
 ;
 /
