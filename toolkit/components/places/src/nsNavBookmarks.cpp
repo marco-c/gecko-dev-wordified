@@ -10375,10 +10375,8 @@ if
 aIndex
 =
 =
-nsINavBookmarksService
-:
-:
-DEFAULT_INDEX
+-
+1
 )
 {
 newIndex
@@ -10746,6 +10744,8 @@ AdjustIndices
 (
 aNewParent
 newIndex
++
+1
 PR_INT32_MAX
 1
 )
