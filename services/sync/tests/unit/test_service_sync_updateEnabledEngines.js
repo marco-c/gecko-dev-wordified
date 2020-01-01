@@ -558,7 +558,9 @@ serverKeys
 .
 encrypt
 (
-Identity
+Service
+.
+identity
 .
 syncKeyBundle
 )
@@ -1873,7 +1875,9 @@ wbo
 .
 encrypt
 (
-Identity
+Service
+.
+identity
 .
 syncKeyBundle
 )

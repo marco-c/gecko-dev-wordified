@@ -285,7 +285,9 @@ do_check_eq
 data
 .
 account
-Identity
+Service
+.
+identity
 .
 account
 )
@@ -295,7 +297,9 @@ do_check_eq
 data
 .
 password
-Identity
+Service
+.
+identity
 .
 basicPassword
 )
@@ -305,7 +309,9 @@ do_check_eq
 data
 .
 synckey
-Identity
+Service
+.
+identity
 .
 syncKey
 )

@@ -368,7 +368,9 @@ undefined
 ;
 do_check_eq
 (
-Identity
+Service
+.
+identity
 .
 basicPassword
 null
@@ -376,7 +378,9 @@ null
 ;
 do_check_eq
 (
-Identity
+Service
+.
+identity
 .
 syncKey
 null

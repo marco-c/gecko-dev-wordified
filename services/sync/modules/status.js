@@ -189,7 +189,10 @@ Status
 )
 _authManager
 :
-Identity
+new
+IdentityManager
+(
+)
 ready
 :
 false

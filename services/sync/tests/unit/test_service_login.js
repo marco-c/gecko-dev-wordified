@@ -706,7 +706,9 @@ set
 "
 )
 ;
-Identity
+Service
+.
+identity
 .
 account
 =
@@ -714,7 +716,9 @@ account
 johndoe
 "
 ;
-Identity
+Service
+.
+identity
 .
 basicPassword
 =
@@ -763,7 +767,9 @@ set
 "
 )
 ;
-Identity
+Service
+.
+identity
 .
 syncKey
 =
@@ -1528,7 +1534,9 @@ monkeypatching
 let
 oldGetter
 =
-Identity
+Service
+.
+identity
 .
 __lookupGetter__
 (
@@ -1540,7 +1548,9 @@ syncKey
 let
 oldSetter
 =
-Identity
+Service
+.
+identity
 .
 __lookupSetter__
 (
@@ -1561,7 +1571,9 @@ is
 oldGetter
 )
 ;
-Identity
+Service
+.
+identity
 .
 __defineGetter__
 (
@@ -1757,7 +1769,9 @@ do_check_false
 lockedSyncCalled
 )
 ;
-Identity
+Service
+.
+identity
 .
 __defineGetter__
 (
@@ -1767,7 +1781,9 @@ syncKey
 oldGetter
 )
 ;
-Identity
+Service
+.
+identity
 .
 __defineSetter__
 (

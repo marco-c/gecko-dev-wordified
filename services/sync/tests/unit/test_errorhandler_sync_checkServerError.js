@@ -526,9 +526,9 @@ serverKeys
 .
 encrypt
 (
-Weave
+Service
 .
-Identity
+identity
 .
 syncKeyBundle
 )

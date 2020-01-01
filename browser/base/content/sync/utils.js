@@ -1495,7 +1495,9 @@ val1
 =
 Weave
 .
-Identity
+Service
+.
+identity
 .
 username
 )
@@ -1520,7 +1522,9 @@ val1
 =
 Weave
 .
-Identity
+Service
+.
+identity
 .
 account
 )
@@ -1545,7 +1549,9 @@ val1
 =
 Weave
 .
-Identity
+Service
+.
+identity
 .
 basicPassword
 )
