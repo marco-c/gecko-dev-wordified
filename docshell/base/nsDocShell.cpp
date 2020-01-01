@@ -58754,6 +58754,11 @@ NS_ERROR_DOM_SECURITY_ERR
 ;
 }
 }
+if
+(
+mCurrentURI
+)
+{
 mCurrentURI
 -
 >
@@ -58764,6 +58769,14 @@ newURI
 equalURIs
 )
 ;
+}
+else
+{
+equalURIs
+=
+false
+;
+}
 }
 /
 /
