@@ -395,22 +395,10 @@ name
 "
 -
 -
-mtime
-=
-2012
--
-01
--
-01
-"
-"
--
--
 owner
 =
 root
 "
-                  
 directory
 ]
 )
@@ -600,7 +588,7 @@ stage_dir
 +
 "
 /
-inst
+clang
 "
     
 configure_opts
@@ -1035,7 +1023,7 @@ tar
 .
 bz2
 "
-stage3_dir
+stage2_dir
 "
 clang
 "
