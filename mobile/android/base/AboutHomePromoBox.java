@@ -634,11 +634,6 @@ getString
 (
 mTextResource
 )
-+
-"
-\
-u00BB
-"
 ;
 final
 String
