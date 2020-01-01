@@ -21798,13 +21798,6 @@ alloc
 len
 )
 ;
-memset
-(
-guard
-0
-len
-)
-;
 VMSideExit
 *
 exit
@@ -21858,7 +21851,7 @@ guard
 >
 profCount
 is
-memset
+calloc
 '
 d
 to
