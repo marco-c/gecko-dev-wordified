@@ -11548,6 +11548,17 @@ hsla
 )
 inset
 ;
+color
+:
+hsl
+(
+0
+0
+%
+60
+%
+)
+;
 }
 .
 panel
