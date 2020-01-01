@@ -10598,7 +10598,6 @@ listener
 WillPaintWindow
 (
 this
-true
 )
 ;
 /

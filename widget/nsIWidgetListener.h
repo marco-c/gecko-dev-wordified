@@ -934,8 +934,6 @@ WillPaintWindow
 nsIWidget
 *
 aWidget
-bool
-aWillSendDidPaint
 )
 {
 }

@@ -5652,7 +5652,6 @@ mWidgetListener
 WillPaintWindow
 (
 this
-true
 )
 ;
 switch

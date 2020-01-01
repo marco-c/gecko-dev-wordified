@@ -2305,7 +2305,6 @@ listener
 WillPaintWindow
 (
 this
-true
 )
 ;
 }

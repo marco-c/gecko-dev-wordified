@@ -5685,7 +5685,6 @@ mWidgetListener
 WillPaintWindow
 (
 this
-true
 )
 ;
 }
