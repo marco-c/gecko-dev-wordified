@@ -11483,9 +11483,8 @@ endif
 historyInt
 -
 >
-EvictContentViewers
+EvictOutOfRangeContentViewers
 (
-prevIndex
 loadedIndex
 )
 ;
