@@ -177,6 +177,15 @@ return
 scx
 ;
 }
+JSObject
+*
+GetDefaultScopeFromJSContext
+(
+JSContext
+*
+cx
+)
+;
 /
 /
 A
