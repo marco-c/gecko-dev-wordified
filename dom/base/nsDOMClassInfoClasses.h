@@ -500,10 +500,6 @@ TimeEvent
 )
 DOMCI_CLASS
 (
-SVGFEColorMatrixElement
-)
-DOMCI_CLASS
-(
 SVGFECompositeElement
 )
 DOMCI_CLASS
