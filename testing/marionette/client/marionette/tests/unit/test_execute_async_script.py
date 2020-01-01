@@ -63,6 +63,8 @@ import
 JavascriptException
 MarionetteException
 ScriptTimeoutException
+import
+time
 class
 TestExecuteAsyncContent
 (
@@ -254,6 +256,18 @@ marionetteScriptFinished
 ;
 "
 )
+        
+time
+.
+sleep
+(
+3
+)
+#
+XXX
+:
+bug
+837137
     
 def
 test_no_timeout
