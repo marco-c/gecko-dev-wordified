@@ -2654,6 +2654,7 @@ pn_funbox
 =
 newFunctionBox
 (
+pn
 opn
 -
 >

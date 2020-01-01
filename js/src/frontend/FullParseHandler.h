@@ -2265,6 +2265,17 @@ FunctionBox
 funbox
 )
 {
+JS_ASSERT
+(
+pn
+-
+>
+isKind
+(
+PNK_FUNCTION
+)
+)
+;
 pn
 -
 >

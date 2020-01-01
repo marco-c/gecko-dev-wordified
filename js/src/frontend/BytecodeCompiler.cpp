@@ -2015,6 +2015,13 @@ parser
 .
 newFunctionBox
 (
+/
+*
+fn
+=
+*
+/
+NULL
 fun
 pc
 .

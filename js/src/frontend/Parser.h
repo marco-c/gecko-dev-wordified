@@ -2715,6 +2715,8 @@ FunctionBox
 *
 newFunctionBox
 (
+Node
+fn
 JSFunction
 *
 fun
