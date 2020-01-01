@@ -3273,7 +3273,7 @@ screenManager
 .
 primaryScreen
 .
-GetRect
+GetRectDisplayPix
 (
 left
 top
