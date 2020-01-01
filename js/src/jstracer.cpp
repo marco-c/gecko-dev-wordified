@@ -6389,13 +6389,13 @@ stackval
 ;
 if
 (
-JSVAL_IS_INT
+isInt
 (
 l
 )
 &
 &
-JSVAL_IS_INT
+isInt
 (
 r
 )
