@@ -10126,10 +10126,11 @@ event
 .
 location
 =
-nsIDOMKeyEvent
-:
-:
-DOM_KEY_LOCATION_MOBILE
+key
+.
+DomKeyLocation
+(
+)
 ;
 event
 .
