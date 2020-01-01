@@ -2548,7 +2548,7 @@ ww
 .
 unregisterNotification
 (
-windowObserver
+firstWindowObserver
 )
 ;
 }
