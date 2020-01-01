@@ -1925,6 +1925,10 @@ DOMCI_CLASS
 (
 SimpleGestureEvent
 )
+DOMCI_CLASS
+(
+MozTouchEvent
+)
 #
 ifdef
 MOZ_MATHML
