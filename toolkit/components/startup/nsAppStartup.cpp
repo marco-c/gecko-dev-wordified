@@ -1093,7 +1093,7 @@ using
 namespace
 mozilla
 ;
-PRUint32
+uint32_t
 gRestartMode
 =
 0
@@ -1814,11 +1814,11 @@ nsAppStartup
 :
 Quit
 (
-PRUint32
+uint32_t
 aMode
 )
 {
-PRUint32
+uint32_t
 ferocity
 =
 (
@@ -2252,7 +2252,7 @@ MOZ_APP_RESTART
 lld
 "
 (
-PRInt64
+int64_t
 )
 PR_Now
 (
@@ -3124,7 +3124,7 @@ CreateChromeWindow
 nsIWebBrowserChrome
 *
 aParent
-PRUint32
+uint32_t
 aChromeFlags
 nsIWebBrowserChrome
 *
@@ -3167,9 +3167,9 @@ CreateChromeWindow2
 nsIWebBrowserChrome
 *
 aParent
-PRUint32
+uint32_t
 aChromeFlags
-PRUint32
+uint32_t
 aContextFlags
 nsIURI
 *
@@ -3760,7 +3760,7 @@ defined
 ANDROID
 )
 static
-PRUint64
+uint64_t
 JiffiesSinceBoot
 (
 const
@@ -3845,7 +3845,7 @@ starttime
 /
 instead
 of
-PRUint64
+uint64_t
 to
 keep
 GCC
@@ -4025,7 +4025,7 @@ __NR_gettid
 )
 )
 ;
-PRUint64
+uint64_t
 thread_jiffies
 =
 JiffiesSinceBoot
@@ -4033,7 +4033,7 @@ JiffiesSinceBoot
 thread_stat
 )
 ;
-PRUint64
+uint64_t
 self_jiffies
 =
 JiffiesSinceBoot
@@ -4176,7 +4176,7 @@ copied
 from
 NSPR
 _PR_FileTimeToPRTime
-PRUint64
+uint64_t
 timestamp
 =
 0
@@ -4843,7 +4843,7 @@ aIsSafeModeNecessary
 )
 {
 const
-PRInt32
+int32_t
 MAX_TIME_SINCE_STARTUP
 =
 6
@@ -4855,7 +4855,7 @@ MAX_TIME_SINCE_STARTUP
 1000
 ;
 const
-PRInt32
+int32_t
 MAX_STARTUP_BUFFER
 =
 10
@@ -4970,7 +4970,7 @@ GetInSafeMode
 inSafeMode
 )
 ;
-PRInt64
+int64_t
 replacedLockTime
 ;
 rv
@@ -5026,7 +5026,7 @@ safe
 mode
 is
 necessary
-PRInt32
+int32_t
 maxResumedCrashes
 =
 -
@@ -5050,7 +5050,7 @@ rv
 NS_OK
 )
 ;
-PRInt32
+int32_t
 recentCrashes
 =
 0
@@ -5176,7 +5176,7 @@ of
 last
 successful
 startup
-PRInt32
+int32_t
 lastSuccessfulStartup
 ;
 rv
@@ -5197,11 +5197,11 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 lockSeconds
 =
 (
-PRInt32
+int32_t
 )
 (
 replacedLockTime
@@ -5677,11 +5677,11 @@ time
 }
 else
 {
-PRInt32
+int32_t
 lockFileTime
 =
 (
-PRInt32
+int32_t
 )
 (
 mainTime
@@ -5757,12 +5757,12 @@ to
 safe
 mode
 .
-PRInt32
+int32_t
 maxResumedCrashes
 =
 0
 ;
-PRInt32
+int32_t
 prefType
 ;
 rv
@@ -5935,7 +5935,7 @@ nsAppStartup
 :
 RestartInSafeMode
 (
-PRUint32
+uint32_t
 aQuitMode
 )
 {
