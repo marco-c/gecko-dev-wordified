@@ -3101,7 +3101,13 @@ of
 the
 location
 bar
-handleURLBarRevert
+if
+(
+gURLBar
+)
+gURLBar
+.
+handleRevert
 (
 )
 ;
