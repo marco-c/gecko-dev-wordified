@@ -5452,9 +5452,10 @@ GetRowCount
 ;
 if
 (
-rowCount
-<
 rowIndex
+>
+=
+rowCount
 )
 {
 /
@@ -5527,6 +5528,8 @@ index
 +
 =
 cellMapIdx
++
+1
 ;
 rowIndex
 -
@@ -5769,6 +5772,8 @@ index
 -
 =
 cellMapIdx
++
+1
 ;
 previousRows
 +
