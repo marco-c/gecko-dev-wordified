@@ -4326,6 +4326,15 @@ gcArenasAllocatedDuringSweep
 (
 NULL
 )
+#
+ifdef
+DEBUG
+gcMarkingValidator
+(
+NULL
+)
+#
+endif
 gcInterFrameGC
 (
 0
