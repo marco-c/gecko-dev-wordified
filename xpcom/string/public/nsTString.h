@@ -2795,12 +2795,15 @@ storageSize
 string_type
 (
 data
+PRUint32
+(
 char_traits
 :
 :
 length
 (
 data
+)
 )
 F_TERMINATED
 |

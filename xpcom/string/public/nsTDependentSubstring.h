@@ -620,9 +620,12 @@ char_type
 (
 start
 )
+PRUint32
+(
 end
 -
 start
+)
 F_NONE
 )
 {
@@ -653,6 +656,8 @@ get
 (
 )
 )
+PRUint32
+(
 end
 .
 get
@@ -663,6 +668,7 @@ start
 .
 get
 (
+)
 )
 F_NONE
 )

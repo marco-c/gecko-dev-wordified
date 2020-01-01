@@ -2793,6 +2793,9 @@ HasSingle
 const
 {
 return
+!
+!
+(
 reinterpret_cast
 <
 PRWord
@@ -2802,6 +2805,7 @@ mImpl
 )
 &
 0x1
+)
 ;
 }
 void

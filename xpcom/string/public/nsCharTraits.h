@@ -3680,6 +3680,8 @@ assumes
 single
 fragment
 return
+PRUint32
+(
 last
 .
 get
@@ -3690,6 +3692,7 @@ first
 .
 get
 (
+)
 )
 ;
 }

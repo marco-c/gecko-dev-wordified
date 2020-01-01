@@ -2985,6 +2985,8 @@ int
 :
 kIID
 \
+PROffset32
+(
 reinterpret_cast
 <
 char
@@ -3018,6 +3020,7 @@ _class
 *
 )
 0x1000
+)
 )
 \
 }
@@ -3043,6 +3046,8 @@ int
 :
 kIID
 \
+PROffset32
+(
 reinterpret_cast
 <
 char
@@ -3085,6 +3090,7 @@ _class
 *
 )
 0x1000
+)
 )
 \
 }
