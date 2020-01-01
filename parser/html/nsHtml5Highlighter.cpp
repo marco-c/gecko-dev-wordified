@@ -2061,6 +2061,9 @@ to
 /
 highlighting
 case
+NS_HTML5TOKENIZER_COMMENT_START
+:
+case
 NS_HTML5TOKENIZER_COMMENT_END
 :
 case
