@@ -2768,10 +2768,13 @@ repatch
 mic
 .
 shape
+int
+(
 JSObjectMap
 :
 :
 INVALID_SHAPE
+)
 )
 ;
 /
