@@ -885,7 +885,7 @@ thisArg
 .
 _log
 .
-debug
+trace
 (
 "
 Event

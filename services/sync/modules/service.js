@@ -7960,7 +7960,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Next

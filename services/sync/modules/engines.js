@@ -2086,7 +2086,7 @@ this
 .
 _log
 .
-info
+debug
 (
 stats
 )
@@ -2718,7 +2718,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Ensuring
@@ -3050,7 +3050,7 @@ this
 .
 _log
 .
-info
+debug
 (
 "
 First
@@ -3178,7 +3178,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Downloading
@@ -4867,7 +4867,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Preparing
