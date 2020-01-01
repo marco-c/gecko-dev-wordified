@@ -1220,6 +1220,13 @@ httpStatus
 )
 ;
 nsresult
+ProcessFailedSSLConnect
+(
+PRUint32
+httpStatus
+)
+;
+nsresult
 ProcessAuthentication
 (
 PRUint32
