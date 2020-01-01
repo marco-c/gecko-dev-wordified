@@ -106,6 +106,7 @@ h
 "
 class
 nsClipboard
+MOZ_FINAL
 :
 public
 nsIClipboard

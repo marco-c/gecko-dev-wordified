@@ -138,6 +138,7 @@ NS_EXTERNALURLHANDLERSERVICE_CID
 }
 class
 nsExternalURLHandlerService
+MOZ_FINAL
 :
 public
 nsIExternalURLHandlerService

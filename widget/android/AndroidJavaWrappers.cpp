@@ -6664,6 +6664,7 @@ jobj
 }
 class
 nsAndroidDisplayport
+MOZ_FINAL
 :
 public
 nsIAndroidDisplayport

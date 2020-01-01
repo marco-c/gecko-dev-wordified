@@ -170,6 +170,7 @@ h
 "
 class
 AndroidCaptureProvider
+MOZ_FINAL
 :
 public
 nsDeviceCaptureProvider
@@ -210,6 +211,7 @@ sInstance
 ;
 class
 AndroidCameraInputStream
+MOZ_FINAL
 :
 public
 nsIAsyncInputStream
