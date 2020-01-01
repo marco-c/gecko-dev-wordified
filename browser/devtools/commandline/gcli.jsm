@@ -193,7 +193,8 @@ com
 >
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -74829,7 +74830,8 @@ n
 /
 Satisfy
 EXPORTED_SYMBOLS
-const
+this
+.
 gcli
 =
 require
