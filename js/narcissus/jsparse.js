@@ -446,16 +446,6 @@ Parser
 .
 *
 /
-/
-*
-*
-The
-vanilla
-AST
-builder
-.
-*
-/
 Narcissus
 .
 jsparse
@@ -495,6 +485,16 @@ jsdefs
 consts
 )
 ;
+/
+*
+*
+The
+vanilla
+AST
+builder
+.
+*
+/
 VanillaBuilder
 =
 function
@@ -3277,8 +3277,6 @@ n
 {
 }
 ARRAY_COMP
-:
-{
 build
 :
 function
@@ -3295,6 +3293,7 @@ ARRAY_COMP
 )
 ;
 }
+ARRAY_COMP
 setExpression
 :
 function
@@ -3309,6 +3308,7 @@ expression
 =
 e
 }
+ARRAY_COMP
 setTail
 :
 function
@@ -3324,6 +3324,7 @@ tail
 n2
 ;
 }
+ARRAY_COMP
 finish
 :
 function
@@ -3331,7 +3332,6 @@ function
 n
 )
 {
-}
 }
 COMP_TAIL
 build
