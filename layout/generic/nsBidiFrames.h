@@ -457,8 +457,6 @@ nsDirectionalFrame
 nsStyleContext
 *
 aContext
-PRUnichar
-aChar
 )
 ;
 /
@@ -490,16 +488,6 @@ GetType
 )
 const
 ;
-PRUnichar
-GetChar
-(
-)
-const
-{
-return
-mChar
-;
-}
 #
 ifdef
 NS_DEBUG
@@ -514,11 +502,6 @@ const
 ;
 #
 endif
-private
-:
-PRUnichar
-mChar
-;
 }
 ;
 #
