@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIDOMSVGNumberList
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -145,6 +138,13 @@ h
 include
 "
 SVGNumberList
+.
+h
+"
+#
+include
+"
+nsIDOMSVGNumber
 .
 h
 "
@@ -302,7 +302,7 @@ DOMSVGNumberList
 MOZ_FINAL
 :
 public
-nsIDOMSVGNumberList
+nsISupports
 public
 nsWrapperCache
 {
@@ -317,7 +317,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGNumberList
 )
-NS_DECL_NSIDOMSVGNUMBERLIST
 DOMSVGNumberList
 (
 DOMSVGAnimatedNumberList

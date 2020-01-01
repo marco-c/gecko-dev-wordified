@@ -8280,7 +8280,7 @@ this
 *
 readonly
 attribute
-nsIDOMSVGAnimatedNumberList
+DOMSVGAnimatedNumberList
 values
 ;
 *
@@ -8291,7 +8291,7 @@ nsSVGFEColorMatrixElement
 :
 GetValues
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aValues
@@ -13609,7 +13609,7 @@ this
 *
 readonly
 attribute
-nsIDOMSVGAnimatedNumberList
+DOMSVGAnimatedNumberList
 tableValues
 ;
 *
@@ -13620,7 +13620,7 @@ nsSVGComponentTransferFunctionElement
 :
 GetTableValues
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aTableValues
@@ -27217,7 +27217,7 @@ nsSVGFEConvolveMatrixElement
 :
 GetKernelMatrix
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aKernelMatrix

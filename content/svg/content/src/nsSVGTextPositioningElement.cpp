@@ -559,7 +559,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMSVGAnimatedNumberList
+DOMSVGAnimatedNumberList
 rotate
 ;
 *
@@ -570,7 +570,7 @@ nsSVGTextPositioningElement
 :
 GetRotate
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aRotate
