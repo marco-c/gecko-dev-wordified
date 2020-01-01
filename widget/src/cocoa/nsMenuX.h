@@ -446,6 +446,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIMenu
 .
 h
@@ -504,6 +511,9 @@ nsIMenuListener
 ;
 class
 nsMenuX
+;
+class
+nsMenuItemIconX
 ;
 /
 /
@@ -1081,6 +1091,12 @@ mListener
 /
 strong
 ref
+nsRefPtr
+<
+nsMenuItemIconX
+>
+mIcon
+;
 /
 /
 Mac

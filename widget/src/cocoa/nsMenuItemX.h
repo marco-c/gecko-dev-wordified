@@ -479,6 +479,13 @@ nsIWidget
 h
 "
 #
+include
+"
+nsAutoPtr
+.
+h
+"
+#
 import
 <
 Cocoa
@@ -489,6 +496,9 @@ h
 >
 class
 nsIMenu
+;
+class
+nsMenuItemIconX
 ;
 /
 *
@@ -835,6 +845,12 @@ nsCOMPtr
 nsIContent
 >
 mCommandContent
+;
+nsRefPtr
+<
+nsMenuItemIconX
+>
+mIcon
 ;
 PRUint8
 mModifiers
