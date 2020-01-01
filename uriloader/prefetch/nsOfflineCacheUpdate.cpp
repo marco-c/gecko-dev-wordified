@@ -452,7 +452,7 @@ h
 #
 include
 "
-nsIApplicationCacheContainer
+nsIApplicationCacheChannel
 .
 h
 "
@@ -1340,9 +1340,9 @@ rv
 ;
 nsCOMPtr
 <
-nsIApplicationCacheContainer
+nsIApplicationCacheChannel
 >
-appCacheContainer
+appCacheChannel
 =
 do_QueryInterface
 (
@@ -1355,7 +1355,7 @@ rv
 /
 Support
 for
-nsIApplicationCacheContainer
+nsIApplicationCacheChannel
 is
 required
 .
@@ -1380,7 +1380,7 @@ check
 .
 rv
 =
-appCacheContainer
+appCacheChannel
 -
 >
 SetApplicationCache

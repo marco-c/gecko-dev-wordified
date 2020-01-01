@@ -663,7 +663,7 @@ h
 #
 include
 "
-nsIApplicationCacheContainer
+nsIApplicationCacheChannel
 .
 h
 "
@@ -963,7 +963,7 @@ nsIProxiedChannel
 public
 nsITraceableChannel
 public
-nsIApplicationCacheContainer
+nsIApplicationCacheChannel
 {
 public
 :
@@ -985,6 +985,7 @@ NS_DECL_NSIPROTOCOLPROXYCALLBACK
 NS_DECL_NSIPROXIEDCHANNEL
 NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
+NS_DECL_NSIAPPLICATIONCACHECHANNEL
 nsHttpChannel
 (
 )
@@ -2110,6 +2111,16 @@ cache
 .
 PRUint32
 mFallbackChannel
+:
+1
+;
+PRUint32
+mInheritApplicationCache
+:
+1
+;
+PRUint32
+mChooseApplicationCache
 :
 1
 ;
