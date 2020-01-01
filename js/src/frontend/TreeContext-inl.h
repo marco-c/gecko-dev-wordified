@@ -665,9 +665,11 @@ stmt
 ;
 if
 (
-STMT_LINKS_SCOPE
-(
 stmt
+-
+>
+linksScope
+(
 )
 )
 {
@@ -819,9 +821,11 @@ down
 ;
 if
 (
-STMT_LINKS_SCOPE
-(
 stmt
+-
+>
+linksScope
+(
 )
 )
 {
