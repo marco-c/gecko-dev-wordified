@@ -2297,16 +2297,14 @@ attrs
 JSPROP_SETTER
 )
 return
-ExternalGetOrSet
+InvokeGetterOrSetter
 (
 cx
 obj
-id
 CastAsObjectJsval
 (
 op
 )
-JSACC_WRITE
 1
 vp
 vp

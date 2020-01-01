@@ -1643,7 +1643,7 @@ argc
 if
 (
 !
-Invoke
+InvokeKernel
 (
 f
 .
@@ -1681,7 +1681,7 @@ argc
 if
 (
 !
-InvokeConstructor
+InvokeConstructorKernel
 (
 f
 .
@@ -2971,7 +2971,7 @@ else
 if
 (
 !
-InvokeConstructor
+InvokeConstructorKernel
 (
 cx
 args
@@ -3069,7 +3069,7 @@ calleev
 if
 (
 !
-Invoke
+InvokeKernel
 (
 f
 .
@@ -3303,7 +3303,7 @@ return
 if
 (
 !
-Invoke
+InvokeKernel
 (
 f
 .

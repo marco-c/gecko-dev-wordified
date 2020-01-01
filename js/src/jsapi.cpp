@@ -27992,7 +27992,7 @@ scriptObj
 JSBool
 ok
 =
-ExternalExecute
+Execute
 (
 cx
 scriptObj
@@ -28171,7 +28171,7 @@ compileVersion
 bool
 ok
 =
-ExternalExecute
+Execute
 (
 cx
 script
@@ -28669,7 +28669,7 @@ argc
 JSBool
 ok
 =
-ExternalInvoke
+Invoke
 (
 cx
 ObjectOrNullValue
@@ -28804,7 +28804,7 @@ addr
 )
 &
 &
-ExternalInvoke
+Invoke
 (
 cx
 ObjectOrNullValue
@@ -28898,7 +28898,7 @@ argc
 JSBool
 ok
 =
-ExternalInvoke
+Invoke
 (
 cx
 ObjectOrNullValue
@@ -28978,7 +28978,7 @@ argc
 ;
 ok
 =
-ExternalInvoke
+Invoke
 (
 cx
 Valueify
@@ -29101,7 +29101,7 @@ among
 other
 details
 .
-js_InvokeConstructor
+InvokeConstructor
 does
 the
 hard
