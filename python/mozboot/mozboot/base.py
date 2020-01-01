@@ -62,6 +62,8 @@ import
 os
 import
 subprocess
+import
+sys
 class
 BaseBootstrapper
 (
@@ -254,6 +256,11 @@ subprocess
 check_call
 (
 command
+stdin
+=
+sys
+.
+stdin
 )
     
 def
