@@ -18713,21 +18713,6 @@ colorA
 -
 -
 -
-/
-/
-TODO
-delete
-nsCSSRendering
-:
-:
-TransformColor
-because
-we
-'
-re
-moving
-it
-here
 static
 nscolor
 DarkenColor
@@ -18740,6 +18725,9 @@ PRUint16
 hue
 sat
 value
+;
+PRUint8
+alpha
 ;
 /
 /
@@ -18766,6 +18754,7 @@ aColor
 hue
 sat
 value
+alpha
 )
 ;
 /
@@ -18891,6 +18880,7 @@ aColor
 hue
 sat
 value
+alpha
 )
 ;
 }
