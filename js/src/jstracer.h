@@ -1722,6 +1722,11 @@ NULL
 )
 {
 }
+~
+TreeInfo
+(
+)
+;
 inline
 unsigned
 nGlobalTypes

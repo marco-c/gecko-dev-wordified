@@ -4211,6 +4211,10 @@ Fragment
 (
 )
 {
+onDestroy
+(
+)
+;
 NanoAssert
 (
 _pages
