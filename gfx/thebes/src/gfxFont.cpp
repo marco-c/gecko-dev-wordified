@@ -7672,6 +7672,10 @@ Length
 ]
 .
 font
+.
+get
+(
+)
 )
 ;
 prevCh
