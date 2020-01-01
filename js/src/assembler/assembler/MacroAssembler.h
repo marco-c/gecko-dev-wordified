@@ -610,7 +610,7 @@ void
 void
 poke
 (
-TrustedImm32
+Imm32
 value
 int
 index
@@ -640,7 +640,7 @@ void
 void
 poke
 (
-TrustedImmPtr
+ImmPtr
 imm
 int
 index
@@ -743,7 +743,7 @@ Condition
 cond
 RegisterID
 op1
-TrustedImm32
+Imm32
 imm
 Label
 target
@@ -1386,7 +1386,7 @@ address
 void
 storePtr
 (
-TrustedImmPtr
+ImmPtr
 imm
 ImplicitAddress
 address
@@ -1405,7 +1405,7 @@ address
 void
 storePtr
 (
-TrustedImmPtr
+ImmPtr
 imm
 BaseIndex
 address
@@ -1424,7 +1424,7 @@ address
 void
 storePtr
 (
-TrustedImmPtr
+ImmPtr
 imm
 void
 *
