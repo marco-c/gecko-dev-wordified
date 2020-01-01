@@ -478,10 +478,13 @@ return
 mElement
 -
 >
-GetParsedAttr
+GetAttrInfo
 (
+kNameSpaceID_None
 mAttrAtom
 )
+.
+mValue
 ;
 }
 nsresult
