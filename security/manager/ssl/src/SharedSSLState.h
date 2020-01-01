@@ -137,12 +137,6 @@ class
 nsClientAuthRememberService
 ;
 class
-nsIRecentBadCertsService
-;
-class
-nsICertOverrideService
-;
-class
 nsIObserver
 ;
 namespace
