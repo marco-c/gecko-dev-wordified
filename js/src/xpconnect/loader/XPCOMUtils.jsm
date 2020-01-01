@@ -1086,6 +1086,7 @@ on
 generateQI
 :
 function
+XPCU_generateQI
 (
 interfaces
 )
@@ -1166,6 +1167,7 @@ generateModule
 generateNSGetModule
 :
 function
+XPCU_generateNSGetModule
 (
 componentsArray
 postRegister
@@ -1268,6 +1270,7 @@ componentsArray
 generateModule
 :
 function
+XPCU_generateModule
 (
 componentsArray
 postRegister
@@ -2049,6 +2052,7 @@ component
 _getFactory
 :
 function
+XPCOMUtils__getFactory
 (
 component
 )
