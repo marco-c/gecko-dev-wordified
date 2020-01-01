@@ -3101,7 +3101,7 @@ opaque
 -
 byte
 aligned
-adresses
+addresses
 to
 LIns
 *
