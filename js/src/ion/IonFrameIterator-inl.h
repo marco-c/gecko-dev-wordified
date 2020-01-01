@@ -572,14 +572,11 @@ end
 >
 nformal
 )
-{
 formalEnd
 =
 nformal
 ;
-}
 else
-{
 /
 /
 Currently
@@ -645,7 +642,6 @@ end
 nformal
 )
 ;
-}
 SnapshotIterator
 s
 (
