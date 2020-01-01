@@ -5367,6 +5367,14 @@ are
 empty
 if
 (
+!
+val
+)
+return
+PR_FALSE
+;
+if
+(
 ignoreCase
 )
 return
