@@ -12884,8 +12884,6 @@ Disable
 the
 error
 console
-and
-inspector
 pref
 (
 "
@@ -12898,6 +12896,11 @@ enabled
 false
 )
 ;
+/
+/
+Enable
+the
+Inspector
 pref
 (
 "
@@ -12907,7 +12910,7 @@ inspector
 .
 enabled
 "
-false
+true
 )
 ;
 /
