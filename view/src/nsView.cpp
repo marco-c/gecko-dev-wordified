@@ -6025,7 +6025,7 @@ view
 {
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 vm
 =

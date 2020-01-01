@@ -365,7 +365,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -2021,7 +2021,7 @@ GetPresContext
 (
 )
 ;
-nsIViewManager
+nsViewManager
 *
 GetViewManager
 (
@@ -2166,7 +2166,7 @@ be
 null
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 mViewManager
 ;
@@ -8018,7 +8018,7 @@ DetachFromTopLevelWidget
 (
 )
 ;
-nsIViewManager
+nsViewManager
 *
 vm
 =
@@ -8924,7 +8924,7 @@ if
 mPresShell
 )
 {
-nsIViewManager
+nsViewManager
 *
 vm
 =
@@ -9032,7 +9032,7 @@ if
 rootViewParent
 )
 {
-nsIViewManager
+nsViewManager
 *
 parentVM
 =
@@ -10316,7 +10316,7 @@ return
 mPresContext
 ;
 }
-nsIViewManager
+nsViewManager
 *
 nsDocumentViewer
 :
@@ -25116,7 +25116,7 @@ nsDocumentViewer
 :
 SetPrintPreviewPresentation
 (
-nsIViewManager
+nsViewManager
 *
 aViewManager
 nsPresContext

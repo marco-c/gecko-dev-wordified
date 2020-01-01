@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -390,7 +390,7 @@ mPresShell
 ;
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 mViewManager
 ;
