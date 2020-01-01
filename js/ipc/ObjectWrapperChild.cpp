@@ -569,7 +569,6 @@ uint32
 mSavedOptions
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 public
 :
 AutoContextPusher
@@ -789,7 +788,6 @@ public
 ACOBase
 {
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 public
 :
 AutoCheckOperation
