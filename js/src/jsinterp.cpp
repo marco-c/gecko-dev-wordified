@@ -18818,13 +18818,13 @@ properly
 .
 *
 /
-PUSH_COPY
-(
 fp
 -
 >
-rval
-)
+flags
+|
+=
+JSFRAME_BAILED_AT_RETURN
 ;
 if
 (

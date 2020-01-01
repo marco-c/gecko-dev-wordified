@@ -665,6 +665,16 @@ a
 trace
 *
 /
+JSFRAME_BAILED_AT_RETURN
+=
+0x400
+/
+*
+bailed
+at
+JSOP_RETURN
+*
+/
 JSFRAME_SPECIAL
 =
 JSFRAME_DEBUGGER
