@@ -731,7 +731,6 @@ funbox
 *
 /
 NULL
-staticLevel
 )
 ;
 TreeContext
@@ -741,6 +740,7 @@ tc
 parser
 &
 sc
+staticLevel
 )
 ;
 if
@@ -795,6 +795,7 @@ originPrincipals
 compileAndGo
 noScriptRval
 version
+staticLevel
 )
 ;
 if
@@ -1716,14 +1717,12 @@ funbox
 *
 /
 NULL
-/
-*
+)
+;
+unsigned
 staticLevel
 =
-*
-/
 0
-)
 ;
 TreeContext
 funtc
@@ -1732,6 +1731,7 @@ funtc
 parser
 &
 funsc
+staticLevel
 )
 ;
 if
@@ -1788,6 +1788,7 @@ noScriptRval
 /
 false
 version
+staticLevel
 )
 ;
 if

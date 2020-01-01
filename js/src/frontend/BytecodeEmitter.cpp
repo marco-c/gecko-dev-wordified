@@ -8922,7 +8922,7 @@ JS_ASSERT
 bce
 -
 >
-sc
+script
 -
 >
 staticLevel
@@ -8938,7 +8938,7 @@ skip
 bce
 -
 >
-sc
+script
 -
 >
 staticLevel
@@ -33089,15 +33089,6 @@ scopeChain
 NULL
 fun
 funbox
-bce
--
->
-sc
--
->
-staticLevel
-+
-1
 )
 ;
 sc
@@ -33222,6 +33213,12 @@ parent
 getVersion
 (
 )
+parent
+-
+>
+staticLevel
++
+1
 )
 ;
 if

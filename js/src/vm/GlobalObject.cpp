@@ -759,6 +759,13 @@ noScriptRval
 /
 true
 JSVERSION_DEFAULT
+/
+*
+staticLevel
+=
+*
+/
+0
 )
 ;
 if
