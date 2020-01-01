@@ -4987,9 +4987,13 @@ FileUtils
 openFileOutputStream
 (
 importedScripts
-FielUtils
+FileUtils
 .
 MODE_APPEND
+|
+FileUtils
+.
+MODE_WRONLY
 )
 ;
 }
