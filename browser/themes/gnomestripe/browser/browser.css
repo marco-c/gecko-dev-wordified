@@ -15836,8 +15836,6 @@ align
 stretch
 ;
 }
-/
-*
 #
 identity
 -
@@ -15856,12 +15854,9 @@ ThreeDFace
 %
 ifdef
 MOZ_WIDGET_GTK2
--
-moz
--
 border
 -
-end
+right
 :
 1px
 solid
@@ -15975,8 +15970,6 @@ display
 none
 ;
 }
-*
-/
 /
 *
 Popup
