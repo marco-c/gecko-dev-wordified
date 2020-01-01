@@ -993,6 +993,13 @@ Ci
 .
 nsIPrefBranch2
 )
+.
+QueryInterface
+(
+Ci
+.
+nsIPrefService
+)
 ;
 }
 )
@@ -11202,13 +11209,6 @@ browser
 exits
 abruptly
 gPrefService
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefService
-)
 .
 savePrefFile
 (
