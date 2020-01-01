@@ -550,7 +550,7 @@ h
 #
 include
 "
-ImageErrors
+nsURILoader
 .
 h
 "
@@ -7133,7 +7133,7 @@ channel
 >
 Cancel
 (
-NS_IMAGELIB_ERROR_LOAD_ABORTED
+NS_ERROR_PARSED_DATA_CACHED
 )
 ;
 /

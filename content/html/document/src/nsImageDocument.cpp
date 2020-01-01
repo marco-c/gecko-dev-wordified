@@ -662,7 +662,7 @@ h
 #
 include
 "
-ImageErrors
+nsURILoader
 .
 h
 "
@@ -1389,7 +1389,7 @@ imgDoc
 status
 |
 is
-NS_IMAGELIB_ERROR_LOAD_ABORTED
+NS_ERROR_PARSED_DATA_CACHED
 if
 the
 image
@@ -1405,6 +1405,8 @@ bug
 177747
 comment
 51
+bug
+475344
 )
 .
 if
@@ -1412,7 +1414,7 @@ if
 status
 =
 =
-NS_IMAGELIB_ERROR_LOAD_ABORTED
+NS_ERROR_PARSED_DATA_CACHED
 )
 {
 status
