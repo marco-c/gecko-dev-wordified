@@ -2697,7 +2697,7 @@ getCallerFunction
 *
 /
 bool
-strictModeCode
+strict
 :
 1
 ;
@@ -3638,7 +3638,7 @@ needsArgsObj
 &
 &
 !
-strictModeCode
+strict
 ;
 }
 bool
