@@ -630,6 +630,12 @@ gInitialized
 false
 ;
 static
+bool
+gDidTrySend
+=
+false
+;
+static
 string
 gDumpFile
 ;
@@ -1778,6 +1784,10 @@ gSubmitReportCheck
 )
 )
 {
+gDidTrySend
+=
+true
+;
 SendReport
 (
 )
@@ -3050,7 +3060,7 @@ errorDialog
 )
 ;
 }
-void
+bool
 UIShowCrashUI
 (
 const
@@ -4353,6 +4363,9 @@ gThrobber
 gtk_main
 (
 )
+;
+return
+gDidTrySend
 ;
 }
 void
