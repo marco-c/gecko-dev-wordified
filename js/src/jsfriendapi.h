@@ -1657,6 +1657,9 @@ parent
 struct
 Shape
 {
+shadow
+:
+:
 BaseShape
 *
 base
@@ -1679,10 +1682,16 @@ FIXED_SLOTS_SHIFT
 struct
 Object
 {
+shadow
+:
+:
 Shape
 *
 shape
 ;
+shadow
+:
+:
 TypeObject
 *
 type
