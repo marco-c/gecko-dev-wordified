@@ -344,7 +344,7 @@ value
 "
 [
 object
-Proxy
+Window
 ]
 "
 "
@@ -1130,7 +1130,7 @@ value
 "
 [
 object
-Proxy
+Window
 ]
 "
 "

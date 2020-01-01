@@ -7875,16 +7875,7 @@ obj
 {
 str
 =
-js
-:
-:
-GetProxyHandler
-(
-obj
-)
--
->
-obj_toString
+JS_BasicObjectToString
 (
 cx
 obj

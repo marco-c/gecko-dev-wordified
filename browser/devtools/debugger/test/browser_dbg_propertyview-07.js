@@ -320,7 +320,7 @@ value
 "
 [
 object
-Proxy
+Window
 ]
 "
 "

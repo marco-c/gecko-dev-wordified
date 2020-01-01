@@ -762,7 +762,7 @@ value
 .
 class
 "
-Proxy
+Window
 "
 "
 Should

@@ -6556,7 +6556,7 @@ JSString
 *
 str
 =
-obj_toStringHelper
+JS_BasicObjectToString
 (
 cx
 obj

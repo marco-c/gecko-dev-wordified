@@ -842,15 +842,16 @@ bp
 MOZ_OVERRIDE
 ;
 virtual
-JSString
+const
+char
 *
-obj_toString
+className
 (
 JSContext
 *
 cx
 HandleObject
-wrapper
+proxy
 )
 MOZ_OVERRIDE
 ;
@@ -1418,6 +1419,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1431,11 +1433,13 @@ JSContext
 *
 cx
 )
+MOZ_OVERRIDE
 ;
 virtual
-JSString
+const
+char
 *
-obj_toString
+className
 (
 JSContext
 *
@@ -1443,6 +1447,7 @@ cx
 HandleObject
 proxy
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSString
@@ -1457,6 +1462,7 @@ proxy
 unsigned
 indent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1471,6 +1477,7 @@ RegExpGuard
 *
 g
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1486,6 +1493,7 @@ hint
 MutableHandleValue
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1506,6 +1514,7 @@ bool
 *
 present
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1519,6 +1528,7 @@ proxy
 MutableHandleObject
 protop
 )
+MOZ_OVERRIDE
 ;
 static
 DeadObjectProxy
