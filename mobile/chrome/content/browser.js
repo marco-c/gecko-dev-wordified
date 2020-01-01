@@ -690,14 +690,6 @@ nsICrashReporter
 ;
 #
 endif
-const
-endl
-=
-'
-\
-n
-'
-;
 function
 onDebugKeyPress
 (
