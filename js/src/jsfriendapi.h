@@ -7004,15 +7004,6 @@ on
 another
 thread
 .
-The
-*
-returned
-pointer
-is
-stable
-across
-GCs
-.
 *
 *
 |
