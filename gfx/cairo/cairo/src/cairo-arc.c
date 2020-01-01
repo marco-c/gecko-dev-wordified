@@ -867,12 +867,12 @@ major_axis
 )
 ;
 return
-(
-int
-)
 ceil
 (
+fabs
+(
 angle
+)
 /
 max_angle
 )
