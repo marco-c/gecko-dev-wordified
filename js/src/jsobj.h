@@ -10073,6 +10073,17 @@ NULL
 namespace
 js
 {
+JSObject
+*
+GetClassPrototypePure
+(
+GlobalObject
+*
+global
+JSProtoKey
+protoKey
+)
+;
 extern
 bool
 SetClassAndProto

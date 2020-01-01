@@ -212,7 +212,9 @@ compartment
 cx
 -
 >
-compartment_
+compartment
+(
+)
 )
 {
 }
@@ -378,7 +380,7 @@ JS_ASSERT
 c1
 -
 >
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 -
@@ -395,7 +397,7 @@ JS_ASSERT
 c2
 -
 >
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 -
@@ -437,7 +439,7 @@ c
 compartment
 -
 >
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 -

@@ -1635,10 +1635,6 @@ ArenaLists
 ;
 friend
 class
-CompartmentChecker
-;
-friend
-class
 AutoCompartment
 ;
 friend

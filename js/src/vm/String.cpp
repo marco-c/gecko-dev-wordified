@@ -1675,7 +1675,7 @@ JSRope
 :
 flattenInternal
 (
-JSContext
+ExclusiveContext
 *
 maybecx
 )
@@ -2968,7 +2968,7 @@ JSRope
 :
 flatten
 (
-JSContext
+ExclusiveContext
 *
 maybecx
 )
@@ -3429,7 +3429,7 @@ JSDependentString
 :
 undepend
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -3627,7 +3627,7 @@ JSInlineString
 :
 uninline
 (
-JSContext
+ExclusiveContext
 *
 maybecx
 )
@@ -4021,7 +4021,7 @@ if
 cx
 -
 >
-isJSContext
+isExclusiveContext
 (
 )
 )
@@ -4038,7 +4038,7 @@ ensureLinear
 cx
 -
 >
-asJSContext
+asExclusiveContext
 (
 )
 )
