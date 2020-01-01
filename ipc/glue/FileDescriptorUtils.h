@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 FileDescriptor
@@ -131,6 +140,7 @@ O
 .
 class
 CloseFileRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
