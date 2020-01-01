@@ -351,14 +351,6 @@ RefCounted
 <
 imgDecoderObserver
 >
-public
-mozilla
-:
-:
-SupportsWeakPtr
-<
-imgDecoderObserver
->
 {
 public
 :

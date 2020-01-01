@@ -202,9 +202,6 @@ Image
 nsresult
 Init
 (
-imgDecoderObserver
-*
-aObserver
 const
 char
 *
@@ -342,12 +339,6 @@ ShouldAnimate
 ;
 private
 :
-WeakPtr
-<
-imgDecoderObserver
->
-mObserver
-;
 nsRefPtr
 <
 SVGDocumentWrapper
