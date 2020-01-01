@@ -6900,7 +6900,7 @@ objid
 )
                                 
 objtype
-dynamic
+static
 =
 1
 )
@@ -8630,7 +8630,7 @@ routevar
                     
 objtype
                     
-dynamic
+static
 =
 1
 )
