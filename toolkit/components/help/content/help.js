@@ -3904,6 +3904,17 @@ context
 )
 {
 }
+onBeforeLinkTraversal
+:
+function
+(
+originalTarget
+linkURI
+linkNode
+isAppTab
+)
+{
+}
 }
 function
 UpdateBackForwardButtons

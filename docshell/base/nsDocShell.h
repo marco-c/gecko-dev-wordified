@@ -5177,6 +5177,9 @@ mIsOffScreenBrowser
 PRPackedBool
 mIsActive
 ;
+PRPackedBool
+mIsAppTab
+;
 /
 /
 This
