@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_HTMLUnknownElement_h
+HTMLUnknownElement_h___
 #
 define
-mozilla_dom_HTMLUnknownElement_h
+HTMLUnknownElement_h___
 #
 include
 "
@@ -115,6 +115,13 @@ nsGenericHTMLElement
 .
 h
 "
+#
+include
+"
+nsIDOMHTMLUnknownElement
+.
+h
+"
 namespace
 mozilla
 {
@@ -128,7 +135,7 @@ MOZ_FINAL
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLElement
+nsIDOMHTMLUnknownElement
 {
 public
 :
@@ -249,6 +256,6 @@ mozilla
 endif
 /
 *
-mozilla_dom_HTMLUnknownElement_h
+HTMLUnknownElement_h___
 *
 /

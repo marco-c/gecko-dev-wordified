@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsIDOMHTMLDataListElement
+.
+h
+"
+#
+include
+"
 nsContentList
 .
 h
@@ -135,7 +142,7 @@ MOZ_FINAL
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLElement
+nsIDOMHTMLDataListElement
 {
 public
 :
@@ -176,6 +183,10 @@ NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 /
 nsIDOMHTMLElement
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
+/
+/
+nsIDOMHTMLDataListElement
+NS_DECL_NSIDOMHTMLDATALISTELEMENT
 nsContentList
 *
 Options
