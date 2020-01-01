@@ -728,8 +728,7 @@ if
 nextFrame
 )
 {
-nsresult
-rv
+nextFrame
 =
 aPresContext
 -
@@ -749,14 +748,6 @@ CreateContinuingFrame
 aPresContext
 kidFrame
 aDelegatingFrame
-&
-nextFrame
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }

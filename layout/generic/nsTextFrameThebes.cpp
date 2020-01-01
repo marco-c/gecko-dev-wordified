@@ -49098,9 +49098,6 @@ PresContext
 nsIFrame
 *
 newFrame
-;
-nsresult
-rv
 =
 presContext
 -
@@ -49122,18 +49119,8 @@ this
 GetParent
 (
 )
-&
-newFrame
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 nsTextFrame
 *
 next
@@ -49170,7 +49157,6 @@ f
 =
 next
 ;
-}
 }
 f
 -
