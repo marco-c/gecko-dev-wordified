@@ -1228,14 +1228,7 @@ ASFILES
 '
 :
 [
-'
-ASFILES
-+
-=
-foo
-.
-asm
-'
+                
 '
 ASFILES
 +
@@ -1244,6 +1237,16 @@ bar
 .
 s
 '
+                
+'
+ASFILES
++
+=
+foo
+.
+asm
+'
+            
 ]
             
 '
@@ -1251,6 +1254,7 @@ XPIDL_FLAGS
 '
 :
 [
+                
 '
 XPIDL_FLAGS
 +
@@ -1258,7 +1262,7 @@ XPIDL_FLAGS
 -
 Idir1
 '
-                            
+                
 '
 XPIDL_FLAGS
 +
@@ -1266,7 +1270,7 @@ XPIDL_FLAGS
 -
 Idir2
 '
-                            
+                
 '
 XPIDL_FLAGS
 +
@@ -1274,7 +1278,7 @@ XPIDL_FLAGS
 -
 Idir3
 '
-                            
+            
 ]
             
 '
@@ -1282,12 +1286,14 @@ XPIDL_MODULE
 '
 :
 [
+                
 '
 XPIDL_MODULE
 :
 =
 module_name
 '
+            
 ]
             
 '
@@ -1295,15 +1301,7 @@ XPIDLSRCS
 '
 :
 [
-'
-XPIDLSRCS
-+
-=
-foo
-.
-idl
-'
-                          
+                
 '
 XPIDLSRCS
 +
@@ -1312,7 +1310,7 @@ bar
 .
 idl
 '
-                          
+                
 '
 XPIDLSRCS
 +
@@ -1321,8 +1319,18 @@ biz
 .
 idl
 '
-]
+                
+'
+XPIDLSRCS
++
+=
+foo
+.
+idl
+'
             
+]
+        
 }
         
 for
