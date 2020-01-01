@@ -417,7 +417,7 @@ via
 OpenWindow
 .
 nsresult
-OpenWindowInternal
+OpenWindowJSInternal
 (
 nsIDOMWindow
 *
@@ -435,14 +435,12 @@ char
 *
 aFeatures
 bool
-aCalledFromJS
-bool
 aDialog
-bool
-aNavigate
 nsIArray
 *
 argv
+bool
+aCalledFromJS
 nsIDOMWindow
 *
 *
