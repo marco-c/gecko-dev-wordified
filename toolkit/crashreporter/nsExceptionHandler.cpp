@@ -13119,6 +13119,16 @@ path
 ;
 #
 else
+/
+/
+MinidumpDescriptor
+requires
+a
+non
+-
+empty
+path
+.
 google_breakpad
 :
 :
@@ -13126,6 +13136,7 @@ MinidumpDescriptor
 path
 (
 "
+.
 "
 )
 ;
