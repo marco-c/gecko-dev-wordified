@@ -1820,16 +1820,13 @@ false
 }
 for
 (
-int
+size_t
 i
 =
 0
 ;
 i
 <
-mozilla
-:
-:
 ArrayLength
 (
 browseCommands
