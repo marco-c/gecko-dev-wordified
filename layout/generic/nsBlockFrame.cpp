@@ -14333,6 +14333,15 @@ NS_ASSERTION
 line
 -
 >
+IsDirty
+(
+)
+|
+|
+!
+line
+-
+>
 HasFloats
 (
 )
