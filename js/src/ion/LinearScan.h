@@ -419,6 +419,14 @@ finishedSlots_
 SlotList
 finishedDoubleSlots_
 ;
+#
+ifdef
+JS_NUNBOX32
+SlotList
+finishedNunboxSlots_
+;
+#
+endif
 /
 /
 Run
