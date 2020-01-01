@@ -4953,8 +4953,6 @@ IonExitFrameLayout
 SizeWithFooter
 (
 )
-+
-argumentPadding
 )
 argsBase
 )
