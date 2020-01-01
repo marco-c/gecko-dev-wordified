@@ -2964,9 +2964,6 @@ PR_TRUE
 ;
 }
 }
-PRInt32
-i
-;
 if
 (
 !
