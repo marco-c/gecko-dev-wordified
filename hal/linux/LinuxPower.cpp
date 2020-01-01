@@ -123,15 +123,6 @@ nsIObserverService
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Services
-.
-h
-"
 namespace
 mozilla
 {

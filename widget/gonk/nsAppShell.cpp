@@ -388,13 +388,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsWindow
 .
 h
