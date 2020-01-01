@@ -1037,6 +1037,9 @@ XP_MACOSX
 case
 BACKEND_COREGRAPHICS
 :
+case
+BACKEND_COREGRAPHICS_ACCELERATED
+:
 {
 RefPtr
 <
@@ -1058,6 +1061,7 @@ newTarget
 >
 Init
 (
+aBackend
 aSize
 aFormat
 )
@@ -1258,6 +1262,7 @@ newTarget
 >
 Init
 (
+aBackend
 aData
 aSize
 aStride

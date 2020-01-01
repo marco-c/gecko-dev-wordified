@@ -178,6 +178,10 @@ mTexture
 (
 0
 )
+mTextureTarget
+(
+LOCAL_GL_TEXTURE_2D
+)
 mDelayedUpdates
 (
 false
@@ -313,6 +317,9 @@ mDrawTarget
 ;
 GLuint
 mTexture
+;
+GLenum
+mTextureTarget
 ;
 bool
 mDelayedUpdates

@@ -439,6 +439,11 @@ OSXVersion
 (
 )
 ;
+bool
+UseAcceleratedCanvas
+(
+)
+;
 /
 /
 lower
