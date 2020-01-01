@@ -617,7 +617,7 @@ VK_RWIN
 mModifiers
 |
 =
-MODIFIER_WIN
+MODIFIER_OS
 ;
 }
 if
@@ -671,7 +671,7 @@ VK_SCROLL
 mModifiers
 |
 =
-MODIFIER_SCROLL
+MODIFIER_SCROLLLOCK
 ;
 }
 EnsureAltGr
