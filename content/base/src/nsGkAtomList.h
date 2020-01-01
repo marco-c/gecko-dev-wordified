@@ -4023,6 +4023,13 @@ marginwidth
 )
 GK_ATOM
 (
+mark
+"
+mark
+"
+)
+GK_ATOM
+(
 marquee
 "
 marquee

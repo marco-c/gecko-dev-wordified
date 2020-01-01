@@ -5153,6 +5153,7 @@ dfn
 em
 ins
 kbd
+mark
 samp
 strong
 var
@@ -6158,6 +6159,14 @@ GROUP_SPECIAL
 GROUP_BLOCK
 |
 GROUP_MAP_CONTENT
+)
+ELEM
+(
+mark
+PR_TRUE
+PR_TRUE
+GROUP_PHRASE
+GROUP_INLINE_ELEMENT
 )
 ELEM
 (

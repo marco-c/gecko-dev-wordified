@@ -985,6 +985,14 @@ Map
 )
 HTML_TAG
 (
+mark
+)
+/
+/
+HTMLElement
+instance
+HTML_TAG
+(
 marquee
 Div
 )
