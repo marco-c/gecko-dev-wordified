@@ -17470,17 +17470,8 @@ IsPointer
 )
 &
 &
-!
-datum_type
-.
-IsInterfacePointer
-(
-)
-&
-&
 isArray
 )
-{
 dp
 -
 >
@@ -17488,7 +17479,6 @@ SetValNeedsCleanup
 (
 )
 ;
-}
 if
 (
 !
