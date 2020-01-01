@@ -3947,6 +3947,9 @@ aClientY
 nsIDOMElement
 *
 aTarget
+nsIDOMEvent
+*
+aEvent
 )
 {
 PRBool
@@ -4048,6 +4051,13 @@ s
 start
 resizing
 !
+aEvent
+-
+>
+PreventDefault
+(
+)
+;
 mOriginalX
 =
 aClientX

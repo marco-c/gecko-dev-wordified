@@ -1896,6 +1896,7 @@ MouseDown
 clientX
 clientY
 element
+aMouseEvent
 )
 ;
 }
