@@ -882,18 +882,6 @@ TCF_FUN_MIGHT_ALIAS_LOCALS
 0x20
 /
 /
-The
-script
-contains
-singleton
-initialiser
-JSOP_OBJECT
-.
-TCF_HAS_SINGLETONS
-=
-0x40
-/
-/
 This
 function
 does
@@ -975,7 +963,7 @@ appears
 /
 TCF_FUN_EXTENSIBLE_SCOPE
 =
-0x80
+0x40
 /
 /
 Technically
@@ -1240,7 +1228,7 @@ nformal
 /
 TCF_ARGUMENTS_HAS_LOCAL_BINDING
 =
-0x100
+0x80
 /
 /
 In
@@ -1368,7 +1356,7 @@ true
 /
 TCF_DEFINITELY_NEEDS_ARGS_OBJ
 =
-0x200
+0x100
 }
 JS_ENUM_FOOTER
 (

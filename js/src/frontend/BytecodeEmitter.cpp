@@ -931,6 +931,10 @@ needScriptGlobal
 (
 needScriptGlobal
 )
+hasSingletons
+(
+false
+)
 {
 memset
 (
