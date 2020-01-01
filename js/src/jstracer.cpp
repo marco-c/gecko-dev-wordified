@@ -17290,8 +17290,16 @@ nanojit
 :
 None
 )
+{
+js_BlacklistPC
+(
+fragmento
+fragment
+)
+;
 return
 ;
+}
 JS_ASSERT
 (
 fragment
