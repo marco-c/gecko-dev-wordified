@@ -11935,7 +11935,7 @@ SVG
 effects
 .
 PRBool
-isComposited
+isVisuallyAtomic
 =
 disp
 -
@@ -11976,7 +11976,7 @@ IsPositioned
 ;
 if
 (
-isComposited
+isVisuallyAtomic
 |
 |
 isPositioned
@@ -12292,7 +12292,7 @@ eStyleUnit_Integer
 )
 |
 |
-isComposited
+isVisuallyAtomic
 |
 |
 (
@@ -12648,7 +12648,7 @@ if
 isPositioned
 |
 |
-isComposited
+isVisuallyAtomic
 |
 |
 (
