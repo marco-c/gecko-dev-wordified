@@ -2298,6 +2298,10 @@ inputAtom
 ;
 JSAtom
 *
+toISOStringAtom
+;
+JSAtom
+*
 iteratorAtom
 ;
 JSAtom

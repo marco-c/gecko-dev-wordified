@@ -27467,7 +27467,7 @@ length
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 ;
@@ -30015,7 +30015,7 @@ arg
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 )

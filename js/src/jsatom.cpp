@@ -1191,6 +1191,14 @@ js_input_str
 inputAtom
 *
 /
+"
+toISOString
+"
+/
+*
+toISOStringAtom
+*
+/
 js_iterator_str
 /
 *
