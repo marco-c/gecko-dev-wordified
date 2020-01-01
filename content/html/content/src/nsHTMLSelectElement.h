@@ -696,6 +696,10 @@ const
 nsAString
 &
 aName
+nsWrapperCache
+*
+*
+aCache
 nsresult
 *
 aResult
