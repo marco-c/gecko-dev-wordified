@@ -2073,6 +2073,10 @@ needEvent
 &
 &
 !
+mExiting
+&
+&
+!
 NS_HasPendingEvents
 (
 thr
