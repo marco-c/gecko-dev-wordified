@@ -595,6 +595,14 @@ GetScrollState
 (
 )
 ;
+NS_HIDDEN_
+(
+void
+)
+ClearNonScrollState
+(
+)
+;
 /
 /
 MEMBER

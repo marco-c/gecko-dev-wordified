@@ -10571,7 +10571,7 @@ return
 /
 /
 Only
-capture
+restore
 state
 for
 stateful
