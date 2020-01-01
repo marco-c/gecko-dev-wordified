@@ -5478,14 +5478,9 @@ JS_ASSERT
 global
 -
 >
-getClass
+isGlobal
 (
 )
--
->
-flags
-&
-JSCLASS_IS_GLOBAL
 )
 ;
 const
