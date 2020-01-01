@@ -5484,7 +5484,10 @@ SharedFontCache
 FindFontForChar
 (
 aCh
-aPrevMatchedFont
+GetFontAt
+(
+0
+)
 )
 ;
 if
@@ -9440,7 +9443,7 @@ mPrevCh
 (
 0
 )
-mFirstPass
+mFirstRange
 (
 PR_TRUE
 )
@@ -9497,7 +9500,7 @@ mPrevOffset
 if
 (
 !
-mFirstPass
+mFirstRange
 )
 {
 mMatchedFont
@@ -9681,14 +9684,14 @@ one
 up
 if
 (
-mFirstPass
+mFirstRange
 )
 {
 mMatchedFont
 =
 font
 ;
-mFirstPass
+mFirstRange
 =
 PR_FALSE
 ;
@@ -9774,7 +9777,7 @@ PRUint32
 mPrevCh
 ;
 PRBool
-mFirstPass
+mFirstRange
 ;
 gfxAtsuiFontGroup
 *
