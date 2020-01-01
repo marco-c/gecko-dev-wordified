@@ -404,6 +404,8 @@ here
 remove
 bookmarks
 file
+/
+/
 clearDB
 (
 )
