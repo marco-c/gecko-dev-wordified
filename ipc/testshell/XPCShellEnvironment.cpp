@@ -3405,7 +3405,6 @@ compartment
 )
 ;
 return
-false
 ;
 }
 JSScript
@@ -3538,7 +3537,6 @@ compartment
 )
 ;
 return
-false
 ;
 }
 /
@@ -5897,7 +5895,7 @@ ac
 .
 enter
 (
-cx
+mCx
 global
 )
 )
