@@ -2306,6 +2306,10 @@ null
 )
 break
 ;
+cancelCheckForTap
+(
+)
+;
 mSwipeView
 .
 setPressed
