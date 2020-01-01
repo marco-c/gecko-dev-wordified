@@ -656,7 +656,7 @@ case
 nsIRadioInterfaceLayer
 :
 :
-CALL_STATE_RINGING
+CALL_STATE_ALERTING
 :
 stateString
 .
