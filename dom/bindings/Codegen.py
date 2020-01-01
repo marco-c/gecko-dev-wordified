@@ -28244,6 +28244,9 @@ n
         
 return
 variadicConversion
+sequenceWrapLevel
+=
+0
 def
 getWrapTemplateForType
 (
@@ -28776,36 +28779,67 @@ non
 nullable
 sequences
 .
-We
-use
-setting
-the
-element
+Our
+success
+code
+is
+just
+to
+break
+to
         
 #
+where
+we
+set
+the
+element
 in
 the
 array
-as
-our
-succcess
-code
-because
-when
+.
+Note
+that
 we
-succeed
-in
+bump
+the
         
 #
-wrapping
+sequenceWrapLevel
+around
+this
+call
+so
 that
-'
-s
-what
-we
-should
-do
+nested
+sequence
+conversions
+        
+#
+will
+use
+different
+iteration
+variables
 .
+        
+global
+sequenceWrapLevel
+        
+index
+=
+"
+sequenceIdx
+%
+d
+"
+%
+sequenceWrapLevel
+        
+sequenceWrapLevel
++
+=
+1
         
 innerTemplate
 =
@@ -28827,11 +28861,15 @@ result
 %
 s
 [
-i
+%
+s
 ]
 "
 %
+(
 result
+index
+)
                 
 '
 successCode
@@ -28882,6 +28920,11 @@ returnArray
 }
             
 )
+        
+sequenceWrapLevel
+-
+=
+1
         
 innerTemplate
 =
@@ -28950,17 +28993,20 @@ tmp
 for
 (
 uint32_t
-i
+%
+s
 =
 0
 ;
-i
+%
+s
 <
 length
 ;
 +
 +
-i
+%
+s
 )
 {
     
@@ -29011,7 +29057,8 @@ JS_DefineElement
 (
 cx
 returnArray
-i
+%
+s
 tmp
                           
 nullptr
@@ -29041,7 +29088,12 @@ define
 (
 )
           
+index
+index
+index
+          
 innerTemplate
+index
           
 CGIndenter
 (
