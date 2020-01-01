@@ -14179,7 +14179,7 @@ DumpStack
 +
 iter
 ;
-jsint
+uint32
 index
 =
 0
@@ -15627,9 +15627,6 @@ JSPropertyDesc
 *
 pd
 ;
-uint32
-i
-;
 jsval
 v
 ;
@@ -15723,6 +15720,7 @@ array
 ;
 for
 (
+uint32
 i
 =
 0
