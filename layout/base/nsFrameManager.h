@@ -1132,6 +1132,8 @@ nsStyleChangeList
 aChangeList
 nsChangeHint
 aMinChange
+nsChangeHint
+aParentFrameHintsNotHandledForDescendants
 nsRestyleHint
 aRestyleHint
 RestyleTracker
