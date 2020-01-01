@@ -939,9 +939,11 @@ Json
 .
 encode
 (
+[
 this
 .
 payload
+]
 )
 ;
 let
@@ -972,6 +974,9 @@ this
 .
 payload
 )
+[
+0
+]
 ;
 return
 ret
@@ -1012,6 +1017,9 @@ this
 .
 payload
 )
+[
+0
+]
 ;
 }
 toString

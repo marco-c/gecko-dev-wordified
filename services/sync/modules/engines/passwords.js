@@ -1391,7 +1391,7 @@ item
 /
 record
 .
-cleartext
+payload
 =
 null
 ;
