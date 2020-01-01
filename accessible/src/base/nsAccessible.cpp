@@ -9848,10 +9848,10 @@ oldValueUnused
 )
 ;
 }
-nsAccEvent
+nsEventShell
 :
 :
-GetLastEventAttributes
+GetEventAttributes
 (
 mDOMNode
 aAttributes
