@@ -14115,12 +14115,6 @@ errorCodeToReport
 =
 errorCodeExpired
 ;
-PR_SetError
-(
-errorCodeToReport
-0
-)
-;
 if
 (
 !
@@ -14142,6 +14136,12 @@ ix509
 )
 ;
 }
+PR_SetError
+(
+errorCodeToReport
+0
+)
+;
 return
 cancel_and_failure
 (
