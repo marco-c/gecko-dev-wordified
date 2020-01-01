@@ -847,7 +847,6 @@ mMode
 )
 {
 }
-;
 NS_DECL_NSIDOMEVENTLISTENER
 PRUint32
 mMode
@@ -875,7 +874,6 @@ aFrame
 )
 {
 }
-;
 NS_DECL_NSIDOMEVENTLISTENER
 static
 bool
