@@ -4364,10 +4364,6 @@ SetNormalValue
 (
 )
 ;
-mColumnFill
-=
-NS_STYLE_COLUMN_FILL_BALANCE
-;
 mColumnRuleWidth
 =
 (
@@ -4560,14 +4556,6 @@ mColumnGap
 aOther
 .
 mColumnGap
-|
-|
-mColumnFill
-!
-=
-aOther
-.
-mColumnFill
 )
 return
 NS_STYLE_HINT_REFLOW
