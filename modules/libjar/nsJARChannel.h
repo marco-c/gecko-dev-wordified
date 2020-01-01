@@ -740,9 +740,6 @@ mContentType
 nsCString
 mContentCharset
 ;
-nsCString
-mContentDisposition
-;
 PRInt64
 mContentLength
 ;

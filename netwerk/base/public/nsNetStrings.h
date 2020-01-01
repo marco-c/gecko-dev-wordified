@@ -438,6 +438,10 @@ nsNetStrings
 ;
 const
 nsLiteralString
+kContentDisposition
+;
+const
+nsLiteralString
 kChannelPolicy
 ;
 }
