@@ -4566,7 +4566,7 @@ supported
 *
 /
 void
-SetTransform
+SetBaseTransform
 (
 const
 gfx3DMatrix
@@ -4935,8 +4935,14 @@ nsnull
 }
 const
 gfx3DMatrix
-&
 GetTransform
+(
+)
+;
+const
+gfx3DMatrix
+&
+GetBaseTransform
 (
 )
 {
