@@ -579,6 +579,15 @@ nsIntRect
 aRect
 )
 ;
+bool
+SetProcessName
+(
+const
+char
+*
+aProcessName
+)
+;
 }
 /
 /
