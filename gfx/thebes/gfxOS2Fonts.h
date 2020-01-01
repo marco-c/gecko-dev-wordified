@@ -570,12 +570,6 @@ CairoScaledFont
 (
 )
 ;
-virtual
-nsString
-GetUniqueName
-(
-)
-;
 /
 /
 Get

@@ -7958,7 +7958,7 @@ CurrentStore
 >
 AddItem
 (
-GetUniqueName
+GetName
 (
 )
 glyphs

@@ -562,12 +562,6 @@ GetMetrics
 )
 ;
 virtual
-nsString
-GetUniqueName
-(
-)
-;
-virtual
 PRUint32
 GetSpaceGlyph
 (
