@@ -610,7 +610,7 @@ Manually
 trigger
 _SessionFile
 .
-createBackupCopy
+moveToBackupPath
 since
 the
 backup
@@ -632,7 +632,7 @@ again
 yield
 _SessionFile
 .
-createBackupCopy
+moveToBackupPath
 (
 )
 ;
