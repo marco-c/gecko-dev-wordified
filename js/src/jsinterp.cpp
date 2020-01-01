@@ -1331,7 +1331,7 @@ start
 script
 -
 >
-main
+code
 ;
 /
 *
