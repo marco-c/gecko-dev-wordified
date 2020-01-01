@@ -992,7 +992,10 @@ float
 aYVal
 )
 {
-nsCharSeparatedTokenizer
+nsCharSeparatedTokenizerTemplate
+<
+IsSVGWhitespace
+>
 tokenizer
 (
 aCoordPairStr

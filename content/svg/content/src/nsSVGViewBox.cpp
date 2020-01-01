@@ -909,7 +909,10 @@ nsSVGViewBoxRect
 aViewBox
 )
 {
-nsCharSeparatedTokenizer
+nsCharSeparatedTokenizerTemplate
+<
+IsSVGWhitespace
+>
 tokenizer
 (
 aStr
@@ -1097,8 +1100,6 @@ return
 NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
-else
-{
 aViewBox
 -
 >
@@ -1139,7 +1140,6 @@ vals
 3
 ]
 ;
-}
 return
 NS_OK
 ;
