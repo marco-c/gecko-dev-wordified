@@ -142,8 +142,7 @@ The
 Original
 Code
 is
-Bookmarks
-Sync
+Weave
 .
 *
 *
@@ -169,7 +168,7 @@ Copyright
 (
 C
 )
-2007
+2008
 *
 the
 Initial
