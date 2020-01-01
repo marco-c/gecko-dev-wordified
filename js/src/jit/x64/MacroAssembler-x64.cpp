@@ -1918,13 +1918,13 @@ reg
 scratch
 )
 ;
-subq
+cmpq
 (
+scratch
 Imm32
 (
 1
 )
-scratch
 )
 ;
 return
