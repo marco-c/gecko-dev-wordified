@@ -105,6 +105,14 @@ gProcess
 =
 aProcess
 ;
+info
+(
+"
+Starting
+test
+"
+)
+;
 testSimpleCall
 (
 )
