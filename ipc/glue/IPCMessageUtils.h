@@ -6724,7 +6724,7 @@ WriteParam
 aMsg
 aParam
 .
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 )
 ;
 WriteParam
@@ -6774,7 +6774,7 @@ aIter
 aResult
 -
 >
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 )
 &
 &

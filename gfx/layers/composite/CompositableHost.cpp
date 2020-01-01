@@ -160,7 +160,7 @@ aResult
 if
 (
 !
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 )
@@ -177,7 +177,7 @@ false
 MOZ_ASSERT
 (
 !
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 -
@@ -200,7 +200,7 @@ buffering
 "
 )
 ;
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 -
@@ -216,7 +216,7 @@ aResult
 aImage
 ;
 return
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 -
@@ -252,7 +252,7 @@ TextureSource
 >
 source
 =
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 ;
@@ -453,12 +453,12 @@ void
 CompositableHost
 :
 :
-DumpTextureHost
+DumpDeprecatedTextureHost
 (
 FILE
 *
 aFile
-TextureHost
+DeprecatedTextureHost
 *
 aTexture
 )

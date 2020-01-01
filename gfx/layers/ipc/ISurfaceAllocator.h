@@ -651,7 +651,7 @@ removed
 after
 /
 /
-TextureClient
+DeprecatedTextureClient
 /
 Host
 rework

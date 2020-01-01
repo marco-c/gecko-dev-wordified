@@ -173,7 +173,7 @@ class
 ThebesBufferData
 ;
 class
-TextureClient
+DeprecatedTextureClient
 ;
 class
 BasicTiledLayerBuffer
@@ -261,7 +261,7 @@ AutoOpenSurface
 ;
 friend
 class
-TextureClientShmem
+DeprecatedTextureClientShmem
 ;
 public
 :

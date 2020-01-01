@@ -797,7 +797,7 @@ TextureHost
 (
 ex
 .
-TextureImageTextureHost
+SharedTextureHostOGL
 )
 *
 Depending

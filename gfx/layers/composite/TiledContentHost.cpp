@@ -1083,7 +1083,7 @@ MOZ_ASSERT
 (
 aTile
 .
-mTextureHost
+mDeprecatedTextureHost
 "
 Trying
 to
@@ -1105,7 +1105,7 @@ CreateTexturedEffect
 (
 aTile
 .
-mTextureHost
+mDeprecatedTextureHost
 aFilter
 )
 ;
@@ -1113,7 +1113,7 @@ if
 (
 aTile
 .
-mTextureHost
+mDeprecatedTextureHost
 -
 >
 Lock
@@ -1298,7 +1298,7 @@ aOffset
 }
 aTile
 .
-mTextureHost
+mDeprecatedTextureHost
 -
 >
 Unlock
@@ -1882,7 +1882,7 @@ flags
 if
 (
 !
-mTextureHost
+mDeprecatedTextureHost
 )
 {
 /
@@ -1894,12 +1894,12 @@ to
 a
 real
 tile
-mTextureHost
+mDeprecatedTextureHost
 =
-TextureHost
+DeprecatedTextureHost
 :
 :
-CreateTextureHost
+CreateDeprecatedTextureHost
 (
 SurfaceDescriptor
 :
@@ -1909,7 +1909,7 @@ TEXTURE_HOST_TILED
 flags
 )
 ;
-mTextureHost
+mDeprecatedTextureHost
 -
 >
 SetCompositor
@@ -1923,7 +1923,7 @@ flags
 NewTile
 ;
 }
-mTextureHost
+mDeprecatedTextureHost
 -
 >
 Update
@@ -2094,13 +2094,13 @@ Tile
 "
 )
 ;
-DumpTextureHost
+DumpDeprecatedTextureHost
 (
 aFile
 it
 -
 >
-mTextureHost
+mDeprecatedTextureHost
 )
 ;
 fprintf

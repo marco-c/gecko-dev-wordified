@@ -379,7 +379,7 @@ host
 *
 /
 enum
-TextureClientType
+DeprecatedTextureClientType
 {
 TEXTURE_CONTENT
 /
@@ -543,7 +543,7 @@ composition
 *
 /
 enum
-TextureHostFlags
+DeprecatedTextureHostFlags
 {
 TEXTURE_HOST_DEFAULT
 =
@@ -789,7 +789,7 @@ CompositableType
 mCompositableType
 ;
 uint32_t
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 ;
 uint32_t
 mTextureFlags
@@ -802,7 +802,7 @@ mCompositableType
 (
 BUFFER_UNKNOWN
 )
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 (
 0
 )
@@ -822,7 +822,7 @@ mCompositableType
 (
 aType
 )
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 (
 0
 )
@@ -853,12 +853,12 @@ aOther
 mCompositableType
 &
 &
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 =
 =
 aOther
 .
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 &
 &
 mTextureFlags

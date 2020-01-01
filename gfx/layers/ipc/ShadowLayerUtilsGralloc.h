@@ -505,11 +505,11 @@ fixing
 this
 .
 void
-SetTextureHost
+SetDeprecatedTextureHost
 (
-TextureHost
+DeprecatedTextureHost
 *
-aTextureHost
+aDeprecatedTextureHost
 )
 ;
 private
@@ -586,9 +586,9 @@ about
 fixing
 this
 .
-TextureHost
+DeprecatedTextureHost
 *
-mTextureHost
+mDeprecatedTextureHost
 ;
 friend
 class

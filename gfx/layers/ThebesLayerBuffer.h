@@ -1944,7 +1944,7 @@ nullptr
 void
 SetBufferProvider
 (
-TextureClient
+DeprecatedTextureClient
 *
 aClient
 )
@@ -2012,7 +2012,7 @@ nullptr
 void
 SetBufferProviderOnWhite
 (
-TextureClient
+DeprecatedTextureClient
 *
 aClient
 )
@@ -2325,11 +2325,11 @@ time
 .
 *
 /
-TextureClient
+DeprecatedTextureClient
 *
 mBufferProvider
 ;
-TextureClient
+DeprecatedTextureClient
 *
 mBufferProviderOnWhite
 ;

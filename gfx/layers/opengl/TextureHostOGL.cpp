@@ -199,21 +199,21 @@ layers
 {
 TemporaryRef
 <
-TextureHost
+DeprecatedTextureHost
 >
-CreateTextureHostOGL
+CreateDeprecatedTextureHostOGL
 (
 SurfaceDescriptorType
 aDescriptorType
 uint32_t
-aTextureHostFlags
+aDeprecatedTextureHostFlags
 uint32_t
 aTextureFlags
 )
 {
 RefPtr
 <
-TextureHost
+DeprecatedTextureHost
 >
 result
 =
@@ -233,7 +233,7 @@ TYCbCrImage
 result
 =
 new
-YCbCrTextureHostOGL
+YCbCrDeprecatedTextureHostOGL
 (
 )
 ;
@@ -273,7 +273,7 @@ TSharedTextureDescriptor
 result
 =
 new
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 (
 )
 ;
@@ -296,7 +296,7 @@ TSurfaceDescriptorGralloc
 result
 =
 new
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 (
 )
 ;
@@ -306,7 +306,7 @@ endif
 else
 if
 (
-aTextureHostFlags
+aDeprecatedTextureHostFlags
 &
 TEXTURE_HOST_TILED
 )
@@ -314,7 +314,7 @@ TEXTURE_HOST_TILED
 result
 =
 new
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 (
 )
 ;
@@ -324,7 +324,7 @@ else
 result
 =
 new
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 (
 )
 ;
@@ -610,17 +610,17 @@ return
 LOCAL_GL_CLAMP_TO_EDGE
 ;
 }
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 :
 :
 ~
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 )
 ;
 if
@@ -649,7 +649,7 @@ gfx
 :
 :
 IntSize
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 :
 :
 GetSize
@@ -729,7 +729,7 @@ IntSize
 ;
 }
 void
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 :
 :
 SetCompositor
@@ -806,7 +806,7 @@ TODO
 :
 the
 new
-TextureClient
+DeprecatedTextureClient
 /
 Host
 model
@@ -843,7 +843,7 @@ mBuffer
 }
 }
 void
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 :
 :
 EnsureBuffer
@@ -917,7 +917,7 @@ aSize
 ;
 }
 void
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 :
 :
 CopyTo
@@ -926,7 +926,7 @@ const
 nsIntRect
 &
 aSourceRect
-TextureHost
+DeprecatedTextureHost
 *
 aDest
 const
@@ -951,7 +951,7 @@ type
 "
 )
 ;
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 *
 dest
 =
@@ -963,7 +963,7 @@ AsSourceOGL
 )
 -
 >
-AsTextureImageTextureHost
+AsTextureImageDeprecatedTextureHost
 (
 )
 ;
@@ -1004,7 +1004,7 @@ MarkValid
 ;
 }
 void
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 :
 :
 UpdateImpl
@@ -1033,7 +1033,7 @@ NS_WARNING
 trying
 to
 update
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 without
 a
 compositor
@@ -1226,7 +1226,7 @@ EndUpdate
 }
 }
 bool
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 :
 :
 Lock
@@ -1242,7 +1242,7 @@ mTexture
 NS_WARNING
 (
 "
-TextureImageTextureHost
+TextureImageDeprecatedTextureHost
 to
 be
 composited
@@ -1292,7 +1292,7 @@ true
 ;
 }
 void
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 :
 :
 SetCompositor
@@ -1344,7 +1344,7 @@ nullptr
 ;
 }
 void
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 :
 :
 DeleteTextures
@@ -1404,7 +1404,7 @@ mTextureHandle
 }
 }
 void
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 :
 :
 UpdateImpl
@@ -1429,7 +1429,7 @@ aRegion
 ;
 }
 void
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 :
 :
 SwapTexturesImpl
@@ -1589,7 +1589,7 @@ mTextureFormat
 }
 }
 bool
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 :
 :
 Lock
@@ -1654,7 +1654,7 @@ true
 ;
 }
 void
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 :
 :
 Unlock
@@ -1681,7 +1681,7 @@ LOCAL_GL_TEXTURE_2D
 ;
 }
 gfx3DMatrix
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 :
 :
 GetTextureTransform
@@ -2316,7 +2316,7 @@ true
 ;
 }
 void
-YCbCrTextureHostOGL
+YCbCrDeprecatedTextureHostOGL
 :
 :
 SetCompositor
@@ -2434,7 +2434,7 @@ mBuffer
 }
 }
 void
-YCbCrTextureHostOGL
+YCbCrDeprecatedTextureHostOGL
 :
 :
 UpdateImpl
@@ -2816,7 +2816,7 @@ cbCrRegion
 ;
 }
 bool
-YCbCrTextureHostOGL
+YCbCrDeprecatedTextureHostOGL
 :
 :
 Lock
@@ -2827,11 +2827,11 @@ return
 true
 ;
 }
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 :
 :
 ~
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 (
 )
 {
@@ -2890,7 +2890,7 @@ LOCAL_GL_UNSIGNED_BYTE
 }
 }
 void
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 :
 :
 SetCompositor
@@ -2942,7 +2942,7 @@ nullptr
 ;
 }
 void
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 :
 :
 DeleteTextures
@@ -3000,7 +3000,7 @@ mTextureHandle
 }
 }
 void
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 :
 :
 Update
@@ -3259,7 +3259,7 @@ FORMAT_B8G8R8A8
 }
 }
 bool
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 :
 :
 Lock
@@ -3275,7 +3275,7 @@ mTextureHandle
 NS_WARNING
 (
 "
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 not
 ready
 to
@@ -3729,10 +3729,10 @@ LOCAL_GL_TEXTURE_EXTERNAL
 }
 }
 }
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 (
 )
 :
@@ -3755,7 +3755,7 @@ false
 {
 }
 void
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 SetCompositor
@@ -3798,7 +3798,7 @@ glCompositor
 ;
 }
 void
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 DeleteTextures
@@ -3850,11 +3850,11 @@ bug
 862324
 static
 void
-RegisterTextureHostAtGrallocBufferActor
+RegisterDeprecatedTextureHostAtGrallocBufferActor
 (
-TextureHost
+DeprecatedTextureHost
 *
-aTextureHost
+aDeprecatedTextureHost
 const
 SurfaceDescriptor
 &
@@ -3893,15 +3893,15 @@ bufferParent
 actor
 -
 >
-SetTextureHost
+SetDeprecatedTextureHost
 (
-aTextureHost
+aDeprecatedTextureHost
 )
 ;
 }
 }
 void
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 UpdateImpl
@@ -3926,7 +3926,7 @@ aRegion
 ;
 }
 void
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 SwapTexturesImpl
@@ -3973,7 +3973,7 @@ for
 bug
 862324
 .
-RegisterTextureHostAtGrallocBufferActor
+RegisterDeprecatedTextureHostAtGrallocBufferActor
 (
 nullptr
 *
@@ -4081,7 +4081,7 @@ calling
 SetBuffer
 again
 .
-RegisterTextureHostAtGrallocBufferActor
+RegisterDeprecatedTextureHostAtGrallocBufferActor
 (
 this
 aImage
@@ -4093,7 +4093,7 @@ gl
 :
 GLContext
 *
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 gl
@@ -4115,7 +4115,7 @@ nullptr
 ;
 }
 void
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 BindTexture
@@ -4305,7 +4305,7 @@ LOCAL_GL_TEXTURE0
 ;
 }
 bool
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 IsValid
@@ -4330,11 +4330,11 @@ get
 )
 ;
 }
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 ~
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 (
 )
 {
@@ -4384,7 +4384,7 @@ pointer
 to
 us
 .
-RegisterTextureHostAtGrallocBufferActor
+RegisterDeprecatedTextureHostAtGrallocBufferActor
 (
 nullptr
 *
@@ -4394,7 +4394,7 @@ mBuffer
 }
 }
 bool
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 Lock
@@ -4425,7 +4425,7 @@ IsValid
 ;
 }
 void
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 Unlock
@@ -4454,7 +4454,7 @@ gfx
 :
 :
 SurfaceFormat
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 GetFormat
@@ -4467,7 +4467,7 @@ mFormat
 ;
 }
 void
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 SetBuffer
@@ -4533,7 +4533,7 @@ right
 after
 SetBuffer
 .
-RegisterTextureHostAtGrallocBufferActor
+RegisterDeprecatedTextureHostAtGrallocBufferActor
 (
 this
 *
@@ -4542,7 +4542,7 @@ mBuffer
 ;
 }
 LayerRenderState
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 GetRenderState
@@ -4709,7 +4709,7 @@ already_AddRefed
 <
 gfxImageSurface
 >
-TextureImageTextureHostOGL
+TextureImageDeprecatedTextureHostOGL
 :
 :
 GetAsSurface
@@ -4760,7 +4760,7 @@ already_AddRefed
 <
 gfxImageSurface
 >
-YCbCrTextureHostOGL
+YCbCrDeprecatedTextureHostOGL
 :
 :
 GetAsSurface
@@ -4817,7 +4817,7 @@ already_AddRefed
 <
 gfxImageSurface
 >
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 :
 :
 GetAsSurface
@@ -4905,7 +4905,7 @@ already_AddRefed
 <
 gfxImageSurface
 >
-TiledTextureHostOGL
+TiledDeprecatedTextureHostOGL
 :
 :
 GetAsSurface
@@ -4951,7 +4951,7 @@ already_AddRefed
 <
 gfxImageSurface
 >
-GrallocTextureHostOGL
+GrallocDeprecatedTextureHostOGL
 :
 :
 GetAsSurface

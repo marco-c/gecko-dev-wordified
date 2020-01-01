@@ -535,7 +535,7 @@ mImageHost
 mImageHost
 -
 >
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 )
@@ -546,7 +546,7 @@ size
 mImageHost
 -
 >
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 -

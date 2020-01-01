@@ -121,10 +121,10 @@ mozilla
 namespace
 layers
 {
-TextureClientSharedOGL
+DeprecatedTextureClientSharedOGL
 :
 :
-TextureClientSharedOGL
+DeprecatedTextureClientSharedOGL
 (
 CompositableForwarder
 *
@@ -135,7 +135,7 @@ TextureInfo
 aTextureInfo
 )
 :
-TextureClient
+DeprecatedTextureClient
 (
 aForwarder
 aTextureInfo
@@ -147,7 +147,7 @@ nullptr
 {
 }
 void
-TextureClientSharedOGL
+DeprecatedTextureClientSharedOGL
 :
 :
 ReleaseResources
@@ -198,7 +198,7 @@ handle
 gets
 released
 !
-SharedTextureHostOGL
+SharedDeprecatedTextureHostOGL
 will
 take
 /
@@ -212,7 +212,7 @@ though
 .
 }
 void
-TextureClientSharedOGL
+DeprecatedTextureClientSharedOGL
 :
 :
 EnsureAllocated
