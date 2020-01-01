@@ -2458,17 +2458,6 @@ return
 JS_TRUE
 ;
 }
-XPCJSRuntime
-*
-rt
-=
-nsXPConnect
-:
-:
-GetRuntimeInstance
-(
-)
-;
 /
 /
 The
