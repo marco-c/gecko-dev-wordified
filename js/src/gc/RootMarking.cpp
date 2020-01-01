@@ -2553,6 +2553,12 @@ frontend
 :
 :
 Parser
+<
+frontend
+:
+:
+FullParseHandler
+>
 *
 >
 (

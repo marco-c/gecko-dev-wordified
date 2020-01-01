@@ -1846,11 +1846,15 @@ ti
 '
 '
 -
-a
+-
+always
+-
+mjit
 '
 '
 -
-d
+-
+debugjit
 '
 ]
                       
@@ -1912,7 +1916,10 @@ ion
 '
 '
 -
-a
+-
+always
+-
+mjit
 '
 ]
                       
@@ -1933,11 +1940,15 @@ ion
 '
 '
 -
-a
+-
+always
+-
+mjit
 '
 '
 -
-d
+-
+debugjit
 '
 ]
                       
@@ -1958,7 +1969,8 @@ ion
 '
 '
 -
-d
+-
+debugjit
 '
 ]
                     

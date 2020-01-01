@@ -807,7 +807,10 @@ append
 (
 '
 -
-a
+-
+always
+-
+mjit
 '
 )
                     
@@ -828,7 +831,8 @@ append
 (
 '
 -
-d
+-
+debugjit
 '
 )
                     
@@ -849,33 +853,8 @@ append
 (
 '
 -
-m
-'
-)
-                    
-elif
-name
-=
-=
-'
-ion
 -
-eager
-'
-:
-                        
-test
-.
-jitflags
-.
-append
-(
-'
--
--
-ion
--
-eager
+jm
 '
 )
                     
@@ -902,6 +881,32 @@ append
 no
 -
 jm
+'
+)
+                    
+elif
+name
+=
+=
+'
+ion
+-
+eager
+'
+:
+                        
+test
+.
+jitflags
+.
+append
+(
+'
+-
+-
+ion
+-
+eager
 '
 )
                     
@@ -924,7 +929,10 @@ append
 (
 '
 -
-D
+-
+dump
+-
+bytecode
 '
 )
                     
