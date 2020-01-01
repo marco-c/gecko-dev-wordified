@@ -59365,16 +59365,15 @@ here
 skip
 for
 prototypes
-that
-have
-more
+which
         
 #
-than
-one
-concrete
-class
+share
+an
 implementation
+with
+other
+prototypes
 .
         
 traitsClasses
@@ -59394,7 +59393,7 @@ descriptorsWithPrototype
 if
 d
 .
-uniqueImplementation
+unsharedImplementation
 ]
 )
         
