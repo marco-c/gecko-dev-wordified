@@ -565,6 +565,14 @@ end
 :
 1px
 ;
+height
+:
+16px
+;
+width
+:
+16px
+;
 }
 .
 actionsMenu
@@ -597,6 +605,8 @@ padding
 end
 :
 4px
+!
+important
 ;
 }
 .
