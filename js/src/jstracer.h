@@ -548,6 +548,8 @@ _len
 unsigned
 _max
 ;
+public
+:
 void
 ensure
 (
@@ -615,8 +617,6 @@ _len
 #
 endif
 }
-public
-:
 Queue
 (
 unsigned
