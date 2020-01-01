@@ -5150,12 +5150,6 @@ js
 RootedValueMap
 gcRootsHash
 ;
-js
-:
-:
-GCLocks
-gcLocksHash
-;
 unsigned
 gcKeepAtoms
 ;
