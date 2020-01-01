@@ -12049,7 +12049,7 @@ GetNormalBlock
 )
 -
 >
-ValueStorageFor
+ValueFor
 (
 eCSSProperty_font_size_adjust
 )

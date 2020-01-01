@@ -519,7 +519,6 @@ flags_
 datastruct_
 \
 member_
-type_
 kwtable_
 )
 \
@@ -545,7 +544,6 @@ method_
 flags_
 datastruct_
 member_
-type_
 \
 kwtable_
 stylestruct_
@@ -595,12 +593,12 @@ CSS_PROP_BACKENDONLY
 /
 anon
 namespace
-void
+nsCSSValue
 *
 nsRuleData
 :
 :
-StorageFor
+ValueFor
 (
 nsCSSProperty
 aProperty
@@ -691,7 +689,7 @@ null
 return
 reinterpret_cast
 <
-void
+nsCSSValue
 *
 >
 (
