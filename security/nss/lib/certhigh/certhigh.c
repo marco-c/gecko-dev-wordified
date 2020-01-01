@@ -2210,6 +2210,15 @@ if
 stanNickname
 )
 {
+nss_ZFreeIf
+(
+stanNickname
+)
+;
+stanNickname
+=
+NULL
+;
 if
 (
 names
