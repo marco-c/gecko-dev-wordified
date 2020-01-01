@@ -473,13 +473,6 @@ prtypes
 .
 h
 "
-#
-include
-"
-nsCUPSShim
-.
-h
-"
 class
 nsIPrefService
 ;
@@ -775,9 +768,6 @@ nsCOMPtr
 nsIPrefBranch
 >
 mPref
-;
-nsCUPSShim
-mCups
 ;
 }
 ;
