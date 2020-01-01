@@ -570,12 +570,12 @@ chars
 var
 size
 =
-1000
+10000
 ;
 var
 mult
 =
-100
+1000
 ;
 var
 densearray
