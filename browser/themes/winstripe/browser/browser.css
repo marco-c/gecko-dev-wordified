@@ -10514,11 +10514,14 @@ tabbrowser
 -
 tabs
 {
-padding
 -
-top
+moz
+-
+appearance
 :
-0px
+browsertabbar
+-
+toolbox
 ;
 background
 :
