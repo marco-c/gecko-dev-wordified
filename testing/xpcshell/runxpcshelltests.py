@@ -5217,6 +5217,8 @@ not
 keepGoing
 :
       
+self
+.
 log
 .
 error
@@ -5241,7 +5243,7 @@ run
 .
 "
 \
-            
+                     
 "
 (
 Use
