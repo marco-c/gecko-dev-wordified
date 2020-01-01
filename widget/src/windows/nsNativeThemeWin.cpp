@@ -3619,7 +3619,7 @@ aState
 StandardGetState
 (
 aFrame
-aState
+aWidgetType
 PR_FALSE
 )
 ;
