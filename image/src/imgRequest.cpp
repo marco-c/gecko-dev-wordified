@@ -745,6 +745,7 @@ new
 imgStatusTracker
 (
 nullptr
+this
 )
 ;
 mURI
@@ -6344,6 +6345,7 @@ new
 imgStatusTracker
 (
 nullptr
+this
 )
 ;
 freshTracker
