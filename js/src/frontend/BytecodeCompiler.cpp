@@ -840,6 +840,7 @@ pc
 (
 &
 parser
+NULL
 &
 globalsc
 staticLevel
@@ -1992,6 +1993,7 @@ pc
 (
 &
 parser
+NULL
 &
 globalsc
 0
