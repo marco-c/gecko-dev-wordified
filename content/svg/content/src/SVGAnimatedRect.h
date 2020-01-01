@@ -142,13 +142,9 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
+class
 nsSVGElement
-.
-h
-"
+;
 class
 nsSVGViewBox
 ;

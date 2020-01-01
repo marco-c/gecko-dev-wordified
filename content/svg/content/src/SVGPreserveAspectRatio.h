@@ -135,13 +135,9 @@ ErrorResult
 .
 h
 "
-#
-include
-"
+class
 nsSVGElement
-.
-h
-"
+;
 namespace
 mozilla
 {

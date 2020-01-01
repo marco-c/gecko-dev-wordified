@@ -89,13 +89,6 @@ endif
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -130,6 +123,9 @@ NS_DOMCRYPTO_CID
 0xc3
 }
 }
+class
+nsPIDOMWindow
+;
 namespace
 mozilla
 {

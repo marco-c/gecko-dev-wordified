@@ -147,13 +147,9 @@ nsString
 .
 h
 "
-#
-include
-"
+class
 nsPIDOMWindow
-.
-h
-"
+;
 namespace
 mozilla
 {
