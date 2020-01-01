@@ -5857,6 +5857,9 @@ left
 operand
 prefer
 a
+non
+-
+constant
 lhs
 operand
 with
@@ -5874,6 +5877,16 @@ isConstant
 )
 |
 |
+(
+!
+rhs
+-
+>
+isConstant
+(
+)
+&
+&
 rhs
 -
 >
@@ -5883,6 +5896,7 @@ useCount
 =
 =
 1
+)
 )
 {
 *
