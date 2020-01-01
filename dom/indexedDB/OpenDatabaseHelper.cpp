@@ -5041,12 +5041,11 @@ otherInfo
 ;
 NS_ASSERTION
 (
-ObjectStoreInfo
-:
-:
-Get
+dbInfo
+-
+>
+GetObjectStore
 (
-mDatabaseId
 info
 -
 >
