@@ -3587,12 +3587,6 @@ nullptr
 ;
 }
 static
-bool
-HasIndexedDBSupport
-(
-)
-;
-static
 WindowByIdTable
 *
 GetWindowsTable
