@@ -416,7 +416,7 @@ addTab
 "
 about
 :
-credits
+mozilla
 "
 )
 ;

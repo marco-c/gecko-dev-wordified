@@ -526,7 +526,7 @@ addTab
 "
 about
 :
-credits
+license
 "
 )
 ]
@@ -593,7 +593,7 @@ newTabs
 _tPos
 3
 "
-Credits
+License
 is
 in
 position
@@ -748,7 +748,7 @@ newTabs
 _tPos
 0
 "
-Credits
+License
 is
 in
 position
