@@ -13641,6 +13641,9 @@ scrollbox
 while
 (
 currentElement
+&
+&
+currentElement
 .
 parentNode
 !
