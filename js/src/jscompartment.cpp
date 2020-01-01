@@ -961,11 +961,9 @@ runtime
 >
 sameCompartmentWrapObjectCallback
 )
-{
 return
 true
 ;
-}
 RootedObject
 wrapped
 (
@@ -2259,7 +2257,8 @@ return
 false
 ;
 /
-/
+*
+*
 We
 maintain
 the
@@ -2273,8 +2272,7 @@ cross
 -
 compartment
 wrapper
-/
-/
+*
 map
 is
 always
@@ -2284,6 +2282,8 @@ by
 the
 value
 .
+*
+/
 JS_ASSERT
 (
 Wrapper
@@ -2333,7 +2333,7 @@ jsid
 idp
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 *
 idp
