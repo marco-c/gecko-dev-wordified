@@ -815,13 +815,6 @@ endif
 #
 include
 "
-nsGenericHTMLElement
-.
-h
-"
-#
-include
-"
 imgIRequest
 .
 h
@@ -26713,9 +26706,6 @@ GetCORSMode
 )
 !
 =
-nsGenericHTMLElement
-:
-:
 CORS_NONE
 ;
 result

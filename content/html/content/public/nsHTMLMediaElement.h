@@ -544,6 +544,15 @@ VideoFrameContainer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+CORSMode
+.
+h
+"
 /
 /
 Define
@@ -613,6 +622,9 @@ CANPLAY_MAYBE
 CANPLAY_YES
 }
 ;
+mozilla
+:
+:
 CORSMode
 GetCORSMode
 (
@@ -5419,6 +5431,9 @@ loading
 the
 media
 element
+mozilla
+:
+:
 CORSMode
 mCORSMode
 ;
