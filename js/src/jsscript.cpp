@@ -6621,7 +6621,7 @@ src
 =
 NULL
 ;
-uint32_t
+size_t
 length
 ;
 if
@@ -7318,7 +7318,7 @@ const
 jschar
 *
 src
-uint32_t
+size_t
 length
 )
 {

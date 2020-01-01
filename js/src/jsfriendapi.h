@@ -1162,7 +1162,7 @@ jschar
 *
 *
 src
-uint32_t
+size_t
 *
 length
 )
