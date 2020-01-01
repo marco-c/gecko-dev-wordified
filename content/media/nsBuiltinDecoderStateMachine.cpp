@@ -11479,7 +11479,7 @@ stream
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 ;
@@ -12087,7 +12087,7 @@ isLiveStream
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -13605,7 +13605,7 @@ stream
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 ;
@@ -15033,7 +15033,7 @@ stream
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 ;

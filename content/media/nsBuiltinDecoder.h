@@ -3159,7 +3159,7 @@ IsInfinite
 virtual
 nsMediaStream
 *
-GetStream
+GetCurrentStream
 (
 )
 ;

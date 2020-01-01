@@ -1906,7 +1906,7 @@ return
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -1959,7 +1959,7 @@ startOffset
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -1983,7 +1983,7 @@ endOffset
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -2098,7 +2098,7 @@ startOffset
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -2159,7 +2159,7 @@ NS_FAILED
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -2269,7 +2269,7 @@ NS_ABORT_IF_FALSE
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -2657,7 +2657,7 @@ NS_ABORT_IF_FALSE
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -3092,7 +3092,7 @@ NS_ABORT_IF_FALSE
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -3302,7 +3302,7 @@ NS_ABORT_IF_FALSE
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -3373,7 +3373,7 @@ offset
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -3614,7 +3614,7 @@ streamLength
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -3670,7 +3670,7 @@ return
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -

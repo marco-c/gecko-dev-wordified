@@ -1535,7 +1535,7 @@ nsMediaStream
 *
 stream
 =
-GetStream
+GetCurrentStream
 (
 )
 ;
@@ -1575,7 +1575,7 @@ nsMediaStream
 *
 stream
 =
-GetStream
+GetCurrentStream
 (
 )
 ;
