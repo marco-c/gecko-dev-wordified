@@ -1691,10 +1691,7 @@ s
 \
 n
 "
-nsPromiseFlatCString
-(
 log
-)
 .
 get
 (
@@ -2060,10 +2057,7 @@ s
 \
 n
 "
-nsPromiseFlatCString
-(
 log
-)
 .
 get
 (
