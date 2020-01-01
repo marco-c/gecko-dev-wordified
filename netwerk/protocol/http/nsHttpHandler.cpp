@@ -9873,6 +9873,17 @@ mInPrivateBrowsingMode
 =
 PRIVATE_BROWSING_OFF
 ;
+if
+(
+mConnMgr
+)
+mConnMgr
+-
+>
+ClosePersistentConnections
+(
+)
+;
 }
 else
 if
