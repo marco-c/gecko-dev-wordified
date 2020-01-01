@@ -6687,6 +6687,8 @@ UI
 through
 progress
 listener
+/
+/
 gBrowser
 .
 addProgressListener
