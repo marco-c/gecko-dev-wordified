@@ -36,6 +36,13 @@ Components
 .
 interfaces
 ;
+var
+Cu
+=
+Components
+.
+utils
+;
 }
 window
 .
