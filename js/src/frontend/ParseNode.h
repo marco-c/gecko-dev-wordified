@@ -542,6 +542,7 @@ detail
 enum
 ParseNodeKind
 {
+PNK_NOP
 PNK_SEMI
 PNK_COMMA
 PNK_CONDITIONAL
@@ -2903,6 +2904,9 @@ pn_kid
 array
 comprehension
 expression
+*
+PNK_NOP
+nullary
 *
 /
 enum
