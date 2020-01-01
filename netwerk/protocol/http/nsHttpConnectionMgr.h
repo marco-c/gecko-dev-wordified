@@ -3406,12 +3406,6 @@ mPrimarySynStarted
 mozilla
 :
 :
-TimeDuration
-mPrimarySynRTT
-;
-mozilla
-:
-:
 TimeStamp
 mBackupSynStarted
 ;
