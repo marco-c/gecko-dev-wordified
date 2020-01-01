@@ -647,7 +647,6 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-const
 nsHTMLReflowState
 &
 aChildReflowState
