@@ -420,6 +420,7 @@ DIRS
 =
 chromium
 glue
+testshell
 TOOL_DIRS
 =
 app

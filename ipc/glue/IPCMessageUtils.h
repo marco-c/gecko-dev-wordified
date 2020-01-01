@@ -472,6 +472,7 @@ NPPProtocolMsgStart
 =
 0
 IFrameEmbeddingProtocolMsgStart
+TestShellProtocolMsgStart
 LastMsgIndex
 }
 ;

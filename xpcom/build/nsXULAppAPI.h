@@ -2805,6 +2805,7 @@ GeckoChildProcessType
 GeckoChildProcess_Default
 GeckoChildProcess_Plugin
 GeckoChildProcess_Tab
+GeckoChildProcess_TestShell
 GeckoChildProcess_End
 GeckoChildProcess_Invalid
 =
@@ -2830,7 +2831,9 @@ plugin
 "
 tab
 "
-0
+"
+testshell
+"
 }
 ;
 XRE_API
@@ -2906,9 +2909,16 @@ aMainFunctionExtraData
 )
 XRE_API
 (
-nsresult
-XRE_LaunchChildProcess
+int
+XRE_RunTestShell
 (
+int
+aArgc
+char
+*
+aArgv
+[
+]
 )
 )
 #
