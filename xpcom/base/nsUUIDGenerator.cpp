@@ -273,7 +273,7 @@ unsigned
 int
 seed
 ;
-PRSize
+size_t
 bytes
 =
 0
@@ -288,7 +288,7 @@ seed
 )
 )
 {
-PRSize
+size_t
 nbytes
 =
 PR_GetRandomNoise
@@ -738,7 +738,7 @@ mState
 ;
 #
 endif
-PRSize
+size_t
 bytesLeft
 =
 sizeof
@@ -857,7 +857,7 @@ nsID
 bytesLeft
 )
 ;
-PRSize
+size_t
 toWrite
 =
 (
@@ -872,7 +872,7 @@ mRBytes
 ;
 for
 (
-PRSize
+size_t
 i
 =
 0

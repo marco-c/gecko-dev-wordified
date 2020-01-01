@@ -284,7 +284,7 @@ Realloc
 void
 *
 ptr
-PRSize
+size_t
 size
 )
 {
@@ -333,7 +333,7 @@ const
 void
 *
 ptr
-PRSize
+size_t
 size
 )
 ;

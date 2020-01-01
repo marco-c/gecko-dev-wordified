@@ -212,7 +212,7 @@ nsMemoryImpl
 :
 Alloc
 (
-PRSize
+size_t
 size
 )
 {
@@ -236,7 +236,7 @@ Realloc
 void
 *
 ptr
-PRSize
+size_t
 size
 )
 {
@@ -860,7 +860,7 @@ void
 )
 NS_Alloc
 (
-PRSize
+size_t
 size
 )
 {
@@ -881,7 +881,7 @@ NS_Realloc
 void
 *
 ptr
-PRSize
+size_t
 size
 )
 {
