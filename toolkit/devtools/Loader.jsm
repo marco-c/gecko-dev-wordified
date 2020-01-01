@@ -82,11 +82,16 @@ tools
 *
 /
 let
+{
+interfaces
+:
+Ci
+utils
+:
 Cu
+}
 =
 Components
-.
-utils
 ;
 Cu
 .
@@ -166,7 +171,7 @@ gre
 /
 modules
 /
-NetUtil
+FileUtils
 .
 jsm
 "
@@ -597,7 +602,7 @@ serverDir
 =
 OS
 .
-path
+Path
 .
 join
 (
