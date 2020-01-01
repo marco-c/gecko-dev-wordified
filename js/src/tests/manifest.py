@@ -912,10 +912,6 @@ random
 =
 False
             
-slow
-=
-False
-            
 pos
 =
 0
@@ -1232,27 +1228,6 @@ pos
 =
 2
                 
-elif
-parts
-[
-pos
-]
-=
-=
-'
-slow
-'
-:
-                    
-slow
-=
-True
-                    
-pos
-+
-=
-1
-                
 else
 :
                     
@@ -1305,7 +1280,6 @@ script
 enable
 expect
 random
-slow
 )
 )
     
