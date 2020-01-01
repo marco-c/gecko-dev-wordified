@@ -796,6 +796,12 @@ framePushed
 (
 )
 exprStack
+snapshot
+-
+>
+bailoutKind
+(
+)
 )
 ;
 for

@@ -1341,6 +1341,8 @@ assignSnapshot
 LInstruction
 *
 ins
+BailoutKind
+kind
 )
 {
 LSnapshot
@@ -1354,6 +1356,7 @@ New
 (
 gen
 lastResumePoint_
+kind
 )
 ;
 if

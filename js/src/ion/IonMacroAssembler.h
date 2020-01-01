@@ -1012,11 +1012,16 @@ register
 is
 required
 .
+template
+<
+typename
+T
+>
 void
 guardTypeSet
 (
 const
-Address
+T
 &
 address
 types
