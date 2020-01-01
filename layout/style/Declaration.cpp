@@ -382,7 +382,7 @@ aProperty
 )
 ;
 }
-void
+bool
 Declaration
 :
 :
@@ -420,6 +420,11 @@ out
 "
 )
 ;
+bool
+removed
+=
+false
+;
 if
 (
 nsCSSProps
@@ -437,6 +442,8 @@ p
 aProperty
 )
 {
+removed
+=
 data
 .
 ClearLonghandProperty
@@ -444,6 +451,9 @@ ClearLonghandProperty
 *
 p
 )
+|
+|
+removed
 ;
 mOrder
 .
@@ -457,6 +467,8 @@ p
 }
 else
 {
+removed
+=
 data
 .
 ClearLonghandProperty
@@ -477,6 +489,9 @@ CompressFrom
 &
 data
 )
+;
+return
+removed
 ;
 }
 bool
