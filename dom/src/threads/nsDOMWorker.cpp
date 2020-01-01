@@ -7801,6 +7801,12 @@ return
 PR_FALSE
 ;
 }
+JSAutoRequest
+ar
+(
+aCx
+)
+;
 JS_SetGlobalObject
 (
 aCx
