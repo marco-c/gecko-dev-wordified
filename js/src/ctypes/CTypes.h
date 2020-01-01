@@ -103,7 +103,7 @@ ctypes_CTypes_h
 #
 include
 "
-jscntxt
+ffi
 .
 h
 "
@@ -117,14 +117,14 @@ h
 #
 include
 "
-prlink
+jscntxt
 .
 h
 "
 #
 include
 "
-ffi
+prlink
 .
 h
 "
