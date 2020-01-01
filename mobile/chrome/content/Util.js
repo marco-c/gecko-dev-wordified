@@ -849,8 +849,6 @@ point
 .
 *
 /
-Point
-=
 function
 Point
 (
