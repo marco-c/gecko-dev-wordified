@@ -778,6 +778,17 @@ touched
 on
 mStorageThread
 !
+These
+must
+be
+destroyed
+in
+the
+/
+/
+FireCloseConnectionRunnable
+method
+.
 nsCOMPtr
 <
 mozIStorageConnection
