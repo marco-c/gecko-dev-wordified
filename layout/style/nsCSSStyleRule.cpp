@@ -1708,6 +1708,13 @@ mTag
 =
 mTag
 ;
+result
+-
+>
+mOperator
+=
+mOperator
+;
 NS_IF_CLONE
 (
 mIDList
