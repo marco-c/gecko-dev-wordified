@@ -728,8 +728,6 @@ nsRange
 public
 nsIRange
 public
-nsIDOMRange
-public
 nsIDOMNSRange
 public
 nsStubMutationObserver
@@ -980,7 +978,7 @@ range
 nsresult
 DoCloneRange
 (
-nsRange
+nsIRange
 *
 *
 aNewRange

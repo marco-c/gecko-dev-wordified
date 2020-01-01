@@ -2052,7 +2052,7 @@ unsafe
 nsresult
 HandleTableSelection
 (
-nsIContent
+nsINode
 *
 aParentContent
 PRInt32
@@ -4498,7 +4498,7 @@ ClearNormalSelection
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mCellParent
 ;
