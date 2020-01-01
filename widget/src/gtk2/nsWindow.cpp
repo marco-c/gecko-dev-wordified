@@ -711,13 +711,6 @@ h
 #
 include
 "
-nsPIAccessNode
-.
-h
-"
-#
-include
-"
 nsPIAccessible
 .
 h

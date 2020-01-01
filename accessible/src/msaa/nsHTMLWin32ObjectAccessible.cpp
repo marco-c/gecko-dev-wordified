@@ -476,7 +476,7 @@ mHwnd
 aHwnd
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLWin32ObjectOwnerAccessible
 :
 :

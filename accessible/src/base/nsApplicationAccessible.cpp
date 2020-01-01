@@ -812,7 +812,7 @@ nsAccessible
 /
 /
 nsIAccessNode
-NS_IMETHODIMP
+nsresult
 nsApplicationAccessible
 :
 :

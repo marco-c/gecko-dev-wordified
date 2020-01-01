@@ -615,7 +615,11 @@ ShutdownAtkObject
 (
 )
 ;
-NS_IMETHOD
+/
+/
+nsAccessNode
+virtual
+nsresult
 Shutdown
 (
 )

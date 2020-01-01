@@ -5318,7 +5318,7 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsXULComboboxAccessible
 :
 :

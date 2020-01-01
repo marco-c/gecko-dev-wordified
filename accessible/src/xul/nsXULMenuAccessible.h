@@ -505,7 +505,11 @@ nsXULSelectableAccessible
 )
 {
 }
-NS_IMETHOD
+/
+/
+nsAccessNode
+virtual
+nsresult
 Shutdown
 (
 )
@@ -686,8 +690,9 @@ _retval
 ;
 /
 /
-nsPIAccessNode
-NS_IMETHOD
+nsAccessNode
+virtual
+nsresult
 Init
 (
 )

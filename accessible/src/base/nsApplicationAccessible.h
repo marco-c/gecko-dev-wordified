@@ -582,8 +582,9 @@ nsAccessible
 )
 /
 /
-nsPIAccessNode
-NS_IMETHOD
+nsAccessNode
+virtual
+nsresult
 Init
 (
 )

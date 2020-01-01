@@ -1592,8 +1592,8 @@ NS_ERROR_INVALID_ARG
 /
 nsLinkableAccessible
 .
-nsPIAccessNode
-NS_IMETHODIMP
+nsAccessNode
+nsresult
 nsLinkableAccessible
 :
 :
@@ -1614,7 +1614,7 @@ Init
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLinkableAccessible
 :
 :

@@ -6397,7 +6397,7 @@ successfully
 added
 }
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLComboboxAccessible
 :
 :
