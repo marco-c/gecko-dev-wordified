@@ -1962,14 +1962,6 @@ DOMCI_CLASS
 (
 MathMLElement
 )
-DOMCI_CLASS
-(
-Worker
-)
-DOMCI_CLASS
-(
-ChromeWorker
-)
 /
 /
 WebGL
@@ -2066,7 +2058,7 @@ DesktopNotificationCenter
 WebSocket
 DOMCI_CLASS
 (
-WebSocket
+MozWebSocket
 )
 DOMCI_CLASS
 (
