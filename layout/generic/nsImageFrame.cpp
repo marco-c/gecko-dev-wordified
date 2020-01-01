@@ -8129,6 +8129,15 @@ false
 ;
 if
 (
+!
+nsLayoutUtils
+:
+:
+AnimatedImageLayersEnabled
+(
+)
+|
+|
 mImage
 -
 >

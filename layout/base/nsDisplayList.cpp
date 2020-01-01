@@ -11871,6 +11871,15 @@ aBuilder
 |
 |
 !
+nsLayoutUtils
+:
+:
+AnimatedImageLayersEnabled
+(
+)
+|
+|
+!
 mIsAnimated
 )
 {
