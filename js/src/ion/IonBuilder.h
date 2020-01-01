@@ -1214,6 +1214,9 @@ build
 bool
 buildInline
 (
+IonBuilder
+*
+callerBuilder
 MResumePoint
 *
 callerResumePoint
@@ -2362,6 +2365,10 @@ pc
 NULL
 ;
 }
+IonBuilder
+*
+callerBuilder_
+;
 Vector
 <
 CFGState
