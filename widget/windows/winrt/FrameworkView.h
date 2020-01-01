@@ -113,6 +113,13 @@ h
 #
 include
 "
+MetroInput
+.
+h
+"
+#
+include
+"
 gfxWindowsPlatform
 .
 h
@@ -1440,12 +1447,6 @@ mPrintManager
 ;
 private
 :
-nsRefPtr
-<
-gfxD2DSurface
->
-mD2DWindowSurface
-;
 nsIntRect
 mWindowBounds
 ;
