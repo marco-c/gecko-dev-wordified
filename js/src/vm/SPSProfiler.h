@@ -1945,7 +1945,7 @@ jsbytecode
 *
 ipToPC
 (
-UnrootedScript
+RawScript
 script
 size_t
 ip
@@ -1998,7 +1998,7 @@ jsbytecode
 *
 ipToPC
 (
-UnrootedScript
+RawScript
 script
 size_t
 ip
