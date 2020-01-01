@@ -636,6 +636,10 @@ nsIDragService
 :
 DRAGDROP_ACTION_UNINITIALIZED
 )
+mCursorState
+(
+PR_FALSE
+)
 mReadOnly
 (
 PR_FALSE
@@ -655,10 +659,6 @@ mDragImageX
 mDragImageY
 (
 0
-)
-mCursorState
-(
-PR_FALSE
 )
 {
 }

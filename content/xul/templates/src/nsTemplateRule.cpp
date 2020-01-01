@@ -1610,6 +1610,12 @@ aOtherRule
 .
 mQuerySet
 )
+mRuleNode
+(
+aOtherRule
+.
+mRuleNode
+)
 mAction
 (
 aOtherRule
@@ -1623,12 +1629,6 @@ nsnull
 mConditions
 (
 nsnull
-)
-mRuleNode
-(
-aOtherRule
-.
-mRuleNode
 )
 {
 MOZ_COUNT_CTOR
