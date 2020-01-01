@@ -3472,6 +3472,9 @@ VerifyCacheSizes
 (
 )
 {
+#
+ifdef
+DEBUG
 if
 (
 !
@@ -3575,6 +3578,8 @@ cache
 "
 )
 ;
+#
+endif
 }
 imgLoader
 :
