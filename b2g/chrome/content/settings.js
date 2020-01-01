@@ -2598,6 +2598,13 @@ length
 >
 0
 ;
+if
+(
+this
+.
+DEBUG
+)
+{
 this
 .
 debug
@@ -2610,6 +2617,7 @@ isDebugging
 isDebugging
 )
 ;
+}
 let
 enableAdb
 =
