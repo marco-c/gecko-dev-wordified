@@ -516,7 +516,7 @@ document
 title
 =
 "
-Firefox
+Fennec
 -
 "
 +
