@@ -4605,6 +4605,11 @@ useHelperThreads_
 (
 useHelperThreads
 )
+requestedHelperThreadCount
+(
+-
+1
+)
 {
 /
 *

@@ -331,6 +331,11 @@ CondVar
 which
 )
 ;
+bool
+canStartIonCompile
+(
+)
+;
 private
 :
 /
