@@ -6276,8 +6276,9 @@ principal
 JS
 :
 :
-ZoneSpecifier
-zoneSpec
+CompartmentOptions
+&
+aOptions
 )
 {
 /
@@ -6352,7 +6353,7 @@ get
 (
 principal
 )
-zoneSpec
+aOptions
 )
 )
 ;
@@ -6569,8 +6570,9 @@ aFlags
 JS
 :
 :
-ZoneSpecifier
-zoneSpec
+CompartmentOptions
+&
+aOptions
 nsIXPConnectJSObjectHolder
 *
 *
@@ -6694,7 +6696,7 @@ nsIXPConnect
 :
 :
 INIT_JS_STANDARD_CLASSES
-zoneSpec
+aOptions
 getter_AddRefs
 (
 wrappedGlobal
