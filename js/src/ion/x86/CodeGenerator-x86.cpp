@@ -2107,10 +2107,10 @@ void
 gen
 -
 >
-cx
+compartment
 -
 >
-runtime
+rt
 -
 >
 interrupt
