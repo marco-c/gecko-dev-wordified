@@ -11858,6 +11858,15 @@ this
 .
 *
 *
+This
+function
+works
+across
+document
+boundaries
+.
+*
+*
 NOTE
 :
 this

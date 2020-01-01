@@ -471,10 +471,10 @@ NS_IPLUGINWIDGET_IID
 }
 }
 struct
-nsRect
+nsIntPoint
 ;
-struct
-nsPoint
+class
+nsIPluginInstanceOwner
 ;
 class
 NS_NO_VTABLE

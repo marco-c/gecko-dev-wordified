@@ -887,13 +887,6 @@ nsIPrefBranch2
 h
 "
 #
-include
-"
-nsIObjectFrame
-.
-h
-"
-#
 ifdef
 MOZ_XUL
 #
