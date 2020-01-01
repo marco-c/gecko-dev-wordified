@@ -3153,6 +3153,7 @@ NULL
 *
 /
 extern
+JS_REQUIRES_STACK
 JSObject
 *
 js_NewWithObject
@@ -3256,6 +3257,7 @@ fp
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_PutBlockObject
 (
@@ -4720,6 +4722,7 @@ propp
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSObject
 *
 js_FindIdentifierBase

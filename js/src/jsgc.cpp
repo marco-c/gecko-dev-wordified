@@ -18960,10 +18960,10 @@ js_Execute
 /
 fp
 =
+js_GetTopStackFrame
+(
 acx
--
->
-fp
+)
 ;
 nextChain
 =

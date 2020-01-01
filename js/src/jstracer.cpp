@@ -4139,6 +4139,7 @@ out
 )
 {
 }
+JS_REQUIRES_STACK
 LInsp
 ins2
 (
@@ -6273,6 +6274,7 @@ usage
 .
 *
 /
+JS_REQUIRES_STACK
 unsigned
 js_NativeStackSlots
 (
@@ -6489,6 +6491,7 @@ object
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TypeMap
 :
@@ -6644,6 +6647,7 @@ frames
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TypeMap
 :
@@ -6950,6 +6954,7 @@ Fragment
 f
 )
 ;
+JS_REQUIRES_STACK
 TraceRecorder
 :
 :
@@ -8203,6 +8208,7 @@ we
 track
 *
 /
+JS_REQUIRES_STACK
 ptrdiff_t
 TraceRecorder
 :
@@ -10218,6 +10224,7 @@ frame
 *
 /
 static
+JS_REQUIRES_STACK
 void
 BuildNativeGlobalFrame
 (
@@ -10303,6 +10310,7 @@ frame
 *
 /
 static
+JS_REQUIRES_STACK
 void
 BuildNativeStackFrame
 (
@@ -10413,6 +10421,7 @@ example
 *
 /
 static
+JS_REQUIRES_STACK
 int
 FlushNativeGlobalFrame
 (
@@ -10650,6 +10659,7 @@ np
 *
 /
 static
+JS_REQUIRES_STACK
 int
 FlushNativeStackFrame
 (
@@ -11029,6 +11039,7 @@ state
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -11631,6 +11642,7 @@ t
 #
 endif
 }
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -12031,6 +12043,7 @@ tracker
 .
 *
 /
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -12386,6 +12399,7 @@ store
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -12729,6 +12743,7 @@ immdisp
 undef
 ASSERT_VALID_CACHE_HIT
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -13031,6 +13046,7 @@ taken
 *
 /
 static
+JS_REQUIRES_STACK
 bool
 js_IsLoopEdge
 (
@@ -13158,6 +13174,7 @@ impossible
 .
 *
 /
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -13612,6 +13629,7 @@ return
 ok
 ;
 }
+JS_REQUIRES_STACK
 uint8
 TraceRecorder
 :
@@ -14035,6 +14053,7 @@ imacro_code
 JSOP_LIMIT
 ]
 ;
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -15294,6 +15313,7 @@ hold
 .
 *
 /
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -15421,6 +15441,7 @@ otherwise
 .
 *
 /
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -15996,6 +16017,7 @@ otherwise
 .
 *
 /
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -17105,6 +17127,7 @@ records
 .
 *
 /
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -17148,6 +17171,7 @@ fragment
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -17592,6 +17616,7 @@ appropriate
 .
 *
 /
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -18255,6 +18280,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -18771,6 +18797,7 @@ statements
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -18963,6 +18990,7 @@ expectations
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -19498,6 +19526,7 @@ tree
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -19797,6 +19826,7 @@ points
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -19968,6 +19998,7 @@ loop
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -20210,6 +20241,7 @@ IFNE
 .
 *
 /
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -21060,6 +21092,7 @@ true
 ;
 }
 static
+JS_REQUIRES_STACK
 bool
 js_StartRecorder
 (
@@ -21451,6 +21484,10 @@ FrameInfo
 fi
 )
 {
+VOUCH_DOES_NOT_REQUIRE_STACK
+(
+)
+;
 JS_ASSERT
 (
 HAS_FUNCTION_CLASS
@@ -22938,6 +22975,7 @@ i
 }
 #
 endif
+JS_REQUIRES_STACK
 bool
 js_RecordTree
 (
@@ -23868,6 +23906,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 static
 bool
 js_AttemptToStabilizeTree
@@ -24040,6 +24079,7 @@ true
 ;
 }
 static
+JS_REQUIRES_STACK
 bool
 js_AttemptToExtendTree
 (
@@ -24500,6 +24540,7 @@ false
 ;
 }
 static
+JS_REQUIRES_STACK
 VMSideExit
 *
 js_ExecuteTree
@@ -24520,6 +24561,7 @@ innermostNestedGuardp
 )
 ;
 static
+JS_REQUIRES_STACK
 Fragment
 *
 js_FindVMCompatiblePeer
@@ -24533,6 +24575,7 @@ f
 )
 ;
 static
+JS_REQUIRES_STACK
 bool
 js_CloseLoop
 (
@@ -24781,6 +24824,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 js_RecordLoopEdge
 (
@@ -26206,6 +26250,7 @@ false
 ;
 }
 }
+JS_REQUIRES_STACK
 Fragment
 *
 TraceRecorder
@@ -26687,6 +26732,7 @@ otherwise
 *
 /
 static
+JS_REQUIRES_STACK
 bool
 js_CheckEntryTypes
 (
@@ -26950,6 +26996,7 @@ demotion
 *
 /
 static
+JS_REQUIRES_STACK
 Fragment
 *
 js_FindVMCompatiblePeer
@@ -29180,6 +29227,7 @@ return
 innermost
 ;
 }
+JS_REQUIRES_STACK
 bool
 js_MonitorLoopEdge
 (
@@ -29824,6 +29872,7 @@ false
 ;
 }
 }
+JS_REQUIRES_STACK
 bool
 js_MonitorRecording
 (
@@ -30294,6 +30343,7 @@ blacklist
 )
 ;
 }
+JS_REQUIRES_STACK
 void
 js_AbortRecording
 (
@@ -31433,6 +31483,7 @@ clear
 ;
 }
 extern
+JS_REQUIRES_STACK
 void
 js_FlushJITCache
 (
@@ -31639,6 +31690,88 @@ clear
 ;
 }
 }
+JS_FORCES_STACK
+JSStackFrame
+*
+js_GetTopStackFrame
+(
+JSContext
+*
+cx
+)
+{
+if
+(
+JS_EXECUTING_TRACE
+(
+cx
+)
+)
+{
+/
+*
+*
+TODO
+:
+If
+executing
+a
+tree
+synthesize
+stack
+frames
+and
+bail
+off
+*
+trace
+.
+See
+bug
+462027
+.
+*
+/
+debug_only_v
+(
+printf
+(
+"
+Internal
+error
+:
+getting
+top
+stack
+frame
+on
+trace
+.
+\
+n
+"
+)
+)
+;
+#
+ifdef
+DEBUG_jason
+JS_ASSERT
+(
+0
+)
+;
+#
+endif
+}
+return
+cx
+-
+>
+fp
+;
+}
+JS_REQUIRES_STACK
 jsval
 &
 TraceRecorder
@@ -31680,6 +31813,7 @@ n
 ]
 ;
 }
+JS_REQUIRES_STACK
 jsval
 &
 TraceRecorder
@@ -31721,6 +31855,7 @@ n
 ]
 ;
 }
+JS_REQUIRES_STACK
 jsval
 &
 TraceRecorder
@@ -31755,6 +31890,7 @@ n
 ]
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -31848,6 +31984,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -32255,6 +32392,7 @@ object
 )
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -32277,6 +32415,7 @@ n
 )
 ;
 }
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -32301,6 +32440,7 @@ i
 )
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -32323,6 +32463,7 @@ n
 )
 ;
 }
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -32347,6 +32488,7 @@ i
 )
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -32369,6 +32511,7 @@ n
 )
 ;
 }
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -32827,6 +32970,7 @@ f
 )
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -33125,6 +33269,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -33469,6 +33614,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -33720,6 +33866,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -33803,6 +33950,7 @@ stacked
 .
 *
 /
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -33927,6 +34075,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -34076,6 +34225,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -34465,6 +34615,7 @@ binary_imacros
 IMACRO_PC_ADJ_LIMIT
 )
 ;
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -36006,6 +36157,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -36106,6 +36258,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -36789,6 +36942,7 @@ map
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -38012,6 +38166,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -38731,6 +38886,7 @@ JSVAL_OBJECT
 0
 )
 ;
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -38864,6 +39020,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -39113,6 +39270,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -39215,6 +39373,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -39334,6 +39493,7 @@ return
 cond
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -39361,6 +39521,7 @@ exitType
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -39868,6 +40029,7 @@ trace
 .
 *
 /
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -40251,6 +40413,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 void
 TraceRecorder
 :
@@ -40447,6 +40610,7 @@ LIns
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -40735,6 +40899,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -40880,6 +41045,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -40892,6 +41058,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -40916,6 +41083,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41046,6 +41214,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41058,6 +41227,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41070,6 +41240,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41203,6 +41374,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41215,6 +41387,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41243,6 +41416,7 @@ ifop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41257,6 +41431,7 @@ ifop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41331,6 +41506,7 @@ true
 #
 endif
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41357,6 +41533,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41397,6 +41574,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41463,6 +41641,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41475,6 +41654,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41490,6 +41670,7 @@ LIR_or
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41505,6 +41686,7 @@ LIR_xor
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41520,6 +41702,7 @@ LIR_and
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41536,6 +41719,7 @@ CMP_TRY_BRANCH_AFTER_COND
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41554,6 +41738,7 @@ CMP_TRY_BRANCH_AFTER_COND
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41570,6 +41755,7 @@ CMP_TRY_BRANCH_AFTER_COND
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41586,6 +41772,7 @@ CMP_TRY_BRANCH_AFTER_COND
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41602,6 +41789,7 @@ CMP_TRY_BRANCH_AFTER_COND
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41618,6 +41806,7 @@ CMP_TRY_BRANCH_AFTER_COND
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41633,6 +41822,7 @@ LIR_lsh
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41648,6 +41838,7 @@ LIR_rsh
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41752,6 +41943,7 @@ add_imacros
 IMACRO_PC_ADJ_LIMIT
 )
 ;
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41948,6 +42140,7 @@ LIR_fadd
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41963,6 +42156,7 @@ LIR_fsub
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41978,6 +42172,7 @@ LIR_fmul
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -41993,6 +42188,7 @@ LIR_fdiv
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -42289,6 +42485,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -42496,6 +42693,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -42511,6 +42709,7 @@ LIR_not
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -43246,6 +43445,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -44758,6 +44958,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -44786,6 +44987,7 @@ pc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -44798,6 +45000,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -44810,6 +45013,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -44822,6 +45026,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45025,6 +45230,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45050,6 +45256,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45065,6 +45272,7 @@ incName
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45080,6 +45288,7 @@ incProp
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45095,6 +45304,7 @@ incElem
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45111,6 +45321,7 @@ incName
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45127,6 +45338,7 @@ incProp
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45143,6 +45355,7 @@ incElem
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45204,6 +45417,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45220,6 +45434,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45246,6 +45461,7 @@ code
 .
 .
 .
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45262,6 +45478,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45279,6 +45496,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45296,6 +45514,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45313,6 +45532,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45332,6 +45552,7 @@ stackval
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45409,6 +45630,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45856,6 +46078,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -45999,6 +46222,7 @@ sprop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -46643,6 +46867,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -47093,6 +47318,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -47246,6 +47472,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -47262,6 +47489,7 @@ GETUPVAR
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -47278,6 +47506,7 @@ CALLUPVAR
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -47391,6 +47620,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -47887,6 +48117,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -47915,6 +48146,7 @@ pc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -49061,6 +49293,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -49079,6 +49312,7 @@ argc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -49429,6 +49663,7 @@ return
 ok
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -49566,6 +49801,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -50242,6 +50478,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -50698,6 +50935,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -50776,6 +51014,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -50817,6 +51056,7 @@ v
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -50853,6 +51093,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -50915,6 +51156,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -50968,6 +51210,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51005,6 +51248,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51042,6 +51286,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51063,6 +51308,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51096,6 +51342,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51120,6 +51367,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51144,6 +51392,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51158,6 +51407,7 @@ ifop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51172,6 +51422,7 @@ ifop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51186,6 +51437,7 @@ switchop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51200,6 +51452,7 @@ switchop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51216,6 +51469,7 @@ CMP_STRICT
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51234,6 +51488,7 @@ CMP_NEGATE
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51307,6 +51562,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51319,6 +51575,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51344,6 +51601,7 @@ r
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51356,6 +51614,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51389,6 +51648,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51423,6 +51683,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51456,6 +51717,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51490,6 +51752,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51540,6 +51803,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51711,6 +51975,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51879,6 +52144,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51900,6 +52166,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51914,6 +52181,7 @@ record_JSOP_SETELEM
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51926,6 +52194,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51938,6 +52207,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -51969,6 +52239,7 @@ pc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52000,6 +52271,7 @@ pc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52032,6 +52304,7 @@ pc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52064,6 +52337,7 @@ pc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52096,6 +52370,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52128,6 +52403,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52161,6 +52437,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52194,6 +52471,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52280,6 +52558,7 @@ iter_imacros
 IMACRO_PC_ADJ_LIMIT
 )
 ;
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52550,6 +52829,7 @@ nextiter_imacro
 IMACRO_PC_ADJ_LIMIT
 )
 ;
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52719,6 +52999,7 @@ value
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52798,6 +53079,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52852,6 +53134,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52890,6 +53173,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52902,6 +53186,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52916,6 +53201,7 @@ record_JSOP_DUP
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52930,6 +53216,7 @@ record_JSOP_SETARG
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52944,6 +53231,7 @@ record_JSOP_SETLOCAL
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -52956,6 +53244,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53056,6 +53345,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53163,6 +53453,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53175,6 +53466,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53566,6 +53858,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53578,6 +53871,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53590,6 +53884,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53602,6 +53897,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53614,6 +53910,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53626,6 +53923,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53638,6 +53936,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53650,6 +53949,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53666,6 +53966,7 @@ CMP_CASE
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53678,6 +53979,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53690,6 +53992,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53702,6 +54005,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53714,6 +54018,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53726,6 +54031,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53738,6 +54044,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53750,6 +54057,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53838,6 +54146,7 @@ PCOFF
 )
 fun
 )
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53940,6 +54249,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53952,6 +54262,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53986,6 +54297,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -53998,6 +54310,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54010,6 +54323,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54022,6 +54336,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54034,6 +54349,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54147,6 +54463,7 @@ case
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54220,6 +54537,7 @@ JSOP_ARGCNT
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54246,6 +54564,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54258,6 +54577,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54270,6 +54590,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54298,6 +54619,7 @@ record_JSOP_IFEQ
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54312,6 +54634,7 @@ record_JSOP_IFNE
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54326,6 +54649,7 @@ record_JSOP_OR
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54340,6 +54664,7 @@ record_JSOP_AND
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54354,6 +54679,7 @@ record_JSOP_GOSUB
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54370,6 +54696,7 @@ CMP_CASE
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54382,6 +54709,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54396,6 +54724,7 @@ switchop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54410,6 +54739,7 @@ switchop
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54422,6 +54752,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54434,6 +54765,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54446,6 +54778,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54470,6 +54803,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54482,6 +54816,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54590,6 +54925,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54699,6 +55035,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54801,6 +55138,7 @@ slot
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -54904,6 +55242,7 @@ slot
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55007,6 +55346,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55111,6 +55451,7 @@ false
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55127,6 +55468,7 @@ false
 /
 begin
 JS_HAS_XML_SUPPORT
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55139,6 +55481,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55151,6 +55494,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55163,6 +55507,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55175,6 +55520,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55187,6 +55533,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55199,6 +55546,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55211,6 +55559,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55223,6 +55572,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55235,6 +55585,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55247,6 +55598,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55259,6 +55611,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55271,6 +55624,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55283,6 +55637,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55295,6 +55650,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55307,6 +55663,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55319,6 +55676,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55331,6 +55689,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55343,6 +55702,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55355,6 +55715,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55367,6 +55728,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55379,6 +55741,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55391,6 +55754,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55403,6 +55767,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55415,6 +55780,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55427,6 +55793,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55443,6 +55810,7 @@ false
 /
 end
 JS_HAS_XML_SUPPORT
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55891,6 +56259,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55903,6 +56272,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55953,6 +56323,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -55982,6 +56353,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56009,6 +56381,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56036,6 +56409,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56048,6 +56422,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56273,6 +56648,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56370,6 +56746,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56382,6 +56759,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56396,6 +56774,7 @@ record_JSOP_TYPEOF
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56408,6 +56787,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56420,6 +56800,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56691,6 +57072,7 @@ true
 #
 endif
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56703,6 +57085,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56715,6 +57098,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56727,6 +57111,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56739,6 +57124,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56799,6 +57185,7 @@ this_ins
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56829,6 +57216,7 @@ pc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56859,6 +57247,7 @@ pc
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56879,6 +57268,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56899,6 +57289,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -56919,6 +57310,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -57048,6 +57440,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -57095,6 +57488,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -57142,6 +57536,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -57163,6 +57558,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -57213,6 +57609,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -57263,6 +57660,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -57526,6 +57924,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -57538,6 +57937,7 @@ return
 false
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -58071,6 +58471,7 @@ UNUSED
 (
 n
 )
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :

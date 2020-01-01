@@ -19205,10 +19205,10 @@ aRef
 {
 NS_PRECONDITION
 (
+JS_IsRunning
+(
 mContext
--
->
-fp
+)
 "
 should
 be

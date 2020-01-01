@@ -1148,6 +1148,7 @@ uint8
 {
 public
 :
+JS_REQUIRES_STACK
 void
 captureGlobalTypes
 (
@@ -1159,6 +1160,7 @@ SlotList
 slots
 )
 ;
+JS_REQUIRES_STACK
 void
 captureStackTypes
 (
@@ -1832,6 +1834,7 @@ p
 )
 const
 ;
+JS_REQUIRES_STACK
 ptrdiff_t
 nativeStackOffset
 (
@@ -1841,6 +1844,7 @@ p
 )
 const
 ;
+JS_REQUIRES_STACK
 void
 import
 (
@@ -1869,6 +1873,7 @@ JSStackFrame
 fp
 )
 ;
+JS_REQUIRES_STACK
 void
 import
 (
@@ -1900,6 +1905,7 @@ unsigned
 slots
 )
 ;
+JS_REQUIRES_STACK
 bool
 lazilyImportGlobalSlot
 (
@@ -1907,6 +1913,7 @@ unsigned
 slot
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -1968,6 +1975,7 @@ char
 name
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -2004,6 +2012,7 @@ ptrdiff_t
 offset
 )
 ;
+JS_REQUIRES_STACK
 void
 set
 (
@@ -2022,6 +2031,7 @@ initializing
 false
 )
 ;
+JS_REQUIRES_STACK
 bool
 checkType
 (
@@ -2046,6 +2056,7 @@ unsigned
 stage_count
 )
 ;
+JS_REQUIRES_STACK
 bool
 deduceTypeStability
 (
@@ -2067,6 +2078,7 @@ unsigned
 demotes
 )
 ;
+JS_REQUIRES_STACK
 jsval
 &
 argval
@@ -2076,6 +2088,7 @@ n
 )
 const
 ;
+JS_REQUIRES_STACK
 jsval
 &
 varval
@@ -2085,6 +2098,7 @@ n
 )
 const
 ;
+JS_REQUIRES_STACK
 jsval
 &
 stackval
@@ -2094,6 +2108,7 @@ n
 )
 const
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -2104,6 +2119,7 @@ scopeChain
 )
 const
 ;
+JS_REQUIRES_STACK
 bool
 activeCallOrGlobalSlot
 (
@@ -2116,6 +2132,7 @@ jsval
 vp
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -2127,6 +2144,7 @@ unsigned
 n
 )
 ;
+JS_REQUIRES_STACK
 void
 arg
 (
@@ -2140,6 +2158,7 @@ LIns
 i
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -2151,6 +2170,7 @@ unsigned
 n
 )
 ;
+JS_REQUIRES_STACK
 void
 var
 (
@@ -2164,6 +2184,7 @@ LIns
 i
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -2175,6 +2196,7 @@ int
 n
 )
 ;
+JS_REQUIRES_STACK
 void
 stack
 (
@@ -2233,6 +2255,7 @@ LIns
 f
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -2268,16 +2291,19 @@ jsbytecode
 imacro
 )
 ;
+JS_REQUIRES_STACK
 bool
 ifop
 (
 )
 ;
+JS_REQUIRES_STACK
 bool
 switchop
 (
 )
 ;
+JS_REQUIRES_STACK
 bool
 inc
 (
@@ -2292,6 +2318,7 @@ pre
 true
 )
 ;
+JS_REQUIRES_STACK
 bool
 inc
 (
@@ -2313,6 +2340,7 @@ pre
 true
 )
 ;
+JS_REQUIRES_STACK
 bool
 incProp
 (
@@ -2324,6 +2352,7 @@ pre
 true
 )
 ;
+JS_REQUIRES_STACK
 bool
 incElem
 (
@@ -2335,6 +2364,7 @@ pre
 true
 )
 ;
+JS_REQUIRES_STACK
 bool
 incName
 (
@@ -2362,6 +2392,7 @@ CMP_STRICT
 8
 }
 ;
+JS_REQUIRES_STACK
 bool
 cmp
 (
@@ -2376,6 +2407,7 @@ flags
 0
 )
 ;
+JS_REQUIRES_STACK
 bool
 unary
 (
@@ -2386,6 +2418,7 @@ LOpcode
 op
 )
 ;
+JS_REQUIRES_STACK
 bool
 binary
 (
@@ -2436,6 +2469,7 @@ jsdouble
 result
 )
 ;
+JS_REQUIRES_STACK
 bool
 map_is_native
 (
@@ -2461,6 +2495,7 @@ op_offset
 0
 )
 ;
+JS_REQUIRES_STACK
 bool
 test_property_cache
 (
@@ -2482,6 +2517,7 @@ jsuword
 pcval
 )
 ;
+JS_REQUIRES_STACK
 bool
 test_property_cache_direct_slot
 (
@@ -2657,6 +2693,7 @@ LIns
 v_ins
 )
 ;
+JS_REQUIRES_STACK
 bool
 name
 (
@@ -2666,6 +2703,7 @@ jsval
 vp
 )
 ;
+JS_REQUIRES_STACK
 bool
 prop
 (
@@ -2690,6 +2728,7 @@ LIns
 v_ins
 )
 ;
+JS_REQUIRES_STACK
 bool
 elem
 (
@@ -2719,6 +2758,7 @@ LIns
 addr_ins
 )
 ;
+JS_REQUIRES_STACK
 bool
 getProp
 (
@@ -2733,6 +2773,7 @@ LIns
 obj_ins
 )
 ;
+JS_REQUIRES_STACK
 bool
 getProp
 (
@@ -2741,6 +2782,7 @@ jsval
 v
 )
 ;
+JS_REQUIRES_STACK
 bool
 getThis
 (
@@ -2753,6 +2795,7 @@ LIns
 this_ins
 )
 ;
+JS_REQUIRES_STACK
 bool
 box_jsval
 (
@@ -2767,6 +2810,7 @@ LIns
 v_ins
 )
 ;
+JS_REQUIRES_STACK
 bool
 unbox_jsval
 (
@@ -2781,6 +2825,7 @@ LIns
 v_ins
 )
 ;
+JS_REQUIRES_STACK
 bool
 guardClass
 (
@@ -2802,6 +2847,7 @@ exitType
 MISMATCH_EXIT
 )
 ;
+JS_REQUIRES_STACK
 bool
 guardDenseArray
 (
@@ -2820,6 +2866,7 @@ exitType
 MISMATCH_EXIT
 )
 ;
+JS_REQUIRES_STACK
 bool
 guardDenseArrayIndex
 (
@@ -2850,6 +2897,7 @@ ExitType
 exitType
 )
 ;
+JS_REQUIRES_STACK
 bool
 guardElemOp
 (
@@ -2876,6 +2924,7 @@ clearFrameSlotsFromCache
 (
 )
 ;
+JS_REQUIRES_STACK
 bool
 guardCallee
 (
@@ -2884,6 +2933,7 @@ jsval
 callee
 )
 ;
+JS_REQUIRES_STACK
 bool
 getClassPrototype
 (
@@ -2899,6 +2949,7 @@ LIns
 proto_ins
 )
 ;
+JS_REQUIRES_STACK
 bool
 newArray
 (
@@ -2915,6 +2966,7 @@ jsval
 vp
 )
 ;
+JS_REQUIRES_STACK
 bool
 interpretedFunctionCall
 (
@@ -2930,6 +2982,7 @@ bool
 constructing
 )
 ;
+JS_REQUIRES_STACK
 bool
 functionCall
 (
@@ -2939,6 +2992,7 @@ uintN
 argc
 )
 ;
+JS_REQUIRES_STACK
 void
 trackCfgMerges
 (
@@ -2947,6 +3001,7 @@ jsbytecode
 pc
 )
 ;
+JS_REQUIRES_STACK
 void
 flipIf
 (
@@ -2958,6 +3013,7 @@ bool
 cond
 )
 ;
+JS_REQUIRES_STACK
 void
 fuseIf
 (
@@ -3086,6 +3142,7 @@ v
 public
 :
 friend
+JS_REQUIRES_STACK
 bool
 js_MonitorRecording
 (
@@ -3094,6 +3151,7 @@ TraceRecorder
 tr
 )
 ;
+JS_REQUIRES_STACK
 TraceRecorder
 (
 JSContext
@@ -3132,6 +3190,7 @@ TraceRecorder
 (
 )
 ;
+JS_REQUIRES_STACK
 uint8
 determineSlotType
 (
@@ -3141,6 +3200,7 @@ vp
 )
 const
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3166,6 +3226,7 @@ return
 fragment
 ;
 }
+JS_REQUIRES_STACK
 bool
 isLoopHeader
 (
@@ -3175,6 +3236,7 @@ cx
 )
 const
 ;
+JS_REQUIRES_STACK
 void
 compile
 (
@@ -3186,6 +3248,7 @@ Fragmento
 fragmento
 )
 ;
+JS_REQUIRES_STACK
 bool
 closeLoop
 (
@@ -3203,6 +3266,7 @@ unsigned
 demotes
 )
 ;
+JS_REQUIRES_STACK
 void
 endLoop
 (
@@ -3214,6 +3278,7 @@ Fragmento
 fragmento
 )
 ;
+JS_REQUIRES_STACK
 void
 joinEdgesToEntry
 (
@@ -3244,6 +3309,7 @@ blacklist
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 adjustCallerTypes
 (
@@ -3261,6 +3327,7 @@ bool
 trash
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3283,6 +3350,7 @@ Fragment
 empty
 )
 ;
+JS_REQUIRES_STACK
 void
 prepareTreeCall
 (
@@ -3294,6 +3362,7 @@ Fragment
 inner
 )
 ;
+JS_REQUIRES_STACK
 void
 emitTreeCall
 (
@@ -3329,16 +3398,19 @@ removeFragmentoReferences
 (
 )
 ;
+JS_REQUIRES_STACK
 bool
 record_EnterFrame
 (
 )
 ;
+JS_REQUIRES_STACK
 bool
 record_LeaveFrame
 (
 )
 ;
+JS_REQUIRES_STACK
 bool
 record_SetPropHit
 (
@@ -3350,6 +3422,7 @@ JSScopeProperty
 sprop
 )
 ;
+JS_REQUIRES_STACK
 bool
 record_SetPropMiss
 (
@@ -3358,6 +3431,7 @@ JSPropCacheEntry
 entry
 )
 ;
+JS_REQUIRES_STACK
 bool
 record_DefLocalFunSetSlot
 (
@@ -3368,16 +3442,19 @@ JSObject
 obj
 )
 ;
+JS_REQUIRES_STACK
 bool
 record_FastNativeCallComplete
 (
 )
 ;
+JS_REQUIRES_STACK
 bool
 record_IteratorNextComplete
 (
 )
 ;
+JS_REQUIRES_STACK
 bool
 record_ApplyComplete
 (
@@ -3467,6 +3544,7 @@ prec
 format
 )
 \
+JS_REQUIRES_STACK
 bool
 record_
 #
@@ -3917,6 +3995,7 @@ b
 )
 )
 extern
+JS_REQUIRES_STACK
 bool
 js_MonitorLoopEdge
 (
@@ -3929,6 +4008,7 @@ inlineCallCount
 )
 ;
 extern
+JS_REQUIRES_STACK
 bool
 js_MonitorRecording
 (
@@ -3938,6 +4018,7 @@ tr
 )
 ;
 extern
+JS_REQUIRES_STACK
 void
 js_AbortRecording
 (

@@ -847,6 +847,7 @@ return
 shape
 ;
 }
+JS_REQUIRES_STACK
 void
 js_FillPropertyCache
 (
@@ -2239,6 +2240,7 @@ fills
 )
 ;
 }
+JS_REQUIRES_STACK
 JSAtom
 *
 js_FullTestPropertyCache
@@ -5415,10 +5417,10 @@ hazard
 /
 fp
 =
+js_GetTopStackFrame
+(
 cx
--
->
-fp
+)
 ;
 /
 *
@@ -8340,10 +8342,10 @@ frame
 .
 down
 =
+js_GetTopStackFrame
+(
 cx
--
->
-fp
+)
 ;
 frame
 .
@@ -9683,10 +9685,10 @@ NULL
 ;
 oldfp
 =
+js_GetTopStackFrame
+(
 cx
--
->
-fp
+)
 ;
 frame
 .
@@ -11883,6 +11885,7 @@ stackIndex
 *
 /
 JS_STATIC_INTERPRET
+JS_REQUIRES_STACK
 JSBool
 js_EnterWith
 (
@@ -12077,6 +12080,7 @@ JS_TRUE
 ;
 }
 JS_STATIC_INTERPRET
+JS_REQUIRES_STACK
 void
 js_LeaveWith
 (
@@ -12166,6 +12170,7 @@ cx
 )
 ;
 }
+JS_REQUIRES_STACK
 JSClass
 *
 js_IsActiveWithOrBlock
@@ -12242,6 +12247,7 @@ NULL
 ;
 }
 JS_STATIC_INTERPRET
+JS_REQUIRES_STACK
 jsint
 js_CountWithBlocks
 (
@@ -12346,6 +12352,7 @@ stackDepth
 .
 *
 /
+JS_REQUIRES_STACK
 JSBool
 js_UnwindScope
 (
@@ -12749,6 +12756,7 @@ JS_TRUE
 ifdef
 DEBUG
 JS_STATIC_INTERPRET
+JS_REQUIRES_STACK
 void
 js_TraceOpcode
 (
@@ -15925,6 +15933,7 @@ JSOP_INCNAME_LENGTH
 JSOP_NAMEDEC_LENGTH
 )
 ;
+JS_REQUIRES_STACK
 JSBool
 js_Interpret
 (
