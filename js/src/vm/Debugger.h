@@ -3461,7 +3461,7 @@ js
 Breakpoint
 ;
 friend
-class
+struct
 :
 :
 JSCompartment
@@ -3871,7 +3871,7 @@ class
 Breakpoint
 {
 friend
-class
+struct
 :
 :
 JSCompartment
