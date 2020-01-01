@@ -3609,13 +3609,17 @@ i
 =
 0
         
-while
-i
-<
+slen
+=
 len
 (
 s
 )
+        
+while
+i
+<
+slen
 :
             
 c
