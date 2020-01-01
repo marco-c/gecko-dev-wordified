@@ -433,3 +433,15 @@ DWORD
 dwWaitHint
 )
 ;
+struct
+ThreadData
+{
+LPWSTR
+*
+argv
+;
+DWORD
+argc
+;
+}
+;
