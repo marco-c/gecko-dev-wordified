@@ -791,6 +791,9 @@ currentNsPerFrame
 float
 framerateMultiplier
 =
+(
+float
+)
 currentNsPerFrame
 /
 NS_PER_FRAME
