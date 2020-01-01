@@ -1164,8 +1164,9 @@ defined
 (
 __MINGW32__
 )
-delete
 mScanner
+=
+nsnull
 ;
 #
 endif
@@ -6087,15 +6088,10 @@ NS_FAILED
 rv
 )
 )
-{
-delete
-mScanner
-;
 mScanner
 =
 nsnull
 ;
-}
 #
 endif
 rv
