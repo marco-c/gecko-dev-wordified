@@ -584,15 +584,6 @@ _retval
 nsAccessible
 virtual
 nsresult
-GetNameInternal
-(
-nsAString
-&
-aName
-)
-;
-virtual
-nsresult
 GetStateInternal
 (
 PRUint32
