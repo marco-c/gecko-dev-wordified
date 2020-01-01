@@ -2531,6 +2531,17 @@ toString
 return
 ;
 }
+outFile
+.
+setLastModified
+(
+fileEntry
+.
+getTime
+(
+)
+)
+;
 }
 public
 String
