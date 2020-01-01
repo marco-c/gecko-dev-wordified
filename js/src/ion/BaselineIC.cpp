@@ -557,7 +557,7 @@ if
 wrapper
 )
 return
-false
+NULL
 ;
 /
 /
@@ -859,7 +859,7 @@ if
 wrapper
 )
 return
-false
+NULL
 ;
 /
 /
@@ -1355,7 +1355,7 @@ if
 wrapper
 )
 return
-false
+NULL
 ;
 /
 /
