@@ -2024,7 +2024,7 @@ imm
 spew
 (
 "
-pushl
+push
 %
 s
 0x
@@ -2125,9 +2125,7 @@ push_flags
 spew
 (
 "
-push
-flags
-register
+pushf
 "
 )
 ;
@@ -2147,9 +2145,7 @@ pop_flags
 spew
 (
 "
-pop
-flags
-register
+popf
 "
 )
 ;
@@ -7035,6 +7031,8 @@ RegisterID
 base
 )
 {
+FIXME_INSN_PRINTING
+;
 m_formatter
 .
 oneByteOp
@@ -7068,6 +7066,8 @@ int
 scale
 )
 {
+FIXME_INSN_PRINTING
+;
 m_formatter
 .
 oneByteOp
@@ -8281,6 +8281,7 @@ s
 imm
 nameIReg
 (
+4
 dst
 )
 )
