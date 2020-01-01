@@ -1271,8 +1271,10 @@ return
 path
 ;
 }
-nsSVGFlattenedPath
-*
+already_AddRefed
+<
+gfxFlattenedPath
+>
 nsSVGTextPathFrame
 :
 :

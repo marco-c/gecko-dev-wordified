@@ -467,6 +467,9 @@ nsSVGPathGeometryElement
 nsSVGPolyElementBase
 ;
 class
+gfxContext
+;
+class
 nsSVGPolyElement
 :
 public
@@ -552,7 +555,7 @@ virtual
 void
 ConstructPath
 (
-cairo_t
+gfxContext
 *
 aCtx
 )

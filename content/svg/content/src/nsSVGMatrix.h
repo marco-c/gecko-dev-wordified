@@ -453,13 +453,6 @@ nsIDOMSVGMatrix
 .
 h
 "
-#
-include
-"
-cairo
-.
-h
-"
 nsresult
 NS_NewSVGMatrix
 (

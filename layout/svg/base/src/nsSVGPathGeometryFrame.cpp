@@ -3694,17 +3694,6 @@ ConvertSVGMatrixToThebes
 ctm
 )
 ;
-cairo_t
-*
-ctx
-=
-aContext
--
->
-GetCairo
-(
-)
-;
 if
 (
 matrix
@@ -3756,7 +3745,7 @@ mContent
 >
 ConstructPath
 (
-ctx
+aContext
 )
 ;
 }
