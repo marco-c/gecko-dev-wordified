@@ -613,11 +613,9 @@ ADD_DEVICE_PAGE
 :
 this
 .
-wizard
-.
-canAdvance
-=
-false
+onTextBoxInput
+(
+)
 ;
 this
 .
@@ -1134,6 +1132,9 @@ textbox
 {
 if
 (
+textbox
+&
+&
 textbox
 .
 value
