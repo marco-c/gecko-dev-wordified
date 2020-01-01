@@ -502,14 +502,14 @@ h
 #
 include
 "
-IDBFactory
+IDBTransaction
 .
 h
 "
 #
 include
 "
-IDBTransaction
+IndexedDatabaseManager
 .
 h
 "
@@ -1438,7 +1438,7 @@ if
 mDatabase
 )
 {
-IDBFactory
+IndexedDatabaseManager
 :
 :
 SetCurrentDatabase
@@ -1499,7 +1499,7 @@ if
 mDatabase
 )
 {
-IDBFactory
+IndexedDatabaseManager
 :
 :
 SetCurrentDatabase
