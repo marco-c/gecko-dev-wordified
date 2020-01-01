@@ -633,10 +633,15 @@ hold
 (
 false
 )
+#
+ifdef
+JS_TRACER
 traceMonitor_
 (
 NULL
 )
+#
+endif
 data
 (
 NULL
@@ -3766,6 +3771,9 @@ return
 mathCache
 ;
 }
+#
+ifdef
+JS_TRACER
 TraceMonitor
 *
 JSCompartment
@@ -3835,6 +3843,8 @@ return
 traceMonitor_
 ;
 }
+#
+endif
 size_t
 JSCompartment
 :
