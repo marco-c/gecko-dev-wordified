@@ -6056,6 +6056,7 @@ object
 *
 /
 static
+inline
 JSObject
 *
 CallThisObjectHook
