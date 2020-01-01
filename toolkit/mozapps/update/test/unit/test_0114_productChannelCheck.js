@@ -465,6 +465,15 @@ run_test
 (
 )
 {
+if
+(
+!
+IS_MAR_CHECKS_ENABLED
+)
+{
+return
+;
+}
 /
 /
 Setup
