@@ -1961,7 +1961,7 @@ stream
 nsDOMMediaStream
 :
 :
-CreateInputStream
+CreateSourceStream
 (
 aHint
 )

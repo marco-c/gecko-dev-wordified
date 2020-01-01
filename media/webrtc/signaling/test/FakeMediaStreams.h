@@ -661,7 +661,7 @@ already_AddRefed
 <
 Fake_nsDOMMediaStream
 >
-CreateInputStream
+CreateSourceStream
 (
 uint32_t
 aHintContents

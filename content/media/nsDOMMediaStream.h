@@ -380,7 +380,7 @@ already_AddRefed
 <
 nsDOMMediaStream
 >
-CreateInputStream
+CreateSourceStream
 (
 uint32_t
 aHintContents
@@ -615,7 +615,7 @@ already_AddRefed
 <
 nsDOMLocalMediaStream
 >
-CreateInputStream
+CreateSourceStream
 (
 uint32_t
 aHintContents

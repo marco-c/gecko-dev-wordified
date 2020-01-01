@@ -5447,7 +5447,7 @@ to
 /
 SourceMediaStream
 *
-CreateInputStream
+CreateSourceStream
 (
 nsDOMMediaStream
 *
