@@ -1077,7 +1077,7 @@ WHERE
 b
 .
 parent
-=
+in
 (
 SELECT
 t
