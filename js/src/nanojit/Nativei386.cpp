@@ -14876,6 +14876,8 @@ op
 =
 =
 LIR_xf
+/
+LIR_jf
 switch
 (
 condop
@@ -14990,6 +14992,8 @@ op
 =
 =
 LIR_xt
+/
+LIR_jt
 switch
 (
 condop
