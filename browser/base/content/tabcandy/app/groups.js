@@ -7521,12 +7521,10 @@ down
 *
 if
 (
+!
 Keys
 .
 meta
-=
-=
-false
 )
 {
 Groups
@@ -9545,12 +9543,10 @@ i
 ;
 if
 (
+!
 tab
 .
 collapsed
-=
-=
-false
 )
 groupTabs
 .

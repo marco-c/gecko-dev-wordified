@@ -1573,12 +1573,10 @@ e
 {
 if
 (
+!
 e
 .
 metaKey
-=
-=
-false
 )
 window
 .
@@ -1608,9 +1606,6 @@ if
 e
 .
 metaKey
-=
-=
-true
 )
 window
 .
@@ -5769,13 +5764,10 @@ isAnimating
 ;
 if
 (
+!
 force
-=
-=
-false
-)
-{
-if
+&
+&
 (
 isAnimating
 |
@@ -5785,6 +5777,7 @@ Page
 .
 isTabCandyVisible
 (
+)
 )
 )
 {
@@ -5830,7 +5823,6 @@ it
 .
 return
 ;
-}
 }
 var
 oldPageBounds
