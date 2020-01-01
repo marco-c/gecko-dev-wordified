@@ -4937,7 +4937,10 @@ NS_ASSERTION
 aProcessing
 !
 =
+PRBool
+(
 mProcessingAnimationStyleChange
+)
 "
 should
 never
