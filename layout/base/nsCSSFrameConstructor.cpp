@@ -34116,7 +34116,7 @@ GetStyleText
 )
 -
 >
-NewlineIsSignificant
+WhiteSpaceOrNewlineIsSignificant
 (
 )
 &

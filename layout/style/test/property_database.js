@@ -38335,6 +38335,16 @@ pre
 -
 line
 "
+"
+-
+moz
+-
+pre
+-
+discard
+-
+newlines
+"
 ]
 invalid_values
 :
