@@ -40111,9 +40111,9 @@ pref
 "
 layers
 .
-use
+prefer
 -
-d3d10
+d3d9
 "
 false
 )
