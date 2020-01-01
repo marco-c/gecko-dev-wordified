@@ -5705,6 +5705,8 @@ ex
 {
 Components
 .
+utils
+.
 reportError
 (
 ex
