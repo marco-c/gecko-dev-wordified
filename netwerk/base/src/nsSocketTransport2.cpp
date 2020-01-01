@@ -4122,7 +4122,7 @@ SOCKET_LOG
 creating
 nsSocketTransport
 %
-x
+p
 \
 n
 "
@@ -4173,7 +4173,7 @@ SOCKET_LOG
 destroying
 nsSocketTransport
 %
-x
+p
 \
 n
 "
