@@ -736,9 +736,10 @@ expect
 '
 TypeError
 :
-y
-.
+trap
 __iterator__
+for
+y
 returned
 a
 primitive
