@@ -655,12 +655,6 @@ History
 "
 )
 ;
-this
-.
-downloadLimit
-=
-MAX_HISTORY_DOWNLOAD
-;
 }
 HistoryEngine
 .
@@ -681,6 +675,9 @@ HistoryStore
 _trackerObj
 :
 HistoryTracker
+downloadLimit
+:
+MAX_HISTORY_DOWNLOAD
 _sync
 :
 Utils
