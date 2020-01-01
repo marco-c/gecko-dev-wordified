@@ -2134,16 +2134,6 @@ __init__
 self
 )
         
-print
-"
-FriendClassDecl
-:
-%
-r
-"
-%
-friend
-        
 self
 .
 friend

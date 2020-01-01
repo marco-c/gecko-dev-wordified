@@ -1132,21 +1132,6 @@ fcd
 )
 :
         
-print
->
->
-sys
-.
-stderr
-"
-visitFriendClassDecl
-:
-%
-r
-"
-%
-fcd
-        
 self
 .
 printdentln
