@@ -3316,6 +3316,14 @@ IonCode
 code
 )
 {
+JS_ASSERT
+(
+!
+oom
+(
+)
+)
+;
 /
 /
 If
