@@ -2166,13 +2166,6 @@ ChunkInfo
 /
 BytesPerArena
 ;
-static
-const
-size_t
-MaxAge
-=
-3
-;
 Arena
 <
 FreeCell
@@ -2266,11 +2259,6 @@ a
 JSRuntime
 *
 getRuntime
-(
-)
-;
-bool
-expire
 (
 )
 ;
