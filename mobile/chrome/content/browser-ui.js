@@ -16970,9 +16970,8 @@ status
 200
 )
 {
-this
-.
-_lastCount
+let
+count
 =
 req
 .
@@ -16984,6 +16983,14 @@ getElementsByTagName
 fullcount
 "
 )
+;
+this
+.
+_lastCount
+=
+count
+?
+count
 [
 0
 ]
@@ -16994,6 +17001,8 @@ childNodes
 ]
 .
 nodeValue
+:
+0
 ;
 }
 else
