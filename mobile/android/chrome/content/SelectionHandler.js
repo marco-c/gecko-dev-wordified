@@ -2875,7 +2875,7 @@ selectedText
 =
 this
 .
-_getSelectedText
+getSelectedText
 (
 )
 ;
