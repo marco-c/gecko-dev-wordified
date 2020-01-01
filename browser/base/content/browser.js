@@ -24696,6 +24696,16 @@ aMimeType
 "
 application
 /
+json
+"
+|
+|
+aMimeType
+=
+=
+"
+application
+/
 xml
 "
 |
