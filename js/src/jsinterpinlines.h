@@ -7464,9 +7464,6 @@ endif
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )

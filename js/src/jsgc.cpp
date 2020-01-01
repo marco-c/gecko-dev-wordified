@@ -9434,9 +9434,6 @@ GC
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )
@@ -27307,9 +27304,6 @@ mode
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )

@@ -8920,9 +8920,6 @@ code
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )
@@ -14008,9 +14005,6 @@ cx
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )
@@ -14513,9 +14507,6 @@ Step
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )

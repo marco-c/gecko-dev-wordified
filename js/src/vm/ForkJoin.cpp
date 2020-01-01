@@ -3291,7 +3291,7 @@ bool
 ForkJoinSlice
 :
 :
-Initialize
+InitializeTLS
 (
 )
 {
@@ -3849,9 +3849,6 @@ supported
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )
