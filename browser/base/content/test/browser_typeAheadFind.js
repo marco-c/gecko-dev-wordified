@@ -97,9 +97,10 @@ selectedBrowser
 addEventListener
 (
 "
-pageshow
+load
 "
 function
+onLoad
 (
 )
 {
@@ -108,11 +109,9 @@ selectedBrowser
 removeEventListener
 (
 "
-pageshow
+load
 "
-arguments
-.
-callee
+onLoad
 true
 )
 ;
@@ -120,7 +119,7 @@ ok
 (
 true
 "
-pageshow
+load
 listener
 called
 "
