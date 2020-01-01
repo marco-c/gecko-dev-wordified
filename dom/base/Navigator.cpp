@@ -266,6 +266,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 PowerManager
 .
 h
@@ -567,16 +571,6 @@ Promise
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-power
-;
 /
 /
 This
@@ -5877,9 +5871,6 @@ forget
 )
 ;
 }
-power
-:
-:
 PowerManager
 *
 Navigator

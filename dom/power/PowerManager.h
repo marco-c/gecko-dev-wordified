@@ -160,9 +160,6 @@ ErrorResult
 namespace
 dom
 {
-namespace
-power
-{
 class
 PowerManager
 MOZ_FINAL
@@ -365,11 +362,6 @@ mListeners
 ;
 }
 ;
-}
-/
-/
-namespace
-power
 }
 /
 /
