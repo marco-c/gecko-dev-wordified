@@ -7957,6 +7957,9 @@ if
 (
 !
 mSHEntry
+&
+&
+mDocument
 )
 mDocument
 -
