@@ -884,8 +884,10 @@ embed
 start
 the
 load
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 mDocument

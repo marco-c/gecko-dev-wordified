@@ -932,6 +932,11 @@ DropParserAndPerfHint
 void
 )
 ;
+PRBool
+IsScriptExecutingImpl
+(
+)
+;
 void
 NotifyAppend
 (

@@ -569,13 +569,6 @@ nsDOMEventRTTearoff
 #
 include
 "
-nsStyledElement
-.
-h
-"
-#
-include
-"
 nsGlobalWindow
 .
 h
@@ -1819,13 +1812,6 @@ nsRuleNode
 :
 :
 gLangService
-)
-;
-nsStyledElement
-:
-:
-Shutdown
-(
 )
 ;
 nsTextFragment
