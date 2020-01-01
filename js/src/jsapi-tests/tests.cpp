@@ -210,8 +210,6 @@ global
 return
 false
 ;
-oldCompartment
-=
 JS_EnterCompartment
 (
 cx
@@ -219,10 +217,7 @@ global
 )
 ;
 return
-oldCompartment
-!
-=
-NULL
+true
 ;
 }
 bool

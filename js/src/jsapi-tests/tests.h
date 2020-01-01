@@ -553,6 +553,12 @@ cx
 global
 )
 ;
+JS_LeaveCompartment
+(
+cx
+NULL
+)
+;
 JS_EndRequest
 (
 cx
