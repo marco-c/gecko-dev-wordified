@@ -1422,7 +1422,8 @@ enum
 {
 RendererAdreno200
 RendererAdreno205
-RendererAdreno320
+RendererAdrenoTM205
+RendererAdrenoTM320
 RendererSGX530
 RendererSGX540
 RendererOther
