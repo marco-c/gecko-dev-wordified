@@ -3221,6 +3221,12 @@ RemoteStore
 prototype
 =
 {
+__proto__
+:
+new
+Store
+(
+)
 get
 serverPrefix
 (
