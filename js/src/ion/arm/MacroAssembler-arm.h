@@ -5488,7 +5488,7 @@ if
 (
 val
 .
-isGCThing
+isMarkable
 (
 )
 )
@@ -5666,7 +5666,7 @@ if
 (
 val
 .
-isGCThing
+isMarkable
 (
 )
 )
