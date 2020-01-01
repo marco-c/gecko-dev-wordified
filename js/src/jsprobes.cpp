@@ -522,7 +522,6 @@ using
 namespace
 js
 ;
-const
 char
 Probes
 :
@@ -537,7 +536,6 @@ null
 )
 "
 ;
-const
 char
 *
 Probes
@@ -595,7 +593,6 @@ name
 nullName
 ;
 }
-const
 char
 *
 Probes
@@ -995,7 +992,6 @@ asGCThing
 }
 #
 endif
-const
 char
 *
 Probes

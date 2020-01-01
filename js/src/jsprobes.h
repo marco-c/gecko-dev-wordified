@@ -450,14 +450,12 @@ class
 Probes
 {
 static
-const
 char
 nullName
 [
 ]
 ;
 static
-const
 char
 *
 FunctionClassname
@@ -469,7 +467,6 @@ fun
 )
 ;
 static
-const
 char
 *
 ScriptFilename
@@ -493,7 +490,6 @@ fun
 )
 ;
 static
-const
 char
 *
 FunctionName
