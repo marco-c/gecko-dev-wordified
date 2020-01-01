@@ -807,7 +807,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "

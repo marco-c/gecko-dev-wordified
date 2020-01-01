@@ -602,13 +602,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsCWebBrowser
 .
 h

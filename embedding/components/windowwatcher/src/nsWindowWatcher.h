@@ -516,7 +516,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -941,7 +941,11 @@ nsIDocShellTreeOwner
 outTreeOwner
 )
 ;
-nsVoidArray
+nsTArray
+<
+nsWatcherWindowEnumerator
+*
+>
 mEnumeratorList
 ;
 nsWatcherWindowEntry

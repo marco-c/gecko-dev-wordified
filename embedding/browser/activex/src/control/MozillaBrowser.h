@@ -3111,7 +3111,11 @@ List
 of
 browsers
 static
-nsVoidArray
+nsTArray
+<
+CMozillaBrowser
+*
+>
 sBrowserList
 ;
 /

@@ -467,7 +467,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -1037,7 +1037,11 @@ all
 open
 windows
 static
-nsVoidArray
+nsTArray
+<
+EmbedPrivate
+*
+>
 *
 sWindowList
 ;

@@ -497,7 +497,7 @@ h
 #
 include
 <
-nsVoidArray
+nsTArray
 .
 h
 >
@@ -1153,7 +1153,11 @@ nsIPref
 sPrefs
 ;
 static
-nsVoidArray
+nsTArray
+<
+EmbedPrivate
+*
+>
 *
 sWindowList
 ;
