@@ -441,6 +441,8 @@ h
 #
 include
 "
+mozilla
+/
 CheckedInt
 .
 h
@@ -555,7 +557,7 @@ y
 &
 checked_xmost
 .
-valid
+isValid
 (
 )
 &
@@ -572,7 +574,7 @@ realWidth
 &
 checked_ymost
 .
-valid
+isValid
 (
 )
 &
