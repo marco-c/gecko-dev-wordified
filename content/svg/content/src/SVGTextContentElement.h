@@ -113,6 +113,9 @@ h
 class
 nsSVGTextContainerFrame
 ;
+class
+nsSVGTextFrame2
+;
 namespace
 mozilla
 {
@@ -242,6 +245,12 @@ aNodeInfo
 nsSVGTextContainerFrame
 *
 GetTextContainerFrame
+(
+)
+;
+nsSVGTextFrame2
+*
+GetSVGTextFrame
 (
 )
 ;
