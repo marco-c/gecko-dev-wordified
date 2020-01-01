@@ -21636,13 +21636,7 @@ lir
 insGuard
 (
 LIR_loop
-lir
--
->
-insImm
-(
-1
-)
+NULL
 skip
 )
 ;
