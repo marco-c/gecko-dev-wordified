@@ -1692,8 +1692,8 @@ PRBool
 aValue
 PRBool
 aNotify
-=
-PR_TRUE
+PRBool
+aSetValueChanged
 )
 ;
 /

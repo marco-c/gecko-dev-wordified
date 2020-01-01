@@ -1838,6 +1838,7 @@ GetChecked
 (
 )
 PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -2405,6 +2406,8 @@ defaultChecked
 DoSetChecked
 (
 defaultChecked
+PR_TRUE
+PR_TRUE
 )
 ;
 SetCheckedChanged
@@ -5383,6 +5386,8 @@ return
 DoSetChecked
 (
 aChecked
+PR_TRUE
+PR_TRUE
 )
 ;
 }
@@ -5396,6 +5401,8 @@ PRBool
 aChecked
 PRBool
 aNotify
+PRBool
+aSetValueChanged
 )
 {
 nsresult
@@ -5403,8 +5410,6 @@ rv
 =
 NS_OK
 ;
-/
-/
 /
 /
 If
@@ -5445,14 +5450,18 @@ it
 no
 more
 .
-/
-/
+if
+(
+aSetValueChanged
+)
+{
 DoSetCheckedChanged
 (
 PR_TRUE
 aNotify
 )
 ;
+}
 /
 /
 /
@@ -7936,6 +7945,8 @@ DoSetChecked
 (
 !
 originalCheckedValue
+PR_TRUE
+PR_TRUE
 )
 ;
 SET_BOOLBIT
@@ -8018,6 +8029,8 @@ originalCheckedValue
 {
 DoSetChecked
 (
+PR_TRUE
+PR_TRUE
 PR_TRUE
 )
 ;
@@ -9055,6 +9068,8 @@ NS_FORM_INPUT_RADIO
 DoSetChecked
 (
 PR_FALSE
+PR_TRUE
+PR_TRUE
 )
 ;
 }
@@ -9090,6 +9105,8 @@ PR_FALSE
 DoSetChecked
 (
 originalCheckedValue
+PR_TRUE
+PR_TRUE
 )
 ;
 }
@@ -12792,6 +12809,8 @@ return
 DoSetChecked
 (
 resetVal
+PR_TRUE
+PR_FALSE
 )
 ;
 }
@@ -14149,6 +14168,7 @@ DoSetChecked
 (
 resetVal
 PR_FALSE
+PR_TRUE
 )
 ;
 DoSetCheckedChanged
@@ -14451,6 +14471,8 @@ inputState
 GetChecked
 (
 )
+PR_TRUE
+PR_TRUE
 )
 ;
 }
