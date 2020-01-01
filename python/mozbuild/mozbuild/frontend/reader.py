@@ -734,13 +734,24 @@ config
 .
 topsrcdir
         
+norm_topsrcdir
+=
+os
+.
+path
+.
+normpath
+(
+topsrcdir
+)
+        
 if
 not
 path
 .
 startswith
 (
-topsrcdir
+norm_topsrcdir
 )
 :
             
@@ -768,6 +779,17 @@ external
 in
 external_dirs
 :
+                
+external
+=
+os
+.
+path
+.
+normpath
+(
+external
+)
                 
 if
 not
