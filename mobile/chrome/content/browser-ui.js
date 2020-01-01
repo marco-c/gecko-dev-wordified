@@ -9452,7 +9452,7 @@ this
 .
 _autofillContainer
 .
-hidden
+collapsed
 =
 true
 ;
@@ -10658,7 +10658,7 @@ fragment
 ;
 autofill
 .
-hidden
+collapsed
 =
 !
 aSuggestions
