@@ -6470,13 +6470,6 @@ LOCAL_GL_PACK_ALIGNMENT
 mGLContext
 -
 >
-fFinish
-(
-)
-;
-mGLContext
--
->
 fReadPixels
 (
 0
