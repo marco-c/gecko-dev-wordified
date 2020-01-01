@@ -3274,7 +3274,7 @@ gl
 )
 -
 >
-GetMaxTextureImageSize
+GetMaxTextureSize
 (
 )
 |
@@ -3288,7 +3288,7 @@ gl
 )
 -
 >
-GetMaxTextureImageSize
+GetMaxTextureSize
 (
 )
 )
