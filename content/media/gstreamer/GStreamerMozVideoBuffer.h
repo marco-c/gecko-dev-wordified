@@ -74,6 +74,13 @@ h
 #
 include
 "
+GStreamerLoader
+.
+h
+"
+#
+include
+"
 MediaDecoderReader
 .
 h
