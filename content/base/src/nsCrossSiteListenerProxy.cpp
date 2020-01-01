@@ -1733,10 +1733,12 @@ POST
 "
 )
 ;
-nsCCommaSeparatedTokenizer
+nsCCharSeparatedTokenizer
 methodTokens
 (
 headerVal
+'
+'
 )
 ;
 while
@@ -1857,10 +1859,12 @@ nsCString
 >
 headers
 ;
-nsCCommaSeparatedTokenizer
+nsCCharSeparatedTokenizer
 headerTokens
 (
 headerVal
+'
+'
 )
 ;
 while

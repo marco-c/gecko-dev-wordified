@@ -11216,10 +11216,12 @@ Init
 1
 )
 ;
-nsCCommaSeparatedTokenizer
+nsCCharSeparatedTokenizer
 toker
 (
 str
+'
+'
 )
 ;
 while
