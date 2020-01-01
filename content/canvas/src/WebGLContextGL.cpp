@@ -11689,7 +11689,7 @@ Generation
 )
 )
 return
-ErrorInvalidValue
+ErrorInvalidOperation
 (
 "
 GetUniform
