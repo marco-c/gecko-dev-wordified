@@ -494,9 +494,6 @@ border
 solid
 toolbarbuttonBorderColor
 ;
--
-moz
--
 box
 -
 shadow
@@ -742,9 +739,6 @@ shadow
 :
 loweredShadow
 ;
--
-moz
--
 box
 -
 shadow
@@ -2138,9 +2132,6 @@ true
 "
 ]
 {
--
-moz
--
 box
 -
 shadow
@@ -4449,9 +4440,6 @@ solid
 #
 555
 ;
--
-moz
--
 box
 -
 shadow
@@ -4796,9 +4784,6 @@ margin
 :
 3px
 ;
--
-moz
--
 box
 -
 shadow
@@ -5058,9 +5043,6 @@ enable
 :
 hover
 {
--
-moz
--
 box
 -
 shadow
@@ -5083,9 +5065,6 @@ disable
 :
 hover
 {
--
-moz
--
 box
 -
 shadow
@@ -5108,9 +5087,6 @@ remove
 :
 hover
 {
--
-moz
--
 box
 -
 shadow

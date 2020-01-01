@@ -1269,9 +1269,6 @@ background
 :
 roundButtonBackground
 ;
--
-moz
--
 box
 -
 shadow
@@ -1311,9 +1308,6 @@ background
 :
 roundButtonPressedBackground
 ;
--
-moz
--
 box
 -
 shadow
@@ -1426,9 +1420,6 @@ radius
 :
 toolbarbuttonCornerRadius
 ;
--
-moz
--
 box
 -
 shadow
@@ -1468,9 +1459,6 @@ shadow
 :
 loweredShadow
 ;
--
-moz
--
 box
 -
 shadow

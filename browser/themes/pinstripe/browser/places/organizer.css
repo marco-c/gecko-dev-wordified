@@ -539,9 +539,6 @@ radius
 :
 toolbarbuttonCornerRadius
 ;
--
-moz
--
 box
 -
 shadow
@@ -602,9 +599,6 @@ shadow
 :
 loweredShadow
 ;
--
-moz
--
 box
 -
 shadow
@@ -1725,9 +1719,6 @@ true
 "
 ]
 {
--
-moz
--
 box
 -
 shadow
@@ -1998,9 +1989,6 @@ background
 :
 roundButtonBackground
 ;
--
-moz
--
 box
 -
 shadow
@@ -2039,9 +2027,6 @@ background
 :
 roundButtonPressedBackground
 ;
--
-moz
--
 box
 -
 shadow
@@ -2054,9 +2039,6 @@ saveSearch
 :
 focus
 {
--
-moz
--
 box
 -
 shadow
@@ -2074,9 +2056,6 @@ hover
 :
 focus
 {
--
-moz
--
 box
 -
 shadow
