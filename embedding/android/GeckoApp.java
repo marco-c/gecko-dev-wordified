@@ -1779,6 +1779,7 @@ if
 !
 useLaunchButton
 )
+{
 mProgressDialog
 =
 ProgressDialog
@@ -1801,6 +1802,7 @@ splash_screen_label
 true
 )
 ;
+}
 /
 /
 Load

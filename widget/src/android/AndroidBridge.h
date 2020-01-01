@@ -1033,6 +1033,11 @@ ShowInputMethodPicker
 (
 )
 ;
+void
+HideProgressDialogOnce
+(
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1367,6 +1372,9 @@ jSetFullScreen
 ;
 jmethodID
 jShowInputMethodPicker
+;
+jmethodID
+jHideProgressDialog
 ;
 /
 /
