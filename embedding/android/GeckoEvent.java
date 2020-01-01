@@ -613,7 +613,7 @@ public
 static
 final
 int
-ACTIVITY_PAUSING
+ACTIVITY_STOPPING
 =
 8
 ;
@@ -621,7 +621,7 @@ public
 static
 final
 int
-ACTIVITY_RESUMING
+ACTIVITY_PAUSING
 =
 9
 ;
