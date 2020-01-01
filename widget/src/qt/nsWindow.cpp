@@ -4624,6 +4624,7 @@ Q_WS_X11
 case
 NS_NATIVE_DISPLAY
 :
+{
 QWidget
 *
 widget
@@ -4648,6 +4649,7 @@ display
 :
 nsnull
 ;
+}
 break
 ;
 #
