@@ -383,6 +383,10 @@ SetupRecording
 (
 int
 aFd
+int
+aRotation
+=
+0
 int64_t
 aMaxFileSizeBytes
 =
@@ -621,9 +625,6 @@ android
 GonkRecorder
 *
 mRecorder
-;
-uint32_t
-mVideoRotation
 ;
 nsString
 mVideoFile
