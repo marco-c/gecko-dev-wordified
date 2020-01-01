@@ -2928,6 +2928,9 @@ mDisplayPanFeedback
 PRPackedBool
 mHideChrome
 ;
+nsSizeMode
+mOldSizeMode
+;
 WindowHook
 mWindowHook
 ;
