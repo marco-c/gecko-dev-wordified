@@ -5619,7 +5619,15 @@ return
 NS_OK
 ;
 }
-else
+if
+(
+aAnchorFrame
+-
+>
+GetContent
+(
+)
+)
 {
 /
 /
