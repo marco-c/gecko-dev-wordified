@@ -539,13 +539,7 @@ twice
 .
 pop
 (
-/
-*
-adjustStack
-=
-*
-/
-false
+DontAdjustStack
 )
 ;
 }
