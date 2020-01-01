@@ -4722,7 +4722,7 @@ warn_entering_secure
 .
 show_once
 "
-true
+false
 )
 ;
 pref
@@ -4746,7 +4746,7 @@ warn_leaving_secure
 .
 show_once
 "
-true
+false
 )
 ;
 pref
@@ -4770,7 +4770,7 @@ warn_submit_insecure
 .
 show_once
 "
-true
+false
 )
 ;
 pref
