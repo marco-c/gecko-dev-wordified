@@ -12658,6 +12658,7 @@ AutoJSXDRState
 JSXDRState
 *
 x
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 xdr
@@ -12665,6 +12666,8 @@ xdr
 x
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 AutoJSXDRState
@@ -12695,6 +12698,7 @@ JSXDRState
 const
 xdr
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 JSScript
