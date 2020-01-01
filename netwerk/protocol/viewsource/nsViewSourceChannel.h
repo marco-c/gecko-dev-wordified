@@ -502,6 +502,13 @@ h
 #
 include
 "
+nsIHttpChannelInternal
+.
+h
+"
+#
+include
+"
 nsICachingChannel
 .
 h
@@ -522,6 +529,8 @@ public
 nsIStreamListener
 public
 nsIHttpChannel
+public
+nsIHttpChannelInternal
 public
 nsICachingChannel
 public
@@ -547,6 +556,10 @@ mCachingChannel
 NS_FORWARD_SAFE_NSIUPLOADCHANNEL
 (
 mUploadChannel
+)
+NS_FORWARD_SAFE_NSIHTTPCHANNELINTERNAL
+(
+mHttpChannelInternal
 )
 /
 /
@@ -591,6 +604,12 @@ nsCOMPtr
 nsIHttpChannel
 >
 mHttpChannel
+;
+nsCOMPtr
+<
+nsIHttpChannelInternal
+>
+mHttpChannelInternal
 ;
 nsCOMPtr
 <
