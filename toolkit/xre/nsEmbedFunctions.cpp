@@ -1358,6 +1358,10 @@ aArgv
 ;
 SetupErrorHandling
 (
+aArgv
+[
+0
+]
 )
 ;
 sChildProcessType
