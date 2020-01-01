@@ -3077,7 +3077,9 @@ opn
 pn_funbox
 -
 >
-object
+fun
+(
+)
 pc
 opn
 -

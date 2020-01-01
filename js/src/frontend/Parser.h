@@ -2365,9 +2365,9 @@ FunctionBox
 *
 newFunctionBox
 (
-JSObject
+JSFunction
 *
-obj
+fun
 ParseContext
 *
 pc
