@@ -951,7 +951,7 @@ RegisterID
 FrameState
 :
 :
-evictSomeReg
+evictSomething
 (
 uint32
 mask
@@ -1206,6 +1206,19 @@ Registers
 AvailRegs
 )
 ;
+throwaway
+(
+)
+;
+}
+void
+FrameState
+:
+:
+throwaway
+(
+)
+{
 for
 (
 uint32
@@ -2974,7 +2987,7 @@ RegisterID
 FrameState
 :
 :
-copyDataIntoReg
+copyData
 (
 FrameEntry
 *
@@ -4660,7 +4673,7 @@ isCopied
 (
 )
 )
-forgetAllRegs
+forgetRegs
 (
 localFe
 )
@@ -4668,7 +4681,7 @@ localFe
 }
 else
 {
-forgetAllRegs
+forgetRegs
 (
 localFe
 )

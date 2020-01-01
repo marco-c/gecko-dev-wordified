@@ -1053,6 +1053,8 @@ dispatchCall
 (
 VoidPtrStubUInt32
 stub
+uint32
+argc
 )
 ;
 void
