@@ -327,7 +327,9 @@ push
 [
 "
 +
-WCU_l10n
+WebConsoleUtils
+.
+l10n
 .
 timestampString
 (

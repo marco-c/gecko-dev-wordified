@@ -93,7 +93,7 @@ addTab
 "
 about
 :
-credits
+addons
 "
 )
 ;
