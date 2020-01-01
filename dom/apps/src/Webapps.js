@@ -5230,13 +5230,7 @@ createApplicationObject
 this
 .
 _window
-{
-origin
-:
 msg
-.
-origin
-}
 )
 }
 )
