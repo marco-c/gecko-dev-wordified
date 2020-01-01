@@ -11682,7 +11682,7 @@ getService
 (
 Ci
 .
-nsIObserver
+nsITelemetryPing
 )
 ;
 TelemetryPing

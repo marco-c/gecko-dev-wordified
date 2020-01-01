@@ -386,7 +386,7 @@ getService
 (
 Ci
 .
-nsIObserver
+nsITelemetryPing
 )
 ;
 TelemetryPing
@@ -761,7 +761,7 @@ getService
 (
 Ci
 .
-nsIObserver
+nsITelemetryPing
 )
 ;
 TelemetryPing
@@ -2057,7 +2057,7 @@ getService
 (
 Ci
 .
-nsIObserver
+nsITelemetryPing
 )
 ;
 Services
@@ -2342,7 +2342,7 @@ getService
 (
 Ci
 .
-nsIObserver
+nsITelemetryPing
 )
 ;
 TelemetryPing
@@ -2413,7 +2413,7 @@ getService
 (
 Ci
 .
-nsIObserver
+nsITelemetryPing
 )
 ;
 TelemetryPing
