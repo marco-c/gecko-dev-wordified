@@ -634,7 +634,6 @@ class
 ColorTextureLayerProgram
 ;
 }
-;
 namespace
 gl
 {
