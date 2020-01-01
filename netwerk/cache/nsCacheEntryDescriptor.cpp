@@ -513,6 +513,10 @@ mAccessGranted
 (
 accessGranted
 )
+mOutput
+(
+nsnull
+)
 {
 PR_INIT_CLIST
 (
@@ -3144,6 +3148,13 @@ rv
 )
 return
 rv
+;
+mDescriptor
+-
+>
+mOutput
+=
+mOutput
 ;
 nsCacheDevice
 *
