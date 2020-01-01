@@ -13696,6 +13696,11 @@ baseDomain
 FROM
 moz_cookies
 "
+"
+WHERE
+baseDomain
+NOTNULL
+"
 )
 getter_AddRefs
 (
