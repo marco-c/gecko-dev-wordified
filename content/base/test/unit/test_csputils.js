@@ -884,7 +884,7 @@ com
 "
 )
 ;
-do_check_eq
+do_check_neq
 (
 null
 h
@@ -896,6 +896,7 @@ h
 lone
 symbol
 should
+not
 fail
 "
 h
