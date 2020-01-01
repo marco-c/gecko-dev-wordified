@@ -11195,7 +11195,7 @@ i
 nsIMemoryReporter
 :
 :
-KIND_OTHER
+KIND_SUMMARY
 nsIMemoryReporter
 :
 :
