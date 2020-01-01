@@ -2983,6 +2983,15 @@ list
 )
 GK_ATOM
 (
+floatContinuationsList
+"
+FloatContinuations
+-
+list
+"
+)
+GK_ATOM
+(
 floor
 "
 floor
