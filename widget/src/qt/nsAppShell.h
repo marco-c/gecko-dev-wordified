@@ -435,6 +435,13 @@ define
 nsAppShell_h__
 #
 include
+<
+qsocketnotifier
+.
+h
+>
+#
+include
 "
 nsBaseAppShell
 .
@@ -447,13 +454,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-<
-qsocketnotifier
-.
-h
->
 /
 *
 *

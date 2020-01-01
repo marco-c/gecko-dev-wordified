@@ -452,13 +452,6 @@ BLOCK
 /
 #
 include
-"
-nsLookAndFeel
-.
-h
-"
-#
-include
 <
 QPalette
 >
@@ -472,6 +465,13 @@ include
 <
 QStyle
 >
+#
+include
+"
+nsLookAndFeel
+.
+h
+"
 #
 include
 <

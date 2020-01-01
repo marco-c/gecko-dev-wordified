@@ -453,6 +453,13 @@ BLOCK
 #
 include
 "
+nsToolkit
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -464,13 +471,6 @@ for
 '
 nsnull
 '
-#
-include
-"
-nsToolkit
-.
-h
-"
 #
 include
 "

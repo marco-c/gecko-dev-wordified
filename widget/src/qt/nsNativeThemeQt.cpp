@@ -428,13 +428,6 @@ BLOCK
 /
 #
 include
-"
-nsIFrame
-.
-h
-"
-#
-include
 <
 QApplication
 >
@@ -483,6 +476,13 @@ include
 <
 QStyleOptionComboBox
 >
+#
+include
+"
+nsIFrame
+.
+h
+"
 #
 include
 "
