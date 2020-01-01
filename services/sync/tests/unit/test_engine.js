@@ -977,12 +977,9 @@ Svc
 .
 Prefs
 .
-reset
+resetBranch
 (
 "
-engine
-.
-steam
 "
 )
 ;
@@ -1130,12 +1127,9 @@ Svc
 .
 Prefs
 .
-reset
+resetBranch
 (
 "
-engine
-.
-steam
 "
 )
 ;
