@@ -319,7 +319,6 @@ scaling
 .
 *
 /
-public
 class
 SimpleScaleGestureDetector
 {
@@ -379,7 +378,6 @@ listener
 .
 *
 /
-public
 SimpleScaleGestureDetector
 (
 SimpleScaleGestureListener

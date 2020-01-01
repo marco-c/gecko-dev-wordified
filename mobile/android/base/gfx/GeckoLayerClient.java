@@ -846,6 +846,7 @@ Factory
 create
 (
 this
+view
 eventDispatcher
 )
 ;
