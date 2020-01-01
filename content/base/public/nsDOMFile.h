@@ -928,6 +928,16 @@ aBlob
 ;
 protected
 :
+friend
+class
+DataOwnerAdapter
+;
+/
+/
+Needs
+to
+see
+DataOwner
 class
 DataOwner
 {
