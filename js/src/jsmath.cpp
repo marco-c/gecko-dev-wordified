@@ -1158,10 +1158,6 @@ JS_FALSE
 ;
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 _MSC_VER
@@ -2215,10 +2211,6 @@ vp
 return
 JS_FALSE
 ;
-#
-if
-!
-JS_USE_FDLIBM_MATH
 /
 *
 *
@@ -2332,8 +2324,6 @@ return
 JS_TRUE
 ;
 }
-#
-endif
 z
 =
 fd_pow
