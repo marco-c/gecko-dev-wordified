@@ -1699,7 +1699,7 @@ scrollOffset
 =
 metrics
 .
-mViewportScrollOffset
+mScrollOffset
 ;
 }
 int32_t
