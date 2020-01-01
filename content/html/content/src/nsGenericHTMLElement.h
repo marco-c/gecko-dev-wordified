@@ -189,6 +189,17 @@ nsIDOMHTMLMenuElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ValidityState
+.
+h
+"
 class
 nsIDOMAttr
 ;
