@@ -366,6 +366,10 @@ TiledLayerBufferOGL
 *
 aVideoMemoryTiledBuffer
 const
+nsIntSize
+&
+aContentSize
+const
 nsIntRegion
 &
 aOldValidRegion
@@ -422,6 +426,10 @@ DrawTiles
 TiledThebesLayerOGL
 *
 aLayer
+const
+nsIntSize
+&
+aContentSize
 const
 nsIntRegion
 &
