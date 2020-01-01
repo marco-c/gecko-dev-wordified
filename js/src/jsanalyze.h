@@ -5012,6 +5012,16 @@ function
 nargs
 ;
 }
+void
+setIonUninlineable
+(
+)
+{
+isIonInlineable
+=
+false
+;
+}
 bool
 jaegerInlineable
 (

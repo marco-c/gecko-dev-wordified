@@ -1013,6 +1013,15 @@ Method_Skipped
 Method_Compiled
 }
 ;
+enum
+AbortReason
+{
+AbortReason_Alloc
+AbortReason_Inlining
+AbortReason_Disable
+AbortReason_NoAbort
+}
+;
 /
 /
 An
@@ -1521,7 +1530,7 @@ IonBuilder
 builder
 )
 ;
-bool
+MethodStatus
 TestIonCompile
 (
 JSContext
