@@ -5207,6 +5207,12 @@ aElement
 ;
 virtual
 void
+CancelFullScreen
+(
+)
+;
+virtual
+void
 UpdateFullScreenStatus
 (
 PRBool
