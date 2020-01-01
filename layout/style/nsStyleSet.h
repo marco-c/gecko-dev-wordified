@@ -1347,11 +1347,8 @@ already_AddRefed
 <
 nsStyleContext
 >
-ReParentStyleContext
+ReparentStyleContext
 (
-nsPresContext
-*
-aPresContext
 nsStyleContext
 *
 aStyleContext
@@ -2433,9 +2430,6 @@ nsStyleContext
 >
 GetContext
 (
-nsPresContext
-*
-aPresContext
 nsStyleContext
 *
 aParentContext
