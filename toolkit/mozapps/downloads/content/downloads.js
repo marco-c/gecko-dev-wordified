@@ -2442,6 +2442,9 @@ e
 #
 ifdef
 XP_WIN
+#
+ifndef
+WINCE
 /
 /
 On
@@ -2515,6 +2518,8 @@ ex
 )
 {
 }
+#
+endif
 #
 endif
 if
