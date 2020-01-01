@@ -2678,6 +2678,10 @@ parsing
 Node
 statement
 (
+bool
+canHaveDirectives
+=
+false
 )
 ;
 bool

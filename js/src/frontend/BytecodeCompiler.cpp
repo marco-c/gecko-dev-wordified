@@ -2001,6 +2001,7 @@ parser
 .
 statement
 (
+canHaveDirectives
 )
 ;
 if
