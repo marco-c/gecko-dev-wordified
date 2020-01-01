@@ -204,6 +204,11 @@ Disconnect
 (
 )
 ;
+bool
+Listen
+(
+)
+;
 private
 :
 friend
@@ -258,6 +263,9 @@ OnDisconnect
 (
 )
 MOZ_OVERRIDE
+;
+int
+mSocketStatus
 ;
 }
 ;
