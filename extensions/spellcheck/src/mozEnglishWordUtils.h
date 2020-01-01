@@ -489,6 +489,13 @@ mozITXTToHTMLConv
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 mozEnglishWordUtils
 :
@@ -497,8 +504,12 @@ mozISpellI18NUtil
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_MOZISPELLI18NUTIL
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+mozEnglishWordUtils
+)
 mozEnglishWordUtils
 (
 )
