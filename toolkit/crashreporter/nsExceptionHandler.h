@@ -311,6 +311,14 @@ nsACString
 aBuildID
 )
 ;
+bool
+GetLastRunCrashID
+(
+nsAString
+&
+id
+)
+;
 /
 /
 Registers
@@ -1129,7 +1137,7 @@ UnsetRemoteExceptionHandler
 if
 defined
 (
-__ANDROID__
+MOZ_WIDGET_ANDROID
 )
 /
 /

@@ -602,9 +602,12 @@ to
 restore
 *
 /
-nsCOMPtr
+nsRefPtr
 <
-nsISelection
+mozilla
+:
+:
+Selection
 >
 mSel
 ;
@@ -639,7 +642,10 @@ aSel
 /
 nsAutoSelectionReset
 (
-nsISelection
+mozilla
+:
+:
+Selection
 *
 aSel
 nsEditor

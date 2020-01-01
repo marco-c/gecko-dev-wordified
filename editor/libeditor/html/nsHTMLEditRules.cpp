@@ -19831,7 +19831,7 @@ nsHTMLEditRules
 :
 WillMakeList
 (
-nsISelection
+Selection
 *
 aSelection
 const
@@ -21798,7 +21798,7 @@ nsHTMLEditRules
 :
 WillRemoveList
 (
-nsISelection
+Selection
 *
 aSelection
 bool
@@ -22186,7 +22186,7 @@ nsHTMLEditRules
 :
 WillMakeDefListItem
 (
-nsISelection
+Selection
 *
 aSelection
 const
@@ -22240,7 +22240,7 @@ nsHTMLEditRules
 :
 WillMakeBasicBlock
 (
-nsISelection
+Selection
 *
 aSelection
 const
@@ -23304,7 +23304,7 @@ nsHTMLEditRules
 :
 WillIndent
 (
-nsISelection
+Selection
 *
 aSelection
 bool
@@ -23360,7 +23360,7 @@ nsHTMLEditRules
 :
 WillCSSIndent
 (
-nsISelection
+Selection
 *
 aSelection
 bool
@@ -24775,7 +24775,7 @@ nsHTMLEditRules
 :
 WillHTMLIndent
 (
-nsISelection
+Selection
 *
 aSelection
 bool
@@ -26404,7 +26404,7 @@ nsHTMLEditRules
 :
 WillOutdent
 (
-nsISelection
+Selection
 *
 aSelection
 bool
@@ -30269,7 +30269,7 @@ nsHTMLEditRules
 :
 WillAlign
 (
-nsISelection
+Selection
 *
 aSelection
 const
@@ -59238,7 +59238,7 @@ nsHTMLEditRules
 :
 WillAbsolutePosition
 (
-nsISelection
+Selection
 *
 aSelection
 bool
@@ -60721,7 +60721,7 @@ nsHTMLEditRules
 :
 WillRemoveAbsolutePosition
 (
-nsISelection
+Selection
 *
 aSelection
 bool
@@ -60848,7 +60848,7 @@ nsHTMLEditRules
 :
 WillRelativeChangeZIndex
 (
-nsISelection
+Selection
 *
 aSelection
 PRInt32

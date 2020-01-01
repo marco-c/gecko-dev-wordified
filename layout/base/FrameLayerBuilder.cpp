@@ -18023,6 +18023,15 @@ become
 invalid
 .
 }
+if
+(
+!
+containerLayerFrame
+)
+{
+return
+;
+}
 ThebesDisplayItemLayerUserData
 *
 userData

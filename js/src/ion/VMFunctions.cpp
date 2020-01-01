@@ -1425,7 +1425,7 @@ output
 output
 =
 !
-js_ValueToBoolean
+ToBoolean
 (
 input
 )
