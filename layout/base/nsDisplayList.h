@@ -12622,6 +12622,9 @@ const
 nsRect
 &
 aClipRect
+gfxRect
+*
+aDestRect
 )
 ;
 void
