@@ -8136,6 +8136,14 @@ mPersistFlags
 PERSIST_FLAGS_FAIL_ON_BROKEN_LINKS
 )
 {
+SendErrorStatusChange
+(
+PR_TRUE
+rv
+aChannel
+aFile
+)
+;
 EndDownload
 (
 NS_ERROR_FAILURE
