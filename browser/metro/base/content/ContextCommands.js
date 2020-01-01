@@ -287,8 +287,10 @@ cut
 ;
 SelectionHelperUI
 .
-closeEditSessionAndClear
+closeEditSession
 (
+false
+true
 )
 ;
 }
@@ -372,8 +374,12 @@ copy
 ;
 SelectionHelperUI
 .
-closeEditSessionAndClear
+closeEditSession
 (
+(
+false
+true
+)
 )
 ;
 }
@@ -481,7 +487,7 @@ json
 ;
 SelectionHelperUI
 .
-closeEditSessionAndClear
+closeEditSession
 (
 )
 ;
