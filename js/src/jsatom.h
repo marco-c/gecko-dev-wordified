@@ -3581,6 +3581,10 @@ size_t
 length
 uintN
 flags
+bool
+useCESU8
+=
+false
 )
 ;
 extern
