@@ -721,6 +721,13 @@ gfxASurface
 :
 ImageFormatUnknown
 )
+mOffscreenSize
+(
+-
+1
+-
+1
+)
 {
 mImplData
 =
