@@ -736,6 +736,10 @@ scriptCountsMap
 (
 NULL
 )
+sourceMapMap
+(
+NULL
+)
 {
 PodArrayZero
 (
@@ -829,6 +833,14 @@ Foreground
 delete_
 (
 scriptCountsMap
+)
+;
+Foreground
+:
+:
+delete_
+(
+sourceMapMap
 )
 ;
 #
