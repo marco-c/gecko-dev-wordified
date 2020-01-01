@@ -325,6 +325,12 @@ inTestMode
 }
 else
 {
+DOMApplicationRegistry
+.
+allAppsLaunchable
+=
+true
+;
 /
 /
 startUp
