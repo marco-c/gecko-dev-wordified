@@ -206,7 +206,9 @@ cpp
 extern
 PRLogModuleInfo
 *
-gImgLog
+GetImgLog
+(
+)
 ;
 #
 define

@@ -352,7 +352,9 @@ munged
 extern
 PRLogModuleInfo
 *
-gPluginLog
+GetPluginLog
+(
+)
 ;
 const
 uint32_t
@@ -424,7 +426,9 @@ args
 )
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_DEBUG
 args
 )
@@ -433,7 +437,9 @@ define
 PLUGIN_LOG_DEBUG_FUNCTION
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_DEBUG
 (
 "
@@ -448,7 +454,9 @@ define
 PLUGIN_LOG_DEBUG_METHOD
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_DEBUG
 (
 "

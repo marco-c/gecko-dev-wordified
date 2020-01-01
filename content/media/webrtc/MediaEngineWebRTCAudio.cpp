@@ -106,7 +106,9 @@ PR_LOGGING
 extern
 PRLogModuleInfo
 *
-gMediaManagerLog
+GetMediaManagerLog
+(
+)
 ;
 #
 define
@@ -116,7 +118,9 @@ msg
 )
 PR_LOG
 (
-gMediaManagerLog
+GetMediaManagerLog
+(
+)
 PR_LOG_DEBUG
 msg
 )

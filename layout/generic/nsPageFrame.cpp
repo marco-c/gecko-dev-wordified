@@ -246,7 +246,9 @@ PR_LOGGING
 extern
 PRLogModuleInfo
 *
-kLayoutPrintingLogMod
+GetLayoutPrintingLog
+(
+)
 ;
 #
 define
@@ -256,7 +258,9 @@ _p1
 )
 PR_LOG
 (
-kLayoutPrintingLogMod
+GetLayoutPrintingLog
+(
+)
 PR_LOG_DEBUG
 _p1
 )

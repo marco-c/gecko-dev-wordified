@@ -5202,7 +5202,9 @@ error
 {
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_WARNING
 (
 "

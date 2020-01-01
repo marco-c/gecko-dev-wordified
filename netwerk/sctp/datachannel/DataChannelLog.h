@@ -180,7 +180,9 @@ PR_LOGGING
 extern
 PRLogModuleInfo
 *
-dataChannelLog
+GetDataChannelLog
+(
+)
 ;
 #
 endif
@@ -195,7 +197,9 @@ args
 )
 PR_LOG
 (
-dataChannelLog
+GetDataChannelLog
+(
+)
 PR_LOG_DEBUG
 args
 )

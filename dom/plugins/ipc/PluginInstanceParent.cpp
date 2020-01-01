@@ -5755,7 +5755,9 @@ default
 :
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_WARNING
 (
 "
@@ -5852,7 +5854,9 @@ NPP_SetValue
 ;
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_WARNING
 (
 "
