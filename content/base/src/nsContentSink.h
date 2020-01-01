@@ -1096,6 +1096,9 @@ const
 nsAString
 &
 aHref
+nsIContent
+*
+aSource
 PRBool
 aExplicit
 PRBool

@@ -908,6 +908,9 @@ nsGlobalWindow
 class
 nsDOMOfflineResourceList
 ;
+class
+nsDOMOfflineLoadStatusList
+;
 /
 /
 permissible
@@ -4662,6 +4665,12 @@ nsRefPtr
 nsDOMOfflineResourceList
 >
 mOfflineResources
+;
+nsRefPtr
+<
+nsDOMOfflineLoadStatusList
+>
+mPendingOfflineLoads
 ;
 nsIDocShell
 *

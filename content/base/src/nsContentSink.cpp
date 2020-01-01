@@ -4070,6 +4070,7 @@ next
 PrefetchHref
 (
 aHref
+aElement
 hasPrefetch
 PR_FALSE
 )
@@ -4124,6 +4125,7 @@ mSaveOfflineResources
 PrefetchHref
 (
 aHref
+aElement
 PR_TRUE
 PR_TRUE
 )
@@ -4537,6 +4539,9 @@ const
 nsAString
 &
 aHref
+nsIContent
+*
+aSource
 PRBool
 aExplicit
 PRBool
@@ -4797,6 +4802,17 @@ if
 uri
 )
 {
+nsCOMPtr
+<
+nsIDOMNode
+>
+domNode
+=
+do_QueryInterface
+(
+aSource
+)
+;
 if
 (
 aOffline
@@ -4808,6 +4824,7 @@ PrefetchURIForOfflineUse
 (
 uri
 mDocumentURI
+domNode
 aExplicit
 )
 ;
@@ -4819,6 +4836,7 @@ PrefetchURI
 (
 uri
 mDocumentURI
+domNode
 aExplicit
 )
 ;
