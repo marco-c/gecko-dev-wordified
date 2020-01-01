@@ -1923,7 +1923,7 @@ Engine
 (
 )
 get
-snapshot
+_snapshot
 (
 )
 {
@@ -1948,7 +1948,7 @@ _snapshot
 function
 (
 )
-snapshot
+snap
 )
 ;
 return
