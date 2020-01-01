@@ -9471,6 +9471,14 @@ object
 kind
 )
 ;
+if
+(
+nkind
+!
+=
+OBJECT_UNKNOWN
+)
+{
 /
 *
 *
@@ -9553,6 +9561,7 @@ script
 false
 )
 ;
+}
 if
 (
 nkind
