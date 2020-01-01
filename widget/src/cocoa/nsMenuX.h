@@ -467,13 +467,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsMenuBarX
 .
 h
@@ -561,8 +554,6 @@ public
 nsIMenu
 public
 nsIChangeObserver
-public
-nsSupportsWeakReference
 {
 public
 :
