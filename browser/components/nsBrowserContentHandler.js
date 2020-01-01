@@ -2319,7 +2319,6 @@ defaultEngine
 getSubmission
 (
 searchTerm
-null
 )
 ;
 /
