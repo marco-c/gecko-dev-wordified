@@ -3953,7 +3953,7 @@ return
 false
 ;
 }
-void
+bool
 SyncChannel
 :
 :
@@ -5722,6 +5722,9 @@ message
 )
 ;
 }
+return
+true
+;
 }
 void
 DeferredSendMessage
