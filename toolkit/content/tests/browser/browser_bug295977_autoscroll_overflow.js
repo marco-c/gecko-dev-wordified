@@ -175,15 +175,14 @@ elem
 Skip
 the
 first
-BeforePaint
-event
+callback
 as
 it
 '
 s
 the
 same
-event
+callback
 that
 the
 browser

@@ -983,9 +983,6 @@ MOZ_MEDIA
 MozAfterPaint
 "
 "
-MozBeforePaint
-"
-"
 MozBeforeResize
 "
 "
@@ -7164,15 +7161,6 @@ return
 sEventNames
 [
 eDOMEvents_afterpaint
-]
-;
-case
-NS_BEFOREPAINT
-:
-return
-sEventNames
-[
-eDOMEvents_beforepaint
 ]
 ;
 case
