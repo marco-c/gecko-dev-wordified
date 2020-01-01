@@ -2055,7 +2055,7 @@ ForceCompare
 )
 {
 return
-false
+true
 ;
 }
 struct
@@ -12901,7 +12901,7 @@ ForceCompare
 )
 {
 return
-false
+true
 ;
 }
 nsStyleSVGPaint
@@ -13232,7 +13232,7 @@ ForceCompare
 )
 {
 return
-false
+true
 ;
 }
 nsCOMPtr
