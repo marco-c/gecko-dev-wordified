@@ -63,13 +63,6 @@ ReusableTileStoreOGL
 .
 h
 "
-#
-include
-"
-GLContext
-.
-h
-"
 namespace
 mozilla
 {

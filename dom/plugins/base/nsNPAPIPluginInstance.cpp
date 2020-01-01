@@ -684,10 +684,10 @@ sPluginContext
 >
 CreateSharedHandle
 (
-GLContext
+TextureImage
 :
 :
-SameProcess
+ThreadShared
 (
 void
 *
@@ -5589,10 +5589,10 @@ sPluginContext
 >
 CreateSharedHandle
 (
-GLContext
+TextureImage
 :
 :
-SameProcess
+ThreadShared
 mContentSurface
 GLContext
 :

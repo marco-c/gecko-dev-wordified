@@ -162,10 +162,10 @@ mHandle
 gl
 :
 :
-GLContext
+TextureImage
 :
 :
-SharedTextureShareType
+TextureShareType
 mShareType
 ;
 gfxIntSize
