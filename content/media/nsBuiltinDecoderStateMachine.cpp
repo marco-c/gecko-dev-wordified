@@ -564,10 +564,13 @@ been
 /
 retrieved
 .
-#
-define
+static
+const
+PRUint32
 BUFFERING_WAIT
+=
 30
+;
 /
 /
 The
