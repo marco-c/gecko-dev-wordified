@@ -1270,6 +1270,15 @@ nsIntMargin
 margins
 )
 ;
+nsPopupLevel
+PopupLevel
+(
+)
+{
+return
+mPopupLevel
+;
+}
 /
 *
 *
@@ -1575,6 +1584,9 @@ mZIndex
 ;
 nsSizeMode
 mSizeMode
+;
+nsPopupLevel
+mPopupLevel
 ;
 /
 /

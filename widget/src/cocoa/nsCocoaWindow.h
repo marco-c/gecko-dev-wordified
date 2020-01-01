@@ -1904,6 +1904,11 @@ CGFloat
 aOut
 )
 ;
+void
+SetPopupWindowLevel
+(
+)
+;
 protected
 :
 nsresult

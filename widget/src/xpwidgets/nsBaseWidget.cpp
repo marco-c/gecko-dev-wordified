@@ -904,6 +904,10 @@ mSizeMode
 (
 nsSizeMode_Normal
 )
+mPopupLevel
+(
+ePopupLevelTop
+)
 {
 #
 ifdef
@@ -1637,6 +1641,13 @@ aInitData
 -
 >
 mBorderStyle
+;
+mPopupLevel
+=
+aInitData
+-
+>
+mPopupLevel
 ;
 }
 if

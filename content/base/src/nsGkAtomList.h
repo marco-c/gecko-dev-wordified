@@ -2967,6 +2967,13 @@ flexgroup
 )
 GK_ATOM
 (
+floating
+"
+floating
+"
+)
+GK_ATOM
+(
 floatList
 "
 Float
