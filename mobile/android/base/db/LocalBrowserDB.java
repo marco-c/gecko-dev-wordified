@@ -540,9 +540,6 @@ TYPE
 Bookmarks
 .
 PARENT
-Bookmarks
-.
-KEYWORD
 }
 ;
 public
