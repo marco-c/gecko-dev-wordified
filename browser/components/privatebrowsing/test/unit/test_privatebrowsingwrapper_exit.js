@@ -172,7 +172,7 @@ Copyright
 (
 C
 )
-2008
+2009
 *
 the
 Initial
@@ -430,6 +430,8 @@ mozilla
 org
 /
 privatebrowsing
+-
+wrapper
 ;
 1
 "
