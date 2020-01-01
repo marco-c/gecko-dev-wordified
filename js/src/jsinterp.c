@@ -2935,7 +2935,7 @@ scopeChain
 js_BlockClass
 |
 |
-JS_GetPrivate
+OBJ_GET_PRIVATE
 (
 cx
 fp
@@ -3375,7 +3375,7 @@ js_BlockClass
 {
 if
 (
-JS_GetPrivate
+OBJ_GET_PRIVATE
 (
 cx
 obj
@@ -6719,7 +6719,7 @@ js_FunctionClass
 ?
 JS_GetFunctionName
 (
-JS_GetPrivate
+OBJ_GET_PRIVATE
 (
 cx
 frame
@@ -14146,7 +14146,7 @@ continue
 ;
 if
 (
-JS_GetPrivate
+OBJ_GET_PRIVATE
 (
 cx
 obj
@@ -36203,7 +36203,7 @@ break
 ;
 if
 (
-JS_GetPrivate
+OBJ_GET_PRIVATE
 (
 cx
 obj
