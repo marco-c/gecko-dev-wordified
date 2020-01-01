@@ -889,11 +889,6 @@ JSAtom
 MutableHandleAtom
 ;
 typedef
-JSAtom
-*
-RawAtom
-;
-typedef
 js
 :
 :

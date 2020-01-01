@@ -277,8 +277,7 @@ return
 buf
 ;
 }
-JSFlatString
-*
+UnrootedFlatString
 StringBuffer
 :
 :
@@ -303,6 +302,8 @@ empty
 )
 )
 return
+UnrootedFlatString
+(
 cx
 -
 >
@@ -311,6 +312,7 @@ names
 )
 .
 empty
+)
 ;
 size_t
 length
@@ -334,7 +336,9 @@ length
 )
 )
 return
-NULL
+UnrootedFlatString
+(
+)
 ;
 JS_STATIC_ASSERT
 (
@@ -385,7 +389,9 @@ append
 )
 )
 return
-NULL
+UnrootedFlatString
+(
+)
 ;
 jschar
 *
@@ -401,7 +407,9 @@ if
 buf
 )
 return
-NULL
+UnrootedFlatString
+(
+)
 ;
 JSFlatString
 *
@@ -428,8 +436,7 @@ return
 str
 ;
 }
-JSAtom
-*
+UnrootedAtom
 StringBuffer
 :
 :
@@ -437,6 +444,10 @@ finishAtom
 (
 )
 {
+AssertCanGC
+(
+)
+;
 JSContext
 *
 cx
@@ -462,6 +473,8 @@ length
 0
 )
 return
+UnrootedAtom
+(
 cx
 -
 >
@@ -470,9 +483,9 @@ names
 )
 .
 empty
+)
 ;
-JSAtom
-*
+UnrootedAtom
 atom
 =
 AtomizeChars
