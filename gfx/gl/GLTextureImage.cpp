@@ -1144,6 +1144,11 @@ TextureImage
 :
 Flags
 aFlags
+TextureImage
+:
+:
+ImageFormat
+aImageFormat
 )
 :
 TextureImage
@@ -1180,6 +1185,10 @@ aGL
 mTextureState
 (
 Created
+)
+mImageFormat
+(
+aImageFormat
 )
 {
 if
@@ -3513,6 +3522,7 @@ TileGenFunc
 size
 mContentType
 mFlags
+mImageFormat
 )
 ;
 if
@@ -3762,6 +3772,11 @@ TextureImage
 :
 Flags
 aFlags
+TextureImage
+:
+:
+ImageFormat
+aImageFormat
 )
 {
 bool
@@ -3867,6 +3882,7 @@ aWrapMode
 aContentType
 aGL
 aFlags
+aImageFormat
 )
 ;
 return

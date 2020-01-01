@@ -7326,6 +7326,11 @@ TextureImage
 :
 Flags
 aFlags
+TextureImage
+:
+:
+ImageFormat
+aImageFormat
 )
 {
 return
@@ -7336,6 +7341,7 @@ aSize
 aContentType
 aWrapMode
 aFlags
+aImageFormat
 )
 ;
 }

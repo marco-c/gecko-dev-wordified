@@ -220,6 +220,13 @@ gfxASurface
 gfxContentType
 gfxContentType
 ;
+typedef
+gfxASurface
+:
+:
+gfxImageFormat
+gfxImageFormat
+;
 /
 *
 *
@@ -277,6 +284,11 @@ answer
 /
 gfxContentType
 ContentType
+(
+)
+;
+gfxImageFormat
+ImageFormat
 (
 )
 ;

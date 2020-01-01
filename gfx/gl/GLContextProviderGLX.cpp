@@ -4745,6 +4745,16 @@ TextureImage
 :
 :
 NoFlags
+TextureImage
+:
+:
+ImageFormat
+aImageFormat
+=
+gfxASurface
+:
+:
+ImageFormatUnknown
 )
 ;
 private
@@ -4909,6 +4919,10 @@ TextureImage
 :
 :
 Flags
+TextureImage
+:
+:
+ImageFormat
 )
 ;
 public
@@ -5305,6 +5319,11 @@ TextureImage
 :
 Flags
 aFlags
+TextureImage
+:
+:
+ImageFormat
+aImageFormat
 )
 {
 if
@@ -5325,6 +5344,7 @@ aSize
 aContentType
 aWrapMode
 aFlags
+aImageFormat
 )
 ;
 }
@@ -5539,6 +5559,7 @@ aSize
 aContentType
 aWrapMode
 aFlags
+aImageFormat
 )
 ;
 }
