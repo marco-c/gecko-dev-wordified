@@ -4661,7 +4661,7 @@ item
 .
 cookies
 "
-false
+true
 )
 ;
 pref
