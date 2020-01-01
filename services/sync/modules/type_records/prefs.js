@@ -508,9 +508,6 @@ cleartext
 "
 [
 "
-type
-"
-"
 value
 "
 ]
