@@ -1836,6 +1836,7 @@ range
 new
 nsRange
 (
+aNode
 )
 ;
 rv
