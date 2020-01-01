@@ -942,6 +942,9 @@ globalObj
 Tracker
 tracker
 ;
+Tracker
+stackTracker
+;
 char
 *
 entryTypeMap
