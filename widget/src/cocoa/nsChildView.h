@@ -1402,9 +1402,6 @@ nsIDragService
 *
 mDragService
 ;
-PRUint32
-mLastModifierState
-;
 /
 /
 For
