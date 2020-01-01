@@ -793,6 +793,13 @@ WrapperFactory
 .
 h
 "
+#
+include
+"
+nsDOMDocumentType
+.
+h
+"
 using
 namespace
 mozilla
@@ -8229,7 +8236,7 @@ docTypeContent
 parentDocument
 -
 >
-GetDocumentType
+GetDoctype
 (
 )
 ;
@@ -8386,7 +8393,7 @@ docTypeContent
 parentDocument
 -
 >
-GetDocumentType
+GetDoctype
 (
 )
 ;

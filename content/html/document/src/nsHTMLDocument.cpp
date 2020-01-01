@@ -5831,7 +5831,7 @@ newURI
 )
 ;
 }
-nsIContent
+Element
 *
 nsHTMLDocument
 :
@@ -5912,7 +5912,7 @@ return
 nodeList
 -
 >
-Item
+GetElementAt
 (
 0
 )
