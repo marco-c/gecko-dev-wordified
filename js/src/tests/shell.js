@@ -4223,6 +4223,11 @@ turn
 off
 current
 settings
+/
+/
+except
+jit
+.
 var
 optionNames
 =
@@ -4265,6 +4270,14 @@ i
 if
 (
 optionName
+&
+&
+optionName
+!
+=
+"
+jit
+"
 )
 {
 options
