@@ -9558,7 +9558,7 @@ function
 Set
 _hiding
 to
-false
+true
 to
 prevent
 onWizardCancel
