@@ -20412,13 +20412,6 @@ CurrentMatrix
 (
 )
 ;
-AutoCanvasTMForMarker
-autoCanvasTMFor
-(
-this
-FOR_PAINTING
-)
-;
 if
 (
 mState
@@ -21252,13 +21245,6 @@ a
 child
 frame
 "
-)
-;
-AutoCanvasTMForMarker
-autoCanvasTMFor
-(
-this
-FOR_HIT_TESTING
 )
 ;
 if
@@ -31474,7 +31460,7 @@ m
 (
 GetCanvasTM
 (
-mGetCanvasTMForFlag
+FOR_OUTERSVG_TM
 )
 )
 ;
