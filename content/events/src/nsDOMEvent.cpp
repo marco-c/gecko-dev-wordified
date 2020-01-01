@@ -933,6 +933,9 @@ durationchange
 "
 volumechange
 "
+"
+MozAudioAvailable
+"
 #
 endif
 /
@@ -6958,6 +6961,15 @@ return
 sEventNames
 [
 eDOMEvents_volumechange
+]
+;
+case
+NS_MOZAUDIOAVAILABLE
+:
+return
+sEventNames
+[
+eDOMEvents_mozaudioavailable
 ]
 ;
 #

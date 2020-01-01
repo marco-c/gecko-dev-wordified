@@ -12308,6 +12308,13 @@ onvolumechange
 )
 GK_ATOM
 (
+onMozAudioAvailable
+"
+onMozAudioAvailable
+"
+)
+GK_ATOM
+(
 loadstart
 "
 loadstart
