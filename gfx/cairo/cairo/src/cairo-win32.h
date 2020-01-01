@@ -707,6 +707,17 @@ endif
 CAIRO_HAS_DWRITE_FONT
 *
 /
+cairo_public
+cairo_surface_t
+*
+cairo_win32_surface_create_with_d3dsurface9
+(
+struct
+IDirect3DSurface9
+*
+surface
+)
+;
 #
 if
 CAIRO_HAS_D2D_SURFACE

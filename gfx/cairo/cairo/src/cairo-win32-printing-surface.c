@@ -10506,6 +10506,13 @@ CAIRO_CONTENT_COLOR_ALPHA
 surface
 -
 >
+d3d9surface
+=
+NULL
+;
+surface
+-
+>
 dc
 =
 hdc

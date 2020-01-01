@@ -406,6 +406,11 @@ format
 HDC
 dc
 ;
+struct
+IDirect3DSurface9
+*
+d3d9surface
+;
 /
 *
 We
