@@ -147,6 +147,16 @@ autoScopeExpand
 =
 false
 ;
+gDebugger
+.
+DebuggerView
+.
+Variables
+.
+delayedSearch
+=
+false
+;
 prepareVariables
 (
 testVariablesFiltering
