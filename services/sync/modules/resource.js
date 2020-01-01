@@ -1131,9 +1131,14 @@ nsIRequest
 .
 LOAD_BYPASS_CACHE
 ;
-/
-/
-VALIDATE_ALWAYS
+loadFlags
+|
+=
+Ci
+.
+nsIRequest
+.
+INHIBIT_CACHING
 ;
 this
 .
