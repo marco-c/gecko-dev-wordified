@@ -252,11 +252,13 @@ OutOfLineCode
 *
 oolIns
 ;
-protected
+public
 :
 MacroAssembler
 masm
 ;
+protected
+:
 MIRGenerator
 *
 gen
@@ -1921,7 +1923,7 @@ MIRGenerator
 *
 gen
 LIRGraph
-&
+*
 graph
 )
 ;
