@@ -3589,6 +3589,17 @@ rv
 return
 rv
 ;
+nsCOMPtr
+<
+nsICachingChannel
+>
+oldCachingChannel
+=
+do_QueryInterface
+(
+aOldChannel
+)
+;
 PRBool
 match
 ;
