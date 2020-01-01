@@ -31283,7 +31283,7 @@ aDisplayItemKey
 FrameLayerBuilder
 :
 :
-HasVisibleRetainedDataFor
+HasRetainedDataFor
 (
 this
 aDisplayItemKey
@@ -31532,7 +31532,7 @@ aDisplayItemKey
 FrameLayerBuilder
 :
 :
-HasVisibleRetainedDataFor
+HasRetainedDataFor
 (
 this
 aDisplayItemKey
@@ -31569,7 +31569,7 @@ aDisplayItemKey
 FrameLayerBuilder
 :
 :
-HasVisibleRetainedDataFor
+HasRetainedDataFor
 (
 this
 aDisplayItemKey
