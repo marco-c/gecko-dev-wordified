@@ -1024,6 +1024,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 #
 if
@@ -13624,7 +13626,7 @@ INLINE_STUBCALL
 stubs
 :
 :
-Debugger
+DebuggerStatement
 )
 ;
 END_CASE

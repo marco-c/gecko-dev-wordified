@@ -2665,6 +2665,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 ScriptDebugPrologue
 (
@@ -2719,6 +2721,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 ok
 =
@@ -2843,6 +2847,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 ScriptDebugPrologue
 (
@@ -2895,6 +2901,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 return
 ScriptDebugEpilogue
