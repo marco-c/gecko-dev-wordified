@@ -8936,7 +8936,7 @@ new
 tab
 within
 this
-groups
+group
 .
 newTab
 :
