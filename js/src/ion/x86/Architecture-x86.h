@@ -478,9 +478,9 @@ MAX_STACK_SLOTS
 static
 const
 uint32
-DOUBLE_ALIGNMENT
+DOUBLE_STACK_ALIGNMENT
 =
-8
+2
 ;
 class
 RegisterCodes
