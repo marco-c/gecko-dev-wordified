@@ -20886,9 +20886,6 @@ this
 )
 {
 delete
-mergeCounts
-;
-delete
 lirbuf
 ;
 }

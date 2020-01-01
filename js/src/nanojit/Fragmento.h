@@ -1539,13 +1539,6 @@ peer
 ;
 DWB
 (
-BlockHist
-*
-)
-mergeCounts
-;
-DWB
-(
 LirBuffer
 *
 )
