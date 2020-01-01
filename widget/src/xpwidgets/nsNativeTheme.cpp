@@ -1460,6 +1460,12 @@ aWidgetType
 =
 =
 NS_THEME_LISTBOX
+|
+|
+aWidgetType
+=
+=
+NS_THEME_DROPDOWN
 )
 )
 {
@@ -1677,6 +1683,9 @@ break
 ;
 case
 NS_THEME_LISTBOX
+:
+case
+NS_THEME_DROPDOWN
 :
 defaultBorderStyle
 =
