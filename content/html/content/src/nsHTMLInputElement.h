@@ -1686,11 +1686,10 @@ PRBool
 aNotify
 )
 ;
-PRBool
-IsBarredFromConstraintValidation
+void
+UpdateBarredFromConstraintValidation
 (
 )
-const
 ;
 nsresult
 GetValidationMessage
