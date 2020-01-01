@@ -178,9 +178,13 @@ modules
 /
 devtools
 /
-EventEmitter
+shared
+/
+event
+-
+emitter
 .
-jsm
+js
 "
 )
 ;
