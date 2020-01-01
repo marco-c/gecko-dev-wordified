@@ -805,6 +805,17 @@ return
 mIsFromUserInput
 ;
 }
+nsIAccessible
+*
+GetAccessible
+(
+)
+const
+{
+return
+mAccessible
+;
+}
 static
 void
 GetLastEventAttributes

@@ -1587,7 +1587,7 @@ hidden
 /
 already_AddRefed
 <
-nsIAccessibleEvent
+nsAccEvent
 >
 CreateTextChangeEventForNode
 (
