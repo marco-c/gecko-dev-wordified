@@ -2036,6 +2036,7 @@ PR_TRUE
 ;
 }
 nsAXPCNativeCallContext
+*
 ncc
 ;
 nsresult
