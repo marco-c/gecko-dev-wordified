@@ -1013,10 +1013,6 @@ favicon
 =
 Favicons
 .
-getInstance
-(
-)
-.
 scaleImage
 (
 bitmap
@@ -1053,10 +1049,6 @@ cache
 setFaviconWithUrl
 (
 Favicons
-.
-getInstance
-(
-)
 .
 getFaviconFromMemCache
 (

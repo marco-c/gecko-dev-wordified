@@ -1246,10 +1246,6 @@ level
 }
 Favicons
 .
-getInstance
-(
-)
-.
 clearMemCache
 (
 )
