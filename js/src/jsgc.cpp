@@ -9657,7 +9657,7 @@ atoms
 .
 *
 /
-AutoSaveRestoreWeakRoots
+AutoPreserveWeakRoots
 save
 (
 cx

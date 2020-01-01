@@ -9737,7 +9737,7 @@ ida
 }
 ;
 class
-AutoSaveRestoreWeakRoots
+AutoPreserveWeakRoots
 :
 private
 AutoGCRooter
@@ -9745,7 +9745,7 @@ AutoGCRooter
 public
 :
 explicit
-AutoSaveRestoreWeakRoots
+AutoPreserveWeakRoots
 (
 JSContext
 *
@@ -9770,7 +9770,7 @@ JS_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 ~
-AutoSaveRestoreWeakRoots
+AutoPreserveWeakRoots
 (
 )
 {
