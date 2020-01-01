@@ -99,7 +99,7 @@ gDebugger
 =
 gPane
 .
-debuggerWindow
+contentWindow
 ;
 testCleanExit
 (

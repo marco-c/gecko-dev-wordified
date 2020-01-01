@@ -1465,7 +1465,7 @@ scriptsView
 =
 dbg
 .
-debuggerWindow
+contentWindow
 .
 DebuggerView
 .

@@ -139,7 +139,7 @@ gDebugger
 =
 gPane
 .
-debuggerWindow
+contentWindow
 ;
 gDebugger
 .
