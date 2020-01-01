@@ -14715,9 +14715,7 @@ JSOP_GETFCSLOT
 {
 table
 =
-rdata
-.
-lambda
+fun
 -
 >
 getFlatClosureUpvar

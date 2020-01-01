@@ -4466,6 +4466,10 @@ base
 ]
 ok
 =
+false
+;
+/
+/
 isConstPrivatePtr
 (
 base

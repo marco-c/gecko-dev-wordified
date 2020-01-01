@@ -18806,7 +18806,7 @@ Address
 upvarAddress
 (
 reg
-JSObject
+JSFunction
 :
 :
 getFlatClosureUpvarsOffset

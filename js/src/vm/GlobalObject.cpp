@@ -2548,6 +2548,11 @@ JSAtom
 name
 uintN
 length
+gc
+:
+:
+AllocKind
+kind
 )
 {
 JSFunction
@@ -2563,6 +2568,7 @@ length
 JSFUN_CONSTRUCTOR
 this
 name
+kind
 )
 ;
 if
