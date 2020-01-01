@@ -3357,9 +3357,7 @@ script
 >
 version
 =
-(
 JSVersion
-)
 (
 version
 &
@@ -3371,9 +3369,7 @@ script
 >
 nfixed
 =
-(
 uint16
-)
 (
 version
 >
@@ -3824,10 +3820,15 @@ script
 >
 staticDepth
 =
+(
+uint16
+)
+(
 nslots
 >
 >
 16
+)
 ;
 }
 for

@@ -11255,7 +11255,7 @@ doubleFreeList
 #
 ifdef
 DEBUG
-bool
+JSBool
 ok
 =
 #
@@ -24340,6 +24340,7 @@ fun
 bool
 constructing
 =
+(
 fi
 .
 s
@@ -24347,6 +24348,10 @@ s
 argc
 &
 0x8000
+)
+!
+=
+0
 ;
 newifp
 -
@@ -30189,7 +30194,7 @@ state
 .
 jsframe_pop_blocks_set_on_entry
 =
-bool
+(
 (
 cx
 -
@@ -30200,6 +30205,10 @@ fp
 flags
 &
 JSFRAME_POP_BLOCKS
+)
+!
+=
+0
 )
 ;
 memset
@@ -64357,7 +64366,7 @@ OBJECT_TO_JSVAL
 obj
 )
 ;
-bool
+JSBool
 ok
 =
 js_ValueToIterator
@@ -64447,7 +64456,7 @@ tvr
 cx
 )
 ;
-bool
+JSBool
 ok
 =
 js_CallIteratorNext
@@ -65396,10 +65405,15 @@ v
 =
 stackval
 (
--
-len
-+
+int
+(
 i
+)
+-
+int
+(
+len
+)
 )
 ;
 LIns
@@ -65433,7 +65447,10 @@ set_array_elt
 stack
 (
 -
+int
+(
 len
+)
 v_ins
 )
 ;

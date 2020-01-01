@@ -2412,11 +2412,10 @@ v
 if
 (
 !
-SPROP_GET
+js_GetSprop
 (
 cx
 sprop
-obj
 obj
 &
 v
