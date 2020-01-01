@@ -5918,6 +5918,14 @@ IsCacheableNonGlobalScope
 (
 tobj
 )
+|
+|
+tobj
+-
+>
+isGlobal
+(
+)
 )
 ;
 GenerateScopeChainGuard
