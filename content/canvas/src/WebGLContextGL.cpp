@@ -22471,6 +22471,16 @@ ShaderType
 (
 )
 SH_WEBGL_SPEC
+gl
+-
+>
+IsGLES2
+(
+)
+?
+SH_ESSL_OUTPUT
+:
+SH_GLSL_OUTPUT
 &
 resources
 )
