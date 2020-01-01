@@ -3141,11 +3141,6 @@ happens
 .
 if
 (
-IsRootOfNativeAnonymousSubtree
-(
-)
-|
-|
 aParent
 -
 >
