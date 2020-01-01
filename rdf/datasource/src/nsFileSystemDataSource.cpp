@@ -4970,6 +4970,12 @@ defined
 (
 XP_BEOS
 )
+|
+|
+defined
+(
+WINCE
+)
 mRDFService
 -
 >

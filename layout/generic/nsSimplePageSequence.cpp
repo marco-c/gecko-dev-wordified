@@ -2515,9 +2515,6 @@ do_CreateInstance
 NS_DATETIMEFORMAT_CONTRACTID
 )
 ;
-#
-ifndef
-WINCE
 NS_ENSURE_TRUE
 (
 mDateFormatter
@@ -2582,8 +2579,6 @@ will
 be
 freed
 }
-#
-endif
 /
 /
 Return

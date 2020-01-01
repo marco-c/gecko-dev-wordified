@@ -868,13 +868,6 @@ if
 !
 defined
 (
-WINCE
-)
-&
-&
-!
-defined
-(
 XP_OS2
 )
 #
@@ -1922,13 +1915,6 @@ nsCycleCollector_collect
 ;
 #
 if
-!
-defined
-(
-WINCE
-)
-&
-&
 !
 defined
 (
