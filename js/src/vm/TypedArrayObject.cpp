@@ -8185,6 +8185,17 @@ array
 buffer
 moved
 .
+Note
+that
+during
+*
+initialization
+bufSlot
+may
+still
+be
+JSVAL_VOID
+.
 *
 /
 if
@@ -8246,7 +8257,7 @@ offset
 /
 *
 Update
-NEXT_VEIW_SLOT
+NEXT_VIEW_SLOT
 if
 the
 view
