@@ -24347,6 +24347,26 @@ object
 argument
 .
     
+errorReport
+should
+be
+a
+CGThing
+for
+an
+error
+report
+or
+None
+if
+no
+    
+error
+reporting
+is
+needed
+.
+    
 "
 "
 "
@@ -24381,6 +24401,17 @@ CGThing
 __init__
 (
 self
+)
+        
+assert
+errorReport
+is
+None
+or
+isinstance
+(
+errorReport
+CGThing
 )
         
 isFallible
@@ -41722,6 +41753,9 @@ infallible
                 
 error
 =
+CGGeneric
+(
+                    
 (
 '
 ThrowMethodFailedWithDetails
@@ -41736,11 +41770,12 @@ s
 toString
 "
 )
+;
 \
 n
 '
 +
-                         
+                     
 "
 return
 NULL
@@ -41757,6 +41792,7 @@ interface
 identifier
 .
 name
+)
             
 else
 :

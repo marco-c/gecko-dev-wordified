@@ -2217,9 +2217,6 @@ attribute
 in
 [
 '
-infallible
-'
-'
 implicitJSContext
 '
 '
