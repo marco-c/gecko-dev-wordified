@@ -664,16 +664,6 @@ entry
 *
 /
 uint32_t
-highwatermark
-;
-/
-*
-max
-tos
-hit
-*
-/
-uint32_t
 lowwatermark
 ;
 /

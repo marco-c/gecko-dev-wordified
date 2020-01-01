@@ -9244,7 +9244,7 @@ max_stk_used
 +
 _activation
 .
-highwatermark
+tos
 *
 4
 ;
