@@ -4594,6 +4594,7 @@ audio
 channel
 playing
 state
+virtual
 void
 UpdateAudioChannelPlayingState
 (
