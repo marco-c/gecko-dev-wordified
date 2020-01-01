@@ -663,7 +663,7 @@ stateString
 AssignLiteral
 (
 "
-ringing
+alerting
 "
 )
 ;
@@ -1101,7 +1101,7 @@ dialing
 )
 NS_CYCLE_COLLECTION_TRAVERSE_EVENT_HANDLER
 (
-ringing
+alerting
 )
 NS_CYCLE_COLLECTION_TRAVERSE_EVENT_HANDLER
 (
@@ -1147,7 +1147,7 @@ dialing
 )
 NS_CYCLE_COLLECTION_UNLINK_EVENT_HANDLER
 (
-ringing
+alerting
 )
 NS_CYCLE_COLLECTION_UNLINK_EVENT_HANDLER
 (
@@ -1435,7 +1435,7 @@ dialing
 NS_IMPL_EVENT_HANDLER
 (
 TelephonyCall
-ringing
+alerting
 )
 NS_IMPL_EVENT_HANDLER
 (
