@@ -1307,6 +1307,7 @@ static
 bool
 CopyFrameImage
 (
+const
 uint8_t
 *
 aDataSrc
@@ -1465,6 +1466,7 @@ static
 nsresult
 DrawFrameTo
 (
+const
 uint8_t
 *
 aSrcData
