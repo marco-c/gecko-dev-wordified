@@ -4548,8 +4548,6 @@ the
 vp
 vector
 .
-*
-/
 uintN
 nativeVpLen
 ;
