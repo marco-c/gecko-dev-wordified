@@ -2796,12 +2796,6 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
-mDBGetBookmarkParentsForPlace
-;
-nsCOMPtr
-<
-mozIStorageStatement
->
 mDBFullVisitCount
 ;
 mozIStorageStatement
