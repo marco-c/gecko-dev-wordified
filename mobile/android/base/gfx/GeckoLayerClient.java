@@ -1079,6 +1079,12 @@ destroy
 (
 )
 ;
+mMarginsAnimator
+.
+destroy
+(
+)
+;
 }
 /
 *
