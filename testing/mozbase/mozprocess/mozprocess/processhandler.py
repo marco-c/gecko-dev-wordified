@@ -2129,13 +2129,18 @@ s
 .
 join
 (
+[
+str
+(
+i
+)
+for
+i
+in
 self
 .
 _spawned_procs
-.
-keys
-(
-)
+]
 )
                             
 print

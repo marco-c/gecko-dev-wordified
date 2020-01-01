@@ -1532,9 +1532,6 @@ system
 "
 "
         
-try
-:
-            
 result
 =
 self
@@ -1557,7 +1554,7 @@ stdout
 read
 (
 )
-            
+        
 if
 '
 read
@@ -1573,7 +1570,7 @@ lower
 (
 )
 :
-                
+            
 raise
 DMError
 (
@@ -1586,24 +1583,6 @@ read
 only
 file
 system
-"
-)
-            
-#
-otherwise
-assume
-success
-        
-except
-:
-            
-raise
-DMError
-(
-"
-Error
-creating
-directory
 "
 )
     
@@ -2808,10 +2787,13 @@ append
 list
 (
 [
+int
+(
 els
 [
 1
 ]
+)
 els
 [
 len
@@ -4402,12 +4384,8 @@ testRoot
             
 return
         
-for
-(
-basePath
-subPath
-)
-in
+paths
+=
 [
 (
 '
@@ -4420,7 +4398,7 @@ sdcard
 tests
 '
 )
-                                    
+                 
 (
 '
 /
@@ -4433,6 +4411,14 @@ tests
 '
 )
 ]
+        
+for
+(
+basePath
+subPath
+)
+in
+paths
 :
             
 if
@@ -4456,14 +4442,15 @@ basePath
 subPath
 )
                 
-if
+try
+:
+                    
 self
 .
 mkDir
 (
 testRoot
 )
-:
                     
 self
 .
@@ -4472,6 +4459,11 @@ deviceRoot
 testRoot
                     
 return
+                
+except
+:
+                    
+pass
         
 raise
 DMError
@@ -4483,24 +4475,45 @@ set
 up
 device
 root
-as
-/
-mnt
-/
-sdcard
-/
-tests
+using
+paths
+:
+[
+%
+s
+]
 "
-                                    
+                        
+%
 "
-or
-/
-data
-/
-local
-/
-tests
 "
+.
+join
+(
+[
+"
+'
+%
+s
+'
+"
+%
+os
+.
+path
+.
+join
+(
+b
+s
+)
+for
+b
+s
+in
+paths
+]
+)
 )
     
 def

@@ -382,14 +382,21 @@ Formatter
 MozFormatter
 class
 used
-for
-default
+to
+standardize
 formatting
     
-This
+If
+a
+different
+format
+is
+desired
+this
 can
-easily
 be
+explicitly
+    
 overriden
 with
 the
@@ -400,6 +407,7 @@ s
 setFormatter
 (
 )
+method
     
 "
 "
@@ -427,7 +435,41 @@ self
 )
 :
         
-pass
+"
+"
+"
+        
+Formatter
+.
+__init__
+has
+fmt
+and
+datefmt
+parameters
+that
+won
+'
+t
+have
+        
+any
+affect
+on
+a
+MozFormatter
+instance
+.
+Bypass
+it
+to
+avoid
+confusion
+.
+        
+"
+"
+"
     
 def
 format
