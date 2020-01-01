@@ -4724,7 +4724,11 @@ thread
 ;
 if
 (
-mFiredUnloadEvent
+!
+IsOKToLoadURI
+(
+aURI
+)
 )
 {
 return
@@ -4832,7 +4836,11 @@ nsnull
 }
 if
 (
-mFiredUnloadEvent
+!
+IsOKToLoadURI
+(
+aURI
+)
 )
 {
 return
