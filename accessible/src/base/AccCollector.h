@@ -113,7 +113,7 @@ public
 :
 AccCollector
 (
-nsAccessible
+Accessible
 *
 aRoot
 filters
@@ -164,7 +164,7 @@ index
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetAccessibleAt
 (
@@ -192,7 +192,7 @@ virtual
 PRInt32
 GetIndexAt
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -217,7 +217,7 @@ it
 .
 *
 /
-nsAccessible
+Accessible
 *
 EnsureNGetObject
 (
@@ -246,7 +246,7 @@ it
 PRInt32
 EnsureNGetIndex
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -267,7 +267,7 @@ virtual
 void
 AppendObject
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -278,7 +278,7 @@ filters
 FilterFuncPtr
 mFilterFunc
 ;
-nsAccessible
+Accessible
 *
 mRoot
 ;
@@ -287,7 +287,7 @@ mRootChildIdx
 ;
 nsTArray
 <
-nsAccessible
+Accessible
 *
 >
 mObjects
@@ -361,7 +361,7 @@ virtual
 PRInt32
 GetIndexAt
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -377,13 +377,13 @@ it
 s
 used
 by
-nsAccessible
+Accessible
 class
 only
 .
 EmbeddedObjCollector
 (
-nsAccessible
+Accessible
 *
 aRoot
 )
@@ -402,14 +402,14 @@ virtual
 void
 AppendObject
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
 ;
 friend
 class
-nsAccessible
+Accessible
 ;
 }
 ;

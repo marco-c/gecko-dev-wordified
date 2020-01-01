@@ -102,7 +102,7 @@ _nsXULMenuAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -137,7 +137,7 @@ class
 nsXULMenuitemAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -180,7 +180,7 @@ aName
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Description
@@ -270,7 +270,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -331,7 +331,7 @@ aName
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -403,7 +403,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -456,7 +456,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -481,7 +481,7 @@ class
 nsXULMenubarAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -497,7 +497,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -543,7 +543,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 CurrentItem
 (
@@ -553,7 +553,7 @@ virtual
 void
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )

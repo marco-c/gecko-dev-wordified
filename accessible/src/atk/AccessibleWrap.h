@@ -127,7 +127,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -223,7 +223,7 @@ MaiHyperlink
 *
 *
 *
-nsAccessibleWrap
+AccessibleWrap
 and
 its
 descendents
@@ -240,14 +240,14 @@ AtkObject
 *
 /
 class
-nsAccessibleWrap
+AccessibleWrap
 :
 public
-nsAccessible
+Accessible
 {
 public
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 nsIContent
 *
@@ -259,7 +259,7 @@ aDoc
 ;
 virtual
 ~
-nsAccessibleWrap
+AccessibleWrap
 (
 )
 ;
@@ -282,7 +282,7 @@ ifdef
 MAI_LOGGING
 virtual
 void
-DumpnsAccessibleWrapInfo
+DumpAccessibleWrapInfo
 (
 int
 aDepth
@@ -307,7 +307,7 @@ atk
 object
 for
 this
-nsAccessibleWrap
+AccessibleWrap
 NS_IMETHOD
 GetNativeInterface
 (
@@ -358,7 +358,7 @@ MaiHyperlink
 object
 for
 this
-nsAccessibleWrap
+AccessibleWrap
 MaiHyperlink
 *
 GetMaiHyperlink
@@ -484,7 +484,7 @@ text
 -
 changed
 see
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 FireAtkTextChangedEvent

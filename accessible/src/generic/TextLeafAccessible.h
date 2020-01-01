@@ -151,7 +151,7 @@ TextLeafAccessible
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -232,7 +232,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -338,7 +338,7 @@ mozilla
 /
 /
 /
-nsAccessible
+Accessible
 downcast
 method
 inline
@@ -350,7 +350,7 @@ a11y
 :
 TextLeafAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsTextLeaf

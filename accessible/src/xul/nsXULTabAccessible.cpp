@@ -366,7 +366,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -670,7 +670,7 @@ NS_ERROR_INVALID_ARG
 /
 nsXULTabAccessible
 :
-nsAccessible
+Accessible
 role
 nsXULTabAccessible
 :
@@ -720,7 +720,7 @@ class
 PRUint64
 state
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -917,7 +917,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType
@@ -1460,7 +1460,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -1658,7 +1658,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -1693,7 +1693,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType

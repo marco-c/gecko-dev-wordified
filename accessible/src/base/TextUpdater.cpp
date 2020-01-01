@@ -297,7 +297,7 @@ PRUint32
 aSkipStart
 )
 {
-nsAccessible
+Accessible
 *
 parent
 =

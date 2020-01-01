@@ -291,7 +291,7 @@ nsXULTreeGridAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 nsXULTreeGridAccessibleWrap
-nsAccessibleWrap
+AccessibleWrap
 CAccessibleTable
 )
 /
@@ -504,6 +504,6 @@ nsXULTreeGridCellAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 nsXULTreeGridCellAccessibleWrap
-nsAccessibleWrap
+AccessibleWrap
 CAccessibleTableCell
 )

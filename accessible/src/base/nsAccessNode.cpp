@@ -345,7 +345,7 @@ nsAccessNode
 /
 /
 /
-nsAccessible
+AccessNode
 .
 nsISupports
 NS_IMPL_CYCLE_COLLECTION_1

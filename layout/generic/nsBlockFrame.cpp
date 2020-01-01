@@ -45278,7 +45278,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsBlockFrame
 :

@@ -245,7 +245,11 @@ H
 #
 include
 "
-nsAccessible
+mozilla
+/
+a11y
+/
+Accessible
 .
 h
 "
@@ -1178,7 +1182,7 @@ BlurEventsSuppressed
 #
 ifdef
 ACCESSIBILITY
-nsAccessible
+Accessible
 *
 DispatchAccessibleEvent
 (
@@ -1186,7 +1190,7 @@ PRUint32
 aEventType
 )
 ;
-nsAccessible
+Accessible
 *
 GetRootAccessible
 (

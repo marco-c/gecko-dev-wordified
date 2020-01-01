@@ -159,7 +159,7 @@ static
 void
 ConvertTexttoAsterisks
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 nsAString
@@ -254,7 +254,7 @@ gint
 aEndOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -386,7 +386,7 @@ gint
 aEndOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -530,7 +530,7 @@ gint
 aEndOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -665,7 +665,7 @@ gint
 aOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -823,7 +823,7 @@ gint
 aEndOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -956,7 +956,7 @@ AtkText
 aText
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1067,7 +1067,7 @@ aEndOffset
 -
 1
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1181,7 +1181,7 @@ AtkText
 aText
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1290,7 +1290,7 @@ AtkCoordType
 aCoords
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1475,7 +1475,7 @@ AtkTextRectangle
 aRect
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1648,7 +1648,7 @@ AtkText
 aText
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1718,7 +1718,7 @@ AtkCoordType
 aCoords
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1828,7 +1828,7 @@ AtkText
 aText
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1919,7 +1919,7 @@ gint
 aEndOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -2033,7 +2033,7 @@ gint
 aEndOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -2114,7 +2114,7 @@ gint
 aSelectionNum
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -2198,7 +2198,7 @@ gint
 aEndOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -2280,7 +2280,7 @@ gint
 aOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =

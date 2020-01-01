@@ -174,7 +174,7 @@ AccIterable
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -282,7 +282,7 @@ eTreeNav
 ;
 AccIterator
 (
-nsAccessible
+Accessible
 *
 aRoot
 filters
@@ -327,7 +327,7 @@ time
 *
 /
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -361,7 +361,7 @@ IteratorState
 {
 IteratorState
 (
-nsAccessible
+Accessible
 *
 aParent
 IteratorState
@@ -371,7 +371,7 @@ mParentState
 nsnull
 )
 ;
-nsAccessible
+Accessible
 *
 mParent
 ;
@@ -526,7 +526,7 @@ accessible
 *
 /
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -618,7 +618,7 @@ DocAccessible
 *
 aDocument
 const
-nsAccessible
+Accessible
 *
 aAccessible
 LabelFilter
@@ -651,7 +651,7 @@ element
 *
 /
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -715,7 +715,7 @@ is
 short
 .
 const
-nsAccessible
+Accessible
 *
 mAcc
 ;
@@ -784,7 +784,7 @@ element
 *
 /
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -878,7 +878,7 @@ element
 *
 /
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -972,7 +972,7 @@ element
 *
 /
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -1132,7 +1132,7 @@ aID
 /
 AccIterable
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -1214,7 +1214,7 @@ public
 :
 SingleAccIterator
 (
-nsAccessible
+Accessible
 *
 aTarget
 )
@@ -1233,7 +1233,7 @@ SingleAccIterator
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -1264,7 +1264,7 @@ SingleAccIterator
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mAcc
 ;

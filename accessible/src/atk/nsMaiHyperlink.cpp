@@ -388,7 +388,7 @@ parent_class
 NULL
 ;
 static
-nsAccessible
+Accessible
 *
 get_accessible_hyperlink
 (
@@ -504,7 +504,7 @@ MaiHyperlink
 :
 MaiHyperlink
 (
-nsAccessible
+Accessible
 *
 aHyperLink
 )
@@ -882,7 +882,7 @@ gint
 aLinkIndex
 )
 {
-nsAccessible
+Accessible
 *
 hyperlink
 =
@@ -961,7 +961,7 @@ gint
 aLinkIndex
 )
 {
-nsAccessible
+Accessible
 *
 hyperlink
 =
@@ -976,7 +976,7 @@ hyperlink
 nsnull
 )
 ;
-nsAccessible
+Accessible
 *
 anchor
 =
@@ -998,7 +998,7 @@ AtkObject
 *
 atkObj
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -1036,7 +1036,7 @@ AtkHyperlink
 aLink
 )
 {
-nsAccessible
+Accessible
 *
 hyperlink
 =
@@ -1075,7 +1075,7 @@ AtkHyperlink
 aLink
 )
 {
-nsAccessible
+Accessible
 *
 hyperlink
 =
@@ -1114,7 +1114,7 @@ AtkHyperlink
 aLink
 )
 {
-nsAccessible
+Accessible
 *
 hyperlink
 =
@@ -1152,7 +1152,7 @@ AtkHyperlink
 aLink
 )
 {
-nsAccessible
+Accessible
 *
 hyperlink
 =
@@ -1200,7 +1200,7 @@ the
 HyperLinkAccessible
 related
 .
-nsAccessible
+Accessible
 *
 get_accessible_hyperlink
 (

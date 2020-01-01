@@ -1367,7 +1367,7 @@ first
 HRESULT
 hr
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accValue

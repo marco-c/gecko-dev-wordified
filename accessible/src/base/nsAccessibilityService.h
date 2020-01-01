@@ -282,7 +282,7 @@ NS_DECL_NSIOBSERVER
 /
 nsIAccessibilityService
 virtual
-nsAccessible
+Accessible
 *
 GetRootDocumentAccessible
 (
@@ -295,7 +295,7 @@ aCanCreate
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLButtonAccessible
 (
@@ -309,7 +309,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLBRAccessible
 (
@@ -323,7 +323,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLCanvasAccessible
 (
@@ -337,7 +337,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLCaptionAccessible
 (
@@ -351,7 +351,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLCheckboxAccessible
 (
@@ -365,7 +365,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLComboboxAccessible
 (
@@ -379,7 +379,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLFileInputAccessible
 (
@@ -393,7 +393,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLGroupboxAccessible
 (
@@ -407,7 +407,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLHRAccessible
 (
@@ -421,7 +421,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLImageAccessible
 (
@@ -435,7 +435,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLImageMapAccessible
 (
@@ -449,7 +449,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLLabelAccessible
 (
@@ -463,7 +463,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLLIAccessible
 (
@@ -477,7 +477,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLListboxAccessible
 (
@@ -491,7 +491,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLMediaAccessible
 (
@@ -505,7 +505,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLObjectFrameAccessible
 (
@@ -522,7 +522,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLRadioButtonAccessible
 (
@@ -536,7 +536,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLTableAccessible
 (
@@ -550,7 +550,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLTableCellAccessible
 (
@@ -564,7 +564,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLTableRowAccessible
 (
@@ -578,7 +578,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateTextLeafAccessible
 (
@@ -592,7 +592,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLTextFieldAccessible
 (
@@ -606,7 +606,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHyperTextAccessible
 (
@@ -620,7 +620,7 @@ aPresShell
 ;
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateOuterDocAccessible
 (
@@ -633,7 +633,7 @@ aPresShell
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 AddNativeRootAccessible
 (
@@ -646,7 +646,7 @@ virtual
 void
 RemoveNativeRootAccessible
 (
-nsAccessible
+Accessible
 *
 aRootAccessible
 )
@@ -845,7 +845,7 @@ FireAccessibleEvent
 (
 PRUint32
 aEvent
-nsAccessible
+Accessible
 *
 aTarget
 )
@@ -943,7 +943,7 @@ is
 hidden
 *
 /
-nsAccessible
+Accessible
 *
 GetOrCreateAccessible
 (
@@ -981,7 +981,7 @@ shell
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetAccessible
 (
@@ -1081,7 +1081,7 @@ interface
 /
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessibleByType
 (
@@ -1110,7 +1110,7 @@ name
 /
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateHTMLAccessibleByMarkup
 (
@@ -1142,7 +1142,7 @@ frame
 /
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessibleForDeckChild
 (
@@ -1175,7 +1175,7 @@ element
 /
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessibleForXULTree
 (

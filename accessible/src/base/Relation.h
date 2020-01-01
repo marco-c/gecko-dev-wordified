@@ -285,7 +285,7 @@ aIter
 }
 Relation
 (
-nsAccessible
+Accessible
 *
 aAcc
 )
@@ -454,7 +454,7 @@ inline
 void
 AppendTarget
 (
-nsAccessible
+Accessible
 *
 aAcc
 )
@@ -537,13 +537,13 @@ accessible
 *
 /
 inline
-nsAccessible
+Accessible
 *
 Next
 (
 )
 {
-nsAccessible
+Accessible
 *
 target
 =

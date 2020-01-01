@@ -113,7 +113,7 @@ class
 nsHTMLWin32ObjectOwnerAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -240,7 +240,7 @@ Shutdown
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -263,7 +263,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -276,7 +276,7 @@ mHwnd
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mNativeAccessible
 ;
@@ -325,7 +325,7 @@ or
 sibling
 of
 another
-nsAccessible
+Accessible
 node
 .
 We

@@ -311,7 +311,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -324,12 +324,12 @@ nsISupports
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsXULSliderAccessible
-nsAccessibleWrap
+AccessibleWrap
 nsIAccessibleValue
 )
 /
 /
-nsAccessible
+Accessible
 role
 nsXULSliderAccessible
 :
@@ -356,7 +356,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -566,7 +566,7 @@ aValue
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetMaximumValue
@@ -616,7 +616,7 @@ aValue
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetMinimumValue
@@ -666,7 +666,7 @@ aValue
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetMinimumIncrement
@@ -717,7 +717,7 @@ aValue
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetCurrentValue
@@ -766,7 +766,7 @@ aValue
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 SetCurrentValue
@@ -1298,7 +1298,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -1389,7 +1389,7 @@ aDoc
 /
 nsXULThumbAccessible
 :
-nsAccessible
+Accessible
 role
 nsXULThumbAccessible
 :

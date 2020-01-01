@@ -1994,7 +1994,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsHTMLCanvasFrame
 :

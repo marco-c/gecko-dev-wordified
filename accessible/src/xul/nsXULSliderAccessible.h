@@ -102,7 +102,7 @@ _nsXULSliderAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -131,7 +131,7 @@ class
 nsXULSliderAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -175,7 +175,7 @@ nsIAccessibleValue
 NS_DECL_NSIACCESSIBLEVALUE
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -309,7 +309,7 @@ class
 nsXULThumbAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -325,7 +325,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

@@ -144,7 +144,7 @@ class
 nsXULTabAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -187,7 +187,7 @@ index
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -261,7 +261,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -323,7 +323,7 @@ class
 nsXULTabpanelsAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -339,7 +339,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -449,7 +449,7 @@ class
 nsXULTabpanelAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -465,7 +465,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

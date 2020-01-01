@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -321,7 +321,7 @@ AtkDocument
 aDocument
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -361,7 +361,7 @@ IsEmpty
 ?
 nsnull
 :
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ReturnString
@@ -467,7 +467,7 @@ AtkDocument
 aDocument
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -630,7 +630,7 @@ gchar
 aAttrName
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -754,7 +754,7 @@ IsEmpty
 ?
 nsnull
 :
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ReturnString

@@ -159,7 +159,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIACCESSIBLEVALUE
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -252,7 +252,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

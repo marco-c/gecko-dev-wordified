@@ -139,7 +139,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Description
@@ -205,7 +205,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -277,7 +277,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -368,7 +368,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -454,7 +454,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -526,7 +526,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -574,7 +574,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -672,7 +672,7 @@ aCurrentValue
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -741,7 +741,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 PRUint64
 NativeState
@@ -786,7 +786,7 @@ aDoc
 nsIAccessible
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -812,7 +812,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -872,7 +872,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -889,7 +889,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -981,7 +981,7 @@ aName
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -1085,7 +1085,7 @@ aName
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -1148,7 +1148,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -1258,7 +1258,7 @@ aName
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

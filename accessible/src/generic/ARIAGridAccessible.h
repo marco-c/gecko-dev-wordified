@@ -150,7 +150,7 @@ class
 ARIAGridAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 public
 xpcAccessibleTable
 public
@@ -180,7 +180,7 @@ nsIAccessibleTable
 NS_DECL_OR_FORWARD_NSIACCESSIBLETABLE_WITH_XPCACCESSIBLETABLE
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -223,7 +223,7 @@ RowCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (
@@ -338,7 +338,7 @@ index
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetRowAt
 (
@@ -364,11 +364,11 @@ row
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetCellInRowAt
 (
-nsAccessible
+Accessible
 *
 aRow
 PRInt32
@@ -441,7 +441,7 @@ internally
 nsresult
 SetARIASelected
 (
-nsAccessible
+Accessible
 *
 aAccessible
 bool
@@ -526,7 +526,7 @@ nsIAccessibleTableCell
 NS_DECL_NSIACCESSIBLETABLECELL
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 ApplyARIAState

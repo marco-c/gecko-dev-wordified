@@ -66,7 +66,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -238,7 +238,7 @@ AccCollector
 :
 AccCollector
 (
-nsAccessible
+Accessible
 *
 aRoot
 filters
@@ -292,7 +292,7 @@ Length
 )
 ;
 }
-nsAccessible
+Accessible
 *
 AccCollector
 :
@@ -303,7 +303,7 @@ PRUint32
 aIndex
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -335,7 +335,7 @@ AccCollector
 :
 GetIndexAt
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -452,7 +452,7 @@ aAccessible
 /
 nsAccCollector
 protected
-nsAccessible
+Accessible
 *
 AccCollector
 :
@@ -480,7 +480,7 @@ mRootChildIdx
 childCount
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -539,7 +539,7 @@ AccCollector
 :
 EnsureNGetIndex
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -561,7 +561,7 @@ mRootChildIdx
 childCount
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -618,7 +618,7 @@ AccCollector
 :
 AppendObject
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -800,7 +800,7 @@ EmbeddedObjCollector
 :
 GetIndexAt
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -857,7 +857,7 @@ EmbeddedObjCollector
 :
 AppendObject
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )

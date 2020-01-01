@@ -114,7 +114,7 @@ nsIContent
 h
 "
 class
-nsAccessible
+Accessible
 ;
 class
 DocAccessible
@@ -212,8 +212,7 @@ document
 .
 *
 /
-inline
-nsAccessible
+Accessible
 *
 NextChild
 (
@@ -271,7 +270,7 @@ children
 .
 *
 /
-nsAccessible
+Accessible
 *
 NextChildInternal
 (

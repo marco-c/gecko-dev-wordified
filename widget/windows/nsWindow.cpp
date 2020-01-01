@@ -27293,7 +27293,7 @@ event
 #
 ifdef
 ACCESSIBILITY
-nsAccessible
+Accessible
 *
 nsWindow
 :
@@ -33828,7 +33828,7 @@ will
 be
 loaded
 dynamically
-nsAccessible
+Accessible
 *
 rootAccessible
 =
@@ -48059,7 +48059,7 @@ NS_LOG_WMGETOBJECT_WNDACC
 aWnd
 )
 \
-nsAccessible
+Accessible
 *
 acc
 =
@@ -48396,7 +48396,7 @@ endif
 /
 /
 DEBUG_WMGETOBJECT
-nsAccessible
+Accessible
 *
 nsWindow
 :

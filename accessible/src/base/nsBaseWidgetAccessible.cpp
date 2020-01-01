@@ -369,7 +369,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -379,7 +379,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsLeafAccessible
-nsAccessible
+Accessible
 )
 /
 /
@@ -465,9 +465,9 @@ nsAccessible
 /
 nsLeafAccessible
 :
-nsAccessible
+Accessible
 public
-nsAccessible
+Accessible
 *
 nsLeafAccessible
 :
@@ -580,7 +580,7 @@ this
 /
 nsLeafAccessible
 :
-nsAccessible
+Accessible
 private
 void
 nsLeafAccessible
@@ -775,7 +775,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -797,7 +797,7 @@ false
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsLinkableAccessible
-nsAccessibleWrap
+AccessibleWrap
 )
 /
 /
@@ -902,7 +902,7 @@ TakeFocus
 (
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 TakeFocus
@@ -964,7 +964,7 @@ Truncate
 (
 )
 ;
-nsAccessible
+Accessible
 :
 :
 Value
@@ -1139,7 +1139,7 @@ DoAction
 aIndex
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 DoAction
@@ -1167,7 +1167,7 @@ AccessKey
 (
 )
 :
-nsAccessible
+Accessible
 :
 :
 AccessKey
@@ -1280,7 +1280,7 @@ mActionAcc
 =
 nsnull
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -1516,7 +1516,7 @@ nsnull
 /
 nsLinkableAccessible
 :
-nsAccessible
+Accessible
 protected
 void
 nsLinkableAccessible
@@ -1524,14 +1524,14 @@ nsLinkableAccessible
 :
 BindToParent
 (
-nsAccessible
+Accessible
 *
 aParent
 PRUint32
 aIndexInParent
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 BindToParent
@@ -1612,7 +1612,7 @@ tree
 is
 traversed
 .
-nsAccessible
+Accessible
 *
 walkUpAcc
 =
@@ -1716,7 +1716,7 @@ mIsOnclick
 =
 false
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 UnbindFromParent
@@ -1905,7 +1905,7 @@ Role
 aRole
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aNode
 aDoc
@@ -1919,7 +1919,7 @@ aRole
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsEnumRoleAccessible
-nsAccessible
+Accessible
 )
 role
 nsEnumRoleAccessible

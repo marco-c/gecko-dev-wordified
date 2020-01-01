@@ -740,7 +740,7 @@ aHeight
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetBounds
@@ -1141,7 +1141,7 @@ node
 /
 HTMLLIAccessible
 :
-nsAccessible
+Accessible
 protected
 void
 HTMLLIAccessible
@@ -1167,7 +1167,7 @@ children
 from
 subtree
 .
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 CacheChildren
@@ -1557,7 +1557,7 @@ false
 /
 HTMLListBulletAccessible
 :
-nsAccessible
+Accessible
 ENameValueFlag
 HTMLListBulletAccessible
 :

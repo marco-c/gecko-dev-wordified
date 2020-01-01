@@ -3104,7 +3104,7 @@ iNode
 =
 NULL
 ;
-nsAccessible
+Accessible
 *
 acc
 =

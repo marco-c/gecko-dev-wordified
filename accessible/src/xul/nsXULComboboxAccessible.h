@@ -128,7 +128,7 @@ class
 nsXULComboboxAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -171,7 +171,7 @@ aName
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Description

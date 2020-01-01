@@ -922,7 +922,7 @@ DOMChild
 )
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2658,7 +2658,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsXFormsSelectableAccessible
 :
@@ -3028,12 +3028,12 @@ GetItemByIndex
 PRUint32
 *
 aIndex
-nsAccessible
+Accessible
 *
 aAccessible
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -3069,7 +3069,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =

@@ -298,7 +298,7 @@ ARIAGridAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 ARIAGridAccessibleWrap
-nsAccessibleWrap
+AccessibleWrap
 CAccessibleTable
 )
 /

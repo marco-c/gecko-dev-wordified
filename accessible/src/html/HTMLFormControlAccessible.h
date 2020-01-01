@@ -201,7 +201,7 @@ index
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -278,7 +278,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 PRUint64
 NativeState
@@ -377,7 +377,7 @@ index
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -510,7 +510,7 @@ const
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -583,7 +583,7 @@ IsWidget
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -628,7 +628,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -684,7 +684,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -756,7 +756,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -811,7 +811,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetAttributesInternal
@@ -893,7 +893,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

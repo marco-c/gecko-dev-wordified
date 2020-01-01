@@ -198,7 +198,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -257,7 +257,7 @@ class
 nsXFormsCalendarWidgetAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -273,7 +273,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -331,7 +331,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Description
@@ -381,7 +381,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren

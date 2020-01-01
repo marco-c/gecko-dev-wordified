@@ -360,7 +360,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 hyperLink
 =

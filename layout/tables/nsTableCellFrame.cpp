@@ -6010,7 +6010,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsTableCellFrame
 :

@@ -1740,7 +1740,7 @@ return
 NS_OK
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeGridAccessible
 :
@@ -1753,7 +1753,7 @@ PRUint32
 aColumnIndex
 )
 {
-nsAccessible
+Accessible
 *
 row
 =
@@ -2107,7 +2107,7 @@ nsIAccessible
 >
 treeColumns
 ;
-nsAccessible
+Accessible
 :
 :
 GetFirstChild
@@ -2695,7 +2695,7 @@ Shutdown
 /
 nsXULTreeGridAccessible
 :
-nsAccessible
+Accessible
 implementation
 role
 nsXULTreeGridAccessible
@@ -2866,7 +2866,7 @@ nsXULTreeAccessible
 implementation
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsXULTreeGridAccessible
 :
@@ -2879,7 +2879,7 @@ aRow
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 accessible
 =
@@ -3076,7 +3076,7 @@ aContent
 DocAccessible
 *
 aDoc
-nsAccessible
+Accessible
 *
 aTreeAcc
 nsITreeBoxObject
@@ -3443,7 +3443,7 @@ Shutdown
 /
 nsXULTreeGridRowAccessible
 :
-nsAccessible
+Accessible
 implementation
 role
 nsXULTreeGridRowAccessible
@@ -3565,7 +3565,7 @@ return
 eNameOK
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeGridRowAccessible
 :
@@ -3745,7 +3745,7 @@ column
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeGridRowAccessible
 :
@@ -3900,7 +3900,7 @@ nsXULTreeGridRowAccessible
 :
 nsXULTreeItemAccessibleBase
 implementation
-nsAccessible
+Accessible
 *
 nsXULTreeGridRowAccessible
 :
@@ -3936,7 +3936,7 @@ void
 aColumn
 )
 ;
-nsAccessible
+Accessible
 *
 cachedCell
 =
@@ -3956,7 +3956,7 @@ cachedCell
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 cell
 =
@@ -4099,7 +4099,7 @@ column
 )
 )
 {
-nsAccessible
+Accessible
 *
 cellAccessible
 =
@@ -4219,7 +4219,7 @@ CellInvalidated
 /
 nsXULTreeGridRowAccessible
 :
-nsAccessible
+Accessible
 protected
 implementation
 void
@@ -4676,7 +4676,7 @@ nsXULTreeGridCellAccessible
 :
 nsIAccessible
 implementation
-nsAccessible
+Accessible
 *
 nsXULTreeGridCellAccessible
 :
@@ -5514,7 +5514,7 @@ IsDefunct
 return
 NS_OK
 ;
-nsAccessible
+Accessible
 *
 grandParent
 =
@@ -5759,7 +5759,7 @@ columnElm
 )
 )
 ;
-nsAccessible
+Accessible
 *
 headerCell
 =
@@ -6196,7 +6196,7 @@ false
 /
 nsXULTreeGridCellAccessible
 :
-nsAccessible
+Accessible
 public
 implementation
 nsresult
@@ -6234,7 +6234,7 @@ cell
 index
 "
 attribute
-nsAccessible
+Accessible
 *
 grandParent
 =
@@ -6948,10 +6948,10 @@ textEquiv
 /
 nsXULTreeGridCellAccessible
 :
-nsAccessible
+Accessible
 protected
 implementation
-nsAccessible
+Accessible
 *
 nsXULTreeGridCellAccessible
 :

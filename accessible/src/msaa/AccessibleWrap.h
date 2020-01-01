@@ -128,10 +128,10 @@ html
 /
 #
 ifndef
-_nsAccessibleWrap_H_
+_AccessibleWrap_H_
 #
 define
-_nsAccessibleWrap_H_
+_AccessibleWrap_H_
 #
 include
 "
@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -390,10 +390,10 @@ Super
 IMPL_IUNKNOWN_QUERY_TAIL
 \
 class
-nsAccessibleWrap
+AccessibleWrap
 :
 public
-nsAccessible
+Accessible
 public
 ia2AccessibleComponent
 public
@@ -409,7 +409,7 @@ public
 /
 construction
 destruction
-nsAccessibleWrap
+AccessibleWrap
 (
 nsIContent
 *
@@ -419,7 +419,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessible
+Accessible
 (
 aContent
 aDoc
@@ -428,7 +428,7 @@ aDoc
 }
 virtual
 ~
-nsAccessibleWrap
+AccessibleWrap
 (
 )
 {
@@ -2041,7 +2041,7 @@ puArgErr
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 HandleAccEvent
@@ -2059,7 +2059,7 @@ static
 PRInt32
 GetChildIDFor
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -2068,7 +2068,7 @@ static
 HWND
 GetHWNDFor
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -2168,7 +2168,7 @@ documents
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetXPAccessibleFor
 (

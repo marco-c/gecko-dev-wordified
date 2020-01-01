@@ -194,7 +194,7 @@ RowCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (
@@ -223,7 +223,7 @@ Shutdown
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -261,7 +261,7 @@ nsXULTreeAccessible
 virtual
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateTreeItemAccessible
 (
@@ -303,7 +303,7 @@ nsXULTreeItemAccessibleBase
 public
 :
 using
-nsAccessible
+Accessible
 :
 :
 GetChildAt
@@ -316,7 +316,7 @@ aContent
 DocAccessible
 *
 aDoc
-nsAccessible
+Accessible
 *
 aParent
 nsITreeBoxObject
@@ -352,7 +352,7 @@ Shutdown
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -381,7 +381,7 @@ aName
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -394,7 +394,7 @@ aWhichChild
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetChildAt
 (
@@ -413,7 +413,7 @@ const
 /
 nsXULTreeItemAccessibleBase
 virtual
-nsAccessible
+Accessible
 *
 GetCellAccessible
 (
@@ -436,7 +436,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -446,7 +446,7 @@ CacheChildren
 /
 /
 nsXULTreeItemAccessibleBase
-nsAccessibleHashtable
+AccessibleHashtable
 mAccessibleCache
 ;
 }
@@ -522,12 +522,6 @@ nsIAccessibleTableCell
 {
 public
 :
-using
-nsAccessible
-:
-:
-GetParent
-;
 nsXULTreeGridCellAccessible
 (
 nsIContent
@@ -620,7 +614,7 @@ const
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -637,7 +631,7 @@ aName
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 FocusedChild
 (
@@ -751,9 +745,9 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
-nsAccessible
+Accessible
 *
 GetSiblingAtOffset
 (

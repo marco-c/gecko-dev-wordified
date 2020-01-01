@@ -300,7 +300,7 @@ void
 aHwnd
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -423,7 +423,7 @@ Shutdown
 (
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -519,7 +519,7 @@ nsnull
 /
 nsHTMLWin32ObjectOwnerAccessible
 :
-nsAccessible
+Accessible
 implementation
 role
 nsHTMLWin32ObjectOwnerAccessible
@@ -568,7 +568,7 @@ meantime
 return
 mHwnd
 ?
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -665,7 +665,7 @@ UNAVAILABLE
 /
 nsHTMLWin32ObjectOwnerAccessible
 :
-nsAccessible
+Accessible
 protected
 implementation
 void
@@ -878,7 +878,7 @@ make
 sure
 no
 single
-nsAccessible
+Accessible
 method
 is
 /
@@ -991,7 +991,7 @@ childWnd
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsHTMLWin32ObjectAccessible
-nsAccessible
+Accessible
 )
 NS_IMETHODIMP
 nsHTMLWin32ObjectAccessible

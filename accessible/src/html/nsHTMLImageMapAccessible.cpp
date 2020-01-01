@@ -546,7 +546,7 @@ nsHTMLImageAccessible
 /
 nsHTMLImageMapAccessible
 :
-nsAccessible
+Accessible
 public
 role
 nsHTMLImageMapAccessible
@@ -662,7 +662,7 @@ ChildCount
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLImageMapAccessible
 :
@@ -693,7 +693,7 @@ PRUint32
 aAnchorIndex
 )
 {
-nsAccessible
+Accessible
 *
 area
 =
@@ -922,7 +922,7 @@ childIdx
 -
 )
 {
-nsAccessible
+Accessible
 *
 area
 =
@@ -1038,7 +1038,7 @@ GetAreaAt
 idx
 )
 ;
-nsAccessible
+Accessible
 *
 area
 =
@@ -1068,7 +1068,7 @@ areaContent
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 area
 =
@@ -1281,7 +1281,7 @@ reorderEvent
 /
 nsHTMLImageMapAccessible
 :
-nsAccessible
+Accessible
 protected
 void
 nsHTMLImageMapAccessible
@@ -1579,7 +1579,7 @@ aName
 nsresult
 rv
 =
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -1889,9 +1889,9 @@ false
 /
 nsHTMLAreaAccessible
 :
-nsAccessible
+Accessible
 public
-nsAccessible
+Accessible
 *
 nsHTMLAreaAccessible
 :
@@ -2030,7 +2030,7 @@ StartOffset
 EndOffset
 implementations
 of
-nsAccessible
+Accessible
 doesn
 '
 t
@@ -2176,7 +2176,7 @@ IndexInParent
 /
 nsHTMLAreaAccessible
 :
-nsAccessible
+Accessible
 protected
 void
 nsHTMLAreaAccessible

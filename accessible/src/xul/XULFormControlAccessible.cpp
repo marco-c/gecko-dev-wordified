@@ -446,7 +446,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -552,7 +552,7 @@ nsISupports
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 XULButtonAccessible
-nsAccessible
+Accessible
 )
 /
 /
@@ -801,7 +801,7 @@ NS_OK
 /
 XULButtonAccessible
 :
-nsAccessible
+Accessible
 role
 XULButtonAccessible
 :
@@ -850,7 +850,7 @@ class
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -1223,7 +1223,7 @@ IsMenuButton
 )
 )
 {
-nsAccessible
+Accessible
 *
 menuPopup
 =
@@ -1272,7 +1272,7 @@ false
 no
 items
 }
-nsAccessible
+Accessible
 *
 XULButtonAccessible
 :
@@ -1390,7 +1390,7 @@ nsnull
 /
 XULButtonAccessible
 :
-nsAccessible
+Accessible
 protected
 void
 XULButtonAccessible
@@ -1541,13 +1541,13 @@ isMenuButton
 )
 return
 ;
-nsAccessible
+Accessible
 *
 menupopup
 =
 nsnull
 ;
-nsAccessible
+Accessible
 *
 button
 =
@@ -1561,7 +1561,7 @@ mContent
 true
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -2956,7 +2956,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -3001,7 +3001,7 @@ related
 accessible
 only
 .
-nsAccessible
+Accessible
 *
 label
 =
@@ -3047,7 +3047,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType
@@ -3136,7 +3136,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 childAcc
 =
@@ -3184,7 +3184,7 @@ nsIAccessibleRelation
 RELATION_LABEL_FOR
 )
 ;
-nsAccessible
+Accessible
 *
 testGroupbox
 =
@@ -3605,7 +3605,7 @@ state
 XULRadioButtonAccessible
 :
 Widgets
-nsAccessible
+Accessible
 *
 XULRadioButtonAccessible
 :
@@ -3935,7 +3935,7 @@ considered
 focused
 .
 return
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -4264,7 +4264,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -4493,7 +4493,7 @@ posInSet
 =
 0
 ;
-nsAccessible
+Accessible
 *
 parent
 =
@@ -4534,7 +4534,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -4647,7 +4647,7 @@ XULToolbarButtonAccessible
 :
 IsSeparator
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -4893,7 +4893,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -5356,7 +5356,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED3
 (
 XULTextFieldAccessible
-nsAccessible
+Accessible
 nsHyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
@@ -6081,7 +6081,7 @@ forget
 /
 XULTextFieldAccessible
 :
-nsAccessible
+Accessible
 protected
 void
 XULTextFieldAccessible
@@ -6139,7 +6139,7 @@ inputContent
 false
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =

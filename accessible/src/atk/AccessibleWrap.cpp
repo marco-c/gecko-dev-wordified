@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -266,11 +266,11 @@ mozilla
 :
 a11y
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 EAvailableAtkSignals
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 gAvailableAtkSignals
@@ -589,7 +589,7 @@ parent
 *
 *
 The
-nsAccessibleWrap
+AccessibleWrap
 whose
 properties
 and
@@ -604,7 +604,7 @@ instance
 .
 *
 /
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 ;
@@ -1121,7 +1121,7 @@ type
 ifdef
 MAI_LOGGING
 PRInt32
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 mAccWrapCreated
@@ -1129,7 +1129,7 @@ mAccWrapCreated
 0
 ;
 PRInt32
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 mAccWrapDeleted
@@ -1138,10 +1138,10 @@ mAccWrapDeleted
 ;
 #
 endif
-nsAccessibleWrap
+AccessibleWrap
 :
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 nsIContent
 *
@@ -1151,7 +1151,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessible
+Accessible
 (
 aContent
 aDoc
@@ -1176,7 +1176,7 @@ MAI_LOG_DEBUG
 "
 =
 =
-nsAccessibleWrap
+AccessibleWrap
 creating
 :
 this
@@ -1209,11 +1209,11 @@ mAccWrapDeleted
 )
 ;
 }
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ~
-nsAccessibleWrap
+AccessibleWrap
 (
 )
 {
@@ -1246,7 +1246,7 @@ MAI_LOG_DEBUG
 "
 =
 =
-nsAccessibleWrap
+AccessibleWrap
 deleting
 :
 this
@@ -1280,7 +1280,7 @@ mAccWrapDeleted
 ;
 }
 void
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ShutdownAtkObject
@@ -1328,7 +1328,7 @@ nsnull
 }
 }
 void
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -1339,7 +1339,7 @@ ShutdownAtkObject
 (
 )
 ;
-nsAccessible
+Accessible
 :
 :
 Shutdown
@@ -1349,7 +1349,7 @@ Shutdown
 }
 MaiHyperlink
 *
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetMaiHyperlink
@@ -1458,7 +1458,7 @@ maiHyperlink
 ;
 }
 void
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 SetMaiHyperlink
@@ -1549,7 +1549,7 @@ aMaiHyperlink
 }
 }
 NS_IMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetNativeInterface
@@ -1683,7 +1683,7 @@ NS_OK
 }
 AtkObject
 *
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -1728,7 +1728,7 @@ static
 /
 AtkObject
 *
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -1770,7 +1770,7 @@ private
 *
 /
 PRUint16
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 CreateMaiInterfaces
@@ -2426,7 +2426,7 @@ name
 ;
 }
 bool
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 IsValidObject
@@ -2894,7 +2894,7 @@ accWrap
 =
 static_cast
 <
-nsAccessibleWrap
+AccessibleWrap
 *
 >
 (
@@ -3087,7 +3087,7 @@ AtkObject
 aAtkObj
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -3164,7 +3164,7 @@ AtkObject
 aAtkObj
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -3260,7 +3260,7 @@ AtkObject
 aAtkObj
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -3615,7 +3615,7 @@ AtkAttributeSet
 *
 GetAttributeSet
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -3732,7 +3732,7 @@ AtkObject
 aAtkObj
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -3770,7 +3770,7 @@ aAtkObj
 accessible_parent
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -3787,7 +3787,7 @@ accWrap
 return
 nsnull
 ;
-nsAccessible
+Accessible
 *
 accParent
 =
@@ -3810,7 +3810,7 @@ AtkObject
 *
 parent
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -3844,7 +3844,7 @@ AtkObject
 aAtkObj
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -3918,7 +3918,7 @@ return
 nsnull
 ;
 }
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -3946,7 +3946,7 @@ return
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 accChild
 =
@@ -3970,7 +3970,7 @@ AtkObject
 *
 childAtkObj
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -4060,7 +4060,7 @@ leaf
 nodes
 as
 children
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -4080,7 +4080,7 @@ return
 1
 ;
 }
-nsAccessible
+Accessible
 *
 parent
 =
@@ -4268,7 +4268,7 @@ ref_state_set
 aAtkObj
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -4339,7 +4339,7 @@ ref_relation_set
 aAtkObj
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -4479,7 +4479,7 @@ AtkObject
 >
 targets
 ;
-nsAccessible
+Accessible
 *
 tempAcc
 =
@@ -4501,7 +4501,7 @@ targets
 .
 AppendElement
 (
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -4565,13 +4565,13 @@ MaiAtkObject
 and
 return
 the
-nsAccessibleWrap
+AccessibleWrap
 /
 /
 for
 it
 .
-nsAccessibleWrap
+AccessibleWrap
 *
 GetAccessibleWrap
 (
@@ -4589,7 +4589,7 @@ aAtkObj
 nsnull
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -4632,7 +4632,7 @@ aAtkObj
 nsnull
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 appAccWrap
 =
@@ -4667,7 +4667,7 @@ accWrap
 ;
 }
 nsresult
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 HandleAccEvent
@@ -4680,7 +4680,7 @@ aEvent
 nsresult
 rv
 =
-nsAccessible
+Accessible
 :
 :
 HandleAccEvent
@@ -4702,7 +4702,7 @@ aEvent
 ;
 }
 nsresult
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 FirePlatformEvent
@@ -4712,7 +4712,7 @@ AccEvent
 aEvent
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -4743,7 +4743,7 @@ AtkObject
 *
 atkObj
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -4816,7 +4816,7 @@ return
 NS_OK
 ;
 }
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -5172,7 +5172,7 @@ aEvent
 ;
 g_signal_emit_by_name
 (
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -6436,7 +6436,7 @@ NS_OK
 ;
 }
 nsresult
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 FireAtkStateChangeEvent
@@ -6618,7 +6618,7 @@ NS_OK
 ;
 }
 nsresult
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 FireAtkTextChangedEvent
@@ -6883,7 +6883,7 @@ NS_OK
 ;
 }
 nsresult
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 FireAtkShowHideEvent

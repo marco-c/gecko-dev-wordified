@@ -145,7 +145,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -192,7 +192,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -255,7 +255,7 @@ aDoc
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -312,7 +312,7 @@ aDoc
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

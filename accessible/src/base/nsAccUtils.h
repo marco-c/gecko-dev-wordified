@@ -191,7 +191,7 @@ class
 nsAccessNode
 ;
 class
-nsAccessible
+Accessible
 ;
 class
 nsHyperTextAccessible
@@ -385,7 +385,7 @@ static
 PRInt32
 GetDefaultLevel
 (
-nsAccessible
+Accessible
 *
 aAcc
 )
@@ -418,7 +418,7 @@ static
 PRInt32
 GetARIAOrDefaultLevel
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -786,11 +786,11 @@ found
 *
 /
 static
-nsAccessible
+Accessible
 *
 GetAncestorWithRole
 (
-nsAccessible
+Accessible
 *
 aDescendant
 PRUint32
@@ -837,11 +837,11 @@ accessible
 *
 /
 static
-nsAccessible
+Accessible
 *
 GetSelectableContainer
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRUint64
@@ -878,7 +878,7 @@ static
 bool
 IsARIASelected
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -1392,7 +1392,7 @@ static
 bool
 IsTextInterfaceSupportCorrect
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -1473,7 +1473,7 @@ static
 PRUint32
 TextLength
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -1679,7 +1679,7 @@ static
 bool
 MustPrune
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )

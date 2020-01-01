@@ -1069,7 +1069,7 @@ FireAccessibleEvent
 (
 PRUint32
 aEvent
-nsAccessible
+Accessible
 *
 aTarget
 )
@@ -1167,7 +1167,7 @@ aTarget
 /
 /
 nsIAccessibilityService
-nsAccessible
+Accessible
 *
 nsAccessibilityService
 :
@@ -1312,7 +1312,7 @@ nsnull
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1327,7 +1327,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1352,7 +1352,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1367,7 +1367,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1392,7 +1392,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1407,7 +1407,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1432,7 +1432,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1447,7 +1447,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1472,7 +1472,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1487,7 +1487,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1512,7 +1512,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1527,7 +1527,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1552,7 +1552,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1567,7 +1567,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1592,7 +1592,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1607,7 +1607,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1632,7 +1632,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1647,7 +1647,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1672,7 +1672,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1687,7 +1687,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1712,7 +1712,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1727,7 +1727,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1752,7 +1752,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1767,7 +1767,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1792,7 +1792,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -1807,7 +1807,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1836,7 +1836,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2084,7 +2084,7 @@ GetPluginPort
 pluginPort
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2234,7 +2234,7 @@ nsnull
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2249,7 +2249,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2274,7 +2274,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2289,7 +2289,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2314,7 +2314,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2329,7 +2329,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2354,7 +2354,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2369,7 +2369,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2398,7 +2398,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2413,7 +2413,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2438,7 +2438,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2453,7 +2453,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2478,7 +2478,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2493,7 +2493,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2518,7 +2518,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2533,7 +2533,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2558,7 +2558,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2573,7 +2573,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2598,7 +2598,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -2613,7 +2613,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -3107,7 +3107,7 @@ if
 document
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -3180,7 +3180,7 @@ if
 document
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -3264,7 +3264,7 @@ if
 document
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -5324,7 +5324,7 @@ the
 document
 cache
 .
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -5407,7 +5407,7 @@ nsnull
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 accessibleRoot
 (
@@ -5561,7 +5561,7 @@ NS_OK
 /
 nsAccessibilityService
 public
-nsAccessible
+Accessible
 *
 nsAccessibilityService
 :
@@ -5719,7 +5719,7 @@ id
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsAccessibilityService
 :
@@ -5779,7 +5779,7 @@ in
 the
 cache
 .
-nsAccessible
+Accessible
 *
 cachedAccessible
 =
@@ -6373,7 +6373,7 @@ know
 .
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 newAcc
 ;
@@ -6953,7 +6953,7 @@ nsGkAtoms
 tableOuterFrame
 )
 {
-nsAccessible
+Accessible
 *
 tableAccessible
 =
@@ -8046,7 +8046,7 @@ container
 newAcc
 =
 new
-nsAccessibleWrap
+AccessibleWrap
 (
 content
 docAcc
@@ -8701,7 +8701,7 @@ aria_relevant
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -8772,7 +8772,7 @@ nsIAccessibleProvider
 OuterDoc
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -8792,7 +8792,7 @@ return
 accessible
 ;
 }
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -9064,7 +9064,7 @@ XULListHead
 accessible
 =
 new
-nsXULColumnsAccessible
+nsXULColumAccessible
 (
 aContent
 aDoc
@@ -9210,7 +9210,7 @@ redundant
 accessibles
 in
 the
-nsAccessibleWrap
+AccessibleWrap
 class
 for
 each
@@ -9513,7 +9513,7 @@ XULTreeColumns
 accessible
 =
 new
-nsXULTreeColumnsAccessible
+nsXULTreeColumAccessible
 (
 aContent
 aDoc
@@ -9955,7 +9955,7 @@ accessible
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -10008,7 +10008,7 @@ nsGkAtoms
 figcaption
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10039,7 +10039,7 @@ nsGkAtoms
 figure
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10070,7 +10070,7 @@ nsGkAtoms
 legend
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10101,7 +10101,7 @@ nsGkAtoms
 option
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10132,7 +10132,7 @@ nsGkAtoms
 optgroup
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10181,7 +10181,7 @@ nsGkAtoms
 dl
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10272,7 +10272,7 @@ roles
 LINK
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10292,7 +10292,7 @@ return
 accessible
 ;
 }
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10391,7 +10391,7 @@ using
 display
 :
 foo
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10521,7 +10521,7 @@ nsGkAtoms
 q
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10552,7 +10552,7 @@ aContent
 )
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10583,7 +10583,7 @@ nsGkAtoms
 output
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10614,7 +10614,7 @@ nsGkAtoms
 progress
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -10729,7 +10729,7 @@ put
 methods
 here
 )
-nsAccessible
+Accessible
 *
 nsAccessibilityService
 :
@@ -10815,7 +10815,7 @@ nsAccessibilityService
 :
 RemoveNativeRootAccessible
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -11229,7 +11229,7 @@ here
 )
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -11364,7 +11364,7 @@ kNameSpaceID_XUL
 )
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -11386,7 +11386,7 @@ accessible
 }
 #
 endif
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -11420,7 +11420,7 @@ ifdef
 MOZ_XUL
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsAccessibilityService
 :
@@ -11511,7 +11511,7 @@ count
 1
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -11539,7 +11539,7 @@ tree
 table
 accessible
 .
-nsAccessible
+Accessible
 *
 accessible
 =

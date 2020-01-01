@@ -166,7 +166,7 @@ collector
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -189,7 +189,7 @@ AnchorCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 AnchorAt
 (
@@ -235,7 +235,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -326,13 +326,13 @@ CacheChildren
 /
 /
 /
-nsAccessible
+Accessible
 downcasting
 method
 inline
 nsHTMLImageMapAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsImageMap
@@ -404,7 +404,7 @@ const
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Description
@@ -424,7 +424,7 @@ aName
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -468,7 +468,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren

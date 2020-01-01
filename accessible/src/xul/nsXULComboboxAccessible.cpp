@@ -348,7 +348,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -455,7 +455,7 @@ class
 PRUint64
 states
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -614,7 +614,7 @@ focusedOptionContent
 mDoc
 )
 {
-nsAccessible
+Accessible
 *
 focusedOptionAcc
 =
@@ -1215,7 +1215,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =

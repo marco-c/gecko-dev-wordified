@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -232,7 +232,7 @@ AtkComponent
 aComponent
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -280,7 +280,7 @@ AtkObject
 *
 refAccessibleAtPointHelper
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 aAccWrap
 gint
@@ -318,7 +318,7 @@ nsnull
 ;
 /
 /
-nsAccessible
+Accessible
 :
 :
 ChildAtPoint
@@ -370,7 +370,7 @@ winCoords
 y
 ;
 }
-nsAccessible
+Accessible
 *
 accAtPoint
 =
@@ -381,7 +381,7 @@ ChildAtPoint
 (
 aX
 aY
-nsAccessible
+Accessible
 :
 :
 eDirectChild
@@ -399,7 +399,7 @@ AtkObject
 *
 atkObj
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -423,7 +423,7 @@ atkObj
 void
 getExtentsHelper
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 aAccWrap
 gint

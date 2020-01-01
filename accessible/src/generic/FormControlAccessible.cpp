@@ -542,7 +542,7 @@ nsIAccessibleValue
 /
 /
 /
-nsAccessible
+Accessible
 template
 <
 int

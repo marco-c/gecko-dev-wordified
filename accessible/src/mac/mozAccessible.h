@@ -98,7 +98,7 @@ MPL
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -232,7 +232,7 @@ us
 .
 *
 /
-nsAccessibleWrap
+AccessibleWrap
 *
 mGeckoAccessible
 ;
@@ -372,7 +372,7 @@ id
 initWithAccessible
 :
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 )
 geckoParent
@@ -730,7 +730,7 @@ void
 appendChild
 :
 (
-nsAccessible
+Accessible
 *
 )
 aAccessible

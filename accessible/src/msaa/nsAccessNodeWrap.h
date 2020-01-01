@@ -145,7 +145,7 @@ extension
 used
 :
 '
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 [

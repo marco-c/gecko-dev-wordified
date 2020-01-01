@@ -120,7 +120,7 @@ _AtkSocketAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -208,7 +208,7 @@ endif
 *
 Provides
 a
-nsAccessibleWrap
+AccessibleWrap
 wrapper
 around
 AtkSocket
@@ -227,7 +227,7 @@ class
 AtkSocketAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :

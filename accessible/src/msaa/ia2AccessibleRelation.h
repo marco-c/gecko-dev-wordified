@@ -118,7 +118,7 @@ _NS_ACCESSIBLE_RELATION_WRAP_H
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -409,7 +409,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 >
 mTargets

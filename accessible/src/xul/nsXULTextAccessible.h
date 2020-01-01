@@ -147,7 +147,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -217,7 +217,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -279,7 +279,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value

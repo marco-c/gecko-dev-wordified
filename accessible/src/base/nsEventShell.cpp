@@ -288,7 +288,7 @@ aEvent
 )
 return
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -355,7 +355,7 @@ FireEvent
 (
 PRUint32
 aEventType
-nsAccessible
+Accessible
 *
 aAccessible
 EIsFromUserInput

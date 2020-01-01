@@ -228,7 +228,7 @@ class
 nsHTMLSelectListAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -251,7 +251,7 @@ nsHTMLSelectListAccessible
 }
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -316,7 +316,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 CurrentItem
 (
@@ -326,7 +326,7 @@ virtual
 void
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
@@ -335,7 +335,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -442,7 +442,7 @@ aSelect
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -502,7 +502,7 @@ ActionCount
 /
 Widgets
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -528,7 +528,7 @@ any
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetSelect
 (
@@ -548,7 +548,7 @@ IsListControl
 )
 )
 {
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -600,7 +600,7 @@ any
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetCombobox
 (
@@ -620,7 +620,7 @@ IsListControl
 )
 )
 {
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -714,7 +714,7 @@ aName
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -746,7 +746,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -903,7 +903,7 @@ class
 nsHTMLComboboxAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -962,7 +962,7 @@ Shutdown
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Description
@@ -1039,7 +1039,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 CurrentItem
 (
@@ -1049,7 +1049,7 @@ virtual
 void
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
@@ -1058,7 +1058,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -1075,7 +1075,7 @@ option
 .
 *
 /
-nsAccessible
+Accessible
 *
 SelectedOption
 (
@@ -1181,7 +1181,7 @@ const
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

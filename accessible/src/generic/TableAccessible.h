@@ -139,7 +139,7 @@ prtypes
 h
 "
 class
-nsAccessible
+Accessible
 ;
 namespace
 mozilla
@@ -179,7 +179,7 @@ table
 *
 /
 virtual
-nsAccessible
+Accessible
 *
 Caption
 (
@@ -289,7 +289,7 @@ indices
 *
 /
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (
@@ -750,7 +750,7 @@ SelectedCells
 (
 nsTArray
 <
-nsAccessible
+Accessible
 *
 >
 *

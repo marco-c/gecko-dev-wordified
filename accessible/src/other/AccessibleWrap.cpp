@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -213,10 +213,10 @@ construction
 -
 -
 -
-nsAccessibleWrap
+AccessibleWrap
 :
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 nsIContent
 *
@@ -226,7 +226,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessible
+Accessible
 (
 aContent
 aDoc
@@ -346,11 +346,11 @@ destruction
 -
 -
 -
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ~
-nsAccessibleWrap
+AccessibleWrap
 (
 )
 {

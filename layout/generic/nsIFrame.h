@@ -588,7 +588,7 @@ nsILineIterator
 ifdef
 ACCESSIBILITY
 class
-nsAccessible
+Accessible
 ;
 #
 endif
@@ -18032,7 +18032,7 @@ NS_ERROR_NOT_IMPLEMENTED
 *
 Note
 :
-nsAccessible
+Accessible
 must
 be
 refcountable
@@ -18060,7 +18060,7 @@ ACCESSIBILITY
 virtual
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessible
 (

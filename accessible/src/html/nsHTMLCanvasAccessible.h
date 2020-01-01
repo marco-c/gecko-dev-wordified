@@ -148,7 +148,7 @@ nsHTMLCanvasAccessible
 }
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

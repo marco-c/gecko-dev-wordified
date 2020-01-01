@@ -179,7 +179,7 @@ nsIAccessibleTableCell
 NS_DECL_NSIACCESSIBLETABLECELL
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -347,7 +347,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -418,7 +418,7 @@ class
 nsHTMLTableAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 public
 xpcAccessibleTable
 public
@@ -454,7 +454,7 @@ NS_DECL_OR_FORWARD_NSIACCESSIBLETABLE_WITH_XPCACCESSIBLETABLE
 /
 TableAccessible
 virtual
-nsAccessible
+Accessible
 *
 Caption
 (
@@ -482,7 +482,7 @@ RowCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (
@@ -535,7 +535,7 @@ Shutdown
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -665,7 +665,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -943,7 +943,7 @@ nsHTMLCaptionAccessible
 nsIAccessible
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

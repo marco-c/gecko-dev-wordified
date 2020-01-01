@@ -628,16 +628,16 @@ a11y
 /
 /
 /
-nsAccessible
+Accessible
 .
 nsISupports
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsAccessible
+Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsAccessible
+Accessible
 nsAccessNode
 )
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
@@ -736,7 +736,7 @@ get
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsAccessible
+Accessible
 nsAccessNode
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -750,16 +750,16 @@ mChildren
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_ADDREF_INHERITED
 (
-nsAccessible
+Accessible
 nsAccessNode
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsAccessible
+Accessible
 nsAccessNode
 )
 nsresult
-nsAccessible
+Accessible
 :
 :
 QueryInterface
@@ -819,7 +819,7 @@ aInstancePtr
 &
 NS_CYCLE_COLLECTION_NAME
 (
-nsAccessible
+Accessible
 )
 ;
 return
@@ -867,7 +867,7 @@ Equals
 (
 NS_GET_IID
 (
-nsAccessible
+Accessible
 )
 )
 )
@@ -877,7 +877,7 @@ aInstancePtr
 =
 static_cast
 <
-nsAccessible
+Accessible
 *
 >
 (
@@ -1039,10 +1039,10 @@ aInstancePtr
 )
 ;
 }
-nsAccessible
+Accessible
 :
 :
-nsAccessible
+Accessible
 (
 nsIContent
 *
@@ -1353,17 +1353,17 @@ destruction
 -
 -
 -
-nsAccessible
+Accessible
 :
 :
 ~
-nsAccessible
+Accessible
 (
 )
 {
 }
 void
-nsAccessible
+Accessible
 :
 :
 SetRoleMapEntry
@@ -1379,7 +1379,7 @@ aRoleMapEntry
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetDocument
@@ -1410,7 +1410,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetDOMNode
@@ -1454,7 +1454,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetRootDocument
@@ -1485,7 +1485,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetLanguage
@@ -1505,7 +1505,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetName
@@ -1550,7 +1550,7 @@ NS_OK
 ;
 }
 ENameValueFlag
-nsAccessible
+Accessible
 :
 :
 Name
@@ -1752,7 +1752,7 @@ eNameOK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetDescription
@@ -1791,7 +1791,7 @@ NS_OK
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 Description
@@ -1946,7 +1946,7 @@ Document
 mContent
 )
 ;
-nsAccessible
+Accessible
 *
 descr
 =
@@ -2085,7 +2085,7 @@ CompressWhitespace
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetKeyboardShortcut
@@ -2124,7 +2124,7 @@ NS_OK
 ;
 }
 KeyBinding
-nsAccessible
+Accessible
 :
 :
 AccessKey
@@ -2157,7 +2157,7 @@ IsElement
 )
 )
 {
-nsAccessible
+Accessible
 *
 label
 =
@@ -2577,7 +2577,7 @@ KeyBinding
 ;
 }
 KeyBinding
-nsAccessible
+Accessible
 :
 :
 KeyboardShortcut
@@ -2592,7 +2592,7 @@ KeyBinding
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetParent
@@ -2646,7 +2646,7 @@ nextSibling
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetNextSibling
@@ -2708,7 +2708,7 @@ previousSibling
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetPreviousSibling
@@ -2771,7 +2771,7 @@ firstChild
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetFirstChild
@@ -2825,7 +2825,7 @@ lastChild
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetLastChild
@@ -2870,7 +2870,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetChildAt
@@ -2938,7 +2938,7 @@ ChildCount
 -
 1
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -2975,7 +2975,7 @@ nsIArray
 children
 ;
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetChildren
@@ -3084,7 +3084,7 @@ NS_OK
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 CanHaveAnonChildren
@@ -3105,7 +3105,7 @@ childCount
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetChildCount
@@ -3150,7 +3150,7 @@ indexInParent
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetIndexInParent
@@ -3186,7 +3186,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 TranslateString
@@ -3297,7 +3297,7 @@ xsValue
 ;
 }
 PRUint64
-nsAccessible
+Accessible
 :
 :
 VisibilityState
@@ -3625,7 +3625,7 @@ INVISIBLE
 ;
 }
 PRUint64
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -4011,7 +4011,7 @@ state
 ;
 }
 PRUint64
-nsAccessible
+Accessible
 :
 :
 NativeLinkState
@@ -4055,7 +4055,7 @@ focusedChild
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetFocusedChild
@@ -4099,16 +4099,16 @@ return
 NS_OK
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 FocusedChild
 (
 )
 {
-nsAccessible
+Accessible
 *
 focus
 =
@@ -4151,17 +4151,9 @@ return
 nsnull
 ;
 }
-/
-/
-nsAccessible
-:
-:
-ChildAtPoint
-(
-)
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 ChildAtPoint
@@ -4245,7 +4237,7 @@ rv
 nsnull
 )
 ;
-nsAccessible
+Accessible
 *
 fallbackAnswer
 =
@@ -4588,7 +4580,7 @@ contentDocAcc
 return
 fallbackAnswer
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -4705,7 +4697,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -4864,7 +4856,7 @@ of
 this
 accessible
 .
-nsAccessible
+Accessible
 *
 child
 =
@@ -4875,7 +4867,7 @@ while
 true
 )
 {
-nsAccessible
+Accessible
 *
 parent
 =
@@ -4961,7 +4953,7 @@ long
 y
 )
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetChildAtPoint
@@ -5025,7 +5017,7 @@ long
 y
 )
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetDeepestChildAtPoint
@@ -5077,7 +5069,7 @@ NS_OK
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 GetBoundsRect
@@ -5716,7 +5708,7 @@ height
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetBounds
@@ -6067,7 +6059,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 SetSelected
@@ -6085,7 +6077,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 select
 =
@@ -6185,7 +6177,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 TakeSelection
@@ -6201,7 +6193,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 select
 =
@@ -6254,7 +6246,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 TakeFocus
@@ -6326,7 +6318,7 @@ IsFocusable
 )
 )
 {
-nsAccessible
+Accessible
 *
 widget
 =
@@ -6438,7 +6430,7 @@ NS_OK
 ;
 }
 nsresult
-nsAccessible
+Accessible
 :
 :
 GetHTMLName
@@ -6451,7 +6443,7 @@ aLabel
 nsAutoString
 label
 ;
-nsAccessible
+Accessible
 *
 labelAcc
 =
@@ -6660,7 +6652,7 @@ Name
 *
 /
 nsresult
-nsAccessible
+Accessible
 :
 :
 GetXULName
@@ -6889,7 +6881,7 @@ Truncate
 (
 )
 ;
-nsAccessible
+Accessible
 *
 labelAcc
 =
@@ -7173,7 +7165,7 @@ aLabel
 ;
 }
 nsresult
-nsAccessible
+Accessible
 :
 :
 HandleAccEvent
@@ -7283,7 +7275,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetRole
@@ -7327,7 +7319,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetAttributes
@@ -8022,7 +8014,7 @@ NS_OK
 ;
 }
 nsresult
-nsAccessible
+Accessible
 :
 :
 GetAttributesInternal
@@ -8822,7 +8814,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GroupPosition
@@ -9091,7 +9083,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetState
@@ -9126,7 +9118,7 @@ NS_OK
 ;
 }
 PRUint64
-nsAccessible
+Accessible
 :
 :
 State
@@ -9345,7 +9337,7 @@ nsIAccessibleRelation
 RELATION_LABEL_FOR
 )
 ;
-nsAccessible
+Accessible
 *
 relTarget
 =
@@ -9412,7 +9404,7 @@ states
 FOCUSED
 )
 {
-nsAccessible
+Accessible
 *
 container
 =
@@ -9636,7 +9628,7 @@ the
 container
 widget
 .
-nsAccessible
+Accessible
 *
 widget
 =
@@ -9848,7 +9840,7 @@ state
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 ApplyARIAState
@@ -10234,7 +10226,7 @@ aState
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetValue
@@ -10273,7 +10265,7 @@ NS_OK
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 Value
@@ -10414,7 +10406,7 @@ aValue
 /
 nsIAccessibleValue
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetMaximumValue
@@ -10436,7 +10428,7 @@ aMaximumValue
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetMinimumValue
@@ -10458,7 +10450,7 @@ aMinimumValue
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetMinimumIncrement
@@ -10494,7 +10486,7 @@ NS_OK_NO_ARIA_VALUE
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetCurrentValue
@@ -10516,7 +10508,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 SetCurrentValue
@@ -10663,7 +10655,7 @@ name
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 SetName
@@ -10671,7 +10663,7 @@ SetName
 const
 nsAString
 &
-name
+aName
 )
 {
 return
@@ -10679,7 +10671,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetDefaultKeyBinding
@@ -10718,7 +10710,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetKeyBindings
@@ -10817,7 +10809,7 @@ NS_OK
 ;
 }
 role
-nsAccessible
+Accessible
 :
 :
 ARIATransformRole
@@ -11023,7 +11015,7 @@ nsIAccessibleRelation
 RELATION_NODE_CHILD_OF
 )
 ;
-nsAccessible
+Accessible
 *
 targetAcc
 =
@@ -11106,7 +11098,7 @@ aRole
 ;
 }
 role
-nsAccessible
+Accessible
 :
 :
 NativeRole
@@ -11140,7 +11132,7 @@ attribute
 PRUint8
 actionCount
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetActionCount
@@ -11181,7 +11173,7 @@ NS_OK
 ;
 }
 PRUint8
-nsAccessible
+Accessible
 :
 :
 ActionCount
@@ -11217,7 +11209,7 @@ index
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetActionName
@@ -11515,7 +11507,7 @@ PRUint8
 index
 )
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetActionDescription
@@ -11573,7 +11565,7 @@ PRUint8
 index
 )
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 DoAction
@@ -11636,7 +11628,7 @@ getHelp
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetHelp
@@ -11652,7 +11644,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 nsIContent
 *
-nsAccessible
+Accessible
 :
 :
 GetAtomicRegion
@@ -11719,7 +11711,7 @@ getRelationByType
 (
 )
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetRelationByType
@@ -11783,7 +11775,7 @@ NS_ERROR_FAILURE
 ;
 }
 Relation
-nsAccessible
+Accessible
 :
 :
 RelationByType
@@ -12889,7 +12881,7 @@ Relation
 }
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetRelations
@@ -13038,7 +13030,7 @@ extendSelection
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 ExtendSelection
@@ -13075,7 +13067,7 @@ aOutAccessible
 *
 /
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetNativeInterface
@@ -13091,7 +13083,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 DoCommand
@@ -13127,7 +13119,7 @@ aActionIndex
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 DispatchClickEvent
@@ -13230,7 +13222,7 @@ aContent
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 ScrollTo
@@ -13268,7 +13260,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 ScrollToPoint
@@ -13359,7 +13351,7 @@ NS_OK
 /
 nsIAccessibleSelectable
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetSelectedChildren
@@ -13451,7 +13443,7 @@ descendant
 nsIAccessible
 object
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 RefSelection
@@ -13529,7 +13521,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetSelectionCount
@@ -13576,7 +13568,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 AddChildToSelection
@@ -13618,7 +13610,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 RemoveChildFromSelection
@@ -13660,7 +13652,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 IsChildSelected
@@ -13719,7 +13711,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 ClearSelection
@@ -13750,7 +13742,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 SelectAllSelection
@@ -13839,7 +13831,7 @@ nsIAccessibleHyperLink
 :
 anchorCount
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetAnchorCount
@@ -13889,7 +13881,7 @@ nsIAccessibleHyperLink
 :
 startIndex
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetStartIndex
@@ -13939,7 +13931,7 @@ nsIAccessibleHyperLink
 :
 endIndex
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetEndIndex
@@ -13980,7 +13972,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetURI
@@ -14051,7 +14043,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetAnchor
@@ -14131,7 +14123,7 @@ nsIAccessibleHyperLink
 :
 valid
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetValid
@@ -14181,7 +14173,7 @@ nsIAccessibleHyperLink
 :
 selected
 NS_IMETHODIMP
-nsAccessible
+Accessible
 :
 :
 GetSelected
@@ -14222,7 +14214,7 @@ NS_OK
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 AppendTextTo
@@ -14458,7 +14450,7 @@ nsAccessNode
 public
 methods
 void
-nsAccessible
+Accessible
 :
 :
 Shutdown
@@ -14605,11 +14597,11 @@ Shutdown
 /
 /
 /
-nsAccessible
+Accessible
 public
 methods
 nsresult
-nsAccessible
+Accessible
 :
 :
 GetARIAName
@@ -14708,7 +14700,7 @@ NS_OK
 ;
 }
 nsresult
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -14754,15 +14746,15 @@ NS_OK
 }
 /
 /
-nsAccessible
+Accessible
 protected
 void
-nsAccessible
+Accessible
 :
 :
 BindToParent
 (
-nsAccessible
+Accessible
 *
 aParent
 PRUint32
@@ -14846,7 +14838,7 @@ aIndexInParent
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 UnbindFromParent
@@ -14873,7 +14865,7 @@ nsnull
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 InvalidateChildren
@@ -14905,7 +14897,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -14941,12 +14933,12 @@ eChildrenUninitialized
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -15008,14 +15000,14 @@ true
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 InsertChildAt
 (
 PRUint32
 aIndex
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -15133,12 +15125,12 @@ true
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -15322,9 +15314,9 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 GetChildAt
@@ -15333,7 +15325,7 @@ PRUint32
 aIndex
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -15356,7 +15348,7 @@ nsnull
 #
 ifdef
 DEBUG
-nsAccessible
+Accessible
 *
 realParent
 =
@@ -15395,7 +15387,7 @@ child
 ;
 }
 PRUint32
-nsAccessible
+Accessible
 :
 :
 ChildCount
@@ -15412,12 +15404,12 @@ Length
 ;
 }
 PRInt32
-nsAccessible
+Accessible
 :
 :
 GetIndexOf
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -15445,7 +15437,7 @@ IndexInParent
 ;
 }
 PRInt32
-nsAccessible
+Accessible
 :
 :
 IndexInParent
@@ -15458,7 +15450,7 @@ mIndexInParent
 ;
 }
 PRUint32
-nsAccessible
+Accessible
 :
 :
 EmbeddedChildCount
@@ -15501,9 +15493,9 @@ ChildCount
 )
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 GetEmbeddedChildAt
@@ -15555,12 +15547,12 @@ aIndex
 ;
 }
 PRInt32
-nsAccessible
+Accessible
 :
 :
 GetIndexOfEmbeddedChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -15693,7 +15685,7 @@ aChild
 HyperLinkAccessible
 methods
 bool
-nsAccessible
+Accessible
 :
 :
 IsLink
@@ -15736,7 +15728,7 @@ this
 ;
 }
 PRUint32
-nsAccessible
+Accessible
 :
 :
 StartOffset
@@ -15790,7 +15782,7 @@ this
 ;
 }
 PRUint32
-nsAccessible
+Accessible
 :
 :
 EndOffset
@@ -15848,7 +15840,7 @@ this
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 IsLinkSelected
@@ -15890,7 +15882,7 @@ this
 ;
 }
 PRUint32
-nsAccessible
+Accessible
 :
 :
 AnchorCount
@@ -15918,9 +15910,9 @@ return
 1
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 AnchorAt
@@ -15961,7 +15953,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsAccessible
+Accessible
 :
 :
 AnchorURIAt
@@ -16181,7 +16173,7 @@ nsnull
 /
 SelectAccessible
 bool
-nsAccessible
+Accessible
 :
 :
 IsSelect
@@ -16290,7 +16282,7 @@ already_AddRefed
 <
 nsIArray
 >
-nsAccessible
+Accessible
 :
 :
 SelectedItems
@@ -16376,7 +16368,7 @@ items
 ;
 }
 PRUint32
-nsAccessible
+Accessible
 :
 :
 SelectedItemCount
@@ -16402,7 +16394,7 @@ AccIterator
 eTreeNav
 )
 ;
-nsAccessible
+Accessible
 *
 selected
 =
@@ -16428,9 +16420,9 @@ return
 count
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 GetSelectedItem
@@ -16453,7 +16445,7 @@ AccIterator
 eTreeNav
 )
 ;
-nsAccessible
+Accessible
 *
 selected
 =
@@ -16490,7 +16482,7 @@ selected
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 IsItemSelected
@@ -16518,7 +16510,7 @@ AccIterator
 eTreeNav
 )
 ;
-nsAccessible
+Accessible
 *
 selected
 =
@@ -16563,7 +16555,7 @@ SELECTED
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 AddItemToSelection
@@ -16591,7 +16583,7 @@ AccIterator
 eTreeNav
 )
 ;
-nsAccessible
+Accessible
 *
 selected
 =
@@ -16641,7 +16633,7 @@ selected
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 RemoveItemFromSelection
@@ -16669,7 +16661,7 @@ AccIterator
 eTreeNav
 )
 ;
-nsAccessible
+Accessible
 *
 selected
 =
@@ -16719,7 +16711,7 @@ selected
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 SelectAll
@@ -16731,7 +16723,7 @@ success
 =
 false
 ;
-nsAccessible
+Accessible
 *
 selectable
 =
@@ -16782,7 +16774,7 @@ success
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 UnselectAll
@@ -16794,7 +16786,7 @@ success
 =
 false
 ;
-nsAccessible
+Accessible
 *
 selected
 =
@@ -16928,7 +16920,7 @@ success
 /
 Widgets
 bool
-nsAccessible
+Accessible
 :
 :
 IsWidget
@@ -16941,7 +16933,7 @@ false
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 IsActiveWidget
@@ -16962,7 +16954,7 @@ this
 ;
 }
 bool
-nsAccessible
+Accessible
 :
 :
 AreItemsOperable
@@ -16984,9 +16976,9 @@ aria_activedescendant
 )
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 CurrentItem
@@ -17122,12 +17114,12 @@ nsnull
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
@@ -17180,9 +17172,9 @@ true
 ;
 }
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 ContainerWidget
@@ -17207,7 +17199,7 @@ HasID
 {
 for
 (
-nsAccessible
+Accessible
 *
 parent
 =
@@ -17369,11 +17361,11 @@ nsnull
 /
 /
 /
-nsAccessible
+Accessible
 protected
 methods
 void
-nsAccessible
+Accessible
 :
 :
 CacheChildren
@@ -17403,7 +17395,7 @@ CanHaveAnonChildren
 )
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -17430,12 +17422,12 @@ child
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 TestChildCache
 (
-nsAccessible
+Accessible
 *
 aCachedChild
 )
@@ -17479,7 +17471,7 @@ initialized
 return
 ;
 }
-nsAccessible
+Accessible
 *
 child
 =
@@ -17547,10 +17539,10 @@ endif
 }
 /
 /
-nsAccessible
+Accessible
 public
 bool
-nsAccessible
+Accessible
 :
 :
 EnsureChildren
@@ -17614,9 +17606,9 @@ return
 false
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 GetSiblingAtOffset
@@ -17692,7 +17684,7 @@ return
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 child
 =
@@ -17723,9 +17715,9 @@ return
 child
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessible
+Accessible
 :
 :
 GetFirstAvailableAccessible
@@ -17736,7 +17728,7 @@ aStartNode
 )
 const
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -17880,7 +17872,7 @@ currentNode
 )
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -17905,7 +17897,7 @@ nsnull
 ;
 }
 nsresult
-nsAccessible
+Accessible
 :
 :
 GetAttrValue
@@ -18033,7 +18025,7 @@ NS_OK
 ;
 }
 PRUint32
-nsAccessible
+Accessible
 :
 :
 GetActionRule
@@ -18209,7 +18201,7 @@ eNoAction
 }
 AccGroupInfo
 *
-nsAccessible
+Accessible
 :
 :
 GetGroupInfo
@@ -18238,7 +18230,7 @@ mGroupInfo
 ;
 }
 void
-nsAccessible
+Accessible
 :
 :
 GetPositionAndSizeInternal
@@ -18287,7 +18279,7 @@ SetSize
 }
 }
 PRInt32
-nsAccessible
+Accessible
 :
 :
 GetLevelInternal
@@ -18375,7 +18367,7 @@ level
 =
 1
 ;
-nsAccessible
+Accessible
 *
 parent
 =
@@ -18524,7 +18516,7 @@ level
 =
 0
 ;
-nsAccessible
+Accessible
 *
 parent
 =
@@ -18645,7 +18637,7 @@ siblingIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 sibling
 =
@@ -18657,7 +18649,7 @@ GetChildAt
 siblingIdx
 )
 ;
-nsAccessible
+Accessible
 *
 siblingChild
 =

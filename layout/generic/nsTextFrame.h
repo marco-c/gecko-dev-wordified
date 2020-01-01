@@ -1067,7 +1067,7 @@ ACCESSIBILITY
 virtual
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessible
 (

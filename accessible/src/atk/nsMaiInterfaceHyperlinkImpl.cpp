@@ -140,7 +140,7 @@ AtkHyperlinkImpl
 aImpl
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =

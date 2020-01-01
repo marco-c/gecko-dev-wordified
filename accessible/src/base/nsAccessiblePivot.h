@@ -146,7 +146,7 @@ nsCycleCollectionParticipant
 h
 "
 class
-nsAccessible
+Accessible
 ;
 class
 nsIAccessibleTraversalRule
@@ -201,7 +201,7 @@ public
 :
 nsAccessiblePivot
 (
-nsAccessible
+Accessible
 *
 aRoot
 )
@@ -228,7 +228,7 @@ position
 .
 *
 /
-nsAccessible
+Accessible
 *
 Position
 (
@@ -279,7 +279,7 @@ change
 void
 NotifyPivotChanged
 (
-nsAccessible
+Accessible
 *
 aOldAccessible
 PRInt32
@@ -311,7 +311,7 @@ subtree
 bool
 IsRootDescendant
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -333,11 +333,11 @@ rule
 .
 *
 /
-nsAccessible
+Accessible
 *
 SearchForward
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsIAccessibleTraversalRule
@@ -368,11 +368,11 @@ rule
 .
 *
 /
-nsAccessible
+Accessible
 *
 SearchBackward
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsIAccessibleTraversalRule
@@ -400,7 +400,7 @@ observers
 void
 MovePivotInternal
 (
-nsAccessible
+Accessible
 *
 aPosition
 )
@@ -416,7 +416,7 @@ accessible
 /
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mRoot
 ;
@@ -432,7 +432,7 @@ position
 /
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mPosition
 ;

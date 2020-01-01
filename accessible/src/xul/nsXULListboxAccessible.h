@@ -155,7 +155,7 @@ nsIWeakReference
 *
 *
 *
-nsXULColumnsAccessible
+nsXULColumAccessible
 are
 accessible
 for
@@ -178,14 +178,14 @@ listcols
 *
 /
 class
-nsXULColumnsAccessible
+nsXULColumAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
-nsXULColumnsAccessible
+nsXULColumAccessible
 (
 nsIContent
 *
@@ -197,7 +197,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -284,7 +284,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -393,7 +393,7 @@ RowCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (
@@ -422,7 +422,7 @@ Shutdown
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -492,7 +492,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -580,7 +580,7 @@ description
 attribute
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Description
@@ -627,7 +627,7 @@ CanHaveAnonChildren
 /
 Widgets
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -649,7 +649,7 @@ listitem
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetListAccessible
 (
@@ -704,7 +704,7 @@ nsIAccessibleTableCell
 NS_DECL_NSIACCESSIBLETABLECELL
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetAttributesInternal

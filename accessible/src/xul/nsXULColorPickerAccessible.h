@@ -102,7 +102,7 @@ _nsXULColorPickerAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -124,7 +124,7 @@ class
 nsXULColorPickerTileAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -140,7 +140,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -172,7 +172,7 @@ NativeState
 /
 Widgets
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -222,7 +222,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -269,7 +269,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren

@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -346,7 +346,7 @@ mai_atk_object_get_type
 void
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 GetAccessibleWrap
 (

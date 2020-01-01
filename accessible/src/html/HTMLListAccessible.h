@@ -194,7 +194,7 @@ nsISupports
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessible
+Accessible
 virtual
 a11y
 :
@@ -292,7 +292,7 @@ aHeight
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 a11y
 :
@@ -322,7 +322,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -412,7 +412,7 @@ const
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 ENameValueFlag
 Name
@@ -503,7 +503,7 @@ a11y
 :
 HTMLLIAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsHTMLListItem

@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -264,7 +264,7 @@ class
 nsHyperTextAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 public
 nsIAccessibleText
 public
@@ -301,7 +301,7 @@ NS_HYPERTEXTACCESSIBLE_IMPL_CID
 )
 /
 /
-nsAccessible
+Accessible
 virtual
 PRInt32
 GetLevelInternal
@@ -354,7 +354,7 @@ virtual
 bool
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -508,7 +508,6 @@ accessible
 .
 *
 /
-inline
 PRUint32
 GetLinkCount
 (
@@ -534,8 +533,7 @@ index
 .
 *
 /
-inline
-nsAccessible
+Accessible
 *
 GetLinkAt
 (
@@ -564,11 +562,10 @@ accessible
 .
 *
 /
-inline
 PRInt32
 GetLinkIndex
 (
-nsAccessible
+Accessible
 *
 aLink
 )
@@ -595,7 +592,6 @@ offset
 .
 *
 /
-inline
 PRInt32
 GetLinkIndexAtOffset
 (
@@ -603,7 +599,7 @@ PRUint32
 aOffset
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -970,7 +966,7 @@ otherwise
 nsnull
 *
 /
-nsAccessible
+Accessible
 *
 DOMPointToHypertextOffset
 (
@@ -1281,7 +1277,6 @@ accessible
 .
 *
 /
-inline
 PRUint32
 CharacterCount
 (
@@ -1467,7 +1462,7 @@ child
 PRInt32
 GetChildOffset
 (
-nsAccessible
+Accessible
 *
 aChild
 bool
@@ -1586,7 +1581,7 @@ text
 offset
 *
 /
-nsAccessible
+Accessible
 *
 GetChildAtOffset
 (
@@ -1804,7 +1799,6 @@ offset
 .
 *
 /
-inline
 PRInt32
 ConvertMagicOffset
 (
@@ -1961,7 +1955,7 @@ GetTextHelper
 (
 EGetTextType
 aType
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 aBoundaryType
 PRInt32
 aOffset
@@ -2111,7 +2105,7 @@ nsIFrame
 aFromFrame
 PRInt32
 aFromOffset
-nsAccessible
+Accessible
 *
 aFromAccessible
 nsSelectionAmount
@@ -2340,13 +2334,13 @@ nsIntRect
 aBoundsRect
 =
 nsnull
-nsAccessible
+Accessible
 *
 *
 aStartAcc
 =
 nsnull
-nsAccessible
+Accessible
 *
 *
 aEndAcc
@@ -2441,7 +2435,7 @@ nsIFrame
 aFrame
 PRInt32
 aOffset
-nsAccessible
+Accessible
 *
 aAccessible
 nsIDOMNode
@@ -2830,13 +2824,13 @@ NS_HYPERTEXTACCESSIBLE_IMPL_CID
 /
 /
 /
-nsAccessible
+Accessible
 downcasting
 method
 inline
 nsHyperTextAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsHyperText

@@ -108,7 +108,7 @@ ordered
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -199,7 +199,7 @@ class
 XULButtonAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -246,7 +246,7 @@ index
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -299,7 +299,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -310,7 +310,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -386,7 +386,7 @@ index
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -475,7 +475,7 @@ index
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -530,7 +530,7 @@ class
 XULGroupboxAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -546,7 +546,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -614,7 +614,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 PRUint64
 NativeState
@@ -625,7 +625,7 @@ NativeState
 /
 Widgets
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -666,7 +666,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -727,7 +727,7 @@ class
 XULStatusBarAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -743,7 +743,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -790,7 +790,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 GetPositionAndSizeInternal
@@ -810,7 +810,7 @@ static
 bool
 IsSeparator
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -833,7 +833,7 @@ class
 XULToolbarAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -849,7 +849,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -905,7 +905,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -999,7 +999,7 @@ const
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -1056,7 +1056,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren

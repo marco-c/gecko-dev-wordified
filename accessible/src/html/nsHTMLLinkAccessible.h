@@ -147,7 +147,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value

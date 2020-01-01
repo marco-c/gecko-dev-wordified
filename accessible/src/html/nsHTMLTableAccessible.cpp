@@ -671,7 +671,7 @@ nsIAccessibleTableCell
 /
 nsHTMLTableCellAccessible
 :
-nsAccessible
+Accessible
 implementation
 role
 nsHTMLTableCellAccessible
@@ -944,7 +944,7 @@ ChildCount
 1
 )
 {
-nsAccessible
+Accessible
 *
 abbr
 =
@@ -1704,7 +1704,7 @@ GetTableAccessible
 (
 )
 {
-nsAccessible
+Accessible
 *
 parent
 =
@@ -2003,7 +2003,7 @@ COLUMNHEADER
 ;
 do
 {
-nsAccessible
+Accessible
 *
 headerCell
 =
@@ -2403,7 +2403,7 @@ aDoc
 /
 nsHTMLTableHeaderAccessible
 :
-nsAccessible
+Accessible
 implementation
 role
 nsHTMLTableHeaderCellAccessible
@@ -2858,7 +2858,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -2958,7 +2958,7 @@ implementation
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsHTMLTableAccessible
-nsAccessible
+Accessible
 nsIAccessibleTable
 )
 /
@@ -3056,7 +3056,7 @@ mTable
 =
 nsnull
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -3148,7 +3148,7 @@ Shutdown
 /
 nsHTMLTableAccessible
 :
-nsAccessible
+Accessible
 implementation
 void
 nsHTMLTableAccessible
@@ -3215,7 +3215,7 @@ CanHaveAnonChildren
 )
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -3309,7 +3309,7 @@ NativeState
 )
 {
 return
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -3333,7 +3333,7 @@ nsAString
 aName
 )
 {
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -3362,7 +3362,7 @@ as
 a
 name
 .
-nsAccessible
+Accessible
 *
 caption
 =
@@ -3459,7 +3459,7 @@ aAttributes
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAttributesInternal
@@ -3609,7 +3609,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType
@@ -3726,7 +3726,7 @@ nsHTMLTableAccessible
 :
 nsIAccessibleTable
 implementation
-nsAccessible
+Accessible
 *
 nsHTMLTableAccessible
 :
@@ -3735,7 +3735,7 @@ Caption
 (
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -4494,7 +4494,7 @@ cellElement
 )
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -5315,7 +5315,7 @@ return
 rv
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLTableAccessible
 :
@@ -5373,7 +5373,7 @@ cellContent
 return
 nsnull
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -6977,7 +6977,7 @@ Truncate
 (
 )
 ;
-nsAccessible
+Accessible
 :
 :
 Description
@@ -7025,7 +7025,7 @@ NameInternal
 (
 )
 .
-nsAccessible
+Accessible
 *
 caption
 =
@@ -7941,7 +7941,7 @@ data
 table
 elements
 .
-nsAccessible
+Accessible
 *
 caption
 =
@@ -8298,7 +8298,7 @@ structures
 )
 ;
 }
-nsAccessible
+Accessible
 *
 cell
 =
@@ -8723,7 +8723,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =

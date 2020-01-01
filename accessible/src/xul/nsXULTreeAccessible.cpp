@@ -420,7 +420,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -624,7 +624,7 @@ nsXULTreeAccessible
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsXULTreeAccessible
-nsAccessible
+Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
@@ -644,7 +644,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 nsXULTreeAccessible
-nsAccessible
+Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -665,17 +665,17 @@ nsXULTreeAccessible
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsAccessible
+Accessible
 )
 NS_IMPL_ADDREF_INHERITED
 (
 nsXULTreeAccessible
-nsAccessible
+Accessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsXULTreeAccessible
-nsAccessible
+Accessible
 )
 /
 /
@@ -761,7 +761,7 @@ nsAccessible
 /
 nsXULTreeAccessible
 :
-nsAccessible
+Accessible
 implementation
 PRUint64
 nsXULTreeAccessible
@@ -783,7 +783,7 @@ class
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -1180,7 +1180,7 @@ mTreeView
 =
 nsnull
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -1272,7 +1272,7 @@ Shutdown
 /
 nsXULTreeAccessible
 :
-nsAccessible
+Accessible
 implementation
 (
 put
@@ -1455,7 +1455,7 @@ LIST
 /
 nsXULTreeAccessible
 :
-nsAccessible
+Accessible
 implementation
 (
 DON
@@ -1465,7 +1465,7 @@ put
 methods
 here
 )
-nsAccessible
+Accessible
 *
 nsXULTreeAccessible
 :
@@ -1641,7 +1641,7 @@ row
 column
 )
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ChildAtPoint
@@ -1651,7 +1651,7 @@ aY
 aWhichChild
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -1694,7 +1694,7 @@ do_QueryObject
 child
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -1816,7 +1816,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeAccessible
 :
@@ -1894,7 +1894,7 @@ nsXULTreeAccessible
 :
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
@@ -2411,7 +2411,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeAccessible
 :
@@ -2723,9 +2723,9 @@ false
 /
 nsXULTreeAccessible
 :
-nsAccessible
+Accessible
 implementation
-nsAccessible
+Accessible
 *
 nsXULTreeAccessible
 :
@@ -2739,7 +2739,7 @@ aIndex
 PRUint32
 childCount
 =
-nsAccessible
+Accessible
 :
 :
 ChildCount
@@ -2753,7 +2753,7 @@ aIndex
 childCount
 )
 return
-nsAccessible
+Accessible
 :
 :
 GetChildAt
@@ -2796,7 +2796,7 @@ count
 PRUint32
 childCount
 =
-nsAccessible
+Accessible
 :
 :
 ChildCount
@@ -3060,7 +3060,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeAccessible
 :
@@ -3190,7 +3190,7 @@ if
 inputNode
 )
 {
-nsAccessible
+Accessible
 *
 input
 =
@@ -3308,7 +3308,7 @@ nsXULTreeAccessible
 :
 public
 implementation
-nsAccessible
+Accessible
 *
 nsXULTreeAccessible
 :
@@ -3383,7 +3383,7 @@ void
 aRow
 )
 ;
-nsAccessible
+Accessible
 *
 cachedTreeItem
 =
@@ -3403,7 +3403,7 @@ cachedTreeItem
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 treeItem
 =
@@ -3548,7 +3548,7 @@ void
 rowIdx
 )
 ;
-nsAccessible
+Accessible
 *
 treeItem
 =
@@ -3717,7 +3717,7 @@ void
 rowIdx
 )
 ;
-nsAccessible
+Accessible
 *
 treeItem
 =
@@ -3936,7 +3936,7 @@ void
 rowIdx
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -4185,7 +4185,7 @@ protected
 implementation
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsXULTreeAccessible
 :
@@ -4198,7 +4198,7 @@ aRow
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 accessible
 =
@@ -4395,7 +4395,7 @@ aContent
 DocAccessible
 *
 aDoc
-nsAccessible
+Accessible
 *
 aParent
 nsITreeBoxObject
@@ -4408,7 +4408,7 @@ PRInt32
 aRow
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -4524,7 +4524,7 @@ nsXULTreeItemAccessibleBase
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsXULTreeItemAccessibleBase
-nsAccessible
+Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
@@ -4534,7 +4534,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 nsXULTreeItemAccessibleBase
-nsAccessible
+Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -4552,17 +4552,17 @@ nsXULTreeItemAccessibleBase
 )
 NS_INTERFACE_TABLE_TAIL_INHERITING
 (
-nsAccessible
+Accessible
 )
 NS_IMPL_ADDREF_INHERITED
 (
 nsXULTreeItemAccessibleBase
-nsAccessible
+Accessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsXULTreeItemAccessibleBase
-nsAccessible
+Accessible
 )
 /
 /
@@ -4650,7 +4650,7 @@ nsXULTreeItemAccessibleBase
 :
 nsIAccessible
 implementation
-nsAccessible
+Accessible
 *
 nsXULTreeItemAccessibleBase
 :
@@ -5083,7 +5083,7 @@ be
 fired
 here
 return
-nsAccessible
+Accessible
 :
 :
 TakeFocus
@@ -5496,7 +5496,7 @@ mRow
 -
 1
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -5601,7 +5601,7 @@ false
 /
 nsXULTreeItemAccessibleBase
 :
-nsAccessible
+Accessible
 public
 methods
 /
@@ -6195,7 +6195,7 @@ mRow
 nsXULTreeItemAccessibleBase
 :
 Widgets
-nsAccessible
+Accessible
 *
 nsXULTreeItemAccessibleBase
 :
@@ -6293,7 +6293,7 @@ mParent
 /
 nsXULTreeItemAccessibleBase
 :
-nsAccessible
+Accessible
 protected
 methods
 void
@@ -6438,7 +6438,7 @@ pseudoElm
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeItemAccessibleBase
 :
@@ -6997,7 +6997,7 @@ aContent
 DocAccessible
 *
 aDoc
-nsAccessible
+Accessible
 *
 aParent
 nsITreeBoxObject
@@ -7492,7 +7492,7 @@ Shutdown
 /
 nsXULTreeItemAccessible
 :
-nsAccessible
+Accessible
 implementation
 role
 nsXULTreeItemAccessible
@@ -7793,7 +7793,7 @@ name
 /
 nsXULTreeItemAccessible
 :
-nsAccessible
+Accessible
 protected
 implementation
 void
@@ -7887,7 +7887,7 @@ CacheChildren
 /
 /
 /
-nsXULTreeColumnsAccessible
+nsXULTreeColumAccessible
 /
 /
 /
@@ -7968,10 +7968,10 @@ nsXULTreeColumnsAccessible
 /
 /
 /
-nsXULTreeColumnsAccessible
+nsXULTreeColumAccessible
 :
 :
-nsXULTreeColumnsAccessible
+nsXULTreeColumAccessible
 (
 nsIContent
 *
@@ -7981,16 +7981,16 @@ DocAccessible
 aDoc
 )
 :
-nsXULColumnsAccessible
+nsXULColumAccessible
 (
 aContent
 aDoc
 )
 {
 }
-nsAccessible
+Accessible
 *
-nsXULTreeColumnsAccessible
+nsXULTreeColumAccessible
 :
 :
 GetSiblingAtOffset
@@ -8010,7 +8010,7 @@ aOffset
 0
 )
 return
-nsXULColumnsAccessible
+nsXULColumAccessible
 :
 :
 GetSiblingAtOffset

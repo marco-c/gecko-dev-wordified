@@ -386,7 +386,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -497,7 +497,7 @@ mSelectControl
 =
 nsnull
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -726,7 +726,7 @@ itemElm
 )
 )
 ;
-nsAccessible
+Accessible
 *
 item
 =
@@ -801,7 +801,7 @@ if
 itemNode
 )
 {
-nsAccessible
+Accessible
 *
 item
 =
@@ -853,7 +853,7 @@ return
 items
 ;
 }
-nsAccessible
+Accessible
 *
 XULSelectControlAccessible
 :
@@ -1040,7 +1040,7 @@ PRUint32
 aIndex
 )
 {
-nsAccessible
+Accessible
 *
 item
 =
@@ -1148,7 +1148,7 @@ PRUint32
 aIndex
 )
 {
-nsAccessible
+Accessible
 *
 item
 =
@@ -1257,7 +1257,7 @@ PRUint32
 aIndex
 )
 {
-nsAccessible
+Accessible
 *
 item
 =
@@ -1490,7 +1490,7 @@ false
 XULSelectControlAccessible
 :
 Widgets
-nsAccessible
+Accessible
 *
 XULSelectControlAccessible
 :
@@ -1605,7 +1605,7 @@ XULSelectControlAccessible
 :
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )

@@ -287,7 +287,7 @@ nsHTMLTableAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 nsHTMLTableAccessibleWrap
-nsAccessibleWrap
+AccessibleWrap
 CAccessibleTable
 )
 /

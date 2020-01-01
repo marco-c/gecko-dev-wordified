@@ -102,7 +102,7 @@ _nsXULAlertAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -122,7 +122,7 @@ class
 nsXULAlertAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -139,7 +139,7 @@ aDoc
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -184,7 +184,7 @@ IsWidget
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (

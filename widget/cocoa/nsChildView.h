@@ -116,7 +116,11 @@ ACCESSIBILITY
 #
 include
 "
-nsAccessible
+mozilla
+/
+a11y
+/
+Accessible
 .
 h
 "
@@ -3100,7 +3104,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 GetDocumentAccessible
 (

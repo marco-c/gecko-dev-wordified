@@ -257,7 +257,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 /
 /
 Returns
@@ -677,7 +677,7 @@ aDoc
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -772,7 +772,7 @@ const
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 PRUint64
 NativeState
@@ -846,7 +846,7 @@ SelectedItemCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetSelectedItem
 (
@@ -899,7 +899,7 @@ GetItemByIndex
 PRUint32
 *
 aIndex
-nsAccessible
+Accessible
 *
 aAccessible
 =
@@ -956,7 +956,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value

@@ -165,7 +165,7 @@ mReferences
 0
 )
 {
-nsAccessible
+Accessible
 *
 target
 =

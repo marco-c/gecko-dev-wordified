@@ -130,10 +130,10 @@ html
 /
 #
 ifndef
-_nsAccessibleWrap_H_
+_AccessibleWrap_H_
 #
 define
-_nsAccessibleWrap_H_
+_AccessibleWrap_H_
 #
 include
 <
@@ -146,7 +146,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -204,10 +204,10 @@ mozAccessible
 #
 endif
 class
-nsAccessibleWrap
+AccessibleWrap
 :
 public
-nsAccessible
+Accessible
 {
 public
 :
@@ -215,7 +215,7 @@ public
 /
 construction
 destruction
-nsAccessibleWrap
+AccessibleWrap
 (
 nsIContent
 *
@@ -227,7 +227,7 @@ aDoc
 ;
 virtual
 ~
-nsAccessibleWrap
+AccessibleWrap
 (
 )
 ;
@@ -324,7 +324,7 @@ virtual
 bool
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -333,7 +333,7 @@ virtual
 bool
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -444,14 +444,14 @@ GetUnignoredChildren
 (
 nsTArray
 <
-nsAccessible
+Accessible
 *
 >
 *
 aChildrenArray
 )
 ;
-nsAccessible
+Accessible
 *
 GetUnignoredParent
 (

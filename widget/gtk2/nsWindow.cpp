@@ -31905,7 +31905,7 @@ n
 )
 )
 ;
-nsAccessible
+Accessible
 *
 acc
 =
@@ -31925,7 +31925,7 @@ acc
 }
 }
 }
-nsAccessible
+Accessible
 *
 nsWindow
 :
@@ -32023,7 +32023,7 @@ event
 to
 it
 .
-nsAccessible
+Accessible
 *
 acc
 =

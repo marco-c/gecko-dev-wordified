@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -357,7 +357,7 @@ AccEvent
 (
 PRUint32
 aEventType
-nsAccessible
+Accessible
 *
 aAccessible
 EIsFromUserInput
@@ -433,7 +433,7 @@ return
 mIsFromUserInput
 ;
 }
-nsAccessible
+Accessible
 *
 GetAccessible
 (
@@ -559,7 +559,7 @@ node
 .
 *
 /
-nsAccessible
+Accessible
 *
 GetAccessibleForNode
 (
@@ -611,7 +611,7 @@ mEventRule
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mAccessible
 ;
@@ -648,7 +648,7 @@ public
 :
 AccStateChangeEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRUint64
@@ -778,7 +778,7 @@ public
 :
 AccTextChangeEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRInt32
@@ -932,7 +932,7 @@ AccMutationEvent
 (
 PRUint32
 aEventType
-nsAccessible
+Accessible
 *
 aTarget
 nsINode
@@ -1043,7 +1043,7 @@ public
 :
 AccHideEvent
 (
-nsAccessible
+Accessible
 *
 aTarget
 nsINode
@@ -1097,7 +1097,7 @@ eHideEvent
 /
 /
 AccHideEvent
-nsAccessible
+Accessible
 *
 TargetParent
 (
@@ -1108,7 +1108,7 @@ return
 mParent
 ;
 }
-nsAccessible
+Accessible
 *
 TargetNextSibling
 (
@@ -1119,7 +1119,7 @@ return
 mNextSibling
 ;
 }
-nsAccessible
+Accessible
 *
 TargetPrevSibling
 (
@@ -1134,19 +1134,19 @@ protected
 :
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mParent
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mNextSibling
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mPrevSibling
 ;
@@ -1176,7 +1176,7 @@ public
 :
 AccShowEvent
 (
-nsAccessible
+Accessible
 *
 aTarget
 nsINode
@@ -1241,7 +1241,7 @@ public
 :
 AccCaretMoveEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRInt32
@@ -1347,10 +1347,10 @@ eSelectionRemove
 ;
 AccSelChangeEvent
 (
-nsAccessible
+Accessible
 *
 aWidget
-nsAccessible
+Accessible
 *
 aItem
 SelChangeType
@@ -1401,7 +1401,7 @@ eSelectionChangeEvent
 /
 /
 AccSelChangeEvent
-nsAccessible
+Accessible
 *
 Widget
 (
@@ -1416,13 +1416,13 @@ private
 :
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mWidget
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mItem
 ;
@@ -1463,7 +1463,7 @@ public
 :
 AccTableChangeEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRUint32
@@ -1599,7 +1599,7 @@ public
 :
 AccVCChangeEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsIAccessible

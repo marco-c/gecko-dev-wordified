@@ -182,7 +182,7 @@ nsISupports
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 HandleAccEvent

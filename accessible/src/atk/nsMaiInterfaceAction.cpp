@@ -171,7 +171,7 @@ gint
 aActionIndex
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -224,7 +224,7 @@ AtkAction
 aAction
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -262,7 +262,7 @@ gint
 aActionIndex
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -304,7 +304,7 @@ nsnull
 )
 ;
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ReturnString
@@ -326,7 +326,7 @@ gint
 aActionIndex
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -368,7 +368,7 @@ nsnull
 )
 ;
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ReturnString
@@ -390,7 +390,7 @@ gint
 aActionIndex
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 acc
 =
@@ -463,7 +463,7 @@ KeyBinding
 eAtkFormat
 )
 ;
-nsAccessible
+Accessible
 *
 parent
 =
@@ -734,7 +734,7 @@ eAtkFormat
 ;
 }
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ReturnString

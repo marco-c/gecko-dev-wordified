@@ -316,7 +316,7 @@ _MaiAtkSocket
 AtkSocket
 parent
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 ;
@@ -371,7 +371,7 @@ AtkObject
 *
 mai_atk_socket_new
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 aAccWrap
 )
@@ -593,7 +593,7 @@ nsCString
 aPlugId
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -757,7 +757,7 @@ mAtkObject
 nsnull
 ;
 }
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown

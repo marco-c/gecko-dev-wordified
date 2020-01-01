@@ -474,7 +474,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aNode
 aDoc
@@ -489,12 +489,12 @@ eHyperTextAccessible
 NS_IMPL_ADDREF_INHERITED
 (
 nsHyperTextAccessible
-nsAccessibleWrap
+AccessibleWrap
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHyperTextAccessible
-nsAccessibleWrap
+AccessibleWrap
 )
 nsresult
 nsHyperTextAccessible
@@ -568,7 +568,7 @@ IsTextRole
 )
 )
 return
-nsAccessible
+Accessible
 :
 :
 QueryInterface
@@ -677,7 +677,7 @@ NS_OK
 ;
 }
 return
-nsAccessible
+Accessible
 :
 :
 QueryInterface
@@ -976,7 +976,7 @@ NativeState
 PRUint64
 states
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -1555,11 +1555,11 @@ aEndFrame
 nsIntRect
 *
 aBoundsRect
-nsAccessible
+Accessible
 *
 *
 aStartAcc
-nsAccessible
+Accessible
 *
 *
 aEndAcc
@@ -1787,7 +1787,7 @@ nsnull
 nsIntRect
 unionRect
 ;
-nsAccessible
+Accessible
 *
 lastAccessible
 =
@@ -1845,7 +1845,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 childAcc
 =
@@ -2815,7 +2815,7 @@ childOffset
 1
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -2859,7 +2859,7 @@ startChildOffset
 1
 )
 ;
-nsAccessible
+Accessible
 *
 startChild
 =
@@ -2897,7 +2897,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -2932,7 +2932,7 @@ endChildOffset
 1
 )
 ;
-nsAccessible
+Accessible
 *
 endChild
 =
@@ -3080,7 +3080,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsAccessible
+Accessible
 *
 nsHyperTextAccessible
 :
@@ -3502,7 +3502,7 @@ depth
 first
 search
 )
-nsAccessible
+Accessible
 *
 descendantAcc
 =
@@ -3627,7 +3627,7 @@ child
 of
 this
 hypertext
-nsAccessible
+Accessible
 *
 childAccAtOffset
 =
@@ -3638,7 +3638,7 @@ while
 descendantAcc
 )
 {
-nsAccessible
+Accessible
 *
 parentAcc
 =
@@ -3954,7 +3954,7 @@ childIdx
 =
 0
 ;
-nsAccessible
+Accessible
 *
 childAcc
 =
@@ -4336,7 +4336,7 @@ NS_OK
 }
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 startAcc
 endAcc
@@ -4505,7 +4505,7 @@ nsIFrame
 aFromFrame
 PRInt32
 aFromOffset
-nsAccessible
+Accessible
 *
 aFromAccessible
 nsSelectionAmount
@@ -4876,7 +4876,7 @@ node
 offset
 position
 .
-nsAccessible
+Accessible
 *
 finalAccessible
 =
@@ -4954,7 +4954,7 @@ aAmount
 eSelectBeginLine
 )
 {
-nsAccessible
+Accessible
 *
 firstChild
 =
@@ -5356,7 +5356,7 @@ GetTextHelper
 (
 EGetTextType
 aType
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 aBoundaryType
 PRInt32
 aOffset
@@ -5868,7 +5868,7 @@ frame
 relative
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 startAcc
 ;
@@ -6142,7 +6142,7 @@ BOUNDARY_LINE_END
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 endAcc
 ;
@@ -6508,7 +6508,7 @@ GetTextBeforeOffset
 (
 PRInt32
 aOffset
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 aBoundaryType
 PRInt32
 *
@@ -6562,7 +6562,7 @@ GetTextAtOffset
 (
 PRInt32
 aOffset
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 aBoundaryType
 PRInt32
 *
@@ -6616,7 +6616,7 @@ GetTextAfterOffset
 (
 PRInt32
 aOffset
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 aBoundaryType
 PRInt32
 *
@@ -6841,7 +6841,7 @@ attributes
 )
 ;
 }
-nsAccessible
+Accessible
 *
 accAtOffset
 =
@@ -7271,7 +7271,7 @@ return
 6
 ;
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetLevelInternal
@@ -7293,7 +7293,7 @@ aAttributes
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAttributesInternal
@@ -8159,7 +8159,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 childAcc
 =
@@ -8547,7 +8547,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 link
 =
@@ -8600,7 +8600,7 @@ NS_ERROR_FAILURE
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 link
 (
@@ -9122,7 +9122,7 @@ container
 '
 s
 editor
-nsAccessible
+Accessible
 *
 ancestor
 =
@@ -11001,7 +11001,7 @@ endOffset
 tempOffset
 ;
 }
-nsAccessible
+Accessible
 *
 startAccessible
 =
@@ -12159,7 +12159,7 @@ NS_OK
 /
 /
 /
-nsAccessible
+Accessible
 public
 nsresult
 nsHyperTextAccessible
@@ -12175,7 +12175,7 @@ aName
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetNameInternal
@@ -12294,7 +12294,7 @@ Clear
 (
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 InvalidateChildren
@@ -12308,7 +12308,7 @@ nsHyperTextAccessible
 :
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -12349,7 +12349,7 @@ count
 )
 ;
 return
-nsAccessible
+Accessible
 :
 :
 RemoveChild
@@ -12928,7 +12928,7 @@ childIdx
 return
 false
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -13090,7 +13090,7 @@ Length
 aChildIndex
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -13283,7 +13283,7 @@ Length
 childCount
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -13446,7 +13446,7 @@ nsIFrame
 aFrame
 PRInt32
 aOffset
-nsAccessible
+Accessible
 *
 aAccessible
 nsIDOMNode
@@ -13796,7 +13796,7 @@ EndOffset
 )
 ;
 }
-nsAccessible
+Accessible
 *
 startAcc
 =

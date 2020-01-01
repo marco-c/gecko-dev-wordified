@@ -124,7 +124,7 @@ nsHTMLImageAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 nsHTMLImageAccessibleWrap
-nsAccessibleWrap
+AccessibleWrap
 ia2AccessibleImage
 )
 ;

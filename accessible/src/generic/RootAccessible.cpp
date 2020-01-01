@@ -716,7 +716,7 @@ RootAccessible
 /
 /
 /
-nsAccessible
+Accessible
 ENameValueFlag
 RootAccessible
 :
@@ -739,7 +739,7 @@ if
 mRoleMapEntry
 )
 {
-nsAccessible
+Accessible
 :
 :
 Name
@@ -2219,7 +2219,7 @@ document
 "
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2517,7 +2517,7 @@ accEvent
 return
 ;
 }
-nsAccessible
+Accessible
 *
 treeItemAcc
 =
@@ -3032,7 +3032,7 @@ for
 tree
 accessible
 .
-nsAccessible
+Accessible
 *
 widget
 =
@@ -3201,7 +3201,7 @@ menuitem
 is
 set
 .
-nsAccessible
+Accessible
 *
 activeItem
 =
@@ -3703,7 +3703,7 @@ RootAccessible
 :
 HandlePopupShownEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -3870,7 +3870,7 @@ comboboxes
 and
 autocompeletes
 .
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -4018,7 +4018,7 @@ document
 )
 return
 ;
-nsAccessible
+Accessible
 *
 popup
 =
@@ -4036,7 +4036,7 @@ if
 popup
 )
 {
-nsAccessible
+Accessible
 *
 popupContainer
 =
@@ -4081,7 +4081,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -4288,7 +4288,7 @@ the
 former
 case
 .
-nsAccessible
+Accessible
 *
 widget
 =
@@ -4461,7 +4461,7 @@ part
 of
 autocomplete
 .
-nsAccessible
+Accessible
 *
 compositeWidget
 =

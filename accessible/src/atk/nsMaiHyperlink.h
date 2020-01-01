@@ -127,7 +127,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -159,7 +159,7 @@ public
 :
 MaiHyperlink
 (
-nsAccessible
+Accessible
 *
 aHyperLink
 )
@@ -178,7 +178,7 @@ GetAtkHyperlink
 void
 )
 ;
-nsAccessible
+Accessible
 *
 GetAccHyperlink
 (
@@ -202,7 +202,7 @@ nsnull
 }
 protected
 :
-nsAccessible
+Accessible
 *
 mHyperlink
 ;

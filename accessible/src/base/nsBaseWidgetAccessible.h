@@ -102,7 +102,7 @@ _nsBaseWidgetAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -177,7 +177,7 @@ class
 nsLeafAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -197,9 +197,9 @@ nsISupports
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessible
+Accessible
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -215,7 +215,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren
@@ -285,7 +285,7 @@ class
 nsLinkableAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -343,7 +343,7 @@ Shutdown
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -394,12 +394,12 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 BindToParent
 (
-nsAccessible
+Accessible
 *
 aParent
 PRUint32
@@ -429,7 +429,7 @@ accessible
 .
 *
 /
-nsAccessible
+Accessible
 *
 mActionAcc
 ;
@@ -463,7 +463,7 @@ class
 nsEnumRoleAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -495,7 +495,7 @@ nsEnumRoleAccessible
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

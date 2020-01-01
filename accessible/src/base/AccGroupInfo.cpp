@@ -89,7 +89,7 @@ AccGroupInfo
 :
 AccGroupInfo
 (
-nsAccessible
+Accessible
 *
 aItem
 role
@@ -114,7 +114,7 @@ MOZ_COUNT_CTOR
 AccGroupInfo
 )
 ;
-nsAccessible
+Accessible
 *
 parent
 =
@@ -232,7 +232,7 @@ idx
 -
 )
 {
-nsAccessible
+Accessible
 *
 sibling
 =
@@ -521,7 +521,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 sibling
 =
@@ -825,7 +825,7 @@ OUTLINEITEM
 )
 return
 ;
-nsAccessible
+Accessible
 *
 parentPrevSibling
 =

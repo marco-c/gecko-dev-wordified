@@ -187,7 +187,7 @@ nsIAccessibleImage
 NS_DECL_NSIACCESSIBLEIMAGE
 /
 /
-nsAccessible
+Accessible
 virtual
 nsresult
 GetNameInternal
@@ -474,13 +474,13 @@ aIndex
 /
 /
 /
-nsAccessible
+Accessible
 downcasting
 method
 inline
 nsHTMLImageAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsImage

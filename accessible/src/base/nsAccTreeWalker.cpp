@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -698,7 +698,7 @@ nsAccTreeWalker
 nsAccTreeWalker
 :
 private
-nsAccessible
+Accessible
 *
 nsAccTreeWalker
 :
@@ -812,7 +812,7 @@ isSubtreeHidden
 =
 false
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
