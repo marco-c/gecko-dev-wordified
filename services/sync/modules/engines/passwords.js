@@ -596,10 +596,10 @@ PasswordTracker
 _recordObj
 :
 LoginRec
-_findLikeId
+_findDupe
 :
 function
-PasswordEngine__findLikeId
+_findDupe
 (
 item
 )
@@ -1371,7 +1371,7 @@ this
 .
 _log
 .
-trace
+debug
 (
 "
 Removing
@@ -1405,7 +1405,7 @@ this
 .
 _log
 .
-trace
+debug
 (
 "
 Asked
