@@ -468,7 +468,7 @@ nsFontFaceLoader_h_
 #
 include
 "
-nsIDownloader
+nsIStreamLoader
 .
 h
 "
@@ -499,7 +499,7 @@ class
 nsFontFaceLoader
 :
 public
-nsIDownloadObserver
+nsIStreamLoaderObserver
 {
 public
 :
@@ -526,7 +526,7 @@ nsFontFaceLoader
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOWNLOADOBSERVER
+NS_DECL_NSISTREAMLOADEROBSERVER
 /
 /
 initiate
@@ -583,15 +583,6 @@ gfxUserFontSet
 LoaderContext
 *
 mLoaderContext
-;
-gfxDownloadedFontData
-mFaceData
-;
-nsCOMPtr
-<
-nsIStreamListener
->
-mDownloader
 ;
 }
 ;
