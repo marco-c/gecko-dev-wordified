@@ -5207,6 +5207,12 @@ to
 do
 it
 }
+mState
+&
+=
+~
+XML_HTTP_REQUEST_SYNCLOOPING
+;
 return
 NS_OK
 ;
@@ -12498,12 +12504,6 @@ aEvent
 Abort
 (
 )
-;
-mState
-&
-=
-~
-XML_HTTP_REQUEST_SYNCLOOPING
 ;
 return
 NS_OK
