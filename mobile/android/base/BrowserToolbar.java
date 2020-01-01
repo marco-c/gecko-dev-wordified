@@ -5556,7 +5556,7 @@ private
 void
 setTitle
 (
-String
+CharSequence
 title
 )
 {
@@ -5572,11 +5572,6 @@ getInstance
 getSelectedTab
 (
 )
-;
-CharSequence
-displayTitle
-=
-title
 ;
 if
 (
@@ -5688,7 +5683,7 @@ title
 )
 )
 {
-displayTitle
+title
 =
 null
 ;
@@ -5698,7 +5693,7 @@ if
 mShowUrl
 &
 &
-displayTitle
+title
 !
 =
 null
@@ -5724,11 +5719,11 @@ StringUtils
 stripCommonSubdomains
 (
 title
+.
+toString
+(
 )
-;
-displayTitle
-=
-title
+)
 ;
 /
 /
@@ -5773,6 +5768,10 @@ int
 index
 =
 title
+.
+toString
+(
+)
 .
 indexOf
 (
@@ -5829,7 +5828,7 @@ Spannable
 SPAN_INCLUSIVE_INCLUSIVE
 )
 ;
-displayTitle
+title
 =
 builder
 ;
@@ -5841,7 +5840,7 @@ mTitle
 .
 setText
 (
-displayTitle
+title
 )
 ;
 mLayout
