@@ -476,13 +476,6 @@ IonLIR
 .
 h
 "
-#
-include
-"
-MoveGroup
-.
-h
-"
 namespace
 js
 {
@@ -495,7 +488,7 @@ GreedyAllocator
 struct
 Mover
 {
-MoveGroup
+LMoveGroup
 *
 moves
 ;
@@ -537,7 +530,7 @@ moves
 moves
 =
 new
-MoveGroup
+LMoveGroup
 ;
 return
 moves
@@ -1147,9 +1140,6 @@ BlockInfo
 *
 blocks
 ;
-uint32
-tempSlot
-;
 /
 /
 Aligns
@@ -1252,15 +1242,15 @@ Spills
 Restores
 /
 /
-MoveGroup
+LMoveGroup
 *
 aligns
 ;
-MoveGroup
+LMoveGroup
 *
 spills
 ;
-MoveGroup
+LMoveGroup
 *
 restores
 ;
@@ -1285,7 +1275,7 @@ restores
 restores
 =
 new
-MoveGroup
+LMoveGroup
 ;
 return
 restores
@@ -1338,7 +1328,7 @@ spills
 spills
 =
 new
-MoveGroup
+LMoveGroup
 ;
 return
 spills
@@ -1391,7 +1381,7 @@ aligns
 aligns
 =
 new
-MoveGroup
+LMoveGroup
 ;
 return
 aligns

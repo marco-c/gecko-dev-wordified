@@ -571,6 +571,7 @@ r14
 r15
 #
 endif
+invalid_reg
 }
 RegisterID
 ;
@@ -598,6 +599,7 @@ xmm14
 xmm15
 #
 endif
+invalid_xmm
 }
 XMMRegisterID
 ;

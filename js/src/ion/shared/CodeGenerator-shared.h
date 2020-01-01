@@ -464,6 +464,15 @@ IonLIR
 .
 h
 "
+#
+include
+"
+ion
+/
+MoveGroupResolver
+.
+h
+"
 namespace
 js
 {
@@ -489,6 +498,9 @@ graph
 LBlock
 *
 current
+;
+MoveGroupResolver
+moveGroupResolver
 ;
 static
 inline

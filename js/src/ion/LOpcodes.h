@@ -470,7 +470,7 @@ Label
 \
 _
 (
-Move
+MoveGroup
 )
 \
 _
