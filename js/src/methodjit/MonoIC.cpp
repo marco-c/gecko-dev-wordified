@@ -7121,6 +7121,12 @@ ucr
 codeAddr
 )
 {
+if
+(
+ucr
+.
+unjittable
+)
 disable
 (
 jit

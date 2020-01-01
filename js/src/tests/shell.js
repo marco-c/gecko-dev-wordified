@@ -4245,6 +4245,14 @@ optionName
 "
 jitprofiling
 "
+&
+&
+optionName
+!
+=
+"
+methodjit_always
+"
 )
 {
 options

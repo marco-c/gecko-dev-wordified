@@ -1,3 +1,11 @@
+/
+/
+|
+jit
+-
+test
+|
+mjitalways
 setDebug
 (
 true
