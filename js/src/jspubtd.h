@@ -5031,9 +5031,7 @@ UTF
 -
 8
 if
-JS_C_STRINGS_ARE_UTF8
-is
-defined
+js_CStringsAreUTF8
 )
 .
 *

@@ -560,9 +560,7 @@ above
 only
 available
 if
-compiled
-with
-JS_C_STRINGS_ARE_UTF8
+js_CStringsAreUTF8
 )
 *
 *
@@ -585,9 +583,7 @@ above
 only
 available
 if
-compiled
-with
-JS_C_STRINGS_ARE_UTF8
+js_CStringsAreUTF8
 )
 *
 *
