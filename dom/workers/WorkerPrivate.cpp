@@ -1513,8 +1513,8 @@ AssertIsOnMainThread
 JS
 :
 :
-IterateData
-data
+RuntimeStats
+rtStats
 (
 xpc
 :
@@ -1543,7 +1543,7 @@ isQuick
 /
 false
 &
-data
+rtStats
 )
 ;
 if
@@ -1586,7 +1586,7 @@ memory
 .
 ReportJSRuntimeStats
 (
-data
+rtStats
 mPathPrefix
 aCallback
 aClosure
@@ -7092,7 +7092,7 @@ JsMallocSizeOf
 JS
 :
 :
-CollectCompartmentStatsForRuntime
+CollectRuntimeStats
 (
 JS_GetRuntime
 (
@@ -7103,7 +7103,7 @@ static_cast
 JS
 :
 :
-IterateData
+RuntimeStats
 *
 >
 (

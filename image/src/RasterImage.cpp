@@ -6480,6 +6480,12 @@ _retval
 =
 mImageContainer
 ;
+NS_ADDREF
+(
+*
+_retval
+)
+;
 return
 NS_OK
 ;
@@ -6668,6 +6674,12 @@ image
 _retval
 =
 mImageContainer
+;
+NS_ADDREF
+(
+*
+_retval
+)
 ;
 return
 NS_OK

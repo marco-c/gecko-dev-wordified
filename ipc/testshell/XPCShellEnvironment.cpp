@@ -5055,6 +5055,11 @@ mCx
 :
 NULL
 ;
+JS_EndRequest
+(
+mCx
+)
+;
 JS_DestroyContext
 (
 mCx

@@ -1067,6 +1067,12 @@ mFd
 CertVerificationState
 mCertVerificationState
 ;
+PRIntervalTime
+mCertVerificationStarted
+;
+PRIntervalTime
+mCertVerificationEnded
+;
 PRUint32
 mSecurityState
 ;

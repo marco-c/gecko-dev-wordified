@@ -1329,6 +1329,16 @@ MDK
 Suse10
 *
 /
+"
+libgssapi
+.
+so
+"
+/
+*
+OpenBSD
+*
+/
 }
 ;
 for
