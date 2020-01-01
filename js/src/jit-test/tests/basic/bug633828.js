@@ -8,6 +8,7 @@ test
 error
 :
 SyntaxError
+;
 (
 function
 (
