@@ -609,6 +609,12 @@ GLContext
 >
 mCanvasGLContext
 ;
+gl
+:
+:
+ShaderProgramType
+mLayerProgram
+;
 void
 MakeTexture
 (
