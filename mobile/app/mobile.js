@@ -5089,7 +5089,7 @@ app
 privacyURL
 "
 "
-https
+http
 :
 /
 /
@@ -5103,14 +5103,11 @@ com
 LOCALE
 %
 /
-legal
+m
 /
 privacy
-/
-firefox
-/
-mobile
-/
+.
+html
 "
 )
 ;
