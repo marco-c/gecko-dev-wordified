@@ -501,8 +501,7 @@ virtual
 BrowserStreamParent
 (
 )
-{
-}
+;
 NS_OVERRIDE
 virtual
 bool

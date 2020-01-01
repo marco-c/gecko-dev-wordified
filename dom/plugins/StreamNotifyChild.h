@@ -476,6 +476,10 @@ friend
 class
 PluginInstanceChild
 ;
+friend
+class
+BrowserStreamChild
+;
 public
 :
 StreamNotifyChild

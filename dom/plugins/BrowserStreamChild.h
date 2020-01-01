@@ -463,6 +463,9 @@ class
 PluginInstanceChild
 ;
 class
+PStreamNotifyChild
+;
+class
 BrowserStreamChild
 :
 public
@@ -489,6 +492,10 @@ const
 uint32_t
 &
 lastmodified
+const
+PStreamNotifyChild
+*
+notifyData
 const
 nsCString
 &
