@@ -511,12 +511,15 @@ EndPage
 (
 )
 ;
-gfxSize
+virtual
+const
+gfxIntSize
 GetSize
 (
 )
+const
 {
-gfxSize
+gfxIntSize
 size
 (
 mRect
