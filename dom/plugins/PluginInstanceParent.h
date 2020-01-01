@@ -1136,7 +1136,7 @@ NPRemoteWindow
 aRemoteWindow
 )
 ;
-bool
+void
 SharedSurfaceBeforePaint
 (
 RECT
@@ -1173,12 +1173,6 @@ mPluginPort
 ;
 nsIntRect
 mSharedSize
-;
-PRUint32
-mDoublePassEvent
-;
-bool
-mLocalCopyRender
 ;
 #
 endif
