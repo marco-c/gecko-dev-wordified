@@ -998,9 +998,6 @@ nsAString
 aTooltip
 )
 {
-return
-NS_OK
-;
 mTooltip
 =
 aTooltip
