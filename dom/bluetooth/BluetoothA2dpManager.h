@@ -312,6 +312,14 @@ ControlPlayStatus
 aPlayStatus
 )
 ;
+void
+GetAlbum
+(
+nsAString
+&
+aAlbum
+)
+;
 uint32_t
 GetDuration
 (
