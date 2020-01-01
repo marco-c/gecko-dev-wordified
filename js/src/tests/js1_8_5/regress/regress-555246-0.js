@@ -34,7 +34,7 @@ if
 (
 typeof
 evalcx
-!
+=
 =
 '
 function
