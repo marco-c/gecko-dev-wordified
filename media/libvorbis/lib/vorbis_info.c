@@ -5378,12 +5378,6 @@ return
 ;
 err_out
 :
-oggpack_writeclear
-(
-&
-opb
-)
-;
 memset
 (
 op
@@ -5422,6 +5416,12 @@ if
 b
 )
 {
+oggpack_writeclear
+(
+&
+opb
+)
+;
 if
 (
 b
