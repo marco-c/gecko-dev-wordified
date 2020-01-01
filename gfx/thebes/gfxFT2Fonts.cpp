@@ -92,11 +92,9 @@ MPL
 /
 #
 if
+defined
 (
-MOZ_WIDGET_GTK
->
-=
-2
+MOZ_WIDGET_GTK2
 )
 #
 include
@@ -741,11 +739,9 @@ utf16
 ;
 #
 elif
+defined
 (
-MOZ_WIDGET_GTK
->
-=
-2
+MOZ_WIDGET_GTK2
 )
 FcResult
 result
