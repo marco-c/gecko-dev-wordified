@@ -1234,7 +1234,7 @@ simplify
 OOM
 checking
 .
-bool
+void
 add
 (
 MInstruction
@@ -1261,7 +1261,7 @@ can
 be
 added
 .
-bool
+void
 end
 (
 MControlInstruction
@@ -1390,7 +1390,7 @@ MBasicBlock
 successor
 )
 ;
-bool
+void
 insertBefore
 (
 MInstruction
@@ -1401,7 +1401,7 @@ MInstruction
 ins
 )
 ;
-bool
+void
 insertAfter
 (
 MInstruction

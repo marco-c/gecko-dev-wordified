@@ -1127,9 +1127,6 @@ New
 ins
 )
 ;
-if
-(
-!
 use
 -
 >
@@ -1143,9 +1140,6 @@ insertBefore
 use
 box
 )
-)
-return
-false
 ;
 use
 -
@@ -1255,9 +1249,6 @@ ins
 required
 )
 ;
-if
-(
-!
 use
 -
 >
@@ -1271,9 +1262,6 @@ insertBefore
 use
 converted
 )
-)
-return
-false
 ;
 use
 -
