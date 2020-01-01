@@ -6108,6 +6108,9 @@ val
 )
 mCookiesPermissions
 =
+(
+PRUint8
+)
 LIMIT
 (
 val
@@ -6133,6 +6136,9 @@ val
 )
 mMaxNumberOfCookies
 =
+(
+PRUint16
+)
 LIMIT
 (
 val
@@ -6158,6 +6164,9 @@ val
 )
 mMaxCookiesPerHost
 =
+(
+PRUint16
+)
 LIMIT
 (
 val

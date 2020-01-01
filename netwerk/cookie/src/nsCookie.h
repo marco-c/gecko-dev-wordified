@@ -1094,6 +1094,9 @@ aIsSession
 {
 mIsSession
 =
+(
+PRPackedBool
+)
 aIsSession
 ;
 }
