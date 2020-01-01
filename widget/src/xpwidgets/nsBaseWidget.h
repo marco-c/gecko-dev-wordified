@@ -1871,9 +1871,6 @@ mSizeMode
 nsPopupLevel
 mPopupLevel
 ;
-PRBool
-mDrawFPS
-;
 /
 /
 the
