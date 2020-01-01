@@ -4670,7 +4670,7 @@ style
 rule
 for
 the
-delcaration
+declaration
 nsICSSStyleRule
 *
 rule
