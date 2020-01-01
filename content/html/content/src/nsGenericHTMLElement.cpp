@@ -742,6 +742,13 @@ h
 #
 include
 "
+nsAHtml5FragmentParser
+.
+h
+"
+#
+include
+"
 nsPresState
 .
 h
