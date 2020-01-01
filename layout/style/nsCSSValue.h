@@ -2935,6 +2935,9 @@ mOriginPrincipal
 ;
 NS_INLINE_DECL_REFCOUNTING
 (
+nsCSSValue
+:
+:
 URL
 )
 protected
@@ -3097,6 +3100,9 @@ virtual
 destructor
 NS_INLINE_DECL_REFCOUNTING
 (
+nsCSSValue
+:
+:
 Image
 )
 }
