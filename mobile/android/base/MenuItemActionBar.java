@@ -312,6 +312,17 @@ CharSequence
 title
 )
 {
+/
+/
+set
+accessibility
+contentDescription
+here
+setContentDescription
+(
+title
+)
+;
 }
 Override
 public
