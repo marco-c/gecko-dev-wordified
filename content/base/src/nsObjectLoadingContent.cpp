@@ -7063,6 +7063,7 @@ NS_RelaxStrictFileOriginPolicy
 (
 mBaseURI
 principalBaseURI
+true
 )
 )
 {
