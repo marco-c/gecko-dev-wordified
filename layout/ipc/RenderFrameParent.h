@@ -640,6 +640,14 @@ ROOT_SCROLL_ID
 )
 ;
 void
+ContentViewScaleChanged
+(
+nsContentView
+*
+aView
+)
+;
+void
 ShadowLayersUpdated
 (
 )
