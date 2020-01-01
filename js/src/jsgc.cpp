@@ -5934,7 +5934,7 @@ bit
 define
 GC_MAXBYTES_LIMIT
 (
-2
+2LL
 <
 <
 40
