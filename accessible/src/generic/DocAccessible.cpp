@@ -11128,6 +11128,14 @@ aContainer
 GetContent
 (
 )
+&
+&
+aContainer
+-
+>
+GetContent
+(
+)
 -
 >
 IsHTML
