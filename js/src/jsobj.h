@@ -3952,7 +3952,12 @@ warnings
 .
 *
 /
-bool
+const
+js
+:
+:
+Shape
+*
 methodReadBarrier
 (
 JSContext
