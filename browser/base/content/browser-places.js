@@ -1166,7 +1166,7 @@ yet
 defaults
 to
 the
-places
+unfiled
 root
 .
 *
@@ -1399,7 +1399,7 @@ aParent
 :
 PlacesUtils
 .
-placesRootId
+unfiledRootId
 ;
 var
 descAnno

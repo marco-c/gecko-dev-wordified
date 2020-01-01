@@ -922,6 +922,9 @@ mBookmarksRoot
 PRInt64
 mTagRoot
 ;
+PRInt64
+mUnfiledRoot
+;
 /
 /
 personal

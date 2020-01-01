@@ -1239,7 +1239,7 @@ this
 _element
 (
 "
-placesRootItem
+unfiledRootItem
 "
 )
 .
@@ -1250,7 +1250,7 @@ container
 =
 PlacesUtils
 .
-placesRootId
+unfiledRootId
 ;
 /
 /
@@ -3532,13 +3532,13 @@ id
 {
 case
 "
-editBMPanel_placesRootItem
+editBMPanel_unfiledRootItem
 "
 :
 return
 PlacesUtils
 .
-placesRootId
+unfiledRootId
 ;
 case
 "
@@ -3786,7 +3786,7 @@ aFolderId
 =
 PlacesUtils
 .
-placesRootId
+unfiledRootId
 )
 return
 this
@@ -3794,7 +3794,7 @@ this
 _element
 (
 "
-placesRootItem
+unfiledRootItem
 "
 )
 ;
@@ -3978,7 +3978,7 @@ container
 =
 PlacesUtils
 .
-placesRootId
+unfiledRootId
 )
 this
 .
