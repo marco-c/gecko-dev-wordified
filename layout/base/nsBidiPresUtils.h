@@ -487,6 +487,14 @@ nsTHashtable
 .
 h
 "
+#
+ifdef
+DrawText
+#
+undef
+DrawText
+#
+endif
 /
 *
 *
