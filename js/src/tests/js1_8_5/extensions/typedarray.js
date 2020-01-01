@@ -531,7 +531,6 @@ TestFailCount
 +
 +
 ;
-}
 var
 ex
 =
@@ -598,6 +597,7 @@ print
 "
 )
 ;
+}
 }
 function
 checkThrows
@@ -1699,10 +1699,10 @@ done
 "
 )
 ;
-checkSuccess
+reportCompare
 (
-TestFailCount
 0
+TestFailCount
 "
 typed
 array
