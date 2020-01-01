@@ -1868,7 +1868,7 @@ CustomEvent
 )
 DOMCI_CLASS
 (
-MozMutationObserver
+MutationObserver
 )
 DOMCI_CLASS
 (
