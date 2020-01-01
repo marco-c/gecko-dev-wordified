@@ -240,7 +240,7 @@ nsIURI
 createExposableURI
 (
 in
-nsIRUI
+nsIURI
 aURI
 )
 ;

@@ -1207,7 +1207,7 @@ mPACURISpec
 /
 Not
 an
-nsIRUI
+nsIURI
 for
 use
 off
