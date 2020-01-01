@@ -437,6 +437,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+regress
+-
+309840
+.
+js
+'
+;
 /
 /
 -
@@ -517,7 +528,7 @@ BLOCK
 -
 -
 var
-bug
+BUGNUMBER
 =
 309840
 ;
@@ -554,7 +565,7 @@ error
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

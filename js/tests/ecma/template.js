@@ -420,6 +420,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+template
+.
+js
+'
+;
 /
 *
 *

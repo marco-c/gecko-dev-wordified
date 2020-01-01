@@ -420,6 +420,15 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+yflag
+.
+js
+'
+;
 /
 /
 -
@@ -500,7 +509,7 @@ BLOCK
 -
 -
 var
-bug
+BUGNUMBER
 =
 371932
 ;
@@ -730,7 +739,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

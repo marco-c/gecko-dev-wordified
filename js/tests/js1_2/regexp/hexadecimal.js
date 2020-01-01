@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+hexadecimal
+.
+js
+'
+;
 /
 *
 *

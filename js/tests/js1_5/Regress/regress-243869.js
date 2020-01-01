@@ -437,6 +437,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+regress
+-
+243869
+.
+js
+'
+;
 /
 /
 -
@@ -523,7 +534,7 @@ from
 Alex
 Vincent
 var
-bug
+BUGNUMBER
 =
 243869
 ;
@@ -560,7 +571,7 @@ Location
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

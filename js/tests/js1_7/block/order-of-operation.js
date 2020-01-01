@@ -428,6 +428,19 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+order
+-
+of
+-
+operation
+.
+js
+'
+;
 /
 /
 -
@@ -508,7 +521,7 @@ BLOCK
 -
 -
 var
-bug
+BUGNUMBER
 =
 "
 (
@@ -535,7 +548,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

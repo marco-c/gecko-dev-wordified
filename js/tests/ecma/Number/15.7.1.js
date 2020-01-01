@@ -426,6 +426,18 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+15
+.
+7
+.
+1
+.
+js
+'
+;
 /
 *
 *
@@ -533,7 +545,7 @@ cases
 .
 see
 the
-testcases
+gTestcases
 for
 TypeConversion
 ToNumber

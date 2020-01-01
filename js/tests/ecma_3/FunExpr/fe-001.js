@@ -431,6 +431,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+fe
+-
+001
+.
+js
+'
+;
 if
 (
 1

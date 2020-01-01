@@ -425,6 +425,15 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+toLocaleFormat
+.
+js
+'
+;
 /
 /
 -
@@ -505,7 +514,7 @@ BLOCK
 -
 -
 var
-bug
+BUGNUMBER
 =
 291494
 ;
@@ -545,7 +554,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

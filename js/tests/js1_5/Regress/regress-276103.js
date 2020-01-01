@@ -437,6 +437,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+regress
+-
+276103
+.
+js
+'
+;
 /
 /
 -
@@ -529,7 +540,7 @@ apache
 org
 >
 var
-bug
+BUGNUMBER
 =
 276103
 ;
@@ -558,7 +569,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

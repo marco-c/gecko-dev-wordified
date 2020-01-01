@@ -420,6 +420,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+yield
+-
+undefined
+.
+js
+'
+;
 /
 /
 -
@@ -540,7 +551,7 @@ Spidermonkey
 specific
 .
 var
-bug
+BUGNUMBER
 =
 "
 (
@@ -572,7 +583,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

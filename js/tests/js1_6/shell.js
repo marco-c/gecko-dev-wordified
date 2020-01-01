@@ -438,3 +438,9 @@ BLOCK
 *
 *
 /
+gTestsuite
+=
+'
+js1_6
+'
+;

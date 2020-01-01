@@ -420,6 +420,19 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+fibonacci
+-
+matrix
+-
+generator
+.
+js
+'
+;
 /
 /
 -
@@ -500,7 +513,7 @@ BLOCK
 -
 -
 var
-bug
+BUGNUMBER
 =
 "
 (
@@ -525,7 +538,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

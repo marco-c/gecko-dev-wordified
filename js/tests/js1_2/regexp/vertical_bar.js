@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+vertical_bar
+.
+js
+'
+;
 /
 *
 *

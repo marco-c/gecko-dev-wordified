@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+throw_js_types
+.
+js
+'
+;
 /
 *
 *

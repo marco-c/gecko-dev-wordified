@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+proto_3
+.
+js
+'
+;
 /
 *
 *

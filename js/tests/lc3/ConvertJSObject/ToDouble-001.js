@@ -426,6 +426,16 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+ToDouble
+-
+001
+.
+js
+'
+;
 /
 *
 *

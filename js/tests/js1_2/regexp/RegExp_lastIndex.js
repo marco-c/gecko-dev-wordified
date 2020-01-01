@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+RegExp_lastIndex
+.
+js
+'
+;
 /
 *
 *

@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+simple_form
+.
+js
+'
+;
 /
 *
 *

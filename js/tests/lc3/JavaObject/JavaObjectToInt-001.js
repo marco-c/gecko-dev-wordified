@@ -426,6 +426,16 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+JavaObjectToInt
+-
+001
+.
+js
+'
+;
 /
 *
 -

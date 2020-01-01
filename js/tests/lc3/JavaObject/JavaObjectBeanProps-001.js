@@ -429,6 +429,16 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+JavaObjectBeanProps
+-
+001
+.
+js
+'
+;
 var
 SECTION
 =

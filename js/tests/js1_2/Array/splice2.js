@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+splice2
+.
+js
+'
+;
 /
 *
 *

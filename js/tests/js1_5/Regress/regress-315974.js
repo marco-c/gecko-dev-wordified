@@ -428,6 +428,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+regress
+-
+315974
+.
+js
+'
+;
 /
 /
 -
@@ -580,7 +591,7 @@ acceptable
 *
 /
 var
-bug
+BUGNUMBER
 =
 315974
 ;
@@ -600,7 +611,7 @@ characters
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus
@@ -612,7 +623,7 @@ enterFunc
 (
 String
 (
-bug
+BUGNUMBER
 )
 )
 ;
@@ -856,7 +867,7 @@ exitFunc
 (
 String
 (
-bug
+BUGNUMBER
 )
 )
 ;

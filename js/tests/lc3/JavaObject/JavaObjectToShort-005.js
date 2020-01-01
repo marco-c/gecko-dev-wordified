@@ -426,6 +426,16 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+JavaObjectToShort
+-
+005
+.
+js
+'
+;
 /
 *
 -

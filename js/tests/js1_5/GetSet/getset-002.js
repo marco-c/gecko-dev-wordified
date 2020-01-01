@@ -432,6 +432,17 @@ BLOCK
 *
 /
 var
+gTestfile
+=
+'
+getset
+-
+002
+.
+js
+'
+;
+var
 t
 =
 {

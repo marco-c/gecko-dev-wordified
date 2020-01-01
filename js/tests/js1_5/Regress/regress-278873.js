@@ -439,6 +439,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+regress
+-
+278873
+.
+js
+'
+;
 /
 /
 -
@@ -533,7 +544,7 @@ dhs
 org
 >
 var
-bug
+BUGNUMBER
 =
 278873
 ;
@@ -565,7 +576,7 @@ Crash
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

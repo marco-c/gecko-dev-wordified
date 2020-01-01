@@ -426,6 +426,16 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+JavaObjectToDouble
+-
+001
+.
+js
+'
+;
 /
 *
 -

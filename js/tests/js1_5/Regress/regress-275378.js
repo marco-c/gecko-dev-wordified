@@ -439,6 +439,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+regress
+-
+275378
+.
+js
+'
+;
 /
 /
 -
@@ -547,7 +558,7 @@ to
 syntax
 error
 var
-bug
+BUGNUMBER
 =
 275378
 ;
@@ -584,7 +595,7 @@ status
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

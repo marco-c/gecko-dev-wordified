@@ -1634,7 +1634,7 @@ concat
 (
 gWindow
 .
-testcases
+gTestcases
 )
 ;
 /
@@ -1671,7 +1671,7 @@ origtestcases
 =
 gWindow
 .
-testcases
+gTestcases
 ;
 for
 (

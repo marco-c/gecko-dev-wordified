@@ -431,3 +431,9 @@ BLOCK
 *
 *
 /
+gTestsuite
+=
+'
+ecma_3
+'
+;

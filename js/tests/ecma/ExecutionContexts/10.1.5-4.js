@@ -426,6 +426,20 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+10
+.
+1
+.
+5
+-
+4
+.
+js
+'
+;
 /
 *
 *
@@ -620,7 +634,7 @@ Object
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -647,7 +661,7 @@ Function
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -674,7 +688,7 @@ String
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -701,7 +715,7 @@ Array
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -728,7 +742,7 @@ Number
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -755,7 +769,7 @@ Math
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -782,7 +796,7 @@ Boolean
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -809,7 +823,7 @@ Date
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -836,7 +850,7 @@ eval
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -863,7 +877,7 @@ parseInt
 null
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -892,7 +906,7 @@ EVAL_STRING
 ;
 if
 (
-testcases
+gTestcases
 [
 0
 ]
@@ -904,7 +918,7 @@ reason
 "
 )
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -918,7 +932,7 @@ fail
 }
 else
 {
-testcases
+gTestcases
 [
 0
 ]
@@ -930,7 +944,7 @@ pass
 "
 ;
 }
-testcases
+gTestcases
 [
 0
 ]

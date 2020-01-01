@@ -427,6 +427,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+regress
+-
+162392
+.
+js
+'
+;
 /
 /
 -
@@ -519,7 +530,7 @@ Arguments
 Object
 length
 var
-bug
+BUGNUMBER
 =
 162392
 ;
@@ -762,7 +773,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

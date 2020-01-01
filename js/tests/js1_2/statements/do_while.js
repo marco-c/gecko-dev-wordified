@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+do_while
+.
+js
+'
+;
 /
 *
 *

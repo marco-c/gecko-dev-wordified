@@ -440,6 +440,19 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+11
+.
+1
+.
+4
+.
+js
+'
+;
 /
 /
 -
@@ -520,7 +533,7 @@ BLOCK
 -
 -
 var
-bug
+BUGNUMBER
 =
 260106
 ;
@@ -561,7 +574,7 @@ array
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus
@@ -592,6 +605,7 @@ array
 [
 1
 ]
+;
 actual
 =
 '
@@ -657,6 +671,7 @@ array
 [
 1
 ]
+;
 actual
 =
 '
@@ -722,6 +737,7 @@ array
 [
 1
 ]
+;
 actual
 =
 '
@@ -787,6 +803,7 @@ array
 [
 1
 ]
+;
 actual
 =
 '

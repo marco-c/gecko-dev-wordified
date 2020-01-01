@@ -428,6 +428,16 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+regress
+-
+271545
+.
+js
+'
+;
 START
 (
 '
@@ -444,7 +454,7 @@ node
 '
 )
 ;
-BUG
+printBugNumber
 (
 271545
 )

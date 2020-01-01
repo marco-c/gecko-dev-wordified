@@ -420,6 +420,15 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+template
+.
+js
+'
+;
 /
 /
 -
@@ -500,7 +509,7 @@ BLOCK
 -
 -
 var
-bug
+BUGNUMBER
 =
 99999
 ;
@@ -698,7 +707,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

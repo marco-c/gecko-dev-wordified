@@ -426,6 +426,16 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+char
+-
+001
+.
+js
+'
+;
 /
 *
 *

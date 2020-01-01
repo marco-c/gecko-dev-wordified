@@ -431,6 +431,16 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+regress
+-
+369536
+.
+js
+'
+;
 START
 (
 "
@@ -443,7 +453,7 @@ attributes
 "
 )
 ;
-BUG
+printBugNumber
 (
 369536
 )

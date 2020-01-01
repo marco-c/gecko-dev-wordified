@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+switch2
+.
+js
+'
+;
 /
 *
 *

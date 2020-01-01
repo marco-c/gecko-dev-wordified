@@ -426,6 +426,14 @@ BLOCK
 *
 *
 /
+gTestfile
+=
+'
+word_boundary
+.
+js
+'
+;
 /
 *
 *
