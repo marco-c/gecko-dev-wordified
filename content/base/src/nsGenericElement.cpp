@@ -6219,7 +6219,7 @@ NS_FAILED
 element
 -
 >
-LookupNamespaceURI
+LookupNamespaceURIInternal
 (
 aNamespacePrefix
 aNamespaceURI
@@ -8087,7 +8087,7 @@ nsresult
 nsIContent
 :
 :
-LookupNamespaceURI
+LookupNamespaceURIInternal
 (
 const
 nsAString
