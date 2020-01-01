@@ -81147,6 +81147,9 @@ toString
 (
 )
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 if
 (
 native
@@ -81267,6 +81270,8 @@ RECORD_CONTINUE
 ;
 }
 else
+#
+endif
 if
 (
 native
@@ -91243,6 +91248,9 @@ JSString
 32
 )
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 JS_REQUIRES_STACK
 LIns
 *
@@ -91614,6 +91622,8 @@ return
 RECORD_CONTINUE
 ;
 }
+#
+endif
 /
 /
 Typed
@@ -91833,6 +91843,9 @@ get
 idx
 )
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 /
 /
 Special
@@ -91944,6 +91957,8 @@ return
 ARECORD_CONTINUE
 ;
 }
+#
+endif
 if
 (
 lval

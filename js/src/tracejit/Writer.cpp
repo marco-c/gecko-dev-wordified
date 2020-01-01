@@ -1896,6 +1896,9 @@ true
 #
 endif
 }
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 else
 if
 (
@@ -2024,6 +2027,8 @@ ret
 true
 ;
 }
+#
+endif
 return
 ret
 ;
