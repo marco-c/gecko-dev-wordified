@@ -832,7 +832,6 @@ SVGCompositing
 20090430
 /
 kPlus_Mode
-kMultiply_Mode
 /
 /
 all
@@ -849,9 +848,10 @@ src
 dst
 Coeffs
 kCoeffModesCnt
-kScreen_Mode
+kMultiply_Mode
 =
 kCoeffModesCnt
+kScreen_Mode
 kOverlay_Mode
 kDarken_Mode
 kLighten_Mode
@@ -861,9 +861,13 @@ kHardLight_Mode
 kSoftLight_Mode
 kDifference_Mode
 kExclusion_Mode
+kHue_Mode
+kSaturation_Mode
+kColor_Mode
+kLuminosity_Mode
 kLastMode
 =
-kExclusion_Mode
+kLuminosity_Mode
 }
 ;
 /
