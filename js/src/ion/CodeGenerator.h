@@ -1131,6 +1131,14 @@ lir
 )
 ;
 bool
+visitAtan2D
+(
+LAtan2D
+*
+lir
+)
+;
+bool
 visitPowI
 (
 LPowI

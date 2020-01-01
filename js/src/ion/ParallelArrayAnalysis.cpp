@@ -888,6 +888,10 @@ SAFE_OP
 (
 Sqrt
 )
+UNSAFE_OP
+(
+Atan2
+)
 SAFE_OP
 (
 MathFunction

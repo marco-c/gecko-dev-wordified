@@ -990,6 +990,14 @@ ins
 )
 ;
 bool
+visitAtan2
+(
+MAtan2
+*
+ins
+)
+;
+bool
 visitPow
 (
 MPow
