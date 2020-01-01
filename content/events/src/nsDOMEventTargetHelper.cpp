@@ -1471,7 +1471,7 @@ if
 aWrapper
 )
 {
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aListener
