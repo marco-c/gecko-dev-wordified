@@ -4158,16 +4158,9 @@ xpc
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
-;
-if
-(
-!
-xpc
-)
-return
 ;
 nsAXPCNativeCallContext
 *
@@ -4495,7 +4488,7 @@ rv
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
 -
@@ -4819,7 +4812,7 @@ rv
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
 -
@@ -5434,7 +5427,7 @@ xpc
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
 ;
