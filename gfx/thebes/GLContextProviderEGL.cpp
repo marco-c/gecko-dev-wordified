@@ -6162,9 +6162,9 @@ for
 a
 )
 setting
-mIsRGBFormat
-to
-TRUE
+the
+correct
+format
 ;
 and
 b
@@ -8399,10 +8399,6 @@ PR_FALSE
 mBackingSurface
 =
 xsurface
-;
-mIsRGBFormat
-=
-PR_TRUE
 ;
 #
 endif
