@@ -20628,9 +20628,10 @@ return
 jsPrincipals
 ;
 }
+static
 JSObject
 *
-NS_DOMReadStructuredClone
+DOMReadStructuredClone
 (
 JSContext
 *
@@ -20674,8 +20675,9 @@ return
 nsnull
 ;
 }
+static
 JSBool
-NS_DOMWriteStructuredClone
+DOMWriteStructuredClone
 (
 JSContext
 *
@@ -20718,8 +20720,9 @@ return
 JS_FALSE
 ;
 }
+static
 void
-NS_DOMStructuredCloneError
+DOMStructuredCloneError
 (
 JSContext
 *
@@ -20958,9 +20961,9 @@ JSStructuredCloneCallbacks
 cloneCallbacks
 =
 {
-NS_DOMReadStructuredClone
-NS_DOMWriteStructuredClone
-NS_DOMStructuredCloneError
+DOMReadStructuredClone
+DOMWriteStructuredClone
+DOMStructuredCloneError
 }
 ;
 JS_SetStructuredCloneCallbacks

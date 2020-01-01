@@ -705,6 +705,13 @@ h
 #
 include
 "
+nsDOMThreadService
+.
+h
+"
+#
+include
+"
 nsHTMLDNSPrefetch
 .
 h
@@ -1989,6 +1996,13 @@ Shutdown
 )
 ;
 nsTextServicesDocument
+:
+:
+Shutdown
+(
+)
+;
+nsDOMThreadService
 :
 :
 Shutdown
