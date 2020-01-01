@@ -1654,10 +1654,6 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
-(
-map
-)
 )
 |
 |
