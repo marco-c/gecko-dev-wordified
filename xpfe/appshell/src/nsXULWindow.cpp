@@ -4020,13 +4020,6 @@ SetClientData
 nsWebShellWindow
 hackery
 mWindow
--
->
-Destroy
-(
-)
-;
-mWindow
 =
 nsnull
 ;
