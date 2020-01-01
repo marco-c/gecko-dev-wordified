@@ -749,6 +749,16 @@ return
 mAnimVal
 ;
 }
+PRBool
+IsAnimated
+(
+)
+const
+{
+return
+mIsAnimated
+;
+}
 nsresult
 ToDOMAnimatedPreserveAspectRatio
 (
