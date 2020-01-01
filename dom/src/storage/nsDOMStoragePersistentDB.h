@@ -489,10 +489,6 @@ nsDOMStoragePersistentDB
 nsresult
 Init
 (
-const
-nsString
-&
-aDatabaseName
 )
 ;
 /
