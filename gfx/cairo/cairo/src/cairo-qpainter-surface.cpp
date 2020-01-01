@@ -3319,6 +3319,8 @@ abstract_surface
 cairo_surface_t
 *
 src
+cairo_content_t
+content
 int
 src_x
 int
@@ -3385,9 +3387,6 @@ NULL
 _qpixmaps_have_no_alpha
 |
 |
-src
--
->
 content
 =
 =
@@ -3399,9 +3398,6 @@ new_surf
 =
 cairo_qpainter_surface_create_with_qpixmap
 (
-src
--
->
 content
 width
 height
@@ -3415,9 +3411,6 @@ new_surf
 )
 !
 =
-src
--
->
 content
 )
 {
@@ -3450,9 +3443,6 @@ cairo_qpainter_surface_create_with_qimage
 (
 _cairo_format_from_content
 (
-src
--
->
 content
 )
 width

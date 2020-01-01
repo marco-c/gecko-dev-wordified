@@ -7362,6 +7362,12 @@ the
 source
 image
 *
+content
+:
+target
+content
+mask
+*
 src_x
 :
 extent
@@ -7523,6 +7529,8 @@ surface
 cairo_surface_t
 *
 src
+cairo_content_t
+content
 int
 src_x
 int
@@ -7611,6 +7619,7 @@ clone_similar
 (
 surface
 src
+content
 src_x
 src_y
 width
@@ -7674,6 +7683,8 @@ surface
 src
 -
 >
+content
+&
 content
 width
 height
@@ -7826,6 +7837,7 @@ image
 -
 >
 base
+content
 src_x
 src_y
 width
@@ -7880,6 +7892,7 @@ _cairo_surface_fallback_clone_similar
 (
 surface
 src
+content
 src_x
 src_y
 width

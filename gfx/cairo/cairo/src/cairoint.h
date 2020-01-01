@@ -3052,6 +3052,8 @@ surface
 cairo_surface_t
 *
 src
+cairo_content_t
+content
 int
 src_x
 int
@@ -7780,6 +7782,8 @@ surface
 cairo_surface_t
 *
 src
+cairo_content_t
+content
 int
 src_x
 int
@@ -9897,6 +9901,8 @@ pattern
 cairo_surface_t
 *
 dst
+cairo_content_t
+content
 int
 x
 int
@@ -9947,6 +9953,8 @@ mask
 cairo_surface_t
 *
 dst
+cairo_content_t
+src_content
 int
 src_x
 int
