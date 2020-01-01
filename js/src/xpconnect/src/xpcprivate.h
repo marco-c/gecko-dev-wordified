@@ -4587,7 +4587,6 @@ IDX_CREATE_INSTANCE
 IDX_ITEM
 IDX_PROTO
 IDX_ITERATOR
-IDX_PARENT
 IDX_EXPOSEDPROPS
 IDX_TOTAL_COUNT
 /
@@ -19206,7 +19205,7 @@ new
 JSObject
 '
 s
-__parent__
+parent
 *
 chain
 *
@@ -19437,8 +19436,7 @@ new
 JSObject
 '
 s
-__parent__
-*
+parent
 chain
 *
 param
@@ -19733,8 +19731,7 @@ the
 new
 JSObjects
 '
-__parent__
-*
+parent
 chain
 *
 param
@@ -26381,8 +26378,7 @@ new
 JSObject
 '
 s
-__parent__
-*
+parent
 chain
 *
 param

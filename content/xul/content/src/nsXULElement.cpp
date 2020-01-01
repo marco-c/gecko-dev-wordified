@@ -18930,7 +18930,7 @@ __proto__
 or
 /
 /
-__parent__
+parent
 pointer
 to
 the
@@ -18942,9 +18942,9 @@ global
 .
 If
 that
-/
-/
 happened
+/
+/
 our
 script
 object
@@ -18953,10 +18953,10 @@ reference
 the
 first
 document
-/
-/
 and
 the
+/
+/
 first
 document
 would
@@ -18964,9 +18964,9 @@ indirectly
 reference
 the
 prototype
-/
-/
 document
+/
+/
 because
 it
 keeps

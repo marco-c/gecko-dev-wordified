@@ -2371,7 +2371,7 @@ JS_CALL_OBJECT_TRACER
 trc
 parent
 "
-__parent__
+parent
 "
 )
 ;

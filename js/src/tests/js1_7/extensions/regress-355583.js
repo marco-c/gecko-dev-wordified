@@ -749,13 +749,14 @@ function
 let
 b
 =
+parent
+(
 function
 (
 )
 {
 }
-.
-__parent__
+)
 ;
 print
 (

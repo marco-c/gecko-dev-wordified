@@ -644,12 +644,6 @@ __iterator__
 /
 IDX_ITERATOR
 "
-__parent__
-"
-/
-/
-IDX_PARENT
-"
 __exposedProps__
 "
 /

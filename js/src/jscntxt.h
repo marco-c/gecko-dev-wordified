@@ -4966,12 +4966,10 @@ checks
 when
 setting
 __proto__
-or
-__parent__
 by
-*
 requesting
 the
+*
 GC
 handle
 the
@@ -4985,10 +4983,10 @@ GC
 hasn
 '
 t
-*
 been
 poked
 it
+*
 won
 '
 t
@@ -5001,7 +4999,6 @@ member
 is
 protected
 by
-*
 rt
 -
 >

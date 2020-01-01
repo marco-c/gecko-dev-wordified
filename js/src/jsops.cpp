@@ -21220,8 +21220,6 @@ must
 be
 *
 __proto__
-or
-__parent__
 .
 If
 sprop
@@ -21236,10 +21234,10 @@ scope
 lastProperty
 (
 )
-*
 there
 is
 a
+*
 repeated
 property
 name
@@ -21251,7 +21249,6 @@ does
 not
 handle
 these
-*
 two
 cases
 .

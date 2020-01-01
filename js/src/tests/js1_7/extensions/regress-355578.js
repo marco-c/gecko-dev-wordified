@@ -772,13 +772,14 @@ let
 x
 ;
 yield
+parent
+(
 function
 (
 )
 {
 }
-.
-__parent__
+)
 ;
 }
 (

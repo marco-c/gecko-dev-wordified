@@ -7840,7 +7840,7 @@ deep
 XPCNativeWrapper
 has
 a
-__parent__
+parent
 chain
 that
 mirrors
