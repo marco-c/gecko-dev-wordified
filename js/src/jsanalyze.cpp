@@ -2583,6 +2583,15 @@ false
 ;
 break
 ;
+case
+JSOP_FINALLY
+:
+hasTryFinally_
+=
+true
+;
+break
+;
 /
 *
 Additional
