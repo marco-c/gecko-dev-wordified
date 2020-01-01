@@ -1960,6 +1960,8 @@ const
 nsIntSize
 &
 aSize
+GLenum
+aWrapMode
 TextureImage
 :
 :
@@ -2493,6 +2495,7 @@ GLuint
 const
 nsIntSize
 &
+GLenum
 TextureImage
 :
 :
@@ -2661,6 +2664,8 @@ const
 nsIntSize
 &
 aSize
+GLenum
+aWrapMode
 ContentType
 aContentType
 GLContext
@@ -2672,6 +2677,7 @@ BasicTextureImage
 (
 aTexture
 aSize
+aWrapMode
 aContentType
 aContext
 )
@@ -2700,6 +2706,8 @@ const
 nsIntSize
 &
 aSize
+GLenum
+aWrapMode
 TextureImage
 :
 :
@@ -2721,6 +2729,7 @@ TextureImageWGL
 (
 aTexture
 aSize
+aWrapMode
 aContentType
 aContext
 )

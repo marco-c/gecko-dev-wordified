@@ -1460,6 +1460,16 @@ const
 =
 0
 ;
+GLenum
+GetWrapMode
+(
+)
+const
+{
+return
+mWrapMode
+;
+}
 PRBool
 IsRGB
 (
@@ -1531,6 +1541,8 @@ const
 nsIntSize
 &
 aSize
+GLenum
+aWrapMode
 ContentType
 aContentType
 PRBool
@@ -1547,6 +1559,10 @@ mSize
 (
 aSize
 )
+mWrapMode
+(
+aWrapMode
+)
 mContentType
 (
 aContentType
@@ -1562,6 +1578,9 @@ mTexture
 ;
 nsIntSize
 mSize
+;
+GLenum
+mWrapMode
 ;
 ContentType
 mContentType
@@ -1728,6 +1747,8 @@ const
 nsIntSize
 &
 aSize
+GLenum
+aWrapMode
 ContentType
 aContentType
 GLContext
@@ -1739,6 +1760,7 @@ TextureImage
 (
 aTexture
 aSize
+aWrapMode
 aContentType
 )
 mTextureInited
@@ -3485,7 +3507,7 @@ TextureImage
 :
 ContentType
 aContentType
-GLint
+GLenum
 aWrapMode
 PRBool
 aUseNearestFilter
@@ -4170,6 +4192,7 @@ OES_packed_depth_stencil
 IMG_read_format
 EXT_read_format_bgra
 APPLE_client_storage
+ARB_texture_non_power_of_two
 Extensions_Max
 }
 ;
@@ -4636,6 +4659,8 @@ const
 nsIntSize
 &
 aSize
+GLenum
+aWrapMode
 TextureImage
 :
 :

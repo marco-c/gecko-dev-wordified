@@ -3660,7 +3660,7 @@ TextureImage
 :
 ContentType
 aContentType
-GLint
+GLenum
 aWrapMode
 PRBool
 aUseNearestFilter
@@ -4392,6 +4392,8 @@ const
 nsIntSize
 &
 aSize
+GLenum
+aWrapMode
 ContentType
 aContentType
 GLContext
@@ -4408,6 +4410,7 @@ TextureImage
 (
 aTexture
 aSize
+aWrapMode
 aContentType
 aIsRGB
 )
@@ -4988,7 +4991,7 @@ TextureImage
 :
 ContentType
 aContentType
-GLint
+GLenum
 aWrapMode
 PRBool
 aUseNearestFilter
@@ -5155,6 +5158,7 @@ TextureImageEGL
 (
 texture
 aSize
+aWrapMode
 aContentType
 this
 static_cast
