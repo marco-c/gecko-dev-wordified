@@ -3946,6 +3946,8 @@ SetTitlebarColor
 (
 nscolor
 aColor
+PRBool
+aActive
 )
 ;
 const
