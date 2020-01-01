@@ -3434,7 +3434,6 @@ Visibility
 Outline
 TableBorder
 Table
-Background
 UIReset
 Quotes
 DO_STRUCT_DIFFERENCE
@@ -3480,11 +3479,6 @@ TableBorder
 DO_STRUCT_DIFFERENCE
 (
 Table
-)
-;
-DO_STRUCT_DIFFERENCE
-(
-Background
 )
 ;
 DO_STRUCT_DIFFERENCE
@@ -3688,9 +3682,15 @@ VISUAL
 Structs
 :
 Color
+Background
 DO_STRUCT_DIFFERENCE
 (
 Color
+)
+;
+DO_STRUCT_DIFFERENCE
+(
+Background
 )
 ;
 #
