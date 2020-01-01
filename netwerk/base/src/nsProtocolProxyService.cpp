@@ -1037,6 +1037,8 @@ pps
 nsIURI
 *
 uri
+PRUint32
+aResolveFlags
 nsIProtocolProxyCallback
 *
 callback
@@ -1049,6 +1051,10 @@ NS_OK
 mDispatched
 (
 PR_FALSE
+)
+mResolveFlags
+(
+0
 )
 mPPS
 (
@@ -1394,6 +1400,7 @@ mPPS
 ProcessPACString
 (
 mPACString
+mResolveFlags
 getter_AddRefs
 (
 mProxyInfo
@@ -1490,6 +1497,9 @@ mPACString
 ;
 PRBool
 mDispatched
+;
+PRUint32
+mResolveFlags
 ;
 nsRefPtr
 <
@@ -4066,6 +4076,8 @@ const
 char
 *
 start
+PRUint32
+aResolveFlags
 nsProxyInfo
 *
 *
@@ -4520,6 +4532,13 @@ pi
 mFlags
 =
 flags
+;
+pi
+-
+>
+mResolveFlags
+=
+aResolveFlags
 ;
 pi
 -
@@ -5171,6 +5190,8 @@ const
 nsCString
 &
 pacString
+PRUint32
+aResolveFlags
 nsIProxyInfo
 *
 *
@@ -5230,6 +5251,7 @@ proxies
 ExtractProxyInfo
 (
 proxies
+aResolveFlags
 &
 pi
 )
@@ -5558,6 +5580,7 @@ rv
 ProcessPACString
 (
 pacString
+flags
 result
 )
 ;
@@ -5607,6 +5630,7 @@ EmptyCString
 0
 0
 nsnull
+flags
 result
 )
 ;
@@ -5678,6 +5702,7 @@ nsAsyncResolveRequest
 (
 this
 uri
+flags
 callback
 )
 ;
@@ -5976,6 +6001,7 @@ aPort
 aFlags
 aFailoverTimeout
 aFailoverProxy
+0
 aResult
 )
 ;
@@ -7614,6 +7640,8 @@ aFailoverTimeout
 nsIProxyInfo
 *
 aFailoverProxy
+PRUint32
+aResolveFlags
 nsIProxyInfo
 *
 *
@@ -7688,6 +7716,13 @@ proxyInfo
 mFlags
 =
 aFlags
+;
+proxyInfo
+-
+>
+mResolveFlags
+=
+aResolveFlags
 ;
 proxyInfo
 -
@@ -7849,6 +7884,7 @@ rv
 ProcessPACString
 (
 proxy
+flags
 result
 )
 ;
@@ -8417,6 +8453,7 @@ port
 proxyFlags
 PR_UINT32_MAX
 nsnull
+flags
 result
 )
 ;
