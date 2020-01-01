@@ -570,14 +570,6 @@ GetCachedPosition
 (
 )
 ;
-PRBool
-IsBetterPosition
-(
-nsIDOMGeoPosition
-*
-aSomewhere
-)
-;
 /
 /
 Find
