@@ -661,7 +661,8 @@ JSTracer
 trc
 void
 *
-thing
+*
+thingp
 JSGCTraceKind
 kind
 )
@@ -674,7 +675,8 @@ JSTracer
 trc
 void
 *
-thing
+*
+thingp
 const
 char
 *
