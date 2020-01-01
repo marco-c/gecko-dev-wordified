@@ -113,10 +113,8 @@ def
 process_manifest
 (
 destdir
+*
 paths
-remove_unaccounted
-=
-True
 )
 :
     
@@ -161,9 +159,6 @@ copier
 copy
 (
 destdir
-remove_unaccounted
-=
-remove_unaccounted
 )
 if
 __name__
@@ -234,37 +229,6 @@ s
 '
 )
     
-parser
-.
-add_argument
-(
-'
--
--
-no
--
-remove
-'
-action
-=
-'
-store_true
-'
-        
-help
-=
-'
-Do
-not
-remove
-unaccounted
-files
-from
-destination
-.
-'
-)
-    
 args
 =
 parser
@@ -280,16 +244,10 @@ process_manifest
 args
 .
 destdir
+*
 args
 .
 manifests
-        
-remove_unaccounted
-=
-not
-args
-.
-no_remove
 )
     
 print
