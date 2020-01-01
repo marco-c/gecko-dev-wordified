@@ -1679,14 +1679,6 @@ sX
 sY
 )
 ;
-Browser
-.
-canvasBrowser
-.
-prepareForPanning
-(
-)
-;
 }
 else
 {
