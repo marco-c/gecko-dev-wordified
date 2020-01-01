@@ -1233,14 +1233,9 @@ GetPresShell
 (
 )
 ;
-#
-ifdef
-DEBUG
 nsresult
 rv
 =
-#
-endif
 shell
 -
 >

@@ -12132,6 +12132,9 @@ supported
 "
 )
 ;
+nscoord
+result
+;
 if
 (
 eStyleUnit_Coord
@@ -12594,6 +12597,9 @@ nsStyleCoord
 aCoord
 )
 {
+nscoord
+result
+;
 if
 (
 eStyleUnit_Coord

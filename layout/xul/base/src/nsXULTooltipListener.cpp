@@ -3397,14 +3397,9 @@ view
 nsAutoString
 label
 ;
-#
-ifdef
-DEBUG
 nsresult
 rv
 =
-#
-endif
 view
 -
 >

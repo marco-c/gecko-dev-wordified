@@ -3341,6 +3341,9 @@ nsCaret
 >
 caret
 ;
+nsresult
+res
+=
 presShell
 -
 >
