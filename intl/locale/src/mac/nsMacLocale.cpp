@@ -1382,7 +1382,7 @@ verJapan
 }
 {
 "
-KP
+KR
 "
 verKorea
 }
