@@ -469,6 +469,13 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+prlink
+.
+h
+"
 /
 /
 -
@@ -592,6 +599,10 @@ nsCOMArray
 nsIScreen
 >
 mCachedScreenArray
+;
+PRLibrary
+*
+mXineramalib
 ;
 }
 ;
