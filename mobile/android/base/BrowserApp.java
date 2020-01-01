@@ -2375,6 +2375,11 @@ return
 new
 NdefMessage
 (
+new
+NdefRecord
+[
+]
+{
 NdefRecord
 .
 createUri
@@ -2385,6 +2390,7 @@ getURL
 (
 )
 )
+}
 )
 ;
 }
