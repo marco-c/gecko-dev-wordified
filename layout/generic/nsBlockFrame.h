@@ -3356,9 +3356,9 @@ ReflowPushedFloats
 nsBlockReflowState
 &
 aState
-nsRect
+nsOverflowAreas
 &
-aBounds
+aOverflowAreas
 nsReflowStatus
 &
 aStatus

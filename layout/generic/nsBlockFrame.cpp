@@ -6904,7 +6904,7 @@ DrainPushedFloats
 state
 )
 ;
-nsRect
+nsOverflowAreas
 fcBounds
 ;
 nsReflowStatus
@@ -7647,13 +7647,10 @@ overflow
 area
 aMetrics
 .
-mOverflowArea
+mOverflowAreas
 .
-UnionRect
+UnionWith
 (
-aMetrics
-.
-mOverflowArea
 fcBounds
 )
 ;
@@ -41572,9 +41569,9 @@ ReflowPushedFloats
 nsBlockReflowState
 &
 aState
-nsRect
+nsOverflowAreas
 &
-aBounds
+aOverflowAreas
 nsReflowStatus
 &
 aStatus
@@ -41830,7 +41827,7 @@ NS_FRAME_OVERFLOW_INCOMPLETE
 }
 ConsiderChildOverflow
 (
-aBounds
+aOverflowAreas
 f
 )
 ;
