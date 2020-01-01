@@ -27709,10 +27709,6 @@ jsDefaultStatus
 :
 "
 "
-overLink
-:
-"
-"
 startTime
 :
 0
@@ -28181,7 +28177,6 @@ setOverLink
 function
 (
 link
-b
 )
 {
 /
@@ -28207,9 +28202,7 @@ and
 paragraph
 6
 )
-this
-.
-overLink
+link
 =
 link
 .
@@ -28237,10 +28230,11 @@ g
 encodeURIComponent
 )
 ;
-this
+gURLBar
 .
-updateStatusField
+setOverLink
 (
+link
 )
 ;
 }
@@ -28253,11 +28247,6 @@ function
 var
 text
 =
-this
-.
-overLink
-|
-|
 this
 .
 status
