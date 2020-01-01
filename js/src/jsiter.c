@@ -1929,7 +1929,10 @@ iterator
 .
 *
 /
+JS_FRIEND_API
+(
 JSBool
+)
 js_ValueToIterator
 (
 JSContext
@@ -2554,7 +2557,10 @@ goto
 out
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_CloseIterator
 (
 JSContext
@@ -3379,7 +3385,10 @@ return
 JS_TRUE
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_CallIteratorNext
 (
 JSContext

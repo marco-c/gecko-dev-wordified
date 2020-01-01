@@ -570,7 +570,10 @@ scripts
 *
 /
 extern
+JS_FRIEND_API
+(
 JSBool
+)
 js_ValueToIterator
 (
 JSContext
@@ -584,7 +587,10 @@ vp
 )
 ;
 extern
+JS_FRIEND_API
+(
 JSBool
+)
 js_CloseIterator
 (
 JSContext
@@ -631,7 +637,10 @@ call
 *
 /
 extern
+JS_FRIEND_API
+(
 JSBool
+)
 js_CallIteratorNext
 (
 JSContext
