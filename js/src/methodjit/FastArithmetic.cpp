@@ -8158,6 +8158,7 @@ path
 /
 fixDoubleTypes
 (
+target
 )
 ;
 frame
@@ -10146,6 +10147,7 @@ target
 )
 fixDoubleTypes
 (
+target
 )
 ;
 JS_ASSERT_IF
@@ -10758,6 +10760,7 @@ target
 {
 fixDoubleTypes
 (
+target
 )
 ;
 if
@@ -11104,6 +11107,7 @@ target
 )
 fixDoubleTypes
 (
+target
 )
 ;
 /

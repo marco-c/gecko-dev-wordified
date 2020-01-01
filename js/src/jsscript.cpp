@@ -10163,7 +10163,9 @@ JS_ASSERT
 script
 -
 >
-types
+hasAnalysis
+(
+)
 )
 ;
 /
