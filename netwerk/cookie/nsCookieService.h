@@ -1396,7 +1396,7 @@ app
 /
 static
 void
-AppUninstallObserverInit
+AppClearDataObserverInit
 (
 )
 ;

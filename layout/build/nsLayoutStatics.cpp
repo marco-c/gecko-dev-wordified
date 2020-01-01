@@ -1376,7 +1376,7 @@ AppUninstallObserverInit
 nsCookieService
 :
 :
-AppUninstallObserverInit
+AppClearDataObserverInit
 (
 )
 ;
