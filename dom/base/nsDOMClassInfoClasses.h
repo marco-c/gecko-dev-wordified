@@ -1894,6 +1894,10 @@ DOMCI_CLASS
 (
 MozContactChangeEvent
 )
+DOMCI_CLASS
+(
+MozApplicationEvent
+)
 #
 ifdef
 MOZ_B2G_RIL
