@@ -6940,6 +6940,16 @@ nsCycleCollectionTraversalCallback
 cb
 )
 {
+if
+(
+!
+cb
+.
+WantAllTraces
+(
+)
+)
+{
 nsIDocument
 *
 currentDoc
@@ -6961,7 +6971,6 @@ nsCCUncollectableMarker
 :
 InGeneration
 (
-cb
 currentDoc
 -
 >
@@ -7136,6 +7145,7 @@ us
 return
 false
 ;
+}
 }
 }
 }

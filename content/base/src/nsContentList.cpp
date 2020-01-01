@@ -646,6 +646,14 @@ tmp
 IsBlack
 (
 )
+&
+&
+!
+cb
+.
+WantAllTraces
+(
+)
 )
 {
 return
