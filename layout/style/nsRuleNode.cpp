@@ -8915,10 +8915,12 @@ name_
 id_
 method_
 flags_
-parsevariant_
+pref_
 \
+parsevariant_
 kwtable_
 stylestructoffset_
+\
 animtype_
 )
 \

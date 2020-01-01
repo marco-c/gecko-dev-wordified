@@ -412,6 +412,7 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
 kwtable_
 \
@@ -444,6 +445,7 @@ name_
 id_
 method_
 flags_
+pref_
 )
 \
 CSS_PROP
@@ -452,6 +454,7 @@ name_
 id_
 method_
 flags_
+pref_
 X
 X
 X
@@ -472,6 +475,7 @@ CSS_PROP_ALIAS
 aliasname_
 propid_
 aliasmethod_
+pref_
 )
 \
 CSS_PROP
@@ -480,6 +484,7 @@ X
 propid_
 aliasmethod_
 X
+pref_
 X
 X
 X

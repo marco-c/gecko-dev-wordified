@@ -490,6 +490,7 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
 kwtable_
 \
@@ -576,6 +577,7 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
 kwtable_
 \
@@ -656,6 +658,7 @@ name_
 id_
 method_
 flags_
+pref_
 )
 \
 {
@@ -709,6 +712,7 @@ name_
 id_
 method_
 flags_
+pref_
 )
 \
 #
