@@ -13378,6 +13378,14 @@ SetSeekable
 mSeekable
 )
 ;
+mDecodeStateMachine
+-
+>
+SetDuration
+(
+mDuration
+)
+;
 }
 ChangeState
 (
