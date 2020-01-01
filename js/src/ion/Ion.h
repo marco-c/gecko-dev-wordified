@@ -649,16 +649,6 @@ false
 }
 }
 ;
-#
-define
-ION_DISABLED_SCRIPT
-(
-(
-IonScript
-*
-)
-0x1
-)
 enum
 MethodStatus
 {
