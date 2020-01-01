@@ -21872,6 +21872,9 @@ isMagic
 )
 ;
 }
+#
+ifdef
+DEBUG
 JSWhyMagic
 whyMagic
 (
@@ -21892,6 +21895,8 @@ data
 why
 ;
 }
+#
+endif
 /
 *
 Other
