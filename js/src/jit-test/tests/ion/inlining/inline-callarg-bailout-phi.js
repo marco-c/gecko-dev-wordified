@@ -136,7 +136,7 @@ i
 assertEq
 (
 accum
-2000
+21998
 )
 ;
 var
