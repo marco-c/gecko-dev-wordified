@@ -3028,7 +3028,7 @@ nsDependentString
 (
 printerName
 .
-get
+Elements
 (
 )
 )
@@ -3245,7 +3245,7 @@ nsDependentString
 (
 printerName
 .
-get
+Elements
 (
 )
 )

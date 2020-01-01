@@ -1752,7 +1752,7 @@ nsDependentCString
 (
 buffer
 .
-get
+Elements
 (
 )
 )

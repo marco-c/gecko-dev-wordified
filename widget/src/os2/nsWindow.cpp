@@ -14470,7 +14470,7 @@ s
 points
 fontname
 .
-get
+Elements
 (
 )
 )
@@ -20879,10 +20879,6 @@ pressEvent
 charCode
 =
 outbuf
-.
-get
-(
-)
 [
 0
 ]
@@ -28109,10 +28105,6 @@ MAX_TITLEBAR_LENGTH
 )
 {
 title
-.
-get
-(
-)
 [
 MAX_TITLEBAR_LENGTH
 ]
@@ -28132,7 +28124,7 @@ GetMainWindow
 )
 title
 .
-get
+Elements
 (
 )
 )
@@ -28186,7 +28178,7 @@ WinSetWindowText
 hwndTitleBar
 title
 .
-get
+Elements
 (
 )
 )

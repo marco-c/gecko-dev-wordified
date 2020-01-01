@@ -1060,7 +1060,7 @@ nsDependentString
 (
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -2049,7 +2049,7 @@ memcpy
 pByteMem
 buffer
 .
-get
+Elements
 (
 )
 NumOfBytes
