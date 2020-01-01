@@ -717,8 +717,7 @@ object
 continue
 ;
 /
-*
-*
+/
 We
 store
 the
@@ -732,7 +731,8 @@ builder
 s
 own
 property
-*
+/
+/
 so
 that
 we
@@ -745,8 +745,6 @@ the
 same
 time
 .
-*
-/
 var
 bound
 =
