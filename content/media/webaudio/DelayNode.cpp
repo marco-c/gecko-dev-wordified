@@ -839,7 +839,16 @@ IdealAudioRate
 (
 )
 )
+-
+WEBAUDIO_BLOCK_SIZE
 ;
+if
+(
+mLeftOverData
+>
+0
+)
+{
 nsRefPtr
 <
 PlayingRefChanged
@@ -861,6 +870,7 @@ NS_DispatchToMainThread
 refchanged
 )
 ;
+}
 }
 else
 if
