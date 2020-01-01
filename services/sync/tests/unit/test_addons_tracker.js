@@ -248,6 +248,14 @@ clearChangedIDs
 (
 )
 ;
+tracker
+.
+_lazySave
+.
+clear
+(
+)
+;
 reconciler
 .
 _addons

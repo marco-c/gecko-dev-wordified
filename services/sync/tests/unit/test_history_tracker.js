@@ -1048,6 +1048,14 @@ removeAllPages
 (
 )
 ;
+tracker
+.
+_lazySave
+.
+clear
+(
+)
+;
 run_next_test
 (
 )
