@@ -6310,6 +6310,9 @@ connection
 .
 if
 (
+mDataStream
+&
+&
 HasPendingCallback
 (
 )
@@ -6543,6 +6546,9 @@ nullptr
 }
 if
 (
+mDataStream
+&
+&
 HasPendingCallback
 (
 )
@@ -13621,6 +13627,9 @@ false
 ;
 if
 (
+mDataStream
+&
+&
 HasPendingCallback
 (
 )
