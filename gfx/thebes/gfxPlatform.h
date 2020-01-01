@@ -576,7 +576,7 @@ gfx
 :
 :
 UserDataKey
-ThebesSurfaceKey
+kThebesSurfaceKey
 ;
 void
 DestroyThebesSurface

@@ -2645,7 +2645,7 @@ aTarget
 GetUserData
 (
 &
-ThebesSurfaceKey
+kThebesSurfaceKey
 )
 ;
 if
@@ -2767,7 +2767,7 @@ aTarget
 AddUserData
 (
 &
-ThebesSurfaceKey
+kThebesSurfaceKey
 surf
 .
 get
