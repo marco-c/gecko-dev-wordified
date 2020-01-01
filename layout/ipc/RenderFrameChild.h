@@ -148,6 +148,16 @@ RenderFrameChild
 {
 }
 void
+CancelDefaultPanZoom
+(
+)
+;
+void
+DetectScrollableSubframe
+(
+)
+;
+void
 Destroy
 (
 )
