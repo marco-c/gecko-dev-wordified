@@ -25081,6 +25081,9 @@ cell
 '
 s
 content
+PRBool
+isBlock
+;
 #
 ifdef
 MOZ_MATHML
@@ -25091,6 +25094,7 @@ kNameSpaceID_MathML
 =
 aNameSpaceID
 )
+{
 aNewCellInnerFrame
 =
 NS_NewMathMLmtdInnerFrame
@@ -25099,9 +25103,15 @@ mPresShell
 innerPseudoStyle
 )
 ;
+isBlock
+=
+PR_FALSE
+;
+}
 else
 #
 endif
+{
 aNewCellInnerFrame
 =
 NS_NewTableCellInnerFrame
@@ -25110,6 +25120,11 @@ mPresShell
 innerPseudoStyle
 )
 ;
+isBlock
+=
+PR_TRUE
+;
+}
 if
 (
 NS_UNLIKELY
@@ -25153,6 +25168,11 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
+if
+(
+isBlock
+)
+{
 ShouldHaveSpecialBlockStyle
 (
 aContent
@@ -25163,6 +25183,7 @@ haveFirstLetterStyle
 haveFirstLineStyle
 )
 ;
+}
 /
 /
 The
@@ -25175,6 +25196,11 @@ container
 nsFrameConstructorSaveState
 floatSaveState
 ;
+if
+(
+isBlock
+)
+{
 aState
 .
 PushFloatContainingBlock
@@ -25185,6 +25211,7 @@ haveFirstLetterStyle
 haveFirstLineStyle
 )
 ;
+}
 /
 /
 Process
@@ -25203,7 +25230,7 @@ aContent
 aNewCellInnerFrame
 PR_TRUE
 childItems
-PR_TRUE
+PR_FALSE
 )
 ;
 if

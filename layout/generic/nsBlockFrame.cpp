@@ -44826,6 +44826,13 @@ columnContent
 )
 &
 &
+!
+IsFrameOfType
+(
+eMathML
+)
+&
+&
 nsRefPtr
 <
 nsStyleContext
