@@ -378,12 +378,12 @@ npp
 DrawMode
 drawMode
 ;
-/
-/
-0xAARRGGBB
 PRUint32
 drawColor
 ;
+/
+/
+0xAARRGGBB
 }
 TestNPObject
 ;
@@ -400,6 +400,9 @@ window
 TestNPObject
 *
 scriptableObject
+;
+NPBool
+lastReportedPrivateModeState
 ;
 }
 InstanceData

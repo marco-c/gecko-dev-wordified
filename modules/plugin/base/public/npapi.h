@@ -792,7 +792,7 @@ NP_VERSION_MAJOR
 #
 define
 NP_VERSION_MINOR
-21
+22
 /
 *
 The
@@ -2230,6 +2230,9 @@ status
 NPPVpluginWantsAllNetworkStreams
 =
 18
+NPPVprivateModeBool
+=
+19
 #
 ifdef
 XP_MACOSX
@@ -2373,6 +2376,9 @@ NPNVPluginElementNPObject
 NPNVSupportsWindowless
 =
 17
+NPNVprivateModeBool
+=
+18
 #
 ifdef
 XP_MACOSX
