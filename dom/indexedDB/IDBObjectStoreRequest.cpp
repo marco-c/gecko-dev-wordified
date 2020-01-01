@@ -553,6 +553,13 @@ IDBTransactionRequest
 .
 h
 "
+#
+include
+"
+DatabaseInfo
+.
+h
+"
 USING_INDEXEDDB_NAMESPACE
 namespace
 {
@@ -1405,7 +1412,7 @@ IDBTransactionRequest
 aTransaction
 const
 ObjectStoreInfo
-&
+*
 aStoreInfo
 PRUint16
 aMode
@@ -1454,7 +1461,8 @@ objectStore
 mName
 =
 aStoreInfo
-.
+-
+>
 name
 ;
 objectStore
@@ -1463,7 +1471,8 @@ objectStore
 mId
 =
 aStoreInfo
-.
+-
+>
 id
 ;
 objectStore
@@ -1472,7 +1481,8 @@ objectStore
 mKeyPath
 =
 aStoreInfo
-.
+-
+>
 keyPath
 ;
 objectStore
@@ -1481,7 +1491,8 @@ objectStore
 mAutoIncrement
 =
 aStoreInfo
-.
+-
+>
 autoIncrement
 ;
 objectStore
@@ -2074,6 +2085,9 @@ nsDOMStringList
 )
 )
 ;
+#
+if
+0
 PRUint32
 count
 =
@@ -2115,6 +2129,8 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
+#
+endif
 list
 .
 forget
