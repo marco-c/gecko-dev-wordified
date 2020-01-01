@@ -677,7 +677,7 @@ work
 should
 run
 .
-Time
+TimeTicks
 delayed_work_time_
 ;
 /
@@ -1424,7 +1424,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -2519,7 +2519,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )

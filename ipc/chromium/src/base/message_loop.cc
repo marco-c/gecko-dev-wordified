@@ -216,6 +216,12 @@ base
 :
 TimeDelta
 ;
+using
+base
+:
+:
+TimeTicks
+;
 /
 /
 A
@@ -2198,7 +2204,7 @@ pending_task
 .
 delayed_run_time
 =
-Time
+TimeTicks
 :
 :
 Now
@@ -3353,7 +3359,7 @@ MessageLoop
 :
 DoDelayedWork
 (
-Time
+TimeTicks
 *
 next_delayed_work_time
 )
@@ -3374,7 +3380,7 @@ empty
 *
 next_delayed_work_time
 =
-Time
+TimeTicks
 (
 )
 ;
@@ -3392,7 +3398,7 @@ top
 .
 delayed_run_time
 >
-Time
+TimeTicks
 :
 :
 Now

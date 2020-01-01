@@ -2380,7 +2380,7 @@ run
 base
 :
 :
-Time
+TimeTicks
 delayed_run_time
 ;
 /
@@ -2399,11 +2399,10 @@ sequence_num
 ;
 /
 /
-Used
-to
-facilitate
-sorting
-by
+Secondary
+sort
+key
+for
 run
 time
 .
@@ -2412,8 +2411,6 @@ nestable
 ;
 /
 /
-True
-if
 OK
 to
 dispatch
@@ -3108,7 +3105,7 @@ DoDelayedWork
 base
 :
 :
-Time
+TimeTicks
 *
 next_delayed_work_time
 )

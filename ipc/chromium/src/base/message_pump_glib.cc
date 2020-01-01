@@ -164,10 +164,12 @@ now
 int
 GetTimeIntervalMilliseconds
 (
+const
 base
 :
 :
-Time
+TimeTicks
+&
 from
 )
 {
@@ -250,7 +252,7 @@ from
 base
 :
 :
-Time
+TimeTicks
 :
 :
 Now
@@ -2423,7 +2425,7 @@ MessagePumpForUI
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )

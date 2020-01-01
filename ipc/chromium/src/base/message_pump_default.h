@@ -126,7 +126,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -176,7 +176,7 @@ should
 call
 DoDelayedWork
 .
-Time
+TimeTicks
 delayed_work_time_
 ;
 private

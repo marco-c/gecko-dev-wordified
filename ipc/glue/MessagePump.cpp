@@ -173,7 +173,7 @@ using
 base
 :
 :
-Time
+TimeTicks
 ;
 NS_IMPL_THREADSAFE_ISUPPORTS2
 (
@@ -865,7 +865,7 @@ const
 base
 :
 :
-Time
+TimeTicks
 &
 aDelayedTime
 )
@@ -959,7 +959,7 @@ aDelayedTime
 base
 :
 :
-Time
+TimeTicks
 :
 :
 Now

@@ -347,7 +347,7 @@ MessagePumpQt
 scheduleDelayedIfNeeded
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -387,7 +387,7 @@ later
 =
 delayed_work_time
 -
-Time
+TimeTicks
 :
 :
 Now
@@ -1014,7 +1014,7 @@ MessagePumpForUI
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )

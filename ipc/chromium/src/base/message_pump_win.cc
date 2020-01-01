@@ -567,7 +567,7 @@ ceil
 (
 delayed_work_time_
 -
-Time
+TimeTicks
 :
 :
 Now
@@ -842,7 +842,7 @@ MessagePumpForUI
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -3452,7 +3452,7 @@ MessagePumpForIO
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )

@@ -709,7 +709,7 @@ MessagePumpForUI
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )

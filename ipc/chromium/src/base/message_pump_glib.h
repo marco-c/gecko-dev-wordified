@@ -431,7 +431,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -849,7 +849,7 @@ do
 delayed
 work
 .
-Time
+TimeTicks
 delayed_work_time_
 ;
 /

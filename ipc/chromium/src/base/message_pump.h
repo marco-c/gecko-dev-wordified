@@ -60,7 +60,7 @@ namespace
 base
 {
 class
-Time
+TimeTicks
 ;
 class
 MessagePump
@@ -274,7 +274,7 @@ virtual
 bool
 DoDelayedWork
 (
-Time
+TimeTicks
 *
 next_delayed_work_time
 )
@@ -1080,7 +1080,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
