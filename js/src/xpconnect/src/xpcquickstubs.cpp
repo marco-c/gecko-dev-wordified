@@ -4107,9 +4107,6 @@ ccx
 nsISupports
 *
 p
-nsWrapperCache
-*
-cache
 XPCNativeInterface
 *
 iface
@@ -4241,7 +4238,6 @@ nsnull
 p
 nsnull
 iface
-cache
 scope
 PR_TRUE
 OBJ_IS_NOT_GLOBAL

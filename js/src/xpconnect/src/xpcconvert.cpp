@@ -3422,7 +3422,6 @@ nsnull
 iface
 iid
 nsnull
-nsnull
 scope
 PR_TRUE
 OBJ_IS_NOT_GLOBAL
@@ -6521,9 +6520,6 @@ iid
 XPCNativeInterface
 *
 Interface
-nsWrapperCache
-*
-cache
 JSObject
 *
 scope
@@ -6957,11 +6953,12 @@ XPCWrappedNative
 >
 strongWrapper
 ;
-if
-(
-!
+nsWrapperCache
+*
 cache
-)
+=
+nsnull
+;
 CallQueryInterface
 (
 src

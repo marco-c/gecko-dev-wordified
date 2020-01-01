@@ -6486,7 +6486,6 @@ aCOMObj
 &
 aIID
 nsnull
-nsnull
 tempGlobal
 PR_FALSE
 OBJ_IS_GLOBAL
@@ -7039,7 +7038,6 @@ aVal
 aHolder
 aCOMObj
 aIID
-nsnull
 nsnull
 aScope
 PR_FALSE
