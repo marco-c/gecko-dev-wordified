@@ -5656,7 +5656,7 @@ InitWithFuncCallback
 (
 LoaderTimerCallback
 this
-aDelay
+timerInterval
 nsITimer
 :
 :
