@@ -5183,7 +5183,7 @@ getInstance
 (
 )
 .
-getCount
+getDisplayCount
 (
 )
 =
