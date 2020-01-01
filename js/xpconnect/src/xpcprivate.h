@@ -23936,8 +23936,10 @@ set
 bool
 StartEvaluating
 (
-JSObject
-*
+JS
+:
+:
+HandleObject
 scope
 JSErrorReporter
 errorReporter
