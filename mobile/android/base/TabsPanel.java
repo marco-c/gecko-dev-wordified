@@ -2296,6 +2296,16 @@ dispatchLayoutChange
 0
 )
 ;
+mPanel
+.
+hide
+(
+)
+;
+mPanel
+=
+null
+;
 }
 }
 public
