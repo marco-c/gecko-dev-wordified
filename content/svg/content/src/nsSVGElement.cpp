@@ -571,13 +571,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsRuleWalker
 .
 h

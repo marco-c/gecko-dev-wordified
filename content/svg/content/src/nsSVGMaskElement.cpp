@@ -450,13 +450,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

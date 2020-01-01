@@ -471,13 +471,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

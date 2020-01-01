@@ -491,13 +491,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h
