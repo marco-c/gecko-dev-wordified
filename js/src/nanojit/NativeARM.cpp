@@ -15514,7 +15514,7 @@ underrunProtect
 /
 /
 BLX
-IP
+reg
 *
 (
 -
@@ -15560,8 +15560,13 @@ asm_output
 (
 "
 blx
-ip
+%
+s
 "
+gpn
+(
+addr
+)
 )
 ;
 }
