@@ -16647,6 +16647,9 @@ init
 )
 )
 {
+delete
+compartment
+;
 JS_ReportOutOfMemory
 (
 cx
