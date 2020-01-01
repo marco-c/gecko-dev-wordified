@@ -873,6 +873,17 @@ sInitialized
 ;
 private
 :
+already_AddRefed
+<
+nsIAtom
+>
+GetNameAtom
+(
+nsIContent
+*
+aContent
+)
+;
 nsresult
 EnsureChildState
 (
