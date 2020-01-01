@@ -1292,6 +1292,10 @@ define
 pclose
 _pclose
 #
+define
+hypot
+_hypot
+#
 endif
 #
 ifdef
