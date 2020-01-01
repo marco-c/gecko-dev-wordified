@@ -531,6 +531,13 @@ prtypes
 .
 h
 "
+#
+include
+"
+nscore
+.
+h
+"
 /
 *
 -
@@ -651,7 +658,7 @@ INVALID_SXP
 define
 VALID_SXP
 1
-extern
+NS_COM
 int
 NS_WildCardValid
 (
@@ -661,7 +668,7 @@ char
 expr
 )
 ;
-extern
+NS_COM
 int
 NS_WildCardValid
 (
@@ -726,7 +733,7 @@ match
 .
 *
 /
-extern
+NS_COM
 int
 NS_WildCardMatch
 (
@@ -742,7 +749,7 @@ PRBool
 case_insensitive
 )
 ;
-extern
+NS_COM
 int
 NS_WildCardMatch
 (
