@@ -443,6 +443,13 @@ h
 #
 include
 "
+nsWeakPtr
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -1038,10 +1045,8 @@ Shutdown
 ;
 /
 /
-Setter
-and
 Getter
-of
+for
 the
 URI
 that
@@ -1062,10 +1067,8 @@ mURI
 }
 /
 /
-Setter
-and
 Getter
-of
+for
 the
 window
 that
@@ -1074,7 +1077,7 @@ nsGeolocation
 is
 owned
 by
-nsIDOMWindow
+nsIWeakReference
 *
 GetOwner
 (
@@ -1193,8 +1196,7 @@ for
 Weak
 reference
 .
-nsPIDOMWindow
-*
+nsWeakPtr
 mOwner
 ;
 /
