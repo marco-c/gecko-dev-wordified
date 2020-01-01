@@ -1012,10 +1012,6 @@ __stdcall
 _name
 )
 #
-define
-NS_STDCALL
-__stdcall
-#
 ifndef
 _WIN64
 /
@@ -1037,7 +1033,16 @@ compiler
 .
 #
 define
+NS_STDCALL
+__stdcall
+#
+define
 NS_HAVE_STDCALL
+#
+else
+#
+define
+NS_STDCALL
 #
 endif
 #
