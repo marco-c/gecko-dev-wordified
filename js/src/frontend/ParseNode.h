@@ -151,7 +151,7 @@ include
 "
 frontend
 /
-TreeContext
+ParseContext
 .
 h
 "
@@ -6895,18 +6895,18 @@ atom
 Parser
 *
 parser
-TreeContext
+ParseContext
 *
-tc
+pc
 )
 ;
 inline
 void
 initCommon
 (
-TreeContext
+ParseContext
 *
-tc
+pc
 )
 ;
 #
@@ -8579,7 +8579,7 @@ if
 (
 x
 in
-tc
+pc
 -
 >
 decls
@@ -8609,7 +8609,7 @@ dn
 lookup
 x
 in
-tc
+pc
 -
 >
 lexdeps
@@ -8628,7 +8628,7 @@ def
 remove
 x
 from
-tc
+pc
 -
 >
 lexdeps
@@ -8654,7 +8654,7 @@ x
 to
 dn
 via
-tc
+pc
 -
 >
 decls
@@ -8699,7 +8699,7 @@ dn
 lookup
 x
 in
-tc
+pc
 '
 s
 lexical
@@ -8719,7 +8719,7 @@ dn
 lookup
 x
 in
-tc
+pc
 -
 >
 lexdeps
@@ -8748,7 +8748,7 @@ x
 to
 dn
 in
-tc
+pc
 -
 >
 lexdeps
@@ -8783,7 +8783,7 @@ for
 js
 :
 :
-TreeContext
+ParseContext
 and
 its
 top
@@ -8889,7 +8889,7 @@ set
 lookup
 x
 in
-tc
+pc
 '
 s
 lexical
@@ -8917,9 +8917,9 @@ scope
 chain
 which
 includes
-tc
+pc
 *
-tc
+pc
 -
 >
 parent
@@ -9042,7 +9042,7 @@ global
 or
 eval
 program
-tc
+pc
 -
 >
 lexdeps
@@ -9071,7 +9071,7 @@ merged
 into
 the
 parent
-tc
+pc
 -
 >
 lexdeps
@@ -9106,7 +9106,7 @@ will
 remove
 dn
 from
-tc
+pc
 -
 >
 lexdeps
@@ -9139,8 +9139,8 @@ unwinds
 from
 the
 outermost
-tc
-tc
+pc
+pc
 -
 >
 lexdeps
@@ -9866,9 +9866,9 @@ obj
 ParseNode
 *
 fn
-TreeContext
+ParseContext
 *
-tc
+pc
 )
 ;
 bool

@@ -170,7 +170,7 @@ include
 "
 frontend
 /
-TreeContext
+ParseContext
 -
 inl
 .
@@ -693,8 +693,8 @@ funbox
 NULL
 )
 ;
-TreeContext
-tc
+ParseContext
+pc
 (
 &
 parser
@@ -713,7 +713,7 @@ bodyid
 if
 (
 !
-tc
+pc
 .
 init
 (
@@ -1264,7 +1264,7 @@ callerFrame
 return
 NULL
 ;
-tc
+pc
 .
 functionList
 =
@@ -1479,7 +1479,7 @@ for
 AtomDefnRange
 r
 =
-tc
+pc
 .
 lexdeps
 -
@@ -1809,8 +1809,8 @@ staticLevel
 =
 0
 ;
-TreeContext
-funtc
+ParseContext
+funpc
 (
 &
 parser
@@ -1829,7 +1829,7 @@ bodyid
 if
 (
 !
-funtc
+funpc
 .
 init
 (

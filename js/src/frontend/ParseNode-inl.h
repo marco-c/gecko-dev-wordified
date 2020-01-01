@@ -134,7 +134,7 @@ include
 "
 frontend
 /
-TreeContext
+ParseContext
 .
 h
 "
@@ -143,7 +143,7 @@ include
 "
 frontend
 /
-TreeContext
+ParseContext
 -
 inl
 .
@@ -1070,9 +1070,9 @@ NameNode
 :
 initCommon
 (
-TreeContext
+ParseContext
 *
-tc
+pc
 )
 {
 pn_expr
@@ -1089,13 +1089,13 @@ pn_dflags
 =
 (
 !
-tc
+pc
 -
 >
 topStmt
 |
 |
-tc
+pc
 -
 >
 topStmt
@@ -1113,7 +1113,7 @@ PND_BLOCKCHILD
 ;
 pn_blockid
 =
-tc
+pc
 -
 >
 blockid
