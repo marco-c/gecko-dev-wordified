@@ -950,6 +950,9 @@ from
 int32_t
 calldepth
 ;
+uint32
+numGlobalSlots
+;
 uint8
 *
 typeMap
