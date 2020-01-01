@@ -481,9 +481,7 @@ is
 in
 dom
 /
-src
-/
-threads
+workers
 .
 *
 /
