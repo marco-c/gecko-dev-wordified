@@ -813,7 +813,7 @@ savedRBX
 )
 =
 =
-0x48
+0x58
 )
 ;
 JS_STATIC_ASSERT
@@ -825,7 +825,7 @@ fp
 )
 =
 =
-0x30
+0x40
 )
 ;
 asm
@@ -1020,7 +1020,7 @@ VMFrame
 /
 "
 subq
-0x28
+0x38
 %
 rsp
 "
@@ -1150,7 +1150,7 @@ n
 "
 "
 addq
-0x40
+0x50
 %
 rsp
 "
@@ -1324,7 +1324,7 @@ n
 "
 "
 addq
-0x48
+0x58
 %
 rsp
 "
@@ -1437,7 +1437,7 @@ reg
 /
 "
 movq
-0x30
+0x40
 (
 %
 rsp
