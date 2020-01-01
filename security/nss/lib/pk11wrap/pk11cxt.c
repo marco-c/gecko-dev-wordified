@@ -4182,7 +4182,7 @@ first
 encrypted
 and
 *
-loose
+lose
 them
 on
 the

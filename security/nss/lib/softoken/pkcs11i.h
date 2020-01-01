@@ -3803,6 +3803,8 @@ sftk_CloseAllSessions
 SFTKSlot
 *
 slot
+PRBool
+logout
 )
 ;
 /

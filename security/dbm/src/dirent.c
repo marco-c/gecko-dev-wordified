@@ -151,7 +151,7 @@ that
 *
 *
 Novell
-looses
+loses
 entries
 which
 overflow

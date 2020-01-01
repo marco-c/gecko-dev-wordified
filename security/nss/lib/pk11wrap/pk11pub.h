@@ -3740,6 +3740,14 @@ PK11SymKey
 key
 )
 ;
+CK_OBJECT_HANDLE
+PK11_GetSymKeyHandle
+(
+PK11SymKey
+*
+symKey
+)
+;
 /
 *
 *

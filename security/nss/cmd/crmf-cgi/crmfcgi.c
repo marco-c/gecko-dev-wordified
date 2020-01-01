@@ -2680,7 +2680,7 @@ h1
 >
 New
 Certificate
-Succesfully
+Successfully
 Imported
 .
 <

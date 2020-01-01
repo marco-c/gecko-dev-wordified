@@ -3951,6 +3951,7 @@ PKIX_Error
 *
 pkix_UTF16_to_EscASCII
 (
+const
 void
 *
 utf16String
@@ -5074,6 +5075,7 @@ PKIX_Error
 *
 pkix_EscASCII_to_UTF16
 (
+const
 char
 *
 escAsciiString
@@ -6468,6 +6470,7 @@ PKIX_Error
 *
 pkix_UTF16_to_UTF8
 (
+const
 void
 *
 utf16String
@@ -6910,6 +6913,7 @@ PKIX_Error
 *
 pkix_UTF8_to_UTF16
 (
+const
 void
 *
 utf8String

@@ -383,13 +383,6 @@ lint
 /
 #
 include
-"
-watcomfx
-.
-h
-"
-#
-include
 <
 stdio
 .

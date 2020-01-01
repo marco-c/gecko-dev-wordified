@@ -509,7 +509,7 @@ h
 #
 include
 "
-pk11util
+pk11table
 .
 h
 "
@@ -2374,7 +2374,7 @@ s
 :
 0x
 %
-x
+lx
 is
 an
 invalid
@@ -2442,7 +2442,7 @@ stderr
 s
 [
 %
-d
+lu
 ]
 :
 index
@@ -6307,6 +6307,10 @@ ID
 ;
 printChars
 (
+(
+char
+*
+)
 info
 -
 >
@@ -6344,6 +6348,10 @@ Description
 ;
 printChars
 (
+(
+char
+*
+)
 info
 -
 >
@@ -6407,6 +6415,10 @@ Description
 ;
 printChars
 (
+(
+char
+*
+)
 slotInfo
 -
 >
@@ -6431,6 +6443,10 @@ ID
 ;
 printChars
 (
+(
+char
+*
+)
 slotInfo
 -
 >
@@ -6529,6 +6545,10 @@ Label
 ;
 printChars
 (
+(
+char
+*
+)
 tokenInfo
 -
 >
@@ -6553,6 +6573,10 @@ ID
 ;
 printChars
 (
+(
+char
+*
+)
 tokenInfo
 -
 >
@@ -6576,6 +6600,10 @@ Model
 ;
 printChars
 (
+(
+char
+*
+)
 tokenInfo
 -
 >
@@ -6600,6 +6628,10 @@ Number
 ;
 printChars
 (
+(
+char
+*
+)
 tokenInfo
 -
 >
@@ -6862,6 +6894,10 @@ Time
 ;
 printChars
 (
+(
+char
+*
+)
 tokenInfo
 -
 >
@@ -7297,6 +7333,10 @@ s
 \
 n
 "
+(
+char
+*
+)
 initArgs
 -
 >
@@ -10424,7 +10464,7 @@ a
 >
 data
 (
-CK_LONG
+CK_ULONG
 *
 )
 a

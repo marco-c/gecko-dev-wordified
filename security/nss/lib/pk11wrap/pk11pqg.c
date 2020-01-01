@@ -1474,7 +1474,7 @@ whether
 Verification
 operation
 ran
-succesfully
+successfully
 *
 to
 completion

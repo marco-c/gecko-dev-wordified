@@ -365,13 +365,6 @@ lint
 /
 #
 include
-"
-watcomfx
-.
-h
-"
-#
-include
 <
 string
 .

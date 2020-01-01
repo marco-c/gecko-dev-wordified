@@ -411,13 +411,6 @@ not
 lint
 *
 /
-#
-include
-"
-watcomfx
-.
-h
-"
 /
 *
 *

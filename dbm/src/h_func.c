@@ -381,13 +381,6 @@ lint
 *
 /
 #
-include
-"
-watcomfx
-.
-h
-"
-#
 ifndef
 macintosh
 #

@@ -5417,7 +5417,7 @@ arg
 if
 an
 error
-occurrs
+occurs
 clear
 the
 notifyProc

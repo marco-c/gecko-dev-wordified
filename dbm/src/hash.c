@@ -382,13 +382,6 @@ lint
 *
 /
 #
-include
-"
-watcomfx
-.
-h
-"
-#
 if
 !
 defined
