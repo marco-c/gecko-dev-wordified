@@ -779,6 +779,13 @@ plugins
 :
 parent
 ;
+using
+namespace
+mozilla
+:
+:
+layers
+;
 static
 NS_DEFINE_IID
 (

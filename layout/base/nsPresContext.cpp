@@ -647,6 +647,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+layers
+;
 uint8_t
 gNotifySubDocInvalidationData
 ;

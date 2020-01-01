@@ -104,14 +104,6 @@ CameraCommon
 .
 h
 "
-using
-namespace
-mozilla
-;
-using
-namespace
-dom
-;
 namespace
 mozilla
 {

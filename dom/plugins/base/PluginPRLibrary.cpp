@@ -258,6 +258,13 @@ args
 )
 #
 endif
+using
+namespace
+mozilla
+:
+:
+layers
+;
 namespace
 mozilla
 {

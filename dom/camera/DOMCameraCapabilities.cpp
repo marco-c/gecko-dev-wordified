@@ -121,6 +121,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 DOMCI_DATA
 (
 CameraCapabilities
