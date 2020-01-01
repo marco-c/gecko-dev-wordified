@@ -19,10 +19,12 @@ libpng
 .
 2
 .
+30
+[
+August
 13
-November
-13
-2006
+2008
+]
 *
 For
 conditions
@@ -44,7 +46,7 @@ c
 )
 1998
 -
-2006
+2008
 Glenn
 Randers
 -
@@ -1845,6 +1847,12 @@ png_ptr
 =
 =
 NULL
+|
+|
+ptr
+=
+=
+NULL
 )
 return
 ;
@@ -2712,6 +2720,7 @@ png_uint_32
 ifndef
 PNG_USER_MEM_SUPPORTED
 if
+(
 (
 png_ptr
 -
