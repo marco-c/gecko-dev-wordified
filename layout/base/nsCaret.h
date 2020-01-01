@@ -924,9 +924,11 @@ indicator
 Metrics
 ComputeMetrics
 (
-nsPresContext
+nsIFrame
 *
-aPresContext
+aFrame
+PRInt32
+aOffset
 )
 ;
 /
