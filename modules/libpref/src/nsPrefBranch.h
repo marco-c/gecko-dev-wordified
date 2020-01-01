@@ -493,13 +493,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsXPCOM
 .
 h
