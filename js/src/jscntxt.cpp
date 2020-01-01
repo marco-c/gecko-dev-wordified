@@ -3396,6 +3396,13 @@ if
 (
 maybecx
 )
+{
+AutoSuppressGC
+suppressGC
+(
+maybecx
+)
+;
 JS_ReportErrorNumber
 (
 maybecx
@@ -3404,6 +3411,7 @@ NULL
 JSMSG_ALLOC_OVERFLOW
 )
 ;
+}
 }
 /
 *
