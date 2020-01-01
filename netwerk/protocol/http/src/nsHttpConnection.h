@@ -1190,6 +1190,8 @@ ProxyStartSSL
 nsresult
 CreateTransport
 (
+PRUint8
+caps
 )
 ;
 nsresult
