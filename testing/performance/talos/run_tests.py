@@ -881,10 +881,6 @@ for
 mypage
 in
 page_results
-[
-2
-:
-]
 :
           
 r
@@ -897,6 +893,31 @@ split
 ;
 '
 )
+          
+#
+skip
+this
+line
+if
+it
+isn
+'
+t
+the
+correct
+format
+          
+if
+len
+(
+r
+)
+=
+=
+1
+:
+              
+continue
           
 r
 [
@@ -1605,10 +1626,6 @@ for
 mypage
 in
 page_results
-[
-2
-:
-]
 :
           
 r
@@ -1621,6 +1638,31 @@ split
 ;
 '
 )
+          
+#
+skip
+this
+line
+if
+it
+isn
+'
+t
+the
+correct
+format
+          
+if
+len
+(
+r
+)
+=
+=
+1
+:
+              
+continue
           
 r
 [
