@@ -17679,6 +17679,11 @@ nsOverflowAreas
 aOverflowAreas
 nsSize
 aNewSize
+nsSize
+*
+aOldSize
+=
+nullptr
 )
 ;
 bool
