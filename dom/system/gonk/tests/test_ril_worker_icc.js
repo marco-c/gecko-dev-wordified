@@ -2994,7 +2994,7 @@ worker
 .
 RIL
 .
-iccInfo
+iccInfoPrivate
 .
 sst
 =
