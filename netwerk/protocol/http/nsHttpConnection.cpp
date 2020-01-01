@@ -508,6 +508,10 @@ mKeepAliveMask
 (
 true
 )
+mDontReuse
+(
+false
+)
 mSupportsPipelining
 (
 false
@@ -3132,6 +3136,10 @@ mKeepAlive
 =
 false
 ;
+mDontReuse
+=
+true
+;
 mIdleTimeout
 =
 0
@@ -3236,6 +3244,10 @@ mSupportsPipelining
 IsKeepAlive
 (
 )
+&
+&
+!
+mDontReuse
 ;
 }
 bool
@@ -3246,6 +3258,13 @@ CanReuse
 (
 )
 {
+if
+(
+mDontReuse
+)
+return
+false
+;
 if
 (
 (
