@@ -1665,7 +1665,7 @@ addToTableOrFree
 JSContext
 *
 cx
-TypeRepresentationSet
+TypeRepresentationHash
 :
 :
 AddPtr
@@ -1890,7 +1890,7 @@ sample
 type
 )
 ;
-TypeRepresentationSet
+TypeRepresentationHash
 :
 :
 AddPtr
@@ -2088,7 +2088,7 @@ element
 length
 )
 ;
-TypeRepresentationSet
+TypeRepresentationHash
 :
 :
 AddPtr
@@ -2296,7 +2296,7 @@ typeReprOwners
 return
 NULL
 ;
-TypeRepresentationSet
+TypeRepresentationHash
 :
 :
 AddPtr
@@ -3464,7 +3464,7 @@ StructTypeRepresentation
 :
 fieldNamed
 (
-HandleId
+jsid
 id
 )
 const
@@ -3502,10 +3502,6 @@ get
 =
 =
 id
-.
-get
-(
-)
 )
 return
 &

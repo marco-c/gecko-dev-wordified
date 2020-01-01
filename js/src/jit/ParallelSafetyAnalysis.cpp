@@ -1031,6 +1031,10 @@ NewParallelArray
 )
 UNSAFE_OP
 (
+NewDerivedTypedObject
+)
+UNSAFE_OP
+(
 InitElem
 )
 UNSAFE_OP
@@ -1200,6 +1204,10 @@ TypedArrayLength
 SAFE_OP
 (
 TypedArrayElements
+)
+SAFE_OP
+(
+TypedObjectElements
 )
 SAFE_OP
 (

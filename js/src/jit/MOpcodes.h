@@ -689,6 +689,11 @@ TypedArrayElements
 \
 _
 (
+TypedObjectElements
+)
+\
+_
+(
 InitializedLength
 )
 \
@@ -1055,6 +1060,11 @@ NewPar
 _
 (
 NewDenseArrayPar
+)
+\
+_
+(
+NewDerivedTypedObject
 )
 \
 _

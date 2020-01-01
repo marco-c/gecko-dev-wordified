@@ -1267,7 +1267,7 @@ representations
 js
 :
 :
-TypeRepresentationSet
+TypeRepresentationHash
 typeReprs
 ;
 private

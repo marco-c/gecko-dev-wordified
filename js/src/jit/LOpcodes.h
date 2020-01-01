@@ -243,6 +243,11 @@ NewCallObjectPar
 \
 _
 (
+NewDerivedTypedObject
+)
+\
+_
+(
 AbortPar
 )
 \
@@ -1184,6 +1189,11 @@ TypedArrayLength
 _
 (
 TypedArrayElements
+)
+\
+_
+(
+TypedObjectElements
 )
 \
 _
