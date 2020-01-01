@@ -1945,9 +1945,7 @@ buffer
 /
 Types
 .
-char
-.
-out_ptr
+voidptr_t
 /
 *
 nbytes
@@ -2165,9 +2163,7 @@ buffer
 /
 Types
 .
-char
-.
-in_ptr
+voidptr_t
 /
 *
 nbytes
