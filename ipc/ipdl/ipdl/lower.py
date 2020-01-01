@@ -2700,7 +2700,11 @@ ud
 .
 decl
 .
+type
+.
 fullname
+(
+)
 +
 '
 :
