@@ -355,6 +355,17 @@ aEvent
 )
 const
 ;
+bool
+IsPending
+(
+)
+const
+{
+return
+!
+mHaveResultOrErrorCode
+;
+}
 protected
 :
 IDBRequest

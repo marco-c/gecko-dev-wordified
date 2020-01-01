@@ -22811,6 +22811,7 @@ managers
 manager
 (
 )
+const
                 
 managertype
 =
@@ -22843,6 +22844,9 @@ name
 ret
 =
 managertype
+const
+=
+1
 )
 )
                 
