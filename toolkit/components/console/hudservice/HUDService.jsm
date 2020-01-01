@@ -15213,6 +15213,8 @@ getBrowserForDocument
 (
 aContentWindow
 .
+top
+.
 document
 .
 wrappedJSObject
