@@ -15614,6 +15614,13 @@ newThebesLayer
 ;
 }
 }
+aItem
+-
+>
+NotifyRenderingChanged
+(
+)
+;
 return
 ;
 }
@@ -16183,6 +16190,13 @@ IsEmpty
 )
 )
 {
+aItem
+-
+>
+NotifyRenderingChanged
+(
+)
+;
 InvalidatePostTransformRegion
 (
 newThebesLayer
