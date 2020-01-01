@@ -1962,6 +1962,16 @@ dom
 TraceBlackJS
 (
 trc
+JS_GetGCParameter
+(
+self
+-
+>
+GetJSRuntime
+(
+)
+JSGC_NUMBER
+)
 )
 ;
 }

@@ -297,6 +297,9 @@ struct
 JSObject
 ;
 struct
+JSTracer
+;
+struct
 PRLogModuleInfo
 ;
 class
@@ -873,6 +876,16 @@ nsXPCClassInfo
 *
 GetClassInfo
 (
+)
+;
+void
+TraceProtos
+(
+JSTracer
+*
+aTrc
+uint32_t
+aGCNumber
 )
 ;
 protected

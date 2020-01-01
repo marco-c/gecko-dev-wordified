@@ -172,6 +172,9 @@ nsXULPrototypePI
 class
 nsXULPDGlobalObject
 ;
+struct
+JSTracer
+;
 /
 *
 *
@@ -689,6 +692,16 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsXULPrototypeDocument
 nsIScriptGlobalObjectOwner
 )
+void
+TraceProtos
+(
+JSTracer
+*
+aTrc
+uint32_t
+aGCNumber
+)
+;
 protected
 :
 nsCOMPtr
@@ -744,6 +757,9 @@ mNodeInfoManager
 ;
 uint32_t
 mCCGeneration
+;
+uint32_t
+mGCNumber
 ;
 nsXULPrototypeDocument
 (
