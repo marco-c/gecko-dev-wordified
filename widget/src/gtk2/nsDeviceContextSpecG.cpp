@@ -3797,11 +3797,6 @@ properPaperSize
 =
 geckosHackishPaperSize
 ;
-gtk_paper_size_free
-(
-standardGtkPaperSize
-)
-;
 }
 gtk_print_settings_set_paper_size
 (
@@ -3813,6 +3808,11 @@ gtk_page_setup_set_paper_size_and_default_margins
 (
 mGtkPageSetup
 properPaperSize
+)
+;
+gtk_paper_size_free
+(
+standardGtkPaperSize
 )
 ;
 return
