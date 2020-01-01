@@ -1102,6 +1102,10 @@ Dtans
 '
 ]
             
+EXPORT_LIBRARY
+=
+True
+            
 EXTRA_COMPONENTS
 =
 [
@@ -1171,6 +1175,14 @@ jsm
 ]
             
 FAIL_ON_WARNINGS
+=
+True
+            
+FORCE_SHARED_LIB
+=
+True
+            
+FORCE_STATIC_LIB
 =
 True
             
@@ -1254,6 +1266,10 @@ HOST_LIBRARY_NAME
 '
 host_fans
 '
+            
+IS_COMPONENT
+=
+True
             
 LIBRARY_NAME
 =
