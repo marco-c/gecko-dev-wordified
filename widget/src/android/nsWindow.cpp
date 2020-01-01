@@ -2399,7 +2399,7 @@ AndroidGeckoEvent
 }
 #
 ifdef
-ANDROID_DEBUG_WIDGET
+DEBUG_ANDROID_WIDGET
 DumpWindows
 (
 )
@@ -8803,7 +8803,7 @@ NS_EVENT_FLAG_NO_DEFAULT
 }
 #
 ifdef
-ANDROID_DEBUG_WIDGET
+DEBUG_ANDROID_WIDGET
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -8870,7 +8870,7 @@ pressEvent
 }
 #
 ifdef
-ANDROID_DEBUG_IME
+DEBUG_ANDROID_IME
 #
 define
 ALOGIME

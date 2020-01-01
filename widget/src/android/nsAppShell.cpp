@@ -568,7 +568,7 @@ h
 endif
 #
 ifdef
-ANDROID_DEBUG_EVENTS
+DEBUG_ANDROID_EVENTS
 #
 define
 EVLOG
@@ -1345,7 +1345,7 @@ this
 if
 defined
 (
-ANDROID_DEBUG_EVENTS
+DEBUG_ANDROID_EVENTS
 )
 PRTime
 t0
@@ -1560,7 +1560,7 @@ nextEvent
 if
 defined
 (
-ANDROID_DEBUG_EVENTS
+DEBUG_ANDROID_EVENTS
 )
 ALOG
 (
@@ -1691,7 +1691,7 @@ break
 if
 defined
 (
-ANDROID_DEBUG_EVENTS
+DEBUG_ANDROID_EVENTS
 )
 ALOG
 (

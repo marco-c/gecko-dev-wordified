@@ -506,12 +506,12 @@ defines
 /
 #
 define
-ANDROID_DEBUG_EVENTS
+DEBUG_ANDROID_EVENTS
 /
 /
 #
 define
-ANDROID_DEBUG_WIDGET
+DEBUG_ANDROID_WIDGET
 class
 nsWindow
 ;
