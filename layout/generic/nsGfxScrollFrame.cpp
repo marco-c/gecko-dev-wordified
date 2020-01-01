@@ -10631,7 +10631,7 @@ sublist
 item
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 ;

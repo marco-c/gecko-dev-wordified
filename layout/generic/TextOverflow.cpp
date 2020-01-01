@@ -3881,7 +3881,7 @@ wrapper
 item
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 ;

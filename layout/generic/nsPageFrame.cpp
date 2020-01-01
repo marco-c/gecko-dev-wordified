@@ -2814,7 +2814,7 @@ subList
 i
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 ;

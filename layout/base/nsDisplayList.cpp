@@ -5481,7 +5481,7 @@ TYPE_WRAP_LIST
 item
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 -
@@ -6194,7 +6194,7 @@ list
 item
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 ;
@@ -9094,7 +9094,7 @@ list
 i
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 ;
@@ -16328,7 +16328,7 @@ list
 i
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 ;
@@ -24354,7 +24354,7 @@ this
 *
 mStoredList
 .
-GetList
+GetChildren
 (
 )
 aContainerParameters
@@ -24649,7 +24649,7 @@ aParameters
 *
 mStoredList
 .
-GetList
+GetChildren
 (
 )
 activeScrolledRoot
