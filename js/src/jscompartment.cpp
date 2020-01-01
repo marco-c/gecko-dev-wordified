@@ -2717,7 +2717,7 @@ popFront
 (
 )
 )
-MarkRoot
+MarkValueRoot
 (
 trc
 e
@@ -2832,7 +2832,7 @@ JSScript
 (
 )
 ;
-MarkRoot
+MarkScriptRoot
 (
 trc
 script
@@ -2906,7 +2906,7 @@ hasSingletonType
 (
 )
 )
-MarkRoot
+MarkObjectRoot
 (
 trc
 object
@@ -2939,7 +2939,7 @@ next
 (
 )
 )
-MarkRoot
+MarkTypeObjectRoot
 (
 trc
 i
