@@ -17653,9 +17653,9 @@ compartment
 >
 principals
 )
-JSPRINCIPALS_DROP
+JS_DropPrincipals
 (
-cx
+rt
 compartment
 -
 >
@@ -23725,9 +23725,8 @@ principals
 =
 principals
 ;
-JSPRINCIPALS_HOLD
+JS_HoldPrincipals
 (
-cx
 principals
 )
 ;
