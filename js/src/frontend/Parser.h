@@ -3560,7 +3560,7 @@ list
 Node
 funcpn
 bool
-&
+*
 hasRest
 )
 ;
