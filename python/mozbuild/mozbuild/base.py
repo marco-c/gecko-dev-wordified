@@ -1233,6 +1233,25 @@ samepath
 topobjdir
 config_topobjdir
 )
+\
+            
+and
+not
+samepath
+(
+topobjdir
+os
+.
+path
+.
+join
+(
+config_topobjdir
+"
+mozilla
+"
+)
+)
 :
             
 raise
@@ -1244,9 +1263,9 @@ config_topobjdir
         
 topobjdir
 =
-config_topobjdir
-or
 topobjdir
+or
+config_topobjdir
         
 if
 topobjdir
