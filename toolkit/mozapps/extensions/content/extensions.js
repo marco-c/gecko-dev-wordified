@@ -3801,8 +3801,7 @@ we
 '
 re
 not
-a
-browser
+Firefox
 use
 the
 external
@@ -4998,8 +4997,7 @@ MOZ_PHOENIX
 If
 we
 are
-a
-browser
+Firefox
 when
 updating
 on
