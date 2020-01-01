@@ -802,7 +802,7 @@ VALARRAY
 js
 :
 :
-AutoValueArrayRooter
+AutoValueArray
 *
 /
 PARSER
