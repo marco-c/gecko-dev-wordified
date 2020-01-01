@@ -16751,6 +16751,8 @@ SetDebugModeWhenPossible
 (
 bool
 mode
+bool
+allowSyncDisable
 )
 {
 gDesiredDebugMode
@@ -16761,6 +16763,9 @@ if
 (
 !
 mode
+&
+&
+allowSyncDisable
 )
 CheckForDebugMode
 (
