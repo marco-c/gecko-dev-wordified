@@ -10705,6 +10705,12 @@ NS_FORM_INPUT_TEXT
 type
 =
 =
+NS_FORM_INPUT_TEL
+|
+|
+type
+=
+=
 NS_FORM_INPUT_PASSWORD
 |
 |

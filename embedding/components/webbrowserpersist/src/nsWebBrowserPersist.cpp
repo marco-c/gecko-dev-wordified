@@ -18476,6 +18476,9 @@ GetType
 case
 NS_FORM_INPUT_TEXT
 :
+case
+NS_FORM_INPUT_TEL
+:
 nodeAsInput
 -
 >
