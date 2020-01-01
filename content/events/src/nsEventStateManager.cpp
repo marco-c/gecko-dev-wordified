@@ -9289,6 +9289,9 @@ NS_MOUSE_BUTTON_UP
 case
 NS_MOUSE_MOVE
 :
+case
+NS_CONTEXTMENU
+:
 return
 true
 ;
