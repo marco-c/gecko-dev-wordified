@@ -510,6 +510,17 @@ len
 ;
 void
 JS_FASTCALL
+InitElem
+(
+VMFrame
+&
+f
+uint32
+last
+)
+;
+void
+JS_FASTCALL
 EndInit
 (
 VMFrame
