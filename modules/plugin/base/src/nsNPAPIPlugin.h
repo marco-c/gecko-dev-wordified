@@ -430,13 +430,6 @@ nsNPAPIPlugin_h_
 #
 include
 "
-nsIFactory
-.
-h
-"
-#
-include
-"
 nsIPlugin
 .
 h
@@ -672,7 +665,6 @@ void
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIFACTORY
 NS_DECL_NSIPLUGIN
 /
 /
