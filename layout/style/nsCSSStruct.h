@@ -1567,6 +1567,9 @@ mLineHeight
 nsCSSValue
 mWhiteSpace
 ;
+nsCSSValue
+mWordWrap
+;
 private
 :
 nsCSSText

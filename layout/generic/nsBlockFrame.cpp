@@ -23713,6 +23713,11 @@ forceBreakOffset
 -
 1
 ;
+gfxBreakPriority
+forceBreakPriority
+=
+eNoBreak
+;
 do
 {
 nsSpaceManager
@@ -23976,6 +23981,8 @@ GetLastOptionalBreakPosition
 (
 &
 forceBreakOffset
+&
+forceBreakPriority
 )
 ;
 }
@@ -24774,6 +24781,7 @@ GetContent
 )
 0
 PR_TRUE
+eNormalBreak
 )
 )
 {
@@ -25332,6 +25340,9 @@ run
 PRInt32
 offset
 ;
+gfxBreakPriority
+breakPriority
+;
 nsIContent
 *
 breakContent
@@ -25342,6 +25353,8 @@ GetLastOptionalBreakPosition
 (
 &
 offset
+&
+breakPriority
 )
 ;
 /

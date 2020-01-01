@@ -852,6 +852,10 @@ mForceBreakContentOffset
 -
 1
 )
+mLastOptionalBreakPriority
+(
+eNoBreak
+)
 mBlockRS
 (
 nsnull
@@ -5837,6 +5841,9 @@ GetType
 PRInt32
 savedOptionalBreakOffset
 ;
+gfxBreakPriority
+savedOptionalBreakPriority
+;
 nsIContent
 *
 savedOptionalBreakContent
@@ -5845,6 +5852,8 @@ GetLastOptionalBreakPosition
 (
 &
 savedOptionalBreakOffset
+&
+savedOptionalBreakPriority
 )
 ;
 rv
@@ -7350,6 +7359,7 @@ GetContent
 )
 PR_INT32_MAX
 optionalBreakAfterFits
+eNormalBreak
 )
 )
 {
@@ -7421,6 +7431,7 @@ RestoreSavedBreakPosition
 (
 savedOptionalBreakContent
 savedOptionalBreakOffset
+savedOptionalBreakPriority
 )
 ;
 }

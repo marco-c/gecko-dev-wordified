@@ -1814,6 +1814,15 @@ nsIDOMCSSValue
 aValue
 )
 ;
+nsresult
+GetWordWrap
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
 /
 *
 Visibility

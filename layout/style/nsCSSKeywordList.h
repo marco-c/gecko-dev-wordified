@@ -1897,6 +1897,13 @@ bounding_box
 )
 CSS_KEY
 (
+break
+-
+word
+break_word
+)
+CSS_KEY
+(
 button
 button
 )

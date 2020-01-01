@@ -1525,6 +1525,13 @@ width
 max
 -
 width
+static
+const
+PRInt32
+kWordwrapKTable
+[
+]
+;
 }
 ;
 #
