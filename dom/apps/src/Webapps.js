@@ -666,6 +666,10 @@ INVALID_URL
 "
 +
 aURL
++
+"
+'
+"
 Cr
 .
 NS_ERROR_FAILURE
