@@ -220,8 +220,7 @@ sub
 -
 document
 .
-yield
-FullZoomHelper
+FullZoom
 .
 enlarge
 (

@@ -243,8 +243,7 @@ selected
 Zoom
 tab
 1
-yield
-FullZoomHelper
+FullZoom
 .
 enlarge
 (
@@ -715,8 +714,7 @@ selectTabAndWaitForLocationChange
 gTab1
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 reset
 (
@@ -729,8 +727,7 @@ removeTab
 gTab1
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 reset
 (
@@ -743,8 +740,7 @@ removeTab
 gTab2
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 reset
 (

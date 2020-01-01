@@ -3310,7 +3310,7 @@ this
 .
 _privModeStorage
 .
-removeGrouped
+removeAllGroups
 (
 )
 ;
@@ -3319,7 +3319,7 @@ this
 .
 _cache
 .
-removeGrouped
+removeAllGroups
 (
 )
 ;
