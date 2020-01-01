@@ -4218,6 +4218,17 @@ ctor
 )
 )
     
+members
+.
+extend
+(
+descriptor
+.
+interface
+.
+namedConstructors
+)
+    
 signatures
 =
 [
