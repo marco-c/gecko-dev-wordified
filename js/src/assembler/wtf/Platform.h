@@ -2893,8 +2893,11 @@ Linux
 *
 /
 #
-ifdef
+if
+defined
+(
 __linux__
+)
 &
 &
 !
