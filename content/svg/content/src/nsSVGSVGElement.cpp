@@ -3639,7 +3639,7 @@ this
 *
 readonly
 attribute
-nsIDOMSVGAnimatedPreserveAspectRatio
+SVGPreserveAspectRatio
 preserveAspectRatio
 ;
 *
@@ -3650,7 +3650,7 @@ nsSVGSVGElement
 :
 GetPreserveAspectRatio
 (
-nsIDOMSVGAnimatedPreserveAspectRatio
+nsISupports
 *
 *
 aPreserveAspectRatio
@@ -7238,13 +7238,7 @@ none
 return
 SVGPreserveAspectRatio
 (
-nsIDOMSVGPreserveAspectRatio
-:
-:
 SVG_PRESERVEASPECTRATIO_NONE
-nsIDOMSVGPreserveAspectRatio
-:
-:
 SVG_MEETORSLICE_SLICE
 )
 ;

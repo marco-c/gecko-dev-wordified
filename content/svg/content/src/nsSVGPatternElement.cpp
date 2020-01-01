@@ -734,7 +734,7 @@ this
 *
 readonly
 attribute
-nsIDOMSVGAnimatedPreserveAspectRatio
+SVGPreserveAspectRatio
 preserveAspectRatio
 ;
 *
@@ -745,7 +745,7 @@ nsSVGPatternElement
 :
 GetPreserveAspectRatio
 (
-nsIDOMSVGAnimatedPreserveAspectRatio
+nsISupports
 *
 *
 aPreserveAspectRatio

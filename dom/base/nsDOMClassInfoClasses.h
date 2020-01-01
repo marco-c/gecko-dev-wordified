@@ -1073,10 +1073,6 @@ SVGAnimatedNumberList
 )
 DOMCI_CLASS
 (
-SVGAnimatedPreserveAspectRatio
-)
-DOMCI_CLASS
-(
 SVGAnimatedRect
 )
 DOMCI_CLASS
@@ -1194,10 +1190,6 @@ SVGPathSegMovetoRel
 DOMCI_CLASS
 (
 SVGPoint
-)
-DOMCI_CLASS
-(
-SVGPreserveAspectRatio
 )
 DOMCI_CLASS
 (
