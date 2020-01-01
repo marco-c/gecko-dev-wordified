@@ -517,6 +517,16 @@ nsScreenGtk
 )
 {
 }
+/
+/
+addref
+release
+QI
+NS_IMPL_ISUPPORTS1
+(
+nsScreenGtk
+nsIScreen
+)
 NS_IMETHODIMP
 nsScreenGtk
 :

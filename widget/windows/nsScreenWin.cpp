@@ -616,6 +616,16 @@ see
 here
 .
 }
+/
+/
+addref
+release
+QI
+NS_IMPL_ISUPPORTS1
+(
+nsScreenWin
+nsIScreen
+)
 NS_IMETHODIMP
 nsScreenWin
 :
