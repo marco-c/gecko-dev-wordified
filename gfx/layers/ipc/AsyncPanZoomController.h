@@ -1895,7 +1895,7 @@ aMetrics
 *
 into
 its
-compositiong
+composition
 bounds
 .
 *
