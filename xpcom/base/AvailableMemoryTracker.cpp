@@ -2650,7 +2650,7 @@ giving
 the
 memory
 .
-low_physical_mem_threshold_mb
+low_physical_memory_threshold_mb
 pref
 a
 non
@@ -2716,7 +2716,7 @@ the
 '
 memory
 .
-low_physical_mem_threshold_mb
+low_physical_memory_threshold_mb
 '
 pref
 )
@@ -2862,7 +2862,7 @@ sLowPhysicalMemoryThreshold
 "
 memory
 .
-low_physical_mem_threshold_mb
+low_physical_memory_threshold_mb
 "
 0
 )
