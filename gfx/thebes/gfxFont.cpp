@@ -1689,8 +1689,8 @@ GetTableLength
 (
 )
 HB_MEMORY_MODE_READONLY
-DeleteFontTableBlobData
 data
+DeleteFontTableBlobData
 )
 ;
 }
@@ -1754,8 +1754,8 @@ GetTableLength
 (
 )
 HB_MEMORY_MODE_READONLY
-DeleteFontTableBlobData
 mSharedBlobData
+DeleteFontTableBlobData
 )
 ;
 if
@@ -4580,7 +4580,7 @@ mCh
 )
 ;
 PRUint32
-hbscript
+script
 =
 gfxUnicodeProperties
 :
@@ -4648,7 +4648,7 @@ aMatchData
 mCh
 charRange
 unicodeRange
-hbscript
+script
 NS_ConvertUTF16toUTF8
 (
 fe
@@ -11975,13 +11975,13 @@ return
 category
 >
 =
-HB_CATEGORY_COMBINING_MARK
+HB_UNICODE_GENERAL_CATEGORY_SPACING_MARK
 &
 &
 category
 <
 =
-HB_CATEGORY_NON_SPACING_MARK
+HB_UNICODE_GENERAL_CATEGORY_NON_SPACING_MARK
 )
 |
 |
@@ -20186,7 +20186,7 @@ aTextRun
 aString
 0
 aLength
-HB_SCRIPT_LATIN
+MOZ_SCRIPT_LATIN
 )
 ;
 }
@@ -20318,7 +20318,7 @@ aLength
 PRInt32
 runScript
 =
-HB_SCRIPT_LATIN
+MOZ_SCRIPT_LATIN
 ;
 while
 (
@@ -21556,7 +21556,7 @@ if
 category
 =
 =
-HB_CATEGORY_CONTROL
+HB_UNICODE_GENERAL_CATEGORY_CONTROL
 )
 {
 selectedFont
@@ -21987,7 +21987,7 @@ aCh
 )
 =
 =
-HB_CATEGORY_SPACE_SEPARATOR
+HB_UNICODE_GENERAL_CATEGORY_SPACE_SEPARATOR
 &
 &
 GetFontAt
@@ -24456,7 +24456,7 @@ if
 category
 =
 =
-HB_CATEGORY_OTHER_LETTER
+HB_UNICODE_GENERAL_CATEGORY_OTHER_LETTER
 )
 {
 /
@@ -31944,13 +31944,13 @@ if
 category
 >
 =
-HB_CATEGORY_COMBINING_MARK
+HB_UNICODE_GENERAL_CATEGORY_SPACING_MARK
 &
 &
 category
 <
 =
-HB_CATEGORY_NON_SPACING_MARK
+HB_UNICODE_GENERAL_CATEGORY_NON_SPACING_MARK
 )
 {
 mCharacterGlyphs
@@ -32910,7 +32910,7 @@ HashMix
 '
 '
 )
-HB_SCRIPT_LATIN
+MOZ_SCRIPT_LATIN
 mAppUnitsPerDevUnit
 gfxTextRunFactory
 :

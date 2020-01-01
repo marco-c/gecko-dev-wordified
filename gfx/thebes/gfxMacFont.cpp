@@ -2729,12 +2729,12 @@ CFDataGetLength
 dataRef
 )
 HB_MEMORY_MODE_READONLY
-DestroyBlobFunc
 (
 void
 *
 )
 dataRef
+DestroyBlobFunc
 )
 ;
 }

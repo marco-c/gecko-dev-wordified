@@ -4075,8 +4075,8 @@ data
 )
 size
 HB_MEMORY_MODE_READONLY
-DestroyBlobFunc
 ftr
+DestroyBlobFunc
 )
 ;
 }
