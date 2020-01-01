@@ -984,7 +984,7 @@ mFavicon
 ;
 }
 public
-Drawable
+BitmapDrawable
 getThumbnail
 (
 )
