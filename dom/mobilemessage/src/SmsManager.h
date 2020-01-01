@@ -153,7 +153,16 @@ already_AddRefed
 <
 SmsManager
 >
-CreateInstanceIfAllowed
+CreateInstance
+(
+nsPIDOMWindow
+*
+aWindow
+)
+;
+static
+bool
+CreationIsAllowed
 (
 nsPIDOMWindow
 *
