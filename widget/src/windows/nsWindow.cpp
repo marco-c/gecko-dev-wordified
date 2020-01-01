@@ -19571,8 +19571,6 @@ void
 :
 CreateWindowExW
 (
-WS_EX_NOACTIVATE
-|
 mIsRTL
 ?
 WS_EX_LAYOUTRTL
