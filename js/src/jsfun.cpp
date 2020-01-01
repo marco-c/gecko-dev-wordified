@@ -11940,7 +11940,6 @@ vp
 }
 #
 endif
-JS_REQUIRES_STACK
 JSBool
 js_fun_call
 (
@@ -11975,6 +11974,11 @@ mark
 ;
 JSBool
 ok
+;
+js_LeaveTrace
+(
+cx
+)
 ;
 obj
 =
@@ -12277,7 +12281,6 @@ return
 ok
 ;
 }
-JS_REQUIRES_STACK
 JSBool
 js_fun_apply
 (
@@ -12355,6 +12358,11 @@ vp
 )
 ;
 }
+js_LeaveTrace
+(
+cx
+)
+;
 obj
 =
 JS_THIS_OBJECT

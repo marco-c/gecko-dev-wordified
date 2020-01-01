@@ -11421,7 +11421,6 @@ js_MergeSort
 *
 /
 static
-JS_REQUIRES_STACK
 JSBool
 MergeArrays
 (
@@ -11783,7 +11782,6 @@ bug
 .
 *
 /
-JS_REQUIRES_STACK
 JSBool
 js_MergeSort
 (
@@ -12837,7 +12835,6 @@ JSVAL_NULL
 )
 ;
 static
-JS_REQUIRES_STACK
 JSBool
 array_sort
 (
@@ -14238,6 +14235,11 @@ else
 void
 *
 mark
+;
+js_LeaveTrace
+(
+cx
+)
 ;
 ca
 .
@@ -18938,7 +18940,6 @@ mode
 REDUCE_RIGHT
 )
 static
-JS_REQUIRES_STACK
 JSBool
 array_extra
 (
@@ -19464,6 +19465,11 @@ array
 .
 *
 /
+js_LeaveTrace
+(
+cx
+)
+;
 argc
 =
 3
@@ -19905,7 +19911,6 @@ ok
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 array_forEach
 (
@@ -19930,7 +19935,6 @@ vp
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 array_map
 (
@@ -19955,7 +19959,6 @@ vp
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 array_reduce
 (
@@ -19980,7 +19983,6 @@ vp
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 array_reduceRight
 (
@@ -20005,7 +20007,6 @@ vp
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 array_filter
 (
@@ -20030,7 +20031,6 @@ vp
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 array_some
 (
@@ -20055,7 +20055,6 @@ vp
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 array_every
 (

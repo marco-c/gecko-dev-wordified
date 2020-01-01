@@ -1231,7 +1231,6 @@ function
 *
 /
 extern
-JS_REQUIRES_STACK
 JSBool
 js_MergeSort
 (

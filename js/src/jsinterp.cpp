@@ -4195,7 +4195,7 @@ nslots
 0
 )
 ;
-js_LeaveTrace
+JS_ASSERT_NOT_ON_TRACE
 (
 cx
 )
