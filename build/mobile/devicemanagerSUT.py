@@ -5194,18 +5194,25 @@ prompt
 )
       
 print
-'
+"
 DeviceManager
 :
 error
 pulling
 file
-:
+'
 %
 s
 '
+:
 %
+s
+"
+%
+(
+remoteFile
 error_str
+)
       
 return
 None
