@@ -521,7 +521,7 @@ view
 .
 *
 /
-public
+private
 View
 newView
 (
