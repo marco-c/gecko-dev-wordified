@@ -3463,7 +3463,13 @@ imo
 nsresult
 ConstructDocElementFrame
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aDocElement
 nsILayoutHistoryState
