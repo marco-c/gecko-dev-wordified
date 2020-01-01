@@ -4957,15 +4957,6 @@ nsIDOMWindow
 aReturn
 )
 ;
-static
-void
-CloseWindow
-(
-nsISupports
-*
-aWindow
-)
-;
 /
 /
 Timeout
