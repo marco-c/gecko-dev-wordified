@@ -1308,6 +1308,15 @@ sp
 string
 (
 )
+StringFromMIRType
+(
+def
+-
+>
+type
+(
+)
+)
 )
 ;
 }
