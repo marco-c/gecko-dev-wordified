@@ -5529,6 +5529,17 @@ nsString
 ;
 }
 ;
+class
+TestChildInterface
+:
+public
+TestInterface
+{
+public
+:
+NS_DECL_ISUPPORTS
+}
+;
 }
 /
 /
