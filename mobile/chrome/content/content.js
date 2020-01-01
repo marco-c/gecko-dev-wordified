@@ -3657,6 +3657,17 @@ element
 )
 )
 {
+sendAsyncMessage
+(
+"
+FindAssist
+:
+Hide
+"
+{
+}
+)
+;
 this
 .
 _sendMouseEvent
