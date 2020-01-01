@@ -482,7 +482,11 @@ mozilla_dom_SVGMatrix_h
 #
 include
 "
-DOMSVGTransform
+mozilla
+/
+dom
+/
+SVGTransform
 .
 h
 "
@@ -571,13 +575,13 @@ that
 belong
 to
 a
-DOMSVGTransform
+SVGTransform
 .
 *
 /
 SVGMatrix
 (
-DOMSVGTransform
+SVGTransform
 &
 aTransform
 )
@@ -605,7 +609,7 @@ created
 independently
 of
 a
-DOMSVGTransform
+SVGTransform
 .
 *
 /
@@ -670,7 +674,7 @@ mMatrix
 /
 /
 WebIDL
-DOMSVGTransform
+SVGTransform
 *
 GetParentObject
 (
@@ -1048,7 +1052,7 @@ false
 }
 nsRefPtr
 <
-DOMSVGTransform
+SVGTransform
 >
 mTransform
 ;

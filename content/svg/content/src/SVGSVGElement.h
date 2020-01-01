@@ -219,9 +219,6 @@ class
 DOMSVGAnimatedPreserveAspectRatio
 ;
 class
-DOMSVGTransform
-;
-class
 SVGFragmentIdentifier
 ;
 class
@@ -235,6 +232,9 @@ SVGAngle
 ;
 class
 SVGMatrix
+;
+class
+SVGTransform
 ;
 class
 SVGViewElement
@@ -1467,7 +1467,7 @@ CreateSVGRect
 ;
 already_AddRefed
 <
-DOMSVGTransform
+SVGTransform
 >
 CreateSVGTransform
 (
@@ -1475,7 +1475,7 @@ CreateSVGTransform
 ;
 already_AddRefed
 <
-DOMSVGTransform
+SVGTransform
 >
 CreateSVGTransformFromMatrix
 (

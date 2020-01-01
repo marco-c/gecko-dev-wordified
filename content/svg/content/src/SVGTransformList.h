@@ -149,6 +149,13 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGTransform
+;
+}
 /
 *
 *
@@ -227,7 +234,10 @@ DOMSVGTransformList
 ;
 friend
 class
-DOMSVGTransform
+dom
+:
+:
+SVGTransform
 ;
 public
 :

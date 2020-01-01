@@ -190,7 +190,7 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 SVGMatrix
 Release
 )
-DOMSVGTransform
+SVGTransform
 *
 SVGMatrix
 :

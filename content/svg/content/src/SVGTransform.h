@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_DOMSVGTRANSFORM_H__
+mozilla_dom_SVGTransform_h
 #
 define
-MOZILLA_DOMSVGTRANSFORM_H__
+mozilla_dom_SVGTransform_h
 #
 include
 "
@@ -203,7 +203,6 @@ dom
 class
 SVGMatrix
 ;
-}
 /
 *
 *
@@ -223,7 +222,7 @@ h
 *
 /
 class
-DOMSVGTransform
+SVGTransform
 MOZ_FINAL
 :
 public
@@ -233,11 +232,11 @@ public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-DOMSVGTransform
+SVGTransform
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-DOMSVGTransform
+SVGTransform
 )
 /
 *
@@ -246,7 +245,7 @@ DOMSVGTransform
 Generic
 ctor
 for
-DOMSVGTransform
+SVGTransform
 objects
 that
 are
@@ -257,7 +256,7 @@ attribute
 .
 *
 /
-DOMSVGTransform
+SVGTransform
 (
 DOMSVGTransformList
 *
@@ -317,12 +316,12 @@ attribute
 *
 /
 explicit
-DOMSVGTransform
+SVGTransform
 (
 )
 ;
 explicit
-DOMSVGTransform
+SVGTransform
 (
 const
 gfxMatrix
@@ -350,7 +349,7 @@ Clone
 *
 /
 explicit
-DOMSVGTransform
+SVGTransform
 (
 const
 nsSVGTransform
@@ -359,7 +358,7 @@ aMatrix
 )
 ;
 ~
-DOMSVGTransform
+SVGTransform
 (
 )
 ;
@@ -390,7 +389,7 @@ AddRef
 .
 *
 /
-DOMSVGTransform
+SVGTransform
 *
 Clone
 (
@@ -407,7 +406,7 @@ caller
 ;
 return
 new
-DOMSVGTransform
+SVGTransform
 (
 InternalItem
 (
@@ -1142,7 +1141,7 @@ mTransform
 }
 ;
 nsAttrValue
-DOMSVGTransform
+SVGTransform
 :
 :
 NotifyElementWillChange
@@ -1179,6 +1178,11 @@ result
 /
 /
 namespace
+dom
+}
+/
+/
+namespace
 mozilla
 #
 undef
@@ -1187,4 +1191,4 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 endif
 /
 /
-MOZILLA_DOMSVGTRANSFORM_H__
+mozilla_dom_SVGTransform_h
