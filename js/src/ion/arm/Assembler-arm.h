@@ -7878,7 +7878,7 @@ to
 be
 written
 .
-void
+BufferOffset
 writeInst
 (
 uint32
@@ -7958,26 +7958,26 @@ the
 reserved
 space
 .
-void
+BufferOffset
 as_jumpPool
 (
 uint32
 size
 )
 ;
-void
+BufferOffset
 align
 (
 int
 alignment
 )
 ;
-void
+BufferOffset
 as_nop
 (
 )
 ;
-void
+BufferOffset
 as_alu
 (
 Register
@@ -7998,7 +7998,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_mov
 (
 Register
@@ -8015,7 +8015,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_mvn
 (
 Register
@@ -8036,7 +8036,7 @@ Always
 /
 logical
 operations
-void
+BufferOffset
 as_and
 (
 Register
@@ -8055,7 +8055,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_bic
 (
 Register
@@ -8074,7 +8074,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_eor
 (
 Register
@@ -8093,7 +8093,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_orr
 (
 Register
@@ -8116,7 +8116,7 @@ Always
 /
 mathematical
 operations
-void
+BufferOffset
 as_adc
 (
 Register
@@ -8135,7 +8135,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_add
 (
 Register
@@ -8154,7 +8154,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_sbc
 (
 Register
@@ -8173,7 +8173,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_sub
 (
 Register
@@ -8192,7 +8192,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_rsb
 (
 Register
@@ -8211,7 +8211,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_rsc
 (
 Register
@@ -8234,7 +8234,7 @@ Always
 /
 test
 operations
-void
+BufferOffset
 as_cmn
 (
 Register
@@ -8247,7 +8247,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_cmp
 (
 Register
@@ -8260,7 +8260,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_teq
 (
 Register
@@ -8273,7 +8273,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_tst
 (
 Register
@@ -8319,7 +8319,7 @@ standard
 ALU
 operations
 .
-void
+BufferOffset
 as_movw
 (
 Register
@@ -8337,7 +8337,7 @@ pos
 NULL
 )
 ;
-void
+BufferOffset
 as_movt
 (
 Register
@@ -8355,7 +8355,7 @@ pos
 NULL
 )
 ;
-void
+BufferOffset
 as_genmul
 (
 Register
@@ -8376,7 +8376,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_mul
 (
 Register
@@ -8395,7 +8395,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_mla
 (
 Register
@@ -8416,7 +8416,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_umaal
 (
 Register
@@ -8433,7 +8433,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_mls
 (
 Register
@@ -8450,7 +8450,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_umull
 (
 Register
@@ -8471,7 +8471,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_umlal
 (
 Register
@@ -8492,7 +8492,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_smull
 (
 Register
@@ -8513,7 +8513,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_smlal
 (
 Register
@@ -8564,7 +8564,7 @@ is
 overkill
 but
 meh
-void
+BufferOffset
 as_dtr
 (
 LoadStore
@@ -8615,7 +8615,7 @@ given
 in
 bits
 .
-void
+BufferOffset
 as_extdtr
 (
 LoadStore
@@ -8641,7 +8641,7 @@ dest
 NULL
 )
 ;
-void
+BufferOffset
 as_dtm
 (
 LoadStore
@@ -8673,16 +8673,21 @@ pool
 into
 a
 register
-ARMBuffer
-:
-:
-PoolEntry
+BufferOffset
 as_Imm32Pool
 (
 Register
 dest
 uint32
 value
+ARMBuffer
+:
+:
+PoolEntry
+*
+pe
+=
+NULL
 Condition
 c
 =
@@ -8705,10 +8710,7 @@ bit
 address
 space
 .
-ARMBuffer
-:
-:
-PoolEntry
+BufferOffset
 as_BranchPool
 (
 uint32
@@ -8716,8 +8718,18 @@ value
 RepatchLabel
 *
 label
+ARMBuffer
+:
+:
+PoolEntry
+*
+pe
+=
+NULL
 Condition
 c
+=
+Always
 )
 ;
 /
@@ -8735,16 +8747,21 @@ pool
 into
 a
 register
-ARMBuffer
-:
-:
-PoolEntry
+BufferOffset
 as_FImm64Pool
 (
 VFPRegister
 dest
 double
 value
+ARMBuffer
+:
+:
+PoolEntry
+*
+pe
+=
+NULL
 Condition
 c
 =
@@ -8775,7 +8792,7 @@ to
 an
 immediate
 .
-void
+BufferOffset
 as_bx
 (
 Register
@@ -8816,7 +8833,7 @@ registers
 /
 are
 absolute
-void
+BufferOffset
 as_b
 (
 BOffImm
@@ -8825,7 +8842,7 @@ Condition
 c
 )
 ;
-void
+BufferOffset
 as_b
 (
 Label
@@ -8837,7 +8854,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_b
 (
 BOffImm
@@ -8901,7 +8918,7 @@ change
 processor
 state
 .
-void
+BufferOffset
 as_blx
 (
 Label
@@ -8909,7 +8926,7 @@ Label
 l
 )
 ;
-void
+BufferOffset
 as_blx
 (
 Register
@@ -8920,7 +8937,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_bl
 (
 BOffImm
@@ -8951,7 +8968,7 @@ never
 changes
 processor
 state
-void
+BufferOffset
 as_bl
 (
 )
@@ -8979,7 +8996,7 @@ can
 be
 conditional
 .
-void
+BufferOffset
 as_bl
 (
 Label
@@ -8989,7 +9006,7 @@ Condition
 c
 )
 ;
-void
+BufferOffset
 as_bl
 (
 BOffImm
@@ -9024,7 +9041,7 @@ isSingle
 8
 }
 ;
-void
+BufferOffset
 writeVFPInst
 (
 vfp_size
@@ -9071,7 +9088,7 @@ vmov
 rt
 vn
 .
-void
+BufferOffset
 as_vfp_float
 (
 VFPRegister
@@ -9090,7 +9107,7 @@ Always
 ;
 public
 :
-void
+BufferOffset
 as_vadd
 (
 VFPRegister
@@ -9105,7 +9122,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vdiv
 (
 VFPRegister
@@ -9120,7 +9137,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vmul
 (
 VFPRegister
@@ -9135,7 +9152,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vnmul
 (
 VFPRegister
@@ -9150,7 +9167,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vnmla
 (
 VFPRegister
@@ -9165,7 +9182,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vnmls
 (
 VFPRegister
@@ -9180,7 +9197,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vneg
 (
 VFPRegister
@@ -9193,7 +9210,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vsqrt
 (
 VFPRegister
@@ -9206,7 +9223,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vabs
 (
 VFPRegister
@@ -9219,7 +9236,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vsub
 (
 VFPRegister
@@ -9234,7 +9251,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vcmp
 (
 VFPRegister
@@ -9247,7 +9264,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vcmpz
 (
 VFPRegister
@@ -9269,7 +9286,7 @@ same
 sized
 -
 registers
-void
+BufferOffset
 as_vmov
 (
 VFPRegister
@@ -9396,7 +9413,7 @@ by
 the
 float2core
 .
-void
+BufferOffset
 as_vxfer
 (
 Register
@@ -9448,7 +9465,7 @@ going
 to
 use
 .
-void
+BufferOffset
 as_vcvt
 (
 VFPRegister
@@ -9478,7 +9495,7 @@ width
 result
 for
 now
-void
+BufferOffset
 as_vcvtFixed
 (
 VFPRegister
@@ -9504,7 +9521,7 @@ and
 memory
 *
 /
-void
+BufferOffset
 as_vdtr
 (
 LoadStore
@@ -9560,7 +9577,7 @@ only
 transfer
 a
 range
-void
+BufferOffset
 as_vdtm
 (
 LoadStore
@@ -9585,7 +9602,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vimm
 (
 VFPRegister
@@ -9598,7 +9615,7 @@ c
 Always
 )
 ;
-void
+BufferOffset
 as_vmrs
 (
 Register
