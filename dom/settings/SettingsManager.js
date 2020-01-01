@@ -60,6 +60,7 @@ MPL
 use
 strict
 "
+;
 /
 *
 static
@@ -69,7 +70,7 @@ functions
 let
 DEBUG
 =
-0
+false
 ;
 if
 (
@@ -101,6 +102,7 @@ n
 )
 ;
 }
+;
 else
 debug
 =
@@ -110,6 +112,7 @@ s
 )
 {
 }
+;
 const
 Cc
 =
@@ -727,8 +730,21 @@ debug
 (
 "
 Request
+for
+'
+"
++
+info
+.
+name
++
+"
+'
 successful
 .
+"
++
+"
 Record
 count
 :
