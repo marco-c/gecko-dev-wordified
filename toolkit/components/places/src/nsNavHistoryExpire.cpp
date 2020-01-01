@@ -1925,6 +1925,7 @@ failed
 "
 )
 ;
+else
 if
 (
 keepGoing
