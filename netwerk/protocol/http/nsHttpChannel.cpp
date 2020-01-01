@@ -8994,6 +8994,10 @@ rv
 )
 )
 {
+UpdateInhibitPersistentCachingFlag
+(
+)
+;
 InitCacheEntry
 (
 )
