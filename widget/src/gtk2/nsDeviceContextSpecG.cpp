@@ -2945,7 +2945,7 @@ rv
 NS_ERROR_FAILURE
 ;
 #
-ifndef
+ifdef
 MOZ_ENABLE_POSTSCRIPT
 rv
 =
