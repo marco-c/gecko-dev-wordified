@@ -18166,7 +18166,7 @@ a
 int
 acc
 =
-msbSet
+msbSet32
 (
 a
 )
