@@ -773,10 +773,6 @@ menuItem
 .
 nextSibling
 ;
-i
-+
-+
-;
 }
 /
 /

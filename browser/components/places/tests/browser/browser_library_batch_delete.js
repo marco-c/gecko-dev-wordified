@@ -770,8 +770,6 @@ DEFAULT_INDEX
 "
 bm
 "
-+
-i
 )
 ;
 is
