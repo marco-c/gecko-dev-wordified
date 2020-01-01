@@ -2342,11 +2342,12 @@ masm
 .
 call
 (
+JS_FUNC_TO_DATA_PTR
 (
 void
 *
-)
 fn
+)
 )
 ;
 /
