@@ -1419,7 +1419,7 @@ MaybeRemoveItemFromAnimValListAt
 (
 uint32_t
 aIndex
-uint32_t
+int32_t
 aArgCountForItem
 )
 ;
