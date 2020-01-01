@@ -2809,6 +2809,12 @@ token
 "
 )
 ;
+this
+.
+_lockAllowed
+=
+true
+;
 self
 .
 done
