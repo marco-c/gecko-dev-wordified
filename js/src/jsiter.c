@@ -4770,15 +4770,10 @@ frame
 .
 flags
 =
-(
 fp
 -
 >
 flags
-&
-~
-JSFRAME_ROOTED_ARGV
-)
 |
 JSFRAME_GENERATOR
 ;
