@@ -186,6 +186,8 @@ be
 +
 throttle
 threshold
+/
+/
 #
 define
 COMPOSITOR_PERFORMANCE_WARNING
