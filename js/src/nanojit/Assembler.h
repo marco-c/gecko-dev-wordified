@@ -1167,6 +1167,10 @@ output
 void
 printActivationState
 (
+const
+char
+*
+what
 )
 ;
 StringList
