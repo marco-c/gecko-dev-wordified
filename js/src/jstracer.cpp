@@ -31012,6 +31012,13 @@ tm
 #
 ifdef
 JS_JIT_SPEW
+if
+(
+jitstats
+.
+recorderStarted
+)
+{
 printf
 (
 "
@@ -31157,6 +31164,7 @@ jitstats
 globalShapeMismatchAtEntry
 )
 ;
+}
 #
 endif
 if
