@@ -307,6 +307,14 @@ LITTLE_ENDIAN
 #
 endif
 #
+ifdef
+__OS2__
+#
+define
+LITTLE_ENDIAN
+#
+endif
+#
 if
 !
 defined
