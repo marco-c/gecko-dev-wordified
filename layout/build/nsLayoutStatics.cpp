@@ -709,7 +709,7 @@ h
 #
 include
 "
-nsXMLHttpRequest
+nsCrossSiteListenerProxy
 .
 h
 "
@@ -2077,10 +2077,10 @@ ShutdownLibrary
 ;
 #
 endif
-nsXMLHttpRequest
+nsCrossSiteListenerProxy
 :
 :
-ShutdownACCache
+Shutdown
 (
 )
 ;
