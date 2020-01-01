@@ -7343,6 +7343,13 @@ src
 )
 GK_ATOM
 (
+srcdoc
+"
+srcdoc
+"
+)
+GK_ATOM
+(
 srclang
 "
 srclang
