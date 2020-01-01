@@ -569,7 +569,7 @@ if
 acc
 )
 return
-E_FAIL
+E_NOINTERFACE
 ;
 *
 ppv
