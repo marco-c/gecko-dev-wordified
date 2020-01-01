@@ -695,6 +695,7 @@ funbox
 *
 /
 NULL
+staticLevel
 )
 ;
 TreeContext
@@ -829,12 +830,6 @@ globalScope
 =
 &
 globalScope
-;
-sc
-.
-staticLevel
-=
-staticLevel
 ;
 /
 *
@@ -1693,6 +1688,13 @@ funbox
 *
 /
 NULL
+/
+*
+staticLevel
+=
+*
+/
+0
 )
 ;
 TreeContext
