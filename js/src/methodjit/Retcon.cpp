@@ -1018,6 +1018,9 @@ JSScript
 script
 )
 {
+AutoAssertNoGC
+nogc
+;
 /
 *
 *
@@ -1369,6 +1372,9 @@ InlineFrame
 inner
 )
 {
+AutoAssertNoGC
+nogc
+;
 StackFrame
 *
 parent
@@ -1672,6 +1678,9 @@ VMFrame
 f
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT_IF
 (
 next
@@ -2484,6 +2493,9 @@ JSCompartment
 compartment
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !
@@ -3030,6 +3042,9 @@ JSScript
 script
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 script

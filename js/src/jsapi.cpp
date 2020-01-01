@@ -18085,6 +18085,9 @@ proto
 parent
 )
 ;
+AutoAssertNoGC
+nogc
+;
 if
 (
 obj
@@ -18265,6 +18268,9 @@ clasp
 proto
 parent
 )
+;
+AutoAssertNoGC
+nogc
 ;
 if
 (
@@ -25491,6 +25497,9 @@ iterobj
 cx
 iterobjArg
 )
+;
+AutoAssertNoGC
+nogc
 ;
 AssertHeapIsIdle
 (
@@ -34305,6 +34314,9 @@ JSRawString
 str
 )
 {
+AutoAssertNoGC
+nogc
+;
 AssertHeapIsIdle
 (
 cx
@@ -34366,6 +34378,9 @@ JSRawString
 str
 )
 {
+AutoAssertNoGC
+nogc
+;
 AssertHeapIsIdle
 (
 cx
@@ -38819,6 +38834,9 @@ unsigned
 lineno
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 script

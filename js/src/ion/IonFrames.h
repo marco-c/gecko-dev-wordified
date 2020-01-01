@@ -369,6 +369,9 @@ CalleeToken
 token
 )
 {
+AutoAssertNoGC
+nogc
+;
 switch
 (
 GetCalleeTokenTag

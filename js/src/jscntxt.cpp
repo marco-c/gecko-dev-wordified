@@ -3132,6 +3132,9 @@ JSErrorReport
 report
 )
 {
+AutoAssertNoGC
+nogc
+;
 /
 *
 *
@@ -3301,6 +3304,9 @@ JSContext
 cx
 )
 {
+AutoAssertNoGC
+nogc
+;
 cx
 -
 >

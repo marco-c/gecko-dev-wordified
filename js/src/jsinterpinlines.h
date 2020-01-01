@@ -984,6 +984,9 @@ Value
 vp
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 vp

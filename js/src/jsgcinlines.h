@@ -304,6 +304,9 @@ void
 thing
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 thing
@@ -384,6 +387,9 @@ size_t
 numSlots
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 numSlots
@@ -411,6 +417,9 @@ Class
 clasp
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 clasp
@@ -530,6 +539,9 @@ unused
 .
 *
 /
+AutoAssertNoGC
+nogc
+;
 JS_STATIC_ASSERT
 (
 ObjectElements
@@ -585,6 +597,9 @@ slotsToThingKind
 [
 ]
 ;
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 numFixedSlots
@@ -608,6 +623,9 @@ AllocKind
 kind
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 !
@@ -666,6 +684,9 @@ AllocKind
 kindp
 )
 {
+AutoAssertNoGC
+nogc
+;
 size_t
 next
 =
@@ -729,6 +750,9 @@ AllocKind
 thingKind
 )
 {
+AutoAssertNoGC
+nogc
+;
 /
 *
 Using
@@ -837,6 +861,9 @@ Class
 clasp
 )
 {
+AutoAssertNoGC
+nogc
+;
 size_t
 nslots
 =
@@ -942,6 +969,9 @@ JSRuntime
 rt
 )
 {
+AutoAssertNoGC
+nogc
+;
 rt
 -
 >

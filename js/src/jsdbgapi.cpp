@@ -5281,6 +5281,9 @@ JSFunction
 fun
 )
 {
+AutoAssertNoGC
+nogc
+;
 size_t
 nbytes
 =
@@ -6604,6 +6607,9 @@ unsigned
 maxFrames
 )
 {
+AutoAssertNoGC
+nogc
+;
 Vector
 <
 FrameDescription

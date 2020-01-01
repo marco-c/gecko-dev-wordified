@@ -7736,6 +7736,9 @@ UINT32_MAX
 ;
 }
 }
+AutoAssertNoGC
+nogc
+;
 /
 /
 Step
@@ -8061,6 +8064,9 @@ UINT32_MAX
 ;
 }
 }
+AutoAssertNoGC
+nogc
+;
 /
 /
 Step
@@ -8842,6 +8848,9 @@ UINT32_MAX
 ;
 }
 }
+AutoAssertNoGC
+nogc
+;
 /
 /
 Step
@@ -9200,6 +9209,9 @@ UINT32_MAX
 ;
 }
 }
+AutoAssertNoGC
+nogc
+;
 /
 /
 Step
@@ -16987,6 +16999,9 @@ JSObject
 lambda
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !
@@ -19266,6 +19281,9 @@ res
 )
 const
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 index

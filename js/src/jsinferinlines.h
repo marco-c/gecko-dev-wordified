@@ -1632,6 +1632,9 @@ RawId
 id
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 !
@@ -3499,6 +3502,9 @@ RawId
 id
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !
@@ -4121,6 +4127,9 @@ RawObject
 obj
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 cx
@@ -4405,6 +4414,9 @@ JSFunction
 fun
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !
@@ -4943,6 +4955,9 @@ RawScript
 script
 )
 {
+AutoAssertNoGC
+nogc
+;
 TypeSet
 *
 types
@@ -4998,6 +5013,9 @@ RawScript
 script
 )
 {
+AutoAssertNoGC
+nogc
+;
 TypeSet
 *
 types
@@ -5103,6 +5121,9 @@ unsigned
 i
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 i
@@ -5176,6 +5197,9 @@ unsigned
 i
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 i
@@ -5245,6 +5269,9 @@ unsigned
 slot
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 slot
@@ -6137,6 +6164,9 @@ jsbytecode
 pc
 )
 {
+AutoAssertNoGC
+nogc
+;
 #
 ifdef
 JS_ION
@@ -10541,6 +10571,9 @@ return
 NULL
 ;
 }
+AutoAssertNoGC
+nogc
+;
 if
 (
 propertyCount
@@ -10678,6 +10711,9 @@ JSContext
 cx
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 JSID_IS_VOID

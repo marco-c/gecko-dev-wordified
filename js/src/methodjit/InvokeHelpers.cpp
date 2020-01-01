@@ -5078,6 +5078,9 @@ VMFrame
 f
 )
 {
+AutoAssertNoGC
+nogc
+;
 Probes
 :
 :
@@ -5121,6 +5124,9 @@ VMFrame
 f
 )
 {
+AutoAssertNoGC
+nogc
+;
 Probes
 :
 :

@@ -12231,6 +12231,9 @@ Label
 failures
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 scopeObj

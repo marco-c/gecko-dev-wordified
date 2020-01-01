@@ -40772,6 +40772,9 @@ getClass
 proto
 )
 ;
+AutoAssertNoGC
+nogc
+;
 if
 (
 !

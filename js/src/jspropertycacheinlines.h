@@ -349,6 +349,9 @@ PropertyName
 name
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 this
@@ -601,6 +604,9 @@ PropertyName
 namep
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 this

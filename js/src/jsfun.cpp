@@ -7644,6 +7644,9 @@ Value
 vp
 )
 {
+AutoAssertNoGC
+nogc
+;
 RawFunction
 fun
 ;
