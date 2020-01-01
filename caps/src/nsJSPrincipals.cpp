@@ -591,7 +591,7 @@ nsJSPrincipals
 other
 )
 ;
-JSBool
+PRBool
 result
 ;
 nsresult

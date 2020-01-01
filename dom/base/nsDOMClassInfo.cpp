@@ -30953,10 +30953,10 @@ script
 namespace
 manager
 .
-JSBool
+PRBool
 did_resolve
 =
-JS_FALSE
+PR_FALSE
 ;
 rv
 =
@@ -31698,7 +31698,7 @@ InitJavaProperties
 (
 )
 ;
-PRBool
+JSBool
 hasProp
 ;
 PRBool
@@ -35941,9 +35941,11 @@ PRBool
 ok
 =
 PR_TRUE
+;
+JSBool
 hasProp
 =
-PR_FALSE
+JS_FALSE
 ;
 if
 (

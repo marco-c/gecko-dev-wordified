@@ -1382,7 +1382,7 @@ holder
 return
 false
 ;
-JSBool
+PRBool
 retval
 =
 true
@@ -1526,7 +1526,7 @@ holder
 return
 false
 ;
-JSBool
+PRBool
 retval
 =
 true
@@ -3087,7 +3087,7 @@ return
 true
 ;
 }
-JSBool
+PRBool
 retval
 =
 true

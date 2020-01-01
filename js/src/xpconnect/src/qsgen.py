@@ -4144,7 +4144,7 @@ boolean
 :
         
 "
-PRBool
+JSBool
 {
 name
 }

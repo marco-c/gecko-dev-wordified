@@ -5179,7 +5179,7 @@ ActivityCallback
 void
 *
 arg
-PRBool
+JSBool
 active
 )
 ;

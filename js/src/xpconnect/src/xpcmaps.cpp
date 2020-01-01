@@ -3495,7 +3495,7 @@ flags
 char
 *
 name
-JSBool
+PRBool
 isGlobal
 PRUint32
 interfacesBitmap
