@@ -687,16 +687,6 @@ mozilla
 :
 Preferences
 ;
-using
-namespace
-mozilla
-:
-:
-xpconnect
-:
-:
-memory
-;
 /
 /
 The
