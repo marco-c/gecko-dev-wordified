@@ -580,7 +580,7 @@ if
 str
 -
 >
-isAtomized
+isAtom
 (
 )
 )

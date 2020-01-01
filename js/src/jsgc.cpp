@@ -3421,7 +3421,7 @@ if
 JSString
 :
 :
-isStatic
+isGCThingStatic
 (
 thing
 )
@@ -9100,7 +9100,7 @@ if
 JSString
 :
 :
-isStatic
+isGCThingStatic
 (
 ptr
 )
@@ -10896,7 +10896,7 @@ if
 JSString
 :
 :
-isStatic
+isGCThingStatic
 (
 thing
 )
@@ -12032,12 +12032,11 @@ liveStrings
 JS_ASSERT
 (
 !
-JSString
-:
-:
-isStatic
-(
 str
+-
+>
+isStaticAtom
+(
 )
 )
 ;
@@ -15024,7 +15023,7 @@ so
 we
 can
 use
-js_IsAboutToBeFinalized
+IsAboutToBeFinalized
 on
 *
 JSString
@@ -15352,7 +15351,7 @@ can
 safely
 *
 use
-js_IsAboutToBeFinalized
+IsAboutToBeFinalized
 (
 )
 .
@@ -15808,7 +15807,7 @@ so
 we
 can
 use
-js_IsAboutToBeFinalized
+IsAboutToBeFinalized
 on
 *
 JSString
@@ -16267,7 +16266,7 @@ can
 safely
 *
 use
-js_IsAboutToBeFinalized
+IsAboutToBeFinalized
 (
 )
 .

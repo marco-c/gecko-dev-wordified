@@ -575,7 +575,7 @@ JS_ASSERT
 str
 -
 >
-isAtomized
+isAtom
 (
 )
 )

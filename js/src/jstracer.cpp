@@ -89092,7 +89092,7 @@ if
 name
 -
 >
-isAtomized
+isAtom
 (
 )
 )

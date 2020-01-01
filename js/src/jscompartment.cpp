@@ -1196,7 +1196,7 @@ toString
 /
 *
 Static
-strings
+atoms
 do
 not
 have
@@ -1208,12 +1208,11 @@ wrapped
 /
 if
 (
-JSString
-:
-:
-isStatic
-(
 str
+-
+>
+isStaticAtom
+(
 )
 )
 return
@@ -1278,7 +1277,7 @@ if
 str
 -
 >
-isAtomized
+isAtom
 (
 )
 )

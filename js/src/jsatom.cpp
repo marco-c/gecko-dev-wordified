@@ -3284,7 +3284,7 @@ if
 strArg
 -
 >
-isAtomized
+isAtom
 (
 )
 )

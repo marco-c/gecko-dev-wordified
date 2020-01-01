@@ -30542,7 +30542,7 @@ return
 str
 -
 >
-isAtomized
+isAtom
 (
 )
 ;
@@ -31007,7 +31007,7 @@ JS_ASSERT
 str
 -
 >
-isAtomized
+isAtom
 (
 )
 )
@@ -31042,7 +31042,7 @@ JS_ASSERT
 str
 -
 >
-isAtomized
+isAtom
 (
 )
 )
