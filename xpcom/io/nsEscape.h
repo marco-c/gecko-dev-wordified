@@ -1007,6 +1007,11 @@ all
 *
 ascii
 octets
+(
+<
+=
+0x7F
+)
 to
 be
 skipped
