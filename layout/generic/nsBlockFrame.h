@@ -2317,6 +2317,10 @@ WidthToClearPastFloats
 nsBlockReflowState
 &
 aState
+const
+nsRect
+&
+aFloatAvailableSpace
 nsIFrame
 *
 aFrame
