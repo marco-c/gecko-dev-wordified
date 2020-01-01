@@ -2140,6 +2140,15 @@ nsMouseEvent
 eReal
 )
 ;
+event
+.
+inputSource
+=
+nsIDOMNSMouseEvent
+:
+:
+MOZ_SOURCE_KEYBOARD
+;
 nsAutoPopupStatePusher
 popupStatePusher
 (
