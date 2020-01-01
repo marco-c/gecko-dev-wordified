@@ -28482,6 +28482,7 @@ workerThreadState
 >
 finishParseTaskForScript
 (
+rt
 script
 )
 ;
