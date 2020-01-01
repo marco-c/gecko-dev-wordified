@@ -1774,6 +1774,15 @@ ok
 otherwise
 it
 failed
+#
+if
+PEDANTIC
+NIns
+*
+pedanticTop
+;
+#
+endif
 AR
 _activation
 ;
