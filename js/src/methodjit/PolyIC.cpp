@@ -13184,9 +13184,11 @@ sp
 v
 ;
 }
-static
 void
 JS_FASTCALL
+ic
+:
+:
 SetPropDumb
 (
 VMFrame
