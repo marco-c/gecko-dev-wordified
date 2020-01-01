@@ -3755,9 +3755,6 @@ mAllowAuth
 PRPackedBool
 mAllowKeywordFixup
 ;
-PRPackedBool
-mStrictFilePolicy
-;
 /
 /
 This
