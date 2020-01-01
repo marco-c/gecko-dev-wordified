@@ -14006,6 +14006,12 @@ mAttributes
 =
 nullptr
 ;
+mChildren
+.
+Clear
+(
+)
+;
 }
 void
 nsXULPrototypeElement
