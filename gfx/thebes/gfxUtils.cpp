@@ -1995,7 +1995,7 @@ to
 pixman
 .
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoCairoPixmanBugWorkaround
 {
 AutoCairoPixmanBugWorkaround
