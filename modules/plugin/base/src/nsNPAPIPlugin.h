@@ -740,6 +740,14 @@ aRefNum
 endif
 protected
 :
+friend
+class
+nsNPAPIPluginInstance
+;
+friend
+class
+nsNPAPIPluginStreamListener
+;
 /
 /
 Ensures

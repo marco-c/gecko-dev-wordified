@@ -3793,9 +3793,7 @@ inst
 new
 nsNPAPIPluginInstance
 (
-&
-fCallbacks
-fLibrary
+this
 )
 ;
 if
