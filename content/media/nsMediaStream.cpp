@@ -3285,7 +3285,7 @@ return
 element
 -
 >
-SetAcceptHeader
+SetRequestHeaders
 (
 hc
 )
