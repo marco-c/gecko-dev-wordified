@@ -806,6 +806,16 @@ nsAudioStream
 aOutput
 )
 ;
+using
+MediaSegmentBase
+<
+AudioSegment
+AudioChunk
+>
+:
+:
+AppendFrom
+;
 void
 AppendFrom
 (

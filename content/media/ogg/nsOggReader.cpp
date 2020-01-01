@@ -3239,7 +3239,7 @@ channels
 ;
 for
 (
-int
+PRInt32
 i
 =
 0
@@ -3248,7 +3248,10 @@ i
 <
 goodFrames
 *
+PRInt32
+(
 channels
+)
 ;
 i
 +

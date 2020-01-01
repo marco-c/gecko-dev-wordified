@@ -13,7 +13,7 @@ tab
 -
 width
 :
-8
+4
 ;
 indent
 -
@@ -2774,6 +2774,12 @@ Clear
 #
 define
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
+\
+(
+void
+)
+tmp
+;
 \
 return
 NS_OK
