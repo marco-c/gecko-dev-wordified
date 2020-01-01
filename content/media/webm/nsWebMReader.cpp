@@ -2569,7 +2569,7 @@ the
 start
 of
 this
-sound
+audio
 chunk
 and
 the
@@ -2579,7 +2579,7 @@ of
 /
 the
 previous
-sound
+audio
 chunk
 we
 need
@@ -2909,12 +2909,12 @@ pcm
 {
 nsAutoArrayPtr
 <
-SoundDataValue
+AudioDataValue
 >
 buffer
 (
 new
-SoundDataValue
+AudioDataValue
 [
 samples
 *
@@ -3066,7 +3066,7 @@ mAudioQueue
 Push
 (
 new
-SoundData
+AudioData
 (
 aOffset
 time

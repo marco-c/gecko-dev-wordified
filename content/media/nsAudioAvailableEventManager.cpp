@@ -808,7 +808,7 @@ nsAudioAvailableEventManager
 :
 QueueWrittenAudioData
 (
-SoundDataValue
+AudioDataValue
 *
 aAudioData
 PRUint32
@@ -909,7 +909,7 @@ mSignalBufferLength
 currentBufferSize
 ;
 }
-SoundDataValue
+AudioDataValue
 *
 audioData
 =
@@ -1032,7 +1032,7 @@ signalBuffer
 i
 ]
 =
-MOZ_CONVERT_SOUND_SAMPLE
+MOZ_CONVERT_AUDIO_SAMPLE
 (
 audioData
 [
@@ -1188,7 +1188,7 @@ we
 '
 ve
 written
-sound
+audio
 data
 .
 nsCOMPtr
@@ -1331,7 +1331,7 @@ signalBuffer
 i
 ]
 =
-MOZ_CONVERT_SOUND_SAMPLE
+MOZ_CONVERT_AUDIO_SAMPLE
 (
 audioData
 [

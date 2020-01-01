@@ -671,7 +671,7 @@ the
 frequency
 of
 the
-sound
+audio
 /
 /
 samples
@@ -744,7 +744,7 @@ Shutdown
 /
 /
 Write
-sound
+audio
 data
 to
 the
@@ -832,7 +832,7 @@ Return
 the
 number
 of
-sound
+audio
 samples
 that
 can

@@ -1283,7 +1283,7 @@ UINT_MAX
 /
 sizeof
 (
-SoundDataValue
+AudioDataValue
 )
 /
 MAX_CHANNELS
@@ -1305,12 +1305,12 @@ mChannels
 ;
 nsAutoArrayPtr
 <
-SoundDataValue
+AudioDataValue
 >
 sampleBuffer
 (
 new
-SoundDataValue
+AudioDataValue
 [
 bufferSize
 ]
@@ -1387,7 +1387,7 @@ get
 (
 )
 ;
-SoundDataValue
+AudioDataValue
 *
 s
 =
@@ -1643,7 +1643,7 @@ mAudioQueue
 Push
 (
 new
-SoundData
+AudioData
 (
 pos
 static_cast

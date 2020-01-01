@@ -918,7 +918,7 @@ audio
 data
 to
 the
-sound
+audio
 hardware
 while
 allowing
@@ -1073,7 +1073,7 @@ Otherwise
 it
 constantly
 pops
-sound
+audio
 data
 off
 the
@@ -2980,7 +2980,7 @@ pushes
 its
 /
 /
-sound
+audio
 data
 to
 the

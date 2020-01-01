@@ -594,7 +594,7 @@ thread
 void
 QueueWrittenAudioData
 (
-SoundDataValue
+AudioDataValue
 *
 aAudioData
 PRUint32
