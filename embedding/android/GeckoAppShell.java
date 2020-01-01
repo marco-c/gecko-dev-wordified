@@ -4689,11 +4689,9 @@ finish
 )
 ;
 }
-GeckoApp
-.
-mAppContext
-.
-mMainHandler
+getHandler
+(
+)
 .
 postDelayed
 (
