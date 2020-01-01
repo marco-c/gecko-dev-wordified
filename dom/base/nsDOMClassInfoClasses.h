@@ -1713,10 +1713,6 @@ WebGLUniformLocation
 )
 DOMCI_CLASS
 (
-WebGLShaderPrecisionFormat
-)
-DOMCI_CLASS
-(
 WebGLActiveInfo
 )
 DOMCI_CLASS
