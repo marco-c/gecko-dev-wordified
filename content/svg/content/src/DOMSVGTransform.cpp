@@ -545,16 +545,6 @@ aListIndex
 MaxListIndex
 (
 )
-&
-&
-aIsAnimValItem
-<
-(
-1
-<
-<
-1
-)
 "
 bad
 arg

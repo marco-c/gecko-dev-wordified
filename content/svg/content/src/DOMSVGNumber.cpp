@@ -341,7 +341,7 @@ uint8_t
 aAttrEnum
 uint32_t
 aListIndex
-uint8_t
+bool
 aIsAnimValItem
 )
 :
@@ -402,16 +402,6 @@ aListIndex
 =
 MaxListIndex
 (
-)
-&
-&
-aIsAnimValItem
-<
-(
-1
-<
-<
-1
 )
 "
 bad
@@ -647,7 +637,7 @@ uint8_t
 aAttrEnum
 uint32_t
 aListIndex
-uint8_t
+bool
 aIsAnimValItem
 )
 {
