@@ -9348,7 +9348,7 @@ if
 stackLimit
 )
 return
-Jaeger_Throwing
+Jaeger_ThrowBeforeEnter
 ;
 return
 EnterMethodJIT
