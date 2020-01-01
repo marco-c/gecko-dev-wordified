@@ -7972,7 +7972,7 @@ mime
 NS_ERROR_FAILURE
 )
 ;
-nsCString
+nsCAutoString
 contentType
 ;
 rv
