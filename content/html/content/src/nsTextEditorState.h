@@ -1809,11 +1809,6 @@ Truncate
 )
 ;
 }
-void
-HideSelectionIfBlurred
-(
-)
-;
 private
 :
 /
