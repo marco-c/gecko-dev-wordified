@@ -1340,8 +1340,10 @@ DOMMediaStream
 ;
 RemoteSourceStreamInfo
 (
+already_AddRefed
+<
 DOMMediaStream
-*
+>
 aMediaStream
 PeerConnectionMedia
 *
@@ -1350,13 +1352,7 @@ aParent
 :
 mMediaStream
 (
-already_AddRefed
-<
-DOMMediaStream
->
-(
 aMediaStream
-)
 )
 mPipelines
 (
@@ -1368,7 +1364,7 @@ aParent
 {
 MOZ_ASSERT
 (
-aMediaStream
+mMediaStream
 )
 ;
 }
