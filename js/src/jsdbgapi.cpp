@@ -5035,10 +5035,9 @@ getParent
 NULL
 atom
 JS_TypeHandlerMissing
-JS_TYPE_FUNCTION_LINE
-(
-cx
-)
+"
+SetWrapper
+"
 )
 ;
 if
