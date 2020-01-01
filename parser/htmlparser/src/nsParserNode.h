@@ -1505,6 +1505,7 @@ nsString
 &
 aString
 )
+const
 ;
 /
 *
@@ -1877,6 +1878,7 @@ nsString
 &
 aString
 )
+const
 ;
 virtual
 nsresult
