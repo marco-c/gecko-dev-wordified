@@ -2600,6 +2600,9 @@ ReflowFinished
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 /
 /
 now
