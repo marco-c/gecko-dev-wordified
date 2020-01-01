@@ -1455,9 +1455,7 @@ It
 needs
 to
 ask
-it
-'
-s
+its
 parent
 if
 it

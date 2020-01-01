@@ -39794,9 +39794,7 @@ docshell
 or
 any
 of
-it
-'
-s
+its
 ancestors
 .
 nsCOMPtr
