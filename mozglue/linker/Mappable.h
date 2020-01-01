@@ -223,8 +223,7 @@ Mappable
 {
 }
 virtual
-void
-*
+MemoryRange
 mmap
 (
 const
@@ -591,8 +590,7 @@ Mappable
 *
 /
 virtual
-void
-*
+MemoryRange
 mmap
 (
 const
@@ -1033,8 +1031,7 @@ Mappable
 *
 /
 virtual
-void
-*
+MemoryRange
 mmap
 (
 const
@@ -1246,8 +1243,7 @@ Mappable
 *
 /
 virtual
-void
-*
+MemoryRange
 mmap
 (
 const

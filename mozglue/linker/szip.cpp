@@ -259,8 +259,7 @@ size_t
 size
 )
 {
-void
-*
+MemoryRange
 buf
 =
 mmap
@@ -316,7 +315,6 @@ GetLength
 Assign
 (
 buf
-size
 )
 ;
 return
@@ -471,6 +469,9 @@ false
 }
 Assign
 (
+MemoryRange
+:
+:
 mmap
 (
 NULL
@@ -492,7 +493,6 @@ MAP_PRIVATE
 fd
 0
 )
-size
 )
 ;
 return
