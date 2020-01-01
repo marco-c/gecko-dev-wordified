@@ -2659,6 +2659,9 @@ b6d92f8f229a
 }
 \
 }
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 /
 /
 component
@@ -2716,6 +2719,8 @@ a6a9bc5ad599
 }
 \
 }
+#
+endif
 /
 *
 *
