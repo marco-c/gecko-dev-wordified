@@ -3,7 +3,7 @@
 -
 *
 -
-mOde
+Mode
 :
 C
 +
