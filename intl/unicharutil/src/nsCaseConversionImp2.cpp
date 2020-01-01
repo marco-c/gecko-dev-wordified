@@ -143,7 +143,7 @@ nsrefcnt
 1
 ;
 }
-NS_IMPL_THREADSAFE_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE1
 (
 nsCaseConversionImp2
 nsICaseConversion
