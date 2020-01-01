@@ -235,10 +235,6 @@ timer_
 (
 nullptr
 )
-target_
-(
-nullptr
-)
 packets_
 (
 )
@@ -630,12 +626,6 @@ nsCOMPtr
 nsITimer
 >
 timer_
-;
-nsCOMPtr
-<
-nsIEventTarget
->
-target_
 ;
 std
 :
