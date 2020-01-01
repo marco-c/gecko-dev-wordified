@@ -2876,7 +2876,6 @@ empty
 (
 )
 ;
-}
 DebuggerController
 .
 dispatchEvent
@@ -2888,6 +2887,7 @@ AfterFramesCleared
 "
 )
 ;
+}
 }
 /
 *
