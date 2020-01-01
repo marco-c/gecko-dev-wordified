@@ -12889,6 +12889,16 @@ PRInt32
 aOutEndOffset
 )
 ;
+static
+nsIEditor
+*
+GetHTMLEditor
+(
+nsPresContext
+*
+aPresContext
+)
+;
 private
 :
 static
