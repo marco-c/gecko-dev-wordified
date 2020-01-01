@@ -515,7 +515,7 @@ h
 #
 include
 "
-nsIPrefBranch2
+nsIPrefBranch
 .
 h
 "
@@ -5067,7 +5067,7 @@ NS_ERROR_UNEXPECTED
 }
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 =

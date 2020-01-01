@@ -555,13 +555,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
@@ -1088,7 +1081,7 @@ fatal
 .
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 =

@@ -1304,7 +1304,7 @@ subject
 instanceof
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 do_check_eq

@@ -548,13 +548,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIPrefLocalizedString
 .
 h
@@ -1504,7 +1497,7 @@ endif
 }
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 (
@@ -2202,7 +2195,7 @@ preferences
 observers
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 (

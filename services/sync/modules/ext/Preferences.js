@@ -3303,13 +3303,6 @@ this
 .
 _prefBranch
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
 ;
 }
 this

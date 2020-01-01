@@ -757,17 +757,6 @@ this
 .
 prefBranch
 .
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
-;
-this
-.
-prefBranch
-.
 addObserver
 (
 "

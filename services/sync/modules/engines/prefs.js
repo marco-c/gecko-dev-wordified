@@ -1778,7 +1778,7 @@ getService
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 .
 addObserver
@@ -1863,7 +1863,7 @@ getService
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 .
 removeObserver

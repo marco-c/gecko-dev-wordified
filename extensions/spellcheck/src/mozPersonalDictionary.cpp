@@ -502,13 +502,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIWeakReference
 .
 h
