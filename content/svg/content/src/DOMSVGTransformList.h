@@ -987,7 +987,7 @@ when
 they
 die
 .
-nsTArray
+FallibleTArray
 <
 DOMSVGTransform
 *

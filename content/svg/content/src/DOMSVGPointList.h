@@ -1446,7 +1446,7 @@ when
 they
 die
 .
-nsTArray
+FallibleTArray
 <
 nsISVGPoint
 *

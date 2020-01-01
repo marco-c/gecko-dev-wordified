@@ -1049,7 +1049,7 @@ when
 they
 die
 .
-nsTArray
+FallibleTArray
 <
 DOMSVGLength
 *

@@ -1027,7 +1027,7 @@ mU
 }
 ;
 typedef
-nsTArray
+FallibleTArray
 <
 MotionSegment
 >

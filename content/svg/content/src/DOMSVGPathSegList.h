@@ -1659,7 +1659,7 @@ when
 they
 die
 .
-nsTArray
+FallibleTArray
 <
 ItemProxy
 >

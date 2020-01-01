@@ -187,7 +187,7 @@ namespace
 void
 UpdateListIndicesFromIndex
 (
-nsTArray
+FallibleTArray
 <
 mozilla
 :
