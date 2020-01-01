@@ -155,8 +155,9 @@ Original
 Code
 is
 *
+The
 Mozilla
-Corporation
+Foundation
 .
 *
 Portions
@@ -463,6 +464,8 @@ bookmarksMenu
 "
 )
 ;
+pep
+.
 performAction
 (
 '
@@ -539,6 +542,8 @@ bookmarksShowAll
 "
 )
 ;
+pep
+.
 performAction
 (
 '

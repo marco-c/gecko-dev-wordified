@@ -155,8 +155,9 @@ Original
 Code
 is
 *
+The
 Mozilla
-Corporation
+Foundation
 .
 *
 Portions
@@ -444,6 +445,8 @@ window
 '
 )
 ;
+pep
+.
 performAction
 (
 "

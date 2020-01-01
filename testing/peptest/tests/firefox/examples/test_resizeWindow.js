@@ -155,8 +155,9 @@ Original
 Code
 is
 *
+The
 Mozilla
-Corporation
+Foundation
 .
 *
 Portions
@@ -429,6 +430,8 @@ window
 let
 window
 =
+pep
+.
 getWindow
 (
 )
@@ -447,6 +450,8 @@ window
 .
 outerHeight
 ;
+pep
+.
 performAction
 (
 '
@@ -467,6 +472,8 @@ resizeBy
 }
 )
 ;
+pep
+.
 performAction
 (
 '

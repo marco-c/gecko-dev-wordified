@@ -155,8 +155,9 @@ Original
 Code
 is
 *
+The
 Mozilla
-Corporation
+Foundation
 .
 *
 Portions
@@ -482,6 +483,8 @@ btnK
 '
 )
 ;
+pep
+.
 performAction
 (
 '
