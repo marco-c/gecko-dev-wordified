@@ -1759,11 +1759,11 @@ flowto
 )
 ACCESSIBILITY_ATOM
 (
-aria_grab
+aria_grabbed
 "
 aria
 -
-grab
+grabbed
 "
 )
 ACCESSIBILITY_ATOM
