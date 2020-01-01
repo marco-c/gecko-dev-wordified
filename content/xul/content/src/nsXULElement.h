@@ -1282,11 +1282,7 @@ Handle
 JSScript
 *
 >
-:
-:
-fromMarkedLocation
 (
-&
 mScriptObject
 )
 ;
@@ -1304,7 +1300,7 @@ if
 mScriptObject
 )
 {
-JS_CallScriptTracer
+JS_CallHeapScriptTracer
 (
 aTrc
 &
@@ -1389,8 +1385,14 @@ mLangVersion
 ;
 private
 :
+JS
+:
+:
+Heap
+<
 JSScript
 *
+>
 mScriptObject
 ;
 }

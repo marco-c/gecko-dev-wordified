@@ -3278,8 +3278,14 @@ virtual
 void
 Trace
 (
+JS
+:
+:
+Heap
+<
 JSScript
 *
+>
 *
 p
 const
@@ -3293,7 +3299,7 @@ closure
 const
 MOZ_OVERRIDE
 {
-JS_CallScriptTracer
+JS_CallHeapScriptTracer
 (
 static_cast
 <
