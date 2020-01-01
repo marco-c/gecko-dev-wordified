@@ -1115,7 +1115,10 @@ if
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )

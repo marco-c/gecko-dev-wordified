@@ -14840,7 +14840,10 @@ if
 ar
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 &

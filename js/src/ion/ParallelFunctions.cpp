@@ -3099,7 +3099,10 @@ JS_ASSERT
 res
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )

@@ -1581,7 +1581,10 @@ if
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )
@@ -4120,7 +4123,10 @@ if
 objArg
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 &
@@ -5181,7 +5187,10 @@ JS_ASSERT
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )

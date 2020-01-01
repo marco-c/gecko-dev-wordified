@@ -9759,7 +9759,7 @@ Object
 }
 {
 js_InitArrayClass
-EAGER_ATOM_AND_CLASP
+EAGER_ATOM_AND_OCLASP
 (
 Array
 )

@@ -209,6 +209,15 @@ include
 "
 vm
 /
+ArrayObject
+.
+h
+"
+#
+include
+"
+vm
+/
 BooleanObject
 .
 h
@@ -2890,7 +2899,10 @@ JSProto_Array
 :
 return
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 ;
 case
 JSProto_Number

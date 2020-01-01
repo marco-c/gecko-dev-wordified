@@ -16893,7 +16893,10 @@ regs
 .
 pc
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 )
 ;
 obj
@@ -17027,7 +17030,10 @@ regs
 .
 pc
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 )
 ;
 obj
@@ -17605,7 +17611,10 @@ JS_ASSERT
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )

@@ -1650,7 +1650,10 @@ if
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )
@@ -2067,7 +2070,10 @@ if
 src
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )
@@ -2561,7 +2567,10 @@ if
 src
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 &

@@ -3707,7 +3707,10 @@ writePair
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 ?
@@ -4123,7 +4126,10 @@ isObject
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )

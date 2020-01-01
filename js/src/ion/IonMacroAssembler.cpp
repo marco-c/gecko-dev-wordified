@@ -4315,7 +4315,10 @@ if
 templateObject
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )

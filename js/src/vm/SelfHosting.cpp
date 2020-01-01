@@ -5684,7 +5684,10 @@ if
 srcObj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )

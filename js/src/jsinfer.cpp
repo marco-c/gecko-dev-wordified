@@ -13700,7 +13700,10 @@ clasp
 !
 =
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 )
 {
 dontConvert
@@ -20479,7 +20482,10 @@ JS_ASSERT
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )
@@ -20684,7 +20690,10 @@ newTypeObject
 (
 cx
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 objProto
 )
 )
@@ -40586,7 +40595,10 @@ if
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 &
