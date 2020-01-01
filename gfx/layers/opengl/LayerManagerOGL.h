@@ -2278,10 +2278,6 @@ static
 bool
 sDrawFPS
 ;
-static
-bool
-sFrameCounter
-;
 }
 ;
 /
