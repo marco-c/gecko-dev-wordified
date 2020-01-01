@@ -1152,6 +1152,11 @@ jsop_getelem_slow
 (
 )
 ;
+void
+jsop_unbrand
+(
+)
+;
 /
 *
 Fast
