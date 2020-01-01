@@ -135,7 +135,7 @@ false
 ;
 presenter
 .
-onSetupMesh
+_onSetupMesh
 =
 function
 (
@@ -185,7 +185,7 @@ ok
 !
 presenter
 .
-highlight
+_highlight
 .
 disabled
 "
@@ -256,7 +256,7 @@ ok
 (
 presenter
 .
-highlight
+_highlight
 .
 disabled
 "
@@ -282,11 +282,13 @@ presenter
 _currentSelection
 ;
 let
-meshData
+vertices
 =
 presenter
 .
-meshData
+_meshData
+.
+vertices
 ;
 for
 (
@@ -311,8 +313,6 @@ i
 {
 is
 (
-meshData
-.
 vertices
 [
 i

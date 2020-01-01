@@ -3182,12 +3182,12 @@ function
 typeof
 aScope
 .
-finalize
+_finalize
 )
 {
 aScope
 .
-finalize
+_finalize
 (
 )
 ;

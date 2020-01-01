@@ -133,7 +133,7 @@ false
 ;
 presenter
 .
-onSetupMesh
+_onSetupMesh
 =
 function
 (
@@ -212,7 +212,7 @@ ok
 !
 presenter
 .
-highlight
+_highlight
 .
 disabled
 "
@@ -317,7 +317,7 @@ ok
 (
 presenter
 .
-highlight
+_highlight
 .
 disabled
 "
