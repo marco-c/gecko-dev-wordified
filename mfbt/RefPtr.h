@@ -572,6 +572,7 @@ void
 AddRef
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -590,6 +591,7 @@ void
 Release
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -623,6 +625,7 @@ endif
 delete
 static_cast
 <
+const
 T
 *
 >
@@ -693,6 +696,7 @@ refCnt
 }
 private
 :
+mutable
 typename
 Conditional
 <
