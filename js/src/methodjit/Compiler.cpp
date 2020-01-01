@@ -2831,7 +2831,7 @@ INLINE_STUBCALL
 stubs
 :
 :
-EnterScript
+ScriptDebugPrologue
 )
 ;
 return
@@ -15106,7 +15106,7 @@ INLINE_STUBCALL
 stubs
 :
 :
-LeaveScript
+ScriptDebugEpilogue
 )
 ;
 }
