@@ -2439,6 +2439,7 @@ get
 (
 )
 mLineNumber
+JSVERSION_LATEST
 aHandler
 )
 ;

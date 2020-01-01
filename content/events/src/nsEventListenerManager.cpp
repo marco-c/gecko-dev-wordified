@@ -4851,6 +4851,12 @@ get
 (
 )
 lineNo
+SCRIPTVERSION_DEFAULT
+/
+/
+for
+now
+?
 handler
 )
 ;
@@ -6061,6 +6067,12 @@ get
 (
 )
 lineNo
+SCRIPTVERSION_DEFAULT
+/
+/
+for
+now
+?
 handler
 )
 ;

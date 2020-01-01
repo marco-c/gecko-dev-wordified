@@ -676,6 +676,8 @@ char
 aURL
 PRUint32
 aLineNo
+PRUint32
+aVersion
 nsScriptObjectHolder
 &
 aHandler
@@ -767,6 +769,8 @@ char
 aURL
 PRUint32
 aLineNo
+PRUint32
+aVersion
 PRBool
 aShared
 void

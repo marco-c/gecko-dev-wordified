@@ -2601,6 +2601,9 @@ char
 aURL
 PRUint32
 aLineNo
+PRUint32
+aVersion
+;
 nsScriptObjectHolder
 &
 aHandler
@@ -2722,6 +2725,7 @@ aBody
 )
 aURL
 aLineNo
+aVersion
 )
 ;
 if
@@ -2904,6 +2908,8 @@ char
 aURL
 PRUint32
 aLineNo
+PRUint32
+aVersion
 PRBool
 aShared
 void
