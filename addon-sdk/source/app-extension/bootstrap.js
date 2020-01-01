@@ -2196,6 +2196,11 @@ parseable
 options
 .
 parseable
+checkMemory
+:
+options
+.
+check_memory
 }
 }
 }

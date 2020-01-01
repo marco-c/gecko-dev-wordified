@@ -146,7 +146,7 @@ object
 ;
 const
 {
-curry
+partial
 }
 =
 require
@@ -722,7 +722,7 @@ this
 {
 log
 :
-curry
+partial
 (
 message
 print
@@ -732,7 +732,7 @@ info
 )
 info
 :
-curry
+partial
 (
 message
 print
@@ -742,7 +742,7 @@ info
 )
 warn
 :
-curry
+partial
 (
 message
 print
@@ -752,7 +752,7 @@ warn
 )
 error
 :
-curry
+partial
 (
 message
 print
@@ -762,7 +762,7 @@ error
 )
 debug
 :
-curry
+partial
 (
 message
 print
@@ -772,14 +772,14 @@ debug
 )
 exception
 :
-curry
+partial
 (
 errorMessage
 print
 )
 trace
 :
-curry
+partial
 (
 traceMessage
 print

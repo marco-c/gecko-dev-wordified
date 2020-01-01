@@ -416,6 +416,7 @@ readyEvents
 =
 filter
 (
+events
 function
 (
 e
@@ -429,7 +430,6 @@ type
 "
 DOMContentLoaded
 "
-events
 )
 ;
 /
@@ -450,6 +450,7 @@ futureWindows
 =
 map
 (
+readyEvents
 function
 (
 e
@@ -457,7 +458,6 @@ e
 e
 .
 target
-readyEvents
 )
 ;
 /
@@ -503,8 +503,8 @@ eventsFromFuture
 =
 expand
 (
-tabEventsFor
 futureWindows
+tabEventsFor
 )
 ;
 /

@@ -154,8 +154,8 @@ evens
 =
 filter
 (
-isEven
 input
+isEven
 )
 ;
 let
@@ -252,8 +252,8 @@ output
 =
 filter
 (
-isEven
 input
+isEven
 )
 ;
 assert
@@ -307,8 +307,8 @@ assert
 (
 filter
 (
-isEven
 input
+isEven
 )
 [
 1
@@ -359,8 +359,8 @@ assert
 (
 filter
 (
-isEven
 input
+isEven
 )
 [
 1
@@ -403,8 +403,8 @@ assert
 (
 filter
 (
-isEven
 input
+isEven
 )
 [
 1
@@ -453,8 +453,8 @@ incs
 =
 map
 (
-inc
 input
+inc
 )
 ;
 let
@@ -548,8 +548,8 @@ output
 =
 map
 (
-inc
 input
+inc
 )
 ;
 assert
@@ -602,8 +602,8 @@ assert
 (
 map
 (
-inc
 input
+inc
 )
 [
 1
@@ -651,8 +651,8 @@ assert
 (
 map
 (
-inc
 input
+inc
 )
 [
 1
@@ -693,8 +693,8 @@ assert
 (
 map
 (
-inc
 input
+inc
 )
 [
 1
@@ -1130,8 +1130,8 @@ evens
 =
 filter
 (
-isEven
 input
+isEven
 )
 let
 output
@@ -1195,8 +1195,8 @@ evens
 =
 filter
 (
-isEven
 input
+isEven
 )
 let
 output
@@ -1263,8 +1263,8 @@ evens
 =
 filter
 (
-isEven
 input
+isEven
 )
 let
 output
@@ -1319,8 +1319,8 @@ evens
 =
 filter
 (
-isEven
 input
+isEven
 )
 let
 output
@@ -1404,12 +1404,12 @@ on
 (
 expand
 (
+inputs
 function
 (
 )
 (
 )
-inputs
 )
 "
 data
