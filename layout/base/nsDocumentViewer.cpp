@@ -1946,8 +1946,6 @@ DocumentViewerImpl
 public
 nsIDocumentViewer
 public
-nsIContentViewer_MOZILLA_2_0_BRANCH
-public
 nsIContentViewerEdit
 public
 nsIContentViewerFile
@@ -2147,14 +2145,6 @@ nsIDocumentViewerPrint
 Printing
 Methods
 NS_DECL_NSIDOCUMENTVIEWERPRINT
-/
-/
-nsIContentViewer_MOZILLA_2_0_BRANCH
-interface
-.
-.
-.
-NS_DECL_NSICONTENTVIEWER_MOZILLA_2_0_BRANCH
 protected
 :
 virtual
@@ -3462,10 +3452,6 @@ nsIWebBrowserPrint
 )
 #
 endif
-NS_INTERFACE_MAP_ENTRY
-(
-nsIContentViewer_MOZILLA_2_0_BRANCH
-)
 NS_INTERFACE_MAP_END
 DocumentViewerImpl
 :
