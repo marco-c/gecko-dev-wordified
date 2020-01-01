@@ -3621,12 +3621,8 @@ ancestor
 ancestor
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {

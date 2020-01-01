@@ -2421,12 +2421,8 @@ GetContent
 )
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 "
 aFrame
@@ -2670,12 +2666,8 @@ GetContent
 )
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {

@@ -873,6 +873,11 @@ StyleSet
 ResolveXULTreePseudoStyle
 (
 aContent
+-
+>
+AsElement
+(
+)
 aPseudoElement
 aContext
 aComparator

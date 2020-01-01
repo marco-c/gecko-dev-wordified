@@ -2575,12 +2575,8 @@ GetContent
 )
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
