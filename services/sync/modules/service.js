@@ -9003,6 +9003,7 @@ record
 "
 )
 ;
+let
 meta
 =
 new
