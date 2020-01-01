@@ -4795,6 +4795,14 @@ SAMPLER_FRAME_NUMBER
 sFrameCount
 )
 ;
+context
+-
+>
+fEnable
+(
+LOCAL_GL_SCISSOR_TEST
+)
+;
 uint16_t
 frameNumber
 =
