@@ -691,6 +691,12 @@ pack
 :
 center
 ;
+margin
+-
+bottom
+:
+1px
+;
 }
 .
 menulist
