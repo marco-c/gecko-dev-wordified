@@ -13,8 +13,6 @@ Copyright
 c
 )
 2009
-Jay
-Loden
 Giampaolo
 Rodola
 '
@@ -113,6 +111,11 @@ __extra__all__
 =
 [
     
+#
+io
+prio
+constants
+    
 "
 IOPRIO_CLASS_NONE
 "
@@ -126,6 +129,50 @@ IOPRIO_CLASS_BE
 "
 IOPRIO_CLASS_IDLE
 "
+    
+#
+connection
+status
+constants
+    
+"
+CONN_ESTABLISHED
+"
+"
+CONN_SYN_SENT
+"
+"
+CONN_SYN_RECV
+"
+"
+CONN_FIN_WAIT1
+"
+    
+"
+CONN_FIN_WAIT2
+"
+"
+CONN_TIME_WAIT
+"
+"
+CONN_CLOSE
+"
+"
+CONN_CLOSE_WAIT
+"
+    
+"
+CONN_LAST_ACK
+"
+"
+CONN_LISTEN
+"
+"
+CONN_CLOSING
+"
+    
+#
+other
     
 "
 phymem_buffers
@@ -751,89 +798,67 @@ _TCP_STATES_TABLE
 01
 "
 :
-"
-ESTABLISHED
-"
+CONN_ESTABLISHED
                      
 "
 02
 "
 :
-"
-SYN_SENT
-"
+CONN_SYN_SENT
                      
 "
 03
 "
 :
-"
-SYN_RECV
-"
+CONN_SYN_RECV
                      
 "
 04
 "
 :
-"
-FIN_WAIT1
-"
+CONN_FIN_WAIT1
                      
 "
 05
 "
 :
-"
-FIN_WAIT2
-"
+CONN_FIN_WAIT2
                      
 "
 06
 "
 :
-"
-TIME_WAIT
-"
+CONN_TIME_WAIT
                      
 "
 07
 "
 :
-"
-CLOSE
-"
+CONN_CLOSE
                      
 "
 08
 "
 :
-"
-CLOSE_WAIT
-"
+CONN_CLOSE_WAIT
                      
 "
 09
 "
 :
-"
-LAST_ACK
-"
+CONN_LAST_ACK
                      
 "
 0A
 "
 :
-"
-LISTEN
-"
+CONN_LISTEN
                      
 "
 0B
 "
 :
-"
-CLOSING
-"
+CONN_CLOSING
                      
 }
 #
@@ -2458,7 +2483,7 @@ pid_exists
 pid
 )
 def
-network_io_counters
+net_io_counters
 (
 )
 :
@@ -3036,6 +3061,25 @@ line
 in
 lines
 :
+        
+#
+http
+:
+/
+/
+www
+.
+mjmwired
+.
+net
+/
+kernel
+/
+Documentation
+/
+iostats
+.
+txt
         
 _
 _
@@ -5212,14 +5256,24 @@ None
 )
                     
 if
-len
-(
+not
 fields
-)
->
-=
-5
+[
+0
+]
+.
+endswith
+(
+'
 :
+'
+)
+:
+                        
+#
+new
+block
+section
                         
 yield
 (
@@ -5241,6 +5295,9 @@ line
 else
 :
                         
+try
+:
+                            
 data
 [
 fields
@@ -5258,6 +5315,59 @@ fields
 )
 *
 1024
+                        
+except
+ValueError
+:
+                            
+if
+fields
+[
+0
+]
+.
+startswith
+(
+'
+VmFlags
+:
+'
+)
+:
+                                
+#
+see
+issue
+#
+369
+                                
+continue
+                            
+else
+:
+                                
+raise
+ValueError
+(
+"
+don
+'
+t
+know
+how
+to
+interpret
+"
+\
+                                                 
+"
+line
+%
+r
+"
+%
+line
+)
                 
 yield
 (
@@ -5640,7 +5750,7 @@ getpid
 :
         
 def
-get_shared_libs
+get_memory_maps
 (
 self
 ext
@@ -7663,8 +7773,7 @@ else
                                 
 status
 =
-"
-"
+CONN_NONE
                             
 fd
 =
@@ -7787,8 +7896,7 @@ type_
 path
                                                  
 None
-"
-"
+CONN_NONE
 )
                             
 retlist
@@ -8102,41 +8210,6 @@ pid
         
 return
 ret
-#
--
--
--
-lsof
-implementation
-#
-#
-def
-get_connections
-(
-self
-)
-:
-#
-lsof
-=
-_psposix
-.
-LsofParser
-(
-self
-.
-pid
-self
-.
-_process_name
-)
-#
-return
-lsof
-.
-get_process_connections
-(
-)
     
 wrap_exceptions
     

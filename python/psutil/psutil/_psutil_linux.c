@@ -6,8 +6,6 @@ Copyright
 c
 )
 2009
-Jay
-Loden
 Giampaolo
 Rodola
 '
@@ -49,6 +47,9 @@ functions
 .
 *
 /
+#
+define
+_GNU_SOURCE
 #
 include
 <
