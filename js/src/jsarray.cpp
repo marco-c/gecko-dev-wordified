@@ -13267,6 +13267,15 @@ return
 false
 ;
 }
+vp
+-
+>
+setObject
+(
+*
+obj
+)
+;
 return
 true
 ;
