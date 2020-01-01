@@ -6055,7 +6055,7 @@ aLayer
 )
 -
 >
-ClearResources
+ClearCachedResources
 (
 )
 ;
