@@ -641,16 +641,6 @@ data
 "
 )
 ;
-SharedMemory
-:
-:
-SharedMemoryType
-shmType
-=
-OptimalShmemType
-(
-)
-;
 size_t
 size
 =
