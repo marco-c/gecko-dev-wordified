@@ -584,6 +584,7 @@ CopyIndexAfterObject
 unsigned
 int
 index
+const
 void
 *
 src
