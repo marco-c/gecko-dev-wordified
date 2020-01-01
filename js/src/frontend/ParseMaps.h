@@ -2472,14 +2472,9 @@ frontend
 :
 DefinitionList
 >
+:
+TrueType
 {
-static
-const
-bool
-value
-=
-true
-;
 }
 ;
 }
