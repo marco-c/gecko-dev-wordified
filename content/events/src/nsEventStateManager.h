@@ -2083,7 +2083,7 @@ direction
 )
 ;
 void
-DoScrollTextsize
+DoScrollFullZoom
 (
 nsIFrame
 *
@@ -2093,7 +2093,7 @@ adjustment
 )
 ;
 nsresult
-ChangeTextSize
+ChangeFullZoom
 (
 PRInt32
 change

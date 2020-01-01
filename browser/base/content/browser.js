@@ -8334,7 +8334,7 @@ init
 (
 )
 ;
-TextZoom
+FullZoom
 .
 init
 (
@@ -8659,7 +8659,7 @@ BrowserShutdown
 {
 try
 {
-TextZoom
+FullZoom
 .
 destroy
 (
@@ -9215,7 +9215,7 @@ Browser
 ReloadSkipCache
 '
 '
-viewTextZoomMenu
+viewFullZoomMenu
 '
 '
 pageStyleMenu
