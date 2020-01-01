@@ -602,6 +602,11 @@ name
 ;
 #
 endif
+JS_ClearPendingException
+(
+cx
+)
+;
 js_TriggerRecorderError
 (
 cx
