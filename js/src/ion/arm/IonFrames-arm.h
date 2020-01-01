@@ -582,7 +582,7 @@ IonRectifierFrameLayout
 }
 ;
 class
-IonBailedRectifierFrameLayout
+IonUnwoundRectifierFrameLayout
 :
 public
 IonJSFrameLayout
@@ -621,7 +621,7 @@ token
 This
 is
 not
-needee
+needed
 here
 because
 sizeof
@@ -644,7 +644,7 @@ padding
 return
 sizeof
 (
-IonBailedRectifierFrameLayout
+IonUnwoundRectifierFrameLayout
 )
 ;
 }
