@@ -2167,7 +2167,6 @@ at
 aColIndex
 *
 /
-virtual
 int32_t
 GetColumnWidth
 (
@@ -2189,7 +2188,6 @@ style
 value
 *
 /
-virtual
 nscoord
 GetCellSpacingX
 (
@@ -2209,7 +2207,6 @@ style
 value
 *
 /
-virtual
 nscoord
 GetCellSpacingY
 (
@@ -2312,7 +2309,6 @@ table
 .
 *
 /
-virtual
 int32_t
 GetEffectiveRowSpan
 (
@@ -2325,7 +2321,6 @@ aCell
 )
 const
 ;
-virtual
 int32_t
 GetEffectiveRowSpan
 (
@@ -2392,7 +2387,6 @@ table
 .
 *
 /
-virtual
 int32_t
 GetEffectiveColSpan
 (
@@ -2656,7 +2650,6 @@ DidResizeColumns
 (
 )
 ;
-virtual
 void
 AppendCell
 (
@@ -2667,7 +2660,6 @@ int32_t
 aRowIndex
 )
 ;
-virtual
 void
 InsertCells
 (
@@ -2684,7 +2676,6 @@ int32_t
 aColIndexBefore
 )
 ;
-virtual
 void
 RemoveCell
 (
@@ -2731,7 +2722,6 @@ bool
 aConsiderSpans
 )
 ;
-virtual
 void
 RemoveRows
 (
@@ -2795,7 +2785,6 @@ Slice
 aColgroups
 )
 ;
-virtual
 void
 RemoveCol
 (
@@ -3965,7 +3954,6 @@ cell
 map
 *
 /
-virtual
 nsTableCellMap
 *
 GetCellMap
@@ -4315,7 +4303,6 @@ layout
 auto
 *
 /
-virtual
 bool
 IsAutoLayout
 (
