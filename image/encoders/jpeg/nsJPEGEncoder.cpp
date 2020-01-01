@@ -3081,12 +3081,10 @@ if
 mCallbackTarget
 )
 {
+callback
+=
 NS_NewInputStreamReadyEvent
 (
-getter_AddRefs
-(
-callback
-)
 mCallback
 mCallbackTarget
 )
