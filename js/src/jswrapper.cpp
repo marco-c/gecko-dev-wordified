@@ -1831,11 +1831,6 @@ JSWrapper
 handler
 )
 {
-JS_ASSERT
-(
-parent
-)
-;
 return
 NewProxyObject
 (
@@ -1933,7 +1928,7 @@ New
 cx
 obj
 wrappedProto
-parent
+NULL
 &
 JSCrossCompartmentWrapper
 :
@@ -2083,16 +2078,6 @@ target
 >
 getGlobal
 (
-)
-;
-JS_ASSERT
-(
-scopeChain
--
->
-isNative
-(
-)
 )
 ;
 frame
