@@ -124,6 +124,13 @@ nsIFile
 .
 h
 "
+#
+include
+"
+nsDiskCache
+.
+h
+"
 /
 *
 *
@@ -385,6 +392,12 @@ PRUint32
 blockSize
 PRUint32
 bitMapSize
+nsDiskCache
+:
+:
+CorruptCacheInfo
+*
+corruptInfo
 )
 ;
 nsresult
