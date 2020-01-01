@@ -753,7 +753,7 @@ rv
 }
 rv
 =
-gfxTextRunCache
+gfxGlobalTextRunCache
 :
 :
 Init
@@ -774,7 +774,7 @@ NS_ERROR
 Could
 not
 initialize
-gfxTextRunCache
+gfxGlobalTextRunCache
 "
 )
 ;
@@ -824,7 +824,7 @@ can
 handle
 it
 .
-gfxTextRunCache
+gfxGlobalTextRunCache
 :
 :
 Shutdown
