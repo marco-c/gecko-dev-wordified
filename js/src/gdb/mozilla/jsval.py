@@ -740,7 +740,7 @@ detail
 -
 jsval
 (
-jsapi
+Value
 .
 h
 )
@@ -761,7 +761,7 @@ JS
 :
 Value
 (
-jsapi
+Value
 .
 h
 )
@@ -788,7 +788,7 @@ jsval_layout
 -
 jsval_layout
 (
-jsval
+Value
 .
 h
 )
