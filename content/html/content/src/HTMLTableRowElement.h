@@ -139,6 +139,7 @@ dom
 {
 class
 HTMLTableRowElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

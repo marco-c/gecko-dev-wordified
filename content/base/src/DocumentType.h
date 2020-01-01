@@ -244,6 +244,7 @@ NS_FORWARD_NSIDOMNODE_TO_NSINODE
 ;
 class
 DocumentType
+MOZ_FINAL
 :
 public
 DocumentTypeForward

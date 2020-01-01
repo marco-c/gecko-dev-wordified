@@ -156,6 +156,7 @@ dom
 {
 class
 HTMLProgressElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

@@ -134,6 +134,7 @@ dom
 {
 class
 CDATASection
+MOZ_FINAL
 :
 public
 Text

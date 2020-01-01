@@ -144,6 +144,7 @@ dom
 {
 class
 HTMLOutputElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLFormElement

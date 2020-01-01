@@ -130,6 +130,7 @@ dom
 {
 class
 Comment
+MOZ_FINAL
 :
 public
 nsGenericDOMDataNode

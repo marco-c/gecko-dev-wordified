@@ -130,6 +130,7 @@ dom
 {
 class
 HTMLTableColElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

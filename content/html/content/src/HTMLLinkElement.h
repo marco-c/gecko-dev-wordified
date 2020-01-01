@@ -155,6 +155,7 @@ dom
 {
 class
 HTMLLinkElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

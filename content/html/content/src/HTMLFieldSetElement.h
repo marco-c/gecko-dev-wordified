@@ -159,6 +159,7 @@ dom
 {
 class
 HTMLFieldSetElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLFormElement

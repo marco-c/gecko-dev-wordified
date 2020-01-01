@@ -137,6 +137,7 @@ dom
 {
 class
 HTMLDataListElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

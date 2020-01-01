@@ -140,6 +140,7 @@ dom
 {
 class
 HTMLFrameElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLFrameElement

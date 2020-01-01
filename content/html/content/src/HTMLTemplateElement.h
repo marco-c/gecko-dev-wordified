@@ -141,6 +141,7 @@ dom
 {
 class
 HTMLTemplateElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

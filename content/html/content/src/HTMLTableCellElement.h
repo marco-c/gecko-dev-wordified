@@ -136,6 +136,7 @@ HTMLTableElement
 ;
 class
 HTMLTableCellElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

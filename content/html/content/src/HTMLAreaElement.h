@@ -186,6 +186,7 @@ dom
 {
 class
 HTMLAreaElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

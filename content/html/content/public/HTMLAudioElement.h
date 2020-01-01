@@ -179,6 +179,7 @@ dom
 {
 class
 HTMLAudioElement
+MOZ_FINAL
 :
 public
 HTMLMediaElement

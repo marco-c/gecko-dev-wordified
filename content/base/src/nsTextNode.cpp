@@ -218,6 +218,7 @@ content
 /
 class
 nsAttributeTextNode
+MOZ_FINAL
 :
 public
 nsTextNode

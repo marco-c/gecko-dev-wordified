@@ -157,6 +157,7 @@ elements
 /
 class
 nsMathMLElement
+MOZ_FINAL
 :
 public
 nsMathMLElementBase

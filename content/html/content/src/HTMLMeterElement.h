@@ -163,6 +163,7 @@ dom
 {
 class
 HTMLMeterElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

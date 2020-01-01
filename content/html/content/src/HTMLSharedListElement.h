@@ -153,6 +153,7 @@ dom
 {
 class
 HTMLSharedListElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

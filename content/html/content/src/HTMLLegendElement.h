@@ -141,6 +141,7 @@ dom
 {
 class
 HTMLLegendElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

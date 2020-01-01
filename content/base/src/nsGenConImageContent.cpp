@@ -148,6 +148,7 @@ h
 "
 class
 nsGenConImageContent
+MOZ_FINAL
 :
 public
 nsXMLElement

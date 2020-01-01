@@ -144,6 +144,7 @@ dom
 {
 class
 HTMLLabelElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLFormElement

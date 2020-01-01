@@ -491,6 +491,7 @@ dom
 {
 class
 XULDocument
+MOZ_FINAL
 :
 public
 XMLDocument

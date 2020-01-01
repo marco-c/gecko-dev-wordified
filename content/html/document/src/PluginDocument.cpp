@@ -210,6 +210,7 @@ dom
 {
 class
 PluginDocument
+MOZ_FINAL
 :
 public
 MediaDocument

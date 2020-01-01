@@ -160,6 +160,7 @@ dom
 {
 class
 HTMLSourceElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

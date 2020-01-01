@@ -215,6 +215,7 @@ and
 nsIDOMNode
 class
 Attr
+MOZ_FINAL
 :
 public
 nsIAttribute

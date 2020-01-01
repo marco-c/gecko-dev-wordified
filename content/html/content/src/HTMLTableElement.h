@@ -165,6 +165,7 @@ TableRowsCollection
 ;
 class
 HTMLTableElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

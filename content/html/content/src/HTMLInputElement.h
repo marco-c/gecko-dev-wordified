@@ -455,6 +455,7 @@ mResult
 ;
 class
 HTMLInputElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLFormElement
