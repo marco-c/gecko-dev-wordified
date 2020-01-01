@@ -1263,6 +1263,8 @@ virtual
 GLsizei
 getWidth
 (
+GLint
+level
 )
 const
 =
@@ -1272,6 +1274,8 @@ virtual
 GLsizei
 getHeight
 (
+GLint
+level
 )
 const
 =
@@ -1779,6 +1783,8 @@ virtual
 GLsizei
 getWidth
 (
+GLint
+level
 )
 const
 ;
@@ -1786,6 +1792,8 @@ virtual
 GLsizei
 getHeight
 (
+GLint
+level
 )
 const
 ;
@@ -2216,6 +2224,8 @@ virtual
 GLsizei
 getWidth
 (
+GLint
+level
 )
 const
 ;
@@ -2223,6 +2233,8 @@ virtual
 GLsizei
 getHeight
 (
+GLint
+level
 )
 const
 ;

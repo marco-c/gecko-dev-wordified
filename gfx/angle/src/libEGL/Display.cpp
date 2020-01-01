@@ -2570,6 +2570,15 @@ D3DRS_POINTSPRITEENABLE
 TRUE
 )
 ;
+mDevice
+-
+>
+SetRenderState
+(
+D3DRS_LASTPIXEL
+FALSE
+)
+;
 mSceneStarted
 =
 false

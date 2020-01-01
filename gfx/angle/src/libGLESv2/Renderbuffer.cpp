@@ -357,6 +357,7 @@ mTexture
 >
 getWidth
 (
+0
 )
 ;
 }
@@ -375,6 +376,7 @@ mTexture
 >
 getHeight
 (
+0
 )
 ;
 }

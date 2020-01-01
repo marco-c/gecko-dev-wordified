@@ -355,6 +355,9 @@ SH_SAMPLER_2D
 SH_SAMPLER_CUBE
 =
 0x8B60
+SH_SAMPLER_2D_RECT_ARB
+=
+0x8B63
 }
 ShDataType
 ;
@@ -604,6 +607,9 @@ OES_standard_derivatives
 ;
 int
 OES_EGL_image_external
+;
+int
+ARB_texture_rectangle
 ;
 }
 ShBuiltInResources

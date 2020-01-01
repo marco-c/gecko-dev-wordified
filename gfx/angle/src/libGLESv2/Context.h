@@ -915,6 +915,9 @@ unpackAlignment
 GLint
 packAlignment
 ;
+bool
+packReverseRowOrder
+;
 }
 ;
 /
@@ -1566,6 +1569,19 @@ getPackAlignment
 )
 const
 ;
+void
+setPackReverseRowOrder
+(
+bool
+reverseRowOrder
+)
+;
+bool
+getPackReverseRowOrder
+(
+)
+const
+;
 /
 /
 These
@@ -2020,6 +2036,8 @@ first
 unsigned
 int
 last
+int
+minIndex
 )
 ;
 void
@@ -2033,6 +2051,8 @@ const
 void
 *
 indices
+int
+minIndex
 )
 ;
 void
