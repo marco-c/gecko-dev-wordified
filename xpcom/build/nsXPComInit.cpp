@@ -2560,6 +2560,10 @@ gXPCOMShuttingDown
 =
 PR_FALSE
 ;
+NS_LogInit
+(
+)
+;
 #
 ifdef
 MOZ_IPC
@@ -2726,10 +2730,6 @@ release
 }
 #
 endif
-NS_LogInit
-(
-)
-;
 /
 /
 Set
@@ -4736,10 +4736,6 @@ Shutdown
 (
 )
 ;
-NS_LogTerm
-(
-)
-;
 #
 ifdef
 MOZ_IPC
@@ -4801,6 +4797,10 @@ nsnull
 }
 #
 endif
+NS_LogTerm
+(
+)
+;
 return
 NS_OK
 ;
