@@ -4598,7 +4598,7 @@ Services
 .
 prefs
 .
-setBoolPref
+setCharPref
 (
 key
 value
