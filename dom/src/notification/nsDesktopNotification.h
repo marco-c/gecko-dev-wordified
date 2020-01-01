@@ -352,6 +352,11 @@ nsDOMDesktopNotification
 (
 )
 ;
+void
+Init
+(
+)
+;
 /
 *
 *
