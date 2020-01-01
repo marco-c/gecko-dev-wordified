@@ -363,10 +363,13 @@ str
 if
 (
 !
-JSAtom
+js
 :
 :
-hasUintStatic
+StaticStrings
+:
+:
+hasUint
 (
 u
 )

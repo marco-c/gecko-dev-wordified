@@ -40987,15 +40987,6 @@ if
 str
 -
 >
-isStaticAtom
-(
-)
-&
-&
-!
-str
--
->
 isMarked
 (
 )
