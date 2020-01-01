@@ -1839,6 +1839,15 @@ PRUint32
 aFrameNum
 )
 ;
+nsresult
+SetFrameAsNonPremult
+(
+PRUint32
+aFrameNum
+bool
+aIsNonPremult
+)
+;
 /
 *
 *

@@ -1559,6 +1559,16 @@ endianness
 .
 *
 *
+Resulting
+gfxRGBA
+stores
+non
+-
+premultiplied
+data
+.
+*
+*
 see
 gfxRGBA
 :

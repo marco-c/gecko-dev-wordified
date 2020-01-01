@@ -568,6 +568,13 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ICANVASELEMENTEXTERNAL_IID
 )
+enum
+{
+RenderFlagPremultAlpha
+=
+0x1
+}
+;
 /
 *
 *
@@ -633,6 +640,10 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
+PRUint32
+aFlags
+=
+RenderFlagPremultAlpha
 )
 =
 0
