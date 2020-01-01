@@ -4777,13 +4777,15 @@ arg
 )
 ;
 CompileStatus
-compileArrayPop
+compileArrayPopShift
 (
 FrameEntry
 *
 thisv
 bool
 isPacked
+bool
+isArrayPop
 )
 ;
 CompileStatus

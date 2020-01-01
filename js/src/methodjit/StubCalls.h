@@ -2007,6 +2007,15 @@ uint32
 length
 )
 ;
+void
+JS_FASTCALL
+ArrayShift
+(
+VMFrame
+&
+f
+)
+;
 }
 /
 *
