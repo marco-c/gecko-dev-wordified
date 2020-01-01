@@ -3950,7 +3950,7 @@ false
 atomsCompartment
 -
 >
-systemGCChunks
+isSystemCompartment
 =
 true
 ;
