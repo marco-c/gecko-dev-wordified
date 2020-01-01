@@ -5556,6 +5556,12 @@ sIsOleInitialized
 {
 :
 :
+OleFlushClipboard
+(
+)
+;
+:
+:
 OleUninitialize
 (
 )
