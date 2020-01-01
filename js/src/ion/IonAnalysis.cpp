@@ -6804,8 +6804,16 @@ and
 the
 backedge
 .
-JS_ASSERT
+JS_ASSERT_IF
 (
+pred
+!
+=
+graph
+.
+osrBlock
+(
+)
 header
 -
 >
