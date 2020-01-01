@@ -202,14 +202,6 @@ DocAccessible
 struct
 nsRoleMapEntry
 ;
-#
-ifdef
-MOZ_XUL
-class
-nsXULTreeAccessible
-;
-#
-endif
 class
 nsAccUtils
 {

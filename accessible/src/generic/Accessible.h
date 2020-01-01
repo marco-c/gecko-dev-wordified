@@ -236,6 +236,9 @@ TableAccessible
 class
 TextLeafAccessible
 ;
+class
+XULTreeAccessible
+;
 /
 *
 *
@@ -384,9 +387,6 @@ a11y
 /
 namespace
 mozilla
-class
-nsXULTreeAccessible
-;
 struct
 nsRect
 ;
@@ -3047,7 +3047,13 @@ mFlags
 eXULTreeAccessible
 ;
 }
-nsXULTreeAccessible
+mozilla
+:
+:
+a11y
+:
+:
+XULTreeAccessible
 *
 AsXULTree
 (

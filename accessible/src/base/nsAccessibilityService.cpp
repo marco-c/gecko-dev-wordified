@@ -561,7 +561,7 @@ h
 #
 include
 "
-nsXULTreeGridAccessibleWrap
+XULTreeGridAccessibleWrap
 .
 h
 "
@@ -2963,7 +2963,7 @@ if
 accessible
 )
 {
-nsXULTreeAccessible
+XULTreeAccessible
 *
 treeAcc
 =
@@ -9299,7 +9299,7 @@ XULTreeColumns
 accessible
 =
 new
-nsXULTreeColumAccessible
+XULTreeColumAccessible
 (
 aContent
 aDoc
@@ -11302,7 +11302,7 @@ Accessible
 accessible
 =
 new
-nsXULTreeAccessible
+XULTreeAccessible
 (
 aContent
 aDoc
@@ -11330,7 +11330,7 @@ Accessible
 accessible
 =
 new
-nsXULTreeGridAccessibleWrap
+XULTreeGridAccessibleWrap
 (
 aContent
 aDoc
