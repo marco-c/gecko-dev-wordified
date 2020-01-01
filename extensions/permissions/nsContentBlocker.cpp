@@ -228,6 +228,9 @@ media
 "
 websocket
 "
+"
+csp_report
+"
 }
 ;
 #

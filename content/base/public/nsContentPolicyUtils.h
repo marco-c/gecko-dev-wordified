@@ -682,6 +682,11 @@ CASE_RETURN
 TYPE_WEBSOCKET
 )
 ;
+CASE_RETURN
+(
+TYPE_CSP_REPORT
+)
+;
 default
 :
 return
