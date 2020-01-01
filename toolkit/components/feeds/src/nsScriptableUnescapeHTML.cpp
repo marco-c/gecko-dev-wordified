@@ -429,13 +429,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h
