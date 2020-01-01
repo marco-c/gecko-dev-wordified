@@ -101,9 +101,7 @@ gecko
 .
 sync
 .
-crypto
-.
-KeyBundle
+Utils
 ;
 import
 org
@@ -716,7 +714,7 @@ try
 String
 username
 =
-KeyBundle
+Utils
 .
 usernameFromAccount
 (
