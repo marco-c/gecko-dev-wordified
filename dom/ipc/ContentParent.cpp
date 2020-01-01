@@ -5430,7 +5430,7 @@ aOSPrivileges
 )
 mChildID
 (
-CONTENT_PARENT_UNKNOWN_CHILD_ID
+CONTENT_PROCESS_ID_UNKNOWN
 )
 mGeolocationWatchID
 (

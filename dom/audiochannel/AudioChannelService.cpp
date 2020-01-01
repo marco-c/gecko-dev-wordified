@@ -220,6 +220,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+hal
+;
 StaticRefPtr
 <
 AudioChannelService
@@ -494,7 +501,7 @@ data
 RegisterType
 (
 aType
-CONTENT_PARENT_NO_CHILD_ID
+CONTENT_PROCESS_ID_MAIN
 )
 ;
 }
@@ -616,7 +623,7 @@ data
 -
 >
 mElementHidden
-CONTENT_PARENT_NO_CHILD_ID
+CONTENT_PROCESS_ID_MAIN
 )
 ;
 }
@@ -786,7 +793,7 @@ data
 -
 >
 mType
-CONTENT_PARENT_NO_CHILD_ID
+CONTENT_PROCESS_ID_MAIN
 aElementHidden
 oldElementHidden
 )
