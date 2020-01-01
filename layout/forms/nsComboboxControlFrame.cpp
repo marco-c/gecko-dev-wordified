@@ -3154,8 +3154,10 @@ nsMouseEvent
 eReal
 )
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetPresContext

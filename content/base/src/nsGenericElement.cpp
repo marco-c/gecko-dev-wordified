@@ -12703,8 +12703,10 @@ return
 NS_OK
 ;
 }
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 aPresContext
@@ -21121,8 +21123,10 @@ simply
 to
 dispatch
 DOMActivate
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 aVisitor

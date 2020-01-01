@@ -6133,8 +6133,10 @@ if
 doc
 )
 {
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 doc
@@ -6278,8 +6280,10 @@ if
 doc
 )
 {
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 doc

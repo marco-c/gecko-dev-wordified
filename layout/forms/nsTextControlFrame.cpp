@@ -2088,8 +2088,10 @@ if
 doc
 )
 {
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 doc
@@ -13123,6 +13125,12 @@ normal
 DOM
 rules
 .
+nsCOMPtr
+<
+nsIPresShell
+>
+shell
+=
 GetPresContext
 (
 )
@@ -13131,6 +13139,8 @@ GetPresContext
 PresShell
 (
 )
+;
+shell
 -
 >
 HandleEventWithTarget
@@ -13211,6 +13221,12 @@ NS_FORM_CHANGE
 nsnull
 )
 ;
+nsCOMPtr
+<
+nsIPresShell
+>
+shell
+=
 GetPresContext
 (
 )
@@ -13219,6 +13235,8 @@ GetPresContext
 PresShell
 (
 )
+;
+shell
 -
 >
 HandleEventWithTarget

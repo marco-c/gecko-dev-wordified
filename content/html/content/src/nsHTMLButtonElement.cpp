@@ -2077,8 +2077,10 @@ mEvent
 )
 )
 {
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 aVisitor
@@ -2191,8 +2193,10 @@ status
 =
 nsEventStatus_eIgnore
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 aVisitor
