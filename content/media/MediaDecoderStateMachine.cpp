@@ -93,14 +93,14 @@ timers
 #
 include
 "
-Windows
+windows
 .
 h
 "
 #
 include
 "
-Mmsystem
+mmsystem
 .
 h
 "
