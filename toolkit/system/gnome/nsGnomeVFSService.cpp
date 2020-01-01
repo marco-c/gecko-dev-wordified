@@ -1328,10 +1328,6 @@ rv
 =
 NS_OK
 ;
-if
-(
-spec
-)
 g_free
 (
 spec

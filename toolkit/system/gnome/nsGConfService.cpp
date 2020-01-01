@@ -1279,10 +1279,6 @@ Assign
 command
 )
 ;
-if
-(
-command
-)
 g_free
 (
 command

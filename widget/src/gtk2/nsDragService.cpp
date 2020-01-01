@@ -7181,10 +7181,6 @@ if
 we
 have
 to
-if
-(
-mTargetDragData
-)
 g_free
 (
 mTargetDragData
