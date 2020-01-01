@@ -4134,7 +4134,7 @@ notifyReadMessageListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -4362,7 +4362,7 @@ notifyReadMessageListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -7840,7 +7840,7 @@ notifyGetMessageFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -7920,7 +7920,7 @@ notifyGetMessageFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 UNKNOWN_ERROR
 )
@@ -7969,7 +7969,7 @@ notifyGetMessageFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 NOT_FOUND_ERROR
 )
@@ -8025,7 +8025,7 @@ notifyGetMessageFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 UNKNOWN_ERROR
 )
@@ -8109,7 +8109,7 @@ notifyGetMessageFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -8162,7 +8162,7 @@ notifyDeleteMessageFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -8219,7 +8219,7 @@ notifyDeleteMessageFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -8835,7 +8835,7 @@ notifyReadMessageListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -10589,7 +10589,7 @@ notifyReadMessageListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 NOT_FOUND_ERROR
 )
@@ -10718,7 +10718,7 @@ notifyReadMessageListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -10855,7 +10855,7 @@ notifyReadMessageListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 NOT_FOUND_ERROR
 )
@@ -10937,7 +10937,7 @@ notifyReadMessageListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -11066,7 +11066,7 @@ notifyMarkMessageReadFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -11109,7 +11109,7 @@ notifyMarkMessageReadFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -11187,7 +11187,7 @@ notifyMarkMessageReadFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 NOT_FOUND_ERROR
 )
@@ -11243,7 +11243,7 @@ notifyMarkMessageReadFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 UNKNOWN_ERROR
 )
@@ -11592,7 +11592,7 @@ notifyThreadListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )
@@ -11635,7 +11635,7 @@ notifyThreadListFailed
 (
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 INTERNAL_ERROR
 )

@@ -1212,7 +1212,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -1548,7 +1548,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -1672,7 +1672,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -1874,7 +1874,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -1986,7 +1986,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -2098,7 +2098,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -2202,7 +2202,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -2329,7 +2329,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -2548,7 +2548,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =
@@ -2750,7 +2750,7 @@ Run
 {
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 request
 =

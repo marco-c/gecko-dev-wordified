@@ -126,7 +126,7 @@ PSmsRequestChild
 h
 "
 class
-nsISmsRequest
+nsIMobileMessageCallback
 ;
 namespace
 mozilla
@@ -268,7 +268,7 @@ SmsChild
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 mReplyRequest
 ;
@@ -276,7 +276,7 @@ public
 :
 SmsRequestChild
 (
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aReplyRequest
 )

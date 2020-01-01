@@ -201,7 +201,7 @@ const
 nsAString
 &
 aMessage
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )

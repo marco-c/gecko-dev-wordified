@@ -10624,7 +10624,7 @@ error
 =
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 UNKNOWN_ERROR
 ;
@@ -10644,7 +10644,7 @@ error
 =
 Ci
 .
-nsISmsRequest
+nsIMobileMessageCallback
 .
 NO_SIGNAL_ERROR
 ;

@@ -133,7 +133,7 @@ class
 nsIDOMMozSmsMessage
 ;
 class
-nsISmsRequest
+nsIMobileMessageCallback
 ;
 namespace
 mozilla
@@ -164,7 +164,7 @@ SmsCursor
 (
 int32_t
 aListId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -194,7 +194,7 @@ mListId
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 mRequest
 ;

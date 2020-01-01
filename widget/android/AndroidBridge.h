@@ -205,7 +205,7 @@ h
 #
 include
 "
-nsISmsRequest
+nsIMobileMessageCallback
 .
 h
 "
@@ -1725,7 +1725,7 @@ const
 nsAString
 &
 aText
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -1735,7 +1735,7 @@ GetMessage
 (
 int32_t
 aMessageId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -1745,7 +1745,7 @@ DeleteMessage
 (
 int32_t
 aMessageId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -1765,7 +1765,7 @@ SmsFilterData
 aFilter
 bool
 aReverse
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -1775,7 +1775,7 @@ GetNextMessageInList
 (
 int32_t
 aListId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -1789,7 +1789,7 @@ aListId
 ;
 already_AddRefed
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 DequeueSmsRequest
 (
@@ -2094,7 +2094,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 >
 >
@@ -2203,7 +2203,7 @@ mAPIVersion
 bool
 QueueSmsRequest
 (
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 uint32_t
