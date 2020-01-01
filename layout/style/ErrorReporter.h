@@ -391,6 +391,9 @@ nsAutoString
 mError
 ;
 nsString
+mErrorLine
+;
+nsString
 mFileName
 ;
 const
@@ -417,6 +420,9 @@ mInnerWindowID
 ;
 uint32_t
 mErrorLineNumber
+;
+uint32_t
+mPrevErrorLineNumber
 ;
 uint32_t
 mErrorColNumber
