@@ -147,17 +147,6 @@ Element
 .
 h
 "
-DOMCI_DATA
-(
-SVGZoomEvent
-mozilla
-:
-:
-dom
-:
-:
-SVGZoomEvent
-)
 namespace
 mozilla
 {

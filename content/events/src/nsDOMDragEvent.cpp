@@ -135,13 +135,6 @@ nsIDragService
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 nsDOMDragEvent
 :
 :
@@ -294,11 +287,6 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMDragEvent
 nsDOMMouseEvent
 )
-DOMCI_DATA
-(
-DragEvent
-nsDOMDragEvent
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMDragEvent
@@ -306,10 +294,6 @@ nsDOMDragEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMDragEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-DragEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

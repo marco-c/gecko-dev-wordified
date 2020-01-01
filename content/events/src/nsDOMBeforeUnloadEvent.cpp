@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsDOMBeforeUnloadEvent
 .
 h
@@ -117,11 +110,6 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMBeforeUnloadEvent
 nsDOMEvent
 )
-DOMCI_DATA
-(
-BeforeUnloadEvent
-nsDOMBeforeUnloadEvent
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMBeforeUnloadEvent
@@ -129,10 +117,6 @@ nsDOMBeforeUnloadEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMBeforeUnloadEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-BeforeUnloadEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

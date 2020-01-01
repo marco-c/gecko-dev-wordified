@@ -118,13 +118,6 @@ nsDOMCompositionEvent
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 nsDOMCompositionEvent
 :
 :
@@ -319,11 +312,6 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMCompositionEvent
 nsDOMUIEvent
 )
-DOMCI_DATA
-(
-CompositionEvent
-nsDOMCompositionEvent
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMCompositionEvent
@@ -331,10 +319,6 @@ nsDOMCompositionEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMCompositionEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CompositionEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
