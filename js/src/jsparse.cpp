@@ -845,6 +845,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 /
 *
 *
@@ -2078,9 +2085,10 @@ while
 objbox
 )
 {
-JS_CALL_OBJECT_TRACER
+MarkObject
 (
 trc
+*
 objbox
 -
 >

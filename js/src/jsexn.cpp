@@ -622,6 +622,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 /
 *
 Forward
@@ -2757,7 +2764,7 @@ priv
 >
 message
 )
-JS_CALL_STRING_TRACER
+MarkString
 (
 trc
 priv
@@ -2777,7 +2784,7 @@ priv
 >
 filename
 )
-JS_CALL_STRING_TRACER
+MarkString
 (
 trc
 priv
@@ -2828,8 +2835,7 @@ elem
 >
 funName
 )
-{
-JS_CALL_STRING_TRACER
+MarkString
 (
 trc
 elem
@@ -2844,7 +2850,6 @@ name
 "
 )
 ;
-}
 if
 (
 IS_GC_MARKING_TRACER

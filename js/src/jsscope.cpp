@@ -625,6 +625,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 uint32
 js_GenerateShape
 (
@@ -8946,7 +8953,6 @@ trc
 getterObject
 (
 )
-JSTRACE_OBJECT
 )
 ;
 }
@@ -8976,7 +8982,6 @@ trc
 setterObject
 (
 )
-JSTRACE_OBJECT
 )
 ;
 }
@@ -9003,7 +9008,6 @@ trc
 methodObject
 (
 )
-JSTRACE_OBJECT
 )
 ;
 }

@@ -798,6 +798,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 /
 *
 jsinvoke_cpp___

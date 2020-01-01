@@ -580,6 +580,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 /
 *
 *
@@ -3366,7 +3373,7 @@ getSource
 (
 )
 )
-JS_CALL_STRING_TRACER
+MarkString
 (
 trc
 re

@@ -988,7 +988,7 @@ toDouble
 return
 argval
 .
-asGCThing
+toGCThing
 (
 )
 ;

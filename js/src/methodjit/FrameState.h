@@ -485,6 +485,13 @@ ImmutableSync
 .
 h
 "
+#
+include
+"
+jscompartment
+.
+h
+"
 namespace
 js
 {

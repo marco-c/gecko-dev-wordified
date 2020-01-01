@@ -554,6 +554,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 jsautooplen
 .
 h

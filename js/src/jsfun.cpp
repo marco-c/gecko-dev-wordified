@@ -750,6 +750,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 inline
 JSObject
 *

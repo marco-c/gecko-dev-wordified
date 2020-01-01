@@ -610,6 +610,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 /
 *
 *
@@ -1783,9 +1790,10 @@ JS_ASSERT
 tarray
 )
 ;
-JS_CALL_OBJECT_TRACER
+MarkObject
 (
 trc
+*
 tarray
 -
 >

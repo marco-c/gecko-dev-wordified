@@ -578,6 +578,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 nscore
 .
 h

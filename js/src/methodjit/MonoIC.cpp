@@ -5734,7 +5734,7 @@ ic
 fastGuardedObject
 &
 &
-js_IsAboutToBeFinalized
+IsAboutToBeFinalized
 (
 ic
 .
@@ -5749,7 +5749,7 @@ ic
 fastGuardedNative
 &
 &
-js_IsAboutToBeFinalized
+IsAboutToBeFinalized
 (
 ic
 .
