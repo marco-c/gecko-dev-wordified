@@ -10401,7 +10401,6 @@ aStates
 )
 {
 }
-;
 /
 *
 *
@@ -20074,7 +20073,6 @@ return
 false
 ;
 }
-;
 #
 ifdef
 DEBUG_LAYOUT
