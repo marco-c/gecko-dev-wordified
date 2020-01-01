@@ -2235,11 +2235,6 @@ nsnull
 aFile
 )
 {
-NotifyServiceObservers
-(
-NS_PREFSERVICE_READ_TOPIC_ID
-)
-;
 rv
 =
 UseDefaultPrefFile
@@ -2278,6 +2273,11 @@ void
 )
 UseUserPrefFile
 (
+)
+;
+NotifyServiceObservers
+(
+NS_PREFSERVICE_READ_TOPIC_ID
 )
 ;
 }
