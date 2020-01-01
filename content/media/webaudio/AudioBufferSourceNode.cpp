@@ -161,7 +161,7 @@ h
 #
 include
 "
-PannerNode
+AudioParamTimeline
 .
 h
 "

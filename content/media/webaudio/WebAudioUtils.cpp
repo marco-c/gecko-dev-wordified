@@ -129,6 +129,13 @@ h
 #
 include
 "
+AudioParamTimeline
+.
+h
+"
+#
+include
+"
 blink
 /
 HRTFDatabaseLoader
