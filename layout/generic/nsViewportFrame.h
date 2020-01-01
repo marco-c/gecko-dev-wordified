@@ -786,8 +786,8 @@ aY
 nsIFrame
 *
 aForChild
-PRBool
-aImmediate
+PRUint32
+aFlags
 )
 ;
 #

@@ -3315,10 +3315,14 @@ GetOverflowRect
 (
 )
 ;
-Invalidate
+InvalidateWithFlags
 (
 damageRect
 aImmediate
+?
+INVALIDATE_IMMEDIATE
+:
+0
 )
 ;
 return

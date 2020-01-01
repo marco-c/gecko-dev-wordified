@@ -1119,10 +1119,13 @@ i
 rootFrame
 -
 >
-Invalidate
+InvalidateWithFlags
 (
 r
-PR_TRUE
+nsIFrame
+:
+:
+INVALIDATE_IMMEDIATE
 )
 ;
 #

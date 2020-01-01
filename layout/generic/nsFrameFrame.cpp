@@ -3627,7 +3627,6 @@ GetSize
 Invalidate
 (
 rect
-PR_FALSE
 )
 ;
 if

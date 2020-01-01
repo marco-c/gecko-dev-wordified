@@ -18380,7 +18380,6 @@ mFrame
 Invalidate
 (
 bounds
-PR_FALSE
 )
 ;
 }
@@ -30245,12 +30244,8 @@ the
 overflow
 area
 .
-Invalidate
+InvalidateOverflowRect
 (
-GetOverflowRect
-(
-)
-PR_FALSE
 )
 ;
 }

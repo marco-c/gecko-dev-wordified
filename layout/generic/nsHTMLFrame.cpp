@@ -2263,7 +2263,6 @@ aOldFrame
 GetPosition
 (
 )
-PR_FALSE
 )
 ;
 /

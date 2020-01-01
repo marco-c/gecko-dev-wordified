@@ -1084,6 +1084,7 @@ NodeIterator
 class
 eDOMClassInfo_NodeIterator_id
 eDOMClassInfo_DataTransfer_id
+eDOMClassInfo_NotifyPaintEvent_id
 /
 /
 This

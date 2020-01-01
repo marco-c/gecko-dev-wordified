@@ -3347,6 +3347,17 @@ endif
 /
 /
 MOZ_MEDIA
+{
+&
+nsGkAtoms
+:
+:
+onMozAfterPaint
+{
+NS_AFTERPAINT
+EventNameType_None
+}
+}
 }
 ;
 sEventTable

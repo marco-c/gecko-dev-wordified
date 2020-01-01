@@ -1964,8 +1964,8 @@ aY
 nsIFrame
 *
 aForChild
-PRBool
-aImmediate
+PRUint32
+aFlags
 )
 ;
 virtual
@@ -2818,8 +2818,8 @@ aY
 nsIFrame
 *
 aForChild
-PRBool
-aImmediate
+PRUint32
+aFlags
 )
 ;
 virtual

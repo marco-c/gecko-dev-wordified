@@ -3748,7 +3748,6 @@ invalidate
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 return
@@ -3923,7 +3922,6 @@ endif
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 return
@@ -4264,7 +4262,6 @@ change
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 }
@@ -4352,7 +4349,6 @@ change
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 return
@@ -5624,7 +5620,6 @@ mRect
 .
 height
 )
-PR_FALSE
 )
 ;
 }

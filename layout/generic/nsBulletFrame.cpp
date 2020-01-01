@@ -8306,7 +8306,6 @@ mRect
 .
 height
 )
-PR_FALSE
 )
 ;
 return
@@ -8469,7 +8468,6 @@ mRect
 .
 height
 )
-PR_FALSE
 )
 ;
 return
