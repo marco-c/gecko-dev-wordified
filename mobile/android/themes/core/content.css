@@ -113,6 +113,17 @@ xul
 "
 )
 ;
+-
+moz
+-
+document
+url
+(
+about
+:
+readercontent
+)
+{
 font
 -
 face
@@ -220,6 +231,7 @@ style
 :
 normal
 ;
+}
 }
 :
 :
