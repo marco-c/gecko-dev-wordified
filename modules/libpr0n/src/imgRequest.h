@@ -578,6 +578,9 @@ imgRequestProxy
 class
 imgCacheEntry
 ;
+class
+imgMemoryReporter
+;
 enum
 {
 stateRequestStarted
@@ -1321,6 +1324,10 @@ NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 private
 :
+friend
+class
+imgMemoryReporter
+;
 nsCOMPtr
 <
 nsIRequest
