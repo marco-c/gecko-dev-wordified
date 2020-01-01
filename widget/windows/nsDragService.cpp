@@ -479,10 +479,6 @@ nsDragService
 (
 )
 :
-mNativeDragTarget
-(
-nsnull
-)
 mDataObject
 (
 nsnull
@@ -659,11 +655,6 @@ nsDragService
 (
 )
 {
-NS_IF_RELEASE
-(
-mNativeDragTarget
-)
-;
 NS_IF_RELEASE
 (
 mDataObject
