@@ -1804,11 +1804,13 @@ entry
 ;
 while
 (
+(
 entry
 =
 entries
 .
 nextFile
+)
 )
 {
 if
