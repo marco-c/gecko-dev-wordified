@@ -541,7 +541,7 @@ mContext
 /
 /
 Float32Arrays
-nsAutoTArray
+AutoFallibleTArray
 <
 JSObject
 *
