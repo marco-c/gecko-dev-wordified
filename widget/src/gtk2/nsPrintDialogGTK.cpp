@@ -1042,7 +1042,7 @@ global
 /
 locale
 /
-printdialog
+gnomeprintdialog
 .
 properties
 "
@@ -1754,7 +1754,7 @@ global
 /
 locale
 /
-printdialog
+gnomeprintdialog
 .
 properties
 "
@@ -1771,7 +1771,7 @@ gtk_print_unix_dialog_new
 GetUTF8FromBundle
 (
 "
-printTitleGTK
+printTitle
 "
 )
 .
@@ -1864,7 +1864,7 @@ gtk_label_new
 GetUTF8FromBundle
 (
 "
-optionsTabLabelGTK
+optionsTabLabel
 "
 )
 .
@@ -2041,7 +2041,7 @@ b
 GetUTF8FromBundle
 (
 "
-printFramesTitleGTK
+printFramesTitle
 "
 )
 .

@@ -426,12 +426,9 @@ printingui_s
 LIBXUL_LIBRARY
 =
 1
-ifndef
-MOZ_COCOA_PRINTING
 DIRS
 =
 printpde
-endif
 CMMSRCS
 =
 nsPrintingPromptServiceX
@@ -451,10 +448,9 @@ cpp
 (
 NULL
 )
-ifndef
-MOZ_COCOA_PRINTING
 LOCAL_INCLUDES
 =
+\
 -
 I
 (
@@ -464,7 +460,10 @@ srcdir
 printpde
 /
 public
-endif
+\
+(
+NULL
+)
 #
 we
 don
