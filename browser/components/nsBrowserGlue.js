@@ -6256,7 +6256,7 @@ function
 const
 SMART_BOOKMARKS_VERSION
 =
-1
+2
 ;
 const
 SMART_BOOKMARKS_ANNO
@@ -6584,7 +6584,7 @@ _uri
 "
 place
 :
-queryType
+redirectsMode
 =
 "
 +
@@ -6592,7 +6592,7 @@ Ci
 .
 nsINavHistoryQueryOptions
 .
-QUERY_TYPE_HISTORY
+REDIRECTS_MODE_TARGET
 +
 "
 &

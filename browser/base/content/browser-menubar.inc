@@ -3816,9 +3816,9 @@ place
 "
 place
 :
-type
+redirectsMode
 =
-0
+2
 &
 amp
 ;
