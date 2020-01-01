@@ -719,12 +719,10 @@ item
 ;
 inspector
 .
-selection
-.
 once
 (
 "
-detached
+markupmutation
 "
 deleteTest
 )
