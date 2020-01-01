@@ -961,6 +961,8 @@ release
 void
 doRemoveChild
 (
+bool
+aNotify
 )
 ;
 nsString
