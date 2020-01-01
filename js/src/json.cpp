@@ -5725,7 +5725,7 @@ PushPrimitive
 (
 cx
 jp
-DoubleValue
+NumberValue
 (
 val
 )
