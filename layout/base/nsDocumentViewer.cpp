@@ -8897,6 +8897,15 @@ true
 bool
 savePresentation
 =
+mDocument
+?
+mDocument
+-
+>
+IsBFCachingAllowed
+(
+)
+:
 true
 ;
 /
