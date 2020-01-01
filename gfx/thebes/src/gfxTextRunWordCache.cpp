@@ -4458,6 +4458,9 @@ if
 HandleNumberInChar
 (
 ch
+!
+!
+(
 i
 >
 0
@@ -4479,6 +4482,7 @@ gfxTextRunWordCache
 :
 :
 TEXT_INCOMING_ARABICCHAR
+)
 )
 mBidiNumeral
 )
@@ -4603,6 +4607,9 @@ wordStart
 +
 j
 ]
+!
+!
+(
 wordStart
 +
 j
@@ -4626,6 +4633,7 @@ gfxTextRunWordCache
 :
 :
 TEXT_INCOMING_ARABICCHAR
+)
 )
 mBidiNumeral
 )
@@ -5500,6 +5508,9 @@ wordStart
 +
 j
 ]
+!
+!
+(
 wordStart
 +
 j
@@ -5523,6 +5534,7 @@ gfxTextRunWordCache
 :
 :
 TEXT_INCOMING_ARABICCHAR
+)
 )
 mBidiNumeral
 )
