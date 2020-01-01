@@ -479,19 +479,19 @@ define
 NS_IRANGE_IID
 \
 {
-0xbf5c5799
-0xe5b0
-0x49b5
+0xee12afa2
+0x4e8e
+0x4e3f
 \
 {
-0xbd
-0x45
-0x3d
-0x9a
-0x0f
-0xb4
+0xad
+0x3b
+0x53
+0x50
 0x97
-0x89
+0x09
+0xc6
+0x8a
 }
 }
 class
@@ -541,6 +541,7 @@ nsINode
 GetRoot
 (
 )
+const
 {
 return
 mRoot
@@ -551,6 +552,7 @@ nsINode
 GetStartParent
 (
 )
+const
 {
 return
 mStartParent
@@ -561,6 +563,7 @@ nsINode
 GetEndParent
 (
 )
+const
 {
 return
 mEndParent
@@ -570,6 +573,7 @@ PRInt32
 StartOffset
 (
 )
+const
 {
 return
 mStartOffset
@@ -579,6 +583,7 @@ PRInt32
 EndOffset
 (
 )
+const
 {
 return
 mEndOffset
@@ -588,6 +593,7 @@ PRBool
 IsPositioned
 (
 )
+const
 {
 return
 mIsPositioned
@@ -597,6 +603,7 @@ PRBool
 IsDetached
 (
 )
+const
 {
 return
 mIsDetached
@@ -606,6 +613,7 @@ PRBool
 Collapsed
 (
 )
+const
 {
 return
 mIsPositioned
@@ -641,6 +649,7 @@ nsINode
 GetCommonAncestor
 (
 )
+const
 =
 0
 ;
@@ -720,6 +729,7 @@ nsIRange
 *
 aNewRange
 )
+const
 =
 0
 ;

@@ -450,6 +450,13 @@ nsGUIEvent
 .
 h
 "
+#
+include
+"
+nsIRange
+.
+h
+"
 /
 /
 IID
@@ -4539,7 +4546,7 @@ maintain
 selection
 nsCOMPtr
 <
-nsIDOMRange
+nsIRange
 >
 mMaintainRange
 ;

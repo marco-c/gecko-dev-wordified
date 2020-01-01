@@ -773,6 +773,7 @@ nsINode
 GetCommonAncestor
 (
 )
+const
 ;
 virtual
 void
@@ -811,6 +812,7 @@ nsIRange
 *
 aNewRange
 )
+const
 ;
 /
 /
@@ -983,6 +985,7 @@ nsRange
 *
 aNewRange
 )
+const
 ;
 static
 nsresult
