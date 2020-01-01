@@ -138,6 +138,10 @@ mIntrinsicSize
 (
 aIntrinsicSize
 )
+mForceBlack
+(
+false
+)
 {
 }
 VideoFrame
@@ -151,6 +155,10 @@ mIntrinsicSize
 (
 0
 0
+)
+mForceBlack
+(
+false
 )
 {
 }

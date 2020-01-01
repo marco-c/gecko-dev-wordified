@@ -1964,6 +1964,17 @@ GetID
 )
 ;
 }
+ApplyTrackDisabling
+(
+outputTrack
+-
+>
+GetID
+(
+)
+segment
+)
+;
 for
 (
 uint32_t

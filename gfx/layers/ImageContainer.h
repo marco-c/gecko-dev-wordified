@@ -862,7 +862,7 @@ class
 here
 is
 that
-LayerMananers
+LayerManagers
 aren
 '
 t
