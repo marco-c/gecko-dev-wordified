@@ -96,14 +96,14 @@ MPL
 #
 include
 "
-nsDOMHashChangeEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMHashChangeEvent
 .
 h
 "

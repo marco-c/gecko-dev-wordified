@@ -155,6 +155,13 @@ nsDOMEvent
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 using
 mozilla
 :

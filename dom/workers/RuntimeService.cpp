@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIEffectiveTLDService
 .
 h

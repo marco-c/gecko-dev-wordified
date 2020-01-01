@@ -133,9 +133,6 @@ nsIXMLContentSink
 h
 "
 class
-nsIDocument
-;
-class
 nsIRDFDataSource
 ;
 class

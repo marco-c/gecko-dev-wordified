@@ -229,6 +229,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 nsIView
 .
 h

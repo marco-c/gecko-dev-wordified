@@ -317,6 +317,13 @@ nsIDocumentEncoder
 .
 h
 "
+#
+include
+"
+nsTextFragment
+.
+h
+"
 /
 /
 for

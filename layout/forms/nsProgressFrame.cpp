@@ -194,6 +194,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h

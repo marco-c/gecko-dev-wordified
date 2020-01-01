@@ -217,9 +217,6 @@ nsCxPusher
 class
 nsIEventListenerInfo
 ;
-class
-nsIDocument
-;
 typedef
 enum
 {

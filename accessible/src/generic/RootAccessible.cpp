@@ -339,13 +339,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

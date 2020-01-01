@@ -182,13 +182,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIJSEventListener
 .
 h

@@ -268,13 +268,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIConsoleService
 .
 h

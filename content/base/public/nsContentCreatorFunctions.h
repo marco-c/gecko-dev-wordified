@@ -158,9 +158,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsINodeInfo
 ;
 class

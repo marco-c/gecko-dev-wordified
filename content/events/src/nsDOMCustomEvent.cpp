@@ -96,14 +96,14 @@ MPL
 #
 include
 "
-nsDOMCustomEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMCustomEvent
 .
 h
 "

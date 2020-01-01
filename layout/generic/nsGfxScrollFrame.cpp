@@ -187,6 +187,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

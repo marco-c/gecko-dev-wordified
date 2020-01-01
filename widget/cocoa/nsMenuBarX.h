@@ -162,9 +162,6 @@ nsIWidget
 class
 nsIContent
 ;
-class
-nsIDocument
-;
 /
 /
 The

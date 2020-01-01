@@ -96,14 +96,14 @@ MPL
 #
 include
 "
-nsDOMPageTransitionEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMPageTransitionEvent
 .
 h
 "

@@ -96,14 +96,14 @@ MPL
 #
 include
 "
-nsDOMBeforeUnloadEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMBeforeUnloadEvent
 .
 h
 "

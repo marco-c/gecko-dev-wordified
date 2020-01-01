@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsScrollbarButtonFrame
 .
 h

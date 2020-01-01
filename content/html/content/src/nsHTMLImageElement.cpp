@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

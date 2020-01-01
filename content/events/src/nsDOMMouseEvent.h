@@ -114,9 +114,6 @@ nsDOMUIEvent
 h
 "
 class
-nsIContent
-;
-class
 nsEvent
 ;
 class

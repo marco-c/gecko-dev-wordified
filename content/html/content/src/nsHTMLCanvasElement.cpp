@@ -177,6 +177,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

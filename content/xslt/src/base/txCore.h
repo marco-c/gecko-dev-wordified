@@ -102,13 +102,6 @@ __txCore_h__
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nscore
 .
 h

@@ -102,13 +102,6 @@ nsDOMMutationEvent_h__
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsIDOMMutationEvent
 .
 h
@@ -117,13 +110,6 @@ h
 include
 "
 nsDOMEvent
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

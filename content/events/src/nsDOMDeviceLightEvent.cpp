@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-nsDOMDeviceLightEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMDeviceLightEvent
 .
 h
 "

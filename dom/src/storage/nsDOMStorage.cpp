@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsDOMStorage
 .
 h

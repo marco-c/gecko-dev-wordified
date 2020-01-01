@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsGenericElement
 .
 h

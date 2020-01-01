@@ -122,7 +122,7 @@ h
 #
 include
 "
-nsContentUtils
+nsDOMClassInfoID
 .
 h
 "

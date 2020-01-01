@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h

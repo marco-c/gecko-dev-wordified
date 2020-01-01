@@ -219,6 +219,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 /
 /
 #

@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsEventDispatcher
 .
 h

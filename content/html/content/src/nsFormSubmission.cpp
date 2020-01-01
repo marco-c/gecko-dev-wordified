@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h

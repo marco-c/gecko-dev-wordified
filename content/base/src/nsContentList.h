@@ -341,9 +341,6 @@ void
 aData
 )
 ;
-class
-nsIDocument
-;
 namespace
 mozilla
 {

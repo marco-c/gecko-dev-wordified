@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
 nsDOMMutationEvent
 .
 h
@@ -111,13 +118,6 @@ h
 include
 "
 nsMutationEvent
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

@@ -257,13 +257,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h

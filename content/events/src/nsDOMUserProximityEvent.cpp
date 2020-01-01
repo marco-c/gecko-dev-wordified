@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-nsDOMUserProximityEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMUserProximityEvent
 .
 h
 "

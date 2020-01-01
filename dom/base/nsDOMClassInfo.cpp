@@ -780,6 +780,13 @@ nsClientRect
 .
 h
 "
+#
+include
+"
+nsIDOMHTMLPropertiesCollection
+.
+h
+"
 /
 /
 DOM

@@ -124,9 +124,6 @@ class
 nsIAtom
 ;
 class
-nsIContent
-;
-class
 nsIDOMKeyEvent
 ;
 class

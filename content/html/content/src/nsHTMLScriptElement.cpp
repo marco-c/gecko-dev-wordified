@@ -232,13 +232,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsContentErrors
 .
 h

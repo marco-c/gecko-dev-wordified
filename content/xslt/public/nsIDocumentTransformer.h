@@ -70,9 +70,6 @@ nsISupports
 h
 "
 class
-nsIDOMDocument
-;
-class
 nsIDOMNode
 ;
 class

@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

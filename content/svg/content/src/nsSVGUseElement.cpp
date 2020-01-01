@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsSVGSVGElement
 .
 h

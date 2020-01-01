@@ -1043,13 +1043,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

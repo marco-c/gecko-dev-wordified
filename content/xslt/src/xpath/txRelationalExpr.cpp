@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 txExpr
 .
 h

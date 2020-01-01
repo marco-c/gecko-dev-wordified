@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIScriptSecurityManager
 .
 h
