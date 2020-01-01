@@ -30351,6 +30351,7 @@ New
 scopeChain
 string
 thisValue
+pc
 )
 ;
 current
