@@ -21,10 +21,10 @@ libpng
 .
 2
 .
-9
-April
-14
-2006
+15
+January
+5
+2007
 *
 For
 conditions
@@ -46,7 +46,7 @@ c
 )
 1998
 -
-2006
+2007
 Glenn
 Randers
 -
@@ -3231,6 +3231,9 @@ PNG_1_0_X
 #
 ifdef
 PNG_ASSEMBLER_CODE_SUPPORTED
+#
+ifdef
+PNG_MMX_CODE_SUPPORTED
 png_init_mmx_flags
 (
 png_ptr
@@ -3246,6 +3249,8 @@ png_ptr
 addition
 *
 /
+#
+endif
 #
 endif
 #
@@ -3933,6 +3938,15 @@ compiled
 applications
 *
 /
+if
+(
+png_ptr
+=
+=
+NULL
+)
+return
+;
 #
 if
 !
@@ -4410,6 +4424,9 @@ PNG_1_0_X
 #
 ifdef
 PNG_ASSEMBLER_CODE_SUPPORTED
+#
+ifdef
+PNG_MMX_CODE_SUPPORTED
 png_init_mmx_flags
 (
 png_ptr
@@ -4425,6 +4442,8 @@ png_ptr
 addition
 *
 /
+#
+endif
 #
 endif
 #
