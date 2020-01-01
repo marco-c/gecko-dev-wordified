@@ -391,9 +391,6 @@ mFileName
 PRUint32
 mLineNo
 ;
-PRUint32
-mVersion
-;
 nsCOMPtr
 <
 nsIJSArgArray
@@ -735,10 +732,6 @@ nsJSScriptTimeoutHandler
 mLineNo
 (
 0
-)
-mVersion
-(
-nsnull
 )
 mExpr
 (
