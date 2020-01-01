@@ -797,6 +797,15 @@ aData
 )
 ;
 virtual
+PRBool
+HasDocumentStateDependentStyle
+(
+StateRuleProcessorData
+*
+aData
+)
+;
+virtual
 nsReStyleHint
 HasAttributeDependentStyle
 (

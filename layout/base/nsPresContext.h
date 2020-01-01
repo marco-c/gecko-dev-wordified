@@ -4459,6 +4459,14 @@ return
 mIsRenderingOnlySelection
 ;
 }
+NS_HIDDEN_
+(
+PRBool
+)
+IsTopLevelWindowInactive
+(
+)
+;
 /
 *
 *
