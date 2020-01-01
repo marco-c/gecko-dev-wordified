@@ -2417,6 +2417,7 @@ rejected
 .
 *
 /
+var
 msgXml
 =
 "
