@@ -116,13 +116,6 @@ namespace
 mozilla
 {
 namespace
-dom
-{
-class
-PBrowserParent
-;
-}
-namespace
 net
 {
 class
@@ -182,9 +175,6 @@ IPC
 SerializedLoadContext
 &
 loadContext
-PBrowserParent
-*
-parent
 )
 ;
 virtual
