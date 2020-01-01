@@ -10142,6 +10142,12 @@ JS_GCMETER
 JSGCStats
 gcStats
 ;
+JSGCArenaStats
+gcArenaStats
+[
+FINALIZE_LIMIT
+]
+;
 #
 endif
 #
