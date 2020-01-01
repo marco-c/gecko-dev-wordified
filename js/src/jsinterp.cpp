@@ -17766,7 +17766,7 @@ abort_recording
 ;
 #
 define
-MARK_EXIT
+MARK_REGS
 (
 x
 )
@@ -17799,7 +17799,7 @@ void
 )
 #
 define
-MARK_EXIT
+MARK_REGS
 (
 x
 )
@@ -18016,7 +18016,7 @@ L_
 OP
 :
 \
-MARK_EXIT
+MARK_REGS
 (
 )
 ;
