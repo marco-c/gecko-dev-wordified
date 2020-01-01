@@ -558,6 +558,8 @@ JSObject
 wrapper
 jsid
 id
+bool
+set
 js
 :
 :
@@ -578,6 +580,8 @@ JSObject
 wrapper
 jsid
 id
+bool
+set
 js
 :
 :

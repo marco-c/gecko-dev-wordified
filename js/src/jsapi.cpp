@@ -20646,6 +20646,7 @@ getOwnPropertyDescriptor
 cx
 obj2
 id
+false
 desc
 )
 :
@@ -20657,6 +20658,7 @@ getPropertyDescriptor
 cx
 obj2
 id
+false
 desc
 )
 ;

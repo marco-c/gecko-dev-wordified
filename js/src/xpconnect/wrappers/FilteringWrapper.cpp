@@ -612,12 +612,6 @@ perm
 ;
 if
 (
-perm
-!
-=
-PermitObjectAccess
-&
-&
 !
 Policy
 :
@@ -647,7 +641,6 @@ perm
 =
 DenyAccess
 )
-{
 props
 [
 w
@@ -657,7 +650,6 @@ w
 =
 id
 ;
-}
 }
 props
 .

@@ -539,6 +539,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -558,6 +560,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -998,6 +1002,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -1015,6 +1021,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 Value
 *
 vp
@@ -1032,6 +1040,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -1049,6 +1059,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 Value
 *
 vp
