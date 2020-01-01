@@ -304,7 +304,7 @@ case
 SH_FLOAT_MAT2
 :
 return
-1
+2
 ;
 case
 SH_FLOAT_VEC4

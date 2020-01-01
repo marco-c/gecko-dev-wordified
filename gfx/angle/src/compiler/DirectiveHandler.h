@@ -75,7 +75,7 @@ compiler
 /
 preprocessor
 /
-DirectiveHandler
+DirectiveHandlerBase
 .
 h
 "

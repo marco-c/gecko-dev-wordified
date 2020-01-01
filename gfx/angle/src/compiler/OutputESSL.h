@@ -74,6 +74,8 @@ TOutputESSL
 TInfoSinkBase
 &
 objSink
+ShArrayIndexClampingStrategy
+clampingStrategy
 ShHashFunction64
 hashFunction
 NameMap

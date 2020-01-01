@@ -52,6 +52,13 @@ define
 COMPILER_PREPROCESSOR_PREPROCESSOR_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 pp_utils
 .
@@ -214,7 +221,7 @@ terminated
 bool
 init
 (
-int
+size_t
 count
 const
 char

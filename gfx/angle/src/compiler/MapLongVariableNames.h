@@ -224,7 +224,7 @@ in
 the
 map
 .
-int
+size_t
 Size
 (
 )
