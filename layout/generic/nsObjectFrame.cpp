@@ -8209,6 +8209,7 @@ nsIRenderingContext
 AutoPushTranslation
 translate
 (
+&
 aRenderingContext
 aFramePt
 .
@@ -8679,6 +8680,7 @@ nsIRenderingContext
 AutoPushTranslation
 translate
 (
+&
 aRenderingContext
 aFramePt
 .
