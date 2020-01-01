@@ -347,9 +347,6 @@ nsIFrame
 *
 mSelectedFrame
 ;
-nsString
-mRestyle
-;
 nsCOMPtr
 <
 MouseListener
