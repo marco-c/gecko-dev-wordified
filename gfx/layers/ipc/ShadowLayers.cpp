@@ -598,11 +598,11 @@ Transaction
 (
 )
 :
-mOpen
+mSwapRequired
 (
 false
 )
-mSwapRequired
+mOpen
 (
 false
 )
