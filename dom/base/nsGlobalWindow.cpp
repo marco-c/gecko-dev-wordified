@@ -19143,12 +19143,16 @@ nsGlobalWindow
 :
 MozRequestAnimationFrame
 (
+nsIAnimationFrameListener
+*
+aListener
 )
 {
 FORWARD_TO_INNER
 (
 MozRequestAnimationFrame
 (
+aListener
 )
 NS_ERROR_NOT_INITIALIZED
 )
@@ -19168,6 +19172,7 @@ mDoc
 >
 ScheduleBeforePaintEvent
 (
+aListener
 )
 ;
 return
