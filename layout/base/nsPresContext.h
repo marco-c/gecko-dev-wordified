@@ -4472,14 +4472,6 @@ GetUserFontSet
 )
 ;
 void
-SetUserFontSet
-(
-gfxUserFontSet
-*
-aUserFontSet
-)
-;
-void
 NotifyInvalidation
 (
 const
@@ -5058,6 +5050,11 @@ mPrefChangePendingNeedsReflow
 ;
 unsigned
 mRenderedPositionVaryingContent
+:
+1
+;
+unsigned
+mUserFontSetDirty
 :
 1
 ;
