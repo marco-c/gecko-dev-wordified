@@ -9103,6 +9103,9 @@ mMemoryDevice
 PRInt32
 capacity
 =
+gService
+-
+>
 mObserver
 -
 >
