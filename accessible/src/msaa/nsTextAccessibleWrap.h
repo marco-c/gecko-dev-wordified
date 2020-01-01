@@ -471,9 +471,9 @@ nsTextAccessibleWrap
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 virtual

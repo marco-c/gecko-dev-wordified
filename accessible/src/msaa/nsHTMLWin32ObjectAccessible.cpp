@@ -634,9 +634,9 @@ nsHTMLWin32ObjectOwnerAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 void
 *
 aHwnd
@@ -645,7 +645,7 @@ aHwnd
 nsAccessibleWrap
 (
 aContent
-aShell
+aDoc
 )
 mHwnd
 (
