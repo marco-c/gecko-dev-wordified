@@ -906,9 +906,9 @@ CallPrintCallback
 nsString
 mCurrentContextId
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMHTMLCanvasElement
+nsHTMLCanvasElement
 >
 mOriginalCanvas
 ;
@@ -1013,7 +1013,7 @@ ResetPrintCallback
 (
 )
 ;
-nsIDOMHTMLCanvasElement
+nsHTMLCanvasElement
 *
 GetOriginalCanvas
 (
