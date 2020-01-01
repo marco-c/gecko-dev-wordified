@@ -11378,6 +11378,11 @@ return
 NS_OK
 ;
 }
+/
+*
+virtual
+*
+/
 nsIURI
 *
 nsCSSStyleSheet

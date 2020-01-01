@@ -1115,7 +1115,6 @@ const
 ;
 #
 endif
-virtual
 void
 AppendStyleSheet
 (
@@ -1124,7 +1123,6 @@ nsCSSStyleSheet
 aSheet
 )
 ;
-virtual
 void
 InsertStyleSheetAt
 (
@@ -1135,7 +1133,6 @@ PRInt32
 aIndex
 )
 ;
-virtual
 void
 PrependStyleRule
 (
@@ -1144,7 +1141,6 @@ nsICSSRule
 aRule
 )
 ;
-virtual
 void
 AppendStyleRule
 (
@@ -1153,7 +1149,6 @@ nsICSSRule
 aRule
 )
 ;
-virtual
 void
 ReplaceStyleRule
 (
@@ -1165,14 +1160,12 @@ nsICSSRule
 aNew
 )
 ;
-virtual
 PRInt32
 StyleRuleCount
 (
 )
 const
 ;
-virtual
 nsresult
 GetStyleRuleAt
 (
@@ -1185,7 +1178,6 @@ aRule
 )
 const
 ;
-virtual
 nsresult
 DeleteRuleFromGroup
 (
@@ -1196,7 +1188,6 @@ PRUint32
 aIndex
 )
 ;
-virtual
 nsresult
 InsertRuleIntoGroup
 (
@@ -1214,7 +1205,6 @@ PRUint32
 _retval
 )
 ;
-virtual
 nsresult
 ReplaceRuleInGroup
 (
@@ -1229,14 +1219,12 @@ nsICSSRule
 aNew
 )
 ;
-virtual
 PRInt32
 StyleSheetCount
 (
 )
 const
 ;
-virtual
 already_AddRefed
 <
 nsCSSStyleSheet
@@ -1248,7 +1236,6 @@ aIndex
 )
 const
 ;
-virtual
 void
 SetURIs
 (
@@ -1263,7 +1250,6 @@ nsIURI
 aBaseURI
 )
 ;
-virtual
 void
 SetPrincipal
 (
@@ -1272,7 +1258,6 @@ nsIPrincipal
 aPrincipal
 )
 ;
-virtual
 nsIPrincipal
 *
 Principal
@@ -1294,7 +1279,6 @@ mTitle
 aTitle
 ;
 }
-virtual
 void
 SetMedia
 (
@@ -1343,7 +1327,6 @@ counted
 *
 /
 }
-virtual
 already_AddRefed
 <
 nsICSSImportRule
@@ -1352,7 +1335,6 @@ GetOwnerRule
 (
 )
 ;
-virtual
 nsXMLNameSpaceMap
 *
 GetNameSpaceMap
@@ -1360,7 +1342,6 @@ GetNameSpaceMap
 )
 const
 ;
-virtual
 already_AddRefed
 <
 nsCSSStyleSheet
@@ -1404,7 +1385,6 @@ mDirty
 aModified
 ;
 }
-virtual
 nsresult
 AddRuleProcessor
 (
@@ -1413,7 +1393,6 @@ nsCSSRuleProcessor
 aProcessor
 )
 ;
-virtual
 nsresult
 DropRuleProcessor
 (
@@ -1422,7 +1401,6 @@ nsCSSRuleProcessor
 aProcessor
 )
 ;
-virtual
 nsresult
 InsertRuleInternal
 (
