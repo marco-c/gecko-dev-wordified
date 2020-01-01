@@ -15539,6 +15539,7 @@ construct
 #
 ifdef
 JS_ION
+{
 InvokeState
 state
 (
@@ -15743,6 +15744,7 @@ exec
 goto
 jit_return
 ;
+}
 }
 }
 #
