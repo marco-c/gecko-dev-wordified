@@ -850,6 +850,13 @@ return
 NS_OK
 ;
 }
+context
+-
+>
+Shutdown
+(
+)
+;
 AutoPushJSContext
 cx
 (
