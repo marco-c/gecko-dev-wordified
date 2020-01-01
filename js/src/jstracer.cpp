@@ -3540,7 +3540,10 @@ argv
 f
 -
 >
-argc
+fun
+-
+>
+nargs
 ]
 ;
 \
@@ -4709,7 +4712,10 @@ this
 fp
 -
 >
-argc
+fun
+-
+>
+nargs
 +
 fp
 -
@@ -11085,7 +11091,10 @@ cx
 fp
 -
 >
-argc
+fun
+-
+>
+nargs
 )
 ;
 return
