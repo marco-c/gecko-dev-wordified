@@ -2192,8 +2192,10 @@ STATE_IDLE
 NS_ERROR_IN_PROGRESS
 )
 ;
-nsresult
-rv
+NS_ENSURE_ARG_POINTER
+(
+listener
+)
 ;
 /
 /
@@ -2236,6 +2238,7 @@ nsIAsyncInputStream
 PRBool
 nonBlocking
 ;
+nsresult
 rv
 =
 mStream
