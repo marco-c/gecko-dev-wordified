@@ -953,7 +953,7 @@ GetCurrentContent
 )
 ;
 StackNode
-*
+&
 GetCurrentStackNode
 (
 )
