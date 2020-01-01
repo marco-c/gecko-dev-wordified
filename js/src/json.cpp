@@ -5269,9 +5269,7 @@ JSON
 )
 JS_PropertyStub
 JS_PropertyStub
-JSPROP_READONLY
-|
-JSPROP_PERMANENT
+0
 )
 )
 return
