@@ -1156,7 +1156,6 @@ INT32PTR
 1
 1
 )
-;
 int32
 FASTCALL
 js_DoubleToInt32
