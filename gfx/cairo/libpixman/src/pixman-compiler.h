@@ -344,7 +344,7 @@ symbols
 /
 #
 ifdef
-cairo_public
+MOZ_ENABLE_LIBXUL
 #
 define
 PIXMAN_EXPORT
@@ -427,7 +427,7 @@ endif
 endif
 /
 *
-cairo_public
+MOZ_ENABLE_LIBXUL
 *
 /
 /
