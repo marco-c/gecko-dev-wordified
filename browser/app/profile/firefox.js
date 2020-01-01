@@ -3590,9 +3590,11 @@ browser
 .
 search
 .
-updateinterval
+update
+.
+interval
 "
-6
+21600
 )
 ;
 /
