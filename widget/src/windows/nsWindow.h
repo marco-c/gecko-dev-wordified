@@ -2918,17 +2918,6 @@ only
 set
 during
 painting
-static
-nsAutoPtr
-<
-PRUint8
->
-sSharedSurfaceData
-;
-static
-gfxIntSize
-sSharedSurfaceSize
-;
 /
 /
 Transparency
