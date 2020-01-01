@@ -772,13 +772,11 @@ sPowerManagerService
 =
 nullptr
 ;
-nsCOMPtr
+StaticRefPtr
 <
-nsIDOMMozWakeLockListener
+WakeLockListener
 >
 sWakeLockListener
-=
-nullptr
 ;
 nsAppShell
 :

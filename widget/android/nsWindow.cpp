@@ -13822,7 +13822,7 @@ compositor
 fields
 and
 functions
-nsRefPtr
+StaticRefPtr
 <
 mozilla
 :
@@ -13836,10 +13836,8 @@ nsWindow
 :
 :
 sApzcTreeManager
-=
-0
 ;
-nsRefPtr
+StaticRefPtr
 <
 mozilla
 :
@@ -13853,10 +13851,8 @@ nsWindow
 :
 :
 sLayerManager
-=
-0
 ;
-nsRefPtr
+StaticRefPtr
 <
 mozilla
 :
@@ -13870,10 +13866,8 @@ nsWindow
 :
 :
 sCompositorParent
-=
-0
 ;
-nsRefPtr
+StaticRefPtr
 <
 mozilla
 :
@@ -13887,8 +13881,6 @@ nsWindow
 :
 :
 sCompositorChild
-=
-0
 ;
 bool
 nsWindow
