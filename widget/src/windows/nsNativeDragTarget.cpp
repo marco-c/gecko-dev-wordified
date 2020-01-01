@@ -1915,6 +1915,15 @@ currSession
 )
 )
 ;
+if
+(
+!
+currSession
+)
+{
+return
+;
+}
 currSession
 -
 >
