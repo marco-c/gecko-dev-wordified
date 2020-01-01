@@ -239,7 +239,7 @@ docs
 '
 index
 .
-txt
+rst
 '
 )
 )
@@ -291,7 +291,7 @@ docs
 '
 news
 .
-txt
+rst
 '
 )
 )
@@ -502,30 +502,6 @@ name
 virtualenv
 '
     
-#
-If
-you
-change
-the
-version
-here
-change
-it
-in
-virtualenv
-.
-py
-and
-    
-#
-docs
-/
-conf
-.
-py
-as
-well
-    
 version
 =
 get_version
@@ -554,9 +530,11 @@ Development
 Status
 :
 :
-4
+5
 -
-Beta
+Production
+/
+Stable
 '
         
 '
