@@ -642,7 +642,7 @@ length
 0
 )
 return
-false
+JS_FALSE
 ;
 jschar
 c
@@ -659,7 +659,7 @@ c
 )
 )
 return
-false
+JS_FALSE
 ;
 const
 jschar
@@ -694,11 +694,11 @@ c
 )
 )
 return
-false
+JS_FALSE
 ;
 }
 return
-true
+JS_TRUE
 ;
 }
 #
@@ -5214,7 +5214,7 @@ c
 JSBool
 sawColon
 =
-false
+JS_FALSE
 ;
 if
 (
@@ -5309,7 +5309,7 @@ error
 }
 sawColon
 =
-true
+JS_TRUE
 ;
 }
 if
@@ -13491,7 +13491,7 @@ return
 ;
 crflag
 =
-false
+JS_FALSE
 ;
 for
 (
