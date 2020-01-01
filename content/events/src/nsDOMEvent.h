@@ -498,6 +498,13 @@ nsGUIEvent
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIContent
 ;
@@ -636,7 +643,12 @@ nsDOMEvent
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsDOMEvent
+nsIDOMEvent
+)
 /
 /
 nsIDOMEvent
