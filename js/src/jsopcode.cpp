@@ -3465,6 +3465,8 @@ JSID_TO_ATOM
 shape
 .
 propid
+(
+)
 )
 &
 bytes
@@ -3501,6 +3503,8 @@ ptr
 shape
 .
 shortid
+(
+)
 !
 r
 .
@@ -3563,17 +3567,6 @@ clasp
 FunctionClass
 )
 {
-JSFunction
-*
-fun
-=
-obj
--
->
-getFunctionPrivate
-(
-)
-;
 JSString
 *
 str
@@ -3581,7 +3574,12 @@ str
 JS_DecompileFunction
 (
 cx
-fun
+obj
+-
+>
+toFunction
+(
+)
 JS_DONT_PRETTY_PRINT
 )
 ;
@@ -10399,6 +10397,8 @@ if
 shape
 .
 shortid
+(
+)
 =
 =
 slot
@@ -10411,6 +10411,8 @@ JSID_IS_ATOM
 shape
 .
 propid
+(
+)
 )
 )
 ;
@@ -10423,6 +10425,8 @@ JSID_TO_ATOM
 shape
 .
 propid
+(
+)
 )
 ;
 const
@@ -13787,6 +13791,8 @@ uintN
 shape
 .
 shortid
+(
+)
 =
 =
 i
@@ -13805,6 +13811,8 @@ JSID_TO_ATOM
 shape
 .
 propid
+(
+)
 )
 ;
 }
@@ -15880,8 +15888,6 @@ JOF_SET
 JOF_DEL
 |
 JOF_INCDEC
-|
-JOF_FOR
 |
 JOF_VARPROP
 )
