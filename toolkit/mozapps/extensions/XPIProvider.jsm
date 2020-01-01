@@ -4909,6 +4909,16 @@ optionsType
 AddonManager
 .
 OPTIONS_TYPE_INLINE
+&
+&
+addon
+.
+optionsType
+!
+=
+AddonManager
+.
+OPTIONS_TYPE_TAB
 )
 {
 throw
