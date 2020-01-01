@@ -1355,8 +1355,6 @@ script
 -
 >
 compartment
-(
-)
 )
 ;
 if

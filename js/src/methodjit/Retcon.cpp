@@ -966,8 +966,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 jaegerCompartment

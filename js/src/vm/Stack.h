@@ -6406,8 +6406,6 @@ script
 -
 >
 compartment
-(
-)
 )
 ;
 return

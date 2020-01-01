@@ -1118,8 +1118,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 jaegerCompartment
