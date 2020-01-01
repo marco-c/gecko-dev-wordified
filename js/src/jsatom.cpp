@@ -4471,6 +4471,8 @@ n
 ;
 unsigned
 number
+=
+0
 ;
 for
 (

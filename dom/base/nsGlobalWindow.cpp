@@ -9546,7 +9546,7 @@ aDocument
 oldDoc
 )
 {
-nsWindowSH
+nsCommonWindowSH
 :
 :
 InvalidateGlobalScopePolluter
@@ -10871,7 +10871,7 @@ mDocument
 )
 )
 ;
-nsWindowSH
+nsCommonWindowSH
 :
 :
 InstallGlobalScopePolluter
@@ -14104,7 +14104,7 @@ handled
 separately
 .
 See
-nsWindowSH
+nsCommonWindowSH
 :
 :
 NewResolve

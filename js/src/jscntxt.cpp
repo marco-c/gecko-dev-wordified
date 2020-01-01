@@ -1505,7 +1505,7 @@ getCurrentFrame
 (
 )
 ;
-ConservativelyMarkValueRange
+MarkStackRangeConservatively
 (
 trc
 fp
@@ -1570,7 +1570,7 @@ trc
 f
 )
 ;
-ConservativelyMarkValueRange
+MarkStackRangeConservatively
 (
 trc
 f
