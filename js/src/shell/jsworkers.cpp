@@ -4237,18 +4237,6 @@ JSObject
 objp
 )
 {
-if
-(
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-=
-=
-0
-)
-{
 JSBool
 resolved
 ;
@@ -4276,7 +4264,6 @@ objp
 =
 obj
 ;
-}
 return
 true
 ;
