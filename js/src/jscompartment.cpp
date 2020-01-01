@@ -2021,7 +2021,7 @@ isString
 {
 Rooted
 <
-JSStableString
+JSLinearString
 *
 >
 str
@@ -2034,7 +2034,7 @@ toString
 )
 -
 >
-ensureStable
+ensureLinear
 (
 cx
 )
@@ -2061,10 +2061,6 @@ str
 -
 >
 chars
-(
-)
-.
-get
 (
 )
 str
