@@ -1985,6 +1985,14 @@ JSObject
 obj
 )
 ;
+void
+NukeCrossCompartmentWrapper
+(
+JSObject
+*
+wrapper
+)
+;
 }
 /
 *
