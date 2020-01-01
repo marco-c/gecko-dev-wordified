@@ -1797,9 +1797,6 @@ mOrient
 .
 mOrientType
 =
-nsIDOMSVGMarkerElement
-:
-:
 SVG_MARKER_ORIENT_AUTO
 ;
 }
@@ -1863,9 +1860,6 @@ mOrient
 .
 mOrientType
 =
-nsIDOMSVGMarkerElement
-:
-:
 SVG_MARKER_ORIENT_ANGLE
 ;
 }
@@ -2103,9 +2097,6 @@ mOrient
 mOrientType
 =
 =
-nsIDOMSVGMarkerElement
-:
-:
 SVG_MARKER_ORIENT_AUTO
 )
 {

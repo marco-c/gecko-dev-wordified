@@ -124,14 +124,18 @@ h
 #
 include
 "
-nsIDOMSVGMarkerElement
+nsDebug
 .
 h
 "
 #
 include
 "
-nsDebug
+mozilla
+/
+dom
+/
+SVGMarkerElement
 .
 h
 "
@@ -212,7 +216,7 @@ mOrient
 .
 mOrientType
 =
-nsIDOMSVGMarkerElement
+dom
 :
 :
 SVG_MARKER_ORIENT_ANGLE
@@ -542,7 +546,7 @@ mOrient
 mOrientType
 !
 =
-nsIDOMSVGMarkerElement
+dom
 :
 :
 SVG_MARKER_ORIENT_ANGLE
@@ -557,7 +561,7 @@ mOrient
 mOrientType
 !
 =
-nsIDOMSVGMarkerElement
+dom
 :
 :
 SVG_MARKER_ORIENT_ANGLE
@@ -807,7 +811,7 @@ mOrient
 mOrientType
 !
 =
-nsIDOMSVGMarkerElement
+dom
 :
 :
 SVG_MARKER_ORIENT_ANGLE
@@ -822,7 +826,7 @@ mOrient
 mOrientType
 !
 =
-nsIDOMSVGMarkerElement
+dom
 :
 :
 SVG_MARKER_ORIENT_ANGLE
@@ -1012,7 +1016,7 @@ mOrient
 mOrientType
 !
 =
-nsIDOMSVGMarkerElement
+dom
 :
 :
 SVG_MARKER_ORIENT_ANGLE
@@ -1027,7 +1031,7 @@ mOrient
 mOrientType
 !
 =
-nsIDOMSVGMarkerElement
+dom
 :
 :
 SVG_MARKER_ORIENT_ANGLE
