@@ -135,7 +135,7 @@ Attributes
 .
 h
 "
-class
+struct
 JSContext
 ;
 namespace
