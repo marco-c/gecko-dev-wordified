@@ -641,11 +641,6 @@ char
 *
 id
 ;
-const
-char
-*
-name
-;
 PRUint32
 min
 ;
@@ -672,7 +667,6 @@ define
 HISTOGRAM
 (
 id
-name
 min
 max
 bucket_count
@@ -686,7 +680,6 @@ NS_STRINGIFY
 (
 id
 )
-name
 min
 max
 bucket_count
@@ -950,7 +943,7 @@ HistogramGet
 (
 p
 .
-name
+id
 p
 .
 min
