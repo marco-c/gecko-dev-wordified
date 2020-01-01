@@ -2162,7 +2162,7 @@ template
 typename
 T
 bool
-IsSigned
+IsTSigned
 =
 IsSigned
 <
@@ -2199,13 +2199,13 @@ template
 typename
 T
 bool
-IsSigned
+IsTSigned
 >
 struct
 IsMulValidImpl
 <
 T
-IsSigned
+IsTSigned
 true
 >
 {
@@ -2556,7 +2556,7 @@ template
 typename
 T
 bool
-IsSigned
+IsTSigned
 =
 IsSigned
 <
