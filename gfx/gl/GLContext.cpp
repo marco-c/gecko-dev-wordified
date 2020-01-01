@@ -419,6 +419,12 @@ GL_OES_vertex_array_object
 "
 GL_ARB_vertex_array_object
 "
+"
+GL_ARB_draw_buffers
+"
+"
+GL_EXT_draw_buffers
+"
 nullptr
 }
 ;

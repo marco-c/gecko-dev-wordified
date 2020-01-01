@@ -735,6 +735,10 @@ friend
 class
 WebGLExtensionDepthTexture
 ;
+friend
+class
+WebGLExtensionDrawBuffers
+;
 enum
 {
 UNPACK_FLIP_Y_WEBGL
@@ -1326,6 +1330,13 @@ FramebufferRectangleObject
 )
 const
 ;
+static
+const
+size_t
+sMaxColorAttachments
+=
+16
+;
 /
 /
 This
@@ -1385,6 +1396,12 @@ ForceClearFramebufferWithDefaultValues
 (
 GLbitfield
 mask
+const
+bool
+colorAttachmentsMask
+[
+sMaxColorAttachments
+]
 )
 ;
 /
@@ -5382,6 +5399,12 @@ mGLMaxFragmentUniformVectors
 int32_t
 mGLMaxVertexUniformVectors
 ;
+int32_t
+mGLMaxColorAttachments
+;
+int32_t
+mGLMaxDrawBuffers
+;
 /
 /
 Cache
@@ -5609,6 +5632,7 @@ WEBGL_compressed_texture_s3tc
 WEBGL_debug_renderer_info
 WEBGL_depth_texture
 WEBGL_lose_context
+WEBGL_draw_buffers
 WebGLExtensionID_unknown_extension
 }
 ;
@@ -5963,6 +5987,7 @@ void
 MakeContextCurrent
 (
 )
+const
 {
 gl
 -
