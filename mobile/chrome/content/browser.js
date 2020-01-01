@@ -2144,6 +2144,7 @@ max
 h
 )
 }
+;
 ws
 .
 setViewportBounds
@@ -3251,6 +3252,7 @@ d
 }
 )
 /
+;
 for
 (
 var
@@ -4289,6 +4291,7 @@ aWindow
 ;
 }
 }
+;
 /
 *
 *
@@ -6998,6 +7001,7 @@ xpinstall
 -
 disabled
 "
+;
 if
 (
 gPrefService
@@ -7110,6 +7114,7 @@ notificationName
 "
 xpinstall
 "
+;
 messageString
 =
 browserBundle
@@ -7388,6 +7393,7 @@ transactionManager
 clear
 (
 )
+;
 }
 }
 }
@@ -7776,6 +7782,7 @@ _timeoutAlert
 }
 }
 }
+;
 var
 HelperAppDialog
 =
@@ -7994,6 +8001,7 @@ true
 ;
 }
 }
+;
 function
 ProgressController
 (
@@ -10041,3 +10049,4 @@ srcCanvas
 ;
 }
 }
+;

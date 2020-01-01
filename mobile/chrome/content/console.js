@@ -1315,6 +1315,7 @@ filter
 )
 .
 value
+;
 if
 (
 mode
