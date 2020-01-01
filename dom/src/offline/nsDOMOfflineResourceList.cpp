@@ -4906,9 +4906,7 @@ return
 NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
-nsresult
-rv
-=
+return
 appCache
 -
 >
