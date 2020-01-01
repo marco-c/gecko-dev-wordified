@@ -546,6 +546,13 @@ jbyteArray
 data
 )
 {
+if
+(
+!
+mCallback
+)
+return
+;
 jboolean
 isCopy
 ;
