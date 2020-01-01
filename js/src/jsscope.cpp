@@ -1725,9 +1725,14 @@ scope
 >
 table
 )
-JS_free
-(
 cx
+-
+>
+runtime
+-
+>
+asynchronousFree
+(
 scope
 -
 >
