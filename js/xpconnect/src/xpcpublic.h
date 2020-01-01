@@ -2025,6 +2025,14 @@ JSCompartment
 compartment
 )
 ;
+bool
+IsXBLScope
+(
+JSCompartment
+*
+compartment
+)
+;
 void
 DumpJSHeap
 (
