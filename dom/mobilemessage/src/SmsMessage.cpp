@@ -290,7 +290,10 @@ nsAString
 &
 aMessageClass
 const
-jsval
+JS
+:
+:
+Value
 &
 aTimestamp
 const
@@ -1204,7 +1207,10 @@ GetTimestamp
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+Value
 *
 aDate
 )

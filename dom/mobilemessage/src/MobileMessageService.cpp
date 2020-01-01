@@ -208,7 +208,10 @@ nsAString
 &
 aMessageClass
 const
-jsval
+JS
+:
+:
+Value
 &
 aTimestamp
 const
