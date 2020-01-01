@@ -883,6 +883,17 @@ test
 .
 loadURL
 )
+{
+gURLBar
+.
+valueIsTyped
+=
+!
+!
+test
+.
+setURL
+;
 is
 (
 gURLBar
@@ -899,6 +910,7 @@ set
 "
 )
 ;
+}
 testCopy
 (
 test

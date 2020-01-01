@@ -41,6 +41,12 @@ value
 =
 originalValue
 ;
+gURLBar
+.
+valueIsTyped
+=
+false
+;
 is
 (
 gURLBar
@@ -789,6 +795,12 @@ SetPageProxyState
 invalid
 "
 )
+;
+gURLBar
+.
+valueIsTyped
+=
+true
 ;
 testCopy
 (
