@@ -2672,6 +2672,9 @@ EGLDisplayImpl
 )
 )
 ;
+#
+ifdef
+MOZ_JAVA_COMPOSITOR
 jFlexSurfaceView
 =
 (
@@ -2717,6 +2720,8 @@ Init
 jEnv
 )
 ;
+#
+endif
 InitAndroidJavaWrappers
 (
 jEnv
