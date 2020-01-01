@@ -2296,13 +2296,6 @@ inline
 void
 do_wb_nongc
 (
-void
-*
-/
-*
-container
-*
-/
 T
 *
 slot
@@ -2320,9 +2313,6 @@ inline
 void
 do_wb_gc
 (
-void
-*
-container
 GCObject
 *
 *
@@ -2390,7 +2380,6 @@ LIST_NonGCObjects
 :
 do_wb_nongc
 (
-0
 slot
 value
 )
@@ -2402,7 +2391,6 @@ LIST_GCObjects
 :
 do_wb_gc
 (
-0
 (
 GCObject
 *
@@ -2511,10 +2499,6 @@ data
 NULL
 )
 ;
-void
-*
-container
-;
 T
 *
 slot
@@ -2547,7 +2531,6 @@ slot
 )
 do_wb_nongc
 (
-container
 slot
 value
 )
@@ -2573,7 +2556,6 @@ slot
 )
 do_wb_gc
 (
-container
 (
 GCObject
 *
