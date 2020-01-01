@@ -8291,16 +8291,6 @@ _scheduleNextSync
 return
 ;
 }
-fullSync
-=
-true
-;
-/
-/
-not
-doing
-thresholds
-yet
 /
 /
 Make
