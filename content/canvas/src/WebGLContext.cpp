@@ -1557,6 +1557,10 @@ mHeight
 =
 height
 ;
+mResetLayer
+=
+PR_TRUE
+;
 return
 NS_OK
 ;
