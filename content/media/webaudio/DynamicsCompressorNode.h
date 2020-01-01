@@ -299,15 +299,6 @@ aNode
 ;
 static
 void
-SendReductionToStream
-(
-AudioNode
-*
-aNode
-)
-;
-static
-void
 SendAttackToStream
 (
 AudioNode
