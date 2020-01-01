@@ -6763,7 +6763,12 @@ cx
 this
 &
 js_SlowArrayClass
-getType
+getProto
+(
+)
+-
+>
+getNewType
 (
 cx
 )
