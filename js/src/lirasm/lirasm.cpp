@@ -12512,7 +12512,7 @@ mOpMap
 PTR_SIZE
 (
 "
-allocl
+alloci
 "
 "
 allocq
@@ -12532,7 +12532,7 @@ mOpMap
 PTR_SIZE
 (
 "
-paraml
+parami
 "
 "
 paramq
