@@ -7835,6 +7835,15 @@ aScriptObjectHolder
 ifdef
 DEBUG
 static
+bool
+AreJSObjectsHeld
+(
+void
+*
+aScriptObjectHolder
+)
+;
+static
 void
 CheckCCWrapperTraversal
 (
