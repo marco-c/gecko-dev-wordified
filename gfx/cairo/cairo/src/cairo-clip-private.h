@@ -357,8 +357,8 @@ private
 h
 "
 extern
-cairo_private
 const
+cairo_private
 cairo_rectangle_list_t
 _cairo_rectangles_nil
 ;
@@ -497,8 +497,10 @@ surface
 *
 /
 pixman_region16_t
-*
 region
+;
+cairo_bool_t
+has_region
 ;
 /
 *
@@ -548,16 +550,7 @@ target
 )
 ;
 cairo_private
-void
-_cairo_clip_fini
-(
-cairo_clip_t
-*
-clip
-)
-;
-cairo_private
-void
+cairo_status_t
 _cairo_clip_init_copy
 (
 cairo_clip_t
@@ -569,7 +562,7 @@ other
 )
 ;
 cairo_private
-void
+cairo_status_t
 _cairo_clip_init_deep_copy
 (
 cairo_clip_t
@@ -584,7 +577,7 @@ target
 )
 ;
 cairo_private
-cairo_status_t
+void
 _cairo_clip_reset
 (
 cairo_clip_t

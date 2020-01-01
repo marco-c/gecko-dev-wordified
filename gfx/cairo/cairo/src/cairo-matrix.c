@@ -345,13 +345,6 @@ define
 _GNU_SOURCE
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 cairoint
 .
@@ -1205,8 +1198,8 @@ direction
 Applies
 scaling
 by
-tx
-ty
+sx
+sy
 to
 the
 transformation
@@ -3140,7 +3133,7 @@ by
 .
 *
 /
-cairo_status_t
+void
 _cairo_matrix_compute_scale_factors
 (
 const
@@ -3293,9 +3286,6 @@ major
 ;
 }
 }
-return
-CAIRO_STATUS_SUCCESS
-;
 }
 cairo_bool_t
 _cairo_matrix_is_identity

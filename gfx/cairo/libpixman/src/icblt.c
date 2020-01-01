@@ -202,6 +202,13 @@ SOFTWARE
 #
 include
 "
+pixmanint
+.
+h
+"
+#
+include
+"
 pixman
 -
 xserver
