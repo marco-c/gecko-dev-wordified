@@ -509,9 +509,6 @@ nsColor
 h
 "
 class
-nsCSSDeclaration
-;
-class
 nsIContent
 ;
 class

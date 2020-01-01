@@ -542,7 +542,13 @@ virtual
 nsresult
 GetCSSDeclaration
 (
-nsCSSDeclaration
+mozilla
+:
+:
+css
+:
+:
+Declaration
 *
 *
 aDecl

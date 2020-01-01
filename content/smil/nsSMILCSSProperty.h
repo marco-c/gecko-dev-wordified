@@ -482,9 +482,6 @@ h
 class
 nsIContent
 ;
-class
-nsCSSDeclaration
-;
 namespace
 mozilla
 {

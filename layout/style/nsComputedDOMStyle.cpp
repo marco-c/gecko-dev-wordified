@@ -2243,7 +2243,10 @@ nsComputedDOMStyle
 :
 GetCSSDeclaration
 (
-nsCSSDeclaration
+css
+:
+:
+Declaration
 *
 *
 PRBool

@@ -753,7 +753,10 @@ struct
 and
 in
 the
-nsCSSDeclaration
+css
+:
+:
+Declaration
 backend
 .
 8

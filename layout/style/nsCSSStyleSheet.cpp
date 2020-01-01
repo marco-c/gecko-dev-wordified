@@ -2853,7 +2853,10 @@ the
 normal
 way
 .
-nsCSSDeclaration
+css
+:
+:
+Declaration
 :
 :
 AppendCSSValueToString
@@ -2919,7 +2922,10 @@ without
 anything
 extra
 .
-nsCSSDeclaration
+css
+:
+:
+Declaration
 :
 :
 AppendCSSValueToString
@@ -3034,7 +3040,10 @@ unit
 "
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 :
 :
 AppendCSSValueToString
@@ -3059,7 +3068,10 @@ AppendLiteral
 "
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 :
 :
 AppendCSSValueToString

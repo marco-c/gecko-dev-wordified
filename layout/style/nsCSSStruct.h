@@ -1624,7 +1624,10 @@ nsCSS
 structures
 for
 storing
-nsCSSDeclaration
+css
+:
+:
+Declaration
 '
 s
 /

@@ -467,9 +467,6 @@ nsCOMPtr
 h
 "
 class
-nsCSSDeclaration
-;
-class
 nsCSSParser
 ;
 class
@@ -487,6 +484,9 @@ mozilla
 namespace
 css
 {
+class
+Declaration
+;
 class
 Loader
 ;
@@ -720,7 +720,13 @@ virtual
 nsresult
 GetCSSDeclaration
 (
-nsCSSDeclaration
+mozilla
+:
+:
+css
+:
+:
+Declaration
 *
 *
 aDecl

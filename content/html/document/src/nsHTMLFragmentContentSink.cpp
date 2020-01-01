@@ -729,6 +729,14 @@ nsIDOMCSSRule
 .
 h
 "
+namespace
+css
+=
+mozilla
+:
+:
+css
+;
 /
 /
 /
@@ -6202,7 +6210,10 @@ Truncate
 (
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 *
 style
 =

@@ -1020,13 +1020,6 @@ h
 #
 include
 "
-nsCSSDeclaration
-.
-h
-"
-#
-include
-"
 nsCSSParser
 .
 h
@@ -1077,13 +1070,6 @@ h
 include
 "
 nsDOMAttributeMap
-.
-h
-"
-#
-include
-"
-nsDOMCSSDeclaration
 .
 h
 "
