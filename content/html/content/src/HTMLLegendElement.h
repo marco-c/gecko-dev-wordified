@@ -125,7 +125,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -416,7 +420,7 @@ Interface
 /
 already_AddRefed
 <
-nsHTMLFormElement
+HTMLFormElement
 >
 GetForm
 (

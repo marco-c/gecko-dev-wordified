@@ -72863,7 +72863,7 @@ Run
 /
 but
 |
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 SubmitSubmission

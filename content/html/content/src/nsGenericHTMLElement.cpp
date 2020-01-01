@@ -528,7 +528,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -3898,14 +3902,14 @@ aNullParent
 )
 ;
 }
-nsHTMLFormElement
+HTMLFormElement
 *
 nsGenericHTMLElement
 :
 :
 FindAncestorForm
 (
-nsHTMLFormElement
+HTMLFormElement
 *
 aCurrentForm
 )
@@ -4129,7 +4133,7 @@ endif
 return
 static_cast
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 (
@@ -12775,7 +12779,7 @@ mForm
 =
 static_cast
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 (
@@ -12883,7 +12887,7 @@ RemoveElementFromTable
 (
 this
 nameVal
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 ElementRemoved
@@ -12907,7 +12911,7 @@ RemoveElementFromTable
 (
 this
 idVal
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 ElementRemoved
@@ -13632,7 +13636,7 @@ RemoveElementFromTable
 (
 this
 tmp
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 AttributeUpdated
@@ -13681,7 +13685,7 @@ RemoveElementFromTable
 (
 this
 tmp
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 AttributeUpdated
@@ -13715,7 +13719,7 @@ RemoveElementFromTable
 (
 this
 tmp
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 AttributeUpdated
@@ -15521,7 +15525,7 @@ true
 )
 ;
 }
-nsHTMLFormElement
+HTMLFormElement
 *
 oldForm
 =
@@ -15685,7 +15689,7 @@ mForm
 =
 static_cast
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 (

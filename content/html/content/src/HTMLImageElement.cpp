@@ -253,7 +253,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -1270,7 +1274,7 @@ RemoveImageElementFromTable
 (
 this
 tmp
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 AttributeUpdated
@@ -3162,7 +3166,7 @@ mForm
 =
 static_cast
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 (
@@ -3269,7 +3273,7 @@ RemoveImageElementFromTable
 (
 this
 nameVal
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 ElementRemoved
@@ -3293,7 +3297,7 @@ RemoveImageElementFromTable
 (
 this
 idVal
-nsHTMLFormElement
+HTMLFormElement
 :
 :
 ElementRemoved

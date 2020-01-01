@@ -90,7 +90,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -1377,7 +1381,13 @@ HTMLCanvasElement
 DEFINE_UNWRAP_CAST_HTML
 (
 form
-nsHTMLFormElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLFormElement
 )
 DEFINE_UNWRAP_CAST_HTML
 (

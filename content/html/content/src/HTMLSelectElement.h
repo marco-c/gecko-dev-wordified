@@ -184,7 +184,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -765,7 +769,7 @@ aRv
 )
 ;
 }
-nsHTMLFormElement
+HTMLFormElement
 *
 GetForm
 (

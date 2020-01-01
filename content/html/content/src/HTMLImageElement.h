@@ -1056,7 +1056,7 @@ cooperate
 in
 maintaining
 .
-nsHTMLFormElement
+HTMLFormElement
 *
 mForm
 ;

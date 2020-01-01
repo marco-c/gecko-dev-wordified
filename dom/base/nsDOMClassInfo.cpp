@@ -2862,7 +2862,7 @@ classes
 NS_DEFINE_CLASSINFO_DATA
 (
 HTMLFormElement
-nsHTMLFormElementSH
+HTMLFormElementSH
 ELEMENT_SCRIPTABLE_FLAGS
 |
 nsIXPCScriptable
@@ -31596,7 +31596,7 @@ vp
 HTMLFormElement
 helper
 NS_IMETHODIMP
-nsHTMLFormElementSH
+HTMLFormElementSH
 :
 :
 NewResolve
@@ -31734,7 +31734,7 @@ result
 =
 static_cast
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 (
@@ -31806,7 +31806,7 @@ _retval
 ;
 }
 NS_IMETHODIMP
-nsHTMLFormElementSH
+HTMLFormElementSH
 :
 :
 GetProperty
@@ -31908,7 +31908,7 @@ result
 =
 static_cast
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 (
@@ -32063,7 +32063,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLFormElementSH
+HTMLFormElementSH
 :
 :
 NewEnumerate

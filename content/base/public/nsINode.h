@@ -2008,7 +2008,7 @@ mFirstLegend
 /
 /
 -
-nsHTMLFormElement
+HTMLFormElement
 :
 many
 !

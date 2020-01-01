@@ -279,7 +279,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -2170,7 +2174,7 @@ while
 dispatching
 nsRefPtr
 <
-nsHTMLFormElement
+HTMLFormElement
 >
 form
 (

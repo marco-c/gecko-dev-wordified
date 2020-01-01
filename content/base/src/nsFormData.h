@@ -127,9 +127,6 @@ BindingDeclarations
 h
 "
 class
-nsHTMLFormElement
-;
-class
 nsIDOMFile
 ;
 namespace
@@ -141,6 +138,9 @@ ErrorResult
 namespace
 dom
 {
+class
+HTMLFormElement
+;
 class
 GlobalObject
 ;
@@ -248,7 +248,13 @@ dom
 :
 Optional
 <
-nsHTMLFormElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLFormElement
 *
 >
 &
