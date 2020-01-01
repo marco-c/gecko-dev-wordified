@@ -29623,6 +29623,8 @@ n
 ]
 ;
 }
+/
+*
 function
 createMandelSet
 (
@@ -30080,6 +30082,8 @@ testMandelbrotAll
 (
 )
 ;
+*
+/
 }
 /
 *
