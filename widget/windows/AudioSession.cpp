@@ -493,7 +493,7 @@ mSessionGroupingParameter
 SessionState
 mState
 ;
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
@@ -729,11 +729,11 @@ thread
 .
 .
 .
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 AudioSession
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 AudioSession
 )
