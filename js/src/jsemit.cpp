@@ -9641,6 +9641,12 @@ pn_arity
 =
 =
 PN_LIST
+&
+&
+nextpn
+-
+>
+pn_head
 )
 nextpn
 =
