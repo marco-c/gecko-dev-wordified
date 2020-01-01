@@ -1295,10 +1295,6 @@ virtual
 void
 InvalidateFrame
 (
-PRUint32
-aFlags
-=
-0
 )
 {
 nsIFrame
@@ -1306,7 +1302,6 @@ nsIFrame
 :
 InvalidateFrame
 (
-aFlags
 )
 ;
 nsTableFrame
@@ -1326,9 +1321,6 @@ tableFrame
 >
 InvalidateFrame
 (
-aFlags
-|
-INVALIDATE_DONT_SCHEDULE_PAINT
 )
 ;
 }
