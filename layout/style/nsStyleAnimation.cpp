@@ -2655,7 +2655,7 @@ GetArrayValue
 ;
 for
 (
-PRUint32
+size_t
 i
 =
 0
@@ -3529,7 +3529,7 @@ PR_FALSE
 }
 for
 (
-PRUint32
+size_t
 i
 =
 0

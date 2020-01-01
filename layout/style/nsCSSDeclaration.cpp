@@ -2039,7 +2039,7 @@ PR_FALSE
 ;
 for
 (
-PRUint16
+size_t
 i
 =
 0
@@ -2446,7 +2446,7 @@ go
 /
 for
 (
-PRUint16
+size_t
 index
 =
 1
@@ -2816,7 +2816,7 @@ max
 }
 for
 (
-PRUint32
+size_t
 i
 =
 0

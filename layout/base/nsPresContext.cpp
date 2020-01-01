@@ -9963,7 +9963,6 @@ GetArrayValue
 )
 ;
 size_t
-i
 numSrc
 =
 srcArr
@@ -9975,6 +9974,7 @@ Count
 ;
 for
 (
+size_t
 i
 =
 0
