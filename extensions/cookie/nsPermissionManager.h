@@ -344,6 +344,10 @@ mNonSessionPermission
 (
 aPermission
 )
+mNonSessionExpireType
+(
+aExpireType
+)
 {
 }
 int64_t
@@ -363,6 +367,9 @@ mExpireTime
 ;
 uint32_t
 mNonSessionPermission
+;
+uint32_t
+mNonSessionExpireType
 ;
 }
 ;
