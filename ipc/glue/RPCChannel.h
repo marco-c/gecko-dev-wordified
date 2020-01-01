@@ -1068,7 +1068,7 @@ stack
 size
 :
 %
-zu
+lu
 \
 n
 "
@@ -1089,7 +1089,7 @@ stack
 guess
 :
 %
-zd
+lu
 \
 n
 "
@@ -1105,7 +1105,7 @@ queue
 size
 :
 %
-zu
+lu
 front
 to
 back
