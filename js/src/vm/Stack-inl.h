@@ -3095,6 +3095,9 @@ nvals
 return
 true
 ;
+#
+ifdef
+JS_METHODJIT
 if
 (
 topncode
@@ -3151,6 +3154,8 @@ topncode
 )
 ;
 }
+#
+endif
 return
 space
 .

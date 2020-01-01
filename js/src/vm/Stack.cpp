@@ -6680,6 +6680,9 @@ base
 )
 ;
 #
+if
+0
+#
 ifdef
 DEBUG
 if
@@ -6716,6 +6719,8 @@ pc_
 )
 ;
 }
+#
+endif
 #
 endif
 Value
