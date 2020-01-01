@@ -1292,8 +1292,12 @@ history
 nsDownloadHistory
 "
 NS_DOWNLOADHISTORY_CID
-NS_DOWNLOADHISTORY_CONTRACTID
+nsnull
 nsDownloadHistoryConstructor
+nsDownloadHistory
+:
+:
+RegisterSelf
 }
 }
 ;
