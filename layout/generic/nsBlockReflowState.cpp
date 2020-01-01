@@ -6103,7 +6103,7 @@ nsHTMLReflowState
 :
 ApplyRelativePositioning
 (
-floatDisplay
+aFloat
 floatOffsets
 &
 origin

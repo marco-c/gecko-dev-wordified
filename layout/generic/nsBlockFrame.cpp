@@ -42805,14 +42805,7 @@ pos
 block
 -
 >
-GetPosition
-(
-)
--
-block
--
->
-GetRelativeOffset
+GetNormalPosition
 (
 )
 ;
