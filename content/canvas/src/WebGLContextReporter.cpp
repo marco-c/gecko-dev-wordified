@@ -441,6 +441,7 @@ mozilla
 ;
 class
 WebGLMemoryMultiReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
