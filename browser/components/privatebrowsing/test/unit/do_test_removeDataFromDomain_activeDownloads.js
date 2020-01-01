@@ -1491,4 +1491,8 @@ i
 removed
 )
 ;
+shutdownPlaces
+(
+)
+;
 }
