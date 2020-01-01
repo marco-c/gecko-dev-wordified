@@ -1521,8 +1521,6 @@ mimeType
 {
 return
 mimeType
-.
-type
 =
 =
 =
