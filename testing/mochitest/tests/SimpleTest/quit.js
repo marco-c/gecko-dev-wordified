@@ -714,8 +714,6 @@ false
 ;
 }
 /
-*
-/
 /
 shut
 down
@@ -731,7 +729,13 @@ values
 )
 if
 (
+typeof
 crossDomain
+!
+=
+"
+undefined
+"
 )
 crossDomain
 .
@@ -739,8 +743,6 @@ disable
 (
 )
 ;
-*
-/
 const
 kAppStartup
 =
