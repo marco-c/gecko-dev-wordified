@@ -2482,6 +2482,12 @@ onImage
 &
 &
 hostLabel
+&
+&
+!
+gPrivateBrowsingUI
+.
+privateBrowsingEnabled
 )
 ;
 }
