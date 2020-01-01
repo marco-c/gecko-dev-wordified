@@ -26110,11 +26110,15 @@ nsIFrame
 frame
 =
 shellContent
+?
+shellContent
 -
 >
 GetPrimaryFrame
 (
 )
+:
+nsnull
 ;
 PRBool
 isDocShellOffScreen
