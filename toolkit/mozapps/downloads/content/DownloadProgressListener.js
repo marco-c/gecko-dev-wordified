@@ -894,10 +894,9 @@ updateStatus
 dl
 )
 ;
-gDownloadViewController
-.
-onCommandUpdate
+updateButtons
 (
+dl
 )
 ;
 }
