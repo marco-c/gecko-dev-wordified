@@ -1236,11 +1236,11 @@ h
 ifdef
 XP_MACOSX
 #
-include
+import
 <
-Carbon
+ApplicationServices
 /
-Carbon
+ApplicationServices
 .
 h
 >
@@ -9724,9 +9724,7 @@ ifdef
 XP_MACOSX
 /
 /
-hacky
-OS
-call
+Hack
 to
 ensure
 that
@@ -9748,7 +9746,6 @@ go
 of
 the
 mouse
-already
 after
 a
 long
@@ -9773,10 +9770,10 @@ bug
 if
 (
 !
-:
-:
-StillDown
+CGEventSourceButtonState
 (
+kCGEventSourceStateCombinedSessionState
+kCGMouseButtonLeft
 )
 )
 return
