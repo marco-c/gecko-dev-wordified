@@ -710,16 +710,6 @@ IsNullOrUndefinedAndBranch
 \
 _
 (
-TypeOfIs
-)
-\
-_
-(
-TypeOfIsAndBranch
-)
-\
-_
-(
 AbsI
 )
 \
