@@ -6836,6 +6836,13 @@ setter_code
 stubName
 =
 templateName
+        
+else
+:
+            
+code
+=
+None
     
 else
 :
@@ -6848,11 +6855,14 @@ callTemplate
 code
 =
 customMethodCall
-[
+.
+get
+(
 '
 code
 '
-]
+None
+)
     
 #
 Function
@@ -7822,7 +7832,7 @@ get
 '
 canFail
 '
-False
+True
 )
     
 if
@@ -7850,7 +7860,7 @@ rvdeclared
 True
     
 if
-customMethodCall
+code
 is
 not
 None
@@ -7871,7 +7881,7 @@ code
 )
     
 if
-customMethodCall
+code
 is
 None
 or
@@ -7885,11 +7895,15 @@ is
 )
 :
         
-if
-customMethodCall
+debugGetter
+=
+code
 is
 not
 None
+        
+if
+debugGetter
 :
             
 f
@@ -8144,9 +8158,33 @@ f
 write
 (
 "
+"
+)
+        
+if
+canFail
+or
+debugGetter
+:
+            
+f
+.
+write
+(
+"
 %
 s
 =
+"
+%
+nsresultname
+)
+        
+f
+.
+write
+(
+"
 %
 s
 -
@@ -8161,10 +8199,8 @@ s
 \
 n
 "
-                
 %
 (
-nsresultname
 selfname
 comName
 args
@@ -8172,10 +8208,7 @@ args
 )
         
 if
-customMethodCall
-is
-not
-None
+debugGetter
 :
             
 checkSuccess
@@ -11269,11 +11302,57 @@ append
 argName
 )
     
+canFail
+=
+customMethodCall
+is
+None
+or
+customMethodCall
+.
+get
+(
+'
+canFail
+'
+True
+)
+    
+if
+canFail
+and
+not
+rvdeclared
+:
+        
+f
+.
+write
+(
+"
+nsresult
+rv
+;
+\
+n
+"
+)
+        
+rvdeclared
+=
+True
+    
 if
 customMethodCall
 is
 not
 None
+and
+'
+code
+'
+in
+customMethodCall
 :
         
 f
@@ -11297,28 +11376,6 @@ code
     
 else
 :
-        
-if
-not
-rvdeclared
-:
-            
-f
-.
-write
-(
-"
-nsresult
-rv
-;
-\
-n
-"
-)
-            
-rvdeclared
-=
-True
         
 prefix
 =
@@ -11418,9 +11475,31 @@ f
 write
 (
 "
+"
+)
+        
+if
+canFail
+:
+            
+f
+.
+write
+(
+"
 %
 s
 =
+"
+%
+nsresultname
+)
+        
+f
+.
+write
+(
+"
 %
 s
 -
@@ -11435,15 +11514,17 @@ s
 \
 n
 "
-                
 %
 (
-nsresultname
 selfname
 comName
 args
 )
 )
+    
+if
+canFail
+:
         
 #
 Check
