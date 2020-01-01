@@ -532,6 +532,11 @@ inputStream
 )
 storeFile
 PR_RDONLY
+|
+nsIFile
+:
+:
+OS_READAHEAD
 )
 ;
 if
