@@ -1324,7 +1324,7 @@ closure
 data
 PR_FALSE
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 PR_FALSE
 )
 ;

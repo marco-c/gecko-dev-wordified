@@ -412,7 +412,7 @@ localName
 !
 =
 "
-IMG
+img
 "
 )
 return

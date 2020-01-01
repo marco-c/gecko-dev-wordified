@@ -234,7 +234,7 @@ countElements
 (
 node
 namespaceURI
-tagName
+localName
 )
 {
 var
@@ -286,10 +286,10 @@ ELEMENT_NODE
 &
 child
 .
-tagName
+localName
 =
 =
-tagName
+localName
 &
 &
 child
@@ -321,7 +321,7 @@ countElements
 (
 child
 namespaceURI
-tagName
+localName
 )
 ;
 }
@@ -334,7 +334,7 @@ function
 checkElements
 (
 namespaceURI
-tagName
+localName
 )
 {
 var
@@ -345,7 +345,7 @@ document
 getElementsByTagNameNS
 (
 namespaceURI
-tagName
+localName
 )
 ;
 var
@@ -355,7 +355,7 @@ document
 .
 getElementsByTagName
 (
-tagName
+localName
 )
 ;
 var
@@ -365,7 +365,7 @@ countElements
 (
 document
 namespaceURI
-tagName
+localName
 )
 ;
 const
@@ -380,7 +380,7 @@ getElementsByTagName
 '
 '
 +
-tagName
+localName
 +
 '
 \
@@ -417,7 +417,7 @@ namespaceURI
 '
 '
 +
-tagName
+localName
 +
 '
 \
@@ -485,7 +485,7 @@ gEBTN
 namespaceURI
 ]
 [
-tagName
+localName
 ]
 .
 length
@@ -502,7 +502,7 @@ gEBTNNS
 namespaceURI
 ]
 [
-tagName
+localName
 ]
 .
 length
@@ -514,7 +514,21 @@ text2
 const
 xhtmlNS
 =
-null
+'
+http
+:
+/
+/
+www
+.
+w3
+.
+org
+/
+1999
+/
+xhtml
+'
 ;
 function
 checkSpansAndScripts
@@ -525,7 +539,7 @@ checkElements
 (
 xhtmlNS
 '
-SPAN
+span
 '
 )
 ;
@@ -533,7 +547,7 @@ checkElements
 (
 xhtmlNS
 '
-SCRIPT
+script
 '
 )
 ;
@@ -616,7 +630,7 @@ gEBTN
 xhtmlNS
 ]
 .
-SPAN
+span
 =
 document
 .
@@ -634,7 +648,7 @@ gEBTNNS
 xhtmlNS
 ]
 .
-SPAN
+span
 =
 document
 .
@@ -653,7 +667,7 @@ gEBTN
 xhtmlNS
 ]
 .
-SCRIPT
+script
 =
 document
 .
@@ -671,7 +685,7 @@ gEBTNNS
 xhtmlNS
 ]
 .
-SCRIPT
+script
 =
 document
 .

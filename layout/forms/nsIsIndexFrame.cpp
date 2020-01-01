@@ -1333,7 +1333,7 @@ nsGkAtoms
 :
 hr
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_NewHTMLElement
@@ -1449,7 +1449,7 @@ nsGkAtoms
 :
 input
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_NewHTMLElement

@@ -1706,7 +1706,7 @@ localName
 !
 =
 '
-INPUT
+input
 '
 )
 {

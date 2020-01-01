@@ -1528,12 +1528,9 @@ return
 }
 if
 (
-mNodeInfo
--
->
-NamespaceEquals
+!
+IsInHTMLDocument
 (
-kNameSpaceID_XHTML
 )
 )
 {

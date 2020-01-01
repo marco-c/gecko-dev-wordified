@@ -776,8 +776,6 @@ nsIAtom
 aLocalName
 PRInt32
 aNsID
-PRInt32
-aElemType
 )
 ;
 nsCOMPtr
