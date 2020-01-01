@@ -3072,6 +3072,9 @@ structure
 *
 /
 class
+ArrayBufferObject
+;
+class
 ObjectElements
 {
 friend
@@ -3083,6 +3086,13 @@ JSObject
 friend
 class
 ObjectImpl
+;
+friend
+struct
+js
+:
+:
+ArrayBufferObject
 ;
 /
 *
