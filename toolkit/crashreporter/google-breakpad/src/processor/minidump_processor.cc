@@ -1821,6 +1821,11 @@ stack
 get
 (
 )
+&
+process_state
+-
+>
+modules_without_symbols_
 )
 )
 {

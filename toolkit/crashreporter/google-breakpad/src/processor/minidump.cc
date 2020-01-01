@@ -884,7 +884,7 @@ static
 void
 Normalize128
 (
-uint128_t
+uint128_struct
 *
 value
 bool
@@ -989,7 +989,7 @@ static
 void
 Swap
 (
-uint128_t
+uint128_struct
 *
 value
 )

@@ -868,13 +868,13 @@ quantities
 .
 *
 /
-uint128_t
+uint128_struct
 save_vr
 [
 MD_VECTORSAVEAREA_PPC_VR_COUNT
 ]
 ;
-uint128_t
+uint128_struct
 save_vscr
 ;
 /
@@ -895,7 +895,7 @@ save_vrvalid
 ;
 /
 *
-Identifies
+Indicates
 which
 vector
 registers
