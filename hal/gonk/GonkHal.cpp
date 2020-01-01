@@ -4639,6 +4639,9 @@ aSigno
 =
 =
 SIGUSR1
+&
+&
+sAlarmData
 )
 {
 sAlarmData
