@@ -4531,7 +4531,7 @@ void
 nsCSSRuleProcessor
 :
 :
-Shutdown
+FreeSystemMetrics
 (
 )
 {
