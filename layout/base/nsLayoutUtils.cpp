@@ -8012,6 +8012,9 @@ sense
 "
 )
 ;
+nsAutoDisableGetUsedXAssertions
+disableAssert
+;
 /
 /
 Build
