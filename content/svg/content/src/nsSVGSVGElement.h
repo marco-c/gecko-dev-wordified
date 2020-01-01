@@ -162,7 +162,7 @@ h
 #
 include
 "
-nsSVGGraphicElement
+SVGGraphicsElement
 .
 h
 "
@@ -213,7 +213,13 @@ SVGFragmentIdentifier
 ;
 }
 typedef
-nsSVGGraphicElement
+mozilla
+:
+:
+dom
+:
+:
+SVGGraphicsElement
 nsSVGSVGElementBase
 ;
 class

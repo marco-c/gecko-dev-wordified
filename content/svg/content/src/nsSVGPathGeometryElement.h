@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsSVGGraphicElement
+SVGGraphicsElement
 .
 h
 "
@@ -158,7 +158,13 @@ class
 gfxContext
 ;
 typedef
-nsSVGGraphicElement
+mozilla
+:
+:
+dom
+:
+:
+SVGGraphicsElement
 nsSVGPathGeometryElementBase
 ;
 class

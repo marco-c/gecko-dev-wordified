@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsSVGGraphicElement
-.
-h
-"
-#
-include
-"
 nsIDOMSVGAElement
 .
 h
