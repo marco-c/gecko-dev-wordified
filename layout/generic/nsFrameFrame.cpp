@@ -1766,14 +1766,6 @@ rv
 return
 rv
 ;
-nsPresContext
-*
-aPresContext
-=
-PresContext
-(
-)
-;
 /
 /
 We
