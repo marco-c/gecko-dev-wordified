@@ -39645,6 +39645,12 @@ n
 "
                                    
 "
+{
+\
+n
+"
+                                   
+"
 *
 vp
 =
@@ -39660,8 +39666,15 @@ n
 "
                                    
 "
-break
+return
+true
 ;
+\
+n
+"
+                                   
+"
+}
 "
 )
         
@@ -39670,39 +39683,12 @@ conversionsToJS
 extend
 (
             
-caseDecl
-+
-caseBody
-for
-(
-caseDecl
-caseBody
-)
-in
-            
-zip
-(
-mapTemplate
-(
-"
-case
-e
-{
-name
-}
-:
-\
-n
-"
-templateVars
-)
-                
 map
 (
 self
 .
-getConversiontoJS
-                    
+getConversionToJS
+                
 zip
 (
 templateVars
@@ -39711,7 +39697,6 @@ self
 type
 .
 flatMemberTypes
-)
 )
 )
 )
@@ -39760,9 +39745,13 @@ doConversionsToJS
 case
 eUninitialized
 :
+    
+{
       
 break
 ;
+    
+}
   
 }
   
@@ -39810,7 +39799,7 @@ conversionsToJS
 )
     
 def
-getConversiontoJS
+getConversionToJS
 (
 self
 arg
@@ -39823,6 +39812,20 @@ type
 )
 =
 arg
+        
+assert
+not
+type
+.
+nullable
+(
+)
+#
+flatMemberTypes
+never
+has
+nullable
+types
         
 val
 =
@@ -39930,13 +39933,6 @@ if
 type
 .
 isObject
-(
-)
-and
-not
-type
-.
-nullable
 (
 )
 :
@@ -40104,6 +40100,25 @@ True
 return
 CGIndenter
 (
+CGList
+(
+[
+CGGeneric
+(
+"
+case
+e
+%
+(
+name
+)
+s
+:
+"
+%
+templateVars
+)
+                                  
 CGWrapper
 (
 CGIndenter
@@ -40113,7 +40128,7 @@ CGGeneric
 wrapCode
 )
 )
-                                    
+                                            
 pre
 =
 "
@@ -40121,7 +40136,7 @@ pre
 \
 n
 "
-                                    
+                                            
 post
 =
 "
@@ -40130,6 +40145,14 @@ n
 }
 "
 )
+]
+                                 
+"
+\
+n
+"
+)
+                          
 4
 )
 .
