@@ -107,10 +107,6 @@ function
 aMessage
 )
 {
-+
-+
-messageCount
-;
 /
 /
 Ignore
@@ -154,6 +150,10 @@ OS
 return
 ;
 }
++
++
+messageCount
+;
 if
 (
 messageCount
