@@ -745,6 +745,16 @@ aAction
 =
 0
 ;
+virtual
+nsSize
+GetSafeWindowSize
+(
+nsSize
+aSize
+)
+=
+0
+;
 /
 /
 Some
