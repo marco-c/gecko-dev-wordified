@@ -847,6 +847,9 @@ bmkUri
 description
 "
 "
+loadInSidebar
+"
+"
 tags
 "
 "
