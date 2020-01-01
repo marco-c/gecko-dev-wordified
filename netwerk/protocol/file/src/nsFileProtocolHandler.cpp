@@ -934,7 +934,7 @@ rv
 =
 NS_ERROR_NOT_AVAILABLE
 ;
-IUniformResourceLocatorW
+IUniformResourceLocator
 *
 urlLink
 =
@@ -949,7 +949,7 @@ CoCreateInstance
 CLSID_InternetShortcut
 NULL
 CLSCTX_INPROC_SERVER
-IID_IUniformResourceLocatorW
+IID_IUniformResourceLocator
 (
 void
 *
@@ -1027,7 +1027,7 @@ result
 )
 )
 {
-LPWSTR
+LPSTR
 lpTemp
 =
 nsnull
@@ -1086,10 +1086,7 @@ rv
 NS_NewURI
 (
 aURI
-NS_ConvertUTF16toUTF8
-(
 lpTemp
-)
 )
 ;
 /
