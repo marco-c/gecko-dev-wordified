@@ -486,7 +486,10 @@ h
 /
 /
 For
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 .
 #
 include
@@ -937,7 +940,10 @@ OBJECT_TO_JSVAL
 wrapperObj
 )
 ;
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 tvr
 (
 cx
@@ -2544,7 +2550,10 @@ return
 JS_FALSE
 ;
 }
-JSAutoTempValueRooter
+js
+:
+:
+AutoArrayRooter
 tvr
 (
 cx
@@ -3602,7 +3611,10 @@ return
 nsnull
 ;
 }
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 tvr
 (
 cx

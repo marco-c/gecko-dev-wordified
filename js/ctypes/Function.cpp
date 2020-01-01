@@ -2358,7 +2358,10 @@ JS_GetFunctionObject
 fn
 )
 ;
-JSAutoTempValueRooter
+js
+:
+:
+AutoObjectRooter
 fnRoot
 (
 aContext
