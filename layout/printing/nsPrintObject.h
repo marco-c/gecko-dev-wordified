@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -160,6 +153,9 @@ nsIDocShellTreeOwner
 .
 h
 "
+class
+nsIContent
+;
 class
 nsIDocument
 ;

@@ -113,13 +113,9 @@ HyperTextAccessibleWrap
 .
 h
 "
-#
-include
-"
+class
 nsIContent
-.
-h
-"
+;
 /
 *
 *

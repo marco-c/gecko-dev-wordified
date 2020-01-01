@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -148,6 +141,9 @@ nsXBLSerialize
 .
 h
 "
+class
+nsIContent
+;
 struct
 nsXBLParameter
 {

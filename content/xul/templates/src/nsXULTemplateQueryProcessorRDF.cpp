@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsICollation
+.
+h
+"
+#
+include
+"
 nsIDOMNode
 .
 h

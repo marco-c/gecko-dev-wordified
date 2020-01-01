@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsHashtable
 .
 h
@@ -185,6 +178,9 @@ h
 "
 class
 nsIAtom
+;
+class
+nsIContent
 ;
 class
 nsIDocument

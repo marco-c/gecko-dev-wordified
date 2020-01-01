@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIDOMFile
 .
 h

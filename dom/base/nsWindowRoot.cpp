@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLInputElement
 .
 h

@@ -144,13 +144,6 @@ nsChangeHint
 .
 h
 "
-#
-include
-"
-nsIContent
-.
-h
-"
 struct
 RuleProcessorData
 ;

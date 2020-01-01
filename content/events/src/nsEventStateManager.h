@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -224,6 +217,9 @@ h
 "
 class
 nsIPresShell
+;
+class
+nsIContent
 ;
 class
 nsIDocument

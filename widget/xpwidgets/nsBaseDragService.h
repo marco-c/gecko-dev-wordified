@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -182,6 +175,9 @@ DRAG_TRANSLUCENCY
 0
 .
 65
+class
+nsIContent
+;
 class
 nsIDOMNode
 ;

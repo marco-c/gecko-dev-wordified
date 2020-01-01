@@ -102,6 +102,13 @@ nsBindingManager_h_
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsStubMutationObserver
 .
 h
@@ -164,9 +171,6 @@ h
 "
 struct
 ElementDependentRuleProcessorData
-;
-class
-nsIContent
 ;
 class
 nsIXPConnectWrappedJS

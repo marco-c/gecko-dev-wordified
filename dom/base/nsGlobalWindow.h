@@ -413,13 +413,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsIIDBFactory
 .
 h
@@ -630,6 +623,9 @@ seconds
 define
 MIN_IDLE_NOTIFICATION_TIME_S
 1
+class
+nsIContent
+;
 class
 nsIDOMBarProp
 ;

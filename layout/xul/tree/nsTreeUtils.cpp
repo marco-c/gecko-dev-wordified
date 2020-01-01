@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsISupportsArray
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

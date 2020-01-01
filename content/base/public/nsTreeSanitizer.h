@@ -65,13 +65,6 @@ nsTreeSanitizer_h_
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 css
@@ -98,6 +91,9 @@ Element
 .
 h
 "
+class
+nsIContent
+;
 /
 *
 *
