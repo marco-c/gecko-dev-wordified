@@ -904,17 +904,6 @@ nsIFrame
 aFrame
 )
 ;
-/
-/
-scrollbar
-bool
-IsDarkBackground
-(
-nsIFrame
-*
-aFrame
-)
-;
 private
 :
 uint32_t
