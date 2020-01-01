@@ -29276,6 +29276,8 @@ nsIFrame
 :
 SchedulePaint
 (
+PRUint32
+aFlags
 )
 {
 nsPresContext
@@ -29360,6 +29362,7 @@ PresShell
 >
 ScheduleViewManagerFlush
 (
+aFlags
 )
 ;
 }
@@ -29461,6 +29464,7 @@ SetInvalidRectToVisibleRegion
 }
 SchedulePaint
 (
+PAINT_COMPOSITE_ONLY
 )
 ;
 return
