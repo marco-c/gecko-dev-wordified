@@ -642,7 +642,7 @@ GetResponsivenessTimes
 PRUint32
 *
 aCount
-float
+double
 *
 *
 aResult
@@ -655,7 +655,7 @@ len
 100
 ;
 const
-float
+double
 *
 times
 =
@@ -683,13 +683,13 @@ return
 NS_OK
 ;
 }
-float
+double
 *
 fs
 =
 static_cast
 <
-float
+double
 *
 >
 (
@@ -703,7 +703,7 @@ len
 *
 sizeof
 (
-float
+double
 )
 )
 )

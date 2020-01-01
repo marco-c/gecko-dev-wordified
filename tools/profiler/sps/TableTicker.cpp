@@ -805,7 +805,7 @@ ProfileEntry
 (
 char
 aTagName
-float
+double
 aTagFloat
 )
 :
@@ -840,7 +840,7 @@ char
 *
 mTagData
 ;
-float
+double
 mTagFloat
 ;
 Address
@@ -3213,13 +3213,13 @@ IsActive
 )
 ;
 }
-float
+double
 sResponsivenessTimes
 [
 100
 ]
 ;
-float
+double
 sCurrResponsiveness
 =
 0
@@ -3356,7 +3356,7 @@ aTime
 ;
 }
 const
-float
+double
 *
 mozilla_sampler_get_responsiveness
 (

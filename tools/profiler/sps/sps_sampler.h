@@ -1045,7 +1045,7 @@ time
 )
 ;
 const
-float
+double
 *
 mozilla_sampler_get_responsiveness
 (
