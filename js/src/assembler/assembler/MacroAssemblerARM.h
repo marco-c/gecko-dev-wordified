@@ -2974,7 +2974,7 @@ target
 {
 m_assembler
 .
-bx_r
+bx
 (
 target
 )
@@ -3687,7 +3687,7 @@ LinkableNear
 ;
 m_assembler
 .
-blx_r
+blx
 (
 ARMRegisters
 :
@@ -3735,7 +3735,7 @@ target
 {
 m_assembler
 .
-blx_r
+blx
 (
 target
 )
@@ -3779,7 +3779,7 @@ ret
 {
 m_assembler
 .
-bx_r
+bx
 (
 linkRegister
 )
@@ -4687,7 +4687,7 @@ Linkable
 ;
 m_assembler
 .
-blx_r
+blx
 (
 ARMRegisters
 :
@@ -5565,12 +5565,16 @@ RegisterID
 dest
 )
 {
-UNUSED_PARAM
+(
+void
+)
 (
 src
 )
 ;
-UNUSED_PARAM
+(
+void
+)
 (
 dest
 )
@@ -6577,7 +6581,7 @@ reg
 }
 m_assembler
 .
-blx_r
+blx
 (
 ARMRegisters
 :
