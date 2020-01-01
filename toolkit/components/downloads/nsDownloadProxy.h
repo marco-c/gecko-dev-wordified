@@ -449,6 +449,7 @@ nsIDownloadManagerUI
 :
 :
 REASON_NEW_DOWNLOAD
+aIsPrivate
 )
 ;
 }
