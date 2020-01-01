@@ -693,6 +693,10 @@ mFlags
 =
 eDocAccessible
 ;
+if
+(
+mPresShell
+)
 mPresShell
 -
 >
