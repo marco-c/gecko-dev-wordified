@@ -1264,10 +1264,6 @@ nscolor
 aBackgroundColor
 )
 :
-mAUPP
-(
-aAppUnitsPerPixel
-)
 mContext
 (
 aDestContext
@@ -1295,6 +1291,10 @@ aBorderColors
 mCompositeColors
 (
 aCompositeColors
+)
+mAUPP
+(
+aAppUnitsPerPixel
 )
 mSkipSides
 (

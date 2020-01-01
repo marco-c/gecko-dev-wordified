@@ -729,9 +729,6 @@ nsXMLNameSpaceMap
 >
 mNameSpaceMap
 ;
-PRBool
-mComplete
-;
 /
 /
 Linked
@@ -814,6 +811,9 @@ nsRefPtr
 nsCSSStyleSheet
 >
 mFirstChild
+;
+PRBool
+mComplete
 ;
 #
 ifdef
