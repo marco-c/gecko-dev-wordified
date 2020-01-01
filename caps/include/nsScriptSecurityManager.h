@@ -2910,13 +2910,6 @@ sJSEnabledPrefName
 static
 const
 char
-sJSMailEnabledPrefName
-[
-]
-;
-static
-const
-char
 sFileOriginPolicyPrefName
 [
 ]
@@ -2966,9 +2959,6 @@ mPrincipals
 ;
 PRPackedBool
 mIsJavaScriptEnabled
-;
-PRPackedBool
-mIsMailJavaScriptEnabled
 ;
 PRPackedBool
 mIsWritingPrefs
