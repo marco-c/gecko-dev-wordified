@@ -441,6 +441,10 @@ getDebuggerInfo
 DEBUGGER_INFO
 "
   
+"
+replaceBackSlashes
+"
+  
 ]
 #
 Map
@@ -2914,4 +2918,24 @@ thisFile
 processPID
 processType
 leakThreshold
+)
+def
+replaceBackSlashes
+(
+input
+)
+:
+  
+return
+input
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
 )
