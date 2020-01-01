@@ -237,7 +237,9 @@ once
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

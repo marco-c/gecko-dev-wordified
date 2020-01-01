@@ -234,7 +234,9 @@ version
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

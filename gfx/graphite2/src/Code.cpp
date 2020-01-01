@@ -365,7 +365,9 @@ h
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 ifdef

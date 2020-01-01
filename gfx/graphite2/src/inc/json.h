@@ -277,7 +277,9 @@ cassert
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 namespace
 graphite2
