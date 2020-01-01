@@ -8964,6 +8964,10 @@ setIdempotent
 (
 )
 ;
+setNeverHoisted
+(
+)
+;
 JS_ASSERT
 (
 slots
