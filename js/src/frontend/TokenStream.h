@@ -434,10 +434,10 @@ BLOCK
 /
 #
 ifndef
-jsscan_h___
+TokenStream_h__
 #
 define
-jsscan_h___
+TokenStream_h__
 /
 *
 *
@@ -5699,6 +5699,6 @@ js
 endif
 /
 *
-jsscan_h___
+TokenStream_h__
 *
 /
