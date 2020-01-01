@@ -8070,7 +8070,7 @@ TEST_TARGET_FILE_NAME
 yield
 Downloads
 .
-startDirect
+fetch
 (
 sourceUrl
 targetFile
@@ -8079,7 +8079,7 @@ targetFile
 yield
 Downloads
 .
-startDirect
+fetch
 (
 sourceUrl
 targetFile

@@ -1172,7 +1172,7 @@ failed
 .
 *
 /
-startDirect
+fetch
 :
 function
 (
