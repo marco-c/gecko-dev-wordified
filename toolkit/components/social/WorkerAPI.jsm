@@ -786,10 +786,6 @@ this
 .
 _provider
 data
-null
-"
-minimized
-"
 )
 ;
 }
