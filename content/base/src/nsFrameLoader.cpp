@@ -13466,7 +13466,7 @@ return
 NS_OK
 ;
 }
-nsIDOMEventTarget
+EventTarget
 *
 nsFrameLoader
 :

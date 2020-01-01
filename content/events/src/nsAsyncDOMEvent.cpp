@@ -301,7 +301,7 @@ NS_ERROR_INVALID_ARG
 }
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =

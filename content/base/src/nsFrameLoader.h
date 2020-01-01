@@ -904,7 +904,13 @@ return
 mDocShell
 ;
 }
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 *
 GetTabChildGlobalAsEventTarget
 (

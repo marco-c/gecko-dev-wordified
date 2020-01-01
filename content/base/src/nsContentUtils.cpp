@@ -16918,7 +16918,7 @@ nsCxPusher
 :
 Push
 (
-nsIDOMEventTarget
+EventTarget
 *
 aCurrentTarget
 )
@@ -17145,7 +17145,7 @@ nsCxPusher
 :
 RePush
 (
-nsIDOMEventTarget
+EventTarget
 *
 aCurrentTarget
 )
@@ -19556,7 +19556,7 @@ nsIDOMEvent
 *
 *
 aEvent
-nsIDOMEventTarget
+EventTarget
 *
 *
 aTargetOut
@@ -19575,7 +19575,7 @@ aDoc
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 (
@@ -19806,7 +19806,7 @@ event
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 ;
@@ -19889,7 +19889,7 @@ event
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 ;
@@ -19943,7 +19943,7 @@ GetWindow
 return
 NS_ERROR_INVALID_ARG
 ;
-nsIDOMEventTarget
+EventTarget
 *
 piTarget
 =
@@ -21253,7 +21253,7 @@ IsInDoc
 {
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 piTarget
 (
@@ -32952,7 +32952,7 @@ status
 }
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =

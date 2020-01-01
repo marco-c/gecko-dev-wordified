@@ -1989,7 +1989,7 @@ PreserveWrapper
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (
@@ -11593,7 +11593,7 @@ XHR
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 eventTarget
 =
