@@ -14879,7 +14879,7 @@ mRetainingManager
 >
 Dump
 (
-stderr
+stdout
 )
 ;
 }

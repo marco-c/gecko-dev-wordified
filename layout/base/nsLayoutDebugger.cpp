@@ -1313,7 +1313,7 @@ PrintDisplayListTo
 aBuilder
 aList
 0
-stderr
+stdout
 )
 ;
 }
