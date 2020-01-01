@@ -3887,7 +3887,7 @@ it
 .
 *
 /
-bool
+int32
 inOOMReport
 ;
 #
