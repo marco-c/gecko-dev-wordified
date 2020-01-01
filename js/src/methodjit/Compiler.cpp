@@ -34640,6 +34640,8 @@ leave
 (
 )
 ;
+stubcc
+.
 masm
 .
 move
