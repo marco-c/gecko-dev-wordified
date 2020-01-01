@@ -46372,9 +46372,7 @@ JS_ASSERT_IF
 cx
 -
 >
-isExceptionPending
-(
-)
+throwing
 !
 ok
 )
@@ -114155,9 +114153,7 @@ JS_ASSERT
 cx
 -
 >
-isExceptionPending
-(
-)
+throwing
 )
 ;
 return
@@ -115154,9 +115150,7 @@ JS_ASSERT
 cx
 -
 >
-isExceptionPending
-(
-)
+throwing
 )
 ;
 return
