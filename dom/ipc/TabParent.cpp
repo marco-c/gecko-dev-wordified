@@ -6766,7 +6766,7 @@ if
 frameLoader
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Can
