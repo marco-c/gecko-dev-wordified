@@ -511,8 +511,11 @@ getCategoryEntry
 (
 "
 JavaScript
+-
 global
+-
 privileged
+-
 property
 "
 "

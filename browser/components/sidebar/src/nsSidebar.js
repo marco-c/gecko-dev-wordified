@@ -2407,7 +2407,9 @@ JAVASCRIPT_GLOBAL_PROPERTY_CATEGORY
 =
 "
 JavaScript
+-
 global
+-
 property
 "
 ;

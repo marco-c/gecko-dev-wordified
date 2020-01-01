@@ -4126,8 +4126,11 @@ category
 :
 "
 JavaScript
+-
 global
+-
 privileged
+-
 property
 "
 }
