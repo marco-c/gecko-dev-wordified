@@ -599,9 +599,7 @@ by
 the
 system
 .
-"
-AXWebArea
-"
+NSAccessibilityScrollAreaRole
 /
 /
 ROLE_INTERNAL_FRAME
@@ -657,7 +655,9 @@ care
 of
 this
 .
-NSAccessibilityGroupRole
+"
+AXWebArea
+"
 /
 /
 ROLE_DOCUMENT
@@ -820,7 +820,7 @@ OutlineRow
 as
 subrole
 .
-NSAccessibilityGroupRole
+NSAccessibilityRadioButtonRole
 /
 /
 ROLE_PAGETAB
@@ -921,7 +921,7 @@ NSAccessibilityUnknownRole
 /
 /
 ROLE_WHITESPACE
-NSAccessibilityGroupRole
+NSAccessibilityTabGroupRole
 /
 /
 ROLE_PAGETABLIST
@@ -1130,9 +1130,7 @@ NSAccessibilityStaticTextRole
 /
 /
 ROLE_CAPTION
-"
-AXWebArea
-"
+NSAccessibilityScrollAreaRole
 /
 /
 ROLE_DOCUMENT_FRAME
@@ -1145,7 +1143,7 @@ ROLE_HEADING
 NSAccessibilityGroupRole
 /
 /
-ROLE_PAGE
+ROLE_PAG
 NSAccessibilityGroupRole
 /
 /
