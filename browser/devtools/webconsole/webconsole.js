@@ -2140,7 +2140,7 @@ closeButton
 =
 doc
 .
-getElementsByClassName
+getElementById
 (
 "
 webconsole
@@ -2150,9 +2150,6 @@ close
 button
 "
 )
-[
-0
-]
 ;
 this
 .
