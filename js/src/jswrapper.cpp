@@ -860,6 +860,20 @@ CROSS_COMPARTMENT
 )
 ;
 }
+AbstractWrapper
+:
+:
+AbstractWrapper
+(
+)
+:
+ProxyHandler
+(
+&
+sWrapperFamily
+)
+{
+}
 Wrapper
 :
 :
@@ -869,11 +883,6 @@ unsigned
 flags
 )
 :
-ProxyHandler
-(
-&
-sWrapperFamily
-)
 mFlags
 (
 flags
@@ -964,7 +973,7 @@ action
 GET
 )
 bool
-Wrapper
+AbstractWrapper
 :
 :
 getPropertyDescriptor
@@ -1133,7 +1142,7 @@ true
 ;
 }
 bool
-Wrapper
+AbstractWrapper
 :
 :
 getOwnPropertyDescriptor
@@ -1193,7 +1202,7 @@ GET
 ;
 }
 bool
-Wrapper
+AbstractWrapper
 :
 :
 defineProperty
@@ -1242,7 +1251,7 @@ attrs
 ;
 }
 bool
-Wrapper
+AbstractWrapper
 :
 :
 getOwnPropertyNames
@@ -1319,7 +1328,7 @@ true
 ;
 }
 bool
-Wrapper
+AbstractWrapper
 :
 :
 delete_
@@ -1381,7 +1390,7 @@ bp
 ;
 }
 bool
-Wrapper
+AbstractWrapper
 :
 :
 enumerate
@@ -1432,7 +1441,7 @@ props
 ;
 }
 bool
-Wrapper
+AbstractWrapper
 :
 :
 fix
@@ -2546,7 +2555,7 @@ wrappedObject
 }
 JSObject
 *
-Wrapper
+AbstractWrapper
 :
 :
 wrappedObject
@@ -2570,7 +2579,7 @@ toObjectOrNull
 }
 Wrapper
 *
-Wrapper
+AbstractWrapper
 :
 :
 wrapperHandler
@@ -2596,7 +2605,7 @@ wrapper
 ;
 }
 bool
-Wrapper
+AbstractWrapper
 :
 :
 enter
@@ -2626,7 +2635,7 @@ true
 ;
 }
 void
-Wrapper
+AbstractWrapper
 :
 :
 leave
