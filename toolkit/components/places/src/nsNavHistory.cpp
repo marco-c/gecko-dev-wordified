@@ -9074,7 +9074,7 @@ mAutoCompleteOnlyTyped
 update
 the
 autocomplete
-statement
+statements
 if
 the
 option
@@ -9084,7 +9084,7 @@ changed
 nsresult
 rv
 =
-CreateAutoCompleteQuery
+CreateAutoCompleteQueries
 (
 )
 ;
