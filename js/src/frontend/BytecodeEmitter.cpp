@@ -39168,14 +39168,6 @@ return
 false
 ;
 }
-unsigned
-methodInits
-=
-0
-slowMethodInits
-=
-0
-;
 for
 (
 ParseNode

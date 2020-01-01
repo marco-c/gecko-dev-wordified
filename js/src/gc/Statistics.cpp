@@ -513,6 +513,17 @@ Statistics
 .
 h
 "
+#
+include
+"
+gc
+/
+Barrier
+-
+inl
+.
+h
+"
 namespace
 js
 {
