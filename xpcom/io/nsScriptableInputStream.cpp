@@ -450,7 +450,7 @@ nsIScriptableInputStream
 )
 /
 /
-nsIBaseStream
+nsIScriptableInputStream
 methods
 NS_IMETHODIMP
 nsScriptableInputStream
@@ -478,10 +478,6 @@ Close
 )
 ;
 }
-/
-/
-nsIScriptableInputStream
-methods
 NS_IMETHODIMP
 nsScriptableInputStream
 :

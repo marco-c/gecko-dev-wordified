@@ -969,7 +969,7 @@ interface
 NS_DECL_ISUPPORTS
 /
 /
-nsIBaseStream
+nsIOutputStream
 interface
 NS_IMETHOD
 Close
@@ -981,10 +981,6 @@ return
 NS_OK
 ;
 }
-/
-/
-nsIOutputStream
-interface
 NS_IMETHOD
 Write
 (
