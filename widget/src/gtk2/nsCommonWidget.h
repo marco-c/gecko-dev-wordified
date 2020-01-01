@@ -650,17 +650,6 @@ aGdkEvent
 )
 ;
 void
-InitMouseScrollEvent
-(
-nsMouseScrollEvent
-&
-aEvent
-GdkEventScroll
-*
-aGdkEvent
-)
-;
-void
 InitKeyEvent
 (
 nsKeyEvent
