@@ -3774,9 +3774,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -4267,9 +4264,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -5094,9 +5088,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -5431,9 +5422,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -5601,9 +5589,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -6055,9 +6040,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -6293,9 +6275,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -6505,9 +6484,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -6619,9 +6595,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -6703,9 +6676,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -6787,9 +6757,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -6861,9 +6828,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -7271,9 +7235,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -7489,9 +7450,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -7505,7 +7463,6 @@ moz_gtk_button_paint
 (
 cr
 rect
-cliprect
 state
 GTK_RELIEF_NORMAL
 gTreeHeaderCellWidget
@@ -7526,9 +7483,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -7726,9 +7680,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -7869,9 +7820,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -7977,9 +7925,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -8035,7 +7980,6 @@ moz_gtk_button_paint
 (
 cr
 rect
-cliprect
 state
 GTK_RELIEF_NORMAL
 gComboBoxButtonWidget
@@ -8329,9 +8273,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -8486,9 +8427,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -8526,7 +8464,6 @@ moz_gtk_button_paint
 (
 cr
 rect
-cliprect
 state
 GTK_RELIEF_NORMAL
 gComboBoxEntryButtonWidget
@@ -8636,9 +8573,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -8826,9 +8760,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -8995,9 +8926,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -9097,9 +9025,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -9358,9 +9283,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -9460,9 +9382,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -9552,9 +9471,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -9632,9 +9548,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -9734,9 +9647,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 GtkThemeWidgetType
@@ -10189,9 +10099,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -11403,9 +11310,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -11731,9 +11635,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -11946,9 +11847,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -12048,9 +11946,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -12150,9 +12045,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -12416,9 +12308,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -12589,9 +12478,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -12692,9 +12578,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -12736,7 +12619,6 @@ moz_gtk_menu_item_paint
 (
 cr
 rect
-cliprect
 state
 FALSE
 direction
@@ -12939,9 +12821,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkTextDirection
 direction
 )
@@ -15042,22 +14921,6 @@ cairo
 .
 *
 /
-/
-*
-TODO
-:
-GdkRectangle
-*
-cliprect
-is
-unused
-shall
-we
-remove
-it
-?
-*
-/
 gint
 moz_gtk_widget_paint
 (
@@ -15069,9 +14932,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
@@ -15106,7 +14966,6 @@ moz_gtk_button_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkReliefStyle
@@ -15126,7 +14985,6 @@ moz_gtk_button_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkReliefStyle
@@ -15149,7 +15007,6 @@ moz_gtk_toggle_paint
 (
 cr
 rect
-cliprect
 state
 !
 !
@@ -15184,7 +15041,6 @@ moz_gtk_scrollbar_button_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkScrollbarButtonFlags
@@ -15207,7 +15063,6 @@ moz_gtk_scrollbar_trough_paint
 widget
 cr
 rect
-cliprect
 state
 direction
 )
@@ -15226,7 +15081,6 @@ moz_gtk_scrollbar_thumb_paint
 widget
 cr
 rect
-cliprect
 state
 direction
 )
@@ -15244,7 +15098,6 @@ moz_gtk_scale_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkOrientation
@@ -15266,7 +15119,6 @@ moz_gtk_scale_thumb_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkOrientation
@@ -15325,7 +15177,6 @@ moz_gtk_entry_paint
 (
 cr
 rect
-cliprect
 state
 gSpinWidget
 direction
@@ -15341,7 +15192,6 @@ moz_gtk_gripper_paint
 (
 cr
 rect
-cliprect
 state
 direction
 )
@@ -15356,7 +15206,6 @@ moz_gtk_treeview_paint
 (
 cr
 rect
-cliprect
 state
 direction
 )
@@ -15371,7 +15220,6 @@ moz_gtk_tree_header_cell_paint
 (
 cr
 rect
-cliprect
 state
 flags
 direction
@@ -15406,7 +15254,6 @@ moz_gtk_treeview_expander_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkExpanderStyle
@@ -15425,7 +15272,6 @@ moz_gtk_expander_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkExpanderStyle
@@ -15448,7 +15294,6 @@ moz_gtk_entry_paint
 (
 cr
 rect
-cliprect
 state
 gEntryWidget
 direction
@@ -15464,7 +15309,6 @@ moz_gtk_caret_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -15478,7 +15322,6 @@ moz_gtk_combo_box_paint
 (
 cr
 rect
-cliprect
 state
 (
 gboolean
@@ -15517,7 +15360,6 @@ moz_gtk_entry_paint
 (
 cr
 rect
-cliprect
 state
 gComboBoxEntryTextareaWidget
 direction
@@ -15536,7 +15378,6 @@ moz_gtk_container_paint
 (
 cr
 rect
-cliprect
 state
 (
 widget
@@ -15560,7 +15401,6 @@ moz_gtk_toggle_label_paint
 (
 cr
 rect
-cliprect
 state
 (
 widget
@@ -15581,7 +15421,6 @@ moz_gtk_toolbar_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -15609,7 +15448,6 @@ moz_gtk_tooltip_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -15623,7 +15461,6 @@ moz_gtk_frame_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -15637,7 +15474,6 @@ moz_gtk_resizer_paint
 (
 cr
 rect
-cliprect
 state
 direction
 )
@@ -15652,7 +15488,6 @@ moz_gtk_progressbar_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -15687,7 +15522,6 @@ moz_gtk_tab_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkTabFlags
@@ -15706,7 +15540,6 @@ moz_gtk_tabpanels_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -15720,7 +15553,6 @@ moz_gtk_tab_scroll_arrow_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkArrowType
@@ -15739,7 +15571,6 @@ moz_gtk_menu_bar_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -15753,7 +15584,6 @@ moz_gtk_menu_popup_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -15781,7 +15611,6 @@ moz_gtk_menu_item_paint
 (
 cr
 rect
-cliprect
 state
 flags
 direction
@@ -15797,7 +15626,6 @@ moz_gtk_menu_arrow_paint
 (
 cr
 rect
-cliprect
 state
 direction
 )
@@ -15812,7 +15640,6 @@ moz_gtk_arrow_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkArrowType
@@ -15834,7 +15661,6 @@ moz_gtk_check_menu_item_paint
 (
 cr
 rect
-cliprect
 state
 (
 gboolean
@@ -15859,7 +15685,6 @@ moz_gtk_vpaned_paint
 (
 cr
 rect
-cliprect
 state
 )
 ;
@@ -15873,7 +15698,6 @@ moz_gtk_hpaned_paint
 (
 cr
 rect
-cliprect
 state
 )
 ;
@@ -15887,7 +15711,6 @@ moz_gtk_window_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
