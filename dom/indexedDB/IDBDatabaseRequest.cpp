@@ -2062,7 +2062,7 @@ IDBRequest
 >
 request
 =
-GenerateRequest
+GenerateWriteRequest
 (
 )
 ;
@@ -2271,7 +2271,7 @@ IDBRequest
 >
 request
 =
-GenerateRequest
+GenerateWriteRequest
 (
 )
 ;
@@ -2421,7 +2421,7 @@ IDBRequest
 >
 request
 =
-GenerateRequest
+GenerateWriteRequest
 (
 )
 ;
