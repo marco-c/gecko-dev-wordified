@@ -24745,8 +24745,8 @@ isCompleteUpdate
 =
 true
 ;
-var
-status
+let
+updateStatus
 =
 this
 .
@@ -24759,7 +24759,7 @@ _update
 ;
 if
 (
-status
+updateStatus
 =
 =
 STATE_NONE

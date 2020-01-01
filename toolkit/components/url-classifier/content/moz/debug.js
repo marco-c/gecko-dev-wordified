@@ -3789,7 +3789,6 @@ lineNumber
 label
 )
 {
-var
 message
 =
 "

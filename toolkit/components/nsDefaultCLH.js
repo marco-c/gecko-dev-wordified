@@ -343,6 +343,7 @@ printDir
 ;
 while
 (
+(
 printDir
 =
 cmdLine
@@ -357,6 +358,7 @@ xpcom
 dir
 "
 false
+)
 )
 )
 {
@@ -442,6 +444,7 @@ printDirList
 ;
 while
 (
+(
 printDirList
 =
 cmdLine
@@ -456,6 +459,7 @@ xpcom
 dirlist
 "
 false
+)
 )
 )
 {
