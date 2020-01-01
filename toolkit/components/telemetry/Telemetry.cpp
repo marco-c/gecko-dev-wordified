@@ -5065,6 +5065,11 @@ index
 sqlite
 "
 "
+healthreport
+.
+sqlite
+"
+"
 permissions
 .
 sqlite
