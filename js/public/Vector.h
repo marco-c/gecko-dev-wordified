@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+ReentrancyGuard
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -2062,6 +2071,9 @@ ifdef
 DEBUG
 friend
 class
+mozilla
+:
+:
 ReentrancyGuard
 ;
 bool
@@ -3660,6 +3672,9 @@ checks
 define
 REENTRANCY_GUARD_ET_AL
 \
+mozilla
+:
+:
 ReentrancyGuard
 g
 (

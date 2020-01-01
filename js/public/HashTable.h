@@ -182,6 +182,15 @@ include
 "
 mozilla
 /
+ReentrancyGuard
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -7399,7 +7408,7 @@ x
 endif
 friend
 class
-js
+mozilla
 :
 :
 ReentrancyGuard
@@ -10046,6 +10055,9 @@ l
 )
 const
 {
+mozilla
+:
+:
 ReentrancyGuard
 g
 (
@@ -10113,6 +10125,9 @@ l
 )
 const
 {
+mozilla
+:
+:
 ReentrancyGuard
 g
 (
@@ -10173,6 +10188,9 @@ U
 rhs
 )
 {
+mozilla
+:
+:
 ReentrancyGuard
 g
 (
@@ -10506,6 +10524,9 @@ mutationCount
 mutationCount
 ;
 {
+mozilla
+:
+:
 ReentrancyGuard
 g
 (
@@ -10555,6 +10576,9 @@ JS_ASSERT
 table
 )
 ;
+mozilla
+:
+:
 ReentrancyGuard
 g
 (
@@ -10604,6 +10628,9 @@ JS_ASSERT
 table
 )
 ;
+mozilla
+:
+:
 ReentrancyGuard
 g
 (
