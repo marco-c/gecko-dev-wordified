@@ -5303,7 +5303,7 @@ cx
 context
 -
 >
-GetNativeGlobal
+GetWindowProxy
 (
 )
 )
