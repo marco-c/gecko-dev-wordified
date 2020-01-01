@@ -4863,16 +4863,10 @@ v
 =
 getKeyName
 (
-makeKeySpec
-.
-apply
-(
-undefined
 t
 [
-0
+1
 ]
-)
 )
 )
 =
