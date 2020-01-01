@@ -2125,7 +2125,7 @@ more
 expensive
 *
 since
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetTextZoom
@@ -2178,7 +2178,7 @@ zoom
 *
 (
 although
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetFullZoom

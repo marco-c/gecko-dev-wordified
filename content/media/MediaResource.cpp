@@ -4835,7 +4835,7 @@ passed
 /
 /
 to
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 LoadComplete

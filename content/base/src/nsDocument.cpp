@@ -35436,7 +35436,7 @@ fixing
 if
 we
 fix
-DocumentViewerImpl
+nsDocumentViewer
 to
 do
 cycle

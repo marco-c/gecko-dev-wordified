@@ -6970,7 +6970,7 @@ more
 see
 /
 /
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Close
@@ -9413,7 +9413,7 @@ sure
 this
 does
 what
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 CreateStyleSet
@@ -9662,7 +9662,7 @@ sure
 this
 does
 what
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 CreateStyleSet
@@ -46047,7 +46047,7 @@ called
 from
 /
 /
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SizeToContent

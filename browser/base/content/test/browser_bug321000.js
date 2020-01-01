@@ -538,7 +538,7 @@ going
 through
 /
 /
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 FireClipboardEvent

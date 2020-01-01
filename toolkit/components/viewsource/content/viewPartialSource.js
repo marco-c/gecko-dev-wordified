@@ -669,7 +669,7 @@ html
 /
 /
 see
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SelectAll

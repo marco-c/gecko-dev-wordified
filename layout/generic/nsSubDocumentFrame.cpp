@@ -917,7 +917,7 @@ frame
 now
 so
 that
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 FindContainerView
