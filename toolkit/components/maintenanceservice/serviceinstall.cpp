@@ -490,7 +490,7 @@ get
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -507,8 +507,6 @@ service
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -569,7 +567,7 @@ size
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -587,8 +585,6 @@ service
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -732,7 +728,7 @@ updaterINIPath
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -754,8 +750,6 @@ description
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -776,7 +770,7 @@ updaterINIPath
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -798,8 +792,6 @@ description
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -826,7 +818,7 @@ ini
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -850,8 +842,6 @@ description
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -874,7 +864,7 @@ updaterINIPath
 INVALID_FILE_ATTRIBUTES
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -897,8 +887,6 @@ description
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -940,7 +928,7 @@ serviceDescription
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -958,8 +946,6 @@ maintenance
 service
 description
 .
-\
-n
 "
 )
 )
@@ -1002,7 +988,7 @@ serviceDescription
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1014,12 +1000,11 @@ to
 wide
 string
 format
+.
 (
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1052,7 +1037,7 @@ descriptionConfig
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1061,12 +1046,11 @@ not
 change
 service
 config
+.
 (
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1089,8 +1073,6 @@ was
 updated
 successfully
 .
-\
-n
 "
 )
 )
@@ -1150,7 +1132,7 @@ used
 .
 *
 param
-wasFixNeeded
+servicePathWasWrong
 Out
 parameter
 set
@@ -1296,8 +1278,6 @@ path
 is
 correct
 .
-\
-n
 "
 )
 )
@@ -1310,6 +1290,19 @@ return
 TRUE
 ;
 }
+/
+/
+This
+is
+a
+recoverable
+situation
+so
+not
+logging
+as
+a
+warning
 LOG
 (
 (
@@ -1321,8 +1314,6 @@ is
 NOT
 correct
 .
-\
-n
 "
 )
 )
@@ -1368,7 +1359,7 @@ fixedPath
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1383,8 +1374,6 @@ spec
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1411,7 +1400,7 @@ exe
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1426,8 +1415,6 @@ spec
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1463,7 +1450,7 @@ NULL
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1477,8 +1464,6 @@ path
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1502,8 +1487,6 @@ to
 %
 ls
 .
-\
-n
 "
 fixedPath
 )
@@ -1603,7 +1586,7 @@ if
 schSCManager
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1617,8 +1600,6 @@ manager
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1660,7 +1641,7 @@ newServiceBinaryPath
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1681,8 +1662,6 @@ service
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1747,7 +1726,7 @@ couldn
 t
 open
 it
-LOG
+LOG_WARN
 (
 (
 "
@@ -1760,8 +1739,6 @@ service
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1838,7 +1815,7 @@ schService
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1875,8 +1852,6 @@ happen
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1918,7 +1893,7 @@ GetLastError
 ERROR_INSUFFICIENT_BUFFER
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -1936,8 +1911,6 @@ config
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -2005,7 +1978,7 @@ bytesNeeded
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -2023,8 +1996,6 @@ config
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -2093,7 +2064,7 @@ servicePathWasWrong
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -2112,8 +2083,6 @@ happen
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -2243,8 +2212,6 @@ action
 :
 %
 d
-\
-n
 "
 action
 )
@@ -2386,7 +2353,7 @@ newD
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -2398,8 +2365,6 @@ number
 from
 new
 path
-\
-n
 "
 )
 )
@@ -2601,8 +2566,6 @@ is
 ls
 \
 "
-\
-n
 "
 newServiceBinaryPath
 )
@@ -2680,7 +2643,7 @@ FALSE
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -2704,10 +2667,10 @@ it
 does
 the
 next
+"
+"
 upgrade
 will
-"
-"
 fix
 it
 the
@@ -2716,16 +2679,18 @@ is
 not
 a
 critical
+"
+"
 component
 that
 needs
 to
 be
-"
-"
 installed
 for
 upgrades
+"
+"
 to
 work
 .
@@ -2733,8 +2698,6 @@ work
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -2946,12 +2909,10 @@ in
 this
 condition
 .
-LOG
+LOG_WARN
 (
 (
 "
-ERROR
-:
 The
 new
 service
@@ -2971,8 +2932,6 @@ not
 be
 upgraded
 .
-\
-n
 "
 )
 )
@@ -3008,8 +2967,6 @@ of
 the
 way
 .
-\
-n
 "
 )
 )
@@ -3051,8 +3008,6 @@ deleted
 %
 ls
 .
-\
-n
 "
 oldServiceBinaryTempPath
 )
@@ -3094,12 +3049,10 @@ or
 on
 uninstall
 .
-LOG
+LOG_WARN
 (
 (
 "
-WARNING
-:
 The
 old
 temp
@@ -3109,8 +3062,6 @@ was
 not
 deleted
 .
-\
-n
 "
 )
 )
@@ -3134,12 +3085,10 @@ in
 this
 condition
 .
-LOG
+LOG_WARN
 (
 (
 "
-ERROR
-:
 Could
 not
 move
@@ -3178,8 +3127,6 @@ upgraded
 %
 d
 )
-\
-n
 "
 serviceConfig
 .
@@ -3219,12 +3166,10 @@ in
 this
 condition
 .
-LOG
+LOG_WARN
 (
 (
 "
-ERROR
-:
 Service
 binary
 path
@@ -3245,8 +3190,6 @@ should
 never
 happen
 .
-\
-n
 "
 )
 )
@@ -3271,8 +3214,6 @@ was
 copied
 in
 .
-\
-n
 "
 )
 )
@@ -3351,8 +3292,6 @@ reboot
 %
 ls
 .
-\
-n
 "
 newServiceBinaryPath
 )
@@ -3361,7 +3300,7 @@ newServiceBinaryPath
 }
 else
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -3377,8 +3316,6 @@ failed
 %
 ls
 .
-\
-n
 "
 newServiceBinaryPath
 )
@@ -3566,7 +3503,7 @@ if
 schService
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -3600,8 +3537,6 @@ elevated
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -3622,7 +3557,7 @@ schService
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -3661,8 +3596,6 @@ happen
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -3736,7 +3669,7 @@ if
 schSCManager
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -3750,8 +3683,6 @@ manager
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -3785,7 +3716,7 @@ if
 schService
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -3798,8 +3729,6 @@ service
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -3821,8 +3750,6 @@ request
 .
 .
 .
-\
-n
 "
 )
 )
@@ -3855,7 +3782,7 @@ GetLastError
 ERROR_SERVICE_NOT_ACTIVE
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -3863,11 +3790,11 @@ Error
 sending
 stop
 request
-:
+.
+(
 %
 d
-\
-n
+)
 "
 GetLastError
 (
@@ -3899,8 +3826,6 @@ stop
 .
 .
 .
-\
-n
 "
 )
 )
@@ -3968,8 +3893,6 @@ state
 :
 %
 d
-\
-n
 "
 lastState
 )
@@ -4038,7 +3961,7 @@ if
 schSCManager
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -4052,8 +3975,6 @@ manager
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -4087,7 +4008,7 @@ if
 schService
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -4100,8 +4021,6 @@ service
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -4478,12 +4397,10 @@ GetLastError
 ERROR_INSUFFICIENT_BUFFER
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 query
@@ -4496,8 +4413,6 @@ size
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -4533,12 +4448,10 @@ if
 psd
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 allocate
@@ -4549,8 +4462,6 @@ descriptor
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -4584,12 +4495,10 @@ needed
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 allocate
@@ -4600,8 +4509,6 @@ descriptor
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -4657,12 +4564,10 @@ bDaclDefaulted
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 obtain
@@ -4672,8 +4577,6 @@ DACL
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -4709,7 +4612,7 @@ if
 sid
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -4723,8 +4626,6 @@ memory
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -4758,7 +4659,7 @@ GetLastError
 (
 )
 ;
-LOG
+LOG_WARN
 (
 (
 "
@@ -4773,8 +4674,6 @@ SID
 %
 d
 )
-\
-n
 "
 lastError
 )
@@ -4883,12 +4782,10 @@ accountType
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 lookup
@@ -4902,8 +4799,6 @@ Users
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -5001,12 +4896,10 @@ ERROR_SUCCESS
 lastError
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 set
@@ -5018,8 +4911,6 @@ ACL
 %
 d
 )
-\
-n
 "
 lastError
 )
@@ -5051,12 +4942,10 @@ SECURITY_DESCRIPTOR_REVISION
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 initialize
@@ -5067,8 +4956,6 @@ descriptor
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -5106,12 +4993,10 @@ FALSE
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 set
@@ -5123,8 +5008,6 @@ DACL
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -5162,12 +5045,10 @@ sd
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
-Warning
-:
 Could
 not
 set
@@ -5178,8 +5059,6 @@ security
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -5212,8 +5091,6 @@ on
 the
 service
 .
-\
-n
 "
 )
 )

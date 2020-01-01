@@ -2362,10 +2362,6 @@ path
 :
 "
 LOG_S
-"
-\
-n
-"
 line
 )
 )
@@ -2415,10 +2411,6 @@ relative
 :
 "
 LOG_S
-"
-\
-n
-"
 path
 )
 )
@@ -2486,10 +2478,6 @@ relative
 :
 "
 LOG_S
-"
-\
-n
-"
 path
 )
 )
@@ -2557,10 +2545,6 @@ slash
 :
 "
 LOG_S
-"
-\
-n
-"
 path
 )
 )
@@ -2662,10 +2646,6 @@ contain
 :
 "
 LOG_S
-"
-\
-n
-"
 path
 )
 )
@@ -2917,8 +2897,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 rv
@@ -3069,8 +3047,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 rv
@@ -3238,8 +3214,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 rv
@@ -3676,8 +3650,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 errno
@@ -3798,8 +3770,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 errno
@@ -3852,8 +3822,6 @@ err
 :
 %
 d
-\
-n
 "
 dest
 target
@@ -3947,8 +3915,6 @@ lasterr
 :
 %
 x
-\
-n
 "
 path
 dest
@@ -4006,8 +3972,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 errno
@@ -4085,8 +4049,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 errno
@@ -4141,8 +4103,6 @@ err
 :
 %
 d
-\
-n
 "
 dest
 errno
@@ -4226,8 +4186,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 errno
@@ -4300,8 +4258,6 @@ err
 :
 %
 d
-\
-n
 "
 dest
 errno
@@ -4550,8 +4506,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 rv
@@ -4651,8 +4605,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 rv
@@ -4708,8 +4660,6 @@ err
 :
 %
 d
-\
-n
 "
 path
 rv
@@ -4978,8 +4928,6 @@ err
 :
 %
 d
-\
-n
 "
 spath
 errno
@@ -5035,8 +4983,6 @@ err
 :
 %
 d
-\
-n
 "
 spath
 errno
@@ -5060,8 +5006,6 @@ to
 rename
 the
 directory
-\
-n
 "
 )
 )
@@ -5106,10 +5050,6 @@ removed
 :
 "
 LOG_S
-"
-\
-n
-"
 dpath
 )
 )
@@ -5159,8 +5099,6 @@ err
 :
 %
 d
-\
-n
 "
 spath
 dpath
@@ -5407,10 +5345,6 @@ exist
 :
 "
 LOG_S
-"
-\
-n
-"
 backup
 )
 )
@@ -5542,10 +5476,6 @@ remove
 :
 "
 LOG_S
-"
-\
-n
-"
 backup
 )
 )
@@ -5594,10 +5524,6 @@ dst
 :
 "
 LOG_S
-"
-\
-n
-"
 backup
 path
 )
@@ -5705,10 +5631,6 @@ reboot
 :
 "
 LOG_S
-"
-\
-n
-"
 path
 )
 )
@@ -5736,10 +5658,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 path
 )
 )
@@ -6221,10 +6139,6 @@ PREPARE
 REMOVEFILE
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -6279,8 +6193,6 @@ err
 :
 %
 d
-\
-n
 "
 mFile
 errno
@@ -6315,10 +6227,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -6411,8 +6319,6 @@ failed
 :
 %
 d
-\
-n
 "
 errno
 )
@@ -6449,10 +6355,6 @@ EXECUTE
 REMOVEFILE
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -6514,8 +6416,6 @@ not
 exist
 ;
 skipping
-\
-n
 "
 )
 )
@@ -6563,8 +6463,6 @@ failed
 :
 %
 d
-\
-n
 "
 rv
 )
@@ -6602,10 +6500,6 @@ FINISH
 REMOVEFILE
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -6788,8 +6682,6 @@ REMOVEDIR
 LOG_S
 "
 /
-\
-n
 "
 mDir
 )
@@ -6843,8 +6735,6 @@ err
 :
 %
 d
-\
-n
 "
 mDir
 errno
@@ -6879,10 +6769,6 @@ directory
 :
 "
 LOG_S
-"
-\
-n
-"
 mDir
 )
 )
@@ -6915,8 +6801,6 @@ failed
 d
 %
 d
-\
-n
 "
 rv
 errno
@@ -6956,8 +6840,6 @@ REMOVEDIR
 LOG_S
 "
 /
-\
-n
 "
 mDir
 )
@@ -7014,8 +6896,6 @@ longer
 exists
 ;
 skipping
-\
-n
 "
 )
 )
@@ -7061,8 +6941,6 @@ REMOVEDIR
 LOG_S
 "
 /
-\
-n
 "
 mDir
 )
@@ -7119,8 +6997,6 @@ longer
 exists
 ;
 skipping
-\
-n
 "
 )
 )
@@ -7167,8 +7043,6 @@ err
 :
 %
 d
-\
-n
 "
 mDir
 rv
@@ -7297,10 +7171,6 @@ PREPARE
 ADD
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -7325,10 +7195,6 @@ EXECUTE
 ADD
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -7438,8 +7304,6 @@ utf8
 :
 %
 d
-\
-n
 "
 GetLastError
 (
@@ -7508,10 +7372,6 @@ FINISH
 ADD
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -7782,8 +7642,6 @@ err
 :
 %
 d
-\
-n
 "
 mFile
 errno
@@ -7827,8 +7685,6 @@ expected
 size
 %
 d
-\
-n
 "
 uint32_t
 (
@@ -7929,10 +7785,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -8011,8 +7863,6 @@ expected
 crc
 %
 d
-\
-n
 "
 crc
 header
@@ -8144,10 +7994,6 @@ PREPARE
 PATCH
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -8264,8 +8110,6 @@ utf8
 :
 %
 d
-\
-n
 "
 GetLastError
 (
@@ -8328,10 +8172,6 @@ EXECUTE
 PATCH
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -8499,8 +8339,6 @@ err
 :
 %
 d
-\
-n
 "
 mFile
 errno
@@ -8534,8 +8372,6 @@ LOG
 "
 LoadSourceFile
 failed
-\
-n
 "
 )
 )
@@ -8612,8 +8448,6 @@ err
 :
 %
 d
-\
-n
 "
 mFile
 errno
@@ -9043,8 +8877,6 @@ err
 :
 %
 d
-\
-n
 "
 mFile
 errno
@@ -9176,10 +9008,6 @@ FINISH
 PATCH
 "
 LOG_S
-"
-\
-n
-"
 mFile
 )
 )
@@ -9886,8 +9714,6 @@ Warning
 :
 chdir
 failed
-\
-n
 "
 )
 )
@@ -11432,8 +11258,6 @@ tmpDir
 LOG_S
 "
 )
-\
-n
 "
 sourceDir
 tmpDir
@@ -11577,8 +11401,6 @@ err
 :
 %
 d
-\
-n
 "
 retries
 sourceDir
@@ -11624,8 +11446,6 @@ err
 :
 %
 d
-\
-n
 "
 rv
 )
@@ -11654,8 +11474,6 @@ sourceDir
 LOG_S
 "
 )
-\
-n
 "
 newDir
 sourceDir
@@ -11689,8 +11507,6 @@ err
 :
 %
 d
-\
-n
 "
 rv
 )
@@ -11708,8 +11524,6 @@ tmpDir
 back
 to
 sourceDir
-\
-n
 "
 )
 )
@@ -11748,8 +11562,6 @@ err
 :
 %
 d
-\
-n
 "
 rv2
 )
@@ -11768,8 +11580,6 @@ Now
 remove
 the
 tmpDir
-\
-n
 "
 )
 )
@@ -11797,8 +11607,6 @@ err
 :
 %
 d
-\
-n
 "
 rv
 )
@@ -11831,10 +11639,6 @@ reboot
 :
 "
 LOG_S
-"
-\
-n
-"
 tmpDir
 )
 )
@@ -11857,10 +11661,6 @@ directory
 :
 "
 LOG_S
-"
-\
-n
-"
 tmpDir
 )
 )
@@ -12128,8 +11928,6 @@ err
 :
 %
 d
-\
-n
 "
 childSrcPath
 childDstPath
@@ -12169,8 +11967,6 @@ err
 :
 %
 d
-\
-n
 "
 updatedAppDir
 errno
@@ -12191,8 +11987,6 @@ Moving
 the
 precomplete
 file
-\
-n
 "
 )
 )
@@ -12328,8 +12122,6 @@ moving
 precompleteSrc
 to
 precompleteTmp
-\
-n
 "
 )
 )
@@ -12354,8 +12146,6 @@ err
 :
 %
 d
-\
-n
 "
 rv
 )
@@ -12370,8 +12160,6 @@ moving
 precompleteNew
 to
 precompleteSrc
-\
-n
 "
 )
 )
@@ -12397,8 +12185,6 @@ err
 :
 %
 d
-\
-n
 "
 rv2
 )
@@ -12501,8 +12287,6 @@ trying
 to
 recover
 precompleteSrc
-\
-n
 "
 )
 )
@@ -12527,8 +12311,6 @@ err
 :
 %
 d
-\
-n
 "
 rv
 )
@@ -12544,8 +12326,6 @@ moving
 the
 precomplete
 file
-\
-n
 "
 )
 )
@@ -12607,8 +12387,6 @@ LOG
 "
 calling
 QuitProgressUI
-\
-n
 "
 )
 )
@@ -13416,8 +13194,6 @@ failed
 :
 %
 d
-\
-n
 "
 rv
 )
@@ -13532,8 +13308,6 @@ on
 application
 bundle
 .
-\
-n
 "
 )
 )
@@ -13570,8 +13344,6 @@ on
 application
 bundle
 .
-\
-n
 "
 )
 )
@@ -13584,8 +13356,6 @@ LOG
 (
 "
 succeeded
-\
-n
 "
 )
 )
@@ -13603,8 +13373,6 @@ LOG
 "
 calling
 QuitProgressUI
-\
-n
 "
 )
 )
@@ -14638,8 +14406,6 @@ to
 '
 applying
 '
-\
-n
 "
 )
 )
@@ -14661,8 +14427,6 @@ Performing
 a
 background
 update
-\
-n
 "
 )
 )
@@ -14682,8 +14446,6 @@ Performing
 a
 replace
 request
-\
-n
 "
 )
 )
@@ -15453,8 +15215,6 @@ in
 progress
 !
 Exiting
-\
-n
 "
 )
 )
@@ -15754,8 +15514,6 @@ lock
 file
 !
 Exiting
-\
-n
 "
 )
 )
@@ -17447,10 +17205,6 @@ SOURCE
 DIRECTORY
 "
 LOG_S
-"
-\
-n
-"
 gSourcePath
 )
 )
@@ -17463,10 +17217,6 @@ DESTINATION
 DIRECTORY
 "
 LOG_S
-"
-\
-n
-"
 gDestinationPath
 )
 )
@@ -17707,10 +17457,6 @@ dir
 :
 "
 LOG_S
-"
-\
-n
-"
 gDestinationPath
 )
 )
@@ -18070,10 +17816,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 targetPath
 )
 )
@@ -18497,8 +18239,6 @@ error
 :
 %
 d
-\
-n
 "
 retries
 targetPath
@@ -18583,10 +18323,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 argv
 [
 callbackIndex
@@ -18905,8 +18641,6 @@ err
 :
 %
 d
-\
-n
 "
 DELETE_DIR
 errno
@@ -19077,10 +18811,6 @@ reboot
 :
 "
 LOG_S
-"
-\
-n
-"
 DELETE_DIR
 )
 )
@@ -19108,10 +18838,6 @@ directory
 :
 "
 LOG_S
-"
-\
-n
-"
 DELETE_DIR
 )
 )
@@ -19316,8 +19042,6 @@ not
 be
 launched
 .
-\
-n
 "
 )
 )
@@ -19597,8 +19321,6 @@ LOG
 empty
 action
 list
-\
-n
 "
 )
 )
@@ -19750,8 +19472,6 @@ LOG
 #
 execution
 failed
-\
-n
 "
 )
 )
@@ -20124,8 +19844,6 @@ err
 :
 %
 d
-\
-n
 "
 foundpath
 rv
@@ -20209,8 +19927,6 @@ err
 :
 %
 d
-\
-n
 "
 quotedpath
 rv
@@ -20319,8 +20035,6 @@ err
 :
 %
 d
-\
-n
 "
 quotedpath
 rv
@@ -20500,8 +20214,6 @@ err
 :
 %
 d
-\
-n
 "
 searchpath
 errno
@@ -20701,8 +20413,6 @@ err
 :
 %
 d
-\
-n
 "
 foundpath
 rv
@@ -20798,8 +20508,6 @@ err
 :
 %
 d
-\
-n
 "
 quotedpath
 rv
@@ -20900,8 +20608,6 @@ err
 :
 %
 d
-\
-n
 "
 quotedpath
 rv
@@ -21160,10 +20866,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 ftsdirEntry
 -
 >
@@ -21476,8 +21178,6 @@ err
 :
 %
 d
-\
-n
 "
 ftsdirEntry
 -
@@ -21513,10 +21213,6 @@ FT_DC
 :
 "
 LOG_S
-"
-\
-n
-"
 ftsdirEntry
 -
 >
@@ -21618,10 +21314,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 manifest
 )
 )
@@ -21669,10 +21361,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 manifest
 )
 )
@@ -21766,10 +21454,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 manifest
 )
 )
@@ -21878,8 +21562,6 @@ utf16le
 :
 %
 d
-\
-n
 "
 GetLastError
 (
@@ -21966,8 +21648,6 @@ precomplete
 \
 "
 manifest
-\
-n
 "
 )
 )
@@ -22061,8 +21741,6 @@ not
 found
 in
 manifest
-\
-n
 "
 )
 )
@@ -22178,10 +21856,6 @@ token
 :
 "
 LOG_S
-"
-\
-n
-"
 token
 )
 )
@@ -22322,8 +21996,6 @@ error
 extracting
 manifest
 file
-\
-n
 "
 )
 )
@@ -22363,10 +22035,6 @@ file
 :
 "
 LOG_S
-"
-\
-n
-"
 manifest
 )
 )
@@ -22451,8 +22119,6 @@ not
 found
 in
 manifest
-\
-n
 "
 )
 )
@@ -22501,10 +22167,6 @@ UPDATE
 TYPE
 "
 LOG_S
-"
-\
-n
-"
 type
 )
 )
@@ -22862,10 +22524,6 @@ token
 :
 "
 LOG_S
-"
-\
-n
-"
 token
 )
 )

@@ -915,7 +915,7 @@ obtainedToken
 )
 )
 {
-LOG
+LOG_WARN
 (
 (
 "
@@ -936,8 +936,6 @@ changed
 %
 d
 )
-\
-n
 "
 GetLastError
 (
@@ -1000,8 +998,6 @@ privilege
 %
 s
 .
-\
-n
 "
 unneededPrivs
 [
@@ -1031,8 +1027,6 @@ s
 %
 d
 )
-\
-n
 "
 unneededPrivs
 [
