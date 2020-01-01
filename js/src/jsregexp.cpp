@@ -15794,7 +15794,8 @@ insLoad
 LIR_ldus2ui
 pos
 0
-ACC_READONLY
+ACCSET_OTHER
+LOAD_CONST
 )
 ;
 /
@@ -17024,7 +17025,7 @@ insLoad
 LIR_ldi
 pos
 0
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 LIns
@@ -17718,7 +17719,8 @@ insLoad
 LIR_ldus2ui
 pos
 0
-ACC_READONLY
+ACCSET_OTHER
+LOAD_CONST
 )
 ;
 if
@@ -17822,7 +17824,8 @@ byteIndex
 int
 )
 0
-ACC_READONLY
+ACCSET_OTHER
+LOAD_CONST
 )
 ;
 LIns
@@ -18037,7 +18040,8 @@ insLoad
 LIR_lduc2ui
 addr
 0
-ACC_READONLY
+ACCSET_OTHER
+LOAD_CONST
 )
 ;
 }
@@ -18120,7 +18124,8 @@ insLoad
 LIR_ldus2ui
 pos
 0
-ACC_READONLY
+ACCSET_OTHER
+LOAD_CONST
 )
 ;
 switch
@@ -20205,7 +20210,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 LIns
@@ -20265,7 +20270,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 /
@@ -20303,7 +20308,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 "
 pos
@@ -20370,7 +20375,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 /
@@ -20417,7 +20422,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 /
@@ -20458,7 +20463,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 "
 pos
@@ -20870,7 +20875,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 /
@@ -20918,7 +20923,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 "
 pos
@@ -21060,7 +21065,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 lir
@@ -21693,7 +21698,7 @@ offsetof
 REGlobalData
 stateStack
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 lir
@@ -21990,7 +21995,7 @@ offsetof
 REGlobalData
 skipped
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 ;
 return
@@ -22402,6 +22407,7 @@ tempAlloc
 LInsPrinter
 (
 tempAlloc
+TM_NUM_USED_ACCS
 )
 ;
 #
@@ -22915,7 +22921,7 @@ offsetof
 REGlobalData
 skipped
 )
-ACC_OTHER
+ACCSET_OTHER
 )
 "
 start
@@ -39638,7 +39644,7 @@ CONTEXT
 OBJECT
 OBJECT
 0
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 #
 endif
