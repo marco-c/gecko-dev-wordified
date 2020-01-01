@@ -2395,7 +2395,6 @@ PROPERTY_CACHE_HASH_ATOM
 (
 atom
 obj
-pobj
 )
 ;
 PCMETER
@@ -2894,7 +2893,6 @@ PROPERTY_CACHE_HASH_ATOM
 (
 atom
 obj
-NULL
 )
 ]
 ;
@@ -30060,7 +30058,7 @@ obj
 Open
 -
 code
-JS_PROPERTY_CACHE_TEST
+PROPERTY_CACHE_TEST
 specializing
 for
 two
