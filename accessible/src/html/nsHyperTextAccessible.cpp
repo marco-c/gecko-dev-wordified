@@ -10135,6 +10135,15 @@ aCaretOffset
 -
 1
 ;
+if
+(
+IsDefunct
+(
+)
+)
+return
+NS_ERROR_FAILURE
+;
 /
 /
 Not
