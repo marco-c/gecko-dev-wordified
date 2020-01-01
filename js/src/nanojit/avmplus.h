@@ -951,6 +951,9 @@ typeMap
 ExitType
 exitType
 ;
+uint32
+this_adj
+;
 #
 if
 defined
