@@ -587,7 +587,10 @@ true
 ;
 prepareTest
 (
+runAfterPluginBindingAttached
+(
 test1
+)
 gTestRoot
 +
 "
