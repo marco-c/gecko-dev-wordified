@@ -326,13 +326,11 @@ space
 for
 those
 bits
-PR_STATIC_ASSERT
+ASSERT_NODE_FLAGS_SPACE
 (
 NODE_TYPE_SPECIFIC_BITS_OFFSET
 +
-1
-<
-32
+2
 )
 ;
 #

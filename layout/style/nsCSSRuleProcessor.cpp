@@ -12228,9 +12228,8 @@ style
 aElement
 -
 >
-SetFlags
+SetHasRelevantHoverRules
 (
-NODE_HAS_RELEVANT_HOVER_RULES
 )
 ;
 }
@@ -15006,7 +15005,7 @@ have
 the
 /
 /
-NODE_HAS_RELEVANT_HOVER_RULES
+NodeHasRelevantHoverRules
 flag
 :
 such
@@ -15039,7 +15038,7 @@ didn
 t
 set
 the
-NODE_HAS_RELEVANT_HOVER_RULES
+NodeHasRelevantHoverRules
 flag
 )
 so
@@ -15104,9 +15103,8 @@ aData
 mElement
 -
 >
-HasFlag
+HasRelevantHoverRules
 (
-NODE_HAS_RELEVANT_HOVER_RULES
 )
 |
 |
