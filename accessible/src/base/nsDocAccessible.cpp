@@ -1070,6 +1070,9 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode
@@ -1405,6 +1408,9 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode
@@ -2003,6 +2009,9 @@ nsIDocShellTreeItem
 >
 treeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode
@@ -3356,6 +3365,9 @@ nsIDocShellTreeItem
 >
 treeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode
@@ -4721,6 +4733,9 @@ nsIDocShellTreeItem
 >
 treeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode
@@ -11487,6 +11502,9 @@ nsIDocShellTreeItem
 >
 focusedTreeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 gLastFocusedNode
