@@ -3304,6 +3304,13 @@ GetInputContext
 (
 )
 ;
+virtual
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+MOZ_OVERRIDE
+;
 NS_IMETHOD
 GetToggledKeyState
 (
