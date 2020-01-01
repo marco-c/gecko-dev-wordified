@@ -3908,10 +3908,6 @@ cachedNativeIterators
 )
 )
 ;
-lastNativeIterator
-=
-NULL
-;
 dtoaCache
 .
 s
