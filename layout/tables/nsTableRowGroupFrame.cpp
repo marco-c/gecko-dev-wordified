@@ -11229,6 +11229,16 @@ return
 NS_OK
 ;
 }
+PRInt32
+colCount
+=
+table
+-
+>
+GetColCount
+(
+)
+;
 for
 (
 PRInt32
@@ -11238,8 +11248,7 @@ i
 ;
 i
 <
-*
-aNumFramesOnLine
+colCount
 ;
 i
 +
