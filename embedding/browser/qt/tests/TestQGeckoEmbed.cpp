@@ -224,8 +224,8 @@ mainWindow
 >
 resize
 (
-700
-500
+400
+600
 )
 ;
 mainWindow
