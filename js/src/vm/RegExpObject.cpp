@@ -3304,6 +3304,10 @@ init
 )
 )
 {
+if
+(
+cx
+)
 js_ReportOutOfMemory
 (
 cx

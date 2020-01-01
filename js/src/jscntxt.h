@@ -263,7 +263,7 @@ include
 "
 vm
 /
-Stack
+DateTime
 .
 h
 "
@@ -273,6 +273,15 @@ include
 vm
 /
 SPSProfiler
+.
+h
+"
+#
+include
+"
+vm
+/
+Stack
 .
 h
 "
@@ -5565,6 +5574,12 @@ dtoaState
 js
 :
 :
+DateTimeInfo
+dateTimeInfo
+;
+js
+:
+:
 ConservativeGCData
 conservativeGC
 ;
@@ -9230,9 +9245,6 @@ entering
 }
 #
 endif
-DSTOffsetCache
-dstOffsetCache
-;
 /
 *
 List
