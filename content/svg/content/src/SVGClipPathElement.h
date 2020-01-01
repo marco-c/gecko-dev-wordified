@@ -229,7 +229,7 @@ MOZ_OVERRIDE
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 ClipPathUnits
 (

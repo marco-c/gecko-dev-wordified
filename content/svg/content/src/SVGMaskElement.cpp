@@ -590,7 +590,7 @@ SVGMaskElement
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGMaskElement
 :
@@ -613,7 +613,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGMaskElement
 :

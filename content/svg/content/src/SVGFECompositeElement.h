@@ -390,7 +390,7 @@ In2
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 Operator
 (

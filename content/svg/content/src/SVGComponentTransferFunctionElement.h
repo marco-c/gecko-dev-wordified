@@ -250,7 +250,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 Type
 (

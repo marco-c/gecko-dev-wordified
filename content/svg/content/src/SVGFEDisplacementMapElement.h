@@ -370,7 +370,7 @@ Scale
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 XChannelSelector
 (
@@ -378,7 +378,7 @@ XChannelSelector
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 YChannelSelector
 (

@@ -490,7 +490,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGFEBlendElement
 :

@@ -311,7 +311,7 @@ MOZ_OVERRIDE
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 MaskUnits
 (
@@ -319,7 +319,7 @@ MaskUnits
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 MaskContentUnits
 (

@@ -688,7 +688,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGFilterElement
 :
@@ -711,7 +711,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGFilterElement
 :

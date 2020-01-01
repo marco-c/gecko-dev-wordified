@@ -632,7 +632,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGTextPathElement
 :
@@ -655,7 +655,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGTextPathElement
 :

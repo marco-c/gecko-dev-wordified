@@ -348,7 +348,7 @@ PreserveAspectRatio
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 PatternUnits
 (
@@ -356,7 +356,7 @@ PatternUnits
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 PatternContentUnits
 (

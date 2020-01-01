@@ -368,7 +368,7 @@ In1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 Operator
 (
