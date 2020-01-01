@@ -520,6 +520,7 @@ function
 PlacesItem_decrypt
 (
 passphrase
+keyUri
 )
 {
 /
