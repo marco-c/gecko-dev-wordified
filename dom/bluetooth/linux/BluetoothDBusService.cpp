@@ -14069,17 +14069,9 @@ aServiceUUID
 aManager
 )
 ;
-nsresult
-rv
-=
 NS_DispatchToMainThread
 (
 r
-)
-;
-NS_ENSURE_SUCCESS_VOID
-(
-rv
 )
 ;
 #
