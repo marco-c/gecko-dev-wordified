@@ -20807,7 +20807,7 @@ JS_ASSERT_IF
 (
 entryp
 !
-JS_EXECUTING_TRACE
+JS_ON_TRACE
 (
 cx
 )
