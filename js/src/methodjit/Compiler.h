@@ -1977,6 +1977,11 @@ leaveBlock
 (
 )
 ;
+void
+jsop_eval
+(
+)
+;
 /
 *
 Fast

@@ -11893,10 +11893,6 @@ bool
 checkForCycles
 )
 ;
-}
-namespace
-js
-{
 extern
 JSString
 *
@@ -11908,6 +11904,15 @@ cx
 JSObject
 *
 obj
+)
+;
+extern
+bool
+IsBuiltinEvalFunction
+(
+JSFunction
+*
+fun
 )
 ;
 }
