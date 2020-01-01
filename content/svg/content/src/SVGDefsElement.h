@@ -172,10 +172,10 @@ WrapNode
 (
 JSContext
 *
-cx
+aCx
 JSObject
 *
-scope
+aScope
 )
 MOZ_OVERRIDE
 ;
