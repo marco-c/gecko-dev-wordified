@@ -1598,6 +1598,7 @@ row
 value
 )
 )
+{
 restoreSingleTab
 (
 row
@@ -1608,6 +1609,13 @@ aEvent
 shiftKey
 )
 ;
+aEvent
+.
+stopPropagation
+(
+)
+;
+}
 else
 if
 (
