@@ -14476,7 +14476,6 @@ AddGlyphRun
 (
 font
 utf16Offset
-PR_TRUE
 )
 ;
 if
@@ -14661,13 +14660,6 @@ PR_FALSE
 ;
 }
 }
-aTextRun
--
->
-SortGlyphRuns
-(
-)
-;
 out
 :
 if
