@@ -1642,14 +1642,6 @@ sOnblur_id
 ;
 static
 jsval
-sOnonline_id
-;
-static
-jsval
-sOnoffline_id
-;
-static
-jsval
 sOnsubmit_id
 ;
 static
