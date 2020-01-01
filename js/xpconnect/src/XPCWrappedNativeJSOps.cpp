@@ -5641,6 +5641,10 @@ getElement
 nsnull
 /
 /
+getElementIfPresent
+nsnull
+/
+/
 getSpecial
 nsnull
 /
