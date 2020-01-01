@@ -563,9 +563,11 @@ format
 ;
 private
 :
-FILE
-*
-fd_
+std
+:
+:
+string
+fname_
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
