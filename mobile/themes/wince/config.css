@@ -425,6 +425,12 @@ richlistitem
 .
 preftitle
 {
+pointer
+-
+events
+:
+none
+;
 min
 -
 width
@@ -484,6 +490,12 @@ min
 width
 :
 100px
+;
+pointer
+-
+events
+:
+none
 ;
 -
 moz
