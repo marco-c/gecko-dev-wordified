@@ -3923,6 +3923,16 @@ Ion
 *
 /
 #
+elif
+JS_BITS_PER_WORD
+=
+=
+32
+void
+*
+padding_
+;
+#
 endif
 private
 :
@@ -5738,6 +5748,8 @@ padding_
 can
 be
 removed
+or
+added
 .
 *
 /
