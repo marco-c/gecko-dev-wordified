@@ -132,6 +132,13 @@ AudioParam
 .
 h
 "
+#
+include
+"
+PlayingRefChangeHandler
+.
+h
+"
 namespace
 mozilla
 {
@@ -209,6 +216,13 @@ aNode
 friend
 class
 DelayNodeEngine
+;
+friend
+class
+PlayingRefChangeHandler
+<
+DelayNode
+>
 ;
 private
 :
