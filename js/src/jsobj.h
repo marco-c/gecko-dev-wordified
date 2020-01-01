@@ -9696,10 +9696,7 @@ instead
 *
 /
 extern
-JS_FRIEND_API
-(
 bool
-)
 js_GetClassPrototype
 (
 JSContext
