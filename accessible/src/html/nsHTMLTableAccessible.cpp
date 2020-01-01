@@ -541,13 +541,6 @@ h
 #
 include
 "
-nsIPersistentProperties2
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

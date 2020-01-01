@@ -652,11 +652,6 @@ void
 ;
 }
 ;
-typedef
-class
-nsHTMLRadioButtonAccessible
-nsHTMLRadioButtonAccessibleWrap
-;
 #
 endif
 /

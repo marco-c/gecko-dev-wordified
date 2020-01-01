@@ -475,13 +475,6 @@ h
 #
 include
 "
-nsHTMLFormControlAccessibleWrap
-.
-h
-"
-#
-include
-"
 nsHTMLImageAccessible
 .
 h
@@ -4321,7 +4314,7 @@ rv
 _retval
 =
 new
-nsHTMLRadioButtonAccessibleWrap
+nsHTMLRadioButtonAccessible
 (
 node
 weakShell

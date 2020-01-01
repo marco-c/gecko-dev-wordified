@@ -2568,14 +2568,6 @@ void
 aOutAccessible
 )
 ;
-NS_IMETHOD
-GetDescription
-(
-nsAString
-&
-aDescription
-)
-;
 /
 /
 NT4

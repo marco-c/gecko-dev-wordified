@@ -492,13 +492,6 @@ nsIPlaintextEditor
 .
 h
 "
-#
-include
-"
-nsIPersistentProperties2
-.
-h
-"
 /
 /
 nsXFormsAccessibleBase

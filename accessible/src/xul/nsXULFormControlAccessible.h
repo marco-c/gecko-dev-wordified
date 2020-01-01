@@ -836,7 +836,16 @@ GetState
 (
 PRUint32
 *
-_retval
+aState
+)
+;
+NS_IMETHOD
+GetAttributes
+(
+nsIPersistentProperties
+*
+*
+aAttributes
 )
 ;
 }

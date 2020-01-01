@@ -1128,6 +1128,15 @@ nsAString
 aName
 )
 ;
+NS_IMETHOD
+GetAttributes
+(
+nsIPersistentProperties
+*
+*
+aAttributes
+)
+;
 nsIFrame
 *
 GetBoundsFrame

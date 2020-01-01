@@ -692,6 +692,15 @@ _retval
 )
 ;
 NS_IMETHOD
+GetAttributes
+(
+nsIPersistentProperties
+*
+*
+aAttributes
+)
+;
+NS_IMETHOD
 GetAllowsAnonChildAccessibles
 (
 PRBool
