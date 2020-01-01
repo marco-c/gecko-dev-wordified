@@ -624,6 +624,13 @@ collapsed
 )
 WIDGET_ATOM
 (
+comboboxControlFrame
+"
+ComboboxControlFrame
+"
+)
+WIDGET_ATOM
+(
 command
 "
 command
