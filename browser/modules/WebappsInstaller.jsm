@@ -3779,7 +3779,7 @@ function
 ProfileDir
 }
 /
-config
+webapp
 .
 json
 let
@@ -3787,12 +3787,7 @@ json
 =
 {
 "
-app
-"
-:
-{
-"
-profile
+registryDir
 "
 :
 this
@@ -3800,6 +3795,11 @@ this
 profileFolder
 .
 path
+"
+app
+"
+:
+{
 "
 origin
 "
