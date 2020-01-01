@@ -4689,7 +4689,7 @@ area
 mArea
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4707,7 +4707,7 @@ area
 mArea
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -5341,7 +5341,7 @@ changes
 aArea
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -5357,7 +5357,7 @@ false
 aArea
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
