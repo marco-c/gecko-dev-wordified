@@ -36163,7 +36163,7 @@ widget
 =
 widget
 ;
-nsRect
+nsIntRect
 widgetRect
 (
 0
