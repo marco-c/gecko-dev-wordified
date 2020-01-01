@@ -966,7 +966,12 @@ TakeFocus
 )
 ;
 return
-NS_OK
+nsHyperTextAccessibleWrap
+:
+:
+TakeFocus
+(
+)
 ;
 }
 NS_IMETHODIMP
