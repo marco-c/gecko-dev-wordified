@@ -845,6 +845,10 @@ CloseHandle
 sEventHandle
 )
 ;
+sEventHandle
+=
+NULL
+;
 }
 /
 /

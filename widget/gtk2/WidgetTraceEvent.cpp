@@ -678,6 +678,17 @@ SignalTracerThread
 (
 )
 {
+if
+(
+!
+sMutex
+|
+|
+!
+sCondVar
+)
+return
+;
 MutexAutoLock
 lock
 (
