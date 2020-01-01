@@ -3514,7 +3514,7 @@ Math
 .
 max
 (
-90
+110
 rect
 .
 width
@@ -3528,7 +3528,7 @@ Math
 .
 max
 (
-90
+125
 rect
 .
 height
@@ -9677,7 +9677,7 @@ resizeOptions
 .
 minWidth
 =
-90
+110
 ;
 this
 .
@@ -9685,7 +9685,7 @@ resizeOptions
 .
 minHeight
 =
-90
+125
 ;
 if
 (
