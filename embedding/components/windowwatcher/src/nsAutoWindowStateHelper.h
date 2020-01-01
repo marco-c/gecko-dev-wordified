@@ -156,7 +156,7 @@ mDefaultEnabled
 protected
 :
 bool
-DispatchCustomEvent
+DispatchEventToChrome
 (
 const
 char
