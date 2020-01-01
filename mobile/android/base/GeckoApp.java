@@ -16032,6 +16032,17 @@ destroy
 (
 )
 ;
+Tabs
+.
+getInstance
+(
+)
+.
+detachFromActivity
+(
+this
+)
+;
 GeckoAppShell
 .
 getHandler
