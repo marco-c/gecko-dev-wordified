@@ -220,9 +220,6 @@ aContext
 JSObject
 *
 aBoundNode
-nsIPrincipal
-*
-aPrincipal
 nsIURI
 *
 aBindingDocURI
