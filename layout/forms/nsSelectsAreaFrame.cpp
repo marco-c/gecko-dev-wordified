@@ -1193,7 +1193,7 @@ return
 listFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+GetVisualOverflowRect
 (
 )
 +
