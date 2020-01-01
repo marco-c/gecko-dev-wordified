@@ -2068,15 +2068,11 @@ inScaled
 false
 ;
 return
-BitmapFactory
+BitmapUtils
 .
 decodeResource
 (
 getContext
-(
-)
-.
-getResources
 (
 )
 resId
