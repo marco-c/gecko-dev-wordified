@@ -3377,6 +3377,15 @@ HasShadow
 SupportsAzureContent
 (
 )
+|
+|
+!
+gfxPlatform
+:
+:
+ComponentAlphaEnabled
+(
+)
 )
 {
 mode

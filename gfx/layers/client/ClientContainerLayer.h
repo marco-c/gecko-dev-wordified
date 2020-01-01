@@ -1053,14 +1053,7 @@ SetSupportsComponentAlphaChildren
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
-UsesSubpixelAATextRendering
-(
-)
+ComponentAlphaEnabled
 )
 ;
 }
