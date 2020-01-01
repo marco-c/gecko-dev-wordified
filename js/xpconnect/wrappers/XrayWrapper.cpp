@@ -7712,7 +7712,7 @@ true
 namespace
 XrayUtils
 static
-JSBool
+bool
 XrayToString
 (
 JSContext

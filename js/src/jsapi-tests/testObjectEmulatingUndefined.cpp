@@ -86,7 +86,7 @@ JS_ConvertStub
 }
 ;
 static
-JSBool
+bool
 ObjectEmulatingUndefinedConstructor
 (
 JSContext

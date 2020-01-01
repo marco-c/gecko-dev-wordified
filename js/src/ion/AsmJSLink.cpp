@@ -2041,7 +2041,7 @@ generated
 code
 .
 static
-JSBool
+bool
 CallAsmJS
 (
 JSContext
@@ -3863,7 +3863,7 @@ plain
 bytecode
 .
 static
-JSBool
+bool
 LinkAsmJS
 (
 JSContext
@@ -4480,7 +4480,7 @@ maybeNative
 native
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -4543,7 +4543,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :

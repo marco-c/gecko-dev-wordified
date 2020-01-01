@@ -11865,7 +11865,7 @@ dbg
 \
 return
 false
-JSBool
+bool
 Debugger
 :
 :
@@ -11912,7 +11912,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12201,7 +12201,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12270,7 +12270,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12426,7 +12426,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12452,7 +12452,7 @@ OnDebuggerStatement
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12478,7 +12478,7 @@ OnDebuggerStatement
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12504,7 +12504,7 @@ OnExceptionUnwind
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12530,7 +12530,7 @@ OnExceptionUnwind
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12556,7 +12556,7 @@ OnNewScript
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12582,7 +12582,7 @@ OnNewScript
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12608,7 +12608,7 @@ OnEnterFrame
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12634,7 +12634,7 @@ OnEnterFrame
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12660,7 +12660,7 @@ OnNewGlobalObject
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12877,7 +12877,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -12924,7 +12924,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -13314,7 +13314,7 @@ GlobalObject
 )
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -13438,7 +13438,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -13602,7 +13602,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -13711,7 +13711,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -13818,7 +13818,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -13905,7 +13905,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -14068,7 +14068,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -14250,7 +14250,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -14341,7 +14341,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -17971,7 +17971,7 @@ return
 }
 }
 ;
-JSBool
+bool
 Debugger
 :
 :
@@ -18244,7 +18244,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Debugger
 :
 :
@@ -19513,7 +19513,7 @@ obj
 )
 )
 static
-JSBool
+bool
 DebuggerScript_getUrl
 (
 JSContext
@@ -19608,7 +19608,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getStartLine
 (
 JSContext
@@ -19656,7 +19656,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getLineCount
 (
 JSContext
@@ -19712,7 +19712,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getSource
 (
 JSContext
@@ -19807,7 +19807,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getSourceStart
 (
 JSContext
@@ -19855,7 +19855,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getSourceLength
 (
 JSContext
@@ -19908,7 +19908,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getStaticLevel
 (
 JSContext
@@ -19959,7 +19959,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getSourceMapUrl
 (
 JSContext
@@ -20067,7 +20067,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getChildScripts
 (
 JSContext
@@ -20444,7 +20444,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getOffsetLine
 (
 JSContext
@@ -21964,7 +21964,7 @@ entries_
 }
 ;
 static
-JSBool
+bool
 DebuggerScript_getAllOffsets
 (
 JSContext
@@ -22405,7 +22405,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getAllColumnOffsets
 (
 JSContext
@@ -22789,7 +22789,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getLineOffsets
 (
 JSContext
@@ -23384,7 +23384,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_setBreakpoint
 (
 JSContext
@@ -23626,7 +23626,7 @@ false
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_getBreakpoints
 (
 JSContext
@@ -23865,7 +23865,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_clearBreakpoint
 (
 JSContext
@@ -23971,7 +23971,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_clearAllBreakpoints
 (
 JSContext
@@ -24044,7 +24044,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerScript_construct
 (
 JSContext
@@ -24773,7 +24773,7 @@ value
 ;
 }
 static
-JSBool
+bool
 DebuggerSource_construct
 (
 JSContext
@@ -25005,7 +25005,7 @@ return
 false
 ;
 static
-JSBool
+bool
 DebuggerSource_getText
 (
 JSContext
@@ -25088,7 +25088,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerSource_getUrl
 (
 JSContext
@@ -25726,7 +25726,7 @@ fromChildJSObject
 thisobj
 )
 static
-JSBool
+bool
 DebuggerFrame_getType
 (
 JSContext
@@ -25833,7 +25833,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getEnvironment
 (
 JSContext
@@ -25921,7 +25921,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getCallee
 (
 JSContext
@@ -26017,7 +26017,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getGenerator
 (
 JSContext
@@ -26064,7 +26064,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getConstructing
 (
 JSContext
@@ -26118,7 +26118,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getThis
 (
 JSContext
@@ -26223,7 +26223,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getOlder
 (
 JSContext
@@ -26373,7 +26373,7 @@ DebuggerFrame_getArguments
 *
 /
 static
-JSBool
+bool
 DebuggerArguments_getArg
 (
 JSContext
@@ -26805,7 +26805,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getArguments
 (
 JSContext
@@ -27201,7 +27201,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getScript
 (
 JSContext
@@ -27385,7 +27385,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getOffset
 (
 JSContext
@@ -27493,7 +27493,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getLive
 (
 JSContext
@@ -27604,7 +27604,7 @@ isCallable
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getOnStep
 (
 JSContext
@@ -27676,7 +27676,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_setOnStep
 (
 JSContext
@@ -27873,7 +27873,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_getOnPop
 (
 JSContext
@@ -27945,7 +27945,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_setOnPop
 (
 JSContext
@@ -28467,7 +28467,7 @@ false
 }
 ;
 static
-JSBool
+bool
 DebuggerGenericEval
 (
 JSContext
@@ -29305,7 +29305,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_eval
 (
 JSContext
@@ -29400,7 +29400,7 @@ iter
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_evalWithBindings
 (
 JSContext
@@ -29495,7 +29495,7 @@ iter
 ;
 }
 static
-JSBool
+bool
 DebuggerFrame_construct
 (
 JSContext
@@ -30194,7 +30194,7 @@ JS_ASSERT
 obj
 )
 static
-JSBool
+bool
 DebuggerObject_construct
 (
 JSContext
@@ -30225,7 +30225,7 @@ false
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getProto
 (
 JSContext
@@ -30326,7 +30326,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getClass
 (
 JSContext
@@ -30415,7 +30415,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getCallable
 (
 JSContext
@@ -30462,7 +30462,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getName
 (
 JSContext
@@ -30597,7 +30597,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getDisplayName
 (
 JSContext
@@ -30733,7 +30733,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getParameterNames
 (
 JSContext
@@ -31050,7 +31050,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getScript
 (
 JSContext
@@ -31217,7 +31217,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getEnvironment
 (
 JSContext
@@ -31378,7 +31378,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getGlobal
 (
 JSContext
@@ -31452,7 +31452,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getOwnPropertyDescriptor
 (
 JSContext
@@ -31769,7 +31769,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_getOwnPropertyNames
 (
 JSContext
@@ -32073,7 +32073,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_defineProperty
 (
 JSContext
@@ -32373,7 +32373,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_defineProperties
 (
 JSContext
@@ -32781,7 +32781,7 @@ here
 *
 /
 static
-JSBool
+bool
 DebuggerObject_deleteProperty
 (
 JSContext
@@ -32911,7 +32911,7 @@ PreventExtensions
 }
 ;
 static
-JSBool
+bool
 DebuggerObject_sealHelper
 (
 JSContext
@@ -33096,7 +33096,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_seal
 (
 JSContext
@@ -33123,7 +33123,7 @@ seal
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_freeze
 (
 JSContext
@@ -33150,7 +33150,7 @@ freeze
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_preventExtensions
 (
 JSContext
@@ -33177,7 +33177,7 @@ preventExtensions
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_isSealedHelper
 (
 JSContext
@@ -33325,7 +33325,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_isSealed
 (
 JSContext
@@ -33352,7 +33352,7 @@ isSealed
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_isFrozen
 (
 JSContext
@@ -33379,7 +33379,7 @@ isFrozen
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_isExtensible
 (
 JSContext
@@ -33413,7 +33413,7 @@ CallMode
 }
 ;
 static
-JSBool
+bool
 ApplyOrCall
 (
 JSContext
@@ -34011,7 +34011,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_apply
 (
 JSContext
@@ -34035,7 +34035,7 @@ ApplyMode
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_call
 (
 JSContext
@@ -34059,7 +34059,7 @@ CallMode
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_makeDebuggeeValue
 (
 JSContext
@@ -34372,7 +34372,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_evalInGlobal
 (
 JSContext
@@ -34469,7 +34469,7 @@ NULL
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_evalInGlobalWithBindings
 (
 JSContext
@@ -34566,7 +34566,7 @@ NULL
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_unwrap
 (
 JSContext
@@ -34654,7 +34654,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerObject_unsafeDereference
 (
 JSContext
@@ -35470,7 +35470,7 @@ fromChildJSObject
 envobj
 )
 static
-JSBool
+bool
 DebuggerEnv_construct
 (
 JSContext
@@ -35580,7 +35580,7 @@ WithObject
 ;
 }
 static
-JSBool
+bool
 DebuggerEnv_getType
 (
 JSContext
@@ -35703,7 +35703,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerEnv_getParent
 (
 JSContext
@@ -35782,7 +35782,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 DebuggerEnv_getObject
 (
 JSContext
@@ -35953,7 +35953,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerEnv_getCallee
 (
 JSContext
@@ -36103,7 +36103,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerEnv_names
 (
 JSContext
@@ -36312,7 +36312,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerEnv_find
 (
 JSContext
@@ -36511,7 +36511,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 DebuggerEnv_getVariable
 (
 JSContext
@@ -36691,7 +36691,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DebuggerEnv_setVariable
 (
 JSContext

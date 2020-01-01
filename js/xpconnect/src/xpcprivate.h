@@ -7912,7 +7912,7 @@ Class
 XPC_WN_NoHelper_Proto_JSClass
 ;
 extern
-JSBool
+bool
 XPC_WN_CallMethod
 (
 JSContext
@@ -7926,7 +7926,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 XPC_WN_GetterSetter
 (
 JSContext

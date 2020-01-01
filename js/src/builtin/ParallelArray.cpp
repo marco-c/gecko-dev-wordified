@@ -610,7 +610,7 @@ true
 static
 *
 /
-JSBool
+bool
 ParallelArrayObject
 :
 :
@@ -864,7 +864,7 @@ result
 static
 *
 /
-JSBool
+bool
 ParallelArrayObject
 :
 :

@@ -123,7 +123,7 @@ tests
 h
 "
 static
-JSBool
+bool
 native
 (
 JSContext
@@ -137,7 +137,7 @@ vp
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 static

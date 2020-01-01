@@ -157,7 +157,7 @@ address
 *
 /
 extern
-JSBool
+bool
 obj_construct
 (
 JSContext

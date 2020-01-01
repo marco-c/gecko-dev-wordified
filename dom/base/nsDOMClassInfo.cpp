@@ -19264,7 +19264,7 @@ compatibility
 only
 .
 static
-JSBool
+bool
 ContentWindowGetter
 (
 JSContext
@@ -19293,7 +19293,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 JS
 :
@@ -25697,7 +25697,7 @@ doc
 ;
 }
 }
-JSBool
+bool
 nsHTMLDocumentSH
 :
 :
@@ -25782,7 +25782,7 @@ NS_ERROR_INVALID_ARG
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -25827,7 +25827,7 @@ str
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -25936,7 +25936,7 @@ if
 self
 )
 return
-JS_FALSE
+false
 ;
 }
 size_t
@@ -25977,7 +25977,7 @@ chars
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JS

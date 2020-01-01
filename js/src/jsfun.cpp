@@ -5590,7 +5590,7 @@ JS_DONT_PRETTY_PRINT
 ;
 }
 static
-JSBool
+bool
 fun_toString
 (
 JSContext
@@ -5718,7 +5718,7 @@ true
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 fun_toSource
 (
 JSContext
@@ -5812,7 +5812,7 @@ true
 }
 #
 endif
-JSBool
+bool
 js_fun_call
 (
 JSContext
@@ -6127,7 +6127,7 @@ ES5
 3
 *
 /
-JSBool
+bool
 js_fun_apply
 (
 JSContext
@@ -8095,7 +8095,7 @@ and
 .
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -8535,7 +8535,7 @@ true
 ;
 }
 static
-JSBool
+bool
 fun_isGenerator
 (
 JSContext
@@ -8653,7 +8653,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 fun_bind
 (
 JSContext
@@ -9222,7 +9222,7 @@ fun_isGenerator
 JS_FS_END
 }
 ;
-JSBool
+bool
 js
 :
 :

@@ -3878,7 +3878,7 @@ findReferences
 .
 *
 /
-JSBool
+bool
 FindReferences
 (
 JSContext

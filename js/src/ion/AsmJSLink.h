@@ -222,7 +222,7 @@ js
 spec
 .
 extern
-JSBool
+bool
 IsAsmJSModule
 (
 JSContext
@@ -270,7 +270,7 @@ time
 validated
 .
 extern
-JSBool
+bool
 IsAsmJSFunction
 (
 JSContext
@@ -304,7 +304,7 @@ false
 ;
 }
 inline
-JSBool
+bool
 IsAsmJSFunction
 (
 JSContext
@@ -345,7 +345,7 @@ true
 ;
 }
 inline
-JSBool
+bool
 IsAsmJSModule
 (
 JSContext

@@ -2257,7 +2257,7 @@ JSMSG_GETTER_ONLY
 )
 ;
 }
-JSBool
+bool
 xpc_qsGetterOnlyNativeStub
 (
 JSContext

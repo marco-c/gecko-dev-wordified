@@ -1047,7 +1047,7 @@ mBytes
 }
 ;
 static
-JSBool
+bool
 StartProfiling
 (
 JSContext
@@ -1096,7 +1096,7 @@ NULL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 RequiredStringArg
@@ -1116,7 +1116,7 @@ if
 profileName
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -1135,11 +1135,11 @@ mBytes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 StopProfiling
 (
 JSContext
@@ -1188,7 +1188,7 @@ NULL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 RequiredStringArg
@@ -1208,7 +1208,7 @@ if
 profileName
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -1227,11 +1227,11 @@ mBytes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 PauseProfilers
 (
 JSContext
@@ -1280,7 +1280,7 @@ NULL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 RequiredStringArg
@@ -1300,7 +1300,7 @@ if
 profileName
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -1319,11 +1319,11 @@ mBytes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 ResumeProfilers
 (
 JSContext
@@ -1372,7 +1372,7 @@ NULL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 RequiredStringArg
@@ -1392,7 +1392,7 @@ if
 profileName
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -1411,7 +1411,7 @@ mBytes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -1430,7 +1430,7 @@ profileName
 *
 /
 static
-JSBool
+bool
 DumpProfile
 (
 JSContext
@@ -1495,7 +1495,7 @@ if
 filename
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1539,7 +1539,7 @@ if
 profileName
 )
 return
-JS_FALSE
+false
 ;
 ret
 =
@@ -1583,7 +1583,7 @@ defined
 MOZ_INSTRUMENTS
 )
 static
-JSBool
+bool
 IgnoreAndReturnTrue
 (
 JSContext
@@ -1626,7 +1626,7 @@ endif
 ifdef
 MOZ_CALLGRIND
 static
-JSBool
+bool
 StartCallgrind
 (
 JSContext
@@ -1662,11 +1662,11 @@ js_StartCallgrind
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 StopCallgrind
 (
 JSContext
@@ -1702,11 +1702,11 @@ js_StopCallgrind
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 DumpCallgrind
 (
 JSContext
@@ -1755,7 +1755,7 @@ NULL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 RequiredStringArg
@@ -1775,7 +1775,7 @@ if
 outFile
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -1794,7 +1794,7 @@ mBytes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #

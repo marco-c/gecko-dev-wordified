@@ -439,7 +439,7 @@ VM
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSNative
@@ -521,7 +521,7 @@ execution
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSThreadSafeNative
@@ -571,7 +571,7 @@ JSThreadSafeNative
 threadSafeNative
 >
 inline
-JSBool
+bool
 JSNativeThreadSafeWrapper
 (
 JSContext

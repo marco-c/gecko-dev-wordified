@@ -368,7 +368,7 @@ nsSecurityNameSet
 nsIScriptExternalNameSet
 )
 static
-JSBool
+bool
 netscape_security_enablePrivilege
 (
 JSContext

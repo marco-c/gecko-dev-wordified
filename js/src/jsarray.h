@@ -695,7 +695,7 @@ JITs
 *
 /
 extern
-JSBool
+bool
 array_sort
 (
 JSContext
@@ -712,7 +712,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 array_push
 (
 JSContext
@@ -729,7 +729,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 array_pop
 (
 JSContext
@@ -746,7 +746,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 array_concat
 (
 JSContext
@@ -799,7 +799,7 @@ obj
 )
 ;
 extern
-JSBool
+bool
 array_shift
 (
 JSContext
@@ -826,7 +826,7 @@ js
 ifdef
 DEBUG
 extern
-JSBool
+bool
 js_ArrayInfo
 (
 JSContext
@@ -962,7 +962,7 @@ address
 .
 *
 /
-JSBool
+bool
 js_Array
 (
 JSContext

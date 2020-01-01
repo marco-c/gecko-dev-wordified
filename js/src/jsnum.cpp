@@ -1901,7 +1901,7 @@ dp
 ;
 }
 static
-JSBool
+bool
 num_isNaN
 (
 JSContext
@@ -1992,7 +1992,7 @@ true
 ;
 }
 static
-JSBool
+bool
 num_isFinite
 (
 JSContext
@@ -2083,7 +2083,7 @@ true
 ;
 }
 static
-JSBool
+bool
 num_parseFloat
 (
 JSContext
@@ -2267,7 +2267,7 @@ ES5
 .
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -3183,7 +3183,7 @@ JS_ConvertStub
 }
 ;
 static
-JSBool
+bool
 Number
 (
 JSContext
@@ -3526,7 +3526,7 @@ true
 ;
 }
 static
-JSBool
+bool
 num_toSource
 (
 JSContext
@@ -4305,7 +4305,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_num_toString
 (
 JSContext
@@ -5207,7 +5207,7 @@ return
 true
 ;
 }
-JSBool
+bool
 num_toLocaleString
 (
 JSContext
@@ -5288,7 +5288,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_num_valueOf
 (
 JSContext
@@ -5635,7 +5635,7 @@ args
 )
 ;
 }
-JSBool
+bool
 num_toFixed
 (
 JSContext
@@ -5765,7 +5765,7 @@ args
 )
 ;
 }
-JSBool
+bool
 num_toExponential
 (
 JSContext
@@ -5953,7 +5953,7 @@ args
 )
 ;
 }
-JSBool
+bool
 num_toPrecision
 (
 JSContext
@@ -6090,7 +6090,7 @@ ES6
 .
 10
 static
-JSBool
+bool
 Number_isNaN
 (
 JSContext
@@ -6190,7 +6190,7 @@ ES6
 .
 11
 static
-JSBool
+bool
 Number_isFinite
 (
 JSContext
@@ -6300,7 +6300,7 @@ ES6
 .
 12
 static
-JSBool
+bool
 Number_isInteger
 (
 JSContext
@@ -6431,7 +6431,7 @@ ES6
 .
 13
 static
-JSBool
+bool
 Number_toInteger
 (
 JSContext

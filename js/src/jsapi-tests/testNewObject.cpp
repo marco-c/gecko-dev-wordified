@@ -143,7 +143,7 @@ N
 ]
 ;
 static
-JSBool
+bool
 constructHook
 (
 JSContext

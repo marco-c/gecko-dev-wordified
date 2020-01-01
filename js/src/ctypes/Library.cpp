@@ -331,7 +331,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 Close
 (
 JSContext
@@ -345,7 +345,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Declare
 (
 JSContext
@@ -602,7 +602,7 @@ CTYPESFN_FLAGS
 JS_FS_END
 }
 ;
-JSBool
+bool
 Library
 :
 :
@@ -638,7 +638,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -691,7 +691,7 @@ string
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 AutoString
@@ -740,7 +740,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -753,7 +753,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -1354,7 +1354,7 @@ obj
 )
 ;
 }
-JSBool
+bool
 Library
 :
 :
@@ -1386,7 +1386,7 @@ if
 ctypesObj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1409,7 +1409,7 @@ object
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -1446,7 +1446,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -1476,7 +1476,7 @@ if
 library
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -1489,10 +1489,10 @@ library
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 Library
 :
 :
@@ -1524,7 +1524,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1546,7 +1546,7 @@ library
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -1572,7 +1572,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -1604,10 +1604,10 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 Library
 :
 :
@@ -1640,7 +1640,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1662,7 +1662,7 @@ library
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 PRLibrary
@@ -1691,7 +1691,7 @@ open
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -1847,7 +1847,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -1886,7 +1886,7 @@ string
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -1961,7 +1961,7 @@ if
 fnObj
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -1988,7 +1988,7 @@ if
 typeObj
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -2059,7 +2059,7 @@ size
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 typeObj
@@ -2212,7 +2212,7 @@ library
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 data
@@ -2287,7 +2287,7 @@ library
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -2314,7 +2314,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -2414,10 +2414,10 @@ result
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 }

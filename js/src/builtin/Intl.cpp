@@ -2750,7 +2750,7 @@ collator_finalize
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 collator_toSource
 (
 JSContext
@@ -3284,7 +3284,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Collator
 (
 JSContext
@@ -3319,7 +3319,7 @@ isConstructing
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3872,7 +3872,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3945,7 +3945,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5570,7 +5570,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -6038,7 +6038,7 @@ numberFormat_finalize
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 numberFormat_toSource
 (
 JSContext
@@ -6572,7 +6572,7 @@ true
 ;
 }
 static
-JSBool
+bool
 NumberFormat
 (
 JSContext
@@ -6607,7 +6607,7 @@ isConstructing
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -7162,7 +7162,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -7235,7 +7235,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -8576,7 +8576,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -8998,7 +8998,7 @@ dateTimeFormat_finalize
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 dateTimeFormat_toSource
 (
 JSContext
@@ -9532,7 +9532,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DateTimeFormat
 (
 JSContext
@@ -9567,7 +9567,7 @@ isConstructing
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -10122,7 +10122,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -10301,7 +10301,7 @@ return
 icuName
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -10725,7 +10725,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -11735,7 +11735,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -12135,7 +12135,7 @@ JS_ConvertStub
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 intl_toSource
 (
 JSContext

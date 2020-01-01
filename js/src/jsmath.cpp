@@ -681,7 +681,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
-JSBool
+bool
 js_math_abs
 (
 JSContext
@@ -826,7 +826,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -1000,7 +1000,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -1145,7 +1145,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -1445,7 +1445,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -1596,7 +1596,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js_math_ceil
 (
 JSContext
@@ -1712,7 +1712,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -1894,7 +1894,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2029,7 +2029,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js_math_floor
 (
 JSContext
@@ -2121,7 +2121,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2293,7 +2293,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2414,7 +2414,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_math_max
 (
 JSContext
@@ -2554,7 +2554,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_math_min
 (
 JSContext
@@ -3189,7 +3189,7 @@ off
 )
 #
 endif
-JSBool
+bool
 js_math_pow
 (
 JSContext
@@ -3995,7 +3995,7 @@ cx
 )
 ;
 }
-JSBool
+bool
 js_math_random
 (
 JSContext
@@ -4040,7 +4040,7 @@ return
 true
 ;
 }
-JSBool
+bool
 /
 *
 ES5
@@ -4246,7 +4246,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -4367,7 +4367,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_math_sqrt
 (
 JSContext
@@ -4512,7 +4512,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -4793,7 +4793,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -4867,7 +4867,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5110,7 +5110,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5327,7 +5327,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5443,7 +5443,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5495,7 +5495,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5547,7 +5547,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5905,7 +5905,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -6230,7 +6230,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -6483,7 +6483,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -6714,7 +6714,7 @@ y
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -6943,7 +6943,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -7033,7 +7033,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -7151,7 +7151,7 @@ x
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -7183,7 +7183,7 @@ vp
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 math_toSource
 (
 JSContext

@@ -80,7 +80,7 @@ count
 0
 ;
 static
-JSBool
+bool
 IterNext
 (
 JSContext
@@ -257,7 +257,7 @@ isWrappedNative
 }
 }
 ;
-JSBool
+bool
 IterClassConstructor
 (
 JSContext

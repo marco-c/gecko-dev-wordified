@@ -440,7 +440,7 @@ return
 true
 ;
 }
-JSBool
+bool
 bool_toSource
 (
 JSContext
@@ -557,7 +557,7 @@ return
 true
 ;
 }
-JSBool
+bool
 bool_toString
 (
 JSContext
@@ -668,7 +668,7 @@ return
 true
 ;
 }
-JSBool
+bool
 bool_valueOf
 (
 JSContext
@@ -733,7 +733,7 @@ JS_FS_END
 }
 ;
 static
-JSBool
+bool
 Boolean
 (
 JSContext

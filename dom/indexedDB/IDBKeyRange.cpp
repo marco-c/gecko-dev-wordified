@@ -594,7 +594,7 @@ return
 true
 ;
 }
-JSBool
+bool
 MakeOnlyKeyRange
 (
 JSContext
@@ -704,7 +704,7 @@ keyRange
 )
 ;
 }
-JSBool
+bool
 MakeLowerBoundKeyRange
 (
 JSContext
@@ -823,7 +823,7 @@ keyRange
 )
 ;
 }
-JSBool
+bool
 MakeUpperBoundKeyRange
 (
 JSContext
@@ -942,7 +942,7 @@ keyRange
 )
 ;
 }
-JSBool
+bool
 MakeBoundKeyRange
 (
 JSContext

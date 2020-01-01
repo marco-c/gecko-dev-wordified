@@ -501,7 +501,7 @@ mClientId
 ;
 }
 ;
-JSBool
+bool
 PostToRIL
 (
 JSContext
@@ -948,7 +948,7 @@ PostToRIL
 #
 ifdef
 MOZ_WIDGET_GONK
-JSBool
+bool
 DoNetdCommand
 (
 JSContext

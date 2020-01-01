@@ -329,7 +329,7 @@ options
 *
 /
 extern
-JSBool
+bool
 intl_Collator
 (
 JSContext
@@ -397,7 +397,7 @@ intl_Collator_availableLocales
 *
 /
 extern
-JSBool
+bool
 intl_Collator_availableLocales
 (
 JSContext
@@ -467,7 +467,7 @@ locale
 *
 /
 extern
-JSBool
+bool
 intl_availableCollations
 (
 JSContext
@@ -569,7 +569,7 @@ y
 *
 /
 extern
-JSBool
+bool
 intl_CompareStrings
 (
 JSContext
@@ -689,7 +689,7 @@ options
 *
 /
 extern
-JSBool
+bool
 intl_NumberFormat
 (
 JSContext
@@ -758,7 +758,7 @@ intl_NumberFormat_availableLocales
 *
 /
 extern
-JSBool
+bool
 intl_NumberFormat_availableLocales
 (
 JSContext
@@ -816,7 +816,7 @@ locale
 *
 /
 extern
-JSBool
+bool
 intl_numberingSystem
 (
 JSContext
@@ -883,7 +883,7 @@ x
 *
 /
 extern
-JSBool
+bool
 intl_FormatNumber
 (
 JSContext
@@ -1003,7 +1003,7 @@ options
 *
 /
 extern
-JSBool
+bool
 intl_DateTimeFormat
 (
 JSContext
@@ -1074,7 +1074,7 @@ intl_DateTimeFormat_availableLocales
 *
 /
 extern
-JSBool
+bool
 intl_DateTimeFormat_availableLocales
 (
 JSContext
@@ -1141,7 +1141,7 @@ locale
 *
 /
 extern
-JSBool
+bool
 intl_availableCalendars
 (
 JSContext
@@ -1214,7 +1214,7 @@ skeleton
 *
 /
 extern
-JSBool
+bool
 intl_patternForSkeleton
 (
 JSContext
@@ -1289,7 +1289,7 @@ x
 *
 /
 extern
-JSBool
+bool
 intl_FormatDateTime
 (
 JSContext

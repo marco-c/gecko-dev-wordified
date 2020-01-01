@@ -362,7 +362,7 @@ DOMException
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -425,7 +425,7 @@ aObj
 ;
 }
 static
-JSBool
+bool
 ToString
 (
 JSContext

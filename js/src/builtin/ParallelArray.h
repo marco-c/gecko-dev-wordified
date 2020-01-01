@@ -224,7 +224,7 @@ Class
 class_
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext
@@ -238,7 +238,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 constructHelper
 (
 JSContext

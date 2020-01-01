@@ -17119,7 +17119,7 @@ dst
 ;
 }
 static
-JSBool
+bool
 reflect_parse
 (
 JSContext

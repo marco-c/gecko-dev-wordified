@@ -451,7 +451,7 @@ aFunctionName
 protected
 :
 static
-JSBool
+bool
 ConstructInternal
 (
 JSContext
@@ -1232,7 +1232,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -1363,7 +1363,7 @@ aTrc
 }
 }
 static
-JSBool
+bool
 Terminate
 (
 JSContext
@@ -1444,7 +1444,7 @@ aCx
 ;
 }
 static
-JSBool
+bool
 PostMessage
 (
 JSContext
@@ -2200,7 +2200,7 @@ aFunctionName
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext

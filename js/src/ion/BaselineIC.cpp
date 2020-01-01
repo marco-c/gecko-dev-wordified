@@ -51262,13 +51262,8 @@ exception
 ;
 masm
 .
-branchTest32
+branchIfFalseBool
 (
-Assembler
-:
-:
-Zero
-ReturnReg
 ReturnReg
 &
 exception

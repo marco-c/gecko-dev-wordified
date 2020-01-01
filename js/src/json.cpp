@@ -5538,7 +5538,7 @@ true
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 json_toSource
 (
 JSContext
@@ -5583,8 +5583,9 @@ ES5
 .
 *
 /
-JSBool
-js_json_parse
+static
+bool
+json_parse
 (
 JSContext
 *
@@ -5755,8 +5756,8 @@ ES5
 .
 *
 /
-JSBool
-js_json_stringify
+bool
+json_stringify
 (
 JSContext
 *
@@ -5984,7 +5985,7 @@ JS_FN
 "
 parse
 "
-js_json_parse
+json_parse
 2
 0
 )
@@ -5993,7 +5994,7 @@ JS_FN
 "
 stringify
 "
-js_json_stringify
+json_stringify
 3
 0
 )

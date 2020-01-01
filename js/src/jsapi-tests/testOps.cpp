@@ -216,7 +216,7 @@ my_convert
 }
 ;
 static
-JSBool
+bool
 createMyObject
 (
 JSContext

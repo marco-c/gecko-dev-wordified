@@ -373,7 +373,7 @@ rval
 )
 ;
 extern
-JSBool
+bool
 regexp_exec
 (
 JSContext
@@ -402,7 +402,7 @@ result
 )
 ;
 extern
-JSBool
+bool
 regexp_test
 (
 JSContext
@@ -465,7 +465,7 @@ string
 *
 /
 extern
-JSBool
+bool
 regexp_exec_no_statics
 (
 JSContext
@@ -511,7 +511,7 @@ string
 *
 /
 extern
-JSBool
+bool
 regexp_test_no_statics
 (
 JSContext

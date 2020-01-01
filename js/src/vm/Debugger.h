@@ -2036,7 +2036,7 @@ fnname
 )
 ;
 static
-JSBool
+bool
 getEnabled
 (
 JSContext
@@ -2050,7 +2050,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 setEnabled
 (
 JSContext
@@ -2064,7 +2064,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 getHookImpl
 (
 JSContext
@@ -2080,7 +2080,7 @@ which
 )
 ;
 static
-JSBool
+bool
 setHookImpl
 (
 JSContext
@@ -2096,7 +2096,7 @@ which
 )
 ;
 static
-JSBool
+bool
 getOnDebuggerStatement
 (
 JSContext
@@ -2110,7 +2110,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 setOnDebuggerStatement
 (
 JSContext
@@ -2124,7 +2124,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 getOnExceptionUnwind
 (
 JSContext
@@ -2138,7 +2138,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 setOnExceptionUnwind
 (
 JSContext
@@ -2152,7 +2152,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 getOnNewScript
 (
 JSContext
@@ -2166,7 +2166,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 setOnNewScript
 (
 JSContext
@@ -2180,7 +2180,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 getOnEnterFrame
 (
 JSContext
@@ -2194,7 +2194,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 setOnEnterFrame
 (
 JSContext
@@ -2208,7 +2208,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 getOnNewGlobalObject
 (
 JSContext
@@ -2222,7 +2222,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 setOnNewGlobalObject
 (
 JSContext
@@ -2236,7 +2236,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 getUncaughtExceptionHook
 (
 JSContext
@@ -2250,7 +2250,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 setUncaughtExceptionHook
 (
 JSContext
@@ -2264,7 +2264,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 addDebuggee
 (
 JSContext
@@ -2278,7 +2278,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 addAllGlobalsAsDebuggees
 (
 JSContext
@@ -2292,7 +2292,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 removeDebuggee
 (
 JSContext
@@ -2306,7 +2306,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 removeAllDebuggees
 (
 JSContext
@@ -2320,7 +2320,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 hasDebuggee
 (
 JSContext
@@ -2334,7 +2334,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 getDebuggees
 (
 JSContext
@@ -2348,7 +2348,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 getNewestFrame
 (
 JSContext
@@ -2362,7 +2362,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 clearAllBreakpoints
 (
 JSContext
@@ -2376,7 +2376,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 findScripts
 (
 JSContext
@@ -2390,7 +2390,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 findAllGlobals
 (
 JSContext
@@ -2403,6 +2403,13 @@ Value
 vp
 )
 ;
+/
+/
+njn
+:
+?
+/
+/
 static
 JSBool
 wrap
@@ -2418,7 +2425,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext

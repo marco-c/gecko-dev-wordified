@@ -865,7 +865,7 @@ object
 .
 "
 static
-JSBool
+bool
 Dump
 (
 JSContext
@@ -1019,7 +1019,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Debug
 (
 JSContext
@@ -1052,7 +1052,7 @@ true
 endif
 }
 static
-JSBool
+bool
 Atob
 (
 JSContext
@@ -1098,7 +1098,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 Btoa
 (
 JSContext
@@ -1144,7 +1144,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 File
 (
 JSContext
@@ -1370,7 +1370,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Blob
 (
 JSContext

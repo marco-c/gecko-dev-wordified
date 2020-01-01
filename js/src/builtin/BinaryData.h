@@ -248,7 +248,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 call
 (
 JSContext
@@ -616,7 +616,7 @@ length
 )
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext
@@ -631,7 +631,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 repeat
 (
 JSContext
@@ -646,7 +646,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 toString
 (
 JSContext
@@ -829,7 +829,7 @@ offset
 )
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext
@@ -868,7 +868,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 subarray
 (
 JSContext
@@ -883,7 +883,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 fill
 (
 JSContext
@@ -1203,7 +1203,7 @@ idp
 )
 ;
 static
-JSBool
+bool
 lengthGetter
 (
 JSContext
@@ -1285,7 +1285,7 @@ Class
 class_
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext
@@ -1300,7 +1300,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 toString
 (
 JSContext
@@ -1431,7 +1431,7 @@ offset
 )
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext

@@ -895,7 +895,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 NPObjWrapper_Call
 (
 JSContext
@@ -912,7 +912,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 NPObjWrapper_Construct
 (
 JSContext
@@ -1089,7 +1089,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 NPObjectMember_Call
 (
 JSContext
@@ -7835,7 +7835,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 CallNPMethod
 (
 JSContext
@@ -7875,7 +7875,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 return
 CallNPMethodInternal
@@ -9024,7 +9024,7 @@ npobj
 ;
 }
 static
-JSBool
+bool
 NPObjWrapper_Call
 (
 JSContext
@@ -9078,7 +9078,7 @@ false
 ;
 }
 static
-JSBool
+bool
 NPObjWrapper_Construct
 (
 JSContext
@@ -11174,7 +11174,7 @@ memberPrivate
 ;
 }
 static
-JSBool
+bool
 NPObjectMember_Call
 (
 JSContext
@@ -11206,7 +11206,7 @@ vp
 NS_ENSURE_TRUE
 (
 memobj
-JS_FALSE
+false
 )
 ;
 NPObjectMemberPrivate
@@ -11245,7 +11245,7 @@ memberPrivate
 npobjWrapper
 )
 return
-JS_FALSE
+false
 ;
 NPObject
 *
@@ -11279,7 +11279,7 @@ object
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 NPVariant
@@ -11365,7 +11365,7 @@ memory
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -11452,7 +11452,7 @@ npargs
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -11580,7 +11580,7 @@ NPObject
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS_SET_RVAL

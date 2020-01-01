@@ -625,7 +625,7 @@ true
 *
 /
 static
-JSBool
+bool
 XPC_WN_Shared_ToString
 (
 JSContext
@@ -722,7 +722,7 @@ ccx
 ;
 }
 static
-JSBool
+bool
 XPC_WN_Shared_ToSource
 (
 JSContext
@@ -1132,7 +1132,7 @@ wrapped
 JSObjects
 .
 static
-JSBool
+bool
 XPC_WN_DoubleWrappedGetter
 (
 JSContext
@@ -5254,7 +5254,7 @@ retval
 POST_HELPER_STUB
 }
 static
-JSBool
+bool
 XPC_WN_Helper_Call
 (
 JSContext
@@ -5382,7 +5382,7 @@ retval
 POST_HELPER_STUB
 }
 static
-JSBool
+bool
 XPC_WN_Helper_Construct
 (
 JSContext
@@ -8050,7 +8050,7 @@ return
 obj
 ;
 }
-JSBool
+bool
 XPC_WN_CallMethod
 (
 JSContext
@@ -8206,7 +8206,7 @@ ccx
 )
 ;
 }
-JSBool
+bool
 XPC_WN_GetterSetter
 (
 JSContext

@@ -738,7 +738,7 @@ MutableHandleValue
 vp
 )
 ;
-JSBool
+bool
 xpc_qsGetterOnlyNativeStub
 (
 JSContext
@@ -3101,7 +3101,7 @@ template
 typename
 Op
 >
-JSBool
+bool
 PropertyOpForwarder
 (
 JSContext

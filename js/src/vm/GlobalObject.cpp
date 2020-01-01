@@ -324,7 +324,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 ThrowTypeError
 (
 JSContext
@@ -498,7 +498,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ProtoGetter
 (
 JSContext
@@ -1078,7 +1078,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ProtoSetter
 (
 JSContext

@@ -3809,7 +3809,7 @@ ctypes
 .
 cast
 '
-JSBool
+bool
 Cast
 (
 JSContext
@@ -3835,7 +3835,7 @@ ctypes
 .
 getRuntime
 '
-JSBool
+bool
 GetRuntime
 (
 JSContext

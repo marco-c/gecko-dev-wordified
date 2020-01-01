@@ -782,7 +782,7 @@ dstlen
 )
 ;
 return
-JS_TRUE
+true
 ;
 badSurrogate
 :
@@ -823,7 +823,7 @@ srclen
 )
 ;
 return
-JS_FALSE
+false
 ;
 bufferTooSmall
 :
@@ -851,7 +851,7 @@ JSMSG_BUFFER_TOO_SMALL
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -1020,7 +1020,7 @@ prototypes
 *
 /
 static
-JSBool
+bool
 ConstructAbstract
 (
 JSContext
@@ -1037,7 +1037,7 @@ namespace
 CType
 {
 static
-JSBool
+bool
 ConstructData
 (
 JSContext
@@ -1162,7 +1162,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 CreateArray
 (
 JSContext
@@ -1176,7 +1176,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToString
 (
 JSContext
@@ -1190,7 +1190,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToSource
 (
 JSContext
@@ -1277,7 +1277,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 ToSource
 (
 JSContext
@@ -1295,7 +1295,7 @@ namespace
 PointerType
 {
 static
-JSBool
+bool
 Create
 (
 JSContext
@@ -1371,7 +1371,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 IsNull
 (
 JSContext
@@ -1385,7 +1385,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Increment
 (
 JSContext
@@ -1399,7 +1399,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Decrement
 (
 JSContext
@@ -1458,7 +1458,7 @@ namespace
 ArrayType
 {
 static
-JSBool
+bool
 Create
 (
 JSContext
@@ -1549,7 +1549,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 AddressOfElement
 (
 JSContext
@@ -1567,7 +1567,7 @@ namespace
 StructType
 {
 static
-JSBool
+bool
 Create
 (
 JSContext
@@ -1643,7 +1643,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 AddressOfField
 (
 JSContext
@@ -1657,7 +1657,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Define
 (
 JSContext
@@ -1675,7 +1675,7 @@ namespace
 FunctionType
 {
 static
-JSBool
+bool
 Create
 (
 JSContext
@@ -1708,7 +1708,7 @@ errVal
 )
 ;
 static
-JSBool
+bool
 Call
 (
 JSContext
@@ -1881,7 +1881,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Address
 (
 JSContext
@@ -1895,7 +1895,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ReadString
 (
 JSContext
@@ -1909,7 +1909,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ReadStringReplaceMalformed
 (
 JSContext
@@ -1923,7 +1923,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToSource
 (
 JSContext
@@ -2074,7 +2074,7 @@ value
 *
 /
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -2296,7 +2296,7 @@ namespace
 Methods
 {
 static
-JSBool
+bool
 Dispose
 (
 JSContext
@@ -2310,7 +2310,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Forget
 (
 JSContext
@@ -2324,7 +2324,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToSource
 (
 JSContext
@@ -2338,7 +2338,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToString
 (
 JSContext
@@ -2670,7 +2670,7 @@ JSObject
 obj
 )
 ;
-JSBool
+bool
 ToString
 (
 JSContext
@@ -2687,7 +2687,7 @@ bool
 isUnsigned
 )
 ;
-JSBool
+bool
 ToSource
 (
 JSContext
@@ -2721,7 +2721,7 @@ namespace
 Int64
 {
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -2735,7 +2735,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToString
 (
 JSContext
@@ -2749,7 +2749,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToSource
 (
 JSContext
@@ -2763,7 +2763,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Compare
 (
 JSContext
@@ -2777,7 +2777,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Lo
 (
 JSContext
@@ -2791,7 +2791,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Hi
 (
 JSContext
@@ -2805,7 +2805,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Join
 (
 JSContext
@@ -2823,7 +2823,7 @@ namespace
 UInt64
 {
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -2837,7 +2837,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToString
 (
 JSContext
@@ -2851,7 +2851,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ToSource
 (
 JSContext
@@ -2865,7 +2865,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Compare
 (
 JSContext
@@ -2879,7 +2879,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Lo
 (
 JSContext
@@ -2893,7 +2893,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Hi
 (
 JSContext
@@ -2907,7 +2907,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Join
 (
 JSContext
@@ -21213,7 +21213,7 @@ implementations
 *
 *
 /
-JSBool
+bool
 ConstructAbstract
 (
 JSContext
@@ -21250,7 +21250,7 @@ type
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -21417,7 +21417,7 @@ implementation
 *
 *
 /
-JSBool
+bool
 CType
 :
 :
@@ -21486,7 +21486,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -21566,7 +21566,7 @@ void_t
 )
 ;
 return
-JS_FALSE
+false
 ;
 case
 TYPE_function
@@ -21589,7 +21589,7 @@ instead
 )
 ;
 return
-JS_FALSE
+false
 ;
 case
 TYPE_pointer
@@ -24927,7 +24927,7 @@ return
 JS_TRUE
 ;
 }
-JSBool
+bool
 CType
 :
 :
@@ -24969,7 +24969,7 @@ if
 baseType
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -24994,7 +24994,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -25032,7 +25032,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -25090,7 +25090,7 @@ integer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -25121,7 +25121,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -25136,10 +25136,10 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 CType
 :
 :
@@ -25181,7 +25181,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -25216,7 +25216,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -25305,7 +25305,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -25319,10 +25319,10 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 CType
 :
 :
@@ -25363,7 +25363,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -25398,7 +25398,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -25477,7 +25477,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -25491,7 +25491,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -25934,7 +25934,7 @@ obj
 sCABIClass
 ;
 }
-JSBool
+bool
 ABI
 :
 :
@@ -25983,7 +25983,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -26002,7 +26002,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -26027,7 +26027,7 @@ ABI
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -26107,7 +26107,7 @@ ABICode
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -26116,7 +26116,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -26130,7 +26130,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -26297,7 +26297,7 @@ implementation
 *
 *
 /
-JSBool
+bool
 PointerType
 :
 :
@@ -26356,7 +26356,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -26412,7 +26412,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -26431,7 +26431,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -26446,7 +26446,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -27446,7 +27446,7 @@ return
 JS_TRUE
 ;
 }
-JSBool
+bool
 PointerType
 :
 :
@@ -27487,7 +27487,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -27512,7 +27512,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -27561,7 +27561,7 @@ PointerType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -27600,7 +27600,7 @@ NULL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -27855,7 +27855,7 @@ return
 JS_TRUE
 ;
 }
-JSBool
+bool
 PointerType
 :
 :
@@ -27889,7 +27889,7 @@ args
 )
 ;
 }
-JSBool
+bool
 PointerType
 :
 :
@@ -28495,7 +28495,7 @@ implementation
 *
 *
 /
-JSBool
+bool
 ArrayType
 :
 :
@@ -28564,7 +28564,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -28610,7 +28610,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -28669,7 +28669,7 @@ integer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -28712,7 +28712,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -28727,7 +28727,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -31240,7 +31240,7 @@ NULL
 )
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -31282,7 +31282,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -31307,7 +31307,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -31348,7 +31348,7 @@ ArrayType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -31375,7 +31375,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -31408,7 +31408,7 @@ if
 pointerType
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -31445,7 +31445,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -31516,7 +31516,7 @@ index
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -31590,7 +31590,7 @@ elementSize
 index
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -32302,7 +32302,7 @@ fieldObj
 )
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -32371,7 +32371,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -32406,7 +32406,7 @@ string
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -32516,7 +32516,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -32583,7 +32583,7 @@ array
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -32604,7 +32604,7 @@ arr
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 args
@@ -32620,7 +32620,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -34171,7 +34171,7 @@ forget
 )
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -34213,7 +34213,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -34250,7 +34250,7 @@ StructType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -34277,7 +34277,7 @@ defined
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -34304,7 +34304,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -34336,7 +34336,7 @@ array
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -34372,7 +34372,7 @@ array
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -35854,7 +35854,7 @@ NULL
 )
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -35896,7 +35896,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -35921,7 +35921,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -35961,7 +35961,7 @@ StructType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -35988,7 +35988,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSFlatString
@@ -36014,7 +36014,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 const
 FieldInfo
@@ -36034,7 +36034,7 @@ if
 field
 )
 return
-JS_FALSE
+false
 ;
 RootedObject
 baseType
@@ -36066,7 +36066,7 @@ if
 pointerType
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -36102,7 +36102,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -36177,7 +36177,7 @@ field
 mOffset
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -38050,7 +38050,7 @@ forget
 )
 ;
 }
-JSBool
+bool
 FunctionType
 :
 :
@@ -38119,7 +38119,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 AutoValueVector
@@ -38209,7 +38209,7 @@ array
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 uint32_t
@@ -38243,7 +38243,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -38307,7 +38307,7 @@ i
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -38343,7 +38343,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -38358,7 +38358,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -39024,7 +39024,7 @@ return
 true
 ;
 }
-JSBool
+bool
 FunctionType
 :
 :
@@ -44490,7 +44490,7 @@ NULL
 )
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -44539,7 +44539,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -44559,7 +44559,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -44581,7 +44581,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -44617,7 +44617,7 @@ if
 pointerType
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -44653,7 +44653,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -44710,10 +44710,10 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -44762,7 +44762,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -44808,7 +44808,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -44881,7 +44881,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -44945,7 +44945,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -45006,7 +45006,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -45021,10 +45021,10 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -45073,7 +45073,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -45119,7 +45119,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -45179,7 +45179,7 @@ size
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -45225,7 +45225,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -45240,7 +45240,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 typedef
@@ -45265,7 +45265,7 @@ size_t
 )
 ;
 static
-JSBool
+bool
 ReadStringCommon
 (
 JSContext
@@ -45313,7 +45313,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -45360,7 +45360,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -45487,7 +45487,7 @@ pointer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 break
@@ -45542,7 +45542,7 @@ ArrayType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -45662,7 +45662,7 @@ if
 dst
 )
 return
-JS_FALSE
+false
 ;
 result
 =
@@ -45752,7 +45752,7 @@ type
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -45761,7 +45761,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -45775,10 +45775,10 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -45807,7 +45807,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -45987,7 +45987,7 @@ source
 )
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -46036,7 +46036,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -46055,7 +46055,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -46090,7 +46090,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -46169,7 +46169,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -46183,7 +46183,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -46313,7 +46313,7 @@ defined
 (
 XP_WIN
 )
-JSBool
+bool
 CDataFinalizer
 :
 :
@@ -46358,7 +46358,7 @@ if
 objThis
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -46383,7 +46383,7 @@ CDataFinalizer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 CDataFinalizer
@@ -46464,7 +46464,7 @@ type
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 AutoString
@@ -46505,7 +46505,7 @@ srcValue
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 AppendString
@@ -46539,7 +46539,7 @@ valCodePtrType
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -46579,7 +46579,7 @@ srcDispose
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 AppendString
@@ -46622,7 +46622,7 @@ no
 error
 message
 return
-JS_FALSE
+false
 ;
 }
 args
@@ -46637,10 +46637,10 @@ strMessage
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 CDataFinalizer
 :
 :
@@ -46684,7 +46684,7 @@ if
 objThis
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -46709,7 +46709,7 @@ CDataFinalizer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -46775,7 +46775,7 @@ strMessage
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -46828,7 +46828,7 @@ strMessage
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -46844,7 +46844,7 @@ strMessage
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -47254,7 +47254,7 @@ creation
 .
 *
 /
-JSBool
+bool
 CDataFinalizer
 :
 :
@@ -47326,7 +47326,7 @@ exist
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -47383,7 +47383,7 @@ objResult
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -47410,7 +47410,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS
@@ -47972,7 +47972,7 @@ represented
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -48061,7 +48061,7 @@ objResult
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -48325,7 +48325,7 @@ CDataFinalizer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -48442,7 +48442,7 @@ objResult
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -48783,7 +48783,7 @@ references
 .
 *
 /
-JSBool
+bool
 CDataFinalizer
 :
 :
@@ -48839,7 +48839,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS
@@ -48870,7 +48870,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -48938,7 +48938,7 @@ CDataFinalizer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedValue
@@ -48995,7 +48995,7 @@ represented
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 CDataFinalizer
@@ -49019,7 +49019,7 @@ valJSData
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -49087,7 +49087,7 @@ references
 .
 *
 /
-JSBool
+bool
 CDataFinalizer
 :
 :
@@ -49143,7 +49143,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -49163,7 +49163,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -49232,7 +49232,7 @@ CDataFinalizer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -49277,7 +49277,7 @@ if
 objCTypes
 )
 return
-JS_FALSE
+false
 ;
 jsval
 valCodePtrType
@@ -50227,7 +50227,7 @@ slot
 )
 ;
 }
-JSBool
+bool
 Int64Base
 :
 :
@@ -50272,7 +50272,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 int
@@ -50354,7 +50354,7 @@ and
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -50412,7 +50412,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -50426,10 +50426,10 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 Int64Base
 :
 :
@@ -50473,7 +50473,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -50578,7 +50578,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -50592,10 +50592,10 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 Int64
 :
 :
@@ -50654,7 +50654,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 int64_t
@@ -50783,7 +50783,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -50798,7 +50798,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -50823,7 +50823,7 @@ obj
 sInt64Class
 ;
 }
-JSBool
+bool
 Int64
 :
 :
@@ -50864,7 +50864,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -50889,7 +50889,7 @@ Int64
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -50905,7 +50905,7 @@ false
 )
 ;
 }
-JSBool
+bool
 Int64
 :
 :
@@ -50946,7 +50946,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -50971,7 +50971,7 @@ Int64
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -50987,7 +50987,7 @@ false
 )
 ;
 }
-JSBool
+bool
 Int64
 :
 :
@@ -51091,7 +51091,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -51194,7 +51194,7 @@ setInt32
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -51240,7 +51240,7 @@ i
 >
 32
 )
-JSBool
+bool
 Int64
 :
 :
@@ -51317,7 +51317,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -51368,10 +51368,10 @@ d
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 Int64
 :
 :
@@ -51448,7 +51448,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -51499,10 +51499,10 @@ d
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 Int64
 :
 :
@@ -51551,7 +51551,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 int32_t
@@ -51714,7 +51714,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -51729,10 +51729,10 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 UInt64
 :
 :
@@ -51791,7 +51791,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 uint64_t
@@ -51922,7 +51922,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -51937,7 +51937,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -51962,7 +51962,7 @@ obj
 sUInt64Class
 ;
 }
-JSBool
+bool
 UInt64
 :
 :
@@ -52003,7 +52003,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -52028,7 +52028,7 @@ UInt64
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -52044,7 +52044,7 @@ true
 )
 ;
 }
-JSBool
+bool
 UInt64
 :
 :
@@ -52085,7 +52085,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -52110,7 +52110,7 @@ UInt64
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -52126,7 +52126,7 @@ true
 )
 ;
 }
-JSBool
+bool
 UInt64
 :
 :
@@ -52230,7 +52230,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -52333,10 +52333,10 @@ setInt32
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 UInt64
 :
 :
@@ -52413,7 +52413,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -52464,10 +52464,10 @@ d
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 UInt64
 :
 :
@@ -52544,7 +52544,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -52595,10 +52595,10 @@ d
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 UInt64
 :
 :
@@ -52647,7 +52647,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 uint32_t
@@ -52810,7 +52810,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -52825,7 +52825,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }

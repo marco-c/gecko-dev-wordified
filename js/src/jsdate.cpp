@@ -3767,7 +3767,7 @@ ECMA
 *
 /
 static
-JSBool
+bool
 date_UTC
 (
 JSContext
@@ -3804,7 +3804,7 @@ msec_time
 )
 )
 return
-JS_FALSE
+false
 ;
 msec_time
 =
@@ -3825,7 +3825,7 @@ msec_time
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -7693,7 +7693,7 @@ JS_FALSE
 ;
 }
 static
-JSBool
+bool
 date_parse
 (
 JSContext
@@ -7859,7 +7859,7 @@ PRMJ_USEC_PER_MSEC
 ;
 }
 static
-JSBool
+bool
 date_now
 (
 JSContext
@@ -7883,7 +7883,7 @@ NowAsMillis
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 void
@@ -8785,7 +8785,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getTime
 (
 JSContext
@@ -8958,7 +8958,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getYear
 (
 JSContext
@@ -9075,7 +9075,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getFullYear
 (
 JSContext
@@ -9189,7 +9189,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getUTCFullYear
 (
 JSContext
@@ -9306,7 +9306,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getMonth
 (
 JSContext
@@ -9409,7 +9409,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getUTCMonth
 (
 JSContext
@@ -9526,7 +9526,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getDate
 (
 JSContext
@@ -9640,7 +9640,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getUTCDate
 (
 JSContext
@@ -9757,7 +9757,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getDay
 (
 JSContext
@@ -9871,7 +9871,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getUTCDay
 (
 JSContext
@@ -9988,7 +9988,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getHours
 (
 JSContext
@@ -10098,11 +10098,11 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 date_getUTCHours
 (
 JSContext
@@ -10219,7 +10219,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getMinutes
 (
 JSContext
@@ -10333,7 +10333,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getUTCMinutes
 (
 JSContext
@@ -10461,7 +10461,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getUTCSeconds
 (
 JSContext
@@ -10586,7 +10586,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getUTCMilliseconds
 (
 JSContext
@@ -10762,7 +10762,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_getTimezoneOffset
 (
 JSContext
@@ -10915,7 +10915,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setTime
 (
 JSContext
@@ -11317,7 +11317,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setMilliseconds
 (
 JSContext
@@ -11525,7 +11525,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setUTCMilliseconds
 (
 JSContext
@@ -11802,7 +11802,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_setSeconds
 (
 JSContext
@@ -12040,7 +12040,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_setUTCSeconds
 (
 JSContext
@@ -12327,7 +12327,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_setMinutes
 (
 JSContext
@@ -12588,7 +12588,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_setUTCMinutes
 (
 JSContext
@@ -12898,7 +12898,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_setHours
 (
 JSContext
@@ -13182,7 +13182,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_setUTCHours
 (
 JSContext
@@ -13419,7 +13419,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_setDate
 (
 JSContext
@@ -13617,7 +13617,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setUTCDate
 (
 JSContext
@@ -13989,7 +13989,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setMonth
 (
 JSContext
@@ -14223,7 +14223,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setUTCMonth
 (
 JSContext
@@ -14590,7 +14590,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setFullYear
 (
 JSContext
@@ -14841,7 +14841,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setUTCFullYear
 (
 JSContext
@@ -15137,7 +15137,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_setYear
 (
 JSContext
@@ -15648,7 +15648,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_toGMTString
 (
 JSContext
@@ -15790,7 +15790,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_toISOString
 (
 JSContext
@@ -15838,7 +15838,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 date_toJSON
 (
 JSContext
@@ -17784,7 +17784,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 date_toLocaleString
 (
 JSContext
@@ -17965,7 +17965,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 date_toLocaleDateString
 (
 JSContext
@@ -18068,7 +18068,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 date_toLocaleTimeString
 (
 JSContext
@@ -18299,7 +18299,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 date_toLocaleFormat
 (
 JSContext
@@ -18395,7 +18395,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 date_toTimeString
 (
 JSContext
@@ -18491,7 +18491,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 date_toDateString
 (
 JSContext
@@ -18639,7 +18639,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_toSource
 (
 JSContext
@@ -18724,7 +18724,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 date_toString
 (
 JSContext
@@ -18817,7 +18817,7 @@ true
 ;
 }
 static
-JSBool
+bool
 date_valueOf
 (
 JSContext
@@ -19365,7 +19365,7 @@ date_valueOf
 JS_FS_END
 }
 ;
-JSBool
+bool
 js_Date
 (
 JSContext

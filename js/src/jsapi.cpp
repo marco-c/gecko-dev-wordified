@@ -24468,7 +24468,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ArrayIterator
 (
@@ -25922,7 +25922,8 @@ NULL
 )
 ;
 }
-JSBool
+static
+bool
 js_generic_native_method_dispatcher
 (
 JSContext

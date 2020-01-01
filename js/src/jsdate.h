@@ -421,7 +421,7 @@ address
 .
 *
 /
-JSBool
+bool
 js_Date
 (
 JSContext

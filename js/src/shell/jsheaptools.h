@@ -124,7 +124,7 @@ jsapi
 .
 h
 "
-JSBool
+bool
 FindReferences
 (
 JSContext

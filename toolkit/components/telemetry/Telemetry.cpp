@@ -3904,7 +3904,7 @@ sum
 0
 ;
 }
-JSBool
+bool
 JSHistogram_Add
 (
 JSContext
@@ -3937,7 +3937,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS
@@ -3983,7 +3983,7 @@ number
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 int32_t
@@ -4002,7 +4002,7 @@ value
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -4032,7 +4032,7 @@ obj
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 Histogram
@@ -4061,10 +4061,10 @@ value
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
-JSBool
+bool
 JSHistogram_Snapshot
 (
 JSContext
@@ -4097,7 +4097,7 @@ obj
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 Histogram
@@ -4142,7 +4142,7 @@ if
 snapshot
 )
 return
-JS_FALSE
+false
 ;
 switch
 (
@@ -4158,7 +4158,7 @@ case
 REFLECT_FAILURE
 :
 return
-JS_FALSE
+false
 ;
 case
 REFLECT_CORRUPT
@@ -4174,7 +4174,7 @@ corrupt
 )
 ;
 return
-JS_FALSE
+false
 ;
 case
 REFLECT_OK
@@ -4190,7 +4190,7 @@ snapshot
 )
 ;
 return
-JS_TRUE
+true
 ;
 default
 :
@@ -4205,7 +4205,7 @@ status
 ;
 }
 }
-JSBool
+bool
 JSHistogram_Clear
 (
 JSContext
@@ -4238,7 +4238,7 @@ obj
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 Histogram
@@ -4265,7 +4265,7 @@ Clear
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsresult

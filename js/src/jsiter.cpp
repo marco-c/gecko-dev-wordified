@@ -5205,7 +5205,7 @@ objects
 *
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -5461,7 +5461,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 iterator_iterator
 (
 JSContext
@@ -5502,7 +5502,7 @@ return
 true
 ;
 }
-JSBool
+bool
 iterator_next
 (
 JSContext
@@ -5913,7 +5913,7 @@ ElementIteratorObject
 )
 ;
 }
-JSBool
+bool
 ElementIteratorObject
 :
 :
@@ -10924,7 +10924,7 @@ return
 true
 ;
 }
-JSBool
+bool
 generator_send
 (
 JSContext
@@ -11111,7 +11111,7 @@ return
 true
 ;
 }
-JSBool
+bool
 generator_next
 (
 JSContext
@@ -11305,7 +11305,7 @@ return
 true
 ;
 }
-JSBool
+bool
 generator_throw
 (
 JSContext
@@ -11525,7 +11525,7 @@ return
 true
 ;
 }
-JSBool
+bool
 generator_close
 (
 JSContext

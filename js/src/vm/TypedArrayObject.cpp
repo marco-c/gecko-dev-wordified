@@ -887,7 +887,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -1115,7 +1115,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -1162,7 +1162,7 @@ byteLength
 )
 *
 /
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -4003,7 +4003,7 @@ proto
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -11320,7 +11320,7 @@ length
 *
 /
 static
-JSBool
+bool
 class_constructor
 (
 JSContext
@@ -11882,7 +11882,7 @@ tarr
 )
 >
 static
-JSBool
+bool
 Getter
 (
 JSContext
@@ -12366,7 +12366,7 @@ true
 ;
 }
 static
-JSBool
+bool
 fun_subarray
 (
 JSContext
@@ -12769,7 +12769,7 @@ true
 ;
 }
 static
-JSBool
+bool
 fun_move
 (
 JSContext
@@ -13188,7 +13188,7 @@ true
 ;
 }
 static
-JSBool
+bool
 fun_set
 (
 JSContext
@@ -16901,7 +16901,7 @@ template
 typename
 T
 >
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -18181,7 +18181,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -19595,7 +19595,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -19720,7 +19720,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -19845,7 +19845,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -19970,7 +19970,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -20095,7 +20095,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -20220,7 +20220,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -20348,7 +20348,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -20476,7 +20476,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -20598,7 +20598,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -20720,7 +20720,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -20842,7 +20842,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -20964,7 +20964,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -21086,7 +21086,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -21208,7 +21208,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -21330,7 +21330,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -21452,7 +21452,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -24321,7 +24321,7 @@ DataViewObject
 view
 )
 >
-JSBool
+bool
 DataViewObject
 :
 :

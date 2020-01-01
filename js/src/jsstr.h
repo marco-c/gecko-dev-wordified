@@ -1916,7 +1916,7 @@ cpp
 *
 /
 extern
-JSBool
+bool
 str_replace
 (
 JSContext
@@ -1933,7 +1933,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 str_fromCharCode
 (
 JSContext
@@ -1954,7 +1954,7 @@ js
 *
 /
 extern
-JSBool
+bool
 js_str_toString
 (
 JSContext
@@ -1971,7 +1971,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_str_charAt
 (
 JSContext
@@ -1988,7 +1988,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_str_charCodeAt
 (
 JSContext
@@ -2399,7 +2399,7 @@ size_t
 )
 ;
 }
-JSBool
+bool
 str_match
 (
 JSContext
@@ -2412,7 +2412,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 str_search
 (
 JSContext
@@ -2425,7 +2425,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 str_split
 (
 JSContext
@@ -2446,7 +2446,7 @@ js
 *
 /
 extern
-JSBool
+bool
 js_String
 (
 JSContext

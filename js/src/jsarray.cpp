@@ -5787,7 +5787,8 @@ return
 true
 ;
 }
-JSBool
+static
+bool
 array_toSource
 (
 JSContext
@@ -6611,7 +6612,7 @@ ES3
 *
 /
 static
-JSBool
+bool
 array_toString
 (
 JSContext
@@ -6831,7 +6832,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 array_toLocaleString
 (
 JSContext
@@ -6882,7 +6883,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 array_join
 (
 JSContext
@@ -7567,7 +7568,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_reverse
 (
 JSContext
@@ -10882,7 +10883,7 @@ namespace
 anonymous
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -12190,7 +12191,7 @@ ES5
 7
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -12562,7 +12563,7 @@ draft
 .
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -12941,7 +12942,7 @@ ES5
 9
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -13398,7 +13399,7 @@ newlen
 ;
 }
 static
-JSBool
+bool
 array_unshift
 (
 JSContext
@@ -14393,7 +14394,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 array_splice
 (
 JSContext
@@ -16072,7 +16073,7 @@ operations
 .
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -16573,7 +16574,7 @@ length
 ;
 }
 static
-JSBool
+bool
 array_slice
 (
 JSContext
@@ -17010,7 +17011,7 @@ ES5
 *
 /
 static
-JSBool
+bool
 array_filter
 (
 JSContext
@@ -17509,7 +17510,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_isArray
 (
 JSContext
@@ -17785,7 +17786,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_of
 (
 JSContext
@@ -18648,7 +18649,7 @@ ES5
 2
 *
 /
-JSBool
+bool
 js_Array
 (
 JSContext
@@ -20353,7 +20354,7 @@ arr
 #
 ifdef
 DEBUG
-JSBool
+bool
 js_ArrayInfo
 (
 JSContext

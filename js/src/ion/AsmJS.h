@@ -699,7 +699,7 @@ dynamically
 disabled
 :
 extern
-JSBool
+bool
 IsAsmJSCompilationAvailable
 (
 JSContext
@@ -721,7 +721,7 @@ else
 /
 JS_ION
 inline
-JSBool
+bool
 IsAsmJSCompilationAvailable
 (
 JSContext

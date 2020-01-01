@@ -216,7 +216,7 @@ indirect
 eval
 .
 extern
-JSBool
+bool
 IndirectEval
 (
 JSContext

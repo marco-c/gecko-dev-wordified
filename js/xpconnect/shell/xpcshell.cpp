@@ -1676,7 +1676,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ReadLine
 (
 JSContext
@@ -1936,7 +1936,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Print
 (
 JSContext
@@ -2076,7 +2076,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Dump
 (
 JSContext
@@ -2188,7 +2188,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Load
 (
 JSContext
@@ -2465,7 +2465,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Version
 (
 JSContext
@@ -2545,7 +2545,7 @@ true
 ;
 }
 static
-JSBool
+bool
 BuildDate
 (
 JSContext
@@ -2588,7 +2588,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Quit
 (
 JSContext
@@ -2676,7 +2676,7 @@ xpcshell
 binary
 .
 static
-JSBool
+bool
 IgnoreReportedErrors
 (
 JSContext
@@ -2746,7 +2746,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DumpXPC
 (
 JSContext
@@ -2836,7 +2836,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GC
 (
 JSContext
@@ -2889,7 +2889,7 @@ true
 ifdef
 JS_GC_ZEAL
 static
-JSBool
+bool
 GCZeal
 (
 JSContext
@@ -2957,7 +2957,7 @@ endif
 ifdef
 DEBUG
 static
-JSBool
+bool
 DumpHeap
 (
 JSContext
@@ -3455,7 +3455,7 @@ DEBUG
 *
 /
 static
-JSBool
+bool
 SendCommand
 (
 JSContext
@@ -3884,7 +3884,7 @@ return
 ;
 }
 static
-JSBool
+bool
 Options
 (
 JSContext
@@ -4162,7 +4162,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Parent
 (
 JSContext
@@ -4253,7 +4253,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Atob
 (
 JSContext
@@ -4299,7 +4299,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 Btoa
 (
 JSContext
@@ -4345,7 +4345,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 Blob
 (
 JSContext
@@ -4584,7 +4584,7 @@ true
 ;
 }
 static
-JSBool
+bool
 File
 (
 JSContext
@@ -4939,7 +4939,7 @@ toBoolean
 ;
 }
 static
-JSBool
+bool
 SetOperationCallback
 (
 JSContext
@@ -5102,7 +5102,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SimulateActivityCallback
 (
 JSContext

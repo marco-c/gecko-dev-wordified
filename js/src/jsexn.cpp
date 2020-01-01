@@ -315,7 +315,7 @@ initializer
 *
 /
 static
-JSBool
+bool
 Exception
 (
 JSContext
@@ -3419,7 +3419,7 @@ filename
 ;
 }
 static
-JSBool
+bool
 Exception
 (
 JSContext
@@ -3976,7 +3976,7 @@ errata
 *
 /
 static
-JSBool
+bool
 exn_toString
 (
 JSContext
@@ -4468,7 +4468,7 @@ object
 *
 /
 static
-JSBool
+bool
 exn_toSource
 (
 JSContext

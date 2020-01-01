@@ -1134,7 +1134,7 @@ aFunctionName
 )
 ;
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -1387,7 +1387,7 @@ true
 ;
 }
 static
-JSBool
+bool
 UnwrapErrorEvent
 (
 JSContext
@@ -2232,7 +2232,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Close
 (
 JSContext
@@ -2305,7 +2305,7 @@ aCx
 ;
 }
 static
-JSBool
+bool
 ImportScripts
 (
 JSContext
@@ -2394,7 +2394,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SetTimeout
 (
 JSContext
@@ -2512,7 +2512,7 @@ false
 ;
 }
 static
-JSBool
+bool
 ClearTimeout
 (
 JSContext
@@ -2613,7 +2613,7 @@ id
 ;
 }
 static
-JSBool
+bool
 SetInterval
 (
 JSContext
@@ -2832,7 +2832,7 @@ id
 ;
 }
 static
-JSBool
+bool
 Dump
 (
 JSContext
@@ -2977,7 +2977,7 @@ true
 ;
 }
 static
-JSBool
+bool
 AtoB
 (
 JSContext
@@ -3121,7 +3121,7 @@ true
 ;
 }
 static
-JSBool
+bool
 BtoA
 (
 JSContext
@@ -4229,7 +4229,7 @@ NULL
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -4452,7 +4452,7 @@ aTrc
 }
 }
 static
-JSBool
+bool
 PostMessage
 (
 JSContext

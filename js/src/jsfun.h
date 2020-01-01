@@ -2830,7 +2830,7 @@ namespace
 js
 {
 extern
-JSBool
+bool
 Function
 (
 JSContext
@@ -3345,7 +3345,7 @@ CallReceiver
 call
 )
 ;
-JSBool
+bool
 CallOrConstructBoundFunction
 (
 JSContext
@@ -3373,7 +3373,7 @@ js
 *
 /
 extern
-JSBool
+bool
 js_fun_apply
 (
 JSContext
@@ -3390,7 +3390,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_fun_call
 (
 JSContext

@@ -3403,7 +3403,7 @@ host
 javascript
 implementation
 static
-JSBool
+bool
 PACDnsResolve
 (
 JSContext
@@ -3568,7 +3568,7 @@ myIpAddress
 javascript
 implementation
 static
-JSBool
+bool
 PACMyIpAddress
 (
 JSContext
@@ -3635,7 +3635,7 @@ object
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -3657,7 +3657,7 @@ msg
 javascript
 implementation
 static
-JSBool
+bool
 PACProxyAlert
 (
 JSContext

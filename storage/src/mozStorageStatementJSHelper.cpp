@@ -275,7 +275,7 @@ storage
 Global
 Functions
 static
-JSBool
+bool
 stepFunc
 (
 JSContext
@@ -324,7 +324,7 @@ obj
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 nsresult
@@ -372,7 +372,7 @@ statement
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -483,7 +483,7 @@ Reset
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -513,7 +513,7 @@ error
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -525,7 +525,7 @@ hasMore
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
