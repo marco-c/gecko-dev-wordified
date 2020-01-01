@@ -409,6 +409,13 @@ functions
 *
 /
 #
+include
+"
+jsscan
+.
+h
+"
+#
 define
 JSON_MAX_DEPTH
 2048
@@ -530,11 +537,9 @@ jsval
 rootVal
 ;
 JSStringBuffer
-*
 objectKey
 ;
 JSStringBuffer
-*
 buffer
 ;
 JSObject
