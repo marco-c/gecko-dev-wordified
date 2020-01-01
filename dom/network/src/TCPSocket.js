@@ -369,7 +369,7 @@ type
 ;
 this
 .
-_socket
+_target
 =
 sock
 ;
@@ -393,7 +393,7 @@ type
 '
 r
 '
-socket
+target
 :
 '
 r
@@ -416,14 +416,14 @@ _type
 ;
 }
 get
-socket
+target
 (
 )
 {
 return
 this
 .
-_socket
+_target
 ;
 }
 get
@@ -1213,7 +1213,7 @@ self
 callListener
 (
 "
-onerror
+error
 "
 err
 )
@@ -1223,7 +1223,7 @@ self
 callListener
 (
 "
-onclose
+close
 "
 )
 ;
@@ -1266,7 +1266,7 @@ self
 callListener
 (
 "
-ondrain
+drain
 "
 )
 ;
@@ -1301,7 +1301,7 @@ self
 callListener
 (
 "
-onclose
+close
 "
 )
 ;
@@ -1327,6 +1327,10 @@ if
 !
 this
 [
+"
+on
+"
++
 type
 ]
 )
@@ -1334,6 +1338,10 @@ return
 ;
 this
 [
+"
+on
+"
++
 type
 ]
 .
@@ -3013,7 +3021,7 @@ this
 callListener
 (
 "
-onopen
+open
 "
 )
 ;
@@ -3111,7 +3119,7 @@ this
 callListener
 (
 "
-onerror
+error
 "
 new
 Error
@@ -3298,7 +3306,7 @@ this
 callListener
 (
 "
-onerror
+error
 "
 err
 )
@@ -3309,7 +3317,7 @@ this
 callListener
 (
 "
-onclose
+close
 "
 )
 ;
@@ -3391,7 +3399,7 @@ this
 callListener
 (
 "
-ondata
+data
 "
 ua
 )
@@ -3404,7 +3412,7 @@ this
 callListener
 (
 "
-ondata
+data
 "
 this
 .
@@ -3570,7 +3578,7 @@ _socket
 callListener
 (
 "
-onerror
+error
 "
 status
 )
