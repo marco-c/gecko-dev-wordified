@@ -1040,6 +1040,15 @@ aActive
 )
 ;
 virtual
+PRBool
+ShowsResizeIndicator
+(
+nsIntRect
+*
+aResizerRect
+)
+;
+virtual
 void
 ConvertToDeviceCoordinates
 (

@@ -2311,6 +2311,15 @@ EndResizingChildren
 void
 )
 ;
+virtual
+PRBool
+ShowsResizeIndicator
+(
+nsIntRect
+*
+aResizerRect
+)
+;
 static
 PRBool
 ConvertStatus
