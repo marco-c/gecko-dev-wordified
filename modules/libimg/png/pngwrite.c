@@ -21,9 +21,9 @@ libpng
 .
 2
 .
-15
-January
-5
+24
+December
+14
 2007
 *
 For
@@ -6774,6 +6774,9 @@ png_ptr
 row_buf
 )
 ;
+#
+ifndef
+PNG_NO_WRITE_FILTERING
 png_free
 (
 png_ptr
@@ -6819,6 +6822,8 @@ png_ptr
 paeth_row
 )
 ;
+#
+endif
 #
 if
 defined

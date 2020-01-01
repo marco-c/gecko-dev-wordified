@@ -17,10 +17,10 @@ version
 .
 2
 .
-23
+24
 -
-November
-6
+December
+14
 2007
 *
 For
@@ -2054,7 +2054,7 @@ INSTALL
 .
 *
 /
-__png
+__pngconf
 .
 h__
 already
@@ -2103,8 +2103,13 @@ __linux__
 ifdef
 PNG_SAVE_BSD_SOURCE
 #
+ifndef
+_BSD_SOURCE
+#
 define
 _BSD_SOURCE
+#
+endif
 #
 undef
 PNG_SAVE_BSD_SOURCE

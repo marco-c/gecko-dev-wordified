@@ -122,8 +122,8 @@ path
 *
 /
 typedef
-version_1_2_23
-Your_png_h_is_not_version_1_2_23
+version_1_2_24
+Your_png_h_is_not_version_1_2_24
 ;
 /
 *
@@ -4308,10 +4308,10 @@ version
 .
 2
 .
-23
+24
 -
-November
-6
+December
+14
 2007
 \
 n
