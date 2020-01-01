@@ -1118,6 +1118,15 @@ return
 mInverted
 ;
 }
+static
+nsNPAPIPluginInstance
+*
+GetFromNPP
+(
+NPP
+npp
+)
+;
 #
 endif
 nsresult
