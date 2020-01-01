@@ -346,13 +346,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
