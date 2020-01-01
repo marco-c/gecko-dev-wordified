@@ -6687,14 +6687,6 @@ GetJSContext
 const
 ;
 inline
-JSContext
-*
-GetSafeJSContext
-(
-)
-const
-;
-inline
 JSBool
 GetContextPopRequired
 (
