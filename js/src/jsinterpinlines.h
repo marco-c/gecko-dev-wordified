@@ -2860,16 +2860,13 @@ RootedPropertyName
 name
 (
 cx
-)
-;
-name
-=
 GetNameFromBytecode
 (
 cx
 script
 pc
 op
+)
 )
 ;
 cx
