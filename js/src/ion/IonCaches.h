@@ -2292,13 +2292,12 @@ JSContext
 cx
 size_t
 cacheIndex
-JSObject
-*
+HandleObject
 obj
-const
-Value
-&
+HandleValue
 value
+bool
+isSetName
 )
 ;
 bool
