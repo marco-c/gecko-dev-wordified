@@ -182,13 +182,12 @@ getHudByWindow
 content
 )
 ;
-HUDService
-.
-clearDisplay
-(
 hud
 .
-hudId
+jsterm
+.
+clearOutput
+(
 )
 ;
 let
