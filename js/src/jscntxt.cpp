@@ -1989,10 +1989,9 @@ toFunction
 )
 -
 >
-flags
-|
-=
-JSFUN_SELF_HOSTED_CTOR
+setIsSelfHostedConstructor
+(
+)
 ;
 return
 true

@@ -31437,7 +31437,10 @@ Zero
 tmp
 Imm32
 (
-JSFUN_INTERPRETED
+JSFunction
+:
+:
+INTERPRETED
 )
 )
 ;
