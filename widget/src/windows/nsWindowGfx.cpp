@@ -7511,6 +7511,9 @@ r
 NULL
 )
 ;
+#
+ifdef
+WINCE_WINDOWS_MOBILE
 if
 (
 FAILED
@@ -7581,6 +7584,8 @@ i
 height
 )
 ;
+#
+endif
 }
 result
 =
@@ -7588,6 +7593,9 @@ PR_TRUE
 ;
 cleanup
 :
+#
+ifdef
+WINCE_WINDOWS_MOBILE
 /
 /
 re
@@ -7617,6 +7625,8 @@ get
 )
 )
 ;
+#
+endif
 :
 :
 EndPaint
