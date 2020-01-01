@@ -34763,6 +34763,12 @@ target
 =
 nsnull
 ;
+nsWeakView
+weakView
+(
+aView
+)
+;
 /
 /
 1
@@ -35005,7 +35011,11 @@ GetCurrentEventFrame
 (
 )
 aStatus
-aView
+weakView
+.
+GetView
+(
+)
 )
 ;
 }
