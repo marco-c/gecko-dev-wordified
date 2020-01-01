@@ -566,6 +566,13 @@ stddef
 .
 h
 >
+#
+include
+"
+jsstdint
+.
+h
+"
 /
 *
 *
