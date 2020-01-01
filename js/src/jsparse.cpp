@@ -38895,6 +38895,13 @@ LIST
 to
 BINARY
 .
+pn1
+=
+pn
+-
+>
+pn_head
+;
 if
 (
 pn
@@ -38906,13 +38913,6 @@ pn_count
 2
 )
 {
-pn1
-=
-pn
--
->
-pn_head
-;
 pn2
 =
 pn1
