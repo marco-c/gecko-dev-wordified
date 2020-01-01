@@ -589,6 +589,9 @@ mRunningEventLoop
 PRPackedBool
 mTerminated
 ;
+PRPackedBool
+mSkippedNativeCallback
+;
 }
 ;
 #

@@ -572,6 +572,9 @@ mCFRunLoopSource
 PRBool
 mRunningEventLoop
 ;
+PRBool
+mSkippedNativeCallback
+;
 }
 ;
 #
