@@ -6071,6 +6071,15 @@ pagey
 )
 GK_ATOM
 (
+paint_order
+"
+paint
+-
+order
+"
+)
+GK_ATOM
+(
 palettename
 "
 palettename

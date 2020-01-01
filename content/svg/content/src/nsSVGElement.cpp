@@ -6090,6 +6090,13 @@ fill_rule
 nsGkAtoms
 :
 :
+paint_order
+}
+{
+&
+nsGkAtoms
+:
+:
 stroke
 }
 {
