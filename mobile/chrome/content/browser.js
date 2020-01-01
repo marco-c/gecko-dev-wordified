@@ -5451,6 +5451,7 @@ null
 addTab
 :
 function
+browser_addTab
 (
 aURI
 aBringFront
@@ -9972,6 +9973,7 @@ browser
 openURI
 :
 function
+browser_openURI
 (
 aURI
 aOpener
@@ -10005,6 +10007,7 @@ null
 openURIInFrame
 :
 function
+browser_openURIInFrame
 (
 aURI
 aOpener
