@@ -5319,7 +5319,10 @@ JS_ASSERT
 object
 -
 >
-isModule
+is
+<
+Module
+>
 (
 )
 )

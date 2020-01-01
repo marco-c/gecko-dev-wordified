@@ -1573,7 +1573,10 @@ return
 object
 -
 >
-asModule
+as
+<
+Module
+>
 (
 )
 ;
