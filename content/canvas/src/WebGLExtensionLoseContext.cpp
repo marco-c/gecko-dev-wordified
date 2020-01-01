@@ -517,7 +517,6 @@ LoseContext
 (
 )
 )
-return
 mContext
 -
 >
@@ -547,7 +546,6 @@ RestoreContext
 (
 )
 )
-return
 mContext
 -
 >
