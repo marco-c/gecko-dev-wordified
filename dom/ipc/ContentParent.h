@@ -1469,7 +1469,7 @@ mIsAlive
 ;
 nsCOMPtr
 <
-nsIPrefServiceInternal
+nsIPrefService
 >
 mPrefService
 ;
