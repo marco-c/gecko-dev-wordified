@@ -15354,6 +15354,17 @@ gfxContext
 backSurface
 )
 ;
+tmpCtx
+-
+>
+SetOperator
+(
+gfxContext
+:
+:
+OPERATOR_SOURCE
+)
+;
 PaintContext
 (
 pat
