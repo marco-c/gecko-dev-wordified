@@ -11833,10 +11833,10 @@ FREE_UPVAR_COOKIE
 #
 endif
 }
+OBJ_SCOPE
+(
 blockObj
--
->
-map
+)
 -
 >
 freeslot

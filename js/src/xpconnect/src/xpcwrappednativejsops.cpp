@@ -8215,7 +8215,7 @@ if
 !
 XPC_WN_NoCall_JSOps
 .
-newObjectMap
+lookupProperty
 )
 {
 memcpy

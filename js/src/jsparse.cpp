@@ -18780,10 +18780,10 @@ return
 JS_FALSE
 ;
 }
+OBJ_SCOPE
+(
 blockObj
--
->
-map
+)
 -
 >
 freeslot

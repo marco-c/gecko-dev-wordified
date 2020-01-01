@@ -4507,15 +4507,11 @@ n
 scope
 -
 >
-map
-.
 freeslot
 )
 scope
 -
 >
-map
-.
 freeslot
 =
 n
