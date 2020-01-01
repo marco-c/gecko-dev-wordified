@@ -647,6 +647,8 @@ or
 objects
 with
 optional
+/
+/
 properties
 _getEdits
 :
@@ -1011,7 +1013,6 @@ parents
 }
 for
 (
-let
 GUID
 in
 b
@@ -1325,7 +1326,6 @@ false
 }
 for
 (
-let
 key
 in
 b
@@ -3509,6 +3509,7 @@ return
 this
 .
 __cookieManager
+;
 }
 _itemExists
 :
