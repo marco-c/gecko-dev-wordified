@@ -214,7 +214,7 @@ ImageView
 .
 ScaleType
 .
-FIT_XY
+FIT_CENTER
 )
 ;
 }
