@@ -4359,7 +4359,10 @@ important
 }
 video
 >
-div
+.
+caption
+-
+box
 {
 text
 -
@@ -4389,7 +4392,10 @@ none
 video
 >
 div
-p
+.
+caption
+-
+text
 {
 color
 :
