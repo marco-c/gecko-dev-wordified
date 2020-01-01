@@ -3144,6 +3144,7 @@ memberName
 *
 Only
 one
+of
 memberId
 or
 memberName
