@@ -1136,7 +1136,9 @@ AXWebArea
 /
 /
 ROLE_DOCUMENT_FRAME
-NSAccessibilityStaticTextRole
+"
+AXHeading
+"
 /
 /
 ROLE_HEADING
