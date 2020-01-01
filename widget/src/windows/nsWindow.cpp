@@ -34803,6 +34803,12 @@ newWidth
 &
 !
 newHeight
+&
+&
+IsIconic
+(
+mWnd
+)
 )
 {
 result
