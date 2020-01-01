@@ -3817,6 +3817,12 @@ NS_IF_RELEASE
 gTextEvent
 )
 ;
+:
+:
+DestroyCaret
+(
+)
+;
 if
 (
 !

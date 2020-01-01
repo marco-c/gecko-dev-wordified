@@ -5768,6 +5768,13 @@ endFrameUnused
 &
 boundsRect
 )
+|
+|
+boundsRect
+.
+IsEmpty
+(
+)
 )
 {
 return

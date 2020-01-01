@@ -2307,7 +2307,7 @@ directly
 .
 nsRootAccessible
 *
-foo
+rootAccessible
 ;
 accDoc
 -
@@ -2324,14 +2324,14 @@ void
 *
 )
 &
-foo
+rootAccessible
 )
 ;
 /
 /
 addrefs
 return
-foo
+rootAccessible
 ;
 }
 nsIFrame
