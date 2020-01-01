@@ -135,13 +135,6 @@ initialized
 *
 /
 PMH_EXTERN
-boolean
-sip_sdp_init
-(
-void
-)
-;
-PMH_EXTERN
 sdp_t
 *
 sipsdp_create
