@@ -14108,6 +14108,13 @@ aConditionMet
 )
 )
 {
+SkipUntil
+(
+'
+)
+'
+)
+;
 return
 false
 ;
