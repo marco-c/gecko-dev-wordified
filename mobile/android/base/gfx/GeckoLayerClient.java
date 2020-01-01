@@ -1361,7 +1361,7 @@ currentOrigin
 =
 mNewGeckoViewport
 .
-getDisplayportOrigin
+getOrigin
 (
 )
 ;
@@ -1871,11 +1871,11 @@ viewportSize
 )
 ;
 PointF
-displayportOrigin
+origin
 =
 mGeckoViewport
 .
-getDisplayportOrigin
+getOrigin
 (
 )
 ;
@@ -1887,7 +1887,7 @@ PointUtils
 .
 round
 (
-displayportOrigin
+origin
 )
 )
 ;
