@@ -389,6 +389,8 @@ cairo
 -
 fixed
 -
+type
+-
 private
 .
 h
@@ -1061,7 +1063,7 @@ typedef
 struct
 _cairo_point_int32
 {
-int16_t
+int32_t
 x
 y
 ;

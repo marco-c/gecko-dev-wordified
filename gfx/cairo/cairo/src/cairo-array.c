@@ -2212,8 +2212,7 @@ degenerate
 objects
 such
 as
-*
-cairo_image_surface_nil
+cairo_surface_nil
 .
 *
 /

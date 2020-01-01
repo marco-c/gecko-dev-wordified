@@ -1151,6 +1151,7 @@ matrix
 ;
 }
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_transform_point_3d
 (
@@ -1799,7 +1800,7 @@ width
 int
 height
 uint32_t
-xor
+_xor
 )
 ;
 /
