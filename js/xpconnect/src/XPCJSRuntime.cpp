@@ -13330,6 +13330,10 @@ mLastActiveTime
 -
 1
 )
+mExceptionManagerNotAvailable
+(
+false
+)
 {
 #
 ifdef
