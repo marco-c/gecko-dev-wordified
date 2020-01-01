@@ -12721,7 +12721,6 @@ JSContext
 JSStackFrame
 *
 uintN
-uintN
 )
 ;
 /

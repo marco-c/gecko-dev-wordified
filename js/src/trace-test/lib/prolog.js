@@ -51,7 +51,7 @@ tracemonkey
 .
 HOTLOOP
 :
-8
+2
 ;
 const
 RECORDLOOP
