@@ -10343,7 +10343,6 @@ js_LexicalLookup
 tc
 atom
 NULL
-0
 )
 ;
 ATOM_LIST_SEARCH

@@ -4418,8 +4418,6 @@ atom
 jsint
 *
 slotp
-uintN
-declType
 )
 ;
 /
