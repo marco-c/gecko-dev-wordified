@@ -1066,6 +1066,14 @@ GetNext
 (
 )
 ;
+if
+(
+!
+row
+)
+return
+NS_OK
+;
 AccIterator
 cellIter
 (

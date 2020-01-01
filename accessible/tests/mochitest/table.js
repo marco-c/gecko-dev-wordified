@@ -338,8 +338,15 @@ aCellsArray
 [
 0
 ]
+?
+aCellsArray
+[
+0
+]
 .
 length
+:
+0
 ;
 /
 /
