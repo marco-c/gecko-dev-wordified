@@ -4720,7 +4720,9 @@ GeckoApp
 .
 mAppContext
 gProximitySensor
-sDefaultSensorHint
+SensorManager
+.
+SENSOR_DELAY_NORMAL
 )
 ;
 break

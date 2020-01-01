@@ -601,6 +601,10 @@ PopupBlockedEvent
 )
 DOMCI_CLASS
 (
+DeviceProximityEvent
+)
+DOMCI_CLASS
+(
 DeviceOrientationEvent
 )
 DOMCI_CLASS
