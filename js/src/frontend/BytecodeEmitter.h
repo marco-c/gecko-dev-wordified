@@ -555,7 +555,7 @@ source
 note
 *
 /
-uint32_t
+unsigned
 currentLine
 ;
 /
@@ -570,7 +570,7 @@ srcnote
 gen
 *
 /
-uint32_t
+unsigned
 lastColumn
 ;
 /
@@ -595,8 +595,8 @@ EmitSection
 JSContext
 *
 cx
-uint32_t
-lineNum
+unsigned
+lineno
 )
 :
 code
@@ -613,7 +613,7 @@ lastNoteOffset
 )
 currentLine
 (
-lineNum
+lineno
 )
 lastColumn
 (
@@ -1037,8 +1037,8 @@ HandleScript
 evalCaller
 bool
 hasGlobalScope
-uint32_t
-lineNum
+unsigned
+lineno
 bool
 selfHostingMode
 =
