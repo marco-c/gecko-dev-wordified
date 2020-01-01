@@ -9377,7 +9377,7 @@ js
 /
 extern
 void
-js_PrintObjectSlotName
+js_GetObjectSlotName
 (
 JSTracer
 *

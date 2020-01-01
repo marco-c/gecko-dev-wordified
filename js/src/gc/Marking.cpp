@@ -875,9 +875,6 @@ NULL
 )
 ;
 }
-#
-ifdef
-DEBUG
 trc
 -
 >
@@ -892,8 +889,6 @@ debugPrintArg
 =
 NULL
 ;
-#
-endif
 }
 #
 define
@@ -2464,7 +2459,7 @@ i
 JS_SET_TRACING_DETAILS
 (
 trc
-js_PrintObjectSlotName
+js_GetObjectSlotName
 obj
 i
 )
