@@ -3345,11 +3345,35 @@ members
 [
 ]
         
+#
+namedConstructors
+needs
+deterministic
+ordering
+because
+bindings
+code
+        
+#
+outputs
+the
+constructs
+in
+the
+order
+that
+namedConstructors
+enumerates
+        
+#
+them
+.
+        
 self
 .
 namedConstructors
 =
-set
+list
 (
 )
         
@@ -6303,7 +6327,7 @@ self
 .
 namedConstructors
 .
-add
+append
 (
 method
 )
