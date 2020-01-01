@@ -6905,6 +6905,11 @@ NS_DECLARE_FRAME_PROPERTY
 UsedBorderProperty
 DestroyMargin
 )
+NS_DECLARE_FRAME_PROPERTY
+(
+ScrollLayerCount
+nsnull
+)
 /
 *
 *
