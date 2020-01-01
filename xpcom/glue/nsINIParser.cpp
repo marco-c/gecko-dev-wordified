@@ -721,9 +721,6 @@ nsILocalFile
 aFile
 )
 {
-nsresult
-rv
-;
 /
 *
 open
@@ -764,6 +761,7 @@ XP_WIN
 nsAutoString
 path
 ;
+nsresult
 rv
 =
 aFile
@@ -797,8 +795,6 @@ else
 nsCAutoString
 path
 ;
-rv
-=
 aFile
 -
 >
