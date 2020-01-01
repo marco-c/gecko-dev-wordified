@@ -3268,7 +3268,7 @@ opacity
 }
 richgriditem
 [
-customColorPresent
+customColor
 ]
 {
 color
@@ -3279,7 +3279,7 @@ f1f1f1
 }
 richgriditem
 [
-customImagePresent
+customImage
 ]
 {
 color
@@ -3290,7 +3290,7 @@ color
 }
 richgriditem
 [
-customColorPresent
+customColor
 ]
 .
 richgrid
@@ -3320,7 +3320,7 @@ item
 -
 content
 [
-customImagePresent
+customImage
 ]
 {
 height
@@ -3384,7 +3384,7 @@ icon
 -
 container
 [
-customImagePresent
+customImage
 ]
 {
 visibility
@@ -3433,7 +3433,7 @@ item
 -
 content
 [
-customImagePresent
+customImage
 ]
 >
 .
