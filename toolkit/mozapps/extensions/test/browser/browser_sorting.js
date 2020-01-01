@@ -390,7 +390,7 @@ length
 -
 18
 )
-!
+=
 =
 "
 tests
@@ -400,8 +400,6 @@ mozilla
 org
 "
 )
-return
-;
 order
 .
 push
