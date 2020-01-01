@@ -20,11 +20,11 @@ libpng
 .
 5
 .
-7
+10
 [
-December
-15
-2011
+March
+8
+2012
 ]
 *
 Copyright
@@ -33,7 +33,7 @@ c
 )
 1998
 -
-2011
+2012
 Glenn
 Randers
 -
@@ -132,8 +132,8 @@ path
 *
 /
 typedef
-png_libpng_version_1_5_9
-Your_png_h_is_not_version_1_5_9
+png_libpng_version_1_5_10
+Your_png_h_is_not_version_1_5_10
 ;
 /
 *
@@ -3881,10 +3881,10 @@ version
 .
 5
 .
-9
+10
 -
-February
-18
+March
+29
 2012
 "
 PNG_STRING_NEWLINE
@@ -3946,10 +3946,10 @@ version
 .
 5
 .
-9
+10
 -
-February
-18
+March
+29
 2012
 \
 Copyright
@@ -10241,6 +10241,8 @@ double
 d
 =
 1
+.
+0
 ;
 /
 *
@@ -10312,6 +10314,8 @@ double
 mult
 =
 10
+.
+0
 ;
 do
 {
@@ -11099,6 +11103,8 @@ fp
 *
 =
 10
+.
+0
 ;
 /
 *
@@ -11187,6 +11193,8 @@ if
 d
 >
 9
+.
+0
 )
 {
 /
@@ -11239,6 +11247,8 @@ cdigits
 d
 >
 9
+.
+0
 )
 {
 int
@@ -11367,6 +11377,8 @@ if
 d
 >
 9
+.
+0
 )
 /
 *
@@ -11481,6 +11493,8 @@ a
 d
 =
 1
+.
+0
 ;
 }
 }
@@ -11503,6 +11517,8 @@ if
 d
 =
 =
+0
+.
 0
 )
 {
