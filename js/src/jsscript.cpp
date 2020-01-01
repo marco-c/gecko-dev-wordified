@@ -1976,8 +1976,6 @@ oldscript
 script
 -
 >
-u
-.
 object
 =
 obj
@@ -5136,8 +5134,6 @@ oldscript
 script
 -
 >
-u
-.
 object
 =
 obj
@@ -10015,8 +10011,6 @@ if
 script
 -
 >
-u
-.
 object
 )
 {
@@ -10034,8 +10028,6 @@ trc
 script
 -
 >
-u
-.
 object
 JSTRACE_OBJECT
 )
