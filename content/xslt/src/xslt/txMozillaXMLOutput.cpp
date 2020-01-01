@@ -804,7 +804,7 @@ aFormat
 nsIDOMDocumentFragment
 *
 aFragment
-PRBool
+bool
 aNoFixup
 )
 :
@@ -1224,7 +1224,7 @@ const
 nsSubstring
 &
 aData
-PRBool
+bool
 aDOE
 )
 {
@@ -1983,10 +1983,10 @@ SetEnableUpdates
 PR_TRUE
 )
 ;
-PRBool
+bool
 willNotify
 ;
-PRBool
+bool
 isAlternate
 ;
 nsresult
@@ -2398,10 +2398,10 @@ SetEnableUpdates
 PR_TRUE
 )
 ;
-PRBool
+bool
 willNotify
 ;
-PRBool
+bool
 isAlternate
 ;
 rv
@@ -3109,7 +3109,7 @@ txMozillaXMLOutput
 :
 closePrevious
 (
-PRBool
+bool
 aFlushText
 )
 {
@@ -3123,7 +3123,7 @@ if
 mOpenedElement
 )
 {
-PRBool
+bool
 currentIsDoc
 =
 mCurrentNode
@@ -3724,7 +3724,7 @@ startHTMLElement
 nsIContent
 *
 aElement
-PRBool
+bool
 aIsHTML
 )
 {
@@ -4578,10 +4578,10 @@ NS_ENSURE_STATE
 source
 )
 ;
-PRBool
+bool
 hasHadScriptObject
 =
-PR_FALSE
+false
 ;
 nsIScriptGlobalObject
 *
@@ -5362,7 +5362,7 @@ aResult
 nsIScriptElement
 *
 aElement
-PRBool
+bool
 aIsInline
 nsIURI
 *
@@ -5407,7 +5407,7 @@ aResult
 nsIScriptElement
 *
 aElement
-PRBool
+bool
 aIsInline
 )
 {
@@ -5439,7 +5439,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aWasAlternate
 nsresult
 aStatus

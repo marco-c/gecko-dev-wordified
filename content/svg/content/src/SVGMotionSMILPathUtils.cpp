@@ -633,7 +633,7 @@ in
 values
 '
 .
-PRBool
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -720,7 +720,7 @@ except
 the
 first
 .
-PRBool
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -808,7 +808,7 @@ For
 by
 '
 .
-PRBool
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -978,7 +978,7 @@ Helper
 /
 protected
 methods
-PRBool
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -1240,7 +1240,7 @@ nsAString
 aValueStr
 )
 {
-PRBool
+bool
 success
 ;
 if

@@ -2377,7 +2377,7 @@ tables
 nsresult
 rv
 ;
-PRBool
+bool
 exists
 ;
 rv

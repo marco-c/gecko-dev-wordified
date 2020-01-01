@@ -586,7 +586,7 @@ IsContainer
 (
 PRInt32
 aId
-PRBool
+bool
 &
 aIsContainer
 )
@@ -597,7 +597,7 @@ IsBlock
 (
 PRInt32
 aId
-PRBool
+bool
 &
 aIsBlock
 )
@@ -657,7 +657,7 @@ const
 nsAString
 &
 aQName
-PRBool
+bool
 aNamespaceAware
 const
 PRUnichar
@@ -666,7 +666,7 @@ PRUnichar
 aColon
 )
 ;
-PRBool
+bool
 IsXMLLetter
 (
 PRUnichar
@@ -691,7 +691,7 @@ aChar
 )
 ;
 }
-PRBool
+bool
 IsXMLNCNameChar
 (
 PRUnichar
@@ -817,7 +817,7 @@ observers
 per
 tag
 .
-PRBool
+bool
 mHaveNotifiedCategoryObservers
 ;
 }

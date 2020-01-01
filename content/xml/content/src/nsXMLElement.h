@@ -558,7 +558,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -566,9 +566,9 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 ;
@@ -581,12 +581,12 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32

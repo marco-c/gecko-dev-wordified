@@ -573,7 +573,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-PRBool
+bool
 *
 aIsOverridable
 )
@@ -589,7 +589,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 *
 aShouldRepaint
 )
@@ -599,7 +599,7 @@ ThemeChanged
 (
 )
 ;
-PRBool
+bool
 ThemeSupportsWidget
 (
 nsPresContext
@@ -612,7 +612,7 @@ PRUint8
 aWidgetType
 )
 ;
-PRBool
+bool
 WidgetIsContainer
 (
 PRUint8
@@ -622,7 +622,7 @@ aWidgetType
 virtual
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 GetWidgetPadding
 (
@@ -641,7 +641,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 ThemeDrawsFocusForWidget
 (
@@ -655,7 +655,7 @@ PRUint8
 aWidgetType
 )
 ;
-PRBool
+bool
 ThemeNeedsComboboxDropmarker
 (
 )

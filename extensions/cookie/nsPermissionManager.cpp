@@ -633,7 +633,7 @@ unused
 ha
 !
 static
-PRBool
+bool
 IsChildProcess
 (
 )
@@ -1581,7 +1581,7 @@ nsPermissionManager
 :
 InitDB
 (
-PRBool
+bool
 aRemoveFile
 )
 {
@@ -1633,10 +1633,10 @@ if
 aRemoveFile
 )
 {
-PRBool
+bool
 exists
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -1726,7 +1726,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 ready
 ;
 mDBConn
@@ -1804,10 +1804,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-PRBool
+bool
 tableExists
 =
-PR_FALSE
+false
 ;
 mDBConn
 -
@@ -3910,7 +3910,7 @@ aType
 PRUint32
 *
 aPermission
-PRBool
+bool
 aExactHostMatch
 )
 {
@@ -3990,7 +3990,7 @@ rv
 )
 )
 {
-PRBool
+bool
 isFile
 ;
 rv
@@ -4184,7 +4184,7 @@ nsAFlatCString
 aHost
 PRUint32
 aType
-PRBool
+bool
 aExactHostMatch
 )
 {
@@ -5000,7 +5000,7 @@ const
 char
 *
 aType
-PRBool
+bool
 aAdd
 )
 {
@@ -5440,7 +5440,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -5518,7 +5518,7 @@ expireType
 PRInt64
 expireTime
 ;
-PRBool
+bool
 hasResult
 ;
 while
@@ -5891,10 +5891,10 @@ and
 nsCAutoString
 buffer
 ;
-PRBool
+bool
 isMore
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -6540,7 +6540,7 @@ rv
 )
 )
 {
-PRBool
+bool
 hasResult
 ;
 rv

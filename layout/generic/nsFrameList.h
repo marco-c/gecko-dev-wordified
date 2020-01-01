@@ -1133,7 +1133,7 @@ was
 removed
 *
 /
-PRBool
+bool
 RemoveFrameIfPresent
 (
 nsIFrame
@@ -1313,7 +1313,7 @@ was
 found
 *
 /
-PRBool
+bool
 DestroyFrameIfPresent
 (
 nsIFrame
@@ -1626,7 +1626,7 @@ aFrame
 )
 const
 ;
-PRBool
+bool
 IsEmpty
 (
 )
@@ -1639,7 +1639,7 @@ nsnull
 mFirstChild
 ;
 }
-PRBool
+bool
 NotEmpty
 (
 )
@@ -1652,7 +1652,7 @@ nsnull
 mFirstChild
 ;
 }
-PRBool
+bool
 ContainsFrame
 (
 const
@@ -2228,7 +2228,7 @@ mEnd
 )
 {
 }
-PRBool
+bool
 AtEnd
 (
 )
@@ -2814,7 +2814,7 @@ Next
 )
 ;
 }
-PRBool
+bool
 AtEnd
 (
 )

@@ -717,7 +717,7 @@ mMinSize
 float
 mMaxSize
 ;
-PRBool
+bool
 UseMathMLChar
 (
 )
@@ -802,7 +802,7 @@ as
 a
 selected
 char
-PRBool
+bool
 IsFrameInSelection
 (
 nsIFrame

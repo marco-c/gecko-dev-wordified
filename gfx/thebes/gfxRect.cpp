@@ -440,7 +440,7 @@ nsMathUtils
 h
 "
 static
-PRBool
+bool
 WithinEpsilonOfInteger
 (
 gfxFloat
@@ -467,7 +467,7 @@ aEpsilon
 )
 ;
 }
-PRBool
+bool
 gfxRect
 :
 :

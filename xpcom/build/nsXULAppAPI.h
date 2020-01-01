@@ -3162,7 +3162,7 @@ crash
 server
 XRE_API
 (
-PRBool
+bool
 XRE_TakeMinidumpForChild
 (
 PRUint32
@@ -3182,7 +3182,7 @@ processes
 .
 XRE_API
 (
-PRBool
+bool
 XRE_SetRemoteExceptionHandler
 (
 const

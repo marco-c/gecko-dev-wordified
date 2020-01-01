@@ -528,7 +528,7 @@ GetType
 const
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -637,7 +637,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -660,7 +660,7 @@ aStatus
 )
 ;
 virtual
-PRBool
+bool
 CanContinueTextRun
 (
 )
@@ -684,7 +684,7 @@ GetChildFrameContainingOffset
 (
 PRInt32
 inContentOffset
-PRBool
+bool
 inHint
 PRInt32
 *
@@ -765,7 +765,7 @@ nsIFrame
 *
 *
 aContinuation
-PRBool
+bool
 aIsFluid
 )
 ;

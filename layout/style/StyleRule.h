@@ -614,7 +614,7 @@ nsAtomList
 *
 Clone
 (
-PRBool
+bool
 aDeep
 )
 const
@@ -926,7 +926,7 @@ nsPseudoClassList
 *
 Clone
 (
-PRBool
+bool
 aDeep
 )
 const
@@ -1093,7 +1093,7 @@ const
 nsString
 &
 aValue
-PRBool
+bool
 aCaseSensitive
 )
 ;
@@ -1113,7 +1113,7 @@ const
 nsString
 &
 aValue
-PRBool
+bool
 aCaseSensitive
 )
 ;
@@ -1184,7 +1184,7 @@ mNameSpace
 PRUint8
 mFunction
 ;
-PRPackedBool
+bool
 mCaseSensitive
 ;
 /
@@ -1210,7 +1210,7 @@ nsAttrSelector
 *
 Clone
 (
-PRBool
+bool
 aDeep
 )
 const
@@ -1423,7 +1423,7 @@ const
 nsString
 &
 aValue
-PRBool
+bool
 aCaseSensitive
 )
 ;
@@ -1435,7 +1435,7 @@ aOperator
 )
 ;
 inline
-PRBool
+bool
 HasTagSelector
 (
 )
@@ -1448,7 +1448,7 @@ mCasedTag
 ;
 }
 inline
-PRBool
+bool
 IsPseudoElement
 (
 )
@@ -1493,10 +1493,10 @@ aString
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aAppend
 =
-PR_FALSE
+false
 )
 const
 ;
@@ -1514,9 +1514,9 @@ nsCSSSelector
 *
 Clone
 (
-PRBool
+bool
 aDeepNext
-PRBool
+bool
 aDeepNegations
 )
 const
@@ -1542,7 +1542,7 @@ aString
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aIsNegated
 )
 const
@@ -1580,10 +1580,10 @@ this
 selector
 )
 .
-PRBool
+bool
 CanBeNamespaced
 (
-PRBool
+bool
 aIsNegated
 )
 const
@@ -2105,7 +2105,7 @@ nsCSSSelectorList
 *
 Clone
 (
-PRBool
+bool
 aDeep
 )
 const
@@ -2481,7 +2481,7 @@ DeclarationChanged
 Declaration
 *
 aDecl
-PRBool
+bool
 aHandleContainer
 )
 ;

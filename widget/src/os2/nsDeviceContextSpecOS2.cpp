@@ -792,7 +792,7 @@ InitializeGlobalPrinters
 (
 )
 ;
-PRBool
+bool
 PrintersAreAllocated
 (
 )
@@ -1707,7 +1707,7 @@ aWidget
 nsIPrintSettings
 *
 aPS
-PRBool
+bool
 aIsPrintPreview
 )
 {
@@ -1763,10 +1763,10 @@ if
 aPS
 )
 {
-PRBool
+bool
 tofile
 =
-PR_FALSE
+false
 ;
 PRInt32
 copies
@@ -2222,7 +2222,7 @@ nsDeviceContextSpecOS2
 :
 GetUserCancelled
 (
-PRBool
+bool
 &
 aCancel
 )

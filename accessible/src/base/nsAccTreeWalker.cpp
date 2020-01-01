@@ -863,7 +863,7 @@ aShell
 nsIContent
 *
 aContent
-PRBool
+bool
 aWalkAnonContent
 bool
 aWalkCache
@@ -1308,7 +1308,7 @@ mState
 prevToLastState
 ;
 }
-PRBool
+bool
 nsAccTreeWalker
 :
 :

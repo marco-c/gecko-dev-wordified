@@ -782,7 +782,7 @@ for
 SYNCBASE
 types
 .
-PRPackedBool
+bool
 mSyncBegin
 ;
 /

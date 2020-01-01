@@ -711,7 +711,7 @@ bitMapSize
 nsresult
 Close
 (
-PRBool
+bool
 flush
 )
 ;
@@ -868,7 +868,7 @@ mBitMapWords
 PRInt32
 mFileSize
 ;
-PRBool
+bool
 mBitMapDirty
 ;
 }

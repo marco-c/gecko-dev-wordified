@@ -579,7 +579,7 @@ static
 void
 SetActivityIsLegal
 (
-PRBool
+bool
 aLegal
 )
 ;

@@ -1302,7 +1302,7 @@ T_BOOL
 *
 (
 (
-PRBool
+bool
 *
 )
 (

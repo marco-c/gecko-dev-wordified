@@ -466,7 +466,7 @@ uri
 nsresult
 OpenContentStream
 (
-PRBool
+bool
 aAsync
 nsIInputStream
 *

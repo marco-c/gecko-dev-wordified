@@ -807,7 +807,7 @@ const
 FramePropertyDescriptor
 *
 aProperty
-PRBool
+bool
 *
 aFoundResult
 )
@@ -1044,7 +1044,7 @@ const
 FramePropertyDescriptor
 *
 aProperty
-PRBool
+bool
 *
 aFoundResult
 )
@@ -1416,7 +1416,7 @@ property
 "
 )
 ;
-PRBool
+bool
 found
 ;
 void

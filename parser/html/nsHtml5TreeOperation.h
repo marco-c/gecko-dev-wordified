@@ -1077,7 +1077,7 @@ nsIContent
 *
 *
 aTarget
-PRBool
+bool
 aFromNetwork
 )
 {
@@ -1621,7 +1621,7 @@ aInt
 ;
 }
 inline
-PRBool
+bool
 IsRunScript
 (
 )

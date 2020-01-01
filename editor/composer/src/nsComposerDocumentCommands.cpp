@@ -705,7 +705,7 @@ aCommandName
 nsISupports
 *
 refCon
-PRBool
+bool
 *
 outCmdEnabled
 )
@@ -906,7 +906,7 @@ animationMode
 )
 ;
 }
-PRBool
+bool
 allowPlugins
 ;
 rv
@@ -1058,10 +1058,10 @@ get
 the
 enabled
 state
-PRBool
+bool
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 IsCommandEnabled
 (
@@ -1207,7 +1207,7 @@ rv
 )
 ;
 }
-PRBool
+bool
 allowPlugins
 ;
 rv
@@ -1392,7 +1392,7 @@ aCommandName
 nsISupports
 *
 refCon
-PRBool
+bool
 *
 outCmdEnabled
 )
@@ -1509,7 +1509,7 @@ NS_ENSURE_ARG_POINTER
 aParams
 )
 ;
-PRBool
+bool
 modified
 ;
 nsresult
@@ -1598,7 +1598,7 @@ NS_ENSURE_ARG_POINTER
 aParams
 )
 ;
-PRBool
+bool
 isReadOnly
 ;
 nsresult
@@ -1703,7 +1703,7 @@ htmleditor
 NS_ERROR_INVALID_ARG
 )
 ;
-PRBool
+bool
 desireCSS
 ;
 nsresult
@@ -1772,7 +1772,7 @@ htmleditor
 NS_ERROR_INVALID_ARG
 )
 ;
-PRBool
+bool
 insertBrOnReturn
 ;
 nsresult
@@ -1842,7 +1842,7 @@ resizer
 NS_ERROR_INVALID_ARG
 )
 ;
-PRBool
+bool
 enabled
 ;
 nsresult
@@ -1911,7 +1911,7 @@ editor
 NS_ERROR_INVALID_ARG
 )
 ;
-PRBool
+bool
 enabled
 ;
 nsresult
@@ -2008,10 +2008,10 @@ get
 the
 enabled
 state
-PRBool
+bool
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 IsCommandEnabled
 (
@@ -2054,7 +2054,7 @@ cmd_setDocumentModified
 )
 )
 {
-PRBool
+bool
 modified
 ;
 rv
@@ -2117,7 +2117,7 @@ GetFlags
 flags
 )
 ;
-PRBool
+bool
 isReadOnly
 =
 flags
@@ -2175,7 +2175,7 @@ htmleditor
 NS_ERROR_INVALID_ARG
 )
 ;
-PRBool
+bool
 isCSS
 ;
 htmleditor
@@ -2235,7 +2235,7 @@ htmleditor
 NS_ERROR_INVALID_ARG
 )
 ;
-PRBool
+bool
 createPOnReturn
 ;
 htmleditor
@@ -2296,7 +2296,7 @@ resizer
 NS_ERROR_INVALID_ARG
 )
 ;
-PRBool
+bool
 enabled
 ;
 resizer
@@ -2356,7 +2356,7 @@ editor
 NS_ERROR_INVALID_ARG
 )
 ;
-PRBool
+bool
 enabled
 ;
 editor
@@ -2668,7 +2668,7 @@ aCommandName
 nsISupports
 *
 refCon
-PRBool
+bool
 *
 outCmdEnabled
 )

@@ -7766,7 +7766,7 @@ JapaneseContextAnalysis
 :
 Reset
 (
-PRBool
+bool
 aIsPreferredLanguage
 )
 {

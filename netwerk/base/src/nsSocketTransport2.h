@@ -692,7 +692,7 @@ nsSocketInputStream
 (
 )
 ;
-PRBool
+bool
 IsReferenced
 (
 )
@@ -882,7 +882,7 @@ nsSocketOutputStream
 (
 )
 ;
-PRBool
+bool
 IsReferenced
 (
 )
@@ -1480,10 +1480,10 @@ mPort
 PRUint16
 mProxyPort
 ;
-PRPackedBool
+bool
 mProxyTransparent
 ;
-PRPackedBool
+bool
 mProxyTransparentResolvesHost
 ;
 PRUint32
@@ -1727,13 +1727,13 @@ STATE_
 ?
 ?
 flags
-PRPackedBool
+bool
 mAttached
 ;
-PRPackedBool
+bool
 mInputClosed
 ;
-PRPackedBool
+bool
 mOutputClosed
 ;
 /
@@ -1767,7 +1767,7 @@ by
 any
 lock
 .
-PRPackedBool
+bool
 mResolving
 ;
 nsCOMPtr
@@ -1819,9 +1819,9 @@ BuildSocket
 PRFileDesc
 *
 &
-PRBool
+bool
 &
-PRBool
+bool
 &
 )
 ;
@@ -1830,7 +1830,7 @@ InitiateSocket
 (
 )
 ;
-PRBool
+bool
 RecoverFromError
 (
 )
@@ -2037,7 +2037,7 @@ goes
 to
 zero
 .
-PRBool
+bool
 mFDconnected
 ;
 /

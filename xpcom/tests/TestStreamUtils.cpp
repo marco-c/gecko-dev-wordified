@@ -498,7 +498,7 @@ h
 -
 -
 static
-PRBool
+bool
 test_consume_stream
 (
 )
@@ -656,7 +656,7 @@ PR_TRUE
 -
 -
 typedef
-PRBool
+bool
 (
 *
 TestFunc

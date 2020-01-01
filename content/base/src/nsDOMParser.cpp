@@ -1969,7 +1969,7 @@ val
 nsIXPConnect
 *
 xpc
-PRBool
+bool
 *
 wasNull
 )
@@ -2099,7 +2099,7 @@ caller
 has
 UniversalXPConnect
 .
-PRBool
+bool
 haveUniversalXPConnect
 ;
 nsresult
@@ -2178,7 +2178,7 @@ prevent
 privilege
 escalation
 .
-PRBool
+bool
 wasNull
 ;
 nsCOMPtr

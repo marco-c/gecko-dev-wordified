@@ -1139,7 +1139,7 @@ tried
 .
 *
 /
-PRBool
+bool
 TryContentListener
 (
 nsIURIContentListener
@@ -2352,7 +2352,7 @@ get
 )
 ;
 }
-PRBool
+bool
 isGuessFromExt
 =
 mContentType
@@ -2458,10 +2458,10 @@ MIME
 /
 type
 .
-PRBool
+bool
 forceExternalHandling
 =
-PR_FALSE
+false
 ;
 PRUint32
 disposition
@@ -3491,7 +3491,7 @@ if
 httpChannel
 )
 {
-PRBool
+bool
 requestSucceeded
 ;
 httpChannel
@@ -4215,7 +4215,7 @@ m_targetStreamListener
 )
 ;
 }
-PRBool
+bool
 nsDocumentOpenInfo
 :
 :
@@ -4284,10 +4284,10 @@ channel
 "
 )
 ;
-PRBool
+bool
 listenerWantsContent
 =
-PR_FALSE
+false
 ;
 nsXPIDLCString
 typeToUse
@@ -4626,12 +4626,12 @@ loadFlags
 newLoadFlags
 )
 ;
-PRBool
+bool
 abort
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 isPreferred
 =
 (
@@ -5158,7 +5158,7 @@ OpenURI
 nsIChannel
 *
 channel
-PRBool
+bool
 aIsContentPreferred
 nsIInterfaceRequestor
 *
@@ -5446,7 +5446,7 @@ aFlags
 nsIInterfaceRequestor
 *
 aWindowContext
-PRBool
+bool
 aChannelIsOpen
 nsIStreamListener
 *
@@ -5616,10 +5616,10 @@ if
 uri
 )
 {
-PRBool
+bool
 doAbort
 =
-PR_FALSE
+false
 ;
 winContextListener
 -
@@ -6083,7 +6083,7 @@ nsIStreamListener
 aListener
 )
 {
-PRBool
+bool
 pending
 ;
 if

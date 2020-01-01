@@ -461,7 +461,7 @@ on
 network
 error
 ?
-PRBool
+bool
 ShouldDialOnNetworkError
 (
 )

@@ -470,7 +470,7 @@ nsSampleWordBreaker
 (
 )
 ;
-PRBool
+bool
 BreakInBetween
 (
 const

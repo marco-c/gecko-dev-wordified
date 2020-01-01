@@ -517,7 +517,7 @@ nsIEditor
 :
 EDirection
 aAction
-PRBool
+bool
 *
 aCancel
 )

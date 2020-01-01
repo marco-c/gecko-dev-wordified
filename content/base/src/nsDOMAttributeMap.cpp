@@ -651,7 +651,7 @@ drop
 our
 reference
 }
-PRBool
+bool
 nsDOMAttributeMap
 :
 :
@@ -1262,7 +1262,7 @@ GetAttribute
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aNsAware
 )
 {
@@ -1530,7 +1530,7 @@ nsIDOMNode
 *
 *
 aReturn
-PRBool
+bool
 aWithNS
 )
 {
@@ -2531,7 +2531,7 @@ nsIDOMNode
 *
 *
 aReturn
-PRBool
+bool
 aRemove
 )
 {

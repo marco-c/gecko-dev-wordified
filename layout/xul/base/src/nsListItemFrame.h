@@ -559,7 +559,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRBool
+bool
 aIsRoot
 =
 nsnull

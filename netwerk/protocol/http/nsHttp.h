@@ -1808,7 +1808,7 @@ section
 .
 2
 static
-PRBool
+bool
 IsValidToken
 (
 const
@@ -1823,7 +1823,7 @@ end
 ;
 static
 inline
-PRBool
+bool
 IsValidToken
 (
 const
@@ -2058,7 +2058,7 @@ generic
 /
 /
 static
-PRBool
+bool
 ParseInt64
 (
 const
@@ -2099,7 +2099,7 @@ parsed
 .
 static
 inline
-PRBool
+bool
 ParseInt64
 (
 const

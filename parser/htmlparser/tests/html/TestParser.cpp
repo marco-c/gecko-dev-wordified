@@ -786,10 +786,10 @@ buffer
 XXX
 Yikes
 !
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 PRInt32
 length

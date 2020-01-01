@@ -563,7 +563,7 @@ listeners
 *
 /
 static
-PRBool
+bool
 HasClickListener
 (
 nsIContent
@@ -703,7 +703,7 @@ element
 *
 /
 static
-PRBool
+bool
 DispatchMouseEvent
 (
 PRUint32
@@ -1157,7 +1157,7 @@ aPossibleDescendantNode
 *
 /
 static
-PRBool
+bool
 IsAncestorOf
 (
 nsINode
@@ -1576,7 +1576,7 @@ document
 *
 /
 static
-PRBool
+bool
 IsRootDocument
 (
 nsIDocument
@@ -1605,7 +1605,7 @@ chrome
 *
 /
 static
-PRBool
+bool
 IsContentDocument
 (
 nsIDocument
@@ -1659,7 +1659,7 @@ page
 *
 /
 static
-PRBool
+bool
 IsErrorPage
 (
 nsIDocument
@@ -1701,7 +1701,7 @@ type
 *
 /
 static
-PRBool
+bool
 IsCorrectFrameType
 (
 nsIFrame
@@ -1880,7 +1880,7 @@ node
 *
 /
 static
-PRBool
+bool
 GetID
 (
 nsIContent
@@ -1921,7 +1921,7 @@ returned
 *
 /
 static
-PRBool
+bool
 GetUIntAttr
 (
 nsIContent
@@ -1966,7 +1966,7 @@ XLink
 *
 /
 static
-PRBool
+bool
 IsXLink
 (
 nsIContent
@@ -2318,7 +2318,7 @@ sensible
 *
 /
 static
-PRBool
+bool
 IsColumnHidden
 (
 nsITreeColumn
@@ -2344,7 +2344,7 @@ element
 *
 /
 static
-PRBool
+bool
 IsHTMLTableHeader
 (
 nsIContent
@@ -2443,7 +2443,7 @@ nsAccessibleDOMStringList
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMDOMSTRINGLIST
-PRBool
+bool
 Add
 (
 const

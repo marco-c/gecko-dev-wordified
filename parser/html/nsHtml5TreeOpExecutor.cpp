@@ -819,7 +819,7 @@ nsHtml5TreeOpExecutor
 :
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 {
@@ -1026,10 +1026,10 @@ it
 down
 anyway
 .
-PRBool
+bool
 destroying
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1844,10 +1844,10 @@ SetEnableUpdates
 PR_TRUE
 )
 ;
-PRBool
+bool
 willNotify
 ;
-PRBool
+bool
 isAlternate
 ;
 nsresult
@@ -1983,7 +1983,7 @@ relVal
 linkTypes
 )
 ;
-PRBool
+bool
 hasPrefetch
 =
 linkTypes
@@ -3509,7 +3509,7 @@ from
 HTML
 content
 sink
-PRBool
+bool
 nsHtml5TreeOpExecutor
 :
 :
@@ -3634,10 +3634,10 @@ cx
 PR_TRUE
 )
 ;
-PRBool
+bool
 enabled
 =
-PR_TRUE
+true
 ;
 nsContentUtils
 :

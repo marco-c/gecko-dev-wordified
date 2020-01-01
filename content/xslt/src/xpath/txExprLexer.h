@@ -969,7 +969,7 @@ pushBack
 (
 )
 ;
-PRBool
+bool
 hasMoreTokens
 (
 )
@@ -1198,7 +1198,7 @@ Lexical
 Structure
 *
 /
-PRBool
+bool
 nextIsOperatorToken
 (
 Token
@@ -1232,7 +1232,7 @@ cpp
 *
 /
 static
-PRBool
+bool
 isXPathDigit
 (
 PRUnichar

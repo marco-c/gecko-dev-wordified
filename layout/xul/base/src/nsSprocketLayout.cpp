@@ -645,7 +645,7 @@ nsSprocketLayout
 )
 {
 }
-PRBool
+bool
 nsSprocketLayout
 :
 :
@@ -2147,12 +2147,12 @@ out
 our
 children
 .
-PRBool
+bool
 needsRedraw
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 finished
 ;
 nscoord
@@ -2294,10 +2294,10 @@ do
 another
 pass
 .
-PRBool
+bool
 childResized
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3328,10 +3328,10 @@ margin
 0
 )
 ;
-PRBool
+bool
 layout
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3598,7 +3598,7 @@ aState
 childRect
 )
 ;
-PRBool
+bool
 sizeChanged
 =
 (
@@ -5052,7 +5052,7 @@ aMaxSize
 =
 NS_INTRINSICSIZE
 ;
-PRBool
+bool
 isHorizontal
 ;
 if
@@ -5465,7 +5465,7 @@ ascent
 =
 0
 ;
-PRBool
+bool
 collapsed
 =
 child
@@ -6347,7 +6347,7 @@ aBox
 nsBoxLayoutState
 &
 aState
-PRBool
+bool
 *
 aNeedsRedraw
 )
@@ -6363,7 +6363,7 @@ aBox
 frameState
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 (
@@ -6430,7 +6430,7 @@ valign
 nscoord
 maxAscent
 ;
-PRBool
+bool
 isLTR
 ;
 if
@@ -6894,7 +6894,7 @@ nsRect
 aContainingRect
 PRInt32
 aFlexes
-PRBool
+bool
 &
 aFinished
 )
@@ -6905,7 +6905,7 @@ childCurrentRect
 aChildLayoutRect
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -6973,10 +6973,10 @@ aContainingRect
 isHorizontal
 )
 ;
-PRBool
+bool
 recompute
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -8040,10 +8040,10 @@ min
 and
 max
 size
-PRBool
+bool
 limit
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -8508,7 +8508,7 @@ vpref
 0
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -8567,7 +8567,7 @@ aBox
 frameState
 )
 ;
-PRBool
+bool
 isEqual
 =
 !
@@ -8753,7 +8753,7 @@ minSize
 0
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -8812,7 +8812,7 @@ aBox
 frameState
 )
 ;
-PRBool
+bool
 isEqual
 =
 !
@@ -9063,7 +9063,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -9129,7 +9129,7 @@ aBox
 frameState
 )
 ;
-PRBool
+bool
 isEqual
 =
 !
@@ -9379,7 +9379,7 @@ vAscent
 =
 0
 ;
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -9568,7 +9568,7 @@ const
 nsSize
 &
 aSize2
-PRBool
+bool
 aIsHorizontal
 )
 {
@@ -9631,7 +9631,7 @@ const
 nsSize
 &
 aSize2
-PRBool
+bool
 aIsHorizontal
 )
 {
@@ -9694,7 +9694,7 @@ const
 nsSize
 &
 aSizeToAdd
-PRBool
+bool
 aIsHorizontal
 )
 {
@@ -9784,7 +9784,7 @@ const
 nsSize
 &
 aSizeToAdd
-PRBool
+bool
 aIsHorizontal
 )
 {
@@ -9821,7 +9821,7 @@ aIsHorizontal
 )
 ;
 }
-PRBool
+bool
 nsSprocketLayout
 :
 :

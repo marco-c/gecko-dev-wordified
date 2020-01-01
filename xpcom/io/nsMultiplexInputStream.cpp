@@ -564,7 +564,7 @@ void
 *
 mClosure
 ;
-PRBool
+bool
 mDone
 ;
 }
@@ -601,7 +601,7 @@ mStreams
 PRUint32
 mCurrentStream
 ;
-PRBool
+bool
 mStartedReadingCurrent
 ;
 nsresult
@@ -763,7 +763,7 @@ PRUint32
 aIndex
 )
 {
-PRBool
+bool
 result
 =
 mStreams
@@ -828,7 +828,7 @@ PRUint32
 aIndex
 )
 {
-PRBool
+bool
 result
 =
 mStreams
@@ -1826,7 +1826,7 @@ nsMultiplexInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -2306,7 +2306,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsMultiplexInputStream
 :
 :

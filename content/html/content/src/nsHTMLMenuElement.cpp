@@ -865,7 +865,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHTMLMenuElement
 :
 :
@@ -902,7 +902,7 @@ nsGkAtoms
 type
 )
 {
-PRBool
+bool
 success
 =
 aResult
@@ -1020,7 +1020,7 @@ CloseContainer
 /
 /
 static
-PRBool
+bool
 nsHTMLMenuElement
 :
 :

@@ -678,7 +678,7 @@ GetTotalMargin
 nsIBox
 *
 aBox
-PRBool
+bool
 aIsHorizontal
 )
 ;

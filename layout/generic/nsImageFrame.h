@@ -599,7 +599,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -820,9 +820,6 @@ aStatus
 NS_IMETHOD
 GetContentForEvent
 (
-nsPresContext
-*
-aPresContext
 nsEvent
 *
 aEvent
@@ -896,7 +893,7 @@ GetType
 const
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -1042,7 +1039,7 @@ now
 *
 /
 static
-PRBool
+bool
 ShouldCreateImageFrameFor
 (
 mozilla
@@ -1086,9 +1083,6 @@ nsImageMap
 *
 GetImageMap
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 virtual
@@ -1150,11 +1144,11 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
-PRBool
+bool
 IsServerImageMap
 (
 )
@@ -1171,7 +1165,7 @@ nsIntPoint
 aResult
 )
 ;
-PRBool
+bool
 GetAnchorHREFTargetAndNode
 (
 nsIURI
@@ -1331,7 +1325,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -1450,7 +1444,7 @@ size
 .
 *
 /
-PRBool
+bool
 UpdateIntrinsicSize
 (
 imgIContainer
@@ -1487,7 +1481,7 @@ ratio
 .
 *
 /
-PRBool
+bool
 UpdateIntrinsicRatio
 (
 imgIContainer
@@ -1556,7 +1550,7 @@ transform
 .
 *
 /
-PRBool
+bool
 GetSourceToDestTransform
 (
 nsTransform2D
@@ -1607,7 +1601,7 @@ true
 .
 *
 /
-PRBool
+bool
 IsPendingLoad
 (
 imgIRequest
@@ -1616,7 +1610,7 @@ aRequest
 )
 const
 ;
-PRBool
+bool
 IsPendingLoad
 (
 imgIContainer
@@ -1682,7 +1676,7 @@ mIntrinsicSize
 nsSize
 mIntrinsicRatio
 ;
-PRBool
+bool
 mDisplayingIcon
 ;
 static
@@ -1877,7 +1871,7 @@ frame
 #
 ifdef
 DEBUG
-PRBool
+bool
 rv
 =
 #
@@ -1929,10 +1923,10 @@ imgIRequest
 >
 mBrokenImage
 ;
-PRPackedBool
+bool
 mPrefForceInlineAltText
 ;
-PRPackedBool
+bool
 mPrefShowPlaceholders
 ;
 }

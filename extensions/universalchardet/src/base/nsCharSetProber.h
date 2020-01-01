@@ -642,7 +642,7 @@ allocation
 failure
 .
 static
-PRBool
+bool
 FilterWithoutEnglishLetters
 (
 const
@@ -661,7 +661,7 @@ newLen
 )
 ;
 static
-PRBool
+bool
 FilterWithEnglishLetters
 (
 const

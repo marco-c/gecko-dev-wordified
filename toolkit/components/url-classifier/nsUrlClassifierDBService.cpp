@@ -1472,10 +1472,10 @@ background
 thread
 .
 static
-PRBool
+bool
 gShuttingDownThread
 =
-PR_FALSE
+false
 ;
 static
 PRInt32
@@ -1942,7 +1942,7 @@ buf
 ;
 }
 const
-PRBool
+bool
 operator
 =
 =
@@ -1974,7 +1974,7 @@ buf
 ;
 }
 const
-PRBool
+bool
 operator
 !
 =
@@ -1998,7 +1998,7 @@ hash
 ;
 }
 const
-PRBool
+bool
 operator
 <
 (
@@ -2026,7 +2026,7 @@ self_type
 ;
 }
 const
-PRBool
+bool
 StartsWith
 (
 const
@@ -2283,7 +2283,7 @@ the
 complete
 hash
 .
-PRBool
+bool
 Match
 (
 const
@@ -2305,7 +2305,7 @@ to
 this
 entry
 .
-PRBool
+bool
 SubMatch
 (
 const
@@ -2382,7 +2382,7 @@ mHaveComplete
 PR_TRUE
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -2456,7 +2456,7 @@ mCompleteHash
 )
 ;
 }
-PRBool
+bool
 operator
 <
 (
@@ -2532,13 +2532,13 @@ mId
 nsUrlClassifierDomainHash
 mKey
 ;
-PRBool
+bool
 mHavePartial
 ;
 nsUrlClassifierPartialHash
 mPartialHash
 ;
-PRBool
+bool
 mHaveComplete
 ;
 nsUrlClassifierCompleteHash
@@ -2555,7 +2555,7 @@ mAddChunkId
 ;
 }
 ;
-PRBool
+bool
 nsUrlClassifierEntry
 :
 :
@@ -2593,7 +2593,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsUrlClassifierEntry
 :
 :
@@ -2814,7 +2814,7 @@ nsUrlClassifierLookupResult
 )
 {
 }
-PRBool
+bool
 operator
 =
 =
@@ -2873,7 +2873,7 @@ mEntry
 )
 ;
 }
-PRBool
+bool
 operator
 <
 (
@@ -2974,7 +2974,7 @@ partial
 one
 )
 .
-PRPackedBool
+bool
 mConfirmed
 ;
 /
@@ -2996,7 +2996,7 @@ actual
 /
 result
 .
-PRPackedBool
+bool
 mNoise
 ;
 /
@@ -3172,7 +3172,7 @@ a
 database
 statement
 virtual
-PRBool
+bool
 ReadStatement
 (
 mozIStorageStatement
@@ -3228,7 +3228,7 @@ id
 nsUrlClassifierEntry
 &
 entry
-PRBool
+bool
 *
 exists
 )
@@ -3354,7 +3354,7 @@ PRInt64
 rowID
 PRUint32
 numRequested
-PRBool
+bool
 before
 nsTArray
 <
@@ -3902,7 +3902,7 @@ mConnection
 nsnull
 ;
 }
-PRBool
+bool
 nsUrlClassifierStore
 :
 :
@@ -4465,7 +4465,7 @@ nsUrlClassifierEntry
 entries
 )
 {
-PRBool
+bool
 exists
 ;
 nsresult
@@ -4549,7 +4549,7 @@ id
 nsUrlClassifierEntry
 &
 entry
-PRBool
+bool
 *
 exists
 )
@@ -4632,7 +4632,7 @@ PRInt64
 rowID
 PRUint32
 numRequested
-PRBool
+bool
 before
 nsTArray
 <
@@ -5584,7 +5584,7 @@ a
 database
 statement
 virtual
-PRBool
+bool
 ReadStatement
 (
 mozIStorageStatement
@@ -5930,7 +5930,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsUrlClassifierSubStore
 :
 :
@@ -6345,7 +6345,7 @@ IP
 address
 .
 static
-PRBool
+bool
 IsCanonicalizedIP
 (
 const
@@ -6910,7 +6910,7 @@ list
 of
 chunks
 .
-PRBool
+bool
 ParseChunkRange
 (
 nsACString
@@ -7097,9 +7097,9 @@ CacheChunkLists
 (
 PRUint32
 tableId
-PRBool
+bool
 parseAdds
-PRBool
+bool
 parseSubs
 )
 ;
@@ -7166,7 +7166,7 @@ chunk
 already
 exists
 .
-PRBool
+bool
 InsertChunkId
 (
 nsTArray
@@ -7282,7 +7282,7 @@ update
 nsresult
 ProcessResponseLines
 (
-PRBool
+bool
 *
 done
 )
@@ -7299,7 +7299,7 @@ update
 nsresult
 ProcessChunk
 (
-PRBool
+bool
 *
 done
 )
@@ -7702,10 +7702,10 @@ mPendingStreamUpdate
 PRInt32
 mUpdateWait
 ;
-PRBool
+bool
 mResetRequested
 ;
-PRBool
+bool
 mGrewCache
 ;
 enum
@@ -7762,13 +7762,13 @@ nsIUrlClassifierUpdateObserver
 >
 mUpdateObserver
 ;
-PRBool
+bool
 mInStream
 ;
-PRBool
+bool
 mPrimaryStream
 ;
-PRBool
+bool
 mHaveCachedLists
 ;
 PRUint32
@@ -7780,7 +7780,7 @@ mCachedSubsStr
 nsCAutoString
 mCachedAddsStr
 ;
-PRBool
+bool
 mHaveCachedAddChunks
 ;
 nsTArray
@@ -7789,7 +7789,7 @@ PRUint32
 >
 mCachedAddChunks
 ;
-PRBool
+bool
 mHaveCachedSubChunks
 ;
 nsTArray
@@ -8324,7 +8324,7 @@ const
 nsACString
 &
 spec
-PRBool
+bool
 *
 clean
 )
@@ -8523,13 +8523,13 @@ rv
 rv
 )
 ;
-PRBool
+bool
 found
 ;
-PRBool
+bool
 ready
 =
-PR_FALSE
+false
 ;
 /
 *
@@ -9960,7 +9960,7 @@ result
 mTableName
 )
 ;
-PRBool
+bool
 fresh
 ;
 PRInt64
@@ -10936,7 +10936,7 @@ mGetTablesStatement
 nsCAutoString
 response
 ;
-PRBool
+bool
 hasMore
 ;
 while
@@ -11008,10 +11008,10 @@ GetUTF8String
 val
 )
 ;
-PRBool
+bool
 haveAdds
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11172,7 +11172,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -11325,7 +11325,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -11794,7 +11794,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 IsCanonicalizedIP
 (
 const
@@ -13185,7 +13185,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsUrlClassifierDBServiceWorker
 :
 :
@@ -13688,10 +13688,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -13889,9 +13889,9 @@ CacheChunkLists
 (
 PRUint32
 tableId
-PRBool
+bool
 parseAdds
-PRBool
+bool
 parseSubs
 )
 {
@@ -14119,7 +14119,7 @@ mHaveCachedSubChunks
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsUrlClassifierDBServiceWorker
 :
 :
@@ -14406,10 +14406,10 @@ HandlePendingLookups
 (
 )
 ;
-PRBool
+bool
 writeEntry
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -14834,7 +14834,7 @@ with
 the
 sub
 .
-PRBool
+bool
 haveAdds
 =
 (
@@ -15034,7 +15034,7 @@ nsUrlClassifierDBServiceWorker
 :
 ProcessChunk
 (
-PRBool
+bool
 *
 done
 )
@@ -15191,7 +15191,7 @@ nsUrlClassifierDBServiceWorker
 :
 ProcessResponseLines
 (
-PRBool
+bool
 *
 done
 )
@@ -16462,7 +16462,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 transaction
 ;
 rv
@@ -17441,10 +17441,10 @@ Append
 chunk
 )
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -17710,7 +17710,7 @@ scoper
 mGetPageSizeStatement
 )
 ;
-PRBool
+bool
 hasResult
 ;
 nsresult
@@ -17823,7 +17823,7 @@ SetupUpdate
 )
 )
 ;
-PRBool
+bool
 inProgress
 ;
 nsresult
@@ -18236,7 +18236,7 @@ a
 database
 reset
 .
-PRBool
+bool
 resetDB
 =
 (
@@ -18963,7 +18963,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -18983,7 +18983,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 newDB
 =
 !
@@ -20056,7 +20056,7 @@ scoper
 mAllPrefixStatement
 )
 ;
-PRBool
+bool
 hasMoreData
 ;
 PRUint32
@@ -20644,7 +20644,7 @@ nsIFile
 aFile
 )
 {
-PRBool
+bool
 empty
 ;
 nsresult
@@ -20689,7 +20689,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 exists
 ;
 rv
@@ -21919,7 +21919,7 @@ nsACString
 tableName
 PRUint32
 chunkId
-PRBool
+bool
 verified
 )
 {
@@ -22646,9 +22646,9 @@ nsUrlClassifierClassifyCallback
 nsIURIClassifierCallback
 *
 c
-PRBool
+bool
 checkMalware
-PRBool
+bool
 checkPhishing
 )
 :
@@ -22674,10 +22674,10 @@ nsIURIClassifierCallback
 >
 mCallback
 ;
-PRPackedBool
+bool
 mCheckMalware
 ;
-PRPackedBool
+bool
 mCheckPhishing
 ;
 }
@@ -23213,7 +23213,7 @@ if
 prefs
 )
 {
-PRBool
+bool
 tmpbool
 ;
 rv
@@ -23656,7 +23656,7 @@ uri
 nsIURIClassifierCallback
 *
 c
-PRBool
+bool
 *
 result
 )
@@ -23824,7 +23824,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 didLookup
 ;
 return
@@ -23850,9 +23850,9 @@ uri
 nsIUrlClassifierCallback
 *
 c
-PRBool
+bool
 forceLookup
-PRBool
+bool
 *
 didLookup
 )
@@ -23947,7 +23947,7 @@ just
 return
 .
 ;
-PRBool
+bool
 clean
 ;
 rv
@@ -24515,7 +24515,7 @@ results
 )
 ;
 }
-PRBool
+bool
 nsUrlClassifierDBService
 :
 :
@@ -24637,7 +24637,7 @@ aData
 )
 )
 {
-PRBool
+bool
 tmpbool
 ;
 rv
@@ -24678,7 +24678,7 @@ aData
 )
 )
 {
-PRBool
+bool
 tmpbool
 ;
 rv

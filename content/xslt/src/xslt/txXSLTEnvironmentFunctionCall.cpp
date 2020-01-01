@@ -706,7 +706,7 @@ case
 ELEMENT_AVAILABLE
 :
 {
-PRBool
+bool
 val
 =
 qname
@@ -1127,7 +1127,7 @@ FUNCTION_AVAILABLE
 :
 {
 extern
-PRBool
+bool
 TX_XSLTFunctionAvailable
 (
 nsIAtom
@@ -1143,7 +1143,7 @@ txCoreFunctionCall
 eType
 type
 ;
-PRBool
+bool
 val
 =
 (
@@ -1226,7 +1226,7 @@ NUMBER_RESULT
 BOOLEAN_RESULT
 ;
 }
-PRBool
+bool
 txXSLTEnvironmentFunctionCall
 :
 :

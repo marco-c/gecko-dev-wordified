@@ -774,7 +774,7 @@ IndexOf
 nsIContent
 *
 aContent
-PRBool
+bool
 aDoFlush
 )
 {
@@ -1078,7 +1078,7 @@ GetHash
 ;
 }
 static
-PRBool
+bool
 ContentListHashtableMatchEntry
 (
 PLDHashTable
@@ -1212,7 +1212,7 @@ gContentListHashTable
 ops
 )
 {
-PRBool
+bool
 success
 =
 PL_DHashTableInit
@@ -1507,7 +1507,7 @@ GetHash
 ;
 }
 static
-PRBool
+bool
 FuncStringContentListHashtableMatchEntry
 (
 PLDHashTable
@@ -1637,7 +1637,7 @@ gFuncStringContentListHashTable
 ops
 )
 {
-PRBool
+bool
 success
 =
 PL_DHashTableInit
@@ -1897,7 +1897,7 @@ aHTMLMatchAtom
 nsIAtom
 *
 aXMLMatchAtom
-PRBool
+bool
 aDeep
 )
 :
@@ -2129,14 +2129,14 @@ aDestroyFunc
 void
 *
 aData
-PRBool
+bool
 aDeep
 nsIAtom
 *
 aMatchAtom
 PRInt32
 aMatchNameSpaceId
-PRBool
+bool
 aFuncMayDependOnAttr
 )
 :
@@ -2421,7 +2421,7 @@ nsContentList
 :
 Length
 (
-PRBool
+bool
 aDoFlush
 )
 {
@@ -2447,7 +2447,7 @@ Item
 (
 PRUint32
 aIndex
-PRBool
+bool
 aDoFlush
 )
 {
@@ -2572,7 +2572,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 aDoFlush
 )
 {
@@ -2703,7 +2703,7 @@ IndexOf
 nsIContent
 *
 aContent
-PRBool
+bool
 aDoFlush
 )
 {
@@ -3417,10 +3417,10 @@ Count
 (
 )
 ;
-PRBool
+bool
 appendToList
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4010,7 +4010,7 @@ SetDirty
 ASSERT_IN_SYNC
 ;
 }
-PRBool
+bool
 nsContentList
 :
 :
@@ -4058,7 +4058,7 @@ NodeInfo
 (
 )
 ;
-PRBool
+bool
 unknown
 =
 mMatchNameSpaceId
@@ -4066,7 +4066,7 @@ mMatchNameSpaceId
 =
 kNameSpaceID_Unknown
 ;
-PRBool
+bool
 wildcard
 =
 mMatchNameSpaceId
@@ -4074,7 +4074,7 @@ mMatchNameSpaceId
 =
 kNameSpaceID_Wildcard
 ;
-PRBool
+bool
 toReturn
 =
 mMatchAll
@@ -4117,7 +4117,7 @@ GetOwnerDoc
 (
 )
 ;
-PRBool
+bool
 matchHTML
 =
 aElement
@@ -4213,7 +4213,7 @@ mMatchNameSpaceId
 )
 ;
 }
-PRBool
+bool
 nsContentList
 :
 :
@@ -4775,7 +4775,7 @@ nsContentList
 :
 BringSelfUpToDate
 (
-PRBool
+bool
 aDoFlush
 )
 {

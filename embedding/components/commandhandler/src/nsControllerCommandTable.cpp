@@ -622,7 +622,7 @@ commandKey
 aCommandName
 )
 ;
-PRBool
+bool
 wasRemoved
 =
 mCommandsTable
@@ -748,7 +748,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-PRBool
+bool
 *
 aResult
 )
@@ -939,7 +939,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-PRBool
+bool
 *
 aResult
 )

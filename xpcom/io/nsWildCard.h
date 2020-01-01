@@ -742,7 +742,7 @@ const
 char
 *
 expr
-PRBool
+bool
 case_insensitive
 )
 ;
@@ -757,7 +757,7 @@ const
 PRUnichar
 *
 expr
-PRBool
+bool
 case_insensitive
 )
 ;

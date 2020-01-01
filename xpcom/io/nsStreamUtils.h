@@ -938,14 +938,14 @@ void
 aCallbackClosure
 =
 nsnull
-PRBool
+bool
 aCloseSource
 =
-PR_TRUE
-PRBool
+true
+bool
 aCloseSink
 =
-PR_TRUE
+true
 nsISupports
 *
 *
@@ -1347,7 +1347,7 @@ test
 *
 /
 extern
-PRBool
+bool
 NS_InputStreamIsBuffered
 (
 nsIInputStream
@@ -1461,7 +1461,7 @@ test
 *
 /
 extern
-PRBool
+bool
 NS_OutputStreamIsBuffered
 (
 nsIOutputStream

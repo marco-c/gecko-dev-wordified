@@ -968,10 +968,10 @@ just
 in
 case
 .
-PRBool
+bool
 isSafe
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1473,7 +1473,7 @@ const
 char
 *
 scheme
-PRBool
+bool
 *
 _retval
 )
@@ -1811,7 +1811,7 @@ const
 char
 *
 scheme
-PRBool
+bool
 *
 _retval
 )
@@ -1961,7 +1961,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 haveBase
 ;
 rv
@@ -2237,7 +2237,7 @@ NS_OK
 /
 /
 nsIIPCSerializable
-PRBool
+bool
 nsNestedAboutURI
 :
 :

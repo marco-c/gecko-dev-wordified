@@ -666,7 +666,7 @@ NULL
 )
 mPrintSelectionOnly
 (
-PR_FALSE
+false
 )
 {
 /
@@ -947,7 +947,7 @@ NULL
 )
 mPrintSelectionOnly
 (
-PR_FALSE
+false
 )
 {
 *
@@ -1865,7 +1865,7 @@ kRangeSelection
 {
 mPrintSelectionOnly
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1873,7 +1873,7 @@ NS_OK
 }
 mPrintSelectionOnly
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2256,7 +2256,7 @@ nsPrintSettingsGTK
 :
 GetPrintReversed
 (
-PRBool
+bool
 *
 aPrintReversed
 )
@@ -2279,7 +2279,7 @@ nsPrintSettingsGTK
 :
 SetPrintReversed
 (
-PRBool
+bool
 aPrintReversed
 )
 {
@@ -2307,7 +2307,7 @@ nsPrintSettingsGTK
 :
 GetPrintInColor
 (
-PRBool
+bool
 *
 aPrintInColor
 )
@@ -2330,7 +2330,7 @@ nsPrintSettingsGTK
 :
 SetPrintInColor
 (
-PRBool
+bool
 aPrintInColor
 )
 {
@@ -2682,7 +2682,7 @@ nsDependentString
 (
 aToFileName
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -2968,11 +2968,11 @@ oldPrinterName
 {
 mIsInitedFromPrinter
 =
-PR_FALSE
+false
 ;
 mIsInitedFromPrefs
 =
-PR_FALSE
+false
 ;
 gtk_print_settings_set_printer
 (

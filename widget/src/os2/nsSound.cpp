@@ -879,7 +879,7 @@ EVENT_CNT
 static
 variables
 static
-PRBool
+bool
 sDllError
 =
 FALSE
@@ -979,7 +979,7 @@ void
 )
 ;
 static
-PRBool
+bool
 initDlls
 (
 void
@@ -3328,7 +3328,7 @@ void
 )
 {
 static
-PRBool
+bool
 sSoundInit
 =
 FALSE
@@ -3929,14 +3929,14 @@ stability
 issues
 .
 static
-PRBool
+bool
 initDlls
 (
 void
 )
 {
 static
-PRBool
+bool
 sDllInit
 =
 FALSE

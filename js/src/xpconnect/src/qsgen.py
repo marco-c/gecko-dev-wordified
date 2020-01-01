@@ -10404,13 +10404,13 @@ boolean
 :
           
 "
-PRBool
+bool
 {
 name
 }
 =
 (
-PRBool
+bool
 )
 {
 argVal

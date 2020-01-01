@@ -3042,7 +3042,7 @@ thread
 )
 ;
 }
-PRBool
+bool
 IsDone
 (
 )

@@ -1961,7 +1961,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -2617,7 +2617,7 @@ aLength
 )
 ;
 }
-PRBool
+bool
 gfxQtPlatform
 :
 :
@@ -3104,7 +3104,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 gfxQtPlatform
 :
 :

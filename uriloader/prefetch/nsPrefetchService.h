@@ -752,7 +752,7 @@ aReferrerURI
 nsIDOMNode
 *
 aSource
-PRBool
+bool
 aExplicit
 )
 ;
@@ -848,7 +848,7 @@ zero
 PRInt32
 mHaveProcessed
 ;
-PRBool
+bool
 mDisabled
 ;
 }

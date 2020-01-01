@@ -1104,7 +1104,7 @@ nsSocketTransportService
 :
 IsOnCurrentThread
 (
-PRBool
+bool
 *
 result
 )
@@ -2225,7 +2225,7 @@ sock
 )
 ;
 }
-PRBool
+bool
 nsSocketTransportService
 :
 :
@@ -2306,7 +2306,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsSocketTransportService
 :
 :
@@ -2516,7 +2516,7 @@ nsSocketTransportService
 :
 Poll
 (
-PRBool
+bool
 wait
 PRUint32
 *
@@ -3419,7 +3419,7 @@ nsSocketTransportService
 :
 GetAutodialEnabled
 (
-PRBool
+bool
 *
 value
 )
@@ -3439,7 +3439,7 @@ nsSocketTransportService
 :
 SetAutodialEnabled
 (
-PRBool
+bool
 value
 )
 {
@@ -3490,7 +3490,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 thread
-PRBool
+bool
 mayWait
 PRUint32
 depth
@@ -3630,10 +3630,10 @@ for
 ;
 )
 {
-PRBool
+bool
 pendingEvents
 =
-PR_FALSE
+false
 ;
 thread
 -
@@ -3895,7 +3895,7 @@ nsSocketTransportService
 :
 DoPollIteration
 (
-PRBool
+bool
 wait
 )
 {

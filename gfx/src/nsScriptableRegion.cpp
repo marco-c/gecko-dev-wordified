@@ -751,7 +751,7 @@ nsScriptableRegion
 :
 IsEmpty
 (
-PRBool
+bool
 *
 isEmpty
 )
@@ -778,7 +778,7 @@ IsEqualRegion
 nsIScriptableRegion
 *
 aRegion
-PRBool
+bool
 *
 isEqual
 )
@@ -908,7 +908,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 *
 containsRect
 )

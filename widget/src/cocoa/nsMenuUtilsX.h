@@ -551,7 +551,7 @@ object
 is
 not
 retained
-PRBool
+bool
 NodeIsHiddenOrCollapsed
 (
 nsIContent

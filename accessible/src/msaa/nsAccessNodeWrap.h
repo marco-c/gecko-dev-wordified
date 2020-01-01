@@ -1444,7 +1444,7 @@ aExceptionInfo
 )
 ;
 static
-PRBool
+bool
 IsOnlyMsaaCompatibleJawsPresent
 (
 )
@@ -1577,7 +1577,7 @@ than
 *
 /
 static
-PRBool
+bool
 gIsIA2Disabled
 ;
 /

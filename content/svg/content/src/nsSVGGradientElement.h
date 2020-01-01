@@ -590,7 +590,7 @@ NS_DECL_NSIDOMSVGURIREFERENCE
 nsIContent
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (

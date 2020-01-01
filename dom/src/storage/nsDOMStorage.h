@@ -807,7 +807,7 @@ ClearAllStorages
 (
 )
 ;
-PRBool
+bool
 InPrivateBrowsingMode
 (
 )
@@ -856,7 +856,7 @@ table
 .
 *
 /
-PRBool
+bool
 UnflushedDataExists
 (
 )
@@ -874,7 +874,7 @@ nsDOMStorageEntry
 >
 mStorages
 ;
-PRBool
+bool
 mInPrivateBrowsing
 ;
 }
@@ -1097,7 +1097,7 @@ for
 mSessionOnly
 below
 .
-PRBool
+bool
 UseDB
 (
 )
@@ -1133,7 +1133,7 @@ aKey
 nsAString
 &
 aValue
-PRBool
+bool
 *
 aSecure
 )
@@ -1182,7 +1182,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aSecure
 )
 =
@@ -1208,7 +1208,7 @@ const
 nsAString
 &
 aKey
-PRBool
+bool
 aSecure
 )
 =
@@ -1320,7 +1320,7 @@ nsCString
 &
 GetQuotaDomainDBKey
 (
-PRBool
+bool
 aOfflineAllowed
 )
 {
@@ -1368,7 +1368,7 @@ be
 used
 for
 values
-PRPackedBool
+bool
 mUseDB
 ;
 /
@@ -1426,7 +1426,7 @@ up
 to
 date
 .
-PRPackedBool
+bool
 mSessionOnly
 ;
 /
@@ -1534,7 +1534,7 @@ nsACString
 aDomainDemanded
 )
 ;
-PRBool
+bool
 SessionOnly
 (
 )
@@ -1742,7 +1742,7 @@ aKey
 nsAString
 &
 aValue
-PRBool
+bool
 *
 aSecure
 )
@@ -1774,7 +1774,7 @@ aKey
 nsAString
 &
 aValue
-PRBool
+bool
 *
 aSecure
 )
@@ -1821,7 +1821,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aSecure
 )
 ;
@@ -1845,7 +1845,7 @@ const
 nsAString
 &
 aKey
-PRBool
+bool
 aSecure
 )
 ;
@@ -2154,7 +2154,7 @@ aDocumentURI
 )
 ;
 virtual
-PRBool
+bool
 IsForkOf
 (
 nsIDOMStorage
@@ -2180,7 +2180,7 @@ Principal
 )
 ;
 virtual
-PRBool
+bool
 CanAccess
 (
 nsIPrincipal
@@ -2241,10 +2241,10 @@ be
 used
 .
 static
-PRBool
+bool
 CanUseStorage
 (
-PRPackedBool
+bool
 *
 aSessionOnly
 )
@@ -2283,7 +2283,7 @@ apps
 quota
 .
 static
-PRBool
+bool
 URICanUseChromePersist
 (
 nsIURI
@@ -2311,7 +2311,7 @@ result
 of
 CanUseStorage
 .
-PRBool
+bool
 CacheStoragePermissions
 (
 )
@@ -2364,7 +2364,7 @@ const
 nsAString
 &
 aKey
-PRBool
+bool
 aSecure
 )
 {
@@ -2403,7 +2403,7 @@ DOMStorageBase
 >
 mStorageImpl
 ;
-PRBool
+bool
 CanAccessSystem
 (
 nsIPrincipal
@@ -2593,7 +2593,7 @@ aDocumentURI
 )
 ;
 virtual
-PRBool
+bool
 IsForkOf
 (
 nsIDOMStorage
@@ -2619,7 +2619,7 @@ Principal
 )
 ;
 virtual
-PRBool
+bool
 CanAccess
 (
 nsIPrincipal
@@ -2784,7 +2784,7 @@ aRequestedDomain
 *
 /
 static
-PRBool
+bool
 CanAccessDomain
 (
 const
@@ -2877,7 +2877,7 @@ const
 nsACString
 &
 aCurrentDomain
-PRBool
+bool
 aNoCurrentDomainCheck
 nsresult
 *
@@ -2902,7 +2902,7 @@ parts
 *
 /
 static
-PRBool
+bool
 ConvertDomainToArray
 (
 const
@@ -2949,7 +2949,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aSecure
 )
 ;
@@ -2976,7 +2976,7 @@ NS_DECL_NSIDOMSTORAGEITEM
 /
 nsIDOMToString
 NS_DECL_NSIDOMTOSTRING
-PRBool
+bool
 IsSecure
 (
 )
@@ -2988,7 +2988,7 @@ mSecure
 void
 SetSecureInternal
 (
-PRBool
+bool
 aSecure
 )
 {
@@ -3048,7 +3048,7 @@ for
 secure
 sites
 only
-PRBool
+bool
 mSecure
 ;
 /
@@ -3257,7 +3257,7 @@ nsACString
 aDomain
 )
 ;
-PRBool
+bool
 IsOfflineAllowed
 (
 const

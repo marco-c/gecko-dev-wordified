@@ -903,7 +903,7 @@ aType
 #
 ifdef
 DEBUG
-PRBool
+bool
 removed
 ;
 #
@@ -1240,7 +1240,7 @@ return
 }
 }
 }
-PRBool
+bool
 nsDOMWorkerMessageHandler
 :
 :
@@ -1429,7 +1429,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {
@@ -1559,7 +1559,7 @@ Length
 #
 ifdef
 DEBUG
-PRBool
+bool
 removed
 =
 #
@@ -1611,7 +1611,7 @@ DispatchEvent
 nsIDOMEvent
 *
 aEvent
-PRBool
+bool
 *
 _retval
 )
@@ -1795,9 +1795,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
-PRBool
+bool
 aWantsUntrusted
 PRUint8
 aOptionalArgc
@@ -2079,7 +2079,7 @@ nsDOMWorkerMessageHandler
 :
 GetListenerManager
 (
-PRBool
+bool
 aMayCreate
 )
 {

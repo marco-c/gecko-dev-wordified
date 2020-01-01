@@ -2868,7 +2868,7 @@ AssertPluginThread
 (
 )
 ;
-PRBool
+PRUint32
 value
 =
 0
@@ -2990,7 +2990,7 @@ XEmbed_Extension_for_Mozilla_Plugins
 treats
 NPPVpluginNeedsXEmbed
 as
-PRBool
+bool
 (
 int
 )
@@ -3046,9 +3046,9 @@ protect
 with
 the
 larger
-PRBool
+bool
 .
-PRBool
+PRUint32
 needsXEmbed
 =
 0
@@ -7754,7 +7754,7 @@ MozillaIPCOldWndProc
 /
 /
 static
-PRBool
+bool
 PluginInstanceChild
 :
 :

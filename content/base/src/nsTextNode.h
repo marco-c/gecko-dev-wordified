@@ -563,7 +563,7 @@ nsGenericDOMDataNode
 /
 nsINode
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -579,7 +579,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const
@@ -613,7 +613,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 nsIContent
 *
@@ -644,7 +644,7 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
+bool
 aDumpAll
 )
 const

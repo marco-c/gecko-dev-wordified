@@ -632,7 +632,7 @@ PrettyPrint
 nsIDocument
 *
 aDocument
-PRBool
+bool
 *
 aDidPrettyPrint
 )
@@ -852,7 +852,7 @@ xml
 .
 prettyprint
 "
-PR_TRUE
+true
 )
 )
 {
@@ -1382,6 +1382,7 @@ content
 .
 if
 (
+(
 !
 aContent
 |
@@ -1392,6 +1393,7 @@ aContent
 >
 GetBindingParent
 (
+)
 )
 &
 &

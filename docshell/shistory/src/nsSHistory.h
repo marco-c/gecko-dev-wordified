@@ -675,7 +675,7 @@ GetEntryAtIndex
 (
 PRInt32
 aIndex
-PRBool
+bool
 aModifyIndex
 nsISHEntry
 *
@@ -708,7 +708,7 @@ nsIDocShell
 rootDocShell
 long
 aLoadType
-PRBool
+bool
 *
 aIsFrameFound
 )
@@ -876,12 +876,12 @@ aIndex
 -
 1
 .
-PRBool
+bool
 RemoveDuplicate
 (
 PRInt32
 aIndex
-PRBool
+bool
 aKeepNext
 )
 ;

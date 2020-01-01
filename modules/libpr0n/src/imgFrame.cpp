@@ -474,10 +474,10 @@ gfxUtils
 h
 "
 static
-PRBool
+bool
 gDisableOptimize
 =
-PR_FALSE
+false
 ;
 #
 include
@@ -595,7 +595,7 @@ and
 legal
 .
 static
-PRBool
+bool
 AllowedImageSize
 (
 PRInt32
@@ -843,7 +843,7 @@ specific
 surfaces
 .
 static
-PRBool
+bool
 ShouldUseImageSurfaces
 (
 )
@@ -1073,10 +1073,10 @@ PR_FALSE
 )
 {
 static
-PRBool
+bool
 hasCheckedOptimize
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2427,11 +2427,11 @@ imgFrame
 :
 SurfaceForDrawing
 (
-PRBool
+bool
 aDoPadding
-PRBool
+bool
 aDoPartialDecode
-PRBool
+bool
 aDoTile
 const
 nsIntMargin
@@ -2962,7 +2962,7 @@ image
 "
 )
 ;
-PRBool
+bool
 doPadding
 =
 aPadding
@@ -2976,7 +2976,7 @@ nsIntMargin
 0
 )
 ;
-PRBool
+bool
 doPartialDecode
 =
 !
@@ -3098,7 +3098,7 @@ pixels
 "
 )
 ;
-PRBool
+bool
 doTile
 =
 !
@@ -3742,7 +3742,7 @@ return
 mFormat
 ;
 }
-PRBool
+bool
 imgFrame
 :
 :
@@ -3915,7 +3915,7 @@ GetImageDataLength
 )
 ;
 }
-PRBool
+bool
 imgFrame
 :
 :
@@ -3931,7 +3931,7 @@ mPalettedImageData
 nsnull
 ;
 }
-PRBool
+bool
 imgFrame
 :
 :
@@ -4596,7 +4596,7 @@ PRInt8
 aBlendMethod
 ;
 }
-PRBool
+bool
 imgFrame
 :
 :
@@ -4736,7 +4736,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 imgFrame
 :
 :
@@ -4755,7 +4755,7 @@ imgFrame
 :
 SetCompositingFailed
 (
-PRBool
+bool
 val
 )
 {

@@ -1204,7 +1204,7 @@ aNode
 nsEntryStack
 *
 aStyleStack
-PRBool
+bool
 aRefCntNode
 )
 {
@@ -1386,7 +1386,7 @@ aNode
 nsEntryStack
 *
 aStyleStack
-PRBool
+bool
 aRefCntNode
 )
 {
@@ -2749,7 +2749,7 @@ PushEntry
 nsTagEntry
 *
 aEntry
-PRBool
+bool
 aRefCntNode
 )
 {
@@ -3091,7 +3091,7 @@ gess7
 98
 *
 /
-PRBool
+bool
 nsDTDContext
 :
 :
@@ -3113,7 +3113,7 @@ aTag
 )
 ;
 return
-PRBool
+bool
 (
 -
 1
@@ -3147,7 +3147,7 @@ aNode
 nsEntryStack
 *
 aStyleStack
-PRBool
+bool
 aRefCntNode
 )
 {
@@ -3312,7 +3312,7 @@ PushEntry
 nsTagEntry
 *
 aEntry
-PRBool
+bool
 aRefCntNode
 )
 {
@@ -6977,7 +6977,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsObserverEntry
 :
 :
@@ -6989,7 +6989,7 @@ nsAString
 aString
 )
 {
-PRBool
+bool
 result
 =
 aString

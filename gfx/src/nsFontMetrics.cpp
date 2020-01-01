@@ -661,7 +661,7 @@ PRUint32
 aStart
 PRUint32
 aLength
-PRPackedBool
+bool
 *
 aBreakBefore
 )

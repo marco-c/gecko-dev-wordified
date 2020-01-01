@@ -777,7 +777,7 @@ nsCSSProperty
 aProperty
 )
 ;
-PRBool
+bool
 HasProperty
 (
 nsCSSProperty
@@ -796,7 +796,7 @@ aValue
 )
 const
 ;
-PRBool
+bool
 HasImportantData
 (
 )
@@ -809,7 +809,7 @@ mImportantData
 nsnull
 ;
 }
-PRBool
+bool
 GetValueIsImportant
 (
 nsCSSProperty
@@ -817,7 +817,7 @@ aProperty
 )
 const
 ;
-PRBool
+bool
 GetValueIsImportant
 (
 const
@@ -1295,17 +1295,17 @@ otherwise
 .
 *
 /
-PRBool
+bool
 TryReplaceValue
 (
 nsCSSProperty
 aProperty
-PRBool
+bool
 aIsImportant
 nsCSSExpandedDataBlock
 &
 aFromBlock
-PRBool
+bool
 *
 aChanged
 )
@@ -1438,7 +1438,7 @@ aChanged
 )
 ;
 }
-PRBool
+bool
 HasNonImportantValueFor
 (
 nsCSSProperty
@@ -1693,7 +1693,7 @@ Declaration
 aCopy
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -1709,7 +1709,7 @@ static
 void
 AppendImportanceToString
 (
-PRBool
+bool
 aIsImportant
 nsAString
 &
@@ -1741,7 +1741,7 @@ non
 null
 unit
 )
-PRBool
+bool
 AppendValueToString
 (
 nsCSSProperty
@@ -1871,7 +1871,7 @@ mutable
 )
 .
 mutable
-PRPackedBool
+bool
 mImmutable
 ;
 }

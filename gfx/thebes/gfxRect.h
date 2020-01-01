@@ -907,7 +907,7 @@ height
 .
 *
 /
-PRBool
+bool
 WithinEpsilonOfIntegerPixels
 (
 gfxFloat

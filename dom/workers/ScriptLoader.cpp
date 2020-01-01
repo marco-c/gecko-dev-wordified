@@ -2248,7 +2248,7 @@ if
 httpChannel
 )
 {
-PRBool
+bool
 requestSucceeded
 ;
 rv
@@ -2720,7 +2720,7 @@ channelPrincipal
 )
 )
 {
-PRBool
+bool
 isResource
 ;
 rv

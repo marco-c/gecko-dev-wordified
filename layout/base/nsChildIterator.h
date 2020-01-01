@@ -930,7 +930,7 @@ get
 )
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -983,7 +983,7 @@ aOther
 mChild
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -1251,7 +1251,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 XBLInvolved
 (
 )

@@ -696,7 +696,7 @@ const
 char
 *
 prop
-PRBool
+bool
 *
 result
 )

@@ -2083,7 +2083,7 @@ nsThreadManager
 :
 GetIsMainThread
 (
-PRBool
+bool
 *
 result
 )
@@ -2120,7 +2120,7 @@ nsThreadManager
 :
 GetIsCycleCollectorThread
 (
-PRBool
+bool
 *
 result
 )
@@ -2128,7 +2128,7 @@ result
 *
 result
 =
-PRBool
+bool
 (
 NS_IsCycleCollectorThread
 (

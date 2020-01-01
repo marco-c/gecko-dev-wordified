@@ -3786,7 +3786,7 @@ navHistory
 false
 )
 ;
-PRBool
+bool
 canAdd
 ;
 nsresult
@@ -5595,7 +5595,7 @@ rv
 false
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -9296,7 +9296,7 @@ rv
 false
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -10192,7 +10192,7 @@ add
 to
 DB
 .
-PRBool
+bool
 canAdd
 ;
 nsresult
@@ -10229,7 +10229,7 @@ if
 aLastVisitedURI
 )
 {
-PRBool
+bool
 same
 ;
 rv
@@ -11629,7 +11629,7 @@ navHistory
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 canAdd
 ;
 nsresult

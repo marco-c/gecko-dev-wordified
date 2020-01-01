@@ -571,7 +571,7 @@ the
 spec
 .
 virtual
-PRBool
+bool
 IsSpaceLike
 (
 )

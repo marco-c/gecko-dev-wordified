@@ -474,7 +474,7 @@ h
 static
 *
 /
-PRBool
+bool
 nsAtomListUtils
 :
 :

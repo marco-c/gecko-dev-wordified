@@ -619,7 +619,7 @@ nsNetworkManagerListener
 :
 GetIsLinkUp
 (
-PRBool
+bool
 *
 aIsUp
 )
@@ -639,7 +639,7 @@ nsNetworkManagerListener
 :
 GetLinkStatusKnown
 (
-PRBool
+bool
 *
 aKnown
 )
@@ -1090,7 +1090,7 @@ NotifyNetworkStatusObservers
 )
 ;
 }
-PRBool
+bool
 nsNetworkManagerListener
 :
 :
@@ -1157,7 +1157,7 @@ mNetworkManagerActive
 =
 PR_TRUE
 ;
-PRBool
+bool
 wasUp
 =
 mLinkUp

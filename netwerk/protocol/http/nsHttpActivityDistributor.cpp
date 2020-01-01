@@ -698,7 +698,7 @@ nsHttpActivityDistributor
 :
 GetIsActive
 (
-PRBool
+bool
 *
 isActive
 )

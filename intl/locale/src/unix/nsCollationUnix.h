@@ -469,7 +469,7 @@ mLocale
 nsCString
 mSavedLocale
 ;
-PRBool
+bool
 mUseCodePointOrder
 ;
 void

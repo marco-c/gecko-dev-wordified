@@ -748,11 +748,11 @@ aEventType
 const
 PRUint32
 aEffectAllowed
-PRBool
+bool
 aCursorState
-PRBool
+bool
 aIsExternal
-PRBool
+bool
 aUserCancelled
 nsTArray
 <
@@ -1286,7 +1286,7 @@ nsDOMDataTransfer
 :
 GetMozUserCancelled
 (
-PRBool
+bool
 *
 aUserCancelled
 )
@@ -1588,7 +1588,7 @@ i
 mFormat
 )
 ;
-PRBool
+bool
 filePresent
 filePromisePresent
 ;
@@ -2524,7 +2524,7 @@ format
 )
 )
 {
-PRBool
+bool
 subsumes
 ;
 if
@@ -2718,10 +2718,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 equals
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -3041,7 +3041,7 @@ empty
 clear
 all
 formats
-PRBool
+bool
 clearall
 =
 format
@@ -3145,7 +3145,7 @@ has
 a
 stronger
 principal
-PRBool
+bool
 subsumes
 ;
 if
@@ -3358,7 +3358,7 @@ Clone
 (
 PRUint32
 aEventType
-PRBool
+bool
 aUserCancelled
 nsIDOMDataTransfer
 *
@@ -3450,10 +3450,10 @@ transArray
 )
 return
 ;
-PRBool
+bool
 added
 =
-PR_FALSE
+false
 ;
 PRUint32
 count
@@ -3781,7 +3781,7 @@ transArray
 )
 ;
 }
-PRBool
+bool
 nsDOMDataTransfer
 :
 :
@@ -4236,7 +4236,7 @@ has
 a
 stronger
 principal
-PRBool
+bool
 subsumes
 ;
 if
@@ -4858,7 +4858,7 @@ set
 of
 flavors
 .
-PRBool
+bool
 supported
 ;
 dragSession

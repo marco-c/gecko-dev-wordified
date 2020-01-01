@@ -470,7 +470,7 @@ mGroup
 nsCString
 mClientID
 ;
-PRBool
+bool
 mValid
 ;
 }

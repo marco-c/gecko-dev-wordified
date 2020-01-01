@@ -594,7 +594,7 @@ called
 *
 /
 static
-PRPackedBool
+bool
 sInitialized
 ;
 public
@@ -632,7 +632,7 @@ nsIFile
 /
 static
 inline
-PRPackedBool
+bool
 IsInitialized
 (
 )
@@ -863,7 +863,7 @@ case
 /
 static
 inline
-PRBool
+bool
 HasOmnijar
 (
 Type

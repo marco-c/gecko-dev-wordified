@@ -613,7 +613,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -621,14 +621,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -643,7 +643,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -674,7 +674,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -687,7 +687,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -746,7 +746,7 @@ nsIURI
 >
 GetStyleSheetURL
 (
-PRBool
+bool
 *
 aIsInline
 )
@@ -763,7 +763,7 @@ aType
 nsAString
 &
 aMedia
-PRBool
+bool
 *
 aIsAlternate
 )
@@ -916,7 +916,7 @@ nsHTMLStyleElement
 :
 GetDisabled
 (
-PRBool
+bool
 *
 aDisabled
 )
@@ -982,7 +982,7 @@ nsHTMLStyleElement
 :
 SetDisabled
 (
-PRBool
+bool
 aDisabled
 )
 {
@@ -1191,7 +1191,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -1254,9 +1254,9 @@ nsHTMLStyleElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -1303,7 +1303,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -1384,7 +1384,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {
@@ -1530,7 +1530,7 @@ nsHTMLStyleElement
 :
 GetStyleSheetURL
 (
-PRBool
+bool
 *
 aIsInline
 )
@@ -1559,7 +1559,7 @@ aType
 nsAString
 &
 aMedia
-PRBool
+bool
 *
 aIsAlternate
 )

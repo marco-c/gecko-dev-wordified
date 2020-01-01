@@ -613,7 +613,7 @@ nsINode
 sEventTargetNode
 ;
 static
-PRBool
+bool
 sEventFromUserInput
 ;
 }

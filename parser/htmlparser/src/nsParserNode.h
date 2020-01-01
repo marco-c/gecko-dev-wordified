@@ -1165,10 +1165,10 @@ virtual
 PRInt32
 GetAttributeCount
 (
-PRBool
+bool
 askToken
 =
-PR_FALSE
+false
 )
 const
 ;
@@ -1566,7 +1566,7 @@ gess
 *
 /
 virtual
-PRBool
+bool
 GetGenericState
 (
 void
@@ -1581,7 +1581,7 @@ virtual
 void
 SetGenericState
 (
-PRBool
+bool
 aState
 )
 {
@@ -1620,7 +1620,7 @@ ReleaseAll
 (
 )
 ;
-PRPackedBool
+bool
 mGenericState
 ;
 PRInt32
@@ -1859,10 +1859,10 @@ virtual
 PRInt32
 GetAttributeCount
 (
-PRBool
+bool
 askToken
 =
-PR_FALSE
+false
 )
 const
 ;

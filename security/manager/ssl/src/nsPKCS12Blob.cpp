@@ -1771,7 +1771,7 @@ NS_OK
 #
 endif
 static
-PRBool
+bool
 isExtractable
 (
 SECKEYPrivateKey
@@ -1782,10 +1782,10 @@ privKey
 SECItem
 value
 ;
-PRBool
+bool
 isExtractable
 =
-PR_FALSE
+false
 ;
 SECStatus
 rv
@@ -2024,10 +2024,10 @@ exporting
 /
 init
 slot
-PRBool
+bool
 InformedUserNoSmartcardBackup
 =
-PR_FALSE
+false
 ;
 int
 numCertsExported
@@ -2467,7 +2467,7 @@ if
 privKey
 )
 {
-PRBool
+bool
 privKeyIsExtractable
 =
 isExtractable
@@ -3369,7 +3369,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 pressedOK
 ;
 {
@@ -3525,7 +3525,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 pressedOK
 ;
 {

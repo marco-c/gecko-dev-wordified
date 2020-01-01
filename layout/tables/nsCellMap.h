@@ -605,7 +605,7 @@ nsTableCellMap
 nsTableFrame
 &
 aTableFrame
-PRBool
+bool
 aBorderCollapse
 )
 ;
@@ -768,7 +768,7 @@ aColIndex
 CellData
 &
 aData
-PRBool
+bool
 aUseRowIfOverlap
 )
 const
@@ -847,7 +847,7 @@ nsTableCellFrame
 aCellFrame
 PRInt32
 aRowIndex
-PRBool
+bool
 aRebuildIfNecessary
 nsRect
 &
@@ -917,7 +917,7 @@ nsTableRowFrame
 aRows
 PRInt32
 aFirstRowIndex
-PRBool
+bool
 aConsiderSpans
 nsRect
 &
@@ -931,7 +931,7 @@ PRInt32
 aFirstRowIndex
 PRInt32
 aNumRowsToRemove
-PRBool
+bool
 aConsiderSpans
 nsRect
 &
@@ -979,7 +979,7 @@ rows
 above
 *
 /
-PRBool
+bool
 HasMoreThanOneCell
 (
 PRInt32
@@ -1063,7 +1063,7 @@ PRInt32
 aRowX
 PRInt32
 aColX
-PRBool
+bool
 *
 aOriginates
 =
@@ -1230,7 +1230,7 @@ RemoveColsAtEnd
 (
 )
 ;
-PRBool
+bool
 RowIsSpannedInto
 (
 PRInt32
@@ -1240,7 +1240,7 @@ aNumEffCols
 )
 const
 ;
-PRBool
+bool
 RowHasSpanningCells
 (
 PRInt32
@@ -1267,7 +1267,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-PRBool
+bool
 aInsert
 nsRect
 &
@@ -1390,10 +1390,10 @@ PRUint32
 aYPos
 PRUint32
 aXPos
-PRBool
+bool
 aIsLowerRight
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -1422,7 +1422,7 @@ BCBorderOwner
 aOwner
 nscoord
 aSize
-PRBool
+bool
 aChanged
 )
 ;
@@ -1450,12 +1450,12 @@ Side
 aOwner
 nscoord
 aSubSize
-PRBool
+bool
 aBevel
-PRBool
+bool
 aIsBottomRight
 =
-PR_FALSE
+false
 )
 ;
 /
@@ -1743,7 +1743,7 @@ nsCellMap
 nsTableRowGroupFrame
 *
 aRowGroupFrame
-PRBool
+bool
 aIsBC
 )
 ;
@@ -1817,7 +1817,7 @@ aColIndex
 CellData
 &
 aData
-PRBool
+bool
 aUseRowSpanIfOverlap
 )
 const
@@ -2197,7 +2197,7 @@ nsTableCellFrame
 aCellFrame
 PRInt32
 aRowIndex
-PRBool
+bool
 aRebuildIfNecessary
 nsRect
 &
@@ -2393,7 +2393,7 @@ nsTableRowFrame
 aRows
 PRInt32
 aFirstRowIndex
-PRBool
+bool
 aConsiderSpans
 nsRect
 &
@@ -2410,7 +2410,7 @@ PRInt32
 aFirstRowIndex
 PRInt32
 aNumRowsToRemove
-PRBool
+bool
 aConsiderSpans
 nsRect
 &
@@ -2453,10 +2453,10 @@ CellMap
 PRInt32
 GetRowCount
 (
-PRBool
+bool
 aConsiderDeadRowSpanRows
 =
-PR_FALSE
+false
 )
 const
 ;
@@ -2472,7 +2472,7 @@ PRInt32
 aRowX
 PRInt32
 aColX
-PRBool
+bool
 *
 aOriginates
 =
@@ -2485,7 +2485,7 @@ nsnull
 )
 const
 ;
-PRBool
+bool
 RowIsSpannedInto
 (
 PRInt32
@@ -2495,7 +2495,7 @@ aNumEffCols
 )
 const
 ;
-PRBool
+bool
 RowHasSpanningCells
 (
 PRInt32
@@ -2538,7 +2538,7 @@ rows
 above
 *
 /
-PRBool
+bool
 HasMoreThanOneCell
 (
 PRInt32
@@ -2618,7 +2618,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-PRBool
+bool
 aGetEffective
 )
 const
@@ -2634,7 +2634,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-PRBool
+bool
 &
 aIsZeroColSpan
 )
@@ -2670,7 +2670,7 @@ NS_DEBUG
 void
 Dump
 (
-PRBool
+bool
 aIsBorderCollapse
 )
 const
@@ -2735,7 +2735,7 @@ end
 .
 *
 /
-PRBool
+bool
 Grow
 (
 nsTableCellMap
@@ -2848,7 +2848,7 @@ PRInt32
 aColIndex
 PRInt32
 aRowSpan
-PRBool
+bool
 aRowSpanIsZero
 nsRect
 &
@@ -3002,14 +3002,14 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-PRBool
+bool
 aInsert
 nsRect
 &
 aDamageArea
 )
 ;
-PRBool
+bool
 CellsSpanOut
 (
 nsTArray
@@ -3112,7 +3112,7 @@ the
 region
 *
 /
-PRBool
+bool
 CellsSpanInOrOut
 (
 PRInt32
@@ -3136,7 +3136,7 @@ PRInt32
 aNumColsInTable
 )
 ;
-PRBool
+bool
 CreateEmptyRow
 (
 PRInt32
@@ -3153,7 +3153,7 @@ nsTableCellFrame
 aCellFrameToAdd
 PRInt32
 aRowIndex
-PRBool
+bool
 &
 aIsZeroRowSpan
 )
@@ -3165,7 +3165,7 @@ GetColSpanForNewCell
 nsTableCellFrame
 &
 aCellFrameToAdd
-PRBool
+bool
 &
 aIsZeroColSpan
 )
@@ -3386,7 +3386,7 @@ BC
 cellmap
 or
 not
-PRBool
+bool
 mIsBC
 ;
 /
@@ -3969,7 +3969,7 @@ nsCellMap
 :
 GetRowCount
 (
-PRBool
+bool
 aConsiderDeadRowSpanRows
 )
 const

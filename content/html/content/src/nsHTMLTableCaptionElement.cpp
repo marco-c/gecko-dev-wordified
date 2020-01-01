@@ -532,7 +532,7 @@ nsGenericHTMLElement
 nsIDOMHTMLTableCaptionElement
 NS_DECL_NSIDOMHTMLTABLECAPTIONELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -558,7 +558,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -712,7 +712,7 @@ NS_STYLE_CAPTION_SIDE_BOTTOM
 }
 }
 ;
-PRBool
+bool
 nsHTMLTableCaptionElement
 :
 :
@@ -885,7 +885,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLTableCaptionElement
 :

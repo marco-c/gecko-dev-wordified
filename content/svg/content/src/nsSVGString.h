@@ -482,7 +482,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -605,7 +605,7 @@ of
 the
 attribute
 .
-PRBool
+bool
 IsExplicitlySet
 (
 )
@@ -679,7 +679,7 @@ specified
 tracking
 for
 attribute
-PRPackedBool
+bool
 mIsBaseSet
 ;
 public
@@ -906,7 +906,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

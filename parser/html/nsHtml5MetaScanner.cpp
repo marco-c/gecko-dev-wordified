@@ -766,10 +766,10 @@ c
 -
 1
 ;
-PRBool
+bool
 reconsume
 =
-PR_FALSE
+false
 ;
 stateloop
 :
@@ -3443,7 +3443,7 @@ return
 ;
 }
 }
-PRBool
+bool
 nsHtml5MetaScanner
 :
 :
@@ -3451,7 +3451,7 @@ handleTag
 (
 )
 {
-PRBool
+bool
 stop
 =
 handleTagInner
@@ -3490,7 +3490,7 @@ return
 stop
 ;
 }
-PRBool
+bool
 nsHtml5MetaScanner
 :
 :
@@ -3550,7 +3550,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 success
 =
 tryCharset

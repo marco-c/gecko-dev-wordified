@@ -638,7 +638,7 @@ const
 nsAString
 &
 aValueAsString
-PRBool
+bool
 aPercentagesAllowed
 float
 *
@@ -768,7 +768,7 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -916,7 +916,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -1086,7 +1086,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

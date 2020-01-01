@@ -568,7 +568,7 @@ aPrincipal
 nsIURI
 *
 aBindingDocURI
-PRBool
+bool
 *
 aDidInstall
 )

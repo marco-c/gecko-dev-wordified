@@ -587,7 +587,7 @@ when
 it
 dies
 .
-PRBool
+bool
 mSuppressed
 ;
 /

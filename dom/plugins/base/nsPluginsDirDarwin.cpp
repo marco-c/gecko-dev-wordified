@@ -799,7 +799,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsPluginsDir
 :
 :
@@ -891,11 +891,11 @@ bug
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2717,7 +2717,7 @@ ret
 ;
 }
 static
-PRBool
+bool
 IsCompatibleArch
 (
 nsIFile
@@ -2742,12 +2742,12 @@ pluginURL
 )
 )
 return
-PR_FALSE
+false
 ;
-PRBool
+bool
 isPluginFile
 =
-PR_FALSE
+false
 ;
 CFBundleRef
 pluginBundle
@@ -2894,7 +2894,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 uint32

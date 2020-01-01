@@ -613,10 +613,10 @@ mozilla
 ifdef
 CSS_REPORT_PARSE_ERRORS
 static
-PRBool
+bool
 gReportErrors
 =
-PR_TRUE
+true
 ;
 static
 nsIConsoleService
@@ -1188,7 +1188,7 @@ undef
 XSI
 static
 inline
-PRBool
+bool
 IsIdentStart
 (
 PRInt32
@@ -1225,7 +1225,7 @@ START_IDENT
 }
 static
 inline
-PRBool
+bool
 StartsIdent
 (
 PRInt32
@@ -1259,7 +1259,7 @@ aSecondChar
 }
 static
 inline
-PRBool
+bool
 IsWhitespace
 (
 PRInt32
@@ -1290,7 +1290,7 @@ IS_WHITESPACE
 }
 static
 inline
-PRBool
+bool
 IsDigit
 (
 PRInt32
@@ -1320,7 +1320,7 @@ ch
 }
 static
 inline
-PRBool
+bool
 IsHexDigit
 (
 PRInt32
@@ -1351,7 +1351,7 @@ IS_HEX_DIGIT
 }
 static
 inline
-PRBool
+bool
 IsIdent
 (
 PRInt32
@@ -2180,7 +2180,7 @@ Preferences
 GetBool
 (
 CSS_ERRORS_PREF
-PR_TRUE
+true
 )
 ;
 return
@@ -2194,7 +2194,7 @@ endif
 static
 *
 /
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -2905,7 +2905,7 @@ ClearError
 ;
 }
 static
-PRBool
+bool
 InitStringBundle
 (
 )
@@ -3603,7 +3603,7 @@ TAB_STOP_WIDTH
 8
 #
 endif
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -4152,7 +4152,7 @@ mPushbackCount
 aChar
 ;
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -4201,7 +4201,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -4324,7 +4324,7 @@ break
 }
 }
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -5231,7 +5231,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -5293,7 +5293,7 @@ ch
 #
 ifdef
 DEBUG
-PRBool
+bool
 ok
 =
 #
@@ -5585,10 +5585,10 @@ may
 be
 empty
 )
-PRBool
+bool
 ok
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -5878,7 +5878,7 @@ token
 .
 *
 /
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -5887,7 +5887,7 @@ ParseAndAppendEscape
 nsString
 &
 aOutput
-PRBool
+bool
 aInString
 )
 {
@@ -6518,7 +6518,7 @@ is
 )
 *
 /
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -6780,7 +6780,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -6957,7 +6957,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -7095,7 +7095,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -7156,7 +7156,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -7486,7 +7486,7 @@ Read
 )
 ;
 }
-PRBool
+bool
 gotDot
 =
 (
@@ -7702,10 +7702,10 @@ c
 )
 ;
 }
-PRBool
+bool
 gotE
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8203,7 +8203,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -8267,7 +8267,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -8922,7 +8922,7 @@ mIntegerValid
 is
 set
 .
-PRBool
+bool
 nsCSSScanner
 :
 :
@@ -9121,15 +9121,15 @@ Append
 intro2
 )
 ;
-PRBool
+bool
 valid
 =
-PR_TRUE
+true
 ;
-PRBool
+bool
 haveQues
 =
-PR_FALSE
+false
 ;
 PRUint32
 low

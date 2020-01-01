@@ -846,13 +846,13 @@ nsILocalFile
 >
 mListFile
 ;
-PRBool
+bool
 mDirty
 ;
-PRBool
+bool
 mStartWithLast
 ;
-PRBool
+bool
 mStartOffline
 ;
 static
@@ -1098,7 +1098,7 @@ nsToolkitProfile
 :
 Remove
 (
-PRBool
+bool
 removeFiles
 )
 {
@@ -1130,7 +1130,7 @@ if
 removeFiles
 )
 {
-PRBool
+bool
 equals
 ;
 nsresult
@@ -1775,7 +1775,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -1981,7 +1981,7 @@ rv
 )
 break
 ;
-PRBool
+bool
 isRelative
 =
 buffer
@@ -2263,7 +2263,7 @@ nsToolkitProfileService
 :
 SetStartWithLastProfile
 (
-PRBool
+bool
 aValue
 )
 {
@@ -2294,7 +2294,7 @@ nsToolkitProfileService
 :
 GetStartWithLastProfile
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2314,7 +2314,7 @@ nsToolkitProfileService
 :
 GetStartOffline
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2334,7 +2334,7 @@ nsToolkitProfileService
 :
 SetStartOffline
 (
-PRBool
+bool
 aValue
 )
 {
@@ -2406,7 +2406,7 @@ ProfileEnumerator
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aResult
 )
@@ -3017,7 +3017,7 @@ nsIFile
 >
 file
 ;
-PRBool
+bool
 dummy
 ;
 rv
@@ -3128,7 +3128,7 @@ nsIFile
 >
 file
 ;
-PRBool
+bool
 dummy
 ;
 rv
@@ -3203,7 +3203,7 @@ dirName
 }
 }
 }
-PRBool
+bool
 exists
 ;
 rv
@@ -3306,7 +3306,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 dummy
 ;
 rv
@@ -3746,7 +3746,7 @@ appdir
 .
 .
 .
-PRBool
+bool
 isRelative
 ;
 rv
@@ -4096,7 +4096,7 @@ nsToolkitProfileFactory
 :
 LockFactory
 (
-PRBool
+bool
 aVal
 )
 {

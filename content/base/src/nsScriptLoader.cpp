@@ -950,7 +950,7 @@ mIsInline
 )
 ;
 }
-PRBool
+bool
 IsPreload
 (
 )
@@ -968,7 +968,7 @@ nsIScriptElement
 >
 mElement
 ;
-PRPackedBool
+bool
 mLoading
 ;
 /
@@ -983,7 +983,7 @@ load
 to
 complete
 ?
-PRPackedBool
+bool
 mIsInline
 ;
 /
@@ -1610,7 +1610,7 @@ event
 element
 .
 static
-PRBool
+bool
 IsScriptEventHandler
 (
 nsIScriptElement
@@ -2489,7 +2489,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsScriptLoader
 :
 :
@@ -2510,7 +2510,7 @@ aURI
 )
 const
 {
-PRBool
+bool
 same
 ;
 return
@@ -3123,10 +3123,10 @@ javascript
 nsnull
 }
 ;
-PRBool
+bool
 isJavaScript
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -4992,7 +4992,7 @@ CSP
 )
 )
 ;
-PRBool
+bool
 inlineOK
 ;
 rv
@@ -5732,10 +5732,10 @@ NS_OK
 aRequest
 )
 ;
-PRBool
+bool
 runScript
 =
-PR_TRUE
+true
 ;
 nsContentUtils
 :
@@ -6323,7 +6323,7 @@ aRequest
 >
 mURI
 ;
-PRBool
+bool
 oldProcessingScriptTag
 =
 context
@@ -6376,7 +6376,7 @@ uri
 url
 )
 ;
-PRBool
+bool
 isUndefined
 ;
 rv
@@ -7053,7 +7053,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 nsScriptLoader
 :
 :
@@ -7178,7 +7178,7 @@ a
 bit
 .
 static
-PRBool
+bool
 DetectByteOrderMark
 (
 const
@@ -8205,7 +8205,7 @@ if
 httpChannel
 )
 {
-PRBool
+bool
 requestSucceeded
 ;
 rv
@@ -8530,7 +8530,7 @@ NS_OK
 static
 *
 /
-PRBool
+bool
 nsScriptLoader
 :
 :
@@ -8554,7 +8554,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 hasCert
 ;
 nsIPrincipal
@@ -8660,7 +8660,7 @@ execute
 the
 script
 .
-PRBool
+bool
 subsumes
 ;
 rv
@@ -8691,7 +8691,7 @@ nsScriptLoader
 :
 ParsingComplete
 (
-PRBool
+bool
 aTerminated
 )
 {

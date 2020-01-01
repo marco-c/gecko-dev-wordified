@@ -748,7 +748,7 @@ checkHandshake
 (
 PRInt32
 bytesTransfered
-PRBool
+bool
 wasReading
 PRFileDesc
 *
@@ -1141,7 +1141,7 @@ si
 )
 ;
 static
-PRBool
+bool
 stoppedOrStopping
 (
 )

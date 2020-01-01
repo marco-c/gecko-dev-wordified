@@ -786,7 +786,7 @@ nsWindow
 .
 cpp
 extern
-PRBool
+bool
 gDisableNativeTheme
 ;
 static
@@ -986,7 +986,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-PRBool
+bool
 allowPlatformPicker
 =
 Preferences
@@ -999,7 +999,7 @@ ui
 .
 allow_platform_file_picker
 "
-PR_TRUE
+true
 )
 ;
 nsCOMPtr

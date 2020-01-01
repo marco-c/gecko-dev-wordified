@@ -512,7 +512,7 @@ aShell
 nsIContent
 *
 aNode
-PRBool
+bool
 aWalkAnonymousContent
 bool
 aWalkCache
@@ -678,7 +678,7 @@ search
 .
 *
 /
-PRBool
+bool
 PushState
 (
 nsIContent

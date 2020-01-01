@@ -811,7 +811,7 @@ FilterInstantiations
 InstantiationSet
 &
 aInstantiations
-PRBool
+bool
 *
 aCantHandleYet
 )
@@ -1046,7 +1046,7 @@ nsIRDFContainer
 >
 rdfcontainer
 ;
-PRBool
+bool
 isRDFContainer
 ;
 rv
@@ -1458,7 +1458,7 @@ while
 1
 )
 {
-PRBool
+bool
 hasmore
 ;
 rv
@@ -1741,7 +1741,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsRDFConInstanceTestNode
 :
 :
@@ -1765,10 +1765,10 @@ const
 nsresult
 rv
 ;
-PRBool
+bool
 canpropagate
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

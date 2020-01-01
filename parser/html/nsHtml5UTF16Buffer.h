@@ -440,7 +440,7 @@ getEnd
 (
 )
 ;
-PRBool
+bool
 hasMore
 (
 )
@@ -448,7 +448,7 @@ hasMore
 void
 adjust
 (
-PRBool
+bool
 lastWasCR
 )
 ;

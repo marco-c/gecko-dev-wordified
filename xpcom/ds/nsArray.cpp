@@ -480,7 +480,7 @@ resultIndex
 }
 ;
 static
-PRBool
+bool
 FindElementCallback
 (
 void
@@ -748,7 +748,7 @@ aStartIndex
 0
 }
 ;
-PRBool
+bool
 notFound
 =
 mArray
@@ -818,11 +818,11 @@ AppendElement
 nsISupports
 *
 aElement
-PRBool
+bool
 aWeak
 )
 {
-PRBool
+bool
 result
 ;
 if
@@ -928,7 +928,7 @@ PRUint32
 aIndex
 )
 {
-PRBool
+bool
 result
 =
 mArray
@@ -957,7 +957,7 @@ nsISupports
 aElement
 PRUint32
 aIndex
-PRBool
+bool
 aWeak
 )
 {
@@ -1028,7 +1028,7 @@ elementRef
 aElement
 ;
 }
-PRBool
+bool
 result
 =
 mArray
@@ -1058,7 +1058,7 @@ nsISupports
 aElement
 PRUint32
 aIndex
-PRBool
+bool
 aWeak
 )
 {
@@ -1129,7 +1129,7 @@ elementRef
 aElement
 ;
 }
-PRBool
+bool
 result
 =
 mArray
@@ -1175,7 +1175,7 @@ helper
 routines
 /
 /
-PRBool
+bool
 FindElementCallback
 (
 void

@@ -701,7 +701,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -830,7 +830,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 gfxAndroidPlatform
 :
 :

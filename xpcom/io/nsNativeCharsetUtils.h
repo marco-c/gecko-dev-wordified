@@ -867,7 +867,7 @@ defined
 (
 ANDROID
 )
-PRBool
+bool
 NS_IsNativeUTF8
 (
 )
@@ -875,7 +875,7 @@ NS_IsNativeUTF8
 #
 else
 inline
-PRBool
+bool
 NS_IsNativeUTF8
 (
 )

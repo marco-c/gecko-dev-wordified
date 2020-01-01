@@ -736,7 +736,9 @@ search
 ;
 contentWindow
 .
-performSearch
+Search
+.
+perform
 (
 )
 ;
@@ -798,7 +800,9 @@ html
 ;
 contentWindow
 .
-performSearch
+Search
+.
+perform
 (
 )
 ;
@@ -860,7 +864,9 @@ tabview
 ;
 contentWindow
 .
-performSearch
+Search
+.
+perform
 (
 )
 ;
@@ -927,7 +933,9 @@ contentWindow
 {
 contentWindow
 .
-hideSearch
+Search
+.
+hide
 (
 null
 )

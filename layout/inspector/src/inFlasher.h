@@ -479,9 +479,9 @@ aHeight
 nsRenderingContext
 *
 aRenderContext
-PRBool
+bool
 aDrawBegin
-PRBool
+bool
 aDrawEnd
 )
 ;
@@ -494,9 +494,9 @@ nscoord
 aY
 nscoord
 aLength
-PRBool
+bool
 aDir
-PRBool
+bool
 aBounds
 nsRenderingContext
 *
@@ -509,7 +509,7 @@ mColor
 PRUint16
 mThickness
 ;
-PRPackedBool
+bool
 mInvert
 ;
 }

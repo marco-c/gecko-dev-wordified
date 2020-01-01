@@ -1044,7 +1044,7 @@ quit
 -
 application
 "
-PR_FALSE
+false
 )
 ;
 /
@@ -1251,11 +1251,11 @@ mTargetTime
 ;
 mCanDrop
 =
-PR_FALSE
+false
 ;
 mTargetDragDataReceived
 =
-PR_FALSE
+false
 ;
 mTargetDragData
 =
@@ -2411,7 +2411,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsDragService
 :
 :
@@ -2472,7 +2472,7 @@ screen
 )
 )
 return
-PR_FALSE
+false
 ;
 GdkColormap
 *
@@ -2489,7 +2489,7 @@ if
 alphaColormap
 )
 return
-PR_FALSE
+false
 ;
 GdkPixmap
 *
@@ -2519,7 +2519,7 @@ if
 pixmap
 )
 return
-PR_FALSE
+false
 ;
 gdk_drawable_set_colormap
 (
@@ -2570,7 +2570,7 @@ if
 xPixmapSurface
 )
 return
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -2681,7 +2681,7 @@ pixmap
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -2721,7 +2721,7 @@ nsDragService
 :
 EndDragSession
 (
-PRBool
+bool
 aDoneDrag
 )
 {
@@ -2812,7 +2812,7 @@ nsDragService
 :
 SetCanDrop
 (
-PRBool
+bool
 aCanDrop
 )
 {
@@ -2847,7 +2847,7 @@ nsDragService
 :
 GetCanDrop
 (
-PRBool
+bool
 *
 aCanDrop
 )
@@ -3448,7 +3448,7 @@ GetNumDropItems
 )
 )
 ;
-PRBool
+bool
 isList
 =
 IsTargetContextList
@@ -3687,7 +3687,7 @@ is
 an
 internal
 list
-PRBool
+bool
 isList
 =
 IsTargetContextList
@@ -4170,10 +4170,10 @@ gdkFlavor
 )
 )
 ;
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4199,7 +4199,7 @@ PR_LOG_DEBUG
 "
 dataFound
 =
-PR_TRUE
+true
 \
 n
 "
@@ -4208,7 +4208,7 @@ n
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4221,7 +4221,7 @@ PR_LOG_DEBUG
 "
 dataFound
 =
-PR_FALSE
+false
 \
 n
 "
@@ -4701,7 +4701,7 @@ Length
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -4867,7 +4867,7 @@ convertedTextLen
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -5117,7 +5117,7 @@ convertedTextLen
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5304,7 +5304,7 @@ convertedTextLen
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5482,7 +5482,7 @@ const
 char
 *
 aDataFlavor
-PRBool
+bool
 *
 _retval
 )
@@ -5523,7 +5523,7 @@ default
 *
 _retval
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5588,7 +5588,7 @@ is
 a
 list
 .
-PRBool
+bool
 isList
 =
 IsTargetContextList
@@ -5895,7 +5895,7 @@ n
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6028,7 +6028,7 @@ n
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -6126,7 +6126,7 @@ n
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -6216,7 +6216,7 @@ n
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -6323,7 +6323,7 @@ n
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 g_free
@@ -6410,7 +6410,7 @@ TargetStartDragMotion
 ;
 mCanDrop
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6568,7 +6568,7 @@ TargetResetData
 ;
 mTargetDragDataReceived
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -6653,7 +6653,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDragService
 :
 :
@@ -6662,10 +6662,10 @@ IsTargetContextList
 void
 )
 {
-PRBool
+bool
 retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6830,7 +6830,7 @@ gMimeListType
 )
 retval
 =
-PR_TRUE
+true
 ;
 g_free
 (
@@ -7057,7 +7057,7 @@ void
 {
 mTargetDragDataReceived
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -8806,7 +8806,7 @@ MOZ_GTK_DRAG_RESULT_NO_TARGET
 {
 mUserCancelled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8851,7 +8851,7 @@ drag
 .
 EndDragSession
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9457,10 +9457,10 @@ can
 convert
 it
 .
-PRBool
+bool
 needToDoConversionToPlainText
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -9497,7 +9497,7 @@ kUnicodeMime
 ;
 needToDoConversionToPlainText
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -9548,7 +9548,7 @@ kURLMime
 ;
 needToDoConversionToPlainText
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -9592,7 +9592,7 @@ gTextUriListType
 ;
 needToDoConversionToPlainText
 =
-PR_TRUE
+true
 ;
 }
 else

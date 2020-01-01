@@ -845,7 +845,7 @@ return
 mAnimationFunction
 ;
 }
-PRBool
+bool
 nsSVGAnimateMotionElement
 :
 :

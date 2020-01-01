@@ -1023,7 +1023,7 @@ kNameSpaceID_None
 )
 ;
 }
-PRBool
+bool
 nsSVGAnimationElement
 :
 :
@@ -1047,7 +1047,7 @@ aResult
 )
 ;
 }
-PRBool
+bool
 nsSVGAnimationElement
 :
 :
@@ -1178,7 +1178,7 @@ AsElement
 nsnull
 ;
 }
-PRBool
+bool
 nsSVGAnimationElement
 :
 :
@@ -1824,7 +1824,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -2122,9 +2122,9 @@ nsSVGAnimationElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -2193,7 +2193,7 @@ aNullParent
 )
 ;
 }
-PRBool
+bool
 nsSVGAnimationElement
 :
 :
@@ -2284,7 +2284,7 @@ it
 .
 .
 .
-PRBool
+bool
 foundMatch
 =
 AnimationFunction
@@ -2409,7 +2409,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -2521,7 +2521,7 @@ aNamespaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {
@@ -2582,7 +2582,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsSVGAnimationElement
 :
 :
@@ -2991,7 +2991,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsSVGAnimationElement
 :
 :

@@ -911,7 +911,7 @@ no
 implementation
 *
 /
-PRBool
+bool
 mValid
 ;
 LiveEphemeral
@@ -1139,7 +1139,7 @@ PRUint32
 aLine
 )
 ;
-PRBool
+bool
 mValid
 ;
 PRUint32
@@ -1263,7 +1263,7 @@ no
 implementation
 *
 /
-PRBool
+bool
 mValid
 ;
 LiveEphemeral
@@ -1391,7 +1391,7 @@ no
 implementation
 *
 /
-PRBool
+bool
 mValid
 ;
 LiveEphemeral
@@ -1500,7 +1500,7 @@ no
 implementation
 *
 /
-PRBool
+bool
 mValid
 ;
 LiveEphemeral
@@ -1762,7 +1762,7 @@ GetService
 (
 )
 ;
-PRBool
+bool
 CheckInterruptHook
 (
 )
@@ -1775,7 +1775,7 @@ mInterruptHook
 }
 private
 :
-PRBool
+bool
 mOn
 ;
 PRUint32

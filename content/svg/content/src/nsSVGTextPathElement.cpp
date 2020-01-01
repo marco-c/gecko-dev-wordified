@@ -1308,7 +1308,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGTextPathElement
 :
@@ -1436,7 +1436,7 @@ name
 /
 nsSVGElement
 overrides
-PRBool
+bool
 nsSVGTextPathElement
 :
 :

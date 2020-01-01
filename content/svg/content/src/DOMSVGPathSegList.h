@@ -896,7 +896,7 @@ aList
 nsSVGElement
 *
 aElement
-PRBool
+bool
 aIsAnimValList
 )
 ;
@@ -1267,7 +1267,7 @@ baseVal
 .
 *
 /
-PRBool
+bool
 AttrIsAnimating
 (
 )
@@ -1302,7 +1302,7 @@ DOMSVGPathSegList
 nsSVGElement
 *
 aElement
-PRBool
+bool
 aIsAnimValList
 )
 :
@@ -1362,7 +1362,7 @@ or
 animVal
 list
 .
-PRBool
+bool
 IsAnimValList
 (
 )
@@ -1780,7 +1780,7 @@ nsSVGElement
 >
 mElement
 ;
-PRPackedBool
+bool
 mIsAnimValList
 ;
 }

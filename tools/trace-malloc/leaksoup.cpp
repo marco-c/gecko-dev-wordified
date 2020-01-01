@@ -616,10 +616,10 @@ belongs
 PRUint32
 index
 ;
-PRPackedBool
+bool
 reached
 ;
-PRPackedBool
+bool
 is_root
 ;
 }
@@ -2726,7 +2726,7 @@ PRUint32
 -
 1
 ;
-PRBool
+bool
 one_object_component
 ;
 for

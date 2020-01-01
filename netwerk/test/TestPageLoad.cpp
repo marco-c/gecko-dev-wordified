@@ -2654,7 +2654,7 @@ to
 see
 if
 exists
-PRBool
+bool
 equal
 ;
 for

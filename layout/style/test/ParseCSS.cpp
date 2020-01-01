@@ -762,7 +762,7 @@ return
 -
 1
 ;
-PRBool
+bool
 complete
 ;
 sheet

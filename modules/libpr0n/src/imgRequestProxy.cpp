@@ -1252,10 +1252,10 @@ we
 decoded
 before
 ?
-PRBool
+bool
 wasDecoded
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1477,7 +1477,7 @@ imgRequestProxy
 :
 RemoveFromLoadGroup
 (
-PRBool
+bool
 releaseLoadGroup
 )
 {
@@ -1647,7 +1647,7 @@ imgRequestProxy
 :
 IsPending
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1848,7 +1848,7 @@ from
 loadgroup
 happens
 async
-PRBool
+bool
 oldIsInLoadGroup
 =
 mIsInLoadGroup
@@ -3189,7 +3189,7 @@ imgRequestProxy
 :
 GetHasTransferredData
 (
-PRBool
+bool
 *
 hasData
 )
@@ -3532,7 +3532,7 @@ imgRequestProxy
 :
 OnDataAvailable
 (
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -3976,7 +3976,7 @@ imgRequestProxy
 :
 OnStopRequest
 (
-PRBool
+bool
 lastPart
 )
 {
@@ -4416,7 +4416,7 @@ aReturn
 =
 nsnull
 ;
-PRBool
+bool
 animated
 ;
 if

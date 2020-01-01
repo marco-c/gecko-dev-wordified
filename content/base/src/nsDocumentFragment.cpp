@@ -596,7 +596,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -627,7 +627,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -636,7 +636,7 @@ NS_OK
 ;
 }
 virtual
-PRBool
+bool
 GetAttr
 (
 PRInt32
@@ -663,7 +663,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {
@@ -687,7 +687,7 @@ nsnull
 ;
 }
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -841,7 +841,7 @@ ClearIsElement
 )
 ;
 }
-PRBool
+bool
 nsDocumentFragment
 :
 :

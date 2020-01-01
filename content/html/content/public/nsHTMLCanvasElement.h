@@ -749,7 +749,7 @@ only
 .
 *
 /
-PRBool
+bool
 IsWriteOnly
 (
 )
@@ -897,7 +897,7 @@ area
 .
 *
 /
-PRBool
+bool
 GetIsOpaque
 (
 )
@@ -939,7 +939,7 @@ aFilter
 )
 ;
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -1000,7 +1000,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -1031,7 +1031,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -1125,7 +1125,7 @@ non
 -
 BasicCanvasLayer
 .
-PRBool
+bool
 ShouldForceInactiveLayer
 (
 LayerManager
@@ -1286,7 +1286,7 @@ const
 nsAString
 &
 aContextId
-PRBool
+bool
 aForceThebes
 nsICanvasRenderingContextInternal
 *
@@ -1355,7 +1355,7 @@ write
 -
 only
 .
-PRPackedBool
+bool
 mWriteOnly
 ;
 }

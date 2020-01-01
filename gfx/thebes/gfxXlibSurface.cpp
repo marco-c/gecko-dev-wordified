@@ -1375,7 +1375,7 @@ forget
 ;
 }
 static
-PRBool
+bool
 GetForce24bppPref
 (
 )
@@ -1395,7 +1395,7 @@ force
 -
 24bpp
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -1475,7 +1475,7 @@ bit
 formats
 .
 static
-PRBool
+bool
 force24bpp
 =
 GetForce24bppPref
@@ -1703,7 +1703,7 @@ DisplayTable
 public
 :
 static
-PRBool
+bool
 GetColormapAndVisual
 (
 Screen
@@ -1823,7 +1823,7 @@ FindDisplay
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -2168,7 +2168,7 @@ visual
 static
 *
 /
-PRBool
+bool
 DisplayTable
 :
 :
@@ -2738,7 +2738,7 @@ return
 0
 ;
 }
-PRBool
+bool
 gfxXlibSurface
 :
 :

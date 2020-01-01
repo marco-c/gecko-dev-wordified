@@ -231,8 +231,11 @@ true
 ;
 async
 .
-onreadystatechange
-=
+addEventListener
+(
+"
+readystatechange
+"
 function
 (
 event
@@ -253,6 +256,8 @@ do_test_finished
 )
 ;
 }
+false
+)
 ;
 async
 .

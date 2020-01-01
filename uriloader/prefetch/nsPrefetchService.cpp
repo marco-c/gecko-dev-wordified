@@ -1090,7 +1090,7 @@ nsPrefetchNode
 >
 mCurrent
 ;
-PRBool
+bool
 mStarted
 ;
 }
@@ -1462,7 +1462,7 @@ nsPrefetchQueueEnumerator
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aHasMore
 )
@@ -2787,7 +2787,7 @@ already
 in
 the
 cache
-PRBool
+bool
 fromCache
 ;
 if
@@ -3588,7 +3588,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 match
 ;
 rv
@@ -5344,7 +5344,7 @@ aReferrerURI
 nsIDOMNode
 *
 aSource
-PRBool
+bool
 aExplicit
 )
 {
@@ -5539,7 +5539,7 @@ prefetched
 .
 /
 /
-PRBool
+bool
 match
 ;
 rv
@@ -5824,7 +5824,7 @@ if
 mCurrentNode
 )
 {
-PRBool
+bool
 equals
 ;
 if
@@ -5903,7 +5903,7 @@ node
 mNext
 )
 {
-PRBool
+bool
 equals
 ;
 if
@@ -6027,7 +6027,7 @@ aReferrerURI
 nsIDOMNode
 *
 aSource
-PRBool
+bool
 aExplicit
 )
 {
@@ -6056,7 +6056,7 @@ aReferrerURI
 nsIDOMNode
 *
 aSource
-PRBool
+bool
 aExplicit
 )
 {
@@ -6070,9 +6070,9 @@ nsPrefetchService
 :
 EnumerateQueue
 (
-PRBool
+bool
 aIncludeNormalItems
-PRBool
+bool
 aIncludeOfflineItems
 nsISimpleEnumerator
 *
@@ -7227,7 +7227,7 @@ Preferences
 GetBool
 (
 PREFETCH_PREF
-PR_FALSE
+false
 )
 )
 {

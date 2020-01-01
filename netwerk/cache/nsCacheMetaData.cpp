@@ -1006,10 +1006,10 @@ value
 \
 0
 }
-PRBool
+bool
 odd
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1162,7 +1162,7 @@ corrupted
 "
 )
 ;
-PRBool
+bool
 keepGoing
 ;
 nsresult

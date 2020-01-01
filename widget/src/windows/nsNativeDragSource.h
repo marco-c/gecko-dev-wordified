@@ -668,7 +668,7 @@ DWORD
 grfKeyState
 )
 ;
-PRPackedBool
+bool
 UserCancelled
 (
 )
@@ -721,7 +721,7 @@ drag
 by
 pressing
 escape
-PRPackedBool
+bool
 mUserCancelled
 ;
 }

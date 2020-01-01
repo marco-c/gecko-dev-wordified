@@ -736,7 +736,7 @@ getReturnType
 =
 0
 ;
-PRBool
+bool
 canReturnType
 (
 ResultType
@@ -816,7 +816,7 @@ aContexts
 *
 /
 virtual
-PRBool
+bool
 isSensitiveTo
 (
 ContextSensitivity
@@ -898,7 +898,7 @@ evaluateToBool
 txIEvalContext
 *
 aContext
-PRBool
+bool
 &
 aResult
 )
@@ -1066,7 +1066,7 @@ getReturnType
 )
 ;
 \
-PRBool
+bool
 isSensitiveTo
 (
 ContextSensitivity
@@ -1705,7 +1705,7 @@ bug
 *
 /
 virtual
-PRBool
+bool
 requireParams
 (
 PRInt32
@@ -1840,7 +1840,7 @@ context
 .
 *
 /
-PRBool
+bool
 argsSensitiveTo
 (
 ContextSensitivity
@@ -2125,7 +2125,7 @@ aType
 }
 TX_DECL_FUNCTION
 static
-PRBool
+bool
 getTypeFromAtom
 (
 nsIAtom
@@ -2232,7 +2232,7 @@ matched
 *
 /
 virtual
-PRBool
+bool
 matches
 (
 const
@@ -2309,7 +2309,7 @@ flags
 *
 /
 virtual
-PRBool
+bool
 isSensitiveTo
 (
 Expr
@@ -2345,7 +2345,7 @@ TX_DECL_NODE_TEST
 \
 TX_DECL_TOSTRING
 \
-PRBool
+bool
 matches
 (
 const
@@ -2364,7 +2364,7 @@ getDefaultPriority
 )
 ;
 \
-PRBool
+bool
 isSensitiveTo
 (
 Expr
@@ -2806,7 +2806,7 @@ empty
 *
 *
 /
-PRBool
+bool
 isEmpty
 (
 )
@@ -2901,7 +2901,7 @@ dest
 endif
 protected
 :
-PRBool
+bool
 isSensitiveTo
 (
 Expr
@@ -3652,7 +3652,7 @@ aOp
 TX_DECL_EXPR
 private
 :
-PRBool
+bool
 compareResults
 (
 txIEvalContext
@@ -4088,7 +4088,7 @@ public
 void
 setSerialize
 (
-PRBool
+bool
 aSerialize
 )
 {
@@ -4115,7 +4115,7 @@ shouldn
 t
 be
 serialized
-PRBool
+bool
 mSerialize
 ;
 #

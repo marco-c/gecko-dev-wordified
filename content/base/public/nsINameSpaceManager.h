@@ -744,7 +744,7 @@ aURI
 0
 ;
 virtual
-PRBool
+bool
 HasElementCreator
 (
 PRInt32

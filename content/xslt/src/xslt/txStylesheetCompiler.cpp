@@ -729,10 +729,10 @@ for
 new
 namespace
 mappings
-PRBool
+bool
 hasOwnNamespaceMap
 =
-PR_FALSE
+false
 ;
 PRInt32
 i
@@ -971,10 +971,10 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
-PRBool
+bool
 hasOwnNamespaceMap
 =
-PR_FALSE
+false
 ;
 PRInt32
 i
@@ -4599,7 +4599,7 @@ return
 ANY_RESULT
 ;
 }
-PRBool
+bool
 txErrorFunctionCall
 :
 :
@@ -5506,7 +5506,7 @@ aResult
 ;
 }
 extern
-PRBool
+bool
 TX_XSLTFunctionAvailable
 (
 nsIAtom
@@ -5637,7 +5637,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 txStylesheetCompilerState
 :
 :

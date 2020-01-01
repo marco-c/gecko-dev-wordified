@@ -492,7 +492,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -595,7 +595,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsMappedAttributeElement
 :
 :

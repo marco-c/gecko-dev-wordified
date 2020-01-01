@@ -623,7 +623,7 @@ mArguments
 nsString
 mCertName
 ;
-PRBool
+bool
 mHashFound
 ;
 /
@@ -678,7 +678,7 @@ nsIPrincipal
 aPrincipal
 )
 ;
-PRBool
+bool
 IsFileURL
 (
 )

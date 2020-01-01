@@ -2362,7 +2362,7 @@ return
 STRING_RESULT
 ;
 }
-PRBool
+bool
 txFormatNumberFunctionCall
 :
 :

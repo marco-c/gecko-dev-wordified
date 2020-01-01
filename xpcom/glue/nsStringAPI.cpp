@@ -712,7 +712,7 @@ data
 len
 ;
 }
-PRBool
+bool
 nsAString
 :
 :
@@ -1023,9 +1023,9 @@ const
 char
 *
 aSet
-PRBool
+bool
 aLeading
-PRBool
+bool
 aTrailing
 )
 {
@@ -1495,7 +1495,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsAString
 :
 :
@@ -1556,7 +1556,7 @@ selflen
 0
 ;
 }
-PRBool
+bool
 nsAString
 :
 :
@@ -1624,7 +1624,7 @@ selflen
 0
 ;
 }
-PRBool
+bool
 nsAString
 :
 :
@@ -1706,7 +1706,7 @@ aASCIIString
 nsnull
 ;
 }
-PRBool
+bool
 nsAString
 :
 :
@@ -1927,7 +1927,7 @@ return
 ;
 }
 static
-PRBool
+bool
 ns_strnmatch
 (
 const
@@ -1991,7 +1991,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 ns_strnimatch
 (
 const
@@ -2072,12 +2072,12 @@ char
 aStr
 PRUint32
 aOffset
-PRBool
+bool
 aIgnoreCase
 )
 const
 {
-PRBool
+bool
 (
 *
 match
@@ -2352,12 +2352,12 @@ char
 aStr
 PRInt32
 aOffset
-PRBool
+bool
 aIgnoreCase
 )
 const
 {
-PRBool
+bool
 (
 *
 match
@@ -3094,7 +3094,7 @@ data
 len
 ;
 }
-PRBool
+bool
 nsACString
 :
 :
@@ -3273,9 +3273,9 @@ const
 char
 *
 aSet
-PRBool
+bool
 aLeading
-PRBool
+bool
 aTrailing
 )
 {
@@ -3703,7 +3703,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsACString
 :
 :
@@ -3764,7 +3764,7 @@ selflen
 0
 ;
 }
-PRBool
+bool
 nsACString
 :
 :
@@ -5594,7 +5594,7 @@ return
 0
 ;
 }
-PRBool
+bool
 ParseString
 (
 const

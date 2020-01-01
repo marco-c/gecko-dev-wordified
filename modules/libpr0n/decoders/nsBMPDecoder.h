@@ -509,6 +509,12 @@ public
 :
 nsBMPDecoder
 (
+RasterImage
+*
+aImage
+imgIDecoderObserver
+*
+aObserver
 )
 ;
 ~
@@ -560,7 +566,7 @@ pixel
 void
 SetUseAlphaData
 (
-PRBool
+bool
 useAlphaData
 )
 ;
@@ -675,7 +681,7 @@ has
 been
 processed
 .
-PRBool
+bool
 HasAlphaData
 (
 )
@@ -1080,7 +1086,7 @@ be
 fully
 visible
 .
-PRPackedBool
+bool
 mUseAlphaData
 ;
 /
@@ -1101,7 +1107,7 @@ and
 hence
 used
 .
-PRPackedBool
+bool
 mHaveAlphaData
 ;
 }

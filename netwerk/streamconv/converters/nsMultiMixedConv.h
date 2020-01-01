@@ -734,7 +734,7 @@ mContentDispositionHeader
 PRUint64
 mContentLength
 ;
-PRBool
+bool
 mIsByteRangeRequest
 ;
 PRInt64
@@ -764,7 +764,7 @@ of
 the
 multipart
 document
-PRBool
+bool
 mIsLastPart
 ;
 }
@@ -1239,7 +1239,7 @@ aPtr
 PRUint32
 &
 aLen
-PRBool
+bool
 *
 _retval
 )
@@ -1281,7 +1281,7 @@ aLen
 /
 member
 data
-PRBool
+bool
 mNewPart
 ;
 /
@@ -1295,7 +1295,7 @@ of
 a
 part
 ?
-PRBool
+bool
 mProcessingHeaders
 ;
 nsCOMPtr
@@ -1374,7 +1374,7 @@ mBufLen
 PRUint64
 mTotalSent
 ;
-PRBool
+bool
 mFirstOnData
 ;
 /
@@ -1431,7 +1431,7 @@ mByteRangeStart
 PRInt64
 mByteRangeEnd
 ;
-PRBool
+bool
 mIsByteRangeRequest
 ;
 PRUint32

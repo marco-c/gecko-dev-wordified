@@ -835,7 +835,7 @@ return
 STRING_RESULT
 ;
 }
-PRBool
+bool
 GenerateIdFunctionCall
 :
 :

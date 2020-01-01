@@ -553,7 +553,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRBool
+bool
 aExpandEntityReferences
 )
 ;
@@ -622,7 +622,7 @@ Errorcode
 nsresult
 FirstChildInternal
 (
-PRBool
+bool
 aReversed
 nsIDOMNode
 *
@@ -677,7 +677,7 @@ Errorcode
 nsresult
 NextSiblingInternal
 (
-PRBool
+bool
 aReversed
 nsIDOMNode
 *

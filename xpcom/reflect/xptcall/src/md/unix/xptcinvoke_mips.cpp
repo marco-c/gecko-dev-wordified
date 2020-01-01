@@ -1014,7 +1014,7 @@ T_BOOL
 d
 =
 (
-PRBool
+bool
 )
 s
 -

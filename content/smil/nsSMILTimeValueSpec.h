@@ -670,7 +670,7 @@ nsSMILTimeValueSpec
 nsSMILTimedElement
 &
 aOwner
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -699,7 +699,7 @@ nsIContent
 aContextNode
 )
 ;
-PRBool
+bool
 IsEventBased
 (
 )
@@ -731,7 +731,7 @@ For
 created
 nsSMILInstanceTime
 objects
-PRBool
+bool
 DependsOnBegin
 (
 )
@@ -751,7 +751,7 @@ aSrcContainer
 nsSMILInstanceTime
 &
 aInstanceTimeToUpdate
-PRBool
+bool
 aObjectChanged
 )
 ;
@@ -845,7 +845,7 @@ nsIDOMEvent
 aEvent
 )
 ;
-PRBool
+bool
 CheckEventDetail
 (
 nsIDOMEvent
@@ -853,7 +853,7 @@ nsIDOMEvent
 aEvent
 )
 ;
-PRBool
+bool
 CheckRepeatEventDetail
 (
 nsIDOMEvent
@@ -861,7 +861,7 @@ nsIDOMEvent
 aEvent
 )
 ;
-PRBool
+bool
 CheckAccessKeyEventDetail
 (
 nsIDOMEvent
@@ -886,7 +886,7 @@ nsSMILTimedElement
 *
 mOwner
 ;
-PRPackedBool
+bool
 mIsBegin
 ;
 /
@@ -1017,13 +1017,13 @@ aTo
 ;
 }
 virtual
-PRBool
+bool
 IsPersistent
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 private

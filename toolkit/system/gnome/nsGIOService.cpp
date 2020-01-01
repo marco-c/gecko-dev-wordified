@@ -1013,7 +1013,7 @@ GIOUTF8StringEnumerator
 :
 HasMore
 (
-PRBool
+bool
 *
 aResult
 )

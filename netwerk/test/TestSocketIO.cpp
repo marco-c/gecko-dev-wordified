@@ -2097,10 +2097,10 @@ i
 =
 0
 ;
-PRBool
+bool
 sync
 =
-PR_FALSE
+false
 ;
 if
 (

@@ -527,7 +527,7 @@ nsIDOMBlob
 >
 fileValue
 ;
-PRBool
+bool
 valueIsFile
 ;
 }

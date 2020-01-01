@@ -566,7 +566,7 @@ const
 nsACString
 &
 package
-PRBool
+bool
 *
 aResult
 )

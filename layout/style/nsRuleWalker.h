@@ -696,7 +696,7 @@ mCurrent
 mRoot
 ;
 }
-PRBool
+bool
 AtRoot
 (
 )
@@ -713,9 +713,9 @@ SetLevel
 (
 PRUint8
 aLevel
-PRBool
+bool
 aImportance
-PRBool
+bool
 aCheckForImportantRules
 )
 {
@@ -768,7 +768,7 @@ return
 mLevel
 ;
 }
-PRBool
+bool
 GetImportance
 (
 )
@@ -778,7 +778,7 @@ return
 mImportance
 ;
 }
-PRBool
+bool
 GetCheckForImportantRules
 (
 )
@@ -934,10 +934,10 @@ nsStyleSet
 :
 :
 sheetType
-PRPackedBool
+bool
 mImportance
 ;
-PRPackedBool
+bool
 mCheckForImportantRules
 ;
 /

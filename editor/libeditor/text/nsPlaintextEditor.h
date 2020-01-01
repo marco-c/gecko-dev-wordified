@@ -741,7 +741,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aSuppressTransaction
 )
 ;
@@ -755,7 +755,7 @@ const
 nsAString
 &
 aAttribute
-PRBool
+bool
 aSuppressTransaction
 )
 ;
@@ -788,7 +788,7 @@ aFlags
 NS_IMETHOD
 GetDocumentIsEmpty
 (
-PRBool
+bool
 *
 aDocumentIsEmpty
 )
@@ -796,7 +796,7 @@ aDocumentIsEmpty
 NS_IMETHOD
 GetIsDocumentEditable
 (
-PRBool
+bool
 *
 aIsDocumentEditable
 )
@@ -839,7 +839,7 @@ Cut
 NS_IMETHOD
 CanCut
 (
-PRBool
+bool
 *
 aCanCut
 )
@@ -852,7 +852,7 @@ Copy
 NS_IMETHOD
 CanCopy
 (
-PRBool
+bool
 *
 aCanCopy
 )
@@ -869,7 +869,7 @@ CanPaste
 (
 PRInt32
 aSelectionType
-PRBool
+bool
 *
 aCanPaste
 )
@@ -888,7 +888,7 @@ CanPasteTransferable
 nsITransferable
 *
 aTransferable
-PRBool
+bool
 *
 aCanPaste
 )
@@ -899,7 +899,7 @@ CanDrag
 nsIDOMEvent
 *
 aDragEvent
-PRBool
+bool
 *
 aCanDrag
 )
@@ -1180,7 +1180,7 @@ nsIDOMNode
 aDestinationNode
 PRInt32
 aDestOffset
-PRBool
+bool
 aDoDeleteSelection
 )
 ;
@@ -1380,7 +1380,7 @@ nsIDOMNode
 aDestinationNode
 PRInt32
 aDestOffset
-PRBool
+bool
 aDoDeleteSelection
 )
 ;
@@ -1425,7 +1425,7 @@ SharedOutputString
 (
 PRUint32
 aFlags
-PRBool
+bool
 *
 aIsCollapsed
 nsAString
@@ -1445,7 +1445,7 @@ eEditorReadonly
 bit
 *
 /
-PRBool
+bool
 IsModifiable
 (
 )
@@ -1467,13 +1467,13 @@ events
 bug
 50703
 )
-PRBool
+bool
 mIgnoreSpuriousDragEvent
 ;
 NS_IMETHOD
 IgnoreSpuriousDragEvent
 (
-PRBool
+bool
 aIgnoreSpuriousDragEvent
 )
 {
@@ -1485,12 +1485,12 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 CanCutOrCopy
 (
 )
 ;
-PRBool
+bool
 FireClipboardEvent
 (
 PRInt32
@@ -1509,7 +1509,7 @@ nsIEditRules
 >
 mRules
 ;
-PRBool
+bool
 mWrapToWindow
 ;
 PRInt32

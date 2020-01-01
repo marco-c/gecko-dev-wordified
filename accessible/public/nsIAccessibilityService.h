@@ -665,7 +665,7 @@ GetRootDocumentAccessible
 nsIPresShell
 *
 aPresShell
-PRBool
+bool
 aCanCreate
 )
 =

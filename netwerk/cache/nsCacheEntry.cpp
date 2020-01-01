@@ -524,7 +524,7 @@ nsCacheEntry
 nsCString
 *
 key
-PRBool
+bool
 streamBased
 nsCacheStoragePolicy
 storagePolicy
@@ -651,7 +651,7 @@ const
 char
 *
 key
-PRBool
+bool
 streamBased
 nsCacheStoragePolicy
 storagePolicy
@@ -1282,7 +1282,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsCacheEntry
 :
 :
@@ -1343,7 +1343,7 @@ mDescriptorQ
 )
 ;
 }
-PRBool
+bool
 nsCacheEntry
 :
 :
@@ -2008,7 +2008,7 @@ nsCacheEntryInfo
 :
 IsStreamBased
 (
-PRBool
+bool
 *
 result
 )
@@ -2709,7 +2709,7 @@ get
 )
 ;
 }
-PRBool
+bool
 nsCacheEntryHashTable
 :
 :

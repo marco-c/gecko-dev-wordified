@@ -745,7 +745,7 @@ whitelist
 .
 "
 inline
-PRBool
+bool
 isOnlySafeChars
 (
 const
@@ -1147,7 +1147,7 @@ pref
 )
 )
 {
-PRBool
+bool
 val
 ;
 if
@@ -1324,7 +1324,7 @@ pref
 )
 )
 {
-PRBool
+bool
 val
 ;
 if
@@ -1490,7 +1490,7 @@ input
 nsACString
 &
 ace
-PRBool
+bool
 allowUnassigned
 )
 {
@@ -1762,7 +1762,7 @@ input
 nsACString
 &
 _retval
-PRBool
+bool
 allowUnassigned
 )
 {
@@ -2016,7 +2016,7 @@ const
 nsACString
 &
 input
-PRBool
+bool
 *
 _retval
 )
@@ -2388,7 +2388,7 @@ const
 nsACString
 &
 input
-PRBool
+bool
 *
 _isASCII
 nsACString
@@ -2467,7 +2467,7 @@ ToLowerCase
 _retval
 )
 ;
-PRBool
+bool
 isACE
 ;
 IsACE
@@ -3632,7 +3632,7 @@ in
 nsAString
 &
 out
-PRBool
+bool
 allowUnassigned
 )
 {
@@ -3978,7 +3978,7 @@ in
 nsACString
 &
 out
-PRBool
+bool
 allowUnassigned
 )
 {
@@ -4273,11 +4273,11 @@ in
 nsACString
 &
 out
-PRBool
+bool
 allowUnassigned
 )
 {
-PRBool
+bool
 isAce
 ;
 IsACE
@@ -4498,7 +4498,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsIDNService
 :
 :
@@ -4612,7 +4612,7 @@ pos
 1
 )
 ;
-PRBool
+bool
 safe
 ;
 if

@@ -703,7 +703,7 @@ enum
 #
 ifdef
 DEBUG
-PRBool
+bool
 mIsCompiled
 ;
 #

@@ -808,10 +808,10 @@ gfxASurface
 >
 mSurface
 ;
-PRPackedBool
+bool
 mUniformAlpha
 ;
-PRPackedBool
+bool
 mUniformColor
 ;
 gfxRGBA

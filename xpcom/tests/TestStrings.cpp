@@ -464,7 +464,7 @@ _retval
 in
 ;
 }
-PRBool
+bool
 test_assign
 (
 )
@@ -490,7 +490,7 @@ b
 result
 )
 ;
-PRBool
+bool
 r
 =
 strcmp
@@ -536,7 +536,7 @@ return
 r
 ;
 }
-PRBool
+bool
 test_assign_c
 (
 )
@@ -553,7 +553,7 @@ c
 '
 )
 ;
-PRBool
+bool
 r
 =
 strcmp
@@ -599,7 +599,7 @@ return
 r
 ;
 }
-PRBool
+bool
 test1
 (
 )
@@ -690,7 +690,7 @@ n
 kNotFound
 ;
 }
-PRBool
+bool
 test2
 (
 )
@@ -725,7 +725,7 @@ Cut
 6
 )
 ;
-PRBool
+bool
 r
 =
 strcmp
@@ -771,7 +771,7 @@ return
 r
 ;
 }
-PRBool
+bool
 test_find
 (
 )
@@ -832,7 +832,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 test_rfind
 (
 )
@@ -1057,7 +1057,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_rfind_2
 (
 )
@@ -1127,7 +1127,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 test_rfind_3
 (
 )
@@ -1197,7 +1197,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 test_rfind_4
 (
 )
@@ -1254,7 +1254,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_findinreadable
 (
 )
@@ -1899,7 +1899,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_rfindinreadable
 (
 )
@@ -2708,7 +2708,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_distance
 (
 )
@@ -2761,7 +2761,7 @@ begin
 end
 )
 ;
-PRBool
+bool
 r
 =
 (
@@ -2798,7 +2798,7 @@ return
 r
 ;
 }
-PRBool
+bool
 test_length
 (
 )
@@ -2830,7 +2830,7 @@ Length
 (
 )
 ;
-PRBool
+bool
 r
 =
 (
@@ -2867,7 +2867,7 @@ return
 r
 ;
 }
-PRBool
+bool
 test_trim
 (
 )
@@ -2908,7 +2908,7 @@ Trim
 set
 )
 ;
-PRBool
+bool
 r
 =
 strcmp
@@ -2954,7 +2954,7 @@ return
 r
 ;
 }
-PRBool
+bool
 test_replace_substr
 (
 )
@@ -2995,7 +2995,7 @@ www
 "
 )
 ;
-PRBool
+bool
 r
 =
 strcmp
@@ -3265,7 +3265,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_replace_substr_2
 (
 )
@@ -3386,7 +3386,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_strip_ws
 (
 )
@@ -3413,7 +3413,7 @@ StripWhitespace
 (
 )
 ;
-PRBool
+bool
 r
 =
 strcmp
@@ -3459,7 +3459,7 @@ return
 r
 ;
 }
-PRBool
+bool
 test_equals_ic
 (
 )
@@ -3467,7 +3467,7 @@ test_equals_ic
 nsCString
 s
 ;
-PRBool
+bool
 r
 =
 s
@@ -3505,7 +3505,7 @@ return
 r
 ;
 }
-PRBool
+bool
 test_fixed_string
 (
 )
@@ -3595,7 +3595,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_concat
 (
 )
@@ -3682,7 +3682,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 test_concat_2
 (
 )
@@ -3761,7 +3761,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 test_concat_3
 (
 )
@@ -3834,7 +3834,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 test_xpidl_string
 (
 )
@@ -4096,7 +4096,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_empty_assign
 (
 )
@@ -4134,7 +4134,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_set_length
 (
 )
@@ -4206,7 +4206,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_substring
 (
 )
@@ -4239,7 +4239,7 @@ with
 |
 sub
 |
-PRBool
+bool
 r
 =
 sub
@@ -4491,7 +4491,7 @@ int
 suffix
 base
 )
-PRBool
+bool
 test_appendint
 (
 )
@@ -4634,7 +4634,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_appendint64
 (
 )
@@ -4982,7 +4982,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_appendfloat
 (
 )
@@ -5164,7 +5164,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_findcharinset
 (
 )
@@ -5262,7 +5262,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_rfindcharinset
 (
 )
@@ -5512,7 +5512,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_stringbuffer
 (
 )
@@ -5637,7 +5637,7 @@ FromString
 str
 )
 ;
-PRBool
+bool
 rv
 =
 (
@@ -5658,7 +5658,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 test_voided
 (
 )
@@ -5793,7 +5793,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_voided_autostr
 (
 )
@@ -5942,7 +5942,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_voided_assignment
 (
 )
@@ -5984,7 +5984,7 @@ get
 )
 ;
 }
-PRBool
+bool
 test_empty_assignment
 (
 )
@@ -6071,7 +6071,7 @@ nsnull
 }
 }
 ;
-PRBool
+bool
 test_string_tointeger
 (
 )
@@ -6195,7 +6195,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 test_parse_string_helper
 (
 const
@@ -6311,7 +6311,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 test_parse_string_helper0
 (
 const
@@ -6334,7 +6334,7 @@ nsnull
 ;
 }
 static
-PRBool
+bool
 test_parse_string_helper1
 (
 const
@@ -6361,7 +6361,7 @@ nsnull
 ;
 }
 static
-PRBool
+bool
 test_parse_string_helper2
 (
 const
@@ -6392,7 +6392,7 @@ s2
 ;
 }
 static
-PRBool
+bool
 test_parse_string
 (
 )
@@ -6512,7 +6512,7 @@ foo
 ;
 }
 static
-PRBool
+bool
 test_strip_chars_helper
 (
 const
@@ -6563,7 +6563,7 @@ result
 ;
 }
 static
-PRBool
+bool
 test_strip_chars
 (
 )
@@ -6774,7 +6774,7 @@ foo
 ;
 }
 static
-PRBool
+bool
 test_huge_capacity
 (
 )
@@ -6798,10 +6798,10 @@ n
 nsCString
 n1
 ;
-PRBool
+bool
 fail
 =
-PR_FALSE
+false
 ;
 #
 undef
@@ -7808,7 +7808,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 test_tofloat_helper
 (
 const
@@ -7817,7 +7817,7 @@ nsString
 aStr
 float
 aExpected
-PRBool
+bool
 aSuccess
 )
 {
@@ -7851,7 +7851,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 test_tofloat
 (
 )
@@ -8050,7 +8050,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 test_todouble_helper
 (
 const
@@ -8059,7 +8059,7 @@ nsString
 aStr
 double
 aExpected
-PRBool
+bool
 aSuccess
 )
 {
@@ -8093,7 +8093,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 test_todouble
 (
 )
@@ -8301,7 +8301,7 @@ PR_TRUE
 -
 -
 typedef
-PRBool
+bool
 (
 *
 TestFunc

@@ -677,7 +677,7 @@ a
 file
 input
 .
-PRBool
+bool
 nsGfxButtonControlFrame
 :
 :
@@ -687,10 +687,10 @@ PRInt32
 type
 )
 {
-PRBool
+bool
 rv
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1968,7 +1968,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsGfxButtonControlFrame
 :
 :

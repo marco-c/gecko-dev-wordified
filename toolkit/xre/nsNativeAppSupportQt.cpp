@@ -905,7 +905,7 @@ nsNativeAppSupportQt
 :
 Start
 (
-PRBool
+bool
 *
 aRetVal
 )
@@ -1250,7 +1250,7 @@ nsNativeAppSupportQt
 :
 Stop
 (
-PRBool
+bool
 *
 aResult
 )

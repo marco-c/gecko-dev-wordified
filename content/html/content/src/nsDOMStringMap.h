@@ -602,10 +602,10 @@ against
 infinite
 recursion
 .
-PRBool
+bool
 mRemovingProp
 ;
-PRBool
+bool
 DataPropToAttr
 (
 const
@@ -617,7 +617,7 @@ nsAString
 aResult
 )
 ;
-PRBool
+bool
 AttrToDataProp
 (
 const

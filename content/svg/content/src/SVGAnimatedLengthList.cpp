@@ -1216,7 +1216,7 @@ PRUint8
 aAttrEnum
 PRUint8
 aAxis
-PRBool
+bool
 aCanZeroPadList
 )
 {
@@ -1256,7 +1256,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

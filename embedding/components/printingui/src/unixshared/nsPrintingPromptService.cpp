@@ -1274,7 +1274,7 @@ ok
 to
 be
 null
-PRBool
+bool
 isForPrinting
 nsIWebProgressListener
 *
@@ -1284,7 +1284,7 @@ nsIPrintProgressParams
 *
 *
 printProgressParams
-PRBool
+bool
 *
 notifyOnOpen
 )

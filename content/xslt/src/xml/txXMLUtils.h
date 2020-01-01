@@ -594,7 +594,7 @@ mLocalName
 nsnull
 ;
 }
-PRBool
+bool
 isNull
 (
 )
@@ -861,7 +861,7 @@ characters
 *
 /
 static
-PRBool
+bool
 isWhitespace
 (
 const
@@ -911,7 +911,7 @@ QName
 *
 /
 static
-PRBool
+bool
 isValidQName
 (
 const
@@ -971,7 +971,7 @@ letter
 *
 /
 static
-PRBool
+bool
 isLetter
 (
 PRUnichar
@@ -1020,7 +1020,7 @@ character
 *
 /
 static
-PRBool
+bool
 isNCNameChar
 (
 PRUnichar

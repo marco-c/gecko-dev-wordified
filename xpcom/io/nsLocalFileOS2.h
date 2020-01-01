@@ -699,7 +699,7 @@ when
 this
 is
 PR_FALSE
-PRPackedBool
+bool
 mDirty
 ;
 /
@@ -744,7 +744,7 @@ const
 nsACString
 &
 newName
-PRBool
+bool
 move
 )
 ;
@@ -761,7 +761,7 @@ const
 nsACString
 &
 newName
-PRBool
+bool
 move
 )
 ;
@@ -779,7 +779,7 @@ const
 nsAFlatCString
 &
 node
-PRBool
+bool
 multipleComponents
 )
 ;

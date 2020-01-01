@@ -1170,7 +1170,7 @@ RFC
 /
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 net_IsValidScheme
 (
@@ -1183,7 +1183,7 @@ schemeLen
 )
 ;
 inline
-PRBool
+bool
 net_IsValidScheme
 (
 const
@@ -1387,7 +1387,7 @@ to
 /
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 net_FilterURIString
 (
@@ -1527,7 +1527,7 @@ true
 /
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 net_NormalizeFileURL
 (
@@ -1981,7 +1981,7 @@ aContentType
 nsACString
 &
 aContentCharset
-PRBool
+bool
 *
 aHadCharset
 )
@@ -2115,7 +2115,7 @@ aContentType
 nsACString
 &
 aContentCharset
-PRBool
+bool
 *
 aHadCharset
 PRInt32
@@ -2265,7 +2265,7 @@ returned
 /
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 net_IsValidHostName
 (
@@ -2301,7 +2301,7 @@ section
 /
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 net_IsValidIPv4Addr
 (
@@ -2339,7 +2339,7 @@ section
 /
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 net_IsValidIPv6Addr
 (

@@ -1568,7 +1568,7 @@ aZip
 char
 *
 aPattern
-PRBool
+bool
 regExp
 )
 ;
@@ -1607,7 +1607,7 @@ mItem
 PRUint16
 mSlot
 ;
-PRPackedBool
+bool
 mRegExp
 ;
 /

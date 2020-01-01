@@ -642,7 +642,7 @@ supported
 *
 /
 virtual
-PRBool
+bool
 SupportsIsindexSubmission
 (
 )

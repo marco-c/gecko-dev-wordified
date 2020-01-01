@@ -924,7 +924,7 @@ PRUint64
 len
 )
 ;
-PRBool
+bool
 IsPersistentFramePtr
 (
 )
@@ -1049,7 +1049,7 @@ delete
 mMsg
 ;
 }
-PRBool
+bool
 IsControl
 (
 )
@@ -1162,7 +1162,7 @@ nsCString
 *
 mMsg
 ;
-PRBool
+bool
 mIsControl
 ;
 PRInt32

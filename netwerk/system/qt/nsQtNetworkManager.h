@@ -473,13 +473,13 @@ gQtNetworkManager
 ;
 }
 static
-PRBool
+bool
 IsConnected
 (
 )
 ;
 static
-PRBool
+bool
 GetLinkStatusKnown
 (
 )
@@ -490,7 +490,7 @@ enableInstance
 (
 )
 ;
-PRBool
+bool
 openConnection
 (
 const
@@ -498,7 +498,7 @@ QString
 &
 )
 ;
-PRBool
+bool
 isOnline
 (
 )

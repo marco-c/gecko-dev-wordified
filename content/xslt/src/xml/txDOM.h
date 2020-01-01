@@ -1630,7 +1630,7 @@ aURI
 ;
 private
 :
-PRBool
+bool
 setElementID
 (
 const
@@ -1788,7 +1788,7 @@ aNSID
 /
 ID
 getter
-PRBool
+bool
 getIDValue
 (
 nsAString
@@ -1939,7 +1939,7 @@ getXPathParent
 (
 )
 ;
-PRBool
+bool
 equals
 (
 nsIAtom

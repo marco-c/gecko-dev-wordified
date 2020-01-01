@@ -570,7 +570,7 @@ char
 aFileName
 )
 ;
-PRBool
+bool
 IsDataAvailable
 (
 )

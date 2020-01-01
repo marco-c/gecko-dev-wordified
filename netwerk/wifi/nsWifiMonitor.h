@@ -575,7 +575,7 @@ nsIWifiListener
 >
 mListener
 ;
-PRBool
+bool
 mHasSentData
 ;
 }
@@ -637,11 +637,11 @@ nsWifiAccessPoint
 >
 &
 aAccessPoints
-PRBool
+bool
 aAccessPointsChanged
 )
 ;
-PRBool
+bool
 mKeepGoing
 ;
 nsCOMPtr

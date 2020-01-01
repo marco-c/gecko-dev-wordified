@@ -594,7 +594,7 @@ mFloat
 ;
 }
 inline
-PRBool
+bool
 NS_IEEEIsNan
 (
 float
@@ -996,7 +996,7 @@ nscoord
 aCoord
 float
 aScale
-PRBool
+bool
 requireNotNegative
 )
 {
@@ -2159,7 +2159,7 @@ one
 *
 /
 inline
-PRBool
+bool
 NSCoordLessThan
 (
 nscoord
@@ -2236,7 +2236,7 @@ one
 *
 /
 inline
-PRBool
+bool
 NSCoordGreaterThan
 (
 nscoord

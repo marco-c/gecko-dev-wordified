@@ -1188,7 +1188,7 @@ is
 a
 WPS
 UrlObject
-PRBool
+bool
 isUrl
 ;
 rv
@@ -1910,7 +1910,7 @@ const
 char
 *
 scheme
-PRBool
+bool
 *
 result
 )

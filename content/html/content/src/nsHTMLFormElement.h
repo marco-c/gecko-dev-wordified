@@ -632,7 +632,7 @@ return
 mStr
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 const
@@ -895,7 +895,7 @@ nsAString
 &
 aName
 const
-PRBool
+bool
 aPrevious
 nsIDOMHTMLInputElement
 *
@@ -916,7 +916,7 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-PRBool
+bool
 aFlushContent
 )
 ;
@@ -995,7 +995,7 @@ aValue
 /
 nsIContent
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -1052,7 +1052,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -1060,14 +1060,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -1082,7 +1082,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -1113,7 +1113,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -1130,7 +1130,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -1413,7 +1413,7 @@ nsGenericHTMLFormElement
 aElement
 bool
 aUpdateValidity
-PRBool
+bool
 aNotify
 )
 ;
@@ -1525,7 +1525,7 @@ control
 .
 *
 /
-PRBool
+bool
 HasSingleTextControl
 (
 )
@@ -1587,7 +1587,7 @@ null
 .
 *
 /
-PRBool
+bool
 IsDefaultSubmitElement
 (
 const
@@ -1758,7 +1758,7 @@ element
 void
 UpdateValidity
 (
-PRBool
+bool
 aElementValidityState
 )
 ;
@@ -1813,7 +1813,7 @@ state
 !
 *
 /
-PRBool
+bool
 GetValidity
 (
 )
@@ -2262,10 +2262,10 @@ NotifySubmitObservers
 nsIURI
 *
 aActionURL
-PRBool
+bool
 *
 aCancelSubmit
-PRBool
+bool
 aEarlyNotify
 )
 ;
@@ -2298,7 +2298,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 aFlushContent
 )
 ;
@@ -2438,7 +2438,7 @@ valid
 .
 *
 /
-PRBool
+bool
 CheckFormValidity
 (
 nsIMutableArray
@@ -2627,7 +2627,7 @@ or
 not
 *
 /
-PRPackedBool
+bool
 mGeneratingSubmit
 ;
 /
@@ -2645,7 +2645,7 @@ or
 not
 *
 /
-PRPackedBool
+bool
 mGeneratingReset
 ;
 /
@@ -2658,7 +2658,7 @@ submitting
 currently
 *
 /
-PRPackedBool
+bool
 mIsSubmitting
 ;
 /
@@ -2679,7 +2679,7 @@ triggers
 it
 *
 /
-PRPackedBool
+bool
 mDeferSubmission
 ;
 /
@@ -2693,7 +2693,7 @@ listeners
 already
 *
 /
-PRPackedBool
+bool
 mNotifiedObservers
 ;
 /
@@ -2712,7 +2712,7 @@ result
 ?
 *
 /
-PRPackedBool
+bool
 mNotifiedObserversResult
 ;
 /
@@ -2753,7 +2753,7 @@ or
 not
 *
 /
-PRBool
+bool
 mSubmitInitiatedFromUserInput
 ;
 /
@@ -2941,7 +2941,7 @@ observers
 *
 /
 static
-PRBool
+bool
 gFirstFormSubmitted
 ;
 /
@@ -2960,7 +2960,7 @@ manager
 *
 /
 static
-PRBool
+bool
 gPasswordManagerInitialized
 ;
 }

@@ -1114,7 +1114,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-PRBool
+bool
 isContainer
 ;
 rv
@@ -1604,7 +1604,7 @@ RemoveElement
 nsIRDFNode
 *
 aElement
-PRBool
+bool
 aRenumber
 )
 {
@@ -1811,7 +1811,7 @@ nsIRDFNode
 aElement
 PRInt32
 aIndex
-PRBool
+bool
 aRenumber
 )
 {
@@ -2044,7 +2044,7 @@ RemoveElementAt
 (
 PRInt32
 aIndex
-PRBool
+bool
 aRenumber
 nsIRDFNode
 *
@@ -3025,10 +3025,10 @@ PR_FALSE
 )
 ;
 }
-PRBool
+bool
 err
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -3256,7 +3256,7 @@ while
 1
 )
 {
-PRBool
+bool
 hasMore
 ;
 rv

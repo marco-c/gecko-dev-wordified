@@ -472,7 +472,7 @@ main
 "
 ;
 static
-PRBool
+bool
 VerifyResult
 (
 nsresult
@@ -729,7 +729,7 @@ valid
 file
 name
 static
-PRBool
+bool
 TestInvalidFileName
 (
 nsIFile
@@ -848,7 +848,7 @@ for
 future
 tests
 static
-PRBool
+bool
 TestCreate
 (
 nsIFile
@@ -922,7 +922,7 @@ AppendNative
 return
 PR_FALSE
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -1107,7 +1107,7 @@ in
 place
 .
 static
-PRBool
+bool
 TestCreateUnique
 (
 nsIFile
@@ -1181,7 +1181,7 @@ AppendNative
 return
 PR_FALSE
 ;
-PRBool
+bool
 existsBefore
 ;
 rv
@@ -1237,7 +1237,7 @@ Create
 return
 PR_FALSE
 ;
-PRBool
+bool
 existsAfter
 ;
 rv
@@ -1403,7 +1403,7 @@ for
 future
 tests
 static
-PRBool
+bool
 TestDeleteOnClose
 (
 nsIFile
@@ -1477,7 +1477,7 @@ AppendNative
 return
 PR_FALSE
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -1695,7 +1695,7 @@ and
 did
 before
 static
-PRBool
+bool
 TestRemove
 (
 nsIFile
@@ -1705,7 +1705,7 @@ const
 char
 *
 aName
-PRBool
+bool
 aRecursive
 )
 {
@@ -1767,7 +1767,7 @@ AppendNative
 return
 PR_FALSE
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -1949,7 +1949,7 @@ old
 location
 anymore
 static
-PRBool
+bool
 TestMove
 (
 nsIFile
@@ -2026,7 +2026,7 @@ AppendNative
 return
 PR_FALSE
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -2227,7 +2227,7 @@ AppendNative
 return
 PR_FALSE
 ;
-PRBool
+bool
 equal
 ;
 rv
@@ -2381,7 +2381,7 @@ old
 location
 too
 static
-PRBool
+bool
 TestCopy
 (
 nsIFile
@@ -2458,7 +2458,7 @@ AppendNative
 return
 PR_FALSE
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -2563,7 +2563,7 @@ MoveToNative
 return
 PR_FALSE
 ;
-PRBool
+bool
 equal
 ;
 rv
@@ -2783,7 +2783,7 @@ nsIFile
 :
 GetParent
 static
-PRBool
+bool
 TestParent
 (
 nsIFile
@@ -2847,7 +2847,7 @@ GetParent
 "
 )
 ;
-PRBool
+bool
 equal
 ;
 rv
@@ -2909,7 +2909,7 @@ setting
 /
 getting
 static
-PRBool
+bool
 TestNormalizeNativePath
 (
 nsIFile

@@ -1480,7 +1480,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGGraphicElement
 :
@@ -1606,7 +1606,7 @@ name
 /
 nsSVGElement
 overrides
-PRBool
+bool
 nsSVGGraphicElement
 :
 :

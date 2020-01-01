@@ -1792,7 +1792,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {

@@ -1849,7 +1849,7 @@ overrideEnumerator
 )
 )
 ;
-PRBool
+bool
 hasMore
 ;
 rv
@@ -2614,7 +2614,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 hasMore
 ;
 while

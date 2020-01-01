@@ -695,7 +695,7 @@ virtual
 nsresult
 GetCaretVisible
 (
-PRBool
+bool
 *
 outMakeVisible
 )
@@ -728,7 +728,7 @@ it
 void
 SetCaretVisible
 (
-PRBool
+bool
 intMakeVisible
 )
 ;
@@ -772,7 +772,7 @@ state
 void
 SetCaretReadOnly
 (
-PRBool
+bool
 inMakeReadonly
 )
 ;
@@ -805,7 +805,7 @@ returns
 PR_FALSE
 *
 /
-PRBool
+bool
 GetCaretReadOnly
 (
 )
@@ -941,7 +941,7 @@ EraseCaret
 void
 SetVisibilityDuringSelection
 (
-PRBool
+bool
 aVisibility
 )
 ;
@@ -1346,7 +1346,7 @@ only
 void
 SetIgnoreUserModify
 (
-PRBool
+bool
 aIgnoreUserModify
 )
 ;
@@ -1444,7 +1444,7 @@ InvalidateTextOverflowBlock
 (
 )
 ;
-PRBool
+bool
 DrawAtPositionWithHint
 (
 nsIDOMNode
@@ -1459,7 +1459,7 @@ HINT
 aFrameHint
 PRUint8
 aBidiLevel
-PRBool
+bool
 aInvalidate
 )
 ;
@@ -1594,17 +1594,17 @@ shouldn
 t
 be
 .
-PRBool
+bool
 MustDrawCaret
 (
-PRBool
+bool
 aIgnoreDrawnState
 )
 ;
 void
 DrawCaret
 (
-PRBool
+bool
 aInvalidate
 )
 ;
@@ -1613,7 +1613,7 @@ DrawCaretAfterBriefDelay
 (
 )
 ;
-PRBool
+bool
 UpdateCaretRects
 (
 nsIFrame
@@ -1798,7 +1798,7 @@ selection
 is
 empty
 .
-PRBool
+bool
 IsMenuPopupHidingCaret
 (
 )
@@ -1875,7 +1875,7 @@ width
 height
 aspect
 ratio
-PRPackedBool
+bool
 mVisible
 ;
 /
@@ -1884,7 +1884,7 @@ is
 the
 caret
 blinking
-PRPackedBool
+bool
 mDrawn
 ;
 /
@@ -1900,7 +1900,7 @@ on
 the
 screen
 .
-PRPackedBool
+bool
 mPendingDraw
 ;
 /
@@ -1916,7 +1916,7 @@ draw
 was
 suppressed
 .
-PRPackedBool
+bool
 mReadOnly
 ;
 /
@@ -1931,7 +1931,7 @@ state
 draws
 differently
 )
-PRPackedBool
+bool
 mShowDuringSelection
 ;
 /
@@ -1941,13 +1941,13 @@ when
 text
 is
 selected
-PRPackedBool
+bool
 mIgnoreUserModify
 ;
 #
 ifdef
 IBMBIDI
-PRPackedBool
+bool
 mKeyboardRTL
 ;
 /
@@ -1961,7 +1961,7 @@ right
 to
 -
 left
-PRPackedBool
+bool
 mBidiUI
 ;
 /
@@ -2198,7 +2198,7 @@ mPresShell
 }
 protected
 :
-PRBool
+bool
 mWasVisible
 ;
 nsCOMPtr

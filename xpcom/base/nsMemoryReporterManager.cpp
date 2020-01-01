@@ -3596,7 +3596,7 @@ e
 )
 )
 ;
-PRBool
+bool
 more
 ;
 while

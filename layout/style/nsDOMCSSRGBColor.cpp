@@ -503,7 +503,7 @@ aBlue
 nsIDOMCSSPrimitiveValue
 *
 aAlpha
-PRBool
+bool
 aHasAlpha
 )
 :

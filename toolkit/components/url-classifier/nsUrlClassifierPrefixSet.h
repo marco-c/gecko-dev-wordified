@@ -620,7 +620,7 @@ Contains
 (
 PRUint32
 aPrefix
-PRBool
+bool
 *
 aFound
 )
@@ -670,10 +670,10 @@ PRUint32
 aPrefix
 PRUint32
 aKey
-PRBool
+bool
 *
 aReady
-PRBool
+bool
 *
 aFound
 )
@@ -707,7 +707,7 @@ aSize
 NS_IMETHOD
 IsEmpty
 (
-PRBool
+bool
 *
 aEmpty
 )
@@ -850,7 +850,7 @@ non
 empty
 array
 .
-PRBool
+bool
 mHasPrefixes
 ;
 /

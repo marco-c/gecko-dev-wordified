@@ -734,7 +734,7 @@ to
 prevent
 data
 leakage
-PRBool
+bool
 hasFlags
 ;
 nsresult
@@ -893,7 +893,7 @@ recursive
 image
 -
 loads
-PRBool
+bool
 isRecursiveLoad
 ;
 rv

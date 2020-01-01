@@ -1284,7 +1284,7 @@ nsIWebBrowserChrome
 >
 mWebBrowserChrome
 ;
-PRPackedBool
+bool
 mTooltipListenerInstalled
 ;
 nsCOMPtr
@@ -1330,7 +1330,7 @@ coordinates
 for
 tooltip
 event
-PRBool
+bool
 mShowingTooltip
 ;
 /
@@ -1634,7 +1634,7 @@ RemoveContextMenuListener
 (
 )
 ;
-PRPackedBool
+bool
 mContextMenuListenerInstalled
 ;
 nsWebBrowser

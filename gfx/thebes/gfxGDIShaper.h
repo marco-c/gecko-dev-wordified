@@ -476,7 +476,7 @@ gfxGDIShaper
 ;
 }
 virtual
-PRBool
+bool
 InitTextRun
 (
 gfxContext

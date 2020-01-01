@@ -410,7 +410,7 @@ KeyClass
 class
 T
 >
-PRBool
+bool
 RedirectChannelRegistrar
 :
 :

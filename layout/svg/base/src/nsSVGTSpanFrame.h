@@ -673,7 +673,7 @@ void
 )
 SetWhitespaceCompression
 (
-PRBool
+bool
 aCompressWhitespace
 )
 ;

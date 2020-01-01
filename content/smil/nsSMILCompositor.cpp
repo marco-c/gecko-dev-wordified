@@ -462,7 +462,7 @@ h
 /
 PLDHashEntryHdr
 methods
-PRBool
+bool
 nsSMILCompositor
 :
 :

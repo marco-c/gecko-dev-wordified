@@ -988,7 +988,7 @@ the
 first
 row
 .
-PRBool
+bool
 originates
 ;
 PRInt32
@@ -1277,7 +1277,7 @@ GetPrefWidth
 nsRenderingContext
 *
 aRenderingContext
-PRBool
+bool
 aComputingSize
 )
 {
@@ -2055,7 +2055,7 @@ the
 first
 row
 .
-PRBool
+bool
 originates
 ;
 PRInt32

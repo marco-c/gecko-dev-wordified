@@ -3590,10 +3590,10 @@ aFind
 =
 NULL
 ;
-PRBool
+bool
 regExp
 =
-PR_FALSE
+false
 ;
 char
 *
@@ -3928,10 +3928,10 @@ mFiles
 mSlot
 ]
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5489,10 +5489,10 @@ Name
 dirlen
 )
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -6335,7 +6335,7 @@ aZip
 char
 *
 aPattern
-PRBool
+bool
 aRegExp
 )
 :

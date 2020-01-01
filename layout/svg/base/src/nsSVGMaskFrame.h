@@ -523,6 +523,15 @@ aOpacity
 0f
 )
 ;
+virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
 NS_IMETHOD
 AttributeChanged
 (
@@ -748,7 +757,7 @@ mMaskParentMatrix
 recursion
 prevention
 flag
-PRPackedBool
+bool
 mInUse
 ;
 /

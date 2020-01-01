@@ -805,7 +805,7 @@ nsPreloadedStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 _retval
 NS_OUTPARAM

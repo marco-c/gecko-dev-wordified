@@ -772,7 +772,7 @@ GtkPrinter
 aPrinter
 )
 ;
-PRBool
+bool
 GetForcePrintSelectionOnly
 (
 )
@@ -785,7 +785,7 @@ mPrintSelectionOnly
 void
 SetForcePrintSelectionOnly
 (
-PRBool
+bool
 aPrintSelectionOnly
 )
 {
@@ -922,7 +922,7 @@ orientation
 NS_IMETHOD
 GetPrintReversed
 (
-PRBool
+bool
 *
 aPrintReversed
 )
@@ -930,14 +930,14 @@ aPrintReversed
 NS_IMETHOD
 SetPrintReversed
 (
-PRBool
+bool
 aPrintReversed
 )
 ;
 NS_IMETHOD
 GetPrintInColor
 (
-PRBool
+bool
 *
 aPrintInColor
 )
@@ -945,7 +945,7 @@ aPrintInColor
 NS_IMETHOD
 SetPrintInColor
 (
-PRBool
+bool
 aPrintInColor
 )
 ;
@@ -1344,7 +1344,7 @@ GtkPaperSize
 *
 mPaperSize
 ;
-PRBool
+bool
 mPrintSelectionOnly
 ;
 }

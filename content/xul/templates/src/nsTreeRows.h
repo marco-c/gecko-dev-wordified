@@ -1134,7 +1134,7 @@ return
 this
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -1475,7 +1475,7 @@ iterator
 aIterator
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -1487,7 +1487,7 @@ aIterator
 )
 const
 ;
-PRBool
+bool
 operator
 !
 =

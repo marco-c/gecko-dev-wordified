@@ -446,7 +446,7 @@ class
 TestLargestRegion
 {
 static
-PRBool
+bool
 TestSingleRect
 (
 nsRect
@@ -526,7 +526,7 @@ check
 the
 remainder
 static
-PRBool
+bool
 TestNonRectangular
 (
 )
@@ -804,10 +804,10 @@ nsRect
 }
 }
 ;
-PRBool
+bool
 success
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -923,7 +923,7 @@ success
 ;
 }
 static
-PRBool
+bool
 TwoRectTest
 (
 )
@@ -1032,10 +1032,10 @@ nsRect
 }
 }
 ;
-PRBool
+bool
 success
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -1166,7 +1166,7 @@ success
 ;
 }
 static
-PRBool
+bool
 TestContainsSpecifiedRect
 (
 )
@@ -1243,7 +1243,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 TestContainsSpecifiedOverflowingRect
 (
 )
@@ -1322,7 +1322,7 @@ PR_TRUE
 public
 :
 static
-PRBool
+bool
 Test
 (
 )

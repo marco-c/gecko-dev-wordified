@@ -694,7 +694,7 @@ or
 both
 null
 .
-PRBool
+bool
 isContainer
 ;
 n
@@ -985,7 +985,7 @@ it
 .
 /
 /
-PRBool
+bool
 redraw
 =
 (
@@ -1344,7 +1344,7 @@ IsContainer
 (
 PRInt32
 index
-PRBool
+bool
 *
 _retval
 )
@@ -1403,7 +1403,7 @@ IsContainerOpen
 (
 PRInt32
 index
-PRBool
+bool
 *
 _retval
 )
@@ -1467,7 +1467,7 @@ IsContainerEmpty
 (
 PRInt32
 index
-PRBool
+bool
 *
 _retval
 )
@@ -1501,7 +1501,7 @@ IsSeparator
 (
 PRInt32
 index
-PRBool
+bool
 *
 _retval
 )
@@ -1899,7 +1899,7 @@ seq
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 IsExpanded
 ;
 n
@@ -2092,7 +2092,7 @@ row
 nsITreeColumn
 *
 col
-PRBool
+bool
 *
 _retval
 )
@@ -2132,7 +2132,7 @@ row
 nsITreeColumn
 *
 col
-PRBool
+bool
 *
 _retval
 )
@@ -2344,7 +2344,7 @@ orientation
 nsIDOMDataTransfer
 *
 aDataTransfer
-PRBool
+bool
 *
 _retval
 )
@@ -2409,7 +2409,7 @@ nsNSSASN1Tree
 :
 IsSorted
 (
-PRBool
+bool
 *
 _retval
 )
@@ -2507,7 +2507,7 @@ PRInt32
 rowIndex
 PRInt32
 afterIndex
-PRBool
+bool
 *
 _retval
 )
@@ -2631,7 +2631,7 @@ walk
 seq
 )
 {
-PRBool
+bool
 IsExpanded
 ;
 walk
@@ -2865,7 +2865,7 @@ walk
 seq
 )
 {
-PRBool
+bool
 IsExpanded
 ;
 walk

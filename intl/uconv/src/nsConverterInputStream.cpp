@@ -1694,7 +1694,7 @@ ReadLine
 nsAString
 &
 aLine
-PRBool
+bool
 *
 aResult
 )

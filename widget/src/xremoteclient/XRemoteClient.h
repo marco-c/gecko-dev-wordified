@@ -496,7 +496,7 @@ char
 *
 *
 aResponse
-PRBool
+bool
 *
 aSucceeded
 )
@@ -531,7 +531,7 @@ char
 *
 *
 aResponse
-PRBool
+bool
 *
 aSucceeded
 )
@@ -562,7 +562,7 @@ GetLock
 (
 Window
 aWindow
-PRBool
+bool
 *
 aDestroyed
 )
@@ -589,7 +589,7 @@ const
 char
 *
 aProfile
-PRBool
+bool
 aSupportsCommandLine
 )
 ;
@@ -626,7 +626,7 @@ char
 *
 *
 aResponse
-PRBool
+bool
 *
 aWindowFound
 )
@@ -648,7 +648,7 @@ char
 *
 *
 aResponse
-PRBool
+bool
 *
 aDestroyed
 )
@@ -672,12 +672,12 @@ char
 *
 *
 aResponse
-PRBool
+bool
 *
 aDestroyed
 )
 ;
-PRBool
+bool
 WaitForResponse
 (
 Window
@@ -686,7 +686,7 @@ char
 *
 *
 aResponse
-PRBool
+bool
 *
 aDestroyed
 Atom
@@ -731,7 +731,7 @@ char
 *
 mLockData
 ;
-PRBool
+bool
 mInitialized
 ;
 }

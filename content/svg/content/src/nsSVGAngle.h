@@ -517,7 +517,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -712,7 +712,7 @@ specified
 tracking
 for
 attribute
-PRPackedBool
+bool
 mIsAnimated
 ;
 void
@@ -1465,7 +1465,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

@@ -1137,7 +1137,7 @@ public
 :
 nsFindContentIterator
 (
-PRBool
+bool
 aFindBackward
 )
 :
@@ -1293,7 +1293,7 @@ GetCurrentNode
 )
 ;
 virtual
-PRBool
+bool
 IsDone
 (
 )
@@ -1377,7 +1377,7 @@ nsIContent
 >
 mEndOuterContent
 ;
-PRBool
+bool
 mFindBackward
 ;
 void
@@ -1738,7 +1738,7 @@ GetCurrentNode
 )
 ;
 }
-PRBool
+bool
 nsFindContentIterator
 :
 :
@@ -2978,7 +2978,7 @@ outerRange
 nsresult
 NS_NewFindContentIterator
 (
-PRBool
+bool
 aFindBackward
 nsIContentIterator
 *
@@ -3709,7 +3709,7 @@ nsFind
 :
 GetFindBackwards
 (
-PRBool
+bool
 *
 aFindBackward
 )
@@ -3737,7 +3737,7 @@ nsFind
 :
 SetFindBackwards
 (
-PRBool
+bool
 aFindBackward
 )
 {
@@ -3763,7 +3763,7 @@ nsFind
 :
 GetCaseSensitive
 (
-PRBool
+bool
 *
 aCaseSensitive
 )
@@ -3791,7 +3791,7 @@ nsFind
 :
 SetCaseSensitive
 (
-PRBool
+bool
 aCaseSensitive
 )
 {
@@ -4060,7 +4060,7 @@ aStartPoint
 nsIDOMRange
 *
 aEndPoint
-PRBool
+bool
 aContinueOk
 )
 {
@@ -5003,7 +5003,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsFind
 :
 :
@@ -5090,10 +5090,10 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 isBlock
 =
-PR_FALSE
+false
 ;
 mParserService
 -
@@ -5114,7 +5114,7 @@ return
 isBlock
 ;
 }
-PRBool
+bool
 nsFind
 :
 :
@@ -5156,7 +5156,7 @@ nsIDOMNode
 CDATA_SECTION_NODE
 ;
 }
-PRBool
+bool
 nsFind
 :
 :
@@ -5231,7 +5231,7 @@ IsVisible
 )
 ;
 }
-PRBool
+bool
 nsFind
 :
 :
@@ -6091,10 +6091,10 @@ we
 re
 matching
 )
-PRBool
+bool
 inWhitespace
 =
-PR_FALSE
+false
 ;
 /
 /

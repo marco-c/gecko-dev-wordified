@@ -742,7 +742,7 @@ return
 reply
 ;
 }
-PRBool
+bool
 nsDBusService
 :
 :

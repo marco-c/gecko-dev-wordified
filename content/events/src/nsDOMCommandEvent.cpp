@@ -640,9 +640,9 @@ const
 nsAString
 &
 aTypeArg
-PRBool
+bool
 aCanBubbleArg
-PRBool
+bool
 aCancelableArg
 const
 nsAString

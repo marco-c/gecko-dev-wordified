@@ -444,7 +444,7 @@ nsStringGlue
 h
 "
 inline
-PRBool
+bool
 DOMStringIsNull
 (
 const

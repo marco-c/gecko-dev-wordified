@@ -699,7 +699,7 @@ CSSPseudoElements_info
 )
 ;
 }
-PRBool
+bool
 nsCSSPseudoElements
 :
 :
@@ -730,7 +730,7 @@ CSSPseudoElements_info
 static
 *
 /
-PRBool
+bool
 nsCSSPseudoElements
 :
 :
@@ -794,7 +794,7 @@ box
 "
 )
 ;
-PRBool
+bool
 result
 =
 aAtom

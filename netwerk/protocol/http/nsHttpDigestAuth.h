@@ -819,7 +819,7 @@ nonce
 nsACString
 &
 opaque
-PRBool
+bool
 *
 stale
 PRUint16
@@ -852,7 +852,7 @@ GetMethodAndPath
 (
 nsIHttpAuthenticableChannel
 *
-PRBool
+bool
 nsCString
 &
 nsCString

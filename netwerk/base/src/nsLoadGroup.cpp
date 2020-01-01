@@ -782,7 +782,7 @@ mKey
 }
 ;
 static
-PRBool
+bool
 RequestHashMatchEntry
 (
 PLDHashTable
@@ -888,7 +888,7 @@ RequestMapEntry
 ;
 }
 static
-PRBool
+bool
 RequestHashInitEntry
 (
 PLDHashTable
@@ -1562,7 +1562,7 @@ nsLoadGroup
 :
 IsPending
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1720,7 +1720,7 @@ entry
 "
 )
 ;
-PRBool
+bool
 ok
 =
 array
@@ -4475,7 +4475,7 @@ nsISupportsArray
 arg
 )
 ;
-PRBool
+bool
 ok
 =
 array
@@ -5065,7 +5065,7 @@ aDefaultRequest
 nsresult
 rv
 ;
-PRBool
+bool
 timingEnabled
 ;
 rv

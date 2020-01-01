@@ -750,7 +750,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -915,7 +915,7 @@ NS_OK
 static
 *
 /
-PRBool
+bool
 nsHTMLFieldSetElement
 :
 :
@@ -1055,7 +1055,7 @@ nsIContent
 aChild
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -1194,7 +1194,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -1331,7 +1331,7 @@ nsHTMLFieldSetElement
 :
 NotifyElementsForFirstLegendChange
 (
-PRBool
+bool
 aNotify
 )
 {

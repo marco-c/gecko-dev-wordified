@@ -709,7 +709,7 @@ friend
 nsresult
 NS_NewProfileDirServiceProvider
 (
-PRBool
+bool
 nsProfileDirServiceProvider
 *
 *
@@ -918,10 +918,10 @@ protected
 :
 nsProfileDirServiceProvider
 (
-PRBool
+bool
 aNotifyObservers
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -982,10 +982,10 @@ nsProfileLock
 *
 mProfileDirLock
 ;
-PRPackedBool
+bool
 mNotifyObservers
 ;
-PRPackedBool
+bool
 mSharingEnabled
 ;
 #
@@ -1138,7 +1138,7 @@ nsIProfileChangeStatus
 nsresult
 NS_NewProfileDirServiceProvider
 (
-PRBool
+bool
 aNotifyObservers
 nsProfileDirServiceProvider
 *

@@ -488,7 +488,7 @@ BooleanResult
 :
 BooleanResult
 (
-PRBool
+bool
 boolean
 )
 :

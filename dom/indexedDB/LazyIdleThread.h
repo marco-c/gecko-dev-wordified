@@ -1034,7 +1034,7 @@ down
 .
 *
 /
-PRBool
+bool
 UseRunnableQueue
 (
 )
@@ -1427,7 +1427,7 @@ mThread
 .
 *
 /
-PRPackedBool
+bool
 mShutdown
 ;
 /
@@ -1458,7 +1458,7 @@ process
 .
 *
 /
-PRPackedBool
+bool
 mThreadIsShuttingDown
 ;
 /
@@ -1476,7 +1476,7 @@ enabled
 .
 *
 /
-PRPackedBool
+bool
 mIdleTimeoutEnabled
 ;
 }

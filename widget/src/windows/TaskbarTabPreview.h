@@ -520,7 +520,7 @@ virtual
 nsresult
 ShowActive
 (
-PRBool
+bool
 active
 )
 ;
@@ -590,7 +590,7 @@ for
 hooking
 mWnd
 static
-PRBool
+bool
 MainWindowHook
 (
 void
@@ -733,7 +733,7 @@ registered
 with
 the
 taskbar
-PRBool
+bool
 mRegistered
 ;
 }

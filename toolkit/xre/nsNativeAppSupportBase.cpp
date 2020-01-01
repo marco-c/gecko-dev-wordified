@@ -471,7 +471,7 @@ nsNativeAppSupportBase
 :
 Start
 (
-PRBool
+bool
 *
 result
 )
@@ -511,7 +511,7 @@ nsNativeAppSupportBase
 :
 Stop
 (
-PRBool
+bool
 *
 result
 )

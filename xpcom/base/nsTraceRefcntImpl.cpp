@@ -1035,15 +1035,15 @@ PRInt32
 gNextSerialNumber
 ;
 static
-PRBool
+bool
 gLogging
 ;
 static
-PRBool
+bool
 gLogToLeaky
 ;
 static
-PRBool
+bool
 gLogLeaksOnly
 ;
 static
@@ -1144,7 +1144,7 @@ gActivityTLS
 BAD_TLS_INDEX
 ;
 static
-PRBool
+bool
 gInitialized
 ;
 static
@@ -2396,7 +2396,7 @@ ALL_STATS
 ;
 }
 static
-PRBool
+bool
 HaveLeaks
 (
 nsTraceRefcntStats
@@ -2435,7 +2435,7 @@ mDestroys
 )
 ;
 }
-PRBool
+bool
 PrintDumpHeader
 (
 FILE
@@ -3387,7 +3387,7 @@ BloatEntry
 {
 public
 :
-PRBool
+bool
 Equals
 (
 BloatEntry
@@ -3424,7 +3424,7 @@ GetClassName
 0
 ;
 }
-PRBool
+bool
 LessThan
 (
 BloatEntry
@@ -3520,7 +3520,7 @@ LOCK_TRACELOG
 (
 )
 ;
-PRBool
+bool
 wasLogging
 =
 gLogging
@@ -3633,7 +3633,7 @@ STATISTICS
 ;
 }
 const
-PRBool
+bool
 leaked
 =
 total
@@ -3845,7 +3845,7 @@ endif
 ifdef
 NS_IMPL_REFCNT_LOGGING
 static
-PRBool
+bool
 LogThisType
 (
 const
@@ -3878,7 +3878,7 @@ GetSerialNumber
 void
 *
 aPtr
-PRBool
+bool
 aCreate
 )
 {
@@ -4160,7 +4160,7 @@ aPtr
 ;
 }
 static
-PRBool
+bool
 LogThisObj
 (
 PRInt32
@@ -4202,7 +4202,7 @@ FOPEN_NO_INHERIT
 #
 endif
 static
-PRBool
+bool
 InitLog
 (
 const
@@ -4605,7 +4605,7 @@ gInitialized
 =
 PR_TRUE
 ;
-PRBool
+bool
 defined
 ;
 defined
@@ -6361,7 +6361,7 @@ see
 creation
 information
 :
-PRBool
+bool
 loggingThisType
 =
 (
@@ -6446,7 +6446,7 @@ count
 +
 ;
 }
-PRBool
+bool
 loggingThisObject
 =
 (
@@ -6683,7 +6683,7 @@ aRefcnt
 ;
 }
 }
-PRBool
+bool
 loggingThisType
 =
 (
@@ -6765,7 +6765,7 @@ count
 -
 ;
 }
-PRBool
+bool
 loggingThisObject
 =
 (
@@ -7044,7 +7044,7 @@ Ctor
 ;
 }
 }
-PRBool
+bool
 loggingThisType
 =
 (
@@ -7080,7 +7080,7 @@ PR_TRUE
 )
 ;
 }
-PRBool
+bool
 loggingThisObject
 =
 (
@@ -7223,7 +7223,7 @@ Dtor
 ;
 }
 }
-PRBool
+bool
 loggingThisType
 =
 (
@@ -7264,7 +7264,7 @@ aPtr
 )
 ;
 }
-PRBool
+bool
 loggingThisObject
 =
 (
@@ -7525,7 +7525,7 @@ count
 +
 +
 ;
-PRBool
+bool
 loggingThisObject
 =
 (
@@ -7760,7 +7760,7 @@ count
 -
 -
 ;
-PRBool
+bool
 loggingThisObject
 =
 (
@@ -8006,7 +8006,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PRBool
+bool
 aLegal
 )
 {

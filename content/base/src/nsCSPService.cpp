@@ -582,13 +582,13 @@ is
 enabled
 *
 /
-PRBool
+bool
 CSPService
 :
 :
 sCSPEnabled
 =
-PR_TRUE
+true
 ;
 #
 ifdef

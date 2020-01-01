@@ -825,7 +825,7 @@ Touch
 )
 ;
 }
-PRBool
+bool
 GetMustValidate
 (
 )
@@ -838,7 +838,7 @@ mMustValidate
 void
 SetMustValidate
 (
-PRBool
+bool
 aValidate
 )
 {
@@ -875,7 +875,7 @@ return
 req
 ;
 }
-PRBool
+bool
 Evicted
 (
 )
@@ -896,7 +896,7 @@ return
 mExpirationState
 ;
 }
-PRBool
+bool
 HasNoProxies
 (
 )
@@ -932,10 +932,10 @@ imgCacheQueue
 void
 Touch
 (
-PRBool
+bool
 updateTime
 =
-PR_TRUE
+true
 )
 ;
 void
@@ -950,7 +950,7 @@ diff
 void
 SetEvicted
 (
-PRBool
+bool
 evict
 )
 {
@@ -962,7 +962,7 @@ evict
 void
 SetHasNoProxies
 (
-PRBool
+bool
 hasNoProxies
 )
 ;
@@ -1007,22 +1007,22 @@ mExpiryTime
 nsExpirationState
 mExpirationState
 ;
-PRPackedBool
+bool
 mMustValidate
 :
 1
 ;
-PRPackedBool
+bool
 mEvicted
 :
 1
 ;
-PRPackedBool
+bool
 mHasNoProxies
 :
 1
 ;
-PRPackedBool
+bool
 mForcePrincipalCheck
 :
 1
@@ -1099,7 +1099,7 @@ MarkDirty
 (
 )
 ;
-PRBool
+bool
 IsDirty
 (
 )
@@ -1190,7 +1190,7 @@ private
 queueContainer
 mQueue
 ;
-PRBool
+bool
 mDirty
 ;
 PRUint32
@@ -1290,7 +1290,7 @@ InitCache
 )
 ;
 static
-PRBool
+bool
 RemoveFromCache
 (
 nsIURI
@@ -1299,7 +1299,7 @@ aKey
 )
 ;
 static
-PRBool
+bool
 RemoveFromCache
 (
 imgCacheEntry
@@ -1308,7 +1308,7 @@ entry
 )
 ;
 static
-PRBool
+bool
 PutIntoCache
 (
 nsIURI
@@ -1642,7 +1642,7 @@ re
 requested
 .
 static
-PRBool
+bool
 SetHasNoProxies
 (
 nsIURI
@@ -1654,7 +1654,7 @@ entry
 )
 ;
 static
-PRBool
+bool
 SetHasProxies
 (
 nsIURI
@@ -1667,7 +1667,7 @@ private
 /
 /
 methods
-PRBool
+bool
 ValidateEntry
 (
 imgCacheEntry
@@ -1693,7 +1693,7 @@ nsISupports
 aCX
 nsLoadFlags
 aLoadFlags
-PRBool
+bool
 aCanMakeNewChannel
 imgIRequest
 *
@@ -1712,7 +1712,7 @@ PRInt32
 aCORSMode
 )
 ;
-PRBool
+bool
 ValidateRequestWithNewChannel
 (
 imgRequest

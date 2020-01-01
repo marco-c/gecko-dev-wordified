@@ -627,7 +627,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -775,7 +775,7 @@ true
 *
 /
 virtual
-PRBool
+bool
 IsFontFormatSupported
 (
 nsIURI
@@ -827,7 +827,7 @@ gfxFont
 aFont
 )
 ;
-PRBool
+bool
 GetPrefFontEntries
 (
 const

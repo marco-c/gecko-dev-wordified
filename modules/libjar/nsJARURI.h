@@ -605,10 +605,10 @@ entryPath
 nsACString
 &
 result
-PRBool
+bool
 aIncludeScheme
 =
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -685,7 +685,7 @@ nsIURI
 other
 RefHandlingEnum
 refHandlingMode
-PRBool
+bool
 *
 result
 )

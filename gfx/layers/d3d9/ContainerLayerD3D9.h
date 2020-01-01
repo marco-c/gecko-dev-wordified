@@ -638,7 +638,7 @@ GetFirstChildD3D9
 (
 )
 ;
-PRBool
+bool
 IsEmpty
 (
 )

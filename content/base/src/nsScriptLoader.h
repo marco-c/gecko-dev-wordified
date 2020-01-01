@@ -1035,7 +1035,7 @@ scripts
 .
 *
 /
-PRBool
+bool
 GetEnabled
 (
 )
@@ -1047,7 +1047,7 @@ mEnabled
 void
 SetEnabled
 (
-PRBool
+bool
 aEnabled
 )
 {
@@ -1331,7 +1331,7 @@ aDocument
 *
 /
 static
-PRBool
+bool
 ShouldExecuteScript
 (
 nsIDocument
@@ -1459,7 +1459,7 @@ you
 void
 ParsingComplete
 (
-PRBool
+bool
 aTerminated
 )
 ;
@@ -1744,7 +1744,7 @@ ready
 .
 *
 /
-PRBool
+bool
 ReadyToExecuteScripts
 (
 )
@@ -1766,7 +1766,7 @@ scripts
 .
 *
 /
-PRBool
+bool
 SelfReadyToExecuteScripts
 (
 )
@@ -1779,7 +1779,7 @@ mEnabled
 mBlockerCount
 ;
 }
-PRBool
+bool
 AddPendingChildLoader
 (
 nsScriptLoader
@@ -1946,7 +1946,7 @@ mCharset
 struct
 PreloadRequestComparator
 {
-PRBool
+bool
 Equals
 (
 const
@@ -1975,7 +1975,7 @@ mRequest
 struct
 PreloadURIComparator
 {
-PRBool
+bool
 Equals
 (
 const
@@ -2039,13 +2039,13 @@ mPendingChildLoaders
 PRUint32
 mBlockerCount
 ;
-PRPackedBool
+bool
 mEnabled
 ;
-PRPackedBool
+bool
 mDeferEnabled
 ;
-PRPackedBool
+bool
 mDocumentParsingDone
 ;
 }
@@ -2115,7 +2115,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 mWasEnabled
 ;
 nsRefPtr

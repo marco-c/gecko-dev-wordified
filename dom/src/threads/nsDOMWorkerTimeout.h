@@ -691,7 +691,7 @@ aArgc
 jsval
 *
 aArgv
-PRBool
+bool
 aIsInterval
 )
 ;
@@ -742,7 +742,7 @@ return
 mWorker
 ;
 }
-PRBool
+bool
 IsSuspended
 (
 )
@@ -777,7 +777,7 @@ ReleaseSpinlock
 (
 )
 ;
-PRBool
+bool
 IsSuspendedNoLock
 (
 )
@@ -1050,16 +1050,16 @@ nsDOMWorkerTimeout
 >
 mSuspendedRef
 ;
-PRPackedBool
+bool
 mIsInterval
 ;
-PRPackedBool
+bool
 mIsSuspended
 ;
-PRPackedBool
+bool
 mSuspendedBeforeStart
 ;
-PRPackedBool
+bool
 mStarted
 ;
 }

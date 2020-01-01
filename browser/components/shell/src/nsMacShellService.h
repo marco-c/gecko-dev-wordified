@@ -504,7 +504,7 @@ nsILocalFile
 >
 mBackgroundFile
 ;
-PRBool
+bool
 mCheckedThisSession
 ;
 }

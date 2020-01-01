@@ -646,7 +646,7 @@ ItemIsBatch
 (
 PRInt32
 aIndex
-PRBool
+bool
 *
 aIsBatch
 )

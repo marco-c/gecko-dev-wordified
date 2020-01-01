@@ -742,7 +742,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -910,7 +910,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -939,7 +939,7 @@ moveToValidAttribute
 )
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -985,7 +985,7 @@ mIndex
 )
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -1111,7 +1111,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -1200,7 +1200,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -1293,9 +1293,8 @@ mPosition
 mNode
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 if
@@ -1355,7 +1354,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -1470,11 +1469,8 @@ mPosition
 mNode
 -
 >
-GetChildAt
+GetLastChild
 (
-total
--
-1
 )
 ;
 if
@@ -1511,7 +1507,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -1540,7 +1536,7 @@ moveToSibling
 )
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -1570,7 +1566,7 @@ moveToSibling
 )
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -1709,7 +1705,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 txXPathTreeWalker
 :
 :
@@ -1935,7 +1931,7 @@ root
 static
 *
 /
-PRBool
+bool
 txXPathNodeUtils
 :
 :
@@ -2953,7 +2949,7 @@ aResult
 static
 *
 /
-PRBool
+bool
 txXPathNodeUtils
 :
 :
@@ -3983,7 +3979,7 @@ createXPathNode
 nsIContent
 *
 aContent
-PRBool
+bool
 aKeepRootAlive
 )
 {
@@ -4031,7 +4027,7 @@ createXPathNode
 nsIDOMNode
 *
 aNode
-PRBool
+bool
 aKeepRootAlive
 )
 {

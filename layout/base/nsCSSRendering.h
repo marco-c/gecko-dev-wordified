@@ -992,7 +992,7 @@ sense
 *
 /
 static
-PRBool
+bool
 IsCanvasFrame
 (
 nsIFrame
@@ -1050,7 +1050,7 @@ background
 *
 /
 static
-PRBool
+bool
 FindBackground
 (
 nsPresContext
@@ -1355,10 +1355,10 @@ FindNonTransparentBackgroundFrame
 nsIFrame
 *
 aFrame
-PRBool
+bool
 aStartAtParent
 =
-PR_FALSE
+false
 )
 ;
 /

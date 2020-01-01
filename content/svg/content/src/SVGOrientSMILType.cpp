@@ -704,7 +704,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 SVGOrientSMILType
 :
 :

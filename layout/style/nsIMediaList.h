@@ -537,7 +537,7 @@ mFeature
 -
 >
 mGetter
-PRBool
+bool
 Matches
 (
 nsPresContext
@@ -821,11 +821,11 @@ const
 nsMediaExpression
 *
 aExpression
-PRBool
+bool
 aExpressionMatches
 )
 ;
-PRBool
+bool
 Matches
 (
 nsPresContext
@@ -876,7 +876,7 @@ instead
 nsMediaExpression
 mExpression
 ;
-PRBool
+bool
 mExpressionMatches
 ;
 }
@@ -1172,7 +1172,7 @@ information
 to
 it
 .
-PRBool
+bool
 Matches
 (
 nsPresContext
@@ -1186,10 +1186,10 @@ const
 ;
 private
 :
-PRPackedBool
+bool
 mNegated
 ;
-PRPackedBool
+bool
 mHasOnly
 ;
 /
@@ -1198,7 +1198,7 @@ only
 needed
 for
 serialization
-PRPackedBool
+bool
 mTypeOmitted
 ;
 /
@@ -1207,7 +1207,7 @@ only
 needed
 for
 serialization
-PRPackedBool
+bool
 mHadUnknownExpression
 ;
 nsCOMPtr
@@ -1281,7 +1281,7 @@ information
 to
 it
 .
-PRBool
+bool
 Matches
 (
 nsPresContext
@@ -1490,7 +1490,7 @@ nsMediaQuery
 >
 mArray
 ;
-PRBool
+bool
 mIsEmpty
 ;
 /

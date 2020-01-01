@@ -1039,7 +1039,7 @@ ModuleEntry
 >
 mInProgressImports
 ;
-PRBool
+bool
 mInitialized
 ;
 }

@@ -470,7 +470,7 @@ mAlpha
 mBeta
 mGamma
 ;
-PRBool
+bool
 mAbsolute
 ;
 }

@@ -4006,7 +4006,7 @@ caller
 '
 s
 compartment
-JS
+js
 :
 :
 AutoPreserveCompartment
@@ -4520,10 +4520,10 @@ slow
 -
 load
 .
-PRBool
+bool
 writeToCache
 =
-PR_FALSE
+false
 ;
 StartupCache
 *

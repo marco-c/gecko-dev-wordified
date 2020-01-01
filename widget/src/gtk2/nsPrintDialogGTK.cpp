@@ -1427,7 +1427,7 @@ nsIStringBundle
 >
 printBundle
 ;
-PRPackedBool
+bool
 useNativeSelection
 ;
 GtkWidget
@@ -2132,7 +2132,7 @@ on
 older
 versions
 .
-PRBool
+bool
 canSelectText
 ;
 aSettings
@@ -2171,7 +2171,7 @@ gtk_minor_version
 {
 useNativeSelection
 =
-PR_TRUE
+true
 ;
 g_object_set
 (
@@ -2204,7 +2204,7 @@ else
 {
 useNativeSelection
 =
-PR_FALSE
+false
 ;
 selection_only_toggle
 =
@@ -3543,7 +3543,7 @@ GetGtkPageSetup
 (
 )
 ;
-PRBool
+bool
 geckoBool
 ;
 aNSSettings
@@ -3797,7 +3797,7 @@ aNSSettings
 >
 SetPrintToFile
 (
-PR_FALSE
+false
 )
 ;
 aNSSettings
@@ -3894,7 +3894,7 @@ SetGtkPrinter
 printer
 )
 ;
-PRBool
+bool
 printSelectionOnly
 ;
 if
@@ -4053,10 +4053,10 @@ get
 )
 ;
 }
-PRPackedBool
+bool
 shouldBeCustom
 =
-PR_TRUE
+true
 ;
 NS_ConvertUTF16toUTF8
 currentStringUTF8
@@ -4129,7 +4129,7 @@ i
 ;
 shouldBeCustom
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -4616,7 +4616,7 @@ psService
 InitPrintSettingsFromPrefs
 (
 aNSSettings
-PR_TRUE
+true
 nsIPrintSettings
 :
 :
@@ -4711,7 +4711,7 @@ psService
 SavePrintSettingsToPrefs
 (
 aNSSettings
-PR_TRUE
+true
 nsIPrintSettings
 :
 :

@@ -539,7 +539,7 @@ nsGenericHTMLElement
 nsIDOMHTMLHeadingElement
 NS_DECL_NSIDOMHTMLHEADINGELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -558,7 +558,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -678,7 +678,7 @@ nsHTMLHeadingElement
 Align
 align
 )
-PRBool
+bool
 nsHTMLHeadingElement
 :
 :
@@ -770,7 +770,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLHeadingElement
 :

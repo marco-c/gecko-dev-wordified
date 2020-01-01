@@ -827,7 +827,7 @@ virtual
 void
 SetIsDocumentActive
 (
-PRBool
+bool
 aIsActive
 )
 =

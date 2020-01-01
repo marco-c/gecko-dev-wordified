@@ -555,10 +555,10 @@ NotifyNativeEvent
 )
 ;
 virtual
-PRBool
+bool
 ProcessNextNativeEvent
 (
-PRBool
+bool
 mayWait
 )
 ;

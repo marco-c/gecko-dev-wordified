@@ -2615,7 +2615,7 @@ the
 rotation
 boundary
 .
-PRBool
+bool
 canHaveRotation
 =
 !
@@ -2647,7 +2647,7 @@ contentType
 nsIntRegion
 neededRegion
 ;
-PRBool
+bool
 canReuseBuffer
 ;
 nsIntRect
@@ -4920,7 +4920,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 ThebesLayerOGL
 :
 :
@@ -5435,7 +5435,7 @@ return
 this
 ;
 }
-PRBool
+bool
 ThebesLayerOGL
 :
 :
@@ -6148,7 +6148,7 @@ return
 this
 ;
 }
-PRBool
+bool
 ShadowThebesLayerOGL
 :
 :

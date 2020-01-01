@@ -805,7 +805,7 @@ mBaseURL
 nsCString
 mEncoding
 ;
-PRBool
+bool
 mBindToGlobalObject
 ;
 nsIInterfaceRequestor
@@ -853,7 +853,7 @@ nsXPIDLCString
 dest
 )
 ;
-PRBool
+bool
 isWellknownContainerURI
 (
 nsIRDFResource

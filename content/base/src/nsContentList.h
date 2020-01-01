@@ -637,7 +637,7 @@ s
 constructor
 .
 typedef
-PRBool
+bool
 (
 *
 nsContentListMatchFunc
@@ -851,7 +851,7 @@ IndexOf
 nsIContent
 *
 aContent
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -1443,10 +1443,10 @@ aHTMLMatchAtom
 nsIAtom
 *
 aXMLMatchAtom
-PRBool
+bool
 aDeep
 =
-PR_TRUE
+true
 )
 ;
 /
@@ -1619,10 +1619,10 @@ aDestroyFunc
 void
 *
 aData
-PRBool
+bool
 aDeep
 =
-PR_TRUE
+true
 nsIAtom
 *
 aMatchAtom
@@ -1632,10 +1632,10 @@ PRInt32
 aMatchNameSpaceId
 =
 kNameSpaceID_None
-PRBool
+bool
 aFuncMayDependOnAttr
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -1659,7 +1659,7 @@ IndexOf
 nsIContent
 *
 aContent
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -1730,7 +1730,7 @@ PRUint32
 )
 Length
 (
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -1743,7 +1743,7 @@ Item
 (
 PRUint32
 aIndex
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -1758,7 +1758,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -1878,7 +1878,7 @@ list
 )
 ;
 }
-PRBool
+bool
 MatchesKey
 (
 const
@@ -2000,7 +2000,7 @@ we
 match
 *
 /
-PRBool
+bool
 Match
 (
 mozilla
@@ -2061,7 +2061,7 @@ at
 aContent
 *
 /
-PRBool
+bool
 MatchSelf
 (
 nsIContent
@@ -2189,7 +2189,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 MayContainRelevantNodes
 (
 nsINode
@@ -2263,7 +2263,7 @@ inline
 void
 BringSelfUpToDate
 (
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -2520,7 +2520,7 @@ go
 back
 to
 using
-PRPackedBool
+bool
 for
 the
 /
@@ -2883,7 +2883,7 @@ nsCacheableFuncStringContentList
 (
 )
 ;
-PRBool
+bool
 Equals
 (
 const
@@ -2920,7 +2920,7 @@ aKey
 mString
 ;
 }
-PRBool
+bool
 AllocatedData
 (
 )

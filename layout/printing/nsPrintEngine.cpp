@@ -1760,7 +1760,7 @@ nsPrintEngine
 >
 mPrintEngine
 ;
-PRBool
+bool
 mSuppressed
 ;
 }
@@ -2580,7 +2580,7 @@ NS_OK
 -
 -
 -
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -3751,7 +3751,7 @@ nsPrintEngine
 :
 CommonPrint
 (
-PRBool
+bool
 aIsPrintPreview
 nsIPrintSettings
 *
@@ -3854,7 +3854,7 @@ nsPrintEngine
 :
 DoCommonPrint
 (
-PRBool
+bool
 aIsPrintPreview
 nsIPrintSettings
 *
@@ -4305,7 +4305,7 @@ a
 regular
 "
 selection
-PRBool
+bool
 isSelection
 =
 IsThereARangeSelection
@@ -4738,7 +4738,7 @@ Suppress
 (
 )
 ;
-PRBool
+bool
 printSilently
 ;
 mPrt
@@ -5659,10 +5659,10 @@ if
 aIsPrintPreview
 )
 {
-PRBool
+bool
 notifyOnInit
 =
-PR_FALSE
+false
 ;
 ShowPrintProgress
 (
@@ -5712,7 +5712,7 @@ rv
 }
 else
 {
-PRBool
+bool
 doNotify
 ;
 ShowPrintProgress
@@ -6209,7 +6209,7 @@ nsPrintEngine
 :
 GetIsFramesetDocument
 (
-PRBool
+bool
 *
 aIsFramesetDocument
 )
@@ -6337,7 +6337,7 @@ nsPrintEngine
 :
 GetIsIFrameSelected
 (
-PRBool
+bool
 *
 aIsIFrameSelected
 )
@@ -6420,7 +6420,7 @@ child
 of
 this
 docshell
-PRPackedBool
+bool
 isParentFrameSet
 ;
 *
@@ -6537,7 +6537,7 @@ nsPrintEngine
 :
 GetIsRangeSelection
 (
-PRBool
+bool
 *
 aIsRangeSelection
 )
@@ -6670,7 +6670,7 @@ nsPrintEngine
 :
 GetIsFramesetFrameSelected
 (
-PRBool
+bool
 *
 aIsFramesetFrameSelected
 )
@@ -7454,7 +7454,7 @@ nsPrintEngine
 :
 GetDoingPrint
 (
-PRBool
+bool
 *
 aDoingPrint
 )
@@ -7572,7 +7572,7 @@ nsPrintEngine
 :
 GetDoingPrintPreview
 (
-PRBool
+bool
 *
 aDoingPrintPreview
 )
@@ -8275,9 +8275,9 @@ nsPrintEngine
 :
 ShowPrintProgress
 (
-PRBool
+bool
 aIsForPrinting
-PRBool
+bool
 &
 aDoNotify
 )
@@ -8338,10 +8338,10 @@ see
 if
 we
 can
-PRBool
+bool
 showProgresssDialog
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -8585,10 +8585,10 @@ browserChrome
 )
 return
 ;
-PRBool
+bool
 isModal
 =
-PR_TRUE
+true
 ;
 browserChrome
 -
@@ -8796,7 +8796,7 @@ mPrintProgressParams
 -
 -
 -
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -8963,7 +8963,7 @@ t
 an
 insertion
 selection
-PRBool
+bool
 isCollapsed
 ;
 selection
@@ -9066,7 +9066,7 @@ PR_FALSE
 -
 -
 -
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -9254,10 +9254,10 @@ frames
 and
 FRAME
 frames
-PRBool
+bool
 isFrameSet
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -10618,10 +10618,10 @@ chilren
 of
 this
 PO
-PRBool
+bool
 hasChildFrames
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -11368,7 +11368,7 @@ child
 -
 -
 -
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -11380,7 +11380,7 @@ aDocShell
 nsIDOMWindow
 *
 aDOMWin
-PRPackedBool
+bool
 &
 aIsParentFrameSet
 )
@@ -11392,10 +11392,10 @@ IsParentAFrameSet
 aDocShell
 )
 ;
-PRBool
+bool
 iFrameIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11650,7 +11650,7 @@ SetPrintPO
 nsPrintObject
 *
 aPO
-PRBool
+bool
 aPrint
 )
 {
@@ -12416,7 +12416,7 @@ CleanupOnFailure
 (
 nsresult
 aResult
-PRBool
+bool
 aIsPrinting
 )
 {
@@ -12651,7 +12651,7 @@ ShowPrintErrorDialog
 (
 nsresult
 aPrintError
-PRBool
+bool
 aIsPrinting
 )
 {
@@ -12669,7 +12669,7 @@ aPrintError
 =
 %
 lx
-PRBool
+bool
 aIsPrinting
 =
 %
@@ -13531,12 +13531,12 @@ time
 through
 we
 do
-PRBool
+bool
 doSetPixelScale
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 ppIsShrinkToFit
 =
 mPrtPreview
@@ -14540,10 +14540,10 @@ printing
 to
 a
 file
-PRBool
+bool
 isPrintToFile
 =
-PR_FALSE
+false
 ;
 mPrt
 -
@@ -15126,7 +15126,7 @@ ReflowDocList
 nsPrintObject
 *
 aPO
-PRBool
+bool
 aSetPixelScale
 )
 {
@@ -15543,7 +15543,7 @@ NS_ERROR_FAILURE
 nsSize
 adjSize
 ;
-PRBool
+bool
 documentIsTopLevel
 ;
 if
@@ -15559,10 +15559,10 @@ IsPrintable
 return
 NS_OK
 ;
-PRBool
+bool
 canCreateScrollbars
 =
-PR_TRUE
+true
 ;
 nsIView
 *
@@ -15924,7 +15924,7 @@ in
 the
 print
 settings
-PRBool
+bool
 printBGColors
 ;
 mPrt
@@ -17845,7 +17845,7 @@ needs
 to
 be
 printed
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -17992,7 +17992,7 @@ mKids
 i
 ]
 ;
-PRBool
+bool
 printed
 =
 PrintDocContent
@@ -18264,10 +18264,10 @@ nsISelection
 aSelection
 )
 {
-PRBool
+bool
 collapsed
 =
-PR_FALSE
+false
 ;
 aRange
 -
@@ -20155,7 +20155,7 @@ aStr
 const
 PRUint32
 aLen
-PRBool
+bool
 aDoFront
 )
 {
@@ -20354,7 +20354,7 @@ newStr
 -
 -
 -
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -20363,7 +20363,7 @@ PrintPage
 nsPrintObject
 *
 aPO
-PRBool
+bool
 &
 aInRange
 )
@@ -20550,10 +20550,10 @@ request
 it
 be
 cancelled
-PRBool
+bool
 isCancelled
 =
-PR_FALSE
+false
 ;
 mPrt
 -
@@ -20597,10 +20597,10 @@ GetNumPages
 numPages
 )
 ;
-PRBool
+bool
 donePrinting
 ;
-PRBool
+bool
 isDoingPrintRange
 ;
 mPageSeqFrame
@@ -21119,7 +21119,7 @@ check
 the
 hard
 way
-PRBool
+bool
 isSelected
 =
 (
@@ -22590,7 +22590,7 @@ nsPrintEngine
 :
 SetIsPrinting
 (
-PRBool
+bool
 aIsPrinting
 )
 {
@@ -22790,7 +22790,7 @@ nsPrintEngine
 :
 SetIsPrintPreview
 (
-PRBool
+bool
 aIsPrintPreview
 )
 {
@@ -23022,7 +23022,7 @@ aCount
 /
 /
 static
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -23367,7 +23367,7 @@ nsnull
 -
 -
 -
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -23378,10 +23378,10 @@ nsPIDOMWindow
 window
 )
 {
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -23584,7 +23584,7 @@ found
 -
 -
 -
-PRBool
+bool
 nsPrintEngine
 :
 :
@@ -23670,7 +23670,7 @@ PR_TRUE
 nsresult
 rv
 ;
-PRBool
+bool
 didPrint
 =
 PrintDocContent
@@ -23888,7 +23888,7 @@ SetPrintAsIs
 nsPrintObject
 *
 aPO
-PRBool
+bool
 aAsIs
 )
 {
@@ -26263,7 +26263,7 @@ nsPrintEngine
 :
 TurnScriptingOn
 (
-PRBool
+bool
 aDoTurnOn
 )
 {
@@ -29054,7 +29054,7 @@ get
 out
 )
 ;
-PRBool
+bool
 isSelected
 ;
 if

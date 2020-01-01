@@ -543,6 +543,10 @@ shaderSpec
 (
 spec
 )
+builtInFunctionEmulator
+(
+type
+)
 {
 }
 TCompiler
@@ -1202,6 +1206,12 @@ clear
 uniforms
 .
 clear
+(
+)
+;
+builtInFunctionEmulator
+.
+Cleanup
 (
 )
 ;

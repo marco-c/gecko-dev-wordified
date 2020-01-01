@@ -847,7 +847,7 @@ nsTextAttrsMgr
 nsHyperTextAccessible
 *
 aHyperTextAcc
-PRBool
+bool
 aIncludeDefAttrs
 nsAccessible
 *
@@ -1862,10 +1862,10 @@ NS_ENSURE_STATE
 currElm
 )
 ;
-PRBool
+bool
 offsetFound
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -2019,10 +2019,10 @@ NS_ENSURE_STATE
 currElm
 )
 ;
-PRBool
+bool
 offsetFound
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -2266,7 +2266,7 @@ mNativeValue
 )
 ;
 }
-PRBool
+bool
 nsLangTextAttr
 :
 :
@@ -2309,7 +2309,7 @@ aFormattedValue
 aValue
 ;
 }
-PRBool
+bool
 nsLangTextAttr
 :
 :
@@ -2578,7 +2578,7 @@ mIndex
 mAttrName
 ;
 }
-PRBool
+bool
 nsCSSTextAttr
 :
 :
@@ -2947,7 +2947,7 @@ mNativeValue
 )
 ;
 }
-PRBool
+bool
 nsBGColorTextAttr
 :
 :
@@ -3091,7 +3091,7 @@ aFormattedValue
 value
 ;
 }
-PRBool
+bool
 nsBGColorTextAttr
 :
 :
@@ -3467,7 +3467,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 nsFontSizeTextAttr
 :
 :
@@ -3915,7 +3915,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 nsFontWeightTextAttr
 :
 :

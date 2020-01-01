@@ -543,7 +543,7 @@ aResult
 =
 nsnull
 ;
-PRBool
+bool
 lval
 ;
 nsresult
@@ -629,7 +629,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 rval
 ;
 rv
@@ -689,7 +689,7 @@ BOOLEAN_RESULT
 leftExpr
 rightExpr
 )
-PRBool
+bool
 BooleanExpr
 :
 :

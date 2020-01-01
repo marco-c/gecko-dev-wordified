@@ -489,7 +489,7 @@ node
 }
 ;
 static
-PRBool
+bool
 matchNodeString
 (
 PLDHashTable
@@ -557,7 +557,7 @@ str
 ;
 }
 static
-PRBool
+bool
 matchNodeUnicode
 (
 PLDHashTable

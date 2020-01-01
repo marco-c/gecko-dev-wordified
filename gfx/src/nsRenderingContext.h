@@ -892,7 +892,7 @@ null
 void
 SetTextRunRTL
 (
-PRBool
+bool
 aIsRTL
 )
 ;

@@ -1153,7 +1153,7 @@ the
 NodeSet
 *
 /
-PRBool
+bool
 contains
 (
 const
@@ -1245,7 +1245,7 @@ NodeSet
 .
 *
 /
-PRBool
+bool
 isEmpty
 (
 )
@@ -1333,7 +1333,7 @@ mBufferEnd
 .
 *
 /
-PRBool
+bool
 ensureGrowSize
 (
 PRInt32
@@ -1488,7 +1488,7 @@ aFirst
 txXPathNode
 *
 aLast
-PRBool
+bool
 &
 aDupe
 )
@@ -1639,7 +1639,7 @@ sweep
 )
 in
 predicates
-PRPackedBool
+bool
 *
 mMarks
 ;

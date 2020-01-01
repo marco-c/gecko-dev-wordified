@@ -917,7 +917,7 @@ PRInt64
 maxSize
 PRInt32
 chunkSize
-PRBool
+bool
 fetchRemaining
 nsCString
 &
@@ -1248,10 +1248,10 @@ mNonPartialCount
 nsresult
 mStatus
 ;
-PRPackedBool
+bool
 mIsPending
 ;
-PRPackedBool
+bool
 mDidOnStartRequest
 ;
 PRTime
@@ -2046,7 +2046,7 @@ nsIncrementalDownload
 :
 IsPending
 (
-PRBool
+bool
 *
 isPending
 )

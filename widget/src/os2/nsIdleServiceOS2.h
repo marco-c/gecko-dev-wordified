@@ -527,7 +527,7 @@ handle
 for
 screensaver
 DLL
-PRBool
+bool
 mInitialized
 ;
 /

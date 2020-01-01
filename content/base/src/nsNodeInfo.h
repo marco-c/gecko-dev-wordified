@@ -530,7 +530,7 @@ aNameSpaceURI
 const
 ;
 virtual
-PRBool
+bool
 NamespaceEquals
 (
 const

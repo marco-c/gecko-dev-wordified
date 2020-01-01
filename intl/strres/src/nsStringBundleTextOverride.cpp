@@ -1050,7 +1050,7 @@ txt
 )
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -1325,7 +1325,7 @@ n
 "
 )
 ;
-PRBool
+bool
 hasMore
 ;
 enumerator
@@ -1694,12 +1694,12 @@ nsPropertyEnumeratorByURL
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aResult
 )
 {
-PRBool
+bool
 hasMore
 ;
 mOuter

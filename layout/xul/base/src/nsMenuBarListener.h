@@ -582,7 +582,7 @@ aAccessKey
 ;
 NS_DECL_ISUPPORTS
 static
-PRBool
+bool
 IsAccessKeyPressed
 (
 nsIDOMKeyEvent
@@ -663,7 +663,7 @@ is
 currently
 down
 .
-PRPackedBool
+bool
 mAccessKeyDown
 ;
 /
@@ -681,11 +681,11 @@ by
 other
 action
 .
-PRPackedBool
+bool
 mAccessKeyDownCanceled
 ;
 static
-PRBool
+bool
 mAccessKeyFocuses
 ;
 /

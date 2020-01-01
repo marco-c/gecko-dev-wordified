@@ -565,7 +565,7 @@ nsProgressMeterFrame
 (
 )
 ;
-PRBool
+bool
 mNeedsReflowCallback
 ;
 }

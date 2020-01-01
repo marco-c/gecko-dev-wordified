@@ -693,7 +693,7 @@ nsIAccessible
 acc
 )
 ;
-PRBool
+bool
 IsValidObject
 (
 )
@@ -713,10 +713,10 @@ MaiHyperlink
 *
 GetMaiHyperlink
 (
-PRBool
+bool
 aCreate
 =
-PR_TRUE
+true
 )
 ;
 void
@@ -799,7 +799,7 @@ aEvent
 AtkObject
 *
 aObject
-PRBool
+bool
 aIsAdded
 )
 ;

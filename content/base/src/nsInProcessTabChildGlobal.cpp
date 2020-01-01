@@ -1341,7 +1341,7 @@ SetTrusted
 PR_TRUE
 )
 ;
-PRBool
+bool
 dummy
 ;
 nsDOMEventTargetHelper
@@ -1988,7 +1988,7 @@ Init
 )
 ;
 }
-PRBool
+bool
 tmp
 =
 mLoadingScript

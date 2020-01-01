@@ -637,7 +637,7 @@ JSContext
 cx
 )
 ;
-PRBool
+bool
 mEnableSmartCardEvents
 ;
 }

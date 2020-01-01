@@ -681,7 +681,7 @@ resume
 a
 download
 ?
-PRBool
+bool
 ResumeRequested
 (
 )
@@ -821,7 +821,7 @@ virtual
 nsresult
 OpenContentStream
 (
-PRBool
+bool
 async
 nsIInputStream
 *
@@ -834,7 +834,7 @@ channel
 )
 ;
 virtual
-PRBool
+bool
 GetStatusArg
 (
 nsresult
@@ -876,7 +876,7 @@ mStartPos
 nsCString
 mEntityID
 ;
-PRPackedBool
+bool
 mResumeRequested
 ;
 PRTime

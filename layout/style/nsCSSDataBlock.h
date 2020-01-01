@@ -846,7 +846,7 @@ erased
 .
 *
 /
-PRBool
+bool
 TryReplaceValue
 (
 nsCSSProperty
@@ -854,7 +854,7 @@ aProperty
 nsCSSExpandedDataBlock
 &
 aFromBlock
-PRBool
+bool
 *
 aChanged
 )
@@ -1681,7 +1681,7 @@ true
 .
 *
 /
-PRBool
+bool
 TransferFromBlock
 (
 nsCSSExpandedDataBlock
@@ -1689,11 +1689,11 @@ nsCSSExpandedDataBlock
 aFromBlock
 nsCSSProperty
 aPropID
-PRBool
+bool
 aIsImportant
-PRBool
+bool
 aOverrideImportant
-PRBool
+bool
 aMustCallValueAppended
 mozilla
 :
@@ -1765,7 +1765,7 @@ DoExpand
 nsCSSCompressedDataBlock
 *
 aBlock
-PRBool
+bool
 aImportant
 )
 ;
@@ -1785,7 +1785,7 @@ shorthands
 .
 *
 /
-PRBool
+bool
 DoTransferFromBlock
 (
 nsCSSExpandedDataBlock
@@ -1793,11 +1793,11 @@ nsCSSExpandedDataBlock
 aFromBlock
 nsCSSProperty
 aPropID
-PRBool
+bool
 aIsImportant
-PRBool
+bool
 aOverrideImportant
-PRBool
+bool
 aMustCallValueAppended
 mozilla
 :
@@ -1976,7 +1976,7 @@ aProperty
 )
 ;
 }
-PRBool
+bool
 HasPropertyBit
 (
 nsCSSProperty
@@ -2022,7 +2022,7 @@ aProperty
 )
 ;
 }
-PRBool
+bool
 HasImportantBit
 (
 nsCSSProperty

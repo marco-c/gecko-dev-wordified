@@ -611,7 +611,7 @@ type
 )
 )
 {
-PRBool
+bool
 largeArcFlag
 =
 aSeg
@@ -624,7 +624,7 @@ aSeg
 .
 0f
 ;
-PRBool
+bool
 sweepFlag
 =
 aSeg

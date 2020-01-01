@@ -643,7 +643,7 @@ it
 /
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 HasStates
 (
@@ -677,7 +677,7 @@ NS_IMETHOD
 SetScrollPositionOnly
 (
 const
-PRBool
+bool
 aFlag
 )
 =

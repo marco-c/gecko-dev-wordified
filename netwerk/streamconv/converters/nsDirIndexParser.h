@@ -587,7 +587,7 @@ mBuf
 PRInt32
 mLineStart
 ;
-PRBool
+bool
 mHasDescription
 ;
 int

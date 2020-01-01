@@ -450,7 +450,7 @@ evaluateToBool
 txIEvalContext
 *
 aContext
-PRBool
+bool
 &
 aResult
 )

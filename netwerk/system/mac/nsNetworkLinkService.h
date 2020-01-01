@@ -456,10 +456,10 @@ Shutdown
 ;
 private
 :
-PRPackedBool
+bool
 mLinkUp
 ;
-PRPackedBool
+bool
 mStatusKnown
 ;
 SCNetworkReachabilityRef

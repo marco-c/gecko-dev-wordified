@@ -420,7 +420,7 @@ nsGNOMERegistry
 public
 :
 static
-PRBool
+bool
 HandlerExists
 (
 const

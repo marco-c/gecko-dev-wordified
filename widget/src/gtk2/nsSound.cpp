@@ -949,7 +949,7 @@ nsSound
 {
 mInited
 =
-PR_FALSE
+false
 ;
 }
 nsSound
@@ -1010,7 +1010,7 @@ NS_OK
 ;
 mInited
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3041,7 +3041,7 @@ rv
 NS_NewLocalFile
 (
 aSoundAlias
-PR_TRUE
+true
 getter_AddRefs
 (
 soundFile

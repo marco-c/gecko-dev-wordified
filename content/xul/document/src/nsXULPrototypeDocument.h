@@ -980,7 +980,7 @@ AwaitLoadDone
 nsXULDocument
 *
 aDocument
-PRBool
+bool
 *
 aResult
 )
@@ -1088,7 +1088,7 @@ nsXULPDGlobalObject
 >
 mGlobalObject
 ;
-PRPackedBool
+bool
 mLoaded
 ;
 nsTArray

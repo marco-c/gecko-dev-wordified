@@ -482,8 +482,11 @@ this
 ;
 request
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 function
 (
 event
@@ -497,6 +500,8 @@ event
 )
 ;
 }
+false
+)
 ;
 request
 .

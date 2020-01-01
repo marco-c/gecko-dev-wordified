@@ -1725,7 +1725,7 @@ OnProgress
 mozIStorageConnection
 *
 aConnection
-PRBool
+bool
 *
 _retval
 )
@@ -1847,7 +1847,7 @@ thread
 )
 ;
 {
-PRBool
+bool
 sameThread
 ;
 nsresult
@@ -2105,7 +2105,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-PRBool
+bool
 dummy
 ;
 nsresult
@@ -2304,7 +2304,7 @@ event
 return
 ;
 }
-PRBool
+bool
 doDefault
 ;
 nsresult
@@ -2820,7 +2820,7 @@ TransactionPoolEventTarget
 :
 IsOnCurrentThread
 (
-PRBool
+bool
 *
 aResult
 )

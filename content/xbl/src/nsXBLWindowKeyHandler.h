@@ -578,7 +578,7 @@ aEvent
 aCharCode
 and
 aIgnoreShiftKey
-PRBool
+bool
 WalkHandlersAndExecute
 (
 nsIDOMKeyEvent
@@ -592,7 +592,7 @@ nsXBLPrototypeHandler
 aHandler
 PRUint32
 aCharCode
-PRBool
+bool
 aIgnoreShiftKey
 )
 ;
@@ -621,7 +621,7 @@ document
 nsresult
 EnsureHandlers
 (
-PRBool
+bool
 *
 aIsEditor
 )
@@ -639,7 +639,7 @@ the
 given
 key
 event
-PRBool
+bool
 EventMatched
 (
 nsXBLPrototypeHandler
@@ -653,7 +653,7 @@ nsIDOMKeyEvent
 inEvent
 PRUint32
 aCharCode
-PRBool
+bool
 aIgnoreShiftKey
 )
 ;
@@ -667,7 +667,7 @@ editor
 or
 browser
 ?
-PRBool
+bool
 IsEditor
 (
 )

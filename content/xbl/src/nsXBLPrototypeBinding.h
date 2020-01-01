@@ -733,7 +733,7 @@ possible
 binding
 URIs
 .
-PRBool
+bool
 CompareBindingURI
 (
 nsIURI
@@ -742,7 +742,7 @@ aURI
 )
 const
 ;
-PRBool
+bool
 GetAllowScripts
 (
 )
@@ -763,7 +763,7 @@ nsIContent
 aBoundElement
 )
 ;
-PRBool
+bool
 LoadResources
 (
 )
@@ -780,7 +780,7 @@ nsAString
 aSrc
 )
 ;
-PRBool
+bool
 InheritsStyle
 (
 )
@@ -893,7 +893,7 @@ exception
 was
 set
 .
-PRBool
+bool
 ResolveAllFields
 (
 JSContext
@@ -1046,7 +1046,7 @@ nsIContent
 aBoundElement
 )
 ;
-PRBool
+bool
 HasImplementation
 (
 )
@@ -1067,7 +1067,7 @@ nsIAtom
 aAttribute
 PRInt32
 aNameSpaceID
-PRBool
+bool
 aRemoveFlag
 nsIContent
 *
@@ -1075,7 +1075,7 @@ aChangedElement
 nsIContent
 *
 aAnonymousContent
-PRBool
+bool
 aNotify
 )
 ;
@@ -1108,7 +1108,7 @@ return
 mXBLDocInfoWeak
 ;
 }
-PRBool
+bool
 IsChrome
 (
 )
@@ -1122,7 +1122,7 @@ IsChrome
 )
 ;
 }
-PRBool
+bool
 HasBasePrototype
 (
 )
@@ -1134,7 +1134,7 @@ mHasBaseProto
 void
 SetHasBasePrototype
 (
-PRBool
+bool
 aHasBase
 )
 {
@@ -1169,7 +1169,7 @@ GetStyleSheets
 (
 )
 ;
-PRBool
+bool
 HasInsertionPoints
 (
 )
@@ -1181,7 +1181,7 @@ mInsertionPointTable
 nsnull
 ;
 }
-PRBool
+bool
 HasStyleSheets
 (
 )
@@ -1272,7 +1272,7 @@ aCopyRoot
 PRUint32
 *
 aIndex
-PRBool
+bool
 *
 aMultiple
 )
@@ -1296,7 +1296,7 @@ nsIAtom
 aTag
 )
 ;
-PRBool
+bool
 ImplementsInterface
 (
 REFNSIID
@@ -1432,10 +1432,10 @@ aInfo
 nsIContent
 *
 aElement
-PRBool
+bool
 aFirstBinding
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -1692,7 +1692,7 @@ mKey
 m0
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -1855,13 +1855,13 @@ our
 base
 binding
 .
-PRPackedBool
+bool
 mInheritStyle
 ;
-PRPackedBool
+bool
 mHasBaseProto
 ;
-PRPackedBool
+bool
 mKeyHandlersRegistered
 ;
 nsXBLPrototypeResources

@@ -579,7 +579,7 @@ nsIContent
 interface
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -632,7 +632,7 @@ GetStringInfo
 )
 ;
 virtual
-PRBool
+bool
 IsEventName
 (
 nsIAtom

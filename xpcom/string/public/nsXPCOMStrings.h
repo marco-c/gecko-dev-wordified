@@ -1732,7 +1732,7 @@ PRUnichar
 *
 *
 aData
-PRBool
+bool
 *
 aTerminated
 =
@@ -3006,7 +3006,7 @@ nsAString
 &
 aStr
 const
-PRBool
+bool
 aIsVoid
 )
 ;
@@ -3043,7 +3043,7 @@ NS_StringSetIsVoid
 /
 XPCOM_API
 (
-PRBool
+bool
 )
 NS_StringGetIsVoid
 (
@@ -3830,7 +3830,7 @@ char
 *
 *
 aData
-PRBool
+bool
 *
 aTerminated
 =
@@ -5104,7 +5104,7 @@ nsACString
 &
 aStr
 const
-PRBool
+bool
 aIsVoid
 )
 ;
@@ -5141,7 +5141,7 @@ NS_CStringSetIsVoid
 /
 XPCOM_API
 (
-PRBool
+bool
 )
 NS_CStringGetIsVoid
 (

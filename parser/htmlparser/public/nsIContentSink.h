@@ -793,7 +793,7 @@ gess
 NS_IMETHOD
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 {
@@ -1121,7 +1121,7 @@ for
 *
 /
 virtual
-PRBool
+bool
 IsScriptExecuting
 (
 )

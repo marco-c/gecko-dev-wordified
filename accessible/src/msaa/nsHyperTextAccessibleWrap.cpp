@@ -630,7 +630,7 @@ nsHyperTextAccessibleWrap
 :
 GetModifiedText
 (
-PRBool
+bool
 aGetInsertedText
 nsAString
 &
@@ -667,7 +667,7 @@ gTextEvent
 return
 NS_OK
 ;
-PRBool
+bool
 isInserted
 =
 gTextEvent

@@ -629,7 +629,7 @@ nsZipHeader
 :
 GetIsDirectory
 (
-PRBool
+bool
 *
 aIsDirectory
 )
@@ -985,7 +985,7 @@ nsZipHeader
 :
 GetIsSynthetic
 (
-PRBool
+bool
 *
 aIsSynthetic
 )
@@ -2204,7 +2204,7 @@ GetExtraField
 (
 PRUint16
 aTag
-PRBool
+bool
 aLocal
 PRUint16
 *

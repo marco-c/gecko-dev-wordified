@@ -511,10 +511,10 @@ sArgsUsed
 0
 ;
 static
-PRBool
+bool
 sBuildingCommandLine
 =
-PR_FALSE
+false
 ;
 void
 AddToCommandLine
@@ -639,7 +639,7 @@ char
 *
 &
 argv
-PRBool
+bool
 forRestart
 )
 {
@@ -955,7 +955,7 @@ argv
 sArgs
 ;
 }
-PRBool
+bool
 AddURLToCurrentCommandLine
 (
 const

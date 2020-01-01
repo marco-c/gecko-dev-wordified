@@ -748,9 +748,9 @@ virtual
 void
 SetFocus
 (
-PRBool
+bool
 aOn
-PRBool
+bool
 aRepaint
 )
 ;
@@ -1448,9 +1448,9 @@ nsImageControlFrame
 :
 SetFocus
 (
-PRBool
+bool
 aOn
-PRBool
+bool
 aRepaint
 )
 {

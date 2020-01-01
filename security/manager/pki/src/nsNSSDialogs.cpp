@@ -751,7 +751,7 @@ const
 PRUnichar
 *
 tokenName
-PRBool
+bool
 *
 _canceled
 )
@@ -931,7 +931,7 @@ PRUnichar
 *
 *
 _password
-PRBool
+bool
 *
 _canceled
 )
@@ -1231,7 +1231,7 @@ cert
 PRUint32
 *
 _trust
-PRBool
+bool
 *
 _retval
 )
@@ -1633,7 +1633,7 @@ count
 PRInt32
 *
 selectedIndex
-PRBool
+bool
 *
 canceled
 )
@@ -2047,7 +2047,7 @@ count
 PRInt32
 *
 selectedIndex
-PRBool
+bool
 *
 canceled
 )
@@ -2347,7 +2347,7 @@ ctx
 nsAString
 &
 _password
-PRBool
+bool
 *
 _retval
 )
@@ -2549,7 +2549,7 @@ ctx
 nsAString
 &
 _password
-PRBool
+bool
 *
 _retval
 )
@@ -2942,7 +2942,7 @@ PRUnichar
 *
 *
 aTokenChosen
-PRBool
+bool
 *
 aCanceled
 )
@@ -3188,7 +3188,7 @@ ConfirmKeyEscrow
 nsIX509Cert
 *
 escrowAuthority
-PRBool
+bool
 *
 _retval
 )

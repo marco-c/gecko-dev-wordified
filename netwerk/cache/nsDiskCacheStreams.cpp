@@ -741,7 +741,7 @@ mPos
 /
 stream
 position
-PRBool
+bool
 mClosed
 ;
 }
@@ -1097,7 +1097,7 @@ nsDiskCacheInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonBlocking
 )
@@ -1318,7 +1318,7 @@ mStreamIO
 backpointer
 to
 parent
-PRBool
+bool
 mClosed
 ;
 }
@@ -1581,7 +1581,7 @@ nsDiskCacheOutputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonBlocking
 )
@@ -2805,10 +2805,10 @@ reference
 nsresult
 rv
 ;
-PRBool
+bool
 written
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3406,10 +3406,10 @@ bytesLeft
 =
 count
 ;
-PRBool
+bool
 flushed
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -4905,10 +4905,10 @@ SetEOF
 nsresult
 rv
 ;
-PRBool
+bool
 needToCloseFD
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (

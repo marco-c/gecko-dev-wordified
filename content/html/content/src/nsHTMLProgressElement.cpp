@@ -570,7 +570,7 @@ aResult
 )
 const
 ;
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -867,7 +867,7 @@ return
 state
 ;
 }
-PRBool
+bool
 nsHTMLProgressElement
 :
 :

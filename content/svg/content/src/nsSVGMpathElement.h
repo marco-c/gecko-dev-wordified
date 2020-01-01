@@ -604,7 +604,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -612,9 +612,9 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 ;
@@ -627,7 +627,7 @@ aNamespaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -636,7 +636,7 @@ aNotify
 nsGenericElement
 specializations
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -860,13 +860,13 @@ target
 changes
 )
 virtual
-PRBool
+bool
 IsPersistent
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 private
@@ -899,7 +899,7 @@ aHrefStr
 void
 UnlinkHrefTarget
 (
-PRBool
+bool
 aNotifyParent
 )
 ;

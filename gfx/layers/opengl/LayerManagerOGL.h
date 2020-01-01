@@ -771,7 +771,7 @@ not
 .
 *
 /
-PRBool
+bool
 Initialize
 (
 )
@@ -785,7 +785,7 @@ CreateContext
 )
 ;
 }
-PRBool
+bool
 Initialize
 (
 nsRefPtr
@@ -932,6 +932,10 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
+=
+END_DEFAULT
 )
 ;
 virtual
@@ -1180,10 +1184,10 @@ methods
 void
 MakeCurrent
 (
-PRBool
+bool
 aForce
 =
-PR_FALSE
+false
 )
 {
 if
@@ -1332,9 +1336,9 @@ ColorTextureLayerProgram
 *
 GetBasicLayerProgram
 (
-PRBool
+bool
 aOpaque
-PRBool
+bool
 aIsRGB
 )
 {
@@ -2515,7 +2519,7 @@ mClippingRegion
 Misc
 *
 /
-PRPackedBool
+bool
 mHasBGRA
 ;
 /
@@ -2784,7 +2788,7 @@ CopyProgram
 mFPS
 ;
 static
-PRBool
+bool
 sDrawFPS
 ;
 }
@@ -2949,7 +2953,7 @@ LayerManagerOGL
 *
 mOGLManager
 ;
-PRPackedBool
+bool
 mDestroyed
 ;
 }

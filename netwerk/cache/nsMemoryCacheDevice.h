@@ -686,7 +686,7 @@ FindEntry
 nsCString
 *
 key
-PRBool
+bool
 *
 collision
 )
@@ -843,7 +843,7 @@ EvictEntry
 nsCacheEntry
 *
 entry
-PRBool
+bool
 deleteEntry
 )
 ;
@@ -903,7 +903,7 @@ queue
 nsCacheEntryHashTable
 mMemCacheEntries
 ;
-PRBool
+bool
 mInitialized
 ;
 PRCList

@@ -972,14 +972,14 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 aReplace
 =
 aStartup
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -1082,7 +1082,7 @@ const
 PRUnichar
 *
 aProfile
-PRBool
+bool
 aReplace
 PRUint16
 *
@@ -1206,7 +1206,7 @@ nsOperaProfileMigrator
 :
 GetSourceExists
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1266,7 +1266,7 @@ nsOperaProfileMigrator
 :
 GetSourceHasMultipleProfiles
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1466,7 +1466,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 hasMore
 ;
 e
@@ -1500,10 +1500,10 @@ curr
 )
 )
 ;
-PRBool
+bool
 isDirectory
 =
-PR_FALSE
+false
 ;
 curr
 -
@@ -1622,7 +1622,7 @@ Append
 OPERA_PREFERENCES_FOLDER_NAME
 )
 ;
-PRBool
+bool
 exists
 ;
 file
@@ -1708,7 +1708,7 @@ Append
 OPERA_PREFERENCES_FOLDER_NAME
 )
 ;
-PRBool
+bool
 exists
 ;
 file
@@ -2770,7 +2770,7 @@ nsOperaProfileMigrator
 :
 CopyPreferences
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -3888,7 +3888,7 @@ rv
 return
 NS_OK
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -3965,7 +3965,7 @@ nsOperaProfileMigrator
 :
 CopyCookies
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -5855,7 +5855,7 @@ nsOperaProfileMigrator
 :
 CopyHistory
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -5950,7 +5950,7 @@ nsOperaProfileMigrator
 :
 CopyHistoryBatched
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -6047,10 +6047,10 @@ title
 PRTime
 lastVisitDate
 ;
-PRBool
+bool
 moreData
 =
-PR_FALSE
+false
 ;
 enum
 {
@@ -6240,7 +6240,7 @@ nsOperaProfileMigrator
 :
 CopyBookmarks
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -6335,7 +6335,7 @@ nsOperaProfileMigrator
 :
 CopyBookmarksBatched
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -7790,10 +7790,10 @@ aBMS
 nsresult
 rv
 ;
-PRBool
+bool
 moreData
 =
-PR_FALSE
+false
 ;
 nsAutoString
 buffer
@@ -7811,10 +7811,10 @@ nsCAutoString
 url
 name
 ;
-PRBool
+bool
 onToolbar
 =
-PR_FALSE
+false
 ;
 do
 {

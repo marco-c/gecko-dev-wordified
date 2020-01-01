@@ -649,7 +649,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-PRBool
+bool
 *
 _retval
 )
@@ -1306,7 +1306,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-PRBool
+bool
 *
 _retval
 )
@@ -1481,7 +1481,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-PRBool
+bool
 *
 _retval
 )

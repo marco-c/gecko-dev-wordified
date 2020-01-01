@@ -919,7 +919,7 @@ on
 this
 PC
 .
-PRBool
+bool
 IsAutodialServiceRunning
 (
 )
@@ -1005,7 +1005,7 @@ dialup
 connection
 going
 .
-PRBool
+bool
 IsRASConnected
 (
 )
@@ -1036,7 +1036,7 @@ the
 autodial
 directory
 .
-PRBool
+bool
 AddAddressToAutodialDirectory
 (
 const
@@ -1070,7 +1070,7 @@ for
 specified
 location
 .
-PRBool
+bool
 IsAutodialServiceEnabled
 (
 int
@@ -1331,12 +1331,12 @@ static
 tRASGETAUTODIALPARAM
 mpRasGetAutodialParam
 ;
-PRBool
+bool
 LoadRASapi32DLL
 (
 )
 ;
-PRBool
+bool
 LoadRASdlgDLL
 (
 )
@@ -1426,7 +1426,7 @@ on
 network
 error
 ?
-PRBool
+bool
 ShouldDialOnNetworkError
 (
 )

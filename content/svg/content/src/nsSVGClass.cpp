@@ -520,7 +520,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -759,7 +759,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

@@ -588,7 +588,7 @@ const
 /
 nsGenericElement
 specializations
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -833,7 +833,7 @@ aNodeInfo
 )
 {
 }
-PRBool
+bool
 nsSVGAnimateTransformElement
 :
 :

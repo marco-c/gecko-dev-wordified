@@ -559,7 +559,7 @@ aPrevInFlow
 )
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -633,7 +633,7 @@ skip
 rendering
 *
 /
-PRBool
+bool
 SetupCairoFill
 (
 gfxContext
@@ -653,7 +653,7 @@ no
 stroke
 *
 /
-PRBool
+bool
 HasStroke
 (
 )
@@ -725,7 +725,7 @@ skip
 rendering
 *
 /
-PRBool
+bool
 SetupCairoStroke
 (
 gfxContext

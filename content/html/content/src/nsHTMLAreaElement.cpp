@@ -631,7 +631,7 @@ aVisitor
 )
 ;
 virtual
-PRBool
+bool
 IsLink
 (
 nsIURI
@@ -686,7 +686,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -694,14 +694,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -716,7 +716,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -747,7 +747,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -760,7 +760,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -1006,7 +1006,7 @@ aVisitor
 )
 ;
 }
-PRBool
+bool
 nsHTMLAreaElement
 :
 :
@@ -1078,7 +1078,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -1109,9 +1109,9 @@ nsHTMLAreaElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -1180,7 +1180,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -1312,7 +1312,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {

@@ -655,7 +655,7 @@ mStreamConverter
 nsWeakPtr
 mWeakPtrPluginStreamListenerPeer
 ;
-PRBool
+bool
 mRemoveMagicNumber
 ;
 }
@@ -683,7 +683,7 @@ aWeakPtr
 ;
 mRemoveMagicNumber
 =
-PR_FALSE
+false
 ;
 }
 nsPluginByteRangeStreamListener
@@ -1008,10 +1008,10 @@ responseCode
 200
 )
 {
-PRBool
+bool
 bWantsAllNetworkStreams
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -1058,7 +1058,7 @@ rv
 {
 bWantsAllNetworkStreams
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1116,7 +1116,7 @@ finalStreamListener
 ;
 mRemoveMagicNumber
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -1193,7 +1193,7 @@ get
 )
 )
 ;
-PRBool
+bool
 found
 =
 pslp
@@ -1380,7 +1380,7 @@ mFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1597,7 +1597,7 @@ return
 mKey
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -1678,15 +1678,15 @@ NP_NORMAL
 ;
 mStartBinding
 =
-PR_FALSE
+false
 ;
 mAbort
 =
-PR_FALSE
+false
 ;
 mRequestFailed
 =
-PR_FALSE
+false
 ;
 mPendingRequests
 =
@@ -1694,7 +1694,7 @@ mPendingRequests
 ;
 mHaveFiredOnStartRequest
 =
-PR_FALSE
+false
 ;
 mDataForwardToRequest
 =
@@ -1702,7 +1702,7 @@ nsnull
 ;
 mSeekable
 =
-PR_FALSE
+false
 ;
 mModified
 =
@@ -1956,7 +1956,7 @@ new
 nsHashtable
 (
 16
-PR_FALSE
+false
 )
 ;
 if
@@ -2138,7 +2138,7 @@ new
 nsHashtable
 (
 16
-PR_FALSE
+false
 )
 ;
 if
@@ -2226,7 +2226,7 @@ new
 nsHashtable
 (
 16
-PR_FALSE
+false
 )
 ;
 if
@@ -2335,10 +2335,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 useExistingCacheFile
 =
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -2893,7 +2893,7 @@ NS_OK
 }
 mHaveFiredOnStartRequest
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -3017,7 +3017,7 @@ plugin
 that
 mRequestFailed
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_FAILURE
@@ -3034,10 +3034,10 @@ responseCode
 /
 not
 normal
-PRBool
+bool
 bWantsAllNetworkStreams
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -3079,7 +3079,7 @@ rv
 {
 bWantsAllNetworkStreams
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3090,7 +3090,7 @@ bWantsAllNetworkStreams
 {
 mRequestFailed
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_FAILURE
@@ -3377,7 +3377,7 @@ not
 exist
 mRequestFailed
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_FAILURE
@@ -3909,7 +3909,7 @@ nsPluginStreamListenerPeer
 :
 IsSeekable
 (
-PRBool
+bool
 *
 result
 )
@@ -4170,7 +4170,7 @@ Trim
 (
 "
 "
-PR_FALSE
+false
 )
 ;
 rangeRequest
@@ -4309,12 +4309,12 @@ Range
 "
 )
 rangeString
-PR_FALSE
+false
 )
 ;
 mAbort
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4731,7 +4731,7 @@ SetWindow
 }
 mSeekable
 =
-PR_FALSE
+false
 ;
 mPStreamListener
 -
@@ -4797,7 +4797,7 @@ cacheChannel
 >
 SetCacheAsFile
 (
-PR_TRUE
+true
 )
 )
 )
@@ -4839,7 +4839,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsPluginStreamListenerPeer
 :
 :
@@ -4853,7 +4853,7 @@ psi
 NS_ENSURE_TRUE
 (
 psi
-PR_FALSE
+false
 )
 ;
 if
@@ -4891,11 +4891,11 @@ mURLSpec
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -5018,7 +5018,7 @@ range
 requests
 mAbort
 =
-PR_FALSE
+false
 ;
 return
 NS_BINDING_ABORTED
@@ -5579,7 +5579,7 @@ if
 mp
 )
 {
-PRBool
+bool
 found
 =
 mRequests
@@ -6224,7 +6224,7 @@ aStatus
 {
 mStreamComplete
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -6397,10 +6397,10 @@ SetStreamListenerPeer
 this
 )
 ;
-PRBool
+bool
 useLocalCache
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -6735,7 +6735,7 @@ this
 ;
 mSeekable
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -6851,7 +6851,7 @@ contentEncoding
 {
 useLocalCache
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -6938,7 +6938,7 @@ nsCaseInsensitiveCStringComparator
 {
 mSeekable
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7003,7 +7003,7 @@ lastModified
 get
 (
 )
-PR_TRUE
+true
 &
 time64
 )
@@ -7073,7 +7073,7 @@ this
 ;
 mStartBinding
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7170,7 +7170,7 @@ cacheChannel
 >
 SetCacheAsFile
 (
-PR_TRUE
+true
 )
 )
 )
@@ -7179,7 +7179,7 @@ PR_TRUE
 {
 useLocalCache
 =
-PR_TRUE
+true
 ;
 }
 }

@@ -532,7 +532,7 @@ by
 caller
 .
 inline
-PRBool
+bool
 nsRegion
 :
 :
@@ -550,7 +550,7 @@ const
 {
 return
 (
-PRBool
+bool
 )
 (
 (
@@ -603,7 +603,7 @@ YMost
 ;
 }
 inline
-PRBool
+bool
 nsRegion
 :
 :
@@ -621,7 +621,7 @@ const
 {
 return
 (
-PRBool
+bool
 )
 (
 (
@@ -670,7 +670,7 @@ YMost
 ;
 }
 inline
-PRBool
+bool
 nsRegion
 :
 :
@@ -2277,7 +2277,7 @@ InsertInPlace
 RgnRect
 *
 aRect
-PRBool
+bool
 aOptimizeOnFly
 )
 {
@@ -6275,7 +6275,7 @@ return
 this
 ;
 }
-PRBool
+bool
 nsRegion
 :
 :
@@ -6343,7 +6343,7 @@ IsEmpty
 )
 ;
 }
-PRBool
+bool
 nsRegion
 :
 :
@@ -6403,7 +6403,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsRegion
 :
 :
@@ -8271,7 +8271,7 @@ next
 }
 }
 }
-PRBool
+bool
 nsRegion
 :
 :
@@ -10411,7 +10411,7 @@ return
 this
 ;
 }
-PRBool
+bool
 operator
 <
 (
@@ -10452,7 +10452,7 @@ aOther
 mSize
 ;
 }
-PRBool
+bool
 operator
 >
 (

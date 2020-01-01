@@ -495,7 +495,7 @@ nsIEventTarget
 *
 nsISupports
 *
-PRBool
+bool
 )
 *
 /
@@ -520,10 +520,10 @@ T
 >
 &
 doomed
-PRBool
+bool
 alwaysProxy
 =
-PR_FALSE
+false
 )
 {
 T
@@ -572,7 +572,7 @@ nsIEventTarget
 *
 nsISupports
 *
-PRBool
+bool
 )
 *
 /
@@ -597,10 +597,10 @@ T
 >
 &
 doomed
-PRBool
+bool
 alwaysProxy
 =
-PR_FALSE
+false
 )
 {
 T
@@ -734,10 +734,10 @@ target
 nsISupports
 *
 doomed
-PRBool
+bool
 alwaysProxy
 =
-PR_FALSE
+false
 )
 ;
 #

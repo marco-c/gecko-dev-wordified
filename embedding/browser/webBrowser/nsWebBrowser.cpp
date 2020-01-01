@@ -2753,7 +2753,7 @@ nsWebBrowser
 :
 EnableGlobalHistory
 (
-PRBool
+bool
 aEnable
 )
 {
@@ -3050,7 +3050,7 @@ nsWebBrowser
 :
 GetIsActive
 (
-PRBool
+bool
 *
 rv
 )
@@ -3070,7 +3070,7 @@ nsWebBrowser
 :
 SetIsActive
 (
-PRBool
+bool
 aIsActive
 )
 {
@@ -3390,7 +3390,7 @@ const
 PRUnichar
 *
 aName
-PRBool
+bool
 *
 _retval
 )
@@ -4164,9 +4164,9 @@ const
 PRUnichar
 *
 aName
-PRBool
+bool
 aRecurse
-PRBool
+bool
 aSameType
 nsIDocShellTreeItem
 *
@@ -4364,7 +4364,7 @@ nsWebBrowser
 :
 GetCanGoBack
 (
-PRBool
+bool
 *
 aCanGoBack
 )
@@ -4390,7 +4390,7 @@ nsWebBrowser
 :
 GetCanGoForward
 (
-PRBool
+bool
 *
 aCanGoForward
 )
@@ -8183,7 +8183,7 @@ PRInt32
 aCX
 PRInt32
 aCY
-PRBool
+bool
 aRepaint
 )
 {
@@ -8254,7 +8254,7 @@ PRInt32
 aCX
 PRInt32
 aCY
-PRBool
+bool
 aRepaint
 )
 {
@@ -8583,7 +8583,7 @@ nsWebBrowser
 :
 Repaint
 (
-PRBool
+bool
 aForce
 )
 {
@@ -8751,7 +8751,7 @@ nsWebBrowser
 :
 GetVisibility
 (
-PRBool
+bool
 *
 visibility
 )
@@ -8797,7 +8797,7 @@ nsWebBrowser
 :
 SetVisibility
 (
-PRBool
+bool
 aVisibility
 )
 {
@@ -8850,7 +8850,7 @@ nsWebBrowser
 :
 GetEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -8878,7 +8878,7 @@ nsWebBrowser
 :
 SetEnabled
 (
-PRBool
+bool
 aEnabled
 )
 {
@@ -8905,7 +8905,7 @@ nsWebBrowser
 :
 GetBlurSuppression
 (
-PRBool
+bool
 *
 aBlurSuppression
 )
@@ -8930,7 +8930,7 @@ nsWebBrowser
 :
 SetBlurSuppression
 (
-PRBool
+bool
 aBlurSuppression
 )
 {
@@ -9511,10 +9511,10 @@ nsWebBrowser
 :
 GetScrollbarVisibility
 (
-PRBool
+bool
 *
 aVerticalVisible
-PRBool
+bool
 *
 aHorizontalVisible
 )

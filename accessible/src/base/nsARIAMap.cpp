@@ -2524,7 +2524,7 @@ PRUint64
 aTrueState
 PRUint64
 aFalseState
-PRBool
+bool
 aDefinedIfAbsent
 )
 :
@@ -2761,7 +2761,7 @@ mDefaultState
 aState1
 ;
 }
-PRBool
+bool
 nsStateMapEntry
 :
 :
@@ -2844,7 +2844,7 @@ false
 "
 supposedly
 .
-PRBool
+bool
 hasAttr
 =
 aContent
@@ -3129,10 +3129,10 @@ default
 /
 states
 .
-PRBool
+bool
 applyDefaultStates
 =
-PR_TRUE
+true
 ;
 if
 (

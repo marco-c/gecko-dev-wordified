@@ -715,7 +715,7 @@ fileName
 PRUint32
 sourceFlag
 ;
-PRBool
+bool
 replaceOnly
 ;
 }
@@ -731,7 +731,7 @@ MigrationData
 aDataArray
 PRInt32
 aDataArrayLength
-PRBool
+bool
 aReplace
 nsIFile
 *
@@ -953,9 +953,9 @@ ImportBookmarksHTML
 nsIFile
 *
 aBookmarksFile
-PRBool
+bool
 aImportIntoRoot
-PRBool
+bool
 aOverwriteDefaults
 const
 PRUnichar

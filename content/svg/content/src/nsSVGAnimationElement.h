@@ -558,7 +558,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -566,9 +566,9 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 ;
@@ -581,12 +581,12 @@ aNamespaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -599,7 +599,7 @@ const
 nsGenericElement
 specializations
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -629,7 +629,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -666,7 +666,7 @@ aName
 const
 ;
 virtual
-PRBool
+bool
 GetAnimAttr
 (
 nsIAtom
@@ -679,7 +679,7 @@ aResult
 const
 ;
 virtual
-PRBool
+bool
 HasAnimAttr
 (
 nsIAtom
@@ -696,7 +696,7 @@ GetTargetElementContent
 )
 ;
 virtual
-PRBool
+bool
 GetTargetAttributeName
 (
 PRInt32
@@ -736,7 +736,7 @@ protected
 /
 nsSVGElement
 overrides
-PRBool
+bool
 IsEventName
 (
 nsIAtom
@@ -879,13 +879,13 @@ target
 changes
 )
 virtual
-PRBool
+bool
 IsPersistent
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 private

@@ -723,7 +723,7 @@ name
 *
 /
 static
-PRBool
+bool
 IsArg
 (
 const

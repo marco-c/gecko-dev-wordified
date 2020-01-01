@@ -851,7 +851,7 @@ aSel
 nsIDocument
 *
 aDoc
-PRBool
+bool
 doPutOnClipboard
 PRInt16
 aClipboardID
@@ -891,10 +891,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 bIsPlainTextContext
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -919,7 +919,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 bIsHTMLCopy
 =
 !
@@ -1885,10 +1885,10 @@ doPutOnClipboard
 clipboard
 )
 {
-PRBool
+bool
 actuallyPutOnClipboard
 =
-PR_TRUE
+true
 ;
 nsCopySupport
 :
@@ -2194,7 +2194,7 @@ aDoc
 nsITransferable
 *
 aTrans
-PRBool
+bool
 *
 aDoPutOnClipboard
 )
@@ -2294,10 +2294,10 @@ nsISupports
 >
 isupp
 ;
-PRBool
+bool
 hasMoreHooks
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2413,7 +2413,7 @@ aSel
 nsIDocument
 *
 aDoc
-PRBool
+bool
 *
 aIsPlainTextContext
 )
@@ -3419,7 +3419,7 @@ clipboard
 or
 not
 .
-PRBool
+bool
 selectionSupported
 ;
 rv
@@ -4097,7 +4097,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsCopySupport
 :
 :
@@ -4137,7 +4137,7 @@ sel
 PR_FALSE
 )
 ;
-PRBool
+bool
 isCollapsed
 ;
 sel
@@ -4154,7 +4154,7 @@ return
 isCollapsed
 ;
 }
-PRBool
+bool
 nsCopySupport
 :
 :
@@ -4340,7 +4340,7 @@ aType
 NS_COPY
 )
 {
-PRBool
+bool
 isCollapsed
 ;
 sel

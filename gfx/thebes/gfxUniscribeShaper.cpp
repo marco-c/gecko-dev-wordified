@@ -845,7 +845,7 @@ mAlternativeString
 )
 ;
 }
-PRBool
+bool
 AllocateBuffers
 (
 )
@@ -1442,7 +1442,7 @@ rv
 ;
 }
 }
-PRBool
+bool
 ShapingEnabled
 (
 )
@@ -1559,7 +1559,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 IsGlyphMissing
 (
 SCRIPT_FONTPROPERTIES
@@ -1877,7 +1877,7 @@ offsetInRun
 +
 offset
 ;
-PRBool
+bool
 atClusterStart
 =
 aRun
@@ -1956,7 +1956,7 @@ k
 PRUint32
 nextClusterOffset
 ;
-PRBool
+bool
 missing
 =
 IsGlyphMissing
@@ -2706,7 +2706,7 @@ mNumGlyphs
 PRUint32
 mIVS
 ;
-PRPackedBool
+bool
 mFontSelected
 ;
 }
@@ -3006,7 +3006,7 @@ mNumItems
 ;
 }
 ;
-PRBool
+bool
 gfxUniscribeShaper
 :
 :
@@ -3036,10 +3036,10 @@ aDC
 aContext
 )
 ;
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 HRESULT
 rv

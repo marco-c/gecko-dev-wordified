@@ -1000,7 +1000,7 @@ PR_FALSE
 *
 /
 static
-PRBool
+bool
 HasDefinedARIAToken
 (
 nsIContent
@@ -1412,7 +1412,7 @@ attribute
 *
 /
 static
-PRBool
+bool
 IsARIASelected
 (
 nsAccessible
@@ -1969,7 +1969,7 @@ exposed
 *
 /
 static
-PRBool
+bool
 GetLiveAttrValue
 (
 PRUint32
@@ -2008,7 +2008,7 @@ node
 *
 /
 static
-PRBool
+bool
 IsTextInterfaceSupportCorrect
 (
 nsAccessible
@@ -2035,7 +2035,7 @@ role
 *
 /
 static
-PRBool
+bool
 IsText
 (
 nsIAccessible
@@ -2114,7 +2114,7 @@ object
 *
 /
 static
-PRBool
+bool
 IsEmbeddedObject
 (
 nsIAccessible
@@ -2295,7 +2295,7 @@ off
 *
 /
 static
-PRBool
+bool
 MustPrune
 (
 nsIAccessible

@@ -1003,7 +1003,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 =
@@ -1173,14 +1173,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 =
 0
@@ -1539,7 +1539,7 @@ is
 anonymous
 *
 /
-PRBool
+bool
 IsRootOfNativeAnonymousSubtree
 (
 )
@@ -1673,7 +1673,7 @@ list
 .
 *
 /
-PRBool
+bool
 IsRootOfAnonymousSubtree
 (
 )
@@ -1903,7 +1903,7 @@ parent
 .
 *
 /
-PRBool
+bool
 IsInAnonymousSubtree
 (
 )
@@ -1996,7 +1996,7 @@ document
 *
 /
 inline
-PRBool
+bool
 IsInHTMLDocument
 (
 )
@@ -2149,7 +2149,7 @@ mNodeInfo
 ;
 }
 inline
-PRBool
+bool
 IsInNamespace
 (
 PRInt32
@@ -2170,7 +2170,7 @@ aNamespace
 ;
 }
 inline
-PRBool
+bool
 IsHTML
 (
 )
@@ -2184,7 +2184,7 @@ kNameSpaceID_XHTML
 ;
 }
 inline
-PRBool
+bool
 IsHTML
 (
 nsIAtom
@@ -2205,7 +2205,7 @@ kNameSpaceID_XHTML
 ;
 }
 inline
-PRBool
+bool
 IsSVG
 (
 )
@@ -2235,7 +2235,7 @@ eSVG
 ;
 }
 inline
-PRBool
+bool
 IsXUL
 (
 )
@@ -2249,7 +2249,7 @@ kNameSpaceID_XUL
 ;
 }
 inline
-PRBool
+bool
 IsMathML
 (
 )
@@ -2520,7 +2520,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -2655,7 +2655,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 =
@@ -2745,7 +2745,7 @@ set
 *
 /
 virtual
-PRBool
+bool
 GetAttr
 (
 PRInt32
@@ -2804,7 +2804,7 @@ exists
 *
 /
 virtual
-PRBool
+bool
 HasAttr
 (
 PRInt32
@@ -2908,7 +2908,7 @@ value
 *
 /
 virtual
-PRBool
+bool
 AttrValueIs
 (
 PRInt32
@@ -3025,7 +3025,7 @@ value
 *
 /
 virtual
-PRBool
+bool
 AttrValueIs
 (
 PRInt32
@@ -3318,7 +3318,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttr
-PRBool
+bool
 aNotify
 )
 =
@@ -3611,7 +3611,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 )
 =
@@ -3668,7 +3668,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 )
 =
@@ -3721,7 +3721,7 @@ const
 nsAString
 &
 aStr
-PRBool
+bool
 aNotify
 )
 {
@@ -3768,7 +3768,7 @@ elements
 *
 /
 virtual
-PRBool
+bool
 TextIsOnlyWhitespace
 (
 )
@@ -4059,7 +4059,7 @@ script
 *
 /
 virtual
-PRBool
+bool
 IsFocusable
 (
 PRInt32
@@ -4067,10 +4067,10 @@ PRInt32
 aTabIndex
 =
 nsnull
-PRBool
+bool
 aWithMouse
 =
-PR_FALSE
+false
 )
 {
 if
@@ -4155,9 +4155,9 @@ virtual
 void
 PerformAccesskey
 (
-PRBool
+bool
 aKeyCausesActivation
-PRBool
+bool
 aIsTrustedEvent
 )
 {
@@ -4680,7 +4680,7 @@ name
 *
 /
 virtual
-PRBool
+bool
 IsLink
 (
 nsIURI
@@ -5390,7 +5390,7 @@ virtual
 nsresult
 DoneAddingChildren
 (
-PRBool
+bool
 aHaveNotified
 )
 {
@@ -5478,7 +5478,7 @@ otherwise
 *
 /
 virtual
-PRBool
+bool
 IsDoneAddingChildren
 (
 )
@@ -5745,7 +5745,7 @@ css
 StyleRule
 *
 aStyleRule
-PRBool
+bool
 aNotify
 )
 =
@@ -5797,7 +5797,7 @@ attributes
 /
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -6005,7 +6005,7 @@ virtual
 void
 UpdateEditableState
 (
-PRBool
+bool
 aNotify
 )
 ;
@@ -6481,7 +6481,7 @@ css
 StyleRule
 *
 aStyleRule
-PRBool
+bool
 aNotify
 )
 =
@@ -6536,7 +6536,7 @@ false
 .
 *
 /
-PRBool
+bool
 HasIndependentSelection
 (
 )
@@ -6699,7 +6699,7 @@ C
 7
 )
 .
-PRBool
+bool
 hasAttr
 =
 content
@@ -7002,10 +7002,10 @@ PRInt32
 aIndent
 =
 0
-PRBool
+bool
 aDumpAll
 =
-PR_TRUE
+true
 )
 const
 =
@@ -7122,7 +7122,7 @@ xul
 elements
 .
 static
-PRBool
+bool
 sTabFocusModelAppliesToXUL
 ;
 }

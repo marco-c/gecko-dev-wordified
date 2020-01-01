@@ -717,7 +717,7 @@ EnsureStreamIO
 (
 )
 ;
-PRBool
+bool
 IsActive
 (
 )
@@ -758,7 +758,7 @@ mStreamIO
 /
 strong
 reference
-PRBool
+bool
 mDoomed
 ;
 /
@@ -1414,7 +1414,7 @@ nsDiskCacheBinding
 binding
 )
 ;
-PRBool
+bool
 ActiveBindings
 (
 )
@@ -1440,7 +1440,7 @@ ops
 PLDHashTable
 table
 ;
-PRBool
+bool
 initialized
 ;
 }

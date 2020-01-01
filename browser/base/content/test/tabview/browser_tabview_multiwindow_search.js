@@ -823,7 +823,9 @@ substr
 ;
 contentWindow
 .
-performSearch
+Search
+.
+perform
 (
 )
 ;
@@ -874,7 +876,9 @@ contentWindow
 {
 contentWindow
 .
-hideSearch
+Search
+.
+hide
 (
 null
 )

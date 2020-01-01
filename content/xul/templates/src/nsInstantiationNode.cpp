@@ -555,9 +555,9 @@ Propagate
 InstantiationSet
 &
 aInstantiations
-PRBool
+bool
 aIsUpdate
-PRBool
+bool
 &
 aTakenInstantiations
 )

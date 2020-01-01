@@ -438,7 +438,7 @@ h
 /
 /
 for
-PRBool
+bool
 #
 include
 "
@@ -481,7 +481,7 @@ from
 nsTextEditRules
 :
 static
-PRBool
+bool
 IsBody
 (
 nsIDOMNode
@@ -490,7 +490,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsBreak
 (
 nsIDOMNode
@@ -499,7 +499,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsMozBR
 (
 nsIDOMNode
@@ -508,7 +508,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 HasMozAttr
 (
 nsIDOMNode

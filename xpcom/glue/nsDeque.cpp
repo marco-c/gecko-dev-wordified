@@ -1264,7 +1264,7 @@ this
 function
 should
 return
-PRBool
+bool
 /
 nsresult
 indicating
@@ -1280,7 +1280,7 @@ growing
 succeeded
 *
 /
-PRBool
+bool
 nsDeque
 :
 :
@@ -3240,7 +3240,7 @@ equal
 .
 *
 /
-PRBool
+bool
 nsDequeIterator
 :
 :
@@ -3254,7 +3254,7 @@ aIter
 )
 {
 return
-PRBool
+bool
 (
 !
 this
@@ -3327,7 +3327,7 @@ deque
 .
 *
 /
-PRBool
+bool
 nsDequeIterator
 :
 :
@@ -3340,7 +3340,7 @@ aIter
 )
 {
 return
-PRBool
+bool
 (
 (
 (
@@ -3395,7 +3395,7 @@ if
 EQUAL
 *
 /
-PRBool
+bool
 nsDequeIterator
 :
 :
@@ -3409,7 +3409,7 @@ aIter
 )
 {
 return
-PRBool
+bool
 (
 (
 (
@@ -3500,7 +3500,7 @@ deque
 .
 *
 /
-PRBool
+bool
 nsDequeIterator
 :
 :
@@ -3514,7 +3514,7 @@ aIter
 )
 {
 return
-PRBool
+bool
 (
 (
 (

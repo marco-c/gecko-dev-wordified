@@ -1670,10 +1670,10 @@ get
 Output
 the
 children
-PRBool
+bool
 outputOneList
 =
-PR_FALSE
+false
 ;
 ChildListIterator
 lists

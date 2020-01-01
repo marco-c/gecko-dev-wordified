@@ -850,7 +850,7 @@ nsIContent
 interface
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -862,7 +862,7 @@ name
 const
 ;
 virtual
-PRBool
+bool
 GetAttr
 (
 PRInt32
@@ -885,7 +885,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -951,7 +951,7 @@ GetClassInfo
 protected
 :
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32

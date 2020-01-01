@@ -552,7 +552,7 @@ GetInternalNSEvent
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsDispatchStopped
 (
@@ -561,7 +561,7 @@ IsDispatchStopped
 NS_IMETHOD
 SetTrusted
 (
-PRBool
+bool
 aResult
 )
 ;
@@ -575,12 +575,12 @@ IPC
 Message
 *
 aMsg
-PRBool
+bool
 aSerializeInterfaceType
 )
 ;
 virtual
-PRBool
+bool
 Deserialize
 (
 const

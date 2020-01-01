@@ -4495,7 +4495,7 @@ GetScheme
 oldScheme
 )
 ;
-PRBool
+bool
 match
 ;
 if
@@ -4921,7 +4921,7 @@ nsOfflineCacheUpdateItem
 :
 GetRequestSucceeded
 (
-PRBool
+bool
 *
 succeeded
 )
@@ -4961,7 +4961,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 reqSucceeded
 ;
 rv
@@ -6700,7 +6700,7 @@ as
 the
 manifest
 .
-PRBool
+bool
 match
 ;
 if
@@ -7172,7 +7172,7 @@ GetScheme
 scheme
 )
 ;
-PRBool
+bool
 equals
 ;
 if
@@ -7661,7 +7661,7 @@ fileuri
 .
 strict_origin_policy
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -7701,7 +7701,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 succeeded
 ;
 rv
@@ -8638,7 +8638,7 @@ applications
 are
 supported
 .
-PRBool
+bool
 match
 ;
 rv
@@ -9051,7 +9051,7 @@ nsOfflineCacheUpdate
 :
 HandleManifest
 (
-PRBool
+bool
 *
 aDoUpdate
 )
@@ -9065,7 +9065,7 @@ aDoUpdate
 =
 PR_FALSE
 ;
-PRBool
+bool
 succeeded
 ;
 nsresult
@@ -9571,7 +9571,7 @@ Finish
 return
 ;
 }
-PRBool
+bool
 doUpdate
 ;
 if
@@ -9759,7 +9759,7 @@ mCurrentItem
 +
 +
 ;
-PRBool
+bool
 succeeded
 ;
 rv
@@ -10759,10 +10759,10 @@ if
 namespaceFilter
 )
 {
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -12235,7 +12235,7 @@ nsOfflineCacheUpdate
 :
 GetPartial
 (
-PRBool
+bool
 *
 aPartial
 )
@@ -12288,7 +12288,7 @@ nsOfflineCacheUpdate
 :
 GetSucceeded
 (
-PRBool
+bool
 *
 aSucceeded
 )
@@ -12317,7 +12317,7 @@ nsOfflineCacheUpdate
 :
 GetIsUpgrade
 (
-PRBool
+bool
 *
 aIsUpgrade
 )
@@ -12401,7 +12401,7 @@ GetScheme
 scheme
 )
 ;
-PRBool
+bool
 match
 ;
 if
@@ -12461,7 +12461,7 @@ i
 +
 )
 {
-PRBool
+bool
 equals
 ;
 if
@@ -12692,7 +12692,7 @@ AddObserver
 nsIOfflineCacheUpdateObserver
 *
 aObserver
-PRBool
+bool
 aHoldWeak
 )
 {
@@ -13034,7 +13034,7 @@ fetch
 update
 might
 succeed
-PRBool
+bool
 succeeded
 ;
 aUpdate

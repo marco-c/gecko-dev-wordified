@@ -663,7 +663,7 @@ DOMSVGTransformList
 aList
 PRUint32
 aListIndex
-PRBool
+bool
 aIsAnimValItem
 )
 ;
@@ -939,7 +939,7 @@ InternalItem
 )
 ;
 }
-PRBool
+bool
 IsInList
 (
 )
@@ -979,7 +979,7 @@ IsInList
 .
 *
 /
-PRBool
+bool
 HasOwner
 (
 )
@@ -1103,7 +1103,7 @@ DOMSVGTransformList
 aList
 PRUint32
 aListIndex
-PRBool
+bool
 aIsAnimValItem
 )
 ;
@@ -1252,7 +1252,7 @@ class
 DOMSVGMatrix
 ;
 const
-PRBool
+bool
 IsAnimVal
 (
 )
@@ -1355,7 +1355,7 @@ const
 #
 ifdef
 DEBUG
-PRBool
+bool
 IndexIsValid
 (
 )
@@ -1448,7 +1448,7 @@ mListIndex
 :
 MOZ_SVG_LIST_INDEX_BIT_COUNT
 ;
-PRPackedBool
+bool
 mIsAnimValItem
 :
 1

@@ -530,7 +530,7 @@ virtual
 nsresult
 GetIsBatch
 (
-PRBool
+bool
 *
 aIsBatch
 )

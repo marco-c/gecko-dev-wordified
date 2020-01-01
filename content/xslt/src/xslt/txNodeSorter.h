@@ -604,7 +604,7 @@ aSortData
 )
 ;
 static
-PRBool
+bool
 calcSortValue
 (
 TxObject

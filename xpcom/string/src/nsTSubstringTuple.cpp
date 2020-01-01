@@ -898,7 +898,7 @@ sequence
 .
 *
 /
-PRBool
+bool
 nsTSubstringTuple_CharT
 :
 :

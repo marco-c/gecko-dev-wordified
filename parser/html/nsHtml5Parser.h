@@ -1039,7 +1039,7 @@ not
 /
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsParserEnabled
 (
@@ -1065,7 +1065,7 @@ parsing
 /
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsComplete
 (
@@ -1242,7 +1242,7 @@ const
 nsACString
 &
 aContentType
-PRBool
+bool
 aLastCall
 nsDTDMode
 aMode
@@ -1398,7 +1398,7 @@ write
 *
 /
 virtual
-PRBool
+bool
 CanInterrupt
 (
 )
@@ -1422,7 +1422,7 @@ defined
 *
 /
 virtual
-PRBool
+bool
 IsInsertionPointDefined
 (
 )
@@ -1528,7 +1528,7 @@ parser
 *
 /
 virtual
-PRBool
+bool
 IsScriptCreated
 (
 )
@@ -1645,9 +1645,9 @@ nsIAtom
 aContextLocalName
 PRInt32
 aContextNamespace
-PRBool
+bool
 aQuirks
-PRBool
+bool
 aPreventScriptExecution
 )
 ;
@@ -1746,7 +1746,7 @@ nsnull
 void
 StartTokenizer
 (
-PRBool
+bool
 aScriptingEnabled
 )
 ;
@@ -1813,7 +1813,7 @@ CRLF
 )
 *
 /
-PRBool
+bool
 mLastWasCR
 ;
 /
@@ -1842,7 +1842,7 @@ write
 .
 *
 /
-PRBool
+bool
 mDocWriteSpeculativeLastWasCR
 ;
 /
@@ -1858,7 +1858,7 @@ fragment
 mode
 *
 /
-PRBool
+bool
 mFragmentMode
 ;
 /
@@ -1874,7 +1874,7 @@ a
 script
 *
 /
-PRBool
+bool
 mBlocked
 ;
 /
@@ -1895,7 +1895,7 @@ active
 .
 *
 /
-PRBool
+bool
 mDocWriteSpeculatorActive
 ;
 /
@@ -1935,7 +1935,7 @@ called
 .
 *
 /
-PRBool
+bool
 mDocumentClosed
 ;
 /
@@ -2149,7 +2149,7 @@ stream
 parser
 *
 /
-PRBool
+bool
 mReturnToStreamParserPermitted
 ;
 /

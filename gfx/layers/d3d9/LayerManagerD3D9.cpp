@@ -577,7 +577,7 @@ Destroy
 )
 ;
 }
-PRBool
+bool
 LayerManagerD3D9
 :
 :
@@ -612,7 +612,7 @@ layer
 manager
 *
 /
-PRBool
+bool
 forceAccelerate
 =
 Preferences
@@ -629,7 +629,7 @@ force
 -
 enabled
 "
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -1035,6 +1035,8 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
 )
 {
 mDeviceResetCount
@@ -1049,6 +1051,14 @@ GetDeviceResetCount
 if
 (
 mRoot
+&
+&
+!
+(
+aFlags
+&
+END_NO_IMMEDIATE_REDRAW
+)
 )
 {
 mCurrentCallbackInfo

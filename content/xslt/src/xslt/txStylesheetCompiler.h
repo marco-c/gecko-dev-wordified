@@ -485,7 +485,7 @@ nsTArray
 h
 "
 extern
-PRBool
+bool
 TX_XSLTFunctionAvailable
 (
 nsIAtom
@@ -546,10 +546,10 @@ txElementContext
 aOther
 )
 ;
-PRBool
+bool
 mPreserveWhitespace
 ;
-PRBool
+bool
 mForwardsCompatibleParsing
 ;
 nsString
@@ -725,7 +725,7 @@ aInsertPosition
 Embedded
 stylesheets
 state
-PRBool
+bool
 handleEmbeddedSheet
 (
 )
@@ -923,7 +923,7 @@ FunctionCall
 aFunction
 )
 ;
-PRBool
+bool
 caseInsensitiveNameTests
 (
 )
@@ -945,7 +945,7 @@ mode
 .
 *
 /
-PRBool
+bool
 fcp
 (
 )
@@ -996,10 +996,10 @@ txList
 >
 mChooseGotoList
 ;
-PRPackedBool
+bool
 mDOE
 ;
-PRPackedBool
+bool
 mSearchingForFallback
 ;
 protected
@@ -1048,10 +1048,10 @@ mEmbedStatus
 nsString
 mStylesheetURI
 ;
-PRPackedBool
+bool
 mIsTopCompiler
 ;
-PRPackedBool
+bool
 mDoneWithThisStylesheet
 ;
 txStack
@@ -1118,7 +1118,7 @@ class
 txStylesheetCompilerState
 ;
 friend
-PRBool
+bool
 TX_XSLTFunctionAvailable
 (
 nsIAtom

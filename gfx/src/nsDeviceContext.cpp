@@ -2075,7 +2075,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDeviceContext
 :
 :
@@ -4116,10 +4116,10 @@ mPrintingSurface
 )
 return
 ;
-PRBool
+bool
 inPoints
 =
-PR_TRUE
+true
 ;
 gfxSize
 size
@@ -4731,7 +4731,7 @@ height
 ;
 }
 }
-PRBool
+bool
 nsDeviceContext
 :
 :
@@ -4766,7 +4766,7 @@ oldInches
 mAppUnitsPerPhysicalInch
 ;
 }
-PRBool
+bool
 nsDeviceContext
 :
 :

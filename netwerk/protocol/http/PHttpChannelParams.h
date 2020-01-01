@@ -536,7 +536,7 @@ mHeader
 nsCString
 mValue
 ;
-PRBool
+bool
 mMerge
 ;
 }

@@ -1479,7 +1479,7 @@ this
 *
 /
 virtual
-PRBool
+bool
 IsEqual
 (
 const

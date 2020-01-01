@@ -3287,10 +3287,10 @@ rightmost
 PRUint8
 pos
 ;
-PRBool
+bool
 started
 =
-PR_FALSE
+false
 ;
 aBegin
 =
@@ -3338,7 +3338,7 @@ pos
 ;
 started
 =
-PR_TRUE
+true
 ;
 }
 else

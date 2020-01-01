@@ -1389,7 +1389,7 @@ a
 response
 code
 ?
-PRBool
+bool
 startNum
 =
 (
@@ -2324,10 +2324,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 processingRead
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -3781,7 +3781,7 @@ EmptyCString
 )
 )
 ;
-PRBool
+bool
 retval
 ;
 rv
@@ -4057,10 +4057,10 @@ else
 nsXPIDLCString
 anonPassword
 ;
-PRBool
+bool
 useRealEmail
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4293,7 +4293,7 @@ SetUserInternal
 mUsername
 )
 ;
-PRBool
+bool
 retval
 ;
 rv
@@ -8053,10 +8053,10 @@ p0
 p1
 ;
 }
-PRBool
+bool
 newDataConn
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8128,7 +8128,7 @@ oldPort
 port
 )
 {
-PRBool
+bool
 isAlive
 ;
 if
@@ -9084,7 +9084,7 @@ files
 bbaetz
 *
 /
-PRBool
+bool
 nsFtpState
 :
 :
@@ -13065,7 +13065,7 @@ CallbackTarget
 ;
 }
 }
-PRBool
+bool
 nsFtpState
 :
 :
@@ -13201,7 +13201,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsFtpState
 :
 :

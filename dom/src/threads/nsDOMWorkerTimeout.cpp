@@ -724,7 +724,7 @@ aArgc
 :
 1
 ;
-PRBool
+bool
 success
 =
 mCallbackArgs
@@ -926,7 +926,7 @@ jsval
 >
 argv
 ;
-PRBool
+bool
 success
 =
 argv
@@ -1276,7 +1276,7 @@ string
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 success
 =
 JS_EvaluateUCScriptForPrincipals
@@ -1388,7 +1388,7 @@ aArgc
 jsval
 *
 aArgv
-PRBool
+bool
 aIsInterval
 )
 {

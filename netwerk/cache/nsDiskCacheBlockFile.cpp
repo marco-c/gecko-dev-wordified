@@ -1342,7 +1342,7 @@ nsDiskCacheBlockFile
 :
 Close
 (
-PRBool
+bool
 flush
 )
 {

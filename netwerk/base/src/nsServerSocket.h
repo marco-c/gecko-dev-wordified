@@ -648,7 +648,7 @@ nsIEventTarget
 >
 mListenerTarget
 ;
-PRBool
+bool
 mAttached
 ;
 }

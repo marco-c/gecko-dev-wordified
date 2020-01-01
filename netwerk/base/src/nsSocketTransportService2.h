@@ -944,7 +944,7 @@ socket
 .
 /
 /
-PRBool
+bool
 CanAttachSocket
 (
 )
@@ -1205,7 +1205,7 @@ they
 access
 mThreadEvent
 .
-PRBool
+bool
 mAutodialEnabled
 ;
 /
@@ -1398,10 +1398,10 @@ thread
 Mutex
 mLock
 ;
-PRPackedBool
+bool
 mInitialized
 ;
-PRPackedBool
+bool
 mShuttingDown
 ;
 /
@@ -1751,12 +1751,12 @@ SocketContext
 sock
 )
 ;
-PRBool
+bool
 GrowActiveList
 (
 )
 ;
-PRBool
+bool
 GrowIdleList
 (
 )
@@ -1977,7 +1977,7 @@ timeout
 nsresult
 DoPollIteration
 (
-PRBool
+bool
 wait
 )
 ;
@@ -1991,7 +1991,7 @@ iteration
 PRInt32
 Poll
 (
-PRBool
+bool
 wait
 PRUint32
 *

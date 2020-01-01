@@ -1011,7 +1011,7 @@ nsnull
 ;
 }
 static
-PRBool
+bool
 HasOpaqueAncestorLayer
 (
 Layer
@@ -1257,7 +1257,7 @@ GetBounds
 (
 )
 ;
-PRBool
+bool
 useIntermediate
 =
 aContainer

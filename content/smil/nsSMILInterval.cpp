@@ -648,7 +648,7 @@ nsSMILInterval
 :
 Unlink
 (
-PRBool
+bool
 aFiltered
 )
 {
@@ -1208,7 +1208,7 @@ aTime
 #
 ifdef
 DEBUG
-PRBool
+bool
 found
 =
 #
@@ -1254,7 +1254,7 @@ aTimes
 mDependentTimes
 ;
 }
-PRBool
+bool
 nsSMILInterval
 :
 :

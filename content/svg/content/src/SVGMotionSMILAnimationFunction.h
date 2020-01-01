@@ -584,7 +584,7 @@ SVGMotionSMILAnimationFunction
 ;
 NS_OVERRIDE
 virtual
-PRBool
+bool
 SetAttr
 (
 nsIAtom
@@ -606,7 +606,7 @@ nsnull
 ;
 NS_OVERRIDE
 virtual
-PRBool
+bool
 UnsetAttr
 (
 nsIAtom
@@ -794,7 +794,7 @@ aNumValues
 ;
 NS_OVERRIDE
 virtual
-PRBool
+bool
 IsToAnimation
 (
 )
@@ -883,13 +883,13 @@ nsIContent
 aContextElem
 )
 ;
-PRBool
+bool
 GenerateValuesForPathAndPoints
 (
 gfxFlattenedPath
 *
 aPath
-PRBool
+bool
 aIsKeyPoints
 nsTArray
 <
@@ -992,7 +992,7 @@ vertices
 along
 path
 .
-PRPackedBool
+bool
 mIsPathStale
 ;
 }

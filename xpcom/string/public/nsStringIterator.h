@@ -1550,7 +1550,7 @@ class
 CharT
 >
 inline
-PRBool
+bool
 operator
 =
 =
@@ -1592,7 +1592,7 @@ class
 CharT
 >
 inline
-PRBool
+bool
 operator
 !
 =
@@ -1644,7 +1644,7 @@ class
 CharT
 >
 inline
-PRBool
+bool
 operator
 =
 =
@@ -1686,7 +1686,7 @@ class
 CharT
 >
 inline
-PRBool
+bool
 operator
 !
 =

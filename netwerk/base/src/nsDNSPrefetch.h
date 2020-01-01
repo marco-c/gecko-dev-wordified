@@ -484,7 +484,7 @@ nsDNSPrefetch
 nsIURI
 *
 aURI
-PRBool
+bool
 storeTiming
 )
 ;
@@ -602,7 +602,7 @@ private
 nsCString
 mHostname
 ;
-PRBool
+bool
 mStoreTiming
 ;
 mozilla

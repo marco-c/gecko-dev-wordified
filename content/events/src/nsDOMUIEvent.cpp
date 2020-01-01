@@ -1231,9 +1231,9 @@ const
 nsAString
 &
 typeArg
-PRBool
+bool
 canBubbleArg
-PRBool
+bool
 cancelableArg
 nsIDOMWindow
 *
@@ -1708,7 +1708,7 @@ nsDOMUIEvent
 :
 GetCancelBubble
 (
-PRBool
+bool
 *
 aCancelBubble
 )
@@ -1744,7 +1744,7 @@ nsDOMUIEvent
 :
 SetCancelBubble
 (
-PRBool
+bool
 aCancelBubble
 )
 {
@@ -2016,7 +2016,7 @@ nsDOMUIEvent
 :
 GetIsChar
 (
-PRBool
+bool
 *
 aIsChar
 )
@@ -2168,7 +2168,7 @@ IPC
 Message
 *
 aMsg
-PRBool
+bool
 aSerializeInterfaceType
 )
 {
@@ -2222,7 +2222,7 @@ detail
 )
 ;
 }
-PRBool
+bool
 nsDOMUIEvent
 :
 :

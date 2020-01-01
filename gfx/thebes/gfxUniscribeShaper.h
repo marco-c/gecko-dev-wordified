@@ -541,7 +541,7 @@ gfxUniscribeShaper
 ;
 }
 virtual
-PRBool
+bool
 InitTextRun
 (
 gfxContext

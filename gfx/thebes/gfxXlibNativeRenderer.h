@@ -868,10 +868,10 @@ gfxASurface
 >
 mSurface
 ;
-PRPackedBool
+bool
 mUniformAlpha
 ;
-PRPackedBool
+bool
 mUniformColor
 ;
 gfxRGBA
@@ -1035,7 +1035,7 @@ result
 ;
 private
 :
-PRBool
+bool
 DrawDirect
 (
 gfxContext
@@ -1053,7 +1053,7 @@ Visual
 visual
 )
 ;
-PRBool
+bool
 DrawOntoTempSurface
 (
 gfxXlibSurface

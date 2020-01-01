@@ -646,7 +646,7 @@ const
 nsACString
 &
 aContractId
-PRBool
+bool
 aService
 )
 :
@@ -787,7 +787,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 IsThreadsafe
 (
 )
@@ -814,10 +814,10 @@ private
 nsCString
 mContractId
 ;
-PRBool
+bool
 mService
 ;
-PRBool
+bool
 mIsThreadsafe
 ;
 }
@@ -1171,7 +1171,7 @@ aArgc
 jsval
 *
 aVp
-PRBool
+bool
 aIsInterval
 )
 ;
@@ -1203,7 +1203,7 @@ aArgc
 jsval
 *
 aVp
-PRBool
+bool
 aService
 )
 ;
@@ -1365,7 +1365,7 @@ aArgc
 jsval
 *
 aVp
-PRBool
+bool
 aIsInterval
 )
 {
@@ -3009,7 +3009,7 @@ aArgc
 jsval
 *
 aVp
-PRBool
+bool
 aService
 )
 {
@@ -5228,7 +5228,7 @@ aId
 jsval
 *
 aVp
-PRBool
+bool
 *
 _retval
 )
@@ -6260,7 +6260,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {
@@ -6312,7 +6312,7 @@ DispatchEvent
 nsIDOMEvent
 *
 aEvent
-PRBool
+bool
 *
 _retval
 )
@@ -6368,9 +6368,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
-PRBool
+bool
 aWantsUntrusted
 PRUint8
 optional_argc
@@ -6517,7 +6517,7 @@ aWorker
 nsDOMWorkerEvent
 *
 aEvent
-PRBool
+bool
 aToInner
 )
 :
@@ -6846,7 +6846,7 @@ nsDOMWorkerEvent
 >
 mEvent
 ;
-PRBool
+bool
 mToInner
 ;
 }
@@ -7124,7 +7124,7 @@ PR_FALSE
 #
 ifdef
 DEBUG
-PRBool
+bool
 mainThread
 =
 NS_IsMainThread
@@ -7388,7 +7388,7 @@ null
 "
 )
 ;
-PRBool
+bool
 enabled
 ;
 nsresult
@@ -7821,10 +7821,10 @@ aObj
 /
 )
 {
-PRBool
+bool
 canceled
 =
-PR_FALSE
+false
 ;
 {
 MutexAutoLock
@@ -8310,7 +8310,7 @@ null
 "
 )
 ;
-PRBool
+bool
 isChrome
 ;
 rv
@@ -9088,10 +9088,10 @@ to
 run
 anything
 .
-PRBool
+bool
 enforceTimeout
 =
-PR_FALSE
+false
 ;
 {
 MutexAutoLock
@@ -9681,7 +9681,7 @@ thread
 "
 )
 ;
-PRBool
+bool
 shouldSuspendFeatures
 ;
 {
@@ -9745,7 +9745,7 @@ thread
 "
 )
 ;
-PRBool
+bool
 shouldResumeFeatures
 ;
 {
@@ -9882,7 +9882,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 nsDOMWorker
 :
 :
@@ -9902,7 +9902,7 @@ IsCanceledNoLock
 )
 ;
 }
-PRBool
+bool
 nsDOMWorker
 :
 :
@@ -10158,7 +10158,7 @@ NS_IsMainThread
 )
 ;
 }
-PRBool
+bool
 nsDOMWorker
 :
 :
@@ -10179,7 +10179,7 @@ mStatus
 eRunning
 ;
 }
-PRBool
+bool
 nsDOMWorker
 :
 :
@@ -10203,7 +10203,7 @@ nsDOMWorker
 :
 PostMessageInternal
 (
-PRBool
+bool
 aToInner
 )
 {
@@ -10679,7 +10679,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDOMWorker
 :
 :
@@ -10734,7 +10734,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsDOMWorker
 :
 :
@@ -10858,7 +10858,7 @@ enter
 aCx
 )
 ;
-PRBool
+bool
 success
 ;
 if
@@ -11716,7 +11716,7 @@ pointer
 "
 )
 ;
-PRBool
+bool
 shouldSuspend
 ;
 {
@@ -11891,7 +11891,7 @@ mLock
 #
 ifdef
 DEBUG
-PRBool
+bool
 removed
 =
 #
@@ -12469,9 +12469,9 @@ FireCloseRunnable
 (
 PRIntervalTime
 aTimeoutInterval
-PRBool
+bool
 aClearQueue
-PRBool
+bool
 aFromFinalize
 )
 {
@@ -12537,7 +12537,7 @@ the
 waiting
 thread
 .
-PRBool
+bool
 wakeUp
 ;
 {
@@ -12871,7 +12871,7 @@ nsDOMWorker
 :
 TerminateInternal
 (
-PRBool
+bool
 aFromFinalize
 )
 {
@@ -13437,7 +13437,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsDOMWorker
 :
 :
@@ -13486,7 +13486,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {
@@ -13522,7 +13522,7 @@ DispatchEvent
 nsIDOMEvent
 *
 aEvent
-PRBool
+bool
 *
 _retval
 )
@@ -13616,9 +13616,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
-PRBool
+bool
 aWantsUntrusted
 PRUint8
 aOptionalArgc

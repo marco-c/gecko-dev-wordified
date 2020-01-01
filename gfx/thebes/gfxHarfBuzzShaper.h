@@ -491,7 +491,7 @@ gfxHarfBuzzShaper
 )
 ;
 virtual
-PRBool
+bool
 InitTextRun
 (
 gfxContext
@@ -897,7 +897,7 @@ tables
 /
 /
 directly
-PRPackedBool
+bool
 mUseFontGetGlyph
 ;
 /
@@ -919,7 +919,7 @@ to
 get
 ideal
 widths
-PRPackedBool
+bool
 mUseFontGlyphWidths
 ;
 }

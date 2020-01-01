@@ -3608,7 +3608,7 @@ NS_OK
 nsresult
 Do_CheckSetArbitraryData
 (
-PRBool
+bool
 aMultiple
 )
 {

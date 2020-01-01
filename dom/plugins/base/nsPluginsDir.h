@@ -495,7 +495,7 @@ file
 *
 /
 static
-PRBool
+bool
 IsPluginFile
 (
 nsIFile

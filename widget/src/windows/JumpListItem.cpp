@@ -745,7 +745,7 @@ Equals
 nsIJumpListItem
 *
 aItem
-PRBool
+bool
 *
 aResult
 )
@@ -758,7 +758,7 @@ aItem
 *
 aResult
 =
-PR_FALSE
+false
 ;
 PRInt16
 theType
@@ -808,7 +808,7 @@ NS_OK
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -986,7 +986,7 @@ CompareHash
 nsIURI
 *
 aUri
-PRBool
+bool
 *
 aResult
 )
@@ -1089,7 +1089,7 @@ Equals
 nsIJumpListItem
 *
 aItem
-PRBool
+bool
 *
 aResult
 )
@@ -1105,7 +1105,7 @@ rv
 *
 aResult
 =
-PR_FALSE
+false
 ;
 PRInt16
 theType
@@ -1225,10 +1225,10 @@ nsIURI
 >
 theUri
 ;
-PRBool
+bool
 equals
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1261,7 +1261,7 @@ mURI
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1289,7 +1289,7 @@ equals
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1498,7 +1498,7 @@ Equals
 nsIJumpListItem
 *
 aItem
-PRBool
+bool
 *
 aResult
 )
@@ -1514,7 +1514,7 @@ rv
 *
 aResult
 =
-PR_FALSE
+false
 ;
 PRInt16
 theType
@@ -1652,10 +1652,10 @@ nsILocalHandlerApp
 >
 theApp
 ;
-PRBool
+bool
 equals
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1688,7 +1688,7 @@ mHandlerApp
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1716,7 +1716,7 @@ equals
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1973,10 +1973,10 @@ kSecondsPerDay
 86400
 ;
 static
-PRBool
+bool
 alreadyObtained
 =
-PR_FALSE
+false
 ;
 static
 PRInt32
@@ -2027,7 +2027,7 @@ kSecondsPerDay
 ;
 alreadyObtained
 =
-PR_TRUE
+true
 ;
 return
 icoReCacheSecondsTimeout
@@ -2159,7 +2159,7 @@ ICO
 file
 already
 exists
-PRBool
+bool
 exists
 ;
 rv
@@ -3200,10 +3200,10 @@ GetDetailedDescription
 appDescription
 )
 ;
-PRBool
+bool
 useUriIcon
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3215,10 +3215,10 @@ use
 the
 URI
 icon
-PRBool
+bool
 usedUriIcon
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3270,7 +3270,7 @@ iconUri
 {
 useUriIcon
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3472,7 +3472,7 @@ get
 ;
 usedUriIcon
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3561,7 +3561,7 @@ aShortcut
 PRUnichar
 *
 aPath
-PRBool
+bool
 *
 aSame
 )
@@ -3579,7 +3579,7 @@ aSame
 *
 aSame
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3878,7 +3878,7 @@ rv
 NS_NewLocalFile
 (
 filepath
-PR_FALSE
+false
 getter_AddRefs
 (
 file
@@ -4124,7 +4124,7 @@ our
 icon
 cache
 .
-PRBool
+bool
 isInOurCache
 ;
 if
@@ -4731,7 +4731,7 @@ is
 on
 the
 system
-PRBool
+bool
 JumpListShortcut
 :
 :
@@ -4754,7 +4754,7 @@ if
 handlerApp
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4786,7 +4786,7 @@ rv
 executable
 )
 {
-PRBool
+bool
 exists
 ;
 executable
@@ -4803,7 +4803,7 @@ exists
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4947,7 +4947,7 @@ aCryptoHash
 >
 Finish
 (
-PR_TRUE
+true
 aUriHash
 )
 ;

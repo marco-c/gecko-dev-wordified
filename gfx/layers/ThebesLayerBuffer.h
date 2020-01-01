@@ -951,7 +951,7 @@ mRegionToDraw
 nsIntRegion
 mRegionToInvalidate
 ;
-PRPackedBool
+bool
 mDidSelfCopy
 ;
 }
@@ -1485,7 +1485,7 @@ aBounds
 ;
 private
 :
-PRBool
+bool
 BufferSizeOkFor
 (
 const

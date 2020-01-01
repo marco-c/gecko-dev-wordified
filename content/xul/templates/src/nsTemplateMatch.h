@@ -807,7 +807,7 @@ nsTemplateMatch
 *
 &
 aMatch
-PRBool
+bool
 aRemoveResult
 )
 ;
@@ -825,7 +825,7 @@ and
 has
 generated
 output
-PRBool
+bool
 IsActive
 (
 )

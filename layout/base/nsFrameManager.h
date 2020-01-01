@@ -972,18 +972,7 @@ nsFrameList
 &
 aFrameList
 )
-{
-return
-aParentFrame
--
->
-AppendFrames
-(
-aListID
-aFrameList
-)
 ;
-}
 NS_HIDDEN_
 (
 nsresult
@@ -1186,7 +1175,7 @@ aMinChange
 RestyleTracker
 &
 aRestyleTracker
-PRBool
+bool
 aRestyleDescendants
 )
 ;

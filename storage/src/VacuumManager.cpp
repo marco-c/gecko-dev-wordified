@@ -1476,7 +1476,7 @@ rv
 false
 )
 ;
-PRBool
+bool
 ready
 ;
 if
@@ -1674,7 +1674,7 @@ rv
 false
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -1817,7 +1817,7 @@ rv
 false
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -2114,10 +2114,10 @@ next
 /
 one
 .
-PRBool
+bool
 vacuumGranted
 =
-PR_FALSE
+false
 ;
 rv
 =

@@ -459,7 +459,7 @@ AddObserver
 nsIObserver
 *
 anObserver
-PRBool
+bool
 ownsWeak
 )
 {
@@ -909,7 +909,7 @@ nsObserverEnumerator
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aResult
 )

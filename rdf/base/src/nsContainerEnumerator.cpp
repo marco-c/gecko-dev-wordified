@@ -1083,7 +1083,7 @@ ContainerEnumeratorImpl
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1298,7 +1298,7 @@ while
 1
 )
 {
-PRBool
+bool
 hasmore
 ;
 targets
@@ -1495,7 +1495,7 @@ if
 mCurrent
 )
 {
-PRBool
+bool
 hasMore
 ;
 rv
@@ -1662,7 +1662,7 @@ aResult
 nsresult
 rv
 ;
-PRBool
+bool
 hasMore
 ;
 rv

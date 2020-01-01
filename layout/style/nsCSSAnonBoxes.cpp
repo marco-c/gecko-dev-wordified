@@ -599,7 +599,7 @@ CSSAnonBoxes_info
 )
 ;
 }
-PRBool
+bool
 nsCSSAnonBoxes
 :
 :
@@ -633,7 +633,7 @@ MOZ_XUL
 static
 *
 /
-PRBool
+bool
 nsCSSAnonBoxes
 :
 :

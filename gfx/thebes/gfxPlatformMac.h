@@ -558,7 +558,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -631,7 +631,7 @@ PRUint32
 aLength
 )
 ;
-PRBool
+bool
 IsFontFormatSupported
 (
 nsIURI

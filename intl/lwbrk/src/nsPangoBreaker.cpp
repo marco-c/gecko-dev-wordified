@@ -667,7 +667,7 @@ surrogate
 +
 u16Offset
 ;
-PRBool
+bool
 err
 ;
 PRUint32

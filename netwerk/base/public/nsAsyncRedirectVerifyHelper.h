@@ -704,10 +704,10 @@ nsIChannel
 newChan
 PRUint32
 flags
-PRBool
+bool
 synchronize
 =
-PR_FALSE
+false
 )
 ;
 protected
@@ -727,7 +727,7 @@ mNewChan
 PRUint32
 mFlags
 ;
-PRBool
+bool
 mWaitingForRedirectCallback
 ;
 nsCOMPtr
@@ -736,7 +736,7 @@ nsIThread
 >
 mCallbackThread
 ;
-PRBool
+bool
 mCallbackInitiated
 ;
 PRInt32

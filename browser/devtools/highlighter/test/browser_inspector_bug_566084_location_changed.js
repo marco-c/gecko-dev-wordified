@@ -56,6 +56,8 @@ obs
 addObserver
 (
 runInspectorTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -81,6 +83,8 @@ obs
 removeObserver
 (
 runInspectorTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -144,10 +148,9 @@ ok
 (
 InspectorUI
 .
-isTreePanelOpen
+isInspectorOpen
 "
 Inspector
-Panel
 is
 open
 "
@@ -421,7 +424,7 @@ ok
 !
 InspectorUI
 .
-isTreePanelOpen
+isInspectorOpen
 "
 Inspector
 Panel
@@ -507,7 +510,7 @@ ok
 (
 InspectorUI
 .
-isTreePanelOpen
+isInspectorOpen
 "
 Inspector
 Panel
@@ -721,12 +724,6 @@ testEnd
 notificationBox
 =
 null
-;
-InspectorUI
-.
-isDirty
-=
-false
 ;
 gBrowser
 .

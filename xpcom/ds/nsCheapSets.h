@@ -583,7 +583,7 @@ the
 set
 *
 /
-PRBool
+bool
 Contains
 (
 const
@@ -1003,7 +1003,7 @@ the
 set
 *
 /
-PRBool
+bool
 Contains
 (
 PRInt32
@@ -1114,7 +1114,7 @@ an
 integer
 *
 /
-PRBool
+bool
 IsInt
 (
 )

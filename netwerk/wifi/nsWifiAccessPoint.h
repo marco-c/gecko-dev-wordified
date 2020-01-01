@@ -712,7 +712,7 @@ mSsidLen
 /
 Helper
 functions
-PRBool
+bool
 AccessPointsEqual
 (
 nsCOMArray

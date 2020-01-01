@@ -1597,7 +1597,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aUserInput
 )
 ;
@@ -1607,7 +1607,7 @@ GetValue
 nsAString
 &
 aValue
-PRBool
+bool
 aIgnoreWrap
 )
 const
@@ -1629,7 +1629,7 @@ Truncate
 )
 ;
 }
-PRBool
+bool
 IsEmpty
 (
 )
@@ -1645,7 +1645,7 @@ IsEmpty
 (
 )
 :
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1682,7 +1682,7 @@ return
 mPlaceholderDiv
 ;
 }
-PRBool
+bool
 IsSingleLineTextControl
 (
 )
@@ -1697,7 +1697,7 @@ IsSingleLineTextControl
 )
 ;
 }
-PRBool
+bool
 IsTextArea
 (
 )
@@ -1712,7 +1712,7 @@ IsTextArea
 )
 ;
 }
-PRBool
+bool
 IsPlainTextControl
 (
 )
@@ -1727,7 +1727,7 @@ IsPlainTextControl
 )
 ;
 }
-PRBool
+bool
 IsPasswordTextControl
 (
 )
@@ -1791,16 +1791,16 @@ methods
 void
 SetPlaceholderClass
 (
-PRBool
+bool
 aVisible
-PRBool
+bool
 aNotify
 )
 ;
 void
 UpdatePlaceholderText
 (
-PRBool
+bool
 aNotify
 )
 ;
@@ -1831,7 +1831,7 @@ not
 defined
 *
 /
-PRBool
+bool
 GetMaxLength
 (
 PRInt32
@@ -1940,7 +1940,7 @@ mDirection
 ;
 }
 ;
-PRBool
+bool
 IsSelectionCached
 (
 )
@@ -1970,7 +1970,7 @@ mSelectionRestoreEagerInit
 PR_TRUE
 ;
 }
-PRBool
+bool
 HasNeverInitializedBefore
 (
 )
@@ -2020,7 +2020,7 @@ CreateRootNode
 void
 ValueWasChanged
 (
-PRBool
+bool
 aNotify
 )
 ;
@@ -2109,7 +2109,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 IsInitializingRecursively
 (
 )
@@ -2126,7 +2126,7 @@ nsTextEditorState
 &
 mState
 ;
-PRBool
+bool
 mGuardSet
 ;
 }
@@ -2210,7 +2210,7 @@ a
 multiline
 control
 .
-PRPackedBool
+bool
 mEverInited
 ;
 /
@@ -2221,10 +2221,10 @@ ever
 been
 initialized
 ?
-PRPackedBool
+bool
 mEditorInitialized
 ;
-PRPackedBool
+bool
 mInitializing
 ;
 /
@@ -2238,7 +2238,7 @@ the
 process
 of
 initialization
-PRPackedBool
+bool
 mValueTransferInProgress
 ;
 /
@@ -2252,7 +2252,7 @@ transferred
 to
 the
 frame
-PRPackedBool
+bool
 mSelectionCached
 ;
 /
@@ -2262,7 +2262,7 @@ mSelectionProperties
 is
 valid
 mutable
-PRPackedBool
+bool
 mSelectionRestoreEagerInit
 ;
 /

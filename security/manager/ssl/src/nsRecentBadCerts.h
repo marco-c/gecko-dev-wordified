@@ -561,13 +561,13 @@ mHostWithPort
 SECItem
 mDERCert
 ;
-PRBool
+bool
 isDomainMismatch
 ;
-PRBool
+bool
 isNotValidAtThisTime
 ;
-PRBool
+bool
 isUntrusted
 ;
 private

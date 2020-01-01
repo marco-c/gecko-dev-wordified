@@ -641,7 +641,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -649,14 +649,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -680,7 +680,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -711,7 +711,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -724,7 +724,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -732,9 +732,9 @@ virtual
 void
 PerformAccesskey
 (
-PRBool
+bool
 aKeyCausesActivation
-PRBool
+bool
 aIsTrustedEvent
 )
 ;
@@ -801,7 +801,7 @@ event
 flag
 instead
 .
-PRPackedBool
+bool
 mHandlingEvent
 ;
 }

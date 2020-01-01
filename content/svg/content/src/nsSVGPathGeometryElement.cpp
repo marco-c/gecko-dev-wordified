@@ -445,7 +445,7 @@ aNodeInfo
 )
 {
 }
-PRBool
+bool
 nsSVGPathGeometryElement
 :
 :
@@ -513,7 +513,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsSVGPathGeometryElement
 :
 :

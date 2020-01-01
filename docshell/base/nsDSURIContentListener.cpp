@@ -1112,7 +1112,7 @@ OnStartURIOpen
 nsIURI
 *
 aURI
-PRBool
+bool
 *
 aAbortOpen
 )
@@ -1211,7 +1211,7 @@ const
 char
 *
 aContentType
-PRBool
+bool
 aIsContentPreferred
 nsIRequest
 *
@@ -1220,7 +1220,7 @@ nsIStreamListener
 *
 *
 aContentHandler
-PRBool
+bool
 *
 aAbortProcess
 )
@@ -1494,7 +1494,7 @@ char
 *
 *
 aDesiredContentType
-PRBool
+bool
 *
 aCanHandle
 )
@@ -1750,13 +1750,13 @@ const
 char
 *
 aContentType
-PRBool
+bool
 aIsContentPreferred
 char
 *
 *
 aDesiredContentType
-PRBool
+bool
 *
 aCanHandleContent
 )
@@ -2488,10 +2488,10 @@ parentDocShellItem
 parentDocShellItem
 )
 {
-PRBool
+bool
 system
 =
-PR_FALSE
+false
 ;
 topDoc
 =

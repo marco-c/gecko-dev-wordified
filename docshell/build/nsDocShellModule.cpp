@@ -616,10 +616,10 @@ nsDownloadHistory
 h
 "
 static
-PRBool
+bool
 gInitialized
 =
-PR_FALSE
+false
 ;
 /
 /

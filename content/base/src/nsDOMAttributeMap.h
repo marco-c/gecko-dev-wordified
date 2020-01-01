@@ -724,7 +724,7 @@ return
 mKey
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 KeyTypePointer
@@ -883,7 +883,7 @@ used
 .
 *
 /
-PRBool
+bool
 Init
 (
 )
@@ -1295,7 +1295,7 @@ nsIDOMNode
 *
 *
 aReturn
-PRBool
+bool
 aWithNS
 )
 ;
@@ -1341,10 +1341,10 @@ nsIDOMNode
 *
 *
 aReturn
-PRBool
+bool
 aRemove
 =
-PR_FALSE
+false
 )
 ;
 nsDOMAttribute
@@ -1354,7 +1354,7 @@ GetAttribute
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aNsAware
 )
 ;

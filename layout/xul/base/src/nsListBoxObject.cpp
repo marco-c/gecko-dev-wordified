@@ -543,7 +543,7 @@ nsListBoxBodyFrame
 *
 GetListBoxBody
 (
-PRBool
+bool
 aFlush
 )
 ;
@@ -1174,7 +1174,7 @@ nsListBoxObject
 :
 GetListBoxBody
 (
-PRBool
+bool
 aFlush
 )
 {

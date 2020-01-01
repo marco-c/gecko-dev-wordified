@@ -908,10 +908,10 @@ nodes
 )
 ;
 }
-PRBool
+bool
 cont
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -1154,10 +1154,10 @@ setReverse
 (
 )
 ;
-PRBool
+bool
 cont
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -1706,7 +1706,7 @@ aExpr
 )
 ;
 }
-PRBool
+bool
 LocationStep
 :
 :

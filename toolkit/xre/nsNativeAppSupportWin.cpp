@@ -2517,7 +2517,7 @@ implementation
 NS_IMETHOD
 Start
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2525,7 +2525,7 @@ aResult
 NS_IMETHOD
 Stop
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2678,7 +2678,7 @@ len
 )
 ;
 static
-PRBool
+bool
 InitTopicStrings
 (
 )
@@ -2782,7 +2782,7 @@ DWORD
 mInstance
 ;
 static
-PRBool
+bool
 mCanHandleRequests
 ;
 static
@@ -3461,13 +3461,13 @@ mInstance
 =
 0
 ;
-PRBool
+bool
 nsNativeAppSupportWin
 :
 :
 mCanHandleRequests
 =
-PR_FALSE
+false
 ;
 PRUnichar
 nsNativeAppSupportWin
@@ -4443,7 +4443,7 @@ nsNativeAppSupportWin
 :
 Start
 (
-PRBool
+bool
 *
 aResult
 )
@@ -4673,7 +4673,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsNativeAppSupportWin
 :
 :
@@ -5016,7 +5016,7 @@ nsNativeAppSupportWin
 :
 Stop
 (
-PRBool
+bool
 *
 aResult
 )

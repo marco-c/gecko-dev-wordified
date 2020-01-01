@@ -601,7 +601,7 @@ sensitive
 *
 /
 virtual
-PRBool
+bool
 caseInsensitiveNameTests
 (
 )

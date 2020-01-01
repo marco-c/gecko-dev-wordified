@@ -1018,7 +1018,7 @@ returned
 via
 aCookie
 .
-PRBool
+bool
 GetACookie
 (
 nsICookieService
@@ -1204,7 +1204,7 @@ returned
 via
 aCookie
 .
-PRBool
+bool
 GetACookieNoHttp
 (
 nsICookieService
@@ -1412,7 +1412,7 @@ failed
 .
 static
 inline
-PRBool
+bool
 CheckResult
 (
 const
@@ -1555,11 +1555,11 @@ failed
 test
 )
 .
-PRBool
+bool
 PrintResult
 (
 const
-PRBool
+bool
 aResult
 [
 ]
@@ -1567,10 +1567,10 @@ PRUint32
 aSize
 )
 {
-PRBool
+bool
 failed
 =
-PR_FALSE
+false
 ;
 sBuffer
 =
@@ -1866,10 +1866,10 @@ return
 -
 1
 ;
-PRBool
+bool
 allTestsPassed
 =
-PR_TRUE
+true
 ;
 ScopedXPCOM
 xpcom
@@ -1944,7 +1944,7 @@ InitPrefs
 prefBranch
 )
 ;
-PRBool
+bool
 rv
 [
 20
@@ -9235,7 +9235,7 @@ i
 =
 0
 ;
-PRBool
+bool
 more
 ;
 nsCOMPtr
@@ -9528,7 +9528,7 @@ using
 the
 third
 cookie
-PRBool
+bool
 found
 ;
 rv

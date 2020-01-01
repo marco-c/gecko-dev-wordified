@@ -603,7 +603,7 @@ nsMemoryImpl
 :
 HeapMinimize
 (
-PRBool
+bool
 aImmediate
 )
 {
@@ -632,7 +632,7 @@ nsMemoryImpl
 :
 IsLowMemory
 (
-PRBool
+bool
 *
 result
 )
@@ -709,7 +709,7 @@ const
 PRUnichar
 *
 aReason
-PRBool
+bool
 aImmediate
 )
 {
@@ -1018,10 +1018,10 @@ nsIObserver
 >
 observer
 ;
-PRBool
+bool
 loop
 =
-PR_TRUE
+true
 ;
 while
 (

@@ -605,7 +605,7 @@ nsIThreadManager
 :
 NewThread
 .
-PRBool
+bool
 ShutdownRequired
 (
 )
@@ -636,7 +636,7 @@ nsThread
 (
 )
 ;
-PRBool
+bool
 ShuttingDown
 (
 )
@@ -699,10 +699,10 @@ event
 queue
 methods
 :
-PRBool
+bool
 GetEvent
 (
-PRBool
+bool
 mayWait
 nsIRunnable
 *
@@ -762,10 +762,10 @@ filter
 )
 {
 }
-PRBool
+bool
 GetEvent
 (
-PRBool
+bool
 mayWait
 nsIRunnable
 *
@@ -783,7 +783,7 @@ event
 )
 ;
 }
-PRBool
+bool
 PutEvent
 (
 nsIRunnable
@@ -791,7 +791,7 @@ nsIRunnable
 event
 )
 ;
-PRBool
+bool
 HasPendingEvent
 (
 )
@@ -958,10 +958,10 @@ nsThreadShutdownContext
 *
 mShutdownContext
 ;
-PRPackedBool
+bool
 mShutdownRequired
 ;
-PRPackedBool
+bool
 mShutdownPending
 ;
 /
@@ -979,7 +979,7 @@ will
 never
 run
 .
-PRPackedBool
+bool
 mEventsAreDoomed
 ;
 }
@@ -1095,7 +1095,7 @@ NS_ERROR_NOT_INITIALIZED
 )
 {
 }
-PRBool
+bool
 IsPending
 (
 )

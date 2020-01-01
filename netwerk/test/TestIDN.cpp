@@ -794,7 +794,7 @@ n
 "
 )
 ;
-PRBool
+bool
 isAce
 ;
 rv

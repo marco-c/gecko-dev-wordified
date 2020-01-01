@@ -680,7 +680,7 @@ this
 problem
 .
 static
-PRBool
+bool
 MatchesBaseURI
 (
 const
@@ -1040,7 +1040,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 TestPref
 (
 nsIURI
@@ -1399,7 +1399,7 @@ auth
 module
 .
 static
-PRBool
+bool
 ForceGenericNTLM
 (
 )
@@ -1423,10 +1423,10 @@ prefs
 return
 PR_FALSE
 ;
-PRBool
+bool
 flag
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1490,13 +1490,13 @@ or
 proxy
 .
 static
-PRBool
+bool
 CanUseDefaultCredentials
 (
 nsIHttpAuthenticableChannel
 *
 channel
-PRBool
+bool
 isProxyAuth
 )
 {
@@ -1524,7 +1524,7 @@ if
 isProxyAuth
 )
 {
-PRBool
+bool
 val
 ;
 if
@@ -1586,7 +1586,7 @@ uri
 )
 )
 ;
-PRBool
+bool
 isTrustedHost
 =
 (
@@ -1767,7 +1767,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 nsISupports
 *
@@ -1777,7 +1777,7 @@ nsISupports
 *
 *
 continuationState
-PRBool
+bool
 *
 identityInvalid
 )
@@ -1951,7 +1951,7 @@ skip
 trying
 again
 .
-PRBool
+bool
 forceGeneric
 =
 ForceGenericNTLM
@@ -2477,7 +2477,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 const
 PRUnichar

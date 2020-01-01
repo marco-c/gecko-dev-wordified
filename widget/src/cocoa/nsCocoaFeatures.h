@@ -455,13 +455,13 @@ OSXVersion
 )
 ;
 static
-PRBool
+bool
 OnSnowLeopardOrLater
 (
 )
 ;
 static
-PRBool
+bool
 OnLionOrLater
 (
 )

@@ -1107,10 +1107,10 @@ GetCxSubjectPrincipal
 cx
 )
 ;
-PRBool
+bool
 equals
 =
-PR_FALSE
+false
 ;
 globalObjectPrincipal
 -
@@ -2138,10 +2138,10 @@ bug
 .
 *
 /
-PRBool
+bool
 doDestroyLock
 =
-PR_FALSE
+false
 ;
 MOZ_COUNT_DTOR
 (
@@ -3042,7 +3042,7 @@ nsXPCJSContextStackIterator
 :
 Done
 (
-PRBool
+bool
 *
 aDone
 )

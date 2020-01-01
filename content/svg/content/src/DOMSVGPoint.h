@@ -711,7 +711,7 @@ DOMSVGPointList
 aList
 PRUint32
 aListIndex
-PRBool
+bool
 aIsAnimValItem
 )
 :
@@ -1033,7 +1033,7 @@ this
 )
 ;
 }
-PRBool
+bool
 IsInList
 (
 )
@@ -1105,7 +1105,7 @@ HasWrappee
 )
 *
 /
-PRBool
+bool
 HasOwner
 (
 )
@@ -1228,7 +1228,7 @@ DOMSVGPointList
 aList
 PRUint32
 aListIndex
-PRBool
+bool
 aIsAnimValItem
 )
 ;
@@ -1378,7 +1378,7 @@ InternalItem
 mPt
 ;
 }
-PRBool
+bool
 IsReadonly
 (
 )
@@ -1391,7 +1391,7 @@ mIsReadonly
 void
 SetReadonly
 (
-PRBool
+bool
 aReadonly
 )
 {
@@ -1496,7 +1496,7 @@ InternalItem
 #
 ifdef
 DEBUG
-PRBool
+bool
 IndexIsValid
 (
 )

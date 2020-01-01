@@ -468,6 +468,10 @@ GfxInfoBase
 {
 public
 :
+GfxInfo
+(
+)
+;
 /
 /
 We
@@ -496,7 +500,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetD2DEnabled
 (
-PRBool
+bool
 *
 aD2DEnabled
 )
@@ -505,7 +509,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetDWriteEnabled
 (
-PRBool
+bool
 *
 aDWriteEnabled
 )
@@ -514,7 +518,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAzureEnabled
 (
-PRBool
+bool
 *
 aAzureEnabled
 )
@@ -667,7 +671,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetIsGPU2Active
 (
-PRBool
+bool
 *
 aIsGPU2Active
 )
@@ -720,6 +724,11 @@ nsnull
 private
 :
 void
+GetDeviceInfo
+(
+)
+;
+void
 AddCrashReportAnnotations
 (
 )
@@ -741,6 +750,12 @@ mDriverDate
 ;
 nsString
 mDeviceKey
+;
+PRUint32
+mAdapterVendorID
+;
+PRUint32
+mAdapterDeviceID
 ;
 PRUint32
 mRendererIDs

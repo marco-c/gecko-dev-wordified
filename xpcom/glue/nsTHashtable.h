@@ -781,7 +781,7 @@ this
 key
 ?
 *
-PRBool
+bool
 KeyEquals
 (
 KeyTypePointer
@@ -1005,7 +1005,7 @@ properly
 .
 *
 /
-PRBool
+bool
 Init
 (
 PRUint32
@@ -1045,7 +1045,7 @@ class
 .
 *
 /
-PRBool
+bool
 IsInitialized
 (
 )
@@ -1796,7 +1796,7 @@ key
 )
 ;
 static
-PRBool
+bool
 s_MatchEntry
 (
 PLDHashTable
@@ -1841,7 +1841,7 @@ entry
 )
 ;
 static
-PRBool
+bool
 s_InitEntry
 (
 PLDHashTable
@@ -2040,7 +2040,7 @@ template
 class
 EntryType
 >
-PRBool
+bool
 nsTHashtable
 <
 EntryType
@@ -2210,7 +2210,7 @@ template
 class
 EntryType
 >
-PRBool
+bool
 nsTHashtable
 <
 EntryType
@@ -2365,7 +2365,7 @@ template
 class
 EntryType
 >
-PRBool
+bool
 nsTHashtable
 <
 EntryType

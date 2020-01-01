@@ -653,7 +653,7 @@ const
 char
 *
 name
-PRBool
+bool
 *
 _retval
 )
@@ -1163,7 +1163,7 @@ const
 char
 *
 name
-PRBool
+bool
 value
 )
 {
@@ -1984,7 +1984,7 @@ key
 )
 ;
 }
-PRBool
+bool
 nsCommandParams
 :
 :
@@ -2186,7 +2186,7 @@ nsCommandParams
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 _retval
 )

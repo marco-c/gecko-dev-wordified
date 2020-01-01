@@ -475,7 +475,7 @@ width_mm
 float
 height_mm
 ;
-PRBool
+bool
 isMetric
 ;
 /
@@ -618,7 +618,7 @@ mCurrent
 -
 *
 return
-PR_TRUE
+true
 if
 the
 cursor
@@ -630,7 +630,7 @@ item
 .
 *
 /
-PRBool
+bool
 AtEnd
 (
 )
@@ -884,7 +884,7 @@ name
 .
 *
 return
-PR_TRUE
+true
 if
 pointing
 to
@@ -894,7 +894,7 @@ entry
 .
 *
 /
-PRBool
+bool
 Find
 (
 const
@@ -1240,7 +1240,7 @@ height_mm
 -
 *
 return
-PR_TRUE
+true
 if
 the
 paper
@@ -1257,7 +1257,7 @@ units
 .
 *
 /
-PRBool
+bool
 IsMetric
 (
 )

@@ -1065,10 +1065,10 @@ n
 )
 )
 ;
-PRBool
+bool
 isCancelled
 =
-PR_FALSE
+false
 ;
 mPrintSettings
 -
@@ -1232,7 +1232,7 @@ PRInt32
 aProgess
 PRInt32
 aMaxProgress
-PRBool
+bool
 aDoStartStop
 PRInt32
 aFlag

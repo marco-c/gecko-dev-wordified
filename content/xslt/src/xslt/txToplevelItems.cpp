@@ -638,7 +638,7 @@ nsAutoPtr
 Expr
 >
 aValue
-PRBool
+bool
 aIsParam
 )
 :

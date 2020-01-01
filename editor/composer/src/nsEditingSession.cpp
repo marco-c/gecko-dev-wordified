@@ -1325,11 +1325,11 @@ const
 char
 *
 aEditorType
-PRBool
+bool
 aDoAfterUriLoad
-PRBool
+bool
 aMakeWholeDocumentEditable
-PRBool
+bool
 aInteractive
 )
 {
@@ -1765,7 +1765,7 @@ docShell
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 tmp
 ;
 nsresult
@@ -1936,7 +1936,7 @@ nsEditingSession
 :
 GetJsAndPluginsDisabled
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2128,7 +2128,7 @@ WindowIsEditable
 nsIDOMWindow
 *
 aWindow
-PRBool
+bool
 *
 outIsEditable
 )
@@ -2338,7 +2338,7 @@ at
 end
 }
 ;
-PRBool
+bool
 IsSupportedTextType
 (
 const
@@ -2886,10 +2886,10 @@ eDesignMode
 }
 }
 }
-PRBool
+bool
 needHTMLController
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -4097,7 +4097,7 @@ do_QueryInterface
 domDoc
 )
 ;
-PRBool
+bool
 stopEditing
 =
 htmlDoc
@@ -5041,7 +5041,7 @@ aStateFlags
 ;
 #
 endif
-PRBool
+bool
 progressIsForTargetDocument
 =
 IsProgressForTargetDocument
@@ -6594,7 +6594,7 @@ document
 -
 *
 /
-PRBool
+bool
 nsEditingSession
 :
 :
@@ -7000,7 +7000,7 @@ StartDocumentLoad
 nsIWebProgress
 *
 aWebProgress
-PRBool
+bool
 aIsToBeMadeEditable
 )
 {
@@ -7312,7 +7312,7 @@ nsIChannel
 aChannel
 nsresult
 aStatus
-PRBool
+bool
 aIsToBeMadeEditable
 )
 {
@@ -7624,7 +7624,7 @@ mCanCreateEditor
 editorDocShell
 )
 {
-PRBool
+bool
 makeEditable
 ;
 editorDocShell
@@ -10822,7 +10822,7 @@ rv
 ifdef
 DEBUG
 {
-PRBool
+bool
 isEditable
 ;
 rv

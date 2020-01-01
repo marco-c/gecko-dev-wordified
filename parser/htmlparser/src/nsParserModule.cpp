@@ -854,10 +854,10 @@ NULL
 }
 ;
 static
-PRBool
+bool
 gInitialized
 =
-PR_FALSE
+false
 ;
 static
 nsresult
