@@ -630,6 +630,16 @@ Concat
 \
 _
 (
+CharCodeAt
+)
+\
+_
+(
+FromCharCode
+)
+\
+_
+(
 Return
 )
 \

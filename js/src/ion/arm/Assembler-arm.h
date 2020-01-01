@@ -1220,6 +1220,13 @@ StackKeptAligned
 =
 true
 ;
+static
+const
+Scale
+ScalePointer
+=
+TimesFour
+;
 class
 Instruction
 ;
