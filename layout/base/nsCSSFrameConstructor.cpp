@@ -48434,8 +48434,9 @@ CharacterDataChanged
 nsIContent
 *
 aContent
-PRBool
-aAppend
+CharacterDataChangeInfo
+*
+aInfo
 )
 {
 AUTO_LAYOUT_PHASE_ENTRY_POINT
@@ -48931,14 +48932,7 @@ frame
 >
 CharacterDataChanged
 (
-mPresShell
--
->
-GetPresContext
-(
-)
-aContent
-aAppend
+aInfo
 )
 ;
 if

@@ -1324,8 +1324,9 @@ CharacterDataChanged
 nsIContent
 *
 aContent
-PRBool
-aAppend
+CharacterDataChangeInfo
+*
+aInfo
 )
 ;
 nsresult

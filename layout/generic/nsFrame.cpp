@@ -21545,14 +21545,9 @@ nsFrame
 :
 CharacterDataChanged
 (
-nsPresContext
+CharacterDataChangeInfo
 *
-aPresContext
-nsIContent
-*
-aChild
-PRBool
-aAppend
+aInfo
 )
 {
 NS_NOTREACHED

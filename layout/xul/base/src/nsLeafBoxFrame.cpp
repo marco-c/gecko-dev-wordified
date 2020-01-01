@@ -2231,14 +2231,9 @@ nsLeafBoxFrame
 :
 CharacterDataChanged
 (
-nsPresContext
+CharacterDataChangeInfo
 *
-aPresContext
-nsIContent
-*
-aChild
-PRBool
-aAppend
+aInfo
 )
 {
 MarkIntrinsicWidthsDirty
@@ -2251,9 +2246,7 @@ nsLeafFrame
 :
 CharacterDataChanged
 (
-aPresContext
-aChild
-aAppend
+aInfo
 )
 ;
 }

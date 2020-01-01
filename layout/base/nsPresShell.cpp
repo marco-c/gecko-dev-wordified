@@ -29289,9 +29289,6 @@ CharacterDataChanged
 (
 aContent
 aInfo
--
->
-mAppend
 )
 ;
 VERIFY_STYLE_TREE

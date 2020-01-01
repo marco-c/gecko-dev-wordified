@@ -1720,14 +1720,9 @@ nsSVGGlyphFrame
 :
 CharacterDataChanged
 (
-nsPresContext
+CharacterDataChangeInfo
 *
-aPresContext
-nsIContent
-*
-aChild
-PRBool
-aAppend
+aInfo
 )
 {
 ClearTextRun
