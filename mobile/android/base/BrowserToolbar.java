@@ -493,7 +493,7 @@ ImageView
 mShadow
 ;
 private
-ImageButton
+GeckoImageButton
 mMenu
 ;
 private
@@ -2121,7 +2121,7 @@ lockAnimDuration
 mMenu
 =
 (
-ImageButton
+GeckoImageButton
 )
 mLayout
 .
@@ -5223,6 +5223,17 @@ isPrivate
 )
 ;
 mTitle
+.
+setPrivateMode
+(
+tab
+.
+isPrivate
+(
+)
+)
+;
+mMenu
 .
 setPrivateMode
 (
