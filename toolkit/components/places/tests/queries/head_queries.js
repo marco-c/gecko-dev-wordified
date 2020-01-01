@@ -1666,6 +1666,8 @@ favicons
 into
 the
 database
+try
+{
 faviconsvc
 .
 setFaviconData
@@ -1690,6 +1692,13 @@ qdata
 faviconExpiration
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 faviconsvc
 .
 setFaviconUrlForPage
