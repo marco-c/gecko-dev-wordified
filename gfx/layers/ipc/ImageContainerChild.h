@@ -127,6 +127,9 @@ layers
 class
 ImageBridgeCopyAndSendTask
 ;
+class
+ImageContainer
+;
 /
 *
 *

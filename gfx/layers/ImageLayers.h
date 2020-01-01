@@ -168,13 +168,6 @@ gfxPlatform
 h
 "
 #
-include
-"
-LayersBackend
-.
-h
-"
-#
 ifdef
 XP_MACOSX
 #

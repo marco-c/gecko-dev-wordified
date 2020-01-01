@@ -223,13 +223,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-"
-LayersBackend
-.
-h
-"
 using
 namespace
 mozilla

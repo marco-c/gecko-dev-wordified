@@ -120,7 +120,14 @@ mozilla_layers_GeckoContentController_h
 #
 include
 "
-Layers
+FrameMetrics
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

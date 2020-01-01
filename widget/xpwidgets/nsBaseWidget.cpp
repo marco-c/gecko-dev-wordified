@@ -7107,9 +7107,6 @@ aWidget
 gfxContext
 *
 aTarget
-BasicLayerManager
-:
-:
 BufferMode
 aDoubleBuffering
 ScreenRotation
@@ -7244,7 +7241,10 @@ manager
 SetDefaultTarget
 (
 nullptr
-BasicLayerManager
+mozilla
+:
+:
+layers
 :
 :
 BUFFER_NONE
