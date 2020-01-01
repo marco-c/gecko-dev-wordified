@@ -1138,7 +1138,7 @@ latestGUID
 Mock
 implementation
 of
-IWeaveCrypto
+WeaveCrypto
 .
 It
 does
@@ -1147,11 +1147,11 @@ encrypt
 or
 *
 decrypt
-just
-returns
+merely
+returning
 the
 input
-verbatimly
+verbatim
 .
 *
 /
