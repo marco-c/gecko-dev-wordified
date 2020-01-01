@@ -546,6 +546,12 @@ eInteger
 values
 are
 eCSSUnit_Integer
+eFloat
+/
+/
+values
+are
+eCSSUnit_Number
 eBoolInteger
 /
 /
