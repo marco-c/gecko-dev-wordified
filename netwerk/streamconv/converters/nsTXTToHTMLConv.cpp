@@ -471,7 +471,7 @@ get
 /
 nsISupports
 methods
-NS_IMPL_THREADSAFE_ISUPPORTS4
+NS_IMPL_ISUPPORTS4
 (
 nsTXTToHTMLConv
 nsIStreamConverter

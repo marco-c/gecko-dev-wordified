@@ -465,13 +465,6 @@ h
 #
 include
 "
-nsIAtom
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
@@ -678,7 +671,7 @@ PR_LOGGING
 /
 nsISupports
 implementation
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsFTPDirListingConv
 nsIStreamConverter
