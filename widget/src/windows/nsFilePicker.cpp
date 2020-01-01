@@ -1172,7 +1172,7 @@ dialog
 -
 #
 ifndef
-WINCE
+WINCE_WINDOWS_MOBILE
 int
 CALLBACK
 BrowseCallbackProc
@@ -1400,7 +1400,7 @@ Truncate
 ;
 #
 ifndef
-WINCE
+WINCE_WINDOWS_MOBILE
 if
 (
 mMode
@@ -1634,7 +1634,7 @@ else
 endif
 /
 /
-WINCE
+WINCE_WINDOWS_MOBILE
 {
 OPENFILENAMEW
 ofn
