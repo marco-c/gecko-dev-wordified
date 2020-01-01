@@ -24210,6 +24210,7 @@ forget
 (
 )
 value
+PR_FALSE
 )
 ;
 NS_ENSURE_TRUE
@@ -24302,6 +24303,7 @@ forget
 (
 )
 value
+PR_TRUE
 )
 ;
 NS_ENSURE_TRUE

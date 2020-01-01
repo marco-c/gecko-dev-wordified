@@ -1190,6 +1190,7 @@ forget
 (
 )
 value
+PR_TRUE
 )
 ;
 if
@@ -1261,6 +1262,8 @@ GetAttribute
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aNsAware
 )
 {
 NS_ASSERTION
@@ -1340,6 +1343,7 @@ forget
 EmptyString
 (
 )
+aNsAware
 )
 ;
 if
@@ -1415,6 +1419,7 @@ return
 GetAttribute
 (
 ni
+PR_FALSE
 )
 ;
 }
@@ -2209,6 +2214,7 @@ aReturn
 GetAttribute
 (
 ni
+PR_TRUE
 )
 )
 ;
@@ -2375,6 +2381,7 @@ node
 GetAttribute
 (
 ni
+PR_TRUE
 )
 ;
 }
@@ -2720,6 +2727,7 @@ aReturn
 GetAttribute
 (
 ni
+PR_TRUE
 )
 )
 ;

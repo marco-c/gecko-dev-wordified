@@ -577,6 +577,8 @@ const
 nsAString
 &
 aValue
+PRBool
+aNsAware
 )
 ;
 virtual

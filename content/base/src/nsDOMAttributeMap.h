@@ -1354,6 +1354,8 @@ GetAttribute
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aNsAware
 )
 ;
 /

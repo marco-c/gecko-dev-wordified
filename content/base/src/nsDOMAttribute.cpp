@@ -682,12 +682,15 @@ const
 nsAString
 &
 aValue
+PRBool
+aNsAware
 )
 :
 nsIAttribute
 (
 aAttrMap
 aNodeInfo
+aNsAware
 )
 mValue
 (
@@ -1324,6 +1327,10 @@ nsnull
 ;
 if
 (
+!
+mNsAware
+&
+&
 mNodeInfo
 -
 >
@@ -2146,6 +2153,7 @@ forget
 (
 )
 value
+mNsAware
 )
 ;
 if
