@@ -3385,6 +3385,11 @@ index
 pc
 ;
 }
+bool
+arrayPrototypeHasIndexedProperty
+(
+)
+;
 private
 :
 CompileStatus
@@ -3489,11 +3494,6 @@ knownPushedType
 (
 uint32
 pushed
-)
-;
-bool
-arrayPrototypeHasIndexedProperty
-(
 )
 ;
 bool
@@ -4301,6 +4301,10 @@ VoidStub
 stub
 JSValueType
 type
+bool
+cannotOverflow
+bool
+ignoreOverflow
 )
 ;
 void
