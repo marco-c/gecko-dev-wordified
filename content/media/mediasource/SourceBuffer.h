@@ -347,6 +347,7 @@ aRv
 void
 AppendBuffer
 (
+const
 ArrayBuffer
 &
 aData
@@ -358,6 +359,7 @@ aRv
 void
 AppendBuffer
 (
+const
 ArrayBufferView
 &
 aData

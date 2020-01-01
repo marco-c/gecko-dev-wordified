@@ -7698,6 +7698,7 @@ WebSocket
 :
 Send
 (
+const
 ArrayBuffer
 &
 aData
@@ -7785,6 +7786,7 @@ WebSocket
 :
 Send
 (
+const
 ArrayBufferView
 &
 aData

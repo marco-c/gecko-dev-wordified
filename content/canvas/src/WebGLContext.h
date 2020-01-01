@@ -2038,6 +2038,7 @@ BufferData
 (
 WebGLenum
 target
+const
 dom
 :
 :
@@ -2053,12 +2054,16 @@ BufferData
 (
 WebGLenum
 target
+const
+Nullable
+<
 dom
 :
 :
 ArrayBuffer
-*
-data
+>
+&
+maybeData
 WebGLenum
 usage
 )
@@ -2070,6 +2075,7 @@ WebGLenum
 target
 WebGLsizeiptr
 byteOffset
+const
 dom
 :
 :
@@ -2085,12 +2091,16 @@ WebGLenum
 target
 WebGLsizeiptr
 byteOffset
+const
+Nullable
+<
 dom
 :
 :
 ArrayBuffer
-*
-data
+>
+&
+maybeData
 )
 ;
 WebGLenum
@@ -2170,6 +2180,7 @@ WebGLsizei
 height
 WebGLint
 border
+const
 dom
 :
 :
@@ -2195,6 +2206,7 @@ WebGLsizei
 height
 WebGLenum
 format
+const
 dom
 :
 :
@@ -3132,11 +3144,15 @@ WebGLenum
 format
 WebGLenum
 type
+const
+Nullable
+<
 dom
 :
 :
 ArrayBufferView
-*
+>
+&
 pixels
 ErrorResult
 &
@@ -3296,11 +3312,15 @@ WebGLenum
 format
 WebGLenum
 type
+const
+Nullable
+<
 dom
 :
 :
 ArrayBufferView
-*
+>
+&
 pixels
 ErrorResult
 &
@@ -3545,11 +3565,15 @@ WebGLenum
 format
 WebGLenum
 type
+const
+Nullable
+<
 dom
 :
 :
 ArrayBufferView
-*
+>
+&
 pixels
 ErrorResult
 &
@@ -3847,6 +3871,7 @@ Uniform1iv
 WebGLUniformLocation
 *
 location
+const
 dom
 :
 :
@@ -3925,6 +3950,7 @@ Uniform2iv
 WebGLUniformLocation
 *
 location
+const
 dom
 :
 :
@@ -4003,6 +4029,7 @@ Uniform3iv
 WebGLUniformLocation
 *
 location
+const
 dom
 :
 :
@@ -4081,6 +4108,7 @@ Uniform4iv
 WebGLUniformLocation
 *
 location
+const
 dom
 :
 :
@@ -4159,6 +4187,7 @@ Uniform1fv
 WebGLUniformLocation
 *
 location
+const
 dom
 :
 :
@@ -4237,6 +4266,7 @@ Uniform2fv
 WebGLUniformLocation
 *
 location
+const
 dom
 :
 :
@@ -4315,6 +4345,7 @@ Uniform3fv
 WebGLUniformLocation
 *
 location
+const
 dom
 :
 :
@@ -4393,6 +4424,7 @@ Uniform4fv
 WebGLUniformLocation
 *
 location
+const
 dom
 :
 :
@@ -4473,6 +4505,7 @@ WebGLUniformLocation
 location
 WebGLboolean
 transpose
+const
 dom
 :
 :
@@ -4559,6 +4592,7 @@ WebGLUniformLocation
 location
 WebGLboolean
 transpose
+const
 dom
 :
 :
@@ -4645,6 +4679,7 @@ WebGLUniformLocation
 location
 WebGLboolean
 transpose
+const
 dom
 :
 :
@@ -4892,6 +4927,7 @@ VertexAttrib1fv
 (
 WebGLuint
 idx
+const
 dom
 :
 :
@@ -4967,6 +5003,7 @@ VertexAttrib2fv
 (
 WebGLuint
 idx
+const
 dom
 :
 :
@@ -5042,6 +5079,7 @@ VertexAttrib3fv
 (
 WebGLuint
 idx
+const
 dom
 :
 :
@@ -5117,6 +5155,7 @@ VertexAttrib4fv
 (
 WebGLuint
 idx
+const
 dom
 :
 :

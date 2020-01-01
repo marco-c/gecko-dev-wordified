@@ -252,7 +252,7 @@ mObj
 public
 :
 inline
-void
+bool
 Init
 (
 JSObject
@@ -271,6 +271,11 @@ inited
 DoInit
 (
 obj
+)
+;
+return
+inited
+(
 )
 ;
 }

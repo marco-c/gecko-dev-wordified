@@ -1403,6 +1403,7 @@ nsDOMDataChannel
 :
 Send
 (
+const
 ArrayBuffer
 &
 aData
@@ -1490,6 +1491,7 @@ nsDOMDataChannel
 :
 Send
 (
+const
 ArrayBufferView
 &
 aData

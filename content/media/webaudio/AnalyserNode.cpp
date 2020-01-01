@@ -757,6 +757,7 @@ AnalyserNode
 :
 GetFloatFrequencyData
 (
+const
 Float32Array
 &
 aArray
@@ -851,6 +852,7 @@ AnalyserNode
 :
 GetByteFrequencyData
 (
+const
 Uint8Array
 &
 aArray
@@ -1020,6 +1022,7 @@ AnalyserNode
 :
 GetByteTimeDomainData
 (
+const
 Uint8Array
 &
 aArray

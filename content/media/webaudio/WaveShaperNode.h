@@ -207,8 +207,11 @@ void
 SetCurve
 (
 const
+Nullable
+<
 Float32Array
-*
+>
+&
 aData
 )
 ;

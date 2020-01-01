@@ -491,6 +491,7 @@ SourceBuffer
 :
 AppendBuffer
 (
+const
 ArrayBuffer
 &
 aData
@@ -521,6 +522,7 @@ SourceBuffer
 :
 AppendBuffer
 (
+const
 ArrayBufferView
 &
 aData

@@ -422,6 +422,7 @@ aRv
 void
 Send
 (
+const
 mozilla
 :
 :
@@ -442,6 +443,7 @@ aRv
 void
 Send
 (
+const
 mozilla
 :
 :

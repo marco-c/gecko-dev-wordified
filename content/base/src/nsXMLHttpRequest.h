@@ -1277,6 +1277,7 @@ Uninitialized
 }
 RequestBody
 (
+const
 mozilla
 :
 :
@@ -1302,6 +1303,7 @@ aArrayBuffer
 }
 RequestBody
 (
+const
 mozilla
 :
 :
@@ -1439,6 +1441,7 @@ InputStream
 union
 Value
 {
+const
 mozilla
 :
 :
@@ -1449,6 +1452,7 @@ ArrayBuffer
 *
 mArrayBuffer
 ;
+const
 mozilla
 :
 :
@@ -1640,6 +1644,7 @@ RequestBody
 void
 Send
 (
+const
 mozilla
 :
 :
@@ -1669,6 +1674,7 @@ aArrayBuffer
 void
 Send
 (
+const
 mozilla
 :
 :
