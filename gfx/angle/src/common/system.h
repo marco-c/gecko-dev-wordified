@@ -97,7 +97,7 @@ h
 #
 include
 <
-D3Dcompiler
+d3dcompiler
 .
 h
 >
