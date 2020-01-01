@@ -2705,6 +2705,9 @@ TabParent
 *
 mRemoteBrowser
 ;
+uint64_t
+mChildID
+;
 /
 /
 See
