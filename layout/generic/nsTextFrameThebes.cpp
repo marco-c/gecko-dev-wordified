@@ -21501,6 +21501,8 @@ mAscent
 fontMetrics
 .
 underlineOffset
+*
+pix2app
 GetRect
 (
 )
@@ -21546,6 +21548,8 @@ mAscent
 fontMetrics
 .
 strikeoutOffset
+*
+pix2app
 GetRect
 (
 )
