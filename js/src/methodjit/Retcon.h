@@ -875,6 +875,11 @@ native
 bool
 recompile
 (
+JSScript
+*
+script
+bool
+isConstructing
 Vector
 <
 PatchableFrame
