@@ -1070,6 +1070,12 @@ get
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+jsMsgStr
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 params
 [
 0
