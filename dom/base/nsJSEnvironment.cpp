@@ -10324,6 +10324,16 @@ aGlobalObj
 #
 ifdef
 NS_TRACE_MALLOC
+if
+(
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+)
+{
 /
 /
 Attempt
@@ -10340,6 +10350,7 @@ aGlobalObj
 TraceMallocFunctions
 )
 ;
+}
 #
 endif
 #
