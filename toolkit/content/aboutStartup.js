@@ -978,7 +978,7 @@ launched
 )
 ;
 let
-ss
+app
 =
 Cc
 [
@@ -987,9 +987,11 @@ mozilla
 .
 org
 /
-browser
+toolkit
 /
-sessionstartup
+app
+-
+startup
 ;
 1
 "
@@ -999,7 +1001,7 @@ getService
 (
 Ci
 .
-nsISessionStartup
+nsIAppStartup2
 )
 ;
 displayTimestamp
@@ -1009,7 +1011,7 @@ restored
 "
 restored
 =
-ss
+app
 .
 restoredTimestamp
 )
