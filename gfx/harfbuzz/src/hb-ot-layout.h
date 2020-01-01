@@ -803,6 +803,9 @@ hb_ot_layout_would_substitute_lookup
 hb_face_t
 *
 face
+unsigned
+int
+lookup_index
 const
 hb_codepoint_t
 *
@@ -810,9 +813,8 @@ glyphs
 unsigned
 int
 glyphs_length
-unsigned
-int
-lookup_index
+hb_bool_t
+zero_context
 )
 ;
 void
@@ -821,12 +823,12 @@ hb_ot_layout_substitute_closure_lookup
 hb_face_t
 *
 face
-hb_set_t
-*
-glyphs
 unsigned
 int
 lookup_index
+hb_set_t
+*
+glyphs
 )
 ;
 /

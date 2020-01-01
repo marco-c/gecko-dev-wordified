@@ -245,6 +245,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 /
 *
 *
@@ -2470,6 +2473,11 @@ markGlyphSetsDef
 ;
 }
 ;
+}
+/
+/
+namespace
+OT
 #
 endif
 /

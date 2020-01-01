@@ -228,6 +228,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 /
 *
 *
@@ -1194,6 +1197,11 @@ DEFINE_SIZE_STATIC
 ;
 }
 ;
+}
+/
+/
+namespace
+OT
 #
 endif
 /

@@ -212,6 +212,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 /
 *
 *
@@ -890,6 +893,11 @@ nameRecord
 ;
 }
 ;
+}
+/
+/
+namespace
+OT
 #
 endif
 /

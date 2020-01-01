@@ -230,6 +230,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 /
 *
 *
@@ -1571,6 +1574,11 @@ tag
 ;
 }
 ;
+}
+/
+/
+namespace
+OT
 #
 endif
 /

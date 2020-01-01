@@ -212,6 +212,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 /
 *
 *
@@ -511,6 +514,11 @@ leftSideBearingX
 ;
 }
 ;
+}
+/
+/
+namespace
+OT
 #
 endif
 /

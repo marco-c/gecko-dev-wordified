@@ -979,7 +979,7 @@ shapes
 u
 ]
 else
-u
+0
 		     
 for
 shape
@@ -1275,6 +1275,7 @@ print
 static
 const
 struct
+ligature_set_t
 {
 "
 	
@@ -1288,6 +1289,7 @@ first
 print
 "
 struct
+ligature_pairs_t
 {
 "
 	
