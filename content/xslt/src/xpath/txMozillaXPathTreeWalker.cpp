@@ -1293,9 +1293,8 @@ mPosition
 mNode
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 if
@@ -1470,11 +1469,8 @@ mPosition
 mNode
 -
 >
-GetChildAt
+GetLastChild
 (
-total
--
-1
 )
 ;
 if
