@@ -458,7 +458,7 @@ HTMLInputElement
 MOZ_FINAL
 :
 public
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 public
 nsImageLoadingContent
 public
@@ -499,7 +499,7 @@ nsIConstraintValidation
 Validity
 ;
 using
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 GetForm
@@ -1280,7 +1280,7 @@ FireAsyncClickHandler
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLInputElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 )
 static
 UploadLastDir
@@ -3559,7 +3559,7 @@ nsITextControlElement
 version
 .
 using
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 IsSingleLineTextControl
