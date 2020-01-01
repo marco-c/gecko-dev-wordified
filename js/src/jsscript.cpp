@@ -684,6 +684,17 @@ false
 false
 false
 true
+#
+ifdef
+JS_METHODJIT
+/
+*
+debugMode
+*
+/
+false
+#
+endif
 const_cast
 <
 jsbytecode
