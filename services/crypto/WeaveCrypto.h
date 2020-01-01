@@ -553,9 +553,6 @@ retval
 ;
 static
 void
-WeaveCrypto
-:
-:
 StoreToStringCallback
 (
 void
