@@ -1250,7 +1250,7 @@ GetNodeParent
 "
 Bind
 before
-unbinging
+unbinding
 !
 "
 )
