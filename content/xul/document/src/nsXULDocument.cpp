@@ -1838,6 +1838,10 @@ mDocDirection
 (
 Direction_Uninitialized
 )
+mDocLWTheme
+(
+Doc_Theme_Uninitialized
+)
 mState
 (
 eState_Master
@@ -1848,10 +1852,6 @@ nsForwardReference
 :
 :
 eStart
-)
-mDocLWTheme
-(
-Doc_Theme_Uninitialized
 )
 {
 /
