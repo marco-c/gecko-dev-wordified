@@ -3898,7 +3898,6 @@ aWidget
 Invalidate
 (
 bounds
-false
 )
 ;
 }

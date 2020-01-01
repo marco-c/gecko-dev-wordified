@@ -4739,7 +4739,6 @@ UpdateRenderMode
 ;
 Invalidate
 (
-false
 )
 ;
 }
@@ -4816,7 +4815,6 @@ GetD3D10Device
 {
 Invalidate
 (
-false
 )
 ;
 }

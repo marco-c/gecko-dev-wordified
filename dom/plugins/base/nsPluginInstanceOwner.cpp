@@ -3461,7 +3461,6 @@ invalidRect
 >
 top
 )
-false
 )
 ;
 return
