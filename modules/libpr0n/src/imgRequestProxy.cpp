@@ -578,6 +578,10 @@ mDeferNotifications
 (
 PR_FALSE
 )
+mSentStartContainer
+(
+PR_FALSE
+)
 {
 /
 *
@@ -2921,6 +2925,10 @@ mListener
 &
 !
 mCanceled
+&
+&
+!
+mSentStartContainer
 )
 {
 /
@@ -2956,6 +2964,10 @@ OnStartContainer
 this
 image
 )
+;
+mSentStartContainer
+=
+PR_TRUE
 ;
 }
 }
