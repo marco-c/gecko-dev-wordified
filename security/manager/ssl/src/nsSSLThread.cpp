@@ -3500,7 +3500,7 @@ if
 si
 -
 >
-GetCanceled
+GetErrorCode
 (
 )
 )
@@ -4949,7 +4949,7 @@ if
 si
 -
 >
-GetCanceled
+GetErrorCode
 (
 )
 )
