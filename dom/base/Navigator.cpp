@@ -5793,7 +5793,7 @@ return
 mTelephony
 ;
 }
-nsIDOMMozVoicemail
+Voicemail
 *
 Navigator
 :

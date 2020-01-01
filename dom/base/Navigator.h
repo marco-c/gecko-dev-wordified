@@ -225,9 +225,6 @@ class
 nsIDOMMozMobileConnection
 ;
 class
-nsIDOMMozVoicemail
-;
-class
 nsIDOMMozIccManager
 ;
 #
@@ -535,6 +532,14 @@ endif
 /
 /
 MOZ_B2G_BT
+#
+ifdef
+MOZ_B2G_RIL
+class
+Voicemail
+;
+#
+endif
 namespace
 power
 {
@@ -1199,7 +1204,7 @@ ErrorResult
 aRv
 )
 ;
-nsIDOMMozVoicemail
+Voicemail
 *
 GetMozVoicemail
 (
@@ -1876,9 +1881,9 @@ Telephony
 >
 mTelephony
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMMozVoicemail
+Voicemail
 >
 mVoicemail
 ;
