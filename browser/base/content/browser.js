@@ -31055,7 +31055,11 @@ aURI
 .
 spec
 :
-BROWSER_NEW_TAB_URL
+"
+about
+:
+blank
+"
 ;
 /
 /
@@ -31316,7 +31320,11 @@ aURI
 .
 spec
 :
-BROWSER_NEW_TAB_URL
+"
+about
+:
+blank
+"
 {
 referrerURI
 :
