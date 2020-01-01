@@ -1314,15 +1314,12 @@ then
 attach
 our
 plugin
-nsCOMPtr
-<
 nsIContent
->
+*
 body
 =
-do_QueryInterface
+GetBodyContent
 (
-mBodyContent
 )
 ;
 if

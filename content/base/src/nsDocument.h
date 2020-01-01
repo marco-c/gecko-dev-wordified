@@ -2265,6 +2265,14 @@ aDocument
 )
 const
 ;
+virtual
+nsIContent
+*
+GetRootContentInternal
+(
+)
+const
+;
 /
 *
 *
