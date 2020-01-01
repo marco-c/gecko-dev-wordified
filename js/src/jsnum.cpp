@@ -5872,10 +5872,8 @@ JSDOUBLE_IS_NaN
 d
 )
 )
-{
 break
 ;
-}
 /
 *
 *
@@ -5930,8 +5928,6 @@ return
 0
 ;
 }
-else
-{
 *
 vp
 =
@@ -5942,7 +5938,6 @@ return
 .
 0
 ;
-}
 }
 if
 (
