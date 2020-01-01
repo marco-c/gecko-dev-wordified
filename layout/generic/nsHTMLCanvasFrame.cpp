@@ -1676,7 +1676,7 @@ height
 layer
 -
 >
-SetBaseTransform
+SetTransform
 (
 gfx3DMatrix
 :
