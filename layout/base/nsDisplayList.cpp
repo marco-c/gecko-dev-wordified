@@ -2469,13 +2469,12 @@ animation
 if
 (
 !
-nsDisplayTransform
-:
-:
-ShouldPrerenderTransformedContent
+aItem
+-
+>
+CanUseAsyncAnimations
 (
 aBuilder
-frame
 )
 )
 {
