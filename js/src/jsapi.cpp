@@ -29538,6 +29538,9 @@ JSScript
 *
 >
 script
+(
+NULL
+)
 ;
 /
 *
