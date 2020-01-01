@@ -1170,7 +1170,7 @@ mResult
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 Run
 (
 )
@@ -1258,7 +1258,7 @@ aError
 )
 {
 }
-nsresult
+NS_IMETHODIMP
 Run
 (
 )
