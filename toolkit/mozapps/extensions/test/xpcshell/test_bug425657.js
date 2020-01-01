@@ -470,7 +470,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function

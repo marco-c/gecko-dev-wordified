@@ -2116,7 +2116,7 @@ Addon
 to
 *
 /
-getAddon
+getAddonByID
 :
 function
 (

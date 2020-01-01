@@ -529,7 +529,7 @@ run_test_1
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function
@@ -581,7 +581,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function
@@ -655,7 +655,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function
@@ -734,7 +734,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function
@@ -813,7 +813,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function
@@ -899,7 +899,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function
@@ -1015,7 +1015,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function

@@ -179,7 +179,7 @@ null
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 gID
 function
@@ -313,7 +313,7 @@ isActive
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 gID
 function
@@ -444,7 +444,7 @@ isActive
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 gID
 function
