@@ -3404,7 +3404,7 @@ value
 :
 true
 }
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 nsDependentString

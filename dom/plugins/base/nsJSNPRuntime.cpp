@@ -10185,7 +10185,7 @@ NPP
 any
 more
 .
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

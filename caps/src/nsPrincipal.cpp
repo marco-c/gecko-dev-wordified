@@ -2454,7 +2454,7 @@ non
 chrome
 compartments
 .
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSPrincipals

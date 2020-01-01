@@ -14139,7 +14139,7 @@ internalized
 strings
 later
 .
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 rv

@@ -6439,7 +6439,7 @@ n
 )
 ;
 }
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest
@@ -6498,7 +6498,7 @@ n
 )
 ;
 }
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

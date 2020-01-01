@@ -1105,7 +1105,7 @@ America
 Chicago
 "
 }
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 /

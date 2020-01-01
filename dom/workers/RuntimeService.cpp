@@ -692,7 +692,7 @@ IsEmpty
 )
 {
 \
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 \
@@ -6008,7 +6008,7 @@ null
 "
 )
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

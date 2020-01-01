@@ -221,7 +221,7 @@ using
 mozilla
 :
 :
-SafeAutoJSContext
+AutoSafeJSContext
 ;
 NS_IMPL_CYCLE_COLLECTION_1
 (
@@ -574,7 +574,7 @@ SetIsVoid
 true
 )
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 {
@@ -757,7 +757,7 @@ isOn
 NS_OK
 )
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 {

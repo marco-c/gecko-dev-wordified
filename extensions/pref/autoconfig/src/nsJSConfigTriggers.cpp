@@ -240,7 +240,7 @@ using
 mozilla
 :
 :
-SafeAutoJSContext
+AutoSafeJSContext
 ;
 /
 /
@@ -428,7 +428,7 @@ Create
 a
 sandbox
 .
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest
@@ -538,7 +538,7 @@ if
 autoconfigSb
 )
 {
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest
@@ -758,7 +758,7 @@ return
 rv
 ;
 }
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

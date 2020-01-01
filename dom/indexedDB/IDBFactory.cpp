@@ -1267,7 +1267,7 @@ principal
 NS_ERROR_FAILURE
 )
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

@@ -5222,7 +5222,7 @@ if
 sCachedScripts
 )
 {
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

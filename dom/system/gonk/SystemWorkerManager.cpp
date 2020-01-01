@@ -1924,7 +1924,7 @@ shutdown
 mozilla
 :
 :
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 nsresult

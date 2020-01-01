@@ -1820,7 +1820,7 @@ return
 nullptr
 ;
 }
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JS

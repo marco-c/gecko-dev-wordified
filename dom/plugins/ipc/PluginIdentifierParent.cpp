@@ -174,7 +174,7 @@ jsid
 if
 necessary
 .
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JS

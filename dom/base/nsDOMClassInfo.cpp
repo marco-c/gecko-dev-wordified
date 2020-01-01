@@ -7812,7 +7812,7 @@ NS_ADDREF
 sSecMan
 )
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 DOM_CLASSINFO_MAP_BEGIN

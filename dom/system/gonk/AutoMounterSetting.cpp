@@ -716,7 +716,7 @@ true
 mozilla
 :
 :
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 nsDependentString

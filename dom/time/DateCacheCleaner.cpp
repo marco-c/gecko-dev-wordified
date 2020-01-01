@@ -191,7 +191,7 @@ aSystemTimezoneChangeInfo
 mozilla
 :
 :
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

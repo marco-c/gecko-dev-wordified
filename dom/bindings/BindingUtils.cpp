@@ -7786,7 +7786,7 @@ Value
 aVal
 )
 {
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JS
