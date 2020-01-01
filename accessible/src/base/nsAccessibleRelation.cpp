@@ -487,7 +487,6 @@ NS_IMPL_ISUPPORTS1
 nsAccessibleRelation
 nsIAccessibleRelation
 )
-;
 /
 /
 nsIAccessibleRelation
