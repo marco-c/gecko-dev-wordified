@@ -1935,6 +1935,9 @@ finalizeObject
 this
 )
 ;
+#
+ifdef
+DEBUG
 if
 (
 !
@@ -1971,6 +1974,9 @@ assertValidThread
 (
 )
 ;
+}
+#
+endif
 /
 *
 *
@@ -2044,7 +2050,6 @@ fop
 this
 )
 ;
-}
 finish
 (
 fop
