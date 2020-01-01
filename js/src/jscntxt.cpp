@@ -5932,6 +5932,10 @@ globalObject
 (
 NULL
 )
+sharpObjectMap
+(
+this
+)
 argumentFormatMap
 (
 NULL
