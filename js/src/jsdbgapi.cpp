@@ -3117,6 +3117,8 @@ script
 -
 >
 principals
+(
+)
 ;
 }
 JS_PUBLIC_API
@@ -5707,6 +5709,8 @@ script
 -
 >
 principals
+(
+)
 ;
 if
 (
