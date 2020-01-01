@@ -766,7 +766,7 @@ if
 !
 moreInterrupts
 )
-js_ExitTraceVisState
+ExitTraceVisState
 (
 cx
 R_ABORT

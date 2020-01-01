@@ -13703,7 +13703,10 @@ JS_FRIEND_API
 (
 void
 )
-js_StoreTraceVisState
+js
+:
+:
+StoreTraceVisState
 (
 JSContext
 *

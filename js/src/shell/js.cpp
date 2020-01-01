@@ -778,6 +778,10 @@ h
 >
 #
 endif
+using
+namespace
+js
+;
 typedef
 enum
 JSShellExitCode
@@ -4713,7 +4717,7 @@ usage
 (
 )
 ;
-JS_StartTraceVis
+StartTraceVis
 (
 argv
 [
@@ -20658,7 +20662,7 @@ JS_FS
 "
 startTraceVis
 "
-js_StartTraceVis
+StartTraceVisNative
 1
 0
 0
@@ -20668,7 +20672,7 @@ JS_FS
 "
 stopTraceVis
 "
-js_StopTraceVis
+StopTraceVisNative
 0
 0
 0
