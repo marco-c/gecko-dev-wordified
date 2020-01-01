@@ -525,15 +525,6 @@ isIndexPrompt
 )
 ;
 static
-PRBool
-localEqualsHtmlIgnoreAsciiCase
-(
-nsIAtom
-*
-name
-)
-;
-static
 void
 initializeStatics
 (
