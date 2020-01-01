@@ -1133,9 +1133,11 @@ keyword
 }
 )
 ;
-setTimeout
-(
+}
+editBookmarkPanelShown
+:
 function
+PCH__doShowEditBookmarkPanel
 (
 )
 {
@@ -1163,10 +1165,6 @@ editor
 .
 selectAll
 (
-)
-;
-}
-0
 )
 ;
 }
