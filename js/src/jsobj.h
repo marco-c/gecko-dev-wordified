@@ -4456,6 +4456,12 @@ JSProperty
 *
 *
 propp
+JSPropCacheEntry
+*
+*
+entryp
+=
+NULL
 )
 ;
 /
