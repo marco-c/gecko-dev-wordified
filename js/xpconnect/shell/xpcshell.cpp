@@ -10483,7 +10483,6 @@ NS_GET_IID
 nsITestXPCFunctionCallback
 )
 translator
-nullptr
 )
 ;
 #
