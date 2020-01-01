@@ -1237,6 +1237,11 @@ mChannelWasOpened
 :
 1
 ;
+PRUint32
+mDataStarted
+:
+1
+;
 PRInt32
 mMaxMessageSize
 ;
