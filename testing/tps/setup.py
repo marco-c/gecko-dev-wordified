@@ -65,7 +65,7 @@ version
 '
 0
 .
-3
+4
 '
 deps
 =
@@ -114,26 +114,6 @@ mozinstall
 4
 '
         
-'
-mozautolog
->
-=
-0
-.
-2
-.
-4
-'
-'
-mozautoeslib
->
-=
-0
-.
-1
-.
-1
-'
 '
 httplib2
 >

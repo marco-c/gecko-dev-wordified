@@ -76,9 +76,6 @@ extensionDir
 builddata
 =
 None
-emailresults
-=
-False
                
 testfile
 =
@@ -92,10 +89,6 @@ None
 config
 =
 None
-               
-autolog
-=
-False
 )
 :
     
@@ -123,12 +116,6 @@ builddata
     
 self
 .
-emailresults
-=
-emailresults
-    
-self
-.
 testfile
 =
 testfile
@@ -150,12 +137,6 @@ self
 config
 =
 config
-    
-self
-.
-autolog
-=
-autolog
     
 Thread
 .
@@ -189,12 +170,6 @@ TPSTestRunner
 self
 .
 extensionDir
-                        
-emailresults
-=
-self
-.
-emailresults
                         
 testfile
 =
@@ -234,12 +209,6 @@ rlock
 mobile
 =
 False
-                        
-autolog
-=
-self
-.
-autolog
 )
     
 TPS
@@ -307,12 +276,6 @@ self
 .
 extensionDir
                                
-emailresults
-=
-self
-.
-emailresults
-                               
 testfile
 =
 self
@@ -344,12 +307,6 @@ rlock
 mobile
 =
 True
-                               
-autolog
-=
-self
-.
-autolog
 )
     
 TPS_mobile
@@ -462,12 +419,6 @@ self
 .
 extensionDir
                                   
-emailresults
-=
-self
-.
-emailresults
-                                  
 testfile
 =
 self
@@ -497,7 +448,8 @@ rlock
 mobile
 =
 False
-                                  
+)
+#
 autolog
 =
 self
