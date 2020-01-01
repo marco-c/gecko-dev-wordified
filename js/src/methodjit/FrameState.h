@@ -5542,6 +5542,17 @@ assertValidRegisterState
 const
 ;
 #
+else
+inline
+void
+assertValidRegisterState
+(
+)
+const
+{
+}
+;
+#
 endif
 /
 /
