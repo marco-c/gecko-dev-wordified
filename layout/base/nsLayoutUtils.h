@@ -2985,6 +2985,17 @@ event
 .
 *
 param
+aPresContext
+only
+check
+popups
+within
+aPresContext
+or
+a
+descendant
+*
+param
 aEvent
 the
 event
@@ -3020,6 +3031,9 @@ nsIFrame
 *
 GetPopupFrameForEventCoordinates
 (
+nsPresContext
+*
+aPresContext
 const
 nsEvent
 *
