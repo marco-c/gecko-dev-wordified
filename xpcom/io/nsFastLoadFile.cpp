@@ -10448,6 +10448,14 @@ Open
 nsresult
 rv
 ;
+if
+(
+!
+mSeekableOutput
+)
+return
+NS_ERROR_FAILURE
+;
 rv
 =
 mSeekableOutput
