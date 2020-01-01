@@ -1135,7 +1135,7 @@ aMallocSizeOf
 const
 ;
 void
-UnmarkGrayJSListeners
+MarkForCC
 (
 )
 ;
