@@ -1816,6 +1816,8 @@ Bug
 .
 /
 /
+/
+/
 if
 (
 JS_IsGCMarkingTracer
@@ -1823,6 +1825,8 @@ JS_IsGCMarkingTracer
 trc
 )
 )
+/
+/
 nsCycleCollector_suspectCurrent
 (
 wrapper
