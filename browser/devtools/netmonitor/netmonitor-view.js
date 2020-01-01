@@ -1648,6 +1648,14 @@ this
 .
 node
 .
+maintainSelectionVisible
+=
+false
+;
+this
+.
+node
+.
 addEventListener
 (
 "
