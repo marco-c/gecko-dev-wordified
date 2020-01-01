@@ -20522,7 +20522,7 @@ modifiers
 =
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;
