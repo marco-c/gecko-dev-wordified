@@ -918,17 +918,6 @@ aRequest
 }
 this
 .
-stopContainer
-=
-function
-stopContainer
-(
-aRequest
-)
-{
-}
-this
-.
 stopDecode
 =
 function

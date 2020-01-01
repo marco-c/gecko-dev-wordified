@@ -486,7 +486,7 @@ image
 )
 ;
 nsresult
-OnStopContainer
+OnStopDecode
 (
 imgIRequest
 *
@@ -494,7 +494,7 @@ request
 )
 ;
 nsresult
-OnStopDecode
+OnStopRequest
 (
 imgIRequest
 *

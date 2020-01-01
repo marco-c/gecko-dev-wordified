@@ -438,16 +438,6 @@ listener
 .
 state
 &
-STOP_CONTAINER
-0
-)
-;
-do_check_neq
-(
-listener
-.
-state
-&
 STOP_DECODE
 0
 )

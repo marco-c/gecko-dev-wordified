@@ -38700,7 +38700,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_DECODE
+STOP_REQUEST
 |
 |
 aType
