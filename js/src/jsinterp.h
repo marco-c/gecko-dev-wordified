@@ -661,9 +661,8 @@ ComputeThis
 JSContext
 *
 cx
-StackFrame
-*
-fp
+AbstractFramePtr
+frame
 )
 ;
 enum
@@ -1188,8 +1187,7 @@ Value
 thisv
 ExecuteType
 type
-StackFrame
-*
+AbstractFramePtr
 evalInFrame
 Value
 *

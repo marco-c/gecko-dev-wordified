@@ -618,9 +618,7 @@ the
 parser
 *
 /
-StackFrame
-*
-const
+AbstractFramePtr
 callerFrame
 ;
 /
@@ -958,8 +956,7 @@ SharedContext
 sc
 HandleScript
 script
-StackFrame
-*
+AbstractFramePtr
 callerFrame
 bool
 hasGlobalScope

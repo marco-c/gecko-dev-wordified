@@ -3358,6 +3358,9 @@ ScopeIterKey
 :
 frame_
 (
+NullFramePtr
+(
+)
 )
 cur_
 (

@@ -5039,9 +5039,8 @@ Env
 env
 HandleValue
 thisv
-StackFrame
-*
-fp
+AbstractFramePtr
+frame
 StableCharPtr
 chars
 unsigned

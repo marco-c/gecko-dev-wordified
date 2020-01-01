@@ -29396,7 +29396,9 @@ CompileScript
 (
 cx
 obj
-NULL
+NullFramePtr
+(
+)
 options
 StableCharPtr
 (
@@ -31571,7 +31573,9 @@ CompileScript
 (
 cx
 obj
-NULL
+NullFramePtr
+(
+)
 options
 StableCharPtr
 (

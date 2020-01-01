@@ -135,8 +135,7 @@ JSContext
 cx
 HandleObject
 scopeChain
-StackFrame
-*
+AbstractFramePtr
 callerFrame
 const
 CompileOptions
