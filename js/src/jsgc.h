@@ -5253,7 +5253,7 @@ JS_FRIEND_API
 (
 int64_t
 )
-countDecommittedArenas
+countCleanDecommittedArenas
 (
 JSRuntime
 *
