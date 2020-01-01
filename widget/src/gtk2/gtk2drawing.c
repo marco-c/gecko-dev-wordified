@@ -2138,13 +2138,15 @@ ensure_tree_view_widget
 )
 ;
 /
-/
+*
 Create
 and
 append
 our
 three
 columns
+*
+/
 firstTreeViewColumn
 =
 gtk_tree_view_column_new
@@ -2215,7 +2217,7 @@ lastTreeViewColumn
 )
 ;
 /
-/
+*
 Use
 the
 middle
@@ -2226,6 +2228,8 @@ header
 for
 our
 button
+*
+/
 gTreeHeaderCellWidget
 =
 middleTreeViewColumn
