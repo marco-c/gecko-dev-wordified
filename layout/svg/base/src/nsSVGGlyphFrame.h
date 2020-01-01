@@ -625,9 +625,6 @@ aSelectStyle
 )
 const
 ;
-#
-ifdef
-DEBUG
 NS_IMETHOD
 Init
 (
@@ -642,8 +639,6 @@ nsIFrame
 aPrevInFlow
 )
 ;
-#
-endif
 /
 *
 *

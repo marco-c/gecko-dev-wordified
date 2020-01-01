@@ -2086,9 +2086,6 @@ return
 rv
 ;
 }
-#
-ifdef
-DEBUG
 NS_IMETHODIMP
 nsSVGGlyphFrame
 :
@@ -2106,6 +2103,9 @@ nsIFrame
 aPrevInFlow
 )
 {
+#
+ifdef
+DEBUG
 NS_ASSERTION
 (
 aParent
@@ -2187,6 +2187,13 @@ element
 "
 )
 ;
+#
+endif
+/
+*
+DEBUG
+*
+/
 if
 (
 !
@@ -2218,13 +2225,6 @@ aPrevInFlow
 )
 ;
 }
-#
-endif
-/
-*
-DEBUG
-*
-/
 nsIAtom
 *
 nsSVGGlyphFrame
