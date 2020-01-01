@@ -3501,6 +3501,9 @@ if
 JS_LIKELY
 (
 obj
+!
+=
+NULL
 )
 &
 &
