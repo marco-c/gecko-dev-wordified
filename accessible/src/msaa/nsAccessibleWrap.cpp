@@ -2346,17 +2346,6 @@ name
 return
 E_FAIL
 ;
-if
-(
-name
-.
-IsEmpty
-(
-)
-)
-return
-S_FALSE
-;
 *
 pszName
 =
