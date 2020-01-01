@@ -293,6 +293,15 @@ true
 ;
 }
 bool
+GetFirstServerHelloReceived
+(
+)
+{
+return
+mFirstServerHelloReceived
+;
+}
+bool
 HandshakeTimeout
 (
 )
@@ -327,6 +336,8 @@ length
 void
 SetHandshakeCompleted
 (
+bool
+aResumedSession
 )
 ;
 bool
