@@ -515,10 +515,6 @@ appearance
 :
 textfield
 ;
-cursor
-:
-text
-;
 margin
 -
 right
@@ -618,12 +614,5 @@ color
 moz
 -
 Field
-;
-color
-:
--
-moz
--
-FieldText
 ;
 }
