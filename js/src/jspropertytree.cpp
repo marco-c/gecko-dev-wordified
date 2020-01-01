@@ -3134,6 +3134,9 @@ DEBUG
 *
 /
 }
+#
+ifdef
+DEBUG
 void
 js
 :
@@ -3148,9 +3151,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-DEBUG
 JSRuntime
 *
 rt
@@ -3383,6 +3383,6 @@ dumpfp
 ;
 }
 }
+}
 #
 endif
-}

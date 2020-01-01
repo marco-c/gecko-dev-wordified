@@ -6194,6 +6194,9 @@ Class
 clasp
 )
 {
+#
+ifdef
+JS_THREADSAFE
 JS_ASSERT
 (
 kind
@@ -6306,6 +6309,8 @@ JSCLASS_CONCURRENT_FINALIZER
 return
 true
 ;
+#
+endif
 return
 false
 ;
