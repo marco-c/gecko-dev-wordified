@@ -1292,6 +1292,15 @@ new
 nsDOMCSSAttributeDeclaration
 (
 this
+#
+ifdef
+MOZ_SMIL
+PR_FALSE
+#
+endif
+/
+/
+MOZ_SMIL
 )
 ;
 NS_ENSURE_TRUE
