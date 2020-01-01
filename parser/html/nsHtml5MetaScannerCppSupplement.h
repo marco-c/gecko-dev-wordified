@@ -711,7 +711,7 @@ mCharset
 Assign
 (
 "
-utf
+UTF
 -
 8
 "
