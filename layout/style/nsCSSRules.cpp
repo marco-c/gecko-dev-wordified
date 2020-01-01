@@ -4530,6 +4530,8 @@ domain
 "
 )
 ;
+break
+;
 case
 eRegExp
 :
