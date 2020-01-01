@@ -583,6 +583,9 @@ mUpdatedRect
 PRPackedBool
 mGLBufferIsPremultiplied
 ;
+PRPackedBool
+mNeedsYFlip
+;
 }
 ;
 }
