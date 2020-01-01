@@ -5370,7 +5370,7 @@ const
 size_t
 numProps
 =
-8
+7
 ;
 NS_ABORT_IF_FALSE
 (

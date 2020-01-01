@@ -872,16 +872,6 @@ iteration
 -
 count
 "
-"
--
-moz
--
-animation
--
-play
--
-state
-"
 ]
 initial_values
 :
@@ -893,7 +883,6 @@ none
 0s
 ease
 normal
-running
 1
 .
 0
@@ -909,9 +898,6 @@ ease
 "
 "
 normal
-"
-"
-running
 "
 "
 1
