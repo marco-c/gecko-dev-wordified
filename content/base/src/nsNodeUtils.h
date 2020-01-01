@@ -1386,14 +1386,6 @@ aNodesWithProperties
 nsnull
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 nsMutationGuard
 :
 :
@@ -1401,7 +1393,6 @@ DidMutate
 (
 )
 ;
-}
 return
 rv
 ;
