@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIDOMSVGForeignObjectElem
-.
-h
-"
-#
-include
-"
 nsSVGLength2
 .
 h
@@ -154,7 +147,7 @@ MOZ_FINAL
 public
 SVGGraphicsElement
 public
-nsIDOMSVGForeignObjectElement
+nsIDOMSVGElement
 {
 friend
 class
@@ -216,7 +209,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGFOREIGNOBJECTELEMENT
 /
 /
 xxx
@@ -292,13 +284,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
