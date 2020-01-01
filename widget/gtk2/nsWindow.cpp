@@ -31919,7 +31919,7 @@ n
 ;
 mRootAccessible
 =
-GetAccessible
+GetRootAccessible
 (
 )
 ;
@@ -31997,7 +31997,7 @@ Accessible
 *
 acc
 =
-GetAccessible
+GetRootAccessible
 (
 )
 ;

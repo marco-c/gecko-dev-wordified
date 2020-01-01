@@ -8965,6 +8965,9 @@ uniqueID
 /
 ARIA
 document
+and
+menu
+popups
 .
 if
 (
@@ -8977,6 +8980,11 @@ roles
 :
 :
 DOCUMENT
+|
+|
+IsMenuPopup
+(
+)
 )
 {
 DocAccessible
@@ -9012,11 +9020,6 @@ ID
 is
 a
 child
-of
-ARIA
-/
-/
-document
 .
 Accessible
 *

@@ -1382,7 +1382,7 @@ a11y
 :
 Accessible
 *
-GetAccessible
+GetRootAccessible
 (
 )
 ;

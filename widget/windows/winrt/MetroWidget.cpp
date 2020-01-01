@@ -5980,7 +5980,7 @@ Accessible
 MetroWidget
 :
 :
-GetRootAccessible
+GetAccessible
 (
 )
 {
@@ -6138,7 +6138,7 @@ return
 nullptr
 ;
 return
-GetAccessible
+GetRootAccessible
 (
 )
 ;
