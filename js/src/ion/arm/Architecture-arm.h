@@ -1262,13 +1262,6 @@ r3
 static
 const
 uint32
-JSCCallMask
-=
-JSCallMask
-;
-static
-const
-uint32
 AllocatableMask
 =
 AllMask
