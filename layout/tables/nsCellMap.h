@@ -1379,7 +1379,7 @@ ExpandZeroColSpans
 )
 ;
 void
-SetNotTopStart
+ResetTopStart
 (
 PRUint8
 aSide

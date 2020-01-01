@@ -5520,7 +5520,7 @@ void
 nsTableCellMap
 :
 :
-SetNotTopStart
+ResetTopStart
 (
 PRUint8
 aSide
@@ -5569,6 +5569,9 @@ aRowIndex
 +
 +
 ;
+/
+/
+FALLTHROUGH
 case
 NS_SIDE_TOP
 :
@@ -5686,6 +5689,9 @@ aColIndex
 +
 +
 ;
+/
+/
+FALLTHROUGH
 case
 NS_SIDE_LEFT
 :

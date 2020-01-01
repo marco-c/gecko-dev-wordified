@@ -39105,7 +39105,7 @@ mCellMap
 tableCellMap
 -
 >
-SetNotTopStart
+ResetTopStart
 (
 NS_SIDE_BOTTOM
 *
