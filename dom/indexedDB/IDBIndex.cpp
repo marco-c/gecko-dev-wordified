@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
