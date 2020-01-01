@@ -1369,8 +1369,6 @@ msg
 =
 [
 "
-no
-information
 "
 ]
 ;
