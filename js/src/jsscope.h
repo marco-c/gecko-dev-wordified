@@ -2937,6 +2937,16 @@ JSContext
 cx
 )
 ;
+inline
+void
+updateFlags
+(
+const
+JSScopeProperty
+*
+sprop
+)
+;
 void
 initMinimal
 (

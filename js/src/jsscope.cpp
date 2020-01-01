@@ -6919,6 +6919,11 @@ dprop
 childp
 )
 ;
+updateFlags
+(
+dprop
+)
+;
 return
 dprop
 ;
