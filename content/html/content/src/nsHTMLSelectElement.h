@@ -835,12 +835,7 @@ mElements
 SafeElementAt
 (
 aIndex
-nsRefPtr
-<
-nsHTMLOptionElement
->
-(
-)
+nsnull
 )
 ;
 }
