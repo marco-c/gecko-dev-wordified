@@ -2277,6 +2277,14 @@ acc
 ;
 }
 return
-NS_OK
+nsRelUtils
+:
+:
+AddTarget
+(
+aRelationType
+aRelation
+foundTabAcc
+)
 ;
 }
