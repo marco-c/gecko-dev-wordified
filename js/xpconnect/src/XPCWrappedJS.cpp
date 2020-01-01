@@ -3595,9 +3595,6 @@ nsXPCWrappedJS
 :
 SystemIsBeingShutDown
 (
-JSRuntime
-*
-rt
 )
 {
 /
@@ -3739,7 +3736,6 @@ mNext
 >
 SystemIsBeingShutDown
 (
-rt
 )
 ;
 }

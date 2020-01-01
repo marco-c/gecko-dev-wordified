@@ -17597,9 +17597,6 @@ nullptr
 void
 SystemIsBeingShutDown
 (
-JSRuntime
-*
-rt
 )
 ;
 /
