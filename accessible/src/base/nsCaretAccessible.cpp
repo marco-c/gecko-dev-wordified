@@ -1955,16 +1955,12 @@ nsRefPtr
 nsCaret
 >
 caret
-;
+=
 presShell
 -
 >
 GetCaret
 (
-getter_AddRefs
-(
-caret
-)
 )
 ;
 NS_ENSURE_TRUE
