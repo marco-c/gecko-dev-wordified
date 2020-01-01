@@ -2784,7 +2784,11 @@ JSContext
 cx
 JSObject
 *
-obj
+/
+*
+unused
+*
+/
 const
 jsval
 &
@@ -5021,7 +5025,11 @@ JSContext
 cx
 JSObject
 *
-obj
+/
+*
+unused
+*
+/
 const
 jsval
 &
