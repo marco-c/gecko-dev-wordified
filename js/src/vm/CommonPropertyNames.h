@@ -531,6 +531,15 @@ get
 \
 macro
 (
+getInternals
+getInternals
+"
+getInternals
+"
+)
+\
+macro
+(
 getOwnPropertyDescriptor
 getOwnPropertyDescriptor
 "
