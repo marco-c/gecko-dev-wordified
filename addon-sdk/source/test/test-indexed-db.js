@@ -111,7 +111,6 @@ DOMException
 IDBCursor
 IDBTransaction
 IDBOpenDBRequest
-IDBVersionChangeEvent
 IDBDatabase
 IDBIndex
 IDBObjectStore
@@ -220,7 +219,6 @@ IDBCursor
 IDBTransaction
 IDBOpenDBRequest
 IDBOpenDBRequest
-IDBVersionChangeEvent
 IDBDatabase
 IDBIndex
 IDBObjectStore
