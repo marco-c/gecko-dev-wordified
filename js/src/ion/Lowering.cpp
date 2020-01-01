@@ -3238,7 +3238,7 @@ temp1
 if
 (
 !
-useBox
+useBoxAtStart
 (
 lir
 LIsNullOrLikeUndefinedAndBranch
