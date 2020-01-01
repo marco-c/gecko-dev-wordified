@@ -1166,14 +1166,9 @@ trcinfo
 \
 {
 name
+JS_DATA_TO_FUNC_PTR
 (
 JSNative
-)
-(
-void
-*
-)
-(
 trcinfo
 )
 nargs
