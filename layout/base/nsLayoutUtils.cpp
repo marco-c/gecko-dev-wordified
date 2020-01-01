@@ -787,6 +787,9 @@ FrameMetrics
 :
 START_SCROLL_ID
 ;
+#
+ifdef
+MOZ_FLEXBOX
 /
 /
 These
@@ -838,6 +841,11 @@ sAreFlexKeywordIndicesInitialized
 =
 false
 ;
+#
+endif
+/
+/
+MOZ_FLEXBOX
 typedef
 nsDataHashtable
 <
