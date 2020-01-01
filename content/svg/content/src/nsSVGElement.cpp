@@ -4663,6 +4663,14 @@ if
 (
 mContentStyleRule
 )
+{
+mContentStyleRule
+-
+>
+RuleMatched
+(
+)
+;
 aRuleWalker
 -
 >
@@ -4671,6 +4679,7 @@ Forward
 mContentStyleRule
 )
 ;
+}
 return
 NS_OK
 ;
