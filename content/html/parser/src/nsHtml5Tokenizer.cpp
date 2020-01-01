@@ -2250,8 +2250,6 @@ state
 case
 NS_HTML5TOKENIZER_DATA
 :
-dataloop
-:
 for
 (
 ;
@@ -2354,8 +2352,6 @@ dataloop_end
 ;
 case
 NS_HTML5TOKENIZER_TAG_OPEN
-:
-tagopenloop
 :
 for
 (
@@ -2575,8 +2571,6 @@ tagopenloop_end
 case
 NS_HTML5TOKENIZER_TAG_NAME
 :
-tagnameloop
-:
 for
 (
 ;
@@ -2736,8 +2730,6 @@ tagnameloop_end
 ;
 case
 NS_HTML5TOKENIZER_BEFORE_ATTRIBUTE_NAME
-:
-beforeattributenameloop
 :
 for
 (
@@ -2924,8 +2916,6 @@ beforeattributenameloop_end
 ;
 case
 NS_HTML5TOKENIZER_ATTRIBUTE_NAME
-:
-attributenameloop
 :
 for
 (
@@ -3117,8 +3107,6 @@ attributenameloop_end
 case
 NS_HTML5TOKENIZER_BEFORE_ATTRIBUTE_VALUE
 :
-beforeattributevalueloop
-:
 for
 (
 ;
@@ -3277,8 +3265,6 @@ beforeattributevalueloop_end
 case
 NS_HTML5TOKENIZER_ATTRIBUTE_VALUE_DOUBLE_QUOTED
 :
-attributevaluedoublequotedloop
-:
 for
 (
 ;
@@ -3387,8 +3373,6 @@ attributevaluedoublequotedloop_end
 ;
 case
 NS_HTML5TOKENIZER_AFTER_ATTRIBUTE_VALUE_QUOTED
-:
-afterattributevaluequotedloop
 :
 for
 (
@@ -4025,8 +4009,6 @@ stateloop
 case
 NS_HTML5TOKENIZER_BOGUS_COMMENT
 :
-boguscommentloop
-:
 for
 (
 ;
@@ -4190,13 +4172,8 @@ stateloop
 ;
 }
 }
-boguscommenthyphenloop_end
-:
-;
 case
 NS_HTML5TOKENIZER_MARKUP_DECLARATION_OPEN
-:
-markupdeclarationopenloop
 :
 for
 (
@@ -4327,8 +4304,6 @@ markupdeclarationopenloop_end
 case
 NS_HTML5TOKENIZER_MARKUP_DECLARATION_HYPHEN
 :
-markupdeclarationhyphenloop
-:
 for
 (
 ;
@@ -4391,8 +4366,6 @@ markupdeclarationhyphenloop_end
 ;
 case
 NS_HTML5TOKENIZER_COMMENT_START
-:
-commentstartloop
 :
 for
 (
@@ -4476,8 +4449,6 @@ commentstartloop_end
 case
 NS_HTML5TOKENIZER_COMMENT
 :
-commentloop
-:
 for
 (
 ;
@@ -4537,8 +4508,6 @@ commentloop_end
 ;
 case
 NS_HTML5TOKENIZER_COMMENT_END_DASH
-:
-commentenddashloop
 :
 for
 (
@@ -4751,8 +4720,6 @@ stateloop
 case
 NS_HTML5TOKENIZER_MARKUP_DECLARATION_OCTYPE
 :
-markupdeclarationdoctypeloop
-:
 for
 (
 ;
@@ -4878,8 +4845,6 @@ markupdeclarationdoctypeloop_end
 case
 NS_HTML5TOKENIZER_DOCTYPE
 :
-doctypeloop
-:
 for
 (
 ;
@@ -4980,8 +4945,6 @@ doctypeloop_end
 ;
 case
 NS_HTML5TOKENIZER_BEFORE_DOCTYPE_NAME
-:
-beforedoctypenameloop
 :
 for
 (
@@ -5100,8 +5063,6 @@ beforedoctypenameloop_end
 case
 NS_HTML5TOKENIZER_DOCTYPE_NAME
 :
-doctypenameloop
-:
 for
 (
 ;
@@ -5210,8 +5171,6 @@ doctypenameloop_end
 ;
 case
 NS_HTML5TOKENIZER_AFTER_DOCTYPE_NAME
-:
-afterdoctypenameloop
 :
 for
 (
@@ -5355,8 +5314,6 @@ afterdoctypenameloop_end
 case
 NS_HTML5TOKENIZER_DOCTYPE_UBLIC
 :
-doctypeublicloop
-:
 for
 (
 ;
@@ -5477,8 +5434,6 @@ doctypeublicloop_end
 ;
 case
 NS_HTML5TOKENIZER_BEFORE_DOCTYPE_PUBLIC_IDENTIFIER
-:
-beforedoctypepublicidentifierloop
 :
 for
 (
@@ -5627,8 +5582,6 @@ beforedoctypepublicidentifierloop_end
 case
 NS_HTML5TOKENIZER_DOCTYPE_PUBLIC_IDENTIFIER_DOUBLE_QUOTED
 :
-doctypepublicidentifierdoublequotedloop
-:
 for
 (
 ;
@@ -5721,8 +5674,6 @@ doctypepublicidentifierdoublequotedloop_end
 ;
 case
 NS_HTML5TOKENIZER_AFTER_DOCTYPE_PUBLIC_IDENTIFIER
-:
-afterdoctypepublicidentifierloop
 :
 for
 (
@@ -5858,8 +5809,6 @@ afterdoctypepublicidentifierloop_end
 case
 NS_HTML5TOKENIZER_DOCTYPE_SYSTEM_IDENTIFIER_DOUBLE_QUOTED
 :
-doctypesystemidentifierdoublequotedloop
-:
 for
 (
 ;
@@ -5947,13 +5896,8 @@ continue
 ;
 }
 }
-doctypesystemidentifierdoublequotedloop_end
-:
-;
 case
 NS_HTML5TOKENIZER_AFTER_DOCTYPE_SYSTEM_IDENTIFIER
-:
-afterdoctypesystemidentifierloop
 :
 for
 (
@@ -6132,8 +6076,6 @@ continue
 case
 NS_HTML5TOKENIZER_DOCTYPE_YSTEM
 :
-doctypeystemloop
-:
 for
 (
 ;
@@ -6255,8 +6197,6 @@ doctypeystemloop_end
 ;
 case
 NS_HTML5TOKENIZER_BEFORE_DOCTYPE_SYSTEM_IDENTIFIER
-:
-beforedoctypesystemidentifierloop
 :
 for
 (
@@ -6681,8 +6621,6 @@ break
 case
 NS_HTML5TOKENIZER_CDATA_SECTION
 :
-cdatasectionloop
-:
 for
 (
 ;
@@ -6749,8 +6687,6 @@ cdatasectionloop_end
 ;
 case
 NS_HTML5TOKENIZER_CDATA_RSQB
-:
-cdatarsqb
 :
 for
 (
@@ -6899,8 +6835,6 @@ stateloop
 }
 case
 NS_HTML5TOKENIZER_ATTRIBUTE_VALUE_SINGLE_QUOTED
-:
-attributevaluesinglequotedloop
 :
 for
 (
@@ -7192,8 +7126,6 @@ PR_TRUE
 case
 NS_HTML5TOKENIZER_CHARACTER_REFERENCE_LOOP
 :
-outer
-:
 for
 (
 ;
@@ -7238,8 +7170,6 @@ entCol
 +
 +
 ;
-hiloop
-:
 for
 (
 ;
@@ -7330,8 +7260,6 @@ hiloop_end
 hiloop_end
 :
 ;
-loloop
-:
 for
 (
 ;
@@ -7841,8 +7769,6 @@ PR_TRUE
 }
 case
 NS_HTML5TOKENIZER_DECIMAL_NRC_LOOP
-:
-decimalloop
 :
 for
 (
@@ -8457,8 +8383,6 @@ stateloop
 case
 NS_HTML5TOKENIZER_PLAINTEXT
 :
-plaintextloop
-:
 for
 (
 ;
@@ -8504,13 +8428,8 @@ continue
 ;
 }
 }
-plaintextloop_end
-:
-;
 case
 NS_HTML5TOKENIZER_CDATA
-:
-cdataloop
 :
 for
 (
@@ -8582,8 +8501,6 @@ cdataloop_end
 ;
 case
 NS_HTML5TOKENIZER_TAG_OPEN_NON_PCDATA
-:
-tagopennonpcdataloop
 :
 for
 (
@@ -8706,8 +8623,6 @@ tagopennonpcdataloop_end
 case
 NS_HTML5TOKENIZER_ESCAPE_EXCLAMATION
 :
-escapeexclamationloop
-:
 for
 (
 ;
@@ -8767,8 +8682,6 @@ escapeexclamationloop_end
 case
 NS_HTML5TOKENIZER_ESCAPE_EXCLAMATION_HYPHEN
 :
-escapeexclamationhyphenloop
-:
 for
 (
 ;
@@ -8827,8 +8740,6 @@ escapeexclamationhyphenloop_end
 ;
 case
 NS_HTML5TOKENIZER_ESCAPE_HYPHEN_HYPHEN
-:
-escapehyphenhyphenloop
 :
 for
 (
@@ -8945,8 +8856,6 @@ escapeloop_end
 case
 NS_HTML5TOKENIZER_ESCAPE_HYPHEN
 :
-escapehyphenloop
-:
 for
 (
 ;
@@ -8996,9 +8905,6 @@ stateloop
 ;
 }
 }
-escapehyphenloop_end
-:
-;
 case
 NS_HTML5TOKENIZER_CLOSE_TAG_OPEN_NOT_PCDATA
 :
@@ -9395,8 +9301,6 @@ stateloop
 case
 NS_HTML5TOKENIZER_RCDATA
 :
-rcdataloop
-:
 for
 (
 ;
@@ -9494,9 +9398,6 @@ continue
 ;
 }
 }
-rcdataloop_end
-:
-;
 }
 }
 stateloop_end
@@ -10336,8 +10237,6 @@ continue
 case
 NS_HTML5TOKENIZER_CHARACTER_REFERENCE_LOOP
 :
-outer
-:
 for
 (
 ;
@@ -10356,8 +10255,6 @@ entCol
 +
 +
 ;
-hiloop
-:
 for
 (
 ;
@@ -10448,8 +10345,6 @@ hiloop_end
 hiloop_end
 :
 ;
-loloop
-:
 for
 (
 ;
