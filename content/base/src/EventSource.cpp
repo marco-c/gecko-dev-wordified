@@ -6836,8 +6836,17 @@ jsval
 JS
 :
 :
+Rooted
+<
+JS
+:
+:
 Value
+>
 jsData
+(
+cx
+)
 ;
 {
 JSString

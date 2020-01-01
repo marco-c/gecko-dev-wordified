@@ -2296,8 +2296,14 @@ aDeep
 nsNodeInfoManager
 *
 aNewNodeInfoManager
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aReparentScope
 nsCOMArray
 <

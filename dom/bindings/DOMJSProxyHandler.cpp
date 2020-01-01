@@ -720,10 +720,17 @@ expandoAndGeneration
 nullptr
 ;
 }
+JS
+:
+:
+Rooted
+<
 JSObject
 *
+>
 expando
-=
+(
+cx
 JS_NewObjectWithGivenProto
 (
 cx
@@ -735,6 +742,7 @@ js
 GetObjectParent
 (
 obj
+)
 )
 )
 ;

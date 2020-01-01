@@ -10743,8 +10743,13 @@ aData
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-&
+>
 aBlob
 )
 ;
