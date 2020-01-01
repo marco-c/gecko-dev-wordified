@@ -1572,7 +1572,7 @@ the
 sweep
 removed
 the
-ICCall_Scripted
+ICCall_Fallback
 stub
 NULL
 the
@@ -1595,7 +1595,7 @@ uint32_t
 ICStub
 :
 :
-Call_Scripted
+Call_Fallback
 )
 )
 )
