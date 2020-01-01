@@ -18377,13 +18377,11 @@ tab
 _tabViewTabItem
 )
 ;
-UI
-.
-setReorderTabItemsOnShow
-(
 groupItem
+.
+reorderTabsBasedOnTabItemOrder
+(
 )
-;
 }
 else
 {
