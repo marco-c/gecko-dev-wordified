@@ -3570,6 +3570,7 @@ curEl
 .
 scrollIntoView
 (
+false
 )
 ;
 }
