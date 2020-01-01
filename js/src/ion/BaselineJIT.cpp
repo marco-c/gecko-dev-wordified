@@ -345,6 +345,8 @@ BaselineScript
 :
 BaselineScript
 (
+uint32_t
+prologueOffset
 )
 :
 method_
@@ -356,6 +358,10 @@ fallbackStubSpace_
 )
 optimizedStubSpace_
 (
+)
+prologueOffset_
+(
+prologueOffset
 )
 active_
 (
@@ -1662,6 +1668,8 @@ New
 JSContext
 *
 cx
+uint32_t
+prologueOffset
 size_t
 icEntries
 size_t
@@ -1770,6 +1778,7 @@ script
 )
 BaselineScript
 (
+prologueOffset
 )
 ;
 size_t
