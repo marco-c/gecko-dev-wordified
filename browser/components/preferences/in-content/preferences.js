@@ -211,6 +211,12 @@ init
 (
 )
 ;
+gSyncPane
+.
+init
+(
+)
+;
 var
 initFinished
 =
