@@ -517,12 +517,9 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 nsAccessible
 virtual
-nsresult
-GetRoleInternal
-(
 PRUint32
-*
-aRole
+NativeRole
+(
 )
 ;
 /

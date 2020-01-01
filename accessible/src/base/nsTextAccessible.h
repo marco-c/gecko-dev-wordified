@@ -482,12 +482,9 @@ aShell
 /
 nsAccessible
 virtual
-nsresult
-GetRoleInternal
-(
 PRUint32
-*
-aRole
+NativeRole
+(
 )
 ;
 virtual
