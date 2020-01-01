@@ -17426,14 +17426,6 @@ mInDecoder
 =
 false
 ;
-if
-(
-!
-mDecoder
-)
-return
-NS_ERROR_FAILURE
-;
 CONTAINER_ENSURE_SUCCESS
 (
 mDecoder
