@@ -6557,7 +6557,7 @@ if
 firstUnused
 )
 return
-NULL
+false
 ;
 StackFrame
 *

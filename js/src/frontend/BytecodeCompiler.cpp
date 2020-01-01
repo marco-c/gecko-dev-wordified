@@ -1752,7 +1752,7 @@ init
 )
 )
 return
-NULL
+false
 ;
 BytecodeEmitter
 funbce

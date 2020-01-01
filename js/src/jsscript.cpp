@@ -800,7 +800,7 @@ if
 nbase
 )
 return
-NULL
+false
 ;
 StackShape
 child

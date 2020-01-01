@@ -7275,7 +7275,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-NULL
+false
 )
 ;
 AutoPendingProxyOperation
@@ -7323,7 +7323,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-NULL
+false
 )
 ;
 AutoPendingProxyOperation
@@ -7370,7 +7370,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-NULL
+false
 )
 ;
 AutoPendingProxyOperation

@@ -750,10 +750,6 @@ Debugger
 :
 FrameRange
 {
-JSContext
-*
-cx
-;
 StackFrame
 *
 fp
@@ -985,9 +981,6 @@ called
 /
 FrameRange
 (
-JSContext
-*
-cx
 StackFrame
 *
 fp
@@ -998,10 +991,6 @@ global
 NULL
 )
 :
-cx
-(
-cx
-)
 fp
 (
 fp
@@ -3322,7 +3311,6 @@ for
 FrameRange
 r
 (
-cx
 fp
 global
 )
@@ -3707,7 +3695,6 @@ for
 FrameRange
 r
 (
-cx
 fp
 global
 )
@@ -7840,7 +7827,6 @@ for
 FrameRange
 r
 (
-cx
 fp
 )
 ;

@@ -2926,7 +2926,6 @@ return
 true
 ;
 }
-;
 ~
 AutoEnterCompartmentAndPushPrincipal
 (
@@ -2992,7 +2991,6 @@ context
 ;
 }
 }
-;
 }
 ;
 bool

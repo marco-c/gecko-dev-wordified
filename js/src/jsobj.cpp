@@ -988,7 +988,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-NULL
+false
 )
 ;
 JSIdArray
@@ -16692,7 +16692,7 @@ if
 last
 )
 return
-NULL
+false
 ;
 }
 JS_ASSERT
