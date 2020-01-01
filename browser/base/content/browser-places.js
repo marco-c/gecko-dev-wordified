@@ -3877,6 +3877,12 @@ bookmarksMenuPopup
 "
 )
 ;
+var
+types
+=
+PlacesUtils
+.
+GENERIC_VIEW_DROP_TYPES
 for
 (
 var
@@ -3886,9 +3892,7 @@ i
 ;
 i
 <
-view
-.
-peerDropTypes
+types
 .
 length
 ;
@@ -3900,9 +3904,7 @@ flavorSet
 .
 appendFlavour
 (
-view
-.
-peerDropTypes
+types
 [
 i
 ]
@@ -4085,7 +4087,6 @@ PlacesControllerDragHelper
 .
 onDrop
 (
-null
 view
 ip
 )
