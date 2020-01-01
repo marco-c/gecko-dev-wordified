@@ -784,6 +784,10 @@ extern
 JSExtendedClass
 sXPC_XOW_JSClass
 ;
+extern
+JSExtendedClass
+sXPC_SJOW_JSClass
+;
 /
 /
 This
