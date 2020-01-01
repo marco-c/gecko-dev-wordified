@@ -3182,7 +3182,9 @@ GeckoApp
 .
 mAppContext
 .
-mFavicons
+getFavicons
+(
+)
 ;
 favicons
 .

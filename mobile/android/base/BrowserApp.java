@@ -2282,7 +2282,9 @@ tab
 long
 id
 =
-mFavicons
+getFavicons
+(
+)
 .
 loadFavicon
 (
@@ -2522,7 +2524,9 @@ pending
 favicon
 load
 task
-mFavicons
+getFavicons
+(
+)
 .
 cancelFaviconLoad
 (
