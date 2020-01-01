@@ -600,15 +600,7 @@ mjit
 #
 if
 defined
-(
 JS_POLYIC
-)
-|
-|
-defined
-(
-JS_MONOIC
-)
 using
 namespace
 js
