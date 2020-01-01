@@ -2843,6 +2843,7 @@ eXBL_InProperty
 ConstructProperty
 (
 aAtts
+aLineNumber
 )
 ;
 }
@@ -4506,6 +4507,8 @@ PRUnichar
 *
 *
 aAtts
+uint32_t
+aLineNumber
 )
 {
 const
@@ -4719,6 +4722,7 @@ name
 onget
 onset
 readonly
+aLineNumber
 )
 ;
 if

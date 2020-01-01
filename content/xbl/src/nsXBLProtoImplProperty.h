@@ -174,6 +174,8 @@ const
 PRUnichar
 *
 aReadOnly
+uint32_t
+aLineNumber
 )
 ;
 nsXBLProtoImplProperty
