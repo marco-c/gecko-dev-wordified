@@ -2925,7 +2925,7 @@ STRICT
 StrictMode
 :
 :
-UNKNOWN
+NOTSTRICT
 ;
 }
 /

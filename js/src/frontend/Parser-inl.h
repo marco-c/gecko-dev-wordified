@@ -338,6 +338,10 @@ inDeclDestructuring
 (
 false
 )
+funBecameStrict
+(
+false
+)
 {
 prs
 -
