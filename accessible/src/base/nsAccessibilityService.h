@@ -1232,6 +1232,13 @@ listitem
 /
 /
 ROLE_COMBOBOX_LISTITEM
+"
+image
+map
+"
+/
+/
+ROLE_IMAGE_MAP
 }
 ;
 class

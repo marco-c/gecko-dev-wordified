@@ -1185,6 +1185,10 @@ NSAccessibilityMenuItemRole
 /
 /
 ROLE_COMBOBOX_LISTITEM
+NSAccessibilityImageRole
+/
+/
+ROLE_IMAGE_MAP
 "
 ROLE_LAST_ENTRY
 "

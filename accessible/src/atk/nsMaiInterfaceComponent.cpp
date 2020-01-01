@@ -597,6 +597,15 @@ if
 (
 !
 accWrap
+|
+|
+nsAccessibleWrap
+:
+:
+MustPrune
+(
+accWrap
+)
 )
 return
 nsnull

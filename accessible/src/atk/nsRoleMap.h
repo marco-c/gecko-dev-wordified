@@ -1431,6 +1431,14 @@ nsIAccessibleRole
 :
 ROLE_COMBOBOX_LISTITEM
 115
+ATK_ROLE_IMAGE
+/
+/
+nsIAccessibleRole
+:
+:
+ROLE_IMAGE_MAP
+116
 kROLE_ATK_LAST_ENTRY
 /
 /
