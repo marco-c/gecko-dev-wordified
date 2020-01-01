@@ -16996,6 +16996,13 @@ obj
 )
 &
 &
+(
+length
+=
+=
+0
+|
+|
 obj
 -
 >
@@ -17008,6 +17015,7 @@ length
 !
 =
 JSVAL_HOLE
+)
 )
 {
 if
