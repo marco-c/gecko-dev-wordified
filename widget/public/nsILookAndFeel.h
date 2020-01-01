@@ -741,6 +741,15 @@ when
 mouse
 is
 over
+eColor__moz_oddrowbackground
+/
+/
+background
+color
+of
+odd
+list
+rows
 /
 /
 colours
