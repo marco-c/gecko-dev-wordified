@@ -651,13 +651,6 @@ if
 !
 defined
 (
-_WIN32
-)
-&
-&
-!
-defined
-(
 XP_OS2
 )
 typedef
@@ -808,13 +801,6 @@ int32
 /
 #
 if
-!
-defined
-(
-_WIN32
-)
-&
-&
 !
 defined
 (

@@ -469,11 +469,11 @@ typedefs
 *
 /
 typedef
-int32
+JSInt32
 jsint
 ;
 typedef
-uint32
+JSUint32
 jsuint
 ;
 typedef
@@ -481,7 +481,7 @@ float64
 jsdouble
 ;
 typedef
-int32
+JSInt32
 jsrefcount
 ;
 /
@@ -505,7 +505,7 @@ jschar
 #
 else
 typedef
-uint16
+JSUint16
 jschar
 ;
 #
