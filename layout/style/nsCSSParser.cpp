@@ -9540,7 +9540,10 @@ must
 be
 lower
 cased
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 mToken
 .
@@ -10168,7 +10171,10 @@ must
 be
 lower
 cased
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 mToken
 .
@@ -16645,7 +16651,7 @@ if
 (
 attr
 .
-EqualsIgnoreCase
+LowerCaseEqualsASCII
 (
 htmlAttr
 )
@@ -17022,7 +17028,10 @@ mToken
 mIdent
 )
 ;
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 buffer
 )
@@ -19265,7 +19274,7 @@ mToken
 .
 mIdent
 .
-EqualsIgnoreCase
+LowerCaseEqualsLiteral
 (
 "
 odd
@@ -19299,7 +19308,7 @@ mToken
 .
 mIdent
 .
-EqualsIgnoreCase
+LowerCaseEqualsLiteral
 (
 "
 even
@@ -19333,7 +19342,7 @@ mToken
 .
 mIdent
 .
-EqualsIgnoreCase
+LowerCaseEqualsLiteral
 (
 "
 n
@@ -19356,7 +19365,7 @@ mToken
 .
 mIdent
 .
-EqualsIgnoreCase
+LowerCaseEqualsLiteral
 (
 "
 -
@@ -19474,7 +19483,7 @@ mToken
 .
 mIdent
 .
-EqualsIgnoreCase
+LowerCaseEqualsLiteral
 (
 "
 n

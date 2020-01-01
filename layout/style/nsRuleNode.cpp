@@ -30219,7 +30219,10 @@ GetStringValue
 lang
 )
 ;
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 lang
 )
