@@ -951,6 +951,8 @@ GetMinWriteSamples
 (
 )
 ;
+private
+:
 nsRefPtr
 <
 AudioChild
