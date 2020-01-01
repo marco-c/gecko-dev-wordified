@@ -23206,7 +23206,7 @@ hasHorizontalMargins
 &
 (
 pageWidthGreaterThanScreenWidth
-!
+=
 =
 this
 .
@@ -23221,7 +23221,7 @@ hasVerticalMargins
 &
 (
 pageHeightGreaterThanScreenHeight
-!
+=
 =
 this
 .
