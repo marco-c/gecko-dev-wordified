@@ -6483,7 +6483,20 @@ extension
 return
 None
     
-browser_chrome
+#
+Support
+Firefox
+(
+browser
+)
+and
+SeaMonkey
+(
+navigator
+)
+.
+    
+chrome
 =
 "
 "
@@ -6494,7 +6507,8 @@ options
 browserChrome
 :
       
-browser_chrome
+chrome
++
 =
 "
 "
@@ -6504,11 +6518,11 @@ chrome
 :
 /
 /
-navigator
+browser
 /
 content
 /
-navigator
+browser
 .
 xul
 chrome
@@ -6531,11 +6545,11 @@ chrome
 :
 /
 /
-browser
+navigator
 /
 content
 /
-browser
+navigator
 .
 xul
 chrome
@@ -6612,9 +6626,11 @@ when
 using
 ipc
       
-browser_chrome
+chrome
 +
 =
+"
+"
 "
 overlay
 chrome
@@ -6641,8 +6657,33 @@ ipc
 overlay
 .
 xul
-\
-n
+overlay
+chrome
+:
+/
+/
+navigator
+/
+content
+/
+navigator
+.
+xul
+chrome
+:
+/
+/
+mochikit
+/
+content
+/
+ipc
+-
+overlay
+.
+xul
+"
+"
 "
     
 self
@@ -6650,7 +6691,7 @@ self
 installChromeJar
 (
 jarDir
-browser_chrome
+chrome
 options
 )
     
@@ -6662,7 +6703,7 @@ installChromeJar
 (
 self
 jarDirName
-browser_chrome
+chrome
 options
 )
 :
@@ -6772,7 +6813,7 @@ mfile
 .
 write
 (
-browser_chrome
+chrome
 )
   
 def
