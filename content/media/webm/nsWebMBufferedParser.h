@@ -1616,6 +1616,8 @@ PRInt64
 aEndOffset
 PRUint64
 aTimecodeScale
+PRInt64
+aStartTimeOffsetNS
 )
 ;
 private
