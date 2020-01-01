@@ -554,9 +554,7 @@ in
 /
 the
 format
-specified
-by
-mFormat
+MOZ_AUDIO_DATA_FORMAT
 of
 length
 aCount
@@ -931,9 +929,6 @@ mRate
 ;
 int
 mChannels
-;
-SampleFormat
-mFormat
 ;
 }
 ;
