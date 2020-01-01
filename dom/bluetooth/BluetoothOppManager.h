@@ -638,6 +638,16 @@ mWaitingForConfirmationFlag
 int
 mUpdateProgressCounter
 ;
+enum
+mozilla
+:
+:
+ipc
+:
+:
+SocketConnectionStatus
+mSocketStatus
+;
 nsCOMPtr
 <
 nsIDOMBlob
