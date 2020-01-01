@@ -189,6 +189,14 @@ MarionetteException
     
 pass
 class
+InvalidResponseException
+(
+MarionetteException
+)
+:
+    
+pass
+class
 NoSuchAttributeException
 (
 MarionetteException
@@ -406,3 +414,7 @@ INVALID_XPATH_SELECTOR
 INVALID_XPATH_SELECTOR_RETURN_TYPER
 =
 52
+    
+INVALID_RESPONSE
+=
+53
