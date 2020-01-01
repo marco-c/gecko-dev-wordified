@@ -8642,15 +8642,6 @@ JSRuntime
 rt
 )
 ;
-extern
-void
-PrepareCompartmentForGC
-(
-JSCompartment
-*
-comp
-)
-;
 /
 *
 *
