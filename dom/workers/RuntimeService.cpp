@@ -2771,7 +2771,6 @@ GetProtoObject
 (
 aCx
 aObj
-aObj
 )
 ;
 if

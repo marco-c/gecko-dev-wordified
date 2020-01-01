@@ -7416,10 +7416,9 @@ if
 TextDecoderBinding
 :
 :
-GetProtoObject
+GetConstructorObject
 (
 aJSContext
-global
 global
 )
 |
@@ -7428,10 +7427,9 @@ global
 TextEncoderBinding
 :
 :
-GetProtoObject
+GetConstructorObject
 (
 aJSContext
-global
 global
 )
 )
