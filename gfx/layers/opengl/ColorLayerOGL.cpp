@@ -657,16 +657,6 @@ BindAndDrawQuad
 program
 )
 ;
-DEBUG_GL_ERROR_CHECK
-(
-aManager
--
->
-gl
-(
-)
-)
-;
 }
 void
 ColorLayerOGL
