@@ -563,6 +563,10 @@ isWindowPrivate
 (
 window
 )
+&
+&
+!
+isGlobalPBSupported
 ;
 }
 exports

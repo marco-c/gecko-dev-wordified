@@ -130,7 +130,7 @@ getTabTitle
 setTabTitle
 closeTab
 getTabURL
-getContentWindowForTab
+getTabContentWindow
 getTabForBrowser
 setTabURL
 getOwnerWindow
@@ -981,16 +981,15 @@ return
 Worker
 (
 options
+getTabContentWindow
+(
 tabNS
 (
 this
 )
 .
 tab
-.
-browser
-.
-contentWindow
+)
 )
 ;
 }
@@ -1325,7 +1324,7 @@ tab
 )
 {
 return
-getContentWindowForTab
+getTabContentWindow
 (
 tabNS
 (

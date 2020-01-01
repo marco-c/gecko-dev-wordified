@@ -197,6 +197,7 @@ deprecate
 const
 {
 ignoreWindow
+isGlobalPBSupported
 }
 =
 require
@@ -303,6 +304,9 @@ null
 includePrivate
 :
 isPrivateBrowsingSupported
+|
+|
+isGlobalPBSupported
 }
 )
 ;
