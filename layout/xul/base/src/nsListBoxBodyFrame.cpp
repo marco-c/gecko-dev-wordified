@@ -554,7 +554,7 @@ h
 #
 include
 "
-nsIScrollbarFrame
+nsScrollbarFrame
 .
 h
 "
@@ -1366,12 +1366,7 @@ GetScrollbarBox
 PR_TRUE
 )
 ;
-if
-(
-verticalScrollbar
-)
-{
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 scrollbarFrame
 =
@@ -1380,6 +1375,11 @@ do_QueryFrame
 verticalScrollbar
 )
 ;
+if
+(
+scrollbarFrame
+)
+{
 scrollbarFrame
 -
 >
@@ -2158,7 +2158,7 @@ nsListBoxBodyFrame
 :
 PositionChanged
 (
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 aScrollbar
 PRInt32
@@ -2502,7 +2502,7 @@ nsListBoxBodyFrame
 :
 ScrollbarButtonPressed
 (
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 aScrollbar
 PRInt32

@@ -576,7 +576,7 @@ h
 #
 include
 "
-nsIScrollbarFrame
+nsScrollbarFrame
 .
 h
 "
@@ -22619,14 +22619,7 @@ PRBool
 aVisible
 )
 {
-if
-(
-!
-aScrollbar
-)
-return
-;
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 scrollbar
 =

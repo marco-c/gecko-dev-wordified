@@ -496,7 +496,7 @@ h
 #
 include
 "
-nsIScrollbarFrame
+nsScrollbarFrame
 .
 h
 "
@@ -1523,7 +1523,7 @@ curpos
 =
 maxpos
 ;
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 sb
 =

@@ -577,7 +577,7 @@ h
 #
 include
 "
-nsIScrollbarFrame
+nsScrollbarFrame
 .
 h
 "
@@ -1625,7 +1625,7 @@ position
 and
 notify
 observers
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 scrollbarFrame
 =
@@ -4896,7 +4896,7 @@ mUserChanged
 =
 PR_TRUE
 ;
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 scrollbarFrame
 =

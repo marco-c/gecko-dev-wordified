@@ -4556,7 +4556,7 @@ f
 ;
 }
 }
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 sf
 =
@@ -25734,7 +25734,7 @@ nsTreeBodyFrame
 :
 ScrollbarButtonPressed
 (
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 aScrollbar
 PRInt32
@@ -25814,7 +25814,7 @@ nsTreeBodyFrame
 :
 PositionChanged
 (
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 aScrollbar
 PRInt32
