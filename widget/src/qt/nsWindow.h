@@ -1210,6 +1210,11 @@ nsBorderStyle
 aStyle
 )
 ;
+void
+QWidgetDestroyed
+(
+)
+;
 /
 *
 *
