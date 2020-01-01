@@ -2299,9 +2299,6 @@ jsval
 vp
 )
 {
-jsid
-idAsId
-;
 JSPropertyDescriptor
 desc
 ;
@@ -2312,7 +2309,7 @@ JS_GetPropertyDescriptorById
 (
 cx
 obj
-idAsId
+id
 JSRESOLVE_QUALIFIED
 &
 desc
