@@ -907,7 +907,7 @@ event
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
