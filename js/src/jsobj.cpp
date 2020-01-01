@@ -20311,7 +20311,6 @@ defined
 .
 *
 /
-JS_REQUIRES_STACK
 JSBool
 Detecting
 (

@@ -1442,7 +1442,6 @@ uint32_t
 shape
 )
 ;
-JS_REQUIRES_STACK
 JSAtom
 *
 fullTest
@@ -1488,7 +1487,6 @@ endif
 public
 :
 JS_ALWAYS_INLINE
-JS_REQUIRES_STACK
 void
 test
 (
@@ -1665,7 +1663,6 @@ possible
 .
 *
 /
-JS_REQUIRES_STACK
 PropertyCacheEntry
 *
 fill

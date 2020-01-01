@@ -2911,7 +2911,7 @@ asClonedBlock
 )
 ;
 }
-bool
+void
 ClonedBlockObject
 :
 :
@@ -2920,8 +2920,6 @@ put
 JSContext
 *
 cx
-JSBool
-normalUnwind
 )
 {
 StackFrame
@@ -3057,10 +3055,6 @@ count
 1
 )
 ;
-if
-(
-normalUnwind
-)
 copySlotRange
 (
 RESERVED_SLOTS
@@ -3103,9 +3097,6 @@ enclosingScope
 (
 )
 )
-;
-return
-normalUnwind
 ;
 }
 static

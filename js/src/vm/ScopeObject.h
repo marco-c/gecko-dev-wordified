@@ -1767,14 +1767,12 @@ slots
 .
 *
 /
-bool
+void
 put
 (
 JSContext
 *
 cx
-JSBool
-normalUnwind
 )
 ;
 /

@@ -13197,9 +13197,7 @@ getProto
 =
 &
 blockObj
-&
-&
-!
+)
 obj
 .
 asClonedBlock
@@ -13209,11 +13207,6 @@ asClonedBlock
 put
 (
 cx
-JS_TRUE
-)
-)
-THROW
-(
 )
 ;
 fp
