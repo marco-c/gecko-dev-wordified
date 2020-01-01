@@ -288,6 +288,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -325,6 +326,7 @@ nsStyleContext
 *
 aStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsStyleContext
@@ -335,6 +337,7 @@ int32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void

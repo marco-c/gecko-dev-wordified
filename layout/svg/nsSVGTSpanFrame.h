@@ -335,6 +335,7 @@ uint32_t
 GetNumberOfChars
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 float

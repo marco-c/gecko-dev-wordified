@@ -1048,6 +1048,7 @@ void
 Invalidate
 (
 )
+MOZ_OVERRIDE
 {
 DoUpdate
 (

@@ -580,6 +580,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -589,6 +590,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -710,6 +712,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -845,6 +848,7 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsMenuParent

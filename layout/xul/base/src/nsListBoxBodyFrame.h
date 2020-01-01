@@ -362,6 +362,7 @@ int32_t
 &
 aNewIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ScrollbarButtonPressed
@@ -408,6 +409,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -424,6 +426,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -433,6 +436,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 /
 /

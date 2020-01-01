@@ -172,6 +172,7 @@ nsStyleContext
 *
 aStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsStyleContext
@@ -182,6 +183,7 @@ int32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InheritAutomaticData

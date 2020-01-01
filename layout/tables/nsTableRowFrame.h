@@ -306,6 +306,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -391,6 +392,7 @@ GetUsedMargin
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -398,6 +400,7 @@ GetUsedBorder
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -405,6 +408,7 @@ GetUsedPadding
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1290,6 +1294,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame

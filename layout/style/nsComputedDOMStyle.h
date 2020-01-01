@@ -272,6 +272,7 @@ nsAString
 &
 aPropName
 )
+MOZ_OVERRIDE
 ;
 enum
 StyleType

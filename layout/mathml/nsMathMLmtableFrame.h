@@ -183,6 +183,7 @@ aFlagsValues
 uint32_t
 aWhichFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
@@ -233,6 +234,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -242,6 +244,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsTableOuterFrame
@@ -413,6 +416,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -423,6 +427,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -456,6 +461,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -487,6 +493,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -516,6 +523,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsTableFrame
@@ -671,6 +679,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -777,6 +786,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsTableRowFrame
@@ -945,6 +955,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -968,6 +979,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsTableCellFrame
@@ -1107,6 +1119,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1116,6 +1129,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsBlockFrame

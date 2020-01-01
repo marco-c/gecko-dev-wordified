@@ -304,6 +304,7 @@ nsMargin
 &
 aBorderAndPadding
 )
+MOZ_OVERRIDE
 ;
 }
 ;

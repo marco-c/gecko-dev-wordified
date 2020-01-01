@@ -161,6 +161,7 @@ nsGridRowGroupLayout
 CastToRowGroupLayout
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -177,6 +178,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -189,6 +191,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -201,6 +204,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

@@ -269,6 +269,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -349,6 +350,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -384,6 +386,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -423,6 +426,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsHTMLScrollFrame
@@ -492,6 +496,7 @@ aRepaint
 =
 false
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsGfxScrollFrameInner
@@ -546,6 +551,7 @@ nsIFrame
 *
 aComboboxFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -753,6 +759,7 @@ AddOption
 int32_t
 index
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveOption
@@ -1303,6 +1310,7 @@ bool
 NeedsView
 (
 )
+MOZ_OVERRIDE
 {
 return
 IsInDropDownMode

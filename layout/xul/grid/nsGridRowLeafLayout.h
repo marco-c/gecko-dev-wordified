@@ -194,6 +194,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -206,6 +207,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -218,6 +220,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -230,6 +233,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Layout

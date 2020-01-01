@@ -185,6 +185,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -197,6 +198,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -264,6 +266,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -295,6 +298,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -304,6 +308,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -313,6 +318,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame

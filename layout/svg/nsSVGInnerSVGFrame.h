@@ -96,6 +96,15 @@ MPL
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSVGContainerFrame
 .
 h
@@ -333,6 +342,7 @@ NotifyViewportOrTransformChanged
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 protected
 :

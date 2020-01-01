@@ -160,6 +160,7 @@ NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -203,6 +204,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow

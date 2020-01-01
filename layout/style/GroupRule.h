@@ -124,6 +124,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Rule
@@ -257,6 +266,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

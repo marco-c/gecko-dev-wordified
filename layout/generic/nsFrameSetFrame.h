@@ -560,6 +560,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 static
 bool

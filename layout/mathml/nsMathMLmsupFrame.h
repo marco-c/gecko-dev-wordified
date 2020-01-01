@@ -102,6 +102,15 @@ nsMathMLmsupFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -156,6 +165,7 @@ NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -170,6 +180,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 static
 nsresult

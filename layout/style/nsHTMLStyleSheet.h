@@ -209,6 +209,7 @@ GetSheetURI
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIURI
@@ -571,6 +572,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -661,6 +663,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -726,6 +729,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -759,6 +763,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 ;
 }
 ;

@@ -460,6 +460,7 @@ eMathMLFrameType
 GetMathMLFrameType
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -472,6 +473,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

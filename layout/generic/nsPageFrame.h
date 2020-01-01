@@ -176,6 +176,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -340,6 +341,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
+MOZ_OVERRIDE
 {
 return
 false

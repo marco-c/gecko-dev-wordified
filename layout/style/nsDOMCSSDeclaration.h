@@ -289,6 +289,7 @@ nsAString
 &
 aCssText
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCssText
@@ -356,6 +357,7 @@ nsAString
 &
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPropertyPriority
@@ -601,6 +603,7 @@ nsAString
 &
 aPropName
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSObject

@@ -155,6 +155,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -164,6 +165,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize

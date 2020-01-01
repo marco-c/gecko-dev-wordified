@@ -322,6 +322,7 @@ int32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -431,6 +432,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -447,6 +449,7 @@ aOn
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -481,6 +484,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 GetFirstPrincipalChild
@@ -501,6 +505,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame

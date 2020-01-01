@@ -233,6 +233,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -264,6 +265,7 @@ ContentInfo
 &
 aElements
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -299,6 +301,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -306,6 +309,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame

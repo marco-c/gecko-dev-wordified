@@ -232,6 +232,7 @@ nsGridRowGroupLayout
 CastToRowGroupLayout
 (
 )
+MOZ_OVERRIDE
 {
 return
 nullptr
@@ -304,6 +305,7 @@ Slice
 &
 aNewChildren
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -323,6 +325,7 @@ Slice
 &
 aNewChildren
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -338,6 +341,7 @@ nsIFrame
 *
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -353,6 +357,7 @@ nsIFrame
 *
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -372,6 +377,7 @@ nsIGridPart
 AsGridPart
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

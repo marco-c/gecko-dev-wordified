@@ -215,6 +215,7 @@ StateRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -414,6 +415,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef

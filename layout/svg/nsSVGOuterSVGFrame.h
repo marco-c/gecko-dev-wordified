@@ -102,6 +102,15 @@ __NS_SVGOUTERSVGFRAME_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -596,6 +605,7 @@ NotifyViewportOrTransformChanged
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 /
 /

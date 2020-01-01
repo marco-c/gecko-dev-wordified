@@ -1015,6 +1015,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -1025,6 +1026,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -1038,6 +1040,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -1048,6 +1051,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1057,6 +1061,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsStyleContext
@@ -1067,6 +1072,7 @@ int32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1078,6 +1084,7 @@ nsStyleContext
 *
 aStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1087,6 +1094,7 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -1106,6 +1114,7 @@ ChildListID
 aListID
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1119,6 +1128,7 @@ ChildList
 aLists
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -1133,6 +1143,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetContentForEvent
@@ -1145,6 +1156,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCursor
@@ -1170,6 +1182,7 @@ nsPoint
 *
 outPoint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetChildFrameContainingOffset
@@ -1186,6 +1199,7 @@ nsIFrame
 *
 outChildFrame
 )
+MOZ_OVERRIDE
 ;
 static
 nsresult
@@ -1213,6 +1227,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -1225,6 +1240,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSplittableType
@@ -1232,6 +1248,7 @@ GetSplittableType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -1240,6 +1257,7 @@ GetPrevContinuation
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrevContinuation
@@ -1247,6 +1265,7 @@ SetPrevContinuation
 nsIFrame
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -1255,6 +1274,7 @@ GetNextContinuation
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetNextContinuation
@@ -1262,6 +1282,7 @@ SetNextContinuation
 nsIFrame
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -1270,6 +1291,7 @@ GetPrevInFlowVirtual
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrevInFlow
@@ -1277,6 +1299,7 @@ SetPrevInFlow
 nsIFrame
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -1285,6 +1308,7 @@ GetNextInFlowVirtual
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetNextInFlow
@@ -1292,6 +1316,7 @@ SetNextInFlow
 nsIFrame
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetOffsetFromView
@@ -1305,6 +1330,7 @@ nsView
 aView
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -1313,6 +1339,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsSelectable
@@ -1325,6 +1352,7 @@ uint8_t
 aSelectStyle
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectionController
@@ -1337,6 +1365,7 @@ nsISelectionController
 *
 aSelCon
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1348,6 +1377,7 @@ int32_t
 *
 aOffset
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1363,6 +1393,7 @@ aRespectClusters
 =
 true
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1381,6 +1412,7 @@ PeekWordState
 *
 aState
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1498,6 +1530,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetOffsets
@@ -1510,6 +1543,7 @@ int32_t
 aEnd
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1519,6 +1553,7 @@ nsIFrame
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -1545,6 +1580,7 @@ GetParentStyleContextFrame
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 DoGetParentStyleContextFrame
@@ -1638,18 +1674,21 @@ bool
 IsEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -1659,6 +1698,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -1668,6 +1708,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1680,6 +1721,7 @@ InlineMinWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1692,6 +1734,7 @@ InlinePrefWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntrinsicWidthOffsetData
@@ -1701,18 +1744,21 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntrinsicSize
 GetIntrinsicSize
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -1979,6 +2025,7 @@ nsPresContext
 *
 aPresContext
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2248,6 +2295,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidReflow
@@ -2262,6 +2310,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2357,12 +2406,14 @@ CanContinueTextRun
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
 UpdateOverflow
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -2516,6 +2567,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -2525,6 +2577,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -2544,6 +2597,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -2779,6 +2833,7 @@ nsStyleStructID
 aSID
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3738,6 +3793,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -4423,6 +4479,7 @@ nsILineIterator
 GetLineIterator
 (
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -4471,6 +4528,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -4510,6 +4568,7 @@ GetDebugStateBits
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -4599,6 +4658,7 @@ out
 int32_t
 aIndent
 )
+MOZ_OVERRIDE
 ;
 /
 *

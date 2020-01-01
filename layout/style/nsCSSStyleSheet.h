@@ -707,6 +707,7 @@ GetSheetURI
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIURI
@@ -1456,6 +1457,7 @@ aWasAlternate
 nsresult
 aStatus
 )
+MOZ_OVERRIDE
 ;
 enum
 EnsureUniqueInnerResult

@@ -260,6 +260,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -288,6 +289,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -297,6 +299,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -337,6 +340,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -346,12 +350,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsCollapsed
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -359,6 +365,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -389,6 +396,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 aResult
 .
@@ -413,6 +421,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 /
 /
@@ -542,6 +551,7 @@ aOn
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -555,6 +565,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -754,6 +765,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -777,6 +789,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetText
@@ -793,6 +806,7 @@ nsPeekOffsetStruct
 *
 aPos
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_QUERYFRAME
 /

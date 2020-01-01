@@ -172,6 +172,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InheritAutomaticData
@@ -180,6 +181,7 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 TransmitAutomaticData

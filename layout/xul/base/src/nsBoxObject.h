@@ -211,6 +211,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

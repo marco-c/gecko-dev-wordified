@@ -810,6 +810,7 @@ nsMenuFrame
 GetCurrentMenuItem
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCurrentMenuItem
@@ -892,6 +893,7 @@ SetActive
 bool
 aActiveFlag
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -1293,6 +1295,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1537,6 +1540,7 @@ bool
 IsMenu
 (
 )
+MOZ_OVERRIDE
 {
 return
 mPopupType
@@ -2495,6 +2499,7 @@ uint32_t
 &
 aFlags
 )
+MOZ_OVERRIDE
 ;
 void
 InitPositionFromAnchorAlign

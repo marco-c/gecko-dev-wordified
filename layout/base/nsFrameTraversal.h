@@ -102,6 +102,15 @@ NSFRAMETRAVERSAL_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -186,6 +195,7 @@ aLockInScrollView
 bool
 aFollowOOFs
 )
+MOZ_OVERRIDE
 ;
 }
 ;

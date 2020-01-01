@@ -1130,6 +1130,7 @@ nsIntRect
 *
 aDirtyRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -1228,6 +1229,7 @@ uint32_t
 GetNumberOfChars
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 float

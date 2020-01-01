@@ -205,6 +205,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -214,6 +215,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsLeafFrame
@@ -329,6 +331,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -347,6 +350,7 @@ aRepaint
 =
 false
 )
+MOZ_OVERRIDE
 ;
 /
 /

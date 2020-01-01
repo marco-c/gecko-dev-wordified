@@ -260,6 +260,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -269,6 +270,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -307,6 +309,7 @@ aPadding
 bool
 aShrinkWrap
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -428,6 +431,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 /
 /

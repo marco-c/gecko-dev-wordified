@@ -102,6 +102,15 @@ nsBox_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -156,6 +165,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -165,6 +175,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -174,6 +185,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -183,6 +195,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -192,6 +205,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -201,12 +215,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsCollapsed
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -224,6 +240,7 @@ aRemoveOverflowAreas
 =
 false
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetBorder
@@ -232,6 +249,7 @@ nsMargin
 &
 aBorderAndPadding
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPadding
@@ -240,6 +258,7 @@ nsMargin
 &
 aBorderAndPadding
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetMargin
@@ -248,6 +267,7 @@ nsMargin
 &
 aMargin
 )
+MOZ_OVERRIDE
 ;
 virtual
 Valignment
@@ -255,6 +275,7 @@ GetVAlign
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 vAlign_Top
@@ -266,6 +287,7 @@ GetHAlign
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 hAlign_Left
@@ -281,6 +303,7 @@ nsIFrame
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -305,6 +328,7 @@ bool
 &
 aDebug
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetDebug
@@ -315,6 +339,7 @@ aState
 bool
 aDebug
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DumpBox
@@ -323,6 +348,7 @@ FILE
 *
 out
 )
+MOZ_OVERRIDE
 ;
 NS_HIDDEN_
 (

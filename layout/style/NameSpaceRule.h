@@ -254,6 +254,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

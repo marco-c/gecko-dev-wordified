@@ -164,6 +164,7 @@ eMathMLFrameType
 GetMathMLFrameType
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -175,6 +176,7 @@ nsStyleContext
 *
 aStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsStyleContext
@@ -185,6 +187,7 @@ int32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void

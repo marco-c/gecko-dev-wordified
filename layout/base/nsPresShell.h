@@ -418,6 +418,7 @@ void
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -427,6 +428,7 @@ void
 MakeZombie
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -438,6 +440,7 @@ SetPreferenceStyleRules
 bool
 aForceReflow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelection
@@ -461,6 +464,7 @@ GetCurrentSelection
 SelectionType
 aType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetDisplaySelection
@@ -503,6 +507,7 @@ void
 BeginObservingDocument
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -512,6 +517,7 @@ void
 EndObservingDocument
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -525,6 +531,7 @@ aWidth
 nscoord
 aHeight
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -538,6 +545,7 @@ aWidth
 nscoord
 aHeight
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -551,6 +559,7 @@ aWidth
 nscoord
 aHeight
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -562,6 +571,7 @@ GetPageSequenceFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -576,6 +586,7 @@ nsIContent
 aContent
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -590,6 +601,7 @@ nsIFrame
 aFrame
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -606,6 +618,7 @@ aIntrinsicDirty
 nsFrameState
 aBitToAdd
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -618,6 +631,7 @@ nsIFrame
 *
 aFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -627,6 +641,7 @@ void
 CancelAllPendingReflows
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -637,6 +652,7 @@ IsSafeToFlush
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -648,6 +664,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -662,6 +679,7 @@ mozilla
 ChangesToFlush
 aType
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -686,6 +704,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -716,6 +735,7 @@ nsIReflowCallback
 *
 aCallback
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -728,6 +748,7 @@ nsIReflowCallback
 *
 aCallback
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -740,6 +761,7 @@ nsIFrame
 *
 aFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -767,6 +789,7 @@ aAnchorName
 bool
 aScroll
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -776,6 +799,7 @@ nsresult
 ScrollToAnchor
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -794,6 +818,7 @@ aHorizontal
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -813,6 +838,7 @@ aHorizontal
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRectVisibility
@@ -829,6 +855,7 @@ nscoord
 aMinTwips
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -840,6 +867,7 @@ SetIgnoreFrameDestruction
 bool
 aIgnore
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -852,6 +880,7 @@ nsIFrame
 *
 aFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -865,6 +894,7 @@ nsILayoutHistoryState
 *
 aLayoutHistoryState
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -874,6 +904,7 @@ void
 UnsuppressPainting
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -886,6 +917,7 @@ nsIStyleSheet
 &
 aSheets
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -899,6 +931,7 @@ nsIStyleSheet
 &
 aSheets
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -908,6 +941,7 @@ nsIStyleSheet
 *
 aSheet
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -917,6 +951,7 @@ nsIStyleSheet
 *
 aSheet
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -938,6 +973,7 @@ nsEventStatus
 *
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -948,6 +984,7 @@ nsIFrame
 GetEventTargetFrame
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -963,6 +1000,7 @@ nsEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -976,12 +1014,14 @@ void
 Freeze
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 Thaw
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -990,6 +1030,7 @@ FireOrClearDelayedEvents
 bool
 aFireEvents
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -1010,6 +1051,7 @@ gfxContext
 *
 aThebesContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1031,6 +1073,7 @@ nsIntRect
 *
 aScreenRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1049,6 +1092,7 @@ nsIntRect
 *
 aScreenRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1058,6 +1102,7 @@ nsPIDOMWindow
 GetRootWindow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 LayerManager
@@ -1065,6 +1110,7 @@ LayerManager
 GetLayerManager
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1073,6 +1119,7 @@ SetIgnoreViewportScrolling
 bool
 aIgnore
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1093,6 +1140,7 @@ aXResolution
 float
 aYResolution
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1112,6 +1160,7 @@ aDirtyRegion
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1129,6 +1178,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -1147,6 +1197,7 @@ nsEventStatus
 *
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -1165,36 +1216,42 @@ nsEventStatus
 *
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 ShouldIgnoreInvalidation
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 WillPaint
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 WillPaintWindow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 DidPaintWindow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ScheduleViewManagerFlush
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1206,6 +1263,7 @@ aEvent
 bool
 aFlushOnHoverChange
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1215,12 +1273,14 @@ nsView
 *
 aView
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsVisible
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1238,6 +1298,7 @@ GetCaret
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -1247,6 +1308,7 @@ void
 MaybeInvalidateCaretPosition
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCaretEnabled
@@ -1293,12 +1355,14 @@ nsCaret
 *
 aNewCaret
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 RestoreCaret
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetSelectionFlags
@@ -1306,6 +1370,7 @@ SetSelectionFlags
 int16_t
 aInEnable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectionFlags
@@ -1505,6 +1570,7 @@ nsIFrame
 *
 aFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -1533,6 +1599,7 @@ aOffset
 uint32_t
 aColor
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -1544,12 +1611,14 @@ SetPaintFrameCount
 bool
 aOn
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsPaintingFrameCounts
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1571,6 +1640,7 @@ aIndent
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1584,12 +1654,14 @@ aIndent
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 VerifyStyleTree
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1613,12 +1685,14 @@ DisableNonTestMouseEvents
 bool
 aDisable
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 UpdateCanvasBackground
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1642,6 +1716,7 @@ aBackstopColor
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1661,6 +1736,7 @@ nsRect
 &
 aBounds
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscolor
@@ -1670,6 +1746,7 @@ nsView
 *
 aDisplayRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -1681,12 +1758,14 @@ SetIsActive
 bool
 aIsActive
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 GetIsViewportOverridden
 (
 )
+MOZ_OVERRIDE
 {
 return
 mViewportOverridden
@@ -1697,6 +1776,7 @@ bool
 IsLayoutFlushObserver
 (
 )
+MOZ_OVERRIDE
 {
 return
 GetPresContext
@@ -1736,6 +1816,7 @@ size_t
 *
 aPresContextSize
 )
+MOZ_OVERRIDE
 ;
 size_t
 SizeOfTextRuns
@@ -1753,6 +1834,7 @@ nsRefreshDriver
 *
 aDriver
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1800,6 +1882,7 @@ void
 ScheduleImageVisibilityUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1810,6 +1893,7 @@ nsDisplayList
 &
 aList
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1819,6 +1903,7 @@ nsIImageLoadingContent
 *
 aImage
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -3658,6 +3743,7 @@ SynthesizeMouseMove
 bool
 aFromScroll
 )
+MOZ_OVERRIDE
 ;
 PresShell
 *
@@ -3726,12 +3812,14 @@ void
 WindowSizeMoveDone
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 SysColorChanged
 (
 )
+MOZ_OVERRIDE
 {
 mPresContext
 -
@@ -3746,6 +3834,7 @@ void
 ThemeChanged
 (
 )
+MOZ_OVERRIDE
 {
 mPresContext
 -
@@ -3760,6 +3849,7 @@ void
 BackingScaleFactorChanged
 (
 )
+MOZ_OVERRIDE
 {
 mPresContext
 -

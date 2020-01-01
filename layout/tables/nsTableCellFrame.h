@@ -366,6 +366,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -385,6 +386,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -460,6 +462,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 GetFirstPrincipalChild
@@ -478,6 +481,7 @@ GetUsedMargin
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -488,6 +492,7 @@ nsHTMLReflowState
 &
 aReflowState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -584,6 +589,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -593,6 +599,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntrinsicWidthOffsetData
@@ -602,6 +609,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -620,6 +628,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -649,6 +658,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -661,6 +671,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -988,6 +999,7 @@ int32_t
 &
 aColIndex
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1302,6 +1314,7 @@ bool
 UpdateOverflow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1311,6 +1324,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame
@@ -1707,6 +1721,7 @@ GetUsedBorder
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1719,6 +1734,7 @@ aRadii
 ]
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

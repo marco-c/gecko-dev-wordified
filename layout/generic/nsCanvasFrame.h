@@ -248,6 +248,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -343,6 +344,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame
@@ -435,6 +437,7 @@ aX
 nscoord
 aY
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -445,6 +448,7 @@ aX
 nscoord
 aY
 )
+MOZ_OVERRIDE
 {
 }
 /
@@ -903,6 +907,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 {
 const
 nsDisplayItemBoundsGeometry

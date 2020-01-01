@@ -331,6 +331,7 @@ ContentInfo
 &
 aElements
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -726,6 +727,7 @@ aOn
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -735,6 +737,7 @@ bool
 IsDroppedDown
 (
 )
+MOZ_OVERRIDE
 {
 return
 mDroppedDown
@@ -927,6 +930,7 @@ AddOption
 int32_t
 index
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveOption

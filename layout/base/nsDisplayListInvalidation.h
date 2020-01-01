@@ -99,6 +99,15 @@ NSDISPLAYLISTINVALIDATION_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
@@ -358,6 +367,7 @@ nsPoint
 &
 aOffset
 )
+MOZ_OVERRIDE
 ;
 nsRect
 mBorderRect
@@ -391,6 +401,7 @@ nsPoint
 &
 aOffset
 )
+MOZ_OVERRIDE
 ;
 bool
 mHasRoundedCorners
@@ -424,6 +435,7 @@ nsPoint
 &
 aOffset
 )
+MOZ_OVERRIDE
 ;
 nsRect
 mContentRect
@@ -457,6 +469,7 @@ nsPoint
 &
 aOffset
 )
+MOZ_OVERRIDE
 ;
 nsRect
 mPositioningArea
@@ -490,6 +503,7 @@ nsPoint
 &
 aOffset
 )
+MOZ_OVERRIDE
 ;
 nsRect
 mPaddingRect
