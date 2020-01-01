@@ -1142,6 +1142,16 @@ entry
 ifdef
 _DEBUG
 void
+validateQuick
+(
+)
+;
+void
+validateFull
+(
+)
+;
+void
 validate
 (
 )
@@ -1177,7 +1187,6 @@ RegAlloc
 &
 regs
 )
-const
 ;
 void
 checkForResourceLeaks
@@ -1264,7 +1273,7 @@ _entries
 0
 ]
 =
-0
+NULL
 ;
 clear
 (
