@@ -1080,6 +1080,15 @@ aIndex
 )
 const
 ;
+PRInt32
+IndexOf
+(
+nsIFrame
+*
+aFrame
+)
+const
+;
 PRBool
 IsEmpty
 (
