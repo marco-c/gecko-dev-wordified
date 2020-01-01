@@ -6726,7 +6726,7 @@ chrome
 :
 /
 /
-passwordmgr
+browser
 /
 locale
 /
