@@ -6035,7 +6035,6 @@ focus
 (
 )
 ;
-}
 aEvent
 .
 preventDefault
@@ -6048,6 +6047,7 @@ stopPropagation
 (
 )
 ;
+}
 }
 /
 *
@@ -6078,6 +6078,15 @@ function
 Highlighter_handleMouseMove
 (
 aEvent
+)
+{
+if
+(
+aEvent
+.
+target
+.
+ownerDocument
 )
 {
 let
@@ -6120,6 +6129,7 @@ highlight
 element
 )
 ;
+}
 }
 }
 }
