@@ -119,7 +119,7 @@ include
 "
 js
 /
-Vector
+GCAPI
 .
 h
 "
@@ -128,7 +128,16 @@ include
 "
 js
 /
-GCAPI
+Tracer
+.
+h
+"
+#
+include
+"
+js
+/
+Vector
 .
 h
 "
