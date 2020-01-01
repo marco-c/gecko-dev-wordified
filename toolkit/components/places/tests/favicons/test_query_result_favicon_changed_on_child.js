@@ -606,7 +606,11 @@ in
 the
 meantime
 .
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 function
 QRFCOC_asyncUpdates

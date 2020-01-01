@@ -2309,7 +2309,11 @@ shift
 (
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 test
 )

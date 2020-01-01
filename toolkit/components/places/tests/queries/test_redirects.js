@@ -2272,7 +2272,11 @@ wait
 for
 them
 .
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 continue_test
 )
@@ -2390,7 +2394,11 @@ remove_all_bookmarks
 (
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 do_test_finished
 )

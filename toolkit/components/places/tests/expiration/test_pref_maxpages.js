@@ -909,7 +909,11 @@ clearMaxPages
 (
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 do_test_finished
 )
@@ -936,7 +940,11 @@ expectedNotifications
 Clean
 up
 .
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 run_next_test
 )

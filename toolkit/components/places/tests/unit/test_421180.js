@@ -339,7 +339,11 @@ removeItem
 bookmarkId
 )
 ;
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 function
 (
@@ -555,7 +559,11 @@ removeItem
 bookmarkId1
 )
 ;
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 function
 (

@@ -520,7 +520,11 @@ PlacesUtils
 unfiledBookmarksFolderId
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 run_next_test
 )

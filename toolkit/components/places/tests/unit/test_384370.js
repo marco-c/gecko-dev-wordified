@@ -506,7 +506,11 @@ validate
 (
 )
 ;
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 function
 testJsonExport
@@ -653,7 +657,11 @@ import
 "
 )
 ;
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 do_test_finished
 )

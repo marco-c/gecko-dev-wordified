@@ -461,7 +461,11 @@ checker
 aIsVisited
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 function
 (

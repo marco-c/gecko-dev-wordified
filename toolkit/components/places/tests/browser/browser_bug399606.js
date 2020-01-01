@@ -494,7 +494,11 @@ aURI
 )
 ;
 }
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 finish
 )

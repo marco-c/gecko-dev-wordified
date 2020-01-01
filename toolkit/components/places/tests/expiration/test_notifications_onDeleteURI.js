@@ -825,7 +825,11 @@ bs
 unfiledBookmarksFolder
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 do_test_finished
 )
@@ -861,7 +865,11 @@ bs
 unfiledBookmarksFolder
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 run_next_test
 )
