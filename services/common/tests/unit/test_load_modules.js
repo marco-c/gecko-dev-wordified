@@ -84,6 +84,11 @@ aitcserver
 js
 "
 "
+logging
+.
+js
+"
+"
 storageserver
 .
 js
