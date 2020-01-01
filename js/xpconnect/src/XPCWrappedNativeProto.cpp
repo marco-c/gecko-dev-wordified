@@ -157,9 +157,6 @@ ClassInfoFlags
 XPCNativeSet
 *
 Set
-QITableEntry
-*
-offsets
 )
 :
 mScope
@@ -189,10 +186,6 @@ nullptr
 mScriptableInfo
 (
 nullptr
-)
-mOffsets
-(
-offsets
 )
 {
 /
@@ -923,9 +916,6 @@ const
 XPCNativeScriptableCreateInfo
 *
 scriptableCreateInfo
-QITableEntry
-*
-offsets
 bool
 callPostCreatePrototype
 )
@@ -1094,7 +1084,6 @@ scope
 classInfo
 ciFlags
 set
-offsets
 )
 ;
 if
