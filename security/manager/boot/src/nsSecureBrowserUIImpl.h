@@ -433,6 +433,9 @@ mSubRequestsNoSecurity
 bool
 mRestoreSubrequests
 ;
+bool
+mOnLocationChangeSeen
+;
 #
 ifdef
 DEBUG
