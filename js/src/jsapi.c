@@ -1696,6 +1696,14 @@ return
 JS_FALSE
 ;
 *
+sp
+=
+OBJECT_TO_JSVAL
+(
+obj
+)
+;
+*
 va_arg
 (
 ap
