@@ -615,9 +615,10 @@ successful
 report
 from
 the
-previos
+previous
 telemetry
 ping
+.
 const
 expected_tc
 =
