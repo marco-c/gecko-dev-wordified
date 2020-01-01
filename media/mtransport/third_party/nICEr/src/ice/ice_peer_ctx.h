@@ -330,6 +330,9 @@ void
 *
 done_cb_timer
 ;
+UCHAR
+reported_done
+;
 STAILQ_ENTRY
 (
 nr_ice_peer_ctx_
