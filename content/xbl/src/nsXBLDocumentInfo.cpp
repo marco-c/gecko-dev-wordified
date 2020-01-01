@@ -300,6 +300,15 @@ BindingUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 using
 namespace
 mozilla
@@ -1456,7 +1465,10 @@ by
 /
 nsGlobalWindow
 .
+DebugOnly
+<
 nsresult
+>
 rv
 =
 newCtx
