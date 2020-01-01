@@ -12183,7 +12183,7 @@ rv
 =
 CheckXPCPermissions
 (
-nullptr
+cx
 nullptr
 nullptr
 nullptr
@@ -12279,7 +12279,7 @@ rv
 =
 CheckXPCPermissions
 (
-nullptr
+cx
 nullptr
 nullptr
 nullptr
@@ -12423,6 +12423,11 @@ char
 aObjectSecurityLevel
 )
 {
+MOZ_ASSERT
+(
+cx
+)
+;
 JS
 :
 :
