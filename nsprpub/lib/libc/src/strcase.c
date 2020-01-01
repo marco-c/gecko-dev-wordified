@@ -433,6 +433,13 @@ plstr
 .
 h
 "
+#
+include
+<
+string
+.
+h
+>
 static
 const
 unsigned

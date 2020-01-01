@@ -536,6 +536,9 @@ define
 _PR_HAVE_ATOMIC_OPS
 #
 define
+HAVE_NETINET_TCP_H
+#
+define
 HANDLE
 unsigned
 long
