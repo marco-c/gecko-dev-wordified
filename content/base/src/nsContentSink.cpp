@@ -10170,6 +10170,11 @@ enctype
 nsGkAtoms
 :
 :
+face
+&
+nsGkAtoms
+:
+:
 _for
 &
 nsGkAtoms
