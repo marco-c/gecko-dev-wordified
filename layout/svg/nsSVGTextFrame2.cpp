@@ -21752,6 +21752,11 @@ nsIContent
 aContent
 )
 {
+UpdateGlyphPositioning
+(
+false
+)
+;
 uint32_t
 n
 =
