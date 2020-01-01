@@ -438,6 +438,13 @@ h
 #
 include
 "
+nsMargin
+.
+h
+"
+#
+include
+"
 gfxCore
 .
 h

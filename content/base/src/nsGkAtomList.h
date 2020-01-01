@@ -12149,6 +12149,17 @@ nsPoint
 *
 GK_ATOM
 (
+floatRegionProperty
+"
+FloatRegionProperty
+"
+)
+/
+/
+nsRect
+*
+GK_ATOM
+(
 generatedContent
 "
 GeneratedContentProperty
