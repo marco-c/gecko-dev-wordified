@@ -2893,8 +2893,11 @@ history
 :
 AutoCompleteUtils
 .
-update
+fetch
 (
+AutoCompleteUtils
+.
+query
 )
 ;
 break
