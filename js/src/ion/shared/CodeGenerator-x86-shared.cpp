@@ -1868,7 +1868,7 @@ ParallelExecution
 {
 /
 /
-in
+In
 parallel
 mode
 make
@@ -1911,6 +1911,18 @@ case
 SequentialExecution
 :
 break
+;
+default
+:
+JS_NOT_REACHED
+(
+"
+No
+such
+execution
+mode
+"
+)
 ;
 }
 if
