@@ -1235,6 +1235,11 @@ transport
 .
 close
 (
+Components
+.
+results
+.
+NS_OK
 )
 ;
 }
