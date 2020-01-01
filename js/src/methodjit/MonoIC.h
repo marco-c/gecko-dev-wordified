@@ -1038,6 +1038,17 @@ endif
 JS_CPU_X86
 *
 /
+void
+PurgeMICs
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 }
 /
 *

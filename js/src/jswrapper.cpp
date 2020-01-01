@@ -502,6 +502,15 @@ PolyIC
 h
 "
 #
+include
+"
+methodjit
+/
+MonoIC
+.
+h
+"
+#
 ifdef
 JS_METHODJIT
 #
@@ -3129,8 +3138,6 @@ endif
 if
 defined
 JS_MONOIC
-/
-/
 mjit
 :
 :
