@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIStringStream
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -132,6 +125,9 @@ zlib
 .
 h
 "
+class
+nsIStringInputStream
+;
 #
 define
 NS_HTTPCOMPRESSCONVERTER_CID
