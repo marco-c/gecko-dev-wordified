@@ -544,11 +544,15 @@ new
 )
 )
 and
+if
+aForXML
+is
+*
+true
 initializes
 it
 with
 the
-*
 xmlns
 and
 xml
@@ -564,6 +568,8 @@ nsXMLNameSpaceMap
 )
 Create
 (
+PRBool
+aForXML
 )
 ;
 /

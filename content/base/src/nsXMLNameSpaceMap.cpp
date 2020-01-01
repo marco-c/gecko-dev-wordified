@@ -561,6 +561,8 @@ nsXMLNameSpaceMap
 :
 Create
 (
+PRBool
+aForXML
 )
 {
 nsXMLNameSpaceMap
@@ -578,6 +580,11 @@ map
 nsnull
 )
 ;
+if
+(
+aForXML
+)
+{
 nsresult
 rv
 =
@@ -623,6 +630,7 @@ map
 =
 nsnull
 ;
+}
 }
 return
 map
