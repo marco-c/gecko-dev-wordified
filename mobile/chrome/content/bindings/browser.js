@@ -2420,16 +2420,6 @@ width
 height
 :
 height
-viewportWidth
-:
-content
-.
-innerWidth
-viewportHeight
-:
-content
-.
-innerHeight
 }
 )
 ;
