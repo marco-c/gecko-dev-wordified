@@ -514,6 +514,15 @@ features
 arguments
 )
 {
+do_check_true
+(
+Services
+.
+startup
+.
+interrupted
+)
+;
 do_check_eq
 (
 url
