@@ -2113,7 +2113,7 @@ is
 (
 acc
 .
-selectedcolumnCount
+selectedColumnCount
 selCols
 .
 length
@@ -2368,13 +2368,13 @@ rowIdx
 }
 /
 /
-selectedrowCount
+selectedRowCount
 test
 is
 (
 acc
 .
-selectedrowCount
+selectedRowCount
 selRows
 .
 length
