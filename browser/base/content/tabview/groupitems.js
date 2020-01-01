@@ -12182,6 +12182,12 @@ GroupItems_resumeArrange
 (
 )
 {
+this
+.
+_arrangePaused
+=
+false
+;
 for
 (
 let
@@ -12230,12 +12236,6 @@ _arrangesPending
 =
 [
 ]
-;
-this
-.
-_arrangePaused
-=
-false
 ;
 }
 /
