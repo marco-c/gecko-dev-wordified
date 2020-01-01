@@ -915,7 +915,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 logins
 .
@@ -1055,7 +1055,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Changing
@@ -1491,7 +1491,7 @@ item
 +
 record
 .
-id
+hostname
 )
 ;
 return
@@ -1509,7 +1509,7 @@ Updating
 +
 record
 .
-id
+hostname
 )
 ;
 let
@@ -1716,7 +1716,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 aData
 +
@@ -1749,7 +1749,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 aData
 )
