@@ -175,6 +175,13 @@ mozilla
 ;
 using
 namespace
+mozilla
+:
+:
+dom
+;
+using
+namespace
 hal
 ;
 #
@@ -1632,7 +1639,7 @@ FireDOMOrientationEvent
 nsIDOMDocument
 *
 domdoc
-nsIDOMEventTarget
+EventTarget
 *
 target
 double
@@ -1738,7 +1745,7 @@ FireDOMMotionEvent
 nsIDOMDocument
 *
 domdoc
-nsIDOMEventTarget
+EventTarget
 *
 target
 uint32_t

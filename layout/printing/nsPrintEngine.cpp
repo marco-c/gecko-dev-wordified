@@ -483,13 +483,6 @@ Focus
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h

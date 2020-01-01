@@ -207,13 +207,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsMathMLmactionFrame
 .
 h

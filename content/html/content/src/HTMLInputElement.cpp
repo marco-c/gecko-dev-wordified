@@ -14727,7 +14727,7 @@ HTMLInputElement
 :
 ShouldPreventDOMActivateDispatch
 (
-nsIDOMEventTarget
+EventTarget
 *
 aOriginalTarget
 )
