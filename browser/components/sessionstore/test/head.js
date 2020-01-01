@@ -1144,7 +1144,6 @@ removeObserver
 (
 observer
 topic
-false
 )
 ;
 observing

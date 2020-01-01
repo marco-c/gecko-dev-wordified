@@ -218,7 +218,6 @@ StyleInspector
 -
 populated
 "
-false
 )
 ;
 let

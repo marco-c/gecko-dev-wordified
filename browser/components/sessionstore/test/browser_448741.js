@@ -342,7 +342,6 @@ removeObserver
 (
 cleaningObserver
 aTopic
-false
 )
 ;
 }
@@ -435,7 +434,6 @@ removeObserver
 (
 checkingObserver
 aTopic
-false
 )
 ;
 if

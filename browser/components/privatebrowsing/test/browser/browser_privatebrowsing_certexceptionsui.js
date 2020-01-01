@@ -249,6 +249,7 @@ obs
 addObserver
 (
 function
+onCertUI
 (
 aSubject
 aTopic
@@ -261,9 +262,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+onCertUI
 "
 cert
 -
@@ -273,7 +272,6 @@ ui
 -
 ready
 "
-false
 )
 ;
 ok

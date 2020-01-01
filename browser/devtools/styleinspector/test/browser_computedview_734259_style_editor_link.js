@@ -533,7 +533,6 @@ StyleInspector
 -
 populated
 "
-false
 )
 ;
 info

@@ -490,7 +490,6 @@ permissions
 -
 preinit
 "
-false
 )
 ;
 nextTest
@@ -536,7 +535,6 @@ permissions
 -
 initialized
 "
-false
 )
 ;
 nextTest

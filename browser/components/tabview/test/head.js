@@ -1933,7 +1933,6 @@ removeObserver
 (
 onStartup
 topic
-false
 )
 ;
 executeSoon

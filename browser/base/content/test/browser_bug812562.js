@@ -572,7 +572,6 @@ PopupNotifications
 -
 updateNotShowing
 "
-false
 )
 ;
 var

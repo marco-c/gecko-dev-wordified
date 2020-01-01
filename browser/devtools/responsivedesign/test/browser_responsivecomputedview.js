@@ -445,7 +445,6 @@ StyleInspector
 -
 populated
 "
-false
 )
 ;
 computedView

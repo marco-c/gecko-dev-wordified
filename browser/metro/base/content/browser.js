@@ -2196,7 +2196,6 @@ application
 -
 background
 "
-false
 )
 ;
 os
@@ -2209,7 +2208,6 @@ application
 -
 foreground
 "
-false
 )
 ;
 os
@@ -2222,7 +2220,6 @@ system
 -
 active
 "
-false
 )
 ;
 os
@@ -2235,7 +2232,6 @@ system
 -
 idle
 "
-false
 )
 ;
 os
@@ -2250,7 +2246,6 @@ display
 -
 on
 "
-false
 )
 ;
 os
@@ -2265,7 +2260,6 @@ display
 -
 off
 "
-false
 )
 ;
 window

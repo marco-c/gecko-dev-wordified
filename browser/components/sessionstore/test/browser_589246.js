@@ -1079,7 +1079,6 @@ state
 -
 restored
 "
-false
 )
 ;
 /
@@ -1509,7 +1508,6 @@ close
 -
 granted
 "
-false
 )
 ;
 gotLastWindowClosedTopic

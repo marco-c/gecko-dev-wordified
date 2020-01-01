@@ -3410,7 +3410,6 @@ removeObserver
 (
 WeaveGlue
 topic
-false
 )
 ;
 }

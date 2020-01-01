@@ -399,7 +399,6 @@ permissions
 -
 initialized
 "
-false
 )
 ;
 runNextTest
