@@ -436,6 +436,13 @@ h
 #
 include
 "
+nsSVGMatrix
+.
+h
+"
+#
+include
+"
 nsIDOMSVGUseElement
 .
 h

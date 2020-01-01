@@ -463,6 +463,13 @@ h
 #
 include
 "
+nsIDOMSVGMatrix
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

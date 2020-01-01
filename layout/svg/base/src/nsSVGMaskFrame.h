@@ -514,9 +514,8 @@ aContext
 nsIFrame
 *
 aParent
-const
-gfxMatrix
-&
+nsIDOMSVGMatrix
+*
 aMatrix
 float
 aOpacity

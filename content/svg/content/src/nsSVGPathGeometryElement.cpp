@@ -547,9 +547,8 @@ nsSVGPathGeometryElement
 :
 GetFlattenedPath
 (
-const
-gfxMatrix
-&
+nsIDOMSVGMatrix
+*
 aMatrix
 )
 {

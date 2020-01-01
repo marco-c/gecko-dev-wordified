@@ -464,6 +464,13 @@ h
 #
 include
 "
+nsSVGMatrix
+.
+h
+"
+#
+include
+"
 nsSVGUtils
 .
 h

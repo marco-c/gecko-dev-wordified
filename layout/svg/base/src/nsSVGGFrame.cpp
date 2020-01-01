@@ -463,6 +463,13 @@ h
 #
 include
 "
+nsSVGMatrix
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -478,13 +485,6 @@ h
 include
 "
 nsSVGGraphicElement
-.
-h
-"
-#
-include
-"
-nsSVGMatrix
 .
 h
 "
