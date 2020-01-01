@@ -19495,11 +19495,6 @@ if
 foundBlackGray
 )
 {
-JS_ASSERT
-(
-false
-)
-;
 for
 (
 CompartmentsIter
