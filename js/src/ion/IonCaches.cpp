@@ -570,6 +570,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+ION_CODE
 )
 ;
 if

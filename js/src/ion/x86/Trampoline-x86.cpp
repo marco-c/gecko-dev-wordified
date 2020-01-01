@@ -1720,6 +1720,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+OTHER_CODE
 )
 ;
 }
@@ -2126,6 +2130,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+OTHER_CODE
 )
 ;
 IonSpew
@@ -2894,6 +2902,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+OTHER_CODE
 )
 ;
 }
@@ -3430,6 +3442,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+OTHER_CODE
 )
 ;
 }
@@ -3467,6 +3483,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+OTHER_CODE
 )
 ;
 }
@@ -4365,6 +4385,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+OTHER_CODE
 )
 ;
 if
@@ -4578,6 +4602,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+OTHER_CODE
 )
 ;
 }
