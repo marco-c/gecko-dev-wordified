@@ -1502,6 +1502,8 @@ now
 nsCAutoString
 newUriSpec
 ;
+rv
+=
 newUri
 -
 >
