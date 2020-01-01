@@ -3105,10 +3105,8 @@ children
 .
 *
 /
-already_AddRefed
-<
 nsIDOMNode
->
+*
 GetRightmostChild
 (
 nsIDOMNode
@@ -3155,10 +3153,8 @@ children
 .
 *
 /
-already_AddRefed
-<
 nsIDOMNode
->
+*
 GetLeftmostChild
 (
 nsIDOMNode
