@@ -8585,14 +8585,6 @@ mAuthProvider
 ProcessAuthentication
 (
 httpStatus
-mConnectionInfo
--
->
-UsingSSL
-(
-)
-&
-&
 mTransaction
 -
 >
