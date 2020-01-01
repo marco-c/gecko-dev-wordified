@@ -1701,6 +1701,9 @@ case
 WM_SETFOCUS
 :
 case
+WM_SYSCOMMAND
+:
+case
 WM_SHOWWINDOW
 :
 /
