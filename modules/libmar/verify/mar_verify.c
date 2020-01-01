@@ -1452,7 +1452,7 @@ signatureCount
 numVerified
 =
 =
-0
+i
 ;
 i
 +
@@ -1799,9 +1799,7 @@ here
 and
 we
 verified
-at
-least
-one
+every
 signature
 return
 success
@@ -1811,8 +1809,9 @@ success
 if
 (
 numVerified
->
-0
+=
+=
+signatureCount
 )
 {
 return
@@ -1827,7 +1826,8 @@ stderr
 "
 ERROR
 :
-No
+Not
+all
 signatures
 were
 verified
