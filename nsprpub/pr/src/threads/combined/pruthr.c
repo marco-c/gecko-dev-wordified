@@ -389,6 +389,14 @@ PRThreadStack
 *
 stack
 ;
+PR_ASSERT
+(
+priority
+=
+=
+PR_PRIORITY_NORMAL
+)
+;
 _pr_terminationCVLock
 =
 PR_NewLock
