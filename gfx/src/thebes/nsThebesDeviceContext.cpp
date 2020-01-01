@@ -2569,12 +2569,6 @@ PRUint32
 aDepth
 )
 {
-nsCOMPtr
-<
-nsIScreen
->
-primaryScreen
-;
 if
 (
 mDepth
@@ -2583,6 +2577,12 @@ mDepth
 0
 )
 {
+nsCOMPtr
+<
+nsIScreen
+>
+primaryScreen
+;
 mScreenManager
 -
 >
