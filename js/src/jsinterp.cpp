@@ -13328,6 +13328,7 @@ namespace
 js
 {
 JS_REQUIRES_STACK
+JS_NEVER_INLINE
 bool
 Interpret
 (
