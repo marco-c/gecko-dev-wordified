@@ -730,6 +730,13 @@ __ARM_ARCH_6J__
 \
 defined
 (
+__ARM_ARCH_6K__
+)
+|
+|
+\
+defined
+(
 __ARM_ARCH_6T2__
 )
 |
