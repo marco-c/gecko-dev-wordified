@@ -7480,7 +7480,7 @@ objects
 caching
 slots
 or
-sprops
+shapes
 *
 instead
 because
@@ -7496,7 +7496,7 @@ methods
 for
 *
 which
-sprop
+shape
 -
 >
 isMethod
