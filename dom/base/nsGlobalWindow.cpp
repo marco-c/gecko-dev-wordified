@@ -12908,6 +12908,13 @@ mContext
 >
 GC
 (
+js
+:
+:
+gcreason
+:
+:
+SET_NEW_DOCUMENT
 )
 ;
 mContext
@@ -13798,6 +13805,13 @@ mContext
 >
 GC
 (
+js
+:
+:
+gcreason
+:
+:
+SET_DOC_SHELL
 )
 ;
 mContext

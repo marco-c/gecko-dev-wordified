@@ -8664,7 +8664,7 @@ rt
 js
 :
 :
-gcstats
+gcreason
 :
 :
 Reason
@@ -8693,7 +8693,7 @@ comp
 js
 :
 :
-gcstats
+gcreason
 :
 :
 Reason
@@ -8801,7 +8801,7 @@ gckind
 js
 :
 :
-gcstats
+gcreason
 :
 :
 Reason

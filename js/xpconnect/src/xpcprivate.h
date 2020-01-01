@@ -4038,10 +4038,10 @@ virtual
 void
 Collect
 (
-bool
-shrinkingGC
-=
-false
+PRUint32
+reason
+PRUint32
+kind
 )
 ;
 #
