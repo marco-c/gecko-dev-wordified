@@ -70,8 +70,6 @@ with_statement
 import
 sys
 os
-tempfile
-shutil
 from
 optparse
 import
@@ -81,10 +79,6 @@ mozprocess
 mozinfo
 mozlog
 mozcrash
-from
-contextlib
-import
-contextmanager
 log
 =
 mozlog
