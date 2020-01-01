@@ -8856,7 +8856,10 @@ return
 true
 ;
 }
+JS_PUBLIC_API
+(
 bool
+)
 ToUint32Slow
 (
 JSContext
@@ -8931,8 +8934,11 @@ return
 true
 ;
 }
+JS_PUBLIC_API
+(
 bool
-ValueToUint16Slow
+)
+ToUint16Slow
 (
 JSContext
 *
