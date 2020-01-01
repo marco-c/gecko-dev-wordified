@@ -2651,7 +2651,6 @@ closure
 js_NewGCObject
 (
 cx
-GCX_OBJECT
 )
 ;
 if
