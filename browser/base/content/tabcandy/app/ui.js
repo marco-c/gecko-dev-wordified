@@ -6019,6 +6019,12 @@ tab
 hidden
 =
 hidden
+&
+&
+!
+tab
+.
+pinned
 ;
 }
 )
