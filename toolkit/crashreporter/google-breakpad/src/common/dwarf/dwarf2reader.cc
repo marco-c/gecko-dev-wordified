@@ -1186,8 +1186,6 @@ start
 form
 )
 ;
-break
-;
 case
 DW_FORM_data1
 :
@@ -1202,8 +1200,6 @@ start
 +
 1
 ;
-break
-;
 case
 DW_FORM_ref2
 :
@@ -1214,8 +1210,6 @@ return
 start
 +
 2
-;
-break
 ;
 case
 DW_FORM_ref4
@@ -1228,8 +1222,6 @@ start
 +
 4
 ;
-break
-;
 case
 DW_FORM_ref8
 :
@@ -1240,8 +1232,6 @@ return
 start
 +
 8
-;
-break
 ;
 case
 DW_FORM_string
@@ -1255,8 +1245,6 @@ start
 )
 +
 1
-;
-break
 ;
 case
 DW_FORM_udata
@@ -1279,8 +1267,6 @@ start
 +
 len
 ;
-break
-;
 case
 DW_FORM_sdata
 :
@@ -1299,8 +1285,6 @@ start
 +
 len
 ;
-break
-;
 case
 DW_FORM_addr
 :
@@ -1313,8 +1297,6 @@ reader_
 AddressSize
 (
 )
-;
-break
 ;
 case
 DW_FORM_ref_addr
@@ -1398,8 +1380,6 @@ OffsetSize
 )
 ;
 }
-break
-;
 case
 DW_FORM_block1
 :
@@ -1415,8 +1395,6 @@ ReadOneByte
 (
 start
 )
-;
-break
 ;
 case
 DW_FORM_block2
@@ -1434,8 +1412,6 @@ ReadTwoBytes
 start
 )
 ;
-break
-;
 case
 DW_FORM_block4
 :
@@ -1451,8 +1427,6 @@ ReadFourBytes
 (
 start
 )
-;
-break
 ;
 case
 DW_FORM_block
@@ -1479,8 +1453,6 @@ size
 len
 ;
 }
-break
-;
 case
 DW_FORM_strp
 :
@@ -1492,20 +1464,6 @@ reader_
 >
 OffsetSize
 (
-)
-;
-break
-;
-default
-:
-fprintf
-(
-stderr
-"
-Unhandled
-form
-type
-"
 )
 ;
 }
@@ -2306,8 +2264,6 @@ attr
 form
 )
 ;
-break
-;
 case
 DW_FORM_data1
 :
@@ -2336,8 +2292,6 @@ start
 +
 1
 ;
-break
-;
 case
 DW_FORM_data2
 :
@@ -2362,8 +2316,6 @@ return
 start
 +
 2
-;
-break
 ;
 case
 DW_FORM_data4
@@ -2390,8 +2342,6 @@ start
 +
 4
 ;
-break
-;
 case
 DW_FORM_data8
 :
@@ -2416,8 +2366,6 @@ return
 start
 +
 8
-;
-break
 ;
 case
 DW_FORM_string
@@ -2452,8 +2400,6 @@ str
 1
 ;
 }
-break
-;
 case
 DW_FORM_udata
 :
@@ -2481,8 +2427,6 @@ start
 +
 len
 ;
-break
-;
 case
 DW_FORM_sdata
 :
@@ -2509,8 +2453,6 @@ return
 start
 +
 len
-;
-break
 ;
 case
 DW_FORM_addr
@@ -2542,8 +2484,6 @@ AddressSize
 (
 )
 ;
-break
-;
 case
 DW_FORM_ref1
 :
@@ -2570,8 +2510,6 @@ return
 start
 +
 1
-;
-break
 ;
 case
 DW_FORM_ref2
@@ -2600,8 +2538,6 @@ start
 +
 2
 ;
-break
-;
 case
 DW_FORM_ref4
 :
@@ -2629,8 +2565,6 @@ start
 +
 4
 ;
-break
-;
 case
 DW_FORM_ref8
 :
@@ -2657,8 +2591,6 @@ return
 start
 +
 8
-;
-break
 ;
 case
 DW_FORM_ref_udata
@@ -2688,8 +2620,6 @@ return
 start
 +
 len
-;
-break
 ;
 case
 DW_FORM_ref_addr
@@ -2846,8 +2776,6 @@ start
 datalen
 ;
 }
-break
-;
 case
 DW_FORM_block2
 :
@@ -2885,8 +2813,6 @@ start
 datalen
 ;
 }
-break
-;
 case
 DW_FORM_block4
 :
@@ -2924,8 +2850,6 @@ start
 datalen
 ;
 }
-break
-;
 case
 DW_FORM_block
 :
@@ -2965,8 +2889,6 @@ datalen
 len
 ;
 }
-break
-;
 case
 DW_FORM_strp
 :
@@ -3033,20 +2955,6 @@ OffsetSize
 )
 ;
 }
-break
-;
-default
-:
-fprintf
-(
-stderr
-"
-Unhandled
-form
-type
-"
-)
-;
 }
 fprintf
 (
@@ -3055,6 +2963,8 @@ stderr
 Unhandled
 form
 type
+\
+n
 "
 )
 ;
