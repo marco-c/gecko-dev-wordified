@@ -2234,7 +2234,7 @@ js_PutArgsObject
 /
 JSObject
 *
-FASTCALL
+JS_FASTCALL
 js_Arguments
 (
 JSContext
