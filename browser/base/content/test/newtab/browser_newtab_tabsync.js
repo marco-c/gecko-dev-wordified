@@ -84,6 +84,17 @@ runTests
 (
 )
 {
+/
+/
+Disabled
+until
+bug
+716543
+is
+fixed
+.
+return
+;
 setLinks
 (
 "
