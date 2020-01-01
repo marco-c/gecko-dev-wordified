@@ -21418,7 +21418,7 @@ LOG
 "
 Verifying
 XPI
-signiture
+signature
 "
 )
 ;
