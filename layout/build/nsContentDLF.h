@@ -435,13 +435,6 @@ h
 #
 include
 "
-nsIDocumentViewer
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -458,9 +451,6 @@ nsIChannel
 ;
 class
 nsIContentViewer
-;
-class
-nsIDocumentViewer
 ;
 class
 nsIFile
@@ -564,7 +554,7 @@ aDocListener
 nsIContentViewer
 *
 *
-aDocViewer
+aContentViewer
 )
 ;
 nsresult
@@ -597,7 +587,7 @@ aDocListener
 nsIContentViewer
 *
 *
-aDocViewer
+aContentViewer
 )
 ;
 private

@@ -727,13 +727,6 @@ h
 #
 include
 "
-nsIDocumentViewer
-.
-h
-"
-#
-include
-"
 nsIWindowProvider
 .
 h

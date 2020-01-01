@@ -476,7 +476,7 @@ h
 #
 include
 "
-nsIDocumentViewer
+nsIContentViewer
 .
 h
 "
@@ -495,9 +495,6 @@ nsIPresShell
 ;
 class
 nsIRequest
-;
-class
-nsIDocumentViewer
 ;
 class
 nsILoadGroup
@@ -1167,7 +1164,7 @@ SetupViewer
 nsIRequest
 *
 aRequest
-nsIDocumentViewer
+nsIContentViewer
 *
 *
 aViewer
@@ -1199,7 +1196,7 @@ FlushLayout
 ;
 nsCOMPtr
 <
-nsIDocumentViewer
+nsIContentViewer
 >
 mViewer
 ;

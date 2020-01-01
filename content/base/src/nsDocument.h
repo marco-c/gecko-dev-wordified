@@ -766,7 +766,7 @@ h
 #
 include
 "
-nsIDocumentViewer
+nsIContentViewer
 .
 h
 "
@@ -2254,7 +2254,7 @@ aRequestingNode
 Set
 up
 an
-nsIDocumentViewer
+nsIContentViewer
 based
 on
 aRequest
@@ -2284,7 +2284,7 @@ SetupViewer
 nsIRequest
 *
 aRequest
-nsIDocumentViewer
+nsIContentViewer
 *
 *
 aViewer
@@ -2676,7 +2676,7 @@ AddExternalResource
 nsIURI
 *
 aURI
-nsIDocumentViewer
+nsIContentViewer
 *
 aViewer
 nsILoadGroup
