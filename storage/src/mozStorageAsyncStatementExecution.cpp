@@ -2139,9 +2139,7 @@ mDBMutex
 int
 rc
 =
-:
-:
-sqlite3_step
+stepStmt
 (
 aStatement
 )
