@@ -854,7 +854,8 @@ __RPC_FAR
 pszValue
 )
 ;
-NS_IMETHOD
+virtual
+void
 FireAnchorJumpEvent
 (
 )

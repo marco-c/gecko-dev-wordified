@@ -487,14 +487,7 @@ last
 nsRootAccessible
 is
 destroyed
-via
-*
-nsRootAccessible
-:
-:
-ShutdownAll
-(
-)
+.
 *
 /
 class

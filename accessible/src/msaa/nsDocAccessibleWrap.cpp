@@ -1310,7 +1310,7 @@ return
 E_FAIL
 ;
 }
-NS_IMETHODIMP
+void
 nsDocAccessibleWrap
 :
 :
@@ -1419,7 +1419,6 @@ if
 mIsAnchorJumped
 )
 return
-NS_OK
 ;
 nsCOMPtr
 <
@@ -1449,11 +1448,8 @@ if
 !
 selCon
 )
-{
 return
-NS_OK
 ;
-}
 nsCOMPtr
 <
 nsISelection
@@ -1480,11 +1476,8 @@ if
 !
 domSel
 )
-{
 return
-NS_OK
 ;
-}
 domSel
 -
 >
@@ -1540,9 +1533,6 @@ nsIAccessibleEvent
 EVENT_SCROLLING_START
 accessible
 )
-;
-return
-NS_OK
 ;
 }
 STDMETHODIMP
