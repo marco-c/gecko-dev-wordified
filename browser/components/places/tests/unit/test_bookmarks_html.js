@@ -898,7 +898,7 @@ browser
 .
 places
 .
-createdDefaultQueries
+createdSmartBookmarks
 "
 true
 )

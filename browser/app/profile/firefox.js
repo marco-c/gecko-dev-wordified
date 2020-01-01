@@ -6934,7 +6934,8 @@ will
 add
 the
 "
-Places
+Smart
+Bookmarks
 "
 folder
 to
@@ -6948,7 +6949,7 @@ browser
 .
 places
 .
-createdDefaultQueries
+createdSmartBookmarks
 "
 false
 )
