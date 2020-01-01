@@ -8646,9 +8646,8 @@ rv
 endif
 downloadDir
 .
-swap
+forget
 (
-*
 aResult
 )
 ;
@@ -8840,9 +8839,8 @@ rv
 ;
 downloadDir
 .
-swap
+forget
 (
-*
 aResult
 )
 ;
@@ -8945,9 +8943,8 @@ rv
 {
 customDirectory
 .
-swap
+forget
 (
-*
 aResult
 )
 ;
@@ -9026,9 +9023,8 @@ directory
 {
 customDirectory
 .
-swap
+forget
 (
-*
 aResult
 )
 ;
