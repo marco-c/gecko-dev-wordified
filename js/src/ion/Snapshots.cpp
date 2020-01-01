@@ -1487,6 +1487,14 @@ spewBailingFrom
 )
 const
 {
+if
+(
+IonSpewEnabled
+(
+IonSpew_Bailouts
+)
+)
+{
 IonSpewHeader
 (
 IonSpew_Bailouts
@@ -1576,6 +1584,7 @@ n
 "
 )
 ;
+}
 }
 #
 endif
