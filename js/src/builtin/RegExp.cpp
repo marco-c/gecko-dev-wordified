@@ -967,6 +967,9 @@ rval
 {
 RegExpGuard
 shared
+(
+cx
+)
 ;
 if
 (
@@ -1724,6 +1727,9 @@ flags
 {
 RegExpGuard
 g
+(
+cx
+)
 ;
 if
 (
@@ -3705,6 +3711,9 @@ asRegExp
 ;
 RegExpGuard
 re
+(
+cx
+)
 ;
 if
 (

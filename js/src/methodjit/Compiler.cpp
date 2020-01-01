@@ -49934,6 +49934,9 @@ compilation
 /
 RegExpGuard
 g
+(
+cx
+)
 ;
 if
 (

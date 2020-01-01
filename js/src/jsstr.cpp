@@ -9738,6 +9738,10 @@ JSContext
 cx
 )
 :
+re_
+(
+cx
+)
 fm
 (
 cx
@@ -10275,9 +10279,15 @@ opt
 NULL
 ;
 }
+Rooted
+<
 JSAtom
 *
+>
 patstr
+(
+cx
+)
 ;
 if
 (
@@ -18166,6 +18176,9 @@ Step
 /
 RegExpGuard
 re
+(
+cx
+)
 ;
 JSLinearString
 *

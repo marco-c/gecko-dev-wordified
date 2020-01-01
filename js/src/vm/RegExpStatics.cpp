@@ -543,6 +543,9 @@ expression
 /
 RegExpGuard
 shared
+(
+cx
+)
 ;
 if
 (
