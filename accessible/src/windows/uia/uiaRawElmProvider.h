@@ -134,6 +134,13 @@ h
 #
 include
 "
+IUnknownImpl
+.
+h
+"
+#
+include
+"
 uiautomation
 .
 h
@@ -179,10 +186,6 @@ AccessibleWrap
 aAcc
 )
 :
-mRefCnt
-(
-0
-)
 mAcc
 (
 aAcc

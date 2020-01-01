@@ -136,6 +136,13 @@ ia2AccessibleHypertext
 .
 h
 "
+#
+include
+"
+IUnknownImpl
+.
+h
+"
 namespace
 mozilla
 {
