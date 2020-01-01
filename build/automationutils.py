@@ -4179,6 +4179,11 @@ if
 self
 .
 currentTest
+and
+(
+self
+.
+currentTest
 [
 "
 windows
@@ -4193,6 +4198,7 @@ currentTest
 docShells
 "
 ]
+)
 :
         
 self
