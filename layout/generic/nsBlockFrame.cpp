@@ -22907,6 +22907,7 @@ allocate
 on
 the
 stack
+.
 nsLineLayout
 lineLayout
 (
