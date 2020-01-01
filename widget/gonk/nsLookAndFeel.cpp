@@ -1555,7 +1555,7 @@ AssignLiteral
 "
 \
 "
-Droid
+Fira
 Sans
 \
 "
