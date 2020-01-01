@@ -1230,6 +1230,9 @@ globalShutdown
 self
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 /
 /
 Set
@@ -1259,6 +1262,8 @@ onPrivateBrowsingMode
 self
 )
 ;
+#
+endif
 /
 /
 Set
@@ -1908,6 +1913,9 @@ globalShutdown
 self
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 this
 .
 _obs
@@ -1925,6 +1933,8 @@ onPrivateBrowsingMode
 self
 )
 ;
+#
+endif
 this
 .
 _loader
@@ -2024,6 +2034,9 @@ browser
 )
 ;
 }
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 onPrivateBrowsingMode
 :
 function
@@ -2100,6 +2113,8 @@ onExitPrivateBrowsing
 }
 }
 }
+#
+endif
 onWindowUnload
 :
 function

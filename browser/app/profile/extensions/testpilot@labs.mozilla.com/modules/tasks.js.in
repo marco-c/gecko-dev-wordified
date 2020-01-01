@@ -1036,6 +1036,9 @@ shutting
 down
 .
 }
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 onEnterPrivateBrowsing
 :
 function
@@ -1052,6 +1055,8 @@ TestPilotTask_onExitPrivate
 )
 {
 }
+#
+endif
 onNewWindow
 :
 function
@@ -3414,6 +3419,9 @@ e
 }
 }
 }
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 onEnterPrivateBrowsing
 :
 function
@@ -3544,6 +3552,8 @@ e
 }
 }
 }
+#
+endif
 getStudyMetadata
 :
 function
