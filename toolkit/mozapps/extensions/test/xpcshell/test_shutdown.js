@@ -131,6 +131,9 @@ recordSimpleMeasure
 "
 getSimpleMeasures
 "
+"
+simpleTimer
+"
 ]
 ;
 function
