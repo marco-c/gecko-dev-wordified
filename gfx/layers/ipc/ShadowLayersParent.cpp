@@ -2182,9 +2182,6 @@ newFrontBuffer
 (
 )
 ;
-#
-ifdef
-MOZ_RENDERTRACE
 RenderTraceInvalidateStart
 (
 thebes
@@ -2202,8 +2199,6 @@ GetBounds
 )
 )
 ;
-#
-endif
 OptionalThebesBuffer
 newBack
 ;
@@ -2252,9 +2247,6 @@ frontUpdatedRegion
 )
 )
 ;
-#
-ifdef
-MOZ_RENDERTRACE
 RenderTraceInvalidateEnd
 (
 thebes
@@ -2263,8 +2255,6 @@ thebes
 "
 )
 ;
-#
-endif
 break
 ;
 }
@@ -2326,9 +2316,6 @@ AsLayer
 )
 )
 ;
-#
-ifdef
-MOZ_RENDERTRACE
 RenderTraceInvalidateStart
 (
 canvas
@@ -2347,8 +2334,6 @@ GetBounds
 )
 )
 ;
-#
-endif
 canvas
 -
 >
@@ -2398,9 +2383,6 @@ newBack
 )
 )
 ;
-#
-ifdef
-MOZ_RENDERTRACE
 RenderTraceInvalidateEnd
 (
 canvas
@@ -2409,8 +2391,6 @@ canvas
 "
 )
 ;
-#
-endif
 break
 ;
 }
