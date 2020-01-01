@@ -1949,6 +1949,10 @@ DOMCI_CLASS
 (
 WebGLRenderbuffer
 )
+DOMCI_CLASS
+(
+WebGLUniformLocation
+)
 /
 /
 WebGL
