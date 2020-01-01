@@ -905,6 +905,16 @@ PRFileDesc
 *
 mReplacedSSLFileDesc
 ;
+PRBool
+mOneBytePendingFromEarlierWrite
+;
+unsigned
+char
+mThePendingByte
+;
+PRInt32
+mOriginalRequestedTransferAmount
+;
 }
 ;
 class
