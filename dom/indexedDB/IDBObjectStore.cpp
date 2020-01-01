@@ -6425,15 +6425,6 @@ rv
 )
 ;
 }
-nsString
-targetObjectPropName
-;
-JSObject
-*
-targetObject
-=
-nsnull
-;
 GetAddInfoClosure
 data
 =
