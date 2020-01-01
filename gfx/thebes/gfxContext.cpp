@@ -6706,6 +6706,8 @@ lastReset
 =
 i
 ;
+break
+;
 }
 }
 /
@@ -12551,6 +12553,8 @@ lastReset
 =
 i
 ;
+break
+;
 }
 }
 /
@@ -13296,6 +13300,8 @@ clipWasReset
 lastReset
 =
 i
+;
+break
 ;
 }
 }
