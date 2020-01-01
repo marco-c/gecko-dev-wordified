@@ -8387,6 +8387,17 @@ is
 called
 .
 *
+*
+This
+method
+must
+not
+return
+a
+negative
+value
+.
+*
 /
 virtual
 nscoord
