@@ -774,6 +774,8 @@ occurred
 .
 *
 /
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -4801,7 +4803,8 @@ expireEndCountFailure
 )
 ;
 }
-const
+this
+.
 FormHistory
 =
 {
