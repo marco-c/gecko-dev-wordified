@@ -14724,7 +14724,11 @@ cx
 >
 updateMallocCounter
 (
+(
 length
++
+1
+)
 *
 sizeof
 (
