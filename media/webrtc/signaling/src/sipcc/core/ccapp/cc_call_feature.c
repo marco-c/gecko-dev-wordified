@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+timecard
+.
+h
+"
+#
+include
+"
 cc_call_feature
 .
 h
@@ -630,6 +637,9 @@ string_t
 data
 string_t
 data1
+Timecard
+*
+tc
 )
 {
 session_feature_t
@@ -719,6 +729,16 @@ ccData
 constraints
 =
 constraints
+;
+callFeature
+.
+featData
+.
+ccData
+.
+timecard
+=
+tc
 ;
 CCAPP_DEBUG
 (
@@ -1780,6 +1800,9 @@ call_handle
 cc_media_constraints_t
 *
 constraints
+Timecard
+*
+tc
 )
 {
 CCAPP_DEBUG
@@ -1813,6 +1836,7 @@ NO_STREAM
 constraints
 NULL
 NULL
+tc
 )
 ;
 }
@@ -1824,6 +1848,9 @@ call_handle
 cc_media_constraints_t
 *
 constraints
+Timecard
+*
+tc
 )
 {
 CCAPP_DEBUG
@@ -1857,6 +1884,7 @@ NO_STREAM
 constraints
 NULL
 NULL
+tc
 )
 ;
 }
@@ -1869,6 +1897,9 @@ cc_jsep_action_t
 action
 string_t
 sdp
+Timecard
+*
+tc
 )
 {
 cc_media_constraints_t
@@ -1908,6 +1939,7 @@ NO_STREAM
 constraints
 sdp
 NULL
+tc
 )
 ;
 }
@@ -1920,6 +1952,9 @@ cc_jsep_action_t
 action
 string_t
 sdp
+Timecard
+*
+tc
 )
 {
 cc_media_constraints_t
@@ -1959,6 +1994,7 @@ NO_STREAM
 constraints
 sdp
 NULL
+tc
 )
 ;
 }
@@ -2007,6 +2043,7 @@ NO_STREAM
 0
 constraints
 pc
+NULL
 NULL
 )
 ;
@@ -2059,6 +2096,7 @@ track_id
 media_type
 0
 constraints
+NULL
 NULL
 NULL
 )
@@ -2114,6 +2152,7 @@ media_type
 constraints
 NULL
 NULL
+NULL
 )
 ;
 }
@@ -2132,6 +2171,9 @@ char
 mid
 cc_level_t
 level
+Timecard
+*
+tc
 )
 {
 cc_media_constraints_t
@@ -2174,6 +2216,7 @@ level
 constraints
 candidate
 mid
+tc
 )
 ;
 }

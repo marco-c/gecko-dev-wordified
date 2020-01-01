@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+timecard
+.
+h
+"
+#
+include
+"
 cpr_stdio
 .
 h
@@ -538,6 +545,9 @@ handle
 cc_media_constraints_t
 *
 constraints
+Timecard
+*
+tc
 )
 {
 return
@@ -545,6 +555,7 @@ CC_CallFeature_CreateOffer
 (
 handle
 constraints
+tc
 )
 ;
 }
@@ -556,6 +567,9 @@ handle
 cc_media_constraints_t
 *
 constraints
+Timecard
+*
+tc
 )
 {
 return
@@ -563,6 +577,7 @@ CC_CallFeature_CreateAnswer
 (
 handle
 constraints
+tc
 )
 ;
 }
@@ -575,6 +590,9 @@ cc_jsep_action_t
 action
 cc_string_t
 sdp
+Timecard
+*
+tc
 )
 {
 return
@@ -583,6 +601,7 @@ CC_CallFeature_SetLocalDescription
 handle
 action
 sdp
+tc
 )
 ;
 }
@@ -595,6 +614,9 @@ cc_jsep_action_t
 action
 cc_string_t
 sdp
+Timecard
+*
+tc
 )
 {
 return
@@ -603,6 +625,7 @@ CC_CallFeature_SetRemoteDescription
 handle
 action
 sdp
+tc
 )
 ;
 }
@@ -680,6 +703,9 @@ cc_string_t
 mid
 cc_level_t
 level
+Timecard
+*
+tc
 )
 {
 return
@@ -689,6 +715,7 @@ handle
 candidate
 mid
 level
+tc
 )
 ;
 }
