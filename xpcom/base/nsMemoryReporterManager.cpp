@@ -881,7 +881,7 @@ committed
 "
 Malloc
 bytes
-commited
+committed
 (
 readable
 /
@@ -938,7 +938,7 @@ committed
 "
 Malloc
 bytes
-commited
+committed
 (
 r
 /
