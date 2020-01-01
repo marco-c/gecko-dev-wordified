@@ -8400,10 +8400,6 @@ nsMargin
 )
 )
 {
-nsDisplayBackground
-*
-bg
-;
 nsresult
 rv
 =
@@ -8412,8 +8408,6 @@ DisplayBackgroundUnconditional
 aBuilder
 aLists
 false
-&
-bg
 )
 ;
 NS_ENSURE_SUCCESS
