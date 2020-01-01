@@ -542,6 +542,13 @@ h
 #
 include
 "
+jspropertycache
+.
+h
+"
+#
+include
+"
 jspropertytree
 .
 h
