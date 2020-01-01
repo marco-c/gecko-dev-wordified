@@ -2696,6 +2696,13 @@ aAscent
 gfxFloat
 aSize
 const
+nsCharClipDisplayItem
+:
+:
+ClipEdges
+&
+aClipEdges
+const
 PRUint8
 aDecoration
 )
