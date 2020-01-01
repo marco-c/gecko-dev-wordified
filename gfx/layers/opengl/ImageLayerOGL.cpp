@@ -2214,7 +2214,6 @@ tex_offset_u
 =
 float
 (
-(
 rect
 .
 x
@@ -2223,13 +2222,11 @@ iwidth
 )
 /
 iwidth
-)
 ;
 float
 tex_offset_v
 =
 float
-(
 (
 rect
 .
@@ -2239,7 +2236,6 @@ iheight
 )
 /
 iheight
-)
 ;
 triangleBuffer
 .
