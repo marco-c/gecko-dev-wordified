@@ -803,6 +803,10 @@ CSSMozDocumentRule
 )
 DOMCI_CLASS
 (
+CSSSupportsRule
+)
+DOMCI_CLASS
+(
 BeforeUnloadEvent
 )
 /
