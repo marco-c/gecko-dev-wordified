@@ -996,7 +996,7 @@ GetAutoArrayBuffer
 ;
 /
 /
-copy
+Copy
 data
 but
 don
@@ -1007,7 +1007,7 @@ the
 header
 to
 avoid
-overwritng
+overwriting
 mCapacity
 header
 -
