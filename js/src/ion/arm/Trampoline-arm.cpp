@@ -3382,8 +3382,8 @@ moveValue
 UndefinedValue
 (
 )
-r4
 r5
+r4
 )
 ;
 masm
