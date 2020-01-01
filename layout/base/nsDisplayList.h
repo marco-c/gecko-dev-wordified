@@ -4617,6 +4617,13 @@ aFrame
 )
 ;
 }
+else
+{
+mReferenceFrame
+=
+nullptr
+;
+}
 }
 nsDisplayItem
 (
@@ -9004,6 +9011,9 @@ ComputeVisibilityForSublist
 nsDisplayListBuilder
 *
 aBuilder
+nsDisplayItem
+*
+aForItem
 nsRegion
 *
 aVisibleRegion
