@@ -691,6 +691,12 @@ GetFirstChildOGL
 ;
 virtual
 void
+Validate
+(
+)
+;
+virtual
+void
 RenderLayer
 (
 int
