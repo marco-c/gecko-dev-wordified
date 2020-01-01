@@ -2056,7 +2056,7 @@ if
 !
 tmp
 .
-resizeUninitialized
+resize
 (
 n
 )
