@@ -80,6 +80,13 @@ h
 #
 include
 "
+logging
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -116,13 +123,6 @@ h
 include
 "
 dtlsidentity
-.
-h
-"
-#
-include
-"
-logging
 .
 h
 "

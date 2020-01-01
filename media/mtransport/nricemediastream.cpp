@@ -400,6 +400,13 @@ vector
 #
 include
 "
+logging
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -509,13 +516,6 @@ h
 /
 Local
 includes
-#
-include
-"
-logging
-.
-h
-"
 #
 include
 "

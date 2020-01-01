@@ -123,6 +123,13 @@ com
 #
 include
 "
+logging
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -180,13 +187,6 @@ h
 include
 "
 nsXPCOM
-.
-h
-"
-#
-include
-"
-logging
 .
 h
 "

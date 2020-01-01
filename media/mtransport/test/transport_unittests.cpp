@@ -145,6 +145,13 @@ h
 #
 include
 "
+logging
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -237,13 +244,6 @@ h
 include
 "
 transportlayerloopback
-.
-h
-"
-#
-include
-"
-logging
 .
 h
 "
