@@ -27293,7 +27293,7 @@ bool
 js
 :
 :
-LookupNameForSet
+LookupNameWithGlobalDefault
 (
 JSContext
 *

@@ -14201,7 +14201,7 @@ cx
 if
 (
 !
-LookupNameForSet
+LookupNameWithGlobalDefault
 (
 cx
 name

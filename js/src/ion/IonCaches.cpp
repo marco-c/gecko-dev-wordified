@@ -6758,7 +6758,7 @@ else
 if
 (
 !
-LookupNameForSet
+LookupNameWithGlobalDefault
 (
 cx
 name
