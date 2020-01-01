@@ -680,7 +680,7 @@ AllowGC
 allowGC
 >
 extern
-JSBool
+bool
 LookupProperty
 (
 ExclusiveContext
@@ -732,7 +732,7 @@ propp
 )
 ;
 extern
-JSBool
+bool
 LookupElement
 (
 JSContext
@@ -749,7 +749,7 @@ propp
 )
 ;
 extern
-JSBool
+bool
 DefineGeneric
 (
 ExclusiveContext
@@ -770,7 +770,7 @@ attrs
 )
 ;
 extern
-JSBool
+bool
 DefineElement
 (
 ExclusiveContext
@@ -791,7 +791,7 @@ attrs
 )
 ;
 extern
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -808,7 +808,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 GetPropertyNoGC
 (
 JSContext
@@ -828,7 +828,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 GetElement
 (
 JSContext
@@ -845,7 +845,7 @@ vp
 )
 ;
 inline
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -871,7 +871,7 @@ vp
 ;
 }
 inline
-JSBool
+bool
 GetElement
 (
 JSContext
@@ -897,7 +897,7 @@ vp
 ;
 }
 extern
-JSBool
+bool
 GetPropertyDefault
 (
 JSContext
@@ -914,7 +914,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 SetPropertyHelper
 (
 JSContext
@@ -930,7 +930,7 @@ unsigned
 defineHow
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
@@ -952,7 +952,7 @@ unsigned
 defineHow
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -983,7 +983,7 @@ strict
 ;
 }
 extern
-JSBool
+bool
 SetElementHelper
 (
 JSContext
@@ -999,7 +999,7 @@ unsigned
 defineHow
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
@@ -1015,7 +1015,7 @@ obj
 )
 ;
 extern
-JSBool
+bool
 GetAttributes
 (
 JSContext
@@ -1031,7 +1031,7 @@ attrsp
 )
 ;
 extern
-JSBool
+bool
 SetAttributes
 (
 JSContext
@@ -1047,7 +1047,7 @@ attrsp
 )
 ;
 extern
-JSBool
+bool
 GetElementAttributes
 (
 JSContext
@@ -1063,7 +1063,7 @@ attrsp
 )
 ;
 extern
-JSBool
+bool
 SetElementAttributes
 (
 JSContext
@@ -1079,7 +1079,7 @@ attrsp
 )
 ;
 extern
-JSBool
+bool
 DeleteProperty
 (
 JSContext
@@ -1089,13 +1089,13 @@ HandleObject
 obj
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
 ;
 extern
-JSBool
+bool
 DeleteElement
 (
 JSContext
@@ -1105,13 +1105,13 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
 ;
 extern
-JSBool
+bool
 DeleteSpecial
 (
 JSContext
@@ -1121,13 +1121,13 @@ HandleObject
 obj
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
 ;
 extern
-JSBool
+bool
 DeleteGeneric
 (
 JSContext
@@ -1137,7 +1137,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -5482,7 +5482,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 lookupGeneric
 (
 JSContext
@@ -5511,7 +5511,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 lookupProperty
 (
 JSContext
@@ -5568,7 +5568,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 lookupElement
 (
 JSContext
@@ -5633,7 +5633,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 lookupSpecial
 (
 JSContext
@@ -5686,7 +5686,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 defineGeneric
 (
 js
@@ -5725,7 +5725,7 @@ JSPROP_ENUMERATE
 )
 ;
 static
-JSBool
+bool
 defineProperty
 (
 js
@@ -5765,7 +5765,7 @@ JSPROP_ENUMERATE
 )
 ;
 static
-JSBool
+bool
 defineElement
 (
 js
@@ -5801,7 +5801,7 @@ JSPROP_ENUMERATE
 )
 ;
 static
-JSBool
+bool
 defineSpecial
 (
 js
@@ -5840,7 +5840,7 @@ JSPROP_ENUMERATE
 )
 ;
 static
-JSBool
+bool
 getGeneric
 (
 JSContext
@@ -5934,7 +5934,7 @@ true
 ;
 }
 static
-JSBool
+bool
 getGenericNoGC
 (
 JSContext
@@ -5997,7 +5997,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 getProperty
 (
 JSContext
@@ -6054,7 +6054,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 getPropertyNoGC
 (
 JSContext
@@ -6099,7 +6099,7 @@ vp
 }
 static
 inline
-JSBool
+bool
 getElement
 (
 JSContext
@@ -6126,7 +6126,7 @@ vp
 ;
 static
 inline
-JSBool
+bool
 getElementNoGC
 (
 JSContext
@@ -6183,7 +6183,7 @@ garbage
 /
 static
 inline
-JSBool
+bool
 getElementIfPresent
 (
 JSContext
@@ -6212,7 +6212,7 @@ present
 )
 ;
 static
-JSBool
+bool
 getSpecial
 (
 JSContext
@@ -6265,7 +6265,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 setGeneric
 (
 JSContext
@@ -6291,7 +6291,7 @@ js
 :
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -6337,7 +6337,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 setProperty
 (
 JSContext
@@ -6364,7 +6364,7 @@ js
 :
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -6397,7 +6397,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 setElement
 (
 JSContext
@@ -6420,7 +6420,7 @@ js
 :
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -6466,7 +6466,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 setSpecial
 (
 JSContext
@@ -6492,7 +6492,7 @@ js
 :
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -6522,7 +6522,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 nonNativeSetProperty
 (
 JSContext
@@ -6543,12 +6543,12 @@ js
 :
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 nonNativeSetElement
 (
 JSContext
@@ -6566,12 +6566,12 @@ js
 :
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 getGenericAttributes
 (
 JSContext
@@ -6631,7 +6631,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 getPropertyAttributes
 (
 JSContext
@@ -6681,7 +6681,7 @@ attrsp
 }
 static
 inline
-JSBool
+bool
 getElementAttributes
 (
 JSContext
@@ -6700,7 +6700,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 getSpecialAttributes
 (
 JSContext
@@ -6746,7 +6746,7 @@ attrsp
 }
 static
 inline
-JSBool
+bool
 setGenericAttributes
 (
 JSContext
@@ -6769,7 +6769,7 @@ attrsp
 ;
 static
 inline
-JSBool
+bool
 setPropertyAttributes
 (
 JSContext
@@ -6793,7 +6793,7 @@ attrsp
 ;
 static
 inline
-JSBool
+bool
 setElementAttributes
 (
 JSContext
@@ -6813,7 +6813,7 @@ attrsp
 ;
 static
 inline
-JSBool
+bool
 setSpecialAttributes
 (
 JSContext
@@ -6852,7 +6852,7 @@ js
 :
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
@@ -6872,7 +6872,7 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -6895,7 +6895,7 @@ js
 :
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
@@ -6919,7 +6919,7 @@ js
 Value
 &
 property
-JSBool
+bool
 *
 succeeded
 )
@@ -7982,7 +7982,7 @@ AllowGC
 allowGC
 >
 extern
-JSBool
+bool
 HasOwnProperty
 (
 JSContext
@@ -8160,7 +8160,7 @@ js_lookupSetter_str
 #
 endif
 extern
-JSBool
+bool
 js_PopulateObject
 (
 JSContext
@@ -8379,7 +8379,7 @@ namespace
 js
 {
 extern
-JSBool
+bool
 DefineOwnProperty
 (
 JSContext
@@ -8400,13 +8400,13 @@ JS
 :
 HandleValue
 descriptor
-JSBool
+bool
 *
 bp
 )
 ;
 extern
-JSBool
+bool
 DefineOwnProperty
 (
 JSContext
@@ -8429,7 +8429,7 @@ js
 PropertyDescriptor
 &
 descriptor
-JSBool
+bool
 *
 bp
 )
@@ -9317,7 +9317,7 @@ unlocked
 *
 /
 extern
-JSBool
+bool
 js_NativeGet
 (
 JSContext
@@ -9369,7 +9369,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_NativeSet
 (
 JSContext
@@ -9657,7 +9657,7 @@ vp
 ;
 }
 extern
-JSBool
+bool
 CheckAccess
 (
 JSContext
@@ -9750,7 +9750,7 @@ undefined
 *
 /
 extern
-JSBool
+bool
 js_PrimitiveToObject
 (
 JSContext
@@ -9765,7 +9765,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_ValueToObjectOrNull
 (
 JSContext
@@ -10008,7 +10008,7 @@ bufsize
 )
 ;
 extern
-JSBool
+bool
 js_ReportGetterOnlyAssignment
 (
 JSContext

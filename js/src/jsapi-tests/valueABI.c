@@ -121,7 +121,7 @@ testValueABI
 cpp
 *
 /
-JSBool
+bool
 C_ValueToObject
 (
 JSContext

@@ -233,7 +233,7 @@ xpc_map_end
 h
 "
 static
-JSBool
+bool
 SealObjectAndPrototype
 (
 JSContext
@@ -368,7 +368,7 @@ prototype
 ;
 }
 static
-JSBool
+bool
 InitAndSealPerfMeasurementClass
 (
 JSContext

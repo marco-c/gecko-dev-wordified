@@ -778,7 +778,7 @@ lock
 #
 ifdef
 DEBUG
-JSBool
+bool
 jsd_IsLocked
 (
 JSDStaticLock
@@ -1081,7 +1081,7 @@ lock
 #
 ifdef
 DEBUG
-JSBool
+bool
 jsd_IsLocked
 (
 void

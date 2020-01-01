@@ -215,7 +215,7 @@ h
 static
 *
 /
-JSBool
+bool
 nsJSPrincipals
 :
 :

@@ -67,7 +67,7 @@ tests
 .
 h
 "
-JSBool
+bool
 OperationCallback
 (
 JSContext
@@ -83,7 +83,7 @@ static
 unsigned
 sRemain
 ;
-JSBool
+bool
 TriggerOperationCallback
 (
 JSContext

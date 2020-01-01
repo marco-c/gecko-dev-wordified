@@ -4067,7 +4067,7 @@ SystemAllocPolicy
 RootedValueMap
 ;
 extern
-JSBool
+bool
 AddValueRoot
 (
 JSContext
@@ -4086,7 +4086,7 @@ name
 )
 ;
 extern
-JSBool
+bool
 AddValueRootRT
 (
 JSRuntime
@@ -4105,7 +4105,7 @@ name
 )
 ;
 extern
-JSBool
+bool
 AddStringRoot
 (
 JSContext
@@ -4122,7 +4122,7 @@ name
 )
 ;
 extern
-JSBool
+bool
 AddObjectRoot
 (
 JSContext
@@ -4139,7 +4139,7 @@ name
 )
 ;
 extern
-JSBool
+bool
 AddScriptRoot
 (
 JSContext
@@ -4163,7 +4163,7 @@ js
 *
 /
 extern
-JSBool
+bool
 js_InitGC
 (
 JSRuntime

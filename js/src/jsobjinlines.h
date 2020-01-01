@@ -224,7 +224,7 @@ static
 *
 /
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -305,7 +305,7 @@ static
 *
 /
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -362,7 +362,7 @@ static
 *
 /
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -427,7 +427,7 @@ static
 *
 /
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -553,7 +553,7 @@ js
 :
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
@@ -672,7 +672,7 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -804,7 +804,7 @@ js
 :
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
@@ -5212,7 +5212,7 @@ static
 *
 /
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -5313,7 +5313,7 @@ static
 *
 /
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -5398,7 +5398,7 @@ static
 *
 /
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -5602,7 +5602,7 @@ static
 *
 /
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -8694,7 +8694,7 @@ propp
 ;
 }
 inline
-JSBool
+bool
 DefineProperty
 (
 ExclusiveContext

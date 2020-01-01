@@ -216,7 +216,7 @@ push
 ;
 "
 ;
-JSBool
+bool
 ok
 =
 JS_EvaluateScript

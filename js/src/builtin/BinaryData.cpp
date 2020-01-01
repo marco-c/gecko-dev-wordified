@@ -6326,7 +6326,7 @@ val
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -6486,7 +6486,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -6526,7 +6526,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -6640,7 +6640,7 @@ return
 true
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -6680,7 +6680,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -6767,7 +6767,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -6828,7 +6828,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -6949,7 +6949,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7026,7 +7026,7 @@ return
 true
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7066,7 +7066,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7081,7 +7081,7 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -7141,7 +7141,7 @@ return
 true
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7156,7 +7156,7 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -7181,7 +7181,7 @@ strict
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7196,7 +7196,7 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -7329,7 +7329,7 @@ return
 true
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7344,7 +7344,7 @@ HandleSpecialId
 sid
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -7369,7 +7369,7 @@ strict
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7471,7 +7471,7 @@ return
 false
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7509,7 +7509,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7547,7 +7547,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -7585,7 +7585,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -10322,7 +10322,7 @@ type
 )
 ;
 }
-JSBool
+bool
 BinaryStruct
 :
 :
@@ -10500,7 +10500,7 @@ return
 true
 ;
 }
-JSBool
+bool
 BinaryStruct
 :
 :
@@ -10685,7 +10685,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 BinaryStruct
 :
 :
@@ -10729,7 +10729,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 BinaryStruct
 :
 :
@@ -10769,7 +10769,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 BinaryStruct
 :
 :
@@ -10784,7 +10784,7 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -10956,7 +10956,7 @@ return
 true
 ;
 }
-JSBool
+bool
 BinaryStruct
 :
 :
@@ -10971,7 +10971,7 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {

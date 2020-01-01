@@ -1194,7 +1194,7 @@ jsdscript
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsActiveScript
 (
@@ -1352,7 +1352,7 @@ jsdscript
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetScriptHook
 (
@@ -1382,7 +1382,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetScriptHook
 (
@@ -1484,7 +1484,7 @@ pc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetLinePCs
 (
@@ -1851,7 +1851,7 @@ jsdsrc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetSourceText
 (
@@ -1966,7 +1966,7 @@ jsdsrc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsSourceDirty
 (
@@ -2008,7 +2008,7 @@ jsdc
 JSDSourceText
 *
 jsdsrc
-JSBool
+bool
 dirty
 )
 {
@@ -2259,7 +2259,7 @@ status
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_AddFullSourceText
 (
@@ -2395,7 +2395,7 @@ functions
 /
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetExecutionHook
 (
@@ -2437,7 +2437,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearExecutionHook
 (
@@ -2472,7 +2472,7 @@ pc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearAllExecutionHooksForScript
 (
@@ -2504,7 +2504,7 @@ jsdscript
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearAllExecutionHooks
 (
@@ -2527,7 +2527,7 @@ jsdc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetInterruptHook
 (
@@ -2557,7 +2557,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_EnableSingleStepInterrupts
 (
@@ -2567,7 +2567,7 @@ jsdc
 JSDScript
 *
 jsdscript
-JSBool
+bool
 enable
 )
 {
@@ -2592,7 +2592,7 @@ enable
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearInterruptHook
 (
@@ -2615,7 +2615,7 @@ jsdc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetDebugBreakHook
 (
@@ -2645,7 +2645,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearDebugBreakHook
 (
@@ -2668,7 +2668,7 @@ jsdc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetDebuggerHook
 (
@@ -2698,7 +2698,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearDebuggerHook
 (
@@ -2721,7 +2721,7 @@ jsdc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetThrowHook
 (
@@ -2751,7 +2751,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearThrowHook
 (
@@ -2774,7 +2774,7 @@ jsdc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetTopLevelHook
 (
@@ -2804,7 +2804,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearTopLevelHook
 (
@@ -2827,7 +2827,7 @@ jsdc
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetFunctionHook
 (
@@ -2857,7 +2857,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearFunctionHook
 (
@@ -3270,7 +3270,7 @@ jsdframe
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsStackFrameDebugger
 (
@@ -3301,7 +3301,7 @@ jsdframe
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsStackFrameConstructing
 (
@@ -3332,7 +3332,7 @@ jsdframe
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_EvaluateUCScriptInStackFrame
 (
@@ -3401,7 +3401,7 @@ rval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_AttemptUCScriptInStackFrame
 (
@@ -3470,7 +3470,7 @@ rval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_EvaluateScriptInStackFrame
 (
@@ -3539,7 +3539,7 @@ rval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_AttemptScriptInStackFrame
 (
@@ -3672,7 +3672,7 @@ jsdthreadstate
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetException
 (
@@ -3780,7 +3780,7 @@ jsdval
 /
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetErrorReporter
 (
@@ -3810,7 +3810,7 @@ callerdata
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetErrorReporter
 (
@@ -3919,7 +3919,7 @@ callerdata
 /
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsLockingAndThreadIdSupported
 (
@@ -4014,7 +4014,7 @@ endif
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsLocked
 (
@@ -4051,7 +4051,7 @@ endif
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsUnlocked
 (
@@ -4362,7 +4362,7 @@ jsdval
 /
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueObject
 (
@@ -4394,7 +4394,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueNumber
 (
@@ -4426,7 +4426,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueInt
 (
@@ -4458,7 +4458,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueDouble
 (
@@ -4490,7 +4490,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueString
 (
@@ -4522,7 +4522,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueBoolean
 (
@@ -4554,7 +4554,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueNull
 (
@@ -4586,7 +4586,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueVoid
 (
@@ -4618,7 +4618,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValuePrimitive
 (
@@ -4650,7 +4650,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueFunction
 (
@@ -4682,7 +4682,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueNative
 (
@@ -4766,7 +4766,7 @@ jsdval
 /
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetValueBoolean
 (

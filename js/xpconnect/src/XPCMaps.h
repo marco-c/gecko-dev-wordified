@@ -3111,7 +3111,7 @@ int
 size
 )
 ;
-JSBool
+bool
 GetNewOrUsed
 (
 uint32_t

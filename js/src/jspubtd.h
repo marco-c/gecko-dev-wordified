@@ -1062,13 +1062,13 @@ JSCallOnceType
 #
 else
 typedef
-JSBool
+bool
 JSCallOnceType
 ;
 #
 endif
 typedef
-JSBool
+bool
 (
 *
 JSInitCallback

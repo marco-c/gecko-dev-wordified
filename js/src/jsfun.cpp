@@ -390,7 +390,7 @@ mozilla
 PodCopy
 ;
 static
-JSBool
+bool
 fun_getProperty
 (
 JSContext
@@ -1087,7 +1087,7 @@ caller
 }
 ;
 static
-JSBool
+bool
 fun_enumerate
 (
 JSContext
@@ -1633,7 +1633,7 @@ return
 proto
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3013,7 +3013,7 @@ found
 *
 /
 static
-JSBool
+bool
 fun_hasInstance
 (
 JSContext
@@ -3023,7 +3023,7 @@ HandleObject
 objArg
 MutableHandleValue
 v
-JSBool
+bool
 *
 bp
 )

@@ -792,7 +792,7 @@ CallReceiverFromVp
 *
 *
 static
-JSBool
+bool
 *
 FunctionReturningThis
 (
@@ -1926,7 +1926,7 @@ CallArgsFromVp
 *
 *
 static
-JSBool
+bool
 *
 FunctionReturningArgcTimesArg0
 (

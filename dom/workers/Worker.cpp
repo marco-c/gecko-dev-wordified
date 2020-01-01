@@ -872,7 +872,7 @@ Worker
 )
 ;
 static
-JSBool
+bool
 GetEventListener
 (
 JSContext
@@ -1046,7 +1046,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SetEventListener
 (
 JSContext
@@ -1069,7 +1069,7 @@ Handle
 jsid
 >
 aIdval
-JSBool
+bool
 aStrict
 JS
 :

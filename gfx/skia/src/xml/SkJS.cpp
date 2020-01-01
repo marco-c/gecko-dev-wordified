@@ -273,7 +273,7 @@ return
 #
 endif
 static
-JSBool
+bool
 global_enumerate
 (
 JSContext
@@ -303,7 +303,7 @@ true
 endif
 }
 static
-JSBool
+bool
 global_resolve
 (
 JSContext
@@ -337,7 +337,7 @@ JSRESOLVE_ASSIGNING
 0
 )
 {
-JSBool
+bool
 resolved
 ;
 if
@@ -441,7 +441,7 @@ char
 *
 name
 ;
-JSBool
+bool
 ok
 found
 ;

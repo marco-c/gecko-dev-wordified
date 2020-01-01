@@ -2377,7 +2377,7 @@ JSPROP_READONLY
 JSPROP_PERMANENT
 ;
 static
-JSBool
+bool
 str_enumerate
 (
 JSContext
@@ -4770,7 +4770,7 @@ str
 ;
 }
 static
-JSBool
+bool
 ToUpperCaseHelper
 (
 JSContext
@@ -9714,7 +9714,7 @@ true
 ;
 }
 static
-JSBool
+bool
 js_TrimString
 (
 JSContext
@@ -9723,9 +9723,9 @@ cx
 Value
 *
 vp
-JSBool
+bool
 trimLeft
-JSBool
+bool
 trimRight
 )
 {
@@ -21878,7 +21878,7 @@ true
 ;
 }
 static
-JSBool
+bool
 tagify_value
 (
 JSContext

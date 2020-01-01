@@ -2388,7 +2388,7 @@ interpreter
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsActiveScript
 (
@@ -2671,7 +2671,7 @@ jsdc
 JSDScript
 *
 jsdscript
-JSBool
+bool
 creating
 void
 *
@@ -2718,7 +2718,7 @@ be
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetScriptHook
 (
@@ -2746,7 +2746,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetScriptHook
 (
@@ -2996,7 +2996,7 @@ argument
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetLinePCs
 (
@@ -3861,7 +3861,7 @@ supported
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetSourceText
 (
@@ -4047,7 +4047,7 @@ data
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsSourceDirty
 (
@@ -4081,7 +4081,7 @@ jsdc
 JSDSourceText
 *
 jsdsrc
-JSBool
+bool
 dirty
 )
 ;
@@ -4631,7 +4631,7 @@ false
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_AddFullSourceText
 (
@@ -4968,7 +4968,7 @@ hooks
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSD_CallHookProc
@@ -5024,7 +5024,7 @@ breakpoint
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetExecutionHook
 (
@@ -5057,7 +5057,7 @@ pc
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearExecutionHook
 (
@@ -5088,7 +5088,7 @@ script
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearAllExecutionHooksForScript
 (
@@ -5123,7 +5123,7 @@ JSDContext
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearAllExecutionHooks
 (
@@ -5201,7 +5201,7 @@ cleared
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetInterruptHook
 (
@@ -5233,7 +5233,7 @@ line
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_EnableSingleStepInterrupts
 (
@@ -5243,7 +5243,7 @@ jsdc
 JSDScript
 *
 jsdscript
-JSBool
+bool
 enable
 )
 ;
@@ -5261,7 +5261,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearInterruptHook
 (
@@ -5293,7 +5293,7 @@ JSD_ERROR_REPORTER_DEBUG
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetDebugBreakHook
 (
@@ -5320,7 +5320,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearDebugBreakHook
 (
@@ -5360,7 +5360,7 @@ execution
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetDebuggerHook
 (
@@ -5389,7 +5389,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearDebuggerHook
 (
@@ -5433,7 +5433,7 @@ JSD_HOOK_RETURN_CONTINUE_THROW
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetThrowHook
 (
@@ -5459,7 +5459,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearThrowHook
 (
@@ -5491,7 +5491,7 @@ completes
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetTopLevelHook
 (
@@ -5518,7 +5518,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearTopLevelHook
 (
@@ -5550,7 +5550,7 @@ happens
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetFunctionHook
 (
@@ -5577,7 +5577,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_ClearFunctionHook
 (
@@ -6113,7 +6113,7 @@ evaluation
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsStackFrameDebugger
 (
@@ -6146,7 +6146,7 @@ object
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsStackFrameConstructing
 (
@@ -6211,7 +6211,7 @@ fails
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_EvaluateUCScriptInStackFrame
 (
@@ -6260,7 +6260,7 @@ exceptions
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_AttemptUCScriptInStackFrame
 (
@@ -6305,7 +6305,7 @@ JSD_EvaluateUCScriptInStackFrame
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_EvaluateScriptInStackFrame
 (
@@ -6354,7 +6354,7 @@ exceptions
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_AttemptScriptInStackFrame
 (
@@ -6528,7 +6528,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetException
 (
@@ -6765,7 +6765,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_SetErrorReporter
 (
@@ -6790,7 +6790,7 @@ hook
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetErrorReporter
 (
@@ -6917,7 +6917,7 @@ build
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsLockingAndThreadIdSupported
 (
@@ -7058,7 +7058,7 @@ lock
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsLocked
 (
@@ -7080,7 +7080,7 @@ above
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsUnlocked
 (
@@ -7586,7 +7586,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueObject
 (
@@ -7632,7 +7632,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueNumber
 (
@@ -7673,7 +7673,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueInt
 (
@@ -7714,7 +7714,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueDouble
 (
@@ -7755,7 +7755,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueString
 (
@@ -7775,7 +7775,7 @@ the
 JSDValue
 wrap
 a
-JSBool
+bool
 ?
 *
 *
@@ -7796,7 +7796,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueBoolean
 (
@@ -7837,7 +7837,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueNull
 (
@@ -7878,7 +7878,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueVoid
 (
@@ -7924,7 +7924,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValuePrimitive
 (
@@ -7965,7 +7965,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueFunction
 (
@@ -8007,7 +8007,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_IsValueNative
 (
@@ -8075,7 +8075,7 @@ jsdval
 *
 *
 Return
-JSBool
+bool
 value
 (
 does
@@ -8103,7 +8103,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-JSBool
+bool
 )
 JSD_GetValueBoolean
 (

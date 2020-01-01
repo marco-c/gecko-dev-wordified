@@ -972,7 +972,7 @@ iface
 XPCNativeMember
 *
 member
-JSBool
+bool
 isSetter
 )
 {

@@ -1020,7 +1020,7 @@ tTypeCount
 public
 :
 static
-JSBool
+bool
 GetTypeForArray
 (
 JSContext
@@ -1245,7 +1245,7 @@ tISup
 /
 /
 static
-JSBool
+bool
 XPCArrayHomogenizer
 :
 :
@@ -1746,7 +1746,7 @@ return
 true
 ;
 }
-JSBool
+bool
 XPCVariant
 :
 :
@@ -2457,7 +2457,7 @@ NS_OK
 /
 /
 static
-JSBool
+bool
 XPCVariant
 :
 :

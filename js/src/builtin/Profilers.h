@@ -245,7 +245,7 @@ start
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StartProfiling
 (
@@ -284,7 +284,7 @@ stop
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StopProfiling
 (
@@ -322,7 +322,7 @@ used
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DumpProfile
 (
@@ -381,7 +381,7 @@ count
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_PauseProfilers
 (
@@ -403,7 +403,7 @@ profilers
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ResumeProfilers
 (
@@ -474,7 +474,7 @@ MOZ_CALLGRIND
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_StopCallgrind
 (
@@ -483,7 +483,7 @@ js_StopCallgrind
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_StartCallgrind
 (
@@ -492,7 +492,7 @@ js_StartCallgrind
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DumpCallgrind
 (
@@ -515,7 +515,7 @@ __linux__
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_StartPerf
 (
@@ -524,7 +524,7 @@ js_StartPerf
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_StopPerf
 (

@@ -127,7 +127,7 @@ int
 g_counter
 ;
 static
-JSBool
+bool
 CounterAdd
 (
 JSContext

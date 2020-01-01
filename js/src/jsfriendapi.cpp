@@ -569,7 +569,7 @@ NULL
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_SplicePrototype
 (
@@ -1434,7 +1434,7 @@ isSystem
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_WrapPropertyDescriptor
 (
@@ -1467,7 +1467,7 @@ desc
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_WrapAutoIdVector
 (
@@ -3131,7 +3131,7 @@ sCustomIteratorCount
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsDeadWrapper
 (
@@ -6008,7 +6008,7 @@ getMetadata
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DefineOwnProperty
 (
@@ -6027,7 +6027,7 @@ js
 PropertyDescriptor
 &
 descriptor
-JSBool
+bool
 *
 bp
 )
@@ -6134,7 +6134,7 @@ bp
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_ReportIsNotFunction
 (

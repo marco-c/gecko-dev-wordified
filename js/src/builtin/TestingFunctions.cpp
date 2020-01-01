@@ -1077,7 +1077,7 @@ compartments
 .
 *
 /
-JSBool
+bool
 compartment
 =
 false

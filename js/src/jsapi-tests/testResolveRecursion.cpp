@@ -851,7 +851,7 @@ false
 ;
 }
 static
-JSBool
+bool
 my_resolve
 (
 JSContext

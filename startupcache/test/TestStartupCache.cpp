@@ -2663,7 +2663,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-JSBool
+bool
 same
 =
 true

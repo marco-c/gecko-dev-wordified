@@ -8843,7 +8843,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-JSBool
+bool
 ok
 =
 JS_DefineProperty
@@ -9017,7 +9017,7 @@ return
 nullptr
 ;
 }
-JSBool
+bool
 ok
 =
 JS_DefineProperty

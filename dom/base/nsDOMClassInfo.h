@@ -1782,7 +1782,7 @@ _retval
 MOZ_OVERRIDE
 ;
 static
-JSBool
+bool
 GlobalScopePolluterNewResolve
 (
 JSContext
@@ -1819,7 +1819,7 @@ objp
 )
 ;
 static
-JSBool
+bool
 GlobalScopePolluterGetProperty
 (
 JSContext
@@ -1856,7 +1856,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 InvalidateGlobalScopePolluter
 (
 JSContext
@@ -2295,7 +2295,7 @@ nsHTMLDocumentSH
 protected
 :
 static
-JSBool
+bool
 GetDocumentAllNodeList
 (
 JSContext
@@ -2322,7 +2322,7 @@ nodeList
 public
 :
 static
-JSBool
+bool
 DocumentAllGetProperty
 (
 JSContext
@@ -2359,7 +2359,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 DocumentAllNewResolve
 (
 JSContext

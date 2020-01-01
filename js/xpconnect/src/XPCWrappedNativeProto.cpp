@@ -311,7 +311,7 @@ delete
 mScriptableInfo
 ;
 }
-JSBool
+bool
 XPCWrappedNativeProto
 :
 :
@@ -987,7 +987,7 @@ ciFlags
 =
 0
 ;
-JSBool
+bool
 mainThreadOnly
 =
 !

@@ -1243,7 +1243,7 @@ int
 lineno
 )
 {
-JSBool
+bool
 same
 ;
 JS
@@ -1595,7 +1595,7 @@ c
 protected
 :
 static
-JSBool
+bool
 print
 (
 JSContext

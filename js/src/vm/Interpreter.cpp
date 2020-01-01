@@ -1411,7 +1411,7 @@ true
 ;
 }
 static
-JSBool
+bool
 NoSuchMethod
 (
 JSContext
@@ -1566,7 +1566,7 @@ setObject
 argsobj
 )
 ;
-JSBool
+bool
 ok
 =
 Invoke
@@ -3299,7 +3299,7 @@ setUseNewType
 ;
 }
 }
-JSBool
+bool
 ok
 =
 RunScript
@@ -4353,7 +4353,7 @@ clasp
 hasInstance
 )
 {
-JSBool
+bool
 b
 ;
 if
@@ -14163,7 +14163,7 @@ cx
 obj
 )
 ;
-JSBool
+bool
 succeeded
 ;
 if
@@ -14288,7 +14288,7 @@ sp
 1
 ]
 ;
-JSBool
+bool
 succeeded
 ;
 if
@@ -22676,7 +22676,7 @@ obj
 return
 false
 ;
-JSBool
+bool
 b
 ;
 if
@@ -22818,7 +22818,7 @@ obj
 return
 false
 ;
-JSBool
+bool
 b
 ;
 if
@@ -23459,7 +23459,7 @@ return
 true
 ;
 }
-JSBool
+bool
 succeeded
 ;
 if

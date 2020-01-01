@@ -3965,7 +3965,7 @@ js
 ifdef
 va_start
 extern
-JSBool
+bool
 js_ReportErrorVA
 (
 JSContext
@@ -3982,7 +3982,7 @@ ap
 )
 ;
 extern
-JSBool
+bool
 js_ReportErrorNumberVA
 (
 JSContext
@@ -4034,7 +4034,7 @@ args
 #
 endif
 extern
-JSBool
+bool
 js_ExpandErrorArguments
 (
 JSContext
@@ -4254,7 +4254,7 @@ v
 *
 /
 extern
-JSBool
+bool
 js_ReportIsNullOrUndefined
 (
 JSContext
@@ -4333,7 +4333,7 @@ arg2
 *
 /
 extern
-JSBool
+bool
 js_ReportValueErrorFlags
 (
 JSContext
@@ -4526,7 +4526,7 @@ terminated
 *
 /
 extern
-JSBool
+bool
 js_InvokeOperationCallback
 (
 JSContext

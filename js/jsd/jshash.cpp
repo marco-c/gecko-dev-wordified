@@ -1024,7 +1024,7 @@ hep
 ;
 }
 static
-JSBool
+bool
 Resize
 (
 JSHashTable
@@ -1775,7 +1775,7 @@ nshrinks
 endif
 }
 }
-JSBool
+bool
 JS_HashTableRemove
 (
 JSHashTable

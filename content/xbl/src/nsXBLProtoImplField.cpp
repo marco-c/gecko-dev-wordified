@@ -919,7 +919,7 @@ was
 defined
 .
 static
-JSBool
+bool
 InstallXBLField
 (
 JSContext
@@ -2477,7 +2477,7 @@ already
 /
 defined
 .
-JSBool
+bool
 found
 =
 false

@@ -2835,7 +2835,7 @@ WithObject
 ;
 }
 static
-JSBool
+bool
 with_LookupGeneric
 (
 JSContext
@@ -2886,7 +2886,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 with_LookupProperty
 (
 JSContext
@@ -2927,7 +2927,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 with_LookupElement
 (
 JSContext
@@ -2975,7 +2975,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 with_LookupSpecial
 (
 JSContext
@@ -3016,7 +3016,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 with_GetGeneric
 (
 JSContext
@@ -3067,7 +3067,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 with_GetProperty
 (
 JSContext
@@ -3108,7 +3108,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 with_GetElement
 (
 JSContext
@@ -3156,7 +3156,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 with_GetSpecial
 (
 JSContext
@@ -3197,7 +3197,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 with_SetGeneric
 (
 JSContext
@@ -3209,7 +3209,7 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -3249,7 +3249,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 with_SetProperty
 (
 JSContext
@@ -3261,7 +3261,7 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -3301,7 +3301,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 with_SetElement
 (
 JSContext
@@ -3313,7 +3313,7 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -3353,7 +3353,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 with_SetSpecial
 (
 JSContext
@@ -3365,7 +3365,7 @@ HandleSpecialId
 sid
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -3405,7 +3405,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 with_GetGenericAttributes
 (
 JSContext
@@ -3454,7 +3454,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 with_GetPropertyAttributes
 (
 JSContext
@@ -3503,7 +3503,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 with_GetElementAttributes
 (
 JSContext
@@ -3552,7 +3552,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 with_GetSpecialAttributes
 (
 JSContext
@@ -3601,7 +3601,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 with_SetGenericAttributes
 (
 JSContext
@@ -3650,7 +3650,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 with_SetPropertyAttributes
 (
 JSContext
@@ -3699,7 +3699,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 with_SetElementAttributes
 (
 JSContext
@@ -3748,7 +3748,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 with_SetSpecialAttributes
 (
 JSContext
@@ -3797,7 +3797,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 with_DeleteProperty
 (
 JSContext
@@ -3807,7 +3807,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
@@ -3846,7 +3846,7 @@ succeeded
 ;
 }
 static
-JSBool
+bool
 with_DeleteElement
 (
 JSContext
@@ -3856,7 +3856,7 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -3895,7 +3895,7 @@ succeeded
 ;
 }
 static
-JSBool
+bool
 with_DeleteSpecial
 (
 JSContext
@@ -3905,7 +3905,7 @@ HandleObject
 obj
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
@@ -3944,7 +3944,7 @@ succeeded
 ;
 }
 static
-JSBool
+bool
 with_Enumerate
 (
 JSContext
@@ -10564,7 +10564,7 @@ return
 true
 ;
 }
-JSBool
+bool
 found
 ;
 RootedObject

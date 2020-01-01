@@ -482,7 +482,7 @@ aClosure
 )
 ;
 static
-JSBool
+bool
 StructuredCloneWriteCallback
 (
 JSContext

@@ -2917,7 +2917,7 @@ GenericObject
 )
 ;
 extern
-JSBool
+bool
 fun_resolve
 (
 JSContext

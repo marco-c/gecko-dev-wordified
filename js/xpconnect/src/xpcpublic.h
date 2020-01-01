@@ -764,7 +764,7 @@ JS
 heap
 .
 inline
-JSBool
+bool
 xpc_IsGrayGCThing
 (
 void
@@ -811,7 +811,7 @@ nsXPConnect
 cpp
 .
 extern
-JSBool
+bool
 xpc_GCThingIsGrayCCThing
 (
 void

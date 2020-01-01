@@ -11723,7 +11723,7 @@ m_args
 m_scope
 )
 ;
-JSBool
+bool
 ok
 =
 JS_EvaluateScriptForPrincipals

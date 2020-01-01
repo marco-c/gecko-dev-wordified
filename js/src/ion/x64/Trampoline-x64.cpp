@@ -289,7 +289,7 @@ following
 signature
 :
 *
-JSBool
+bool
 blah
 (
 void

@@ -6521,7 +6521,7 @@ return
 true
 ;
 }
-JSBool
+bool
 PluginScriptableObjectParent
 :
 :

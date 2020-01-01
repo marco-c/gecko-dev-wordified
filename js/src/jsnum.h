@@ -1227,7 +1227,7 @@ memory
 *
 /
 extern
-JSBool
+bool
 js_strtod
 (
 js

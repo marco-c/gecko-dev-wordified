@@ -703,7 +703,7 @@ Win16
 *
 /
 }
-JSBool
+bool
 jsd_InitObjectManager
 (
 JSDContext

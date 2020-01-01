@@ -1674,7 +1674,7 @@ each
 stack
 *
 /
-JSBool
+bool
 ok
 =
 JS_CallFunctionName

@@ -270,7 +270,7 @@ chain
 ;
 }
 ;
-JSBool
+bool
 xpc_qsDefineQuickStubs
 (
 JSContext
@@ -323,7 +323,7 @@ false
 .
 *
 /
-JSBool
+bool
 xpc_qsThrow
 (
 JSContext
@@ -450,7 +450,7 @@ reachable
 )
 *
 /
-JSBool
+bool
 xpc_qsThrowGetterSetterFailed
 (
 JSContext
@@ -474,7 +474,7 @@ strings
 and
 string
 tables
-JSBool
+bool
 xpc_qsThrowGetterSetterFailed
 (
 JSContext
@@ -491,7 +491,7 @@ char
 memberName
 )
 ;
-JSBool
+bool
 xpc_qsThrowGetterSetterFailed
 (
 JSContext
@@ -527,7 +527,7 @@ xpc_qsThrowGetterSetterFailed
 .
 *
 /
-JSBool
+bool
 xpc_qsThrowMethodFailed
 (
 JSContext
@@ -540,7 +540,7 @@ jsval
 vp
 )
 ;
-JSBool
+bool
 xpc_qsThrowMethodFailedWithCcx
 (
 XPCCallContext
@@ -713,7 +713,7 @@ uint16_t
 name_index
 )
 ;
-JSBool
+bool
 xpc_qsGetterOnlyPropertyStub
 (
 JSContext
@@ -729,7 +729,7 @@ JS
 :
 HandleId
 id
-JSBool
+bool
 strict
 JS
 :
@@ -765,7 +765,7 @@ JS
 *
 /
 inline
-JSBool
+bool
 xpc_qsInt64ToJsval
 (
 JSContext
@@ -797,7 +797,7 @@ true
 ;
 }
 inline
-JSBool
+bool
 xpc_qsUint64ToJsval
 (
 JSContext
@@ -880,7 +880,7 @@ implementation_type
 )
 ;
 }
-JSBool
+bool
 IsValid
 (
 )
@@ -1185,7 +1185,7 @@ void
 )
 ]
 ;
-JSBool
+bool
 mValid
 ;
 /
@@ -1923,7 +1923,7 @@ null
 .
 *
 /
-JSBool
+bool
 xpc_qsJsvalToCharStr
 (
 JSContext
@@ -1936,7 +1936,7 @@ JSAutoByteString
 bytes
 )
 ;
-JSBool
+bool
 xpc_qsJsvalToWcharStr
 (
 JSContext
@@ -1980,7 +1980,7 @@ empty
 .
 *
 /
-JSBool
+bool
 xpc_qsStringToJsstring
 (
 JSContext
@@ -2186,7 +2186,7 @@ class
 T
 >
 inline
-JSBool
+bool
 xpc_qsUnwrapThis
 (
 JSContext
@@ -2342,7 +2342,7 @@ nsresult
 rv
 )
 ;
-JSBool
+bool
 xpc_qsUnwrapThisFromCcxImpl
 (
 XPCCallContext
@@ -2391,7 +2391,7 @@ class
 T
 >
 inline
-JSBool
+bool
 xpc_qsUnwrapThisFromCcx
 (
 XPCCallContext
@@ -2799,7 +2799,7 @@ pointer
 .
 *
 /
-JSBool
+bool
 xpc_qsXPCOMObjectToJsval
 (
 JSContext
@@ -2838,7 +2838,7 @@ success
 .
 *
 /
-JSBool
+bool
 xpc_qsVariantToJsval
 (
 JSContext
@@ -2986,7 +2986,7 @@ typename
 Op
 >
 inline
-JSBool
+bool
 ApplyPropertyOp
 (
 JSContext
@@ -3015,7 +3015,7 @@ template
 <
 >
 inline
-JSBool
+bool
 ApplyPropertyOp
 <
 JSPropertyOp
@@ -3057,7 +3057,7 @@ template
 <
 >
 inline
-JSBool
+bool
 ApplyPropertyOp
 <
 JSStrictPropertyOp

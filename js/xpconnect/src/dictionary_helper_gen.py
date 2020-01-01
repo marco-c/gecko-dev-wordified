@@ -2496,7 +2496,7 @@ fd
 write
 (
 "
-JSBool
+bool
 b
 ;
 \
@@ -3738,7 +3738,7 @@ fd
 write
 (
 "
-JSBool
+bool
 found
 =
 false

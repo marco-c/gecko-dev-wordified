@@ -1917,7 +1917,7 @@ GetRuntimeInstance
 (
 )
 ;
-JSBool
+bool
 release_root
 =
 false

@@ -1939,7 +1939,7 @@ eDefault
 >
 {
 typedef
-JSBool
+bool
 jstype
 ;
 typedef

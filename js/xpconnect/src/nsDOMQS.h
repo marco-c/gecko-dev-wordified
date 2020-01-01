@@ -464,7 +464,7 @@ template
 >
 \
 MOZ_ALWAYS_INLINE
-JSBool
+bool
 \
 xpc_qsUnwrapThis
 <

@@ -748,7 +748,7 @@ false
 ;
 }
 static
-JSBool
+bool
 SafeGlobalResolve
 (
 JSContext
@@ -760,7 +760,7 @@ HandleId
 id
 )
 {
-JSBool
+bool
 resolved
 ;
 return

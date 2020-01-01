@@ -879,7 +879,7 @@ v
 cx
 )
 ;
-JSBool
+bool
 ok
 =
 JS_ExecuteScript
@@ -1692,7 +1692,7 @@ CHECK
 out
 )
 ;
-JSBool
+bool
 equal
 ;
 CHECK

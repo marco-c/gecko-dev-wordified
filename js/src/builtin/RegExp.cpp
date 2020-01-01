@@ -2576,7 +2576,7 @@ code
 )
 \
 static
-JSBool
+bool
 \
 name
 (
@@ -2827,7 +2827,7 @@ code
 )
 \
 static
-JSBool
+bool
 \
 name
 (
@@ -2838,7 +2838,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp

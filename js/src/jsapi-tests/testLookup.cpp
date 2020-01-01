@@ -382,7 +382,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
-JSBool
+bool
 document_resolve
 (
 JSContext
@@ -543,7 +543,7 @@ docAll
 )
 )
 ;
-JSBool
+bool
 ok
 =
 JS_DefinePropertyById

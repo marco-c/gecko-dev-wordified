@@ -287,7 +287,7 @@ CHECK
 cx2
 )
 ;
-JSBool
+bool
 ok
 ;
 {

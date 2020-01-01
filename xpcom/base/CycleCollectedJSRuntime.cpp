@@ -5128,7 +5128,7 @@ aStatus
 static
 *
 /
-JSBool
+bool
 CycleCollectedJSRuntime
 :
 :

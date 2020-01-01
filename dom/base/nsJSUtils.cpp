@@ -274,7 +274,7 @@ BindingUtils
 .
 h
 "
-JSBool
+bool
 nsJSUtils
 :
 :

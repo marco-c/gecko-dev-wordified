@@ -473,7 +473,7 @@ u
 str
 )
 ;
-JSBool
+bool
 match
 =
 false

@@ -4009,7 +4009,7 @@ arguments
 *
 *
 static
-JSBool
+bool
 *
 answer_getAnswer
 (
@@ -4489,7 +4489,7 @@ action
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSPropertyOp
@@ -4599,7 +4599,7 @@ set
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSStrictPropertyOp
@@ -4625,7 +4625,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 strict
 JS
 :
@@ -4798,7 +4798,7 @@ true
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSDeletePropertyOp
@@ -4824,7 +4824,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -5086,7 +5086,7 @@ failure
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSNewEnumerateOp
@@ -5153,7 +5153,7 @@ obj
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSEnumerateOp
@@ -5300,7 +5300,7 @@ properties
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSResolveOp
@@ -5436,7 +5436,7 @@ flags
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSNewResolveOp
@@ -5507,7 +5507,7 @@ exception
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSConvertOp
@@ -5742,7 +5742,7 @@ jsval
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSCheckAccessOp
@@ -5827,7 +5827,7 @@ otherwise
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSHasInstanceOp
@@ -5856,7 +5856,7 @@ JS
 Value
 >
 vp
-JSBool
+bool
 *
 bp
 )
@@ -6196,7 +6196,7 @@ case
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSContextCallback
@@ -6366,7 +6366,7 @@ JSFreeOp
 fop
 JSFinalizeStatus
 status
-JSBool
+bool
 isCompartment
 )
 ;
@@ -6406,7 +6406,7 @@ data
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 JSOperationCallback
@@ -6601,7 +6601,7 @@ errorNumber
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 JSLocaleToUpperCase
@@ -6633,7 +6633,7 @@ rval
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 JSLocaleToLowerCase
@@ -6665,7 +6665,7 @@ rval
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 JSLocaleCompare
@@ -6706,7 +6706,7 @@ rval
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 JSLocaleToUnicode
@@ -6783,7 +6783,7 @@ jsobj
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSCSPEvalChecker
@@ -7410,7 +7410,7 @@ exception
 *
 /
 typedef
-JSBool
+bool
 (
 *
 WriteStructuredCloneOp
@@ -7949,7 +7949,7 @@ id
 iden
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_STRING
 (
 jsid
@@ -8001,7 +8001,7 @@ id
 }
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_ZERO
 (
 jsid
@@ -8020,7 +8020,7 @@ id
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StringHasBeenInterned
 (
@@ -8106,7 +8106,7 @@ str
 ;
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_INT
 (
 jsid
@@ -8168,7 +8168,7 @@ JSID_INT_MAX
 INT32_MAX
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 INT_FITS_IN_JSID
 (
 int32_t
@@ -8224,7 +8224,7 @@ id
 }
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_OBJECT
 (
 jsid
@@ -8350,7 +8350,7 @@ id
 }
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_GCTHING
 (
 jsid
@@ -8464,7 +8464,7 @@ contract
 /
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_VOID
 (
 const
@@ -8514,7 +8514,7 @@ JSID_TYPE_VOID
 }
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_EMPTY
 (
 const
@@ -8612,7 +8612,7 @@ API
 /
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSVAL_IS_UNIVERSAL
 (
 jsval
@@ -9191,7 +9191,7 @@ JSInitCallback
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CallOnce
 (
@@ -9333,7 +9333,7 @@ conversions
 *
 *
 b
-JSBool
+bool
 Boolean
 *
 c
@@ -9601,7 +9601,7 @@ arguments
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ConvertArguments
 (
@@ -9628,7 +9628,7 @@ va_start
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ConvertArgumentsVA
 (
@@ -9653,7 +9653,7 @@ endif
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ConvertValue
 (
@@ -9672,7 +9672,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToObject
 (
@@ -9750,7 +9750,7 @@ v
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToNumber
 (
@@ -10052,7 +10052,7 @@ JS
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DoubleIsInt32
 (
@@ -10112,7 +10112,7 @@ ToInt32
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToECMAInt32
 (
@@ -10175,7 +10175,7 @@ long
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToInt64
 (
@@ -10240,7 +10240,7 @@ long
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToUint64
 (
@@ -10892,7 +10892,7 @@ ToUint32
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToECMAUint32
 (
@@ -10950,7 +10950,7 @@ unordered
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToInt32
 (
@@ -10983,7 +10983,7 @@ point
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToUint16
 (
@@ -11000,7 +11000,7 @@ ip
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToBoolean
 (
@@ -11009,7 +11009,7 @@ JSContext
 cx
 jsval
 v
-JSBool
+bool
 *
 bp
 )
@@ -11047,7 +11047,7 @@ type
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StrictlyEqual
 (
@@ -11058,7 +11058,7 @@ jsval
 v1
 jsval
 v2
-JSBool
+bool
 *
 equal
 )
@@ -11066,7 +11066,7 @@ equal
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LooselyEqual
 (
@@ -11077,7 +11077,7 @@ jsval
 v1
 jsval
 v2
-JSBool
+bool
 *
 equal
 )
@@ -11085,7 +11085,7 @@ equal
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SameValue
 (
@@ -11096,7 +11096,7 @@ jsval
 v1
 jsval
 v2
-JSBool
+bool
 *
 same
 )
@@ -11117,7 +11117,7 @@ function
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsBuiltinEvalFunction
 (
@@ -11141,7 +11141,7 @@ constructor
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsBuiltinFunctionConstructor
 (
@@ -11417,7 +11417,7 @@ lifted
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_Init
 (
@@ -11828,7 +11828,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsInRequest
 (
@@ -12879,7 +12879,7 @@ JS_SetJitHardening
 JSRuntime
 *
 rt
-JSBool
+bool
 enabled
 )
 ;
@@ -12972,7 +12972,7 @@ compartment
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WrapObject
 (
@@ -12988,7 +12988,7 @@ objp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WrapValue
 (
@@ -13003,7 +13003,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WrapId
 (
@@ -13098,7 +13098,7 @@ targetwrapper
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_RefreshCrossCompartmentWrappers
 (
@@ -13602,7 +13602,7 @@ null
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_InitStandardClasses
 (
@@ -13696,7 +13696,7 @@ error
 as
 usual
 for
-JSBool
+bool
 result
 -
 typed
@@ -13764,7 +13764,7 @@ lazily
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ResolveStandardClass
 (
@@ -13788,7 +13788,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 *
 resolved
 )
@@ -13796,7 +13796,7 @@ resolved
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EnumerateStandardClasses
 (
@@ -13817,7 +13817,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetClassObject
 (
@@ -13838,7 +13838,7 @@ objp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetClassPrototype
 (
@@ -14019,7 +14019,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsGlobalObject
 (
@@ -14276,7 +14276,7 @@ sealed
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_InitCTypesClass
 (
@@ -14481,7 +14481,7 @@ callbacks
 #
 endif
 typedef
-JSBool
+bool
 (
 *
 JSEnumerateDiagnosticMemoryCallback
@@ -14956,7 +14956,7 @@ memory
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddValueRoot
 (
@@ -14971,7 +14971,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddStringRoot
 (
@@ -14987,7 +14987,7 @@ rp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddObjectRoot
 (
@@ -15101,7 +15101,7 @@ endif
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedValueRoot
 (
@@ -15120,7 +15120,7 @@ name
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedValueRootRT
 (
@@ -15139,7 +15139,7 @@ name
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedStringRoot
 (
@@ -15159,7 +15159,7 @@ name
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedObjectRoot
 (
@@ -15179,7 +15179,7 @@ name
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedScriptRoot
 (
@@ -15441,7 +15441,7 @@ traceOp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddExtraGCRootsTracer
 (
@@ -15569,7 +15569,7 @@ JS_CallTracer
 /
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSVAL_IS_TRACEABLE
 (
 jsval
@@ -16839,7 +16839,7 @@ void
 thing
 JSGCTraceKind
 kind
-JSBool
+bool
 includeDetails
 )
 ;
@@ -17000,7 +17000,7 @@ null
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DumpHeap
 (
@@ -17094,7 +17094,7 @@ cb
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsGCMarkingTracer
 (
@@ -17287,7 +17287,7 @@ hash
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsAboutToBeFinalized
 (
@@ -17306,7 +17306,7 @@ objp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsAboutToBeFinalizedUnbarriered
 (
@@ -17896,7 +17896,7 @@ JS_NewExternalStringWithClosure
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsExternalString
 (
@@ -19168,7 +19168,7 @@ JS
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToId
 (
@@ -19185,7 +19185,7 @@ idp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IdToValue
 (
@@ -19291,7 +19291,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefaultValue
 (
@@ -19311,7 +19311,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_PropertyStub
 (
@@ -19351,7 +19351,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StrictPropertyStub
 (
@@ -19375,7 +19375,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 strict
 JS
 :
@@ -19393,7 +19393,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeletePropertyStub
 (
@@ -19417,7 +19417,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -19425,7 +19425,7 @@ succeeded
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EnumerateStub
 (
@@ -19446,7 +19446,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ResolveStub
 (
@@ -19475,7 +19475,7 @@ id
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ConvertStub
 (
@@ -20013,7 +20013,7 @@ flags
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LinkConstructorAndPrototype
 (
@@ -20044,7 +20044,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_InstanceOf
 (
@@ -20065,7 +20065,7 @@ argv
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasInstance
 (
@@ -20077,7 +20077,7 @@ JSObject
 obj
 jsval
 v
-JSBool
+bool
 *
 bp
 )
@@ -20135,7 +20135,7 @@ argv
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPrototype
 (
@@ -20165,7 +20165,7 @@ protop
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetPrototype
 (
@@ -20208,7 +20208,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetParent
 (
@@ -20295,7 +20295,7 @@ success
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetObjectId
 (
@@ -20882,7 +20882,7 @@ object
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsExtensible
 (
@@ -20898,7 +20898,7 @@ JSObject
 *
 >
 obj
-JSBool
+bool
 *
 extensible
 )
@@ -20906,7 +20906,7 @@ extensible
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsNative
 (
@@ -21015,7 +21015,7 @@ frozen
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeepFreezeObject
 (
@@ -21051,7 +21051,7 @@ method
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_FreezeObject
 (
@@ -21066,7 +21066,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_PreventExtensions
 (
@@ -21136,7 +21136,7 @@ attrs
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineConstDoubles
 (
@@ -21155,7 +21155,7 @@ cds
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineProperties
 (
@@ -21174,7 +21174,7 @@ ps
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineProperty
 (
@@ -21201,7 +21201,7 @@ attrs
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefinePropertyById
 (
@@ -21226,7 +21226,7 @@ attrs
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineOwnProperty
 (
@@ -21240,7 +21240,7 @@ jsid
 id
 jsval
 descriptor
-JSBool
+bool
 *
 bp
 )
@@ -21297,7 +21297,7 @@ undefined
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyAttributes
 (
@@ -21314,7 +21314,7 @@ name
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 )
@@ -21362,7 +21362,7 @@ null
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyAttrsGetterAndSetter
 (
@@ -21379,7 +21379,7 @@ name
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 JSPropertyOp
@@ -21393,7 +21393,7 @@ setterp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyAttrsGetterAndSetterById
 (
@@ -21408,7 +21408,7 @@ id
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 JSPropertyOp
@@ -21463,7 +21463,7 @@ altered
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetPropertyAttributes
 (
@@ -21479,7 +21479,7 @@ char
 name
 unsigned
 attrs
-JSBool
+bool
 *
 foundp
 )
@@ -21487,7 +21487,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefinePropertyWithTinyId
 (
@@ -21516,7 +21516,7 @@ attrs
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AlreadyHasOwnProperty
 (
@@ -21530,7 +21530,7 @@ const
 char
 *
 name
-JSBool
+bool
 *
 foundp
 )
@@ -21538,7 +21538,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AlreadyHasOwnPropertyById
 (
@@ -21550,7 +21550,7 @@ JSObject
 obj
 jsid
 id
-JSBool
+bool
 *
 foundp
 )
@@ -21558,7 +21558,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasProperty
 (
@@ -21572,7 +21572,7 @@ const
 char
 *
 name
-JSBool
+bool
 *
 foundp
 )
@@ -21580,7 +21580,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasPropertyById
 (
@@ -21592,7 +21592,7 @@ JSObject
 obj
 jsid
 id
-JSBool
+bool
 *
 foundp
 )
@@ -21600,7 +21600,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupProperty
 (
@@ -21630,7 +21630,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupPropertyById
 (
@@ -21658,7 +21658,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupPropertyWithFlags
 (
@@ -21690,7 +21690,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupPropertyWithFlagsById
 (
@@ -22931,7 +22931,7 @@ chain
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyDescriptorById
 (
@@ -22953,7 +22953,7 @@ desc
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetOwnPropertyDescriptor
 (
@@ -22981,7 +22981,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetProperty
 (
@@ -23011,7 +23011,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyDefault
 (
@@ -23043,7 +23043,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyById
 (
@@ -23071,7 +23071,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyByIdDefault
 (
@@ -23101,7 +23101,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ForwardGetPropertyTo
 (
@@ -23132,7 +23132,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetProperty
 (
@@ -23162,7 +23162,7 @@ v
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetPropertyById
 (
@@ -23190,7 +23190,7 @@ v
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteProperty
 (
@@ -23209,7 +23209,7 @@ name
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteProperty2
 (
@@ -23231,7 +23231,7 @@ succeeded
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeletePropertyById
 (
@@ -23248,7 +23248,7 @@ id
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeletePropertyById2
 (
@@ -23268,7 +23268,7 @@ succeeded
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineUCProperty
 (
@@ -23346,7 +23346,7 @@ undefined
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetUCPropertyAttributes
 (
@@ -23365,7 +23365,7 @@ namelen
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 )
@@ -23413,7 +23413,7 @@ null
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetUCPropertyAttrsGetterAndSetter
 (
@@ -23432,7 +23432,7 @@ namelen
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 JSPropertyOp
@@ -23487,7 +23487,7 @@ altered
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetUCPropertyAttributes
 (
@@ -23505,7 +23505,7 @@ size_t
 namelen
 unsigned
 attrs
-JSBool
+bool
 *
 foundp
 )
@@ -23513,7 +23513,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineUCPropertyWithTinyId
 (
@@ -23544,7 +23544,7 @@ attrs
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AlreadyHasOwnUCProperty
 (
@@ -23560,7 +23560,7 @@ jschar
 name
 size_t
 namelen
-JSBool
+bool
 *
 foundp
 )
@@ -23568,7 +23568,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasUCProperty
 (
@@ -23584,7 +23584,7 @@ jschar
 name
 size_t
 namelen
-JSBool
+bool
 *
 vp
 )
@@ -23592,7 +23592,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupUCProperty
 (
@@ -23624,7 +23624,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetUCProperty
 (
@@ -23656,7 +23656,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetUCProperty
 (
@@ -23688,7 +23688,7 @@ v
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteUCProperty2
 (
@@ -23730,7 +23730,7 @@ vector
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsArrayObject
 (
@@ -23745,7 +23745,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetArrayLength
 (
@@ -23763,7 +23763,7 @@ lengthp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetArrayLength
 (
@@ -23780,7 +23780,7 @@ length
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineElement
 (
@@ -23805,7 +23805,7 @@ attrs
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AlreadyHasOwnElement
 (
@@ -23817,7 +23817,7 @@ JSObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 foundp
 )
@@ -23825,7 +23825,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasElement
 (
@@ -23837,7 +23837,7 @@ JSObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 foundp
 )
@@ -23845,7 +23845,7 @@ foundp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupElement
 (
@@ -23873,7 +23873,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetElement
 (
@@ -23901,7 +23901,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ForwardGetElementTo
 (
@@ -23978,7 +23978,7 @@ on
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetElementIfPresent
 (
@@ -24004,7 +24004,7 @@ JS
 Value
 >
 vp
-JSBool
+bool
 *
 present
 )
@@ -24012,7 +24012,7 @@ present
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetElement
 (
@@ -24040,7 +24040,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteElement
 (
@@ -24057,7 +24057,7 @@ index
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteElement2
 (
@@ -24342,7 +24342,7 @@ transferred
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StealArrayBufferContents
 (
@@ -24463,7 +24463,7 @@ JS_ReallocateArrayBufferContents
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AllocateArrayBufferContents
 (
@@ -24523,7 +24523,7 @@ JS_AllocateArrayBufferContents
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReallocateArrayBufferContents
 (
@@ -24664,7 +24664,7 @@ error
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_NextProperty
 (
@@ -24767,7 +24767,7 @@ vp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CheckAccess
 (
@@ -25682,7 +25682,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ObjectIsFunction
 (
@@ -25697,7 +25697,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ObjectIsCallable
 (
@@ -25712,7 +25712,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsNativeFunction
 (
@@ -25740,7 +25740,7 @@ constructor
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsConstructor
 (
@@ -25805,7 +25805,7 @@ newThis
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineFunctions
 (
@@ -26011,7 +26011,7 @@ compiler
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_BufferIsCompilableUnit
 (
@@ -27368,7 +27368,7 @@ points
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ExecuteScript
 (
@@ -27389,7 +27389,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ExecuteScriptVersion
 (
@@ -27448,7 +27448,7 @@ JSExecPart
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateScript
 (
@@ -27478,7 +27478,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateScriptForPrincipals
 (
@@ -27511,7 +27511,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateScriptForPrincipalsVersion
 (
@@ -27546,7 +27546,7 @@ version
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateUCScript
 (
@@ -27576,7 +27576,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateUCScriptForPrincipals
 (
@@ -27609,7 +27609,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateUCScriptForPrincipalsVersion
 (
@@ -27724,7 +27724,7 @@ script
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateUCScriptForPrincipalsVersionOrigin
 (
@@ -27866,7 +27866,7 @@ JS
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CallFunction
 (
@@ -27892,7 +27892,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CallFunctionName
 (
@@ -27919,7 +27919,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CallFunctionValue
 (
@@ -28301,7 +28301,7 @@ rt
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsRunning
 (
@@ -28404,7 +28404,7 @@ it
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SaveFrameChain
 (
@@ -28888,7 +28888,7 @@ s
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CompareStrings
 (
@@ -28909,7 +28909,7 @@ result
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StringEqualsAscii
 (
@@ -28923,7 +28923,7 @@ const
 char
 *
 asciiBytes
-JSBool
+bool
 *
 match
 )
@@ -28953,7 +28953,7 @@ quote
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_FileEscapedString
 (
@@ -29518,7 +29518,7 @@ string
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_FlatStringEqualsAscii
 (
@@ -29821,7 +29821,7 @@ string
 /
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DecodeBytes
 (
@@ -30438,7 +30438,7 @@ functions
 *
 /
 typedef
-JSBool
+bool
 (
 *
 JSONWriteCallback
@@ -30470,7 +30470,7 @@ ES5
 /
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_Stringify
 (
@@ -30507,7 +30507,7 @@ ES5
 /
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ParseJSON
 (
@@ -30535,7 +30535,7 @@ vp
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ParseJSONWithReviver
 (
@@ -30696,7 +30696,7 @@ once
 /
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReadStructuredClone
 (
@@ -30746,7 +30746,7 @@ nbytesp
 /
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WriteStructuredClone
 (
@@ -30775,7 +30775,7 @@ transferable
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearStructuredClone
 (
@@ -30789,7 +30789,7 @@ nbytes
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StructuredCloneHasTransferables
 (
@@ -30799,14 +30799,14 @@ uint64_t
 data
 size_t
 nbytes
-JSBool
+bool
 *
 hasTransferable
 )
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StructuredClone
 (
@@ -31249,7 +31249,7 @@ callbacks
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReadUint32Pair
 (
@@ -31266,7 +31266,7 @@ p2
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReadBytes
 (
@@ -31282,7 +31282,7 @@ len
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReadTypedArray
 (
@@ -31296,7 +31296,7 @@ vp
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WriteUint32Pair
 (
@@ -31311,7 +31311,7 @@ data
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WriteBytes
 (
@@ -31328,7 +31328,7 @@ len
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WriteTypedArray
 (
@@ -31467,7 +31467,7 @@ caller
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetDefaultLocale
 (
@@ -31955,7 +31955,7 @@ otherwise
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReportWarning
 (
@@ -31974,7 +31974,7 @@ format
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReportErrorFlagsAndNumber
 (
@@ -31999,7 +31999,7 @@ errorNumber
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReportErrorFlagsAndNumberUC
 (
@@ -32698,7 +32698,7 @@ object
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ObjectIsDate
 (
@@ -32948,7 +32948,7 @@ obj
 JSString
 *
 input
-JSBool
+bool
 multiline
 )
 ;
@@ -32970,7 +32970,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ExecuteRegExp
 (
@@ -32991,7 +32991,7 @@ length
 size_t
 *
 indexp
-JSBool
+bool
 test
 jsval
 *
@@ -33054,7 +33054,7 @@ flags
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ExecuteRegExpNoStatics
 (
@@ -33072,7 +33072,7 @@ length
 size_t
 *
 indexp
-JSBool
+bool
 test
 jsval
 *
@@ -33082,7 +33082,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ObjectIsRegExp
 (
@@ -33202,7 +33202,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsExceptionPending
 (
@@ -33214,7 +33214,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPendingException
 (
@@ -33255,7 +33255,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReportPendingException
 (
@@ -33526,7 +33526,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ThrowReportedError
 (
@@ -33557,7 +33557,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ThrowStopIteration
 (
@@ -33958,7 +33958,7 @@ used
 /
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JS_IsConstructing
 (
 JSContext
@@ -34286,7 +34286,7 @@ jsid
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IndexToId
 (
@@ -34325,7 +34325,7 @@ index
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CharsToId
 (
@@ -34360,7 +34360,7 @@ identifier
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsIdentifier
 (
@@ -34370,7 +34370,7 @@ cx
 JSString
 *
 str
-JSBool
+bool
 *
 isIdentifier
 )
@@ -34409,7 +34409,7 @@ otherwise
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DescribeScriptedCaller
 (

@@ -290,7 +290,7 @@ isObject
 )
 )
 {
-JSBool
+bool
 hasOwn
 ;
 if
@@ -1176,7 +1176,7 @@ return
 false
 ;
 }
-JSBool
+bool
 dummy
 ;
 return
@@ -1489,7 +1489,7 @@ return
 true
 ;
 }
-JSBool
+bool
 protoHasProp
 ;
 bool

@@ -6129,7 +6129,7 @@ target
 /
 JSPropertyOp
 :
-JSBool
+bool
 fn
 (
 JSContext
@@ -12126,7 +12126,7 @@ target
 /
 JSStrictPropertyOp
 :
-JSBool
+bool
 fn
 (
 JSContext
@@ -12138,7 +12138,7 @@ obj
 /
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp

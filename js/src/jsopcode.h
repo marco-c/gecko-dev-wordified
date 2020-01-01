@@ -4899,7 +4899,7 @@ only
 .
 *
 /
-JSBool
+bool
 js_Disassemble
 (
 JSContext
@@ -4914,7 +4914,7 @@ JSScript
 *
 >
 script
-JSBool
+bool
 lines
 js
 :
@@ -4944,7 +4944,7 @@ jsbytecode
 pc
 unsigned
 loc
-JSBool
+bool
 lines
 js
 :

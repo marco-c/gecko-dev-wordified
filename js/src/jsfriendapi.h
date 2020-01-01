@@ -353,7 +353,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_SplicePrototype
 (
@@ -431,7 +431,7 @@ cx
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_NondeterministicGetWeakMapKeys
 (
@@ -503,7 +503,7 @@ property
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsDeadWrapper
 (
@@ -748,7 +748,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_GetterOnlyPropertyStub
 (
@@ -765,7 +765,7 @@ JS
 :
 HandleId
 id
-JSBool
+bool
 strict
 JS
 :
@@ -967,7 +967,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_WrapPropertyDescriptor
 (
@@ -985,7 +985,7 @@ desc
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_WrapAutoIdVector
 (
@@ -1003,7 +1003,7 @@ props
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_EnumerateState
 (
@@ -4512,7 +4512,7 @@ ActivityCallback
 void
 *
 arg
-JSBool
+bool
 active
 )
 ;
@@ -4665,7 +4665,7 @@ callback
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 DOMInstanceClassMatchesProto
@@ -5086,7 +5086,7 @@ principals
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 NukeCrossCompartmentWrappers
 (
@@ -5412,7 +5412,7 @@ js_DateGet
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DateIsValid
 (
@@ -7021,7 +7021,7 @@ below
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsTypedArrayObject
 (
@@ -7093,7 +7093,7 @@ below
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsArrayBufferViewObject
 (
@@ -7120,7 +7120,7 @@ subtypes
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsInt8Array
 (
@@ -7132,7 +7132,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsUint8Array
 (
@@ -7144,7 +7144,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsUint8ClampedArray
 (
@@ -7156,7 +7156,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsInt16Array
 (
@@ -7168,7 +7168,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsUint16Array
 (
@@ -7180,7 +7180,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsInt32Array
 (
@@ -7192,7 +7192,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsUint32Array
 (
@@ -7204,7 +7204,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsFloat32Array
 (
@@ -7216,7 +7216,7 @@ obj
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsFloat64Array
 (
@@ -7617,7 +7617,7 @@ below
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsArrayBufferObject
 (
@@ -8060,7 +8060,7 @@ unwrapping
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsArrayBufferViewObject
 (
@@ -8408,7 +8408,7 @@ APIs
 /
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsDataViewObject
 (
@@ -9858,7 +9858,7 @@ names
 /
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_ATOM
 (
 jsid
@@ -9874,7 +9874,7 @@ id
 }
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 JSID_IS_ATOM
 (
 jsid
@@ -10370,7 +10370,7 @@ ES5
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 DefaultValue
 (
@@ -10732,7 +10732,7 @@ js
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DefineOwnProperty
 (
@@ -10751,7 +10751,7 @@ js
 PropertyDescriptor
 &
 descriptor
-JSBool
+bool
 *
 bp
 )
@@ -10759,7 +10759,7 @@ bp
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_ReportIsNotFunction
 (

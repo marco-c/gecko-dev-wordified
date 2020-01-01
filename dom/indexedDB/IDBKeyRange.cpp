@@ -744,7 +744,7 @@ val
 aCx
 )
 ;
-JSBool
+bool
 open
 =
 false
@@ -863,7 +863,7 @@ val
 aCx
 )
 ;
-JSBool
+bool
 open
 =
 false
@@ -986,7 +986,7 @@ upperVal
 aCx
 )
 ;
-JSBool
+bool
 lowerOpen
 =
 false
@@ -1207,7 +1207,7 @@ namespace
 /
 /
 static
-JSBool
+bool
 IDBKeyRange
 :
 :

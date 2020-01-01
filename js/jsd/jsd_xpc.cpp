@@ -3620,7 +3620,7 @@ JSD_ERROR_REPORTER_PASS_ALONG
 ;
 }
 static
-JSBool
+bool
 jsds_CallHookProc
 (
 JSDContext
@@ -4191,7 +4191,7 @@ jsdc
 JSDScript
 *
 jsdscript
-JSBool
+bool
 creating
 void
 *

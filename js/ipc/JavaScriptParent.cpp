@@ -2166,7 +2166,7 @@ in
 out
 object
 .
-JSBool
+bool
 found
 ;
 if

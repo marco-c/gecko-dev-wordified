@@ -7747,7 +7747,7 @@ descriptor
 ADDPROPERTY_HOOK_NAME
                                      
 '
-JSBool
+bool
 '
 args
 )
@@ -9447,7 +9447,7 @@ vp
 Argument
 (
 '
-JSBool
+bool
 *
 '
 '
@@ -9465,7 +9465,7 @@ descriptor
 HASINSTANCE_HOOK_NAME
                                         
 '
-JSBool
+bool
 '
 args
 )
@@ -44039,12 +44039,6 @@ vp
 )
 ;
 "
-                 
-returnType
-=
-"
-bool
-"
 )
 :
         
@@ -44055,7 +44049,9 @@ __init__
 self
 descriptor
 name
-returnType
+"
+bool
+"
 args
 )
         
@@ -45675,11 +45671,6 @@ callArgs
 =
 "
 "
-returnType
-=
-"
-JSBool
-"
 )
     
 def
@@ -45941,11 +45932,6 @@ getThisObj
 callArgs
 =
 "
-"
-returnType
-=
-"
-JSBool
 "
 )
     
@@ -63082,7 +63068,7 @@ defineOnUnforgeable
 =
 (
 "
-JSBool
+bool
 hasUnforgeable
 ;
 \
@@ -63143,7 +63129,7 @@ true
 +
                                    
 "
-JSBool
+bool
 unused
 ;
 \
@@ -64050,7 +64036,7 @@ unforgeable
 =
 (
 "
-JSBool
+bool
 hasUnforgeable
 ;
 \
@@ -64981,7 +64967,7 @@ unforgeable
 =
 (
 "
-JSBool
+bool
 b
 =
 true
@@ -64991,7 +64977,7 @@ n
 "
                            
 "
-JSBool
+bool
 ok
 =
 JS_AlreadyHasOwnPropertyById
@@ -65276,13 +65262,13 @@ expando
 )
 {
   
-JSBool
+bool
 b
 =
 true
 ;
   
-JSBool
+bool
 ok
 =
 JS_HasPropertyById
@@ -65475,7 +65461,7 @@ hasUnforgeable
 (
                 
 "
-JSBool
+bool
 hasUnforgeable
 ;
 \
@@ -65599,7 +65585,7 @@ expando
 )
 {
   
-JSBool
+bool
 hasProp
 ;
   
@@ -66611,7 +66597,7 @@ expando
 )
 {
   
-JSBool
+bool
 isPresent
 ;
   
@@ -66735,7 +66721,7 @@ proto
 )
 {
   
-JSBool
+bool
 isPresent
 ;
   

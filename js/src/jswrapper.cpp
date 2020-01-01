@@ -4981,7 +4981,7 @@ object
 /
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js
 :

@@ -2047,7 +2047,7 @@ return
 true
 ;
 }
-JSBool
+bool
 UnknownPropertyStub
 (
 JSContext
@@ -2079,7 +2079,7 @@ return
 false
 ;
 }
-JSBool
+bool
 UnknownStrictPropertyStub
 (
 JSContext
@@ -2089,7 +2089,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp

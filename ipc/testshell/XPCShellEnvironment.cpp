@@ -638,7 +638,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetLine
 (
 char
@@ -1543,7 +1543,7 @@ FILE
 *
 dumpFile
 ;
-JSBool
+bool
 ok
 ;
 JS
@@ -2168,7 +2168,7 @@ filename
 FILE
 *
 file
-JSBool
+bool
 forceTTY
 )
 {
@@ -2201,7 +2201,7 @@ int
 lineno
 startline
 ;
-JSBool
+bool
 ok
 hitEOF
 ;
@@ -3746,7 +3746,7 @@ result
 cx
 )
 ;
-JSBool
+bool
 ok
 =
 JS_ExecuteScript

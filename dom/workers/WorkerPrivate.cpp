@@ -1385,7 +1385,7 @@ nullptr
 ;
 }
 static
-JSBool
+bool
 Write
 (
 JSContext
@@ -2261,7 +2261,7 @@ nullptr
 ;
 }
 static
-JSBool
+bool
 Write
 (
 JSContext
@@ -2751,7 +2751,7 @@ aClosure
 ;
 }
 static
-JSBool
+bool
 Write
 (
 JSContext
@@ -2921,7 +2921,7 @@ nullptr
 ;
 }
 static
-JSBool
+bool
 Write
 (
 JSContext

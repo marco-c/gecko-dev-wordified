@@ -411,7 +411,7 @@ JSObject
 >
 mObj
 ;
-JSBool
+bool
 mOk
 ;
 }

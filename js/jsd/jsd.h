@@ -829,7 +829,7 @@ a
 JSCList
 *
 /
-JSBool
+bool
 inited
 ;
 void
@@ -1155,7 +1155,7 @@ textLength
 unsigned
 textSpace
 ;
-JSBool
+bool
 dirty
 ;
 JSDSourceStatus
@@ -1164,7 +1164,7 @@ status
 unsigned
 alterCount
 ;
-JSBool
+bool
 doingEval
 ;
 }
@@ -1880,7 +1880,7 @@ jsd_DebuggerPause
 JSDContext
 *
 jsdc
-JSBool
+bool
 forceAllHooksOff
 )
 ;
@@ -1951,7 +1951,7 @@ jsdc
 )
 ;
 extern
-JSBool
+bool
 jsd_SetErrorReporter
 (
 JSDContext
@@ -1965,7 +1965,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_GetErrorReporter
 (
 JSDContext
@@ -2064,7 +2064,7 @@ functions
 *
 /
 extern
-JSBool
+bool
 jsd_InitScriptManager
 (
 JSDContext
@@ -2323,7 +2323,7 @@ jsdscript
 )
 ;
 extern
-JSBool
+bool
 jsd_IsActiveScript
 (
 JSDContext
@@ -2386,7 +2386,7 @@ jsdscript
 )
 ;
 extern
-JSBool
+bool
 jsd_SetScriptHook
 (
 JSDContext
@@ -2400,7 +2400,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_GetScriptHook
 (
 JSDContext
@@ -2444,7 +2444,7 @@ pc
 )
 ;
 extern
-JSBool
+bool
 jsd_GetLinePCs
 (
 JSDContext
@@ -2536,7 +2536,7 @@ functions
 *
 /
 extern
-JSBool
+bool
 jsd_SetExecutionHook
 (
 JSDContext
@@ -2555,7 +2555,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearExecutionHook
 (
 JSDContext
@@ -2569,7 +2569,7 @@ pc
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearAllExecutionHooksForScript
 (
 JSDContext
@@ -2581,7 +2581,7 @@ jsdscript
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearAllExecutionHooks
 (
 JSDContext
@@ -2773,7 +2773,7 @@ jsdsrc
 )
 ;
 extern
-JSBool
+bool
 jsd_GetSourceText
 (
 JSDContext
@@ -2817,7 +2817,7 @@ jsdsrc
 )
 ;
 extern
-JSBool
+bool
 jsd_IsSourceDirty
 (
 JSDContext
@@ -2838,7 +2838,7 @@ jsdc
 JSDSourceText
 *
 jsdsrc
-JSBool
+bool
 dirty
 )
 ;
@@ -2956,7 +2956,7 @@ call
 *
 /
 extern
-JSBool
+bool
 jsd_AddFullSourceText
 (
 JSDContext
@@ -3114,7 +3114,7 @@ functions
 *
 /
 extern
-JSBool
+bool
 jsd_SetInterruptHook
 (
 JSDContext
@@ -3128,7 +3128,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearInterruptHook
 (
 JSDContext
@@ -3137,7 +3137,7 @@ jsdc
 )
 ;
 extern
-JSBool
+bool
 jsd_EnableSingleStepInterrupts
 (
 JSDContext
@@ -3146,12 +3146,12 @@ jsdc
 JSDScript
 *
 jsdscript
-JSBool
+bool
 enable
 )
 ;
 extern
-JSBool
+bool
 jsd_SetDebugBreakHook
 (
 JSDContext
@@ -3165,7 +3165,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearDebugBreakHook
 (
 JSDContext
@@ -3174,7 +3174,7 @@ jsdc
 )
 ;
 extern
-JSBool
+bool
 jsd_SetDebuggerHook
 (
 JSDContext
@@ -3188,7 +3188,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearDebuggerHook
 (
 JSDContext
@@ -3219,7 +3219,7 @@ rval
 )
 ;
 extern
-JSBool
+bool
 jsd_CallCallHook
 (
 JSDContext
@@ -3238,7 +3238,7 @@ hookData
 )
 ;
 extern
-JSBool
+bool
 jsd_SetThrowHook
 (
 JSDContext
@@ -3252,7 +3252,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearThrowHook
 (
 JSDContext
@@ -3303,7 +3303,7 @@ closure
 )
 ;
 extern
-JSBool
+bool
 jsd_SetFunctionHook
 (
 JSDContext
@@ -3317,7 +3317,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearFunctionHook
 (
 JSDContext
@@ -3326,7 +3326,7 @@ jsdc
 )
 ;
 extern
-JSBool
+bool
 jsd_SetTopLevelHook
 (
 JSDContext
@@ -3340,7 +3340,7 @@ callerdata
 )
 ;
 extern
-JSBool
+bool
 jsd_ClearTopLevelHook
 (
 JSDContext
@@ -3550,7 +3550,7 @@ jsdframe
 )
 ;
 extern
-JSBool
+bool
 jsd_IsStackFrameDebugger
 (
 JSDContext
@@ -3565,7 +3565,7 @@ jsdframe
 )
 ;
 extern
-JSBool
+bool
 jsd_IsStackFrameConstructing
 (
 JSDContext
@@ -3637,7 +3637,7 @@ jsdthreadstate
 )
 ;
 extern
-JSBool
+bool
 jsd_EvaluateUCScriptInStackFrame
 (
 JSDContext
@@ -3661,7 +3661,7 @@ char
 filename
 unsigned
 lineno
-JSBool
+bool
 eatExceptions
 JS
 :
@@ -3671,7 +3671,7 @@ rval
 )
 ;
 extern
-JSBool
+bool
 jsd_EvaluateScriptInStackFrame
 (
 JSDContext
@@ -3695,7 +3695,7 @@ char
 filename
 unsigned
 lineno
-JSBool
+bool
 eatExceptions
 JS
 :
@@ -3723,7 +3723,7 @@ val
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValidThreadState
 (
 JSDContext
@@ -3735,7 +3735,7 @@ jsdthreadstate
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValidFrameInThreadState
 (
 JSDContext
@@ -3763,7 +3763,7 @@ jsdthreadstate
 )
 ;
 extern
-JSBool
+bool
 jsd_SetException
 (
 JSDContext
@@ -5105,7 +5105,7 @@ jsdval
 *
 /
 extern
-JSBool
+bool
 jsd_IsValueObject
 (
 JSDContext
@@ -5117,7 +5117,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueNumber
 (
 JSDContext
@@ -5129,7 +5129,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueInt
 (
 JSDContext
@@ -5141,7 +5141,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueDouble
 (
 JSDContext
@@ -5153,7 +5153,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueString
 (
 JSDContext
@@ -5165,7 +5165,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueBoolean
 (
 JSDContext
@@ -5177,7 +5177,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueNull
 (
 JSDContext
@@ -5189,7 +5189,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueVoid
 (
 JSDContext
@@ -5201,7 +5201,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValuePrimitive
 (
 JSDContext
@@ -5213,7 +5213,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueFunction
 (
 JSDContext
@@ -5225,7 +5225,7 @@ jsdval
 )
 ;
 extern
-JSBool
+bool
 jsd_IsValueNative
 (
 JSDContext
@@ -5289,7 +5289,7 @@ jsdval
 *
 /
 extern
-JSBool
+bool
 jsd_GetValueBoolean
 (
 JSDContext
@@ -5711,9 +5711,9 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
-JSBool
+bool
 *
 ok
 void
@@ -5733,9 +5733,9 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
-JSBool
+bool
 *
 ok
 void
@@ -5802,7 +5802,7 @@ Functions
 *
 /
 extern
-JSBool
+bool
 jsd_InitObjectManager
 (
 JSDContext
@@ -6045,7 +6045,7 @@ Functions
 *
 /
 extern
-JSBool
+bool
 jsd_CreateAtomTable
 (
 JSDContext

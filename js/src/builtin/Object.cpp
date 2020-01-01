@@ -2535,7 +2535,7 @@ toObject
 )
 )
 ;
-JSBool
+bool
 dummy
 ;
 RootedValue
@@ -3458,7 +3458,7 @@ true
 if
 JS_HAS_OBJ_WATCHPOINT
 static
-JSBool
+bool
 obj_watch_handler
 (
 JSContext
@@ -5500,7 +5500,7 @@ id
 return
 false
 ;
-JSBool
+bool
 junk
 ;
 if

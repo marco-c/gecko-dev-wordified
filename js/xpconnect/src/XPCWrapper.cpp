@@ -166,7 +166,7 @@ XPCNativeWrapper
 {
 static
 inline
-JSBool
+bool
 ThrowException
 (
 nsresult

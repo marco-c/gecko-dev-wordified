@@ -5480,7 +5480,7 @@ buffer
 ;
 }
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -5518,7 +5518,7 @@ delegate
 return
 false
 ;
-JSBool
+bool
 delegateResult
 =
 JSObject
@@ -5655,7 +5655,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -5698,7 +5698,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -5866,7 +5866,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -5909,7 +5909,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -5978,7 +5978,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6027,7 +6027,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6096,7 +6096,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6145,7 +6145,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6197,7 +6197,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6262,7 +6262,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6314,7 +6314,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6370,7 +6370,7 @@ present
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6413,7 +6413,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6428,7 +6428,7 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -6467,7 +6467,7 @@ strict
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6482,7 +6482,7 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -6510,7 +6510,7 @@ strict
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6525,7 +6525,7 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -6564,7 +6564,7 @@ strict
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6579,7 +6579,7 @@ HandleSpecialId
 sid
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -6607,7 +6607,7 @@ strict
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6657,7 +6657,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6698,7 +6698,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6748,7 +6748,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6789,7 +6789,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6839,7 +6839,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6880,7 +6880,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6930,7 +6930,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6971,7 +6971,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -6984,7 +6984,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
@@ -7021,7 +7021,7 @@ succeeded
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -7034,7 +7034,7 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -7071,7 +7071,7 @@ succeeded
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -7084,7 +7084,7 @@ HandleObject
 obj
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
@@ -7121,7 +7121,7 @@ succeeded
 )
 ;
 }
-JSBool
+bool
 ArrayBufferObject
 :
 :
@@ -7338,7 +7338,7 @@ NULL
 )
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7441,7 +7441,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7484,7 +7484,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7585,7 +7585,7 @@ return
 true
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7628,7 +7628,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7657,7 +7657,7 @@ return
 true
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7686,7 +7686,7 @@ return
 true
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7715,7 +7715,7 @@ return
 true
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7756,7 +7756,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7786,7 +7786,7 @@ return
 false
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7816,7 +7816,7 @@ return
 false
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -7846,7 +7846,7 @@ return
 false
 ;
 }
-JSBool
+bool
 TypedArrayObject
 :
 :
@@ -9025,7 +9025,7 @@ fastClass
 ;
 }
 static
-JSBool
+bool
 obj_getProperty
 (
 JSContext
@@ -9084,7 +9084,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 obj_getElement
 (
 JSContext
@@ -9141,7 +9141,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_getSpecial
 (
 JSContext
@@ -9200,7 +9200,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 obj_getGeneric
 (
 JSContext
@@ -9349,7 +9349,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 obj_getElementIfPresent
 (
 JSContext
@@ -9481,7 +9481,7 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -9739,7 +9739,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_setGeneric
 (
 JSContext
@@ -9751,7 +9751,7 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -9879,7 +9879,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 obj_setProperty
 (
 JSContext
@@ -9891,7 +9891,7 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -9920,7 +9920,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 obj_setElement
 (
 JSContext
@@ -9932,7 +9932,7 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -10037,7 +10037,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 obj_setSpecial
 (
 JSContext
@@ -10049,7 +10049,7 @@ HandleSpecialId
 sid
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -10078,7 +10078,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 obj_defineGeneric
 (
 JSContext
@@ -10118,7 +10118,7 @@ false
 ;
 }
 static
-JSBool
+bool
 obj_defineProperty
 (
 JSContext
@@ -10165,7 +10165,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 obj_defineElement
 (
 JSContext
@@ -10205,7 +10205,7 @@ false
 ;
 }
 static
-JSBool
+bool
 obj_defineSpecial
 (
 JSContext
@@ -10252,7 +10252,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 obj_deleteProperty
 (
 JSContext
@@ -10262,7 +10262,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
@@ -10277,7 +10277,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_deleteElement
 (
 JSContext
@@ -10287,7 +10287,7 @@ HandleObject
 tarray
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -10330,7 +10330,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_deleteSpecial
 (
 JSContext
@@ -10340,7 +10340,7 @@ HandleObject
 tarray
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
@@ -10355,7 +10355,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_enumerate
 (
 JSContext
@@ -17855,7 +17855,7 @@ return
 dvobj
 ;
 }
-JSBool
+bool
 DataViewObject
 :
 :
@@ -22340,7 +22340,7 @@ proto
 \
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_Is
 #
@@ -25235,7 +25235,7 @@ API
 /
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsArrayBufferObject
 (
@@ -25269,7 +25269,7 @@ false
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsTypedArrayObject
 (
@@ -25303,7 +25303,7 @@ false
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsArrayBufferViewObject
 (
@@ -25553,7 +25553,7 @@ obj
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AllocateArrayBufferContents
 (
@@ -25631,7 +25631,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReallocateArrayBufferContents
 (
@@ -25711,7 +25711,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StealArrayBufferContents
 (
@@ -26678,7 +26678,7 @@ viewData
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_IsDataViewObject
 (

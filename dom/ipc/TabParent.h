@@ -1349,7 +1349,7 @@ POfflineCacheUpdateParent
 actor
 )
 ;
-JSBool
+bool
 GetGlobalJSObject
 (
 JSContext

@@ -214,7 +214,7 @@ name
 )
 \
 static
-JSBool
+bool
 \
 pm_get_
 #

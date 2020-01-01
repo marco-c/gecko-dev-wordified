@@ -1071,7 +1071,7 @@ returns
 *
 /
 extern
-JSBool
+bool
 InitAtoms
 (
 JSRuntime

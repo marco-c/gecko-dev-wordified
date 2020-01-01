@@ -4052,7 +4052,7 @@ JSFreeOp
 fop
 JSFinalizeStatus
 status
-JSBool
+bool
 isCompartmentGC
 )
 {
@@ -7417,7 +7417,7 @@ ActivityCallback
 void
 *
 arg
-JSBool
+bool
 active
 )
 {
@@ -17881,7 +17881,7 @@ xpc
 ifdef
 MOZ_CRASHREPORTER
 static
-JSBool
+bool
 DiagnosticMemoryCallback
 (
 void
@@ -20065,7 +20065,7 @@ JSContext
 aCx
 )
 ;
-JSBool
+bool
 XPCJSRuntime
 :
 :

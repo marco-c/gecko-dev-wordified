@@ -5917,7 +5917,7 @@ JIT_SCRIPT_RELEASE_TYPES_INTERVAL
 *
 1000
 ;
-JSBool
+bool
 js_InitGC
 (
 JSRuntime
@@ -6624,7 +6624,7 @@ return
 ok
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -6653,7 +6653,7 @@ JS_GC_ROOT_VALUE_PTR
 ;
 }
 extern
-JSBool
+bool
 js
 :
 :
@@ -6685,7 +6685,7 @@ JS_GC_ROOT_VALUE_PTR
 ;
 }
 extern
-JSBool
+bool
 js
 :
 :
@@ -6715,7 +6715,7 @@ JS_GC_ROOT_STRING_PTR
 ;
 }
 extern
-JSBool
+bool
 js
 :
 :
@@ -6745,7 +6745,7 @@ JS_GC_ROOT_OBJECT_PTR
 ;
 }
 extern
-JSBool
+bool
 js
 :
 :

@@ -765,7 +765,7 @@ aFop
 private
 :
 static
-JSBool
+bool
 GetEventListener
 (
 JSContext
@@ -928,7 +928,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SetEventListener
 (
 JSContext
@@ -951,7 +951,7 @@ Handle
 jsid
 >
 aIdval
-JSBool
+bool
 aStrict
 JS
 :
@@ -1163,7 +1163,7 @@ false
 ;
 }
 static
-JSBool
+bool
 GetSelf
 (
 JSContext
@@ -1231,7 +1231,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetLocation
 (
 JSContext
@@ -1709,7 +1709,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetOnErrorListener
 (
 JSContext
@@ -1867,7 +1867,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SetOnErrorListener
 (
 JSContext
@@ -1890,7 +1890,7 @@ Handle
 jsid
 >
 aIdval
-JSBool
+bool
 aStrict
 JS
 :
@@ -2094,7 +2094,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetNavigator
 (
 JSContext
@@ -2731,7 +2731,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ClearInterval
 (
 JSContext
@@ -3654,7 +3654,7 @@ proto
 ;
 }
 static
-JSBool
+bool
 InitPrivate
 (
 JSContext
@@ -3808,7 +3808,7 @@ EventTarget
 SetEventListener
 ;
 static
-JSBool
+bool
 GetEventListener
 (
 JSContext
@@ -3971,7 +3971,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SetEventListener
 (
 JSContext
@@ -3994,7 +3994,7 @@ Handle
 jsid
 >
 aIdval
-JSBool
+bool
 aStrict
 JS
 :
@@ -4261,7 +4261,7 @@ false
 ;
 }
 static
-JSBool
+bool
 Resolve
 (
 JSContext
@@ -4297,7 +4297,7 @@ JSObject
 aObjp
 )
 {
-JSBool
+bool
 resolved
 ;
 if

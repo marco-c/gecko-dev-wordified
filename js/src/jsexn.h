@@ -239,7 +239,7 @@ otherwise
 *
 /
 extern
-JSBool
+bool
 js_ErrorToException
 (
 JSContext
@@ -404,7 +404,7 @@ flag
 *
 /
 extern
-JSBool
+bool
 js_ReportUncaughtException
 (
 JSContext

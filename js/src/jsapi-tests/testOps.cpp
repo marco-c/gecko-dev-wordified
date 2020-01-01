@@ -133,7 +133,7 @@ tests
 h
 "
 static
-JSBool
+bool
 my_convert
 (
 JSContext

@@ -5077,7 +5077,7 @@ toObject
 )
 ;
 }
-JSBool
+bool
 js_ThrowStopIteration
 (
 JSContext
@@ -5575,7 +5575,7 @@ JSContext
 cx
 HandleObject
 obj
-JSBool
+bool
 keysonly
 )
 {
@@ -6366,7 +6366,7 @@ JS_FS_END
 }
 ;
 static
-JSBool
+bool
 CloseGenerator
 (
 JSContext
@@ -8616,7 +8616,7 @@ true
 ;
 }
 static
-JSBool
+bool
 stopiter_hasInstance
 (
 JSContext
@@ -8626,7 +8626,7 @@ HandleObject
 obj
 MutableHandleValue
 v
-JSBool
+bool
 *
 bp
 )
@@ -10145,7 +10145,7 @@ frame
 *
 /
 static
-JSBool
+bool
 SendToGenerator
 (
 JSContext
@@ -10388,7 +10388,7 @@ JSGEN_CLOSING
 break
 ;
 }
-JSBool
+bool
 ok
 ;
 {
@@ -10591,7 +10591,7 @@ false
 ;
 }
 static
-JSBool
+bool
 CloseGenerator
 (
 JSContext

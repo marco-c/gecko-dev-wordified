@@ -211,7 +211,7 @@ lock
 ifdef
 DEBUG
 extern
-JSBool
+bool
 jsd_IsLocked
 (
 JSDStaticLock

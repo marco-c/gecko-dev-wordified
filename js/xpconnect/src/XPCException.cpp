@@ -348,7 +348,7 @@ map
 /
 /
 static
-JSBool
+bool
 nsXPCException
 :
 :
@@ -1987,7 +1987,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-JSBool
+bool
 nsXPCException
 :
 :

@@ -205,11 +205,11 @@ cx
 char
 *
 buf
-JSBool
+bool
 showArgs
-JSBool
+bool
 showLocals
-JSBool
+bool
 showThisProps
 )
 ;
@@ -351,7 +351,7 @@ JS_SetRuntimeDebugMode
 JSRuntime
 *
 rt
-JSBool
+bool
 debug
 )
 ;
@@ -480,7 +480,7 @@ mode
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetDebugMode
 (
@@ -528,14 +528,14 @@ stack
 /
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_SetDebugModeForAllCompartments
 (
 JSContext
 *
 cx
-JSBool
+bool
 debug
 )
 ;
@@ -580,7 +580,7 @@ thread
 /
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_SetDebugModeForCompartment
 (
@@ -590,7 +590,7 @@ cx
 JSCompartment
 *
 comp
-JSBool
+bool
 debug
 )
 ;
@@ -614,14 +614,14 @@ compartment
 /
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_SetDebugMode
 (
 JSContext
 *
 cx
-JSBool
+bool
 debug
 )
 ;
@@ -638,7 +638,7 @@ mode
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetSingleStepMode
 (
@@ -648,7 +648,7 @@ cx
 JSScript
 *
 script
-JSBool
+bool
 singleStep
 )
 ;
@@ -666,7 +666,7 @@ marked
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetTrap
 (
@@ -739,7 +739,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetInterrupt
 (
@@ -756,7 +756,7 @@ closure
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearInterrupt
 (
@@ -849,7 +849,7 @@ closurep
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetWatchPoint
 (
@@ -871,7 +871,7 @@ closure
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearWatchPoint
 (
@@ -895,7 +895,7 @@ closurep
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearWatchPointsForObject
 (
@@ -910,7 +910,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearAllWatchPoints
 (
@@ -1064,7 +1064,7 @@ script
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetLinePCs
 (
@@ -1110,7 +1110,7 @@ fun
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_FunctionHasLocalNames
 (
@@ -2045,7 +2045,7 @@ JSScopeProperty
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyDescArray
 (
@@ -2761,9 +2761,9 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
-JSBool
+bool
 *
 ok
 void
@@ -2772,7 +2772,7 @@ closure
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 JSDebugErrorHook
@@ -2940,7 +2940,7 @@ JSDebugHooks
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetDebuggerHandler
 (
@@ -2957,7 +2957,7 @@ closure
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetSourceHandler
 (
@@ -2974,7 +2974,7 @@ closure
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetExecuteHook
 (
@@ -2991,7 +2991,7 @@ closure
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetCallHook
 (
@@ -3008,7 +3008,7 @@ closure
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetThrowHook
 (
@@ -3025,7 +3025,7 @@ closure
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetDebugErrorHook
 (
@@ -3149,7 +3149,7 @@ object
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineProfilingFunctions
 (
@@ -3176,7 +3176,7 @@ cpp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineDebuggerObject
 (
@@ -3260,7 +3260,7 @@ frame
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_CallContextDebugHandler
 (

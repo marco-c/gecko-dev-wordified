@@ -123,7 +123,7 @@ tests
 h
 "
 static
-JSBool
+bool
 nativeGet
 (
 JSContext

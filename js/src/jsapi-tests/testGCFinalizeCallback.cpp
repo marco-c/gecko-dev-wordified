@@ -134,7 +134,7 @@ JSFreeOp
 fop
 JSFinalizeStatus
 status
-JSBool
+bool
 isCompartmentGC
 )
 {

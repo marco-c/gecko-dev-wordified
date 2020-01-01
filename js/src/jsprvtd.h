@@ -1104,7 +1104,7 @@ closure
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 JSWatchPointHandler
@@ -1372,7 +1372,7 @@ JS
 :
 HandleObject
 obj
-JSBool
+bool
 keysonly
 )
 ;

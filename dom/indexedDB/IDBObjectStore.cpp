@@ -6986,7 +6986,7 @@ nullptr
 /
 /
 static
-JSBool
+bool
 IDBObjectStore
 :
 :

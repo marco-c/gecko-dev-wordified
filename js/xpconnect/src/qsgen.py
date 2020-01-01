@@ -2811,7 +2811,7 @@ n
 "
                 
 "
-JSBool
+bool
 "
 +
 name
@@ -3843,7 +3843,7 @@ boolean
 :
         
 "
-JSBool
+bool
 {
 name
 }

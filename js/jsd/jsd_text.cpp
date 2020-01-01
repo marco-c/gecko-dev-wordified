@@ -328,7 +328,7 @@ false
 ;
 }
 static
-JSBool
+bool
 _appendText
 (
 JSDContext
@@ -821,7 +821,7 @@ jsdsrc
 ;
 }
 static
-JSBool
+bool
 _isSourceInSourceList
 (
 JSDContext
@@ -1497,7 +1497,7 @@ jsdsrc
 url
 ;
 }
-JSBool
+bool
 jsd_GetSourceText
 (
 JSDContext
@@ -1593,7 +1593,7 @@ jsdsrc
 status
 ;
 }
-JSBool
+bool
 jsd_IsSourceDirty
 (
 JSDContext
@@ -1620,7 +1620,7 @@ jsdc
 JSDSourceText
 *
 jsdsrc
-JSBool
+bool
 dirty
 )
 {
@@ -1814,13 +1814,13 @@ text
 int
 len
 ;
-JSBool
+bool
 dirty
 ;
 JSDStreamStatus
 status
 ;
-JSBool
+bool
 gotSrc
 ;
 url
@@ -2465,7 +2465,7 @@ one
 call
 *
 /
-JSBool
+bool
 jsd_AddFullSourceText
 (
 JSDContext

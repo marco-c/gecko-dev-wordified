@@ -708,7 +708,7 @@ in
 RuntimeService
 .
 cpp
-JSBool
+bool
 ResolveWorkerClasses
 (
 JSContext

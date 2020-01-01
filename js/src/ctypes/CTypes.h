@@ -1506,7 +1506,7 @@ JS_ALWAYS_INLINE
 void
 ASSERT_OK
 (
-JSBool
+bool
 ok
 )
 {
@@ -1823,7 +1823,7 @@ hash
 ;
 }
 static
-JSBool
+bool
 match
 (
 const
@@ -3587,7 +3587,7 @@ obj
 namespace
 StructType
 {
-JSBool
+bool
 DefineInternal
 (
 JSContext

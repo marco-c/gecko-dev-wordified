@@ -708,7 +708,7 @@ value
 )
 ;
 extern
-JSBool
+bool
 JS_HashTableRemove
 (
 JSHashTable

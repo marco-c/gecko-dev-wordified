@@ -1272,7 +1272,7 @@ JSD_SCRIPT_HASH_SIZE
 1024
 #
 endif
-JSBool
+bool
 jsd_InitScriptManager
 (
 JSDContext
@@ -2068,7 +2068,7 @@ jsdscript
 data
 ;
 }
-JSBool
+bool
 jsd_IsActiveScript
 (
 JSDContext
@@ -2474,7 +2474,7 @@ return
 line
 ;
 }
-JSBool
+bool
 jsd_GetLinePCs
 (
 JSDContext
@@ -2521,7 +2521,7 @@ jsdscript
 -
 1
 ;
-JSBool
+bool
 ok
 ;
 jsbytecode
@@ -2626,7 +2626,7 @@ return
 ok
 ;
 }
-JSBool
+bool
 jsd_SetScriptHook
 (
 JSDContext
@@ -2665,7 +2665,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_GetScriptHook
 (
 JSDContext
@@ -2716,7 +2716,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_EnableSingleStepInterrupts
 (
 JSDContext
@@ -2725,11 +2725,11 @@ jsdc
 JSDScript
 *
 jsdscript
-JSBool
+bool
 enable
 )
 {
-JSBool
+bool
 rv
 ;
 AutoSafeJSContext
@@ -3474,7 +3474,7 @@ NULL
 ;
 }
 static
-JSBool
+bool
 _isActiveHook
 (
 JSDContext
@@ -3810,7 +3810,7 @@ rval
 )
 ;
 }
-JSBool
+bool
 jsd_SetExecutionHook
 (
 JSDContext
@@ -3832,7 +3832,7 @@ JSDExecHook
 *
 jsdhook
 ;
-JSBool
+bool
 rv
 ;
 JSD_LOCK
@@ -4038,7 +4038,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearExecutionHook
 (
 JSDContext
@@ -4135,7 +4135,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearAllExecutionHooksForScript
 (
 JSDContext
@@ -4222,7 +4222,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearAllExecutionHooks
 (
 JSDContext

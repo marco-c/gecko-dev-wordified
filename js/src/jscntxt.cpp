@@ -3244,7 +3244,7 @@ return
 false
 ;
 }
-JSBool
+bool
 js_ReportErrorVA
 (
 JSContext
@@ -3274,7 +3274,7 @@ messagelen
 JSErrorReport
 report
 ;
-JSBool
+bool
 warning
 ;
 if
@@ -4234,7 +4234,7 @@ memory
 .
 *
 /
-JSBool
+bool
 js_ExpandErrorArguments
 (
 JSContext
@@ -5325,7 +5325,7 @@ return
 false
 ;
 }
-JSBool
+bool
 js_ReportErrorNumberVA
 (
 JSContext
@@ -5354,7 +5354,7 @@ char
 *
 message
 ;
-JSBool
+bool
 warning
 ;
 if
@@ -5840,7 +5840,7 @@ name
 )
 ;
 }
-JSBool
+bool
 js_ReportIsNullOrUndefined
 (
 JSContext
@@ -5858,7 +5858,7 @@ char
 *
 bytes
 ;
-JSBool
+bool
 ok
 ;
 bytes
@@ -6086,7 +6086,7 @@ bytes
 )
 ;
 }
-JSBool
+bool
 js_ReportValueErrorFlags
 (
 JSContext
@@ -6117,7 +6117,7 @@ char
 *
 bytes
 ;
-JSBool
+bool
 ok
 ;
 JS_ASSERT
@@ -6269,7 +6269,7 @@ return
 NULL
 ;
 }
-JSBool
+bool
 js_InvokeOperationCallback
 (
 JSContext

@@ -823,7 +823,7 @@ return
 JSTRAP_CONTINUE
 ;
 }
-JSBool
+bool
 jsd_CallCallHook
 (
 JSDContext
@@ -841,7 +841,7 @@ void
 hookData
 )
 {
-JSBool
+bool
 hookanswer
 ;
 JSDThreadState
@@ -892,7 +892,7 @@ return
 hookanswer
 ;
 }
-JSBool
+bool
 jsd_SetInterruptHook
 (
 JSDContext
@@ -945,7 +945,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearInterruptHook
 (
 JSDContext
@@ -982,7 +982,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_SetDebugBreakHook
 (
 JSDContext
@@ -1021,7 +1021,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearDebugBreakHook
 (
 JSDContext
@@ -1048,7 +1048,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_SetDebuggerHook
 (
 JSDContext
@@ -1087,7 +1087,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearDebuggerHook
 (
 JSDContext
@@ -1114,7 +1114,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_SetThrowHook
 (
 JSDContext
@@ -1153,7 +1153,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearThrowHook
 (
 JSDContext
@@ -1180,7 +1180,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_SetFunctionHook
 (
 JSDContext
@@ -1219,7 +1219,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearFunctionHook
 (
 JSDContext
@@ -1246,7 +1246,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_SetTopLevelHook
 (
 JSDContext
@@ -1285,7 +1285,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_ClearTopLevelHook
 (
 JSDContext

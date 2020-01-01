@@ -188,7 +188,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 IDBKeyRange
 )
 static
-JSBool
+bool
 DefineConstructors
 (
 JSContext

@@ -1734,7 +1734,7 @@ SubjectIsPrivileged
 )
 ;
 static
-JSBool
+bool
 CheckObjectAccess
 (
 JSContext
@@ -1791,7 +1791,7 @@ be
 executed
 .
 static
-JSBool
+bool
 ContentSecurityPolicyPermitsJSAction
 (
 JSContext

@@ -2058,7 +2058,7 @@ args
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_NondeterministicGetWeakMapKeys
 (

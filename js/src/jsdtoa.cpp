@@ -694,7 +694,7 @@ decPt
 9999
 )
 {
-JSBool
+bool
 exponentialNotation
 =
 false

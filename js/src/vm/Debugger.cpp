@@ -28183,7 +28183,7 @@ thisv
 .
 *
 /
-JSBool
+bool
 js
 :
 :
@@ -32855,7 +32855,7 @@ nameArg
 return
 false
 ;
-JSBool
+bool
 succeeded
 ;
 ErrorCopier
@@ -37141,7 +37141,7 @@ Glue
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineDebuggerObject
 (

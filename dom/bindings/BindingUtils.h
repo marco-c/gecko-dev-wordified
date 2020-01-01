@@ -6550,7 +6550,7 @@ a
 DOM
 instance
 .
-JSBool
+bool
 InstanceClassHasProtoAtDepth
 (
 JS
@@ -12928,7 +12928,7 @@ wrapper
 .
 *
 /
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -12952,12 +12952,12 @@ JSObject
 *
 >
 instance
-JSBool
+bool
 *
 bp
 )
 ;
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -12983,12 +12983,12 @@ JS
 Value
 >
 vp
-JSBool
+bool
 *
 bp
 )
 ;
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -13007,7 +13007,7 @@ JSObject
 *
 >
 instance
-JSBool
+bool
 *
 bp
 )

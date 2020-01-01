@@ -561,7 +561,7 @@ global_finalize
 }
 ;
 static
-JSBool
+bool
 _validateUserCallbacks
 (
 JSD_UserCallbacks
@@ -1430,7 +1430,7 @@ jsd_DebuggerPause
 JSDContext
 *
 jsdc
-JSBool
+bool
 forceAllHooksOff
 )
 {
@@ -1503,7 +1503,7 @@ NULL
 ;
 }
 static
-JSBool
+bool
 jsd_DebugErrorHook
 (
 JSContext
@@ -1848,7 +1848,7 @@ jsdc
 ;
 }
 static
-JSBool
+bool
 jsd_DebugErrorHook
 (
 JSContext
@@ -2089,7 +2089,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_SetErrorReporter
 (
 JSDContext
@@ -2128,7 +2128,7 @@ return
 true
 ;
 }
-JSBool
+bool
 jsd_GetErrorReporter
 (
 JSDContext

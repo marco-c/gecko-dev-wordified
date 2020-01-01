@@ -471,7 +471,7 @@ GetPrincipal
 )
 ;
 static
-JSBool
+bool
 doCheckAccess
 (
 JSContext
@@ -551,7 +551,7 @@ gSharedGlobalClass
 ;
 }
 ;
-JSBool
+bool
 nsXBLDocGlobalObject
 :
 :
@@ -748,7 +748,7 @@ rv
 ;
 }
 static
-JSBool
+bool
 nsXBLDocGlobalObject_getProperty
 (
 JSContext
@@ -801,7 +801,7 @@ ACCESS_GET_PROPERTY
 ;
 }
 static
-JSBool
+bool
 nsXBLDocGlobalObject_setProperty
 (
 JSContext
@@ -824,7 +824,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 strict
 JS
 :
@@ -856,7 +856,7 @@ ACCESS_SET_PROPERTY
 ;
 }
 static
-JSBool
+bool
 nsXBLDocGlobalObject_checkAccess
 (
 JSContext
@@ -1000,7 +1000,7 @@ nativeThis
 ;
 }
 static
-JSBool
+bool
 nsXBLDocGlobalObject_resolve
 (
 JSContext
@@ -1025,7 +1025,7 @@ jsid
 id
 )
 {
-JSBool
+bool
 did_resolve
 =
 false

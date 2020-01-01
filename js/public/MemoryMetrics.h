@@ -2816,7 +2816,7 @@ iface
 |
 .
 typedef
-JSBool
+bool
 (
 *
 GetISupportsFun

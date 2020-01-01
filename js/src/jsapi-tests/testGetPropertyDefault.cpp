@@ -168,7 +168,7 @@ x
 )
 )
 static
-JSBool
+bool
 stringToId
 (
 JSContext

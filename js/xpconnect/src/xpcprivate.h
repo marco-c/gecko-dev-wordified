@@ -3777,7 +3777,7 @@ mRuntime
 ;
 }
 static
-JSBool
+bool
 IsISupportsDescendant
 (
 nsIInterfaceInfo
@@ -3899,7 +3899,7 @@ nsXPConnect
 (
 )
 ;
-JSBool
+bool
 IsShuttingDown
 (
 )
@@ -4020,7 +4020,7 @@ nsXPConnect
 gSelf
 ;
 static
-JSBool
+bool
 gOnceAliveNowDead
 ;
 XPCJSRuntime
@@ -4031,7 +4031,7 @@ nsIXPCSecurityManager
 *
 mDefaultSecurityManager
 ;
-JSBool
+bool
 mShuttingDown
 ;
 /
@@ -4450,7 +4450,7 @@ true
 )
 ;
 }
-JSBool
+bool
 init
 (
 JSContext
@@ -4874,7 +4874,7 @@ return
 mMapLock
 ;
 }
-JSBool
+bool
 OnJSContextNew
 (
 JSContext
@@ -4970,7 +4970,7 @@ GC
 /
 public
 :
-JSBool
+bool
 GetDoingFinalization
 (
 )
@@ -5244,7 +5244,7 @@ JSFreeOp
 fop
 JSFinalizeStatus
 status
-JSBool
+bool
 isCompartmentGC
 )
 ;
@@ -5605,7 +5605,7 @@ ActivityCallback
 void
 *
 arg
-JSBool
+bool
 active
 )
 ;
@@ -5790,7 +5790,7 @@ nsISupports
 >
 mNativesToReleaseArray
 ;
-JSBool
+bool
 mDoingFinalization
 ;
 XPCRootSetElem
@@ -6248,7 +6248,7 @@ return
 tmp
 ;
 }
-JSBool
+bool
 CallerTypeIsJavaScript
 (
 )
@@ -6261,7 +6261,7 @@ LANG_JS
 mCallingLangType
 ;
 }
-JSBool
+bool
 CallerTypeIsNative
 (
 )
@@ -6274,7 +6274,7 @@ LANG_NATIVE
 mCallingLangType
 ;
 }
-JSBool
+bool
 CallerTypeIsKnown
 (
 )
@@ -6976,7 +6976,7 @@ XPCCallContext
 )
 ;
 inline
-JSBool
+bool
 IsValid
 (
 )
@@ -7007,7 +7007,7 @@ GetJSContext
 const
 ;
 inline
-JSBool
+bool
 GetContextPopRequired
 (
 )
@@ -7074,7 +7074,7 @@ GetProto
 const
 ;
 inline
-JSBool
+bool
 CanGetTearOff
 (
 )
@@ -7097,7 +7097,7 @@ GetScriptableInfo
 const
 ;
 inline
-JSBool
+bool
 CanGetSet
 (
 )
@@ -7112,7 +7112,7 @@ GetSet
 const
 ;
 inline
-JSBool
+bool
 CanGetInterface
 (
 )
@@ -7135,7 +7135,7 @@ GetMember
 const
 ;
 inline
-JSBool
+bool
 HasInterfaceAndMember
 (
 )
@@ -7149,7 +7149,7 @@ GetName
 const
 ;
 inline
-JSBool
+bool
 GetStaticMemberIsLocal
 (
 )
@@ -7266,7 +7266,7 @@ iface
 XPCNativeMember
 *
 member
-JSBool
+bool
 isSetter
 )
 ;
@@ -7499,7 +7499,7 @@ JS
 RootedId
 mName
 ;
-JSBool
+bool
 mStaticMemberIsLocal
 ;
 unsigned
@@ -7940,7 +7940,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 XPC_WN_JSOp_Enumerate
 (
 JSContext
@@ -8772,7 +8772,7 @@ ClassInfo2WrappedNativeProtoMap
 *
 GetWrappedNativeProtoMap
 (
-JSBool
+bool
 aMainThreadOnly
 )
 const
@@ -9033,7 +9033,7 @@ MallocSizeOf
 mallocSizeOf
 )
 ;
-JSBool
+bool
 IsValid
 (
 )
@@ -9047,7 +9047,7 @@ nullptr
 ;
 }
 static
-JSBool
+bool
 IsDyingScope
 (
 XPCWrappedNativeScope
@@ -9771,7 +9771,7 @@ XPCNativeMember
 public
 :
 static
-JSBool
+bool
 GetCallInfo
 (
 JSObject
@@ -9807,7 +9807,7 @@ return
 mIndex
 ;
 }
-JSBool
+bool
 GetConstantValue
 (
 XPCCallContext
@@ -9858,7 +9858,7 @@ pval
 )
 ;
 }
-JSBool
+bool
 NewFunctionObject
 (
 XPCCallContext
@@ -9877,7 +9877,7 @@ jsval
 pval
 )
 ;
-JSBool
+bool
 IsMethod
 (
 )
@@ -9894,7 +9894,7 @@ METHOD
 )
 ;
 }
-JSBool
+bool
 IsConstant
 (
 )
@@ -9911,7 +9911,7 @@ CONSTANT
 )
 ;
 }
-JSBool
+bool
 IsAttribute
 (
 )
@@ -9928,7 +9928,7 @@ GETTER
 )
 ;
 }
-JSBool
+bool
 IsWritableAttribute
 (
 )
@@ -9945,7 +9945,7 @@ SETTER_TOO
 )
 ;
 }
-JSBool
+bool
 IsReadOnlyAttribute
 (
 )
@@ -10079,7 +10079,7 @@ XPCNativeMember
 }
 private
 :
-JSBool
+bool
 Resolve
 (
 XPCCallContext
@@ -10340,7 +10340,7 @@ name
 const
 ;
 inline
-JSBool
+bool
 HasAncestor
 (
 const
@@ -11099,7 +11099,7 @@ never
 be
 0xffff
 .
-JSBool
+bool
 IsAKey
 (
 )
@@ -11388,7 +11388,7 @@ classInfo
 )
 ;
 inline
-JSBool
+bool
 FindMember
 (
 jsid
@@ -11404,7 +11404,7 @@ pInterfaceIndex
 const
 ;
 inline
-JSBool
+bool
 FindMember
 (
 jsid
@@ -11421,7 +11421,7 @@ pInterface
 const
 ;
 inline
-JSBool
+bool
 FindMember
 (
 jsid
@@ -11437,14 +11437,14 @@ pInterface
 XPCNativeSet
 *
 protoSet
-JSBool
+bool
 *
 pIsLocal
 )
 const
 ;
 inline
-JSBool
+bool
 HasInterface
 (
 XPCNativeInterface
@@ -11454,7 +11454,7 @@ aInterface
 const
 ;
 inline
-JSBool
+bool
 HasInterfaceWithAncestor
 (
 XPCNativeInterface
@@ -11464,7 +11464,7 @@ aInterface
 const
 ;
 inline
-JSBool
+bool
 HasInterfaceWithAncestor
 (
 const
@@ -11554,7 +11554,7 @@ i
 ;
 }
 inline
-JSBool
+bool
 MatchesSetUpToInterface
 (
 const
@@ -12103,7 +12103,7 @@ mFlags
 XPC_WN_SJSFLAGS_MARK_FLAG
 ;
 }
-JSBool
+bool
 IsMarked
 (
 )
@@ -12150,7 +12150,7 @@ f_
 )
 ;
 }
-JSBool
+bool
 WantPreCreate
 (
 )
@@ -12158,7 +12158,7 @@ GET_IT
 (
 WANT_PRECREATE
 )
-JSBool
+bool
 WantCreate
 (
 )
@@ -12166,7 +12166,7 @@ GET_IT
 (
 WANT_CREATE
 )
-JSBool
+bool
 WantPostCreate
 (
 )
@@ -12174,7 +12174,7 @@ GET_IT
 (
 WANT_POSTCREATE
 )
-JSBool
+bool
 WantAddProperty
 (
 )
@@ -12182,7 +12182,7 @@ GET_IT
 (
 WANT_ADDPROPERTY
 )
-JSBool
+bool
 WantDelProperty
 (
 )
@@ -12190,7 +12190,7 @@ GET_IT
 (
 WANT_DELPROPERTY
 )
-JSBool
+bool
 WantGetProperty
 (
 )
@@ -12198,7 +12198,7 @@ GET_IT
 (
 WANT_GETPROPERTY
 )
-JSBool
+bool
 WantSetProperty
 (
 )
@@ -12206,7 +12206,7 @@ GET_IT
 (
 WANT_SETPROPERTY
 )
-JSBool
+bool
 WantEnumerate
 (
 )
@@ -12214,7 +12214,7 @@ GET_IT
 (
 WANT_ENUMERATE
 )
-JSBool
+bool
 WantNewEnumerate
 (
 )
@@ -12222,7 +12222,7 @@ GET_IT
 (
 WANT_NEWENUMERATE
 )
-JSBool
+bool
 WantNewResolve
 (
 )
@@ -12230,7 +12230,7 @@ GET_IT
 (
 WANT_NEWRESOLVE
 )
-JSBool
+bool
 WantConvert
 (
 )
@@ -12238,7 +12238,7 @@ GET_IT
 (
 WANT_CONVERT
 )
-JSBool
+bool
 WantFinalize
 (
 )
@@ -12246,7 +12246,7 @@ GET_IT
 (
 WANT_FINALIZE
 )
-JSBool
+bool
 WantCheckAccess
 (
 )
@@ -12254,7 +12254,7 @@ GET_IT
 (
 WANT_CHECKACCESS
 )
-JSBool
+bool
 WantCall
 (
 )
@@ -12262,7 +12262,7 @@ GET_IT
 (
 WANT_CALL
 )
-JSBool
+bool
 WantConstruct
 (
 )
@@ -12270,7 +12270,7 @@ GET_IT
 (
 WANT_CONSTRUCT
 )
-JSBool
+bool
 WantHasInstance
 (
 )
@@ -12278,7 +12278,7 @@ GET_IT
 (
 WANT_HASINSTANCE
 )
-JSBool
+bool
 WantOuterObject
 (
 )
@@ -12286,7 +12286,7 @@ GET_IT
 (
 WANT_OUTER_OBJECT
 )
-JSBool
+bool
 UseJSStubForAddProperty
 (
 )
@@ -12294,7 +12294,7 @@ GET_IT
 (
 USE_JSSTUB_FOR_ADDPROPERTY
 )
-JSBool
+bool
 UseJSStubForDelProperty
 (
 )
@@ -12302,7 +12302,7 @@ GET_IT
 (
 USE_JSSTUB_FOR_DELPROPERTY
 )
-JSBool
+bool
 UseJSStubForSetProperty
 (
 )
@@ -12310,7 +12310,7 @@ GET_IT
 (
 USE_JSSTUB_FOR_SETPROPERTY
 )
-JSBool
+bool
 DontEnumStaticProps
 (
 )
@@ -12318,7 +12318,7 @@ GET_IT
 (
 DONT_ENUM_STATIC_PROPS
 )
-JSBool
+bool
 DontEnumQueryInterface
 (
 )
@@ -12326,7 +12326,7 @@ GET_IT
 (
 DONT_ENUM_QUERY_INTERFACE
 )
-JSBool
+bool
 DontAskInstanceForScriptable
 (
 )
@@ -12334,7 +12334,7 @@ GET_IT
 (
 DONT_ASK_INSTANCE_FOR_SCRIPTABLE
 )
-JSBool
+bool
 ClassInfoInterfacesOnly
 (
 )
@@ -12342,7 +12342,7 @@ GET_IT
 (
 CLASSINFO_INTERFACES_ONLY
 )
-JSBool
+bool
 AllowPropModsDuringResolve
 (
 )
@@ -12350,7 +12350,7 @@ GET_IT
 (
 ALLOW_PROP_MODS_DURING_RESOLVE
 )
-JSBool
+bool
 AllowPropModsToPrototype
 (
 )
@@ -12358,7 +12358,7 @@ GET_IT
 (
 ALLOW_PROP_MODS_TO_PROTOTYPE
 )
-JSBool
+bool
 IsGlobalObject
 (
 )
@@ -12366,7 +12366,7 @@ GET_IT
 (
 IS_GLOBAL_OBJECT
 )
-JSBool
+bool
 DontReflectInterfaceNames
 (
 )
@@ -12795,7 +12795,7 @@ Unmark
 )
 ;
 }
-JSBool
+bool
 IsMarked
 (
 )
@@ -13671,7 +13671,7 @@ f_
 )
 ;
 }
-JSBool
+bool
 ClassIsSingleton
 (
 )
@@ -13679,7 +13679,7 @@ GET_IT
 (
 SINGLETON
 )
-JSBool
+bool
 ClassIsThreadSafe
 (
 )
@@ -13687,7 +13687,7 @@ GET_IT
 (
 THREADSAFE
 )
-JSBool
+bool
 ClassIsMainThreadOnly
 (
 )
@@ -13695,7 +13695,7 @@ GET_IT
 (
 MAIN_THREAD_ONLY
 )
-JSBool
+bool
 ClassIsDOMObject
 (
 )
@@ -13703,7 +13703,7 @@ GET_IT
 (
 DOM_OBJECT
 )
-JSBool
+bool
 ClassIsPluginObject
 (
 )
@@ -14058,7 +14058,7 @@ XPCNativeSet
 Set
 )
 ;
-JSBool
+bool
 Init
 (
 const
@@ -14202,7 +14202,7 @@ XPCWrappedNativeTearOff
 {
 public
 :
-JSBool
+bool
 IsAvailable
 (
 )
@@ -14215,7 +14215,7 @@ mInterface
 nullptr
 ;
 }
-JSBool
+bool
 IsReserved
 (
 )
@@ -14232,7 +14232,7 @@ XPCNativeInterface
 1
 ;
 }
-JSBool
+bool
 IsValid
 (
 )
@@ -14965,7 +14965,7 @@ GetObjectPrincipal
 )
 const
 ;
-JSBool
+bool
 IsValid
 (
 )
@@ -15021,7 +15021,7 @@ intptr_t
 )
 static
 inline
-JSBool
+bool
 IsTaggedScope
 (
 XPCWrappedNativeScope
@@ -15106,7 +15106,7 @@ XPC_SCOPE_TAG
 ;
 }
 inline
-JSBool
+bool
 IsWrapperExpired
 (
 )
@@ -15121,7 +15121,7 @@ mMaybeScope
 XPC_WRAPPER_EXPIRED
 ;
 }
-JSBool
+bool
 HasProto
 (
 )
@@ -15581,7 +15581,7 @@ GetClassInfo
 nullptr
 ;
 }
-JSBool
+bool
 HasMutatedSet
 (
 )
@@ -15773,7 +15773,7 @@ CALL_SETTER
 }
 ;
 static
-JSBool
+bool
 CallMethod
 (
 XPCCallContext
@@ -15786,7 +15786,7 @@ CALL_METHOD
 )
 ;
 static
-JSBool
+bool
 GetAttribute
 (
 XPCCallContext
@@ -15803,7 +15803,7 @@ CALL_GETTER
 ;
 }
 static
-JSBool
+bool
 SetAttribute
 (
 XPCCallContext
@@ -15820,7 +15820,7 @@ CALL_SETTER
 ;
 }
 inline
-JSBool
+bool
 HasInterfaceNoQI
 (
 const
@@ -15845,7 +15845,7 @@ FindTearOff
 XPCNativeInterface
 *
 aInterface
-JSBool
+bool
 needJSObject
 =
 false
@@ -16253,7 +16253,7 @@ XPCNativeScriptableCreateInfo
 sciProto
 )
 ;
-JSBool
+bool
 HasExternalReference
 (
 )
@@ -16265,7 +16265,7 @@ mRefCnt
 1
 ;
 }
-JSBool
+bool
 NeedsSOW
 (
 )
@@ -16292,7 +16292,7 @@ WRAPPER_NEEDS_SOW
 )
 ;
 }
-JSBool
+bool
 NeedsCOW
 (
 )
@@ -16620,7 +16620,7 @@ JS_BIT
 ;
 private
 :
-JSBool
+bool
 Init
 (
 JS
@@ -16634,12 +16634,12 @@ XPCNativeScriptableCreateInfo
 sci
 )
 ;
-JSBool
+bool
 FinishInit
 (
 )
 ;
-JSBool
+bool
 ExtendSet
 (
 XPCNativeInterface
@@ -16656,11 +16656,11 @@ aTearOff
 XPCNativeInterface
 *
 aInterface
-JSBool
+bool
 needJSObject
 )
 ;
-JSBool
+bool
 InitTearOffJSObject
 (
 XPCWrappedNativeTearOff
@@ -17259,7 +17259,7 @@ GetInterfaceName
 )
 ;
 static
-JSBool
+bool
 IsWrappedJS
 (
 nsISupports
@@ -17407,7 +17407,7 @@ nsIInterfaceInfo
 aInfo
 )
 ;
-JSBool
+bool
 IsReflectable
 (
 uint16_t
@@ -17417,7 +17417,7 @@ const
 {
 return
 (
-JSBool
+bool
 )
 (
 mDescriptors
@@ -17445,7 +17445,7 @@ SetReflectable
 (
 uint16_t
 i
-JSBool
+bool
 b
 )
 {
@@ -17494,7 +17494,7 @@ i
 )
 ;
 }
-JSBool
+bool
 GetArraySizeFromParam
 (
 JSContext
@@ -17520,7 +17520,7 @@ uint32_t
 result
 )
 ;
-JSBool
+bool
 GetInterfaceTypeFromParam
 (
 JSContext
@@ -17942,7 +17942,7 @@ REFNSIID
 aIID
 )
 ;
-JSBool
+bool
 IsValid
 (
 )
@@ -18038,7 +18038,7 @@ to
 be
 finalized
 .
-JSBool
+bool
 IsSubjectToFinalization
 (
 )
@@ -18056,7 +18056,7 @@ mRefCnt
 1
 ;
 }
-JSBool
+bool
 IsObjectAboutToBeFinalized
 (
 )
@@ -18069,7 +18069,7 @@ mJSObj
 )
 ;
 }
-JSBool
+bool
 IsAggregatedToNative
 (
 )
@@ -18852,7 +18852,7 @@ XPCConvert
 public
 :
 static
-JSBool
+bool
 IsMethodReflectable
 (
 const
@@ -18946,7 +18946,7 @@ any
 *
 /
 static
-JSBool
+bool
 NativeData2JS
 (
 jsval
@@ -18970,7 +18970,7 @@ pErr
 )
 ;
 static
-JSBool
+bool
 JSData2Native
 (
 void
@@ -18985,7 +18985,7 @@ const
 nsXPTType
 &
 type
-JSBool
+bool
 useAllocator
 const
 nsID
@@ -19137,7 +19137,7 @@ pointer
 *
 /
 static
-JSBool
+bool
 NativeInterface2JSObject
 (
 jsval
@@ -19166,7 +19166,7 @@ pErr
 )
 ;
 static
-JSBool
+bool
 GetNativeInterfaceFromJSObject
 (
 void
@@ -19186,7 +19186,7 @@ pErr
 )
 ;
 static
-JSBool
+bool
 JSObject2NativeInterface
 (
 void
@@ -19211,7 +19211,7 @@ pErr
 )
 ;
 static
-JSBool
+bool
 GetISupportsFromJSObject
 (
 JSObject
@@ -19320,7 +19320,7 @@ any
 *
 /
 static
-JSBool
+bool
 NativeArray2JS
 (
 jsval
@@ -19347,7 +19347,7 @@ pErr
 )
 ;
 static
-JSBool
+bool
 JSArray2Native
 (
 void
@@ -19375,7 +19375,7 @@ pErr
 )
 ;
 static
-JSBool
+bool
 JSTypedArray2Native
 (
 void
@@ -19397,7 +19397,7 @@ pErr
 )
 ;
 static
-JSBool
+bool
 NativeStringWithSize2JS
 (
 jsval
@@ -19419,7 +19419,7 @@ pErr
 )
 ;
 static
-JSBool
+bool
 JSStringWithSize2Native
 (
 void
@@ -19674,14 +19674,14 @@ ccx
 )
 ;
 static
-JSBool
+bool
 SetVerbosity
 (
-JSBool
+bool
 state
 )
 {
-JSBool
+bool
 old
 =
 sVerbose
@@ -19710,7 +19710,7 @@ sz
 )
 ;
 static
-JSBool
+bool
 CheckForPendingException
 (
 nsresult
@@ -19738,7 +19738,7 @@ own
 )
 ;
 static
-JSBool
+bool
 ThrowExceptionObject
 (
 JSContext
@@ -19752,7 +19752,7 @@ e
 private
 :
 static
-JSBool
+bool
 sVerbose
 ;
 }
@@ -20004,7 +20004,7 @@ exception
 )
 ;
 static
-JSBool
+bool
 NameAndFormatForNSResult
 (
 nsresult
@@ -20120,7 +20120,7 @@ nsAutoJSValHolder
 mThrownJSVal
 ;
 static
-JSBool
+bool
 sEverMadeOneFromFactory
 ;
 }
@@ -21090,7 +21090,7 @@ NS_DECL_NSISECURITYCHECKEDCOMPONENT
 public
 :
 static
-JSBool
+bool
 AttachComponentsObject
 (
 JSContext
@@ -21290,7 +21290,7 @@ obj
 )
 ;
 extern
-JSBool
+bool
 xpc_JSObjectIsID
 (
 JSContext
@@ -21385,17 +21385,17 @@ XPCDebug
 .
 cpp
 extern
-JSBool
+bool
 xpc_DumpJSStack
 (
 JSContext
 *
 cx
-JSBool
+bool
 showArgs
-JSBool
+bool
 showLocals
-JSBool
+bool
 showThisProps
 )
 ;
@@ -21446,16 +21446,16 @@ xpc_PrintJSStack
 JSContext
 *
 cx
-JSBool
+bool
 showArgs
-JSBool
+bool
 showLocals
-JSBool
+bool
 showThisProps
 )
 ;
 extern
-JSBool
+bool
 xpc_DumpEvalInJSStackFrame
 (
 JSContext
@@ -21470,7 +21470,7 @@ text
 )
 ;
 extern
-JSBool
+bool
 xpc_InstallJSDebuggerKeywordHandler
 (
 JSRuntime
@@ -23622,7 +23622,7 @@ jsval
 *
 /
 static
-JSBool
+bool
 VariantDataToJS
 (
 nsIVariant
@@ -23691,7 +23691,7 @@ XPCVariant
 )
 {
 }
-JSBool
+bool
 InitializeData
 (
 JSContext
@@ -24398,7 +24398,7 @@ Inlined
 utilities
 .
 inline
-JSBool
+bool
 xpc_ForcePropertyResolve
 (
 JSContext
@@ -24905,11 +24905,11 @@ scope
 ;
 }
 extern
-JSBool
+bool
 gDebugMode
 ;
 extern
-JSBool
+bool
 gDesiredDebugMode
 ;
 JSObject

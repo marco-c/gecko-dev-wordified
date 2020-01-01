@@ -1703,7 +1703,7 @@ _array
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-JSBool
+bool
 rc
 =
 JS_DefineElement
@@ -1974,7 +1974,7 @@ uriVal
 aCtx
 )
 ;
-JSBool
+bool
 rc
 =
 JS_GetProperty
@@ -2283,7 +2283,7 @@ val
 aCtx
 )
 ;
-JSBool
+bool
 rc
 =
 JS_GetProperty
@@ -2422,7 +2422,7 @@ value
 aCtx
 )
 ;
-JSBool
+bool
 rc
 =
 JS_GetProperty
@@ -2630,7 +2630,7 @@ value
 aCtx
 )
 ;
-JSBool
+bool
 rc
 =
 JS_GetElement
@@ -16288,7 +16288,7 @@ placeIdentifier
 aCtx
 )
 ;
-JSBool
+bool
 rc
 =
 JS_GetElement
@@ -16970,7 +16970,7 @@ visitsVal
 aCtx
 )
 ;
-JSBool
+bool
 rc
 =
 JS_GetProperty

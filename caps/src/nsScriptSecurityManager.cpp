@@ -2484,7 +2484,7 @@ Checks
 /
 /
 /
-JSBool
+bool
 nsScriptSecurityManager
 :
 :
@@ -2803,7 +2803,7 @@ return
 evalOK
 ;
 }
-JSBool
+bool
 nsScriptSecurityManager
 :
 :

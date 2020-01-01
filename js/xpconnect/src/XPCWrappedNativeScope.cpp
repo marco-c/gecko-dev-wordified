@@ -1199,7 +1199,7 @@ principal
 /
 /
 static
-JSBool
+bool
 XPCWrappedNativeScope
 :
 :

@@ -365,7 +365,7 @@ mObjectHolderRoots
 *
 /
 inline
-JSBool
+bool
 XPCCallContext
 :
 :
@@ -636,7 +636,7 @@ nullptr
 ;
 }
 inline
-JSBool
+bool
 XPCCallContext
 :
 :
@@ -693,7 +693,7 @@ mScriptableInfo
 ;
 }
 inline
-JSBool
+bool
 XPCCallContext
 :
 :
@@ -730,7 +730,7 @@ mSet
 ;
 }
 inline
-JSBool
+bool
 XPCCallContext
 :
 :
@@ -787,7 +787,7 @@ mMember
 ;
 }
 inline
-JSBool
+bool
 XPCCallContext
 :
 :
@@ -829,7 +829,7 @@ mName
 ;
 }
 inline
-JSBool
+bool
 XPCCallContext
 :
 :
@@ -1313,7 +1313,7 @@ nullptr
 ;
 }
 inline
-JSBool
+bool
 XPCNativeInterface
 :
 :
@@ -1423,7 +1423,7 @@ found
 *
 /
 inline
-JSBool
+bool
 XPCNativeSet
 :
 :
@@ -1606,7 +1606,7 @@ false
 ;
 }
 inline
-JSBool
+bool
 XPCNativeSet
 :
 :
@@ -1655,7 +1655,7 @@ true
 ;
 }
 inline
-JSBool
+bool
 XPCNativeSet
 :
 :
@@ -1674,7 +1674,7 @@ pInterface
 XPCNativeSet
 *
 protoSet
-JSBool
+bool
 *
 pIsLocal
 )
@@ -1921,7 +1921,7 @@ nullptr
 ;
 }
 inline
-JSBool
+bool
 XPCNativeSet
 :
 :
@@ -1980,7 +1980,7 @@ false
 ;
 }
 inline
-JSBool
+bool
 XPCNativeSet
 :
 :
@@ -2005,7 +2005,7 @@ GetIID
 ;
 }
 inline
-JSBool
+bool
 XPCNativeSet
 :
 :
@@ -2109,7 +2109,7 @@ false
 ;
 }
 inline
-JSBool
+bool
 XPCNativeSet
 :
 :
@@ -2635,7 +2635,7 @@ dtor
 *
 /
 inline
-JSBool
+bool
 XPCWrappedNative
 :
 :
@@ -2720,7 +2720,7 @@ to
 +
 )
 {
-JSBool
+bool
 marked
 =
 to
@@ -2897,7 +2897,7 @@ nullptr
 *
 /
 inline
-JSBool
+bool
 xpc_ForcePropertyResolve
 (
 JSContext
@@ -2976,7 +2976,7 @@ index
 ;
 }
 inline
-JSBool
+bool
 ThrowBadParam
 (
 nsresult

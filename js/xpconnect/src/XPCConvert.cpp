@@ -395,7 +395,7 @@ c
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -666,7 +666,7 @@ nullptr
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -840,7 +840,7 @@ iface
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -2593,7 +2593,7 @@ retval
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -2608,7 +2608,7 @@ const
 nsXPTType
 &
 type
-JSBool
+bool
 useAllocator
 const
 nsID
@@ -2628,7 +2628,7 @@ param
 "
 )
 ;
-JSBool
+bool
 isDOMString
 =
 true
@@ -3351,7 +3351,7 @@ str
 =
 nullptr
 ;
-JSBool
+bool
 isNewString
 =
 false
@@ -4976,7 +4976,7 @@ true
 ;
 }
 inline
-JSBool
+bool
 CreateHolderIfNeeded
 (
 HandleObject
@@ -5116,7 +5116,7 @@ true
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -6285,7 +6285,7 @@ true
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -7741,7 +7741,7 @@ exceptn
 unsigned
 ignored
 ;
-JSBool
+bool
 found
 ;
 /
@@ -8047,7 +8047,7 @@ rv
 double
 number
 ;
-JSBool
+bool
 isResult
 =
 false
@@ -8359,7 +8359,7 @@ e
 .
 g
 .
-JSBools
+bools
 get
 converted
 to
@@ -8808,7 +8808,7 @@ endif
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -9444,7 +9444,7 @@ by
 memcpy
 .
 static
-JSBool
+bool
 CheckTargetAndPopulate
 (
 const
@@ -9713,7 +9713,7 @@ supported
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -10186,7 +10186,7 @@ true
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -11160,7 +11160,7 @@ POPULATE
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :
@@ -11371,7 +11371,7 @@ true
 /
 /
 static
-JSBool
+bool
 XPCConvert
 :
 :

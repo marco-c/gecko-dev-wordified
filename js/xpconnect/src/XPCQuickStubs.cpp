@@ -530,7 +530,7 @@ JS_ConvertStub
 PointerFinalize
 }
 ;
-JSBool
+bool
 xpc_qsDefineQuickStubs
 (
 JSContext
@@ -908,7 +908,7 @@ return
 true
 ;
 }
-JSBool
+bool
 xpc_qsThrow
 (
 JSContext
@@ -1602,7 +1602,7 @@ return
 false
 ;
 }
-JSBool
+bool
 xpc_qsThrowGetterSetterFailed
 (
 JSContext
@@ -1648,7 +1648,7 @@ NULL
 )
 ;
 }
-JSBool
+bool
 xpc_qsThrowGetterSetterFailed
 (
 JSContext
@@ -1706,7 +1706,7 @@ str
 )
 ;
 }
-JSBool
+bool
 xpc_qsThrowGetterSetterFailed
 (
 JSContext
@@ -1733,7 +1733,7 @@ memberIndex
 )
 ;
 }
-JSBool
+bool
 xpc_qsThrowMethodFailed
 (
 JSContext
@@ -1781,7 +1781,7 @@ NULL
 )
 ;
 }
-JSBool
+bool
 xpc_qsThrowMethodFailedWithCcx
 (
 XPCCallContext
@@ -2226,7 +2226,7 @@ name_index
 )
 ;
 }
-JSBool
+bool
 xpc_qsGetterOnlyPropertyStub
 (
 JSContext
@@ -2236,7 +2236,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -3542,7 +3542,7 @@ return
 native
 ;
 }
-JSBool
+bool
 xpc_qsUnwrapThisFromCcxImpl
 (
 XPCCallContext
@@ -4021,7 +4021,7 @@ return
 rv
 ;
 }
-JSBool
+bool
 xpc_qsJsvalToCharStr
 (
 JSContext
@@ -4116,7 +4116,7 @@ str
 )
 ;
 }
-JSBool
+bool
 xpc_qsJsvalToWcharStr
 (
 JSContext
@@ -4346,7 +4346,7 @@ true
 /
 namespace
 xpc
-JSBool
+bool
 xpc_qsStringToJsstring
 (
 JSContext
@@ -4467,7 +4467,7 @@ return
 true
 ;
 }
-JSBool
+bool
 xpc_qsXPCOMObjectToJsval
 (
 JSContext
@@ -4672,7 +4672,7 @@ return
 true
 ;
 }
-JSBool
+bool
 xpc_qsVariantToJsval
 (
 JSContext
@@ -4717,7 +4717,7 @@ p
 nsresult
 rv
 ;
-JSBool
+bool
 ok
 =
 XPCVariant

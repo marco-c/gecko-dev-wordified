@@ -156,7 +156,7 @@ js
 ExclusiveContext
 *
 cx
-JSBool
+bool
 b
 )
 ;

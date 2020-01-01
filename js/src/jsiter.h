@@ -1229,7 +1229,7 @@ rval
 )
 ;
 extern
-JSBool
+bool
 js_ThrowStopIteration
 (
 JSContext

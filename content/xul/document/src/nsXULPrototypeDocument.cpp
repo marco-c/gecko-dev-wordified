@@ -527,7 +527,7 @@ nativeThis
 )
 ;
 }
-JSBool
+bool
 nsXULPDGlobalObject_resolve
 (
 JSContext
@@ -552,7 +552,7 @@ jsid
 id
 )
 {
-JSBool
+bool
 did_resolve
 =
 false

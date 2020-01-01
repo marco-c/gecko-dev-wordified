@@ -3154,7 +3154,7 @@ aReport
 )
 ;
 }
-JSBool
+bool
 OperationCallback
 (
 JSContext
@@ -3541,7 +3541,7 @@ NS_OK
 }
 }
 ;
-JSBool
+bool
 ContentSecurityPolicyAllows
 (
 JSContext
@@ -4756,7 +4756,7 @@ for
 the
 DOM
 .
-JSBool
+bool
 ResolveWorkerClasses
 (
 JSContext
