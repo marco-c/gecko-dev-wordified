@@ -708,6 +708,7 @@ can
 dispatch
 sync
 messages
+NS_OVERRIDE
 virtual
 void
 OnMessageReceived
@@ -716,6 +717,13 @@ const
 Message
 &
 msg
+)
+;
+NS_OVERRIDE
+virtual
+void
+OnChannelError
+(
 )
 ;
 protected
