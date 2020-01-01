@@ -3269,6 +3269,9 @@ get_test_cmd
 tc
 .
 path
+tc
+.
+jitflags
 lib_dir
 )
         
