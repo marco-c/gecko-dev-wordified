@@ -778,7 +778,7 @@ proxy
 js
 :
 :
-AutoValueVector
+AutoIdVector
 &
 props
 )
@@ -798,7 +798,10 @@ JSObject
 proxy
 uintN
 flags
-jsval
+js
+:
+:
+Value
 *
 vp
 )

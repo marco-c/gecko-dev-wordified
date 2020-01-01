@@ -1124,7 +1124,7 @@ JSContext
 *
 AutoIdVector
 &
-vec
+keys
 JSObject
 *
 jsid
@@ -1146,7 +1146,7 @@ JSITER_FOREACH
 )
 ;
 return
-vec
+keys
 .
 append
 (
@@ -1173,7 +1173,7 @@ JSContext
 cx
 AutoValueVector
 &
-vec
+vals
 JSObject
 *
 obj
@@ -1193,7 +1193,7 @@ JSITER_FOREACH
 if
 (
 !
-vec
+vals
 .
 growBy
 (
@@ -1223,7 +1223,7 @@ Value
 *
 vp
 =
-vec
+vals
 .
 end
 (
@@ -1311,7 +1311,7 @@ EnumPolicy
 :
 ResultVector
 &
-vec
+props
 )
 {
 JS_ASSERT
@@ -1592,7 +1592,7 @@ EnumPolicy
 append
 (
 cx
-vec
+props
 obj
 id
 flags
@@ -1631,7 +1631,7 @@ EnumPolicy
 :
 ResultVector
 &
-vec
+props
 )
 {
 JS_LOCK_OBJ
@@ -1643,7 +1643,7 @@ pobj
 size_t
 initialLength
 =
-vec
+props
 .
 length
 (
@@ -1746,7 +1746,7 @@ isSharedPermanent
 )
 flags
 ht
-sprops
+props
 )
 )
 {
@@ -1757,14 +1757,14 @@ false
 }
 Reverse
 (
-vec
+props
 .
 begin
 (
 )
 +
 initialLength
-vec
+props
 .
 end
 (
@@ -1810,13 +1810,16 @@ EnumPolicy
 :
 ResultVector
 &
-vec
+props
 )
 {
 if
 (
 !
 Enumerate
+<
+EnumPolicy
+>
 (
 cx
 obj
@@ -1982,7 +1985,7 @@ EnumPolicy
 :
 ResultVector
 &
-vec
+props
 )
 {
 /
@@ -2128,7 +2131,7 @@ obj
 pobj
 flags
 ht
-vec
+props
 )
 )
 return
@@ -2159,7 +2162,7 @@ obj
 pobj
 flags
 ht
-vec
+props
 )
 )
 return
@@ -2269,7 +2272,7 @@ true
 false
 flags
 ht
-vec
+props
 )
 )
 return
@@ -2354,7 +2357,7 @@ obj
 pobj
 flags
 ht
-vec
+props
 )
 )
 return
@@ -2416,7 +2419,7 @@ true
 false
 flags
 ht
-vec
+props
 )
 )
 return
