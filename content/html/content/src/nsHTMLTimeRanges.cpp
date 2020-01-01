@@ -540,6 +540,7 @@ if
 (
 aIndex
 >
+=
 mRanges
 .
 Length
@@ -580,6 +581,7 @@ if
 (
 aIndex
 >
+=
 mRanges
 .
 Length
