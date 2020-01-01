@@ -3526,6 +3526,12 @@ init
 (
 )
 ;
+CapturePickerUI
+.
+init
+(
+)
+;
 /
 /
 If
