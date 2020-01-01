@@ -543,6 +543,12 @@ RecvShutdown
 (
 )
 ;
+virtual
+bool
+SendDrainDone
+(
+)
+;
 AudioParent
 (
 PRInt32
