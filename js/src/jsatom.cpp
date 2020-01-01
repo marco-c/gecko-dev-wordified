@@ -3212,6 +3212,7 @@ JS_ASSERT
 !
 IsAboutToBeFinalized
 (
+cx
 AtomEntryToKey
 (
 entry
@@ -3225,6 +3226,7 @@ if
 (
 IsAboutToBeFinalized
 (
+cx
 AtomEntryToKey
 (
 entry

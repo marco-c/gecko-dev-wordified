@@ -4207,6 +4207,7 @@ if
 (
 IsAboutToBeFinalized
 (
+cx
 wp
 -
 >

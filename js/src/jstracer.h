@@ -11148,6 +11148,9 @@ TraceMonitor
 :
 sweep
 (
+JSContext
+*
+cx
 )
 ;
 public

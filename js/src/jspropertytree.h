@@ -1100,6 +1100,15 @@ JSContext
 cx
 )
 ;
+static
+void
+unmarkShapes
+(
+JSContext
+*
+cx
+)
+;
 #
 ifdef
 DEBUG
