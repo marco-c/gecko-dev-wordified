@@ -10211,7 +10211,6 @@ mColumnGap
 reset
 ]
 coord
-percent
 normal
 nscolor
 mColumnRuleColor
