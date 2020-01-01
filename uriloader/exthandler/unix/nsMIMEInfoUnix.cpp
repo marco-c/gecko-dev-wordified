@@ -434,7 +434,14 @@ BLOCK
 #
 include
 "
-nsMIMEInfoWin
+nsMIMEInfoUnix
+.
+h
+"
+#
+include
+"
+nsGNOMERegistry
 .
 h
 "
