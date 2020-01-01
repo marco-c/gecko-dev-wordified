@@ -451,10 +451,10 @@ BLOCK
 /
 #
 ifndef
-jsion_ion_analysis_h__
+jsion_ion_lowering_h__
 #
 define
-jsion_ion_analysis_h__
+jsion_ion_lowering_h__
 namespace
 js
 {
@@ -466,17 +466,6 @@ MIRGenerator
 ;
 class
 MIRGraph
-;
-bool
-ApplyTypeInformation
-(
-MIRGenerator
-*
-gen
-MIRGraph
-&
-graph
-)
 ;
 bool
 Lower
@@ -503,4 +492,4 @@ ion
 endif
 /
 /
-jsion_ion_analysis_h__
+jsion_ion_lowering_h__
