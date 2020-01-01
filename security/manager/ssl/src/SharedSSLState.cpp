@@ -1050,6 +1050,11 @@ thread
 "
 )
 ;
+if
+(
+gPrivateState
+)
+{
 gPrivateState
 -
 >
@@ -1064,6 +1069,12 @@ gPrivateState
 =
 nullptr
 ;
+}
+if
+(
+gPublicState
+)
+{
 gPublicState
 -
 >
@@ -1078,6 +1089,7 @@ gPublicState
 =
 nullptr
 ;
+}
 }
 /
 *
