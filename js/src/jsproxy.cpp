@@ -220,7 +220,7 @@ js
 AutoEnterPolicy
 :
 :
-reportError
+reportErrorIfExceptionIsNotPending
 (
 JSContext
 *
@@ -229,6 +229,15 @@ jsid
 id
 )
 {
+if
+(
+JS_IsExceptionPending
+(
+cx
+)
+)
+return
+;
 if
 (
 JSID_IS_VOID
