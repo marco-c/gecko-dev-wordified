@@ -2415,12 +2415,11 @@ QueryInterface
 implementation
 for
 nsHTMLInputElement
-NS_HTML_CONTENT_CC_INTERFACE_TABLE_HEAD
+NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLInputElement
-nsGenericHTMLFormElement
 )
-NS_INTERFACE_TABLE_INHERITED10
+NS_HTML_CONTENT_INTERFACE_TABLE10
 (
 nsHTMLInputElement
 nsIDOMHTMLInputElement
@@ -2433,6 +2432,11 @@ imgIDecoderObserver
 nsIImageLoadingContent
 imgIContainerObserver
 nsIDOMNSEditableElement
+)
+NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
+(
+nsHTMLInputElement
+nsGenericHTMLFormElement
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TAIL_CLASSINFO
 (

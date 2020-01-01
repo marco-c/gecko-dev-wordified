@@ -2248,12 +2248,11 @@ QueryInterface
 implementation
 for
 nsHTMLScriptElement
-NS_HTML_CONTENT_INTERFACE_TABLE_HEAD
+NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLScriptElement
-nsGenericHTMLElement
 )
-NS_INTERFACE_TABLE_INHERITED4
+NS_HTML_CONTENT_INTERFACE_TABLE4
 (
 nsHTMLScriptElement
 nsIDOMHTMLScriptElement
@@ -2261,7 +2260,11 @@ nsIScriptLoaderObserver
 nsIScriptElement
 nsIMutationObserver
 )
-NS_INTERFACE_TABLE_TO_MAP_SEGUE
+NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
+(
+nsHTMLScriptElement
+nsGenericHTMLElement
+)
 if
 (
 mScriptEventHandler
