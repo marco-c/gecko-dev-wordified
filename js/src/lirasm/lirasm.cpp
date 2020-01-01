@@ -12601,6 +12601,7 @@ op
 number
 repKind
 retType
+isCse
 )
 \
 mOpMap
