@@ -839,7 +839,7 @@ it
 may
 have
 a
-floatContinuationProperty
+FloatContinuationProperty
 *
 frame
 property
@@ -1324,6 +1324,11 @@ PRUint32
 aFlags
 )
 ;
+NS_DECLARE_FRAME_PROPERTY
+(
+FloatContinuationProperty
+nsnull
+)
 /
 /
 nsQueryFrame
