@@ -17360,7 +17360,9 @@ cx
 flags
 )
 ;
-CHECK_FOR_STRING_INDEX
+id
+=
+js_CheckForStringIndex
 (
 id
 )

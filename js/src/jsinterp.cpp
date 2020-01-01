@@ -3187,7 +3187,9 @@ ATOM_TO_JSID
 atom
 )
 ;
-CHECK_FOR_STRING_INDEX
+id
+=
+js_CheckForStringIndex
 (
 id
 )
