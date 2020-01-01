@@ -245,6 +245,8 @@ color
 graytext
 ;
 }
+/
+*
 html
 |
 input
@@ -272,6 +274,8 @@ style
 italic
 ;
 }
+*
+/
 html
 |
 input
