@@ -7399,7 +7399,6 @@ isSearchEnabled
 {
 ensureSearchShown
 (
-null
 )
 ;
 SearchEventHandler
