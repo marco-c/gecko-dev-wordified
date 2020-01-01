@@ -462,13 +462,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h

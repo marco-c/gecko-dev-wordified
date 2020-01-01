@@ -846,7 +846,7 @@ NS_IF_RELEASE
 mTransferable
 )
 ;
-PRInt32
+PRUint32
 i
 ;
 for
@@ -859,7 +859,7 @@ i
 <
 mDataFlavors
 .
-Count
+Length
 (
 )
 ;
@@ -869,10 +869,6 @@ i
 )
 {
 delete
-(
-nsString
-*
-)
 mDataFlavors
 .
 ElementAt
@@ -891,7 +887,7 @@ i
 <
 mDataObjects
 .
-Count
+Length
 (
 )
 ;
@@ -904,10 +900,6 @@ IDataObject
 *
 dataObj
 =
-(
-IDataObject
-*
-)
 mDataObjects
 .
 ElementAt
@@ -1666,7 +1658,7 @@ CF_TEXT
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -1675,7 +1667,7 @@ i
 <
 mDataObjects
 .
-Count
+Length
 (
 )
 ;
@@ -1688,10 +1680,6 @@ IDataObject
 *
 dataObj
 =
-(
-IDataObject
-*
-)
 mDataObjects
 .
 ElementAt
@@ -2006,7 +1994,7 @@ S_OK
 }
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -2015,7 +2003,7 @@ i
 <
 mDataObjects
 .
-Count
+Length
 (
 )
 ;
@@ -2028,10 +2016,6 @@ IDataObject
 *
 dataObj
 =
-(
-IDataObject
-*
-)
 mDataObjects
 .
 ElementAt

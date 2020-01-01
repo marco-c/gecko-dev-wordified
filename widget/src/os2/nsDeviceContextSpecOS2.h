@@ -489,13 +489,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsPrintdOS2
 .
 h

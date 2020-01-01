@@ -423,13 +423,6 @@ nsIWidget
 h
 "
 #
-include
-"
-nsVoidArray
-.
-h
-"
-#
 define
 INCL_PM
 #

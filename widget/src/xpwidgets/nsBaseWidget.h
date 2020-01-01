@@ -479,13 +479,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

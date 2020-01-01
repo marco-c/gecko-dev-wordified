@@ -494,13 +494,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsXPIDLString
 .
 h

@@ -517,13 +517,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsSupportsArray
 .
 h

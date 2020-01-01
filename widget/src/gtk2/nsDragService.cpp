@@ -565,7 +565,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -6114,7 +6114,11 @@ mSourceDataItems
 return
 NULL
 ;
-nsVoidArray
+nsTArray
+<
+GtkTargetEntry
+*
+>
 targetArray
 ;
 GtkTargetEntry
@@ -7218,7 +7222,7 @@ targetCount
 =
 targetArray
 .
-Count
+Length
 (
 )
 ;
@@ -7276,10 +7280,6 @@ GtkTargetEntry
 *
 disEntry
 =
-(
-GtkTargetEntry
-*
-)
 targetArray
 .
 ElementAt
@@ -7373,10 +7373,6 @@ GtkTargetEntry
 *
 thisTarget
 =
-(
-GtkTargetEntry
-*
-)
 targetArray
 .
 ElementAt

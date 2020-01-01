@@ -505,14 +505,7 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
-nsVoidArray
+nsTPtrArray
 .
 h
 "
@@ -2021,7 +2014,10 @@ m_cRef
 the
 reference
 count
-nsVoidArray
+nsTPtrArray
+<
+nsCString
+>
 mDataFlavors
 ;
 nsITransferable
