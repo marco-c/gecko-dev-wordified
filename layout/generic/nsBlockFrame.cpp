@@ -28413,14 +28413,6 @@ bidiUtils
 >
 ReorderFrames
 (
-aState
-.
-mPresContext
-aState
-.
-mReflowState
-.
-rendContext
 aLine
 -
 >
@@ -46884,7 +46876,6 @@ bidiUtils
 >
 Resolve
 (
-presContext
 this
 mLines
 .
