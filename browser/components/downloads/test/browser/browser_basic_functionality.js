@@ -347,6 +347,16 @@ downloadsListBox
 "
 )
 ;
+/
+*
+disabled
+for
+failing
+intermittently
+(
+bug
+767828
+)
 is
 (
 richlistbox
@@ -368,6 +378,8 @@ richlistitems
 "
 )
 ;
+*
+/
 for
 (
 let
