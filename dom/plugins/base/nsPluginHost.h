@@ -537,13 +537,6 @@ h
 #
 include
 "
-nsIPrefBranch
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -1845,12 +1838,6 @@ nsCOMPtr
 nsIFile
 >
 mPluginRegFile
-;
-nsCOMPtr
-<
-nsIPrefBranch
->
-mPrefService
 ;
 #
 ifdef
