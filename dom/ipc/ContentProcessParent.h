@@ -598,6 +598,11 @@ TestShellParent
 aTestShell
 )
 ;
+void
+ReportChildAlreadyBlocked
+(
+)
+;
 bool
 RequestRunToCompletion
 (
@@ -722,6 +727,9 @@ mSubprocess
 ;
 int
 mRunToCompletionDepth
+;
+bool
+mShouldCallUnblockChild
 ;
 nsCOMPtr
 <
