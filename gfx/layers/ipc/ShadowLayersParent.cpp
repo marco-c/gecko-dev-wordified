@@ -1012,6 +1012,10 @@ Edit
 >
 &
 cset
+const
+bool
+&
+isFirstPaint
 InfallibleTArray
 <
 EditReply
