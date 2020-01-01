@@ -2082,9 +2082,10 @@ int32_t
 code
 )
 {
-code
+jschar
+c
 =
-uint16_t
+jschar
 (
 code
 )
@@ -2096,7 +2097,7 @@ StaticStrings
 :
 hasUnit
 (
-code
+c
 )
 )
 return
@@ -2110,15 +2111,7 @@ staticStrings
 .
 getUnit
 (
-code
-)
-;
-jschar
 c
-=
-jschar
-(
-code
 )
 ;
 return
