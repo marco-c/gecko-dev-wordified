@@ -4832,7 +4832,7 @@ Contexts
 /
 /
 *
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 jsdContext
 jsdIContext
@@ -4867,7 +4867,7 @@ NS_OK
 Objects
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 jsdObject
 jsdIObject
@@ -5057,7 +5057,7 @@ NS_OK
 Properties
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 jsdProperty
 jsdIProperty
@@ -5398,7 +5398,7 @@ NS_OK
 Scripts
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 jsdScript
 jsdIScript
@@ -8611,7 +8611,7 @@ NS_OK
 Contexts
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 jsdContext
 jsdIContext
@@ -9363,7 +9363,7 @@ Stack
 Frames
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 jsdStackFrame
 jsdIStackFrame
@@ -10429,7 +10429,7 @@ NS_OK
 Values
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 jsdValue
 jsdIValue
@@ -15830,7 +15830,7 @@ nsIObserver
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
 jsdASObserver
 (
@@ -15839,7 +15839,7 @@ jsdASObserver
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 jsdASObserver
 nsIObserver
@@ -16473,7 +16473,7 @@ Thread
 States
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 jsdThreadState
 jsdIThreadState

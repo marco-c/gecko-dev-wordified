@@ -151,7 +151,7 @@ SandboxPrivate
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsIPrincipal
 *
 GetPrincipal
