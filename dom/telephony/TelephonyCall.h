@@ -474,7 +474,7 @@ h
 #
 include
 "
-nsITelephone
+nsIRadioInterfaceLayer
 .
 h
 "
@@ -719,7 +719,7 @@ kOutgoingPlaceholderCallIndex
 )
 mCallState
 (
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_UNKNOWN

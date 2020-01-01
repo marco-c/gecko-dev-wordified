@@ -647,7 +647,7 @@ aCallState
 )
 {
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_DIALING
@@ -664,7 +664,7 @@ dialing
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_RINGING
@@ -681,7 +681,7 @@ ringing
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_BUSY
@@ -698,7 +698,7 @@ busy
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_CONNECTING
@@ -715,7 +715,7 @@ connecting
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_CONNECTED
@@ -732,7 +732,7 @@ connected
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_HOLDING
@@ -749,7 +749,7 @@ holding
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_HELD
@@ -766,7 +766,7 @@ held
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_RESUMING
@@ -783,7 +783,7 @@ resuming
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_DISCONNECTING
@@ -800,7 +800,7 @@ disconnecting
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_DISCONNECTED
@@ -817,7 +817,7 @@ disconnected
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_INCOMING
@@ -858,7 +858,7 @@ if
 aCallState
 =
 =
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_DIALING
@@ -874,7 +874,7 @@ if
 aCallState
 =
 =
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_DISCONNECTED
@@ -1273,7 +1273,7 @@ if
 mCallState
 !
 =
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_INCOMING
@@ -1303,7 +1303,7 @@ rv
 mTelephony
 -
 >
-Telephone
+RIL
 (
 )
 -
@@ -1321,7 +1321,7 @@ rv
 ;
 ChangeStateInternal
 (
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_CONNECTING
@@ -1345,7 +1345,7 @@ if
 mCallState
 =
 =
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_DISCONNECTING
@@ -1354,7 +1354,7 @@ CALL_STATE_DISCONNECTING
 mCallState
 =
 =
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_DISCONNECTED
@@ -1383,7 +1383,7 @@ rv
 mCallState
 =
 =
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_INCOMING
@@ -1391,7 +1391,7 @@ CALL_STATE_INCOMING
 mTelephony
 -
 >
-Telephone
+RIL
 (
 )
 -
@@ -1404,7 +1404,7 @@ mCallIndex
 mTelephony
 -
 >
-Telephone
+RIL
 (
 )
 -
@@ -1422,7 +1422,7 @@ rv
 ;
 ChangeStateInternal
 (
-nsITelephone
+nsIRadioInterfaceLayer
 :
 :
 CALL_STATE_DISCONNECTING

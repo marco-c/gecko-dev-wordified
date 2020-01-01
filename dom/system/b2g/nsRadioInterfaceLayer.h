@@ -406,13 +406,13 @@ the
 CID
 given
 in
-nsTelephonyWorker
+RadioInterfaceLayer
 .
 manifest
 !
 #
 define
-NS_TELEPHONYWORKER_CID
+NS_RADIOINTERFACELAYER_CID
 \
 {
 0x2d831c8d

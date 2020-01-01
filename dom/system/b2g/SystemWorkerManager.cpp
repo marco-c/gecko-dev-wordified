@@ -475,7 +475,7 @@ h
 #
 include
 "
-nsITelephone
+nsIRadioInterfaceLayer
 .
 h
 "
@@ -548,14 +548,14 @@ h
 #
 include
 "
-nsTelephonyWorker
+nsThreadUtils
 .
 h
 "
 #
 include
 "
-nsThreadUtils
+nsRadioInterfaceLayer
 .
 h
 "
@@ -579,8 +579,8 @@ namespace
 {
 NS_DEFINE_CID
 (
-kTelephonyWorkerCID
-NS_TELEPHONYWORKER_CID
+kRadioInterfaceLayerCID
+NS_RADIOINTERFACELAYER_CID
 )
 ;
 NS_DEFINE_CID
@@ -1454,7 +1454,7 @@ NS_ERROR_FAILURE
 }
 rv
 =
-InitTelephone
+InitRIL
 (
 cx
 )
@@ -1561,7 +1561,7 @@ StopRil
 (
 )
 ;
-mTelephoneWorker
+mRILWorker
 =
 nsnull
 ;
@@ -1733,7 +1733,7 @@ Equals
 (
 NS_GET_IID
 (
-nsITelephone
+nsIRadioInterfaceLayer
 )
 )
 )
@@ -1741,10 +1741,10 @@ nsITelephone
 return
 CallQueryInterface
 (
-mTelephoneWorker
+mRILWorker
 reinterpret_cast
 <
-nsITelephone
+nsIRadioInterfaceLayer
 *
 *
 >
@@ -1804,7 +1804,7 @@ nsresult
 SystemWorkerManager
 :
 :
-InitTelephone
+InitRIL
 (
 JSContext
 *
@@ -1834,7 +1834,7 @@ real
 worker
 lives
 in
-nsTelephonyWorker
+RadioInterfaceLayer
 .
 js
 .
@@ -1865,7 +1865,7 @@ worker
 =
 do_CreateInstance
 (
-kTelephonyWorkerCID
+kRadioInterfaceLayerCID
 )
 ;
 NS_ENSURE_TRUE
@@ -2016,7 +2016,7 @@ StartRil
 receiver
 )
 ;
-mTelephoneWorker
+mRILWorker
 =
 worker
 ;
