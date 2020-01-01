@@ -1518,7 +1518,7 @@ MakeCurrent
 mCanvasGLContext
 -
 >
-fFinish
+GuaranteeResolve
 (
 )
 ;
