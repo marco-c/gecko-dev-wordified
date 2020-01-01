@@ -567,15 +567,6 @@ nsIParserNode
 aNode
 )
 ;
-NS_IMETHOD
-AddProcessingInstruction
-(
-const
-nsIParserNode
-&
-aNode
-)
-;
 virtual
 void
 FlushPendingNotifications
