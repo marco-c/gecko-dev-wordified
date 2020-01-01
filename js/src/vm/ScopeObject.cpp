@@ -8086,7 +8086,7 @@ vp
 snapshot
 -
 >
-getDenseArrayElement
+getDenseElement
 (
 bindings
 .
@@ -8101,7 +8101,7 @@ else
 snapshot
 -
 >
-setDenseArrayElement
+setDenseElement
 (
 bindings
 .
@@ -8328,7 +8328,7 @@ vp
 snapshot
 -
 >
-getDenseArrayElement
+getDenseElement
 (
 i
 )
@@ -8337,7 +8337,7 @@ else
 snapshot
 -
 >
-setDenseArrayElement
+setDenseElement
 (
 i
 *

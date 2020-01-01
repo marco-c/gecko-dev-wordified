@@ -5538,7 +5538,7 @@ pushConstant
 (
 MagicValue
 (
-JS_ARRAY_HOLE
+JS_ELEMENTS_HOLE
 )
 )
 ;

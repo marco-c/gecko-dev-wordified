@@ -15215,9 +15215,8 @@ if
 found
 )
 {
-MarkNonNativePropertyFound
+MarkImplicitPropertyFound
 (
-obj
 propp
 )
 ;

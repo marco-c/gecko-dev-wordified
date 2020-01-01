@@ -5261,7 +5261,7 @@ JS_ASSERT
 templateObject
 -
 >
-getDenseArrayCapacity
+getDenseCapacity
 (
 )
 >

@@ -5907,6 +5907,13 @@ peek
 1
 )
 ;
+frame
+.
+forgetMismatchedObject
+(
+obj
+)
+;
 /
 /
 We
@@ -11483,6 +11490,13 @@ peek
 (
 -
 1
+)
+;
+frame
+.
+forgetMismatchedObject
+(
+obj
 )
 ;
 /

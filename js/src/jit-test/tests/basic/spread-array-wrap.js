@@ -9,6 +9,14 @@ js
 "
 )
 ;
+/
+/
+XXX
+disabled
+bug
+827449
+/
+/
 assertEqArray
 (
 [
@@ -27,6 +35,8 @@ wrap
 ]
 )
 ;
+/
+/
 assertEqArray
 (
 [

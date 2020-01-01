@@ -824,7 +824,7 @@ length
 obj
 -
 >
-getDenseArrayInitializedLength
+getDenseInitializedLength
 (
 )
 ;
@@ -890,7 +890,7 @@ src
 obj
 -
 >
-getDenseArrayElements
+getDenseElements
 (
 )
 ;
@@ -1060,7 +1060,7 @@ JS_ASSERT
 (
 dimObj
 .
-isDenseArray
+isArray
 (
 )
 )
@@ -1097,7 +1097,7 @@ JS_ASSERT
 (
 buf
 .
-isDenseArray
+isArray
 (
 )
 )
@@ -1153,7 +1153,7 @@ dimensionArray
 )
 -
 >
-getDenseArrayElement
+getDenseElement
 (
 0
 )
@@ -1179,7 +1179,7 @@ dimensionArray
 )
 -
 >
-getDenseArrayInitializedLength
+getDenseInitializedLength
 (
 )
 =

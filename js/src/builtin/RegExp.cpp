@@ -435,7 +435,7 @@ RootedObject
 array
 (
 cx
-NewSlowEmptyArray
+NewDenseEmptyArray
 (
 cx
 )

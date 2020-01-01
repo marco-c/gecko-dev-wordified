@@ -5235,7 +5235,8 @@ getUserId
 JSContext
 *
 cx
-MutableHandleId
+jsid
+*
 idp
 )
 const
@@ -7452,15 +7453,6 @@ NULL
 )
 ;
 }
-void
-MarkNonNativePropertyFound
-(
-HandleObject
-obj
-MutableHandleShape
-propp
-)
-;
 template
 <
 >
