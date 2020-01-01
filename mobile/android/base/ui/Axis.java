@@ -704,7 +704,11 @@ final
 float
 MS_PER_FRAME
 =
-4
+1000
+.
+0f
+/
+60
 .
 0f
 ;
