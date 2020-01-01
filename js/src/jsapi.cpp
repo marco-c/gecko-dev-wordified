@@ -2646,7 +2646,7 @@ ValueToNumber
 cx
 tvr
 .
-addr
+value
 (
 )
 dp
@@ -2712,7 +2712,7 @@ ValueToECMAInt32
 cx
 tvr
 .
-addr
+value
 (
 )
 (
@@ -2760,7 +2760,7 @@ ValueToECMAUint32
 cx
 tvr
 .
-addr
+value
 (
 )
 (
@@ -2808,7 +2808,7 @@ ValueToInt32
 cx
 tvr
 .
-addr
+value
 (
 )
 (
@@ -2856,7 +2856,7 @@ ValueToUint16
 cx
 tvr
 .
-addr
+value
 (
 )
 (

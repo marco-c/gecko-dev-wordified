@@ -806,7 +806,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -881,7 +880,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -995,7 +993,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -1109,7 +1106,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -1364,7 +1360,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -1382,7 +1377,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 3
@@ -1501,7 +1495,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -1576,7 +1569,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -1651,7 +1643,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -1780,7 +1771,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -1855,7 +1845,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -1992,7 +1981,6 @@ if
 ValueToNumber
 (
 cx
-&
 argv
 [
 i
@@ -2158,7 +2146,6 @@ if
 ValueToNumber
 (
 cx
-&
 argv
 [
 i
@@ -2296,7 +2283,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -2314,7 +2300,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 3
@@ -2901,7 +2886,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -2984,7 +2968,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -3059,7 +3042,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -3134,7 +3116,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2

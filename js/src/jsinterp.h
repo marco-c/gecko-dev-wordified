@@ -2932,7 +2932,7 @@ getPrivate
 ;
 }
 extern
-CopyableValue
+Value
 BoxedWordToValue
 (
 jsboxedword
