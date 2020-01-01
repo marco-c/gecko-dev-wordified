@@ -480,13 +480,6 @@ h
 #
 include
 "
-nsIDOMNSEvent
-.
-h
-"
-#
-include
-"
 nsDOMCSSDeclaration
 .
 h

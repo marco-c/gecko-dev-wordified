@@ -1455,7 +1455,7 @@ altKey
 ?
 Ci
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 ALT_MASK
 :
@@ -1469,7 +1469,7 @@ ctrlKey
 ?
 Ci
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 CONTROL_MASK
 :
@@ -1483,7 +1483,7 @@ shiftKey
 ?
 Ci
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 SHIFT_MASK
 :
@@ -1497,7 +1497,7 @@ metaKey
 ?
 Ci
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 META_MASK
 :

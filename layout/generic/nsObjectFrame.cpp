@@ -396,13 +396,6 @@ h
 #
 include
 "
-nsIDOMNSEvent
-.
-h
-"
-#
-include
-"
 nsIDocumentEncoder
 .
 h
