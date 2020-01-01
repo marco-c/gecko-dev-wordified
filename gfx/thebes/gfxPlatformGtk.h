@@ -965,6 +965,12 @@ PR_FALSE
 #
 endif
 }
+virtual
+gfxImageFormat
+GetOffscreenFormat
+(
+)
+;
 protected
 :
 static

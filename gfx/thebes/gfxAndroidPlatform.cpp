@@ -673,10 +673,9 @@ new
 gfxImageSurface
 (
 size
-gfxASurface
-:
-:
-ImageFormatRGB16_565
+GetOffscreenFormat
+(
+)
 )
 ;
 else
