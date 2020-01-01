@@ -3233,6 +3233,14 @@ TopLeft
 )
 )
 ;
+nsContainerFrame
+:
+:
+PositionChildViews
+(
+aKidFrame
+)
+;
 }
 else
 if
