@@ -4198,6 +4198,12 @@ aScript
 text
 )
 ;
+window
+.
+updateEditorBreakpoints
+(
+)
+;
 }
 }
 }
