@@ -4445,6 +4445,13 @@ ionActivation
 (
 NULL
 )
+ionReturnOverride_
+(
+MagicValue
+(
+JS_ARG_POISON
+)
+)
 {
 /
 *
