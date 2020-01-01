@@ -674,7 +674,7 @@ if
 itemCount
 )
 {
-qDebug
+NS_WARNING
 (
 "
 No
@@ -697,7 +697,7 @@ if
 itemCount
 )
 {
-qDebug
+NS_WARNING
 (
 "
 Dragging
@@ -1345,7 +1345,7 @@ cannot
 be
 currently
 tested
-qDebug
+NS_WARNING
 (
 "
 Support

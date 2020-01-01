@@ -1017,7 +1017,7 @@ nsnull
 aTransferable
 )
 {
-qDebug
+NS_WARNING
 (
 "
 nsClipboard
@@ -1087,7 +1087,7 @@ rv
 )
 )
 {
-qDebug
+NS_WARNING
 (
 "
 nsClipboard
@@ -1937,7 +1937,7 @@ nsnull
 aTransferable
 )
 {
-qDebug
+NS_WARNING
 (
 "
 GetNativeClipboardData
@@ -2000,7 +2000,7 @@ errCode
 )
 )
 {
-qDebug
+NS_WARNING
 (
 "
 nsClipboard
@@ -2012,11 +2012,8 @@ GetNativeClipboardData
 :
 no
 FlavorsTransferable
-%
-i
 !
 "
-errCode
 )
 ;
 return
@@ -3467,7 +3464,7 @@ mode
 }
 else
 {
-qDebug
+NS_WARNING
 (
 "
 nsClipboard
