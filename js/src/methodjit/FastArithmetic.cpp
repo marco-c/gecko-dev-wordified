@@ -6145,7 +6145,7 @@ if
 lhsMaybeNeg
 )
 {
-RegisterID
+MaybeRegisterID
 lhsData
 ;
 if
@@ -6198,6 +6198,10 @@ Assembler
 :
 Zero
 lhsData
+.
+reg
+(
+)
 Imm32
 (
 0x80000000
