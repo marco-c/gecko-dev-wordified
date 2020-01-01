@@ -1366,7 +1366,7 @@ const
 nsRect
 &
 aRect
-nscoord
+PRUint16
 aMinTwips
 nsRectVisibility
 *
@@ -1883,7 +1883,7 @@ aView
 .
 *
 /
-nsIntRect
+void
 ViewToWidget
 (
 nsView
@@ -1892,7 +1892,6 @@ aView
 nsView
 *
 aWidgetView
-const
 nsRect
 &
 aRect
@@ -2805,7 +2804,7 @@ mRootScrollable
 nscolor
 mDefaultBackgroundColor
 ;
-nsIntPoint
+nsPoint
 mMouseLocation
 ;
 /

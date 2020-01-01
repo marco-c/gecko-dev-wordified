@@ -613,7 +613,7 @@ const
 char
 *
 aPrefId
-PRInt32
+nscoord
 &
 aTwips
 const
@@ -629,7 +629,7 @@ const
 char
 *
 aPrefId
-PRInt32
+nscoord
 aTwips
 )
 ;
@@ -640,7 +640,7 @@ const
 char
 *
 aPrefId
-PRInt32
+nscoord
 &
 aTwips
 const
@@ -656,7 +656,7 @@ const
 char
 *
 aPrefId
-PRInt32
+nscoord
 aTwips
 )
 ;

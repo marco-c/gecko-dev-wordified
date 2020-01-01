@@ -561,7 +561,7 @@ ConstructDragImage
 nsIDOMNode
 *
 aDOMNode
-nsIntRect
+nsRect
 *
 aDragRect
 nsIScriptableRegion

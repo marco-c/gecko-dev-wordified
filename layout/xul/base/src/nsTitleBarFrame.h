@@ -564,7 +564,7 @@ protected
 PRBool
 mTrackingMouseMove
 ;
-nsIntPoint
+nsPoint
 mLastPoint
 ;
 }

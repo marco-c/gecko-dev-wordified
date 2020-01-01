@@ -924,7 +924,7 @@ NS_IMETHOD
 SetBounds
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -932,7 +932,7 @@ aRect
 NS_IMETHOD
 GetBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -940,7 +940,7 @@ aRect
 NS_IMETHOD
 GetClientBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -948,7 +948,7 @@ aRect
 NS_IMETHOD
 GetScreenBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -967,7 +967,7 @@ aHeight
 NS_IMETHOD
 ScrollRect
 (
-nsIntRect
+nsRect
 &
 aRect
 PRInt32
@@ -1217,7 +1217,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -1322,10 +1322,10 @@ mIsDestroying
 PRPackedBool
 mOnDestroyCalled
 ;
-nsIntRect
+nsRect
 mBounds
 ;
-nsIntRect
+nsRect
 *
 mOriginalBounds
 ;
@@ -1443,7 +1443,7 @@ nsIWidget
 *
 aWidget
 const
-nsIntRect
+nsRect
 *
 aRect
 PRBool

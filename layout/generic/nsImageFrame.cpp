@@ -2048,7 +2048,7 @@ if
 aImage
 )
 {
-nsIntSize
+nsSize
 imageSizeInPx
 ;
 aImage
@@ -2547,7 +2547,7 @@ nsImageFrame
 SourceRectToDest
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -3623,7 +3623,7 @@ gfxIImageFrame
 *
 aFrame
 const
-nsIntRect
+nsRect
 *
 aRect
 )
@@ -4283,7 +4283,7 @@ aContainer
 gfxIImageFrame
 *
 aNewFrame
-nsIntRect
+nsRect
 *
 aDirtyRect
 )
@@ -11597,7 +11597,7 @@ gfxIImageFrame
 *
 aFrame
 const
-nsIntRect
+nsRect
 *
 aRect
 )
@@ -11671,7 +11671,7 @@ aContainer
 gfxIImageFrame
 *
 newframe
-nsIntRect
+nsRect
 *
 dirtyRect
 )

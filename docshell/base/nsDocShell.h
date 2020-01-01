@@ -4255,7 +4255,7 @@ nsDSURIContentListener
 >
 mContentListener
 ;
-nsIntRect
+nsRect
 mBounds
 ;
 /
@@ -4336,7 +4336,7 @@ nsIWebBrowserFind
 >
 mFind
 ;
-nsIntPoint
+nsPoint
 mDefaultScrollbarPref
 ;
 /

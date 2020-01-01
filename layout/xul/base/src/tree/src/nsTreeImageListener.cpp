@@ -556,7 +556,7 @@ gfxIImageFrame
 *
 aFrame
 const
-nsIntRect
+nsRect
 *
 aRect
 )
@@ -581,7 +581,7 @@ aContainer
 gfxIImageFrame
 *
 newframe
-nsIntRect
+nsRect
 *
 dirtyRect
 )

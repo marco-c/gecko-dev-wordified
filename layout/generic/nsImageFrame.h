@@ -601,7 +601,7 @@ gfxIImageFrame
 *
 aFrame
 const
-nsIntRect
+nsRect
 *
 aRect
 )
@@ -636,7 +636,7 @@ aContainer
 gfxIImageFrame
 *
 newframe
-nsIntRect
+nsRect
 *
 dirtyRect
 )
@@ -1314,7 +1314,7 @@ gfxIImageFrame
 *
 aFrame
 const
-nsIntRect
+nsRect
 *
 rect
 )
@@ -1342,7 +1342,7 @@ aContainer
 gfxIImageFrame
 *
 aNewframe
-nsIntRect
+nsRect
 *
 aDirtyRect
 )
@@ -1542,7 +1542,7 @@ nsRect
 SourceRectToDest
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 )

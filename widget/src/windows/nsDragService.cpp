@@ -1076,7 +1076,7 @@ Prepare
 the
 drag
 image
-nsIntRect
+nsRect
 dragRect
 ;
 nsRefPtr
