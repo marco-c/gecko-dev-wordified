@@ -2283,6 +2283,10 @@ Password
 entry
 "
 ;
+if
+(
+count
+)
 count
 .
 value
@@ -2437,6 +2441,10 @@ clone
 ;
 }
 }
+if
+(
+count
+)
 count
 .
 value
@@ -2612,6 +2620,10 @@ hostname
 )
 ;
 }
+if
+(
+count
+)
 count
 .
 value

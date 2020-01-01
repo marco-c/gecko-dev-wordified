@@ -282,8 +282,6 @@ pwmgr
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 hosts

@@ -4340,8 +4340,6 @@ lm
 .
 getAllLogins
 (
-{
-}
 )
 ;
 for
@@ -4453,8 +4451,6 @@ lm
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 for

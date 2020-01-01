@@ -703,8 +703,6 @@ passwordmanager
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 rejects

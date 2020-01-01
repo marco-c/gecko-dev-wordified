@@ -962,8 +962,6 @@ pwmgr
 .
 getAllLogins
 (
-{
-}
 )
 ;
 if
@@ -1007,8 +1005,6 @@ pwmgr
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 if
@@ -1154,8 +1150,6 @@ pwmgr
 .
 getAllLogins
 (
-{
-}
 )
 ;
 is
@@ -1179,8 +1173,6 @@ pwmgr
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 is

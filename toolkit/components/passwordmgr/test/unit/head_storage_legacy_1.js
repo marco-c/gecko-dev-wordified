@@ -646,8 +646,6 @@ storage
 .
 getAllLogins
 (
-{
-}
 )
 )
 ;
@@ -660,8 +658,6 @@ storage
 .
 getAllDisabledHosts
 (
-{
-}
 )
 )
 ;

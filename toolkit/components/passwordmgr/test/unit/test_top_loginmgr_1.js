@@ -215,8 +215,6 @@ loginmgr
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 hosts

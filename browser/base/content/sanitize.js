@@ -2627,9 +2627,8 @@ pwmgr
 .
 getAllDisabledHosts
 (
-{
-}
 )
+;
 for
 each
 (
