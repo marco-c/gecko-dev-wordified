@@ -575,7 +575,7 @@ emptied
 #
 define
 kLineBufferSize
-1024
+4096
 /
 *
 *
