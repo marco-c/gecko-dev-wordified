@@ -1364,7 +1364,7 @@ sync
 .
 reason
 .
-server_maintenance
+serverMaintenance
 "
 RESPONSE_OVER_QUOTA
 :
