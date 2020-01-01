@@ -13671,6 +13671,13 @@ labelMouseDownPtProperty
 LabelMouseDownPtProperty
 "
 )
+GK_ATOM
+(
+baseURIProperty
+"
+baseURIProperty
+"
+)
 /
 /
 Languages
