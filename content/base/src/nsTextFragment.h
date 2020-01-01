@@ -912,7 +912,7 @@ an
 explicit
 call
 to
-SetBidiFlag
+UpdateBidiFlag
 (
 )
 *
@@ -1454,8 +1454,14 @@ characters
 *
 /
 void
-SetBidiFlag
+UpdateBidiFlag
 (
+const
+PRUnichar
+*
+aBuffer
+PRUint32
+aLength
 )
 ;
 struct
