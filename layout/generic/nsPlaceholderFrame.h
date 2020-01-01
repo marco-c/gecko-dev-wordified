@@ -804,7 +804,7 @@ MOZ_REFLOW_PERF
 #
 ifdef
 DEBUG
-NS_IMETHOD
+void
 List
 (
 FILE

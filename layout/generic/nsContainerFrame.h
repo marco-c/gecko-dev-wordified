@@ -525,7 +525,7 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG
-NS_IMETHOD
+void
 List
 (
 FILE

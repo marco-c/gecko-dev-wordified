@@ -541,7 +541,7 @@ aResult
 )
 const
 ;
-NS_IMETHOD
+void
 List
 (
 FILE
