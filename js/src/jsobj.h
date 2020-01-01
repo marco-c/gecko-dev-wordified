@@ -4857,11 +4857,11 @@ cpp
 *
 2
 .
-!
-isExtensible
-(
-)
-checking
+Checks
+for
+non
+-
+extensibility
 must
 be
 done

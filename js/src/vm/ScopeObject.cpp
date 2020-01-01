@@ -9635,9 +9635,14 @@ family
 bool
 isExtensible
 (
-JSObject
+JSContext
 *
+cx
+HandleObject
 proxy
+bool
+*
+extensible
 )
 MOZ_OVERRIDE
 {
@@ -9666,6 +9671,11 @@ most
 /
 /
 proxies
+*
+extensible
+=
+true
+;
 return
 true
 ;

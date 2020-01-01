@@ -2976,7 +2976,7 @@ them
 if
 (
 !
-isExtensible
+nonProxyIsExtensible
 (
 )
 |
