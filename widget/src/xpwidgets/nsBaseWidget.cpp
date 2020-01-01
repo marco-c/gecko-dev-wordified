@@ -8305,11 +8305,11 @@ NS_IMETHODIMP
 nsBaseWidget
 :
 :
-GetLastInputEventTime
+HasPendingEvent
 (
-PRUint32
+PRBool
 &
-aTime
+aHasPending
 )
 {
 return
