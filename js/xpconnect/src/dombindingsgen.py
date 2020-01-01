@@ -4048,7 +4048,7 @@ n
 "
 "
 return
-false
+NULL
 ;
 \
 n
