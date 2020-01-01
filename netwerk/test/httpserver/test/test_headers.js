@@ -195,7 +195,9 @@ The
 Original
 Code
 is
-MozJSHTTP
+httpd
+.
+js
 code
 .
 *
@@ -449,7 +451,9 @@ for
 header
 storage
 in
-MozJSHTTP
+httpd
+.
+js
 ;
 nsHttpHeaders
 is

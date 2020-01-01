@@ -195,7 +195,9 @@ The
 Original
 Code
 is
-MozJSHTTP
+httpd
+.
+js
 code
 .
 *
