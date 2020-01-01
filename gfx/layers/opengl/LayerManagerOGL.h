@@ -888,17 +888,6 @@ implementation
 .
 *
 /
-virtual
-ShadowLayerManager
-*
-AsShadowManager
-(
-)
-{
-return
-this
-;
-}
 void
 BeginTransaction
 (
