@@ -1607,6 +1607,13 @@ event
 oldAccessible
 )
 ;
+let
+reason
+=
+event
+.
+reason
+;
 this
 .
 presenters
@@ -1623,6 +1630,7 @@ p
 pivotChanged
 (
 presenterContext
+reason
 )
 ;
 }
