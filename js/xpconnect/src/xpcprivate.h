@@ -23975,6 +23975,10 @@ wantXHRConstructor
 (
 false
 )
+wantExportHelpers
+(
+false
+)
 proto
 (
 xpc_GetSafeJSContext
@@ -23997,6 +24001,9 @@ wantComponents
 ;
 bool
 wantXHRConstructor
+;
+bool
+wantExportHelpers
 ;
 JS
 :
