@@ -1119,7 +1119,10 @@ size_t
 index
 )
 {
-JSObjectArray
+js
+:
+:
+ObjectArray
 *
 arr
 =

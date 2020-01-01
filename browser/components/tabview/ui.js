@@ -1209,6 +1209,12 @@ init
 (
 )
 ;
+Telemetry
+.
+init
+(
+)
+;
 /
 /
 ___
@@ -2076,6 +2082,12 @@ uninit
 )
 ;
 Storage
+.
+uninit
+(
+)
+;
+Telemetry
 .
 uninit
 (

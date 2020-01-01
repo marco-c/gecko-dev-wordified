@@ -1213,8 +1213,8 @@ aReason
 )
 ;
 static
-bool
-CleanupSinceLastGC
+PRUint32
+CleanupsSinceLastGC
 (
 )
 ;

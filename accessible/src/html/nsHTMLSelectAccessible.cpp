@@ -4451,7 +4451,7 @@ option
 option
 -
 >
-GetName
+Name
 (
 aValue
 )

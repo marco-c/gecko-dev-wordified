@@ -6558,7 +6558,7 @@ automation
 .
 log
 .
-info
+exception
 (
 "
 INFO
@@ -6573,24 +6573,9 @@ exception
 while
 running
 application
-'
-%
-s
-'
 \
 n
 "
-%
-(
-sys
-.
-exc_info
-(
-)
-[
-1
-]
-)
 )
       
 status

@@ -12768,16 +12768,6 @@ options
 cachedir
 )
         
-writeHeaderFile
-(
-options
-.
-header_output
-conf
-.
-name
-)
-        
 writeStubFile
 (
 options
@@ -12789,6 +12779,16 @@ header_output
                       
 conf
 interfaces
+)
+        
+writeHeaderFile
+(
+options
+.
+header_output
+conf
+.
+name
 )
         
 if

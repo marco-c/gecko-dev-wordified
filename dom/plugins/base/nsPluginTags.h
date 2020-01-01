@@ -840,9 +840,6 @@ bool
 mIsJavaPlugin
 ;
 bool
-mIsNPRuntimeEnabledJavaPlugin
-;
-bool
 mIsFlashPlugin
 ;
 nsCString

@@ -2332,7 +2332,6 @@ ok
 assertSameCompartment
 (
 cx
-receiver
 *
 vp
 )
@@ -2952,6 +2951,15 @@ Value
 v
 )
 {
+JS_ASSERT
+(
+!
+IsPoisonedValue
+(
+v
+)
+)
+;
 this
 -
 >

@@ -2359,13 +2359,11 @@ virtual
 bool
 TagCanContainTag
 (
-const
-nsAString
-&
+nsIAtom
+*
 aParentTag
-const
-nsAString
-&
+nsIAtom
+*
 aChildTag
 )
 ;
