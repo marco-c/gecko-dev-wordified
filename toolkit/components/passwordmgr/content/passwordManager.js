@@ -1065,6 +1065,7 @@ DeleteSignon
 (
 )
 {
+var
 syncNeeded
 =
 (
@@ -1214,6 +1215,7 @@ No
 button
 return
 ;
+var
 syncNeeded
 =
 (
