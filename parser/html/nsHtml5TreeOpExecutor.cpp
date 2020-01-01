@@ -5095,10 +5095,6 @@ const
 nsAString
 &
 aURL
-const
-nsAString
-&
-aCrossOrigin
 )
 {
 nsCOMPtr
@@ -5127,7 +5123,6 @@ mDocument
 MaybePreLoadImage
 (
 uri
-aCrossOrigin
 )
 ;
 }

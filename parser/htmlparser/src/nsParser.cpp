@@ -2362,9 +2362,6 @@ doc
 MaybePreLoadImage
 (
 uri
-EmptyString
-(
-)
 )
 ;
 break

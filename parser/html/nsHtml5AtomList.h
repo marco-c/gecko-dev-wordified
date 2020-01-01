@@ -3343,13 +3343,6 @@ columnwidth
 )
 HTML5_ATOM
 (
-crossorigin
-"
-crossorigin
-"
-)
-HTML5_ATOM
-(
 columnalign
 "
 columnalign
