@@ -146,6 +146,10 @@ nsBuiltinDecoderReader
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsAudioAvailableEventManager
 {
@@ -583,9 +587,6 @@ or
 buffer
 length
 .
-mozilla
-:
-:
 ReentrantMonitor
 mReentrantMonitor
 ;

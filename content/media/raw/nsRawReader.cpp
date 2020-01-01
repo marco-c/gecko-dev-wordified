@@ -128,10 +128,6 @@ VideoUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsRawReader
 :
 :

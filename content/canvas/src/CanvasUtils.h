@@ -134,6 +134,10 @@ Matrix
 namespace
 CanvasUtils
 {
+using
+namespace
+gfx
+;
 /
 /
 Check
@@ -392,9 +396,6 @@ const
 jsval
 &
 val
-gfx
-:
-:
 Matrix
 *
 matrix
@@ -422,9 +423,6 @@ nsresult
 MatrixToJSVal
 (
 const
-gfx
-:
-:
 Matrix
 &
 matrix
