@@ -1310,6 +1310,16 @@ _
 (
 CheckInterruptPar
 )
+\
+_
+(
+RangeAssert
+)
+\
+_
+(
+DoubleRangeAssert
+)
 #
 if
 defined
