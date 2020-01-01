@@ -1043,18 +1043,6 @@ TemporaryRef
 <
 ID2D1Geometry
 >
-ConvertRectToGeometry
-(
-const
-D2D1_RECT_F
-&
-aRect
-)
-;
-TemporaryRef
-<
-ID2D1Geometry
->
 GetClippedGeometry
 (
 )
@@ -1199,7 +1187,7 @@ mCurrentClipMaskTexture
 ;
 RefPtr
 <
-ID2D1Geometry
+ID2D1PathGeometry
 >
 mCurrentClippedGeometry
 ;
