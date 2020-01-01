@@ -496,7 +496,7 @@ h
 #
 include
 "
-nsWWJSUtils
+nsJSUtils
 .
 h
 "
@@ -2260,7 +2260,7 @@ cx
 ;
 mContextKungFuDeathGrip
 =
-nsWWJSUtils
+nsJSUtils
 :
 :
 GetDynamicScriptContext
@@ -6237,7 +6237,7 @@ nsIScriptGlobalObject
 *
 sgo
 =
-nsWWJSUtils
+nsJSUtils
 :
 :
 GetDynamicScriptGlobal
@@ -8684,7 +8684,7 @@ nsIScriptContext
 *
 scriptcx
 =
-nsWWJSUtils
+nsJSUtils
 :
 :
 GetDynamicScriptContext
@@ -10864,7 +10864,7 @@ callerWebNav
 =
 do_GetInterface
 (
-nsWWJSUtils
+nsJSUtils
 :
 :
 GetDynamicScriptGlobal
