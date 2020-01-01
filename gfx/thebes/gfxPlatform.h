@@ -3649,12 +3649,6 @@ Init
 (
 )
 ;
-static
-void
-CreateCMSOutputProfile
-(
-)
-;
 virtual
 qcms_profile
 *
