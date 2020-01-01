@@ -1498,6 +1498,11 @@ mDocShell
 )
 )
 ;
+if
+(
+shellAsWin
+)
+{
 shellAsWin
 -
 >
@@ -1510,6 +1515,7 @@ aHeight
 false
 )
 ;
+}
 /
 /
 Persist
