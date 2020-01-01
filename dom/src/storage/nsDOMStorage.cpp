@@ -5853,7 +5853,7 @@ mCount
 PRBool
 mIsCallerSecure
 ;
-PRBool
+PRUint32
 mCount
 ;
 private

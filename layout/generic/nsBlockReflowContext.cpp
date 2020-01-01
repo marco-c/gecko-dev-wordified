@@ -1046,7 +1046,7 @@ GetNextInFlow
 {
 for
 (
-PRBool
+PRIntn
 overflowLines
 =
 PR_FALSE
