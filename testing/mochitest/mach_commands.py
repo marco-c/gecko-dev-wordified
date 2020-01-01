@@ -785,7 +785,6 @@ mochitest
 MochitestOptions
 (
 automation
-tests_dir
 )
         
 options
