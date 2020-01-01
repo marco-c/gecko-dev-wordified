@@ -123,6 +123,82 @@ progressbar
 import
 ProgressBar
 NullProgressBar
+TESTS_LIB_DIR
+=
+os
+.
+path
+.
+dirname
+(
+os
+.
+path
+.
+abspath
+(
+__file__
+)
+)
+JS_DIR
+=
+os
+.
+path
+.
+dirname
+(
+os
+.
+path
+.
+dirname
+(
+TESTS_LIB_DIR
+)
+)
+TEST_DIR
+=
+os
+.
+path
+.
+join
+(
+JS_DIR
+'
+jit
+-
+test
+'
+'
+tests
+'
+)
+LIB_DIR
+=
+os
+.
+path
+.
+join
+(
+JS_DIR
+'
+jit
+-
+test
+'
+'
+lib
+'
+)
++
+os
+.
+path
+.
+sep
 #
 Backported
 from
@@ -1147,33 +1223,9 @@ command
 (
 self
 js
-lib_dir
 shell_args
 )
 :
-        
-libdir_var
-=
-lib_dir
-        
-if
-not
-libdir_var
-.
-endswith
-(
-'
-/
-'
-)
-:
-            
-libdir_var
-+
-=
-'
-/
-'
         
 scriptdir_var
 =
@@ -1236,7 +1288,7 @@ r
 sys
 .
 platform
-libdir_var
+LIB_DIR
 scriptdir_var
 )
 )
@@ -1324,7 +1376,7 @@ path
 .
 join
 (
-lib_dir
+LIB_DIR
 '
 prolog
 .
@@ -1359,7 +1411,6 @@ cmd
 def
 find_tests
 (
-dir
 substring
 =
 None
@@ -1380,7 +1431,7 @@ os
 .
 walk
 (
-dir
+TEST_DIR
 )
 :
         
@@ -1478,7 +1529,7 @@ path
 relpath
 (
 test
-dir
+TEST_DIR
 )
 :
                 
@@ -2164,7 +2215,6 @@ def
 run_test
 (
 test
-lib_dir
 shell_args
 options
 )
@@ -2179,7 +2229,6 @@ command
 options
 .
 js_shell
-lib_dir
 shell_args
 )
     
@@ -2562,7 +2611,6 @@ def
 wrap_parallel_run_test
 (
 test
-lib_dir
 shell_args
 resultQueue
 options
@@ -2593,7 +2641,6 @@ result
 run_test
 (
 test
-lib_dir
 shell_args
 options
 )
@@ -2615,8 +2662,6 @@ def
 run_tests_parallel
 (
 tests
-test_dir
-lib_dir
 shell_args
 options
 )
@@ -2787,7 +2832,6 @@ len
 tests
 )
 options
-lib_dir
 shell_args
 )
 )
@@ -3000,7 +3044,6 @@ tests
 [
 testcnt
 ]
-lib_dir
 shell_args
 async_test_result_queue
 options
@@ -3254,7 +3297,6 @@ return_queue
 notify_queue
 num_tests
 options
-lib_dir
 shell_args
 )
 :
@@ -3274,7 +3316,6 @@ process_test_results
 gen
 num_tests
 options
-lib_dir
 shell_args
 )
     
@@ -3291,7 +3332,6 @@ failures
 complete
 doing
 options
-lib_dir
 shell_args
 )
 :
@@ -3376,7 +3416,7 @@ relpath
 test
 .
 path
-test_dir
+TEST_DIR
 )
 +
 '
@@ -3523,7 +3563,6 @@ command
 options
 .
 js_shell
-lib_dir
 shell_args
 )
 )
@@ -3654,7 +3693,6 @@ process_test_results
 results
 num_tests
 options
-lib_dir
 shell_args
 )
 :
@@ -4049,14 +4087,12 @@ failures
 complete
 doing
 options
-lib_dir
 shell_args
 )
 def
 get_serial_results
 (
 tests
-lib_dir
 shell_args
 options
 )
@@ -4073,7 +4109,6 @@ result
 run_test
 (
 test
-lib_dir
 shell_args
 options
 )
@@ -4088,8 +4123,6 @@ def
 run_tests
 (
 tests
-test_dir
-lib_dir
 shell_args
 options
 )
@@ -4100,7 +4133,6 @@ gen
 get_serial_results
 (
 tests
-lib_dir
 shell_args
 options
 )
@@ -4115,7 +4147,6 @@ len
 tests
 )
 options
-lib_dir
 shell_args
 )
     

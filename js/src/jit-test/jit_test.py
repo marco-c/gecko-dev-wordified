@@ -160,56 +160,6 @@ argv
 )
 :
     
-script_path
-=
-os
-.
-path
-.
-abspath
-(
-__file__
-)
-    
-script_dir
-=
-os
-.
-path
-.
-dirname
-(
-script_path
-)
-    
-test_dir
-=
-os
-.
-path
-.
-join
-(
-script_dir
-'
-tests
-'
-)
-    
-lib_dir
-=
-os
-.
-path
-.
-join
-(
-script_dir
-'
-lib
-'
-)
-    
 #
 If
 no
@@ -1356,7 +1306,6 @@ jittests
 .
 find_tests
 (
-test_dir
 arg
 )
     
@@ -1398,7 +1347,7 @@ path
 .
 join
 (
-test_dir
+TEST_DIR
 line
 .
 strip
@@ -1493,7 +1442,6 @@ jittests
 .
 find_tests
 (
-test_dir
 )
     
 if
@@ -1522,7 +1470,6 @@ jittests
 .
 find_tests
 (
-test_dir
 exclude
 )
         
@@ -2092,7 +2039,6 @@ command
 options
 .
 js_shell
-lib_dir
 shell_args
 )
         
@@ -2135,8 +2081,6 @@ jittests
 run_tests_parallel
 (
 job_list
-test_dir
-lib_dir
 shell_args
 options
 )
@@ -2151,8 +2095,6 @@ jittests
 run_tests
 (
 job_list
-test_dir
-lib_dir
 shell_args
 options
 )
