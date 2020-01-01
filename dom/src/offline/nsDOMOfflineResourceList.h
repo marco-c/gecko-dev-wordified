@@ -736,7 +736,7 @@ nsIOfflineCacheUpdate
 mCacheUpdate
 ;
 nsCAutoString
-mHostPort
+mAsciiHost
 ;
 nsCAutoString
 mDynamicOwnerSpec
