@@ -5717,7 +5717,7 @@ strings
 getString
 (
 "
-alertAddonsStart
+alertAddonsInstalling
 "
 )
 false
