@@ -1138,7 +1138,7 @@ rsp
 offsetof
 (
 ResumeFromException
-basePointer
+framePointer
 )
 )
 rbp
