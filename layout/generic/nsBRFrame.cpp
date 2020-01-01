@@ -618,9 +618,9 @@ aIsKeyboardSelect
 PRInt32
 *
 aOffset
-PRBool
+PeekWordState
 *
-aSawBeforeType
+aState
 )
 ;
 NS_IMETHOD
@@ -1783,9 +1783,9 @@ aIsKeyboardSelect
 PRInt32
 *
 aOffset
-PRBool
+PeekWordState
 *
-aSawBeforeType
+aState
 )
 {
 NS_ASSERTION
