@@ -468,7 +468,7 @@ class
 nsXMLCDATASection
 :
 public
-nsGenericDOMDataNode
+nsGenericTextNode
 public
 nsIDOMCDATASection
 {
@@ -661,7 +661,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsGenericDOMDataNode
+nsGenericTextNode
 (
 aNodeInfo
 )
