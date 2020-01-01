@@ -500,6 +500,15 @@ Init
 (
 )
 ;
+void
+HandleMozsettingChanged
+(
+const
+PRUnichar
+*
+aData
+)
+;
 /
 /
 Management
