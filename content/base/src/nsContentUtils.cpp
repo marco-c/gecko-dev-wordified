@@ -3247,9 +3247,6 @@ NS_SCROLLPORT_UNDERFLOW
 EventNameType_XUL
 NS_EVENT_NULL
 }
-#
-ifdef
-MOZ_SVG
 {
 nsGkAtoms
 :
@@ -3338,11 +3335,6 @@ NS_SVG_ZOOM
 EventNameType_SVGSVG
 NS_EVENT_NULL
 }
-#
-endif
-/
-/
-MOZ_SVG
 #
 ifdef
 MOZ_SMIL
@@ -15072,9 +15064,6 @@ dom
 .
 properties
 "
-#
-ifdef
-MOZ_SVG
 "
 chrome
 :
@@ -15090,8 +15079,6 @@ svg
 .
 properties
 "
-#
-endif
 "
 chrome
 :

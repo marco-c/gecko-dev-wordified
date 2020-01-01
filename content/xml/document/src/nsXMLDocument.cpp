@@ -1341,9 +1341,6 @@ isXHTML
 PR_TRUE
 ;
 }
-#
-ifdef
-MOZ_SVG
 else
 if
 (
@@ -1381,8 +1378,6 @@ d
 )
 ;
 }
-#
-endif
 /
 /
 XXX

@@ -804,9 +804,6 @@ nsAString
 aSerialized
 )
 ;
-#
-ifdef
-MOZ_SVG
 explicit
 nsAttrValue
 (
@@ -815,8 +812,6 @@ nsISVGValue
 aValue
 )
 ;
-#
-endif
 explicit
 nsAttrValue
 (
@@ -938,14 +933,9 @@ eCSSStyleRule
 eAtomArray
 =
 0x11
-#
-ifdef
-MOZ_SVG
 eSVGValue
 =
 0x12
-#
-endif
 eDoubleValue
 =
 0x13
@@ -1008,9 +998,6 @@ nsAString
 aSerialized
 )
 ;
-#
-ifdef
-MOZ_SVG
 void
 SetTo
 (
@@ -1019,8 +1006,6 @@ nsISVGValue
 aValue
 )
 ;
-#
-endif
 void
 SetTo
 (
@@ -1148,9 +1133,6 @@ GetCSSStyleRuleValue
 )
 const
 ;
-#
-ifdef
-MOZ_SVG
 inline
 nsISVGValue
 *
@@ -1159,8 +1141,6 @@ GetSVGValue
 )
 const
 ;
-#
-endif
 inline
 double
 GetDoubleValue
@@ -2377,15 +2357,10 @@ AtomArray
 *
 mAtomArray
 ;
-#
-ifdef
-MOZ_SVG
 nsISVGValue
 *
 mSVGValue
 ;
-#
-endif
 double
 mDoubleValue
 ;
@@ -2962,9 +2937,6 @@ GetMiscContainer
 mCSSStyleRule
 ;
 }
-#
-ifdef
-MOZ_SVG
 inline
 nsISVGValue
 *
@@ -2999,8 +2971,6 @@ GetMiscContainer
 mSVGValue
 ;
 }
-#
-endif
 inline
 double
 nsAttrValue

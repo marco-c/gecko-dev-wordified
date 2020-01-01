@@ -844,9 +844,6 @@ open
 "
 message
 "
-#
-ifdef
-MOZ_SVG
 "
 SVGLoad
 "
@@ -868,11 +865,6 @@ SVGScroll
 "
 SVGZoom
 "
-#
-endif
-/
-/
-MOZ_SVG
 #
 ifdef
 MOZ_SMIL
@@ -4369,9 +4361,6 @@ detail
 break
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 NS_SVG_EVENT
 :
@@ -4431,11 +4420,6 @@ NS_SVGZOOM_EVENT
 break
 ;
 }
-#
-endif
-/
-/
-MOZ_SVG
 #
 ifdef
 MOZ_SMIL
@@ -6804,9 +6788,6 @@ sEventNames
 eDOMEvents_message
 ]
 ;
-#
-ifdef
-MOZ_SVG
 case
 NS_SVG_LOAD
 :
@@ -6870,11 +6851,6 @@ sEventNames
 eDOMEvents_SVGZoom
 ]
 ;
-#
-endif
-/
-/
-MOZ_SVG
 #
 ifdef
 MOZ_SMIL

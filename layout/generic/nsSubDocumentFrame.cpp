@@ -6303,9 +6303,6 @@ nsnull
 }
 }
 }
-#
-ifdef
-MOZ_SVG
 if
 (
 subDocRoot
@@ -6354,8 +6351,6 @@ an
 intrinsic
 size
 }
-#
-endif
 }
 return
 nsnull

@@ -5462,9 +5462,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsSVGEffects
 :
 :
@@ -5475,8 +5472,6 @@ HTMLCanvasElement
 )
 )
 ;
-#
-endif
 HTMLCanvasElement
 (
 )
@@ -5555,9 +5550,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsSVGEffects
 :
 :
@@ -5568,8 +5560,6 @@ HTMLCanvasElement
 )
 )
 ;
-#
-endif
 HTMLCanvasElement
 (
 )

@@ -801,9 +801,6 @@ aNodeInfo
 ;
 #
 endif
-#
-ifdef
-MOZ_SVG
 nsresult
 NS_NewSVGElement
 (
@@ -826,8 +823,6 @@ FromParser
 aFromParser
 )
 ;
-#
-endif
 nsresult
 NS_NewGenConImageContent
 (

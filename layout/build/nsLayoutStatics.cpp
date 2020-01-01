@@ -770,17 +770,12 @@ nsHTMLInputElement
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGUtils
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_XUL

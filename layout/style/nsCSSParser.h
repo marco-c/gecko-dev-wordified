@@ -659,9 +659,6 @@ PRBool
 aQuirkMode
 )
 ;
-#
-ifdef
-MOZ_SVG
 /
 /
 Set
@@ -681,8 +678,6 @@ PRBool
 aSVGMode
 )
 ;
-#
-endif
 /
 /
 Set

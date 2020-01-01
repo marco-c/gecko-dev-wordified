@@ -26330,9 +26330,6 @@ break
 ;
 #
 endif
-#
-ifdef
-MOZ_SVG
 case
 kNameSpaceID_SVG
 :
@@ -26366,8 +26363,6 @@ break
 else
 fall
 through
-#
-endif
 default
 :
 GetTitleFromElement
@@ -26431,9 +26426,6 @@ GetNameSpaceID
 )
 )
 {
-#
-ifdef
-MOZ_SVG
 case
 kNameSpaceID_SVG
 :
@@ -26450,8 +26442,6 @@ support
 setting
 a
 title
-#
-endif
 #
 ifdef
 MOZ_XUL

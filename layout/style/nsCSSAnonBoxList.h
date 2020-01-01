@@ -1180,9 +1180,6 @@ feedback
 )
 #
 endif
-#
-ifdef
-MOZ_SVG
 CSS_ANON_BOX
 (
 mozSVGForeignContent
@@ -1198,5 +1195,3 @@ foreign
 content
 "
 )
-#
-endif

@@ -4387,9 +4387,6 @@ aEvent
 )
 )
 ;
-#
-ifdef
-MOZ_SVG
 case
 NS_SVG_EVENT
 :
@@ -4419,11 +4416,6 @@ aEvent
 )
 )
 ;
-#
-endif
-/
-/
-MOZ_SVG
 #
 ifdef
 MOZ_SMIL
@@ -4858,9 +4850,6 @@ aPresContext
 nsnull
 )
 ;
-#
-ifdef
-MOZ_SVG
 if
 (
 aEventType
@@ -4919,11 +4908,6 @@ aPresContext
 nsnull
 )
 ;
-#
-endif
-/
-/
-MOZ_SVG
 #
 ifdef
 MOZ_SMIL

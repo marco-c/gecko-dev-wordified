@@ -9069,9 +9069,6 @@ aStyleContext
 SVG
 -
 rods
-#
-ifdef
-MOZ_SVG
 static
 const
 FrameConstructionData
@@ -9119,8 +9116,6 @@ nsIFrame
 aNewFrame
 )
 ;
-#
-endif
 /
 *
 Not

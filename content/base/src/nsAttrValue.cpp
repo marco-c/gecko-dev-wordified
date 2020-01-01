@@ -530,17 +530,12 @@ prprf
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsISVGValue
 .
 h
 "
-#
-endif
 namespace
 css
 =
@@ -673,9 +668,6 @@ aSerialized
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsAttrValue
 :
 :
@@ -697,8 +689,6 @@ aValue
 )
 ;
 }
-#
-endif
 nsAttrValue
 :
 :
@@ -1256,9 +1246,6 @@ return
 break
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 eSVGValue
 :
@@ -1279,8 +1266,6 @@ mSVGValue
 break
 ;
 }
-#
-endif
 case
 eDoubleValue
 :
@@ -1568,9 +1553,6 @@ aSerialized
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 void
 nsAttrValue
 :
@@ -1616,8 +1598,6 @@ eSVGValue
 ;
 }
 }
-#
-endif
 void
 nsAttrValue
 :
@@ -2097,9 +2077,6 @@ aResult
 break
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 eSVGValue
 :
@@ -2120,8 +2097,6 @@ aResult
 break
 ;
 }
-#
-endif
 case
 eDoubleValue
 :
@@ -2874,9 +2849,6 @@ return
 retval
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 eSVGValue
 :
@@ -2891,8 +2863,6 @@ mSVGValue
 )
 ;
 }
-#
-endif
 case
 eDoubleValue
 :
@@ -3256,9 +3226,6 @@ PR_TRUE
 break
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 eSVGValue
 :
@@ -3276,8 +3243,6 @@ otherCont
 mSVGValue
 ;
 }
-#
-endif
 case
 eDoubleValue
 :
@@ -6316,9 +6281,6 @@ mAtomArray
 break
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 eSVGValue
 :
@@ -6334,8 +6296,6 @@ mSVGValue
 break
 ;
 }
-#
-endif
 case
 eIntMarginValue
 :

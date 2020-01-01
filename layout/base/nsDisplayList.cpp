@@ -539,17 +539,12 @@ gfxMatrix
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGIntegrationUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -16691,9 +16686,6 @@ factor
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsDisplaySVGEffects
 :
 :
@@ -17142,5 +17134,3 @@ return
 PR_TRUE
 ;
 }
-#
-endif

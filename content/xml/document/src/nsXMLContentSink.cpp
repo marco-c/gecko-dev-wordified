@@ -869,17 +869,12 @@ nsMimeTypes
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsHtml5SVGLoadDispatcher
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -2890,9 +2885,6 @@ nsGkAtoms
 script
 kNameSpaceID_XHTML
 )
-#
-ifdef
-MOZ_SVG
 |
 |
 aNodeInfo
@@ -2906,8 +2898,6 @@ nsGkAtoms
 script
 kNameSpaceID_SVG
 )
-#
-endif
 )
 {
 nsCOMPtr
@@ -3422,9 +3412,6 @@ nsGkAtoms
 script
 kNameSpaceID_XHTML
 )
-#
-ifdef
-MOZ_SVG
 |
 |
 nodeInfo
@@ -3438,8 +3425,6 @@ nsGkAtoms
 script
 kNameSpaceID_SVG
 )
-#
-endif
 )
 {
 mConstrainSize
@@ -6459,9 +6444,6 @@ DidAddContent
 (
 )
 ;
-#
-ifdef
-MOZ_SVG
 if
 (
 content
@@ -6530,8 +6512,6 @@ dispatcher
 ;
 }
 }
-#
-endif
 return
 aInterruptable
 &

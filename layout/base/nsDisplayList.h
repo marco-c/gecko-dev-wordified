@@ -13480,9 +13480,6 @@ mParentAPD
 ;
 }
 ;
-#
-ifdef
-MOZ_SVG
 /
 *
 *
@@ -13674,8 +13671,6 @@ mBounds
 ;
 }
 ;
-#
-endif
 /
 *
 A

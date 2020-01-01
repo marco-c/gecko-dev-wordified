@@ -647,17 +647,12 @@ Element
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsHtml5SVGLoadDispatcher
 .
 h
 "
-#
-endif
 namespace
 dom
 =
@@ -4371,9 +4366,6 @@ return
 rv
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 eTreeOpSvgLoad
 :
@@ -4429,8 +4421,6 @@ return
 rv
 ;
 }
-#
-endif
 default
 :
 {

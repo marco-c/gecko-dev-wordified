@@ -784,9 +784,6 @@ nsEvent
 aEvent
 )
 ;
-#
-ifdef
-MOZ_SVG
 nsresult
 NS_NewDOMSVGEvent
 (
@@ -819,11 +816,6 @@ nsGUIEvent
 aEvent
 )
 ;
-#
-endif
-/
-/
-MOZ_SVG
 #
 ifdef
 MOZ_SMIL

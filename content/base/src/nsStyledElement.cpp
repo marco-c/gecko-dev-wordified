@@ -570,17 +570,12 @@ nsXULElement
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsIDOMSVGStylable
 .
 h
 "
-#
-endif
 namespace
 css
 =

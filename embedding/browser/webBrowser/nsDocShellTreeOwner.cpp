@@ -640,9 +640,6 @@ Link
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsIDOMSVGElement
@@ -663,8 +660,6 @@ nsIDOMSVGForeignObjectElem
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -6103,9 +6098,6 @@ window
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 /
 /
 /
@@ -6260,8 +6252,6 @@ nsnull
 )
 ;
 }
-#
-endif
 /
 *
 void
@@ -6727,9 +6717,6 @@ PR_TRUE
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 else
 {
 if
@@ -6868,8 +6855,6 @@ break
 }
 }
 }
-#
-endif
 }
 }
 }

@@ -527,17 +527,12 @@ nsCOMArray
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGIntegrationUtils
 .
 h
 "
-#
-endif
 #
 include
 "

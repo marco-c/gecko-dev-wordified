@@ -10362,9 +10362,6 @@ return
 PR_FALSE
 ;
 }
-#
-ifdef
-MOZ_SVG
 if
 (
 nsSVGIntegrationUtils
@@ -10392,8 +10389,6 @@ return
 PR_FALSE
 ;
 }
-#
-endif
 nsIScrollableFrame
 *
 sf

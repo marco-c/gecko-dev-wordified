@@ -763,9 +763,6 @@ define
 NS_UI_EVENT
 28
 #
-ifdef
-MOZ_SVG
-#
 define
 NS_SVG_EVENT
 30
@@ -773,11 +770,6 @@ NS_SVG_EVENT
 define
 NS_SVGZOOM_EVENT
 31
-#
-endif
-/
-/
-MOZ_SVG
 #
 ifdef
 MOZ_SMIL
@@ -2255,9 +2247,6 @@ NS_PAGETRANSITION_START
 +
 2
 )
-#
-ifdef
-MOZ_SVG
 /
 /
 SVG
@@ -2327,11 +2316,6 @@ NS_SVG_ZOOM
 (
 NS_SVGZOOM_EVENT_START
 )
-#
-endif
-/
-/
-MOZ_SVG
 /
 /
 XUL

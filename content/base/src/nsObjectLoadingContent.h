@@ -1505,9 +1505,6 @@ flag
 always
 includes
 SVG
-#
-ifdef
-MOZ_SVG
 eSupportSVG
 =
 PR_BIT
@@ -1526,8 +1523,6 @@ svg
 +
 xml
 )
-#
-endif
 eSupportClassID
 =
 PR_BIT

@@ -1120,9 +1120,6 @@ DOMCI_CLASS
 (
 BeforeUnloadEvent
 )
-#
-ifdef
-MOZ_SVG
 /
 /
 The
@@ -1586,11 +1583,6 @@ DOMCI_CLASS
 (
 SVGZoomEvent
 )
-#
-endif
-/
-/
-MOZ_SVG
 /
 /
 Canvas
@@ -1741,15 +1733,10 @@ DOMCI_CLASS
 (
 ClientRectList
 )
-#
-ifdef
-MOZ_SVG
 DOMCI_CLASS
 (
 SVGForeignObjectElement
 )
-#
-endif
 DOMCI_CLASS
 (
 XULCommandEvent
