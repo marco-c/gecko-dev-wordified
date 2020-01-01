@@ -1740,7 +1740,7 @@ ICUReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -1748,7 +1748,7 @@ ICUReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

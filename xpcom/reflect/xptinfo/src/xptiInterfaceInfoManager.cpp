@@ -308,7 +308,7 @@ XPTIWorkingSetReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -316,7 +316,7 @@ XPTIWorkingSetReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

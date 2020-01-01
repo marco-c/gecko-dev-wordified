@@ -314,7 +314,7 @@ class
 IDXGIAdapter1
 ;
 class
-nsIMemoryReporter
+nsIMemoryMultiReporter
 ;
 /
 /
@@ -1734,9 +1734,9 @@ gfxFontEntry
 >
 mPrefFonts
 ;
-nsIMemoryReporter
+nsIMemoryMultiReporter
 *
-mGPUAdapterReporter
+mGPUAdapterMultiReporter
 ;
 }
 ;

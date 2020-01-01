@@ -3505,7 +3505,7 @@ nsDOMMemoryFileDataOwnerMemoryReporter
 MOZ_FINAL
 :
 public
-nsIMemoryReporter
+nsIMemoryMultiReporter
 {
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD
@@ -3540,7 +3540,7 @@ NS_OK
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCallback
 nsISupports
@@ -4012,7 +4012,7 @@ NS_OK
 NS_IMPL_ISUPPORTS1
 (
 nsDOMMemoryFileDataOwnerMemoryReporter
-nsIMemoryReporter
+nsIMemoryMultiReporter
 )
 /
 *
@@ -4055,7 +4055,7 @@ nsDOMMemoryFileDataOwnerMemoryReporter
 (
 )
 ;
-NS_RegisterMemoryReporter
+NS_RegisterMemoryMultiReporter
 (
 reporter
 )

@@ -7500,7 +7500,7 @@ gfxFontCache
 :
 :
 MemoryReporter
-nsIMemoryReporter
+nsIMemoryMultiReporter
 )
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
@@ -7544,7 +7544,7 @@ MemoryReporter
 :
 CollectReports
 (
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -7815,7 +7815,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-NS_RegisterMemoryReporter
+NS_RegisterMemoryMultiReporter
 (
 new
 MemoryReporter

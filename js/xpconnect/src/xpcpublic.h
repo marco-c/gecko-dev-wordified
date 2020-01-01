@@ -1019,7 +1019,7 @@ xpc_ActivateDebugMode
 )
 ;
 class
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 ;
 /
 /
@@ -2101,7 +2101,7 @@ const
 nsACString
 &
 rtPath
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 cb
 nsISupports
