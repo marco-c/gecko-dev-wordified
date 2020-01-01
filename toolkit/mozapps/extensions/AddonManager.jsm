@@ -3709,6 +3709,10 @@ updateCurrentTheme
 (
 )
 ;
+pendingUpdates
++
++
+;
 this
 .
 getAllAddons
