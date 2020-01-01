@@ -794,6 +794,7 @@ nsGenericElement
 CanSkip
 (
 tmp
+aRemovingAllowed
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_END
