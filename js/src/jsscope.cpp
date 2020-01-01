@@ -485,13 +485,6 @@ h
 #
 include
 "
-jsbit
-.
-h
-"
-#
-include
-"
 jsclist
 .
 h
@@ -1063,7 +1056,7 @@ population
 uint32
 sizeLog2
 =
-JS_CeilingLog2
+JS_CEILING_LOG2W
 (
 2
 *

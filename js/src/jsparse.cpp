@@ -759,13 +759,6 @@ jslibmath
 h
 "
 #
-include
-"
-jsvector
-.
-h
-"
-#
 if
 JS_HAS_XML_SUPPORT
 #

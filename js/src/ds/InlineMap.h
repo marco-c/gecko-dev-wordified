@@ -451,7 +451,9 @@ InlineMap_h__
 #
 include
 "
-jshashtable
+js
+/
+HashTable
 .
 h
 "

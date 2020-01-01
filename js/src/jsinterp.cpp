@@ -674,13 +674,6 @@ jslibmath
 h
 "
 #
-include
-"
-jsvector
-.
-h
-"
-#
 ifdef
 JS_METHODJIT
 #
@@ -18100,7 +18093,7 @@ JSOP_IMACOP
 )
 JS_ASSERT
 (
-JS_UPTRDIFF
+UnsignedPtrDiff
 (
 regs
 .

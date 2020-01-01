@@ -487,13 +487,6 @@ h
 #
 include
 "
-jshashtable
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h
@@ -509,13 +502,6 @@ h
 include
 "
 jsutil
-.
-h
-"
-#
-include
-"
-jsvector
 .
 h
 "

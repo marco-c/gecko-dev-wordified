@@ -497,13 +497,6 @@ h
 #
 include
 "
-jshashtable
-.
-h
-"
-#
-include
-"
 jsstdint
 .
 h
@@ -512,13 +505,6 @@ h
 include
 "
 jslock
-.
-h
-"
-#
-include
-"
-jsvector
 .
 h
 "

@@ -491,13 +491,6 @@ h
 #
 include
 "
-jsbit
-.
-h
-"
-#
-include
-"
 jslibmath
 .
 h

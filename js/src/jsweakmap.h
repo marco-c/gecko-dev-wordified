@@ -484,6 +484,15 @@ jsgcmark
 .
 h
 "
+#
+include
+"
+js
+/
+HashTable
+.
+h
+"
 namespace
 js
 {
