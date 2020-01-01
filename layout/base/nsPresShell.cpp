@@ -34964,6 +34964,9 @@ this
 endif
 }
 }
+#
+ifdef
+MOZ_TOUCH
 static
 void
 EvictTouchPoint
@@ -35260,6 +35263,11 @@ return
 PL_DHASH_NEXT
 ;
 }
+#
+endif
+/
+/
+MOZ_TOUCH
 nsresult
 PresShell
 :
