@@ -1481,7 +1481,11 @@ IsScrollingActive
 (
 )
 const
+{
+return
+mScrollingActive
 ;
+}
 /
 /
 adjust
