@@ -13486,7 +13486,7 @@ JS_FALSE
 ins
 -
 >
-target
+setTarget
 (
 lir
 -
@@ -13562,7 +13562,7 @@ i
 ]
 -
 >
-target
+setTarget
 (
 fail
 )
@@ -14517,7 +14517,7 @@ length
 ;
 /
 *
-skip
+insSkip
 (
 )
 can
@@ -14582,7 +14582,7 @@ skip
 lirBufWriter
 -
 >
-skip
+insSkip
 (
 bitmapLen
 )
@@ -15862,7 +15862,7 @@ skip
 lirBufWriter
 -
 >
-skip
+insSkip
 (
 sizeof
 (
