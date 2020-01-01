@@ -11003,6 +11003,13 @@ aResourceFullyLoaded
 {
 ChangeReadyState
 (
+aResourceFullyLoaded
+?
+nsIDOMHTMLMediaElement
+:
+:
+HAVE_ENOUGH_DATA
+:
 nsIDOMHTMLMediaElement
 :
 :
