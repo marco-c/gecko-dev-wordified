@@ -171,6 +171,17 @@ graph
 )
 ;
 bool
+EliminateDeadResumePointOperands
+(
+MIRGenerator
+*
+mir
+MIRGraph
+&
+graph
+)
+;
+bool
 EliminateDeadCode
 (
 MIRGenerator

@@ -28579,6 +28579,14 @@ setResumePoint
 resumePoint
 )
 ;
+resumePoint
+-
+>
+setInstruction
+(
+ins
+)
+;
 return
 true
 ;
