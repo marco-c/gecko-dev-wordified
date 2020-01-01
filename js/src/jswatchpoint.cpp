@@ -497,6 +497,10 @@ hash
 key
 .
 object
+.
+get
+(
+)
 )
 ^
 HashId
@@ -504,6 +508,10 @@ HashId
 key
 .
 id
+.
+get
+(
+)
 )
 ;
 }
@@ -1271,9 +1279,6 @@ rt
 trc
 -
 >
-context
--
->
 runtime
 ;
 if
@@ -1480,7 +1485,6 @@ objectIsLive
 MarkObject
 (
 trc
-*
 e
 .
 key
@@ -1498,7 +1502,9 @@ marked
 true
 ;
 }
-jsid
+const
+HeapId
+&
 id
 =
 e
@@ -1556,7 +1562,6 @@ closure
 MarkObject
 (
 trc
-*
 e
 .
 value

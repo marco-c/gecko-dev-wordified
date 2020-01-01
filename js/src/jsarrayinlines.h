@@ -568,7 +568,7 @@ cx
 js
 :
 :
-SetValueRangeToHoles
+InitValueRange
 (
 elements
 +
@@ -576,6 +576,7 @@ initlen
 index
 -
 initlen
+true
 )
 ;
 }

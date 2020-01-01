@@ -2440,6 +2440,13 @@ HeapPtrShape
 typedef
 HeapPtr
 <
+BaseShape
+>
+HeapPtrBaseShape
+;
+typedef
+HeapPtr
+<
 const
 Shape
 >
@@ -2979,7 +2986,7 @@ toNumber
 )
 ;
 }
-JSGCTraceKind
+unsigned
 gcKind
 (
 )

@@ -1136,12 +1136,11 @@ loadPtr
 (
 FrameAddress
 (
-offsetof
-(
 VMFrame
-regs
-.
-sp
+:
+:
+offsetOfRegsSp
+(
 )
 )
 newfp
