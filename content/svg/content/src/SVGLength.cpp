@@ -1289,14 +1289,7 @@ SVGSVGElement
 *
 viewportElement
 =
-const_cast
-<
-nsSVGElement
-*
->
-(
 aElement
-)
 -
 >
 GetCtx
