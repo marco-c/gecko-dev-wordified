@@ -751,6 +751,8 @@ nsRect
 aClipRect
 )
 {
+/
+/
 qDebug
 (
 "
@@ -1184,6 +1186,8 @@ case
 NS_THEME_RADIO_SMALL
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1232,6 +1236,8 @@ case
 NS_THEME_CHECKBOX_SMALL
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1277,6 +1283,8 @@ case
 NS_THEME_SCROLLBAR
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1317,6 +1325,8 @@ case
 NS_THEME_SCROLLBAR_TRACK_HORIZONTAL
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1357,6 +1367,8 @@ case
 NS_THEME_SCROLLBAR_TRACK_VERTICAL
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1397,6 +1409,8 @@ case
 NS_THEME_SCROLLBAR_BUTTON_LEFT
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1421,6 +1435,8 @@ case
 NS_THEME_SCROLLBAR_BUTTON_UP
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1466,6 +1482,8 @@ case
 NS_THEME_SCROLLBAR_BUTTON_RIGHT
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1490,6 +1508,8 @@ case
 NS_THEME_SCROLLBAR_BUTTON_DOWN
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1545,6 +1565,8 @@ case
 NS_THEME_SCROLLBAR_THUMB_HORIZONTAL
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1569,6 +1591,8 @@ case
 NS_THEME_SCROLLBAR_THUMB_VERTICAL
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1613,6 +1637,8 @@ break
 case
 NS_THEME_BUTTON_BEVEL
 :
+/
+/
 qDebug
 (
 "
@@ -1645,6 +1671,8 @@ case
 NS_THEME_BUTTON
 :
 {
+/
+/
 qDebug
 (
 "
@@ -1703,6 +1731,8 @@ break
 case
 NS_THEME_DROPDOWN
 :
+/
+/
 qDebug
 (
 "
@@ -1736,6 +1766,8 @@ break
 case
 NS_THEME_DROPDOWN_BUTTON
 :
+/
+/
 qDebug
 (
 "
@@ -1800,6 +1832,8 @@ NS_THEME_DROPDOWN_TEXT
 case
 NS_THEME_DROPDOWN_TEXTFIELD
 :
+/
+/
 qDebug
 (
 "
@@ -1819,6 +1853,8 @@ case
 NS_THEME_LISTBOX
 :
 {
+/
+/
 qDebug
 (
 "
@@ -2928,6 +2964,25 @@ PR_TRUE
 ;
 default
 :
+/
+/
+qDebug
+(
+"
+%
+s
+:
+Widget
+type
+%
+d
+not
+implemented
+"
+__PRETTY_FUNCTION__
+aWidgetType
+)
+;
 break
 ;
 }
