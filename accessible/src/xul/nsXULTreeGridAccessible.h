@@ -932,13 +932,8 @@ PRInt32
 GetIndexInParent
 (
 )
-{
-return
-GetColumnIndex
-(
-)
+const
 ;
-}
 /
 /
 nsXULTreeGridCellAccessible

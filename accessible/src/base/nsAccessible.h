@@ -1905,6 +1905,7 @@ PRInt32
 GetIndexInParent
 (
 )
+const
 ;
 /
 *
