@@ -1954,6 +1954,8 @@ vector
 "
 )
 ;
+return
+;
 }
 }
 JS_ASSERT

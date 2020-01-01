@@ -3046,7 +3046,7 @@ cx
 JSObject
 *
 obj
-uint32
+size_t
 slotid
 js
 :
@@ -3067,7 +3067,7 @@ cx
 JSObject
 *
 obj
-uint32
+size_t
 slotid
 js
 :

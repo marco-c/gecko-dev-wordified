@@ -1678,6 +1678,14 @@ obj
 {
 JS_ASSERT
 (
+obj
+!
+=
+NULL
+)
+;
+JS_ASSERT
+(
 (
 (
 size_t
