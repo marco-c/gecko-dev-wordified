@@ -5947,9 +5947,6 @@ nsDocAccessible
 :
 ScrollPositionWillChange
 (
-nsIScrollableView
-*
-aView
 nscoord
 aX
 nscoord
@@ -5966,9 +5963,6 @@ nsDocAccessible
 :
 ScrollPositionDidChange
 (
-nsIScrollableView
-*
-aScrollableView
 nscoord
 aX
 nscoord

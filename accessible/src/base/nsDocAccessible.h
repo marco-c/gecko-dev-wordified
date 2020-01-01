@@ -658,9 +658,6 @@ nsIScrollPositionListener
 NS_IMETHOD
 ScrollPositionWillChange
 (
-nsIScrollableView
-*
-aView
 nscoord
 aX
 nscoord
@@ -671,9 +668,6 @@ virtual
 void
 ViewPositionDidChange
 (
-nsIScrollableView
-*
-aScrollable
 nsTArray
 <
 nsIWidget
@@ -689,9 +683,6 @@ aConfigurations
 NS_IMETHOD
 ScrollPositionDidChange
 (
-nsIScrollableView
-*
-aView
 nscoord
 aX
 nscoord

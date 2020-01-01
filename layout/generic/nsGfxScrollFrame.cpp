@@ -11187,9 +11187,6 @@ nsGfxScrollFrameInner
 :
 ScrollPositionWillChange
 (
-nsIScrollableView
-*
-aScrollable
 nscoord
 aX
 nscoord
@@ -11354,9 +11351,6 @@ nsGfxScrollFrameInner
 :
 ViewPositionDidChange
 (
-nsIScrollableView
-*
-aScrollable
 nsTArray
 <
 nsIWidget
@@ -11544,9 +11538,6 @@ nsGfxScrollFrameInner
 :
 ScrollPositionDidChange
 (
-nsIScrollableView
-*
-aScrollable
 nscoord
 aX
 nscoord
