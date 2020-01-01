@@ -892,6 +892,10 @@ mZs
 .
 next_in
 =
+(
+Bytef
+*
+)
 aJar
 -
 >
