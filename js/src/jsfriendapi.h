@@ -4305,12 +4305,12 @@ cpp
 /
 typedef
 enum
-NukedGlobalHandling
+NukeReferencesToWindow
 {
-NukeForGlobalObject
-DontNukeForGlobalObject
+NukeWindowReferences
+DontNukeWindowReferences
 }
-NukedGlobalHandling
+NukeReferencesToWindow
 ;
 /
 /
@@ -4541,8 +4541,8 @@ const
 CompartmentFilter
 &
 targetFilter
-NukedGlobalHandling
-nukeGlobal
+NukeReferencesToWindow
+nukeReferencesToWindow
 )
 ;
 }
