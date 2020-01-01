@@ -3836,6 +3836,9 @@ null
 )
 {
 Iterator
+<
+File
+>
 cacheFiles
 =
 Arrays
@@ -3861,9 +3864,6 @@ hasNext
 File
 libFile
 =
-(
-File
-)
 cacheFiles
 .
 next
