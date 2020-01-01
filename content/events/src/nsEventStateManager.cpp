@@ -13785,6 +13785,7 @@ getter_AddRefs
 (
 transArray
 )
+dragTarget
 )
 ;
 if

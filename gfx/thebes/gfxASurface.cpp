@@ -4106,6 +4106,7 @@ NS_ConvertASCIItoUTF16
 (
 string
 )
+nsnull
 )
 ;
 }

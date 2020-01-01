@@ -189,6 +189,7 @@ nsIClipboardHelper
 copyString
 (
 url
+document
 )
 ;
 }

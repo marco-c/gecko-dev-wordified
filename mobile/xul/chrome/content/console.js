@@ -1870,6 +1870,7 @@ getAttribute
 msg
 "
 )
+document
 )
 ;
 }

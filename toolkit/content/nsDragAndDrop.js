@@ -1006,7 +1006,9 @@ interfaces
 .
 nsITransferable
 ;
-return
+var
+trans
+=
 Components
 .
 classes
@@ -1018,6 +1020,16 @@ createInstance
 (
 kXferableIID
 )
+;
+trans
+.
+init
+(
+null
+)
+;
+return
+trans
 ;
 }
 }

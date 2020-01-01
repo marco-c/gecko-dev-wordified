@@ -189,6 +189,7 @@ clipboardHelper
 copyString
 (
 stringToCopy
+document
 )
 ;
 }

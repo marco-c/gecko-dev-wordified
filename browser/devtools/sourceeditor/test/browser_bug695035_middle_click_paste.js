@@ -398,6 +398,9 @@ clipboardHelper
 copyStringToClipboard
 (
 expectedString
+testWin
+.
+document
 Ci
 .
 nsIClipboard

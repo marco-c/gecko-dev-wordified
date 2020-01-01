@@ -2313,6 +2313,7 @@ clipboard
 copyString
 (
 password
+document
 )
 ;
 }

@@ -3676,6 +3676,7 @@ prefCol
 pref
 .
 valueCol
+document
 )
 ;
 }
@@ -3698,6 +3699,7 @@ currentIndex
 ]
 .
 prefCol
+document
 )
 ;
 }
@@ -3720,6 +3722,7 @@ currentIndex
 ]
 .
 valueCol
+document
 )
 ;
 }

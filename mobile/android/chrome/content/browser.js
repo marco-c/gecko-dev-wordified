@@ -11659,6 +11659,9 @@ clipboard
 copyString
 (
 selectedText
+element
+.
+ownerDocument
 )
 ;
 NativeWindow
@@ -35724,6 +35727,9 @@ clipboardHelper
 copyString
 (
 string
+aElement
+.
+ownerDocument
 )
 ;
 }
@@ -35738,6 +35744,9 @@ copyString
 aElement
 .
 value
+aElement
+.
+ownerDocument
 )
 ;
 }

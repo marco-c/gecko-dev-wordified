@@ -314,6 +314,7 @@ cbHelper
 copyString
 (
 kTestString
+document
 )
 ;
 }

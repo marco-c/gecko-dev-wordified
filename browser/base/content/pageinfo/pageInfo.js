@@ -8910,6 +8910,7 @@ join
 n
 "
 )
+document
 )
 ;
 }
