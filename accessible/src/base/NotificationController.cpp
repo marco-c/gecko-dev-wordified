@@ -5005,7 +5005,10 @@ mNode
 aEvent
 -
 >
-GetDocAccessible
+mAccessible
+-
+>
+GetWeakShell
 (
 )
 )

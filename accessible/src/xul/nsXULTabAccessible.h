@@ -500,9 +500,9 @@ nsXULTabAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -606,9 +606,9 @@ nsXULTabsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -686,9 +686,9 @@ nsXULTabpanelsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -812,9 +812,9 @@ nsXULTabpanelAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /

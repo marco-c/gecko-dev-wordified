@@ -1862,7 +1862,7 @@ event
 mLastTextAccessible
 -
 >
-Document
+GetDocAccessible
 (
 )
 -
@@ -2006,7 +2006,7 @@ event
 textAcc
 -
 >
-Document
+GetDocAccessible
 (
 )
 -

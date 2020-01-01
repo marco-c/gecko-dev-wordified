@@ -623,9 +623,9 @@ AtkSocketAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 const
 nsCString
 &

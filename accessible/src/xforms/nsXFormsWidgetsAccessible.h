@@ -514,9 +514,9 @@ nsXFormsDropmarkerWidgetAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -609,9 +609,9 @@ nsXFormsCalendarWidgetAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -667,9 +667,9 @@ nsXFormsComboboxPopupWidgetAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /

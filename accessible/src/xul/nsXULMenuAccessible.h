@@ -493,9 +493,9 @@ nsXULMenuitemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -656,9 +656,9 @@ nsXULMenuSeparatorAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -748,9 +748,9 @@ nsXULMenupopupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -842,9 +842,9 @@ nsXULMenubarAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /

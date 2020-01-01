@@ -496,9 +496,9 @@ nsXULListboxAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
@@ -543,9 +543,9 @@ nsXULListCellAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
