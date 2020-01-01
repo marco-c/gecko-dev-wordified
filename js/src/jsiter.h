@@ -427,6 +427,14 @@ NativeIterator
 ni
 )
 ;
+size_t
+sizeOfMisc
+(
+JSMallocSizeOfFun
+mallocSizeOf
+)
+const
+;
 private
 :
 static
