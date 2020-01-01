@@ -7305,6 +7305,17 @@ DestroyFrame
 aRow
 )
 ;
+if
+(
+overflows
+-
+>
+IsEmpty
+(
+)
+)
+return
+;
 /
 /
 Put
