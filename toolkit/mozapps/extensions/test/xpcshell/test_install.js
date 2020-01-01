@@ -550,7 +550,7 @@ rdf
 )
 )
 ;
-do_check_eq
+do_check_neq
 (
 install
 .
