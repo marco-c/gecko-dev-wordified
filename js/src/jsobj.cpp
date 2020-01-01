@@ -10805,8 +10805,6 @@ vp
 )
 ;
 }
-}
-static
 bool
 GetFirstArgumentAsObject
 (
@@ -10933,6 +10931,13 @@ return
 true
 ;
 }
+}
+/
+*
+namespace
+js
+*
+/
 static
 JSBool
 obj_getOwnPropertyDescriptor

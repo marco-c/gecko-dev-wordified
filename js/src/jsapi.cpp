@@ -10563,6 +10563,15 @@ TYPE_UINT8_CLAMPED
 )
 }
 {
+js_InitTypedArrayClasses
+EAGER_CLASS_ATOM
+(
+DataView
+)
+&
+DataViewClass
+}
+{
 js_InitWeakMapClass
 EAGER_ATOM_AND_CLASP
 (
