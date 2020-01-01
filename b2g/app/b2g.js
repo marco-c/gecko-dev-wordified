@@ -5526,7 +5526,7 @@ mem
 .
 log
 "
-true
+false
 )
 ;
 /
