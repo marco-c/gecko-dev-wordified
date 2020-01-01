@@ -820,7 +820,7 @@ class
 TextureClient
 :
 public
-RefCounted
+AtomicRefCounted
 <
 TextureClient
 >
