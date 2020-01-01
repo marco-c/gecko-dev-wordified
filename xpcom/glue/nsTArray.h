@@ -7142,14 +7142,6 @@ Length
 return
 ;
 }
-elem_type
-*
-elem
-=
-Elements
-(
-)
-;
 index_type
 index
 =
