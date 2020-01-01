@@ -154,16 +154,16 @@ Software
 Foundation
 Inc
 .
-51
-Franklin
-Street
+59
+Temple
+Place
 Suite
-500
+330
 Boston
 MA
-02110
+02111
 -
-1335
+1307
 USA
 *
 You
@@ -392,7 +392,6 @@ endif
 define
 WIN32_FONT_LOGICAL_SCALE
 1
-CAIRO_BEGIN_DECLS
 typedef
 struct
 _cairo_win32_surface
@@ -1260,6 +1259,7 @@ endif
 #
 ifdef
 CAIRO_HAS_DWRITE_FONT
+CAIRO_BEGIN_DECLS
 cairo_int_status_t
 _cairo_dwrite_show_glyphs_on_surface
 (
@@ -1297,6 +1297,7 @@ cairo_scaled_font_t
 new_font
 )
 ;
+CAIRO_END_DECLS
 #
 endif
 /
@@ -1304,7 +1305,6 @@ endif
 CAIRO_HAS_DWRITE_FONT
 *
 /
-CAIRO_END_DECLS
 #
 endif
 /
