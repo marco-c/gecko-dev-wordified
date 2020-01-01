@@ -866,6 +866,16 @@ port
 )
 ;
 }
+/
+/
+OK
+to
+treat
+this
+as
+an
+infalible
+allocation
 nsHttpConnectionInfo
 *
 Clone
