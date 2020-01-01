@@ -6493,7 +6493,7 @@ Elements
 .
 browserBundle
 ;
-var
+let
 alerts
 =
 Cc
