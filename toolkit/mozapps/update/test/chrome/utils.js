@@ -1250,11 +1250,11 @@ userdisabled_2
 const
 TEST_TIMEOUT
 =
-20000
+25000
 ;
 /
 /
-20
+25
 seconds
 var
 gTimeoutTimer
