@@ -809,8 +809,8 @@ weave
 /
 content
 /
-fx
--
+firefox
+/
 tabs
 .
 xul
