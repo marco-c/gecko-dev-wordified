@@ -31048,10 +31048,9 @@ JSGC_MAX_BYTES
 #
 ifdef
 JSGC_GENERATIONAL
-JS_SetGCParameter
+if
 (
-rt
-JSGC_ENABLE_GENERATIONAL
+!
 op
 .
 getBoolOption
@@ -31060,6 +31059,13 @@ getBoolOption
 ggc
 "
 )
+)
+JS
+:
+:
+DisableGenerationalGC
+(
+rt
 )
 ;
 #
