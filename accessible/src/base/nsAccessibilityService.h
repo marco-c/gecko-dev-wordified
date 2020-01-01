@@ -487,6 +487,9 @@ nsWeakReference
 h
 "
 class
+nsAccessNode
+;
+class
 nsIFrame
 ;
 class
@@ -829,10 +832,8 @@ DOM
 node
 *
 /
-already_AddRefed
-<
-nsIAccessNode
->
+nsAccessNode
+*
 GetCachedAccessNode
 (
 nsIDOMNode

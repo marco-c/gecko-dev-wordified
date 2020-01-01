@@ -1881,9 +1881,9 @@ pszValue
 struct
 nsSearchAccessibleInCacheArg
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessNode
+nsAccessNode
 >
 mAccessNode
 ;
@@ -1901,7 +1901,7 @@ const
 void
 *
 aKey
-nsIAccessNode
+nsAccessNode
 *
 aAccessNode
 void
@@ -1974,10 +1974,8 @@ nsSearchAccessibleInCacheArg
 aUserArg
 )
 ;
-nsCOMPtr
-<
-nsIAccessNode
->
+nsAccessNode
+*
 accessNode
 =
 docAccessible
@@ -2122,6 +2120,10 @@ CallQueryInterface
 arg
 .
 mAccessNode
+.
+get
+(
+)
 aAccessible
 )
 ;

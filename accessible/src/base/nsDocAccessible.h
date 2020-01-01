@@ -1111,10 +1111,8 @@ node
 object
 *
 /
-already_AddRefed
-<
-nsIAccessNode
->
+nsAccessNode
+*
 GetCachedAccessNode
 (
 void
@@ -1127,6 +1125,7 @@ aUniqueID
 *
 *
 Cache
+the
 access
 node
 .
@@ -1159,7 +1158,7 @@ CacheAccessNode
 void
 *
 aUniqueID
-nsIAccessNode
+nsAccessNode
 *
 aAccessNode
 )
