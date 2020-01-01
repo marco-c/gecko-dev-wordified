@@ -110,6 +110,15 @@ h
 #
 include
 "
+DocAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 EnumVariant
 .
 h
