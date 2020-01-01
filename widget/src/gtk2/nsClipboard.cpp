@@ -2494,7 +2494,7 @@ j
 if
 (
 !
-g_strcmp0
+strcmp
 (
 atom_name
 aFlavorList
@@ -2523,7 +2523,7 @@ jpg
 if
 (
 !
-g_strcmp0
+strcmp
 (
 aFlavorList
 [
@@ -2534,7 +2534,7 @@ kJPEGImageMime
 &
 &
 !
-g_strcmp0
+strcmp
 (
 atom_name
 "
