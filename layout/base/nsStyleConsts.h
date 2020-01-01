@@ -530,6 +530,13 @@ var_
 /
 {
 margin
+border
+-
+{
+width
+style
+color
+}
 padding
 }
 -
