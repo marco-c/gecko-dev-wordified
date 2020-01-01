@@ -1267,6 +1267,7 @@ aType
 aMessage
 aPageURI
 aManifestURI
+aExtra
 )
 {
 /
@@ -1328,6 +1329,9 @@ aPageURI
 manifestURI
 :
 aManifestURI
+extra
+:
+aExtra
 }
 )
 ;
@@ -1409,6 +1413,19 @@ spec
 aManifestURI
 .
 spec
++
+'
+;
+extra
+:
+'
++
+JSON
+.
+stringify
+(
+aExtra
+)
 )
 ;
 let
@@ -1427,6 +1444,7 @@ spec
 aManifestURI
 .
 spec
+aExtra
 )
 ;
 debug
@@ -1553,6 +1571,7 @@ _openAppPage
 (
 page
 aMessage
+aExtra
 )
 ;
 }
@@ -1565,6 +1584,7 @@ broadcastMessage
 (
 aType
 aMessage
+aExtra
 )
 {
 /
@@ -1620,6 +1640,9 @@ aType
 msg
 :
 aMessage
+extra
+:
+aExtra
 }
 )
 ;
@@ -1686,6 +1709,19 @@ stringify
 (
 aMessage
 )
++
+'
+;
+extra
+=
+'
++
+JSON
+.
+stringify
+(
+aExtra
+)
 )
 ;
 /
@@ -1737,6 +1773,7 @@ uri
 aPage
 .
 manifest
+aExtra
 )
 ;
 debug
@@ -1835,6 +1872,7 @@ _openAppPage
 (
 aPage
 aMessage
+aExtra
 )
 ;
 }
@@ -3546,6 +3584,9 @@ pageURI
 aSysMsg
 .
 manifestURI
+aSysMsg
+.
+extra
 )
 ;
 break
@@ -3565,6 +3606,9 @@ type
 aSysMsg
 .
 msg
+aSysMsg
+.
+extra
 )
 ;
 break
@@ -3680,6 +3724,7 @@ _openAppPage
 (
 aPage
 aMessage
+aExtra
 )
 {
 /
@@ -3716,6 +3761,9 @@ type
 aPage
 .
 type
+extra
+:
+aExtra
 target
 :
 aMessage
@@ -3954,6 +4002,7 @@ aMessage
 aMessageID
 aPageURI
 aManifestURI
+aExtra
 )
 {
 /

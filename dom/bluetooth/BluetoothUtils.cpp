@@ -846,6 +846,12 @@ OBJECT_TO_JSVAL
 (
 obj
 )
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 ;
 return
