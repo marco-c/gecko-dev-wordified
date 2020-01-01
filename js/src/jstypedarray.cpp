@@ -2436,7 +2436,7 @@ sizeof
 ObjectElements
 )
 <
-AsmJSPageSize
+PageSize
 )
 ;
 JS_STATIC_ASSERT
@@ -2444,7 +2444,7 @@ JS_STATIC_ASSERT
 AsmJSAllocationGranularity
 =
 =
-AsmJSPageSize
+PageSize
 )
 ;
 static
@@ -2452,7 +2452,7 @@ const
 size_t
 AsmJSMappedSize
 =
-AsmJSPageSize
+PageSize
 +
 AsmJSBufferProtectedSize
 ;
@@ -2586,7 +2586,7 @@ if
 VirtualAlloc
 (
 p
-AsmJSPageSize
+PageSize
 +
 buffer
 -
@@ -2617,7 +2617,7 @@ if
 mprotect
 (
 p
-AsmJSPageSize
+PageSize
 +
 buffer
 -
@@ -2668,7 +2668,7 @@ uint8_t
 p
 )
 +
-AsmJSPageSize
+PageSize
 ;
 memcpy
 (
@@ -2853,7 +2853,7 @@ dataPointer
 (
 )
 -
-AsmJSPageSize
+PageSize
 ;
 JS_ASSERT
 (
@@ -2862,7 +2862,7 @@ uintptr_t
 p
 )
 %
-AsmJSPageSize
+PageSize
 =
 =
 0

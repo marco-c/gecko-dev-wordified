@@ -161,9 +161,6 @@ allocation
 void
 InitMemorySubsystem
 (
-JSRuntime
-*
-rt
 )
 ;
 /
@@ -184,9 +181,6 @@ void
 *
 MapAlignedPages
 (
-JSRuntime
-*
-rt
 size_t
 size
 size_t
@@ -196,9 +190,6 @@ alignment
 void
 UnmapPages
 (
-JSRuntime
-*
-rt
 void
 *
 p
@@ -246,9 +237,6 @@ platforms
 bool
 MarkPagesUnused
 (
-JSRuntime
-*
-rt
 void
 *
 p
@@ -300,9 +288,6 @@ platforms
 bool
 MarkPagesInUse
 (
-JSRuntime
-*
-rt
 void
 *
 p

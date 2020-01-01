@@ -5916,6 +5916,10 @@ endif
 DEBUG
 *
 /
+InitMemorySubsystem
+(
+)
+;
 if
 (
 !
