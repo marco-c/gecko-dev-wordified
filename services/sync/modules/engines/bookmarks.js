@@ -4077,11 +4077,11 @@ record
 id
 )
 ;
-this
+Svc
 .
-_bms
+Bookmark
 .
-removeFolder
+removeItem
 (
 itemId
 )
