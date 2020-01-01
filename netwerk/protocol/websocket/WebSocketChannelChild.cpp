@@ -1554,6 +1554,13 @@ SendPWebSocketConstructor
 (
 this
 tabChild
+IPC
+:
+:
+SerializedLoadContext
+(
+this
+)
 )
 ;
 if
@@ -1568,13 +1575,6 @@ aOrigin
 )
 mProtocol
 mEncrypted
-IPC
-:
-:
-SerializedLoadContext
-(
-this
-)
 )
 )
 return

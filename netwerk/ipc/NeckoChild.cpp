@@ -592,6 +592,13 @@ NeckoChild
 :
 AllocPFTPChannel
 (
+PBrowserChild
+*
+aBrowser
+const
+SerializedLoadContext
+&
+aSerialized
 )
 {
 /
@@ -857,6 +864,10 @@ AllocPWebSocket
 PBrowserChild
 *
 browser
+const
+SerializedLoadContext
+&
+aSerialized
 )
 {
 NS_NOTREACHED
