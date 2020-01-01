@@ -39,7 +39,7 @@ myparent
 trap
 (
 myparent
-50
+49
 "
 success
 (

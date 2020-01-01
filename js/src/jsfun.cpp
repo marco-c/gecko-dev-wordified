@@ -14857,10 +14857,6 @@ cx
 JSFunction
 *
 fun
-JSOp
-op
-size_t
-oplen
 )
 {
 /

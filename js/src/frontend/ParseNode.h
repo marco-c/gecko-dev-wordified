@@ -9146,13 +9146,6 @@ JSObject
 *
 object
 ;
-ObjectBox
-*
-parent
-;
-uintN
-index
-;
 bool
 isFunctionBox
 ;

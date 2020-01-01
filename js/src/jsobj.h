@@ -6144,7 +6144,7 @@ chain
 inline
 JSObject
 *
-getStaticBlockScopeChain
+staticBlockScopeChain
 (
 )
 const
