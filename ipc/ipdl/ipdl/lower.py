@@ -24698,6 +24698,15 @@ aDump
 '
 )
             
+seqvar
+=
+ExprVar
+(
+'
+aSequence
+'
+)
+            
 getdump
 =
 MethodDefn
@@ -24724,6 +24733,16 @@ ptrptr
 1
 )
 dumpvar
+.
+name
+)
+                         
+Decl
+(
+Type
+.
+UINT32PTR
+seqvar
 .
 name
 )
@@ -24777,6 +24796,7 @@ ExprCall
 otherpidvar
 )
 dumpvar
+seqvar
 ]
 )
 )
