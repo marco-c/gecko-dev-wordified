@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsPILoadGroupInternal
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h
@@ -213,6 +220,8 @@ public
 nsISupportsPriority
 public
 nsSupportsWeakReference
+public
+nsPILoadGroupInternal
 {
 public
 :
@@ -381,6 +390,7 @@ nsILoadGroup
 methods
 :
 NS_DECL_NSILOADGROUP
+NS_DECL_NSPILOADGROUPINTERNAL
 /
 /
 /
@@ -751,6 +761,15 @@ mTimedRequests
 ;
 uint32_t
 mCachedRequests
+;
+/
+*
+For
+nsPILoadGroupInternal
+*
+/
+uint32_t
+mTimedNonCachedRequestsUntilOnEndPageLoad
 ;
 }
 ;
