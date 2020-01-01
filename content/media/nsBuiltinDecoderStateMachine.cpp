@@ -15935,6 +15935,9 @@ ToSeconds
 )
 )
 ;
+#
+ifdef
+PR_LOGGING
 nsMediaDecoder
 :
 :
@@ -15948,6 +15951,8 @@ GetStatistics
 (
 )
 ;
+#
+endif
 LOG
 (
 PR_LOG_DEBUG

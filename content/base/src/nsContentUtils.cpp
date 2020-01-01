@@ -2911,7 +2911,10 @@ nsIStringBundle
 >
 bundle
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 NS_OK
