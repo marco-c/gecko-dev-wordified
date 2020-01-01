@@ -1684,13 +1684,13 @@ nsAccEvent
 >
 CreateTextChangeEventForNode
 (
-nsIAccessible
+nsAccessible
 *
 aContainerAccessible
 nsIDOMNode
 *
 aNode
-nsIAccessible
+nsAccessible
 *
 aAccessible
 PRBool
