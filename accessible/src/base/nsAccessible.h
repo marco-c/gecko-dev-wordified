@@ -563,9 +563,6 @@ nsHTMLImageMapAccessible
 class
 nsHTMLLIAccessible
 ;
-struct
-nsRoleMapEntry
-;
 class
 Relation
 ;
