@@ -1115,6 +1115,13 @@ DOPROF
 ifndef
 DOPROF
 #
+define
+_nvprof
+(
+e
+v
+)
+#
 ifndef
 VMCFG_SYMBIAN
 #
@@ -1125,13 +1132,6 @@ v
 .
 .
 .
-)
-#
-define
-_nvprof
-(
-e
-v
 )
 #
 define
