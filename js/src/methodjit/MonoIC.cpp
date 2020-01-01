@@ -1538,16 +1538,6 @@ MICInfo
 :
 SET_DATA_TYPE_OFFSET
 ;
-if
-(
-mic
-.
-u
-.
-name
-.
-dataWrite
-)
 stores
 .
 repatch
