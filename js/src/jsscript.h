@@ -4642,15 +4642,6 @@ analysis
 (
 )
 ;
-inline
-bool
-isAboutToBeFinalized
-(
-JSContext
-*
-cx
-)
-;
 private
 :
 bool
