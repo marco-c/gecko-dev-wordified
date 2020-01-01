@@ -1172,7 +1172,7 @@ template
 struct
 TypeToDataType
 <
-JSFixedString
+JSFlatString
 *
 >
 {
@@ -3217,7 +3217,7 @@ MutableHandleValue
 rval
 )
 ;
-JSFixedString
+JSFlatString
 *
 StringFromCharCode
 (

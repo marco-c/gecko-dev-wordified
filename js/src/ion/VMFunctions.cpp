@@ -2078,7 +2078,7 @@ return
 true
 ;
 }
-JSFixedString
+JSFlatString
 *
 StringFromCharCode
 (

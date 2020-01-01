@@ -7104,14 +7104,14 @@ str
 {
 if
 (
-JSFixedString
+JSStableString
 *
-fixed
+stable
 =
 str
 -
 >
-ensureFixed
+ensureStable
 (
 cx
 )
@@ -7120,7 +7120,7 @@ report
 .
 ucmessage
 =
-fixed
+stable
 -
 >
 chars

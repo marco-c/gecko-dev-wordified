@@ -245,9 +245,6 @@ js_parseInt_str
 class
 JSString
 ;
-class
-JSFixedString
-;
 /
 *
 *
@@ -316,7 +313,7 @@ namespace
 js
 {
 extern
-JSFixedString
+JSFlatString
 *
 Int32ToString
 (
@@ -383,7 +380,7 @@ signature
 *
 /
 extern
-JSFixedString
+JSFlatString
 *
 NumberToString
 (
@@ -395,7 +392,7 @@ d
 )
 ;
 extern
-JSFixedString
+JSFlatString
 *
 IndexToString
 (

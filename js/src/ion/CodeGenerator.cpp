@@ -1449,7 +1449,7 @@ lir
 )
 {
 typedef
-JSFixedString
+JSFlatString
 *
 (
 *
@@ -14207,7 +14207,7 @@ output
 )
 ;
 typedef
-JSFixedString
+JSFlatString
 *
 (
 *

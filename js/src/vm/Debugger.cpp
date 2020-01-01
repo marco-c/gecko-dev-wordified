@@ -23759,10 +23759,10 @@ false
 }
 Rooted
 <
-JSLinearString
+JSStableString
 *
 >
-linearStr
+stable
 (
 cx
 code
@@ -23772,7 +23772,7 @@ toString
 )
 -
 >
-ensureLinear
+ensureStable
 (
 cx
 )
@@ -23781,7 +23781,7 @@ cx
 if
 (
 !
-linearStr
+stable
 )
 return
 false
@@ -24197,7 +24197,7 @@ JSString
 >
 anchor
 (
-linearStr
+stable
 )
 ;
 bool
@@ -24208,13 +24208,13 @@ EvaluateInEnv
 cx
 env
 fp
-linearStr
+stable
 -
 >
 chars
 (
 )
-linearStr
+stable
 -
 >
 length

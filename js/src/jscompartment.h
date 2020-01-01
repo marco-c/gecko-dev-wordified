@@ -284,7 +284,7 @@ d
 int
 base
 ;
-JSFixedString
+JSFlatString
 *
 s
 ;
@@ -323,7 +323,7 @@ s
 NULL
 ;
 }
-JSFixedString
+JSFlatString
 *
 lookup
 (
@@ -372,7 +372,7 @@ int
 base
 double
 d
-JSFixedString
+JSFlatString
 *
 s
 )

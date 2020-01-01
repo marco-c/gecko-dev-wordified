@@ -3529,7 +3529,7 @@ dbuf
 )
 ;
 }
-JSFixedString
+JSFlatString
 *
 js
 :
@@ -3622,7 +3622,7 @@ compartment
 ;
 if
 (
-JSFixedString
+JSFlatString
 *
 str
 =
@@ -8031,7 +8031,7 @@ numStr
 )
 ;
 }
-JSFixedString
+JSFlatString
 *
 s
 =
@@ -8080,7 +8080,7 @@ d
 namespace
 js
 {
-JSFixedString
+JSFlatString
 *
 NumberToString
 (
@@ -8109,7 +8109,7 @@ return
 str
 -
 >
-asFixed
+asFlat
 (
 )
 ;
@@ -8117,7 +8117,7 @@ return
 NULL
 ;
 }
-JSFixedString
+JSFlatString
 *
 IndexToString
 (
@@ -8163,7 +8163,7 @@ compartment
 ;
 if
 (
-JSFixedString
+JSFlatString
 *
 str
 =

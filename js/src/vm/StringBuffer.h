@@ -706,7 +706,7 @@ buffer
 .
 *
 /
-JSFixedString
+JSFlatString
 *
 finishString
 (
