@@ -1685,8 +1685,16 @@ extraD
 )
 ;
 }
+#
+endif
+namespace
+mozilla
+{
+#
+ifdef
+XP_WIN
 PRInt32
-NS_CompareVersions
+CompareVersions
 (
 const
 PRUnichar
@@ -1814,7 +1822,7 @@ result
 #
 endif
 PRInt32
-NS_CompareVersions
+CompareVersions
 (
 const
 char
@@ -1939,3 +1947,8 @@ return
 result
 ;
 }
+}
+/
+/
+namespace
+mozilla

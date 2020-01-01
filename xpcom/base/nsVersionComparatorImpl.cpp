@@ -436,7 +436,10 @@ aResult
 *
 aResult
 =
-NS_CompareVersions
+mozilla
+:
+:
+CompareVersions
 (
 PromiseFlatCString
 (

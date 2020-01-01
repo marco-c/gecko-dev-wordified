@@ -2404,7 +2404,10 @@ eOK
 PRInt32
 c
 =
-NS_CompareVersions
+mozilla
+:
+:
+CompareVersions
 (
 NS_ConvertUTF16toUTF8
 (
