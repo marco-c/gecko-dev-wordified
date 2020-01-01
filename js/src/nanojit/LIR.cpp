@@ -6888,6 +6888,9 @@ StackFilter
 LirFilter
 *
 in
+GC
+*
+gc
 LirBuffer
 *
 lirbuf
@@ -6898,6 +6901,10 @@ sp
 LirFilter
 (
 in
+)
+gc
+(
+gc
 )
 lirbuf
 (
@@ -7051,6 +7058,7 @@ stk
 .
 set
 (
+gc
 d
 )
 ;
@@ -7058,6 +7066,7 @@ stk
 .
 set
 (
+gc
 d
 -
 1
@@ -7088,6 +7097,7 @@ stk
 .
 set
 (
+gc
 d
 )
 ;
@@ -10357,6 +10367,7 @@ sf
 (
 &
 br
+gc
 frag
 -
 >
@@ -10375,6 +10386,7 @@ r
 (
 &
 sf
+gc
 frag
 -
 >

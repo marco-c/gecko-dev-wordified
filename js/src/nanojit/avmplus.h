@@ -4823,6 +4823,9 @@ i
 void
 set
 (
+GC
+*
+gc
 int
 bitNbr
 )
@@ -4850,6 +4853,7 @@ capacity
 )
 grow
 (
+gc
 index
 +
 1
@@ -5067,6 +5071,9 @@ big
 void
 grow
 (
+GC
+*
+gc
 int
 newCapacity
 )
