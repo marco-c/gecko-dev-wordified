@@ -374,9 +374,7 @@ test_file
 '
 default
 =
-'
-all
-'
+None
 nargs
 =
 '
@@ -445,9 +443,7 @@ test_file
 '
 default
 =
-'
-all
-'
+None
 nargs
 =
 '
@@ -518,9 +514,7 @@ test_file
 '
 default
 =
-'
-all
-'
+None
 nargs
 =
 '
