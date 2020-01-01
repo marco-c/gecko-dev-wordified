@@ -5858,7 +5858,7 @@ nsIPrincipal
 *
 principal
 bool
-preferXrays
+wantXrays
 JSObject
 *
 *
@@ -6044,7 +6044,7 @@ ToNewCString
 (
 local_origin
 )
-preferXrays
+wantXrays
 )
 ;
 JS_SetCompartmentPrivate
