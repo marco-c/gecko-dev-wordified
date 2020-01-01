@@ -1272,7 +1272,9 @@ msg
 type
 :
 "
-prompt
+Prompt
+:
+Show
 "
 }
 ;

@@ -10870,7 +10870,9 @@ type
 equals
 (
 "
-prompt
+Prompt
+:
+Show
 "
 )
 )
