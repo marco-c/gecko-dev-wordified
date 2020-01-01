@@ -10267,10 +10267,7 @@ running
 JS_THREADSAFE
 note
 :
-JSPropertyCache
-:
-:
-purgeForScript
+js_PurgePropertyCacheForScript
 purges
 only
 the
@@ -10452,12 +10449,7 @@ JSFRAME_EVAL
 )
 )
 {
-JS_PROPERTY_CACHE
-(
-cx
-)
-.
-purgeForScript
+js_PurgePropertyCacheForScript
 (
 cx
 script
