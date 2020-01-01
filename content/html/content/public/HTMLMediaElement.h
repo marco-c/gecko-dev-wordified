@@ -353,6 +353,9 @@ MediaDecoder
 class
 nsITimer
 ;
+class
+nsRange
+;
 namespace
 mozilla
 {
@@ -5094,9 +5097,9 @@ resource
 to
 load
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMRange
+nsRange
 >
 mSourcePointer
 ;
