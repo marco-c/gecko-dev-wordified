@@ -1391,9 +1391,6 @@ AudioSessionConduit
 >
 Create
 (
-AudioSessionConduit
-*
-aOther
 )
 ;
 virtual
