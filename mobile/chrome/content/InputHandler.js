@@ -3037,6 +3037,14 @@ sX
 sY
 )
 ;
+Browser
+.
+canvasBrowser
+.
+prepareForPanning
+(
+)
+;
 /
 /
 set
