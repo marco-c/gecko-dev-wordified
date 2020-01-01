@@ -102,7 +102,7 @@ mozilla_RegistryMessageUtils_h
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

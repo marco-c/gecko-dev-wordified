@@ -102,7 +102,7 @@ mozilla_dom_permission_message_utils_h__
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

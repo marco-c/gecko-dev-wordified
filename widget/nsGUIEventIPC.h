@@ -102,7 +102,7 @@ nsGUIEventIPC_h__
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

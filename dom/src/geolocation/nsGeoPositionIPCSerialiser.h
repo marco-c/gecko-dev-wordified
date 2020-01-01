@@ -65,7 +65,7 @@ dom_src_geolocation_IPC_serialiser
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

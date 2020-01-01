@@ -230,7 +230,7 @@ ISensorAccuracyObserver
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

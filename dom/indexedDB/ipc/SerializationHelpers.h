@@ -65,7 +65,7 @@ mozilla_dom_indexeddb_serializationhelpers_h__
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

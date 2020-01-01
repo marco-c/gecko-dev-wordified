@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .
