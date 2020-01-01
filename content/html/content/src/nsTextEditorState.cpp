@@ -8595,12 +8595,6 @@ do_QueryInterface
 mTextCtrlElement
 )
 ;
-NS_ENSURE_TRUE
-(
-content
-false
-)
-;
 nsGenericHTMLElement
 *
 element
@@ -8608,7 +8602,7 @@ element
 nsGenericHTMLElement
 :
 :
-FromContent
+FromContentOrNull
 (
 content
 )

@@ -426,7 +426,7 @@ mSelect
 nsHTMLSelectElement
 :
 :
-FromContent
+FromContentOrNull
 (
 aSelect
 )
