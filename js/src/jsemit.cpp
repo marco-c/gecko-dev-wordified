@@ -14300,6 +14300,9 @@ JSOP_NAME
 return
 JS_TRUE
 ;
+#
+ifdef
+DEBUG
 JSStackFrame
 *
 caller
@@ -14312,6 +14315,8 @@ compiler
 >
 callerFrame
 ;
+#
+endif
 JS_ASSERT
 (
 caller
