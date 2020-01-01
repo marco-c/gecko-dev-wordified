@@ -2365,6 +2365,7 @@ XPCCallContext
 :
 NewStringWrapper
 (
+const
 PRUnichar
 *
 str

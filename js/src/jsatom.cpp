@@ -4031,7 +4031,7 @@ cx
 ;
 str
 .
-initFlat
+initFlatNotTerminated
 (
 (
 jschar
@@ -4112,7 +4112,7 @@ c
 }
 str
 .
-initFlat
+initFlatNotTerminated
 (
 (
 jschar

@@ -7207,6 +7207,7 @@ XPCReadableJSStringWrapper
 *
 NewStringWrapper
 (
+const
 PRUnichar
 *
 str
