@@ -2128,6 +2128,15 @@ bool
 enabled
 )
 ;
+typedef
+bool
+(
+*
+PrefEnabled
+)
+(
+)
+;
 extern
 bool
 DefineStaticJSVals

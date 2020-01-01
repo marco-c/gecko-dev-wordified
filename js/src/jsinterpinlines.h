@@ -1892,9 +1892,11 @@ PropertyName
 *
 name
 ;
-JS_PROPERTY_CACHE
-(
 cx
+-
+>
+propertyCache
+(
 )
 .
 test
@@ -2119,9 +2121,11 @@ name
 ;
 if
 (
-JS_PROPERTY_CACHE
-(
 cx
+-
+>
+propertyCache
+(
 )
 .
 testForSet

@@ -462,7 +462,7 @@ aContext
 nsIInputStream
 *
 aStream
-uint32_t
+uint64_t
 aOffset
 uint32_t
 aLen
@@ -1856,7 +1856,7 @@ context
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count
@@ -4435,7 +4435,7 @@ return
 NS_OK
 ;
 }
-uint32_t
+uint64_t
 offset
 =
 mTotalSent

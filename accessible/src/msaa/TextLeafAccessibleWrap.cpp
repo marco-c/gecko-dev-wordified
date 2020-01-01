@@ -966,7 +966,7 @@ E_FAIL
 ;
 if
 (
-NS_FAILED
+FAILED
 (
 GetCharacterExtents
 (
@@ -981,7 +981,7 @@ aHeight
 )
 {
 return
-NS_ERROR_FAILURE
+E_FAIL
 ;
 }
 }
@@ -1222,7 +1222,7 @@ appropriately
 .
 *
 /
-nsresult
+HRESULT
 TextLeafAccessibleWrap
 :
 :
@@ -1291,7 +1291,7 @@ GetFrame
 NS_ENSURE_TRUE
 (
 frame
-NS_ERROR_FAILURE
+E_FAIL
 )
 ;
 nsPoint
@@ -1489,7 +1489,7 @@ sum
 height
 ;
 return
-NS_OK
+S_OK
 ;
 }
 STDMETHODIMP

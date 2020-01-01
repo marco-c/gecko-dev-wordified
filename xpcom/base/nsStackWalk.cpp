@@ -2788,7 +2788,7 @@ EnsureImageHlpInitialized
 )
 )
 return
-false
+NS_OK
 ;
 HANDLE
 targetThread

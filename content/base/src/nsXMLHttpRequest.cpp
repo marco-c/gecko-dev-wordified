@@ -1666,7 +1666,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count
@@ -9946,7 +9946,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count
@@ -20958,14 +20958,7 @@ aWindow
 {
 mInner
 =
-static_cast
-<
-nsDOMProgressEvent
-*
->
-(
 aInner
-)
 ;
 mCurProgress
 =
@@ -21054,10 +21047,9 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 nsXMLHttpProgressEvent
 )
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR_AMBIGUOUS
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
 mInner
-nsIDOMProgressEvent
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (

@@ -6567,9 +6567,11 @@ gcNumber
 =
 sample
 )
-JS_PROPERTY_CACHE
-(
 cx
+-
+>
+propertyCache
+(
 )
 .
 restore

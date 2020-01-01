@@ -505,7 +505,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count
@@ -677,11 +677,11 @@ x
 sourceOffset
 =
 %
-d
+llu
 count
 =
 %
-d
+u
 )
 \
 n

@@ -1314,6 +1314,14 @@ nsIDOMWindow
 )
 ;
 NS_IMETHOD
+GetTopFrameElement
+(
+nsIDOMElement
+*
+*
+)
+;
+NS_IMETHOD
 IsAppOfType
 (
 uint32_t

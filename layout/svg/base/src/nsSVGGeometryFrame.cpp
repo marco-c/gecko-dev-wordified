@@ -128,6 +128,13 @@ h
 #
 include
 "
+gfxSVGGlyphs
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

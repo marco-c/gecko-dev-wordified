@@ -213,7 +213,7 @@ aWillAddAttr
 )
 ;
 NS_DECL_ISUPPORTS
-nsresult
+void
 SetAndTakeAttr
 (
 nsIAtom

@@ -815,6 +815,12 @@ aContent
 the
 given
 element
+(
+must
+not
+be
+null
+)
 *
 return
 registered

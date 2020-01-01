@@ -4526,11 +4526,15 @@ MapCharToGlyph
 const
 uint8_t
 *
-aBuf
+aCmapBuf
 uint32_t
 aBufLength
 uint32_t
-aCh
+aUnicode
+uint32_t
+aVarSelector
+=
+0
 )
 ;
 #

@@ -1180,6 +1180,16 @@ mState
 &
 NS_STATE_SVG_NONDISPLAY_CHILD
 )
+|
+|
+PresContext
+(
+)
+-
+>
+IsGlyph
+(
+)
 "
 If
 display

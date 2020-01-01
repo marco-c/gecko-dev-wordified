@@ -530,7 +530,7 @@ content
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1126,7 +1126,7 @@ n2
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1197,7 +1197,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -12574,6 +12574,7 @@ inStr
 in
 unsigned
 long
+long
 sourceOffset
 in
 unsigned
@@ -12598,7 +12599,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count
@@ -13593,6 +13594,7 @@ inStr
 in
 unsigned
 long
+long
 sourceOffset
 in
 unsigned
@@ -13617,7 +13619,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count

@@ -470,7 +470,7 @@ NS_IMPL_ISUPPORTS1
 nsMappedAttributes
 nsIStyleRule
 )
-nsresult
+void
 nsMappedAttributes
 :
 :
@@ -572,7 +572,6 @@ aValue
 )
 ;
 return
-NS_OK
 ;
 }
 }
@@ -682,9 +681,6 @@ aValue
 +
 +
 mAttrCount
-;
-return
-NS_OK
 ;
 }
 const
