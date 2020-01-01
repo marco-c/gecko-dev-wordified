@@ -423,7 +423,7 @@ BLOCK
 #
 include
 "
-nsIFormSubmission
+nsFormSubmission
 .
 h
 "
