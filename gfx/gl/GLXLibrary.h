@@ -155,6 +155,10 @@ mIsATI
 (
 false
 )
+mIsNVIDIA
+(
+false
+)
 mClientIsMesa
 (
 false
@@ -942,6 +946,9 @@ mHasRobustness
 ;
 bool
 mIsATI
+;
+bool
+mIsNVIDIA
 ;
 bool
 mClientIsMesa
