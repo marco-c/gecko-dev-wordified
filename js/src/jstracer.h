@@ -949,6 +949,13 @@ atoms
 nanojit
 :
 :
+GuardRecord
+*
+anchor
+;
+nanojit
+:
+:
 Fragment
 *
 fragment
@@ -1081,9 +1088,6 @@ char
 prefix
 int
 index
-jsuword
-*
-localNames
 )
 ;
 void
@@ -1700,6 +1704,11 @@ TraceRecorder
 JSContext
 *
 cx
+nanojit
+:
+:
+GuardRecord
+*
 nanojit
 :
 :
