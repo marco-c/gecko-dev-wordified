@@ -214,6 +214,16 @@ aStartTime
 ;
 virtual
 bool
+IsSeekableInBufferedRanges
+(
+)
+{
+return
+true
+;
+}
+virtual
+bool
 HasAudio
 (
 )
