@@ -969,8 +969,6 @@ EnsureReadbackManager
 void
 Render
 (
-EndTransactionFlags
-aFlags
 )
 ;
 nsRefPtr

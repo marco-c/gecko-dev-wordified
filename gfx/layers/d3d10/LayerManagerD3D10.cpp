@@ -1781,7 +1781,6 @@ Log
 endif
 Render
 (
-aFlags
 )
 ;
 mCurrentCallbackInfo
@@ -3437,8 +3436,6 @@ LayerManagerD3D10
 :
 Render
 (
-EndTransactionFlags
-aFlags
 )
 {
 static_cast
@@ -3460,16 +3457,6 @@ Validate
 (
 )
 ;
-if
-(
-aFlags
-&
-END_NO_COMPOSITE
-)
-{
-return
-;
-}
 SetupPipeline
 (
 )
