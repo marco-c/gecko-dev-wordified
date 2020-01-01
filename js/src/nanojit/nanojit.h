@@ -952,8 +952,11 @@ else
 define
 NanoAssertMsgf
 (
-x
-y
+a
+f
+.
+.
+.
 )
 do
 {
@@ -972,8 +975,8 @@ semi
 define
 NanoAssertMsg
 (
-x
-y
+a
+m
 )
 do
 {
@@ -992,7 +995,7 @@ semi
 define
 NanoAssert
 (
-x
+a
 )
 do
 {
