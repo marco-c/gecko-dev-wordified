@@ -3252,6 +3252,16 @@ helpers
 *
 /
 bool
+constantFoldBranch
+(
+jsbytecode
+*
+target
+bool
+taken
+)
+;
+bool
 emitStubCmpOp
 (
 BoolStub
