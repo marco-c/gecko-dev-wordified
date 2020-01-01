@@ -2075,17 +2075,6 @@ the
 inner
 table
 .
-if
-(
-!
-IsVisibleInSelection
-(
-aBuilder
-)
-)
-return
-NS_OK
-;
 /
 /
 If
