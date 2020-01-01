@@ -794,11 +794,11 @@ other
 entries
 are
 strings
-the
+that
 MUST
 be
 terminated
-wwith
+with
 a
 \
 0
@@ -1891,7 +1891,7 @@ backwards
 *
 compatible
 with
-differenet
+different
 versions
 of
 the
@@ -2493,7 +2493,7 @@ NPNURLVariable
 The
 type
 of
-Tookkit
+Toolkit
 the
 widgets
 use
@@ -2663,7 +2663,7 @@ ws_info
 Platform
 -
 dependent
-additonal
+additional
 data
 *
 /
