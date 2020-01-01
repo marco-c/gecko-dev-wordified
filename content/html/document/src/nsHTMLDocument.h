@@ -1238,6 +1238,13 @@ mDisableCookieAccess
 PR_TRUE
 ;
 }
+virtual
+nsIContent
+*
+GetBodyContentExternal
+(
+)
+;
 void
 EndUpdate
 (
