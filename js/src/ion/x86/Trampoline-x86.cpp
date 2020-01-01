@@ -2822,7 +2822,7 @@ Bailout
 ;
 masm
 .
-finalizeABICall
+finishABICall
 (
 )
 ;
@@ -3176,6 +3176,12 @@ ThunkToInterpreter
 )
 )
 ;
+masm
+.
+finishABICall
+(
+)
+;
 /
 /
 Load
@@ -3300,7 +3306,7 @@ HandleException
 ;
 masm
 .
-finalizeABICall
+finishABICall
 (
 )
 ;
