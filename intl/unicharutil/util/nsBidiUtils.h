@@ -1602,6 +1602,7 @@ characters
 PRBool
 HasRTLChars
 (
+const
 nsAString
 &
 aString
