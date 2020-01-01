@@ -70487,6 +70487,13 @@ thisValue
 ;
 if
 (
+thisv
+.
+isObject
+(
+)
+|
+|
 fp
 -
 >
@@ -70496,13 +70503,6 @@ fun
 -
 >
 inStrictMode
-(
-)
-|
-|
-thisv
-.
-isObject
 (
 )
 )

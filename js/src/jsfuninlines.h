@@ -460,16 +460,9 @@ inStrictMode
 const
 {
 return
-isInterpreted
+script
 (
 )
-&
-&
-u
-.
-i
-.
-script
 -
 >
 strictModeCode
