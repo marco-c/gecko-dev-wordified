@@ -2498,6 +2498,13 @@ otherwise
 return
 nsnull
 .
+aPlaceholder
+must
+be
+a
+placeholder
+frame
+.
 *
 /
 static
@@ -2507,7 +2514,7 @@ GetFloatFromPlaceholder
 (
 nsIFrame
 *
-aPossiblePlaceholder
+aPlaceholder
 )
 ;
 /
