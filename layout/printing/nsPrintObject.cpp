@@ -858,10 +858,6 @@ DestroyPresentation
 (
 )
 {
-mPresContext
-=
-nullptr
-;
 if
 (
 mPresShell
@@ -885,6 +881,10 @@ Destroy
 )
 ;
 }
+mPresContext
+=
+nullptr
+;
 mPresShell
 =
 nullptr
