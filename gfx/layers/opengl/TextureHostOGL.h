@@ -2701,13 +2701,7 @@ IsValid
 )
 const
 MOZ_OVERRIDE
-{
-return
-!
-!
-mGLTexture
 ;
-}
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
