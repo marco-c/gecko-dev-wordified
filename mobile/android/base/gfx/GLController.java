@@ -815,7 +815,7 @@ null
 if
 (
 mEGLContext
-=
+!
 =
 null
 )
@@ -849,14 +849,6 @@ destroyed
 ;
 }
 mGL
-=
-null
-;
-mEGLDisplay
-=
-null
-;
-mEGLConfig
 =
 null
 ;
