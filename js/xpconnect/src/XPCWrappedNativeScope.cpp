@@ -157,6 +157,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -4807,7 +4816,7 @@ XPCWrappedNativeScope
 :
 SizeOfAllScopesIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 mallocSizeOf
 )
 {
@@ -4878,7 +4887,7 @@ XPCWrappedNativeScope
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 mallocSizeOf
 )
 {

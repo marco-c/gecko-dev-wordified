@@ -145,6 +145,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -5030,7 +5039,7 @@ nsCSSStyleSheet
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -5837,7 +5846,7 @@ nsCSSStyleSheetInner
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

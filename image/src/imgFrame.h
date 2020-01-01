@@ -100,6 +100,15 @@ imgFrame_h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
@@ -584,7 +593,10 @@ gfxASurface
 :
 MemoryLocation
 aLocation
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

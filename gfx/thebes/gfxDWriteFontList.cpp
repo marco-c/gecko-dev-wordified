@@ -95,6 +95,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -1300,7 +1309,7 @@ gfxDWriteFontFamily
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -1340,7 +1349,7 @@ gfxDWriteFontFamily
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -3185,7 +3194,7 @@ gfxDWriteFontEntry
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -3231,7 +3240,7 @@ gfxDWriteFontEntry
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -7037,7 +7046,7 @@ gfxDWriteFontList
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -7125,7 +7134,7 @@ gfxDWriteFontList
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *

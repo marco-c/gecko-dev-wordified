@@ -93,6 +93,15 @@ MPL
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 gfxDWriteFonts
 .
 h
@@ -3795,7 +3804,7 @@ gfxDWriteFont
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontCacheSizes
 *
@@ -3838,7 +3847,7 @@ gfxDWriteFont
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontCacheSizes
 *

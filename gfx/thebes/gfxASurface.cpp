@@ -134,6 +134,15 @@ h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 gfxASurface
 .
 h
@@ -3337,7 +3346,7 @@ gfxASurface
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -3368,7 +3377,7 @@ gfxASurface
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

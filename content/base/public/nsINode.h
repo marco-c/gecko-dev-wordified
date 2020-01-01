@@ -234,6 +234,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 EventTarget
@@ -2204,7 +2213,10 @@ virtual
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

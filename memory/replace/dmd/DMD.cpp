@@ -271,6 +271,15 @@ Likely
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 /
 /
 MOZ_REPLACE_ONLY_MEMALIGN
@@ -14577,7 +14586,10 @@ a
 /
 /
 |
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 |
 argument
 .

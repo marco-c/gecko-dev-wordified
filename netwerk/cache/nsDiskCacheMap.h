@@ -120,6 +120,15 @@ define
 _nsDiskCacheMap_h_
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 limits
 .
@@ -3184,7 +3193,10 @@ mEntryCount
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

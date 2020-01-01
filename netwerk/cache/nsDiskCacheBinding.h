@@ -100,6 +100,15 @@ _nsDiskCacheBinding_h_
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -1070,7 +1079,10 @@ ActiveBindings
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

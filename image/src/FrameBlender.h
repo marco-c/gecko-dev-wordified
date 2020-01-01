@@ -109,6 +109,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -339,7 +348,10 @@ gfxASurface
 :
 MemoryLocation
 aLocation
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

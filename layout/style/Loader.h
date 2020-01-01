@@ -200,6 +200,15 @@ CORSMode
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 class
 nsIAtom
 ;
@@ -2591,7 +2600,10 @@ size
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

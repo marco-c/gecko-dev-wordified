@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -4884,7 +4893,7 @@ nsGenericDOMDataNode
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

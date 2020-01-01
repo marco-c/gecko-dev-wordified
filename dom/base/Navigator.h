@@ -120,6 +120,15 @@ mozilla_dom_Navigator_h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsIDOMNavigator
 .
 h
@@ -815,7 +824,10 @@ HasDesktopNotificationSupport
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

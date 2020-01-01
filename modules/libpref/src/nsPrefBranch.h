@@ -221,6 +221,15 @@ HashFunctions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 class
 nsPrefBranch
 ;
@@ -1037,7 +1046,10 @@ data
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

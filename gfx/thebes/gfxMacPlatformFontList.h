@@ -99,6 +99,15 @@ gfxMacPlatformFontList_H_
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
@@ -290,7 +299,10 @@ virtual
 void
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *

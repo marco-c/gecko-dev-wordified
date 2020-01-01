@@ -128,6 +128,15 @@ nsCSSDataBlock_h__
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h
@@ -521,7 +530,10 @@ CreateEmptyBlock
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

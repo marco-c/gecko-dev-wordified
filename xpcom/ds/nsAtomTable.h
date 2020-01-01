@@ -101,6 +101,15 @@ define
 nsAtomTable_h__
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -121,7 +130,10 @@ NS_PurgeAtomTable
 size_t
 NS_SizeOfAtomTablesIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

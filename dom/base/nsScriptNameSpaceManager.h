@@ -196,6 +196,15 @@ nsScriptNameSpaceManager_h__
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsIScriptNameSpaceManager
 .
 h
@@ -815,7 +824,10 @@ aClosure
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

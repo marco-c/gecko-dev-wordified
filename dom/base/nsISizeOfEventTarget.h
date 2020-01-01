@@ -123,6 +123,15 @@ nsISizeOfEventTarget_h___
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -255,7 +264,10 @@ virtual
 size_t
 SizeOfEventTargetIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

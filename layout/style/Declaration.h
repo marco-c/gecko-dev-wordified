@@ -128,6 +128,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 /
 /
 This
@@ -1489,7 +1498,10 @@ aValue
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

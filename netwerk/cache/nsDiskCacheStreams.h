@@ -100,6 +100,15 @@ _nsDiskCacheStreams_h_
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsDiskCacheBinding
 .
 h
@@ -229,7 +238,10 @@ negative
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

@@ -106,6 +106,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 XPTInterfaceInfoManager
 .
 h
@@ -205,7 +214,7 @@ XPTInterfaceInfoManager
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

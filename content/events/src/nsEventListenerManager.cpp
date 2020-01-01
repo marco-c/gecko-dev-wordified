@@ -233,6 +233,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -7397,7 +7406,7 @@ nsEventListenerManager
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

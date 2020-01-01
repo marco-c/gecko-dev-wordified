@@ -305,6 +305,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
@@ -7594,7 +7603,7 @@ RasterImage
 :
 HeapSizeOfSourceWithComputedFallback
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -7689,7 +7698,7 @@ gfxASurface
 :
 MemoryLocation
 aLocation
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -7740,7 +7749,7 @@ RasterImage
 :
 HeapSizeOfDecodedWithComputedFallback
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

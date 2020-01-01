@@ -59,6 +59,15 @@ MPL
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 StackArena
 .
 h
@@ -343,7 +352,10 @@ StackArena
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

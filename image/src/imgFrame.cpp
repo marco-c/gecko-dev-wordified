@@ -183,6 +183,15 @@ Likely
 h
 "
 #
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
 if
 defined
 (
@@ -4757,7 +4766,10 @@ gfxASurface
 :
 MemoryLocation
 aLocation
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

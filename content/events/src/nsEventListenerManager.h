@@ -188,6 +188,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 EventTarget
@@ -2006,7 +2015,10 @@ mMayHaveMouseEnterLeaveEventListener
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

@@ -100,6 +100,15 @@ _nsDiskCacheDevice_h_
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsCacheDevice
 .
 h
@@ -318,7 +327,10 @@ entrySize
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

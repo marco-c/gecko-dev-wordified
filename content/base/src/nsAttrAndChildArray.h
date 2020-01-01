@@ -138,6 +138,15 @@ h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -770,7 +779,10 @@ ATTRCHILD_ARRAY_MAX_ATTR_COUNT
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

@@ -120,6 +120,15 @@ _nsDiskCacheBlockFile_h_
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -487,7 +496,10 @@ bytesRead
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

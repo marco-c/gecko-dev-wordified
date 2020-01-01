@@ -153,6 +153,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -63642,7 +63651,7 @@ nsDOMEventTargetHelper
 >
 *
 aEntry
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *

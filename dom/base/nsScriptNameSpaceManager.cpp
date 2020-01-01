@@ -273,6 +273,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -340,7 +349,7 @@ mGlobalName
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {
@@ -4702,7 +4711,7 @@ SizeOfEntryExcludingThis
 PLDHashEntryHdr
 *
 aHdr
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -4738,7 +4747,7 @@ nsScriptNameSpaceManager
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

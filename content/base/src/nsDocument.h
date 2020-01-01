@@ -481,6 +481,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DOMImplementation
@@ -1378,7 +1387,10 @@ SizeOfExcludingThis
 nsIdentifierMapEntry
 *
 aEntry
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 void
 *

@@ -93,6 +93,15 @@ MPL
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 gfxMacFont
 .
 h
@@ -2690,7 +2699,7 @@ gfxMacFont
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontCacheSizes
 *
@@ -2743,7 +2752,7 @@ gfxMacFont
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontCacheSizes
 *

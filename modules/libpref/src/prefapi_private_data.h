@@ -105,6 +105,15 @@ nsPref
 cpp
 *
 /
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 extern
 PLDHashTable
 gHashTable
@@ -247,7 +256,10 @@ aPref
 size_t
 pref_SizeOfPrivateData
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

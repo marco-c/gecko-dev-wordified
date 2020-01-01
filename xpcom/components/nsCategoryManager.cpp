@@ -256,6 +256,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
@@ -1429,7 +1438,7 @@ CategoryNode
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {
@@ -2175,7 +2184,7 @@ CategoryNode
 >
 &
 aData
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -2227,7 +2236,7 @@ nsCategoryManager
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

@@ -179,6 +179,15 @@ nsIPresShell_h___
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -8197,7 +8206,10 @@ virtual
 void
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 nsArenaMemoryStats
 *

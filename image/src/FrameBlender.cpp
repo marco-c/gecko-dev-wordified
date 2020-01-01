@@ -100,6 +100,15 @@ h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 RasterImage
 .
 h
@@ -4180,7 +4189,7 @@ gfxASurface
 :
 MemoryLocation
 aLocation
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

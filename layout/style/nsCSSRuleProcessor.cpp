@@ -238,6 +238,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 StyleRule
@@ -2552,7 +2561,7 @@ aNodeMatchContext
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -2560,7 +2569,7 @@ const
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -4561,7 +4570,7 @@ SizeOfRuleHashTableEntry
 PLDHashEntryHdr
 *
 aHdr
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -4598,7 +4607,7 @@ RuleHash
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -4704,7 +4713,7 @@ RuleHash
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -5360,7 +5369,7 @@ i
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -5513,7 +5522,7 @@ SizeOfSelectorsEntry
 PLDHashEntryHdr
 *
 aHdr
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -5550,7 +5559,7 @@ RuleCascadeData
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -16589,7 +16598,7 @@ nsCSSRuleProcessor
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -16654,7 +16663,7 @@ nsCSSRuleProcessor
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

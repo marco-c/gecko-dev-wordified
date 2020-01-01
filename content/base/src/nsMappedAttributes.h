@@ -156,6 +156,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 class
 nsIAtom
 ;
@@ -473,7 +482,10 @@ endif
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

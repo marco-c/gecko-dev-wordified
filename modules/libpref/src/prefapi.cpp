@@ -219,6 +219,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PContent
@@ -4467,7 +4476,7 @@ rv
 size_t
 pref_SizeOfPrivateData
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

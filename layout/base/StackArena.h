@@ -68,6 +68,15 @@ h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h
@@ -160,7 +169,10 @@ Pop
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

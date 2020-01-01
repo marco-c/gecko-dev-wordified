@@ -190,6 +190,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PBrowserChild
@@ -61271,7 +61280,7 @@ PresShell
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 nsArenaMemoryStats
 *
@@ -61354,7 +61363,7 @@ PresShell
 :
 SizeOfTextRuns
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
