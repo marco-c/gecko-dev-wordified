@@ -540,7 +540,7 @@ PRBool
 mHaveKeyLengthAndCipher
 ;
 PRBool
-mHaveCertStatus
+mHaveCertErrorBits
 ;
 }
 ;
