@@ -1207,7 +1207,7 @@ nsIProgressEventSink
 this
 )
 ;
-AddRef
+NS_ADDREF_THIS
 (
 )
 ;
