@@ -33994,6 +33994,7 @@ cx
 JSObject
 *
 callee
+const
 CallArgs
 &
 args
@@ -34156,14 +34157,6 @@ arg
 +
 +
 )
-{
-Value
-v
-=
-UndefinedValue
-(
-)
-;
 TypeScript
 :
 :
@@ -34172,10 +34165,11 @@ SetArgument
 cx
 script
 arg
-v
+UndefinedValue
+(
+)
 )
 ;
-}
 }
 static
 inline
@@ -35094,6 +35088,7 @@ script
 jsbytecode
 *
 pc
+const
 js
 :
 :
@@ -35102,11 +35097,6 @@ Value
 rval
 )
 {
-TryCoerceNumberToInt32
-(
-rval
-)
-;
 UntrapOpcode
 untrap
 (
