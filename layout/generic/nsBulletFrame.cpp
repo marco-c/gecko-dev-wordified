@@ -973,7 +973,7 @@ nsBulletFrame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )

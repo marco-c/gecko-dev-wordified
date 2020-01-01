@@ -748,7 +748,7 @@ RemoveElement
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )
@@ -759,7 +759,7 @@ AddFrame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )
@@ -1000,7 +1000,7 @@ RemoveElement
 aOther
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )
@@ -1013,7 +1013,7 @@ AppendElement
 aOther
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )
@@ -6732,7 +6732,7 @@ DisplayItemData
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -7169,7 +7169,7 @@ frame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -9097,7 +9097,7 @@ return
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -11189,7 +11189,7 @@ f
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -12174,7 +12174,7 @@ mBuilder
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -15034,7 +15034,7 @@ Name
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 t
@@ -15325,7 +15325,7 @@ Name
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 aNewLayer
@@ -15454,7 +15454,7 @@ Name
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 aNewLayer
@@ -15661,7 +15661,7 @@ Name
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 aNewLayer
@@ -16281,7 +16281,7 @@ AdjustInvalidAreaForSVGEffects
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 aItem
@@ -16355,7 +16355,7 @@ Name
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 aLayer
@@ -16539,7 +16539,7 @@ AddFrame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )
@@ -18858,7 +18858,7 @@ aContainerItem
 aContainerItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 =
@@ -22488,7 +22488,7 @@ cdi
 mItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;

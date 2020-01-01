@@ -623,7 +623,7 @@ aBuilder
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 aItem
@@ -784,7 +784,7 @@ listFrame
 =
 GetEnclosingListFrame
 (
-GetUnderlyingFrame
+Frame
 (
 )
 )
@@ -826,7 +826,7 @@ listFrame
 =
 GetEnclosingListFrame
 (
-GetUnderlyingFrame
+Frame
 (
 )
 )

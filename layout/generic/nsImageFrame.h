@@ -1910,7 +1910,7 @@ nsRect
 ToReferenceFrame
 (
 )
-GetUnderlyingFrame
+Frame
 (
 )
 -

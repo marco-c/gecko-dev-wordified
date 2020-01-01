@@ -2654,7 +2654,7 @@ nsIFrame
 *
 f
 =
-GetUnderlyingFrame
+Frame
 (
 )
 ;

@@ -615,7 +615,7 @@ f
 i
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -625,11 +625,6 @@ fName
 #
 ifdef
 DEBUG
-if
-(
-f
-)
-{
 f
 -
 >
@@ -638,7 +633,6 @@ GetFrameName
 fName
 )
 ;
-}
 #
 endif
 bool
@@ -1046,11 +1040,6 @@ a
 )
 ;
 }
-if
-(
-f
-)
-{
 uint32_t
 key
 =
@@ -1131,7 +1120,6 @@ p
 layer
 )
 ;
-}
 }
 }
 if

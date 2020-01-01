@@ -238,7 +238,7 @@ mHasRoundedCorners
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -

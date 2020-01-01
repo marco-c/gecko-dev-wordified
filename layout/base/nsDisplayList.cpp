@@ -2522,7 +2522,7 @@ frame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -6266,7 +6266,7 @@ f
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -6478,7 +6478,7 @@ frame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -8823,7 +8823,7 @@ TYPE_TRANSFORM
 item
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -9381,7 +9381,7 @@ f
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -9663,7 +9663,7 @@ GetZIndex
 aItem1
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )
@@ -9679,7 +9679,7 @@ GetZIndex
 aItem2
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )
@@ -12256,7 +12256,7 @@ frame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -13174,7 +13174,7 @@ nextItem
 nextItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 =
@@ -13182,7 +13182,7 @@ GetUnderlyingFrame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 &
@@ -15981,7 +15981,7 @@ TYPE_TRANSFORM
 i
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 =
@@ -16109,7 +16109,7 @@ if
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 =
@@ -16604,7 +16604,7 @@ f
 i
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -17596,7 +17596,7 @@ ToOutsidePixels
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -17926,7 +17926,7 @@ if
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -23280,7 +23280,7 @@ aBuilder
 {
 if
 (
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -23337,7 +23337,7 @@ CommonElementAnimationData
 LogAsyncAnimationFailure
 (
 message
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -23367,7 +23367,7 @@ return
 ShouldPrerenderTransformedContent
 (
 aBuilder
-GetUnderlyingFrame
+Frame
 (
 )
 nsLayoutUtils
@@ -26190,7 +26190,7 @@ if
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -27391,7 +27391,7 @@ if
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 -

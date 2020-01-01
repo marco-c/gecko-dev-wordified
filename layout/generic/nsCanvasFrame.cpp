@@ -1309,7 +1309,7 @@ gfxASurface
 *
 >
 (
-GetUnderlyingFrame
+Frame
 (
 )
 -
