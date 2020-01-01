@@ -627,6 +627,10 @@ ScaleGestureDetector
 (
 context
 controller
+.
+getScaleGestureListener
+(
+)
 )
 ;
 mInputConnectionHandler

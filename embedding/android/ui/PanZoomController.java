@@ -558,6 +558,10 @@ scrollability
 public
 class
 PanZoomController
+implements
+ScaleGestureDetector
+.
+OnScaleGestureListener
 {
 private
 LayerController
@@ -3180,6 +3184,7 @@ nextX
 Zooming
 *
 /
+Override
 public
 boolean
 onScale
@@ -3312,6 +3317,7 @@ return
 true
 ;
 }
+Override
 public
 boolean
 onScaleBegin
@@ -3408,6 +3414,7 @@ return
 true
 ;
 }
+Override
 public
 void
 onScaleEnd
