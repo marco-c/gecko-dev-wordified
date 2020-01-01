@@ -1225,6 +1225,7 @@ if
 (
 autoDetect
 )
+{
 this
 .
 _languages
@@ -1244,7 +1245,17 @@ auto
 "
 )
 ;
+this
+.
+_currentLocale
+=
+"
+auto
+"
+;
+}
 else
+{
 this
 .
 _languages
@@ -1253,6 +1264,7 @@ selectedItem
 =
 selectedItem
 ;
+}
 /
 /
 Hide
