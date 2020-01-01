@@ -10392,17 +10392,6 @@ LApplyArgsGeneric
 apply
 )
 {
-JSContext
-*
-cx
-=
-GetIonContext
-(
-)
--
->
-cx
-;
 /
 /
 Holds
@@ -17559,7 +17548,7 @@ allocKind
 templateObj
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 ;
@@ -18394,7 +18383,7 @@ allocKind
 templateObject
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 ;
