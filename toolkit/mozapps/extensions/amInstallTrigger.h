@@ -503,7 +503,7 @@ GetOriginatingWindow
 (
 JSContext
 *
-cx
+aCx
 )
 ;
 already_AddRefed
