@@ -804,10 +804,9 @@ uint16
 BAD_TRACEIC_INDEX
 =
 (
-uint16_t
+uint16
 )
--
-1
+0xffff
 ;
 void
 JS_FASTCALL
@@ -910,8 +909,6 @@ Assembler
 :
 Condition
 cond
-:
-6
 ;
 }
 ;
