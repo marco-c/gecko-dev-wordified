@@ -9897,10 +9897,6 @@ penaltyLog
 (
 )
 .
-penaltyDialog
-(
-)
-.
 build
 (
 )
