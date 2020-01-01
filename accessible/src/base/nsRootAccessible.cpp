@@ -6986,7 +6986,7 @@ NS_OK
 /
 /
 nsAccessible
-nsIAccessible
+nsAccessible
 *
 nsRootAccessible
 :

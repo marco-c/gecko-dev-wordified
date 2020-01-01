@@ -3624,7 +3624,7 @@ count
 =
 mChildren
 .
-Count
+Length
 (
 )
 ;

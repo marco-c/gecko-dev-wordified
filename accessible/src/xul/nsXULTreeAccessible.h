@@ -655,7 +655,7 @@ aChild
 )
 ;
 virtual
-nsIAccessible
+nsAccessible
 *
 GetChildAt
 (
@@ -1049,7 +1049,7 @@ aDOMNode
 nsIWeakReference
 *
 aShell
-nsIAccessible
+nsAccessible
 *
 aParent
 nsITreeBoxObject
@@ -1200,7 +1200,7 @@ aExtraState
 )
 ;
 virtual
-nsIAccessible
+nsAccessible
 *
 GetParent
 (
@@ -1432,7 +1432,7 @@ aDOMNode
 nsIWeakReference
 *
 aShell
-nsIAccessible
+nsAccessible
 *
 aParent
 nsITreeBoxObject

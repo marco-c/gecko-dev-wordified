@@ -1078,11 +1078,14 @@ PRInt32
 aSetSize
 )
 ;
+/
+/
+nsXULToolbarButtonAccessible
 static
 PRBool
 IsSeparator
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )

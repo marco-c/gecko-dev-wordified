@@ -4053,11 +4053,9 @@ Look
 for
 groupbox
 parent
-nsCOMPtr
-<
-nsIAccessible
->
-groupboxAccessible
+nsAccessible
+*
+groupbox
 =
 GetParent
 (
@@ -4070,7 +4068,7 @@ nsAccUtils
 :
 Role
 (
-groupboxAccessible
+groupbox
 )
 =
 =
@@ -4113,7 +4111,7 @@ nsRelUtils
 :
 GetRelatedAccessible
 (
-groupboxAccessible
+groupbox
 nsIAccessibleRelation
 :
 :
@@ -4158,7 +4156,7 @@ AddTarget
 (
 aRelationType
 aRelation
-groupboxAccessible
+groupbox
 )
 ;
 }

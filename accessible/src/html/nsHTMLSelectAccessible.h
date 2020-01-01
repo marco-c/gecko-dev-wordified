@@ -1694,7 +1694,7 @@ aBoundingFrame
 )
 ;
 virtual
-nsIAccessible
+nsAccessible
 *
 GetParent
 (
