@@ -3694,7 +3694,7 @@ innerHTML
 htmlElement
 -
 >
-GetInnerHTML
+GetDOMInnerHTML
 (
 innerHTML
 )
