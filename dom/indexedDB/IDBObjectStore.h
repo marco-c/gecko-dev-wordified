@@ -896,9 +896,6 @@ ObjectStoreInfo
 >
 mInfo
 ;
-PRUint32
-mStructuredCloneVersion
-;
 nsTArray
 <
 nsRefPtr

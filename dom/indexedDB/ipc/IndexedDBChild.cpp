@@ -228,10 +228,6 @@ IPCSetVersionHelper
 public
 AsyncConnectionHelper
 {
-IndexedDBTransactionChild
-*
-mActor
-;
 nsRefPtr
 <
 IDBOpenDBRequest
@@ -248,9 +244,6 @@ public
 :
 IPCSetVersionHelper
 (
-IndexedDBTransactionChild
-*
-aActor
 IDBTransaction
 *
 aTransaction
@@ -268,10 +261,6 @@ AsyncConnectionHelper
 aTransaction
 aRequest
 )
-mActor
-(
-aActor
-)
 mOpenRequest
 (
 aRequest
@@ -285,11 +274,6 @@ mRequestedVersion
 aRequestedVersion
 )
 {
-MOZ_ASSERT
-(
-aActor
-)
-;
 MOZ_ASSERT
 (
 aTransaction
@@ -2316,7 +2300,6 @@ versionHelper
 new
 IPCSetVersionHelper
 (
-actor
 transaction
 mRequest
 oldVersion
