@@ -20,26 +20,12 @@ libpng
 .
 2
 .
-34
+40
 [
-December
-18
-2008
+September
+10
+2009
 ]
-*
-For
-conditions
-of
-distribution
-and
-use
-see
-copyright
-notice
-in
-png
-.
-h
 *
 Copyright
 (
@@ -47,7 +33,7 @@ c
 )
 1998
 -
-2008
+2009
 Glenn
 Randers
 -
@@ -87,6 +73,34 @@ Group
 Inc
 .
 )
+*
+*
+This
+code
+is
+released
+under
+the
+libpng
+license
+.
+*
+For
+conditions
+of
+distribution
+and
+use
+see
+the
+disclaimer
+*
+and
+license
+in
+png
+.
+h
 *
 /
 #
@@ -533,7 +547,7 @@ png_signature
 ;
 /
 *
-write
+Write
 the
 rest
 of
@@ -839,7 +853,7 @@ return
 ;
 /
 *
-write
+Write
 the
 length
 and
@@ -875,7 +889,7 @@ png_size_t
 ;
 /
 *
-put
+Put
 the
 chunk
 name
@@ -898,7 +912,7 @@ chunk_name
 ;
 /
 *
-reset
+Reset
 the
 crc
 and
@@ -993,7 +1007,7 @@ length
 {
 /
 *
-write
+Write
 the
 data
 and
@@ -1035,7 +1049,7 @@ length
 ;
 /
 *
-update
+Update
 the
 CRC
 after
@@ -1104,7 +1118,7 @@ return
 ;
 /
 *
-write
+Write
 the
 crc
 in
@@ -1146,7 +1160,6 @@ defined
 PNG_WRITE_iCCP_SUPPORTED
 )
 /
-*
 *
 This
 pair
@@ -1217,7 +1230,7 @@ input
 ;
 /
 *
-the
+The
 uncompressed
 input
 data
@@ -1228,7 +1241,7 @@ input_len
 ;
 /
 *
-its
+Its
 length
 *
 /
@@ -1237,7 +1250,7 @@ num_output_ptr
 ;
 /
 *
-number
+Number
 of
 output
 pointers
@@ -1249,7 +1262,7 @@ max_output_ptr
 ;
 /
 *
-size
+Size
 of
 output_ptr
 *
@@ -1259,7 +1272,7 @@ output_ptr
 ;
 /
 *
-array
+Array
 of
 pointers
 to
@@ -1271,7 +1284,7 @@ compression_state
 ;
 /
 *
-compress
+Compress
 given
 text
 into
@@ -1344,7 +1357,7 @@ input_len
 ;
 /
 *
-we
+We
 may
 just
 want
@@ -1627,7 +1640,7 @@ swapping
 /
 /
 *
-set
+Set
 up
 the
 compression
@@ -1692,7 +1705,7 @@ zbuf
 ;
 /
 *
-this
+This
 is
 the
 same
@@ -1709,7 +1722,7 @@ do
 {
 /
 *
-compress
+Compress
 the
 data
 *
@@ -1736,7 +1749,7 @@ Z_OK
 {
 /
 *
-error
+Error
 *
 /
 if
@@ -1775,7 +1788,7 @@ error
 }
 /
 *
-check
+Check
 to
 see
 if
@@ -1800,7 +1813,7 @@ avail_out
 {
 /
 *
-make
+Make
 sure
 the
 output
@@ -1946,7 +1959,7 @@ png_charp
 }
 /
 *
-save
+Save
 the
 data
 *
@@ -2044,7 +2057,7 @@ zbuf
 }
 /
 *
-continue
+Continue
 until
 we
 don
@@ -2070,7 +2083,7 @@ avail_in
 ;
 /
 *
-finish
+Finish
 the
 compression
 *
@@ -2079,7 +2092,7 @@ do
 {
 /
 *
-tell
+Tell
 zlib
 we
 are
@@ -2108,7 +2121,7 @@ Z_OK
 {
 /
 *
-check
+Check
 to
 see
 if
@@ -2133,7 +2146,7 @@ avail_out
 {
 /
 *
-check
+Check
 to
 make
 sure
@@ -2293,8 +2306,7 @@ png_charp
 }
 /
 *
-save
-off
+Save
 the
 data
 *
@@ -2403,7 +2415,7 @@ Z_STREAM_END
 {
 /
 *
-we
+We
 got
 an
 error
@@ -2454,7 +2466,7 @@ Z_STREAM_END
 ;
 /
 *
-text
+Text
 length
 is
 number
@@ -2520,7 +2532,7 @@ text_len
 }
 /
 *
-ship
+Ship
 the
 compressed
 text
@@ -2551,7 +2563,7 @@ i
 ;
 /
 *
-handle
+Handle
 the
 no
 -
@@ -2591,7 +2603,7 @@ return
 }
 /
 *
-write
+Write
 saved
 output
 buffers
@@ -2690,7 +2702,7 @@ NULL
 ;
 /
 *
-write
+Write
 anything
 left
 in
@@ -2741,7 +2753,7 @@ avail_out
 ;
 /
 *
-reset
+Reset
 zlib
 for
 another
@@ -2851,7 +2863,7 @@ buf
 ;
 /
 *
-buffer
+Buffer
 to
 store
 the
@@ -3347,8 +3359,7 @@ PNG_INTERLACE_NONE
 endif
 /
 *
-save
-off
+Save
 the
 relevent
 information
@@ -3459,7 +3470,7 @@ width
 ;
 /
 *
-set
+Set
 the
 usr
 info
@@ -3503,7 +3514,7 @@ channels
 ;
 /
 *
-pack
+Pack
 the
 header
 information
@@ -3578,7 +3589,7 @@ interlace_type
 ;
 /
 *
-write
+Write
 the
 chunk
 *
@@ -3621,7 +3632,7 @@ height
 endif
 /
 *
-initialize
+Initialize
 zlib
 with
 PNG
@@ -3980,7 +3991,7 @@ data_type
 /
 /
 *
-set
+Set
 it
 to
 a
@@ -4013,7 +4024,7 @@ PNG_HAVE_IHDR
 }
 /
 *
-write
+Write
 the
 palette
 .
@@ -4412,7 +4423,7 @@ PNG_HAVE_PLTE
 }
 /
 *
-write
+Write
 an
 IDAT
 chunk
@@ -4562,8 +4573,6 @@ multiplication
 overflows
 .
 *
-/
-/
 *
 The
 conditions
@@ -4573,6 +4582,7 @@ practically
 always
 satisfied
 ;
+*
 however
 they
 still
@@ -4885,7 +4895,7 @@ PNG_HAVE_IDAT
 }
 /
 *
-write
+Write
 an
 IEND
 chunk
@@ -4950,7 +4960,7 @@ PNG_WRITE_gAMA_SUPPORTED
 )
 /
 *
-write
+Write
 a
 gAMA
 chunk
@@ -5137,7 +5147,7 @@ PNG_WRITE_sRGB_SUPPORTED
 )
 /
 *
-write
+Write
 a
 sRGB
 chunk
@@ -5233,7 +5243,7 @@ PNG_WRITE_iCCP_SUPPORTED
 )
 /
 *
-write
+Write
 an
 iCCP
 chunk
@@ -5442,6 +5452,37 @@ profile
 ;
 if
 (
+embedded_profile_len
+<
+0
+)
+{
+png_warning
+(
+png_ptr
+"
+Embedded
+profile
+length
+in
+iCCP
+chunk
+is
+negative
+"
+)
+;
+png_free
+(
+png_ptr
+new_name
+)
+;
+return
+;
+}
+if
+(
 profile_len
 <
 embedded_profile_len
@@ -5460,6 +5501,12 @@ in
 iCCP
 chunk
 "
+)
+;
+png_free
+(
+png_ptr
+new_name
 )
 ;
 return
@@ -5513,7 +5560,7 @@ comp
 ;
 /
 *
-make
+Make
 sure
 we
 include
@@ -5606,7 +5653,7 @@ PNG_WRITE_sPLT_SUPPORTED
 )
 /
 *
-write
+Write
 a
 sPLT
 chunk
@@ -5716,7 +5763,7 @@ return
 ;
 /
 *
-make
+Make
 sure
 we
 include
@@ -5782,7 +5829,7 @@ png_size_t
 ;
 /
 *
-loop
+Loop
 through
 each
 palette
@@ -6179,7 +6226,7 @@ PNG_WRITE_sBIT_SUPPORTED
 )
 /
 *
-write
+Write
 the
 sBIT
 chunk
@@ -6228,7 +6275,7 @@ png_write_sBIT
 ;
 /
 *
-make
+Make
 sure
 we
 don
@@ -6504,7 +6551,7 @@ PNG_WRITE_cHRM_SUPPORTED
 )
 /
 *
-write
+Write
 the
 cHRM
 chunk
@@ -6736,7 +6783,7 @@ endif
 {
 /
 *
-each
+Each
 value
 is
 saved
@@ -6882,7 +6929,7 @@ png_write_cHRM
 ;
 /
 *
-each
+Each
 value
 is
 saved
@@ -7032,7 +7079,7 @@ PNG_WRITE_tRNS_SUPPORTED
 )
 /
 *
-write
+Write
 the
 tRNS
 chunk
@@ -7125,7 +7172,7 @@ return
 }
 /
 *
-write
+Write
 the
 chunk
 out
@@ -7160,7 +7207,7 @@ PNG_COLOR_TYPE_GRAY
 {
 /
 *
-one
+One
 16
 bit
 value
@@ -7243,7 +7290,7 @@ PNG_COLOR_TYPE_RGB
 {
 /
 *
-three
+Three
 16
 bit
 values
@@ -7377,7 +7424,7 @@ PNG_WRITE_bKGD_SUPPORTED
 )
 /
 *
-write
+Write
 the
 background
 chunk
@@ -7696,7 +7743,7 @@ PNG_WRITE_hIST_SUPPORTED
 )
 /
 *
-write
+Write
 the
 histogram
 *
@@ -8664,7 +8711,7 @@ PNG_WRITE_tEXt_SUPPORTED
 )
 /
 *
-write
+Write
 a
 tEXt
 chunk
@@ -8760,7 +8807,7 @@ text
 ;
 /
 *
-make
+Make
 sure
 we
 include
@@ -8928,7 +8975,7 @@ PNG_WRITE_zTXt_SUPPORTED
 )
 /
 *
-write
+Write
 a
 compressed
 text
@@ -9096,7 +9143,7 @@ text
 ;
 /
 *
-compute
+Compute
 the
 compressed
 data
@@ -9123,7 +9170,7 @@ comp
 ;
 /
 *
-write
+Write
 start
 of
 chunk
@@ -9150,7 +9197,7 @@ text_len
 ;
 /
 *
-write
+Write
 key
 *
 /
@@ -9189,7 +9236,7 @@ compression
 ;
 /
 *
-write
+Write
 compression
 *
 /
@@ -9208,7 +9255,7 @@ png_size_t
 ;
 /
 *
-write
+Write
 the
 compressed
 data
@@ -9223,7 +9270,7 @@ comp
 ;
 /
 *
-close
+Close
 the
 chunk
 *
@@ -9244,7 +9291,7 @@ PNG_WRITE_iTXt_SUPPORTED
 )
 /
 *
-write
+Write
 an
 iTXt
 chunk
@@ -9434,7 +9481,7 @@ text
 ;
 /
 *
-compute
+Compute
 the
 compressed
 data
@@ -9463,7 +9510,7 @@ comp
 ;
 /
 *
-make
+Make
 sure
 we
 include
@@ -9524,7 +9571,6 @@ text_len
 )
 ;
 /
-*
 *
 We
 leave
@@ -9624,7 +9670,7 @@ key_len
 ;
 /
 *
-set
+Set
 the
 compression
 flag
@@ -9669,7 +9715,7 @@ cbuf
 ;
 /
 *
-set
+Set
 the
 compression
 method
@@ -9780,7 +9826,7 @@ PNG_WRITE_oFFs_SUPPORTED
 )
 /
 *
-write
+Write
 the
 oFFs
 chunk
@@ -9895,7 +9941,7 @@ PNG_WRITE_pCAL_SUPPORTED
 )
 /
 *
-write
+Write
 the
 pCAL
 chunk
@@ -10355,7 +10401,7 @@ PNG_WRITE_sCAL_SUPPORTED
 )
 /
 *
-write
+Write
 the
 sCAL
 chunk
@@ -10756,7 +10802,7 @@ wlen
 ;
 /
 *
-append
+Append
 the
 '
 \
@@ -10778,7 +10824,7 @@ hlen
 ;
 /
 *
-do
+Do
 NOT
 append
 the
@@ -10833,7 +10879,7 @@ PNG_WRITE_pHYs_SUPPORTED
 )
 /
 *
-write
+Write
 the
 pHYs
 chunk
@@ -11519,7 +11565,7 @@ PNG_WRITE_APNG_SUPPORTED
 /
 /
 *
-initializes
+Initializes
 the
 row
 writing
@@ -11548,7 +11594,7 @@ ifdef
 PNG_USE_LOCAL_ARRAYS
 /
 *
-arrays
+Arrays
 to
 facilitate
 easy
@@ -11567,7 +11613,7 @@ index
 /
 /
 *
-start
+Start
 of
 interlace
 block
@@ -11591,7 +11637,7 @@ png_pass_start
 ;
 /
 *
-offset
+Offset
 to
 next
 interlace
@@ -11616,7 +11662,7 @@ png_pass_inc
 ;
 /
 *
-start
+Start
 of
 interlace
 block
@@ -11644,7 +11690,7 @@ png_pass_ystart
 ;
 /
 *
-offset
+Offset
 to
 next
 interlace
@@ -11715,7 +11761,7 @@ width
 ;
 /
 *
-set
+Set
 up
 row
 buffer
@@ -11753,7 +11799,7 @@ ifndef
 PNG_NO_WRITE_FILTER
 /
 *
-set
+Set
 up
 filtering
 buffer
@@ -11846,7 +11892,7 @@ PNG_FILTER_PAETH
 {
 /
 *
-set
+Set
 up
 previous
 row
@@ -12028,7 +12074,7 @@ ifdef
 PNG_WRITE_INTERLACING_SUPPORTED
 /
 *
-if
+If
 interlaced
 we
 need
@@ -12236,7 +12282,7 @@ ifdef
 PNG_USE_LOCAL_ARRAYS
 /
 *
-arrays
+Arrays
 to
 facilitate
 easy
@@ -12255,7 +12301,7 @@ index
 /
 /
 *
-start
+Start
 of
 interlace
 block
@@ -12279,7 +12325,7 @@ png_pass_start
 ;
 /
 *
-offset
+Offset
 to
 next
 interlace
@@ -12304,7 +12350,7 @@ png_pass_inc
 ;
 /
 *
-start
+Start
 of
 interlace
 block
@@ -12332,7 +12378,7 @@ png_pass_ystart
 ;
 /
 *
-offset
+Offset
 to
 next
 interlace
@@ -12377,7 +12423,7 @@ png_write_finish_row
 ;
 /
 *
-next
+Next
 row
 *
 /
@@ -12390,7 +12436,7 @@ row_number
 ;
 /
 *
-see
+See
 if
 we
 are
@@ -12416,7 +12462,7 @@ ifdef
 PNG_WRITE_INTERLACING_SUPPORTED
 /
 *
-if
+If
 interlaced
 go
 to
@@ -12461,7 +12507,7 @@ else
 {
 /
 *
-loop
+Loop
 until
 we
 find
@@ -12607,7 +12653,7 @@ num_rows
 }
 /
 *
-reset
+Reset
 the
 row
 above
@@ -12679,7 +12725,7 @@ return
 endif
 /
 *
-if
+If
 we
 get
 here
@@ -12704,7 +12750,7 @@ do
 {
 /
 *
-tell
+Tell
 the
 compressor
 we
@@ -12726,7 +12772,7 @@ Z_FINISH
 ;
 /
 *
-check
+Check
 for
 an
 error
@@ -12742,7 +12788,7 @@ Z_OK
 {
 /
 *
-check
+Check
 to
 see
 if
@@ -12861,7 +12907,7 @@ Z_STREAM_END
 ;
 /
 *
-write
+Write
 any
 extra
 space
@@ -13031,7 +13077,7 @@ ifdef
 PNG_USE_LOCAL_ARRAYS
 /
 *
-arrays
+Arrays
 to
 facilitate
 easy
@@ -13050,7 +13096,7 @@ index
 /
 /
 *
-start
+Start
 of
 interlace
 block
@@ -13074,7 +13120,7 @@ png_pass_start
 ;
 /
 *
-offset
+Offset
 to
 next
 interlace
@@ -13110,7 +13156,7 @@ png_do_write_interlace
 ;
 /
 *
-we
+We
 don
 '
 t
@@ -13164,7 +13210,7 @@ endif
 {
 /
 *
-each
+Each
 pixel
 depth
 is
@@ -13706,7 +13752,7 @@ pixel_bytes
 ;
 /
 *
-start
+Start
 at
 the
 beginning
@@ -13718,7 +13764,7 @@ row
 ;
 /
 *
-find
+Find
 out
 how
 many
@@ -13743,7 +13789,7 @@ pixel_depth
 ;
 /
 *
-loop
+Loop
 through
 the
 row
@@ -13780,7 +13826,7 @@ pass
 {
 /
 *
-find
+Find
 out
 where
 the
@@ -13802,7 +13848,7 @@ pixel_bytes
 ;
 /
 *
-move
+Move
 the
 pixel
 *
@@ -13823,7 +13869,7 @@ pixel_bytes
 ;
 /
 *
-next
+Next
 pixel
 *
 /
@@ -13839,7 +13885,7 @@ break
 }
 /
 *
-set
+Set
 new
 row
 width
@@ -14021,11 +14067,8 @@ row_info
 rowbytes
 ;
 #
-if
-defined
-(
+ifdef
 PNG_WRITE_WEIGHTED_FILTER_SUPPORTED
-)
 int
 num_p_filters
 =
@@ -14050,7 +14093,7 @@ png_write_find_filter
 ;
 /
 *
-find
+Find
 out
 how
 many
@@ -14688,7 +14731,7 @@ sum
 }
 /
 *
-sub
+Sub
 filter
 *
 /
@@ -14701,7 +14744,7 @@ PNG_FILTER_SUB
 )
 /
 *
-it
+It
 '
 s
 the
@@ -15390,7 +15433,7 @@ sub_row
 }
 /
 *
-up
+Up
 filter
 *
 /
@@ -15966,7 +16009,7 @@ up_row
 }
 /
 *
-avg
+Avg
 filter
 *
 /
@@ -17925,7 +17968,7 @@ filtered_row
 ;
 /
 *
-set
+Set
 up
 the
 zlib
@@ -17963,7 +18006,7 @@ rowbytes
 ;
 /
 *
-repeat
+Repeat
 until
 we
 have
@@ -17980,14 +18023,14 @@ ret
 ;
 /
 *
-return
+Return
 of
 zlib
 *
 /
 /
 *
-compress
+Compress
 the
 data
 *
@@ -18006,7 +18049,7 @@ Z_NO_FLUSH
 ;
 /
 *
-check
+Check
 for
 compression
 errors
@@ -18056,7 +18099,7 @@ error
 }
 /
 *
-see
+See
 if
 it
 is
@@ -18082,7 +18125,7 @@ avail_out
 {
 /
 *
-write
+Write
 the
 IDAT
 and
@@ -18136,7 +18179,7 @@ zbuf_size
 }
 /
 *
-repeat
+Repeat
 until
 all
 data
@@ -18158,7 +18201,7 @@ avail_in
 ;
 /
 *
-swap
+Swap
 the
 current
 and
@@ -18207,7 +18250,7 @@ tptr
 }
 /
 *
-finish
+Finish
 row
 -
 updates
