@@ -486,6 +486,13 @@ plstr
 h
 "
 #
+include
+"
+nsNetUtil
+.
+h
+"
+#
 ifdef
 MOZ_IPC
 #
