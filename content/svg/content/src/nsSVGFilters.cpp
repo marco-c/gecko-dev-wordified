@@ -11042,6 +11042,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
+static
+const
 gfxContext
 :
 :
