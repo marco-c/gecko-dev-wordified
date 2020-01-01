@@ -258,13 +258,15 @@ define
 LinkBuffer_h
 #
 include
-<
+"
+assembler
+/
 wtf
 /
 Platform
 .
 h
->
+"
 #
 if
 ENABLE_ASSEMBLER
