@@ -3832,9 +3832,13 @@ work
 PRBool
 isXML
 =
+!
+!
+(
 mFlags
 &
 NS_IPARSER_FLAG_XML
+)
 ;
 if
 (
@@ -4050,9 +4054,13 @@ tag
 PRBool
 isXML
 =
+!
+!
+(
 mFlags
 &
 NS_IPARSER_FLAG_XML
+)
 ;
 if
 (

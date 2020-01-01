@@ -681,6 +681,8 @@ aChar
 )
 {
 return
+!
+!
 MOZ_XMLIsLetter
 (
 reinterpret_cast
@@ -704,6 +706,8 @@ aChar
 )
 {
 return
+!
+!
 MOZ_XMLIsNCNameChar
 (
 reinterpret_cast

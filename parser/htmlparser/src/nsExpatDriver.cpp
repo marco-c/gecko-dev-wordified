@@ -1269,6 +1269,8 @@ HandleStartDoctypeDecl
 aDoctypeName
 aSysid
 aPubid
+!
+!
 aHasInternalSubset
 )
 ;
