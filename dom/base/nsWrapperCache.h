@@ -407,8 +407,7 @@ nsCycleCollectionParticipant
 h
 "
 typedef
-unsigned
-long
+PRUptrdiff
 PtrBits
 ;
 #

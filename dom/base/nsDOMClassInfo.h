@@ -657,8 +657,7 @@ mConstructorCID
 }
 ;
 typedef
-unsigned
-long
+PRUptrdiff
 PtrBits
 ;
 /
