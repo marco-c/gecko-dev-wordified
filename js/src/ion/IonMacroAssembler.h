@@ -4664,6 +4664,15 @@ script
 )
 ;
 void
+loadBaselineFramePtr
+(
+Register
+framePtr
+Register
+dest
+)
+;
+void
 printf
 (
 const

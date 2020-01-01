@@ -672,6 +672,11 @@ JSOP_EXCEPTION
 \
 _
 (
+JSOP_DEBUGGER
+)
+\
+_
+(
 JSOP_RETURN
 )
 \
