@@ -7431,6 +7431,7 @@ addAutoCompletePopupEventListener
 function
 (
 window
+eventname
 listener
 )
 {
@@ -7443,9 +7444,7 @@ window
 .
 addEventListener
 (
-"
-popupshowing
-"
+eventname
 listener
 false
 )
@@ -7456,6 +7455,7 @@ removeAutoCompletePopupEventListener
 function
 (
 window
+eventname
 listener
 )
 {
@@ -7468,9 +7468,7 @@ window
 .
 removeEventListener
 (
-"
-popupshowing
-"
+eventname
 listener
 false
 )
