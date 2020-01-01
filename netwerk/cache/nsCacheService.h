@@ -1153,8 +1153,6 @@ static
 void
 OnProfileShutdown
 (
-bool
-cleanse
 )
 ;
 static
