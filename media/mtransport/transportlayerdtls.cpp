@@ -1798,7 +1798,6 @@ TS_ERROR
 ;
 }
 }
-;
 nsresult
 TransportLayerDtls
 :
