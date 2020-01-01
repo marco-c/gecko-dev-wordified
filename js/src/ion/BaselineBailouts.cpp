@@ -10003,12 +10003,12 @@ rectReturnAddr
 cx
 -
 >
-compartment
+runtime
 (
 )
 -
 >
-ionCompartment
+ionRuntime
 (
 )
 -
