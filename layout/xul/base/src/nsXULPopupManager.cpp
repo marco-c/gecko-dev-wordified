@@ -6890,7 +6890,7 @@ currentFocus
 nsContentUtils
 :
 :
-ContentIsDescendantOf
+ContentIsCrossDocDescendantOf
 (
 currentFocus
 aPopup
@@ -7304,7 +7304,7 @@ currentFocus
 nsContentUtils
 :
 :
-ContentIsDescendantOf
+ContentIsCrossDocDescendantOf
 (
 currentFocus
 aPopup
