@@ -1612,7 +1612,7 @@ instruction
 stream
 .
 void
-flush
+finish
 (
 )
 {

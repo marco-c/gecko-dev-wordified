@@ -389,7 +389,7 @@ info
 during
 compilation
 .
-analyze
+types
 :
 :
 AutoEnterAnalysis

@@ -462,6 +462,9 @@ InlineFrameIterator
 :
 InlineFrameIterator
 (
+JSContext
+*
+cx
 const
 IonBailoutIterator
 *
@@ -478,11 +481,11 @@ framesRead_
 )
 callee_
 (
-NULL
+cx
 )
 script_
 (
-NULL
+cx
 )
 {
 if
@@ -524,6 +527,12 @@ IonFrame_OptimizedJS
 InlineFrameIterator
 frames
 (
+GetIonContext
+(
+)
+-
+>
+cx
 this
 )
 ;
@@ -1677,7 +1686,6 @@ pushInlineFrame
 cx
 regs
 inlineArgs
-*
 fun
 script
 flags
@@ -3547,7 +3555,7 @@ script
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -3775,7 +3783,7 @@ code
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx

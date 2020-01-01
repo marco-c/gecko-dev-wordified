@@ -8786,12 +8786,6 @@ flushBuffer
 )
 {
 }
-void
-finish
-(
-)
-{
-}
 /
 /
 Patching
