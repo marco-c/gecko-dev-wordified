@@ -508,7 +508,7 @@ h
 #
 include
 "
-nsIFrameLoader
+nsFrameLoader
 .
 h
 "
@@ -2359,9 +2359,9 @@ load
 .
 *
 /
-nsCOMPtr
+nsRefPtr
 <
-nsIFrameLoader
+nsFrameLoader
 >
 mFrameLoader
 ;
