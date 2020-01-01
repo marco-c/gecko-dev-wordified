@@ -3373,6 +3373,9 @@ skinnable
 "
 bootstrap
 "
+"
+strictCompatibility
+"
 ]
 .
 forEach
