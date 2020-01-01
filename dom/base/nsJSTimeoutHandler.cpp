@@ -672,16 +672,6 @@ JAVASCRIPT
 ;
 }
 virtual
-PRUint32
-GetScriptVersion
-(
-)
-{
-return
-mVersion
-;
-}
-virtual
 nsIArray
 *
 GetArgv

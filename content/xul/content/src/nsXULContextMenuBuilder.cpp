@@ -1112,7 +1112,6 @@ return
 NS_OK
 ;
 }
-return
 mCurrentNode
 -
 >
@@ -1123,6 +1122,9 @@ count
 1
 false
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

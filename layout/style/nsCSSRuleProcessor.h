@@ -830,6 +830,10 @@ dom
 Element
 *
 aElement
+const
+TreeMatchContext
+&
+aTreeMatchContext
 )
 ;
 /
@@ -863,6 +867,10 @@ dom
 Element
 *
 aElement
+const
+TreeMatchContext
+&
+aTreeMatchContext
 nsRuleWalker
 :
 :

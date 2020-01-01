@@ -478,7 +478,7 @@ h
 #
 include
 "
-gfxAtoms
+nsGkAtoms
 .
 h
 "
@@ -4683,10 +4683,10 @@ GetPlatform
 >
 GetPrefFonts
 (
-gfxAtoms
+nsGkAtoms
 :
 :
-x_unicode
+Unicode
 fontString
 false
 )
@@ -4694,10 +4694,10 @@ false
 ForEachFont
 (
 fontString
-gfxAtoms
+nsGkAtoms
 :
 :
-x_unicode
+Unicode
 FontCallback
 &
 familyArray
@@ -4713,7 +4713,7 @@ GetPlatform
 >
 GetPrefFonts
 (
-gfxAtoms
+nsGkAtoms
 :
 :
 x_user_def
@@ -4724,7 +4724,7 @@ false
 ForEachFont
 (
 fontString
-gfxAtoms
+nsGkAtoms
 :
 :
 x_user_def

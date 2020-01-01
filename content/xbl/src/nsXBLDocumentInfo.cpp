@@ -618,6 +618,10 @@ mozilla
 :
 scache
 ;
+using
+namespace
+mozilla
+;
 static
 const
 char
@@ -1704,7 +1708,10 @@ by
 /
 nsGlobalWindow
 .
+DebugOnly
+<
 nsresult
+>
 rv
 ;
 rv

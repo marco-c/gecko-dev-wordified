@@ -3263,7 +3263,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsresult
+void
 nsDOMAttribute
 :
 :
@@ -3288,7 +3288,6 @@ mChild
 )
 {
 return
-NS_OK
 ;
 }
 doRemoveChild
@@ -3308,9 +3307,6 @@ SetValue
 (
 nullString
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

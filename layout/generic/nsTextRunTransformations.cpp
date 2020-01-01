@@ -443,7 +443,7 @@ h
 #
 include
 "
-gfxAtoms
+nsGkAtoms
 .
 h
 "
@@ -2722,7 +2722,7 @@ turkishCasing
 lang
 =
 =
-gfxAtoms
+nsGkAtoms
 :
 :
 tr
@@ -2731,7 +2731,7 @@ tr
 lang
 =
 =
-gfxAtoms
+nsGkAtoms
 :
 :
 az
@@ -2740,7 +2740,7 @@ az
 lang
 =
 =
-gfxAtoms
+nsGkAtoms
 :
 :
 ba
@@ -2749,7 +2749,7 @@ ba
 lang
 =
 =
-gfxAtoms
+nsGkAtoms
 :
 :
 crh
@@ -2758,7 +2758,7 @@ crh
 lang
 =
 =
-gfxAtoms
+nsGkAtoms
 :
 :
 tt

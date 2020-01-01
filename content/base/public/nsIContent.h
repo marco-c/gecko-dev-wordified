@@ -3573,6 +3573,7 @@ PRUint32
 TextLength
 (
 )
+const
 =
 0
 ;

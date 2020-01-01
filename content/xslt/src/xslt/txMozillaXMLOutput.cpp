@@ -3664,8 +3664,6 @@ j
 }
 else
 {
-rv
-=
 mDocument
 -
 >
@@ -3673,12 +3671,6 @@ RemoveChildAt
 (
 j
 true
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv

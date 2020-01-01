@@ -922,13 +922,6 @@ NS_DECL_NSIACCESSIBLETABLECELL
 nsAccessNode
 virtual
 bool
-IsDefunct
-(
-)
-const
-;
-virtual
-bool
 Init
 (
 )

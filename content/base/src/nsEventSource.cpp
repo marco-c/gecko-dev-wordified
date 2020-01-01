@@ -3094,7 +3094,10 @@ return
 NS_OK
 ;
 }
+DebugOnly
+<
 nsresult
+>
 rv
 ;
 if

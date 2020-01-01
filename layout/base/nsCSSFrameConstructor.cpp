@@ -59222,7 +59222,7 @@ aParentFrame
 .
 *
 /
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -59264,7 +59264,6 @@ to
 do
 here
 return
-NS_OK
 ;
 }
 FCItemIterator
@@ -59298,7 +59297,6 @@ we
 re
 finished
 return
-NS_OK
 ;
 }
 /
@@ -60770,9 +60768,6 @@ IsDone
 )
 )
 ;
-return
-NS_OK
-;
 }
 inline
 nsresult
@@ -60801,20 +60796,11 @@ SetTriedConstructingFrames
 (
 )
 ;
-nsresult
-rv
-=
 CreateNeededTablePseudos
 (
 aState
 aItems
 aParentFrame
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 #
@@ -60899,6 +60885,7 @@ Next
 )
 )
 {
+nsresult
 rv
 =
 ConstructFramesFromItem

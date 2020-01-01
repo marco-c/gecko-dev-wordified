@@ -8039,7 +8039,7 @@ for
 *
 /
 inline
-nsresult
+void
 CreateNeededTablePseudos
 (
 nsFrameConstructorState

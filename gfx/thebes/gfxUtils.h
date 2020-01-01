@@ -1254,6 +1254,10 @@ aDT
 ;
 static
 bool
+sDumpPaintList
+;
+static
+bool
 sDumpPainting
 ;
 static

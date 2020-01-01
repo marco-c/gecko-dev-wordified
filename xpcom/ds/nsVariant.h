@@ -5,7 +5,9 @@
 -
 Mode
 :
-IDL
+C
++
++
 ;
 tab
 -
@@ -439,6 +441,12 @@ xpcom
 .
 *
 /
+#
+ifndef
+nsVariant_h
+#
+define
+nsVariant_h
 #
 include
 "
@@ -1582,3 +1590,8 @@ NS_VARIANT_CLASSNAME
 "
 Variant
 "
+#
+endif
+/
+/
+nsVariant_h

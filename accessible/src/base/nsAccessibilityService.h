@@ -642,7 +642,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -671,7 +670,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -686,7 +684,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -701,7 +698,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -730,7 +726,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -745,7 +740,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -760,7 +754,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -789,7 +782,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -804,7 +796,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -819,7 +810,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -834,7 +824,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -849,7 +838,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -867,7 +855,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -882,7 +869,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -897,7 +883,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -912,7 +897,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -927,7 +911,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -942,7 +925,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
@@ -957,7 +939,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 already_AddRefed
 <
 nsAccessible
