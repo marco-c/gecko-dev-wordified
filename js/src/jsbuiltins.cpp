@@ -2059,7 +2059,6 @@ prop
 ;
 if
 (
-!
 js_LookupPropertyWithFlags
 (
 cx
@@ -2071,6 +2070,8 @@ obj2
 &
 prop
 )
+<
+0
 )
 return
 JSVAL_TO_PSEUDO_BOOLEAN
