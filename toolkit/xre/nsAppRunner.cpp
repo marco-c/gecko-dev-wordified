@@ -4993,7 +4993,7 @@ helper
 class
 which
 calls
-NS_LogTerm
+NS_LogInit
 /
 NS_LogTerm
 in
