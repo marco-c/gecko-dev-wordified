@@ -12623,11 +12623,14 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 Internal
 API
 Used
 "
+)
 mContentViewer
 ?
 mContentViewer

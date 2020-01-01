@@ -458,6 +458,12 @@ char
 category
 )
 {
+nsDependentCString
+c
+(
+category
+)
+;
 return
 InitWithWindowID
 (
@@ -467,7 +473,7 @@ sourceLine
 lineNumber
 columnNumber
 flags
-category
+c
 0
 )
 ;
@@ -497,8 +503,8 @@ columnNumber
 uint32_t
 flags
 const
-char
-*
+nsACString
+&
 category
 uint64_t
 aInnerWindowID
@@ -538,11 +544,8 @@ mFlags
 flags
 ;
 mCategory
-.
-Assign
-(
+=
 category
-)
 ;
 mTimeStamp
 =

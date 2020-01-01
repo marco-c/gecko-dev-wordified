@@ -16683,8 +16683,8 @@ ReportToConsole
 uint32_t
 aErrorFlags
 const
-char
-*
+nsACString
+&
 aCategory
 nsIDocument
 *
@@ -16825,8 +16825,8 @@ aErrorText
 uint32_t
 aErrorFlags
 const
-char
-*
+nsACString
+&
 aCategory
 nsIDocument
 *

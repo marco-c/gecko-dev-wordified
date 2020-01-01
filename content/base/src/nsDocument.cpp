@@ -13495,10 +13495,6 @@ NS_ConvertUTF16toUTF8
 (
 category
 )
-.
-get
-(
-)
 this
 nsContentUtils
 :
