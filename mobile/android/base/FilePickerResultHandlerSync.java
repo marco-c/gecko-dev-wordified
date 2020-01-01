@@ -86,7 +86,6 @@ util
 .
 Log
 ;
-final
 class
 FilePickerResultHandlerSync
 extends

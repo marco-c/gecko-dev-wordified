@@ -190,7 +190,6 @@ util
 .
 Log
 ;
-final
 class
 ActivityHandlerHelper
 {
@@ -1533,7 +1532,6 @@ PromptService
 /
 private
 static
-final
 class
 FilePickerPromptRunnable
 implements

@@ -126,7 +126,7 @@ util
 .
 Hashtable
 ;
-final
+public
 class
 INIParser
 extends

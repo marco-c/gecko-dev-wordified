@@ -128,7 +128,7 @@ widget
 .
 RelativeLayout
 ;
-final
+public
 class
 FindInPageBar
 extends

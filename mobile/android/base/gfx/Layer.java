@@ -978,7 +978,6 @@ mNewResolution
 }
 public
 static
-final
 class
 RenderContext
 {

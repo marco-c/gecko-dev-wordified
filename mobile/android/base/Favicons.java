@@ -306,7 +306,7 @@ entity
 .
 BufferedHttpEntity
 ;
-final
+public
 class
 Favicons
 {
@@ -370,6 +370,7 @@ public
 interface
 OnFaviconLoadedListener
 {
+public
 void
 onFaviconLoaded
 (
@@ -381,7 +382,6 @@ favicon
 ;
 }
 private
-final
 class
 DatabaseHelper
 extends
@@ -1258,7 +1258,6 @@ close
 ;
 }
 private
-final
 class
 LoadFaviconTask
 extends

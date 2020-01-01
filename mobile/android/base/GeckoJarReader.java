@@ -202,13 +202,12 @@ favicon32
 png
 *
 /
-final
+public
 class
 GeckoJarReader
 {
 private
 static
-final
 String
 LOGTAG
 =

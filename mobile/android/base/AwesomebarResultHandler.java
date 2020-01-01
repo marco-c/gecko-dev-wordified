@@ -70,7 +70,6 @@ content
 .
 Intent
 ;
-final
 class
 AwesomebarResultHandler
 implements

@@ -167,7 +167,7 @@ suggestions
 .
 *
 /
-final
+public
 class
 SuggestClient
 {

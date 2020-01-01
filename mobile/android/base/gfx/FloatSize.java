@@ -122,7 +122,6 @@ json
 JSONObject
 ;
 public
-final
 class
 FloatSize
 {

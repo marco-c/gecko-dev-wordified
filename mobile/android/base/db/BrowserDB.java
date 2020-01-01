@@ -144,11 +144,12 @@ about
 "
 ;
 public
+static
 interface
 URLColumns
 {
+public
 static
-final
 String
 URL
 =
@@ -156,8 +157,8 @@ URL
 url
 "
 ;
+public
 static
-final
 String
 TITLE
 =
@@ -165,8 +166,8 @@ TITLE
 title
 "
 ;
+public
 static
-final
 String
 FAVICON
 =
@@ -174,8 +175,8 @@ FAVICON
 favicon
 "
 ;
+public
 static
-final
 String
 THUMBNAIL
 =
@@ -183,8 +184,8 @@ THUMBNAIL
 thumbnail
 "
 ;
+public
 static
-final
 String
 DATE_LAST_VISITED
 =
@@ -196,8 +197,8 @@ last
 visited
 "
 ;
+public
 static
-final
 String
 VISITS
 =
@@ -205,8 +206,8 @@ VISITS
 visits
 "
 ;
+public
 static
-final
 String
 KEYWORD
 =

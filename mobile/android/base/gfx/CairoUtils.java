@@ -122,7 +122,7 @@ ES
 .
 *
 /
-final
+public
 class
 CairoUtils
 {

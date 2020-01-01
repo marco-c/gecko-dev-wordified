@@ -139,7 +139,7 @@ use
 .
 *
 /
-final
+public
 class
 ByteBufferInputStream
 extends

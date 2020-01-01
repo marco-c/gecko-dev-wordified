@@ -144,6 +144,7 @@ ES
 .
 *
 /
+public
 abstract
 class
 TileLayer

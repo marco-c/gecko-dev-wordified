@@ -182,7 +182,7 @@ widget
 .
 TextView
 ;
-final
+public
 class
 AwesomeBarTabs
 extends

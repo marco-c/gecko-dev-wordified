@@ -78,7 +78,6 @@ app
 Application
 ;
 public
-final
 class
 GeckoApplication
 extends

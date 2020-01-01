@@ -131,7 +131,7 @@ widget
 .
 EditText
 ;
-final
+public
 class
 CustomEditText
 extends

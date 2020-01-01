@@ -71,7 +71,6 @@ nio
 ByteBuffer
 ;
 public
-final
 class
 SurfaceBits
 {

@@ -154,12 +154,6 @@ final
 class
 RectUtils
 {
-private
-RectUtils
-(
-)
-{
-}
 public
 static
 Rect

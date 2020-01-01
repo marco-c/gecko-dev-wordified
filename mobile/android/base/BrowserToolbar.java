@@ -316,7 +316,7 @@ widget
 .
 ViewSwitcher
 ;
-final
+public
 class
 BrowserToolbar
 implements
@@ -3699,9 +3699,7 @@ with
 no
 hardware
 key
-private
-static
-final
+public
 class
 MenuPopup
 extends

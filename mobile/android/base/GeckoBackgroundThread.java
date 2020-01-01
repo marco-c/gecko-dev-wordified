@@ -87,7 +87,6 @@ concurrent
 SynchronousQueue
 ;
 public
-final
 class
 GeckoBackgroundThread
 extends

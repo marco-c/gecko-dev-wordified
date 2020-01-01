@@ -124,7 +124,7 @@ ES
 .
 *
 /
-final
+public
 class
 CairoGLInfo
 {

@@ -170,7 +170,7 @@ meter
 .
 *
 /
-final
+public
 class
 TextLayer
 extends

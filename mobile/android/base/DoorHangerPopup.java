@@ -203,7 +203,7 @@ json
 .
 JSONException
 ;
-final
+public
 class
 DoorHangerPopup
 extends

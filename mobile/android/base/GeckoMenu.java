@@ -156,7 +156,7 @@ LinearLayout
 .
 LayoutParams
 ;
-final
+public
 class
 GeckoMenu
 extends
@@ -182,6 +182,7 @@ Context
 mContext
 ;
 public
+static
 interface
 ActionItemBarPresenter
 {

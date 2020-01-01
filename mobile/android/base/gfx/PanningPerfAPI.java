@@ -126,7 +126,7 @@ util
 .
 Log
 ;
-final
+public
 class
 PanningPerfAPI
 {

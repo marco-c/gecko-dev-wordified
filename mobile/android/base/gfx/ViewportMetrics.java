@@ -180,7 +180,6 @@ use
 *
 /
 public
-final
 class
 ViewportMetrics
 {

@@ -447,7 +447,7 @@ text
 .
 TextUtils
 ;
-final
+public
 class
 AboutHomeContent
 extends
@@ -4139,9 +4139,8 @@ show
 )
 ;
 }
-private
+public
 static
-final
 class
 TopSitesGridView
 extends
@@ -4440,8 +4439,7 @@ expandedHeightSpec
 ;
 }
 }
-private
-final
+public
 class
 TopSitesCursorAdapter
 extends
@@ -4535,9 +4533,6 @@ return
 ;
 }
 }
-private
-static
-final
 class
 TopSitesViewBinder
 implements

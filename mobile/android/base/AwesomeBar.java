@@ -333,7 +333,6 @@ db
 BrowserDB
 ;
 public
-final
 class
 AwesomeBar
 extends
@@ -2455,7 +2454,7 @@ cancelAndFinish
 ;
 }
 static
-final
+public
 class
 ContextMenuSubject
 {

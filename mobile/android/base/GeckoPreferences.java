@@ -255,7 +255,6 @@ json
 JSONObject
 ;
 public
-final
 class
 GeckoPreferences
 extends
@@ -1195,8 +1194,6 @@ input
 ;
 }
 private
-static
-final
 class
 PasswordTextWatcher
 implements
