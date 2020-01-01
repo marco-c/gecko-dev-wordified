@@ -152,7 +152,7 @@ form
 script
 >
 function
-submitForm
+startAutocomplete
 (
 )
 {
@@ -169,6 +169,18 @@ down
 "
 )
 ;
+setTimeout
+(
+submitForm
+100
+)
+;
+}
+function
+submitForm
+(
+)
+{
 doKey
 (
 "
@@ -204,7 +216,7 @@ window
 .
 onload
 =
-submitForm
+startAutocomplete
 ;
 var
 form
