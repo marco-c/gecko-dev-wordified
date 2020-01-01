@@ -3229,7 +3229,7 @@ rv
 nsLeafFrame
 :
 :
-Reflow
+DoReflow
 (
 aPresContext
 aDesiredSize
