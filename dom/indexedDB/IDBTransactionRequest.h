@@ -539,7 +539,7 @@ AsyncConnectionHelper
 class
 CommitHelper
 ;
-class
+struct
 ObjectStoreInfo
 ;
 class
