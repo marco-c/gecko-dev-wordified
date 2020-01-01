@@ -3290,7 +3290,10 @@ aObject
 )
 {
 return
+ToSupports
+(
 aObject
+)
 ;
 }
 inline
@@ -3305,9 +3308,12 @@ aObject
 )
 {
 return
+ToSupports
+(
 aObject
 .
 mObject
+)
 ;
 }
 /
