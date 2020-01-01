@@ -1484,6 +1484,7 @@ NS_NewSVGElement
 (
 aResult
 aNodeInfo
+aFromParser
 )
 ;
 }

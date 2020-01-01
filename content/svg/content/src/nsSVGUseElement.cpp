@@ -2397,6 +2397,7 @@ getter_AddRefs
 svgNode
 )
 nodeInfo
+PR_FALSE
 )
 ;
 if
