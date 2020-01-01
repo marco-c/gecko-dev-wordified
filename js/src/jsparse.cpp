@@ -46076,6 +46076,17 @@ false
 ;
 break
 ;
+case
+PN_NULLARY
+:
+/
+*
+Nothing
+.
+*
+/
+break
+;
 }
 return
 true
