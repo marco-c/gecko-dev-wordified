@@ -688,6 +688,14 @@ div
 )
 ;
 bool
+lowerModI
+(
+MMod
+*
+mod
+)
+;
+bool
 visitGuardShape
 (
 MGuardShape

@@ -1003,6 +1003,14 @@ ins
 )
 ;
 bool
+visitMod
+(
+MMod
+*
+ins
+)
+;
+bool
 visitStart
 (
 MStart
