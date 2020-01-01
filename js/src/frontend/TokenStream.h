@@ -570,8 +570,6 @@ EOF
 *
 /
 TOK_EOF
-=
-0
 /
 *
 end
@@ -580,8 +578,6 @@ file
 *
 /
 TOK_EOL
-=
-1
 /
 *
 end
@@ -597,16 +593,12 @@ peekTokenSameLine
 *
 /
 TOK_SEMI
-=
-2
 /
 *
 semicolon
 *
 /
 TOK_COMMA
-=
-3
 /
 *
 comma
@@ -614,8 +606,6 @@ operator
 *
 /
 TOK_ASSIGN
-=
-4
 /
 *
 assignment
@@ -632,11 +622,7 @@ etc
 *
 /
 TOK_HOOK
-=
-5
 TOK_COLON
-=
-6
 /
 *
 conditional
@@ -647,8 +633,6 @@ conditional
 *
 /
 TOK_OR
-=
-7
 /
 *
 logical
@@ -660,8 +644,6 @@ or
 *
 /
 TOK_AND
-=
-8
 /
 *
 logical
@@ -673,8 +655,6 @@ and
 *
 /
 TOK_BITOR
-=
-9
 /
 *
 bitwise
@@ -686,8 +666,6 @@ or
 *
 /
 TOK_BITXOR
-=
-10
 /
 *
 bitwise
@@ -699,8 +677,6 @@ xor
 *
 /
 TOK_BITAND
-=
-11
 /
 *
 bitwise
@@ -712,8 +688,6 @@ and
 *
 /
 TOK_RELOP
-=
-13
 /
 *
 relational
@@ -729,8 +703,6 @@ ops
 *
 /
 TOK_SHOP
-=
-14
 /
 *
 shift
@@ -747,27 +719,19 @@ ops
 *
 /
 TOK_PLUS
-=
-15
 /
 *
 plus
 *
 /
 TOK_MINUS
-=
-16
 /
 *
 minus
 *
 /
 TOK_STAR
-=
-17
 TOK_DIVOP
-=
-18
 /
 *
 multiply
@@ -782,8 +746,6 @@ ops
 *
 /
 TOK_UNARYOP
-=
-19
 /
 *
 unary
@@ -792,11 +754,7 @@ operator
 *
 /
 TOK_INC
-=
-20
 TOK_DEC
-=
-21
 /
 *
 increment
@@ -811,8 +769,6 @@ decrement
 *
 /
 TOK_DOT
-=
-22
 /
 *
 member
@@ -823,11 +779,7 @@ operator
 *
 /
 TOK_LB
-=
-23
 TOK_RB
-=
-24
 /
 *
 left
@@ -837,11 +789,7 @@ brackets
 *
 /
 TOK_LC
-=
-25
 TOK_RC
-=
-26
 /
 *
 left
@@ -854,11 +802,7 @@ braces
 *
 /
 TOK_LP
-=
-27
 TOK_RP
-=
-28
 /
 *
 left
@@ -868,16 +812,12 @@ parentheses
 *
 /
 TOK_NAME
-=
-29
 /
 *
 identifier
 *
 /
 TOK_NUMBER
-=
-30
 /
 *
 numeric
@@ -885,8 +825,6 @@ constant
 *
 /
 TOK_STRING
-=
-31
 /
 *
 string
@@ -894,8 +832,6 @@ constant
 *
 /
 TOK_REGEXP
-=
-32
 /
 *
 RegExp
@@ -903,8 +839,6 @@ constant
 *
 /
 TOK_PRIMARY
-=
-33
 /
 *
 true
@@ -915,8 +849,6 @@ super
 *
 /
 TOK_FUNCTION
-=
-34
 /
 *
 function
@@ -924,8 +856,6 @@ keyword
 *
 /
 TOK_IF
-=
-35
 /
 *
 if
@@ -933,8 +863,6 @@ keyword
 *
 /
 TOK_ELSE
-=
-36
 /
 *
 else
@@ -942,8 +870,6 @@ keyword
 *
 /
 TOK_SWITCH
-=
-37
 /
 *
 switch
@@ -951,8 +877,6 @@ keyword
 *
 /
 TOK_CASE
-=
-38
 /
 *
 case
@@ -960,8 +884,6 @@ keyword
 *
 /
 TOK_DEFAULT
-=
-39
 /
 *
 default
@@ -969,8 +891,6 @@ keyword
 *
 /
 TOK_WHILE
-=
-40
 /
 *
 while
@@ -978,8 +898,6 @@ keyword
 *
 /
 TOK_DO
-=
-41
 /
 *
 do
@@ -987,8 +905,6 @@ keyword
 *
 /
 TOK_FOR
-=
-42
 /
 *
 for
@@ -996,8 +912,6 @@ keyword
 *
 /
 TOK_BREAK
-=
-43
 /
 *
 break
@@ -1005,8 +919,6 @@ keyword
 *
 /
 TOK_CONTINUE
-=
-44
 /
 *
 continue
@@ -1014,8 +926,6 @@ keyword
 *
 /
 TOK_IN
-=
-45
 /
 *
 in
@@ -1023,8 +933,6 @@ keyword
 *
 /
 TOK_VAR
-=
-46
 /
 *
 var
@@ -1032,8 +940,6 @@ keyword
 *
 /
 TOK_WITH
-=
-47
 /
 *
 with
@@ -1041,8 +947,6 @@ keyword
 *
 /
 TOK_RETURN
-=
-48
 /
 *
 return
@@ -1050,8 +954,6 @@ keyword
 *
 /
 TOK_NEW
-=
-49
 /
 *
 new
@@ -1059,8 +961,6 @@ keyword
 *
 /
 TOK_DELETE
-=
-50
 /
 *
 delete
@@ -1068,8 +968,6 @@ keyword
 *
 /
 TOK_DEFSHARP
-=
-51
 /
 *
 #
@@ -1083,8 +981,6 @@ initializers
 *
 /
 TOK_USESHARP
-=
-52
 /
 *
 #
@@ -1098,8 +994,6 @@ initializers
 *
 /
 TOK_TRY
-=
-53
 /
 *
 try
@@ -1107,8 +1001,6 @@ keyword
 *
 /
 TOK_CATCH
-=
-54
 /
 *
 catch
@@ -1116,8 +1008,6 @@ keyword
 *
 /
 TOK_FINALLY
-=
-55
 /
 *
 finally
@@ -1125,8 +1015,6 @@ keyword
 *
 /
 TOK_THROW
-=
-56
 /
 *
 throw
@@ -1134,8 +1022,6 @@ keyword
 *
 /
 TOK_INSTANCEOF
-=
-57
 /
 *
 instanceof
@@ -1143,8 +1029,6 @@ keyword
 *
 /
 TOK_DEBUGGER
-=
-58
 /
 *
 debugger
@@ -1152,8 +1036,6 @@ keyword
 *
 /
 TOK_XMLSTAGO
-=
-59
 /
 *
 XML
@@ -1166,8 +1048,6 @@ open
 *
 /
 TOK_XMLETAGO
-=
-60
 /
 *
 XML
@@ -1181,8 +1061,6 @@ open
 *
 /
 TOK_XMLPTAGC
-=
-61
 /
 *
 XML
@@ -1196,8 +1074,6 @@ close
 *
 /
 TOK_XMLTAGC
-=
-62
 /
 *
 XML
@@ -1212,8 +1088,6 @@ close
 *
 /
 TOK_XMLNAME
-=
-63
 /
 *
 XML
@@ -1227,8 +1101,6 @@ fragment
 *
 /
 TOK_XMLATTR
-=
-64
 /
 *
 XML
@@ -1238,8 +1110,6 @@ value
 *
 /
 TOK_XMLSPACE
-=
-65
 /
 *
 XML
@@ -1247,8 +1117,6 @@ whitespace
 *
 /
 TOK_XMLTEXT
-=
-66
 /
 *
 XML
@@ -1256,8 +1124,6 @@ text
 *
 /
 TOK_XMLCOMMENT
-=
-67
 /
 *
 XML
@@ -1265,8 +1131,6 @@ comment
 *
 /
 TOK_XMLCDATA
-=
-68
 /
 *
 XML
@@ -1275,8 +1139,6 @@ section
 *
 /
 TOK_XMLPI
-=
-69
 /
 *
 XML
@@ -1285,8 +1147,6 @@ instruction
 *
 /
 TOK_AT
-=
-70
 /
 *
 XML
@@ -1297,8 +1157,6 @@ op
 *
 /
 TOK_DBLCOLON
-=
-71
 /
 *
 namespace
@@ -1312,8 +1170,6 @@ op
 *
 /
 TOK_ANYNAME
-=
-72
 /
 *
 XML
@@ -1325,8 +1181,6 @@ singleton
 *
 /
 TOK_DBLDOT
-=
-73
 /
 *
 XML
@@ -1339,8 +1193,6 @@ op
 *
 /
 TOK_FILTER
-=
-74
 /
 *
 XML
@@ -1355,8 +1207,6 @@ op
 *
 /
 TOK_XMLELEM
-=
-75
 /
 *
 XML
@@ -1370,8 +1220,6 @@ token
 *
 /
 TOK_XMLLIST
-=
-76
 /
 *
 XML
@@ -1385,8 +1233,6 @@ token
 *
 /
 TOK_YIELD
-=
-77
 /
 *
 yield
@@ -1396,8 +1242,6 @@ function
 *
 /
 TOK_ARRAYCOMP
-=
-78
 /
 *
 array
@@ -1406,8 +1250,6 @@ initialiser
 *
 /
 TOK_ARRAYPUSH
-=
-79
 /
 *
 array
@@ -1417,8 +1259,6 @@ comprehension
 *
 /
 TOK_LEXICALSCOPE
-=
-80
 /
 *
 block
@@ -1429,8 +1269,6 @@ label
 *
 /
 TOK_LET
-=
-81
 /
 *
 let
@@ -1438,8 +1276,6 @@ keyword
 *
 /
 TOK_SEQ
-=
-82
 /
 *
 synthetic
@@ -1452,8 +1288,6 @@ block
 *
 /
 TOK_FORHEAD
-=
-83
 /
 *
 head
@@ -1469,8 +1303,6 @@ loop
 *
 /
 TOK_ARGSBODY
-=
-84
 /
 *
 formal
@@ -1484,8 +1316,6 @@ end
 *
 /
 TOK_UPVARS
-=
-85
 /
 *
 lexical
@@ -6180,6 +6010,24 @@ FILE
 file
 )
 ;
+#
+ifdef
+DEBUG
+extern
+const
+char
+*
+TokenKindToString
+(
+js
+:
+:
+TokenKind
+tt
+)
+;
+#
+endif
 #
 endif
 /
