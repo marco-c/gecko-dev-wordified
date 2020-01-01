@@ -25095,7 +25095,6 @@ finish
     
 except
 WebIDLError
-as
 e
 :
         
