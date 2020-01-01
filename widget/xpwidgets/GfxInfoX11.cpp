@@ -836,6 +836,7 @@ which
 is
 sad
 .
+struct
 utsname
 unameobj
 ;
