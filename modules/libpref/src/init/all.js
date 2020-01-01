@@ -8133,7 +8133,7 @@ dom
 .
 xbl_scopes
 "
-true
+false
 )
 ;
 /
