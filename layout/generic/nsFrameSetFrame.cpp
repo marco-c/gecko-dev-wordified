@@ -10367,12 +10367,8 @@ PaintBorder
 (
 *
 aCtx
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;

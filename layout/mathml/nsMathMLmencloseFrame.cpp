@@ -4636,12 +4636,8 @@ AppUnitsToGfxUnits
 (
 mRect
 +
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;

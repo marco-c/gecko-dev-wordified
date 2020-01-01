@@ -3238,12 +3238,8 @@ rectAtOrigin
 =
 aRect
 -
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 ;
 nsRect
@@ -3372,12 +3368,8 @@ Paint
 *
 aCtx
 mVisibleRect
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;

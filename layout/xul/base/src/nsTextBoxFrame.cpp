@@ -1898,12 +1898,8 @@ PaintTitle
 *
 aCtx
 mVisibleRect
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;
@@ -1927,12 +1923,8 @@ GetOverflowRect
 (
 )
 +
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 ;
 }
