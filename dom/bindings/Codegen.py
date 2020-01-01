@@ -31762,13 +31762,11 @@ Template
             
 "
 args
-.
-handleAt
-(
+[
 {
 index
 }
-)
+]
 "
             
 )
@@ -32364,11 +32362,9 @@ Template
 (
 "
 args
-.
-handleAt
-(
+[
 variadicArg
-)
+]
 "
 )
 .
@@ -41726,12 +41722,10 @@ distinguishingArg
 =
 "
 args
-.
-handleAt
-(
+[
 %
 d
-)
+]
 "
 %
 distinguishingIndex
@@ -47460,11 +47454,9 @@ toObject
 s
 "
 args
-.
-handleAt
-(
+[
 0
-)
+]
 )
 ;
 "

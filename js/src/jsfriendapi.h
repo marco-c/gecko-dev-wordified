@@ -8799,11 +8799,9 @@ JS
 MutableHandleValue
 (
 args
-.
-handleAt
-(
+[
 0
-)
+]
 )
 {
 }
@@ -8811,7 +8809,9 @@ JS
 :
 :
 MutableHandleValue
-handleAt
+operator
+[
+]
 (
 unsigned
 i
@@ -8994,7 +8994,9 @@ JS
 :
 :
 MutableHandleValue
-handleAt
+operator
+[
+]
 (
 unsigned
 i
@@ -9005,7 +9007,9 @@ return
 Base
 :
 :
-handleAt
+operator
+[
+]
 (
 i
 )

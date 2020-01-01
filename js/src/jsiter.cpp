@@ -5307,17 +5307,10 @@ ValueToIterator
 (
 cx
 flags
-MutableHandleValue
-:
-:
-fromMarkedLocation
-(
-&
 args
 [
 0
 ]
-)
 )
 )
 return

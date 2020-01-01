@@ -404,7 +404,7 @@ CanGC
 cx
 args
 .
-handleOrUndefinedAt
+get
 (
 0
 )
@@ -2360,11 +2360,9 @@ CanGC
 (
 cx
 args
-.
-handleAt
-(
+[
 0
-)
+]
 &
 id
 )
@@ -2683,7 +2681,7 @@ CanGC
 cx
 args
 .
-handleOrUndefinedAt
+get
 (
 0
 )
@@ -2961,7 +2959,7 @@ CanGC
 cx
 args
 .
-handleOrUndefinedAt
+get
 (
 0
 )
@@ -3697,11 +3695,9 @@ CanGC
 (
 cx
 args
-.
-handleAt
-(
+[
 0
-)
+]
 &
 propid
 )
@@ -3860,11 +3856,9 @@ CanGC
 (
 cx
 args
-.
-handleAt
-(
+[
 0
-)
+]
 &
 id
 )
@@ -3939,7 +3933,7 @@ idValue
 =
 args
 .
-handleOrUndefinedAt
+get
 (
 0
 )
@@ -4794,7 +4788,7 @@ CanGC
 cx
 args
 .
-handleOrUndefinedAt
+get
 (
 1
 )
@@ -5495,7 +5489,7 @@ CanGC
 cx
 args
 .
-handleOrUndefinedAt
+get
 (
 1
 )
@@ -5519,7 +5513,7 @@ obj
 id
 args
 .
-handleOrUndefinedAt
+get
 (
 2
 )

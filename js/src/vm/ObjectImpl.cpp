@@ -6363,8 +6363,11 @@ args
 [
 0
 ]
-=
+.
+set
+(
 v
+)
 ;
 *
 succeeded

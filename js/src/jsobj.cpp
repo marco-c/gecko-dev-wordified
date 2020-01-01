@@ -2071,11 +2071,9 @@ HandleValue
 v
 =
 args
-.
-handleAt
-(
+[
 0
-)
+]
 ;
 if
 (

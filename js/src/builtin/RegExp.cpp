@@ -1961,11 +1961,9 @@ CanGC
 (
 cx
 args
-.
-handleAt
-(
+[
 1
-)
+]
 )
 )
 ;
@@ -4042,7 +4040,7 @@ CanGC
 cx
 args
 .
-handleOrUndefinedAt
+get
 (
 0
 )
@@ -4225,7 +4223,7 @@ CanGC
 cx
 args
 .
-handleOrUndefinedAt
+get
 (
 0
 )

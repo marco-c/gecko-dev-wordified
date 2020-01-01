@@ -4427,8 +4427,8 @@ args
 [
 i
 ]
-=
-STRING_TO_JSVAL
+.
+setString
 (
 str
 )
@@ -7043,8 +7043,8 @@ args
 [
 0
 ]
-=
-STRING_TO_JSVAL
+.
+setString
 (
 str
 )
@@ -8079,8 +8079,7 @@ ToSource
 JSContext
 *
 cx
-jsval
-*
+MutableHandleValue
 vp
 JSAutoByteString
 *
@@ -8094,7 +8093,6 @@ str
 JS_ValueToSource
 (
 cx
-*
 vp
 )
 ;
@@ -8103,10 +8101,9 @@ if
 str
 )
 {
-*
 vp
-=
-STRING_TO_JSVAL
+.
+setString
 (
 str
 )
@@ -8292,7 +8289,6 @@ actual
 ToSource
 (
 cx
-&
 args
 [
 0
@@ -8309,7 +8305,6 @@ expected
 ToSource
 (
 cx
-&
 args
 [
 1
@@ -9142,8 +9137,8 @@ args
 [
 argc
 ]
-=
-STRING_TO_JSVAL
+.
+setString
 (
 str
 )
@@ -12857,8 +12852,8 @@ args
 [
 0
 ]
-=
-STRING_TO_JSVAL
+.
+setString
 (
 str
 )
@@ -13683,8 +13678,8 @@ args
 [
 0
 ]
-=
-ObjectValue
+.
+setObject
 (
 *
 obj
@@ -20904,11 +20899,9 @@ CanGC
 (
 cx
 args
-.
-handleAt
-(
+[
 0
-)
+]
 )
 )
 ;

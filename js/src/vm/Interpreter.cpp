@@ -1499,7 +1499,7 @@ setCallee
 obj
 -
 >
-getSlot
+getReservedSlot
 (
 JSSLOT_FOUND_FUNCTION
 )
@@ -1519,13 +1519,16 @@ args
 [
 0
 ]
-=
+.
+set
+(
 obj
 -
 >
-getSlot
+getReservedSlot
 (
 JSSLOT_SAVED_ID
+)
 )
 ;
 JSObject
