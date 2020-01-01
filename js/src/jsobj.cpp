@@ -7253,9 +7253,10 @@ JSStackFrame
 *
 caller
 =
-js_GetTopStackFrame
+js_GetScriptedCaller
 (
 cx
+NULL
 )
 ;
 if
