@@ -5080,8 +5080,6 @@ Script
 "
 JSCLASS_HAS_PRIVATE
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
@@ -5150,10 +5148,7 @@ NULL
 hasInstance
 *
 /
-JS_CLASS_TRACE
-(
 script_trace
-)
 }
 ;
 /

@@ -753,8 +753,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Iterator
 )
-|
-JSCLASS_MARK_IS_TRACE
 PropertyStub
 /
 *
@@ -819,10 +817,7 @@ NULL
 hasInstance
 *
 /
-JS_CLASS_TRACE
-(
 iterator_trace
-)
 {
 NULL
 /
@@ -7432,8 +7427,6 @@ JSProto_Generator
 )
 |
 JSCLASS_IS_ANONYMOUS
-|
-JSCLASS_MARK_IS_TRACE
 PropertyStub
 /
 *
@@ -7498,10 +7491,7 @@ NULL
 hasInstance
 *
 /
-JS_CLASS_TRACE
-(
 generator_trace
-)
 {
 NULL
 /

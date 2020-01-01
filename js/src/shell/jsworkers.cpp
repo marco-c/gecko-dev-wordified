@@ -7689,8 +7689,6 @@ jsClass
 ThreadPool
 "
 JSCLASS_HAS_PRIVATE
-|
-JSCLASS_MARK_IS_TRACE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -7705,10 +7703,7 @@ NULL
 NULL
 NULL
 NULL
-JS_CLASS_TRACE
-(
 jsTraceThreadPool
-)
 NULL
 }
 ;
@@ -7723,8 +7718,6 @@ jsWorkerClass
 Worker
 "
 JSCLASS_HAS_PRIVATE
-|
-JSCLASS_MARK_IS_TRACE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -7739,10 +7732,7 @@ NULL
 NULL
 NULL
 NULL
-JS_CLASS_TRACE
-(
 jsTraceWorker
-)
 NULL
 }
 ;

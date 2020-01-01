@@ -713,8 +713,6 @@ JSCLASS_HAS_PRIVATE
 |
 JSCLASS_NEW_RESOLVE
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Error
@@ -786,10 +784,7 @@ NULL
 hasInstance
 *
 /
-JS_CLASS_TRACE
-(
 exn_trace
-)
 }
 ;
 typedef
