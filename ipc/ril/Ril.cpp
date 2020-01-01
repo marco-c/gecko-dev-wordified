@@ -1536,7 +1536,7 @@ return
 false
 ;
 }
-if
+iif
 (
 connect
 (
