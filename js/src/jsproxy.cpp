@@ -345,6 +345,10 @@ mHasPrototype
 (
 false
 )
+mHasPolicy
+(
+false
+)
 {
 }
 BaseProxyHandler
