@@ -7291,13 +7291,11 @@ js_CheckPrincipalsAccess
 (
 cx
 obj
+JS_StackFramePrincipals
+(
+cx
 caller
--
->
-script
--
->
-principals
+)
 cx
 -
 >
