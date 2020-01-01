@@ -36509,6 +36509,8 @@ if
 ownResult
 )
 delete
+[
+]
 data
 ;
 delete
