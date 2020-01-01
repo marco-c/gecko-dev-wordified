@@ -1028,6 +1028,16 @@ VMFrame
 f
 )
 ;
+JSString
+*
+JS_FASTCALL
+TypeOf
+(
+VMFrame
+&
+f
+)
+;
 }
 }
 }
