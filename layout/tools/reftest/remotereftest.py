@@ -2460,6 +2460,14 @@ self
 SERVER_STARTUP_TIMEOUT
 =
 90
+        
+self
+.
+automation
+.
+deleteANRs
+(
+)
     
 def
 findPath

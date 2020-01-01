@@ -1883,6 +1883,14 @@ localLog
 options
 .
 logFile
+        
+self
+.
+_automation
+.
+deleteANRs
+(
+)
     
 def
 cleanup
