@@ -454,13 +454,13 @@ vp
 JSObject
 *
 replacer
+jsval
+space
 JSONWriteCallback
 callback
 void
 *
 data
-uint32
-depth
 )
 ;
 extern

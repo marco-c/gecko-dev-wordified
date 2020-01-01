@@ -1344,6 +1344,15 @@ null
 ]
 )
 ;
+return
+testPairs
+;
+}
+function
+testIterator
+(
+)
+{
 /
 /
 custom
@@ -1448,9 +1457,6 @@ encode
 x
 )
 )
-;
-return
-testPairs
 ;
 }
 function
@@ -2286,6 +2292,10 @@ run_test
 )
 {
 testStringEncode
+(
+)
+;
+testIterator
 (
 )
 ;

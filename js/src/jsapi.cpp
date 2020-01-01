@@ -29852,6 +29852,8 @@ vp
 JSObject
 *
 replacer
+jsval
+space
 JSONWriteCallback
 callback
 void
@@ -29870,9 +29872,9 @@ js_Stringify
 cx
 vp
 replacer
+space
 callback
 data
-0
 )
 ;
 }
