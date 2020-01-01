@@ -1275,6 +1275,11 @@ mTotalBytes
 =
 bytes
 ;
+aOffset
++
+=
+bytes
+;
 mDecoder
 -
 >
@@ -1283,8 +1288,6 @@ UpdateBytesDownloaded
 mOffset
 +
 aOffset
-+
-bytes
 )
 ;
 }
