@@ -1682,7 +1682,7 @@ respect
 to
 the
 whole
-tabble
+table
 (
 starting
 at
@@ -1708,8 +1708,6 @@ parent
 colgroup
 uint32_t
 mColIndex
-:
-16
 ;
 /
 /
