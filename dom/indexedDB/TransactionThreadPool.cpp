@@ -2314,10 +2314,8 @@ WaitForAllDatabasesToComplete
 (
 nsTArray
 <
-nsRefPtr
-<
 IDBDatabase
->
+*
 >
 &
 aDatabases
