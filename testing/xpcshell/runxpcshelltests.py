@@ -2594,12 +2594,14 @@ INFO
 Result
 summary
 :
+    
 INFO
 |
 Passed
 :
 %
 d
+    
 INFO
 |
 Failed
