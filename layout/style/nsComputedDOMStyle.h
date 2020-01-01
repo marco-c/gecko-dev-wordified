@@ -2889,7 +2889,7 @@ PRBool
 aCommaDelimited
 )
 ;
-nsresult
+void
 SetToRGBAColor
 (
 nsROCSSPrimitiveValue
