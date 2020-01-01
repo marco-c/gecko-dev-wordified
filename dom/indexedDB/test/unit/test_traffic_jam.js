@@ -531,6 +531,7 @@ ExpectError
 "
 VersionError
 "
+true
 )
 ;
 event

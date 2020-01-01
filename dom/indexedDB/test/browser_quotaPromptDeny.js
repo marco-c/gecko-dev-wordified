@@ -252,6 +252,7 @@ is
 result
 "
 abort
+UnknownError
 "
 "
 Got
@@ -717,6 +718,7 @@ is
 lastResult
 "
 abort
+UnknownError
 "
 "
 Aborted
