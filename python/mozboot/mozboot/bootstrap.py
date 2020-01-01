@@ -300,11 +300,15 @@ GentooBootstrapper
             
 elif
 distro
-=
-=
+in
+(
 '
 Mint
 '
+'
+LinuxMint
+'
+)
 :
                 
 cls
