@@ -588,7 +588,7 @@ LOG_ENABLED
 (
 )
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -1184,7 +1184,7 @@ mHMAC
 >
 Finish
 (
-PR_TRUE
+true
 clientMAC
 )
 ;

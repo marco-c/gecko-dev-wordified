@@ -913,7 +913,7 @@ LOG_ENABLED
 (
 )
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -1225,7 +1225,7 @@ storeFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2245,7 +2245,7 @@ hash
 >
 Finish
 (
-PR_FALSE
+false
 aChecksum
 )
 ;

@@ -783,7 +783,7 @@ newval
 0
 )
 {
-PRBool
+bool
 telemetryEnabled
 =
 Preferences

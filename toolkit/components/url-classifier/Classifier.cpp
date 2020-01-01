@@ -559,7 +559,7 @@ LOG_ENABLED
 (
 )
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -1374,7 +1374,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

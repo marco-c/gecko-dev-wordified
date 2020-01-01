@@ -4367,7 +4367,7 @@ formControl
 >
 IsSingleLineTextControl
 (
-PR_TRUE
+true
 )
 &
 &

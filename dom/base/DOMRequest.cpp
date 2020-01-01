@@ -660,7 +660,7 @@ event
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 if

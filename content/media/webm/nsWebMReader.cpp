@@ -3162,7 +3162,7 @@ aPacket
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 ;
