@@ -4767,9 +4767,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 Modifiers
 mCachedModifiers
 ;

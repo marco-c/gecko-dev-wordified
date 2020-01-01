@@ -1259,9 +1259,6 @@ SendMouseWheelEvent
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 &
 event

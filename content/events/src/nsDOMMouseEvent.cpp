@@ -690,9 +690,6 @@ aClientY
 (
 modifiers
 &
-widget
-:
-:
 MODIFIER_CONTROL
 )
 !
@@ -701,9 +698,6 @@ MODIFIER_CONTROL
 (
 modifiers
 &
-widget
-:
-:
 MODIFIER_ALT
 )
 !
@@ -712,9 +706,6 @@ MODIFIER_ALT
 (
 modifiers
 &
-widget
-:
-:
 MODIFIER_SHIFT
 )
 !
@@ -723,9 +714,6 @@ MODIFIER_SHIFT
 (
 modifiers
 &
-widget
-:
-:
 MODIFIER_META
 )
 !

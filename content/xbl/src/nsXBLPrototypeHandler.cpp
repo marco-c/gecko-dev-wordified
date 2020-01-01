@@ -3493,7 +3493,7 @@ XXX
 We
 should
 use
-widget
+mozilla
 :
 :
 Modifiers

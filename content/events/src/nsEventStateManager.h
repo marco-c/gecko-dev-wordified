@@ -483,9 +483,6 @@ aTargetFrame
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 aEvent
@@ -2271,9 +2268,6 @@ ApplyUserPrefsToDelta
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 aEvent
@@ -2316,9 +2310,6 @@ void
 CancelApplyingUserPrefsFromOverflowDelta
 (
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent
@@ -2367,9 +2358,6 @@ ComputeActionFor
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 aEvent
@@ -2401,9 +2389,6 @@ bool
 NeedToComputeLineOrPageDelta
 (
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent
@@ -2452,9 +2437,6 @@ IsOverOnePageScrollAllowedX
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 aEvent
@@ -2464,9 +2446,6 @@ bool
 IsOverOnePageScrollAllowedY
 (
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent
@@ -2589,9 +2568,6 @@ Index
 GetIndexFor
 (
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent
@@ -2858,9 +2834,6 @@ event
 for
 the
 *
-widget
-:
-:
 WheelEvent
 .
 This
@@ -2950,9 +2923,6 @@ aTargetFrame
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 aEvent
@@ -2979,9 +2949,6 @@ event
 for
 the
 *
-widget
-:
-:
 WheelEvent
 .
 This
@@ -3069,9 +3036,6 @@ nsIFrame
 *
 aTargetFrame
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent
@@ -3313,9 +3277,6 @@ aTargetFrame
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 aEvent
@@ -3443,9 +3404,6 @@ aPresContext
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 aEvent
@@ -3477,9 +3435,6 @@ nsIScrollableFrame
 *
 aScrollableFrame
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent
@@ -3682,9 +3637,6 @@ aESM
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 aEvent
@@ -3737,9 +3689,6 @@ nsIntPoint
 ComputeScrollAmountForDefaultAction
 (
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent
@@ -4714,9 +4663,6 @@ gesture
 down
 happened
 mozilla
-:
-:
-widget
 :
 :
 Modifiers

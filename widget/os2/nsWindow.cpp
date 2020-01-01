@@ -17761,9 +17761,6 @@ event
 .
 modifiers
 =
-widget
-:
-:
 MODIFIER_CONTROL
 ;
 }
@@ -17773,9 +17770,6 @@ event
 .
 modifiers
 =
-widget
-:
-:
 MODIFIER_SHIFT
 ;
 }
@@ -17843,9 +17837,6 @@ event
 modifiers
 |
 =
-widget
-:
-:
 MODIFIER_SHIFT
 ;
 }
@@ -17862,9 +17853,6 @@ event
 modifiers
 |
 =
-widget
-:
-:
 MODIFIER_CONTROL
 ;
 }
@@ -17887,9 +17875,6 @@ event
 modifiers
 |
 =
-widget
-:
-:
 MODIFIER_ALT
 ;
 }

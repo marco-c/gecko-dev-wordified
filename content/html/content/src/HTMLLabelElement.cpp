@@ -1199,9 +1199,6 @@ a
 new
 event
 .
-widget
-:
-:
 EventFlags
 eventFlags
 ;

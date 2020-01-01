@@ -139,9 +139,6 @@ aKeysym
 mozilla
 :
 :
-widget
-:
-:
 KeyNameIndex
 QtKeyCodeToDOMKeyNameIndex
 (

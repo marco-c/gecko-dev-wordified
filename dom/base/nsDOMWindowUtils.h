@@ -294,9 +294,6 @@ static
 mozilla
 :
 :
-widget
-:
-:
 Modifiers
 GetWidgetModifiers
 (

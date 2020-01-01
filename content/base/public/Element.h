@@ -4506,9 +4506,6 @@ aTarget
 bool
 aFullDispatch
 const
-widget
-:
-:
 EventFlags
 *
 aFlags

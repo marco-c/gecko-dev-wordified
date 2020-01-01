@@ -8349,9 +8349,6 @@ modifiers
 &
 =
 ~
-widget
-:
-:
 MODIFIER_SHIFT
 ;
 /

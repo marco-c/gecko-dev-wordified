@@ -1162,9 +1162,6 @@ const
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 &
 event
