@@ -560,9 +560,9 @@ embedPrivate
 return
 NS_ERROR_FAILURE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 embedPrivate
 -
@@ -573,6 +573,7 @@ moz_embed_signals
 [
 NEW_WINDOW
 ]
+0
 &
 newEmbed
 (

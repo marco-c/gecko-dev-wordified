@@ -526,9 +526,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -539,6 +539,7 @@ moz_embed_signals
 [
 OPEN_URI
 ]
+0
 specString
 .
 get
