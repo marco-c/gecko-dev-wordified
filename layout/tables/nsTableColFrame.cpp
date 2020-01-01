@@ -1056,10 +1056,6 @@ sc
 :
 %
 d
-(
-%
-c
-)
 sp
 :
 %
@@ -1083,15 +1079,6 @@ u
 mPrefPercent
 mSpanMinCoord
 mSpanPrefCoord
-mSpanHasSpecifiedCoord
-?
-'
-s
-'
-:
-'
-u
-'
 mSpanPrefPercent
 GetFinalWidth
 (
