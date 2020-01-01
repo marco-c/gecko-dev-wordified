@@ -118,7 +118,7 @@ act
 ;
 static
 void
-example
+Example
 (
 )
 {
@@ -430,7 +430,7 @@ ptr
 delete
 a2
 ;
-example
+Example
 (
 )
 ;
