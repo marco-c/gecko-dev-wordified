@@ -15592,7 +15592,9 @@ FinishHTMLSource
 ;
 try
 {
-NSPrint
+PrintUtils
+.
+print
 (
 )
 ;
@@ -15751,7 +15753,9 @@ FinishHTMLSource
 (
 )
 ;
-NSPrintSetup
+PrintUtils
+.
+showPageSetup
 (
 )
 ;
