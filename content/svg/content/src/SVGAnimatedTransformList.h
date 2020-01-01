@@ -157,9 +157,6 @@ dom
 class
 SVGAnimationElement
 ;
-class
-SVGTransform
-;
 }
 /
 *
@@ -290,10 +287,7 @@ to
 mBaseVal
 friend
 class
-dom
-:
-:
-SVGTransform
+DOMSVGTransform
 ;
 friend
 class
