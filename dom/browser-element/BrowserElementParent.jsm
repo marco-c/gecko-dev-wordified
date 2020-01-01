@@ -751,6 +751,13 @@ this
 .
 _fireEventFromMsg
 "
+opensearch
+"
+:
+this
+.
+_fireEventFromMsg
+"
 securitychange
 "
 :
