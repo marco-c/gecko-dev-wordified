@@ -1107,9 +1107,6 @@ mInputLayout
 }
 if
 (
-LayerManager
-:
-:
 HasShadowManager
 (
 )

@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StandardInteger
@@ -8186,9 +8179,6 @@ PAINT_FLUSH_LAYERS
 PAINT_EXISTING_TRANSACTION
 =
 0x04
-PAINT_NO_COMPOSITE
-=
-0x08
 }
 ;
 void

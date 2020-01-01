@@ -797,6 +797,9 @@ Refresh
 nsView
 *
 aView
+nsIWidget
+*
+aWidget
 const
 nsIntRegion
 &
