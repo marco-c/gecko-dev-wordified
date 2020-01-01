@@ -732,7 +732,7 @@ if
 (
 event
 .
-getAction
+getActionMasked
 (
 )
 =
@@ -918,6 +918,11 @@ styleSelectedTab
 (
 )
 ;
+hideSoftInput
+(
+mViewPager
+)
+;
 }
 }
 )
@@ -940,6 +945,16 @@ i
 +
 )
 {
+mTabs
+[
+i
+]
+.
+setListTouchListener
+(
+mListTouchListener
+)
+;
 addAwesomeTab
 (
 mTabs
