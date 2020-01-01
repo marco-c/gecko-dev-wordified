@@ -7423,6 +7423,7 @@ chars
 ;
 public
 :
+explicit
 SourceCompressionToken
 (
 JSContext
