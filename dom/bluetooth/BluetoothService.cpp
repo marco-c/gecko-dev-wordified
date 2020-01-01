@@ -3763,6 +3763,12 @@ pending
 "
 )
 ;
+JSAutoRequest
+jsar
+(
+cx
+)
+;
 JSObject
 *
 obj
