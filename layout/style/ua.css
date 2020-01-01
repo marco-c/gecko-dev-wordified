@@ -972,6 +972,12 @@ static
 !
 important
 ;
+unicode
+-
+bidi
+:
+inherit
+;
 }
 *
 |
@@ -1597,6 +1603,12 @@ clip
 inherit
 ;
 opacity
+:
+inherit
+;
+unicode
+-
+bidi
 :
 inherit
 ;
