@@ -1023,8 +1023,13 @@ exec
 expect
 =
 '
-No
-Error
+SyntaxError
+:
+invalid
+range
+in
+character
+class
 '
 ;
 print
