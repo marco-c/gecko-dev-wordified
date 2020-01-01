@@ -11505,7 +11505,7 @@ SetIsFixedPosition
 nsLayoutUtils
 :
 :
-IsScrolledByRootContentDocumentDisplayportScrolling
+ScrolledByViewportScrolling
 (
 activeScrolledRoot
 mBuilder
