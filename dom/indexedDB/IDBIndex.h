@@ -202,7 +202,7 @@ public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIIDBINDEX
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 IDBIndex
 )
@@ -543,6 +543,12 @@ mName
 KeyPath
 mKeyPath
 ;
+JS
+:
+:
+Value
+mCachedKeyPath
+;
 IndexedDBIndexChild
 *
 mActorChild
@@ -556,6 +562,9 @@ mUnique
 ;
 bool
 mMultiEntry
+;
+bool
+mRooted
 ;
 }
 ;
