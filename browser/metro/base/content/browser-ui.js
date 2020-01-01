@@ -888,12 +888,6 @@ init
 (
 )
 ;
-NavButtonSlider
-.
-init
-(
-)
-;
 /
 /
 show
