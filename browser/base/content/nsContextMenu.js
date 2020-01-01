@@ -8670,7 +8670,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )

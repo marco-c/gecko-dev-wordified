@@ -1190,7 +1190,7 @@ Testing1
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 txn2
 )
@@ -1199,7 +1199,7 @@ txn2
 /
 Also
 testing
-commitTransaction
+doTransaction
 var
 b
 =
@@ -1354,7 +1354,7 @@ Testing1b
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 txn2b
 )
@@ -1458,7 +1458,7 @@ an
 item
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -1489,7 +1489,7 @@ Testing2
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -1520,7 +1520,7 @@ Testing3
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -1837,7 +1837,7 @@ a
 Folder
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2087,7 +2087,7 @@ a
 separator
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2924,7 +2924,7 @@ true
 sortFolderByName
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2958,7 +2958,7 @@ folder
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2989,7 +2989,7 @@ c
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -3020,7 +3020,7 @@ b
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -3274,7 +3274,7 @@ xml
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
