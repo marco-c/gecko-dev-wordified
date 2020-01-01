@@ -2693,6 +2693,12 @@ object
 /
 /
 ROLE_EMBEDDED_OBJECT
+"
+note
+"
+/
+/
+ROLE_NOTE
 }
 ;
 /
