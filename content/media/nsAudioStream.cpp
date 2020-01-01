@@ -4108,7 +4108,7 @@ aFrames
 ;
 }
 static
-int
+void
 StateCallback_S
 (
 cubeb_stream
@@ -4120,7 +4120,6 @@ cubeb_state
 aState
 )
 {
-return
 static_cast
 <
 nsBufferedAudioStream
@@ -4147,7 +4146,7 @@ long
 aFrames
 )
 ;
-int
+void
 StateCallback
 (
 cubeb_state
@@ -6139,7 +6138,7 @@ mBytesPerFrame
 )
 ;
 }
-int
+void
 nsBufferedAudioStream
 :
 :
@@ -6187,9 +6186,6 @@ mon
 NotifyAll
 (
 )
-;
-return
-CUBEB_OK
 ;
 }
 #
