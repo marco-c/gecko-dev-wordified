@@ -6558,6 +6558,14 @@ ok
 return
 NULL
 ;
+if
+(
+v
+!
+=
+JSVAL_NULL
+)
+{
 thisp
 =
 JSVAL_IS_VOID
@@ -6595,6 +6603,7 @@ thisp
 =
 parent
 ;
+}
 }
 return
 CallThisObjectHook
