@@ -12750,8 +12750,6 @@ nameOffset
 nameStringsBase
 +
 nameoff
-+
-namelen
 ;
 /
 /
