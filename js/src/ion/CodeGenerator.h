@@ -738,6 +738,14 @@ apply
 )
 ;
 bool
+visitBail
+(
+LBail
+*
+lir
+)
+;
+bool
 visitGetDynamicName
 (
 LGetDynamicName

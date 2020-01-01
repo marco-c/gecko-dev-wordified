@@ -303,6 +303,11 @@ ApplyArgsGeneric
 \
 _
 (
+Bail
+)
+\
+_
+(
 GetDynamicName
 )
 \

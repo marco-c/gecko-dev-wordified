@@ -269,6 +269,11 @@ ApplyArgs
 \
 _
 (
+Bail
+)
+\
+_
+(
 GetDynamicName
 )
 \
