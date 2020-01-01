@@ -437,6 +437,16 @@ installState
 "
 installed
 "
+&
+&
+this
+.
+downloads
+[
+data
+.
+manifest
+]
 )
 {
 this
