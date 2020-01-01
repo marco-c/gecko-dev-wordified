@@ -20981,6 +20981,10 @@ nsRect
 &
 aBorderArea
 const
+nsRect
+&
+aClipRect
+const
 nsStyleBackground
 &
 aBackground
@@ -21002,7 +21006,7 @@ aPresContext
 aForFrame
 0
 aBorderArea
-aBorderArea
+aClipRect
 aBackground
 aLayer
 )

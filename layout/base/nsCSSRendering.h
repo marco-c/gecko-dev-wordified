@@ -2211,6 +2211,10 @@ nsRect
 &
 aBorderArea
 const
+nsRect
+&
+aClipRect
+const
 nsStyleBackground
 &
 aBackground
