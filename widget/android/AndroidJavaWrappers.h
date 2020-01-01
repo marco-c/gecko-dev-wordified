@@ -929,14 +929,6 @@ UnlockBuffer
 (
 )
 ;
-void
-GetRenderOffset
-(
-nsIntPoint
-&
-aOffset
-)
-;
 bool
 BeginDrawing
 (
@@ -981,10 +973,6 @@ jUnlockBufferMethod
 ;
 protected
 :
-static
-jmethodID
-jGetRenderOffsetMethod
-;
 static
 jmethodID
 jBeginDrawingMethod
