@@ -12794,7 +12794,7 @@ contentHasChanged
 (
 )
 ;
-this
+self
 .
 _zoom
 (
