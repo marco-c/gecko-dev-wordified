@@ -12406,9 +12406,12 @@ NS_LITERAL_STRING
 DOMContentLoaded
 "
 )
-NS_EVENT_FLAG_BUBBLE
-|
-NS_EVENT_FLAG_SYSTEM_EVENT
+dom
+:
+:
+TrustedEventsAtSystemGroupBubble
+(
+)
 )
 ;
 return
