@@ -1177,6 +1177,21 @@ cpp
 '
 ]
             
+HOST_CPPSRCS
+=
+[
+'
+fans
+.
+cpp
+'
+'
+tans
+.
+cpp
+'
+]
+            
 HOST_CSRCS
 =
 [

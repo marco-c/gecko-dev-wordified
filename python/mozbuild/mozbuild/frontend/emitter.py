@@ -585,6 +585,12 @@ GTEST_CSRCS
 GTEST_C_SOURCES
 '
             
+HOST_CPPSRCS
+=
+'
+HOST_CPPSRCS
+'
+            
 HOST_CSRCS
 =
 '
