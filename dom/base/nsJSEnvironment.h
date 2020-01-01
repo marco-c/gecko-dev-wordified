@@ -630,9 +630,6 @@ PRUnichar
 aText
 PRInt32
 aTextLength
-void
-*
-aScopeObject
 nsIPrincipal
 *
 principal
