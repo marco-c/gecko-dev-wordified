@@ -17968,9 +17968,11 @@ action
 sa_flags
 =
 =
+(
 SA_RESTART
 |
 SA_SIGINFO
+)
 )
 ;
 }
