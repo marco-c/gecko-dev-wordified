@@ -358,17 +358,6 @@ return
 sSelf
 ;
 }
-void
-NoteSubScript
-(
-JSScript
-*
-aScript
-JSObject
-*
-aThisObject
-)
-;
 protected
 :
 static
