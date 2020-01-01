@@ -914,6 +914,16 @@ max_total_viewers
 pref
 (
 "
+ui
+.
+use_native_colors
+"
+true
+)
+;
+pref
+(
+"
 browser
 .
 display

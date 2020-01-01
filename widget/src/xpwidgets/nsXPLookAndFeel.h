@@ -963,6 +963,10 @@ sCachedColorBits
 COLOR_CACHE_SIZE
 ]
 ;
+static
+PRBool
+sUseNativeColors
+;
 }
 ;
 extern
