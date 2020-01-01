@@ -437,12 +437,17 @@ prmem
 h
 "
 #
+ifndef
+WINCE
+#
 include
 <
 winspool
 .
 h
 >
+#
+endif
 #
 include
 <

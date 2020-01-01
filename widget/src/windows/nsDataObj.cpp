@@ -4782,9 +4782,6 @@ RegisterClipboardFormat
 CFSTR_INETURLW
 )
 ;
-#
-ifndef
-WINCE
 static
 CLIPFORMAT
 fileFlavor
@@ -4807,8 +4804,6 @@ RegisterClipboardFormat
 CFSTR_PREFERREDDROPEFFECT
 )
 ;
-#
-endif
 /
 /
 Arbitrary
@@ -5144,9 +5139,6 @@ pSTM
 PR_TRUE
 )
 ;
-#
-ifndef
-WINCE
 if
 (
 format
@@ -5179,8 +5171,6 @@ pFE
 pSTM
 )
 ;
-#
-endif
 PRNTDEBUG2
 (
 "
@@ -5890,9 +5880,6 @@ n
 "
 )
 ;
-#
-ifndef
-WINCE
 static
 CLIPFORMAT
 PerformedDropEffect
@@ -5953,8 +5940,6 @@ NULL
 ;
 }
 }
-#
-endif
 /
 /
 Store
@@ -7505,9 +7490,6 @@ result
 =
 E_FAIL
 ;
-#
-ifndef
-WINCE
 PRUint32
 len
 =
@@ -7766,8 +7748,6 @@ clipboard
 "
 )
 ;
-#
-endif
 return
 ResultFromScode
 (
@@ -8948,14 +8928,6 @@ STGMEDIUM
 aSTG
 )
 {
-#
-ifdef
-WINCE
-return
-E_FAIL
-;
-#
-else
 /
 /
 get
@@ -9208,8 +9180,6 @@ TYMED_HGLOBAL
 return
 S_OK
 ;
-#
-endif
 }
 /
 /
@@ -9228,14 +9198,6 @@ STGMEDIUM
 aSTG
 )
 {
-#
-ifdef
-WINCE
-return
-E_FAIL
-;
-#
-else
 /
 /
 get
@@ -9509,8 +9471,6 @@ TYMED_HGLOBAL
 return
 S_OK
 ;
-#
-endif
 }
 /
 /
@@ -9561,14 +9521,6 @@ STGMEDIUM
 aSTG
 )
 {
-#
-ifdef
-WINCE
-return
-E_FAIL
-;
-#
-else
 nsAutoString
 url
 ;
@@ -9843,8 +9795,6 @@ TYMED_HGLOBAL
 return
 S_OK
 ;
-#
-endif
 }
 /
 /

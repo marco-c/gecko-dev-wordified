@@ -457,9 +457,6 @@ BLOCK
 *
 *
 /
-#
-ifndef
-WINCE
 /
 *
 Things
@@ -881,8 +878,3 @@ aColorMask
 /
 /
 nsImageFromClipboard
-#
-endif
-/
-/
-WINCE

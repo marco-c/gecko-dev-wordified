@@ -496,6 +496,15 @@ nsScreenWin
 .
 h
 "
+#
+ifdef
+WINCE
+#
+define
+GetMonitorInfoW
+GetMonitorInfo
+#
+endif
 nsScreenWin
 :
 :

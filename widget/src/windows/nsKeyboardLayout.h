@@ -632,9 +632,6 @@ eCapsLock
 0x08
 }
 ;
-#
-ifndef
-WINCE
 struct
 DeadKeyEntry
 ;
@@ -841,14 +838,9 @@ const
 ;
 }
 ;
-#
-endif
 class
 KeyboardLayout
 {
-#
-ifndef
-WINCE
 struct
 DeadKeyTableListEntry
 {
@@ -1046,8 +1038,6 @@ ReleaseDeadKeyTables
 (
 )
 ;
-#
-endif
 public
 :
 KeyboardLayout
@@ -1081,9 +1071,6 @@ IsDeadKey
 )
 const
 {
-#
-ifndef
-WINCE
 return
 (
 mLastVirtualKeyIndex
@@ -1104,13 +1091,6 @@ mLastShiftState
 :
 PR_FALSE
 ;
-#
-else
-return
-PR_FALSE
-;
-#
-endif
 }
 void
 LoadLayout

@@ -464,9 +464,6 @@ h
 >
 #
 ifndef
-WINCE
-#
-ifndef
 IDropTargetHelper
 #
 ifndef
@@ -501,11 +498,6 @@ endif
 MingW
 #
 endif
-#
-endif
-/
-/
-WINCE
 class
 nsIDragService
 ;
@@ -913,15 +905,10 @@ mDragService
 Drag
 target
 helper
-#
-ifndef
-WINCE
 IDropTargetHelper
 *
 mDropTargetHelper
 ;
-#
-endif
 }
 ;
 #
