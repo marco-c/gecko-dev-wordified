@@ -1234,7 +1234,9 @@ if
 !
 contentWindow
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 )
@@ -1262,7 +1264,9 @@ win
 ;
 contentWindow
 .
-hideSearch
+Search
+.
+hide
 (
 )
 ;
@@ -1308,7 +1312,9 @@ if
 (
 contentWindow
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 )
@@ -1394,7 +1400,9 @@ if
 !
 contentWindow
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 )

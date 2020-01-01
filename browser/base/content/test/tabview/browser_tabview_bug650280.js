@@ -70,7 +70,9 @@ cw
 )
 cw
 .
-hideSearch
+Search
+.
+hide
 (
 )
 ;
@@ -101,7 +103,9 @@ if
 (
 cw
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 )
@@ -147,7 +151,9 @@ false
 ;
 cw
 .
-ensureSearchShown
+Search
+.
+ensureShown
 (
 )
 ;
@@ -190,7 +196,9 @@ ok
 !
 cw
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 "
@@ -263,7 +271,9 @@ ok
 !
 cw
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 "

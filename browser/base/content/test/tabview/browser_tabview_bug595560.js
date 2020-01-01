@@ -360,7 +360,9 @@ innerHTML
 ;
 cw
 .
-performSearch
+Search
+.
+perform
 (
 )
 ;

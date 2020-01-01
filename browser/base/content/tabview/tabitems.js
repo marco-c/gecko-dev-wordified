@@ -4597,7 +4597,9 @@ this
 .
 canvas
 ;
-hideSearch
+Search
+.
+hide
 (
 )
 ;
