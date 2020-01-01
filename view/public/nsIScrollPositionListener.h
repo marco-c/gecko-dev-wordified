@@ -555,6 +555,13 @@ should
 touch
 it
 .
+No
+longer
+gets
+called
+!
+!
+!
 virtual
 void
 ViewPositionDidChange
