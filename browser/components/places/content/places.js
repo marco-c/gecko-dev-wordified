@@ -257,6 +257,17 @@ mozilla
 com
 >
 *
+Ehsan
+Akhgari
+<
+ehsan
+.
+akhgari
+gmail
+.
+com
+>
+*
 *
 Alternatively
 the
@@ -5860,7 +5871,7 @@ PlacesUtils
 getString
 (
 "
-searchByDefault
+searchBookmarks
 "
 )
 ;
