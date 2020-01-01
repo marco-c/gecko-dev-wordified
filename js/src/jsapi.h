@@ -16577,6 +16577,8 @@ fh
 JSPrincipals
 *
 principals
+JSVersion
+version
 )
 ;
 /
@@ -20482,6 +20484,8 @@ uint64
 data
 size_t
 nbytes
+uint32
+version
 jsval
 *
 vp
@@ -20569,6 +20573,9 @@ data_
 size_t
 nbytes_
 ;
+uint32
+version_
+;
 public
 :
 explicit
@@ -20590,6 +20597,10 @@ NULL
 nbytes_
 (
 0
+)
+version_
+(
+JS_STRUCTURED_CLONE_VERSION
 )
 {
 }
@@ -20685,6 +20696,10 @@ uint64
 data
 size_t
 nbytes
+uint32
+version
+=
+JS_STRUCTURED_CLONE_VERSION
 )
 {
 clear
@@ -20698,6 +20713,10 @@ data
 nbytes_
 =
 nbytes
+;
+version_
+=
+version
 ;
 }
 /
@@ -20785,6 +20804,7 @@ JS_ReadStructuredClone
 cx
 data_
 nbytes_
+version_
 vp
 )
 ;

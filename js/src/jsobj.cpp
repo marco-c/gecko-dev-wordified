@@ -29803,6 +29803,9 @@ shape
 return
 true
 ;
+#
+ifdef
+JS_TRACER
 error
 :
 /
@@ -29813,6 +29816,8 @@ here
 on
 error
 .
+#
+endif
 return
 false
 ;

@@ -3886,7 +3886,15 @@ cx
 )
 ;
 return
-JS_TRUE
+js_SuppressDeletedIndexProperties
+(
+cx
+obj
+idx
+idx
++
+1
+)
 ;
 }
 }
@@ -13459,6 +13467,9 @@ vp
 )
 ;
 }
+#
+ifdef
+JS_TRACER
 JSBool
 JS_FASTCALL
 js_ArrayCompPush_tn
@@ -13523,6 +13534,8 @@ nanojit
 :
 ACCSET_STORE_ANY
 )
+#
+endif
 static
 JSBool
 array_push
@@ -14624,6 +14637,7 @@ newlen
 =
 argc
 ;
+}
 if
 (
 !
@@ -14637,7 +14651,6 @@ newlen
 return
 JS_FALSE
 ;
-}
 /
 *
 Follow

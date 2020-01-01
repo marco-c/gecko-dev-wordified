@@ -2765,6 +2765,8 @@ lhs
 FrameEntry
 *
 rhs
+JSValueType
+type
 )
 ;
 /
