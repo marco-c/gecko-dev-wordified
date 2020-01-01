@@ -153,14 +153,14 @@ socketTimeoutInMillis
 =
 1000
 *
-5
+2
 *
 60
 ;
 /
 /
 Wait
-5
+2
 minutes
 for
 data
