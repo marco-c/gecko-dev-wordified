@@ -1290,10 +1290,6 @@ JSStackFrame
 fp
 jsid
 id
-JSObject
-*
-*
-objp
 jsval
 *
 vp
@@ -1392,11 +1388,6 @@ val
 )
 ;
 }
-*
-objp
-=
-obj
-;
 return
 OBJ_GET_PROPERTY
 (
@@ -1407,11 +1398,6 @@ vp
 )
 ;
 }
-*
-objp
-=
-NULL
-;
 *
 vp
 =

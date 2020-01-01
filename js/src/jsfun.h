@@ -1146,10 +1146,6 @@ JSStackFrame
 fp
 jsid
 id
-JSObject
-*
-*
-objp
 jsval
 *
 vp
