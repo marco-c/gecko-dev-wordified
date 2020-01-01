@@ -10077,7 +10077,7 @@ case
 SRC_WHILE
 :
 case
-SRC_PCDELTA
+SRC_NEXTCASE
 :
 Sprint
 (
