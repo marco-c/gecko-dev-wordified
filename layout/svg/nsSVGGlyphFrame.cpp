@@ -10584,16 +10584,6 @@ PresContext
 (
 )
 ;
-float
-textZoom
-=
-presContext
--
->
-TextZoom
-(
-)
-;
 double
 size
 =
@@ -10607,8 +10597,6 @@ fontData
 >
 mSize
 )
-/
-textZoom
 ;
 double
 textRunSize
