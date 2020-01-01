@@ -1121,7 +1121,7 @@ prototype
 -
 /
 /
-Getter
+Variable
 :
 radius
 /
