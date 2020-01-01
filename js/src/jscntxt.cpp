@@ -674,6 +674,13 @@ h
 #
 include
 "
+jsnativestack
+.
+h
+"
+#
+include
+"
 jscntxtinlines
 .
 h
@@ -3452,6 +3459,12 @@ return
 false
 ;
 }
+nativeStackBase
+=
+GetNativeStackBase
+(
+)
+;
 return
 true
 ;

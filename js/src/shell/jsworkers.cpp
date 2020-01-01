@@ -527,6 +527,10 @@ jsworkers
 .
 h
 "
+extern
+size_t
+gMaxStackSize
+;
 /
 *
 *
@@ -6742,10 +6746,10 @@ JS_SetContextThread
 context
 )
 ;
-JS_SetThreadStackLimit
+JS_SetNativeStackQuota
 (
 context
-0
+gMaxStackSize
 )
 ;
 Event
