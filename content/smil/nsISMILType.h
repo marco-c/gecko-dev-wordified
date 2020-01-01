@@ -1464,11 +1464,9 @@ nsSMILValue
 aRight
 )
 const
-{
-return
-PR_FALSE
+=
+0
 ;
-}
 /
 *
 *
