@@ -19649,11 +19649,7 @@ if
 (
 format
 &
-(
-JOF_SET
-|
-JOF_FOR
-)
+JOF_ASSIGNING
 )
 |
 |

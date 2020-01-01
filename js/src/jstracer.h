@@ -2869,11 +2869,6 @@ record_FastNativeCallComplete
 (
 )
 ;
-bool
-record_IteratorNextComplete
-(
-)
-;
 nanojit
 :
 :
