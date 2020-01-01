@@ -549,6 +549,7 @@ bitnum2word
 int
 i
 )
+const
 {
 return
 i
@@ -564,6 +565,7 @@ bitnum2mask
 int
 i
 )
+const
 {
 return
 ONE
@@ -668,6 +670,7 @@ get
 int
 i
 )
+const
 {
 NanoAssert
 (
