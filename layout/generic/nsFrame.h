@@ -1391,10 +1391,10 @@ nsStyleContext
 aStyleContext
 )
 ;
-NS_IMETHOD
+virtual
+void
 SetParent
 (
-const
 nsIFrame
 *
 aParent

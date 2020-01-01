@@ -592,6 +592,15 @@ GetFrame
 =
 0
 ;
+virtual
+nsIFrame
+*
+GetSubdocumentRootFrame
+(
+)
+=
+0
+;
 }
 ;
 #
