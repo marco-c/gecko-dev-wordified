@@ -7231,10 +7231,6 @@ case
 the
 user
 downgrades
-/
-/
-Optional
-attributes
 update
 .
 setAttribute
@@ -7247,6 +7243,10 @@ this
 displayVersion
 )
 ;
+/
+/
+Optional
+attributes
 if
 (
 this
