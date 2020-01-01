@@ -587,6 +587,15 @@ todo
 0
 )
 {
+Mutex
+:
+:
+Autolock
+autoLock
+(
+mLock
+)
+;
 uint32_t
 bytesRead
 ;
