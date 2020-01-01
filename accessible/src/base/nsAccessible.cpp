@@ -3395,13 +3395,6 @@ if
 (
 !
 content
-|
-|
-!
-HasRoleAttribute
-(
-content
-)
 )
 {
 nsCOMPtr
