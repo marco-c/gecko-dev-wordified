@@ -1243,7 +1243,7 @@ changed
 void
 UpdateListIndex
 (
-PRUint8
+PRUint32
 aListIndex
 )
 {
