@@ -18324,7 +18324,7 @@ top
 mObjectFrame
 -
 >
-Invalidate
+InvalidateLayer
 (
 rect
 +
@@ -18338,6 +18338,10 @@ GetUsedBorderAndPadding
 TopLeft
 (
 )
+nsDisplayItem
+:
+:
+TYPE_PLUGIN
 )
 ;
 return
