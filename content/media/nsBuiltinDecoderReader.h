@@ -2492,8 +2492,6 @@ FindEndTime
 PRInt64
 aEndOffset
 )
-=
-0
 ;
 /
 /
