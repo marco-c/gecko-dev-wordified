@@ -14579,6 +14579,17 @@ triggerFrag
 regMap
 )
 ;
+if
+(
+assm
+-
+>
+error
+(
+)
+)
+return
+;
 /
 /
 fprintf
