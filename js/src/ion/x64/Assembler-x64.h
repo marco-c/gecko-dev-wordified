@@ -1890,6 +1890,11 @@ writeRelocation
 (
 JmpSrc
 src
+Relocation
+:
+:
+Kind
+reloc
 )
 ;
 void
