@@ -180,6 +180,14 @@ uint64_t
 aWindowId
 )
 ;
+nsRefPtr
+<
+ICameraControl
+>
+GetNativeCameraControl
+(
+)
+;
 void
 Shutdown
 (
