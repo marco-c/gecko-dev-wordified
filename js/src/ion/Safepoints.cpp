@@ -485,7 +485,7 @@ SafepointWriter
 init
 (
 uint32
-localSlotCount
+slotCount
 )
 {
 frameSlots_
@@ -495,7 +495,7 @@ BitSet
 :
 New
 (
-localSlotCount
+slotCount
 )
 ;
 if
@@ -1818,12 +1818,12 @@ safepointsSize
 (
 )
 )
-localSlotCount_
+frameSlots_
 (
 script
 -
 >
-frameLocals
+frameSlots
 (
 )
 )
@@ -2008,7 +2008,7 @@ BitSet
 :
 RawLengthForBits
 (
-localSlotCount_
+frameSlots_
 )
 )
 return

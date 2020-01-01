@@ -2484,7 +2484,7 @@ safepointIndexEntries_
 (
 0
 )
-frameLocals_
+frameSlots_
 (
 0
 )
@@ -2552,7 +2552,7 @@ JSContext
 *
 cx
 uint32
-frameLocals
+frameSlots
 uint32
 frameSize
 size_t
@@ -2972,9 +2972,9 @@ paddedSafepointSize
 script
 -
 >
-frameLocals_
+frameSlots_
 =
-frameLocals
+frameSlots
 ;
 script
 -
