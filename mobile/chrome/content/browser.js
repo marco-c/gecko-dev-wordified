@@ -15192,6 +15192,12 @@ true
 "
 )
 {
+aEvent
+.
+stopPropagation
+(
+)
+;
 document
 .
 getElementById
