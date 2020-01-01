@@ -7245,8 +7245,6 @@ js_jit_content_str
 #
 ifdef
 MOZ_JSDEBUGGER
-/
-*
 if
 (
 context
@@ -7264,8 +7262,6 @@ useJIT
 =
 PR_FALSE
 ;
-*
-/
 #
 endif
 if
