@@ -1334,6 +1334,9 @@ uri
 nsresult
 WriteCommon
 (
+JSContext
+*
+cx
 const
 nsAString
 &
@@ -1345,6 +1348,9 @@ aNewlineTerminate
 nsresult
 OpenCommon
 (
+JSContext
+*
+cx
 const
 nsACString
 &

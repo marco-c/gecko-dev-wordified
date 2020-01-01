@@ -1234,6 +1234,9 @@ static
 nsresult
 ReparentContentWrappersInScope
 (
+JSContext
+*
+cx
 nsIScriptGlobalObject
 *
 aOldScope
