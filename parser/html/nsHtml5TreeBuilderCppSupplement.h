@@ -4134,6 +4134,10 @@ nsHtml5Atoms
 :
 :
 meta
+&
+&
+!
+fragment
 )
 {
 nsHtml5TreeOperation
