@@ -547,12 +547,6 @@ nsIAnonymousContentCreator
 {
 public
 :
-using
-nsFrame
-:
-:
-GetIntrinsicSize
-;
 nsVideoFrame
 (
 nsStyleContext

@@ -663,13 +663,6 @@ nsPrintSettings
 {
 public
 :
-using
-nsPrintSettings
-:
-:
-operator
-=
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECLARE_STATIC_IID_ACCESSOR
 (

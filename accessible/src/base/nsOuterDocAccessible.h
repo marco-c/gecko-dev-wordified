@@ -496,12 +496,6 @@ bustage
 NS_DECL_ISUPPORTS_INHERITED
 public
 :
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsOuterDocAccessible
 (
 nsIDOMNode
