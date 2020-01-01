@@ -2478,6 +2478,13 @@ kBackgroundRepeatKTable
 static
 const
 PRInt32
+kBackgroundRepeatPartKTable
+[
+]
+;
+static
+const
+PRInt32
 kBackgroundSizeKTable
 [
 ]
