@@ -2955,13 +2955,6 @@ ini
 testargs
 =
 {
-'
-skip
-'
-:
-'
-false
-'
 }
             
 if
@@ -3306,17 +3299,27 @@ manifest_tests
 =
 manifest
 .
-get
+active_tests
 (
-*
-*
-testargs
+disabled
+=
+False
 )
             
 for
 i
 in
+manifest
+.
+get
+(
+tests
+=
 manifest_tests
+*
+*
+testargs
+)
 :
                 
 self
