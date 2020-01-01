@@ -441,6 +441,10 @@ Window
 )
 DOMCI_CLASS
 (
+InnerWindow
+)
+DOMCI_CLASS
+(
 Location
 )
 DOMCI_CLASS
@@ -844,6 +848,10 @@ DOMCI_CLASS
 (
 HTMLUnknownElement
 )
+DOMCI_CLASS
+(
+HTMLWBRElement
+)
 /
 /
 CSS
@@ -999,6 +1007,10 @@ Window
 DOMCI_CLASS
 (
 ChromeWindow
+)
+DOMCI_CLASS
+(
+InnerChromeWindow
 )
 /
 /
@@ -1783,6 +1795,10 @@ DOMCI_CLASS
 (
 ModalContentWindow
 )
+DOMCI_CLASS
+(
+InnerModalContentWindow
+)
 /
 /
 Data
@@ -2010,7 +2026,7 @@ CloseEvent
 )
 DOMCI_CLASS
 (
-IDBFactory
+IndexedDatabaseRequest
 )
 DOMCI_CLASS
 (
@@ -2018,7 +2034,7 @@ IDBRequest
 )
 DOMCI_CLASS
 (
-IDBDatabase
+IDBDatabaseRequest
 )
 DOMCI_CLASS
 (
@@ -2034,15 +2050,15 @@ IDBTransactionEvent
 )
 DOMCI_CLASS
 (
-IDBObjectStore
+IDBObjectStoreRequest
 )
 DOMCI_CLASS
 (
-IDBTransaction
+IDBTransactionRequest
 )
 DOMCI_CLASS
 (
-IDBCursor
+IDBCursorRequest
 )
 DOMCI_CLASS
 (
@@ -2050,5 +2066,5 @@ IDBKeyRange
 )
 DOMCI_CLASS
 (
-IDBIndex
+IDBIndexRequest
 )
