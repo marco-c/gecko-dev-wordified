@@ -49765,8 +49765,7 @@ nsPluginDestroyRunnable
 (
 PR_NEXT_LINK
 (
-&
-sRunnableListHead
+r
 )
 )
 ;
