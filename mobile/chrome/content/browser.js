@@ -17042,6 +17042,16 @@ appendChild
 browser
 )
 ;
+browser
+.
+style
+.
+display
+=
+"
+none
+"
+;
 /
 /
 stop
