@@ -660,10 +660,6 @@ BluetoothDevice
 endif
 DOMCI_CLASS
 (
-CameraManager
-)
-DOMCI_CLASS
-(
 CameraControl
 )
 DOMCI_CLASS
