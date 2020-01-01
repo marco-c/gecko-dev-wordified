@@ -698,9 +698,6 @@ aState
 ;
 nsGridRowLayout
 (
-nsIPresShell
-*
-aShell
 )
 ;
 }

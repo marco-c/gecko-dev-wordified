@@ -491,9 +491,6 @@ nsGridRowLayout
 :
 nsGridRowLayout
 (
-nsIPresShell
-*
-aPresShell
 )
 :
 nsSprocketLayout

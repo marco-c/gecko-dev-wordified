@@ -479,9 +479,6 @@ public
 :
 nsListBoxLayout
 (
-nsIPresShell
-*
-aShell
 )
 ;
 /
