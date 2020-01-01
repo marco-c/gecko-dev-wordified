@@ -184,6 +184,17 @@ gecko
 .
 util
 .
+HardwareUtils
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
 ThreadUtils
 ;
 import
@@ -4442,6 +4453,8 @@ SDK_INT
 &
 &
 !
+HardwareUtils
+.
 isTablet
 (
 )
@@ -4630,6 +4643,8 @@ hasPermanentMenuKey
 )
 |
 |
+HardwareUtils
+.
 isTablet
 (
 )
@@ -4752,7 +4767,7 @@ boolean
 isSideBar
 =
 (
-GeckoAppShell
+HardwareUtils
 .
 isTablet
 (
@@ -8705,6 +8720,8 @@ instanceof
 GeckoMenu
 &
 &
+HardwareUtils
+.
 isTablet
 (
 )
@@ -9115,7 +9132,12 @@ on
 pre
 -
 ICS
+or
+television
+devices
 .
+/
+/
 In
 ICS
 +
@@ -9124,8 +9146,6 @@ it
 s
 easy
 to
-/
-/
 kill
 an
 app
@@ -9156,8 +9176,9 @@ SDK_INT
 14
 |
 |
-!
-isTouchDevice
+HardwareUtils
+.
+isTelevision
 (
 )
 )

@@ -110,6 +110,17 @@ GeckoEventListener
 import
 org
 .
+mozilla
+.
+gecko
+.
+util
+.
+HardwareUtils
+;
+import
+org
+.
 json
 .
 JSONArray
@@ -937,7 +948,7 @@ true
 ;
 setWindowLayoutMode
 (
-mActivity
+HardwareUtils
 .
 isTablet
 (
@@ -1802,7 +1813,7 @@ margin
 int
 offset
 =
-mActivity
+HardwareUtils
 .
 isTablet
 (
