@@ -461,7 +461,7 @@ HandlerClass
 aClass
 )
 :
-nsMIMEInfoImpl
+nsMIMEInfoBase
 (
 aType
 aClass
