@@ -102,13 +102,6 @@ mozilla_dom_SVGSymbolElement_h
 #
 include
 "
-nsIDOMSVGSymbolElement
-.
-h
-"
-#
-include
-"
 DOMSVGTests
 .
 h
@@ -172,7 +165,7 @@ MOZ_FINAL
 public
 SVGSymbolElementBase
 public
-nsIDOMSVGSymbolElement
+nsIDOMSVGElement
 public
 DOMSVGTests
 {
@@ -230,7 +223,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGSYMBOLELEMENT
 /
 /
 xxx
@@ -279,13 +271,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
