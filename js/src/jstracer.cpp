@@ -4172,9 +4172,6 @@ void
 a
 )
 {
-#
-if
-0
 lir
 -
 >
@@ -4201,8 +4198,6 @@ snapshot
 )
 )
 ;
-#
-endif
 }
 void
 TraceRecorder

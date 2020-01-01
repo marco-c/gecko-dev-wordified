@@ -7140,7 +7140,7 @@ NanoAssert
 cond
 -
 >
-isCmp
+isCond
 (
 )
 )
