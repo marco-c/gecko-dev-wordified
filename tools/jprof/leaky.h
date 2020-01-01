@@ -468,6 +468,10 @@ fp
 leaky
 *
 lk
+int
+parent
+int
+total
 )
 ;
 }
@@ -644,6 +648,9 @@ quiet
 int
 showAddress
 ;
+int
+showThreads
+;
 u_int
 stackDepth
 ;
@@ -706,6 +713,8 @@ LoadMap
 void
 analyze
 (
+int
+thread
 )
 ;
 void
@@ -827,6 +836,8 @@ int
 countArray
 int
 count
+int
+thread
 )
 ;
 int
