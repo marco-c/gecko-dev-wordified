@@ -481,15 +481,6 @@ android
 .
 widget
 .
-LinearLayout
-.
-LayoutParams
-;
-import
-android
-.
-widget
-.
 TextView
 ;
 import
@@ -527,10 +518,6 @@ mChoicesLayout
 private
 TextView
 mTextView
-;
-private
-Button
-mButton
 ;
 static
 private
