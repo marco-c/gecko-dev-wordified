@@ -4205,6 +4205,16 @@ lineOrPageDeltaY
 wheelEvent
 -
 >
+scrollType
+=
+oldWheelEvent
+-
+>
+scrollType
+;
+wheelEvent
+-
+>
 overflowDeltaX
 =
 oldWheelEvent
