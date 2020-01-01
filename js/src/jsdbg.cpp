@@ -12482,7 +12482,7 @@ if
 (
 JSObject
 *
-obj
+referent
 =
 (
 JSObject
@@ -12499,7 +12499,7 @@ MarkObject
 (
 trc
 *
-obj
+referent
 "
 Debug
 .
