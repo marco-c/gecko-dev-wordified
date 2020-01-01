@@ -1657,7 +1657,7 @@ it
 changes
 mThreadEvent
 .
-Other
+other
 threads
 /
 /
