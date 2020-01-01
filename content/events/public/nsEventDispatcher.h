@@ -464,10 +464,10 @@ class
 nsIDOMEvent
 ;
 class
-nsPIDOMEventTarget
+nsIScriptGlobalObject
 ;
 class
-nsIScriptGlobalObject
+nsIDOMEventTarget
 ;
 class
 nsEventTargetChainItem
@@ -1205,7 +1205,7 @@ mOriginalTargetIsInAnon
 Whether
 or
 not
-nsPIDOMEventTarget
+nsIDOMEventTarget
 :
 :
 WillHandleEvent
@@ -1271,7 +1271,7 @@ chain
 .
 *
 /
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 mParentTarget
 ;
@@ -1306,7 +1306,7 @@ mParentTarget
 .
 *
 /
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 mEventTargetAtParent
 ;
@@ -1440,7 +1440,7 @@ aTarget
 should
 QI
 to
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 *
 If
@@ -1627,7 +1627,7 @@ aCallback
 nsnull
 nsCOMArray
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 *
 aTargets

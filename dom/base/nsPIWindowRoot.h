@@ -501,7 +501,7 @@ class
 nsPIWindowRoot
 :
 public
-nsPIDOMEventTarget
+nsIDOMEventTarget
 {
 public
 :

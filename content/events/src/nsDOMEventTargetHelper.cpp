@@ -577,10 +577,6 @@ nsPIDOMEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsPIDOMEventTarget
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIDOMEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
@@ -596,6 +592,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsDOMEventTargetHelper
 )
+NS_IMPL_DOMTARGET_DEFAULTS
+(
+nsDOMEventTargetHelper
+)
+;
 NS_IMETHODIMP
 nsDOMEventTargetHelper
 :

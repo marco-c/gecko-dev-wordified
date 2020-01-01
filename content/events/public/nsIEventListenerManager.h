@@ -461,9 +461,6 @@ class
 nsIAtom
 ;
 class
-nsPIDOMEventTarget
-;
-class
 nsIEventListenerInfo
 ;
 template

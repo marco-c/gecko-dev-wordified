@@ -840,9 +840,6 @@ class
 nsPIDOMWindow
 ;
 class
-nsPIDOMEventTarget
-;
-class
 nsIPresShell
 ;
 class
@@ -10878,7 +10875,7 @@ happened
 PRBool
 Push
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 )
@@ -10914,7 +10911,7 @@ called
 PRBool
 RePush
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 )

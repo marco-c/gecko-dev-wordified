@@ -816,7 +816,7 @@ XBL
 NS_IMETHOD
 AttachGlobalKeyHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )
@@ -824,7 +824,7 @@ aTarget
 NS_IMETHOD
 DetachGlobalKeyHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )
