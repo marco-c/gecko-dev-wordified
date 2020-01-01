@@ -521,6 +521,14 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Link
+Monitor
+"
+)
+;
 HANDLE
 ev
 =

@@ -679,6 +679,14 @@ n
 )
 )
 ;
+PR_SetCurrentThreadName
+(
+"
+Wifi
+Monitor
+"
+)
+;
 nsresult
 rv
 =

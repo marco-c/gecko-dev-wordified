@@ -7051,8 +7051,14 @@ CACHE_LOG_INIT
 nsresult
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+Cache
+I
+/
+O
+"
 getter_AddRefs
 (
 mCacheIOThread

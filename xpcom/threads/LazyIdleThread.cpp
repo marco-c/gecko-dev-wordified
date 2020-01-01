@@ -248,6 +248,10 @@ LazyIdleThread
 (
 PRUint32
 aIdleTimeoutMS
+const
+nsCSubstring
+&
+aName
 ShutdownMethod
 aShutdownMethod
 nsIObserver
@@ -305,6 +309,10 @@ false
 mIdleTimeoutEnabled
 (
 true
+)
+mName
+(
+aName
 )
 {
 NS_ASSERTION
@@ -812,6 +820,15 @@ InitThread
 (
 )
 {
+PR_SetCurrentThreadName
+(
+mName
+.
+BeginReading
+(
+)
+)
+;
 /
 /
 Happens

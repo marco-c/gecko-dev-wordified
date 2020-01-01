@@ -5708,6 +5708,14 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+JS
+Watchdog
+"
+)
+;
 XPCJSRuntime
 *
 self

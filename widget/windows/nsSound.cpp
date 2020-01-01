@@ -374,6 +374,14 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Play
+Sound
+"
+)
+;
 NS_PRECONDITION
 (
 !

@@ -160,6 +160,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 nsThreadPool
 :
@@ -230,6 +237,12 @@ mListener
 ;
 bool
 mShutdown
+;
+nsCString
+mName
+;
+nsThreadPoolNaming
+mThreadNaming
 ;
 }
 ;

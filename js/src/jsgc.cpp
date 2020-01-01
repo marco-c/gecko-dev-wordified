@@ -16535,6 +16535,15 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+JS
+GC
+Helper
+"
+)
+;
 static_cast
 <
 GCHelperThread

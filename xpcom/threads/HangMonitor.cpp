@@ -1009,6 +1009,14 @@ void
 *
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Hang
+Monitor
+"
+)
+;
 MonitorAutoLock
 lock
 (

@@ -16654,6 +16654,14 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+JS
+Watchdog
+"
+)
+;
 JSRuntime
 *
 rt

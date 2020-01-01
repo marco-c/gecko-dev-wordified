@@ -1120,6 +1120,12 @@ new
 LazyIdleThread
 (
 15000
+NS_LITERAL_CSTRING
+(
+"
+Bluetooth
+"
+)
 )
 ;
 }

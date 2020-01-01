@@ -616,6 +616,14 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Event
+Tracer
+"
+)
+;
 /
 /
 These

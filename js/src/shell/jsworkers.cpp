@@ -2480,6 +2480,14 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+JS
+Worker
+"
+)
+;
 (
 (
 WorkerQueue

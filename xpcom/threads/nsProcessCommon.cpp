@@ -1564,6 +1564,13 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+RunProcess
+"
+)
+;
 nsRefPtr
 <
 nsProcess
