@@ -1502,7 +1502,7 @@ false
 ;
 IonSpew
 (
-IonSpew_MIR
+IonSpew_Scripts
 "
 Analyzing
 script
@@ -2409,7 +2409,7 @@ argv
 {
 IonSpew
 (
-IonSpew_MIR
+IonSpew_Scripts
 "
 Inlining
 script
