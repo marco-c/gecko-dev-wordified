@@ -1067,6 +1067,9 @@ description
 "
 location
 "
+"
+loadInSidebar
+"
 ]
 }
 )
