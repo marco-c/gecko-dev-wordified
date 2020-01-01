@@ -1283,7 +1283,7 @@ DeallocPIndexedDB
 (
 PIndexedDBChild
 *
-actor
+aActor
 )
 ;
 private

@@ -202,6 +202,9 @@ namespace
 dom
 {
 class
+ContentParent
+;
+class
 TabParent
 ;
 }
@@ -918,6 +921,16 @@ IndexedDBParent
 public
 PIndexedDBParent
 {
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+ContentParent
+;
 friend
 class
 mozilla
