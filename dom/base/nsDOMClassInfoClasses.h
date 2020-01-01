@@ -1903,6 +1903,14 @@ ifdef
 MOZ_B2G_RIL
 DOMCI_CLASS
 (
+MozWifiStatusChangeEvent
+)
+DOMCI_CLASS
+(
+MozWifiConnectionInfoEvent
+)
+DOMCI_CLASS
+(
 Telephony
 )
 DOMCI_CLASS
