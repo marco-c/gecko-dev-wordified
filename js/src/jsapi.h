@@ -31942,6 +31942,15 @@ JSContext
 cx
 )
 ;
+extern
+JS_PUBLIC_API
+(
+intptr_t
+)
+JS_GetCurrentThread
+(
+)
+;
 /
 *
 *

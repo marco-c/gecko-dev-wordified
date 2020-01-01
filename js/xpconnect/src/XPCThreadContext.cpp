@@ -2481,11 +2481,12 @@ NS_IsMainThread
 {
 sMainJSThread
 =
-cx
--
->
-thread
+js
+:
+:
+GetContextThread
 (
+cx
 )
 ;
 sMainThreadData
