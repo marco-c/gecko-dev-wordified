@@ -2002,6 +2002,15 @@ aState
 virtual
 NS_HIDDEN_
 (
+void
+)
+SuspendTimeouts
+(
+)
+;
+virtual
+NS_HIDDEN_
+(
 nsresult
 )
 ResumeTimeouts
@@ -3654,11 +3663,6 @@ GetMainWidget
 )
 ;
 void
-SuspendTimeouts
-(
-)
-;
-void
 Freeze
 (
 )
@@ -4556,6 +4560,9 @@ PRBool
 >
 *
 mPendingStorageEvents
+;
+PRUint32
+mTimeoutsSuspendDepth
 ;
 #
 ifdef
