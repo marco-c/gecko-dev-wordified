@@ -676,6 +676,15 @@ FREE_LEVEL
 static
 const
 uint16
+MAX_LEVEL
+=
+FREE_LEVEL
+-
+1
+;
+static
+const
+uint16
 CALLEE_SLOT
 =
 0xffff

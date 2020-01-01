@@ -4353,7 +4353,7 @@ SetStaticLevel
 JSTreeContext
 *
 tc
-uintN
+uint16
 staticLevel
 )
 {
@@ -4487,7 +4487,7 @@ source
 NULL
 *
 /
-unsigned
+uint16
 staticLevel
 /
 *

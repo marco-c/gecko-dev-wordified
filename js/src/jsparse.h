@@ -8759,7 +8759,7 @@ JSString
 source
 =
 NULL
-unsigned
+uint16
 staticLevel
 =
 0

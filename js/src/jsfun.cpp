@@ -16227,7 +16227,7 @@ toPrivateUint32
 )
 )
 ;
-uintN
+uint16
 level
 =
 fun
@@ -16271,7 +16271,7 @@ dslots
 i
 ]
 =
-js_GetUpvar
+GetUpvar
 (
 cx
 level

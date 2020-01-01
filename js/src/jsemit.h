@@ -2509,7 +2509,7 @@ global
 context
 *
 /
-uintN
+uint16
 staticLevel
 ;
 /
