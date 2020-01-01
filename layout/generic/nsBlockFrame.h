@@ -2838,7 +2838,8 @@ aOverflowAreas
 /
 *
 *
-add
+*
+Add
 the
 frames
 in
@@ -2848,8 +2849,9 @@ this
 block
 after
 aPrevSibling
+.
 *
-this
+This
 block
 thinks
 in
@@ -2868,8 +2870,7 @@ about
 lines
 at
 all
-.
-So
+so
 we
 need
 to
@@ -2890,7 +2891,7 @@ that
 line
 .
 *
-new
+New
 lines
 are
 created
@@ -2912,8 +2913,7 @@ aFrameList
 .
 *
 /
-virtual
-nsresult
+void
 AddFrames
 (
 nsFrameList
