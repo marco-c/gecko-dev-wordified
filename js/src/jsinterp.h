@@ -2749,6 +2749,9 @@ cx
 JSScript
 *
 script
+JSFunction
+*
+fun
 JSObject
 *
 scopeChain
