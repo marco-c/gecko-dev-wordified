@@ -1141,6 +1141,7 @@ toggleByClass
 function
 (
 cls
+evt
 )
 {
 var
@@ -1164,6 +1165,16 @@ SimpleTest
 .
 toggle
 elems
+)
+;
+if
+(
+evt
+)
+evt
+.
+preventDefault
+(
 )
 ;
 }
