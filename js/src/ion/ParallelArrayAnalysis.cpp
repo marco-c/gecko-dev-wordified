@@ -1103,7 +1103,7 @@ a
 ok
 with
 us
-UNSAFE_OP
+SAFE_OP
 (
 GetPropertyCache
 )

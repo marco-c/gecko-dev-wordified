@@ -2490,6 +2490,11 @@ zone
 )
 ;
 void
+destroyCaches
+(
+)
+;
+void
 copySnapshots
 (
 const
