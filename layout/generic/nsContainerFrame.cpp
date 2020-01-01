@@ -5285,6 +5285,7 @@ const
 nsHTMLReflowState
 *
 aReflowState
+const
 nsHTMLReflowMetrics
 &
 aDesiredSize
