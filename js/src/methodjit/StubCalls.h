@@ -507,6 +507,15 @@ uint32
 index
 )
 ;
+void
+JS_FASTCALL
+BitAnd
+(
+VMFrame
+&
+f
+)
+;
 }
 }
 }
