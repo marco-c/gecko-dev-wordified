@@ -565,17 +565,6 @@ endif
 #
 elif
 defined
-XP_MAC
-#
-include
-"
-_macos
-.
-h
-"
-#
-elif
-defined
 (
 XP_UNIX
 )
