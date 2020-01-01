@@ -637,14 +637,6 @@ gtk_invisible_new
 (
 )
 ;
-g_object_ref
-(
-GTK_OBJECT
-(
-mWidget
-)
-)
-;
 g_object_ref_sink
 (
 GTK_OBJECT

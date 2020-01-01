@@ -975,14 +975,6 @@ gtk_menu_new
 (
 )
 ;
-g_object_ref
-(
-GTK_OBJECT
-(
-menu
-)
-)
-;
 g_object_ref_sink
 (
 GTK_OBJECT
