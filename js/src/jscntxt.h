@@ -1634,6 +1634,9 @@ TracerState
 ;
 }
 ;
+#
+ifdef
+JS_METHODJIT
 namespace
 mjit
 {
@@ -1754,6 +1757,13 @@ cx
 }
 ;
 }
+#
+endif
+/
+*
+JS_METHODJIT
+*
+/
 /
 *
 *
