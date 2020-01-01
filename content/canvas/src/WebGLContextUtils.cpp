@@ -1587,7 +1587,7 @@ WebGLContext
 :
 SynthesizeGLError
 (
-GLenum
+WebGLenum
 err
 )
 {
@@ -1683,7 +1683,7 @@ WebGLContext
 :
 SynthesizeGLError
 (
-GLenum
+WebGLenum
 err
 const
 char
