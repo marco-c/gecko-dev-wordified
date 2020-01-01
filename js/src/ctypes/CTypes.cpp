@@ -1125,10 +1125,8 @@ cx
 JSObject
 *
 obj
-const
 jsval
-*
-vp
+v
 JSBool
 *
 bp
@@ -21739,10 +21737,8 @@ cx
 JSObject
 *
 obj
-const
 jsval
-*
-vp
+v
 JSBool
 *
 bp
@@ -21811,8 +21807,7 @@ if
 (
 JSVAL_IS_PRIMITIVE
 (
-*
-vp
+v
 )
 )
 return
@@ -21824,8 +21819,7 @@ proto
 =
 JSVAL_TO_OBJECT
 (
-*
-vp
+v
 )
 ;
 while
