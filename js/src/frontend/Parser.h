@@ -2085,8 +2085,7 @@ Additionally
 the
 special
 syntax
-%
-_CallName
+_CallFunction
 (
 receiver
 .
@@ -2095,8 +2094,8 @@ receiver
 args
 fun
 )
-is
 *
+is
 supported
 for
 which
@@ -3293,12 +3292,6 @@ identifierName
 (
 bool
 afterDoubleDot
-)
-;
-ParseNode
-*
-intrinsicName
-(
 )
 ;
 #

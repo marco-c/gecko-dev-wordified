@@ -254,12 +254,6 @@ isKind
 (
 PNK_NAME
 )
-|
-|
-isKind
-(
-PNK_INTRINSICNAME
-)
 )
 ;
 JSAtom
