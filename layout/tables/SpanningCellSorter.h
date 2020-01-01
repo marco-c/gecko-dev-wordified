@@ -210,9 +210,6 @@ public
 :
 SpanningCellSorter
 (
-nsIPresShell
-*
-aPresShell
 )
 ;
 ~
@@ -352,10 +349,6 @@ aColSpan
 ;
 private
 :
-nsIPresShell
-*
-mPresShell
-;
 enum
 State
 {
