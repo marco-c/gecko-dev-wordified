@@ -1235,7 +1235,7 @@ SEEK_SET
 return
 READ_ERROR
 ;
-int
+size_t
 rd
 =
 fread
