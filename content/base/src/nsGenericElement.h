@@ -779,7 +779,7 @@ mNode
 nsnull
 ;
 }
-nsISupports
+nsINode
 *
 GetParentObject
 (

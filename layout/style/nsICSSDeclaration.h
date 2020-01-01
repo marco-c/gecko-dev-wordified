@@ -556,6 +556,9 @@ NS_ICSSDECLARATION_IID
 }
 }
 class
+nsINode
+;
+class
 nsICSSDeclaration
 :
 public
@@ -696,7 +699,7 @@ aValue
 0
 ;
 virtual
-nsISupports
+nsINode
 *
 GetParentObject
 (
