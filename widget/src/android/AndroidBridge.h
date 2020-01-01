@@ -593,6 +593,13 @@ JNIForThread
 (
 )
 {
+if
+(
+NS_LIKELY
+(
+sBridge
+)
+)
 return
 sBridge
 -
@@ -600,6 +607,9 @@ sBridge
 AttachThread
 (
 )
+;
+return
+nsnull
 ;
 }
 /
