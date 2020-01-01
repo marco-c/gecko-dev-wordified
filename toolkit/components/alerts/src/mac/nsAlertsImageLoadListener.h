@@ -414,7 +414,7 @@ h
 #
 include
 "
-nsString
+nsStringAPI
 .
 h
 "
