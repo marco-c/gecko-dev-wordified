@@ -2051,6 +2051,7 @@ rv
 /
 *
 *
+*
 getCRLs
 *
 *
@@ -2253,7 +2254,8 @@ NS_ERROR_FAILURE
 /
 *
 *
-deletetCrl
+*
+deleteCrl
 *
 *
 Delete
