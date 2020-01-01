@@ -37657,11 +37657,6 @@ CloneFunctionObject
 (
 cx
 fun
-fun
--
->
-parent
-true
 )
 ;
 if
