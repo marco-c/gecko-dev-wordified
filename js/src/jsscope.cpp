@@ -816,9 +816,11 @@ scope
 map
 .
 ops
-LOCKED_OBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 obj
 )

@@ -1624,13 +1624,15 @@ ccx
 &
 &
 !
-STOBJ_IS_SYSTEM
-(
 JS_GetGlobalForObject
 (
 ccx
 jsobj
 )
+-
+>
+isSystem
+(
 )
 )
 {
