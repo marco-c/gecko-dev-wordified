@@ -12774,9 +12774,6 @@ if
 domRange
 )
 {
-PRInt32
-startOffset
-;
 domRange
 -
 >
