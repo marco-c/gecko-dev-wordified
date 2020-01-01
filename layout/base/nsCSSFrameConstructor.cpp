@@ -61583,7 +61583,7 @@ GetStyleDisplay
 )
 -
 >
-IsInlineOutside
+IsInlineOutsideStyle
 (
 )
 ;
