@@ -508,6 +508,11 @@ xpcAccessibleTableCell
 this
 )
 {
+mGenericTypes
+|
+=
+eTableCell
+;
 }
 /
 /
