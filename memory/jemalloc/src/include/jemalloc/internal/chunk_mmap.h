@@ -261,7 +261,7 @@ JEMALLOC_H_STRUCTS
 #
 ifdef
 JEMALLOC_H_EXTERNS
-void
+bool
 pages_purge
 (
 void
