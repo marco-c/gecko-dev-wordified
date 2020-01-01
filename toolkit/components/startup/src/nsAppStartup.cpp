@@ -3130,7 +3130,11 @@ rv
 ;
 PRTime
 launched
+=
+0
 started
+=
+0
 ;
 mRestoredTimestamp
 =
@@ -3257,6 +3261,15 @@ PRUint64
 &
 started
 )
+;
+if
+(
+!
+launched
+)
+launched
+=
+started
 ;
 nsCAutoString
 appVersion
