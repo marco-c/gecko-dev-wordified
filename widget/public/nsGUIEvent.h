@@ -4121,6 +4121,10 @@ mCursorIsCollapsed
 (
 PR_FALSE
 )
+mReferenceWidget
+(
+nsnull
+)
 {
 }
 nsRect
@@ -4128,6 +4132,10 @@ mCursorPosition
 ;
 PRBool
 mCursorIsCollapsed
+;
+nsIWidget
+*
+mReferenceWidget
 ;
 }
 ;

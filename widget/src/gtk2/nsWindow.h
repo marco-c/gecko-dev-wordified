@@ -1718,6 +1718,15 @@ GdkEventKey
 aEvent
 )
 ;
+void
+IMESetCursorPosition
+(
+const
+nsTextEventReply
+&
+aReply
+)
+;
 /
 *
 *
