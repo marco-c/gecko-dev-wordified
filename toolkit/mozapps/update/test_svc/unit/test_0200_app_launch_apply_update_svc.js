@@ -162,6 +162,17 @@ run_test
 (
 )
 {
+if
+(
+!
+shouldRunServiceTest
+(
+)
+)
+{
+return
+;
+}
 do_test_pending
 (
 )
