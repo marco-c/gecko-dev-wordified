@@ -8060,7 +8060,7 @@ in
 timely
 manner
 (
-100MS
+1000MS
 )
 /
 /
@@ -8092,7 +8092,7 @@ reject
 )
 ;
 }
-500
+1000
 )
 ;
 yield
