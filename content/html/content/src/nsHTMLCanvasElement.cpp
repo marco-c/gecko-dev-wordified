@@ -2877,7 +2877,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIPropertyBag
+nsIWritablePropertyBag2
 >
 contextProps
 ;
@@ -2907,12 +2907,6 @@ nsContentUtils
 GetCurrentJSContext
 (
 )
-;
-nsCOMPtr
-<
-nsIWritablePropertyBag2
->
-newProps
 ;
 /
 /
@@ -2962,7 +2956,7 @@ aContextOptions
 )
 )
 {
-newProps
+contextProps
 =
 do_CreateInstance
 (
@@ -3108,7 +3102,7 @@ propval
 )
 )
 {
-newProps
+contextProps
 -
 >
 SetPropertyAsBool
@@ -3134,7 +3128,7 @@ propval
 )
 )
 {
-newProps
+contextProps
 -
 >
 SetPropertyAsInt32
@@ -3156,7 +3150,7 @@ propval
 )
 )
 {
-newProps
+contextProps
 -
 >
 SetPropertyAsDouble
@@ -3215,7 +3209,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-newProps
+contextProps
 -
 >
 SetPropertyAsAString
@@ -3227,10 +3221,6 @@ vstr
 }
 }
 }
-contextProps
-=
-newProps
-;
 }
 rv
 =
