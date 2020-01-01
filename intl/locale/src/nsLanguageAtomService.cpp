@@ -579,7 +579,7 @@ nsLanguageAtomService
 LookupLanguage
 (
 const
-nsAString
+nsACString
 &
 aLanguage
 nsresult
@@ -587,7 +587,7 @@ nsresult
 aError
 )
 {
-nsAutoString
+nsCAutoString
 lowered
 (
 aLanguage

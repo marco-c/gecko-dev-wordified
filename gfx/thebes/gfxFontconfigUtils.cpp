@@ -2542,11 +2542,8 @@ gLangService
 >
 LookupLanguage
 (
-NS_ConvertUTF8toUTF16
-(
 *
 aFcLang
-)
 )
 ;
 return
