@@ -1767,8 +1767,9 @@ LOpcode
 op
 LInsp
 c
-LInsp
-data
+GuardRecord
+*
+gr
 )
 {
 debug_only
@@ -1798,7 +1799,11 @@ ins2
 (
 op
 c
-data
+(
+LIns
+*
+)
+gr
 )
 ;
 }
@@ -5592,8 +5597,9 @@ LOpcode
 v
 LInsp
 c
-LInsp
-x
+GuardRecord
+*
+gr
 )
 {
 if
@@ -5748,7 +5754,7 @@ insGuard
 (
 LIR_x
 NULL
-x
+gr
 )
 ;
 }
@@ -5865,7 +5871,7 @@ insGuard
 (
 v
 c
-x
+gr
 )
 ;
 }
@@ -13502,8 +13508,9 @@ LOpcode
 v
 LInsp
 c
-LInsp
-x
+GuardRecord
+*
+gr
 )
 {
 /
@@ -13780,7 +13787,7 @@ insGuard
 (
 v
 c
-x
+gr
 )
 k
 )
@@ -13794,7 +13801,7 @@ insGuard
 (
 v
 c
-x
+gr
 )
 ;
 }
