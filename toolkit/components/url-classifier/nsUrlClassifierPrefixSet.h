@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -211,7 +204,7 @@ FileUtils
 h
 "
 class
-nsPrefixSetReporter
+nsIMemoryReporter
 ;
 class
 nsUrlClassifierPrefixSet
@@ -354,9 +347,9 @@ PREFIXSET_VERSION_MAGIC
 =
 1
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsPrefixSetReporter
+nsIMemoryReporter
 >
 mReporter
 ;
