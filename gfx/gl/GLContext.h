@@ -2403,7 +2403,7 @@ as
 unsupported
 *
 /
-bool
+void
 MarkUnsupported
 (
 GLFeature

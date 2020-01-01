@@ -5201,9 +5201,6 @@ function
 "
 )
 ;
-mInitialized
-&
-=
 MarkUnsupported
 (
 GLFeature
@@ -5757,9 +5754,6 @@ functions
 "
 )
 ;
-mInitialized
-&
-=
 MarkUnsupported
 (
 GLFeature
@@ -5768,9 +5762,6 @@ GLFeature
 query_objects
 )
 ;
-mInitialized
-&
-=
 MarkUnsupported
 (
 GLFeature
@@ -5779,9 +5770,6 @@ GLFeature
 get_query_object_iv
 )
 ;
-mInitialized
-&
-=
 MarkUnsupported
 (
 GLFeature
@@ -5922,9 +5910,6 @@ function
 "
 )
 ;
-mInitialized
-&
-=
 MarkUnsupported
 (
 GLFeature
