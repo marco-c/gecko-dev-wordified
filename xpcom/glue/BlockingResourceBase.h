@@ -1997,6 +1997,8 @@ return
 PR_SUCCESS
 ;
 }
+public
+:
 /
 *
 *
@@ -2031,6 +2033,8 @@ sDeadlockDetector
 0
 ;
 }
+private
+:
 #
 ifdef
 MOZILLA_INTERNAL_API
