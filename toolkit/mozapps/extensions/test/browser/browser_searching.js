@@ -3516,6 +3516,8 @@ run_next_test
 (
 )
 ;
+return
+;
 }
 /
 /
@@ -3543,6 +3545,11 @@ sorters
 anonid
 "
 buttonId
+)
+;
+is_element_visible
+(
+sorter
 )
 ;
 EventUtils
