@@ -918,10 +918,6 @@ static
 JSEqualityOp
 sXPCWrappedNativeEqualityOps
 ;
-static
-JSEqualityOp
-sXPCSlimWrapperEqualityOps
-;
 /
 /
 /
@@ -13293,12 +13289,6 @@ op
 =
 =
 sXPCWrappedNativeEqualityOps
-|
-|
-op
-=
-=
-sXPCSlimWrapperEqualityOps
 )
 {
 result
@@ -19212,8 +19202,6 @@ GetXPCWrappedNativeJSClassInfo
 (
 &
 sXPCWrappedNativeEqualityOps
-&
-sXPCSlimWrapperEqualityOps
 )
 ;
 return
