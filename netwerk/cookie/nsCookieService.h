@@ -1844,6 +1844,14 @@ PRUnichar
 aData
 )
 ;
+void
+NotifyPurged
+(
+nsICookie2
+*
+aCookie
+)
+;
 protected
 :
 /
