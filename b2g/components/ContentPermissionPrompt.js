@@ -148,6 +148,11 @@ PROMPT_FOR_UNKNOWN
 '
 geolocation
 '
+'
+desktop
+-
+notification
+'
 ]
 ;
 Cu
