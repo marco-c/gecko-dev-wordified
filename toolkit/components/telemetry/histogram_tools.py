@@ -60,22 +60,9 @@ with_statement
 import
 math
 import
-json
-try
-:
-    
-from
-collections
-import
-OrderedDict
-except
-ImportError
-:
-    
-from
 simplejson
-import
-OrderedDict
+as
+json
 def
 table_dispatch
 (
@@ -1558,6 +1545,8 @@ load
 f
 object_pairs_hook
 =
+json
+.
 OrderedDict
 )
         
