@@ -16850,14 +16850,15 @@ valueunion
 addComponent
 (
 c
+)
+;
+    
+valueunion
 .
-unionType
+addAlignment
 (
 )
-c
-.
-name
-)
+;
     
 cls
 .
