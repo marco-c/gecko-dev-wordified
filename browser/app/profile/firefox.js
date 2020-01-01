@@ -2614,7 +2614,7 @@ search
 .
 chunkSize
 "
-100
+1000
 )
 ;
 pref
@@ -2628,7 +2628,7 @@ search
 .
 timeout
 "
-100
+50
 )
 ;
 pref
