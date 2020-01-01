@@ -274,7 +274,9 @@ mIsNull
 true
 ;
 }
+const
 T
+&
 Value
 (
 )
