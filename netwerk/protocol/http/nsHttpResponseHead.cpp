@@ -3571,9 +3571,7 @@ if
 (
 time
 <
-LL_Zero
-(
-)
+0
 )
 *
 result

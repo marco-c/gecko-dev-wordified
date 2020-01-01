@@ -11613,7 +11613,7 @@ localfile
 PRTime
 fileModTime
 =
-LL_ZERO
+0
 ;
 #
 if

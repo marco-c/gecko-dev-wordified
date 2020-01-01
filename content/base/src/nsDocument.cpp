@@ -33295,7 +33295,7 @@ aChannel
 PRTime
 modDate
 =
-LL_ZERO
+0
 ;
 nsresult
 rv
@@ -33741,7 +33741,7 @@ if
 modDate
 !
 =
-LL_ZERO
+0
 )
 {
 PRExplodedTime

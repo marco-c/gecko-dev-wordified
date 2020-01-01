@@ -4170,7 +4170,7 @@ seconds
 int64_t
 fileModTime
 =
-LL_ZERO
+0
 ;
 rv
 =

@@ -6067,7 +6067,7 @@ gNoisy
 PRTime
 start
 =
-LL_ZERO
+0
 ;
 /
 /
@@ -43322,7 +43322,7 @@ height
 PRTime
 start
 =
-LL_ZERO
+0
 ;
 /
 /

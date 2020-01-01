@@ -1006,9 +1006,7 @@ NS_SEEK_SET
 offset
 =
 =
-LL_Zero
-(
-)
+0
 )
 {
 rv
