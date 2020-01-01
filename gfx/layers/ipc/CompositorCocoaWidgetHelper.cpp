@@ -141,7 +141,7 @@ layers
 namespace
 compositor
 {
-LayerManager
+LayerManagerComposite
 *
 GetLayerManager
 (

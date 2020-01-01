@@ -199,6 +199,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

@@ -4632,6 +4632,12 @@ pbd
 )
 ;
 }
+mozilla
+:
+:
+plugins
+:
+:
 SurfaceDescriptor
 PluginInstanceParent
 :
@@ -4759,6 +4765,12 @@ generated
 code
 .
 return
+mozilla
+:
+:
+plugins
+:
+:
 SurfaceDescriptor
 (
 )

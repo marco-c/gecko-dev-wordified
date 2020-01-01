@@ -66,10 +66,6 @@ GFX_TILEDLAYERBUFFER_H
 define
 TILEDLAYERBUFFER_TILE_SIZE
 256
-/
-/
-Debug
-defines
 #
 ifdef
 MOZ_ANDROID_OMTC
@@ -94,6 +90,10 @@ define
 FORCE_BASICTILEDTHEBESLAYER
 #
 endif
+/
+/
+Debug
+defines
 /
 /
 #
@@ -1506,14 +1506,6 @@ const
 BasicTiledLayerBuffer
 *
 aTiledBuffer
-)
-=
-0
-;
-virtual
-void
-MemoryPressure
-(
 )
 =
 0

@@ -3836,6 +3836,17 @@ layerManagerType
 OpenGL
 "
 ;
+sandbox
+.
+layersOMTC
+=
+gWindowUtils
+.
+layerManagerRemote
+=
+=
+true
+;
 /
 /
 Shortcuts

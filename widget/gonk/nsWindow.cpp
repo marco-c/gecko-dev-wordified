@@ -3611,7 +3611,7 @@ aRotation
 ;
 sRotationMatrix
 =
-ComputeGLTransformForRotation
+ComputeTransformForRotation
 (
 gScreenBounds
 ScreenRotation

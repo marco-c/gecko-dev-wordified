@@ -117,7 +117,7 @@ namespace
 mozilla
 {
 gfxMatrix
-ComputeGLTransformForRotation
+ComputeTransformForRotation
 (
 const
 nsIntRect

@@ -243,6 +243,11 @@ GLeglImage
 EGL
 types
 typedef
+void
+*
+EGLImage
+;
+typedef
 int
 EGLint
 ;

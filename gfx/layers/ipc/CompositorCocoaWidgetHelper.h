@@ -155,7 +155,7 @@ class
 CompositorParent
 ;
 class
-LayerManager
+LayerManagerComposite
 ;
 namespace
 compositor
@@ -200,7 +200,7 @@ Bug
 719036
 )
 .
-LayerManager
+LayerManagerComposite
 *
 GetLayerManager
 (

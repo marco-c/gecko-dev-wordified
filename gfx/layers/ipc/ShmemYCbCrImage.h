@@ -141,6 +141,9 @@ Shmem
 namespace
 layers
 {
+class
+Image
+;
 /
 *
 *

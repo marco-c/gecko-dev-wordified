@@ -150,7 +150,7 @@ ROTATION_COUNT
 }
 ;
 gfxMatrix
-ComputeGLTransformForRotation
+ComputeTransformForRotation
 (
 const
 nsIntRect

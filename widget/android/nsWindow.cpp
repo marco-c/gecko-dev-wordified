@@ -327,6 +327,13 @@ h
 #
 include
 "
+LayerManagerComposite
+.
+h
+"
+#
+include
+"
 GLContext
 .
 h
@@ -13899,7 +13906,7 @@ mozilla
 layers
 :
 :
-LayerManagerOGL
+LayerManagerComposite
 *
 manager
 =
@@ -13911,7 +13918,7 @@ mozilla
 layers
 :
 :
-LayerManagerOGL
+LayerManagerComposite
 *
 >
 (

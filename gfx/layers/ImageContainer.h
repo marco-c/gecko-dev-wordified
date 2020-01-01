@@ -128,6 +128,10 @@ gfxImageFormat
 #
 include
 "
+mozilla
+/
+layers
+/
 LayersTypes
 .
 h
@@ -225,7 +229,7 @@ namespace
 layers
 {
 class
-ImageContainerChild
+ImageClient
 ;
 class
 SharedPlanarYCbCrImage
@@ -1886,7 +1890,7 @@ this
 ImageContainer
 has
 an
-ImageContainerChild
+ImageClient
 for
 async
 video
@@ -2129,7 +2133,7 @@ Can
 be
 called
 from
-ay
+any
 thread
 .
 *
@@ -3641,7 +3645,7 @@ member
 points
 to
 an
-ImageContainerChild
+ImageClient
 if
 this
 ImageContainer
@@ -3670,7 +3674,7 @@ only
 means
 that
 the
-ImageContainerChild
+ImageClient
 could
 not
 /
@@ -3727,11 +3731,9 @@ ImageBridge
 IPDL
 protocol
 .
-nsRefPtr
-<
-ImageContainerChild
->
-mImageContainerChild
+ImageClient
+*
+mImageClient
 ;
 }
 ;

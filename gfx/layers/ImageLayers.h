@@ -193,6 +193,7 @@ layer
 .
 *
 /
+virtual
 void
 SetContainer
 (
