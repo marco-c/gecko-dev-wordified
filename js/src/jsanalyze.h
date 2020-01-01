@@ -6558,9 +6558,6 @@ SSAPhiNode
 phiNodes
 ;
 bool
-hasGetSet
-;
-bool
 hasHole
 ;
 types
@@ -6586,10 +6583,6 @@ cx
 phiNodes
 (
 cx
-)
-hasGetSet
-(
-false
 )
 hasHole
 (
