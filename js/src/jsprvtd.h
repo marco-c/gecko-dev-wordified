@@ -559,13 +559,6 @@ AllFlags
 0x0f
 }
 ;
-enum
-RegExpExecType
-{
-RegExpExec
-RegExpTest
-}
-;
 class
 ExecuteArgsGuard
 ;

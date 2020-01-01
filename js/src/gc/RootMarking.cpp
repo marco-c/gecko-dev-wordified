@@ -4848,7 +4848,7 @@ if
 statics
 -
 >
-matchPairsInput
+matchesInput
 )
 MarkStringRoot
 (
@@ -4864,14 +4864,14 @@ JSString
 statics
 -
 >
-matchPairsInput
+matchesInput
 )
 "
 RegExpStatics
 :
 :
 AutoRooter
-matchPairsInput
+matchesInput
 "
 )
 ;
