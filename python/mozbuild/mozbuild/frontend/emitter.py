@@ -883,6 +883,12 @@ MODULE
 MODULE
 '
             
+MSVC_ENABLE_PGO
+=
+'
+MSVC_ENABLE_PGO
+'
+            
 SDK_LIBRARY
 =
 '

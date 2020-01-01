@@ -1280,6 +1280,10 @@ LIBXUL_LIBRARY
 =
 True
             
+MSVC_ENABLE_PGO
+=
+True
+            
 NO_DIST_INSTALL
 =
 '
