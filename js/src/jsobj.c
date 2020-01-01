@@ -27086,7 +27086,7 @@ classDef
 &
 &
 !
-js_XDRCStringAtom
+js_XDRStringAtom
 (
 xdr
 &

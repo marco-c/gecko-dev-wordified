@@ -8493,7 +8493,7 @@ userid
 |
 |
 !
-js_XDRCStringAtom
+js_XDRStringAtom
 (
 xdr
 &
@@ -8583,7 +8583,7 @@ userid
 |
 |
 !
-js_XDRCStringAtom
+js_XDRStringAtom
 (
 xdr
 &
