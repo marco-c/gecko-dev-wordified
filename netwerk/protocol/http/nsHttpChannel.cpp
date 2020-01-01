@@ -4424,7 +4424,7 @@ rv
 permMgr
 -
 >
-TestPermissionFromPrincipal
+TestExactPermissionFromPrincipal
 (
 principal
 "
@@ -4492,7 +4492,7 @@ rv
 permMgr
 -
 >
-TestPermissionFromPrincipal
+TestExactPermissionFromPrincipal
 (
 principal
 "
