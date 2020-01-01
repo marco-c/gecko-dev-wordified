@@ -694,14 +694,6 @@ ResetElementFocus
 (
 )
 ;
-NS_IMETHOD
-Disconnect
-(
-nsPIDOMWindow
-*
-aWindow
-)
-;
 /
 /
 nsIDOMFocusListener
