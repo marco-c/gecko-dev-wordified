@@ -85,13 +85,6 @@ MPL
 .
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 Cu
 .
 import
