@@ -12630,10 +12630,6 @@ if
 mConnection
 )
 {
-CancelUpdate
-(
-)
-;
 mMainStore
 .
 Close
