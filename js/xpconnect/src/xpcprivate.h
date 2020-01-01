@@ -6030,15 +6030,6 @@ CTypesActivityType
 type
 )
 ;
-bool
-XBLScopesEnabled
-(
-)
-{
-return
-gXBLScopesEnabled
-;
-}
 size_t
 SizeOfIncludingThis
 (
@@ -6124,10 +6115,6 @@ nsISupports
 &
 array
 )
-;
-static
-bool
-gXBLScopesEnabled
 ;
 static
 const

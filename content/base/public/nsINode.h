@@ -7402,7 +7402,7 @@ content
 /
 static
 bool
-ShouldExposeUserData
+IsChromeOrXBL
 (
 JSContext
 *
