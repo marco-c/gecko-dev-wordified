@@ -2000,6 +2000,11 @@ this
 _markupSplitter
 )
 ;
+delete
+this
+.
+_markupSplitter
+;
 }
 }
 /
