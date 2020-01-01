@@ -560,6 +560,9 @@ new
 NetworkStatsDB
 (
 myGlobal
+this
+.
+_connectionTypes
 )
 ;
 /
