@@ -6716,8 +6716,15 @@ cx
 -
 >
 methodJitEnabled
-|
-|
+)
+return
+Compile_Abort
+;
+#
+ifdef
+JS_ION
+if
+(
 ion
 :
 :
@@ -6729,6 +6736,8 @@ cx
 return
 Compile_Abort
 ;
+#
+endif
 /
 *
 *
