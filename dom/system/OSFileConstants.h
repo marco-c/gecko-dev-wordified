@@ -76,6 +76,15 @@ nsIOSFileConstantsService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -236,6 +245,7 @@ thread
 /
 class
 OSFileConstantsService
+MOZ_FINAL
 :
 public
 nsIOSFileConstantsService
