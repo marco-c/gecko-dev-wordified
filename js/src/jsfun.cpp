@@ -1382,7 +1382,10 @@ JS_ASSERT
 argc
 <
 =
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 ;
 JSObject
@@ -14101,7 +14104,10 @@ uintN
 JS_MIN
 (
 length
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 )
 ;
@@ -14681,7 +14687,10 @@ argc
 +
 argslen
 >
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 {
 js_ReportAllocationOverflow

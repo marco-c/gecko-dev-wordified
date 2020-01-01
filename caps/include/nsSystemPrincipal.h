@@ -526,6 +526,10 @@ NS_DECL_NSISERIALIZABLE
 nsresult
 Init
 (
+JSPrincipals
+*
+*
+jsprin
 )
 ;
 nsSystemPrincipal
