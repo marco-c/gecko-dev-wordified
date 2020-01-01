@@ -1517,6 +1517,9 @@ heap
 }
 }
 ;
+#
+ifdef
+AVMPLUS_DEFINE_NEW_DELETE
 inline
 void
 *
@@ -1554,6 +1557,8 @@ p
 )
 ;
 }
+#
+endif
 #
 define
 DWB

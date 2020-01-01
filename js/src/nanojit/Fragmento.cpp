@@ -445,6 +445,9 @@ BLOCK
 *
 /
 #
+define
+AVMPLUS_DEFINE_NEW_DELETE
+#
 include
 "
 nanojit
