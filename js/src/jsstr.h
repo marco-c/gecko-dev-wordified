@@ -1523,7 +1523,7 @@ mLengthAndFlags
 TYPE_MASK
 ;
 }
-inline
+JS_ALWAYS_INLINE
 bool
 isDependent
 (
@@ -1539,7 +1539,7 @@ type
 DEPENDENT
 ;
 }
-inline
+JS_ALWAYS_INLINE
 bool
 isFlat
 (
@@ -1588,7 +1588,7 @@ ROPE_BIT
 )
 ;
 }
-inline
+JS_ALWAYS_INLINE
 bool
 isAtomized
 (
@@ -1639,7 +1639,7 @@ type
 TOP_NODE
 ;
 }
-inline
+JS_ALWAYS_INLINE
 jschar
 *
 chars
@@ -1660,6 +1660,7 @@ nonFlatChars
 )
 ;
 }
+JS_ALWAYS_INLINE
 jschar
 *
 nonFlatChars
@@ -1714,7 +1715,7 @@ dependentChars
 ;
 }
 }
-inline
+JS_ALWAYS_INLINE
 size_t
 length
 (
@@ -1728,7 +1729,7 @@ mLengthAndFlags
 FLAGS_LENGTH_SHIFT
 ;
 }
-inline
+JS_ALWAYS_INLINE
 bool
 empty
 (
@@ -1744,7 +1745,7 @@ length
 0
 ;
 }
-inline
+JS_ALWAYS_INLINE
 void
 getCharsAndLength
 (
@@ -1777,7 +1778,7 @@ length
 )
 ;
 }
-inline
+JS_ALWAYS_INLINE
 void
 getCharsAndEnd
 (
@@ -1823,7 +1824,7 @@ methods
 .
 *
 /
-inline
+JS_ALWAYS_INLINE
 void
 initFlat
 (
@@ -1866,7 +1867,7 @@ mChars
 chars
 ;
 }
-inline
+JS_ALWAYS_INLINE
 void
 initFlatMutable
 (
@@ -1913,7 +1914,7 @@ mChars
 chars
 ;
 }
-inline
+JS_ALWAYS_INLINE
 jschar
 *
 flatChars
@@ -1932,7 +1933,7 @@ return
 mChars
 ;
 }
-inline
+JS_ALWAYS_INLINE
 size_t
 flatLength
 (
@@ -1952,7 +1953,7 @@ length
 )
 ;
 }
-inline
+JS_ALWAYS_INLINE
 size_t
 flatCapacity
 (
@@ -2370,7 +2371,7 @@ return
 mBase
 ;
 }
-inline
+JS_ALWAYS_INLINE
 jschar
 *
 dependentChars
