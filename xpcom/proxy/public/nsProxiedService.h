@@ -1089,6 +1089,7 @@ nsProxiedService
 /
 /
 class
+NS_STACK_CLASS
 nsProxiedService
 {
 public
