@@ -6486,7 +6486,7 @@ NULL
 ;
 oldShape
 =
-self
+selfRoot
 -
 >
 lastProperty
@@ -6543,7 +6543,7 @@ newShape
 )
 Shape
 (
-oldShape
+oldRoot
 -
 >
 base
@@ -8558,7 +8558,7 @@ Shape
 shape
 JSObject
 *
-proto
+proto_
 )
 {
 Class
@@ -8606,10 +8606,14 @@ GetBackgroundAllocKind
 kind
 )
 ;
+Rooted
+<
 GlobalObject
 *
+>
 global
-=
+(
+cx
 &
 shape
 -
@@ -8621,6 +8625,14 @@ getObjectParent
 >
 global
 (
+)
+)
+;
+RootedObject
+proto
+(
+cx
+proto_
 )
 ;
 types

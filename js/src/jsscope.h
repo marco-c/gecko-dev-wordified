@@ -7708,7 +7708,7 @@ id
 ;
 if
 (
-start
+startRoot
 -
 >
 hashify
@@ -7722,7 +7722,7 @@ Shape
 *
 spp
 =
-start
+startRoot
 -
 >
 table

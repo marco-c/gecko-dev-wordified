@@ -6942,8 +6942,7 @@ CloneScript
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;

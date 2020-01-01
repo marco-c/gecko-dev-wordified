@@ -133,6 +133,15 @@ jsweakmap
 .
 h
 "
+#
+include
+"
+gc
+/
+Barrier
+.
+h
+"
 namespace
 js
 {
@@ -2993,8 +3002,7 @@ cx
 ScopeObject
 &
 scope
-JSObject
-&
+HandleObject
 enclosing
 )
 ;
