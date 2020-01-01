@@ -2384,7 +2384,7 @@ reg
 disp32
 +
 base
-X64_learm
+X64_lealrm
 =
 0x00000000808D4007LL
 /
@@ -5651,6 +5651,18 @@ Register
 r
 int32_t
 d
+)
+;
+\
+void
+LEALRM
+(
+Register
+r
+int
+d
+Register
+b
 )
 ;
 \
