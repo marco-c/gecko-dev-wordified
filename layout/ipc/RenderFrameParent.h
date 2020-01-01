@@ -780,6 +780,13 @@ BuildViewMap
 (
 )
 ;
+LayerManager
+*
+GetLayerManager
+(
+)
+const
+;
 ShadowLayersParent
 *
 GetShadowLayers
