@@ -10777,7 +10777,7 @@ aCategory
 ]
 ;
 }
-nsresult
+void
 nsDocument
 :
 :
@@ -10801,12 +10801,6 @@ nsXMLEventsManager
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-mXMLEventsManager
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 AddObserver
 (
 mXMLEventsManager
@@ -10820,9 +10814,6 @@ AddXMLEventsContent
 (
 aXMLEventsElement
 )
-;
-return
-NS_OK
 ;
 }
 void
