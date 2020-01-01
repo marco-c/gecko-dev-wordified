@@ -5048,14 +5048,13 @@ http
 :
 /
 /
-mobile
-.
 support
 .
 mozilla
 .
 com
 /
+mobile
 "
 )
 ;
