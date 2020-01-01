@@ -3970,14 +3970,10 @@ newThumbRect
 Redraw
 the
 scrollbar
-InvalidateWithFlags
+/
+/
+InvalidateFrame
 (
-clientRect
-aImmediateRedraw
-?
-INVALIDATE_IMMEDIATE
-:
-0
 )
 ;
 mCurPos

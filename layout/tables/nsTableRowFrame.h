@@ -1280,6 +1280,16 @@ BCPixelSize
 aPixelValue
 )
 ;
+virtual
+void
+InvalidateFrame
+(
+uint32_t
+aFlags
+=
+0
+)
+;
 #
 ifdef
 ACCESSIBILITY
