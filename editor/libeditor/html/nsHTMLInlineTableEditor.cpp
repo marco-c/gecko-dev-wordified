@@ -839,13 +839,9 @@ nsCOMPtr
 nsIPresShell
 >
 ps
-;
+=
 GetPresShell
 (
-getter_AddRefs
-(
-ps
-)
 )
 ;
 /

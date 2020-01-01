@@ -1086,13 +1086,9 @@ nsCOMPtr
 nsIPresShell
 >
 ps
-;
+=
 GetPresShell
 (
-getter_AddRefs
-(
-ps
-)
 )
 ;
 NS_ENSURE_TRUE
