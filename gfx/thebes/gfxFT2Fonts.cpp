@@ -217,17 +217,12 @@ gfxHarfBuzzShaper
 h
 "
 #
-ifdef
-MOZ_GRAPHITE
-#
 include
 "
 gfxGraphiteShaper
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2887,9 +2882,6 @@ ok
 =
 false
 ;
-#
-ifdef
-MOZ_GRAPHITE
 if
 (
 FontCanSupportGraphite
@@ -2944,8 +2936,6 @@ aShapedText
 ;
 }
 }
-#
-endif
 if
 (
 !

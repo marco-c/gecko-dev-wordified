@@ -117,17 +117,12 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_GRAPHITE
-#
 include
 "
 gfxGraphiteShaper
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -656,9 +651,6 @@ ComputeMetrics
 anAAOption
 )
 ;
-#
-ifdef
-MOZ_GRAPHITE
 if
 (
 FontCanSupportGraphite
@@ -675,8 +667,6 @@ this
 )
 ;
 }
-#
-endif
 if
 (
 FontCanSupportHarfBuzz

@@ -2176,9 +2176,6 @@ UseCmapsDuringSystemFallback
 (
 )
 ;
-#
-ifdef
-MOZ_GRAPHITE
 /
 *
 *
@@ -2207,8 +2204,6 @@ UseGraphiteShaping
 (
 )
 ;
-#
-endif
 /
 *
 *
@@ -3534,14 +3529,9 @@ mContentBackend
 int8_t
 mAllowDownloadableFonts
 ;
-#
-ifdef
-MOZ_GRAPHITE
 int8_t
 mGraphiteShapingEnabled
 ;
-#
-endif
 int8_t
 mBidiNumeralOption
 ;

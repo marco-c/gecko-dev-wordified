@@ -124,17 +124,12 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_GRAPHITE
-#
 include
 "
 gfxGraphiteShaper
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -276,9 +271,6 @@ mNeedsBold
 aNeedsBold
 )
 {
-#
-ifdef
-MOZ_GRAPHITE
 if
 (
 FontCanSupportGraphite
@@ -295,8 +287,6 @@ this
 )
 ;
 }
-#
-endif
 if
 (
 FontCanSupportHarfBuzz
@@ -673,9 +663,6 @@ return
 false
 ;
 }
-#
-ifdef
-MOZ_GRAPHITE
 if
 (
 mGraphiteShaper
@@ -710,8 +697,6 @@ aShapedText
 )
 ;
 }
-#
-endif
 if
 (
 !
