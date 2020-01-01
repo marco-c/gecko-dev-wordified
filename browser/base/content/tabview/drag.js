@@ -1067,6 +1067,10 @@ down
 the
 meta
 key
+or
+have
+trenches
+disabled
 .
 .
 .
@@ -1076,6 +1080,12 @@ if
 Keys
 .
 meta
+&
+&
+!
+Trenches
+.
+disabled
 )
 {
 /
