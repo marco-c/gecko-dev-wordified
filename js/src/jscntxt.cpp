@@ -3900,6 +3900,7 @@ existing
 .
 *
 /
+{
 AutoLockGC
 lock
 (
@@ -3960,6 +3961,7 @@ compartment
 +
 +
 ;
+}
 }
 js_FinishRuntimeNumberState
 (
