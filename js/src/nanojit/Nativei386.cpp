@@ -15400,11 +15400,12 @@ return
 at
 ;
 }
-void
+NIns
+*
 Assembler
 :
 :
-asm_branch_xov
+asm_branch_ov
 (
 LOpcode
 NIns
@@ -15416,6 +15417,9 @@ JO
 (
 target
 )
+;
+return
+_nIns
 ;
 }
 void
@@ -17035,6 +17039,9 @@ case
 LIR_muli
 :
 case
+LIR_muljovi
+:
+case
 LIR_mulxovi
 :
 isConstRhs
@@ -17243,6 +17250,9 @@ case
 LIR_addi
 :
 case
+LIR_addjovi
+:
+case
 LIR_addxovi
 :
 ADD
@@ -17269,6 +17279,9 @@ case
 LIR_subi
 :
 case
+LIR_subjovi
+:
+case
 LIR_subxovi
 :
 SUB
@@ -17281,6 +17294,9 @@ break
 ;
 case
 LIR_muli
+:
+case
+LIR_muljovi
 :
 case
 LIR_mulxovi
@@ -17452,6 +17468,9 @@ mov
 break
 ;
 case
+LIR_addjovi
+:
+case
 LIR_addxovi
 :
 ADDi
@@ -17464,6 +17483,9 @@ break
 ;
 case
 LIR_subi
+:
+case
+LIR_subjovi
 :
 case
 LIR_subxovi
