@@ -505,9 +505,6 @@ Init
 nsPIDOMWindow
 *
 aWindow
-nsIScriptContext
-*
-aScriptContext
 )
 ;
 void

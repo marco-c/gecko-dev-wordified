@@ -761,9 +761,6 @@ IDBOpenDBRequest
 >
 Create
 (
-nsIScriptContext
-*
-aScriptContext
 nsPIDOMWindow
 *
 aOwner
@@ -787,12 +784,6 @@ aOwnerCache
 return
 Create
 (
-aOwnerCache
--
->
-GetScriptContext
-(
-)
 aOwnerCache
 -
 >

@@ -606,9 +606,6 @@ aDocumentURI
 nsPIDOMWindow
 *
 aWindow
-nsIScriptContext
-*
-aScriptContext
 )
 ;
 virtual

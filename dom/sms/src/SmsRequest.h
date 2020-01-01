@@ -470,6 +470,9 @@ namespace
 sms
 {
 class
+SmsManager
+;
+class
 SmsRequest
 :
 public
@@ -510,12 +513,9 @@ MOZ_DELETE
 ;
 SmsRequest
 (
-nsPIDOMWindow
+SmsManager
 *
-aWindow
-nsIScriptContext
-*
-aScriptContext
+aManager
 )
 ;
 ~

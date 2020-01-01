@@ -762,6 +762,12 @@ PrefEnabled
 (
 )
 ;
+virtual
+void
+DisconnectFromOwner
+(
+)
+;
 protected
 :
 nsresult
