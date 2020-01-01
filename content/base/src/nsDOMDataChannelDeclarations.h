@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-nsDOMDataChannel_h__
+nsDOMDataChannelDeclarations_h
 #
 define
-nsDOMDataChannel_h__
+nsDOMDataChannelDeclarations_h
 /
 /
 This
@@ -215,3 +215,6 @@ domDataChannel
 ;
 #
 endif
+/
+/
+nsDOMDataChannelDeclarations_h
