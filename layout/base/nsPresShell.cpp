@@ -29529,9 +29529,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-nsIContent
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -29614,7 +29614,7 @@ mFrameConstructor
 >
 AttributeChanged
 (
-aContent
+aElement
 aNameSpaceID
 aAttribute
 aModType

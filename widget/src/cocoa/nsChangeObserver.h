@@ -562,6 +562,14 @@ nsChangeObserver
 {
 public
 :
+/
+/
+XXX
+use
+dom
+:
+:
+Element
 virtual
 void
 ObserveAttributeChanged
