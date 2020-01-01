@@ -1103,13 +1103,12 @@ e
 =
 entries
 [
+fe
+-
 frame
 -
 >
-indexOfFe
-(
-fe
-)
+entries
 ]
 ;
 if
