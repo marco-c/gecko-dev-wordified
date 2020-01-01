@@ -240,9 +240,14 @@ addr
 ;
 CHECK
 (
-JSVAL_IS_OBJECT
-(
 v2
+.
+value
+(
+)
+.
+isObject
+(
 )
 )
 ;
