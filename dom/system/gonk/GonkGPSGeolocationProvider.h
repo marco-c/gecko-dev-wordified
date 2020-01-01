@@ -422,7 +422,7 @@ StartGPS
 )
 ;
 void
-ShutdownNow
+ShutdownGPS
 (
 )
 ;
