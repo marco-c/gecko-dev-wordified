@@ -1613,6 +1613,8 @@ sSVGUnitTypesMap
 [
 ]
 ;
+private
+:
 /
 *
 read
@@ -1625,12 +1627,9 @@ number
 >
 *
 /
-PRBool
+nsresult
 ParseNumberOptionalNumber
 (
-nsIAtom
-*
-aAttribute
 const
 nsAString
 &
@@ -1639,9 +1638,6 @@ PRUint32
 aIndex1
 PRUint32
 aIndex2
-nsAttrValue
-&
-aResult
 )
 ;
 /
@@ -1656,12 +1652,9 @@ integer
 >
 *
 /
-PRBool
+nsresult
 ParseIntegerOptionalInteger
 (
-nsIAtom
-*
-aAttribute
 const
 nsAString
 &
@@ -1670,9 +1663,6 @@ PRUint32
 aIndex1
 PRUint32
 aIndex2
-nsAttrValue
-&
-aResult
 )
 ;
 static
@@ -1691,8 +1681,6 @@ nsAString
 aValue
 )
 ;
-private
-:
 void
 ResetOldStyleBaseType
 (
