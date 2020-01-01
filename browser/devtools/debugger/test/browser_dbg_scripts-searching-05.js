@@ -625,6 +625,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not
