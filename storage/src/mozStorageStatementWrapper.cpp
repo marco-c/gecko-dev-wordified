@@ -714,7 +714,14 @@ aStatement
 ;
 mStatement
 =
+static_cast
+<
+mozStorageStatement
+*
+>
+(
 aStatement
+)
 ;
 /
 /
@@ -1006,9 +1013,6 @@ new
 mozStorageStatementRow
 (
 mStatement
-mResultColumnCount
-&
-mColumnNames
 )
 ;
 if

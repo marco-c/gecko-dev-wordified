@@ -438,7 +438,7 @@ _MOZSTORAGESTATEMENTWRAPPER_H_
 #
 include
 "
-mozIStorageStatement
+mozStorageStatement
 .
 h
 "
@@ -535,9 +535,9 @@ to
 the
 concrete
 statement
-nsCOMPtr
+nsRefPtr
 <
-mozIStorageStatement
+mozStorageStatement
 >
 mStatement
 ;
