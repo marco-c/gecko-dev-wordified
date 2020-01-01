@@ -444,12 +444,6 @@ defined
 (
 XP_OS2
 )
-|
-|
-defined
-(
-WINCE
-)
 #
 if
 defined
@@ -567,12 +561,6 @@ defined
 (
 XP_OS2
 )
-|
-|
-defined
-(
-WINCE
-)
 #
 ifdef
 __WATCOMC__
@@ -613,9 +601,6 @@ _WIN32
 |
 |
 XP_OS2
-|
-|
-WINCE
 *
 /
 #

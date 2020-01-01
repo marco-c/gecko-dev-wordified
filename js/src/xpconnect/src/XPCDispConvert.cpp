@@ -1954,9 +1954,6 @@ maybe
 a
 VT_SAFEARRAY
 {
-#
-ifndef
-WINCE
 if
 (
 FAILED
@@ -1974,13 +1971,6 @@ vartype
 return
 JS_FALSE
 ;
-#
-else
-return
-JS_FALSE
-;
-#
-endif
 }
 jsval
 val

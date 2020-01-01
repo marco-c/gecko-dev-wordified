@@ -856,9 +856,6 @@ PRBool
 bClassExists
 )
 {
-#
-ifndef
-WINCE
 bClassExists
 =
 ClassExists
@@ -1045,8 +1042,6 @@ PR_TRUE
 /
 Match
 }
-#
-endif
 return
 PR_FALSE
 ;
