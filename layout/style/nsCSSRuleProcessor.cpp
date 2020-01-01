@@ -14151,7 +14151,7 @@ mOperator
 ?
 eRestyle_LaterSiblings
 :
-eRestyle_Self
+eRestyle_Subtree
 ;
 /
 /
@@ -14364,7 +14364,7 @@ mOperator
 ?
 eRestyle_LaterSiblings
 :
-eRestyle_Self
+eRestyle_Subtree
 ;
 /
 /
@@ -14645,7 +14645,7 @@ data
 .
 change
 |
-eRestyle_Self
+eRestyle_Subtree
 )
 ;
 }

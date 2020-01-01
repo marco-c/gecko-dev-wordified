@@ -1450,7 +1450,7 @@ if
 (
 aRestyleHint
 &
-eRestyle_Self
+eRestyle_Subtree
 )
 |
 |

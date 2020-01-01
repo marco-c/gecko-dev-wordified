@@ -73312,7 +73312,7 @@ state
 nsRestyleHint
 hint
 =
-eRestyle_Self
+eRestyle_Subtree
 ;
 nsIContent
 *
@@ -73630,7 +73630,7 @@ NODE_HAS_SLOW_SELECTOR
 PostRestyleEvent
 (
 aContainer
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -73715,7 +73715,7 @@ cur
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -73747,7 +73747,7 @@ eRestyle_LaterSiblings
 or
 nsRestyleHint
 (
-eRestyle_Self
+eRestyle_Subtree
 |
 /
 /
@@ -73819,7 +73819,7 @@ AsElement
 )
 nsRestyleHint
 (
-eRestyle_Self
+eRestyle_Subtree
 |
 eRestyle_LaterSiblings
 )
@@ -74136,7 +74136,7 @@ NODE_HAS_SLOW_SELECTOR
 PostRestyleEvent
 (
 aContainer
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -74277,7 +74277,7 @@ content
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -74368,7 +74368,7 @@ content
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -74610,7 +74610,7 @@ NODE_HAS_SLOW_SELECTOR
 PostRestyleEvent
 (
 aContainer
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -74757,7 +74757,7 @@ content
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -74837,7 +74837,7 @@ content
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
