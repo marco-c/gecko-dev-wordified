@@ -752,7 +752,7 @@ of
 setTimeout
 (
 )
-nsCAutoString
+nsCString
 mFileName
 ;
 PRUint32

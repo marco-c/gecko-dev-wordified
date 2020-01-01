@@ -1099,7 +1099,7 @@ store
 is
 associated
 with
-nsAutoString
+nsString
 mDomain
 ;
 /
