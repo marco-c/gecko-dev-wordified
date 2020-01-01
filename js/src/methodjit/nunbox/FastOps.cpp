@@ -5514,6 +5514,7 @@ pushUntypedPayload
 JSVAL_TAG_INT32
 reg
 true
+true
 )
 ;
 frame

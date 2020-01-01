@@ -1457,6 +1457,10 @@ bool
 popGuaranteed
 =
 false
+bool
+fastTyped
+=
+false
 )
 ;
 /
