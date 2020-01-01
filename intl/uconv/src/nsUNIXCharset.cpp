@@ -1215,7 +1215,7 @@ return
 NS_SUCCESS_USING_FALLBACK_LOCALE
 ;
 #
-endif
+else
 /
 /
 /
@@ -1292,6 +1292,8 @@ ISO
 return
 NS_SUCCESS_USING_FALLBACK_LOCALE
 ;
+#
+endif
 }
 nsresult
 nsPlatformCharset
