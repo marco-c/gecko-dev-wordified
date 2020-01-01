@@ -884,7 +884,8 @@ c
 '
 )
 {
-RawFlatString
+JSFlatString
+*
 str
 =
 (

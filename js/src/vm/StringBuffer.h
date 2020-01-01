@@ -148,11 +148,6 @@ Vector
 .
 h
 "
-ForwardDeclareJS
-(
-FlatString
-)
-;
 namespace
 js
 {
@@ -784,10 +779,8 @@ buffer
 .
 *
 /
-js
-:
-:
-RawFlatString
+JSFlatString
+*
 finishString
 (
 )

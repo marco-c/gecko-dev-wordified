@@ -294,7 +294,8 @@ return
 buf
 ;
 }
-RawFlatString
+JSFlatString
+*
 StringBuffer
 :
 :

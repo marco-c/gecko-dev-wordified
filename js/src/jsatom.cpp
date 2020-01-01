@@ -1820,7 +1820,8 @@ ac
 cx
 )
 ;
-RawFlatString
+JSFlatString
+*
 flat
 =
 js_NewString
@@ -2131,7 +2132,8 @@ ac
 cx
 )
 ;
-RawFlatString
+JSFlatString
+*
 flat
 =
 js_NewStringCopyN
