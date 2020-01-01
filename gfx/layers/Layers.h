@@ -2016,11 +2016,9 @@ bool
 EndEmptyTransaction
 (
 )
-{
-return
-false
+=
+0
 ;
-}
 /
 *
 *
