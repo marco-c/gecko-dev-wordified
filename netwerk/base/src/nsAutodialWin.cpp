@@ -4163,7 +4163,7 @@ GetProcAddress
 (
 mhRASapi32
 "
-RasEnumConnectionsA
+RasEnumConnectionsW
 "
 )
 ;
@@ -4181,7 +4181,7 @@ GetProcAddress
 (
 mhRASapi32
 "
-RasEnumEntriesA
+RasEnumEntriesW
 "
 )
 ;
@@ -4199,7 +4199,7 @@ GetProcAddress
 (
 mhRASapi32
 "
-RasSetAutodialAddressA
+RasSetAutodialAddressW
 "
 )
 ;
@@ -4217,7 +4217,7 @@ GetProcAddress
 (
 mhRASapi32
 "
-RasGetAutodialAddressA
+RasGetAutodialAddressW
 "
 )
 ;
@@ -4235,7 +4235,7 @@ GetProcAddress
 (
 mhRASapi32
 "
-RasGetAutodialEnableA
+RasGetAutodialEnableW
 "
 )
 ;
@@ -4253,7 +4253,7 @@ GetProcAddress
 (
 mhRASapi32
 "
-RasGetAutodialParamA
+RasGetAutodialParamW
 "
 )
 ;
