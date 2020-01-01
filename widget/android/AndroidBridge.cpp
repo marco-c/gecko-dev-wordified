@@ -6550,7 +6550,10 @@ env
 return
 ;
 AutoLocalJNIFrame
-frame
+jniFrame
+(
+env
+)
 ;
 ALOG_BRIDGE
 (
@@ -11144,7 +11147,9 @@ JNIEnv
 *
 env
 =
-env
+GetJNIEnv
+(
+)
 ;
 if
 (
