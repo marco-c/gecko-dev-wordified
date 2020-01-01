@@ -794,10 +794,10 @@ n
 if
 (
 !
-xpc
+JS
 :
 :
-ValueToInt64
+ToInt64
 (
 cx
 {
@@ -842,10 +842,10 @@ n
 if
 (
 !
-xpc
+JS
 :
 :
-ValueToUint64
+ToUint64
 (
 cx
 {
