@@ -2664,6 +2664,10 @@ imgIContainer
 >
 image
 ;
+if
+(
+NS_SUCCEEDED
+(
 req
 -
 >
@@ -2674,10 +2678,7 @@ getter_AddRefs
 image
 )
 )
-;
-if
-(
-image
+)
 )
 {
 image
