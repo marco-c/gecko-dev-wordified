@@ -1922,6 +1922,16 @@ type
 }
 )
 ;
+storeCache
+(
+applicationCache
+appcacheURL
+cacheManifest
+nsIApplicationCache
+.
+ITEM_MANIFEST
+)
+;
 }
 )
 ;
