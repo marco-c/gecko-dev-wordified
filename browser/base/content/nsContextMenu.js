@@ -9502,6 +9502,8 @@ control
 except
 text
 boxes
+and
+images
 )
 .
 /
@@ -9550,6 +9552,16 @@ type
 =
 "
 password
+"
+&
+&
+aNode
+.
+type
+!
+=
+"
+image
 "
 )
 ;
