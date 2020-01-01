@@ -4711,7 +4711,7 @@ void
 Assembler
 :
 :
-asm_promote
+asm_ui2uq
 (
 LIns
 *
@@ -4725,13 +4725,13 @@ ins
 ;
 TODO
 (
-asm_promote
+asm_ui2uq
 )
 ;
 TAG
 (
 "
-asm_promote
+asm_ui2uq
 (
 ins
 =
