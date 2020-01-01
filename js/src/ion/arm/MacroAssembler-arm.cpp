@@ -16703,6 +16703,10 @@ value
 minus
 4
 .
+enterNoPool
+(
+)
+;
 as_dtr
 (
 IsStore
@@ -16723,6 +16727,10 @@ DtrOffImm
 as_blx
 (
 r
+)
+;
+leaveNoPool
+(
 )
 ;
 }
@@ -16766,6 +16774,10 @@ bytes
 from
 the
 stack
+enterNoPool
+(
+)
+;
 as_dtr
 (
 IsStore
@@ -16785,6 +16797,10 @@ DtrOffImm
 as_blx
 (
 r
+)
+;
+leaveNoPool
+(
 )
 ;
 }
@@ -16844,6 +16860,10 @@ its
 unaligned
 state
 .
+enterNoPool
+(
+)
+;
 ma_push
 (
 pc
@@ -16852,6 +16872,10 @@ pc
 as_blx
 (
 r
+)
+;
+leaveNoPool
+(
 )
 ;
 }
