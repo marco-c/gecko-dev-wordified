@@ -627,6 +627,13 @@ jsautooplen
 .
 h
 "
+#
+include
+"
+jsstaticcheck
+.
+h
+"
 /
 *
 Allocation
@@ -19409,6 +19416,13 @@ way
 .
 *
 /
+MUST_FLOW_THROUGH
+(
+"
+out
+"
+)
+;
 if
 (
 cg
