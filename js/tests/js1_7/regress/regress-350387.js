@@ -581,6 +581,11 @@ reportCompare
 expect
 actual
 summary
++
+'
+:
+1
+'
 )
 ;
 /
@@ -812,6 +817,11 @@ reportCompare
 expect
 actual
 summary
++
+'
+:
+2
+'
 )
 ;
 exitFunc
