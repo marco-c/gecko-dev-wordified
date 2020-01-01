@@ -737,7 +737,6 @@ aResult
 ParseSpecialIntValue
 (
 aValue
-PR_TRUE
 )
 ;
 }
