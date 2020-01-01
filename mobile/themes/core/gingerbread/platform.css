@@ -1138,7 +1138,7 @@ block
 {
 padding
 :
-touch_normal
+margin_context_popup
 ;
 }
 .
@@ -1172,15 +1172,8 @@ border_radius_tiny
 ;
 padding
 :
-padding_normal
 0
 ;
-/
-*
-core
-spacing
-*
-/
 }
 media
 (
@@ -4964,7 +4957,7 @@ margin
 bottom
 :
 -
-margin_normal
+margin_snormal
 ;
 }
 .
@@ -5011,7 +5004,7 @@ margin
 top
 :
 -
-margin_normal
+margin_snormal
 ;
 }
 .
