@@ -505,6 +505,8 @@ static
 PRLock
 *
 gTimeStampLock
+=
+0
 ;
 static
 PRUint32
@@ -660,6 +662,13 @@ Startup
 (
 )
 {
+if
+(
+gTimeStampLock
+)
+return
+NS_OK
+;
 gTimeStampLock
 =
 PR_NewLock
