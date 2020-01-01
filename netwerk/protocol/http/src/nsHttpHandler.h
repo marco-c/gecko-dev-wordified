@@ -1703,6 +1703,9 @@ server
 PRUint8
 mPhishyUserPassLength
 ;
+PRPackedBool
+mPipeliningOverSSL
+;
 nsCString
 mAccept
 ;
