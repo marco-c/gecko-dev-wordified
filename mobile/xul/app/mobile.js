@@ -4808,7 +4808,7 @@ inflation
 .
 minTwips
 "
-160
+120
 )
 ;
 /
