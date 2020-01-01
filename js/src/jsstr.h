@@ -2553,6 +2553,15 @@ size_t
 index
 )
 ;
+static
+JSString
+*
+intString
+(
+jsint
+i
+)
+;
 }
 ;
 extern
