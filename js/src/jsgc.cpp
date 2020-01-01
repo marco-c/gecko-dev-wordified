@@ -18743,7 +18743,7 @@ if
 tm
 -
 >
-recorderScriptObject
+recorder
 )
 JS_CALL_OBJECT_TRACER
 (
@@ -18751,10 +18751,9 @@ trc
 tm
 -
 >
-recorderScriptObject
+recorder
 "
 recorder
-script
 object
 "
 )
