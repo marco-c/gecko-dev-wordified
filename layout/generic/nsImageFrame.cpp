@@ -1195,7 +1195,9 @@ height
 or
 width
 but
-mComputedHeight
+ComputedHeight
+(
+)
 /
 /
 or
@@ -1317,7 +1319,9 @@ NS_UNCONSTRAINEDSIZE
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 |
 |
@@ -5135,7 +5139,9 @@ ComputedWidth
 )
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 ;
 RecalculateTransform

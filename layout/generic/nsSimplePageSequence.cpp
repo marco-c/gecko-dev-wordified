@@ -2045,11 +2045,12 @@ availableWidth
 /
 kidReflowState
 .
-mComputedHeight
-=
+SetComputedHeight
+(
 kidReflowState
 .
 availableHeight
+)
 ;
 PR_PL
 (

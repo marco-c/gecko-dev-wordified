@@ -5325,7 +5325,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 =
 =
 NS_INTRINSICSIZE
@@ -5456,7 +5458,9 @@ displayHeight
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 <
 buttonHeight
 &
@@ -5480,7 +5484,9 @@ TopBottom
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 <
 displayHeight
 &
@@ -8044,7 +8050,9 @@ if
 (
 state
 .
-mComputedHeight
+ComputedHeight
+(
+)
 =
 =
 NS_INTRINSICSIZE
@@ -8098,8 +8106,8 @@ better
 .
 state
 .
-mComputedHeight
-=
+SetComputedHeight
+(
 mComboBox
 -
 >
@@ -8108,6 +8116,7 @@ mListControlFrame
 >
 GetHeightOfARow
 (
+)
 )
 ;
 }

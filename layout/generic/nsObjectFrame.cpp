@@ -3557,7 +3557,9 @@ height
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 /
 /

@@ -693,7 +693,9 @@ NS_INTRINSICSIZE
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 {
 aMetrics
@@ -702,7 +704,9 @@ height
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 }
 else

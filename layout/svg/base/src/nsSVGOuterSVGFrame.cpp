@@ -4667,7 +4667,9 @@ aReflowState
 parentReflowState
 -
 >
-mComputedHeight
+ComputedHeight
+(
+)
 !
 =
 NS_INTRINSICSIZE
@@ -4682,7 +4684,9 @@ aReflowState
 parentReflowState
 -
 >
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 else
 maxRect

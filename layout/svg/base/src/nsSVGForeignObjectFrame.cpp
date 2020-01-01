@@ -1376,7 +1376,9 @@ width
 &
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 =
 =
 GetSize
@@ -1453,7 +1455,9 @@ height
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 aDesiredSize
 .
@@ -4123,11 +4127,12 @@ size
 ;
 reflowState
 .
-mComputedHeight
-=
+SetComputedHeight
+(
 size
 .
 height
+)
 ;
 ReflowChild
 (

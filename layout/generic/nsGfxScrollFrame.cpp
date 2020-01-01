@@ -1730,7 +1730,9 @@ aState
 >
 mReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 if
 (

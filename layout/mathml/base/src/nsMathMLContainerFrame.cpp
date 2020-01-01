@@ -7751,7 +7751,9 @@ ComputedWidth
 )
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 ;
 nsHTMLReflowMetrics

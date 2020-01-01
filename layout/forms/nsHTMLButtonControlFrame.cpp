@@ -1791,7 +1791,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 !
 =
 NS_INTRINSICSIZE
@@ -1802,7 +1804,9 @@ height
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 else
 aDesiredSize
@@ -2337,7 +2341,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 !
 =
 NS_INTRINSICSIZE
@@ -2348,7 +2354,9 @@ yoff
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 -
 aDesiredSize
 .
