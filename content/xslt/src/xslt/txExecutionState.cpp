@@ -1068,6 +1068,7 @@ NS_ERROR_FAILURE
 }
 NS_ASSERTION
 (
+(
 var
 -
 >
@@ -1079,8 +1080,10 @@ var
 -
 >
 mFirstInstruction
+)
 |
 |
+(
 !
 var
 -
@@ -1092,6 +1095,7 @@ var
 -
 >
 mFirstInstruction
+)
 "
 global
 variable
