@@ -338,6 +338,10 @@ const
 bool
 &
 allowSpdy
+const
+bool
+&
+usingPrivateBrowsing
 )
 ;
 virtual

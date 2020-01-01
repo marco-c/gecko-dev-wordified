@@ -6205,6 +6205,9 @@ mEntityID
 mChooseApplicationCache
 appCacheClientId
 mAllowSpdy
+UsingPrivateBrowsing
+(
+)
 )
 ;
 return
