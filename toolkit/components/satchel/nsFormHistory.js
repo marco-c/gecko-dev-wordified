@@ -541,6 +541,9 @@ nsIObserver
 Ci
 .
 nsIFrameMessageListener
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 debug
@@ -877,11 +880,6 @@ function
 (
 )
 {
-let
-self
-=
-this
-;
 Services
 .
 prefs
@@ -895,7 +893,7 @@ formfill
 .
 "
 this
-false
+true
 )
 ;
 this
@@ -987,7 +985,7 @@ idle
 -
 daily
 "
-false
+true
 )
 ;
 Services
@@ -1004,7 +1002,7 @@ expire
 -
 now
 "
-false
+true
 )
 ;
 }
