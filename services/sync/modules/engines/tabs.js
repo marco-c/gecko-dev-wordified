@@ -569,7 +569,7 @@ prototype
 __proto__
 :
 new
-Engine
+SyncEngine
 (
 )
 get
