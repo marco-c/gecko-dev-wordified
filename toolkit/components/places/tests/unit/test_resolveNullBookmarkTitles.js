@@ -909,4 +909,10 @@ title
 "
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }

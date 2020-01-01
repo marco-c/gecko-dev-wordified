@@ -761,6 +761,12 @@ node
 "
 )
 ;
+folderANode
+.
+containerOpen
+=
+false
+;
 var
 transaction
 =

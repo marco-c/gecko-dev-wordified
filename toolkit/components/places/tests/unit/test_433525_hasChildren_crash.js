@@ -794,4 +794,10 @@ hasChildren
 true
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }

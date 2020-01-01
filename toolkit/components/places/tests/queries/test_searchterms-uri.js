@@ -1566,4 +1566,10 @@ root
 )
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }

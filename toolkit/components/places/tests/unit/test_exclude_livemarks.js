@@ -980,6 +980,12 @@ itemId
 nonLivemarkItem
 )
 ;
+rootNode
+.
+containerOpen
+=
+false
+;
 /
 /
 exclude
@@ -1089,5 +1095,11 @@ node
 itemId
 nonLivemarkItem
 )
+;
+rootNode
+.
+containerOpen
+=
+false
 ;
 }

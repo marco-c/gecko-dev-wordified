@@ -1359,4 +1359,10 @@ root
 )
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }

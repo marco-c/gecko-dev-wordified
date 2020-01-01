@@ -638,6 +638,12 @@ result
 .
 root
 ;
+root
+.
+containerOpen
+=
+true
+;
 displayResultSet
 (
 root

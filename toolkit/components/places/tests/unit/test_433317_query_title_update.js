@@ -680,4 +680,10 @@ foo
 "
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }

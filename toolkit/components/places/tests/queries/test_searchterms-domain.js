@@ -1606,4 +1606,10 @@ root
 )
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }
