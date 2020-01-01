@@ -6524,6 +6524,9 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+#
+ifdef
+JS_ION
 *
 baselineOptimizedStubs
 =
@@ -6548,6 +6551,15 @@ mallocSizeOf
 :
 0
 ;
+#
+else
+*
+baselineOptimizedStubs
+=
+0
+;
+#
+endif
 }
 void
 JSCompartment
