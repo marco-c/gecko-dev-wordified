@@ -611,6 +611,8 @@ document
 getElementById
 (
 "
+browser
+-
 canvas
 "
 )
@@ -3426,7 +3428,7 @@ element
 =
 Browser
 .
-content
+canvasBrowser
 .
 elementFromPoint
 (
@@ -3565,7 +3567,7 @@ false
 ;
 Browser
 .
-content
+canvasBrowser
 .
 zoomFromElement
 (
@@ -3587,7 +3589,7 @@ true
 ;
 Browser
 .
-content
+canvasBrowser
 .
 zoomToElement
 (
@@ -3659,7 +3661,7 @@ y
 =
 Browser
 .
-content
+canvasBrowser
 .
 _clientToContentCoords
 (
@@ -3832,7 +3834,7 @@ this
 ;
 Browser
 .
-content
+canvasBrowser
 .
 zoom
 (
