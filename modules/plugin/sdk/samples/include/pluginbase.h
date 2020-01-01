@@ -423,10 +423,10 @@ BLOCK
 /
 #
 ifndef
-__PLUGININSTANCEBASE_H__
+pluginbase_h_
 #
 define
-__PLUGININSTANCEBASE_H__
+pluginbase_h_
 #
 include
 "
@@ -788,4 +788,4 @@ endif
 endif
 /
 /
-__PLUGININSTANCEBASE_H__
+pluginbase_h_
