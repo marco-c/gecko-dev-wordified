@@ -182,6 +182,13 @@ AudioSampleFormat
 .
 h
 "
+#
+include
+"
+AudioChannelCommon
+.
+h
+"
 using
 namespace
 mozilla
@@ -703,6 +710,7 @@ Init
 (
 aChannels
 aRate
+mAudioChannelType
 )
 ;
 if

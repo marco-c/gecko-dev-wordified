@@ -138,6 +138,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+AudioChannelCommon
+.
+h
+"
 /
 /
 C
@@ -1226,6 +1233,7 @@ Init
 (
 aNumChannels
 aRate
+AUDIO_CHANNEL_NORMAL
 )
 )
 )
