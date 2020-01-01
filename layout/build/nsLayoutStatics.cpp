@@ -935,6 +935,13 @@ nsJSEnvironment
 .
 h
 "
+#
+include
+"
+nsContentSink
+.
+h
+"
 extern
 void
 NS_ShutdownChainItemPool
@@ -1634,6 +1641,13 @@ InitLibrary
 ;
 #
 endif
+nsContentSink
+:
+:
+InitializeStatics
+(
+)
+;
 nsHtml5Module
 :
 :
