@@ -14116,6 +14116,11 @@ gBrowser
 .
 removeCurrentTab
 (
+{
+animate
+:
+true
+}
 )
 ;
 }
