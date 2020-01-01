@@ -8853,7 +8853,7 @@ lazily
 initialized
 in
 GetAnimationController
-nsAutoPtr
+nsRefPtr
 <
 nsSMILAnimationController
 >
