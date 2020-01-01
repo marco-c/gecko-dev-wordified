@@ -351,6 +351,11 @@ TimeStamp
 aTargetTime
 )
 ;
+void
+ClearCurrentFrame
+(
+)
+;
 /
 /
 Time
