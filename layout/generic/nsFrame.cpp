@@ -19710,6 +19710,8 @@ nsIFrame
 aFrame
 nsPoint
 aPoint
+PRUint32
+aFlags
 )
 ;
 static
@@ -19719,19 +19721,50 @@ SelfIsSelectable
 nsIFrame
 *
 aFrame
+PRUint32
+aFlags
+)
+{
+if
+(
+(
+aFlags
+&
+nsIFrame
+:
+:
+SKIP_HIDDEN
+)
+&
+&
+!
+aFrame
+-
+>
+GetStyleVisibility
+(
+)
+-
+>
+IsVisible
+(
+)
 )
 {
 return
+false
+;
+}
+return
 !
-(
 aFrame
 -
 >
 IsGeneratedContentFrame
 (
 )
-|
-|
+&
+&
 aFrame
 -
 >
@@ -19741,10 +19774,9 @@ GetStyleUIReset
 -
 >
 mUserSelect
-=
+!
 =
 NS_STYLE_USER_SELECT_NONE
-)
 ;
 }
 static
@@ -19971,6 +20003,8 @@ nsIFrame
 aChild
 nsPoint
 aPoint
+PRUint32
+aFlags
 )
 {
 nsIFrame
@@ -20010,6 +20044,7 @@ GetSelectionClosestFrame
 (
 aChild
 pt
+aFlags
 )
 ;
 }
@@ -20111,6 +20146,8 @@ nsIFrame
 aFrame
 bool
 aEndFrame
+PRUint32
+aFlags
 )
 {
 if
@@ -20154,6 +20191,7 @@ frame
 SelfIsSelectable
 (
 frame
+aFlags
 )
 |
 |
@@ -20252,6 +20290,7 @@ IsEmpty
 SelfIsSelectable
 (
 frame
+aFlags
 )
 )
 result
@@ -20278,6 +20317,7 @@ DrillDownToSelectionFrame
 (
 result
 aEndFrame
+aFlags
 )
 ;
 }
@@ -20348,6 +20388,8 @@ line_iterator
 aLine
 nsPoint
 aPoint
+PRUint32
+aFlags
 )
 {
 nsIFrame
@@ -20392,6 +20434,7 @@ DrillDownToSelectionFrame
 (
 aParent
 true
+aFlags
 )
 ;
 nsIFrame
@@ -20459,6 +20502,7 @@ if
 SelfIsSelectable
 (
 frame
+aFlags
 )
 |
 |
@@ -20511,6 +20555,7 @@ GetSelectionClosestFrameForChild
 (
 frame
 aPoint
+aFlags
 )
 ;
 }
@@ -20649,6 +20694,7 @@ GetSelectionClosestFrameForChild
 (
 closestFromLeft
 aPoint
+aFlags
 )
 ;
 }
@@ -20657,6 +20703,7 @@ GetSelectionClosestFrameForChild
 (
 closestFromRight
 aPoint
+aFlags
 )
 ;
 }
@@ -20739,6 +20786,8 @@ nsIFrame
 aFrame
 nsPoint
 aPoint
+PRUint32
+aFlags
 )
 {
 nsBlockFrame
@@ -21142,6 +21191,7 @@ DrillDownToSelectionFrame
 (
 aFrame
 false
+aFlags
 )
 ;
 closestLine
@@ -21170,6 +21220,7 @@ DrillDownToSelectionFrame
 (
 aFrame
 true
+aFlags
 )
 ;
 closestLine
@@ -21234,6 +21285,7 @@ GetSelectionClosestFrameForLine
 bf
 closestLine
 aPoint
+aFlags
 )
 ;
 if
@@ -21277,6 +21329,7 @@ DrillDownToSelectionFrame
 (
 aFrame
 true
+aFlags
 )
 ;
 }
@@ -21355,6 +21408,8 @@ nsIFrame
 aFrame
 nsPoint
 aPoint
+PRUint32
+aFlags
 )
 {
 {
@@ -21381,6 +21436,7 @@ GetSelectionClosestFrameForBlock
 (
 aFrame
 aPoint
+aFlags
 )
 ;
 if
@@ -21478,6 +21534,7 @@ if
 SelfIsSelectable
 (
 kid
+aFlags
 )
 |
 |
@@ -21671,6 +21728,7 @@ GetSelectionClosestFrameForChild
 (
 closestFrame
 aPoint
+aFlags
 )
 ;
 }
@@ -22343,6 +22401,7 @@ GetSelectionClosestFrame
 (
 adjustedFrame
 adjustedPoint
+aFlags
 )
 ;
 if
@@ -37279,6 +37338,7 @@ DrillDownToSelectionFrame
 this
 !
 aStart
+0
 )
 ;
 FrameContentRange
@@ -40559,6 +40619,7 @@ DrillDownToSelectionFrame
 (
 baseFrame
 endOfLine
+0
 )
 ;
 FrameContentRange
