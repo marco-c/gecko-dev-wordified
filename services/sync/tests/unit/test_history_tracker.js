@@ -1108,6 +1108,13 @@ removeAllPages
 (
 )
 ;
+if
+(
+tracker
+.
+_lazySave
+)
+{
 tracker
 .
 _lazySave
@@ -1116,6 +1123,7 @@ clear
 (
 )
 ;
+}
 run_next_test
 (
 )
