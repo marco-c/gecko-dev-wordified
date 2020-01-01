@@ -2622,6 +2622,11 @@ return
 JS_TRUE
 ;
 }
+CheckWindow
+(
+wn
+)
+;
 /
 /
 The
