@@ -4116,10 +4116,13 @@ oid_tag
 CERT_AddCertToListTail
 (
 certList
+CERT_DupCertificate
+(
 ev
 -
 >
 cert
+)
 )
 ;
 }
@@ -4432,9 +4435,12 @@ oid_tag
 CERT_AddCertToListTail
 (
 certList
+CERT_DupCertificate
+(
 entry
 .
 cert
+)
 )
 ;
 }
@@ -5476,6 +5482,7 @@ oid_tag
 CERTCertListCleaner
 rootListCleaner
 (
+rootList
 )
 ;
 CERTRevocationMethodIndex
