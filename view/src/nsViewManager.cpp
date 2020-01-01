@@ -3611,7 +3611,7 @@ And
 aWidgetView
 -
 >
-GetDimensions
+GetInvalidationDimensions
 (
 )
 aDamagedRegion
@@ -10538,7 +10538,7 @@ bounds
 aView
 -
 >
-GetDimensions
+GetInvalidationDimensions
 (
 )
 ;
