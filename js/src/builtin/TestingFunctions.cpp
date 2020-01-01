@@ -1143,7 +1143,7 @@ isObject
 {
 PrepareZoneForGC
 (
-UncheckedUnwrap
+UnwrapObject
 (
 &
 arg
@@ -2279,7 +2279,7 @@ Zone
 *
 zone
 =
-UncheckedUnwrap
+UnwrapObject
 (
 &
 args

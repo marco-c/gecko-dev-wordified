@@ -302,7 +302,7 @@ obj
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 /
@@ -695,7 +695,7 @@ return
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 wrapper
 /

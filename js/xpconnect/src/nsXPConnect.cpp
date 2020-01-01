@@ -8133,7 +8133,7 @@ aJSObj
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 aJSObj
 /

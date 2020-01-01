@@ -2964,7 +2964,7 @@ to
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 .
 if
 (
@@ -2982,7 +2982,7 @@ obj
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 /

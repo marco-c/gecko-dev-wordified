@@ -13426,7 +13426,7 @@ obj
 {
 obj
 =
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 )
@@ -14705,7 +14705,7 @@ JSObject
 *
 unwrapped
 =
-UncheckedUnwrap
+UnwrapObject
 (
 sobj
 true
@@ -19968,7 +19968,7 @@ isObject
 )
 sameZoneAs
 =
-UncheckedUnwrap
+UnwrapObject
 (
 &
 JS_ARGV

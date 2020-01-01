@@ -425,7 +425,7 @@ MOZ_ASSERT
 obj
 =
 =
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 )
@@ -752,7 +752,7 @@ obj
 {
 obj
 =
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 )
@@ -1029,7 +1029,7 @@ obj
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 )
@@ -4306,7 +4306,7 @@ IsComponentsObject
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 )
@@ -4430,7 +4430,7 @@ obj
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 JSVAL_TO_OBJECT
 (

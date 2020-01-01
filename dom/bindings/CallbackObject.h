@@ -424,7 +424,7 @@ aOwner
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 aOwner
 )
@@ -1532,7 +1532,7 @@ thisObj
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 GetWebIDLCallback
 (
@@ -1551,7 +1551,7 @@ otherObj
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 aOtherCallback
 -

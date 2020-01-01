@@ -35100,7 +35100,7 @@ scopeProto
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 scopeProto
 /

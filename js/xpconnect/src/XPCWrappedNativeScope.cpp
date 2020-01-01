@@ -1764,7 +1764,7 @@ EnsureCompartmentPrivate
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 mXBLScope
 )
@@ -1845,7 +1845,7 @@ scope
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 scope
 )
