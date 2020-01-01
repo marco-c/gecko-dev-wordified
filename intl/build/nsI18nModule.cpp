@@ -590,17 +590,6 @@ nsSaveAsCharsetConstructor
 }
 {
 "
-Japanese
-Hankaku
-To
-Zenkaku
-"
-NS_HANKAKUTOZENKAKU_CID
-NS_HANKAKUTOZENKAKU_CONTRACTID
-CreateNewHankakuToZenkaku
-}
-{
-"
 Unicode
 Normlization
 "
