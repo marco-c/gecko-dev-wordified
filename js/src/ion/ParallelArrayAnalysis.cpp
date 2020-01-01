@@ -3376,7 +3376,7 @@ MBasicBlock
 NewParBailout
 (
 graph_
-block
+pred
 -
 >
 info
