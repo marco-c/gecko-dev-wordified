@@ -3198,7 +3198,9 @@ sqlDate
 AppendLiteral
 (
 "
-AND
+WHERE
+v
+.
 visit_date
 <
 ?
