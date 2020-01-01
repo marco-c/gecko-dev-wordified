@@ -2983,6 +2983,8 @@ setters
 .
 *
 /
+private
+:
 /
 *
 *
@@ -3067,8 +3069,6 @@ ArgsElement
 .
 *
 /
-private
-:
 static
 const
 uint32
