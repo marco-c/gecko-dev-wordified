@@ -6816,6 +6816,16 @@ default_quota
 5120
 )
 ;
+pref
+(
+"
+dom
+.
+send_after_paint_to_content
+"
+false
+)
+;
 /
 /
 Timeout
