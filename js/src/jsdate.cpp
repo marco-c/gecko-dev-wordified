@@ -14700,13 +14700,11 @@ JSObject
 *
 obj
 =
-NewObject
+NewBuiltinClassInstance
 (
 cx
 &
 js_DateClass
-NULL
-NULL
 )
 ;
 if

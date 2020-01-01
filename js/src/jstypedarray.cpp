@@ -842,7 +842,7 @@ cx
 {
 obj
 =
-NewObject
+NewBuiltinClassInstance
 (
 cx
 &
@@ -850,8 +850,6 @@ ArrayBuffer
 :
 :
 jsclass
-NULL
-NULL
 )
 ;
 if
@@ -912,7 +910,7 @@ obj
 {
 obj
 =
-NewObject
+NewBuiltinClassInstance
 (
 cx
 &
@@ -920,8 +918,6 @@ ArrayBuffer
 :
 :
 jsclass
-NULL
-NULL
 )
 ;
 if
@@ -4232,14 +4228,12 @@ cx
 {
 obj
 =
-NewObject
+NewBuiltinClassInstance
 (
 cx
 slowClass
 (
 )
-NULL
-NULL
 )
 ;
 if
@@ -4298,14 +4292,12 @@ obj
 {
 obj
 =
-NewObject
+NewBuiltinClassInstance
 (
 cx
 slowClass
 (
 )
-NULL
-NULL
 )
 ;
 if
