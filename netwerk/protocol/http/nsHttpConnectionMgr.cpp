@@ -9136,6 +9136,14 @@ eyeballs
 if
 (
 isBackup
+&
+&
+gHttpHandler
+-
+>
+FastFallbackToIPv4
+(
+)
 )
 tmpFlags
 |
