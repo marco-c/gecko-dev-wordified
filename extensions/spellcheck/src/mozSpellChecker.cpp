@@ -582,7 +582,10 @@ NextMisspelledWord
 nsAString
 &
 aWord
-nsStringArray
+nsTArray
+<
+nsString
+>
 *
 aSuggestions
 )
@@ -846,7 +849,10 @@ aWord
 PRBool
 *
 aIsMisspelled
-nsStringArray
+nsTArray
+<
+nsString
+>
 *
 aSuggestions
 )
@@ -990,7 +996,7 @@ i
 aSuggestions
 -
 >
-AppendString
+AppendElement
 (
 nsDependentString
 (
@@ -1890,7 +1896,10 @@ mozSpellChecker
 :
 GetPersonalDictionary
 (
-nsStringArray
+nsTArray
+<
+nsString
+>
 *
 aWordList
 )
@@ -1959,7 +1968,7 @@ word
 aWordList
 -
 >
-AppendString
+AppendElement
 (
 word
 )
@@ -1972,7 +1981,10 @@ NS_OK
 struct
 AppendNewStruct
 {
-nsStringArray
+nsTArray
+<
+nsString
+>
 *
 dictionaryList
 ;
@@ -2015,7 +2027,7 @@ ans
 dictionaryList
 -
 >
-AppendString
+AppendElement
 (
 aString
 )
@@ -2042,7 +2054,10 @@ mozSpellChecker
 :
 GetDictionaryList
 (
-nsStringArray
+nsTArray
+<
+nsString
+>
 *
 aDictionaryList
 )

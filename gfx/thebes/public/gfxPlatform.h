@@ -458,6 +458,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -940,7 +947,10 @@ const
 nsACString
 &
 aGenericFamily
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aListOfFonts
 )

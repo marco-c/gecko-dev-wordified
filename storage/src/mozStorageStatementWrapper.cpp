@@ -781,7 +781,7 @@ i
 ;
 mColumnNames
 .
-AppendString
+AppendElement
 (
 nsDependentString
 (

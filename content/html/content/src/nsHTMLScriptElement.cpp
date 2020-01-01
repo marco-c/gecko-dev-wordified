@@ -582,6 +582,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsDOMJSUtils
 .
 h

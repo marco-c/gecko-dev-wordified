@@ -2567,7 +2567,10 @@ nsDOMStorageDB
 RemoveOwners
 (
 const
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aOwners
 PRBool
@@ -2578,7 +2581,7 @@ if
 (
 aOwners
 .
-Count
+Length
 (
 )
 =
@@ -2658,7 +2661,7 @@ IN
 }
 for
 (
-PRInt32
+PRUint32
 i
 =
 1
@@ -2667,7 +2670,7 @@ i
 <
 aOwners
 .
-Count
+Length
 (
 )
 ;
@@ -2724,7 +2727,7 @@ rv
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -2733,7 +2736,7 @@ i
 <
 aOwners
 .
-Count
+Length
 (
 )
 ;
@@ -2750,7 +2753,6 @@ statement
 BindStringParameter
 (
 i
-*
 aOwners
 [
 i

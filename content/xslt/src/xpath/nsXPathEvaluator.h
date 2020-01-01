@@ -566,7 +566,10 @@ aExpression
 nsIDOMXPathNSResolver
 *
 aResolver
-nsStringArray
+nsTArray
+<
+nsString
+>
 *
 aNamespaceURIs
 nsCStringArray
