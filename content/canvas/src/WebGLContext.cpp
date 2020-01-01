@@ -601,7 +601,7 @@ layers
 nsresult
 NS_NewCanvasRenderingContextWebGL
 (
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 *
 aResult
@@ -610,13 +610,13 @@ aResult
 nsresult
 NS_NewCanvasRenderingContextWebGL
 (
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 *
 aResult
 )
 {
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 ctx
 =
@@ -4241,12 +4241,12 @@ goop
 NS_IMPL_CYCLE_COLLECTING_ADDREF_AMBIGUOUS
 (
 WebGLContext
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE_AMBIGUOUS
 (
 WebGLContext
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -4281,7 +4281,7 @@ WebGLContext
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -4294,7 +4294,7 @@ nsISupportsWeakReference
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (

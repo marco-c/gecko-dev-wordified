@@ -3138,7 +3138,7 @@ h
 #
 include
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 .
 h
 "
@@ -15636,11 +15636,11 @@ DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
 CanvasRenderingContextWebGL
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN

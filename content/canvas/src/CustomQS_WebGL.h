@@ -705,7 +705,7 @@ int
 /
 static
 JSBool
-nsICanvasRenderingContextWebGL_BufferData
+nsIDOMWebGLRenderingContext_BufferData
 (
 JSContext
 *
@@ -740,7 +740,7 @@ obj
 return
 JS_FALSE
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -1067,7 +1067,7 @@ TypedArray
 /
 static
 JSBool
-nsICanvasRenderingContextWebGL_BufferSubData
+nsIDOMWebGLRenderingContext_BufferSubData
 (
 JSContext
 *
@@ -1102,7 +1102,7 @@ obj
 return
 JS_FALSE
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -1417,7 +1417,7 @@ ArrayBufferView
 /
 static
 JSBool
-nsICanvasRenderingContextWebGL_ReadPixels
+nsIDOMWebGLRenderingContext_ReadPixels
 (
 JSContext
 *
@@ -1455,7 +1455,7 @@ JS_FALSE
 nsresult
 rv
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -1755,7 +1755,7 @@ ImageData
 /
 static
 JSBool
-nsICanvasRenderingContextWebGL_TexImage2D
+nsIDOMWebGLRenderingContext_TexImage2D
 (
 JSContext
 *
@@ -1793,7 +1793,7 @@ JS_FALSE
 nsresult
 rv
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -2492,7 +2492,7 @@ ImageData
 /
 static
 JSBool
-nsICanvasRenderingContextWebGL_TexSubImage2D
+nsIDOMWebGLRenderingContext_TexSubImage2D
 (
 JSContext
 *
@@ -2530,7 +2530,7 @@ JS_FALSE
 nsresult
 rv
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -3159,7 +3159,7 @@ well
 static
 inline
 JSBool
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv
 (
 JSContext
 *
@@ -3199,7 +3199,7 @@ JS_FALSE
 nsresult
 rv
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -3607,7 +3607,7 @@ well
 static
 inline
 JSBool
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv
 (
 JSContext
 *
@@ -3647,7 +3647,7 @@ JS_FALSE
 nsresult
 rv
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -4055,7 +4055,7 @@ well
 static
 inline
 JSBool
-helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv
+helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv
 (
 JSContext
 *
@@ -4095,7 +4095,7 @@ JS_FALSE
 nsresult
 rv
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -4499,7 +4499,7 @@ JS_TRUE
 static
 inline
 JSBool
-helper_nsICanvasRenderingContextWebGL_VertexAttrib_x_fv
+helper_nsIDOMWebGLRenderingContext_VertexAttrib_x_fv
 (
 JSContext
 *
@@ -4539,7 +4539,7 @@ JS_FALSE
 nsresult
 rv
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -4899,7 +4899,7 @@ JS_TRUE
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_Uniform1iv
+nsIDOMWebGLRenderingContext_Uniform1iv
 (
 JSContext
 *
@@ -4912,7 +4912,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv
 (
 cx
 argc
@@ -4923,7 +4923,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_Uniform2iv
+nsIDOMWebGLRenderingContext_Uniform2iv
 (
 JSContext
 *
@@ -4936,7 +4936,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv
 (
 cx
 argc
@@ -4947,7 +4947,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_Uniform3iv
+nsIDOMWebGLRenderingContext_Uniform3iv
 (
 JSContext
 *
@@ -4960,7 +4960,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv
 (
 cx
 argc
@@ -4971,7 +4971,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_Uniform4iv
+nsIDOMWebGLRenderingContext_Uniform4iv
 (
 JSContext
 *
@@ -4984,7 +4984,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv
 (
 cx
 argc
@@ -4995,7 +4995,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_Uniform1fv
+nsIDOMWebGLRenderingContext_Uniform1fv
 (
 JSContext
 *
@@ -5008,7 +5008,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv
 (
 cx
 argc
@@ -5019,7 +5019,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_Uniform2fv
+nsIDOMWebGLRenderingContext_Uniform2fv
 (
 JSContext
 *
@@ -5032,7 +5032,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv
 (
 cx
 argc
@@ -5043,7 +5043,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_Uniform3fv
+nsIDOMWebGLRenderingContext_Uniform3fv
 (
 JSContext
 *
@@ -5056,7 +5056,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv
 (
 cx
 argc
@@ -5067,7 +5067,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_Uniform4fv
+nsIDOMWebGLRenderingContext_Uniform4fv
 (
 JSContext
 *
@@ -5080,7 +5080,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv
 (
 cx
 argc
@@ -5091,7 +5091,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_UniformMatrix2fv
+nsIDOMWebGLRenderingContext_UniformMatrix2fv
 (
 JSContext
 *
@@ -5104,7 +5104,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv
+helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv
 (
 cx
 argc
@@ -5115,7 +5115,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_UniformMatrix3fv
+nsIDOMWebGLRenderingContext_UniformMatrix3fv
 (
 JSContext
 *
@@ -5128,7 +5128,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv
+helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv
 (
 cx
 argc
@@ -5139,7 +5139,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_UniformMatrix4fv
+nsIDOMWebGLRenderingContext_UniformMatrix4fv
 (
 JSContext
 *
@@ -5152,7 +5152,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv
+helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv
 (
 cx
 argc
@@ -5163,7 +5163,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_VertexAttrib1fv
+nsIDOMWebGLRenderingContext_VertexAttrib1fv
 (
 JSContext
 *
@@ -5176,7 +5176,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_VertexAttrib_x_fv
+helper_nsIDOMWebGLRenderingContext_VertexAttrib_x_fv
 (
 cx
 argc
@@ -5187,7 +5187,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_VertexAttrib2fv
+nsIDOMWebGLRenderingContext_VertexAttrib2fv
 (
 JSContext
 *
@@ -5200,7 +5200,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_VertexAttrib_x_fv
+helper_nsIDOMWebGLRenderingContext_VertexAttrib_x_fv
 (
 cx
 argc
@@ -5211,7 +5211,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_VertexAttrib3fv
+nsIDOMWebGLRenderingContext_VertexAttrib3fv
 (
 JSContext
 *
@@ -5224,7 +5224,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_VertexAttrib_x_fv
+helper_nsIDOMWebGLRenderingContext_VertexAttrib_x_fv
 (
 cx
 argc
@@ -5235,7 +5235,7 @@ vp
 }
 static
 JSBool
-nsICanvasRenderingContextWebGL_VertexAttrib4fv
+nsIDOMWebGLRenderingContext_VertexAttrib4fv
 (
 JSContext
 *
@@ -5248,7 +5248,7 @@ vp
 )
 {
 return
-helper_nsICanvasRenderingContextWebGL_VertexAttrib_x_fv
+helper_nsIDOMWebGLRenderingContext_VertexAttrib_x_fv
 (
 cx
 argc
@@ -5264,7 +5264,7 @@ static
 inline
 void
 FASTCALL
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv_tn
 (
 JSContext
 *
@@ -5287,7 +5287,7 @@ XPC_QS_ASSERT_CONTEXT_OK
 cx
 )
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -5347,7 +5347,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 NS_ERROR_FAILURE
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformNiv
@@ -5536,7 +5536,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 NS_ERROR_FAILURE
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformNiv
@@ -5650,7 +5650,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 rv
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformNiv
@@ -5668,7 +5668,7 @@ static
 inline
 void
 FASTCALL
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv_tn
 (
 JSContext
 *
@@ -5691,7 +5691,7 @@ XPC_QS_ASSERT_CONTEXT_OK
 cx
 )
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -5751,7 +5751,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 NS_ERROR_FAILURE
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformNfv
@@ -5940,7 +5940,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 NS_ERROR_FAILURE
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformNfv
@@ -6054,7 +6054,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 rv
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformNfv
@@ -6074,7 +6074,7 @@ static
 inline
 void
 FASTCALL
-helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv_tn
 (
 JSContext
 *
@@ -6099,7 +6099,7 @@ XPC_QS_ASSERT_CONTEXT_OK
 cx
 )
 ;
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 self
 ;
@@ -6159,7 +6159,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 NS_ERROR_FAILURE
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformMatrixNfv
@@ -6348,7 +6348,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 NS_ERROR_FAILURE
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformMatrixNfv
@@ -6444,7 +6444,7 @@ xpc_qsThrowMethodFailedWithDetails
 cx
 rv
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 "
 "
 uniformMatrixNfv
@@ -6493,7 +6493,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_Uniform1iv_tn
+nsIDOMWebGLRenderingContext_Uniform1iv_tn
 (
 JSContext
 *
@@ -6509,7 +6509,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv_tn
 (
 cx
 obj
@@ -6524,13 +6524,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_Uniform1iv
+nsIDOMWebGLRenderingContext_Uniform1iv
 (
 4
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_Uniform1iv_tn
+nsIDOMWebGLRenderingContext_Uniform1iv_tn
 CONTEXT
 THIS
 OBJECT
@@ -6578,7 +6578,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_Uniform2iv_tn
+nsIDOMWebGLRenderingContext_Uniform2iv_tn
 (
 JSContext
 *
@@ -6594,7 +6594,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv_tn
 (
 cx
 obj
@@ -6609,13 +6609,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_Uniform2iv
+nsIDOMWebGLRenderingContext_Uniform2iv
 (
 4
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_Uniform2iv_tn
+nsIDOMWebGLRenderingContext_Uniform2iv_tn
 CONTEXT
 THIS
 OBJECT
@@ -6663,7 +6663,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_Uniform3iv_tn
+nsIDOMWebGLRenderingContext_Uniform3iv_tn
 (
 JSContext
 *
@@ -6679,7 +6679,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv_tn
 (
 cx
 obj
@@ -6694,13 +6694,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_Uniform3iv
+nsIDOMWebGLRenderingContext_Uniform3iv
 (
 4
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_Uniform3iv_tn
+nsIDOMWebGLRenderingContext_Uniform3iv_tn
 CONTEXT
 THIS
 OBJECT
@@ -6748,7 +6748,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_Uniform4iv_tn
+nsIDOMWebGLRenderingContext_Uniform4iv_tn
 (
 JSContext
 *
@@ -6764,7 +6764,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_iv_tn
 (
 cx
 obj
@@ -6779,13 +6779,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_Uniform4iv
+nsIDOMWebGLRenderingContext_Uniform4iv
 (
 4
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_Uniform4iv_tn
+nsIDOMWebGLRenderingContext_Uniform4iv_tn
 CONTEXT
 THIS
 OBJECT
@@ -6833,7 +6833,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_Uniform1fv_tn
+nsIDOMWebGLRenderingContext_Uniform1fv_tn
 (
 JSContext
 *
@@ -6849,7 +6849,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv_tn
 (
 cx
 obj
@@ -6864,13 +6864,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_Uniform1fv
+nsIDOMWebGLRenderingContext_Uniform1fv
 (
 4
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_Uniform1fv_tn
+nsIDOMWebGLRenderingContext_Uniform1fv_tn
 CONTEXT
 THIS
 OBJECT
@@ -6918,7 +6918,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_Uniform2fv_tn
+nsIDOMWebGLRenderingContext_Uniform2fv_tn
 (
 JSContext
 *
@@ -6934,7 +6934,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv_tn
 (
 cx
 obj
@@ -6949,13 +6949,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_Uniform2fv
+nsIDOMWebGLRenderingContext_Uniform2fv
 (
 4
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_Uniform2fv_tn
+nsIDOMWebGLRenderingContext_Uniform2fv_tn
 CONTEXT
 THIS
 OBJECT
@@ -7003,7 +7003,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_Uniform3fv_tn
+nsIDOMWebGLRenderingContext_Uniform3fv_tn
 (
 JSContext
 *
@@ -7019,7 +7019,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv_tn
 (
 cx
 obj
@@ -7034,13 +7034,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_Uniform3fv
+nsIDOMWebGLRenderingContext_Uniform3fv
 (
 4
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_Uniform3fv_tn
+nsIDOMWebGLRenderingContext_Uniform3fv_tn
 CONTEXT
 THIS
 OBJECT
@@ -7088,7 +7088,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_Uniform4fv_tn
+nsIDOMWebGLRenderingContext_Uniform4fv_tn
 (
 JSContext
 *
@@ -7104,7 +7104,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_Uniform_x_fv_tn
 (
 cx
 obj
@@ -7119,13 +7119,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_Uniform4fv
+nsIDOMWebGLRenderingContext_Uniform4fv
 (
 4
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_Uniform4fv_tn
+nsIDOMWebGLRenderingContext_Uniform4fv_tn
 CONTEXT
 THIS
 OBJECT
@@ -7173,7 +7173,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_UniformMatrix2fv_tn
+nsIDOMWebGLRenderingContext_UniformMatrix2fv_tn
 (
 JSContext
 *
@@ -7191,7 +7191,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv_tn
 (
 cx
 obj
@@ -7207,13 +7207,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_UniformMatrix2fv
+nsIDOMWebGLRenderingContext_UniformMatrix2fv
 (
 5
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_UniformMatrix2fv_tn
+nsIDOMWebGLRenderingContext_UniformMatrix2fv_tn
 CONTEXT
 THIS
 OBJECT
@@ -7262,7 +7262,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_UniformMatrix3fv_tn
+nsIDOMWebGLRenderingContext_UniformMatrix3fv_tn
 (
 JSContext
 *
@@ -7280,7 +7280,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv_tn
 (
 cx
 obj
@@ -7296,13 +7296,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_UniformMatrix3fv
+nsIDOMWebGLRenderingContext_UniformMatrix3fv
 (
 5
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_UniformMatrix3fv_tn
+nsIDOMWebGLRenderingContext_UniformMatrix3fv_tn
 CONTEXT
 THIS
 OBJECT
@@ -7351,7 +7351,7 @@ id
 static
 uint32
 FASTCALL
-nsICanvasRenderingContextWebGL_UniformMatrix4fv_tn
+nsIDOMWebGLRenderingContext_UniformMatrix4fv_tn
 (
 JSContext
 *
@@ -7369,7 +7369,7 @@ JSObject
 arg
 )
 {
-helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv_tn
+helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv_tn
 (
 cx
 obj
@@ -7385,13 +7385,13 @@ return
 }
 JS_DEFINE_TRCINFO_1
 (
-nsICanvasRenderingContextWebGL_UniformMatrix4fv
+nsIDOMWebGLRenderingContext_UniformMatrix4fv
 (
 5
 (
 static
 UINT32_FAIL
-nsICanvasRenderingContextWebGL_UniformMatrix4fv_tn
+nsIDOMWebGLRenderingContext_UniformMatrix4fv_tn
 CONTEXT
 THIS
 OBJECT

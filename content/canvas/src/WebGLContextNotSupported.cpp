@@ -436,7 +436,7 @@ BLOCK
 #
 include
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 .
 h
 "
@@ -470,7 +470,7 @@ NS_ERROR_FAILURE
 DUMMY
 (
 NS_NewCanvasRenderingContextWebGL
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 DOMCI_DATA
 (

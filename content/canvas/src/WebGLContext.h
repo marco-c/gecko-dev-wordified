@@ -498,7 +498,7 @@ h
 #
 include
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 .
 h
 "
@@ -1617,7 +1617,7 @@ class
 WebGLContext
 :
 public
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 public
 nsICanvasRenderingContextInternal
 public
@@ -1639,9 +1639,9 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 WebGLContext
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
-NS_DECL_NSICANVASRENDERINGCONTEXTWEBGL
+NS_DECL_NSIDOMWEBGLRENDERINGCONTEXT
 /
 /
 nsICanvasRenderingContextInternal
