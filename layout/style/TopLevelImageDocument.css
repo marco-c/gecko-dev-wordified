@@ -432,6 +432,10 @@ iframes
 .
 *
 /
+media
+not
+print
+{
 body
 {
 background
@@ -551,4 +555,5 @@ left
 :
 0
 ;
+}
 }
