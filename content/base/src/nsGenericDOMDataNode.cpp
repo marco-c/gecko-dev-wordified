@@ -3298,6 +3298,10 @@ ParentChainChanged
 this
 )
 ;
+UpdateEditableState
+(
+)
+;
 NS_POSTCONDITION
 (
 aDocument

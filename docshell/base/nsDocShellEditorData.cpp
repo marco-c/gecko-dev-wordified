@@ -863,6 +863,7 @@ mEditingSession
 TearDownEditorOnWindow
 (
 domWindow
+PR_TRUE
 )
 ;
 }
@@ -1130,6 +1131,10 @@ mEditor
 nsnull
 ;
 }
+if
+(
+inWaitForUriLoad
+)
 mMakeEditable
 =
 PR_TRUE
@@ -2158,6 +2163,15 @@ inEditor
 /
 owning
 addref
+if
+(
+!
+mEditor
+)
+mMakeEditable
+=
+PR_FALSE
+;
 }
 return
 NS_OK

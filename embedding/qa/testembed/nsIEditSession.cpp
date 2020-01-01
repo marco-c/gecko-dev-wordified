@@ -848,6 +848,8 @@ domWindow
 text
 "
 afterUriLoad
+PR_TRUE
+PR_FALSE
 )
 ;
 RvTestResult
@@ -1387,6 +1389,7 @@ editingSession
 TearDownEditorOnWindow
 (
 domWindow
+PR_FALSE
 )
 ;
 RvTestResult
