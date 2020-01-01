@@ -1380,6 +1380,8 @@ nsIDocument
 *
 *
 aInstancePtrResult
+bool
+aLoadedAsData
 )
 {
 nsXMLDocument
@@ -1430,6 +1432,14 @@ doc
 aInstancePtrResult
 =
 doc
+;
+doc
+-
+>
+SetLoadedAsData
+(
+aLoadedAsData
+)
 ;
 return
 rv
