@@ -639,17 +639,6 @@ event
 handling
 code
 void
-InitButtonEvent
-(
-nsMouseEvent
-&
-aEvent
-GdkEventButton
-*
-aGdkEvent
-)
-;
-void
 InitKeyEvent
 (
 nsKeyEvent
