@@ -1356,6 +1356,10 @@ aArgv
 ]
 )
 ;
+SetupErrorHandling
+(
+)
+;
 sChildProcessType
 =
 aProcess
