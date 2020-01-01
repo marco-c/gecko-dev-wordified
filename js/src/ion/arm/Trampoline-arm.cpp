@@ -1119,8 +1119,8 @@ finishDataTransfer
 Load
 said
 argument
-int
-r10
+into
+r11
 aasm
 -
 >
@@ -1129,7 +1129,7 @@ as_dtr
 IsLoad
 32
 Offset
-r10
+r11
 DTRAddr
 (
 sp
@@ -1233,7 +1233,7 @@ JS_STATIC_ASSERT
 OsrFrameReg
 =
 =
-r7
+r10
 )
 ;
 #
@@ -1752,6 +1752,19 @@ prone
 and
 complex
 .
+/
+/
+BIG
+FAT
+WARNING
+:
+this
+loads
+both
+r6
+and
+r7
+.
 aasm
 -
 >
@@ -1907,7 +1920,7 @@ masm
 .
 transferReg
 (
-r10
+r11
 )
 ;
 /
