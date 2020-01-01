@@ -12715,7 +12715,11 @@ Function
 Log
 Sin
 Cos
+Exp
 Tan
+ACos
+ASin
+ATan
 }
 ;
 private
