@@ -590,13 +590,6 @@ mozilla
 AudioSegment
 segment
 ;
-segment
-.
-Init
-(
-1
-)
-;
 nsAutoTArray
 <
 const
