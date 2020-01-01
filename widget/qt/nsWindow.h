@@ -420,7 +420,7 @@ nsWindow
 (
 )
 ;
-nsEventStatus
+bool
 DoPaint
 (
 QPainter

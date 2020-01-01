@@ -954,17 +954,6 @@ aNotification
 ;
 -
 (
-void
-)
-sendFocusEvent
-:
-(
-PRUint32
-)
-eventType
-;
--
-(
 nsCocoaWindow
 *
 )

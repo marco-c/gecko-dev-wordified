@@ -460,17 +460,6 @@ DispatchDeactivateEvent
 void
 )
 ;
-void
-DispatchResizeEvent
-(
-nsIntRect
-&
-aRect
-nsEventStatus
-&
-aStatus
-)
-;
 virtual
 nsresult
 DispatchEvent
@@ -1930,7 +1919,7 @@ GtkWindow
 *
 mTransientParent
 ;
-PRInt32
+nsSizeMode
 mSizeState
 ;
 PluginType

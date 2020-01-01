@@ -942,12 +942,7 @@ GetDPI
 private
 :
 nsresult
-DispatchPaintEvent
-(
-)
-;
-nsresult
-DispatchResizeEvent
+Paint
 (
 )
 ;
