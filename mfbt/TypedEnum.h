@@ -129,6 +129,12 @@ h
 if
 defined
 (
+__cplusplus
+)
+#
+if
+defined
+(
 __clang__
 )
 /
@@ -2154,6 +2160,13 @@ MOZ_DELETE
 ;
 #
 endif
+#
+endif
+/
+*
+__cplusplus
+*
+/
 #
 endif
 /

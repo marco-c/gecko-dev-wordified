@@ -15,7 +15,8 @@ nsError
 h
 "
 /
-/
+*
+*
 No
 reason
 to
@@ -30,8 +31,7 @@ single
 file
 that
 includes
-/
-/
+*
 nsError
 .
 h
@@ -45,7 +45,7 @@ in
 its
 own
 .
-cpp
+c
 file
 instead
 of
@@ -54,6 +54,8 @@ the
 .
 h
 .
+*
+/
 MOZ_STATIC_ASSERT
 (
 (
