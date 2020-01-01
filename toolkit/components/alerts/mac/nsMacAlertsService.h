@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsGrowlAlertsService_h_
+nsMacAlertsService_h_
 #
 define
-nsGrowlAlertsService_h_
+nsMacAlertsService_h_
 #
 include
 "
@@ -76,9 +76,6 @@ nsIObserver
 .
 h
 "
-struct
-GrowlDelegateWrapper
-;
 struct
 NotificationCenterDelegateWrapper
 ;
@@ -113,18 +110,9 @@ nsMacAlertsService
 )
 ;
 nsresult
-InitGrowl
-(
-)
-;
-nsresult
 InitNotificationCenter
 (
 )
-;
-GrowlDelegateWrapper
-*
-mGrowlDelegate
 ;
 NotificationCenterDelegateWrapper
 *
@@ -136,4 +124,4 @@ mNCDelegate
 endif
 /
 /
-nsGrowlAlertsService_h_
+nsMacAlertsService_h_
