@@ -601,6 +601,15 @@ in
 x
 ]
     
+if
+not
+candidates
+:
+        
+return
+'
+'
+    
 assert
 len
 (
