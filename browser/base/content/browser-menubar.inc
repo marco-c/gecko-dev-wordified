@@ -3890,7 +3890,7 @@ label
 &
 showAllHistoryCmd
 .
-label
+label2
 ;
 "
 #
@@ -4306,7 +4306,7 @@ label
 &
 showAllBookmarksCmd
 .
-label
+label2
 ;
 "
 command
