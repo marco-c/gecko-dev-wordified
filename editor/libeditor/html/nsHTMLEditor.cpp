@@ -19678,7 +19678,6 @@ range
 new
 nsRange
 (
-aChild
 )
 ;
 nsresult

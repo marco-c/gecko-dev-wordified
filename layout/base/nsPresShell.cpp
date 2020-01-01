@@ -17278,7 +17278,6 @@ jumpToRange
 new
 nsRange
 (
-mDocument
 )
 ;
 while
@@ -29059,7 +29058,6 @@ range
 new
 nsRange
 (
-node
 )
 ;
 if
