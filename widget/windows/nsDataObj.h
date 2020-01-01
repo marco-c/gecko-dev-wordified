@@ -1216,7 +1216,7 @@ from
 the
 kFilePromiseURLMime
 flavour
-nsresult
+HRESULT
 GetDownloadDetails
 (
 nsIURI
