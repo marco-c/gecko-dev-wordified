@@ -915,14 +915,14 @@ API
 .
 NS_ENSURE_TRUE
 (
-S_OK
-=
-=
+SUCCEEDED
+(
 :
 :
 OleSetClipboard
 (
 NULL
+)
 )
 NS_ERROR_FAILURE
 )
