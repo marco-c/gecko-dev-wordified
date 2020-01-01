@@ -1764,11 +1764,14 @@ tmp
 *
 p
 =
-(
+reinterpret_cast
+<
 void
 *
-)
+>
+(
 tmp
+)
 ;
 return
 ret
