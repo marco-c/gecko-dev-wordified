@@ -26095,6 +26095,15 @@ scope
 branded
 (
 )
+&
+&
+sprop
+-
+>
+slot
+!
+=
+SPROP_INVALID_SLOT
 )
 scope
 -
