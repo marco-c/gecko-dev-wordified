@@ -4828,6 +4828,8 @@ xmp
 TreeBuilder
 .
 XMP
+|
+SPECIAL
 )
 ;
 public
@@ -6202,8 +6204,6 @@ image
 TreeBuilder
 .
 IMAGE
-|
-SPECIAL
 )
 ;
 public
@@ -6688,6 +6688,8 @@ track
 TreeBuilder
 .
 PARAM_OR_SOURCE_OR_TRACK
+|
+SPECIAL
 )
 ;
 public
@@ -7378,8 +7380,6 @@ keygen
 TreeBuilder
 .
 KEYGEN
-|
-SPECIAL
 )
 ;
 public
@@ -9288,8 +9288,6 @@ menuitem
 TreeBuilder
 .
 MENUITEM
-|
-SPECIAL
 )
 ;
 public
@@ -9374,8 +9372,6 @@ optgroup
 TreeBuilder
 .
 OPTGROUP
-|
-SPECIAL
 |
 OPTIONAL_END_TAG
 )

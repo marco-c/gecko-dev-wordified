@@ -11251,14 +11251,6 @@ if
 (
 node
 .
-isScoping
-(
-)
-|
-|
-(
-node
-.
 isSpecial
 (
 )
@@ -11292,7 +11284,6 @@ name
 "
 div
 "
-)
 )
 {
 break
