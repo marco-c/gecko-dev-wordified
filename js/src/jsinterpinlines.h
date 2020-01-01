@@ -1551,9 +1551,10 @@ rt
 jsPositiveInfinity
 )
 ;
+return
+true
+;
 }
-else
-{
 jsdouble
 r
 =
@@ -1610,7 +1611,6 @@ n
 )
 ;
 }
-}
 static
 inline
 bool
@@ -1661,9 +1661,10 @@ rt
 jsNaN
 )
 ;
+return
+true
+;
 }
-else
-{
 jsdouble
 r
 ;
@@ -1771,7 +1772,6 @@ n
 ]
 )
 ;
-}
 }
 static
 inline
