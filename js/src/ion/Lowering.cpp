@@ -3154,6 +3154,9 @@ useRegister
 (
 right
 )
+temp
+(
+)
 )
 ;
 if
