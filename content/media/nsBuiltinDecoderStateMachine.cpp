@@ -9012,12 +9012,12 @@ gfxIntSize
 (
 info
 .
-mPicture
+mDisplay
 .
 width
 info
 .
-mPicture
+mDisplay
 .
 height
 )
