@@ -831,6 +831,10 @@ window
 if
 required
 .
+SetAllocation
+(
+)
+;
 /
 /
 Need
@@ -863,13 +867,6 @@ mSocketWidget
 )
 )
 {
-gtk_xtbin_resize
-(
-mSocketWidget
-width
-height
-)
-;
 /
 /
 Point
@@ -903,10 +900,6 @@ or
 OOP
 &
 Xt
-SetAllocation
-(
-)
-;
 SetWindow
 (
 gtk_socket_get_id
