@@ -534,6 +534,8 @@ h
 XP_MACOSX
 or
 XP_BEOS
+or
+ANDROID
 /
 /
 -
@@ -624,6 +626,12 @@ XP_BEOS
 defined
 (
 XP_MACOSX
+)
+|
+|
+defined
+(
+ANDROID
 )
 #
 include

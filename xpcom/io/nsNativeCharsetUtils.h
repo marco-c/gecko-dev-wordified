@@ -864,6 +864,13 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 NS_COM
 PRBool
 NS_IsNativeUTF8
@@ -889,6 +896,12 @@ XP_MACOSX
 defined
 (
 XP_BEOS
+)
+|
+|
+defined
+(
+ANDROID
 )
 return
 PR_TRUE
