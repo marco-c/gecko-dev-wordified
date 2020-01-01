@@ -7318,6 +7318,13 @@ curFrame
 =
 null
 ;
+if
+(
+aRequest
+.
+focus
+)
+{
 this
 .
 mainFrame
@@ -7326,6 +7333,7 @@ focus
 (
 )
 ;
+}
 checkTimer
 .
 initWithCallback
@@ -7451,6 +7459,13 @@ curFrame
 =
 curWindow
 ;
+if
+(
+aRequest
+.
+focus
+)
+{
 this
 .
 curFrame
@@ -7459,6 +7474,7 @@ focus
 (
 )
 ;
+}
 checkTimer
 .
 initWithCallback
@@ -7677,6 +7693,13 @@ curFrame
 =
 curWindow
 ;
+if
+(
+aRequest
+.
+focus
+)
+{
 this
 .
 curFrame
@@ -7685,6 +7708,7 @@ focus
 (
 )
 ;
+}
 checkTimer
 .
 initWithCallback

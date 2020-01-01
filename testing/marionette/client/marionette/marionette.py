@@ -2913,6 +2913,9 @@ self
 frame
 =
 None
+focus
+=
+True
 )
 :
         
@@ -2941,6 +2944,9 @@ element
 frame
 .
 id
+focus
+=
+focus
 )
         
 else
@@ -2961,6 +2967,9 @@ ok
 value
 =
 frame
+focus
+=
+focus
 )
         
 return
