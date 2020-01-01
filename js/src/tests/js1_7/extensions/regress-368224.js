@@ -728,9 +728,6 @@ x
 }
 )
 =
-#
-3
-=
 {
 }
 reportCompare
