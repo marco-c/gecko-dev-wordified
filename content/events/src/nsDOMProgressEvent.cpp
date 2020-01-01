@@ -501,10 +501,6 @@ PRBool
 aLengthComputable
 )
 {
-if
-(
-aLengthComputable
-)
 *
 aLengthComputable
 =
@@ -525,10 +521,6 @@ PRUint32
 aLoaded
 )
 {
-if
-(
-aLoaded
-)
 *
 aLoaded
 =
@@ -549,10 +541,6 @@ PRUint32
 aTotal
 )
 {
-if
-(
-aTotal
-)
 *
 aTotal
 =
