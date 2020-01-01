@@ -1565,6 +1565,16 @@ this
 .
 _edit
 .
+inputField
+.
+blur
+(
+)
+;
+this
+.
+_edit
+.
 reallyClosePopup
 (
 )
