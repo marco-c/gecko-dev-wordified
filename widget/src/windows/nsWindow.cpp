@@ -19047,6 +19047,11 @@ style
 WS_VISIBLE
 )
 ;
+Invalidate
+(
+PR_FALSE
+)
+;
 }
 /
 /
