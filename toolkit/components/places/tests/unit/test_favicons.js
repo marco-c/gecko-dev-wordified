@@ -2955,6 +2955,7 @@ bar
 "
 )
 ;
+var
 faviconURI
 =
 uri

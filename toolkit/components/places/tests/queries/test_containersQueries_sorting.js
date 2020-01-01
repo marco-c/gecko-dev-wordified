@@ -2262,6 +2262,7 @@ by
 title
 ascending
 .
+let
 innerContainer
 =
 container
@@ -2792,6 +2793,7 @@ them
 through
 recursiveSort
 .
+let
 innerContainer
 =
 container

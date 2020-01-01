@@ -1328,6 +1328,7 @@ function
 aUserData
 )
 {
+var
 batchchange
 =
 [

@@ -1451,6 +1451,7 @@ an
 unused
 one
 .
+let
 stmt
 =
 mDBConn
@@ -11446,6 +11447,7 @@ max
 ID
 for
 cleanup
+let
 stmt
 =
 mDBConn

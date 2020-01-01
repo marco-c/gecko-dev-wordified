@@ -2343,6 +2343,7 @@ possible
 /
 combinations
 .
+let
 includeHidden_options
 =
 [
@@ -2350,6 +2351,7 @@ true
 false
 ]
 ;
+let
 redirectsMode_options
 =
 [
@@ -2370,6 +2372,7 @@ nsINavHistoryQueryOptions
 REDIRECTS_MODE_TARGET
 ]
 ;
+let
 maxResults_options
 =
 [
@@ -2401,6 +2404,7 @@ visited
 smart
 bookmark
 .
+let
 sorting_options
 =
 [
