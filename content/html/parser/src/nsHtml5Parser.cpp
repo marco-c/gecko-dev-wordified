@@ -5649,7 +5649,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHtml5Parser
 :
 :
