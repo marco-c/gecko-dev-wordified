@@ -559,8 +559,8 @@ aWidget
 }
 ;
 extern
-THEBES_API
 GLContextProvider
+THEBES_API
 sGLContextProvider
 ;
 }
