@@ -1211,6 +1211,17 @@ options
 xrePath
 )
   
+options
+.
+symbolsPath
+=
+getFullPath
+(
+options
+.
+symbolsPath
+)
+  
 profileDir
 =
 None
