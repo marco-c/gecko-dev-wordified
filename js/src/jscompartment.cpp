@@ -867,6 +867,12 @@ init
 cx
 )
 ;
+newObjectCache
+.
+reset
+(
+)
+;
 if
 (
 !
@@ -3156,6 +3162,12 @@ emptyTypeObject
 emptyTypeObject
 =
 NULL
+;
+newObjectCache
+.
+reset
+(
+)
 ;
 sweepBreakpoints
 (

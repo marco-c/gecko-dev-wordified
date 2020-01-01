@@ -3321,6 +3321,12 @@ JSObject
 proto
 )
 ;
+js
+:
+:
+NewObjectCache
+newObjectCache
+;
 private
 :
 enum
