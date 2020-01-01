@@ -309,6 +309,9 @@ socket
 h
 >
 #
+ifndef
+MOZ_LINKER
+#
 include
 <
 cutils
@@ -317,6 +320,8 @@ sockets
 .
 h
 >
+#
+endif
 void
 notify_gdb_of_libraries
 (
@@ -387,6 +392,9 @@ gettid
 (
 )
 ;
+#
+ifndef
+MOZ_LINKER
 s
 =
 socket_local_client
@@ -400,6 +408,15 @@ ANDROID_SOCKET_NAMESPACE_ABSTRACT
 SOCK_STREAM
 )
 ;
+#
+else
+s
+=
+-
+1
+;
+#
+endif
 if
 (
 s
