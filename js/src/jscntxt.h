@@ -5028,12 +5028,7 @@ setGCMaxMallocBytes
 size_t
 value
 )
-{
-gcMaxMallocBytes
-=
-value
 ;
-}
 /
 *
 *
