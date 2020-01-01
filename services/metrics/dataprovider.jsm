@@ -2855,7 +2855,7 @@ initiated
 either
 by
 a
-collector
+manager
 calling
 a
 *

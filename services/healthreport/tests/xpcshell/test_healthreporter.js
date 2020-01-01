@@ -908,7 +908,7 @@ do_check_eq
 (
 reporter
 .
-collectorShutdownCount
+providerManagerShutdownCount
 0
 )
 ;
@@ -931,13 +931,14 @@ a
 shutdown
 triggered
 while
-collector
+provider
+manager
 is
 initializing
+/
+/
 results
 in
-/
-/
 shutdown
 and
 storage
@@ -946,7 +947,7 @@ closure
 add_task
 (
 function
-test_shutdown_collector_in_progress
+test_shutdown_provider_manager_in_progress
 (
 )
 {
@@ -957,7 +958,7 @@ yield
 getJustReporter
 (
 "
-shutdown_collect_in_progress
+shutdown_provider_manager_in_progress
 "
 SERVER_URI
 true
@@ -965,7 +966,7 @@ true
 ;
 reporter
 .
-onCollectorInitialized
+onProviderManagerInitialized
 =
 function
 (
@@ -977,7 +978,8 @@ print
 Faking
 shutdown
 during
-collector
+provider
+manager
 initialization
 .
 "
@@ -1012,7 +1014,7 @@ do_check_eq
 (
 reporter
 .
-collectorShutdownCount
+providerManagerShutdownCount
 1
 )
 ;
@@ -1033,7 +1035,8 @@ Simulates
 an
 error
 during
-collector
+provider
+manager
 initialization
 and
 verifies
@@ -1044,7 +1047,7 @@ down
 add_task
 (
 function
-test_shutdown_when_collector_errors
+test_shutdown_when_provider_manager_errors
 (
 )
 {
@@ -1055,7 +1058,7 @@ yield
 getJustReporter
 (
 "
-shutdown_when_collector_errors
+shutdown_when_provider_manager_errors
 "
 SERVER_URI
 true
@@ -1063,7 +1066,7 @@ true
 ;
 reporter
 .
-onInitializeCollectorFinished
+onInitializeProviderManagerFinished
 =
 function
 (
@@ -1087,7 +1090,8 @@ Error
 Fake
 error
 during
-collector
+provider
+manager
 initialization
 .
 "
@@ -1116,7 +1120,7 @@ do_check_eq
 (
 reporter
 .
-collectorShutdownCount
+providerManagerShutdownCount
 1
 )
 ;
@@ -1216,7 +1220,7 @@ do_check_eq
 (
 reporter
 .
-_collector
+_providerManager
 .
 _providers
 .
@@ -1236,7 +1240,7 @@ do_check_eq
 (
 reporter
 .
-_collector
+_providerManager
 .
 _providers
 .
@@ -1380,7 +1384,7 @@ do_check_eq
 (
 reporter
 .
-_collector
+_providerManager
 .
 _providers
 .
@@ -1400,7 +1404,7 @@ do_check_eq
 (
 reporter
 .
-_collector
+_providerManager
 .
 _providers
 .
@@ -1486,7 +1490,7 @@ do_check_eq
 (
 reporter
 .
-_collector
+_providerManager
 .
 _providers
 .
@@ -2373,7 +2377,7 @@ providers
 =
 reporter
 .
-_collector
+_providerManager
 .
 providers
 ;
@@ -2446,7 +2450,7 @@ providers
 =
 reporter
 .
-_collector
+_providerManager
 .
 providers
 ;
@@ -2524,7 +2528,7 @@ providers
 =
 reporter
 .
-_collector
+_providerManager
 .
 providers
 ;

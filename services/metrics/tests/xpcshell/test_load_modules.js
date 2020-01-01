@@ -38,12 +38,12 @@ modules
 =
 [
 "
-collector
+dataprovider
 .
 jsm
 "
 "
-dataprovider
+providermanager
 .
 jsm
 "

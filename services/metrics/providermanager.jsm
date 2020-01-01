@@ -70,7 +70,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-Collector
+ProviderManager
 "
 ]
 ;
@@ -232,7 +232,7 @@ data
 /
 this
 .
-Collector
+ProviderManager
 =
 function
 (
@@ -254,7 +254,7 @@ Services
 .
 Metrics
 .
-Collector
+ProviderManager
 "
 )
 ;
@@ -287,7 +287,9 @@ _providerInitializing
 false
 ;
 }
-Collector
+this
+.
+ProviderManager
 .
 prototype
 =
@@ -391,7 +393,7 @@ a
 MetricsProvider
 with
 this
-collector
+manager
 .
 *
 *
@@ -584,7 +586,7 @@ named
 provider
 from
 the
-collector
+manager
 .
 *
 *
@@ -850,7 +852,7 @@ fulfillment
 is
 that
 the
-collector
+manager
 is
 populated
 with
@@ -868,7 +870,7 @@ the
 promise
 is
 this
-Collector
+ProviderManager
 instance
 .
 *
