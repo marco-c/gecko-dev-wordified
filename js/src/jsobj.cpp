@@ -14001,6 +14001,16 @@ JSRESOLVE_ASSIGNING
 ;
 }
 else
+if
+(
+cs
+-
+>
+length
+>
+=
+0
+)
 {
 pc
 +
