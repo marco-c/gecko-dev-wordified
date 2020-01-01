@@ -38488,6 +38488,9 @@ record_JSOP_CASE
 (
 )
 {
+#
+if
+0
 return
 equal
 (
@@ -38498,6 +38501,13 @@ ifop
 (
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 bool
 TraceRecorder
