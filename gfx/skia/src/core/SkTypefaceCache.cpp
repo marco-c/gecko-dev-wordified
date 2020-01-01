@@ -390,12 +390,6 @@ count
 )
 )
 ;
-fArray
-.
-reset
-(
-)
-;
 }
 /
 /

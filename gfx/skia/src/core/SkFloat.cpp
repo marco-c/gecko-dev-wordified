@@ -1211,9 +1211,8 @@ packed
 0
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 can
 '

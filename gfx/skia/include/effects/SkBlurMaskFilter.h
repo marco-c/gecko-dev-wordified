@@ -329,6 +329,9 @@ SkScalar
 blurRadius
 )
 ;
+SK_DECLARE_FLATTENABLE_REGISTRAR
+(
+)
 private
 :
 SkBlurMaskFilter

@@ -215,6 +215,9 @@ SkFlattenableWriteBuffer
 &
 )
 ;
+SK_DECLARE_FLATTENABLE_REGISTRAR
+(
+)
 protected
 :
 SkEmbossMaskFilter

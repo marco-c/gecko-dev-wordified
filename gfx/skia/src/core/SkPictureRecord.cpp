@@ -830,9 +830,8 @@ false
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 region
@@ -1019,7 +1018,11 @@ rect
 ;
 addInt
 (
+ClipParams_pack
+(
 op
+doAA
+)
 )
 ;
 this
@@ -1080,7 +1083,11 @@ path
 ;
 addInt
 (
+ClipParams_pack
+(
 op
+doAA
+)
 )
 ;
 this
@@ -1171,7 +1178,11 @@ region
 ;
 addInt
 (
+ClipParams_pack
+(
 op
+false
+)
 )
 ;
 this

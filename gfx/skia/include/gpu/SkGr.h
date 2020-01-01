@@ -53,7 +53,7 @@ headers
 #
 include
 "
-GrConfig
+GrTypes
 .
 h
 "
@@ -1597,7 +1597,7 @@ TextureKey
 key
 const
 GrSamplerState
-&
+*
 sampler
 const
 SkBitmap

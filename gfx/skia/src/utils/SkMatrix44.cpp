@@ -4015,7 +4015,10 @@ result
 i
 ]
 =
+SkMScalarToScalar
+(
 value
+)
 ;
 }
 memcpy
@@ -4526,6 +4529,8 @@ dst
 0
 ]
 =
+SkScalarToMScalar
+(
 src
 [
 SkMatrix
@@ -4533,6 +4538,7 @@ SkMatrix
 :
 kMScaleX
 ]
+)
 ;
 dst
 [
@@ -4542,6 +4548,8 @@ dst
 0
 ]
 =
+SkScalarToMScalar
+(
 src
 [
 SkMatrix
@@ -4549,6 +4557,7 @@ SkMatrix
 :
 kMSkewX
 ]
+)
 ;
 dst
 [
@@ -4558,6 +4567,8 @@ dst
 0
 ]
 =
+SkScalarToMScalar
+(
 src
 [
 SkMatrix
@@ -4565,6 +4576,7 @@ SkMatrix
 :
 kMTransX
 ]
+)
 ;
 dst
 [
@@ -4574,6 +4586,8 @@ dst
 1
 ]
 =
+SkScalarToMScalar
+(
 src
 [
 SkMatrix
@@ -4581,6 +4595,7 @@ SkMatrix
 :
 kMSkewY
 ]
+)
 ;
 dst
 [
@@ -4590,6 +4605,8 @@ dst
 1
 ]
 =
+SkScalarToMScalar
+(
 src
 [
 SkMatrix
@@ -4597,6 +4614,7 @@ SkMatrix
 :
 kMScaleY
 ]
+)
 ;
 dst
 [
@@ -4606,6 +4624,8 @@ dst
 1
 ]
 =
+SkScalarToMScalar
+(
 src
 [
 SkMatrix
@@ -4613,6 +4633,7 @@ SkMatrix
 :
 kMTransY
 ]
+)
 ;
 dst
 [
@@ -4710,7 +4731,7 @@ SkMatrix
 kMScaleX
 ]
 =
-SkMScalarToFloat
+SkMScalarToScalar
 (
 fMat
 [
@@ -4729,7 +4750,7 @@ SkMatrix
 kMSkewX
 ]
 =
-SkMScalarToFloat
+SkMScalarToScalar
 (
 fMat
 [
@@ -4748,7 +4769,7 @@ SkMatrix
 kMTransX
 ]
 =
-SkMScalarToFloat
+SkMScalarToScalar
 (
 fMat
 [
@@ -4767,7 +4788,7 @@ SkMatrix
 kMSkewY
 ]
 =
-SkMScalarToFloat
+SkMScalarToScalar
 (
 fMat
 [
@@ -4786,7 +4807,7 @@ SkMatrix
 kMScaleY
 ]
 =
-SkMScalarToFloat
+SkMScalarToScalar
 (
 fMat
 [
@@ -4805,7 +4826,7 @@ SkMatrix
 kMTransY
 ]
 =
-SkMScalarToFloat
+SkMScalarToScalar
 (
 fMat
 [

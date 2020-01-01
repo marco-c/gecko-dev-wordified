@@ -109,6 +109,9 @@ SkFlattenableReadBuffer
 &
 )
 ;
+SK_DECLARE_PIXEL_REF_REGISTRAR
+(
+)
 /
 /
 API

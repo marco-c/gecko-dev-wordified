@@ -722,7 +722,7 @@ h
 elif
 defined
 (
-ANDROID
+SK_BUILD_FOR_ANDROID
 )
 #
 include

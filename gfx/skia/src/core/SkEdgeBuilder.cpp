@@ -892,9 +892,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unexpected
 verb
@@ -1101,9 +1100,8 @@ break
 }
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unexpected
 verb

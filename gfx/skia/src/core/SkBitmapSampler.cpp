@@ -87,9 +87,8 @@ do_mirror_mod
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 mode
@@ -2350,9 +2349,8 @@ bm
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 mode
@@ -2526,9 +2524,8 @@ bm
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 mode
@@ -2702,9 +2699,8 @@ bm
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 mode
@@ -2772,9 +2768,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 device

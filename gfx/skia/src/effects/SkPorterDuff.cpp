@@ -222,7 +222,7 @@ kPlus_Mode
 }
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 MAKE_PAIR
 (
 Overlay

@@ -3527,6 +3527,8 @@ SkShader
 :
 kNone_GradientType
 :
+default
+:
 return
 ;
 }
@@ -4158,9 +4160,9 @@ unflip
 .
 preScale
 (
-1
+SK_Scalar1
 -
-1
+SK_Scalar1
 )
 ;
 SkISize
@@ -4423,9 +4425,9 @@ yMirror
 .
 setScale
 (
-1
+SK_Scalar1
 -
-1
+SK_Scalar1
 )
 ;
 yMirror
@@ -4923,9 +4925,9 @@ leftMatrix
 .
 postScale
 (
-1
+SK_Scalar1
 -
-1
+SK_Scalar1
 )
 ;
 leftMatrix
@@ -5038,9 +5040,9 @@ rightMatrix
 .
 postScale
 (
-1
+SK_Scalar1
 -
-1
+SK_Scalar1
 )
 ;
 rightMatrix
@@ -5134,7 +5136,7 @@ topMatrix
 .
 setScale
 (
-1
+SK_Scalar1
 -
 surfaceBBox
 .
@@ -5250,7 +5252,7 @@ bottomMatrix
 .
 setScale
 (
-1
+SK_Scalar1
 surfaceBBox
 .
 fBottom

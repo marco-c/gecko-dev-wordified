@@ -1516,9 +1516,8 @@ BitsPerPixel
 )
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 bad
 colortable

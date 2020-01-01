@@ -45,7 +45,7 @@ SkThread_platform_DEFINED
 if
 defined
 (
-ANDROID
+SK_BUILD_FOR_ANDROID
 )
 &
 &

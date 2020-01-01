@@ -59,9 +59,8 @@ sk_throw
 (
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 sk_throw
 "
@@ -78,9 +77,8 @@ sk_out_of_memory
 void
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 sk_out_of_memory
 "

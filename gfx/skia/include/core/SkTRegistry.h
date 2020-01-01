@@ -129,7 +129,7 @@ fact
 {
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 /
 /
 work

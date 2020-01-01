@@ -1111,6 +1111,9 @@ mapper
 NULL
 )
 ;
+SK_DECLARE_FLATTENABLE_REGISTRAR
+(
+)
 }
 ;
 #

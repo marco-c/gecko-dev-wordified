@@ -86,9 +86,6 @@ bool
 ;
 private
 :
-int
-fFildes
-;
 void
 *
 fAddr

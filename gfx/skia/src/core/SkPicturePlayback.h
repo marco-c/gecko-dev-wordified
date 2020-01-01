@@ -104,7 +104,7 @@ h
 "
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 #
 include
 "
@@ -952,7 +952,7 @@ fFactoryPlayback
 ;
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 SkMutex
 fDrawMutex
 ;

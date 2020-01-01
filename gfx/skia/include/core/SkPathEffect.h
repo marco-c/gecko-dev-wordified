@@ -195,6 +195,9 @@ width
 =
 0
 ;
+SK_DECLARE_FLATTENABLE_REGISTRAR
+(
+)
 private
 :
 /

@@ -2845,9 +2845,8 @@ SkStaticTextView
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 enum

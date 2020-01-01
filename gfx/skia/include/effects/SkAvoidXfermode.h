@@ -283,6 +283,7 @@ aa
 [
 ]
 )
+SK_OVERRIDE
 ;
 virtual
 void
@@ -305,6 +306,7 @@ aa
 [
 ]
 )
+SK_OVERRIDE
 ;
 virtual
 void
@@ -327,6 +329,7 @@ aa
 [
 ]
 )
+SK_OVERRIDE
 ;
 virtual
 void
@@ -349,6 +352,7 @@ aa
 [
 ]
 )
+SK_OVERRIDE
 ;
 /
 /
@@ -360,6 +364,7 @@ Factory
 getFactory
 (
 )
+SK_OVERRIDE
 ;
 virtual
 void
@@ -368,6 +373,7 @@ flatten
 SkFlattenableWriteBuffer
 &
 )
+SK_OVERRIDE
 ;
 static
 SkFlattenable
@@ -389,6 +395,9 @@ buffer
 )
 ;
 }
+SK_DECLARE_FLATTENABLE_REGISTRAR
+(
+)
 protected
 :
 SkAvoidXfermode
