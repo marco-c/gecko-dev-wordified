@@ -102,13 +102,6 @@ nsTreeContentView_h__
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -494,9 +487,6 @@ mDocument
 /
 /
 WEAK
-nsFixedSizeAllocator
-mAllocator
-;
 nsTArray
 <
 Row
