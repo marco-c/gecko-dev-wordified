@@ -1666,10 +1666,7 @@ JSContext
 cx
 jsuint
 capacity
-js
-:
-:
-Value
+jsval
 *
 *
 vector

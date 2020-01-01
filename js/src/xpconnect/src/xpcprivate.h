@@ -14269,7 +14269,7 @@ XPCWrappedNativeProto
 (
 v
 .
-asPrivateVoidPtr
+asPrivate
 (
 )
 )

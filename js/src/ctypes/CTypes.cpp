@@ -30153,11 +30153,8 @@ js_NewArrayObjectWithCapacity
 (
 cx
 len
-Valueify
-(
 &
 fieldsVec
-)
 )
 ;
 if
@@ -34633,11 +34630,8 @@ js_NewArrayObjectWithCapacity
 (
 cx
 len
-Valueify
-(
 &
 vec
-)
 )
 ;
 if
