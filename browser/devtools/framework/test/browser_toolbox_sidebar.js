@@ -365,7 +365,7 @@ id
 "
 fakeTool4242
 "
-killswitch
+visibilityswitch
 :
 "
 devtools
