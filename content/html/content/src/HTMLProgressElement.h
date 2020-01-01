@@ -229,8 +229,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 SetDoubleAttr
 (
 nsGkAtoms
@@ -238,6 +236,7 @@ nsGkAtoms
 :
 value
 aValue
+aRv
 )
 ;
 }
@@ -257,8 +256,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 SetDoubleAttr
 (
 nsGkAtoms
@@ -266,6 +263,7 @@ nsGkAtoms
 :
 max
 aValue
+aRv
 )
 ;
 }
