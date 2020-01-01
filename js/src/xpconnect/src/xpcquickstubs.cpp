@@ -5677,10 +5677,9 @@ return
 JS_TRUE
 ;
 }
-PRBool
-isShared
-=
-PR_FALSE
+nsStringBuffer
+*
+sharedBuffer
 ;
 jsval
 jsstr
@@ -5692,9 +5691,8 @@ ReadableToJSVal
 (
 cx
 str
-PR_TRUE
 &
-isShared
+sharedBuffer
 )
 ;
 if
@@ -5714,7 +5712,7 @@ jsstr
 ;
 if
 (
-isShared
+sharedBuffer
 )
 {
 /
@@ -5797,10 +5795,9 @@ return
 JS_TRUE
 ;
 }
-PRBool
-isShared
-=
-PR_FALSE
+nsStringBuffer
+*
+sharedBuffer
 ;
 jsval
 jsstr
@@ -5812,9 +5809,8 @@ ReadableToJSVal
 (
 cx
 str
-PR_TRUE
 &
-isShared
+sharedBuffer
 )
 ;
 if
@@ -5837,7 +5833,7 @@ jsstr
 ;
 if
 (
-isShared
+sharedBuffer
 )
 {
 /
