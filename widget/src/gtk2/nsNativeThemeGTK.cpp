@@ -3602,7 +3602,7 @@ nsIRenderingContext
 :
 :
 AutoPushTranslation
-translation
+autoTranslation
 (
 aContext
 drawingRect
@@ -4056,7 +4056,7 @@ d
 disabled
 =
 %
-Id
+d
 ]
 \
 n
