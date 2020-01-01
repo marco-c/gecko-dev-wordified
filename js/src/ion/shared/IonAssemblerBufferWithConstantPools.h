@@ -1510,7 +1510,6 @@ numEntries
 =
 0
 ;
-uint32
 buffSize
 =
 8
