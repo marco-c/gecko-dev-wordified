@@ -1991,7 +1991,10 @@ UncheckedUnwrap
 scope
 )
 ;
-xpc_UnmarkGrayObject
+JS
+:
+:
+ExposeObjectToActiveJS
 (
 scope
 )

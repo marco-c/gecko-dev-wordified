@@ -2337,7 +2337,10 @@ if
 cachedHandler
 )
 {
-xpc_UnmarkGrayObject
+JS
+:
+:
+ExposeObjectToActiveJS
 (
 cachedHandler
 )

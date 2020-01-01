@@ -839,7 +839,10 @@ care
 about
 compartments
 .
-xpc_UnmarkGrayObject
+JS
+:
+:
+ExposeObjectToActiveJS
 (
 aCallback
 )

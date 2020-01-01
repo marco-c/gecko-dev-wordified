@@ -4329,7 +4329,10 @@ if
 obj
 )
 {
-xpc_UnmarkNonNullGrayObject
+JS
+:
+:
+ExposeObjectToActiveJS
 (
 obj
 )

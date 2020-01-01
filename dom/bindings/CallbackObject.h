@@ -361,7 +361,10 @@ Callback
 )
 const
 {
-xpc_UnmarkGrayObject
+JS
+:
+:
+ExposeObjectToActiveJS
 (
 mCallback
 )
