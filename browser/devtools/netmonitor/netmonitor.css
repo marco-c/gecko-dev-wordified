@@ -114,6 +114,16 @@ auto
 ;
 }
 #
+custom
+-
+pane
+{
+overflow
+:
+auto
+;
+}
+#
 timings
 -
 summary

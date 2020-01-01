@@ -10513,6 +10513,7 @@ hold
 onNetworkEvent
 (
 aRequestInfo
+aChannel
 )
 .
 This
@@ -10521,8 +10522,8 @@ is
 invoked
 once
 for
-every
 *
+every
 new
 network
 request
@@ -10530,7 +10531,7 @@ and
 it
 is
 given
-one
+two
 arguments
 :
 the
@@ -10539,6 +10540,9 @@ network
 *
 request
 information
+and
+the
+channel
 .
 onNetworkEvent
 (
@@ -10547,8 +10551,8 @@ must
 return
 an
 object
-which
 *
+which
 holds
 several
 add
@@ -12110,6 +12114,7 @@ owner
 onNetworkEvent
 (
 event
+aChannel
 )
 ;
 this
