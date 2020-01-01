@@ -77873,13 +77873,7 @@ MathCache
 *
 mathCache
 =
-JS_THREAD_DATA
-(
-cx
-)
--
->
-getMathCache
+GetMathCache
 (
 cx
 )
