@@ -1148,10 +1148,6 @@ jsdscript
 profileData
 )
 ;
-if
-(
-jsdscript
-)
 free
 (
 jsdscript
