@@ -2450,6 +2450,8 @@ New
 (
 size_t
 argc
+size_t
+bytecodeArgc
 bool
 construct
 )
@@ -2462,6 +2464,7 @@ new
 MCall
 (
 construct
+bytecodeArgc
 )
 ;
 if

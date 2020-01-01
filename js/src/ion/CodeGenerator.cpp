@@ -4288,7 +4288,7 @@ Imm32
 call
 -
 >
-nargs
+bytecodeArgc
 (
 )
 )
