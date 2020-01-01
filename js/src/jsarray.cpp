@@ -13582,7 +13582,7 @@ isTypeCallerMonitored
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 obj
 -
@@ -14356,7 +14356,7 @@ isTypeCallerMonitored
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 obj
 -
@@ -14786,7 +14786,7 @@ true
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 objType
 )
@@ -14817,7 +14817,7 @@ isTypeCallerMonitored
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 objType
 )
@@ -15984,7 +15984,7 @@ isTypeCallerMonitored
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 ntype
 )
@@ -16850,7 +16850,7 @@ true
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 objType
 )
@@ -16881,7 +16881,7 @@ isTypeCallerMonitored
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 objType
 )
@@ -18078,7 +18078,7 @@ FILTER
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 newtype
 )
@@ -20997,7 +20997,7 @@ vector
 cx
 -
 >
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 type
 )
@@ -21501,6 +21501,13 @@ pool
 )
 indexTypes
 )
+;
+object
+-
+>
+possiblePackedArray
+=
+true
 ;
 }
 #

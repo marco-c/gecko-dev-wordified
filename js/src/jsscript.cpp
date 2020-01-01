@@ -12020,8 +12020,6 @@ newScript
 :
 %
 s
-\
-n
 "
 name
 )
