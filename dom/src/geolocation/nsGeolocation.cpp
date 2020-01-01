@@ -510,7 +510,7 @@ h
 endif
 #
 ifdef
-WINCE
+WINCE_WINDOWS_MOBILE
 #
 include
 "
@@ -2200,7 +2200,7 @@ location
 provider
 #
 ifdef
-WINCE
+WINCE_WINDOWS_MOBILE
 if
 (
 !
