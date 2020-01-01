@@ -2991,15 +2991,6 @@ Restarter
 "
 )
 ;
-intent
-.
-setFlags
-(
-Intent
-.
-FLAG_ACTIVITY_NEW_TASK
-)
-;
 addEnvToIntent
 (
 intent
