@@ -20127,7 +20127,7 @@ loaderOwner
 return
 NS_ERROR_FAILURE
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameLoader
 >
