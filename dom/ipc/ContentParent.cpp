@@ -2380,11 +2380,9 @@ rate
 format
 )
 ;
-parent
--
->
-AddRef
+NS_ADDREF
 (
+parent
 )
 ;
 return
