@@ -2925,14 +2925,7 @@ nsLayoutUtils
 ComputeSizeWithIntrinsicDimensions
 (
 aRenderingContext
-const_cast
-<
-nsSubDocumentFrame
-*
->
-(
 this
-)
 subDocRoot
 -
 >
