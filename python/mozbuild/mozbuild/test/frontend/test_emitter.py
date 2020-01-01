@@ -1055,6 +1055,21 @@ s
 '
 ]
             
+CSRCS
+=
+[
+'
+fans
+.
+c
+'
+'
+tans
+.
+c
+'
+]
+            
 XPIDLSRCS
 =
 [

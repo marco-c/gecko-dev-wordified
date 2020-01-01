@@ -525,6 +525,12 @@ ASFILES
 ASFILES
 '
             
+CSRCS
+=
+'
+CSRCS
+'
+            
 MODULE
 =
 '
