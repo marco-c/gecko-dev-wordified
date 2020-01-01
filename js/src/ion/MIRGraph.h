@@ -1403,6 +1403,10 @@ inheritNonPredecessor
 MBasicBlock
 *
 parent
+bool
+inheritStack
+=
+false
 )
 ;
 /
