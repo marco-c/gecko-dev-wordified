@@ -4661,7 +4661,10 @@ js_LookupPropertyWithFlags
 cx
 proto
 id
-0
+cx
+-
+>
+resolveFlags
 &
 obj2
 &
