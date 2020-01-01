@@ -4468,6 +4468,11 @@ PR_FALSE
 if
 (
 gIsAnyPrefLocked
+&
+&
+gHashTable
+.
+ops
 )
 {
 PrefHashEntry
