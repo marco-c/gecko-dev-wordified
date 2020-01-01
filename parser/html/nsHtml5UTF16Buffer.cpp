@@ -236,13 +236,6 @@ nsHtml5UTF16Buffer_cpp__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

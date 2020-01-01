@@ -239,13 +239,6 @@ nsHtml5ElementName_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

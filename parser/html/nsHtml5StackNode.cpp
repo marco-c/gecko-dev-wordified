@@ -244,13 +244,6 @@ nsHtml5StackNode_cpp__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

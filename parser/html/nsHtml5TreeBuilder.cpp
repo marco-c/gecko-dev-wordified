@@ -264,13 +264,6 @@ nsHtml5TreeBuilder_cpp__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

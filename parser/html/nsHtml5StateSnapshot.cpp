@@ -236,13 +236,6 @@ nsHtml5StateSnapshot_cpp__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

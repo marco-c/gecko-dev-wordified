@@ -239,13 +239,6 @@ nsHtml5Portability_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
