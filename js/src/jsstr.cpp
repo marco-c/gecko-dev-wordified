@@ -23404,6 +23404,7 @@ str
 js_NewGCString
 (
 cx
+GCX_STRING
 )
 ;
 if
@@ -23813,6 +23814,7 @@ ds
 js_NewGCString
 (
 cx
+GCX_STRING
 )
 ;
 if

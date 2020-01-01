@@ -20846,6 +20846,7 @@ obj
 js_NewGCObject
 (
 cx
+GCX_OBJECT
 )
 ;
 if
@@ -21274,7 +21275,10 @@ cx
 >
 weakRoots
 .
-newbornObject
+newborn
+[
+GCX_OBJECT
+]
 =
 obj
 ;

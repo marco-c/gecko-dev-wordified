@@ -13082,6 +13082,7 @@ JSObject
 js_NewGCFunction
 (
 cx
+GCX_OBJECT
 )
 ;
 #
@@ -13136,6 +13137,7 @@ obj
 js_NewGCObject
 (
 cx
+GCX_OBJECT
 )
 ;
 }
@@ -13295,7 +13297,10 @@ cx
 >
 weakRoots
 .
-newbornObject
+newborn
+[
+GCX_OBJECT
+]
 =
 =
 obj
@@ -13395,7 +13400,10 @@ cx
 >
 weakRoots
 .
-newbornObject
+newborn
+[
+GCX_OBJECT
+]
 =
 obj
 ;
@@ -13745,6 +13753,7 @@ obj
 js_NewGCObject
 (
 cx
+GCX_OBJECT
 )
 ;
 if
@@ -15747,6 +15756,7 @@ clone
 js_NewGCObject
 (
 cx
+GCX_OBJECT
 )
 ;
 if
@@ -19570,6 +19580,7 @@ obj
 js_NewGCObject
 (
 cx
+GCX_OBJECT
 )
 ;
 if
@@ -33047,9 +33058,12 @@ cx
 >
 weakRoots
 .
-newbornObject
+newborn
+[
+GCX_OBJECT
+]
 =
-JSVAL_TO_OBJECT
+JSVAL_TO_GCTHING
 (
 v
 )
