@@ -18310,7 +18310,7 @@ if
 inliningDepth
 >
 =
-2
+3
 )
 return
 false
