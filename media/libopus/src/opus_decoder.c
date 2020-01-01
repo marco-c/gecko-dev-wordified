@@ -3776,11 +3776,6 @@ ch
 )
 {
 int
-padding
-=
-0
-;
-int
 p
 ;
 do
@@ -3806,8 +3801,8 @@ len
 -
 -
 ;
-padding
-+
+len
+-
 =
 p
 =
@@ -3826,11 +3821,6 @@ p
 =
 255
 )
-;
-len
--
-=
-padding
 ;
 }
 if
