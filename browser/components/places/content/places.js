@@ -2413,6 +2413,8 @@ selectedNode
 itemId
 )
 .
+root
+.
 childCount
 ;
 statusText

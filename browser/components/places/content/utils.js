@@ -4751,7 +4751,7 @@ index
 *
 Generates
 a
-HistoryResultNode
+nsINavHistoryResult
 for
 the
 contents
@@ -4842,7 +4842,7 @@ true
 *
 returns
 A
-HistoryContainerResultNode
+nsINavHistoryResult
 containing
 the
 contents
@@ -4851,8 +4851,10 @@ the
 *
 folder
 .
-This
-container
+The
+result
+.
+root
 is
 guaranteed
 to
@@ -4950,13 +4952,15 @@ containerOpen
 =
 true
 ;
-return
 asContainer
 (
 result
 .
 root
 )
+;
+return
+result
 ;
 }
 /
