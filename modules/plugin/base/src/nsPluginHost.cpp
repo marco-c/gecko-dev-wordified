@@ -30140,6 +30140,16 @@ PluginCrashed
 )
 ;
 }
+instancetag
+-
+>
+mInstance
+-
+>
+Stop
+(
+)
+;
 *
 pinstancetag
 =
