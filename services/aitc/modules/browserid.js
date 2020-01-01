@@ -236,7 +236,9 @@ repository
 getLogger
 (
 "
-Services
+Service
+.
+AITC
 .
 BrowserID
 "
