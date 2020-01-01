@@ -2011,6 +2011,10 @@ aKidFrame
 nsHTMLReflowMetrics
 &
 aDesiredSize
+const
+nsRect
+&
+aOriginalKidRect
 )
 ;
 void
