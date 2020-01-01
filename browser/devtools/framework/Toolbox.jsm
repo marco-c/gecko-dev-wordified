@@ -3793,6 +3793,11 @@ toolId
 ;
 if
 (
+radio
+)
+{
+if
+(
 this
 .
 _currentToolId
@@ -3862,11 +3867,6 @@ nextToolName
 ;
 }
 }
-if
-(
-radio
-)
-{
 radio
 .
 parentNode
