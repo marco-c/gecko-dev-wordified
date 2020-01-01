@@ -5158,8 +5158,11 @@ NON_NATIVE
 ;
 }
 const
-HeapPtrShape
-&
+js
+:
+:
+Shape
+*
 previous
 (
 )
