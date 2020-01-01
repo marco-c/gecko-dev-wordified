@@ -170,15 +170,6 @@ aInfo
 aInfo
 -
 >
-type
-(
-)
-=
-FM_RADIO_COUNTRY_UNKNOWN
-;
-aInfo
--
->
 upperLimit
 (
 )
