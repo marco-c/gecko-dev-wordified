@@ -2773,10 +2773,10 @@ if
 we
 could
 override
-IsOpaque
+GetOpaqueRegion
 to
 return
-false
+nonempty
 here
 /
 /
@@ -2819,7 +2819,7 @@ opaque
 video
 frame
 when
-IsOpaque
+GetOpaqueRegion
 is
 called
 but

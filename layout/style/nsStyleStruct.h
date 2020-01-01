@@ -2051,7 +2051,7 @@ time
 -
 alternatively
 until
-IsOpaque
+GetOpaqueRegion
 (
 )
 /
