@@ -1104,8 +1104,6 @@ currDot
 /
 Check
 the
-Content
--
 Access
 -
 Control
@@ -1128,8 +1126,6 @@ GetResponseHeader
 NS_LITERAL_CSTRING
 (
 "
-Content
--
 Access
 -
 Control
