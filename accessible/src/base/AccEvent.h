@@ -600,7 +600,7 @@ mAccessible
 ;
 friend
 class
-NotificationController
+EventQueue
 ;
 friend
 class
@@ -781,7 +781,7 @@ mIsEnabled
 ;
 friend
 class
-NotificationController
+EventQueue
 ;
 }
 ;
@@ -929,7 +929,7 @@ mModifiedText
 ;
 friend
 class
-NotificationController
+EventQueue
 ;
 friend
 class
@@ -1111,7 +1111,7 @@ mTextChangeEvent
 ;
 friend
 class
-NotificationController
+EventQueue
 ;
 }
 ;
@@ -1238,7 +1238,7 @@ mPrevSibling
 ;
 friend
 class
-NotificationController
+EventQueue
 ;
 }
 ;
@@ -1544,7 +1544,7 @@ mDependentEvents
 ;
 friend
 class
-NotificationController
+EventQueue
 ;
 }
 ;
@@ -1661,7 +1661,7 @@ mCaretOffset
 ;
 friend
 class
-NotificationController
+EventQueue
 ;
 }
 ;
@@ -1785,7 +1785,7 @@ mPackedEvent
 ;
 friend
 class
-NotificationController
+EventQueue
 ;
 }
 ;

@@ -2997,6 +2997,10 @@ mNotificationController
 ;
 friend
 class
+EventQueue
+;
+friend
+class
 NotificationController
 ;
 private
