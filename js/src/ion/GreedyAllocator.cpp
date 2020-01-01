@@ -5752,7 +5752,7 @@ i
 ;
 i
 <
-RegisterCodes
+Registers
 :
 :
 Total
@@ -5799,7 +5799,7 @@ i
 ;
 i
 <
-FloatRegisterCodes
+FloatRegisters
 :
 :
 Total
@@ -5869,7 +5869,7 @@ moves
 {
 LInstruction
 *
-before
+after
 =
 *
 rightblock
@@ -5890,10 +5890,10 @@ restores
 moves
 -
 >
-toInstructionsBefore
+toInstructionsAfter
 (
 rightblock
-before
+after
 tempSlot
 )
 )
