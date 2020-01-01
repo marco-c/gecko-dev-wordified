@@ -167,6 +167,9 @@ class
 nsCOMArray
 ;
 class
+nsIMemoryReporter
+;
+class
 XPTHeader
 ;
 class
@@ -555,6 +558,12 @@ mWorkingSet
 ;
 Mutex
 mResolveLock
+;
+nsCOMPtr
+<
+nsIMemoryReporter
+>
+mReporter
 ;
 }
 ;

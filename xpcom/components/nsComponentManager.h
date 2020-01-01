@@ -313,10 +313,10 @@ struct
 nsFactoryEntry
 ;
 class
-nsIServiceManager
+nsIMemoryReporter
 ;
 class
-nsIMemoryReporter
+nsIServiceManager
 ;
 struct
 PRThread
@@ -1613,8 +1613,10 @@ nsComponentManagerImpl
 (
 )
 ;
+nsCOMPtr
+<
 nsIMemoryReporter
-*
+>
 mReporter
 ;
 }
