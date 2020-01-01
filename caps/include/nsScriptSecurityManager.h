@@ -1953,7 +1953,13 @@ principal
 ClassInfoData
 &
 aClassData
+JS
+:
+:
+Handle
+<
 jsid
+>
 aProperty
 uint32_t
 aAction
