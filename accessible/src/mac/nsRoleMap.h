@@ -1221,6 +1221,10 @@ NSAccessibilityGroupRole
 /
 /
 ROLE_FIGURE
+NSAccessibilityCheckBoxRole
+/
+/
+ROLE_CHECK_RICH_OPTION
 "
 ROLE_LAST_ENTRY
 "
