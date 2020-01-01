@@ -9862,7 +9862,7 @@ mScriptLoader
 mScriptLoader
 -
 >
-EndDeferringScripts
+ParsingComplete
 (
 aTerminated
 )
