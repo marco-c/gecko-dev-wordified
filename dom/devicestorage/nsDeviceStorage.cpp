@@ -492,6 +492,7 @@ endif
 #
 define
 DEVICESTORAGE_PROPERTIES
+\
 "
 chrome
 :
@@ -2767,6 +2768,8 @@ mStorageName
 %
 s
 '
+"
+"
 mRootDir
 '
 %
@@ -3984,6 +3987,8 @@ need
 to
 update
 mPath
+/
+/
 to
 reflect
 that
@@ -9914,14 +9919,16 @@ without
 IPDL
 '
 s
+/
+/
 knowledge
 .
-/
-/
 Corresponding
 release
 occurs
 in
+/
+/
 DeallocPContentPermissionRequest
 .
 AddRef
@@ -15214,6 +15221,8 @@ volume
 that
 actually
 changed
+/
+/
 state
 .
 nsCOMPtr
