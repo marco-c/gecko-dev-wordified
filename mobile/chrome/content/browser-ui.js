@@ -6935,10 +6935,7 @@ lm
 .
 removeLogin
 (
-siteLogins
-[
-i
-]
+login
 )
 ;
 }
