@@ -142,7 +142,7 @@ returnHeavy
 o
 )
 '
-parent
+fun_callscope
 ;
 y
 '
@@ -160,7 +160,11 @@ returnHeavy
 o
 )
 '
-parent
+fun_callscope
+;
+shape
+;
+base
 ;
 parent
 '
@@ -211,7 +215,7 @@ returnBlock
 o
 )
 '
-parent
+fun_callscope
 ;
 w
 '
@@ -251,7 +255,7 @@ returnWithObj
 o
 )
 '
-parent
+fun_callscope
 ;
 type
 ;

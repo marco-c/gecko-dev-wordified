@@ -130,6 +130,10 @@ referencesVia
 (
 o
 '
+shape
+;
+base
+;
 parent
 '
 this
@@ -240,7 +244,8 @@ p
 '
 shape
 ;
-a
+base
+;
 getter
 '
 g
@@ -256,7 +261,8 @@ p
 '
 shape
 ;
-a
+base
+;
 setter
 '
 s
@@ -336,7 +342,8 @@ p
 '
 shape
 ;
-a
+base
+;
 getter
 '
 g
@@ -352,7 +359,8 @@ q
 '
 shape
 ;
-a
+base
+;
 getter
 '
 g
@@ -412,7 +420,10 @@ p
 '
 shape
 ;
-a
+parent
+;
+base
+;
 getter
 '
 g
@@ -428,7 +439,10 @@ q
 '
 shape
 ;
-a
+parent
+;
+base
+;
 getter
 '
 g
