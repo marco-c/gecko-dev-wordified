@@ -25273,13 +25273,10 @@ JSOP_GETELEM
 )
 |
 |
+js_CurrentPCIsInImacro
+(
 cx
--
->
-fp
--
->
-imacpc
+)
 )
 {
 return
