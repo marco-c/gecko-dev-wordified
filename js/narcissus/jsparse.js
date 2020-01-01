@@ -3576,7 +3576,7 @@ vds
 }
 ;
 function
-CompilerContext
+StaticContext
 (
 inFunction
 builder
@@ -3640,7 +3640,7 @@ varDecls
 ]
 ;
 }
-CompilerContext
+StaticContext
 .
 prototype
 =
@@ -7713,7 +7713,7 @@ var
 x2
 =
 new
-CompilerContext
+StaticContext
 (
 true
 b
@@ -8114,7 +8114,7 @@ x2
 x2
 =
 new
-CompilerContext
+StaticContext
 (
 true
 b
@@ -13303,7 +13303,7 @@ var
 x
 =
 new
-CompilerContext
+StaticContext
 (
 false
 b
