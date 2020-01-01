@@ -20051,7 +20051,7 @@ bindingIsArg
 (
 sc
 .
-binding
+frameBinding
 )
 )
 frame
@@ -20067,7 +20067,7 @@ bindingToArg
 (
 sc
 .
-binding
+frameBinding
 )
 )
 ;
@@ -20085,7 +20085,7 @@ bindingToLocal
 (
 sc
 .
-binding
+frameBinding
 )
 )
 ;
@@ -20293,7 +20293,7 @@ bindingIsArg
 (
 sc
 .
-binding
+frameBinding
 )
 )
 frame
@@ -20309,7 +20309,7 @@ bindingToArg
 (
 sc
 .
-binding
+frameBinding
 )
 pop
 )
@@ -20328,7 +20328,7 @@ bindingToLocal
 (
 sc
 .
-binding
+frameBinding
 )
 pop
 )
