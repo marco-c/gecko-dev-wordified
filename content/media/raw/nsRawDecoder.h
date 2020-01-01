@@ -91,9 +91,6 @@ Clone
 if
 (
 !
-nsHTMLMediaElement
-:
-:
 IsRawEnabled
 (
 )

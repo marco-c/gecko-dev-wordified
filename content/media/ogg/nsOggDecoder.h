@@ -147,9 +147,6 @@ Clone
 if
 (
 !
-nsHTMLMediaElement
-:
-:
 IsOggEnabled
 (
 )

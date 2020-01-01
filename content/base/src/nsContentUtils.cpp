@@ -36854,7 +36854,7 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 IsMediaPluginsEnabled
