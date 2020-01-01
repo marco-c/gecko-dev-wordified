@@ -7348,9 +7348,9 @@ _retval
 {
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
-targetNode
+targetContent
 (
 do_QueryInterface
 (
@@ -7361,7 +7361,7 @@ mTarget
 if
 (
 !
-targetNode
+targetContent
 )
 {
 /
@@ -7421,7 +7421,7 @@ nsIDocument
 >
 document
 =
-targetNode
+targetContent
 -
 >
 GetOwnerDoc
@@ -7502,7 +7502,7 @@ nsEventDispatcher
 :
 DispatchDOMEvent
 (
-targetNode
+targetContent
 nsnull
 aEvent
 context
