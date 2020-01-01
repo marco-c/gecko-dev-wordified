@@ -2673,7 +2673,6 @@ zero
 /
 /
 and
-is
 negative
 zero
 .
