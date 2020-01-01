@@ -394,7 +394,7 @@ namespace
 dom
 {
 namespace
-sms
+mobilemessage
 {
 struct
 SmsFilterData
@@ -406,7 +406,7 @@ SmsSegmentInfoData
 /
 /
 namespace
-sms
+mobilemessage
 }
 /
 /
@@ -1706,7 +1706,7 @@ aText
 dom
 :
 :
-sms
+mobilemessage
 :
 :
 SmsSegmentInfoData
@@ -1757,7 +1757,7 @@ const
 dom
 :
 :
-sms
+mobilemessage
 :
 :
 SmsFilterData

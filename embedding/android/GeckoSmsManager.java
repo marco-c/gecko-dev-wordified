@@ -1582,7 +1582,7 @@ defined
 in
 dom
 /
-sms
+mobilemessage
 /
 interfaces
 /
@@ -1724,7 +1724,7 @@ in
 *
 dom
 /
-sms
+mobilemessage
 /
 src
 /
@@ -1784,7 +1784,7 @@ in
 *
 dom
 /
-sms
+mobilemessage
 /
 src
 /
@@ -1905,7 +1905,7 @@ in
 *
 dom
 /
-sms
+mobilemessage
 /
 src
 /

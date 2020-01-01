@@ -903,7 +903,7 @@ mozilla
 dom
 :
 :
-sms
+mobilemessage
 ;
 using
 namespace
