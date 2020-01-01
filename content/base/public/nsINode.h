@@ -11957,7 +11957,9 @@ NS_INODE_IID
 define
 NS_FORWARD_NSIDOMNODE_TO_NSINODE_HELPER
 (
-_final
+.
+.
+.
 )
 \
 NS_IMETHOD
@@ -11967,7 +11969,7 @@ nsAString
 &
 aNodeName
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -11993,7 +11995,7 @@ nsAString
 &
 aNodeValue
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12020,7 +12022,7 @@ nsAString
 &
 aNodeValue
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12058,7 +12060,7 @@ uint16_t
 *
 aNodeType
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12087,7 +12089,7 @@ nsIDOMNode
 *
 aParentNode
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12111,7 +12113,7 @@ nsIDOMElement
 *
 aParentElement
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12135,7 +12137,7 @@ nsIDOMNodeList
 *
 aChildNodes
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12159,7 +12161,7 @@ nsIDOMNode
 *
 aFirstChild
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12183,7 +12185,7 @@ nsIDOMNode
 *
 aLastChild
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12207,7 +12209,7 @@ nsIDOMNode
 *
 aPreviousSibling
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12231,7 +12233,7 @@ nsIDOMNode
 *
 aNextSibling
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12255,7 +12257,7 @@ nsIDOMNamedNodeMap
 *
 aAttributes
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12279,7 +12281,7 @@ nsIDOMDocument
 *
 aOwnerDocument
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12309,7 +12311,7 @@ nsIDOMNode
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12339,7 +12341,7 @@ nsIDOMNode
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12366,7 +12368,7 @@ nsIDOMNode
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12394,7 +12396,7 @@ nsIDOMNode
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12416,7 +12418,7 @@ bool
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12449,7 +12451,7 @@ nsIDOMNode
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12541,7 +12543,7 @@ NS_IMETHOD
 Normalize
 (
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12574,7 +12576,7 @@ bool
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12604,7 +12606,7 @@ nsAString
 &
 aNamespaceURI
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12642,7 +12644,7 @@ nsAString
 &
 aPrefix
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12668,7 +12670,7 @@ nsAString
 &
 aLocalName
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12701,7 +12703,7 @@ bool
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12729,7 +12731,7 @@ nsAString
 &
 aBaseURI
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12758,7 +12760,7 @@ uint16_t
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12782,7 +12784,7 @@ nsAString
 &
 aTextContent
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12809,7 +12811,7 @@ nsAString
 &
 aTextContent
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12851,7 +12853,7 @@ nsAString
 &
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12882,7 +12884,7 @@ bool
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12915,7 +12917,7 @@ nsAString
 &
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12945,7 +12947,7 @@ bool
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -12980,7 +12982,7 @@ nsIVariant
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -13011,7 +13013,7 @@ nsIVariant
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
@@ -13038,7 +13040,7 @@ bool
 *
 aResult
 )
-_final
+__VA_ARGS__
 \
 {
 \
