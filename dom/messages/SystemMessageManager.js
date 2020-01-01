@@ -535,6 +535,9 @@ wrapper
 wrapMessage
 (
 aMessage
+this
+.
+_window
 )
 ;
 wrapped

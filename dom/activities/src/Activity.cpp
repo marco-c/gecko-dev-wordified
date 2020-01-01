@@ -357,6 +357,7 @@ StartActivity
 (
 this
 options
+window
 )
 ;
 return
