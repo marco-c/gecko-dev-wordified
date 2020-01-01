@@ -543,6 +543,19 @@ Arguments
 {
 struct
 {
+void
+*
+ptr
+;
+void
+*
+ptr2
+;
+}
+x
+;
+struct
+{
 uint32
 lazyArgsObj
 ;
@@ -2971,7 +2984,7 @@ the
 outer
 JSStackFrame
 .
-uint32
+int32
 offset
 ;
 bool
@@ -2991,7 +3004,7 @@ knownType
 ;
 union
 {
-uint32
+int32
 copiedOffset
 ;
 Value
