@@ -2284,7 +2284,7 @@ of
 two
 BLOCK_SIZE
 =
-4096
+32768
 }
 ;
 enum
