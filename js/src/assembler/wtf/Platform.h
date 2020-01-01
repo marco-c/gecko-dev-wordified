@@ -5385,8 +5385,6 @@ x64
 -
 64
 ARM
-&
-MIPS
 platforms
 .
 *
@@ -5409,9 +5407,6 @@ WTF_CPU_X86_64
 |
 |
 WTF_CPU_ARM
-|
-|
-WTF_CPU_MIPS
 |
 |
 WTF_CPU_SPARC32
