@@ -5149,6 +5149,9 @@ JSBool
 ok
 hasMagic
 ;
+jsint
+execDepth
+;
 if
 (
 !
