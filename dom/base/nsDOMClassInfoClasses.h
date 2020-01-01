@@ -1452,6 +1452,10 @@ MozURLProperty
 )
 DOMCI_CLASS
 (
+MozBlobBuilder
+)
+DOMCI_CLASS
+(
 DOMStringMap
 )
 /
@@ -1685,6 +1689,10 @@ MathMLElement
 WebGL
 DOMCI_CLASS
 (
+WebGLRenderingContext
+)
+DOMCI_CLASS
+(
 WebGLBuffer
 )
 DOMCI_CLASS
@@ -1909,6 +1917,15 @@ MozIccManager
 DOMCI_CLASS
 (
 MozStkCommandEvent
+)
+#
+endif
+#
+ifdef
+MOZ_B2G_FM
+DOMCI_CLASS
+(
+FMRadio
 )
 #
 endif
