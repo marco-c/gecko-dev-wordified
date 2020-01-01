@@ -575,7 +575,7 @@ helper
 const
 LOAD_FAILURE_TIMEOUT
 =
-10000
+30000
 ;
 /
 /
