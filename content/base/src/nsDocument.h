@@ -4540,7 +4540,7 @@ nsTArray
 <
 nsCString
 >
-mFileDataUris
+mHostObjectURIs
 ;
 /
 /
@@ -4735,7 +4735,7 @@ GetDocumentState
 ;
 virtual
 void
-RegisterFileDataUri
+RegisterHostObjectUri
 (
 const
 nsACString
@@ -4745,7 +4745,7 @@ aUri
 ;
 virtual
 void
-UnregisterFileDataUri
+UnregisterHostObjectUri
 (
 const
 nsACString
