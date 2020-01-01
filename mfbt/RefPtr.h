@@ -406,8 +406,7 @@ by
 refcount
 =
 =
--
-0xdead
+0xffffdead
 .
 This
 *
@@ -435,8 +434,7 @@ destroy
 refcount
 =
 =
--
-0xdead
+0xffffdead
 )
 .
 *
@@ -456,7 +454,7 @@ RefPtr
 T
 >
 ;
-public
+protected
 :
 RefCounted
 (
@@ -478,11 +476,12 @@ MOZ_ASSERT
 refCnt
 =
 =
--
-0xdead
+0xffffdead
 )
 ;
 }
+public
+:
 /
 /
 Compatibility
@@ -534,8 +533,7 @@ ifdef
 DEBUG
 refCnt
 =
--
-0xdead
+0xffffdead
 ;
 #
 endif
