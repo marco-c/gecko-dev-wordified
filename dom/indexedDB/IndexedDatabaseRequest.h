@@ -508,7 +508,8 @@ Create
 IndexedDatabaseRequest
 (
 )
-;
+{
+}
 }
 ;
 END_INDEXEDDB_NAMESPACE
