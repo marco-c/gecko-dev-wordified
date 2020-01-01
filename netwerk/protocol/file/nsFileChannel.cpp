@@ -2748,7 +2748,7 @@ const
 nsACString
 &
 contentType
-int32_t
+int64_t
 contentLength
 )
 {
