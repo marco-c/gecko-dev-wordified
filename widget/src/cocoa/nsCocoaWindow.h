@@ -1138,7 +1138,7 @@ Starts
 out
 /
 /
-PR_FALSE
+false
 .
 bool
 mToplevelActiveState
