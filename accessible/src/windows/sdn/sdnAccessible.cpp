@@ -130,13 +130,6 @@ c
 #
 include
 "
-nsAccessNodeWrap
-.
-h
-"
-#
-include
-"
 DocAccessibleWrap
 .
 h

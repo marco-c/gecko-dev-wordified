@@ -126,6 +126,13 @@ h
 #
 include
 "
+IUnknownImpl
+.
+h
+"
+#
+include
+"
 nsIAccessibleRelation
 .
 h

@@ -1485,6 +1485,9 @@ mDocFlags
 eTabDocument
 )
 {
+nsWinUtils
+:
+:
 sHWNDCache
 .
 Remove
@@ -1969,6 +1972,9 @@ height
 isActive
 )
 ;
+nsWinUtils
+:
+:
 sHWNDCache
 .
 Put

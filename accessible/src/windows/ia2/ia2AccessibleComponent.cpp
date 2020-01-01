@@ -140,6 +140,13 @@ h
 #
 include
 "
+IUnknownImpl
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h

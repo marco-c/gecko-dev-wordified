@@ -132,9 +132,6 @@ mozilla
 namespace
 a11y
 {
-class
-nsAccessNodeWrap
-;
 /
 *
 *
@@ -325,7 +322,13 @@ mode
 .
 Called
 by
-nsAccessNodeWrap
+platform
+(
+see
+Platform
+.
+h
+)
 during
 *
 accessibility

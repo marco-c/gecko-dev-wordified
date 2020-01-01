@@ -948,7 +948,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 return
-nsAccessNodeWrap
+nsAccessNode
 :
 :
 QueryInterface
@@ -971,7 +971,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessNodeWrap
+nsAccessNode
 (
 aContent
 aDoc
@@ -14679,7 +14679,7 @@ RemoveChild
 this
 )
 ;
-nsAccessNodeWrap
+nsAccessNode
 :
 :
 Shutdown

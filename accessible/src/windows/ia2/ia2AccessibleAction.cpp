@@ -130,6 +130,13 @@ AccessibleWrap
 .
 h
 "
+#
+include
+"
+IUnknownImpl
+.
+h
+"
 using
 namespace
 mozilla

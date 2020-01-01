@@ -135,7 +135,7 @@ h
 #
 include
 "
-nsAccessNodeWrap
+nsAccessNode
 .
 h
 "
@@ -485,7 +485,7 @@ class
 Accessible
 :
 public
-nsAccessNodeWrap
+nsAccessNode
 public
 nsIAccessible
 public

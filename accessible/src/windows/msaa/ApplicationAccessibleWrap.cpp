@@ -126,6 +126,13 @@ c
 #
 include
 "
+IUnknownImpl
+.
+h
+"
+#
+include
+"
 nsIGfxInfo
 .
 h
