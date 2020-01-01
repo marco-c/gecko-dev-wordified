@@ -1249,7 +1249,6 @@ nsIRequest
 LOAD_NORMAL
 nullptr
 nullptr
-nullptr
 getter_AddRefs
 (
 mIconRequest
