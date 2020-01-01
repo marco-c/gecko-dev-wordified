@@ -4131,12 +4131,6 @@ n
 )
 ;
 #
-elif
-defined
-(
-JS_CPU_SPARC
-)
-#
 else
 #
 error

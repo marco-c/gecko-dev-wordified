@@ -939,14 +939,9 @@ masm
 .
 convertInt32ToDouble
 (
-masm
-.
-payloadOf
-(
 addressOf
 (
 fe
-)
 )
 fpreg
 )

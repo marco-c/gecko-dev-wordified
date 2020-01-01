@@ -865,7 +865,7 @@ path
 .
 *
 /
-int32
+int
 inlineShapeJump
 :
 10
@@ -882,7 +882,7 @@ jump
 .
 *
 /
-int32
+int
 extraShapeGuard
 :
 6
@@ -960,7 +960,7 @@ preset
 .
 *
 /
-int32
+int
 fastRejoinOffset
 :
 16
@@ -975,7 +975,7 @@ rejoin
 .
 *
 /
-int32
+int
 extraStoreOffset
 :
 16
