@@ -1729,7 +1729,7 @@ if
 styleDisplay
 -
 >
-IsBlockLevel
+IsBlockOutside
 (
 )
 &

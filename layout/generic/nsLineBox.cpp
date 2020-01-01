@@ -661,7 +661,7 @@ GetStyleDisplay
 )
 -
 >
-IsBlockLevel
+IsBlockOutside
 (
 )
 "

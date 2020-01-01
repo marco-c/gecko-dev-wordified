@@ -3030,7 +3030,7 @@ GetStyleDisplay
 )
 -
 >
-IsBlockLevel
+IsBlockOutside
 (
 )
 ;
