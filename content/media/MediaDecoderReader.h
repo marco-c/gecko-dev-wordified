@@ -1966,9 +1966,6 @@ thread
 .
 class
 MediaDecoderReader
-:
-public
-nsRunnable
 {
 public
 :
@@ -1983,6 +1980,11 @@ virtual
 ~
 MediaDecoderReader
 (
+)
+;
+NS_INLINE_DECL_REFCOUNTING
+(
+MediaDecoderReader
 )
 ;
 /
