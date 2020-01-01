@@ -3387,8 +3387,8 @@ sweep
 JSContext
 *
 cx
-uint32
-releaseInterval
+bool
+releaseTypes
 )
 ;
 void
