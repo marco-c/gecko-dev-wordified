@@ -37609,6 +37609,12 @@ if
 mCurrentEventContent
 |
 |
+!
+GetCurrentEventFrame
+(
+)
+|
+|
 InZombieDocument
 (
 mCurrentEventContent
