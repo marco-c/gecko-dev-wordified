@@ -9507,7 +9507,10 @@ mLoadEventType
 this
 )
 ;
-FireDelayedEvent
+nsEventShell
+:
+:
+FireEvent
 (
 loadEvent
 )
@@ -9542,7 +9545,10 @@ BUSY
 false
 )
 ;
-FireDelayedEvent
+nsEventShell
+:
+:
+FireEvent
 (
 stateEvent
 )
