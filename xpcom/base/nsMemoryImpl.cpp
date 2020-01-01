@@ -200,7 +200,7 @@ h
 define
 LOW_MEMORY_THRESHOLD_KB
 (
-256
+512
 *
 1024
 )
@@ -418,7 +418,7 @@ proc
 /
 meminfo
 is
-greater
+less
 than
 LOW_MEMORY_THRESHOLD_KB
 FILE
@@ -498,13 +498,13 @@ sLowMemory
 =
 (
 mem
->
+<
 LOW_MEMORY_THRESHOLD_KB
 )
 ?
-0
-:
 1
+:
+0
 ;
 }
 *
