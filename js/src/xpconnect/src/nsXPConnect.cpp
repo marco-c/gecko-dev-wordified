@@ -6798,6 +6798,19 @@ GetPrototypeJSObject
 )
 ;
 }
+if
+(
+!
+(
+aFlags
+&
+nsIXPConnect
+:
+:
+OMIT_COMPONENTS_OBJECT
+)
+)
+{
 SaveFrame
 sf
 (
@@ -6856,6 +6869,7 @@ UnexpectedFailure
 NS_ERROR_FAILURE
 )
 ;
+}
 NS_ADDREF
 (
 *
