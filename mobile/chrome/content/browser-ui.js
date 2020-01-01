@@ -1560,14 +1560,6 @@ focus
 (
 )
 ;
-this
-.
-_edit
-.
-select
-(
-)
-;
 }
 else
 if
