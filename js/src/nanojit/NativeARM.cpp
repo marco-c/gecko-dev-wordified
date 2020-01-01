@@ -11238,10 +11238,6 @@ _nSlot
 =
 0
 ;
-_startingSlot
-=
-0
-;
 _nExitSlot
 =
 0
@@ -17148,7 +17144,7 @@ lhs
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
