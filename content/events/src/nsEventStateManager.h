@@ -2518,6 +2518,12 @@ mMultiplierY
 COUNT_OF_MULTIPLIERS
 ]
 ;
+double
+mMultiplierZ
+[
+COUNT_OF_MULTIPLIERS
+]
+;
 Action
 mActions
 [
