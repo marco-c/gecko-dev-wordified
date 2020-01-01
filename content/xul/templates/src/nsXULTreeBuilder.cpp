@@ -8688,7 +8688,6 @@ nsTemplateMatch
 :
 Create
 (
-mPool
 aQuerySet
 -
 >
@@ -8805,7 +8804,6 @@ nsTemplateMatch
 :
 Destroy
 (
-mPool
 newmatch
 false
 )
@@ -8852,7 +8850,6 @@ nsTemplateMatch
 :
 Destroy
 (
-mPool
 newmatch
 false
 )
@@ -8895,7 +8892,6 @@ nsTemplateMatch
 :
 Destroy
 (
-mPool
 newmatch
 false
 )
@@ -8935,7 +8931,6 @@ nsTemplateMatch
 :
 Destroy
 (
-mPool
 newmatch
 false
 )
@@ -9334,7 +9329,6 @@ nsTemplateMatch
 :
 Destroy
 (
-mPool
 existingmatch
 true
 )
