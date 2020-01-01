@@ -538,9 +538,6 @@ charCode
 eventObject
 =
 {
-altKey
-:
-true
 ctrlKey
 :
 true
