@@ -15123,7 +15123,14 @@ optimize
 )
 {
 StackFilter
+*
 sf
+=
+new
+(
+alloc
+)
+StackFilter
 (
 lir
 alloc
@@ -15149,7 +15156,6 @@ rp
 ;
 lir
 =
-&
 sf
 ;
 }
@@ -15459,7 +15465,14 @@ optimize
 )
 {
 StackFilter
+*
 stackfilter
+=
+new
+(
+alloc
+)
+StackFilter
 (
 lir
 alloc
@@ -15485,7 +15498,6 @@ rp
 ;
 lir
 =
-&
 stackfilter
 ;
 }
