@@ -21913,6 +21913,10 @@ aStatus
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+mStatus
+=
+aStatus
+;
 /
 *
 *
@@ -21929,10 +21933,13 @@ is
 true
 *
 prevent
-setting
+propagating
 window
 .
 status
+to
+the
+UI
 by
 exiting
 early
@@ -21955,10 +21962,6 @@ return
 NS_OK
 ;
 }
-mStatus
-=
-aStatus
-;
 nsCOMPtr
 <
 nsIWebBrowserChrome
