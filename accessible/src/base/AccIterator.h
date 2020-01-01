@@ -131,9 +131,13 @@ Filters
 .
 h
 "
-class
-nsITreeView
-;
+#
+include
+"
+nsAccessibilityService
+.
+h
+"
 namespace
 mozilla
 {

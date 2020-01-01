@@ -125,6 +125,15 @@ Role
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 using
 namespace
 mozilla

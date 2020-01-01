@@ -223,13 +223,6 @@ h
 #
 include
 "
-nsIBoxObject
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h

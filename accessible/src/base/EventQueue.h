@@ -106,6 +106,9 @@ AccEvent
 .
 h
 "
+class
+nsIContent
+;
 namespace
 mozilla
 {
