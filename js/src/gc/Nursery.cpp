@@ -3236,6 +3236,16 @@ markStoreBuffer
 trc
 )
 ;
+rt
+-
+>
+newObjectCache
+.
+clearNurseryObjects
+(
+rt
+)
+;
 /
 *
 *
