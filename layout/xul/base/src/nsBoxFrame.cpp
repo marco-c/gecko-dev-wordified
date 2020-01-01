@@ -5360,6 +5360,12 @@ if
 (
 mLayoutManager
 )
+{
+CoordNeedsRecalc
+(
+mAscent
+)
+;
 rv
 =
 mLayoutManager
@@ -5371,6 +5377,7 @@ this
 aState
 )
 ;
+}
 aState
 .
 SetLayoutFlags
