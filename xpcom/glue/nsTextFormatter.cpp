@@ -5364,8 +5364,9 @@ return
 1
 ;
 }
+VARARGS_ASSIGN
+(
 ap
-=
 nas
 [
 i
@@ -5374,6 +5375,7 @@ i
 ]
 .
 ap
+)
 ;
 dolPt
 =
