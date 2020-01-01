@@ -2156,7 +2156,8 @@ this
 .
 mode
 =
-UIMODE_CONTROL
+UIMODE_CONTROLS
+;
 pannedUI
 =
 true
