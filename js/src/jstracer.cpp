@@ -68182,8 +68182,6 @@ setter
 "
 )
 ;
-LIns
-*
 v_ins
 =
 get
@@ -68192,10 +68190,16 @@ get
 v
 )
 ;
+LIns
+*
+v_boxed_ins
+=
+v_ins
+;
 box_jsval
 (
 v
-v_ins
+v_boxed_ins
 )
 ;
 LIns
@@ -68205,7 +68209,7 @@ args
 ]
 =
 {
-v_ins
+v_boxed_ins
 INS_CONST
 (
 SPROP_USERID
