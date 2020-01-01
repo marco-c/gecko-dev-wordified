@@ -16255,9 +16255,6 @@ out
 ;
 if
 (
-prefix
-&
-&
 !
 prefix
 -
