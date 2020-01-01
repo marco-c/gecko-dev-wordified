@@ -1671,6 +1671,12 @@ BOOL
 )
 isPluginView
 ;
+-
+(
+BOOL
+)
+isUsingOpenGL
+;
 /
 /
 Simple
