@@ -7394,8 +7394,8 @@ windowRect
 {
 0
 0
-mShWidth
 mShHeight
+mShWidth
 }
 ;
 RecvNPN_InvalidateRect
