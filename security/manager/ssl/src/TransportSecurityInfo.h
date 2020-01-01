@@ -451,9 +451,6 @@ mSubRequestsBrokenSecurity
 int32_t
 mSubRequestsNoSecurity
 ;
-nsString
-mShortDesc
-;
 PRErrorCode
 mErrorCode
 ;
