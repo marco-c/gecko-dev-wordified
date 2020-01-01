@@ -141,6 +141,15 @@ Gecko
 *
 /
 #
+include
+"
+mozilla
+/
+mozalloc
+.
+h
+"
+#
 define
 malloc
 moz_malloc
