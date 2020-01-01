@@ -13347,14 +13347,6 @@ add
 load
 )
 ;
-load
--
->
-setTypeSet
-(
-types
-)
-;
 /
 /
 Slot
