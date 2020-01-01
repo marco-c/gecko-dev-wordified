@@ -8105,7 +8105,7 @@ unknown
 /
 scriptable
 date
-formater
+formatter
 for
 pretty
 printing

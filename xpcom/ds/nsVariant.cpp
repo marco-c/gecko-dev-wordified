@@ -5351,7 +5351,7 @@ has
 its
 own
 text
-formater
+formatter
 .
 case
 nsIDataType
