@@ -15780,10 +15780,7 @@ script
 (
 )
 cfun
-Debugger
-:
-:
-NewHeldScript
+NULL
 )
 ;
 }

@@ -2611,7 +2611,10 @@ template
 class
 DefaultMarkPolicy
 <
-JSObject
+gc
+:
+:
+Cell
 *
 JSObject
 *
@@ -2641,7 +2644,10 @@ t
 bool
 keyMarked
 (
-JSObject
+gc
+:
+:
+Cell
 *
 k
 )
@@ -2681,7 +2687,10 @@ v
 bool
 markEntryIfLive
 (
-JSObject
+gc
+:
+:
+Cell
 *
 k
 JSObject
@@ -2824,7 +2833,10 @@ changes
 typedef
 DefaultMarkPolicy
 <
-JSObject
+gc
+:
+:
+Cell
 *
 JSObject
 *
