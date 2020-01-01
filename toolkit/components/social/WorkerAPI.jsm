@@ -1112,11 +1112,14 @@ browser
 ;
 xulWindow
 .
-openUILink
+openUILinkIn
 (
 nUri
 .
 spec
+"
+tab
+"
 )
 ;
 }
