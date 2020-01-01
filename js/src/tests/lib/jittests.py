@@ -1937,6 +1937,7 @@ run_test
 test
 lib_dir
 shell_args
+options
 )
 :
     
@@ -2111,7 +2112,7 @@ valgrind_prefix
 cmd
     
 if
-OPTIONS
+options
 .
 show_cmd
 :
@@ -2127,7 +2128,7 @@ cmd
 )
     
 if
-OPTIONS
+options
 .
 avoid_stdio
 :
@@ -2179,13 +2180,13 @@ run
 (
 cmd
 env
-OPTIONS
+options
 .
 timeout
 )
     
 if
-OPTIONS
+options
 .
 show_output
 :
@@ -2532,14 +2533,7 @@ fork
 .
     
 global
-OPTIONS
-    
-global
 JS
-    
-OPTIONS
-=
-options
     
 JS
 =
@@ -2571,6 +2565,7 @@ run_test
 test
 lib_dir
 shell_args
+options
 )
 +
 (
@@ -2593,6 +2588,7 @@ tests
 test_dir
 lib_dir
 shell_args
+options
 )
 :
     
@@ -2760,7 +2756,7 @@ len
 (
 tests
 )
-OPTIONS
+options
 JS
 lib_dir
 shell_args
@@ -2891,7 +2887,7 @@ range
 (
 min
 (
-OPTIONS
+options
 .
 max_jobs
 len
@@ -2978,7 +2974,7 @@ testcnt
 lib_dir
 shell_args
 async_test_result_queue
-OPTIONS
+options
 JS
 )
 )
@@ -4038,6 +4034,7 @@ get_serial_results
 tests
 lib_dir
 shell_args
+options
 )
 :
     
@@ -4054,6 +4051,7 @@ run_test
 test
 lib_dir
 shell_args
+options
 )
         
 yield
@@ -4069,6 +4067,7 @@ tests
 test_dir
 lib_dir
 shell_args
+options
 )
 :
     
@@ -4079,6 +4078,7 @@ get_serial_results
 tests
 lib_dir
 shell_args
+options
 )
     
 ok
@@ -4090,7 +4090,7 @@ len
 (
 tests
 )
-OPTIONS
+options
 JS
 lib_dir
 shell_args
@@ -4101,6 +4101,7 @@ ok
 def
 parse_jitflags
 (
+options
 )
 :
     
@@ -4122,7 +4123,7 @@ flags
 for
 flags
 in
-OPTIONS
+options
 .
 jitflags
 .
@@ -4276,9 +4277,6 @@ platform_might_be_android
 JS
 =
 None
-OPTIONS
-=
-None
 def
 main
 (
@@ -4288,7 +4286,6 @@ argv
     
 global
 JS
-OPTIONS
     
 script_path
 =
@@ -5284,10 +5281,8 @@ default
 '
 )
     
-(
-OPTIONS
+options
 args
-)
 =
 op
 .
@@ -5431,31 +5426,31 @@ like
 overkill
 .
         
-OPTIONS
+options
 .
 avoid_stdio
 =
 True
     
 if
-OPTIONS
+options
 .
 retest
 :
         
-OPTIONS
+options
 .
 read_tests
 =
-OPTIONS
+options
 .
 retest
         
-OPTIONS
+options
 .
 write_failures
 =
-OPTIONS
+options
 .
 retest
     
@@ -5492,7 +5487,7 @@ arg
 )
     
 if
-OPTIONS
+options
 .
 read_tests
 :
@@ -5508,7 +5503,7 @@ f
 =
 open
 (
-OPTIONS
+options
 .
 read_tests
 )
@@ -5553,7 +5548,7 @@ IOError
 :
             
 if
-OPTIONS
+options
 .
 retest
 :
@@ -5588,7 +5583,7 @@ n
 "
 %
                                  
-OPTIONS
+options
 .
 read_tests
 )
@@ -5626,7 +5621,7 @@ test_dir
 )
     
 if
-OPTIONS
+options
 .
 exclude
 :
@@ -5639,7 +5634,7 @@ exclude_list
 for
 exclude
 in
-OPTIONS
+options
 .
 exclude
 :
@@ -5710,7 +5705,7 @@ Test
 from_file
 (
 _
-OPTIONS
+options
 )
 for
 _
@@ -5720,7 +5715,7 @@ test_list
     
 if
 not
-OPTIONS
+options
 .
 run_slow
 :
@@ -5763,7 +5758,7 @@ job_list
 ]
     
 if
-OPTIONS
+options
 .
 tbpl
 :
@@ -6004,7 +5999,7 @@ new_test
 )
     
 elif
-OPTIONS
+options
 .
 ion
 :
@@ -6075,6 +6070,7 @@ jitflags_list
 =
 parse_jitflags
 (
+options
 )
         
 for
@@ -6119,13 +6115,13 @@ shlex
 .
 split
 (
-OPTIONS
+options
 .
 shell_args
 )
     
 if
-OPTIONS
+options
 .
 debug
 :
@@ -6232,7 +6228,7 @@ ok
 None
         
 if
-OPTIONS
+options
 .
 max_jobs
 >
@@ -6249,6 +6245,7 @@ job_list
 test_dir
 lib_dir
 shell_args
+options
 )
         
 else
@@ -6262,6 +6259,7 @@ job_list
 test_dir
 lib_dir
 shell_args
+options
 )
         
 if
