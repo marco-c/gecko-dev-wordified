@@ -2695,6 +2695,12 @@ Value
 (
 )
 {
+data
+.
+asBits
+=
+0
+;
 }
 Value
 (
