@@ -12361,7 +12361,6 @@ js_NewString
 cx
 urlChars
 len
-0
 )
 ;
 if
