@@ -351,6 +351,13 @@ NativeState
 (
 )
 ;
+virtual
+bool
+NativelyUnavailable
+(
+)
+const
+;
 /
 /
 Denies

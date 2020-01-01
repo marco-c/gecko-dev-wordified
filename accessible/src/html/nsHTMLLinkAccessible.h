@@ -182,6 +182,13 @@ NativeLinkState
 )
 const
 ;
+virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
 /
 /
 ActionAccessible

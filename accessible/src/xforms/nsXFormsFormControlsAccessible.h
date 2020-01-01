@@ -1168,6 +1168,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 bool
 CanHaveAnonChildren
 (
@@ -1276,6 +1283,13 @@ PRUint64
 NativeState
 (
 )
+;
+virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
 ;
 }
 ;

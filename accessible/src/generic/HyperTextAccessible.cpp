@@ -9344,7 +9344,7 @@ aEndPos
 bool
 isFocusable
 =
-State
+InteractiveState
 (
 )
 &
@@ -9760,7 +9760,7 @@ this
 &
 &
 (
-State
+InteractiveState
 (
 )
 &

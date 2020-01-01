@@ -207,6 +207,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 Relation
 RelationByType
 (

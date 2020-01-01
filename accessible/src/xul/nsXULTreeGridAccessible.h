@@ -679,6 +679,13 @@ NativeState
 (
 )
 ;
+virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
 /
 /
 ActionAccessible

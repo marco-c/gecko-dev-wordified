@@ -621,6 +621,13 @@ NativeState
 (
 )
 ;
+virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
 /
 /
 Widgets
@@ -681,9 +688,10 @@ NativeRole
 ;
 virtual
 PRUint64
-NativeState
+NativeInteractiveState
 (
 )
+const
 ;
 /
 /

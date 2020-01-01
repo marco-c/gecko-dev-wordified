@@ -199,6 +199,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 nsresult
 GetAttributesInternal
 (
