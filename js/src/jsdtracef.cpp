@@ -1590,9 +1590,6 @@ JAVASCRIPT_OBJECT_CREATE
 (
 jsdtrace_filename
 (
-cx
--
->
 fp
 )
 (
@@ -1610,9 +1607,6 @@ obj
 jsdtrace_frame_linenumber
 (
 cx
-cx
--
->
 fp
 )
 )
