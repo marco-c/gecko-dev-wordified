@@ -1725,14 +1725,6 @@ SetTotalBytes
 size
 )
 ;
-mDecoder
--
->
-UpdateBytesDownloaded
-(
-size
-)
-;
 }
 /
 *
@@ -3167,7 +3159,6 @@ nsChannelToPipeListener
 (
 mDecoder
 PR_TRUE
-mOffset
 )
 ;
 NS_ENSURE_TRUE
