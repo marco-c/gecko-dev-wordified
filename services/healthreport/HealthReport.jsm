@@ -88,6 +88,9 @@ PlacesProvider
 ProfileMetadataProvider
 "
 "
+SearchesProvider
+"
+"
 SessionsProvider
 "
 "
