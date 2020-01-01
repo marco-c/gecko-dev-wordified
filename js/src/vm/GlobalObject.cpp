@@ -2414,13 +2414,12 @@ NULL
 if
 (
 !
-JSObject
-:
-:
+throwTypeError
+-
+>
 preventExtensions
 (
 cx
-throwTypeError
 )
 )
 return

@@ -30533,13 +30533,12 @@ true
 }
 ok
 =
-JSObject
-:
-:
+obj
+-
+>
 preventExtensions
 (
 cx
-obj
 )
 ;
 }
