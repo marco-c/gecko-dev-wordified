@@ -819,7 +819,7 @@ aURI
 aReason
 )
 {
-let
+var
 window
 =
 null
@@ -861,7 +861,7 @@ window
 *
 /
 }
-let
+var
 sbs
 =
 Cc
@@ -886,7 +886,7 @@ Ci
 nsIStringBundleService
 )
 ;
-let
+var
 bundle
 =
 sbs
@@ -896,7 +896,7 @@ createBundle
 STRINGBUNDLE_URL
 )
 ;
-let
+var
 xai
 =
 Cc
@@ -944,7 +944,7 @@ for
 most
 of
 these
-let
+var
 arr
 =
 [
@@ -1020,7 +1020,7 @@ name
 )
 ]
 ;
-let
+var
 params
 =
 Cc
@@ -1108,7 +1108,7 @@ aURI
 false
 )
 ;
-let
+var
 ww
 =
 Cc
