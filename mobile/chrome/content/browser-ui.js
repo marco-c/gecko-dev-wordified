@@ -1549,9 +1549,7 @@ this
 .
 _edit
 .
-editor
-.
-selectAll
+select
 (
 )
 ;
