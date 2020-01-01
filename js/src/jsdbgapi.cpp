@@ -9887,10 +9887,10 @@ obj
 ;
 if
 (
+DSLOTS_IS_NOT_NULL
+(
 obj
--
->
-dslots
+)
 )
 {
 nbytes

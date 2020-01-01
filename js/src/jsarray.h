@@ -938,10 +938,10 @@ obj
 )
 ;
 return
+DSLOTS_IS_NOT_NULL
+(
 obj
--
->
-dslots
+)
 ?
 (
 uint32
@@ -980,10 +980,10 @@ obj
 ;
 JS_ASSERT
 (
+DSLOTS_IS_NOT_NULL
+(
 obj
--
->
-dslots
+)
 )
 ;
 obj
