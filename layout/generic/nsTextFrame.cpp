@@ -33350,7 +33350,7 @@ frame
 aData
 -
 >
-Break
+OptionallyBreak
 (
 aRenderingContext
 )
@@ -33489,7 +33489,7 @@ firstChar
 aData
 -
 >
-Break
+ForceBreak
 (
 aRenderingContext
 )
@@ -33631,6 +33631,13 @@ currentLine
 =
 width
 ;
+aData
+-
+>
+atStartOfLine
+=
+PR_FALSE
+;
 if
 (
 wsSignificant
@@ -33677,7 +33684,7 @@ wrapping
 aData
 -
 >
-Break
+OptionallyBreak
 (
 aRenderingContext
 )
@@ -33699,7 +33706,7 @@ wrapping
 aData
 -
 >
-Break
+OptionallyBreak
 (
 aRenderingContext
 )
@@ -33937,6 +33944,13 @@ currentLine
 +
 =
 width
+;
+aData
+-
+>
+atStartOfLine
+=
+PR_FALSE
 ;
 aData
 -
@@ -34307,7 +34321,7 @@ firstChar
 aData
 -
 >
-Break
+ForceBreak
 (
 aRenderingContext
 )

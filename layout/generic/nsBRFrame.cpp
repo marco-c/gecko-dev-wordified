@@ -1431,7 +1431,7 @@ aData
 aData
 -
 >
-Break
+ForceBreak
 (
 aRenderingContext
 )
@@ -1462,7 +1462,7 @@ aData
 aData
 -
 >
-Break
+ForceBreak
 (
 aRenderingContext
 )
