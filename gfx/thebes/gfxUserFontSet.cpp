@@ -272,11 +272,7 @@ static
 uint64_t
 sFontSetGeneration
 =
-LL_INIT
-(
 0
-0
-)
 ;
 /
 /
