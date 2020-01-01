@@ -1497,14 +1497,6 @@ public
 static
 native
 void
-bindWidgetTexture
-(
-)
-;
-public
-static
-native
-void
 scheduleComposite
 (
 )

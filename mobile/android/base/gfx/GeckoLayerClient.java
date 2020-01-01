@@ -963,8 +963,6 @@ int
 tileHeight
 String
 metadata
-boolean
-hasDirectTexture
 )
 {
 Log
@@ -995,11 +993,6 @@ tileWidth
 "
 +
 tileHeight
-+
-"
-"
-+
-hasDirectTexture
 )
 ;
 /
@@ -1072,9 +1065,8 @@ this
 draw
 if
 (
-handleDirectTextureChange
+initializeVirtualLayer
 (
-hasDirectTexture
 )
 )
 {
@@ -1091,9 +1083,9 @@ Cancelling
 draw
 due
 to
-direct
-texture
-change
+virtual
+layer
+initialization
 "
 )
 ;
@@ -2461,10 +2453,8 @@ b
 }
 private
 boolean
-handleDirectTextureChange
+initializeVirtualLayer
 (
-boolean
-hasDirectTexture
 )
 {
 if

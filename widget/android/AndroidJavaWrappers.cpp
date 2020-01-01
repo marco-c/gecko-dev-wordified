@@ -2972,7 +2972,6 @@ lang
 /
 String
 ;
-Z
 )
 Landroid
 /
@@ -5110,8 +5109,6 @@ const
 nsAString
 &
 aMetadata
-bool
-aHasDirectTexture
 )
 {
 NS_ASSERTION
@@ -5199,7 +5196,6 @@ aHeight
 aTileWidth
 aTileHeight
 jMetadata
-aHasDirectTexture
 )
 ;
 if
