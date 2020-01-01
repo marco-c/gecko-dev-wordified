@@ -613,13 +613,6 @@ h
 #
 include
 "
-nsIHTMLToTextSink
-.
-h
-"
-#
-include
-"
 nsILayoutDebugger
 .
 h
@@ -6875,11 +6868,6 @@ text
 /
 plain
 "
-&
-kNS_PLAINTEXTSERIALIZER_CID
-}
-{
-NS_PLAINTEXTSINK_CONTRACTID
 &
 kNS_PLAINTEXTSERIALIZER_CID
 }
