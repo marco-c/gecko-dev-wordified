@@ -1655,6 +1655,16 @@ NS_FAILED
 *
 aErrorCode
 )
+&
+&
+mUnicharData
+-
+>
+GetBufferSize
+(
+)
+>
+mUnicharDataLength
 )
 ;
 mLeftOverBytes
