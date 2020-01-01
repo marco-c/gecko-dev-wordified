@@ -655,9 +655,17 @@ and
 install
 packages
   
+env
+=
 os
 .
 environ
+.
+copy
+(
+)
+  
+env
 .
 pop
 (
@@ -682,6 +690,9 @@ py
 '
 destination
 ]
+env
+=
+env
 )
   
 pip
@@ -711,6 +722,9 @@ install
 ]
 +
 PACKAGES
+env
+=
+env
 )
 if
 __name__
