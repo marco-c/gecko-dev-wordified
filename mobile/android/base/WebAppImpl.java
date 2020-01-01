@@ -1647,9 +1647,7 @@ geckoConnected
 (
 )
 ;
-getLayerView
-(
-)
+mLayerView
 .
 setOverScrollMode
 (
