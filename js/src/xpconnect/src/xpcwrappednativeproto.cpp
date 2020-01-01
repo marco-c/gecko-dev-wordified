@@ -849,6 +849,17 @@ rv
 )
 )
 {
+JS_SetPrivate
+(
+ccx
+mJSProtoObject
+nsnull
+)
+;
+mJSProtoObject
+=
+nsnull
+;
 XPCThrower
 :
 :
