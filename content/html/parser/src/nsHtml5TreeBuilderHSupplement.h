@@ -654,7 +654,6 @@ last
 =
 first
 +
-(
 mElementsSeenInThisAppendBatch
 .
 Length
@@ -662,7 +661,6 @@ Length
 )
 -
 1
-)
 ;
 for
 (
