@@ -558,7 +558,6 @@ L
 "
 upload_file_minidump
 "
-NULL
 report_code
 &
 http_response

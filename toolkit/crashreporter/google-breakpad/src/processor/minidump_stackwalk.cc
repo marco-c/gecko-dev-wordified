@@ -339,11 +339,6 @@ cstdlib
 #
 include
 <
-cstring
->
-#
-include
-<
 string
 >
 #
@@ -3956,7 +3951,7 @@ process_state
 )
 !
 =
-google_breakpad
+MinidumpProcessor
 :
 :
 PROCESS_OK

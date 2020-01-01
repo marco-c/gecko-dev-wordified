@@ -5260,23 +5260,11 @@ string
 path
 )
 ;
-virtual
 ~
 Minidump
 (
 )
 ;
-virtual
-string
-path
-(
-)
-const
-{
-return
-path_
-;
-}
 static
 void
 set_max_streams
@@ -5323,7 +5311,6 @@ return
 max_string_length_
 ;
 }
-virtual
 const
 MDRawHeader
 *
@@ -5393,7 +5380,6 @@ the
 Minidump
 object
 .
-virtual
 bool
 Read
 (
@@ -5448,7 +5434,6 @@ garbage
 parameter
 )
 .
-virtual
 MinidumpThreadList
 *
 GetThreadList

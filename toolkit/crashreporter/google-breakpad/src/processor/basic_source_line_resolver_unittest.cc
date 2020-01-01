@@ -1398,12 +1398,6 @@ instruction
 =
 0x216f
 ;
-StackFrameInfo
-*
-s
-;
-s
-=
 resolver
 .
 FillSourceLineInfo
@@ -1421,9 +1415,6 @@ function_name
 Public2_1
 "
 )
-;
-delete
-s
 ;
 ClearSourceLineInfo
 (
@@ -1476,8 +1467,6 @@ module
 &
 module2
 ;
-s
-=
 resolver
 .
 FillSourceLineInfo
@@ -1495,9 +1484,6 @@ function_name
 Public2_2
 "
 )
-;
-delete
-s
 ;
 ASSERT_FALSE
 (

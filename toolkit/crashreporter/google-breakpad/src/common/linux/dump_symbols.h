@@ -327,11 +327,6 @@ include
 <
 string
 >
-#
-include
-<
-cstdio
->
 namespace
 google_breakpad
 {
@@ -350,9 +345,8 @@ std
 string
 &
 obj_file
-FILE
-*
-sym_file
+int
+sym_fd
 )
 ;
 }

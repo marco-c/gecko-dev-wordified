@@ -790,7 +790,6 @@ supplier_
 )
 {
 string
-symbol_data
 symbol_file
 ;
 SymbolSupplier
@@ -808,8 +807,6 @@ module
 system_info_
 &
 symbol_file
-&
-symbol_data
 )
 ;
 switch
@@ -826,7 +823,7 @@ FOUND
 resolver_
 -
 >
-LoadModuleUsingMapBuffer
+LoadModule
 (
 frame
 -
@@ -837,7 +834,7 @@ module
 code_file
 (
 )
-symbol_data
+symbol_file
 )
 ;
 break
