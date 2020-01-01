@@ -1025,6 +1025,17 @@ NS_THEME_WIN_BROWSER_TAB_BAR_TOOLBOX
 223
 /
 /
+Unified
+toolbar
+on
+the
+Mac
+#
+define
+NS_THEME_MOZ_MAC_UNIFIED_TOOLBAR
+224
+/
+/
 Vista
 glass
 #
