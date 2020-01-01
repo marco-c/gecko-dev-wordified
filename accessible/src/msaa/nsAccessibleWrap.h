@@ -2483,6 +2483,15 @@ nsIAccessible
 aAccessible
 )
 ;
+static
+HWND
+GetHWNDFor
+(
+nsIAccessible
+*
+aAccessible
+)
+;
 /
 *
 *
