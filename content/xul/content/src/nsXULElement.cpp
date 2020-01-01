@@ -12364,8 +12364,10 @@ slots
 >
 mFrameLoader
 =
-new
 nsFrameLoader
+:
+:
+Create
 (
 this
 )
@@ -12376,7 +12378,7 @@ slots
 -
 >
 mFrameLoader
-NS_ERROR_OUT_OF_MEMORY
+NS_OK
 )
 ;
 }
