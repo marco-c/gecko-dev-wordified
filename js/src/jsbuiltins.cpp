@@ -1406,9 +1406,11 @@ if
 (
 slot
 <
-STOBJ_NSLOTS
-(
 obj
+-
+>
+numSlots
+(
 )
 &
 &
@@ -1427,9 +1429,11 @@ JS_ASSERT
 (
 JSVAL_IS_VOID
 (
-STOBJ_GET_SLOT
-(
 obj
+-
+>
+getSlot
+(
 scope
 -
 >

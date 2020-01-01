@@ -7683,9 +7683,11 @@ do
 /
 if
 (
-STOBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 =
 =
@@ -7817,9 +7819,11 @@ With
 /
 if
 (
-STOBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 =
 =

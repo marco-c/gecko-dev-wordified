@@ -951,12 +951,14 @@ v
 )
 &
 &
-STOBJ_GET_CLASS
-(
 JSVAL_TO_OBJECT
 (
 v
 )
+-
+>
+getClass
+(
 )
 =
 =

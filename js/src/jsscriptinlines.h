@@ -591,9 +591,11 @@ index
 ;
 JS_ASSERT
 (
-STOBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 =
 =

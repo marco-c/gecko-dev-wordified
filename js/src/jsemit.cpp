@@ -1488,9 +1488,11 @@ object
 ;
 JS_ASSERT
 (
-STOBJ_GET_CLASS
-(
 blockObj
+-
+>
+getClass
+(
 )
 =
 =
@@ -12053,9 +12055,11 @@ slot
 jsval
 v
 =
-STOBJ_GET_SLOT
-(
 blockObj
+-
+>
+getSlot
+(
 slot
 )
 ;

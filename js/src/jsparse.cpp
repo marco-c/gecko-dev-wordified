@@ -20952,9 +20952,11 @@ if
 slot
 >
 =
-STOBJ_NSLOTS
-(
 blockObj
+-
+>
+numSlots
+(
 )
 &
 &
@@ -20985,9 +20987,11 @@ slot
 +
 1
 ;
-STOBJ_SET_SLOT
-(
 blockObj
+-
+>
+setSlot
+(
 slot
 PRIVATE_TO_JSVAL
 (

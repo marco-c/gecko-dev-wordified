@@ -2839,9 +2839,11 @@ void
 *
 )
 obj
-STOBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 -
 >

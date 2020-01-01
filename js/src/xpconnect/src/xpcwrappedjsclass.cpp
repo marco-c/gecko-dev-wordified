@@ -4876,9 +4876,11 @@ isSystem
 !
 IS_WRAPPER_CLASS
 (
-STOBJ_GET_CLASS
-(
 selfObj
+-
+>
+getClass
+(
 )
 )
 )

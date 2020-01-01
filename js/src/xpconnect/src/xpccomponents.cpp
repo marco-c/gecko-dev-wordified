@@ -19890,9 +19890,11 @@ rval
 {
 if
 (
-STOBJ_GET_CLASS
-(
 sandbox
+-
+>
+getClass
+(
 )
 !
 =
