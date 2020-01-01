@@ -9619,6 +9619,10 @@ have_arm_simd
 FALSE
 ;
 }
+initialized
+=
+TRUE
+;
 }
 else
 {
