@@ -537,7 +537,7 @@ h
 #
 include
 "
-jsarray
+jsapi
 .
 h
 "
@@ -550,6 +550,13 @@ library
 and
 API
 headers
+#
+include
+"
+jsarray
+.
+h
+"
 #
 include
 "

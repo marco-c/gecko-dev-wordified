@@ -1462,6 +1462,7 @@ JS_FinishJSONParse
 (
 cx
 parser
+JSVAL_NULL
 )
 &
 &
