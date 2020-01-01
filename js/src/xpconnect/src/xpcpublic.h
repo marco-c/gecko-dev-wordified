@@ -1681,6 +1681,15 @@ bool
 enabled
 )
 ;
+extern
+bool
+DefineStaticJSVals
+(
+JSContext
+*
+cx
+)
+;
 void
 Register
 (
