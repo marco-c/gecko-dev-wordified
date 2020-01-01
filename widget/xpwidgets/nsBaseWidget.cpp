@@ -11011,6 +11011,9 @@ aShowFocusRings
 #
 ifdef
 ACCESSIBILITY
+a11y
+:
+:
 Accessible
 *
 nsBaseWidget

@@ -915,6 +915,12 @@ to
 nsISelection
 nsRefPtr
 <
+mozilla
+:
+:
+a11y
+:
+:
 HyperTextAccessible
 >
 mLastTextAccessible

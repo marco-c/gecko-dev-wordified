@@ -71,9 +71,6 @@ StandardInteger
 .
 h
 "
-class
-Accessible
-;
 /
 *
 *
@@ -94,6 +91,9 @@ mozilla
 namespace
 a11y
 {
+class
+Accessible
+;
 namespace
 filters
 {

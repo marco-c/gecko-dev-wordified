@@ -185,12 +185,6 @@ private
 :
 friend
 class
-mozilla
-:
-:
-a11y
-:
-:
 Relation
 ;
 nsAutoPtr

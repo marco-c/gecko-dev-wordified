@@ -159,8 +159,6 @@ idx
 ;
 }
 ;
-}
-}
 enum
 EGetTextType
 {
@@ -1649,12 +1647,6 @@ protected
 /
 Accessible
 virtual
-mozilla
-:
-:
-a11y
-:
-:
 ENameValueFlag
 NativeName
 (
@@ -2732,5 +2724,15 @@ this
 nullptr
 ;
 }
+}
+/
+/
+namespace
+a11y
+}
+/
+/
+namespace
+mozilla
 #
 endif

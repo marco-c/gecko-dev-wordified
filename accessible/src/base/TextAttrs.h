@@ -121,9 +121,6 @@ nsStyleConsts
 h
 "
 class
-HyperTextAccessible
-;
-class
 nsIFrame
 ;
 class
@@ -131,9 +128,6 @@ nsIPersistentProperties
 ;
 class
 nsIContent
-;
-class
-Accessible
 ;
 class
 nsDeviceContext
@@ -144,6 +138,12 @@ mozilla
 namespace
 a11y
 {
+class
+Accessible
+;
+class
+HyperTextAccessible
+;
 /
 *
 *

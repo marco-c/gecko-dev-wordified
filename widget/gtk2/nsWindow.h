@@ -1946,6 +1946,12 @@ ifdef
 ACCESSIBILITY
 nsRefPtr
 <
+mozilla
+:
+:
+a11y
+:
+:
 Accessible
 >
 mRootAccessible

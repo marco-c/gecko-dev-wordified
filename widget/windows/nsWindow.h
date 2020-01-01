@@ -1217,6 +1217,12 @@ BlurEventsSuppressed
 #
 ifdef
 ACCESSIBILITY
+mozilla
+:
+:
+a11y
+:
+:
 Accessible
 *
 GetRootAccessible

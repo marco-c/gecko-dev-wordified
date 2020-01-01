@@ -186,6 +186,13 @@ nsString
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 #
 define
 TABLECELL_INTERFACE_UNSUPPORTED_MSG

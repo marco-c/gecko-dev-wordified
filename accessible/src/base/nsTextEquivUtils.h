@@ -292,6 +292,16 @@ nsTextEquivUtils
 {
 public
 :
+typedef
+mozilla
+:
+:
+a11y
+:
+:
+Accessible
+Accessible
+;
 /
 *
 *

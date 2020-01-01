@@ -101,6 +101,12 @@ type
 for
 convenience
 .
+mozilla
+:
+:
+a11y
+:
+:
 HyperTextAccessible
 *
 mGeckoTextAccessible
