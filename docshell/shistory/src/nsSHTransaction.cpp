@@ -1114,6 +1114,11 @@ nsISHTransaction
 aNext
 )
 {
+if
+(
+aNext
+)
+{
 NS_ENSURE_SUCCESS
 (
 aNext
@@ -1126,6 +1131,7 @@ this
 NS_ERROR_FAILURE
 )
 ;
+}
 mNext
 =
 aNext
