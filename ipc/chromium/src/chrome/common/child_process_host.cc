@@ -821,9 +821,14 @@ CHILD_PROCESS_HOST_DISCONNECTED
 ;
 #
 endif
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 delete
 this
 ;
+#
+endif
 }
 ChildProcessHost
 :
