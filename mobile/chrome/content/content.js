@@ -6149,16 +6149,6 @@ aState
 .
 linkProtocol
 ;
-dump
-(
-protocol
-+
-"
-\
-n
-"
-)
-;
 return
 (
 protocol
