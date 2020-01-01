@@ -779,15 +779,6 @@ false
 means
 grayscale
 PRInt32
-mPaperSize
-;
-/
-/
-see
-page
-size
-consts
-PRInt32
 mOrientation
 ;
 /
