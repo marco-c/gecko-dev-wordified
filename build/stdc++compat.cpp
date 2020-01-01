@@ -681,9 +681,6 @@ long
 long
 )
 ;
-#
-ifdef
-DEBUG
 template
 ostream
 &
@@ -697,8 +694,6 @@ void
 *
 )
 ;
-#
-endif
 template
 ostream
 &
