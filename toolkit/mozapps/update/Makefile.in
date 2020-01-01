@@ -435,6 +435,10 @@ public
 src
 ifdef
 ENABLE_TESTS
+DIRS
++
+=
+test_timermanager
 #
 Update
 tests

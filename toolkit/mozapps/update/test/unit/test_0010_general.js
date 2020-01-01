@@ -445,6 +445,10 @@ n
 "
 )
 ;
+removeUpdateDirsAndFiles
+(
+)
+;
 var
 testFile
 =
