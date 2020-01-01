@@ -3873,7 +3873,7 @@ _annoSvc
 getItemAnnotation
 (
 folderNode
-OUTGOING_SHARE_ANNO
+OUTGOING_SHARED_ANNO
 )
 ;
 /
@@ -4000,7 +4000,7 @@ _annoSvc
 setItemAnnotation
 (
 folderNode
-OUTGOING_SHARE_ANNO
+OUTGOING_SHARED_ANNO
 "
 "
 0
@@ -6793,7 +6793,7 @@ command
 .
 data
 .
-outgoingShareAnno
+outgoingSharedAnno
 !
 =
 undefined
@@ -6806,12 +6806,12 @@ _ans
 setItemAnnotation
 (
 newId
-OUTGOING_SHARE_ANNO
+OUTGOING_SHARED_ANNO
 command
 .
 data
 .
-outgoingShareAnno
+outgoingSharedAnno
 0
 this
 .
@@ -7018,12 +7018,12 @@ _ans
 setItemAnnotation
 (
 newId
-INCOMING_SHARE_ANNO
+INCOMING_SHARED_ANNO
 command
 .
 data
 .
-username
+incomingSharedAnno
 0
 this
 .
@@ -7044,7 +7044,7 @@ command
 .
 data
 .
-serverPath
+serverPathAnno
 0
 this
 .
@@ -8012,7 +8012,7 @@ break
 ;
 case
 "
-outgoingShareAnno
+outgoingSharedAnno
 "
 :
 this
@@ -8022,12 +8022,12 @@ _ans
 setItemAnnotation
 (
 itemId
-OUTGOING_SHARE_ANNO
+OUTGOING_SHARED_ANNO
 command
 .
 data
 .
-outgoingShareAnno
+outgoingSharedAnno
 0
 this
 .
@@ -8040,7 +8040,7 @@ break
 ;
 case
 "
-incomingShareAnno
+incomingSharedAnno
 "
 :
 this
@@ -8050,12 +8050,12 @@ _ans
 setItemAnnotation
 (
 itemId
-INCOMING_SHARE_ANNO
+INCOMING_SHARED_ANNO
 command
 .
 data
 .
-incomingShareAnno
+incomingSharedAnno
 0
 this
 .
@@ -8346,7 +8346,7 @@ itemHasAnnotation
 node
 .
 itemId
-INCOMING_SHARE_ANNO
+INCOMING_SHARED_ANNO
 )
 )
 {
@@ -8419,7 +8419,7 @@ title
 ;
 item
 .
-serverPath
+serverPathAnno
 =
 this
 .
@@ -8435,7 +8435,7 @@ SERVER_PATH_ANNO
 ;
 item
 .
-username
+incomingSharedAnno
 =
 this
 .
@@ -8446,7 +8446,7 @@ getItemAnnotation
 node
 .
 itemId
-INCOMING_SHARE_ANNO
+INCOMING_SHARED_ANNO
 )
 ;
 }
@@ -8498,7 +8498,7 @@ itemHasAnnotation
 node
 .
 itemId
-OUTGOING_SHARE_ANNO
+OUTGOING_SHARED_ANNO
 )
 )
 {
@@ -8520,7 +8520,7 @@ SERVER_PATH_ANNO
 ;
 item
 .
-outgoingShareAnno
+outgoingSharedAnno
 =
 this
 .
@@ -8531,7 +8531,7 @@ getItemAnnotation
 node
 .
 itemId
-OUTGOING_SHARE_ANNO
+OUTGOING_SHARED_ANNO
 )
 ;
 }
