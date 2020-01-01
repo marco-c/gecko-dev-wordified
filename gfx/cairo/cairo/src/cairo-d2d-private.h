@@ -608,7 +608,7 @@ false
 )
 textRenderingInit
 (
-true
+false
 )
 {
 _cairo_clip_init

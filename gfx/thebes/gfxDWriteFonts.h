@@ -673,6 +673,13 @@ CairoScaledFont
 (
 )
 ;
+gfxFloat
+MeasureGlyphWidth
+(
+PRUint16
+aGlyph
+)
+;
 static
 void
 DestroyBlobFunc
