@@ -1106,11 +1106,6 @@ XUL_MODULES
 \
 MODULE
 (
-xpconnect
-)
-\
-MODULE
-(
 nsUConvModule
 )
 \
@@ -1145,11 +1140,6 @@ ZIPWRITER_MODULE
 MODULE
 (
 nsPrefModule
-)
-\
-MODULE
-(
-nsSecurityManagerModule
 )
 \
 RDF_MODULES
