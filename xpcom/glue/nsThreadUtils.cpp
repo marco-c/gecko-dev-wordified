@@ -939,11 +939,16 @@ NS_GetCurrentThread
 (
 )
 ;
-NS_ENSURE_STATE
+if
 (
+!
 thread
 )
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 #
 else
 nsCOMPtr
