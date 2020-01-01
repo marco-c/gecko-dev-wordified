@@ -937,6 +937,9 @@ class
 PostMessageEvent
 ;
 class
+nsRunnable
+;
+class
 nsDOMOfflineResourceList
 ;
 class
@@ -1669,6 +1672,14 @@ event
 void
 ReallyCloseWindow
 (
+)
+;
+void
+ReallyClearScope
+(
+nsRunnable
+*
+aRunnable
 )
 ;
 /
