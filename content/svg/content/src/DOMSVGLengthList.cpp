@@ -614,6 +614,10 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 DOMSVGLengthList
 )
 }
+/
+/
+namespace
+mozilla
 DOMCI_DATA
 (
 SVGLengthList

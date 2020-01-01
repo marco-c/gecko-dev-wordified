@@ -500,6 +500,10 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 DOMSVGAnimatedLengthList
 )
 }
+/
+/
+namespace
+mozilla
 DOMCI_DATA
 (
 SVGAnimatedLengthList
