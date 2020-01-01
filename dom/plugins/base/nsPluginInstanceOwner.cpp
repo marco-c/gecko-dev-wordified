@@ -14083,8 +14083,6 @@ NPEvent
 in
 widget
 /
-src
-/
 windows
 /
 nsWindow

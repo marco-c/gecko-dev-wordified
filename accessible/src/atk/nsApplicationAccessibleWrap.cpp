@@ -3294,8 +3294,6 @@ copied
 from
 widget
 /
-src
-/
 gtk2
 /
 nsWindow

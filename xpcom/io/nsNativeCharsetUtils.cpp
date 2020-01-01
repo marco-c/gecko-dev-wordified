@@ -6592,8 +6592,6 @@ moved
 from
 widget
 /
-src
-/
 windows
 /
 nsToolkit

@@ -4395,8 +4395,6 @@ disabled
 in
 widget
 /
-src
-/
 android
 .
 pref

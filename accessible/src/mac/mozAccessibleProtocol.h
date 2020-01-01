@@ -462,8 +462,6 @@ is
 so
 widget
 /
-src
-/
 cocoa
 can
 talk
