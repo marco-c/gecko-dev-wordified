@@ -147,6 +147,12 @@ defined
 (
 OS_LINUX
 )
+|
+|
+defined
+(
+OS_BSD
+)
 #
 ifdef
 MOZ_WIDGET_GTK2
@@ -1003,6 +1009,12 @@ elif
 defined
 (
 OS_LINUX
+)
+|
+|
+defined
+(
+OS_BSD
 )
 pump_
 =

@@ -627,6 +627,12 @@ defined
 (
 OS_MACOSX
 )
+|
+|
+defined
+(
+OS_NETBSD
+)
 /
 /
 TODO
