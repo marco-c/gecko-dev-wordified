@@ -1228,7 +1228,7 @@ aData
 PRUint32
 aLength
 const
-nsString
+nsAString
 &
 aHintCharset
 nsIDocument

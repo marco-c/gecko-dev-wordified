@@ -546,8 +546,9 @@ cx
 JSObject
 *
 target_obj
-jschar
-*
+const
+nsAString
+&
 charset
 const
 char
