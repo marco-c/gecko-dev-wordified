@@ -465,7 +465,14 @@ h
 #
 include
 "
-jscntxt
+jsapi
+.
+h
+"
+#
+include
+"
+jsfriendapi
 .
 h
 "

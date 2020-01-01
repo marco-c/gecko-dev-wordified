@@ -475,7 +475,7 @@ h
 #
 include
 "
-jsdate
+jsfriendapi
 .
 h
 "
@@ -1138,7 +1138,7 @@ if
 !
 :
 :
-js_DateIsValid
+JS_DateIsValid
 (
 aCtx
 obj
@@ -1152,7 +1152,7 @@ msecd
 =
 :
 :
-js_DateGetMsecSinceEpoch
+JS_DateGetMsecSinceEpoch
 (
 aCtx
 obj

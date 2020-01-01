@@ -462,13 +462,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 js
 /
 HashTable
@@ -2019,7 +2012,7 @@ NULL
 return
 false
 ;
-js
+JS
 :
 :
 AutoObjectRooter
@@ -2097,7 +2090,7 @@ ElementAt
 i
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -2240,7 +2233,7 @@ i
 =
 JSVAL_VOID
 ;
-js
+JS
 :
 :
 AutoArrayRooter
@@ -2632,7 +2625,7 @@ i
 =
 JSVAL_VOID
 ;
-js
+JS
 :
 :
 AutoArrayRooter
@@ -2721,7 +2714,7 @@ i
 return
 false
 ;
-js
+JS
 :
 :
 AutoValueRooter

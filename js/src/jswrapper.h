@@ -473,6 +473,9 @@ h
 namespace
 js
 {
+class
+DummyFrameGuard
+;
 /
 *
 No

@@ -6,6 +6,8 @@
 Mode
 :
 C
++
++
 ;
 tab
 -
@@ -7814,7 +7816,6 @@ cx
 AutoGCRooter
 (
 cx
-DESCRIPTORS
 )
 descriptors
 (
@@ -7880,11 +7881,10 @@ i
 ]
 ;
 }
-friend
+private
+:
+virtual
 void
-AutoGCRooter
-:
-:
 trace
 (
 JSTracer
@@ -7892,8 +7892,6 @@ JSTracer
 trc
 )
 ;
-private
-:
 PropDescArray
 descriptors
 ;
@@ -7919,7 +7917,6 @@ cx
 AutoGCRooter
 (
 cx
-DESCRIPTOR
 )
 {
 obj
@@ -7964,7 +7961,6 @@ desc
 AutoGCRooter
 (
 cx
-DESCRIPTOR
 )
 {
 obj
@@ -8003,11 +7999,10 @@ desc
 value
 ;
 }
-friend
+private
+:
+virtual
 void
-AutoGCRooter
-:
-:
 trace
 (
 JSTracer

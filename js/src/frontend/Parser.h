@@ -991,18 +991,6 @@ Parser
 )
 ;
 friend
-void
-AutoGCRooter
-:
-:
-trace
-(
-JSTracer
-*
-trc
-)
-;
-friend
 struct
 TreeContext
 ;
@@ -1363,6 +1351,7 @@ uint32
 tcflags
 )
 ;
+virtual
 void
 trace
 (
