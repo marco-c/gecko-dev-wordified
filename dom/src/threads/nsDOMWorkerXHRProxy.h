@@ -532,6 +532,10 @@ nsIRequestObserver
 {
 friend
 class
+nsDOMWorkerXHRAttachUploadListenersRunnable
+;
+friend
+class
 nsDOMWorkerXHREvent
 ;
 friend
@@ -982,6 +986,9 @@ object
 .
 PRPackedBool
 mOwnedByXHR
+;
+PRPackedBool
+mWantUploadListeners
 ;
 PRPackedBool
 mCanceled
