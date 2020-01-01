@@ -211,6 +211,9 @@ BluetoothHfpManager
 (
 )
 ;
+int
+mCurrentVgs
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
