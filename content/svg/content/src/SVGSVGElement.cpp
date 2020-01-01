@@ -4439,8 +4439,6 @@ changeHint
 =
 nsChangeHint
 (
-nsChangeHint_RepaintFrame
-|
 nsChangeHint_UpdateOverflow
 |
 nsChangeHint_ChildrenOnlyTransform
