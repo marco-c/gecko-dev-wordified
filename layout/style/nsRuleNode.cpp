@@ -48872,6 +48872,11 @@ GetUnit
 )
 {
 case
+eCSSUnit_Null
+:
+break
+;
+case
 eCSSUnit_Enumerated
 :
 MOZ_STATIC_ASSERT
