@@ -1724,6 +1724,10 @@ nsITreeSelection
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsINativeTreeSelection
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsISupports
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
