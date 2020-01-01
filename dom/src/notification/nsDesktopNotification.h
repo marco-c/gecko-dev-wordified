@@ -366,12 +366,12 @@ a
 notification
 *
 /
-void
+nsresult
 PostDesktopNotification
 (
 )
 ;
-void
+nsresult
 SetAllow
 (
 bool
