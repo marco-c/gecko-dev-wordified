@@ -609,6 +609,8 @@ aQueryName
 AllBookmarks
 "
 )
+PlacesUtils
+.
 asContainer
 (
 this
@@ -1679,6 +1681,8 @@ selectedNode
 var
 queries
 =
+PlacesUtils
+.
 asQuery
 (
 node
@@ -2725,6 +2729,8 @@ PO_getCurrentOptions
 )
 {
 return
+PlacesUtils
+.
 asQuery
 (
 this
@@ -2771,6 +2777,8 @@ PO_getCurrentQueries
 )
 {
 return
+PlacesUtils
+.
 asQuery
 (
 this

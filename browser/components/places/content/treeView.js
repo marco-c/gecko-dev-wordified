@@ -4803,6 +4803,8 @@ aNode
 )
 &
 &
+PlacesUtils
+.
 asContainer
 (
 aNode
@@ -7840,6 +7842,8 @@ node
 hasChildren
 )
 return
+PlacesUtils
+.
 asQuery
 (
 parent
@@ -8423,6 +8427,8 @@ null
 let
 queryOptions
 =
+PlacesUtils
+.
 asQuery
 (
 this

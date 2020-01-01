@@ -1377,6 +1377,8 @@ _canInsert
 &
 &
 !
+PlacesUtils
+.
 asQuery
 (
 this
@@ -1483,7 +1485,7 @@ selectedNode
 )
 &
 &
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -3460,6 +3462,8 @@ parent
 {
 switch
 (
+PlacesUtils
+.
 asQuery
 (
 node
@@ -3651,7 +3655,7 @@ parent
 var
 mss
 =
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 ;
@@ -5387,7 +5391,7 @@ selectedNode
 var
 mss
 =
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 ;
@@ -6807,6 +6811,8 @@ parent
 )
 &
 &
+PlacesUtils
+.
 asQuery
 (
 node
@@ -6953,6 +6959,8 @@ parent
 )
 &
 &
+PlacesUtils
+.
 asQuery
 (
 node
@@ -7049,6 +7057,8 @@ node
 )
 &
 &
+PlacesUtils
+.
 asQuery
 (
 node
@@ -7498,6 +7508,8 @@ node
 )
 &
 &
+PlacesUtils
+.
 asQuery
 (
 node
@@ -8011,6 +8023,8 @@ root
 var
 queryType
 =
+PlacesUtils
+.
 asQuery
 (
 root
