@@ -842,6 +842,15 @@ PRBool
 aAlwaysAskBeforeHandling
 )
 ;
+NS_IMETHOD
+GetPossibleLocalHandlers
+(
+nsIArray
+*
+*
+_retval
+)
+;
 enum
 HandlerClass
 {
