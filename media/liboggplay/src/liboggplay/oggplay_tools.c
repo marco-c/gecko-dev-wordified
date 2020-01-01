@@ -372,6 +372,17 @@ ms
 )
 ;
 #
+elif
+defined
+(
+OS2
+)
+DosSleep
+(
+ms
+)
+;
+#
 else
 struct
 timespec
