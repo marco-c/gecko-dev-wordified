@@ -14469,11 +14469,8 @@ first
 tab
 /
 /
-imageUrl
+imageElement
 -
-url
-of
-an
 image
 to
 load
@@ -14497,7 +14494,7 @@ BrowserPageInfo
 (
 doc
 initialTab
-imageUrl
+imageElement
 )
 {
 var
@@ -14510,9 +14507,9 @@ doc
 initialTab
 :
 initialTab
-imageUrl
+imageElement
 :
-imageUrl
+imageElement
 }
 ;
 return
