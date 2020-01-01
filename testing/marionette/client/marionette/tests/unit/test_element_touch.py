@@ -171,11 +171,25 @@ expected
 )
       
 button
+=
+self
+.
+marionette
+.
+find_element
+(
+"
+id
+"
+"
+button2
+"
+)
+      
+button
 .
 tap
 (
-0
-300
 )
       
 expected

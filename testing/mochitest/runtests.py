@@ -3873,7 +3873,7 @@ content
 /
 shell
 .
-xul
+xhtml
 chrome
 :
 /

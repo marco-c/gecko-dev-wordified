@@ -1880,7 +1880,7 @@ document
 getElementsByTagName
 (
 "
-window
+html
 "
 )
 [
