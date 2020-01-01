@@ -4779,7 +4779,7 @@ ignored
 markPageAsFollowedLink
 :
 function
-PUIU_markPageAsUserClicked
+PUIU_markPageAsFollowedLink
 (
 aURL
 )
