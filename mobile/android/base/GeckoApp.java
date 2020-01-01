@@ -1539,7 +1539,7 @@ void
 toggleChrome
 (
 final
-Boolean
+boolean
 aShow
 )
 {
