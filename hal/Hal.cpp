@@ -1277,6 +1277,9 @@ BroadcastCachedInformation
 (
 )
 {
+this
+-
+>
 BroadcastInformation
 (
 mInfo
