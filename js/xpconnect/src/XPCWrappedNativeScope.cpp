@@ -586,11 +586,9 @@ XPCWrappedNativeScope
 *
 scope
 =
-FindInJSObjectScope
+ObjectScope
 (
-cx
 aGlobal
-true
 )
 ;
 if

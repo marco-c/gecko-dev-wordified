@@ -11515,13 +11515,11 @@ XPCWrappedNativeScope
 *
 scope
 =
-      
-XPCWrappedNativeScope
+xpc
 :
 :
-FindInJSObjectScope
+ObjectScope
 (
-aCx
 %
 s
 )

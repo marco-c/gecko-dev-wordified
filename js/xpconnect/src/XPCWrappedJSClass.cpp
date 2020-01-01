@@ -177,6 +177,10 @@ jsapi
 .
 h
 "
+using
+namespace
+xpc
+;
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (
 nsXPCWrappedJSClass
@@ -3402,12 +3406,8 @@ XPCWrappedNativeScope
 *
 scope
 =
-XPCWrappedNativeScope
-:
-:
-FindInJSObjectScope
+ObjectScope
 (
-ccx
 obj
 )
 ;
