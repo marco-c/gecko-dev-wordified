@@ -2042,6 +2042,9 @@ Normalize
 )
 |
 |
+#
+ifndef
+MOZ_WIDGET_ANDROID
 NS_FAILED
 (
 codebaseFile
@@ -2053,6 +2056,8 @@ Normalize
 )
 |
 |
+#
+endif
 NS_FAILED
 (
 targetFile
