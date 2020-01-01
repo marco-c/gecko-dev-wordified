@@ -2038,7 +2038,7 @@ height
 of
 the
 parent
-heirarchy
+hierarchy
 from
 the
 /
@@ -2058,7 +2058,7 @@ height
 of
 the
 parent
-heirarchy
+hierarchy
 from
 the
 /
@@ -2130,7 +2130,7 @@ of
 level
 in
 the
-heirarchy
+hierarchy
 .
 /
 /
