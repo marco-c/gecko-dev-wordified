@@ -1213,7 +1213,7 @@ yet
 /
 finished
 the
-inital
+initial
 batch
 and
 we
