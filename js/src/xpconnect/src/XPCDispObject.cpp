@@ -1243,7 +1243,7 @@ native
 method
 blocks
 somehow
-AutoJSSuspendRequest
+JSAutoSuspendRequest
 req
 (
 ccx

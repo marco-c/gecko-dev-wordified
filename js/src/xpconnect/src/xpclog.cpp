@@ -1021,7 +1021,7 @@ PR_Free
 className
 )
 ;
-AutoJSRequestWithNoCallContext
+JSAutoRequest
 autoRequest
 (
 cx
