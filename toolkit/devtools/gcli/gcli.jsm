@@ -367,6 +367,15 @@ interfaces
 .
 nsIDOMHTMLElement
 ;
+var
+Event
+=
+Components
+.
+interfaces
+.
+nsIDOMEvent
+;
 /
 *
 *
@@ -2957,6 +2966,7 @@ getMin
 =
 function
 (
+context
 )
 {
 if
@@ -2985,6 +2995,7 @@ this
 .
 _min
 (
+context
 )
 ;
 }
@@ -3022,6 +3033,7 @@ getMax
 =
 function
 (
+context
 )
 {
 if
@@ -3050,6 +3062,7 @@ this
 .
 _max
 (
+context
 )
 ;
 }
@@ -3282,6 +3295,7 @@ this
 .
 getMax
 (
+context
 )
 ;
 if
@@ -3338,6 +3352,7 @@ this
 .
 getMin
 (
+context
 )
 ;
 if
@@ -3437,6 +3452,7 @@ this
 .
 getMax
 (
+context
 )
 |
 |
@@ -3485,6 +3501,7 @@ this
 _boundsCheck
 (
 newValue
+context
 )
 ;
 }
@@ -3526,6 +3543,7 @@ this
 .
 getMin
 (
+context
 )
 ;
 return
@@ -3581,6 +3599,7 @@ this
 .
 getMax
 (
+context
 )
 =
 =
@@ -3597,6 +3616,7 @@ this
 _boundsCheck
 (
 newValue
+context
 )
 ;
 }
@@ -3657,6 +3677,7 @@ _boundsCheck
 function
 (
 value
+context
 )
 {
 var
@@ -3666,6 +3687,7 @@ this
 .
 getMin
 (
+context
 )
 ;
 if
@@ -3692,6 +3714,7 @@ this
 .
 getMax
 (
+context
 )
 ;
 if
@@ -3983,6 +4006,7 @@ getBlank
 =
 function
 (
+context
 )
 {
 return
@@ -4986,7 +5010,7 @@ getBlank
 =
 function
 (
-values
+context
 )
 {
 return
@@ -14616,6 +14640,7 @@ getBlank
 =
 function
 (
+context
 )
 {
 return
@@ -20268,6 +20293,7 @@ this
 .
 getLookup
 (
+context
 )
 )
 ;
@@ -20456,6 +20482,7 @@ getLookup
 =
 function
 (
+context
 )
 {
 if
@@ -20494,6 +20521,7 @@ resolve
 this
 .
 data
+context
 this
 .
 neverForceAsync
@@ -20541,6 +20569,7 @@ reply
 resolve
 (
 lookup
+context
 this
 .
 neverForceAsync
@@ -20642,6 +20671,7 @@ function
 resolve
 (
 thing
+context
 neverForceAsync
 )
 {
@@ -20758,7 +20788,9 @@ resolve
 (
 resolved
 (
+context
 )
+context
 neverForceAsync
 )
 ;
@@ -20932,6 +20964,7 @@ _findPredictions
 function
 (
 arg
+context
 )
 {
 return
@@ -20943,6 +20976,7 @@ this
 .
 getLookup
 (
+context
 )
 )
 .
@@ -21635,6 +21669,7 @@ this
 _findPredictions
 (
 arg
+context
 )
 .
 then
@@ -21774,6 +21809,7 @@ getBlank
 =
 function
 (
+context
 )
 {
 var
@@ -21792,6 +21828,7 @@ this
 .
 getLookup
 (
+context
 )
 )
 .
@@ -21964,6 +22001,7 @@ this
 .
 getLookup
 (
+context
 )
 )
 ;
@@ -22059,6 +22097,7 @@ this
 .
 getLookup
 (
+context
 )
 )
 ;
@@ -26406,69 +26445,6 @@ true
 }
 return
 false
-;
-}
-;
-/
-*
-*
-*
-Read
-the
-default
-value
-for
-this
-parameter
-either
-from
-the
-parameter
-itself
-*
-(
-if
-this
-function
-has
-been
-over
--
-ridden
-)
-or
-from
-the
-type
-or
-from
-calling
-*
-parseString
-on
-an
-empty
-string
-*
-/
-Parameter
-.
-prototype
-.
-getBlank
-=
-function
-(
-)
-{
-return
-this
-.
-type
-.
-getBlank
-(
-)
 ;
 }
 ;
@@ -33231,6 +33207,7 @@ getBlank
 =
 function
 (
+context
 )
 {
 return
@@ -45061,8 +45038,9 @@ arg
 null
 )
 {
-setAssignmentInternal
-(
+var
+blank
+=
 assignment
 .
 param
@@ -45071,7 +45049,14 @@ type
 .
 getBlank
 (
+this
+.
+executionContext
 )
+;
+setAssignmentInternal
+(
+blank
 )
 ;
 }
@@ -56982,7 +56967,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 }
@@ -57388,7 +57373,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 }
@@ -57736,7 +57721,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 }
@@ -60608,7 +60593,7 @@ options
 .
 requisition
 .
-context
+executionContext
 )
 ;
 if
@@ -60871,7 +60856,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 }
@@ -61868,7 +61853,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 Promise
@@ -62047,7 +62032,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 }
@@ -65371,7 +65356,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 Promise
@@ -65551,7 +65536,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 }
@@ -78505,7 +78490,7 @@ this
 .
 requisition
 .
-context
+executionContext
 )
 ;
 /
