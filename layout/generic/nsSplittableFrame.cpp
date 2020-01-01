@@ -1291,7 +1291,7 @@ va
 \
 "
 %
-ld
+p
 \
 "
 /
@@ -1299,10 +1299,11 @@ ld
 \
 n
 "
-PRUptrdiff
 (
-mNextContinuation
+void
+*
 )
+mNextContinuation
 )
 ;
 }
@@ -1333,7 +1334,7 @@ va
 \
 "
 %
-ld
+p
 \
 "
 /
@@ -1341,10 +1342,11 @@ ld
 \
 n
 "
-PRUptrdiff
 (
-mPrevContinuation
+void
+*
 )
+mPrevContinuation
 )
 ;
 }

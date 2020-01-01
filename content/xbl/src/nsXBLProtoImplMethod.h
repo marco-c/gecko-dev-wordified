@@ -524,7 +524,7 @@ aUncompiledMethod
 {
 mUncompiledMethod
 =
-PRUptrdiff
+uintptr_t
 (
 aUncompiledMethod
 )
@@ -539,7 +539,7 @@ GetUncompiledMethod
 )
 const
 {
-PRUptrdiff
+uintptr_t
 unmasked
 =
 mUncompiledMethod
@@ -572,7 +572,7 @@ BIT_UNCOMPILED
 ;
 union
 {
-PRUptrdiff
+uintptr_t
 mUncompiledMethod
 ;
 /

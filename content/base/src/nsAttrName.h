@@ -158,7 +158,7 @@ nsDOMString
 h
 "
 typedef
-PRUptrdiff
+uintptr_t
 PtrBits
 ;
 #

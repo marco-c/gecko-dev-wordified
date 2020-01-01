@@ -1714,7 +1714,7 @@ uint8
 (
 reinterpret_cast
 <
-PRUptrdiff
+uintptr_t
 >
 (
 yuvbuf

@@ -468,7 +468,7 @@ library
 256
 ]
 ;
-PRUptrdiff
+ptrdiff_t
 loffset
 ;
 /
@@ -549,7 +549,7 @@ function
 256
 ]
 ;
-PRUptrdiff
+ptrdiff_t
 foffset
 ;
 }

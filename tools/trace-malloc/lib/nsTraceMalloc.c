@@ -6594,7 +6594,7 @@ he
 if
 (
 (
-PRUptrdiff
+ptrdiff_t
 )
 (
 alloc
@@ -6603,7 +6603,7 @@ alloc_heap
 )
 <
 (
-PRUptrdiff
+ptrdiff_t
 )
 ALLOC_HEAP_SIZE
 )

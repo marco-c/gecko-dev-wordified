@@ -383,7 +383,7 @@ struct
 nsRect
 ;
 typedef
-PRUptrdiff
+uintptr_t
 PtrBits
 ;
 /

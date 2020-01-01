@@ -256,7 +256,7 @@ class
 nsIAtom
 ;
 typedef
-PRUptrdiff
+uintptr_t
 PtrBits
 ;
 typedef
