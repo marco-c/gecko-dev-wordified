@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsISelectionListener
 .
 h
@@ -548,11 +555,8 @@ Currently
 focused
 control
 .
-nsCOMPtr
-<
-nsIContent
->
-mCurrentControl
+nsWeakFrame
+mCurrCtrlFrame
 ;
 /
 /
