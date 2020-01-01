@@ -2587,7 +2587,7 @@ setupAlignedABICall
 ;
 masm
 .
-pushABIArg
+passABIArg
 (
 r0
 )
@@ -2688,7 +2688,7 @@ setupAlignedABICall
 ;
 masm
 .
-pushABIArg
+passABIArg
 (
 r0
 )
@@ -3095,14 +3095,14 @@ setupAlignedABICall
 ;
 masm
 .
-pushABIArg
+passABIArg
 (
 r0
 )
 ;
 masm
 .
-pushABIArg
+passABIArg
 (
 r1
 )
@@ -4476,7 +4476,7 @@ first
 argument
 masm
 .
-pushABIArg
+passABIArg
 (
 r0
 )
@@ -5285,7 +5285,7 @@ cxreg
 ;
 masm
 .
-pushABIArg
+passABIArg
 (
 cxreg
 )
@@ -5351,7 +5351,7 @@ WordByValue
 :
 masm
 .
-pushABIArg
+passABIArg
 (
 MoveOperand
 (
@@ -5394,7 +5394,7 @@ supported
 ;
 masm
 .
-pushABIArg
+passABIArg
 (
 MoveOperand
 (
@@ -5414,7 +5414,7 @@ void
 ;
 masm
 .
-pushABIArg
+passABIArg
 (
 MoveOperand
 (
@@ -5442,7 +5442,7 @@ WordByRef
 :
 masm
 .
-pushABIArg
+passABIArg
 (
 MoveOperand
 (
@@ -5474,7 +5474,7 @@ DoubleByRef
 :
 masm
 .
-pushABIArg
+passABIArg
 (
 MoveOperand
 (
@@ -5521,7 +5521,7 @@ InvalidReg
 )
 masm
 .
-pushABIArg
+passABIArg
 (
 outReg
 )
@@ -5841,17 +5841,15 @@ r2
 ;
 masm
 .
-setABIArg
+passABIArg
 (
-0
 r0
 )
 ;
 masm
 .
-setABIArg
+passABIArg
 (
-1
 r1
 )
 ;

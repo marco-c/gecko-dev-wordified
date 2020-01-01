@@ -6846,7 +6846,7 @@ setting
 arguments
 .
 void
-pushABIArg
+passABIArg
 (
 const
 MoveOperand
@@ -6855,7 +6855,7 @@ from
 )
 ;
 void
-pushABIArg
+passABIArg
 (
 const
 Register
@@ -6864,7 +6864,7 @@ reg
 )
 ;
 void
-pushABIArg
+passABIArg
 (
 const
 FloatRegister
@@ -6873,7 +6873,7 @@ reg
 )
 ;
 void
-pushABIArg
+passABIArg
 (
 const
 ValueOperand
