@@ -641,6 +641,10 @@ NJ_F2I_SUPPORTED
 1
 #
 define
+NJ_SOFTFLOAT_SUPPORTED
+1
+#
+define
 NJ_CONSTANT_POOLS
 const
 int
