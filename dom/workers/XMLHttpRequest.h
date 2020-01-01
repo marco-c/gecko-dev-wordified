@@ -404,9 +404,7 @@ GetContext
 JS
 :
 :
-NullValue
-(
-)
+NullHandleValue
 )
 )
 {
