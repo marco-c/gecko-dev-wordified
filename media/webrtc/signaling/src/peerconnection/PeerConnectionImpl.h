@@ -785,6 +785,8 @@ thread
 void
 ShutdownMedia
 (
+bool
+isSynchronous
 )
 ;
 nsresult
