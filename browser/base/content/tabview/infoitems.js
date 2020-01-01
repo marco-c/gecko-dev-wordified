@@ -535,7 +535,7 @@ various
 options
 for
 this
-group
+infoItem
 (
 see
 below
@@ -569,7 +569,7 @@ dontPush
 true
 if
 this
-group
+infoItem
 shouldn
 '
 t
@@ -1111,16 +1111,16 @@ getStorageData
 *
 if
 (
-Groups
+GroupItems
 .
-groupStorageSanity
+groupItemStorageSanity
 (
 data
 )
 )
 Storage
 .
-saveGroup
+saveGroupItem
 (
 Utils
 .
@@ -1198,7 +1198,7 @@ Utils
 assertThrow
 (
 '
-Group
+InfoItem
 .
 setBounds
 :
@@ -1341,7 +1341,7 @@ Utils
 assertThrow
 (
 '
-Group
+InfoItem
 .
 setBounds
 :
@@ -1667,7 +1667,7 @@ unsquish
 *
 Storage
 .
-deleteGroup
+deleteGroupItem
 (
 Utils
 .

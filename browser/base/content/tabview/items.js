@@ -457,7 +457,7 @@ TabItem
 s
 and
 <
-Group
+GroupItem
 >
 s
 )
@@ -835,7 +835,7 @@ parent
 /
 /
 The
-group
+groupItem
 that
 this
 item
@@ -1648,7 +1648,7 @@ function
 )
 {
 var
-group
+groupItem
 =
 drag
 .
@@ -1660,9 +1660,9 @@ parent
 ;
 if
 (
-group
+groupItem
 )
-group
+groupItem
 .
 remove
 (
@@ -3484,7 +3484,7 @@ if
 !
 item
 .
-isAGroup
+isAGroupItem
 )
 {
 if
@@ -4418,7 +4418,7 @@ snap
 function
 used
 during
-group
+groupItem
 creation
 via
 drag
@@ -6193,7 +6193,7 @@ Items
 not
 grouped
 into
-groups
+groupItems
 .
 getTopLevelItems
 :
@@ -6213,7 +6213,7 @@ iQ
 .
 tab
 .
-group
+groupItem
 .
 info
 -
@@ -7071,7 +7071,7 @@ typeof
 (
 item
 .
-groupData
+groupItemData
 .
 row
 )
@@ -7084,7 +7084,7 @@ undefined
 |
 item
 .
-groupData
+groupItemData
 .
 row
 =
@@ -7182,7 +7182,7 @@ z
 *
 item
 .
-groupData
+groupItemData
 .
 column
 =
@@ -7190,7 +7190,7 @@ column
 ;
 item
 .
-groupData
+groupItemData
 .
 row
 =
@@ -7538,7 +7538,7 @@ if
 (
 item
 .
-isAGroup
+isAGroupItem
 )
 {
 newBounds

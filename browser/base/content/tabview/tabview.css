@@ -890,7 +890,7 @@ important
 /
 *
 Tab
-Group
+GroupItem
 -
 -
 -
@@ -928,7 +928,7 @@ Group
 *
 /
 .
-tabInGroup
+tabInGroupItem
 {
 border
 :
@@ -947,7 +947,7 @@ important
 ;
 }
 .
-group
+groupItem
 {
 position
 :

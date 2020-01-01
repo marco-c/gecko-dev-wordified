@@ -278,7 +278,7 @@ items
 js
 #
 include
-groups
+groupitems
 .
 js
 #

@@ -836,7 +836,7 @@ ___
 Other
 this
 .
-saveGroupsData
+saveGroupItemsData
 (
 gWindow
 {
@@ -1130,7 +1130,7 @@ existingData
 /
 Function
 :
-saveGroup
+saveGroupItem
 /
 /
 Saves
@@ -1139,14 +1139,14 @@ data
 for
 a
 single
-group
+groupItem
 associated
 with
 a
 specific
 window
 .
-saveGroup
+saveGroupItem
 :
 function
 (
@@ -1166,7 +1166,7 @@ existingData
 =
 this
 .
-readGroupData
+readGroupItemData
 (
 win
 )
@@ -1213,7 +1213,7 @@ existingData
 /
 Function
 :
-deleteGroup
+deleteGroupItem
 /
 /
 Deletes
@@ -1222,13 +1222,13 @@ data
 for
 a
 single
-group
+groupItem
 from
 the
 given
 window
 .
-deleteGroup
+deleteGroupItem
 :
 function
 (
@@ -1241,7 +1241,7 @@ existingData
 =
 this
 .
-readGroupData
+readGroupItemData
 (
 win
 )
@@ -1287,7 +1287,7 @@ existingData
 /
 Function
 :
-readGroupData
+readGroupItemData
 /
 /
 Returns
@@ -1295,14 +1295,14 @@ the
 data
 for
 all
-groups
+groupItems
 associated
 with
 the
 given
 window
 .
-readGroupData
+readGroupItemData
 :
 function
 (
@@ -1324,7 +1324,7 @@ Utils
 log
 (
 "
-readGroupData
+readGroupItemData
 "
 +
 this
@@ -1386,7 +1386,7 @@ log
 "
 Error
 in
-readGroupData
+readGroupItemData
 :
 "
 +
@@ -1414,7 +1414,7 @@ existingData
 /
 Function
 :
-saveGroupsData
+saveGroupItemsData
 /
 /
 Saves
@@ -1424,7 +1424,7 @@ data
 for
 the
 <
-Groups
+GroupItems
 >
 singleton
 for
@@ -1432,7 +1432,7 @@ the
 given
 window
 .
-saveGroupsData
+saveGroupItemsData
 :
 function
 (
@@ -1468,7 +1468,7 @@ data
 /
 Function
 :
-readGroupsData
+readGroupItemsData
 /
 /
 Reads
@@ -1478,7 +1478,7 @@ data
 for
 the
 <
-Groups
+GroupItems
 >
 singleton
 for
@@ -1486,7 +1486,7 @@ the
 given
 window
 .
-readGroupsData
+readGroupItemsData
 :
 function
 (
