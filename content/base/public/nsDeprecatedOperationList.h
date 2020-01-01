@@ -569,9 +569,5 @@ InputEncoding
 )
 DEPRECATED_OPERATION
 (
-XmlStandalone
-)
-DEPRECATED_OPERATION
-(
 IsElementContentWhitespace
 )
