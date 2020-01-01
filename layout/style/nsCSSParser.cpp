@@ -11326,11 +11326,6 @@ eCSSToken_Dimension
 &
 mToken
 .
-mIntegerValid
-&
-&
-mToken
-.
 mNumber
 >
 0
