@@ -1230,6 +1230,10 @@ WillModify
 (
 )
 ;
+DidModify
+(
+)
+;
 PRBool
 result
 =
@@ -1238,10 +1242,6 @@ mFrames
 DestroyFrame
 (
 aOldFrame
-)
-;
-DidModify
-(
 )
 ;
 return
