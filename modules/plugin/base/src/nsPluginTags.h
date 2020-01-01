@@ -837,6 +837,9 @@ mIsJavaPlugin
 PRPackedBool
 mIsNPRuntimeEnabledJavaPlugin
 ;
+PRPackedBool
+mIsFlashPlugin
+;
 nsCString
 mFileName
 ;
