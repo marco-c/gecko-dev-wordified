@@ -1469,7 +1469,7 @@ mContainer
 :
 nsnull
 ;
-Layer
+ContainerLayer
 *
 shadowRoot
 =
@@ -2025,7 +2025,7 @@ shadowParents
 nsnull
 ;
 }
-Layer
+ContainerLayer
 *
 RenderFrameParent
 :

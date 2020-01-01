@@ -534,7 +534,7 @@ return
 mLayerManager
 ;
 }
-Layer
+ContainerLayer
 *
 GetRoot
 (
@@ -617,7 +617,7 @@ layer
 tree
 nsRefPtr
 <
-Layer
+ContainerLayer
 >
 mRoot
 ;
