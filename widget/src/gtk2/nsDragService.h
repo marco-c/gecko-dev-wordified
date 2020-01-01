@@ -879,6 +879,17 @@ mHiddenWidget
 ;
 /
 /
+the
+widget
+receiving
+mouse
+events
+GtkWidget
+*
+mGrabWidget
+;
+/
+/
 our
 source
 data
