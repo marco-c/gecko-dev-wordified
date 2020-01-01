@@ -24615,13 +24615,6 @@ nsMargin
 (
 mScrollPort
 .
-x
--
-r
-.
-x
-mScrollPort
-.
 y
 -
 r
@@ -24649,6 +24642,13 @@ mScrollPort
 YMost
 (
 )
+mScrollPort
+.
+x
+-
+r
+.
+x
 )
 ;
 }
