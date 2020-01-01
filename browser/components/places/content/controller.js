@@ -4282,7 +4282,7 @@ character
 )
 The
 "
-hideifnoinsetionpoint
+hideifnoinsertionpoint
 "
 attribute
 may
@@ -4484,7 +4484,7 @@ item
 getAttribute
 (
 "
-hideifnoinsetionpoint
+hideifnoinsertionpoint
 "
 )
 =
@@ -7599,7 +7599,7 @@ this
 .
 _view
 .
-getDragableSelection
+getDraggableSelection
 (
 )
 ;
