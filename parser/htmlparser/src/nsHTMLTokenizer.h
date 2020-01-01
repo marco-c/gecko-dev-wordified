@@ -669,9 +669,8 @@ eParserCommands
 aCommand
 =
 eViewNormal
-nsIHTMLContentSink
-*
-aSink
+PRUint16
+aFlags
 =
 0
 )

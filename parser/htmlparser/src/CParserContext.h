@@ -596,6 +596,9 @@ GetTokenizer
 nsIDTD
 *
 aDTD
+nsIContentSink
+*
+aSink
 nsITokenizer
 *
 &
