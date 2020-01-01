@@ -4954,8 +4954,6 @@ cmd_zoomin
 :
 Browser
 .
-_browserView
-.
 zoom
 (
 -
@@ -4970,8 +4968,6 @@ cmd_zoomout
 "
 :
 Browser
-.
-_browserView
 .
 zoom
 (
