@@ -535,6 +535,10 @@ jsstr
 .
 h
 "
+using
+namespace
+js
+;
 #
 define
 ReadWord
