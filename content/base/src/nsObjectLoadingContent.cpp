@@ -570,6 +570,13 @@ h
 #
 include
 "
+nsDOMJSUtils
+.
+h
+"
+#
+include
+"
 nsWidgetsCID
 .
 h

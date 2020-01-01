@@ -124,13 +124,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 prtime
 .
 h
@@ -139,6 +132,13 @@ h
 include
 "
 TimeStamp
+.
+h
+"
+#
+include
+"
+nsIURI
 .
 h
 "

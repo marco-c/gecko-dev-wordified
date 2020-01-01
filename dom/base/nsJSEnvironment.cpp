@@ -369,6 +369,13 @@ h
 #
 include
 "
+nsTextFormatter
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

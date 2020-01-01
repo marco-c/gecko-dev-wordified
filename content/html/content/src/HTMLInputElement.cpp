@@ -678,6 +678,13 @@ nsIColorPicker
 .
 h
 "
+#
+include
+"
+nsIStringEnumerator
+.
+h
+"
 /
 /
 input

@@ -126,6 +126,13 @@ SpeechRecognition
 .
 h
 "
+#
+include
+"
+nsProxyRelease
+.
+h
+"
 namespace
 mozilla
 {

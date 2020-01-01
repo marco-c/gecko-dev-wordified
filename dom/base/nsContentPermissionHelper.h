@@ -65,15 +65,6 @@ nsContentPermissionHelper_h
 #
 include
 "
-base
-/
-basictypes
-.
-h
-"
-#
-include
-"
 nsIContentPermissionPrompt
 .
 h

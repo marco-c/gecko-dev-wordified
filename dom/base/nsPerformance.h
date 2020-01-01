@@ -102,13 +102,6 @@ nsPerformance_h___
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -150,9 +143,6 @@ nsContentUtils
 .
 h
 "
-class
-nsIURI
-;
 class
 nsITimedChannel
 ;

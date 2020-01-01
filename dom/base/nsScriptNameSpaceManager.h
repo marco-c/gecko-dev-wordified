@@ -251,6 +251,13 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+xpcpublic
+.
+h
+"
 struct
 nsGlobalNameStruct
 {

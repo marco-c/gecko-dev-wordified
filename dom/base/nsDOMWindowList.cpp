@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsIInterfaceRequestor
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h
