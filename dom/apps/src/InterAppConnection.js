@@ -766,11 +766,7 @@ MozInterAppMessagePort
 (
 aMessage
 .
-keyword
-aMessage
-.
 messagePortID
-false
 )
 ;
 let

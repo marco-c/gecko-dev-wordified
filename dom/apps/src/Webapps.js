@@ -4079,11 +4079,7 @@ _window
 .
 MozInterAppMessagePort
 (
-msg
-.
-keyword
 aPortID
-true
 )
 ;
 messagePorts

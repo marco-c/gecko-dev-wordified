@@ -649,7 +649,6 @@ __init
 :
 function
 (
-aKeyword
 aMessagePortID
 )
 {
@@ -666,13 +665,6 @@ __init
 (
 )
 :
-aKeyword
-:
-"
-+
-aKeyword
-+
-"
 aMessagePortID
 :
 "
@@ -681,12 +673,6 @@ aMessagePortID
 )
 ;
 }
-this
-.
-_keyword
-=
-aKeyword
-;
 this
 .
 _messagePortID
