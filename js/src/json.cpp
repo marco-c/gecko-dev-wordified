@@ -1993,8 +1993,8 @@ keys
 jsid
 id
 ;
-jsval
-v
+JSBool
+found
 =
 JS_FALSE
 ;
@@ -2030,7 +2030,7 @@ lookupProperty
 obj
 id
 &
-v
+found
 )
 )
 {
@@ -2043,10 +2043,8 @@ break
 }
 if
 (
-v
 !
-=
-JSVAL_TRUE
+found
 )
 continue
 ;
