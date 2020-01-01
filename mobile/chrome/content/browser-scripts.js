@@ -751,6 +751,11 @@ PageActions
 BrowserSearch
 "
 ]
+[
+"
+CharsetMenu
+"
+]
 ]
 .
 forEach
