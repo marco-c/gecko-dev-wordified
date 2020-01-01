@@ -894,7 +894,6 @@ ElementAt
 (
 i
 )
-nsXBLInsertionPoint
 )
 ;
 }
