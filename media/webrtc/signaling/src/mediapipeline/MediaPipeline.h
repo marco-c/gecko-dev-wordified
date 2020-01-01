@@ -98,6 +98,13 @@ DOMMediaStream
 h
 "
 #
+include
+"
+MediaStreamGraph
+.
+h
+"
+#
 endif
 #
 include

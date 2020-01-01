@@ -658,6 +658,9 @@ static
 nsresult
 MakeMediaStream
 (
+nsIDOMWindow
+*
+aWindow
 uint32_t
 aHint
 nsIDOMMediaStream

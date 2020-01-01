@@ -278,7 +278,7 @@ class
 T
 >
 static
-nsIDOMMediaStream
+DOMMediaStream
 *
 GetStreamFromInfo
 (
@@ -317,7 +317,7 @@ GetMediaStream
 )
 ;
 }
-nsIDOMMediaStream
+DOMMediaStream
 *
 MediaStreamList
 :

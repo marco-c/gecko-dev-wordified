@@ -120,12 +120,12 @@ h
 class
 nsIDOMBlob
 ;
-class
-nsIDOMMediaStream
-;
 namespace
 mozilla
 {
+class
+DOMMediaStream
+;
 namespace
 dom
 {
@@ -170,8 +170,8 @@ const
 GlobalObject
 &
 aGlobal
-nsIDOMMediaStream
-*
+DOMMediaStream
+&
 aStream
 const
 mozilla
