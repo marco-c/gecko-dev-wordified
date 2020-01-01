@@ -1425,12 +1425,8 @@ thread
 mFile
 -
 >
-mFile
--
->
 Remove
 (
-true
 )
 ;
 nsRefPtr

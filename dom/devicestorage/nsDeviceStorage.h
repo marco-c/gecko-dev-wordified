@@ -364,6 +364,11 @@ IsSafePath
 )
 ;
 nsresult
+Remove
+(
+)
+;
+nsresult
 Write
 (
 nsIInputStream
