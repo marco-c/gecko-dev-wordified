@@ -1122,6 +1122,13 @@ mozAutoDocUpdate
 h
 "
 #
+include
+"
+nsICSSParser
+.
+h
+"
+#
 ifdef
 MOZ_SVG
 PRBool
@@ -4622,6 +4629,9 @@ aResult
 =
 nsnull
 ;
+#
+ifdef
+MOZ_XUL
 nsXULElement
 *
 xul
@@ -4647,6 +4657,8 @@ EnsureContentsGenerated
 )
 ;
 }
+#
+endif
 nsAttrAndChildArray
 &
 children
@@ -4736,6 +4748,9 @@ aResult
 =
 nsnull
 ;
+#
+ifdef
+MOZ_XUL
 nsXULElement
 *
 xul
@@ -4761,6 +4776,8 @@ EnsureContentsGenerated
 )
 ;
 }
+#
+endif
 nsAttrAndChildArray
 &
 children
@@ -4864,6 +4881,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_XUL
 nsXULElement
 *
 xul
@@ -4889,6 +4909,8 @@ EnsureContentsGenerated
 )
 ;
 }
+#
+endif
 NS_ASSERTION
 (
 parent
@@ -5057,6 +5079,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_XUL
 nsXULElement
 *
 xul
@@ -5082,6 +5107,8 @@ EnsureContentsGenerated
 )
 ;
 }
+#
+endif
 NS_ASSERTION
 (
 parent
