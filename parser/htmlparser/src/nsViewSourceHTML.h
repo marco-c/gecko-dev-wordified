@@ -832,7 +832,7 @@ end
 PRBool
 IsTokenValueTrimmableCharacter
 (
-char
+PRUnichar
 ch
 )
 ;
