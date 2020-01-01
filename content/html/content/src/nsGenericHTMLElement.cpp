@@ -8749,7 +8749,6 @@ nsAttrValue
 &
 aResult
 )
-const
 {
 return
 aResult

@@ -1769,6 +1769,7 @@ was
 parsed
 *
 /
+static
 PRBool
 ParseDivAlignValue
 (
@@ -1780,7 +1781,6 @@ nsAttrValue
 &
 aResult
 )
-const
 ;
 /
 *
