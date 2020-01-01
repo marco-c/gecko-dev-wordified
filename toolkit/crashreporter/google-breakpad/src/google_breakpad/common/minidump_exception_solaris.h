@@ -643,7 +643,7 @@ MD_EXCEPTION_CODE_SOL_SIGPOLL
 *
 pollable
 event
-occured
+occurred
 *
 /
 MD_EXCEPTION_CODE_SOL_SIGIO

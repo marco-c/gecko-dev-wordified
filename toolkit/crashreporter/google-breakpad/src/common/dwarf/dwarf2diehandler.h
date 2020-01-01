@@ -1466,6 +1466,11 @@ stack
 >
 #
 include
+<
+string
+>
+#
+include
 "
 common
 /
@@ -1494,6 +1499,15 @@ common
 dwarf
 /
 dwarf2reader
+.
+h
+"
+#
+include
+"
+common
+/
+using_std_string
 .
 h
 "
@@ -2999,6 +3013,9 @@ set
 to
 NULL
 .
+std
+:
+:
 stack
 <
 HandlerStack

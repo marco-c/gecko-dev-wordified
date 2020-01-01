@@ -595,6 +595,15 @@ string
 #
 include
 "
+common
+/
+using_std_string
+.
+h
+"
+#
+include
+"
 google_breakpad
 /
 common
@@ -903,9 +912,6 @@ as
 0x7b
 "
 .
-std
-:
-:
 string
 HexString
 (
@@ -913,9 +919,6 @@ u_int32_t
 number
 )
 ;
-std
-:
-:
 string
 HexString
 (
@@ -923,9 +926,6 @@ u_int64_t
 number
 )
 ;
-std
-:
-:
 string
 HexString
 (
@@ -967,9 +967,6 @@ code
 int
 ErrnoString
 (
-std
-:
-:
 string
 *
 error_string

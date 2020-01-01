@@ -327,6 +327,15 @@ include
 <
 vector
 >
+#
+include
+"
+common
+/
+using_std_string
+.
+h
+"
 namespace
 google_breakpad
 {
@@ -515,9 +524,6 @@ call
 StringToVector
 on
 a
-std
-:
-:
 string
 and
 use
@@ -531,9 +537,6 @@ void
 StringToVector
 (
 const
-std
-:
-:
 string
 &
 str

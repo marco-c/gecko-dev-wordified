@@ -332,6 +332,17 @@ common
 /
 linux
 /
+linux_libc_support
+.
+h
+"
+#
+include
+"
+third_party
+/
+lss
+/
 linux_syscall_support
 .
 h
@@ -871,7 +882,7 @@ len
 +
 1
 ;
-memmove
+my_memmove
 (
 buf_
 buf_

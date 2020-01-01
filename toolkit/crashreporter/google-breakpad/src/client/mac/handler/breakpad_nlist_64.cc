@@ -635,6 +635,15 @@ h
 #
 include
 <
+CoreFoundation
+/
+CoreFoundation
+.
+h
+>
+#
+include
+<
 fcntl
 .
 h
@@ -1468,7 +1477,7 @@ buf
 *
 (
 (
-long
+uint32_t
 *
 )
 &
@@ -1479,12 +1488,12 @@ buf
 magic
 &
 &
-NXSwapBigLongToHost
+CFSwapInt32BigToHost
 (
 *
 (
 (
-long
+uint32_t
 *
 )
 &
@@ -1494,7 +1503,6 @@ buf
 !
 =
 FAT_MAGIC
-)
 &
 &
 /
@@ -1514,7 +1522,7 @@ check
 *
 (
 (
-long
+uint32_t
 *
 )
 &
@@ -1524,6 +1532,7 @@ buf
 !
 =
 FAT_MAGIC
+)
 )
 {
 return
@@ -1548,12 +1557,12 @@ arch_offset
 ;
 if
 (
-NXSwapBigLongToHost
+CFSwapInt32BigToHost
 (
 *
 (
 (
-long
+uint32_t
 *
 )
 &
@@ -1732,7 +1741,7 @@ fh
 .
 nfat_arch
 =
-NXSwapBigIntToHost
+CFSwapInt32BigToHost
 (
 fh
 .
@@ -1809,6 +1818,7 @@ nfat_arch
 (
 ssize_t
 )
+(
 sizeof
 (
 struct
@@ -1818,6 +1828,7 @@ fat_arch
 fh
 .
 nfat_arch
+)
 )
 {
 free
@@ -1874,7 +1885,7 @@ i
 .
 cputype
 =
-NXSwapBigIntToHost
+CFSwapInt32BigToHost
 (
 fat_archs
 [
@@ -1891,7 +1902,7 @@ i
 .
 cpusubtype
 =
-NXSwapBigIntToHost
+CFSwapInt32BigToHost
 (
 fat_archs
 [
@@ -1908,7 +1919,7 @@ i
 .
 offset
 =
-NXSwapBigIntToHost
+CFSwapInt32BigToHost
 (
 fat_archs
 [
@@ -1925,7 +1936,7 @@ i
 .
 size
 =
-NXSwapBigIntToHost
+CFSwapInt32BigToHost
 (
 fat_archs
 [
@@ -1942,7 +1953,7 @@ i
 .
 align
 =
-NXSwapBigIntToHost
+CFSwapInt32BigToHost
 (
 fat_archs
 [
@@ -2231,6 +2242,9 @@ sizeofcmds
 )
 !
 =
+(
+ssize_t
+)
 mh
 .
 sizeofcmds
@@ -2276,7 +2290,7 @@ load
 command
 for
 (
-long
+uint32_t
 i
 =
 0

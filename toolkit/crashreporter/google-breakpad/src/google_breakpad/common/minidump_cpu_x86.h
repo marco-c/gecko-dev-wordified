@@ -1111,7 +1111,7 @@ structure
 .
 The
 high
-26
+24
 bits
 identify
 the
@@ -1119,7 +1119,7 @@ CPU
 the
 *
 low
-6
+8
 bits
 identify
 the
@@ -1219,6 +1219,19 @@ MD_CONTEXT_X86
 /
 *
 CONTEXT_EXTENDED_REGISTERS
+*
+/
+#
+define
+MD_CONTEXT_X86_XSTATE
+(
+MD_CONTEXT_X86
+|
+0x00000040
+)
+/
+*
+CONTEXT_XSTATE
 *
 /
 #
