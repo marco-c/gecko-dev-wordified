@@ -1210,10 +1210,9 @@ n
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS0
 (
 nsNPAPIPlugin
-nsIPlugin
 )
 nsNPAPIPlugin
 :
@@ -3041,7 +3040,7 @@ return
 mPluginFuncs
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPlugin
 :
 :
