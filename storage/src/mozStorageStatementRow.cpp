@@ -827,6 +827,12 @@ PRBool
 _retval
 )
 {
+NS_ENSURE_TRUE
+(
+mStatement
+NS_ERROR_NOT_INITIALIZED
+)
+;
 if
 (
 JSVAL_IS_STRING
@@ -1521,6 +1527,12 @@ PRBool
 _retval
 )
 {
+NS_ENSURE_TRUE
+(
+mStatement
+NS_ERROR_NOT_INITIALIZED
+)
+;
 if
 (
 JSVAL_IS_STRING
