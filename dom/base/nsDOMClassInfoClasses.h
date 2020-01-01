@@ -790,10 +790,6 @@ SVGAElement
 )
 DOMCI_CLASS
 (
-SVGAnimateTransformElement
-)
-DOMCI_CLASS
-(
 SVGMpathElement
 )
 DOMCI_CLASS
