@@ -12020,6 +12020,9 @@ Ci
 nsIDownloadManager
 )
 ;
+#
+ifdef
+XP_WIN
 if
 (
 Win7Features
@@ -12061,6 +12064,8 @@ window
 )
 ;
 }
+#
+endif
 }
 10000
 )
@@ -48237,6 +48242,9 @@ var
 gPluginHandler
 =
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 get
 CrashSubmit
 (
@@ -48273,6 +48281,8 @@ this
 CrashSubmit
 ;
 }
+#
+endif
 /
 /
 Map
@@ -49323,6 +49333,9 @@ plugin
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 /
 /
 Callback
@@ -49399,6 +49412,8 @@ browserDumpID
 )
 ;
 }
+#
+endif
 /
 /
 Callback
