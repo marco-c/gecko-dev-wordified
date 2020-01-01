@@ -441,6 +441,10 @@ Window
 )
 DOMCI_CLASS
 (
+InnerWindow
+)
+DOMCI_CLASS
+(
 Location
 )
 DOMCI_CLASS
@@ -1003,6 +1007,10 @@ Window
 DOMCI_CLASS
 (
 ChromeWindow
+)
+DOMCI_CLASS
+(
+InnerChromeWindow
 )
 /
 /
@@ -1794,6 +1802,10 @@ Window
 DOMCI_CLASS
 (
 ModalContentWindow
+)
+DOMCI_CLASS
+(
+InnerModalContentWindow
 )
 /
 /
