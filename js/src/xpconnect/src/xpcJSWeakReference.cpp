@@ -911,10 +911,9 @@ if
 obj
 -
 >
-map
--
->
-ops
+getOps
+(
+)
 -
 >
 thisObject
@@ -927,10 +926,9 @@ obj
 obj
 -
 >
-map
--
->
-ops
+getOps
+(
+)
 -
 >
 thisObject

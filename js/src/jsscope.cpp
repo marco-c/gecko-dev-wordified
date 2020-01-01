@@ -814,10 +814,6 @@ JSScope
 create
 (
 cx
-scope
--
->
-ops
 obj
 -
 >
@@ -1582,10 +1578,6 @@ create
 JSContext
 *
 cx
-const
-JSObjectOps
-*
-ops
 Class
 *
 clasp
@@ -1596,16 +1588,6 @@ uint32
 shape
 )
 {
-JS_ASSERT
-(
-ops
--
->
-isNative
-(
-)
-)
-;
 JS_ASSERT
 (
 obj
@@ -1623,7 +1605,6 @@ create
 JSScope
 >
 (
-ops
 obj
 )
 ;
@@ -1712,10 +1693,6 @@ JSEmptyScope
 JSContext
 *
 cx
-const
-JSObjectOps
-*
-ops
 Class
 *
 clasp
@@ -1723,7 +1700,6 @@ clasp
 :
 JSScope
 (
-ops
 NULL
 )
 clasp
@@ -2027,14 +2003,12 @@ INIT_EMPTY_SCOPE
 (
 Name
 NAME
-ops
 )
 \
 INIT_EMPTY_SCOPE_WITH_CLASS
 (
 Name
 NAME
-ops
 CLASP
 (
 Name
@@ -2046,7 +2020,6 @@ INIT_EMPTY_SCOPE_WITH_CLASS
 (
 Name
 NAME
-ops
 clasp
 )
 \
@@ -2054,7 +2027,6 @@ INIT_EMPTY_SCOPE_WITH_FREESLOT
 (
 Name
 NAME
-ops
 clasp
 JSSLOT_FREE
 (
@@ -2067,7 +2039,6 @@ INIT_EMPTY_SCOPE_WITH_FREESLOT
 (
 Name
 NAME
-ops
 clasp
 slot
 )
@@ -2086,7 +2057,6 @@ JSEmptyScope
 >
 (
 cx
-ops
 clasp
 )
 ;
@@ -2345,8 +2315,6 @@ INIT_EMPTY_SCOPE_WITH_FREESLOT
 (
 Arguments
 ARGUMENTS
-&
-js_ObjectOps
 CLASP
 (
 Arguments
@@ -2360,8 +2328,6 @@ INIT_EMPTY_SCOPE
 (
 Block
 BLOCK
-&
-js_ObjectOps
 )
 ;
 /
@@ -2422,8 +2388,6 @@ INIT_EMPTY_SCOPE_WITH_FREESLOT
 (
 Call
 CALL
-&
-js_ObjectOps
 CLASP
 (
 Call
@@ -2457,8 +2421,6 @@ INIT_EMPTY_SCOPE
 (
 DeclEnv
 DECL_ENV
-&
-js_ObjectOps
 )
 ;
 /
@@ -2481,11 +2443,7 @@ INIT_EMPTY_SCOPE_WITH_CLASS
 Enumerator
 ENUMERATOR
 &
-js_ObjectOps
-&
 js_IteratorClass
-.
-base
 )
 ;
 /
@@ -2498,12 +2456,12 @@ objects
 .
 *
 /
-INIT_EMPTY_SCOPE
+INIT_EMPTY_SCOPE_WITH_CLASS
 (
 With
 WITH
 &
-js_WithObjectOps
+js_WithClass
 )
 ;
 #
