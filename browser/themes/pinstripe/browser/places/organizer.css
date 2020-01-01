@@ -2316,6 +2316,13 @@ top
 #
 organizerScopeBar
 {
+-
+moz
+-
+appearance
+:
+none
+;
 background
 :
 url
