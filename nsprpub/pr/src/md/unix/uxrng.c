@@ -520,6 +520,12 @@ defined
 (
 SYMBIAN
 )
+|
+|
+defined
+(
+__GNU__
+)
 )
 #
 include
