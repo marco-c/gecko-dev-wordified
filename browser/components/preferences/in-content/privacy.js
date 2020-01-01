@@ -898,7 +898,7 @@ Services
 .
 prefs
 .
-getBoolPref
+getIntPref
 (
 "
 privacy
