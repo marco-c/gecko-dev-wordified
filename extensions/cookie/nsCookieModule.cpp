@@ -488,10 +488,13 @@ function
 for
 the
 objects
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
+nsIPermissionManager
 nsPermissionManager
-Init
+:
+:
+GetXPCOMSingleton
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
@@ -545,7 +548,7 @@ kCookieCIDs
 kNS_PERMISSIONMANAGER_CID
 false
 NULL
-nsPermissionManagerConstructor
+nsIPermissionManagerConstructor
 }
 {
 &
