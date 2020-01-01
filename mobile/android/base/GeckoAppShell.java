@@ -1057,6 +1057,16 @@ uri
 public
 static
 native
+boolean
+canCreateFixupURI
+(
+String
+text
+)
+;
+public
+static
+native
 void
 processNextNativeEvent
 (
