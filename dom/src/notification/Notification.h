@@ -294,7 +294,7 @@ aDirection
 )
 {
 case
-NotificationDirection
+NotificationDirectionValues
 :
 :
 Ltr
@@ -308,7 +308,7 @@ ltr
 )
 ;
 case
-NotificationDirection
+NotificationDirectionValues
 :
 :
 Rtl
