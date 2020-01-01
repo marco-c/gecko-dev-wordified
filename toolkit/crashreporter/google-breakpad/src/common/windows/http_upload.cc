@@ -818,6 +818,11 @@ INTERNET_FLAG_SECURE
 :
 0
 ;
+http_open_flags
+|
+=
+INTERNET_FLAG_NO_COOKIES
+;
 AutoInternetHandle
 request
 (
