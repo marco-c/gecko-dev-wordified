@@ -1,3 +1,6 @@
+#
+filter
+substitution
 /
 *
 *
@@ -446,7 +449,7 @@ Iterator
 WEAVE_CHANNEL
 :
 "
-xpi_type
+weave_channel
 "
 WEAVE_VERSION
 :
@@ -525,7 +528,7 @@ weave_version
 &
 channel
 =
-xpi_type
+weave_channel
 "
 UPDATED_REL_URL
 :
