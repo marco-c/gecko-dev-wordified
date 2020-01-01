@@ -26203,6 +26203,7 @@ numGlobalSlots
 }
 }
 static
+JS_REQUIRES_STACK
 TypeConsensus
 TypeMapLinkability
 (
@@ -32975,6 +32976,7 @@ true
 ;
 }
 static
+JS_REQUIRES_STACK
 TypeConsensus
 FindLoopEdgeTarget
 (
