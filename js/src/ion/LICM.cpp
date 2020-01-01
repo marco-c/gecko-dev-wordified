@@ -3444,6 +3444,11 @@ rhs
 {
 if
 (
+lhs
+.
+term
+&
+&
 !
 isLoopInvariant
 (
@@ -3495,6 +3500,15 @@ lessEqual
 lessEqual
 ;
 }
+JS_ASSERT_IF
+(
+rhs
+isLoopInvariant
+(
+rhs
+)
+)
+;
 /
 /
 Ensure
