@@ -1652,6 +1652,9 @@ mWinlessThrottleOldWndProc
 HWND
 mWinlessHiddenMsgHWND
 ;
+HHOOK
+mMouseHook
+;
 #
 endif
 friend
