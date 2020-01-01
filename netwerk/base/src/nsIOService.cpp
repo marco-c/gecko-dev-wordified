@@ -1416,6 +1416,7 @@ NS_FAILED
 rv
 )
 )
+{
 NS_WARNING
 (
 "
@@ -1428,6 +1429,10 @@ service
 "
 )
 ;
+return
+rv
+;
+}
 mDNSService
 =
 do_GetService
@@ -1444,6 +1449,7 @@ NS_FAILED
 rv
 )
 )
+{
 NS_WARNING
 (
 "
@@ -1455,6 +1461,10 @@ service
 "
 )
 ;
+return
+rv
+;
+}
 /
 /
 XXX
