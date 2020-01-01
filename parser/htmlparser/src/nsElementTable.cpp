@@ -8574,7 +8574,7 @@ prop
 range
 *
 /
-kNonContainer
+0
 kDefaultPropRange
 /
 *
