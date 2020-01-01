@@ -5517,7 +5517,7 @@ if
 conn
 -
 >
-isAsyncClosing
+isClosing
 (
 )
 )
