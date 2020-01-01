@@ -937,9 +937,6 @@ nsCRT
 h
 "
 class
-nsIScrollableView
-;
-class
 nsDocShell
 ;
 class
@@ -947,6 +944,9 @@ nsIController
 ;
 class
 OnLinkClickEvent
+;
+class
+nsIScrollableFrame
 ;
 /
 *
@@ -3094,13 +3094,10 @@ PRInt32
 aOffset
 )
 ;
-NS_IMETHOD
-GetRootScrollableView
+nsIScrollableFrame
+*
+GetRootScrollFrame
 (
-nsIScrollableView
-*
-*
-aOutScrollView
 )
 ;
 NS_IMETHOD

@@ -467,9 +467,6 @@ class
 nsIContent
 ;
 class
-nsIScrollableView
-;
-class
 nsEvent
 ;
 class
