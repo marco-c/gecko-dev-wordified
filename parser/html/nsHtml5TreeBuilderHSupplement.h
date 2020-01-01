@@ -615,3 +615,8 @@ DropHandles
 (
 )
 ;
+void
+MarkAsBroken
+(
+)
+;

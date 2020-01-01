@@ -406,17 +406,6 @@ end
 ;
 public
 :
-nsHtml5UTF16Buffer
-(
-PRUnichar
-*
-buffer
-PRInt32
-start
-PRInt32
-end
-)
-;
 PRInt32
 getStart
 (

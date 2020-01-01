@@ -489,7 +489,7 @@ h
 #
 include
 "
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 .
 h
 "
@@ -1134,6 +1134,11 @@ ret
 }
 #
 endif
+void
+MarkAsBroken
+(
+)
+;
 /
 *
 *
@@ -2080,7 +2085,7 @@ queue
 /
 nsRefPtr
 <
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 >
 mFirstBuffer
 ;
@@ -2101,7 +2106,7 @@ buffer
 queue
 *
 /
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 *
 mLastBuffer
 ;

@@ -470,6 +470,7 @@ on
 -
 pop
 ops
+eTreeOpMarkAsBroken
 eTreeOpRunScript
 eTreeOpRunScriptAsyncDefer
 eTreeOpDoneAddingChildren
