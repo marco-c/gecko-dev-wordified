@@ -1506,9 +1506,6 @@ mallocSizeOf
 void
 sizeOfTypeInferenceData
 (
-JSContext
-*
-cx
 JS
 :
 :

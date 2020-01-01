@@ -14461,7 +14461,6 @@ CellIter
 i
 (
 cx
-cx
 -
 >
 compartment
@@ -15249,7 +15248,6 @@ CellIter
 i
 (
 cx
-cx
 -
 >
 compartment
@@ -15420,7 +15418,6 @@ gc
 CellIter
 i
 (
-cx
 cx
 -
 >
@@ -16417,7 +16414,6 @@ gc
 CellIter
 i
 (
-cx
 compartment
 gc
 :
@@ -16499,7 +16495,6 @@ gc
 CellIter
 i
 (
-cx
 compartment
 gc
 :
@@ -43338,9 +43333,6 @@ JSCompartment
 :
 sizeOfTypeInferenceData
 (
-JSContext
-*
-cx
 TypeInferenceSizes
 *
 sizes
@@ -43470,7 +43462,6 @@ gc
 CellIter
 i
 (
-cx
 this
 gc
 :

@@ -4433,22 +4433,6 @@ change
 *
 debugMode
 .
-This
-assumes
-that
-'
-comp
-'
-is
-in
-the
-same
-thread
-as
-'
-cx
-'
-.
 *
 /
 for
@@ -4459,7 +4443,6 @@ gc
 CellIter
 i
 (
-cx
 this
 gc
 :
@@ -4722,7 +4705,6 @@ gc
 CellIter
 i
 (
-cx
 this
 gc
 :
@@ -4797,7 +4779,6 @@ gc
 CellIter
 i
 (
-cx
 this
 gc
 :
