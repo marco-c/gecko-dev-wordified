@@ -3595,6 +3595,12 @@ ok
 =
 JS_FALSE
 ;
+AutoCXPusher
+pusher
+(
+cx
+)
+;
 JSAutoRequest
 ar
 (
