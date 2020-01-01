@@ -3427,7 +3427,7 @@ GetRuntime
 )
 -
 >
-UnsetContextGlobals
+UnrootContextGlobals
 (
 )
 ;
@@ -3622,7 +3622,7 @@ GetRuntime
 )
 -
 >
-RestoreContextGlobals
+RootContextGlobals
 (
 )
 ;

@@ -4849,6 +4849,16 @@ UnrootContextGlobals
 (
 )
 ;
+#
+ifdef
+DEBUG_CC
+void
+RootContextGlobals
+(
+)
+;
+#
+endif
 void
 DebugDump
 (
