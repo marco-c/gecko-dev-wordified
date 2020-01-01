@@ -2604,7 +2604,7 @@ typeaheadfind
 .
 enablesound
 "
-true
+false
 )
 ;
 pref
