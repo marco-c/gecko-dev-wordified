@@ -882,7 +882,7 @@ test
 "
 )
 ;
-aInstalls
+installs
 .
 forEach
 (
