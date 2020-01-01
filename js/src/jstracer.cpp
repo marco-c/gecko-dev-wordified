@@ -85275,7 +85275,7 @@ Avoid
 non
 -
 native
-lookupProperty
+lookupGeneric
 hooks
 .
 if
@@ -85288,7 +85288,7 @@ getOps
 )
 -
 >
-lookupProperty
+lookupGeneric
 )
 return
 false
@@ -90669,7 +90669,7 @@ JS_ASSERT
 obj
 -
 >
-lookupProperty
+lookupGeneric
 (
 cx
 shape
@@ -107759,7 +107759,7 @@ ok
 obj
 -
 >
-lookupProperty
+lookupGeneric
 (
 cx
 id
@@ -107780,7 +107780,7 @@ RETURN_ERROR_A
 obj
 -
 >
-lookupProperty
+lookupGeneric
 failed
 in
 JSOP_IN
@@ -107789,7 +107789,7 @@ JSOP_IN
 ;
 /
 *
-lookupProperty
+lookupGeneric
 can
 reenter
 the

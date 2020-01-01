@@ -18331,7 +18331,7 @@ if
 referent
 -
 >
-lookupProperty
+lookupGeneric
 (
 cx
 id
