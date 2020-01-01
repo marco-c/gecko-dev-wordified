@@ -2109,6 +2109,14 @@ nsIView
 aView
 )
 ;
+NS_IMETHOD_
+(
+bool
+)
+IsVisible
+(
+)
+;
 /
 /
 caret

@@ -1229,7 +1229,7 @@ return
 index
 ;
 }
-nsIBox
+nsIFrame
 *
 nsDeckFrame
 :

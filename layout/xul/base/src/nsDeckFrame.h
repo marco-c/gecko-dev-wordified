@@ -664,6 +664,12 @@ nsStyleContext
 aContext
 )
 ;
+nsIFrame
+*
+GetSelectedBox
+(
+)
+;
 protected
 :
 /
@@ -679,12 +685,6 @@ resist
 devirtualizing
 these
 .
-nsIBox
-*
-GetSelectedBox
-(
-)
-;
 void
 IndexChanged
 (
