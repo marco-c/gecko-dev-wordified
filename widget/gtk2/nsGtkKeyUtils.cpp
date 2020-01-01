@@ -3543,9 +3543,6 @@ NS_DRAG_EVENT
 case
 NS_SIMPLE_GESTURE_EVENT
 :
-case
-NS_MOZTOUCH_EVENT
-:
 break
 ;
 default

@@ -506,9 +506,6 @@ NS_DRAG_EVENT
 case
 NS_SIMPLE_GESTURE_EVENT
 :
-case
-NS_MOZTOUCH_EVENT
-:
 {
 static_cast
 <
@@ -773,9 +770,6 @@ NS_DRAG_EVENT
 case
 NS_SIMPLE_GESTURE_EVENT
 :
-case
-NS_MOZTOUCH_EVENT
-:
 static_cast
 <
 nsInputEvent
@@ -935,9 +929,6 @@ NS_DRAG_EVENT
 :
 case
 NS_SIMPLE_GESTURE_EVENT
-:
-case
-NS_MOZTOUCH_EVENT
 :
 static_cast
 <
@@ -1114,9 +1105,6 @@ NS_DRAG_EVENT
 case
 NS_SIMPLE_GESTURE_EVENT
 :
-case
-NS_MOZTOUCH_EVENT
-:
 *
 aButton
 =
@@ -1206,9 +1194,6 @@ NS_DRAG_EVENT
 :
 case
 NS_SIMPLE_GESTURE_EVENT
-:
-case
-NS_MOZTOUCH_EVENT
 :
 *
 aButtons
@@ -1308,9 +1293,6 @@ NS_DRAG_EVENT
 :
 case
 NS_SIMPLE_GESTURE_EVENT
-:
-case
-NS_MOZTOUCH_EVENT
 :
 relatedTarget
 =

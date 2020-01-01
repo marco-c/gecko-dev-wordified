@@ -1674,10 +1674,6 @@ SimpleGestureEvent
 )
 DOMCI_CLASS
 (
-MozTouchEvent
-)
-DOMCI_CLASS
-(
 MathMLElement
 )
 /
