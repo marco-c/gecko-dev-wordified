@@ -56,6 +56,7 @@ MPL
 from
 __future__
 import
+absolute_import
 unicode_literals
 import
 logging
@@ -64,7 +65,7 @@ time
 import
 unittest
 from
-mozbuild
+mach
 .
 logger
 import
