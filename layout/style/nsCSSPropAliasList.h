@@ -327,17 +327,6 @@ CSS_PROP_ALIAS
 moz
 -
 transform
-transform
-MozTransform
-"
-"
-)
-CSS_PROP_ALIAS
-(
--
-moz
--
-transform
 -
 origin
 transform_origin

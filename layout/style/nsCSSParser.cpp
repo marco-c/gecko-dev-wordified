@@ -3304,6 +3304,8 @@ aValue
 bool
 ParseTransform
 (
+bool
+aIsPrefixed
 )
 ;
 bool
@@ -35433,6 +35435,16 @@ eCSSProperty_transform
 return
 ParseTransform
 (
+false
+)
+;
+case
+eCSSProperty__moz_transform
+:
+return
+ParseTransform
+(
+true
 )
 ;
 case
@@ -50257,6 +50269,8 @@ CSSParserImpl
 :
 ParseTransform
 (
+bool
+aIsPrefixed
 )
 {
 nsCSSValue
