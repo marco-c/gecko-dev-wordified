@@ -1469,9 +1469,12 @@ maybeImminent
 Debug
 implementation
 of
+(
+OffTheBooks
+)
 Mutex
 void
-Mutex
+OffTheBooksMutex
 :
 :
 Lock
@@ -1507,7 +1510,7 @@ by
 mLock
 }
 void
-Mutex
+OffTheBooksMutex
 :
 :
 Unlock
