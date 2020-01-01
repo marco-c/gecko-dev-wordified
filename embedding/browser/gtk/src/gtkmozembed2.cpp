@@ -474,11 +474,11 @@ later
 .
 #
 include
-<
+"
 nsIWebBrowser
 .
 h
->
+"
 #
 include
 "
