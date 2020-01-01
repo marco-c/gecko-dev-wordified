@@ -13129,8 +13129,7 @@ ion
 Method_Compiled
 )
 {
-bool
-ok
+interpReturnOK
 =
 ion
 :
@@ -13150,7 +13149,7 @@ pc
 ;
 if
 (
-ok
+interpReturnOK
 )
 goto
 jit_return
