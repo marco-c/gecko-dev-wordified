@@ -944,6 +944,17 @@ BOOL
 )
 transparent
 ;
+-
+(
+void
+)
+sendFocusEvent
+:
+(
+PRUint32
+)
+eventType
+;
 end
 /
 /
@@ -2370,6 +2381,9 @@ is
 a
 CoreGraphics
 plugin
+PRPackedBool
+mInSetFocus
+;
 nsPluginPort
 mPluginPort
 ;
