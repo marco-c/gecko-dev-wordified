@@ -2988,7 +2988,7 @@ i
 JSPCCounters
 :
 :
-COUNT
+NUM_COUNTERS
 ;
 +
 +

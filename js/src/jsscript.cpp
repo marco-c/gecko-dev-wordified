@@ -5227,7 +5227,7 @@ counts
 *
 numBytecodes
 *
-COUNT
+NUM_COUNTERS
 ;
 counts
 =
