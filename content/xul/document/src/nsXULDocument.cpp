@@ -29173,6 +29173,10 @@ true
 )
 )
 {
+mDocLWTheme
+=
+Doc_Theme_Neutral
+;
 nsAutoString
 lwTheme
 ;
