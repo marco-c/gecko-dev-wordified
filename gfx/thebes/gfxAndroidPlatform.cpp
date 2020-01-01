@@ -1321,6 +1321,7 @@ XRE_GetProcessType
 GeckoProcessType_Content
 |
 |
+!
 ContentChild
 :
 :
@@ -1329,7 +1330,7 @@ GetSingleton
 )
 -
 >
-HasOwnApp
+IsForBrowser
 (
 )
 ;
