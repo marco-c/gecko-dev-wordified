@@ -425,6 +425,9 @@ BLOCK
 *
 *
 /
+#
+define
+__STDC_LIMIT_MACROS
 /
 *
 *
@@ -506,13 +509,6 @@ h
 include
 "
 jscntxt
-.
-h
-"
-#
-include
-"
-jsobjinlines
 .
 h
 "

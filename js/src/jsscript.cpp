@@ -2825,7 +2825,7 @@ script
 )
 ;
 }
-JSClass
+Class
 js_ScriptClass
 =
 {

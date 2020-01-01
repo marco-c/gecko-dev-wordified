@@ -84478,7 +84478,7 @@ v
 ;
 if
 (
-JS_InstanceOf
+InstanceOf
 (
 cx
 obj
@@ -100518,7 +100518,7 @@ toObject
 if
 (
 !
-PRIMITIVE_THIS_TEST
+PrimitiveThisTest
 (
 fun
 l

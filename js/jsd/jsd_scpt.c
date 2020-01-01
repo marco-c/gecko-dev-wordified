@@ -3733,7 +3733,8 @@ pc
 jsval
 *
 rval
-jsval
+void
+*
 closure
 )
 {
@@ -3745,10 +3746,7 @@ jsdhook
 JSDExecHook
 *
 )
-JSVAL_TO_PRIVATE
-(
 closure
-)
 ;
 JSD_ExecutionHookProc
 hook
