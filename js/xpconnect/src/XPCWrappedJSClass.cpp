@@ -2698,8 +2698,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
-jsval
+RootedValue
 jsvalName
+(
+cx
+)
 ;
 if
 (
@@ -2708,8 +2711,11 @@ JS_IdToValue
 (
 cx
 idName
-&
 jsvalName
+.
+address
+(
+)
 )
 )
 return
