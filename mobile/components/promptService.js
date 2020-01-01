@@ -1679,6 +1679,13 @@ nsTextBoxFrame
 :
 UpdateAccessTitle
 .
+if
+(
+!
+aLabel
+)
+return
+;
 var
 accessKey
 =
