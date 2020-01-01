@@ -3473,6 +3473,7 @@ length
 )
 )
 ;
+}
 geckoPostToUI
 (
 new
@@ -3509,7 +3510,6 @@ newEnd
 }
 )
 ;
-}
 }
 /
 /
@@ -4094,11 +4094,6 @@ removeSpan
 what
 )
 ;
-if
-(
-mUpdateGecko
-)
-{
 mActionQueue
 .
 offer
@@ -4112,7 +4107,6 @@ TYPE_REMOVE_SPAN
 )
 )
 ;
-}
 }
 Override
 public
