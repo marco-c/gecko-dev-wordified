@@ -667,12 +667,6 @@ some
 classes
 this
 .
-G_TabbedBrowserWatcher
-=
-G_TabbedBrowserWatcher
-;
-this
-.
 PROT_Controller
 =
 PROT_Controller
