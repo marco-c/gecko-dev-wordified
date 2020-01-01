@@ -773,6 +773,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+triedToWrap
 )
 ;
 /

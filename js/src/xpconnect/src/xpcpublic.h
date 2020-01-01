@@ -1676,6 +1676,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+enabled
 )
 ;
 void
@@ -1698,6 +1701,9 @@ JSObject
 obj
 DefineInterface
 aDefine
+nsresult
+*
+aResult
 )
 ;
 }

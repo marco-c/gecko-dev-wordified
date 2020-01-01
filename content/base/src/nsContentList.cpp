@@ -950,6 +950,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+failed
 )
 {
 return
@@ -967,6 +970,7 @@ create
 cx
 scope
 this
+failed
 )
 ;
 }
@@ -2418,6 +2422,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+failed
 )
 {
 return
@@ -2443,6 +2450,7 @@ nsIHTMLCollection
 this
 )
 this
+failed
 )
 ;
 }

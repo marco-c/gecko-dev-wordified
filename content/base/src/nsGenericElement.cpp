@@ -8915,6 +8915,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+triedToWrap
 )
 {
 return
@@ -8932,6 +8935,7 @@ create
 cx
 scope
 this
+triedToWrap
 )
 ;
 }
