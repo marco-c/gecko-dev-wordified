@@ -205,7 +205,7 @@ h
 #
 include
 "
-nsError
+ImageErrors
 .
 h
 "
@@ -1351,6 +1351,11 @@ mGotData
 ;
 bool
 mIsInCache
+:
+1
+;
+bool
+mBlockingOnload
 :
 1
 ;
