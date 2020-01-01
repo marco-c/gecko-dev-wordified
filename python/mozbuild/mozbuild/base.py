@@ -1460,11 +1460,25 @@ _ensure_objdir_exists
 (
 )
         
+#
+Need
+to
+copy
+list
+since
+we
+modify
+it
+.
+        
 args
 =
+list
+(
 self
 .
 _make_path
+)
         
 if
 directory
