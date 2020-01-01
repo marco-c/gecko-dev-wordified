@@ -495,6 +495,13 @@ h
 #
 include
 "
+nsAutoRef
+.
+h
+"
+#
+include
+"
 nestegg
 /
 nestegg
@@ -1008,8 +1015,10 @@ want
 to
 read
 .
+nsReturnRef
+<
 nestegg_packet
-*
+>
 NextPacket
 (
 TrackType
