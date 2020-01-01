@@ -515,7 +515,7 @@ methodId
 int
 nArgs
 ;
-DWORD
+DWORD_PTR
 *
 args
 ;
@@ -530,7 +530,7 @@ int
 numArgs
 =
 0
-DWORD
+DWORD_PTR
 *
 arguments
 =

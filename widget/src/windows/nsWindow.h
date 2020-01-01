@@ -3034,10 +3034,10 @@ before
 chrome
 was
 hidden
-DWORD
+DWORD_PTR
 mOldStyle
 ;
-DWORD
+DWORD_PTR
 mOldExStyle
 ;
 /
