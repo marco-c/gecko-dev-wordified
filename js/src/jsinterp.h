@@ -5520,8 +5520,6 @@ argv_
 uintN
 argc_
 ;
-protected
-:
 CallArgs
 (
 )
