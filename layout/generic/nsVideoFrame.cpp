@@ -291,6 +291,13 @@ ImageLayers
 h
 "
 #
+include
+"
+nsContentList
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

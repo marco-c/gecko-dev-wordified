@@ -107,6 +107,13 @@ nsIDOMSVGTitleElement
 .
 h
 "
+#
+include
+"
+nsStubMutationObserver
+.
+h
+"
 typedef
 nsSVGStylableElement
 nsSVGTitleElementBase

@@ -271,13 +271,6 @@ h
 #
 include
 "
-nsContentList
-.
-h
-"
-#
-include
-"
 nsDOMClassInfoID
 .
 h
@@ -321,6 +314,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+nsINodeList
 .
 h
 "

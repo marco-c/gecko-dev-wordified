@@ -223,6 +223,13 @@ nsIDOMHTMLInputElement
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 const
 nscoord
 kSuggestedNotSet

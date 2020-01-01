@@ -132,6 +132,13 @@ nsSVGUseElement
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 typedef
 nsSVGGFrame
 nsSVGUseFrameBase

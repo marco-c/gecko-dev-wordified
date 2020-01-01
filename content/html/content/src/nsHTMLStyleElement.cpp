@@ -191,6 +191,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsStubMutationObserver
+.
+h
+"
 class
 nsHTMLStyleElement
 :

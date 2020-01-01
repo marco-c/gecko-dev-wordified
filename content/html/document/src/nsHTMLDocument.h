@@ -566,7 +566,7 @@ aName
 )
 {
 return
-NS_GetFuncStringContentList
+NS_GetFuncStringNodeList
 (
 this
 MatchNameAttribute

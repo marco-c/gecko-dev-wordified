@@ -10984,7 +10984,7 @@ nsContentList
 >
 elements
 =
-NS_GetFuncStringContentList
+NS_GetFuncStringNodeList
 (
 this
 MatchItems

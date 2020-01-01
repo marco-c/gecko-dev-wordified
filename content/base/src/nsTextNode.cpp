@@ -150,6 +150,13 @@ nsThreadUtils
 h
 "
 #
+include
+"
+nsStubMutationObserver
+.
+h
+"
+#
 ifdef
 DEBUG
 #

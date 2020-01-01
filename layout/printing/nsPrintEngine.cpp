@@ -804,6 +804,13 @@ Element
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 using
 namespace
 mozilla

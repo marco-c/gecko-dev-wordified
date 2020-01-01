@@ -128,6 +128,13 @@ nsIDOMHTMLOptionElement
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 class
 nsHTMLDataListElement
 :

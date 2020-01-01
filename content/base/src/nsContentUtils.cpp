@@ -34823,7 +34823,7 @@ nsContentList
 *
 elements
 =
-NS_GetFuncStringContentList
+NS_GetFuncStringHTMLCollection
 (
 aRootNode
 MatchClassNames
