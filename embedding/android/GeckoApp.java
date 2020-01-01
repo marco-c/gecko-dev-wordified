@@ -7142,7 +7142,7 @@ R
 .
 id
 .
-geckoLayout
+gecko_layout
 )
 ;
 mDoorHanger
@@ -7465,7 +7465,7 @@ R
 .
 id
 .
-mainLayout
+main_layout
 )
 ;
 mBrowserToolbar

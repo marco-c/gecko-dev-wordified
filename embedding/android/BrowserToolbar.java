@@ -716,7 +716,7 @@ R
 .
 id
 .
-favimage
+favicon
 )
 ;
 }
