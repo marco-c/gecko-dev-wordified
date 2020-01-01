@@ -435,7 +435,7 @@ PTestShellCommandParent
 TestShellParent
 :
 :
-PTestShellCommandConstructor
+AllocPTestShellCommand
 (
 const
 nsString
@@ -454,7 +454,7 @@ bool
 TestShellParent
 :
 :
-PTestShellCommandDestructor
+DeallocPTestShellCommand
 (
 PTestShellCommandParent
 *

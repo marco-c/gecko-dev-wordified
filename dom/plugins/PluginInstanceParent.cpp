@@ -475,7 +475,7 @@ PBrowserStreamParent
 PluginInstanceParent
 :
 :
-PBrowserStreamConstructor
+AllocPBrowserStream
 (
 const
 nsCString
@@ -574,7 +574,7 @@ bool
 PluginInstanceParent
 :
 :
-PBrowserStreamDestructor
+DeallocPBrowserStream
 (
 PBrowserStreamParent
 *
@@ -601,7 +601,7 @@ PPluginStreamParent
 PluginInstanceParent
 :
 :
-PPluginStreamConstructor
+AllocPPluginStream
 (
 const
 nsCString
@@ -631,7 +631,7 @@ bool
 PluginInstanceParent
 :
 :
-PPluginStreamDestructor
+DeallocPPluginStream
 (
 PPluginStreamParent
 *
@@ -971,7 +971,7 @@ PStreamNotifyParent
 PluginInstanceParent
 :
 :
-PStreamNotifyConstructor
+AllocPStreamNotify
 (
 const
 nsCString
@@ -1086,7 +1086,7 @@ bool
 PluginInstanceParent
 :
 :
-PStreamNotifyDestructor
+DeallocPStreamNotify
 (
 PStreamNotifyParent
 *
@@ -1557,7 +1557,7 @@ PPluginScriptableObjectParent
 PluginInstanceParent
 :
 :
-PPluginScriptableObjectConstructor
+AllocPPluginScriptableObject
 (
 )
 {
@@ -1572,7 +1572,7 @@ bool
 PluginInstanceParent
 :
 :
-PPluginScriptableObjectDestructor
+DeallocPPluginScriptableObject
 (
 PPluginScriptableObjectParent
 *

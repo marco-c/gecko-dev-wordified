@@ -953,7 +953,7 @@ PIFrameEmbeddingParent
 ContentProcessParent
 :
 :
-PIFrameEmbeddingConstructor
+AllocPIFrameEmbedding
 (
 const
 MagicWindowHandle
@@ -972,7 +972,7 @@ bool
 ContentProcessParent
 :
 :
-PIFrameEmbeddingDestructor
+DeallocPIFrameEmbedding
 (
 PIFrameEmbeddingParent
 *
@@ -991,7 +991,7 @@ PTestShellParent
 ContentProcessParent
 :
 :
-PTestShellConstructor
+AllocPTestShell
 (
 )
 {
@@ -1006,7 +1006,7 @@ bool
 ContentProcessParent
 :
 :
-PTestShellDestructor
+DeallocPTestShell
 (
 PTestShellParent
 *
@@ -1025,7 +1025,7 @@ PNeckoParent
 ContentProcessParent
 :
 :
-PNeckoConstructor
+AllocPNecko
 (
 )
 {
@@ -1040,7 +1040,7 @@ bool
 ContentProcessParent
 :
 :
-PNeckoDestructor
+DeallocPNecko
 (
 PNeckoParent
 *

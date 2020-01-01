@@ -687,7 +687,7 @@ PPluginInstanceParent
 PluginModuleParent
 :
 :
-PPluginInstanceConstructor
+AllocPPluginInstance
 (
 const
 nsCString
@@ -733,7 +733,7 @@ bool
 PluginModuleParent
 :
 :
-PPluginInstanceDestructor
+DeallocPPluginInstance
 (
 PPluginInstanceParent
 *

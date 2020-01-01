@@ -598,13 +598,13 @@ handled
 virtual
 PPluginScriptableObjectChild
 *
-PPluginScriptableObjectConstructor
+AllocPPluginScriptableObject
 (
 )
 ;
 virtual
 bool
-PPluginScriptableObjectDestructor
+DeallocPPluginScriptableObject
 (
 PPluginScriptableObjectChild
 *
@@ -614,7 +614,7 @@ aObject
 virtual
 PBrowserStreamChild
 *
-PBrowserStreamConstructor
+AllocPBrowserStream
 (
 const
 nsCString
@@ -671,7 +671,7 @@ artificial
 ;
 virtual
 bool
-PBrowserStreamDestructor
+DeallocPBrowserStream
 (
 PBrowserStreamChild
 *
@@ -689,7 +689,7 @@ artificial
 virtual
 PPluginStreamChild
 *
-PPluginStreamConstructor
+AllocPPluginStream
 (
 const
 nsCString
@@ -723,7 +723,7 @@ artificial
 ;
 virtual
 bool
-PPluginStreamDestructor
+DeallocPPluginStream
 (
 PPluginStreamChild
 *
@@ -741,7 +741,7 @@ artificial
 virtual
 PStreamNotifyChild
 *
-PStreamNotifyConstructor
+AllocPStreamNotify
 (
 const
 nsCString
@@ -770,7 +770,7 @@ result
 ;
 virtual
 bool
-PStreamNotifyDestructor
+DeallocPStreamNotify
 (
 PStreamNotifyChild
 *

@@ -522,13 +522,13 @@ InitNeckoChild
 virtual
 PHttpChannelChild
 *
-PHttpChannelConstructor
+AllocPHttpChannel
 (
 )
 ;
 virtual
 bool
-PHttpChannelDestructor
+DeallocPHttpChannel
 (
 PHttpChannelChild
 *

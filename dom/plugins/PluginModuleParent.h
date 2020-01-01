@@ -759,7 +759,7 @@ protected
 :
 PPluginInstanceParent
 *
-PPluginInstanceConstructor
+AllocPPluginInstance
 (
 const
 nsCString
@@ -790,7 +790,7 @@ rv
 ;
 virtual
 bool
-PPluginInstanceDestructor
+DeallocPPluginInstance
 (
 PPluginInstanceParent
 *

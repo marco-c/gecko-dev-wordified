@@ -508,7 +508,7 @@ public
 :
 PTestShellCommandParent
 *
-PTestShellCommandConstructor
+AllocPTestShellCommand
 (
 const
 nsString
@@ -517,7 +517,7 @@ aCommand
 )
 ;
 bool
-PTestShellCommandDestructor
+DeallocPTestShellCommand
 (
 PTestShellCommandParent
 *
