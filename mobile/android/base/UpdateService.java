@@ -1726,6 +1726,7 @@ UpdateServiceHelper
 .
 getUpdateUrl
 (
+this
 force
 )
 ;
