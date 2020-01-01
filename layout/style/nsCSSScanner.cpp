@@ -1486,7 +1486,7 @@ case
 eCSSToken_URL
 :
 case
-eCSSToken_InvalidURL
+eCSSToken_Bad_URL
 :
 case
 eCSSToken_HTMLComment
@@ -1781,7 +1781,7 @@ AppendLiteral
 break
 ;
 case
-eCSSToken_Error
+eCSSToken_Bad_String
 :
 aBuffer
 .
@@ -5245,7 +5245,7 @@ token
 of
 type
 "
-InvalidURL
+Bad_URL
 "
 so
 that
@@ -5266,8 +5266,8 @@ must
 /
 /
 treat
-an
-InvalidURL
+a
+Bad_URL
 token
 like
 a
@@ -5287,7 +5287,7 @@ aToken
 .
 mType
 =
-eCSSToken_InvalidURL
+eCSSToken_Bad_URL
 ;
 nsString
 &
@@ -8066,7 +8066,7 @@ aToken
 .
 mType
 =
-eCSSToken_Error
+eCSSToken_Bad_String
 ;
 #
 ifdef
