@@ -563,7 +563,7 @@ include
 "
 mozilla
 /
-Storage
+storage
 .
 h
 "
