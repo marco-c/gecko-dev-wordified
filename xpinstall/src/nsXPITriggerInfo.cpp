@@ -1267,10 +1267,6 @@ Get
 i
 )
 ;
-if
-(
-item
-)
 delete
 item
 ;

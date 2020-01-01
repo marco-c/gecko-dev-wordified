@@ -1221,10 +1221,6 @@ NS_IF_RELEASE
 mContext
 )
 ;
-if
-(
-mOriginalBounds
-)
 delete
 mOriginalBounds
 ;

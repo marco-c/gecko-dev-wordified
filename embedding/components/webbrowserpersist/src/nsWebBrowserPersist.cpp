@@ -14740,15 +14740,9 @@ OutputData
 )
 aData
 ;
-if
-(
-data
-)
-{
 delete
 data
 ;
-}
 return
 PR_TRUE
 ;
@@ -14780,11 +14774,6 @@ URIData
 )
 aData
 ;
-if
-(
-data
-)
-{
 delete
 data
 ;
@@ -14795,7 +14784,6 @@ data
 associated
 with
 key
-}
 return
 PR_TRUE
 ;
@@ -14875,11 +14863,6 @@ UploadData
 )
 aData
 ;
-if
-(
-data
-)
-{
 delete
 data
 ;
@@ -14890,7 +14873,6 @@ data
 associated
 with
 key
-}
 return
 PR_TRUE
 ;

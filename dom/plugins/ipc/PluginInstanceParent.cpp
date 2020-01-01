@@ -1015,10 +1015,6 @@ CGColorSpaceRelease
 mShColorSpace
 )
 ;
-if
-(
-mIOSurface
-)
 delete
 mIOSurface
 ;
@@ -4704,15 +4700,9 @@ mDrawingModel
 NPDrawingModelInvalidatingCoreAnimation
 )
 {
-if
-(
-mIOSurface
-)
-{
 delete
 mIOSurface
 ;
-}
 mIOSurface
 =
 nsIOSurface

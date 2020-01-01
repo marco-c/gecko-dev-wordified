@@ -750,15 +750,9 @@ gfxFontEntry
 (
 )
 {
-if
-(
-mUserFontData
-)
-{
 delete
 mUserFontData
 ;
-}
 }
 PRBool
 gfxFontEntry

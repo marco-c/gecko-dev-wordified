@@ -7467,10 +7467,6 @@ nsnull
 ;
 loser
 :
-if
-(
-hinfo
-)
 delete
 hinfo
 ;

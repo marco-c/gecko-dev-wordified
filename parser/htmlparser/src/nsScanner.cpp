@@ -1414,15 +1414,9 @@ nsScanner
 (
 )
 {
-if
-(
-mSlidingBuffer
-)
-{
 delete
 mSlidingBuffer
 ;
-}
 MOZ_COUNT_DTOR
 (
 nsScanner

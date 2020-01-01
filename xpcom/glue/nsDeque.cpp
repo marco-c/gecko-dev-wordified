@@ -1094,15 +1094,9 @@ nsDequeFunctor
 aDeallocator
 )
 {
-if
-(
-mDeallocator
-)
-{
 delete
 mDeallocator
 ;
-}
 mDeallocator
 =
 aDeallocator

@@ -496,17 +496,9 @@ nsTransactionItem
 (
 )
 {
-if
-(
-mRedoStack
-)
 delete
 mRedoStack
 ;
-if
-(
-mUndoStack
-)
 delete
 mUndoStack
 ;

@@ -960,15 +960,9 @@ mScaledFont
 )
 ;
 }
-if
-(
-mMetrics
-)
-{
 delete
 mMetrics
 ;
-}
 mFontFace
 =
 nsnull

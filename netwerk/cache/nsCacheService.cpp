@@ -10260,15 +10260,9 @@ result
 =
 nsnull
 ;
-if
-(
-entry
-)
-{
 delete
 entry
 ;
-}
 return
 rv
 ;
