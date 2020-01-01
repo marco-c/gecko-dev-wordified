@@ -4246,10 +4246,9 @@ of
 /
 size_t
 newCapLog2
-;
-JS_CEILING_LOG2
+=
+JS_CEILING_LOG2W
 (
-newCapLog2
 newMinCap
 )
 ;
