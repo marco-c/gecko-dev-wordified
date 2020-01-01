@@ -112,6 +112,8 @@ re
 os
 posixpath
 ntpath
+import
+errno
 from
 StringIO
 import
