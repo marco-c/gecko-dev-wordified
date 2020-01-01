@@ -6904,6 +6904,17 @@ type
 =
 =
 MIRType_Object
+|
+|
+/
+/
+For
+JS_OPTIMIZED_ARGUMENTS
+.
+type
+=
+=
+MIRType_Magic
 )
 ;
 setResultType
