@@ -2629,7 +2629,7 @@ source
 :
 |
 for
-saveURL
+internalSave
 (
 )
 function
@@ -2637,7 +2637,7 @@ ViewSourceSavePage
 (
 )
 {
-saveURL
+internalSave
 (
 window
 .
@@ -2652,9 +2652,17 @@ substring
 12
 )
 null
+null
+null
+null
+null
 "
 SaveLinkTitle
 "
+null
+null
+null
+gPageLoader
 )
 ;
 }
