@@ -321,6 +321,8 @@ onUrlOpen
 (
 String
 url
+String
+title
 )
 ;
 public

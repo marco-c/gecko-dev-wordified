@@ -1594,7 +1594,7 @@ limit
 )
 ;
 }
-private
+public
 static
 class
 PinnedSite
