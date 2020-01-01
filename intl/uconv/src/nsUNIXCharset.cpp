@@ -1627,9 +1627,12 @@ unixcharset
 ;
 propertyFile
 .
-Append
+AppendLiteral
+(
+NS_STRINGIFY
 (
 OSARCH
+)
 )
 ;
 propertyFile
