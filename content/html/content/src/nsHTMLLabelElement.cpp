@@ -1481,13 +1481,6 @@ mEvent
 NS_FOCUS_CONTENT
 )
 ;
-event
-.
-flags
-|
-=
-NS_EVENT_FLAG_CANT_BUBBLE
-;
 nsEventStatus
 status
 =
