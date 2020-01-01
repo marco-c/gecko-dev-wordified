@@ -637,6 +637,9 @@ aThread
 PRUint16
 DoDatabaseWork
 (
+mozIStorageConnection
+*
+aConnection
 )
 ;
 PRUint16
@@ -2290,6 +2293,9 @@ OpenDatabaseHelper
 :
 DoDatabaseWork
 (
+mozIStorageConnection
+*
+aConnection
 )
 {
 #
@@ -2328,6 +2334,17 @@ thread
 }
 #
 endif
+NS_ASSERTION
+(
+!
+aConnection
+"
+Huh
+?
+!
+"
+)
+;
 nsresult
 rv
 =
