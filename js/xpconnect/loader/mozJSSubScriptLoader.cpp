@@ -1326,9 +1326,14 @@ ar
 cx
 )
 ;
-JSObject
-*
+JS
+:
+:
+RootedObject
 targetObj
+(
+cx
+)
 ;
 mozJSComponentLoader
 *
