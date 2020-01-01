@@ -5596,7 +5596,7 @@ l
 r
 )
 OP
-JSVAL_TRUE
+JS_TRUE
 ;
 \
 }
