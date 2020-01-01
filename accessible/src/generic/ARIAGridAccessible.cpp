@@ -1712,11 +1712,6 @@ aCells
 )
 {
 PRUint32
-rowCount
-=
-RowCount
-(
-)
 colCount
 =
 ColCount

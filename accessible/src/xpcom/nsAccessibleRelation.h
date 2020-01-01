@@ -120,6 +120,15 @@ nsIMutableArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -143,6 +152,7 @@ relation
 /
 class
 nsAccessibleRelation
+MOZ_FINAL
 :
 public
 nsIAccessibleRelation
