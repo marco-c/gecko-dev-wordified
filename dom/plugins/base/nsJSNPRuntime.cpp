@@ -464,6 +464,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h
