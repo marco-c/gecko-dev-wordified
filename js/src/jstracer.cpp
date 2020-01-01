@@ -523,6 +523,13 @@ h
 #
 ifdef
 _MSC_VER
+#
+include
+<
+malloc
+.
+h
+>
 __inline
 void
 *
