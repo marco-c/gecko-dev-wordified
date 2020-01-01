@@ -428,13 +428,12 @@ js
 *
 Usage
 :
+(
+Literal
+class
+)
 *
 *
-*
-var
-snav
-=
-new
 SpatialNavigation
 (
 browser_element
