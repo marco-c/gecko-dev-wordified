@@ -19682,6 +19682,12 @@ scale
 useful
 for
 debugging
+make
+masked
+areas
+semi
+-
+opaque
 /
 /
 context
