@@ -216,8 +216,7 @@ beginFunction
 MIRGraph
 *
 graph
-JSScript
-*
+HandleScript
 script
 )
 {
@@ -546,8 +545,6 @@ endFunction
 (
 )
 {
-return
-;
 }
 void
 C1Spewer

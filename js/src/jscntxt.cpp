@@ -3175,8 +3175,7 @@ bug
 .
 *
 /
-JSScript
-*
+UnrootedScript
 script
 =
 cx

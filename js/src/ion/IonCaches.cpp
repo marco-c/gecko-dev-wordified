@@ -5447,10 +5447,10 @@ void
 *
 returnAddr
 ;
-JSScript
-*
+RootedScript
 topScript
-=
+(
+cx
 GetTopIonJSScript
 (
 cx
@@ -5458,6 +5458,7 @@ cx
 safepointIndex
 &
 returnAddr
+)
 )
 ;
 IonScript
@@ -9041,10 +9042,10 @@ SafepointIndex
 *
 safepointIndex
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 GetTopIonJSScript
 (
 cx
@@ -9052,6 +9053,7 @@ cx
 safepointIndex
 &
 returnAddr
+)
 )
 ;
 IonScript

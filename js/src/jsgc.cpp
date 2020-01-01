@@ -27809,8 +27809,7 @@ next
 )
 )
 {
-JSScript
-*
+RawScript
 script
 =
 i

@@ -609,8 +609,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-JSScript
-*
+UnrootedScript
 thing
 )
 ;
@@ -680,8 +679,7 @@ MarkChildren
 JSTracer
 *
 trc
-JSScript
-*
+UnrootedScript
 script
 )
 ;
@@ -4074,8 +4072,7 @@ trc
 HeapPtr
 <
 GlobalObject
-JSScript
-*
+RawScript
 >
 *
 thingp
@@ -4452,8 +4449,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-JSScript
-*
+UnrootedScript
 thing
 )
 {
@@ -5779,8 +5775,7 @@ MarkChildren
 JSTracer
 *
 trc
-JSScript
-*
+UnrootedScript
 script
 )
 {

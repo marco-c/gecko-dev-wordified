@@ -2702,7 +2702,7 @@ nonLazyScript
 )
 )
 ;
-js_CallNewScriptHook
+CallNewScriptHook
 (
 cx
 functionProtoScript

@@ -985,8 +985,7 @@ static
 bool
 match
 (
-JSScript
-*
+UnrootedScript
 script
 const
 EvalCacheLookup
@@ -999,8 +998,7 @@ l
 typedef
 HashSet
 <
-JSScript
-*
+RawScript
 EvalCacheHashPolicy
 SystemAllocPolicy
 >

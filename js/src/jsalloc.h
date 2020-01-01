@@ -118,13 +118,6 @@ jsalloc_h_
 #
 include
 "
-jspubtd
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h

@@ -1539,8 +1539,7 @@ createTemplateObject
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;

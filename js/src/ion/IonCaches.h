@@ -1246,8 +1246,7 @@ this
 void
 setScriptedLocation
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *

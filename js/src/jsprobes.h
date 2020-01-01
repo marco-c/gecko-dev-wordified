@@ -660,8 +660,7 @@ enterScript
 (
 JSContext
 *
-JSScript
-*
+UnrootedScript
 JSFunction
 *
 StackFrame
@@ -683,8 +682,7 @@ exitScript
 (
 JSContext
 *
-JSScript
-*
+UnrootedScript
 JSFunction
 *
 StackFrame
@@ -701,8 +699,7 @@ script
 bool
 startExecution
 (
-JSScript
-*
+UnrootedScript
 script
 )
 ;
@@ -717,8 +714,7 @@ execution
 bool
 stopExecution
 (
-JSScript
-*
+UnrootedScript
 script
 )
 ;
@@ -1449,8 +1445,7 @@ mjit
 JITChunk
 *
 chunk
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1576,8 +1571,7 @@ cx
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 )
 ;
@@ -1590,8 +1584,7 @@ cx
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 )
 ;
@@ -1649,8 +1642,7 @@ cx
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 int
 counter
@@ -1665,8 +1657,7 @@ cx
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 int
 counter
@@ -1854,8 +1845,7 @@ marker
 bool
 ETWStartExecution
 (
-JSScript
-*
+UnrootedScript
 script
 )
 ;
@@ -1865,8 +1855,7 @@ ETWStopExecution
 JSContext
 *
 cx
-JSScript
-*
+UnrootedScript
 script
 )
 ;
@@ -2025,8 +2014,7 @@ enterScript
 JSContext
 *
 cx
-JSScript
-*
+UnrootedScript
 script
 JSFunction
 *
@@ -2170,8 +2158,7 @@ exitScript
 JSContext
 *
 cx
-JSScript
-*
+UnrootedScript
 script
 JSFunction
 *
@@ -3440,8 +3427,7 @@ Probes
 :
 startExecution
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -3517,8 +3503,7 @@ Probes
 :
 stopExecution
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {

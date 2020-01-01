@@ -1036,6 +1036,9 @@ op
 )
 ;
 class
+PerThreadData
+;
+class
 ForkJoinShared
 ;
 class

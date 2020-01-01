@@ -14483,8 +14483,7 @@ getTemp
 )
 ;
 }
-JSScript
-*
+UnrootedScript
 script
 (
 )

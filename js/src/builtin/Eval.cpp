@@ -285,8 +285,7 @@ static
 bool
 IsEvalCacheCandidate
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -440,8 +439,7 @@ EvalCacheHashPolicy
 :
 match
 (
-JSScript
-*
+UnrootedScript
 script
 const
 EvalCacheLookup
@@ -909,11 +907,13 @@ remove
 p_
 )
 ;
-js_CallNewScriptHook
+CallNewScriptHook
 (
 cx_
 script_
-NULL
+NullPtr
+(
+)
 )
 ;
 script_
@@ -935,8 +935,7 @@ true
 void
 setNewScript
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -2138,8 +2137,7 @@ setOriginPrincipals
 originPrincipals
 )
 ;
-JSScript
-*
+UnrootedScript
 compiled
 =
 frontend

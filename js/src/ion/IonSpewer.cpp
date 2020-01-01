@@ -233,8 +233,7 @@ IonSpewNewFunction
 MIRGraph
 *
 graph
-JSScript
-*
+HandleScript
 function
 )
 {
@@ -430,8 +429,7 @@ beginFunction
 MIRGraph
 *
 graph
-JSScript
-*
+HandleScript
 function
 )
 {

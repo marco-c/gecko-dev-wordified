@@ -275,8 +275,7 @@ ptr
 Debug
 only
 :
-JSScript
-*
+RawScript
 /
 /
 [
@@ -1041,8 +1040,7 @@ ifdef
 DEBUG
 union
 {
-JSScript
-*
+RawScript
 script
 ;
 uint8_t
@@ -1050,8 +1048,7 @@ bytes
 [
 sizeof
 (
-JSScript
-*
+RawScript
 )
 ]
 ;
@@ -1069,8 +1066,7 @@ i
 <
 sizeof
 (
-JSScript
-*
+RawScript
 )
 ;
 i
@@ -2136,8 +2132,7 @@ startFrame
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2216,8 +2211,7 @@ ifdef
 DEBUG
 union
 {
-JSScript
-*
+RawScript
 script
 ;
 uint8_t
@@ -2225,8 +2219,7 @@ bytes
 [
 sizeof
 (
-JSScript
-*
+RawScript
 )
 ]
 ;
@@ -2250,8 +2243,7 @@ i
 <
 sizeof
 (
-JSScript
-*
+RawScript
 )
 ;
 i

@@ -232,8 +232,7 @@ startFrame
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *

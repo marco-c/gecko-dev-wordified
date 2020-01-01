@@ -210,8 +210,7 @@ public
 :
 CompileInfo
 (
-JSScript
-*
+UnrootedScript
 script
 JSFunction
 *
@@ -272,8 +271,7 @@ fun
 )
 ;
 }
-JSScript
-*
+UnrootedScript
 script
 (
 )

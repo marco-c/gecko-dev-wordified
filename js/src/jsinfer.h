@@ -154,13 +154,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 ds
 /
 LifoAlloc
@@ -203,6 +196,11 @@ Vector
 .
 h
 "
+ForwardDeclareJS
+(
+Script
+)
+;
 namespace
 JS
 {
@@ -7534,8 +7532,7 @@ TypeCallsite
 JSContext
 *
 cx
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -7694,7 +7691,7 @@ inline
 unsigned
 NumTypeSets
 (
-RawScript
+UnrootedScript
 script
 )
 ;

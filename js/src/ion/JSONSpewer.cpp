@@ -774,8 +774,7 @@ JSONSpewer
 :
 beginFunction
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {

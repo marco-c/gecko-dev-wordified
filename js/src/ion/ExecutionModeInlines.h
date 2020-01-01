@@ -123,8 +123,7 @@ inline
 bool
 HasIonScript
 (
-JSScript
-*
+UnrootedScript
 script
 ExecutionMode
 cmode
@@ -178,8 +177,7 @@ IonScript
 *
 GetIonScript
 (
-JSScript
-*
+UnrootedScript
 script
 ExecutionMode
 cmode
@@ -228,8 +226,7 @@ inline
 void
 SetIonScript
 (
-JSScript
-*
+UnrootedScript
 script
 ExecutionMode
 cmode
@@ -384,8 +381,7 @@ inline
 bool
 CompilingOffThread
 (
-JSScript
-*
+UnrootedScript
 script
 ExecutionMode
 cmode
@@ -491,8 +487,7 @@ inline
 bool
 Disabled
 (
-JSScript
-*
+UnrootedScript
 script
 ExecutionMode
 cmode

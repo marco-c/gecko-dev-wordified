@@ -741,10 +741,10 @@ obj
 *
 pobj
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 cx
 -
 >
@@ -752,6 +752,7 @@ stack
 .
 currentScript
 (
+)
 )
 ;
 JS_ASSERT
