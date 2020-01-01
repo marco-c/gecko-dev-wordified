@@ -1425,6 +1425,17 @@ nsGfxCIID
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 using
 namespace
 mozilla
