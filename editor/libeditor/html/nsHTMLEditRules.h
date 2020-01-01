@@ -625,8 +625,6 @@ Init
 nsPlaintextEditor
 *
 aEditor
-PRUint32
-aFlags
 )
 ;
 NS_IMETHOD
