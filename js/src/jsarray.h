@@ -460,6 +460,10 @@ jsobj
 h
 "
 JS_BEGIN_EXTERN_C
+#
+define
+ARRAY_CAPACITY_MIN
+7
 /
 *
 Generous
@@ -720,10 +724,6 @@ jsval
 capacity
 ;
 }
-#
-define
-ARRAY_GROWBY
-8
 extern
 JSBool
 js_GetLengthProperty
