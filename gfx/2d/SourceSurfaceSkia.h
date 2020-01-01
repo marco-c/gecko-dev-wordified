@@ -256,6 +256,11 @@ MarkIndependent
 (
 )
 ;
+void
+MaybeUnlock
+(
+)
+;
 SkBitmap
 mBitmap
 ;
@@ -271,6 +276,9 @@ mStride
 DrawTargetSkia
 *
 mDrawTarget
+;
+bool
+mLocked
 ;
 }
 ;
