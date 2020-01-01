@@ -5010,7 +5010,7 @@ onTooMuchMalloc
 (
 )
 {
-TriggerCompartmentGC
+TriggerZoneGC
 (
 this
 gcreason

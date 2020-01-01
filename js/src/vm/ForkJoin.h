@@ -1702,11 +1702,14 @@ reason
 )
 ;
 void
-requestCompartmentGC
+requestZoneGC
 (
-JSCompartment
+JS
+:
+:
+Zone
 *
-compartment
+zone
 gcreason
 :
 :

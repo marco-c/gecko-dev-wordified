@@ -1018,7 +1018,7 @@ isObject
 )
 )
 {
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 UnwrapObject
 (
@@ -1031,7 +1031,7 @@ toObject
 )
 -
 >
-compartment
+zone
 (
 )
 )
@@ -2141,7 +2141,7 @@ isObject
 Ensure
 that
 |
-comp
+zone
 |
 is
 collected
@@ -2152,9 +2152,9 @@ GC
 .
 *
 /
-JSCompartment
+Zone
 *
-comp
+zone
 =
 UnwrapObject
 (
@@ -2170,13 +2170,13 @@ toObject
 )
 -
 >
-compartment
+zone
 (
 )
 ;
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
-comp
+zone
 )
 ;
 }
@@ -2206,7 +2206,7 @@ GC
 .
 *
 /
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 args
 [
@@ -2218,7 +2218,7 @@ toString
 )
 -
 >
-compartment
+zone
 (
 )
 )

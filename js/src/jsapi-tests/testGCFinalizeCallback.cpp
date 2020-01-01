@@ -370,7 +370,7 @@ FinalizeCalls
 js
 :
 :
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 global1
 -
@@ -445,7 +445,7 @@ FinalizeCalls
 js
 :
 :
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 global1
 -
@@ -458,7 +458,7 @@ compartment
 js
 :
 :
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 global2
 -
@@ -471,7 +471,7 @@ compartment
 js
 :
 :
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 global3
 -
@@ -544,7 +544,7 @@ FinalizeCalls
 js
 :
 :
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 global1
 -
@@ -635,7 +635,7 @@ FinalizeCalls
 js
 :
 :
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 global1
 -
@@ -648,7 +648,7 @@ compartment
 js
 :
 :
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 global2
 -
@@ -661,7 +661,7 @@ compartment
 js
 :
 :
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
 global3
 -

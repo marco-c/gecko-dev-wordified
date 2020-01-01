@@ -3183,11 +3183,11 @@ taken
 /
 extern
 void
-TriggerCompartmentGC
+TriggerZoneGC
 (
-JSCompartment
+Zone
 *
-comp
+zone
 js
 :
 :
@@ -5666,7 +5666,7 @@ private
 ifdef
 DEBUG
 void
-checkCompartment
+checkZone
 (
 void
 *
@@ -5676,7 +5676,7 @@ p
 #
 else
 void
-checkCompartment
+checkZone
 (
 void
 *
@@ -5696,7 +5696,7 @@ void
 ptr
 )
 {
-checkCompartment
+checkZone
 (
 ptr
 )
@@ -5757,7 +5757,7 @@ void
 end
 )
 {
-checkCompartment
+checkZone
 (
 obj
 )
