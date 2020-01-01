@@ -35346,6 +35346,8 @@ MALLOC_STATS
 size_t
 allocated
 mapped
+=
+0
 ;
 #
 ifdef
