@@ -1486,6 +1486,9 @@ create_config_file
 (
 self
 path
+extra
+=
+None
 )
 :
         
@@ -1672,6 +1675,19 @@ get_depth
 (
 path
 )
+)
+        
+if
+extra
+:
+            
+pp
+.
+context
+.
+update
+(
+extra
 )
         
 pp
