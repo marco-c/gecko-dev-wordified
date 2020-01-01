@@ -37355,6 +37355,12 @@ jsbytecode
 *
 pc
 ;
+ScriptFrameIter
+frameIter
+(
+cx
+)
+;
 JS_ASSERT
 (
 spindex
@@ -37418,12 +37424,6 @@ do_fallback
 ;
 #
 endif
-ScriptFrameIter
-frameIter
-(
-cx
-)
-;
 if
 (
 frameIter
