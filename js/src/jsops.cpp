@@ -15355,6 +15355,15 @@ complete
 .
 *
 /
+if
+(
+!
+TRACE_RECORDER
+(
+cx
+)
+)
+{
 JSObject
 *
 scope
@@ -15428,6 +15437,7 @@ true
 goto
 inline_return
 ;
+}
 }
 /
 *
