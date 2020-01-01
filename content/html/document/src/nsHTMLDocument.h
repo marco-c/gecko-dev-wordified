@@ -1352,7 +1352,7 @@ JSContext
 *
 cx
 const
-nsACString
+nsAString
 &
 aContentType
 PRBool
