@@ -3948,6 +3948,12 @@ idval
 &
 i_
 )
+&
+&
+INT_FITS_IN_JSID
+(
+i_
+)
 )
 {
 id
