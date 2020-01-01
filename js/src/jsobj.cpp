@@ -120,7 +120,7 @@ implementation
 #
 include
 "
-jsobj
+jsobjinlines
 .
 h
 "
