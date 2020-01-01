@@ -28,13 +28,13 @@ zero
 /
 *
 /
-let
+const
 source
 =
 "
 about
 :
-robots
+mozilla
 "
 ;
 let
