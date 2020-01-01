@@ -19057,6 +19057,9 @@ BEGIN_CASE
 (
 JSOP_HEADER
 )
+#
+if
+0
 if
 (
 script
@@ -19343,6 +19346,8 @@ tree
 /
 }
 }
+#
+endif
 END_CASE
 (
 JSOP_HEADER
