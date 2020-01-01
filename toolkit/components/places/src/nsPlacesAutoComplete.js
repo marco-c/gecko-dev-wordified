@@ -6074,7 +6074,7 @@ _restrictTagToken
 safeGetter
 (
 "
-restrct
+restrict
 .
 tag
 "
