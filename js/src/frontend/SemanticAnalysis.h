@@ -118,6 +118,9 @@ js
 struct
 Parser
 ;
+class
+StackFrame
+;
 namespace
 frontend
 {
@@ -162,6 +165,9 @@ AnalyzeFunctions
 Parser
 *
 parser
+StackFrame
+*
+callerFrame
 )
 ;
 }
