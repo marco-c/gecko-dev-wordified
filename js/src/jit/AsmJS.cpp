@@ -31086,10 +31086,6 @@ tokenStream
 .
 getToken
 (
-TokenStream
-:
-:
-KeywordIsName
 )
 !
 =
