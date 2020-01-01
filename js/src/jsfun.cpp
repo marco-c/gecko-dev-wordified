@@ -5979,7 +5979,7 @@ and
 to
 js_SetProperty
 and
-js_HasOwnPropertyHelper
+js_HasOwnProperty
 .
 *
 *
