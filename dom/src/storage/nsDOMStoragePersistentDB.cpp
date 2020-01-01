@@ -807,6 +807,10 @@ nsDOMStoragePersistentDB
 :
 Init
 (
+const
+nsString
+&
+aDatabaseName
 )
 {
 nsresult
@@ -842,14 +846,7 @@ storageFile
 >
 Append
 (
-NS_LITERAL_STRING
-(
-"
-webappsstore
-.
-sqlite
-"
-)
+aDatabaseName
 )
 ;
 NS_ENSURE_SUCCESS

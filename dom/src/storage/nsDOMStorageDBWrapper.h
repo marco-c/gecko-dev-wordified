@@ -1523,6 +1523,9 @@ aDomain
 protected
 :
 nsDOMStoragePersistentDB
+mChromePersistentDB
+;
+nsDOMStoragePersistentDB
 mPersistentDB
 ;
 nsDOMStorageMemoryDB
