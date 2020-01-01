@@ -7846,7 +7846,7 @@ if
 pushLoop
 (
 initial
-ifne
+stopAt
 header
 bodyStart
 bodyEnd
