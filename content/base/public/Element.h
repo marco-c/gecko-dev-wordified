@@ -462,6 +462,13 @@ nsEventStates
 .
 h
 "
+#
+include
+"
+nsDOMMemoryReporter
+.
+h
+"
 class
 nsEventStateManager
 ;
@@ -708,6 +715,11 @@ endif
 /
 /
 MOZILLA_INTERNAL_API
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+Element
+nsIContent
+)
 /
 *
 *

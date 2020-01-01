@@ -960,6 +960,12 @@ ATTRCHILD_ARRAY_MAX_ATTR_COUNT
 )
 ;
 }
+PRInt64
+SizeOf
+(
+)
+const
+;
 private
 :
 nsAttrAndChildArray
