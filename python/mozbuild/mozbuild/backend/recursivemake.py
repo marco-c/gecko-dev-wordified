@@ -1787,6 +1787,9 @@ objdir
 )
 :
                 
+try
+:
+                    
 os
 .
 makedirs
@@ -1795,6 +1798,25 @@ bf
 .
 objdir
 )
+                
+except
+OSError
+as
+error
+:
+                    
+if
+error
+.
+errno
+!
+=
+errno
+.
+EEXIST
+:
+                        
+raise
             
 makefile_in
 =
