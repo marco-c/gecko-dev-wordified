@@ -9307,6 +9307,19 @@ Length
 i
 )
 {
+if
+(
+!
+aRects
+[
+i
+]
+.
+IsEmpty
+(
+)
+)
+{
 rects
 .
 AppendElement
@@ -9320,6 +9333,7 @@ i
 )
 )
 ;
+}
 }
 pixman_region32_init_rects
 (
