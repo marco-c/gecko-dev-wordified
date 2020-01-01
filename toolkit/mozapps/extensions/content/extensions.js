@@ -11746,7 +11746,7 @@ Ci
 .
 nsIWebProgressListener
 .
-STATE_IS_TRANSFERRING
+STATE_TRANSFERRING
 ;
 /
 /
