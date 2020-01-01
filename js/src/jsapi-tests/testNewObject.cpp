@@ -627,12 +627,7 @@ JS_ConvertStub
 NULL
 NULL
 NULL
-NULL
 constructHook
-NULL
-NULL
-NULL
-NULL
 }
 ;
 JSObject

@@ -7822,10 +7822,7 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 jsTraceThreadPool
-NULL
 }
 ;
 JSClass
@@ -7851,10 +7848,7 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 jsTraceWorker
-NULL
 }
 ;
 JSFunctionSpec

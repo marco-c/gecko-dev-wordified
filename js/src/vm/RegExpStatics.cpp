@@ -672,12 +672,6 @@ resc_finalize
 NULL
 /
 *
-reserved0
-*
-/
-NULL
-/
-*
 checkAccess
 *
 /
@@ -691,12 +685,6 @@ NULL
 /
 *
 construct
-*
-/
-NULL
-/
-*
-xdrObject
 *
 /
 NULL

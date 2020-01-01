@@ -1197,11 +1197,8 @@ NPObjWrapper_NewResolve
 NPObjWrapper_Convert
 NPObjWrapper_Finalize
 nsnull
-nsnull
 NPObjWrapper_Call
 NPObjWrapper_Construct
-nsnull
-nsnull
 }
 ;
 typedef
@@ -1300,13 +1297,10 @@ JS_ResolveStub
 NPObjectMember_Convert
 NPObjectMember_Finalize
 nsnull
-nsnull
 NPObjectMember_Call
 nsnull
 nsnull
-nsnull
 NPObjectMember_Trace
-nsnull
 }
 ;
 static

@@ -5881,7 +5881,7 @@ it
 and
 callers
 of
-js_XDRScript
+XDRScript
 can
 share
 this
@@ -5894,7 +5894,7 @@ of
 callers
 *
 of
-js_XDRScript
+XDRScript
 the
 hook
 should
@@ -6290,11 +6290,10 @@ LineOption
 NOT_CALLED_FROM_JSOP_EVAL
 )
 ;
-}
 extern
 JSScript
 *
-js_CloneScript
+CloneScript
 (
 JSContext
 *
@@ -6340,7 +6339,7 @@ js_CallNewScriptHook
 /
 extern
 JSBool
-js_XDRScript
+XDRScript
 (
 JSXDRState
 *
@@ -6351,6 +6350,7 @@ JSScript
 scriptp
 )
 ;
+}
 #
 endif
 /
