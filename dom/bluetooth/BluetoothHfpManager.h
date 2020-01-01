@@ -196,6 +196,15 @@ Disconnect
 (
 )
 ;
+bool
+SendLine
+(
+const
+char
+*
+aMessage
+)
+;
 private
 :
 BluetoothHfpManager
