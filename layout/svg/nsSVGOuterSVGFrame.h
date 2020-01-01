@@ -129,6 +129,13 @@ nsSVGContainerFrame
 .
 h
 "
+#
+include
+"
+nsRegion
+.
+h
+"
 class
 nsSVGForeignObjectFrame
 ;

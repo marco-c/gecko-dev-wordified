@@ -125,6 +125,13 @@ nsLayoutUtils
 .
 h
 "
+#
+include
+"
+nsRegion
+.
+h
+"
 namespace
 mozilla
 {
