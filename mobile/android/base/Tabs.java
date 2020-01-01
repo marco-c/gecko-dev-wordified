@@ -1157,10 +1157,9 @@ GeckoApp
 .
 mAppContext
 .
-hidePlugins
+hidePluginViews
 (
 oldTab
-true
 )
 ;
 }
@@ -1503,10 +1502,9 @@ GeckoApp
 .
 mAppContext
 .
-hidePlugins
+hidePluginViews
 (
 closedTab
-true
 )
 ;
 }
