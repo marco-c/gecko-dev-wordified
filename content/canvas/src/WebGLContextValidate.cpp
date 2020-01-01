@@ -963,10 +963,10 @@ continue
 the
 base
 offset
-CheckedUint32
+CheckedInt32
 checked_byteLength
 =
-CheckedUint32
+CheckedInt32
 (
 vd
 .
@@ -982,10 +982,10 @@ vd
 .
 byteOffset
 ;
-CheckedUint32
+CheckedInt32
 checked_sizeOfLastElement
 =
-CheckedUint32
+CheckedInt32
 (
 vd
 .
@@ -1063,7 +1063,7 @@ maxAllowedCount
 }
 else
 {
-CheckedUint32
+CheckedInt32
 checked_maxAllowedCount
 =
 (
