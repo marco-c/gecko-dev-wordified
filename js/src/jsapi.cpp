@@ -7603,6 +7603,13 @@ obj
 )
 &
 &
+js_InitEval
+(
+cx
+obj
+)
+&
+&
 #
 if
 JS_HAS_SCRIPT_OBJECT
