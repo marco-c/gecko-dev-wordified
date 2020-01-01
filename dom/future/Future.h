@@ -242,6 +242,12 @@ Future
 (
 )
 ;
+static
+bool
+PrefEnabled
+(
+)
+;
 /
 /
 WebIDL
