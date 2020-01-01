@@ -67,8 +67,6 @@ x86_arm
 \
 \
 "
-/
-/
 #
 define
 WCE_RC_BIN
@@ -97,6 +95,8 @@ bin
 \
 \
 "
+/
+/
 #
 define
 WCE_RC_BIN
@@ -173,7 +173,7 @@ Mobile
 SDK
 \
 \
-Smartphone
+PocketPC
 \
 \
 Include
@@ -199,7 +199,7 @@ Mobile
 SDK
 \
 \
-Smartphone
+PocketPC
 \
 \
 Lib
