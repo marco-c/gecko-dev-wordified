@@ -1711,11 +1711,9 @@ zero
 .
 *
 /
-LL_I2L
-(
 rad
+=
 radix
-)
 ;
 cvt
 =

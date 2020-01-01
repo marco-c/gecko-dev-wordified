@@ -2228,19 +2228,11 @@ tFAILED
 ;
 int64_t
 one
-two
-;
-LL_I2L
-(
-one
+=
 1
-)
-;
-LL_I2L
-(
 two
+=
 2
-)
 ;
 if
 (
@@ -3298,8 +3290,6 @@ tFAILED
 "
 )
 ;
-LL_I2L
-(
 var
 [
 0
@@ -3308,8 +3298,8 @@ var
 val
 .
 i64
+=
 1
-)
 ;
 var
 [
@@ -3332,8 +3322,6 @@ flags
 =
 0
 ;
-LL_I2L
-(
 var
 [
 1
@@ -3342,8 +3330,8 @@ var
 val
 .
 i64
+=
 1
-)
 ;
 var
 [
@@ -3366,8 +3354,6 @@ flags
 =
 0
 ;
-LL_I2L
-(
 var
 [
 2
@@ -3376,8 +3362,8 @@ var
 val
 .
 i64
+=
 0
-)
 ;
 var
 [
@@ -3629,8 +3615,6 @@ tFAILED
 "
 )
 ;
-LL_I2L
-(
 var
 [
 0
@@ -3639,8 +3623,8 @@ var
 val
 .
 i64
+=
 2
-)
 ;
 var
 [
@@ -3663,8 +3647,6 @@ flags
 =
 0
 ;
-LL_I2L
-(
 var
 [
 1
@@ -3673,8 +3655,8 @@ var
 val
 .
 i64
+=
 2
-)
 ;
 var
 [
@@ -3697,8 +3679,6 @@ flags
 =
 0
 ;
-LL_I2L
-(
 var
 [
 2
@@ -3707,8 +3687,8 @@ var
 val
 .
 i64
+=
 0
-)
 ;
 var
 [
