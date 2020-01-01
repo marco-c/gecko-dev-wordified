@@ -1048,9 +1048,9 @@ aAllCounters
 NS_ASSERTION
 (
 aContentIndex
->
+<
 =
-0
+PR_INT32_MAX
 "
 out
 of
