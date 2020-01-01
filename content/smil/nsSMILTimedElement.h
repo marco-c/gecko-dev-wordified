@@ -2774,6 +2774,7 @@ nsSMILInterval
 &
 aResult
 )
+const
 ;
 nsSMILInstanceTime
 *

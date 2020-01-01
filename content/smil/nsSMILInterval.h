@@ -830,6 +830,10 @@ XXX
 Backwards
 seeking
 support
+(
+bug
+492458
+)
 void
 Unfreeze
 (
