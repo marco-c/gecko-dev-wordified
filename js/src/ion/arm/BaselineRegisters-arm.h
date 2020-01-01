@@ -360,12 +360,16 @@ equal
 to
 ReturnFloatReg
 .
+d1
+is
+ScratchFloatReg
+.
 static
 const
 FloatRegister
 FloatReg0
 =
-d1
+d0
 ;
 static
 const
