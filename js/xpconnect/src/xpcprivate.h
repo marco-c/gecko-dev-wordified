@@ -4247,8 +4247,6 @@ Collect
 (
 PRUint32
 reason
-PRUint32
-kind
 )
 ;
 XPCCallContext
