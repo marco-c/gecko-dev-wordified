@@ -236,10 +236,6 @@ mCopyUnused
 (
 aCopyUnused
 )
-mNumConsumed
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (

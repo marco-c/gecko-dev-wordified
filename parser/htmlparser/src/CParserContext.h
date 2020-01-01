@@ -368,9 +368,6 @@ mMultipart
 bool
 mCopyUnused
 ;
-uint32_t
-mNumConsumed
-;
 }
 ;
 #
