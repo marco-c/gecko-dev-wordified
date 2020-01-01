@@ -10714,6 +10714,9 @@ CHUD
 "
 )
 ;
+return
+JS_FALSE
+;
 }
 return
 JS_TRUE
@@ -10759,6 +10762,9 @@ CHUD
 .
 "
 )
+;
+return
+JS_FALSE
 ;
 }
 return
@@ -10807,6 +10813,9 @@ Shark
 "
 )
 ;
+return
+JS_FALSE
+;
 }
 return
 JS_TRUE
@@ -10853,6 +10862,9 @@ Shark
 .
 "
 )
+;
+return
+JS_FALSE
 ;
 }
 return
@@ -11303,7 +11315,6 @@ status
 VTUNE_SAMPLING_PARAMS
 params
 =
-{
 sizeof
 (
 VTUNE_SAMPLING_PARAMS
