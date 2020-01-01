@@ -448,6 +448,11 @@ downloaded
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 Cc
 =

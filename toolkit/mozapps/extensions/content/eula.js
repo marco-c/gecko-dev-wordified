@@ -419,6 +419,11 @@ BLOCK
 *
 *
 *
+"
+use
+strict
+"
+;
 function
 Startup
 (
