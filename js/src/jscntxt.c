@@ -684,8 +684,15 @@ JSBool
 js_InitThreadPrivateIndex
 (
 void
+(
+JS_DLL_CALLBACK
 *
 ptr
+)
+(
+void
+*
+)
 )
 {
 PRStatus
