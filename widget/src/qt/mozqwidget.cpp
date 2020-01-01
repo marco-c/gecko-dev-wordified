@@ -743,14 +743,6 @@ setAcceptTouchEvents
 true
 )
 ;
-grabGesture
-(
-Qt
-:
-:
-PinchGesture
-)
-;
 #
 endif
 }
