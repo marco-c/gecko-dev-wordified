@@ -951,10 +951,10 @@ CanPlaceFloatNow
 )
 |
 |
-ll
+aPresContext
 -
 >
-GetCompatMode
+CompatibilityMode
 (
 )
 =
