@@ -25941,7 +25941,7 @@ aSelector
 /
 Iterate
 the
-pseudoclass
+class
 list
 .
 For
@@ -25982,7 +25982,7 @@ all
 items
 in
 the
-pseudoclass
+class
 list
 are
 /
@@ -25998,14 +25998,14 @@ have
 a
 match
 .
-nsPseudoClassList
+nsAtomList
 *
 curr
 =
 aSelector
 -
 >
-mPseudoClassList
+mClassList
 ;
 while
 (
