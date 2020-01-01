@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsIIDNService
-.
-h
-"
-#
-include
-"
 nsIStreamListenerTee
 .
 h
