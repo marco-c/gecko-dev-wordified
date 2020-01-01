@@ -1257,7 +1257,7 @@ SanitizeEnvironmentVariables
 (
 )
 ;
-SetDllDirectory
+NS_SetDllDirectory
 (
 L
 "

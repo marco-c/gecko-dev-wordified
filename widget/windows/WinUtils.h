@@ -577,6 +577,9 @@ public
 enum
 WinVersion
 {
+WIN2K_VERSION
+=
+0x500
 WINXP_VERSION
 =
 0x501
