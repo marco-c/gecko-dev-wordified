@@ -1282,10 +1282,7 @@ dest
 {
 cvtsi2sd
 (
-Operand
-(
 src
-)
 dest
 )
 ;
