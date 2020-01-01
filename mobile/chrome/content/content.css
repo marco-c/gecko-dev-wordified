@@ -400,6 +400,55 @@ BLOCK
 *
 *
 /
+namespace
+url
+(
+"
+http
+:
+/
+/
+www
+.
+w3
+.
+org
+/
+1999
+/
+xhtml
+"
+)
+;
+namespace
+xul
+url
+(
+"
+http
+:
+/
+/
+www
+.
+mozilla
+.
+org
+/
+keymaster
+/
+gatekeeper
+/
+there
+.
+is
+.
+only
+.
+xul
+"
+)
+;
 /
 *
 make
@@ -416,7 +465,8 @@ bug
 )
 *
 /
-html
+*
+>
 *
 :
 not
@@ -425,6 +475,8 @@ embed
 )
 :
 focus
+*
+>
 *
 :
 focus
@@ -473,16 +525,11 @@ important
 *
 /
 }
-html
-*
-|
 *
 :
 link
 :
 focus
-*
-|
 *
 :
 visited
@@ -504,6 +551,8 @@ the
 scrollbars
 *
 /
+xul
+|
 scrollbar
 {
 -
@@ -522,6 +571,8 @@ none
 important
 ;
 }
+xul
+|
 scrollbarbutton
 {
 -
@@ -540,6 +591,8 @@ none
 important
 ;
 }
+xul
+|
 thumb
 {
 min
@@ -655,13 +708,11 @@ OS
 themes
 *
 /
-html
 select
-html
-button
-html
 textarea
-html
+button
+*
+>
 input
 :
 not
@@ -685,17 +736,14 @@ radius
 3px
 ;
 }
-html
 select
 [
 size
 ]
-html
 select
 [
 multiple
 ]
-html
 select
 [
 size
@@ -703,9 +751,9 @@ size
 [
 multiple
 ]
-html
 textarea
-html
+*
+>
 input
 :
 not
@@ -781,7 +829,6 @@ rgba
 )
 ;
 }
-html
 select
 :
 not
@@ -797,7 +844,6 @@ not
 multiple
 ]
 )
-html
 select
 [
 size
@@ -806,7 +852,6 @@ size
 0
 "
 ]
-html
 select
 [
 size
@@ -815,7 +860,8 @@ size
 1
 "
 ]
-html
+*
+>
 input
 [
 type
@@ -824,7 +870,8 @@ type
 button
 "
 ]
-html
+*
+>
 input
 [
 type
@@ -833,7 +880,8 @@ type
 submit
 "
 ]
-html
+*
+>
 input
 [
 type
@@ -842,7 +890,6 @@ type
 reset
 "
 ]
-html
 button
 {
 border
@@ -908,7 +955,6 @@ rgba
 )
 ;
 }
-html
 input
 [
 type
@@ -962,7 +1008,6 @@ rgba
 )
 ;
 }
-html
 input
 [
 type
@@ -1018,7 +1063,6 @@ rgba
 )
 ;
 }
-html
 select
 {
 border
@@ -1032,7 +1076,6 @@ padding
 1px
 ;
 }
-html
 select
 :
 not
@@ -1048,7 +1091,6 @@ not
 multiple
 ]
 )
-html
 select
 [
 size
@@ -1057,7 +1099,6 @@ size
 0
 "
 ]
-html
 select
 [
 size
@@ -1075,7 +1116,8 @@ padding
 1px
 ;
 }
-html
+*
+>
 input
 :
 not
@@ -1100,7 +1142,6 @@ padding
 1px
 ;
 }
-html
 textarea
 {
 border
@@ -1117,7 +1158,6 @@ padding
 1px
 ;
 }
-html
 input
 [
 type
@@ -1126,7 +1166,6 @@ type
 button
 "
 ]
-html
 input
 [
 type
@@ -1135,7 +1174,6 @@ type
 submit
 "
 ]
-html
 input
 [
 type
@@ -1144,7 +1182,6 @@ type
 reset
 "
 ]
-html
 button
 {
 border
@@ -1161,7 +1198,6 @@ padding
 7px
 ;
 }
-html
 input
 [
 type
@@ -1170,7 +1206,6 @@ type
 radio
 "
 ]
-html
 input
 [
 type
@@ -1209,7 +1244,6 @@ padding
 1px
 ;
 }
-html
 select
 input
 [
@@ -1330,7 +1364,6 @@ button
 )
 ;
 }
-html
 select
 input
 [
@@ -1357,21 +1390,18 @@ top
 6px
 ;
 }
-html
 select
 [
 size
 ]
 :
 focus
-html
 select
 [
 multiple
 ]
 :
 focus
-html
 select
 [
 size
@@ -1381,7 +1411,9 @@ multiple
 ]
 :
 focus
-html
+textarea
+:
+focus
 input
 [
 type
@@ -1401,11 +1433,8 @@ type
 text
 "
 ]
-html
-textarea
-:
-focus
-html
+*
+>
 input
 :
 not
@@ -1488,7 +1517,6 @@ rgba
 )
 ;
 }
-html
 select
 :
 not
@@ -1506,7 +1534,6 @@ multiple
 )
 :
 focus
-html
 select
 [
 size
@@ -1517,7 +1544,6 @@ size
 ]
 :
 focus
-html
 select
 [
 size
@@ -1528,7 +1554,6 @@ size
 ]
 :
 focus
-html
 input
 [
 type
@@ -1539,7 +1564,6 @@ button
 ]
 :
 focus
-html
 input
 [
 type
@@ -1550,7 +1574,6 @@ submit
 ]
 :
 focus
-html
 input
 [
 type
@@ -1561,7 +1584,6 @@ reset
 ]
 :
 focus
-html
 button
 :
 focus
@@ -1634,7 +1656,6 @@ rgba
 )
 ;
 }
-html
 input
 [
 type
@@ -1645,7 +1666,6 @@ checkbox
 ]
 :
 focus
-html
 input
 [
 type
@@ -1667,7 +1687,6 @@ color
 important
 ;
 }
-html
 input
 [
 type
@@ -1723,7 +1742,6 @@ rgba
 )
 ;
 }
-html
 input
 [
 type
@@ -1799,12 +1817,10 @@ specific
 too
 *
 /
-html
 textarea
 [
 disabled
 ]
-html
 select
 [
 size
@@ -1812,7 +1828,6 @@ size
 [
 disabled
 ]
-html
 select
 [
 multiple
@@ -1820,7 +1835,6 @@ multiple
 [
 disabled
 ]
-html
 select
 [
 size
@@ -1831,7 +1845,6 @@ multiple
 [
 disabled
 ]
-html
 select
 :
 not
@@ -1850,7 +1863,6 @@ multiple
 [
 disabled
 ]
-html
 select
 [
 size
@@ -1862,7 +1874,6 @@ size
 [
 disabled
 ]
-html
 select
 [
 size
@@ -1874,12 +1885,12 @@ size
 [
 disabled
 ]
-html
 button
 [
 disabled
 ]
-html
+*
+>
 input
 :
 not
@@ -1979,7 +1990,6 @@ rgba
 )
 ;
 }
-html
 input
 [
 type
@@ -1991,7 +2001,6 @@ button
 [
 disabled
 ]
-html
 input
 [
 type
@@ -2003,7 +2012,6 @@ submit
 [
 disabled
 ]
-html
 input
 [
 type
@@ -2015,7 +2023,6 @@ reset
 [
 disabled
 ]
-html
 button
 [
 disabled
@@ -2077,7 +2084,6 @@ rgba
 )
 ;
 }
-html
 input
 [
 type
@@ -2089,7 +2095,6 @@ checkbox
 [
 disabled
 ]
-html
 input
 [
 type
@@ -2119,7 +2124,6 @@ rgba
 important
 ;
 }
-html
 select
 [
 disabled
