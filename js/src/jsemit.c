@@ -20578,8 +20578,9 @@ TOK_DEFAULT
 )
 continue
 ;
-atom
-=
+if
+(
+!
 js_AtomizePrimitiveValue
 (
 cx
@@ -20587,12 +20588,9 @@ pn3
 -
 >
 pn_val
-)
-;
-if
-(
-!
+&
 atom
+)
 )
 goto
 bad

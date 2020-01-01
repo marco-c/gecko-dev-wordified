@@ -8227,7 +8227,7 @@ SPROP_HAS_SHORTID
 ;
 JS_ASSERT
 (
-JSID_IS_ATOM
+JSID_IS_HIDDEN
 (
 sprop
 -
@@ -8252,10 +8252,13 @@ slot
 return
 JSID_TO_ATOM
 (
+JSID_UNHIDE_NAME
+(
 sprop
 -
 >
 id
+)
 )
 ;
 }
@@ -31139,7 +31142,7 @@ nargs
 ;
 JS_ASSERT
 (
-JSID_IS_ATOM
+JSID_IS_HIDDEN
 (
 sprop
 -
@@ -31161,10 +31164,13 @@ shortid
 =
 JSID_TO_ATOM
 (
+JSID_UNHIDE_NAME
+(
 sprop
 -
 >
 id
+)
 )
 ;
 }
