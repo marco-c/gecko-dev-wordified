@@ -18873,7 +18873,7 @@ rt
 >
 evalCache
 .
-purge
+clear
 (
 )
 ;
