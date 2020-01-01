@@ -572,6 +572,11 @@ PRBool
 aAttempt
 )
 ;
+void
+CloseAllWindows
+(
+)
+;
 friend
 class
 nsAppExitEvent
