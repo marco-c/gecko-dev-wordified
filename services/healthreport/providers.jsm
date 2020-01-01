@@ -3745,6 +3745,7 @@ if
 (
 index
 <
+=
 lastRecordedSession
 )
 {
