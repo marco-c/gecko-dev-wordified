@@ -1637,13 +1637,13 @@ data
 Override
 protected
 void
-connectGeckoLayerClient
+geckoConnected
 (
 )
 {
 super
 .
-connectGeckoLayerClient
+geckoConnected
 (
 )
 ;
