@@ -143,6 +143,11 @@ DivI
 \
 _
 (
+DivPowTwoI
+)
+\
+_
+(
 ModI
 )
 \
