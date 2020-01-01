@@ -1371,9 +1371,6 @@ new
 ScrollwheelModule
 (
 this
-Browser
-.
-_browserView
 browserViewContainer
 )
 )
@@ -7862,7 +7859,6 @@ function
 ScrollwheelModule
 (
 owner
-browserView
 browserViewContainer
 )
 {
@@ -7871,12 +7867,6 @@ this
 _owner
 =
 owner
-;
-this
-.
-_browserView
-=
-browserView
 ;
 this
 .
@@ -7912,9 +7902,7 @@ DOMMouseScroll
 "
 )
 {
-this
-.
-_browserView
+Browser
 .
 zoom
 (
