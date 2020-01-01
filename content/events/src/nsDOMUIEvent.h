@@ -438,10 +438,10 @@ BLOCK
 /
 #
 ifndef
-nsDOMUIEvent_h__
+nsDOMUIEvent_h
 #
 define
-nsDOMUIEvent_h__
+nsDOMUIEvent_h
 #
 include
 "
@@ -453,13 +453,6 @@ h
 include
 "
 nsIDOMNSUIEvent
-.
-h
-"
-#
-include
-"
-nsIDOMAbstractView
 .
 h
 "
@@ -591,7 +584,7 @@ protected
 :
 nsCOMPtr
 <
-nsIDOMAbstractView
+nsIDOMWindow
 >
 mView
 ;
@@ -634,4 +627,4 @@ NS_FORWARD_TO_NSDOMEVENT
 endif
 /
 /
-nsDOMUIEvent_h__
+nsDOMUIEvent_h
