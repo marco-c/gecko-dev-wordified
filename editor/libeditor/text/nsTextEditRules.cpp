@@ -4665,6 +4665,9 @@ res
 =
 NS_OK
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 if
 (
 IsPasswordEditor
