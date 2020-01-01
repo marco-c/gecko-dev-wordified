@@ -693,11 +693,11 @@ ifdef
 XP_WIN
 #
 include
-<
-windows
+"
+jswin
 .
 h
->
+"
 #
 elif
 defined
@@ -12827,6 +12827,10 @@ opportunity
 /
 JS_ATOMIC_CLEAR_MASK
 (
+(
+jsword
+*
+)
 &
 cx
 -

@@ -5681,6 +5681,7 @@ atom
 ;
 }
 void
+JS_FASTCALL
 ic
 :
 :

@@ -307,11 +307,11 @@ _WIN32_WINNT
 endif
 #
 include
-<
-windows
+"
+jswin
 .
 h
->
+"
 #
 include
 <
