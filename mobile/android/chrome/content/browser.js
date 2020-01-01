@@ -22616,15 +22616,9 @@ onResize
 (
 )
 {
-Tabs
+BrowserApp
 .
-getInstance
-(
-)
-.
-getSelectedTab
-(
-)
+selectedTab
 .
 updateViewportSize
 (
