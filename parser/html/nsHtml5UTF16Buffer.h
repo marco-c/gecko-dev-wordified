@@ -251,6 +251,13 @@ h
 #
 include
 "
+nsHtml5AtomTable
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

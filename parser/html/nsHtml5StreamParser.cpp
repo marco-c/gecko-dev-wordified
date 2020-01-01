@@ -3568,6 +3568,16 @@ mDone
 =
 PR_TRUE
 ;
+{
+nsRefPtr
+<
+nsHtml5StreamParser
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mExecutor
 -
 >
@@ -3576,6 +3586,7 @@ DidBuildModel
 PR_FALSE
 )
 ;
+}
 return
 ;
 /

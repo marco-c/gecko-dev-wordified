@@ -253,6 +253,13 @@ h
 #
 include
 "
+nsHtml5AtomTable
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -378,6 +385,9 @@ PRInt32
 offset
 PRInt32
 length
+nsHtml5AtomTable
+*
+interner
 )
 ;
 static
@@ -481,6 +491,7 @@ retainElement
 (
 nsIContent
 *
+*
 elt
 )
 ;
@@ -489,6 +500,7 @@ void
 releaseElement
 (
 nsIContent
+*
 *
 elt
 )

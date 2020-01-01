@@ -248,6 +248,13 @@ h
 #
 include
 "
+nsHtml5AtomTable
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -419,6 +426,7 @@ PRInt32
 >
 listOfActiveFormattingElements
 nsIContent
+*
 *
 formPointer
 )

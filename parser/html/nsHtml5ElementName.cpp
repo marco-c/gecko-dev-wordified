@@ -248,6 +248,13 @@ h
 #
 include
 "
+nsHtml5AtomTable
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -423,6 +430,9 @@ PRInt32
 offset
 PRInt32
 length
+nsHtml5AtomTable
+*
+interner
 )
 {
 PRInt32
@@ -469,6 +479,7 @@ newLocalNameFromBuffer
 buf
 offset
 length
+interner
 )
 )
 ;
@@ -523,6 +534,7 @@ newLocalNameFromBuffer
 buf
 offset
 length
+interner
 )
 )
 ;
