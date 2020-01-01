@@ -10773,13 +10773,11 @@ DestroyCaret
 (
 )
 ;
-nsRefPtr
-<
 nsRootAccessible
->
+*
 rootAccessible
 =
-GetRootAccessible
+RootAccessible
 (
 )
 ;

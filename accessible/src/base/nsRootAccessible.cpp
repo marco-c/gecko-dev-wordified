@@ -1014,6 +1014,11 @@ aRootContent
 aShell
 )
 {
+mFlags
+|
+=
+eRootAccessible
+;
 }
 nsRootAccessible
 :

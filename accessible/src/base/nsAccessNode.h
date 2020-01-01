@@ -731,13 +731,12 @@ accessnode
 .
 *
 /
-already_AddRefed
-<
 nsRootAccessible
->
-GetRootAccessible
+*
+RootAccessible
 (
 )
+const
 ;
 /
 *
