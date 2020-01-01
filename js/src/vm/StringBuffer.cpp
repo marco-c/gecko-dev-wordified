@@ -539,10 +539,12 @@ StringBuffer
 sb
 )
 {
-Value
+RootedValue
 v
-=
+(
+cx
 arg
+)
 ;
 if
 (
