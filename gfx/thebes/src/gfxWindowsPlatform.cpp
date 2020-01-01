@@ -3143,7 +3143,7 @@ Compare
 fe
 -
 >
-GetName
+Name
 (
 )
 data
@@ -3152,7 +3152,7 @@ data
 bestMatch
 -
 >
-GetName
+Name
 (
 )
 )
