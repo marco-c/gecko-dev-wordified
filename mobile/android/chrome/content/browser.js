@@ -1344,17 +1344,6 @@ getViewport
 )
 ;
 }
-paintingSuppressed
-:
-function
-paintingSuppressed
-(
-)
-{
-return
-false
-;
-}
 }
 ;
 var
