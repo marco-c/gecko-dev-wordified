@@ -1965,14 +1965,6 @@ nsWidgetInitData
 aInitData
 )
 ;
-PRBool
-IsAcceleratedQView
-(
-QGraphicsView
-*
-aView
-)
-;
 MozQWidget
 *
 mWidget

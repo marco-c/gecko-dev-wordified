@@ -456,10 +456,10 @@ BLOCK
 /
 #
 ifndef
-mozilla_dom_plugins_NPEventX11_h
+mozilla_dom_plugins_NPEventUnix_h
 #
 define
-mozilla_dom_plugins_NPEventX11_h
+mozilla_dom_plugins_NPEventUnix_h
 1
 #
 include
@@ -469,6 +469,9 @@ npapi
 h
 "
 #
+ifdef
+MOZ_X11
+#
 include
 "
 mozilla
@@ -477,6 +480,8 @@ X11Util
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -793,6 +798,9 @@ paramType
 )
 )
 ;
+#
+ifdef
+MOZ_X11
 SetXDisplay
 (
 aResult
@@ -801,6 +809,8 @@ aResult
 event
 )
 ;
+#
+endif
 return
 true
 ;
@@ -838,6 +848,9 @@ XEvent
 )
 ;
 }
+#
+ifdef
+MOZ_X11
 private
 :
 static
@@ -916,6 +929,8 @@ display
 ;
 }
 }
+#
+endif
 }
 ;
 }
