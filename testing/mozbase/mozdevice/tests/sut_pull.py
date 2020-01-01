@@ -5,6 +5,8 @@ MockAgent
 import
 mozdevice
 import
+mozlog
+import
 unittest
 import
 hashlib
@@ -91,14 +93,6 @@ sdcard
 cheeseburgers
 "
             
-mozdevice
-.
-DroidSUT
-.
-debug
-=
-4
-            
 a
 =
 MockAgent
@@ -174,6 +168,12 @@ port
 a
 .
 port
+                                   
+logLevel
+=
+mozlog
+.
+DEBUG
 )
             
 pulledData
@@ -308,6 +308,12 @@ port
 a
 .
 port
+                               
+logLevel
+=
+mozlog
+.
+DEBUG
 )
         
 exceptionThrown

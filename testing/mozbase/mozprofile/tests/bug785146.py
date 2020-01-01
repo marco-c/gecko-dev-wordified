@@ -290,7 +290,7 @@ stmt
 =
 '
 PRAGMA
-schema_version
+user_version
 ;
 '
         
@@ -341,7 +341,7 @@ self
 assertEqual
 (
 schema_version
-3
+2
 )
 if
 __name__

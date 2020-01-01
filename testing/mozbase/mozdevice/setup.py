@@ -62,7 +62,7 @@ PACKAGE_VERSION
 '
 0
 .
-21
+22
 '
 setup
 (
@@ -200,6 +200,9 @@ False
 install_requires
 =
 [
+'
+mozlog
+'
 ]
       
 entry_points

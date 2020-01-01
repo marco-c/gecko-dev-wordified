@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+mozlog
+import
 select
 import
 socket
@@ -162,10 +164,6 @@ work
 "
 "
     
-debug
-=
-2
-    
 _base_prompt
 =
 '
@@ -250,14 +248,28 @@ port
 retryLimit
 =
 5
+            
 deviceRoot
 =
 None
+logLevel
+=
+mozlog
+.
+ERROR
 *
 *
 kwargs
 )
 :
+        
+DeviceManager
+.
+__init__
+(
+self
+logLevel
+)
         
 self
 .
@@ -995,17 +1007,14 @@ fatal
 raise
 err
                 
-if
 self
 .
+_logger
+.
 debug
->
-=
-4
-:
-                    
-print
+(
 err
+)
                 
 retries
 +
@@ -1044,7 +1053,12 @@ sleep_time
 *
 retries
                     
-print
+self
+.
+_logger
+.
+info
+(
 '
 Could
 not
@@ -1059,6 +1073,7 @@ seconds
 '
 %
 sleep_time
+)
                     
 time
 .
@@ -1246,21 +1261,20 @@ try
 if
 self
 .
-debug
->
-=
-1
-and
-self
-.
 _everConnected
 :
                     
-print
+self
+.
+_logger
+.
+info
+(
 "
 reconnecting
 socket
 "
+)
                 
 self
 .
@@ -1636,24 +1650,20 @@ sent
 )
 )
                 
-if
 self
 .
+_logger
+.
 debug
->
-=
-4
-:
-                    
-print
+(
 "
 sent
 cmd
 :
+%
+s
 "
-+
-str
-(
+%
 cmd
 [
 '
@@ -1683,16 +1693,12 @@ _sock
 =
 None
                 
-if
 self
 .
-debug
->
-=
-1
-:
-                    
-print
+_logger
+.
+error
+(
 "
 Remote
 Device
@@ -1701,14 +1707,24 @@ Error
 Error
 sending
 data
+"
+\
+                        
+"
 to
 socket
 .
 cmd
 =
+%
+s
+;
+err
+=
+%
+s
 "
-+
-str
+%
 (
 cmd
 [
@@ -1716,17 +1732,8 @@ cmd
 cmd
 '
 ]
-)
-+
-"
-;
-err
-=
-"
-+
-str
-(
 msg
+)
 )
                 
 return
@@ -1816,16 +1823,12 @@ temp
 '
 '
                     
-if
 self
 .
+_logger
+.
 debug
->
-=
-4
-:
-                        
-print
+(
 "
 recv
 '
@@ -1834,6 +1837,7 @@ ing
 .
 .
 "
+)
                     
 #
 Get
@@ -1892,23 +1896,19 @@ recv
 1024
 )
                             
-if
 self
 .
+_logger
+.
 debug
->
-=
-4
-:
-                                
-print
+(
 "
 response
 :
+%
+s
 "
-+
-str
-(
+%
 temp
 )
                             
@@ -2935,18 +2935,12 @@ push
 "
 )
         
-if
-(
 self
 .
+_logger
+.
 debug
->
-=
-3
-)
-:
-            
-print
+(
 "
 push
 returned
@@ -2956,6 +2950,7 @@ s
 "
 %
 remoteHash
+)
         
 localHash
 =
@@ -3064,18 +3059,12 @@ self
 .
 retryLimit
         
-if
-(
 self
 .
-debug
->
-=
-2
-)
-:
-            
-print
+_logger
+.
+info
+(
 "
 pushing
 directory
@@ -3090,6 +3079,7 @@ s
 (
 localDir
 remoteDir
+)
 )
         
 existentDirectories
@@ -3508,18 +3498,12 @@ filename
 )
 :
         
-if
-(
 self
 .
-debug
->
-=
-2
-)
-:
-            
-print
+_logger
+.
+info
+(
 "
 removing
 file
@@ -3527,6 +3511,7 @@ file
 "
 +
 filename
+)
         
 if
 self
@@ -3745,10 +3730,13 @@ except
 ValueError
 :
                     
-print
+self
+.
+_logger
+.
+error
+(
 "
-ERROR
-:
 Unable
 to
 parse
@@ -3759,8 +3747,14 @@ bug
 805969
 )
 "
+)
                     
-print
+self
+.
+_logger
+.
+error
+(
 "
 Line
 :
@@ -3782,6 +3776,7 @@ s
 (
 line
 data
+)
 )
                     
 raise
@@ -3868,30 +3863,24 @@ run
 "
 )
         
-if
-(
 self
 .
-debug
->
-=
-2
-)
-:
-            
-print
+_logger
+.
+info
+(
 "
 FIRE
 PROC
 :
 '
-"
-+
-appname
-+
-"
+%
+s
 '
 "
+%
+appname
+)
         
 if
 (
@@ -3907,10 +3896,13 @@ None
 )
 :
             
-print
+self
+.
+_logger
+.
+warn
+(
 "
-WARNING
-:
 process
 %
 s
@@ -3924,6 +3916,7 @@ n
 "
 %
 appname
+)
             
 if
 (
@@ -4072,18 +4065,12 @@ waited
 =
 1
         
-if
-(
 self
 .
+_logger
+.
 debug
->
-=
-4
-)
-:
-            
-print
+(
 "
 got
 pid
@@ -4100,6 +4087,7 @@ s
 (
 pid
 appname
+)
 )
         
 return
@@ -4195,21 +4183,13 @@ not
 cmd
 :
             
-if
-(
 self
 .
-debug
->
-=
-1
-)
-:
-                
-print
+_logger
+.
+warn
+(
 "
-WARNING
-:
 launchProcess
 called
 without
@@ -4217,6 +4197,7 @@ command
 to
 run
 "
+)
             
 return
 None
@@ -4352,10 +4333,13 @@ if
 forceKill
 :
             
-print
+self
+.
+_logger
+.
+warn
+(
 "
-WARNING
-:
 killProcess
 (
 )
@@ -4366,6 +4350,7 @@ unsupported
 on
 SUT
 "
+)
         
 retries
 =
@@ -4422,11 +4407,13 @@ retries
 =
 1
                 
-print
+self
+.
+_logger
+.
+warn
 (
 "
-WARNING
-:
 try
 %
 d
@@ -4450,17 +4437,14 @@ appname
 )
 )
                 
-if
 self
 .
+_logger
+.
 debug
->
-=
-4
-:
-                    
-print
+(
 err
+)
                 
 if
 retries
@@ -4615,8 +4599,14 @@ s
 %
 error_msg
             
-print
+self
+.
+_logger
+.
+error
+(
 err_str
+)
             
 self
 .
@@ -5031,16 +5021,12 @@ metadata
 return
 None
         
-if
 self
 .
+_logger
+.
 debug
->
-=
-3
-:
-            
-print
+(
 '
 metadata
 :
@@ -5049,6 +5035,7 @@ s
 '
 %
 metadata
+)
         
 filename
 sep
@@ -5387,30 +5374,24 @@ True
 )
 :
         
-if
-(
 self
 .
-debug
->
-=
-2
-)
-:
-            
-print
+_logger
+.
+info
+(
 "
 getting
 files
 in
 '
-"
-+
-remoteDir
-+
-"
+%
+s
 '
 "
+%
+remoteDir
+)
         
 if
 checkDir
@@ -5455,19 +5436,14 @@ listFiles
 remoteDir
 )
         
-if
-(
 self
 .
+_logger
+.
 debug
->
-=
-3
-)
-:
-            
-print
+(
 filelist
+)
         
 if
 not
@@ -5651,16 +5627,12 @@ strip
 (
 )
         
-if
 self
 .
+_logger
+.
 debug
->
-=
-3
-:
-            
-print
+(
 "
 remote
 hash
@@ -5673,6 +5645,7 @@ s
 "
 %
 data
+)
         
 return
 data
@@ -5935,16 +5908,12 @@ port
 )
 :
         
-if
 self
 .
+_logger
+.
 debug
->
-=
-3
-:
-            
-print
+(
 '
 Creating
 server
@@ -5959,6 +5928,7 @@ d
 (
 host
 port
+)
 )
         
 timeout_expires
@@ -6178,11 +6148,13 @@ reboot_settling_time
 else
 :
             
-print
+self
+.
+_logger
+.
+error
+(
 '
-Automation
-Error
-:
 Timed
 out
 waiting
@@ -6191,6 +6163,7 @@ reboot
 callback
 .
 '
+)
         
 s
 .
@@ -6220,22 +6193,18 @@ cmd
 rebt
 '
         
-if
 self
 .
-debug
->
-3
-:
-            
-print
+_logger
+.
+info
+(
 "
-INFO
-:
 sending
 rebt
 command
 "
+)
         
 if
 ipAddr
@@ -6398,28 +6367,23 @@ ipAddr
 port
 )
         
-if
 self
 .
-debug
->
-3
-:
-            
-print
+_logger
+.
+info
+(
 "
-INFO
-:
 rebt
 -
 got
 status
 back
 :
+%
+s
 "
-+
-str
-(
+%
 status
 )
     
@@ -6668,25 +6632,19 @@ process
 =
 proclist
         
-if
-(
 self
 .
+_logger
+.
 debug
->
-=
-3
-)
-:
-            
-print
+(
 "
 results
 :
+%
+s
 "
-+
-str
-(
+%
 result
 )
         
@@ -6862,15 +6820,12 @@ strip
 (
 )
         
-if
 self
 .
+_logger
+.
 debug
->
-3
-:
-            
-print
+(
 "
 uninstallApp
 :
@@ -6881,6 +6836,7 @@ s
 "
 %
 status
+)
         
 if
 status
@@ -6959,24 +6915,19 @@ cmd
 ]
 )
         
-if
-(
 self
 .
+_logger
+.
 debug
->
-3
-)
-:
-            
-print
+(
 "
 uninstallAppAndReboot
 :
+%
+s
 "
-+
-str
-(
+%
 data
 )
         
@@ -7095,27 +7046,19 @@ ip
 port
 )
         
-if
 self
 .
+_logger
+.
 debug
->
-=
-3
-:
-            
-print
+(
 "
-INFO
-:
 updateApp
 using
 command
 :
 "
-+
-str
-(
+%
 cmd
 )
         
@@ -7153,19 +7096,13 @@ ip
 port
 )
         
-if
 self
 .
+_logger
+.
 debug
->
-=
-3
-:
-            
-print
+(
 "
-INFO
-:
 updateApp
 :
 got
@@ -7175,9 +7112,7 @@ back
 %
 s
 "
-+
-str
-(
+%
 status
 )
     
@@ -7580,21 +7515,13 @@ eng
 '
 :
             
-if
-(
 self
 .
-debug
->
-=
-2
-)
-:
-                
-print
+_logger
+.
+warn
+(
 "
-WARNING
-:
 unable
 to
 adjust
@@ -7605,6 +7532,7 @@ non
 Tegra
 device
 "
+)
             
 return
 False
@@ -7639,21 +7567,13 @@ split
 '
 )
         
-if
-(
 self
 .
+_logger
+.
 debug
->
-=
-3
-)
-:
-            
-print
+(
 "
-INFO
-:
 we
 have
 a
@@ -7689,6 +7609,7 @@ split
 [
 0
 ]
+)
 )
         
 #
@@ -7830,21 +7751,13 @@ height
 return
 False
         
-if
-(
 self
 .
+_logger
+.
 debug
->
-=
-3
-)
-:
-            
-print
+(
 "
-INFO
-:
 adjusting
 screen
 resolution
@@ -7860,6 +7773,7 @@ rebooting
 (
 width
 height
+)
 )
         
 self

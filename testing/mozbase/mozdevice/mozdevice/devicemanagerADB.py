@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+mozlog
+import
 subprocess
 from
 devicemanager
@@ -196,11 +198,25 @@ None
 deviceRoot
 =
 None
+                 
+logLevel
+=
+mozlog
+.
+ERROR
 *
 *
 kwargs
 )
 :
+        
+DeviceManager
+.
+__init__
+(
+self
+logLevel
+)
         
 self
 .
@@ -1809,7 +1825,12 @@ error
 except
 :
                 
-print
+self
+.
+_logger
+.
+info
+(
 "
 zip
 /
@@ -1822,6 +1843,7 @@ to
 normal
 push
 "
+)
                 
 self
 .
@@ -3078,8 +3100,14 @@ uri
 )
 ;
         
-print
+self
+.
+_logger
+.
+info
+(
 acmd
+)
         
 self
 .
@@ -3849,7 +3877,12 @@ deviceRoot
 except
 :
                     
-print
+self
+.
+_logger
+.
+error
+(
 "
 Unable
 to
@@ -3863,6 +3896,7 @@ s
 self
 .
 deviceRoot
+)
                     
 raise
             
@@ -4786,8 +4820,14 @@ read
 (
 )
         
-print
+self
+.
+_logger
+.
+info
+(
 ret
+)
         
 return
 ret
@@ -5749,12 +5789,20 @@ remoteEntry
 ]
 )
                     
-print
+self
+.
+_logger
+.
+info
+(
 "
 chmod
+%
+s
 "
-+
+%
 remoteEntry
+)
             
 self
 .
@@ -5772,12 +5820,20 @@ remoteDir
 ]
 )
             
-print
+self
+.
+_logger
+.
+info
+(
 "
 chmod
+%
+s
 "
-+
+%
 remoteDir
+)
         
 else
 :
@@ -5802,15 +5858,23 @@ strip
 ]
 )
             
-print
+self
+.
+_logger
+.
+info
+(
 "
 chmod
+%
+s
 "
-+
+%
 remoteDir
 .
 strip
 (
+)
 )
     
 def
@@ -6552,7 +6616,12 @@ tmpfile
 )
 :
                 
-print
+self
+.
+_logger
+.
+info
+(
 "
 will
 execute
@@ -6561,11 +6630,14 @@ via
 run
 -
 as
+%
+s
 "
-+
+%
 self
 .
 _packageName
+)
                 
 self
 .
@@ -7060,7 +7132,12 @@ _isLocalZipAvailable
 )
 :
             
-print
+self
+.
+_logger
+.
+info
+(
 "
 will
 use
@@ -7069,6 +7146,7 @@ to
 push
 directories
 "
+)
             
 self
 .

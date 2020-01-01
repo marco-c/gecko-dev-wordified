@@ -5,6 +5,8 @@ MockAgent
 import
 mozdevice
 import
+mozlog
+import
 unittest
 class
 BasicTest
@@ -40,14 +42,6 @@ MockAgent
 self
 )
         
-mozdevice
-.
-DroidSUT
-.
-debug
-=
-4
-        
 d
 =
 mozdevice
@@ -68,6 +62,11 @@ port
 a
 .
 port
+logLevel
+=
+mozlog
+.
+DEBUG
 )
         
 #
@@ -223,14 +222,6 @@ start_commands
 cmds
 )
         
-mozdevice
-.
-DroidSUT
-.
-debug
-=
-4
-        
 dm
 =
 mozdevice
@@ -251,6 +242,11 @@ port
 a
 .
 port
+logLevel
+=
+mozlog
+.
+DEBUG
 )
         
 a
@@ -351,14 +347,6 @@ file
 ]
 )
         
-mozdevice
-.
-DroidSUT
-.
-debug
-=
-4
-        
 d
 =
 mozdevice
@@ -379,6 +367,11 @@ port
 a
 .
 port
+logLevel
+=
+mozlog
+.
+DEBUG
 )
         
 ret
@@ -515,14 +508,6 @@ txt
 ]
 )
         
-mozdevice
-.
-DroidSUT
-.
-debug
-=
-4
-        
 d
 =
 mozdevice
@@ -543,6 +528,11 @@ port
 a
 .
 port
+logLevel
+=
+mozlog
+.
+DEBUG
 )
         
 d

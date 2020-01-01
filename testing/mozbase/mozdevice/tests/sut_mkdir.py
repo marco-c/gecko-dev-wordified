@@ -28,6 +28,8 @@ zero
 import
 mozdevice
 import
+mozlog
+import
 unittest
 from
 sut
@@ -322,14 +324,6 @@ False
 try
 :
                 
-mozdevice
-.
-DroidSUT
-.
-debug
-=
-4
-                
 d
 =
 mozdevice
@@ -350,6 +344,12 @@ port
 a
 .
 port
+                                       
+logLevel
+=
+mozlog
+.
+DEBUG
 )
                 
 d
@@ -528,14 +528,6 @@ commands
 cmds
 )
         
-mozdevice
-.
-DroidSUT
-.
-debug
-=
-4
-        
 d
 =
 mozdevice
@@ -556,6 +548,12 @@ port
 a
 .
 port
+                               
+logLevel
+=
+mozlog
+.
+DEBUG
 )
         
 d

@@ -836,7 +836,7 @@ hasattr
 (
 self
 '
-userSerial
+_userSerial
 '
 )
 :
@@ -957,7 +957,7 @@ m
                    
 self
 .
-userSerial
+_userSerial
 =
 m
 .
@@ -971,14 +971,23 @@ else
                    
 self
 .
-userSerial
+_userSerial
+=
+None
+            
+else
+:
+                
+self
+.
+_userSerial
 =
 None
         
 if
 self
 .
-userSerial
+_userSerial
 is
 not
 None
@@ -993,7 +1002,7 @@ user
 "
 self
 .
-userSerial
+_userSerial
 ]
         
 return
