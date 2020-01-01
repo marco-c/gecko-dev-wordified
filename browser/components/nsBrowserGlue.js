@@ -11984,7 +11984,6 @@ callback
 :
 function
 (
-notification
 )
 {
 request
