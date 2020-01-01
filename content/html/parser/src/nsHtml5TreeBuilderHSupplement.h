@@ -410,6 +410,9 @@ ref
 PRBool
 mHasProcessedBase
 ;
+PRBool
+mFlushing
+;
 nsTArray
 <
 nsHtml5TreeOperation
