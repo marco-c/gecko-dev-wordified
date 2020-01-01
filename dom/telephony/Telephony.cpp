@@ -234,7 +234,6 @@ TelephonyCallGroup
 .
 h
 "
-USING_TELEPHONY_NAMESPACE
 using
 namespace
 mozilla
@@ -247,6 +246,18 @@ mozilla
 :
 :
 ErrorResult
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+telephony
+:
+:
+kOutgoingPlaceholderCallIndex
 ;
 namespace
 {
