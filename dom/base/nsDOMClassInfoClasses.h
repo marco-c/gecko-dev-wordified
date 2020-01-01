@@ -1784,6 +1784,10 @@ DOMCI_CLASS
 (
 MozURLProperty
 )
+DOMCI_CLASS
+(
+DOMStringMap
+)
 /
 /
 DOM
