@@ -97,9 +97,9 @@ true
 ;
 is
 (
-PlacesStarButton
+BookmarksMenuButton
 .
-_starIcon
+button
 .
 getAttribute
 (
@@ -107,7 +107,7 @@ getAttribute
 tooltiptext
 "
 )
-PlacesStarButton
+BookmarksMenuButton
 .
 _unstarredTooltip
 "
