@@ -2875,10 +2875,10 @@ UI_isTabViewVisible
 return
 gTabViewDeck
 .
-selectedIndex
+selectedPanel
 =
 =
-1
+gTabViewFrame
 ;
 }
 /
@@ -3123,9 +3123,9 @@ marginTop
 endif
 gTabViewDeck
 .
-selectedIndex
+selectedPanel
 =
-1
+gTabViewFrame
 ;
 gWindow
 .
@@ -3654,9 +3654,9 @@ px
 endif
 gTabViewDeck
 .
-selectedIndex
+selectedPanel
 =
-0
+gBrowserPanel
 ;
 gWindow
 .
