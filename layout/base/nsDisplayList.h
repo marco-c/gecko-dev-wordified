@@ -6967,10 +6967,6 @@ MOZ_REFLOW_PERF_DSP
 &
 &
 MOZ_REFLOW_PERF
-MOZ_DECL_CTOR_COUNTER
-(
-nsDisplayCaret
-)
 class
 nsDisplayCaret
 :
