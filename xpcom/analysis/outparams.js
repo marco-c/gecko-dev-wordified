@@ -225,6 +225,11 @@ LOG_RESULTS
 =
 false
 ;
+let
+WARN_ON_SET_NULL
+=
+false
+;
 /
 /
 Filter
@@ -4761,6 +4766,11 @@ warning
 '
 )
 ;
+if
+(
+WARN_ON_SET_NULL
+)
+{
 this
 .
 warn
@@ -4817,6 +4827,7 @@ here
 ]
 )
 ;
+}
 }
 else
 {
