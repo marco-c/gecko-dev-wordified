@@ -698,9 +698,9 @@ KB
 )
 HISTOGRAM
 (
-MEMORY_LAYOUT_ALL
+MEMORY_STORAGE_SQLITE
 1024
-64
+512
 *
 1024
 10
@@ -709,7 +709,7 @@ EXPONENTIAL
 Memory
 used
 by
-layout
+SQLite
 (
 KB
 )
