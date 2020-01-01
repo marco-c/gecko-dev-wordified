@@ -19014,6 +19014,15 @@ None
         
 if
 callbackObject
+and
+callbackMemberTypes
+[
+0
+]
+.
+isCallbackInterface
+(
+)
 :
             
 callbackObject
@@ -19051,13 +19060,6 @@ n
 }
 "
 )
-        
-else
-:
-            
-callbackObject
-=
-None
         
 dictionaryMemberTypes
 =
@@ -33846,6 +33848,24 @@ arg
 #
 4
 )
+A
+callable
+object
+being
+passed
+to
+a
+callback
+or
+"
+object
+"
+arg
+.
+            
+#
+5
+)
 Any
 non
 -
@@ -33874,7 +33894,7 @@ arg
 .
             
 #
-5
+6
 )
 Some
 other
@@ -33889,8 +33909,6 @@ callback
             
 #
 interface
-callback
-function
 or
 "
 object
@@ -33919,9 +33937,10 @@ check
 down
 into
 case
-5
+6
 because
 callbacks
+interfaces
 _can_
 normally
 be
@@ -33940,7 +33959,7 @@ the
 other
             
 #
-four
+five
 cases
 together
 as
@@ -33973,6 +33992,9 @@ an
 arraylike
 or
 dictionary
+or
+callback
+function
 .
             
 #
@@ -34096,6 +34118,36 @@ s
 )
 .
 isDate
+(
+)
+)
+            
+#
+And
+all
+the
+overloads
+that
+take
+callbacks
+            
+objectSigs
+.
+extend
+(
+s
+for
+s
+in
+possibleSignatures
+                              
+if
+distinguishingType
+(
+s
+)
+.
+isCallback
 (
 )
 )
@@ -34480,17 +34532,6 @@ distinguishingArg
 lambda
 s
 :
-(
-distinguishingType
-(
-s
-)
-.
-isCallback
-(
-)
-or
-                                          
 distinguishingType
 (
 s
@@ -34498,7 +34539,6 @@ s
 .
 isCallbackInterface
 (
-)
 )
 )
             
