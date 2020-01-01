@@ -767,7 +767,7 @@ if
 !
 PL_strcasecmp
 (
-aToType
+aFromType
 GZIP_TYPE
 )
 |
@@ -775,7 +775,7 @@ GZIP_TYPE
 !
 PL_strcasecmp
 (
-aToType
+aFromType
 X_GZIP_TYPE
 )
 )
