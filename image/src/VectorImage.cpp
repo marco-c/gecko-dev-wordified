@@ -614,7 +614,7 @@ mImage
 aImage
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDocument
 "
@@ -625,7 +625,7 @@ document
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mImage
 "
@@ -702,7 +702,7 @@ aDocument
 )
 MOZ_OVERRIDE
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aDocument
 =
@@ -766,7 +766,7 @@ Cancel
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDocument
 "
@@ -852,7 +852,7 @@ mImage
 aImage
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDocument
 "
@@ -863,7 +863,7 @@ document
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mImage
 "
@@ -980,7 +980,7 @@ aEvent
 )
 MOZ_OVERRIDE
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDocument
 "
@@ -1044,7 +1044,7 @@ GetType
 eventType
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eventType
 .
@@ -1120,7 +1120,7 @@ Cancel
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDocument
 "
@@ -1340,7 +1340,7 @@ gfxMatrix
 aTransform
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSVGDocumentWrapper
 "
@@ -1407,7 +1407,7 @@ return
 false
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 presShell
 "
@@ -1493,7 +1493,7 @@ GetPresContext
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 presContext
 "
@@ -1896,7 +1896,7 @@ mIsInitialized
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIsFullyLoaded
@@ -1921,7 +1921,7 @@ initialization
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 strcmp
@@ -2098,7 +2098,7 @@ bool
 aLastPart
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mStopRequest
 .
@@ -2329,7 +2329,7 @@ mError
 return
 NS_ERROR_FAILURE
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ShouldAnimate
 (
@@ -2368,7 +2368,7 @@ mError
 return
 NS_ERROR_FAILURE
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mIsFullyLoaded
 &
@@ -6287,7 +6287,7 @@ nsISupports
 aCtxt
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mSVGDocumentWrapper
@@ -6645,7 +6645,7 @@ OnSVGDocumentParsed
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mParseCompleteListener
 "
@@ -6658,7 +6658,7 @@ listener
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mLoadEventListener
 "
@@ -6811,7 +6811,7 @@ OnSVGDocumentLoaded
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSVGDocumentWrapper
 -
@@ -6827,7 +6827,7 @@ successfully
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIsFullyLoaded
