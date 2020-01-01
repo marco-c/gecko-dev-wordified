@@ -1712,7 +1712,9 @@ nsMediaFeature
 :
 :
 eLength
+{
 nsnull
+}
 GetWidth
 }
 {
@@ -1729,7 +1731,9 @@ nsMediaFeature
 :
 :
 eLength
+{
 nsnull
+}
 GetHeight
 }
 {
@@ -1746,7 +1750,9 @@ nsMediaFeature
 :
 :
 eLength
+{
 nsnull
+}
 GetDeviceWidth
 }
 {
@@ -1763,7 +1769,9 @@ nsMediaFeature
 :
 :
 eLength
+{
 nsnull
+}
 GetDeviceHeight
 }
 {
@@ -1780,7 +1788,9 @@ nsMediaFeature
 :
 :
 eEnumerated
+{
 kOrientationKeywords
+}
 GetOrientation
 }
 {
@@ -1797,7 +1807,9 @@ nsMediaFeature
 :
 :
 eIntRatio
+{
 nsnull
+}
 GetAspectRatio
 }
 {
@@ -1814,7 +1826,9 @@ nsMediaFeature
 :
 :
 eIntRatio
+{
 nsnull
+}
 GetDeviceAspectRatio
 }
 {
@@ -1831,7 +1845,9 @@ nsMediaFeature
 :
 :
 eInteger
+{
 nsnull
+}
 GetColor
 }
 {
@@ -1848,7 +1864,9 @@ nsMediaFeature
 :
 :
 eInteger
+{
 nsnull
+}
 GetColorIndex
 }
 {
@@ -1865,7 +1883,9 @@ nsMediaFeature
 :
 :
 eInteger
+{
 nsnull
+}
 GetMonochrome
 }
 {
@@ -1882,7 +1902,9 @@ nsMediaFeature
 :
 :
 eResolution
+{
 nsnull
+}
 GetResolution
 }
 {
@@ -1899,7 +1921,9 @@ nsMediaFeature
 :
 :
 eEnumerated
+{
 kScanKeywords
+}
 GetScan
 }
 {
@@ -1916,7 +1940,9 @@ nsMediaFeature
 :
 :
 eBoolInteger
+{
 nsnull
+}
 GetGrid
 }
 /
@@ -1936,7 +1962,9 @@ nsMediaFeature
 :
 :
 eInteger
+{
 nsnull
+}
 nsnull
 }
 }
