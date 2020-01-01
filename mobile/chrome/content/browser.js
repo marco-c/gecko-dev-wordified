@@ -1734,12 +1734,6 @@ function
 aEvent
 )
 {
-let
-browser
-=
-aEvent
-.
-originalTa
 switch
 (
 aEvent
