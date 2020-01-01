@@ -384,7 +384,7 @@ formatStringFromName
 "
 offlineApps
 .
-available
+available2
 "
 [
 host
