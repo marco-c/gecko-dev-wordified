@@ -19659,6 +19659,7 @@ XPCPerThreadData
 :
 GetData
 (
+cx
 )
 ;
 XPCJSContextStack

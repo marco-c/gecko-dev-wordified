@@ -9058,6 +9058,7 @@ XPCPerThreadData
 :
 GetData
 (
+nsnull
 )
 ;
 if
@@ -9135,6 +9136,7 @@ XPCPerThreadData
 :
 GetData
 (
+nsnull
 )
 ;
 if
@@ -9185,6 +9187,7 @@ XPCPerThreadData
 :
 GetData
 (
+nsnull
 )
 ;
 if
@@ -11053,6 +11056,7 @@ XPCPerThreadData
 :
 GetData
 (
+aJSContext
 )
 ;
 if

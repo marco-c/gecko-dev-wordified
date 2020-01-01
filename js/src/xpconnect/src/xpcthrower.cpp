@@ -1447,6 +1447,7 @@ XPCPerThreadData
 :
 GetData
 (
+cx
 )
 ;
 if

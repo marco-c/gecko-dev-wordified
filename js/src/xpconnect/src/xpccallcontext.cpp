@@ -654,10 +654,6 @@ NS_ADDREF
 mXPC
 )
 ;
-if
-(
-!
-(
 mThreadData
 =
 XPCPerThreadData
@@ -665,8 +661,13 @@ XPCPerThreadData
 :
 GetData
 (
+mJSContext
 )
-)
+;
+if
+(
+!
+mThreadData
 )
 return
 ;
