@@ -2570,17 +2570,6 @@ mPitch
 nsCSSValue
 mPitchRange
 ;
-nsCSSValuePair
-mPlayDuring
-;
-/
-/
-mXValue
-is
-URI
-mYValue
-are
-flags
 nsCSSValue
 mRichness
 ;
