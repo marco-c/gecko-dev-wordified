@@ -43417,7 +43417,10 @@ jsEnvironment
 {
 globalObject
 :
+unwrap
+(
 aContentWindow
+)
 evalFunction
 :
 this
