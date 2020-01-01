@@ -166,8 +166,6 @@ formatStr
 "
 appVersion
 "
-/
-/
 [
 branding
 .
@@ -177,6 +175,8 @@ getStringFromName
 brandShortName
 "
 )
+/
+/
 [
 "
 Firefox
