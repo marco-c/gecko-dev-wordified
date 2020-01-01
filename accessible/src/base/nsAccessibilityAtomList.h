@@ -1811,6 +1811,15 @@ aria
 valuemax
 "
 )
+ACCESSIBILITY_ATOM
+(
+aria_valuetext
+"
+aria
+-
+valuetext
+"
+)
 /
 /
 misc
