@@ -1101,6 +1101,15 @@ Init
 docPrincipal
 context
 owner
+?
+owner
+-
+>
+GetOuterWindow
+(
+)
+:
+nullptr
 nullptr
 )
 ;
