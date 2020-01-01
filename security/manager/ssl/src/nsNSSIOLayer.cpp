@@ -16458,6 +16458,17 @@ SSL_RevealURL
 sslSocket
 )
 ;
+if
+(
+!
+hostname
+)
+return
+cancel_and_failure
+(
+infoObject
+)
+;
 charCleaner
 hostnameCleaner
 (
@@ -16522,9 +16533,6 @@ hostname
 .
 if
 (
-hostname
-&
-&
 hostname
 [
 0
