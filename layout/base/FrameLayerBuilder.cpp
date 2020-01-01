@@ -19416,6 +19416,8 @@ aManager
 FILE
 *
 aFile
+bool
+aDumpHtml
 )
 {
 aManager
@@ -19424,6 +19426,9 @@ aManager
 Dump
 (
 aFile
+"
+"
+aDumpHtml
 )
 ;
 }
