@@ -39351,7 +39351,7 @@ nsCOMPtr
 nsICSSStyleSheet
 >
 clonedSheet
-;
+=
 sheet
 -
 >
@@ -39361,10 +39361,6 @@ nsnull
 nsnull
 clonedDoc
 nsnull
-getter_AddRefs
-(
-clonedSheet
-)
 )
 ;
 NS_WARN_IF_FALSE
@@ -39463,7 +39459,7 @@ nsCOMPtr
 nsICSSStyleSheet
 >
 clonedSheet
-;
+=
 sheet
 -
 >
@@ -39473,10 +39469,6 @@ nsnull
 nsnull
 clonedDoc
 nsnull
-getter_AddRefs
-(
-clonedSheet
-)
 )
 ;
 NS_WARN_IF_FALSE

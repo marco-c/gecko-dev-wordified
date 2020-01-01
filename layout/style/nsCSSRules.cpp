@@ -2215,6 +2215,8 @@ aCopy
 mChildSheet
 )
 {
+sheet
+=
 aCopy
 .
 mChildSheet
@@ -2226,10 +2228,6 @@ nsnull
 this
 nsnull
 nsnull
-getter_AddRefs
-(
-sheet
-)
 )
 ;
 }
