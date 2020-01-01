@@ -35757,9 +35757,11 @@ break
 ;
 }
 /
-/
+*
 FALL
 THROUGH
+*
+/
 case
 TOK_DOT
 :
