@@ -251,6 +251,18 @@ _is_emulator
 =
 False
         
+self
+.
+test_script
+=
+None
+        
+self
+.
+test_script_args
+=
+None
+        
 #
 Default
 our
@@ -2019,13 +2031,9 @@ the
 tests
         
 elif
-hasattr
-(
 self
-'
-testScript
-'
-)
+.
+test_script
 :
             
 if
@@ -2037,7 +2045,7 @@ isfile
 (
 self
 .
-testScript
+test_script
 )
 :
                 
@@ -2047,7 +2055,7 @@ open
 (
 self
 .
-testScript
+test_script
 '
 r
 '
@@ -2064,6 +2072,11 @@ script
 read
 (
 )
+script_args
+=
+self
+.
+test_script_args
 )
                 
 script
@@ -2077,7 +2090,7 @@ else
                 
 #
 assume
-testScript
+test_script
 is
 a
 string
@@ -2090,7 +2103,12 @@ execute_script
 (
 self
 .
-testScript
+test_script
+script_args
+=
+self
+.
+test_script_args
 )
         
 else
