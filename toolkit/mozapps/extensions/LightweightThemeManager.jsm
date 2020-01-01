@@ -3254,15 +3254,6 @@ AddonManager
 SCOPE_PROFILE
 ;
 }
-get
-foreignInstall
-(
-)
-{
-return
-false
-;
-}
 /
 /
 Lightweight

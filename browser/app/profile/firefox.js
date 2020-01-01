@@ -1051,7 +1051,7 @@ extensions
 .
 autoDisableScopes
 "
-15
+10
 )
 ;
 /

@@ -2512,15 +2512,6 @@ return
 true
 ;
 }
-get
-foreignInstall
-(
-)
-{
-return
-true
-;
-}
 isCompatibleWith
 :
 function

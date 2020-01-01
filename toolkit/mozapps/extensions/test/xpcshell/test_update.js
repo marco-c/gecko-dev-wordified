@@ -665,13 +665,6 @@ releaseNotesURI
 null
 )
 ;
-do_check_true
-(
-a1
-.
-foreignInstall
-)
-;
 a1
 .
 applyBackgroundUpdates
@@ -1370,13 +1363,6 @@ updateInfo
 .
 xhtml
 "
-)
-;
-do_check_true
-(
-a1
-.
-foreignInstall
 )
 ;
 a1
