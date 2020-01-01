@@ -2187,6 +2187,8 @@ JS_SetOptions
 mContext
 options
 |
+JSOPTION_ALLOW_XML
+|
 JSOPTION_MOAR_XML
 )
 ;

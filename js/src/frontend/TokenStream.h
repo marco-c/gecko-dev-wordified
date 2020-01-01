@@ -3081,6 +3081,9 @@ allowsXML
 const
 {
 return
+allowXML
+&
+&
 !
 isStrictMode
 (
@@ -5174,6 +5177,15 @@ to
 identify
 keywords
 )
+*
+/
+bool
+allowXML
+;
+/
+*
+see
+JSOPTION_ALLOW_XML
 *
 /
 bool

@@ -1579,6 +1579,13 @@ sc
 inStrictMode
 (
 )
+&
+&
+tokenStream
+.
+allowsXML
+(
+)
 ;
 }
 ParseNode

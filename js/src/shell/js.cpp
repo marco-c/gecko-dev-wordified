@@ -3228,6 +3228,12 @@ JSOPTION_WERROR
 }
 {
 "
+allow_xml
+"
+JSOPTION_ALLOW_XML
+}
+{
+"
 moar_xml
 "
 JSOPTION_MOAR_XML
