@@ -1038,7 +1038,7 @@ document
 getElementById
 (
 "
-currentUser
+currentAccount
 "
 )
 .
@@ -1048,7 +1048,7 @@ Weave
 .
 Service
 .
-username
+account
 ;
 document
 .
