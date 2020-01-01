@@ -7428,7 +7428,6 @@ js_GetCallObject
 (
 cx
 caller
-NULL
 )
 )
 return

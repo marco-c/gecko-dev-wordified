@@ -1619,9 +1619,6 @@ cx
 JSStackFrame
 *
 fp
-JSObject
-*
-parent
 )
 ;
 extern
