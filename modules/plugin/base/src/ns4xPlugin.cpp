@@ -11916,6 +11916,12 @@ defined
 (
 XP_OS2
 )
+|
+|
+defined
+(
+MOZ_WIDGET_GTK2
+)
 case
 NPNVnetscapeWindow
 :
