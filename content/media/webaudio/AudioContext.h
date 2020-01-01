@@ -1285,6 +1285,9 @@ mIsOffline
 bool
 mIsStarted
 ;
+bool
+mIsShutDown
+;
 }
 ;
 }
