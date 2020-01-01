@@ -489,7 +489,7 @@ MOZCE_SHUNT_API
 unsigned
 char
 *
-mozce_mbsinc
+_mbsinc
 (
 const
 unsigned
@@ -508,7 +508,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_mbsinc
+mbsinc
 called
 \
 n
@@ -547,7 +547,7 @@ MOZCE_SHUNT_API
 unsigned
 char
 *
-mozce_mbspbrk
+_mbspbrk
 (
 const
 unsigned
@@ -571,7 +571,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_mbspbrk
+mbspbrk
 called
 \
 n
@@ -646,7 +646,7 @@ MOZCE_SHUNT_API
 unsigned
 char
 *
-mozce_mbsrchr
+mbsrchr
 (
 const
 unsigned
@@ -668,7 +668,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_mbsrchr
+mbsrchr
 called
 \
 n
@@ -700,7 +700,7 @@ MOZCE_SHUNT_API
 unsigned
 char
 *
-mozce_mbschr
+mbschr
 (
 const
 unsigned
@@ -722,7 +722,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_mbschr
+mbschr
 called
 \
 n
@@ -756,7 +756,7 @@ inC
 }
 MOZCE_SHUNT_API
 int
-mozce_mbsicmp
+mbsicmp
 (
 const
 unsigned
@@ -780,7 +780,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_mbsicmp
+mbsicmp
 called
 \
 n
@@ -813,7 +813,7 @@ MOZCE_SHUNT_API
 unsigned
 char
 *
-mozce_mbsdec
+mbsdec
 (
 const
 unsigned
@@ -837,7 +837,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_mbsdec
+mbsdec
 called
 \
 n

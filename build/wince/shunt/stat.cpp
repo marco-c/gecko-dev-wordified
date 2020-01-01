@@ -465,14 +465,14 @@ if
 endif
 MOZCE_SHUNT_API
 int
-mozce_stat
+stat
 (
 const
 char
 *
 inPath
 struct
-mozce_stat
+stat
 *
 outStats
 )
@@ -484,7 +484,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_stat
+stat
 called
 \
 n
@@ -732,9 +732,9 @@ Errno
 .
 extern
 int
-mozce_errno
+errno
 ;
-mozce_errno
+errno
 =
 ENOENT
 ;

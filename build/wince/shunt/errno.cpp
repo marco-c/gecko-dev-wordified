@@ -451,7 +451,7 @@ if
 endif
 MOZCE_SHUNT_API
 int
-mozce_errno
+errno
 =
 0
 ;

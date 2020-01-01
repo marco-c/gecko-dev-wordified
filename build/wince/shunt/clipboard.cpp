@@ -893,7 +893,7 @@ mRefCnt
 ;
 MOZCE_SHUNT_API
 HRESULT
-mozce_OleSetClipboard
+OleSetClipboard
 (
 IDataObject
 *
@@ -1048,9 +1048,20 @@ return
 S_OK
 ;
 }
+/
+/
+dougt
+?
+?
+do
+we
+need
+this
+clipboard
+function
 MOZCE_SHUNT_API
 HRESULT
-mozce_OleGetClipboard
+OleGetClipboard
 (
 IDataObject
 *
@@ -1118,7 +1129,7 @@ S_OK
 }
 MOZCE_SHUNT_API
 HRESULT
-mozce_OleFlushClipboard
+OleFlushClipboard
 (
 )
 {
@@ -1127,7 +1138,7 @@ oleSetup
 (
 )
 ;
-mozce_OleSetClipboard
+OleSetClipboard
 (
 NULL
 )
@@ -1138,7 +1149,7 @@ S_OK
 }
 MOZCE_SHUNT_API
 BOOL
-mozce_IsClipboardFormatAvailable
+IsClipboardFormatAvailable
 (
 UINT
 format

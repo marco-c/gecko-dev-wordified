@@ -451,7 +451,7 @@ if
 endif
 MOZCE_SHUNT_API
 int
-mozce_mkdir
+mkdir
 (
 const
 char
@@ -466,7 +466,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_mkdir
+mkdir
 called
 \
 n
@@ -545,7 +545,7 @@ retval
 }
 MOZCE_SHUNT_API
 int
-mozce_rmdir
+rmdir
 (
 const
 char
@@ -560,7 +560,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_rmdir
+rmdir
 called
 (
 %

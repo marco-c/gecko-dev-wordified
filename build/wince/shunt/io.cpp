@@ -451,7 +451,7 @@ if
 endif
 MOZCE_SHUNT_API
 int
-mozce_chmod
+chmod
 (
 const
 char
@@ -468,7 +468,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_chmod
+chmod
 called
 \
 n
@@ -605,7 +605,7 @@ retval
 }
 MOZCE_SHUNT_API
 int
-mozce_isatty
+isatty
 (
 int
 inHandle
@@ -620,7 +620,7 @@ mozce_printf
 "
 -
 -
-mozce_isatty
+isatty
 called
 \
 n
@@ -750,7 +750,7 @@ MOZCE_SHUNT_API
 struct
 protoent
 *
-mozce_getprotobyname
+getprotobyname
 (
 const
 char
@@ -839,7 +839,7 @@ MOZCE_SHUNT_API
 struct
 protoent
 *
-mozce_getprotobynumber
+getprotobynumber
 (
 int
 inNumber

@@ -472,7 +472,7 @@ h
 "
 MOZCE_SHUNT_API
 void
-mozce_abort
+abort
 (
 void
 )
@@ -484,7 +484,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_abort
+abort
 called
 \
 n
@@ -520,7 +520,7 @@ GetCurrentProcessId
 MOZCE_SHUNT_API
 char
 *
-mozce_getenv
+getenv
 (
 const
 char
@@ -535,7 +535,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_getenv
+getenv
 called
 (
 %
@@ -663,7 +663,7 @@ retval
 }
 MOZCE_SHUNT_API
 int
-mozce_putenv
+putenv
 (
 const
 char
@@ -678,7 +678,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_putenv
+putenv
 called
 \
 n
@@ -693,7 +693,7 @@ return
 }
 MOZCE_SHUNT_API
 int
-mozce_getpid
+getpid
 (
 void
 )
@@ -705,7 +705,7 @@ DEBUG
 mozce_printf
 (
 "
-mozce_getpid
+getpid
 called
 \
 n
