@@ -215,9 +215,8 @@ DialogText
 ;
 }
 richlistbox
-[
-focused
-]
+:
+focus
 richlistitem
 [
 selected
@@ -239,9 +238,8 @@ HighlightText
 ;
 }
 richlistbox
-[
-focused
-]
+:
+focus
 richlistitem
 [
 selected
