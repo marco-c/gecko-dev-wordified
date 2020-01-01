@@ -880,6 +880,8 @@ height
 NS_IMETHOD
 FlushDelayedResize
 (
+PRBool
+aDoReflow
 )
 ;
 NS_IMETHOD
