@@ -536,6 +536,13 @@ h
 #
 include
 "
+nsISecurityPref
+.
+h
+"
+#
+include
+"
 nsIChannelEventSink
 .
 h
@@ -1886,6 +1893,8 @@ nsScriptSecurityManager
 public
 nsIScriptSecurityManager
 public
+nsIPrefSecurityCheck
+public
 nsIChannelEventSink
 public
 nsIObserver
@@ -1905,6 +1914,7 @@ NS_SCRIPTSECURITYMANAGER_CID
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCRIPTSECURITYMANAGER
 NS_DECL_NSIXPCSECURITYMANAGER
+NS_DECL_NSIPREFSECURITYCHECK
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIOBSERVER
 static
@@ -2087,7 +2097,7 @@ cx
 JSObject
 *
 obj
-jsid
+jsval
 id
 JSAccessMode
 mode
@@ -2233,7 +2243,7 @@ const
 char
 *
 aClassName
-jsid
+jsval
 aProperty
 void
 *
@@ -2263,7 +2273,7 @@ principal
 ClassInfoData
 &
 aClassData
-jsid
+jsval
 aProperty
 PRUint32
 aAction
@@ -3139,6 +3149,9 @@ char
 *
 *
 prefNames
+nsISecurityPref
+*
+securityPref
 )
 ;
 #
@@ -3261,7 +3274,7 @@ up
 on
 shutdown
 static
-jsid
+jsval
 sEnabledID
 ;
 inline
@@ -3301,6 +3314,12 @@ nsCOMPtr
 nsIPrefBranch
 >
 mPrefBranch
+;
+nsCOMPtr
+<
+nsISecurityPref
+>
+mSecurityPref
 ;
 nsCOMPtr
 <
