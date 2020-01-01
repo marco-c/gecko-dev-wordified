@@ -883,7 +883,7 @@ See
 bug
 775452
 .
-LayerIntRect
+ScreenIntRect
 mCompositionBounds
 ;
 /

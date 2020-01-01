@@ -5493,7 +5493,7 @@ aFrameMetrics
 CSSIntRect
 compositionBounds
 =
-LayerIntRect
+ScreenIntRect
 :
 :
 ToCSSIntRectRoundIn
@@ -6282,7 +6282,7 @@ aMetrics
 CSSIntRect
 rect
 =
-LayerIntRect
+ScreenIntRect
 :
 :
 ToCSSIntRectRoundIn
@@ -8083,7 +8083,7 @@ AsyncPanZoomController
 UpdateCompositionBounds
 (
 const
-LayerIntRect
+ScreenIntRect
 &
 aCompositionBounds
 )
@@ -8094,7 +8094,7 @@ mon
 mMonitor
 )
 ;
-LayerIntRect
+ScreenIntRect
 oldCompositionBounds
 =
 mFrameMetrics
@@ -8309,7 +8309,7 @@ mon
 mMonitor
 )
 ;
-LayerIntRect
+ScreenIntRect
 compositionBounds
 =
 mFrameMetrics
@@ -8667,7 +8667,7 @@ localMinZoom
 CSSIntRect
 cssCompositionBounds
 =
-LayerIntRect
+ScreenIntRect
 :
 :
 ToCSSIntRectRoundIn
