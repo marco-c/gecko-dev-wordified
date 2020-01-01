@@ -1881,6 +1881,7 @@ default
 break
 ;
 }
+let
 code
 =
 error
