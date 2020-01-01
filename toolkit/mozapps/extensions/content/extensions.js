@@ -17019,7 +17019,7 @@ nsIExtensionManager
 .
 UPDATE_CHECK_NEWVERSION
 listener
-nsIExtensionMananger
+nsIExtensionManager
 .
 UPDATE_WHEN_USER_REQUESTED
 )
