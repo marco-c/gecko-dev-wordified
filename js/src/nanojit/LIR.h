@@ -12689,6 +12689,9 @@ int32_t
 c
 )
 ;
+#
+ifdef
+NANOJIT_64BIT
 char
 *
 formatImmQ
@@ -12700,6 +12703,8 @@ uint64_t
 c
 )
 ;
+#
+endif
 char
 *
 formatImmD
