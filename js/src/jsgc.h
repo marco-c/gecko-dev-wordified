@@ -1680,7 +1680,7 @@ retries
 halted
 by
 the
-branch
+operation
 callback
 *
 /
