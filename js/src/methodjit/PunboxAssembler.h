@@ -799,7 +799,7 @@ val
 ;
 }
 /
-*
+/
 Returns
 a
 label
@@ -809,8 +809,6 @@ one
 Value
 load
 .
-*
-/
 template
 <
 typename
