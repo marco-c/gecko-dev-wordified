@@ -2248,6 +2248,7 @@ maximum
 texture
 size
 "
+info
 )
 ;
 return
@@ -2281,6 +2282,7 @@ be
 =
 0
 "
+info
 )
 ;
 return
@@ -2313,6 +2315,7 @@ maximum
 texture
 size
 "
+info
 )
 ;
 return
