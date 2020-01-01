@@ -5636,7 +5636,7 @@ version
 "
 ]
 =
-MMS_VERSION
+MMS_VERSION_1_3
 ;
 expect
 [
@@ -5674,7 +5674,7 @@ parse
 0x0D
 0x80
 |
-MMS_VERSION
+MMS_VERSION_1_3
 /
 /
 X
@@ -6260,7 +6260,7 @@ version
 "
 ]
 =
-MMS_VERSION
+MMS_VERSION_1_3
 ;
 headers
 [
@@ -6377,7 +6377,7 @@ concat
 0x0D
 0x80
 |
-MMS_VERSION
+MMS_VERSION_1_3
 ]
 )
 .
