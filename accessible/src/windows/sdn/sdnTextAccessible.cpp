@@ -380,7 +380,7 @@ E_INVALIDARG
 *
 aText
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1112,7 +1112,7 @@ E_INVALIDARG
 *
 aFontFamily
 =
-NULL
+nullptr
 ;
 if
 (
