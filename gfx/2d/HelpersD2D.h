@@ -1242,7 +1242,9 @@ fontEmSize
 aFont
 -
 >
-mSize
+GetSize
+(
+)
 ;
 run
 -

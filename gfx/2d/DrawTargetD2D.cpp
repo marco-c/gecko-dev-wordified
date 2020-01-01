@@ -10843,7 +10843,9 @@ FLOAT
 aFont
 -
 >
-mSize
+GetSize
+(
+)
 1
 .
 0f
@@ -10940,7 +10942,9 @@ if
 aFont
 -
 >
-mSize
+GetSize
+(
+)
 <
 16
 .

@@ -188,6 +188,15 @@ PathBuilder
 aBuilder
 )
 ;
+float
+GetSize
+(
+)
+{
+return
+mSize
+;
+}
 #
 ifdef
 USE_SKIA
