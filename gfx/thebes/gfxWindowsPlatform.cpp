@@ -3808,16 +3808,7 @@ surf
 =
 =
 nullptr
-|
-|
-surf
--
->
-CairoStatus
-(
 )
-)
-{
 surf
 =
 new
@@ -3830,7 +3821,6 @@ contentType
 )
 )
 ;
-}
 NS_IF_ADDREF
 (
 surf
