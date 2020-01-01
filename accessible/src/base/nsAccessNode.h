@@ -573,9 +573,6 @@ class
 nsIDOMNodeList
 ;
 class
-nsDocAccessible
-;
-class
 nsRootAccessible
 ;
 class

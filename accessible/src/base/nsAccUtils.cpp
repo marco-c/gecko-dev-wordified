@@ -467,13 +467,6 @@ h
 #
 include
 "
-nsAccEvent
-.
-h
-"
-#
-include
-"
 nsHyperTextAccessible
 .
 h
