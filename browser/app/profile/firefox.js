@@ -3455,7 +3455,7 @@ urlbar
 .
 autoFill
 "
-true
+false
 )
 ;
 /
@@ -3616,7 +3616,7 @@ urlbar
 .
 delay
 "
-0
+50
 )
 ;
 /
@@ -13220,6 +13220,18 @@ devtools
 styleeditor
 .
 enabled
+"
+true
+)
+;
+pref
+(
+"
+devtools
+.
+styleeditor
+.
+transitions
 "
 true
 )
