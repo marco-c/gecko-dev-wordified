@@ -6299,7 +6299,13 @@ out
 insGuard
 (
 LIR_x
-0
+out
+-
+>
+insImm
+(
+1
+)
 x
 )
 ;
