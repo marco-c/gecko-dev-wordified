@@ -517,7 +517,7 @@ namespace
 mozilla
 {
 namespace
-tabs
+dom
 {
 class
 TabParent
@@ -800,7 +800,7 @@ leaking
 mozilla
 :
 :
-tabs
+dom
 :
 :
 TabParent
