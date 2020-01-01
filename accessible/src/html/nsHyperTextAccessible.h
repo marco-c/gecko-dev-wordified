@@ -693,6 +693,15 @@ InvalidateChildren
 (
 )
 ;
+virtual
+PRBool
+RemoveChild
+(
+nsAccessible
+*
+aAccessible
+)
+;
 /
 /
 nsHyperTextAccessible
