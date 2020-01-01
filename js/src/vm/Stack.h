@@ -455,6 +455,9 @@ jsfun
 .
 h
 "
+struct
+JSContext
+;
 namespace
 js
 {
@@ -7448,6 +7451,9 @@ StackFrame
 fp
 )
 ;
+#
+ifdef
+JS_TRACER
 /
 *
 *
@@ -7503,6 +7509,8 @@ ensureEnoughSpaceToEnterTrace
 (
 )
 ;
+#
+endif
 /
 *
 *
