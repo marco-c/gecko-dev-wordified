@@ -152,9 +152,7 @@ h
 #
 include
 "
-mozilla
-/
-Preferences
+gfxFontConstants
 .
 h
 "

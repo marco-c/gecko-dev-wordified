@@ -124,13 +124,6 @@ nsStaticNameTable
 .
 h
 "
-#
-include
-"
-nsReadableUtils
-.
-h
-"
 /
 /
 required

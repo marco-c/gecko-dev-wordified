@@ -179,9 +179,6 @@ nsCSSRules
 h
 "
 class
-nsISupports
-;
-class
 nsPresContext
 ;
 class
@@ -189,9 +186,6 @@ nsIPrincipal
 ;
 class
 nsFontFaceLoader
-;
-class
-nsCSSFontFaceRule
 ;
 /
 /

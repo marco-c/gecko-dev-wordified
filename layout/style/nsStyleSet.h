@@ -226,9 +226,6 @@ gfxFontFeatures
 h
 "
 class
-nsIURI
-;
-class
 nsCSSFontFaceRule
 ;
 class

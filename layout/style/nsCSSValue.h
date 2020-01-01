@@ -230,14 +230,6 @@ nsPresContext
 class
 nsIURI
 ;
-template
-<
-class
-T
->
-class
-nsPtrHashKey
-;
 /
 /
 Deletes

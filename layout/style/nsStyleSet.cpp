@@ -304,6 +304,13 @@ nsHTMLStyleSheet
 .
 h
 "
+#
+include
+"
+nsCSSRules
+.
+h
+"
 using
 namespace
 mozilla

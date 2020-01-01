@@ -249,13 +249,6 @@ h
 #
 include
 "
-nsChannelPolicy
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

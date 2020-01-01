@@ -113,7 +113,7 @@ nsCSSPseudoClasses_h___
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "

@@ -113,7 +113,7 @@ nsStyleAnimation_h_
 #
 include
 "
-nsAString
+nsStringFwd
 .
 h
 "
