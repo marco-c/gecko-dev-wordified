@@ -689,7 +689,7 @@ fun
 }
 Ci
 .
-nsIThreadManager
+nsIThread
 .
 DISPATCH_NORMAL
 )
@@ -1884,7 +1884,7 @@ n
 "
 ;
 function
-checkThrownExceptionWriteBefore
+checkThrownExceptionWriteBeforeEmpty
 (
 data
 )
@@ -1913,7 +1913,7 @@ localhost
 "
 PORT
 data
-checkThrownExceptionWriteBefore
+checkThrownExceptionWriteBeforeEmpty
 )
 tests
 .

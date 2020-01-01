@@ -2515,6 +2515,7 @@ html
 false
 )
 ;
+var
 body
 =
 handleAuth
