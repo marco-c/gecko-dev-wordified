@@ -2582,8 +2582,11 @@ cx
 JSOPTION_DONT_REPORT_UNCAUGHT
 )
 ;
-jsval
+RootedValue
 rval
+(
+cx
+)
 ;
 bool
 success
