@@ -516,9 +516,6 @@ Barrier
 .
 h
 "
-#
-ifdef
-JS_ION
 namespace
 js
 {
@@ -546,8 +543,6 @@ IonScript
 )
 0x1
 )
-#
-endif
 /
 *
 *
@@ -2442,9 +2437,6 @@ IonScript
 }
 #
 endif
-#
-ifdef
-JS_ION
 namespace
 js
 {
@@ -2456,8 +2448,6 @@ IonScript
 ;
 }
 }
-#
-endif
 namespace
 js
 {
@@ -3963,9 +3953,6 @@ js
 ScriptOpcodeCounts
 pcCounters
 ;
-#
-ifdef
-JS_ION
 js
 :
 :
@@ -4000,18 +3987,6 @@ ion
 ION_DISABLED_SCRIPT
 ;
 }
-#
-elif
-JS_BITS_PER_WORD
-=
-=
-32
-void
-*
-padding_
-;
-#
-endif
 private
 :
 js

@@ -4287,6 +4287,9 @@ jsbytecode
 pc
 )
 {
+#
+ifdef
+JS_ION
 if
 (
 cx
@@ -4312,9 +4315,11 @@ script
 pc
 )
 ;
+return
+;
 }
-else
-{
+#
+endif
 *
 script
 =
@@ -4342,7 +4347,6 @@ regs
 .
 pc
 ;
-}
 }
 /
 *

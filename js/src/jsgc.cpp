@@ -6956,6 +6956,12 @@ if
 JS_STACK_GROWTH_DIRECTION
 <
 0
+&
+&
+defined
+(
+JS_ION
+)
 /
 /
 Walk
