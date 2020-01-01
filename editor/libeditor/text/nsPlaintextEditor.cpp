@@ -6314,9 +6314,6 @@ white
 -
 space
 :
--
-moz
--
 pre
 -
 wrap
@@ -6364,9 +6361,6 @@ white
 -
 space
 :
--
-moz
--
 pre
 -
 wrap

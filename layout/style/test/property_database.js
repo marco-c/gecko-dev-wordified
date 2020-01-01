@@ -12978,6 +12978,11 @@ pre
 "
 nowrap
 "
+"
+pre
+-
+wrap
+"
 ]
 invalid_values
 :

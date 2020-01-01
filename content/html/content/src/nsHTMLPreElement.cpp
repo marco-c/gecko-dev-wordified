@@ -1037,7 +1037,7 @@ mWhiteSpace
 .
 SetIntValue
 (
-NS_STYLE_WHITESPACE_MOZ_PRE_WRAP
+NS_STYLE_WHITESPACE_PRE_WRAP
 eCSSUnit_Enumerated
 )
 ;
@@ -1164,7 +1164,7 @@ mWhiteSpace
 .
 SetIntValue
 (
-NS_STYLE_WHITESPACE_MOZ_PRE_WRAP
+NS_STYLE_WHITESPACE_PRE_WRAP
 eCSSUnit_Enumerated
 )
 ;

@@ -5852,9 +5852,6 @@ Find
 NS_LITERAL_STRING
 (
 "
--
-moz
--
 pre
 -
 wrap

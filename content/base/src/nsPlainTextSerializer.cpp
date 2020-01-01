@@ -3434,9 +3434,6 @@ style
 Find
 (
 "
--
-moz
--
 pre
 -
 wrap
