@@ -4369,7 +4369,7 @@ works
 /
 typedef
 JSVAL_ALIGNMENT
-uint64
+JSUint64
 jsval
 ;
 typedef
