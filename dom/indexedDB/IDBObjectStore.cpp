@@ -11907,7 +11907,7 @@ aInfo
 }
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 IDBObjectStore
 :
@@ -12190,7 +12190,7 @@ forget
 }
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 IDBObjectStore
 :
@@ -12528,7 +12528,7 @@ NoteXPCOMChild
 (
 static_cast
 <
-nsIIDBIndex
+nsISupports
 *
 >
 (
@@ -13468,7 +13468,7 @@ aRv
 }
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 IDBObjectStore
 :
@@ -13562,7 +13562,7 @@ aRv
 }
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 IDBObjectStore
 :
@@ -13672,7 +13672,7 @@ aRv
 }
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 IDBObjectStore
 :

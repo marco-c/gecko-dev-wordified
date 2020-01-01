@@ -74,12 +74,6 @@ Ci
 .
 nsIIDBDatabase
 const
-IDBIndex
-=
-Ci
-.
-nsIIDBIndex
-const
 IDBRequest
 =
 Ci

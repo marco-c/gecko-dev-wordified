@@ -111,7 +111,6 @@ DOMException
 IDBCursor
 IDBOpenDBRequest
 IDBDatabase
-IDBIndex
 IDBRequest
 }
 =
@@ -217,7 +216,6 @@ IDBCursor
 IDBOpenDBRequest
 IDBOpenDBRequest
 IDBDatabase
-IDBIndex
 IDBRequest
 ]
 .
