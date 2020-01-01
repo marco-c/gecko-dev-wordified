@@ -14635,11 +14635,6 @@ return
 NS_OK
 ;
 }
-#
-endif
-/
-/
-FULL_BIDI_ENGINE
 PRInt32
 nsBidi
 :
@@ -15614,6 +15609,11 @@ return
 NS_OK
 ;
 }
+#
+endif
+/
+/
+FULL_BIDI_ENGINE
 #
 endif
 /
