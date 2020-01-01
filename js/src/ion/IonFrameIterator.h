@@ -743,6 +743,12 @@ IonFrame_JS
 ;
 }
 bool
+isNative
+(
+)
+const
+;
+bool
 isEntry
 (
 )
@@ -797,6 +803,13 @@ const
 JSScript
 *
 script
+(
+)
+const
+;
+Value
+*
+nativeVp
 (
 )
 const
