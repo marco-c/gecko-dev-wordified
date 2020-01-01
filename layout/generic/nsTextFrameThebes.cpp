@@ -44391,6 +44391,14 @@ aState
 -
 >
 mSawBeforeType
+&
+&
+(
+aWordSelectEatSpace
+!
+=
+isWhitespace
+)
 ;
 }
 if
