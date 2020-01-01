@@ -7074,7 +7074,7 @@ in
 nsJSEnvironment
 :
 :
-CreateOuterObject
+SetOuterObject
 in
 order
 to
