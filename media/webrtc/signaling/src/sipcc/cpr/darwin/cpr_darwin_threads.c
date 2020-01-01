@@ -578,14 +578,6 @@ passed
 in
 *
 /
-if
-(
-name
-!
-=
-NULL
-)
-{
 threadPtr
 -
 >
@@ -593,7 +585,6 @@ name
 =
 name
 ;
-}
 /
 *
 *
