@@ -1545,7 +1545,7 @@ table
 maxAlphaFrac
 =
 (
-uint8
+PRUint8
 )
 (
 0x100
@@ -1559,7 +1559,7 @@ table
 minAlphaFrac
 =
 (
-uint8
+PRUint8
 )
 (
 0x100
@@ -2046,7 +2046,7 @@ table
 maxAlphaFrac
 =
 (
-uint8
+PRUint8
 )
 (
 maxAlpha
@@ -2060,7 +2060,7 @@ table
 minAlphaFrac
 =
 (
-uint8
+PRUint8
 )
 (
 minAlpha

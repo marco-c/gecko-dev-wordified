@@ -1083,7 +1083,7 @@ automatic
 shallow
 copies
 .
-uint16
+PRUint16
 GetFileIndex
 (
 )
@@ -1093,7 +1093,7 @@ return
 mFileIndex
 ;
 }
-uint16
+PRUint16
 GetZipItemIndex
 (
 )
@@ -1126,9 +1126,9 @@ NOT_ZIP
 void
 Init
 (
-uint16
+PRUint16
 aFileIndex
-uint16
+PRUint16
 aZipItemIndex
 =
 NOT_ZIP
@@ -1172,10 +1172,10 @@ mZipItemIndex
 }
 private
 :
-uint16
+PRUint16
 mFileIndex
 ;
-uint16
+PRUint16
 mZipItemIndex
 ;
 }
@@ -3072,10 +3072,10 @@ xptiInterfaceGuts
 {
 public
 :
-uint16
+PRUint16
 mMethodBaseIndex
 ;
-uint16
+PRUint16
 mConstantBaseIndex
 ;
 xptiInterfaceEntry
@@ -3339,7 +3339,7 @@ public
 :
 xptiInfoFlags
 (
-uint8
+PRUint8
 n
 )
 :
@@ -3366,13 +3366,13 @@ mData
 {
 }
 static
-uint8
+PRUint8
 GetStateMask
 (
 )
 {
 return
-uint8
+PRUint8
 (
 STATE_MASK
 )
@@ -3388,7 +3388,7 @@ mData
 0
 ;
 }
-uint8
+PRUint8
 GetData
 (
 )
@@ -3398,7 +3398,7 @@ return
 mData
 ;
 }
-uint8
+PRUint8
 GetState
 (
 )
@@ -3415,7 +3415,7 @@ GetStateMask
 void
 SetState
 (
-uint8
+PRUint8
 state
 )
 {
@@ -3436,7 +3436,7 @@ state
 void
 SetFlagBit
 (
-uint8
+PRUint8
 flag
 PRBool
 on
@@ -3471,7 +3471,7 @@ flag
 PRBool
 GetFlagBit
 (
-uint8
+PRUint8
 flag
 )
 const
@@ -3490,7 +3490,7 @@ PR_FALSE
 }
 private
 :
-uint8
+PRUint8
 mData
 ;
 }
@@ -3658,7 +3658,7 @@ SCRIPTABLE
 4
 }
 ;
-uint8
+PRUint8
 GetResolveState
 (
 )
@@ -3685,7 +3685,7 @@ GetResolveState
 =
 =
 (
-uint8
+PRUint8
 )
 FULLY_RESOLVED
 ;
@@ -3842,7 +3842,7 @@ mFlags
 .
 SetFlagBit
 (
-uint8
+PRUint8
 (
 SCRIPTABLE
 )
@@ -3861,7 +3861,7 @@ mFlags
 .
 GetFlagBit
 (
-uint8
+PRUint8
 (
 SCRIPTABLE
 )
@@ -4360,7 +4360,7 @@ mFlags
 .
 SetState
 (
-uint8
+PRUint8
 (
 state
 )
@@ -4477,7 +4477,7 @@ const
 nsXPTParamInfo
 *
 param
-uint16
+PRUint16
 dimension
 const
 XPTTypeDescriptor

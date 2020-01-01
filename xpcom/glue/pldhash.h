@@ -1884,7 +1884,7 @@ hash
 shift
 *
 /
-uint8
+PRUint8
 maxAlphaFrac
 ;
 /
@@ -1898,7 +1898,7 @@ max
 alpha
 *
 /
-uint8
+PRUint8
 minAlphaFrac
 ;
 /
@@ -3816,7 +3816,7 @@ maxAlpha
 )
 *
 (
-uint8
+PRUint8
 )
 (
 0x100
