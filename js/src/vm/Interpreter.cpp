@@ -8259,6 +8259,9 @@ obj
 id
 )
 ;
+#
+ifdef
+JS_ION
 if
 (
 obj
@@ -8358,6 +8361,8 @@ code
 ;
 }
 }
+#
+endif
 if
 (
 obj
