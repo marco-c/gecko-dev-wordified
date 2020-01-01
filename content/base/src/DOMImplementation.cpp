@@ -579,7 +579,7 @@ NS_ERROR_DOM_NAMESPACE_ERR
 }
 nsCOMPtr
 <
-nsIScriptGlobalObject
+nsIGlobalObject
 >
 scriptHandlingObject
 =
@@ -885,7 +885,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIScriptGlobalObject
+nsIGlobalObject
 >
 scriptHandlingObject
 =

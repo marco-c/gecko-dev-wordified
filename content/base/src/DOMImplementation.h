@@ -171,7 +171,7 @@ DOMImplementation
 nsIDocument
 *
 aOwner
-nsIScriptGlobalObject
+nsIGlobalObject
 *
 aScriptObject
 nsIURI
