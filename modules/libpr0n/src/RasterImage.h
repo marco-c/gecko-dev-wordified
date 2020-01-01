@@ -1533,7 +1533,7 @@ PRUint32
 paletteLength
 )
 ;
-nsresult
+void
 FrameUpdated
 (
 PRUint32
