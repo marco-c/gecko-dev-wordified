@@ -5511,7 +5511,7 @@ if
 !
 cb
 .
-growBy
+growByUninitialized
 (
 cstrlen
 )
