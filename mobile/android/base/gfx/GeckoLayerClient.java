@@ -868,6 +868,7 @@ new
 LayerMarginsAnimator
 (
 this
+view
 )
 ;
 mView
