@@ -360,7 +360,7 @@ CompilerOutput
 :
 script
 (
-script
+NULL
 )
 isIonFlag
 (
