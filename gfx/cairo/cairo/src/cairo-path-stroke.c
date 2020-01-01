@@ -377,6 +377,17 @@ org
 *
 /
 #
+define
+_BSD_SOURCE
+/
+*
+for
+hypot
+(
+)
+*
+/
+#
 include
 "
 cairoint
