@@ -35103,12 +35103,6 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsCOMPtr
-<
-nsIDOMHTMLElement
->
-bodyElement
-;
 return
 htmlDoc
 -
