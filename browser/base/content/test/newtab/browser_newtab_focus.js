@@ -217,6 +217,14 @@ tabfocus
 "
 )
 ;
+NewTabUtils
+.
+allPages
+.
+enabled
+=
+true
+;
 }
 /
 *
