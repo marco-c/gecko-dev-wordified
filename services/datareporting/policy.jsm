@@ -212,11 +212,9 @@ modules
 /
 commonjs
 /
-sdk
+promise
 /
 core
-/
-promise
 .
 js
 "
@@ -2160,7 +2158,9 @@ modifying
 /
 IMPLICIT_ACCEPTANCE_INTERVAL_MSEC
 :
-5
+8
+*
+60
 *
 60
 *
