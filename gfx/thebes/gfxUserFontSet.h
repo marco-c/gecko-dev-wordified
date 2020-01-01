@@ -1215,9 +1215,6 @@ gfxFontStyle
 aFontStyle
 PRBool
 &
-aFoundFamily
-PRBool
-&
 aNeedsBold
 PRBool
 &
@@ -1617,17 +1614,6 @@ use
 the
 fallback
 font
-LOADING_FAILED
-/
-/
-failed
-to
-load
-any
-source
-:
-use
-fallback
 }
 ;
 LoadingState
