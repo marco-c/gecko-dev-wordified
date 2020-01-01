@@ -462,7 +462,7 @@ typedef
 struct
 _PluginInstance
 {
-uint16
+uint16_t
 mode
 ;
 #
@@ -482,11 +482,11 @@ endif
 MOZ_X11
 *
 /
-uint32
+uint32_t
 x
 y
 ;
-uint32
+uint32_t
 width
 height
 ;

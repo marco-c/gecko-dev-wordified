@@ -629,9 +629,9 @@ NPP
 instance
 NPMIMEType
 type
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -718,7 +718,7 @@ RestoreDraw
 void
 DetermineURL
 (
-int16
+int16_t
 argc
 char
 *
@@ -778,7 +778,7 @@ ptr
 Boolean
 IsPluginHidden
 (
-int16
+int16_t
 argc
 char
 *
@@ -834,7 +834,7 @@ NPWindow
 *
 fWindow
 ;
-uint16
+uint16_t
 fMode
 ;
 NPMIMEType
@@ -1068,9 +1068,9 @@ NPMIMEType
 type
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -1288,7 +1288,7 @@ NPBool
 seekable
 *
 /
-uint16
+uint16_t
 *
 /
 *
@@ -1309,7 +1309,7 @@ return
 NPERR_NO_ERROR
 ;
 }
-int32
+int32_t
 STREAMBUFSIZE
 =
 0X0FFFFFFF
@@ -1347,7 +1347,7 @@ we
 ignore
 it
 )
-int32
+int32_t
 NP_LOADDS
 NPP_WriteReady
 (
@@ -1382,7 +1382,7 @@ NPP_Write
 (
 )
 }
-int32
+int32_t
 NP_LOADDS
 NPP_Write
 (
@@ -1399,13 +1399,13 @@ NPStream
 stream
 *
 /
-int32
+int32_t
 /
 *
 offset
 *
 /
-int32
+int32_t
 len
 void
 *
@@ -1583,7 +1583,7 @@ printInfo
 Mac
 -
 only
-int16
+int16_t
 NPP_HandleEvent
 (
 NPP
@@ -2435,9 +2435,9 @@ NPP
 instance
 NPMIMEType
 type
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -3679,7 +3679,7 @@ CPlugin
 :
 DetermineURL
 (
-int16
+int16_t
 argc
 char
 *
@@ -5459,7 +5459,7 @@ CPlugin
 :
 IsPluginHidden
 (
-int16
+int16_t
 argc
 char
 *
