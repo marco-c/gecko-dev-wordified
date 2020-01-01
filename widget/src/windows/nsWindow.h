@@ -2706,9 +2706,6 @@ PRPackedBool
 mIsInMouseCapture
 ;
 PRPackedBool
-mInScrollProcessing
-;
-PRPackedBool
 mUnicodeWidget
 ;
 PRPackedBool
