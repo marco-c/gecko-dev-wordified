@@ -587,7 +587,7 @@ aString
 /
 member
 data
-nsCAutoString
+nsCString
 mBuffer
 ;
 /

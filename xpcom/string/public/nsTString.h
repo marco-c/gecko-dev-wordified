@@ -3045,6 +3045,7 @@ heap
 *
 /
 class
+NS_STACK_CLASS
 nsTAutoString_CharT
 :
 public
@@ -3804,6 +3805,7 @@ blah
 *
 /
 class
+NS_STACK_CLASS
 nsTGetterCopies_CharT
 {
 public
