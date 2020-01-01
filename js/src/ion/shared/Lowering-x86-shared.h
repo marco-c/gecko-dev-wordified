@@ -187,14 +187,6 @@ ins
 )
 ;
 bool
-visitRecompileCheck
-(
-MRecompileCheck
-*
-ins
-)
-;
-bool
 visitInterruptCheck
 (
 MInterruptCheck

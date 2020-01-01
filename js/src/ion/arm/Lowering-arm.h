@@ -497,14 +497,6 @@ ins
 )
 ;
 bool
-visitRecompileCheck
-(
-MRecompileCheck
-*
-ins
-)
-;
-bool
 visitStoreTypedArrayElement
 (
 MStoreTypedArrayElement

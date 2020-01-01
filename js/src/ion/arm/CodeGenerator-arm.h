@@ -991,14 +991,6 @@ lir
 )
 ;
 bool
-visitRecompileCheck
-(
-LRecompileCheck
-*
-lir
-)
-;
-bool
 visitInterruptCheck
 (
 LInterruptCheck
