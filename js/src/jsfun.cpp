@@ -1489,7 +1489,7 @@ setMap
 cx
 -
 >
-compartment
+runtime
 -
 >
 emptyArgumentsShape
@@ -6872,7 +6872,7 @@ setMap
 cx
 -
 >
-compartment
+runtime
 -
 >
 emptyDeclEnvShape
