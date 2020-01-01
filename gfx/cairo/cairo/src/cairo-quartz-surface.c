@@ -11606,7 +11606,7 @@ tmp
 =
 cairo_quartz_surface_create
 (
-CAIRO_CONTENT_COLOR_ALPHA
+CAIRO_FORMAT_ARGB32
 surface
 -
 >
@@ -11780,6 +11780,10 @@ imageSurfaceEquiv
 image_extra
 =
 tmp
+;
+status
+=
+CAIRO_STATUS_SUCCESS
 ;
 }
 else
