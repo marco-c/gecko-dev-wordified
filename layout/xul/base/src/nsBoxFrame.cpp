@@ -4074,7 +4074,7 @@ ComputedWidth
 &
 aReflowState
 .
-ComputedWidth
+ComputedHeight
 (
 )
 >
