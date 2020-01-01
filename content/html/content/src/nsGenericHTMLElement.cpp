@@ -7105,6 +7105,15 @@ if
 it
 does
 .
+See
+similar
+code
+in
+nsHTMLBodyElement
+and
+/
+/
+nsHTMLFramesetElement
 *
 aDefer
 =

@@ -887,6 +887,13 @@ nsIDOMTouchEvent
 .
 h
 "
+#
+include
+"
+nsIInlineEventHandlers
+.
+h
+"
 /
 /
 JS
@@ -2046,6 +2053,8 @@ public
 nsIDOMWindowPerformance
 public
 nsITouchEventReceiver
+public
+nsIInlineEventHandlers
 {
 public
 :
@@ -2246,6 +2255,10 @@ NS_DECL_NSIDOMEVENTTARGET
 /
 nsITouchEventReceiver
 NS_DECL_NSITOUCHEVENTRECEIVER
+/
+/
+nsIInlineEventHandlers
+NS_DECL_NSIINLINEEVENTHANDLERS
 /
 /
 nsPIDOMWindow
