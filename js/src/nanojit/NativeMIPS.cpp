@@ -2770,7 +2770,7 @@ NanoAssert
 value
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -2781,7 +2781,7 @@ msw
 value
 -
 >
-imm64_1
+immQorDhi
 (
 )
 ;
@@ -2791,7 +2791,7 @@ lsw
 value
 -
 >
-imm64_0
+immQorDlo
 (
 )
 ;
@@ -3013,7 +3013,7 @@ ARGTYPE_I
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 )
 {
 /
@@ -3028,7 +3028,7 @@ if
 p
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -3038,7 +3038,7 @@ r
 p
 -
 >
-imm32
+immI
 (
 )
 )
@@ -3201,7 +3201,7 @@ isF64
 arg
 -
 >
-isF64
+isD
 (
 )
 ;
@@ -3487,7 +3487,7 @@ ArgType
 ty
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 .
 void
 Assembler
@@ -4615,13 +4615,13 @@ rr
 ins
 -
 >
-imm64_1
+immQorDhi
 (
 )
 ins
 -
 >
-imm64_0
+immQorDlo
 (
 )
 )
@@ -4768,7 +4768,7 @@ NanoAssert
 ins
 -
 >
-isF64
+isD
 (
 )
 )
@@ -5667,7 +5667,7 @@ rr
 ins
 -
 >
-imm32
+immI
 (
 )
 )
@@ -5770,7 +5770,7 @@ LIR_cmov
 iftrue
 -
 >
-isI32
+isI
 (
 )
 &
@@ -5778,7 +5778,7 @@ isI32
 iffalse
 -
 >
-isI32
+isI
 (
 )
 )
@@ -6941,7 +6941,7 @@ if
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -6952,7 +6952,7 @@ rhsc
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -7736,7 +7736,7 @@ if
 value
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -8061,7 +8061,7 @@ if
 i
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -8072,7 +8072,7 @@ r
 i
 -
 >
-imm32
+immI
 (
 )
 )
@@ -8170,7 +8170,7 @@ cr
 RegisterMask
 allow
 =
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -9034,7 +9034,7 @@ if
 cpu_has_fpu
 &
 &
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -9793,7 +9793,7 @@ opcode
 RegisterMask
 allow
 =
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -10304,7 +10304,7 @@ if
 ty
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 {
 /
@@ -10343,7 +10343,7 @@ ARGTYPE_I
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 )
 ;
 if

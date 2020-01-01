@@ -3525,7 +3525,7 @@ rb
 )
 FPUAB
 (
-fadd
+addd
 rd
 ra
 rb
@@ -3541,7 +3541,7 @@ rb
 )
 FPUAB
 (
-fadd
+addd
 rd
 ra
 rb
@@ -3557,7 +3557,7 @@ rb
 )
 FPUAB
 (
-fdiv
+divd
 rd
 ra
 rb
@@ -3573,7 +3573,7 @@ rb
 )
 FPUAB
 (
-fdiv
+divd
 rd
 ra
 rb
@@ -3589,7 +3589,7 @@ rb
 )
 FPUAC
 (
-fmul
+muld
 rd
 ra
 rb
@@ -3605,7 +3605,7 @@ rb
 )
 FPUAC
 (
-fmul
+muld
 rd
 ra
 rb
@@ -3621,7 +3621,7 @@ rb
 )
 FPUAB
 (
-fsub
+subd
 rd
 ra
 rb
@@ -3637,7 +3637,7 @@ rb
 )
 FPUAB
 (
-fsub
+subd
 rd
 ra
 rb

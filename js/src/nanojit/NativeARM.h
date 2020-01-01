@@ -597,7 +597,7 @@ s14
 -
 s15
 for
-i2f
+i2d
 /
 u2f
 /
@@ -846,7 +846,7 @@ hard
 -
 coded
 into
-i2f
+i2d
 and
 u2f
 operations
@@ -1324,7 +1324,7 @@ S15
 are
 used
 for
-i2f
+i2d
 /
 u2f
 .

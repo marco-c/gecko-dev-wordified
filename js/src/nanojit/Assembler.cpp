@@ -613,8 +613,8 @@ alloc
 )
 #
 if
-NJ_USES_QUAD_CONSTANTS
-_quadConstants
+NJ_USES_IMMD_POOL
+_immDPool
 (
 alloc
 )
@@ -1175,8 +1175,8 @@ clear
 ;
 #
 if
-NJ_USES_QUAD_CONSTANTS
-_quadConstants
+NJ_USES_IMMD_POOL
+_immDPool
 .
 clear
 (
@@ -2212,7 +2212,7 @@ if
 ins
 -
 >
-isN64
+isQorD
 (
 )
 )
@@ -3940,14 +3940,14 @@ r
 }
 #
 if
-NJ_USES_QUAD_CONSTANTS
+NJ_USES_IMMD_POOL
 const
 uint64_t
 *
 Assembler
 :
 :
-findQuadConstant
+findImmDFromPool
 (
 uint64_t
 q
@@ -3957,7 +3957,7 @@ uint64_t
 *
 p
 =
-_quadConstants
+_immDPool
 .
 get
 (
@@ -3983,7 +3983,7 @@ p
 =
 q
 ;
-_quadConstants
+_immDPool
 .
 put
 (
@@ -4011,14 +4011,14 @@ ins
 {
 #
 if
-NJ_USES_QUAD_CONSTANTS
+NJ_USES_IMMD_POOL
 NanoAssert
 (
 !
 ins
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -4849,7 +4849,7 @@ pop
 ins
 -
 >
-isN64
+isQorD
 (
 )
 )
@@ -9002,7 +9002,7 @@ oprnd1
 )
 -
 >
-isconstval
+isImmI
 (
 0
 )
@@ -9027,7 +9027,7 @@ oprnd1
 )
 -
 >
-isconstval
+isImmI
 (
 1
 )
@@ -9262,7 +9262,7 @@ if
 cond
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -9278,7 +9278,7 @@ branchOnFalse
 cond
 -
 >
-imm32
+immI
 (
 )
 )
@@ -9291,7 +9291,7 @@ branchOnFalse
 cond
 -
 >
-imm32
+immI
 (
 )
 )
@@ -9554,7 +9554,7 @@ if
 cond
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -9575,7 +9575,7 @@ LIR_xt
 cond
 -
 >
-imm32
+immI
 (
 )
 )
@@ -9594,7 +9594,7 @@ LIR_xf
 cond
 -
 >
-imm32
+immI
 (
 )
 )
@@ -12521,7 +12521,7 @@ oprnd1
 )
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -12597,7 +12597,7 @@ oprnd1
 )
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -13631,7 +13631,7 @@ place
 .
 #
 if
-NJ_USES_QUAD_CONSTANTS
+NJ_USES_IMMD_POOL
 /
 /
 Exception
@@ -13659,7 +13659,7 @@ if
 op1
 -
 >
-isconstf
+isImmD
 (
 )
 )

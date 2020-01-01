@@ -632,10 +632,10 @@ architecture
 endif
 #
 ifndef
-NJ_USES_QUAD_CONSTANTS
+NJ_USES_IMMD_POOL
 #
 define
-NJ_USES_QUAD_CONSTANTS
+NJ_USES_IMMD_POOL
 0
 #
 endif

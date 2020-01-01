@@ -1063,7 +1063,7 @@ callrax
 when
 a
 disp32
-imm32
+immI
 or
 imm64
 suffix
@@ -1168,7 +1168,7 @@ r
 =
 int64
 (
-imm32
+immI
 )
 X64_addqr8
 =
@@ -1196,7 +1196,7 @@ r
 =
 int64
 (
-imm32
+immI
 )
 X64_andqr8
 =
@@ -1224,7 +1224,7 @@ r
 =
 int64
 (
-imm32
+immI
 )
 X64_orqr8
 =
@@ -1252,7 +1252,7 @@ r
 =
 int64
 (
-imm32
+immI
 )
 X64_xorqr8
 =
@@ -1278,7 +1278,7 @@ add
 r
 +
 =
-imm32
+immI
 X64_addlr8
 =
 0x00C0834000000004LL
@@ -1300,7 +1300,7 @@ and
 r
 &
 =
-imm32
+immI
 X64_andlr8
 =
 0x00E0834000000004LL
@@ -1322,7 +1322,7 @@ or
 r
 |
 =
-imm32
+immI
 X64_orlr8
 =
 0x00C8834000000004LL
@@ -1344,7 +1344,7 @@ sub
 r
 -
 =
-imm32
+immI
 X64_sublr8
 =
 0x00E8834000000004LL
@@ -1366,7 +1366,7 @@ xor
 r
 ^
 =
-imm32
+immI
 X64_xorlr8
 =
 0x00F0834000000004LL
@@ -1785,7 +1785,7 @@ X64_cmplri
 32bit
 compare
 r
-imm32
+immI
 X64_cmpqri
 =
 0xF881480000000003LL
@@ -1796,7 +1796,7 @@ compare
 r
 int64
 (
-imm32
+immI
 )
 X64_cmplr8
 =
@@ -1978,7 +1978,7 @@ r
 =
 b
 *
-imm32
+immI
 X64_imul8
 =
 0x00C06B4000000004LL
@@ -2560,7 +2560,7 @@ mov
 r
 <
 -
-imm32
+immI
 X64_movqi32
 =
 0xC0C7480000000003LL
@@ -2573,7 +2573,7 @@ r
 -
 int64
 (
-imm32
+immI
 )
 X64_movapsr
 =
@@ -3450,7 +3450,7 @@ r
 =
 int64
 (
-imm32
+immI
 )
 X64_subqr8
 =

@@ -7213,7 +7213,7 @@ imm
 define
 SET32
 (
-imm32
+immI
 rd
 )
 \
@@ -7221,7 +7221,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 )
 )
 {
@@ -7229,7 +7229,7 @@ imm32
 ORI
 (
 G0
-imm32
+immI
 rd
 )
 ;
@@ -7241,7 +7241,7 @@ else
 ORI
 (
 rd
-imm32
+immI
 &
 0x3FF
 rd
@@ -7250,7 +7250,7 @@ rd
 \
 SETHI
 (
-imm32
+immI
 rd
 )
 ;
@@ -7261,7 +7261,7 @@ define
 STDF32
 (
 rd
-imm32
+immI
 rs1
 )
 \
@@ -7269,7 +7269,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 +
 4
 )
@@ -7281,7 +7281,7 @@ STFI
 rd
 +
 1
-imm32
+immI
 +
 4
 rs1
@@ -7291,7 +7291,7 @@ rs1
 STFI
 (
 rd
-imm32
+immI
 rs1
 )
 ;
@@ -7312,7 +7312,7 @@ rs1
 \
 SET32
 (
-imm32
+immI
 +
 4
 L0
@@ -7329,7 +7329,7 @@ rs1
 \
 SET32
 (
-imm32
+immI
 L0
 )
 ;
@@ -7340,7 +7340,7 @@ define
 STF32
 (
 rd
-imm32
+immI
 rs1
 )
 \
@@ -7348,7 +7348,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 +
 4
 )
@@ -7358,7 +7358,7 @@ imm32
 STFI
 (
 rd
-imm32
+immI
 rs1
 )
 ;
@@ -7377,7 +7377,7 @@ rs1
 \
 SET32
 (
-imm32
+immI
 L0
 )
 ;
@@ -7388,7 +7388,7 @@ define
 LDDF32
 (
 rs1
-imm32
+immI
 rd
 )
 \
@@ -7396,7 +7396,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 +
 4
 )
@@ -7406,7 +7406,7 @@ imm32
 LDFI
 (
 rs1
-imm32
+immI
 +
 4
 rd
@@ -7418,7 +7418,7 @@ rd
 LDFI
 (
 rs1
-imm32
+immI
 rd
 )
 ;
@@ -7439,7 +7439,7 @@ rd
 \
 SET32
 (
-imm32
+immI
 +
 4
 L0
@@ -7456,7 +7456,7 @@ rd
 \
 SET32
 (
-imm32
+immI
 L0
 )
 ;
@@ -7467,7 +7467,7 @@ define
 STW32
 (
 rd
-imm32
+immI
 rs1
 )
 \
@@ -7475,7 +7475,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 )
 )
 {
@@ -7483,7 +7483,7 @@ imm32
 STWI
 (
 rd
-imm32
+immI
 rs1
 )
 ;
@@ -7502,7 +7502,7 @@ rs1
 \
 SET32
 (
-imm32
+immI
 L0
 )
 ;
@@ -7513,7 +7513,7 @@ define
 STB32
 (
 rd
-imm32
+immI
 rs1
 )
 \
@@ -7521,7 +7521,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 )
 )
 {
@@ -7529,7 +7529,7 @@ imm32
 STBI
 (
 rd
-imm32
+immI
 rs1
 )
 ;
@@ -7548,7 +7548,7 @@ rs1
 \
 SET32
 (
-imm32
+immI
 L0
 )
 ;
@@ -7559,7 +7559,7 @@ define
 LDUB32
 (
 rs1
-imm32
+immI
 rd
 )
 \
@@ -7567,7 +7567,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 )
 )
 {
@@ -7575,7 +7575,7 @@ imm32
 LDUBI
 (
 rs1
-imm32
+immI
 rd
 )
 ;
@@ -7594,7 +7594,7 @@ rd
 \
 SET32
 (
-imm32
+immI
 L0
 )
 ;
@@ -7605,7 +7605,7 @@ define
 LDUH32
 (
 rs1
-imm32
+immI
 rd
 )
 \
@@ -7613,7 +7613,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 )
 )
 {
@@ -7621,7 +7621,7 @@ imm32
 LDUHI
 (
 rs1
-imm32
+immI
 rd
 )
 ;
@@ -7640,7 +7640,7 @@ rd
 \
 SET32
 (
-imm32
+immI
 L0
 )
 ;
@@ -7651,7 +7651,7 @@ define
 LDSW32
 (
 rs1
-imm32
+immI
 rd
 )
 \
@@ -7659,7 +7659,7 @@ if
 (
 isIMM13
 (
-imm32
+immI
 )
 )
 {
@@ -7667,7 +7667,7 @@ imm32
 LDSWI
 (
 rs1
-imm32
+immI
 rd
 )
 ;
@@ -7686,7 +7686,7 @@ rd
 \
 SET32
 (
-imm32
+immI
 L0
 )
 ;

@@ -10801,7 +10801,7 @@ if
 b
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -11115,7 +11115,7 @@ oprnd2
 )
 -
 >
-imm32
+immI
 (
 )
 &
@@ -11239,7 +11239,7 @@ return
 ins
 -
 >
-isconst
+isImmI
 (
 )
 |
@@ -11248,7 +11248,7 @@ isconst
 ins
 -
 >
-isconstq
+isImmQ
 (
 )
 &
@@ -11258,7 +11258,7 @@ isS32
 ins
 -
 >
-imm64
+immQ
 (
 )
 )
@@ -11278,14 +11278,14 @@ return
 ins
 -
 >
-isconst
+isImmI
 (
 )
 ?
 ins
 -
 >
-imm32
+immI
 (
 )
 :
@@ -11294,7 +11294,7 @@ int32_t
 ins
 -
 >
-imm64
+immQ
 (
 )
 )
@@ -13042,7 +13042,7 @@ ARGTYPE_I
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 |
 |
 ty
@@ -13085,7 +13085,7 @@ if
 ty
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 &
 &
 arg_index
@@ -13130,7 +13130,7 @@ if
 ty
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 &
 &
 fr
@@ -13223,7 +13223,7 @@ NanoAssert
 p
 -
 >
-isI32
+isI
 (
 )
 )
@@ -13233,7 +13233,7 @@ if
 p
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -13246,7 +13246,7 @@ int64_t
 p
 -
 >
-imm32
+immI
 (
 )
 )
@@ -13281,7 +13281,7 @@ if
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 )
 {
 NanoAssert
@@ -13289,7 +13289,7 @@ NanoAssert
 p
 -
 >
-isI32
+isI
 (
 )
 )
@@ -13299,7 +13299,7 @@ if
 p
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -13314,7 +13314,7 @@ uint32_t
 p
 -
 >
-imm32
+immI
 (
 )
 )
@@ -13477,7 +13477,7 @@ ARGTYPE_I
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 |
 |
 ty
@@ -13529,7 +13529,7 @@ NanoAssert
 p
 -
 >
-isI32
+isI
 (
 )
 )
@@ -13547,7 +13547,7 @@ if
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 )
 {
 /
@@ -13561,7 +13561,7 @@ NanoAssert
 p
 -
 >
-isI32
+isI
 (
 )
 )
@@ -13819,7 +13819,7 @@ NanoAssert
 ins
 -
 >
-isF64
+isD
 (
 )
 &
@@ -13827,7 +13827,7 @@ isF64
 a
 -
 >
-isI32
+isI
 (
 )
 )
@@ -13915,7 +13915,7 @@ NanoAssert
 ins
 -
 >
-isF64
+isD
 (
 )
 &
@@ -13923,7 +13923,7 @@ isF64
 a
 -
 >
-isI32
+isI
 (
 )
 )
@@ -14038,7 +14038,7 @@ NanoAssert
 ins
 -
 >
-isI32
+isI
 (
 )
 &
@@ -14046,7 +14046,7 @@ isI32
 a
 -
 >
-isF64
+isD
 (
 )
 )
@@ -14150,7 +14150,7 @@ LIR_cmov
 iftrue
 -
 >
-isI32
+isI
 (
 )
 &
@@ -14158,7 +14158,7 @@ isI32
 iffalse
 -
 >
-isI32
+isI
 (
 )
 )
@@ -14177,7 +14177,7 @@ LIR_qcmov
 iftrue
 -
 >
-isI64
+isQ
 (
 )
 &
@@ -14185,7 +14185,7 @@ isI64
 iffalse
 -
 >
-isI64
+isQ
 (
 )
 )
@@ -14715,7 +14715,7 @@ opcode
 ;
 if
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -15618,7 +15618,7 @@ opcode
 ;
 if
 (
-isQCmpOpcode
+isCmpQOpcode
 (
 condop
 )
@@ -15635,7 +15635,7 @@ else
 {
 NanoAssert
 (
-isICmpOpcode
+isCmpIOpcode
 (
 condop
 )
@@ -15711,7 +15711,7 @@ b
 ;
 if
 (
-isQCmpOpcode
+isCmpQOpcode
 (
 condop
 )
@@ -15742,7 +15742,7 @@ else
 {
 NanoAssert
 (
-isICmpOpcode
+isCmpIOpcode
 (
 condop
 )
@@ -16738,7 +16738,7 @@ if
 ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -16749,7 +16749,7 @@ r
 ins
 -
 >
-imm32
+immI
 (
 )
 /
@@ -16767,7 +16767,7 @@ if
 ins
 -
 >
-isconstq
+isImmQ
 (
 )
 )
@@ -16778,7 +16778,7 @@ r
 ins
 -
 >
-imm64
+immQ
 (
 )
 /
@@ -16796,7 +16796,7 @@ if
 ins
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -16807,7 +16807,7 @@ r
 ins
 -
 >
-imm64
+immQ
 (
 )
 /
@@ -16834,7 +16834,7 @@ if
 ins
 -
 >
-isF64
+isD
 (
 )
 )
@@ -16861,7 +16861,7 @@ if
 ins
 -
 >
-isI64
+isQ
 (
 )
 )
@@ -16889,7 +16889,7 @@ NanoAssert
 ins
 -
 >
-isI32
+isI
 (
 )
 )
@@ -17621,7 +17621,7 @@ NanoAssert
 ins
 -
 >
-isI32
+isI
 (
 )
 )
@@ -17765,7 +17765,7 @@ NanoAssert
 value
 -
 >
-isN64
+isQorD
 (
 )
 )
@@ -18007,7 +18007,7 @@ NanoAssert
 value
 -
 >
-isI32
+isI
 (
 )
 )
@@ -18124,7 +18124,7 @@ rr
 ins
 -
 >
-imm32
+immI
 (
 )
 /
@@ -18167,7 +18167,7 @@ rr
 ins
 -
 >
-imm64
+immQ
 (
 )
 /
@@ -18210,7 +18210,7 @@ r
 ins
 -
 >
-imm64
+immQ
 (
 )
 /
