@@ -110,6 +110,13 @@ nsIAccessibleTraversalRule
 PREFILTER_INVISIBLE
 ;
 const
+PREFILTER_ARIA_HIDDEN
+=
+nsIAccessibleTraversalRule
+.
+PREFILTER_ARIA_HIDDEN
+;
+const
 FILTER_MATCH
 =
 nsIAccessibleTraversalRule
@@ -333,6 +340,8 @@ return
 preFilter
 :
 PREFILTER_INVISIBLE
+|
+PREFILTER_ARIA_HIDDEN
 match
 :
 function
