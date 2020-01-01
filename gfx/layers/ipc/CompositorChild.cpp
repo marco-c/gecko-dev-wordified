@@ -617,6 +617,16 @@ Destroy
 )
 ;
 }
+printf_stderr
+(
+"
+Destroy
+compositor
+\
+n
+"
+)
+;
 SendStop
 (
 )
