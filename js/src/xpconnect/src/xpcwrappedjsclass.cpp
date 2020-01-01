@@ -8996,11 +8996,12 @@ ccx
 .
 SetCallee
 (
+JS_FUNC_TO_DATA_PTR
 (
 JSObject
 *
-)
 getter
+)
 )
 ;
 }
@@ -9041,11 +9042,12 @@ ccx
 .
 SetCallee
 (
+JS_FUNC_TO_DATA_PTR
 (
 JSObject
 *
-)
 setter
+)
 )
 ;
 }
