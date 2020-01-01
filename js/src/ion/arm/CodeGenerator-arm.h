@@ -728,7 +728,7 @@ generateOutOfLineCode
 (
 )
 ;
-bool
+void
 emitDoubleToInt32
 (
 const
@@ -742,6 +742,10 @@ dest
 Label
 *
 fail
+bool
+negativeZeroCheck
+=
+true
 )
 ;
 void

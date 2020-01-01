@@ -6341,6 +6341,7 @@ ToRegister
 temp
 )
 defaultcase
+false
 )
 ;
 }
@@ -7474,7 +7475,7 @@ scratch
 float
 register
 .
-bool
+void
 CodeGeneratorARM
 :
 :
@@ -7491,6 +7492,8 @@ dest
 Label
 *
 fail
+bool
+negativeZeroCheck
 )
 {
 /
@@ -7622,6 +7625,11 @@ that
 seems
 hard
 .
+if
+(
+negativeZeroCheck
+)
+{
 masm
 .
 ma_cmp
@@ -7648,13 +7656,11 @@ Equal
 /
 guard
 for
-/
+!
 =
 0
 .
-return
-true
-;
+}
 }
 void
 CodeGeneratorARM
