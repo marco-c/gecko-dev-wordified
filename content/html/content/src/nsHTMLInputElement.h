@@ -4707,7 +4707,7 @@ the
 default
 *
 /
-char
+PRUnichar
 *
 mValue
 ;
