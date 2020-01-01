@@ -2084,7 +2084,7 @@ JSString
 s
 ;
 const
-jschar
+PRUnichar
 *
 chars
 ;
@@ -2210,6 +2210,11 @@ traits
 :
 sEmptyBuffer
 :
+(
+const
+PRUnichar
+*
+)
 JS_GetStringChars
 (
 s
@@ -2271,7 +2276,7 @@ JSString
 s
 ;
 const
-jschar
+PRUnichar
 *
 chars
 ;
@@ -2403,6 +2408,11 @@ traits
 :
 sEmptyBuffer
 :
+(
+const
+PRUnichar
+*
+)
 JS_GetStringChars
 (
 s
@@ -4011,6 +4021,10 @@ string
 *
 pstr
 =
+(
+PRUnichar
+*
+)
 JS_GetStringChars
 (
 str
