@@ -24513,6 +24513,13 @@ if
 newFrame
 )
 {
+/
+/
+See
+bug
+565569
+/
+/
 NS_ASSERTION
 (
 content
@@ -24521,6 +24528,8 @@ content
 GetPrimaryFrame
 (
 )
+/
+/
 "
 Content
 must
