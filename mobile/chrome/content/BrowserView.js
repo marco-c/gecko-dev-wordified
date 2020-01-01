@@ -2096,12 +2096,6 @@ _offscreenDepth
 =
 0
 ;
-this
-.
-_aggro
-=
-false
-;
 let
 cacheSize
 =
@@ -2405,14 +2399,6 @@ setAggressive
 aggro
 )
 {
-/
-*
-this
-.
-_aggro
-=
-aggro
-;
 let
 wait
 =
@@ -2454,8 +2440,6 @@ _idleServiceWait
 =
 wait
 ;
-*
-/
 }
 getVisibleRect
 :
