@@ -399,6 +399,16 @@ return
 true
 ;
 }
+static
+bool
+allowFloat32Optimizations
+(
+)
+{
+return
+true
+;
+}
 }
 ;
 typedef

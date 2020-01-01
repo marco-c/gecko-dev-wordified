@@ -3249,6 +3249,9 @@ OBJECT
 case
 MIRType_Double
 :
+case
+MIRType_Float32
+:
 return
 LDefinition
 :
