@@ -1034,6 +1034,9 @@ list
 =
 new
 List
+(
+aAssignment
+)
 ;
 if
 (
@@ -1042,13 +1045,6 @@ list
 )
 return
 NS_ERROR_OUT_OF_MEMORY
-;
-list
--
->
-mAssignment
-=
-aAssignment
 ;
 list
 -
