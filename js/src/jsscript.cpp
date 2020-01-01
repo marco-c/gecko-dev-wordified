@@ -7417,6 +7417,17 @@ JS_THREADSAFE
 if
 (
 tok
+&
+&
+cx
+-
+>
+runtime
+-
+>
+useHelperThreads
+(
+)
 )
 {
 #
