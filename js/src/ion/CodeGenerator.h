@@ -1060,14 +1060,6 @@ lir
 )
 ;
 bool
-visitCompareS
-(
-LCompareS
-*
-lir
-)
-;
-bool
 visitCompareV
 (
 LCompareV
