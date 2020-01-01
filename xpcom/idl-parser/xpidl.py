@@ -4990,6 +4990,10 @@ implicit_jscontext
 =
 False
     
+nostdcall
+=
+False
+    
 binaryname
 =
 None
@@ -5362,6 +5366,21 @@ implicit_jscontext
 =
 True
                 
+elif
+name
+=
+=
+'
+nostdcall
+'
+:
+                    
+self
+.
+nostdcall
+=
+True
+                
 else
 :
                     
@@ -5376,6 +5395,8 @@ attribute
 s
 '
 "
+%
+name
 aloc
 )
     
@@ -5659,6 +5680,10 @@ implicit_jscontext
 =
 False
     
+nostdcall
+=
+False
+    
 optional_argc
 =
 False
@@ -5842,6 +5867,21 @@ optional_argc
 =
 True
             
+elif
+name
+=
+=
+'
+nostdcall
+'
+:
+                
+self
+.
+nostdcall
+=
+True
+            
 else
 :
                 
@@ -5856,6 +5896,8 @@ attribute
 s
 '
 "
+%
+name
 aloc
 )
         
