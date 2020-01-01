@@ -648,6 +648,15 @@ LTypeBarrier
 lir
 )
 ;
+virtual
+bool
+visitDoubleToInt32
+(
+LDoubleToInt32
+*
+lir
+)
+;
 }
 ;
 }

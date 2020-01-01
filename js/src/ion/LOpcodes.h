@@ -610,6 +610,11 @@ ValueToInt32
 \
 _
 (
+DoubleToInt32
+)
+\
+_
+(
 TruncateDToInt32
 )
 \
