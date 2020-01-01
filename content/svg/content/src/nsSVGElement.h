@@ -1119,6 +1119,12 @@ DidAnimatePreserveAspectRatio
 (
 )
 ;
+virtual
+void
+DidAnimateTransform
+(
+)
+;
 void
 GetAnimatedLengthValues
 (
