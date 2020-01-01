@@ -259,6 +259,9 @@ addToWhitelist
 )
 ;
 var
+mm
+;
+var
 numEvents
 =
 0
@@ -414,6 +417,18 @@ function
 (
 )
 {
+mm
+.
+removeMessageListener
+(
+'
+test
+:
+visibilitychange
+'
+recvVisibilityChanged
+)
+;
 SimpleTest
 .
 finish
@@ -445,7 +460,6 @@ iframeLoaded
 (
 )
 {
-var
 mm
 =
 SpecialPowers
