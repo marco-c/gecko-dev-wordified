@@ -2678,7 +2678,7 @@ realtype
 count
 (
 "
-PRUint32
+uint32_t
 "
 )
 :
@@ -2717,7 +2717,7 @@ realtype
 count
 (
 "
-PRInt32
+int32_t
 "
 )
 :
@@ -2862,7 +2862,7 @@ realtype
 count
 (
 "
-PRUint16
+uint16_t
 "
 )
 :
@@ -2928,7 +2928,7 @@ realtype
 count
 (
 "
-PRInt16
+int16_t
 "
 )
 :
