@@ -386,6 +386,12 @@ defined
 (
 linux
 )
+|
+|
+defined
+(
+SOLARIS
+)
 #
 include
 <
