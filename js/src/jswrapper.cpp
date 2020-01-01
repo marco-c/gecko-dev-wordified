@@ -447,7 +447,7 @@ JSObject
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 JSObject
 *
@@ -543,7 +543,7 @@ JSObject
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 RawObject
 obj
@@ -2995,7 +2995,7 @@ JS_IS_CONSTRUCTING
 |
 |
 !
-UnwrapObject
+UncheckedUnwrap
 (
 wrapper
 )
@@ -5345,7 +5345,7 @@ JSObject
 *
 wrapped
 =
-UnwrapObject
+UncheckedUnwrap
 (
 wobj
 )

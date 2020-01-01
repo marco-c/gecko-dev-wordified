@@ -8872,7 +8872,7 @@ cx
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 instance
 )
@@ -8935,7 +8935,7 @@ GetDOMClass
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 instance
 )
@@ -51304,7 +51304,7 @@ obj
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 obj
 )

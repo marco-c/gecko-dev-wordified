@@ -16287,7 +16287,7 @@ obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 )
@@ -20157,7 +20157,7 @@ SameZoneAs
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 options
 .
@@ -20470,7 +20470,7 @@ unwrappedProto
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 options
 .
@@ -23721,7 +23721,7 @@ cx
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 sandboxArg
 )
@@ -25305,7 +25305,7 @@ obj
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 obj
 )
@@ -25449,7 +25449,7 @@ cx
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 vobj
@@ -25586,7 +25586,7 @@ cx
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 vobj
@@ -25727,7 +25727,7 @@ scope
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 JSVAL_TO_OBJECT
 (
@@ -26023,7 +26023,7 @@ cx
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 vobj
@@ -26308,7 +26308,7 @@ GetObjectCompartment
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 vobj
@@ -26459,7 +26459,7 @@ scopeObj
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 vscope
@@ -26573,7 +26573,7 @@ scopeObj
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 vscope
@@ -26704,7 +26704,7 @@ scopeObj
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 scope
@@ -27310,7 +27310,7 @@ JSObject
 *
 sb
 =
-UnwrapObject
+UncheckedUnwrap
 (
 wrapper
 )

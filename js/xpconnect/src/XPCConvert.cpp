@@ -6771,7 +6771,7 @@ inner
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 src
 /
@@ -6868,7 +6868,7 @@ inner
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 src
 )
@@ -7801,7 +7801,7 @@ unwrapped
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 /

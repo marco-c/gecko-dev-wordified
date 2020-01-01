@@ -201,7 +201,7 @@ flags
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 wrapper
 true
@@ -267,7 +267,7 @@ return
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 )

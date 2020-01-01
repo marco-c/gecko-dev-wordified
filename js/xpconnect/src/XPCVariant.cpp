@@ -358,7 +358,7 @@ unwrapped
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 /

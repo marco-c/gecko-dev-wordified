@@ -354,7 +354,7 @@ realCallback
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 aCallback
 )
@@ -820,7 +820,7 @@ cx
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 aCallback
 )
