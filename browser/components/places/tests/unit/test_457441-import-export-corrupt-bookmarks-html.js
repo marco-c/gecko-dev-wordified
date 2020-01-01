@@ -987,12 +987,6 @@ execute
 (
 )
 ;
-stmt
-.
-finalize
-(
-)
-;
 /
 /
 Export
