@@ -174,9 +174,6 @@ OldDebugAPI
 h
 "
 struct
-JSContext
-;
-struct
 JSCompartment
 ;
 struct

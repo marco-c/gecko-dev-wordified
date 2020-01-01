@@ -162,6 +162,15 @@ h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 nsIDOMNavigatorUserMedia
 .
 h
@@ -265,9 +274,6 @@ SpeechRecognitionError
 .
 h
 "
-struct
-JSContext
-;
 class
 nsIDOMWindow
 ;

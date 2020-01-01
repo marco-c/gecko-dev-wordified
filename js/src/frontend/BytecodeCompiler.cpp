@@ -1361,9 +1361,6 @@ filename
 return
 NULL
 ;
-JS
-:
-:
 RootedScriptSource
 sourceObject
 (
@@ -3007,9 +3004,6 @@ enclosingScope
 )
 )
 ;
-JS
-:
-:
 RootedScriptSource
 sourceObject
 (
@@ -3379,9 +3373,6 @@ filename
 return
 false
 ;
-JS
-:
-:
 RootedScriptSource
 sourceObject
 (

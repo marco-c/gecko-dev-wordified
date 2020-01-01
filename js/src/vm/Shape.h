@@ -924,9 +924,6 @@ BaseShape
 .
 *
 /
-class
-JSObject
-;
 namespace
 js
 {

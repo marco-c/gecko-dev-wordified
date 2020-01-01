@@ -146,6 +146,15 @@ h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 EnableSpeechSynthesisCheck
 .
 h
@@ -164,9 +173,6 @@ SpeechSynthesisVoice
 .
 h
 "
-struct
-JSContext
-;
 class
 nsIDOMWindow
 ;

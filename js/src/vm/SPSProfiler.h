@@ -1152,9 +1152,6 @@ executing
 .
 *
 /
-class
-JSFunction
-;
 namespace
 js
 {

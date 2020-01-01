@@ -170,6 +170,15 @@ prinrval
 h
 >
 #
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_ANDROID
 #
@@ -238,9 +247,6 @@ PluginLibrary
 .
 h
 "
-class
-JSObject
-;
 class
 nsPluginStreamListenerPeer
 ;

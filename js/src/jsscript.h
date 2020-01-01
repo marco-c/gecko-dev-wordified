@@ -185,6 +185,15 @@ h
 #
 include
 "
+gc
+/
+Rooting
+.
+h
+"
+#
+include
+"
 vm
 /
 Shape
@@ -3765,7 +3774,7 @@ CompileOptions
 options
 unsigned
 staticLevel
-JS
+js
 :
 :
 HandleScriptSource

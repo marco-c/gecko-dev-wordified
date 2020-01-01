@@ -113,12 +113,6 @@ nsIDOMTCPSocket
 .
 h
 "
-struct
-JSContext
-;
-struct
-JSObject
-;
 namespace
 mozilla
 {

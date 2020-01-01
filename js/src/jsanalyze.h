@@ -130,9 +130,6 @@ jscompartment
 .
 h
 "
-class
-JSScript
-;
 namespace
 js
 {

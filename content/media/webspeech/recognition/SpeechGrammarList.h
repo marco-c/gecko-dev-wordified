@@ -139,6 +139,15 @@ h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -170,9 +179,6 @@ SpeechGrammar
 .
 h
 "
-struct
-JSContext
-;
 namespace
 mozilla
 {

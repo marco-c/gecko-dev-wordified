@@ -146,6 +146,15 @@ h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -168,9 +177,6 @@ EnableWebSpeechRecognitionCheck
 .
 h
 "
-struct
-JSContext
-;
 namespace
 mozilla
 {

@@ -30318,12 +30318,6 @@ using
 JS
 :
 :
-RootedModule
-;
-using
-JS
-:
-:
 RootedFunction
 ;
 using
@@ -30361,12 +30355,6 @@ JS
 :
 :
 HandleObject
-;
-using
-JS
-:
-:
-HandleModule
 ;
 using
 JS

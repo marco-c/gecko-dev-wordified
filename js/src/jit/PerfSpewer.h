@@ -130,9 +130,6 @@ IonMacroAssembler
 .
 h
 "
-class
-JSScript
-;
 namespace
 js
 {

@@ -175,9 +175,6 @@ Assertions
 .
 h
 "
-struct
-JSContext
-;
 namespace
 mozilla
 {

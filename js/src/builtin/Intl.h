@@ -130,12 +130,6 @@ RootingAPI
 .
 h
 "
-struct
-JSContext
-;
-class
-JSObject
-;
 /
 *
 *

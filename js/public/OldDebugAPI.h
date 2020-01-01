@@ -144,7 +144,7 @@ include
 "
 js
 /
-IdForward
+TypeDecls
 .
 h
 "

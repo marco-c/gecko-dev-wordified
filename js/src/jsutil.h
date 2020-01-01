@@ -162,16 +162,6 @@ Utility
 .
 h
 "
-/
-*
-Forward
-declarations
-.
-*
-/
-struct
-JSContext
-;
 static
 JS_ALWAYS_INLINE
 void

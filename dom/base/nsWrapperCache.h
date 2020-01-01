@@ -166,12 +166,6 @@ struct
 JSTracer
 ;
 class
-JSObject
-;
-struct
-JSContext
-;
-class
 XPCWrappedNativeScope
 ;
 namespace

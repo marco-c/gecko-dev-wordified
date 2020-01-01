@@ -238,12 +238,6 @@ for
 nsRefPtr
 member
 variables
-struct
-JSContext
-;
-class
-JSObject
-;
 class
 nsWrapperCache
 ;

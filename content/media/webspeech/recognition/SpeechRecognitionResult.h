@@ -153,6 +153,15 @@ h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -173,9 +182,6 @@ SpeechRecognitionAlternative
 .
 h
 "
-struct
-JSContext
-;
 namespace
 mozilla
 {

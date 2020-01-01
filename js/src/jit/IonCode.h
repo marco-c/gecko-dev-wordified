@@ -164,9 +164,6 @@ class
 ExecutablePool
 ;
 }
-class
-JSScript
-;
 namespace
 js
 {

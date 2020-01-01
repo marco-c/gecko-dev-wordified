@@ -217,6 +217,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
 class
 nsIRDFResource
 ;
@@ -290,9 +299,6 @@ nsInterfaceHashtable
 .
 h
 "
-class
-JSObject
-;
 struct
 JSTracer
 ;

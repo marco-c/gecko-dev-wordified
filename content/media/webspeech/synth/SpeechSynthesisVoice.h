@@ -139,6 +139,15 @@ h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 EnableSpeechSynthesisCheck
 .
 h
@@ -150,9 +159,6 @@ nsISpeechService
 .
 h
 "
-struct
-JSContext
-;
 namespace
 mozilla
 {

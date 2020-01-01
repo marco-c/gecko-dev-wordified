@@ -19776,9 +19776,6 @@ fromChildJSObject
 obj
 )
 ;
-JS
-:
-:
 RootedScriptSource
 source
 (
@@ -24733,9 +24730,6 @@ newDebuggerSource
 JSContext
 *
 cx
-JS
-:
-:
 HandleScriptSource
 source
 )
@@ -24828,9 +24822,6 @@ wrapSource
 JSContext
 *
 cx
-JS
-:
-:
 HandleScriptSource
 source
 )
@@ -25219,9 +25210,6 @@ return
 false
 ;
 \
-JS
-:
-:
 RootedScriptSource
 sourceObject
 (

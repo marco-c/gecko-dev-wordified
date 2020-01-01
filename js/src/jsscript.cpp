@@ -3558,9 +3558,6 @@ SelfHosted
 )
 )
 ;
-JS
-:
-:
 RootedScriptSource
 sourceObject
 (
@@ -6366,9 +6363,6 @@ object
 return
 NULL
 ;
-JS
-:
-:
 RootedScriptSource
 sourceObject
 (
@@ -10558,9 +10552,6 @@ CompileOptions
 options
 unsigned
 staticLevel
-JS
-:
-:
 HandleScriptSource
 sourceObject
 uint32_t
@@ -15337,9 +15328,6 @@ the
 script
 *
 /
-JS
-:
-:
 RootedScriptSource
 sourceObject
 (

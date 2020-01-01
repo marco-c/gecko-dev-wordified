@@ -261,9 +261,6 @@ js_parseInt_str
 [
 ]
 ;
-class
-JSString
-;
 /
 *
 *
