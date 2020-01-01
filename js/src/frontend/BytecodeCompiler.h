@@ -460,7 +460,7 @@ namespace
 js
 {
 struct
-Compiler
+BytecodeCompiler
 {
 Parser
 parser
@@ -469,7 +469,7 @@ GlobalScope
 *
 globalScope
 ;
-Compiler
+BytecodeCompiler
 (
 JSContext
 *

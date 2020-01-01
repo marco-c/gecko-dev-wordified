@@ -584,10 +584,11 @@ the
 statementName
 array
 in
-jsemit
+BytecodeGenerator
 .
-c
+cpp
 in
+*
 sync
 .
 *
@@ -1807,7 +1808,7 @@ request
 flag
 passed
 to
-Compiler
+BytecodeCompiler
 :
 :
 compileScript
@@ -2871,7 +2872,7 @@ TCF_IN_FUNCTION
 and
 not
 in
-Compiler
+BytecodeCompiler
 :
 :
 compileFunctionBody
@@ -3422,7 +3423,7 @@ ensureSharpSlots
 (
 )
 ;
-Compiler
+BytecodeCompiler
 *
 compiler
 (
@@ -3430,7 +3431,7 @@ compiler
 {
 return
 (
-Compiler
+BytecodeCompiler
 *
 )
 parser

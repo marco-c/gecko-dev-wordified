@@ -6166,10 +6166,7 @@ for
 this
 is
 in
-jsparse
-.
-cpp
-Compiler
+BytecodeCompiler
 :
 :
 compileScript

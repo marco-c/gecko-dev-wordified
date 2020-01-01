@@ -14710,7 +14710,7 @@ cx
 bool
 ok
 =
-Compiler
+BytecodeCompiler
 :
 :
 compileFunctionBody

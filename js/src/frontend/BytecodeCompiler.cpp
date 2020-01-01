@@ -517,10 +517,10 @@ script
 .
 *
 /
-Compiler
+BytecodeCompiler
 :
 :
-Compiler
+BytecodeCompiler
 (
 JSContext
 *
@@ -547,7 +547,7 @@ NULL
 }
 JSScript
 *
-Compiler
+BytecodeCompiler
 :
 :
 compileScript
@@ -680,7 +680,7 @@ staticLevel
 callerFrame
 )
 ;
-Compiler
+BytecodeCompiler
 compiler
 (
 cx
@@ -1901,7 +1901,7 @@ out
 ;
 }
 bool
-Compiler
+BytecodeCompiler
 :
 :
 defineGlobals
@@ -2636,7 +2636,7 @@ tag
 *
 /
 bool
-Compiler
+BytecodeCompiler
 :
 :
 compileFunctionBody
@@ -2669,7 +2669,7 @@ JSVersion
 version
 )
 {
-Compiler
+BytecodeCompiler
 compiler
 (
 cx
@@ -2986,16 +2986,16 @@ from
 EmitFunctionBody
 (
 see
-jsemit
+BytecodeGenerator
 .
 cpp
 )
 .
+*
 After
 we
 '
 re
-*
 done
 parsing
 we
@@ -3005,9 +3005,9 @@ constants
 analyze
 any
 nested
+*
 functions
 and
-*
 generate
 code
 for
@@ -3017,6 +3017,7 @@ including
 a
 stop
 opcode
+*
 at
 the
 end

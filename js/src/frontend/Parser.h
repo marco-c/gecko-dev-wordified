@@ -1021,7 +1021,7 @@ TreeContext
 ;
 friend
 struct
-Compiler
+BytecodeCompiler
 ;
 /
 *
