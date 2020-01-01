@@ -1975,6 +1975,9 @@ string
 >
 mSDPParseErrorMessages
 ;
+bool
+mTrickle
+;
 public
 :
 /
