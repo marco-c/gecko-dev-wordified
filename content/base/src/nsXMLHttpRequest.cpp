@@ -5556,13 +5556,7 @@ any
 data
 ;
 return
-a
-somewhat
-sensible
-error
-code
-/
-/
+0
 in
 that
 case
@@ -5587,7 +5581,7 @@ readyState
 *
 aStatus
 =
-NS_ERROR_NOT_AVAILABLE
+0
 ;
 return
 NS_OK
