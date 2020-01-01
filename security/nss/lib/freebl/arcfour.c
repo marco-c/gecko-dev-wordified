@@ -749,7 +749,8 @@ ARCFOUR_STATE_SIZE
 if
 (
 len
-<
+=
+=
 0
 |
 |

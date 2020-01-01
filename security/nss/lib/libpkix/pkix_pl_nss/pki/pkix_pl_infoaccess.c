@@ -4059,6 +4059,7 @@ avaPtr
 ;
 if
 (
+*
 avaPtr
 =
 =

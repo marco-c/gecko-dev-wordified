@@ -66,13 +66,6 @@ h
 #
 include
 "
-secoidt
-.
-h
-"
-#
-include
-"
 pkcs11t
 .
 h

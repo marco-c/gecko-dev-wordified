@@ -15247,6 +15247,12 @@ PKIX_CERTISCERTTRUSTEDFAILED
 if
 (
 trustOnlyUserAnchors
+|
+|
+cert
+-
+>
+isUserTrustAnchor
 )
 {
 /

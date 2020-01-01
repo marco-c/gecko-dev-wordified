@@ -266,6 +266,9 @@ aiaMgr
 PKIX_Boolean
 useAIAForCertFetching
 ;
+PKIX_Boolean
+trustOnlyUserAnchors
+;
 }
 ;
 struct

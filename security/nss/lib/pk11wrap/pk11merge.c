@@ -2796,6 +2796,9 @@ param
 =
 NULL
 ;
+int
+blockSize
+;
 SECItem
 input
 ;
@@ -3162,9 +3165,7 @@ char
 )
 testString
 ;
-input
-.
-len
+blockSize
 =
 PK11_GetBlockSize
 (
@@ -3174,9 +3175,7 @@ NULL
 ;
 if
 (
-input
-.
-len
+blockSize
 <
 0
 )
@@ -3189,6 +3188,12 @@ goto
 done
 ;
 }
+input
+.
+len
+=
+blockSize
+;
 if
 (
 input

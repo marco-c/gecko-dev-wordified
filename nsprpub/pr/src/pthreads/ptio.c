@@ -8648,7 +8648,7 @@ osfd
 int
 on
 ;
-int
+socklen_t
 optlen
 =
 sizeof
