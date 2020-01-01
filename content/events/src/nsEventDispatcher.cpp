@@ -5204,7 +5204,7 @@ NS_NewDOMStorageEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 }
