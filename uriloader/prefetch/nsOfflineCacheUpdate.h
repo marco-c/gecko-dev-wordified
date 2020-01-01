@@ -309,6 +309,9 @@ nsIURI
 aReferrerURI
 nsIApplicationCache
 *
+aApplicationCache
+nsIApplicationCache
+*
 aPreviousApplicationCache
 const
 nsACString
@@ -335,6 +338,12 @@ nsCOMPtr
 nsIURI
 >
 mReferrerURI
+;
+nsCOMPtr
+<
+nsIApplicationCache
+>
+mApplicationCache
 ;
 nsCOMPtr
 <
@@ -429,6 +438,9 @@ aURI
 nsIURI
 *
 aReferrerURI
+nsIApplicationCache
+*
+aApplicationCache
 nsIApplicationCache
 *
 aPreviousApplicationCache
@@ -1116,6 +1128,12 @@ nsIURI
 >
 mDocumentURI
 ;
+nsCOMPtr
+<
+nsILocalFile
+>
+mCustomProfileDir
+;
 nsCString
 mClientID
 ;
@@ -1331,6 +1349,9 @@ aDocument
 nsIDOMWindow
 *
 aWindow
+nsILocalFile
+*
+aCustomProfileDir
 nsIOfflineCacheUpdate
 *
 *

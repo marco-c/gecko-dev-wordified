@@ -838,6 +838,9 @@ aDocumentURI
 nsIDOMDocument
 *
 aDocument
+nsILocalFile
+*
+aCustomProfileDir
 )
 {
 if
@@ -872,6 +875,7 @@ Init
 aManifestURI
 aDocumentURI
 nsnull
+aCustomProfileDir
 )
 ;
 }
