@@ -3445,14 +3445,6 @@ false
 }
 if
 (
-sc
--
->
-needStrictChecks
-(
-)
-&
-&
 FindKeyword
 (
 name
