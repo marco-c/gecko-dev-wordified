@@ -1014,7 +1014,7 @@ It
 is
 an
 error
-is
+if
 audio
 or
 video
@@ -1057,7 +1057,10 @@ return
 NS_OK
 ;
 }
-else
+if
+(
+mPicture
+)
 {
 SendPicture
 (
