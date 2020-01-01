@@ -3104,7 +3104,7 @@ void
 HandleDoubleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -3114,7 +3114,7 @@ void
 HandleSingleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -3124,7 +3124,7 @@ void
 HandleLongTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )

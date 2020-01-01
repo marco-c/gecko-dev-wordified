@@ -16235,7 +16235,7 @@ AndroidBridge
 HandleDoubleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -16306,7 +16306,7 @@ AndroidBridge
 HandleSingleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -16377,7 +16377,7 @@ AndroidBridge
 HandleLongTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
