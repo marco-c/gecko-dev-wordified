@@ -545,6 +545,9 @@ nsThreadUtils
 .
 h
 "
+namespace
+TestExpirationTracker
+{
 struct
 Object
 {
@@ -1524,6 +1527,11 @@ nsnull
 nsnull
 }
 }
+;
+}
+using
+namespace
+TestExpirationTracker
 ;
 int
 main

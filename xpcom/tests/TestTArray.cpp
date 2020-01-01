@@ -533,6 +533,9 @@ nsILocalFile
 .
 h
 "
+namespace
+TestTArray
+{
 /
 /
 Define
@@ -3730,6 +3733,11 @@ nsnull
 nsnull
 }
 }
+;
+}
+using
+namespace
+TestTArray
 ;
 int
 main

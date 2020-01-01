@@ -437,6 +437,9 @@ nsCRT
 .
 h
 "
+namespace
+TestStrings
+{
 void
 test_assign_helper
 (
@@ -5812,12 +5815,11 @@ nsnull
 }
 }
 ;
-/
-/
--
--
--
--
+}
+using
+namespace
+TestStrings
+;
 int
 main
 (

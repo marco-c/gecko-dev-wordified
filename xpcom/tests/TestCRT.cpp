@@ -450,6 +450,9 @@ stdlib
 .
 h
 >
+namespace
+TestCRT
+{
 /
 /
 The
@@ -849,6 +852,11 @@ tests
 )
 )
 )
+}
+using
+namespace
+TestCRT
+;
 int
 main
 (
