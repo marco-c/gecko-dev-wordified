@@ -1477,7 +1477,7 @@ get
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -1541,7 +1541,7 @@ get
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
