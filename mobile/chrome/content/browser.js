@@ -5403,7 +5403,7 @@ this
 .
 setPluginState
 (
-true
+false
 )
 ;
 }
