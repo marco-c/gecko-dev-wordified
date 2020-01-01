@@ -1130,7 +1130,7 @@ animate
 (
 css
 '
-animate350
+animate200
 '
 function
 (
