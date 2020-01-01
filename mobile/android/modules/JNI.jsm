@@ -29,11 +29,11 @@ findClass
 (
 "
 org
-.
+/
 mozilla
-.
+/
 gecko
-.
+/
 GeckoAppShell
 "
 )
