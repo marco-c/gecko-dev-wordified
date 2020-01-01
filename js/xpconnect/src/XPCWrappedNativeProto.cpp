@@ -1019,8 +1019,11 @@ this
 )
 ;
 mJSProtoObject
-=
-nsnull
+.
+finalize
+(
+cx
+)
 ;
 }
 void
