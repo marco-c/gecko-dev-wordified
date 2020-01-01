@@ -957,6 +957,10 @@ NR_RegGetEntryString
 (
 reg
 profileKey
+(
+char
+*
+)
 "
 migrated
 "
@@ -1027,6 +1031,10 @@ NR_RegGetEntryInfo
 (
 reg
 profileKey
+(
+char
+*
+)
 "
 directory
 "
@@ -1054,6 +1062,10 @@ NR_RegGetEntryString
 (
 reg
 profileKey
+(
+char
+*
+)
 "
 directory
 "

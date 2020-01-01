@@ -565,10 +565,12 @@ nsIPrefBranch
 struct
 PrefTransform
 {
+const
 char
 *
 sectionName
 ;
+const
 char
 *
 keyName
@@ -576,6 +578,7 @@ keyName
 PrefType
 type
 ;
+const
 char
 *
 targetPrefName

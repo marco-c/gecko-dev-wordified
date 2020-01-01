@@ -502,10 +502,12 @@ nsIPrefBranch
 struct
 PrefTransform
 {
+const
 char
 *
 sourcePrefName
 ;
+const
 char
 *
 targetPrefName
