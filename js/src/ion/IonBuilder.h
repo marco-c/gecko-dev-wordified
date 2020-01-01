@@ -2507,16 +2507,6 @@ fun
 )
 ;
 bool
-jsop_deflocalfun
-(
-uint32_t
-local
-JSFunction
-*
-fun
-)
-;
-bool
 jsop_this
 (
 )
