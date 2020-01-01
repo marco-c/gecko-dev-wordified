@@ -1218,6 +1218,13 @@ service
 "
 )
 ;
+if
+(
+!
+notifyUIService
+)
+return
+;
 float
 runTimeInSeconds
 =
