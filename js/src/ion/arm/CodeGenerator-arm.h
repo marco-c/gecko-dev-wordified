@@ -568,6 +568,15 @@ ins
 ;
 virtual
 bool
+visitDivPowTwoI
+(
+LDivPowTwoI
+*
+ins
+)
+;
+virtual
+bool
 visitModI
 (
 LModI
