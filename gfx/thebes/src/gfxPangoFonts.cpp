@@ -5146,6 +5146,15 @@ ENABLE_XFT_FAST_PATH_8BIT
 if
 (
 aTake8BitPath
+&
+&
+!
+aTextRun
+-
+>
+IsRightToLeft
+(
+)
 )
 {
 CreateGlyphRunsXft
