@@ -13750,7 +13750,7 @@ mJSObject
 mContext
 -
 >
-GetNativeGlobal
+GetWindowProxy
 (
 )
 ;

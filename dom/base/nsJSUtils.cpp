@@ -892,7 +892,7 @@ scx
 scx
 -
 >
-GetNativeGlobal
+GetWindowProxy
 (
 )
 :
@@ -1845,7 +1845,7 @@ return
 scx
 -
 >
-GetNativeGlobal
+GetWindowProxy
 (
 )
 ;
