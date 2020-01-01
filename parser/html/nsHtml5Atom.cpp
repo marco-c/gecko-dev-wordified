@@ -63,6 +63,13 @@ nsHtml5Atom
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 nsHtml5Atom
 :
 :

@@ -5072,6 +5072,10 @@ uint32_t
 idx
 )
 )
+.
+get
+(
+)
 ;
 if
 (
@@ -5110,6 +5114,10 @@ idx
 1
 )
 )
+)
+.
+get
+(
 )
 ;
 if
@@ -5188,6 +5196,10 @@ NS_NewAtom
 (
 lcname
 )
+.
+get
+(
+)
 ;
 }
 else
@@ -5198,6 +5210,10 @@ aLocalName
 NS_NewAtom
 (
 aQName
+)
+.
+get
+(
 )
 ;
 }

@@ -136,6 +136,10 @@ NS_NewAtom
 (
 aString
 )
+.
+get
+(
+)
 ;
 if
 (
@@ -209,6 +213,10 @@ aResult
 NS_NewAtom
 (
 aValue
+)
+.
+get
+(
 )
 ;
 if

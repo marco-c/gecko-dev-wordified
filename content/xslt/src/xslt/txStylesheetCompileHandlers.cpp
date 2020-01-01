@@ -1380,6 +1380,10 @@ attr
 >
 mValue
 )
+.
+get
+(
+)
 ;
 NS_ENSURE_TRUE
 (
