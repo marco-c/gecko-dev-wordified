@@ -766,6 +766,11 @@ ContentParent
 (
 )
 ;
+void
+Init
+(
+)
+;
 virtual
 PBrowserParent
 *
