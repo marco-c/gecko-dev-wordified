@@ -1060,13 +1060,6 @@ parentFrame
 nsnull
 )
 ;
-/
-/
-See
-bug
-565569
-/
-/
 mTextContent
 -
 >
