@@ -289,7 +289,11 @@ h
 #
 include
 "
-nsDOMAttribute
+mozilla
+/
+dom
+/
+Attr
 .
 h
 "

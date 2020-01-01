@@ -184,7 +184,11 @@ h
 #
 include
 "
-nsDOMAttribute
+mozilla
+/
+dom
+/
+Attr
 .
 h
 "
@@ -1168,7 +1172,7 @@ DisplayReflowStartup
 ;
 #
 endif
-nsDOMAttribute
+Attr
 :
 :
 Initialize
@@ -1549,7 +1553,7 @@ Shutdown
 (
 )
 ;
-nsDOMAttribute
+Attr
 :
 :
 Shutdown

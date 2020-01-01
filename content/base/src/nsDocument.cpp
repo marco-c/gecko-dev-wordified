@@ -334,7 +334,11 @@ h
 #
 include
 "
-nsDOMAttribute
+mozilla
+/
+dom
+/
+Attr
 .
 h
 "
@@ -26430,7 +26434,7 @@ nsIDOMAttr
 attribute
 =
 new
-nsDOMAttribute
+Attr
 (
 nullptr
 nodeInfo
@@ -26573,7 +26577,7 @@ nsIDOMAttr
 attribute
 =
 new
-nsDOMAttribute
+Attr
 (
 nullptr
 nodeInfo
@@ -33764,7 +33768,7 @@ nsAttrHashKey
 :
 KeyType
 aKey
-nsDOMAttribute
+Attr
 *
 aData
 void
