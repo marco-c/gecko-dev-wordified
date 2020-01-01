@@ -1069,8 +1069,11 @@ Shared
 HTML_TAG
 (
 plaintext
-Span
 )
+/
+/
+HTMLElement
+instance
 HTML_TAG
 (
 pre
@@ -1248,8 +1251,11 @@ Shared
 HTML_TAG
 (
 xmp
-Span
 )
+/
+/
+HTMLElement
+instance
 /
 *
 These
