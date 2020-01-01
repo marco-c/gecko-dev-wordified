@@ -567,6 +567,17 @@ cookies
 ;
 }
 get
+displayName
+(
+)
+{
+return
+"
+Cookies
+"
+;
+}
+get
 logName
 (
 )

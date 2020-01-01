@@ -580,6 +580,17 @@ name
 tabs
 "
 get
+displayName
+(
+)
+{
+return
+"
+Tabs
+"
+;
+}
+get
 logName
 (
 )
