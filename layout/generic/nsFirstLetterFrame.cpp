@@ -1717,6 +1717,15 @@ mOverflowAreas
 kid
 )
 ;
+if
+(
+!
+NS_INLINE_IS_BREAK_BEFORE
+(
+aReflowStatus
+)
+)
+{
 /
 /
 Create
@@ -1984,6 +1993,7 @@ continuation
 PR_TRUE
 )
 ;
+}
 }
 }
 FinishAndStoreOverflow
