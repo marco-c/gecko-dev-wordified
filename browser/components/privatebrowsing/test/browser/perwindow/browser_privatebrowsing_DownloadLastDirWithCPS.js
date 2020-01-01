@@ -103,6 +103,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 gTests
 =
 runTest
