@@ -1,3 +1,15 @@
+/
+/
+|
+trace
+-
+test
+|
+TMFLAGS
+:
+full
+fragprofile
+treevis
 function
 testRegExpTest
 (

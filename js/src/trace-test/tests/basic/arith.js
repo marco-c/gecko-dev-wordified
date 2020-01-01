@@ -8,6 +8,8 @@ test
 TMFLAGS
 :
 full
+fragprofile
+treevis
 function
 arith
 (
