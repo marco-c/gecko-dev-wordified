@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsSVGPathElement
-.
-h
-"
-#
-include
-"
 nsSVGString
 .
 h
@@ -172,6 +165,9 @@ mozilla
 namespace
 dom
 {
+class
+SVGPathElement
+;
 class
 SVGMPathElement
 MOZ_FINAL
@@ -385,7 +381,7 @@ this
 returns
 nullptr
 .
-nsSVGPathElement
+SVGPathElement
 *
 GetReferencedPath
 (
