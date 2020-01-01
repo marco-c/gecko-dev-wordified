@@ -4518,7 +4518,7 @@ PR_smprintf_free
 statpath
 )
 ;
-PRTime
+long
 starttime
 =
 0
@@ -4595,7 +4595,7 @@ d
 *
 d
 %
-llu
+lu
 "
 &
 starttime
@@ -4617,7 +4617,6 @@ tickspersecond
 *
 PR_USEC_PER_SEC
 )
-;
 ;
 return
 NS_OK
