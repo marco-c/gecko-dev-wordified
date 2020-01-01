@@ -17298,8 +17298,6 @@ aContentWindow
 top
 .
 document
-.
-wrappedJSObject
 )
 ;
 let
