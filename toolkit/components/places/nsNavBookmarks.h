@@ -1747,11 +1747,6 @@ kGetChildrenIndex_PlaceID
 static
 const
 int32_t
-kGetChildrenIndex_FolderTitle
-;
-static
-const
-int32_t
 kGetChildrenIndex_Guid
 ;
 class
