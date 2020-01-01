@@ -507,7 +507,7 @@ following
 signature
 :
 *
-void
+JSBool
 blah
 (
 void
@@ -1683,6 +1683,17 @@ masm
 pop
 (
 ebp
+)
+;
+masm
+.
+movl
+(
+Imm32
+(
+1
+)
+eax
 )
 ;
 masm

@@ -509,7 +509,7 @@ following
 signature
 :
 *
-void
+JSBool
 blah
 (
 void
@@ -1497,6 +1497,17 @@ masm
 pop
 (
 rbp
+)
+;
+masm
+.
+movq
+(
+ImmWord
+(
+1
+)
+rax
 )
 ;
 masm
