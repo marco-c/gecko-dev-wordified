@@ -1677,7 +1677,7 @@ where
 ws
 run
 ends
-PRInt16
+PRInt32
 mStartOffset
 ;
 /
@@ -1687,7 +1687,7 @@ where
 ws
 run
 starts
-PRInt16
+PRInt32
 mEndOffset
 ;
 /
@@ -2217,7 +2217,7 @@ GetPreviousWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt16
+PRInt32
 aOffset
 nsIDOMNode
 *
@@ -2269,7 +2269,7 @@ GetNextWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt16
+PRInt32
 aOffset
 nsIDOMNode
 *

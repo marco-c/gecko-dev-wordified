@@ -7404,7 +7404,7 @@ GetPreviousWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt16
+PRInt32
 aOffset
 nsIDOMNode
 *
@@ -8055,7 +8055,7 @@ GetNextWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt16
+PRInt32
 aOffset
 nsIDOMNode
 *
