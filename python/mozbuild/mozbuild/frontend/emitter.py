@@ -71,6 +71,8 @@ DirectoryTraversal
     
 VariablePassthru
     
+Exports
+    
 ReaderSummary
 )
 from
@@ -607,6 +609,28 @@ variables
             
 yield
 passthru
+        
+exports
+=
+sandbox
+.
+get
+(
+'
+EXPORTS
+'
+)
+        
+if
+exports
+:
+            
+yield
+Exports
+(
+sandbox
+exports
+)
     
 def
 _emit_directory_traversal_from_sandbox
