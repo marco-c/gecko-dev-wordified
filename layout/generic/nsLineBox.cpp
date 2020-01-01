@@ -1937,6 +1937,7 @@ nsLineBox
 CachedIsEmpty
 (
 )
+const
 {
 if
 (
