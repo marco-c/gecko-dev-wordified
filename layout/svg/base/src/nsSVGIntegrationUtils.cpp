@@ -3605,6 +3605,11 @@ server
 GetPaintServerPattern
 (
 aTarget
+&
+nsStyleSVG
+:
+:
+mFill
 1
 .
 0

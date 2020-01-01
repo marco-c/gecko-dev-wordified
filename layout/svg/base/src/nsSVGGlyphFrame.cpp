@@ -6199,6 +6199,11 @@ ps
 GetPaintServerPattern
 (
 this
+&
+nsStyleSVG
+:
+:
+mStroke
 opacity
 )
 ;

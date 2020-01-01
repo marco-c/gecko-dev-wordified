@@ -10221,6 +10221,15 @@ zoomAndPan
 )
 GK_ATOM
 (
+vector_effect
+"
+vector
+-
+effect
+"
+)
+GK_ATOM
+(
 accumulate
 "
 accumulate

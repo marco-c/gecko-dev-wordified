@@ -4181,6 +4181,16 @@ values
 /
 /
 values
+&
+nsGkAtoms
+:
+:
+vector_effect
+/
+/
+vector
+-
+effect
 /
 /
 vert

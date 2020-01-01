@@ -447,6 +447,13 @@ order
 #
 include
 "
+nsSVGElement
+.
+h
+"
+#
+include
+"
 nsSVGGeometryFrame
 .
 h
@@ -467,6 +474,12 @@ aContext
 nsSVGGeometryFrame
 *
 aSource
+nsStyleSVGPaint
+nsStyleSVG
+:
+:
+*
+aFillOrStroke
 float
 aOpacity
 )
@@ -480,6 +493,7 @@ pattern
 GetPaintServerPattern
 (
 aSource
+aFillOrStroke
 aOpacity
 )
 ;
