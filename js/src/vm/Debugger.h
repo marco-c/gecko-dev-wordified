@@ -543,9 +543,6 @@ Debugger
 {
 friend
 class
-js
-:
-:
 Breakpoint
 ;
 friend
@@ -1736,9 +1733,6 @@ dispatchHook
 JSContext
 *
 cx
-js
-:
-:
 Value
 *
 vp
@@ -2191,9 +2185,6 @@ onDebuggerStatement
 JSContext
 *
 cx
-js
-:
-:
 Value
 *
 vp
@@ -2207,9 +2198,6 @@ onExceptionUnwind
 JSContext
 *
 cx
-js
-:
-:
 Value
 *
 vp
@@ -2935,9 +2923,6 @@ BreakpointSite
 {
 friend
 class
-js
-:
-:
 Breakpoint
 ;
 friend
@@ -2948,9 +2933,6 @@ JSCompartment
 ;
 friend
 class
-js
-:
-:
 Debugger
 ;
 public
@@ -3357,9 +3339,6 @@ JSCompartment
 ;
 friend
 class
-js
-:
-:
 Debugger
 ;
 public
@@ -3785,9 +3764,6 @@ onDebuggerStatement
 JSContext
 *
 cx
-js
-:
-:
 Value
 *
 vp
@@ -3827,9 +3803,6 @@ onExceptionUnwind
 JSContext
 *
 cx
-js
-:
-:
 Value
 *
 vp
