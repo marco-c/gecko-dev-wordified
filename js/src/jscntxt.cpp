@@ -7930,6 +7930,8 @@ options
 )
 .
 version
+(
+)
 !
 =
 JSVERSION_UNKNOWN
@@ -7945,6 +7947,8 @@ options
 )
 .
 version
+(
+)
 ;
 return
 runtime
