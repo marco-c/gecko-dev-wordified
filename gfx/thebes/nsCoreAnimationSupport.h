@@ -522,6 +522,13 @@ _CGLContextObject
 class
 nsIOSurface
 ;
+enum
+AllowOfflineRendererEnum
+{
+ALLOW_OFFLINE_RENDERER
+DISALLOW_OFFLINE_RENDERER
+}
+;
 typedef
 uint32_t
 IOSurfaceID
@@ -580,6 +587,10 @@ mUnsupportedHeight
 (
 UINT32_MAX
 )
+mAllowOfflineRenderer
+(
+DISALLOW_OFFLINE_RENDERER
+)
 {
 }
 ~
@@ -597,6 +608,8 @@ int
 aWidth
 int
 aHeight
+AllowOfflineRendererEnum
+aAllowOfflineRenderer
 )
 ;
 nsresult
@@ -775,6 +788,9 @@ mUnsupportedWidth
 ;
 uint32_t
 mUnsupportedHeight
+;
+AllowOfflineRendererEnum
+mAllowOfflineRenderer
 ;
 }
 ;
