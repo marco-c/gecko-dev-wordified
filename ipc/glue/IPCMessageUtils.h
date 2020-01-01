@@ -2170,7 +2170,7 @@ paramType
 aResult
 )
 {
-nsTArray
+FallibleTArray
 <
 E
 >
