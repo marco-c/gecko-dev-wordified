@@ -12092,11 +12092,11 @@ aStream
 PRUint32
 aLineNumber
 const
-nsSubstring
+nsAString
 &
 aTitle
 const
-nsSubstring
+nsAString
 &
 aMedia
 nsICSSLoaderObserver
@@ -12492,11 +12492,11 @@ nsIURI
 *
 aURL
 const
-nsSubstring
+nsAString
 &
 aTitle
 const
-nsSubstring
+nsAString
 &
 aMedia
 PRBool
