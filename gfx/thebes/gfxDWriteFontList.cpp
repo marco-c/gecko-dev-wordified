@@ -1796,11 +1796,6 @@ isSymbol
 )
 ;
 }
-if
-(
-tableContext
-)
-{
 fontFace
 -
 >
@@ -1809,7 +1804,6 @@ ReleaseFontTable
 tableContext
 )
 ;
-}
 mCmapInitialized
 =
 PR_TRUE
