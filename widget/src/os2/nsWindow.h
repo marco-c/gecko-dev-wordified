@@ -2369,6 +2369,13 @@ PRUint32
 aHeight
 )
 ;
+BOOL
+NotifyForeignChildWindows
+(
+HWND
+aWnd
+)
+;
 /
 /
 Enumeration
