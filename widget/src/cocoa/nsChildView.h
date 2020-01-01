@@ -582,6 +582,9 @@ nsCocoaWindow
 union
 nsPluginPort
 ;
+#
+ifndef
+NP_NO_CARBON
 enum
 {
 /
@@ -813,6 +816,11 @@ EventRef
 carbonEvent
 )
 ;
+#
+endif
+/
+/
+NP_NO_CARBON
 interface
 NSEvent
 (
@@ -1237,6 +1245,9 @@ nsIDragService
 *
 mDragService
 ;
+#
+ifndef
+NP_NO_CARBON
 /
 /
 For
@@ -1292,6 +1303,8 @@ them
 TSMDocumentID
 mPluginTSMDoc
 ;
+#
+endif
 /
 /
 Simple
