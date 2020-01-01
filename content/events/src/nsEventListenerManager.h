@@ -780,6 +780,16 @@ MutationListenerBits
 (
 )
 ;
+virtual
+PRBool
+HasListenersFor
+(
+const
+nsAString
+&
+aEventName
+)
+;
 static
 PRUint32
 GetIdentifierForEvent
