@@ -26822,7 +26822,7 @@ lcName
 ;
 for
 (
-int32_t
+uint32_t
 i
 =
 0
