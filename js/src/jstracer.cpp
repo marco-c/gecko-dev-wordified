@@ -16300,10 +16300,7 @@ void
 *
 )
 &
-JS_THREAD_DATA
-(
-cx
-)
+traceMonitor
 -
 >
 iterationCounter
@@ -46036,10 +46033,7 @@ trace
 .
 *
 /
-JS_THREAD_DATA
-(
-cx
-)
+tm
 -
 >
 iterationCounter
@@ -46190,10 +46184,7 @@ ok
 size_t
 iters
 =
-JS_THREAD_DATA
-(
-cx
-)
+tm
 -
 >
 iterationCounter
