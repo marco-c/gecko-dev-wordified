@@ -4331,6 +4331,9 @@ aLength
 PRPackedBool
 *
 aBreakBefore
+gfxContext
+*
+aRefContext
 )
 {
 NS_ASSERTION
@@ -8888,6 +8891,9 @@ aLineBreakAfter
 gfxFloat
 *
 aAdvanceWidthDelta
+gfxContext
+*
+aRefContext
 )
 {
 /
