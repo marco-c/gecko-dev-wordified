@@ -786,6 +786,10 @@ Buffer
 struct
 NPRemoteWindow
 {
+NPRemoteWindow
+(
+)
+;
 uint64_t
 window
 ;
