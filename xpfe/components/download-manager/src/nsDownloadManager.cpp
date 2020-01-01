@@ -650,17 +650,12 @@ nsInt64
 h
 "
 #
-ifdef
-MOZ_XUL_APP
-#
 include
 "
 nsToolkitCompsCID
 .
 h
 "
-#
-endif
 /
 *
 Outstanding

@@ -6617,12 +6617,6 @@ defined
 (
 XP_MACOSX
 )
-&
-&
-defined
-(
-MOZ_XUL_APP
-)
 /
 /
 On
