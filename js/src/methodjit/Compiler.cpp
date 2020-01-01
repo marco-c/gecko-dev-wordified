@@ -1684,7 +1684,7 @@ analysis
 i
 ]
 .
-safePoint
+visited
 )
 {
 JS_ASSERT
@@ -1961,6 +1961,7 @@ opinfo
 stackDepth
 )
 ;
+}
 jumpMap
 [
 uint32
@@ -1980,7 +1981,6 @@ label
 (
 )
 ;
-}
 if
 (
 !
