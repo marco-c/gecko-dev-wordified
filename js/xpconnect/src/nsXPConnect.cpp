@@ -637,10 +637,6 @@ context
 -
 >
 stackLimit
-cx
--
->
-outstandingRequests
 /
 /
 cx
@@ -6433,10 +6429,13 @@ cx
 unsigned
 n
 =
+js
+:
+:
+GetContextOutstandingRequests
+(
 cx
--
->
-outstandingRequests
+)
 ;
 XPCCallContext
 *
