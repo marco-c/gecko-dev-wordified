@@ -836,11 +836,8 @@ AvmCore
 *
 _core
 ;
-DWB
-(
 CodeAlloc
 *
-)
 _codeAlloc
 ;
 FragmentMap

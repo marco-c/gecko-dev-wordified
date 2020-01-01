@@ -933,9 +933,6 @@ code
 /
 class
 CodeAlloc
-:
-public
-GCFinalizedObject
 {
 static
 const

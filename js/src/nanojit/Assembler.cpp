@@ -1190,7 +1190,7 @@ Assembler
 Assembler
 (
 CodeAlloc
-*
+&
 codeAlloc
 AvmCore
 *
@@ -1746,8 +1746,7 @@ allocations
 never
 fail
 _codeAlloc
--
->
+.
 alloc
 (
 start
@@ -5270,16 +5269,14 @@ allocated
 code
 memory
 _codeAlloc
--
->
+.
 freeAll
 (
 codeList
 )
 ;
 _codeAlloc
--
->
+.
 free
 (
 exitStart
@@ -5287,8 +5284,7 @@ exitEnd
 )
 ;
 _codeAlloc
--
->
+.
 free
 (
 codeStart
@@ -5516,8 +5512,7 @@ rest
 ifdef
 NANOJIT_ARM
 _codeAlloc
--
->
+.
 addRemainder
 (
 codeList
@@ -5528,8 +5523,7 @@ _nExitIns
 )
 ;
 _codeAlloc
--
->
+.
 addRemainder
 (
 codeList
@@ -5542,8 +5536,7 @@ _nIns
 #
 else
 _codeAlloc
--
->
+.
 addRemainder
 (
 codeList
@@ -5554,8 +5547,7 @@ _nExitIns
 )
 ;
 _codeAlloc
--
->
+.
 addRemainder
 (
 codeList
@@ -5605,8 +5597,7 @@ need
 it
 .
 _codeAlloc
--
->
+.
 flushICache
 (
 codeList
