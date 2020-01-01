@@ -1116,7 +1116,7 @@ org
 /
 update
 /
-2
+3
 /
 %
 PRODUCT
@@ -1144,6 +1144,14 @@ CHANNEL
 /
 %
 OS_VERSION
+%
+/
+%
+DISTRIBUTION
+%
+/
+%
+DISTRIBUTION_VERSION
 %
 /
 update
