@@ -6215,7 +6215,7 @@ stopPropagation
 *
 *
 Handles
-dragleave
+dragexit
 on
 the
 <
@@ -6246,10 +6246,10 @@ otherwise
 .
 *
 /
-onDragLeave
+onDragExit
 :
 function
-PMDH_onDragLeave
+PMDH_onDragExit
 (
 event
 )

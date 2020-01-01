@@ -633,9 +633,9 @@ i
 addEventListener
 (
 "
-dragleave
+dragexit
 "
-onToolbarDragLeave
+onToolbarDragExit
 true
 )
 ;
@@ -1054,9 +1054,9 @@ i
 removeEventListener
 (
 "
-dragleave
+dragexit
 "
-onToolbarDragLeave
+onToolbarDragExit
 true
 )
 ;
@@ -4788,7 +4788,7 @@ and
 Drop
 observers
 function
-onToolbarDragLeave
+onToolbarDragExit
 (
 aEvent
 )

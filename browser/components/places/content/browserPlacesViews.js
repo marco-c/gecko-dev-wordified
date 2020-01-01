@@ -5489,7 +5489,7 @@ dragstart
 dragover
 "
 "
-dragleave
+dragexit
 "
 "
 dragend
@@ -6581,12 +6581,12 @@ break
 ;
 case
 "
-dragleave
+dragexit
 "
 :
 this
 .
-_onDragLeave
+_onDragExit
 (
 aEvent
 )
@@ -10084,10 +10084,10 @@ stopPropagation
 )
 ;
 }
-_onDragLeave
+_onDragExit
 :
 function
-PT__onDragLeave
+PT__onDragExit
 (
 aEvent
 )
