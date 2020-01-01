@@ -9233,7 +9233,7 @@ gfxFont
 GLYPH_FILL
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 GlyphBuffer

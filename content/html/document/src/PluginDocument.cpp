@@ -404,7 +404,7 @@ nsISupports
 ctxt
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 PluginStreamListener

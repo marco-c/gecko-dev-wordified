@@ -23937,7 +23937,7 @@ content
 )
 ;
 }
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 Input

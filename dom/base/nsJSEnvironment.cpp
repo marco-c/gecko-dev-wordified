@@ -7345,7 +7345,7 @@ Value
 aRetValue
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 JS
@@ -7872,7 +7872,7 @@ false
 /
 )
 {
-SAMPLE_LABEL_PRINTF
+PROFILER_LABEL_PRINTF
 (
 "
 JS
@@ -8732,7 +8732,7 @@ return
 NS_OK
 ;
 }
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 JS
@@ -13993,7 +13993,7 @@ int64_t
 aSliceMillis
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 GC
@@ -14467,7 +14467,7 @@ ShrinkGCBuffersNow
 (
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 GC
@@ -15022,7 +15022,7 @@ NS_IsMainThread
 return
 ;
 }
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 CC

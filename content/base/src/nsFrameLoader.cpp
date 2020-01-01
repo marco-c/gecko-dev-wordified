@@ -2194,7 +2194,7 @@ IsInDoc
 )
 )
 ;
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsFrameLoader
@@ -11646,7 +11646,7 @@ return
 false
 ;
 }
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsFrameLoader

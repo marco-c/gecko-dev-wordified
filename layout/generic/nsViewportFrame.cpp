@@ -355,7 +355,7 @@ nsDisplayListSet
 aLists
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 ViewportFrame

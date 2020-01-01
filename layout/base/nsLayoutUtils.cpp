@@ -10256,7 +10256,7 @@ bool
 aIgnoreRootScrollFrame
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsLayoutUtils
@@ -10345,7 +10345,7 @@ bool
 aIgnoreRootScrollFrame
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsLayoutUtils
@@ -10554,7 +10554,7 @@ uint32_t
 aFlags
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsLayoutUtils
@@ -11317,7 +11317,7 @@ dirtyRect
 )
 ;
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsLayoutUtils
@@ -11420,7 +11420,7 @@ GetNextContinuation
 nullptr
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsLayoutUtils
@@ -26081,7 +26081,7 @@ uint32_t
 aImageFlags
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 layout

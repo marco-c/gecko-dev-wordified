@@ -2506,7 +2506,7 @@ RunFlushLoop
 (
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 html5
