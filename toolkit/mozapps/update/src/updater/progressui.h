@@ -460,7 +460,8 @@ defined
 XP_WIN
 )
 typedef
-WCHAR
+unsigned
+short
 NS_tchar
 ;
 #
