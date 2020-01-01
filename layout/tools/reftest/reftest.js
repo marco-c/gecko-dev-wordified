@@ -2256,7 +2256,7 @@ gURLs
 .
 length
 ;
-window
+document
 .
 title
 =
