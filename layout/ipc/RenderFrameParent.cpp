@@ -4580,6 +4580,7 @@ new
 ShadowLayersParent
 (
 slm
+this
 )
 ;
 }
