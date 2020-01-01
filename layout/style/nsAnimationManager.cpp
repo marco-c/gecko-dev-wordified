@@ -138,6 +138,13 @@ h
 "
 #
 include
+"
+nsLayoutUtils
+.
+h
+"
+#
+include
 <
 math
 .
