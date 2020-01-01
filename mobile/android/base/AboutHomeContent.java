@@ -895,14 +895,11 @@ AboutHomeContent
 (
 Context
 context
-AttributeSet
-attrs
 )
 {
 super
 (
 context
-attrs
 )
 ;
 setScrollContainer
