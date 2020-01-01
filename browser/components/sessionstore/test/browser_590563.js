@@ -98,12 +98,15 @@ sessionrestore
 formdata
 :
 {
+id
+:
+{
 "
-#
 sessionData
 "
 :
 oldState
+}
 }
 }
 ;
