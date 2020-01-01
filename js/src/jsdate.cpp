@@ -10561,6 +10561,7 @@ SetDateToNaN
 (
 cx
 obj
+vp
 )
 ;
 return
