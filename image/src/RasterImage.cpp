@@ -2309,7 +2309,7 @@ mLoopCount
 {
 mAnimationFinished
 =
-PR_TRUE
+true
 ;
 EvaluateAnimation
 (
@@ -2503,7 +2503,7 @@ timeout
 {
 mAnimationFinished
 =
-PR_TRUE
+true
 ;
 EvaluateAnimation
 (
@@ -2607,7 +2607,7 @@ nextFrame
 >
 SetCompositingFailed
 (
-PR_TRUE
+true
 )
 ;
 mAnim
@@ -2633,7 +2633,7 @@ nextFrame
 >
 SetCompositingFailed
 (
-PR_FALSE
+false
 )
 ;
 }
