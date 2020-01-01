@@ -1622,17 +1622,6 @@ nsRegion
 *
 mDirtyRegion
 ;
-private
-:
-void
-InitializeWindow
-(
-bool
-aEnableDragDrop
-bool
-aResetVisibility
-)
-;
 }
 ;
 #
