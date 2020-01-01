@@ -495,6 +495,14 @@ nsIIDBOpenDBRequest
 ;
 exports
 .
+IDBVersionChangeEvent
+=
+Ci
+.
+nsIIDBVersionChangeEvent
+;
+exports
+.
 IDBDatabase
 =
 Ci
