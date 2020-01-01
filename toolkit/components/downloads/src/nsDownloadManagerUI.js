@@ -1061,7 +1061,7 @@ this
 .
 recentWindow
 .
-QueryInteface
+QueryInterface
 (
 Ci
 .
