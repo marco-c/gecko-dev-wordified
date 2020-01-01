@@ -1054,7 +1054,7 @@ do
 any
 buffering
 of
-ouput
+output
 a
 function
 prototype

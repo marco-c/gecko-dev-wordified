@@ -23,10 +23,10 @@ libpng
 .
 4
 .
-1
+2
 [
-February
-25
+May
+6
 2010
 ]
 *
@@ -765,10 +765,10 @@ PNG_FLAG_STRIP_ALPHA
 endif
 #
 ifdef
-PNG_READ_DITHER_SUPPORTED
+PNG_READ_QUANTIZE_SUPPORTED
 /
 *
-Dither
+Quantize
 file
 to
 8
@@ -826,7 +826,7 @@ maximum
 number
 .
 "
-full_dither
+full_quantize
 "
 indicates
 *
@@ -834,7 +834,7 @@ whether
 we
 need
 a
-dithering
+quantizeing
 cube
 set
 up
@@ -894,7 +894,7 @@ png_dsortpp
 ;
 void
 PNGAPI
-png_set_dither
+png_set_quantize
 (
 png_structp
 png_ptr
@@ -907,7 +907,7 @@ maximum_colors
 png_uint_16p
 histogram
 int
-full_dither
+full_quantize
 )
 {
 png_debug
@@ -915,7 +915,7 @@ png_debug
 1
 "
 in
-png_set_dither
+png_set_quantize
 "
 )
 ;
@@ -934,12 +934,12 @@ png_ptr
 transformations
 |
 =
-PNG_DITHER
+PNG_QUANTIZE
 ;
 if
 (
 !
-full_dither
+full_quantize
 )
 {
 int
@@ -948,7 +948,7 @@ i
 png_ptr
 -
 >
-dither_index
+quantize_index
 =
 (
 png_bytep
@@ -986,7 +986,7 @@ i
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 i
 ]
@@ -1054,7 +1054,7 @@ colors
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 =
 (
 png_bytep
@@ -1079,7 +1079,7 @@ png_byte
 *
 Initialize
 the
-dither_sort
+quantize_sort
 array
 *
 /
@@ -1100,7 +1100,7 @@ i
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 i
 ]
@@ -1223,7 +1223,7 @@ histogram
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 j
 ]
@@ -1234,7 +1234,7 @@ histogram
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 j
 +
@@ -1251,7 +1251,7 @@ t
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 j
 ]
@@ -1259,7 +1259,7 @@ j
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 j
 ]
@@ -1267,7 +1267,7 @@ j
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 j
 +
@@ -1277,7 +1277,7 @@ j
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 j
 +
@@ -1316,7 +1316,7 @@ necessary
 /
 if
 (
-full_dither
+full_quantize
 )
 {
 int
@@ -1368,7 +1368,7 @@ int
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 i
 ]
@@ -1390,7 +1390,7 @@ int
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 j
 ]
@@ -1473,7 +1473,7 @@ int
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 i
 ]
@@ -1498,7 +1498,7 @@ int
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 [
 j
 ]
@@ -1543,7 +1543,7 @@ went
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 j
 ]
@@ -1556,7 +1556,7 @@ i
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 i
 ]
@@ -1605,7 +1605,7 @@ int
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 i
 ]
@@ -1638,7 +1638,7 @@ d_index
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 i
 ]
@@ -1720,7 +1720,7 @@ color
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 i
 ]
@@ -1739,13 +1739,13 @@ png_ptr
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 )
 ;
 png_ptr
 -
 >
-dither_sort
+quantize_sort
 =
 NULL
 ;
@@ -2369,7 +2369,7 @@ num_new_palette
 if
 (
 !
-full_dither
+full_quantize
 )
 {
 int
@@ -2395,7 +2395,7 @@ if
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 k
 ]
@@ -2412,7 +2412,7 @@ j
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 k
 ]
@@ -2433,7 +2433,7 @@ int
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 k
 ]
@@ -2444,7 +2444,7 @@ num_new_palette
 png_ptr
 -
 >
-dither_index
+quantize_index
 [
 k
 ]
@@ -2698,7 +2698,7 @@ num_palette
 ;
 if
 (
-full_dither
+full_quantize
 )
 {
 int
@@ -2710,11 +2710,11 @@ distance
 int
 total_bits
 =
-PNG_DITHER_RED_BITS
+PNG_QUANTIZE_RED_BITS
 +
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 +
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 ;
 int
 num_red
@@ -2723,7 +2723,7 @@ num_red
 1
 <
 <
-PNG_DITHER_RED_BITS
+PNG_QUANTIZE_RED_BITS
 )
 ;
 int
@@ -2733,7 +2733,7 @@ num_green
 1
 <
 <
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 )
 ;
 int
@@ -2743,7 +2743,7 @@ num_blue
 1
 <
 <
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 ;
 png_size_t
@@ -2851,7 +2851,7 @@ red
 (
 8
 -
-PNG_DITHER_RED_BITS
+PNG_QUANTIZE_RED_BITS
 )
 )
 ;
@@ -2870,7 +2870,7 @@ green
 (
 8
 -
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 )
 )
 ;
@@ -2889,7 +2889,7 @@ blue
 (
 8
 -
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 )
 ;
@@ -2949,9 +2949,9 @@ ir
 <
 <
 (
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 +
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 )
 )
 ;
@@ -3034,7 +3034,7 @@ index_r
 ig
 <
 <
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 ;
 for
@@ -3167,6 +3167,11 @@ distance
 }
 #
 endif
+/
+*
+PNG_READ_QUANTIZE_SUPPORTED
+*
+/
 #
 if
 defined
@@ -7902,7 +7907,7 @@ PNG_COLOR_MASK_COLOR
 endif
 #
 ifdef
-PNG_READ_DITHER_SUPPORTED
+PNG_READ_QUANTIZE_SUPPORTED
 if
 (
 png_ptr
@@ -7910,7 +7915,7 @@ png_ptr
 >
 transformations
 &
-PNG_DITHER
+PNG_QUANTIZE
 )
 {
 if
@@ -9376,7 +9381,7 @@ row_buf
 endif
 #
 ifdef
-PNG_READ_DITHER_SUPPORTED
+PNG_READ_QUANTIZE_SUPPORTED
 if
 (
 png_ptr
@@ -9384,10 +9389,10 @@ png_ptr
 >
 transformations
 &
-PNG_DITHER
+PNG_QUANTIZE
 )
 {
-png_do_dither
+png_do_quantize
 (
 (
 png_row_infop
@@ -9412,7 +9417,7 @@ palette_lookup
 png_ptr
 -
 >
-dither_index
+quantize_index
 )
 ;
 if
@@ -9434,7 +9439,7 @@ png_error
 (
 png_ptr
 "
-png_do_dither
+png_do_quantize
 returned
 rowbytes
 =
@@ -25731,14 +25736,14 @@ row_width
 endif
 #
 ifdef
-PNG_READ_DITHER_SUPPORTED
+PNG_READ_QUANTIZE_SUPPORTED
 void
 /
 *
 PRIVATE
 *
 /
-png_do_dither
+png_do_quantize
 (
 png_row_infop
 row_info
@@ -25747,7 +25752,7 @@ row
 png_bytep
 palette_lookup
 png_bytep
-dither_lookup
+quantize_lookup
 )
 {
 png_bytep
@@ -25770,7 +25775,7 @@ png_debug
 1
 "
 in
-png_do_dither
+png_do_quantize
 "
 )
 ;
@@ -25939,7 +25944,7 @@ r
 (
 8
 -
-PNG_DITHER_RED_BITS
+PNG_QUANTIZE_RED_BITS
 )
 )
 &
@@ -25948,7 +25953,7 @@ PNG_DITHER_RED_BITS
 1
 <
 <
-PNG_DITHER_RED_BITS
+PNG_QUANTIZE_RED_BITS
 )
 -
 1
@@ -25957,9 +25962,9 @@ PNG_DITHER_RED_BITS
 <
 <
 (
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 +
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 )
 |
@@ -25972,7 +25977,7 @@ g
 (
 8
 -
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 )
 )
 &
@@ -25981,7 +25986,7 @@ PNG_DITHER_GREEN_BITS
 1
 <
 <
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 )
 -
 1
@@ -25990,7 +25995,7 @@ PNG_DITHER_GREEN_BITS
 <
 <
 (
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 )
 |
@@ -26002,7 +26007,7 @@ b
 (
 8
 -
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 )
 &
@@ -26011,7 +26016,7 @@ PNG_DITHER_BLUE_BITS
 1
 <
 <
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 -
 1
@@ -26160,7 +26165,7 @@ r
 (
 8
 -
-PNG_DITHER_RED_BITS
+PNG_QUANTIZE_RED_BITS
 )
 )
 &
@@ -26169,7 +26174,7 @@ PNG_DITHER_RED_BITS
 1
 <
 <
-PNG_DITHER_RED_BITS
+PNG_QUANTIZE_RED_BITS
 )
 -
 1
@@ -26178,9 +26183,9 @@ PNG_DITHER_RED_BITS
 <
 <
 (
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 +
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 )
 |
@@ -26193,7 +26198,7 @@ g
 (
 8
 -
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 )
 )
 &
@@ -26202,7 +26207,7 @@ PNG_DITHER_GREEN_BITS
 1
 <
 <
-PNG_DITHER_GREEN_BITS
+PNG_QUANTIZE_GREEN_BITS
 )
 -
 1
@@ -26211,7 +26216,7 @@ PNG_DITHER_GREEN_BITS
 <
 <
 (
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 )
 |
@@ -26223,7 +26228,7 @@ b
 (
 8
 -
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 )
 &
@@ -26232,7 +26237,7 @@ PNG_DITHER_BLUE_BITS
 1
 <
 <
-PNG_DITHER_BLUE_BITS
+PNG_QUANTIZE_BLUE_BITS
 )
 -
 1
@@ -26301,7 +26306,7 @@ color_type
 PNG_COLOR_TYPE_PALETTE
 &
 &
-dither_lookup
+quantize_lookup
 &
 &
 row_info
@@ -26338,7 +26343,7 @@ sp
 *
 sp
 =
-dither_lookup
+quantize_lookup
 [
 *
 sp

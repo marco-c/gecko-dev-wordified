@@ -6618,7 +6618,7 @@ chunkdata
 ;
 #
 ifdef
-PNG_READ_DITHER_SUPPORTED
+PNG_READ_QUANTIZE_SUPPORTED
 png_free
 (
 png_ptr
@@ -6634,7 +6634,7 @@ png_ptr
 png_ptr
 -
 >
-dither_index
+quantize_index
 )
 ;
 #
@@ -7650,7 +7650,7 @@ or
 gamma
 transformation
 or
-dithering
+quantizing
 .
 *
 /

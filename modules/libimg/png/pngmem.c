@@ -19,10 +19,10 @@ libpng
 .
 4
 .
-0
+2
 [
-February
-25
+May
+6
 2010
 ]
 *
