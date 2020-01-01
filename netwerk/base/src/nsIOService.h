@@ -807,7 +807,6 @@ nsIContentSniffer
 GetContentSniffers
 (
 )
-const
 {
 return
 mContentSniffers
