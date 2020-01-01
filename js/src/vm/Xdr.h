@@ -1857,15 +1857,6 @@ nchars
 )
 ;
 bool
-codeString
-(
-JSString
-*
-*
-strp
-)
-;
-bool
 codeFunction
 (
 JSObject
