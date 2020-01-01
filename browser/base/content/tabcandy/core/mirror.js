@@ -214,6 +214,8 @@ mirror
 chrome
 tabs
 .
+/
+/
 if
 (
 window
@@ -441,6 +443,8 @@ scaler
 scaler
 )
 ;
+try
+{
 ctx
 .
 drawWindow
@@ -464,6 +468,13 @@ fff
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 ctx
 .
 restore
@@ -482,6 +493,8 @@ Date
 -
 startTime
 ;
+/
+/
 Utils
 .
 logger
