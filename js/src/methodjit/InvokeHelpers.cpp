@@ -1903,7 +1903,7 @@ newscript
 >
 code
 construct
-CompileRequest_Interpreter
+CompileRequest_JIT
 )
 ;
 if
