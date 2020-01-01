@@ -1697,14 +1697,14 @@ NumSavedRegs
 +
 i
 )
-savedParams
+savedRegs
 [
 i
 ]
 =
 NULL
 ;
-explicitSavedParams
+explicitSavedRegs
 =
 false
 ;
@@ -3319,7 +3319,7 @@ NumSavedRegs
 b
 -
 >
-savedParams
+savedRegs
 [
 arg
 ]
@@ -3329,7 +3329,7 @@ l
 b
 -
 >
-explicitSavedParams
+explicitSavedRegs
 =
 true
 ;
