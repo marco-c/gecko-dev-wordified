@@ -658,6 +658,10 @@ GeckoChildProcessHost
 (
 )
 {
+AssertIOThread
+(
+)
+;
 MOZ_COUNT_DTOR
 (
 GeckoChildProcessHost
