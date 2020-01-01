@@ -3904,7 +3904,9 @@ env
 StackFrame
 *
 fp
-StableCharPtr
+const
+jschar
+*
 chars
 unsigned
 length

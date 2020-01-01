@@ -20133,7 +20133,8 @@ return
 JS_FALSE
 ;
 const
-StableCharPtr
+jschar
+*
 chars
 =
 stable

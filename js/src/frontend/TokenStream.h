@@ -3054,7 +3054,9 @@ const
 CompileOptions
 &
 options
-StableCharPtr
+const
+jschar
+*
 base
 size_t
 length
@@ -5451,6 +5453,12 @@ input
 buffer
 *
 /
+js
+:
+:
+SkipRoot
+userbufRoot
+;
 const
 char
 *

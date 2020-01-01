@@ -976,10 +976,6 @@ str
 chars
 (
 )
-.
-get
-(
-)
 str
 -
 >

@@ -7031,10 +7031,6 @@ stable
 chars
 (
 )
-.
-get
-(
-)
 ;
 }
 }

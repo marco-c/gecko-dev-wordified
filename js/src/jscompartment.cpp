@@ -1695,10 +1695,6 @@ str
 chars
 (
 )
-.
-get
-(
-)
 str
 -
 >
