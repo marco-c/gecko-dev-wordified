@@ -110,6 +110,8 @@ const
 void
 *
 buf
+size_t
+length
 )
 {
 const
@@ -249,6 +251,13 @@ lastChunkSize
 lastChunkSize
 >
 chunkSize
+)
+|
+|
+(
+length
+<
+totalSize
 )
 )
 {

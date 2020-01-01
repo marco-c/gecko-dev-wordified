@@ -1002,6 +1002,12 @@ stream
 GetBuffer
 (
 )
+stream
+-
+>
+GetSize
+(
+)
 )
 )
 {
@@ -2668,6 +2674,12 @@ stream
 -
 >
 GetBuffer
+(
+)
+stream
+-
+>
+GetSize
 (
 )
 )

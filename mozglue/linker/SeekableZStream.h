@@ -360,6 +360,8 @@ const
 void
 *
 buf
+size_t
+length
 )
 ;
 /
