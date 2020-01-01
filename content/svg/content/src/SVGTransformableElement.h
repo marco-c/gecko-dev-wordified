@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIDOMSVGTransformable
-.
-h
-"
-#
-include
-"
 gfxMatrix
 .
 h
@@ -165,8 +158,6 @@ SVGTransformableElement
 :
 public
 SVGLocatableElement
-public
-nsIDOMSVGTransformable
 {
 public
 :
@@ -197,7 +188,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 MOZILLA_SVGTRANSFORMABLEELEMENT_IID
 )
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGTRANSFORMABLE
 /
 /
 WebIDL

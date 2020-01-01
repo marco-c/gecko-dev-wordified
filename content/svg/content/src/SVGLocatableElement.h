@@ -107,13 +107,6 @@ nsSVGElement
 h
 "
 #
-include
-"
-nsIDOMSVGLocatable
-.
-h
-"
-#
 define
 MOZILLA_SVGLOCATABLEELEMENT_IID
 \
@@ -133,6 +126,9 @@ MOZILLA_SVGLOCATABLEELEMENT_IID
 0xb3
 }
 }
+class
+nsIDOMSVGRect
+;
 namespace
 mozilla
 {
@@ -147,8 +143,6 @@ SVGLocatableElement
 :
 public
 nsSVGElement
-public
-nsIDOMSVGLocatable
 {
 public
 :
@@ -179,7 +173,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 MOZILLA_SVGLOCATABLEELEMENT_IID
 )
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGLOCATABLE
 /
 /
 WebIDL
@@ -228,7 +221,7 @@ SVGMatrix
 >
 GetTransformToElement
 (
-nsSVGElement
+SVGLocatableElement
 &
 aElement
 ErrorResult
