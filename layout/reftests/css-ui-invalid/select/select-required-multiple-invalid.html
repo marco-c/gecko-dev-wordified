@@ -16,7 +16,6 @@ if
 select
 is
 required
-and
 has
 all
 selected
@@ -25,8 +24,14 @@ value
 set
 to
 the
+empty
 string
-string
+and
+the
+selection
+did
+not
+changed
 :
 -
 moz
@@ -35,6 +40,7 @@ ui
 -
 invalid
 should
+not
 apply
 .
 -
@@ -70,7 +76,7 @@ select
 class
 =
 '
-invalid
+notinvalid
 '
 required
 multiple
