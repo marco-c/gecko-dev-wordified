@@ -587,8 +587,6 @@ CompleteValue
 nsString
 &
 aValue
-PRBool
-selectDifference
 )
 ;
 nsresult
