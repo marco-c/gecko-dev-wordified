@@ -1047,6 +1047,13 @@ any
 )
 GK_ATOM
 (
+mozapp
+"
+mozapp
+"
+)
+GK_ATOM
+(
 applet
 "
 applet
