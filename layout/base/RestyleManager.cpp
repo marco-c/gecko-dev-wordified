@@ -2446,7 +2446,11 @@ size
 cb
 -
 >
-GetSize
+GetContentRectRelativeToSelf
+(
+)
+.
+Size
 (
 )
 ;
