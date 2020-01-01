@@ -446,6 +446,7 @@ nsVoidArray
 h
 "
 class
+NS_COM_GLUE
 nsTObserverArray_base
 {
 public
@@ -1117,6 +1118,7 @@ SafeObserverAt
 PRInt32
 aIndex
 )
+const
 {
 return
 NS_STATIC_CAST
