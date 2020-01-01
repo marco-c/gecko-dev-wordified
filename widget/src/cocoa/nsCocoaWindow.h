@@ -1439,15 +1439,6 @@ nsIntRect
 aRect
 )
 ;
-virtual
-PRBool
-OnPaint
-(
-nsPaintEvent
-&
-event
-)
-;
 void
 ReportSizeEvent
 (

@@ -2998,15 +2998,6 @@ ReportSizeEvent
 (
 )
 ;
-virtual
-PRBool
-OnPaint
-(
-nsPaintEvent
-&
-aEvent
-)
-;
 /
 /
 override
