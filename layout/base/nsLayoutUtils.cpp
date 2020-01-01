@@ -1854,16 +1854,10 @@ more
 ;
 listName
 =
-(
-!
-firstPopup
-|
-|
 firstPopup
 =
 =
 aChildFrame
-)
 ?
 nsGkAtoms
 :
