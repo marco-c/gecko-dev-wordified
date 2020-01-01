@@ -325,7 +325,10 @@ void
 *
 pdata
 =
-malloc
+gralloc
+<
+byte
+>
 (
 length
 )

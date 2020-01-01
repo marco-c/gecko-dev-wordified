@@ -2989,6 +2989,8 @@ slot
 )
 push
 (
+int32
+(
 seg
 .
 glyphAttr
@@ -3000,6 +3002,7 @@ gid
 (
 )
 glyph_attr
+)
 )
 )
 ;
@@ -3223,6 +3226,8 @@ att
 ;
 push
 (
+int32
+(
 seg
 .
 glyphAttr
@@ -3234,6 +3239,7 @@ gid
 (
 )
 glyph_attr
+)
 )
 )
 ;
@@ -3319,6 +3325,8 @@ att
 ;
 push
 (
+int32
+(
 seg
 .
 getGlyphMetric
@@ -3326,6 +3334,7 @@ getGlyphMetric
 slot
 glyph_attr
 attr_level
+)
 )
 )
 ;
@@ -4121,6 +4130,8 @@ slot
 )
 push
 (
+int32
+(
 seg
 .
 glyphAttr
@@ -4132,6 +4143,7 @@ gid
 (
 )
 glyph_attr
+)
 )
 )
 ;
@@ -4214,6 +4226,8 @@ att
 ;
 push
 (
+int32
+(
 seg
 .
 glyphAttr
@@ -4225,6 +4239,7 @@ gid
 (
 )
 glyph_attr
+)
 )
 )
 ;

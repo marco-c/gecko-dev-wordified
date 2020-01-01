@@ -529,6 +529,16 @@ m_aMirror
 ;
 }
 uint8
+aPassBits
+(
+)
+const
+{
+return
+m_aPassBits
+;
+}
+uint8
 substitutionPass
 (
 )
@@ -726,6 +736,7 @@ m_aBreak
 m_aUser
 m_aBidi
 m_aMirror
+m_aPassBits
 m_iMaxComp
 ;
 uint16

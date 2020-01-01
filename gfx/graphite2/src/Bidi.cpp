@@ -341,7 +341,7 @@ right
 weak
 -
 EN
-ES
+EUS
 =
 5
 /
@@ -387,7 +387,7 @@ right
 weak
 -
 AN
-CS
+CUS
 =
 8
 /
