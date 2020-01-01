@@ -42645,6 +42645,12 @@ do_QueryInterface
 plugin_inst
 )
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 if
 (
 plugin_internal

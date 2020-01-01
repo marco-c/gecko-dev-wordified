@@ -9534,6 +9534,12 @@ argc
 return
 NS_ERROR_INVALID_ARG
 ;
+JSAutoRequest
+ar
+(
+ctx
+)
+;
 double
 sx
 sy

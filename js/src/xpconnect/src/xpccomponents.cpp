@@ -16610,6 +16610,12 @@ cx
 return
 NS_OK
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 /
 /
 get

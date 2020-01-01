@@ -7704,6 +7704,12 @@ rv
 rv
 )
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 JSObject
 *
 targetObject
@@ -8360,6 +8366,12 @@ if
 targetObj
 )
 {
+JSAutoRequest
+ar
+(
+mContext
+)
+;
 if
 (
 !
