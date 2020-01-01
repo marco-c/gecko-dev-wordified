@@ -410,7 +410,7 @@ aMimeType
 nsIURI
 *
 aURL
-nsIPluginInstanceOwner
+nsPluginInstanceOwner
 *
 aOwner
 )
@@ -1154,7 +1154,7 @@ aMimeType
 nsIURI
 *
 aURL
-nsIPluginInstanceOwner
+nsPluginInstanceOwner
 *
 aOwner
 )

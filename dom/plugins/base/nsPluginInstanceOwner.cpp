@@ -192,14 +192,6 @@ KeyPress
 }
 ;
 #
-ifdef
-KeyPress
-#
-undef
-KeyPress
-#
-endif
-#
 include
 "
 mozilla
@@ -2045,8 +2037,9 @@ mInstance
 mInstance
 -
 >
-InvalidateOwner
+SetOwner
 (
+nullptr
 )
 ;
 }
@@ -2113,8 +2106,9 @@ call
 mInstance
 -
 >
-InvalidateOwner
+SetOwner
 (
+nullptr
 )
 here
 since
@@ -2148,8 +2142,9 @@ aInstance
 mInstance
 -
 >
-InvalidateOwner
+SetOwner
 (
+nullptr
 )
 ;
 #
@@ -11638,7 +11633,7 @@ nsresult
 nsPluginInstanceOwner
 :
 :
-KeyPress
+ProcessKeyPress
 (
 nsIDOMEvent
 *
@@ -12075,7 +12070,7 @@ nsresult
 nsPluginInstanceOwner
 :
 :
-MouseDown
+ProcessMouseDown
 (
 nsIDOMEvent
 *
@@ -12499,7 +12494,7 @@ mousedown
 )
 {
 return
-MouseDown
+ProcessMouseDown
 (
 aEvent
 )
@@ -12710,7 +12705,7 @@ keypress
 )
 {
 return
-KeyPress
+ProcessKeyPress
 (
 aEvent
 )
