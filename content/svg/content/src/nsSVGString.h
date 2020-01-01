@@ -315,6 +315,17 @@ nsSVGElement
 aSVGElement
 )
 ;
+already_AddRefed
+<
+nsIDOMSVGAnimatedString
+>
+ToDOMAnimatedString
+(
+nsSVGElement
+*
+aSVGElement
+)
+;
 /
 /
 Returns
