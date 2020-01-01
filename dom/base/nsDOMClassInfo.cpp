@@ -6628,7 +6628,7 @@ DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
-WebSocket
+MozWebSocket
 nsEventTargetSH
 EVENTTARGET_SCRIPTABLE_FLAGS
 )
@@ -6841,7 +6841,7 @@ NS_XMLHTTPREQUEST_CONTRACTID
 )
 NS_DEFINE_CONSTRUCTOR_DATA
 (
-WebSocket
+MozWebSocket
 NS_WEBSOCKET_CONTRACTID
 )
 NS_DEFINE_CONSTRUCTOR_DATA
@@ -16685,12 +16685,12 @@ nsIDOMDesktopNotificationCenter
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
-WebSocket
-nsIWebSocket
+MozWebSocket
+nsIMozWebSocket
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIWebSocket
+nsIMozWebSocket
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
@@ -28471,7 +28471,7 @@ name_struct
 mDOMClassInfoID
 =
 =
-eDOMClassInfo_WebSocket_id
+eDOMClassInfo_MozWebSocket_id
 )
 {
 if
