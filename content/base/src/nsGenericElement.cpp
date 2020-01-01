@@ -5660,7 +5660,7 @@ return
 NS_IMPL_CYCLE_COLLECTION_1
 (
 nsNode3Tearoff
-mContent
+mNode
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -5676,7 +5676,7 @@ nsIDOMXPathNSResolver
 )
 NS_INTERFACE_MAP_END_AGGREGATED
 (
-mContent
+mNode
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -5697,7 +5697,7 @@ nsAString
 aURI
 )
 {
-mContent
+mNode
 -
 >
 GetBaseURI
@@ -5787,7 +5787,7 @@ other
 *
 aReturn
 =
-mContent
+mNode
 -
 >
 CompareDocumentPosition
@@ -5827,7 +5827,7 @@ aOther
 *
 aReturn
 =
-mContent
+mNode
 -
 >
 IsSameNode
@@ -6493,7 +6493,7 @@ aReturn
 other
 &
 &
-mContent
+mNode
 -
 >
 IsEqualNode
@@ -6526,7 +6526,7 @@ aReturn
 )
 {
 return
-mContent
+mNode
 -
 >
 GetFeature
@@ -6560,7 +6560,7 @@ aResult
 )
 {
 return
-mContent
+mNode
 -
 >
 SetUserData
@@ -6593,7 +6593,7 @@ NS_IF_ADDREF
 *
 aResult
 =
-mContent
+mNode
 -
 >
 GetUserData
@@ -6821,14 +6821,7 @@ nsAString
 aPrefix
 )
 {
-static_cast
-<
-nsINode
-*
->
-(
-mContent
-)
+mNode
 -
 >
 LookupPrefix
@@ -6856,7 +6849,7 @@ nsAString
 aNamespaceURI
 )
 {
-mContent
+mNode
 -
 >
 LookupNamespaceURI
@@ -6887,7 +6880,7 @@ aReturn
 *
 aReturn
 =
-mContent
+mNode
 -
 >
 IsDefaultNamespace

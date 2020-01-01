@@ -2875,8 +2875,6 @@ nsIDOMNodeSelector
 public
 nsIApplicationCacheContainer
 public
-nsIDOMXPathNSResolver
-public
 nsStubMutationObserver
 {
 public
@@ -4398,10 +4396,6 @@ aRadioGroup
 /
 nsIDOMNode
 NS_DECL_NSIDOMNODE
-/
-/
-nsIDOM3Node
-NS_DECL_NSIDOM3NODE
 /
 /
 nsIDOMDocument
@@ -6687,13 +6681,6 @@ NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
 (
 _class
 nsIDOMNode
-nsDocument
-)
-\
-NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
-(
-_class
-nsIDOM3Node
 nsDocument
 )
 \
