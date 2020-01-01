@@ -764,6 +764,16 @@ BeginNativeDrawing
 )
 ;
 *
+if
+(
+!
+dc
+)
+*
+return
+NS_ERROR_FAILURE
+;
+*
 *
 RECT
 winRect
