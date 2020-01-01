@@ -476,6 +476,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jscompartment
 .
 h
@@ -751,7 +758,7 @@ DefaultHasher
 StackFrame
 *
 >
-SystemAllocPolicy
+RuntimeAllocPolicy
 >
 FrameMap
 ;
@@ -919,7 +926,7 @@ DefaultHasher
 JSScript
 *
 >
-SystemAllocPolicy
+RuntimeAllocPolicy
 >
 ScriptMap
 ;
@@ -1796,6 +1803,9 @@ public
 :
 Debugger
 (
+JSContext
+*
+cx
 JSObject
 *
 dbg
