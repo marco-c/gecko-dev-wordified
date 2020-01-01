@@ -4596,7 +4596,7 @@ could
 have
 side
 effects
-NS_IMETHODIMP
+nsresult
 nsSubDocumentFrame
 :
 :
@@ -4630,7 +4630,7 @@ aDocShell
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSubDocumentFrame
 :
 :

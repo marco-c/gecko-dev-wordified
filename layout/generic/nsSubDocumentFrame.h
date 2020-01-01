@@ -924,7 +924,7 @@ CreateAccessible
 ;
 #
 endif
-NS_IMETHOD
+nsresult
 GetDocShell
 (
 nsIDocShell
@@ -933,7 +933,7 @@ nsIDocShell
 aDocShell
 )
 ;
-NS_IMETHOD
+nsresult
 BeginSwapDocShells
 (
 nsIFrame
@@ -941,7 +941,6 @@ nsIFrame
 aOther
 )
 ;
-virtual
 void
 EndSwapDocShells
 (
@@ -958,7 +957,6 @@ nsContentType
 aContentType
 )
 ;
-virtual
 nsIFrame
 *
 GetSubdocumentRootFrame
