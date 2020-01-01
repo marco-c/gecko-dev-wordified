@@ -1571,8 +1571,6 @@ Fragmento
 .
 h
 "
-/
-*
 #
 include
 "
@@ -1580,8 +1578,6 @@ Assembler
 .
 h
 "
-*
-/
 #
 endif
 /
