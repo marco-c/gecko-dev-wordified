@@ -9850,7 +9850,7 @@ npobj
 _class
 -
 >
-hasProperty
+hasMethod
 (
 npobj
 methodName
