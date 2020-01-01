@@ -2849,11 +2849,11 @@ int32_t
 aRect
 .
 width
+)
 *
 aRect
 .
 height
-)
 ;
 if
 (
