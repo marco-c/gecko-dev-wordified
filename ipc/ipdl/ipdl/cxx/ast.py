@@ -2288,7 +2288,7 @@ UINT32
 Type
 (
 '
-uint32_t
+uint32
 '
 )
 class
