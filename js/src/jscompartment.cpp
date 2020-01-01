@@ -543,6 +543,13 @@ jsgcinlines
 h
 "
 #
+include
+"
+jsscopeinlines
+.
+h
+"
+#
 if
 ENABLE_YARR_JIT
 #
