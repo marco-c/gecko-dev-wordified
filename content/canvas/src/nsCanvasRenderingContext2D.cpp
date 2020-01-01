@@ -1332,7 +1332,7 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMCanvasGradient
 )
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
+NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
 (
 CanvasGradient
 )
@@ -1481,7 +1481,7 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMCanvasPattern
 )
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
+NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
 (
 CanvasPattern
 )
@@ -1599,7 +1599,7 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMTextMetrics
 )
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
+NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
 (
 TextMetrics
 )
@@ -3415,7 +3415,7 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 nsISupports
 nsIDOMCanvasRenderingContext2D
 )
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
+NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
 (
 CanvasRenderingContext2D
 )
@@ -10422,6 +10422,12 @@ styleSet
 ResolveStyleForRules
 (
 nsnull
+nsnull
+nsCSSPseudoElements
+:
+:
+ePseudo_NotPseudoElement
+nsnull
 parentRules
 )
 ;
@@ -10446,6 +10452,12 @@ styleSet
 ResolveStyleForRules
 (
 parentContext
+nsnull
+nsCSSPseudoElements
+:
+:
+ePseudo_NotPseudoElement
+nsnull
 rules
 )
 ;
@@ -17895,7 +17907,7 @@ FlushLayoutForTree
 aWindow
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsPresContext
 >

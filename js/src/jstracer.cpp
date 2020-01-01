@@ -85747,6 +85747,8 @@ addr_ins
 0
 )
 ;
+break
+;
 default
 :
 JS_NOT_REACHED
