@@ -4511,6 +4511,9 @@ mValid
 &
 !
 mDocShell
+&
+&
+mSurface
 )
 gCanvasMemoryUsed
 -
