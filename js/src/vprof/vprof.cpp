@@ -777,6 +777,13 @@ defined
 (
 WIN32
 )
+&
+&
+!
+defined
+(
+UNDER_CE
+)
 static
 void
 vprof_printf
