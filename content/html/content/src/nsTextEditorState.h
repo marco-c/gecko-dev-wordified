@@ -503,6 +503,9 @@ nsIEditor
 class
 nsITextControlElement
 ;
+struct
+SelectionState
+;
 /
 *
 *
@@ -1960,6 +1963,12 @@ nsRefPtr
 nsTextInputSelectionImpl
 >
 mSelCon
+;
+nsAutoPtr
+<
+SelectionState
+>
+mSelState
 ;
 nsCOMPtr
 <
