@@ -493,9 +493,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsIBoxLayout
-*
-aLayoutManager
 )
 ;
 NS_IMETHOD
@@ -623,11 +620,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsIBoxLayout
-*
-aLayout
-=
-nsnull
 )
 ;
 protected

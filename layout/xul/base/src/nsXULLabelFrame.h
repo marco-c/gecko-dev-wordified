@@ -483,8 +483,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
-aFlags
 )
 ;
 /
@@ -599,8 +597,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
-aFlags
 )
 ;
 #

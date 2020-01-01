@@ -470,15 +470,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRBool
-aIsRoot
-=
-PR_FALSE
-nsIBoxLayout
-*
-aLayoutManager
-=
-nsnull
 )
 ;
 class
@@ -500,11 +491,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRBool
-aIsRoot
-nsIBoxLayout
-*
-aLayoutManager
 )
 ;
 /

@@ -493,11 +493,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsIBoxLayout
-*
-aLayout
-=
-nsnull
 )
 ;
 #
@@ -553,11 +548,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsIBoxLayout
-*
-aLayout
-=
-nsnull
 )
 ;
 }
