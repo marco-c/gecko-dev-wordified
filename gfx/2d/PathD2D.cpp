@@ -91,6 +91,9 @@ MPL
 *
 /
 #
+pragma
+once
+#
 include
 "
 PathD2D

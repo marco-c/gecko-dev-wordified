@@ -3033,11 +3033,10 @@ nsAutoPtr
 TextureD3D10BackendData
 >
 data
-(
+=
 new
 TextureD3D10BackendData
 (
-)
 )
 ;
 data
