@@ -2041,6 +2041,7 @@ cur
 }
 public
 :
+explicit
 NameResolver
 (
 JSContext
