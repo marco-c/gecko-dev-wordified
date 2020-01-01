@@ -1757,7 +1757,7 @@ error
 .
 *
 /
-bool
+JSBool
 DefineCompileTimeConstant
 (
 JSContext
@@ -1790,7 +1790,7 @@ pn
 .
 *
 /
-bool
+JSBool
 EmitTree
 (
 JSContext
@@ -1821,7 +1821,7 @@ body
 .
 *
 /
-bool
+JSBool
 EmitFunctionScript
 (
 JSContext
@@ -3432,7 +3432,7 @@ ptrdiff_t
 delta
 )
 ;
-bool
+JSBool
 FinishTakingSrcNotes
 (
 JSContext

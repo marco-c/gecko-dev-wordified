@@ -2541,7 +2541,7 @@ ENDS_IN_OTHER
 }
 }
 static
-bool
+JSBool
 ReportBadReturn
 (
 JSContext
@@ -2642,7 +2642,7 @@ ptr
 ;
 }
 static
-bool
+JSBool
 CheckFinalReturn
 (
 JSContext
@@ -6216,7 +6216,7 @@ friends
 *
 /
 typedef
-bool
+JSBool
 (
 *
 Binder
@@ -6237,7 +6237,7 @@ parser
 )
 ;
 static
-bool
+JSBool
 BindLet
 (
 JSContext
@@ -6255,7 +6255,7 @@ parser
 )
 ;
 static
-bool
+JSBool
 BindVarOrConst
 (
 JSContext
@@ -6455,7 +6455,7 @@ BindVarOrConst
 if
 JS_HAS_DESTRUCTURING
 static
-bool
+JSBool
 BindDestructuringArg
 (
 JSContext
@@ -7040,7 +7040,7 @@ fun
 ;
 }
 static
-bool
+JSBool
 MatchOrInsertSemicolon
 (
 JSContext
@@ -13198,7 +13198,7 @@ object
 *
 /
 static
-bool
+JSBool
 BindLet
 (
 JSContext
@@ -14191,7 +14191,7 @@ true
 ;
 }
 static
-bool
+JSBool
 BindVarOrConst
 (
 JSContext
@@ -15878,7 +15878,7 @@ true
 if
 JS_HAS_DESTRUCTURING
 static
-bool
+JSBool
 BindDestructuringVar
 (
 JSContext
@@ -16242,7 +16242,7 @@ JSOP_SETNAME
 *
 /
 static
-bool
+JSBool
 BindDestructuringLHS
 (
 JSContext
@@ -29888,7 +29888,7 @@ decrement
 }
 ;
 static
-bool
+JSBool
 SetIncOpKid
 (
 JSContext
@@ -35279,7 +35279,7 @@ return
 res
 ;
 }
-bool
+JSBool
 Parser
 :
 :
@@ -35536,7 +35536,7 @@ Parser
 :
 memberExpr
 (
-bool
+JSBool
 allowCallSyntax
 )
 {
@@ -38114,7 +38114,7 @@ Parser
 :
 xmlExpr
 (
-bool
+JSBool
 inTag
 )
 {
@@ -39205,7 +39205,7 @@ container
 .
 *
 /
-bool
+JSBool
 Parser
 :
 :
@@ -39633,7 +39633,7 @@ Parser
 :
 xmlElementOrList
 (
-bool
+JSBool
 allowList
 )
 {
@@ -40553,7 +40553,7 @@ Parser
 :
 xmlElementOrListRoot
 (
-bool
+JSBool
 allowList
 )
 {
@@ -44063,7 +44063,7 @@ case
 TOK_LP
 :
 {
-bool
+JSBool
 genexp
 ;
 pn
@@ -44654,7 +44654,7 @@ Parser
 :
 parenExpr
 (
-bool
+JSBool
 *
 genexp
 )

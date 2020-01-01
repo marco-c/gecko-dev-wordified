@@ -3884,7 +3884,7 @@ ParseNode
 *
 kid
 ;
-bool
+JSBool
 hidden
 ;
 /

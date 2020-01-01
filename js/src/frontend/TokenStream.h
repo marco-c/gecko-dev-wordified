@@ -5407,7 +5407,7 @@ keyword
 .
 *
 /
-bool
+JSBool
 IsIdentifier
 (
 JSLinearString
