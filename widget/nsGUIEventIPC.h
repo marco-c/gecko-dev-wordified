@@ -766,6 +766,8 @@ aResult
 {
 PRInt32
 scrollType
+=
+0
 ;
 bool
 rv
