@@ -287,13 +287,6 @@ assembler_wtf_SegmentedVector_h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 js
 /
 Vector

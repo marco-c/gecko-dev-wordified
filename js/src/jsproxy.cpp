@@ -153,13 +153,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h

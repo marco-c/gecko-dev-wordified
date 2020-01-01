@@ -133,14 +133,14 @@ h
 #
 include
 "
-jsbytecode
+jsapi
 .
 h
 "
 #
 include
 "
-jsprvtd
+jsbytecode
 .
 h
 "
