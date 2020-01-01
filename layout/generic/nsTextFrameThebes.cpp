@@ -22672,12 +22672,11 @@ buf
 PRTime
 delta
 ;
-LL_SUB
-(
 delta
+=
 now
+-
 gLastTick
-)
 ;
 gLastTick
 =

@@ -598,12 +598,11 @@ ustoms
 1000
 )
 ;
-LL_SUB
-(
 conversion
+=
 end
+-
 start
-)
 ;
 LL_DIV
 (

@@ -5186,13 +5186,10 @@ session
 start
 int64_t
 diff
-;
-LL_SUB
-(
-diff
+=
 now
+-
 mSessionStart
-)
 ;
 /
 /

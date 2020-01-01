@@ -4639,13 +4639,10 @@ PR_Now
 ;
 PRTime
 difTime
-;
-LL_SUB
-(
-difTime
+=
 end
+-
 start
-)
 ;
 int32_t
 newTime

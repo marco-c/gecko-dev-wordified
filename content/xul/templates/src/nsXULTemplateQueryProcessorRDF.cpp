@@ -3769,13 +3769,10 @@ rdate
 ;
 int64_t
 delta
-;
-LL_SUB
-(
-delta
+=
 ldate
+-
 rdate
-)
 ;
 if
 (
