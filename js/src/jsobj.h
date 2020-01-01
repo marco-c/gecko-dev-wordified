@@ -4470,7 +4470,7 @@ isFunctionProxy
 const
 ;
 bool
-isCrossCompartmentWrapper
+isWrapper
 (
 )
 const
@@ -4480,6 +4480,12 @@ JSObject
 unwrap
 (
 )
+;
+bool
+isCrossCompartmentWrapper
+(
+)
+const
 ;
 inline
 bool

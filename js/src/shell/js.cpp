@@ -16125,6 +16125,7 @@ JS_NewCompartmentAndGlobalObject
 cx
 &
 sandbox_class
+NULL
 )
 ;
 if
@@ -27741,6 +27742,7 @@ JS_NewCompartmentAndGlobalObject
 cx
 &
 global_class
+NULL
 )
 ;
 if

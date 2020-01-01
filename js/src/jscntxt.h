@@ -7546,6 +7546,10 @@ JSRuntime
 *
 rt
 ;
+JSPrincipals
+*
+principals
+;
 bool
 marked
 ;
@@ -9547,6 +9551,9 @@ lastScriptFilename
 ;
 #
 endif
+JSWrapObjectCallback
+wrapObjectCallback
+;
 JSRuntime
 (
 )

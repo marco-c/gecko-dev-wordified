@@ -3292,6 +3292,9 @@ NewCompartment
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 )
 ;
 }
