@@ -9080,7 +9080,7 @@ title
 ;
 final
 String
-title
+type
 =
 message
 .
