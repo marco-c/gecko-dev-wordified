@@ -1318,7 +1318,7 @@ p16
 break
 ;
 case
-CMS_PRECACHE_LI16F_FORWARD
+CMS_PRECACHE_LI8F_FORWARD
 :
 /
 /
@@ -1330,7 +1330,7 @@ cmsAllocPrecacheTables
 (
 Icc
 Type
-LI16F_FORWARD
+LI8F_FORWARD
 3
 sizeof
 (
@@ -1402,7 +1402,7 @@ Type
 >
 Impl
 .
-LI16F_FORWARD
+LI8F_FORWARD
 .
 Cache
 [
@@ -1694,7 +1694,7 @@ i
 break
 ;
 case
-CMS_PRECACHE_LI16F_FORWARD
+CMS_PRECACHE_LI8F_FORWARD
 :
 for
 (
@@ -1717,7 +1717,7 @@ Cache
 >
 Impl
 .
-LI16F_FORWARD
+LI8F_FORWARD
 .
 Cache
 [
