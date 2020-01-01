@@ -996,12 +996,16 @@ GetCompositableHost
 if
 (
 mImageHost
+&
+&
+mImageHost
 -
 >
 IsAttached
 (
 )
 )
+{
 return
 mImageHost
 .
@@ -1009,6 +1013,7 @@ get
 (
 )
 ;
+}
 return
 nullptr
 ;
