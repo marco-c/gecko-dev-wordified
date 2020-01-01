@@ -849,7 +849,9 @@ Put
 (
 KeyType
 aKey
+const
 UserDataType
+&
 aData
 )
 {
@@ -878,7 +880,9 @@ Put
 (
 KeyType
 aKey
+const
 UserDataType
+&
 aData
 const
 fallible_t
