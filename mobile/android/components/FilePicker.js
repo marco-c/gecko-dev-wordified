@@ -854,11 +854,9 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-callerWin
-=
 winUtils
 .
-enterModalStateWithWindow
+enterModalState
 (
 )
 ;

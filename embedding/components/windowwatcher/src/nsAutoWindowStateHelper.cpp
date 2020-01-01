@@ -378,8 +378,6 @@ if
 window
 )
 {
-mCallerWindow
-=
 window
 -
 >
@@ -419,7 +417,6 @@ window
 >
 LeaveModalState
 (
-mCallerWindow
 )
 ;
 }

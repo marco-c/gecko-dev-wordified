@@ -2861,12 +2861,9 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-let
-callerWin
-=
 winUtils
 .
-enterModalStateWithWindow
+enterModalState
 (
 )
 ;
@@ -2968,9 +2965,8 @@ newPrompt
 ;
 winUtils
 .
-leaveModalStateWithWindow
+leaveModalState
 (
-callerWin
 )
 ;
 PromptUtils

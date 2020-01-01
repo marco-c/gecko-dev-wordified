@@ -1103,9 +1103,6 @@ showPrompt
 aPrompt
 )
 {
-let
-callerWin
-;
 if
 (
 this
@@ -1146,11 +1143,9 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-callerWin
-=
 winUtils
 .
-enterModalStateWithWindow
+enterModalState
 (
 )
 ;
@@ -1240,9 +1235,8 @@ nsIDOMWindowUtils
 ;
 winUtils
 .
-leaveModalStateWithWindow
+leaveModalState
 (
-callerWin
 )
 ;
 PromptUtils
