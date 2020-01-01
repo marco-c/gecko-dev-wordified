@@ -943,7 +943,7 @@ return
 false
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -1537,7 +1537,7 @@ getPrototype
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -1918,7 +1918,7 @@ argslot
 ;
 return
 (
-defineVMReturn
+defineReturn
 (
 lir
 call
@@ -3822,7 +3822,7 @@ return
 false
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 comp
@@ -4028,7 +4028,7 @@ return
 false
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -4182,7 +4182,7 @@ false
 if
 (
 !
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -4271,7 +4271,7 @@ false
 if
 (
 !
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -4579,7 +4579,7 @@ return
 false
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -5210,7 +5210,7 @@ CallTempReg0
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -5239,7 +5239,7 @@ CallTempReg0
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -5275,7 +5275,7 @@ CallTempReg1
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -5363,7 +5363,7 @@ CallTempReg0
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -6304,7 +6304,7 @@ CallTempReg0
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -6427,7 +6427,7 @@ false
 if
 (
 !
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -6525,7 +6525,7 @@ rhs
 if
 (
 !
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -7626,7 +7626,7 @@ LRegExp
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -7715,7 +7715,7 @@ string
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -7849,7 +7849,7 @@ scopeChain
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -10392,7 +10392,7 @@ CallTempReg4
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -11178,7 +11178,7 @@ LCallGetIntrinsicValue
 if
 (
 !
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -11732,7 +11732,7 @@ return
 false
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -11847,7 +11847,7 @@ false
 if
 (
 !
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -11976,7 +11976,7 @@ return
 false
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -12345,7 +12345,7 @@ object
 )
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -12816,7 +12816,7 @@ return
 false
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
@@ -13042,7 +13042,7 @@ return
 false
 ;
 return
-defineVMReturn
+defineReturn
 (
 lir
 ins
