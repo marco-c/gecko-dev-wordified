@@ -107,6 +107,13 @@ nsDOMClassInfoID
 .
 h
 "
+#
+include
+"
+nsIClassInfo
+.
+h
+"
 /
 /
 /

@@ -252,7 +252,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsIXPCScriptable
 .
 h
 "

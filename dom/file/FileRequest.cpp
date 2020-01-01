@@ -149,6 +149,13 @@ h
 #
 include
 "
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
 FileHelper
 .
 h

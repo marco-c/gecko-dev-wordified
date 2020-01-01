@@ -145,6 +145,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 /
 /
 -
