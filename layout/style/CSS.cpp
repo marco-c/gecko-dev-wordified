@@ -187,6 +187,16 @@ SupportsParsingInfo
 aInfo
 )
 {
+if
+(
+!
+aGlobal
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 nsGlobalWindow
 *
 win
