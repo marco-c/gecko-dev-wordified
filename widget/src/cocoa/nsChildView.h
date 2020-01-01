@@ -2700,6 +2700,11 @@ eWindowType_plugin
 )
 ;
 }
+void
+PaintQD
+(
+)
+;
 protected
 :
 PRBool
