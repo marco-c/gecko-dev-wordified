@@ -3831,6 +3831,8 @@ settings
 /
 except
 jit
+and
+allow_xml
 .
 var
 optionNames
@@ -3889,6 +3891,14 @@ optionName
 =
 "
 methodjit_always
+"
+&
+&
+optionName
+!
+=
+"
+allow_xml
 "
 )
 {
@@ -4094,13 +4104,6 @@ optionsInit
 ;
 optionsClear
 (
-)
-;
-options
-(
-"
-allow_xml
-"
 )
 ;
 }
