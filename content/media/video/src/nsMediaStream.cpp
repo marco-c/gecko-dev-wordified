@@ -2936,6 +2936,11 @@ new
 nsChannelToPipeListener
 (
 mDecoder
+aOffset
+!
+=
+0
+aOffset
 )
 ;
 NS_ENSURE_TRUE
