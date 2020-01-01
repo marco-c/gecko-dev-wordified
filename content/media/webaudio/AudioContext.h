@@ -248,12 +248,6 @@ return
 mWindow
 ;
 }
-void
-Shutdown
-(
-)
-{
-}
 virtual
 JSObject
 *
