@@ -1192,7 +1192,6 @@ mAboutHomeContent
 .
 onActivityContentChanged
 (
-this
 )
 ;
 }
@@ -2829,7 +2828,6 @@ mAboutHomeContent
 .
 update
 (
-this
 EnumSet
 .
 of
@@ -2958,7 +2956,6 @@ mAboutHomeContent
 .
 update
 (
-mAppContext
 AboutHomeContent
 .
 UpdateFlags
@@ -3023,7 +3020,6 @@ mAboutHomeContent
 .
 update
 (
-mAppContext
 EnumSet
 .
 of
