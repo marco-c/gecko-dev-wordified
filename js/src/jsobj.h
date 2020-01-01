@@ -9505,6 +9505,9 @@ jsid
 id
 intN
 index
+bool
+*
+redeclared
 )
 ;
 inline

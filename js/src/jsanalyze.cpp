@@ -1171,7 +1171,6 @@ getFunction
 (
 js_GetIndexFromBytecode
 (
-cx
 script
 pc
 0
@@ -1214,7 +1213,6 @@ getAtom
 (
 js_GetIndexFromBytecode
 (
-cx
 script
 pc
 0
@@ -2718,6 +2716,12 @@ false
 ;
 break
 ;
+case
+JSOP_ENTERLET0
+:
+case
+JSOP_ENTERLET1
+:
 case
 JSOP_ENTERBLOCK
 :

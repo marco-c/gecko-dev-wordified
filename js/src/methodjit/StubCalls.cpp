@@ -12739,6 +12739,17 @@ isStaticBlock
 )
 )
 ;
+if
+(
+*
+regs
+.
+pc
+=
+=
+JSOP_ENTERBLOCK
+)
+{
 JS_ASSERT
 (
 fp
@@ -12820,6 +12831,7 @@ sp
 =
 vp
 ;
+}
 #
 ifdef
 DEBUG
