@@ -2447,8 +2447,9 @@ SetName
 VMFrame
 &
 f
-uint32
-index
+JSAtom
+*
+origAtom
 )
 {
 JSContext
@@ -3759,18 +3760,7 @@ atom
 )
 atom
 =
-f
-.
-fp
--
->
-script
--
->
-getAtom
-(
-index
-)
+origAtom
 ;
 jsid
 id
@@ -3959,8 +3949,6 @@ NameOp
 VMFrame
 &
 f
-uint32
-index
 )
 {
 JSContext
@@ -4436,8 +4424,6 @@ Name
 VMFrame
 &
 f
-uint32
-index
 )
 {
 if
@@ -4446,7 +4432,6 @@ if
 NameOp
 (
 f
-index
 )
 )
 THROW
@@ -5868,8 +5853,6 @@ CallName
 VMFrame
 &
 f
-uint32
-index
 )
 {
 JSObject
@@ -5879,7 +5862,6 @@ obj
 NameOp
 (
 f
-index
 )
 ;
 if
