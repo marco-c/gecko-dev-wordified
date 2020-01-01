@@ -200,7 +200,7 @@ gSubprocess
 ;
 gSubprocess
 =
-NULL
+nullptr
 ;
 }
 void
@@ -428,7 +428,7 @@ gParentActor
 ;
 gParentActor
 =
-NULL
+nullptr
 ;
 XRE_GetIOMessageLoop
 (

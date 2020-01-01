@@ -413,7 +413,7 @@ char
 *
 gIPDLUnitTestName
 =
-NULL
+nullptr
 ;
 const
 char
@@ -1124,7 +1124,7 @@ ENUM_TO_STRINGS
 default
 :
 return
-NULL
+nullptr
 ;
 }
 }

@@ -560,7 +560,7 @@ DBusMessage
 *
 msg
 =
-NULL
+nullptr
 )
 ;
 dbus_bool_t

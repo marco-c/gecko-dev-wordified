@@ -1497,7 +1497,7 @@ void
 *
 startThing
 =
-NULL
+nullptr
 ;
 JSGCTraceKind
 startTraceKind
@@ -1508,7 +1508,7 @@ void
 *
 thingToFind
 =
-NULL
+nullptr
 ;
 size_t
 maxDepth
@@ -1523,7 +1523,7 @@ void
 *
 thingToIgnore
 =
-NULL
+nullptr
 ;
 FILE
 *
@@ -2716,7 +2716,7 @@ older
 JS_SetErrorReporter
 (
 cx
-NULL
+nullptr
 )
 ;
 str
@@ -3764,7 +3764,7 @@ old
 JS_SetErrorReporter
 (
 cx
-NULL
+nullptr
 )
 ;
 JSString

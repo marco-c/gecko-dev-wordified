@@ -1575,7 +1575,7 @@ DBusMessage
 *
 msg
 =
-NULL
+nullptr
 ;
 /
 *
@@ -1599,7 +1599,7 @@ if
 msg
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -2204,7 +2204,7 @@ TRUE
 If
 err
 is
-NULL
+nullptr
 then
 any
 errors
@@ -2224,7 +2224,7 @@ reply
 /
 will
 be
-NULL
+nullptr
 .
 /
 /
@@ -2232,7 +2232,7 @@ If
 err
 is
 not
-NULL
+nullptr
 then
 it
 is
@@ -2263,7 +2263,7 @@ The
 return
 value
 is
-NULL
+nullptr
 iff
 an
 error
@@ -2275,10 +2275,10 @@ client
 must
 free
 the
+/
+/
 error
 if
-/
-/
 set
 .
 DBusMessage
@@ -2539,7 +2539,7 @@ dbus_func_args_timeout_valist
 conn
 -
 1
-NULL
+nullptr
 path
 ifc
 func
