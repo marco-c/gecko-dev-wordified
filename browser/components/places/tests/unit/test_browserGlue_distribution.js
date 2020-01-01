@@ -983,6 +983,13 @@ Ci
 nsINavBookmarksService
 )
 ;
+dump_table
+(
+"
+moz_bookmarks
+"
+)
+;
 /
 /
 Check

@@ -2302,6 +2302,12 @@ test
 additional
 runs
 .
+if
+(
+testIndex
+>
+0
+)
 os
 .
 addObserver
