@@ -1445,6 +1445,11 @@ EXTERNAL_STORAGE
 }
 )
 ;
+var
+gSDCardMountLock
+=
+null
+;
 #
 endif
 XPCOMUtils
