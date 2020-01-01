@@ -6761,7 +6761,7 @@ reason
 )
 )
 ;
-PRBool
+nsresult
 result
 =
 PR_FALSE

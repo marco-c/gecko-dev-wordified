@@ -808,8 +808,6 @@ IsInitialized
 const
 {
 return
-!
-!
 this
 -
 >

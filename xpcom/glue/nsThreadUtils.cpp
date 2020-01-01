@@ -1192,10 +1192,9 @@ NS_GetCurrentThread
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_STATE
 (
 thread
-PR_FALSE
 )
 ;
 }
@@ -1283,10 +1282,9 @@ NS_GetCurrentThread
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_STATE
 (
 thread
-PR_FALSE
 )
 ;
 }

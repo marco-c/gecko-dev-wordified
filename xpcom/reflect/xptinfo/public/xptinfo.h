@@ -722,6 +722,9 @@ IsArray
 const
 {
 return
+(
+PRBool
+)
 TagPart
 (
 )

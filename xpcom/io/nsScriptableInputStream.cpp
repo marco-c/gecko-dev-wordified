@@ -1186,8 +1186,6 @@ byteResult
 *
 aBoolean
 =
-!
-!
 byteResult
 ;
 return
