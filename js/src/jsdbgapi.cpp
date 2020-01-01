@@ -5134,6 +5134,8 @@ NULL
 js_watch_set_wrapper
 1
 0
+setter
+?
 js_CastAsObject
 (
 setter
@@ -5143,6 +5145,8 @@ setter
 getParent
 (
 )
+:
+NULL
 atom
 )
 ;
