@@ -98,7 +98,7 @@ XP_WIN
 #
 include
 "
-Ws2tcpip
+ws2tcpip
 .
 h
 "
