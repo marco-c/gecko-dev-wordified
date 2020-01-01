@@ -3031,11 +3031,7 @@ return
 aFlags
 &
 ~
-(
 eCONTENT
-|
-eELEMENT
-)
 )
 ;
 }

@@ -11460,8 +11460,6 @@ aFlags
 (
 eCONTENT
 |
-eELEMENT
-|
 eMEDIA
 )
 )

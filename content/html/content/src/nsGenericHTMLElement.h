@@ -1271,15 +1271,6 @@ aNotify
 ;
 virtual
 PRBool
-IsNodeOfType
-(
-PRUint32
-aFlags
-)
-const
-;
-virtual
-PRBool
 IsFocusable
 (
 PRInt32

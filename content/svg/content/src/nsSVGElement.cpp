@@ -4621,8 +4621,6 @@ aFlags
 (
 eCONTENT
 |
-eELEMENT
-|
 eSVG
 )
 )
