@@ -4300,7 +4300,7 @@ NotificationController
 :
 TextEnumerator
 (
-nsPtrHashKey
+nsCOMPtrHashKey
 <
 nsIContent
 >
