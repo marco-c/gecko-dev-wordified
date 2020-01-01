@@ -6428,7 +6428,6 @@ code
 ;
 markPushedOverflow
 (
-0
 )
 ;
 return

@@ -1500,6 +1500,9 @@ Value
 vp
 )
 {
+if
+(
+!
 cx
 -
 >
@@ -1518,6 +1521,9 @@ id
 *
 vp
 )
+)
+return
+false
 ;
 /
 /

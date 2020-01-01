@@ -2805,6 +2805,9 @@ JSCompartment
 bool
 init
 (
+JSContext
+*
+cx
 )
 ;
 /

@@ -998,9 +998,6 @@ JSTypeCallsite
 jssite
 )
 {
-#
-ifdef
-JS_TYPE_INFERENCE
 if
 (
 Valueify
@@ -1026,8 +1023,6 @@ jsfun
 jssite
 )
 ;
-#
-endif
 }
 JSObject
 *
