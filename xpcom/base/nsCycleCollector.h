@@ -308,6 +308,15 @@ false
 void
 nsCycleCollector_dispatchDeferredDeletion
 (
+bool
+aContinuation
+=
+false
+)
+;
+bool
+nsCycleCollector_doDeferredDeletion
+(
 )
 ;
 void

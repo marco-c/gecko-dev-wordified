@@ -915,6 +915,16 @@ FILE
 aFile
 )
 ;
+virtual
+void
+DispatchDeferredDeletion
+(
+bool
+aContinuation
+)
+=
+0
+;
 private
 :
 JSGCThingParticipant
