@@ -621,7 +621,7 @@ this
 #
 define
 MAX_GLYPH_PAGES_CACHED
-512
+256
 static
 cairo_cache_t
 *
