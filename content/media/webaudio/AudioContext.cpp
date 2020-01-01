@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -269,7 +262,7 @@ AudioContext
 :
 AudioContext
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )

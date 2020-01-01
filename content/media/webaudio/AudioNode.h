@@ -121,7 +121,7 @@ AudioNode_h_
 #
 include
 "
-nsWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -429,9 +429,7 @@ class
 AudioNode
 :
 public
-nsISupports
-public
-nsWrapperCache
+nsDOMEventTargetHelper
 public
 EnableWebAudioCheck
 {
@@ -545,9 +543,10 @@ false
 ;
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 AudioNode
+nsDOMEventTargetHelper
 )
 virtual
 AudioBufferSourceNode
