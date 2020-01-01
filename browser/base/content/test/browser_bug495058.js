@@ -321,8 +321,9 @@ next
 )
 ;
 else
-finish
+executeSoon
 (
+finish
 )
 ;
 }
