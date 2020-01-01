@@ -1508,7 +1508,7 @@ leaveblock
 see
 testNullCallee
 in
-trace
+jit
 -
 tests
 )
