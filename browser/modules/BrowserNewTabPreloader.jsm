@@ -272,7 +272,7 @@ background
 const
 PRELOADER_INTERVAL_MS
 =
-3000
+600
 ;
 /
 /
