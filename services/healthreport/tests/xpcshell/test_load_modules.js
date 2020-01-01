@@ -38,6 +38,11 @@ modules
 =
 [
 "
+healthreporter
+.
+jsm
+"
+"
 policy
 .
 jsm
