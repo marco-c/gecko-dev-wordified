@@ -1690,6 +1690,15 @@ stack
 uint32_t
 numFrames
 ;
+/
+/
+The
+bailout
+kind
+.
+BailoutKind
+bailoutKind
+;
 }
 ;
 uint32_t
