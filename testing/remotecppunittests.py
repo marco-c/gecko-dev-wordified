@@ -184,7 +184,7 @@ tmp
         
 self
 .
-remote_profile_dir
+remote_home_dir
 =
 posixpath
 .
@@ -194,7 +194,7 @@ self
 .
 remote_test_root
 "
-p
+h
 "
 )
         
@@ -312,6 +312,41 @@ mkDir
 self
 .
 remote_bin_dir
+)
+        
+if
+self
+.
+device
+.
+dirExists
+(
+self
+.
+remote_home_dir
+)
+:
+            
+self
+.
+device
+.
+removeDir
+(
+self
+.
+remote_home_dir
+)
+        
+self
+.
+device
+.
+mkDir
+(
+self
+.
+remote_home_dir
 )
         
 self
@@ -604,6 +639,28 @@ self
 .
 remote_bin_dir
         
+env
+[
+"
+TMPDIR
+"
+]
+=
+self
+.
+remote_tmp_dir
+        
+env
+[
+"
+HOME
+"
+]
+=
+self
+.
+remote_home_dir
+        
 return
 env
     
@@ -768,7 +825,7 @@ cwd
 =
 self
 .
-remote_tmp_dir
+remote_home_dir
                                        
 timeout
 =
@@ -809,7 +866,7 @@ getDirectory
 (
 self
 .
-remote_tmp_dir
+remote_home_dir
 tempdir
 )
             
