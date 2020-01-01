@@ -2975,7 +2975,7 @@ pluginhost
 )
 ;
 return
-false
+NS_ERROR_FAILURE
 ;
 }
 nsresult
@@ -4032,7 +4032,7 @@ pluginhost
 )
 ;
 return
-false
+NS_ERROR_FAILURE
 ;
 }
 /
