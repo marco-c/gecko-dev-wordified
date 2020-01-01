@@ -1625,6 +1625,11 @@ JSLinearString
 )
 DeclMarkerImpl
 (
+String
+PropertyName
+)
+DeclMarkerImpl
+(
 TypeObject
 types
 :

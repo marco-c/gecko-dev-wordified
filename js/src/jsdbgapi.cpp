@@ -2601,7 +2601,7 @@ bindings
 i
 ]
 .
-maybeName
+name
 )
 ;
 return

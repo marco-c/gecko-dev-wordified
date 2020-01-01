@@ -170,9 +170,10 @@ HandleFunction
 fun
 CompileOptions
 options
-Bindings
-*
-bindings
+const
+AutoNameVector
+&
+formals
 const
 jschar
 *

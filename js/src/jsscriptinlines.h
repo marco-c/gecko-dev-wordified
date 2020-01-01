@@ -216,7 +216,7 @@ void
 Bindings
 :
 :
-transfer
+transferFrom
 (
 Bindings
 *

@@ -2116,6 +2116,7 @@ JSAtom
 *
 atom
 )
+const
 ;
 /
 *
@@ -2147,6 +2148,7 @@ JSAtom
 *
 atom
 )
+const
 ;
 /
 *
@@ -2346,6 +2348,7 @@ Range
 all
 (
 )
+const
 {
 JS_ASSERT
 (
