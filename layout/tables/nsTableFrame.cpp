@@ -9913,8 +9913,7 @@ table
 so
 always
 return
-if
-(
+return
 rs
 -
 >
@@ -9929,15 +9928,6 @@ GetUnit
 !
 =
 eStyleUnit_Auto
-)
-{
-return
-true
-;
-}
-else
-return
-false
 ;
 }
 }
