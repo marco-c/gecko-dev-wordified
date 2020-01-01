@@ -1912,6 +1912,14 @@ src
 "
 )
 ;
+if
+(
+image
+!
+=
+null
+)
+{
 try
 {
 BrowserDB
@@ -1963,6 +1971,7 @@ getMessage
 )
 )
 ;
+}
 }
 }
 protected
