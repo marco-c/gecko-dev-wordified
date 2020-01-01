@@ -13587,6 +13587,10 @@ gVertScrollbarWidget
 =
 NULL
 ;
+gSpinWidget
+=
+NULL
+;
 gHScaleWidget
 =
 NULL
@@ -13600,6 +13604,10 @@ gEntryWidget
 NULL
 ;
 gArrowWidget
+=
+NULL
+;
+gOptionMenuWidget
 =
 NULL
 ;
