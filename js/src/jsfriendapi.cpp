@@ -209,10 +209,10 @@ mainThread
 )
 =
 =
-sizeof
-(
-RuntimeFriendFields
-)
+PerThreadDataFriendFields
+:
+:
+RuntimeMainThreadOffset
 )
 ;
 PerThreadDataFriendFields
@@ -220,6 +220,11 @@ PerThreadDataFriendFields
 :
 PerThreadDataFriendFields
 (
+)
+:
+nativeStackLimit
+(
+0
 )
 {
 #

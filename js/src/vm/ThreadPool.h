@@ -198,7 +198,7 @@ TaskFun
 void
 *
 userdata
-size_t
+uint32_t
 workerId
 uintptr_t
 stackLimit
@@ -213,7 +213,7 @@ virtual
 void
 executeFromWorker
 (
-size_t
+uint32_t
 workerId
 uintptr_t
 stackLimit
@@ -643,7 +643,7 @@ submitOne
 Atomically
 modified
 .
-size_t
+uint32_t
 nextId_
 ;
 bool

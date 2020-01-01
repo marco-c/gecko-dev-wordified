@@ -2278,6 +2278,9 @@ runtime
 updateMallocCounter
 (
 cx
+-
+>
+compartment
 (
 length
 +

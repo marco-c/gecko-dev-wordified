@@ -122,6 +122,13 @@ CharacterEncoding
 .
 h
 "
+#
+include
+"
+jscntxtinlines
+.
+h
+"
 using
 namespace
 JS

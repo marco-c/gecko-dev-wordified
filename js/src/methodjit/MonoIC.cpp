@@ -4326,9 +4326,10 @@ loadPtr
 cx
 -
 >
-runtime
--
->
+mainThread
+(
+)
+.
 ionActivation
 t0
 )
@@ -5822,9 +5823,10 @@ loadPtr
 cx
 -
 >
-runtime
--
->
+mainThread
+(
+)
+.
 ionActivation
 t0
 )

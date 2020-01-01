@@ -869,6 +869,8 @@ TestNode
 rt
 -
 >
+mainThread
+.
 nativeStackLimit
 )
 ;
@@ -1357,6 +1359,8 @@ finder
 rt
 -
 >
+mainThread
+.
 nativeStackLimit
 )
 ;
