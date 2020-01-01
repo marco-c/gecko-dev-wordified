@@ -8627,7 +8627,7 @@ end
 showPopup
 :
 function
-ch_showPopup
+sh_showPopup
 (
 aMessage
 )
@@ -9064,7 +9064,7 @@ true
 hide
 :
 function
-ch_hide
+sh_hide
 (
 )
 {
@@ -9078,6 +9078,8 @@ hidden
 )
 return
 ;
+try
+{
 this
 .
 popupState
@@ -9097,6 +9099,20 @@ SelectionEnd
 }
 )
 ;
+}
+catch
+(
+e
+)
+{
+Cu
+.
+reportError
+(
+e
+)
+;
+}
 this
 .
 popupState
