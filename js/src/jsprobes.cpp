@@ -970,7 +970,7 @@ rt
 mjit
 :
 :
-JITScript
+JITChunk
 *
 jit
 mjit

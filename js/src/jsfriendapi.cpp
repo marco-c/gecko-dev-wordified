@@ -538,10 +538,9 @@ JS_ASSERT
 rt
 -
 >
-state
-=
-=
-JSRTS_UP
+hasContexts
+(
+)
 )
 ;
 return

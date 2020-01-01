@@ -563,12 +563,12 @@ Internal
 helper
 functions
 nsIntPoint
-GetClientPoint
+GetScreenPoint
 (
 )
 ;
 nsIntPoint
-GetScreenPoint
+GetClientPoint
 (
 )
 ;

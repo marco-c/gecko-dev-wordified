@@ -690,9 +690,6 @@ virtual
 bool
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 ;
 DECL_DO_GLOBAL_REFLOW_COUNT_DSP

@@ -590,7 +590,7 @@ nsresult
 CompleteDefaultIndex
 (
 PRInt32
-aSearchIndex
+aResultIndex
 )
 ;
 nsresult
@@ -661,7 +661,7 @@ nsresult
 GetDefaultCompleteValue
 (
 PRInt32
-aSearchIndex
+aResultIndex
 bool
 aPreserveCasing
 nsAString

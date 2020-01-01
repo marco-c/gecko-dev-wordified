@@ -10729,7 +10729,7 @@ thisTypedArrayObj
 )
 )
 {
-memcpy
+js_memcpy
 (
 dest
 getDataOffset
@@ -11349,7 +11349,7 @@ srcbuf
 return
 false
 ;
-memcpy
+js_memcpy
 (
 srcbuf
 getDataOffset

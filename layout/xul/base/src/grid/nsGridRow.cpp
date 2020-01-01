@@ -605,9 +605,6 @@ nsGridRow
 :
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aState
 )
 {
 return
@@ -619,7 +616,6 @@ mBox
 >
 IsCollapsed
 (
-aState
 )
 ;
 }

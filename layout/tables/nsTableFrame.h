@@ -3219,6 +3219,12 @@ bool
 aIsFirstReflow
 )
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+;
 protected
 :
 /

@@ -4127,9 +4127,6 @@ nsTextControlFrame
 :
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 {
 /

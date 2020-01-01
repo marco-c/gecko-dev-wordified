@@ -535,9 +535,6 @@ virtual
 bool
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 ;
 virtual

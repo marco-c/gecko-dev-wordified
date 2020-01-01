@@ -5057,7 +5057,7 @@ Optional
 .
 *
 param
-aIgnoreMaxVersion
+aIgnoreStrictCompat
 *
 When
 determining

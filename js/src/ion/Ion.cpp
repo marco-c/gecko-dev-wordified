@@ -3974,6 +3974,8 @@ enterCompiler
 (
 cx
 script
+false
+0
 )
 ;
 IonBuilder
@@ -6006,8 +6008,10 @@ cx
 const
 Vector
 <
-JSScript
-*
+types
+:
+:
+RecompileInfo
 >
 &
 invalid
@@ -6064,6 +6068,8 @@ invalid
 [
 i
 ]
+.
+script
 -
 >
 hasIonScript
@@ -6074,6 +6080,8 @@ invalid
 [
 i
 ]
+.
+script
 -
 >
 ion
@@ -6191,6 +6199,8 @@ invalid
 [
 i
 ]
+.
+script
 -
 >
 hasIonScript
@@ -6202,6 +6212,8 @@ invalid
 [
 i
 ]
+.
+script
 -
 >
 ion
@@ -6216,6 +6228,8 @@ invalid
 [
 i
 ]
+.
+script
 -
 >
 ion
@@ -6280,6 +6294,8 @@ invalid
 [
 i
 ]
+.
+script
 -
 >
 resetUseCount

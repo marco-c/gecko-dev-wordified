@@ -1231,7 +1231,6 @@ box
 >
 IsCollapsed
 (
-aState
 )
 ;
 pref

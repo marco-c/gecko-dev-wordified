@@ -3039,7 +3039,10 @@ param
 *
 /
 static
-nsresult
+already_AddRefed
+<
+nsILayoutHistoryState
+>
 GetLayoutHistoryAndKey
 (
 nsGenericHTMLElement
@@ -3047,10 +3050,6 @@ nsGenericHTMLElement
 aContent
 bool
 aRead
-nsILayoutHistoryState
-*
-*
-aState
 nsACString
 &
 aKey

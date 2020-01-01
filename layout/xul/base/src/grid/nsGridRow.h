@@ -593,9 +593,6 @@ mBottom
 bool
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aState
 )
 ;
 public

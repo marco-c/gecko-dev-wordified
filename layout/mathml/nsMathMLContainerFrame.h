@@ -1297,6 +1297,12 @@ nsDisplayListSet
 aLists
 )
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+;
 /
 /
 Notification

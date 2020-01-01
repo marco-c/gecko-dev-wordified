@@ -4713,7 +4713,6 @@ if
 (
 IsCollapsed
 (
-aBoxLayoutState
 )
 )
 return
@@ -4876,7 +4875,6 @@ if
 (
 IsCollapsed
 (
-aBoxLayoutState
 )
 )
 return
@@ -4978,7 +4976,6 @@ if
 (
 IsCollapsed
 (
-aBoxLayoutState
 )
 )
 return
@@ -5151,7 +5148,6 @@ if
 (
 IsCollapsed
 (
-aBoxLayoutState
 )
 )
 return
@@ -8711,7 +8707,6 @@ kid
 >
 IsCollapsed
 (
-state
 )
 )
 {
