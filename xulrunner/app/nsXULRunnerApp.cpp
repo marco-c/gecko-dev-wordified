@@ -629,12 +629,6 @@ XP_WIN
 !
 MOZ_WINCONSOLE
 )
-|
-|
-defined
-(
-WINCE
-)
 char
 *
 msg
