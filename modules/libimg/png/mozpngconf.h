@@ -982,10 +982,6 @@ png_check_chunk_name
 MOZ_PNG_ck_chunk_name
 #
 define
-png_check_sig
-MOZ_PNG_ck_sig
-#
-define
 png_chunk_error
 MOZ_PNG_chunk_err
 #
@@ -1770,8 +1766,8 @@ png_set_crc_action
 MOZ_PNG_set_crc_action
 #
 define
-png_set_dither
-MOZ_PNG_set_dither
+png_set_quantize
+MOZ_PNG_set_quantize
 #
 define
 png_set_error_fn
