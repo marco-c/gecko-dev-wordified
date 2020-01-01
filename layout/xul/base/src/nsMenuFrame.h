@@ -522,6 +522,13 @@ h
 #
 include
 "
+nsISupportsArray
+.
+h
+"
+#
+include
+"
 nsIDOMText
 .
 h
