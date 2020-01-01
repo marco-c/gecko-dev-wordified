@@ -3,6 +3,9 @@
 vim
 :
 set
+ft
+=
+javascript
 ts
 =
 2
@@ -1029,6 +1032,10 @@ value
 aConfig
 .
 placeholderText
+|
+|
+"
+"
 )
 ;
 this
