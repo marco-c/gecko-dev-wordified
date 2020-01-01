@@ -1108,6 +1108,12 @@ aScaleX
 float
 &
 aScaleY
+gfx
+:
+:
+Margin
+&
+aFixedLayerMargins
 )
 ;
 void
@@ -1612,6 +1618,13 @@ const
 gfxSize
 &
 aScaleDiff
+const
+gfx
+:
+:
+Margin
+&
+aFixedLayerMargins
 )
 ;
 virtual
