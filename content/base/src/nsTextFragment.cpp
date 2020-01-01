@@ -1770,9 +1770,12 @@ aOffset
 }
 if
 (
+PRUint32
+(
 aOffset
 +
 aCount
+)
 >
 GetLength
 (
