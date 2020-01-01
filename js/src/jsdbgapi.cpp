@@ -9096,7 +9096,7 @@ cx
 >
 throwing
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 lastException
 (
 cx

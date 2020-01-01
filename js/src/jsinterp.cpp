@@ -2319,7 +2319,7 @@ innermostNewChild
 return
 NULL
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 tvr
 (
 cx
@@ -3621,7 +3621,7 @@ atomState
 noSuchMethodAtom
 )
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 tvr
 (
 cx
