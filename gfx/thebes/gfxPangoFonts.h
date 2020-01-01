@@ -1023,13 +1023,6 @@ defined
 (
 ENABLE_FAST_PATH_8BIT
 )
-PRBool
-CanTakeFastPath
-(
-PRUint32
-aFlags
-)
-;
 nsresult
 CreateGlyphRunsFast
 (
