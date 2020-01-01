@@ -516,6 +516,11 @@ const
 char
 *
 testName
+nsIDirectoryServiceProvider
+*
+dirSvcProvider
+=
+NULL
 )
 {
 mTestName
@@ -546,7 +551,7 @@ NS_InitXPCOM2
 &
 mServMgr
 NULL
-NULL
+dirSvcProvider
 )
 ;
 if
