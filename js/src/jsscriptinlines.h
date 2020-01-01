@@ -570,6 +570,16 @@ JSFunction
 fun
 )
 {
+JS_ASSERT
+(
+fun
+-
+>
+isTenured
+(
+)
+)
+;
 function_
 =
 fun

@@ -3027,7 +3027,7 @@ objp
 extern
 JSObject
 *
-CloneInterpretedFunction
+CloneFunctionAndScript
 (
 JSContext
 *
@@ -3036,10 +3036,6 @@ HandleObject
 enclosingScope
 HandleFunction
 fun
-NewObjectKind
-newKind
-=
-GenericObject
 )
 ;
 /

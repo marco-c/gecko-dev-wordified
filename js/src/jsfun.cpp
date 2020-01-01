@@ -2267,7 +2267,7 @@ this
 in
 sync
 with
-CloneInterpretedFunction
+CloneFunctionAndScript
 .
 *
 /
@@ -2494,6 +2494,11 @@ NullPtr
 NullPtr
 (
 )
+JSFunction
+:
+:
+FinalizeKind
+TenuredObject
 )
 ;
 if
@@ -2739,7 +2744,7 @@ JSObject
 js
 :
 :
-CloneInterpretedFunction
+CloneFunctionAndScript
 (
 JSContext
 *
@@ -2748,14 +2753,6 @@ HandleObject
 enclosingScope
 HandleFunction
 srcFun
-NewObjectKind
-newKind
-/
-*
-=
-GenericObject
-*
-/
 )
 {
 /
@@ -2797,7 +2794,7 @@ JSFunction
 :
 :
 FinalizeKind
-newKind
+TenuredObject
 )
 )
 ;
@@ -10052,6 +10049,11 @@ JSFunction
 INTERPRETED_LAMBDA
 global
 anonymousAtom
+JSFunction
+:
+:
+FinalizeKind
+TenuredObject
 )
 )
 ;
