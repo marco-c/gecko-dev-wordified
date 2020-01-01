@@ -628,11 +628,8 @@ on
 /
 contractid
 .
-bool
-isImage
-=
-false
-;
+if
+(
 imgLoader
 :
 :
@@ -643,13 +640,7 @@ aType
 get
 (
 )
-&
-isImage
 )
-;
-if
-(
-isImage
 )
 {
 *
