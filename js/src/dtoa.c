@@ -3548,6 +3548,9 @@ DtoaState
 )
 )
 ;
+#
+ifndef
+Omit_Private_Memory
 state
 -
 >
@@ -3558,6 +3561,8 @@ state
 >
 private_mem
 ;
+#
+endif
 }
 return
 state
