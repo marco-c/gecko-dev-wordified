@@ -1762,6 +1762,17 @@ GetService
 (
 )
 ;
+PRBool
+CheckInterruptHook
+(
+)
+{
+return
+!
+!
+mInterruptHook
+;
+}
 private
 :
 PRBool
