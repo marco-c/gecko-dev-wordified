@@ -5475,7 +5475,9 @@ if
 display
 -
 >
-mTransformPresent
+HasTransform
+(
+)
 )
 {
 nsROCSSPrimitiveValue
