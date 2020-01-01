@@ -1854,6 +1854,13 @@ inStrictMode
 )
 const
 ;
+inline
+bool
+isBound
+(
+)
+const
+;
 uintN
 countVars
 (
