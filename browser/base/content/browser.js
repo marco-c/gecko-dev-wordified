@@ -949,7 +949,7 @@ gInPrintPreviewMode
 false
 ;
 let
-gDownloadManager
+gDownloadMgr
 =
 null
 ;
@@ -7904,7 +7904,7 @@ function
 (
 )
 {
-gDownloadManager
+gDownloadMgr
 =
 Cc
 [
@@ -7936,7 +7936,7 @@ downloads
 monitor
 panel
 listener
-gDownloadManager
+gDownloadMgr
 .
 addListener
 (
@@ -41671,7 +41671,7 @@ DMP_updateStatus
 let
 numActive
 =
-gDownloadManager
+gDownloadMgr
 .
 activeDownloadCount
 ;
@@ -41742,7 +41742,7 @@ Infinity
 let
 dls
 =
-gDownloadManager
+gDownloadMgr
 .
 activeDownloads
 ;
@@ -41778,7 +41778,7 @@ dl
 state
 =
 =
-gDownloadManager
+gDownloadMgr
 .
 DOWNLOAD_DOWNLOADING
 )
@@ -41844,7 +41844,7 @@ dl
 state
 =
 =
-gDownloadManager
+gDownloadMgr
 .
 DOWNLOAD_PAUSED
 )
