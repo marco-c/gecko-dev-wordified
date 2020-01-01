@@ -14331,17 +14331,6 @@ frame
 as
 defined
 for
-resolving
-percentage
-*
-<
-translation
--
-value
->
-s
-in
-CSS
 transforms
 .
 If
