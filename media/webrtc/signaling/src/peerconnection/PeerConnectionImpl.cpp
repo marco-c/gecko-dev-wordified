@@ -4134,13 +4134,10 @@ if
 mDataConnection
 -
 >
-ConnectDTLS
+ConnectViaTransportFlow
 (
 flow
 aLocalport
-aRemoteport
-aLocalport
->
 aRemoteport
 )
 )
