@@ -3001,6 +3001,10 @@ ViewTransform
 -
 translation
 userZoom
+/
+metrics
+.
+mDevPixelsPerCSSPixel
 )
 )
 ;
