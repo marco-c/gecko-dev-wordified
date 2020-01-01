@@ -579,6 +579,11 @@ NotifySetVersionFinished
 (
 )
 ;
+void
+BlockDatabase
+(
+)
+;
 protected
 :
 /

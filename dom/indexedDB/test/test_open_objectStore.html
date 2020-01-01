@@ -180,6 +180,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 let
 event
 =
@@ -256,10 +262,6 @@ objectStoreName
 Bad
 name
 "
-)
-;
-continueToNextStep
-(
 )
 ;
 yield

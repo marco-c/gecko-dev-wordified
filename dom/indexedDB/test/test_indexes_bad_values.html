@@ -596,6 +596,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 let
 event
 =
@@ -807,6 +813,8 @@ next
 }
 }
 }
+yield
+;
 yield
 ;
 objectStore

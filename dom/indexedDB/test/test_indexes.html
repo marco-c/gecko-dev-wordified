@@ -910,6 +910,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 let
 event
 =
@@ -1081,10 +1087,6 @@ Good
 index
 count
 "
-)
-;
-continueToNextStep
-(
 )
 ;
 yield

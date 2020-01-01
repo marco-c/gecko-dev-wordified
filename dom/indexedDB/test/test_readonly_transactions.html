@@ -193,6 +193,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 let
 event
 =
@@ -235,6 +241,8 @@ true
 "
 }
 )
+;
+yield
 ;
 let
 key1

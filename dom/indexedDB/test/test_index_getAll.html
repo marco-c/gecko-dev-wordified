@@ -847,6 +847,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 let
 event
 =
@@ -953,8 +959,6 @@ event
 }
 }
 }
-event
-=
 yield
 ;
 ok
@@ -1020,10 +1024,6 @@ Good
 index
 count
 "
-)
-;
-continueToNextStep
-(
 )
 ;
 yield
