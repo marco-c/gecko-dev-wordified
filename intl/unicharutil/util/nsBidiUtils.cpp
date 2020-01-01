@@ -2628,15 +2628,10 @@ PRUnichar
 *
 tempBuf
 =
-NS_CONST_CAST
-(
-PRUnichar
-*
 tempString
 .
-get
+BeginWriting
 (
-)
 )
 ;
 if
