@@ -3773,9 +3773,7 @@ Step
 .
 *
 /
-const
 Value
-&
 lastIndex
 =
 reobj
@@ -3861,7 +3859,7 @@ chars
 size_t
 length
 =
-input
+linearInput
 -
 >
 length
