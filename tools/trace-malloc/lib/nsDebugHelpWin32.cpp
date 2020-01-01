@@ -1256,10 +1256,12 @@ mNext
 break
 ;
 }
-}
 PR_ASSERT
 (
 cur
+-
+>
+mNext
 )
 ;
 /
@@ -1271,6 +1273,7 @@ in
 the
 list
 !
+}
 }
 if
 (
