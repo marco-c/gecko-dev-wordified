@@ -1624,12 +1624,14 @@ pn_right
 UNARY
 expr
 *
-TOK_DIVOP
+TOK_DIV
 pn_op
 :
 JSOP_MUL
 JSOP_DIV
 JSOP_MOD
+*
+TOK_MOD
 *
 TOK_TYPEOF
 unary

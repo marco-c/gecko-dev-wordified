@@ -44035,7 +44035,10 @@ case
 TOK_STAR
 :
 case
-TOK_DIVOP
+TOK_DIV
+:
+case
+TOK_MOD
 :
 if
 (
