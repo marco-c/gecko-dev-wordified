@@ -553,6 +553,9 @@ nsIAccessible
 #
 endif
 class
+nsTextInputSelectionImpl
+;
+class
 nsTextControlFrame
 :
 public
@@ -1038,11 +1041,7 @@ nsISelectionController
 GetOwnedSelectionController
 (
 )
-{
-return
-mSelCon
 ;
-}
 virtual
 nsFrameSelection
 *
@@ -2078,9 +2077,9 @@ mFireChangeEventState
 PRPackedBool
 mInSecureKeyboardInputMode
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsISelectionController
+nsTextInputSelectionImpl
 >
 mSelCon
 ;

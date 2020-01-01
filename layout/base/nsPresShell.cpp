@@ -17085,11 +17085,6 @@ CommonPageMove
 aForward
 aExtend
 scrollableFrame
--
->
-GetScrollableView
-(
-)
 )
 ;
 /
