@@ -633,6 +633,16 @@ EnsureUAStyleSheet
 (
 )
 ;
+static
+PRBool
+IsImageContentType
+(
+const
+char
+*
+aContentType
+)
+;
 }
 ;
 nsresult
