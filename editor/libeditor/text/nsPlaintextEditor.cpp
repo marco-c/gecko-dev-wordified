@@ -2625,7 +2625,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPlaintextEditor
 :
 :
@@ -2650,7 +2650,7 @@ EDirection
 aSelect
 )
 {
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
 aInOutParent
 &
