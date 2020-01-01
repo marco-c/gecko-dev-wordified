@@ -60,7 +60,7 @@ include
 "
 compiler
 /
-debug
+compilerdebug
 .
 h
 "

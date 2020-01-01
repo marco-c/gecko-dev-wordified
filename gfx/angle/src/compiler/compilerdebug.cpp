@@ -48,7 +48,7 @@ file
 /
 /
 /
-debug
+compilerdebug
 .
 cpp
 :
@@ -60,7 +60,7 @@ include
 "
 compiler
 /
-debug
+compilerdebug
 .
 h
 "

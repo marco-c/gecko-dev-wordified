@@ -48,7 +48,7 @@ file
 /
 /
 /
-debug
+compilerdebug
 .
 h
 :
