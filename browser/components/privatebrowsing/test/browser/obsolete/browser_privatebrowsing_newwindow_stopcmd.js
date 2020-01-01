@@ -132,6 +132,16 @@ win
 =
 OpenBrowserWindow
 (
+{
+private
+:
+PrivateBrowsingUtils
+.
+isWindowPrivate
+(
+window
+)
+}
 )
 ;
 win
