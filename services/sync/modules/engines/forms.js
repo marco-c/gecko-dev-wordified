@@ -2177,7 +2177,7 @@ value
 ;
 this
 .
-_score
+score
 +
 =
 10

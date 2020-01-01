@@ -3275,10 +3275,10 @@ n
 ;
 this
 .
-_score
+score
 +
 =
-50
+1
 ;
 }
 onTabClosed
@@ -3308,10 +3308,10 @@ n
 ;
 this
 .
-_score
+score
 +
 =
-10
+1
 ;
 }
 onTabSelected
@@ -3404,10 +3404,10 @@ n
 ;
 this
 .
-_score
+score
 +
 =
-10
+1
 ;
 }
 /
@@ -3450,7 +3450,7 @@ if
 (
 this
 .
-_score
+score
 >
 0
 )

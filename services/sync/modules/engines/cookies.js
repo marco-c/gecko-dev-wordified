@@ -2261,7 +2261,7 @@ _logName
 ;
 this
 .
-_score
+score
 =
 0
 ;
@@ -2458,7 +2458,7 @@ cookies
 /
 this
 .
-_score
+score
 +
 =
 10
