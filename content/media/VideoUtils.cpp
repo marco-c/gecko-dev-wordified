@@ -1462,7 +1462,7 @@ from
 number
 of
 audio
-samples
+frames
 to
 microseconds
 given
@@ -1474,10 +1474,10 @@ audio
 rate
 .
 PRBool
-SamplesToUsecs
+FramesToUsecs
 (
 PRInt64
-aSamples
+aFrames
 PRUint32
 aRate
 PRInt64
@@ -1493,7 +1493,7 @@ if
 !
 MulOverflow
 (
-aSamples
+aFrames
 USECS_PER_S
 x
 )
@@ -1520,7 +1520,7 @@ to
 number
 of
 audio
-samples
+frames
 given
 the
 specified
@@ -1530,7 +1530,7 @@ audio
 rate
 .
 PRBool
-UsecsToSamples
+UsecsToFrames
 (
 PRInt64
 aUsecs
@@ -1538,7 +1538,7 @@ PRUint32
 aRate
 PRInt64
 &
-aOutSamples
+aOutFrames
 )
 {
 PRInt64
@@ -1557,7 +1557,7 @@ x
 return
 PR_FALSE
 ;
-aOutSamples
+aOutFrames
 =
 x
 /

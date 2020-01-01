@@ -1134,9 +1134,9 @@ from
 number
 of
 audio
-samples
+frames
 (
-aSamples
+aFrames
 )
 to
 microseconds
@@ -1180,10 +1180,10 @@ the
 conversion
 .
 PRBool
-SamplesToUsecs
+FramesToUsecs
 (
 PRInt64
-aSamples
+aFrames
 PRUint32
 aRate
 PRInt64
@@ -1203,7 +1203,7 @@ to
 number
 of
 audio
-samples
+frames
 given
 the
 /
@@ -1219,7 +1219,7 @@ Stores
 the
 result
 in
-aOutSamples
+aOutFrames
 .
 Returns
 /
@@ -1245,7 +1245,7 @@ the
 conversion
 .
 PRBool
-UsecsToSamples
+UsecsToFrames
 (
 PRInt64
 aUsecs
@@ -1253,7 +1253,7 @@ PRUint32
 aRate
 PRInt64
 &
-aOutSamples
+aOutFrames
 )
 ;
 /

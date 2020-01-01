@@ -1516,7 +1516,7 @@ of
 the
 first
 audio
-sample
+frame
 we
 '
 ve
@@ -1529,7 +1529,8 @@ mAudioStartUsec
 /
 Number
 of
-samples
+audio
+frames
 we
 '
 ve
@@ -1541,7 +1542,7 @@ at
 mAudioStartMs
 .
 PRUint64
-mAudioSamples
+mAudioFrames
 ;
 /
 /
