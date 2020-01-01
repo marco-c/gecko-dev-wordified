@@ -2302,15 +2302,6 @@ mOldState
 ;
 }
 ;
-nsresult
-NS_NewTextEditRules
-(
-nsIEditRules
-*
-*
-aInstancePtrResult
-)
-;
 #
 endif
 /
