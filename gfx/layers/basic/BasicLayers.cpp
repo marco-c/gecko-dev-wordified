@@ -2948,14 +2948,6 @@ IsRetained
 |
 |
 (
-opacity
-=
-=
-1
-.
-0
-&
-&
 !
 canUseOpaqueSurface
 &
