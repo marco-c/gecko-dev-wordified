@@ -135,6 +135,12 @@ SupportCoreAnimationPlugins
 (
 )
 ;
+static
+bool
+OnMavericksOrLater
+(
+)
+;
 private
 :
 static
