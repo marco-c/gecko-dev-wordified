@@ -1742,10 +1742,7 @@ NS_ERROR_NOT_AVAILABLE
 *
 deviceID
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 mCacheEntry
 -

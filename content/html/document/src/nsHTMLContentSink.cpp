@@ -16535,6 +16535,15 @@ IsEmpty
 )
 )
 {
+AddOfflineResource
+(
+hrefVal
+)
+;
+if
+(
+mSaveOfflineResources
+)
 PrefetchHref
 (
 hrefVal

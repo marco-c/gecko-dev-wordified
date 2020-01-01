@@ -822,7 +822,7 @@ offline
 .
 capacity
 "
-51200
+10240
 )
 ;
 /

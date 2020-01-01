@@ -730,10 +730,7 @@ NS_ERROR_NOT_AVAILABLE
 *
 result
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 mCacheEntry
 -
@@ -2059,7 +2056,7 @@ NS_ERROR_NOT_AVAILABLE
 *
 result
 =
-PL_strdup
+NS_strdup
 (
 value
 )

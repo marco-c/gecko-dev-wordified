@@ -3100,10 +3100,7 @@ result
 *
 result
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 "
 Memory
