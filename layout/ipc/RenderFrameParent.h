@@ -1204,7 +1204,7 @@ mRect
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetPerFrameKey
 (
 )

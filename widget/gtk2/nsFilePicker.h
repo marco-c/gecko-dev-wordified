@@ -183,7 +183,7 @@ aCallback
 NS_IMETHODIMP
 AppendFilters
 (
-PRInt32
+int32_t
 aFilterMask
 )
 ;
@@ -237,7 +237,7 @@ aExtension
 NS_IMETHODIMP
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -245,7 +245,7 @@ aFilterIndex
 NS_IMETHODIMP
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 ;
@@ -279,7 +279,7 @@ aFiles
 NS_IMETHODIMP
 Show
 (
-PRInt16
+int16_t
 *
 aReturn
 )
@@ -298,7 +298,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 ;

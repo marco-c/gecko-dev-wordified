@@ -360,7 +360,7 @@ velocity
 void
 UpdateWithTouchAtDevicePoint
 (
-PRInt32
+int32_t
 aPos
 const
 TimeDuration
@@ -407,7 +407,7 @@ pan
 void
 StartTouch
 (
-PRInt32
+int32_t
 aPos
 )
 ;
@@ -971,7 +971,7 @@ direction
 Overscroll
 DisplacementWillOverscroll
 (
-PRInt32
+int32_t
 aDisplacement
 )
 ;
@@ -1109,7 +1109,7 @@ ScaleWillOverscroll
 (
 float
 aScale
-PRInt32
+int32_t
 aFocus
 )
 ;
@@ -1333,10 +1333,10 @@ aRect
 ;
 protected
 :
-PRInt32
+int32_t
 mPos
 ;
-PRInt32
+int32_t
 mStartPos
 ;
 float
@@ -1419,7 +1419,7 @@ of
 the
 page
 .
-PRInt32
+int32_t
 mAcceleration
 ;
 nsRefPtr

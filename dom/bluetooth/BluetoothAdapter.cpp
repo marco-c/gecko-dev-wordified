@@ -3209,7 +3209,7 @@ BluetoothAdapter
 :
 GetAdapterClass
 (
-PRUint32
+uint32_t
 *
 aClass
 )
@@ -3288,7 +3288,7 @@ BluetoothAdapter
 :
 GetDiscoverableTimeout
 (
-PRUint32
+uint32_t
 *
 aDiscoverableTimeout
 )
@@ -3546,7 +3546,7 @@ BluetoothAdapter
 SetDiscoverableTimeout
 (
 const
-PRUint32
+uint32_t
 aDiscoverableTimeout
 nsIDOMDOMRequest
 *
@@ -4135,7 +4135,7 @@ const
 nsAString
 &
 aDeviceAddress
-PRUint32
+uint32_t
 aPasskey
 )
 {

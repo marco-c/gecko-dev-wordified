@@ -1388,7 +1388,7 @@ array
 This
 is
 a
-PRUint64
+uint64_t
 because
 it
 is
@@ -1405,11 +1405,11 @@ timestamps
 as
 *
 a
-PRUint64
+uint64_t
 .
 *
 /
-PRUint64
+uint64_t
 mTapStartTime
 ;
 /

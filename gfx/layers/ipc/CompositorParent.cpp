@@ -3584,7 +3584,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 animations
@@ -5682,7 +5682,7 @@ true
 typedef
 map
 <
-PRUint64
+uint64_t
 CompositorParent
 *
 >
@@ -5769,7 +5769,7 @@ CompositorParent
 :
 GetCompositor
 (
-PRUint64
+uint64_t
 id
 )
 {
@@ -5815,13 +5815,13 @@ AddCompositor
 CompositorParent
 *
 compositor
-PRUint64
+uint64_t
 *
 outID
 )
 {
 static
-PRUint64
+uint64_t
 sNextID
 =
 1
@@ -5853,7 +5853,7 @@ CompositorParent
 :
 RemoveCompositor
 (
-PRUint64
+uint64_t
 id
 )
 {

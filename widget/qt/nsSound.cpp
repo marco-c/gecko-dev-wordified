@@ -687,10 +687,10 @@ nsISupports
 context
 nsresult
 aStatus
-PRUint32
+uint32_t
 dataLen
 const
-PRUint8
+uint8_t
 *
 data
 )
@@ -897,7 +897,7 @@ mask
 =
 0
 ;
-PRUint32
+uint32_t
 samples_per_sec
 =
 0
@@ -908,7 +908,7 @@ chunk_len
 =
 0
 ;
-PRUint16
+uint16_t
 format
 channels
 =
@@ -918,7 +918,7 @@ bits_per_sample
 0
 ;
 const
-PRUint8
+uint8_t
 *
 audio
 =
@@ -1017,7 +1017,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 i
 =
 12
@@ -1526,7 +1526,7 @@ ESD_STEREO
 ;
 nsAutoArrayPtr
 <
-PRUint8
+uint8_t
 >
 buf
 ;
@@ -1571,7 +1571,7 @@ bits_per_sample
 buf
 =
 new
-PRUint8
+uint8_t
 [
 audio_len
 ]
@@ -1586,7 +1586,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -2065,7 +2065,7 @@ nsSound
 :
 PlayEventSound
 (
-PRUint32
+uint32_t
 aEventId
 )
 {
