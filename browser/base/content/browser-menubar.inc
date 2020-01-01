@@ -1865,7 +1865,7 @@ accesskey
 =
 "
 &
-bookmarksSidebarCmd
+bookmarksButton
 .
 accesskey
 ;
