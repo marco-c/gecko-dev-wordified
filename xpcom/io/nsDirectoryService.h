@@ -216,7 +216,7 @@ nsDirectoryService
 )
 ;
 static
-nsresult
+void
 RealInit
 (
 )
