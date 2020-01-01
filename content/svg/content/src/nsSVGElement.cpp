@@ -592,7 +592,11 @@ h
 #
 include
 "
-nsCSSDeclaration
+mozilla
+/
+css
+/
+Declaration
 .
 h
 "

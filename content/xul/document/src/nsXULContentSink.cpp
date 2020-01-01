@@ -766,7 +766,11 @@ temporary
 #
 include
 "
-nsCSSLoader
+mozilla
+/
+css
+/
+Loader
 .
 h
 "
