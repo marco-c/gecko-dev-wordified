@@ -21689,7 +21689,7 @@ NS_DEFAULT_VERTICAL_SCROLL_DISTANCE
 )
 ;
 nscoord
-fontHeight
+increment
 =
 lineScrollAmount
 .
@@ -21707,7 +21707,7 @@ scrollArea
 .
 height
 -
-fontHeight
+increment
 )
 for
 height
@@ -21725,14 +21725,14 @@ small
 when
 /
 /
-fontHeight
+increment
 is
 very
 large
 .
 (
 If
-fontHeight
+increment
 is
 larger
 than
@@ -21804,7 +21804,7 @@ mScrollPort
 .
 height
 -
-fontHeight
+increment
 )
 ;
 nscoord
@@ -21837,7 +21837,7 @@ NS_MAX
 pageincrement
 pageincrementMin
 )
-fontHeight
+increment
 )
 ;
 }
