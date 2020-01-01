@@ -156,6 +156,14 @@ LPCWSTR
 argv
 )
 ;
+BOOL
+IsUnpromptedElevation
+(
+BOOL
+&
+isUnpromptedElevation
+)
+;
 #
 define
 SVC_NAME
