@@ -9289,6 +9289,11 @@ filename
 lineno
 )
 .
+setNoScriptRval
+(
+false
+)
+.
 setCompileAndGo
 (
 true
