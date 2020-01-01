@@ -1790,7 +1790,7 @@ true
 )
 ;
 return
-NS_OK
+0
 ;
 }
 #

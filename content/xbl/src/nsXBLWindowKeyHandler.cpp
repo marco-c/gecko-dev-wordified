@@ -2387,7 +2387,7 @@ any
 more
 handlers
 return
-NS_OK
+false
 ;
 }
 if
