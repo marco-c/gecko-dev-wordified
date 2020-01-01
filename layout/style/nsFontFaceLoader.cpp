@@ -4698,10 +4698,10 @@ mSrcIndex
 ;
 if
 (
+NS_FAILED
+(
 aStatus
-!
-=
-0
+)
 )
 {
 msg

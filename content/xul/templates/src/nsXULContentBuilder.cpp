@@ -11139,7 +11139,10 @@ strErr
 ;
 if
 (
+NS_FAILED
+(
 strErr
+)
 )
 staticCount
 =
