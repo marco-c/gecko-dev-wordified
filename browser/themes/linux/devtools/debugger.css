@@ -106,7 +106,7 @@ width
 #
 sources
 -
-pane
+container
 +
 .
 devtools
@@ -125,6 +125,18 @@ start
 color
 :
 transparent
+;
+}
+#
+pretty
+-
+print
+{
+font
+-
+weight
+:
+bold
 ;
 }
 .
