@@ -1740,6 +1740,14 @@ segment
 )
 ;
 }
+void
+removeSegment
+(
+ElfSegment
+*
+segment
+)
+;
 private
 :
 Elf_Ehdr
@@ -2760,6 +2768,11 @@ end
 )
 ;
 }
+void
+clear
+(
+)
+;
 private
 :
 unsigned
