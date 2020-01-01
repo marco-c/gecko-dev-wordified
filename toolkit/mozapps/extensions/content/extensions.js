@@ -5493,7 +5493,6 @@ chrome
 centerscreen
 modal
 "
-aAddon
 )
 ;
 else
