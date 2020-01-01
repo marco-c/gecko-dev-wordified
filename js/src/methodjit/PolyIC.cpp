@@ -15944,9 +15944,8 @@ at
 p
 for
 atom
-0x
 %
-lx
+p
 (
 \
 "
@@ -15979,8 +15978,8 @@ executableAddress
 (
 )
 (
-unsigned
-long
+void
+*
 )
 JSID_TO_ATOM
 (
