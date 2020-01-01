@@ -1139,6 +1139,7 @@ application
 "
 null
 )
+;
 }
 function
 getDistinctNotifications
