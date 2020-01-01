@@ -455,6 +455,7 @@ r
 }
 class
 RegAlloc
+MMGC_SUBCLASS_DECL
 {
 public
 :

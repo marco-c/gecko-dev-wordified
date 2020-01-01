@@ -992,6 +992,9 @@ GCObject
 {
 }
 ;
+#
+define
+MMGC_SUBCLASS_DECL
 class
 GCFinalizedObject
 {
@@ -3849,6 +3852,10 @@ point
 }
 }
 ;
+#
+define
+GCSortedMap
+SortedMap
 /
 *
 *
