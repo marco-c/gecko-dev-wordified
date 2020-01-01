@@ -5321,6 +5321,7 @@ registerDirectory
 path
 :
 "
++
 dir
 .
 path
