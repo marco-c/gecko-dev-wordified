@@ -23984,12 +23984,6 @@ NO_INCREMENTAL
 )
 return
 ;
-AutoCopyFreeListToArenas
-copy
-(
-rt
-)
-;
 if
 (
 rt
@@ -24059,6 +24053,12 @@ waitBackgroundSweepOrAllocEnd
 return
 ;
 }
+AutoCopyFreeListToArenas
+copy
+(
+rt
+)
+;
 JS_ASSERT
 (
 rt
