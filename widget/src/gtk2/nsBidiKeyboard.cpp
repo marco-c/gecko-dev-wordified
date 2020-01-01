@@ -676,7 +676,7 @@ SetHaveBidiKeyboards
 {
 mHaveBidiKeyboards
 =
-PR_FALSE
+false
 ;
 if
 (

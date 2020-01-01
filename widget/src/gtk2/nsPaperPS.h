@@ -618,7 +618,7 @@ mCurrent
 -
 *
 return
-PR_TRUE
+true
 if
 the
 cursor
@@ -884,7 +884,7 @@ name
 .
 *
 return
-PR_TRUE
+true
 if
 pointing
 to
@@ -1240,7 +1240,7 @@ height_mm
 -
 *
 return
-PR_TRUE
+true
 if
 the
 paper

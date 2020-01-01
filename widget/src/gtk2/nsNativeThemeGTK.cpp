@@ -725,7 +725,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 memset
@@ -2093,7 +2093,7 @@ aState
 >
 disabled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2163,7 +2163,7 @@ aState
 >
 active
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2911,13 +2911,13 @@ eTreeSortDirection_Natural
 *
 aWidgetFlags
 =
-PR_FALSE
+false
 ;
 else
 *
 aWidgetFlags
 =
-PR_TRUE
+true
 ;
 }
 aGtkWidgetType
@@ -3014,7 +3014,7 @@ GTK_ARROW_NONE
 #
 else
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3109,7 +3109,7 @@ case
 NS_THEME_DROPDOWN_TEXT
 :
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3598,11 +3598,11 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 class
@@ -3929,7 +3929,7 @@ bottom
 1
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_THEME_SCROLLBAR_THUMB_HORIZONTAL
@@ -3947,7 +3947,7 @@ right
 1
 ;
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -4031,7 +4031,7 @@ left
 indicator_spacing
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -4110,7 +4110,7 @@ left
 left
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -4127,7 +4127,7 @@ aFrame
 )
 )
 return
-PR_FALSE
+false
 ;
 gint
 gap_height
@@ -4154,7 +4154,7 @@ extra
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4186,7 +4186,7 @@ extra
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -5617,7 +5617,7 @@ SizeTo
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_THEME_MENUITEM
@@ -5650,7 +5650,7 @@ aFrame
 )
 )
 return
-PR_FALSE
+false
 ;
 aResult
 -
@@ -5753,12 +5753,12 @@ right
 horizontal_padding
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5801,7 +5801,7 @@ extraSize
 )
 )
 return
-PR_FALSE
+false
 ;
 p2a
 =
@@ -5855,7 +5855,7 @@ m
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -5895,7 +5895,7 @@ height
 *
 aIsOverridable
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -5939,7 +5939,7 @@ stepper_size
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -5981,7 +5981,7 @@ slider_width
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6050,7 +6050,7 @@ metrics
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6168,7 +6168,7 @@ slider_width
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6255,7 +6255,7 @@ it
 Setting
 aIsOverridable
 to
-PR_TRUE
+true
 has
 no
 effect
@@ -6370,7 +6370,7 @@ min_slider_size
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6447,7 +6447,7 @@ thumb_height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6476,7 +6476,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6502,7 +6502,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6530,7 +6530,7 @@ separator_height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6604,7 +6604,7 @@ indicator_size
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6642,7 +6642,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -6843,7 +6843,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -6878,7 +6878,7 @@ expander_size
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -7012,7 +7012,7 @@ NS_THEME_DIALOG
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7069,7 +7069,7 @@ maxpos
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -7142,7 +7142,7 @@ repaint
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7171,7 +7171,7 @@ etc
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7258,7 +7258,7 @@ parentfocused
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -7322,7 +7322,7 @@ aWidgetType
 )
 )
 return
-PR_FALSE
+false
 ;
 switch
 (
@@ -7678,7 +7678,7 @@ aWidgetType
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -7762,10 +7762,10 @@ aWidgetType
 NS_THEME_BUTTON_ARROW_PREVIOUS
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -7804,10 +7804,10 @@ aWidgetType
 NS_THEME_TREEVIEW_HEADER_CELL
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -7819,7 +7819,7 @@ ThemeNeedsComboboxDropmarker
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsITheme

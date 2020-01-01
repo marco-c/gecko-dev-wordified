@@ -770,15 +770,15 @@ nsnull
 )
 mIsComposing
 (
-PR_FALSE
+false
 )
 mIsIMFocused
 (
-PR_FALSE
+false
 )
 mIgnoreNativeCompositionEvent
 (
-PR_FALSE
+false
 )
 {
 #
@@ -2206,7 +2206,7 @@ IsDestroyed
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PR_LOG
@@ -2343,7 +2343,7 @@ mLastFocusedWindow
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 GtkIMContext
@@ -2379,7 +2379,7 @@ context
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mKeyDownEventWasSent
@@ -2388,7 +2388,7 @@ aKeyDownEventWasSent
 ;
 mFilterKeyEvent
 =
-PR_TRUE
+true
 ;
 mProcessingKeyEvent
 =
@@ -2529,7 +2529,7 @@ composition
 .
 filterThisEvent
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2621,7 +2621,7 @@ EmptyString
 ;
 filterThisEvent
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2654,7 +2654,7 @@ composition
 .
 filterThisEvent
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2827,7 +2827,7 @@ editor
 .
 mIgnoreNativeCompositionEvent
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2920,7 +2920,7 @@ return
 }
 mIgnoreNativeCompositionEvent
 =
-PR_TRUE
+true
 ;
 gtk_im_context_reset
 (
@@ -3748,7 +3748,7 @@ NULL
 ;
 gIsVirtualKeyboardOpened
 =
-PR_TRUE
+true
 ;
 hildon_gtk_im_context_show
 (
@@ -3760,7 +3760,7 @@ else
 {
 gIsVirtualKeyboardOpened
 =
-PR_FALSE
+false
 ;
 hildon_gtk_im_context_hide
 (
@@ -4008,7 +4008,7 @@ gIsVirtualKeyboardOpened
 #
 else
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -4276,7 +4276,7 @@ im
 ;
 mIsIMFocused
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4405,7 +4405,7 @@ im
 ;
 mIsIMFocused
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -4726,7 +4726,7 @@ ResetIME
 .
 mIgnoreNativeCompositionEvent
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4949,7 +4949,7 @@ gone
 DispatchTextEvent
 (
 compositionString
-PR_TRUE
+true
 )
 ;
 }
@@ -5709,7 +5709,7 @@ this
 ;
 mFilterKeyEvent
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -5805,12 +5805,12 @@ if
 DispatchTextEvent
 (
 aString
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5997,7 +5997,7 @@ composition
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6026,7 +6026,7 @@ module
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsEventStatus
@@ -6035,7 +6035,7 @@ status
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mLastFocusedWindow
 )
@@ -6090,7 +6090,7 @@ offset
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mCompositionStart
@@ -6237,7 +6237,7 @@ event
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6267,7 +6267,7 @@ reset
 ;
 mIgnoreNativeCompositionEvent
 =
-PR_FALSE
+false
 ;
 }
 PR_LOG
@@ -6287,12 +6287,12 @@ mCompositionStart
 ;
 mIsComposing
 =
-PR_TRUE
+true
 ;
 nsCompositionEvent
 compEvent
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mLastFocusedWindow
 )
@@ -6369,11 +6369,11 @@ event
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6444,7 +6444,7 @@ composition
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -6479,13 +6479,13 @@ module
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCompositionEvent
 compEvent
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 mLastFocusedWindow
 )
@@ -6524,7 +6524,7 @@ status
 ;
 mIsComposing
 =
-PR_FALSE
+false
 ;
 mCompositionStart
 =
@@ -6585,11 +6585,11 @@ event
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6663,7 +6663,7 @@ module
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -6710,7 +6710,7 @@ DispatchCompositionStart
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6736,7 +6736,7 @@ mDispatchedCompositionString
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 mLastFocusedWindow
 )
@@ -6803,14 +6803,14 @@ compositionupdate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mLastFocusedWindow
 )
@@ -6996,7 +6996,7 @@ event
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 SetCursorPosition
@@ -7005,7 +7005,7 @@ targetOffset
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -7757,7 +7757,7 @@ return
 nsQueryContentEvent
 charRect
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_RECT
 mLastFocusedWindow
 )
@@ -8038,7 +8038,7 @@ selection
 nsQueryContentEvent
 querySelectedTextEvent
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mLastFocusedWindow
 )
@@ -8191,7 +8191,7 @@ editor
 nsQueryContentEvent
 queryTextContentEvent
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 mLastFocusedWindow
 )
@@ -8328,7 +8328,7 @@ RFind
 \
 n
 "
-PR_FALSE
+false
 selOffset
 -
 1
@@ -8349,7 +8349,7 @@ Find
 \
 n
 "
-PR_FALSE
+false
 selOffset
 +
 selLength
@@ -8509,7 +8509,7 @@ selection
 nsQueryContentEvent
 querySelectedTextEvent
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mLastFocusedWindow
 )
@@ -8541,7 +8541,7 @@ delete
 nsSelectionEvent
 selectionEvent
 (
-PR_TRUE
+true
 NS_SELECTION_SET
 mLastFocusedWindow
 )
@@ -8568,13 +8568,13 @@ selectionEvent
 .
 mReversed
 =
-PR_FALSE
+false
 ;
 selectionEvent
 .
 mExpandToClusterBoundary
 =
-PR_FALSE
+false
 ;
 mLastFocusedWindow
 -
@@ -8602,7 +8602,7 @@ selection
 nsContentCommandEvent
 contentCommandEvent
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_DELETE
 mLastFocusedWindow
 )
@@ -8702,7 +8702,7 @@ mLastFocusedWindow
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /

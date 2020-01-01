@@ -786,7 +786,7 @@ below
 .
 *
 return
-PR_FALSE
+false
 if
 the
 shared
@@ -808,7 +808,7 @@ be
 found
 .
 *
-PR_TRUE
+true
 for
 successful
 initialization
@@ -825,7 +825,7 @@ Init
 *
 *
 return
-PR_TRUE
+true
 if
 the
 object
@@ -834,7 +834,7 @@ initialized
 successfully
 .
 *
-PR_FALSE
+false
 otherwise
 .
 *

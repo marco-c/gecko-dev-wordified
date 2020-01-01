@@ -499,11 +499,11 @@ disabled
 ?
 *
 return
-PR_TRUE
+true
 if
 enabled
 *
-PR_FALSE
+false
 if
 not
 .

@@ -682,7 +682,7 @@ false
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
