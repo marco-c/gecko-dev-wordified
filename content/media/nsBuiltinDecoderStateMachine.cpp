@@ -2621,10 +2621,6 @@ mState
 (
 DECODER_STATE_DECODING_METADATA
 )
-mCbCrSize
-(
-0
-)
 mPlayDuration
 (
 0
