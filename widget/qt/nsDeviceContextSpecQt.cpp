@@ -531,7 +531,7 @@ fileName
 (
 )
 .
-toAscii
+toUtf8
 (
 )
 .
