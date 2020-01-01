@@ -4134,10 +4134,10 @@ attached
 to
 mSrcStream
 .
-STRONG
-!
+nsRefPtr
+<
 StreamListener
-*
+>
 mSrcStreamListener
 ;
 /
