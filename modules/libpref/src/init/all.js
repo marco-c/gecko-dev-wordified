@@ -12585,6 +12585,16 @@ arabicnumeralBidi
 4
 =
 hindinumeralBidi
+/
+/
+5
+=
+persiancontextnumeralBidi
+/
+/
+6
+=
+persiannumeralBidi
 pref
 (
 "
