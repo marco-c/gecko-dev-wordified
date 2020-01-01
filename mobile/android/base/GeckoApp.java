@@ -4875,7 +4875,14 @@ addTab
 }
 public
 void
-showLocalTabs
+showNormalTabs
+(
+)
+{
+}
+public
+void
+showPrivateTabs
 (
 )
 {
