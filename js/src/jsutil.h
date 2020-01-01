@@ -4266,7 +4266,10 @@ JS_GUARD_OBJECT_NOTIFIER_PARAM
 ifdef
 DEBUG
 class
+JS_FRIEND_API
+(
 JSGuardObjectNotifier
+)
 {
 private
 :
@@ -4313,7 +4316,10 @@ aStatementDone
 }
 ;
 class
+JS_FRIEND_API
+(
 JSGuardObjectNotificationReceiver
+)
 {
 private
 :
