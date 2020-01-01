@@ -693,6 +693,8 @@ fputs
 currently
 acquired
 )
+\
+n
 "
 stderr
 )
@@ -1731,7 +1733,8 @@ out
 +
 =
 "
-Next
+\
+nNext
 dependency
 :
 \
