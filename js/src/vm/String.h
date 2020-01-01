@@ -2235,6 +2235,7 @@ jschar
 maybeChars
 (
 )
+const
 ;
 inline
 const
@@ -2243,6 +2244,7 @@ jschar
 maybeCharsZ
 (
 )
+const
 ;
 /
 *
@@ -6727,6 +6729,7 @@ JSString
 maybeChars
 (
 )
+const
 {
 if
 (
@@ -6757,6 +6760,7 @@ JSString
 maybeCharsZ
 (
 )
+const
 {
 if
 (
