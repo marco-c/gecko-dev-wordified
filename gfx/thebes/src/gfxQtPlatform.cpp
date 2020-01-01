@@ -493,7 +493,7 @@ h
 #
 include
 "
-gfxQtFonts
+gfxFT2Fonts
 .
 h
 "
@@ -2111,7 +2111,7 @@ aStyle
 {
 return
 new
-gfxQtFontGroup
+gfxFT2FontGroup
 (
 aFamilies
 aStyle
