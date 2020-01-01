@@ -2518,15 +2518,6 @@ document
 "
 )
 ;
-gLastFocusedAccessiblesState
-=
-focusAccessible
--
->
-State
-(
-)
-;
 /
 /
 Fire
@@ -4382,10 +4373,6 @@ NS_IF_RELEASE
 (
 gLastFocusedNode
 )
-;
-gLastFocusedAccessiblesState
-=
-0
 ;
 }
 else

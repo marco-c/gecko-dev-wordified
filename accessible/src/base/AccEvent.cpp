@@ -1989,6 +1989,8 @@ nsIAccessibleEvent
 :
 EVENT_STATE_CHANGE
 aNode
+eAutoDetect
+eAllowDupes
 )
 mState
 (
@@ -2021,6 +2023,8 @@ nsIAccessibleEvent
 :
 EVENT_STATE_CHANGE
 aNode
+eAutoDetect
+eAllowDupes
 )
 mState
 (
