@@ -458,6 +458,13 @@ h
 #
 include
 "
+gfxPangoFonts
+.
+h
+"
+#
+include
+"
 cairo
 .
 h
@@ -673,6 +680,13 @@ Shutdown
 sFontconfigUtils
 =
 nsnull
+;
+gfxPangoFont
+:
+:
+Shutdown
+(
+)
 ;
 #
 ifndef

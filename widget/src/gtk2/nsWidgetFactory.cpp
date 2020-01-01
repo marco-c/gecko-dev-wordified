@@ -1572,6 +1572,13 @@ Shutdown
 (
 )
 ;
+nsSound
+:
+:
+Shutdown
+(
+)
+;
 nsWindow
 :
 :

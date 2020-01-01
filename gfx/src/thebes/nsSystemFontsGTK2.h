@@ -457,6 +457,11 @@ nsSystemFontsGTK2
 (
 )
 ;
+~
+nsSystemFontsGTK2
+(
+)
+;
 nsresult
 GetSystemFont
 (

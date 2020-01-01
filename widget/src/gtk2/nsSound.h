@@ -495,6 +495,12 @@ nsSound
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISOUND
 NS_DECL_NSISTREAMLOADEROBSERVER
