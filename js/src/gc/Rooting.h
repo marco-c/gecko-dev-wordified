@@ -287,6 +287,9 @@ PropertyName
 RootedPropertyName
 ;
 typedef
+JS
+:
+:
 Rooted
 <
 js
