@@ -75072,17 +75072,6 @@ callee_ins
 {
 LIns
 *
-global_ins
-=
-w
-.
-immpObjGC
-(
-globalObj
-)
-;
-LIns
-*
 argc_ins
 =
 w
@@ -75111,7 +75100,6 @@ args
 {
 callee_ins
 argc_ins
-global_ins
 cx_ins
 }
 ;
