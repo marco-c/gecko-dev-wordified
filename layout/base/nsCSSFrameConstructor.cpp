@@ -8846,7 +8846,7 @@ into
 the
 new
 view
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList
@@ -12364,7 +12364,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -12761,7 +12761,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -13396,7 +13396,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -15685,7 +15685,7 @@ to
 create
 a
 view
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -18823,7 +18823,7 @@ to
 create
 a
 view
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -19629,7 +19629,7 @@ nsnull
 comboboxFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -20706,7 +20706,7 @@ rv
 ;
 }
 }
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -20951,7 +20951,7 @@ absolutely
 /
 /
 positioned
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -23752,7 +23752,7 @@ to
 create
 a
 view
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -26235,7 +26235,7 @@ gfxScrollFrame
 Create
 a
 view
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -30317,7 +30317,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -53837,7 +53837,7 @@ aParentFrame
 aFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -54052,7 +54052,7 @@ aParentFrame
 aFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -54554,7 +54554,7 @@ aParentFrame
 aFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -68264,7 +68264,7 @@ to
 create
 a
 view
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -69266,7 +69266,7 @@ or
 fixed
 background
 )
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -69821,7 +69821,7 @@ could
 have
 a
 view
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame

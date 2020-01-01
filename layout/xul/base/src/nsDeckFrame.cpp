@@ -777,7 +777,7 @@ Next
 )
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame

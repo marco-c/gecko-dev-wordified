@@ -2264,7 +2264,7 @@ to
 be
 reparented
 .
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList
@@ -3089,7 +3089,7 @@ that
 we
 do
 .
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList
@@ -5878,7 +5878,7 @@ SetDirtyNextLine
 )
 ;
 }
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameView

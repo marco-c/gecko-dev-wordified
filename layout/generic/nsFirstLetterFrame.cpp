@@ -2465,7 +2465,7 @@ to
 be
 reparented
 .
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList

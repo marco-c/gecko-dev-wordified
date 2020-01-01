@@ -4451,7 +4451,7 @@ need
 to
 be
 reparented
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameView

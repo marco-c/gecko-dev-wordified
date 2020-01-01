@@ -1899,7 +1899,7 @@ as
 necessary
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList
