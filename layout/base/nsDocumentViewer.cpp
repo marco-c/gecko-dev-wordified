@@ -14376,6 +14376,11 @@ aCopyable
 =
 PR_FALSE
 ;
+NS_ENSURE_STATE
+(
+mPresShell
+)
+;
 nsCOMPtr
 <
 nsISelection
