@@ -4065,17 +4065,6 @@ clear
 )
 ;
 #
-else
-rt
--
->
-threadData
-.
-finish
-(
-)
-;
-#
 endif
 }
 void
