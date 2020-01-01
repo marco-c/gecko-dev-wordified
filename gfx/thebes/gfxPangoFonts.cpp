@@ -12124,6 +12124,10 @@ Clear
 (
 )
 ;
+mCachedEllipsisTextRun
+=
+nullptr
+;
 mUnderlineOffset
 =
 UNDERLINE_OFFSET_NOT_SET
