@@ -1036,8 +1036,8 @@ rmode
 >
 =
 0
-|
-|
+&
+&
 rmode
 <
 RENDER_MODE_MAX
