@@ -463,9 +463,11 @@ i
 )
 ;
 aItems
-=
-[
-]
+.
+splice
+(
+0
+)
 ;
 var
 oldCount
