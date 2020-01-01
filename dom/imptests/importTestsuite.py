@@ -1494,8 +1494,6 @@ argv
 "
 dom
 /
-imported
--
-tests
+imptests
 "
 )
