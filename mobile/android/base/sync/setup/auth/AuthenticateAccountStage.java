@@ -142,7 +142,7 @@ gecko
 .
 sync
 .
-GlobalConstants
+SyncConstants
 ;
 import
 org
@@ -761,7 +761,7 @@ User
 -
 Agent
 "
-GlobalConstants
+SyncConstants
 .
 SYNC_USER_AGENT
 )

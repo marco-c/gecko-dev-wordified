@@ -98,6 +98,17 @@ gecko
 .
 sync
 .
+SyncConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 Logger
 ;
 import
@@ -269,7 +280,7 @@ JSON_KEY_VERSION
 long
 expectedVersion
 =
-GlobalConstants
+SyncConstants
 .
 SYNC_ACCOUNT_DELETED_INTENT_VERSION
 ;

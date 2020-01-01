@@ -101,6 +101,17 @@ gecko
 .
 sync
 .
+SyncConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 Logger
 ;
 import
@@ -720,7 +731,7 @@ putString
 AccountManager
 .
 KEY_ACCOUNT_TYPE
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )
@@ -1048,7 +1059,7 @@ putExtra
 "
 accountType
 "
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )
