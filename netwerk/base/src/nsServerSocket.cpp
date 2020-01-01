@@ -75,13 +75,6 @@ MPL
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsSocketTransport2
 .
 h

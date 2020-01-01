@@ -102,13 +102,6 @@ nsDNSPrefetch_h___
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

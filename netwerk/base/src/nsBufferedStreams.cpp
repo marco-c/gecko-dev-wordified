@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsBufferedStreams
 .
 h
@@ -120,13 +113,6 @@ h
 include
 "
 nsStreamUtils
-.
-h
-"
-#
-include
-"
-nsCRT
 .
 h
 "

@@ -86,13 +86,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

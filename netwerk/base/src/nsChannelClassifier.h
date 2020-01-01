@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsIRunnable
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

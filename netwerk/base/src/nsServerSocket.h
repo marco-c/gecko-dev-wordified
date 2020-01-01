@@ -81,14 +81,14 @@ nsServerSocket_h__
 #
 include
 "
-nsIServerSocket
+nsASocketHandler
 .
 h
 "
 #
 include
 "
-nsSocketTransportService2
+nsIServerSocket
 .
 h
 "

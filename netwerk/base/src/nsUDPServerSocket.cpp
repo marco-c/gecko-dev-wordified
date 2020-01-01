@@ -75,13 +75,6 @@ MPL
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsSocketTransport2
 .
 h
@@ -183,13 +176,6 @@ h
 include
 "
 prerror
-.
-h
-"
-#
-include
-"
-nsINSSErrorsService
 .
 h
 "

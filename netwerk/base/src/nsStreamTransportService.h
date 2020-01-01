@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsIThreadPool
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -100,6 +93,9 @@ Attributes
 .
 h
 "
+class
+nsIThreadPool
+;
 class
 nsStreamTransportService
 MOZ_FINAL

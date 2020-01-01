@@ -288,6 +288,13 @@ h
 "
 #
 include
+"
+nsICancelable
+.
+h
+"
+#
+include
 <
 algorithm
 >

@@ -111,14 +111,7 @@ h
 #
 include
 "
-nsIURL
-.
-h
-"
-#
-include
-"
-nsAgg
+nsIURI
 .
 h
 "

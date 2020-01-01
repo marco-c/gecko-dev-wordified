@@ -109,9 +109,6 @@ h
 class
 nsISerializable
 ;
-class
-nsISupports
-;
 /
 *
 *
