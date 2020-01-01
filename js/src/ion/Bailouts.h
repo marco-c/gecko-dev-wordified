@@ -1344,6 +1344,13 @@ BAILOUT_RETURN_RECOMPILE_CHECK
 =
 5
 ;
+static
+const
+uint32
+BAILOUT_RETURN_BOUNDS_CHECK
+=
+6
+;
 /
 /
 Attached
@@ -1900,6 +1907,11 @@ bailoutResult
 ;
 uint32
 RecompileForInlining
+(
+)
+;
+uint32
+BoundsCheckFailure
 (
 )
 ;
