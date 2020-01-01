@@ -1223,6 +1223,14 @@ ins
 )
 ;
 bool
+visitBoundsCheckLower
+(
+MBoundsCheckLower
+*
+ins
+)
+;
+bool
 visitLoadElement
 (
 MLoadElement

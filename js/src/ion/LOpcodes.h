@@ -765,6 +765,16 @@ BoundsCheck
 \
 _
 (
+BoundsCheckRange
+)
+\
+_
+(
+BoundsCheckLower
+)
+\
+_
+(
 LoadElementV
 )
 \
