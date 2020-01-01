@@ -1284,6 +1284,10 @@ mError
 =
 aError
 ;
+mCursor
+=
+nsnull
+;
 }
 NS_IMETHODIMP
 SmsRequest
