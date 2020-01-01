@@ -490,7 +490,7 @@ panning
 .
 kinetic
 "
-false
+true
 )
 ;
 /
