@@ -2090,6 +2090,10 @@ timeout
 =
 0
 ;
+mImageContainer
+=
+nsnull
+;
 /
 /
 Figure
@@ -9150,6 +9154,10 @@ mAnim
 currentAnimationFrameIndex
 =
 0
+;
+mImageContainer
+=
+nsnull
 ;
 /
 /
