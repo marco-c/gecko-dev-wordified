@@ -468,7 +468,7 @@ h
 #
 include
 "
-jstypedarray
+jsfriendapi
 .
 h
 "
@@ -2230,7 +2230,7 @@ jsArrayType
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_UINT8
@@ -2250,7 +2250,7 @@ jsArrayType
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_FLOAT32
@@ -2269,7 +2269,9 @@ array
 type
 for
 given
-format
+texture
+data
+type
 "
 info
 )
@@ -2402,7 +2404,7 @@ jsArrayType
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_UINT16
@@ -2420,7 +2422,9 @@ array
 type
 for
 given
-format
+texture
+data
+type
 "
 info
 )
@@ -2482,7 +2486,7 @@ jsArrayType
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_UINT16
@@ -2500,7 +2504,9 @@ array
 type
 for
 given
-format
+texture
+data
+type
 "
 info
 )

@@ -764,6 +764,7 @@ xhr
 Send
 (
 nsnull
+nsnull
 )
 ;
 TEST_ENSURE_SUCCESS

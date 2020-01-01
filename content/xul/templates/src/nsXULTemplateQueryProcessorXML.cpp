@@ -1574,6 +1574,12 @@ req
 Send
 (
 nsnull
+context
+-
+>
+GetNativeContext
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

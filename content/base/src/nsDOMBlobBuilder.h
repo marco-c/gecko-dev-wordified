@@ -773,6 +773,9 @@ AppendArrayBuffer
 JSObject
 *
 aBuffer
+JSContext
+*
+aCx
 )
 ;
 nsresult

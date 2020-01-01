@@ -140,7 +140,7 @@ h
 #
 include
 "
-jstypedarray
+jsfriendapi
 .
 h
 "
@@ -1150,6 +1150,7 @@ clasp
 JS_IsArrayBufferObject
 (
 obj
+cx
 )
 ;
 }

@@ -4244,6 +4244,9 @@ JSObject
 data
 WebGLenum
 usage
+JSContext
+*
+cx
 )
 ;
 nsresult
@@ -4256,6 +4259,9 @@ JSObject
 data
 WebGLenum
 usage
+JSContext
+*
+cx
 )
 ;
 nsresult
@@ -4268,6 +4274,9 @@ offset
 JSObject
 *
 data
+JSContext
+*
+cx
 )
 ;
 nsresult
@@ -4280,6 +4289,9 @@ offset
 JSObject
 *
 data
+JSContext
+*
+cx
 )
 ;
 nsCOMPtr
