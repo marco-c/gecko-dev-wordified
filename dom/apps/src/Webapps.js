@@ -1785,9 +1785,9 @@ DOMRequest
 fireError
 (
 req
-msg
-.
-origin
+"
+NOT_INSTALLED
+"
 )
 ;
 break
