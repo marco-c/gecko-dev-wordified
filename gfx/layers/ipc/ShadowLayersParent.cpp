@@ -2845,7 +2845,7 @@ replyv
 .
 push_back
 (
-OpBufferSwap
+OpImageSwap
 (
 shadow
 NULL

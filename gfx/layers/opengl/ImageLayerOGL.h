@@ -1575,8 +1575,14 @@ TextureImage
 >
 mTexImage
 ;
-SurfaceDescriptor
-mDeadweight
+GLTexture
+mYUVTexture
+[
+3
+]
+;
+gfxIntSize
+mSize
 ;
 }
 ;
