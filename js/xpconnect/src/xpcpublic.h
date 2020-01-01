@@ -2521,6 +2521,8 @@ cx
 JSObject
 *
 global
+jsid
+id
 bool
 *
 enabled
