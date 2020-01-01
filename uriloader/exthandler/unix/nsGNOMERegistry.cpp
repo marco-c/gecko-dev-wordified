@@ -531,6 +531,8 @@ object
 h
 >
 #
+endif
+#
 ifdef
 MOZ_PLATFORM_HILDON
 #
@@ -540,8 +542,6 @@ libintl
 .
 h
 >
-#
-endif
 #
 endif
 /
