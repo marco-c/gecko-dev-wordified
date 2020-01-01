@@ -1697,7 +1697,6 @@ none
 .
 *
 /
-virtual
 void
 SetRoleMapEntry
 (
@@ -1705,7 +1704,12 @@ nsRoleMapEntry
 *
 aRoleMapEntry
 )
+{
+mRoleMapEntry
+=
+aRoleMapEntry
 ;
+}
 /
 *
 *
