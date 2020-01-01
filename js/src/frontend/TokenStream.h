@@ -1474,9 +1474,9 @@ decimalPoint
 *
 literal
 contains
+'
 .
-or
-exponent
+'
 *
 /
 }
