@@ -1000,7 +1000,7 @@ uninstalled
 /
 static
 void
-AppUninstallObserverInit
+AppClearDataObserverInit
 (
 )
 ;
