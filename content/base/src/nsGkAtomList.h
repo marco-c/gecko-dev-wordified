@@ -12230,17 +12230,6 @@ void
 *
 GK_ATOM
 (
-collapseOffsetProperty
-"
-CollapseOffsetProperty
-"
-)
-/
-/
-nsPoint
-*
-GK_ATOM
-(
 computedOffsetProperty
 "
 ComputedOffsetProperty
