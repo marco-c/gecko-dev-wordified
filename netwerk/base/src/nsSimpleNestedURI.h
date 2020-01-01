@@ -681,6 +681,8 @@ nsSimpleURI
 *
 StartClone
 (
+RefHandlingEnum
+refHandlingMode
 )
 ;
 /
