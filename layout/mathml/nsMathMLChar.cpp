@@ -7430,19 +7430,9 @@ GetThebesFontGroup
 )
 -
 >
-GetFontAt
+GetFamilyNameAt
 (
 0
-)
--
->
-GetFontEntry
-(
-)
--
->
-FamilyName
-(
 )
 =
 =
@@ -7464,6 +7454,7 @@ fm
 ;
 }
 else
+{
 return
 false
 ;
@@ -7475,6 +7466,7 @@ not
 set
 the
 font
+}
 }
 return
 true

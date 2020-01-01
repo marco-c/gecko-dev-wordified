@@ -842,8 +842,9 @@ the
 system
 default
 font
+family
 virtual
-gfxFontEntry
+gfxFontFamily
 *
 GetDefaultFont
 (
@@ -851,9 +852,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-&
-aNeedsBold
 )
 =
 0
@@ -1124,7 +1122,6 @@ given
 character
 null
 otherwise
-virtual
 gfxFontEntry
 *
 CommonFontFallback
@@ -1138,6 +1135,10 @@ const
 gfxFontStyle
 *
 aMatchStyle
+gfxFontFamily
+*
+*
+aMatchedFamily
 )
 ;
 /
@@ -1170,6 +1171,10 @@ aMatchStyle
 uint32_t
 &
 aCmapCount
+gfxFontFamily
+*
+*
+aMatchedFamily
 )
 ;
 /
@@ -1677,7 +1682,10 @@ with
 lots
 of
 problems
-nsString
+nsRefPtr
+<
+gfxFontFamily
+>
 mReplacementCharFallbackFamily
 ;
 nsTHashtable

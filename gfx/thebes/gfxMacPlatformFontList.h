@@ -386,7 +386,7 @@ aAppleWeight
 )
 ;
 virtual
-gfxFontEntry
+gfxFontFamily
 *
 GetDefaultFont
 (
@@ -394,9 +394,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-&
-aNeedsBold
 )
 ;
 virtual
@@ -544,6 +541,10 @@ aMatchStyle
 uint32_t
 &
 aCmapCount
+gfxFontFamily
+*
+*
+aMatchedFamily
 )
 ;
 virtual
