@@ -117,7 +117,6 @@ package
 .
 *
 /
-JS_BEGIN_EXTERN_C
 struct
 DtoaState
 ;
@@ -995,7 +994,6 @@ double
 d
 )
 ;
-JS_END_EXTERN_C
 #
 endif
 /

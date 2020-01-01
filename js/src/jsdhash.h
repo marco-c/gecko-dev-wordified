@@ -141,7 +141,6 @@ jsutil
 .
 h
 "
-JS_BEGIN_EXTERN_C
 #
 if
 defined
@@ -4860,7 +4859,6 @@ fp
 ;
 #
 endif
-JS_END_EXTERN_C
 #
 endif
 /

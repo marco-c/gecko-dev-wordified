@@ -20282,7 +20282,6 @@ reflect_parse
 JS_FS_END
 }
 ;
-JS_BEGIN_EXTERN_C
 JS_PUBLIC_API
 (
 JSObject
@@ -20379,4 +20378,3 @@ return
 Reflect
 ;
 }
-JS_END_EXTERN_C

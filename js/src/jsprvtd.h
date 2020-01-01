@@ -283,7 +283,6 @@ h
 "
 #
 endif
-JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -1856,7 +1855,6 @@ JSBool
 keysonly
 )
 ;
-JS_END_EXTERN_C
 #
 endif
 /

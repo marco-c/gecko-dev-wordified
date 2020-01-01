@@ -1925,7 +1925,6 @@ me
 "
 #
 endif
-JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -3162,7 +3161,6 @@ s
 s
 #
 endif
-JS_END_EXTERN_C
 #
 endif
 /

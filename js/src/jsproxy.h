@@ -2420,7 +2420,6 @@ namespace
 js
 *
 /
-JS_BEGIN_EXTERN_C
 extern
 JS_FRIEND_API
 (
@@ -2436,6 +2435,5 @@ JSHandleObject
 obj
 )
 ;
-JS_END_EXTERN_C
 #
 endif

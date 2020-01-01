@@ -430,7 +430,6 @@ id
 )
 #
 endif
-JS_BEGIN_EXTERN_C
 #
 ifdef
 WIN32
@@ -1119,7 +1118,6 @@ JSInitCallback
 void
 )
 ;
-JS_END_EXTERN_C
 #
 ifdef
 __cplusplus

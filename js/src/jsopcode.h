@@ -132,7 +132,6 @@ jsutil
 .
 h
 "
-JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -2766,7 +2765,6 @@ pop
 )
 #
 endif
-JS_END_EXTERN_C
 #
 define
 JSDVG_IGNORE_STACK

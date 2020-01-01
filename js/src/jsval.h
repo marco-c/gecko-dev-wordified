@@ -141,7 +141,6 @@ Utility
 .
 h
 "
-JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -4152,7 +4151,6 @@ return
 d
 ;
 }
-JS_END_EXTERN_C
 #
 ifdef
 __cplusplus

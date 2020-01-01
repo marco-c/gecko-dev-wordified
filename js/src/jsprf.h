@@ -274,7 +274,6 @@ stdarg
 .
 h
 >
-JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -755,7 +754,6 @@ va_list
 ap
 )
 ;
-JS_END_EXTERN_C
 #
 endif
 /
