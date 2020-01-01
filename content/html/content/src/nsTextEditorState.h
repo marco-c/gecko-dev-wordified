@@ -1180,7 +1180,7 @@ observer
 stored
 in
 the
-mAnonDivObserver
+mMutationObserver
 has
 the
 job
