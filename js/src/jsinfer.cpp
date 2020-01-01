@@ -30164,6 +30164,7 @@ if
 baseobj
 |
 |
+(
 baseobj
 -
 >
@@ -30179,6 +30180,7 @@ type
 -
 >
 newScriptCleared
+)
 )
 return
 ;
