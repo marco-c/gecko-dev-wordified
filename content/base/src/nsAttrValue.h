@@ -522,6 +522,8 @@ template
 <
 class
 E
+class
+A
 >
 class
 nsTArray
@@ -530,9 +532,14 @@ template
 <
 class
 E
+class
+A
 >
 class
 nsTPtrArray
+;
+struct
+nsTArrayDefaultAllocator
 ;
 #
 define
@@ -2583,6 +2590,7 @@ nsTPtrArray
 <
 const
 EnumTable
+nsTArrayDefaultAllocator
 >
 *
 sEnumTableArray

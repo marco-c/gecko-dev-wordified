@@ -2710,12 +2710,13 @@ return
 ExprBinary
 (
         
-ExprVar
+ExprSelect
 (
+arr
 '
-nsTArray_base
-:
-:
+.
+'
+'
 NoIndex
 '
 )

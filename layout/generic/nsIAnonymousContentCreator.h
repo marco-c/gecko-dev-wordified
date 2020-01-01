@@ -466,6 +466,8 @@ template
 <
 class
 T
+class
+A
 >
 class
 nsTArray

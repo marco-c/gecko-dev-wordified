@@ -2320,6 +2320,7 @@ parent
 .
 *
 /
+typedef
 nsAutoTArray
 <
 nsRefPtr
@@ -2328,6 +2329,9 @@ Layer
 >
 1
 >
+AutoLayersArray
+;
+AutoLayersArray
 mNewChildLayers
 ;
 nsTArray
@@ -5675,7 +5679,7 @@ list
 "
 )
 ;
-nsTArray_base
+AutoLayersArray
 :
 :
 index_type
@@ -5696,7 +5700,7 @@ NS_ASSERTION
 index
 !
 =
-nsTArray_base
+AutoLayersArray
 :
 :
 NoIndex
