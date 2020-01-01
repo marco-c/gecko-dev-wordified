@@ -4138,6 +4138,14 @@ if
 IsSVGText
 (
 )
+&
+&
+!
+(
+mState
+&
+NS_FRAME_FIRST_REFLOW
+)
 )
 {
 nsSVGTextFrame2
