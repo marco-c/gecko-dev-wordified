@@ -294,12 +294,6 @@ UTF
 "
 ;
 var
-result
-=
-{
-}
-;
-var
 data
 =
 converter
@@ -307,7 +301,6 @@ converter
 convertToByteArray
 (
 fragment
-result
 )
 ;
 var

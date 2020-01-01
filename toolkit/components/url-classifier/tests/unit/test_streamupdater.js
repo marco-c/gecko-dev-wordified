@@ -140,12 +140,6 @@ keyObject
 )
 ;
 var
-result
-=
-{
-}
-;
-var
 data
 =
 converter
@@ -153,7 +147,6 @@ converter
 convertToByteArray
 (
 content
-result
 )
 ;
 hmac

@@ -1238,6 +1238,9 @@ convertToByteArray
 in
 AString
 aString
+[
+optional
+]
 out
 unsigned
 long

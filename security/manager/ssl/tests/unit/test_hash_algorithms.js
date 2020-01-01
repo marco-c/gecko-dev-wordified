@@ -454,8 +454,6 @@ converter
 convertToByteArray
 (
 value
-{
-}
 )
 ;
 hash
