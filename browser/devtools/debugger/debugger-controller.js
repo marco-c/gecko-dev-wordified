@@ -3750,6 +3750,10 @@ scope
 addVar
 (
 name
+variable
+[
+name
+]
 )
 ;
 let
@@ -4027,6 +4031,10 @@ aScope
 addVar
 (
 variable
+variables
+[
+variable
+]
 )
 ;
 let
