@@ -662,24 +662,6 @@ d
 '
 ]
         
-#
-There
-is
-a
-test
-that
-requires
-the
-path
-to
-start
-with
-'
-.
-/
-'
-.
-        
 cmd
 +
 =
@@ -688,11 +670,6 @@ cmd
 -
 f
 '
-'
-.
-/
-'
-+
 self
 .
 path
