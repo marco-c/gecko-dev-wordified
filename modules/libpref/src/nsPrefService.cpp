@@ -3430,10 +3430,7 @@ fileBuffer
 new
 char
 [
-nsInt64
-(
 fileSize
-)
 ]
 ;
 if
