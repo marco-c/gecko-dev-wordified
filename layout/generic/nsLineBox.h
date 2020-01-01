@@ -3418,7 +3418,7 @@ operator
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -3449,7 +3449,7 @@ operator
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -3477,7 +3477,7 @@ get
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -3505,7 +3505,7 @@ pointer
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -3535,7 +3535,7 @@ operator
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -3567,7 +3567,7 @@ operator
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -3599,7 +3599,7 @@ const_pointer
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4127,7 +4127,7 @@ operator
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4158,7 +4158,7 @@ operator
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4186,7 +4186,7 @@ get
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4214,7 +4214,7 @@ pointer
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4244,7 +4244,7 @@ operator
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4276,7 +4276,7 @@ operator
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4308,7 +4308,7 @@ const_pointer
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4793,7 +4793,7 @@ operator
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4825,7 +4825,7 @@ operator
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4854,7 +4854,7 @@ get
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -4886,7 +4886,7 @@ const_pointer
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -5413,7 +5413,7 @@ operator
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -5445,7 +5445,7 @@ operator
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -5474,7 +5474,7 @@ get
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
@@ -5506,7 +5506,7 @@ const_pointer
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mCurrent
 !
