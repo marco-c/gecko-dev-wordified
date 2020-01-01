@@ -1764,6 +1764,8 @@ mallocSizeOf
 void
 *
 userArg
+=
+NULL
 )
 {
 if
