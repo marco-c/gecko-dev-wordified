@@ -1912,7 +1912,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1923,11 +1923,11 @@ HasBullet
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1995,7 +1995,7 @@ kid
 ;
 result
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -2038,7 +2038,7 @@ CachedIsEmpty
 {
 result
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2053,7 +2053,7 @@ HasBullet
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2061,7 +2061,7 @@ mFlags
 .
 mEmptyCacheValid
 =
-PR_TRUE
+true
 ;
 mFlags
 .
@@ -2414,7 +2414,7 @@ aFrameIndexInLine
 i
 ;
 return
-PR_TRUE
+true
 ;
 }
 -
@@ -2439,7 +2439,7 @@ aFrameIndexInLine
 1
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCollapsingMargin
@@ -2958,12 +2958,12 @@ MaybeFreeData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -3235,7 +3235,7 @@ mIndex
 ;
 mRightToLeft
 =
-PR_FALSE
+false
 ;
 }
 nsLineIterator
@@ -3777,7 +3777,7 @@ line
 *
 aIsReordered
 =
-PR_FALSE
+false
 ;
 *
 aFirstVisual
@@ -3966,12 +3966,12 @@ nsnull
 *
 aXIsBeforeFirstFrame
 =
-PR_TRUE
+true
 ;
 *
 aXIsAfterLastFrame
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
