@@ -821,7 +821,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 name
@@ -1453,7 +1453,7 @@ nsnull
 /
 Protected
 members
-PRBool
+bool
 nsHTMLLinkAccessible
 :
 :

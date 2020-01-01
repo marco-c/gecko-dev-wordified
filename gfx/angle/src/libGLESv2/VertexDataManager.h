@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2012
+2011
 The
 ANGLE
 Project
@@ -140,10 +140,6 @@ vertexBuffer
 unsigned
 int
 serial
-;
-unsigned
-int
-divisor
 ;
 }
 ;
@@ -540,8 +536,6 @@ count
 TranslatedAttribute
 *
 outAttribs
-GLsizei
-instances
 )
 ;
 private
@@ -566,8 +560,6 @@ std
 :
 size_t
 count
-GLsizei
-instances
 )
 const
 ;
@@ -588,8 +580,6 @@ const
 VertexAttribute
 &
 attribute
-GLsizei
-instances
 )
 ;
 Context

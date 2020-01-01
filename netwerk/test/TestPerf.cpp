@@ -67,7 +67,7 @@ nsIIOService
 *
 gIOService
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -178,7 +178,7 @@ element
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 nsresult
@@ -241,7 +241,7 @@ rv
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 char
@@ -250,7 +250,7 @@ buf
 4096
 ]
 ;
-uint32_t
+PRUint32
 bytesRead
 ;
 while
@@ -338,7 +338,7 @@ break
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -356,7 +356,7 @@ urls
 EnumerateForwards
 (
 load_sync_1
-nullptr
+nsnull
 )
 ;
 return
@@ -512,9 +512,9 @@ ctx
 nsIInputStream
 *
 stream
-uint64_t
+PRUint32
 offset
-uint32_t
+PRUint32
 count
 )
 {
@@ -527,7 +527,7 @@ buf
 4096
 ]
 ;
-uint32_t
+PRUint32
 n
 bytesRead
 ;
@@ -540,7 +540,7 @@ n
 =
 NS_MIN
 <
-uint32_t
+PRUint32
 >
 (
 count
@@ -615,7 +615,7 @@ status
 )
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 req
@@ -709,7 +709,7 @@ if
 uri
 )
 return
-true
+PR_TRUE
 ;
 MyListener
 *
@@ -726,7 +726,7 @@ if
 listener
 )
 return
-true
+PR_TRUE
 ;
 NS_ADDREF
 (
@@ -739,7 +739,7 @@ rv
 NS_OpenURI
 (
 listener
-nullptr
+nsnull
 uri
 gIOService
 )
@@ -781,7 +781,7 @@ rv
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -799,7 +799,7 @@ urls
 EnumerateForwards
 (
 load_async_1
-nullptr
+nsnull
 )
 ;
 PumpEvents
@@ -993,7 +993,7 @@ getter_AddRefs
 uri
 )
 buf
-nullptr
+nsnull
 gIOService
 )
 ;
@@ -1269,7 +1269,7 @@ sync
 )
 sync
 =
-true
+PR_TRUE
 ;
 else
 if
@@ -1291,7 +1291,7 @@ async
 )
 sync
 =
-false
+PR_FALSE
 ;
 else
 {
@@ -1316,8 +1316,8 @@ getter_AddRefs
 (
 servMan
 )
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 nsCOMPtr
@@ -1345,7 +1345,7 @@ registrar
 >
 AutoRegister
 (
-nullptr
+nsnull
 )
 ;
 /
@@ -1440,7 +1440,7 @@ return
 1
 ;
 }
-uint32_t
+PRUint32
 urlCount
 ;
 urls

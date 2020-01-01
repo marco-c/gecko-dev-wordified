@@ -58,15 +58,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 sqlite3
 .
 h
@@ -325,7 +316,6 @@ mozIStorageStatementCallback
 implementation
 class
 UnownedCallback
-MOZ_FINAL
 :
 public
 mozIStorageStatementCallback
@@ -502,7 +492,7 @@ NS_OK
 NS_IMETHOD
 HandleCompletion
 (
-uint16_t
+PRUint16
 aReason
 )
 {
@@ -740,7 +730,7 @@ stmt
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0

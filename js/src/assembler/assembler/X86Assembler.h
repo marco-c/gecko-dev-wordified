@@ -18952,7 +18952,6 @@ base
 hasSib2
 )
 )
-{
 #
 else
 if
@@ -18962,9 +18961,9 @@ base
 =
 hasSib
 )
-{
 #
 endif
+{
 if
 (
 !
@@ -19195,7 +19194,6 @@ base
 hasSib2
 )
 )
-{
 #
 else
 if
@@ -19205,9 +19203,9 @@ base
 =
 hasSib
 )
-{
 #
 endif
+{
 putModRmSib
 (
 ModRmMemoryDisp32

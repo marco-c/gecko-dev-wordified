@@ -107,7 +107,7 @@ nsIEventQueue
 *
 gEventQ
 =
-nullptr
+nsnull
 ;
 static
 bool
@@ -373,7 +373,7 @@ status
 ;
 gKeepRunning
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -394,9 +394,9 @@ ctxt
 nsIInputStream
 *
 stream
-uint64_t
+PRUint32
 offset
-uint32_t
+PRUint32
 count
 )
 {
@@ -428,7 +428,7 @@ buf
 nsresult
 rv
 ;
-uint32_t
+PRUint32
 bytesRead
 =
 0
@@ -438,12 +438,12 @@ while
 count
 )
 {
-uint32_t
+PRUint32
 amount
 =
 NS_MIN
 <
-uint32_t
+PRUint32
 >
 (
 count
@@ -786,9 +786,9 @@ req
 nsISupports
 *
 ctx
-uint64_t
+PRUint64
 progress
-uint64_t
+PRUint64
 progressMax
 )
 {
@@ -1031,8 +1031,8 @@ getter_AddRefs
 (
 servMan
 )
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 nsCOMPtr
@@ -1064,7 +1064,7 @@ registrar
 >
 AutoRegister
 (
-nullptr
+nsnull
 )
 ;
 /
@@ -1205,8 +1205,8 @@ getter_AddRefs
 chan
 )
 uri
-nullptr
-nullptr
+nsnull
+nsnull
 callbacks
 )
 ;
@@ -1226,7 +1226,7 @@ chan
 AsyncOpen
 (
 listener
-nullptr
+nsnull
 )
 ;
 RETURN_IF_FAILED
@@ -1284,7 +1284,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nullptr
+nsnull
 )
 ;
 NS_ASSERTION

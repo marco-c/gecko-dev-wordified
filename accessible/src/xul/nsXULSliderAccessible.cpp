@@ -446,7 +446,7 @@ h
 #
 include
 "
-nsAccessibilityAtoms
+nsAccessibilityService
 .
 h
 "
@@ -762,10 +762,15 @@ FOCUSABLE
 ;
 if
 (
-gLastFocusedNode
-=
-=
-mContent
+FocusMgr
+(
+)
+-
+>
+IsFocused
+(
+this
+)
 )
 states
 |
@@ -796,7 +801,7 @@ aValue
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 curpos
@@ -944,7 +949,7 @@ rv
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 maxpos
@@ -994,7 +999,7 @@ rv
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 minpos
@@ -1045,7 +1050,7 @@ rv
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 increment
@@ -1095,7 +1100,7 @@ rv
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 curpos
@@ -1144,7 +1149,7 @@ rv
 return
 SetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 curpos
@@ -1152,7 +1157,7 @@ aValue
 )
 ;
 }
-PRBool
+bool
 nsXULSliderAccessible
 :
 :

@@ -594,7 +594,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 aResult
 =
-nullptr
+nsnull
 ;
 e
 .
@@ -635,9 +635,9 @@ aResult
 =
 mNext
 ?
-true
+PR_TRUE
 :
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -672,7 +672,7 @@ mNext
 ;
 mNext
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -798,7 +798,7 @@ break
 ;
 mNext
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -831,7 +831,7 @@ to
 begin
 GetNext
 (
-nullptr
+nsnull
 )
 ;
 }

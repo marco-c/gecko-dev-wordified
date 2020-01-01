@@ -2363,10 +2363,10 @@ NS_OK
 -
 -
 static
-PRBool
+bool
 gInitialized
 =
-PR_FALSE
+false
 ;
 /
 /
