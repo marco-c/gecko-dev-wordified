@@ -634,13 +634,6 @@ h
 #
 include
 "
-nsIMenuParent
-.
-h
-"
-#
-include
-"
 nsIScrollableView
 .
 h

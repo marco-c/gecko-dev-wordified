@@ -674,7 +674,7 @@ class
 nsMenuBarFrame
 ;
 class
-nsIMenuParent
+nsMenuParent
 ;
 class
 nsIDOMKeyEvent
@@ -3321,7 +3321,7 @@ open
 PRBool
 IsPopupOpenForMenuParent
 (
-nsIMenuParent
+nsMenuParent
 *
 aMenuParent
 )
@@ -3792,7 +3792,7 @@ menu
 void
 CancelMenuTimer
 (
-nsIMenuParent
+nsMenuParent
 *
 aMenuParent
 )

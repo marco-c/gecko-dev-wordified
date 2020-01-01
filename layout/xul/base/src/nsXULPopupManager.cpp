@@ -2745,7 +2745,7 @@ IsOnMenu
 (
 )
 ;
-nsIMenuParent
+nsMenuParent
 *
 parent
 =
@@ -7548,7 +7548,7 @@ nsXULPopupManager
 :
 IsPopupOpenForMenuParent
 (
-nsIMenuParent
+nsMenuParent
 *
 aMenuParent
 )
@@ -8388,7 +8388,7 @@ nsMenuFrame
 parent
 )
 ;
-nsIMenuParent
+nsMenuParent
 *
 parentPopup
 =
@@ -10352,7 +10352,7 @@ nsXULPopupManager
 :
 CancelMenuTimer
 (
-nsIMenuParent
+nsMenuParent
 *
 aMenuParent
 )
@@ -10690,13 +10690,13 @@ on
 another
 menu
 .
-nsIMenuParent
+nsMenuParent
 *
 expectedParent
 =
 static_cast
 <
-nsIMenuParent
+nsMenuParent
 *
 >
 (

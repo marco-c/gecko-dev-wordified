@@ -519,7 +519,7 @@ h
 #
 include
 "
-nsIMenuParent
+nsMenuParent
 .
 h
 "
@@ -984,9 +984,6 @@ class
 nsIView
 ;
 class
-nsIMenuParent
-;
-class
 nsMenuPopupFrame
 ;
 class
@@ -995,7 +992,7 @@ nsMenuPopupFrame
 public
 nsBoxFrame
 public
-nsIMenuParent
+nsMenuParent
 {
 public
 :
@@ -1011,7 +1008,8 @@ aContext
 ;
 /
 /
-nsIMenuParentInterface
+nsMenuParent
+interface
 virtual
 nsMenuFrame
 *
