@@ -4818,13 +4818,10 @@ if
 replacer
 -
 >
-getProperty
+getElement
 (
 cx
-INT_TO_JSID
-(
 i
-)
 &
 v
 )
