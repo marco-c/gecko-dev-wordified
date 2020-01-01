@@ -3034,7 +3034,7 @@ int
 tag
 )
 ;
-void
+bool
 setValueForType
 (
 unsigned
