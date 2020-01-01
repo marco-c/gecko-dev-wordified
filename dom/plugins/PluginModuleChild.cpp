@@ -1109,14 +1109,6 @@ gtk_init
 0
 )
 ;
-XSynchronize
-(
-GDK_DISPLAY
-(
-)
-True
-)
-;
 #
 else
 /
