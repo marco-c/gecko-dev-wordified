@@ -1674,6 +1674,15 @@ assertTypeFailInEval
 str
 )
 {
+if
+(
+!
+isAsmJSCompilationAvailable
+(
+)
+)
+return
+;
 var
 caught
 =
