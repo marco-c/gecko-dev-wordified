@@ -7989,6 +7989,7 @@ i
 .
 GetAnimValue
 (
+this
 )
 ;
 f
