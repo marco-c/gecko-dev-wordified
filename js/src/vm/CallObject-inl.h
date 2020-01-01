@@ -983,13 +983,7 @@ RESERVED_SLOTS
 nargs
 +
 nvars
-/
-*
-sentinelAllowed
-=
-*
-/
-true
+SENTINEL_ALLOWED
 )
 )
 ;
