@@ -999,9 +999,12 @@ jv
 .
 asBits
 =
+JSVAL_BITS
+(
 Jsvalify
 (
 v
+)
 )
 ;
 store32
@@ -1066,9 +1069,12 @@ jv
 .
 asBits
 =
+JSVAL_BITS
+(
 Jsvalify
 (
 v
+)
 )
 ;
 store32
