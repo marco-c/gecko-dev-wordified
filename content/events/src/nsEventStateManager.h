@@ -2578,12 +2578,6 @@ mFirstBlurEvent
 ;
 nsCOMPtr
 <
-nsIDocument
->
-mFirstDocumentBlurEvent
-;
-nsCOMPtr
-<
 nsIContent
 >
 mFirstFocusEvent
