@@ -1184,11 +1184,8 @@ Fragment
 )
 peer
 ;
-DWB
-(
 LirBuffer
 *
-)
 lirbuf
 ;
 LIns
@@ -1198,6 +1195,10 @@ lastIns
 SideExit
 *
 spawnedFrom
+;
+GuardRecord
+*
+outbound
 ;
 TraceKind
 kind

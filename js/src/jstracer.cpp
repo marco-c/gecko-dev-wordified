@@ -45208,10 +45208,6 @@ tm
 lirbuf
 =
 new
-(
-&
-gc
-)
 LirBuffer
 (
 alloc
@@ -45481,10 +45477,6 @@ tm
 reLirBuf
 =
 new
-(
-&
-gc
-)
 LirBuffer
 (
 reAlloc
