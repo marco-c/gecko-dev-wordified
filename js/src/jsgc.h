@@ -9836,7 +9836,7 @@ XmlTag
 IonCodeTag
 LastTag
 =
-XmlTag
+IonCodeTag
 }
 ;
 static
@@ -9844,7 +9844,7 @@ const
 uintptr_t
 StackTagMask
 =
-3
+7
 ;
 static
 void
