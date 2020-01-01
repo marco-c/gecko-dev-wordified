@@ -1312,9 +1312,9 @@ toggles
 the
 layers
 .
-accelerate
--
-none
+acceleration
+.
+disabled
 pref
 *
 sync
@@ -1352,9 +1352,9 @@ getElementById
 "
 layers
 .
-accelerate
--
-none
+acceleration
+.
+disabled
 "
 )
 ;
