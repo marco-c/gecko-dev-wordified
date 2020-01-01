@@ -4166,9 +4166,6 @@ worklist
 /
 }
 ;
-#
-define
-JS_PROTO_CACHE_METERING
 /
 *
 Caching
