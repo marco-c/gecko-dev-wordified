@@ -1205,7 +1205,12 @@ virtual
 void
 ScrollToCSSPixels
 (
-nsIntPoint
+const
+mozilla
+:
+:
+CSSIntPoint
+&
 aScrollPosition
 )
 =

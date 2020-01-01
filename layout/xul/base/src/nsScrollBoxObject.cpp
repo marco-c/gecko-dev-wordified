@@ -156,6 +156,10 @@ nsIScrollableFrame
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsScrollBoxObject
 :
@@ -311,7 +315,7 @@ sf
 >
 ScrollToCSSPixels
 (
-nsIntPoint
+CSSIntPoint
 (
 x
 y

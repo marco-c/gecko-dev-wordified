@@ -33279,15 +33279,7 @@ sf
 >
 ScrollToCSSPixels
 (
-nsIntPoint
-(
 scroll
-.
-x
-scroll
-.
-y
-)
 )
 ;
 }
