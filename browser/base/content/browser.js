@@ -6811,6 +6811,11 @@ updateTooltip
 (
 )
 ;
+/
+/
+XXX
+/
+/
 gHomeButton
 .
 setPersonalToolbarStyle
