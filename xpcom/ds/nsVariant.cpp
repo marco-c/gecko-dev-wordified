@@ -10734,12 +10734,6 @@ members
 .
 .
 .
-NS_IMPL_ISUPPORTS2
-(
-nsVariant
-nsIVariant
-nsIWritableVariant
-)
 nsVariant
 :
 :

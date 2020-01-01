@@ -448,6 +448,13 @@ nsISupports
 .
 h
 "
+#
+include
+"
+nsCoord
+.
+h
+"
 /
 /
 IID

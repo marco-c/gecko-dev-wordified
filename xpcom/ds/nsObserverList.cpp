@@ -858,11 +858,6 @@ someData
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
-(
-nsObserverEnumerator
-nsISimpleEnumerator
-)
 nsObserverEnumerator
 :
 :

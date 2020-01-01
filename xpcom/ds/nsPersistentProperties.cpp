@@ -950,12 +950,6 @@ return
 rv
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS2
-(
-nsPersistentProperties
-nsIPersistentProperties
-nsIProperties
-)
 NS_IMETHODIMP
 nsPersistentProperties
 :
@@ -2963,11 +2957,6 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS1
-(
-nsPropertyElement
-nsIPropertyElement
-)
 NS_IMETHODIMP
 nsPropertyElement
 :
