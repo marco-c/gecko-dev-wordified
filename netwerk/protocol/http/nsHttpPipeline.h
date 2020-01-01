@@ -279,10 +279,8 @@ QueryPipeline
 (
 )
 ;
-nsRefPtr
-<
 nsAHttpConnection
->
+*
 mConnection
 ;
 nsTArray
