@@ -8773,6 +8773,7 @@ Shutdown
 (
 )
 ;
+}
 gService
 -
 >
@@ -8780,7 +8781,6 @@ mEnableDiskDevice
 =
 PR_FALSE
 ;
-}
 #
 endif
 /
@@ -8829,6 +8829,7 @@ Shutdown
 (
 )
 ;
+}
 gService
 -
 >
@@ -8836,7 +8837,6 @@ mEnableOfflineDevice
 =
 PR_FALSE
 ;
-}
 #
 endif
 /
