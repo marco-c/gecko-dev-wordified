@@ -36466,7 +36466,6 @@ GetStyleDisplay
 bool
 positioned
 =
-(
 parentDisplay
 -
 >
@@ -36474,15 +36473,6 @@ mPosition
 =
 =
 NS_STYLE_POSITION_RELATIVE
-|
-|
-parentDisplay
--
->
-HasTransform
-(
-)
-)
 &
 &
 !
@@ -72459,7 +72449,6 @@ aDisplay
 mDisplay
 &
 &
-(
 NS_STYLE_POSITION_RELATIVE
 =
 =
@@ -72467,15 +72456,6 @@ aDisplay
 -
 >
 mPosition
-|
-|
-aDisplay
--
->
-HasTransform
-(
-)
-)
 &
 &
 !
