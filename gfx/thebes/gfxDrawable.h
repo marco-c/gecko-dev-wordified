@@ -534,7 +534,7 @@ gfxMatrix
 *
 *
 *
-gfxSurfaceDrawable
+gfxCallbackDrawable
 *
 A
 convenience
