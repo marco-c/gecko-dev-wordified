@@ -235,7 +235,7 @@ Wait
 this
 number
 of
-milliseconds
+seconds
 when
 buffering
 then
@@ -266,9 +266,9 @@ retrieved
 static
 const
 PRUint32
-BUFFERING_WAIT
+BUFFERING_WAIT_S
 =
-30000
+30
 ;
 /
 /
@@ -2806,7 +2806,7 @@ mRealTime
 ?
 0
 :
-BUFFERING_WAIT
+BUFFERING_WAIT_S
 ;
 mLowDataThresholdUsecs
 =
