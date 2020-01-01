@@ -2282,6 +2282,7 @@ nsnull
 ;
 if
 (
+!
 deviceType
 )
 {
