@@ -897,13 +897,11 @@ marked
 .
 /
 /
-xpc_MarkForValidWrapper
+xpc_TraceForValidWrapper
 calls
-MarkBeforeJSFinalize
+TraceJS
 and
-/
-/
-MarkScopeJSObjects
+TraceScopeJSObjects
 .
 /
 /
@@ -913,7 +911,7 @@ its
 proto
 (
 see
-MarkBeforeJSFinalize
+TraceJS
 )
 .
 if
@@ -954,7 +952,7 @@ its
 mNativeWrapper
 (
 see
-MarkBeforeJSFinalize
+TraceJS
 )
 .
 cb
