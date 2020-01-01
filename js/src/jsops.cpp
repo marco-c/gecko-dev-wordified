@@ -1007,7 +1007,7 @@ if
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 !
@@ -25899,7 +25899,7 @@ js_BlockClass
 obj2
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 =

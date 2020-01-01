@@ -1694,7 +1694,7 @@ obj
 >
 fslots
 [
-JSSLOT_PRIVATE
+JSSLOT_PRIMITIVE_THIS
 ]
 =
 v
@@ -3157,7 +3157,7 @@ obj
 >
 fslots
 [
-JSSLOT_PRIVATE
+JSSLOT_PRIMITIVE_THIS
 ]
 ;
 return
@@ -4617,7 +4617,7 @@ proto
 >
 fslots
 [
-JSSLOT_PRIVATE
+JSSLOT_PRIMITIVE_THIS
 ]
 =
 JSVAL_ZERO

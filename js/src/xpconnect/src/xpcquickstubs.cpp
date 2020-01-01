@@ -3004,7 +3004,7 @@ XPCWrappedNative
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;

@@ -1984,7 +1984,7 @@ funobj
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 )

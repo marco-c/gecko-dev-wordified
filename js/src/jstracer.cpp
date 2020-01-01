@@ -75834,7 +75834,7 @@ INS_CONSTPTR
 callee_obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 )
@@ -82686,7 +82686,7 @@ JS_ASSERT
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 =

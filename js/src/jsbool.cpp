@@ -980,7 +980,7 @@ obj
 >
 fslots
 [
-JSSLOT_PRIVATE
+JSSLOT_PRIMITIVE_THIS
 ]
 =
 bval
@@ -1035,7 +1035,7 @@ proto
 >
 fslots
 [
-JSSLOT_PRIVATE
+JSSLOT_PRIMITIVE_THIS
 ]
 =
 JSVAL_FALSE

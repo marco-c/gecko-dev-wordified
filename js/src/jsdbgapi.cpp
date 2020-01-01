@@ -3960,7 +3960,7 @@ JSScript
 closure
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -7226,7 +7226,7 @@ callee
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 =
