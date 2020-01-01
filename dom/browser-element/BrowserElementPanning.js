@@ -601,6 +601,11 @@ if
 evt
 .
 defaultPrevented
+|
+|
+evt
+.
+multipleActionsPrevented
 )
 return
 ;
