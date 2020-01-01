@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimTransformList
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -303,7 +296,7 @@ DOMSVGAnimatedTransformList
 MOZ_FINAL
 :
 public
-nsIDOMSVGAnimatedTransformList
+nsISupports
 public
 nsWrapperCache
 {
@@ -318,7 +311,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGAnimatedTransformList
 )
-NS_DECL_NSIDOMSVGANIMATEDTRANSFORMLIST
 /
 *
 *

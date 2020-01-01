@@ -759,7 +759,7 @@ this
 *
 readonly
 attribute
-nsIDOMSVGAnimatedTransformList
+nsISupports
 gradientTransform
 ;
 *
@@ -770,7 +770,7 @@ nsSVGGradientElement
 :
 GetGradientTransform
 (
-nsIDOMSVGAnimatedTransformList
+nsISupports
 *
 *
 aGradientTransform

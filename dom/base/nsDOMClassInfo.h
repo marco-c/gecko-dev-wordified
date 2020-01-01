@@ -244,9 +244,6 @@ class
 nsIDOMSVGTransform
 ;
 class
-nsIDOMSVGTransformList
-;
-class
 nsIDOMWindow
 ;
 class

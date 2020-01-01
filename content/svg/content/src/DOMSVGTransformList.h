@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsIDOMSVGTransformList
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -243,7 +236,7 @@ DOMSVGTransformList
 MOZ_FINAL
 :
 public
-nsIDOMSVGTransformList
+nsISupports
 public
 nsWrapperCache
 {
@@ -258,7 +251,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGTransformList
 )
-NS_DECL_NSIDOMSVGTRANSFORMLIST
 DOMSVGTransformList
 (
 DOMSVGAnimatedTransformList

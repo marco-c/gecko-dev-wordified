@@ -1019,7 +1019,7 @@ methods
 *
 readonly
 attribute
-nsIDOMSVGAnimatedTransformList
+nsISupports
 transform
 ;
 *
@@ -1030,7 +1030,7 @@ nsSVGGraphicElement
 :
 GetTransform
 (
-nsIDOMSVGAnimatedTransformList
+nsISupports
 *
 *
 aTransform

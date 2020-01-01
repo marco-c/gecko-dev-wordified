@@ -909,7 +909,7 @@ this
 *
 readonly
 attribute
-nsIDOMSVGAnimatedTransformList
+nsISupports
 patternTransform
 ;
 *
@@ -920,7 +920,7 @@ nsSVGPatternElement
 :
 GetPatternTransform
 (
-nsIDOMSVGAnimatedTransformList
+nsISupports
 *
 *
 aPatternTransform
