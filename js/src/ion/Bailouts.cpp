@@ -584,7 +584,7 @@ dump
 }
 }
 static
-UnrootedScript
+RawScript
 GetBailedJSScript
 (
 JSContext
@@ -592,9 +592,6 @@ JSContext
 cx
 )
 {
-AutoAssertNoGC
-nogc
-;
 /
 /
 Just
@@ -731,9 +728,6 @@ SnapshotIterator
 iter
 )
 {
-AutoAssertNoGC
-nogc
-;
 uint32_t
 exprStackSlots
 =
@@ -1502,9 +1496,6 @@ StackFrame
 callerFrame
 )
 {
-AutoAssertNoGC
-nogc
-;
 /
 /
 Grab
@@ -1870,9 +1861,6 @@ IonBailoutIterator
 it
 )
 {
-AutoAssertNoGC
-nogc
-;
 IonSpew
 (
 IonSpew_Bailouts
@@ -2740,9 +2728,6 @@ JS_ASSERT
 bailoutInfo
 )
 ;
-AutoAssertNoGC
-nogc
-;
 JSContext
 *
 cx
@@ -2971,9 +2956,6 @@ BaselineBailoutInfo
 bailoutInfo
 )
 {
-AutoAssertNoGC
-nogc
-;
 sp
 -
 >
@@ -4093,9 +4075,6 @@ RecompileForInlining
 (
 )
 {
-AutoAssertNoGC
-nogc
-;
 JSContext
 *
 cx
@@ -4107,7 +4086,7 @@ GetIonContext
 >
 cx
 ;
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -4296,7 +4275,7 @@ GetIonContext
 >
 cx
 ;
-UnrootedScript
+RawScript
 script
 =
 GetBailedJSScript
@@ -4397,7 +4376,7 @@ GetIonContext
 >
 cx
 ;
-UnrootedScript
+RawScript
 script
 =
 GetBailedJSScript
@@ -4476,7 +4455,7 @@ GetIonContext
 >
 cx
 ;
-UnrootedScript
+RawScript
 script
 =
 GetBailedJSScript

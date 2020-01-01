@@ -428,7 +428,7 @@ Ion
 frame
 .
 inline
-UnrootedScript
+RawScript
 GetTopIonJSScript
 (
 JSContext
@@ -445,9 +445,6 @@ void
 returnAddrOut
 )
 {
-AutoAssertNoGC
-nogc
-;
 IonFrameIterator
 iter
 (

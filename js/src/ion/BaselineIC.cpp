@@ -10421,7 +10421,7 @@ return
 true
 ;
 }
-UnrootedScript
+RawScript
 script
 =
 frame
@@ -12976,7 +12976,7 @@ isBoolean
 )
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 frame
@@ -15957,7 +15957,7 @@ isString
 )
 )
 ;
-UnrootedString
+RawString
 lstr
 =
 lhs
@@ -15966,7 +15966,7 @@ toString
 (
 )
 ;
-UnrootedString
+RawString
 rstr
 =
 rhs
@@ -15975,7 +15975,7 @@ toString
 (
 )
 ;
-UnrootedString
+RawString
 result
 =
 ConcatStrings

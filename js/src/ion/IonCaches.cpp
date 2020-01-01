@@ -688,10 +688,6 @@ IonCode
 code
 )
 {
-AssertCanGC
-(
-)
-;
 Linker
 linker
 (
@@ -1643,7 +1639,7 @@ obj
 JSObject
 *
 holder
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -1699,7 +1695,7 @@ obj
 JSObject
 *
 holder
-UnrootedShape
+RawShape
 shape
 jsbytecode
 *
@@ -2056,7 +2052,7 @@ obj
 JSObject
 *
 holder
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -2150,7 +2146,7 @@ obj
 JSObject
 *
 holder
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -8953,7 +8949,7 @@ while
 proto
 )
 {
-UnrootedShape
+RawShape
 protoShape
 =
 proto
@@ -9402,7 +9398,7 @@ MutableHandleShape
 pshape
 )
 {
-UnrootedShape
+RawShape
 shape
 =
 obj
@@ -9825,7 +9821,7 @@ don
 '
 t
 optimize
-UnrootedShape
+RawShape
 protoShape
 =
 proto
@@ -12356,16 +12352,13 @@ JSObject
 scopeObj
 Register
 scopeObjReg
-UnrootedShape
+RawShape
 shape
 Label
 *
 failures
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 scopeObj
@@ -12445,7 +12438,7 @@ callee
 (
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -13311,10 +13304,6 @@ HandleShape
 shape
 )
 {
-AssertCanGC
-(
-)
-;
 MacroAssembler
 masm
 (

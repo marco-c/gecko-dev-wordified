@@ -2016,10 +2016,6 @@ ExecutablePool
 pool
 )
 {
-AssertCanGC
-(
-)
-;
 IonCode
 *
 codeObj
@@ -4683,7 +4679,7 @@ next
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 i
@@ -6218,7 +6214,7 @@ checkScriptSize
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -6252,10 +6248,6 @@ cx
 #
 ifdef
 JS_THREADSAFE
-AssertCanGC
-(
-)
-;
 IonCompartment
 *
 ion
@@ -7649,7 +7641,7 @@ static
 bool
 CheckScript
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -7727,7 +7719,7 @@ checkScriptSize
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 {
@@ -8028,7 +8020,7 @@ CanIonCompileScript
 JSContext
 *
 cx
-UnrootedScript
+HandleScript
 script
 )
 {
@@ -9334,7 +9326,7 @@ checkScriptSize
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 {
@@ -10260,10 +10252,6 @@ to
 be
 valid
 .
-AssertCanGC
-(
-)
-;
 if
 (
 !
@@ -10315,10 +10303,6 @@ void
 jitcode
 )
 {
-AssertCanGC
-(
-)
-;
 JS_CHECK_RECURSION
 (
 cx
@@ -11042,10 +11026,6 @@ StackFrame
 fp
 )
 {
-AssertCanGC
-(
-)
-;
 RootedScript
 script
 (
@@ -11187,10 +11167,6 @@ jsbytecode
 pc
 )
 {
-AssertCanGC
-(
-)
-;
 RootedScript
 script
 (
@@ -11796,9 +11772,6 @@ bool
 invalidateAll
 )
 {
-AutoAssertNoGC
-nogc
-;
 IonSpew
 (
 IonSpew_Invalidate
@@ -13162,9 +13135,6 @@ bool
 resetUses
 )
 {
-AutoAssertNoGC
-nogc
-;
 IonSpew
 (
 IonSpew_Invalidate
@@ -13574,7 +13544,7 @@ isValid
 )
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 co
@@ -13756,9 +13726,6 @@ bool
 resetUses
 )
 {
-AutoAssertNoGC
-nogc
-;
 ion
 :
 :
@@ -13794,7 +13761,7 @@ Invalidate
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 ExecutionMode
 mode
@@ -13802,9 +13769,6 @@ bool
 resetUses
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 script
@@ -13929,7 +13893,7 @@ Invalidate
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 bool
 resetUses
@@ -13952,7 +13916,7 @@ FinishInvalidationOf
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 IonScript
 *
@@ -14088,7 +14052,7 @@ FinishInvalidation
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 )
 {
@@ -14207,7 +14171,7 @@ ForbidCompilation
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 {
@@ -14228,7 +14192,7 @@ ForbidCompilation
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 ExecutionMode
 mode
@@ -14433,7 +14397,7 @@ ion
 :
 UsesBeforeIonRecompile
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -14946,7 +14910,7 @@ ion
 :
 PurgeCaches
 (
-UnrootedScript
+RawScript
 script
 JSCompartment
 *
@@ -15000,7 +14964,7 @@ ion
 :
 SizeOfIonData
 (
-UnrootedScript
+RawScript
 script
 JSMallocSizeOfFun
 mallocSizeOf
@@ -15070,7 +15034,7 @@ DestroyIonScripts
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 )
 {
@@ -15156,7 +15120,7 @@ TraceIonScripts
 JSTracer
 *
 trc
-UnrootedScript
+RawScript
 script
 )
 {

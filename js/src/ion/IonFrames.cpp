@@ -386,9 +386,6 @@ ionScriptOut
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 uint8_t
 *
 returnAddr
@@ -932,7 +929,7 @@ return
 true
 ;
 }
-UnrootedScript
+RawScript
 IonFrameIterator
 :
 :
@@ -941,9 +938,6 @@ script
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 isScripted
@@ -1003,9 +997,6 @@ pcRes
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 isBaselineJS
@@ -1013,7 +1004,7 @@ isBaselineJS
 )
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 this
@@ -1659,10 +1650,6 @@ uint32_t
 localSlot
 )
 {
-AssertCanGC
-(
-)
-;
 SnapshotIterator
 si
 =
@@ -1792,10 +1779,6 @@ InlineFrameIterator
 frame
 )
 {
-AssertCanGC
-(
-)
-;
 RootedScript
 script
 (
@@ -2009,10 +1992,6 @@ frame
 isBaselineJS
 (
 )
-)
-;
-AssertCanGC
-(
 )
 ;
 JS_ASSERT
@@ -2588,10 +2567,6 @@ ResumeFromException
 rfe
 )
 {
-AssertCanGC
-(
-)
-;
 JSContext
 *
 cx
@@ -2831,9 +2806,6 @@ function
 is
 exiting
 .
-AutoAssertNoGC
-nogc
-;
 RawScript
 script
 =
@@ -3678,7 +3650,7 @@ case
 CalleeToken_Script
 :
 {
-UnrootedScript
+RawScript
 script
 =
 CalleeTokenToScript
@@ -7445,9 +7417,6 @@ findNextFrame
 (
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 more
@@ -9116,9 +9085,6 @@ dumpBaseline
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 isBaselineJS
@@ -9418,9 +9384,6 @@ dump
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 more

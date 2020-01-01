@@ -2795,10 +2795,6 @@ void
 userRef
 )
 {
-AssertCanGC
-(
-)
-;
 /
 *
 *
@@ -3132,9 +3128,6 @@ JSErrorReport
 report
 )
 {
-AutoAssertNoGC
-nogc
-;
 /
 *
 *
@@ -3304,9 +3297,6 @@ JSContext
 cx
 )
 {
-AutoAssertNoGC
-nogc
-;
 cx
 -
 >
@@ -3727,7 +3717,7 @@ bug
 .
 *
 /
-UnrootedScript
+RawScript
 script
 =
 cx

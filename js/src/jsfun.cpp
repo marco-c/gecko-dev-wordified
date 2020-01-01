@@ -998,7 +998,7 @@ its
 use
 early
 .
-UnrootedScript
+RawScript
 script
 =
 iter
@@ -3204,10 +3204,6 @@ HandleFunction
 srcFun
 )
 {
-AssertCanGC
-(
-)
-;
 /
 *
 NB
@@ -4187,10 +4183,6 @@ bool
 lambdaParen
 )
 {
-AssertCanGC
-(
-)
-;
 StringBuffer
 out
 (
@@ -7882,9 +7874,6 @@ Value
 vp
 )
 {
-AutoAssertNoGC
-nogc
-;
 RawFunction
 fun
 ;
@@ -7931,7 +7920,7 @@ hasScript
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -10300,10 +10289,6 @@ AllocKind
 allocKind
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 parent

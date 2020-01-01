@@ -820,7 +820,7 @@ numActualArgs
 )
 const
 ;
-UnrootedScript
+RawScript
 script
 (
 )
@@ -1666,7 +1666,7 @@ count
 )
 const
 ;
-UnrootedScript
+RawScript
 script
 (
 )

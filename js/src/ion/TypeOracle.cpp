@@ -991,7 +991,7 @@ TypeInferenceOracle
 :
 unaryTypes
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1063,7 +1063,7 @@ TypeInferenceOracle
 :
 binaryTypes
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1222,7 +1222,7 @@ TypeInferenceOracle
 :
 unaryOp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1300,7 +1300,7 @@ TypeInferenceOracle
 :
 binaryOp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1472,7 +1472,7 @@ TypeInferenceOracle
 :
 thisTypeSet
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -2076,7 +2076,7 @@ TypeInferenceOracle
 :
 parameterTypeSet
 (
-UnrootedScript
+RawScript
 script
 size_t
 index
@@ -2113,7 +2113,7 @@ TypeInferenceOracle
 :
 propertyRead
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -2386,7 +2386,7 @@ TypeInferenceOracle
 :
 propertyReadAccessGetter
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -2547,7 +2547,7 @@ TypeInferenceOracle
 :
 inArrayIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3037,7 +3037,7 @@ TypeInferenceOracle
 :
 elementReadIsString
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3207,7 +3207,7 @@ TypeInferenceOracle
 :
 elementReadShouldAlwaysLoadDoubles
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3265,7 +3265,7 @@ TypeInferenceOracle
 :
 elementReadHasExtraIndexedProperty
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3307,7 +3307,7 @@ TypeInferenceOracle
 :
 elementReadIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3353,7 +3353,7 @@ TypeInferenceOracle
 :
 elementReadGeneric
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3834,7 +3834,7 @@ TypeInferenceOracle
 :
 elementWriteNeedsDoubleConversion
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4006,7 +4006,7 @@ TypeInferenceOracle
 :
 setElementHasWrittenHoles
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4036,7 +4036,7 @@ TypeInferenceOracle
 :
 elementWrite
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4047,10 +4047,7 @@ StackTypeSet
 *
 objTypes
 =
-DropUnrooted
-(
 script
-)
 -
 >
 analysis
@@ -4212,7 +4209,7 @@ TypeInferenceOracle
 :
 arrayResultShouldHaveDoubleConversion
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4291,7 +4288,7 @@ TypeInferenceOracle
 :
 propertyWriteCanSpecialize
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4322,7 +4319,7 @@ TypeInferenceOracle
 :
 propertyWriteNeedsBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4335,10 +4332,7 @@ StackTypeSet
 *
 types
 =
-DropUnrooted
-(
 script
-)
 -
 >
 analysis
@@ -4369,7 +4363,7 @@ TypeInferenceOracle
 :
 elementWriteNeedsBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4410,10 +4404,7 @@ StackTypeSet
 *
 types
 =
-DropUnrooted
-(
 script
-)
 -
 >
 analysis
@@ -4445,7 +4436,7 @@ TypeInferenceOracle
 :
 getCallTarget
 (
-UnrootedScript
+RawScript
 caller
 uint32_t
 argc
@@ -4513,7 +4504,7 @@ TypeInferenceOracle
 :
 getCallArg
 (
-UnrootedScript
+RawScript
 script
 uint32_t
 argc
@@ -4584,7 +4575,7 @@ TypeInferenceOracle
 :
 getCallReturn
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4770,10 +4761,6 @@ RawFunction
 target
 )
 {
-AssertCanGC
-(
-)
-;
 RootedScript
 targetScript
 (
@@ -5063,7 +5050,7 @@ TypeInferenceOracle
 :
 globalPropertyWrite
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -5106,10 +5093,7 @@ NULL
 return
 globalPropertyTypeSet
 (
-DropUnrooted
-(
 script
-)
 pc
 id
 )
@@ -5122,7 +5106,7 @@ TypeInferenceOracle
 :
 returnTypeSet
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -5198,7 +5182,7 @@ TypeInferenceOracle
 :
 aliasedVarBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -5251,7 +5235,7 @@ TypeInferenceOracle
 :
 globalPropertyTypeSet
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -5264,10 +5248,7 @@ TypeObject
 *
 type
 =
-DropUnrooted
-(
 script
-)
 -
 >
 global
@@ -5356,7 +5337,7 @@ TypeInferenceOracle
 :
 propertyReadMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -5394,7 +5375,7 @@ TypeInferenceOracle
 :
 elementReadMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -5432,7 +5413,7 @@ TypeInferenceOracle
 :
 elementWriteMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *

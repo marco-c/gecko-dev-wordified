@@ -324,7 +324,7 @@ token
 }
 static
 inline
-UnrootedScript
+RawScript
 CalleeTokenToScript
 (
 CalleeToken
@@ -362,16 +362,13 @@ uintptr_t
 }
 static
 inline
-UnrootedScript
+RawScript
 ScriptFromCalleeToken
 (
 CalleeToken
 token
 )
 {
-AutoAssertNoGC
-nogc
-;
 switch
 (
 GetCalleeTokenTag
@@ -415,10 +412,7 @@ tag
 )
 ;
 return
-UnrootedScript
-(
 NULL
-)
 ;
 }
 /
@@ -1606,7 +1600,7 @@ js
 namespace
 ion
 {
-UnrootedScript
+RawScript
 GetTopIonJSScript
 (
 JSContext

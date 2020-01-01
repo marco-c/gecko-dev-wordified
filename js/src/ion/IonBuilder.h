@@ -2012,7 +2012,7 @@ MDefinition
 *
 obj
 const
-UnrootedShape
+RawShape
 shape
 BailoutKind
 bailoutKind
@@ -2049,7 +2049,7 @@ storeSlot
 MDefinition
 *
 obj
-UnrootedShape
+RawShape
 shape
 MDefinition
 *

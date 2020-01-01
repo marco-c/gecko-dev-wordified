@@ -7450,7 +7450,7 @@ true
 ;
 }
 static
-UnrootedScript
+RawScript
 ValueToScript
 (
 JSContext
@@ -7483,10 +7483,7 @@ if
 fun
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 RootedScript
 script
@@ -7687,7 +7684,7 @@ ok
 ;
 }
 static
-UnrootedScript
+RawScript
 GetTopScript
 (
 JSContext
@@ -11533,10 +11530,6 @@ dumpFile
 ;
 bool
 ok
-;
-AssertCanGC
-(
-)
 ;
 const
 char
@@ -26179,9 +26172,6 @@ Value
 vp
 )
 {
-js
-:
-:
 RootedObject
 obj
 (
@@ -26308,9 +26298,6 @@ Value
 vp
 )
 {
-js
-:
-:
 RootedObject
 obj
 (
@@ -26475,9 +26462,6 @@ Value
 vp
 )
 {
-js
-:
-:
 RootedObject
 obj
 (
@@ -31289,10 +31273,9 @@ JSGC_MAX_BYTES
 #
 ifdef
 JSGC_GENERATIONAL
-JS_SetGCParameter
+if
 (
-rt
-JSGC_ENABLE_GENERATIONAL
+!
 op
 .
 getBoolOption
@@ -31301,6 +31284,13 @@ getBoolOption
 ggc
 "
 )
+)
+JS
+:
+:
+DisableGenerationalGC
+(
+rt
 )
 ;
 #
