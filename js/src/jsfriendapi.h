@@ -4438,8 +4438,14 @@ AnalysisPurgeCallback
 JSRuntime
 *
 rt
+JS
+:
+:
+Handle
+<
 JSFlatString
 *
+>
 desc
 )
 ;
