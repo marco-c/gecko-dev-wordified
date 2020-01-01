@@ -2660,16 +2660,6 @@ case
 TabMove
 "
 :
-Utils
-.
-log
-(
-"
-tab
-move
-"
-)
-;
 tabsMixIns
 .
 bubble
