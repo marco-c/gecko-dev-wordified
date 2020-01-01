@@ -504,13 +504,6 @@ h
 #
 include
 "
-nsILocaleService
-.
-h
-"
-#
-include
-"
 nsUConvDll
 .
 h

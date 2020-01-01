@@ -503,13 +503,6 @@ h
 #
 include
 "
-nsILocaleService
-.
-h
-"
-#
-include
-"
 nsIPlatformCharset
 .
 h

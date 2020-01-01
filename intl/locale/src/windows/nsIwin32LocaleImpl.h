@@ -452,13 +452,6 @@ h
 #
 include
 "
-nsILocale
-.
-h
-"
-#
-include
-"
 nsIWin32Locale
 .
 h

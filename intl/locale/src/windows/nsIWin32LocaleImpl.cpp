@@ -453,13 +453,6 @@ h
 #
 include
 "
-nsILocale
-.
-h
-"
-#
-include
-"
 nsIwin32LocaleImpl
 .
 h

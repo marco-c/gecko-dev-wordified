@@ -649,9 +649,6 @@ class
 EditAggregateTxn
 ;
 class
-nsILocale
-;
-class
 IMETextTxn
 ;
 class
