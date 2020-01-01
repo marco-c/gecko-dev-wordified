@@ -898,6 +898,10 @@ PostAvailableResultEvent
 DeviceStorageRequestParent
 *
 aParent
+const
+nsAString
+&
+aPath
 )
 ;
 virtual
@@ -911,6 +915,11 @@ nsresult
 CancelableRun
 (
 )
+;
+private
+:
+nsString
+mPath
 ;
 }
 ;
