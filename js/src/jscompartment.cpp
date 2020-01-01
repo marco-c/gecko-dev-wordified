@@ -745,6 +745,7 @@ crossCompartmentWrappers
 .
 init
 (
+0
 )
 )
 return
@@ -800,6 +801,7 @@ debuggees
 .
 init
 (
+0
 )
 ;
 }
