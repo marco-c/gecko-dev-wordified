@@ -28400,6 +28400,9 @@ obj
 )
 )
 ;
+#
+ifdef
+JS_TRACER
 TRACE_2
 (
 SetPropHit
@@ -28407,6 +28410,8 @@ kshape
 sprop
 )
 ;
+#
+endif
 if
 (
 scope
@@ -29295,6 +29300,9 @@ entry
 goto
 error
 ;
+#
+ifdef
+JS_TRACER
 if
 (
 entry
@@ -29305,6 +29313,8 @@ SetPropMiss
 entry
 )
 ;
+#
+endif
 }
 else
 {
@@ -38540,6 +38550,9 @@ lastProp
 goto
 do_initprop_miss
 ;
+#
+ifdef
+JS_TRACER
 TRACE_2
 (
 SetPropHit
@@ -38547,6 +38560,8 @@ kshape
 sprop
 )
 ;
+#
+endif
 /
 *
 *
@@ -38949,6 +38964,9 @@ entry
 goto
 error
 ;
+#
+ifdef
+JS_TRACER
 if
 (
 entry
@@ -38959,6 +38977,8 @@ SetPropMiss
 entry
 )
 ;
+#
+endif
 }
 while
 (
