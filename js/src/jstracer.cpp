@@ -34897,9 +34897,8 @@ rp
 lir
 -
 >
-ins1
+ins_i2p
 (
-LIR_i2q
 lir
 -
 >
