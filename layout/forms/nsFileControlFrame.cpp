@@ -1102,14 +1102,6 @@ SetTabIndex
 textControl
 -
 >
-SetDisabled
-(
-PR_TRUE
-)
-;
-textControl
--
->
 SetReadOnly
 (
 PR_TRUE
