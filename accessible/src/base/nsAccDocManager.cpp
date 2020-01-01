@@ -466,13 +466,6 @@ h
 #
 include
 "
-nsOuterDocAccessible
-.
-h
-"
-#
-include
-"
 nsRootAccessibleWrap
 .
 h

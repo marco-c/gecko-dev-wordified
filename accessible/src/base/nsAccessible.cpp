@@ -4999,7 +4999,7 @@ methods
 of
 /
 /
-nsOuterDocAccessibles
+OuterDocAccessibles
 )
 .
 PRInt32

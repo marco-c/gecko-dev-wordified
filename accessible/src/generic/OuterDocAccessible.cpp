@@ -437,7 +437,7 @@ BLOCK
 #
 include
 "
-nsOuterDocAccessible
+OuterDocAccessible
 .
 h
 "
@@ -469,6 +469,10 @@ States
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -558,7 +562,7 @@ a11y
 /
 /
 /
-nsOuterDocAccessible
+OuterDocAccessible
 /
 /
 /
@@ -639,10 +643,10 @@ nsOuterDocAccessible
 /
 /
 /
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
-nsOuterDocAccessible
+OuterDocAccessible
 (
 nsIContent
 *
@@ -656,6 +660,15 @@ nsAccessibleWrap
 (
 aContent
 aDoc
+)
+{
+}
+OuterDocAccessible
+:
+:
+~
+OuterDocAccessible
+(
 )
 {
 }
@@ -744,7 +757,7 @@ aDoc
 nsISupports
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-nsOuterDocAccessible
+OuterDocAccessible
 nsAccessible
 )
 /
@@ -840,7 +853,7 @@ methods
 here
 )
 role
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 NativeRole
@@ -856,7 +869,7 @@ INTERNAL_FRAME
 }
 nsAccessible
 *
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 ChildAtPoint
@@ -991,7 +1004,7 @@ child
 ;
 }
 nsresult
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 GetAttributesInternal
@@ -1152,7 +1165,7 @@ aAttributes
 /
 nsIAccessible
 PRUint8
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 ActionCount
@@ -1182,7 +1195,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 GetActionName
@@ -1205,7 +1218,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 GetActionDescription
@@ -1228,7 +1241,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 DoAction
@@ -1326,7 +1339,7 @@ NS_ERROR_INVALID_ARG
 nsAccessNode
 public
 void
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 Shutdown
@@ -1534,7 +1547,7 @@ Shutdown
 nsAccessible
 public
 void
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 InvalidateChildren
@@ -1660,7 +1673,7 @@ eChildrenUninitialized
 ;
 }
 bool
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 AppendChild
@@ -1805,7 +1818,7 @@ true
 ;
 }
 bool
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 RemoveChild
@@ -1996,7 +2009,7 @@ wasRemoved
 nsAccessible
 protected
 void
-nsOuterDocAccessible
+OuterDocAccessible
 :
 :
 CacheChildren
