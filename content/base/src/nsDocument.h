@@ -936,6 +936,9 @@ nsDOMNavigationTiming
 class
 nsWindowSizes
 ;
+class
+nsHtml5TreeOpExecutor
+;
 /
 *
 *
@@ -5704,7 +5707,6 @@ nsIChannel
 aChannel
 )
 ;
-static
 bool
 TryChannelCharset
 (
@@ -5717,6 +5719,9 @@ aCharsetSource
 nsACString
 &
 aCharset
+nsHtml5TreeOpExecutor
+*
+aExecutor
 )
 ;
 /
