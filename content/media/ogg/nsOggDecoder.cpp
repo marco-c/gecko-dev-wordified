@@ -12918,6 +12918,11 @@ shutdown
 from
 deadlocking
 .
+if
+(
+mReader
+)
+{
 mReader
 -
 >
@@ -12930,6 +12935,7 @@ Close
 (
 )
 ;
+}
 ChangeState
 (
 PLAY_STATE_SHUTDOWN
@@ -15698,14 +15704,6 @@ MoveLoadsToBackground
 if
 (
 mReader
-&
-&
-mReader
--
->
-Stream
-(
-)
 )
 {
 mReader
