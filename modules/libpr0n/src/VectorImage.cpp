@@ -2092,6 +2092,7 @@ NS_ERROR_FAILURE
 }
 if
 (
+!
 mSVGDocumentWrapper
 -
 >
