@@ -1369,7 +1369,7 @@ tla
 .
 newArray
 <
-JSPackedBool
+bool
 >
 (
 numSlots

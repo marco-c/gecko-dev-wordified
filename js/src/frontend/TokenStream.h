@@ -5416,7 +5416,7 @@ char
 tokens
 *
 /
-JSPackedBool
+bool
 maybeEOL
 [
 256
@@ -5430,7 +5430,7 @@ lookup
 table
 *
 /
-JSPackedBool
+bool
 maybeStrSpecial
 [
 256

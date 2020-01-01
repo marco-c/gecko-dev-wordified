@@ -4938,7 +4938,7 @@ below
 .
 *
 /
-JSPackedBool
+bool
 generatingError
 ;
 /
