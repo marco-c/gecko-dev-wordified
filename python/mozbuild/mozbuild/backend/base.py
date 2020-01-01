@@ -480,6 +480,22 @@ self
 )
 :
         
+efficiency_value
+=
+self
+.
+cpu_time
+/
+self
+.
+wall_time
+if
+self
+.
+wall_time
+else
+100
+        
 return
 '
 Total
@@ -522,13 +538,7 @@ wall_time
 self
 .
 cpu_time
-self
-.
-cpu_time
-/
-self
-.
-wall_time
+efficiency_value
 )
     
 def
