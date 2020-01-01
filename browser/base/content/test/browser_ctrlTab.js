@@ -321,8 +321,6 @@ assertTabs
 2
 )
 ;
-/
-/
 ctrlTabTest
 (
 [
