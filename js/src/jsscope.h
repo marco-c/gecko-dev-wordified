@@ -3396,7 +3396,14 @@ class
 js
 :
 :
-StaticBlockObject
+Bindings
+;
+friend
+class
+js
+:
+:
+ObjectImpl
 ;
 friend
 class
@@ -3410,7 +3417,7 @@ class
 js
 :
 :
-Bindings
+StaticBlockObject
 ;
 friend
 struct
