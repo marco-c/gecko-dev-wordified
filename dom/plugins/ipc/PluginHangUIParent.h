@@ -147,6 +147,15 @@ include
 "
 mozilla
 /
+Mutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 plugins
 /
 PluginMessageUtils
@@ -737,6 +746,13 @@ int
 aResponse
 )
 ;
+bool
+UnwatchHangUIChildProcess
+(
+bool
+aWait
+)
+;
 static
 VOID
 CALLBACK
@@ -750,6 +766,9 @@ aIsTimer
 ;
 private
 :
+Mutex
+mMutex
+;
 PluginModuleParent
 *
 mModule
@@ -766,7 +785,6 @@ MessageLoop
 *
 mMainThreadMessageLoop
 ;
-volatile
 bool
 mIsShowing
 ;
