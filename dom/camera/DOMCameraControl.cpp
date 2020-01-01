@@ -1590,7 +1590,7 @@ to
 check
 canPlay
 .
-bool
+int32_t
 canPlay
 ;
 mAudioChannelAgent

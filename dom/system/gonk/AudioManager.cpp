@@ -3128,7 +3128,7 @@ can
 always
 play
 .
-bool
+int32_t
 canPlay
 ;
 mPhoneAudioAgent
