@@ -24346,7 +24346,7 @@ GetFontGroup
 )
 )
 ;
-PRInt32
+gfxFloat
 app
 =
 aTextPaintStyle
@@ -24396,11 +24396,14 @@ app
 gfxSize
 size
 (
+gfxFloat
+(
 GetRect
 (
 )
 .
 width
+)
 /
 app
 0
@@ -24409,7 +24412,10 @@ app
 gfxFloat
 ascent
 =
+gfxFloat
+(
 mAscent
+)
 /
 app
 ;
