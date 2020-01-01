@@ -524,7 +524,7 @@ h
 endif
 #
 ifdef
-MOZ_PLATFORM_MAEMO
+MOZ_MAEMO_LIBLOCATION
 #
 include
 "
@@ -2455,7 +2455,7 @@ provider
 endif
 #
 ifdef
-MOZ_PLATFORM_MAEMO
+MOZ_MAEMO_LIBLOCATION
 provider
 =
 new
