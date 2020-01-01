@@ -439,12 +439,6 @@ state
 =
 =
 STATE_NONE
-&
-&
-packagePath
-=
-=
-null
 )
 {
 return
