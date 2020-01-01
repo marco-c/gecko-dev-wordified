@@ -1541,6 +1541,7 @@ frames
 /
 class
 nsLineBox
+MOZ_FINAL
 :
 public
 nsLineLink

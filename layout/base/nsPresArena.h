@@ -688,6 +688,12 @@ aPtr
 enum
 ObjectID
 {
+nsLineBox_id
+=
+nsQueryFrame
+:
+:
+NON_FRAME_MARKER
 /
 /
 The
