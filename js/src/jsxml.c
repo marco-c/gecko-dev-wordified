@@ -21154,7 +21154,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-JS_FALSE
+NULL
 )
 ;
 copy

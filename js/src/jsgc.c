@@ -7106,6 +7106,9 @@ arenaList
 >
 lastCount
 =
+(
+uint16
+)
 THINGS_PER_ARENA
 (
 thingSize
@@ -22013,6 +22016,9 @@ arenaList
 >
 lastCount
 =
+(
+uint16
+)
 indexLimit
 ;
 *
