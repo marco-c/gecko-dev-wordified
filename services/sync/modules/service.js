@@ -4668,6 +4668,8 @@ baseURL
 /
 '
 +
+this
+.
 username
 +
 "
@@ -4684,17 +4686,6 @@ Weave
 Resource
 (
 url
-)
-;
-res
-.
-authenticator
-=
-new
-Weave
-.
-NoOpAuthenticator
-(
 )
 ;
 let
