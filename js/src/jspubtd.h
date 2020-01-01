@@ -785,7 +785,6 @@ JSACC_IMPORT
 gap
 preserved
 for
-liveconnect
 ABI
 compatibility
 .

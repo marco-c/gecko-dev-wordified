@@ -7844,16 +7844,6 @@ hook
 without
 converting
 *
-XXX
-the
-only
-thing
-that
-needs
-fixing
-is
-liveconnect
-*
 *
 FIXME
 bug

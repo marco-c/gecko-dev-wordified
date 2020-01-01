@@ -1920,14 +1920,9 @@ window
 object
 exists
 ;
-must
-be
-LiveConnect
-*
-package
-.
-Get
+get
 the
+*
 "
 security
 "

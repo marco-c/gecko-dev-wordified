@@ -3212,15 +3212,6 @@ jsval
 rval
 )
 {
-#
-ifdef
-LIVECONNECT
-JSJ_SimpleShutdown
-(
-)
-;
-#
-endif
 gExitCode
 =
 0
