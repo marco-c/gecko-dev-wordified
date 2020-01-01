@@ -4437,6 +4437,17 @@ lookAndFeel
 GetEchoPassword
 (
 )
+&
+&
+!
+(
+mFlags
+&
+nsIPlaintextEditor
+:
+:
+eEditorDontEchoPassword
+)
 )
 {
 if

@@ -14381,6 +14381,14 @@ nsIPlaintextEditor
 :
 eEditorUseAsyncUpdatesMask
 ;
+flags
+|
+=
+nsIPlaintextEditor
+:
+:
+eEditorDontEchoPassword
+;
 editor
 -
 >
