@@ -1589,7 +1589,7 @@ const
 ;
 }
 ;
-struct
+class
 IonCode
 ;
 /
