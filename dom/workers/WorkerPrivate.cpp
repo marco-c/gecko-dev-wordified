@@ -13757,7 +13757,10 @@ mJSContext
 {
 JS_TriggerOperationCallback
 (
+JS_GetRuntime
+(
 mJSContext
+)
 )
 ;
 }

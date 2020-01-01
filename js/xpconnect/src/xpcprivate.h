@@ -5344,6 +5344,10 @@ mObjectHolderRoots
 JSDHashTable
 mJSHolders
 ;
+PRLock
+*
+mWatchdogLock
+;
 PRCondVar
 *
 mWatchdogWakeup
@@ -5371,6 +5375,10 @@ mLastActiveTime
 if
 active
 NOW
+friend
+class
+AutoLockWatchdog
+;
 }
 ;
 /
