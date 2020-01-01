@@ -3038,13 +3038,6 @@ ins
 )
 ;
 void
-asm_f2i
-(
-LInsp
-ins
-)
-;
-void
 asm_promote
 (
 LIns
