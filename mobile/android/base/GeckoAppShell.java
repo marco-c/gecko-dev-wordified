@@ -3753,7 +3753,7 @@ setInputConnectionHandler
 ;
 layerController
 .
-notifyLayerClientOfGeometryChange
+setForceRedraw
 (
 )
 ;
