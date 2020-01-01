@@ -5826,7 +5826,7 @@ public
 LIRGraph
 (
 MIRGraph
-&
+*
 mir
 )
 ;

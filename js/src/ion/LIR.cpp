@@ -160,7 +160,7 @@ LIRGraph
 LIRGraph
 (
 MIRGraph
-&
+*
 mir
 )
 :
@@ -197,6 +197,7 @@ NULL
 )
 mir_
 (
+*
 mir
 )
 {

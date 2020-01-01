@@ -4942,6 +4942,7 @@ new_
 LIRGraph
 >
 (
+&
 graph
 )
 ;
