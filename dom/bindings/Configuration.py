@@ -2454,6 +2454,12 @@ LegacyCaller
 :
 None
             
+'
+Jsonifier
+'
+:
+None
+            
 }
         
 if
@@ -2549,6 +2555,28 @@ addOperation
 (
 '
 Stringifier
+'
+m
+)
+                
+if
+m
+.
+isMethod
+(
+)
+and
+m
+.
+isJsonifier
+(
+)
+:
+                    
+addOperation
+(
+'
+Jsonifier
 '
 m
 )
