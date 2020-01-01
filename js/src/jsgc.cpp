@@ -11270,7 +11270,8 @@ JSTracer
 trc
 void
 *
-thing
+*
+thingp
 JSGCTraceKind
 kind
 )
@@ -20965,7 +20966,8 @@ JSTracer
 jstrc
 void
 *
-thing
+*
+thingp
 JSGCTraceKind
 kind
 )
@@ -21045,7 +21047,8 @@ i
 .
 thing
 =
-thing
+*
+thingp
 ;
 node
 -
@@ -21984,7 +21987,8 @@ JSTracer
 jstrc
 void
 *
-thing
+*
+thingp
 JSGCTraceKind
 kind
 )
@@ -21995,7 +21999,8 @@ Cell
 *
 >
 (
-thing
+*
+thingp
 )
 -
 >
@@ -22087,7 +22092,8 @@ JSTracer
 jstrc
 void
 *
-thing
+*
+thingp
 JSGCTraceKind
 kind
 )
@@ -22143,7 +22149,8 @@ i
 thing
 =
 =
-thing
+*
+thingp
 )
 {
 JS_ASSERT
