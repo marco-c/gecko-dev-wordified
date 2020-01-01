@@ -8636,6 +8636,9 @@ phase
 "
 )
 ;
+#
+ifdef
+FORCE_BASICTILEDTHEBESLAYER
 if
 (
 HasShadowManager
@@ -8649,14 +8652,6 @@ GetParentBackendType
 =
 =
 LAYERS_OPENGL
-&
-&
-ThebesLayer
-:
-:
-UseTiledThebes
-(
-)
 )
 {
 /
@@ -8712,6 +8707,8 @@ forget
 ;
 }
 else
+#
+endif
 {
 nsRefPtr
 <
