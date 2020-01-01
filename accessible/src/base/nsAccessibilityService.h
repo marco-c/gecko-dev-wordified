@@ -636,6 +636,17 @@ nsIAccessible
 aAccessible
 )
 ;
+PRBool
+HasListener
+(
+nsIContent
+*
+aContent
+nsAString
+&
+aEventType
+)
+;
 }
 ;
 #
