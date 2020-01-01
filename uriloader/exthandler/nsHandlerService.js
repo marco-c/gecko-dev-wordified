@@ -1796,8 +1796,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 var

@@ -11196,15 +11196,6 @@ item
 )
 ;
 let
-itemCount
-=
-{
-value
-:
-0
-}
-;
-let
 itemArray
 =
 itemBranch
@@ -11213,7 +11204,6 @@ getChildList
 (
 "
 "
-itemCount
 )
 ;
 /

@@ -21690,8 +21690,6 @@ order
 extra
 .
 "
-{
-}
 )
 ;
 for
@@ -23057,8 +23055,6 @@ order
 extra
 .
 "
-{
-}
 )
 ;
 for

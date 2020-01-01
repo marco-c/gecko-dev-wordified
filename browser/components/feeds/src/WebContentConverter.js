@@ -5378,8 +5378,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 if
@@ -5533,8 +5531,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 /
@@ -5743,8 +5739,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 for

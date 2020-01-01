@@ -1639,8 +1639,6 @@ gPref
 getChildList
 (
 PREF_PARTNER_BRANCH
-{
-}
 )
 ;
 if
