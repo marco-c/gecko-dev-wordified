@@ -5010,6 +5010,14 @@ return
 NPERR_INVALID_PARAM
 ;
 }
+if
+(
+!
+buf
+)
+return
+NPERR_INVALID_PARAM
+;
 NPN_PLUGIN_LOG
 (
 PLUGIN_LOG_NORMAL
