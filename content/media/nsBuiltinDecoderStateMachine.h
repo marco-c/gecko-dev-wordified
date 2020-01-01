@@ -1010,7 +1010,6 @@ nsBuiltinDecoderStateMachine
 /
 nsDecoderStateMachine
 interface
-virtual
 nsresult
 Init
 (
@@ -1077,7 +1076,6 @@ before
 calling
 this
 .
-virtual
 void
 SetVolume
 (
@@ -1085,7 +1083,6 @@ double
 aVolume
 )
 ;
-virtual
 void
 SetAudioCaptured
 (
@@ -1093,7 +1090,6 @@ bool
 aCapture
 )
 ;
-virtual
 void
 Shutdown
 (
@@ -1130,7 +1126,6 @@ units
 of
 microseconds
 .
-virtual
 int64_t
 GetDuration
 (
@@ -1204,7 +1199,6 @@ is
 in
 microseconds
 .
-virtual
 void
 SetDuration
 (
@@ -1274,7 +1268,6 @@ the
 appropriate
 threads
 .
-virtual
 bool
 OnDecodeThread
 (
@@ -1307,7 +1300,6 @@ mAudioThread
 )
 ;
 }
-virtual
 nsHTMLMediaElement
 :
 :
@@ -1349,7 +1341,6 @@ state
 has
 changed
 .
-virtual
 void
 Play
 (
@@ -1363,7 +1354,6 @@ aTime
 in
 seconds
 .
-virtual
 void
 Seek
 (
@@ -1407,7 +1397,6 @@ before
 calling
 this
 .
-virtual
 double
 GetCurrentTime
 (
@@ -1451,7 +1440,6 @@ decode
 monitor
 held
 .
-virtual
 void
 ClearPositionChangeFlag
 (
@@ -1490,7 +1478,6 @@ before
 calling
 this
 .
-virtual
 void
 SetSeekable
 (
@@ -1554,7 +1541,6 @@ decode
 monitor
 held
 .
-virtual
 void
 UpdatePlaybackPosition
 (
@@ -1609,7 +1595,6 @@ the
 main
 thread
 .
-virtual
 void
 StartBuffering
 (
@@ -1986,7 +1971,6 @@ state
 machine
 threads
 .
-virtual
 void
 SetFrameBufferLength
 (
@@ -2367,9 +2351,8 @@ bool
 IsShutdown
 (
 )
-MOZ_OVERRIDE
 ;
-protected
+private
 :
 class
 WakeDecoderRunnable
@@ -6078,8 +6061,6 @@ monitor
 bool
 mRequestedNewDecodeThread
 ;
-private
-:
 /
 /
 Manager
