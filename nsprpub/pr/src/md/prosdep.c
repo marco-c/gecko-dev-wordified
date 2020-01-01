@@ -182,10 +182,6 @@ XP_UNIX
 #
 if
 defined
-SUNOS4
-|
-|
-defined
 BSDI
 |
 |
@@ -222,10 +218,6 @@ OPENBSD
 |
 defined
 DARWIN
-|
-|
-defined
-NEXTSTEP
 |
 |
 defined

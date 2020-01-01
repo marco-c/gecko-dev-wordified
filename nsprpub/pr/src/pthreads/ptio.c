@@ -30138,13 +30138,6 @@ if
 !
 defined
 (
-SUNOS4
-)
-&
-&
-!
-defined
-(
 HPUX
 )
 \

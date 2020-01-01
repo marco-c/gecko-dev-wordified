@@ -14567,12 +14567,6 @@ tm_gmtoff
 /
 #
 if
-defined
-(
-SUNOS4
-)
-|
-|
 (
 __GLIBC__
 >

@@ -333,12 +333,6 @@ _
 /
 #
 if
-defined
-(
-SUNOS4
-)
-|
-|
 (
 defined
 (
@@ -352,12 +346,6 @@ USE_MACH_DYLD
 )
 )
 \
-|
-|
-defined
-(
-NEXTSTEP
-)
 |
 |
 defined
