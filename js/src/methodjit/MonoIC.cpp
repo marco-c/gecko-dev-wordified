@@ -10501,6 +10501,8 @@ frameSize
 staticArgc
 (
 )
++
+1
 ;
 i
 +
@@ -10509,7 +10511,7 @@ i
 types
 :
 :
-SweepType
+SweepClonedTypes
 (
 &
 ic

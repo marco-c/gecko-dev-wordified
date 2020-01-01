@@ -1612,7 +1612,7 @@ arguments
 types
 :
 :
-jstype
+ClonedTypeSet
 *
 argTypes
 ;

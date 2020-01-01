@@ -912,7 +912,7 @@ typeMonitored
 types
 :
 :
-jstype
+ClonedTypeSet
 *
 argTypes
 ;
@@ -1216,6 +1216,10 @@ usePropCache
 (
 usePropCache
 )
+typeMonitored
+(
+false
+)
 {
 }
 ic
@@ -1262,8 +1266,9 @@ typeMonitored
 types
 :
 :
-jstype
-knownType
+ClonedTypeSet
+*
+rhsTypes
 ;
 ValueRemat
 vr
@@ -1713,9 +1718,9 @@ typeMonitored
 ;
 ic
 .
-knownType
+rhsTypes
 =
-knownType
+rhsTypes
 ;
 #
 ifdef
