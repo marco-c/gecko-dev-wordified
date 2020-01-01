@@ -5303,7 +5303,7 @@ site
 >
 trapClosure
 .
-isObject
+isMarkable
 (
 )
 &
@@ -5311,13 +5311,12 @@ isObject
 IsAboutToBeFinalized
 (
 cx
-&
 site
 -
 >
 trapClosure
 .
-toObject
+toGCThing
 (
 )
 )
