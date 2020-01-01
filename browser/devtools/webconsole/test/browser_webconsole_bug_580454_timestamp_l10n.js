@@ -185,9 +185,7 @@ TEST_TIMESTAMP
 let
 localizedString
 =
-WebConsoleUtils
-.
-l10n
+WCU_l10n
 .
 timestampString
 (
