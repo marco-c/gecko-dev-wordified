@@ -11605,9 +11605,9 @@ we
 want
 to
 process
+some
 native
 mouse
-enter
 events
 in
 the
@@ -11616,6 +11616,7 @@ event
 model
 if
 (
+(
 anEvent
 -
 >
@@ -11623,6 +11624,16 @@ message
 =
 =
 NS_MOUSE_ENTER
+|
+|
+anEvent
+-
+>
+message
+=
+=
+NS_MOUSE_SCROLL
+)
 &
 &
 mInstanceOwner
