@@ -702,7 +702,7 @@ p0
 =
 browser
 .
-transformBrowserToClient
+ptBrowserToClient
 (
 aRect
 .
@@ -717,7 +717,7 @@ p1
 =
 browser
 .
-transformBrowserToClient
+ptBrowserToClient
 (
 aRect
 .
