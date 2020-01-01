@@ -530,15 +530,6 @@ kNSSComponentCID
 NS_NSSCOMPONENT_CID
 )
 ;
-#
-ifndef
-INET6_ADDRSTRLEN
-#
-define
-INET6_ADDRSTRLEN
-46
-#
-endif
 /
 *
 Object
