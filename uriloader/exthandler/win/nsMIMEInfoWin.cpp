@@ -899,11 +899,11 @@ PR_FALSE
 return
 NS_ERROR_INVALID_ARG
 ;
-PRUint32
+int
 result
 =
 (
-PRUint32
+int
 )
 :
 :
@@ -944,7 +944,6 @@ if
 (
 result
 >
-=
 32
 )
 return
