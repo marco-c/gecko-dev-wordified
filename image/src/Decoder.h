@@ -129,13 +129,6 @@ ImageMetadata
 .
 h
 "
-#
-include
-"
-Orientation
-.
-h
-"
 namespace
 mozilla
 {
@@ -1213,12 +1206,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-Orientation
-aOrientation
-=
-Orientation
-(
-)
 )
 ;
 /

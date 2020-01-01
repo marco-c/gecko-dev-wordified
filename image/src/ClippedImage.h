@@ -332,15 +332,6 @@ RequestDiscard
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD_
-(
-Orientation
-)
-GetOrientation
-(
-)
-MOZ_OVERRIDE
-;
 protected
 :
 ClippedImage
