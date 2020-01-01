@@ -500,7 +500,7 @@ true
 js
 :
 :
-ion
+jit
 :
 :
 MDefinition
@@ -522,7 +522,7 @@ constant
 js
 :
 :
-ion
+jit
 :
 :
 MDefinition
@@ -544,7 +544,7 @@ constant
 js
 :
 :
-ion
+jit
 :
 :
 LInstruction
@@ -565,7 +565,7 @@ GC
 js
 :
 :
-ion
+jit
 :
 :
 IonCache
@@ -839,6 +839,21 @@ if
 /
 ~
 DebugOnly
+/
+.
+test
+(
+name
+)
+)
+return
+true
+;
+if
+(
+/
+~
+ScopedThreadSafeStringInspector
 /
 .
 test

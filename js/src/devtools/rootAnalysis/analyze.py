@@ -832,6 +832,14 @@ foreground
 '
 -
 -
+no
+-
+logs
+'
+               
+'
+-
+-
 build
 -
 root
@@ -1366,6 +1374,14 @@ outfile
 +
 =
 1
+        
+sys
+.
+stdout
+.
+flush
+(
+)
         
 with
 open
