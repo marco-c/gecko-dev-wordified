@@ -697,6 +697,13 @@ h
 #
 include
 "
+jsinterpinlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
@@ -3397,7 +3404,7 @@ vcap
 }
 if
 (
-JS_LOCK_OBJ_IF_SHAPE
+js_MatchPropertyCacheShape
 (
 cx
 pobj
