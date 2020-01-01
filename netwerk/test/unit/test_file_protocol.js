@@ -974,11 +974,8 @@ n
 var
 file
 =
-getFile
+do_get_tempdir
 (
-"
-TmpD
-"
 )
 ;
 var
@@ -1167,11 +1164,8 @@ upload
 var
 dest
 =
-getFile
+do_get_tempdir
 (
-"
-TmpD
-"
 )
 ;
 /
