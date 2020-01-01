@@ -1830,7 +1830,7 @@ TryNewNurseryGCThing
 (
 ThreadSafeContext
 *
-tcx
+cxArg
 size_t
 thingSize
 )
@@ -1851,7 +1851,7 @@ JSContext
 *
 cx
 =
-tcx
+cxArg
 -
 >
 asJSContext
@@ -2068,7 +2068,7 @@ NewGCThing
 (
 ThreadSafeContext
 *
-tcx
+cx
 AllocKind
 kind
 size_t
@@ -2099,7 +2099,7 @@ kind
 ;
 if
 (
-tcx
+cx
 -
 >
 isJSContext
@@ -2109,9 +2109,9 @@ isJSContext
 {
 JSContext
 *
-cx
+ncx
 =
-tcx
+cx
 -
 >
 asJSContext
@@ -2120,7 +2120,7 @@ asJSContext
 ;
 JS_ASSERT_IF
 (
-cx
+ncx
 -
 >
 compartment
@@ -2128,7 +2128,7 @@ compartment
 )
 =
 =
-cx
+ncx
 -
 >
 runtime
@@ -2158,7 +2158,7 @@ FINALIZE_IONCODE
 JS_ASSERT
 (
 !
-cx
+ncx
 -
 >
 runtime
@@ -2174,7 +2174,7 @@ isHeapBusy
 JS_ASSERT
 (
 !
-cx
+ncx
 -
 >
 runtime
@@ -2197,7 +2197,7 @@ conditions
 /
 JS_OOM_POSSIBLY_FAIL_REPORT
 (
-cx
+ncx
 )
 ;
 #
@@ -2205,7 +2205,7 @@ ifdef
 JS_GC_ZEAL
 if
 (
-cx
+ncx
 -
 >
 runtime
@@ -2228,7 +2228,7 @@ gc
 :
 RunDebugGC
 (
-cx
+ncx
 )
 ;
 #
@@ -2239,7 +2239,7 @@ allowGC
 )
 MaybeCheckStackRoots
 (
-cx
+ncx
 )
 ;
 }
@@ -2248,7 +2248,7 @@ ifdef
 JSGC_GENERATIONAL
 if
 (
-tcx
+cx
 -
 >
 hasNursery
@@ -2258,7 +2258,7 @@ hasNursery
 &
 ShouldNurseryAllocate
 (
-tcx
+cx
 -
 >
 nursery
@@ -2279,7 +2279,7 @@ T
 allowGC
 >
 (
-tcx
+cx
 thingSize
 )
 ;
@@ -2303,7 +2303,7 @@ T
 *
 >
 (
-tcx
+cx
 -
 >
 allocator
@@ -2347,7 +2347,7 @@ refillFreeList
 allowGC
 >
 (
-tcx
+cx
 kind
 )
 )
@@ -2357,7 +2357,7 @@ ifdef
 DEBUG
 if
 (
-tcx
+cx
 -
 >
 isJSContext
@@ -2369,7 +2369,7 @@ Zone
 *
 zone
 =
-tcx
+cx
 -
 >
 asJSContext
@@ -2460,7 +2460,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 js
 :
 :
@@ -2518,7 +2518,7 @@ JSObject
 allowGC
 >
 (
-tcx
+cx
 kind
 js
 :
@@ -2555,7 +2555,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 {
 return
@@ -2571,7 +2571,7 @@ JSString
 allowGC
 >
 (
-tcx
+cx
 js
 :
 :
@@ -2611,7 +2611,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 {
 return
@@ -2627,7 +2627,7 @@ JSShortString
 allowGC
 >
 (
-tcx
+cx
 js
 :
 :
@@ -2659,7 +2659,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 {
 return
@@ -2678,7 +2678,7 @@ js
 CanGC
 >
 (
-tcx
+cx
 js
 :
 :
@@ -2710,7 +2710,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 {
 return
@@ -2729,7 +2729,7 @@ js
 CanGC
 >
 (
-tcx
+cx
 js
 :
 :
@@ -2764,7 +2764,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 {
 return
@@ -2786,7 +2786,7 @@ js
 CanGC
 >
 (
-tcx
+cx
 js
 :
 :
@@ -2824,7 +2824,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 {
 return
@@ -2846,7 +2846,7 @@ js
 CanGC
 >
 (
-tcx
+cx
 js
 :
 :
@@ -2892,7 +2892,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 {
 return
@@ -2911,7 +2911,7 @@ BaseShape
 allowGC
 >
 (
-tcx
+cx
 js
 :
 :

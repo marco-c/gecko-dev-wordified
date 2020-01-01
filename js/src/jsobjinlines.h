@@ -2903,7 +2903,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 uint32_t
 requiredCapacity
 uint32_t
@@ -3077,7 +3077,7 @@ if
 !
 growElements
 (
-tcx
+cx
 requiredCapacity
 )
 )
@@ -3103,7 +3103,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 js
 :
 :
@@ -3203,7 +3203,7 @@ edr
 =
 extendDenseElements
 (
-tcx
+cx
 requiredCapacity
 extra
 )
