@@ -49,7 +49,7 @@ zero
 /
 /
 /
-Tests
+Test
 that
 makes
 sure
@@ -582,9 +582,6 @@ undefined
 category
 :
 CATEGORY_INPUT
-repeats
-:
-1
 }
 {
 name
@@ -605,9 +602,6 @@ undefined
 category
 :
 CATEGORY_OUTPUT
-repeats
-:
-1
 }
 {
 name

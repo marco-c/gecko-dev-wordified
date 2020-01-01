@@ -1182,11 +1182,7 @@ querySelectorAll
 (
 "
 .
-hud
--
-msg
--
-node
+message
 "
 )
 ;

@@ -248,11 +248,7 @@ querySelector
 (
 "
 .
-webconsole
--
-msg
--
-link
+url
 "
 )
 ;

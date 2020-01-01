@@ -501,8 +501,6 @@ classList
 contains
 (
 "
-hud
--
 filtered
 -
 by
@@ -537,8 +535,6 @@ classList
 contains
 (
 "
-hud
--
 filtered
 -
 by

@@ -385,8 +385,6 @@ querySelector
 (
 "
 .
-webconsole
--
 location
 "
 )
