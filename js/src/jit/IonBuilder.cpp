@@ -49505,6 +49505,7 @@ needsBarrier
 ;
 if
 (
+!
 PropertyWriteNeedsTypeBarrier
 (
 cx
