@@ -445,8 +445,7 @@ u
 =
 0x200B
 )
-|
-|
+;
 /
 /
 PUNCTUATION
@@ -459,15 +458,6 @@ HAIR
 SPACE
 ZERO
 WIDTH
-SPACE
-u
-=
-=
-0x3000
-;
-/
-/
-IDEOGRAPHIC
 SPACE
 }
 static
