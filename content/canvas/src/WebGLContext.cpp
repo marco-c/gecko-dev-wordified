@@ -2961,9 +2961,10 @@ format
 ;
 if
 (
+!
 gl
-&
-&
+|
+|
 !
 InitAndValidateGL
 (
