@@ -184,15 +184,6 @@ end_test
 (
 )
 {
-Services
-.
-prefs
-.
-clearUserPref
-(
-PREF_GETADDONS_GETSEARCHRESULTS
-)
-;
 /
 /
 Test
