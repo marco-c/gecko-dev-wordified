@@ -3709,7 +3709,7 @@ private
 VectorBase
 (
 const
-ThisVector
+VectorBase
 &
 )
 MOZ_DELETE
@@ -3719,7 +3719,7 @@ operator
 =
 (
 const
-ThisVector
+VectorBase
 &
 )
 MOZ_DELETE
