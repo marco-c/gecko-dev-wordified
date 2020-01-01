@@ -1345,11 +1345,11 @@ mCurrentHigherChannel
 else
 {
 channelName
-=
-NS_LITERAL_STRING
+.
+AssignLiteral
 (
 "
-default
+none
 "
 )
 ;
