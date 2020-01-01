@@ -466,8 +466,14 @@ MediaDocument
 :
 MediaDocument
 (
+bool
+aUseXPConnectToWrap
 )
 :
+nsHTMLDocument
+(
+aUseXPConnectToWrap
+)
 mDocumentElementInserted
 (
 false
