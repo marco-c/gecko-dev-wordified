@@ -474,6 +474,9 @@ h
 class
 nsIEditor
 ;
+class
+nsIAtom
+;
 /
 /
 This
@@ -724,8 +727,7 @@ public
 :
 nsBaseStateUpdatingCommand
 (
-const
-char
+nsIAtom
 *
 aTagName
 )
@@ -791,8 +793,7 @@ aEditor
 ;
 protected
 :
-const
-char
+nsIAtom
 *
 mTagName
 ;
@@ -840,8 +841,7 @@ public
 :
 nsStyleUpdatingCommand
 (
-const
-char
+nsIAtom
 *
 aTagName
 )
@@ -938,8 +938,7 @@ public
 :
 nsListCommand
 (
-const
-char
+nsIAtom
 *
 aTagName
 )
@@ -1003,8 +1002,7 @@ public
 :
 nsListItemCommand
 (
-const
-char
+nsIAtom
 *
 aTagName
 )
