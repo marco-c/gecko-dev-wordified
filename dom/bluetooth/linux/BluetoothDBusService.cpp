@@ -8503,11 +8503,11 @@ IsEmpty
 )
 {
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 return
-NS_OK
+true
 ;
 }
 bool
@@ -9363,6 +9363,7 @@ replyError
 ;
 if
 (
+!
 GetDefaultAdapterPath
 (
 v
