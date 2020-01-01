@@ -121,7 +121,7 @@ jsobj
 .
 h
 "
-class
+struct
 JSExnPrivate
 ;
 namespace
