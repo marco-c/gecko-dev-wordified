@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsIDOMSVGFitToViewBox
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -175,6 +182,8 @@ public
 nsIDOMSVGSymbolElement
 public
 DOMSVGTests
+public
+nsIDOMSVGFitToViewBox
 {
 protected
 :
@@ -231,6 +240,7 @@ interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSVGSYMBOLELEMENT
+NS_DECL_NSIDOMSVGFITTOVIEWBOX
 /
 /
 xxx

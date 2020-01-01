@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsIDOMSVGFitToViewBox
+.
+h
+"
+#
+include
+"
 nsISVGPoint
 .
 h
@@ -453,6 +460,8 @@ public
 SVGSVGElementBase
 public
 nsIDOMSVGSVGElement
+public
+nsIDOMSVGFitToViewBox
 {
 friend
 class
@@ -547,6 +556,7 @@ SVGSVGElement
 SVGSVGElementBase
 )
 NS_DECL_NSIDOMSVGSVGELEMENT
+NS_DECL_NSIDOMSVGFITTOVIEWBOX
 /
 /
 xxx

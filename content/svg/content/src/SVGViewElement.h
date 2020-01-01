@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsIDOMSVGFitToViewBox
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -205,6 +212,8 @@ public
 SVGViewElementBase
 public
 nsIDOMSVGViewElement
+public
+nsIDOMSVGFitToViewBox
 {
 protected
 :
@@ -278,6 +287,7 @@ interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSVGVIEWELEMENT
+NS_DECL_NSIDOMSVGFITTOVIEWBOX
 /
 /
 xxx
