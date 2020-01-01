@@ -181,13 +181,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener
 .
 h
@@ -360,9 +353,6 @@ mReentrantMonitor
 ;
 nsWeakPtr
 mWindow
-;
-nsWeakPtr
-mDocShell
 ;
 nsCOMPtr
 <
