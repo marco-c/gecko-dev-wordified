@@ -687,7 +687,7 @@ kDolphinModuleHandle
 )
 &
 &
-nsWinUtils
+nsCoreUtils
 :
 :
 IsTabDocument

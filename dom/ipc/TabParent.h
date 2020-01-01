@@ -844,6 +844,15 @@ aValue
 )
 ;
 virtual
+bool
+RecvGetWidgetNativeData
+(
+WindowsHandle
+*
+aValue
+)
+;
+virtual
 PContentDialogParent
 *
 AllocPContentDialog
