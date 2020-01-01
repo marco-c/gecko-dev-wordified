@@ -2186,6 +2186,8 @@ PRBool
 aIsNewWindowTarget
 PRBool
 aBypassClassifier
+PRBool
+aForceAllowCookies
 )
 ;
 NS_IMETHOD
