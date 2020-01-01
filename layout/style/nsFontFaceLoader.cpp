@@ -4771,7 +4771,13 @@ msg
 .
 AppendInt
 (
+static_cast
+<
+PRUint32
+>
+(
 aStatus
+)
 )
 ;
 break
