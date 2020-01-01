@@ -8591,6 +8591,13 @@ shape_
 =
 oldShape
 ;
+if
+(
+elements
+!
+=
+emptyObjectElements
+)
 cx
 -
 >
