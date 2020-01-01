@@ -591,14 +591,6 @@ bool
 userCancel
 )
 ;
-NS_IMETHOD
-GetAsciiHostForAuth
-(
-nsACString
-&
-aHost
-)
-;
 /
 /
 Functions
