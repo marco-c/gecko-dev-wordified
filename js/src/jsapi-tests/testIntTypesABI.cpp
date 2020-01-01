@@ -184,6 +184,15 @@ include
 "
 js
 /
+HeapAPI
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryMetrics
 .
 h

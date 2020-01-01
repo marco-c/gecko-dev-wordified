@@ -19226,10 +19226,7 @@ JS_THREADSAFE
 *
 /
 }
-JS_FRIEND_API
-(
 void
-)
 GCHelperThread
 :
 :
