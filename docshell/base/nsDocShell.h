@@ -1696,17 +1696,6 @@ OnLeaveLink
 (
 )
 ;
-NS_IMETHOD
-GetLinkState
-(
-nsIURI
-*
-aLinkURI
-nsLinkState
-&
-aState
-)
-;
 nsDocShellInfoLoadType
 ConvertLoadTypeToDocShellLoadInfo
 (
