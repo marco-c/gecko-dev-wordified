@@ -3,10 +3,6 @@
 -
 *
 -
-Mode
-:
-js2
-;
 js2
 -
 basic
