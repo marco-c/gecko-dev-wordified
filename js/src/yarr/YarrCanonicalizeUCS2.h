@@ -310,17 +310,6 @@ wtfbridge
 .
 h
 "
-#
-include
-"
-assembler
-/
-wtf
-/
-Assertions
-.
-h
-"
 namespace
 JSC
 {

@@ -143,13 +143,6 @@ h
 #
 include
 "
-jsautooplen
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h
@@ -193,6 +186,13 @@ h
 include
 "
 jsworkers
+.
+h
+"
+#
+include
+"
+prmjtime
 .
 h
 "

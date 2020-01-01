@@ -153,13 +153,6 @@ h
 "
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 jsapi
 .

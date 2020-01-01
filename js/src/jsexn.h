@@ -127,7 +127,7 @@ jsexn_h___
 #
 include
 "
-jsobj
+jsapi
 .
 h
 "

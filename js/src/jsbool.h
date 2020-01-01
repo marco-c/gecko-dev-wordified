@@ -130,13 +130,6 @@ jsapi
 .
 h
 "
-#
-include
-"
-jsobj
-.
-h
-"
 extern
 JSObject
 *

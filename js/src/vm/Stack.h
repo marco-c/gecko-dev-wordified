@@ -117,6 +117,13 @@ Stack_h__
 #
 include
 "
+jsautooplen
+.
+h
+"
+#
+include
+"
 jsfun
 .
 h
@@ -134,13 +141,6 @@ include
 ion
 /
 IonFrameIterator
-.
-h
-"
-#
-include
-"
-jsautooplen
 .
 h
 "

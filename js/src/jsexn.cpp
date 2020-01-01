@@ -128,13 +128,6 @@ h
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 string
 .
 h
@@ -182,13 +175,6 @@ h
 include
 "
 jscntxt
-.
-h
-"
-#
-include
-"
-jsversion
 .
 h
 "

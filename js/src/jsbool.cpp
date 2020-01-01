@@ -155,13 +155,6 @@ h
 #
 include
 "
-jsversion
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h
