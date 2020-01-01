@@ -12761,10 +12761,6 @@ RootedString
 leftSide
 (
 cx
-)
-;
-leftSide
-=
 js_NewDependentString
 (
 cx
@@ -12773,6 +12769,7 @@ str
 match
 -
 pos
+)
 )
 ;
 if
@@ -12838,10 +12835,6 @@ RootedString
 rightSide
 (
 cx
-)
-;
-rightSide
-=
 js_NewDependentString
 (
 cx
@@ -12852,6 +12845,7 @@ pos
 strEnd
 -
 matchEnd
+)
 )
 ;
 if
@@ -12919,16 +12913,13 @@ RootedString
 leftSide
 (
 cx
-)
-;
-leftSide
-=
 js_NewDependentString
 (
 cx
 textstr
 0
 match
+)
 )
 ;
 if
@@ -14500,10 +14491,6 @@ RootedObject
 scope
 (
 cx
-)
-;
-scope
-=
 cx
 -
 >
@@ -14511,6 +14498,7 @@ stack
 .
 currentScriptedScopeChain
 (
+)
 )
 ;
 while
@@ -19982,10 +19970,6 @@ RootedFunction
 ctor
 (
 cx
-)
-;
-ctor
-=
 global
 -
 >
@@ -19999,6 +19983,7 @@ cx
 String
 )
 1
+)
 )
 ;
 if

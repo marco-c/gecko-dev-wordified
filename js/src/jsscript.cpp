@@ -1085,13 +1085,10 @@ RootedShape
 shape
 (
 cx
-)
-;
-shape
-=
 initialShape
 (
 cx
+)
 )
 ;
 for

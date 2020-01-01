@@ -31073,10 +31073,6 @@ RootedObject
 baseobj
 (
 cx
-)
-;
-baseobj
-=
 NewBuiltinClassInstance
 (
 cx
@@ -31086,6 +31082,7 @@ gc
 :
 :
 FINALIZE_OBJECT16
+)
 )
 ;
 if

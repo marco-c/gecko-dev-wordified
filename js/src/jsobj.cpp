@@ -12833,10 +12833,6 @@ RootedObject
 obj
 (
 cx
-)
-;
-obj
-=
 NewObjectWithGivenProto
 (
 cx
@@ -12852,6 +12848,7 @@ callee
 .
 global
 (
+)
 )
 )
 ;
@@ -15055,10 +15052,6 @@ RootedShape
 shape
 (
 cx
-)
-;
-shape
-=
 EmptyShape
 :
 :
@@ -15072,6 +15065,7 @@ type
 proto
 parent
 kind
+)
 )
 ;
 if
@@ -21317,16 +21311,13 @@ RootedObject
 proto
 (
 cx
-)
-;
-proto
-=
 NewObjectWithClassProto
 (
 cx
 clasp
 protoProto
 obj
+)
 )
 ;
 if
@@ -21611,10 +21602,6 @@ RootedFunction
 fun
 (
 cx
-)
-;
-fun
-=
 js_NewFunction
 (
 cx
@@ -21625,6 +21612,7 @@ JSFUN_CONSTRUCTOR
 obj
 atom
 ctorKind
+)
 )
 ;
 if
@@ -22326,10 +22314,6 @@ RootedAtom
 atom
 (
 cx
-)
-;
-atom
-=
 js_Atomize
 (
 cx
@@ -22343,6 +22327,7 @@ clasp
 -
 >
 name
+)
 )
 )
 ;
@@ -26573,7 +26558,7 @@ id
 const
 Value
 &
-value_
+valueArg
 PropertyOp
 getter
 StrictPropertyOp
@@ -26656,11 +26641,8 @@ RootedValue
 value
 (
 cx
+valueArg
 )
-;
-value
-=
-value_
 ;
 /
 *

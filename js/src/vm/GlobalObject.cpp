@@ -722,10 +722,6 @@ JSScript
 script
 (
 cx
-)
-;
-script
-=
 JSScript
 :
 :
@@ -782,6 +778,7 @@ staticLevel
 *
 /
 0
+)
 )
 ;
 if

@@ -18099,12 +18099,6 @@ return
 NULL
 ;
 }
-RootedObject
-foo
-(
-cx
-)
-;
 if
 (
 !
@@ -18358,10 +18352,6 @@ RootedFunction
 ctor
 (
 cx
-)
-;
-ctor
-=
 global
 -
 >
@@ -18378,6 +18368,7 @@ cx
 ArrayBuffer
 )
 1
+)
 )
 ;
 if

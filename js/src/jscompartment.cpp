@@ -1068,12 +1068,6 @@ isStopIteration
 )
 )
 {
-RootedObject
-null
-(
-cx
-)
-;
 RootedValue
 vvp
 (
@@ -1088,7 +1082,9 @@ result
 js_FindClassObject
 (
 cx
-null
+NullPtr
+(
+)
 JSProto_StopIteration
 &
 vvp
