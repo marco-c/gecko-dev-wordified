@@ -959,7 +959,7 @@ patchEntry
 =
 _nIns
 ;
-MR
+MOV
 (
 FP
 SP
@@ -1118,7 +1118,7 @@ the
 stack
 frame
 first
-MR
+MOV
 (
 SP
 FP
@@ -1323,7 +1323,7 @@ savingMask
 /
 /
 regs
-MR
+MOV
 (
 SP
 FP
@@ -1340,7 +1340,7 @@ jump
 here
 from
 nFragExit
-MR
+MOV
 (
 R0
 R2
@@ -6213,8 +6213,9 @@ imm
 0
 )
 {
-XOR
+EOR
 (
+r
 r
 r
 )
@@ -7968,6 +7969,15 @@ LT
 ;
 break
 ;
+default
+:
+NanoAssert
+(
+0
+)
+;
+break
+;
 }
 }
 else
@@ -8019,6 +8029,15 @@ LIR_fge
 cc
 =
 GE
+;
+break
+;
+default
+:
+NanoAssert
+(
+0
+)
 ;
 break
 ;
@@ -8712,7 +8731,7 @@ target
 =
 _thisfrag
 )
-MR
+MOV
 (
 SP
 FP
@@ -8810,6 +8829,15 @@ SET
 r
 GE
 LT
+)
+;
+break
+;
+default
+:
+NanoAssert
+(
+0
 )
 ;
 break
@@ -9429,6 +9457,7 @@ LIR_and
 AND
 (
 rr
+rr
 rb
 )
 ;
@@ -9440,8 +9469,9 @@ op
 =
 LIR_or
 )
-OR
+ORR
 (
+rr
 rr
 rb
 )
@@ -9454,8 +9484,9 @@ op
 =
 LIR_xor
 )
-XOR
+EOR
 (
+rr
 rr
 rb
 )
@@ -9568,6 +9599,7 @@ LIR_and
 ANDi
 (
 rr
+rr
 c
 )
 ;
@@ -9579,8 +9611,9 @@ op
 =
 LIR_or
 )
-ORi
+ORRi
 (
+rr
 rr
 c
 )
@@ -9593,8 +9626,9 @@ op
 =
 LIR_xor
 )
-XORi
+EORi
 (
+rr
 rr
 c
 )
@@ -9658,7 +9692,7 @@ rr
 =
 ra
 )
-MR
+MOV
 (
 rr
 ra
@@ -9798,7 +9832,7 @@ rr
 =
 ra
 )
-MR
+MOV
 (
 rr
 ra
@@ -10186,7 +10220,7 @@ opposites
 case
 LIR_eq
 :
-MRNE
+MOVNE
 (
 rr
 iffalsereg
@@ -10197,7 +10231,7 @@ break
 case
 LIR_ov
 :
-MRNO
+MOVNO
 (
 rr
 iffalsereg
@@ -10208,7 +10242,7 @@ break
 case
 LIR_cs
 :
-MRNC
+MOVNC
 (
 rr
 iffalsereg
@@ -10219,7 +10253,7 @@ break
 case
 LIR_lt
 :
-MRGE
+MOVGE
 (
 rr
 iffalsereg
@@ -10230,7 +10264,7 @@ break
 case
 LIR_le
 :
-MRG
+MOVG
 (
 rr
 iffalsereg
@@ -10241,7 +10275,7 @@ break
 case
 LIR_gt
 :
-MRLE
+MOVLE
 (
 rr
 iffalsereg
@@ -10252,7 +10286,7 @@ break
 case
 LIR_ge
 :
-MRL
+MOVL
 (
 rr
 iffalsereg
@@ -10263,7 +10297,7 @@ break
 case
 LIR_ult
 :
-MRAE
+MOVAE
 (
 rr
 iffalsereg
@@ -10274,7 +10308,7 @@ break
 case
 LIR_ule
 :
-MRA
+MOVA
 (
 rr
 iffalsereg
@@ -10285,7 +10319,7 @@ break
 case
 LIR_ugt
 :
-MRBE
+MOVBE
 (
 rr
 iffalsereg
@@ -10296,7 +10330,7 @@ break
 case
 LIR_uge
 :
-MRB
+MOVB
 (
 rr
 iffalsereg
@@ -10755,8 +10789,9 @@ val
 =
 0
 )
-XOR
+EOR
 (
+rr
 rr
 rr
 )
@@ -10805,8 +10840,9 @@ val
 =
 0
 )
-XOR
+EOR
 (
+rr
 rr
 rr
 )
@@ -11387,7 +11423,7 @@ in
 a
 saved
 reg
-MR
+MOV
 (
 r
 rA
