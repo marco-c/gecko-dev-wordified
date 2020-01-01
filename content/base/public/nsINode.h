@@ -1287,7 +1287,7 @@ is
 an
 element
 .
-NODE_IS_ELEMENT
+NODE_HANDLING_CLICK
 =
 0x00200000U
 /
@@ -2233,6 +2233,10 @@ mNodeHasRenderingObservers
 (
 false
 )
+mIsElement
+(
+false
+)
 {
 }
 #
@@ -2547,10 +2551,7 @@ IsElement
 const
 {
 return
-HasFlag
-(
-NODE_IS_ELEMENT
-)
+mIsElement
 ;
 }
 /
@@ -7975,6 +7976,11 @@ More
 flags
 bool
 mNodeHasRenderingObservers
+:
+1
+;
+bool
+mIsElement
 :
 1
 ;
