@@ -2530,8 +2530,6 @@ RecalculateFrecenciesInternal
 mozIStorageStatement
 *
 aStatement
-PRInt64
-aBindParameter
 PRInt32
 aCount
 )
