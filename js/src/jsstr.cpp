@@ -24998,7 +24998,7 @@ isInt32
 {
 str
 =
-Int32ToString
+js_IntToString
 (
 cx
 v
