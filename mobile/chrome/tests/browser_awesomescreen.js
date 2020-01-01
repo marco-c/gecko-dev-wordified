@@ -3409,6 +3409,10 @@ sendCompositionEvent
 "
 compositionstart
 "
+"
+"
+"
+"
 )
 ;
 }
@@ -3467,6 +3471,10 @@ sendCompositionEvent
 (
 "
 compositionend
+"
+"
+"
+"
 "
 )
 ;
