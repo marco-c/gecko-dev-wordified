@@ -736,7 +736,7 @@ GetSingleton
 >
 CreateImageClient
 (
-BUFFER_IMAGE_SINGLE
+BUFFER_IMAGE_BUFFERED
 )
 .
 drop
