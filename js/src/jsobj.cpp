@@ -16395,7 +16395,7 @@ if
 GetPropertyNames
 (
 cx
-this
+self
 JSITER_HIDDEN
 |
 JSITER_OWNONLY
