@@ -958,8 +958,6 @@ handler
 txAXMLEventHandler
 *
 handler
-=
-0
 ;
 rv
 =
