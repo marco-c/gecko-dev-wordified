@@ -28457,6 +28457,13 @@ deltas
 ]
 ;
 }
+double
+factor
+=
+cssPxPerDevPx
+/
+mFontSizeScaleFactor
+;
 for
 (
 uint32_t
@@ -28545,9 +28552,7 @@ AppUnitsToGfxUnits
 d
 )
 *
-cssPxPerDevPx
-/
-mFontSizeScaleFactor
+factor
 ;
 }
 /
@@ -28618,9 +28623,7 @@ AppUnitsToGfxUnits
 d
 )
 *
-cssPxPerDevPx
-/
-mFontSizeScaleFactor
+factor
 ;
 }
 /
