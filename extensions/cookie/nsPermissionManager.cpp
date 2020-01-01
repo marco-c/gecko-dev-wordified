@@ -2254,6 +2254,7 @@ EXPIRE_TIME
 &
 aExpireTime
 <
+=
 PR_Now
 (
 )
@@ -3586,6 +3587,7 @@ permEntry
 .
 mExpireTime
 <
+=
 now
 )
 Remove
@@ -4693,6 +4695,7 @@ expireType
 AND
 expireTime
 <
+=
 ?
 2
 "
