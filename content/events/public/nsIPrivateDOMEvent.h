@@ -707,6 +707,7 @@ nsIDOMEvent
 *
 *
 aResult
+NS_OUTPARAM
 nsPresContext
 *
 aPresContext
