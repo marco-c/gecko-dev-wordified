@@ -1728,7 +1728,7 @@ char
 (
 mImageBuffer
 )
-0
+mImageBufferReadPoint
 aCount
 _retval
 )
