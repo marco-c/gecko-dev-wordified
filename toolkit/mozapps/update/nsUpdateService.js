@@ -1214,7 +1214,7 @@ version
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 const
 FILE_UPDATE_ARCHIVE
 =
