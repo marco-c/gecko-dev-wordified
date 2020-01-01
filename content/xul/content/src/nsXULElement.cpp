@@ -14918,10 +14918,11 @@ window
 chrome
 if
 (
+!
 doc
 -
 >
-GetParentDocument
+IsRootDisplayDocument
 (
 )
 )
@@ -15097,11 +15098,10 @@ titlebar
 color
 if
 (
-!
 doc
 -
 >
-GetParentDocument
+IsRootDisplayDocument
 (
 )
 )
