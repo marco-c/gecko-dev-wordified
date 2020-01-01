@@ -58687,6 +58687,14 @@ curFrame
 )
 ;
 curFrame
+-
+>
+SetOutOfFlowFrame
+(
+nsnull
+)
+;
+curFrame
 =
 static_cast
 <
