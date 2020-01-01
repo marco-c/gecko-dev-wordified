@@ -2416,7 +2416,6 @@ rb
 =
 getBaseReg
 (
-LIR_sti
 base
 dr
 GpRegs
@@ -5292,12 +5291,6 @@ ra
 =
 getBaseReg
 (
-ins
--
->
-opcode
-(
-)
 base
 d
 GpRegs
