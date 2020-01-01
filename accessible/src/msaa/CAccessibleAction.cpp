@@ -902,6 +902,7 @@ aKeyBinding
 =
 NULL
 ;
+*
 aNumBinding
 =
 0
