@@ -547,7 +547,7 @@ public
 :
 XrayWrapper
 (
-int
+uintN
 flags
 )
 ;
