@@ -12868,7 +12868,9 @@ getEffectiveHost
 var
 owner
 =
-strings
+Strings
+.
+browser
 .
 GetStringFromName
 (
