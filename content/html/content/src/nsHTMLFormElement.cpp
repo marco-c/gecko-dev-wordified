@@ -6550,6 +6550,7 @@ radio
 >
 WillRemoveFromRadioGroup
 (
+aNotify
 )
 ;
 }
