@@ -25702,6 +25702,12 @@ readerEnabled
 =
 false
 ;
+this
+.
+readerActive
+=
+false
+;
 }
 else
 {
