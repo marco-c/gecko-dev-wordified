@@ -127,6 +127,15 @@ h
 #
 include
 "
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -5258,7 +5267,7 @@ AutoNameVector
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 AutoVectorRooter
@@ -5271,7 +5280,7 @@ cx
 NAMEVECTOR
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 HandlePropertyName
@@ -5303,7 +5312,7 @@ i
 )
 ;
 }
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }

@@ -118,6 +118,15 @@ RegExpStatics_h__
 #
 include
 "
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -988,7 +997,7 @@ cx
 RegExpStatics
 *
 statics_
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 AutoGCRooter
@@ -1006,7 +1015,7 @@ cx
 statics_
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 friend
@@ -1038,7 +1047,7 @@ statics
 SkipRoot
 skip
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }

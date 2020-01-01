@@ -159,6 +159,15 @@ jsworkers_h___
 #
 include
 "
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -644,7 +653,7 @@ JSRuntime
 *
 rt
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 AutoLockWorkerThreadState
@@ -652,7 +661,7 @@ AutoLockWorkerThreadState
 JSRuntime
 *
 rt
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 rt
@@ -660,7 +669,7 @@ rt
 rt
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 #
 ifdef
@@ -726,7 +735,7 @@ JSRuntime
 *
 rt
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 AutoUnlockWorkerThreadState
@@ -734,7 +743,7 @@ AutoUnlockWorkerThreadState
 JSRuntime
 *
 rt
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 rt
@@ -742,7 +751,7 @@ rt
 rt
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 #
 ifdef

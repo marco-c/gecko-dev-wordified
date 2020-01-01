@@ -133,6 +133,15 @@ DebugOnly
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
 /
 *
 *
@@ -2048,7 +2057,7 @@ mark
 bool
 shouldRelease
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -2057,7 +2066,7 @@ LifoAllocScope
 LifoAlloc
 *
 lifoAlloc
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 lifoAlloc
@@ -2069,7 +2078,7 @@ shouldRelease
 true
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 mark
 =

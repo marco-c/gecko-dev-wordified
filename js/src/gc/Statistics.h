@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
@@ -713,7 +722,7 @@ gcreason
 :
 Reason
 reason
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stats
@@ -721,7 +730,7 @@ stats
 stats
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 stats
 .
@@ -749,7 +758,7 @@ Statistics
 &
 stats
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 struct
@@ -762,7 +771,7 @@ Statistics
 stats
 Phase
 phase
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stats
@@ -774,7 +783,7 @@ phase
 phase
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 stats
 .
@@ -804,7 +813,7 @@ stats
 Phase
 phase
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 struct
@@ -817,7 +826,7 @@ Statistics
 stats
 unsigned
 scc
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stats
@@ -829,7 +838,7 @@ scc
 scc
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 start
 =
@@ -864,7 +873,7 @@ scc
 int64_t
 start
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }
