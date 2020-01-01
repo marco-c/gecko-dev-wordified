@@ -775,6 +775,13 @@ aSVGElement
 ;
 struct
 DOMBaseVal
+;
+friend
+class
+DOMBaseVal
+;
+struct
+DOMBaseVal
 :
 public
 nsIDOMSVGPreserveAspectRatio
@@ -908,6 +915,13 @@ mSVGElement
 ;
 }
 }
+;
+struct
+DOMAnimVal
+;
+friend
+class
+DOMAnimVal
 ;
 struct
 DOMAnimVal
