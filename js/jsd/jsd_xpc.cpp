@@ -118,13 +118,6 @@ h
 #
 include
 "
-jslock
-.
-h
-"
-#
-include
-"
 jsd_xpc
 .
 h
