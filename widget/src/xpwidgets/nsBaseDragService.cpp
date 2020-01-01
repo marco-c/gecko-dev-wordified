@@ -3783,8 +3783,12 @@ presShell
 RenderNode
 (
 dragNode
+aRegion
+?
 &
 clipRegion
+:
+nsnull
 pnt
 aScreenDragRect
 )
