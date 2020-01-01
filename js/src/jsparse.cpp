@@ -41201,13 +41201,6 @@ pnp
 =
 pn2
 ;
-if
-(
-type
-=
-=
-TOK_ARRAYPUSH
-)
 PopStatement
 (
 tc
