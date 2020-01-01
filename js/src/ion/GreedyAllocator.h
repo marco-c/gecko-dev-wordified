@@ -476,6 +476,13 @@ LIR
 .
 h
 "
+#
+include
+"
+StackSlotAllocator
+.
+h
+"
 namespace
 js
 {
@@ -1192,8 +1199,8 @@ discouraged
 AllocationState
 state
 ;
-StackAssignment
-stackSlots
+StackSlotAllocator
+stackSlotAllocator
 ;
 BlockInfo
 *
@@ -1601,7 +1608,7 @@ a
 stack
 slot
 .
-bool
+void
 allocateStack
 (
 VirtualRegister
@@ -1843,7 +1850,7 @@ LInstruction
 ins
 )
 ;
-bool
+void
 informSnapshot
 (
 LSnapshot

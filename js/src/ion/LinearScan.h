@@ -507,6 +507,13 @@ h
 #
 include
 "
+StackSlotAllocator
+.
+h
+"
+#
+include
+"
 js
 /
 Vector
@@ -2703,8 +2710,8 @@ vregs
 /
 Allocation
 state
-StackAssignment
-stackAssignment
+StackSlotAllocator
+stackSlotAllocator
 ;
 /
 /
