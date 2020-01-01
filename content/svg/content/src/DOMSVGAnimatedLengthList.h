@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedLengthList
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -1161,7 +1154,7 @@ DOMSVGAnimatedLengthList
 MOZ_FINAL
 :
 public
-nsIDOMSVGAnimatedLengthList
+nsISupports
 public
 nsWrapperCache
 {
@@ -1176,7 +1169,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGAnimatedLengthList
 )
-NS_DECL_NSIDOMSVGANIMATEDLENGTHLIST
 /
 *
 *

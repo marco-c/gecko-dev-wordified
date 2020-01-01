@@ -1049,10 +1049,6 @@ SVGAnimatedLength
 )
 DOMCI_CLASS
 (
-SVGAnimatedLengthList
-)
-DOMCI_CLASS
-(
 SVGAnimatedNumber
 )
 DOMCI_CLASS
@@ -1070,10 +1066,6 @@ SVGEvent
 DOMCI_CLASS
 (
 SVGLength
-)
-DOMCI_CLASS
-(
-SVGLengthList
 )
 DOMCI_CLASS
 (

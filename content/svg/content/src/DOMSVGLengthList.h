@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIDOMSVGLengthList
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -305,7 +298,7 @@ DOMSVGLengthList
 MOZ_FINAL
 :
 public
-nsIDOMSVGLengthList
+nsISupports
 public
 nsWrapperCache
 {
@@ -320,7 +313,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGLengthList
 )
-NS_DECL_NSIDOMSVGLENGTHLIST
 DOMSVGLengthList
 (
 DOMSVGAnimatedLengthList

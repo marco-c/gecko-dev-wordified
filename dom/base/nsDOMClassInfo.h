@@ -189,9 +189,6 @@ namespace
 mozilla
 {
 class
-DOMSVGLengthList
-;
-class
 DOMSVGNumberList
 ;
 class
@@ -221,9 +218,6 @@ nsIDOMHTMLOptionsCollection
 ;
 class
 nsIDOMSVGLength
-;
-class
-nsIDOMSVGLengthList
 ;
 class
 nsIDOMSVGNumber

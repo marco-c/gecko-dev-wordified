@@ -976,7 +976,7 @@ methods
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
+DOMSVGAnimatedLengthList
 x
 ;
 *
@@ -987,7 +987,7 @@ nsSVGTextElement
 :
 GetX
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aX
@@ -1026,7 +1026,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
+DOMSVGAnimatedLengthList
 y
 ;
 *
@@ -1037,7 +1037,7 @@ nsSVGTextElement
 :
 GetY
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aY
@@ -1076,7 +1076,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
+DOMSVGAnimatedLengthList
 dx
 ;
 *
@@ -1087,7 +1087,7 @@ nsSVGTextElement
 :
 GetDx
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aDx
@@ -1126,7 +1126,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
+DOMSVGAnimatedLengthList
 dy
 ;
 *
@@ -1137,7 +1137,7 @@ nsSVGTextElement
 :
 GetDy
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aDy

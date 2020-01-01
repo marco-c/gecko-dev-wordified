@@ -359,7 +359,7 @@ methods
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
+DOMSVGAnimatedLengthList
 x
 ;
 *
@@ -370,7 +370,7 @@ nsSVGTextPositioningElement
 :
 GetX
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aX
@@ -409,7 +409,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
+DOMSVGAnimatedLengthList
 y
 ;
 *
@@ -420,7 +420,7 @@ nsSVGTextPositioningElement
 :
 GetY
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aY
@@ -459,7 +459,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
+DOMSVGAnimatedLengthList
 dx
 ;
 *
@@ -470,7 +470,7 @@ nsSVGTextPositioningElement
 :
 GetDx
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aDx
@@ -509,7 +509,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
+DOMSVGAnimatedLengthList
 dy
 ;
 *
@@ -520,7 +520,7 @@ nsSVGTextPositioningElement
 :
 GetDy
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aDy
