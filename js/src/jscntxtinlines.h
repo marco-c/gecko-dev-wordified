@@ -2438,10 +2438,14 @@ isActive
 )
 )
 )
+{
 initSlow
 (
 )
 ;
+return
+;
+}
 JS_ASSERT
 (
 cx
