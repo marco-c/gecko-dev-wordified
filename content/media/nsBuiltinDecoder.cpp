@@ -2614,6 +2614,8 @@ PRUint32
 aChannels
 PRUint32
 aRate
+bool
+aHasAudio
 )
 {
 NS_ASSERTION
@@ -2776,6 +2778,7 @@ MetadataLoaded
 (
 aChannels
 aRate
+aHasAudio
 )
 ;
 }
