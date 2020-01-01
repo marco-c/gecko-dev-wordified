@@ -1054,6 +1054,8 @@ gfxPlatform
 :
 :
 ComponentAlphaEnabled
+(
+)
 )
 ;
 }
