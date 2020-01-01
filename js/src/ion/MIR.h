@@ -5147,6 +5147,16 @@ return
 name_
 ;
 }
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
+;
+}
 }
 ;
 /
