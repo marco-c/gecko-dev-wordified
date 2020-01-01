@@ -2614,6 +2614,7 @@ nsAutoString
 tempString
 (
 aString
+aLen
 )
 ;
 PRUnichar
