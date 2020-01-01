@@ -585,7 +585,7 @@ kMorkContracts
 ;
 NSMODULE_DEFN
 (
-mork
+nsMorkModule
 )
 =
 &
