@@ -2099,7 +2099,7 @@ str
 struct
 JSTokenPtr
 {
-uint16
+uint32
 index
 ;
 /
@@ -2112,7 +2112,7 @@ physical
 line
 *
 /
-uint16
+uint32
 lineno
 ;
 /
@@ -2727,7 +2727,7 @@ see
 below
 *
 /
-ptrdiff_t
+uint32
 linelen
 ;
 /
@@ -2738,7 +2738,7 @@ segment
 length
 *
 /
-ptrdiff_t
+uint32
 linepos
 ;
 /
