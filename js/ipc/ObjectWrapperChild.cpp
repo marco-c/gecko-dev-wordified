@@ -896,6 +896,13 @@ from
 return
 true
 ;
+case
+JSTYPE_XML
+:
+/
+/
+fall
+through
 default
 :
 return

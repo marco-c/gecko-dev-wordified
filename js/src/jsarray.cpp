@@ -665,6 +665,11 @@ represents
 an
 array
 index
+or
+an
+XML
+property
+index
 .
 *
 *

@@ -278,6 +278,12 @@ misc
 /
 BINOP_IN
 BINOP_INSTANCEOF
+/
+*
+xml
+*
+/
+BINOP_DBLDOT
 BINOP_LIMIT
 }
 ;

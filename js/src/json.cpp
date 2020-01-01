@@ -237,6 +237,13 @@ h
 #
 include
 "
+jsxml
+.
+h
+"
+#
+include
+"
 frontend
 /
 TokenStream
@@ -2392,6 +2399,12 @@ isUndefined
 |
 |
 js_IsCallable
+(
+v
+)
+|
+|
+VALUE_IS_XML
 (
 v
 )
