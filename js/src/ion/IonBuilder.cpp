@@ -20118,7 +20118,7 @@ TypeBarrier
 MUnbox
 :
 :
-Fallible
+TypeGuard
 ;
 barrier
 =
