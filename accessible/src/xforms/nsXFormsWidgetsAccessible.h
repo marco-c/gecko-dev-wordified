@@ -725,10 +725,6 @@ aExtraState
 ;
 protected
 :
-/
-/
-nsAccessible
-virtual
 void
 CacheChildren
 (

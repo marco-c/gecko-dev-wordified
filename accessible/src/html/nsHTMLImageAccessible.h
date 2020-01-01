@@ -629,9 +629,6 @@ CacheChildren
 (
 )
 ;
-/
-/
-nsHTMLImageAccessible
 already_AddRefed
 <
 nsIDOMHTMLCollection
