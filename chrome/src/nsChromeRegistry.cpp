@@ -5838,6 +5838,7 @@ LoadSheetSync
 (
 uri
 PR_TRUE
+PR_TRUE
 getter_AddRefs
 (
 newSheet
