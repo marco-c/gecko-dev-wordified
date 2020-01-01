@@ -226,11 +226,9 @@ modules
 /
 commonjs
 /
-sdk
+promise
 /
 core
-/
-promise
 .
 js
 "
@@ -706,6 +704,9 @@ measurementTypes
 AppInfoMeasurement
 AppVersionMeasurement
 ]
+constantOnly
+:
+true
 appInfoFields
 :
 {
@@ -1816,6 +1817,9 @@ measurementTypes
 [
 SysInfoMeasurement
 ]
+constantOnly
+:
+true
 sysInfoFields
 :
 {
@@ -2858,6 +2862,9 @@ measurementTypes
 CurrentSessionMeasurement
 PreviousSessionsMeasurement
 ]
+constantOnly
+:
+true
 collectConstantData
 :
 function
@@ -4391,6 +4398,9 @@ measurementTypes
 [
 DailyCrashesMeasurement
 ]
+constantOnly
+:
+true
 collectConstantData
 :
 function
