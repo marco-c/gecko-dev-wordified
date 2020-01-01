@@ -307,13 +307,6 @@ h
 #
 include
 "
-nsIDOMStorageIndexedDB
-.
-h
-"
-#
-include
-"
 nsFrameMessageManager
 .
 h
@@ -1701,8 +1694,6 @@ nsIScriptGlobalObject
 public
 nsIDOMJSWindow
 public
-nsIDOMStorageIndexedDB
-public
 nsSupportsWeakReference
 public
 nsIInterfaceRequestor
@@ -2436,10 +2427,6 @@ aHasGamepad
 true
 )
 ;
-/
-/
-nsIDOMStorageIndexedDB
-NS_DECL_NSIDOMSTORAGEINDEXEDDB
 /
 /
 nsIInterfaceRequestor
