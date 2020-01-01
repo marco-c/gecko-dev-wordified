@@ -603,6 +603,11 @@ EnsureMimeTypes
 (
 )
 ;
+void
+Invalidate
+(
+)
+;
 nsWeakPtr
 mWindow
 ;
