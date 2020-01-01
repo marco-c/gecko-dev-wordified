@@ -59415,6 +59415,15 @@ FontSizeInflationLineThreshold
 (
 )
 ;
+mFontSizeInflationForceEnabled
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationForceEnabled
+(
+)
+;
 }
 void
 nsIPresShell
