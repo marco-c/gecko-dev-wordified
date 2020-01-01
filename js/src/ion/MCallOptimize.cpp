@@ -8826,6 +8826,18 @@ unwrapArgs
 (
 )
 ;
+JS_ASSERT
+(
+1
+=
+=
+callInfo
+.
+argc
+(
+)
+)
+;
 MParDump
 *
 dump
@@ -8837,7 +8849,7 @@ callInfo
 .
 getArg
 (
-1
+0
 )
 )
 ;
