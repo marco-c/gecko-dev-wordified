@@ -1131,15 +1131,6 @@ aBuilder
 }
 virtual
 PRBool
-IsFixedAndCoveringViewport
-(
-nsDisplayListBuilder
-*
-aBuilder
-)
-;
-virtual
-PRBool
 IsUniform
 (
 nsDisplayListBuilder
