@@ -1240,7 +1240,11 @@ else
 /
 for
 dropdown
+and
+spinner
 textfields
+/
+/
 look
 at
 the
@@ -1257,6 +1261,12 @@ aWidgetType
 =
 =
 NS_THEME_DROPDOWN_TEXTFIELD
+|
+|
+aWidgetType
+=
+=
+NS_THEME_SPINNER_TEXTFIELD
 )
 aFrame
 =
@@ -1709,6 +1719,12 @@ aWidgetType
 =
 =
 NS_THEME_DROPDOWN_TEXTFIELD
+|
+|
+aWidgetType
+=
+=
+NS_THEME_SPINNER_TEXTFIELD
 |
 |
 aWidgetType
