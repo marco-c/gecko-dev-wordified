@@ -851,6 +851,15 @@ flavor
 )
 :
         
+self
+.
+_ensure_state_subdir_exists
+(
+'
+.
+'
+)
+        
 mochitest
 =
 self
