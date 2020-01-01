@@ -1773,13 +1773,13 @@ mShColorSpace
 int16_t
 mDrawingModel
 ;
-nsAutoPtr
+nsRefPtr
 <
 nsIOSurface
 >
 mIOSurface
 ;
-nsAutoPtr
+nsRefPtr
 <
 nsIOSurface
 >

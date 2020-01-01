@@ -9096,8 +9096,10 @@ if
 mIOSurface
 )
 {
+nsRefPtr
+<
 nsIOSurface
-*
+>
 attachSurface
 =
 nsIOSurface
