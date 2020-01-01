@@ -1293,7 +1293,7 @@ mLengthAttributes
 SVGUseElement
 :
 :
-X
+ATTR_X
 ]
 .
 IsPercentage
@@ -1309,7 +1309,7 @@ mLengthAttributes
 SVGUseElement
 :
 :
-Y
+ATTR_Y
 ]
 .
 IsPercentage
