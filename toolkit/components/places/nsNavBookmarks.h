@@ -1609,17 +1609,6 @@ Database
 >
 mDB
 ;
-nsString
-mGUIDBase
-;
-nsresult
-GetGUIDBase
-(
-nsAString
-&
-aGUIDBase
-)
-;
 PRInt32
 mItemCount
 ;

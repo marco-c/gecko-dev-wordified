@@ -697,9 +697,6 @@ nsINavBookmarksService
 "
 createFolder
 "
-"
-getItemIdForGUID
-"
 ]
 ]
 [
