@@ -6390,9 +6390,8 @@ aScript
 globalObject
 -
 >
-GetScriptGlobal
+GetGlobalJSObject
 (
-stid
 )
 mDocument
 -
