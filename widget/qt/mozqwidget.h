@@ -172,7 +172,7 @@ bool
 )
 ;
 virtual
-bool
+void
 SetCursor
 (
 nsCursor
@@ -529,7 +529,7 @@ aQuery
 )
 const
 ;
-bool
+void
 SetCursor
 (
 const

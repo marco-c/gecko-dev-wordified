@@ -2843,7 +2843,7 @@ aEvent
 )
 ;
 }
-bool
+void
 MozQWidget
 :
 :
@@ -3037,11 +3037,8 @@ setCursor
 cursor
 )
 ;
-return
-NS_OK
-;
 }
-bool
+void
 MozQWidget
 :
 :
@@ -3069,9 +3066,6 @@ setCursor
 (
 bitmapCursor
 )
-;
-return
-NS_OK
 ;
 }
 void
