@@ -460,6 +460,8 @@ SparcAssembler_h
 #
 include
 <
+assembler
+/
 wtf
 /
 Platform
@@ -504,6 +506,8 @@ h
 #
 include
 <
+assembler
+/
 wtf
 /
 Assertions

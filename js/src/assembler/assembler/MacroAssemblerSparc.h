@@ -460,6 +460,8 @@ MacroAssemblerSparc_h
 #
 include
 <
+assembler
+/
 wtf
 /
 Platform

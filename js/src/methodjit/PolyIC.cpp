@@ -20106,6 +20106,12 @@ outOfBounds
 ;
 Address
 typedArrayLength
+=
+masm
+.
+payloadOf
+(
+Address
 (
 objReg
 TypedArray
@@ -20113,6 +20119,7 @@ TypedArray
 :
 lengthOffset
 (
+)
 )
 )
 ;
@@ -22695,6 +22702,12 @@ outOfBounds
 ;
 Address
 typedArrayLength
+=
+masm
+.
+payloadOf
+(
+Address
 (
 objReg
 TypedArray
@@ -22702,6 +22715,7 @@ TypedArray
 :
 lengthOffset
 (
+)
 )
 )
 ;
