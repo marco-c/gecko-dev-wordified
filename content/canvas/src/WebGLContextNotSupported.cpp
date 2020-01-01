@@ -524,6 +524,11 @@ void
 )
 DOMCI_DATA
 (
+WebGLExtensionStandardDerivatives
+void
+)
+DOMCI_DATA
+(
 WebGLExtensionLoseContext
 void
 )
