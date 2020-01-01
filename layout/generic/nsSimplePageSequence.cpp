@@ -715,6 +715,10 @@ nsSimplePageSequenceFrame
 delete
 mPageData
 ;
+ResetPrintCanvasList
+(
+)
+;
 }
 NS_QUERYFRAME_HEAD
 (
