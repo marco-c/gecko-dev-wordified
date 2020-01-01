@@ -337,12 +337,13 @@ jsm
 "
 )
 ;
-var
-{
+this
+.
 makeInfallible
-}
 =
 DevToolsUtils
+.
+makeInfallible
 ;
 let
 wantLogging
