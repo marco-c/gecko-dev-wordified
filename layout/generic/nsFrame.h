@@ -2296,14 +2296,6 @@ nsReflowStatus
 aStatus
 )
 ;
-void
-DestroyAbsoluteFrames
-(
-nsIFrame
-*
-aDestructRoot
-)
-;
 virtual
 bool
 CanContinueTextRun

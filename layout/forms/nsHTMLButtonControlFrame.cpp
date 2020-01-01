@@ -351,11 +351,6 @@ this
 false
 )
 ;
-DestroyAbsoluteFrames
-(
-aDestructRoot
-)
-;
 nsContainerFrame
 :
 :
