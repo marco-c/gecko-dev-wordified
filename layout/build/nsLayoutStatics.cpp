@@ -855,16 +855,6 @@ h
 #
 endif
 #
-ifdef
-MOZ_SVG
-PRBool
-NS_SVGEnabled
-(
-)
-;
-#
-endif
-#
 ifndef
 MOZILLA_PLAINTEXT_EDITOR_ONLY
 #
