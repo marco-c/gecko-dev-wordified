@@ -404,9 +404,6 @@ GetSecurityCallbacks
 nsIInterfaceRequestor
 *
 *
-nsIEventTarget
-*
-*
 )
 =
 0
@@ -1088,10 +1085,6 @@ void
 GetSecurityCallbacks
 (
 nsIInterfaceRequestor
-*
-*
-\
-nsIEventTarget
 *
 *
 )

@@ -1141,9 +1141,6 @@ ci
 nsIInterfaceRequestor
 *
 callbacks
-nsIEventTarget
-*
-target
 )
 {
 return
@@ -1154,7 +1151,6 @@ SpeculativeConnect
 (
 ci
 callbacks
-target
 )
 ;
 }

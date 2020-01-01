@@ -728,9 +728,6 @@ SetSecurityCallbacks
 nsIInterfaceRequestor
 *
 aCallbacks
-nsIEventTarget
-*
-aCallbackTarget
 )
 ;
 /

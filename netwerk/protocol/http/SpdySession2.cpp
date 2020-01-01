@@ -13678,9 +13678,6 @@ GetSecurityCallbacks
 nsIInterfaceRequestor
 *
 *
-nsIEventTarget
-*
-*
 )
 {
 /

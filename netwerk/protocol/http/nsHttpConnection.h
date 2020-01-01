@@ -199,13 +199,6 @@ nsIInterfaceRequestor
 .
 h
 "
-#
-include
-"
-nsIEventTarget
-.
-h
-"
 class
 nsHttpRequestHead
 ;
@@ -515,8 +508,6 @@ nsIAsyncInputStream
 nsIAsyncOutputStream
 *
 nsIInterfaceRequestor
-*
-nsIEventTarget
 *
 PRIntervalTime
 )
@@ -1140,9 +1131,6 @@ SetSecurityCallbacks
 nsIInterfaceRequestor
 *
 aCallbacks
-nsIEventTarget
-*
-aCallbackTarget
 )
 ;
 void
@@ -1382,12 +1370,6 @@ nsCOMPtr
 nsIInterfaceRequestor
 >
 mCallbacks
-;
-nsCOMPtr
-<
-nsIEventTarget
->
-mCallbackTarget
 ;
 nsRefPtr
 <

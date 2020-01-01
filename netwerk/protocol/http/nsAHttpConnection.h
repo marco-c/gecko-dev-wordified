@@ -1219,9 +1219,6 @@ SetSecurityCallbacks
 nsIInterfaceRequestor
 *
 aCallbacks
-nsIEventTarget
-*
-aCallbackTarget
 )
 =
 0
@@ -1662,10 +1659,6 @@ SetSecurityCallbacks
 nsIInterfaceRequestor
 *
 aCallbacks
-\
-nsIEventTarget
-*
-aCallbackTarget
 )
 \
 {
@@ -1678,7 +1671,6 @@ fwdObject
 SetSecurityCallbacks
 (
 aCallbacks
-aCallbackTarget
 )
 ;
 \

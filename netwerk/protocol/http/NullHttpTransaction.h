@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 nsHttpConnectionInfo
 .
 h
@@ -226,9 +219,6 @@ ci
 nsIInterfaceRequestor
 *
 callbacks
-nsIEventTarget
-*
-target
 uint8_t
 caps
 )
@@ -287,12 +277,6 @@ nsCOMPtr
 nsIInterfaceRequestor
 >
 mCallbacks
-;
-nsCOMPtr
-<
-nsIEventTarget
->
-mEventTarget
 ;
 nsRefPtr
 <

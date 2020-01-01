@@ -985,8 +985,6 @@ nsHttpConnectionInfo
 *
 nsIInterfaceRequestor
 *
-nsIEventTarget
-*
 )
 ;
 /
