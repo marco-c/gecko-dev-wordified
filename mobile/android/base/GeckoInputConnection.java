@@ -1849,7 +1849,7 @@ LOGTAG
 CLAMPING
 BOGUS
 SELECTION
-(
+[
 "
 +
 currentStart
@@ -1860,10 +1860,10 @@ currentStart
 currentEnd
 +
 "
-]
+)
 -
 >
-(
+[
 "
 +
 selection
@@ -1878,7 +1878,7 @@ selection
 end
 +
 "
-]
+)
 "
 new
 AssertionError
@@ -3039,7 +3039,7 @@ selection
 d
 %
 d
-]
+)
 "
 a
 b
@@ -7081,7 +7081,7 @@ IndexOutOfBoundsException
 Bad
 composing
 span
-(
+[
 "
 +
 start
@@ -7092,7 +7092,7 @@ start
 end
 +
 "
-]
+)
 contentLength
 =
 "
