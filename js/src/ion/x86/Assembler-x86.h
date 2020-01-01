@@ -546,6 +546,13 @@ CallTempReg5
 =
 edx
 ;
+static
+const
+Register
+CallTempReg6
+=
+ebp
+;
 /
 /
 We
