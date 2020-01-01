@@ -758,9 +758,17 @@ filename
 )
 :
     
+idlFile
+=
+findIDL
+(
+includePath
+filename
+)
+    
 if
 not
-filename
+idlFile
 in
 make_dependencies
 :
@@ -769,7 +777,7 @@ make_dependencies
 .
 append
 (
-filename
+idlFile
 )
     
 idl
@@ -780,17 +788,13 @@ parse
 (
 open
 (
-findIDL
-(
-includePath
-filename
-)
+idlFile
 )
 .
 read
 (
 )
-filename
+idlFile
 )
     
 idl
