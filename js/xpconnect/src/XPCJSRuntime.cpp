@@ -19743,10 +19743,6 @@ AsyncFreeSnowWhite
 (
 )
 )
-mExceptionManagerNotAvailable
-(
-false
-)
 {
 #
 ifdef
