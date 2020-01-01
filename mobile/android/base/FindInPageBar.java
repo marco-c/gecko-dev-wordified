@@ -126,13 +126,13 @@ android
 .
 widget
 .
-RelativeLayout
+LinearLayout
 ;
 public
 class
 FindInPageBar
 extends
-RelativeLayout
+LinearLayout
 implements
 TextWatcher
 View
