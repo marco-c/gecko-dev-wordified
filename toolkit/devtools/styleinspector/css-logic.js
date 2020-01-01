@@ -674,7 +674,7 @@ FILTER
 ALL
 :
 "
-all
+user
 "
 /
 /
@@ -685,7 +685,11 @@ all
 user
 style
 sheets
-.
+USER
+:
+"
+user
+"
 UA
 :
 "
