@@ -468,7 +468,7 @@ radio
 [
 pane
 =
-paneGeneral
+paneMain
 ]
 {
 -
@@ -490,7 +490,7 @@ radio
 [
 pane
 =
-paneGeneral
+paneMain
 ]
 :
 hover
@@ -498,7 +498,7 @@ radio
 [
 pane
 =
-paneGeneral
+paneMain
 ]
 [
 selected
@@ -645,7 +645,7 @@ radio
 [
 pane
 =
-paneDownloads
+paneSecurity
 ]
 {
 -
@@ -667,7 +667,7 @@ radio
 [
 pane
 =
-paneDownloads
+paneSecurity
 ]
 :
 hover
@@ -675,7 +675,7 @@ radio
 [
 pane
 =
-paneDownloads
+paneSecurity
 ]
 [
 selected
