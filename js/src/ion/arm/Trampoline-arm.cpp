@@ -637,6 +637,12 @@ finishDataTransfer
 (
 )
 ;
+masm
+.
+dumpPool
+(
+)
+;
 }
 /
 *
