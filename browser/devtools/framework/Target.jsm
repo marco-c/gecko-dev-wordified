@@ -2191,6 +2191,14 @@ aPacket
 .
 title
 ;
+event
+.
+nativeConsoleAPI
+=
+aPacket
+.
+nativeConsoleAPI
+;
 /
 /
 Send
