@@ -119,13 +119,6 @@ nsPluginInstanceOwner_h_
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 npapi
 .
 h
