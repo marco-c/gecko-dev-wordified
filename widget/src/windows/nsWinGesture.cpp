@@ -503,6 +503,16 @@ M_PI
 14159265358979323846
 #
 endif
+#
+ifdef
+PR_LOGGING
+extern
+PRLogModuleInfo
+*
+gWindowsLog
+;
+#
+endif
 const
 PRUnichar
 nsWinGesture
@@ -2653,7 +2663,10 @@ coord
 .
 y
 ;
-printf
+PR_LOG
+(
+gWindowsLog
+PR_LOG_ALWAYS
 (
 "
 coordX
@@ -2693,6 +2706,7 @@ deltaX
 deltaY
 mXAxisFeedback
 mYAxisFeedback
+)
 )
 ;
 #

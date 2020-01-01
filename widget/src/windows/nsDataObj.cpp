@@ -5192,7 +5192,12 @@ pSTM
 ;
 /
 /
-printf
+PR_LOG
+(
+gWindowsLog
+PR_LOG_ALWAYS
+/
+/
 (
 "
 *
@@ -5213,6 +5218,7 @@ u
 n
 "
 format
+)
 )
 ;
 return
