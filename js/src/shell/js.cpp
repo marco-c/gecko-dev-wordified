@@ -22161,7 +22161,7 @@ WrapWithProto
 2
 0
 "
-wrap
+wrapWithProto
 (
 obj
 )
