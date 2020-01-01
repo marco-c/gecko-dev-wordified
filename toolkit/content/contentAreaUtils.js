@@ -743,7 +743,7 @@ content
 }
 /
 /
-Clientelle
+Clientele
 :
 (
 Make
@@ -1010,7 +1010,7 @@ calling
 internalSave
 /
 /
-Clientelle
+Clientele
 :
 (
 Make

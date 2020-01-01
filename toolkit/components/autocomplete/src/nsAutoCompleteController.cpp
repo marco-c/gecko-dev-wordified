@@ -5396,7 +5396,7 @@ the
 /
 searches
 without
-loosing
+losing
 them
 nsCOMArray
 <

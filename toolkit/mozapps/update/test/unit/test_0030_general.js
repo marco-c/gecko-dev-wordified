@@ -528,7 +528,7 @@ by
 the
 custom
 XMLHttpRequest
-implemetation
+implementation
 to
 /
 /
