@@ -1491,6 +1491,8 @@ function
 {
 self
 .
+window
+.
 removeEventListener
 (
 "
