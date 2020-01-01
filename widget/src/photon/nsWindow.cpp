@@ -538,6 +538,13 @@ h
 #
 include
 "
+nsIMenuBar
+.
+h
+"
+#
+include
+"
 nsToolkit
 .
 h
