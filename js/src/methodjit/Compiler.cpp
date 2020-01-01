@@ -965,7 +965,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )
@@ -6417,7 +6417,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )
@@ -6571,7 +6571,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )
@@ -6616,7 +6616,7 @@ GC
 watch
 in
 case
-needsBarrier
+compileBarriers
 (
 )
 changed
@@ -38513,7 +38513,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 &
@@ -38786,7 +38786,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 &
@@ -41230,7 +41230,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )
@@ -41600,7 +41600,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )
@@ -42825,7 +42825,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )
@@ -45590,7 +45590,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 &
@@ -45729,7 +45729,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )

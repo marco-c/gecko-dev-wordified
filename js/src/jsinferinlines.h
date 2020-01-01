@@ -1794,7 +1794,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 ;

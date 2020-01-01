@@ -481,7 +481,7 @@ compartment
 )
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )
