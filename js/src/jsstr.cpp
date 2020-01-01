@@ -20982,6 +20982,9 @@ if
 site
 -
 >
+script
+-
+>
 hasGlobal
 (
 )

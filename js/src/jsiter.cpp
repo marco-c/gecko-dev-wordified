@@ -8424,7 +8424,9 @@ JSOP_TRAP
 script
 -
 >
-typeMonitorUnknown
+types
+.
+monitorUnknown
 (
 cx
 yieldpc

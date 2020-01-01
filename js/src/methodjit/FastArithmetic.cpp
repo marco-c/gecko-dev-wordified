@@ -1456,13 +1456,13 @@ itself
 .
 Note
 that
-typeMonitorResult
+monitorOverflow
 will
 propagate
 the
 type
-*
 as
+*
 necessary
 if
 a
@@ -1476,7 +1476,9 @@ overflowed
 script
 -
 >
-typeMonitorOverflow
+types
+.
+monitorOverflow
 (
 cx
 PC
@@ -6987,7 +6989,9 @@ TYPE_DOUBLE
 script
 -
 >
-typeMonitorOverflow
+types
+.
+monitorOverflow
 (
 cx
 PC

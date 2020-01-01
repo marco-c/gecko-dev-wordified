@@ -6174,6 +6174,8 @@ return
 script
 -
 >
+types
+.
 slotTypes
 (
 v
