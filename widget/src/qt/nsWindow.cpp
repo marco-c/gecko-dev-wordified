@@ -1120,11 +1120,7 @@ Drawable
 mWidget
 -
 >
-x11Info
-(
-)
-.
-appRootWindow
+handle
 (
 )
 static_cast
