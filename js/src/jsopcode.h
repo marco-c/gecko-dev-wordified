@@ -559,6 +559,7 @@ unsigned
 -
 bit
 constant
+pool
 index
 *
 /
@@ -633,8 +634,10 @@ JOF_SLOTATOM
 *
 uint16
 slot
+index
 +
 constant
+pool
 index
 *
 /
@@ -749,6 +752,7 @@ unsigned
 -
 bit
 object
+pool
 index
 *
 /
@@ -763,6 +767,7 @@ slot
 index
 +
 object
+pool
 index
 *
 /
@@ -777,6 +782,7 @@ unsigned
 -
 bit
 regexp
+pool
 index
 *
 /
@@ -789,20 +795,6 @@ JOF_INT8
 int8
 immediate
 operand
-*
-/
-#
-define
-JOF_ATOMOBJECT
-19
-/
-*
-uint16
-constant
-index
-+
-object
-index
 *
 /
 #

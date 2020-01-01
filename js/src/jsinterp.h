@@ -1236,7 +1236,7 @@ for
 script
 -
 >
-staticLevel
+staticDepth
 *
 /
 #

@@ -617,8 +617,6 @@ pool
 void
 *
 item
-size_t
-size
 )
 ;
 JSHashEntry

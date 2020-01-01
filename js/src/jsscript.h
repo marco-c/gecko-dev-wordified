@@ -699,10 +699,6 @@ JSUpvarArray
 ;
 #
 define
-FREE_UPVAR_COOKIE
-0xffffffff
-#
-define
 MAKE_UPVAR_COOKIE
 (
 skip
@@ -1014,12 +1010,12 @@ depth
 *
 /
 uint16
-staticLevel
+staticDepth
 ;
 /
 *
 static
-level
+depth
 for
 display
 maintenance

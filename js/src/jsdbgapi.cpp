@@ -7737,7 +7737,7 @@ properly
 compute
 a
 static
-level
+depth
 .
 In
 order
@@ -7750,7 +7750,7 @@ we
 use
 a
 static
-level
+depth
 that
 will
 cause
@@ -7772,10 +7772,7 @@ frame
 /
 script
 =
-JSCompiler
-:
-:
-compileScript
+js_CompileScript
 (
 cx
 scobj
@@ -7787,7 +7784,7 @@ fp
 )
 TCF_COMPILE_N_GO
 |
-TCF_PUT_STATIC_LEVEL
+TCF_PUT_STATIC_DEPTH
 (
 JS_DISPLAY_SIZE
 )

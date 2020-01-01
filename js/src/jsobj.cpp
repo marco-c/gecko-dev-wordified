@@ -7919,7 +7919,7 @@ caller
 tcflags
 |
 =
-TCF_PUT_STATIC_LEVEL
+TCF_PUT_STATIC_DEPTH
 (
 caller
 -
@@ -7927,7 +7927,7 @@ caller
 script
 -
 >
-staticLevel
+staticDepth
 +
 1
 )
@@ -8129,10 +8129,7 @@ function
 .
 *
 See
-JSCompiler
-:
-:
-compileScript
+js_CompileScript
 in
 jsparse
 .
@@ -8182,10 +8179,7 @@ the
 prior
 eval
 to
-JSCompiler
-:
-:
-compileScript
+js_CompileScript
 .
 *
 /
@@ -8428,10 +8422,7 @@ script
 {
 script
 =
-JSCompiler
-:
-:
-compileScript
+js_CompileScript
 (
 cx
 scopeobj

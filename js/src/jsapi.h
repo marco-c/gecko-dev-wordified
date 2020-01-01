@@ -1992,11 +1992,12 @@ JSFUN_
 attributes
 -
 -
-bits
-12
--
+note
+that
+bit
+#
 15
-are
+is
 used
 internally
 to
