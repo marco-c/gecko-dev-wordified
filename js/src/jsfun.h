@@ -1741,8 +1741,10 @@ fun_toStringHelper
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 unsigned
 indent

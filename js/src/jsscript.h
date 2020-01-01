@@ -7974,9 +7974,7 @@ HandleScript
 enclosingScript
 HandleFunction
 fun
-JSScript
-*
-*
+MutableHandleScript
 scriptp
 )
 ;
