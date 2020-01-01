@@ -176,12 +176,10 @@ private
 :
 const
 TString
-&
 mOldFunctionName
 ;
 const
 TString
-&
 mNewFunctionName
 ;
 }
