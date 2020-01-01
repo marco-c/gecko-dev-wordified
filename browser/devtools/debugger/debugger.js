@@ -4204,6 +4204,14 @@ updateEditorBreakpoints
 )
 ;
 }
+window
+.
+editor
+.
+resetUndo
+(
+)
+;
 }
 }
 ;
