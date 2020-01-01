@@ -2232,6 +2232,8 @@ OptionKindString
 char
 *
 value
+=
+NULL
 ;
 if
 (
@@ -2273,6 +2275,8 @@ OptionKindInt
 char
 *
 value
+=
+NULL
 ;
 if
 (
@@ -2317,6 +2321,8 @@ OptionKindMultiString
 char
 *
 value
+=
+NULL
 ;
 if
 (
