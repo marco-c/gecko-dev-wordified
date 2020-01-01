@@ -512,7 +512,7 @@ STORAGEBASESTATEMENTINTERNAL_IID
 class
 Connection
 ;
-struct
+class
 StatementData
 ;
 class
