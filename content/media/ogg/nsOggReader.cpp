@@ -8053,7 +8053,7 @@ index
 ;
 index
 <
-aRanges
+cached
 .
 Length
 (
