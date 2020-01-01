@@ -2101,9 +2101,14 @@ GetScriptGlobalObject
 ;
 if
 (
+!
 globalObject
 )
 {
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 nsIScriptContext
 *
 context
@@ -2144,9 +2149,10 @@ on
 .
 if
 (
+!
 context
-&
-&
+|
+|
 !
 context
 -
@@ -2159,7 +2165,6 @@ GetScriptsEnabled
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-}
 }
 /
 /
@@ -3389,11 +3394,6 @@ stuff
 gets
 a
 veto
-if
-(
-globalObject
-)
-{
 PRInt16
 shouldLoad
 =
@@ -3685,7 +3685,6 @@ rv
 rv
 )
 ;
-}
 }
 else
 {
