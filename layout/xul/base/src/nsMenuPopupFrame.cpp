@@ -8530,11 +8530,6 @@ nsIPresShell
 :
 :
 SCROLL_OVERFLOW_HIDDEN
-|
-nsIPresShell
-:
-:
-SCROLL_FIRST_ANCESTOR_ONLY
 )
 ;
 }
