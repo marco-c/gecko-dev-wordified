@@ -1437,7 +1437,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Removing
@@ -1495,7 +1495,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Invalid
