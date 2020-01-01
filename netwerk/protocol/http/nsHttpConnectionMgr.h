@@ -3381,9 +3381,6 @@ mReentrantMonitor
 -
 -
 -
-int32_t
-mRef
-;
 mozilla
 :
 :
