@@ -54711,10 +54711,8 @@ uri
 =
 =
 null
-)
-{
-if
-(
+&
+&
 aElement
 .
 nodeType
@@ -54767,7 +54765,6 @@ catch
 e
 )
 {
-}
 }
 }
 return
