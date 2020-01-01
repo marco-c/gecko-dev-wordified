@@ -1057,6 +1057,7 @@ if
 (
 commitEnd
 <
+=
 limit
 &
 &
@@ -1064,7 +1065,11 @@ from
 +
 nvals
 <
-limit
+(
+start
++
+MAX_STACK_USAGE
+)
 )
 {
 if

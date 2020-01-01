@@ -908,6 +908,8 @@ regs
 .
 sp
 +
+VALUES_PER_STACK_FRAME
++
 nmissing
 +
 nslots

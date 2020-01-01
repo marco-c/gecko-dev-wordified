@@ -5325,7 +5325,7 @@ Value
 *
 >
 (
-fp
+entryFp
 )
 regs
 .
