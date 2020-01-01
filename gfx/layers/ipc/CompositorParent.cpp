@@ -1595,6 +1595,9 @@ TransformShadowTree
 (
 )
 {
+#
+ifdef
+MOZ_WIDGET_ANDROID
 Layer
 *
 layer
@@ -1765,6 +1768,8 @@ SetShadowTransform
 shadowTransform
 )
 ;
+#
+endif
 }
 void
 CompositorParent
