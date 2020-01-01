@@ -1543,7 +1543,7 @@ data
 for
 the
 <
-UIClass
+UIManager
 >
 singleton
 for
@@ -1597,7 +1597,7 @@ data
 for
 the
 <
-UIClass
+UIManager
 >
 singleton
 for

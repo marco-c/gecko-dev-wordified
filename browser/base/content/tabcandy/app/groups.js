@@ -9008,9 +9008,9 @@ thread
 /
 /
 calling
-Page
+UI
 .
-hideChrome
+showTabCandy
 (
 )
 inline
@@ -9072,9 +9072,9 @@ function
 (
 )
 {
-Page
+UI
 .
-hideChrome
+showTabCandy
 (
 )
 }
@@ -9266,9 +9266,9 @@ selectedTab
 =
 newTab
 ;
-Page
+UI
 .
-showChrome
+hideTabCandy
 (
 )
 gWindow
