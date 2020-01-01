@@ -91,6 +91,15 @@ nsIFile
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_BROWSERDIRECTORYPROVIDER_CONTRACTID
 \
@@ -115,6 +124,7 @@ browser
 {
 class
 DirectoryProvider
+MOZ_FINAL
 :
 public
 nsIDirectoryServiceProvider2
@@ -128,6 +138,7 @@ private
 :
 class
 AppendingEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator
