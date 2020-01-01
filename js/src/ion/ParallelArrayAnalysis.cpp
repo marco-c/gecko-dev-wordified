@@ -1116,7 +1116,11 @@ BindNameCache
 )
 SAFE_OP
 (
-GuardShapeOrType
+GuardShape
+)
+SAFE_OP
+(
+GuardObjectType
 )
 SAFE_OP
 (

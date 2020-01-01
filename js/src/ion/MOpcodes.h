@@ -579,7 +579,12 @@ BindNameCache
 \
 _
 (
-GuardShapeOrType
+GuardShape
+)
+\
+_
+(
+GuardObjectType
 )
 \
 _
