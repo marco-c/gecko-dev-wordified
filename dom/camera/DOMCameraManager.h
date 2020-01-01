@@ -162,6 +162,9 @@ Attributes
 h
 "
 class
+nsPIDOMWindow
+;
+class
 nsDOMCameraManager
 MOZ_FINAL
 :
@@ -177,10 +180,11 @@ already_AddRefed
 <
 nsDOMCameraManager
 >
-Create
+CheckPermissionAndCreateInstance
 (
-uint64_t
-aWindowId
+nsPIDOMWindow
+*
+aWindow
 )
 ;
 void
