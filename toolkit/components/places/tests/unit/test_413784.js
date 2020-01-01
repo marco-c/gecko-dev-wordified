@@ -1,8 +1,3 @@
-version
-(
-180
-)
-;
 /
 *
 -
@@ -1013,7 +1008,16 @@ sure
 the
 url
 is
-decoded
+the
+same
+according
+to
+spec
+so
+it
+can
+be
+deleted
 do_check_eq
 (
 controller
@@ -1022,7 +1026,9 @@ getValueAt
 (
 0
 )
-decoded
+url
+.
+spec
 )
 ;
 do_test_finished
