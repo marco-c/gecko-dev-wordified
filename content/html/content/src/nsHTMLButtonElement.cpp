@@ -1168,6 +1168,12 @@ disabled
 NS_IMPL_STRING_ATTR
 (
 nsHTMLButtonElement
+FormTarget
+formtarget
+)
+NS_IMPL_STRING_ATTR
+(
+nsHTMLButtonElement
 Name
 name
 )
