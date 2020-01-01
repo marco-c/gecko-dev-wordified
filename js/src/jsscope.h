@@ -534,6 +534,15 @@ jspropertytree
 h
 "
 #
+include
+"
+vm
+/
+ArgumentsObject
+.
+h
+"
+#
 ifdef
 _MSC_VER
 #
@@ -5684,7 +5693,10 @@ ensure
 (
 cx
 &
-js_ArgumentsClass
+NormalArgumentsObject
+:
+:
+jsClass
 &
 cx
 -
