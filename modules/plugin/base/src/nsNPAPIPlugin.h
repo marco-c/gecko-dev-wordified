@@ -684,13 +684,9 @@ static
 nsresult
 CreatePlugin
 (
-const
-char
+nsPluginTag
 *
-aFilePath
-PRLibrary
-*
-aLibrary
+aPluginTag
 nsIPlugin
 *
 *
@@ -814,10 +810,6 @@ static
 PRBool
 RunPluginOOP
 (
-const
-char
-*
-aFilePath
 const
 nsPluginTag
 *
