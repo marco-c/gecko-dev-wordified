@@ -49118,7 +49118,6 @@ self
 dictionary
 =
 dictionary
-;
         
 self
 .
@@ -49133,6 +49132,24 @@ workers
 descriptorProvider
 .
 workers
+        
+self
+.
+needToInitIds
+=
+not
+self
+.
+workers
+and
+len
+(
+dictionary
+.
+members
+)
+>
+0
         
 if
 all
@@ -49698,10 +49715,9 @@ initedIds
 n
 "
 if
-not
 self
 .
-workers
+needToInitIds
 else
 "
 "
@@ -50421,10 +50437,9 @@ n
 n
 "
 if
-not
 self
 .
-workers
+needToInitIds
 else
 "
 "
@@ -50577,10 +50592,9 @@ n
 n
 "
 if
-not
 self
 .
-workers
+needToInitIds
 else
 "
 "
@@ -50592,7 +50606,9 @@ else
 initParent
 }
 "
++
             
+(
 "
 JSBool
 found
@@ -50600,7 +50616,7 @@ found
 \
 n
 "
-            
+             
 "
 JS
 :
@@ -50611,6 +50627,18 @@ temp
 \
 n
 "
+if
+len
+(
+memberInits
+)
+>
+0
+else
+"
+"
+)
++
             
 "
 bool
@@ -50783,10 +50811,9 @@ n
 n
 "
 if
-not
 self
 .
-workers
+needToInitIds
 else
 "
 "
