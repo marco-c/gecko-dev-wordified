@@ -3234,7 +3234,7 @@ if
 fun
 -
 >
-isInterpreted
+isInterpretedConstructor
 (
 )
 )

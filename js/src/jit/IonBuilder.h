@@ -1286,6 +1286,8 @@ canInlineTarget
 JSFunction
 *
 target
+bool
+constructing
 )
 ;
 void
