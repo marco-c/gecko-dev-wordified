@@ -6408,15 +6408,6 @@ cmsHPROFILE
 hProfile
 )
 ;
-LCMSAPI
-LCMSBOOL
-LCMSEXPORT
-cmsProfileIsBogus
-(
-cmsHPROFILE
-hProfile
-)
-;
 /
 /
 Predefined
