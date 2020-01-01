@@ -134,11 +134,6 @@ nsIDOMWebGLRenderingContext
 )
 DOMCI_DATA
 (
-WebGLRenderingContext
-void
-)
-DOMCI_DATA
-(
 WebGLBuffer
 void
 )
