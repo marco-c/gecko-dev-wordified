@@ -2243,6 +2243,11 @@ nsILookAndFeel
 :
 :
 eColor__moz_mac_menutextselect
+eCSSKeyword__moz_mac_disabledtoolbartext
+nsILookAndFeel
+:
+:
+eColor__moz_mac_disabledtoolbartext
 eCSSKeyword__moz_mac_accentlightesthighlight
 nsILookAndFeel
 :

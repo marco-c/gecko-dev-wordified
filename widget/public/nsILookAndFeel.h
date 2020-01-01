@@ -861,6 +861,16 @@ over
 a
 menu
 item
+eColor__moz_mac_disabledtoolbartext
+/
+/
+text
+color
+of
+disabled
+text
+on
+toolbars
 /
 /
 all
