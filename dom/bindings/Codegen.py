@@ -43062,6 +43062,23 @@ n
 "
                 
 "
+JS_SET_RVAL
+(
+cx
+vp
+JS
+:
+:
+UndefinedValue
+(
+)
+)
+;
+\
+n
+"
+                
+"
 return
 true
 ;
