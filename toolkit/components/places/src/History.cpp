@@ -2209,7 +2209,7 @@ MUST
 hold
 a
 strong
-refernce
+reference
 to
 this
 that
@@ -2217,8 +2217,8 @@ outlives
 us
 because
 we
-may
 *
+may
 be
 created
 off
@@ -2232,8 +2232,8 @@ cannot
 call
 AddRef
 on
-this
 *
+this
 object
 (
 and
