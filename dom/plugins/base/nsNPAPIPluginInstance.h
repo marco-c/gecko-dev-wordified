@@ -526,11 +526,11 @@ void
 )
 ;
 nsresult
-UseAsyncPainting
+GetIsOOP
 (
 bool
 *
-aIsAsync
+aIsOOP
 )
 ;
 nsresult
@@ -1770,9 +1770,6 @@ mozilla
 :
 TimeStamp
 mStopTime
-;
-bool
-mUsePluginLayersPref
 ;
 #
 ifdef
