@@ -9281,7 +9281,7 @@ restrictions
 "
 "
 0
-nullptr
+kStrokeObjectValueKTable
 CSS_PROP_NO_OFFSET
 /
 *
@@ -9306,7 +9306,9 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HLPN
-nullptr
+|
+VARIANT_KEYWORD
+kStrokeObjectValueKTable
 offsetof
 (
 nsStyleSVG
@@ -9407,7 +9409,9 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 "
 VARIANT_HLPN
-nullptr
+|
+VARIANT_KEYWORD
+kStrokeObjectValueKTable
 offsetof
 (
 nsStyleSVG

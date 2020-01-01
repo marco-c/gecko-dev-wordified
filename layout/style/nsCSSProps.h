@@ -2416,6 +2416,13 @@ kStrokeLinejoinKTable
 static
 const
 int32_t
+kStrokeObjectValueKTable
+[
+]
+;
+static
+const
+int32_t
 kVectorEffectKTable
 [
 ]
