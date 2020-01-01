@@ -4654,11 +4654,6 @@ mCloseTimer
 nsnull
 ;
 }
-if
-(
-mListener
-)
-{
 nsCOMPtr
 <
 nsIRunnable
@@ -4677,7 +4672,6 @@ NS_DispatchToMainThread
 event
 )
 ;
-}
 if
 (
 mClientClosed
@@ -7454,11 +7448,6 @@ mCalledOnStop
 =
 1
 ;
-if
-(
-mListener
-)
-{
 nsCOMPtr
 <
 nsIRunnable
@@ -7478,7 +7467,6 @@ NS_DispatchToMainThread
 event
 )
 ;
-}
 }
 return
 ;
