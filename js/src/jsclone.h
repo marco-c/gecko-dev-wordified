@@ -861,6 +861,9 @@ startObject
 (
 JSHandleObject
 obj
+bool
+*
+backref
 )
 ;
 bool
@@ -873,6 +876,13 @@ js
 Value
 &
 v
+)
+;
+bool
+traverseObject
+(
+JSHandleObject
+obj
 )
 ;
 inline
