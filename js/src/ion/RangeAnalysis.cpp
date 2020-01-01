@@ -135,7 +135,7 @@ h
 #
 include
 "
-EdgeCaseAnalysis
+RangeAnalysis
 .
 h
 "
@@ -164,10 +164,10 @@ js
 :
 ion
 ;
-EdgeCaseAnalysis
+RangeAnalysis
 :
 :
-EdgeCaseAnalysis
+RangeAnalysis
 (
 MIRGraph
 &
@@ -181,7 +181,7 @@ graph
 {
 }
 bool
-EdgeCaseAnalysis
+RangeAnalysis
 :
 :
 analyzeLate
@@ -232,7 +232,7 @@ iter
 iter
 -
 >
-analyzeEdgeCasesForward
+analyzeRangeForward
 (
 )
 ;
@@ -293,7 +293,7 @@ riter
 riter
 -
 >
-analyzeEdgeCasesBackward
+analyzeRangeBackward
 (
 )
 ;
@@ -303,7 +303,7 @@ true
 ;
 }
 bool
-EdgeCaseAnalysis
+RangeAnalysis
 :
 :
 analyzeEarly
@@ -376,7 +376,7 @@ true
 ;
 }
 bool
-EdgeCaseAnalysis
+RangeAnalysis
 :
 :
 AllUsesTruncate

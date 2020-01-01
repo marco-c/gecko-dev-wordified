@@ -515,7 +515,7 @@ h
 #
 include
 "
-EdgeCaseAnalysis
+RangeAnalysis
 .
 h
 "
@@ -4612,11 +4612,11 @@ if
 (
 js_IonOptions
 .
-edgeCaseAnalysis
+rangeAnalysis
 )
 {
-EdgeCaseAnalysis
-edgeCaseAnalysis
+RangeAnalysis
+rangeAnalysis
 (
 graph
 )
@@ -4624,7 +4624,7 @@ graph
 if
 (
 !
-edgeCaseAnalysis
+rangeAnalysis
 .
 analyzeEarly
 (
@@ -4636,8 +4636,7 @@ false
 IonSpewPass
 (
 "
-Edge
-Case
+Range
 Analysis
 (
 Early
@@ -4757,11 +4756,11 @@ if
 (
 js_IonOptions
 .
-edgeCaseAnalysis
+rangeAnalysis
 )
 {
-EdgeCaseAnalysis
-edgeCaseAnalysis
+RangeAnalysis
+rangeAnalysis
 (
 graph
 )
@@ -4769,7 +4768,7 @@ graph
 if
 (
 !
-edgeCaseAnalysis
+rangeAnalysis
 .
 analyzeLate
 (
@@ -4781,8 +4780,7 @@ false
 IonSpewPass
 (
 "
-Edge
-Case
+Range
 Analysis
 (
 Late

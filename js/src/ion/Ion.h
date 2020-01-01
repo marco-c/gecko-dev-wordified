@@ -675,8 +675,7 @@ inlining
 /
 Toggles
 whether
-Edge
-Case
+Range
 Analysis
 is
 used
@@ -689,7 +688,7 @@ Default
 :
 true
 bool
-edgeCaseAnalysis
+rangeAnalysis
 ;
 /
 /
@@ -966,7 +965,7 @@ inlining
 (
 true
 )
-edgeCaseAnalysis
+rangeAnalysis
 (
 true
 )
