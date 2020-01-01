@@ -439,13 +439,6 @@ nsHttpChunkedDecoder_h__
 #
 include
 "
-nsHttp
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
