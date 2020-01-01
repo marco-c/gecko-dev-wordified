@@ -7989,14 +7989,12 @@ aDirection
 0
 ?
 -
-0
-.
 1
 :
-0
-.
 1
 )
+*
+kBrowserViewZoomLevelIncrement
 ;
 let
 adjusted
@@ -8008,6 +8006,9 @@ Util
 adjustZoomLevel
 (
 zoomLevel
+kBrowserViewZoomLevelIncrement
+/
+2
 )
 ;
 let

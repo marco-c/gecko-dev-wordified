@@ -486,7 +486,14 @@ kBrowserViewZoomLevelPrecision
 10000
 ;
 const
-kBrowserViewZoomLevelMaxAdjust
+kBrowserViewZoomLevelIncrement
+=
+0
+.
+1
+;
+const
+kBrowserViewZoomLevelPageFitAdjust
 =
 0
 .
@@ -1585,6 +1592,7 @@ function
 adjustZoomLevel
 (
 zl
+threshold
 )
 {
 return
@@ -1600,8 +1608,7 @@ abs
 zl
 )
 <
-=
-kBrowserViewZoomLevelMaxAdjust
+threshold
 )
 ?
 1
@@ -1645,6 +1652,7 @@ Util
 adjustZoomLevel
 (
 zl
+kBrowserViewZoomLevelPageFitAdjust
 )
 ;
 }
