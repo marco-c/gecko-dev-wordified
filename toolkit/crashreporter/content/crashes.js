@@ -421,6 +421,9 @@ var
 reportsDir
 pendingDir
 ;
+var
+reportURL
+;
 Components
 .
 utils
