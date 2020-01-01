@@ -19472,12 +19472,12 @@ __SS_restore_tab
 =
 aTab
 ;
-try
-{
 didStartLoad
 =
 true
 ;
+try
+{
 browser
 .
 webNavigation
@@ -19507,6 +19507,10 @@ removeAttribute
 busy
 "
 )
+;
+didStartLoad
+=
+false
 ;
 }
 }
