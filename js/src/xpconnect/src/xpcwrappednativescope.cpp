@@ -1551,8 +1551,6 @@ hasInstance
 nsnull
 /
 /
-mark
-/
 trace
 ;
 JS_NULL_CLASS_EXT
