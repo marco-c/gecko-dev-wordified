@@ -3874,7 +3874,7 @@ null
 /
 *
 *
-_getLocalisedString
+_getLocalizedString
 *
 *
 Can
@@ -3883,7 +3883,7 @@ called
 as
 :
 *
-_getLocalisedString
+_getLocalizedString
 (
 "
 key1
