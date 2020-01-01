@@ -601,7 +601,7 @@ nsIAtom
 *
 aName
 const
-nsAttrValue
+nsAString
 *
 aValue
 bool
