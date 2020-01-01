@@ -462,6 +462,13 @@ npfunctions
 .
 h
 "
+#
+include
+"
+nsIXULRuntime
+.
+h
+"
 namespace
 mozilla
 {
