@@ -292,11 +292,6 @@ public
 :
 /
 /
-interfaces
-:
-NS_DECL_ISUPPORTS_INHERITED
-/
-/
 nsIContent
 interface
 NS_IMETHOD_

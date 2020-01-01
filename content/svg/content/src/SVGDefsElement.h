@@ -179,7 +179,6 @@ MOZ_OVERRIDE
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 /
 /
 nsIContent

@@ -188,11 +188,6 @@ Init
 ;
 public
 :
-/
-/
-interfaces
-:
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
 Clone

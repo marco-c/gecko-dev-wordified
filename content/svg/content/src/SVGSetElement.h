@@ -195,11 +195,6 @@ public
 :
 /
 /
-interfaces
-:
-NS_DECL_ISUPPORTS_INHERITED
-/
-/
 nsIDOMNode
 virtual
 nsresult

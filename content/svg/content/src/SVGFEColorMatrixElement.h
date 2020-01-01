@@ -242,11 +242,6 @@ MOZ_OVERRIDE
 ;
 public
 :
-/
-/
-interfaces
-:
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
 Filter

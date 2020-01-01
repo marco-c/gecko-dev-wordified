@@ -168,7 +168,6 @@ SVGTransformableElement
 )
 {
 }
-NS_DECL_ISUPPORTS_INHERITED
 /
 /
 WebIDL

@@ -307,11 +307,6 @@ public
 :
 /
 /
-interfaces
-:
-NS_DECL_ISUPPORTS_INHERITED
-/
-/
 nsIContent
 NS_IMETHOD_
 (
@@ -567,7 +562,6 @@ MOZ_OVERRIDE
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
 Clone
@@ -768,7 +762,6 @@ MOZ_OVERRIDE
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
 Clone

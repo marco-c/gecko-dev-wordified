@@ -190,7 +190,6 @@ aNodeInfo
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 /
 /
 nsSVGSVGElement
