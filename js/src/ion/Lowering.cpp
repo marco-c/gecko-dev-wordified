@@ -144,6 +144,13 @@ h
 #
 include
 "
+RangeAnalysis
+.
+h
+"
+#
+include
+"
 jsanalyze
 .
 h
