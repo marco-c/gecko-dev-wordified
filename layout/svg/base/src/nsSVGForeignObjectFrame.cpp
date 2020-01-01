@@ -4027,13 +4027,6 @@ here
 and
 now
 :
-nsSize
-availableSpace
-(
-NS_UNCONSTRAINEDSIZE
-NS_UNCONSTRAINEDSIZE
-)
-;
 nsIPresShell
 *
 presShell
@@ -4275,6 +4268,7 @@ moz
 svg
 -
 foreign
+-
 content
 "
 "
