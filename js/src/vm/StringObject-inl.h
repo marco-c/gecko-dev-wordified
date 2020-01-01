@@ -623,6 +623,7 @@ cx
 StringClass
 &
 proto
+NULL
 gc
 :
 :

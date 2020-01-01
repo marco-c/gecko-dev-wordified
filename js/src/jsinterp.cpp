@@ -3927,13 +3927,7 @@ id
 endif
 obj
 =
-NewNonFunction
-<
-WithProto
-:
-:
-Given
->
+NewObjectWithClassProto
 (
 cx
 &

@@ -2910,15 +2910,6 @@ JSObject
 ;
 if
 (
-!
-object
--
->
-isNewborn
-(
-)
-&
-&
 object
 -
 >

@@ -602,6 +602,7 @@ cx
 BooleanClass
 &
 proto
+NULL
 gc
 :
 :
