@@ -515,7 +515,7 @@ AllocPHttpChannel
 (
 PBrowserParent
 *
-iframeEmbedding
+browser
 )
 ;
 virtual
