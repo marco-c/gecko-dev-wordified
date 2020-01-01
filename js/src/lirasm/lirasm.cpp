@@ -1131,6 +1131,16 @@ AccSet
 accSet
 )
 {
+(
+void
+)
+base
+;
+(
+void
+)
+accSet
+;
 NanoAssert
 (
 accSet
