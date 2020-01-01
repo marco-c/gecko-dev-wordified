@@ -12437,7 +12437,6 @@ InitAndRestoreFrame
 aState
 content
 geometricParent
-nullptr
 newFrame
 )
 ;
@@ -12481,7 +12480,6 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nullptr
 innerFrame
 )
 ;
@@ -12817,7 +12815,6 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nullptr
 newFrame
 )
 ;
@@ -12942,7 +12939,6 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nullptr
 colFrame
 )
 ;
@@ -13027,7 +13023,6 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nullptr
 newCol
 false
 )
@@ -13366,7 +13361,6 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nullptr
 newFrame
 )
 ;
@@ -13468,7 +13462,6 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nullptr
 cellInnerFrame
 )
 ;
@@ -15435,7 +15428,6 @@ InitAndRestoreFrame
 state
 aDocElement
 mDocElementContainingBlock
-nullptr
 contentFrame
 )
 ;
@@ -18757,7 +18749,6 @@ GetGeometricParent
 aStyleDisplay
 aParentFrame
 )
-nullptr
 comboboxFrame
 )
 ;
@@ -19575,7 +19566,6 @@ GetGeometricParent
 aStyleDisplay
 aParentFrame
 )
-nullptr
 newFrame
 )
 ;
@@ -19630,7 +19620,6 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nullptr
 blockFrame
 )
 ;
@@ -20262,7 +20251,6 @@ InitAndRestoreFrame
 aState
 aContent
 aParentFrame
-nullptr
 newFrame
 )
 ;
@@ -22664,7 +22652,6 @@ InitAndRestoreFrame
 aState
 content
 geometricParent
-nullptr
 newFrame
 )
 ;
@@ -22833,7 +22820,6 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nullptr
 blockFrame
 )
 ;
@@ -25790,7 +25776,6 @@ InitAndRestoreFrame
 aState
 aContent
 aParentFrame
-nullptr
 gfxScrollFrame
 )
 ;
@@ -26276,7 +26261,6 @@ InitAndRestoreFrame
 aState
 aContent
 aNewFrame
-nullptr
 aScrolledFrame
 )
 ;
@@ -27549,9 +27533,6 @@ nsIFrame
 aParentFrame
 nsIFrame
 *
-aPrevInFlow
-nsIFrame
-*
 aNewFrame
 bool
 aAllowCounters
@@ -27599,7 +27580,7 @@ Init
 (
 aContent
 aParentFrame
-aPrevInFlow
+nullptr
 )
 ;
 aNewFrame
@@ -27643,10 +27624,6 @@ mFrameState
 if
 (
 aAllowCounters
-&
-&
-!
-aPrevInFlow
 &
 &
 mCounterManager
@@ -28112,7 +28089,6 @@ InitAndRestoreFrame
 aState
 aContent
 aParentFrame
-nullptr
 blockFrame
 )
 ;
@@ -28660,7 +28636,6 @@ InitAndRestoreFrame
 aState
 content
 geometricParent
-nullptr
 newFrame
 )
 ;
@@ -28730,7 +28705,6 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nullptr
 innerFrame
 )
 ;
@@ -66057,7 +66031,6 @@ InitAndRestoreFrame
 aState
 aContent
 aFrame
-nullptr
 blockFrame
 false
 )
@@ -66529,7 +66502,6 @@ InitAndRestoreFrame
 aState
 aBlockContent
 aBlockFrame
-nullptr
 aLineFrame
 )
 ;
@@ -67366,7 +67338,6 @@ InitAndRestoreFrame
 aState
 aContent
 aBlockFrame
-nullptr
 lineFrame
 )
 ;
@@ -68449,7 +68420,6 @@ InitAndRestoreFrame
 aState
 letterContent
 containingBlock
-nullptr
 letterFrame
 )
 ;
@@ -68542,7 +68512,6 @@ InitAndRestoreFrame
 aState
 aTextContent
 letterFrame
-nullptr
 aTextFrame
 )
 ;
@@ -69321,7 +69290,6 @@ InitAndRestoreFrame
 state
 aTextContent
 letterFrame
-nullptr
 textFrame
 )
 ;
@@ -71718,7 +71686,6 @@ InitAndRestoreFrame
 aState
 aContent
 aParentFrame
-nullptr
 columnSetFrame
 )
 ;
@@ -71770,7 +71737,6 @@ InitAndRestoreFrame
 aState
 aContent
 parent
-nullptr
 blockFrame
 )
 ;
@@ -72601,7 +72567,6 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nullptr
 newFrame
 )
 ;
@@ -73217,7 +73182,6 @@ InitAndRestoreFrame
 aState
 content
 parentFrame
-nullptr
 blockFrame
 false
 )
@@ -73328,7 +73292,6 @@ InitAndRestoreFrame
 aState
 content
 parentFrame
-nullptr
 inlineFrame
 false
 )
