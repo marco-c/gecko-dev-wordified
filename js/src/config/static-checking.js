@@ -383,7 +383,7 @@ module
 hasOwnProperty
 (
 '
-process_var
+process_decl
 '
 )
 )
