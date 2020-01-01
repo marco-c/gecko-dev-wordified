@@ -2063,6 +2063,11 @@ nsJNIString
 (
 jstring
 jstr
+JNIEnv
+*
+jenv
+=
+NULL
 )
 ;
 }
