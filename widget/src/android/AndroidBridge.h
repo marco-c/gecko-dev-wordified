@@ -1005,6 +1005,14 @@ GetDPI
 (
 )
 ;
+void
+ShowFilePicker
+(
+nsAString
+&
+aFilePath
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1318,6 +1326,9 @@ jSetClipboardText
 ;
 jmethodID
 jShowAlertNotification
+;
+jmethodID
+jShowFilePicker
 ;
 jmethodID
 jAlertsProgressListener_OnProgress
