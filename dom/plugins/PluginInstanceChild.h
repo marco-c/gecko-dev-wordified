@@ -858,6 +858,12 @@ PStreamNotifyChild
 notifyData
 )
 ;
+virtual
+bool
+AnswerSetPluginFocus
+(
+)
+;
 public
 :
 PluginInstanceChild
