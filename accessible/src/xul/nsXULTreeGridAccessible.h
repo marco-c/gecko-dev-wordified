@@ -566,6 +566,12 @@ nsXULTreeItemAccessibleBase
 {
 public
 :
+using
+nsAccessible
+:
+:
+GetChildAtPoint
+;
 nsXULTreeGridRowAccessible
 (
 nsIDOMNode
