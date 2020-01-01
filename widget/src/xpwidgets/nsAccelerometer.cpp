@@ -677,10 +677,6 @@ mStarted
 (
 PR_FALSE
 )
-mEnabled
-(
-PR_TRUE
-)
 mNewListener
 (
 PR_FALSE
@@ -697,6 +693,10 @@ to
 ms
 *
 /
+mEnabled
+(
+PR_TRUE
+)
 {
 nsCOMPtr
 <
