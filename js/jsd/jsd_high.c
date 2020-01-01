@@ -931,7 +931,7 @@ jsdc
 >
 glob
 =
-JS_NewObject
+JS_NewGlobalObject
 (
 jsdc
 -
@@ -939,8 +939,6 @@ jsdc
 dumbContext
 &
 global_class
-NULL
-NULL
 )
 ;
 if

@@ -4275,6 +4275,15 @@ prop
 )
 ;
 }
+JSCompartment
+*
+getCompartment
+(
+JSContext
+*
+cx
+)
+;
 void
 swap
 (

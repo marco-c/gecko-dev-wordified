@@ -2038,13 +2038,11 @@ mJSObject
 =
 :
 :
-JS_NewObject
+JS_NewGlobalObject
 (
 cx
 &
 gSharedGlobalClass
-nsnull
-nsnull
 )
 ;
 if

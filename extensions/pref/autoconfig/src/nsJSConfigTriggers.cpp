@@ -1079,13 +1079,11 @@ secman
 ;
 autoconfig_glob
 =
-JS_NewObject
+JS_NewGlobalObject
 (
 autoconfig_cx
 &
 global_class
-NULL
-NULL
 )
 ;
 if

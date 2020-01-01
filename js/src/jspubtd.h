@@ -1033,6 +1033,11 @@ struct
 JSONParser
 JSONParser
 ;
+typedef
+struct
+JSCompartment
+JSCompartment
+;
 /
 *
 JSClass

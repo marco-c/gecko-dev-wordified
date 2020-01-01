@@ -1692,14 +1692,12 @@ JSObject
 *
 global
 =
-JS_NewObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass
 (
 )
-NULL
-NULL
 )
 ;
 if
