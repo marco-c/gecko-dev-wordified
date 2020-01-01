@@ -3162,11 +3162,6 @@ return
 NPERR_GENERIC_ERROR
 ;
 }
-NPN_RetainObject
-(
-scriptableObject
-)
-;
 scriptableObject
 -
 >
