@@ -13588,6 +13588,9 @@ size
 nsRect
 dirty
 ;
+if
+(
+!
 dirty
 .
 IntersectRect
@@ -13595,6 +13598,8 @@ IntersectRect
 aDirtyRect
 aFillArea
 )
+)
+return
 ;
 gfxRect
 areaToFill
