@@ -865,6 +865,12 @@ updatePreference
 (
 )
 ;
+WeaveGlue
+.
+init
+(
+)
+;
 }
 _loadLocales
 :
