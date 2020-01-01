@@ -742,7 +742,7 @@ printf
 (
 "
 [
-NPAPIPluginChild
+PluginModuleChild
 ]
 %
 s
