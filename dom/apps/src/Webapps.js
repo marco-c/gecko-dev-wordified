@@ -1507,6 +1507,11 @@ launch
 '
 r
 '
+receipts
+:
+'
+r
+'
 uninstall
 :
 '
