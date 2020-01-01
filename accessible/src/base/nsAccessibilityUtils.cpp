@@ -3095,7 +3095,7 @@ one
 NS_ASSERTION
 (
 aAriaProperty
-!
+=
 =
 eAria_none
 |
