@@ -236,7 +236,7 @@ refcount
 a
 gfxASurface
 virtual
-nsresult
+nsrefcnt
 AddRefExternal
 (
 void
@@ -249,7 +249,7 @@ AddRef
 ;
 }
 virtual
-nsresult
+nsrefcnt
 ReleaseExternal
 (
 void
@@ -264,14 +264,14 @@ Release
 #
 else
 virtual
-nsresult
+nsrefcnt
 AddRef
 (
 void
 )
 ;
 virtual
-nsresult
+nsrefcnt
 Release
 (
 void
@@ -509,7 +509,7 @@ NS_ASSERTION
 mSurface
 !
 =
-nullptr
+nsnull
 "
 gfxASurface
 :
@@ -520,7 +520,7 @@ with
 mSurface
 =
 =
-nullptr
+nsnull
 !
 "
 )
@@ -723,7 +723,7 @@ for
 this
 surface
 or
-nullptr
+nsnull
 if
 not
 supported
@@ -761,7 +761,7 @@ GetAsImageSurface
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 int
@@ -1296,7 +1296,7 @@ IsEmpty
 {
 mOpaqueRect
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -1506,7 +1506,7 @@ gfxASurface
 :
 mSurface
 (
-nullptr
+nsnull
 )
 mFloatingRefs
 (
@@ -1973,7 +1973,7 @@ Void
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 static
