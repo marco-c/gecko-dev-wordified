@@ -1322,6 +1322,14 @@ gfxImageFormat
 format
 )
 ;
+static
+gfxImageFormat
+FormatFromContent
+(
+gfxContentType
+format
+)
+;
 /
 *
 *

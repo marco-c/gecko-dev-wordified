@@ -2747,7 +2747,13 @@ GetPlatform
 CreateOffscreenSurface
 (
 size
+gfxImageSurface
+:
+:
+ContentFromFormat
+(
 format
+)
 )
 ;
 if

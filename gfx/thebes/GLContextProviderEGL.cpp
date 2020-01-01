@@ -5000,7 +5000,13 @@ aSize
 .
 height
 )
+gfxASurface
+:
+:
+ContentFromFormat
+(
 imageFormat
+)
 )
 ;
 impl

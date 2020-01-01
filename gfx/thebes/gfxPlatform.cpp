@@ -1551,7 +1551,7 @@ gfxIntSize
 gfxASurface
 :
 :
-ImageFormatARGB32
+CONTENT_COLOR_ALPHA
 )
 ;
 if
@@ -2262,7 +2262,13 @@ optSurface
 CreateOffscreenSurface
 (
 surfaceSize
+gfxASurface
+:
+:
+ContentFromFormat
+(
 format
+)
 )
 ;
 if
