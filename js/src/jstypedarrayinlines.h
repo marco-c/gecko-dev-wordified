@@ -499,9 +499,7 @@ JSUint32
 obj
 -
 >
-getSlotsPtr
-(
-)
+slots
 )
 ;
 }
@@ -530,9 +528,7 @@ uint64
 obj
 -
 >
-getSlotsPtr
-(
-)
+slots
 )
 +
 1

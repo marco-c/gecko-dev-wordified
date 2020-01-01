@@ -1422,8 +1422,8 @@ result
 *
 /
 v
-=
-BooleanValue
+.
+setBoolean
 (
 (
 !

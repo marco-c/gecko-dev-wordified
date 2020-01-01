@@ -6508,7 +6508,6 @@ trackers
 .
 *
 /
-const
 Value
 *
 global_slots
@@ -7846,7 +7845,6 @@ JS_REQUIRES_STACK
 void
 setImpl
 (
-const
 void
 *
 p
@@ -7866,7 +7864,6 @@ JS_REQUIRES_STACK
 void
 set
 (
-const
 Value
 *
 p
@@ -8340,7 +8337,6 @@ scopeChainProp
 JSObject
 *
 obj
-const
 Value
 *
 &
@@ -8375,7 +8371,6 @@ JSProperty
 shape
 jsid
 id
-const
 Value
 *
 &
@@ -9097,7 +9092,6 @@ JS_REQUIRES_STACK
 AbortableRecordingStatus
 name
 (
-const
 Value
 *
 &
@@ -9185,7 +9179,6 @@ oval
 Value
 &
 idx
-const
 Value
 *
 &
@@ -11624,19 +11617,18 @@ purpose
 .
 *
 /
-const
 Value
 *
 vp
 =
-&
 globalObj
 -
 >
-getSlot
+getSlots
 (
-slot
 )
++
+slot
 ;
 /
 *

@@ -8277,12 +8277,13 @@ ind
 obj
 -
 >
-setSlot
+getSlotRef
 (
 ind
-UndefinedValue
-(
 )
+.
+setUndefined
+(
 )
 ;
 obj

@@ -20869,8 +20869,8 @@ JSVAL_TYPE_DOUBLE
 )
 {
 v
-=
-NumberValue
+.
+setNumber
 (
 *
 slot
@@ -26428,7 +26428,6 @@ numSlots
 MAX_GLOBAL_SLOTS
 )
 ;
-const
 Value
 *
 vp
@@ -26437,7 +26436,7 @@ vp
 globalObj
 -
 >
-getSlot
+getSlotRef
 (
 slot
 )
@@ -26741,7 +26740,6 @@ MAX_GLOBAL_SLOTS
 return
 false
 ;
-const
 Value
 *
 vp
@@ -26750,7 +26748,7 @@ vp
 globalObj
 -
 >
-getSlot
+getSlotRef
 (
 slot
 )
@@ -27008,7 +27006,6 @@ TraceRecorder
 :
 setImpl
 (
-const
 void
 *
 p
@@ -27363,7 +27360,6 @@ TraceRecorder
 :
 set
 (
-const
 Value
 *
 p
@@ -28034,14 +28030,12 @@ n
 "
 )
 ;
-const
 Value
 *
 src
 =
 global_slots
 ;
-const
 Value
 *
 dst
@@ -38059,7 +38053,6 @@ gslots
 i
 ]
 ;
-const
 Value
 *
 vp
@@ -38068,7 +38061,7 @@ vp
 globalObj
 -
 >
-getSlot
+getSlotRef
 (
 slot
 )
@@ -57212,7 +57205,6 @@ scopeChainProp
 JSObject
 *
 chainHead
-const
 Value
 *
 &
@@ -57611,7 +57603,7 @@ vp
 obj
 -
 >
-getSlot
+getSlotRef
 (
 shape
 -
@@ -57724,7 +57716,6 @@ JSProperty
 prop
 jsid
 id
-const
 Value
 *
 &
@@ -63218,7 +63209,6 @@ slot
 "
 )
 ;
-const
 Value
 &
 v
@@ -63226,7 +63216,7 @@ v
 obj
 -
 >
-getSlot
+getSlotRef
 (
 slot
 )
@@ -63299,7 +63289,6 @@ stackval
 2
 )
 ;
-const
 Value
 *
 vp
@@ -84504,7 +84493,6 @@ bool
 pre
 )
 {
-const
 Value
 *
 vp
@@ -92783,7 +92771,6 @@ a
 integer
 index
 .
-const
 Value
 *
 vp
@@ -95403,7 +95390,6 @@ scopeObj
 globalObj
 )
 {
-const
 Value
 *
 vp
@@ -99768,7 +99754,6 @@ TraceRecorder
 :
 name
 (
-const
 Value
 *
 &
@@ -101657,7 +101642,6 @@ oval
 Value
 &
 ival
-const
 Value
 *
 &
@@ -101966,13 +101950,13 @@ vp
 obj
 -
 >
-getSlot
-(
+slots
+[
 jsuint
 (
 idx
 )
-)
+]
 ;
 JS_ASSERT
 (
@@ -102920,7 +102904,6 @@ record_JSOP_NAME
 (
 )
 {
-const
 Value
 *
 vp
@@ -112294,7 +112277,6 @@ GETXPROP
 "
 )
 ;
-const
 Value
 *
 vp
@@ -114037,7 +114019,6 @@ failed
 "
 )
 ;
-const
 Value
 &
 v
@@ -114045,7 +114026,7 @@ v
 globalObj
 -
 >
-getSlot
+getSlotRef
 (
 slot
 )
