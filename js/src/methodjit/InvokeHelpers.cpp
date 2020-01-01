@@ -11413,8 +11413,12 @@ pc
 =
 nextpc
 +
-GET_JUMP_OFFSET
+analyze
+:
+:
+GetJumpOffset
 (
+nextpc
 nextpc
 )
 ;
