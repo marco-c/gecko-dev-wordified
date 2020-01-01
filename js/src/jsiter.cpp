@@ -7656,6 +7656,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 uintN
 argc
@@ -8650,7 +8652,9 @@ cx
 cx
 -
 >
-fp
+maybefp
+(
+)
 vplen
 nfixed
 frame

@@ -522,6 +522,16 @@ program
 counter
 *
 /
+JSStackFrame
+*
+fp
+;
+/
+*
+active
+frame
+*
+/
 }
 JSFrameRegs
 ;

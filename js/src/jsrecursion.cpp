@@ -1486,6 +1486,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -1500,6 +1502,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 argv
@@ -1532,6 +1536,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -1684,6 +1690,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -1716,6 +1724,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -1738,6 +1748,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -1750,6 +1762,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -1849,6 +1863,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -1866,6 +1882,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -2125,6 +2143,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -2140,6 +2160,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 numActualArgs
@@ -2151,6 +2173,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -2172,6 +2196,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 numActualArgs
@@ -2197,6 +2223,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -3258,6 +3286,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 numActualArgs
@@ -3269,6 +3299,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 numFormalArgs
@@ -3307,19 +3339,8 @@ fp_ins
 =
 addName
 (
-lir
--
->
-insLoad
+entryFrameIns
 (
-LIR_ldp
-cx_ins
-offsetof
-(
-JSContext
-fp
-)
-ACCSET_OTHER
 )
 "
 fp
@@ -3628,6 +3649,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -3749,6 +3772,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 numActualArgs
@@ -5537,6 +5562,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 JSScript
 *

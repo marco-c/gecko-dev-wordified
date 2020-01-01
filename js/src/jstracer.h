@@ -7532,6 +7532,17 @@ entryScopeChain
 const
 ;
 JS_REQUIRES_STACK
+nanojit
+:
+:
+LIns
+*
+entryFrameIns
+(
+)
+const
+;
+JS_REQUIRES_STACK
 JSStackFrame
 *
 frameIfInRange
