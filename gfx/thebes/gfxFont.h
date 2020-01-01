@@ -17060,10 +17060,6 @@ gfxTextRunFactory
 Parameters
 *
 aParams
-const
-void
-*
-aText
 PRUint32
 aLength
 gfxFontGroup
@@ -18717,10 +18713,6 @@ gfxTextRunFactory
 Parameters
 *
 aParams
-const
-void
-*
-aText
 PRUint32
 aLength
 gfxFontGroup
@@ -20454,10 +20446,6 @@ gfxTextRun
 *
 MakeBlankTextRun
 (
-const
-void
-*
-aText
 PRUint32
 aLength
 const
