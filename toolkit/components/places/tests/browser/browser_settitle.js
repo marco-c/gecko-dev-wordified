@@ -75,8 +75,6 @@ removeCurrentTab
 waitForClearHistory
 (
 finish
-(
-)
 )
 ;
 }
