@@ -742,12 +742,6 @@ code
 return
 true
 ;
-masm
-.
-flushBuffer
-(
-)
-;
 PCMappingEntry
 entry
 ;
