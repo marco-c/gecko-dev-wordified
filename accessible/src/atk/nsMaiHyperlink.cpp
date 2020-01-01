@@ -1344,7 +1344,7 @@ accObj
 accHyperlink
 -
 >
-GetObject
+GetAnchor
 (
 aLinkIndex
 getter_AddRefs
@@ -1551,7 +1551,7 @@ rv
 accHyperlink
 -
 >
-IsValid
+GetValid
 (
 &
 isValid
@@ -1612,7 +1612,7 @@ rv
 accHyperlink
 -
 >
-GetAnchors
+GetAnchorsCount
 (
 &
 count

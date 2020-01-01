@@ -1681,7 +1681,7 @@ NS_IMETHODIMP
 nsHTMLImageAccessible
 :
 :
-GetAnchors
+GetAnchorsCount
 (
 PRInt32
 *
@@ -1702,7 +1702,7 @@ return
 nsLinkableAccessible
 :
 :
-GetAnchors
+GetAnchorsCount
 (
 aAnchors
 )
@@ -1829,7 +1829,7 @@ NS_IMETHODIMP
 nsHTMLImageAccessible
 :
 :
-GetObject
+GetAnchor
 (
 PRInt32
 aIndex
@@ -1858,7 +1858,7 @@ return
 nsLinkableAccessible
 :
 :
-GetObject
+GetAnchor
 (
 aIndex
 aAccessible

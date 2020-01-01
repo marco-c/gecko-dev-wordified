@@ -677,7 +677,7 @@ rv
 acc
 -
 >
-GetObject
+GetAnchor
 (
 aIndex
 getter_AddRefs
@@ -1258,7 +1258,7 @@ rv
 acc
 -
 >
-IsValid
+GetValid
 (
 &
 isValid
