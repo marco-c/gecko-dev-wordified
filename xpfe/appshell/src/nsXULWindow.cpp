@@ -1241,6 +1241,10 @@ mChromeFlagsFrozen
 (
 PR_FALSE
 )
+mIgnoreXULSizeMode
+(
+PR_FALSE
+)
 mContextFlags
 (
 0
@@ -1260,10 +1264,6 @@ mPersistentAttributesMask
 mChromeFlags
 (
 aChromeFlags
-)
-mIgnoreXULSizeMode
-(
-PR_FALSE
 )
 /
 /
