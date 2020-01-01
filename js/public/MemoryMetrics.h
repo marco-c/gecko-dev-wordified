@@ -421,7 +421,7 @@ size_t
 gcHeapArenaAdmin
 ;
 size_t
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 ;
 size_t
 gcHeapObjectsNonFunction
@@ -517,11 +517,11 @@ gcHeapUnused
 (
 0
 )
-gcHeapChunkCleanUnused
+gcHeapUnusedChunks
 (
 0
 )
-gcHeapChunkDirtyUnused
+gcHeapUnusedArenas
 (
 0
 )
@@ -533,7 +533,7 @@ gcHeapChunkDirtyDecommitted
 (
 0
 )
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 (
 0
 )
@@ -595,10 +595,10 @@ size_t
 gcHeapUnused
 ;
 size_t
-gcHeapChunkCleanUnused
+gcHeapUnusedChunks
 ;
 size_t
-gcHeapChunkDirtyUnused
+gcHeapUnusedArenas
 ;
 size_t
 gcHeapChunkCleanDecommitted
@@ -607,7 +607,7 @@ size_t
 gcHeapChunkDirtyDecommitted
 ;
 size_t
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 ;
 size_t
 gcHeapChunkAdmin
