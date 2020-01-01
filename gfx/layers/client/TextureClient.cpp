@@ -812,6 +812,14 @@ MOZ_ASSERT
 aSurface
 )
 ;
+MOZ_ASSERT
+(
+!
+IsImmutable
+(
+)
+)
+;
 ImageDataSerializer
 serializer
 (
