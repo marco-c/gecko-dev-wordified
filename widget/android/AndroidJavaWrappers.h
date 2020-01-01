@@ -2705,8 +2705,6 @@ jstr
 JNIEnv
 *
 jenv
-=
-NULL
 )
 ;
 }

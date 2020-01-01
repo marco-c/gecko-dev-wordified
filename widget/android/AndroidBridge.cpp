@@ -4089,6 +4089,7 @@ jArr
 i
 )
 )
+aJNIEnv
 )
 ;
 nsJNIString
@@ -4110,6 +4111,7 @@ i
 1
 )
 )
+aJNIEnv
 )
 ;
 nsJNIString
@@ -4131,6 +4133,7 @@ i
 2
 )
 )
+aJNIEnv
 )
 ;
 nsJNIString
@@ -4152,6 +4155,7 @@ i
 3
 )
 )
+aJNIEnv
 )
 ;
 nsIHandlerApp
@@ -4868,6 +4872,7 @@ nsJNIString
 jniStr
 (
 jstrType
+env
 )
 ;
 aMimeType
@@ -4980,6 +4985,7 @@ nsJNIString
 jniStr
 (
 jstrExt
+env
 )
 ;
 aFileExt
@@ -5107,6 +5113,7 @@ nsJNIString
 jniStr
 (
 jstrType
+env
 )
 ;
 aText
@@ -5884,6 +5891,7 @@ Assign
 nsJNIString
 (
 jstr
+env
 )
 )
 ;
@@ -5983,6 +5991,7 @@ Assign
 nsJNIString
 (
 jstr
+env
 )
 )
 ;
@@ -8154,6 +8163,7 @@ Assign
 nsJNIString
 (
 jstr
+env
 )
 )
 ;
