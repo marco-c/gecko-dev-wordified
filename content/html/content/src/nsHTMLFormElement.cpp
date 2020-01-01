@@ -6041,6 +6041,7 @@ nsAutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mSubmitInitiatedFromUserInput
+PR_FALSE
 )
 ;
 rv
