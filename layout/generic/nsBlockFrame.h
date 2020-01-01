@@ -2729,7 +2729,7 @@ aInOverflowLines
 void
 SetFlags
 (
-nsFrameState
+PRUint32
 aFlags
 )
 {
