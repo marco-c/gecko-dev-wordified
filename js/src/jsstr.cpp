@@ -4015,7 +4015,7 @@ if
 id
 =
 =
-ATOM_KEY
+ATOM_TO_JSID
 (
 cx
 -
