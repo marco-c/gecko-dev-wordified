@@ -6544,15 +6544,6 @@ HasRelatedContent
 (
 content
 )
-|
-|
-nsCoreUtils
-:
-:
-IsXLink
-(
-content
-)
 )
 )
 {
