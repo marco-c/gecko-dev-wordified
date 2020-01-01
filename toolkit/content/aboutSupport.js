@@ -601,6 +601,12 @@ places
 "
 browser
 .
+sessionstore
+.
+"
+"
+browser
+.
 startup
 .
 homepage
