@@ -2835,6 +2835,13 @@ DictContainingSequence
 &
 )
 ;
+void
+ReceiveDictContainingSequence
+(
+DictContainingSequence
+&
+)
+;
 /
 /
 Typedefs
