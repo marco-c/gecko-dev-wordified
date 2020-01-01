@@ -3032,6 +3032,15 @@ FontSearch
 aMatchData
 )
 {
+if
+(
+!
+mHasStyles
+)
+FindStyleVariations
+(
+)
+;
 /
 /
 xxx
@@ -3905,6 +3914,10 @@ return
 mOtherFamilyNamesInitialized
 =
 PR_TRUE
+;
+FindStyleVariations
+(
+)
 ;
 /
 /
