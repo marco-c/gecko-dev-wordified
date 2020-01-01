@@ -2849,6 +2849,14 @@ for
 the
 destination
 .
+destBufferRect
+=
+neededRegion
+.
+GetBounds
+(
+)
+;
 bufferDimsChanged
 =
 PR_TRUE
