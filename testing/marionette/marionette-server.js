@@ -7961,7 +7961,7 @@ curFrame
 )
 {
 let
-wrappedValue
+frameUid
 =
 this
 .
@@ -7982,7 +7982,7 @@ this
 .
 sendResponse
 (
-wrappedValue
+frameUid
 this
 .
 command_id
