@@ -5317,8 +5317,6 @@ Address
 &
 script
 Register
-framePtr
-Register
 temp
 Register
 temp2
@@ -5380,7 +5378,14 @@ offsetOfScript
 ;
 storePtr
 (
-framePtr
+ImmWord
+(
+(
+void
+*
+)
+0
+)
 Address
 (
 temp
