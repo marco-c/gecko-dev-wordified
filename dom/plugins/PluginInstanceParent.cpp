@@ -4594,9 +4594,11 @@ InSendMessageEx
 NULL
 )
 &
+(
 ISMEX_SEND
 |
 ISMEX_REPLIED
+)
 )
 !
 =
