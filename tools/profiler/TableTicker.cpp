@@ -3765,7 +3765,10 @@ tags
 .
 for
 (
-int
+mozilla
+:
+:
+sig_safe_t
 i
 =
 0
