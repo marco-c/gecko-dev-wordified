@@ -1574,7 +1574,7 @@ script
 /
 for
 (
-int
+unsigned
 i
 =
 0
@@ -1657,7 +1657,7 @@ it
 /
 for
 (
-int
+unsigned
 i
 =
 0
@@ -2076,7 +2076,7 @@ length
 ;
 for
 (
-int
+unsigned
 i
 =
 0
@@ -2544,7 +2544,7 @@ chunk
 ;
 for
 (
-int
+unsigned
 i
 =
 0
@@ -2630,7 +2630,7 @@ value
 ;
 for
 (
-int
+unsigned
 i
 =
 0
