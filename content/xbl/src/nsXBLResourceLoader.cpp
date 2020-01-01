@@ -1708,12 +1708,11 @@ nsIFrame
 *
 childFrame
 =
-shell
+content
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-content
 )
 ;
 if

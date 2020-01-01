@@ -1806,11 +1806,6 @@ nsIFrame
 *
 frame
 =
-presShell
--
->
-GetPrimaryFrameFor
-(
 static_cast
 <
 nsIContent
@@ -1819,6 +1814,10 @@ nsIContent
 (
 aNode
 )
+-
+>
+GetPrimaryFrame
+(
 )
 ;
 NS_ENSURE_TRUE
