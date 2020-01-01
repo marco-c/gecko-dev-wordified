@@ -1782,6 +1782,9 @@ mCachedValue
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_CALLBACK
 (
 gcThing
+"
+mCachedValue
+"
 )
 }
 if
@@ -1810,6 +1813,9 @@ mCachedPrimaryKey
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_CALLBACK
 (
 gcThing
+"
+mCachedPrimaryKey
+"
 )
 }
 NS_IMPL_CYCLE_COLLECTION_TRACE_END

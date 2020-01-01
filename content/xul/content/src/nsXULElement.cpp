@@ -15726,6 +15726,14 @@ elem
 >
 mScriptTypeID
 handler
+"
+mAttributes
+[
+i
+]
+.
+mEventHandler
+"
 )
 }
 }
@@ -15772,6 +15780,11 @@ script
 mScriptObject
 .
 mObject
+"
+mScriptObject
+.
+mObject
+"
 )
 }
 NS_IMPL_CYCLE_COLLECTION_TRACE_END

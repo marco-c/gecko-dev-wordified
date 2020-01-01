@@ -1926,6 +1926,9 @@ nsIProgrammingLanguage
 :
 JAVASCRIPT
 mJSGetterObject
+"
+mJSGetterObject
+"
 aClosure
 )
 ;
@@ -1944,6 +1947,9 @@ nsIProgrammingLanguage
 :
 JAVASCRIPT
 mJSSetterObject
+"
+mJSSetterObject
+"
 aClosure
 )
 ;
