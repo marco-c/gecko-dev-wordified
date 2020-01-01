@@ -1210,11 +1210,12 @@ sNewlineHandlingPref
 1
 )
 {
-nsContentUtils
+Preferences
 :
 :
-RegisterPrefCallback
+RegisterCallback
 (
+EditorPrefsChangedCallback
 "
 editor
 .
@@ -1222,8 +1223,6 @@ singleLine
 .
 pasteNewlines
 "
-EditorPrefsChangedCallback
-nsnull
 )
 ;
 EditorPrefsChangedCallback
@@ -1238,11 +1237,12 @@ pasteNewlines
 nsnull
 )
 ;
-nsContentUtils
+Preferences
 :
 :
-RegisterPrefCallback
+RegisterCallback
 (
+EditorPrefsChangedCallback
 "
 layout
 .
@@ -1250,8 +1250,6 @@ selection
 .
 caret_style
 "
-EditorPrefsChangedCallback
-nsnull
 )
 ;
 EditorPrefsChangedCallback

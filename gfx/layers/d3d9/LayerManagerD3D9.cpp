@@ -643,7 +643,10 @@ prefs
 we
 should
 use
-AddBoolPrefVarCache
+Preferences
+:
+:
+AddBoolVarCache
 prefs
 -
 >
