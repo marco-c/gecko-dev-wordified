@@ -7438,6 +7438,7 @@ StringTokenizer
 aFileExt
 "
 .
+;
 "
 )
 ;
