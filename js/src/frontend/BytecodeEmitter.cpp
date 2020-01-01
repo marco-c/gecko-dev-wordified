@@ -29654,6 +29654,14 @@ parent
 compileAndGo
 )
 .
+setSelfHostingMode
+(
+parent
+-
+>
+selfHosted
+)
+.
 setNoScriptRval
 (
 false
