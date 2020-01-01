@@ -87,6 +87,8 @@ DirectoryTraversal
     
 Exports
     
+GeneratedEventWebIDLFile
+    
 GeneratedWebIDLFile
     
 IPDLFile
@@ -1145,6 +1147,28 @@ WEBIDL_FILES
             
 yield
 WebIDLFile
+(
+sandbox
+webidl
+)
+        
+for
+webidl
+in
+sandbox
+.
+get
+(
+'
+GENERATED_EVENTS_WEBIDL_FILES
+'
+[
+]
+)
+:
+            
+yield
+GeneratedEventWebIDLFile
 (
 sandbox
 webidl
