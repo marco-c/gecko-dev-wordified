@@ -3206,7 +3206,6 @@ showUpdateDownloaded
 um
 .
 activeUpdate
-false
 )
 ;
 else
