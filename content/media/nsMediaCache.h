@@ -1065,7 +1065,7 @@ The
 default
 size
 is
-50MB
+500MB
 .
 *
 *
