@@ -140,9 +140,6 @@ failures
 =
 0
 ;
-int
-totalTests
-=
 test
 -
 >
@@ -182,9 +179,6 @@ failures
 =
 0
 ;
-int
-totalTests
-=
 test
 -
 >
