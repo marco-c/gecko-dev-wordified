@@ -885,16 +885,6 @@ GetCanvasTM
 ;
 protected
 :
-/
-/
-implementation
-helpers
-:
-void
-InitiateReflow
-(
-)
-;
 void
 CalculateAvailableSpace
 (
@@ -944,9 +934,6 @@ nsCOMPtr
 nsIDOMSVGNumber
 >
 mCurrentScale
-;
-PRPackedBool
-mNeedsReflow
 ;
 PRPackedBool
 mViewportInitialized
