@@ -814,7 +814,7 @@ SUTAgentAndroid
 Version
 1
 .
-18
+19
 "
 ;
 public
@@ -8486,9 +8486,15 @@ root
 )
 ;
 return
-(
-null
-)
+sErrorPrefix
++
+"
+unable
+to
+determine
+test
+root
+"
 ;
 }
 public
