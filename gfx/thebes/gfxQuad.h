@@ -106,6 +106,13 @@ h
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 gfxLineSegment
 .
 h
