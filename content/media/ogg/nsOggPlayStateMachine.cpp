@@ -5244,6 +5244,9 @@ HasVideo
 )
 &
 &
+(
+PRUint32
+)
 mReader
 -
 >
