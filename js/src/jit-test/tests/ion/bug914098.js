@@ -7,7 +7,7 @@ test
 |
 error
 :
-TypeError
+ReferenceError
 function
 ygTreeView
 (
