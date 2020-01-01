@@ -1646,6 +1646,11 @@ MInstruction
 ins
 )
 ;
+bool
+maybeInsertResume
+(
+)
+;
 void
 insertRecompileCheck
 (
