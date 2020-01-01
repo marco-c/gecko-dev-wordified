@@ -714,8 +714,6 @@ RemoveAll
 (
 )
 ;
-protected
-:
 nsresult
 GetUsage
 (
@@ -728,6 +726,8 @@ PRInt32
 aUsage
 )
 ;
+protected
+:
 nsCOMPtr
 <
 mozIStorageConnection

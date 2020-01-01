@@ -523,6 +523,13 @@ nsIDOMStorageEvent
 h
 "
 #
+include
+"
+nsIDOMStorageManager
+.
+h
+"
+#
 ifdef
 MOZ_STORAGE
 #
@@ -626,6 +633,8 @@ class
 nsDOMStorageManager
 :
 public
+nsIDOMStorageManager
+public
 nsIObserver
 {
 public
@@ -634,6 +643,10 @@ public
 /
 nsISupports
 NS_DECL_ISUPPORTS
+/
+/
+nsIDOMStorageManager
+NS_DECL_NSIDOMSTORAGEMANAGER
 /
 /
 nsIObserver
@@ -662,6 +675,13 @@ ClearAllStorages
 static
 nsresult
 Initialize
+(
+)
+;
+static
+nsDOMStorageManager
+*
+GetInstance
 (
 )
 ;
