@@ -18239,9 +18239,7 @@ obj
 isNative
 (
 )
-&
-&
-!
+)
 obj
 -
 >
@@ -18250,10 +18248,6 @@ unbrand
 f
 .
 cx
-)
-)
-THROW
-(
 )
 ;
 }

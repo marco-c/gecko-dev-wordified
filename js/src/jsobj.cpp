@@ -24784,9 +24784,7 @@ code
 if
 (
 fs
-&
-&
-!
+)
 proto
 -
 >
@@ -24794,9 +24792,6 @@ brand
 (
 cx
 )
-)
-goto
-bad
 ;
 if
 (
@@ -24807,9 +24802,7 @@ proto
 &
 &
 static_fs
-&
-&
-!
+)
 ctor
 -
 >
@@ -24817,9 +24810,6 @@ brand
 (
 cx
 )
-)
-goto
-bad
 ;
 /
 *
