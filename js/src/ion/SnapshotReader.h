@@ -629,6 +629,8 @@ endif
 #
 ifdef
 TRACK_SNAPSHOTS
+private
+:
 uint32
 pcOpcode_
 ;
@@ -644,8 +646,18 @@ lirOpcode_
 uint32
 lirId_
 ;
+public
+:
+void
+spewBailingFrom
+(
+)
+const
+;
 #
 endif
+private
+:
 void
 readSnapshotHeader
 (
