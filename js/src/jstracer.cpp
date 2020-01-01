@@ -4702,7 +4702,6 @@ fp
 >
 callee
 )
-{
 slots
 +
 =
@@ -4722,7 +4721,6 @@ fun
 >
 nargs
 ;
-}
 #
 if
 defined
@@ -6617,6 +6615,8 @@ argv
 ]
 )
 <
+size_t
+(
 2
 /
 *
@@ -6632,6 +6632,7 @@ fun
 -
 >
 nargs
+)
 )
 RETURN
 (
@@ -17844,13 +17845,13 @@ JS_ASSERT
 cx
 -
 >
-gcDontBlock
+runningJittedCode
 )
 ;
 cx
 -
 >
-gcDontBlock
+runningJittedCode
 =
 JS_TRUE
 ;
@@ -17870,7 +17871,7 @@ NULL
 cx
 -
 >
-gcDontBlock
+runningJittedCode
 =
 JS_FALSE
 ;
