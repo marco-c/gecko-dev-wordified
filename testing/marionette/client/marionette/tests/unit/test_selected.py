@@ -119,7 +119,7 @@ assertFalse
 (
 box
 .
-selected
+is_selected
 (
 )
 )
@@ -136,7 +136,7 @@ assertTrue
 (
 box
 .
-selected
+is_selected
 (
 )
 )
@@ -322,7 +322,7 @@ assertFalse
 (
 box
 .
-selected
+is_selected
 (
 )
 )
@@ -360,7 +360,7 @@ assertTrue
 (
 box
 .
-selected
+is_selected
 (
 )
 )
