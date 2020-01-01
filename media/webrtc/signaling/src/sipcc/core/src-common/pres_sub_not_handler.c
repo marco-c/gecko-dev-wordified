@@ -2193,8 +2193,10 @@ pres_terminate_req_all
 void
 )
 {
-char
+int
 dummy
+=
+0
 ;
 (
 void
@@ -2247,8 +2249,10 @@ pres_sub_handler_initialized
 void
 )
 {
-char
+int
 dummy
+=
+0
 ;
 (
 void
