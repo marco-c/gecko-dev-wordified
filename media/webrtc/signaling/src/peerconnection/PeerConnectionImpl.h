@@ -1205,6 +1205,13 @@ MediaConstraints
 constraints
 )
 ;
+NS_IMETHODIMP
+EnsureDataConnection
+(
+uint16_t
+aNumstreams
+)
+;
 nsresult
 CloseInt
 (
