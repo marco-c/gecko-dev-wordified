@@ -1201,6 +1201,10 @@ NSAccessibilityListRole
 /
 /
 ROLE_LISTBOX
+NSAccessibilityUnknownRole
+/
+/
+ROLE_FLAT_EQUATION
 "
 ROLE_LAST_ENTRY
 "

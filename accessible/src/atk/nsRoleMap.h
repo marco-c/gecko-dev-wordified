@@ -1463,6 +1463,14 @@ nsIAccessibleRole
 :
 ROLE_LISTBOX
 119
+ATK_ROLE_UNKNOWN
+/
+/
+nsIAccessibleRole
+:
+:
+ROLE_FLAT_EQUATION
+120
 kROLE_ATK_LAST_ENTRY
 /
 /

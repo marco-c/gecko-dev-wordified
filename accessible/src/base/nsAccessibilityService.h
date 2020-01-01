@@ -1801,6 +1801,13 @@ listbox
 /
 /
 ROLE_LISTBOX
+"
+flat
+equation
+"
+/
+/
+ROLE_FLAT_EQUATION
 }
 ;
 /

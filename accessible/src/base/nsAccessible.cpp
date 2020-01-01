@@ -21784,6 +21784,15 @@ role
 nsIAccessibleRole
 :
 :
+ROLE_FLAT_EQUATION
+|
+|
+role
+=
+=
+nsIAccessibleRole
+:
+:
 ROLE_PASSWORD_TEXT
 |
 |
