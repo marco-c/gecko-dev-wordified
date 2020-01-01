@@ -1331,6 +1331,7 @@ opt_ASCII
 ]
 .
 activated
+PR_FALSE
 )
 ;
 if

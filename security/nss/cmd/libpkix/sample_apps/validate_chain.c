@@ -403,6 +403,7 @@ SECU_ReadDERFromFile
 certDER
 inFile
 PR_FALSE
+PR_FALSE
 )
 ;
 if

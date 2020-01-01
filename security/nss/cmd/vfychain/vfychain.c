@@ -1761,6 +1761,7 @@ SECU_ReadDERFromFile
 item
 fd
 isAscii
+PR_FALSE
 )
 ;
 PR_Close

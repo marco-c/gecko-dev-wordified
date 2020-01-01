@@ -584,6 +584,7 @@ SECU_ReadDERFromFile
 der
 inFile
 PR_FALSE
+PR_FALSE
 )
 ;
 if

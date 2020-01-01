@@ -1139,6 +1139,8 @@ PRFileDesc
 inFile
 PRBool
 ascii
+PRBool
+warnOnPrivateKeyInAsciiFile
 )
 ;
 /

@@ -729,6 +729,7 @@ SECU_ReadDERFromFile
 data2sign
 inFile
 PR_FALSE
+PR_FALSE
 )
 !
 =
@@ -988,6 +989,8 @@ certHandle
 CERTCertificate
 *
 cert
+=
+NULL
 ;
 PRBool
 encapsulated

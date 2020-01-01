@@ -3151,6 +3151,7 @@ SECU_ReadDERFromFile
 der
 certFile
 ascii
+PR_FALSE
 )
 =
 =

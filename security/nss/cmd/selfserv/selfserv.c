@@ -6669,6 +6669,7 @@ SECU_ReadDERFromFile
 crlDer
 crlFile
 PR_FALSE
+PR_FALSE
 )
 ;
 if

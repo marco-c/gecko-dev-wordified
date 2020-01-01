@@ -333,6 +333,7 @@ SECU_ReadDERFromFile
 crlDER
 inFile
 PR_FALSE
+PR_FALSE
 )
 ;
 if
