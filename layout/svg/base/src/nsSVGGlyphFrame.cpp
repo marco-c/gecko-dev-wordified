@@ -8522,13 +8522,6 @@ GetParent
 )
 )
 {
-if
-(
-!
-frame
-)
-break
-;
 /
 /
 at
