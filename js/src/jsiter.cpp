@@ -662,6 +662,17 @@ include
 "
 vm
 /
+MethodGuard
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 -
 inl
@@ -744,6 +755,8 @@ IteratorClass
 Iterator
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_CACHED_PROTO
 (
@@ -1014,7 +1027,6 @@ str
 MarkString
 (
 trc
-*
 str
 "
 prop
@@ -1028,6 +1040,7 @@ obj
 MarkObject
 (
 trc
+&
 obj
 "
 obj
@@ -9349,6 +9362,8 @@ GeneratorClass
 Generator
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 JS_PropertyStub
 /
 *

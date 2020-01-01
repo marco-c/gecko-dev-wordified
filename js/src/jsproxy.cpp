@@ -523,6 +523,15 @@ h
 #
 include
 "
+vm
+/
+MethodGuard
+.
+h
+"
+#
+include
+"
 jsatominlines
 .
 h
@@ -8342,6 +8351,8 @@ Class
 :
 NON_NATIVE
 |
+JSCLASS_IMPLEMENTS_BARRIERS
+|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 4
@@ -8496,6 +8507,8 @@ Class
 :
 :
 NON_NATIVE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
@@ -8790,6 +8803,8 @@ Class
 :
 :
 NON_NATIVE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (

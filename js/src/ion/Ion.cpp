@@ -1046,7 +1046,7 @@ MarkIonCodeRoot
 trc
 enterJIT_
 .
-unsafeGet
+unsafeGetAddress
 (
 )
 "
@@ -1091,7 +1091,7 @@ MarkIonCodeRoot
 trc
 osrPrologue_
 .
-unsafeGet
+unsafeGetAddress
 (
 )
 "
@@ -1108,7 +1108,7 @@ MarkIonCodeRoot
 trc
 bailoutHandler_
 .
-unsafeGet
+unsafeGetAddress
 (
 )
 "
@@ -1125,7 +1125,7 @@ MarkIonCodeRoot
 trc
 argumentsRectifier_
 .
-unsafeGet
+unsafeGetAddress
 (
 )
 "
@@ -1142,7 +1142,7 @@ MarkIonCodeRoot
 trc
 invalidator_
 .
-unsafeGet
+unsafeGetAddress
 (
 )
 "
@@ -1159,7 +1159,7 @@ MarkIonCodeRoot
 trc
 preBarrier_
 .
-unsafeGet
+unsafeGetAddress
 (
 )
 "
@@ -1202,7 +1202,7 @@ bailoutTables_
 i
 ]
 .
-unsafeGet
+unsafeGetAddress
 (
 )
 "
@@ -2722,6 +2722,7 @@ method_
 MarkIonCode
 (
 trc
+&
 method_
 "
 method
@@ -2735,6 +2736,7 @@ deoptTable_
 MarkIonCode
 (
 trc
+&
 deoptTable_
 "
 deoptimizationTable

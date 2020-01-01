@@ -1980,7 +1980,7 @@ AssignLiteral
 rv
 :
 "
-MOZILLA_VERSION
+MOZILLA_UAVERSION
 )
 ;
 nsCOMPtr
@@ -2378,7 +2378,7 @@ mProductSub
 .
 AssignLiteral
 (
-MOZ_APP_UA_VERSION
+MOZILLA_UAVERSION
 )
 ;
 #

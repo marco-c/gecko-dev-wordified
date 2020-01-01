@@ -1661,7 +1661,7 @@ PresContext
 )
 -
 >
-AppUnitsPerDevPixel
+AppUnitsPerCSSPixel
 (
 )
 )
@@ -2777,7 +2777,7 @@ return
 content
 -
 >
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 parent
 -

@@ -825,7 +825,7 @@ void
 *
 stub
 ;
-uint32_t
+uint64_t
 gcNumber
 ;
 public

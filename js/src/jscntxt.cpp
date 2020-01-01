@@ -1808,7 +1808,7 @@ JS_ClearAllWatchPoints
 cx
 )
 ;
-js_GC
+GC
 (
 cx
 NULL
@@ -1829,7 +1829,7 @@ mode
 JSDCM_FORCE_GC
 )
 {
-js_GC
+GC
 (
 cx
 NULL
@@ -5411,7 +5411,7 @@ rt
 >
 gcIsNeeded
 )
-js_GC
+GCSlice
 (
 cx
 rt
@@ -7611,6 +7611,7 @@ JSOPTION_UNROOTED_GLOBAL
 MarkObjectRoot
 (
 trc
+&
 globalObject
 "
 global

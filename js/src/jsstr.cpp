@@ -753,6 +753,17 @@ include
 "
 vm
 /
+MethodGuard
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 RegExpObject
 -
 inl

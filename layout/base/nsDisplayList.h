@@ -14273,7 +14273,7 @@ gfx3DMatrix
 GetTransform
 (
 float
-aFactor
+aAppUnitsPerPixel
 )
 ;
 float
@@ -14566,7 +14566,7 @@ gfx3DMatrix
 &
 aMatrix
 float
-aFactor
+aAppUnitsPerPixel
 nsRect
 *
 aOutRect
@@ -14770,7 +14770,7 @@ applied
 .
 *
 param
-aScaleFactor
+aAppUnitsPerPixel
 The
 number
 of
@@ -14860,7 +14860,7 @@ nsPoint
 &
 aOrigin
 float
-aFactor
+aAppUnitsPerPixel
 const
 nsRect
 *
@@ -14930,7 +14930,7 @@ gfx3DMatrix
 mTransform
 ;
 float
-mCachedFactor
+mCachedAppUnitsPerPixel
 ;
 PRUint32
 mIndex

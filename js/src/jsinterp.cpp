@@ -8209,7 +8209,7 @@ currentScript
 pc
 )
 ;
-uint32_t
+uint64_t
 sample
 =
 cx
@@ -8896,7 +8896,7 @@ RESOLVE_INFER
 gc
 :
 :
-VerifyBarriers
+MaybeVerifyBarriers
 (
 cx
 true
@@ -9095,7 +9095,7 @@ js
 gc
 :
 :
-VerifyBarriers
+MaybeVerifyBarriers
 (
 cx
 )
@@ -10803,7 +10803,7 @@ js
 gc
 :
 :
-VerifyBarriers
+MaybeVerifyBarriers
 (
 cx
 )
@@ -12408,17 +12408,8 @@ ScriptEpilogue
 *
 /
 #
-if
-defined
-(
+ifdef
 JS_METHODJIT
-)
-|
-|
-defined
-(
-JS_ION
-)
 jit_return
 :
 #
@@ -28137,7 +28128,7 @@ endif
 gc
 :
 :
-VerifyBarriers
+MaybeVerifyBarriers
 (
 cx
 true

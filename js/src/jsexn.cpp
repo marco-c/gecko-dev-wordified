@@ -746,6 +746,8 @@ ErrorClass
 js_Error_str
 JSCLASS_HAS_PRIVATE
 |
+JSCLASS_IMPLEMENTS_BARRIERS
+|
 JSCLASS_NEW_RESOLVE
 |
 JSCLASS_HAS_CACHED_PROTO
@@ -2884,6 +2886,7 @@ message
 MarkString
 (
 trc
+&
 priv
 -
 >
@@ -2904,6 +2907,7 @@ filename
 MarkString
 (
 trc
+&
 priv
 -
 >
@@ -2955,6 +2959,7 @@ funName
 MarkString
 (
 trc
+&
 elem
 -
 >

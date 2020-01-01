@@ -14417,7 +14417,7 @@ cx
 runtime
 -
 >
-gcMarkAndSweep
+gcRunning
 )
 maybeLock
 .
@@ -17681,6 +17681,10 @@ lastProperty
 -
 >
 propid
+(
+)
+.
+get
 (
 )
 )

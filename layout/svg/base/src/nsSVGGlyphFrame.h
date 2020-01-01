@@ -1685,13 +1685,11 @@ SetupCairoState
 (
 gfxContext
 *
-context
-nsRefPtr
-<
+aContext
 gfxPattern
->
 *
-strokePattern
+*
+aStrokePattern
 )
 ;
 }

@@ -640,6 +640,15 @@ h
 #
 include
 "
+vm
+/
+MethodGuard
+.
+h
+"
+#
+include
+"
 jsatominlines
 .
 h
@@ -5251,8 +5260,8 @@ root
 MarkXML
 (
 trc
+&
 (
-const
 HeapPtr
 <
 JSXML
@@ -5307,8 +5316,8 @@ root
 MarkObject
 (
 trc
+&
 (
-const
 HeapPtr
 <
 JSObject
@@ -33772,6 +33781,8 @@ XMLClass
 js_XML_str
 JSCLASS_HAS_PRIVATE
 |
+JSCLASS_IMPLEMENTS_BARRIERS
+|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_XML
@@ -44815,6 +44826,7 @@ object
 MarkObject
 (
 trc
+&
 xml
 -
 >
@@ -44834,6 +44846,7 @@ name
 MarkObject
 (
 trc
+&
 xml
 -
 >
@@ -44853,6 +44866,7 @@ parent
 MarkXML
 (
 trc
+&
 xml
 -
 >
@@ -44880,6 +44894,7 @@ xml_value
 MarkString
 (
 trc
+&
 xml
 -
 >
@@ -44944,6 +44959,7 @@ xml_target
 MarkXML
 (
 trc
+&
 xml
 -
 >
@@ -44963,6 +44979,7 @@ xml_targetprop
 MarkObject
 (
 trc
+&
 xml
 -
 >
@@ -48094,6 +48111,7 @@ list
 MarkXML
 (
 trc
+&
 filter
 -
 >
@@ -48113,6 +48131,7 @@ result
 MarkXML
 (
 trc
+&
 filter
 -
 >
@@ -48132,6 +48151,7 @@ kid
 MarkXML
 (
 trc
+&
 filter
 -
 >
@@ -48220,6 +48240,8 @@ js_XMLFilterClass
 XMLFilter
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_IS_ANONYMOUS
 JS_PropertyStub

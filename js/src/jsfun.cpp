@@ -651,7 +651,7 @@ include
 "
 vm
 /
-ScopeObject
+Debugger
 .
 h
 "
@@ -660,7 +660,16 @@ include
 "
 vm
 /
-Debugger
+MethodGuard
+.
+h
+"
+#
+include
+"
+vm
+/
+ScopeObject
 .
 h
 "
@@ -742,7 +751,7 @@ include
 "
 vm
 /
-ScopeObject
+ArgumentsObject
 -
 inl
 .
@@ -753,7 +762,7 @@ include
 "
 vm
 /
-ArgumentsObject
+ScopeObject
 -
 inl
 .
@@ -3795,6 +3804,7 @@ isFloatingGenerator
 MarkObject
 (
 trc
+&
 js_FloatingFrameToGenerator
 (
 fp
@@ -3865,6 +3875,8 @@ NormalArgumentsObjectClass
 Arguments
 "
 JSCLASS_NEW_RESOLVE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
@@ -4030,6 +4042,8 @@ StrictArgumentsObjectClass
 Arguments
 "
 JSCLASS_NEW_RESOLVE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
@@ -6283,6 +6297,7 @@ isFloatingGenerator
 MarkObject
 (
 trc
+&
 js_FloatingFrameToGenerator
 (
 fp
@@ -6313,6 +6328,8 @@ CallClass
 Call
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
@@ -9822,6 +9839,7 @@ script
 MarkScript
 (
 trc
+&
 script
 (
 )
@@ -10003,6 +10021,8 @@ FunctionClass
 {
 js_Function_str
 JSCLASS_NEW_RESOLVE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_CACHED_PROTO
 (

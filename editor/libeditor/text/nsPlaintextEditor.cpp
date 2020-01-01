@@ -748,10 +748,6 @@ nsPlaintextEditor
 nsEditor
 (
 )
-mIgnoreSpuriousDragEvent
-(
-false
-)
 mRules
 (
 nsnull
