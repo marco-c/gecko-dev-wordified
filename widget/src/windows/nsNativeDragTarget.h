@@ -893,6 +893,9 @@ mCanMove
 PRBool
 mMovePreferred
 ;
+PRBool
+mTookOwnRef
+;
 /
 /
 Gecko
