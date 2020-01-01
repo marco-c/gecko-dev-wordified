@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedBoolean
-.
-h
-"
-#
-include
-"
 nsISMILAttr
 .
 h
@@ -258,7 +251,7 @@ mAnimVal
 nsresult
 ToDOMAnimatedBoolean
 (
-nsIDOMSVGAnimatedBoolean
+nsISupports
 *
 *
 aResult

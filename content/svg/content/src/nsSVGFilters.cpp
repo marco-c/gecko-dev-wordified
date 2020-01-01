@@ -27329,7 +27329,7 @@ nsSVGFEConvolveMatrixElement
 :
 GetPreserveAlpha
 (
-nsIDOMSVGAnimatedBoolean
+nsISupports
 *
 *
 aPreserveAlpha

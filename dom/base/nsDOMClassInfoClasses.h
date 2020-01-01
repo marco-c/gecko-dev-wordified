@@ -1045,10 +1045,6 @@ SVGAnimatedAngle
 )
 DOMCI_CLASS
 (
-SVGAnimatedBoolean
-)
-DOMCI_CLASS
-(
 SVGAnimatedEnumeration
 )
 DOMCI_CLASS
