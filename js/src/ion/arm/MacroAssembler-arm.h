@@ -5640,6 +5640,8 @@ loadUnboxedValue
 (
 Address
 address
+MIRType
+type
 AnyRegister
 dest
 )
@@ -5682,6 +5684,8 @@ loadUnboxedValue
 (
 BaseIndex
 address
+MIRType
+type
 AnyRegister
 dest
 )
