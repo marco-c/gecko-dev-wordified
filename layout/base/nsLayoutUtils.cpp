@@ -7797,10 +7797,11 @@ rv
 rv
 )
 ;
-nsTArray
+nsAutoTArray
 <
 nsIFrame
 *
+8
 >
 outFrames
 ;
@@ -7858,10 +7859,11 @@ aIgnoreRootScrollFrame
 nsresult
 rv
 ;
-nsTArray
+nsAutoTArray
 <
 nsIFrame
 *
+8
 >
 outFrames
 ;

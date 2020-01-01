@@ -15442,10 +15442,11 @@ a
 reminder
 to
 wait
-nsTArray
+nsAutoTArray
 <
 nsIFrame
 *
+8
 >
 outFrames
 ;
