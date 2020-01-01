@@ -576,7 +576,7 @@ edx
 _ystride
 ]
 mov
-ebx
+ecx
 [
 _ll
 ]
@@ -1087,7 +1087,7 @@ L
 movq
 mm0
 [
-ebx
+ecx
 ]
 /
 *
