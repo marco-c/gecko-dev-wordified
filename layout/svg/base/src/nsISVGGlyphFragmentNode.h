@@ -454,9 +454,6 @@ nsQueryFrame
 h
 "
 class
-nsISVGGlyphFragmentLeaf
-;
-class
 nsIDOMSVGPoint
 ;
 class
@@ -512,10 +509,10 @@ point
 ;
 NS_IMETHOD_
 (
-nsISVGGlyphFragmentLeaf
+nsSVGGlyphFrame
 *
 )
-GetFirstGlyphFragment
+GetFirstGlyphFrame
 (
 )
 =
@@ -523,10 +520,10 @@ GetFirstGlyphFragment
 ;
 NS_IMETHOD_
 (
-nsISVGGlyphFragmentLeaf
+nsSVGGlyphFrame
 *
 )
-GetNextGlyphFragment
+GetNextGlyphFrame
 (
 )
 =

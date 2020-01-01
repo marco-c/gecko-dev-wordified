@@ -436,10 +436,10 @@ class
 nsISVGGlyphFragmentNode
 ;
 class
-nsISVGGlyphFragmentLeaf
+nsSVGTextFrame
 ;
 class
-nsSVGTextFrame
+nsSVGGlyphFrame
 ;
 class
 nsSVGTextContainerFrame
@@ -811,7 +811,7 @@ private
 Returns
 the
 glyph
-fragment
+frame
 containing
 a
 particular
@@ -819,9 +819,9 @@ character
 *
 /
 static
-nsISVGGlyphFragmentLeaf
+nsSVGGlyphFrame
 *
-GetGlyphFragmentAtCharNum
+GetGlyphFrameAtCharNum
 (
 nsISVGGlyphFragmentNode
 *

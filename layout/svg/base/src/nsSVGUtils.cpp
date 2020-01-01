@@ -536,13 +536,6 @@ h
 #
 include
 "
-nsISVGGlyphFragmentLeaf
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

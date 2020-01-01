@@ -831,9 +831,9 @@ aForceGlobalTransform
 void
 SetWhitespaceHandling
 (
-nsISVGGlyphFragmentLeaf
+nsSVGGlyphFrame
 *
-fragment
+aFrame
 )
 ;
 nsCOMPtr
