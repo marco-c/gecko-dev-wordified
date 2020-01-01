@@ -987,7 +987,7 @@ document
 getElementById
 (
 "
-prefs
+panel
 -
 header
 "
@@ -996,8 +996,6 @@ header
 is
 (
 prefTitle
-.
-firstChild
 .
 value
 "
