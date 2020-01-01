@@ -817,6 +817,7 @@ mDOMFilesEnumerator
 this
 .
 mDOMFilesEnumerator
+=
 {
 QueryInterface
 :
@@ -908,6 +909,7 @@ var
 i
 =
 0
+;
 i
 <
 this
