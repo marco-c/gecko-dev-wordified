@@ -862,7 +862,7 @@ GetSkipSides
 *
 /
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )
@@ -1132,7 +1132,7 @@ mCaptionFrames
 }
 ;
 inline
-PRIntn
+int
 nsTableOuterFrame
 :
 :

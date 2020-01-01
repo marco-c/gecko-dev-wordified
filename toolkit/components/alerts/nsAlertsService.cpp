@@ -120,7 +120,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -218,7 +218,7 @@ endif
 /
 /
 !
-ANDROID
+MOZ_WIDGET_ANDROID
 using
 namespace
 mozilla
@@ -462,7 +462,7 @@ NS_OK
 }
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :
@@ -601,6 +601,14 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+XP_MACOSX
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+#
+endif
 nsCOMPtr
 <
 nsIWindowWatcher
@@ -1038,7 +1046,7 @@ endif
 /
 /
 !
-ANDROID
+MOZ_WIDGET_ANDROID
 }
 NS_IMETHODIMP
 nsAlertsService
@@ -1062,7 +1070,7 @@ aAlertText
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :
@@ -1095,7 +1103,7 @@ endif
 /
 /
 !
-ANDROID
+MOZ_WIDGET_ANDROID
 }
 NS_IMETHODIMP
 nsAlertsService
@@ -1111,7 +1119,7 @@ aAlertName
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :
@@ -1141,5 +1149,5 @@ endif
 /
 /
 !
-ANDROID
+MOZ_WIDGET_ANDROID
 }

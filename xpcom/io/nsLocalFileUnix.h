@@ -607,7 +607,7 @@ CreateAndKeepOpen
 (
 PRUint32
 type
-PRIntn
+int
 flags
 PRUint32
 permissions

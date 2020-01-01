@@ -778,7 +778,7 @@ hash
 ;
 }
 static
-PRIntn
+int
 PR_CALLBACK
 certHashtable_keyCompare
 (
@@ -929,7 +929,7 @@ true
 ;
 }
 static
-PRIntn
+int
 PR_CALLBACK
 certHashtable_valueCompare
 (
@@ -1003,14 +1003,14 @@ certKey
 ;
 }
 static
-PRIntn
+int
 PR_CALLBACK
 certHashtable_clearEntry
 (
 PLHashEntry
 *
 he
-PRIntn
+int
 /
 *
 index

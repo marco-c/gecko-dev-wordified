@@ -20488,9 +20488,6 @@ moz
 locale
 -
 dir
-and
-:
-dir
 can
 only
 have
@@ -20513,15 +20510,6 @@ nsCSSPseudoClasses
 :
 :
 ePseudoClass_mozLocaleDir
-|
-|
-aType
-=
-=
-nsCSSPseudoClasses
-:
-:
-ePseudoClass_dir
 )
 {
 if
@@ -20552,11 +20540,6 @@ rtl
 )
 )
 {
-REPORT_UNEXPECTED_TOKEN
-(
-PEBadDirValue
-)
-;
 return
 eSelectorParsingStatus_Error
 ;

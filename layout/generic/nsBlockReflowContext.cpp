@@ -724,7 +724,7 @@ GetNextInFlow
 {
 for
 (
-PRIntn
+int
 overflowLines
 =
 false

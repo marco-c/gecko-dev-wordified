@@ -3468,7 +3468,7 @@ item
 )
 ;
 }
-PRIntn
+int
 nsTableRowFrame
 :
 :
@@ -3477,7 +3477,7 @@ GetSkipSides
 )
 const
 {
-PRIntn
+int
 skip
 =
 0

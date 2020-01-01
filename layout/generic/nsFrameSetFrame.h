@@ -912,7 +912,7 @@ aChildFrame
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

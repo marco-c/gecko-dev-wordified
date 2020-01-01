@@ -456,7 +456,7 @@ nsReflowStatus
 mLastFrameStatus
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )
@@ -7716,7 +7716,7 @@ return
 NS_OK
 ;
 }
-PRIntn
+int
 nsColumnSetFrame
 :
 :

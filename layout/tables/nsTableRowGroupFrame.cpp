@@ -1523,7 +1523,7 @@ DisplayRows
 )
 ;
 }
-PRIntn
+int
 nsTableRowGroupFrame
 :
 :
@@ -1532,7 +1532,7 @@ GetSkipSides
 )
 const
 {
-PRIntn
+int
 skip
 =
 0

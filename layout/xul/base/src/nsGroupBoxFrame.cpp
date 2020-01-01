@@ -718,7 +718,7 @@ nsRect
 aDirtyRect
 )
 {
-PRIntn
+int
 skipSides
 =
 0

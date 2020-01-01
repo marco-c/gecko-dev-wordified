@@ -3937,7 +3937,7 @@ return
 NS_OK
 ;
 }
-PRIntn
+int
 nsCanvasFrame
 :
 :

@@ -3184,7 +3184,7 @@ aIsRoot
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )
@@ -4471,7 +4471,7 @@ aIsRoot
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

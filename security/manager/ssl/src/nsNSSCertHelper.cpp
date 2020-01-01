@@ -4759,7 +4759,7 @@ can
 fit
 to
 .
-PRIntn
+int
 escapedValueCapacity
 =
 decodeItem

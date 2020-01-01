@@ -698,7 +698,7 @@ eExcludesIgnorableWhitespace
 ;
 }
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

@@ -710,7 +710,7 @@ void
 AllocFunc
 )
 (
-PRSize
+size_t
 size
 )
 ;
@@ -725,7 +725,7 @@ ReallocFunc
 void
 *
 ptr
-PRSize
+size_t
 size
 )
 ;

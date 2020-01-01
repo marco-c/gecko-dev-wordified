@@ -7612,7 +7612,7 @@ const
 nsSize
 &
 aBorderArea
-PRIntn
+int
 aSkipSides
 nscoord
 aRadii
@@ -17489,7 +17489,7 @@ frame
 *
 /
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

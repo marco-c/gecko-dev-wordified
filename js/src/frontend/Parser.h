@@ -2126,9 +2126,9 @@ DefineArg
 ParseNode
 *
 pn
-JSAtom
+PropertyName
 *
-atom
+name
 unsigned
 i
 Parser

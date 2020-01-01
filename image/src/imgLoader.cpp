@@ -4592,7 +4592,7 @@ imgLoader
 :
 sChromeCacheQueue
 ;
-PRFloat64
+double
 imgLoader
 :
 :

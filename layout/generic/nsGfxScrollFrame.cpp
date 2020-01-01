@@ -946,7 +946,7 @@ return
 NS_FRAME_NOT_SPLITTABLE
 ;
 }
-PRIntn
+int
 nsHTMLScrollFrame
 :
 :
@@ -7200,7 +7200,7 @@ return
 NS_OK
 ;
 }
-PRIntn
+int
 nsXULScrollFrame
 :
 :

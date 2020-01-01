@@ -11256,7 +11256,7 @@ NS_OK
 }
 #
 endif
-PRIntn
+int
 nsImageFrame
 :
 :
@@ -11265,7 +11265,7 @@ GetSkipSides
 )
 const
 {
-PRIntn
+int
 skip
 =
 0

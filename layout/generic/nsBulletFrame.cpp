@@ -2414,7 +2414,7 @@ ordinal
 10
 )
 ;
-PRIntn
+int
 len
 =
 decStr
@@ -2443,12 +2443,12 @@ dp
 +
 len
 ;
-PRIntn
+int
 romanPos
 =
 len
 ;
-PRIntn
+int
 n
 ;
 for

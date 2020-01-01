@@ -842,14 +842,6 @@ Init
 ;
 static
 nsresult
-RegisterClassName
-(
-PRInt32
-aDOMClassInfoID
-)
-;
-static
-nsresult
 RegisterClassProtos
 (
 PRInt32

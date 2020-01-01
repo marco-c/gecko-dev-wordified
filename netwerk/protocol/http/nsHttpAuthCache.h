@@ -1751,7 +1751,7 @@ AllocTable
 (
 void
 *
-PRSize
+size_t
 size
 )
 ;

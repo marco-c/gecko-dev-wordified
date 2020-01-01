@@ -12418,7 +12418,7 @@ touchPoint
 *
 2
 ;
-PRFloat64
+double
 delta
 =
 distance

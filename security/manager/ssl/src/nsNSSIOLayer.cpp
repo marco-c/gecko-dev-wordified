@@ -3517,7 +3517,7 @@ unsigned
 char
 *
 buf
-PRIntn
+int
 len
 )
 {
@@ -3549,7 +3549,7 @@ hex
 0123456789abcdef
 "
 ;
-PRIntn
+int
 i
 =
 0
@@ -5498,7 +5498,7 @@ mWarnLevelMissingRFC5746
 1
 ;
 static
-PRIntn
+int
 _PSM_InvalidInt
 (
 void
@@ -5824,7 +5824,7 @@ void
 buf
 PRInt32
 amount
-PRIntn
+int
 flags
 PRIntervalTime
 timeout
@@ -5968,7 +5968,7 @@ void
 buf
 PRInt32
 amount
-PRIntn
+int
 flags
 PRIntervalTime
 timeout
@@ -6189,7 +6189,7 @@ out_flags
 ;
 }
 static
-PRIntn
+int
 PSMAvailable
 (
 void
@@ -7877,7 +7877,7 @@ decoded
 constraint
 *
 /
-PRIntn
+int
 port
 ;
 /
@@ -8584,7 +8584,7 @@ hostname
 char
 *
 hostIP
-PRIntn
+int
 port
 )
 {
@@ -10476,7 +10476,7 @@ extracted
 =
 NULL
 ;
-PRIntn
+int
 keyError
 =
 0

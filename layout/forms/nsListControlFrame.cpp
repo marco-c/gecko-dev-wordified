@@ -7760,7 +7760,7 @@ return
 NS_OK
 ;
 }
-PRIntn
+int
 nsListControlFrame
 :
 :
