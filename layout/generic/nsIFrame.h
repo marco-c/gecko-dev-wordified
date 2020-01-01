@@ -11490,7 +11490,7 @@ one
 of
 the
 following
-three
+two
 types
 :
 *
@@ -11502,15 +11502,6 @@ length
 in
 app
 units
-*
-eStyleUnit_Percent
--
-a
-percentage
-of
-the
-available
-space
 *
 eStyleUnit_None
 -
