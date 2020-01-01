@@ -155,10 +155,6 @@ do_test_pending
 (
 )
 ;
-startupManager
-(
-)
-;
 run_test_1
 (
 )
