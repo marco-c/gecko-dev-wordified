@@ -1782,11 +1782,12 @@ engine
 :
 sync
 :
-apply
--
-failed
+applied
 "
 {
+newFailed
+:
+1
 }
 "
 steam
