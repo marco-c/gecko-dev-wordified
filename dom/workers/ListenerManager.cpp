@@ -2432,6 +2432,12 @@ sHandleEventChars
 handleEvent
 "
 ;
+JSObject
+*
+thisObj
+=
+aTarget
+;
 JSBool
 hasHandleEvent
 ;
@@ -2498,6 +2504,10 @@ false
 continue
 ;
 }
+thisObj
+=
+listenerObj
+;
 }
 jsval
 argv
@@ -2522,7 +2532,7 @@ if
 JS_CallFunctionValue
 (
 aCx
-aTarget
+thisObj
 listenerVal
 ArrayLength
 (
