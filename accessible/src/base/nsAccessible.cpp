@@ -12846,6 +12846,9 @@ mDOMNode
 nsAutoString
 id
 ;
+nsAutoString
+oldValueUnused
+;
 if
 (
 content
@@ -12861,9 +12864,6 @@ id
 )
 )
 {
-nsAutoString
-oldValueUnused
-;
 attributes
 -
 >
@@ -12879,6 +12879,7 @@ id
 oldValueUnused
 )
 ;
+}
 /
 /
 XXX
@@ -13337,7 +13338,6 @@ GetParent
 (
 )
 ;
-}
 }
 if
 (
