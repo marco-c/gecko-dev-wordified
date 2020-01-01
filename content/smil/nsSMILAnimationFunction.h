@@ -802,7 +802,7 @@ everything
 succeeds
 .
 *
-returns
+return
 PR_TRUE
 if
 aAttribute
@@ -1167,7 +1167,7 @@ sandwich
 *
 param
 aIsFrozen
-True
+PR_TRUE
 if
 this
 animation
@@ -1175,8 +1175,8 @@ should
 continue
 to
 contribute
-to
 *
+to
 the
 animation
 sandwich
@@ -1422,7 +1422,7 @@ result
 *
 *
 return
-True
+PR_TRUE
 if
 the
 animation
@@ -1430,7 +1430,7 @@ is
 active
 or
 frozen
-false
+PR_FALSE
 otherwise
 .
 *
@@ -1624,14 +1624,15 @@ changed
 *
 *
 return
-True
+PR_TRUE
 if
 the
 animation
 parameters
 have
 changed
-false
+PR_FALSE
+*
 otherwise
 .
 *
