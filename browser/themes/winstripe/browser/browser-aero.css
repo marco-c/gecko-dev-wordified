@@ -1750,12 +1750,9 @@ toolbox
 :
 after
 {
-display
+visibility
 :
--
-moz
--
-box
+visible
 ;
 background
 -
