@@ -2208,7 +2208,7 @@ mDBConn
 nsnull
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -2321,7 +2321,7 @@ mDBConn
 nsnull
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -2436,7 +2436,7 @@ mDBConn
 nsnull
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -2709,7 +2709,7 @@ srv
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -2779,7 +2779,7 @@ NS_OK
 ;
 }
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -3312,7 +3312,7 @@ mDBConn
 NULL
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -3750,7 +3750,7 @@ NULL
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -4110,7 +4110,7 @@ SQLITE_OK
 )
 rv
 =
-ConvertResultCode
+convertResultCode
 (
 rc
 )
@@ -4531,7 +4531,7 @@ buf
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -4645,7 +4645,7 @@ srv
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -4804,7 +4804,7 @@ srv
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -4895,7 +4895,7 @@ srv
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )

@@ -493,8 +493,14 @@ mozStoragePrivateHelpers
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+storage
+{
 nsresult
-ConvertResultCode
+convertResultCode
 (
 int
 aSQLiteResultCode
@@ -599,7 +605,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-CheckAndLogStatementPerformance
+checkAndLogStatementPerformance
 (
 sqlite3_stmt
 *
@@ -635,6 +641,8 @@ optimized
 int
 count
 =
+:
+:
 sqlite3_stmt_status
 (
 aStatement
@@ -656,6 +664,8 @@ char
 *
 sql
 =
+:
+:
 sqlite3_sql
 (
 aStatement
@@ -675,6 +685,8 @@ not
 warn
 if
 (
+:
+:
 strstr
 (
 sql
@@ -803,3 +815,13 @@ get
 )
 ;
 }
+}
+/
+/
+namespace
+storage
+}
+/
+/
+namespace
+mozilla

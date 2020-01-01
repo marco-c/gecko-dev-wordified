@@ -2021,7 +2021,7 @@ what
 it
 did
 .
-CheckAndLogStatementPerformance
+checkAndLogStatementPerformance
 (
 aStatement
 )
