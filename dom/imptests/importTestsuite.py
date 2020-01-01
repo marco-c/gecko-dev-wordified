@@ -431,7 +431,6 @@ HEADERS_SUFFIX
 def
 copy
 (
-thissrcdir
 dest
 directories
 )
@@ -606,7 +605,6 @@ d
                 
 importDirs
 (
-thissrcdir
 dest
 [
 "
@@ -644,7 +642,6 @@ root
                 
 importDirs
 (
-thissrcdir
 dest
 subdirs
 )
@@ -771,7 +768,6 @@ path
 def
 printBuildFiles
 (
-thissrcdir
 dest
 directories
 )
@@ -1069,7 +1065,6 @@ d
 def
 importDirs
 (
-thissrcdir
 dest
 directories
 )
@@ -1077,14 +1072,12 @@ directories
     
 copy
 (
-thissrcdir
 dest
 directories
 )
     
 printBuildFiles
 (
-thissrcdir
 dest
 directories
 )
@@ -1200,7 +1193,6 @@ def
 importRepo
 (
 confFile
-thissrcdir
 )
 :
     
@@ -1287,7 +1279,6 @@ directories
         
 importDirs
 (
-thissrcdir
 dest
 directories
 )
@@ -1401,9 +1392,4 @@ argv
 [
 1
 ]
-"
-dom
-/
-imptests
-"
 )
