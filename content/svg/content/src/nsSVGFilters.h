@@ -808,7 +808,7 @@ GetInputColorModel
 nsSVGFilterInstance
 *
 aInstance
-PRInt32
+PRUint32
 aInputIndex
 Image
 *
@@ -839,7 +839,6 @@ LINEAR_RGB
 (
 OperatesOnPremultipledAlpha
 (
-aInputIndex
 )
 ?
 ColorModel
@@ -870,8 +869,7 @@ ColorModel
 OperatesOnSRGB
 (
 aInstance
--
-1
+0
 nsnull
 )
 ?
@@ -888,8 +886,6 @@ LINEAR_RGB
 (
 OperatesOnPremultipledAlpha
 (
--
-1
 )
 ?
 ColorModel
@@ -1502,7 +1498,6 @@ virtual
 PRBool
 OperatesOnPremultipledAlpha
 (
-PRInt32
 )
 {
 return
@@ -1514,10 +1509,10 @@ PR_TRUE
 Called
 either
 with
-aInputIndex
->
-=
-0
+aImage
+non
+-
+null
 in
 which
 case
@@ -1539,10 +1534,9 @@ or
 /
 /
 if
-aInputIndex
+aImage
 is
--
-1
+null
 returns
 true
 if
@@ -1558,7 +1552,7 @@ OperatesOnSRGB
 nsSVGFilterInstance
 *
 aInstance
-PRInt32
+PRUint32
 aInputIndex
 Image
 *

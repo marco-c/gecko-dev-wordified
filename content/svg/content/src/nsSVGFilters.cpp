@@ -7788,7 +7788,6 @@ virtual
 PRBool
 OperatesOnPremultipledAlpha
 (
-PRInt32
 )
 {
 return
@@ -12019,7 +12018,6 @@ virtual
 PRBool
 OperatesOnPremultipledAlpha
 (
-PRInt32
 )
 {
 return
@@ -18124,7 +18122,7 @@ OperatesOnSRGB
 (
 nsSVGFilterInstance
 *
-PRInt32
+PRUint32
 Image
 *
 )
@@ -26514,7 +26512,6 @@ virtual
 PRBool
 OperatesOnPremultipledAlpha
 (
-PRInt32
 )
 {
 return
@@ -36084,7 +36081,7 @@ OperatesOnSRGB
 (
 nsSVGFilterInstance
 *
-PRInt32
+PRUint32
 Image
 *
 )
@@ -38257,7 +38254,7 @@ OperatesOnSRGB
 nsSVGFilterInstance
 *
 aInstance
-PRInt32
+PRUint32
 aInput
 Image
 *
@@ -38270,6 +38267,9 @@ aInput
 =
 =
 0
+&
+&
+aImage
 )
 return
 aImage
@@ -38294,24 +38294,6 @@ OperatesOnSRGB
 aInstance
 aInput
 aImage
-)
-;
-}
-virtual
-PRBool
-OperatesOnPremultipledAlpha
-(
-PRInt32
-aInput
-)
-{
-return
-!
-(
-aInput
-=
-=
-1
 )
 ;
 }
