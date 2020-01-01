@@ -20962,6 +20962,8 @@ prototype
 .
 nsresult
 rv
+=
+aStatus
 ;
 NS_ASSERTION
 (
