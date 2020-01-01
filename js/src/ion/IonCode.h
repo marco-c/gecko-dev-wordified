@@ -615,12 +615,6 @@ data
 relocation
 table
 .
-#
-if
-defined
-(
-JS_NUNBOX32
-)
 uint32
 padding_
 ;
@@ -635,8 +629,6 @@ gc
 Cell
 aligned
 .
-#
-endif
 IonCode
 (
 )
