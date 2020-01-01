@@ -4619,7 +4619,7 @@ appropriate
 flags
 .
 See
-nsHTMLInputElement
+HTMLInputElement
 .
 cpp
 and
@@ -4899,7 +4899,7 @@ pass
 true
 .
 See
-nsHTMLInputElement
+HTMLInputElement
 .
 cpp
 and

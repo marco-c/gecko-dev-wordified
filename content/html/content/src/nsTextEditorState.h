@@ -269,7 +269,7 @@ as
 a
 member
 of
-nsHTMLInputElement
+HTMLInputElement
 and
 nsHTMLTextAreaElement
 .

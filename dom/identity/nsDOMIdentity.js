@@ -791,7 +791,7 @@ format
 /
 /
 See
-nsHTMLInputElement
+HTMLInputElement
 :
 :
 IsValidEmailAddress

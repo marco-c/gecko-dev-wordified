@@ -767,7 +767,7 @@ nullptr
 /
 /
 XXXbz
-nsHTMLInputElement
+HTMLInputElement
 guards
 against
 this

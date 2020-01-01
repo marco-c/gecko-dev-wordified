@@ -1206,7 +1206,7 @@ custom
 event
 fired
 in
-nsHTMLInputElement
+HTMLInputElement
 .
 cpp
 )
@@ -1227,7 +1227,7 @@ event
 fired
 in
 in
-nsHTMLInputElement
+HTMLInputElement
 .
 cpp
 &

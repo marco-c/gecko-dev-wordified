@@ -415,7 +415,11 @@ h
 #
 include
 "
-nsHTMLInputElement
+mozilla
+/
+dom
+/
+HTMLInputElement
 .
 h
 "
@@ -1934,7 +1938,7 @@ Shutdown
 (
 )
 ;
-nsHTMLInputElement
+HTMLInputElement
 :
 :
 DestroyUploadLastDir

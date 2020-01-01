@@ -2037,7 +2037,7 @@ mColSpecs
 /
 /
 -
-nsHTMLInputElement
+HTMLInputElement
 :
 mInputData
 mFiles

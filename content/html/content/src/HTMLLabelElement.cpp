@@ -1031,7 +1031,7 @@ to
 /
 Also
 within
-nsHTMLInputElement
+HTMLInputElement
 :
 :
 PostHandleEvent

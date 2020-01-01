@@ -920,7 +920,7 @@ Store
 click
 point
 for
-nsHTMLInputElement
+HTMLInputElement
 :
 :
 SubmitNamesValues
