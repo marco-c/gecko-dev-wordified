@@ -2998,6 +2998,11 @@ SetCanDrop
 canDrop
 )
 ;
+if
+(
+canDrop
+)
+{
 /
 /
 We
@@ -3035,11 +3040,6 @@ PreventDefault
 /
 /
 consumed
-if
-(
-canDrop
-)
-{
 if
 (
 mCaret
