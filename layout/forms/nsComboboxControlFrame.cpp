@@ -2998,9 +2998,6 @@ nsComboboxControlFrame
 :
 ShowList
 (
-nsPresContext
-*
-aPresContext
 PRBool
 aShowList
 )
@@ -5683,9 +5680,6 @@ SyncViewWithFrame
 }
 ShowList
 (
-PresContext
-(
-)
 aDoDropDown
 )
 ;
@@ -5707,9 +5701,6 @@ aDoDropDown
 {
 ShowList
 (
-PresContext
-(
-)
 aDoDropDown
 )
 ;
@@ -9070,9 +9061,6 @@ if
 (
 ShowList
 (
-PresContext
-(
-)
 PR_FALSE
 )
 )
