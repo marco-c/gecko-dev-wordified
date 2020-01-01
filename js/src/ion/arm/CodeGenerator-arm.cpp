@@ -10099,8 +10099,6 @@ Address
 base
 offset
 )
-ValueTypeFromMIRType
-(
 store
 -
 >
@@ -10111,7 +10109,6 @@ mir
 >
 slotType
 (
-)
 )
 )
 ;

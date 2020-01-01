@@ -16962,7 +16962,7 @@ slot
 )
 slotType_
 (
-MIRType_None
+MIRType_Value
 )
 needsBarrier_
 (
