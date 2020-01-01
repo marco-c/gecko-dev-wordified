@@ -5519,6 +5519,13 @@ newName
 if
 (
 !
+atkObj
+-
+>
+name
+|
+|
+!
 utf8Name
 .
 Equals
