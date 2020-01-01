@@ -13483,7 +13483,7 @@ changed
 .
 gMessageManager
 .
-sendMobileConnectionMessage
+sendIccMessage
 (
 "
 RIL
