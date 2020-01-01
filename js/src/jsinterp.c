@@ -956,6 +956,11 @@ oddfills
 +
 )
 ;
+*
+entryp
+=
+NULL
+;
 return
 ;
 }
@@ -1168,6 +1173,11 @@ noprotos
 +
 )
 ;
+*
+entryp
+=
+NULL
+;
 return
 ;
 }
@@ -1207,6 +1217,11 @@ longchains
 +
 +
 )
+;
+*
+entryp
+=
+NULL
 ;
 return
 ;
