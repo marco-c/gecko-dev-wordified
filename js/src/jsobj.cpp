@@ -17914,6 +17914,9 @@ return
 JS_FALSE
 ;
 case
+JSOP_GETGNAME
+:
+case
 JSOP_NAME
 :
 /
