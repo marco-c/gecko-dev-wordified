@@ -1271,6 +1271,11 @@ nsresult
 aStatus
 )
 ;
+void
+OnDiscard
+(
+)
+;
 /
 *
 non
