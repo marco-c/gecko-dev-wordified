@@ -555,9 +555,9 @@ aTarget
 ;
 }
 ;
-nsSVGFilterFrame
+nsIContent
 *
-NS_GetSVGFilterFrame
+NS_GetSVGFilterElement
 (
 nsIURI
 *
