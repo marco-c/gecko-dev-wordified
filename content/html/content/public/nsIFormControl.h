@@ -784,7 +784,7 @@ ClearForm
 (
 PRBool
 aRemoveFromForm
-PRBoqol
+PRBool
 aNotify
 )
 =
