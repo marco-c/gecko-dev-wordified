@@ -127,6 +127,13 @@ h
 #
 include
 "
+jsscript
+.
+h
+"
+#
+include
+"
 frontend
 /
 BytecodeEmitter

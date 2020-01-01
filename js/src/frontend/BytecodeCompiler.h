@@ -117,9 +117,14 @@ BytecodeCompiler_h__
 #
 include
 "
-frontend
-/
-Parser
+jsapi
+.
+h
+"
+#
+include
+"
+jsprvtd
 .
 h
 "
