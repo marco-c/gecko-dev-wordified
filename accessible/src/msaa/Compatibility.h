@@ -120,7 +120,9 @@ COMPATIBILITY_MANAGER_H
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "

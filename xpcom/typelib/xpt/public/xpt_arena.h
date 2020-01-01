@@ -128,6 +128,15 @@ stdlib
 .
 h
 >
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 /
 *
 *

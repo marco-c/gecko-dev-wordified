@@ -63,6 +63,15 @@ prtypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 namespace
 mozilla
 {

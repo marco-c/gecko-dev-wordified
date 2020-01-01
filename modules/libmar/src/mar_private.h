@@ -132,6 +132,15 @@ limits
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 /
 *
 Code

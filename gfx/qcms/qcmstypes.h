@@ -14,6 +14,15 @@ prtypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 /
 *
 prtypes

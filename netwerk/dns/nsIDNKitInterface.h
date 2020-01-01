@@ -423,7 +423,9 @@ __cplusplus
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "

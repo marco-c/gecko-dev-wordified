@@ -386,7 +386,9 @@ UTIL_SNAPPY_OPENSOURCE_SNAPPY_STUBS_PUBLIC_H_
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "
