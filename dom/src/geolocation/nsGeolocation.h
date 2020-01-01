@@ -688,7 +688,7 @@ aVError
 double
 aHeading
 double
-aVelocity
+aSpeed
 long
 long
 aTimestamp
@@ -718,9 +718,9 @@ mHeading
 (
 aHeading
 )
-mVelocity
+mSpeed
 (
-aVelocity
+aSpeed
 )
 mTimestamp
 (
@@ -744,7 +744,7 @@ mAlt
 mHError
 mVError
 mHeading
-mVelocity
+mSpeed
 ;
 long
 long
