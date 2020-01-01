@@ -845,7 +845,7 @@ nsnull
 #
 ifdef
 MOZ_PANGO
-gfxPangoFontGroup
+gfxPangoFont
 :
 :
 Shutdown
