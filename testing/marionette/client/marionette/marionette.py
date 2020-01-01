@@ -625,6 +625,9 @@ None
 emulator
 =
 None
+sdcard
+=
+None
 emulatorBinary
 =
 None
@@ -820,6 +823,10 @@ logcat_dir
 arch
 =
 emulator
+                                     
+sdcard
+=
+sdcard
                                      
 emulatorBinary
 =
