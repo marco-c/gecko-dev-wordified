@@ -554,6 +554,16 @@ toggleRecording
 (
 )
 ;
+return
+gcli
+.
+lookup
+(
+"
+profilerStopped
+"
+)
+;
 }
 return
 gDevTools
