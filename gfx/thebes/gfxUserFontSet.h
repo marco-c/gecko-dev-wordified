@@ -787,6 +787,17 @@ if
 local
 (
 )
+nsString
+mRealName
+;
+/
+/
+original
+fullname
+from
+the
+font
+resource
 PRUint32
 mSrcIndex
 ;
