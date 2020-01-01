@@ -897,7 +897,7 @@ Default
 :
 1
 uint32_t
-usesBeforeCompileParallel
+usesBeforeCompilePar
 ;
 void
 setEagerCompilation
@@ -1026,7 +1026,7 @@ eagerCompilation
 (
 false
 )
-usesBeforeCompileParallel
+usesBeforeCompilePar
 (
 1
 )

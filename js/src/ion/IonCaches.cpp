@@ -10504,7 +10504,7 @@ static
 *
 /
 bool
-ParallelGetPropertyIC
+GetPropertyParIC
 :
 :
 canAttachReadSlot
@@ -10650,7 +10650,7 @@ true
 ;
 }
 bool
-ParallelGetPropertyIC
+GetPropertyParIC
 :
 :
 attachReadSlot
@@ -10730,7 +10730,7 @@ reading
 ;
 }
 bool
-ParallelGetPropertyIC
+GetPropertyParIC
 :
 :
 attachArrayLength
@@ -10795,7 +10795,7 @@ length
 ;
 }
 ParallelResult
-ParallelGetPropertyIC
+GetPropertyParIC
 :
 :
 update
@@ -10815,7 +10815,7 @@ AutoFlushCache
 afc
 (
 "
-ParallelGetPropertyCache
+GetPropertyParCache
 "
 )
 ;
@@ -10862,7 +10862,7 @@ parallelIonScript
 (
 )
 ;
-ParallelGetPropertyIC
+GetPropertyParIC
 &
 cache
 =
@@ -10874,7 +10874,7 @@ getCache
 cacheIndex
 )
 .
-toParallelGetProperty
+toGetPropertyPar
 (
 )
 ;
@@ -18090,7 +18090,7 @@ false
 ;
 }
 bool
-ParallelGetElementIC
+GetElementParIC
 :
 :
 attachReadSlot
@@ -18208,7 +18208,7 @@ reading
 ;
 }
 bool
-ParallelGetElementIC
+GetElementParIC
 :
 :
 attachDenseElement
@@ -18281,7 +18281,7 @@ element
 ;
 }
 bool
-ParallelGetElementIC
+GetElementParIC
 :
 :
 attachTypedArrayElement
@@ -18348,7 +18348,7 @@ array
 ;
 }
 ParallelResult
-ParallelGetElementIC
+GetElementParIC
 :
 :
 update
@@ -18370,7 +18370,7 @@ AutoFlushCache
 afc
 (
 "
-ParallelGetElementCache
+GetElementParCache
 "
 )
 ;
@@ -18417,7 +18417,7 @@ parallelIonScript
 (
 )
 ;
-ParallelGetElementIC
+GetElementParIC
 &
 cache
 =
@@ -18429,7 +18429,7 @@ getCache
 cacheIndex
 )
 .
-toParallelGetElement
+toGetElementPar
 (
 )
 ;
@@ -18624,7 +18624,7 @@ asPropertyName
 ;
 if
 (
-ParallelGetPropertyIC
+GetPropertyParIC
 :
 :
 canAttachReadSlot

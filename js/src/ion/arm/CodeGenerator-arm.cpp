@@ -1511,11 +1511,11 @@ signal
 an
 error
 .
-OutOfLineParallelAbort
+OutOfLineAbortPar
 *
 ool
 =
-oolParallelAbort
+oolAbortPar
 (
 ParallelBailoutUnsupported
 snapshot

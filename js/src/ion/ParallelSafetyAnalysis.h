@@ -177,7 +177,7 @@ and
 replaces
 them
 with
-MParBailout
+MAbortPar
 blocks
 .
 class

@@ -200,12 +200,12 @@ CallsiteClone
 \
 _
 (
-ParallelGetProperty
+GetPropertyPar
 )
 \
 _
 (
-ParallelGetElement
+GetElementPar
 )
 /
 /
@@ -5763,7 +5763,7 @@ alreadyStubbed
 }
 ;
 class
-ParallelGetPropertyIC
+GetPropertyParIC
 :
 public
 ParallelIonCache
@@ -5782,7 +5782,7 @@ output_
 ;
 public
 :
-ParallelGetPropertyIC
+GetPropertyParIC
 (
 Register
 object
@@ -5809,7 +5809,7 @@ output
 }
 CACHE_HEADER
 (
-ParallelGetProperty
+GetPropertyPar
 )
 #
 ifdef
@@ -5955,7 +5955,7 @@ vp
 }
 ;
 class
-ParallelGetElementIC
+GetElementParIC
 :
 public
 ParallelIonCache
@@ -5978,7 +5978,7 @@ monitoredResult_
 ;
 public
 :
-ParallelGetElementIC
+GetElementParIC
 (
 Register
 object
@@ -6010,7 +6010,7 @@ monitoredResult
 }
 CACHE_HEADER
 (
-ParallelGetElement
+GetElementPar
 )
 #
 ifdef

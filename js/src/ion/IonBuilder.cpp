@@ -54320,7 +54320,7 @@ true
 ;
 /
 /
-ParallelGetPropertyIC
+GetPropertyParIC
 cannot
 safely
 call
@@ -54330,9 +54330,9 @@ TypeScript
 Monitor
 to
 ensure
-/
-/
 that
+/
+/
 the
 observed
 type

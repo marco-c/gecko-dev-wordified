@@ -223,10 +223,10 @@ class
 IonCache
 ;
 class
-OutOfLineParallelAbort
+OutOfLineAbortPar
 ;
 class
-OutOfLinePropagateParallelAbort
+OutOfLinePropagateAbortPar
 ;
 template
 <
@@ -2531,7 +2531,7 @@ first
 invoke
 /
 /
-ParReportBailout
+ReportAbortPar
 (
 )
 and
@@ -2585,7 +2585,7 @@ that
 is
 provided
 to
-oolParallelAbort
+oolAbortPar
 is
 currently
 /
@@ -2616,9 +2616,9 @@ perhaps
 )
 why
 .
-OutOfLineParallelAbort
+OutOfLineAbortPar
 *
-oolParallelAbort
+oolAbortPar
 (
 ParallelBailoutCause
 cause
@@ -2630,9 +2630,9 @@ jsbytecode
 bytecode
 )
 ;
-OutOfLineParallelAbort
+OutOfLineAbortPar
 *
-oolParallelAbort
+oolAbortPar
 (
 ParallelBailoutCause
 cause
@@ -2641,9 +2641,9 @@ LInstruction
 lir
 )
 ;
-OutOfLinePropagateParallelAbort
+OutOfLinePropagateAbortPar
 *
-oolPropagateParallelAbort
+oolPropagateAbortPar
 (
 LInstruction
 *
@@ -2652,9 +2652,9 @@ lir
 ;
 virtual
 bool
-visitOutOfLineParallelAbort
+visitOutOfLineAbortPar
 (
-OutOfLineParallelAbort
+OutOfLineAbortPar
 *
 ool
 )
@@ -2663,9 +2663,9 @@ ool
 ;
 virtual
 bool
-visitOutOfLinePropagateParallelAbort
+visitOutOfLinePropagateAbortPar
 (
-OutOfLinePropagateParallelAbort
+OutOfLinePropagateAbortPar
 *
 ool
 )
@@ -3908,7 +3908,7 @@ the
 cause
 .
 class
-OutOfLineParallelAbort
+OutOfLineAbortPar
 :
 public
 OutOfLineCode
@@ -3928,7 +3928,7 @@ bytecode_
 ;
 public
 :
-OutOfLineParallelAbort
+OutOfLineAbortPar
 (
 ParallelBailoutCause
 cause
@@ -4003,7 +4003,7 @@ has
 aborted
 .
 class
-OutOfLinePropagateParallelAbort
+OutOfLinePropagateAbortPar
 :
 public
 OutOfLineCode
@@ -4016,7 +4016,7 @@ lir_
 ;
 public
 :
-OutOfLinePropagateParallelAbort
+OutOfLinePropagateAbortPar
 (
 LInstruction
 *
