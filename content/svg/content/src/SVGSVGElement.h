@@ -240,6 +240,9 @@ class
 SVGViewElement
 ;
 class
+SVGIRect
+;
+class
 SVGSVGElement
 ;
 class
@@ -1487,7 +1490,7 @@ CreateSVGMatrix
 ;
 already_AddRefed
 <
-nsIDOMSVGRect
+SVGIRect
 >
 CreateSVGRect
 (

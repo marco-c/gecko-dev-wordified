@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsIDOMSVGRect
-.
-h
-"
-#
-include
-"
 nsISVGGlyphFragmentNode
 .
 h
@@ -22898,7 +22891,10 @@ nsIContent
 aContent
 uint32_t
 aCharNum
-nsIDOMSVGRect
+dom
+:
+:
+SVGIRect
 *
 *
 aResult

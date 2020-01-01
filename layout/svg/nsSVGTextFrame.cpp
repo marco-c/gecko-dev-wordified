@@ -128,7 +128,11 @@ h
 #
 include
 "
-nsIDOMSVGRect
+mozilla
+/
+dom
+/
+SVGIRect
 .
 h
 "
@@ -849,7 +853,10 @@ GetExtentOfChar
 (
 uint32_t
 charnum
-nsIDOMSVGRect
+dom
+:
+:
+SVGIRect
 *
 *
 _retval

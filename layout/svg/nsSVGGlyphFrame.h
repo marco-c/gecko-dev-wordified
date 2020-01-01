@@ -167,9 +167,6 @@ class
 nsDisplaySVGGlyphs
 ;
 class
-nsIDOMSVGRect
-;
-class
 nsRenderingContext
 ;
 class
@@ -190,6 +187,13 @@ CharacterPosition
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGIRect
+;
+}
 /
 /
 Slightly
@@ -630,7 +634,10 @@ GetExtentOfChar
 (
 uint32_t
 charnum
-nsIDOMSVGRect
+dom
+:
+:
+SVGIRect
 *
 *
 _retval

@@ -120,9 +120,6 @@ SVGAnimatedTransformList
 .
 h
 "
-class
-nsIDOMSVGRect
-;
 namespace
 mozilla
 {
@@ -137,6 +134,9 @@ SVGGraphicsElement
 ;
 class
 SVGMatrix
+;
+class
+SVGIRect
 ;
 class
 SVGTransformableElement
@@ -194,7 +194,7 @@ GetFarthestViewportElement
 ;
 already_AddRefed
 <
-nsIDOMSVGRect
+SVGIRect
 >
 GetBBox
 (

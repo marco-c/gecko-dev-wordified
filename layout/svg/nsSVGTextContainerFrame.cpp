@@ -787,7 +787,10 @@ GetExtentOfChar
 (
 uint32_t
 charnum
-nsIDOMSVGRect
+dom
+:
+:
+SVGIRect
 *
 *
 _retval

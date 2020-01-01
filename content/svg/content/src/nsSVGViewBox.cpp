@@ -1458,7 +1458,7 @@ mVal
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGViewBox
 :
 :
@@ -1469,6 +1469,9 @@ SetX
 (
 float
 aX
+ErrorResult
+&
+aRv
 )
 {
 nsSVGViewBoxRect
@@ -1496,11 +1499,8 @@ rect
 mSVGElement
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsSVGViewBox
 :
 :
@@ -1511,6 +1511,9 @@ SetY
 (
 float
 aY
+ErrorResult
+&
+aRv
 )
 {
 nsSVGViewBoxRect
@@ -1538,11 +1541,8 @@ rect
 mSVGElement
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsSVGViewBox
 :
 :
@@ -1553,6 +1553,9 @@ SetWidth
 (
 float
 aWidth
+ErrorResult
+&
+aRv
 )
 {
 nsSVGViewBoxRect
@@ -1580,11 +1583,8 @@ rect
 mSVGElement
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsSVGViewBox
 :
 :
@@ -1595,6 +1595,9 @@ SetHeight
 (
 float
 aHeight
+ErrorResult
+&
+aRv
 )
 {
 nsSVGViewBoxRect
@@ -1621,9 +1624,6 @@ SetBaseValue
 rect
 mSVGElement
 )
-;
-return
-NS_OK
 ;
 }
 nsISMILAttr
