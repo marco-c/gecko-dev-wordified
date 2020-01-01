@@ -462,6 +462,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PContentChild
@@ -1188,7 +1197,7 @@ collect
 .
 *
 /
-NS_NORETURN
+MOZ_NORETURN
 void
 QuickExit
 (

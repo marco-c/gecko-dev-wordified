@@ -457,6 +457,15 @@ dom_plugins_PluginModuleChild_h
 1
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 string
 >
@@ -1117,7 +1126,7 @@ ActorDestroyReason
 why
 )
 ;
-NS_NORETURN
+MOZ_NORETURN
 void
 QuickExit
 (
