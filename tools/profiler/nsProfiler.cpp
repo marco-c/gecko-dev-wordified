@@ -118,7 +118,7 @@ endif
 #
 include
 "
-sampler
+GeckoProfiler
 .
 h
 "
