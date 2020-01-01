@@ -120,7 +120,7 @@ event
 reportCompare
 (
 "
-55
+21
 "
 event
 .
@@ -145,7 +145,7 @@ w
 postMessage
 (
 "
-10
+8
 \
 t
 "
@@ -164,8 +164,6 @@ workerDir
 8
 13
 21
-34
-55
 }
 else
 {
