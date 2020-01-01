@@ -8415,6 +8415,11 @@ nsIDOMMozTimeManager
 aTime
 )
 {
+*
+aTime
+=
+nullptr
+;
 nsCOMPtr
 <
 nsPIDOMWindow
@@ -8526,11 +8531,6 @@ if
 mTimeManager
 )
 {
-*
-aTime
-=
-nullptr
-;
 mTimeManager
 =
 new
