@@ -580,6 +580,13 @@ Components
 results
 ;
 const
+Cu
+=
+Components
+.
+utils
+;
+const
 kQuitApplication
 =
 "
@@ -1836,9 +1843,7 @@ DBFlush_handleError
 aError
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
