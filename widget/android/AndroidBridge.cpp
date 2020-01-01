@@ -5579,6 +5579,19 @@ gAppShell
 &
 aAlertListener
 )
+{
+/
+/
+This
+will
+remove
+any
+observers
+already
+registered
+for
+this
+id
 nsAppShell
 :
 :
@@ -5591,6 +5604,7 @@ aAlertName
 aAlertListener
 )
 ;
+}
 jvalue
 args
 [
