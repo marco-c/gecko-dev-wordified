@@ -2876,6 +2876,7 @@ printf
 #
 define
 HAVE_VA_LIST_AS_ARRAY
+1
 \
 n
 "
