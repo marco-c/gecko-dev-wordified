@@ -7004,8 +7004,8 @@ renderTraceEventStart
 (
 "
 Widget
+end
 draw
-to
 "
 "
 434747
@@ -7025,8 +7025,8 @@ renderTraceEventEnd
 (
 "
 Widget
+end
 draw
-to
 "
 "
 434747
