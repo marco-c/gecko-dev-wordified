@@ -1036,7 +1036,7 @@ getMonth
 (
 now
 .
-getDay
+getDate
 (
 )
 <
@@ -1053,7 +1053,7 @@ getDay
 (
 now
 .
-getDay
+getDate
 (
 )
 +
