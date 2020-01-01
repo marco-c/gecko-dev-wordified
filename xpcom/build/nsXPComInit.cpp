@@ -3604,7 +3604,7 @@ autoregistration
 start
 NS_CreateServicesFromCategory
 (
-NS_XPCOM_STARTUP_OBSERVER_ID
+NS_XPCOM_STARTUP_CATEGORY
 nsnull
 NS_XPCOM_STARTUP_OBSERVER_ID
 )
