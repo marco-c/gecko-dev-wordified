@@ -1145,6 +1145,9 @@ asQuery
 (
 aNode
 )
+endl
+:
+NEWLINE
 /
 *
 *
