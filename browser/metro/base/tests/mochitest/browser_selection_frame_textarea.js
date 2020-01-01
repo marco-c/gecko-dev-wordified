@@ -483,7 +483,7 @@ sendContextMenuClickToElement
 (
 gWindow
 gFrame
-195
+220
 80
 )
 ;
@@ -688,7 +688,7 @@ sendContextMenuClickToElement
 (
 gWindow
 gFrame
-195
+220
 80
 )
 ;
@@ -1237,7 +1237,7 @@ sendContextMenuClickToElement
 (
 gWindow
 gFrame
-195
+220
 80
 )
 ;

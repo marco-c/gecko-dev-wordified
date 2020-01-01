@@ -5542,7 +5542,6 @@ this
 _editURI
 (
 true
-touchEvent
 )
 ;
 if
@@ -5597,7 +5596,6 @@ _editURI
 function
 _editURI
 (
-aEvent
 aShouldDismiss
 )
 {
