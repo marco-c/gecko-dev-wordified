@@ -2146,6 +2146,9 @@ class
 ArgumentsObject
 ;
 class
+BooleanObject
+;
+class
 GlobalObject
 ;
 class
@@ -7040,6 +7043,16 @@ JSSLOT_PRIMITIVE_THIS
 }
 public
 :
+inline
+js
+:
+:
+BooleanObject
+*
+asBoolean
+(
+)
+;
 inline
 js
 :
