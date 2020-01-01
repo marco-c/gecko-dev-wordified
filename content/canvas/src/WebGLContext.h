@@ -5982,6 +5982,14 @@ char
 info
 )
 ;
+bool
+BindArrayAttribToLocation0
+(
+WebGLProgram
+*
+program
+)
+;
 /
 /
 -
