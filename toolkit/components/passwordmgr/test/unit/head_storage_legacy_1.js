@@ -983,9 +983,14 @@ nsIFile
 ;
 }
 var
-OUTDIR
+PROFDIR
 =
 profileDir
+;
+var
+OUTDIR
+=
+PROFDIR
 .
 path
 ;
