@@ -4080,7 +4080,7 @@ if
 base
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 sp
 -
@@ -5736,11 +5736,6 @@ pool
 name
 256
 1
-&
-cx
--
->
-scriptStackQuota
 )
 ;
 jp
@@ -12380,7 +12375,7 @@ if
 space
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )

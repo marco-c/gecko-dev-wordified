@@ -534,15 +534,6 @@ Crash
 |
 InternalError
 :
-script
-stack
-space
-quota
-is
-exhausted
-|
-InternalError
-:
 allocation
 size
 overflow

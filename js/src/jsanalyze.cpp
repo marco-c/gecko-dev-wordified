@@ -2253,7 +2253,6 @@ script_analyze
 "
 256
 8
-NULL
 )
 ;
 unsigned

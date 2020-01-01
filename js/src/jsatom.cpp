@@ -4643,7 +4643,7 @@ if
 !
 space
 )
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 parser
 -
@@ -4813,7 +4813,7 @@ if
 ale
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 parser
 -
