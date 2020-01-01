@@ -424,13 +424,6 @@ h
 #
 include
 "
-nsIImageLoadingContent
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
