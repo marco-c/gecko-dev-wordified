@@ -402,10 +402,7 @@ nsCString
 &
 aEntityID
 const
-IPC
-:
-:
-URI
+URIParams
 &
 aURI
 )
@@ -475,10 +472,7 @@ nsCString
 &
 aEntityID
 const
-IPC
-:
-:
-URI
+URIParams
 &
 aURI
 )

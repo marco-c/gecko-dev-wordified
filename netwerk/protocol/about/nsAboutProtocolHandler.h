@@ -129,6 +129,9 @@ class
 nsIAboutModule
 ;
 class
+nsIURI
+;
+class
 nsAboutProtocolHandler
 :
 public
@@ -222,7 +225,6 @@ nsSimpleNestedURI
 {
 public
 :
-NS_DECL_NSIIPCSERIALIZABLEOBSOLETE
 nsNestedAboutURI
 (
 nsIURI

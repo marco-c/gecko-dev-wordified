@@ -82,6 +82,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions

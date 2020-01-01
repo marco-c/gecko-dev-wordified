@@ -177,13 +177,6 @@ nsIProgressEventSink
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 class
 nsICacheEntryDescriptor
 ;

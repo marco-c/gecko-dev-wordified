@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsIInterfaceRequestor
+.
+h
+"
+#
+include
+"
 nsIWebSocketListener
 .
 h
@@ -200,10 +207,7 @@ bool
 RecvAsyncOpen
 (
 const
-IPC
-:
-:
-URI
+URIParams
 &
 aURI
 const
