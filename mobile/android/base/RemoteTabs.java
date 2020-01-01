@@ -398,7 +398,7 @@ hide
 {
 }
 void
-hideTabs
+autoHideTabs
 (
 )
 {
@@ -406,7 +406,7 @@ GeckoApp
 .
 mAppContext
 .
-hideTabs
+autoHideTabs
 (
 )
 ;
@@ -488,7 +488,7 @@ tab
 null
 )
 {
-hideTabs
+autoHideTabs
 (
 )
 ;
@@ -617,7 +617,7 @@ toString
 )
 )
 ;
-hideTabs
+autoHideTabs
 (
 )
 ;
@@ -676,7 +676,7 @@ size
 0
 )
 {
-hideTabs
+autoHideTabs
 (
 )
 ;

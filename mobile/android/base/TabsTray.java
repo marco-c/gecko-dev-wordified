@@ -864,7 +864,7 @@ tab
 }
 }
 void
-hideTabs
+autoHideTabs
 (
 )
 {
@@ -872,7 +872,7 @@ GeckoApp
 .
 mAppContext
 .
-hideTabs
+autoHideTabs
 (
 )
 ;
@@ -2037,7 +2037,7 @@ selectTab
 tabId
 )
 ;
-hideTabs
+autoHideTabs
 (
 )
 ;

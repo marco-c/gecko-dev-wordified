@@ -653,7 +653,7 @@ GeckoApp
 .
 mAppContext
 .
-hideTabs
+autoHideTabs
 (
 )
 ;
