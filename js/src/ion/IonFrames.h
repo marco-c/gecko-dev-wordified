@@ -1029,15 +1029,6 @@ JS_ASSERT
 offset
 >
 =
-0
-&
-&
-uint32
-(
-offset
-)
->
-=
 displacement_
 )
 ;
