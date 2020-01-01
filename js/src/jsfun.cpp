@@ -9349,9 +9349,8 @@ call_str
 call
 "
 ;
-static
 JSBool
-fun_call
+js_fun_call
 (
 JSContext
 *
@@ -9755,7 +9754,7 @@ arguments
 *
 /
 return
-fun_call
+js_fun_call
 (
 cx
 argc
@@ -10501,7 +10500,7 @@ js_fun_apply
 JS_FN
 (
 call_str
-fun_call
+js_fun_call
 1
 0
 )
