@@ -227,6 +227,17 @@ typedef
 uint64_t
 GLuint64
 ;
+/
+/
+OES_EGL_image
+(
+GLES
+)
+typedef
+void
+*
+GLeglImage
+;
 #
 ifndef
 GLAPIENTRY
