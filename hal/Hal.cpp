@@ -285,11 +285,25 @@ InSandbox
 )
 {
 \
+if
+(
+!
+hal_sandbox
+:
+:
+IsHalChildLive
+(
+)
+)
+{
+\
 hal_sandbox
 :
 :
 _call
 ;
+\
+}
 \
 }
 else
@@ -313,6 +327,7 @@ define
 RETURN_PROXY_IF_SANDBOXED
 (
 _call
+defValue
 )
 \
 do
@@ -325,6 +340,23 @@ InSandbox
 )
 )
 {
+\
+if
+(
+hal_sandbox
+:
+:
+IsHalChildLive
+(
+)
+)
+{
+\
+return
+defValue
+;
+\
+}
 \
 return
 hal_sandbox
@@ -1789,6 +1821,7 @@ RETURN_PROXY_IF_SANDBOXED
 GetScreenEnabled
 (
 )
+false
 )
 ;
 }
@@ -1878,6 +1911,7 @@ RETURN_PROXY_IF_SANDBOXED
 GetCpuSleepAllowed
 (
 )
+true
 )
 ;
 }
@@ -1915,6 +1949,7 @@ RETURN_PROXY_IF_SANDBOXED
 GetScreenBrightness
 (
 )
+0
 )
 ;
 }
@@ -1972,6 +2007,7 @@ SetLight
 light
 aConfig
 )
+false
 )
 ;
 }
@@ -1999,6 +2035,7 @@ GetLight
 light
 aConfig
 )
+false
 )
 ;
 }
@@ -2160,6 +2197,11 @@ RETURN_PROXY_IF_SANDBOXED
 (
 GetTimezone
 (
+)
+nsCString
+(
+"
+"
 )
 )
 ;
@@ -2840,6 +2882,7 @@ LockScreenOrientation
 (
 aOrientation
 )
+false
 )
 ;
 }
@@ -2929,6 +2972,7 @@ GetCurrentSwitchState
 (
 aDevice
 )
+SWITCH_STATE_UNKNOWN
 )
 ;
 }
@@ -3289,6 +3333,7 @@ RETURN_PROXY_IF_SANDBOXED
 EnableAlarm
 (
 )
+false
 )
 ;
 }
@@ -3376,6 +3421,7 @@ SetAlarm
 aSeconds
 aNanoseconds
 )
+false
 )
 ;
 }
@@ -3625,6 +3671,7 @@ RETURN_PROXY_IF_SANDBOXED
 GetFMRadioFrequency
 (
 )
+0
 )
 ;
 }
@@ -3642,6 +3689,7 @@ RETURN_PROXY_IF_SANDBOXED
 IsFMRadioOn
 (
 )
+false
 )
 ;
 }
@@ -3659,6 +3707,7 @@ RETURN_PROXY_IF_SANDBOXED
 GetFMRadioSignalStrength
 (
 )
+0
 )
 ;
 }

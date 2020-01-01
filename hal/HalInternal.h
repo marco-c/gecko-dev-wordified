@@ -468,6 +468,11 @@ DisableSystemTimeChangeNotifications
 (
 )
 ;
+bool
+IsHalChildLive
+(
+)
+;
 }
 /
 /
