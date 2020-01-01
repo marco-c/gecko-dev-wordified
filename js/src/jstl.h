@@ -2052,7 +2052,9 @@ bytes
 )
 {
 return
-js_malloc
+:
+:
+malloc
 (
 bytes
 )
@@ -2070,7 +2072,9 @@ bytes
 )
 {
 return
-js_realloc
+:
+:
+realloc
 (
 p
 bytes
@@ -2085,7 +2089,9 @@ void
 p
 )
 {
-js_free
+:
+:
+free
 (
 p
 )
