@@ -4541,13 +4541,13 @@ type
 Data
 -
 >
-m
+mStyleStructs
+[
+eStyleStruct_
 #
 #
 name
-#
-#
-Data
+]
 =
 \
 new
