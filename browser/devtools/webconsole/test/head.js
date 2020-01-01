@@ -6822,9 +6822,11 @@ type
 ;
 if
 (
-aRule
-.
+"
 category
+"
+in
+aRule
 &
 &
 aElement
