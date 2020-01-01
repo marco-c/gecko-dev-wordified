@@ -212,6 +212,13 @@ this
 _messageListener
 )
 ;
+this
+.
+_consoleListeners
+=
+[
+]
+;
 }
 SpecialPowers
 .
