@@ -7092,6 +7092,9 @@ primaryColumn
 ;
 if
 (
+primaryColumn
+&
+&
 !
 nsCoreUtils
 :
