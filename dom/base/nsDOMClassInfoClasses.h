@@ -2027,6 +2027,10 @@ TransitionEvent
 )
 DOMCI_CLASS
 (
+AnimationEvent
+)
+DOMCI_CLASS
+(
 ContentFrameMessageManager
 )
 DOMCI_CLASS
