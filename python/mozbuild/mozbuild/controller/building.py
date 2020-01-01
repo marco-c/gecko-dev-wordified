@@ -273,6 +273,13 @@ set
         
 self
 .
+active_dirs
+=
+{
+}
+        
+self
+.
 resources
 =
 resources
@@ -1118,6 +1125,19 @@ current_subtier_status
 self
 )
 :
+        
+if
+self
+.
+active_tier
+not
+in
+self
+.
+tiers
+:
+            
+return
         
 for
 subtier
