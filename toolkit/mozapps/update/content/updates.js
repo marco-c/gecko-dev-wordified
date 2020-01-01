@@ -5831,13 +5831,13 @@ LOG
 gIncompatibleCheckPage
 "
 "
-onAddonUpdateEnded
+onCompatibilityUpdateAvailable
 -
-found
-update
 "
 +
 "
+found
+update
 for
 add
 -
@@ -5922,7 +5922,7 @@ incompatible
 let
 bs
 =
-Cc
+CoC
 [
 "
 mozilla
@@ -5939,7 +5939,7 @@ blocklist
 .
 getService
 (
-Ci
+CoI
 .
 nsIBlocklistService
 )
@@ -6057,7 +6057,7 @@ LOG
 gIncompatibleCheckPage
 "
 "
-onUpdateEnded
+onUpdateFinished
 -
 updates
 were
@@ -6083,7 +6083,7 @@ LOG
 gIncompatibleCheckPage
 "
 "
-onUpdateEnded
+onUpdateFinished
 -
 there
 are
