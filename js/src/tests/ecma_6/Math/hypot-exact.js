@@ -37,7 +37,7 @@ is
 .
 for
 (
-let
+var
 inf
 of
 [
