@@ -1247,7 +1247,7 @@ aLineSize
 aAscent
 aOffset
 and
-aReferredHeight
+aPreferredHeight
 are
 non
 -

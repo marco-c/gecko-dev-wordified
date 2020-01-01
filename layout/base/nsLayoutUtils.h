@@ -4722,12 +4722,6 @@ image
 .
 *
 param
-aImage
-The
-image
-.
-*
-param
 aRenderingContext
 Where
 to
@@ -4752,6 +4746,12 @@ units
 (
 aDestRect
 )
+.
+*
+param
+aImage
+The
+image
 .
 *
 param
