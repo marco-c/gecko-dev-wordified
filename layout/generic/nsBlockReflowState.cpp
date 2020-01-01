@@ -4355,9 +4355,6 @@ And
 then
 place
 it
-PRBool
-isLeftFloat
-;
 /
 /
 force
@@ -4404,8 +4401,6 @@ placed
 FlowAndPlaceFloat
 (
 fc
-&
-isLeftFloat
 aReflowStatus
 forceFit
 )
@@ -4504,7 +4499,6 @@ aLineLayout
 UpdateBand
 (
 availSpace
-isLeftFloat
 aPlaceholder
 -
 >
@@ -5544,9 +5538,6 @@ FlowAndPlaceFloat
 nsFloatCache
 *
 aFloatCache
-PRBool
-*
-aIsLeftFloat
 nsReflowStatus
 &
 aReflowStatus
@@ -6681,9 +6672,6 @@ border
 padding
 area
 .
-PRBool
-isLeftFloat
-;
 nscoord
 floatX
 floatY
@@ -6699,10 +6687,6 @@ floatDisplay
 mFloats
 )
 {
-isLeftFloat
-=
-PR_TRUE
-;
 floatX
 =
 floatAvailableSpace
@@ -6714,10 +6698,6 @@ x
 }
 else
 {
-isLeftFloat
-=
-PR_FALSE
-;
 if
 (
 !
@@ -6786,11 +6766,6 @@ x
 ;
 }
 }
-*
-aIsLeftFloat
-=
-isLeftFloat
-;
 const
 nsMargin
 &
@@ -7035,7 +7010,13 @@ right
 floats
 if
 (
-isLeftFloat
+NS_STYLE_FLOAT_LEFT
+=
+=
+floatDisplay
+-
+>
+mFloats
 )
 {
 region
@@ -7821,9 +7802,6 @@ endif
 Place
 the
 float
-PRBool
-isLeftFloat
-;
 nsReflowStatus
 reflowStatus
 ;
@@ -7833,8 +7811,6 @@ placed
 FlowAndPlaceFloat
 (
 fc
-&
-isLeftFloat
 reflowStatus
 aForceFit
 )
