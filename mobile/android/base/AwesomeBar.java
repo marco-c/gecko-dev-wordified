@@ -449,13 +449,6 @@ mozilla
 gecko
 ;
 import
-java
-.
-io
-.
-File
-;
-import
 android
 .
 app
@@ -542,13 +535,6 @@ android
 view
 .
 View
-;
-import
-android
-.
-view
-.
-Window
 ;
 import
 android
