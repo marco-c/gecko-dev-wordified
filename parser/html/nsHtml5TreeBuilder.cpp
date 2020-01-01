@@ -2051,6 +2051,10 @@ if
 needToDropLF
 )
 {
+needToDropLF
+=
+PR_FALSE
+;
 if
 (
 buf
@@ -2083,10 +2087,6 @@ return
 ;
 }
 }
-needToDropLF
-=
-PR_FALSE
-;
 }
 switch
 (

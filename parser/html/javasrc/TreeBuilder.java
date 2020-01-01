@@ -5565,6 +5565,10 @@ if
 needToDropLF
 )
 {
+needToDropLF
+=
+false
+;
 if
 (
 buf
@@ -5599,10 +5603,6 @@ return
 ;
 }
 }
-needToDropLF
-=
-false
-;
 }
 /
 /
