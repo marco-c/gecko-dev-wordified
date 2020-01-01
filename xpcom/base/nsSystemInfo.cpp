@@ -362,6 +362,15 @@ supports_armv6
 }
 {
 "
+hasARMv7
+"
+mozilla
+:
+:
+supports_armv7
+}
+{
+"
 hasNEON
 "
 mozilla

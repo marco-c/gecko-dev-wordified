@@ -2507,6 +2507,9 @@ hasEDSP
 hasARMv6
 "
 "
+hasARMv7
+"
+"
 hasNEON
 "
 ]
@@ -2541,6 +2544,7 @@ e
 )
 {
 continue
+;
 }
 if
 (
@@ -2588,6 +2592,7 @@ value
 /
 1024
 )
+;
 }
 ret
 [
@@ -2595,6 +2600,7 @@ field
 ]
 =
 value
+;
 }
 /
 /
