@@ -8060,6 +8060,14 @@ AvmCore
 config
 .
 thumb2
+&
+&
+(
+r
+!
+=
+PC
+)
 )
 {
 /
