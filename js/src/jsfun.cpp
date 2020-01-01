@@ -1749,7 +1749,7 @@ while
 fp
 -
 >
-isEvalOrDebuggerFrame
+isDirectEvalOrDebuggerFrame
 (
 )
 )
@@ -10854,7 +10854,7 @@ fun
 fp
 -
 >
-isEvalOrDebuggerFrame
+isDirectEvalOrDebuggerFrame
 (
 )
 )
