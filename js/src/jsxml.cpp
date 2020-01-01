@@ -32027,6 +32027,13 @@ MutableHandleValue
 rval
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+false
+)
+;
 JS_ASSERT
 (
 hint
