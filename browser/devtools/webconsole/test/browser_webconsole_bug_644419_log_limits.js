@@ -374,7 +374,7 @@ i
 +
 )
 {
-hud
+content
 .
 console
 .
@@ -560,7 +560,7 @@ clearOutput
 (
 )
 ;
-hud
+content
 .
 console
 .
@@ -899,7 +899,7 @@ clearOutput
 (
 )
 ;
-hud
+content
 .
 console
 .
@@ -1233,7 +1233,7 @@ clearOutput
 (
 )
 ;
-hud
+content
 .
 console
 .
