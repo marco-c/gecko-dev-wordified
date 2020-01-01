@@ -3281,6 +3281,8 @@ unbox
 MResumePoint
 *
 defResumePoint
+=
+NULL
 ;
 if
 (
@@ -3330,6 +3332,10 @@ entryResumePoint
 )
 ;
 return
+!
+defResumePoint
+|
+|
 (
 defResumePoint
 !

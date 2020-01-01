@@ -582,15 +582,6 @@ Functions
 for
 LTestVAndBranch
 .
-Register
-splitTagForTest
-(
-const
-ValueOperand
-&
-value
-)
-;
 Assembler
 :
 :
