@@ -359,7 +359,6 @@ preferences
 =
 prefs
                              
-#
 addons
 =
 [
@@ -369,9 +368,16 @@ path
 .
 join
 (
-here
+build
+.
+distdir
 '
-extension
+xpi
+-
+stage
+'
+'
+quitter
 '
 )
 ]
