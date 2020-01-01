@@ -556,11 +556,14 @@ argv
 jsval
 rval
 ;
+#
+ifdef
+DEBUG
 JSBool
 ok
-;
-ok
 =
+#
+endif
 JS_CallFunctionName
 (
 cx
