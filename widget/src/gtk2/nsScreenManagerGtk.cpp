@@ -1223,6 +1223,8 @@ GDK_DISPLAY
 numScreens
 )
 ;
+}
+}
 /
 /
 remember
@@ -1242,8 +1244,6 @@ numScreens
 >
 0
 ;
-}
-}
 /
 /
 screenInfo
