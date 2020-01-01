@@ -561,6 +561,11 @@ support
 "
 supportURL
 "
+strings
+:
+"
+strings
+"
 }
 ;
 var
@@ -2321,6 +2326,10 @@ null
 size
 :
 null
+strings
+:
+"
+"
 updateDate
 :
 null
