@@ -119,7 +119,7 @@ for
 ContextUI
 '
 s
-dismissWithDelay
+dismissTabsWithDelay
 const
 kHideContextAndTrayDelayMsec
 =
@@ -1060,7 +1060,7 @@ function
 {
 ContextUI
 .
-dismissWithDelay
+dismissTabsWithDelay
 (
 kNewTabAnimationDelayMsec
 )
@@ -1082,7 +1082,7 @@ function
 {
 ContextUI
 .
-dismissWithDelay
+dismissTabsWithDelay
 (
 kNewTabAnimationDelayMsec
 )
@@ -1102,9 +1102,8 @@ displayTabs
 *
 *
 Dismiss
-all
-context
-ui
+tab
+bar
 after
 a
 delay
@@ -1116,10 +1115,9 @@ events
 .
 *
 /
-dismissWithDelay
+dismissTabsWithDelay
 :
 function
-dismissWithDelay
 (
 aDelay
 )
@@ -1149,7 +1147,7 @@ function
 {
 ContextUI
 .
-dismiss
+dismissTabs
 (
 )
 ;
@@ -1852,6 +1850,14 @@ case
 TabSelect
 '
 :
+this
+.
+dismissTabs
+(
+)
+;
+break
+;
 case
 '
 ToolPanelShown
