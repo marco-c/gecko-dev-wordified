@@ -875,11 +875,11 @@ server
 *
 *
 param
-object
+array
 aPreferences
 *
 An
-object
+array
 with
 the
 preferences
