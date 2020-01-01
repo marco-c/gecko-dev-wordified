@@ -218,7 +218,7 @@ New
 cx
 obj
 proto
-NULL
+parent
 &
 JSCrossCompartmentWrapper
 :
