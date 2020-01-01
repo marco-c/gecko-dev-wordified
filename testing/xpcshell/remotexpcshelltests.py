@@ -2702,6 +2702,14 @@ self
 .
 profileDir
         
+if
+self
+.
+options
+.
+setup
+:
+          
 self
 .
 pushWrapper
