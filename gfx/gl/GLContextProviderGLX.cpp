@@ -4160,7 +4160,6 @@ return
 mTexture
 ;
 }
-;
 private
 :
 TextureImageGLX
