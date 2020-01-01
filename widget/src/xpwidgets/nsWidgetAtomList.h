@@ -831,13 +831,6 @@ menu
 items
 WIDGET_ATOM
 (
-menuFrame
-"
-menuFrame
-"
-)
-WIDGET_ATOM
-(
 minpos
 "
 minpos

@@ -829,6 +829,13 @@ define
 USE_NATIVE_MENUS
 #
 endif
+#
+include
+"
+nsIPopupSetFrame
+.
+h
+"
 /
 *
 Define

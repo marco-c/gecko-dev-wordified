@@ -435,11 +435,11 @@ nsIMenuFrame
 .
 h
 \
-nsIScrollbarMediator
+nsIPopupSetFrame
 .
 h
 \
-nsXULPopupManager
+nsIScrollbarMediator
 .
 h
 \
