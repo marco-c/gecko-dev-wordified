@@ -3755,7 +3755,9 @@ kind
 ;
 }
 bool
-equals
+operator
+=
+=
 (
 const
 SSAValue

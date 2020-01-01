@@ -29181,9 +29181,8 @@ i
 if
 (
 v
-.
-equals
-(
+=
+=
 (
 *
 seen
@@ -29191,7 +29190,6 @@ seen
 [
 i
 ]
-)
 )
 return
 true

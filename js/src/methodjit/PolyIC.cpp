@@ -17777,7 +17777,7 @@ typeReg
 StackFrame
 :
 :
-offsetOfArgs
+offsetOfArgsObj
 (
 )
 )
