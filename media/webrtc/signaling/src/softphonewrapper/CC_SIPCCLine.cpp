@@ -163,6 +163,10 @@ wrap
 (
 lineInfoRef
 )
+.
+get
+(
+)
 ;
 /
 /
@@ -316,6 +320,10 @@ CC_SIPCCCall
 wrap
 (
 callHandle
+)
+.
+get
+(
 )
 ;
 }

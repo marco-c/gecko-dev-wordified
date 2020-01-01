@@ -81,7 +81,7 @@ h
 namespace
 CSF
 {
-DECLARE_PTR_VECTOR
+DECLARE_NS_PTR_VECTOR
 (
 PhoneDetails
 )
@@ -92,6 +92,10 @@ PhoneDetails
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+PhoneDetails
+)
 virtual
 ~
 PhoneDetails
