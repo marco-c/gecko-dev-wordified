@@ -1787,6 +1787,12 @@ mTextureOnWhite
 =
 nsnull
 ;
+mValidRegion
+.
+SetEmpty
+(
+)
+;
 }
 void
 ThebesLayerD3D9
