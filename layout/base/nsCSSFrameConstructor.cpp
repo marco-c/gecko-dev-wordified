@@ -19901,7 +19901,7 @@ childItems
 aStyleDisplay
 -
 >
-IsBlockOutside
+IsBlockInside
 (
 )
 )
