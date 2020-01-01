@@ -559,6 +559,11 @@ PromptAndReturnQuotaIsDisabled
 (
 )
 ;
+void
+Cancel
+(
+)
+;
 PRUint32
 WindowSerial
 (
