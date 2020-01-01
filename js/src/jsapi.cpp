@@ -10391,7 +10391,10 @@ EAGER_CLASS_ATOM
 DataView
 )
 &
-DataViewClass
+DataViewObject
+:
+:
+class_
 }
 {
 NULL
