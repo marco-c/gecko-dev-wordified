@@ -2079,7 +2079,7 @@ GC
 arena
 *
 /
-uint8
+jsbitmap
 *
 nextDoubleFlags
 ;
