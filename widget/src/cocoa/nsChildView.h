@@ -1322,7 +1322,7 @@ mPluginComplexTextInputRequested
 ;
 NSOpenGLContext
 *
-mContext
+mGLContext
 ;
 /
 /
