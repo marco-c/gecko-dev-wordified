@@ -866,13 +866,6 @@ promptWaitTime
 "
 )
 ;
-do_check_true
-(
-bestUpdate
-.
-showSurvey
-)
-;
 do_check_eq
 (
 bestUpdate
@@ -1603,13 +1596,6 @@ promptWaitTime
 "
 691200
 "
-)
-;
-do_check_false
-(
-bestUpdate
-.
-showSurvey
 )
 ;
 do_check_eq
