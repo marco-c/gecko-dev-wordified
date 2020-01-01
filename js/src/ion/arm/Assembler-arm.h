@@ -555,13 +555,6 @@ r1
 static
 const
 Register
-CallTempReg6
-=
-r2
-;
-static
-const
-Register
 IntArgReg0
 =
 r0
