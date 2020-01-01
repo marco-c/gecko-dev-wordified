@@ -8095,11 +8095,8 @@ TODO
 public
 static
 void
-setPreventPanning
+preventPanning
 (
-final
-boolean
-aPreventPanning
 )
 {
 getMainHandler
@@ -8134,7 +8131,7 @@ layerController
 .
 preventPanning
 (
-aPreventPanning
+true
 )
 ;
 }
