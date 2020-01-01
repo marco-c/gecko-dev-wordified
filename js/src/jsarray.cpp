@@ -10203,11 +10203,6 @@ return
 true
 ;
 }
-LeaveTrace
-(
-cx
-)
-;
 InvokeArgsGuard
 ag
 ;

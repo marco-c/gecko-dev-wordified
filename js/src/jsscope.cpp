@@ -7779,12 +7779,6 @@ setMap
 shape
 )
 ;
-LeaveTraceIfGlobalObject
-(
-cx
-this
-)
-;
 JS_ATOMIC_INCREMENT
 (
 &

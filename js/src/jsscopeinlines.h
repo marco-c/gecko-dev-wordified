@@ -965,15 +965,6 @@ isNative
 )
 )
 ;
-js
-:
-:
-LeaveTraceIfGlobalObject
-(
-cx
-this
-)
-;
 if
 (
 hasOwnShape

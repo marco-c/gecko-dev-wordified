@@ -13250,10 +13250,10 @@ JS_BIT
 )
 /
 *
-Enable
-JIT
-compilation
-.
+Deprecated
+;
+does
+nothing
 *
 /
 #

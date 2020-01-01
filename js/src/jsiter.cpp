@@ -2574,11 +2574,6 @@ object
 .
 *
 /
-LeaveTrace
-(
-cx
-)
-;
 Value
 arg
 =
@@ -9234,11 +9229,6 @@ uintN
 argc
 )
 {
-LeaveTrace
-(
-cx
-)
-;
 CallArgs
 args
 =

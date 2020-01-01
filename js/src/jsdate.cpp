@@ -13345,11 +13345,6 @@ Step
 .
 *
 /
-LeaveTrace
-(
-cx
-)
-;
 InvokeArgsGuard
 args
 ;
