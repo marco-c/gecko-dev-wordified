@@ -2220,7 +2220,7 @@ endif
 XP_WIN
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 TemporaryRef
 <
 DrawTarget
@@ -2274,7 +2274,7 @@ newTarget
 endif
 /
 /
-USE_SKIA
+USE_SKIA_GPU
 TemporaryRef
 <
 DrawTarget

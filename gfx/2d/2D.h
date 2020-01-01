@@ -5528,7 +5528,7 @@ aRecorder
 ;
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 static
 TemporaryRef
 <

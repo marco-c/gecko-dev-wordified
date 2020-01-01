@@ -689,7 +689,7 @@ h
 "
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 #
 include
 "
@@ -2626,7 +2626,7 @@ this
 }
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 static
 void
 PreTransactionCallback
@@ -4145,7 +4145,7 @@ layerManager
 {
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 if
 (
 gfxPlatform
@@ -21434,7 +21434,7 @@ data
 ;
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 if
 (
 mGLContext
