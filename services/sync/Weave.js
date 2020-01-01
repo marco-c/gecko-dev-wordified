@@ -682,7 +682,7 @@ classDescription
 "
 about
 :
-weave
+sync
 -
 tabs
 "
@@ -703,7 +703,7 @@ about
 ?
 what
 =
-weave
+sync
 -
 tabs
 "
@@ -847,7 +847,7 @@ classDescription
 "
 about
 :
-weave
+sync
 -
 log
 "
@@ -868,7 +868,7 @@ about
 ?
 what
 =
-weave
+sync
 -
 log
 "
@@ -1070,7 +1070,7 @@ classDescription
 "
 about
 :
-weave
+sync
 -
 log
 .
@@ -1093,7 +1093,7 @@ about
 ?
 what
 =
-weave
+sync
 -
 log
 .
