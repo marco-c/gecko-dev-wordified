@@ -817,11 +817,11 @@ array
 \
 \
 JSUndependedString
--
-/
 original
 dependent
 base
+/
+-
 *
 |
 \
