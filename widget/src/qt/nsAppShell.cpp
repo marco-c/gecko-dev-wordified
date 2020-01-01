@@ -654,6 +654,13 @@ User
 ;
 #
 endif
+nsQAppInstance
+:
+:
+AddRef
+(
+)
+;
 return
 nsBaseAppShell
 :
