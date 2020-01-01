@@ -813,17 +813,6 @@ strict
 )
 ;
 extern
-JSType
-TypeOf
-(
-JSContext
-*
-cx
-HandleObject
-obj
-)
-;
-extern
 bool
 GetAttributes
 (

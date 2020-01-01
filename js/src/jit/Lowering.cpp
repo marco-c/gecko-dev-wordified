@@ -6475,6 +6475,9 @@ lir
 new
 LTypeOfV
 (
+tempToUnbox
+(
+)
 )
 ;
 if
@@ -6495,13 +6498,6 @@ false
 ;
 return
 define
-(
-lir
-ins
-)
-&
-&
-assignSafepoint
 (
 lir
 ins
