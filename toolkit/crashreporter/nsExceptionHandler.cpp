@@ -4780,6 +4780,11 @@ ExceptionHandler
 :
 HANDLER_ALL
 minidump_type
+(
+const
+wchar_t
+*
+)
 NULL
 NULL
 )
