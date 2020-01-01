@@ -814,10 +814,9 @@ Clear
 )
 ;
 }
-already_AddRefed
-<
-nsIDOMSVGNumberList
->
+const
+SVGNumberList
+*
 nsSVGTextPathFrame
 :
 :
