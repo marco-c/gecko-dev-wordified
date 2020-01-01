@@ -29444,13 +29444,6 @@ MarkUsed
 layerActivity
 )
 ;
-layerActivity
--
->
-mMutationCount
-+
-+
-;
 }
 else
 {
@@ -29495,6 +29488,13 @@ layerActivity
 )
 ;
 }
+layerActivity
+-
+>
+mMutationCount
++
++
+;
 NS_UpdateHint
 (
 layerActivity
