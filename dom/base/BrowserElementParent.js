@@ -754,10 +754,14 @@ addMessageListener
 get
 -
 mozapp
+-
+manifest
+-
+url
 "
 this
 .
-_sendAppState
+_sendMozAppManifestURL
 )
 ;
 mm
@@ -986,7 +990,7 @@ evt
 )
 ;
 }
-_sendAppState
+_sendMozAppManifestURL
 :
 function
 (
@@ -997,7 +1001,7 @@ data
 return
 frameElement
 .
-hasAttribute
+getAttribute
 (
 '
 mozapp
