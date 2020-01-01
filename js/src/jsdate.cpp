@@ -6244,9 +6244,8 @@ vp
 )
 ;
 }
-static
 JSBool
-date_now
+js_date_now
 (
 JSContext
 *
@@ -12098,7 +12097,7 @@ JS_FN
 "
 now
 "
-date_now
+js_date_now
 0
 0
 )
