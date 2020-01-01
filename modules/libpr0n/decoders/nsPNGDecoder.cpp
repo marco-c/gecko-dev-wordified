@@ -472,6 +472,13 @@ h
 #
 include
 "
+ImageLogging
+.
+h
+"
+#
+include
+"
 nsMemory
 .
 h

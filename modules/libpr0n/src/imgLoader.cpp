@@ -444,6 +444,13 @@ BLOCK
 #
 include
 "
+ImageLogging
+.
+h
+"
+#
+include
+"
 imgLoader
 .
 h
@@ -660,13 +667,6 @@ h
 include
 "
 nsURILoader
-.
-h
-"
-#
-include
-"
-ImageLogging
 .
 h
 "

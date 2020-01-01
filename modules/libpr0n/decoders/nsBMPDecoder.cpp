@@ -519,7 +519,7 @@ h
 #
 include
 "
-prlog
+ImageLogging
 .
 h
 "

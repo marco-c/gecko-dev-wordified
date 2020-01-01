@@ -458,6 +458,13 @@ h
 #
 include
 "
+ImageLogging
+.
+h
+"
+#
+include
+"
 imgIContainerObserver
 .
 h
@@ -480,13 +487,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-ImageLogging
 .
 h
 "

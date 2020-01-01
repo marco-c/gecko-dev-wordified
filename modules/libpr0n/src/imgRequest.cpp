@@ -444,6 +444,13 @@ imgRequest
 .
 h
 "
+#
+include
+"
+ImageLogging
+.
+h
+"
 /
 *
 We
@@ -544,13 +551,6 @@ h
 include
 "
 imgILoader
-.
-h
-"
-#
-include
-"
-ImageLogging
 .
 h
 "
