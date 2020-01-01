@@ -84,6 +84,7 @@ ogg_uint32_t
 ;
 typedef
 long
+long
 ogg_int64_t
 ;
 #
