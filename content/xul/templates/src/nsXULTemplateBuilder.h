@@ -546,13 +546,6 @@ h
 #
 include
 "
-nsIDOMEventListener
-.
-h
-"
-#
-include
-"
 nsFixedSizeAllocator
 .
 h
@@ -665,8 +658,6 @@ nsXULTemplateBuilder
 public
 nsIXULTemplateBuilder
 public
-nsIDOMEventListener
-public
 nsStubDocumentObserver
 {
 public
@@ -736,7 +727,6 @@ nsIXULTemplateBuilder
 nsIXULTemplateBuilder
 interface
 NS_DECL_NSIXULTEMPLATEBUILDER
-NS_DECL_NSIDOMEVENTLISTENER
 /
 /
 nsIMutationObserver
