@@ -655,8 +655,9 @@ ifndef
 WINCE
 gShell32DLLInst
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 Shell32
 .
@@ -2458,8 +2459,9 @@ handle
 HWND
 shellWindow
 =
-FindWindow
+FindWindowW
 (
+L
 "
 Shell_TrayWnd
 "
