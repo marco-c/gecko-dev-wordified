@@ -2120,7 +2120,7 @@ numStr
 ;
 str
 =
-js_NewStringCopyZ
+JS_NewStringCopyZ
 (
 cx
 buf
@@ -3666,7 +3666,7 @@ JS_FALSE
 }
 str
 =
-js_NewStringCopyZ
+JS_NewStringCopyZ
 (
 cx
 numStr
@@ -5498,7 +5498,7 @@ NULL
 ;
 s
 =
-js_NewStringCopyZ
+JS_NewStringCopyZ
 (
 cx
 numStr
