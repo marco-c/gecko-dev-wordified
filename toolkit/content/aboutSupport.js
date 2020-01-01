@@ -1780,7 +1780,7 @@ bundle
 GetStringFromName
 (
 "
-acceleratedLayersEnabled
+acceleratedWindows
 "
 )
 )
