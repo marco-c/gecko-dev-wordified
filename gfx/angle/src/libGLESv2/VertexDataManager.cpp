@@ -772,13 +772,6 @@ using
 the
 streaming
 buffer
-buffer
--
->
-invalidateStaticData
-(
-)
-;
 /
 /
 Add
@@ -901,6 +894,13 @@ i
 ]
 count
 )
+)
+;
+buffer
+-
+>
+invalidateStaticData
+(
 )
 ;
 }
