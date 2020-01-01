@@ -1294,7 +1294,7 @@ BOOL
 CALLBACK
 ModuleEnumCallback
 (
-LPSTR
+PCSTR
 ModuleName
 ULONG
 ModuleBase
