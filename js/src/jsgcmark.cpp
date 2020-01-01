@@ -2926,7 +2926,7 @@ script
 )
 ;
 void
-MarkThingOrValue
+MarkThingOrValueUnbarriered
 (
 JSTracer
 *
