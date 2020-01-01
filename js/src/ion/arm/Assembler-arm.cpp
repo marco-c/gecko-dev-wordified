@@ -2450,6 +2450,7 @@ uint8
 *
 off_
 )
+const
 {
 return
 (
@@ -2477,6 +2478,7 @@ actualOffset
 BufferOffset
 off_
 )
+const
 {
 return
 BufferOffset
@@ -3722,7 +3724,7 @@ X86
 /
 Since
 ARM
-have
+has
 competent
 pools
 this
