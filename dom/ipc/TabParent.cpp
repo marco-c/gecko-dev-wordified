@@ -2588,6 +2588,10 @@ const
 nsString
 &
 aType
+const
+nsString
+&
+aAction
 )
 {
 nsCOMPtr
@@ -2647,6 +2651,15 @@ mHTMLInputType
 Assign
 (
 aType
+)
+;
+context
+.
+mActionHint
+.
+Assign
+(
+aAction
 )
 ;
 widget2

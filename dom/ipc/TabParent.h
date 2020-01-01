@@ -795,6 +795,10 @@ const
 nsString
 &
 aType
+const
+nsString
+&
+aAction
 )
 ;
 virtual
