@@ -799,7 +799,7 @@ typedef
 PLDHashOperator
 (
 *
-GlobalNameEnumerator
+NameEnumerator
 )
 (
 const
@@ -814,7 +814,17 @@ aClosure
 void
 EnumerateGlobalNames
 (
-GlobalNameEnumerator
+NameEnumerator
+aEnumerator
+void
+*
+aClosure
+)
+;
+void
+EnumerateNavigatorNames
+(
+NameEnumerator
 aEnumerator
 void
 *
