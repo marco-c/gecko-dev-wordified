@@ -7510,7 +7510,7 @@ CommandUpdater
 doCommand
 (
 "
-cmd_back
+cmd_forward
 "
 )
 ;
@@ -7526,7 +7526,7 @@ CommandUpdater
 doCommand
 (
 "
-cmd_forward
+cmd_back
 "
 )
 ;
