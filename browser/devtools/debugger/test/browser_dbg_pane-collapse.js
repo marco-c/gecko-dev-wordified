@@ -763,7 +763,7 @@ testPaneCollapse2
 )
 {
 let
-variables
+variablesAndExpressions
 =
 gDebugger
 .
@@ -773,6 +773,8 @@ getElementById
 (
 "
 variables
++
+expressions
 "
 )
 ;
@@ -797,7 +799,7 @@ width
 =
 parseInt
 (
-variables
+variablesAndExpressions
 .
 getAttribute
 (
@@ -818,6 +820,8 @@ variablesWidth
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -829,7 +833,7 @@ width
 ;
 is
 (
-variables
+variablesAndExpressions
 .
 style
 .
@@ -840,6 +844,8 @@ marginRight
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -853,7 +859,7 @@ margin
 ok
 (
 !
-variables
+variablesAndExpressions
 .
 hasAttribute
 (
@@ -864,6 +870,8 @@ animated
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -888,6 +896,8 @@ panesHidden
 "
 The
 variables
+and
+expressions
 pane
 should
 at
@@ -995,6 +1005,8 @@ variablesWidth
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -1008,7 +1020,7 @@ collapsing
 ;
 is
 (
-variables
+variablesAndExpressions
 .
 style
 .
@@ -1017,6 +1029,8 @@ margin
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -1031,7 +1045,7 @@ collapsing
 ;
 ok
 (
-variables
+variablesAndExpressions
 .
 hasAttribute
 (
@@ -1042,6 +1056,8 @@ animated
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -1068,6 +1084,8 @@ panesHidden
 "
 The
 variables
+and
+expressions
 pane
 should
 not
@@ -1161,6 +1179,8 @@ variablesWidth
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -1174,7 +1194,7 @@ uncollapsing
 ;
 is
 (
-variables
+variablesAndExpressions
 .
 style
 .
@@ -1185,6 +1205,8 @@ marginRight
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -1200,7 +1222,7 @@ uncollapsing
 ok
 (
 !
-variables
+variablesAndExpressions
 .
 hasAttribute
 (
@@ -1211,6 +1233,8 @@ animated
 "
 The
 variables
+and
+expressions
 pane
 has
 an
@@ -1238,6 +1262,8 @@ panesHidden
 "
 The
 variables
+and
+expressions
 pane
 should
 be
@@ -1273,7 +1299,7 @@ breakpoints
 )
 ;
 let
-variables
+variablesAndExpressions
 =
 gDebugger
 .
@@ -1283,6 +1309,8 @@ getElementById
 (
 "
 variables
++
+expressions
 "
 )
 ;
