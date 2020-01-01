@@ -96,21 +96,17 @@ c
 v
 1
 .
-74
-.
-2
-.
-1
+76
 2012
 /
 12
 /
 12
-16
+19
 :
-38
+29
 :
-39
+40
 wtc
 %
 google
@@ -788,6 +784,7 @@ static
 PRBool
 wantOcspTrace
 (
+void
 )
 {
 static
@@ -2814,6 +2811,7 @@ static
 PRBool
 ocsp_IsCacheDisabled
 (
+void
 )
 {
 /
@@ -3290,6 +3288,7 @@ monitor
 SECStatus
 CERT_ClearOCSPCache
 (
+void
 )
 {
 OCSP_TRACE
@@ -4911,6 +4910,7 @@ SEC_HttpClientFcn
 *
 SEC_GetRegisteredHttpClient
 (
+void
 )
 {
 const
@@ -10250,6 +10250,7 @@ CERTOCSPRequest
 *
 ocsp_prepareEmptyOCSPRequest
 (
+void
 )
 {
 PRArenaPool
@@ -25462,6 +25463,7 @@ rv
 PRBool
 ocsp_FetchingFailureIsVerificationFailure
 (
+void
 )
 {
 PRBool
