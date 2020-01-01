@@ -3223,10 +3223,12 @@ NS_TEXT_EVENT
 if
 (
 !
-NS_IS_TRUSTED_EVENT
-(
 aEvent
-)
+-
+>
+mFlags
+.
+mIsTrusted
 |
 |
 (

@@ -5678,10 +5678,12 @@ NS_EVENT_FLAG_SYSTEM_EVENT
 &
 &
 (
-NS_IS_TRUSTED_EVENT
-(
 aEvent
-)
+-
+>
+mFlags
+.
+mIsTrusted
 |
 |
 ls

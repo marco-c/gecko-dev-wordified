@@ -7077,10 +7077,12 @@ isTrusted
 =
 aEvent
 ?
-NS_IS_TRUSTED_EVENT
-(
 aEvent
-)
+-
+>
+mFlags
+.
+mIsTrusted
 :
 nsContentUtils
 :

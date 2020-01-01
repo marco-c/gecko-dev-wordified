@@ -7631,12 +7631,14 @@ nsContentUtils
 DispatchXULCommand
 (
 commandContent
-NS_IS_TRUSTED_EVENT
-(
 aVisitor
 .
 mEvent
-)
+-
+>
+mFlags
+.
+mIsTrusted
 aVisitor
 .
 mDOMEvent
