@@ -873,9 +873,10 @@ className
 =
 classNameBuff
 ;
-sprintf
+PR_snprintf
 (
 className
+128
 "
 Unknown
 (
@@ -1396,7 +1397,7 @@ plContext
 50
 *
 /
-pkix_DefaultCRLCheckerState_RegisterSelf
+pkix_CrlChecker_RegisterSelf
 (
 plContext
 )
@@ -1412,11 +1413,6 @@ plContext
 )
 ;
 pkix_NameConstraintsCheckerState_RegisterSelf
-(
-plContext
-)
-;
-pkix_DefaultRevocationChecker_RegisterSelf
 (
 plContext
 )
@@ -1498,7 +1494,7 @@ pkix_VerifyNode_RegisterSelf
 plContext
 )
 ;
-pkix_pl_EkuChecker_RegisterSelf
+pkix_EkuChecker_RegisterSelf
 (
 plContext
 )
