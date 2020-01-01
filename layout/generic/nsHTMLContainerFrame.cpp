@@ -2014,6 +2014,7 @@ AppUnitsPerDevPixel
 )
 thebesCtx
 mVisibleRect
+nsnull
 )
 ;
 if
