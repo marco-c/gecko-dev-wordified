@@ -4756,6 +4756,7 @@ color
 GtkStyleContext
 *
 style
+;
 GtkWidgetPath
 *
 path
@@ -4881,7 +4882,7 @@ color
 ;
 sMozFieldBackground
 =
-GDK_RGBA_TO_NS_RGB
+GDK_RGBA_TO_NS_RGBA
 (
 color
 )

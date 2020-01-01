@@ -21048,6 +21048,12 @@ if
 eventWidget
 )
 {
+#
+if
+defined
+(
+MOZ_WIDGET_GTK2
+)
 /
 /
 Don
@@ -21068,6 +21074,8 @@ eventWidget
 GTK_HAS_SHAPE_MASK
 )
 ;
+#
+endif
 /
 /
 These
