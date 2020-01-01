@@ -1699,13 +1699,12 @@ Notifies
 the
 element
 that
-metadata
-loading
+decoding
 has
 failed
 .
 void
-MediaErrorDecode
+DecodeError
 (
 )
 ;
