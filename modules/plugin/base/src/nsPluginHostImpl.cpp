@@ -33373,7 +33373,7 @@ nsGetFactory
 (
 nsFactoryProc
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 pluginTag
 -
@@ -33391,7 +33391,7 @@ nsGetFactory
 (
 nsFactoryProc
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 pluginTag
 -
@@ -35017,7 +35017,7 @@ pf
 (
 NP_GETMIMEDESCRIPTION
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 library
 "
