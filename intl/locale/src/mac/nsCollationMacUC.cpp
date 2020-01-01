@@ -515,9 +515,14 @@ if
 mHasCollator
 )
 {
+#
+ifdef
+DEBUG
 OSStatus
 err
 =
+#
+endif
 :
 :
 UCDisposeCollator
