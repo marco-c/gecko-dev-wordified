@@ -1645,8 +1645,11 @@ as
 a
 File
 object
+or
 /
 /
+Blob
+object
 an
 nsIFile
 or
@@ -1661,9 +1664,9 @@ file
 ;
 nsCOMPtr
 <
-nsIDOMFile
+nsIDOMBlob
 >
-domFile
+blob
 ;
 if
 (
@@ -1754,7 +1757,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-domFile
+blob
 =
 do_QueryInterface
 (
@@ -1771,7 +1774,7 @@ supports
 if
 (
 !
-domFile
+blob
 &
 &
 !
@@ -1924,7 +1927,7 @@ mName
 )
 ;
 }
-domFile
+blob
 =
 new
 nsDOMFileFile
@@ -1948,7 +1951,7 @@ IsEmpty
 )
 )
 {
-domFile
+blob
 -
 >
 GetType
@@ -1964,7 +1967,7 @@ blobSet
 .
 AppendBlob
 (
-domFile
+blob
 )
 ;
 mBlobs
