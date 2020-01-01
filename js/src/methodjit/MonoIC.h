@@ -869,6 +869,11 @@ dataConst
 :
 1
 ;
+bool
+usePropertyCache
+:
+1
+;
 }
 name
 ;
