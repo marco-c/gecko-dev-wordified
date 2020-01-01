@@ -550,6 +550,9 @@ args
 blankOutput
 :
 true
+completed
+:
+false
 }
 )
 ;
@@ -623,6 +626,9 @@ Call
 logging
 started
 /
+completed
+:
+false
 }
 )
 ;

@@ -1340,7 +1340,7 @@ toolboxWasOpen
 !
 gDevTools
 .
-getToolboxForTarget
+getToolbox
 (
 target
 )
@@ -1934,7 +1934,7 @@ isToolboxOpen
 !
 gDevTools
 .
-getToolboxForTarget
+getToolbox
 (
 target
 )
