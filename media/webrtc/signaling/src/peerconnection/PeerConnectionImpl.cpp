@@ -4512,6 +4512,10 @@ PC_AUTO_ENTER_API_CALL_NO_CHECK
 CSFLogDebug
 (
 logTag
+"
+%
+s
+"
 __FUNCTION__
 )
 ;
@@ -4571,6 +4575,10 @@ PC_AUTO_ENTER_API_CALL_NO_CHECK
 CSFLogDebug
 (
 logTag
+"
+%
+s
+"
 __FUNCTION__
 )
 ;
@@ -6839,6 +6847,10 @@ aIsSynchronous
 CSFLogDebug
 (
 logTag
+"
+%
+s
+"
 __FUNCTION__
 )
 ;
@@ -7759,6 +7771,10 @@ false
 CSFLogDebug
 (
 logTag
+"
+%
+s
+"
 __FUNCTION__
 )
 ;

@@ -1886,9 +1886,9 @@ DEB_L_C_F_PREFIX
 found
 ringing
 call
-.
-\
-n
+gcid
+%
+s
 "
 DEB_L_C_F_PREFIX_ARGS
 (

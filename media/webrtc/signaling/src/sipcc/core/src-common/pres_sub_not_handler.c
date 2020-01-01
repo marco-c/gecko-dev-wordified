@@ -5036,6 +5036,9 @@ BLF_ERROR
 "
 MSC
 :
+%
+s
+:
 Error
 parsing
 presentity_url
@@ -5999,6 +6002,9 @@ BLF_ERROR
 (
 "
 MSC
+:
+%
+s
 :
 Error
 parsing
