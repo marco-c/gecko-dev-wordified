@@ -505,13 +505,6 @@ h
 #
 include
 "
-nsWindowAPI
-.
-h
-"
-#
-include
-"
 nsUXThemeData
 .
 h
