@@ -427,6 +427,8 @@ setBoolPref
 extensions
 .
 checkCompatibility
+.
+2
 "
 false
 )

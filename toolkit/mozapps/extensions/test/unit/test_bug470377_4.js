@@ -409,6 +409,8 @@ XPCShell
 "
 "
 2
+.
+1a4
 "
 "
 2
@@ -800,6 +802,10 @@ setBoolPref
 extensions
 .
 checkCompatibility
+.
+2
+.
+1a
 "
 false
 )
@@ -1016,6 +1022,10 @@ setBoolPref
 extensions
 .
 checkCompatibility
+.
+2
+.
+1a
 "
 true
 )
