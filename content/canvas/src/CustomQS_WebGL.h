@@ -2688,6 +2688,9 @@ js_width
 js_height
 js_data
 ;
+if
+(
+!
 JS_GetProperty
 (
 cx
@@ -2698,7 +2701,9 @@ width
 &
 js_width
 )
-;
+|
+|
+!
 JS_GetProperty
 (
 cx
@@ -2709,7 +2714,9 @@ height
 &
 js_height
 )
-;
+|
+|
+!
 JS_GetProperty
 (
 cx
@@ -2720,7 +2727,12 @@ data
 &
 js_data
 )
+)
+{
+return
+false
 ;
+}
 if
 (
 js_width
