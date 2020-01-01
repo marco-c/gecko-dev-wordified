@@ -186,6 +186,9 @@ CompositorParent
 class
 GestureEventListener
 ;
+class
+ContainerLayer
+;
 /
 *
 *
@@ -1135,11 +1138,7 @@ const
 TimeStamp
 &
 aSampleTime
-const
-FrameMetrics
-&
-aFrame
-Layer
+ContainerLayer
 *
 aLayer
 gfx3DMatrix
