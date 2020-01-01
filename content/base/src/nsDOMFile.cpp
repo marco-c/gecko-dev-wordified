@@ -3912,7 +3912,6 @@ NS_IMPL_ISUPPORTS1
 nsDOMMemoryFileDataOwnerMemoryReporter
 nsIMemoryMultiReporter
 )
-;
 /
 *
 static

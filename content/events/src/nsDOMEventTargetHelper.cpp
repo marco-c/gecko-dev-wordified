@@ -414,7 +414,6 @@ NS_IMPL_DOMTARGET_DEFAULTS
 (
 nsDOMEventTargetHelper
 )
-;
 nsDOMEventTargetHelper
 :
 :
