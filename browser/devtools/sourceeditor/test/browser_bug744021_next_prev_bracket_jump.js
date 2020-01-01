@@ -466,6 +466,9 @@ synthesizeKey
 accelKey
 :
 true
+shiftKey
+:
+true
 }
 testWin
 )
@@ -506,6 +509,9 @@ synthesizeKey
 accelKey
 :
 true
+shiftKey
+:
+true
 }
 testWin
 )
@@ -541,6 +547,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+shiftKey
 :
 true
 }
@@ -677,6 +686,9 @@ synthesizeKey
 accelKey
 :
 true
+shiftKey
+:
+true
 }
 testWin
 )
@@ -715,6 +727,9 @@ synthesizeKey
 accelKey
 :
 true
+shiftKey
+:
+true
 }
 testWin
 )
@@ -750,6 +765,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+shiftKey
 :
 true
 }
