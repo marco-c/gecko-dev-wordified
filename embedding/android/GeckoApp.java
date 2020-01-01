@@ -1823,7 +1823,7 @@ devices
 with
 less
 than
-256Mb
+512Mb
 of
 RAM
 warn
@@ -1952,7 +1952,7 @@ totalMem
 )
 <
 =
-262144L
+524288L
 ;
 }
 catch
