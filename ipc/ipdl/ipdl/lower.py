@@ -26720,9 +26720,25 @@ actorvar
 [
 StmtExpr
 (
-ExprDelete
+ExprCall
 (
+_deallocMethod
+(
+md
+.
+decl
+.
+type
+.
+constructedType
+(
+)
+)
+args
+=
+[
 actorvar
+]
 )
 )
                 
