@@ -1313,7 +1313,7 @@ x
 {
 if
 (
-MOZ_DOUBLE_IS_NEGZERO
+IsNegativeZero
 (
 y
 )
