@@ -415,6 +415,13 @@ nullptr
 nullptr
 )
 ;
+mDataChannel
+-
+>
+Close
+(
+)
+;
 }
 nsresult
 Init
