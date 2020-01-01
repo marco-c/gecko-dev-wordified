@@ -27202,11 +27202,6 @@ const
 nsACString
 &
 sandboxName
-nsISupports
-*
-identityPtr
-=
-nsnull
 )
 ;
 /
