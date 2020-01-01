@@ -2881,7 +2881,7 @@ UTF
 STREAM_SEGMENT_SIZE
 Ci
 .
-nsIConverterOutputStream
+nsIConverterInputStream
 .
 DEFAULT_REPLACEMENT_CHARACTER
 )
