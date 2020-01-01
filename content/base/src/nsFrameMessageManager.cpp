@@ -3554,6 +3554,10 @@ mGlobal
 |
 !
 mCx
+|
+|
+!
+sCachedScripts
 )
 {
 return
