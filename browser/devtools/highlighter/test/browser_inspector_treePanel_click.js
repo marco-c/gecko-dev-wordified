@@ -169,8 +169,6 @@ obs
 addObserver
 (
 runTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -196,8 +194,6 @@ obs
 removeObserver
 (
 runTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -210,8 +206,6 @@ obs
 addObserver
 (
 testNode1
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 TREEPANELREADY
@@ -256,8 +250,6 @@ obs
 removeObserver
 (
 testNode1
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 TREEPANELREADY
@@ -316,8 +308,6 @@ obs
 addObserver
 (
 testHighlightingNode2
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -354,8 +344,6 @@ obs
 removeObserver
 (
 testHighlightingNode2
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -396,8 +384,6 @@ obs
 addObserver
 (
 finishUp
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -423,8 +409,6 @@ obs
 removeObserver
 (
 finishUp
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED

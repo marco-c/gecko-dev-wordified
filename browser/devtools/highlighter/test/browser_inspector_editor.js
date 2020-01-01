@@ -226,8 +226,6 @@ obs
 addObserver
 (
 setupHTMLPanel
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -253,8 +251,6 @@ obs
 removeObserver
 (
 setupHTMLPanel
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -267,8 +263,6 @@ obs
 addObserver
 (
 runEditorTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 TREEPANELREADY
@@ -296,8 +290,6 @@ obs
 removeObserver
 (
 runEditorTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 TREEPANELREADY
@@ -335,8 +327,6 @@ obs
 addObserver
 (
 doNextStep
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 EDITOR_OPENED
@@ -350,8 +340,6 @@ obs
 addObserver
 (
 doNextStep
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 EDITOR_CLOSED
@@ -365,8 +353,6 @@ obs
 addObserver
 (
 doNextStep
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 EDITOR_SAVED
@@ -1963,8 +1949,6 @@ obs
 removeObserver
 (
 doNextStep
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 EDITOR_OPENED
@@ -1978,8 +1962,6 @@ obs
 removeObserver
 (
 doNextStep
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 EDITOR_CLOSED
@@ -1993,8 +1975,6 @@ obs
 removeObserver
 (
 doNextStep
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 EDITOR_SAVED

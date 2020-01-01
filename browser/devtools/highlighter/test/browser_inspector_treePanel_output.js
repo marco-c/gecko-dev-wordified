@@ -652,8 +652,6 @@ obs
 addObserver
 (
 inspectorOpened
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -679,8 +677,6 @@ obs
 removeObserver
 (
 inspectorOpened
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -693,8 +689,6 @@ obs
 addObserver
 (
 treePanelOpened
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 TREEPANELREADY
@@ -722,8 +716,6 @@ obs
 removeObserver
 (
 treePanelOpened
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 TREEPANELREADY
@@ -961,8 +953,6 @@ obs
 addObserver
 (
 inspectorClosed
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -988,8 +978,6 @@ obs
 removeObserver
 (
 inspectorClosed
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED

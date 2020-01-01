@@ -56,8 +56,6 @@ obs
 addObserver
 (
 runInspectorTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -83,8 +81,6 @@ obs
 removeObserver
 (
 runInspectorTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED

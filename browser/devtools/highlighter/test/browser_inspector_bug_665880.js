@@ -165,8 +165,6 @@ obs
 addObserver
 (
 runObjectInspectionTest
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -192,8 +190,6 @@ obs
 removeObserver
 (
 runObjectInspectionTest
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -212,8 +208,6 @@ obs
 addObserver
 (
 performTestComparison
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -243,8 +237,6 @@ obs
 removeObserver
 (
 performTestComparison
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -270,8 +262,6 @@ obs
 addObserver
 (
 finishUp
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -297,8 +287,6 @@ obs
 removeObserver
 (
 finishUp
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED

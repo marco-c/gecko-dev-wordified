@@ -1183,7 +1183,7 @@ notifyObservers
 null
 this
 .
-IUI
+window
 .
 INSPECTOR_NOTIFICATIONS
 .
@@ -3667,7 +3667,7 @@ notifyObservers
 null
 this
 .
-IUI
+window
 .
 INSPECTOR_NOTIFICATIONS
 .
@@ -4106,7 +4106,7 @@ notifyObservers
 null
 this
 .
-IUI
+window
 .
 INSPECTOR_NOTIFICATIONS
 .
@@ -4229,7 +4229,7 @@ notifyObservers
 null
 this
 .
-IUI
+window
 .
 INSPECTOR_NOTIFICATIONS
 .
