@@ -761,11 +761,10 @@ return
 0
 ;
 }
-static
 struct
 tm
 *
-mozce_gmtime_r
+gmtime_r
 (
 const
 time_t
@@ -999,11 +998,10 @@ return
 retval
 ;
 }
-static
 struct
 tm
 *
-mozce_localtime_r
+localtime_r
 (
 const
 time_t
@@ -1255,7 +1253,7 @@ inTimeT
 )
 {
 return
-mozce_localtime_r
+localtime_r
 (
 inTimeT
 &
@@ -1275,7 +1273,7 @@ inTimeT
 )
 {
 return
-mozce_gmtime_r
+gmtime_r
 (
 inTimeT
 &
@@ -1444,7 +1442,7 @@ be
 /
 gmTime
 =
-mozce_gmtime_r
+gmtime_r
 (
 &
 retval
