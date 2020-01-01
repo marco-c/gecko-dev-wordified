@@ -587,11 +587,8 @@ defined
 ARM_VFP
 )
 #
-if
-defined
-(
+ifdef
 AVMPLUS_ARM
-)
 #
 if
 defined
