@@ -5500,11 +5500,6 @@ mProcessingAttachedStack
 =
 PR_TRUE
 ;
-PRUint32
-currentIndex
-=
-aSkipSize
-;
 /
 /
 Excute

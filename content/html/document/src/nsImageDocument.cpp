@@ -2049,9 +2049,14 @@ GetRootContent
 Create
 synthetic
 document
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 CreateSyntheticDocument
 (
 )

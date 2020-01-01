@@ -10952,9 +10952,14 @@ CurrentState
 fontGroup
 )
 {
+#
+ifdef
+DEBUG
 nsresult
 res
 =
+#
+endif
 SetMozTextStyle
 (
 NS_LITERAL_STRING
