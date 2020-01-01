@@ -49816,7 +49816,7 @@ lineContainer
 =
 aLineLayout
 .
-GetLineContainerFrame
+LineContainerFrame
 (
 )
 ;
@@ -52982,7 +52982,7 @@ presContext
 *
 aLineLayout
 .
-GetLineContainerRS
+LineContainerRS
 (
 )
 provider

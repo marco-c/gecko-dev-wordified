@@ -522,6 +522,18 @@ mLineAtStart
 false
 )
 {
+MOZ_ASSERT
+(
+aOuterReflowState
+"
+aOuterReflowState
+must
+not
+be
+null
+"
+)
+;
 NS_ASSERTION
 (
 aFloatManager
@@ -1181,7 +1193,7 @@ if
 (
 !
 (
-GetLineContainerFrame
+LineContainerFrame
 (
 )
 -
@@ -1236,7 +1248,7 @@ width
 nscoord
 maxLineBoxWidth
 =
-GetLineContainerFrame
+LineContainerFrame
 (
 )
 -
@@ -1304,7 +1316,7 @@ mStyleText
 >
 WhiteSpaceCanWrap
 (
-GetLineContainerFrame
+LineContainerFrame
 (
 )
 )
