@@ -15238,7 +15238,7 @@ if
 !
 :
 :
-JS_GetProperty
+JS_LookupProperty
 (
 cx
 global
@@ -24340,7 +24340,7 @@ if
 !
 :
 :
-JS_GetProperty
+JS_LookupProperty
 (
 cx
 obj
@@ -24383,7 +24383,7 @@ if
 !
 :
 :
-JS_GetProperty
+JS_LookupProperty
 (
 cx
 tmp
