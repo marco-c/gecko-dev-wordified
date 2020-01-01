@@ -5443,7 +5443,6 @@ write
 (
 "
 static
-JS_DLL_CALLBACK
 JSBool
 \
 n
