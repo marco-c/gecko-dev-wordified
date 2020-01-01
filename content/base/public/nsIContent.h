@@ -6103,7 +6103,13 @@ null
 .
 *
 /
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetEditingHost
 (
