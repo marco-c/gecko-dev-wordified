@@ -6426,6 +6426,10 @@ granulepos
 {
 if
 (
+!
+mActive
+|
+|
 granulepos
 <
 0
