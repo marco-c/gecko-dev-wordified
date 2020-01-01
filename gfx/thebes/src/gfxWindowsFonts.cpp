@@ -3288,7 +3288,7 @@ mFontEntries
 ;
 if
 (
-mFonts
+mFontEntries
 .
 Length
 (
