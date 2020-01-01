@@ -1624,6 +1624,10 @@ mFocusRingWidth
 =
 1
 ;
+mBodyTextColor
+=
+mDefaultColor
+;
 if
 (
 aType
@@ -4618,6 +4622,10 @@ focus_ring_style
 "
 mFocusRingStyle
 )
+;
+mBodyTextColor
+=
+mDefaultColor
 ;
 /
 /
