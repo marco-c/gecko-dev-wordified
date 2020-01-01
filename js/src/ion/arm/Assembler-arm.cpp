@@ -10609,7 +10609,7 @@ register
 we
 change
 processor
-mode
+state
 /
 /
 depending
@@ -10635,7 +10635,7 @@ always
 *
 change
 processor
-mode
+state
 .
 BufferOffset
 Assembler
@@ -10689,7 +10689,7 @@ cannot
 change
 the
 processor
-mode
+state
 .
 BufferOffset
 Assembler
