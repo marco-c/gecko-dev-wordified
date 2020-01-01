@@ -3221,6 +3221,16 @@ RUN_ALL_TESTS
 (
 )
 ;
+sipcc
+:
+:
+PeerConnectionCtx
+:
+:
+Destroy
+(
+)
+;
 delete
 test_utils
 ;
