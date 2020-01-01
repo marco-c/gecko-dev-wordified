@@ -7315,6 +7315,11 @@ ins
 break
 ;
 }
+#
+if
+!
+defined
+NANOJIT_64BIT
 case
 LIR_callh
 :
@@ -7374,6 +7379,8 @@ retRegs
 break
 ;
 }
+#
+endif
 case
 LIR_param
 :
@@ -8617,6 +8624,15 @@ break
 case
 LIR_fcall
 :
+#
+if
+defined
+NANOJIT_64BIT
+case
+LIR_callh
+:
+#
+endif
 case
 LIR_call
 :
