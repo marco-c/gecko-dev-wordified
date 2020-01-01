@@ -735,6 +735,17 @@ See
 nsStyleContext
 :
 :
+IsStyleIfVisited
+#
+define
+NS_STYLE_IS_STYLE_IF_VISITED
+0x08000000
+/
+/
+See
+nsStyleContext
+:
+:
 GetPseudoEnum
 #
 define
