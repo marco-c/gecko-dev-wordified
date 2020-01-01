@@ -1512,6 +1512,12 @@ f
 if
 (
 f
+=
+=
+mReferenceFrame
+|
+|
+f
 -
 >
 IsTransformed
