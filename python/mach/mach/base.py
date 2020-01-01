@@ -274,6 +274,22 @@ method
 '
         
 #
+The
+argparse
+subparser
+for
+this
+command
+'
+s
+arguments
+.
+        
+'
+parser
+'
+        
+#
 Arguments
 passed
 to
