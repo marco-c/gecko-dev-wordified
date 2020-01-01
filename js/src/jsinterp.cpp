@@ -2435,7 +2435,6 @@ parameters
 .
 *
 /
-JS_STATIC_INTERPRET
 JSBool
 js_OnUnknownMethod
 (
@@ -8891,7 +8890,6 @@ stackDepth
 .
 *
 /
-JS_STATIC_INTERPRET
 JS_REQUIRES_STACK
 JSBool
 js_UnwindScope
