@@ -11404,10 +11404,11 @@ if
 aPluginInstance
 )
 {
-nsMIMEType
+char
+*
 mime
 =
-NULL
+nsnull
 ;
 if
 (

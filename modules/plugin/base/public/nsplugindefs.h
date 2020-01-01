@@ -983,12 +983,6 @@ RC_INVOKED
 Structures
 and
 definitions
-typedef
-const
-char
-*
-nsMIMEType
-;
 struct
 nsByteRange
 {

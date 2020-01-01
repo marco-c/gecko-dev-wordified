@@ -1920,7 +1920,8 @@ NS_ERROR_FAILURE
 PRBool
 seekable
 ;
-nsMIMEType
+char
+*
 contentType
 ;
 PRUint16
@@ -5264,7 +5265,8 @@ nsIPluginInstanceOwner
 *
 aOwner
 const
-nsMIMEType
+char
+*
 aMIMEType
 )
 {
@@ -5300,7 +5302,8 @@ aMIMEType
 mMIMEType
 =
 (
-nsMIMEType
+char
+*
 )
 PR_Malloc
 (
@@ -5318,10 +5321,6 @@ mMIMEType
 )
 PL_strcpy
 (
-(
-char
-*
-)
 mMIMEType
 aMIMEType
 )
@@ -6347,7 +6346,8 @@ compatible
 nsPluginMode
 mode
 ;
-nsMIMEType
+char
+*
 mimetype
 ;
 NPError
@@ -7404,7 +7404,9 @@ nsNPAPIPluginInstance
 :
 NewStreamFromPlugin
 (
-nsMIMEType
+const
+char
+*
 type
 const
 char
@@ -10053,7 +10055,8 @@ nsNPAPIPluginInstance
 :
 GetMIMEType
 (
-nsMIMEType
+char
+*
 *
 result
 )
