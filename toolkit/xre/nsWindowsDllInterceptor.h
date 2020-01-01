@@ -619,7 +619,7 @@ return
 ;
 mModule
 =
-LoadLibraryEx
+LoadLibraryExA
 (
 modulename
 NULL
