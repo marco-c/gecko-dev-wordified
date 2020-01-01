@@ -596,7 +596,9 @@ browser
 =
 win
 .
-gBrowser
+getBrowser
+(
+)
 ;
 browser
 .
@@ -997,7 +999,9 @@ browser
 =
 win
 .
-gBrowser
+getBrowser
+(
+)
 ;
 browser
 .
@@ -1216,7 +1220,9 @@ browser
 =
 win
 .
-gBrowser
+getBrowser
+(
+)
 ;
 browser
 .
