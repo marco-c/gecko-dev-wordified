@@ -5289,8 +5289,11 @@ placesNode
 .
 uri
 aEvent
-false
+{
+ignoreAlt
+:
 true
+}
 )
 ;
 }
