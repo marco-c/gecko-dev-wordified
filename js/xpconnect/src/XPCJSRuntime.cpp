@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsCycleCollectionNoteRootCallback
+.
+h
+"
+#
+include
+"
 nsCycleCollectorUtils
 .
 h
@@ -2638,7 +2645,7 @@ Closure
 bool
 cycleCollectionEnabled
 ;
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 *
 cb
 ;
@@ -2792,7 +2799,7 @@ SuspectWrappedNative
 XPCWrappedNative
 *
 wrapper
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )
@@ -3119,7 +3126,7 @@ XPCJSRuntime
 :
 AddXPConnectRoots
 (
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )

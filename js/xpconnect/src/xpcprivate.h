@@ -4142,7 +4142,7 @@ virtual
 nsresult
 BeginCycleCollection
 (
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )
@@ -5566,7 +5566,7 @@ trc
 void
 AddXPConnectRoots
 (
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )
@@ -5708,7 +5708,7 @@ SuspectWrappedNative
 XPCWrappedNative
 *
 wrapper
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )
@@ -10293,7 +10293,7 @@ SuspectAllWrappers
 XPCJSRuntime
 *
 rt
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )

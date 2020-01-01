@@ -124,7 +124,7 @@ class
 nsCycleCollectionParticipant
 ;
 class
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 ;
 /
 /
@@ -146,7 +146,7 @@ virtual
 nsresult
 BeginCycleCollection
 (
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 aCb
 )
