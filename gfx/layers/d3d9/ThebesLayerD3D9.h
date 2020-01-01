@@ -574,6 +574,9 @@ gfxASurface
 >
 mD2DSurface
 ;
+bool
+mD2DSurfaceInitialized
+;
 /
 *
 Have

@@ -21950,11 +21950,6 @@ newSurf
 solidColorBrush
 )
 ;
-_d2d_clear_surface
-(
-newSurf
-)
-;
 newSurf
 -
 >

@@ -670,6 +670,10 @@ LayerD3D9
 (
 aManager
 )
+mD2DSurfaceInitialized
+(
+false
+)
 {
 mImplData
 =
@@ -2098,6 +2102,10 @@ Clip
 ;
 if
 (
+!
+mD2DSurfaceInitialized
+|
+|
 mD2DSurface
 -
 >
@@ -2140,6 +2148,10 @@ gfxContext
 :
 OPERATOR_OVER
 )
+;
+mD2DSurfaceInitialized
+=
+true
 ;
 }
 LayerManagerD3D9
@@ -2937,6 +2949,10 @@ mTexture
 &
 sharedHandle
 )
+;
+mD2DSurfaceInitialized
+=
+false
 ;
 mD2DSurface
 =
