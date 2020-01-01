@@ -1187,6 +1187,17 @@ s
 n
 "
 "
+Math
+.
+sin
+(
+value
+)
+;
+\
+n
+"
+"
 return
 let
 (

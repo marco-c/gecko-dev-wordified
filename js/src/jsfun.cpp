@@ -4510,9 +4510,8 @@ localNames
 if
 (
 !
-GetOrderedBindings
+FillBindingVector
 (
-cx
 script
 -
 >
@@ -4610,6 +4609,8 @@ i
 ]
 .
 name
+(
+)
 )
 )
 {
