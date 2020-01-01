@@ -20738,9 +20738,6 @@ NETWORK_TYPE_MOBILE_OTHERS
 name
 :
 null
-dhcp
-:
-false
 ip
 :
 null
