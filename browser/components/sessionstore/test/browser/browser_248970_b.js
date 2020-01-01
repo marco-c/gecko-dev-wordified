@@ -1370,6 +1370,7 @@ tab
 (
 A
 )
+let
 tab_A
 =
 gBrowser
@@ -1704,6 +1705,7 @@ tab
 (
 B
 )
+let
 tab_B
 =
 gBrowser

@@ -743,8 +743,9 @@ close
 (
 )
 ;
-callback
+executeSoon
 (
+callback
 )
 ;
 }
