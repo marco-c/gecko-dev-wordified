@@ -3247,11 +3247,9 @@ WebGLenum
 format
 WebGLenum
 type
-void
+JSObject
 *
-data
-PRUint32
-byteLength
+pixels
 )
 ;
 nsresult
