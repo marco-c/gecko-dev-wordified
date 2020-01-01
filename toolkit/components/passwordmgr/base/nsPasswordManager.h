@@ -554,9 +554,6 @@ class
 nsIComponentManager
 ;
 class
-nsIContent
-;
-class
 nsIDOMWindowInternal
 ;
 class
@@ -762,9 +759,9 @@ nsIFormSubmitObserver
 NS_IMETHOD
 Notify
 (
-nsIContent
+nsIDOMHTMLFormElement
 *
-aFormNode
+aDOMForm
 nsIDOMWindowInternal
 *
 aWindow

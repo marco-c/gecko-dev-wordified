@@ -504,6 +504,13 @@ h
 #
 include
 "
+nsIDOMHTMLFormElement
+.
+h
+"
+#
+include
+"
 nsIStringBundle
 .
 h
@@ -638,7 +645,7 @@ NS_DECL_NSISSLSTATUSPROVIDER
 NS_IMETHOD
 Notify
 (
-nsIContent
+nsIDOMHTMLFormElement
 *
 formNode
 nsIDOMWindowInternal

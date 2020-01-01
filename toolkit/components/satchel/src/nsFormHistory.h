@@ -503,9 +503,9 @@ nsIFormSubmitObserver
 NS_IMETHOD
 Notify
 (
-nsIContent
+nsIDOMHTMLFormElement
 *
-formNode
+formElt
 nsIDOMWindowInternal
 *
 window

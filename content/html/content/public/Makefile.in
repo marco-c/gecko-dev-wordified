@@ -428,6 +428,10 @@ nsISelectElement
 .
 idl
 \
+nsIFormSubmitObserver
+.
+idl
+\
 nsIPhonetic
 .
 idl
@@ -447,10 +451,6 @@ nsIForm
 h
 \
 nsIFormProcessor
-.
-h
-\
-nsIFormSubmitObserver
 .
 h
 \
