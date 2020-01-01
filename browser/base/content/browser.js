@@ -49252,10 +49252,6 @@ privateWindow
 return
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
-.
 docShell
 .
 QueryInterface
