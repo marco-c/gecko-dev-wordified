@@ -48,6 +48,7 @@ setBounds
 function
 (
 rect
+immediately
 )
 /
 /
@@ -67,6 +68,7 @@ function
 (
 width
 height
+immediately
 )
 /
 /
