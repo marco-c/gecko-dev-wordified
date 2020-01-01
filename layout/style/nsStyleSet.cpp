@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsIDocumentInlines
+nsIDocument
 .
 h
 "

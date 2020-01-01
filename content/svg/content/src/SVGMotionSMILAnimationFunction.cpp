@@ -145,11 +145,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGPathElement
+nsSVGPathElement
 .
 h
 "
@@ -160,10 +156,6 @@ nsSVGPathList
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGMPathElement
 .
 h
@@ -1487,7 +1479,7 @@ mpath
 >
 child
 .
-SVGPathElement
+nsSVGPathElement
 *
 pathElem
 =

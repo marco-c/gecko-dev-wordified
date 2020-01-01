@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsSVGPathElement
+.
+h
+"
+#
+include
+"
 prdtoa
 .
 h

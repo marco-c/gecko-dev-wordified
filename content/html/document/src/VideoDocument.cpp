@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIDocumentInlines
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h
