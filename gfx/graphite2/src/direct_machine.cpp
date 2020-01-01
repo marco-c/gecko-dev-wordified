@@ -741,16 +741,6 @@ program
 0
 )
 ;
-/
-/
-assert
-(
-_status
-=
-=
-finished
-)
-;
 const
 stack_t
 *

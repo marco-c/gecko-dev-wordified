@@ -712,16 +712,6 @@ program
 ;
 /
 /
-assert
-(
-_status
-=
-=
-finished
-)
-;
-/
-/
 Declare
 virtual
 machine
