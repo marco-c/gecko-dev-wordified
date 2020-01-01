@@ -15628,11 +15628,16 @@ nsHTMLMediaElement
 :
 DownloadResumed
 (
+bool
+aForceNetworkLoading
 )
 {
 if
 (
 mBegun
+|
+|
+aForceNetworkLoading
 )
 {
 mNetworkState
