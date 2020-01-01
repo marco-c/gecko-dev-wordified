@@ -5365,7 +5365,7 @@ type
 :
 Ci
 .
-nsIAnnotationsService
+nsIAnnotationService
 .
 TYPE_INT32
 flags
