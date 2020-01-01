@@ -10224,8 +10224,9 @@ doBack
 )
 )
 {
-finish
+moveTaskToBack
 (
+true
 )
 ;
 }
