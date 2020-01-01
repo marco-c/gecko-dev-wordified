@@ -4238,31 +4238,15 @@ except
         
 print
 "
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-%
-s
-|
+Automation
+Error
+:
 Exception
 caught
 while
 running
 tests
-.
 "
-%
-sys
-.
-exc_info
-(
-)
-[
-1
-]
         
 traceback
 .
