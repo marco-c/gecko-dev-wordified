@@ -2111,13 +2111,11 @@ mSerializer
 >
 AppendElementEnd
 (
-static_cast
-<
-nsIContent
-*
->
-(
 aNode
+-
+>
+AsElement
+(
 )
 aStr
 )
