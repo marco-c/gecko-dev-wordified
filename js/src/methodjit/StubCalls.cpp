@@ -657,9 +657,6 @@ JSC
 ;
 void
 JS_FASTCALL
-mjit
-:
-:
 stubs
 :
 :
@@ -823,9 +820,6 @@ obj
 JSObject
 *
 JS_FASTCALL
-mjit
-:
-:
 stubs
 :
 :
@@ -854,9 +848,6 @@ getGlobal
 }
 void
 JS_FASTCALL
-mjit
-:
-:
 stubs
 :
 :
