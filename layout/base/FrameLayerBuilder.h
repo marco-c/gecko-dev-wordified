@@ -199,6 +199,17 @@ metadata
 only
 .
 LAYER_ACTIVE_EMPTY
+/
+/
+Inactive
+style
+layer
+for
+rendering
+SVG
+effects
+.
+LAYER_SVG_EFFECTS
 }
 ;
 class
