@@ -218,6 +218,7 @@ private
 .
 hh
 "
+HB_BEGIN_DECLS
 /
 *
 *
@@ -416,20 +417,6 @@ set
 tag
 )
 ;
-/
-*
-TODO
-:
-bsearch
-(
-need
-to
-sort
-in
-sanitize
-)
-*
-/
 unsigned
 int
 count
@@ -1537,6 +1524,7 @@ tag
 ;
 }
 ;
+HB_END_DECLS
 #
 endif
 /

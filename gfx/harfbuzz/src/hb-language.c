@@ -215,6 +215,7 @@ language
 .
 h
 "
+HB_BEGIN_DECLS
 static
 const
 char
@@ -844,3 +845,4 @@ char
 language
 ;
 }
+HB_END_DECLS

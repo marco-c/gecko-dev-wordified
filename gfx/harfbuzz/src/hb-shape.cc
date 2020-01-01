@@ -251,6 +251,7 @@ h
 "
 #
 endif
+HB_BEGIN_DECLS
 void
 hb_shape
 (
@@ -334,3 +335,4 @@ num_features
 )
 ;
 }
+HB_END_DECLS

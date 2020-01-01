@@ -257,7 +257,7 @@ font
 -
 private
 .
-hh
+h
 "
 #
 include
@@ -273,6 +273,7 @@ include
 <
 map
 >
+HB_BEGIN_DECLS
 namespace
 TtfUtil
 {
@@ -2453,3 +2454,4 @@ delete
 flags
 ;
 }
+HB_END_DECLS
