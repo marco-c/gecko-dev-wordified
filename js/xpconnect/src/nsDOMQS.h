@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsHTMLDivElement
+.
+h
+"
+#
+include
+"
 nsHTMLImageElement
 .
 h
@@ -901,6 +908,11 @@ DEFINE_UNWRAP_CAST_HTML
 (
 canvas
 nsHTMLCanvasElement
+)
+DEFINE_UNWRAP_CAST_HTML
+(
+div
+nsHTMLDivElement
 )
 DEFINE_UNWRAP_CAST_HTML
 (
