@@ -575,7 +575,7 @@ error
 define
 TRACE_TRIGGER_MASK
 0x3f
-jsval
+void
 js_CallRecorder
 (
 JSContext
@@ -592,7 +592,7 @@ jsval
 argv
 )
 ;
-jsval
+void
 js_CallRecorder
 (
 JSContext
@@ -606,7 +606,7 @@ jsval
 a
 )
 ;
-jsval
+void
 js_CallRecorder
 (
 JSContext
