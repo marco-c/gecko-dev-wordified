@@ -7577,7 +7577,7 @@ surfaceSize
 width
 !
 =
-round
+NS_round
 (
 aSize
 .
@@ -7590,7 +7590,7 @@ surfaceSize
 height
 !
 =
-round
+NS_round
 (
 aSize
 .
