@@ -6805,11 +6805,6 @@ nsIMemoryMultiReporter
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 FontCacheMallocSizeOf
-"
-font
--
-cache
-"
 )
 NS_IMETHODIMP
 gfxFontCache

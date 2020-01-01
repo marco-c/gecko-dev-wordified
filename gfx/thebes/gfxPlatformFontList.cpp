@@ -455,11 +455,6 @@ nsIMemoryMultiReporter
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 FontListMallocSizeOf
-"
-font
--
-list
-"
 )
 NS_IMETHODIMP
 gfxPlatformFontList

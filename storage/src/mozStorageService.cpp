@@ -3179,14 +3179,11 @@ accounting
 .
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_ON_ALLOC_FUN
 (
-sqliteMallocSizeOfOnAlloc
-"
-sqlite
-"
+SqliteMallocSizeOfOnAlloc
 )
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_ON_FREE_FUN
 (
-sqliteMallocSizeOfOnFree
+SqliteMallocSizeOfOnFree
 )
 #
 endif
@@ -3213,7 +3210,7 @@ n
 #
 ifdef
 MOZ_DMD
-sqliteMallocSizeOfOnAlloc
+SqliteMallocSizeOfOnAlloc
 (
 p
 )
@@ -3236,7 +3233,7 @@ p
 #
 ifdef
 MOZ_DMD
-sqliteMallocSizeOfOnFree
+SqliteMallocSizeOfOnFree
 (
 p
 )
@@ -3266,7 +3263,7 @@ n
 #
 ifdef
 MOZ_DMD
-sqliteMallocSizeOfOnFree
+SqliteMallocSizeOfOnFree
 (
 p
 )
@@ -3288,7 +3285,7 @@ if
 pnew
 )
 {
-sqliteMallocSizeOfOnAlloc
+SqliteMallocSizeOfOnAlloc
 (
 pnew
 )
@@ -3303,10 +3300,10 @@ failed
 ;
 undo
 the
-sqliteMallocSizeOfOnFree
+SqliteMallocSizeOfOnFree
 from
 above
-sqliteMallocSizeOfOnAlloc
+SqliteMallocSizeOfOnAlloc
 (
 p
 )

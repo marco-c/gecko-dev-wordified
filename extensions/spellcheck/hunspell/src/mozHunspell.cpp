@@ -710,9 +710,6 @@ gHunspellAllocatedSize
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_ON_ALLOC_FUN
 (
 HunspellMallocSizeOfOnAlloc
-"
-hunspell
-"
 )
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_ON_FREE_FUN
 (

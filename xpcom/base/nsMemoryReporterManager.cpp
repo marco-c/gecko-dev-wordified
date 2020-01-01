@@ -3273,11 +3273,6 @@ HAVE_JEMALLOC_STATS
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 AtomTableMallocSizeOf
-"
-atom
--
-table
-"
 )
 static
 int64_t

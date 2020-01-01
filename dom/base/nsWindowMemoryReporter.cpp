@@ -698,10 +698,7 @@ system
 }
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
-DOMStyleMallocSizeOf
-"
-windows
-"
+WindowsMallocSizeOf
 )
 /
 /
@@ -1128,7 +1125,7 @@ while
 nsWindowSizes
 windowSizes
 (
-DOMStyleMallocSizeOf
+WindowsMallocSizeOf
 )
 ;
 aWindow
