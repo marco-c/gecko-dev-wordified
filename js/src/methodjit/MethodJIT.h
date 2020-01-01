@@ -1086,7 +1086,7 @@ VoidVpStub
 (
 VMFrame
 &
-jsval
+Value
 *
 )
 ;

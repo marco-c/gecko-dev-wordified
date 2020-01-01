@@ -903,6 +903,15 @@ JSOp
 op
 )
 ;
+void
+jsop_globalinc
+(
+JSOp
+op
+uint32
+index
+)
+;
 #
 define
 STUB_CALL_TYPE

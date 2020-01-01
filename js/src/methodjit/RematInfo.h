@@ -564,9 +564,6 @@ register
 *
 /
 PhysLoc_Register
-#
-ifdef
-DEBUG
 /
 *
 Backing
@@ -579,8 +576,6 @@ unknown
 *
 /
 PhysLoc_Invalid
-#
-endif
 }
 ;
 void
@@ -635,15 +630,10 @@ invalidate
 (
 )
 {
-#
-ifdef
-DEBUG
 location_
 =
 PhysLoc_Invalid
 ;
-#
-endif
 }
 void
 setConstant
