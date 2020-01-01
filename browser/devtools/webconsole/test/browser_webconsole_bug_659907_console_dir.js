@@ -325,7 +325,7 @@ text
 "
 location
 :
-Object
+Location
 "
 )
 {
