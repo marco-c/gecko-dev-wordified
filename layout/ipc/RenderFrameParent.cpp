@@ -4389,7 +4389,6 @@ GetLayerBuilder
 GetLeafLayerFor
 (
 aBuilder
-aManager
 aItem
 )
 )

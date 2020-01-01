@@ -6968,7 +6968,6 @@ layerBuilder
 >
 WillEndTransaction
 (
-layerManager
 )
 ;
 bool
@@ -7027,7 +7026,6 @@ layerBuilder
 >
 DidEndTransaction
 (
-layerManager
 )
 ;
 if
