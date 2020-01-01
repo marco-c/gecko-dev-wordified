@@ -1710,6 +1710,10 @@ PStorageParent
 *
 AllocPStorage
 (
+const
+StorageConstructData
+&
+aData
 )
 ;
 virtual

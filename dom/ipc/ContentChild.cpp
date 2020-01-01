@@ -196,7 +196,7 @@ mozilla
 /
 dom
 /
-DOMStorageIPC
+StorageChild
 .
 h
 "
@@ -4176,6 +4176,10 @@ ContentChild
 :
 AllocPStorage
 (
+const
+StorageConstructData
+&
+aData
 )
 {
 NS_NOTREACHED
@@ -4207,13 +4211,13 @@ PStorageChild
 aActor
 )
 {
-DOMStorageDBChild
+StorageChild
 *
 child
 =
 static_cast
 <
-DOMStorageDBChild
+StorageChild
 *
 >
 (
