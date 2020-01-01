@@ -438,13 +438,6 @@ checker
 /
 #
 include
-"
-jsstddef
-.
-h
-"
-#
-include
 <
 stdio
 .

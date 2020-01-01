@@ -451,13 +451,6 @@ Perl
 /
 #
 include
-"
-jsstddef
-.
-h
-"
-#
-include
 <
 stdlib
 .

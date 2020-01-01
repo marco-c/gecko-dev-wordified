@@ -426,13 +426,6 @@ BLOCK
 #
 include
 "
-jsstddef
-.
-h
-"
-#
-include
-"
 jsversion
 .
 h

@@ -433,13 +433,6 @@ code
 *
 /
 #
-include
-"
-jsstddef
-.
-h
-"
-#
 ifdef
 SOLARIS
 #
