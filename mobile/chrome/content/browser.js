@@ -558,6 +558,13 @@ Components
 .
 utils
 ;
+let
+Cr
+=
+Components
+.
+results
+;
 function
 getBrowser
 (
