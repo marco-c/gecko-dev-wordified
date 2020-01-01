@@ -32477,6 +32477,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_AHKLP
+|
+VARIANT_CALC
 nsCSSProps
 :
 :
