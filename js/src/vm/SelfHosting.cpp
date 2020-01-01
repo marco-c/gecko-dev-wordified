@@ -986,7 +986,7 @@ args
 ]
 )
 ;
-ScopedFreePtr
+ScopedJSFreePtr
 <
 char
 >

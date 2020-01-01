@@ -3589,10 +3589,7 @@ address
 return
 false
 ;
-js
-:
-:
-ScopedFreePtr
+ScopedJSFreePtr
 <
 char
 >

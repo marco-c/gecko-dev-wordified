@@ -4693,10 +4693,7 @@ BindingVector
 cx
 )
 ;
-js
-:
-:
-ScopedDeletePtr
+ScopedJSDeletePtr
 <
 BindingVector
 >

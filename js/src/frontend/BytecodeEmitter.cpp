@@ -15391,10 +15391,7 @@ tableLength
 =
 0
 ;
-js
-:
-:
-ScopedFreePtr
+ScopedJSFreePtr
 <
 ParseNode
 *
@@ -16574,7 +16571,7 @@ many
 switches
 .
 *
-ScopedFreePtr
+ScopedJSFreePtr
 takes
 care
 of
