@@ -11684,7 +11684,14 @@ funval
 =
 OBJECT_TO_JSVAL
 (
+static_cast
+<
+JSObject
+*
+>
+(
 aHandler
+)
 )
 ;
 JSAutoRequest
