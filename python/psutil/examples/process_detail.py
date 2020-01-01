@@ -13,8 +13,6 @@ Copyright
 c
 )
 2009
-Jay
-Loden
 Giampaolo
 Rodola
 '
@@ -447,7 +445,7 @@ get
 '
 io_counters
 '
-None
+ACCESS_DENIED
 )
     
 mem
@@ -626,6 +624,20 @@ name
 '
 posix
 '
+and
+pinfo
+[
+'
+uids
+'
+]
+and
+pinfo
+[
+'
+gids
+'
+]
 :
         
 print_
@@ -655,6 +667,24 @@ uids
 '
 ]
 )
+    
+if
+os
+.
+name
+=
+=
+'
+posix
+'
+and
+pinfo
+[
+'
+gids
+'
+]
+:
         
 print_
 (
@@ -683,6 +713,17 @@ gids
 '
 ]
 )
+    
+if
+os
+.
+name
+=
+=
+'
+posix
+'
+:
         
 print_
 (
@@ -760,24 +801,38 @@ pinfo
 cpu_percent
 '
 ]
-                                                 
+                                    
+getattr
+(
 pinfo
 [
 '
 cpu_times
 '
 ]
-.
+'
 user
-                                                 
+'
+'
+?
+'
+)
+                                    
+getattr
+(
 pinfo
 [
 '
 cpu_times
 '
 ]
-.
+'
 system
+'
+'
+?
+'
+)
 )
 )
     
@@ -1118,13 +1173,13 @@ lport
 =
 conn
 .
-local_address
+laddr
             
 if
 not
 conn
 .
-remote_address
+raddr
 :
                 
 rip
@@ -1145,7 +1200,7 @@ rport
 =
 conn
 .
-remote_address
+raddr
             
 print_
 (
