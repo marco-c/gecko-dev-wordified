@@ -3430,6 +3430,11 @@ AddOperation
 JSContext
 *
 cx
+HandleScript
+script
+jsbytecode
+*
+pc
 const
 Value
 &
@@ -3530,6 +3535,8 @@ TypeScript
 MonitorOverflow
 (
 cx
+script
+pc
 )
 ;
 }
@@ -3596,6 +3603,8 @@ TypeScript
 MonitorUnknown
 (
 cx
+script
+pc
 )
 ;
 }
@@ -3840,6 +3849,8 @@ TypeScript
 MonitorString
 (
 cx
+script
+pc
 )
 ;
 res
@@ -3933,6 +3944,8 @@ TypeScript
 MonitorOverflow
 (
 cx
+script
+pc
 )
 ;
 }
@@ -3950,6 +3963,11 @@ SubOperation
 JSContext
 *
 cx
+HandleScript
+script
+jsbytecode
+*
+pc
 HandleValue
 lhs
 HandleValue
@@ -4031,6 +4049,8 @@ TypeScript
 MonitorOverflow
 (
 cx
+script
+pc
 )
 ;
 return
@@ -4045,6 +4065,11 @@ MulOperation
 JSContext
 *
 cx
+HandleScript
+script
+jsbytecode
+*
+pc
 HandleValue
 lhs
 HandleValue
@@ -4126,6 +4151,8 @@ TypeScript
 MonitorOverflow
 (
 cx
+script
+pc
 )
 ;
 return
@@ -4140,6 +4167,11 @@ DivOperation
 JSContext
 *
 cx
+HandleScript
+script
+jsbytecode
+*
+pc
 HandleValue
 lhs
 HandleValue
@@ -4232,6 +4264,8 @@ TypeScript
 MonitorOverflow
 (
 cx
+script
+pc
 )
 ;
 return
@@ -4246,6 +4280,11 @@ ModOperation
 JSContext
 *
 cx
+HandleScript
+script
+jsbytecode
+*
+pc
 HandleValue
 lhs
 HandleValue
@@ -4370,6 +4409,8 @@ TypeScript
 MonitorOverflow
 (
 cx
+script
+pc
 )
 ;
 return
@@ -6291,6 +6332,11 @@ UrshOperation
 JSContext
 *
 cx
+HandleScript
+script
+jsbytecode
+*
+pc
 const
 Value
 &
@@ -6365,6 +6411,8 @@ TypeScript
 MonitorOverflow
 (
 cx
+script
+pc
 )
 ;
 return
