@@ -12081,6 +12081,8 @@ pn_cookie
 level
 (
 )
+uint16
+(
 dn
 -
 >
@@ -12089,6 +12091,7 @@ frameSlot
 )
 +
 depth
+)
 )
 ;
 #
@@ -12913,9 +12916,12 @@ cg
 -
 >
 staticLevel
+uint16
+(
 ALE_INDEX
 (
 ale
+)
 )
 )
 ;
