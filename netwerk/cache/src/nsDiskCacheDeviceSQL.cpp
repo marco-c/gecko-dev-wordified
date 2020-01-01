@@ -4688,7 +4688,6 @@ aSql
 )
 {
 }
-;
 }
 prepared
 [

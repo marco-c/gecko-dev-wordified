@@ -487,7 +487,6 @@ nsEmbedChromeRegistry
 )
 {
 }
-;
 nsresult
 Init
 (

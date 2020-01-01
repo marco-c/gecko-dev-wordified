@@ -516,6 +516,5 @@ nsCCUncollectableMarker
 )
 {
 }
-;
 }
 ;
