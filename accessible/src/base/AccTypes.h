@@ -190,6 +190,7 @@ eHTMLLiType
 eHTMLSelectListType
 eHTMLMediaType
 eHTMLRadioButtonType
+eHTMLRangeType
 eHTMLTableType
 eHTMLTableCellType
 eHTMLTableRowType
