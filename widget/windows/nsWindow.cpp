@@ -23251,6 +23251,9 @@ layerManager
 >
 Initialize
 (
+prefs
+.
+mForceAcceleration
 )
 )
 {
@@ -23311,6 +23314,9 @@ layerManager
 >
 Initialize
 (
+prefs
+.
+mForceAcceleration
 )
 )
 {

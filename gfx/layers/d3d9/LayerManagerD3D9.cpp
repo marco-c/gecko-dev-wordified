@@ -583,6 +583,8 @@ LayerManagerD3D9
 :
 Initialize
 (
+bool
+force
 )
 {
 ScopedGfxFeatureReporter
@@ -592,6 +594,7 @@ reporter
 D3D9
 Layers
 "
+force
 )
 ;
 /
