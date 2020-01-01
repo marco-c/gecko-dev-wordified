@@ -540,8 +540,6 @@ nsPNGEncoder
 (
 )
 ;
-private
-:
 ~
 nsPNGEncoder
 (
