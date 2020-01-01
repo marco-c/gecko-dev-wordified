@@ -560,17 +560,6 @@ MB_OK
 ;
 #
 endif
-#
-ifdef
-MOZ_WIDGET_GTK2
-gtk_init
-(
-0
-0
-)
-;
-#
-endif
 GeckoProcessType
 proctype
 =
