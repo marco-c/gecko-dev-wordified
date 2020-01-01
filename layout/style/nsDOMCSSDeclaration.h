@@ -736,8 +736,17 @@ aAllocate
 ;
 virtual
 nsresult
-DeclarationChanged
+SetCSSDeclaration
 (
+mozilla
+:
+:
+css
+:
+:
+Declaration
+*
+aDecl
 )
 =
 0
@@ -759,7 +768,7 @@ the
 /
 calls
 to
-DeclarationChanged
+SetCSSDeclaration
 and
 the
 style

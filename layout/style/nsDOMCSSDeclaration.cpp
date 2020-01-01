@@ -860,7 +860,7 @@ result
 /
 For
 nsDOMCSSAttributeDeclaration
-DeclarationChanged
+SetCSSDeclaration
 will
 lead
 to
@@ -970,8 +970,9 @@ result
 ;
 }
 return
-DeclarationChanged
+SetCSSDeclaration
 (
+decl
 )
 ;
 }
@@ -1564,7 +1565,7 @@ result
 /
 For
 nsDOMCSSAttributeDeclaration
-DeclarationChanged
+SetCSSDeclaration
 will
 lead
 to
@@ -1676,8 +1677,9 @@ result
 ;
 }
 return
-DeclarationChanged
+SetCSSDeclaration
 (
+decl
 )
 ;
 }
@@ -1726,7 +1728,7 @@ remove
 /
 For
 nsDOMCSSAttributeDeclaration
-DeclarationChanged
+SetCSSDeclaration
 will
 lead
 to
@@ -1804,8 +1806,9 @@ aPropID
 )
 ;
 return
-DeclarationChanged
+SetCSSDeclaration
 (
+decl
 )
 ;
 }
