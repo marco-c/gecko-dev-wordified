@@ -5665,6 +5665,13 @@ aWindow
 )
 ;
 }
+this
+.
+_updateCrashReportURL
+(
+aWindow
+)
+;
 }
 /
 *
