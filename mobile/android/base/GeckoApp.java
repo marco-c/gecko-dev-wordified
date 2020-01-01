@@ -5051,6 +5051,7 @@ GeckoAccessibility
 .
 updateAccessibilitySettings
 (
+this
 )
 ;
 }
@@ -12877,6 +12878,7 @@ GeckoAccessibility
 .
 updateAccessibilitySettings
 (
+this
 )
 ;
 ThreadUtils
