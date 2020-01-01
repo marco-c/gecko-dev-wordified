@@ -463,7 +463,7 @@ private
 static
 final
 String
-LOG_FILE_NAME
+LOG_NAME
 =
 "
 Tabs
@@ -589,7 +589,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Added
 a
@@ -656,7 +656,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Removed
 a
