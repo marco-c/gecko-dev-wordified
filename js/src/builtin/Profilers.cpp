@@ -154,7 +154,7 @@ include
 "
 devtools
 /
-sharkctl
+Instruments
 .
 h
 "
@@ -163,7 +163,7 @@ include
 "
 devtools
 /
-Instruments
+sharkctl
 .
 h
 "
@@ -2276,6 +2276,13 @@ bar
 #
 include
 <
+signal
+.
+h
+>
+#
+include
+<
 sys
 /
 wait
@@ -2286,13 +2293,6 @@ h
 include
 <
 unistd
-.
-h
->
-#
-include
-<
-signal
 .
 h
 >
