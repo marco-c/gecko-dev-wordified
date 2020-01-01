@@ -360,15 +360,11 @@ label
 ;
 label
 .
-setAttribute
-(
-"
-value
-"
+textContent
+=
 child
 .
 label
-)
 ;
 item
 .
