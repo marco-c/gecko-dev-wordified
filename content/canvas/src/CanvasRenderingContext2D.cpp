@@ -4142,6 +4142,15 @@ IsTargetValid
 |
 |
 mForceSoftware
+|
+|
+!
+mTarget
+-
+>
+GetGLContext
+(
+)
 )
 return
 ;
