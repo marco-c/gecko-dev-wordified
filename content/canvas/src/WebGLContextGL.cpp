@@ -1164,7 +1164,10 @@ texture
 =
 LOCAL_GL_TEXTURE0
 +
+PRUint32
+(
 mGLMaxTextureUnits
+)
 )
 {
 return
