@@ -248,6 +248,9 @@ None
 cwd
 =
 None
+timeout
+=
+None
 )
 :
     
@@ -260,6 +263,26 @@ shell
 command
 on
 device
+    
+timeout
+is
+specified
+in
+seconds
+and
+if
+no
+timeout
+is
+given
+    
+we
+will
+run
+until
+the
+script
+returns
     
 returns
 :
