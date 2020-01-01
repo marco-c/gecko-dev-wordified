@@ -1944,7 +1944,7 @@ tabs
 for
 us
 .
-PlacesUtils
+PlacesUIUtils
 .
 openContainerNodeInTabs
 (
