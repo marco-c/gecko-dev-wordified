@@ -1109,8 +1109,7 @@ border
 -
 radius
 :
-100
-%
+10000px
 ;
 color
 :
@@ -2000,8 +1999,7 @@ border
 -
 radius
 :
-100
-%
+10000px
 ;
 padding
 :
@@ -3413,8 +3411,7 @@ border
 -
 radius
 :
-100
-%
+10000px
 ;
 }
 .
@@ -4293,8 +4290,7 @@ border
 -
 radius
 :
-100
-%
+10000px
 ;
 border
 :
@@ -4465,12 +4461,10 @@ border
 -
 radius
 :
-100
-%
+10000px
 0
 0
-100
-%
+10000px
 ;
 }
 .
@@ -4518,10 +4512,8 @@ border
 radius
 :
 0
-100
-%
-100
-%
+10000px
+10000px
 0
 ;
 }
@@ -4641,8 +4633,7 @@ border
 -
 radius
 :
-100
-%
+10000px
 ;
 min
 -
@@ -4873,8 +4864,7 @@ border
 -
 radius
 :
-100
-%
+10000px
 ;
 background
 -
@@ -5190,8 +5180,7 @@ border
 -
 radius
 :
-100
-%
+10000px
 ;
 background
 -
