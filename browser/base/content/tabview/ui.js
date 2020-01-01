@@ -2123,7 +2123,6 @@ style
 marginTop
 =
 "
-22px
 "
 ;
 #
