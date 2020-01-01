@@ -1852,7 +1852,9 @@ that
 fe
 is
 definitely
-a
+an
+int
+or
 double
 .
 It
@@ -1867,11 +1869,13 @@ double
 *
 /
 void
-ensureDouble
+ensureNumber
 (
 FrameEntry
 *
 fe
+bool
+integer
 )
 ;
 /
