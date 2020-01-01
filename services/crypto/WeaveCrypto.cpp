@@ -1319,6 +1319,9 @@ ivParam
 =
 nsnull
 ;
+PRUint32
+maxOutputSize
+;
 char
 keyData
 [
@@ -1612,7 +1615,6 @@ int
 suddenly
 needed
 ?
-PRUint32
 maxOutputSize
 =
 *
@@ -3293,6 +3295,12 @@ keySize
 CK_MECHANISM_TYPE
 keygenMech
 ;
+SECItem
+*
+keydata
+=
+nsnull
+;
 /
 /
 XXX
@@ -3443,8 +3451,6 @@ goto
 keygen_done
 ;
 }
-SECItem
-*
 keydata
 =
 PK11_GetKeyData
@@ -3579,6 +3585,10 @@ CERTSubjectPublicKeyInfo
 pubKeyInfo
 =
 nsnull
+;
+CK_MECHANISM_TYPE
+keyMech
+wrapMech
 ;
 /
 /
@@ -3779,7 +3789,6 @@ the
 key
 type
 .
-CK_MECHANISM_TYPE
 keyMech
 =
 PK11_AlgtagToMechanism
@@ -4000,7 +4009,6 @@ the
 public
 key
 .
-CK_MECHANISM_TYPE
 wrapMech
 =
 PK11_AlgtagToMechanism
@@ -4185,6 +4193,18 @@ nsnull
 SECItem
 *
 ivParam
+=
+nsnull
+;
+SECItem
+*
+symKeyData
+=
+nsnull
+;
+SECItem
+*
+keyID
 =
 nsnull
 ;
@@ -4654,8 +4674,6 @@ that
 will
 suffice
 .
-SECItem
-*
 keyID
 =
 &
@@ -4847,8 +4865,6 @@ to
 free
 this
 ?
-SECItem
-*
 symKeyData
 =
 PK11_GetKeyData
