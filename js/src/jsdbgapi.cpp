@@ -4709,6 +4709,7 @@ JSVAL_IS_INT
 idval
 )
 )
+{
 propid
 =
 INT_JSVAL_TO_JSID
@@ -4716,7 +4717,9 @@ INT_JSVAL_TO_JSID
 idval
 )
 ;
+}
 else
+{
 if
 (
 !
@@ -4731,6 +4734,12 @@ propid
 return
 JS_FALSE
 ;
+CHECK_FOR_STRING_INDEX
+(
+propid
+)
+;
+}
 if
 (
 !
