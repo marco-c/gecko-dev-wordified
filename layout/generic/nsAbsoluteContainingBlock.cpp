@@ -902,10 +902,14 @@ if
 nextFrame
 )
 {
-tracker
-.
-Finish
+nsOverflowContinuationTracker
+:
+:
+AutoFinish
+fini
 (
+&
+tracker
 kidFrame
 )
 ;
