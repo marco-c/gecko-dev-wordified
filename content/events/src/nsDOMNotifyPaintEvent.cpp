@@ -881,6 +881,14 @@ requests
 new
 nsPaintRequestList
 (
+static_cast
+<
+nsDOMEvent
+*
+>
+(
+this
+)
 )
 ;
 if
