@@ -5409,7 +5409,10 @@ return
 JS_TRUE
 ;
 }
+JS_FRIEND_DATA
+(
 JSClass
+)
 js_CallClass
 =
 {
