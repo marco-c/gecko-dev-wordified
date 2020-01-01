@@ -1268,6 +1268,12 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
+mDBGetLastBookmarkID
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
 mDBSetItemDateAdded
 ;
 nsCOMPtr
