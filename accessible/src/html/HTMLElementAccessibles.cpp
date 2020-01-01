@@ -748,7 +748,15 @@ aName
 )
 ;
 return
+aName
+.
+IsEmpty
+(
+)
+?
 eNameOK
+:
+eNameFromSubtree
 ;
 }
 role

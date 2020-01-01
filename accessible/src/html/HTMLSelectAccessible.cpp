@@ -1775,6 +1775,17 @@ CompressWhitespace
 (
 )
 ;
+return
+aName
+.
+IsEmpty
+(
+)
+?
+eNameOK
+:
+eNameFromSubtree
+;
 }
 return
 eNameOK

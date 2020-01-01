@@ -4062,13 +4062,11 @@ eNameOK
 ;
 }
 }
+return
 GetXULName
 (
 aName
 )
-;
-return
-eNameOK
 ;
 }
 role

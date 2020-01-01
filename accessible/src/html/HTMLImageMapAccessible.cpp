@@ -1602,6 +1602,9 @@ nsString
 aName
 )
 {
+ENameValueFlag
+nameFlag
+=
 Accessible
 :
 :
@@ -1620,7 +1623,7 @@ IsEmpty
 )
 )
 return
-eNameOK
+nameFlag
 ;
 if
 (
