@@ -468,8 +468,6 @@ h
 #
 include
 "
-mozilla
-/
 CheckedInt
 .
 h
@@ -1186,7 +1184,7 @@ if
 !
 len
 .
-isValid
+valid
 (
 )
 )

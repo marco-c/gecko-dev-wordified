@@ -461,8 +461,6 @@ h
 #
 include
 "
-mozilla
-/
 CheckedInt
 .
 h
@@ -1087,7 +1085,7 @@ if
 !
 checked_byteLength
 .
-isValid
+valid
 (
 )
 |
@@ -1095,7 +1093,7 @@ isValid
 !
 checked_sizeOfLastElement
 .
-isValid
+valid
 (
 )
 )
@@ -1171,7 +1169,7 @@ if
 !
 checked_maxAllowedCount
 .
-isValid
+valid
 (
 )
 )
@@ -2192,7 +2190,7 @@ if
 !
 checked_byteLength
 .
-isValid
+valid
 (
 )
 )
@@ -2263,7 +2261,7 @@ if
 !
 calculated_byteLength
 .
-isValid
+valid
 (
 )
 |
@@ -2342,7 +2340,7 @@ if
 !
 calculated_byteLength
 .
-isValid
+valid
 (
 )
 |

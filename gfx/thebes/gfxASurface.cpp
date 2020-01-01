@@ -450,8 +450,6 @@ h
 #
 include
 "
-mozilla
-/
 CheckedInt
 .
 h
@@ -2034,7 +2032,7 @@ if
 !
 tmp
 .
-isValid
+valid
 (
 )
 )
@@ -2089,7 +2087,7 @@ if
 !
 tmp
 .
-isValid
+valid
 (
 )
 )

@@ -2688,7 +2688,7 @@ if
 !
 tstamp_frames
 .
-isValid
+valid
 (
 )
 |
@@ -2696,7 +2696,7 @@ isValid
 !
 decoded_frames
 .
-isValid
+valid
 (
 )
 )
@@ -2728,7 +2728,7 @@ if
 !
 decoded_frames
 .
-isValid
+valid
 (
 )
 )
@@ -2806,7 +2806,7 @@ n
 "
 usecs
 .
-isValid
+valid
 (
 )
 ?
@@ -3071,7 +3071,7 @@ if
 !
 duration
 .
-isValid
+valid
 (
 )
 )
@@ -3106,7 +3106,7 @@ if
 !
 total_duration
 .
-isValid
+valid
 (
 )
 )
@@ -3139,7 +3139,7 @@ if
 !
 time
 .
-isValid
+valid
 (
 )
 )

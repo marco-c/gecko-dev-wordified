@@ -610,7 +610,7 @@ NS_ENSURE_TRUE
 (
 length
 .
-isValid
+valid
 (
 )
 NS_ERROR_FAILURE
