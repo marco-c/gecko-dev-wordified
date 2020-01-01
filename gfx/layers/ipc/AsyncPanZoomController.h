@@ -184,13 +184,6 @@ h
 #
 include
 "
-TaskThrottler
-.
-h
-"
-#
-include
-"
 base
 /
 message_loop
@@ -3509,9 +3502,6 @@ nsRefPtr
 CompositorParent
 >
 mCompositorParent
-;
-TaskThrottler
-mPaintThrottler
 ;
 nsRefPtr
 <
