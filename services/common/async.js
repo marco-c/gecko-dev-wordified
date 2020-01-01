@@ -56,6 +56,9 @@ MPL
 .
 *
 /
+#
+ifndef
+MERGED_COMPARTMENT
 this
 .
 EXPORTED_SYMBOLS
@@ -84,6 +87,8 @@ Cu
 =
 Components
 ;
+#
+endif
 /
 /
 Constants
