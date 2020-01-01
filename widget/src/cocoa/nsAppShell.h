@@ -866,9 +866,6 @@ PRPackedBool
 mTerminated
 ;
 PRPackedBool
-mNotifiedWillTerminate
-;
-PRPackedBool
 mSkippedNativeCallback
 ;
 PRPackedBool
