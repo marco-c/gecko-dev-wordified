@@ -993,7 +993,7 @@ widget
 WinTaskbar
 :
 :
-SetAppUserModelID
+RegisterAppUserModelID
 (
 )
 ;
