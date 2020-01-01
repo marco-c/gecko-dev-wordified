@@ -13128,16 +13128,6 @@ return
 ;
 return
 low
-<
-offsetCount
--
-1
-?
-low
-+
-1
-:
-low
 ;
 }
 }
