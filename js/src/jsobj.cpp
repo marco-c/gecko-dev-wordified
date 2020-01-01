@@ -24203,6 +24203,7 @@ sample
 ;
 JSTempValueRooter
 tvr
+tvr2
 ;
 JSBool
 ok
@@ -24301,6 +24302,14 @@ sprop
 tvr
 )
 ;
+JS_PUSH_TEMP_ROOT_OBJECT
+(
+cx
+pobj
+&
+tvr2
+)
+;
 ok
 =
 js_GetSprop
@@ -24309,6 +24318,13 @@ cx
 sprop
 obj
 vp
+)
+;
+JS_POP_TEMP_ROOT
+(
+cx
+&
+tvr2
 )
 ;
 JS_POP_TEMP_ROOT
