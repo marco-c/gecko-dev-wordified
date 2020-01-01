@@ -2325,10 +2325,7 @@ fixedLayerMargins
 0
 )
 ;
-gfx
-:
-:
-Point
+ScreenPoint
 offset
 (
 0
@@ -2823,10 +2820,7 @@ fixedLayerMargins
 0
 )
 ;
-gfx
-:
-:
-Point
+ScreenPoint
 offset
 (
 0
@@ -3836,10 +3830,7 @@ gfx
 Margin
 &
 aFixedLayerMargins
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aOffset
 )
@@ -3908,10 +3899,7 @@ gfx
 Margin
 &
 aFixedLayerMargins
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aOffset
 )

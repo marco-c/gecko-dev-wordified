@@ -1764,10 +1764,7 @@ void
 SetScreenRenderOffset
 (
 const
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aOffset
 )
