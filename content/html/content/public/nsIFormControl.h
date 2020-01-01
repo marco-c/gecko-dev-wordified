@@ -154,6 +154,7 @@ NS_FORM_OUTPUT
 NS_FORM_SELECT
 NS_FORM_TEXTAREA
 NS_FORM_OBJECT
+NS_FORM_METER
 eFormControlsWithoutSubTypesMax
 /
 /
@@ -1333,18 +1334,6 @@ bug
 /
 TODO
 :
-meter
-should
-be
-added
-see
-bug
-555985
-.
-/
-/
-TODO
-:
 NS_FORM_INPUT_HIDDEN
 should
 be
@@ -1379,8 +1368,6 @@ type
 NS_FORM_KEYGEN
 |
 |
-/
-/
 type
 =
 =

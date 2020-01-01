@@ -883,6 +883,13 @@ mark
 )
 EDITOR_ATOM
 (
+meter
+"
+meter
+"
+)
+EDITOR_ATOM
+(
 menuitem
 "
 menuitem
