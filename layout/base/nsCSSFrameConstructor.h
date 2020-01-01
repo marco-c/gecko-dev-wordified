@@ -12713,6 +12713,15 @@ mQuoteList
 nsCounterManager
 mCounterManager
 ;
+/
+/
+Current
+ProcessChildren
+depth
+.
+uint16_t
+mCurrentDepth
+;
 uint16_t
 mUpdateCount
 ;
