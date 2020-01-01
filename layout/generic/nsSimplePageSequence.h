@@ -1086,14 +1086,6 @@ PRBool
 aForPageNumOnly
 )
 ;
-void
-GetEdgePaperMargin
-(
-nsMargin
-&
-aMargin
-)
-;
 NS_IMETHOD_
 (
 nsrefcnt
