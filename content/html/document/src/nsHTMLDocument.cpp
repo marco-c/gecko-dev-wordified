@@ -1158,6 +1158,13 @@ nsCCUncollectableMarker
 h
 "
 #
+include
+"
+prprf
+.
+h
+"
+#
 define
 NS_MAX_DOCUMENT_WRITE_DEPTH
 20
