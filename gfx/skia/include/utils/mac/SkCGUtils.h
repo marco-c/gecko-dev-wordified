@@ -237,17 +237,6 @@ float
 y
 )
 ;
-bool
-SkPDFDocumentToBitmap
-(
-SkStream
-*
-stream
-SkBitmap
-*
-output
-)
-;
 /
 *
 *
