@@ -2743,9 +2743,8 @@ non
 -
 escaping
 function
-that
-could
-be
+from
+being
 optimized
 into
 a
@@ -2780,11 +2779,12 @@ CALL
 UPVAR
 )
 because
-it
+this
+function
 contains
+*
 a
 closure
-*
 that
 needs
 one
@@ -2793,8 +2793,7 @@ more
 scope
 objects
 surrounding
-this
-function
+it
 (
 i
 .
