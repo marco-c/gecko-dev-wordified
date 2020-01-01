@@ -12426,7 +12426,7 @@ vp
 if
 (
 !
-VALUE_IS_FUNCTION
+js_IsCallable
 (
 cx
 fval
@@ -12811,7 +12811,7 @@ vp
 if
 (
 !
-VALUE_IS_FUNCTION
+js_IsCallable
 (
 cx
 fval
@@ -16541,9 +16541,11 @@ if
 callable
 &
 &
-js_IsCallable
-(
 callable
+-
+>
+isCallable
+(
 cx
 )
 )
