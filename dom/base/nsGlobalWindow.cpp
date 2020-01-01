@@ -18408,6 +18408,11 @@ if
 CanMoveResizeWindows
 (
 )
+|
+|
+IsFrame
+(
+)
 )
 {
 return
@@ -18688,6 +18693,11 @@ if
 CanMoveResizeWindows
 (
 )
+|
+|
+IsFrame
+(
+)
 )
 {
 return
@@ -18890,6 +18900,11 @@ if
 (
 !
 CanMoveResizeWindows
+(
+)
+|
+|
+IsFrame
 (
 )
 )
