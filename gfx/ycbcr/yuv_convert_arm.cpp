@@ -86,6 +86,17 @@ __attribute
 (
 (
 noinline
+optimize
+(
+"
+-
+fomit
+-
+frame
+-
+pointer
+"
+)
 )
 )
 yuv42x_to_rgb565_row_neon
