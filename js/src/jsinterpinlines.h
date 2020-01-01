@@ -3605,6 +3605,14 @@ fun
 isHeavyweight
 (
 )
+&
+&
+fp
+-
+>
+hasCallObj
+(
+)
 )
 JS_ASSERT
 (
