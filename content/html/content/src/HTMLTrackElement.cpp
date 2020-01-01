@@ -359,15 +359,6 @@ nsVideoFrame
 h
 "
 #
-include
-"
-webvtt
-/
-parser
-.
-h
-"
-#
 ifdef
 PR_LOGGING
 static
