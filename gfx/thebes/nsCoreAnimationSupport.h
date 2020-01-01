@@ -659,9 +659,9 @@ int
 aX
 int
 aY
-int
+size_t
 aWidth
-int
+size_t
 aHeight
 )
 ;
