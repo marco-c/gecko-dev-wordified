@@ -1080,7 +1080,8 @@ chunk
 prevpc
 )
 ;
-RawFunction
+JSFunction
+*
 fun
 =
 chunk
@@ -7986,7 +7987,8 @@ Value
 vp
 )
 {
-RawFunction
+JSFunction
+*
 fun
 ;
 if

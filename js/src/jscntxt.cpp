@@ -1444,7 +1444,8 @@ removeFront
 }
 }
 }
-RawFunction
+JSFunction
+*
 js
 :
 :

@@ -354,7 +354,8 @@ token
 }
 static
 inline
-RawFunction
+JSFunction
+*
 CalleeTokenToParallelFunction
 (
 CalleeToken

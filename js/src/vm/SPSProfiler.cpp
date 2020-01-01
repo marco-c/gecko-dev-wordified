@@ -559,7 +559,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 )
 {
@@ -795,7 +796,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 )
 {
@@ -890,7 +892,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 )
 {
@@ -1533,7 +1536,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 )
 {

@@ -557,7 +557,8 @@ FunctionName
 JSContext
 *
 cx
-RawFunction
+JSFunction
+*
 fun
 JSAutoByteString
 *
@@ -695,7 +696,8 @@ DTraceEnterJSFun
 JSContext
 *
 cx
-RawFunction
+JSFunction
+*
 fun
 RawScript
 script
@@ -733,7 +735,8 @@ DTraceExitJSFun
 JSContext
 *
 cx
-RawFunction
+JSFunction
+*
 fun
 RawScript
 script

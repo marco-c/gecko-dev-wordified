@@ -552,7 +552,8 @@ ArgumentsData
 data
 )
 {
-RawFunction
+JSFunction
+*
 callee
 =
 ion

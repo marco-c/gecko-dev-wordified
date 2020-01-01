@@ -1252,7 +1252,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 function
 )
 ;
@@ -1465,7 +1466,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 )
 ;
@@ -1477,7 +1479,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 )
 ;
@@ -2074,7 +2077,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 )
 ;

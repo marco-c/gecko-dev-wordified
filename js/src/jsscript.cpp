@@ -12560,7 +12560,8 @@ isFunction
 )
 )
 {
-RawFunction
+JSFunction
+*
 fun
 =
 enclosing

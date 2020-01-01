@@ -599,7 +599,8 @@ SystemAllocPolicy
 >
 CallsiteCloneTable
 ;
-RawFunction
+JSFunction
+*
 CloneFunctionAtCallsite
 (
 JSContext
