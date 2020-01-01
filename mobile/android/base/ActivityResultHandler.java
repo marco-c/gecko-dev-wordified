@@ -62,6 +62,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 import
 android
@@ -70,10 +72,10 @@ content
 .
 Intent
 ;
+public
 interface
 ActivityResultHandler
 {
-public
 void
 onActivityResult
 (
