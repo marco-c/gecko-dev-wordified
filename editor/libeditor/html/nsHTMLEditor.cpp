@@ -2802,8 +2802,6 @@ eSpecial
 )
 )
 {
-res
-=
 GetNodeLocation
 (
 visNode
@@ -2813,12 +2811,6 @@ selNode
 )
 &
 selOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 done
@@ -2979,8 +2971,6 @@ of
 that
 block
 .
-res
-=
 GetNodeLocation
 (
 visNode
@@ -2990,12 +2980,6 @@ selNode
 )
 &
 selOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 done
@@ -3030,8 +3014,6 @@ skip
 the
 empty
 block
-res
-=
 GetNodeLocation
 (
 visNode
@@ -3041,12 +3023,6 @@ curNode
 )
 &
 curOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 +

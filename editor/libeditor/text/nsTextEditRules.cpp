@@ -2601,8 +2601,6 @@ parentNode
 PRInt32
 parentOffset
 ;
-res
-=
 nsEditor
 :
 :
@@ -2615,12 +2613,6 @@ parentNode
 )
 &
 parentOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 nsCOMPtr

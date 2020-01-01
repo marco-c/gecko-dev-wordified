@@ -859,11 +859,6 @@ aHTMLEd
 NS_ERROR_NULL_POINTER
 )
 ;
-nsresult
-res
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIDOMNode
@@ -873,8 +868,6 @@ parent
 PRInt32
 offset
 ;
-res
-=
 aHTMLEd
 -
 >
@@ -887,12 +880,6 @@ parent
 )
 &
 offset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 nsWSRunObject

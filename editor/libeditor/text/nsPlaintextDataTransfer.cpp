@@ -1381,8 +1381,6 @@ based
 on
 coordinates
 .
-rv
-=
 GetNodeLocation
 (
 userSelectNode
@@ -1392,12 +1390,6 @@ newSelectionParent
 )
 &
 newSelectionOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 NS_ENSURE_TRUE
