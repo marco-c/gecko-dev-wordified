@@ -2177,7 +2177,6 @@ globalJSObject
 /
 obj
 principal
-principal
 mURL
 .
 get
