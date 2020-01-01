@@ -430,6 +430,11 @@ mParent
 nsnull
 )
 {
+MOZ_COUNT_CTOR
+(
+AccGroupInfo
+)
+;
 nsAccessible
 *
 parent
