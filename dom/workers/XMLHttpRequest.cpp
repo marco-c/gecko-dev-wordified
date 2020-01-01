@@ -249,6 +249,10 @@ Attributes
 .
 h
 "
+using
+namespace
+mozilla
+;
 USING_WORKERS_NAMESPACE
 using
 mozilla
@@ -264,12 +268,6 @@ exceptions
 :
 :
 ThrowDOMExceptionForNSResult
-;
-using
-mozilla
-:
-:
-ErrorResult
 ;
 /
 /
