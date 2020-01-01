@@ -732,8 +732,8 @@ MAXARGS
 ;
 #
 ifdef
-MOZ_NO_VARADIC_MACROS
-static
+NJ_NO_VARIADIC_MACROS
+inline
 void
 NanoAssertMsgf
 (
@@ -749,7 +749,7 @@ f
 )
 {
 }
-static
+inline
 void
 NanoAssertMsg
 (
@@ -762,7 +762,7 @@ m
 )
 {
 }
-static
+inline
 void
 NanoAssert
 (
@@ -799,9 +799,11 @@ a
 )
 {
 \
-fprintf
+avmplus
+:
+:
+AvmLog
 (
-stderr
 "
 Assertion
 failed
@@ -1221,7 +1223,7 @@ endif
 endif
 #
 ifdef
-MOZ_NO_VARADIC_MACROS
+NJ_NO_VARIADIC_MACROS
 #
 include
 <

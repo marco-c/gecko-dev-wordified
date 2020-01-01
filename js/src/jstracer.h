@@ -1394,7 +1394,7 @@ JS_JIT_SPEW
 |
 defined
 (
-MOZ_NO_VARADIC_MACROS
+NJ_NO_VARIADIC_MACROS
 )
 enum
 LC_TMBits
@@ -1478,7 +1478,7 @@ LC_TMTreeVis
 endif
 #
 ifdef
-MOZ_NO_VARADIC_MACROS
+NJ_NO_VARIADIC_MACROS
 #
 define
 debug_only_stmt
