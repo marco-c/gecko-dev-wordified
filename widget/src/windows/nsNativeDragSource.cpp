@@ -823,7 +823,7 @@ if
 (
 cursor
 .
-EqualsASCII
+EqualsLiteral
 (
 "
 default
