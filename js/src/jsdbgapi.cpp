@@ -457,10 +457,10 @@ debugMode
 debug
 ;
 }
-namespace
-js
-{
 JSTrapStatus
+js
+:
+:
 ScriptDebugPrologue
 (
 JSContext
@@ -665,6 +665,9 @@ status
 ;
 }
 bool
+js
+:
+:
 ScriptDebugEpilogue
 (
 JSContext
@@ -791,13 +794,6 @@ ok
 )
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/
 JS_FRIEND_API
 (
 JSBool

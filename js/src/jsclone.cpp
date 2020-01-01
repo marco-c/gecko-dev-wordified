@@ -627,10 +627,10 @@ u
 #
 endif
 }
-namespace
-js
-{
 bool
+js
+:
+:
 WriteStructuredClone
 (
 JSContext
@@ -699,6 +699,9 @@ nbytesp
 ;
 }
 bool
+js
+:
+:
 ReadStructuredClone
 (
 JSContext
@@ -770,6 +773,9 @@ vp
 ;
 }
 bool
+js
+:
+:
 ClearStructuredClone
 (
 const
@@ -920,6 +926,9 @@ true
 ;
 }
 bool
+js
+:
+:
 StructuredCloneHasTransferObjects
 (
 const
@@ -982,13 +991,6 @@ return
 true
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/
 static
 inline
 uint64_t

@@ -3107,16 +3107,6 @@ JSRuntime
 rt
 )
 ;
-}
-/
-*
-namespace
-js
-*
-/
-namespace
-js
-{
 void
 InitTracer
 (

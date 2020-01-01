@@ -7181,9 +7181,6 @@ type_
 *
 *
 /
-namespace
-js
-{
 /
 *
 *
@@ -9944,13 +9941,6 @@ NULL
 }
 }
 ;
-}
-/
-*
-namespace
-js
-*
-/
 int
 DebugScopeProxy
 :

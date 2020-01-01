@@ -223,6 +223,14 @@ v
 namespace
 js
 {
+/
+/
+Defined
+in
+jsgc
+.
+cpp
+.
 unsigned
 GetCPUCount
 (

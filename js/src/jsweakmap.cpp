@@ -191,9 +191,6 @@ using
 namespace
 js
 ;
-namespace
-js
-{
 bool
 WeakMapBase
 :
@@ -559,13 +556,6 @@ m
 ;
 }
 }
-}
-/
-*
-namespace
-js
-*
-/
 typedef
 WeakMap
 <

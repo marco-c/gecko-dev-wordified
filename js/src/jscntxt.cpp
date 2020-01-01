@@ -3344,9 +3344,6 @@ cx
 )
 ;
 }
-namespace
-js
-{
 bool
 AutoResolving
 :
@@ -3435,13 +3432,6 @@ return
 false
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/
 static
 void
 ReportError
@@ -4672,9 +4662,6 @@ return
 warning
 ;
 }
-namespace
-js
-{
 /
 *
 |
@@ -4691,6 +4678,9 @@ JS_DefineFunctionsWithHelp
 *
 /
 void
+js
+:
+:
 ReportUsageError
 (
 JSContext
@@ -4882,6 +4872,9 @@ chars
 }
 }
 bool
+js
+:
+:
 PrintError
 (
 JSContext
@@ -5400,13 +5393,6 @@ return
 true
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/
 /
 *
 *
@@ -9487,9 +9473,6 @@ iterValue
 )
 ;
 }
-namespace
-JS
-{
 #
 if
 defined
@@ -9591,8 +9574,3 @@ checkRequestDepth
 }
 #
 endif
-}
-/
-/
-namespace
-JS

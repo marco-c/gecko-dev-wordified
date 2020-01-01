@@ -211,9 +211,6 @@ platform
 "
 #
 endif
-namespace
-js
-{
 #
 if
 defined
@@ -222,6 +219,9 @@ XP_WIN
 )
 void
 *
+js
+:
+:
 GetNativeStackBaseImpl
 (
 )
@@ -403,6 +403,9 @@ JS_STACK_GROWTH_DIRECTION
 ;
 void
 *
+js
+:
+:
 GetNativeStackBaseImpl
 (
 )
@@ -455,6 +458,9 @@ JS_STACK_GROWTH_DIRECTION
 ;
 void
 *
+js
+:
+:
 GetNativeStackBaseImpl
 (
 )
@@ -497,6 +503,9 @@ XP_OS2
 )
 void
 *
+js
+:
+:
 GetNativeStackBaseImpl
 (
 )
@@ -531,6 +540,9 @@ XP_UNIX
 /
 void
 *
+js
+:
+:
 GetNativeStackBaseImpl
 (
 )
@@ -781,12 +793,5 @@ endif
 *
 !
 XP_WIN
-*
-/
-}
-/
-*
-namespace
-js
 *
 /

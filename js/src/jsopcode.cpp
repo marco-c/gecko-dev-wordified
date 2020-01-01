@@ -43240,10 +43240,10 @@ LOCAL_ASSERT
 #
 undef
 LOCAL_ASSERT_RV
-namespace
-js
-{
 bool
+js
+:
+:
 CallResultEscapes
 (
 jsbytecode
@@ -43354,6 +43354,9 @@ JSOP_IFEQ
 }
 extern
 bool
+js
+:
+:
 IsValidBytecodeOffset
 (
 JSContext
@@ -43439,6 +43442,9 @@ JS_FRIEND_API
 (
 size_t
 )
+js
+:
+:
 GetPCCountScriptCount
 (
 JSContext
@@ -43632,6 +43638,9 @@ JS_FRIEND_API
 JSString
 *
 )
+js
+:
+:
 GetPCCountScriptSummary
 (
 JSContext
@@ -45626,6 +45635,9 @@ JS_FRIEND_API
 JSString
 *
 )
+js
+:
+:
 GetPCCountScriptContents
 (
 JSContext
@@ -45769,8 +45781,3 @@ finishString
 )
 ;
 }
-}
-/
-/
-namespace
-js

@@ -275,12 +275,12 @@ mozilla
 :
 ArrayLength
 ;
-namespace
-js
-{
 char
 const
 *
+js
+:
+:
 aopNames
 [
 ]
@@ -402,6 +402,9 @@ AOP_BITAND
 char
 const
 *
+js
+:
+:
 binopNames
 [
 ]
@@ -601,6 +604,9 @@ BINOP_DBLDOT
 char
 const
 *
+js
+:
+:
 unopNames
 [
 ]
@@ -667,6 +673,9 @@ UNOP_VOID
 char
 const
 *
+js
+:
+:
 nodeTypeNames
 [
 ]
@@ -694,6 +703,7 @@ ASTDEF
 NULL
 }
 ;
+static
 char
 const
 *
@@ -19523,13 +19533,6 @@ dst
 )
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/
 static
 JSBool
 reflect_parse

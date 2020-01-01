@@ -351,6 +351,12 @@ SLOTS_TO_THING_KIND_LIMIT
 =
 17
 ;
+extern
+AllocKind
+slotsToThingKind
+[
+]
+;
 /
 *
 Get
@@ -380,12 +386,6 @@ size_t
 numSlots
 )
 {
-extern
-AllocKind
-slotsToThingKind
-[
-]
-;
 AutoAssertNoGC
 nogc
 ;

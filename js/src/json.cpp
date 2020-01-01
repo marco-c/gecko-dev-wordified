@@ -6051,10 +6051,10 @@ vp
 )
 ;
 }
-namespace
-js
-{
 JSBool
+js
+:
+:
 ParseJSONWithReviver
 (
 JSContext
@@ -6160,13 +6160,6 @@ return
 true
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/
 #
 if
 JS_HAS_TOSOURCE

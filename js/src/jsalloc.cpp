@@ -123,9 +123,10 @@ jscntxt
 .
 h
 "
+using
 namespace
 js
-{
+;
 void
 *
 TempAllocPolicy
@@ -170,10 +171,3 @@ cx
 )
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/

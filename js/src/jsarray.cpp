@@ -1078,10 +1078,10 @@ mozilla
 :
 PointerRangeSize
 ;
-namespace
-js
-{
 JSBool
+js
+:
+:
 GetLengthProperty
 (
 JSContext
@@ -1445,6 +1445,9 @@ JS_FRIEND_API
 (
 bool
 )
+js
+:
+:
 StringIsArrayIndex
 (
 JSLinearString
@@ -1677,6 +1680,9 @@ false
 }
 Shape
 *
+js
+:
+:
 GetDenseArrayShape
 (
 JSContext
@@ -1737,7 +1743,6 @@ gc
 FINALIZE_OBJECT0
 )
 ;
-}
 }
 bool
 JSObject
@@ -2490,9 +2495,6 @@ vp
 )
 ;
 }
-namespace
-js
-{
 static
 bool
 GetElementsSlow
@@ -2559,6 +2561,9 @@ true
 ;
 }
 bool
+js
+:
+:
 GetElements
 (
 JSContext
@@ -2741,7 +2746,6 @@ length
 vp
 )
 ;
-}
 }
 /
 *
@@ -6270,9 +6274,6 @@ attrs
 )
 ;
 }
-namespace
-js
-{
 /
 *
 non
@@ -6290,6 +6291,9 @@ engine
 *
 /
 JSBool
+js
+:
+:
 array_defineElement
 (
 JSContext
@@ -6513,11 +6517,6 @@ attrs
 )
 ;
 }
-}
-/
-/
-namespace
-js
 static
 JSBool
 array_defineSpecial
@@ -6885,9 +6884,6 @@ return
 true
 ;
 }
-namespace
-js
-{
 /
 *
 non
@@ -6905,6 +6901,9 @@ engine
 *
 /
 JSBool
+js
+:
+:
 array_deleteElement
 (
 JSContext
@@ -7000,11 +6999,6 @@ return
 true
 ;
 }
-}
-/
-/
-namespace
-js
 static
 JSBool
 array_deleteSpecial
@@ -22165,9 +22159,6 @@ functions
 .
 *
 /
-namespace
-js
-{
 static
 inline
 bool
@@ -22606,6 +22597,9 @@ obj
 JSObject
 *
 JS_FASTCALL
+js
+:
+:
 NewDenseEmptyArray
 (
 JSContext
@@ -22636,6 +22630,9 @@ proto
 JSObject
 *
 JS_FASTCALL
+js
+:
+:
 NewDenseAllocatedArray
 (
 JSContext
@@ -22668,6 +22665,9 @@ proto
 JSObject
 *
 JS_FASTCALL
+js
+:
+:
 NewDenseUnallocatedArray
 (
 JSContext
@@ -22757,6 +22757,9 @@ obj
 endif
 JSObject
 *
+js
+:
+:
 NewDenseCopiedArray
 (
 JSContext
@@ -22870,6 +22873,9 @@ Value
 objects
 JSObject
 *
+js
+:
+:
 NewDenseCopiedArray
 (
 JSContext
@@ -22958,6 +22964,9 @@ obj
 }
 JSObject
 *
+js
+:
+:
 NewSlowEmptyArray
 (
 JSContext
@@ -23007,11 +23016,6 @@ return
 obj
 ;
 }
-}
-/
-/
-namespace
-js
 #
 ifdef
 DEBUG
