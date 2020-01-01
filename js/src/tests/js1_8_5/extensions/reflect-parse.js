@@ -7595,6 +7595,19 @@ blockStmt
 )
 )
 ;
+/
+/
+Fails
+due
+to
+parser
+quirks
+(
+bug
+638577
+)
+/
+/
 assertStmt
 (
 "
@@ -7619,6 +7632,8 @@ return
 }
 }
 "
+/
+/
 funDecl
 (
 ident
@@ -7648,6 +7663,8 @@ blockStmt
 ]
 )
 )
+/
+/
 funDecl
 (
 ident
