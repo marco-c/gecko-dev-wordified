@@ -271,6 +271,14 @@ py
 '
 mozboot
 /
+freebsd
+.
+py
+'
+    
+'
+mozboot
+/
 gentoo
 .
 py
