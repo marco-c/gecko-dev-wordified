@@ -2054,7 +2054,7 @@ code
 /
 inline
 bool
-js_InternalFunctionObject
+js_IsInternalFunctionObject
 (
 JSObject
 *

@@ -9458,7 +9458,7 @@ JSRESOLVE_ASSIGNING
 JS_ASSERT
 (
 !
-js_InternalFunctionObject
+js_IsInternalFunctionObject
 (
 obj
 )
@@ -9518,7 +9518,7 @@ atom
 JS_ASSERT
 (
 !
-js_InternalFunctionObject
+js_IsInternalFunctionObject
 (
 obj
 )
@@ -9768,7 +9768,7 @@ atom
 JS_ASSERT
 (
 !
-js_InternalFunctionObject
+js_IsInternalFunctionObject
 (
 obj
 )
