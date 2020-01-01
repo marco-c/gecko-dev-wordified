@@ -738,6 +738,14 @@ void
 )
 ;
 NS_IMETHOD
+SupportsNativeWidgets
+(
+PRBool
+&
+aSupportsWidgets
+)
+;
+NS_IMETHOD
 PrepareNativeWidget
 (
 nsIWidget
