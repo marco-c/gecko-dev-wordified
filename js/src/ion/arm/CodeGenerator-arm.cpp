@@ -5162,6 +5162,16 @@ double
 )
 INT_MIN
 .
+if
+(
+mir
+-
+>
+canBeNegativeDividend
+(
+)
+)
+{
 masm
 .
 ma_cmp
@@ -5314,6 +5324,7 @@ snapshot
 return
 false
 ;
+}
 }
 /
 /
