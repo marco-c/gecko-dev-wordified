@@ -2017,6 +2017,10 @@ nanojit
 :
 ValidateWriter
 ;
+friend
+class
+GetPropCompiler
+;
 /
 *
 *
