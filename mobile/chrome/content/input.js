@@ -1484,7 +1484,7 @@ getScrollboxFromElement
 (
 aEvent
 .
-target
+originalTarget
 )
 ;
 /
