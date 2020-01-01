@@ -466,8 +466,6 @@ findbar
 }
 )
 ;
-this
-.
 __defineGetter__
 (
 "
@@ -494,8 +492,6 @@ prefs
 }
 )
 ;
-this
-.
 __defineGetter__
 (
 "
@@ -543,8 +539,6 @@ AddonManager
 }
 )
 ;
-this
-.
 __defineSetter__
 (
 "
@@ -570,8 +564,6 @@ val
 }
 )
 ;
-this
-.
 __defineGetter__
 (
 "
@@ -608,8 +600,6 @@ PluralForm
 }
 )
 ;
-this
-.
 __defineSetter__
 (
 "
@@ -11264,8 +11254,6 @@ return
 if
 (
 !
-window
-.
 __lookupGetter__
 (
 "
@@ -24859,8 +24847,6 @@ removed
 if
 (
 !
-window
-.
 __lookupGetter__
 (
 "
@@ -27947,8 +27933,6 @@ exists
 if
 (
 !
-window
-.
 __lookupGetter__
 (
 "
