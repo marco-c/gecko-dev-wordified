@@ -793,6 +793,11 @@ zero
 its
 mPlugin
 member
+if
+(
+mScriptablePeer
+)
+{
 mScriptablePeer
 -
 >
@@ -801,11 +806,12 @@ SetInstance
 NULL
 )
 ;
-NS_IF_RELEASE
+NS_RELEASE
 (
 mScriptablePeer
 )
 ;
+}
 }
 NPBool
 nsPluginInstance

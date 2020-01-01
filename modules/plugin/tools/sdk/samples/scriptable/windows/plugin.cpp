@@ -13,7 +13,7 @@ tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -796,6 +796,11 @@ zero
 its
 mPlugin
 member
+if
+(
+mScriptablePeer
+)
+{
 mScriptablePeer
 -
 >
@@ -804,11 +809,12 @@ SetInstance
 NULL
 )
 ;
-NS_IF_RELEASE
+NS_RELEASE
 (
 mScriptablePeer
 )
 ;
+}
 }
 static
 LRESULT
