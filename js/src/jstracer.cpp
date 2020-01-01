@@ -12905,11 +12905,6 @@ exit
 -
 >
 sp_adj
-+
-sizeof
-(
-double
-)
 ;
 JS_ASSERT
 (
@@ -12935,11 +12930,6 @@ exit
 -
 >
 rp_adj
-+
-sizeof
-(
-FrameInfo
-)
 ;
 }
 #
