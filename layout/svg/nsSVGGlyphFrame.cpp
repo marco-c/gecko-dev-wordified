@@ -2412,7 +2412,7 @@ nsGkAtoms
 svgGlyphFrame
 ;
 }
-void
+NS_IMETHODIMP
 nsSVGGlyphFrame
 :
 :
@@ -2447,6 +2447,7 @@ size
 )
 {
 return
+NS_OK
 ;
 }
 aLists
@@ -2468,6 +2469,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 /

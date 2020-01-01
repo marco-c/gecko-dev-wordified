@@ -1677,7 +1677,7 @@ TYPE_CANVAS_FOCUS
 )
 }
 ;
-void
+NS_IMETHODIMP
 nsCanvasFrame
 :
 :
@@ -1897,6 +1897,7 @@ nullptr
 )
 ;
 return
+NS_OK
 ;
 }
 if
@@ -1906,6 +1907,7 @@ bg
 )
 {
 return
+NS_OK
 ;
 }
 /
@@ -2207,6 +2209,7 @@ if
 mDoPaintFocus
 )
 return
+NS_OK
 ;
 /
 /
@@ -2232,6 +2235,7 @@ IsVisible
 )
 )
 return
+NS_OK
 ;
 aLists
 .
@@ -2252,6 +2256,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 void

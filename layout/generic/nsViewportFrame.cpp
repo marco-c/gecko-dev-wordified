@@ -342,7 +342,7 @@ aChildList
 )
 ;
 }
-void
+NS_IMETHODIMP
 ViewportFrame
 :
 :
@@ -387,6 +387,7 @@ if
 kid
 )
 return
+NS_OK
 ;
 /
 /
@@ -433,6 +434,9 @@ kid
 aDirtyRect
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

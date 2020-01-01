@@ -172,8 +172,7 @@ nsMargin
 aBorderAndPadding
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -188,7 +187,6 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -603,7 +601,7 @@ mVisibleRect
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsGroupBoxFrame
 :
 :
@@ -670,6 +668,9 @@ aBuilder
 aDirtyRect
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 void

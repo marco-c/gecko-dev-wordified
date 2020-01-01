@@ -4441,7 +4441,7 @@ construction
 =
 *
 /
-void
+NS_IMETHODIMP
 nsMathMLContainerFrame
 :
 :
@@ -4492,6 +4492,7 @@ aBuilder
 )
 )
 return
+NS_OK
 ;
 aLists
 .
@@ -4514,6 +4515,7 @@ this
 )
 ;
 return
+NS_OK
 ;
 }
 DisplayBorderBackgroundOutline
@@ -4620,6 +4622,9 @@ aLists
 ;
 #
 endif
+return
+NS_OK
+;
 }
 /
 /

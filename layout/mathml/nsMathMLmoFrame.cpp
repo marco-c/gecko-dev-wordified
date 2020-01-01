@@ -481,7 +481,7 @@ mFlags
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsMathMLmoFrame
 :
 :
@@ -666,6 +666,9 @@ aLists
 #
 endif
 }
+return
+NS_OK
+;
 }
 /
 /

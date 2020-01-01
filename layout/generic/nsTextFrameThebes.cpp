@@ -30389,7 +30389,7 @@ this
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsTextFrame
 :
 :
@@ -30417,6 +30417,7 @@ aBuilder
 )
 )
 return
+NS_OK
 ;
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
@@ -30466,7 +30467,9 @@ IsForEventDelivery
 )
 )
 return
+NS_OK
 ;
+return
 aLists
 .
 Content

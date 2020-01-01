@@ -1546,7 +1546,7 @@ break
 ;
 }
 }
-void
+NS_IMETHODIMP
 nsImageBoxFrame
 :
 :
@@ -1630,6 +1630,7 @@ arrive
 asynchronously
 .
 return
+NS_OK
 ;
 }
 if
@@ -1641,6 +1642,7 @@ aBuilder
 )
 )
 return
+NS_OK
 ;
 nsDisplayList
 list
@@ -1679,6 +1681,9 @@ AppendToTop
 &
 list
 )
+;
+return
+NS_OK
 ;
 }
 void

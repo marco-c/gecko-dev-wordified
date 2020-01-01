@@ -408,8 +408,7 @@ nsEventStatus
 aEventStatus
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -424,7 +423,6 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
 ;
 /
 *
@@ -1026,7 +1024,7 @@ aStatus
 )
 ;
 }
-void
+nsresult
 nsRootBoxFrame
 :
 :
@@ -1102,6 +1100,9 @@ aBuilder
 aDirtyRect
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

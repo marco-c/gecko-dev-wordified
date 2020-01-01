@@ -177,8 +177,7 @@ nsReflowStatus
 aStatus
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder

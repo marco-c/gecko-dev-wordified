@@ -284,8 +284,7 @@ NS_DECL_QUERYFRAME
 /
 /
 nsIFrame
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -300,7 +299,6 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init

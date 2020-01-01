@@ -6976,7 +6976,7 @@ FORCE_DRAW
 }
 ;
 virtual
-void
+nsresult
 AddCanvasBackgroundColorItem
 (
 nsDisplayListBuilder
@@ -7049,7 +7049,7 @@ presentation
 *
 /
 virtual
-void
+nsresult
 AddPrintPreviewBackgroundItem
 (
 nsDisplayListBuilder

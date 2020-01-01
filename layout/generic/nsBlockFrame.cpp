@@ -43860,7 +43860,7 @@ height
 #
 endif
 static
-void
+nsresult
 DisplayLine
 (
 nsDisplayListBuilder
@@ -44118,6 +44118,7 @@ aFrame
 lineMayHaveTextOverflow
 )
 return
+NS_OK
 ;
 /
 /
@@ -44209,6 +44210,9 @@ n
 0
 )
 {
+nsresult
+rv
+=
 aFrame
 -
 >
@@ -44219,6 +44223,12 @@ kid
 aDirtyRect
 childLists
 flags
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 kid
@@ -44250,8 +44260,11 @@ get
 )
 ;
 }
+return
+NS_OK
+;
 }
-void
+NS_IMETHODIMP
 nsBlockFrame
 :
 :
@@ -45192,6 +45205,9 @@ buf
 }
 #
 endif
+return
+NS_OK
+;
 }
 #
 ifdef

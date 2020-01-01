@@ -510,7 +510,7 @@ return
 rv
 ;
 }
-void
+NS_IMETHODIMP
 nsSVGDisplayContainerFrame
 :
 :
@@ -557,6 +557,7 @@ HasValidDimensions
 )
 {
 return
+NS_OK
 ;
 }
 return

@@ -7089,7 +7089,7 @@ aItem2
 static
 *
 /
-void
+nsresult
 nsTableFrame
 :
 :
@@ -7265,13 +7265,16 @@ GetNextSibling
 )
 ;
 }
+return
+NS_OK
+;
 }
 /
 *
 static
 *
 /
-void
+nsresult
 nsTableFrame
 :
 :
@@ -7659,6 +7662,9 @@ aBuilder
 aLists
 )
 ;
+return
+NS_OK
+;
 }
 #
 ifdef
@@ -7862,7 +7868,7 @@ the
 rect
 for
 captions
-void
+NS_IMETHODIMP
 nsTableFrame
 :
 :
@@ -8128,6 +8134,9 @@ aDirtyRect
 aLists
 item
 )
+;
+return
+NS_OK
 ;
 }
 nsMargin

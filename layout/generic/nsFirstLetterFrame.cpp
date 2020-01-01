@@ -284,7 +284,7 @@ nsGkAtoms
 letterFrame
 ;
 }
-void
+NS_IMETHODIMP
 nsFirstLetterFrame
 :
 :
@@ -309,6 +309,9 @@ aBuilder
 aDirtyRect
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

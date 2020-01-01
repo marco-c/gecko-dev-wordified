@@ -328,8 +328,7 @@ aEventStatus
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder

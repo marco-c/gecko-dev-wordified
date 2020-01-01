@@ -17410,6 +17410,7 @@ aDestructRoot
 )
 ;
 }
+NS_IMETHODIMP
 nsSVGTextFrame2
 :
 :
@@ -17468,8 +17469,10 @@ avoid
 painting
 .
 return
+NS_OK
 ;
 }
+return
 aLists
 .
 Content

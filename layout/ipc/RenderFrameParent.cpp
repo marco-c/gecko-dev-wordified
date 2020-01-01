@@ -6089,7 +6089,7 @@ GetRoot
 nullptr
 ;
 }
-void
+NS_IMETHODIMP
 RenderFrameParent
 :
 :
@@ -6268,6 +6268,9 @@ shadowTree
 bounds
 )
 )
+;
+return
+NS_OK
 ;
 }
 void
