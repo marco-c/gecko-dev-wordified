@@ -646,6 +646,11 @@ maintenance
 finished
 "
 ;
+const
+BYTES_PER_MEBIBYTE
+=
+1048576
+;
 /
 /
 /
@@ -1161,9 +1166,6 @@ checkCoherence
 this
 .
 _refreshUI
-this
-.
-_telemetry
 ]
 )
 ;
@@ -6675,10 +6677,10 @@ execute
 .
 *
 /
-_telemetry
+telemetry
 :
 function
-PDBU__telemetry
+PDBU_telemetry
 (
 aTasks
 )
@@ -7111,7 +7113,7 @@ DBFile
 .
 fileSize
 /
-1024
+BYTES_PER_MEBIBYTE
 )
 ;
 }
@@ -7170,7 +7172,7 @@ DBFile
 .
 fileSize
 /
-1024
+BYTES_PER_MEBIBYTE
 )
 ;
 }
