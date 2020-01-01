@@ -602,6 +602,16 @@ pointer
 ;
 NS_ASSERTION
 (
+aWindow
+"
+Null
+pointer
+!
+"
+)
+;
+NS_ASSERTION
+(
 !
 aASCIIOrigin
 .

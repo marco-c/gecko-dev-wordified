@@ -3545,16 +3545,6 @@ NS_ERROR_UNEXPECTED
 ;
 if
 (
-!
-mOwner
-)
-{
-return
-NS_OK
-;
-}
-if
-(
 aVisitor
 .
 mEventStatus
