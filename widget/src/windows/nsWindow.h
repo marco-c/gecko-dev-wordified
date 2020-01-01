@@ -2657,10 +2657,7 @@ PRBool
 aIntersectWithExisting
 )
 ;
-nsCOMPtr
-<
-nsIRegion
->
+nsIntRegion
 GetRegionToPaint
 (
 PRBool

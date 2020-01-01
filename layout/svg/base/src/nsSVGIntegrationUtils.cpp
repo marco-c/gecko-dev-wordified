@@ -1680,6 +1680,10 @@ Paint
 (
 mBuilder
 ctx
+nsDisplayList
+:
+:
+PAINT_DEFAULT
 )
 ;
 }
@@ -2282,6 +2286,10 @@ Paint
 (
 aBuilder
 aCtx
+nsDisplayList
+:
+:
+PAINT_DEFAULT
 )
 ;
 aCtx
