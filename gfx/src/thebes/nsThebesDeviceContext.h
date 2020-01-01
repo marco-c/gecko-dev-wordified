@@ -1013,14 +1013,6 @@ nsIWidget
 *
 mWidget
 ;
-#
-ifdef
-NS_DEBUG
-PRBool
-mInitialized
-;
-#
-endif
 private
 :
 nsCOMPtr
