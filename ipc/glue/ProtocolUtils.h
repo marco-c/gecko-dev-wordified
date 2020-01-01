@@ -561,6 +561,9 @@ mozilla
 namespace
 ipc
 {
+class
+AsyncChannel
+;
 /
 /
 Used
@@ -886,7 +889,7 @@ Shmem
 /
 XXX
 odd
-duck
+ducks
 acknowledged
 virtual
 ProcessHandle
@@ -894,6 +897,15 @@ OtherProcess
 (
 )
 const
+=
+0
+;
+virtual
+AsyncChannel
+*
+GetIPCChannel
+(
+)
 =
 0
 ;
