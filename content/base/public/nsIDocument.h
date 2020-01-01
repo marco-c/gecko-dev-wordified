@@ -7014,7 +7014,7 @@ values
 *
 /
 virtual
-nsresult
+void
 Sanitize
 (
 )
