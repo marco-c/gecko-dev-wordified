@@ -11064,6 +11064,15 @@ nsIDocument
 *
 document
 =
+HasFlag
+(
+NODE_FORCE_XBL_BINDINGS
+)
+?
+GetOwnerDoc
+(
+)
+:
 GetCurrentDoc
 (
 )
