@@ -4171,9 +4171,6 @@ isPermaLink
 )
 isPermaLink
 =
-new
-Boolean
-(
 guid
 .
 getProperty
@@ -4182,7 +4179,15 @@ getProperty
 isPermaLink
 "
 )
+.
+toLowerCase
+(
 )
+!
+=
+"
+false
+"
 ;
 if
 (
