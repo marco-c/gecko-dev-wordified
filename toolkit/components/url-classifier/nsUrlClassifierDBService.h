@@ -755,7 +755,7 @@ clean
 host
 .
 nsresult
-CheckCleanHost
+CheckClean
 (
 const
 nsACString
