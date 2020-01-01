@@ -1065,6 +1065,16 @@ PRInt64
 >
 mBookmarksHash
 ;
+nsDataHashtable
+<
+nsTrimInt64HashKey
+PRInt64
+>
+*
+GetBookmarksHash
+(
+)
+;
 nsresult
 FillBookmarksHash
 (
