@@ -1232,7 +1232,6 @@ return
 true
 ;
 }
-Override
 public
 boolean
 setViewValue
@@ -2980,7 +2979,6 @@ OnTabChangeListener
 (
 )
 {
-Override
 public
 void
 onTabChanged
