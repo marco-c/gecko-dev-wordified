@@ -673,7 +673,7 @@ return
 void
 *
 )
-mMacMenu
+mNativeMenu
 ;
 }
 nsMenuObjectTypeX
@@ -694,10 +694,6 @@ Create
 nsMenuObjectX
 *
 aParent
-const
-nsAString
-&
-aLabel
 nsMenuBarX
 *
 aMenuBar
@@ -771,12 +767,6 @@ protected
 void
 MenuConstruct
 (
-nsIWidget
-*
-aParentWindow
-void
-*
-aMenuNode
 )
 ;
 nsresult
@@ -926,7 +916,7 @@ mIcon
 ;
 GeckoNSMenu
 *
-mMacMenu
+mNativeMenu
 ;
 /
 /
