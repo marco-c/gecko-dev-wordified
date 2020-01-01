@@ -7040,6 +7040,9 @@ HTMLObjectElement
 &
 &
 mimeType
+&
+&
+mimeType
 .
 startsWith
 (
