@@ -6086,7 +6086,7 @@ processPriorityManager
 .
 gonk
 .
-backgroundPerceivebleKillUnderMB
+backgroundPerceivableKillUnderMB
 "
 5
 )
