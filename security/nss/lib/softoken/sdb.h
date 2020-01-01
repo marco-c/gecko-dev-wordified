@@ -594,13 +594,6 @@ sftkdbt
 h
 "
 #
-include
-<
-sqlite3
-.
-h
->
-#
 define
 STATIC_CMD_SIZE
 2048
