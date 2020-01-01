@@ -16814,6 +16814,8 @@ i
 ]
 regNames
 [
+REGNUM
+(
 Assembler
 :
 :
@@ -16821,6 +16823,7 @@ savedRegs
 [
 i
 ]
+)
 ]
 )
 ;
