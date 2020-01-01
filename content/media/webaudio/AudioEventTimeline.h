@@ -123,7 +123,7 @@ include
 "
 mozilla
 /
-Attributes
+Assertions
 .
 h
 "
@@ -133,6 +133,15 @@ include
 mozilla
 /
 FloatingPoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
+TypedEnum
 .
 h
 "
