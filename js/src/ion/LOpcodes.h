@@ -535,6 +535,11 @@ NewObject
 \
 _
 (
+InitProp
+)
+\
+_
+(
 CheckOverRecursed
 )
 \

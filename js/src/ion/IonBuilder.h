@@ -2187,6 +2187,13 @@ atom
 )
 ;
 bool
+jsop_newinit
+(
+bool
+isArray
+)
+;
+bool
 jsop_newarray
 (
 uint32

@@ -705,6 +705,11 @@ NewObject
 \
 _
 (
+InitProp
+)
+\
+_
+(
 Start
 )
 \
