@@ -1398,6 +1398,14 @@ id
 "
 menu_viewPopup
 "
+onpopupshowing
+=
+"
+updateCharacterEncodingMenuState
+(
+)
+;
+"
 >
 <
 menu
