@@ -784,6 +784,16 @@ false
 *
 download
 manager
+(
+don
+'
+t
+show
+the
+window
+or
+alert
+)
 *
 /
 pref
@@ -821,7 +831,7 @@ manager
 .
 showAlertOnComplete
 "
-true
+false
 )
 ;
 pref
@@ -877,7 +887,7 @@ manager
 .
 useWindow
 "
-true
+false
 )
 ;
 pref
@@ -954,6 +964,10 @@ displayedHistoryDays
 *
 download
 alerts
+(
+disabled
+above
+)
 *
 /
 pref
