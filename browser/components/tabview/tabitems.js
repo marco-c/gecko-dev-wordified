@@ -1538,6 +1538,7 @@ not
 isShowingCachedData
 :
 function
+TabItem_isShowingCachedData
 (
 )
 {
@@ -6650,7 +6651,7 @@ loaded
 isComplete
 :
 function
-TabItems_update
+TabItems_isComplete
 (
 tab
 )
