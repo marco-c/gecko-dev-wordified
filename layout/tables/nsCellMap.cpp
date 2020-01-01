@@ -3294,13 +3294,7 @@ aDamageArea
 .
 y
 =
-PR_MIN
-(
 aFirstRowIndex
-aDamageArea
-.
-y
-)
 ;
 aDamageArea
 .
@@ -3313,9 +3307,7 @@ GetRowCount
 (
 )
 -
-aDamageArea
-.
-y
+aFirstRowIndex
 )
 ;
 #
