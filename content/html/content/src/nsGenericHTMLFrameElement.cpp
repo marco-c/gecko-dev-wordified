@@ -1458,6 +1458,16 @@ if
 nsContentUtils
 :
 :
+IsSystemPrincipal
+(
+principal
+)
+&
+&
+!
+nsContentUtils
+:
+:
 URIIsChromeOrInPref
 (
 principalURI
