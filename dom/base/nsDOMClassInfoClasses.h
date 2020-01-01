@@ -831,9 +831,5 @@ endif
 #
 ifdef
 MOZ_WEBRTC
-DOMCI_CLASS
-(
-DataChannel
-)
 #
 endif
