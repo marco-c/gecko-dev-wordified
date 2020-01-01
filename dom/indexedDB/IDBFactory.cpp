@@ -593,7 +593,7 @@ h
 #
 define
 DB_SCHEMA_VERSION
-2
+3
 USING_INDEXEDDB_NAMESPACE
 namespace
 {
@@ -1066,6 +1066,9 @@ ai_object_data
 "
 id
 INTEGER
+PRIMARY
+KEY
+AUTOINCREMENT
 "
 "
 object_store_id
@@ -1078,13 +1081,6 @@ data
 TEXT
 NOT
 NULL
-"
-"
-PRIMARY
-KEY
-(
-id
-)
 "
 "
 FOREIGN
