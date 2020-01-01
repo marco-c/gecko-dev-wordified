@@ -428,6 +428,10 @@ WebGLContextOptions
 (
 )
 :
+alpha
+(
+true
+)
 depth
 (
 true
@@ -459,8 +463,8 @@ based
 on
 preference
 .
-alpha
-=
+if
+(
 Preferences
 :
 :
@@ -477,11 +481,10 @@ alpha
 "
 false
 )
-?
-0
-:
-1
-;
+)
+alpha
+=
+false
 }
 WebGLContext
 :
