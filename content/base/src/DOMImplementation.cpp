@@ -102,7 +102,7 @@ h
 #
 include
 "
-nsDOMDocumentType
+DocumentType
 .
 h
 "
@@ -245,7 +245,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsDOMDocumentType
+DocumentType
 >
 DOMImplementation
 :
@@ -355,7 +355,7 @@ one
 )
 nsRefPtr
 <
-nsDOMDocumentType
+DocumentType
 >
 docType
 =

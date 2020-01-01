@@ -413,9 +413,6 @@ class
 nsIDOMDocumentType
 ;
 class
-nsDOMDocumentType
-;
-class
 nsXMLProcessingInstruction
 ;
 class
@@ -527,6 +524,9 @@ Comment
 ;
 class
 DocumentFragment
+;
+class
+DocumentType
 ;
 class
 DOMImplementation
@@ -3097,7 +3097,13 @@ document
 .
 *
 /
-nsDOMDocumentType
+mozilla
+:
+:
+dom
+:
+:
+DocumentType
 *
 GetDoctype
 (

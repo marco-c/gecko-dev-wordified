@@ -442,7 +442,7 @@ h
 #
 include
 "
-nsDOMDocumentType
+DocumentType
 .
 h
 "
@@ -23078,7 +23078,7 @@ nsIDOMDocument
 interface
 /
 /
-nsDOMDocumentType
+DocumentType
 *
 nsIDocument
 :
@@ -23129,7 +23129,7 @@ DOCUMENT_TYPE_NODE
 return
 static_cast
 <
-nsDOMDocumentType
+DocumentType
 *
 >
 (

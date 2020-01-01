@@ -212,7 +212,7 @@ h
 #
 include
 "
-nsDOMDocumentType
+DocumentType
 .
 h
 "

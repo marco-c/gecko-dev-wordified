@@ -146,15 +146,15 @@ h
 class
 nsIDOMDocument
 ;
-class
-nsDOMDocumentType
-;
 namespace
 mozilla
 {
 namespace
 dom
 {
+class
+DocumentType
+;
 class
 DOMImplementation
 MOZ_FINAL
@@ -270,7 +270,7 @@ aVersion
 ;
 already_AddRefed
 <
-nsDOMDocumentType
+DocumentType
 >
 CreateDocumentType
 (
