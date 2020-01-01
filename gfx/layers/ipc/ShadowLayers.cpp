@@ -2209,7 +2209,6 @@ return
 true
 ;
 }
-static
 SharedMemory
 :
 :
