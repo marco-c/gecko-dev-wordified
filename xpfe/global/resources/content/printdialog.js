@@ -3569,6 +3569,10 @@ kInitSaveColorSpace
 |
 gPrintSetInterface
 .
+kInitSaveEdges
+|
+gPrintSetInterface
+.
 kInitSaveInColor
 |
 gPrintSetInterface
