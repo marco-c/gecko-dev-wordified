@@ -1439,6 +1439,7 @@ ontimer
 "
 &
 sNotifyOnTimer
+PR_TRUE
 )
 ;
 /
