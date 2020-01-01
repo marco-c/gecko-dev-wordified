@@ -12056,10 +12056,7 @@ rt
 )
 compartment
 (
-rt
--
->
-defaultCompartment
+NULL
 )
 regs
 (
