@@ -517,13 +517,6 @@ nsIAccessibleStates
 STATE_MULTISELECTABLE
 ;
 const
-STATE_READONLY
-=
-nsIAccessibleStates
-.
-STATE_READONLY
-;
-const
 STATE_SELECTABLE
 =
 nsIAccessibleStates
@@ -536,13 +529,6 @@ STATE_SELECTED
 nsIAccessibleStates
 .
 STATE_SELECTED
-;
-const
-EXT_STATE_EDITABLE
-=
-nsIAccessibleStates
-.
-EXT_STATE_EDITABLE
 ;
 /
 /
