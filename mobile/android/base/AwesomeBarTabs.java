@@ -358,6 +358,7 @@ super
 )
 ;
 }
+Override
 public
 Object
 instantiateItem
@@ -391,6 +392,7 @@ return
 tab
 ;
 }
+Override
 public
 void
 destroyItem
@@ -423,6 +425,7 @@ getView
 )
 ;
 }
+Override
 public
 int
 getCount
@@ -442,6 +445,7 @@ mTabs
 length
 ;
 }
+Override
 public
 boolean
 isViewFromObject
@@ -870,6 +874,7 @@ OnPageChangeListener
 (
 )
 {
+Override
 public
 void
 onPageScrollStateChanged
@@ -879,6 +884,7 @@ state
 )
 {
 }
+Override
 public
 void
 onPageScrolled
@@ -892,6 +898,7 @@ positionOffsetPixels
 )
 {
 }
+Override
 public
 void
 onPageSelected

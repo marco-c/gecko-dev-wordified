@@ -169,15 +169,6 @@ widget
 ListView
 ;
 import
-android
-.
-widget
-.
-LinearLayout
-.
-LayoutParams
-;
-import
 java
 .
 util

@@ -113,15 +113,6 @@ util
 Log
 ;
 import
-java
-.
-util
-.
-concurrent
-.
-SynchronousQueue
-;
-import
 javax
 .
 microedition

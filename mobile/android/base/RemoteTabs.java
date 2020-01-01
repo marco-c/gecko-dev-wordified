@@ -64,17 +64,6 @@ mozilla
 gecko
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-widget
-.
-TwoWayView
-;
-import
 android
 .
 content

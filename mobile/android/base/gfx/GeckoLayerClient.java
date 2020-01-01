@@ -202,13 +202,6 @@ android
 .
 graphics
 .
-Rect
-;
-import
-android
-.
-graphics
-.
 RectF
 ;
 import
@@ -1026,6 +1019,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run

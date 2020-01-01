@@ -2524,6 +2524,7 @@ TextureView
 .
 SurfaceTextureListener
 {
+Override
 public
 void
 onSurfaceTextureAvailable
@@ -2572,6 +2573,7 @@ height
 )
 ;
 }
+Override
 public
 boolean
 onSurfaceTextureDestroyed
@@ -2606,6 +2608,7 @@ drawing
 to
 it
 }
+Override
 public
 void
 onSurfaceTextureSizeChanged
@@ -2625,6 +2628,7 @@ height
 )
 ;
 }
+Override
 public
 void
 onSurfaceTextureUpdated
