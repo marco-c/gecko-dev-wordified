@@ -265,15 +265,15 @@ various
 ArrayBufferViewObject
 subclasses
 (
-DataView
+DataViewObject
 and
 the
 TypedArrays
 )
+*
 access
 .
 It
-*
 can
 be
 created
@@ -283,8 +283,8 @@ passed
 to
 an
 ArrayBufferViewObject
-subclass
 *
+subclass
 or
 can
 be
@@ -296,6 +296,7 @@ a
 TypedArray
 with
 a
+*
 size
 .
 *

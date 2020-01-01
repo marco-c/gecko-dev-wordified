@@ -4087,9 +4087,8 @@ and
 delegate
 to
 normal
-DataView
+DataViewObject
 *
-object
 construction
 .
 *
@@ -8352,8 +8351,7 @@ to
 trace
 TypedArray
 and
-DataView
-objects
+DataViewObjects
 .
 We
 need
@@ -23758,7 +23756,7 @@ for
 use
 by
 the
-DataView
+DataViewObject
 constructor
 .
 *
