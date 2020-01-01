@@ -1035,7 +1035,7 @@ bool
 success
 )
 ;
-nsresult
+void
 GetDisplayPort
 (
 bool
