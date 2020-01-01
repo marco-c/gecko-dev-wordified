@@ -2428,6 +2428,9 @@ specified
 if
 (
 name
+&
+&
+name
 .
 length
 !
