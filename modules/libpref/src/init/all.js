@@ -19838,6 +19838,7 @@ MS
 PGothic
 MS
 Gothic
+Meiryo
 "
 )
 ;
@@ -19865,6 +19866,7 @@ MS
 PMincho
 MS
 Mincho
+Meiryo
 "
 )
 ;
@@ -19890,6 +19892,7 @@ MS
 PGothic
 MS
 PMincho
+Meiryo
 "
 )
 ;
@@ -20649,6 +20652,9 @@ CN
 MS
 Song
 SimSun
+SimSun
+-
+ExtB
 "
 )
 ;
@@ -20673,6 +20679,9 @@ CN
 MS
 Song
 SimSun
+SimSun
+-
+ExtB
 "
 )
 ;
@@ -20695,6 +20704,9 @@ CN
 MS
 Song
 SimSun
+SimSun
+-
+ExtB
 "
 )
 ;
@@ -20802,6 +20814,9 @@ TW
 "
 PMingLiu
 MingLiU
+MingLiU
+-
+ExtB
 "
 )
 ;
@@ -20825,6 +20840,9 @@ TW
 "
 PMingLiU
 MingLiU
+MingLiU
+-
+ExtB
 "
 )
 ;
@@ -20845,6 +20863,9 @@ TW
 "
 "
 MingLiU
+MingLiU
+-
+ExtB
 "
 )
 ;
@@ -20971,6 +20992,9 @@ for
 ISO10646
 )
 MingLiU
+MingLiU_HKSCS
+-
+ExtB
 "
 )
 ;
@@ -20999,6 +21023,9 @@ for
 ISO10646
 )
 MingLiU
+MingLiU_HKSCS
+-
+ExtB
 "
 )
 ;
@@ -21025,6 +21052,9 @@ for
 ISO10646
 )
 MingLiU
+MingLiU_HKSCS
+-
+ExtB
 "
 )
 ;
@@ -26136,8 +26166,7 @@ serif
 el
 "
 "
-Lucida
-Grande
+Times
 "
 )
 ;
@@ -26155,8 +26184,7 @@ serif
 el
 "
 "
-Lucida
-Grande
+Helvetica
 "
 )
 ;
@@ -26172,8 +26200,8 @@ monospace
 el
 "
 "
-Lucida
-Grande
+Courier
+New
 "
 )
 ;
@@ -26225,8 +26253,10 @@ serif
 el
 "
 "
-Lucida
-Grande
+Times
+Times
+New
+Roman
 "
 )
 ;
@@ -26246,6 +26276,7 @@ serif
 el
 "
 "
+Helvetica
 Lucida
 Grande
 "
@@ -26265,6 +26296,8 @@ monospace
 el
 "
 "
+Courier
+New
 Lucida
 Grande
 "
@@ -26284,6 +26317,7 @@ cursive
 el
 "
 "
+Times
 Lucida
 Grande
 "
@@ -26303,6 +26337,7 @@ fantasy
 el
 "
 "
+Times
 Lucida
 Grande
 "
@@ -26510,7 +26545,7 @@ ja
 "
 Hiragino
 Mincho
-Pro
+ProN
 "
 )
 ;
@@ -26531,7 +26566,7 @@ ja
 Hiragino
 Kaku
 Gothic
-Pro
+ProN
 "
 )
 ;
@@ -26569,6 +26604,9 @@ ja
 "
 Hiragino
 Mincho
+ProN
+Hiragino
+Mincho
 Pro
 "
 )
@@ -26589,6 +26627,10 @@ serif
 ja
 "
 "
+Hiragino
+Kaku
+Gothic
+ProN
 Hiragino
 Kaku
 Gothic
@@ -27916,6 +27958,9 @@ cyrillic
 "
 "
 Times
+Times
+New
+Roman
 "
 )
 ;
@@ -27938,6 +27983,7 @@ cyrillic
 "
 "
 Helvetica
+Arial
 "
 )
 ;
@@ -27958,6 +28004,8 @@ cyrillic
 "
 "
 Monaco
+Courier
+New
 "
 )
 ;
@@ -29662,6 +29710,9 @@ western
 "
 "
 Times
+Times
+New
+Roman
 "
 )
 ;
@@ -29684,6 +29735,7 @@ western
 "
 "
 Helvetica
+Arial
 "
 )
 ;
@@ -29704,6 +29756,8 @@ western
 "
 "
 Courier
+Courier
+New
 "
 )
 ;
@@ -29821,6 +29875,8 @@ CN
 "
 "
 STSong
+Heiti
+SC
 "
 )
 ;
@@ -29843,6 +29899,8 @@ CN
 "
 "
 STHeiti
+Heiti
+SC
 "
 )
 ;
@@ -29863,6 +29921,8 @@ CN
 "
 "
 STHeiti
+Heiti
+SC
 "
 )
 ;
@@ -29943,6 +30003,8 @@ TW
 "
 Apple
 LiSung
+Heiti
+TC
 "
 )
 ;
@@ -29966,6 +30028,8 @@ TW
 "
 Apple
 LiGothic
+Heiti
+TC
 "
 )
 ;
@@ -29987,6 +30051,8 @@ TW
 "
 Apple
 LiGothic
+Heiti
+TC
 "
 )
 ;
@@ -30067,6 +30133,8 @@ HK
 "
 LiSong
 Pro
+Heiti
+TC
 "
 )
 ;
@@ -30090,6 +30158,8 @@ HK
 "
 LiHei
 Pro
+Heiti
+TC
 "
 )
 ;
@@ -30111,6 +30181,8 @@ HK
 "
 LiHei
 Pro
+Heiti
+TC
 "
 )
 ;
