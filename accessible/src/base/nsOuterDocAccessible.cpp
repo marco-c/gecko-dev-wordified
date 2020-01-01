@@ -1714,9 +1714,10 @@ it
 s
 requested
 .
-mChildrenFlags
-=
+SetChildrenFlag
+(
 eChildrenUninitialized
+)
 ;
 }
 PRBool
