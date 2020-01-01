@@ -1021,11 +1021,11 @@ still
 in
 the
 "
-WaitingDoubleTap
+GESTURE_WAITING_DOUBLE_TAP
 "
+*
 state
 when
-*
 this
 is
 called
@@ -1039,10 +1039,10 @@ short
 time
 after
 a
+*
 single
 tap
 is
-*
 detected
 and
 the
@@ -1055,10 +1055,10 @@ enough
 that
 the
 user
+*
 has
 time
 to
-*
 tap
 again
 (
@@ -1256,7 +1256,7 @@ in
 the
 *
 "
-WaitingDoubleTap
+GESTURE_WAITING_DOUBLE_TAP
 "
 state
 .
