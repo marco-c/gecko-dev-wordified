@@ -6430,16 +6430,6 @@ false
 }
 if
 (
-!
-f
-)
-{
-return
-nullptr
-;
-}
-if
-(
 aItem
 -
 >

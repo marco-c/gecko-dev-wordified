@@ -3015,10 +3015,6 @@ GetUnderlyingFrame
 if
 (
 !
-f
-|
-|
-!
 nsLayoutUtils
 :
 :

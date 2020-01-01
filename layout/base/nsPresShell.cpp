@@ -26754,11 +26754,6 @@ GetUnderlyingFrame
 (
 )
 ;
-if
-(
-frame
-)
-{
 nsIContent
 *
 content
@@ -27219,7 +27214,6 @@ snap
 )
 )
 ;
-}
 }
 }
 }
@@ -32211,11 +32205,6 @@ image
 loading
 content
 .
-if
-(
-f
-)
-{
 /
 /
 dont
@@ -32300,7 +32289,6 @@ AppendElement
 content
 )
 ;
-}
 }
 }
 }
