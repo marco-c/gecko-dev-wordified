@@ -1755,6 +1755,9 @@ RawReader
 :
 GetBuffered
 (
+dom
+:
+:
 TimeRanges
 *
 aBuffered

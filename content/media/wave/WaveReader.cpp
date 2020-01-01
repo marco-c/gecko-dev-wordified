@@ -784,6 +784,9 @@ NS_ERROR_FAILURE
 }
 nsAutoPtr
 <
+dom
+:
+:
 HTMLMediaElement
 :
 :
@@ -1676,6 +1679,9 @@ WaveReader
 :
 GetBuffered
 (
+dom
+:
+:
 TimeRanges
 *
 aBuffered
@@ -3343,6 +3349,9 @@ uint32_t
 aChunkSize
 nsAutoPtr
 <
+dom
+:
+:
 HTMLMediaElement
 :
 :
@@ -3576,6 +3585,9 @@ aChunkSize
 aTags
 =
 new
+dom
+:
+:
 HTMLMediaElement
 :
 :
@@ -3819,6 +3831,9 @@ LoadAllChunks
 (
 nsAutoPtr
 <
+dom
+:
+:
 HTMLMediaElement
 :
 :
