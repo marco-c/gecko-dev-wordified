@@ -803,6 +803,14 @@ mozIStorageConnection
 aConnection
 )
 ;
+nsresult
+ExpireInputHistoryParanoid
+(
+mozIStorageConnection
+*
+aConnection
+)
+;
 PRBool
 ExpireForDegenerateRuns
 (
