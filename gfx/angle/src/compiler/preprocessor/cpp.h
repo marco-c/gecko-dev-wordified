@@ -761,6 +761,7 @@ TString
 void
 CPPErrorToInfoLog
 (
+const
 char
 *
 )

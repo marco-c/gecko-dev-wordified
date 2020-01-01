@@ -1696,6 +1696,9 @@ config
 mConfigCaveat
 =
 =
+(
+EGLenum
+)
 attribute
 [
 1
@@ -1750,6 +1753,9 @@ config
 mNativeRenderable
 =
 =
+(
+EGLBoolean
+)
 attribute
 [
 1
@@ -1847,6 +1853,9 @@ config
 mTransparentType
 =
 =
+(
+EGLenum
+)
 attribute
 [
 1
@@ -1919,6 +1928,9 @@ config
 mBindToTextureRGB
 =
 =
+(
+EGLBoolean
+)
 attribute
 [
 1
@@ -1937,6 +1949,9 @@ config
 mBindToTextureRGBA
 =
 =
+(
+EGLBoolean
+)
 attribute
 [
 1
@@ -2027,6 +2042,9 @@ config
 mColorBufferType
 =
 =
+(
+EGLenum
+)
 attribute
 [
 1

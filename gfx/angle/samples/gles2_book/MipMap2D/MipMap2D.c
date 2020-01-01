@@ -926,6 +926,8 @@ prevImage
 GLubyte
 *
 newImage
+=
+NULL
 ;
 pixels
 =

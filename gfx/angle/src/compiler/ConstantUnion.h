@@ -64,6 +64,15 @@ ConstantUnion
 {
 public
 :
+ConstantUnion
+(
+)
+{
+iConst
+=
+0
+;
+}
 POOL_ALLOCATOR_NEW_DELETE
 (
 GlobalPoolAllocator
@@ -295,9 +304,6 @@ return
 false
 ;
 }
-return
-false
-;
 }
 bool
 operator
@@ -444,9 +450,6 @@ at
 semantic
 analysis
 }
-return
-false
-;
 }
 bool
 operator
@@ -508,9 +511,6 @@ at
 semantic
 analysis
 }
-return
-false
-;
 }
 ConstantUnion
 operator

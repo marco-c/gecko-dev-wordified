@@ -79,11 +79,6 @@ compilerdebug
 .
 h
 "
-#
-include
-<
-cstdlib
->
 /
 /
 /
@@ -1453,13 +1448,9 @@ getTypeName
 )
 const
 {
-if
+assert
 (
-!
 typeName
-)
-abort
-(
 )
 ;
 return

@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2011
+2012
 The
 ANGLE
 Project
@@ -499,6 +499,13 @@ getOcclusionQuerySupport
 const
 ;
 virtual
+bool
+getInstancingSupport
+(
+)
+const
+;
+virtual
 D3DPOOL
 getBufferPool
 (
@@ -531,6 +538,7 @@ bool
 isD3d9ExDevice
 (
 )
+const
 {
 return
 mD3d9Ex
@@ -543,6 +551,12 @@ const
 char
 *
 getExtensionString
+(
+)
+const
+;
+bool
+shareHandleSupported
 (
 )
 const

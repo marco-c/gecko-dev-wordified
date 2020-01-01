@@ -54,17 +54,13 @@ h
 #
 include
 <
-cstdio
+cassert
 >
 #
 include
-"
-compiler
-/
-debug
-.
-h
-"
+<
+cstdio
+>
 namespace
 pp
 {
@@ -119,7 +115,7 @@ mState
 kStateInitial
 )
 {
-ASSERT
+assert
 (
 mCount
 >
@@ -141,7 +137,7 @@ eof
 )
 const
 {
-ASSERT
+assert
 (
 mIndex
 <
@@ -473,7 +469,7 @@ break
 ;
 default
 :
-ASSERT
+assert
 (
 false
 )
@@ -554,7 +550,7 @@ from
 empty
 string
 .
-ASSERT
+assert
 (
 length
 !
@@ -670,7 +666,7 @@ switchToNextString
 (
 )
 {
-ASSERT
+assert
 (
 mIndex
 <
@@ -713,7 +709,7 @@ int
 index
 )
 {
-ASSERT
+assert
 (
 index
 <
@@ -780,7 +776,7 @@ int
 index
 )
 {
-ASSERT
+assert
 (
 index
 <

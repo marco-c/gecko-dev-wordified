@@ -1605,6 +1605,12 @@ srcB
 {
 ESMatrix
 tmp
+=
+{
+0
+.
+0f
+}
 ;
 int
 i

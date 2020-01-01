@@ -264,7 +264,7 @@ GLubyte
 *
 mContents
 ;
-size_t
+GLsizeiptr
 mSize
 ;
 GLenum
@@ -278,7 +278,7 @@ StaticIndexBuffer
 *
 mStaticIndexBuffer
 ;
-size_t
+GLsizeiptr
 mUnmodifiedDataUse
 ;
 }
