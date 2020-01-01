@@ -300,6 +300,9 @@ nsStreamUtils
 h
 "
 #
+ifdef
+MOZ_WEBGL
+#
 include
 "
 .
@@ -313,6 +316,8 @@ WebGL2Context
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
@@ -3569,7 +3574,9 @@ return
 NS_OK
 ;
 }
-else
+#
+ifdef
+MOZ_WEBGL
 if
 (
 WebGL2Context
@@ -3648,6 +3655,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 NS_ConvertUTF16toUTF8
 ctxId
 (
