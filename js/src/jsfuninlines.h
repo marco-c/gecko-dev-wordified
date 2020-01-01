@@ -934,6 +934,17 @@ native
 {
 JS_ASSERT
 (
+!
+obj
+-
+>
+isProxy
+(
+)
+)
+;
+JS_ASSERT
+(
 obj
 -
 >

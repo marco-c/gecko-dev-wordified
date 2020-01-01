@@ -3603,8 +3603,7 @@ const
 StackBaseShape
 &
 base
-JSObject
-*
+TaggedProto
 proto
 Shape
 *
@@ -4040,8 +4039,7 @@ cx
 JSObject
 *
 obj
-JSObject
-*
+TaggedProto
 proto
 Shape
 *
@@ -4061,8 +4059,7 @@ BaseShape
 :
 Flag
 flag
-JSObject
-*
+TaggedProto
 proto
 Shape
 *
@@ -6211,8 +6208,7 @@ cx
 Class
 *
 clasp
-JSObject
-*
+TaggedProto
 proto
 JSObject
 *
@@ -6388,8 +6384,7 @@ itself
 .
 *
 /
-JSObject
-*
+TaggedProto
 proto
 ;
 /
@@ -6414,8 +6409,7 @@ Class
 *
 clasp
 ;
-JSObject
-*
+TaggedProto
 proto
 ;
 JSObject
@@ -6433,8 +6427,7 @@ Lookup
 Class
 *
 clasp
-JSObject
-*
+TaggedProto
 proto
 JSObject
 *
@@ -6484,8 +6477,7 @@ Shape
 >
 &
 shape
-JSObject
-*
+TaggedProto
 proto
 )
 ;
