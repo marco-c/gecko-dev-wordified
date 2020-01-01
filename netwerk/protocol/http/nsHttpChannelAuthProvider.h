@@ -188,6 +188,15 @@ nsIDNSListener
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIHttpAuthenticator
 ;
@@ -1009,6 +1018,7 @@ DNS
 callback
 class
 DNSCallback
+MOZ_FINAL
 :
 public
 nsIDNSListener
