@@ -137,8 +137,10 @@ js_NewModule
 JSContext
 *
 cx
-JSAtom
-*
+js
+:
+:
+HandleAtom
 atom
 )
 ;

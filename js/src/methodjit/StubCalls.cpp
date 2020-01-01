@@ -7190,10 +7190,12 @@ pc
 .
 *
 /
-JSObject
-*
+RootedObject
 proto
-=
+(
+f
+.
+cx
 f
 .
 fp
@@ -7210,6 +7212,7 @@ getOrCreateRegExpPrototype
 f
 .
 cx
+)
 )
 ;
 if
