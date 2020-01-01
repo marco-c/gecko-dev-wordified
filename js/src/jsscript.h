@@ -6586,6 +6586,13 @@ uint32_t
 stop
 )
 ;
+size_t
+sizeOfIncludingThis
+(
+JSMallocSizeOfFun
+mallocSizeOf
+)
+;
 /
 /
 For
