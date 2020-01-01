@@ -11932,8 +11932,7 @@ button
 not
 on
 the
-new
-tab
+expand
 button
 not
 on
@@ -11944,7 +11943,7 @@ and
 its
 /
 /
-element
+elements
 if
 (
 Utils
@@ -11969,6 +11968,17 @@ target
 self
 .
 titlebar
+[
+0
+]
+!
+=
+target
+&
+&
+self
+.
+expander
 [
 0
 ]
