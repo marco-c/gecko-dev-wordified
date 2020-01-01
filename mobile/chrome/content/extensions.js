@@ -6625,7 +6625,7 @@ GetStringFromName
 "
 addonsSearchFail
 .
-button
+retryButton
 "
 )
 ;
