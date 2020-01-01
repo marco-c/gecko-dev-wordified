@@ -3250,7 +3250,7 @@ NS_okonheap
 )
 #
 define
-NS_SUPRESS_STACK_CHECK
+NS_SUPPRESS_STACK_CHECK
 __attribute__
 (
 (
