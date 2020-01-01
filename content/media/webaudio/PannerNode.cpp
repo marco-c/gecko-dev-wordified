@@ -2755,6 +2755,17 @@ Normalize
 (
 )
 ;
+ThreeDPoint
+normalizedSourceOrientation
+=
+mOrientation
+;
+normalizedSourceOrientation
+.
+Normalize
+(
+)
+;
 /
 /
 Angle
@@ -2776,7 +2787,7 @@ sourceToListener
 .
 DotProduct
 (
-mOrientation
+normalizedSourceOrientation
 )
 ;
 double
