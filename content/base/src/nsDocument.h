@@ -6319,9 +6319,6 @@ nsIScriptEventManager
 >
 mScriptEventManager
 ;
-nsString
-mBaseTarget
-;
 /
 /
 Our
