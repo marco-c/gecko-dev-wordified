@@ -1933,7 +1933,7 @@ Content
 -
 Viewers
 "
-IMAGE_SVG_XML
+SVG_MIMETYPE
 getter_Copies
 (
 contractId
@@ -1989,7 +1989,7 @@ resource
 "
 chan
 newLoadGroup
-IMAGE_SVG_XML
+SVG_MIMETYPE
 nullptr
 nullptr
 getter_AddRefs

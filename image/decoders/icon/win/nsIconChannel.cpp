@@ -3557,7 +3557,13 @@ aContentType
 .
 AssignLiteral
 (
-IMAGE_ICO
+"
+image
+/
+x
+-
+icon
+"
 )
 ;
 return
