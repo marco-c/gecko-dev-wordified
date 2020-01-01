@@ -4043,7 +4043,7 @@ menuitem_open
 menuitem_show
 "
 "
-menuitem_remove
+menuitem_removeFromList
 "
 "
 menuitem_clearList
@@ -4063,7 +4063,7 @@ DOWNLOAD_FAILED
 menuitem_retry
 "
 "
-menuitem_remove
+menuitem_removeFromList
 "
 "
 menuitem_clearList
@@ -4083,7 +4083,7 @@ DOWNLOAD_CANCELED
 menuitem_retry
 "
 "
-menuitem_remove
+menuitem_removeFromList
 "
 "
 menuitem_clearList
@@ -4134,7 +4134,7 @@ DOWNLOAD_BLOCKED
 menuitem_retry
 "
 "
-menuitem_remove
+menuitem_removeFromList
 "
 "
 menuitem_clearList
@@ -4826,7 +4826,7 @@ cmd_openReferrer
 :
 case
 "
-cmd_remove
+cmd_removeFromList
 "
 :
 case
@@ -5065,7 +5065,7 @@ aSelectedItem
 )
 ;
 }
-cmd_remove
+cmd_removeFromList
 :
 function
 (
