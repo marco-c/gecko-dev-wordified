@@ -2344,6 +2344,8 @@ jsbytecode
 pc
 )
 {
+/
+/
 jsval
 args
 [
@@ -2356,6 +2358,8 @@ pc
 )
 }
 ;
+/
+/
 js_CallRecorder
 (
 cx
