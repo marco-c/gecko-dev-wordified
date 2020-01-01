@@ -1372,7 +1372,6 @@ cur
 end
 ;
 }
-const
 T
 &
 front
