@@ -650,7 +650,12 @@ box
 .
 verifiedIdentity
 >
-hbox
+#
+identity
+-
+box
+-
+inner
 >
 #
 identity
