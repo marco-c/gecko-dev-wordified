@@ -244,6 +244,11 @@ SetArgumentsObjectArg
 \
 _
 (
+ComputeThis
+)
+\
+_
+(
 PrepareCall
 )
 \
