@@ -266,6 +266,14 @@ arity
 checkMethod
 (
 "
+size
+"
+0
+)
+;
+checkMethod
+(
+"
 get
 "
 1
