@@ -979,7 +979,7 @@ hasTable
 )
 )
 ;
-PropertyTable
+ShapeTable
 &
 table
 =
@@ -1248,7 +1248,7 @@ hasTable
 )
 )
 {
-PropertyTable
+ShapeTable
 &
 table
 =

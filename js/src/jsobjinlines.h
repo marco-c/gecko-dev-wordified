@@ -6693,7 +6693,7 @@ bool
 JSObject
 :
 :
-hasPropertyTable
+hasShapeTable
 (
 )
 const
