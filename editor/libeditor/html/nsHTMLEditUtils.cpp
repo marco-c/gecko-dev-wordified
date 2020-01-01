@@ -5339,6 +5339,7 @@ hgroup
 hr
 iframe
 ins
+main
 map
 menu
 nav
@@ -6274,6 +6275,14 @@ false
 false
 GROUP_NONE
 GROUP_NONE
+)
+ELEM
+(
+main
+true
+true
+GROUP_BLOCK
+GROUP_FLOW_ELEMENT
 )
 ELEM
 (

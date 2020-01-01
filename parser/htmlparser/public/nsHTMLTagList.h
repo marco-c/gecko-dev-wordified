@@ -651,6 +651,10 @@ HTML_HTMLELEMENT_TAG
 (
 listing
 )
+HTML_HTMLELEMENT_TAG
+(
+main
+)
 HTML_TAG
 (
 map

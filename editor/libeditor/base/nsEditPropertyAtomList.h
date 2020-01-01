@@ -881,6 +881,13 @@ li
 )
 EDITOR_ATOM
 (
+main
+"
+main
+"
+)
+EDITOR_ATOM
+(
 map
 "
 map
