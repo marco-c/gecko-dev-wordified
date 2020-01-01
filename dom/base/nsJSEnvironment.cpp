@@ -592,6 +592,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+CanvasRenderingContext2DBinding
+.
+h
+"
+#
+include
+"
 sampler
 .
 h
