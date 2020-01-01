@@ -10702,15 +10702,6 @@ numSuccessors
 mirBlock
 -
 >
-resumePointsEmpty
-(
-)
-|
-|
-!
-mirBlock
--
->
 begin
 (
 )
