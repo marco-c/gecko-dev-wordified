@@ -3780,6 +3780,13 @@ granule_at
 endif
 }
 else
+if
+(
+offset_next
+>
+=
+0
+)
 {
 serialno
 =
