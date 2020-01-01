@@ -21810,9 +21810,7 @@ NS_GetContentList
 (
 this
 nameAtom
-GetDefaultNamespaceID
-(
-)
+kNameSpaceID_Unknown
 )
 .
 get

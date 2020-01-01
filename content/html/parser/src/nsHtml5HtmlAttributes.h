@@ -374,6 +374,9 @@ class
 nsHtml5UTF16Buffer
 ;
 class
+nsHtml5StateSnapshot
+;
+class
 nsHtml5Portability
 ;
 class

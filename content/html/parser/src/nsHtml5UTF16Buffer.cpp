@@ -388,6 +388,13 @@ h
 #
 include
 "
+nsHtml5StateSnapshot
+.
+h
+"
+#
+include
+"
 nsHtml5Portability
 .
 h
