@@ -978,7 +978,7 @@ sInnerEventLoopDepth
 }
 protected
 :
-void
+bool
 WaitForNotify
 (
 )
