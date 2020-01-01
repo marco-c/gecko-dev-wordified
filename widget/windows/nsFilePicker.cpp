@@ -2883,7 +2883,7 @@ browserInfo
 .
 iImage
 =
-0
+nsnull
 ;
 browserInfo
 .
@@ -2967,13 +2967,13 @@ browserInfo
 .
 lParam
 =
-0
+nsnull
 ;
 browserInfo
 .
 lpfn
 =
-NULL
+nsnull
 ;
 }
 LPITEMIDLIST
@@ -4505,11 +4505,7 @@ lpstrFile
 0
 ]
 =
-L
-'
-\
-0
-'
+nsnull
 ;
 result
 =
