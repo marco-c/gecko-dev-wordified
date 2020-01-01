@@ -833,13 +833,6 @@ jsutil
 .
 h
 "
-/
-*
-Added
-by
-JSIFY
-*
-/
 #
 include
 "

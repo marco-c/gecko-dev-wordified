@@ -528,13 +528,6 @@ jshash
 .
 h
 "
-/
-*
-Added
-by
-JSIFY
-*
-/
 #
 include
 "

@@ -494,13 +494,6 @@ jsarena
 .
 h
 "
-/
-*
-Added
-by
-JSIFY
-*
-/
 #
 include
 "
@@ -508,13 +501,6 @@ jsutil
 .
 h
 "
-/
-*
-Added
-by
-JSIFY
-*
-/
 #
 include
 "

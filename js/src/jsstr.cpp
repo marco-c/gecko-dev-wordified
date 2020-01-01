@@ -574,13 +574,6 @@ jsutil
 .
 h
 "
-/
-*
-Added
-by
-JSIFY
-*
-/
 #
 include
 "
@@ -588,13 +581,6 @@ jshash
 .
 h
 "
-/
-*
-Added
-by
-JSIFY
-*
-/
 #
 include
 "

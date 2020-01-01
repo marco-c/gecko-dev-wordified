@@ -520,13 +520,6 @@ jsarena
 .
 h
 "
-/
-*
-Added
-by
-JSIFY
-*
-/
 #
 include
 "
