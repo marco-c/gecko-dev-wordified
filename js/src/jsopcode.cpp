@@ -34665,10 +34665,7 @@ pcdepth
 0
 )
 return
-uintN
-(
 pcdepth
-)
 ;
 return
 SimulateImacroCFG
