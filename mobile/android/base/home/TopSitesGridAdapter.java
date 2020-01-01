@@ -205,13 +205,13 @@ the
 pinned
 and
 top
-bookmarks
+sites
 .
 *
 /
 public
 class
-TopBookmarksAdapter
+TopSitesGridAdapter
 extends
 CursorAdapter
 {
@@ -301,7 +301,7 @@ isThumbnail
 }
 }
 public
-TopBookmarksAdapter
+TopSitesGridAdapter
 (
 Context
 context
@@ -512,11 +512,11 @@ isPinned
 )
 ;
 }
-TopBookmarkItemView
+TopSitesGridItemView
 view
 =
 (
-TopBookmarkItemView
+TopSitesGridItemView
 )
 bindView
 ;
@@ -573,7 +573,7 @@ R
 .
 drawable
 .
-top_bookmark_add
+top_site_add
 )
 ;
 }
@@ -676,7 +676,7 @@ parent
 {
 return
 new
-TopBookmarkItemView
+TopSitesGridItemView
 (
 context
 )
