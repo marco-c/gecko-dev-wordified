@@ -2527,14 +2527,6 @@ nsIFile
 appOmni
 )
 )
-XRE_API
-(
-void
-XRE_DisableWritePoisoning
-(
-void
-)
-)
 #
 ifdef
 XP_WIN
