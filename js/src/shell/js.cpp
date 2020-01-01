@@ -23875,7 +23875,7 @@ StopTraceVisNative
 endif
 #
 ifdef
-DEBUG_ARRAYS
+DEBUG
 JS_FN
 (
 "
@@ -25238,7 +25238,7 @@ recording
 endif
 #
 ifdef
-DEBUG_ARRAYS
+DEBUG
 "
 arrayInfo
 (
