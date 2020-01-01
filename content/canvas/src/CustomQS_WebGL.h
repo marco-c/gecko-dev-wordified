@@ -2167,7 +2167,7 @@ rv
 self
 -
 >
-TexImage2D_array
+TexImage2D_imageData
 (
 argv0
 argv1
@@ -2905,7 +2905,7 @@ rv
 self
 -
 >
-TexSubImage2D_array
+TexSubImage2D_imageData
 (
 argv0
 argv1
