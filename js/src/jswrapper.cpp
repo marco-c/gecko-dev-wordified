@@ -5883,6 +5883,16 @@ or
 swap
 )
 .
+JS_ASSERT
+(
+wobj
+-
+>
+isWrapper
+(
+)
+)
+;
 wcompartment
 -
 >
