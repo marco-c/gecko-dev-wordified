@@ -484,6 +484,13 @@ nsPluginError
 .
 h
 "
+#
+include
+"
+nsIUnicodeDecoder
+.
+h
+"
 /
 *
 *
