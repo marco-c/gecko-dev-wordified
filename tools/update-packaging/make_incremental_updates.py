@@ -2398,6 +2398,7 @@ to_dir_path
 patch_filename
 shas
 patch_info
+forced_updates
 )
 :
     
@@ -2484,6 +2485,30 @@ to_dir_path
 )
     
 #
+Create
+a
+list
+of
+the
+forced
+updates
+    
+forced_list
+=
+forced_updates
+.
+strip
+(
+)
+.
+split
+(
+'
+|
+'
+)
+    
+#
 Files
 which
 exist
@@ -2534,6 +2559,42 @@ filename
 ]
         
 if
+filename
+in
+forced_list
+:
+            
+print
+"
+Forcing
+"
++
+filename
+            
+#
+This
+filename
+is
+in
+the
+forced
+list
+explicitly
+add
+       	    
+create_add_patch_for_file
+(
+to_dir_hash
+[
+filename
+]
+patch_info
+)
+        
+else
+:
+          
+if
 from_marfile_entry
 .
 sha
@@ -2547,7 +2608,7 @@ sha
 (
 )
 :
-            
+              
 #
 Not
 the
@@ -2556,7 +2617,7 @@ same
 calculate
 a
 patch
-            
+              
 create_partial_patch_for_file
 (
 from_marfile_entry
@@ -3662,6 +3723,7 @@ txt
 '
 ]
 )
+forced_updates
 )
             
 partial_buildid
