@@ -222,7 +222,7 @@ Destroy
 ;
 mLayerManager
 =
-NULL
+nullptr
 ;
 while
 (
@@ -561,7 +561,7 @@ CompositorChild
 }
 sCompositor
 =
-NULL
+nullptr
 ;
 /
 /

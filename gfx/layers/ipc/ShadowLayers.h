@@ -1640,7 +1640,7 @@ aAfter
 can
 be
 *
-NULL
+nullptr
 to
 indicated
 that
@@ -1678,7 +1678,7 @@ ShadowableLayer
 *
 aAfter
 =
-NULL
+nullptr
 )
 ;
 void
@@ -1705,7 +1705,7 @@ ShadowableLayer
 *
 aAfter
 =
-NULL
+nullptr
 )
 ;
 /
@@ -3005,7 +3005,7 @@ if
 one
 *
 exists
-NULL
+nullptr
 if
 not
 .
@@ -3040,7 +3040,7 @@ ShadowableLayer
 :
 mShadow
 (
-NULL
+nullptr
 )
 {
 }

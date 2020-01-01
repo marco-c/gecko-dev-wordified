@@ -147,7 +147,7 @@ ShadowLayerParent
 :
 mLayer
 (
-NULL
+nullptr
 )
 {
 }
@@ -415,7 +415,7 @@ unreached
 }
 mLayer
 =
-NULL
+nullptr
 ;
 }
 }
