@@ -7211,6 +7211,10 @@ nsIAccessible
 >
 parent
 accessible
+;
+accessible
+.
+swap
 (
 *
 aAccessible
