@@ -1286,6 +1286,10 @@ MaybeCC
 (
 PRBool
 aHigherProbability
+PRBool
+aForceGC
+=
+PR_FALSE
 )
 ;
 /
@@ -1340,6 +1344,7 @@ inactive
 otherwise
 MaybeCC
 (
+PR_TRUE
 PR_TRUE
 )
 static
