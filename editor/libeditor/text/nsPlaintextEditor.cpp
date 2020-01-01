@@ -521,7 +521,7 @@ nsEditor
 )
 mRules
 (
-nullptr
+nsnull
 )
 mWrapToWindow
 (
@@ -977,7 +977,7 @@ singleLine
 .
 pasteNewlines
 "
-nullptr
+nsnull
 )
 ;
 Preferences
@@ -1004,7 +1004,7 @@ selection
 .
 caret_style
 "
-nullptr
+nsnull
 )
 ;
 }
@@ -2474,7 +2474,7 @@ NS_ERROR_NULL_POINTER
 *
 outBRNode
 =
-nullptr
+nsnull
 ;
 nsresult
 res
@@ -2940,7 +2940,7 @@ NS_ERROR_NULL_POINTER
 *
 outBRNode
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -3973,7 +3973,7 @@ nsAutoPlaceHolderBatch
 batch
 (
 this
-nullptr
+nsnull
 )
 ;
 nsAutoRules
@@ -5622,9 +5622,6 @@ element
 nsAutoString
 styleValue
 ;
-nsresult
-res
-=
 rootElement
 -
 >
@@ -5636,12 +5633,6 @@ nsGkAtoms
 :
 style
 styleValue
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 /
@@ -7084,7 +7075,7 @@ mRules
 >
 WillDoAction
 (
-nullptr
+nsnull
 &
 ruleInfo
 &
@@ -7548,7 +7539,7 @@ char
 *
 flav
 =
-nullptr
+nsnull
 ;
 rv
 =
