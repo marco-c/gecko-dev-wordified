@@ -180,8 +180,7 @@ obj_toStringHelper
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 ;

@@ -570,8 +570,7 @@ RegExpToShared
 JSContext
 *
 cx
-JSObject
-&
+HandleObject
 obj
 RegExpGuard
 *
@@ -581,14 +580,16 @@ g
 if
 (
 obj
-.
+-
+>
 isRegExp
 (
 )
 )
 return
 obj
-.
+-
+>
 asRegExp
 (
 )
@@ -606,7 +607,6 @@ Proxy
 regexp_toShared
 (
 cx
-&
 obj
 g
 )
