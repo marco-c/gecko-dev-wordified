@@ -8368,6 +8368,12 @@ GonkCameraHardware
 ReleaseHandle
 (
 mHwHandle
+true
+/
+*
+unregister
+*
+/
 )
 ;
 if

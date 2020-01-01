@@ -329,6 +329,8 @@ ReleaseHandle
 (
 uint32_t
 aHwHandle
+bool
+aUnregisterTarget
 )
 ;
 static
