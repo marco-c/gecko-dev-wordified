@@ -12629,13 +12629,6 @@ normal
 ]
 #
 TabsToolbar
-:
-not
-(
-[
-inFullscreen
-]
-)
 {
 padding
 -
