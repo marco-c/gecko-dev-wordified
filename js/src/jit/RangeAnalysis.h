@@ -537,6 +537,11 @@ analyze
 )
 ;
 bool
+addRangeAssertions
+(
+)
+;
+bool
 removeBetaNobes
 (
 )
