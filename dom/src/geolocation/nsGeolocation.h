@@ -631,7 +631,7 @@ location
 has
 changed
 .
-void
+bool
 Update
 (
 nsIDOMGeoPosition
