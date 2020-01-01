@@ -605,9 +605,6 @@ decendents
 nsRegion
 mSubDocDirtyRegion
 ;
-nsRect
-mCoveredRegion
-;
 bool
 mInReflow
 ;
