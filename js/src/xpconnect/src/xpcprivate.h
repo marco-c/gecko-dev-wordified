@@ -22665,10 +22665,6 @@ mState
 (
 0
 )
-mErrorReporterSet
-(
-PR_FALSE
-)
 mEvaluated
 (
 PR_FALSE
@@ -22764,8 +22760,8 @@ JSExceptionState
 *
 mState
 ;
-PRBool
-mErrorReporterSet
+JSErrorReporter
+mOldErrorReporter
 ;
 PRBool
 mEvaluated

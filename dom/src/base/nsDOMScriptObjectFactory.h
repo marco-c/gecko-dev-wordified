@@ -542,6 +542,8 @@ public
 nsIDOMScriptObjectFactory
 public
 nsIObserver
+public
+nsIExceptionProvider
 {
 public
 :
@@ -554,6 +556,10 @@ NS_DECL_ISUPPORTS
 /
 nsIObserver
 NS_DECL_NSIOBSERVER
+/
+/
+nsIExceptionProvider
+NS_DECL_NSIEXCEPTIONPROVIDER
 /
 /
 nsIDOMScriptObjectFactory
@@ -672,17 +678,5 @@ mLanguageArray
 NS_STID_ARRAY_UBOUND
 ]
 ;
-}
-;
-class
-nsDOMExceptionProvider
-:
-public
-nsIExceptionProvider
-{
-public
-:
-NS_DECL_ISUPPORTS
-NS_DECL_NSIEXCEPTIONPROVIDER
 }
 ;
