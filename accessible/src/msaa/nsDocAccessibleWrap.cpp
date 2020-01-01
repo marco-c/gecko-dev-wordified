@@ -2142,14 +2142,14 @@ void
 nsDocAccessibleWrap
 :
 :
-NotifyOfInitialUpdate
+DoInitialUpdate
 (
 )
 {
 nsDocAccessible
 :
 :
-NotifyOfInitialUpdate
+DoInitialUpdate
 (
 )
 ;

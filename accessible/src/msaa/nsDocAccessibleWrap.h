@@ -821,7 +821,7 @@ protected
 nsDocAccessible
 virtual
 void
-NotifyOfInitialUpdate
+DoInitialUpdate
 (
 )
 ;
