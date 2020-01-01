@@ -954,6 +954,12 @@ gService
 ;
 }
 static
+PRInt64
+MemoryDeviceSize
+(
+)
+;
+static
 nsresult
 DoomEntry
 (
