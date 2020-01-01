@@ -190,13 +190,6 @@ h
 #
 include
 "
-prerror
-.
-h
-"
-#
-include
-"
 prerr
 .
 h
@@ -1079,7 +1072,6 @@ code
 )
 ;
 }
-static
 nsresult
 ErrorAccordingToNSPR
 (
