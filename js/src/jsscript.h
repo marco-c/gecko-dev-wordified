@@ -5983,6 +5983,11 @@ trynotesOffset
 )
 ;
 }
+bool
+hasLoops
+(
+)
+;
 js
 :
 :

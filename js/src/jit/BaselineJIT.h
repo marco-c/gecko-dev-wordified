@@ -1525,6 +1525,13 @@ uint32_t
 pcOffset
 )
 ;
+void
+noteArrayWriteHole
+(
+uint32_t
+pcOffset
+)
+;
 static
 size_t
 offsetOfFlags
