@@ -507,6 +507,16 @@ GetTreeBody
 (
 )
 ;
+nsITreeBoxObject
+*
+GetCachedTreeBody
+(
+)
+{
+return
+mTreeBody
+;
+}
 /
 /
 NS_PIBOXOBJECT
