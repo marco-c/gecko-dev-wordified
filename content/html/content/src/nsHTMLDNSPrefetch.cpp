@@ -1166,6 +1166,11 @@ NS_ConvertUTF16toUTF8
 hostname
 )
 flags
+|
+nsIDNSService
+:
+:
+RESOLVE_SPECULATE
 sDNSListener
 nsnull
 getter_AddRefs
@@ -1861,6 +1866,11 @@ mTail
 ]
 .
 mFlags
+|
+nsIDNSService
+:
+:
+RESOLVE_SPECULATE
 sDNSListener
 nsnull
 getter_AddRefs
