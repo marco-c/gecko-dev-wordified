@@ -1541,6 +1541,12 @@ const
 Value
 &
 v
+types
+:
+:
+TypeSet
+*
+typeSet
 )
 {
 FrameEntry
@@ -1561,6 +1567,13 @@ Jsvalify
 v
 )
 )
+;
+fe
+-
+>
+typeSet
+=
+typeSet
 ;
 }
 inline
