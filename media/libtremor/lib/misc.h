@@ -484,9 +484,7 @@ whole
 }
 ;
 #
-endif
-#
-if
+elif
 BYTE_ORDER
 =
 =
