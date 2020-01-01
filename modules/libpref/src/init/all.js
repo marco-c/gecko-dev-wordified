@@ -2707,6 +2707,7 @@ backends
 "
 "
 direct2d
+skia
 cairo
 "
 )
