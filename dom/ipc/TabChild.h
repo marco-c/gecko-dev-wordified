@@ -724,6 +724,8 @@ public
 nsIDialogCreator
 public
 nsITabChild
+public
+nsIObserver
 {
 typedef
 mozilla
@@ -840,6 +842,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWINDOWPROVIDER
 NS_DECL_NSIDIALOGCREATOR
 NS_DECL_NSITABCHILD
+NS_DECL_NSIOBSERVER
 virtual
 bool
 RecvLoadURL
