@@ -1609,7 +1609,7 @@ if
 bindings
 -
 >
-init
+initWithTemporaryStorage
 (
 cx
 args_
