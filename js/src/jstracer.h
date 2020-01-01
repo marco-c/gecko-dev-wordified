@@ -7411,8 +7411,15 @@ js_OverfullJITCache
 JSTraceMonitor
 *
 tm
-bool
-reCache
+)
+;
+extern
+void
+js_ResetJIT
+(
+JSContext
+*
+cx
 )
 ;
 extern
