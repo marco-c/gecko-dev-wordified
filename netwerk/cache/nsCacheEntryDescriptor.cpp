@@ -3001,6 +3001,14 @@ NSCACHEENTRYDESCRIPTOR_CLOSE
 )
 )
 ;
+if
+(
+!
+mCacheEntry
+)
+return
+NS_ERROR_NOT_AVAILABLE
+;
 /
 /
 XXX
