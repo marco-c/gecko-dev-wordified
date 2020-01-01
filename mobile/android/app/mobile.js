@@ -3050,7 +3050,7 @@ updateinterval
 ;
 /
 /
-enable
+disable
 search
 suggestions
 by
@@ -3066,7 +3066,7 @@ suggest
 .
 enabled
 "
-true
+false
 )
 ;
 /
