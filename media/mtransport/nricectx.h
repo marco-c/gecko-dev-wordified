@@ -856,7 +856,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 NrIceCtx
 )
-;
 private
 :
 NrIceCtx
