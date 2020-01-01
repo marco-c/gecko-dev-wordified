@@ -3227,6 +3227,11 @@ Destroy
 (
 )
 {
+if
+(
+mWeakShell
+)
+{
 gGlobalDocAccessibleCache
 .
 Remove
@@ -3239,6 +3244,7 @@ mWeakShell
 )
 )
 ;
+}
 return
 Shutdown
 (

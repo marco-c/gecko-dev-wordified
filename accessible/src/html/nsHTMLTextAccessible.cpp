@@ -1501,7 +1501,7 @@ Shutdown
 nsresult
 rv
 =
-nsAccessibleWrap
+nsHyperTextAccessible
 :
 :
 Shutdown

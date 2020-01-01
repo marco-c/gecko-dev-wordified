@@ -5987,8 +5987,7 @@ by
 nsAccessNode
 :
 :
-~
-nsAccessNode
+LastRelease
 (
 )
 if
