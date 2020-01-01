@@ -6437,8 +6437,13 @@ XBL
 "
 )
 ;
-NS_ERROR
+NS_ASSERTION
 (
+!
+IsChromeOrResourceURI
+(
+aURI
+)
 "
 Invalid
 extends
