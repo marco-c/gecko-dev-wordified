@@ -1313,6 +1313,9 @@ case
 JSTRACE_IONCODE
 :
 {
+#
+ifdef
+JS_ION
 ion
 :
 :
@@ -1345,6 +1348,8 @@ bufferSize
 (
 )
 ;
+#
+endif
 break
 ;
 }
