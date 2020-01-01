@@ -329,7 +329,7 @@ public
 mozilla
 :
 :
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -340,7 +340,7 @@ nsMemoryCacheDevice
 aDevice
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 explicit

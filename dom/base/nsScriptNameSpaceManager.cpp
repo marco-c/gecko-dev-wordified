@@ -811,7 +811,7 @@ ScriptNameSpaceManagerReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -822,7 +822,7 @@ nsScriptNameSpaceManager
 aManager
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 explicit
