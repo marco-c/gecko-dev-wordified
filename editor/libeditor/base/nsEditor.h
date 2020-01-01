@@ -1307,6 +1307,13 @@ EndIMEComposition
 )
 ;
 void
+SwitchTextDirectionTo
+(
+PRUint32
+aDirection
+)
+;
+void
 BeginKeypressHandling
 (
 )
@@ -1429,6 +1436,11 @@ we
 are
 editing
 .
+nsresult
+DetermineCurrentDirection
+(
+)
+;
 /
 *
 *
