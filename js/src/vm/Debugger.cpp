@@ -4608,17 +4608,6 @@ return
 false
 ;
 }
-HashTableWriteBarrierPost
-(
-cx
--
->
-runtime
-&
-objects
-obj
-)
-;
 if
 (
 obj
