@@ -2584,8 +2584,6 @@ nsSVGFE
 :
 DidAnimatePreserveAspectRatio
 (
-PRUint8
-aAttrEnum
 )
 {
 DidAnimateAttr
