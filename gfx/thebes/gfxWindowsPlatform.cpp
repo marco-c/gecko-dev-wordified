@@ -761,7 +761,6 @@ static
 bool
 GetDXGIAdapter
 (
-__out
 IDXGIAdapter
 *
 *
