@@ -9913,12 +9913,12 @@ true
 ;
 }
 return
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 scope
 id
-0
+flags
 desc
 )
 ;
