@@ -935,8 +935,6 @@ char
 *
 *
 argv
-int
-needElevation
 )
 ;
 #
