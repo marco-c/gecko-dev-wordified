@@ -10872,7 +10872,7 @@ an
 illegal
 value
 return
-NS_ERROR_ILLEGAL_VALUE
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
 if
