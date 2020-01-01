@@ -3215,13 +3215,11 @@ nsPresState
 aState
 )
 {
-NS_ENSURE_ARG_POINTER
-(
-aState
-)
-;
 if
 (
+aState
+&
+&
 aState
 -
 >
