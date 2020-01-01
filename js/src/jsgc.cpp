@@ -15739,7 +15739,7 @@ obj
 >
 setProto
 (
-ToObjPtr
+ObjectOrNullTag
 (
 pobj
 )

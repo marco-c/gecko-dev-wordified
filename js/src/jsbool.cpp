@@ -988,7 +988,7 @@ proto
 >
 setPrimitiveThis
 (
-Value
+BooleanTag
 (
 false
 )

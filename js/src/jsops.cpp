@@ -20182,8 +20182,12 @@ scopeChain
 =
 obj
 ;
-FunObjValue
+Value
 rval
+;
+rval
+.
+setFunObj
 (
 *
 obj
@@ -20868,8 +20872,12 @@ obj
 goto
 error
 ;
-FunObjValue
+Value
 rval
+;
+rval
+.
+setFunObj
 (
 *
 obj
@@ -25622,9 +25630,6 @@ obj
 goto
 error
 ;
-SetObject
-(
-&
 regs
 .
 sp
@@ -25632,6 +25637,9 @@ sp
 -
 1
 ]
+.
+setObject
+(
 *
 obj
 )
@@ -25701,9 +25709,6 @@ sp
 -
 -
 ;
-SetObject
-(
-&
 regs
 .
 sp
@@ -25711,6 +25716,9 @@ sp
 -
 1
 ]
+.
+setObject
+(
 *
 obj
 )
@@ -25991,9 +25999,6 @@ id
 goto
 error
 ;
-SetObject
-(
-&
 regs
 .
 sp
@@ -26001,6 +26006,9 @@ sp
 -
 1
 ]
+.
+setObjectOrNull
+(
 obj
 )
 ;
@@ -26636,9 +26644,6 @@ obj
 goto
 error
 ;
-SetObject
-(
-&
 regs
 .
 sp
@@ -26646,6 +26651,9 @@ sp
 -
 1
 ]
+.
+setObject
+(
 *
 obj
 )
@@ -26694,9 +26702,6 @@ obj
 goto
 error
 ;
-SetObject
-(
-&
 regs
 .
 sp
@@ -26704,6 +26709,9 @@ sp
 -
 1
 ]
+.
+setObject
+(
 *
 obj
 )
@@ -27084,9 +27092,6 @@ obj
 goto
 error
 ;
-SetObject
-(
-&
 regs
 .
 sp
@@ -27094,6 +27099,9 @@ sp
 -
 1
 ]
+.
+setObject
+(
 *
 obj
 )

@@ -3436,7 +3436,7 @@ return
 js
 :
 :
-NullObjPtr
+NullTag
 (
 )
 ;
