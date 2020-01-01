@@ -190,6 +190,9 @@ h
 #
 endif
 #
+ifdef
+WEBRTC_VIDEO_ENGINE_NETWORK_API
+#
 include
 "
 video_engine
@@ -198,6 +201,8 @@ vie_network_impl
 .
 h
 "
+#
+endif
 #
 ifdef
 WEBRTC_VIDEO_ENGINE_RENDER_API
@@ -283,8 +288,13 @@ public
 ViEImageProcessImpl
 #
 endif
+#
+ifdef
+WEBRTC_VIDEO_ENGINE_NETWORK_API
 public
 ViENetworkImpl
+#
+endif
 #
 ifdef
 WEBRTC_VIDEO_ENGINE_RENDER_API
@@ -386,6 +396,9 @@ shared_data
 )
 #
 endif
+#
+ifdef
+WEBRTC_VIDEO_ENGINE_NETWORK_API
 ViENetworkImpl
 (
 ViEBaseImpl
@@ -395,6 +408,8 @@ shared_data
 (
 )
 )
+#
+endif
 #
 ifdef
 WEBRTC_VIDEO_ENGINE_RENDER_API

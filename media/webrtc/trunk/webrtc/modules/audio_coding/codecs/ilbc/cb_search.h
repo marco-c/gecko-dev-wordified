@@ -253,7 +253,7 @@ state
 structure
 *
 /
-int16_t
+WebRtc_Word16
 *
 index
 /
@@ -265,7 +265,7 @@ Codebook
 indices
 *
 /
-int16_t
+WebRtc_Word16
 *
 gain_index
 /
@@ -278,7 +278,7 @@ quantization
 indices
 *
 /
-int16_t
+WebRtc_Word16
 *
 intarget
 /
@@ -292,7 +292,7 @@ for
 encoding
 *
 /
-int16_t
+WebRtc_Word16
 *
 decResidual
 /
@@ -307,7 +307,7 @@ codebook
 construction
 *
 /
-int16_t
+WebRtc_Word16
 lMem
 /
 *
@@ -319,7 +319,7 @@ of
 buffer
 *
 /
-int16_t
+WebRtc_Word16
 lTarget
 /
 *
@@ -331,7 +331,7 @@ of
 vector
 *
 /
-int16_t
+WebRtc_Word16
 *
 weightDenum
 /
@@ -346,7 +346,7 @@ in
 Q12
 *
 /
-int16_t
+WebRtc_Word16
 block
 /
 *

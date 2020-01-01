@@ -138,7 +138,7 @@ frequency
 define
 FS_1_HALF
 (
-uint32_t
+WebRtc_UWord32
 )
 24000
 /
@@ -153,7 +153,7 @@ frequency
 define
 FS3
 (
-uint32_t
+WebRtc_UWord32
 )
 48000
 /
@@ -168,7 +168,7 @@ frequency
 define
 FS8
 (
-uint32_t
+WebRtc_UWord32
 )
 128000
 /

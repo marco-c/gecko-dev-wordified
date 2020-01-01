@@ -459,7 +459,7 @@ polynomial
 -
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIlbcfix_Chebyshev
 (
 /
@@ -475,7 +475,7 @@ x
 )
 *
 /
-int16_t
+WebRtc_Word16
 x
 /
 *
@@ -489,7 +489,7 @@ Chevyshev
 polynomial
 *
 /
-int16_t
+WebRtc_Word16
 *
 f
 /

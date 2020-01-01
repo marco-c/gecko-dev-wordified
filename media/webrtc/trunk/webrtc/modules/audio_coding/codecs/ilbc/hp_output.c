@@ -385,7 +385,7 @@ saturation
 void
 WebRtcIlbcfix_HpOutput
 (
-int16_t
+WebRtc_Word16
 *
 signal
 /
@@ -399,7 +399,7 @@ signal
 vector
 *
 /
-int16_t
+WebRtc_Word16
 *
 ba
 /
@@ -456,7 +456,7 @@ be
 0
 *
 /
-int16_t
+WebRtc_Word16
 *
 y
 /
@@ -494,7 +494,7 @@ n
 ]
 *
 /
-int16_t
+WebRtc_Word16
 *
 x
 /
@@ -520,7 +520,7 @@ n
 ]
 *
 /
-int16_t
+WebRtc_Word16
 len
 )
 /
@@ -539,10 +539,10 @@ filter
 int
 i
 ;
-int32_t
+WebRtc_Word32
 tmpW32
 ;
-int32_t
+WebRtc_Word32
 tmpW32b
 ;
 for
@@ -967,12 +967,12 @@ tmpW32b
 WEBRTC_SPL_SAT
 (
 (
-int32_t
+WebRtc_Word32
 )
 67108863
 tmpW32b
 (
-int32_t
+WebRtc_Word32
 )
 -
 67108864
@@ -996,7 +996,7 @@ i
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1087,7 +1087,7 @@ y
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 (
 tmpW32
@@ -1102,7 +1102,7 @@ y
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 (
 (
@@ -1111,7 +1111,7 @@ tmpW32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 y
 [

@@ -109,6 +109,9 @@ namespace
 webrtc
 {
 class
+CpuWrapper
+;
+class
 VoEHardwareImpl
 :
 public
@@ -236,6 +239,15 @@ loadPercent
 ;
 virtual
 int
+GetSystemCPULoad
+(
+int
+&
+loadPercent
+)
+;
+virtual
+int
 ResetAudioDevice
 (
 )
@@ -347,6 +359,10 @@ VoEHardwareImpl
 ;
 private
 :
+CpuWrapper
+*
+_cpu
+;
 voe
 :
 :

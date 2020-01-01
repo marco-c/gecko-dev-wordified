@@ -173,7 +173,7 @@ VoiceEngineImpl
 *
 s
 =
-static_cast
+reinterpret_cast
 <
 VoiceEngineImpl
 *
@@ -325,6 +325,16 @@ channel
 )
 ;
 ANDROID_NOT_SUPPORTED
+(
+_shared
+-
+>
+statistics
+(
+)
+)
+;
+IPHONE_NOT_SUPPORTED
 (
 _shared
 -

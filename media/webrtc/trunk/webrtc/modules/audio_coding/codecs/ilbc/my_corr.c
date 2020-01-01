@@ -379,7 +379,7 @@ sequences
 void
 WebRtcIlbcfix_MyCorr
 (
-int32_t
+WebRtc_Word32
 *
 corr
 /
@@ -394,7 +394,7 @@ and
 seq2
 *
 /
-int16_t
+WebRtc_Word16
 *
 seq1
 /
@@ -406,7 +406,7 @@ first
 sequence
 *
 /
-int16_t
+WebRtc_Word16
 dim1
 /
 *
@@ -419,7 +419,7 @@ seq1
 *
 /
 const
-int16_t
+WebRtc_Word16
 *
 seq2
 /
@@ -431,7 +431,7 @@ second
 sequence
 *
 /
-int16_t
+WebRtc_Word16
 dim2
 /
 *
@@ -444,7 +444,7 @@ seq2
 /
 )
 {
-int16_t
+WebRtc_Word16
 max
 scale
 loops
@@ -493,7 +493,7 @@ max
 scale
 =
 (
-int16_t
+WebRtc_Word16
 )
 (
 WEBRTC_SPL_MUL_16_16
@@ -537,7 +537,7 @@ WebRtcSpl_CrossCorrelation
 (
 corr
 (
-int16_t
+WebRtc_Word16
 *
 )
 seq2

@@ -356,7 +356,7 @@ and
 third
 frames
 :
-uint8_t
+WebRtc_UWord8
 first_frame_data
 [
 kFrameLength
@@ -380,7 +380,7 @@ s
 to
 identify
 .
-uint8_t
+WebRtc_UWord8
 third_frame_data
 [
 kFrameLength
@@ -578,7 +578,7 @@ Init
 (
 )
 ;
-uint8_t
+WebRtc_UWord8
 read_buffer
 [
 kFrameLength

@@ -397,7 +397,7 @@ lag
 void
 WebRtcIlbcfix_CompCorr
 (
-int32_t
+WebRtc_Word32
 *
 corr
 /
@@ -409,7 +409,7 @@ cross
 correlation
 *
 /
-int32_t
+WebRtc_Word32
 *
 ener
 /
@@ -420,7 +420,7 @@ o
 energy
 *
 /
-int16_t
+WebRtc_Word16
 *
 buffer
 /
@@ -432,7 +432,7 @@ signal
 buffer
 *
 /
-int16_t
+WebRtc_Word16
 lag
 /
 *
@@ -443,7 +443,7 @@ pitch
 lag
 *
 /
-int16_t
+WebRtc_Word16
 bLen
 /
 *
@@ -455,7 +455,7 @@ of
 buffer
 *
 /
-int16_t
+WebRtc_Word16
 sRange
 /
 *
@@ -467,7 +467,7 @@ search
 length
 *
 /
-int16_t
+WebRtc_Word16
 scale
 /
 *

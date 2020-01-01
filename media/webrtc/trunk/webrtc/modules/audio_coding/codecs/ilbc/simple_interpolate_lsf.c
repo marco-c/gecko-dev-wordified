@@ -402,7 +402,7 @@ LPCencode
 void
 WebRtcIlbcfix_SimpleInterpolateLsf
 (
-int16_t
+WebRtc_Word16
 *
 syntdenum
 /
@@ -423,7 +423,7 @@ lsf
 Q12
 *
 /
-int16_t
+WebRtc_Word16
 *
 weightdenum
 /
@@ -444,7 +444,7 @@ lsf
 Q12
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsf
 /
@@ -459,7 +459,7 @@ coefficients
 Q13
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsfdeq
 /
@@ -474,7 +474,7 @@ coefficients
 Q13
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsfold
 /
@@ -494,7 +494,7 @@ frame
 Q13
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsfdeqold
 /
@@ -514,7 +514,7 @@ frame
 Q13
 *
 /
-int16_t
+WebRtc_Word16
 length
 /
 *
@@ -549,7 +549,7 @@ i
 pos
 lp_length
 ;
-int16_t
+WebRtc_Word16
 *
 lsf2
 *
@@ -561,7 +561,7 @@ Stack
 based
 *
 /
-int16_t
+WebRtc_Word16
 lp
 [
 LPC_FILTERORDER
@@ -672,12 +672,12 @@ WebRtcIlbcfix_BwExpand
 weightdenum
 lp
 (
-int16_t
+WebRtc_Word16
 *
 )
 WebRtcIlbcfix_kLpcChirpWeightDenum
 (
-int16_t
+WebRtc_Word16
 )
 lp_length
 )
@@ -784,12 +784,12 @@ weightdenum
 pos
 lp
 (
-int16_t
+WebRtc_Word16
 *
 )
 WebRtcIlbcfix_kLpcChirpWeightDenum
 (
-int16_t
+WebRtc_Word16
 )
 lp_length
 )
@@ -918,12 +918,12 @@ weightdenum
 pos
 lp
 (
-int16_t
+WebRtc_Word16
 *
 )
 WebRtcIlbcfix_kLpcChirpWeightDenum
 (
-int16_t
+WebRtc_Word16
 )
 lp_length
 )

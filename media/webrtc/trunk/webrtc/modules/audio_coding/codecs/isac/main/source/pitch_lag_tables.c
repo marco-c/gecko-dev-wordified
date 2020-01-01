@@ -193,7 +193,7 @@ lags
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf1Lo
 [
 127
@@ -330,7 +330,7 @@ WebRtcIsac_kQPitchLagCdf1Lo
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf2Lo
 [
 20
@@ -360,7 +360,7 @@ WebRtcIsac_kQPitchLagCdf2Lo
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf3Lo
 [
 2
@@ -372,7 +372,7 @@ WebRtcIsac_kQPitchLagCdf3Lo
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf4Lo
 [
 10
@@ -392,7 +392,7 @@ WebRtcIsac_kQPitchLagCdf4Lo
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQPitchLagCdfPtrLo
 [
@@ -416,7 +416,7 @@ table
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdfSizeLo
 [
 1
@@ -435,7 +435,7 @@ ranges
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQIndexLowerLimitLagLo
 [
 4
@@ -452,7 +452,7 @@ WebRtcIsac_kQIndexLowerLimitLagLo
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQIndexUpperLimitLagLo
 [
 4
@@ -476,7 +476,7 @@ decoder
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQInitIndexLagLo
 [
 3
@@ -659,7 +659,7 @@ lags
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf1Mid
 [
 255
@@ -924,7 +924,7 @@ WebRtcIsac_kQPitchLagCdf1Mid
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf2Mid
 [
 36
@@ -970,7 +970,7 @@ WebRtcIsac_kQPitchLagCdf2Mid
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf3Mid
 [
 2
@@ -982,7 +982,7 @@ WebRtcIsac_kQPitchLagCdf3Mid
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf4Mid
 [
 20
@@ -1012,7 +1012,7 @@ WebRtcIsac_kQPitchLagCdf4Mid
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQPitchLagCdfPtrMid
 [
@@ -1036,7 +1036,7 @@ table
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdfSizeMid
 [
 1
@@ -1055,7 +1055,7 @@ ranges
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQIndexLowerLimitLagMid
 [
 4
@@ -1072,7 +1072,7 @@ WebRtcIsac_kQIndexLowerLimitLagMid
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQIndexUpperLimitLagMid
 [
 4
@@ -1096,7 +1096,7 @@ decoder
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQInitIndexLagMid
 [
 3
@@ -1370,7 +1370,7 @@ lags
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf1Hi
 [
 511
@@ -1891,7 +1891,7 @@ WebRtcIsac_kQPitchLagCdf1Hi
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf2Hi
 [
 68
@@ -1969,7 +1969,7 @@ WebRtcIsac_kQPitchLagCdf2Hi
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf3Hi
 [
 2
@@ -1981,7 +1981,7 @@ WebRtcIsac_kQPitchLagCdf3Hi
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf4Hi
 [
 35
@@ -2026,7 +2026,7 @@ WebRtcIsac_kQPitchLagCdf4Hi
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQPitchLagCdfPtrHi
 [
@@ -2050,7 +2050,7 @@ table
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdfSizeHi
 [
 1
@@ -2069,7 +2069,7 @@ ranges
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQindexLowerLimitLagHi
 [
 4
@@ -2086,7 +2086,7 @@ WebRtcIsac_kQindexLowerLimitLagHi
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQindexUpperLimitLagHi
 [
 4
@@ -2110,7 +2110,7 @@ decoder
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQInitIndexLagHi
 [
 3

@@ -119,13 +119,13 @@ ReturnTrace
 )
 {
 }
-int32_t
+WebRtc_Word32
 Trace
 :
 :
 SetLevelFilter
 (
-uint32_t
+WebRtc_UWord32
 filter
 )
 {
@@ -133,13 +133,13 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 Trace
 :
 :
 LevelFilter
 (
-uint32_t
+WebRtc_UWord32
 &
 filter
 )
@@ -148,7 +148,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 Trace
 :
 :
@@ -166,7 +166,7 @@ return
 1
 ;
 }
-int32_t
+WebRtc_Word32
 Trace
 :
 :
@@ -186,7 +186,7 @@ return
 1
 ;
 }
-int32_t
+WebRtc_Word32
 Trace
 :
 :
@@ -215,7 +215,7 @@ const
 TraceModule
 module
 const
-int32_t
+WebRtc_Word32
 id
 const
 char

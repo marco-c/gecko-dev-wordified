@@ -258,7 +258,7 @@ domain
 void
 WebRtcIlbcfix_EnergyInverse
 (
-int16_t
+WebRtc_Word16
 *
 energy
 /

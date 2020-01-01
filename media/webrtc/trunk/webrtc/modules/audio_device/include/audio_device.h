@@ -1362,7 +1362,7 @@ AudioDeviceModule
 *
 CreateAudioDeviceModule
 (
-int32_t
+WebRtc_Word32
 id
 AudioDeviceModule
 :

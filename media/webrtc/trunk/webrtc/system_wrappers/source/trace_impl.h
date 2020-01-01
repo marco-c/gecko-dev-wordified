@@ -391,7 +391,7 @@ level
 kTraceAll
 )
 ;
-int32_t
+WebRtc_Word32
 SetTraceFileImpl
 (
 const
@@ -403,7 +403,7 @@ bool
 add_file_counter
 )
 ;
-int32_t
+WebRtc_Word32
 TraceFileImpl
 (
 char
@@ -416,7 +416,7 @@ kMaxFileNameSize
 ]
 )
 ;
-int32_t
+WebRtc_Word32
 SetTraceCallbackImpl
 (
 TraceCallback
@@ -434,7 +434,7 @@ const
 TraceModule
 module
 const
-int32_t
+WebRtc_Word32
 id
 const
 char
@@ -476,7 +476,7 @@ level
 kTraceAll
 )
 ;
-int32_t
+WebRtc_Word32
 AddThreadId
 (
 char
@@ -492,7 +492,7 @@ specific
 implementations
 .
 virtual
-int32_t
+WebRtc_Word32
 AddTime
 (
 char
@@ -507,7 +507,7 @@ const
 0
 ;
 virtual
-int32_t
+WebRtc_Word32
 AddBuildInfo
 (
 char
@@ -519,7 +519,7 @@ const
 0
 ;
 virtual
-int32_t
+WebRtc_Word32
 AddDateTimeInfo
 (
 char
@@ -550,7 +550,7 @@ friend
 class
 Trace
 ;
-int32_t
+WebRtc_Word32
 AddLevel
 (
 char
@@ -562,7 +562,7 @@ level
 )
 const
 ;
-int32_t
+WebRtc_Word32
 AddModuleAndId
 (
 char
@@ -572,12 +572,12 @@ const
 TraceModule
 module
 const
-int32_t
+WebRtc_Word32
 id
 )
 const
 ;
-int32_t
+WebRtc_Word32
 AddMessage
 (
 char
@@ -590,7 +590,7 @@ msg
 WEBRTC_TRACE_MAX_MESSAGE_SIZE
 ]
 const
-uint16_t
+WebRtc_UWord16
 written_so_far
 )
 const
@@ -605,7 +605,7 @@ trace_message
 WEBRTC_TRACE_MAX_MESSAGE_SIZE
 ]
 const
-uint16_t
+WebRtc_UWord16
 length
 const
 TraceLevel
@@ -633,7 +633,7 @@ FileWrapper
 kMaxFileNameSize
 ]
 const
-uint32_t
+WebRtc_UWord32
 new_count
 )
 const
@@ -659,7 +659,7 @@ FileWrapper
 kMaxFileNameSize
 ]
 const
-uint32_t
+WebRtc_UWord32
 new_count
 )
 const
@@ -677,10 +677,10 @@ TraceCallback
 *
 callback_
 ;
-uint32_t
+WebRtc_UWord32
 row_count_text_
 ;
-uint32_t
+WebRtc_UWord32
 file_count_text_
 ;
 FileWrapper
@@ -705,7 +705,7 @@ CriticalSectionWrapper
 *
 critsect_array_
 ;
-uint16_t
+WebRtc_UWord16
 next_free_idx_
 [
 WEBRTC_TRACE_NUM_ARRAY
@@ -720,7 +720,7 @@ WEBRTC_TRACE_NUM_ARRAY
 WEBRTC_TRACE_MAX_QUEUE
 ]
 ;
-uint16_t
+WebRtc_UWord16
 length_
 [
 WEBRTC_TRACE_NUM_ARRAY
@@ -739,7 +739,7 @@ WEBRTC_TRACE_NUM_ARRAY
 WEBRTC_TRACE_MAX_QUEUE
 ]
 ;
-uint8_t
+WebRtc_UWord8
 active_queue_
 ;
 }

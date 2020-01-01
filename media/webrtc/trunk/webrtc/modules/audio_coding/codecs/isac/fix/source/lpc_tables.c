@@ -126,7 +126,7 @@ used
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kSelIndGain
 [
 12
@@ -148,7 +148,7 @@ WebRtcIsacfix_kSelIndGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kSelIndShape
 [
 108
@@ -275,7 +275,7 @@ indicator
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kModelCdf
 [
 4
@@ -300,7 +300,7 @@ indicator
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsacfix_kModelCdfPtr
 [
@@ -324,7 +324,7 @@ indicator
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kModelInitIndex
 [
 1
@@ -348,7 +348,7 @@ index
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kQuantMinGain
 [
 12
@@ -370,7 +370,7 @@ WebRtcIsacfix_kQuantMinGain
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kQuantMinShape
 [
 108
@@ -495,7 +495,7 @@ index
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kMaxIndGain
 [
 12
@@ -517,7 +517,7 @@ WebRtcIsacfix_kMaxIndGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kMaxIndShape
 [
 108
@@ -641,7 +641,7 @@ offset
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kOffsetGain
 [
 3
@@ -696,7 +696,7 @@ WebRtcIsacfix_kOffsetGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kOffsetShape
 [
 3
@@ -1049,7 +1049,7 @@ coefficients
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kInitIndexGain
 [
 3
@@ -1104,7 +1104,7 @@ WebRtcIsacfix_kInitIndexGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kInitIndexShape
 [
 3
@@ -1456,7 +1456,7 @@ levels
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kOfLevelsGain
 [
 3
@@ -1469,7 +1469,7 @@ WebRtcIsacfix_kOfLevelsGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kOfLevelsShape
 [
 3
@@ -1489,7 +1489,7 @@ levels
 *
 /
 const
-int32_t
+WebRtc_Word32
 WebRtcIsacfix_kLevelsGainQ17
 [
 1176
@@ -3267,7 +3267,7 @@ WebRtcIsacfix_kLevelsGainQ17
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kLevelsShapeQ10
 [
 1735
@@ -5838,7 +5838,7 @@ indices
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kCdfGain
 [
 1212
@@ -7060,7 +7060,7 @@ WebRtcIsacfix_kCdfGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kCdfShape
 [
 2059
@@ -9140,7 +9140,7 @@ indices
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsacfix_kCdfGainPtr
 [
@@ -9340,7 +9340,7 @@ WebRtcIsacfix_kCdfGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsacfix_kCdfShapePtr
 [
@@ -10992,7 +10992,7 @@ models
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kCodeLenGainQ11
 [
 392
@@ -11394,7 +11394,7 @@ WebRtcIsacfix_kCodeLenGainQ11
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kCodeLenShapeQ11
 [
 577
@@ -11988,7 +11988,7 @@ transforms
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kT1GainQ15
 [
 3
@@ -12022,7 +12022,7 @@ WebRtcIsacfix_kT1GainQ15
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kT1ShapeQ15
 [
 3
@@ -13508,7 +13508,7 @@ transforms
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kT2GainQ15
 [
 3
@@ -13678,7 +13678,7 @@ WebRtcIsacfix_kT2GainQ15
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kT2ShapeQ15
 [
 3
@@ -13859,7 +13859,7 @@ coefficients
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kMeansGainQ8
 [
 3
@@ -13950,7 +13950,7 @@ WebRtcIsacfix_kMeansGainQ8
 }
 ;
 const
-int32_t
+WebRtc_Word32
 WebRtcIsacfix_kMeansShapeQ17
 [
 3

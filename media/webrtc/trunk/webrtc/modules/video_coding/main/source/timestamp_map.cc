@@ -129,7 +129,7 @@ VCMTimestampMap
 :
 VCMTimestampMap
 (
-int32_t
+WebRtc_Word32
 length
 )
 :
@@ -214,13 +214,13 @@ _nextPopIx
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VCMTimestampMap
 :
 :
 Add
 (
-uint32_t
+WebRtc_UWord32
 timestamp
 void
 *
@@ -298,7 +298,7 @@ VCMTimestampMap
 :
 Pop
 (
-uint32_t
+WebRtc_UWord32
 timestamp
 )
 {

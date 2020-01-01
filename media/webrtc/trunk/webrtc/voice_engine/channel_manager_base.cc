@@ -152,7 +152,7 @@ i
 ;
 i
 <
-kVoiceEngineMaxNumChannels
+KMaxNumberOfItems
 ;
 i
 +
@@ -209,7 +209,7 @@ ChannelManagerBase
 :
 GetFreeItemId
 (
-int32_t
+WebRtc_Word32
 &
 itemId
 )
@@ -220,7 +220,7 @@ cs
 _itemsCritSectPtr
 )
 ;
-int32_t
+WebRtc_Word32
 i
 (
 0
@@ -230,7 +230,7 @@ while
 (
 i
 <
-kVoiceEngineMaxNumChannels
+KMaxNumberOfItems
 )
 {
 if
@@ -271,7 +271,7 @@ ChannelManagerBase
 :
 AddFreeItemId
 (
-int32_t
+WebRtc_Word32
 itemId
 )
 {
@@ -279,7 +279,7 @@ assert
 (
 itemId
 <
-kVoiceEngineMaxNumChannels
+KMaxNumberOfItems
 )
 ;
 _freeItemIds
@@ -307,7 +307,7 @@ i
 ;
 i
 <
-kVoiceEngineMaxNumChannels
+KMaxNumberOfItems
 ;
 i
 +
@@ -329,7 +329,7 @@ ChannelManagerBase
 :
 CreateItem
 (
-int32_t
+WebRtc_Word32
 &
 itemId
 )
@@ -423,7 +423,7 @@ ChannelManagerBase
 :
 InsertItem
 (
-int32_t
+WebRtc_Word32
 itemId
 void
 *
@@ -463,7 +463,7 @@ ChannelManagerBase
 :
 RemoveItem
 (
-int32_t
+WebRtc_Word32
 itemId
 )
 {
@@ -588,7 +588,7 @@ RemoveFreeItemIds
 )
 ;
 }
-int32_t
+WebRtc_Word32
 ChannelManagerBase
 :
 :
@@ -605,7 +605,7 @@ Size
 )
 ;
 }
-int32_t
+WebRtc_Word32
 ChannelManagerBase
 :
 :
@@ -617,10 +617,10 @@ const
 return
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
-kVoiceEngineMaxNumChannels
+KMaxNumberOfItems
 )
 ;
 }
@@ -631,7 +631,7 @@ ChannelManagerBase
 :
 GetItem
 (
-int32_t
+WebRtc_Word32
 itemId
 )
 const
@@ -838,10 +838,10 @@ ChannelManagerBase
 :
 GetItemIds
 (
-int32_t
+WebRtc_Word32
 *
 channelsArray
-int32_t
+WebRtc_Word32
 &
 numOfChannels
 )

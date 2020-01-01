@@ -385,7 +385,7 @@ sequences
 void
 WebRtcIlbcfix_MyCorr
 (
-int32_t
+WebRtc_Word32
 *
 corr
 /
@@ -400,7 +400,7 @@ and
 seq2
 *
 /
-int16_t
+WebRtc_Word16
 *
 seq1
 /
@@ -412,7 +412,7 @@ first
 sequence
 *
 /
-int16_t
+WebRtc_Word16
 dim1
 /
 *
@@ -425,7 +425,7 @@ seq1
 *
 /
 const
-int16_t
+WebRtc_Word16
 *
 seq2
 /
@@ -437,7 +437,7 @@ second
 sequence
 *
 /
-int16_t
+WebRtc_Word16
 dim2
 /
 *

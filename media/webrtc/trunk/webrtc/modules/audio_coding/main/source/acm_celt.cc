@@ -350,7 +350,7 @@ int16_t
 audio_samples
 *
 /
-int8_t
+WebRtc_Word8
 *
 /
 *
@@ -899,7 +899,7 @@ int16_t
 audio_samples
 *
 /
-int8_t
+WebRtc_Word8
 *
 /
 *

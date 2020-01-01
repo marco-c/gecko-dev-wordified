@@ -142,7 +142,7 @@ Q14
 /
 extern
 const
-int16_t
+WebRtc_Word16
 kCosTab1
 [
 FRAMESAMPLES
@@ -161,7 +161,7 @@ Q14
 /
 extern
 const
-int16_t
+WebRtc_Word16
 kSinTab1
 [
 FRAMESAMPLES
@@ -180,7 +180,7 @@ Q14
 /
 extern
 const
-int16_t
+WebRtc_Word16
 kCosTab2
 [
 FRAMESAMPLES
@@ -199,7 +199,7 @@ Q14
 /
 extern
 const
-int16_t
+WebRtc_Word16
 kSinTab2
 [
 FRAMESAMPLES

@@ -153,7 +153,7 @@ to
 the
 render
 queue
-int32_t
+WebRtc_Word32
 AddFrame
 (
 I420VideoFrame
@@ -188,7 +188,7 @@ Return
 an
 old
 frame
-int32_t
+WebRtc_Word32
 ReturnFrame
 (
 I420VideoFrame
@@ -201,7 +201,7 @@ old_frame
 Releases
 all
 frames
-int32_t
+WebRtc_Word32
 ReleaseAllFrames
 (
 )
@@ -218,7 +218,7 @@ next
 frame
 to
 render
-uint32_t
+WebRtc_UWord32
 TimeToNextFrameRelease
 (
 )
@@ -230,11 +230,11 @@ estimates
 delay
 in
 renderer
-int32_t
+WebRtc_Word32
 SetRenderDelay
 (
 const
-uint32_t
+WebRtc_UWord32
 render_delay
 )
 ;
@@ -338,7 +338,7 @@ it
 s
 rendered
 .
-uint32_t
+WebRtc_UWord32
 render_delay_ms_
 ;
 }

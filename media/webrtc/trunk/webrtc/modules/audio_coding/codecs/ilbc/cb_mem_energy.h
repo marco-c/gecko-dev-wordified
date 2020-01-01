@@ -239,9 +239,9 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_CB_MEM_ENERGY_H_
 void
 WebRtcIlbcfix_CbMemEnergy
 (
-int16_t
+WebRtc_Word16
 range
-int16_t
+WebRtc_Word16
 *
 CB
 /
@@ -260,7 +260,7 @@ section
 )
 *
 /
-int16_t
+WebRtc_Word16
 *
 filteredCB
 /
@@ -280,7 +280,7 @@ section
 )
 *
 /
-int16_t
+WebRtc_Word16
 lMem
 /
 *
@@ -294,7 +294,7 @@ CB
 memory
 *
 /
-int16_t
+WebRtc_Word16
 lTarget
 /
 *
@@ -308,7 +308,7 @@ target
 vector
 *
 /
-int16_t
+WebRtc_Word16
 *
 energyW16
 /
@@ -323,7 +323,7 @@ CB
 vectors
 *
 /
-int16_t
+WebRtc_Word16
 *
 energyShifts
 /
@@ -338,7 +338,7 @@ the
 energy
 *
 /
-int16_t
+WebRtc_Word16
 scale
 /
 *
@@ -353,7 +353,7 @@ energy
 values
 *
 /
-int16_t
+WebRtc_Word16
 base_size
 /
 *

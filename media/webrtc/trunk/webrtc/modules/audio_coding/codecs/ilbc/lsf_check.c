@@ -387,7 +387,7 @@ coefficients
 int
 WebRtcIlbcfix_LsfCheck
 (
-int16_t
+WebRtc_Word16
 *
 lsf
 /
@@ -431,7 +431,7 @@ change
 pos
 ;
 const
-int16_t
+WebRtc_Word16
 eps
 =
 319
@@ -450,7 +450,7 @@ Hz
 *
 /
 const
-int16_t
+WebRtc_Word16
 eps2
 =
 160
@@ -468,7 +468,7 @@ Q13
 *
 /
 const
-int16_t
+WebRtc_Word16
 maxlsf
 =
 25723
@@ -486,7 +486,7 @@ Hz
 *
 /
 const
-int16_t
+WebRtc_Word16
 minlsf
 =
 82

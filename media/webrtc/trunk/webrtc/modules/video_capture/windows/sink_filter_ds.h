@@ -158,7 +158,7 @@ BaseInputPin
 {
 public
 :
-int32_t
+WebRtc_Word32
 _moduleId
 ;
 VideoCaptureCapability
@@ -172,7 +172,7 @@ _threadHandle
 ;
 CaptureInputPin
 (
-int32_t
+WebRtc_Word32
 moduleId
 IN
 TCHAR
@@ -287,7 +287,7 @@ phr
 VideoCaptureExternal
 &
 captureObserver
-int32_t
+WebRtc_Word32
 moduleId
 )
 ;
@@ -378,7 +378,7 @@ unsigned
 char
 *
 pBuffer
-int32_t
+WebRtc_Word32
 length
 const
 VideoCaptureCapability
@@ -865,7 +865,7 @@ VideoCaptureExternal
 &
 _captureObserver
 ;
-int32_t
+WebRtc_Word32
 _moduleId
 ;
 unsigned

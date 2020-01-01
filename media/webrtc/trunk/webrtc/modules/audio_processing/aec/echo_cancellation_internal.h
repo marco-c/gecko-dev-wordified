@@ -94,8 +94,6 @@ WEBRTC_MODULES_AUDIO_PROCESSING_AEC_ECHO_CANCELLATION_INTERNAL_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -103,21 +101,6 @@ audio_processing
 aec
 /
 aec_core
-.
-h
-"
-#
-include
-"
-webrtc
-/
-modules
-/
-audio_processing
-/
-utility
-/
-ring_buffer
 .
 h
 "
@@ -145,6 +128,9 @@ scSampRate
 /
 sampFreq
 short
+nlpMode
+;
+short
 autoOnOff
 ;
 short
@@ -158,9 +144,6 @@ bufSizeStart
 ;
 int
 knownDelay
-;
-int
-rate_factor
 ;
 short
 initFlag
@@ -229,7 +212,7 @@ lastDelayDiff
 #
 ifdef
 WEBRTC_AEC_DEBUG_DUMP
-RingBuffer
+void
 *
 far_pre_buf_s16
 ;
@@ -292,7 +275,7 @@ highSkewCtr
 float
 skew
 ;
-RingBuffer
+void
 *
 far_pre_buf
 ;
@@ -310,7 +293,7 @@ buffer
 int
 lastError
 ;
-AecCore
+aec_t
 *
 aec
 ;

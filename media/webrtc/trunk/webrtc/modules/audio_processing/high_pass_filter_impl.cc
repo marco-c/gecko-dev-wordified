@@ -138,7 +138,7 @@ webrtc
 namespace
 {
 const
-int16_t
+WebRtc_Word16
 kFilterCoefficients8kHz
 [
 5
@@ -155,7 +155,7 @@ kFilterCoefficients8kHz
 }
 ;
 const
-int16_t
+WebRtc_Word16
 kFilterCoefficients
 [
 5
@@ -174,20 +174,20 @@ kFilterCoefficients
 struct
 FilterState
 {
-int16_t
+WebRtc_Word16
 y
 [
 4
 ]
 ;
-int16_t
+WebRtc_Word16
 x
 [
 2
 ]
 ;
 const
-int16_t
+WebRtc_Word16
 *
 ba
 ;
@@ -273,7 +273,7 @@ Filter
 FilterState
 *
 hpf
-int16_t
+WebRtc_Word16
 *
 data
 int
@@ -288,12 +288,12 @@ hpf
 NULL
 )
 ;
-int32_t
+WebRtc_Word32
 tmp_int32
 =
 0
 ;
-int16_t
+WebRtc_Word16
 *
 y
 =
@@ -302,7 +302,7 @@ hpf
 >
 y
 ;
-int16_t
+WebRtc_Word16
 *
 x
 =
@@ -312,7 +312,7 @@ hpf
 x
 ;
 const
-int16_t
+WebRtc_Word16
 *
 ba
 =
@@ -700,7 +700,7 @@ y
 =
 static_cast
 <
-int16_t
+WebRtc_Word16
 >
 (
 tmp_int32
@@ -716,7 +716,7 @@ y
 =
 static_cast
 <
-int16_t
+WebRtc_Word16
 >
 (
 (
@@ -726,7 +726,7 @@ WEBRTC_SPL_LSHIFT_W32
 (
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 y
@@ -784,7 +784,7 @@ WEBRTC_SPL_SAT
 (
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 134217727
@@ -792,7 +792,7 @@ int32_t
 tmp_int32
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 -
@@ -815,7 +815,7 @@ i
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (

@@ -316,12 +316,12 @@ int
 Push
 (
 const
-int16_t
+WebRtc_Word16
 *
 samplesIn
 int
 lengthIn
-int16_t
+WebRtc_Word16
 *
 samplesOut
 int
@@ -339,7 +339,7 @@ input
 int
 Insert
 (
-int16_t
+WebRtc_Word16
 *
 samplesIn
 int
@@ -358,7 +358,7 @@ buffered
 int
 Pull
 (
-int16_t
+WebRtc_Word16
 *
 samplesOut
 int
@@ -403,11 +403,11 @@ state3_
 Storage
 if
 needed
-int16_t
+WebRtc_Word16
 *
 in_buffer_
 ;
-int16_t
+WebRtc_Word16
 *
 out_buffer_
 ;

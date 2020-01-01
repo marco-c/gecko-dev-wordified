@@ -205,7 +205,7 @@ TestProcessThread
 {
 }
 virtual
-int32_t
+WebRtc_Word32
 Start
 (
 )
@@ -215,7 +215,7 @@ return
 ;
 }
 virtual
-int32_t
+WebRtc_Word32
 Stop
 (
 )
@@ -225,7 +225,7 @@ return
 ;
 }
 virtual
-int32_t
+WebRtc_Word32
 RegisterModule
 (
 const
@@ -239,7 +239,7 @@ return
 ;
 }
 virtual
-int32_t
+WebRtc_Word32
 DeRegisterModule
 (
 const

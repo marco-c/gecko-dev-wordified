@@ -386,7 +386,7 @@ coefficients
 void
 WebRtcIlbcfix_Lsf2Lsp
 (
-int16_t
+WebRtc_Word16
 *
 lsf
 /
@@ -404,7 +404,7 @@ and
 pi
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsp
 /
@@ -423,7 +423,7 @@ and
 1
 *
 /
-int16_t
+WebRtc_Word16
 m
 /
 *

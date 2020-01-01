@@ -94,8 +94,6 @@ WEBRTC_TEST_TESTSUPPORT_PACKET_READER_H_
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -213,7 +211,7 @@ virtual
 void
 InitializeReading
 (
-uint8_t
+WebRtc_UWord8
 *
 data
 int
@@ -298,7 +296,7 @@ virtual
 int
 NextPacket
 (
-uint8_t
+WebRtc_UWord8
 *
 *
 packet_pointer
@@ -306,7 +304,7 @@ packet_pointer
 ;
 private
 :
-uint8_t
+WebRtc_UWord8
 *
 data_
 ;

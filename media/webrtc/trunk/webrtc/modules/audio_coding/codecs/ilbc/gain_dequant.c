@@ -391,7 +391,7 @@ residual
 -
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIlbcfix_GainDequant
 (
 /
@@ -407,7 +407,7 @@ Q14
 )
 *
 /
-int16_t
+WebRtc_Word16
 index
 /
 *
@@ -418,7 +418,7 @@ quantization
 index
 *
 /
-int16_t
+WebRtc_Word16
 maxIn
 /
 *
@@ -434,7 +434,7 @@ Q14
 )
 *
 /
-int16_t
+WebRtc_Word16
 stage
 /
 *
@@ -450,11 +450,11 @@ search
 /
 )
 {
-int16_t
+WebRtc_Word16
 scale
 ;
 const
-int16_t
+WebRtc_Word16
 *
 gain
 ;
@@ -520,7 +520,7 @@ stage
 return
 (
 (
-int16_t
+WebRtc_Word16
 )
 (
 (

@@ -393,7 +393,7 @@ part
 void
 WebRtcIlbcfix_CreateAugmentedVec
 (
-int16_t
+WebRtc_Word16
 index
 /
 *
@@ -410,7 +410,7 @@ be
 created
 *
 /
-int16_t
+WebRtc_Word16
 *
 buffer
 /
@@ -437,7 +437,7 @@ augmented
 codebook
 *
 /
-int16_t
+WebRtc_Word16
 *
 cbVec
 /
@@ -453,16 +453,16 @@ vector
 /
 )
 {
-int16_t
+WebRtc_Word16
 ilow
 ;
-int16_t
+WebRtc_Word16
 *
 ppo
 *
 ppi
 ;
-int16_t
+WebRtc_Word16
 cbVecTmp
 [
 4

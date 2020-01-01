@@ -406,7 +406,7 @@ criterion
 void
 WebRtcIlbcfix_NearestNeighbor
 (
-int16_t
+WebRtc_Word16
 *
 index
 /
@@ -423,7 +423,7 @@ to
 value
 *
 /
-int16_t
+WebRtc_Word16
 *
 array
 /
@@ -438,7 +438,7 @@ Q2
 )
 *
 /
-int16_t
+WebRtc_Word16
 value
 /
 *
@@ -451,7 +451,7 @@ Q2
 )
 *
 /
-int16_t
+WebRtc_Word16
 arlength
 /
 *
@@ -474,7 +474,7 @@ array
 int
 i
 ;
-int16_t
+WebRtc_Word16
 diff
 ;
 /
@@ -483,7 +483,7 @@ Stack
 based
 *
 /
-int32_t
+WebRtc_Word32
 crit
 [
 8
@@ -548,7 +548,7 @@ WebRtcSpl_MinIndexW32
 (
 crit
 (
-int16_t
+WebRtc_Word16
 )
 arlength
 )

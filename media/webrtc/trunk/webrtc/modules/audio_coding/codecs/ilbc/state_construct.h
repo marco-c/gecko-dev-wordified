@@ -381,7 +381,7 @@ indexes
 void
 WebRtcIlbcfix_StateConstruct
 (
-int16_t
+WebRtc_Word16
 idxForMax
 /
 *
@@ -400,7 +400,7 @@ max
 amplitude
 *
 /
-int16_t
+WebRtc_Word16
 *
 idxVec
 /
@@ -414,7 +414,7 @@ quantization
 indexes
 *
 /
-int16_t
+WebRtc_Word16
 *
 syntDenum
 /
@@ -427,7 +427,7 @@ filter
 denumerator
 *
 /
-int16_t
+WebRtc_Word16
 *
 Out_fix
 /
@@ -441,7 +441,7 @@ state
 vector
 *
 /
-int16_t
+WebRtc_Word16
 len
 /
 *

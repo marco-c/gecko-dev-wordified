@@ -337,7 +337,7 @@ void
 PlayFileEnded
 (
 const
-int32_t
+WebRtc_Word32
 file_id
 )
 =

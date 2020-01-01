@@ -154,7 +154,7 @@ public
 TimeScheduler
 (
 const
-uint32_t
+WebRtc_UWord32
 periodicityInMs
 )
 ;
@@ -174,7 +174,7 @@ has
 been
 triggered
 .
-int32_t
+WebRtc_Word32
 UpdateScheduler
 (
 )
@@ -205,10 +205,10 @@ never
 be
 negative
 .
-int32_t
+WebRtc_Word32
 TimeToNextUpdate
 (
-int32_t
+WebRtc_Word32
 &
 updateTimeInMS
 )
@@ -226,13 +226,13 @@ _isStarted
 TickTime
 _lastPeriodMark
 ;
-uint32_t
+WebRtc_UWord32
 _periodicityInMs
 ;
-int64_t
+WebRtc_Word64
 _periodicityInTicks
 ;
-uint32_t
+WebRtc_UWord32
 _missedPeriods
 ;
 }

@@ -387,7 +387,7 @@ coefficients
 void
 WebRtcIlbcfix_Lsf2Poly
 (
-int16_t
+WebRtc_Word16
 *
 a
 /
@@ -406,7 +406,7 @@ in
 Q12
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsf
 /

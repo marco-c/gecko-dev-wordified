@@ -172,11 +172,11 @@ return
 1
 ;
 }
-uint16_t
+WebRtc_UWord16
 length
 plen
 ;
-uint32_t
+WebRtc_UWord32
 offset
 ;
 if
@@ -280,7 +280,7 @@ the
 reset
 below
 .
-uint32_t
+WebRtc_UWord32
 receiveTime
 =
 ntohl
@@ -304,7 +304,7 @@ rtcp
 length
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 length
@@ -361,7 +361,7 @@ byte
 _datagram
 =
 new
-uint8_t
+WebRtc_UWord8
 [
 length
 +
@@ -766,11 +766,11 @@ return
 1
 ;
 }
-uint16_t
+WebRtc_UWord16
 length
 plen
 ;
-uint32_t
+WebRtc_UWord32
 offset
 ;
 /

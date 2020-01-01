@@ -378,7 +378,7 @@ getMinBufferSize
 sampleRate
 AudioFormat
 .
-CHANNEL_IN_MONO
+CHANNEL_CONFIGURATION_MONO
 AudioFormat
 .
 ENCODING_PCM_16BIT
@@ -474,7 +474,7 @@ audioSource
 sampleRate
 AudioFormat
 .
-CHANNEL_IN_MONO
+CHANNEL_CONFIGURATION_MONO
 AudioFormat
 .
 ENCODING_PCM_16BIT
@@ -663,7 +663,7 @@ getMinBufferSize
 sampleRate
 AudioFormat
 .
-CHANNEL_OUT_MONO
+CHANNEL_CONFIGURATION_MONO
 AudioFormat
 .
 ENCODING_PCM_16BIT
@@ -757,7 +757,7 @@ STREAM_VOICE_CALL
 sampleRate
 AudioFormat
 .
-CHANNEL_OUT_MONO
+CHANNEL_CONFIGURATION_MONO
 AudioFormat
 .
 ENCODING_PCM_16BIT
@@ -1960,6 +1960,10 @@ return
 int
 apiLevel
 =
+Integer
+.
+parseInt
+(
 android
 .
 os
@@ -1968,7 +1972,8 @@ Build
 .
 VERSION
 .
-SDK_INT
+SDK
+)
 ;
 if
 (
@@ -2381,6 +2386,10 @@ startCall
 int
 apiLevel
 =
+Integer
+.
+parseInt
+(
 android
 .
 os
@@ -2389,7 +2398,8 @@ Build
 .
 VERSION
 .
-SDK_INT
+SDK
+)
 ;
 if
 (

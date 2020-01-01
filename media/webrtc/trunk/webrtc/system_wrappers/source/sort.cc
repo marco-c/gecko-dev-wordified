@@ -473,7 +473,7 @@ key
 \
 for
 (
-uint32_t
+WebRtc_UWord32
 i
 =
 0
@@ -554,7 +554,7 @@ void
 *
 key_
 ;
-uint32_t
+WebRtc_UWord32
 index_
 ;
 }
@@ -572,7 +572,7 @@ SortKey
 KeyType
 key_
 ;
-uint32_t
+WebRtc_UWord32
 index_
 ;
 }
@@ -609,7 +609,7 @@ COMPARE_FOR_QSORT
 (
 x
 y
-int8_t
+WebRtc_Word8
 )
 ;
 }
@@ -630,7 +630,7 @@ COMPARE_FOR_QSORT
 (
 x
 y
-uint8_t
+WebRtc_UWord8
 )
 ;
 }
@@ -651,7 +651,7 @@ COMPARE_FOR_QSORT
 (
 x
 y
-int16_t
+WebRtc_Word16
 )
 ;
 }
@@ -672,7 +672,7 @@ COMPARE_FOR_QSORT
 (
 x
 y
-uint16_t
+WebRtc_UWord16
 )
 ;
 }
@@ -693,7 +693,7 @@ COMPARE_FOR_QSORT
 (
 x
 y
-int32_t
+WebRtc_Word32
 )
 ;
 }
@@ -714,7 +714,7 @@ COMPARE_FOR_QSORT
 (
 x
 y
-uint32_t
+WebRtc_UWord32
 )
 ;
 }
@@ -735,7 +735,7 @@ COMPARE_FOR_QSORT
 (
 x
 y
-int64_t
+WebRtc_Word64
 )
 ;
 }
@@ -756,7 +756,7 @@ COMPARE_FOR_QSORT
 (
 x
 y
-uint64_t
+WebRtc_UWord64
 )
 ;
 }
@@ -819,7 +819,7 @@ COMPARE_KEY_FOR_QSORT
 (
 sort_key_x
 sort_key_y
-int8_t
+WebRtc_Word8
 )
 ;
 }
@@ -840,7 +840,7 @@ COMPARE_KEY_FOR_QSORT
 (
 sort_key_x
 sort_key_y
-uint8_t
+WebRtc_UWord8
 )
 ;
 }
@@ -861,7 +861,7 @@ COMPARE_KEY_FOR_QSORT
 (
 sort_key_x
 sort_key_y
-int16_t
+WebRtc_Word16
 )
 ;
 }
@@ -882,7 +882,7 @@ COMPARE_KEY_FOR_QSORT
 (
 sort_key_x
 sort_key_y
-uint16_t
+WebRtc_UWord16
 )
 ;
 }
@@ -903,7 +903,7 @@ COMPARE_KEY_FOR_QSORT
 (
 sort_key_x
 sort_key_y
-int32_t
+WebRtc_Word32
 )
 ;
 }
@@ -924,7 +924,7 @@ COMPARE_KEY_FOR_QSORT
 (
 sort_key_x
 sort_key_y
-uint32_t
+WebRtc_UWord32
 )
 ;
 }
@@ -945,7 +945,7 @@ COMPARE_KEY_FOR_QSORT
 (
 sort_key_x
 sort_key_y
-int64_t
+WebRtc_Word64
 )
 ;
 }
@@ -966,7 +966,7 @@ COMPARE_KEY_FOR_QSORT
 (
 sort_key_x
 sort_key_y
-uint64_t
+WebRtc_UWord64
 )
 ;
 }
@@ -1105,7 +1105,7 @@ IntegerSort
 void
 *
 data
-uint32_t
+WebRtc_UWord32
 num_of_elements
 )
 {
@@ -1148,7 +1148,7 @@ FloatSort
 void
 *
 data
-uint32_t
+WebRtc_UWord32
 num_of_elements
 )
 {
@@ -1195,7 +1195,7 @@ StdSort
 void
 *
 data
-uint32_t
+WebRtc_UWord32
 num_of_elements
 )
 {
@@ -1230,7 +1230,7 @@ typename
 KeyType
 >
 inline
-int32_t
+WebRtc_Word32
 SetupKeySort
 (
 void
@@ -1243,7 +1243,7 @@ KeyType
 *
 &
 ptr_sort_key
-uint32_t
+WebRtc_UWord32
 num_of_elements
 )
 {
@@ -1292,7 +1292,7 @@ key
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 i
 =
 0
@@ -1338,7 +1338,7 @@ typename
 KeyType
 >
 inline
-int32_t
+WebRtc_Word32
 TeardownKeySort
 (
 void
@@ -1350,26 +1350,26 @@ KeyType
 >
 *
 ptr_sort_key
-uint32_t
+WebRtc_UWord32
 num_of_elements
-uint32_t
+WebRtc_UWord32
 size_of_element
 )
 {
-uint8_t
+WebRtc_UWord8
 *
 ptr_data
 =
 static_cast
 <
-uint8_t
+WebRtc_UWord8
 *
 >
 (
 data
 )
 ;
-uint8_t
+WebRtc_UWord8
 *
 ptr_data_sorted
 =
@@ -1380,7 +1380,7 @@ std
 :
 nothrow
 )
-uint8_t
+WebRtc_UWord8
 [
 num_of_elements
 *
@@ -1402,7 +1402,7 @@ return
 }
 for
 (
-uint32_t
+WebRtc_UWord32
 i
 =
 0
@@ -1466,7 +1466,7 @@ typename
 KeyType
 >
 inline
-int32_t
+WebRtc_Word32
 IntegerKeySort
 (
 void
@@ -1475,9 +1475,9 @@ data
 void
 *
 key
-uint32_t
+WebRtc_UWord32
 num_of_elements
-uint32_t
+WebRtc_UWord32
 size_of_element
 )
 {
@@ -1564,7 +1564,7 @@ typename
 KeyType
 >
 inline
-int32_t
+WebRtc_Word32
 StdKeySort
 (
 void
@@ -1573,9 +1573,9 @@ data
 void
 *
 key
-uint32_t
+WebRtc_UWord32
 num_of_elements
-uint32_t
+WebRtc_UWord32
 size_of_element
 )
 {
@@ -1653,13 +1653,13 @@ return
 #
 endif
 }
-int32_t
+WebRtc_Word32
 Sort
 (
 void
 *
 data
-uint32_t
+WebRtc_UWord32
 num_of_elements
 Type
 type
@@ -1695,7 +1695,7 @@ data
 num_of_elements
 sizeof
 (
-int8_t
+WebRtc_Word8
 )
 CompareWord8
 )
@@ -1711,7 +1711,7 @@ data
 num_of_elements
 sizeof
 (
-uint8_t
+WebRtc_UWord8
 )
 CompareUWord8
 )
@@ -1727,7 +1727,7 @@ data
 num_of_elements
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 CompareWord16
 )
@@ -1743,7 +1743,7 @@ data
 num_of_elements
 sizeof
 (
-uint16_t
+WebRtc_UWord16
 )
 CompareUWord16
 )
@@ -1759,7 +1759,7 @@ data
 num_of_elements
 sizeof
 (
-int32_t
+WebRtc_Word32
 )
 CompareWord32
 )
@@ -1775,7 +1775,7 @@ data
 num_of_elements
 sizeof
 (
-uint32_t
+WebRtc_UWord32
 )
 CompareUWord32
 )
@@ -1791,7 +1791,7 @@ data
 num_of_elements
 sizeof
 (
-int64_t
+WebRtc_Word64
 )
 CompareWord64
 )
@@ -1807,7 +1807,7 @@ data
 num_of_elements
 sizeof
 (
-uint64_t
+WebRtc_UWord64
 )
 CompareUWord64
 )
@@ -1896,7 +1896,7 @@ TYPE_Word8
 :
 IntegerSort
 <
-int8_t
+WebRtc_Word8
 >
 (
 data
@@ -1910,7 +1910,7 @@ TYPE_UWord8
 :
 IntegerSort
 <
-uint8_t
+WebRtc_UWord8
 >
 (
 data
@@ -1924,7 +1924,7 @@ TYPE_Word16
 :
 IntegerSort
 <
-int16_t
+WebRtc_Word16
 >
 (
 data
@@ -1938,7 +1938,7 @@ TYPE_UWord16
 :
 IntegerSort
 <
-uint16_t
+WebRtc_UWord16
 >
 (
 data
@@ -1952,7 +1952,7 @@ TYPE_Word32
 :
 IntegerSort
 <
-int32_t
+WebRtc_Word32
 >
 (
 data
@@ -1966,7 +1966,7 @@ TYPE_UWord32
 :
 IntegerSort
 <
-uint32_t
+WebRtc_UWord32
 >
 (
 data
@@ -1980,7 +1980,7 @@ TYPE_Word64
 :
 StdSort
 <
-int64_t
+WebRtc_Word64
 >
 (
 data
@@ -1994,7 +1994,7 @@ TYPE_UWord64
 :
 StdSort
 <
-uint64_t
+WebRtc_UWord64
 >
 (
 data
@@ -2038,7 +2038,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 KeySort
 (
 void
@@ -2047,9 +2047,9 @@ data
 void
 *
 key
-uint32_t
+WebRtc_UWord32
 num_of_elements
-uint32_t
+WebRtc_UWord32
 size_of_element
 Type
 key_type
@@ -2084,7 +2084,7 @@ return
 if
 (
 (
-uint64_t
+WebRtc_UWord64
 )
 num_of_elements
 *
@@ -2143,7 +2143,7 @@ KEY_QSORT
 ptr_sort_key
 key
 num_of_elements
-int8_t
+WebRtc_Word8
 CompareKeyWord8
 )
 ;
@@ -2157,7 +2157,7 @@ KEY_QSORT
 ptr_sort_key
 key
 num_of_elements
-uint8_t
+WebRtc_UWord8
 CompareKeyUWord8
 )
 ;
@@ -2171,7 +2171,7 @@ KEY_QSORT
 ptr_sort_key
 key
 num_of_elements
-int16_t
+WebRtc_Word16
 CompareKeyWord16
 )
 ;
@@ -2185,7 +2185,7 @@ KEY_QSORT
 ptr_sort_key
 key
 num_of_elements
-uint16_t
+WebRtc_UWord16
 CompareKeyUWord16
 )
 ;
@@ -2199,7 +2199,7 @@ KEY_QSORT
 ptr_sort_key
 key
 num_of_elements
-int32_t
+WebRtc_Word32
 CompareKeyWord32
 )
 ;
@@ -2213,7 +2213,7 @@ KEY_QSORT
 ptr_sort_key
 key
 num_of_elements
-uint32_t
+WebRtc_UWord32
 CompareKeyUWord32
 )
 ;
@@ -2227,7 +2227,7 @@ KEY_QSORT
 ptr_sort_key
 key
 num_of_elements
-int64_t
+WebRtc_Word64
 CompareKeyWord64
 )
 ;
@@ -2241,7 +2241,7 @@ KEY_QSORT
 ptr_sort_key
 key
 num_of_elements
-uint64_t
+WebRtc_UWord64
 CompareKeyUWord64
 )
 ;
@@ -2293,20 +2293,20 @@ on
 index
 map
 .
-uint8_t
+WebRtc_UWord8
 *
 ptr_data
 =
 static_cast
 <
-uint8_t
+WebRtc_UWord8
 *
 >
 (
 data
 )
 ;
-uint8_t
+WebRtc_UWord8
 *
 ptr_data_sorted
 =
@@ -2317,7 +2317,7 @@ std
 :
 nothrow
 )
-uint8_t
+WebRtc_UWord8
 [
 num_of_elements
 *
@@ -2339,7 +2339,7 @@ return
 }
 for
 (
-uint32_t
+WebRtc_UWord32
 i
 =
 0
@@ -2437,7 +2437,7 @@ TYPE_Word8
 return
 IntegerKeySort
 <
-int8_t
+WebRtc_Word8
 >
 (
 data
@@ -2452,7 +2452,7 @@ TYPE_UWord8
 return
 IntegerKeySort
 <
-uint8_t
+WebRtc_UWord8
 >
 (
 data
@@ -2467,7 +2467,7 @@ TYPE_Word16
 return
 IntegerKeySort
 <
-int16_t
+WebRtc_Word16
 >
 (
 data
@@ -2482,7 +2482,7 @@ TYPE_UWord16
 return
 IntegerKeySort
 <
-uint16_t
+WebRtc_UWord16
 >
 (
 data
@@ -2497,7 +2497,7 @@ TYPE_Word32
 return
 IntegerKeySort
 <
-int32_t
+WebRtc_Word32
 >
 (
 data
@@ -2512,7 +2512,7 @@ TYPE_UWord32
 return
 IntegerKeySort
 <
-uint32_t
+WebRtc_UWord32
 >
 (
 data
@@ -2527,7 +2527,7 @@ TYPE_Word64
 return
 StdKeySort
 <
-int64_t
+WebRtc_Word64
 >
 (
 data
@@ -2542,7 +2542,7 @@ TYPE_UWord64
 return
 StdKeySort
 <
-uint64_t
+WebRtc_UWord64
 >
 (
 data

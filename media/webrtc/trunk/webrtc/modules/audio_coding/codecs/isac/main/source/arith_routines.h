@@ -131,7 +131,7 @@ containing
 bitstream
 *
 /
-int16_t
+WebRtc_Word16
 *
 dataQ7
 /
@@ -143,7 +143,7 @@ vector
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 env
 /
@@ -174,7 +174,7 @@ length
 *
 /
 const
-int16_t
+WebRtc_Word16
 isSWB12kHz
 )
 ;
@@ -238,7 +238,7 @@ far
 int
 WebRtcIsac_DecLogisticMulti2
 (
-int16_t
+WebRtc_Word16
 *
 data
 /
@@ -264,7 +264,7 @@ bitstream
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 env
 /
@@ -283,7 +283,7 @@ pdf
 *
 /
 const
-int16_t
+WebRtc_Word16
 *
 dither
 /
@@ -307,7 +307,7 @@ length
 *
 /
 const
-int16_t
+WebRtc_Word16
 isSWB12kHz
 )
 ;
@@ -353,7 +353,7 @@ vector
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 *
 cdf
@@ -410,7 +410,7 @@ bitstream
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 *
 cdf
@@ -425,7 +425,7 @@ arrays
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 cdf_size
 /
@@ -493,7 +493,7 @@ bitstream
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 *
 cdf
@@ -508,7 +508,7 @@ arrays
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 init_index
 /

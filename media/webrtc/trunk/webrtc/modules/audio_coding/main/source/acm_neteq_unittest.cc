@@ -475,20 +475,6 @@ channel
 =
 1
 ;
-/
-/
-Receive
-timestamp
-can
-be
-set
-to
-send
-timestamp
-in
-this
-test
-.
 ASSERT_EQ
 (
 0
@@ -498,7 +484,7 @@ RecIn
 (
 reinterpret_cast
 <
-uint8_t
+WebRtc_UWord8
 *
 >
 (
@@ -506,7 +492,6 @@ payload
 )
 len_payload_bytes
 rtp_header
-timestamp
 )
 )
 ;

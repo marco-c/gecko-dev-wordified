@@ -127,7 +127,7 @@ AudioDeviceUtilityLinux
 AudioDeviceUtilityLinux
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 :
@@ -362,7 +362,7 @@ API
 =
 =
 =
-int32_t
+WebRtc_Word32
 AudioDeviceUtilityLinux
 :
 :

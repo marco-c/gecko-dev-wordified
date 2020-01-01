@@ -252,10 +252,10 @@ IncomingVideoStream
 IncomingVideoStream
 (
 const
-int32_t
+WebRtc_Word32
 module_id
 const
-uint32_t
+WebRtc_UWord32
 stream_id
 )
 :
@@ -457,14 +457,14 @@ delete
 deliver_buffer_event_
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
 ChangeModuleId
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {
@@ -503,14 +503,14 @@ return
 this
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
 RenderFrame
 (
 const
-uint32_t
+WebRtc_UWord32
 stream_id
 I420VideoFrame
 &
@@ -677,7 +677,7 @@ num_frames_since_last_calculation_
 +
 +
 ;
-int64_t
+WebRtc_Word64
 now_ms
 =
 TickTime
@@ -701,7 +701,7 @@ incoming_rate_
 =
 static_cast
 <
-uint32_t
+WebRtc_UWord32
 >
 (
 1000
@@ -759,7 +759,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
@@ -787,7 +787,7 @@ video_frame
 )
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
@@ -798,7 +798,7 @@ I420VideoFrame
 &
 video_frame
 const
-uint32_t
+WebRtc_UWord32
 timeout
 )
 {
@@ -822,7 +822,7 @@ video_frame
 )
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
@@ -870,7 +870,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
@@ -914,13 +914,13 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
 SetExpectedRenderDelay
 (
-int32_t
+WebRtc_Word32
 delay_ms
 )
 {
@@ -979,7 +979,7 @@ delay_ms
 )
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
@@ -1039,7 +1039,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
@@ -1229,7 +1229,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
@@ -1390,7 +1390,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :
@@ -1422,7 +1422,7 @@ return
 0
 ;
 }
-uint32_t
+WebRtc_UWord32
 IncomingVideoStream
 :
 :
@@ -1442,7 +1442,7 @@ return
 stream_id_
 ;
 }
-uint32_t
+WebRtc_UWord32
 IncomingVideoStream
 :
 :
@@ -1575,7 +1575,7 @@ FrameToRender
 (
 )
 ;
-uint32_t
+WebRtc_UWord32
 wait_time
 =
 render_buffers_
@@ -1899,7 +1899,7 @@ return
 true
 ;
 }
-int32_t
+WebRtc_Word32
 IncomingVideoStream
 :
 :

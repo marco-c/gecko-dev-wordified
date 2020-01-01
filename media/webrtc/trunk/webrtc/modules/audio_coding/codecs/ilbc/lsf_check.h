@@ -386,7 +386,7 @@ coefficients
 int
 WebRtcIlbcfix_LsfCheck
 (
-int16_t
+WebRtc_Word16
 *
 lsf
 /

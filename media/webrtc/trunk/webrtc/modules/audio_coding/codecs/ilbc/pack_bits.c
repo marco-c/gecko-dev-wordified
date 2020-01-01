@@ -386,7 +386,7 @@ bytes
 void
 WebRtcIlbcfix_PackBits
 (
-uint16_t
+WebRtc_UWord16
 *
 bitstream
 /
@@ -411,7 +411,7 @@ Encoded
 bits
 *
 /
-int16_t
+WebRtc_Word16
 mode
 /
 *
@@ -429,7 +429,7 @@ or
 /
 )
 {
-uint16_t
+WebRtc_UWord16
 *
 bitstreamPtr
 ;
@@ -437,7 +437,7 @@ int
 i
 k
 ;
-int16_t
+WebRtc_Word16
 *
 tmpPtr
 ;
@@ -457,7 +457,7 @@ ULP
 /
 *
 First
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -467,7 +467,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 enc_bits
 -
@@ -555,7 +555,7 @@ bitstreamPtr
 /
 *
 Second
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -565,7 +565,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 enc_bits
 -
@@ -709,7 +709,7 @@ bitstreamPtr
 /
 *
 Third
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -999,7 +999,7 @@ bitstreamPtr
 /
 *
 Third
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -1009,7 +1009,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 enc_bits
 -
@@ -1144,7 +1144,7 @@ bitstreamPtr
 4
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -1154,7 +1154,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 enc_bits
 -
@@ -1360,7 +1360,7 @@ to
 6
 :
 th
-int16_t
+WebRtc_Word16
 for
 20
 ms
@@ -1372,7 +1372,7 @@ to
 7
 :
 th
-int16_t
+WebRtc_Word16
 for
 30
 ms
@@ -1436,7 +1436,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -1485,7 +1485,7 @@ mode
 7
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -1518,7 +1518,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -1706,7 +1706,7 @@ mode
 8
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -1739,7 +1739,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -1908,7 +1908,7 @@ bitstreamPtr
 9
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -1918,7 +1918,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 enc_bits
 -
@@ -2012,7 +2012,7 @@ bitstreamPtr
 10
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -2022,7 +2022,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 enc_bits
 -
@@ -2298,7 +2298,7 @@ to
 14
 :
 th
-int16_t
+WebRtc_Word16
 for
 20
 ms
@@ -2310,7 +2310,7 @@ to
 17
 :
 th
-int16_t
+WebRtc_Word16
 for
 30
 ms
@@ -2371,7 +2371,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -2422,7 +2422,7 @@ mode
 15
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -2432,7 +2432,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -2563,7 +2563,7 @@ bitstreamPtr
 16
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -2573,7 +2573,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -2763,7 +2763,7 @@ bitstreamPtr
 17
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -2773,7 +2773,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -2861,7 +2861,7 @@ bitstreamPtr
 18
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -2871,7 +2871,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 enc_bits
@@ -2930,7 +2930,7 @@ bitstreamPtr
 19
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -2940,7 +2940,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -3139,7 +3139,7 @@ mode
 18
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -3149,7 +3149,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 (
@@ -3314,7 +3314,7 @@ bitstreamPtr
 19
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -3324,7 +3324,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 enc_bits
@@ -3517,7 +3517,7 @@ bitstreamPtr
 20
 :
 th
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -3527,7 +3527,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 enc_bits
@@ -3654,7 +3654,7 @@ bitstreamPtr
 21
 :
 st
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -3664,7 +3664,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 enc_bits
@@ -3791,7 +3791,7 @@ bitstreamPtr
 22
 :
 nd
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -3801,7 +3801,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 enc_bits
@@ -3928,7 +3928,7 @@ bitstreamPtr
 23
 :
 rd
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -3938,7 +3938,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 enc_bits
@@ -4062,7 +4062,7 @@ bitstreamPtr
 24
 :
 rd
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -4072,7 +4072,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 enc_bits
@@ -4261,7 +4261,7 @@ bitstreamPtr
 25
 :
 rd
-int16_t
+WebRtc_Word16
 *
 /
 (
@@ -4271,7 +4271,7 @@ bitstreamPtr
 =
 (
 (
-uint16_t
+WebRtc_UWord16
 )
 (
 enc_bits

@@ -285,7 +285,7 @@ this
 -
 -
 ;
-int32_t
+WebRtc_Word32
 ref_count
 =
 GetCount
@@ -440,8 +440,6 @@ pl_type
 VideoEncoder
 *
 encoder
-bool
-internal_source
 )
 {
 WEBRTC_TRACE
@@ -612,7 +610,6 @@ RegisterExternalEncoder
 (
 encoder
 pl_type
-internal_source
 )
 !
 =

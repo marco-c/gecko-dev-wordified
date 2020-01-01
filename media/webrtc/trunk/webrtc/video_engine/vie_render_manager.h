@@ -176,7 +176,7 @@ public
 explicit
 ViERenderManager
 (
-int32_t
+WebRtc_Word32
 engine_id
 )
 ;
@@ -185,7 +185,7 @@ ViERenderManager
 (
 )
 ;
-int32_t
+WebRtc_Word32
 RegisterVideoRenderModule
 (
 VideoRender
@@ -193,7 +193,7 @@ VideoRender
 render_module
 )
 ;
-int32_t
+WebRtc_Word32
 DeRegisterVideoRenderModule
 (
 VideoRender
@@ -206,13 +206,13 @@ ViERenderer
 AddRenderStream
 (
 const
-int32_t
+WebRtc_Word32
 render_id
 void
 *
 window
 const
-uint32_t
+WebRtc_UWord32
 z_order
 const
 float
@@ -228,10 +228,10 @@ float
 bottom
 )
 ;
-int32_t
+WebRtc_Word32
 RemoveRenderStream
 (
-int32_t
+WebRtc_Word32
 render_id
 )
 ;
@@ -279,7 +279,7 @@ ViERenderer
 *
 ViERenderPtr
 (
-int32_t
+WebRtc_Word32
 render_id
 )
 const
@@ -290,7 +290,7 @@ CriticalSectionWrapper
 >
 list_cs_
 ;
-int32_t
+WebRtc_Word32
 engine_id_
 ;
 MapWrapper
@@ -341,7 +341,7 @@ ViERenderer
 *
 Renderer
 (
-int32_t
+WebRtc_Word32
 render_id
 )
 const

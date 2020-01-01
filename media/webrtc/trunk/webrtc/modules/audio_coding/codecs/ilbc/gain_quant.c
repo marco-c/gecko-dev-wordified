@@ -390,7 +390,7 @@ residual
 -
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIlbcfix_GainQuant
 (
 /
@@ -403,7 +403,7 @@ gain
 value
 *
 /
-int16_t
+WebRtc_Word16
 gain
 /
 *
@@ -415,7 +415,7 @@ value
 Q14
 *
 /
-int16_t
+WebRtc_Word16
 maxIn
 /
 *
@@ -429,7 +429,7 @@ value
 Q14
 *
 /
-int16_t
+WebRtc_Word16
 stage
 /
 *
@@ -443,7 +443,7 @@ the
 search
 *
 /
-int16_t
+WebRtc_Word16
 *
 index
 /
@@ -457,18 +457,18 @@ index
 /
 )
 {
-int16_t
+WebRtc_Word16
 scale
 returnVal
 cblen
 ;
-int32_t
+WebRtc_Word32
 gainW32
 measure1
 measure2
 ;
 const
-int16_t
+WebRtc_Word16
 *
 cbPtr
 *
@@ -577,7 +577,7 @@ gainW32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 gain
 14
@@ -932,7 +932,7 @@ Q14
 returnVal
 =
 (
-int16_t
+WebRtc_Word16
 )
 (
 (

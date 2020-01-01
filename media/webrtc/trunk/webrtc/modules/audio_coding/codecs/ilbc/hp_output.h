@@ -246,7 +246,7 @@ h
 void
 WebRtcIlbcfix_HpOutput
 (
-int16_t
+WebRtc_Word16
 *
 signal
 /
@@ -260,7 +260,7 @@ signal
 vector
 *
 /
-int16_t
+WebRtc_Word16
 *
 ba
 /
@@ -317,7 +317,7 @@ be
 0
 *
 /
-int16_t
+WebRtc_Word16
 *
 y
 /
@@ -355,7 +355,7 @@ n
 ]
 *
 /
-int16_t
+WebRtc_Word16
 *
 x
 /
@@ -381,7 +381,7 @@ n
 ]
 *
 /
-int16_t
+WebRtc_Word16
 len
 )
 ;

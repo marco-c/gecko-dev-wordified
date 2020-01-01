@@ -206,15 +206,6 @@ VCMFrameBuffer
 frame
 )
 ;
-void
-CopyFrom
-(
-const
-VCMDecodingState
-&
-state
-)
-;
 /
 /
 Set
@@ -320,7 +311,7 @@ initial
 state
 .
 bool
-in_initial_state
+init
 (
 )
 const
@@ -451,7 +442,7 @@ are
 used
 .
 bool
-in_initial_state_
+init_
 ;
 }
 ;

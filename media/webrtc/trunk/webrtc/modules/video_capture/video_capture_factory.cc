@@ -110,7 +110,7 @@ VideoCaptureFactory
 Create
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 char
@@ -140,7 +140,7 @@ VideoCaptureFactory
 Create
 (
 const
-int32_t
+WebRtc_Word32
 id
 VideoCaptureExternal
 *
@@ -173,7 +173,7 @@ VideoCaptureFactory
 CreateDeviceInfo
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {

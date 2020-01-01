@@ -395,7 +395,7 @@ char
 name
 =
 NULL
-int64_t
+WebRtc_Word64
 refTimeMs
 =
 -
@@ -421,14 +421,14 @@ PurgeOldData
 (
 )
 ;
-int64_t
+WebRtc_Word64
 GetRefTime
 (
 )
 ;
 private
 :
-int64_t
+WebRtc_Word64
 _refTimeMs
 ;
 int
@@ -496,7 +496,7 @@ char
 name
 =
 NULL
-int64_t
+WebRtc_Word64
 refTimeMs
 =
 -
@@ -666,10 +666,10 @@ NULL
 #
 ifdef
 PLOT_TESTING
-int64_t
+WebRtc_Word64
 _plotStartTime
 ;
-int64_t
+WebRtc_Word64
 _plotDelay
 ;
 #

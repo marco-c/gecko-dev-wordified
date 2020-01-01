@@ -410,7 +410,7 @@ ENH_BLOCKL
 void
 WebRtcIlbcfix_Enhancer
 (
-int16_t
+WebRtc_Word16
 *
 odata
 /
@@ -424,7 +424,7 @@ dimension
 blockl
 *
 /
-int16_t
+WebRtc_Word16
 *
 idata
 /
@@ -439,7 +439,7 @@ for
 enhancing
 *
 /
-int16_t
+WebRtc_Word16
 idatal
 /
 *
@@ -450,7 +450,7 @@ dimension
 idata
 *
 /
-int16_t
+WebRtc_Word16
 centerStartPos
 /
 *
@@ -465,7 +465,7 @@ within
 idata
 *
 /
-int16_t
+WebRtc_Word16
 *
 period
 /
@@ -485,7 +485,7 @@ time
 )
 *
 /
-int16_t
+WebRtc_Word16
 *
 plocs
 /
@@ -501,7 +501,7 @@ values
 valid
 *
 /
-int16_t
+WebRtc_Word16
 periodl
 /
 *
@@ -523,7 +523,7 @@ Stack
 based
 *
 /
-int16_t
+WebRtc_Word16
 surround
 [
 ENH_BLOCKL

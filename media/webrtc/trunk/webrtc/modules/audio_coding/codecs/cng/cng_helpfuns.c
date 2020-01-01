@@ -302,13 +302,13 @@ aptr
 )
 +
 (
-int16_t
+WebRtc_Word16
 )
 (
 (
 (
 (
-int32_t
+WebRtc_Word32
 )
 (
 *
@@ -318,7 +318,7 @@ aptr2
 )
 *
 (
-int32_t
+WebRtc_Word32
 )
 *
 kptr

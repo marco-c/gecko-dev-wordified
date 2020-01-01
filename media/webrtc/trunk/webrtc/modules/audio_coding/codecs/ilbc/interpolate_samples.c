@@ -247,7 +247,7 @@ h
 void
 WebRtcIlbcfix_InterpolateSamples
 (
-int16_t
+WebRtc_Word16
 *
 interpSamples
 /
@@ -260,7 +260,7 @@ interpolated
 samples
 *
 /
-int16_t
+WebRtc_Word16
 *
 CBmem
 /
@@ -273,7 +273,7 @@ CB
 memory
 *
 /
-int16_t
+WebRtc_Word16
 lMem
 /
 *
@@ -289,7 +289,7 @@ memory
 /
 )
 {
-int16_t
+WebRtc_Word16
 *
 ppi
 *
@@ -299,7 +299,7 @@ j
 temp1
 temp2
 ;
-int16_t
+WebRtc_Word16
 *
 tmpPtr
 ;
@@ -396,7 +396,7 @@ tmpPtr
 +
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -410,7 +410,7 @@ ppo
 )
 +
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (

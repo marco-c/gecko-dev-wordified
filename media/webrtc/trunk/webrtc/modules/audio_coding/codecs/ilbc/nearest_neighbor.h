@@ -412,7 +412,7 @@ criterion
 void
 WebRtcIlbcfix_NearestNeighbor
 (
-int16_t
+WebRtc_Word16
 *
 index
 /
@@ -429,7 +429,7 @@ to
 value
 *
 /
-int16_t
+WebRtc_Word16
 *
 array
 /
@@ -444,7 +444,7 @@ Q2
 )
 *
 /
-int16_t
+WebRtc_Word16
 value
 /
 *
@@ -457,7 +457,7 @@ Q2
 )
 *
 /
-int16_t
+WebRtc_Word16
 arlength
 /
 *

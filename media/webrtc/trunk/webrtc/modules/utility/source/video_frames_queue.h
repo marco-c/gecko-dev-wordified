@@ -154,7 +154,7 @@ in
 the
 queue
 .
-int32_t
+WebRtc_Word32
 AddFrame
 (
 const
@@ -218,10 +218,10 @@ to
 renderDelay
 ms
 .
-int32_t
+WebRtc_Word32
 SetRenderDelay
 (
-uint32_t
+WebRtc_UWord32
 renderDelay
 )
 ;
@@ -251,7 +251,7 @@ frames
 /
 queue
 .
-int32_t
+WebRtc_Word32
 ReturnFrame
 (
 I420VideoFrame
@@ -362,7 +362,7 @@ Estimated
 render
 delay
 .
-uint32_t
+WebRtc_UWord32
 _renderDelayMs
 ;
 }

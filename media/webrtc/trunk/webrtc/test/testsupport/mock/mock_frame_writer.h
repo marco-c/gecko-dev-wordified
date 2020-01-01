@@ -136,7 +136,7 @@ MOCK_METHOD1
 WriteFrame
 bool
 (
-uint8_t
+WebRtc_UWord8
 *
 frame_buffer
 )
@@ -153,7 +153,7 @@ void
 MOCK_METHOD0
 (
 FrameLength
-size_t
+int
 (
 )
 )

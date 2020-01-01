@@ -241,7 +241,7 @@ std
 :
 string
 description
-uint32_t
+WebRtc_UWord32
 bitRate
 )
 :
@@ -670,7 +670,7 @@ int
 width
 int
 height
-uint32_t
+WebRtc_UWord32
 frameRate
 /
 *
@@ -678,7 +678,7 @@ frameRate
 30
 *
 /
-uint32_t
+WebRtc_UWord32
 bitRate
 /
 *

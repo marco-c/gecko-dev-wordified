@@ -349,8 +349,12 @@ CreateThread
 (
 ThreadRunFunction
 func
+=
+0
 ThreadObj
 obj
+=
+0
 ThreadPriority
 prio
 =

@@ -222,7 +222,7 @@ public
 MemoryPool
 functions
 .
-int32_t
+WebRtc_Word32
 PopMemory
 (
 MemoryType
@@ -231,7 +231,7 @@ MemoryType
 memory
 )
 ;
-int32_t
+WebRtc_Word32
 PushMemory
 (
 MemoryType
@@ -242,7 +242,7 @@ memory
 ;
 MemoryPoolImpl
 (
-int32_t
+WebRtc_Word32
 /
 *
 initialPoolSize
@@ -260,7 +260,7 @@ MemoryPoolImpl
 Atomic
 functions
 .
-int32_t
+WebRtc_Word32
 Terminate
 (
 )
@@ -358,7 +358,7 @@ MemoryType
 :
 MemoryPoolImpl
 (
-int32_t
+WebRtc_Word32
 /
 *
 initialPoolSize
@@ -465,7 +465,7 @@ template
 class
 MemoryType
 >
-int32_t
+WebRtc_Word32
 MemoryPoolImpl
 <
 MemoryType
@@ -564,7 +564,7 @@ template
 class
 MemoryType
 >
-int32_t
+WebRtc_Word32
 MemoryPoolImpl
 <
 MemoryType
@@ -614,7 +614,7 @@ memory
 base
 ;
 const
-int32_t
+WebRtc_Word32
 usedItems
 =
 -
@@ -622,7 +622,7 @@ usedItems
 _outstandingMemory
 ;
 const
-int32_t
+WebRtc_Word32
 totalItems
 =
 _createdMemory
@@ -632,7 +632,7 @@ Value
 )
 ;
 const
-int32_t
+WebRtc_Word32
 freeItems
 =
 totalItems
@@ -769,7 +769,7 @@ template
 class
 MemoryType
 >
-int32_t
+WebRtc_Word32
 MemoryPoolImpl
 <
 MemoryType
@@ -780,7 +780,7 @@ Terminate
 (
 )
 {
-int32_t
+WebRtc_Word32
 itemsFreed
 =
 0

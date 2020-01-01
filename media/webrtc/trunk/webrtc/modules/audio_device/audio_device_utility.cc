@@ -313,7 +313,7 @@ _getch
 )
 ;
 }
-uint32_t
+WebRtc_UWord32
 AudioDeviceUtility
 :
 :
@@ -342,7 +342,7 @@ char
 *
 str2
 const
-uint32_t
+WebRtc_UWord32
 length
 )
 {
@@ -722,7 +722,7 @@ oldt
 )
 ;
 }
-uint32_t
+WebRtc_UWord32
 AudioDeviceUtility
 :
 :
@@ -738,7 +738,7 @@ struct
 timezone
 tz
 ;
-uint32_t
+WebRtc_UWord32
 val
 ;
 gettimeofday
@@ -752,7 +752,7 @@ tz
 val
 =
 (
-uint32_t
+WebRtc_UWord32
 )
 (
 tv
@@ -787,7 +787,7 @@ char
 *
 str2
 const
-uint32_t
+WebRtc_UWord32
 length
 )
 {

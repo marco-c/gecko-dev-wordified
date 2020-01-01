@@ -296,10 +296,10 @@ inre1
 double
 *
 inre2
-int16_t
+WebRtc_Word16
 *
 outreQ7
-int16_t
+WebRtc_Word16
 *
 outimQ7
 FFTstr
@@ -582,7 +582,7 @@ k
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WebRtcIsac_lrint
 (
@@ -607,7 +607,7 @@ k
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WebRtcIsac_lrint
 (
@@ -636,7 +636,7 @@ k
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WebRtcIsac_lrint
 (
@@ -666,7 +666,7 @@ k
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WebRtcIsac_lrint
 (

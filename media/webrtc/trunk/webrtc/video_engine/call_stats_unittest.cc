@@ -186,7 +186,7 @@ class
 MockStatsObserver
 :
 public
-CallStatsObserver
+StatsObserver
 {
 public
 :

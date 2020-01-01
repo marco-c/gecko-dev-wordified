@@ -383,7 +383,7 @@ expansion
 void
 WebRtcIlbcfix_BwExpand
 (
-int16_t
+WebRtc_Word16
 *
 out
 /
@@ -398,7 +398,7 @@ lpc
 coefficients
 *
 /
-int16_t
+WebRtc_Word16
 *
 in
 /
@@ -414,7 +414,7 @@ bandwidth
 expansion
 *
 /
-int16_t
+WebRtc_Word16
 *
 coef
 /
@@ -429,7 +429,7 @@ factor
 Q15
 *
 /
-int16_t
+WebRtc_Word16
 length
 /
 *

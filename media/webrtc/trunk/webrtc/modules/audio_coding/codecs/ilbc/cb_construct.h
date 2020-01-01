@@ -388,7 +388,7 @@ gains
 void
 WebRtcIlbcfix_CbConstruct
 (
-int16_t
+WebRtc_Word16
 *
 decvector
 /
@@ -400,7 +400,7 @@ Decoded
 vector
 *
 /
-int16_t
+WebRtc_Word16
 *
 index
 /
@@ -412,7 +412,7 @@ Codebook
 indices
 *
 /
-int16_t
+WebRtc_Word16
 *
 gain_index
 /
@@ -425,7 +425,7 @@ quantization
 indices
 *
 /
-int16_t
+WebRtc_Word16
 *
 mem
 /
@@ -439,7 +439,7 @@ codevector
 construction
 *
 /
-int16_t
+WebRtc_Word16
 lMem
 /
 *
@@ -451,7 +451,7 @@ of
 buffer
 *
 /
-int16_t
+WebRtc_Word16
 veclen
 /
 *

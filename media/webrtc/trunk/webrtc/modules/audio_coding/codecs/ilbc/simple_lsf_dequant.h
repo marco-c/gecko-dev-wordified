@@ -387,7 +387,7 @@ index
 void
 WebRtcIlbcfix_SimpleLsfDeQ
 (
-int16_t
+WebRtc_Word16
 *
 lsfdeq
 /
@@ -400,7 +400,7 @@ lsf
 coefficients
 *
 /
-int16_t
+WebRtc_Word16
 *
 index
 /
@@ -412,7 +412,7 @@ quantization
 index
 *
 /
-int16_t
+WebRtc_Word16
 lpc_n
 /
 *

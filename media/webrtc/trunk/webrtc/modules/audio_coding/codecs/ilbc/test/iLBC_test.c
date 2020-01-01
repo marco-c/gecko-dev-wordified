@@ -519,13 +519,13 @@ ofileid
 *
 cfileid
 ;
-int16_t
+WebRtc_Word16
 data
 [
 BLOCKL_MAX
 ]
 ;
-int16_t
+WebRtc_Word16
 encoded_data
 [
 ILBCNOOFWORDS_MAX
@@ -555,7 +555,7 @@ packetlosscount
 int
 frameLen
 ;
-int16_t
+WebRtc_Word16
 speechType
 ;
 iLBC_encinst_t
@@ -1545,14 +1545,14 @@ while
 (
 (
 (
-int16_t
+WebRtc_Word16
 )
 fread
 (
 data
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 frameLen
 ifileid
@@ -1597,7 +1597,7 @@ WebRtcIlbcfix_Encode
 Enc_Inst
 data
 (
-int16_t
+WebRtc_Word16
 )
 frameLen
 encoded_data
@@ -1626,7 +1626,7 @@ fwrite
 encoded_data
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 (
 (
@@ -1637,7 +1637,7 @@ len
 /
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 )
 efileid
@@ -1657,7 +1657,7 @@ len
 /
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 )
 )
@@ -1693,7 +1693,7 @@ fread
 pli
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 1
 cfileid
@@ -1763,7 +1763,7 @@ encoded_data
 0
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 *
 ILBCNOOFWORDS_MAX
@@ -1844,7 +1844,7 @@ WebRtcIlbcfix_Decode
 Dec_Inst
 encoded_data
 (
-int16_t
+WebRtc_Word16
 )
 len
 decoded_data
@@ -1888,7 +1888,7 @@ fwrite
 decoded_data
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 len
 ofileid

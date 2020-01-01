@@ -142,7 +142,7 @@ double
 *
 input
 const
-int16_t
+WebRtc_Word16
 *
 pitchGains_Q12
 double
@@ -168,7 +168,7 @@ maskdata
 double
 signal_noise_ratio
 const
-int16_t
+WebRtc_Word16
 *
 pitchGains_Q12
 double
@@ -232,7 +232,7 @@ UB_LPC_ORDER
 double
 *
 varscale
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;

@@ -137,7 +137,7 @@ public
 MemoryPool
 functions
 .
-int32_t
+WebRtc_Word32
 PopMemory
 (
 MemoryType
@@ -146,7 +146,7 @@ MemoryType
 memory
 )
 ;
-int32_t
+WebRtc_Word32
 PushMemory
 (
 MemoryType
@@ -157,7 +157,7 @@ memory
 ;
 MemoryPoolImpl
 (
-int32_t
+WebRtc_Word32
 initialPoolSize
 )
 ;
@@ -170,7 +170,7 @@ MemoryPoolImpl
 /
 Atomic
 functions
-int32_t
+WebRtc_Word32
 Terminate
 (
 )
@@ -189,10 +189,10 @@ Non
 atomic
 function
 .
-int32_t
+WebRtc_Word32
 CreateMemory
 (
-uint32_t
+WebRtc_UWord32
 amountToCreate
 )
 ;
@@ -206,13 +206,13 @@ _terminate
 ListWrapper
 _memoryPool
 ;
-uint32_t
+WebRtc_UWord32
 _initialPoolSize
 ;
-uint32_t
+WebRtc_UWord32
 _createdMemory
 ;
-uint32_t
+WebRtc_UWord32
 _outstandingMemory
 ;
 }
@@ -230,7 +230,7 @@ MemoryType
 :
 MemoryPoolImpl
 (
-int32_t
+WebRtc_Word32
 initialPoolSize
 )
 :
@@ -315,7 +315,7 @@ template
 class
 MemoryType
 >
-int32_t
+WebRtc_Word32
 MemoryPoolImpl
 <
 MemoryType
@@ -443,7 +443,7 @@ template
 class
 MemoryType
 >
-int32_t
+WebRtc_Word32
 MemoryPoolImpl
 <
 MemoryType
@@ -585,7 +585,7 @@ template
 class
 MemoryType
 >
-int32_t
+WebRtc_Word32
 MemoryPoolImpl
 <
 MemoryType
@@ -711,7 +711,7 @@ template
 class
 MemoryType
 >
-int32_t
+WebRtc_Word32
 MemoryPoolImpl
 <
 MemoryType
@@ -720,13 +720,13 @@ MemoryType
 :
 CreateMemory
 (
-uint32_t
+WebRtc_UWord32
 amountToCreate
 )
 {
 for
 (
-uint32_t
+WebRtc_UWord32
 i
 =
 0

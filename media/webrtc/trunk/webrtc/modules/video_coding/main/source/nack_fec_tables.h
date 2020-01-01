@@ -141,7 +141,7 @@ media_opt_util
 h
 .
 const
-uint16_t
+WebRtc_UWord16
 VCMNackFecTable
 [
 100

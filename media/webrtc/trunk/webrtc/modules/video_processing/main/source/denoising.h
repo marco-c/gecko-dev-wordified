@@ -130,10 +130,10 @@ VPMDenoising
 (
 )
 ;
-int32_t
+WebRtc_Word32
 ChangeUniqueId
 (
-int32_t
+WebRtc_Word32
 id
 )
 ;
@@ -142,7 +142,7 @@ Reset
 (
 )
 ;
-int32_t
+WebRtc_Word32
 ProcessFrame
 (
 I420VideoFrame
@@ -152,10 +152,10 @@ frame
 ;
 private
 :
-int32_t
+WebRtc_Word32
 _id
 ;
-uint32_t
+WebRtc_UWord32
 *
 _moment1
 ;
@@ -170,7 +170,7 @@ moment
 (
 mean
 )
-uint32_t
+WebRtc_UWord32
 *
 _moment2
 ;
@@ -182,7 +182,7 @@ Q8
 Second
 order
 moment
-uint32_t
+WebRtc_UWord32
 _frameSize
 ;
 /

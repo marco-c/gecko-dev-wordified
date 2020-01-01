@@ -377,7 +377,7 @@ InitializeReceiver
 (
 )
 ;
-uint8_t
+WebRtc_UWord8
 numEncoders
 =
 _acmA
@@ -416,7 +416,7 @@ n
 }
 for
 (
-uint8_t
+WebRtc_UWord8
 n
 =
 0
@@ -436,7 +436,6 @@ _acmB
 Codec
 (
 n
-&
 myCodecParam
 )
 ;
@@ -3570,7 +3569,7 @@ n
 ;
 }
 }
-int32_t
+WebRtc_Word32
 TestFEC
 :
 :
@@ -3630,7 +3629,7 @@ ON
 OFF
 "
 (
-int16_t
+WebRtc_Word16
 )
 vadMode
 )
@@ -3648,7 +3647,7 @@ vadMode
 )
 ;
 }
-int16_t
+WebRtc_Word16
 TestFEC
 :
 :
@@ -3659,7 +3658,7 @@ side
 char
 *
 codecName
-int32_t
+WebRtc_Word32
 samplingFreqHz
 )
 {
@@ -3803,7 +3802,6 @@ AudioCodingModule
 Codec
 (
 codecName
-&
 myCodecParam
 samplingFreqHz
 1
@@ -3841,17 +3839,17 @@ Run
 AudioFrame
 audioFrame
 ;
-uint16_t
+WebRtc_UWord16
 msecPassed
 =
 0
 ;
-uint32_t
+WebRtc_UWord32
 secPassed
 =
 0
 ;
-int32_t
+WebRtc_Word32
 outFreqHzB
 =
 _outFileB
@@ -3906,7 +3904,6 @@ _acmB
 PlayoutData10Ms
 (
 outFreqHzB
-&
 audioFrame
 )
 )
@@ -4117,7 +4114,7 @@ TestFEC
 :
 OpenOutFile
 (
-int16_t
+WebRtc_Word16
 test_number
 )
 {
@@ -4219,7 +4216,6 @@ _acmA
 >
 SendCodec
 (
-&
 myCodecParam
 )
 ;
@@ -4241,7 +4237,6 @@ _acmB
 >
 ReceiveCodec
 (
-&
 myCodecParam
 )
 ;

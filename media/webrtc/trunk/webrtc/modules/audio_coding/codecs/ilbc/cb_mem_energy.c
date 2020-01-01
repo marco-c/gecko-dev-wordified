@@ -417,9 +417,9 @@ match
 void
 WebRtcIlbcfix_CbMemEnergy
 (
-int16_t
+WebRtc_Word16
 range
-int16_t
+WebRtc_Word16
 *
 CB
 /
@@ -438,7 +438,7 @@ section
 )
 *
 /
-int16_t
+WebRtc_Word16
 *
 filteredCB
 /
@@ -458,7 +458,7 @@ section
 )
 *
 /
-int16_t
+WebRtc_Word16
 lMem
 /
 *
@@ -472,7 +472,7 @@ CB
 memory
 *
 /
-int16_t
+WebRtc_Word16
 lTarget
 /
 *
@@ -486,7 +486,7 @@ target
 vector
 *
 /
-int16_t
+WebRtc_Word16
 *
 energyW16
 /
@@ -501,7 +501,7 @@ CB
 vectors
 *
 /
-int16_t
+WebRtc_Word16
 *
 energyShifts
 /
@@ -516,7 +516,7 @@ the
 energy
 *
 /
-int16_t
+WebRtc_Word16
 scale
 /
 *
@@ -531,7 +531,7 @@ energy
 values
 *
 /
-int16_t
+WebRtc_Word16
 base_size
 /
 *
@@ -551,7 +551,7 @@ stored
 /
 )
 {
-int16_t
+WebRtc_Word16
 *
 ppi
 *
@@ -559,7 +559,7 @@ ppo
 *
 pp
 ;
-int32_t
+WebRtc_Word32
 energy
 tmp32
 ;
@@ -669,7 +669,7 @@ energyShifts
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WebRtcSpl_NormW32
 (
@@ -693,7 +693,7 @@ energyW16
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -799,7 +799,7 @@ base_size
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WebRtcSpl_NormW32
 (
@@ -823,7 +823,7 @@ base_size
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (

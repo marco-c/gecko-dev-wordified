@@ -528,7 +528,7 @@ _lastFrame
 _lastFrame
 =
 new
-uint8_t
+WebRtc_UWord8
 [
 length
 ]
@@ -851,7 +851,7 @@ _bitRate
 0
 )
 ;
-uint32_t
+WebRtc_UWord32
 simulatedBitRate
 ;
 if
@@ -868,7 +868,7 @@ Simulating
 NACK
 simulatedBitRate
 =
-uint32_t
+WebRtc_UWord32
 (
 _bitRate
 /
@@ -918,7 +918,7 @@ _encoder
 SetChannelParameters
 (
 (
-uint32_t
+WebRtc_UWord32
 )
 (
 _lossProbability

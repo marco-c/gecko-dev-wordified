@@ -150,10 +150,10 @@ windows
 .
 h
 >
-uint32_t
+WebRtc_UWord32
 BitRateBPS
 (
-uint16_t
+WebRtc_UWord16
 x
 )
 {
@@ -164,7 +164,7 @@ x
 0x3fff
 )
 *
-uint32_t
+WebRtc_UWord32
 (
 pow
 (
@@ -185,10 +185,10 @@ x
 )
 ;
 }
-uint16_t
+WebRtc_UWord16
 BitRateBPSInv
 (
-uint32_t
+WebRtc_UWord32
 x
 )
 {
@@ -252,7 +252,7 @@ exp
 )
 {
 return
-uint16_t
+WebRtc_UWord16
 (
 x
 /
@@ -273,7 +273,7 @@ exp
 return
 0x4000
 +
-uint16_t
+WebRtc_UWord16
 (
 x
 /
@@ -294,7 +294,7 @@ exp
 return
 0x8000
 +
-uint16_t
+WebRtc_UWord16
 (
 x
 /
@@ -315,7 +315,7 @@ exp
 return
 0xC000
 +
-uint16_t
+WebRtc_UWord16
 (
 x
 /
@@ -347,7 +347,7 @@ argv
 ]
 )
 {
-uint8_t
+WebRtc_UWord8
 dataBuffer
 [
 128
@@ -2179,13 +2179,13 @@ dataBuffer
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 numberOfLayers
 =
 4
 ;
 const
-uint8_t
+WebRtc_UWord8
 layerId
 [
 numberOfLayers
@@ -2199,7 +2199,7 @@ numberOfLayers
 }
 ;
 const
-uint8_t
+WebRtc_UWord8
 priorityId
 [
 numberOfLayers
@@ -2213,7 +2213,7 @@ numberOfLayers
 }
 ;
 const
-uint8_t
+WebRtc_UWord8
 discardableId
 [
 numberOfLayers
@@ -2227,7 +2227,7 @@ numberOfLayers
 }
 ;
 const
-uint8_t
+WebRtc_UWord8
 dependencyId
 [
 numberOfLayers
@@ -2241,7 +2241,7 @@ numberOfLayers
 }
 ;
 const
-uint8_t
+WebRtc_UWord8
 qualityId
 [
 numberOfLayers
@@ -2255,7 +2255,7 @@ numberOfLayers
 }
 ;
 const
-uint8_t
+WebRtc_UWord8
 temporalId
 [
 numberOfLayers
@@ -2269,7 +2269,7 @@ numberOfLayers
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 avgBitrate
 [
 numberOfLayers
@@ -2304,7 +2304,7 @@ the
 sum
 ?
 const
-uint16_t
+WebRtc_UWord16
 maxBitrateLayer
 [
 numberOfLayers
@@ -2330,7 +2330,7 @@ BitRateBPSInv
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 maxBitrateLayerRepresentation
 [
 numberOfLayers
@@ -2482,7 +2482,7 @@ BitRateBPSInv
 )
 ;
 const
-uint16_t
+WebRtc_UWord16
 maxBitrareCalcWindow
 [
 numberOfLayers
@@ -2806,7 +2806,7 @@ in
 futher
 parsing
 const
-uint8_t
+WebRtc_UWord8
 priority_layer_info_present
 =
 parserScalabilityInfo
@@ -2816,7 +2816,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 priority_id_setting_flag
 =
 parserScalabilityInfo
@@ -2825,7 +2825,7 @@ Get1Bit
 (
 )
 ;
-uint32_t
+WebRtc_UWord32
 numberOfLayersMinusOne
 =
 parserScalabilityInfo
@@ -2836,7 +2836,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 j
 =
 0
@@ -2888,7 +2888,7 @@ Get3Bits
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 sub_pic_layer_flag
 =
 parserScalabilityInfo
@@ -2898,7 +2898,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 sub_region_layer_flag
 =
 parserScalabilityInfo
@@ -2908,7 +2908,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 iroi_division_info_present_flag
 =
 parserScalabilityInfo
@@ -2918,7 +2918,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 profile_level_info_present_flag
 =
 parserScalabilityInfo
@@ -2928,7 +2928,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 bitrate_info_present_flag
 =
 parserScalabilityInfo
@@ -2938,7 +2938,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 frm_rate_info_present_flag
 =
 parserScalabilityInfo
@@ -2948,7 +2948,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 frm_size_info_present_flag
 =
 parserScalabilityInfo
@@ -2958,7 +2958,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 layer_dependency_info_present_flag
 =
 parserScalabilityInfo
@@ -2968,7 +2968,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 parameter_sets_info_present_flag
 =
 parserScalabilityInfo
@@ -2978,7 +2978,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 bitstream_restriction_info_present_flag
 =
 parserScalabilityInfo
@@ -2988,7 +2988,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 exact_inter_layer_pred_flag
 =
 parserScalabilityInfo
@@ -3020,7 +3020,7 @@ Get1Bit
 ;
 }
 const
-uint8_t
+WebRtc_UWord8
 layer_conversion_flag
 =
 parserScalabilityInfo
@@ -3030,7 +3030,7 @@ Get1Bit
 )
 ;
 const
-uint8_t
+WebRtc_UWord8
 layer_output_flag
 =
 parserScalabilityInfo
@@ -3266,7 +3266,7 @@ GetUE
 else
 {
 const
-uint32_t
+WebRtc_UWord32
 numRoisMinusOne
 =
 parserScalabilityInfo
@@ -3277,7 +3277,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 k
 =
 0
@@ -3319,7 +3319,7 @@ layer_dependency_info_present_flag
 )
 {
 const
-uint32_t
+WebRtc_UWord32
 numDirectlyDependentLayers
 =
 parserScalabilityInfo
@@ -3330,7 +3330,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 k
 =
 0
@@ -3367,7 +3367,7 @@ parameter_sets_info_present_flag
 )
 {
 const
-uint32_t
+WebRtc_UWord32
 numSeqParameterSetMinusOne
 =
 parserScalabilityInfo
@@ -3378,7 +3378,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 k
 =
 0
@@ -3401,7 +3401,7 @@ GetUE
 ;
 }
 const
-uint32_t
+WebRtc_UWord32
 numSubsetSeqParameterSetMinusOne
 =
 parserScalabilityInfo
@@ -3412,7 +3412,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 l
 =
 0
@@ -3435,7 +3435,7 @@ GetUE
 ;
 }
 const
-uint32_t
+WebRtc_UWord32
 numPicParameterSetMinusOne
 =
 parserScalabilityInfo
@@ -3446,7 +3446,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 m
 =
 0
@@ -3539,7 +3539,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 k
 =
 0
@@ -3590,7 +3590,7 @@ priority_layer_info_present
 )
 {
 const
-uint32_t
+WebRtc_UWord32
 prNumDidMinusOne
 =
 parserScalabilityInfo
@@ -3601,7 +3601,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 k
 =
 0
@@ -3623,7 +3623,7 @@ Get3Bits
 )
 ;
 const
-uint32_t
+WebRtc_UWord32
 prNumMinusOne
 =
 parserScalabilityInfo
@@ -3634,7 +3634,7 @@ GetUE
 ;
 for
 (
-uint32_t
+WebRtc_UWord32
 l
 =
 0
@@ -3681,10 +3681,10 @@ if
 priority_id_setting_flag
 )
 {
-uint8_t
+WebRtc_UWord8
 priorityIdSettingUri
 ;
-uint32_t
+WebRtc_UWord32
 priorityIdSettingUriIdx
 =
 0

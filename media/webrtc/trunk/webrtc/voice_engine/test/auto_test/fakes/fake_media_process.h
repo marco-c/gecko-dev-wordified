@@ -120,7 +120,7 @@ webrtc
 :
 ProcessingTypes
 type
-int16_t
+WebRtc_Word16
 audio_10ms
 [
 ]
@@ -164,7 +164,7 @@ i
 =
 static_cast
 <
-int16_t
+WebRtc_Word16
 >
 (
 audio_10ms
@@ -209,7 +209,7 @@ i
 =
 static_cast
 <
-int16_t
+WebRtc_Word16
 >
 (
 audio_10ms
@@ -250,7 +250,7 @@ i
 =
 static_cast
 <
-int16_t
+WebRtc_Word16
 >
 (
 audio_10ms

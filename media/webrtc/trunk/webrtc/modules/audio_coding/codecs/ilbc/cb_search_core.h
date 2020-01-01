@@ -246,7 +246,7 @@ h
 void
 WebRtcIlbcfix_CbSearchCore
 (
-int32_t
+WebRtc_Word32
 *
 cDot
 /
@@ -258,7 +258,7 @@ Cross
 Correlation
 *
 /
-int16_t
+WebRtc_Word16
 range
 /
 *
@@ -269,7 +269,7 @@ Search
 range
 *
 /
-int16_t
+WebRtc_Word16
 stage
 /
 *
@@ -282,7 +282,7 @@ this
 search
 *
 /
-int16_t
+WebRtc_Word16
 *
 inverseEnergy
 /
@@ -294,7 +294,7 @@ Inversed
 energy
 *
 /
-int16_t
+WebRtc_Word16
 *
 inverseEnergyShift
 /
@@ -316,7 +316,7 @@ offset
 29
 *
 /
-int32_t
+WebRtc_Word32
 *
 Crit
 /
@@ -328,7 +328,7 @@ The
 criteria
 *
 /
-int16_t
+WebRtc_Word16
 *
 bestIndex
 /
@@ -349,7 +349,7 @@ vector
 )
 *
 /
-int32_t
+WebRtc_Word32
 *
 bestCrit
 /
@@ -366,7 +366,7 @@ chosen
 index
 *
 /
-int16_t
+WebRtc_Word16
 *
 bestCritSh
 )

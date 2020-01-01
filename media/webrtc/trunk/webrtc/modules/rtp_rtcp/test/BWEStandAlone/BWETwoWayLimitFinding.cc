@@ -201,7 +201,7 @@ std
 :
 string
 ip
-uint16_t
+WebRtc_UWord16
 port
 )
 {
@@ -323,7 +323,7 @@ _forwLimitReached
 true
 ;
 }
-int32_t
+WebRtc_Word32
 revRateKbps
 =
 _sendrec

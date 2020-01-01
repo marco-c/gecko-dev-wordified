@@ -138,7 +138,7 @@ PacketReader
 :
 InitializeReading
 (
-uint8_t
+WebRtc_UWord8
 *
 data
 int
@@ -194,7 +194,7 @@ PacketReader
 :
 NextPacket
 (
-uint8_t
+WebRtc_UWord8
 *
 *
 packet_pointer

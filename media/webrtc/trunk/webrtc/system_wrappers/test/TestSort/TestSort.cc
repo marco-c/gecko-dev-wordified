@@ -685,7 +685,7 @@ dataRef
 DataLength
 ]
 ;
-int32_t
+WebRtc_Word32
 retVal
 =
 0
@@ -1403,7 +1403,7 @@ n
 NumOfTests
 )
 ;
-int64_t
+WebRtc_Word64
 executeTime
 =
 accTicks
@@ -1476,7 +1476,7 @@ i
 {
 RunSortTest
 <
-int8_t
+WebRtc_Word8
 >
 (
 webrtc
@@ -1488,7 +1488,7 @@ keySort
 ;
 RunSortTest
 <
-uint8_t
+WebRtc_UWord8
 >
 (
 webrtc
@@ -1500,7 +1500,7 @@ keySort
 ;
 RunSortTest
 <
-int16_t
+WebRtc_Word16
 >
 (
 webrtc
@@ -1512,7 +1512,7 @@ keySort
 ;
 RunSortTest
 <
-uint16_t
+WebRtc_UWord16
 >
 (
 webrtc
@@ -1524,7 +1524,7 @@ keySort
 ;
 RunSortTest
 <
-int32_t
+WebRtc_Word32
 >
 (
 webrtc
@@ -1536,7 +1536,7 @@ keySort
 ;
 RunSortTest
 <
-uint32_t
+WebRtc_UWord32
 >
 (
 webrtc
@@ -1548,7 +1548,7 @@ keySort
 ;
 RunSortTest
 <
-int64_t
+WebRtc_Word64
 >
 (
 webrtc
@@ -1560,7 +1560,7 @@ keySort
 ;
 RunSortTest
 <
-uint64_t
+WebRtc_UWord64
 >
 (
 webrtc

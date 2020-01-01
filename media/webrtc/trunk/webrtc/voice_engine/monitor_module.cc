@@ -173,7 +173,7 @@ delete
 _callbackCritSect
 ;
 }
-int32_t
+WebRtc_Word32
 MonitorModule
 :
 :
@@ -210,7 +210,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 MonitorModule
 :
 :
@@ -243,7 +243,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 MonitorModule
 :
 :
@@ -252,10 +252,10 @@ Version
 char
 *
 version
-uint32_t
+WebRtc_UWord32
 &
 remainingBufferInBytes
-uint32_t
+WebRtc_UWord32
 &
 position
 )
@@ -265,14 +265,14 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 MonitorModule
 :
 :
 ChangeUniqueId
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {
@@ -280,7 +280,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 MonitorModule
 :
 :
@@ -288,7 +288,7 @@ TimeUntilNextProcess
 (
 )
 {
-uint32_t
+WebRtc_UWord32
 now
 =
 TickTime
@@ -298,7 +298,7 @@ MillisecondTimestamp
 (
 )
 ;
-int32_t
+WebRtc_Word32
 timeToNext
 =
 kAverageProcessUpdateTimeMs
@@ -315,7 +315,7 @@ timeToNext
 )
 ;
 }
-int32_t
+WebRtc_Word32
 MonitorModule
 :
 :

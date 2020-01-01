@@ -475,7 +475,7 @@ buffer
 level
 *
 /
-uint16_t
+WebRtc_UWord16
 levelFiltFact
 ;
 /
@@ -487,7 +487,7 @@ in
 Q8
 *
 /
-int
+WebRtc_UWord16
 buffLevelFilt
 ;
 /
@@ -511,7 +511,7 @@ iat
 statistics
 *
 /
-int32_t
+WebRtc_Word32
 iatProb
 [
 MAX_IAT
@@ -527,7 +527,7 @@ in
 Q30
 *
 /
-int16_t
+WebRtc_Word16
 iatProbFact
 ;
 /
@@ -539,7 +539,7 @@ in
 Q15
 *
 /
-uint32_t
+WebRtc_UWord32
 packetIatCountSamp
 ;
 /
@@ -560,7 +560,7 @@ RecOut
 calls
 *
 /
-int
+WebRtc_UWord16
 optBufLevel
 ;
 /
@@ -580,7 +580,7 @@ related
 information
 *
 /
-int16_t
+WebRtc_Word16
 packetSpeechLenSamp
 ;
 /
@@ -592,7 +592,7 @@ incoming
 packet
 *
 /
-int16_t
+WebRtc_Word16
 lastPackCNGorDTMF
 ;
 /
@@ -608,7 +608,7 @@ special
 information
 *
 /
-uint16_t
+WebRtc_UWord16
 lastSeqNo
 ;
 /
@@ -621,7 +621,7 @@ packet
 received
 *
 /
-uint32_t
+WebRtc_UWord32
 lastTimeStamp
 ;
 /
@@ -634,7 +634,7 @@ packet
 received
 *
 /
-int32_t
+WebRtc_Word32
 sampleMemory
 ;
 /
@@ -654,7 +654,7 @@ during
 expand
 *
 /
-int16_t
+WebRtc_Word16
 prevTimeScale
 ;
 /
@@ -675,7 +675,7 @@ expand
 operation
 *
 /
-uint32_t
+WebRtc_UWord32
 timescaleHoldOff
 ;
 /
@@ -702,7 +702,7 @@ reached
 0
 *
 /
-int16_t
+WebRtc_Word16
 extraDelayMs
 ;
 /
@@ -738,7 +738,7 @@ samples
 )
 *
 /
-uint32_t
+WebRtc_UWord32
 peakPeriodSamp
 [
 NUM_PEAKS
@@ -758,13 +758,13 @@ packets
 )
 *
 /
-int16_t
+WebRtc_Word16
 peakHeightPkt
 [
 NUM_PEAKS
 ]
 ;
-int16_t
+WebRtc_Word16
 peakIndex
 ;
 /
@@ -787,7 +787,7 @@ first
 peak
 *
 /
-uint16_t
+WebRtc_UWord16
 peakThresholdPkt
 ;
 /
@@ -805,7 +805,7 @@ from
 PEAK_HEIGHT
 *
 /
-uint32_t
+WebRtc_UWord32
 peakIatCountSamp
 ;
 /
@@ -819,7 +819,7 @@ was
 observed
 *
 /
-uint32_t
+WebRtc_UWord32
 curPeakPeriod
 ;
 /
@@ -831,7 +831,7 @@ peakPeriodSamp
 vector
 *
 /
-int16_t
+WebRtc_Word16
 curPeakHeight
 ;
 /
@@ -851,7 +851,7 @@ peak
 mode
 *
 /
-int16_t
+WebRtc_Word16
 peakModeDisabled
 ;
 /
@@ -902,7 +902,7 @@ call
 statistics
 *
 /
-uint32_t
+WebRtc_UWord32
 countIAT500ms
 ;
 /
@@ -917,7 +917,7 @@ network
 outage
 *
 /
-uint32_t
+WebRtc_UWord32
 countIAT1000ms
 ;
 /
@@ -932,7 +932,7 @@ network
 outage
 *
 /
-uint32_t
+WebRtc_UWord32
 countIAT2000ms
 ;
 /
@@ -947,7 +947,7 @@ network
 outage
 *
 /
-uint32_t
+WebRtc_UWord32
 longestIATms
 ;
 /
@@ -960,7 +960,7 @@ network
 outage
 *
 /
-int16_t
+WebRtc_Word16
 cSumIatQ8
 ;
 /
@@ -974,7 +974,7 @@ arrival
 times
 *
 /
-int16_t
+WebRtc_Word16
 maxCSumIatQ8
 ;
 /
@@ -985,7 +985,7 @@ sum
 IAT
 *
 /
-uint32_t
+WebRtc_UWord32
 maxCSumUpdateTimer
 ;
 /
@@ -1288,11 +1288,11 @@ AutomodeInst_t
 inst
 int
 maxBufLen
-uint16_t
+WebRtc_UWord16
 seqNumber
-uint32_t
+WebRtc_UWord32
 timeStamp
-int32_t
+WebRtc_Word32
 fsHz
 int
 mdCodec
@@ -1495,17 +1495,17 @@ level
 Error
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcNetEQ_CalcOptimalBufLvl
 (
 AutomodeInst_t
 *
 inst
-int32_t
+WebRtc_Word32
 fsHz
 int
 mdCodec
-uint32_t
+WebRtc_UWord32
 timeIatPkts
 int
 streamingMode
@@ -1711,14 +1711,14 @@ Error
 int
 WebRtcNetEQ_BufferLevelFilter
 (
-int32_t
+WebRtc_Word32
 curSizeMs8
 AutomodeInst_t
 *
 inst
 int
 sampPerCall
-int16_t
+WebRtc_Word16
 fsMult
 )
 ;
@@ -1899,9 +1899,9 @@ WebRtcNetEQ_SetPacketSpeechLen
 AutomodeInst_t
 *
 inst
-int16_t
+WebRtc_Word16
 newLenSamp
-int32_t
+WebRtc_Word32
 fsHz
 )
 ;

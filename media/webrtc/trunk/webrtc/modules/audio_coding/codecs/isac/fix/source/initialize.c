@@ -154,7 +154,7 @@ k
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 0
 ;
@@ -167,7 +167,7 @@ k
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 0
 ;
@@ -198,7 +198,7 @@ k
 ]
 =
 (
-int32_t
+WebRtc_Word32
 )
 0
 ;
@@ -249,7 +249,7 @@ k
 ]
 =
 (
-int32_t
+WebRtc_Word32
 )
 0
 ;

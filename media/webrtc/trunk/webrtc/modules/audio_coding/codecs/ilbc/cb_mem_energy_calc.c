@@ -270,7 +270,7 @@ respectively
 void
 WebRtcIlbcfix_CbMemEnergyCalc
 (
-int32_t
+WebRtc_Word32
 energy
 /
 *
@@ -282,7 +282,7 @@ start
 energy
 *
 /
-int16_t
+WebRtc_Word16
 range
 /
 *
@@ -294,7 +294,7 @@ of
 iterations
 *
 /
-int16_t
+WebRtc_Word16
 *
 ppi
 /
@@ -307,7 +307,7 @@ pointer
 1
 *
 /
-int16_t
+WebRtc_Word16
 *
 ppo
 /
@@ -320,7 +320,7 @@ pointer
 2
 *
 /
-int16_t
+WebRtc_Word16
 *
 energyW16
 /
@@ -335,7 +335,7 @@ CB
 vectors
 *
 /
-int16_t
+WebRtc_Word16
 *
 energyShifts
 /
@@ -350,7 +350,7 @@ the
 energy
 *
 /
-int16_t
+WebRtc_Word16
 scale
 /
 *
@@ -365,7 +365,7 @@ energy
 values
 *
 /
-int16_t
+WebRtc_Word16
 base_size
 /
 *
@@ -385,18 +385,18 @@ stored
 /
 )
 {
-int16_t
+WebRtc_Word16
 j
 shft
 ;
-int32_t
+WebRtc_Word32
 tmp
 ;
-int16_t
+WebRtc_Word16
 *
 eSh_ptr
 ;
-int16_t
+WebRtc_Word16
 *
 eW16_ptr
 ;
@@ -507,7 +507,7 @@ the
 energy
 into
 a
-int16_t
+WebRtc_Word16
 and
 store
 the
@@ -519,7 +519,7 @@ shifts
 shft
 =
 (
-int16_t
+WebRtc_Word16
 )
 WebRtcSpl_NormW32
 (
@@ -547,7 +547,7 @@ eW16_ptr
 +
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (

@@ -298,13 +298,13 @@ s
 *
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_RemoveLarMean
 (
 double
 *
 lar
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;
@@ -496,7 +496,7 @@ vectors
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_DecorrelateIntraVec
 (
 const
@@ -506,7 +506,7 @@ inLAR
 double
 *
 out
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;
@@ -706,7 +706,7 @@ vectors
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_DecorrelateInterVec
 (
 const
@@ -716,7 +716,7 @@ data
 double
 *
 out
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;
@@ -877,7 +877,7 @@ data
 int
 *
 idx
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;
@@ -1020,7 +1020,7 @@ parametrs
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_CorrelateIntraVec
 (
 const
@@ -1030,7 +1030,7 @@ data
 double
 *
 out
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;
@@ -1169,7 +1169,7 @@ parametrs
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_CorrelateInterVec
 (
 const
@@ -1179,7 +1179,7 @@ data
 double
 *
 out
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;
@@ -1328,13 +1328,13 @@ LARs
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_AddLarMean
 (
 double
 *
 data
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;
@@ -1484,7 +1484,7 @@ values
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_DequantizeLpcParam
 (
 const
@@ -1494,7 +1494,7 @@ idx
 double
 *
 out
-int16_t
+WebRtc_Word16
 bandwidth
 )
 ;
@@ -1629,7 +1629,7 @@ domain
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_ToLogDomainRemoveMean
 (
 double
@@ -1776,7 +1776,7 @@ parameters
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_DecorrelateLPGain
 (
 const
@@ -2050,7 +2050,7 @@ parametes
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_DequantizeLpcGain
 (
 const
@@ -2180,7 +2180,7 @@ parameters
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_CorrelateLpcGain
 (
 const
@@ -2319,7 +2319,7 @@ domain
 .
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIsac_AddMeanToLinearDomain
 (
 double

@@ -126,7 +126,7 @@ VideoCaptureImpl
 CreateDeviceInfo
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {
@@ -165,7 +165,7 @@ VideoCaptureImpl
 Create
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 char

@@ -217,7 +217,7 @@ Gains
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kNumQCellLpcGain
 [
 SUBFRAMES
@@ -255,7 +255,7 @@ coefficient
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcGainEntropySearch
 [
 SUBFRAMES
@@ -289,7 +289,7 @@ gains
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcGainCdfVec0
 [
 18
@@ -317,7 +317,7 @@ WebRtcIsac_kLpcGainCdfVec0
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcGainCdfVec1
 [
 21
@@ -348,7 +348,7 @@ WebRtcIsac_kLpcGainCdfVec1
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcGainCdfVec2
 [
 26
@@ -384,7 +384,7 @@ WebRtcIsac_kLpcGainCdfVec2
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcGainCdfVec3
 [
 46
@@ -440,7 +440,7 @@ WebRtcIsac_kLpcGainCdfVec3
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcGainCdfVec4
 [
 78
@@ -528,7 +528,7 @@ WebRtcIsac_kLpcGainCdfVec4
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcGainCdfVec5
 [
 171
@@ -724,7 +724,7 @@ Gains
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kLpcGainCdfMat
 [

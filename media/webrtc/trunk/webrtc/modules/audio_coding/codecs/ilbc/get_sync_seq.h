@@ -387,7 +387,7 @@ sequence
 void
 WebRtcIlbcfix_GetSyncSeq
 (
-int16_t
+WebRtc_Word16
 *
 idata
 /
@@ -399,7 +399,7 @@ original
 data
 *
 /
-int16_t
+WebRtc_Word16
 idatal
 /
 *
@@ -411,7 +411,7 @@ of
 data
 *
 /
-int16_t
+WebRtc_Word16
 centerStartPos
 /
 *
@@ -424,7 +424,7 @@ block
 starts
 *
 /
-int16_t
+WebRtc_Word16
 *
 period
 /
@@ -445,7 +445,7 @@ Q
 )
 *
 /
-int16_t
+WebRtc_Word16
 *
 plocs
 /
@@ -467,7 +467,7 @@ Q
 )
 *
 /
-int16_t
+WebRtc_Word16
 periodl
 /
 *
@@ -479,7 +479,7 @@ period
 array
 *
 /
-int16_t
+WebRtc_Word16
 hl
 /
 *
@@ -498,7 +498,7 @@ of
 sequences
 *
 /
-int16_t
+WebRtc_Word16
 *
 surround
 /

@@ -147,10 +147,10 @@ ActivityMonitor
 (
 )
 ;
-int32_t
+WebRtc_Word32
 InFrameType
 (
-int16_t
+WebRtc_Word16
 frameType
 )
 ;
@@ -169,7 +169,7 @@ ResetStatistics
 void
 GetStatistics
 (
-uint32_t
+WebRtc_UWord32
 *
 getCounter
 )
@@ -196,7 +196,7 @@ kPassiveDTXSWB
 ;
 *
 /
-uint32_t
+WebRtc_UWord32
 _counter
 [
 6
@@ -255,7 +255,7 @@ frequency
 and
 rate
 .
-int16_t
+WebRtc_Word16
 RegisterSendCodec
 (
 char
@@ -263,12 +263,12 @@ side
 char
 *
 codecName
-int32_t
+WebRtc_Word32
 samplingFreqHz
 =
 -
 1
-int32_t
+WebRtc_Word32
 rateKhz
 =
 -
@@ -283,7 +283,7 @@ Run
 void
 OpenOutFile
 (
-int16_t
+WebRtc_Word16
 testNumber
 )
 ;
@@ -304,7 +304,7 @@ bool
 statusDTX
 bool
 statusVAD
-int16_t
+WebRtc_Word16
 vadMode
 )
 ;
@@ -313,7 +313,7 @@ GetVAD
 (
 )
 ;
-int16_t
+WebRtc_Word16
 VerifyTest
 (
 )
@@ -347,7 +347,7 @@ _outFileB
 ActivityMonitor
 _monitor
 ;
-uint32_t
+WebRtc_UWord32
 _statCounter
 [
 6

@@ -308,7 +308,7 @@ ex
 )
 ;
 \
-int64_t
+WebRtc_Word64
 start
 =
 TickTime
@@ -1236,7 +1236,7 @@ void
 OnIncomingCapturedFrame
 (
 const
-int32_t
+WebRtc_Word32
 id
 webrtc
 :
@@ -1461,7 +1461,7 @@ void
 OnIncomingCapturedEncodedFrame
 (
 const
-int32_t
+WebRtc_Word32
 id
 webrtc
 :
@@ -1478,7 +1478,10 @@ codecType
 {
 assert
 (
-false
+!
+"
+NOTIMPLEMENTED
+"
 )
 ;
 }
@@ -1487,10 +1490,10 @@ void
 OnCaptureDelayChanged
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
-int32_t
+WebRtc_Word32
 delay
 )
 {
@@ -1718,7 +1721,7 @@ capability_
 int
 capture_delay_
 ;
-int64_t
+WebRtc_Word64
 last_render_time_ms_
 ;
 int
@@ -1780,10 +1783,10 @@ void
 OnCaptureFrameRate
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
-uint32_t
+WebRtc_UWord32
 frameRate
 )
 {
@@ -1807,7 +1810,7 @@ void
 OnNoPictureAlarm
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 VideoCaptureAlarm
@@ -2149,7 +2152,7 @@ i
 i
 )
 {
-int64_t
+WebRtc_Word64
 start_time
 =
 TickTime
@@ -2315,7 +2318,7 @@ capture_delay
 0
 )
 ;
-int64_t
+WebRtc_Word64
 stop_time
 =
 TickTime
@@ -4027,7 +4030,7 @@ VideoCaptureExternalTest
 FrameRate
 )
 {
-int64_t
+WebRtc_Word64
 testTime
 =
 3

@@ -401,7 +401,7 @@ state
 void
 WebRtcIlbcfix_DoThePlc
 (
-int16_t
+WebRtc_Word16
 *
 PLCresidual
 /
@@ -413,7 +413,7 @@ concealed
 residual
 *
 /
-int16_t
+WebRtc_Word16
 *
 PLClpc
 /
@@ -426,7 +426,7 @@ LP
 parameters
 *
 /
-int16_t
+WebRtc_Word16
 PLI
 /
 *
@@ -445,7 +445,7 @@ PL
 PL
 *
 /
-int16_t
+WebRtc_Word16
 *
 decresidual
 /
@@ -457,7 +457,7 @@ decoded
 residual
 *
 /
-int16_t
+WebRtc_Word16
 *
 lpc
 /
@@ -476,7 +476,7 @@ PL
 )
 *
 /
-int16_t
+WebRtc_Word16
 inlag
 /
 *

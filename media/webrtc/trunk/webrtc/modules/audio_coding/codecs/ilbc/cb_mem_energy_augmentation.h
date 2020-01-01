@@ -239,7 +239,7 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_CB_MEM_ENERGY_AUGMENTATION_H
 void
 WebRtcIlbcfix_CbMemEnergyAugmentation
 (
-int16_t
+WebRtc_Word16
 *
 interpSamples
 /
@@ -252,7 +252,7 @@ interpolated
 samples
 *
 /
-int16_t
+WebRtc_Word16
 *
 CBmem
 /
@@ -265,7 +265,7 @@ CB
 memory
 *
 /
-int16_t
+WebRtc_Word16
 scale
 /
 *
@@ -280,7 +280,7 @@ energy
 values
 *
 /
-int16_t
+WebRtc_Word16
 base_size
 /
 *
@@ -298,7 +298,7 @@ be
 stored
 *
 /
-int16_t
+WebRtc_Word16
 *
 energyW16
 /
@@ -313,7 +313,7 @@ CB
 vectors
 *
 /
-int16_t
+WebRtc_Word16
 *
 energyShifts
 /

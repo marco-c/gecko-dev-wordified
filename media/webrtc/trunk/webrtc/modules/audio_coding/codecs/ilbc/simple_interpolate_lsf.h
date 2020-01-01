@@ -387,7 +387,7 @@ LPCencode
 void
 WebRtcIlbcfix_SimpleInterpolateLsf
 (
-int16_t
+WebRtc_Word16
 *
 syntdenum
 /
@@ -408,7 +408,7 @@ lsf
 Q12
 *
 /
-int16_t
+WebRtc_Word16
 *
 weightdenum
 /
@@ -429,7 +429,7 @@ lsf
 Q12
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsf
 /
@@ -444,7 +444,7 @@ coefficients
 Q13
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsfdeq
 /
@@ -459,7 +459,7 @@ coefficients
 Q13
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsfold
 /
@@ -479,7 +479,7 @@ frame
 Q13
 *
 /
-int16_t
+WebRtc_Word16
 *
 lsfdeqold
 /
@@ -499,7 +499,7 @@ frame
 Q13
 *
 /
-int16_t
+WebRtc_Word16
 length
 /
 *

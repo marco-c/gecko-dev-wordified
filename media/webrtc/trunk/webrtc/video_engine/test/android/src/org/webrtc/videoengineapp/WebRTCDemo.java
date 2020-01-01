@@ -522,9 +522,6 @@ number
 private
 int
 channel
-=
--
-1
 ;
 private
 int
@@ -559,7 +556,7 @@ private
 boolean
 enableTrace
 =
-true
+false
 ;
 /
 /
@@ -2352,18 +2349,6 @@ RemoveRemoteRenderer
 (
 channel
 )
-;
-vieAndroidAPI
-.
-ViE_DeleteChannel
-(
-channel
-)
-;
-channel
-=
--
-1
 ;
 vieAndroidAPI
 .
@@ -4367,7 +4352,8 @@ VoE_CreateChannel
 if
 (
 0
->
+!
+=
 voiceChannel
 )
 {

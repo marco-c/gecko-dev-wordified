@@ -389,7 +389,7 @@ bytes
 -
 *
 /
-int16_t
+WebRtc_Word16
 WebRtcIlbcfix_UnpackBits
 (
 /
@@ -405,7 +405,7 @@ indicator
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 *
 bitstream
 /
@@ -431,7 +431,7 @@ from
 bitstream
 *
 /
-int16_t
+WebRtc_Word16
 mode
 /
 *

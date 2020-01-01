@@ -321,7 +321,7 @@ int
 actual_nbr_packets_dropped
 int
 expected_packet_data_length
-uint8_t
+WebRtc_UWord8
 *
 expected_packet_data
 EncodedImage
@@ -702,13 +702,13 @@ kPacketSizeInBytes
 *
 kNbrPackets
 ;
-uint8_t
+WebRtc_UWord8
 data
 [
 kDataLength
 ]
 ;
-uint8_t
+WebRtc_UWord8
 *
 data_pointer
 =

@@ -122,7 +122,7 @@ webrtc
 namespace
 VideoProcessing
 {
-int32_t
+WebRtc_Word32
 Brighten
 (
 I420VideoFrame
@@ -291,7 +291,7 @@ val
 )
 ;
 }
-uint8_t
+WebRtc_UWord8
 *
 tempPtr
 =
@@ -324,7 +324,7 @@ tempPtr
 =
 static_cast
 <
-uint8_t
+WebRtc_UWord8
 >
 (
 lookUp

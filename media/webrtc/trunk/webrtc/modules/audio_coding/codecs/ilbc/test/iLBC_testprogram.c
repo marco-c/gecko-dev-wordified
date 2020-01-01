@@ -501,7 +501,7 @@ Encoder
 instance
 *
 /
-int16_t
+WebRtc_Word16
 *
 encoded_data
 /
@@ -514,7 +514,7 @@ encoded
 bytes
 *
 /
-int16_t
+WebRtc_Word16
 *
 data
 /
@@ -542,7 +542,7 @@ encoding
 WebRtcIlbcfix_Encode
 (
 (
-uint16_t
+WebRtc_UWord16
 *
 )
 encoded_data
@@ -823,7 +823,7 @@ WebRtcIlbcfix_Decode
 (
 decoded_data
 (
-uint16_t
+WebRtc_UWord16
 *
 )
 encoded_data
@@ -2084,7 +2084,7 @@ ifileid
 =
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 Enc_Inst
 .

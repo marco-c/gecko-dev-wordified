@@ -165,7 +165,7 @@ false
 )
 {
 }
-int32_t
+WebRtc_Word32
 AndroidMediaCodecDecoder
 :
 :
@@ -175,7 +175,7 @@ const
 VideoCodec
 *
 codecSettings
-int32_t
+WebRtc_Word32
 numberOfCores
 )
 {
@@ -439,7 +439,7 @@ return
 WEBRTC_VIDEO_CODEC_OK
 ;
 }
-int32_t
+WebRtc_Word32
 AndroidMediaCodecDecoder
 :
 :
@@ -459,7 +459,7 @@ const
 CodecSpecificInfo
 *
 codecSpecificInfo
-int64_t
+WebRtc_Word64
 renderTimeMs
 )
 {
@@ -512,7 +512,7 @@ return
 WEBRTC_VIDEO_CODEC_NO_OUTPUT
 ;
 }
-int32_t
+WebRtc_Word32
 AndroidMediaCodecDecoder
 :
 :
@@ -538,7 +538,7 @@ return
 WEBRTC_VIDEO_CODEC_OK
 ;
 }
-int32_t
+WebRtc_Word32
 AndroidMediaCodecDecoder
 :
 :
@@ -573,7 +573,7 @@ return
 WEBRTC_VIDEO_CODEC_OK
 ;
 }
-int32_t
+WebRtc_Word32
 AndroidMediaCodecDecoder
 :
 :

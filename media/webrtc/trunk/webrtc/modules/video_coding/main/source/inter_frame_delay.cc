@@ -178,9 +178,9 @@ VCMInterFrameDelay
 :
 CalculateDelay
 (
-uint32_t
+WebRtc_UWord32
 timestamp
-int64_t
+WebRtc_Word64
 *
 delay
 int64_t
@@ -223,7 +223,7 @@ return
 true
 ;
 }
-int32_t
+WebRtc_Word32
 prevWrapArounds
 =
 _wrapArounds
@@ -251,7 +251,7 @@ for
 forward
 wrap
 arounds
-int32_t
+WebRtc_Word32
 wrapAroundsSincePrev
 =
 _wrapArounds
@@ -358,7 +358,7 @@ _dTS
 =
 static_cast
 <
-int64_t
+WebRtc_Word64
 >
 (
 (
@@ -369,7 +369,7 @@ wrapAroundsSincePrev
 (
 static_cast
 <
-int64_t
+WebRtc_Word64
 >
 (
 1
@@ -433,7 +433,7 @@ delay
 =
 static_cast
 <
-int64_t
+WebRtc_Word64
 >
 (
 currentWallClock
@@ -464,7 +464,7 @@ difference
 between
 incoming
 timestamps
-uint32_t
+WebRtc_UWord32
 VCMInterFrameDelay
 :
 :
@@ -487,7 +487,7 @@ return
 return
 static_cast
 <
-uint32_t
+WebRtc_UWord32
 >
 (
 _dTS
@@ -527,7 +527,7 @@ VCMInterFrameDelay
 :
 CheckForWrapArounds
 (
-uint32_t
+WebRtc_UWord32
 timestamp
 )
 {
@@ -595,7 +595,7 @@ if
 (
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 timestamp
@@ -658,7 +658,7 @@ if
 (
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 _prevTimestamp

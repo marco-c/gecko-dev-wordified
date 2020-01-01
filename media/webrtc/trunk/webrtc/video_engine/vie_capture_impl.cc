@@ -299,7 +299,7 @@ this
 -
 -
 ;
-int32_t
+WebRtc_Word32
 ref_count
 =
 GetCount
@@ -767,7 +767,7 @@ return
 ;
 }
 const
-int32_t
+WebRtc_Word32
 result
 =
 shared_data_
@@ -784,7 +784,7 @@ unique_idUTF8
 static_cast
 <
 const
-uint32_t
+WebRtc_UWord32
 >
 (
 unique_idUTF8Length
@@ -910,7 +910,7 @@ return
 ;
 }
 const
-int32_t
+WebRtc_Word32
 result
 =
 shared_data_
@@ -1047,7 +1047,7 @@ return
 ;
 }
 const
-int32_t
+WebRtc_Word32
 result
 =
 shared_data_

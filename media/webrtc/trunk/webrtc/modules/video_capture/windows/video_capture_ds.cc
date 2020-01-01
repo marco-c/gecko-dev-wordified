@@ -152,7 +152,7 @@ VideoCaptureDS
 VideoCaptureDS
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 :
@@ -317,14 +317,14 @@ _graphBuilder
 )
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureDS
 :
 :
 Init
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 char
@@ -333,11 +333,11 @@ deviceUniqueIdUTF8
 )
 {
 const
-int32_t
+WebRtc_Word32
 nameLength
 =
 (
-int32_t
+WebRtc_Word32
 )
 strlen
 (
@@ -857,7 +857,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureDS
 :
 :
@@ -954,7 +954,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureDS
 :
 :
@@ -1109,7 +1109,7 @@ state
 State_Running
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureDS
 :
 :
@@ -1128,7 +1128,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureDS
 :
 :
@@ -1150,7 +1150,7 @@ capability
 VideoCaptureCapability
 capability
 ;
-int32_t
+WebRtc_Word32
 capabilityIndex
 ;
 /
@@ -1730,7 +1730,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureDS
 :
 :

@@ -254,7 +254,7 @@ h
 void
 WebRtcIlbcfix_AugmentedCbCorr
 (
-int16_t
+WebRtc_Word16
 *
 target
 /
@@ -266,7 +266,7 @@ Target
 vector
 *
 /
-int16_t
+WebRtc_Word16
 *
 buffer
 /
@@ -278,7 +278,7 @@ Memory
 buffer
 *
 /
-int16_t
+WebRtc_Word16
 *
 interpSamples
 /
@@ -292,7 +292,7 @@ interpolated
 samples
 *
 /
-int32_t
+WebRtc_Word32
 *
 crossDot
 /
@@ -312,7 +312,7 @@ Augmented
 vector
 *
 /
-int16_t
+WebRtc_Word16
 low
 /
 *
@@ -329,7 +329,7 @@ typically
 )
 *
 /
-int16_t
+WebRtc_Word16
 high
 /
 *
@@ -346,7 +346,7 @@ typically
 )
 *
 /
-int16_t
+WebRtc_Word16
 scale
 )
 /
@@ -367,18 +367,18 @@ crossDot
 int
 lagcount
 ;
-int16_t
+WebRtc_Word16
 ilow
 ;
-int16_t
+WebRtc_Word16
 *
 targetPtr
 ;
-int32_t
+WebRtc_Word32
 *
 crossDotPtr
 ;
-int16_t
+WebRtc_Word16
 *
 iSPtr
 =
@@ -436,7 +436,7 @@ lagcount
 ilow
 =
 (
-int16_t
+WebRtc_Word16
 )
 (
 lagcount

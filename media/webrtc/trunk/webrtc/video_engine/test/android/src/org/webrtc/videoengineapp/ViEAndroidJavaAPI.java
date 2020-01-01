@@ -667,15 +667,6 @@ int
 channel
 )
 ;
-public
-native
-int
-ViE_DeleteChannel
-(
-int
-channel
-)
-;
 /
 /
 Receiver

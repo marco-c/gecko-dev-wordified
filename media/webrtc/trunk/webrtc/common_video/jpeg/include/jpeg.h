@@ -223,7 +223,7 @@ OK
 )
 :
 Error
-int32_t
+WebRtc_Word32
 SetFileName
 (
 const
@@ -283,7 +283,7 @@ OK
 )
 :
 Error
-int32_t
+WebRtc_Word32
 Encode
 (
 const

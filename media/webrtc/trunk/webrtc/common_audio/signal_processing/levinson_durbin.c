@@ -122,23 +122,23 @@ h
 define
 SPL_LEVINSON_MAXORDER
 20
-int16_t
+WebRtc_Word16
 WebRtcSpl_LevinsonDurbin
 (
-int32_t
+WebRtc_Word32
 *
 R
-int16_t
+WebRtc_Word16
 *
 A
-int16_t
+WebRtc_Word16
 *
 K
-int16_t
+WebRtc_Word16
 order
 )
 {
-int16_t
+WebRtc_Word16
 i
 j
 ;
@@ -151,7 +151,7 @@ coefficients
 in
 high
 precision
-int16_t
+WebRtc_Word16
 R_hi
 [
 SPL_LEVINSON_MAXORDER
@@ -172,7 +172,7 @@ coefficients
 in
 high
 precision
-int16_t
+WebRtc_Word16
 A_hi
 [
 SPL_LEVINSON_MAXORDER
@@ -193,7 +193,7 @@ coefficients
 for
 next
 iteration
-int16_t
+WebRtc_Word16
 A_upd_hi
 [
 SPL_LEVINSON_MAXORDER
@@ -214,7 +214,7 @@ coefficient
 in
 high
 precision
-int16_t
+WebRtc_Word16
 K_hi
 K_low
 ;
@@ -230,21 +230,21 @@ and
 with
 scale
 factor
-int16_t
+WebRtc_Word16
 Alpha_hi
 Alpha_low
 Alpha_exp
 ;
-int16_t
+WebRtc_Word16
 tmp_hi
 tmp_low
 ;
-int32_t
+WebRtc_Word32
 temp1W32
 temp2W32
 temp3W32
 ;
-int16_t
+WebRtc_Word16
 norm
 ;
 /
@@ -317,7 +317,7 @@ i
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -331,7 +331,7 @@ i
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -341,7 +341,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 R_hi
 [
@@ -378,7 +378,7 @@ temp2W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 R_hi
 [
@@ -390,7 +390,7 @@ R_hi
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 R_low
 [
@@ -488,7 +488,7 @@ format
 K_hi
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -499,7 +499,7 @@ temp1W32
 K_low
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -509,7 +509,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 K_hi
 16
@@ -565,7 +565,7 @@ A_hi
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -579,7 +579,7 @@ A_low
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -589,7 +589,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 A_hi
 [
@@ -668,7 +668,7 @@ against
 temp1W32
 =
 (
-int32_t
+WebRtc_Word32
 )
 0x7fffffffL
 -
@@ -717,7 +717,7 @@ format
 tmp_hi
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -728,7 +728,7 @@ temp1W32
 tmp_low
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -738,7 +738,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 tmp_hi
 16
@@ -829,7 +829,7 @@ Alpha_exp
 Alpha_hi
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -840,7 +840,7 @@ temp1W32
 Alpha_low
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -850,7 +850,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 Alpha_hi
 16
@@ -1037,7 +1037,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 R_hi
 [
@@ -1049,7 +1049,7 @@ i
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 R_low
 [
@@ -1177,7 +1177,7 @@ temp3W32
 temp3W32
 =
 (
-int32_t
+WebRtc_Word32
 )
 0x7fffffffL
 ;
@@ -1187,7 +1187,7 @@ else
 temp3W32
 =
 (
-int32_t
+WebRtc_Word32
 )
 0x80000000L
 ;
@@ -1205,7 +1205,7 @@ format
 K_hi
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1216,7 +1216,7 @@ temp3W32
 K_low
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1226,7 +1226,7 @@ temp3W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 K_hi
 16
@@ -1278,7 +1278,7 @@ case
 if
 (
 (
-int32_t
+WebRtc_Word32
 )
 WEBRTC_SPL_ABS_W16
 (
@@ -1286,7 +1286,7 @@ K_hi
 )
 >
 (
-int32_t
+WebRtc_Word32
 )
 32750
 )
@@ -1375,7 +1375,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 A_hi
 [
@@ -1387,7 +1387,7 @@ j
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 A_low
 [
@@ -1479,7 +1479,7 @@ j
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1493,7 +1493,7 @@ j
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1503,7 +1503,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 A_upd_hi
 [
@@ -1553,7 +1553,7 @@ i
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1567,7 +1567,7 @@ i
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1577,7 +1577,7 @@ temp3W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 A_upd_hi
 [
@@ -1651,7 +1651,7 @@ against
 temp1W32
 =
 (
-int32_t
+WebRtc_Word32
 )
 0x7fffffffL
 -
@@ -1682,7 +1682,7 @@ format
 tmp_hi
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1693,7 +1693,7 @@ temp1W32
 tmp_low
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1703,7 +1703,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 tmp_hi
 16
@@ -1795,7 +1795,7 @@ norm
 Alpha_hi
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1806,7 +1806,7 @@ temp1W32
 Alpha_low
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1816,7 +1816,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 Alpha_hi
 16
@@ -1953,7 +1953,7 @@ temp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 A_hi
 [
@@ -1965,7 +1965,7 @@ i
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-int32_t
+WebRtc_Word32
 )
 A_low
 [
@@ -1987,7 +1987,7 @@ i
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -1999,7 +1999,7 @@ temp1W32
 )
 +
 (
-int32_t
+WebRtc_Word32
 )
 32768
 16

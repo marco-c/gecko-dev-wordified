@@ -388,7 +388,7 @@ CB
 void
 WebRtcIlbcfix_InterpolateSamples
 (
-int16_t
+WebRtc_Word16
 *
 interpSamples
 /
@@ -401,7 +401,7 @@ interpolated
 samples
 *
 /
-int16_t
+WebRtc_Word16
 *
 CBmem
 /
@@ -414,7 +414,7 @@ CB
 memory
 *
 /
-int16_t
+WebRtc_Word16
 lMem
 /
 *

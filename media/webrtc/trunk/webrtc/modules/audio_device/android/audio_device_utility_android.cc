@@ -125,7 +125,7 @@ AudioDeviceUtilityAndroid
 AudioDeviceUtilityAndroid
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 :
@@ -200,7 +200,7 @@ delete
 _critSect
 ;
 }
-int32_t
+WebRtc_Word32
 AudioDeviceUtilityAndroid
 :
 :

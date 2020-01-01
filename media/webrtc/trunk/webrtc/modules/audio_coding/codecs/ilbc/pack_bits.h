@@ -392,7 +392,7 @@ bytes
 void
 WebRtcIlbcfix_PackBits
 (
-uint16_t
+WebRtc_UWord16
 *
 bitstream
 /
@@ -417,7 +417,7 @@ Encoded
 bits
 *
 /
-int16_t
+WebRtc_Word16
 mode
 /
 *

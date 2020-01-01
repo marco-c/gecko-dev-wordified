@@ -155,7 +155,7 @@ std
 :
 string
 description
-uint32_t
+WebRtc_UWord32
 bitRate
 )
 ;
@@ -230,11 +230,11 @@ int
 width
 int
 height
-uint32_t
+WebRtc_UWord32
 frameRate
 =
 30
-uint32_t
+WebRtc_UWord32
 bitRate
 =
 0
@@ -328,7 +328,7 @@ VideoDecoder
 *
 _decoder
 ;
-uint32_t
+WebRtc_UWord32
 _bitRate
 ;
 unsigned

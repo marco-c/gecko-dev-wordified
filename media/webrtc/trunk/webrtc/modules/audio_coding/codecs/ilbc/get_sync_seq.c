@@ -402,7 +402,7 @@ sequence
 void
 WebRtcIlbcfix_GetSyncSeq
 (
-int16_t
+WebRtc_Word16
 *
 idata
 /
@@ -414,7 +414,7 @@ original
 data
 *
 /
-int16_t
+WebRtc_Word16
 idatal
 /
 *
@@ -426,7 +426,7 @@ of
 data
 *
 /
-int16_t
+WebRtc_Word16
 centerStartPos
 /
 *
@@ -439,7 +439,7 @@ block
 starts
 *
 /
-int16_t
+WebRtc_Word16
 *
 period
 /
@@ -460,7 +460,7 @@ Q
 )
 *
 /
-int16_t
+WebRtc_Word16
 *
 plocs
 /
@@ -482,7 +482,7 @@ Q
 )
 *
 /
-int16_t
+WebRtc_Word16
 periodl
 /
 *
@@ -494,7 +494,7 @@ period
 array
 *
 /
-int16_t
+WebRtc_Word16
 hl
 /
 *
@@ -513,7 +513,7 @@ of
 sequences
 *
 /
-int16_t
+WebRtc_Word16
 *
 surround
 /
@@ -536,7 +536,7 @@ contributions
 /
 )
 {
-int16_t
+WebRtc_Word16
 i
 centerEndPos
 q
@@ -547,7 +547,7 @@ Stack
 based
 *
 /
-int16_t
+WebRtc_Word16
 lagBlock
 [
 2
@@ -557,7 +557,7 @@ ENH_HL
 1
 ]
 ;
-int16_t
+WebRtc_Word16
 blockStartPos
 [
 2
@@ -580,7 +580,7 @@ Q2
 )
 *
 /
-int16_t
+WebRtc_Word16
 plocs2
 [
 ENH_PLOCSL
@@ -614,7 +614,7 @@ lagBlock
 hl
 plocs
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -634,7 +634,7 @@ hl
 ]
 =
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -709,7 +709,7 @@ lagBlock
 q
 plocs
 (
-int16_t
+WebRtc_Word16
 )
 (
 blockStartPos
@@ -718,7 +718,7 @@ q
 ]
 +
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -748,7 +748,7 @@ q
 ]
 -
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -903,7 +903,7 @@ lagBlock
 q
 plocs2
 (
-int16_t
+WebRtc_Word16
 )
 (
 blockStartPos
@@ -914,7 +914,7 @@ q
 ]
 +
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -954,7 +954,7 @@ q
 ]
 +
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -968,7 +968,7 @@ ENH_OVERHANG
 )
 <
 (
-int16_t
+WebRtc_Word16
 )
 WEBRTC_SPL_MUL_16_16
 (

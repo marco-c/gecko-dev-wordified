@@ -182,7 +182,7 @@ gains
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchGainCdf
 [
 255
@@ -455,7 +455,7 @@ ranges
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kIndexLowerLimitGain
 [
 3
@@ -471,7 +471,7 @@ WebRtcIsac_kIndexLowerLimitGain
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kIndexUpperLimitGain
 [
 3
@@ -484,7 +484,7 @@ WebRtcIsac_kIndexUpperLimitGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kIndexMultsGain
 [
 2
@@ -504,7 +504,7 @@ table
 *
 /
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQCdfTableSizeGain
 [
 1
@@ -557,7 +557,7 @@ point
 *
 /
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQMeanGain1Q12
 [
 144
@@ -711,7 +711,7 @@ WebRtcIsac_kQMeanGain1Q12
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQMeanGain2Q12
 [
 144
@@ -865,7 +865,7 @@ WebRtcIsac_kQMeanGain2Q12
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQMeanGain3Q12
 [
 144
@@ -1019,7 +1019,7 @@ WebRtcIsac_kQMeanGain3Q12
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQMeanGain4Q12
 [
 144

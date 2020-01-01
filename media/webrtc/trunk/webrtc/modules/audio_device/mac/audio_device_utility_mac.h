@@ -122,7 +122,7 @@ public
 AudioDeviceUtilityMac
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 ;
@@ -132,7 +132,7 @@ AudioDeviceUtilityMac
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 Init
 (
 )
@@ -143,7 +143,7 @@ CriticalSectionWrapper
 &
 _critSect
 ;
-int32_t
+WebRtc_Word32
 _id
 ;
 }

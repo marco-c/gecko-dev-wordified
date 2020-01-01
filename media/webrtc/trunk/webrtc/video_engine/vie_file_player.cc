@@ -795,7 +795,7 @@ be
 played
 on
 .
-int32_t
+WebRtc_Word32
 error
 =
 file_player_
@@ -1977,7 +1977,7 @@ ViEFilePlayer
 PlayFileEnded
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {

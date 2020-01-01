@@ -142,7 +142,7 @@ inst
 pw16_readAddress
 =
 (
-int16_t
+WebRtc_Word16
 *
 )
 Data2McuAddress
@@ -153,7 +153,7 @@ inst
 pw16_writeAddress
 =
 (
-int16_t
+WebRtc_Word16
 *
 )
 Data2DspAddress

@@ -164,7 +164,7 @@ ReceiverFEC
 ReceiverFEC
 (
 const
-int32_t
+WebRtc_Word32
 id
 RTPReceiverVideo
 *
@@ -280,7 +280,7 @@ ReceiverFEC
 SetPayloadTypeFEC
 (
 const
-int8_t
+WebRtc_Word8
 payloadType
 )
 {
@@ -622,7 +622,7 @@ header
 .
 *
 /
-int32_t
+WebRtc_Word32
 ReceiverFEC
 :
 :
@@ -633,11 +633,11 @@ WebRtcRTPHeader
 *
 rtpHeader
 const
-uint8_t
+WebRtc_UWord8
 *
 incomingRtpPacket
 const
-uint16_t
+WebRtc_UWord16
 payloadDataLength
 bool
 &
@@ -658,7 +658,7 @@ return
 1
 ;
 }
-uint8_t
+WebRtc_UWord8
 REDHeaderLength
 =
 1
@@ -715,7 +715,7 @@ type
 from
 RED
 header
-uint8_t
+WebRtc_UWord8
 payloadType
 =
 incomingRtpPacket
@@ -791,7 +791,7 @@ header
 .
 sequenceNumber
 ;
-uint16_t
+WebRtc_UWord16
 blockLength
 =
 0
@@ -823,7 +823,7 @@ REDHeaderLength
 =
 4
 ;
-uint16_t
+WebRtc_UWord16
 timestampOffset
 =
 (
@@ -1526,7 +1526,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 ReceiverFEC
 :
 :

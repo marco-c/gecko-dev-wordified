@@ -499,7 +499,7 @@ std
 :
 list
 <
-CallStatsObserver
+StatsObserver
 *
 >
 :
@@ -572,7 +572,7 @@ CallStats
 :
 RegisterStatsObserver
 (
-CallStatsObserver
+StatsObserver
 *
 observer
 )
@@ -594,7 +594,7 @@ std
 :
 list
 <
-CallStatsObserver
+StatsObserver
 *
 >
 :
@@ -647,7 +647,7 @@ CallStats
 :
 DeregisterStatsObserver
 (
-CallStatsObserver
+StatsObserver
 *
 observer
 )
@@ -669,7 +669,7 @@ std
 :
 list
 <
-CallStatsObserver
+StatsObserver
 *
 >
 :

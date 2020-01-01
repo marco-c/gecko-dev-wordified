@@ -398,7 +398,7 @@ in
 ]
 *
 /
-int16_t
+WebRtc_Word16
 *
 out
 /
@@ -410,7 +410,7 @@ enhanced
 signal
 *
 /
-int16_t
+WebRtc_Word16
 *
 in
 /

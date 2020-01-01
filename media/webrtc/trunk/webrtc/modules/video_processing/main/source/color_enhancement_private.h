@@ -52,7 +52,7 @@ U
 ]
 static
 const
-uint8_t
+WebRtc_UWord8
 colorTable
 [
 256

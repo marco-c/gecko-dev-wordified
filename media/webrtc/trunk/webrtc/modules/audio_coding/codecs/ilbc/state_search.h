@@ -418,7 +418,7 @@ state_first
 )
 *
 /
-int16_t
+WebRtc_Word16
 *
 residual
 /
@@ -431,7 +431,7 @@ residual
 vector
 *
 /
-int16_t
+WebRtc_Word16
 *
 syntDenum
 /
@@ -444,7 +444,7 @@ synthesis
 filter
 *
 /
-int16_t
+WebRtc_Word16
 *
 weightDenum
 /

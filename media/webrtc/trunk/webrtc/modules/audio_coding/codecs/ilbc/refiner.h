@@ -423,7 +423,7 @@ rate
 void
 WebRtcIlbcfix_Refiner
 (
-int16_t
+WebRtc_Word16
 *
 updStartPos
 /
@@ -441,7 +441,7 @@ Q
 )
 *
 /
-int16_t
+WebRtc_Word16
 *
 idata
 /
@@ -454,7 +454,7 @@ data
 buffer
 *
 /
-int16_t
+WebRtc_Word16
 idatal
 /
 *
@@ -466,7 +466,7 @@ of
 idata
 *
 /
-int16_t
+WebRtc_Word16
 centerStartPos
 /
 *
@@ -478,7 +478,7 @@ center
 segment
 *
 /
-int16_t
+WebRtc_Word16
 estSegPos
 /
 *
@@ -496,7 +496,7 @@ Q
 )
 *
 /
-int16_t
+WebRtc_Word16
 *
 surround
 /
@@ -517,7 +517,7 @@ earlier
 contributions
 *
 /
-int16_t
+WebRtc_Word16
 gain
 /
 *
