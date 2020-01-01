@@ -298,6 +298,8 @@ output_table
 #
 if
 0
+/
+*
 this
 is
 from
@@ -313,6 +315,7 @@ to
 the
 data
 in
+*
 the
 file
 .
@@ -327,6 +330,8 @@ a
 good
 idea
 .
+*
+/
 struct
 tag_value
 {

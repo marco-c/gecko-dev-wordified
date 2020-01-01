@@ -2486,6 +2486,8 @@ NS_ERROR_UNEXPECTED
 #
 if
 0
+/
+*
 We
 don
 '
@@ -2497,6 +2499,7 @@ profiles
 .
 The
 following
+*
 code
 dealt
 with
@@ -2507,6 +2510,7 @@ Add
 something
 like
 this
+*
 back
 when
 we
@@ -2515,6 +2519,8 @@ support
 for
 CMYK
 .
+*
+/
 /
 *
 Adobe
