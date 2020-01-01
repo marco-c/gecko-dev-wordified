@@ -643,9 +643,8 @@ defined
 (
 __GNUC__
 )
-static
 void
-cpuid
+freebl_cpuid
 (
 unsigned
 long
@@ -733,9 +732,8 @@ intrin
 .
 h
 >
-static
 void
-cpuid
+freebl_cpuid
 (
 unsigned
 long
@@ -827,9 +825,8 @@ defined
 (
 __GNUC__
 )
-static
 void
-cpuid
+freebl_cpuid
 (
 unsigned
 long
@@ -1197,9 +1194,8 @@ __emit
 __asm
 __emit
 0a2h
-static
 void
-cpuid
+freebl_cpuid
 (
 unsigned
 long
@@ -4431,7 +4427,7 @@ returned
 .
 *
 /
-cpuid
+freebl_cpuid
 (
 2
 &
@@ -4565,7 +4561,7 @@ count
 repeat
 )
 {
-cpuid
+freebl_cpuid
 (
 2
 &
@@ -4683,7 +4679,7 @@ CPUID
 level
 *
 /
-cpuid
+freebl_cpuid
 (
 0x80000000
 &
@@ -4708,7 +4704,7 @@ cpuidLevel
 0x80000005
 )
 {
-cpuid
+freebl_cpuid
 (
 0x80000005
 &
@@ -4910,7 +4906,7 @@ return
 0
 ;
 }
-cpuid
+freebl_cpuid
 (
 0
 &
@@ -5044,7 +5040,7 @@ return
 0
 ;
 }
-cpuid
+freebl_cpuid
 (
 1
 &
@@ -5164,7 +5160,7 @@ is
 available
 *
 /
-cpuid
+freebl_cpuid
 (
 0
 &

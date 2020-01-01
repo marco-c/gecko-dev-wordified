@@ -4772,7 +4772,6 @@ cert
 nickname
 &
 &
-!
 cert
 -
 >

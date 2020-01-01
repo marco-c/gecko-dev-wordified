@@ -675,8 +675,17 @@ pCertPolicyMap
 =
 policyMap
 ;
+policyMap
+=
+NULL
+;
 cleanup
 :
+PKIX_DECREF
+(
+policyMap
+)
+;
 PKIX_RETURN
 (
 CERTPOLICYMAP

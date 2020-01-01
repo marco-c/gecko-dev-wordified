@@ -455,13 +455,6 @@ defined
 (
 macintosh
 )
-&
-&
-!
-defined
-(
-XP_OS2_VACPP
-)
 #
 include
 <

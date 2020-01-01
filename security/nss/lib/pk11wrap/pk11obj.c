@@ -5905,7 +5905,7 @@ pk11_CopyToSlot
 (
 slot
 wrapType
-CKA_WRAP
+CKA_UNWRAP
 wrappingKey
 )
 ;
