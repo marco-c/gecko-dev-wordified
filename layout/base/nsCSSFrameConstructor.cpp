@@ -10981,6 +10981,9 @@ aNewParent
 nsIFrame
 *
 aFrameList
+nsIFrame
+*
+aFrameListEnd
 nsFrameConstructorState
 *
 aState
@@ -10997,6 +11000,12 @@ PR_FALSE
 while
 (
 aFrameList
+&
+&
+aFrameList
+!
+=
+aFrameListEnd
 )
 {
 if
@@ -77564,6 +77573,7 @@ state
 mFrameManager
 blockFrame
 list2
+nsnull
 &
 state
 &
@@ -78075,9 +78085,10 @@ the
 frames
 in
 list3
-if
-(
-!
+nsIFrame
+*
+existingFirstChild
+=
 inlineFrame
 -
 >
@@ -78085,6 +78096,11 @@ GetFirstChild
 (
 nsnull
 )
+;
+if
+(
+!
+existingFirstChild
 &
 &
 (
@@ -78140,6 +78156,7 @@ aState
 mFrameManager
 inlineFrame
 aFramesToMove
+existingFirstChild
 aTargetState
 startState
 )
