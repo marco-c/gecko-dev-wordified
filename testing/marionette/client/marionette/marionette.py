@@ -874,6 +874,9 @@ False
 emulator
 =
 None
+emulatorBinary
+=
+None
 connectToRunningEmulator
 =
 False
@@ -1039,6 +1042,10 @@ logcat_dir
 arch
 =
 emulator
+                                     
+emulatorBinary
+=
+emulatorBinary
 )
             
 self

@@ -770,6 +770,16 @@ emulator
 .
 arch
                                
+emulatorBinary
+=
+self
+.
+marionette
+.
+emulator
+.
+binary
+                               
 homedir
 =
 self
