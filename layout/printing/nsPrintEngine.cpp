@@ -4077,7 +4077,7 @@ PR_TRUE
 ;
 nsCOMPtr
 <
-nsIMarkupDocumentViewer
+nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
 >
 viewer
 =
@@ -4109,6 +4109,14 @@ SetFullZoom
 1
 .
 0f
+)
+;
+viewer
+-
+>
+SetMinFontSize
+(
+0
 )
 ;
 }

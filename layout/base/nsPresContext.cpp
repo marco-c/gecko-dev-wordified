@@ -1361,6 +1361,10 @@ mPPScale
 .
 0f
 )
+mMinFontSize
+(
+0
+)
 mViewportStyleOverflow
 (
 NS_STYLE_OVERFLOW_AUTO
@@ -3162,7 +3166,7 @@ unit
 eUnit_px
 )
 {
-mMinimumFontSize
+mMinimumFontSizePref
 =
 CSSPixelsToAppUnits
 (
@@ -3179,7 +3183,7 @@ unit
 eUnit_pt
 )
 {
-mMinimumFontSize
+mMinimumFontSizePref
 =
 CSSPointsToAppUnits
 (

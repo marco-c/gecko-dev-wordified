@@ -13204,9 +13204,8 @@ minimumFontSize
 mPresContext
 -
 >
-GetCachedIntPref
+MinFontSize
 (
-kPresContext_MinimumFontSize
 )
 ;
 if
@@ -21321,9 +21320,8 @@ minimumFontSize
 mPresContext
 -
 >
-GetCachedIntPref
+MinFontSize
 (
-kPresContext_MinimumFontSize
 )
 ;
 if
@@ -22848,9 +22846,8 @@ minimumFontSize
 mPresContext
 -
 >
-GetCachedIntPref
+MinFontSize
 (
-kPresContext_MinimumFontSize
 )
 ;
 if
