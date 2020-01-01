@@ -2053,11 +2053,11 @@ ACCSET_FCSLOTS
 }
 ;
 struct
-ArgsSlotsAddress
+ArgsSlotOffsetAddress
 :
 Address
 {
-ArgsSlotsAddress
+ArgsSlotOffsetAddress
 (
 nj
 :
@@ -2066,7 +2066,7 @@ LIns
 *
 base
 unsigned
-slot
+offset
 =
 0
 )
@@ -2074,12 +2074,7 @@ slot
 Address
 (
 base
-slot
-*
-sizeof
-(
-Value
-)
+offset
 ACCSET_ARGS_DATA
 )
 {
