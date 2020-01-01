@@ -1960,7 +1960,7 @@ nsUrlClassifierPrefixSet
 SizeOfIncludingThis
 (
 nsMallocSizeOfFun
-mallocSizeOf
+aMallocSizeOf
 )
 {
 MutexAutoLock
@@ -1977,7 +1977,7 @@ n
 n
 +
 =
-mallocSizeOf
+aMallocSizeOf
 (
 this
 sizeof
@@ -1991,8 +1991,9 @@ n
 =
 mDeltas
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 n
@@ -2000,8 +2001,9 @@ n
 =
 mIndexPrefixes
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 n
@@ -2009,8 +2011,9 @@ n
 =
 mIndexStarts
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 return
