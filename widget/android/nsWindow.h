@@ -933,12 +933,6 @@ ScheduleComposite
 ;
 static
 void
-SchedulePauseComposition
-(
-)
-;
-static
-void
 ScheduleResumeComposition
 (
 int

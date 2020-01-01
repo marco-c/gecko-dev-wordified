@@ -1736,9 +1736,7 @@ scheduleComposite
 ;
 /
 /
-Pausing
-and
-resuming
+Resuming
 the
 compositor
 is
@@ -1778,14 +1776,6 @@ after
 /
 resuming
 .
-public
-static
-native
-void
-schedulePauseComposition
-(
-)
-;
 public
 static
 native
