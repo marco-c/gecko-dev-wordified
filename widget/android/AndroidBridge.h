@@ -1189,7 +1189,7 @@ aAlertText
 )
 ;
 void
-AlertsProgressListener_OnCancel
+CloseNotification
 (
 const
 nsAString
@@ -2297,7 +2297,7 @@ jmethodID
 jAlertsProgressListener_OnProgress
 ;
 jmethodID
-jAlertsProgressListener_OnCancel
+jCloseNotification
 ;
 jmethodID
 jGetDpi

@@ -1471,7 +1471,7 @@ V
 "
 )
 ;
-jAlertsProgressListener_OnCancel
+jCloseNotification
 =
 (
 jmethodID
@@ -1483,7 +1483,7 @@ GetStaticMethodID
 (
 jGeckoAppShellClass
 "
-alertsProgressListener_OnCancel
+closeNotification
 "
 "
 (
@@ -5614,7 +5614,7 @@ void
 AndroidBridge
 :
 :
-AlertsProgressListener_OnCancel
+CloseNotification
 (
 const
 nsAString
@@ -5625,7 +5625,7 @@ aAlertName
 ALOG_BRIDGE
 (
 "
-AlertsProgressListener_OnCancel
+CloseNotification
 "
 )
 ;
@@ -5666,7 +5666,7 @@ env
 CallStaticVoidMethod
 (
 mGeckoAppShellClass
-jAlertsProgressListener_OnCancel
+jCloseNotification
 jstrName
 )
 ;
