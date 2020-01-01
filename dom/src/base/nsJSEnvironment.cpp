@@ -19238,7 +19238,13 @@ ScriptExecuted
 {
 ScriptEvaluated
 (
-PR_FALSE
+!
+:
+:
+JS_IsRunning
+(
+mContext
+)
 )
 ;
 return
