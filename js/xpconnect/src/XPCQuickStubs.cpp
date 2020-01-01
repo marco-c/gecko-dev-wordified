@@ -5809,8 +5809,11 @@ return
 true
 ;
 }
-JSBool
-xpc_qsStringToJsval
+namespace
+xpc
+{
+bool
+StringToJsval
 (
 JSContext
 *
@@ -5818,7 +5821,10 @@ cx
 nsString
 &
 str
-jsval
+JS
+:
+:
+Value
 *
 rval
 )
@@ -5926,6 +5932,11 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
+xpc
 JSBool
 xpc_qsStringToJsstring
 (

@@ -740,6 +740,8 @@ type
 |
 HAS_SCOPECHAIN
 |
+HAS_BLOCKCHAIN
+|
 HAS_PREVPC
 ;
 if
@@ -894,6 +896,10 @@ inlined
 (
 )
 :
+NULL
+;
+blockChain_
+=
 NULL
 ;
 #

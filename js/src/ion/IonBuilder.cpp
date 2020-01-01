@@ -4241,12 +4241,6 @@ pc
 )
 ;
 case
-JSOP_NULLBLOCKCHAIN
-:
-return
-true
-;
-case
 JSOP_INT8
 :
 return

@@ -23671,6 +23671,7 @@ GetPresShell
 (
 )
 )
+{
 return
 NS_OK
 ;
@@ -23679,6 +23680,17 @@ NS_OK
 nothing
 to
 do
+}
+if
+(
+!
+aRange
+)
+{
+return
+NS_ERROR_NULL_POINTER
+;
+}
 if
 (
 mFrameSelection

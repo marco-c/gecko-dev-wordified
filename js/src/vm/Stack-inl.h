@@ -1091,6 +1091,8 @@ HAS_PREVPC
 |
 HAS_SCOPECHAIN
 |
+HAS_BLOCKCHAIN
+|
 flagsArg
 ;
 exec
@@ -1126,6 +1128,18 @@ NULL
 initPrev
 (
 cx
+)
+;
+blockChain_
+=
+NULL
+;
+JS_ASSERT
+(
+!
+hasBlockChain
+(
+)
 )
 ;
 JS_ASSERT

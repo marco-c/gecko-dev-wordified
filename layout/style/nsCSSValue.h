@@ -5294,7 +5294,7 @@ eCSSUnit_Rect
 "
 not
 a
-pair
+rect
 value
 "
 )
@@ -5327,7 +5327,7 @@ eCSSUnit_Rect
 "
 not
 a
-pair
+rect
 value
 "
 )

@@ -5766,15 +5766,22 @@ long
 :
         
 "
-return
-xpc_qsInt32ToJsval
-(
-cx
-result
 {
-jsvalPtr
+jsvalRef
 }
+=
+INT_TO_JSVAL
+(
+result
 )
+;
+\
+n
+"
+        
+"
+return
+JS_TRUE
 ;
 \
 n
@@ -5839,15 +5846,22 @@ long
 :
         
 "
-return
-xpc_qsUint32ToJsval
-(
-cx
-result
 {
-jsvalPtr
+jsvalRef
 }
+=
+UINT_TO_JSVAL
+(
+result
 )
+;
+\
+n
+"
+        
+"
+return
+JS_TRUE
 ;
 \
 n
@@ -5954,7 +5968,10 @@ astring
         
 "
 return
-xpc_qsStringToJsval
+xpc
+:
+:
+StringToJsval
 (
 cx
 result
@@ -5976,7 +5993,10 @@ domstring
         
 "
 return
-xpc_qsStringToJsval
+xpc
+:
+:
+StringToJsval
 (
 cx
 result

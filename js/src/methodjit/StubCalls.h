@@ -1437,9 +1437,6 @@ LeaveBlock
 VMFrame
 &
 f
-JSObject
-*
-blockChain
 )
 ;
 JSBool

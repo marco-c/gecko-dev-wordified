@@ -1575,7 +1575,7 @@ the
 first
 is
 an
-editor
+editing
 controller
 rv
 =
@@ -1588,7 +1588,7 @@ org
 /
 editor
 /
-editorcontroller
+editingcontroller
 ;
 1
 "
@@ -10598,7 +10598,7 @@ org
 /
 editor
 /
-editorcontroller
+editingcontroller
 ;
 1
 "

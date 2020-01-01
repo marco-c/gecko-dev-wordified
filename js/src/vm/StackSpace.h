@@ -520,7 +520,7 @@ h
 /
 INITIAL_LOWERED
 =
-0x200000
+0x800000
 /
 *
 =
