@@ -1804,9 +1804,6 @@ JSFreeOp
 bool
 shouldFreeLater_
 ;
-bool
-onBackgroundThread_
-;
 public
 :
 static
@@ -1837,8 +1834,6 @@ JSRuntime
 rt
 bool
 shouldFreeLater
-bool
-onBackgroundThread
 )
 :
 JSFreeOp
@@ -1849,10 +1844,6 @@ shouldFreeLater_
 (
 shouldFreeLater
 )
-onBackgroundThread_
-(
-onBackgroundThread
-)
 {
 }
 bool
@@ -1863,16 +1854,6 @@ const
 {
 return
 shouldFreeLater_
-;
-}
-bool
-onBackgroundThread
-(
-)
-const
-{
-return
-onBackgroundThread_
 ;
 }
 inline
