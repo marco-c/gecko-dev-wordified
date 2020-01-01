@@ -3504,7 +3504,7 @@ seenURIs
 {
 }
 ;
-var
+let
 tabs
 =
 gBrowser
@@ -3513,7 +3513,7 @@ visibleTabs
 ;
 for
 (
-var
+let
 i
 =
 0
