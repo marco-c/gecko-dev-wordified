@@ -6499,13 +6499,6 @@ lirbuf
 -
 >
 sp
-frag
--
->
-lirbuf
--
->
-rp
 )
 ;
 lir
@@ -6847,13 +6840,6 @@ lirbuf
 -
 >
 sp
-frag
--
->
-lirbuf
--
->
-rp
 )
 ;
 lir
