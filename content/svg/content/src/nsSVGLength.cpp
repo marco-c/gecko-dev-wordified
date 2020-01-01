@@ -470,13 +470,6 @@ h
 #
 include
 "
-nsIDOMSVGRect
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

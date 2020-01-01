@@ -478,13 +478,6 @@ h
 #
 include
 "
-nsIDOMSVGRect
-.
-h
-"
-#
-include
-"
 nsSVGMatrix
 .
 h

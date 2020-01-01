@@ -436,13 +436,6 @@ h
 #
 include
 "
-nsIDOMSVGRect
-.
-h
-"
-#
-include
-"
 nsIDOMSVGFilters
 .
 h
@@ -507,6 +500,9 @@ nsSVGFilterElement
 ;
 class
 nsSVGFilterPaintCallback
+;
+struct
+gfxRect
 ;
 /
 *
@@ -589,8 +585,9 @@ aPaintCallback
 nsSVGFilterElement
 *
 aFilterElement
-nsIDOMSVGRect
-*
+const
+gfxRect
+&
 aTargetBBox
 const
 gfxRect
@@ -1296,10 +1293,7 @@ nsSVGFilterElement
 *
 mFilterElement
 ;
-nsCOMPtr
-<
-nsIDOMSVGRect
->
+gfxRect
 mTargetBBox
 ;
 nsCOMPtr

@@ -488,9 +488,6 @@ class
 nsPresContext
 ;
 class
-nsIDOMSVGRect
-;
-class
 nsIDOMSVGMatrix
 ;
 class
