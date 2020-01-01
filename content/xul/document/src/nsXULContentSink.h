@@ -562,7 +562,7 @@ NS_DECL_NSIEXPATSINK
 /
 nsIContentSink
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )

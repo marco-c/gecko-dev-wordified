@@ -576,7 +576,7 @@ nsSAXXMLReader
 /
 nsIContentSink
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 )
 {

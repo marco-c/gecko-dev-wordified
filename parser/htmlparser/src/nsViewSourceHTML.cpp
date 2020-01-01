@@ -2850,13 +2850,6 @@ theAllocator
 }
 }
 }
-mSink
--
->
-WillProcessTokens
-(
-)
-;
 while
 (
 NS_SUCCEEDED

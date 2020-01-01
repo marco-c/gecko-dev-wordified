@@ -715,7 +715,7 @@ aStr
 /
 nsIContentSink
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )

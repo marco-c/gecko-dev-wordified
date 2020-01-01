@@ -761,7 +761,7 @@ aStr
 /
 nsIContentSink
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )
@@ -969,16 +969,6 @@ EndContext
 (
 PRInt32
 aPosition
-)
-{
-return
-NS_OK
-;
-}
-NS_IMETHOD
-WillProcessTokens
-(
-void
 )
 {
 return

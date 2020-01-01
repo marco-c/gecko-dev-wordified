@@ -1399,13 +1399,13 @@ NS_IMETHODIMP
 nsXMLContentSink
 :
 :
-WillTokenize
+WillParse
 (
 void
 )
 {
 return
-WillProcessTokensImpl
+WillParseImpl
 (
 )
 ;

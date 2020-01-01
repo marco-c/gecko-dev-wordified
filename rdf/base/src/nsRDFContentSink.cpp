@@ -1270,7 +1270,7 @@ NS_DECL_NSIEXPATSINK
 /
 nsIContentSink
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )
@@ -3696,7 +3696,7 @@ NS_IMETHODIMP
 RDFContentSinkImpl
 :
 :
-WillTokenize
+WillParse
 (
 void
 )

@@ -791,7 +791,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 /
 nsIContentSink
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )

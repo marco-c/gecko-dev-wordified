@@ -9843,7 +9843,7 @@ nsresult
 nsContentSink
 :
 :
-WillProcessTokensImpl
+WillParseImpl
 (
 void
 )
