@@ -36694,6 +36694,7 @@ hyphenWidth
 >
 0
 nullptr
+nullptr
 aCallbacks
 )
 ;
@@ -37286,6 +37287,9 @@ nsCharClipDisplayItem
 ClipEdges
 &
 aClipEdges
+gfxTextObjectPaint
+*
+aObjectPaint
 nsTextFrame
 :
 :
@@ -38503,6 +38507,9 @@ const
 nsCharClipDisplayItem
 &
 aItem
+gfxTextObjectPaint
+*
+aObjectPaint
 nsTextFrame
 :
 :
@@ -38847,6 +38854,7 @@ contentOffset
 contentLength
 textPaintStyle
 clipEdges
+aObjectPaint
 aCallbacks
 )
 )
@@ -39019,6 +39027,7 @@ TEXT_HYPHEN_BREAK
 =
 0
 nullptr
+aObjectPaint
 aCallbacks
 )
 ;
@@ -39050,6 +39059,9 @@ aTextColor
 gfxFloat
 *
 aAdvanceWidth
+gfxTextObjectPaint
+*
+aObjectPaint
 nsTextFrame
 :
 :
@@ -39101,7 +39113,7 @@ aOffset
 aLength
 aProvider
 aAdvanceWidth
-nullptr
+aObjectPaint
 aCallbacks
 )
 ;
@@ -39138,7 +39150,7 @@ aOffset
 aLength
 aProvider
 aAdvanceWidth
-nullptr
+aObjectPaint
 )
 ;
 }
@@ -39171,6 +39183,9 @@ gfxFloat
 aAdvanceWidth
 bool
 aDrawSoftHyphen
+gfxTextObjectPaint
+*
+aObjectPaint
 nsTextFrame
 :
 :
@@ -39193,6 +39208,7 @@ aProvider
 aTextColor
 &
 aAdvanceWidth
+aObjectPaint
 aCallbacks
 )
 ;
@@ -39345,6 +39361,7 @@ GetLength
 nullptr
 aTextColor
 nullptr
+aObjectPaint
 aCallbacks
 )
 ;
@@ -39407,6 +39424,9 @@ nscolor
 *
 const
 aDecorationOverrideColor
+gfxTextObjectPaint
+*
+aObjectPaint
 nsTextFrame
 :
 :
@@ -39844,6 +39864,7 @@ aProvider
 aTextColor
 aAdvanceWidth
 aDrawSoftHyphen
+aObjectPaint
 aCallbacks
 )
 ;
@@ -40032,6 +40053,9 @@ nscolor
 *
 const
 aDecorationOverrideColor
+gfxTextObjectPaint
+*
+aObjectPaint
 nsTextFrame
 :
 :
@@ -40118,6 +40142,7 @@ aAdvanceWidth
 aDrawSoftHyphen
 decorations
 aDecorationOverrideColor
+aObjectPaint
 aCallbacks
 )
 ;
@@ -40134,6 +40159,7 @@ aProvider
 aTextColor
 aAdvanceWidth
 aDrawSoftHyphen
+aObjectPaint
 aCallbacks
 )
 ;
