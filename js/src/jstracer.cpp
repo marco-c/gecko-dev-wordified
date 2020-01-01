@@ -45075,9 +45075,9 @@ exitType
 )
 {
 jsuint
-length
+capacity
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -45108,7 +45108,7 @@ jsuint
 idx
 )
 <
-length
+capacity
 )
 ;
 if
@@ -53070,7 +53070,7 @@ v
 index
 >
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
