@@ -9596,10 +9596,12 @@ v
 )
 {
 return
+(
 type
 =
 =
 RegExpTest
+)
 ?
 v
 .
@@ -9843,9 +9845,11 @@ g
 RegExpExecType
 type
 =
+(
 flags
 &
 TEST_GLOBAL_BIT
+)
 ?
 RegExpTest
 :
