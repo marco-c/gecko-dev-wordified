@@ -3417,6 +3417,13 @@ endif
 #
 include
 "
+nsIDOMNavigatorSystemMessages
+.
+h
+"
+#
+include
+"
 DOMError
 .
 h
@@ -11473,6 +11480,10 @@ nsIDOMNavigatorBluetooth
 )
 #
 endif
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIDOMNavigatorSystemMessages
+)
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
