@@ -1519,7 +1519,7 @@ NS_OK
 }
 \
 NS_IMETHOD
-GetBookmarkId
+GetItemId
 (
 PRInt64
 *
@@ -1530,7 +1530,7 @@ aId
 *
 aId
 =
-mBookmarkId
+mItemId
 ;
 return
 NS_OK
@@ -2420,7 +2420,7 @@ PRInt32
 mBookmarkIndex
 ;
 PRInt64
-mBookmarkId
+mItemId
 ;
 /
 /
@@ -4542,7 +4542,7 @@ aFolderId
 *
 aFolderId
 =
-mFolderId
+mItemId
 ;
 return
 NS_OK
@@ -4637,9 +4637,6 @@ nsNavHistoryQueryOptions
 >
 mOptions
 ;
-PRInt64
-mFolderId
-;
 nsresult
 FillChildren
 (
@@ -4678,7 +4675,7 @@ nsNavHistoryResultNode
 FindChildURIById
 (
 PRInt64
-aBookmarkId
+aItemId
 PRUint32
 *
 aNodeIndex

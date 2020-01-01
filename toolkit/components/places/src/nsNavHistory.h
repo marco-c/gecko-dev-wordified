@@ -1348,7 +1348,7 @@ kGetInfoIndex_VisitCount
 static
 const
 PRInt32
-kGetInfoIndex_BookmarkItemId
+kGetInfoIndex_ItemId
 ;
 /
 /
