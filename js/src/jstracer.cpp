@@ -1299,7 +1299,7 @@ b1
 base
 )
 ;
-snprintf
+JS_snprintf
 (
 b2
 .
