@@ -803,6 +803,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+obs
+)
+{
 obs
 -
 >
@@ -817,6 +822,7 @@ changed
 false
 )
 ;
+}
 }
 BluetoothManager
 :
@@ -900,6 +906,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+obs
+)
+{
 obs
 -
 >
@@ -913,6 +924,7 @@ changed
 "
 )
 ;
+}
 }
 nsresult
 BluetoothManager
