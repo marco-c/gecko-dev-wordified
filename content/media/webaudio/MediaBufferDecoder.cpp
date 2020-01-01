@@ -357,6 +357,10 @@ endif
 namespace
 mozilla
 {
+using
+namespace
+dom
+;
 #
 ifdef
 PR_LOGGING
