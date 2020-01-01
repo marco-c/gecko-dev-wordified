@@ -916,6 +916,9 @@ const
 NPRemoteIdentifier
 &
 aId
+NPError
+*
+err
 nsCString
 *
 aString
@@ -929,6 +932,9 @@ const
 NPRemoteIdentifier
 &
 aId
+NPError
+*
+err
 int32_t
 *
 aInt
