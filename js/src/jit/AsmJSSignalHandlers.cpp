@@ -2638,7 +2638,7 @@ pc
 -
 module
 .
-functionCode
+codeBase
 (
 )
 ;
@@ -4550,7 +4550,7 @@ VirtualProtect
 (
 module
 .
-functionCode
+codeBase
 (
 )
 module
@@ -6197,7 +6197,7 @@ mprotect
 (
 module
 .
-functionCode
+codeBase
 (
 )
 module
@@ -7824,7 +7824,7 @@ mprotect
 (
 module
 .
-functionCode
+codeBase
 (
 )
 module
@@ -8769,7 +8769,7 @@ VirtualProtect
 (
 module
 .
-functionCode
+codeBase
 (
 )
 module
@@ -8798,7 +8798,7 @@ mprotect
 (
 module
 .
-functionCode
+codeBase
 (
 )
 module

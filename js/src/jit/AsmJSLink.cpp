@@ -3363,7 +3363,7 @@ base
 =
 module
 .
-functionCode
+codeBase
 (
 )
 ;
@@ -3597,7 +3597,7 @@ uintptr_t
 )
 module
 .
-functionCode
+codeBase
 (
 )
 ;
@@ -3774,7 +3774,7 @@ long
 )
 module
 .
-functionCode
+codeBase
 (
 )
 ;

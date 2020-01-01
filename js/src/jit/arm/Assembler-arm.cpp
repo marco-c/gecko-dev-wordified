@@ -5223,8 +5223,10 @@ off
 =
 writeInst
 (
--
-1
+LabelBase
+:
+:
+INVALID_OFFSET
 )
 ;
 /
