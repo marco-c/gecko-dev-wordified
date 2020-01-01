@@ -110,7 +110,6 @@ IDBKeyRange
 DOMException
 IDBCursor
 IDBOpenDBRequest
-IDBDatabase
 IDBRequest
 }
 =
@@ -215,7 +214,6 @@ DOMException
 IDBCursor
 IDBOpenDBRequest
 IDBOpenDBRequest
-IDBDatabase
 IDBRequest
 ]
 .

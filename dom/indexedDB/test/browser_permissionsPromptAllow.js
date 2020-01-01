@@ -167,11 +167,7 @@ ok
 (
 result
 instanceof
-Components
-.
-interfaces
-.
-nsIIDBDatabase
+IDBDatabase
 "
 First
 database
@@ -382,11 +378,7 @@ ok
 (
 result
 instanceof
-Components
-.
-interfaces
-.
-nsIIDBDatabase
+IDBDatabase
 "
 First
 database

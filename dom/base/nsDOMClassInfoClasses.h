@@ -455,10 +455,6 @@ IDBRequest
 )
 DOMCI_CLASS
 (
-IDBDatabase
-)
-DOMCI_CLASS
-(
 IDBCursor
 )
 DOMCI_CLASS

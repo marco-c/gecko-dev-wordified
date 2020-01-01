@@ -639,7 +639,7 @@ forget
 )
 ;
 }
-nsIIDBDatabase
+IDBDatabase
 *
 IDBFileHandle
 :
