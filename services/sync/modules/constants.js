@@ -762,6 +762,17 @@ reason
 .
 no_password
 "
+LOGIN_FAILED_NO_PASSPHRASE
+:
+"
+error
+.
+login
+.
+reason
+.
+no_passphrase
+"
 LOGIN_FAILED_NETWORK_ERROR
 :
 "
