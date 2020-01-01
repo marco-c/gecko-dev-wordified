@@ -1585,9 +1585,14 @@ not
 allowed
             
 assert
+id
+(
 object
+)
 !
 =
+id
+(
 self
 .
 _dict
@@ -1596,6 +1601,7 @@ identifier
 .
 name
 ]
+)
             
 replacement
 =
