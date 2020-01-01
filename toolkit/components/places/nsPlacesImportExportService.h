@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsILivemarkService
+mozIAsyncLivemarks
 .
 h
 "
@@ -177,7 +177,7 @@ mHistoryService
 ;
 nsCOMPtr
 <
-nsILivemarkService
+mozIAsyncLivemarks
 >
 mLivemarkService
 ;
