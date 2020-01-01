@@ -581,6 +581,10 @@ nsCString
 &
 aMimeContentType
 const
+nsCString
+&
+aContentDisposition
+const
 PRBool
 &
 aForceSave
@@ -674,6 +678,10 @@ Service
 !
 "
 )
+;
+mContentDisposition
+=
+aContentDisposition
 ;
 helperAppService
 -
@@ -1369,10 +1377,8 @@ aContentDisposition
 )
 {
 aContentDisposition
-.
-Truncate
-(
-)
+=
+mContentDisposition
 ;
 return
 NS_OK
