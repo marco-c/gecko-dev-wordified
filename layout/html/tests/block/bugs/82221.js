@@ -1,0 +1,9 @@
+/
+*
+This
+script
+does
+nothing
+.
+*
+/
