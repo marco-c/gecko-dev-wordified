@@ -13199,9 +13199,14 @@ URIs
 later
 on
 .
-JSScript
-*
+JS
+:
+:
+RootedScript
 script
+(
+aCx
+)
 ;
 if
 (

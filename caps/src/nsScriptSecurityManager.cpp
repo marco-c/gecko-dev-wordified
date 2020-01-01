@@ -2821,9 +2821,14 @@ CSP
 "
 )
 ;
-JSScript
-*
+JS
+:
+:
+RootedScript
 script
+(
+cx
+)
 ;
 if
 (

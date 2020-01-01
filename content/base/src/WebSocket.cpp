@@ -4388,9 +4388,14 @@ rv
 unsigned
 lineno
 ;
-JSScript
-*
+JS
+:
+:
+RootedScript
 script
+(
+aCx
+)
 ;
 if
 (

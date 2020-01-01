@@ -2715,11 +2715,8 @@ JS_ValueToObject
 (
 cx
 NSGetFactory_val
+&
 jsGetFactoryObj
-.
-address
-(
-)
 )
 |
 |
@@ -4064,11 +4061,8 @@ cache
 cachePath
 cx
 mSystemPrincipal
+&
 script
-.
-address
-(
-)
 )
 ;
 }

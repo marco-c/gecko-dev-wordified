@@ -15926,7 +15926,7 @@ JS
 :
 Value
 &
-sandboxVal
+sandboxValArg
 const
 JS
 :
@@ -15956,6 +15956,13 @@ Value
 retval
 )
 {
+RootedValue
+sandboxVal
+(
+cx
+sandboxValArg
+)
+;
 RootedObject
 sandbox
 (
@@ -15969,11 +15976,8 @@ JS_ValueToObject
 (
 cx
 sandboxVal
+&
 sandbox
-.
-address
-(
-)
 )
 |
 |

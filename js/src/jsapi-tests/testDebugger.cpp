@@ -1912,9 +1912,14 @@ jsval
 vp
 )
 {
-JSScript
-*
+JS
+:
+:
+RootedScript
 script
+(
+cx
+)
 ;
 JS_DescribeScriptedCaller
 (

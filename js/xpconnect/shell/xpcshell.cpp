@@ -978,9 +978,14 @@ false
 ;
 #
 else
-JSScript
-*
+JS
+:
+:
+RootedScript
 script
+(
+cx
+)
 ;
 JS_DescribeScriptedCaller
 (
