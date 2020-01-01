@@ -7135,7 +7135,7 @@ YMost
 -
 borderPadding
 .
-left
+top
 ;
 mFloatManager
 -
