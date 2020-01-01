@@ -5303,7 +5303,7 @@ false
 return
 (
 "
-contributeURL
+contributionURL
 "
 in
 aAddon
@@ -5311,7 +5311,7 @@ aAddon
 &
 aAddon
 .
-contributeURL
+contributionURL
 )
 ;
 }
@@ -5326,7 +5326,7 @@ openURL
 (
 aAddon
 .
-contributeURL
+contributionURL
 )
 ;
 }
@@ -10386,7 +10386,7 @@ contributions
 if
 (
 "
-contributeURL
+contributionURL
 "
 in
 aAddon
@@ -10394,7 +10394,7 @@ aAddon
 &
 aAddon
 .
-contributeURL
+contributionURL
 )
 {
 contributions

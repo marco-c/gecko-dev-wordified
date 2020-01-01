@@ -405,7 +405,7 @@ icon64
 .
 png
 "
-contributeURL
+contributionURL
 :
 "
 http
