@@ -22589,6 +22589,7 @@ undemotable
 .
 *
 /
+JS_REQUIRES_STACK
 TypeConsensus
 checkTypes
 (
@@ -22749,6 +22750,7 @@ vp
 )
 ;
 }
+JS_REQUIRES_STACK
 void
 markUndemotes
 (
@@ -22799,6 +22801,7 @@ i
 ;
 }
 }
+JS_REQUIRES_STACK
 virtual
 void
 adjustTypes
@@ -23420,6 +23423,10 @@ p
 \
 n
 "
+(
+void
+*
+)
 fragment
 )
 ;
@@ -23632,6 +23639,10 @@ p
 \
 n
 "
+(
+void
+*
+)
 peer
 )
 ;
