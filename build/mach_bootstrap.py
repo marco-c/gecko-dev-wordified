@@ -492,6 +492,16 @@ py
 '
     
 '
+testing
+/
+talos
+/
+mach_commands
+.
+py
+'
+    
+'
 tools
 /
 mach_commands
