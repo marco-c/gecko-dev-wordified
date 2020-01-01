@@ -29472,16 +29472,6 @@ twips
 pref
 (
 "
-print
-.
-whileInPrintPreview
-"
-false
-)
-;
-pref
-(
-"
 font
 .
 allow_double_byte_special_chars
