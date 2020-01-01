@@ -8939,6 +8939,10 @@ gesture
 .
 if
 (
+!
+aPreventDefault
+&
+&
 mTouchQueue
 [
 0
