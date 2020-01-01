@@ -5524,6 +5524,8 @@ catch
 e
 )
 {
+try
+{
 if
 (
 typeof
@@ -5570,6 +5572,13 @@ o
 .
 NAME
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 }
 try
