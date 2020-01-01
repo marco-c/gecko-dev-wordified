@@ -2334,6 +2334,10 @@ optionsURL
 aAddon
 .
 optionsURL
+|
+|
+"
+"
 )
 ;
 listitem
