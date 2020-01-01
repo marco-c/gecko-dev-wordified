@@ -450,6 +450,11 @@ cc_uint32_t
 typedef
 unsigned
 long
+cc_uint64_t
+;
+typedef
+unsigned
+long
 cc_ulong_t
 ;
 typedef

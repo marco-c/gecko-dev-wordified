@@ -1316,7 +1316,7 @@ buffer
 too
 *
 /
-cprReleaseBuffer
+cpr_free
 (
 msg_ptr
 )
@@ -3947,7 +3947,7 @@ buffer
 too
 *
 /
-cprReleaseBuffer
+cpr_free
 (
 msg_ptr
 )

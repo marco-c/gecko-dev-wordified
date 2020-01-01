@@ -711,7 +711,7 @@ rc
 CPR_FAILURE
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 buf
 )
@@ -740,7 +740,7 @@ rc
 CPR_FAILURE
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 buf
 )
@@ -768,7 +768,7 @@ rc
 CPR_FAILURE
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 buf
 )

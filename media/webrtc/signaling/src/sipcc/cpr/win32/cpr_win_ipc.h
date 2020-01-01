@@ -452,7 +452,7 @@ CNU
 #
 define
 CPR_MAX_MSG_SIZE
-4096
+8192
 /
 *
 Our

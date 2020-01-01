@@ -3782,9 +3782,6 @@ CCAPI_CallListener_onCallEvent
 event
 handle
 call_info
-gROAPSDP
-.
-answerSDP
 )
 ;
 CCAPI_Call_releaseCallInfo
@@ -4163,8 +4160,6 @@ handles
 i
 ]
 cinfo
-"
-"
 )
 ;
 }
@@ -4261,8 +4256,6 @@ handles
 i
 ]
 cinfo
-"
-"
 )
 ;
 }

@@ -1793,7 +1793,9 @@ ftok
 (
 "
 /
-tmp
+proc
+/
+self
 "
 key_id
 +
@@ -2561,7 +2563,7 @@ msg
 NULL
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 msg
 )

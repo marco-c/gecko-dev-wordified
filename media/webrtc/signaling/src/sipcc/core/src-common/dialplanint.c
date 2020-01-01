@@ -4141,7 +4141,7 @@ call_id
 return
 ;
 }
-strncpy
+sstrncpy
 (
 g_dp_int
 .
@@ -6071,7 +6071,7 @@ CISCO_BLFPICKUP_STRING
 )
 )
 {
-strncpy
+sstrncpy
 (
 g_dp_int
 .

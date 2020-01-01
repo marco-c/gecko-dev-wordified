@@ -1889,7 +1889,7 @@ user
 )
 )
 {
-strncpy
+sstrncpy
 (
 entity
 from_loc
@@ -2013,7 +2013,7 @@ genUrl
 NULL
 )
 {
-strncpy
+sstrncpy
 (
 user
 genUrl

@@ -513,6 +513,13 @@ configapp
 h
 "
 #
+include
+"
+platform_api
+.
+h
+"
+#
 define
 MISC_ERROR
 err_msg
@@ -884,7 +891,7 @@ cprReleaseSysHeader
 syshdr_p
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 msg_p
 )

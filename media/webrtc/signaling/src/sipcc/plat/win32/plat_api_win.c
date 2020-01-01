@@ -465,7 +465,7 @@ ip_address
 ;
 char
 *
-platGetIPAddr
+sipcc_platGetIPAddr
 (
 void
 )
@@ -610,7 +610,7 @@ pHost
 h_length
 )
 ;
-strcpy
+sstrncpy
 (
 ip_address
 inet_ntoa
@@ -618,6 +618,10 @@ inet_ntoa
 SocketAddress
 .
 sin_addr
+)
+sizeof
+(
+ip_address
 )
 )
 ;

@@ -10945,6 +10945,8 @@ line
 ;
 CC_ID
 dev_cc_type
+=
+CC_OTHER
 ;
 uint32_t
 transport_prot

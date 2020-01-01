@@ -4872,12 +4872,10 @@ tone
 /
 if
 (
-(
 blf_state
 =
 =
 CC_SIP_BLF_ALERTING
-)
 )
 {
 /
@@ -5737,12 +5735,10 @@ tone
 /
 if
 (
-(
 blf_state
 =
 =
 CC_SIP_BLF_ALERTING
-)
 )
 {
 /
@@ -8500,7 +8496,7 @@ rc
 CPR_FAILURE
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 pmsg
 )

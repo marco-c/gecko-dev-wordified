@@ -545,6 +545,9 @@ AudioPayloadType_ILBC30
 AudioPayloadType_ISAC
 =
 41
+AudioPayloadType_OPUS
+=
+109
 }
 AudioPayloadType
 ;

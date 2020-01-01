@@ -1922,12 +1922,10 @@ notify
 }
 if
 (
-(
 lineFeature
 =
 =
 cfgLineFeatureSpeedDialBLF
-)
 )
 {
 ccsnap_gen_blfFeatureEvent

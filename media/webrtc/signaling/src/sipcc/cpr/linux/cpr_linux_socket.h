@@ -1438,7 +1438,7 @@ AF_LOCAL
 AF_UNIX
 *
 /
-int8_t
+char
 sun_path
 [
 108
@@ -1493,6 +1493,8 @@ const
 char
 *
 name
+pid_t
+pid
 )
 ;
 /

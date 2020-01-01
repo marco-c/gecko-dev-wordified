@@ -1452,7 +1452,7 @@ MAX_PHONE_LINES
 #
 define
 MAX_REG_LINES
-8
+51
 #
 define
 MAX_CALLS
@@ -1535,7 +1535,7 @@ to
 for
 non
 -
-Guinness
+Buckfast
 TNP
 *
 models
@@ -1557,6 +1557,6 @@ change
 #
 define
 MAX_CONFIG_LINES
-36
+51
 #
 endif

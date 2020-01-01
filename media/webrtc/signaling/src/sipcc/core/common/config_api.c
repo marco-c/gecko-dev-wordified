@@ -2116,7 +2116,7 @@ add
 an
 invisible
 one
-strncpy
+sstrncpy
 (
 buf
 "
@@ -2166,12 +2166,13 @@ buf
 0
 )
 {
-strcpy
+sstrncpy
 (
 buf
 "
 EMPTY
 "
+len
 )
 ;
 }
@@ -2355,7 +2356,7 @@ add
 an
 invisible
 one
-strncpy
+sstrncpy
 (
 buf
 "
@@ -2370,7 +2371,10 @@ buf
 *
 *
 "
-MAX_CONFIG_VAL_PRINT_LEN
+sizeof
+(
+buf
+)
 )
 ;
 }

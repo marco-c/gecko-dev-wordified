@@ -521,9 +521,6 @@ CC_CallPtr
 call
 CC_CallInfoPtr
 infog
-char
-*
-sdp
 )
 =
 0

@@ -456,6 +456,14 @@ VideoControl
 public
 :
 virtual
+~
+VideoControl
+(
+)
+{
+}
+;
+virtual
 void
 setVideoMode
 (

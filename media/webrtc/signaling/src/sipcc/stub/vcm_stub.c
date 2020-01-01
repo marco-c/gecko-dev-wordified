@@ -2287,6 +2287,8 @@ H
 video
 *
 /
+/
+*
 int
 vcmGetVideoMaxSupportedPacketizationMode
 (
@@ -2296,6 +2298,8 @@ return
 0
 ;
 }
+*
+/
 /
 *
 *
@@ -2395,6 +2399,8 @@ struct
 *
 *
 /
+/
+*
 int
 vcmGetRtpStats
 (
@@ -2418,6 +2424,8 @@ return
 0
 ;
 }
+*
+/
 /
 *
 *
@@ -2514,6 +2522,8 @@ false
 .
 *
 /
+/
+*
 boolean
 vcmAllocateBandwidth
 (
@@ -2527,6 +2537,8 @@ return
 TRUE
 ;
 }
+*
+/
 /
 *
 *
@@ -2556,6 +2568,8 @@ a
 stub
 *
 /
+/
+*
 void
 vcmRemoveBandwidth
 (
@@ -2566,6 +2580,8 @@ call_handle
 return
 ;
 }
+*
+/
 /
 *
 *
@@ -2598,6 +2614,8 @@ a
 stub
 *
 /
+/
+*
 void
 vcmActivateWlan
 (
@@ -2608,6 +2626,8 @@ is_active
 return
 ;
 }
+*
+/
 /
 *
 *
@@ -2689,6 +2709,8 @@ void
 *
 *
 /
+/
+*
 void
 vcmMediaControl
 (
@@ -2701,6 +2723,8 @@ to_encoder
 return
 ;
 }
+*
+/
 /
 *
 *
@@ -2736,6 +2760,8 @@ return
 void
 *
 /
+/
+*
 void
 vcmSetRtcpDscp
 (
@@ -2748,6 +2774,8 @@ dscp
 return
 ;
 }
+*
+/
 /
 *
 *
@@ -3155,6 +3183,8 @@ return
 void
 *
 /
+/
+*
 int
 vcmDtmfBurst
 (
@@ -3170,6 +3200,10 @@ return
 0
 ;
 }
+*
+/
+/
+*
 int
 vcmGetILBCMode
 (
@@ -3179,3 +3213,5 @@ return
 SIPSDP_ILBC_MODE20
 ;
 }
+*
+/

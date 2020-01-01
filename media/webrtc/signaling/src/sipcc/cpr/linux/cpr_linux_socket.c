@@ -6415,6 +6415,16 @@ up
 the
 socket
 address
+using
+*
+the
+name
+and
+the
+pid
+to
+guarantee
+uniqueness
 *
 *
 param
@@ -6471,6 +6481,8 @@ const
 char
 *
 name
+pid_t
+pid
 )
 {
 /
@@ -6499,7 +6511,7 @@ sun_family
 =
 AF_LOCAL
 ;
-sstrncpy
+snprintf
 (
 (
 char
@@ -6509,7 +6521,6 @@ addr
 -
 >
 sun_path
-name
 sizeof
 (
 addr
@@ -6517,6 +6528,14 @@ addr
 >
 sun_path
 )
+"
+%
+s_
+%
+d
+"
+name
+pid
 )
 ;
 }

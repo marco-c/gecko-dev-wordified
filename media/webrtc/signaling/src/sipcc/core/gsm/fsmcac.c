@@ -909,7 +909,7 @@ buffer
 too
 *
 /
-cprReleaseBuffer
+cpr_free
 (
 cac_data
 -

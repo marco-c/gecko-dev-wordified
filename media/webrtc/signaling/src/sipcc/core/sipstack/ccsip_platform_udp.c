@@ -2021,7 +2021,7 @@ error
 .
 *
 /
-cprReleaseBuffer
+cpr_free
 (
 buf
 )
@@ -2153,7 +2153,7 @@ fname
 s
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 buf
 )

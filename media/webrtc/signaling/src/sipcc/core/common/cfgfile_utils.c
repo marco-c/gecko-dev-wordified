@@ -1507,7 +1507,7 @@ config
 block
 *
 /
-strncpy
+sstrncpy
 (
 (
 char
