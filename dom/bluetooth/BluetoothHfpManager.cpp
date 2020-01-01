@@ -5105,9 +5105,9 @@ NotifyDialer
 NS_LITERAL_STRING
 (
 "
-CHUP
-+
-ATA
+CHLD
+=
+1
 "
 )
 )
@@ -5130,8 +5130,8 @@ NS_LITERAL_STRING
 (
 "
 CHLD
-+
-ATA
+=
+2
 "
 )
 )
