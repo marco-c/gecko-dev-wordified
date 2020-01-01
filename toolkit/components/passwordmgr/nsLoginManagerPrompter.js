@@ -5249,6 +5249,12 @@ addLogin
 aLogin
 )
 ;
+browser
+.
+focus
+(
+)
+;
 }
 }
 ;
@@ -5288,6 +5294,12 @@ aLogin
 .
 hostname
 false
+)
+;
+browser
+.
+focus
+(
 )
 ;
 }
