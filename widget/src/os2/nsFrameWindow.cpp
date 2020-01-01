@@ -701,7 +701,7 @@ nsWindow
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -719,7 +719,7 @@ HWND
 hwndO
 )
 {
-nsRect
+nsIntRect
 rect
 =
 aRect
@@ -737,7 +737,7 @@ position
 of
 owner
 {
-nsRect
+nsIntRect
 clientRect
 ;
 aParent
@@ -1297,7 +1297,7 @@ coordinate
 flipping
 )
 .
-nsRect
+nsIntRect
 frameRect
 =
 rect
@@ -1743,7 +1743,7 @@ nsFrameWindow
 :
 GetClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )

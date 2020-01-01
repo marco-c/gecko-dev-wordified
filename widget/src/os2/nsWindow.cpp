@@ -3157,10 +3157,10 @@ nsWindow
 WidgetToScreen
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -3242,10 +3242,10 @@ nsWindow
 ScreenToWidget
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -3490,7 +3490,7 @@ InitEvent
 nsGUIEvent
 &
 event
-nsPoint
+nsIntPoint
 *
 aPoint
 )
@@ -6780,7 +6780,7 @@ nsWindow
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -7103,7 +7103,7 @@ nsWindow
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -8051,7 +8051,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -8278,7 +8278,7 @@ Create
 nsNativeWidget
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -13525,7 +13525,7 @@ nsWindow
 :
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -13767,7 +13767,7 @@ nsWindow
 :
 GetClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -13833,7 +13833,7 @@ nsWindow
 :
 GetNonClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -17103,7 +17103,7 @@ nsWindow
 Invalidate
 (
 const
-nsRect
+nsIntRect
 &
 aRect
 PRBool
@@ -18594,7 +18594,7 @@ while
 child
 )
 {
-nsRect
+nsIntRect
 rect
 ;
 child
@@ -18823,7 +18823,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsRect
+nsIntRect
 *
 aClipRect
 )
@@ -19126,7 +19126,7 @@ nsWindow
 :
 ScrollRect
 (
-nsRect
+nsIntRect
 &
 aRect
 PRInt32
@@ -19557,12 +19557,12 @@ args
 ]
 (
 const
-nsRect
+nsIntRect
 &
 )
 *
 (
-nsRect
+nsIntRect
 *
 )
 (
@@ -20391,7 +20391,7 @@ unicode
 charcode
 in
 .
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -21932,7 +21932,7 @@ NS_COMPOSITION_QUERY
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 ;
 point
@@ -22528,7 +22528,7 @@ NS_KEY_PRESS
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -24997,7 +24997,7 @@ in
 ex
 window
 rect
-nsRect
+nsIntRect
 rect
 ;
 rect
@@ -25810,7 +25810,7 @@ NS_SIZE
 this
 )
 ;
-nsRect
+nsIntRect
 rect
 (
 0
@@ -26188,7 +26188,7 @@ PM2NS
 ptl
 )
 ;
-nsPoint
+nsIntPoint
 pt
 (
 ptl
