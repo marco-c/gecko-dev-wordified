@@ -1975,6 +1975,7 @@ none
 option
 -
 command
+>
 image
 {
 width
@@ -1994,14 +1995,8 @@ margin_tiny
 option
 -
 command
-[
+.
 selected
-=
-"
-true
-"
-]
-image
 {
 list
 -
