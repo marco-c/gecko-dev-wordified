@@ -6936,18 +6936,6 @@ getGlobal
 chain
 ;
 }
-#
-if
-0
-/
-*
-temporarily
-disabled
-to
-be
-reenabled
-*
-/
 /
 *
 *
@@ -7099,8 +7087,6 @@ getOps
 defineProperty
 )
 ;
-#
-endif
 #
 if
 JS_HAS_SHARP_VARS
