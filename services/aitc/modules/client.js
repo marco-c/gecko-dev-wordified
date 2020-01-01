@@ -2636,6 +2636,7 @@ successfulStatusCodes
 201
 204
 304
+401
 ]
 ;
 let
@@ -2763,7 +2764,7 @@ val
 else
 if
 (
-successfulStatusCodes
+statusCodesWithoutBackoff
 .
 indexOf
 (
