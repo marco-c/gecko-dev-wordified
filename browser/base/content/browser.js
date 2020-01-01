@@ -40659,6 +40659,16 @@ save
 "
 )
 {
+if
+(
+getBrowserSelection
+(
+)
+=
+=
+"
+"
+)
 saveURL
 (
 href
