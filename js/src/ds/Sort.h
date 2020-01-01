@@ -806,7 +806,8 @@ true
 on
 success
 and
-sets
+set
+*
 lessOrEqualp
 to
 the

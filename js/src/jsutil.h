@@ -2270,7 +2270,7 @@ JSContext
 '
 cx
 '
-paremter
+parameter
 reports
 errors
 on
