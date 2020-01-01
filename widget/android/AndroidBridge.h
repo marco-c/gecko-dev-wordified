@@ -1882,10 +1882,6 @@ const
 gfxRect
 &
 rect
-bool
-isFullScreen
-int
-orientation
 )
 ;
 void
@@ -1893,8 +1889,6 @@ RemovePluginView
 (
 jobject
 view
-bool
-isFullScreen
 )
 ;
 /

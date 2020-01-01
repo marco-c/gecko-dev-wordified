@@ -2696,11 +2696,6 @@ getSurfaceBits
 jobject
 jobject
 )
-SHELL_WRAPPER1
-(
-onFullScreenPluginHidden
-jobject
-)
 static
 void
 *
@@ -5215,11 +5210,6 @@ notifyFilePickerResult
 GETFUNC
 (
 getSurfaceBits
-)
-;
-GETFUNC
-(
-onFullScreenPluginHidden
 )
 ;
 #
