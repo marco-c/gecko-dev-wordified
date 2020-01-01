@@ -753,9 +753,6 @@ encryption
 :
 "
 "
-cleartext
-:
-null
 ciphertext
 :
 null
