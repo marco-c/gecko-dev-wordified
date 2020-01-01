@@ -21686,7 +21686,7 @@ rv
 )
 {
 return
-NS_ERROR_NOT_INITIALIZED
+rv
 ;
 }
 }
