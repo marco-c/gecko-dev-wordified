@@ -4095,6 +4095,12 @@ EnsureCommandHandler
 (
 )
 ;
+nsIChannel
+*
+GetCurrentDocChannel
+(
+)
+;
 protected
 :
 /
