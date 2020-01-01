@@ -134,12 +134,17 @@ ScaledFontBase
 h
 "
 #
+ifdef
+MOZ_ENABLE_FREETYPE
+#
 include
 "
 ScaledFontFreetype
 .
 h
 "
+#
+endif
 #
 endif
 #
@@ -1388,6 +1393,9 @@ aSize
 }
 #
 endif
+#
+ifdef
+MOZ_ENABLE_FREETYPE
 case
 NATIVE_FONT_SKIA_FONT_FACE
 :
@@ -1398,7 +1406,7 @@ ScaledFontFreetype
 (
 static_cast
 <
-gfxFont
+FontOptions
 *
 >
 (
@@ -1410,6 +1418,8 @@ aSize
 )
 ;
 }
+#
+endif
 #
 endif
 #

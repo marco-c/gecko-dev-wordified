@@ -119,7 +119,7 @@ public
 :
 ScaledFontFreetype
 (
-gfxFont
+FontOptions
 *
 aFont
 Float

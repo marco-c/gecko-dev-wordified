@@ -238,6 +238,17 @@ gfxFontFeatures
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+Types
+.
+h
+"
 typedef
 struct
 _cairo_scaled_font
