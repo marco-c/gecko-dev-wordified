@@ -93,13 +93,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIDNSService
 .
 h
