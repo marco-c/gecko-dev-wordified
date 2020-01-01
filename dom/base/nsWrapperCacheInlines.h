@@ -304,7 +304,7 @@ char
 aName
 )
 {
-JS_CallObjectTracer
+JS_CallHeapObjectTracer
 (
 aTrc
 &

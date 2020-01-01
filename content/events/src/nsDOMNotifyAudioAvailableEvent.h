@@ -400,8 +400,14 @@ mFrameBufferLength
 float
 mTime
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mCachedArray
 ;
 bool

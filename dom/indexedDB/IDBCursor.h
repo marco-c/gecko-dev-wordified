@@ -622,8 +622,14 @@ IDBIndex
 >
 mIndex
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mScriptOwner
 ;
 Type

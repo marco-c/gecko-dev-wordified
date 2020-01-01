@@ -171,6 +171,13 @@ h
 #
 include
 "
+nsJSThingHashtable
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -6981,7 +6988,7 @@ nsIDOMOfflineResourceList
 >
 mApplicationCache
 ;
-nsDataHashtable
+nsJSThingHashtable
 <
 nsPtrHashKey
 <

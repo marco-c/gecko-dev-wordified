@@ -280,8 +280,14 @@ the
 liveCalls
 attribute
 .
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mCallsArray
 ;
 bool

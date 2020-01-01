@@ -600,8 +600,14 @@ mContext
 Float32Arrays
 AutoFallibleTArray
 <
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 2
 >
 mJSChannels

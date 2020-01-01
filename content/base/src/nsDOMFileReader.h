@@ -736,8 +736,14 @@ nsIPrincipal
 >
 mPrincipal
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mResultArrayBuffer
 ;
 }

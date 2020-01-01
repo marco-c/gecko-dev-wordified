@@ -494,8 +494,14 @@ TraceCallbackFunc
 :
 Trace
 (
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 *
 p
 const

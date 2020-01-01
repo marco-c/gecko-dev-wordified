@@ -262,6 +262,13 @@ h
 #
 include
 "
+nsJSThingHashtable
+.
+h
+"
+#
+include
+"
 nsIBoxObject
 .
 h
@@ -6899,7 +6906,7 @@ document
 s
 compartment
 .
-nsDataHashtable
+nsJSThingHashtable
 <
 nsStringHashKey
 JSObject

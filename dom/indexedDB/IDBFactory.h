@@ -885,8 +885,14 @@ nsPIDOMWindow
 >
 mWindow
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mOwningObject
 ;
 IndexedDBChild

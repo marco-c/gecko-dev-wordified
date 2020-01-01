@@ -294,8 +294,14 @@ IDBWrapperCache
 ;
 private
 :
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mScriptOwner
 ;
 }
