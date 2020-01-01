@@ -46187,7 +46187,7 @@ ProcessChildren
 aState
 aContent
 newFrame
-PR_TRUE
+PR_FALSE
 childItems
 PR_FALSE
 )
