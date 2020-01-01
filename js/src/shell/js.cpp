@@ -30205,10 +30205,6 @@ HPUX
 |
 defined
 OSF1
-|
-|
-defined
-IRIX
 {
 char
 *

@@ -695,13 +695,7 @@ rv
 /
 Tru64
 Cxx
-and
-IRIX
-MIPSpro
-7
-.
-3
-need
+needs
 an
 explicit
 get
