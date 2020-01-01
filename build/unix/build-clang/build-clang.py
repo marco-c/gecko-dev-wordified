@@ -913,9 +913,11 @@ gcc
 -
 4
 .
-5
+7
+.
+2
 -
-0moz3
+0moz1
 "
 ]
     
@@ -926,11 +928,6 @@ build_dir
 configure_opts
                   
 [
-"
-CLANG_IS_PRODUCTION
-=
-1
-"
 ]
 )
 if
