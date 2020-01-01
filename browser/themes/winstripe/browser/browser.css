@@ -1127,6 +1127,7 @@ rect
 16px
 0px
 )
+;
 }
 .
 bookmark
@@ -16625,5 +16626,14 @@ bookmarksToolbar
 png
 "
 )
+;
+-
+moz
+-
+image
+-
+region
+:
+auto
 ;
 }
