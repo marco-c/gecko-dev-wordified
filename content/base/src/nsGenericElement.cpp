@@ -809,7 +809,7 @@ DEBUG
 #
 include
 "
-nsIRange
+nsRange
 .
 h
 "
@@ -27939,7 +27939,7 @@ IsCommonAncestorForRangeInSelection
 )
 )
 {
-nsIRange
+nsRange
 :
 :
 RangeHashTable
@@ -27948,7 +27948,7 @@ ranges
 =
 static_cast
 <
-nsIRange
+nsRange
 :
 :
 RangeHashTable

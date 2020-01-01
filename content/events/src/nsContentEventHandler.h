@@ -473,7 +473,7 @@ h
 #
 include
 "
-nsIRange
+nsRange
 .
 h
 "
@@ -728,9 +728,9 @@ nsISelection
 >
 mSelection
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRange
+nsRange
 >
 mFirstSelectedRange
 ;
@@ -846,7 +846,7 @@ GetFlatTextOffsetOfRange
 nsIContent
 *
 aRootContent
-nsIRange
+nsRange
 *
 aRange
 PRUint32
@@ -897,7 +897,7 @@ boundaries
 nsresult
 SetRangeFromFlatTextOffset
 (
-nsIRange
+nsRange
 *
 aRange
 PRUint32
@@ -931,7 +931,7 @@ frame
 nsresult
 GetStartFrameAndOffset
 (
-nsIRange
+nsRange
 *
 aRange
 nsIFrame

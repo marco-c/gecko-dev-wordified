@@ -481,7 +481,7 @@ h
 define
 DEBUG_SPELLCHECK
 class
-nsIRange
+nsRange
 ;
 class
 nsINode
@@ -929,7 +929,7 @@ nsIDOMNode
 aWordNode
 PRInt32
 aWordOffset
-nsIRange
+nsRange
 *
 *
 aRange
@@ -1009,7 +1009,7 @@ GetNextWord
 nsAString
 &
 aText
-nsIRange
+nsRange
 *
 *
 aRange
@@ -1619,7 +1619,7 @@ NodeOffset
 aBegin
 NodeOffset
 aEnd
-nsIRange
+nsRange
 *
 *
 aRange
@@ -1632,7 +1632,7 @@ const
 RealWord
 &
 aWord
-nsIRange
+nsRange
 *
 *
 aRange
