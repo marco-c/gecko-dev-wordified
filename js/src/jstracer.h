@@ -1034,13 +1034,6 @@ nanojit
 :
 LirWriter
 *
-exit_filter
-;
-nanojit
-:
-:
-LirWriter
-*
 func_filter
 ;
 nanojit
