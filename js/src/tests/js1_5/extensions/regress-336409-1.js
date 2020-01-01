@@ -717,12 +717,9 @@ expect
 '
 InternalError
 :
-script
-stack
-space
-quota
-is
-exhausted
+allocation
+size
+overflow
 '
 ;
 actual
