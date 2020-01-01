@@ -1560,8 +1560,11 @@ aLayer
 ViewTransform
 *
 aNewTransform
-gfxPoint
-*
+gfx
+:
+:
+Point
+&
 aScrollOffset
 )
 ;
