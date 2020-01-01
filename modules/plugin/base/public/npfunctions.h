@@ -666,7 +666,7 @@ notifyData
 )
 ;
 /
-/
+*
 Any
 NPObjects
 returned
@@ -678,8 +678,6 @@ NPP_GetValue
 should
 be
 retained
-/
-/
 by
 the
 plugin
@@ -695,6 +693,8 @@ responsible
 for
 releasing
 .
+*
+/
 typedef
 NPError
 (
@@ -944,7 +944,7 @@ message
 )
 ;
 /
-/
+*
 Browser
 manages
 the
@@ -958,8 +958,6 @@ NPN_UserAgent
 don
 '
 t
-/
-/
 depend
 on
 it
@@ -972,6 +970,8 @@ t
 free
 it
 .
+*
+/
 typedef
 const
 char
