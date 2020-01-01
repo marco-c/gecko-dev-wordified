@@ -606,7 +606,7 @@ rv
 xhr
 -
 >
-OpenRequest
+Open
 (
 getString
 testURL
@@ -636,7 +636,7 @@ TEST_ENSURE_FAILED
 (
 rv
 "
-OpenRequest
+Open
 should
 have
 failed
@@ -737,7 +737,7 @@ rv
 xhr
 -
 >
-OpenRequest
+Open
 (
 getString
 testURL
@@ -750,7 +750,7 @@ TEST_ENSURE_SUCCESS
 (
 rv
 "
-OpenRequest
+Open
 failed
 !
 "

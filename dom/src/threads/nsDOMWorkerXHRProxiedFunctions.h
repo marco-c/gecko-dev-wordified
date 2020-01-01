@@ -860,14 +860,14 @@ Abort
 }
 ;
 class
-OpenRequest
+Open
 :
 public
 SyncEventCapturingRunnable
 {
 public
 :
-OpenRequest
+Open
 (
 const
 nsACString
@@ -921,7 +921,7 @@ return
 mXHR
 -
 >
-OpenRequest
+Open
 (
 mMethod
 mUrl

@@ -619,7 +619,7 @@ rv
 xhr
 -
 >
-OpenRequest
+Open
 (
 getString
 aURL

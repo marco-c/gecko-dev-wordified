@@ -3574,7 +3574,7 @@ nsDOMWorkerXHRProxy
 MaybeDispatchPrematureAbortEvents
 (
 PRBool
-aFromOpenRequest
+aFromOpen
 )
 {
 NS_ASSERTION
@@ -3641,7 +3641,7 @@ rv
 ;
 if
 (
-aFromOpenRequest
+aFromOpen
 )
 {
 rv
@@ -4539,7 +4539,7 @@ nsresult
 nsDOMWorkerXHRProxy
 :
 :
-OpenRequest
+Open
 (
 const
 nsACString
@@ -4585,7 +4585,7 @@ scenes
 !
 RUN_PROXIED_FUNCTION
 (
-OpenRequest
+Open
 (
 aMethod
 aUrl
@@ -4627,7 +4627,7 @@ rv
 mXHR
 -
 >
-OpenRequest
+Open
 (
 aMethod
 aUrl
@@ -4647,7 +4647,7 @@ rv
 Do
 this
 after
-OpenRequest
+Open
 is
 called
 so
@@ -4665,7 +4665,7 @@ the
 old
 channel
 if
-OpenRequest
+Open
 fails
 .
 Any
@@ -4675,7 +4675,7 @@ by
 the
 /
 /
-OpenRequest
+Open
 method
 will
 always
