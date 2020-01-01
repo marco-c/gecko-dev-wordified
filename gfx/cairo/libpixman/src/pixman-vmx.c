@@ -7719,6 +7719,19 @@ s
 ;
 }
 }
+static
+const
+pixman_fast_path_t
+vmx_fast_paths
+[
+]
+=
+{
+{
+PIXMAN_OP_NONE
+}
+}
+;
 pixman_implementation_t
 *
 _pixman_implementation_create_vmx
@@ -7741,6 +7754,7 @@ imp
 _pixman_implementation_create
 (
 fast
+vmx_fast_paths
 )
 ;
 /
