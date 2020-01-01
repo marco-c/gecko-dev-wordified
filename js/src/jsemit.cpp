@@ -13963,6 +13963,16 @@ cg
 )
 ;
 }
+if
+(
+cg
+-
+>
+compileAndGo
+(
+)
+)
+{
 switch
 (
 op
@@ -14050,6 +14060,7 @@ gname
 "
 )
 ;
+}
 }
 ale
 =
