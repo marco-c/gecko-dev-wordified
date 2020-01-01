@@ -10434,6 +10434,8 @@ NS_LITERAL_CSTRING
 "
 DROP
 TRIGGER
+IF
+EXISTS
 moz_historyvisits_afterinsert_v1_trigger
 "
 )
@@ -10457,6 +10459,8 @@ NS_LITERAL_CSTRING
 "
 DROP
 TRIGGER
+IF
+EXISTS
 moz_historyvisits_afterdelete_v1_trigger
 "
 )
