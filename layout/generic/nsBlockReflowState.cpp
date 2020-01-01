@@ -5009,6 +5009,7 @@ if
 (
 yb
 <
+=
 mY
 +
 mAvailSpaceRect
