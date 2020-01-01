@@ -1949,10 +1949,7 @@ pair
 local
 -
 >
-isock
--
->
-sock
+osock
 &
 response_dst
 )

@@ -639,6 +639,7 @@ Data
 *
 *
 dp
+const
 UCHAR
 *
 d
@@ -663,6 +664,7 @@ r_data_make
 Data
 *
 dp
+const
 UCHAR
 *
 d
