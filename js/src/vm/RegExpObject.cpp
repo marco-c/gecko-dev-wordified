@@ -2095,6 +2095,13 @@ JSObject
 obj
 )
 {
+if
+(
+IS_GC_MARKING_TRACER
+(
+trc
+)
+)
 obj
 -
 >
