@@ -391,7 +391,7 @@ aOptions
 /
 /
 Skia
-rendewrs
+renders
 0
 width
 strokes
