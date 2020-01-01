@@ -764,9 +764,9 @@ run
 {
 GeckoApp
 .
-mFormAssistPopup
+mAppContext
 .
-hide
+hideFormAssistPopup
 (
 )
 ;
