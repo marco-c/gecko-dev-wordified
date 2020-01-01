@@ -15065,7 +15065,7 @@ i
 ;
 JS_ALWAYS_TRUE
 (
-ValueToECMAInt32
+ToInt32
 (
 cx
 top

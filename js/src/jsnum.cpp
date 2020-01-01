@@ -3476,7 +3476,7 @@ length
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 cx
 args
@@ -8389,7 +8389,7 @@ true
 ;
 }
 bool
-ValueToECMAInt32Slow
+ToInt32Slow
 (
 JSContext
 *
@@ -8464,7 +8464,7 @@ true
 ;
 }
 bool
-ValueToECMAUint32Slow
+ToUint32Slow
 (
 JSContext
 *
@@ -8712,7 +8712,7 @@ namespace
 js
 {
 bool
-ValueToInt32Slow
+NonstandardToInt32Slow
 (
 JSContext
 *

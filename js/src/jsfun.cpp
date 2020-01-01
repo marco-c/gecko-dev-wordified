@@ -10392,7 +10392,7 @@ argc
 &
 &
 !
-ValueToECMAUint32
+ToUint32
 (
 cx
 vp

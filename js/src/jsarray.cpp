@@ -1549,7 +1549,7 @@ uint32_t
 )
 ;
 return
-ValueToECMAUint32
+ToUint32
 (
 cx
 tvr
@@ -4288,7 +4288,7 @@ newlen
 if
 (
 !
-ValueToECMAUint32
+ToUint32
 (
 cx
 *

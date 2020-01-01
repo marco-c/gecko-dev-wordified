@@ -799,7 +799,7 @@ needInt
 {
 JS_ALWAYS_TRUE
 (
-ValueToECMAInt32
+ToInt32
 (
 cx
 L
@@ -810,7 +810,7 @@ nL
 ;
 JS_ALWAYS_TRUE
 (
-ValueToECMAInt32
+ToInt32
 (
 cx
 R

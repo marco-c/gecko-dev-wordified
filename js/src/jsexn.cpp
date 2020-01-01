@@ -4952,7 +4952,7 @@ length
 if
 (
 !
-ValueToECMAUint32
+ToUint32
 (
 cx
 args
@@ -5740,7 +5740,7 @@ linenoVal
 |
 |
 !
-ValueToECMAUint32
+ToUint32
 (
 cx
 linenoVal
@@ -7798,7 +7798,7 @@ lineno
 if
 (
 !
-ValueToECMAUint32
+ToUint32
 (
 cx
 roots

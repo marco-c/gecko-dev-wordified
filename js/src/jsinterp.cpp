@@ -16261,7 +16261,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 cx
 regs
@@ -16283,7 +16283,7 @@ error
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 cx
 regs
@@ -17071,7 +17071,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 cx
 regs
@@ -17093,7 +17093,7 @@ error
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 cx
 regs
@@ -17187,7 +17187,7 @@ u
 if
 (
 !
-ValueToECMAUint32
+ToUint32
 (
 cx
 regs
@@ -17210,7 +17210,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 cx
 regs
@@ -18403,7 +18403,7 @@ i
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 cx
 regs

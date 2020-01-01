@@ -681,7 +681,7 @@ isConstant
 int32
 value
 ;
-ValueToECMAInt32
+ToInt32
 (
 cx
 getValue
