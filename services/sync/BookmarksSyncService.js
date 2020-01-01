@@ -6842,6 +6842,7 @@ _doSync
 function
 BSS__doSync
 (
+onComplete
 )
 {
 let
@@ -8334,6 +8335,10 @@ end
 "
 )
 ;
+if
+(
+onComplete
+)
 generatorDone
 (
 this
@@ -10187,6 +10192,7 @@ _resetServer
 function
 BSS__resetServer
 (
+onComplete
 )
 {
 let
@@ -10614,6 +10620,10 @@ end
 "
 )
 ;
+if
+(
+onComplete
+)
 generatorDone
 (
 this
