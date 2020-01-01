@@ -1374,6 +1374,9 @@ JSCompartment
 c2
 )
 {
+#
+ifdef
+DEBUG_jorendorff
 printf
 (
 "
@@ -1403,6 +1406,8 @@ void
 c2
 )
 ;
+/
+/
 JS_NOT_REACHED
 (
 "
@@ -1411,6 +1416,8 @@ mismatch
 "
 )
 ;
+#
+endif
 }
 void
 check
