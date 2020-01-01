@@ -462,8 +462,8 @@ mozStorageBackground
 .
 h
 "
-class
-mozStorageStatement
+struct
+sqlite3_stmt
 ;
 class
 mozIStorageStatementCallback
@@ -496,6 +496,7 @@ param
 aStatement
 *
 The
+SQLite
 statement
 to
 execute
@@ -537,7 +538,7 @@ statement
 nsresult
 NS_executeAsync
 (
-mozStorageStatement
+sqlite3_stmt
 *
 aStatement
 mozIStorageStatementCallback
