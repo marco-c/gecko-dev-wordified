@@ -1018,6 +1018,15 @@ gfxIntSize
 width
 height
 )
+gl
+:
+:
+GLContextProvider
+:
+:
+GetGlobalContext
+(
+)
 format
 )
 ;
@@ -1110,6 +1119,7 @@ gfxIntSize
 width
 height
 )
+nsnull
 format
 )
 ;

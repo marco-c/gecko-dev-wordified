@@ -648,6 +648,11 @@ LayerManagerOGL
 (
 )
 ;
+void
+CleanupResources
+(
+)
+;
 /
 *
 *
