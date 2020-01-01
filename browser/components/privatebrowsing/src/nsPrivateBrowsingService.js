@@ -3605,7 +3605,6 @@ false
 }
 get
 helpInfo
-PBS_get_helpInfo
 (
 )
 {
@@ -3656,7 +3655,6 @@ browsing
 /
 get
 privateBrowsingEnabled
-PBS_get_privateBrowsingEnabled
 (
 )
 {
@@ -3681,7 +3679,6 @@ mode
 /
 set
 privateBrowsingEnabled
-PBS_set_privateBrowsingEnabled
 (
 val
 )
@@ -4125,7 +4122,6 @@ automatically
 /
 get
 autoStarted
-PBS_get_autoStarted
 (
 )
 {

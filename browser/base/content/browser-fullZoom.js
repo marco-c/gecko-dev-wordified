@@ -628,7 +628,6 @@ undefined
 .
 get
 globalValue
-FullZoom_get_globalValue
 (
 )
 {
@@ -768,7 +767,6 @@ Pref
 Service
 get
 _cps
-FullZoom_get__cps
 (
 )
 {
@@ -845,7 +843,6 @@ _inPrivateBrowsing
 false
 get
 siteSpecific
-FullZoom_get_siteSpecific
 (
 )
 {
