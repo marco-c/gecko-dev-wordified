@@ -3016,6 +3016,12 @@ jint
 jint
 jlong
 )
+SHELL_WRAPPER2
+(
+notifyFilePickerResult
+jstring
+jlong
+)
 static
 void
 *
@@ -5520,6 +5526,11 @@ notifyGotNextMessage
 GETFUNC
 (
 notifyReadingMessageListFailed
+)
+;
+GETFUNC
+(
+notifyFilePickerResult
 )
 ;
 #
