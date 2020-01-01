@@ -24030,6 +24030,10 @@ NS_VMREFRESH_DEFERRED
 ;
 }
 else
+if
+(
+presShell
+)
 {
 /
 /
