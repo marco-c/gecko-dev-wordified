@@ -229,7 +229,7 @@ url
 manual
 "
 "
-http
+https
 :
 /
 /
@@ -237,11 +237,11 @@ www
 .
 mozilla
 .
-com
+org
 /
 firefox
 /
-channel
+aurora
 /
 "
 )
@@ -290,7 +290,7 @@ url
 details
 "
 "
-http
+https
 :
 /
 /
@@ -300,9 +300,9 @@ mozilla
 .
 org
 /
-projects
-/
 firefox
+/
+aurora
 /
 "
 )
