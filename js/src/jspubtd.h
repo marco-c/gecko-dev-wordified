@@ -3044,9 +3044,6 @@ JS_CallTracer
 .
 *
 /
-#
-ifdef
-DEBUG
 typedef
 void
 (
@@ -3064,8 +3061,6 @@ size_t
 bufsize
 )
 ;
-#
-endif
 /
 *
 *
