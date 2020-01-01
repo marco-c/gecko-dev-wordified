@@ -2705,6 +2705,14 @@ regs
 m
 )
 ;
+if
+(
+fp
+-
+>
+down
+)
+{
 for
 (
 unsigned
@@ -2773,6 +2781,7 @@ n
 ]
 )
 ;
+}
 for
 (
 jsval
