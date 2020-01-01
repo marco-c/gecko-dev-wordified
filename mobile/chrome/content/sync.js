@@ -3684,6 +3684,9 @@ sync
 "
 details
 "
+"
+pairdevice
+"
 ]
 ;
 settingids
@@ -3846,6 +3849,15 @@ this
 _elements
 .
 sync
+;
+let
+pairdevice
+=
+this
+.
+_elements
+.
+pairdevice
 ;
 /
 /
