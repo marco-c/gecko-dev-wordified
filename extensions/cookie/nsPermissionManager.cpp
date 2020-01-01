@@ -4641,8 +4641,6 @@ nsISimpleEnumerator
 aEnum
 )
 {
-ENSURE_NOT_CHILD_PROCESS
-;
 /
 /
 roll
