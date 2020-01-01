@@ -3183,6 +3183,9 @@ nanojit
 ACCSET_STORE_ANY
 &
 ~
+tjit
+:
+:
 ACCSET_OBJ_CLASP
 )
 #
@@ -5459,6 +5462,9 @@ CONTEXT
 OBJECT
 INT32
 0
+tjit
+:
+:
 ACCSET_OBJ_PRIVATE
 )
 #
