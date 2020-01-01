@@ -193,6 +193,10 @@ jsval
 aArgv
 )
 ;
+Activity
+(
+)
+;
 protected
 :
 nsCOMPtr
