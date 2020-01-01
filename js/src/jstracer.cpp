@@ -9606,16 +9606,8 @@ pc
 :
 :
 JSOP_IFEQ
-)
-guard
-(
-cond
-x
-)
-;
-else
-if
-(
+|
+|
 cx
 -
 >
@@ -9637,7 +9629,6 @@ JSOP_IFNE
 )
 guard
 (
-!
 cond
 x
 )
