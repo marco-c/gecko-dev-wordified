@@ -658,7 +658,9 @@ tile
 void
 RenderTile
 (
+const
 TiledTexture
+&
 aTile
 const
 gfx3DMatrix

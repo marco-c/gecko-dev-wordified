@@ -1234,7 +1234,9 @@ TiledThebesLayerOGL
 :
 RenderTile
 (
+const
 TiledTexture
+&
 aTile
 const
 gfx3DMatrix
