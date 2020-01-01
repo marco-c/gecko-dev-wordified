@@ -582,6 +582,13 @@ nsNPAPIPlugin
 .
 h
 "
+#
+include
+"
+nsILocalFile
+.
+h
+"
 using
 base
 :

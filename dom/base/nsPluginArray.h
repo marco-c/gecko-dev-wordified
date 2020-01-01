@@ -431,6 +431,13 @@ nsPluginArray_h___
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIDOMPluginArray
 .
 h
@@ -461,9 +468,6 @@ nsNavigator
 ;
 class
 nsIDocShell
-;
-class
-nsIPluginHost
 ;
 /
 /
