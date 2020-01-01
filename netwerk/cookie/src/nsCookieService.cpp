@@ -8166,6 +8166,8 @@ aValue
 PRBool
 aIsSecure
 PRBool
+aIsHttpOnly
+PRBool
 aIsSession
 PRInt64
 aExpiry
@@ -8197,7 +8199,7 @@ aExpiry
 currentTimeInUsec
 aIsSession
 aIsSecure
-PR_FALSE
+aIsHttpOnly
 nsICookie
 :
 :

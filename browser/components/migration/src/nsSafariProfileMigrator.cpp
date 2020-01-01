@@ -5607,7 +5607,17 @@ path
 name
 value
 PR_FALSE
+/
+/
+isSecure
 PR_FALSE
+/
+/
+isHttpOnly
+PR_FALSE
+/
+/
+isSession
 expiryTime
 )
 ;

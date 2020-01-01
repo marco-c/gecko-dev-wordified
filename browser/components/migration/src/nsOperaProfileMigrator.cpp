@@ -5500,6 +5500,13 @@ mCurrCookie
 .
 isSecure
 PR_FALSE
+/
+/
+isHttpOnly
+PR_FALSE
+/
+/
+isSession
 PRInt64
 (
 mCurrCookie
