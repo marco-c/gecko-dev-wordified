@@ -1601,6 +1601,14 @@ iterate
 iterateAtom
 *
 /
+"
+WeakMap
+"
+/
+*
+WeakMapAtom
+*
+/
 }
 ;
 JS_STATIC_ASSERT
