@@ -10399,9 +10399,11 @@ globalObject
 &
 &
 !
-JS_HAS_OPTION
-(
 acx
+-
+>
+hasRunOption
+(
 JSOPTION_UNROOTED_GLOBAL
 )
 )
