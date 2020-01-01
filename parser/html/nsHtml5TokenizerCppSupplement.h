@@ -962,7 +962,7 @@ nsHtml5Tokenizer
 :
 errAstralNonCharacter
 (
-int
+PRInt32
 ch
 )
 {
