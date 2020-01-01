@@ -229,6 +229,13 @@ sensors
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 undef
 LOG
 #
