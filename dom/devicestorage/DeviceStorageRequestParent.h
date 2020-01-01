@@ -751,9 +751,6 @@ PRInt64
 aFreeBytes
 PRInt64
 aTotalBytes
-nsAString
-&
-aState
 )
 ;
 virtual
@@ -773,9 +770,6 @@ private
 PRInt64
 mFreeBytes
 mTotalBytes
-;
-nsString
-mState
 ;
 }
 ;
