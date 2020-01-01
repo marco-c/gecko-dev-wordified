@@ -227,6 +227,8 @@ nsDOMMediaStream
 :
 CreateInputStream
 (
+PRUint32
+aHintContents
 )
 {
 nsRefPtr
@@ -238,6 +240,14 @@ stream
 new
 nsDOMMediaStream
 (
+)
+;
+stream
+-
+>
+SetHintContents
+(
+aHintContents
 )
 ;
 MediaStreamGraph
