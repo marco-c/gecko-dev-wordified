@@ -1565,7 +1565,12 @@ isCall
 s0
 -
 >
-imm8
+oprnd1
+(
+)
+-
+>
+fid
 (
 )
 =
@@ -1581,7 +1586,7 @@ s0
 oprnd1
 (
 )
-1
+0
 )
 ;
 break
@@ -1607,7 +1612,12 @@ isCall
 s0
 -
 >
-imm8
+oprnd1
+(
+)
+-
+>
+fid
 (
 )
 =
@@ -1623,7 +1633,7 @@ s0
 oprnd1
 (
 )
-1
+0
 )
 ;
 break
