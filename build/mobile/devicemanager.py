@@ -2521,6 +2521,23 @@ of
 the
 device
     
+uptimemillis
+-
+uptime
+of
+the
+device
+in
+milliseconds
+(
+NOT
+supported
+on
+all
+                   
+platforms
+)
+    
 systime
 -
 system

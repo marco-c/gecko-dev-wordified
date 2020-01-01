@@ -7055,6 +7055,16 @@ the
 device
   
 #
+uptimemillis
+-
+uptime
+of
+the
+device
+in
+milliseconds
+  
+#
 systime
 -
 system
@@ -7204,11 +7214,15 @@ id
 uptime
 '
 '
+uptimemillis
+'
+'
 systime
 '
 '
 screen
 '
+                  
 '
 rotation
 '
@@ -7218,7 +7232,6 @@ memory
 '
 process
 '
-                  
 '
 disk
 '
