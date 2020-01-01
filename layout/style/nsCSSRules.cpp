@@ -455,6 +455,15 @@ rules
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCSSRules
 .
 h
@@ -911,6 +920,7 @@ rules
 /
 class
 GroupRuleRuleList
+MOZ_FINAL
 :
 public
 nsICSSRuleList

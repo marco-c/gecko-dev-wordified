@@ -11956,17 +11956,11 @@ hasDefaultGetter
 )
 &
 &
-obj
--
->
-containsSlot
-(
 shape
 -
 >
-slot
+hasSlot
 (
-)
 )
 )
 {
@@ -11976,7 +11970,7 @@ constp
 obj
 -
 >
-getSlot
+nativeGetSlot
 (
 shape
 -

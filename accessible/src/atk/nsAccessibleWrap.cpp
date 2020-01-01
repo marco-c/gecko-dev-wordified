@@ -7224,7 +7224,10 @@ text
 -
 insert
 "
-ATK_TYPE_TEXT
+G_OBJECT_TYPE
+(
+aObject
+)
 )
 ?
 eHaveNewAtkTextSignals

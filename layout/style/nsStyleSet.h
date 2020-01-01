@@ -500,6 +500,15 @@ nsStyleSet_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIStyleRuleProcessor
 .
 h
@@ -2292,12 +2301,6 @@ InitialStyleRule
 ;
 private
 :
-/
-/
-Not
-to
-be
-implemented
 nsStyleSet
 (
 const
@@ -2305,6 +2308,7 @@ nsStyleSet
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsStyleSet
 &
@@ -2316,6 +2320,7 @@ nsStyleSet
 &
 aCopy
 )
+MOZ_DELETE
 ;
 /
 /

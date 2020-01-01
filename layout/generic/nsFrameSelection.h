@@ -397,6 +397,15 @@ nsFrameSelection_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -1428,6 +1437,7 @@ deleted
 /
 class
 nsFrameSelection
+MOZ_FINAL
 :
 public
 nsISupports

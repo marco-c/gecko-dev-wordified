@@ -1758,10 +1758,9 @@ nsIBox
 *
 parentBox
 ;
-nsIGridPart
-*
-parent
-=
+(
+void
+)
 GetParentGridPart
 (
 aBox
@@ -1915,8 +1914,9 @@ bottom
 ;
 }
 }
-parent
-=
+(
+void
+)
 GetParentGridPart
 (
 parentBox

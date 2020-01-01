@@ -4689,15 +4689,6 @@ slotSpan
 )
 const
 ;
-inline
-bool
-containsSlot
-(
-uint32_t
-slot
-)
-const
-;
 void
 rollbackProperties
 (

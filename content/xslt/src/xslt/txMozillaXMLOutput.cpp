@@ -5206,16 +5206,6 @@ an
 empty
 one
 )
-nsAutoString
-voidString
-;
-voidString
-.
-SetIsVoid
-(
-true
-)
-;
 rv
 =
 NS_NewDOMDocumentType
@@ -5232,7 +5222,9 @@ mPublicId
 mOutputFormat
 .
 mSystemId
-voidString
+NullString
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

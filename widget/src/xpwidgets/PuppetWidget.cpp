@@ -2692,7 +2692,7 @@ event
 .
 refPoint
 .
-x
+y
 =
 dirtyRect
 .

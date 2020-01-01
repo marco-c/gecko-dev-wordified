@@ -6543,7 +6543,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIScriptError2
+nsIScriptError
 >
 errObj
 (
@@ -6615,6 +6615,8 @@ rv
 rv
 )
 ;
+rv
+=
 errObj
 -
 >
@@ -6644,6 +6646,12 @@ Source
 mInnerWindowID
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 /
 /
 print
@@ -6655,17 +6663,6 @@ to
 the
 JS
 console
-nsCOMPtr
-<
-nsIScriptError
->
-logError
-=
-do_QueryInterface
-(
-errObj
-)
-;
 rv
 =
 console
@@ -6673,7 +6670,7 @@ console
 >
 LogMessage
 (
-logError
+errObj
 )
 ;
 NS_ENSURE_SUCCESS

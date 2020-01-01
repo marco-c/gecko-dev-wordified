@@ -618,7 +618,7 @@ nsCSSValue
 mDepth
 ;
 nsCSSValue
-mLeftSpace
+mLeadingSpace
 ;
 nsCSSValue
 mVerticalOffset
@@ -633,7 +633,7 @@ PRInt32
 mDepthSign
 ;
 PRInt32
-mLeftSpaceSign
+mLeadingSpaceSign
 ;
 PRInt32
 mVerticalOffsetSign
@@ -648,7 +648,7 @@ PRInt32
 mDepthPseudoUnit
 ;
 PRInt32
-mLeftSpacePseudoUnit
+mLeadingSpacePseudoUnit
 ;
 PRInt32
 mVerticalOffsetPseudoUnit

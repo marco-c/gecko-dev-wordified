@@ -995,6 +995,7 @@ NS_CSS_STYLE_SHEET_IMPL_CID
 }
 class
 nsCSSStyleSheet
+MOZ_FINAL
 :
 public
 nsIStyleSheet
