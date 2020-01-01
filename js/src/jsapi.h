@@ -15155,6 +15155,9 @@ DoNotTraceWeakMaps
 TraceWeakMapValues
 =
 1
+TraceWeakMapKeysValues
+=
+2
 }
 ;
 struct
