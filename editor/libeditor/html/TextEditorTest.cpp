@@ -238,7 +238,13 @@ X
 \
 n
 "
+static_cast
+<
+uint32_t
+>
+(
 r
+)
 )
 ;
 return
