@@ -56678,10 +56678,7 @@ length
 /
 2
 ;
-RIL
-.
-iccInfo
-.
+let
 sst
 =
 GsmPDUHelper
@@ -56697,6 +56694,14 @@ readStringDelimiter
 (
 length
 )
+;
+RIL
+.
+iccInfoPrivate
+.
+sst
+=
+sst
 ;
 if
 (
@@ -56718,10 +56723,6 @@ i
 ;
 i
 <
-RIL
-.
-iccInfo
-.
 sst
 .
 length
@@ -56734,10 +56735,6 @@ i
 str
 +
 =
-RIL
-.
-iccInfo
-.
 sst
 [
 i
@@ -61831,7 +61828,7 @@ serviceTable
 =
 RIL
 .
-iccInfo
+iccInfoPrivate
 .
 sst
 ;
