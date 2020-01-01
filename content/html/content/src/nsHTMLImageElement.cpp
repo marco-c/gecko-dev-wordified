@@ -2482,6 +2482,16 @@ tabIndex
 >
 =
 0
+|
+|
+HasAttr
+(
+kNameSpaceID_None
+nsGkAtoms
+:
+:
+tabindex
+)
 ;
 }
 nsresult
