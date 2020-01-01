@@ -20213,6 +20213,10 @@ if
 sameRange
 )
 {
+if
+(
+aOutIndex
+)
 *
 aOutIndex
 =
