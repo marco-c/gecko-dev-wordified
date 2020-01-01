@@ -2207,6 +2207,17 @@ topright
 "
 eCSSProperty_border_top_right_radius
 }
+{
+"
+-
+moz
+-
+box
+-
+shadow
+"
+eCSSProperty_box_shadow
+}
 /
 /
 Don
