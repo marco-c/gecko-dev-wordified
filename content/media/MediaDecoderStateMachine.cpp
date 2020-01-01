@@ -13381,6 +13381,9 @@ mAudioRate
 HasAudio
 (
 )
+HasVideo
+(
+)
 tags
 )
 ;
@@ -19964,6 +19967,8 @@ int
 aRate
 bool
 aHasAudio
+bool
+aHasVideo
 MetadataTags
 *
 aTags
