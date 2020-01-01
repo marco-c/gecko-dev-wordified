@@ -6978,6 +6978,7 @@ domWindow
 html
 "
 PR_FALSE
+PR_TRUE
 PR_FALSE
 )
 ;
