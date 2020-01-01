@@ -9193,12 +9193,6 @@ itemType
 TYPE_FOLDER
 )
 {
-mozStorageStatementScoper
-scope
-(
-mDBGetItemProperties
-)
-;
 PRInt64
 p
 =
@@ -9209,6 +9203,12 @@ while
 p
 )
 {
+mozStorageStatementScoper
+scope
+(
+mDBGetItemProperties
+)
+;
 if
 (
 p
