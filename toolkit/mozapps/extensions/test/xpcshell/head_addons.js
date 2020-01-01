@@ -3520,6 +3520,9 @@ iconURL
 icon64URL
 "
 "
+unpack
+"
+"
 skinnable
 "
 "
