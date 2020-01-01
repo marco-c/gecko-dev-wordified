@@ -415,7 +415,7 @@ this
 .
 _currentFlyout
 .
-show
+_show
 )
 {
 this
