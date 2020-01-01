@@ -12961,6 +12961,8 @@ defined
 by
 the
 embedder
+public
+:
 static
 const
 char
@@ -12975,8 +12977,6 @@ defined
 by
 the
 embedder
-public
-:
 LInsPrinter
 (
 Allocator
