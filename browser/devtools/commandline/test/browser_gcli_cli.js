@@ -921,6 +921,9 @@ option1
 '
 option2
 '
+'
+option3
+'
 ]
 unassigned
 :
@@ -1152,6 +1155,9 @@ option1
 '
 option2
 '
+'
+option3
+'
 ]
 unassigned
 :
@@ -1270,6 +1276,9 @@ option1
 '
 '
 option2
+'
+'
+option3
 '
 ]
 unassigned

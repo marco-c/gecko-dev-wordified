@@ -682,6 +682,7 @@ type
 stringify
 (
 null
+null
 )
 '
 '
