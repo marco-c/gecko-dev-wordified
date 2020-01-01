@@ -1592,6 +1592,10 @@ richlistbox
 left
 -
 hand
+=
+"
+true
+"
 ]
 >
 richlistitem
@@ -1610,9 +1614,13 @@ popup
 >
 richlistbox
 [
-right
+left
 -
 hand
+=
+"
+false
+"
 ]
 >
 richlistitem
