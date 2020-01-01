@@ -784,8 +784,7 @@ const
 nsresult
 MakeAndStoreLocalFilenameInURIMap
 (
-const
-char
+nsIURI
 *
 aURI
 PRBool
