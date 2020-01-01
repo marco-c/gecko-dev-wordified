@@ -913,6 +913,10 @@ checkerboard
 private
 int
 mCheckerboardColor
+=
+Color
+.
+WHITE
 ;
 private
 boolean

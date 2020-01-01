@@ -5826,7 +5826,7 @@ else
 /
 Default
 to
-black
+white
 if
 no
 color
@@ -5838,7 +5838,9 @@ getLayerController
 .
 setCheckerboardColor
 (
-0
+Color
+.
+WHITE
 )
 ;
 }
