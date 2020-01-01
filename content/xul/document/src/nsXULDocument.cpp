@@ -8447,7 +8447,7 @@ if
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 )
 )
@@ -12837,7 +12837,7 @@ if
 IsCapabilityEnabled
 (
 "
-UniversalBrowserRead
+UniversalXPConnect
 "
 )
 )

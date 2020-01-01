@@ -2006,7 +2006,7 @@ subject
 has
 /
 /
-UniversalBrowserWrite
+UniversalXPConnect
 .
 nsresult
 SubjectSubsumesInnerPrincipal

@@ -3124,11 +3124,8 @@ mExposeVisitedStyle
 nsContentUtils
 :
 :
-IsCallerTrustedForCapability
+CallerHasUniversalXPConnect
 (
-"
-UniversalXPConnect
-"
 )
 "
 mExposeVisitedStyle

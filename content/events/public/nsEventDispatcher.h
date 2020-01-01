@@ -1684,7 +1684,7 @@ set
 based
 on
 the
-UniversalBrowserWrite
+UniversalXPConnect
 capability
 .
 *

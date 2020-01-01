@@ -2441,7 +2441,7 @@ if
 the
 /
 /
-UniversalBrowserRead
+UniversalXPConnect
 privilege
 is
 set
@@ -2482,11 +2482,8 @@ NS_DRAGDROP_DRAGDROP
 nsContentUtils
 :
 :
-IsCallerTrustedForCapability
+CallerHasUniversalXPConnect
 (
-"
-UniversalBrowserRead
-"
 )
 )
 {
@@ -2955,11 +2952,8 @@ file
 nsContentUtils
 :
 :
-IsCallerTrustedForCapability
+CallerHasUniversalXPConnect
 (
-"
-UniversalXPConnect
-"
 )
 )
 {

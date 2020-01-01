@@ -1122,7 +1122,7 @@ is
 unsafe
 to
 call
-IsCallerTrustedForCapability
+CallerHasUniversalXPConnect
 on
 a
 non
@@ -1172,11 +1172,8 @@ if
 nsContentUtils
 :
 :
-IsCallerTrustedForCapability
+CallerHasUniversalXPConnect
 (
-"
-UniversalFileRead
-"
 )
 )
 {

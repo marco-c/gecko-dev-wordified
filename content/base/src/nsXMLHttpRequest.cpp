@@ -15287,8 +15287,7 @@ the
 executing
 script
 has
-UniversalBrowserWrite
-permission
+UniversalXPConnect
 .
 bool
 privileged
@@ -15298,7 +15297,7 @@ rv
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 privileged
