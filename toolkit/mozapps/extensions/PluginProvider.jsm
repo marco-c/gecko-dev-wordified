@@ -3021,7 +3021,7 @@ optionsType
 :
 AddonManager
 .
-OPTIONS_TYPE_INLINE
+OPTIONS_TYPE_INLINE_INFO
 optionsURL
 :
 "
