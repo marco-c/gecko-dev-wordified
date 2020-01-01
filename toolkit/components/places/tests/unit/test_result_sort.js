@@ -639,7 +639,7 @@ addVisit
 (
 aURI
 aTime
-0
+null
 /
 /
 no
