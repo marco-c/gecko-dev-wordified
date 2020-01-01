@@ -83,6 +83,13 @@ Endian
 .
 h
 "
+#
+include
+<
+stddef
+.
+h
+>
 using
 mozilla
 :
@@ -445,8 +452,7 @@ const
 T
 *
 src
-unsigned
-int
+size_t
 count
 )
 \
@@ -503,8 +509,7 @@ const
 void
 *
 src
-unsigned
-int
+size_t
 count
 )
 \
@@ -557,8 +562,7 @@ NAME
 T
 *
 p
-unsigned
-int
+size_t
 count
 )
 \
@@ -614,7 +618,7 @@ template
 typename
 T
 size_t
-count
+Count
 >
 void
 TestBulkSwapToSub
@@ -629,7 +633,7 @@ T
 values
 )
 [
-count
+Count
 ]
 void
 (
@@ -642,8 +646,7 @@ void
 const
 T
 *
-unsigned
-int
+size_t
 )
 T
 (
@@ -663,7 +666,7 @@ arraySize
 =
 2
 *
-count
+Count
 ;
 const
 size_t
@@ -743,7 +746,7 @@ nValues
 ;
 nValues
 <
-count
+Count
 ;
 +
 +
@@ -890,7 +893,7 @@ template
 typename
 T
 size_t
-count
+Count
 >
 void
 TestBulkSwapFromSub
@@ -905,7 +908,7 @@ T
 values
 )
 [
-count
+Count
 ]
 void
 (
@@ -918,8 +921,7 @@ T
 const
 void
 *
-unsigned
-int
+size_t
 )
 T
 (
@@ -939,7 +941,7 @@ arraySize
 =
 2
 *
-count
+Count
 ;
 const
 size_t
@@ -988,7 +990,7 @@ startPosition
 ;
 startPosition
 <
-count
+Count
 ;
 +
 +
@@ -1005,7 +1007,7 @@ nValues
 nValues
 <
 (
-count
+Count
 -
 startPosition
 )
@@ -1155,7 +1157,7 @@ template
 typename
 T
 size_t
-count
+Count
 >
 void
 TestBulkInPlaceSub
@@ -1170,7 +1172,7 @@ T
 values
 )
 [
-count
+Count
 ]
 void
 (
@@ -1181,8 +1183,7 @@ swapperFunc
 T
 *
 p
-unsigned
-int
+size_t
 )
 T
 (
@@ -1202,7 +1203,7 @@ bufferCount
 =
 4
 *
-count
+Count
 ;
 const
 size_t
@@ -1263,7 +1264,7 @@ startPosition
 ;
 startPosition
 <
-count
+Count
 ;
 +
 +
@@ -1279,7 +1280,7 @@ nValues
 ;
 nValues
 <
-count
+Count
 ;
 +
 +
@@ -1541,7 +1542,7 @@ template
 typename
 T
 size_t
-count
+Count
 >
 void
 TestBulkSwap
@@ -1553,7 +1554,7 @@ T
 bytes
 )
 [
-count
+Count
 ]
 )
 {
@@ -1672,7 +1673,7 @@ template
 typename
 T
 size_t
-count
+Count
 >
 void
 TestBulkNoSwap
@@ -1684,7 +1685,7 @@ T
 bytes
 )
 [
-count
+Count
 ]
 )
 {
@@ -1803,7 +1804,7 @@ template
 typename
 T
 size_t
-count
+Count
 >
 void
 TestBulkInPlaceSwap
@@ -1815,7 +1816,7 @@ T
 bytes
 )
 [
-count
+Count
 ]
 )
 {
@@ -1934,7 +1935,7 @@ template
 typename
 T
 size_t
-count
+Count
 >
 void
 TestBulkInPlaceNoSwap
@@ -1946,7 +1947,7 @@ T
 bytes
 )
 [
-count
+Count
 ]
 )
 {
