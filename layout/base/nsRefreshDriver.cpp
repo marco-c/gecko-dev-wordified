@@ -2395,6 +2395,12 @@ mViewManagerFlushIsPending
 =
 false
 ;
+nsCOMPtr
+<
+nsIViewManager
+>
+vm
+=
 mPresContext
 -
 >
@@ -2406,6 +2412,8 @@ GetPresShell
 GetViewManager
 (
 )
+;
+vm
 -
 >
 ProcessPendingUpdates
