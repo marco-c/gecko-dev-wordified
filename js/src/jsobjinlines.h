@@ -5235,16 +5235,6 @@ proto
 ;
 JS_ASSERT
 (
-proto
--
->
-isNative
-(
-)
-)
-;
-JS_ASSERT
-(
 parent
 )
 ;
