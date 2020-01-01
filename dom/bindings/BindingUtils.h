@@ -1038,7 +1038,7 @@ obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 /
@@ -4123,7 +4123,7 @@ scope
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 scope
 /

@@ -1453,7 +1453,7 @@ xblProto
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 xblProto
 )
@@ -1790,7 +1790,7 @@ cx
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 args
@@ -2519,7 +2519,7 @@ cx
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 &
 args

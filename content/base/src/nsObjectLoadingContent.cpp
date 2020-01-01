@@ -17971,7 +17971,7 @@ JS_GetClass
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 proto
 )

@@ -2065,7 +2065,7 @@ objArg
 ;
 obj
 =
-UnwrapObject
+UncheckedUnwrap
 (
 obj
 )

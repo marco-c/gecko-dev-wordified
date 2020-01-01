@@ -2498,7 +2498,7 @@ security
 wrappers
 .
 *
-UnwrapObjectChecked
+CheckedUnwrap
 does
 the
 right
@@ -2671,7 +2671,7 @@ obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 /
@@ -5438,7 +5438,7 @@ obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 )
@@ -5573,7 +5573,7 @@ obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 )

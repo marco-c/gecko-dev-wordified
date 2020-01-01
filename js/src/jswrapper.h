@@ -334,7 +334,7 @@ underlying
 object
 (
 via
-UnwrapObjectChecked
+CheckedUnwrap
 )
 will
 throw
@@ -1672,7 +1672,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-UnwrapObject
+UncheckedUnwrap
 (
 JSObject
 *
@@ -1742,7 +1742,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-UnwrapObjectChecked
+CheckedUnwrap
 (
 RawObject
 obj
