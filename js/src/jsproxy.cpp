@@ -10289,13 +10289,6 @@ newborn
 return
 false
 ;
-AutoObjectRooter
-tvr2
-(
-cx
-newborn
-)
-;
 if
 (
 clasp

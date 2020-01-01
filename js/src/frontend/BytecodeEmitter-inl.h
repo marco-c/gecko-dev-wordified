@@ -578,6 +578,15 @@ prs
 >
 context
 )
+bindingsRoot
+(
+prs
+-
+>
+context
+&
+bindings
+)
 sharpSlotBase
 (
 -

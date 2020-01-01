@@ -34775,13 +34775,6 @@ qn
 return
 JS_FALSE
 ;
-AutoObjectRooter
-tvr
-(
-cx
-qn
-)
-;
 jsid
 id
 =
