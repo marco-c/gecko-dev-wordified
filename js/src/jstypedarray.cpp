@@ -1569,7 +1569,7 @@ if
 empty
 )
 return
-false
+NULL
 ;
 obj
 -
@@ -8330,7 +8330,7 @@ if
 empty
 )
 return
-false
+NULL
 ;
 obj
 -
