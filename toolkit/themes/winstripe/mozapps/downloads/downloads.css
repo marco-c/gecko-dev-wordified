@@ -485,3 +485,14 @@ start
 5px
 ;
 }
+#
+searchbox
+[
+empty
+]
+{
+color
+:
+GrayText
+;
+}
