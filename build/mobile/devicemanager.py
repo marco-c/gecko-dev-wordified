@@ -1271,6 +1271,11 @@ recvGuard
 )
 :
           
+temp
+=
+'
+'
+          
 if
 (
 self
@@ -1465,10 +1470,19 @@ guard
 prevents
 that
           
-loopguard
+if
+(
+temp
 =
+=
+'
+'
+)
+:
+            
 loopguard
 +
+=
 1
     
 #
