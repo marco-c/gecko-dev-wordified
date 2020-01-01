@@ -10265,7 +10265,15 @@ Resume
 ;
 if
 (
-IsPotentiallyPlaying
+!
+mPaused
+&
+&
+!
+mDecoder
+-
+>
+IsEnded
 (
 )
 )
