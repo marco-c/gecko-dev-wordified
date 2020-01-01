@@ -323,10 +323,7 @@ HasValidDimensions
 const
 ;
 virtual
-mozilla
-:
-:
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
@@ -388,7 +385,7 @@ PatternContentUnits
 ;
 already_AddRefed
 <
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 >
 PatternTransform
 (
