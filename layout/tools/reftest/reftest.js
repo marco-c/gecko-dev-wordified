@@ -7443,6 +7443,10 @@ n
 "
 )
 ;
+gCurrentCanvas
+=
+null
+;
 FinishTestItem
 (
 )
