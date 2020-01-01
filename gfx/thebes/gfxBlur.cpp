@@ -518,7 +518,7 @@ aRect
 ;
 rect
 .
-Outset
+Inflate
 (
 aBlurRadius
 +
@@ -581,7 +581,7 @@ rect
 ;
 requiredBlurArea
 .
-Outset
+Inflate
 (
 aBlurRadius
 +
@@ -721,7 +721,7 @@ RoundIn
 ;
 skipRect
 .
-Inset
+Deflate
 (
 aBlurRadius
 +

@@ -1915,7 +1915,7 @@ coordinate
 .
 imageSpaceClipExtents
 .
-Outset
+Inflate
 (
 1
 .

@@ -3391,7 +3391,7 @@ drawingRect
 ;
 affectedRect
 .
-Outset
+Inflate
 (
 filterRadius
 )
@@ -3579,7 +3579,7 @@ footprint
 .
 clipExtents
 .
-Outset
+Inflate
 (
 filterRadius
 )
