@@ -2496,6 +2496,7 @@ NPPluginData
 typedef
 NPError
 (
+OSCALL
 *
 NP_GetPluginDataFunc
 )
@@ -2518,6 +2519,7 @@ endif
 typedef
 NPError
 (
+OSCALL
 *
 NP_GetEntryPointsFunc
 )
@@ -2538,6 +2540,7 @@ pFuncs
 typedef
 NPError
 (
+OSCALL
 *
 NP_InitializeFunc
 )
@@ -2558,6 +2561,7 @@ bFuncs
 typedef
 NPError
 (
+OSCALL
 *
 NP_ShutdownFunc
 )
