@@ -3704,7 +3704,7 @@ IntersectClip
 aFrame
 -
 >
-GetVisualOverflowRect
+GetVisualOverflowRectRelativeToSelf
 (
 )
 +
