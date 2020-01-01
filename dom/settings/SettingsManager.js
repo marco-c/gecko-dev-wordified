@@ -2457,6 +2457,10 @@ MozSettingsEvent
 "
 settingchanged
 "
+this
+.
+_wrap
+(
 {
 settingName
 :
@@ -2469,6 +2473,7 @@ msg
 .
 value
 }
+)
 )
 ;
 this
