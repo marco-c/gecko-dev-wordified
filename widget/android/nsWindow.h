@@ -872,12 +872,6 @@ aNewParent
 ifdef
 MOZ_JAVA_COMPOSITOR
 virtual
-bool
-NeedsPaint
-(
-)
-;
-virtual
 void
 DrawWindowUnderlay
 (
