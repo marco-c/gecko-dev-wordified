@@ -849,7 +849,7 @@ tests
 /
 TestRunner
 .
-loops
+repeat
 =
 0
 ;
@@ -1633,7 +1633,7 @@ numLoops
 =
 TestRunner
 .
-loops
+repeat
 ;
 var
 completed
@@ -1748,7 +1748,7 @@ if
 (
 TestRunner
 .
-loops
+repeat
 =
 =
 completed
@@ -2245,11 +2245,12 @@ if
 (
 TestRunner
 .
-loops
+repeat
 =
 =
 0
 )
+{
 TestRunner
 .
 log
@@ -2260,11 +2261,12 @@ FINISHED
 "
 )
 ;
+}
 if
 (
 TestRunner
 .
-loops
+repeat
 =
 =
 0
@@ -2290,7 +2292,7 @@ _currentLoop
 <
 TestRunner
 .
-loops
+repeat
 )
 {
 TestRunner
@@ -3580,7 +3582,7 @@ if
 (
 TestRunner
 .
-loops
+repeat
 >
 0
 )
