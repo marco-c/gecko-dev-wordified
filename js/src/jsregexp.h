@@ -1196,9 +1196,9 @@ RegExpStatics
 *
 extractFrom
 (
-GlobalObject
+JSObject
 *
-globalObj
+global
 )
 ;
 /

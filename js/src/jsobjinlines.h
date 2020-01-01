@@ -564,13 +564,6 @@ h
 #
 include
 "
-GlobalObject
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h
