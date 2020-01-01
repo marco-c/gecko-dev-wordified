@@ -659,7 +659,6 @@ TIMEOUT_SECONDS
 1000
 )
 ;
-;
 }
 }
 }

@@ -3394,7 +3394,6 @@ useSystemDefault
 "
 )
 ;
-;
 if
 (
 this

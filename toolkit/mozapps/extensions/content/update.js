@@ -3095,7 +3095,6 @@ listitem
 "
 )
 ;
-;
 for
 (
 var
@@ -3290,7 +3289,6 @@ getElementsByTagName
 listitem
 "
 )
-;
 ;
 for
 (
