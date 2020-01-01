@@ -1296,6 +1296,15 @@ js_value_str
 valueAtom
 *
 /
+"
+use
+strict
+"
+/
+*
+useStrictAtom
+*
+/
 #
 if
 JS_HAS_XML_SUPPORT

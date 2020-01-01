@@ -1963,6 +1963,10 @@ JSAtom
 *
 valueAtom
 ;
+JSAtom
+*
+useStrictAtom
+;
 #
 if
 JS_HAS_XML_SUPPORT
