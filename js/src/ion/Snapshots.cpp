@@ -3506,7 +3506,7 @@ addSlot
 JSValueType
 type
 int32
-stackOffset
+stackIndex
 )
 {
 IonSpew
@@ -3530,7 +3530,7 @@ ValTypeToString
 (
 type
 )
-stackOffset
+stackIndex
 )
 ;
 if
@@ -3563,7 +3563,7 @@ writer_
 .
 writeSigned
 (
-stackOffset
+stackIndex
 )
 ;
 }
@@ -3662,7 +3662,7 @@ Register
 &
 type
 int32
-payloadStackOffset
+payloadStackIndex
 )
 {
 IonSpew
@@ -3691,7 +3691,7 @@ type
 name
 (
 )
-payloadStackOffset
+payloadStackIndex
 )
 ;
 writeSlotHeader
@@ -3715,7 +3715,7 @@ writer_
 .
 writeSigned
 (
-payloadStackOffset
+payloadStackIndex
 )
 ;
 }
@@ -3726,7 +3726,7 @@ SnapshotWriter
 addSlot
 (
 int32
-typeStackOffset
+typeStackIndex
 const
 Register
 &
@@ -3754,7 +3754,7 @@ s
 )
 "
 slotsWritten_
-typeStackOffset
+typeStackIndex
 payload
 .
 name
@@ -3772,7 +3772,7 @@ writer_
 .
 writeSigned
 (
-typeStackOffset
+typeStackIndex
 )
 ;
 writer_
@@ -3794,9 +3794,9 @@ SnapshotWriter
 addSlot
 (
 int32
-typeStackOffset
+typeStackIndex
 int32
-payloadStackOffset
+payloadStackIndex
 )
 {
 IonSpew
@@ -3820,8 +3820,8 @@ d
 )
 "
 slotsWritten_
-typeStackOffset
-payloadStackOffset
+typeStackIndex
+payloadStackIndex
 )
 ;
 writeSlotHeader
@@ -3834,14 +3834,14 @@ writer_
 .
 writeSigned
 (
-typeStackOffset
+typeStackIndex
 )
 ;
 writer_
 .
 writeSigned
 (
-payloadStackOffset
+payloadStackIndex
 )
 ;
 }
