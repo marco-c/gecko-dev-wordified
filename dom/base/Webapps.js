@@ -1602,6 +1602,10 @@ _origin
 startPoint
 :
 aStartPoint
+|
+|
+"
+"
 oid
 :
 this
