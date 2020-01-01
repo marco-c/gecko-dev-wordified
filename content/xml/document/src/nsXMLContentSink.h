@@ -667,17 +667,6 @@ IsScriptExecuting
 (
 )
 ;
-virtual
-void
-ScrollToRef
-(
-)
-{
-ScrollToRefImpl
-(
-)
-;
-}
 /
 /
 nsITransformObserver

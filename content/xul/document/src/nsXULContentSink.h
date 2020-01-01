@@ -629,13 +629,6 @@ GetTarget
 (
 )
 ;
-virtual
-void
-ScrollToRef
-(
-)
-{
-}
 /
 *
 *

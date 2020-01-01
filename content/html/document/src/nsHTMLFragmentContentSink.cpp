@@ -919,13 +919,6 @@ return
 mTargetDocument
 ;
 }
-virtual
-void
-ScrollToRef
-(
-)
-{
-}
 /
 /
 nsIHTMLContentSink

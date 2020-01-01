@@ -981,17 +981,6 @@ GetTarget
 (
 )
 ;
-virtual
-void
-ScrollToRef
-(
-)
-{
-ScrollToRefImpl
-(
-)
-;
-}
 /
 /
 nsContentSink
