@@ -427,6 +427,13 @@ _moz_dirty
 )
 GK_ATOM
 (
+mozdisallowselectionprint
+"
+mozdisallowselectionprint
+"
+)
+GK_ATOM
+(
 mozdonotsend
 "
 moz
