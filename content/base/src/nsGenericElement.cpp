@@ -326,13 +326,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsDOMCID
 .
 h
