@@ -916,10 +916,6 @@ DOMCI_CLASS
 (
 SVGUnknownElement
 )
-DOMCI_CLASS
-(
-SVGViewElement
-)
 /
 /
 other
