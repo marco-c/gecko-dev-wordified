@@ -27891,7 +27891,6 @@ securityCallbacks
 CheckObjectAccess
 NULL
 NULL
-NULL
 }
 ;
 int

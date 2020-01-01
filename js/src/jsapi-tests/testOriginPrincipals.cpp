@@ -102,7 +102,6 @@ seccb
 =
 {
 NULL
-NULL
 ObjectPrincipalsFinder
 NULL
 }

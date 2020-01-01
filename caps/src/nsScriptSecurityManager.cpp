@@ -16852,10 +16852,6 @@ securityCallbacks
 =
 {
 CheckObjectAccess
-nsJSPrincipals
-:
-:
-Subsume
 ObjectPrincipalFinder
 ContentSecurityPolicyPermitsJSAction
 }
