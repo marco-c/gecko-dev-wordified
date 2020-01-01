@@ -1991,6 +1991,15 @@ done
 +
 iter
 ;
+if
+(
+iter
+.
+isScript
+(
+)
+)
+{
 JSScript
 *
 script
@@ -2027,6 +2036,7 @@ setUseNewType
 (
 )
 ;
+}
 }
 }
 #
@@ -2516,7 +2526,7 @@ bool
 js
 :
 :
-Invoke
+InvokeKernel
 (
 JSContext
 *
@@ -3158,7 +3168,7 @@ bool
 js
 :
 :
-InvokeConstructor
+InvokeConstructorKernel
 (
 JSContext
 *
@@ -3316,7 +3326,7 @@ CONSTRUCT
 if
 (
 !
-Invoke
+InvokeKernel
 (
 cx
 args
@@ -14745,7 +14755,7 @@ else
 if
 (
 !
-Invoke
+InvokeKernel
 (
 cx
 args
@@ -15076,7 +15086,7 @@ construct
 if
 (
 !
-InvokeConstructor
+InvokeConstructorKernel
 (
 cx
 args
@@ -15091,7 +15101,7 @@ else
 if
 (
 !
-Invoke
+InvokeKernel
 (
 cx
 args
