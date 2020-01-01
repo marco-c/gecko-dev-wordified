@@ -1598,13 +1598,12 @@ com
 ;
 /
 /
-by
+By
 default
-browser
-.
-history_expire_days
+history
 is
-9
+enabled
+.
 do_check_true
 (
 !
