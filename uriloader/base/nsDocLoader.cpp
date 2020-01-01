@@ -6272,7 +6272,7 @@ known
 /
 if
 (
-nsUint64
+PRUint64
 (
 aProgressMax
 )

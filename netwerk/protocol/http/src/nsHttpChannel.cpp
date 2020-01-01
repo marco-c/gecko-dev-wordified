@@ -34621,7 +34621,7 @@ to
 use
 here
 .
-nsUint64
+PRUint64
 progressMax
 (
 PRUint64
@@ -34635,12 +34635,12 @@ ContentLength
 )
 )
 ;
-nsUint64
+PRUint64
 progress
 =
 mLogicalOffset
 +
-nsUint64
+PRUint64
 (
 count
 )

@@ -6273,11 +6273,11 @@ OnProgressChange
 (
 nsnull
 request
-nsUint64
+PRUint64
 (
 aProgress
 )
-nsUint64
+PRUint64
 (
 aProgressMax
 )

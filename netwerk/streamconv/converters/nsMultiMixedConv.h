@@ -665,7 +665,7 @@ mContentCharset
 nsCString
 mContentDisposition
 ;
-nsUint64
+PRUint64
 mContentLength
 ;
 PRBool
@@ -1295,7 +1295,7 @@ mContentType
 nsCString
 mContentDisposition
 ;
-nsUint64
+PRUint64
 mContentLength
 ;
 char
@@ -1305,7 +1305,7 @@ mBuffer
 PRUint32
 mBufLen
 ;
-nsUint64
+PRUint64
 mTotalSent
 ;
 PRBool

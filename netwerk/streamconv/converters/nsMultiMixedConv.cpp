@@ -4374,7 +4374,7 @@ wrong
 if
 (
 (
-nsUint64
+PRUint64
 (
 aLen
 )
