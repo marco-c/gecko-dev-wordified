@@ -5464,6 +5464,9 @@ rv
 ;
 if
 (
+migrated
+&
+&
 *
 aMadeChanges
 !
