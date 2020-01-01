@@ -336,14 +336,6 @@ table
 offset
 (
 )
-+
-sizeof
-(
-index
--
->
-count
-)
 ;
 return
 true
