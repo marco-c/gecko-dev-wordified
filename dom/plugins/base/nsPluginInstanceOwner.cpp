@@ -10496,12 +10496,6 @@ jobject
 mJavaView
 aRect
 mFullScreen
-mInstance
--
->
-FullScreenOrientation
-(
-)
 )
 ;
 if

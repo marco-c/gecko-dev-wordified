@@ -10655,8 +10655,6 @@ int
 h
 boolean
 isFullScreen
-int
-orientation
 )
 {
 ImmutableViewportMetrics
@@ -10708,13 +10706,6 @@ fullscreen
 "
 +
 isFullScreen
-+
-"
-orientation
-:
-"
-+
-orientation
 )
 ;
 GeckoApp
@@ -10737,7 +10728,6 @@ y
 h
 )
 isFullScreen
-orientation
 )
 ;
 }

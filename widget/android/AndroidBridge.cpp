@@ -2818,7 +2818,7 @@ view
 /
 View
 ;
-IIIIZI
+IIIIZ
 )
 V
 "
@@ -14146,8 +14146,6 @@ gfxRect
 rect
 bool
 isFullScreen
-int
-orientation
 )
 {
 JNIEnv
@@ -14213,7 +14211,6 @@ rect
 .
 height
 isFullScreen
-orientation
 )
 ;
 #
