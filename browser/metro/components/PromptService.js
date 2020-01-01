@@ -3294,16 +3294,6 @@ button
 "
 )
 ;
-button
-.
-className
-=
-"
-prompt
--
-button
-"
-;
 this
 .
 setLabelForNode
