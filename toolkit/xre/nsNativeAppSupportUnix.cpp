@@ -1607,13 +1607,7 @@ window
 ;
 GetMostRecentWindow
 (
-NS_LITERAL_STRING
-(
-"
-"
-)
-.
-get
+EmptyString
 (
 )
 getter_AddRefs

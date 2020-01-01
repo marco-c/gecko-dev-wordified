@@ -6353,10 +6353,8 @@ result
 >
 SetAsAString
 (
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
 )
 ;
