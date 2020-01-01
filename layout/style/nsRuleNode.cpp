@@ -26565,14 +26565,9 @@ false
 const
 nsCSSValuePair
 &
-textOverflowValue
+textOverflowValuePair
 =
-aRuleData
--
->
-ValueForTextOverflow
-(
-)
+textOverflowValue
 -
 >
 GetPairValue
@@ -26585,7 +26580,7 @@ nsCSSValue
 textOverflowLeftValue
 =
 &
-textOverflowValue
+textOverflowValuePair
 .
 mXValue
 ;
@@ -26692,7 +26687,7 @@ nsCSSValue
 textOverflowRightValue
 =
 &
-textOverflowValue
+textOverflowValuePair
 .
 mYValue
 ;
