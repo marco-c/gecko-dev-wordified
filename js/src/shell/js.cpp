@@ -19923,6 +19923,11 @@ ugliness
 !
 *
 /
+if
+(
+parent
+)
+{
 JSClass
 *
 clasp
@@ -19978,6 +19983,7 @@ parent
 )
 )
 ;
+}
 }
 return
 JS_TRUE
