@@ -6888,6 +6888,11 @@ during
 GC
 )
 .
+MOZ_ASSERT
+(
+priv
+)
+;
 nsAutoPtr
 <
 xpc
