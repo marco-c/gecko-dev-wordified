@@ -622,7 +622,7 @@ mReflowState
 (
 aReflowState
 )
-mFloatContinuations
+mPushedFloats
 (
 nsnull
 )
@@ -3064,7 +3064,7 @@ void
 nsBlockReflowState
 :
 :
-SetupFloatContinuationList
+SetupPushedFloatList
 (
 )
 {
@@ -3078,7 +3078,7 @@ BRS_PROPTABLE_FLOATCLIST
 =
 =
 !
-mFloatContinuations
+mPushedFloats
 "
 flag
 mismatch
@@ -3119,8 +3119,8 @@ been
 /
 reflowed
 some
-float
-continuations
+pushed
+floats
 from
 our
 previous
@@ -3132,8 +3132,8 @@ still
 be
 on
 our
-float
-continuations
+pushed
+floats
 list
 .
 However
@@ -3183,12 +3183,12 @@ are
 reflowed
 .
 )
-mFloatContinuations
+mPushedFloats
 =
 mBlock
 -
 >
-EnsureFloatContinuations
+EnsurePushedFloats
 (
 )
 ;
@@ -4146,7 +4146,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 "
 float
@@ -4162,8 +4162,8 @@ marked
 as
 "
 "
+pushed
 float
-continuation
 "
 )
 ;
@@ -4176,7 +4176,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 {
 /
@@ -4280,7 +4280,7 @@ aFloat
 >
 RemoveStateBits
 (
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 ;
 /
@@ -7233,8 +7233,8 @@ the
 float
 on
 the
-float
-continuations
+pushed
+floats
 list
 even
 though
@@ -7273,7 +7273,7 @@ succeed
 "
 )
 ;
-AppendFloatContinuation
+AppendPushedFloat
 (
 aFloat
 )
