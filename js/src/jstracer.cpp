@@ -1227,9 +1227,12 @@ i
 {
 if
 (
+JS_LIKELY
+(
 INT_FITS_IN_JSVAL
 (
 i
+)
 )
 )
 return
@@ -1265,9 +1268,12 @@ v
 {
 if
 (
+JS_LIKELY
+(
 JSVAL_IS_INT
 (
 v
+)
 )
 )
 return
