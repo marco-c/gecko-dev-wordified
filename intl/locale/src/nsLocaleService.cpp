@@ -1309,7 +1309,7 @@ lc_temp
 ;
 category
 .
-AssignWithConversion
+AssignASCII
 (
 LocaleList
 [
@@ -1725,12 +1725,8 @@ i
 +
 )
 {
-nsString
+NS_ConvertASCIItoUTF16
 category
-;
-category
-.
-AssignWithConversion
 (
 LocaleList
 [

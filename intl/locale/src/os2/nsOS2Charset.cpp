@@ -1080,7 +1080,7 @@ nsPlatformCharset
 :
 ConvertLocaleToCharsetUsingDeprecatedConfig
 (
-nsAString
+nsACString
 &
 locale
 nsACString
