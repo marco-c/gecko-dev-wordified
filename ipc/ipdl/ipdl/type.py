@@ -1556,6 +1556,15 @@ protocol
 fullname
 (
 )
+    
+def
+isUnionType
+(
+self
+)
+:
+return
+False
 class
 UnionType
 (
