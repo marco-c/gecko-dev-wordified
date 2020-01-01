@@ -1843,10 +1843,11 @@ pobj
 ;
 pobj
 =
-OBJ_GET_PROTO
-(
-cx
 pobj
+-
+>
+getProto
+(
 )
 )
 {

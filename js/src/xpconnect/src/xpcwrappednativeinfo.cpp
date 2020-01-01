@@ -1472,9 +1472,11 @@ STOBJ_CLEAR_PARENT
 funobj
 )
 ;
-STOBJ_CLEAR_PROTO
-(
 funobj
+-
+>
+clearProto
+(
 )
 ;
 if

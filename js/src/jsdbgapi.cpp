@@ -9099,7 +9099,7 @@ sprop
 id
 )
 ;
-bool
+JSBool
 wasThrowing
 =
 cx

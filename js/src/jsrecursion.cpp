@@ -2053,6 +2053,8 @@ fi
 >
 set_argc
 (
+uint16
+(
 cx
 -
 >
@@ -2060,6 +2062,7 @@ fp
 -
 >
 argc
+)
 false
 )
 ;

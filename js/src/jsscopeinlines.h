@@ -943,6 +943,8 @@ funobj
 )
 ;
 return
+!
+!
 js_SetPropertyHelper
 (
 cx

@@ -2897,6 +2897,8 @@ hasPrevUnmarked
 const
 {
 return
+!
+!
 info
 .
 prevUnmarkedPage
@@ -3865,6 +3867,8 @@ thing
 )
 ;
 return
+!
+!
 JS_TEST_BIT
 (
 a
@@ -3912,6 +3916,8 @@ thingOffset
 GC_CELL_SHIFT
 ;
 return
+!
+!
 JS_TEST_BIT
 (
 a
@@ -7228,12 +7234,15 @@ nthings
 sumTotalThingSize
 +
 =
+size_t
+(
 thingSize
 *
 st
 -
 >
 totalthings
+)
 ;
 sumArenaCapacity
 +

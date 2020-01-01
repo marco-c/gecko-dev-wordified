@@ -2674,7 +2674,7 @@ jsval
 vp
 )
 {
-char
+size_t
 thousandsLength
 decimalLength
 ;
@@ -5458,6 +5458,8 @@ JSString
 :
 unitString
 (
+jschar
+(
 '
 a
 '
@@ -5465,6 +5467,7 @@ a
 i
 -
 10
+)
 )
 ;
 }

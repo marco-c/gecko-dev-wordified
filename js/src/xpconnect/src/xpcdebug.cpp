@@ -2971,9 +2971,11 @@ JSObject
 *
 proto
 =
-STOBJ_GET_PROTO
-(
 obj
+-
+>
+getProto
+(
 )
 ;
 printf
