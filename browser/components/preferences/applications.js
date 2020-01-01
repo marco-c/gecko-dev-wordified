@@ -8490,7 +8490,7 @@ _prefsBundle
 getString
 (
 "
-saveToDisk
+saveFile
 "
 )
 ;
@@ -9774,7 +9774,7 @@ _prefsBundle
 getString
 (
 "
-saveToDisk
+saveFile
 "
 )
 )
