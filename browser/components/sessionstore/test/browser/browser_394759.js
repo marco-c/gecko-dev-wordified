@@ -660,6 +660,12 @@ gBrowser
 addTab
 (
 )
+.
+linkedBrowser
+.
+stop
+(
+)
 ;
 executeSoon
 (

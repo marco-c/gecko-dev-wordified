@@ -438,6 +438,14 @@ addTab
 (
 )
 ;
+tab
+.
+linkedBrowser
+.
+stop
+(
+)
+;
 let
 tabState
 =

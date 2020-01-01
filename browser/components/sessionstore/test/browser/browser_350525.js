@@ -418,6 +418,14 @@ addTab
 (
 )
 ;
+tab
+.
+linkedBrowser
+.
+stop
+(
+)
+;
 /
 /
 test

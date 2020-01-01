@@ -507,6 +507,14 @@ addTab
 (
 )
 ;
+tab
+.
+linkedBrowser
+.
+stop
+(
+)
+;
 ss
 .
 setTabValue
