@@ -699,16 +699,6 @@ delete
 mNext
 ;
 }
-virtual
-void
-Destroy
-(
-PRBool
-aIsCompiled
-)
-=
-0
-;
 nsXBLProtoImplMember
 *
 GetNext
