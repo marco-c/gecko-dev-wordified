@@ -30494,10 +30494,9 @@ this
 aDisplayItemKey
 )
 ;
-InvalidateFrameInternal
+InvalidateFrame
 (
-this
-hasDisplayItem
+aDisplayItemKey
 )
 ;
 if
