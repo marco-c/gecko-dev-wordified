@@ -15068,12 +15068,6 @@ NS_FAILED
 (
 rv
 )
-&
-&
-rv
-!
-=
-NS_ERROR_XBL_BLOCKED
 )
 return
 NS_OK
@@ -15137,6 +15131,7 @@ AddToAttachedQueue
 binding
 )
 ;
+}
 if
 (
 resolveStyle
@@ -15167,7 +15162,6 @@ GetStyleDisplay
 (
 )
 ;
-}
 }
 }
 /
@@ -31157,12 +31151,6 @@ NS_FAILED
 (
 rv
 )
-&
-&
-rv
-!
-=
-NS_ERROR_XBL_BLOCKED
 )
 return
 ;
@@ -31196,6 +31184,7 @@ forget
 )
 )
 ;
+}
 if
 (
 resolveStyle
@@ -31245,7 +31234,6 @@ aContent
 aNameSpaceID
 )
 ;
-}
 }
 PRBool
 isGeneratedContent
