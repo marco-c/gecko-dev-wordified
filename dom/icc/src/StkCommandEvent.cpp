@@ -144,6 +144,7 @@ StkCommandEvent
 :
 Create
 (
+const
 nsAString
 &
 aMessage
