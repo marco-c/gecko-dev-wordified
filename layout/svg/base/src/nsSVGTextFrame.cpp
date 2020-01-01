@@ -2474,4 +2474,12 @@ firstFragment
 fragment
 ;
 }
+nsSVGUtils
+:
+:
+UpdateGraphic
+(
+this
+)
+;
 }

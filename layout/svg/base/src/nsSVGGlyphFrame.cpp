@@ -5840,14 +5840,6 @@ aForceGlobalTransform
 )
 )
 ;
-nsSVGUtils
-:
-:
-UpdateGraphic
-(
-this
-)
-;
 }
 NS_IMETHODIMP
 nsSVGGlyphFrame
