@@ -12831,6 +12831,12 @@ nsnull
 status
 )
 ;
+aVisitor
+.
+mEventStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
 }
 /
 /
@@ -13870,6 +13876,12 @@ event
 &
 status
 )
+;
+aVisitor
+.
+mEventStatus
+=
+nsEventStatus_eConsumeNoDefault
 ;
 }
 }
