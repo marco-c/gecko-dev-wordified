@@ -2575,13 +2575,10 @@ CreateScopeTable
 cx
 -
 >
-runtime
--
->
-gcMallocBytes
-+
-=
+updateMallocCounter
+(
 nbytes
+)
 ;
 /
 *
