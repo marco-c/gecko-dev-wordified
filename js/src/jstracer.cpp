@@ -44776,6 +44776,7 @@ upheld
 *
 /
 static
+JS_REQUIRES_STACK
 JS_ALWAYS_INLINE
 bool
 ScopeChainCheck
