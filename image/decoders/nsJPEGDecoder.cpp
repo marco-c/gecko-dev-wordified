@@ -94,14 +94,14 @@ MPL
 #
 include
 "
-nsJPEGDecoder
+ImageLogging
 .
 h
 "
 #
 include
 "
-ImageLogging
+nsJPEGDecoder
 .
 h
 "
