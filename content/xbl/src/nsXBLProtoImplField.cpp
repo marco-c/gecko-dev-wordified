@@ -487,6 +487,15 @@ h
 #
 include
 "
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
+include
+"
 nsXBLProtoImplField
 .
 h
@@ -746,6 +755,11 @@ aDidInstall
 )
 const
 {
+NS_TIME_FUNCTION_MIN
+(
+5
+)
+;
 NS_PRECONDITION
 (
 aBoundNode

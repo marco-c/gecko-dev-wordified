@@ -554,6 +554,15 @@ h
 #
 include
 "
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
+include
+"
 nsIDocumentViewerPrint
 .
 h
@@ -5719,6 +5728,8 @@ nsresult
 aStatus
 )
 {
+NS_TIME_FUNCTION
+;
 /
 *
 We

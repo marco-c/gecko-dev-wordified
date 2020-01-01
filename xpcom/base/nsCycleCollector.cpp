@@ -1421,6 +1421,15 @@ h
 #
 include
 "
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
@@ -14026,6 +14035,8 @@ mCollectionInProgress
 )
 return
 0
+;
+NS_TIME_FUNCTION
 ;
 #
 ifdef

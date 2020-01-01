@@ -487,6 +487,15 @@ h
 #
 include
 "
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h
@@ -1099,6 +1108,11 @@ void
 aClassObject
 )
 {
+NS_TIME_FUNCTION_MIN
+(
+5
+)
+;
 NS_PRECONDITION
 (
 !

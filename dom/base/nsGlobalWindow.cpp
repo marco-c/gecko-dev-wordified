@@ -1358,6 +1358,15 @@ h
 #
 include
 "
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
+include
+"
 nsCDefaultURIFixup
 .
 h
@@ -9000,6 +9009,8 @@ nsISupports
 aState
 )
 {
+NS_TIME_FUNCTION
+;
 NS_PRECONDITION
 (
 mDocumentPrincipal
