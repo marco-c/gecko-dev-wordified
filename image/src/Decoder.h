@@ -465,7 +465,7 @@ get
 refcounts
 by
 default
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 Decoder
 )
@@ -575,6 +575,16 @@ aSynchronous
 mSynchronous
 =
 aSynchronous
+;
+}
+bool
+IsSynchronous
+(
+)
+const
+{
+return
+mSynchronous
 ;
 }
 void
