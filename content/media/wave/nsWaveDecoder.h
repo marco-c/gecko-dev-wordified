@@ -936,7 +936,7 @@ Pause
 )
 Seek
 (
-float
+double
 )
 The
 decoder
@@ -1112,7 +1112,7 @@ in
 seconds
 .
 virtual
-float
+double
 GetCurrentTime
 (
 )
@@ -1131,7 +1131,7 @@ in
 seconds
 .
 virtual
-float
+double
 GetDuration
 (
 )
@@ -1161,7 +1161,7 @@ virtual
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 ;
@@ -1217,7 +1217,7 @@ virtual
 nsresult
 Seek
 (
-float
+double
 aTime
 )
 ;
@@ -1836,7 +1836,7 @@ be
 initialized
 with
 .
-float
+double
 mInitialVolume
 ;
 /
@@ -1965,7 +1965,7 @@ main
 thread
 only
 .
-float
+double
 mCurrentTime
 ;
 /
@@ -2007,7 +2007,7 @@ has
 been
 destroyed
 .
-float
+double
 mEndedDuration
 ;
 PRPackedBool

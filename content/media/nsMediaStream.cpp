@@ -1629,7 +1629,7 @@ rv
 )
 )
 {
-float
+double
 duration
 =
 durationText

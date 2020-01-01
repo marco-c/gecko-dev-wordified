@@ -2428,6 +2428,7 @@ video
 >
 mEndTime
 <
+=
 aTarget
 )
 {

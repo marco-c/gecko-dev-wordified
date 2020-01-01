@@ -2977,7 +2977,7 @@ PRUint32
 channels
 rate
 ;
-float
+double
 volume
 =
 -
@@ -5418,7 +5418,7 @@ nsBuiltinDecoderStateMachine
 :
 SetVolume
 (
-float
+double
 volume
 )
 {
@@ -5453,7 +5453,7 @@ mVolume
 volume
 ;
 }
-float
+double
 nsBuiltinDecoderStateMachine
 :
 :
@@ -5488,10 +5488,13 @@ AssertCurrentThreadIn
 )
 ;
 return
+static_cast
+<
+double
+>
 (
-float
-)
 mCurrentFrameTime
+)
 /
 1000
 .
@@ -5915,7 +5918,7 @@ nsBuiltinDecoderStateMachine
 :
 Seek
 (
-float
+double
 aTime
 )
 {
@@ -7851,6 +7854,11 @@ mVideoQueue
 .
 PopFront
 (
+)
+;
+UpdatePlaybackPosition
+(
+seekTime
 )
 ;
 }

@@ -883,7 +883,7 @@ in
 seconds
 .
 virtual
-float
+double
 GetCurrentTime
 (
 )
@@ -912,8 +912,8 @@ virtual
 nsresult
 Seek
 (
-float
-time
+double
+aTime
 )
 =
 0
@@ -971,7 +971,7 @@ in
 seconds
 .
 virtual
-float
+double
 GetDuration
 (
 )
@@ -1015,8 +1015,8 @@ virtual
 void
 SetVolume
 (
-float
-volume
+double
+aVolume
 )
 =
 0

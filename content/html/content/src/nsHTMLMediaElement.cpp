@@ -6490,7 +6490,7 @@ NS_OK
 /
 *
 attribute
-float
+double
 currentTime
 ;
 *
@@ -6501,7 +6501,7 @@ nsHTMLMediaElement
 :
 GetCurrentTime
 (
-float
+double
 *
 aCurrentTime
 )
@@ -6532,7 +6532,7 @@ nsHTMLMediaElement
 :
 SetCurrentTime
 (
-float
+double
 aCurrentTime
 )
 {
@@ -6668,18 +6668,18 @@ required
 by
 the
 spec
-float
+double
 clampedTime
 =
 NS_MAX
 (
 0
 .
-0f
+0
 aCurrentTime
 )
 ;
-float
+double
 duration
 =
 mDecoder
@@ -6796,7 +6796,7 @@ rv
 *
 readonly
 attribute
-float
+double
 duration
 ;
 *
@@ -6807,7 +6807,7 @@ nsHTMLMediaElement
 :
 GetDuration
 (
-float
+double
 *
 aDuration
 )
@@ -6829,7 +6829,7 @@ std
 :
 numeric_limits
 <
-float
+double
 >
 :
 :
@@ -6998,7 +6998,7 @@ NS_OK
 /
 *
 attribute
-float
+double
 volume
 ;
 *
@@ -7009,7 +7009,7 @@ nsHTMLMediaElement
 :
 GetVolume
 (
-float
+double
 *
 aVolume
 )
@@ -7029,7 +7029,7 @@ nsHTMLMediaElement
 :
 SetVolume
 (
-float
+double
 aVolume
 )
 {
@@ -10255,7 +10255,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-float
+double
 duration
 =
 aOriginal
@@ -14690,7 +14690,7 @@ Now
 (
 )
 ;
-float
+double
 time
 =
 0

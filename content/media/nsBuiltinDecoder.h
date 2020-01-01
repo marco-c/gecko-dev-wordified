@@ -998,7 +998,7 @@ decoded
 .
 Seek
 (
-float
+double
 )
 Seek
 to
@@ -1952,7 +1952,7 @@ virtual
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 =
@@ -2167,7 +2167,7 @@ virtual
 void
 Seek
 (
-float
+double
 aTime
 )
 =
@@ -2210,7 +2210,7 @@ calling
 this
 .
 virtual
-float
+double
 GetCurrentTime
 (
 )
@@ -2553,7 +2553,7 @@ Shutdown
 )
 ;
 virtual
-float
+double
 GetCurrentTime
 (
 )
@@ -2630,8 +2630,8 @@ virtual
 nsresult
 Seek
 (
-float
-time
+double
+aTime
 )
 ;
 virtual
@@ -2650,12 +2650,12 @@ virtual
 void
 SetVolume
 (
-float
-volume
+double
+aVolume
 )
 ;
 virtual
-float
+double
 GetDuration
 (
 )
@@ -4187,7 +4187,7 @@ main
 thread
 only
 .
-float
+double
 mCurrentTime
 ;
 /
@@ -4222,7 +4222,7 @@ the
 main
 thread
 .
-float
+double
 mInitialVolume
 ;
 /
@@ -4289,7 +4289,7 @@ reset
 to
 negative
 .
-float
+double
 mRequestedSeekTime
 ;
 /

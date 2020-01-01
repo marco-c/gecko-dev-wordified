@@ -469,14 +469,14 @@ h
 "
 static
 const
-float
+double
 NS_PER_S
 =
 1e9
 ;
 static
 const
-float
+double
 MS_PER_S
 =
 1e3
@@ -1608,7 +1608,7 @@ range
 duration
 ]
 .
-float
+double
 startTime
 =
 (
@@ -1626,7 +1626,7 @@ aStartTimeOffsetNS
 /
 NS_PER_S
 ;
-float
+double
 endTime
 =
 (

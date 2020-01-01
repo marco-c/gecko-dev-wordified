@@ -624,8 +624,8 @@ nsBuiltinDecoder
 :
 SetVolume
 (
-float
-volume
+double
+aVolume
 )
 {
 NS_ASSERTION
@@ -645,7 +645,7 @@ thread
 ;
 mInitialVolume
 =
-volume
+aVolume
 ;
 if
 (
@@ -657,12 +657,12 @@ mDecoderStateMachine
 >
 SetVolume
 (
-volume
+aVolume
 )
 ;
 }
 }
-float
+double
 nsBuiltinDecoder
 :
 :
@@ -696,7 +696,7 @@ mDuration
 return
 static_cast
 <
-float
+double
 >
 (
 mDuration
@@ -713,7 +713,7 @@ std
 :
 numeric_limits
 <
-float
+double
 >
 :
 :
@@ -1605,7 +1605,7 @@ nsBuiltinDecoder
 :
 Seek
 (
-float
+double
 aTime
 )
 {
@@ -1747,7 +1747,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-float
+double
 nsBuiltinDecoder
 :
 :
@@ -4095,7 +4095,7 @@ mShuttingDown
 )
 return
 ;
-float
+double
 lastTime
 =
 mCurrentTime

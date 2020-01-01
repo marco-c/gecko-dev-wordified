@@ -894,7 +894,7 @@ virtual
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 =

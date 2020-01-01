@@ -3956,7 +3956,7 @@ mLoadWaitStatus
 Current
 audio
 volume
-float
+double
 mVolume
 ;
 /
@@ -4173,7 +4173,7 @@ main
 thread
 only
 .
-float
+double
 mLastCurrentTime
 ;
 nsRefPtr

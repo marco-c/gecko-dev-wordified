@@ -727,7 +727,7 @@ Available
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 ;
@@ -931,7 +931,7 @@ Available
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 ;
@@ -1209,8 +1209,8 @@ AudioSetVolumeEvent
 AudioChild
 *
 aChild
-float
-volume
+double
+aVolume
 )
 {
 mAudioChild
@@ -1219,7 +1219,7 @@ aChild
 ;
 mVolume
 =
-volume
+aVolume
 ;
 }
 NS_IMETHOD
@@ -1258,7 +1258,7 @@ AudioChild
 >
 mAudioChild
 ;
-float
+double
 mVolume
 ;
 }
@@ -2538,7 +2538,7 @@ nsAudioStreamLocal
 :
 SetVolume
 (
-float
+double
 aVolume
 )
 {
@@ -3301,7 +3301,7 @@ nsAudioStreamRemote
 :
 SetVolume
 (
-float
+double
 aVolume
 )
 {

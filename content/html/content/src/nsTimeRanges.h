@@ -517,9 +517,9 @@ NS_DECL_NSIDOMTIMERANGES
 void
 Add
 (
-float
+double
 aStart
-float
+double
 aEnd
 )
 ;
@@ -530,9 +530,9 @@ TimeRange
 {
 TimeRange
 (
-float
+double
 aStart
-float
+double
 aEnd
 )
 :
@@ -546,10 +546,10 @@ aEnd
 )
 {
 }
-float
+double
 mStart
 ;
-float
+double
 mEnd
 ;
 }

@@ -12202,7 +12202,7 @@ Add
 (
 static_cast
 <
-float
+double
 >
 (
 startTime
@@ -12210,10 +12210,10 @@ startTime
 /
 1000
 .
-0f
+0
 static_cast
 <
-float
+double
 >
 (
 endTime
@@ -12221,7 +12221,7 @@ endTime
 /
 1000
 .
-0f
+0
 )
 ;
 }

@@ -1360,7 +1360,7 @@ virtual
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 ;
@@ -1416,12 +1416,12 @@ virtual
 void
 Seek
 (
-float
+double
 aTime
 )
 ;
 virtual
-float
+double
 GetCurrentTime
 (
 )
@@ -3989,7 +3989,7 @@ decoder
 /
 monitor
 .
-float
+double
 mVolume
 ;
 /

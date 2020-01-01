@@ -1009,7 +1009,7 @@ nsWaveDecoder
 aDecoder
 TimeDuration
 aBufferWaitTime
-float
+double
 aInitialVolume
 )
 ;
@@ -1058,7 +1058,7 @@ Threadsafe
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 ;
@@ -1097,7 +1097,7 @@ Pause
 void
 Seek
 (
-float
+double
 aTime
 )
 ;
@@ -1143,7 +1143,7 @@ completed
 .
 Threadsafe
 .
-float
+double
 GetDuration
 (
 )
@@ -1362,7 +1362,7 @@ the
 main
 thread
 .
-float
+double
 GetTimeForPositionChange
 (
 )
@@ -1867,7 +1867,7 @@ stereo
 .
 1kHz
 .
-float
+double
 BytesToTime
 (
 PRInt64
@@ -1901,7 +1901,7 @@ be
 )
 ;
 return
-float
+double
 (
 aBytes
 )
@@ -1953,7 +1953,7 @@ stereo
 PRInt64
 TimeToBytes
 (
-float
+double
 aTime
 )
 const
@@ -2591,7 +2591,7 @@ be
 initialized
 with
 .
-float
+double
 mInitialVolume
 ;
 /
@@ -2610,10 +2610,10 @@ Set
 by
 Seek
 (
-float
+double
 )
 .
-float
+double
 mSeekTime
 ;
 /
@@ -2774,7 +2774,7 @@ nsWaveDecoder
 aDecoder
 TimeDuration
 aBufferWaitTime
-float
+double
 aInitialVolume
 )
 :
@@ -2986,7 +2986,7 @@ nsWaveStateMachine
 :
 SetVolume
 (
-float
+double
 aVolume
 )
 {
@@ -3086,7 +3086,7 @@ nsWaveStateMachine
 :
 Seek
 (
-float
+double
 aTime
 )
 {
@@ -3180,7 +3180,7 @@ STATE_SEEKING
 ;
 }
 }
-float
+double
 nsWaveStateMachine
 :
 :
@@ -3214,7 +3214,7 @@ std
 :
 numeric_limits
 <
-float
+double
 >
 :
 :
@@ -3441,7 +3441,7 @@ nsHTMLMediaElement
 NEXT_FRAME_UNAVAILABLE
 ;
 }
-float
+double
 nsWaveStateMachine
 :
 :
@@ -3911,7 +3911,7 @@ len
 =
 TimeToBytes
 (
-float
+double
 (
 targetTime
 .
@@ -4044,7 +4044,7 @@ mPlaybackPosition
 +
 TimeToBytes
 (
-float
+double
 (
 mBufferingWait
 .
@@ -4380,7 +4380,7 @@ GetDuration
 )
 )
 ;
-float
+double
 seekTime
 =
 mSeekTime
@@ -7329,7 +7329,7 @@ std
 :
 numeric_limits
 <
-float
+double
 >
 :
 :
@@ -7499,7 +7499,7 @@ GetCurrentPrincipal
 )
 ;
 }
-float
+double
 nsWaveDecoder
 :
 :
@@ -7573,7 +7573,7 @@ nsWaveDecoder
 :
 Seek
 (
-float
+double
 aTime
 )
 {
@@ -7620,7 +7620,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-float
+double
 nsWaveDecoder
 :
 :
@@ -7674,7 +7674,7 @@ nsWaveDecoder
 :
 SetVolume
 (
-float
+double
 aVolume
 )
 {
@@ -8906,7 +8906,7 @@ mShuttingDown
 return
 ;
 }
-float
+double
 lastTime
 =
 mCurrentTime
