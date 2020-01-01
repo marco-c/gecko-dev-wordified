@@ -675,9 +675,6 @@ aIsSmooth
 nsresult
 CurrentPositionChanged
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void
