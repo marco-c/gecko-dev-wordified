@@ -345,7 +345,7 @@ useful
 .
 *
 /
-private
+protected
 :
 FixedVersion
 version

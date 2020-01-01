@@ -809,7 +809,7 @@ now
 .
 *
 /
-private
+protected
 :
 USHORT
 format

@@ -239,7 +239,7 @@ hb_memory_mode_t
 ;
 typedef
 struct
-_hb_blob_t
+hb_blob_t
 hb_blob_t
 ;
 hb_blob_t

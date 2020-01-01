@@ -497,7 +497,7 @@ glyph
 0
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -674,7 +674,7 @@ y
 0
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -751,7 +751,7 @@ y
 0
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -954,7 +954,7 @@ extents
 )
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -1035,7 +1035,7 @@ y
 0
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -1044,7 +1044,7 @@ _hb_font_funcs_nil
 =
 {
 HB_OBJECT_HEADER_STATIC
-TRUE
+true
 /
 *
 immutable

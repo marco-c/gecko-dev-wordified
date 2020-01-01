@@ -289,7 +289,7 @@ major
 )
 ;
 }
-private
+protected
 :
 FixedVersion
 version
