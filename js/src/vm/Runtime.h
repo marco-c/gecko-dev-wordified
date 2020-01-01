@@ -5651,6 +5651,10 @@ callback
 JSContextCallback
 cxCallback
 ;
+void
+*
+cxCallbackData
+;
 /
 *
 Compartment
