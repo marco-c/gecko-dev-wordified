@@ -72927,6 +72927,11 @@ usimService
 return
 (
 serviceTable
+!
+=
+=
+null
+)
 &
 &
 (
@@ -72939,6 +72944,7 @@ length
 &
 &
 (
+(
 serviceTable
 [
 index
@@ -72946,11 +72952,11 @@ index
 &
 bitmask
 )
-)
 !
 =
 =
 0
+)
 ;
 }
 /
