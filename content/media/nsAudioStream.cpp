@@ -1562,12 +1562,6 @@ AllocateStream
 (
 )
 {
-nsAudioStream
-*
-result
-=
-nsnull
-;
 #
 ifdef
 MOZ_IPC
