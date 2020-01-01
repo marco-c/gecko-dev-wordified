@@ -2434,6 +2434,13 @@ GetWindow
 (
 )
 ;
+if
+(
+!
+window
+)
+return
+;
 nsIDOMEventTarget
 *
 target
