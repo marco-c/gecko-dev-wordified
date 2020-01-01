@@ -922,7 +922,7 @@ hasObjects
 )
 )
 {
-JSObjectArray
+ObjectArray
 *
 arr
 =

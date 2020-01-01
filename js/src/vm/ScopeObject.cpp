@@ -5702,7 +5702,7 @@ static
 uint32_t
 FindObjectIndex
 (
-JSObjectArray
+ObjectArray
 *
 array
 JSObject

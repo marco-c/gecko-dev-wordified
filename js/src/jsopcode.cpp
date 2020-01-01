@@ -3438,7 +3438,7 @@ op
 JSOP_TRY
 )
 {
-JSTryNoteArray
+TryNoteArray
 *
 trynotes
 =

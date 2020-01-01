@@ -17757,7 +17757,7 @@ it
 .
 *
 /
-JSObjectArray
+ObjectArray
 *
 objects
 =

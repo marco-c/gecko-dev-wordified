@@ -6266,7 +6266,7 @@ sn
 *
 notes
 ;
-JSObjectArray
+ObjectArray
 *
 objarray
 ;
@@ -6569,13 +6569,12 @@ hasTrynotes
 (
 )
 )
-{
 nbytes
 +
 =
 sizeof
 (
-JSTryNoteArray
+TryNoteArray
 )
 +
 script
@@ -6593,7 +6592,6 @@ sizeof
 JSTryNote
 )
 ;
-}
 principals
 =
 script

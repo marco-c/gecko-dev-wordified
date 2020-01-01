@@ -46665,7 +46665,7 @@ FinishTakingTryNotes
 BytecodeEmitter
 *
 bce
-JSTryNoteArray
+TryNoteArray
 *
 array
 )
@@ -47261,7 +47261,7 @@ CGObjectList
 :
 finish
 (
-JSObjectArray
+ObjectArray
 *
 array
 )
@@ -47363,7 +47363,7 @@ GCConstList
 :
 finish
 (
-JSConstArray
+ConstArray
 *
 array
 )
