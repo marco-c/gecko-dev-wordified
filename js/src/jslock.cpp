@@ -1759,6 +1759,7 @@ endif
 void
 js_AtomicSetMask
 (
+volatile
 jsword
 *
 w

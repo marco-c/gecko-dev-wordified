@@ -2439,6 +2439,7 @@ extern
 void
 js_AtomicSetMask
 (
+volatile
 jsword
 *
 w
