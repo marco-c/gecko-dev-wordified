@@ -490,6 +490,16 @@ type
 -
 unsupported
 {
+display
+:
+inline
+-
+block
+;
+overflow
+:
+hidden
+;
 -
 moz
 -
