@@ -123,6 +123,13 @@ h
 #
 include
 "
+BaselineInspector
+.
+h
+"
+#
+include
+"
 Ion
 .
 h
@@ -6826,6 +6833,13 @@ false
 return
 AbortReason_Disable
 ;
+BaselineInspector
+inspector
+(
+cx
+script
+)
+;
 AutoFlushCache
 afc
 (
@@ -6886,6 +6900,8 @@ temp
 graph
 &
 oracle
+&
+inspector
 info
 )
 ;
