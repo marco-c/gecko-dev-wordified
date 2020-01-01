@@ -694,7 +694,10 @@ root
 :
 "
 +
+str
+(
 detail
+)
                 
 pass
         
