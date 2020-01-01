@@ -30852,6 +30852,8 @@ aBrowser
 .
 _pluginScriptedState
 =
+gPluginHandler
+.
 PLUGIN_SCRIPTED_STATE_NONE
 ;
 }
