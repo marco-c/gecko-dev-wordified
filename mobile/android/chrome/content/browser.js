@@ -19545,6 +19545,16 @@ button
 ;
 if
 (
+selected
+=
+=
+-
+1
+)
+return
+;
+if
+(
 !
 (
 selected
