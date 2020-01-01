@@ -968,7 +968,7 @@ class
 StackSpace
 ;
 class
-CallStackSegment
+StackSegment
 ;
 class
 TokenStream

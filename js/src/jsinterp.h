@@ -1704,7 +1704,7 @@ ES5
 .
 The
 given
-CallStackSegment
+StackSegment
 *
 must
 contain
@@ -1721,9 +1721,9 @@ varobj
 js
 :
 :
-CallStackSegment
+StackSegment
 *
-css
+seg
 )
 const
 ;
@@ -1737,7 +1737,7 @@ varobj
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 )
