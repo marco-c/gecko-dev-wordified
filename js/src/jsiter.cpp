@@ -380,10 +380,6 @@ h
 "
 using
 namespace
-mozilla
-;
-using
-namespace
 js
 ;
 using
@@ -392,6 +388,12 @@ js
 :
 :
 gc
+;
+using
+mozilla
+:
+:
+ArrayLength
 ;
 static
 const

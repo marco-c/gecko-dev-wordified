@@ -161,6 +161,12 @@ js
 :
 ion
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 static
 bool
 UseCompatibleWith

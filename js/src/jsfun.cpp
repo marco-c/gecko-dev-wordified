@@ -484,10 +484,6 @@ h
 endif
 using
 namespace
-mozilla
-;
-using
-namespace
 js
 ;
 using
@@ -510,6 +506,12 @@ js
 :
 :
 frontend
+;
+using
+mozilla
+:
+:
+ArrayLength
 ;
 static
 JSBool

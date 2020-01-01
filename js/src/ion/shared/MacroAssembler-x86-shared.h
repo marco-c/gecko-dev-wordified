@@ -2301,6 +2301,9 @@ uint32
 offset
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32

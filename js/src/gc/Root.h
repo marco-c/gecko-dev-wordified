@@ -5162,9 +5162,6 @@ region
 .
 *
 /
-#
-ifdef
-DEBUG
 JS_ALWAYS_INLINE
 void
 AssertCanGC
@@ -5180,15 +5177,6 @@ InNoGCScope
 )
 ;
 }
-#
-else
-#
-define
-AssertCanGC
-(
-)
-#
-endif
 #
 if
 defined

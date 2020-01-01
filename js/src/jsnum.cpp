@@ -399,6 +399,12 @@ js
 :
 types
 ;
+using
+mozilla
+:
+:
+RangedPtr
+;
 /
 *
 *

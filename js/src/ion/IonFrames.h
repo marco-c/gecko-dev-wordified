@@ -658,6 +658,9 @@ safepointOffset_
 ;
 }
 ;
+mozilla
+:
+:
 DebugOnly
 <
 bool

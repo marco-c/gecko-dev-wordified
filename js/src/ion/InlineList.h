@@ -240,6 +240,9 @@ Node
 *
 tail_
 ;
+mozilla
+:
+:
 DebugOnly
 <
 int
@@ -1031,6 +1034,9 @@ owner_
 ;
 #
 endif
+mozilla
+:
+:
 DebugOnly
 <
 int

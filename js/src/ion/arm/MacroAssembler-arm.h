@@ -159,6 +159,12 @@ jsopcode
 .
 h
 "
+using
+mozilla
+:
+:
+DebugOnly
+;
 namespace
 js
 {

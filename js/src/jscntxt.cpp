@@ -488,6 +488,12 @@ js
 :
 gc
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 bool
 js
 :

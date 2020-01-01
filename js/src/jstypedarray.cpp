@@ -337,10 +337,6 @@ define
 ENABLE_TYPEDARRAY_MOVE
 using
 namespace
-mozilla
-;
-using
-namespace
 js
 ;
 using
@@ -356,6 +352,12 @@ js
 :
 :
 types
+;
+using
+mozilla
+:
+:
+DebugOnly
 ;
 /
 *

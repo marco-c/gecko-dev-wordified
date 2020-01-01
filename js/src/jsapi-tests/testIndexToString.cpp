@@ -155,8 +155,10 @@ inl
 h
 "
 using
-namespace
 mozilla
+:
+:
+ArrayLength
 ;
 template
 <

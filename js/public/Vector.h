@@ -1904,6 +1904,9 @@ vector
 /
 #
 endif
+mozilla
+:
+:
 AlignedStorage
 <
 sInlineBytes
@@ -2980,6 +2983,9 @@ end
 internalAppend
 (
 begin
+mozilla
+:
+:
 PointerRangeSize
 (
 begin
@@ -5531,6 +5537,9 @@ REENTRANCY_GUARD_ET_AL
 size_t
 needed
 =
+mozilla
+:
+:
 PointerRangeSize
 (
 insBegin

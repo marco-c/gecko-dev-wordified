@@ -486,6 +486,9 @@ ptr
 limit
 )
 ;
+mozilla
+:
+:
 DebugOnly
 <
 char
@@ -1362,6 +1365,9 @@ n
 return
 result
 ;
+mozilla
+:
+:
 DebugOnly
 <
 BumpChunk

@@ -215,6 +215,12 @@ jstypedarrayinlines
 .
 h
 "
+using
+mozilla
+:
+:
+DebugOnly
+;
 namespace
 js
 {

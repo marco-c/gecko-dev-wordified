@@ -142,6 +142,15 @@ h
 #
 include
 "
+gc
+/
+Root
+.
+h
+"
+#
+include
+"
 js
 /
 TemplateLib
@@ -149,8 +158,10 @@ TemplateLib
 h
 "
 using
-namespace
 JS
+:
+:
+AssertCanGC
 ;
 namespace
 js

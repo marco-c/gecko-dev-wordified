@@ -152,11 +152,13 @@ h
 "
 using
 namespace
-mozilla
+js
 ;
 using
-namespace
-js
+mozilla
+:
+:
+RangedPtr
 ;
 bool
 JSString

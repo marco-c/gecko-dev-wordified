@@ -184,6 +184,12 @@ js
 :
 ion
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 namespace
 js
 {

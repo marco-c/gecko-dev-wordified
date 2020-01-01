@@ -257,10 +257,6 @@ using
 namespace
 JS
 ;
-using
-namespace
-mozilla
-;
 }
 /
 *

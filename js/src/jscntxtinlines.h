@@ -273,7 +273,7 @@ pentry
 =
 hash
 %
-js
+mozilla
 :
 :
 ArrayLength
@@ -490,6 +490,9 @@ unsigned
 entry_
 )
 <
+mozilla
+:
+:
 ArrayLength
 (
 entries
@@ -780,6 +783,9 @@ unsigned
 entry_
 )
 <
+mozilla
+:
+:
 ArrayLength
 (
 entries

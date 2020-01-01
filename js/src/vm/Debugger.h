@@ -749,6 +749,9 @@ compartment
 JSTrapStatus
 handleUncaughtException
 (
+mozilla
+:
+:
 Maybe
 <
 AutoCompartment
@@ -1015,6 +1018,9 @@ callHook
 JSTrapStatus
 parseResumptionValue
 (
+mozilla
+:
+:
 Maybe
 <
 AutoCompartment
@@ -2979,6 +2985,9 @@ false
 bool
 receiveCompletionValue
 (
+mozilla
+:
+:
 Maybe
 <
 AutoCompartment

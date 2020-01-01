@@ -357,6 +357,12 @@ js
 :
 analyze
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 #
 define
 RETURN_IF_OOM

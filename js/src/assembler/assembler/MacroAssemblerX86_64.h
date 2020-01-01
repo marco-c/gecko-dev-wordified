@@ -782,7 +782,7 @@ call
 (
 )
 {
-js
+mozilla
 :
 :
 DebugOnly
@@ -838,7 +838,7 @@ tailRecursiveCall
 (
 )
 {
-js
+mozilla
 :
 :
 DebugOnly
@@ -905,7 +905,7 @@ link
 this
 )
 ;
-js
+mozilla
 :
 :
 DebugOnly

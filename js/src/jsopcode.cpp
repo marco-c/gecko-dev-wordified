@@ -374,10 +374,6 @@ h
 "
 using
 namespace
-mozilla
-;
-using
-namespace
 js
 ;
 using
@@ -413,6 +409,12 @@ frontend
 :
 :
 LetDataToOffset
+;
+using
+mozilla
+:
+:
+ArrayLength
 ;
 /
 *

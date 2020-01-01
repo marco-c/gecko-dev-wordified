@@ -535,6 +535,9 @@ cache
 struct
 TypedOrValueRegisterSpace
 {
+mozilla
+:
+:
 AlignedStorage2
 <
 TypedOrValueRegister
@@ -578,6 +581,9 @@ addr
 struct
 ConstantOrRegisterSpace
 {
+mozilla
+:
+:
 AlignedStorage2
 <
 ConstantOrRegister

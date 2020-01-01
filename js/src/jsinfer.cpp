@@ -402,6 +402,12 @@ js
 :
 analyze
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 static
 inline
 jsid

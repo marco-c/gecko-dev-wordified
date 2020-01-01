@@ -187,6 +187,12 @@ using
 namespace
 JSC
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 typedef
 JSC
 :

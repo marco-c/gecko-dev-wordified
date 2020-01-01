@@ -5574,6 +5574,9 @@ xml
 uint32_t
 color
 ;
+mozilla
+:
+:
 DebugOnly
 <
 bool
@@ -5623,6 +5626,9 @@ stack
 .
 *
 /
+mozilla
+:
+:
 DebugOnly
 <
 size_t

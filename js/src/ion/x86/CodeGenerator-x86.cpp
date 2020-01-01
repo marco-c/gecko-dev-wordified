@@ -180,6 +180,12 @@ js
 :
 ion
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 CodeGeneratorX86
 :
 :

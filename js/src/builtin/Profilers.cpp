@@ -186,6 +186,12 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+ArrayLength
+;
 /
 *
 Thread
