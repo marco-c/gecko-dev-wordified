@@ -443,9 +443,6 @@ nsBoxFrame
 h
 "
 class
-nsISupportsArray
-;
-class
 nsSplitterFrameInner
 ;
 nsIFrame

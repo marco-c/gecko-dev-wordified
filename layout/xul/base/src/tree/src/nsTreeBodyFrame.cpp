@@ -543,13 +543,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

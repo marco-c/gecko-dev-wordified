@@ -470,13 +470,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
