@@ -4105,6 +4105,9 @@ const
 nsAString
 &
 aSelector
+nsresult
+*
+aResult
 )
 ;
 /
