@@ -528,6 +528,12 @@ defined
 (
 SOLARIS
 )
+|
+|
+defined
+(
+ANDROID
+)
 #
 define
 HAVE_JEMALLOC_STATS
