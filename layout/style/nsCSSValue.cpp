@@ -7850,6 +7850,9 @@ case
 eCSSUnit_Grad
 :
 case
+eCSSUnit_Turn
+:
+case
 eCSSUnit_Radian
 :
 case
