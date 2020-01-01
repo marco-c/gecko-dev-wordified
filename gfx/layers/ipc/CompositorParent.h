@@ -361,6 +361,13 @@ aOutSnapshot
 )
 ;
 virtual
+bool
+RecvFlushRendering
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 ActorDestroy
 (
