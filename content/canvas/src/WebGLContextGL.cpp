@@ -13095,6 +13095,8 @@ width
 |
 |
 subrect_height
+>
+height
 )
 return
 ErrorInvalidOperation
