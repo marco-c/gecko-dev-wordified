@@ -956,7 +956,7 @@ dependent
 on
 content
 state
-nsReStyleHint
+nsRestyleHint
 nsHTMLCSSStyleSheet
 :
 :
@@ -968,7 +968,7 @@ aData
 )
 {
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -998,7 +998,7 @@ is
 dependent
 on
 attribute
-nsReStyleHint
+nsRestyleHint
 nsHTMLCSSStyleSheet
 :
 :
@@ -1010,7 +1010,7 @@ aData
 )
 {
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )

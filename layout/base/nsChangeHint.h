@@ -1103,7 +1103,7 @@ nsChangeHint_ReconstructFrame
 *
 *
 |
-nsReStyleHint
+nsRestyleHint
 |
 is
 a
@@ -1139,7 +1139,7 @@ is
 necessary
 use
 |
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -1148,12 +1148,12 @@ nsReStyleHint
 *
 /
 enum
-nsReStyleHint
+nsRestyleHint
 {
-eReStyle_Self
+eRestyle_Self
 =
 0x1
-eReStyle_LaterSiblings
+eRestyle_LaterSiblings
 =
 0x2
 }

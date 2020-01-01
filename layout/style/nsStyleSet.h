@@ -1395,7 +1395,7 @@ dependent
 on
 content
 state
-nsReStyleHint
+nsRestyleHint
 HasStateDependentStyle
 (
 nsPresContext
@@ -1422,7 +1422,7 @@ of
 an
 attribute
 .
-nsReStyleHint
+nsRestyleHint
 HasAttributeDependentStyle
 (
 nsPresContext

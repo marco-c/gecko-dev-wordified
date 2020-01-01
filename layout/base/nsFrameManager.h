@@ -1235,7 +1235,7 @@ changed
 .
 NS_HIDDEN_
 (
-nsReStyleHint
+nsRestyleHint
 )
 HasAttributeDependentStyle
 (

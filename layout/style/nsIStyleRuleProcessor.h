@@ -916,7 +916,7 @@ how
 as
 described
 by
-nsReStyleHint
+nsRestyleHint
 )
 style
 can
@@ -973,7 +973,7 @@ h
 *
 /
 virtual
-nsReStyleHint
+nsRestyleHint
 HasStateDependentStyle
 (
 StateRuleProcessorData
@@ -1158,7 +1158,7 @@ exist
 *
 /
 virtual
-nsReStyleHint
+nsRestyleHint
 HasAttributeDependentStyle
 (
 AttributeRuleProcessorData

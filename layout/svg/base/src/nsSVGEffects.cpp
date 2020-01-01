@@ -1648,7 +1648,7 @@ mFrame
 GetContent
 (
 )
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -1727,7 +1727,7 @@ mFrame
 GetContent
 (
 )
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
