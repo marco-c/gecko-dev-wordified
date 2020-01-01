@@ -2609,7 +2609,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 }
@@ -2706,7 +2705,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 if
