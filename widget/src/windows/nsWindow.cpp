@@ -26678,6 +26678,15 @@ child
 case
 WM_MOUSEWHEEL
 :
+case
+WM_MOUSEHWHEEL
+:
+case
+WM_HSCROLL
+:
+case
+WM_VSCROLL
+:
 /
 /
 Plugins
