@@ -110,10 +110,10 @@ TCPSOCKETCHILD_CID
 class
 nsITCPSocketInternal
 ;
-class
+struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 namespace
