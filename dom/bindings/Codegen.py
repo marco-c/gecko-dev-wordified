@@ -859,7 +859,6 @@ s
 1
 %
 s
-DOM_OBJECT_SLOT
   
 %
 s
