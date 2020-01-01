@@ -1976,7 +1976,7 @@ desc
 Querying
 history
 on
-nonexisting
+nonexistent
 tags
 should
 return
@@ -2716,7 +2716,7 @@ desc
 Querying
 bookmarks
 on
-nonexisting
+nonexistent
 tag
 should
 return

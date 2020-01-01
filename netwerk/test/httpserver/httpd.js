@@ -4529,9 +4529,7 @@ XXX
 determine
 behavior
 of
-non
--
-existent
+nonexistent
 /
 foo
 /
@@ -22632,9 +22630,7 @@ neither
 headers
 nor
 the
-non
--
-existent
+nonexistent
 body
 *
 until

@@ -9473,9 +9473,7 @@ mCurrentContext
 NS_ERROR
 (
 "
-Non
--
-existing
+Nonexistent
 context
 "
 )
@@ -9700,9 +9698,7 @@ aPosition
 -
 1
 "
-non
--
-existing
+nonexistent
 context
 "
 )

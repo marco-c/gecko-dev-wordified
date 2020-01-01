@@ -935,7 +935,7 @@ desc
 JSON
 restore
 :
-nonexisting
+nonexistent
 file
 should
 fail
@@ -1206,7 +1206,7 @@ desc
 HTML
 restore
 :
-nonexisting
+nonexistent
 file
 should
 fail
@@ -1483,7 +1483,7 @@ HTML
 initial
 restore
 :
-nonexisting
+nonexistent
 file
 should
 fail
@@ -1849,7 +1849,7 @@ restore
 into
 folder
 :
-nonexisting
+nonexistent
 file
 should
 fail

@@ -1323,9 +1323,7 @@ because
 a
 /
 /
-non
--
-existent
+nonexistent
 pref
 is
 cleared

@@ -443,9 +443,7 @@ propertyIsEnumerable
 (
 )
 on
-non
--
-existent
+nonexistent
 property
 *
 See
@@ -578,9 +576,7 @@ propertyIsEnumerable
 (
 )
 on
-non
--
-existent
+nonexistent
 property
 '
 ;

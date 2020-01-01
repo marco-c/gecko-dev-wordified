@@ -3746,9 +3746,7 @@ when
 cells
 span
 into
-non
--
-existent
+nonexistent
 rows
 /
 columns

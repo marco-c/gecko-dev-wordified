@@ -2091,7 +2091,7 @@ an
 annotation
 with
 a
-nonexisting
+nonexistent
 attribute
 stmt
 =
@@ -2586,7 +2586,7 @@ an
 annotation
 to
 a
-nonexisting
+nonexistent
 page
 stmt
 .
@@ -2763,7 +2763,7 @@ an
 annotation
 to
 a
-nonexisting
+nonexistent
 page
 has
 been
@@ -5345,7 +5345,7 @@ a
 bookmark
 using
 a
-nonexisting
+nonexistent
 keyword
 this
 .
@@ -8806,7 +8806,7 @@ an
 annotation
 with
 a
-nonexisting
+nonexistent
 attribute
 stmt
 =
@@ -9322,7 +9322,7 @@ an
 annotation
 to
 a
-nonexisting
+nonexistent
 item
 stmt
 .
@@ -9501,7 +9501,7 @@ an
 annotation
 to
 a
-nonexisting
+nonexistent
 page
 has
 been
@@ -10129,7 +10129,7 @@ a
 place
 using
 a
-nonexisting
+nonexistent
 favicon
 entry
 this

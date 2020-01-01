@@ -67,9 +67,7 @@ test
 /
 test
 getting
-non
--
-existing
+nonexistent
 values
 var
 itemValue
@@ -104,9 +102,7 @@ prefs
 getValue
 '
 for
-non
--
-existing
+nonexistent
 item
 "
 )
@@ -134,9 +130,7 @@ prefs
 get
 '
 for
-non
--
-existing
+nonexistent
 item
 "
 )

@@ -42,9 +42,7 @@ storage
 has
 '
 for
-non
--
-existing
+nonexistent
 item
 "
 )
@@ -103,9 +101,7 @@ item
 /
 test
 getting
-non
--
-existing
+nonexistent
 and
 existing
 values
@@ -146,9 +142,7 @@ storage
 get
 '
 for
-non
--
-existing
+nonexistent
 item
 "
 )

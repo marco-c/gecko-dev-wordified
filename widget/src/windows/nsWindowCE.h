@@ -577,9 +577,7 @@ No
 -
 ops
 for
-non
--
-existent
+nonexistent
 ce
 global
 apis

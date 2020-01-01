@@ -699,9 +699,7 @@ uri3
 check
 if
 a
-non
--
-existent
+nonexistent
 uri
 is
 visited

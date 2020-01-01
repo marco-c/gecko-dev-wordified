@@ -3812,9 +3812,7 @@ tests
 /
 /
 test
-non
--
-existent
+nonexistent
 extension
 var
 lolType

@@ -1708,9 +1708,7 @@ Test
 1
 :
 Open
-non
--
-existing
+nonexistent
 file
 /
 /
@@ -2671,9 +2669,7 @@ Test
 4
 :
 Open
-non
--
-existing
+nonexistent
 file
 (
 again

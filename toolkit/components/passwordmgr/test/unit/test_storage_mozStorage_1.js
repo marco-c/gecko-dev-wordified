@@ -456,9 +456,7 @@ testdesc
 Initialize
 with
 a
-non
--
-existent
+nonexistent
 data
 file
 "
@@ -2457,9 +2455,7 @@ testuser1
 Try
 modifying
 a
-non
--
-existent
+nonexistent
 login
 var
 err
