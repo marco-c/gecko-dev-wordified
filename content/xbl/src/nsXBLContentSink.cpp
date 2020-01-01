@@ -5257,7 +5257,7 @@ aResult
 PRBool
 *
 aAppendContent
-PRUint32
+FromParser
 aFromParser
 )
 {

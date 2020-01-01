@@ -534,6 +534,13 @@ namespace
 mozilla
 :
 :
+dom
+;
+using
+namespace
+mozilla
+:
+:
 layers
 ;
 nsGenericHTMLElement
@@ -545,7 +552,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {

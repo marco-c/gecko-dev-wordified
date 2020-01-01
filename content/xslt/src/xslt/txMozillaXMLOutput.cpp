@@ -681,6 +681,13 @@ txError
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 #
 define
 TX_ENSURE_CURRENTNODE
@@ -2797,7 +2804,7 @@ ni
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 /
@@ -5136,7 +5143,7 @@ ni
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 }

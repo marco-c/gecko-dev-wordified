@@ -719,6 +719,13 @@ nsIDOMCSSRule
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 css
 =
@@ -2054,7 +2061,7 @@ nodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 .
 get
@@ -2451,7 +2458,7 @@ nodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 NS_ENSURE_TRUE

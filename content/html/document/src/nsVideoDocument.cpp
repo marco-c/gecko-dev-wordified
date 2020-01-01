@@ -787,7 +787,7 @@ nodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 )
 ;

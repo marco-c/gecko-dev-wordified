@@ -674,6 +674,13 @@ nsLayoutUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 XXX
@@ -1018,7 +1025,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {

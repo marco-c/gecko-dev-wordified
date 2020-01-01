@@ -542,6 +542,13 @@ NS_XTFSERVICE_CID
 ;
 #
 endif
+using
+namespace
+mozilla
+:
+:
+dom
+;
 #
 ifdef
 MOZ_SVG
@@ -1420,7 +1427,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {

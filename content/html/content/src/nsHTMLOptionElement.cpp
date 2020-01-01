@@ -645,6 +645,13 @@ mozAutoDocUpdate
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 *
 *
@@ -669,7 +676,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {

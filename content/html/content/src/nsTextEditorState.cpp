@@ -655,6 +655,13 @@ nsTextEditorState
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 static
 NS_DEFINE_CID
 (
@@ -7897,7 +7904,7 @@ nodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8393,7 +8400,7 @@ nodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 NS_ENSURE_SUCCESS

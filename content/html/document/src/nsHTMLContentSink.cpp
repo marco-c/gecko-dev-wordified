@@ -1139,7 +1139,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
-PRUint32
+FromParser
 aFromParser
 )
 ;
@@ -1152,7 +1152,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {
@@ -3380,7 +3380,7 @@ nodeInfo
 forget
 (
 )
-PR_TRUE
+FROM_PARSER_NETWORK
 )
 ;
 }
@@ -3396,7 +3396,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {
@@ -3514,7 +3514,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {
@@ -14056,7 +14056,7 @@ nodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 NS_ENSURE_SUCCESS
