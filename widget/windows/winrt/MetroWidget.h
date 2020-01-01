@@ -232,7 +232,7 @@ mozilla
 /
 layers
 /
-AsyncPanZoomController
+APZCTreeManager
 .
 h
 "
@@ -1297,6 +1297,17 @@ virtual
 void
 SendAsyncScrollDOMEvent
 (
+mozilla
+:
+:
+layers
+:
+:
+FrameMetrics
+:
+:
+ViewID
+aScrollId
 const
 mozilla
 :
@@ -1511,7 +1522,7 @@ mozilla
 layers
 :
 :
-AsyncPanZoomController
+APZCTreeManager
 >
 sAPZC
 ;
