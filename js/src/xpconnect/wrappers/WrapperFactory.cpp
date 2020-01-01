@@ -986,6 +986,15 @@ enter
 cx
 obj
 )
+|
+|
+!
+JS_WrapObject
+(
+cx
+&
+proto
+)
 )
 return
 nsnull
