@@ -1266,7 +1266,7 @@ XPCOM_DEBUG_BREAK
 ]
 =
 "
-warn
+stack
 "
     
 if
