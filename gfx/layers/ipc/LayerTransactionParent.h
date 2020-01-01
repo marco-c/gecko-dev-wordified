@@ -590,8 +590,6 @@ aLayerParent
 CompositableParent
 *
 aCompositable
-bool
-aIsAsyncVideo
 )
 ;
 private

@@ -280,10 +280,6 @@ mAttached
 (
 false
 )
-mKeepAttached
-(
-false
-)
 {
 MOZ_COUNT_CTOR
 (

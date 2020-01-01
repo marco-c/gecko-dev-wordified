@@ -509,14 +509,6 @@ aLayer
 Compositor
 *
 aCompositor
-AttachFlags
-aFlags
-/
-*
-=
-NO_FLAGS
-*
-/
 )
 {
 CompositableHost
@@ -526,7 +518,6 @@ Attach
 (
 aLayer
 aCompositor
-aFlags
 )
 ;
 static_cast
