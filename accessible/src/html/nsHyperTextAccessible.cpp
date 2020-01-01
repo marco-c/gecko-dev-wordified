@@ -4981,9 +4981,6 @@ moving
 the
 appropriate
 amount
-nsPeekOffsetStruct
-pos
-;
 nsresult
 rv
 ;
@@ -5056,9 +5053,8 @@ rv
 ;
 }
 }
+nsPeekOffsetStruct
 pos
-.
-SetData
 (
 aAmount
 aDirection

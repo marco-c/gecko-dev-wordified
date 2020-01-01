@@ -6359,10 +6359,6 @@ levelAfter
 {
 nsPeekOffsetStruct
 pos
-;
-pos
-.
-SetData
 (
 eSelectBeginLine
 eDirPrevious
@@ -6608,10 +6604,6 @@ levelBefore
 {
 nsPeekOffsetStruct
 pos
-;
-pos
-.
-SetData
 (
 eSelectEndLine
 eDirNext

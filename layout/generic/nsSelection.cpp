@@ -6343,9 +6343,6 @@ result
 :
 NS_ERROR_FAILURE
 ;
-nsPeekOffsetStruct
-pos
-;
 /
 /
 set
@@ -6384,9 +6381,8 @@ let
 it
 go
 ahead
+nsPeekOffsetStruct
 pos
-.
-SetData
 (
 aAmount
 eDirPrevious
@@ -9368,10 +9364,6 @@ forward
 .
 nsPeekOffsetStruct
 charPos
-;
-charPos
-.
-SetData
 (
 eSelectCharacter
 eDirNext
@@ -9417,10 +9409,6 @@ mContentOffset
 }
 nsPeekOffsetStruct
 pos
-;
-pos
-.
-SetData
 (
 amount
 direction
@@ -11349,6 +11337,9 @@ GetChildFrameContainingOffset
 *
 aReturnOffset
 aHint
+=
+=
+HINTRIGHT
 &
 aOffset
 &

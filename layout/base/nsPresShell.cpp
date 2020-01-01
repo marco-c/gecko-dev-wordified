@@ -14161,7 +14161,10 @@ frame
 return
 NS_ERROR_FAILURE
 ;
-nsPeekOffsetStruct
+nsIFrame
+:
+:
+CaretPosition
 pos
 =
 frame
