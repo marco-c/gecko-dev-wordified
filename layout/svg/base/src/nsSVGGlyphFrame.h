@@ -1508,6 +1508,17 @@ aContext
 )
 ;
 void
+StrokeCharacters
+(
+CharacterIterator
+*
+aIter
+gfxContext
+*
+aContext
+)
+;
+void
 NotifyGlyphMetricsChange
 (
 )

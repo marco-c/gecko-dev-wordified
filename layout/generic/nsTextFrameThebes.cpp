@@ -36037,6 +36037,10 @@ Draw
 (
 aCtx
 aTextBaselinePt
+gfxFont
+:
+:
+GLYPH_FILL
 aOffset
 aLength
 &
@@ -36180,6 +36184,10 @@ aTextBaselinePt
 .
 y
 )
+gfxFont
+:
+:
+GLYPH_FILL
 0
 hyphenTextRun
 -
