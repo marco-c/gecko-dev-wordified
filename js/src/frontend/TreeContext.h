@@ -1658,7 +1658,7 @@ true
 undef
 INFUNC
 unsigned
-argumentsLocalSlot
+argumentsLocal
 (
 )
 const

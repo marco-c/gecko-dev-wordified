@@ -851,7 +851,7 @@ CHECK
 (
 argsobj
 .
-getElements
+maybeGetElements
 (
 i
 j

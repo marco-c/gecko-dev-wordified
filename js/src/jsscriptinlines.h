@@ -400,7 +400,7 @@ kind
 gc
 :
 :
-FINALIZE_OBJECT4
+FINALIZE_OBJECT2_BACKGROUND
 ;
 JS_ASSERT
 (
@@ -417,8 +417,6 @@ CallObject
 :
 :
 RESERVED_SLOTS
-+
-1
 )
 ;
 return
