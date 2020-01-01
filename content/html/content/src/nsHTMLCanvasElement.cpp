@@ -2256,7 +2256,7 @@ NS_IMETHODIMP
 nsHTMLCanvasElement
 :
 :
-MozGetShmemContext
+MozGetIPCContext
 (
 const
 nsAString
@@ -2369,7 +2369,7 @@ rv
 mCurrentContext
 -
 >
-SetIsShmem
+SetIsIPC
 (
 PR_TRUE
 )
