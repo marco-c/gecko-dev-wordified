@@ -303,9 +303,9 @@ PMobileMessageCursorChild
 AllocPMobileMessageCursor
 (
 const
-CreateMessageCursorRequest
+IPCMobileMessageCursor
 &
-aRequest
+aCursor
 )
 MOZ_OVERRIDE
 ;
@@ -439,9 +439,9 @@ bool
 RecvNotifyResult
 (
 const
-SmsMessageData
+MobileMessageCursorData
 &
-aMessageData
+aData
 )
 MOZ_OVERRIDE
 ;
