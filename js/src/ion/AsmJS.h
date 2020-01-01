@@ -1073,6 +1073,9 @@ to
 main
 thread
 .
+unsigned
+compileTime
+;
 AsmJSParallelTask
 (
 size_t
@@ -1094,6 +1097,10 @@ NULL
 lir
 (
 NULL
+)
+compileTime
+(
+0
 )
 {
 }
