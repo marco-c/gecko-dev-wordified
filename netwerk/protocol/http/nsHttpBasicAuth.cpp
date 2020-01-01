@@ -973,7 +973,7 @@ nsHttpBasicAuth
 :
 GetAuthFlags
 (
-nsresult
+PRUint32
 *
 flags
 )
