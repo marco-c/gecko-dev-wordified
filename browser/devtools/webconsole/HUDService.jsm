@@ -22317,12 +22317,12 @@ jswarn
 name
 :
 "
-PageWebDeveloper
+PageLogging
 "
 category
 :
 "
-webdev
+logging
 "
 severities
 :
