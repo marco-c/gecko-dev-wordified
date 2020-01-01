@@ -1872,9 +1872,7 @@ closed
 "
 )
 ;
-gURLsNotRemembered
-.
-push
+ensureSocialUrlNotRemembered
 (
 chatUrl
 )
