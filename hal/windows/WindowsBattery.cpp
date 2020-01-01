@@ -1076,9 +1076,6 @@ else
 /
 for
 Windows
-2000
-and
-Windwos
 XP
 .
 If
