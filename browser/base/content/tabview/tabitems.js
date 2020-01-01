@@ -1555,12 +1555,6 @@ droppable
 true
 )
 ;
-this
-.
-_updateDebugBounds
-(
-)
-;
 TabItems
 .
 register
@@ -4015,12 +4009,6 @@ true
 UI
 .
 clearShouldResizeItems
-(
-)
-;
-this
-.
-_updateDebugBounds
 (
 )
 ;
