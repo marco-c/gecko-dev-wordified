@@ -1056,6 +1056,12 @@ aFBOTextureTarget
 0x
 %
 x
+mFBO
+%
+d
+mTextureHandle
+%
+d
 aRect
 .
 width
@@ -1071,6 +1077,8 @@ result
 mInitParams
 .
 mFBOTextureTarget
+mFBO
+mTextureHandle
 mInitParams
 .
 mSize
@@ -1083,7 +1091,7 @@ mSize
 height
 )
 ;
-NS_RUNTIMEABORT
+NS_ERROR
 (
 msg
 .
