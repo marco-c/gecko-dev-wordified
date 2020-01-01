@@ -932,6 +932,9 @@ mIsSuspended
 PRPackedBool
 mIsPluginInitJSStream
 ;
+PRPackedBool
+mRedirectDenied
+;
 nsCString
 mResponseHeaders
 ;
