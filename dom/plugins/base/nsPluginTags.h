@@ -834,7 +834,7 @@ nsRefPtr
 <
 nsNPAPIPlugin
 >
-mEntryPoint
+mPlugin
 ;
 bool
 mIsJavaPlugin

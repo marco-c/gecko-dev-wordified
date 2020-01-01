@@ -588,6 +588,12 @@ state_enabled
 "
 #
 define
+STATE_ALL
+"
+state_all
+"
+#
+define
 STATE_ATTRIBUTE
 "
 state_attribute
@@ -2189,7 +2195,7 @@ aParams
 >
 SetBooleanValue
 (
-STATE_ATTRIBUTE
+STATE_ALL
 isCSS
 )
 ;

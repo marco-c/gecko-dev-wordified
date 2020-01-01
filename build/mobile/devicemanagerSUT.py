@@ -1626,6 +1626,10 @@ SOCK_STREAM
 )
       
 except
+socket
+.
+error
+msg
 :
         
 self
@@ -1642,7 +1646,13 @@ unable
 to
 create
 socket
+:
 "
++
+str
+(
+msg
+)
 )
       
 try
@@ -1677,6 +1687,10 @@ recv
 )
       
 except
+socket
+.
+error
+msg
 :
         
 self
@@ -1701,7 +1715,13 @@ unable
 to
 connect
 socket
+:
 "
++
+str
+(
+msg
+)
 )
     
 for
@@ -1802,6 +1822,10 @@ cmd
 )
       
 except
+socket
+.
+error
+msg
 :
         
 self
@@ -1817,6 +1841,43 @@ self
 _sock
 =
 None
+        
+if
+self
+.
+debug
+>
+=
+1
+:
+          
+print
+"
+Error
+sending
+data
+to
+socket
+.
+cmd
+=
+"
++
+str
+(
+cmd
+)
++
+"
+;
+err
+=
+"
++
+str
+(
+msg
+)
         
 return
 False
@@ -1951,6 +2012,10 @@ temp
 )
           
 except
+socket
+.
+error
+msg
 :
             
 self
@@ -1976,7 +2041,26 @@ receiving
 data
 from
 socket
+.
+cmd
+=
 "
++
+str
+(
+cmd
+)
++
+"
+;
+err
+=
+"
++
+str
+(
+msg
+)
 )
           
 data

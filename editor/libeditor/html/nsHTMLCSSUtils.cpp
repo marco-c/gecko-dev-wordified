@@ -2023,7 +2023,7 @@ aEditor
 )
 mIsCSSPrefChecked
 (
-false
+true
 )
 {
 /

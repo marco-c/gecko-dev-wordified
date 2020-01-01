@@ -665,6 +665,13 @@ nsIObserver
 public
 nsStubDocumentObserver
 {
+void
+CleanUp
+(
+bool
+aIsFinal
+)
+;
 public
 :
 nsXULTemplateBuilder
