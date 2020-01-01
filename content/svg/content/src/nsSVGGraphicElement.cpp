@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsIDOMSVGPoint
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h

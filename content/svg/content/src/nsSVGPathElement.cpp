@@ -641,7 +641,7 @@ NS_OK
 }
 /
 *
-nsIDOMSVGPoint
+DOMSVGPoint
 getPointAtLength
 (
 in
@@ -659,7 +659,7 @@ GetPointAtLength
 (
 float
 distance
-nsIDOMSVGPoint
+nsISupports
 *
 *
 _retval

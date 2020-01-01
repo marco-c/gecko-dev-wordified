@@ -1089,10 +1089,6 @@ SVGNumberList
 )
 DOMCI_CLASS
 (
-SVGPoint
-)
-DOMCI_CLASS
-(
 SVGRect
 )
 DOMCI_CLASS

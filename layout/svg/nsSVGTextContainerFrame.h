@@ -154,9 +154,6 @@ class
 nsFrameList
 ;
 class
-nsIDOMSVGPoint
-;
-class
 nsIDOMSVGRect
 ;
 class
@@ -171,6 +168,13 @@ nsSVGGlyphFrame
 class
 nsSVGTextFrame
 ;
+namespace
+mozilla
+{
+class
+DOMSVGPoint
+;
+}
 class
 nsSVGTextContainerFrame
 :
@@ -270,7 +274,7 @@ GetStartPositionOfChar
 (
 uint32_t
 charnum
-nsIDOMSVGPoint
+nsISupports
 *
 *
 _retval
@@ -281,7 +285,7 @@ GetEndPositionOfChar
 (
 uint32_t
 charnum
-nsIDOMSVGPoint
+nsISupports
 *
 *
 _retval
@@ -381,7 +385,10 @@ virtual
 int32_t
 GetCharNumAtPosition
 (
-nsIDOMSVGPoint
+mozilla
+:
+:
+DOMSVGPoint
 *
 point
 )

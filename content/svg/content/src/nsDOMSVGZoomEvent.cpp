@@ -1010,7 +1010,7 @@ nsDOMSVGZoomEvent
 :
 GetPreviousTranslate
 (
-nsIDOMSVGPoint
+nsISupports
 *
 *
 aPreviousTranslate
@@ -1075,7 +1075,7 @@ nsDOMSVGZoomEvent
 :
 GetNewTranslate
 (
-nsIDOMSVGPoint
+nsISupports
 *
 *
 aNewTranslate
