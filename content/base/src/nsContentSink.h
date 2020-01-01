@@ -1754,6 +1754,14 @@ ScrollToRef
 (
 )
 ;
+nsresult
+RefreshIfEnabled
+(
+nsIViewManager
+*
+vm
+)
+;
 /
 /
 Start
