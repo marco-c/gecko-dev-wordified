@@ -650,7 +650,7 @@ matrix
 *
 /
 virtual
-gfxMatrix
+gfx3DMatrix
 GetTransformMatrix
 (
 nsIFrame

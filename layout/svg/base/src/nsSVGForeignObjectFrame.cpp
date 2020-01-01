@@ -1855,7 +1855,7 @@ return
 rv
 ;
 }
-gfxMatrix
+gfx3DMatrix
 nsSVGForeignObjectFrame
 :
 :
@@ -1944,8 +1944,14 @@ offsets
 *
 /
 return
+gfx3DMatrix
+:
+:
+From2D
+(
 GetCanvasTMForChildren
 (
+)
 )
 ;
 }
