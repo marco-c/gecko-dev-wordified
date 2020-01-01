@@ -13340,10 +13340,9 @@ NPERR_GENERIC_ERROR
 nsXPIDLCString
 cookieStr
 ;
-if
-(
-NS_FAILED
-(
+nsresult
+cookieReturn
+=
 cookieService
 -
 >
@@ -13356,6 +13355,12 @@ getter_Copies
 cookieStr
 )
 )
+;
+if
+(
+NS_FAILED
+(
+cookieReturn
 )
 |
 |
