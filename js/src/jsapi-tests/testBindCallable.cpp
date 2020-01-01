@@ -68,7 +68,7 @@ BEGIN_TEST
 test_BindCallable
 )
 {
-js
+JS
 :
 :
 RootedValue
@@ -104,7 +104,7 @@ isObject
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -145,7 +145,7 @@ isObject
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -158,7 +158,7 @@ func
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -187,7 +187,7 @@ CHECK
 newCallable
 )
 ;
-js
+JS
 :
 :
 RootedValue

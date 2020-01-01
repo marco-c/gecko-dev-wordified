@@ -216,7 +216,7 @@ testGetPropertyDefault_bug594060
 /
 Check
 JS_GetPropertyDefault
-js
+JS
 :
 :
 RootedObject
@@ -237,7 +237,7 @@ CHECK
 obj
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -264,7 +264,7 @@ address
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -299,7 +299,7 @@ v1
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -340,7 +340,7 @@ v2
 /
 Check
 JS_GetPropertyByIdDefault
-js
+JS
 :
 :
 RootedObject
@@ -393,7 +393,7 @@ nothereid
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -418,7 +418,7 @@ address
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -451,7 +451,7 @@ v1
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue

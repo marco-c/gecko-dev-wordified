@@ -439,7 +439,7 @@ __init__
 pretty_printer
 (
 '
-js
+JS
 :
 :
 Rooted

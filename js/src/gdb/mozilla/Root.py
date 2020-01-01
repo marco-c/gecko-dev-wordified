@@ -269,7 +269,7 @@ type
     
 #
 |
-js
+JS
 :
 :
 Rooted
@@ -284,7 +284,7 @@ in
 GDB
 as
 |
-js
+JS
 :
 :
 Rooted
@@ -336,7 +336,7 @@ type
 for
 which
 |
-js
+JS
 :
 :
 Rooted
@@ -369,7 +369,7 @@ full
 #
 instantiation
 |
-js
+JS
 :
 :
 Rooted
@@ -383,7 +383,7 @@ constructor
 creates
 a
 |
-js
+JS
 :
 :
 Rooted
@@ -573,7 +573,7 @@ ptr
 template_pretty_printer
 (
 "
-js
+JS
 :
 :
 Rooted
@@ -754,7 +754,7 @@ tag
 startswith
 (
 '
-js
+JS
 :
 :
 Rooted
@@ -777,7 +777,7 @@ tag
 startswith
 (
 '
-js
+JS
 :
 :
 Handle

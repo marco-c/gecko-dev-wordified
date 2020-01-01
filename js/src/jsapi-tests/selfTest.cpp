@@ -120,7 +120,7 @@ BEGIN_TEST
 selfTest_NaNsAreSame
 )
 {
-js
+JS
 :
 :
 RootedValue
