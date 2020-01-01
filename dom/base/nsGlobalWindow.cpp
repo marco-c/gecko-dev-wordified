@@ -40697,16 +40697,8 @@ currentInner
 NS_OK
 )
 ;
-JSContext
-*
+AutoSafeJSContext
 cx
-=
-nsContentUtils
-:
-:
-GetSafeJSContext
-(
-)
 ;
 JS
 :
