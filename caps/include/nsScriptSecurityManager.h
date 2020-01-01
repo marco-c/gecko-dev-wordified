@@ -2751,14 +2751,6 @@ nsAString
 aCapability
 )
 ;
-nsresult
-SavePrincipal
-(
-nsIPrincipal
-*
-aToSave
-)
-;
 /
 *
 *
