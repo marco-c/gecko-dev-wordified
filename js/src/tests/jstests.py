@@ -1,4 +1,13 @@
 #
+!
+/
+usr
+/
+bin
+/
+env
+python
+#
 Test
 harness
 for
