@@ -53216,6 +53216,16 @@ at
 version
 *
 TELEMETRY_DISPLAY_REV
+or
+higher
+(
+to
+avoid
+the
+prompt
+in
+tests
+)
 .
 *
 /
@@ -53247,8 +53257,7 @@ e
 if
 (
 telemetryDisplayed
-=
-=
+>
 =
 self
 .
