@@ -21259,7 +21259,7 @@ startupNotifier
 ;
 nsCOMPtr
 <
-nsIAppStartup2
+nsIAppStartup
 >
 appStartup
 (

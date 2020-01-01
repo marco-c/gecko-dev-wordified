@@ -4271,7 +4271,7 @@ getService
 (
 Ci
 .
-nsIAppStartup_MOZILLA_2_0
+nsIAppStartup
 )
 .
 getStartupInfo
