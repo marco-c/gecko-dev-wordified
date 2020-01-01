@@ -8613,6 +8613,10 @@ mDataBuffer
 (
 nsnull
 )
+mKeepRequestAlive
+(
+PR_FALSE
+)
 mRequest
 (
 nsnull
@@ -12025,6 +12029,10 @@ mReceivedDispositionInfo
 =
 PR_FALSE
 ;
+mKeepRequestAlive
+=
+PR_TRUE
+;
 /
 /
 invoke
@@ -13563,6 +13571,11 @@ mStopRequestIssued
 =
 PR_TRUE
 ;
+if
+(
+!
+mKeepRequestAlive
+)
 mRequest
 =
 nsnull
@@ -14360,6 +14373,10 @@ SetWebProgressListener
 (
 tr
 )
+;
+mRequest
+=
+nsnull
 ;
 return
 rv
@@ -16693,6 +16710,10 @@ in
 OnStartRequest
 )
 mDialog
+=
+nsnull
+;
+mRequest
 =
 nsnull
 ;
