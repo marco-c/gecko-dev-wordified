@@ -2196,6 +2196,12 @@ DoGetColumnCount
 ;
 nsIDOMCSSValue
 *
+DoGetColumnFill
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetColumnWidth
 (
 )
