@@ -361,7 +361,6 @@ nsCookieKey
 (
 const
 KeyType
-&
 other
 )
 :
