@@ -704,9 +704,6 @@ lineno
 unsigned
 lineno
 (
-JSContext
-*
-cx
 jsbytecode
 *
 pc
@@ -848,9 +845,9 @@ jssrcnote
 *
 getNote
 (
-JSContext
-*
-cx
+GSNCache
+&
+gsn
 jsbytecode
 *
 pc
@@ -858,9 +855,9 @@ pc
 const
 {
 return
-js_GetSrcNote
+GetSrcNote
 (
-cx
+gsn
 script
 (
 )
