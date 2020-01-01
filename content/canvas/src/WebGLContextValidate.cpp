@@ -455,7 +455,7 @@ WebGLContext
 :
 ValidateBuffers
 (
-PRInt32
+int32_t
 *
 maxAllowedCount
 const
@@ -541,7 +541,7 @@ maxAllowedCount
 -
 1
 ;
-PRUint32
+uint32_t
 attribs
 =
 mAttribBuffers
@@ -552,7 +552,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1546,7 +1546,7 @@ info
 )
 {
 const
-PRUint32
+uint32_t
 maxSize
 =
 256
@@ -1633,7 +1633,7 @@ info
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2323,7 +2323,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 WebGLContext
 :
 :
@@ -2470,7 +2470,7 @@ WebGLenum
 type
 int
 jsArrayType
-PRUint32
+uint32_t
 *
 texelSize
 const

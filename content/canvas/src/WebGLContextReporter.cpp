@@ -860,7 +860,7 @@ webgl
 buffer
 "
 )
-PRInt64
+int64_t
 WebGLMemoryMultiReporterWrapper
 :
 :
@@ -877,7 +877,7 @@ Contexts
 (
 )
 ;
-PRInt64
+int64_t
 result
 =
 0
@@ -982,7 +982,7 @@ webgl
 shader
 "
 )
-PRInt64
+int64_t
 WebGLMemoryMultiReporterWrapper
 :
 :
@@ -999,7 +999,7 @@ Contexts
 (
 )
 ;
-PRInt64
+int64_t
 result
 =
 0

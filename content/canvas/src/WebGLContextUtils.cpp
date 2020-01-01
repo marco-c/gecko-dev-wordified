@@ -500,9 +500,9 @@ WebGLsizei
 height
 WebGLsizei
 width
-PRUint32
+uint32_t
 pixelSize
-PRUint32
+uint32_t
 packOrUnpackAlignment
 )
 {
