@@ -725,7 +725,7 @@ NS_IMPL_ISUPPORTS1
 BackwardsAllocator
 nsIMemory
 )
-NS_IMETHODIMP
+nsresult
 BackwardsAllocator
 :
 :
