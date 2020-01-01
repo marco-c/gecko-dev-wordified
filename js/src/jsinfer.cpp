@@ -7071,15 +7071,6 @@ arrayKind
 TypedArray
 :
 :
-TYPE_UINT32
-|
-|
-arrayKind
-=
-=
-TypedArray
-:
-:
 TYPE_FLOAT32
 |
 |
