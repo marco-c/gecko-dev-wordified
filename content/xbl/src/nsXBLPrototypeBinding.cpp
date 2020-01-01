@@ -3108,8 +3108,10 @@ in
 the
 array
 .
+nsCOMPtr
+<
 nsIContent
-*
+>
 content
 =
 GetImmediateChild
@@ -3136,8 +3138,10 @@ GetElement
 (
 )
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 realElement
 =
 LocateInstance
