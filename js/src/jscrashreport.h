@@ -493,6 +493,7 @@ template
 <
 size_t
 size
+unsigned
 char
 marker
 >
@@ -503,6 +504,7 @@ private
 :
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 volatile
+unsigned
 char
 buffer
 [
@@ -568,6 +570,7 @@ i
 =
 (
 (
+unsigned
 char
 *
 )
