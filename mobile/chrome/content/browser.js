@@ -9536,6 +9536,12 @@ _showScrollbars
 (
 )
 {
+this
+.
+_updateScrollbars
+(
+)
+;
 let
 scaleX
 =
