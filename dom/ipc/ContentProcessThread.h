@@ -564,6 +564,8 @@ public
 :
 ContentProcessThread
 (
+ProcessHandle
+mParentHandle
 )
 ;
 ~

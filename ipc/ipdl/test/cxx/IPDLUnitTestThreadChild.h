@@ -472,6 +472,8 @@ public
 :
 IPDLUnitTestThreadChild
 (
+ProcessHandle
+aParentHandle
 )
 ;
 ~

@@ -643,6 +643,8 @@ public
 :
 PluginThreadChild
 (
+ProcessHandle
+aParentHandle
 )
 ;
 ~
