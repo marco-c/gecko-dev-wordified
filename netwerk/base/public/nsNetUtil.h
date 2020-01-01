@@ -3445,7 +3445,7 @@ rv
 )
 )
 {
-PRUint32
+PRUint64
 n
 ;
 /

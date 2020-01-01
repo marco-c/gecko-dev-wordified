@@ -281,9 +281,6 @@ re
 observing
 the
 document
-PRUint32
-mUpdateDepth
-;
 bool
 mUnhookPending
 ;

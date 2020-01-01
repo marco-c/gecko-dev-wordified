@@ -528,6 +528,10 @@ virtual
 bool
 EndEmptyTransaction
 (
+EndTransactionFlags
+aFlags
+=
+END_DEFAULT
 )
 ;
 struct
@@ -973,6 +977,8 @@ EnsureReadbackManager
 void
 Render
 (
+EndTransactionFlags
+aFlags
 )
 ;
 nsRefPtr

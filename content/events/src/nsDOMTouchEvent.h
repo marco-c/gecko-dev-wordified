@@ -417,6 +417,7 @@ mPointsInitialized
 ;
 class
 nsDOMTouchList
+MOZ_FINAL
 :
 public
 nsIDOMTouchList

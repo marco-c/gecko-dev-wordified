@@ -1073,7 +1073,7 @@ nsIInputStream
 >
 mRequestStream
 ;
-PRUint32
+PRUint64
 mRequestSize
 ;
 nsAHttpConnection

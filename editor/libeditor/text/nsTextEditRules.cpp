@@ -551,7 +551,7 @@ false
 )
 mTheAction
 (
-OperationID
+EditAction
 :
 :
 none
@@ -1125,7 +1125,7 @@ nsTextEditRules
 :
 BeforeEdit
 (
-OperationID
+EditAction
 action
 nsIEditor
 :
@@ -1242,7 +1242,7 @@ nsTextEditRules
 :
 AfterEdit
 (
-OperationID
+EditAction
 action
 nsIEditor
 :
@@ -1507,7 +1507,7 @@ action
 )
 {
 case
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -1525,13 +1525,13 @@ maxLength
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 insertText
 :
 case
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -1561,7 +1561,7 @@ maxLength
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -1579,7 +1579,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 undo
@@ -1593,7 +1593,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 redo
@@ -1607,7 +1607,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 setTextProperty
@@ -1621,7 +1621,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 removeTextProperty
@@ -1635,7 +1635,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 outputText
@@ -1657,7 +1657,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 insertElement
@@ -1799,7 +1799,7 @@ action
 )
 {
 case
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -1812,13 +1812,13 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 insertText
 :
 case
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -1831,7 +1831,7 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -1848,7 +1848,7 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 undo
@@ -1861,7 +1861,7 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 redo
@@ -1874,7 +1874,7 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 setTextProperty
@@ -1887,7 +1887,7 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 removeTextProperty
@@ -1900,7 +1900,7 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 outputText
@@ -3392,7 +3392,7 @@ nsTextEditRules
 :
 WillInsertText
 (
-OperationID
+EditAction
 aAction
 Selection
 *
@@ -3445,7 +3445,7 @@ IsEmpty
 aAction
 !
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -3617,7 +3617,7 @@ IsEmpty
 aAction
 !
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -3807,7 +3807,7 @@ if
 aAction
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -4196,7 +4196,7 @@ if
 aAction
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -4234,7 +4234,7 @@ else
 aAction
 =
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -6404,7 +6404,7 @@ nsAutoRules
 beginRulesSniffing
 (
 mEditor
-OperationID
+EditAction
 :
 :
 ignore

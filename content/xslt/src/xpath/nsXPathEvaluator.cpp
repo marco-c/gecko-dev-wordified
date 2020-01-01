@@ -233,9 +233,6 @@ public
 :
 nsXPathEvaluatorParseContext
 (
-nsXPathEvaluator
-&
-aEvaluator
 nsIDOMXPathNSResolver
 *
 aResolver
@@ -261,10 +258,6 @@ bool
 aIsCaseSensitive
 )
 :
-mEvaluator
-(
-aEvaluator
-)
 mResolver
 (
 aResolver
@@ -371,10 +364,6 @@ aOffset
 ;
 private
 :
-nsXPathEvaluator
-&
-mEvaluator
-;
 nsIDOMXPathNSResolver
 *
 mResolver
@@ -929,8 +918,6 @@ mDocument
 nsXPathEvaluatorParseContext
 pContext
 (
-*
-this
 aResolver
 aNamespaceIDs
 aContractIDs

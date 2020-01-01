@@ -1235,7 +1235,9 @@ JSREPORT_ERROR
 JSMSG_NOT_FUNCTION
 JSDVG_SEARCH_STACK
 funv
-NULL
+NullPtr
+(
+)
 NULL
 NULL
 )
@@ -17677,9 +17679,10 @@ builder
 =
 NULL
 ;
-Value
+RootedValue
 arg
-=
+(
+cx
 argc
 >
 1
@@ -17695,6 +17698,7 @@ vp
 :
 UndefinedValue
 (
+)
 )
 ;
 if
@@ -17724,7 +17728,9 @@ JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 arg
-NULL
+NullPtr
+(
+)
 "
 not
 an
@@ -18105,7 +18111,9 @@ JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 prop
-NULL
+NullPtr
+(
+)
 "
 not
 an

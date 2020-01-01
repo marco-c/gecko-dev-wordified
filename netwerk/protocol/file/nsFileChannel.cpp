@@ -2794,7 +2794,7 @@ we
 are
 uploading
 .
-PRUint32
+PRUint64
 avail
 ;
 nsresult
@@ -2819,6 +2819,12 @@ rv
 return
 rv
 ;
+if
+(
+avail
+<
+PR_INT64_MAX
+)
 mUploadLength
 =
 avail

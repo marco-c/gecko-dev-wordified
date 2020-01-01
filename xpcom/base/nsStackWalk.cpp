@@ -7021,6 +7021,9 @@ GCC_3
 .
 0
 #
+define
+_GNU_SOURCE
+#
 include
 <
 unwind

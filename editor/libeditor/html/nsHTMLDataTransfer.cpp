@@ -1031,7 +1031,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 loadHTML
@@ -1063,7 +1063,7 @@ selection
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 loadHTML
@@ -1515,7 +1515,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 htmlPaste
@@ -2324,7 +2324,7 @@ cancel
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement
@@ -10309,7 +10309,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertQuotation
@@ -10352,7 +10352,7 @@ cancel
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement
@@ -11712,7 +11712,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertQuotation
@@ -11735,7 +11735,7 @@ cancel
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement
@@ -12291,7 +12291,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertQuotation
@@ -12314,7 +12314,7 @@ cancel
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement

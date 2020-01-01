@@ -301,7 +301,7 @@ Close
 nsresult
 Available
 (
-PRUint32
+PRUint64
 *
 _retval
 )
@@ -758,7 +758,7 @@ Close
 NS_IMETHOD
 Available
 (
-PRUint32
+PRUint64
 *
 _retval
 )
@@ -1130,7 +1130,7 @@ aResult
 NS_IMETHOD
 Available
 (
-PRUint32
+PRUint64
 *
 aResult
 )
@@ -1174,17 +1174,14 @@ aResult
 ;
 private
 :
-PRUint32
+PRUint64
 TruncateSize
 (
-PRUint32
+PRUint64
 aSize
 )
 {
 return
-(
-PRUint32
-)
 NS_MIN
 <
 PRUint64

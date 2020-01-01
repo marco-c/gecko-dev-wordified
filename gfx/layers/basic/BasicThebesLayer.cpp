@@ -228,9 +228,12 @@ GetRetainerWidget
 ;
 if
 (
+!
 widget
-)
-{
+|
+|
+!
+(
 referenceSurface
 =
 widget
@@ -239,9 +242,8 @@ widget
 GetThebesSurface
 (
 )
-;
-}
-else
+)
+)
 {
 referenceSurface
 =

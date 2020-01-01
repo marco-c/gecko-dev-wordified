@@ -440,8 +440,6 @@ aMethodIndex
 #
 ifdef
 TX_TO_STRING
-PRInt32
-aNamespaceID
 nsIAtom
 *
 aName
@@ -482,9 +480,6 @@ mMethodIndex
 #
 ifdef
 TX_TO_STRING
-PRInt32
-mNamespaceID
-;
 nsCOMPtr
 <
 nsIAtom
@@ -518,8 +513,6 @@ aMethodIndex
 #
 ifdef
 TX_TO_STRING
-PRInt32
-aNamespaceID
 nsIAtom
 *
 aName
@@ -545,10 +538,6 @@ aMethodIndex
 #
 ifdef
 TX_TO_STRING
-mNamespaceID
-(
-aNamespaceID
-)
 mName
 (
 aName
@@ -1154,7 +1143,6 @@ methodIndex
 #
 ifdef
 TX_TO_STRING
-aNamespaceID
 aName
 #
 endif

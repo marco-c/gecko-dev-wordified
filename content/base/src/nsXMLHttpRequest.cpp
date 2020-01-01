@@ -15836,7 +15836,7 @@ mUploadComplete
 =
 false
 ;
-PRUint32
+PRUint64
 uploadTotal
 =
 0

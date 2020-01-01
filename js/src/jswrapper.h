@@ -1063,6 +1063,10 @@ DirectWrapper
 (
 unsigned
 flags
+bool
+hasPrototype
+=
+false
 )
 ;
 virtual
@@ -1452,6 +1456,10 @@ DirectWrapper
 singleton
 ;
 static
+DirectWrapper
+singletonWithPrototype
+;
+static
 void
 *
 getWrapperFamily
@@ -1488,6 +1496,10 @@ CrossCompartmentWrapper
 (
 unsigned
 flags
+bool
+hasPrototype
+=
+false
 )
 ;
 virtual
@@ -1902,6 +1914,10 @@ vp
 static
 CrossCompartmentWrapper
 singleton
+;
+static
+CrossCompartmentWrapper
+singletonWithPrototype
 ;
 }
 ;

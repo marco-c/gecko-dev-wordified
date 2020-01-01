@@ -386,7 +386,7 @@ DetachEditor
 NS_IMETHOD
 BeforeEdit
 (
-OperationID
+EditAction
 action
 nsIEditor
 :
@@ -398,7 +398,7 @@ aDirection
 NS_IMETHOD
 AfterEdit
 (
-OperationID
+EditAction
 action
 nsIEditor
 :
@@ -768,7 +768,7 @@ aCancel
 nsresult
 WillInsertText
 (
-OperationID
+EditAction
 aAction
 mozilla
 :
@@ -1444,7 +1444,7 @@ aOffset
 nsresult
 AfterEditInner
 (
-OperationID
+EditAction
 action
 nsIEditor
 :
@@ -1709,7 +1709,7 @@ nsIDOMNode
 aNode
 PRInt32
 aOffset
-OperationID
+EditAction
 actionID
 nsCOMPtr
 <
@@ -1734,7 +1734,7 @@ nsIDOMRange
 >
 &
 outArrayOfRanges
-OperationID
+EditAction
 inOperationType
 )
 ;
@@ -1744,7 +1744,7 @@ PromoteRange
 nsIDOMRange
 *
 inRange
-OperationID
+EditAction
 inOperationType
 )
 ;
@@ -1763,7 +1763,7 @@ nsIDOMNode
 >
 &
 outArrayOfNodes
-OperationID
+EditAction
 inOperationType
 bool
 aDontTouchContent
@@ -1790,7 +1790,7 @@ GetNodesFromPoint
 (
 DOMPoint
 point
-OperationID
+EditAction
 operation
 nsCOMArray
 <
@@ -1808,7 +1808,7 @@ GetNodesFromSelection
 nsISelection
 *
 selection
-OperationID
+EditAction
 operation
 nsCOMArray
 <

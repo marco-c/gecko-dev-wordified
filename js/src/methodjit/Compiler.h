@@ -1679,6 +1679,9 @@ pointer
 .
 *
 /
+SPSInstrumentation
+sps
+;
 Assembler
 masm
 ;
@@ -2668,9 +2671,6 @@ updatePCCounts
 jsbytecode
 *
 pc
-Label
-*
-start
 bool
 *
 updated

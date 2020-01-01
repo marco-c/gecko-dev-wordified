@@ -695,7 +695,7 @@ static
 bool
 IsStyleCachePreservingAction
 (
-OperationID
+EditAction
 action
 )
 {
@@ -703,7 +703,7 @@ return
 action
 =
 =
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -712,7 +712,7 @@ deleteSelection
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -721,7 +721,7 @@ insertBreak
 action
 =
 =
-OperationID
+EditAction
 :
 :
 makeList
@@ -730,7 +730,7 @@ makeList
 action
 =
 =
-OperationID
+EditAction
 :
 :
 indent
@@ -739,7 +739,7 @@ indent
 action
 =
 =
-OperationID
+EditAction
 :
 :
 outdent
@@ -748,7 +748,7 @@ outdent
 action
 =
 =
-OperationID
+EditAction
 :
 :
 align
@@ -757,7 +757,7 @@ align
 action
 =
 =
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -766,7 +766,7 @@ makeBasicBlock
 action
 =
 =
-OperationID
+EditAction
 :
 :
 removeList
@@ -775,7 +775,7 @@ removeList
 action
 =
 =
-OperationID
+EditAction
 :
 :
 makeDefListItem
@@ -784,7 +784,7 @@ makeDefListItem
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertElement
@@ -793,7 +793,7 @@ insertElement
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertQuotation
@@ -2236,7 +2236,7 @@ nsHTMLEditRules
 :
 BeforeEdit
 (
-OperationID
+EditAction
 action
 nsIEditor
 :
@@ -2531,7 +2531,7 @@ if
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -2540,7 +2540,7 @@ insertText
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -2549,7 +2549,7 @@ insertIMEText
 action
 =
 =
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -2713,7 +2713,7 @@ nsHTMLEditRules
 :
 AfterEdit
 (
-OperationID
+EditAction
 action
 nsIEditor
 :
@@ -2889,7 +2889,7 @@ nsHTMLEditRules
 :
 AfterEditInner
 (
-OperationID
+EditAction
 action
 nsIEditor
 :
@@ -2907,7 +2907,7 @@ if
 action
 =
 =
-OperationID
+EditAction
 :
 :
 ignore
@@ -3041,7 +3041,7 @@ bDamagedRange
 action
 =
 =
-OperationID
+EditAction
 :
 :
 undo
@@ -3052,7 +3052,7 @@ undo
 action
 =
 =
-OperationID
+EditAction
 :
 :
 redo
@@ -3168,11 +3168,11 @@ along
 the
 way
 for
-OperationID
+EditAction
 :
 :
 loadHTML
-OperationID
+EditAction
 :
 :
 insertText
@@ -3199,7 +3199,7 @@ if
 action
 =
 =
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -3264,7 +3264,7 @@ if
 action
 !
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -3273,7 +3273,7 @@ insertText
 action
 !
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -3341,7 +3341,7 @@ if
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -3352,7 +3352,7 @@ insertText
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -3363,7 +3363,7 @@ insertIMEText
 action
 =
 =
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -3374,7 +3374,7 @@ deleteSelection
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -3385,7 +3385,7 @@ insertBreak
 action
 =
 =
-OperationID
+EditAction
 :
 :
 htmlPaste
@@ -3395,7 +3395,7 @@ htmlPaste
 action
 =
 =
-OperationID
+EditAction
 :
 :
 loadHTML
@@ -3553,7 +3553,7 @@ if
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -3564,7 +3564,7 @@ insertText
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -3575,7 +3575,7 @@ insertIMEText
 action
 =
 =
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -3586,7 +3586,7 @@ deleteSelection
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -3597,7 +3597,7 @@ insertBreak
 action
 =
 =
-OperationID
+EditAction
 :
 :
 htmlPaste
@@ -3607,7 +3607,7 @@ htmlPaste
 action
 =
 =
-OperationID
+EditAction
 :
 :
 loadHTML
@@ -3645,7 +3645,7 @@ if
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -3654,7 +3654,7 @@ insertText
 action
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -3663,7 +3663,7 @@ insertIMEText
 action
 =
 =
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -3875,7 +3875,7 @@ info
 action
 =
 =
-OperationID
+EditAction
 :
 :
 outputText
@@ -3887,7 +3887,7 @@ info
 action
 =
 =
-OperationID
+EditAction
 :
 :
 undo
@@ -3899,7 +3899,7 @@ info
 action
 =
 =
-OperationID
+EditAction
 :
 :
 redo
@@ -4079,13 +4079,13 @@ action
 )
 {
 case
-OperationID
+EditAction
 :
 :
 insertText
 :
 case
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -4115,7 +4115,7 @@ maxLength
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 loadHTML
@@ -4128,7 +4128,7 @@ aCancel
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -4142,7 +4142,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -4164,7 +4164,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 makeList
@@ -4190,7 +4190,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 indent
@@ -4204,7 +4204,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 outdent
@@ -4218,7 +4218,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 setAbsolutePosition
@@ -4232,7 +4232,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 removeAbsolutePosition
@@ -4246,7 +4246,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 align
@@ -4264,7 +4264,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -4282,7 +4282,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 removeList
@@ -4300,7 +4300,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 makeDefListItem
@@ -4322,7 +4322,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 insertElement
@@ -4335,7 +4335,7 @@ aCancel
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 decreaseZIndex
@@ -4351,7 +4351,7 @@ aHandled
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 increaseZIndex
@@ -4419,7 +4419,7 @@ action
 )
 {
 case
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -4432,7 +4432,7 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -4449,25 +4449,25 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 makeBasicBlock
 :
 case
-OperationID
+EditAction
 :
 :
 indent
 :
 case
-OperationID
+EditAction
 :
 :
 outdent
 :
 case
-OperationID
+EditAction
 :
 :
 align
@@ -4481,7 +4481,7 @@ aResult
 )
 ;
 case
-OperationID
+EditAction
 :
 :
 setAbsolutePosition
@@ -5597,7 +5597,7 @@ GetPromotedRanges
 (
 selection
 arrayOfRanges
-OperationID
+EditAction
 :
 :
 align
@@ -5636,7 +5636,7 @@ GetNodesForOperation
 (
 arrayOfRanges
 arrayOfNodes
-OperationID
+EditAction
 :
 :
 align
@@ -6377,7 +6377,7 @@ res
 GetNodesFromSelection
 (
 selection
-OperationID
+EditAction
 :
 :
 indent
@@ -8380,7 +8380,7 @@ mDidDeleteSelection
 mTheAction
 =
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -8389,7 +8389,7 @@ insertText
 mTheAction
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -8398,7 +8398,7 @@ insertIMEText
 mTheAction
 =
 =
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -8468,7 +8468,7 @@ nsHTMLEditRules
 :
 WillInsertText
 (
-OperationID
+EditAction
 aAction
 Selection
 *
@@ -8521,7 +8521,7 @@ IsEmpty
 aAction
 !
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -8831,7 +8831,7 @@ if
 aAction
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -18681,7 +18681,7 @@ DOMPoint
 aRightBlock
 aRightOffset
 )
-OperationID
+EditAction
 :
 :
 makeList
@@ -21803,7 +21803,7 @@ GetPromotedRanges
 (
 aSelection
 arrayOfRanges
-OperationID
+EditAction
 :
 :
 makeList
@@ -22310,7 +22310,7 @@ res
 GetNodesFromSelection
 (
 aSelection
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -23565,7 +23565,7 @@ res
 GetNodesFromSelection
 (
 aSelection
-OperationID
+EditAction
 :
 :
 indent
@@ -24833,7 +24833,7 @@ GetPromotedRanges
 (
 aSelection
 arrayOfRanges
-OperationID
+EditAction
 :
 :
 indent
@@ -24872,7 +24872,7 @@ GetNodesForOperation
 (
 arrayOfRanges
 arrayOfNodes
-OperationID
+EditAction
 :
 :
 indent
@@ -26448,7 +26448,7 @@ res
 GetNodesFromSelection
 (
 aSelection
-OperationID
+EditAction
 :
 :
 outdent
@@ -30311,7 +30311,7 @@ res
 GetNodesFromSelection
 (
 aSelection
-OperationID
+EditAction
 :
 :
 align
@@ -36230,7 +36230,7 @@ nsIDOMNode
 aNode
 PRInt32
 aOffset
-OperationID
+EditAction
 actionID
 nsCOMPtr
 <
@@ -36306,7 +36306,7 @@ if
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -36315,7 +36315,7 @@ insertText
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -36324,7 +36324,7 @@ insertIMEText
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -36333,7 +36333,7 @@ insertBreak
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 deleteText
@@ -36904,7 +36904,7 @@ if
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 outdent
@@ -37027,7 +37027,7 @@ blockLevelAction
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 indent
@@ -37036,7 +37036,7 @@ indent
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 outdent
@@ -37045,7 +37045,7 @@ outdent
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 align
@@ -37054,7 +37054,7 @@ align
 actionID
 =
 =
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -37693,7 +37693,7 @@ nsIDOMRange
 >
 &
 outArrayOfRanges
-OperationID
+EditAction
 inOperationType
 )
 {
@@ -37994,7 +37994,7 @@ PromoteRange
 nsIDOMRange
 *
 inRange
-OperationID
+EditAction
 inOperationType
 )
 {
@@ -38701,7 +38701,7 @@ nsIDOMNode
 >
 &
 outArrayOfNodes
-OperationID
+EditAction
 inOperationType
 bool
 aDontTouchContent
@@ -39252,7 +39252,7 @@ if
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -39373,7 +39373,7 @@ if
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 outdent
@@ -39382,7 +39382,7 @@ outdent
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 indent
@@ -39391,7 +39391,7 @@ indent
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 setAbsolutePosition
@@ -39491,7 +39491,7 @@ if
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 outdent
@@ -39629,7 +39629,7 @@ if
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -39638,7 +39638,7 @@ makeBasicBlock
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 makeList
@@ -39647,7 +39647,7 @@ makeList
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 align
@@ -39656,7 +39656,7 @@ align
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 setAbsolutePosition
@@ -39665,7 +39665,7 @@ setAbsolutePosition
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 indent
@@ -39674,7 +39674,7 @@ indent
 inOperationType
 =
 =
-OperationID
+EditAction
 :
 :
 outdent
@@ -40414,7 +40414,7 @@ res
 GetNodesFromSelection
 (
 selection
-OperationID
+EditAction
 :
 :
 makeList
@@ -41468,7 +41468,7 @@ res
 GetNodesFromSelection
 (
 selection
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -42664,7 +42664,7 @@ GetNodesFromPoint
 (
 DOMPoint
 point
-OperationID
+EditAction
 operation
 nsCOMArray
 <
@@ -42958,7 +42958,7 @@ GetNodesFromSelection
 nsISelection
 *
 selection
-OperationID
+EditAction
 operation
 nsCOMArray
 <
@@ -59235,7 +59235,7 @@ GetPromotedRanges
 (
 aSelection
 arrayOfRanges
-OperationID
+EditAction
 :
 :
 setAbsolutePosition
@@ -59274,7 +59274,7 @@ GetNodesForOperation
 (
 arrayOfRanges
 arrayOfNodes
-OperationID
+EditAction
 :
 :
 setAbsolutePosition

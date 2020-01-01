@@ -814,7 +814,7 @@ FakeInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 aAvailable
 )

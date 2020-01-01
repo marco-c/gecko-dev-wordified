@@ -3387,7 +3387,7 @@ the
 socket
 now
 .
-PRUint32
+PRUint64
 dataSize
 ;
 if
@@ -3444,7 +3444,7 @@ data
 pending
 (
 %
-d
+llu
 )
 on
 it
