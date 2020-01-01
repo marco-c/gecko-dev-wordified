@@ -440,7 +440,7 @@ e
 mReceiver
 -
 >
-OnContainerFocusInEvent
+OnFocusInEvent
 (
 fev
 )
@@ -473,7 +473,7 @@ e
 mReceiver
 -
 >
-OnContainerFocusOutEvent
+OnFocusOutEvent
 (
 fev
 )
@@ -548,7 +548,7 @@ status
 mReceiver
 -
 >
-OnExposeEvent
+OnPaintEvent
 (
 ev
 )
@@ -580,7 +580,7 @@ status
 mReceiver
 -
 >
-OnConfigureEvent
+OnMoveEvent
 (
 mev
 )
@@ -612,7 +612,7 @@ status
 mReceiver
 -
 >
-OnSizeAllocate
+OnResizeEvent
 (
 rev
 )
@@ -706,7 +706,7 @@ status
 mReceiver
 -
 >
-OnDeleteEvent
+OnCloseEvent
 (
 cev
 )

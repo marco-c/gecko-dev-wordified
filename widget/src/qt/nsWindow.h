@@ -1491,21 +1491,6 @@ mEnabled
 ;
 /
 /
-has
-the
-native
-window
-for
-this
-been
-created
-yet
-?
-PRBool
-mCreated
-;
-/
-/
 Has
 anyone
 set
@@ -1594,7 +1579,7 @@ MozQWidget
 ;
 virtual
 nsEventStatus
-OnExposeEvent
+OnPaintEvent
 (
 QPaintEvent
 *
@@ -1602,7 +1587,7 @@ QPaintEvent
 ;
 virtual
 nsEventStatus
-OnConfigureEvent
+OnMoveEvent
 (
 QMoveEvent
 *
@@ -1610,7 +1595,7 @@ QMoveEvent
 ;
 virtual
 nsEventStatus
-OnSizeAllocate
+OnResizeEvent
 (
 QResizeEvent
 *
@@ -1618,7 +1603,7 @@ QResizeEvent
 ;
 virtual
 nsEventStatus
-OnDeleteEvent
+OnCloseEvent
 (
 QCloseEvent
 *
@@ -1674,7 +1659,7 @@ QMouseEvent
 ;
 virtual
 nsEventStatus
-OnContainerFocusInEvent
+OnFocusInEvent
 (
 QFocusEvent
 *
@@ -1682,7 +1667,7 @@ QFocusEvent
 ;
 virtual
 nsEventStatus
-OnContainerFocusOutEvent
+OnFocusOutEvent
 (
 QFocusEvent
 *
