@@ -12156,11 +12156,7 @@ condition
 MemberCondition
 (
 None
-                                                     
 "
-nsINode
-:
-:
 IsChromeOrXBL
 "
 )
