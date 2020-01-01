@@ -2193,10 +2193,7 @@ result
 extensible
 ;
 return
-ok
-(
-rs
-)
+true
 ;
 }
 bool
