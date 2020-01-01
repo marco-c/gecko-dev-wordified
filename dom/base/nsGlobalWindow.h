@@ -2601,6 +2601,17 @@ bool
 aFound
 )
 ;
+void
+GetSupportedNames
+(
+nsTArray
+<
+nsString
+>
+&
+aNames
+)
+;
 /
 /
 Object
