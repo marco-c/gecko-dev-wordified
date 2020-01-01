@@ -474,9 +474,14 @@ GeckoRunning
 {
 GeckoAppShell
 .
-onChangeNetworkLinkStatus
+sendEventToGecko
+(
+GeckoEvent
+.
+createNetworkLinkChangeEvent
 (
 status
+)
 )
 ;
 }
