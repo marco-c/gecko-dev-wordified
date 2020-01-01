@@ -1054,9 +1054,6 @@ aCanGoBack
 if
 (
 aCanGoBack
-=
-=
-PR_TRUE
 )
 {
 webNav
@@ -1121,9 +1118,6 @@ aCanGoForward
 if
 (
 aCanGoForward
-=
-=
-PR_TRUE
 )
 {
 webNav

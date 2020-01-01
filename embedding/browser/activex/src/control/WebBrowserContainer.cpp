@@ -1809,9 +1809,6 @@ aCanGoForward
 if
 (
 aCanGoForward
-=
-=
-PR_TRUE
 )
 {
 bEnableForward
@@ -1857,9 +1854,6 @@ aCanGoBack
 if
 (
 aCanGoBack
-=
-=
-PR_TRUE
 )
 {
 bEnableBack
