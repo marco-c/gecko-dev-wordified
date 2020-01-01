@@ -3291,6 +3291,9 @@ result
 .
 mContext
 =
+new
+gfxContext
+(
 mTexImage
 -
 >
@@ -3299,6 +3302,7 @@ BeginUpdate
 result
 .
 mRegionToDraw
+)
 )
 ;
 if
