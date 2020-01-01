@@ -2354,6 +2354,7 @@ mixed
 and
 played
 .
+virtual
 void
 AddAudioOutput
 (
@@ -2362,6 +2363,7 @@ void
 aKey
 )
 ;
+virtual
 void
 SetAudioOutputVolume
 (
@@ -2372,6 +2374,7 @@ float
 aVolume
 )
 ;
+virtual
 void
 RemoveAudioOutput
 (
@@ -2414,6 +2417,7 @@ track
 is
 played
 .
+virtual
 void
 AddVideoOutput
 (
@@ -2422,6 +2426,7 @@ VideoFrameContainer
 aContainer
 )
 ;
+virtual
 void
 RemoveVideoOutput
 (
@@ -2458,6 +2463,7 @@ its
 buffered
 data
 .
+virtual
 void
 ChangeExplicitBlockerCount
 (
@@ -2477,6 +2483,7 @@ methods
 of
 aListener
 .
+virtual
 void
 AddListener
 (
@@ -2485,6 +2492,7 @@ MediaStreamListener
 aListener
 )
 ;
+virtual
 void
 RemoveListener
 (
@@ -2626,6 +2634,7 @@ be
 deleted
 later
 .
+virtual
 void
 Destroy
 (
