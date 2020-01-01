@@ -3654,7 +3654,7 @@ exit
 ;
 #
 ifdef
-VERBOSE
+DEBUG
 exit
 .
 from
