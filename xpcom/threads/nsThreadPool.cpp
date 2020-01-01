@@ -312,7 +312,6 @@ already_AddRefed
 <
 nsIThreadPoolListener
 >
-&
 aListener
 )
 :
