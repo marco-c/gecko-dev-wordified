@@ -2263,6 +2263,11 @@ Cu
 Sandbox
 (
 aWindow
+{
+sandboxPrototype
+:
+aWindow
+}
 )
 ;
 sandbox
@@ -2296,14 +2301,6 @@ sandbox
 window
 .
 navigator
-;
-sandbox
-.
-__proto__
-=
-sandbox
-.
-window
 ;
 sandbox
 .
