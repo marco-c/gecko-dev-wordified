@@ -1,11 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-xml
 function
 Person
 (
