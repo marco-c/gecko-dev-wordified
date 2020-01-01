@@ -2831,6 +2831,12 @@ globalObject
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+scopeObject
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 /
 /
 Don
@@ -3562,6 +3568,12 @@ GetXBLScope
 cx
 aBoundNode
 )
+)
+;
+NS_ENSURE_TRUE
+(
+scopeObject
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 JSAutoCompartment

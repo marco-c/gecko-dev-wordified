@@ -8934,6 +8934,12 @@ boundScope
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+xblScope
+false
+)
+;
 MOZ_ASSERT
 (
 boundScope
