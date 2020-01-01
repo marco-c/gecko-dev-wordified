@@ -23117,6 +23117,9 @@ switch
 (
 vxml
 ?
+(
+JSXMLClass
+)
 vxml
 -
 >
