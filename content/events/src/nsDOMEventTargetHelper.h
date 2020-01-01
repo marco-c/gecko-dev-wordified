@@ -725,6 +725,14 @@ mHasOrHasHadOwnerWindow
 }
 protected
 :
+nsresult
+WantsUntrusted
+(
+bool
+*
+aRetVal
+)
+;
 nsRefPtr
 <
 nsEventListenerManager
