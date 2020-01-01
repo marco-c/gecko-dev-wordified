@@ -14781,6 +14781,10 @@ oom
 =
 false
 ;
+RESideExit
+*
+exit
+;
 this
 -
 >
@@ -15273,8 +15277,6 @@ guard
 )
 )
 ;
-RESideExit
-*
 exit
 =
 (
