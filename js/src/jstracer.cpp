@@ -49933,6 +49933,18 @@ return
 NO_DEEP_BAIL
 ;
 }
+#
+if
+defined
+(
+DEBUG
+)
+|
+|
+defined
+(
+JS_METHODJIT
+)
 static
 jsbytecode
 *
@@ -50006,6 +50018,8 @@ sn
 )
 ;
 }
+#
+endif
 JS_ALWAYS_INLINE
 void
 TraceRecorder
