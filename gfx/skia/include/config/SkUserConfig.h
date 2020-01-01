@@ -1397,7 +1397,7 @@ code
 #
 define
 SK_SUPPORT_GPU
-0
+1
 /
 *
 Don
