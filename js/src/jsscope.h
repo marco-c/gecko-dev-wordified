@@ -2666,8 +2666,6 @@ in
 object
 *
 /
-protected
-:
 uint8
 flags
 ;
@@ -2678,8 +2676,6 @@ see
 below
 *
 /
-public
-:
 int8
 hashShift
 ;

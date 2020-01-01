@@ -5409,6 +5409,13 @@ i
 )
 |
 |
+js_PrototypeHasIndexedProperties
+(
+cx
+obj
+)
+|
+|
 INDEX_TOO_SPARSE
 (
 obj
