@@ -479,7 +479,7 @@ XYZType
 }
 ;
 /
-*
+/
 I
 guess
 we
@@ -488,8 +488,6 @@ to
 pack
 this
 ?
-*
-/
 #
 endif
 #

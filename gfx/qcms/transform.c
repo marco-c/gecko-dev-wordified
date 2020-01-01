@@ -1,6 +1,4 @@
 /
-*
-/
 /
 qcms
 /
@@ -233,8 +231,6 @@ IN
 THE
 SOFTWARE
 .
-*
-/
 #
 include
 <
@@ -5284,9 +5280,11 @@ if
 a
 <
 0
+.
 )
 return
 0
+.
 ;
 else
 return
