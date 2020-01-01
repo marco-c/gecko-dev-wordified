@@ -984,6 +984,16 @@ MULTI_DEVICE_THRESHOLD
 1
 /
 /
+Delay
+before
+incrementing
+global
+score
+SCORE_UPDATE_DELAY
+:
+100
+/
+/
 File
 IO
 Flags
