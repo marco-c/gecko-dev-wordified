@@ -71972,16 +71972,7 @@ if
 convert
 !
 =
-Valueify
-(
-JS_ConvertStub
-)
-&
-&
-convert
-!
-=
-js_TryValueOf
+ConvertStub
 )
 RETURN_STOP
 (

@@ -8359,15 +8359,9 @@ isObject
 if
 (
 !
-DefaultValue
+ToPrimitive
 (
 cx
-&
-v
-.
-toObject
-(
-)
 JSTYPE_NUMBER
 &
 v

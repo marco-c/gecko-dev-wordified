@@ -6288,7 +6288,7 @@ setProperty
 /
 EnumerateStub
 ResolveStub
-js_TryValueOf
+ConvertStub
 NULL
 NULL
 /
@@ -6398,7 +6398,7 @@ setProperty
 /
 EnumerateStub
 ResolveStub
-js_TryValueOf
+ConvertStub
 }
 ;
 static

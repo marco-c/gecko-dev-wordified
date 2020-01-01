@@ -502,7 +502,7 @@ BLOCK
 var
 BUGNUMBER
 =
-470364
+476624
 ;
 var
 summary
