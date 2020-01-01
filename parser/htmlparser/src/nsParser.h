@@ -817,6 +817,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 nsICharsetConverterManager
 ;
@@ -855,6 +862,8 @@ public
 nsIParser
 public
 nsIStreamListener
+public
+nsSupportsWeakReference
 {
 public
 :

@@ -2943,6 +2943,14 @@ SetScriptLineNumber
 aLineNumber
 )
 ;
+sele
+-
+>
+SetCreatorParser
+(
+mParser
+)
+;
 mConstrainSize
 =
 PR_FALSE
