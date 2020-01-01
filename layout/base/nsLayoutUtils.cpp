@@ -10831,6 +10831,12 @@ if
 gfxUtils
 :
 :
+sDumpPaintList
+|
+|
+gfxUtils
+:
+:
 sDumpPainting
 )
 {
@@ -11379,6 +11385,12 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
+gfxUtils
+:
+:
+sDumpPaintList
+|
+|
 gfxUtils
 :
 :
