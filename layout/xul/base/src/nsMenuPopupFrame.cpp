@@ -1082,14 +1082,6 @@ rv
 rv
 )
 ;
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 /
 /
 lookup
