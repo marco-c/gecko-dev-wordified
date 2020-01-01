@@ -1967,16 +1967,6 @@ version
 aAddon
 .
 version
-description
-:
-aAddon
-.
-description
-averageRating
-:
-aAddon
-.
-averageRating
 iconURL
 :
 aAddon
