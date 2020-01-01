@@ -392,6 +392,12 @@ BLOCK
 *
 /
 #
+ifndef
+nsGeoLocation_h
+#
+define
+nsGeoLocation_h
+#
 include
 "
 nsCOMPtr
@@ -1254,3 +1260,10 @@ mService
 ;
 }
 ;
+#
+endif
+/
+*
+nsGeoLocation_h
+*
+/
