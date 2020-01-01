@@ -144,6 +144,14 @@ nsINodeInfo
 aNodeInfo
 )
 ;
+NS_IMPL_FROMCONTENT_HTML_WITH_TAG
+(
+HTMLTableRowElement
+nsGkAtoms
+:
+:
+tr
+)
 /
 /
 nsISupports
