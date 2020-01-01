@@ -1042,6 +1042,7 @@ loop
 /
 /
 so
+no
 synchronization
 needed
 mPendingUris
