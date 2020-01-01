@@ -6027,16 +6027,6 @@ bounds
 }
 )
 ;
-Groups
-.
-repositionNewTabGroup
-(
-)
-;
-/
-/
-TODO
-:
 if
 (
 newPageBounds

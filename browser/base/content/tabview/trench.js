@@ -3981,16 +3981,6 @@ return
 ;
 if
 (
-group
-.
-isNewTabsGroup
-(
-)
-)
-return
-;
-if
-(
 trench
 .
 el
