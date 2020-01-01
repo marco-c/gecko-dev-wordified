@@ -1250,11 +1250,10 @@ class
 VisitedQuery
 :
 public
-mozIStorageStatementCallback
+AsyncStatementCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
 static
 nsresult
 Start
@@ -1688,11 +1687,6 @@ mIsVisited
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-VisitedQuery
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -2013,7 +2007,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 UpdateFrecencyAndNotifyStep
 (
 nsAutoPtr
@@ -2411,11 +2404,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-UpdateFrecencyAndNotifyStep
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -2442,7 +2430,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 GetVisitIDStep
 (
 nsAutoPtr
@@ -2589,11 +2576,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-GetVisitIDStep
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -2617,7 +2599,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 AddVisitStep
 (
 nsAutoPtr
@@ -3073,11 +3054,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-AddVisitStep
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -3116,7 +3092,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 CheckLastVisitStep
 (
 nsAutoPtr
@@ -3421,11 +3396,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-CheckLastVisitStep
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -3464,7 +3434,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 FindNewIdStep
 (
 nsAutoPtr
@@ -3598,11 +3567,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-FindNewIdStep
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -3640,7 +3604,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 CheckExistingStep
 (
 nsAutoPtr
@@ -4220,11 +4183,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-CheckExistingStep
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -4250,7 +4208,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 StartVisitURIStep
 (
 nsAutoPtr
@@ -4403,11 +4360,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-StartVisitURIStep
-Step
-)
 /
 /
 /
@@ -4536,7 +4488,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 TitleNotifyStep
 (
 nsAutoPtr
@@ -4606,11 +4557,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-TitleNotifyStep
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -4631,7 +4577,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 SetTitleStep
 (
 nsAutoPtr
@@ -4982,11 +4927,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-SetTitleStep
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -5012,7 +4952,6 @@ Step
 {
 public
 :
-NS_DECL_ISUPPORTS
 StartSetURITitleStep
 (
 nsAutoPtr
@@ -5160,11 +5099,6 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-StartSetURITitleStep
-Step
-)
 }
 /
 /
