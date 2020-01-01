@@ -1063,7 +1063,7 @@ writtenLines
 =
 ln
     
-aLine
+filteredLine
 =
 self
 .
@@ -1071,6 +1071,19 @@ applyFilters
 (
 aLine
 )
+    
+if
+filteredLine
+!
+=
+aLine
+:
+      
+self
+.
+actionLevel
+=
+2
     
 #
 ensure
@@ -1102,7 +1115,7 @@ for
 files
 .
     
-aLine
+filteredLine
 =
 re
 .
@@ -1115,7 +1128,7 @@ n
 self
 .
 LE
-aLine
+filteredLine
 )
     
 self
@@ -1124,7 +1137,7 @@ out
 .
 write
 (
-aLine
+filteredLine
 )
   
 def
