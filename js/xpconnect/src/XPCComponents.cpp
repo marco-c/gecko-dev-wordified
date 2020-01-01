@@ -2225,6 +2225,7 @@ ptr
 {
 '
 )
+{
 /
 /
 we
@@ -2234,7 +2235,6 @@ interfaces
 by
 name
 here
-{
 nsCOMPtr
 <
 nsIInterfaceInfo
@@ -5780,6 +5780,7 @@ ptr
 {
 '
 )
+{
 /
 /
 we
@@ -5787,7 +5788,6 @@ only
 allow
 contractids
 here
-{
 nsCOMPtr
 <
 nsIJSCID
@@ -7357,6 +7357,7 @@ ptr
 )
 )
 )
+{
 /
 /
 we
@@ -7365,7 +7366,6 @@ allow
 canonical
 CLSIDs
 here
-{
 nsCOMPtr
 <
 nsIJSCID

@@ -5961,7 +5961,6 @@ IS_SLIM_WRAPPER
 obj
 )
 )
-\
 {
 \
 wrapper
