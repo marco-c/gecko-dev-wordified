@@ -2537,6 +2537,9 @@ aItemId
 aProperty
 aIsAnnotationProperty
 aNewValue
+aLastModified
+aItemType
+aParentId
 )
 {
 if
@@ -2556,14 +2559,7 @@ views
 =
 getViewsForFolder
 (
-PlacesUtils
-.
-bookmarks
-.
-getFolderIdForItem
-(
-aItemId
-)
+aParentId
 )
 ;
 ok

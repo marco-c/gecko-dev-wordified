@@ -637,6 +637,7 @@ aFolder
 aIndex
 aItemType
 aURI
+aTitle
 )
 {
 do_check_eq
@@ -647,12 +648,7 @@ id
 ;
 do_check_eq
 (
-bs
-.
-getItemTitle
-(
-aItemId
-)
+aTitle
 TITLE
 )
 ;
