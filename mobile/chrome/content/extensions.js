@@ -2399,6 +2399,10 @@ isReadonly
 uninstallable
 )
 ;
+if
+(
+blocked
+)
 listitem
 .
 setAttribute
@@ -4097,7 +4101,7 @@ rating
 "
 addon
 .
-rating
+averageRating
 )
 ;
 let
