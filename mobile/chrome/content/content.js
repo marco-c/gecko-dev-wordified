@@ -2579,12 +2579,6 @@ Blur
 :
 docShell
 .
-isOffScreenBrowser
-=
-false
-;
-docShell
-.
 isActive
 =
 false
@@ -2604,12 +2598,6 @@ Browser
 Focus
 "
 :
-docShell
-.
-isOffScreenBrowser
-=
-true
-;
 docShell
 .
 isActive

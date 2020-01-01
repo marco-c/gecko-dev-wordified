@@ -401,7 +401,7 @@ browser
 .
 cachePixelX
 "
-400
+800
 )
 ;
 pref
@@ -413,7 +413,7 @@ browser
 .
 cachePixelY
 "
-1000
+2000
 )
 ;
 pref
@@ -4198,7 +4198,7 @@ zoom
 .
 animationDuration
 "
-350
+200
 )
 ;
 /
