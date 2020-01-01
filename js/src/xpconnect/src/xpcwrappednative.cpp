@@ -17460,7 +17460,6 @@ nsXPTType
 :
 :
 T_PSTRING_SIZE_IS
-)
 |
 |
 datum_type
@@ -17474,6 +17473,7 @@ nsXPTType
 :
 :
 T_PWSTRING_SIZE_IS
+)
 )
 |
 |
