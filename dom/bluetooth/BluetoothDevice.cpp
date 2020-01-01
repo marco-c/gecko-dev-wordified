@@ -1242,7 +1242,10 @@ GetUuids
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aUuids
 )
@@ -1294,7 +1297,10 @@ GetServices
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aServices
 )

@@ -279,7 +279,10 @@ aManager
 bool
 ParseSuccessfulReply
 (
-jsval
+JS
+:
+:
+Value
 *
 aValue
 )

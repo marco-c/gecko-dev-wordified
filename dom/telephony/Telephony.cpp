@@ -1459,7 +1459,10 @@ Telephony
 :
 GetActive
 (
-jsval
+JS
+:
+:
+Value
 *
 aActive
 )
@@ -1560,7 +1563,10 @@ Telephony
 :
 GetCalls
 (
-jsval
+JS
+:
+:
+Value
 *
 aCalls
 )

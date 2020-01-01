@@ -1242,7 +1242,10 @@ nsAString
 &
 aName
 const
-jsval
+JS
+:
+:
+Value
 &
 aResult
 )
