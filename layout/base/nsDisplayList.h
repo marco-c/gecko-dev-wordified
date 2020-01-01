@@ -13406,9 +13406,6 @@ aBuilder
 )
 ;
 }
-#
-ifdef
-NS_DEBUG
 nsDisplayWrapList
 *
 GetStoredList
@@ -13420,8 +13417,6 @@ return
 mStoredList
 ;
 }
-#
-endif
 virtual
 void
 HitTest
