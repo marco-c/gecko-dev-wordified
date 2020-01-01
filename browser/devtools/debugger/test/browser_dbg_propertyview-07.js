@@ -276,7 +276,7 @@ is
 localNodes
 .
 length
-11
+12
 "
 The
 localScope

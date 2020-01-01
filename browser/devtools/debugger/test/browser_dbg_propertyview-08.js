@@ -293,7 +293,7 @@ length
 localNonEnums
 .
 length
-11
+12
 "
 The
 localScope
