@@ -4872,7 +4872,7 @@ JSContext
 cx
 JSObject
 *
-obj
+obj_
 JSScopeProperty
 *
 sprop
@@ -4884,7 +4884,7 @@ pd
 assertSameCompartment
 (
 cx
-obj
+obj_
 )
 ;
 Shape
@@ -4910,6 +4910,13 @@ shape
 propid
 (
 )
+)
+;
+RootedVarObject
+obj
+(
+cx
+obj_
 )
 ;
 JSBool

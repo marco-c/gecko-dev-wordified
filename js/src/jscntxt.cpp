@@ -5886,7 +5886,7 @@ thingGCRooters
 #
 ifdef
 DEBUG
-checkGCRooters
+skipGCRooters
 =
 NULL
 ;

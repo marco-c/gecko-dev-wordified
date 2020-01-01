@@ -1089,6 +1089,12 @@ originPrin
 tokens
 (
 )
+tokensRoot
+(
+cx
+&
+tokens
+)
 cursor
 (
 )
@@ -1097,6 +1103,12 @@ lookahead
 )
 flags
 (
+)
+userbufRoot
+(
+cx
+&
+userbuf
 )
 listenerTSData
 (
