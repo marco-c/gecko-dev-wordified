@@ -9142,12 +9142,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
-<
-nsIFile
->
-file
-;
 return
 mRootDirectory
 -
