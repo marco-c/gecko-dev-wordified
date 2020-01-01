@@ -129,17 +129,6 @@ gfxASurface
 aSurface
 )
 {
-nsAutoCString
-tmpDir
-(
-getenv
-(
-"
-TMPDIR
-"
-)
-)
-;
 nsresult
 rv
 =
@@ -258,7 +247,7 @@ what
 should
 we
 do
-hear
+here
 for
 size
 ?
