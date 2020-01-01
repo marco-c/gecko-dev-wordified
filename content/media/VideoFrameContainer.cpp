@@ -464,6 +464,10 @@ mImageSizeChanged
 =
 true
 ;
+mNeedInvalidation
+=
+true
+;
 }
 mPaintTarget
 =
@@ -648,6 +652,10 @@ mImageContainer
 HasCurrentImage
 (
 )
+&
+&
+!
+mIntrinsicSizeChanged
 )
 {
 mNeedInvalidation
