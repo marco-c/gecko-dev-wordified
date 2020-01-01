@@ -1667,6 +1667,7 @@ values
 on_success
 on_error
 all
+command_id
 )
 {
 let
@@ -1885,6 +1886,7 @@ i
 on_success
 (
 ids
+command_id
 )
 ;
 }
@@ -1903,6 +1905,7 @@ found
 on_success
 (
 id
+command_id
 )
 ;
 }
@@ -1952,6 +1955,7 @@ values
 value
 7
 null
+command_id
 )
 ;
 }
@@ -1981,6 +1985,7 @@ values
 on_success
 on_error
 all
+command_id
 )
 100
 Components
