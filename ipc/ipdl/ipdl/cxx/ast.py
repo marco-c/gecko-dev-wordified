@@ -4292,6 +4292,19 @@ args
 list
 )
         
+for
+arg
+in
+args
+:
+assert
+not
+isinstance
+(
+arg
+str
+)
+        
 Node
 .
 __init__
