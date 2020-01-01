@@ -28497,6 +28497,7 @@ chrome
 dialog
 =
 no
+macsuppressanimation
 all
 "
 ;
