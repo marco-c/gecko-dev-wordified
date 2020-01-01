@@ -2991,9 +2991,6 @@ rt
 -
 >
 gcCurrentCompartment
-!
-=
-NULL
 &
 &
 rt

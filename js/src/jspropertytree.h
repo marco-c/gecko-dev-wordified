@@ -964,8 +964,8 @@ JSContext
 cx
 )
 ;
-bool
-checkShapesAllUnmarked
+void
+unmarkShapes
 (
 JSContext
 *
