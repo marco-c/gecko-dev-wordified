@@ -90,6 +90,13 @@ nsIAccessibleRole
 ROLE_ALERT
 ;
 const
+ROLE_ANIMATION
+=
+nsIAccessibleRole
+.
+ROLE_ANIMATION
+;
+const
 ROLE_APPLICATION
 =
 nsIAccessibleRole
