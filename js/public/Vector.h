@@ -1510,7 +1510,7 @@ T
 >
 :
 :
-result
+value
 ;
 typedef
 VectorImpl

@@ -312,7 +312,7 @@ Entry
 >
 :
 :
-result
+value
 )
 ;
 JS_STATIC_ASSERT
@@ -332,7 +332,7 @@ Entry
 >
 :
 :
-result
+value
 )
 ;
 JS_STATIC_ASSERT
@@ -352,7 +352,7 @@ Entry
 >
 :
 :
-result
+value
 )
 ;
 }

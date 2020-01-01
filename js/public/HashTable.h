@@ -5115,7 +5115,7 @@ T
 static
 const
 bool
-result
+value
 =
 IsPod
 <
@@ -5123,7 +5123,7 @@ T
 >
 :
 :
-result
+value
 ;
 }
 ;
@@ -5150,7 +5150,7 @@ V
 static
 const
 bool
-result
+value
 =
 IsPod
 <
@@ -5158,7 +5158,7 @@ K
 >
 :
 :
-result
+value
 &
 &
 IsPod
@@ -5167,7 +5167,7 @@ V
 >
 :
 :
-result
+value
 ;
 }
 ;
@@ -9483,7 +9483,7 @@ Entry
 >
 :
 :
-result
+value
 )
 {
 memset
