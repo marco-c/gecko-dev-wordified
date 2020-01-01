@@ -1845,17 +1845,6 @@ UnloadUnusedLibraries
 (
 )
 ;
-/
-/
-Add
-our
-pref
-observer
-nsresult
-AddPrefObserver
-(
-)
-;
 char
 *
 mPluginPath

@@ -6643,16 +6643,6 @@ prefs
 pref
 (
 "
-security
-.
-enable_java
-"
-true
-)
-;
-pref
-(
-"
 advanced
 .
 mailftp

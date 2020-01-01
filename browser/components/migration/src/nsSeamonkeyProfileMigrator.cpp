@@ -2581,15 +2581,6 @@ String
 MAKESAMETYPEPREFTRANSFORM
 (
 "
-security
-.
-enable_java
-"
-Bool
-)
-MAKESAMETYPEPREFTRANSFORM
-(
-"
 javascript
 .
 enabled
