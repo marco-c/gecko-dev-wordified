@@ -839,9 +839,6 @@ nsScanner
 class
 nsIProgressEventSink
 ;
-class
-nsSpeculativeScriptThread
-;
 #
 ifdef
 _MSC_VER
@@ -2521,11 +2518,6 @@ nsresult
 anErrorCode
 )
 ;
-void
-SpeculativelyParse
-(
-)
-;
 private
 :
 /
@@ -2932,12 +2924,6 @@ mContinueEvent
 /
 weak
 ref
-nsRefPtr
-<
-nsSpeculativeScriptThread
->
-mSpeculativeScriptThread
-;
 nsCOMPtr
 <
 nsIParserFilter
