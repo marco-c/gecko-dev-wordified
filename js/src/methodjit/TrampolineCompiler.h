@@ -538,8 +538,10 @@ private
 bool
 compileTrampoline
 (
-void
-*
+Trampolines
+:
+:
+TrampolinePtr
 *
 where
 JSC
