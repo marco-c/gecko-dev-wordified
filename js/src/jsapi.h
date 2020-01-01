@@ -3317,12 +3317,6 @@ Integral
 IEEE
 double
 *
-s
-char
-*
-C
-string
-*
 S
 JSString
 *
