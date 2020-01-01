@@ -456,7 +456,7 @@ if
 !
 defined
 (
-__arm__
+HAVE_ARM_NEON
 )
 int
 have_ycbcr_to_rgb565
