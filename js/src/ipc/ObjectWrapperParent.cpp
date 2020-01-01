@@ -1313,9 +1313,11 @@ if
 (
 obj
 =
-STOBJ_GET_PROTO
-(
 obj
+-
+>
+getProto
+(
 )
 )
 )

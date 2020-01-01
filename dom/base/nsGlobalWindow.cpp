@@ -6070,6 +6070,11 @@ NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsGlobalWindow
 )
+DOMCI_DATA
+(
+Window
+nsGlobalWindow
+)
 /
 /
 QueryInterface
@@ -52294,6 +52299,11 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 mMessageManager
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
+DOMCI_DATA
+(
+ChromeWindow
+nsGlobalChromeWindow
+)
 /
 /
 QueryInterface
@@ -53455,6 +53465,11 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 mReturnValue
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
+DOMCI_DATA
+(
+ModalContentWindow
+nsGlobalModalWindow
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 nsGlobalModalWindow
@@ -54304,6 +54319,11 @@ nsISupports
 *
 *
 *
+DOMCI_DATA
+(
+Navigator
+nsNavigator
+)
 /
 /
 QueryInterface
