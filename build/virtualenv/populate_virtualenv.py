@@ -634,6 +634,32 @@ to
 "
 "
         
+env
+=
+dict
+(
+os
+.
+environ
+)
+        
+try
+:
+            
+del
+env
+[
+'
+PYTHONDONTWRITEBYTECODE
+'
+]
+        
+except
+KeyError
+:
+            
+pass
+        
 args
 =
 [
@@ -676,6 +702,9 @@ stderr
 subprocess
 .
 STDOUT
+env
+=
+env
 )
         
 if
