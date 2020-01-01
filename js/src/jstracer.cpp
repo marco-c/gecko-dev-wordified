@@ -75118,10 +75118,6 @@ that
 return
 *
 jsval
-(
-like
-Array_p_pop
-)
 .
 *
 /
