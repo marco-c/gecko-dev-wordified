@@ -16523,7 +16523,6 @@ NotifyEditableStateChange
 (
 this
 this
-!
 designMode
 )
 ;
