@@ -2320,6 +2320,10 @@ JSObject
 *
 globalObj
 ;
+Value
+*
+globalSlots
+;
 /
 *
 Existing
