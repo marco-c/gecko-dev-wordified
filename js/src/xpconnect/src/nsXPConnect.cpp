@@ -4396,7 +4396,6 @@ XPCNativeWrapper
 :
 GetWrappedNative
 (
-cx
 obj
 )
 ;
@@ -4629,9 +4628,8 @@ p
 XPCWrappedNativeProto
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -4702,9 +4700,8 @@ script
 JSScript
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -4778,9 +4775,8 @@ fun
 JSFunction
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -5143,9 +5139,8 @@ to
 XPCWrappedNativeTearOff
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -5254,9 +5249,8 @@ nsISupports
 *
 >
 (
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 )
@@ -6935,7 +6929,6 @@ XPCNativeWrapper
 :
 IsNativeWrapper
 (
-aJSContext
 returnObj
 )
 "
@@ -9701,9 +9694,8 @@ if
 !
 IS_PROTO_CLASS
 (
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-ccx
 protoJSObject
 )
 )
@@ -9746,9 +9738,8 @@ proto
 XPCWrappedNativeProto
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-ccx
 protoJSObject
 )
 ;

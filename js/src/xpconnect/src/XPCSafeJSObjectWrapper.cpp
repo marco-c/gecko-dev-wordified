@@ -2115,9 +2115,6 @@ JSObject
 *
 FindSafeObject
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -2125,9 +2122,8 @@ obj
 {
 while
 (
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 obj
 )
 !
@@ -2140,11 +2136,8 @@ base
 {
 obj
 =
-:
-:
-JS_GetPrototype
+STOBJ_GET_PROTO
 (
-cx
 obj
 )
 ;
@@ -2160,28 +2153,6 @@ break
 }
 return
 obj
-;
-}
-PRBool
-IsXPCSafeJSObjectWrapper
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
-)
-{
-return
-FindSafeObject
-(
-cx
-obj
-)
-!
-=
-nsnull
 ;
 }
 PRBool
@@ -2208,9 +2179,6 @@ JSObject
 *
 GetUnsafeObject
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -2220,7 +2188,6 @@ obj
 =
 FindSafeObject
 (
-cx
 obj
 )
 ;
@@ -2235,11 +2202,8 @@ nsnull
 ;
 }
 return
-:
-:
-JS_GetParent
+STOBJ_GET_PARENT
 (
-cx
 obj
 )
 ;
@@ -2248,9 +2212,6 @@ JSObject
 *
 XPC_SJOW_GetUnsafeObject
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -2259,7 +2220,6 @@ obj
 return
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -2268,9 +2228,6 @@ static
 jsval
 UnwrapJSValue
 (
-JSContext
-*
-cx
 jsval
 val
 )
@@ -2293,7 +2250,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 JSVAL_TO_OBJECT
 (
 val
@@ -2826,7 +2782,6 @@ obj
 =
 FindSafeObject
 (
-cx
 obj
 )
 ;
@@ -2911,7 +2866,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -3003,7 +2957,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -3289,7 +3242,6 @@ obj
 =
 FindSafeObject
 (
-cx
 obj
 )
 ;
@@ -3318,7 +3270,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -3552,7 +3503,6 @@ args
 =
 UnwrapJSValue
 (
-cx
 *
 vp
 )
@@ -3672,7 +3622,6 @@ obj
 =
 FindSafeObject
 (
-cx
 obj
 )
 ;
@@ -3767,7 +3716,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -3881,7 +3829,6 @@ obj
 =
 FindSafeObject
 (
-cx
 obj
 )
 ;
@@ -3910,7 +3857,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -4243,7 +4189,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -4312,9 +4257,8 @@ JSClass
 *
 clazz
 =
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 unsafeObj
 )
 ;
@@ -4367,7 +4311,6 @@ tmp
 =
 FindSafeObject
 (
-cx
 obj
 )
 ;
@@ -4598,7 +4541,6 @@ obj
 =
 FindSafeObject
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -4628,7 +4570,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -4663,7 +4604,6 @@ funToCall
 =
 GetUnsafeObject
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -5313,7 +5253,6 @@ i
 =
 UnwrapJSValue
 (
-cx
 argv
 [
 i
@@ -5547,9 +5486,8 @@ wrapped
 .
 if
 (
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 objToWrap
 )
 =
@@ -5603,9 +5541,8 @@ cx
 }
 if
 (
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 objToWrap
 )
 =
@@ -5734,7 +5671,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 objToWrap
 )
 ;
@@ -5935,7 +5871,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -5954,7 +5889,6 @@ otherUnsafe
 =
 GetUnsafeObject
 (
-cx
 other
 )
 ;
@@ -6027,7 +5961,6 @@ innerObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -6172,7 +6105,6 @@ obj
 return
 GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -6203,7 +6135,6 @@ obj
 =
 FindSafeObject
 (
-cx
 obj
 )
 ;
@@ -6227,7 +6158,6 @@ unsafeObj
 =
 GetUnsafeObject
 (
-cx
 obj
 )
 ;

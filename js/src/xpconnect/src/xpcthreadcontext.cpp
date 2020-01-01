@@ -1121,9 +1121,8 @@ nsIScriptObjectPrincipal
 *
 >
 (
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 )

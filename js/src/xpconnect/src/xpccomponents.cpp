@@ -17615,9 +17615,8 @@ sop
 nsIScriptObjectPrincipal
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -19516,9 +19515,8 @@ rval
 {
 if
 (
-JS_GetClass
+STOBJ_GET_CLASS
 (
-cx
 sandbox
 )
 !
@@ -19537,9 +19535,8 @@ sop
 nsIScriptObjectPrincipal
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 sandbox
 )
 ;

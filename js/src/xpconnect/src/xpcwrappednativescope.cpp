@@ -1612,9 +1612,8 @@ JSClass
 *
 jsClass
 =
-JS_GetClass
+STOBJ_GET_CLASS
 (
-cx
 aGlobal
 )
 ;
@@ -1668,9 +1667,8 @@ priv
 nsISupports
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 aGlobal
 )
 ;
@@ -4081,9 +4079,6 @@ XPCWrappedNativeScope
 *
 GetScopeOfObject
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -4097,9 +4092,8 @@ JSClass
 *
 clazz
 =
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 obj
 )
 ;
@@ -4120,9 +4114,8 @@ supports
 nsISupports
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 )
@@ -4157,9 +4150,8 @@ supports
 nsISupports
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 )
@@ -4539,7 +4531,6 @@ scope
 =
 GetScopeOfObject
 (
-ccx
 obj
 )
 ;

@@ -4265,9 +4265,8 @@ p
 XPCWrappedNative
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -4926,7 +4925,6 @@ XPCNativeWrapper
 :
 IsNativeWrapper
 (
-cx
 obj
 )
 )
@@ -4937,7 +4935,6 @@ XPCNativeWrapper
 :
 GetWrappedNative
 (
-cx
 obj
 )
 ;
@@ -4965,7 +4962,6 @@ unsafeObj
 =
 XPC_SJOW_GetUnsafeObject
 (
-cx
 obj
 )
 ;
@@ -5114,9 +5110,8 @@ v
 &
 IsXPCSafeJSObjectWrapperClass
 (
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 JSVAL_TO_OBJECT
 (
 v
@@ -5131,7 +5126,6 @@ OBJECT_TO_JSVAL
 (
 XPC_SJOW_GetUnsafeObject
 (
-cx
 JSVAL_TO_OBJECT
 (
 v
@@ -6322,9 +6316,8 @@ wrapper
 XPCWrappedNative
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -7132,9 +7125,8 @@ JSClass
 *
 clazz
 =
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 obj
 )
 ;
@@ -9323,9 +9315,8 @@ self
 XPCWrappedNativeProto
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -9568,9 +9559,8 @@ p
 XPCWrappedNativeProto
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -9622,12 +9612,8 @@ p
 XPCWrappedNativeProto
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-trc
--
->
-context
 obj
 )
 ;
@@ -9758,9 +9744,8 @@ self
 XPCWrappedNativeProto
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -10425,9 +10410,8 @@ self
 XPCWrappedNativeProto
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -10545,9 +10529,8 @@ self
 XPCWrappedNativeProto
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;
@@ -11251,9 +11234,8 @@ p
 XPCWrappedNativeTearOff
 *
 )
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 ;

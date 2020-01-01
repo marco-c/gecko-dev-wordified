@@ -740,9 +740,8 @@ if
 OBJ_GET_PROPERTY
 (
 cx
-JS_GetParent
+STOBJ_GET_PARENT
 (
-cx
 obj
 )
 id
@@ -1094,9 +1093,8 @@ while
 (
 innerObj
 =
-JS_GetPrototype
+STOBJ_GET_PROTO
 (
-cx
 innerObj
 )
 )
@@ -1758,9 +1756,8 @@ JSBool
 isXOW
 =
 (
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 wrapperObj
 )
 =
@@ -1931,9 +1928,8 @@ JSFunction
 *
 >
 (
-JS_GetPrivate
+xpc_GetJSPrivate
 (
-cx
 obj
 )
 )
