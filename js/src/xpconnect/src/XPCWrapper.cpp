@@ -521,13 +521,6 @@ AccessCheck
 .
 h
 "
-#
-include
-"
-WrapperFactory
-.
-h
-"
 namespace
 XPCWrapper
 {
@@ -617,10 +610,10 @@ if
 xpc
 :
 :
-WrapperFactory
+AccessCheck
 :
 :
-IsScriptAccessOnly
+isScriptAccessOnly
 (
 cx
 wrapper
