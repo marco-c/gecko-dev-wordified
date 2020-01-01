@@ -868,13 +868,14 @@ getService
 (
 Ci
 .
-nsIContentPrefService
+nsIContentPrefService2
 )
 ;
 cps
 .
-removeGroupedPrefs
+removeAllDomains
 (
+null
 )
 ;
 /
