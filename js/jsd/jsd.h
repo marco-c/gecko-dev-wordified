@@ -948,10 +948,6 @@ void
 *
 toplevelHookData
 ;
-JSContext
-*
-dumbContext
-;
 JSObject
 *
 glob
