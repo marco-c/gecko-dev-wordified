@@ -4187,13 +4187,7 @@ nsStyleCoord
 aCoord
 )
 ;
-mozilla
-:
-:
-dom
-:
-:
-CSSValue
+nsROCSSPrimitiveValue
 *
 CreatePrimitiveValueForStyleFilter
 (
