@@ -185,13 +185,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h
@@ -256,13 +249,6 @@ h
 /
 for
 GetScriptContextFromJSContext
-#
-include
-"
-nsContentUtils
-.
-h
-"
 #
 include
 "

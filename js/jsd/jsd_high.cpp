@@ -136,13 +136,6 @@ nsCxPusher
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 using
 mozilla
 :

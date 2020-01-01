@@ -125,6 +125,17 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+/
+/
+for
+nsCharSeparatedTokenizerTemplate
+#
+include
+"
 nsSVGAnimatedTransformList
 .
 h

@@ -196,6 +196,10 @@ nsContentUtils
 .
 h
 "
+/
+/
+for
+kLoadAsData
 #
 include
 "

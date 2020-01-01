@@ -77,7 +77,14 @@ h
 #
 include
 "
-nsContentUtils
+nsClientRect
+.
+h
+"
+#
+include
+"
+nsRange
 .
 h
 "

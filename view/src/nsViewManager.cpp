@@ -242,6 +242,10 @@ nsContentUtils
 .
 h
 "
+/
+/
+for
+nsAutoScriptBlocker
 #
 include
 "

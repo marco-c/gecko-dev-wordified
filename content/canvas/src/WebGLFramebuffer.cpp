@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 WebGLTexture
 .
 h

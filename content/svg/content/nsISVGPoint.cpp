@@ -138,16 +138,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-/
-/
-NS_ENSURE_FINITE
-#
-include
-"
 mozilla
 /
 dom

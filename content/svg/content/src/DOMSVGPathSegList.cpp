@@ -160,13 +160,6 @@ SVGPathSegListBinding
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 /
 /
 See

@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsTArrayHelpers
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

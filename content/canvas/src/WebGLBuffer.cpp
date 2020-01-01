@@ -118,13 +118,6 @@ WebGLRenderingContextBinding
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 using
 namespace
 mozilla

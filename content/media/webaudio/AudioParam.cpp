@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

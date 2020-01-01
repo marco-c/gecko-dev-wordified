@@ -102,13 +102,6 @@ mozilla_dom_SVGIRect_h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

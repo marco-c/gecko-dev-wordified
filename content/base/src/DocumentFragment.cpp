@@ -181,6 +181,10 @@ nsContentUtils
 .
 h
 "
+/
+/
+for
+NS_INTERFACE_MAP_ENTRY_TEAROFF
 #
 include
 "

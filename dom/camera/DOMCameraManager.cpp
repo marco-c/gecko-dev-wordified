@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h

@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsITimeService
 .
 h

@@ -114,6 +114,10 @@ nsContentUtils
 .
 h
 "
+/
+/
+for
+NS_ENSURE_FINITE2
 #
 include
 "

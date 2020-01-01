@@ -133,6 +133,10 @@ nsContentUtils
 .
 h
 "
+/
+/
+for
+NS_ENSURE_FINITE
 #
 include
 "
