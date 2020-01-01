@@ -560,7 +560,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 .
 h
 "
@@ -1632,8 +1632,6 @@ class
 nsGenericHTMLElementTearoff
 :
 public
-nsIDOMNSHTMLElement
-public
 nsIDOMElementCSSInlineStyle
 {
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -1657,12 +1655,6 @@ nsGenericHTMLElementTearoff
 )
 {
 }
-NS_FORWARD_NSIDOMNSHTMLELEMENT
-(
-mElement
--
->
-)
 NS_IMETHOD
 GetStyle
 (
@@ -1706,7 +1698,7 @@ NS_OK
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsGenericHTMLElementTearoff
-nsIDOMNSHTMLElement
+nsIDOMElementCSSInlineStyle
 )
 private
 :
@@ -1735,10 +1727,9 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsGenericHTMLElementTearoff
 )
-NS_INTERFACE_TABLE_INHERITED2
+NS_INTERFACE_TABLE_INHERITED1
 (
 nsGenericHTMLElementTearoff
-nsIDOMNSHTMLElement
 nsIDOMElementCSSInlineStyle
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE_CYCLE_COLLECTION
@@ -1816,15 +1807,6 @@ NS_INTERFACE_TABLE_END_WITH_PTR
 aElement
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE
-NS_INTERFACE_MAP_ENTRY_TEAROFF
-(
-nsIDOMNSHTMLElement
-new
-nsGenericHTMLElementTearoff
-(
-this
-)
-)
 NS_INTERFACE_MAP_ENTRY_TEAROFF
 (
 nsIDOMElementCSSInlineStyle
@@ -3771,7 +3753,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsGenericHTMLElement
 :
 :
@@ -4172,7 +4154,7 @@ childNodes
 ;
 }
 }
-nsresult
+NS_IMETHODIMP
 nsGenericHTMLElement
 :
 :
@@ -4457,7 +4439,7 @@ eBeforeEnd
 eAfterEnd
 }
 ;
-nsresult
+NS_IMETHODIMP
 nsGenericHTMLElement
 :
 :

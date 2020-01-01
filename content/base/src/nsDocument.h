@@ -3330,7 +3330,7 @@ virtual
 nsresult
 SetSubDocumentFor
 (
-nsIContent
+Element
 *
 aContent
 nsIDocument
@@ -3350,7 +3350,7 @@ aContent
 const
 ;
 virtual
-nsIContent
+Element
 *
 FindContentForSubDocument
 (
@@ -4433,8 +4433,6 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
-bool
-aDocumentDefaultType
 nsIContent
 *
 *
@@ -5580,17 +5578,6 @@ IsSafeToFlush
 )
 const
 ;
-virtual
-PRInt32
-GetDefaultNamespaceID
-(
-)
-const
-{
-return
-kNameSpaceID_None
-;
-}
 void
 DispatchPageTransition
 (
@@ -6256,9 +6243,6 @@ mIsFullScreen
 ;
 PRUint8
 mXMLDeclarationBits
-;
-PRUint8
-mDefaultElementType
 ;
 nsInterfaceHashtable
 <

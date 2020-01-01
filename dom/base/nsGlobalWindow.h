@@ -2222,15 +2222,6 @@ PRUint32
 lang
 )
 ;
-virtual
-void
-*
-GetScriptGlobal
-(
-PRUint32
-lang
-)
-;
 /
 /
 Set

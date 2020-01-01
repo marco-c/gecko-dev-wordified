@@ -1938,6 +1938,9 @@ called
 bool
 mDocumentClosed
 ;
+bool
+mInDocumentWrite
+;
 /
 /
 Gecko

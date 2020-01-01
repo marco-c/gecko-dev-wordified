@@ -437,13 +437,6 @@ nsGenericHTMLElement
 .
 h
 "
-#
-include
-"
-nsIDOMNSHTMLElement
-.
-h
-"
 class
 nsHTMLMenuElement
 :

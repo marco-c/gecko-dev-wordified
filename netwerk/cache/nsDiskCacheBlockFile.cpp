@@ -455,6 +455,10 @@ FileUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 *
 *
@@ -4229,14 +4233,11 @@ mFileSize
 ;
 mFileSize
 =
-NS_MIN
-(
-maxPreallocate
-NS_MAX
+clamped
 (
 mFileSize
 minPreallocate
-)
+maxPreallocate
 )
 ;
 }

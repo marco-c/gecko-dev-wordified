@@ -5474,7 +5474,7 @@ SetLoadType
 nsIContentPolicy
 :
 :
-TYPE_SCRIPT
+TYPE_DATAREQUEST
 )
 ;
 }
@@ -7172,7 +7172,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_SCRIPT
+TYPE_DATAREQUEST
 srcToTest
 mPrincipal
 doc

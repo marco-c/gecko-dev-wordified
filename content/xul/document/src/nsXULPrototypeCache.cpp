@@ -1566,7 +1566,7 @@ return
 NS_OK
 ;
 }
-void
+JSScript
 *
 nsXULPrototypeCache
 :
@@ -1689,7 +1689,7 @@ nsIURI
 aURI
 PRUint32
 aLangID
-void
+JSScript
 *
 aScriptObject
 )

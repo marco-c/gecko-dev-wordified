@@ -577,6 +577,11 @@ warning
 png
 "
 ;
+const
+TITLE_LENGTH_MAX
+=
+4096
+;
 Cu
 .
 import

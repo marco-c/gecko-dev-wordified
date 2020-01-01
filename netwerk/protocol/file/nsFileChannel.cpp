@@ -2455,7 +2455,6 @@ else
 nsCAutoString
 contentType
 ;
-nsresult
 rv
 =
 MakeFileInputStream

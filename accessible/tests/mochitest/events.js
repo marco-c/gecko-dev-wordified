@@ -5225,7 +5225,7 @@ if
 (
 targetNode
 instanceof
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 )
 {
 targetNode
@@ -5296,7 +5296,7 @@ if
 (
 targetNode
 instanceof
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 )
 x
 =

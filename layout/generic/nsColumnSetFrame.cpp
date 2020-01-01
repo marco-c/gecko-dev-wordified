@@ -536,6 +536,10 @@ nsCSSRendering
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsColumnSetFrame
 :
@@ -7252,15 +7256,12 @@ Sanitize
 it
 nextGuess
 =
-NS_MIN
-(
-NS_MAX
+clamped
 (
 nextGuess
 knownInfeasibleHeight
 +
 1
-)
 knownFeasibleHeight
 -
 1

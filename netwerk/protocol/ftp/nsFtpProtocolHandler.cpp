@@ -516,6 +516,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 net
@@ -622,6 +626,13 @@ h
 include
 "
 nsEscape
+.
+h
+"
+#
+include
+"
+nsAlgorithm
 .
 h
 "
@@ -1276,7 +1287,7 @@ mDataQoSBits
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 0
@@ -1329,7 +1340,7 @@ mControlQoSBits
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 0
@@ -2779,7 +2790,7 @@ mDataQoSBits
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 0
@@ -2810,7 +2821,7 @@ mControlQoSBits
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 0
