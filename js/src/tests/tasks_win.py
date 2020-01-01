@@ -41,6 +41,7 @@ __init__
 self
 task_list
 results
+timeout
 verbose
 =
 False
@@ -75,6 +76,12 @@ self
 results
 =
 results
+        
+self
+.
+timeout
+=
+timeout
         
 self
 .
@@ -121,6 +128,9 @@ self
 .
 tasks
 sink
+self
+.
+timeout
 self
 .
 verbose
@@ -228,8 +238,6 @@ workers
                 
 w
 .
-thread
-.
 join
 (
 20000
@@ -325,7 +333,7 @@ release
 class
 Worker
 (
-object
+Thread
 )
 :
     
@@ -336,10 +344,25 @@ self
 id
 tasks
 sink
+timeout
 verbose
 )
 :
         
+Thread
+.
+__init__
+(
+self
+)
+        
+self
+.
+setDaemon
+(
+True
+)
+        
 self
 .
 id
@@ -357,6 +380,12 @@ self
 sink
 =
 sink
+        
+self
+.
+timeout
+=
+timeout
         
 self
 .
@@ -384,6 +413,12 @@ msg
 )
 :
         
+if
+self
+.
+verbose
+:
+            
 dd
 =
 datetime
@@ -395,7 +430,7 @@ now
 self
 .
 t0
-        
+            
 dt
 =
 dd
@@ -409,12 +444,6 @@ seconds
 dd
 .
 microseconds
-        
-if
-self
-.
-verbose
-:
             
 print
 '
@@ -436,43 +465,6 @@ self
 id
 dt
 msg
-)
-    
-def
-start
-(
-self
-)
-:
-        
-self
-.
-thread
-=
-Thread
-(
-target
-=
-self
-.
-run
-)
-        
-self
-.
-thread
-.
-setDaemon
-(
-True
-)
-        
-self
-.
-thread
-.
-start
-(
 )
     
 def
@@ -541,7 +533,15 @@ task
 result
 =
 task
+.
+run
 (
+task
+.
+js_cmd_prefix
+self
+.
+timeout
 )
                 
 self
@@ -580,3 +580,33 @@ Empty
 :
             
 pass
+def
+run_all_tests
+(
+tests
+results
+options
+)
+:
+    
+pipeline
+=
+Source
+(
+tests
+results
+options
+.
+timeout
+False
+)
+    
+return
+pipeline
+.
+start
+(
+options
+.
+worker_count
+)
