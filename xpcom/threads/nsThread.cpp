@@ -812,7 +812,10 @@ sMemoryPressurePending
 ;
 }
 }
-;
+/
+/
+namespace
+mozilla
 /
 /
 -
