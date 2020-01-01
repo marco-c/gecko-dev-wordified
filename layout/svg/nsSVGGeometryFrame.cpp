@@ -266,11 +266,7 @@ GetStateBits
 (
 )
 &
-(
-NS_FRAME_IS_NONDISPLAY
-|
 NS_STATE_SVG_CLIPPATH_CHILD
-)
 )
 ;
 nsSVGGeometryFrameBase
