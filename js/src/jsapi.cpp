@@ -4275,6 +4275,10 @@ gcSweepOnBackgroundThread
 (
 false
 )
+gcSweepingCompartments
+(
+NULL
+)
 gcSweepPhase
 (
 0
