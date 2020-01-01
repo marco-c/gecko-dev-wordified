@@ -1788,7 +1788,7 @@ dir
 )
 {
 var
-enum
+en
 =
 dir
 .
@@ -1796,7 +1796,7 @@ directoryEntries
 ;
 while
 (
-enum
+en
 .
 hasMoreElements
 (
@@ -1806,7 +1806,7 @@ hasMoreElements
 var
 file
 =
-enum
+en
 .
 getNext
 (
