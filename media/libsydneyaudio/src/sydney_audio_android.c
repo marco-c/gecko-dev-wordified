@@ -4183,7 +4183,7 @@ sa_stream_t
 s
 size_t
 *
-samples
+size
 )
 )
 const
