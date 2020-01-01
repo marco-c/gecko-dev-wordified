@@ -12221,9 +12221,6 @@ PRBool
 showThisProps
 )
 {
-#
-ifdef
-DEBUG
 JSContext
 *
 cx
@@ -12330,8 +12327,6 @@ showLocals
 showThisProps
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -12365,9 +12360,6 @@ char
 aSourceText
 )
 {
-#
-ifdef
-DEBUG
 JSContext
 *
 cx
@@ -12473,8 +12465,6 @@ aFrameNumber
 aSourceText
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -13021,9 +13011,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-DEBUG
 /
 *
 These
@@ -13038,7 +13025,10 @@ debugger
 *
 /
 JS_BEGIN_EXTERN_C
+JS_EXPORT_API
+(
 void
+)
 DumpJSStack
 (
 )
@@ -13101,7 +13091,10 @@ n
 )
 ;
 }
+JS_EXPORT_API
+(
 void
+)
 DumpJSEval
 (
 PRUint32
@@ -13169,7 +13162,10 @@ n
 )
 ;
 }
+JS_EXPORT_API
+(
 void
+)
 DumpJSObject
 (
 JSObject
@@ -13183,7 +13179,10 @@ obj
 )
 ;
 }
+JS_EXPORT_API
+(
 void
+)
 DumpJSValue
 (
 jsval
@@ -13469,5 +13468,3 @@ n
 }
 }
 JS_END_EXTERN_C
-#
-endif
