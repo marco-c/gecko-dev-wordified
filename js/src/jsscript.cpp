@@ -17038,6 +17038,9 @@ closure
 ;
 }
 }
+#
+ifdef
+JS_ION
 ion
 :
 :
@@ -17047,6 +17050,8 @@ trc
 this
 )
 ;
+#
+endif
 }
 void
 JSScript
