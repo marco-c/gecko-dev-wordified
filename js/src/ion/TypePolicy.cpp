@@ -625,7 +625,7 @@ true
 ;
 }
 bool
-BinaryArithPolicy
+ArithPolicy
 :
 :
 adjustInputs
@@ -684,7 +684,12 @@ i
 ;
 i
 <
-2
+ins
+-
+>
+numOperands
+(
+)
 ;
 i
 +

@@ -2072,6 +2072,11 @@ jsop_this
 )
 ;
 bool
+jsop_typeof
+(
+)
+;
+bool
 jsop_iter
 (
 uint8

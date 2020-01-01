@@ -550,6 +550,11 @@ BitNot
 \
 _
 (
+TypeOf
+)
+\
+_
+(
 BitAnd
 )
 \
