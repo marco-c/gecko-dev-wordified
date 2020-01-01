@@ -576,13 +576,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
