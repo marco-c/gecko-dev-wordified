@@ -1765,9 +1765,6 @@ get
 if
 (
 toBeRescheduled
-=
-=
-PR_TRUE
 )
 {
 nsAutoString
