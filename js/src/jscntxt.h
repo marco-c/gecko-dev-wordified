@@ -5829,6 +5829,12 @@ js
 ThreadPool
 threadPool
 ;
+js
+:
+:
+CTypesActivityCallback
+ctypesActivityCallback
+;
 private
 :
 /

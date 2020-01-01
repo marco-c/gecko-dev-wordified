@@ -4672,6 +4672,10 @@ MagicValue
 JS_ARG_POISON
 )
 )
+ctypesActivityCallback
+(
+NULL
+)
 useHelperThreads_
 (
 useHelperThreads
