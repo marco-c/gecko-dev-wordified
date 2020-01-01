@@ -829,8 +829,8 @@ aFileExt
 mimeType
 )
 ;
-nsresult
-rv
+PRBool
+found
 =
 GetMimeInfoForMimeType
 (
@@ -838,13 +838,6 @@ mimeType
 aMimeInfo
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-return
 (
 *
 aMimeInfo
@@ -855,6 +848,9 @@ SetPrimaryExtension
 (
 aFileExt
 )
+;
+return
+found
 ;
 }
 /
