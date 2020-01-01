@@ -2178,10 +2178,10 @@ length
 /
 /
 To
-accomodate
+accommodate
 this
 "
-erronous
+erroneous
 "
 value
 we
