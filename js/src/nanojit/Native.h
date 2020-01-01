@@ -825,12 +825,10 @@ outline
 )
 ;
 \
-RegAlloc
-:
-:
+_allocator
+.
 formatRegisters
 (
-_allocator
 outline
 _thisfrag
 )

@@ -1275,14 +1275,6 @@ map
 )
 ;
 void
-copyRegisters
-(
-RegAlloc
-*
-copyTo
-)
-;
-void
 releaseRegisters
 (
 )
