@@ -506,6 +506,13 @@ nsIEventListenerManager
 .
 h
 "
+#
+include
+"
+nsIScriptContext
+.
+h
+"
 class
 nsDOMEventListenerWrapper
 :
