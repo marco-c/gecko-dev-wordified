@@ -40615,9 +40615,8 @@ GetCurrentDoc
 (
 )
 )
-&
-&
 !
+=
 nsContentUtils
 :
 :
