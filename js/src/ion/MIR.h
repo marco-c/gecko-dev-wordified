@@ -7296,6 +7296,14 @@ getOperand
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+bool
+useValueNumbers
+)
+;
 bool
 congruentTo
 (
