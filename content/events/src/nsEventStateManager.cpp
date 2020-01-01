@@ -23964,7 +23964,7 @@ mLastMiddleMouseDownContentParent
 mouseContent
 |
 |
-mLastLeftMouseDownContent
+mLastMiddleMouseDownContent
 =
 =
 mouseContentParent
@@ -24055,7 +24055,7 @@ mLastRightMouseDownContentParent
 mouseContent
 |
 |
-mLastLeftMouseDownContent
+mLastRightMouseDownContent
 =
 =
 mouseContentParent
