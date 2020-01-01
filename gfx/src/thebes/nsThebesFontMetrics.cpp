@@ -472,6 +472,13 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+gfxUserFontSet
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsThebesFontMetrics
@@ -533,6 +540,9 @@ aLangGroup
 nsIDeviceContext
 *
 aContext
+gfxUserFontSet
+*
+aUserFontSet
 )
 {
 mFont
@@ -650,6 +660,7 @@ aFont
 .
 name
 mFontStyle
+aUserFontSet
 )
 ;
 return

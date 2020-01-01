@@ -458,6 +458,9 @@ nsIDeviceContext
 class
 nsIAtom
 ;
+class
+gfxUserFontSet
+;
 /
 /
 IID
@@ -824,6 +827,11 @@ aLangGroup
 nsIDeviceContext
 *
 aContext
+gfxUserFontSet
+*
+aUserFontSet
+=
+nsnull
 )
 =
 0

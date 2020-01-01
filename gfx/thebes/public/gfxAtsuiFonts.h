@@ -731,6 +731,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 ;
 virtual
@@ -1055,6 +1058,11 @@ WhichSystemFontSupportsChar
 (
 PRUint32
 aCh
+)
+;
+void
+UpdateFontList
+(
 )
 ;
 protected

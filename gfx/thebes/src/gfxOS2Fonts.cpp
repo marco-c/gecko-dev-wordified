@@ -4009,12 +4009,16 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 :
 gfxFontGroup
 (
 aFamilies
 aStyle
+aUserFontSet
 )
 {
 #
@@ -4465,6 +4469,7 @@ gfxOS2FontGroup
 (
 mFamilies
 aStyle
+mUserFontSet
 )
 ;
 }

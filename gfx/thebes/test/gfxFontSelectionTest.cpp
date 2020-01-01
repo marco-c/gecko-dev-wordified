@@ -1713,6 +1713,7 @@ test
 -
 >
 fontStyle
+nsnull
 )
 ;
 nsAutoPtr

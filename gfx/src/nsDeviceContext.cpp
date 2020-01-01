@@ -525,6 +525,13 @@ nsIRenderingContext
 .
 h
 "
+#
+include
+"
+gfxUserFontSet
+.
+h
+"
 NS_IMPL_ISUPPORTS3
 (
 DeviceContextImpl
@@ -1250,6 +1257,9 @@ nsIFontMetrics
 *
 &
 aMetrics
+gfxUserFontSet
+*
+aUserFontSet
 )
 {
 if
@@ -1329,6 +1339,7 @@ GetMetricsFor
 aFont
 aLangGroup
 aMetrics
+aUserFontSet
 )
 ;
 }
@@ -1346,6 +1357,9 @@ nsIFontMetrics
 *
 &
 aMetrics
+gfxUserFontSet
+*
+aUserFontSet
 )
 {
 if
@@ -1404,6 +1418,7 @@ GetMetricsFor
 aFont
 mLocaleLangGroup
 aMetrics
+aUserFontSet
 )
 ;
 }
@@ -2599,6 +2614,9 @@ nsIFontMetrics
 *
 &
 aMetrics
+gfxUserFontSet
+*
+aUserFontSet
 )
 {
 /
@@ -2806,6 +2824,7 @@ Init
 aFont
 aLangGroup
 mContext
+aUserFontSet
 )
 ;
 if
@@ -2950,6 +2969,7 @@ Init
 aFont
 aLangGroup
 mContext
+aUserFontSet
 )
 ;
 if

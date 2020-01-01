@@ -1264,6 +1264,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 {
 return
@@ -1272,6 +1275,7 @@ gfxOS2FontGroup
 (
 aFamilies
 aStyle
+aUserFontSet
 )
 ;
 }

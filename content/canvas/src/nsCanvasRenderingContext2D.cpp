@@ -10378,6 +10378,17 @@ mFont
 name
 &
 style
+presShell
+-
+>
+GetPresContext
+(
+)
+-
+>
+GetUserFontSet
+(
+)
 )
 ;
 NS_ASSERTION

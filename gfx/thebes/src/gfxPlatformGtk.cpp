@@ -1484,6 +1484,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 {
 return
@@ -1492,6 +1495,7 @@ gfxPangoFontGroup
 (
 aFamilies
 aStyle
+aUserFontSet
 )
 ;
 }

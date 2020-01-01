@@ -565,6 +565,11 @@ nsIFontMetrics
 *
 &
 aMetrics
+gfxUserFontSet
+*
+aUserFontSet
+=
+nsnull
 )
 ;
 nsresult
@@ -759,6 +764,11 @@ nsIFontMetrics
 *
 &
 aMetrics
+gfxUserFontSet
+*
+aUserFontSet
+=
+nsnull
 )
 ;
 NS_IMETHOD
@@ -772,6 +782,11 @@ nsIFontMetrics
 *
 &
 aMetrics
+gfxUserFontSet
+*
+aUserFontSet
+=
+nsnull
 )
 ;
 NS_IMETHOD

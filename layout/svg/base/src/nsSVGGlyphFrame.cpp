@@ -7646,6 +7646,12 @@ font
 name
 &
 fontStyle
+presContext
+-
+>
+GetUserFontSet
+(
+)
 )
 ;
 PRUint32

@@ -4378,12 +4378,16 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 :
 gfxFontGroup
 (
 families
 aStyle
+aUserFontSet
 )
 mBasePangoFont
 (
@@ -4439,6 +4443,7 @@ gfxPangoFontGroup
 (
 mFamilies
 aStyle
+mUserFontSet
 )
 ;
 }

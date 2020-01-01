@@ -517,6 +517,11 @@ aLangGroup
 nsIDeviceContext
 *
 aContext
+gfxUserFontSet
+*
+aUserFontSet
+=
+nsnull
 )
 ;
 NS_IMETHOD
