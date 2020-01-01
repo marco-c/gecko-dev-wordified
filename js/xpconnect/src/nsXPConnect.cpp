@@ -6373,7 +6373,6 @@ AttachComponentsObject
 (
 ccx
 scope
-aGlobalJSObj
 )
 )
 return
@@ -7531,7 +7530,6 @@ wrappedGlobal
 GetScope
 (
 )
-global
 )
 )
 return
