@@ -627,7 +627,11 @@ h
 #
 include
 "
-nsHTMLIFrameElement
+mozilla
+/
+dom
+/
+HTMLIFrameElement
 .
 h
 "
@@ -2399,11 +2403,11 @@ is
 /
 sandboxed
 ?
-nsHTMLIFrameElement
+HTMLIFrameElement
 *
 iframe
 =
-nsHTMLIFrameElement
+HTMLIFrameElement
 :
 :
 FromContent
