@@ -962,9 +962,6 @@ buildBrowserEnv
 self
 options
 profileDir
-debugger
-=
-False
 )
 :
     
@@ -981,9 +978,6 @@ xrePath
 options
 .
 xrePath
-debugger
-=
-debugger
 )
     
 browserEnv
@@ -1219,10 +1213,6 @@ buildBrowserEnv
 (
 options
 profileDir
-debuggerInfo
-is
-not
-None
 )
       
 self

@@ -4526,9 +4526,6 @@ buildBrowserEnv
 (
 self
 options
-debugger
-=
-False
 )
 :
     
@@ -4563,9 +4560,6 @@ xrePath
 options
 .
 xrePath
-debugger
-=
-debugger
 )
     
 #
@@ -5073,10 +5067,6 @@ self
 buildBrowserEnv
 (
 options
-debuggerInfo
-is
-not
-None
 )
     
 if
