@@ -1234,6 +1234,9 @@ mThebesLayerCallback
 aLayer
 aContext
 aRegionToDraw
+nsIntRegion
+(
+)
 mThebesLayerCallbackData
 )
 ;

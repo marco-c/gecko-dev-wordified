@@ -772,6 +772,9 @@ Callback
 this
 context
 region
+nsIntRegion
+(
+)
 cbInfo
 .
 CallbackData
