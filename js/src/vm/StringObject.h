@@ -201,6 +201,10 @@ JSContext
 cx
 HandleString
 str
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 JSString

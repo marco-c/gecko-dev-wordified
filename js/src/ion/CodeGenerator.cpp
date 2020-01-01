@@ -17686,6 +17686,10 @@ NewDeclEnvObjectFn
 JSContext
 *
 HandleFunction
+gc
+:
+:
+InitialHeap
 )
 ;
 static
@@ -17799,6 +17803,13 @@ info
 fun
 (
 )
+)
+Imm32
+(
+gc
+:
+:
+DefaultHeap
 )
 )
 StoreRegisterTo

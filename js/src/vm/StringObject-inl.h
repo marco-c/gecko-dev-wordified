@@ -284,6 +284,8 @@ JSContext
 cx
 HandleString
 str
+NewObjectKind
+newKind
 )
 {
 JSObject
@@ -295,6 +297,7 @@ NewBuiltinClassInstance
 cx
 &
 StringClass
+newKind
 )
 ;
 if
