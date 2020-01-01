@@ -1962,6 +1962,14 @@ bool
 jstring
 )
 ;
+SHELL_WRAPPER3
+(
+notifySmsReceived
+jstring
+jstring
+jlong
+)
+;
 static
 void
 *
@@ -4654,6 +4662,11 @@ notifyBatteryChange
 GETFUNC
 (
 canCreateFixupURI
+)
+;
+GETFUNC
+(
+notifySmsReceived
 )
 ;
 #
