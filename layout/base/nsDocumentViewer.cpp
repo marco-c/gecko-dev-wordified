@@ -11800,6 +11800,10 @@ void
 {
 if
 (
+!
+mAttachedToParent
+&
+&
 mWindow
 )
 {
@@ -12008,6 +12012,10 @@ mContainer
 if
 (
 base_win
+&
+&
+!
+mAttachedToParent
 )
 {
 base_win
