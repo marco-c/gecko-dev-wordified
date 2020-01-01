@@ -240,6 +240,16 @@ aRv
 MOZ_OVERRIDE
 ;
 void
+Mute
+(
+)
+;
+void
+Unmute
+(
+)
+;
+void
 StartRendering
 (
 )

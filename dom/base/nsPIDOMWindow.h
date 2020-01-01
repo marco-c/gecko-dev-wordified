@@ -3378,6 +3378,16 @@ AudioContext
 aAudioContext
 )
 ;
+void
+MuteAudioContexts
+(
+)
+;
+void
+UnmuteAudioContexts
+(
+)
+;
 /
 /
 Given
