@@ -1000,6 +1000,8 @@ PRUint8
 buffer
 PRUint32
 count
+PRUint32
+accumulatedFragments
 )
 ;
 class
