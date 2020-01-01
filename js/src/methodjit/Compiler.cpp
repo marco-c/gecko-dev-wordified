@@ -33284,6 +33284,10 @@ results
 .
 append
 (
+(
+JSObject
+*
+)
 NULL
 )
 ;
