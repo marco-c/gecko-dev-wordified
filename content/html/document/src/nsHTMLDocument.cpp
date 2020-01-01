@@ -14918,7 +14918,8 @@ sheet
 rv
 )
 ;
-rv
+bool
+result
 =
 agentSheets
 .
@@ -14927,10 +14928,10 @@ AppendObject
 sheet
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
-rv
-rv
+result
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 /
@@ -15039,7 +15040,7 @@ sheet
 rv
 )
 ;
-rv
+result
 =
 agentSheets
 .
@@ -15048,10 +15049,10 @@ AppendObject
 sheet
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
-rv
-rv
+result
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 /
