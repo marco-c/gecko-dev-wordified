@@ -26554,7 +26554,7 @@ atom
 {
 ASSERT_VALID_PROPERTY_CACHE_HIT
 (
-0
+i
 aobj
 obj2
 entry
