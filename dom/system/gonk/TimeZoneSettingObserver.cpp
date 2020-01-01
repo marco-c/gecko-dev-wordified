@@ -589,9 +589,10 @@ JSAutoCompartment
 ac
 (
 cx
-JSVAL_TO_OBJECT
-(
 aResult
+.
+toString
+(
 )
 )
 ;
