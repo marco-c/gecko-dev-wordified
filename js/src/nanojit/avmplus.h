@@ -698,6 +698,11 @@ uint16_t
 *
 FOpcodep
 ;
+typedef
+long
+long
+Box
+;
 class
 InterpState
 {
