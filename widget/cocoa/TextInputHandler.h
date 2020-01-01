@@ -6592,6 +6592,7 @@ key
 .
 *
 /
+const
 ModifierKey
 *
 GetModifierKeyForNativeKeyCode
@@ -6622,6 +6623,7 @@ flags
 .
 *
 /
+const
 ModifierKey
 *
 GetModifierKeyForDeviceDependentFlags
