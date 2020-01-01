@@ -1404,6 +1404,14 @@ IonBailoutIterator
 iter
 )
 ;
+InlineFrameIterator
+(
+const
+InlineFrameIterator
+*
+iter
+)
+;
 bool
 more
 (
