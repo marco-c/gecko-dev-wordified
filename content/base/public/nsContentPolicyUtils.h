@@ -1020,6 +1020,11 @@ CASE_RETURN
 TYPE_DTD
 )
 ;
+CASE_RETURN
+(
+TYPE_FONT
+)
+;
 default
 :
 return

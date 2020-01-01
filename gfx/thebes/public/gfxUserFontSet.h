@@ -548,6 +548,18 @@ mURI
 uri
 if
 url
+nsCOMPtr
+<
+nsIURI
+>
+mReferrer
+;
+/
+/
+referrer
+url
+if
+url
 /
 /
 format
@@ -977,7 +989,7 @@ class
 LoaderContext
 ;
 typedef
-PRBool
+nsresult
 (
 *
 LoaderCallback
@@ -989,6 +1001,9 @@ aFontToLoad
 nsIURI
 *
 aSrcURL
+nsIURI
+*
+aReferrerURI
 LoaderContext
 *
 aContextData
