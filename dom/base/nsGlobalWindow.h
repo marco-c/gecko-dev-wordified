@@ -880,6 +880,13 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+nsIDOMTouchEvent
+.
+h
+"
 /
 /
 JS
@@ -2037,6 +2044,8 @@ public
 PRCListStr
 public
 nsIDOMWindowPerformance
+public
+nsITouchEventReceiver
 {
 public
 :
@@ -2233,6 +2242,10 @@ NS_DECL_NSIDOMJSWINDOW
 /
 nsIDOMEventTarget
 NS_DECL_NSIDOMEVENTTARGET
+/
+/
+nsITouchEventReceiver
+NS_DECL_NSITOUCHEVENTRECEIVER
 /
 /
 nsPIDOMWindow
