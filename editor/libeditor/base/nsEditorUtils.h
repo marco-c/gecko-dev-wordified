@@ -1100,7 +1100,10 @@ nsAutoRules
 nsEditor
 *
 ed
-PRInt32
+nsEditor
+:
+:
+OperationID
 action
 nsIEditor
 :
