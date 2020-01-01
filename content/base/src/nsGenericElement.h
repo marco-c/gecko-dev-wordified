@@ -1368,7 +1368,7 @@ allowed
 *
 /
 nsresult
-AddScriptEventListener
+SetEventHandler
 (
 nsIAtom
 *

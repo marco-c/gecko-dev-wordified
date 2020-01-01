@@ -10873,7 +10873,7 @@ body
 nsresult
 rv
 =
-AddScriptEventListener
+SetEventHandler
 (
 aName
 aValue
@@ -11712,7 +11712,7 @@ manager
 manager
 -
 >
-RemoveScriptEventListener
+RemoveEventHandler
 (
 aAttribute
 )
@@ -23026,7 +23026,7 @@ attr
 value
 )
 ;
-AddScriptEventListener
+SetEventHandler
 (
 attr
 value

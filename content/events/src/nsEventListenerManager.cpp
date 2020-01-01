@@ -2567,7 +2567,7 @@ nsListenerStruct
 nsEventListenerManager
 :
 :
-FindJSEventListener
+FindEventHandler
 (
 uint32_t
 aEventType
@@ -2668,7 +2668,7 @@ nsresult
 nsEventListenerManager
 :
 :
-SetJSEventListener
+SetEventHandlerInternal
 (
 nsIScriptContext
 *
@@ -2710,7 +2710,7 @@ nsListenerStruct
 *
 ls
 =
-FindJSEventListener
+FindEventHandler
 (
 eventType
 aName
@@ -2787,7 +2787,7 @@ NS_PRIV_EVENT_FLAG_SCRIPT
 ;
 ls
 =
-FindJSEventListener
+FindEventHandler
 (
 eventType
 aName
@@ -2877,7 +2877,7 @@ nsresult
 nsEventListenerManager
 :
 :
-AddScriptEventListener
+SetEventHandler
 (
 nsIAtom
 *
@@ -3592,7 +3592,7 @@ ls
 ;
 rv
 =
-SetJSEventListener
+SetEventHandlerInternal
 (
 context
 scope
@@ -3633,7 +3633,7 @@ void
 nsEventListenerManager
 :
 :
-RemoveScriptEventListener
+RemoveEventHandler
 (
 nsIAtom
 *
@@ -3655,7 +3655,7 @@ nsListenerStruct
 *
 ls
 =
-FindJSEventListener
+FindEventHandler
 (
 eventType
 aName
@@ -5985,7 +5985,7 @@ nsresult
 nsEventListenerManager
 :
 :
-SetJSEventListenerToJsval
+SetEventHandlerToJsval
 (
 nsIAtom
 *
@@ -6027,7 +6027,7 @@ v
 )
 )
 {
-RemoveScriptEventListener
+RemoveEventHandler
 (
 aEventName
 )
@@ -6181,7 +6181,7 @@ nsListenerStruct
 ignored
 ;
 return
-SetJSEventListener
+SetEventHandlerInternal
 (
 context
 scope
@@ -6203,7 +6203,7 @@ void
 nsEventListenerManager
 :
 :
-GetJSEventListener
+GetEventHandler
 (
 nsIAtom
 *
@@ -6228,7 +6228,7 @@ nsListenerStruct
 *
 ls
 =
-FindJSEventListener
+FindEventHandler
 (
 eventType
 aEventName

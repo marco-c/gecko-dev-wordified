@@ -510,7 +510,7 @@ spec
 here
 .
 nsresult
-AddScriptEventListener
+SetEventHandler
 (
 nsIAtom
 *
@@ -545,7 +545,7 @@ aName
 *
 /
 void
-RemoveScriptEventListener
+RemoveEventHandler
 (
 nsIAtom
 *
@@ -1204,7 +1204,7 @@ aTypeAtom
 /
 nsListenerStruct
 *
-FindJSEventListener
+FindEventHandler
 (
 uint32_t
 aEventType
@@ -1265,7 +1265,7 @@ aListenerStruct
 *
 /
 nsresult
-SetJSEventListener
+SetEventHandlerInternal
 (
 nsIScriptContext
 *
@@ -1381,7 +1381,7 @@ compartment
 *
 /
 nsresult
-SetJSEventListenerToJsval
+SetEventHandlerToJsval
 (
 nsIAtom
 *
@@ -1430,7 +1430,7 @@ uncompiled
 *
 /
 void
-GetJSEventListener
+GetEventHandler
 (
 nsIAtom
 *
