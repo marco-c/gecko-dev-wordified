@@ -521,6 +521,10 @@ mIsAnimation
 (
 PR_FALSE
 )
+mFinished
+(
+PR_FALSE
+)
 mImageBuffer
 (
 nsnull
@@ -536,10 +540,6 @@ mImageBufferUsed
 mImageBufferReadPoint
 (
 0
-)
-mFinished
-(
-PR_FALSE
 )
 mCallback
 (
