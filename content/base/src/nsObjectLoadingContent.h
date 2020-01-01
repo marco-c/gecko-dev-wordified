@@ -627,6 +627,7 @@ a
 plugin
 )
 ePluginCrashed
+ePluginClickToPlay
 }
 ;
 /
