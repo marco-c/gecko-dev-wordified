@@ -234,8 +234,6 @@ Ignoring
 video
 cap
 update
-\
-n
 "
 "
 escalateDeescalate
@@ -439,8 +437,6 @@ MED_F_PREFIX
 video
 capability
 disabled
-\
-n
 "
 "
 updateVidCapTbl
@@ -520,8 +516,6 @@ val
 =
 %
 d
-\
-n
 "
 "
 cc_media_update_native_video_support
@@ -574,8 +568,6 @@ val
 =
 %
 d
-\
-n
 "
 "
 cc_media_update_video_cap
@@ -639,8 +631,6 @@ val
 =
 %
 d
-\
-n
 "
 "
 cc_media_update_video_txcap

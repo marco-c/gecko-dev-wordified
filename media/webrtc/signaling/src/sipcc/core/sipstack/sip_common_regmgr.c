@@ -989,8 +989,6 @@ match
 for
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1597,8 +1595,6 @@ at
 index
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1750,8 +1746,6 @@ at
 index
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2096,8 +2090,6 @@ s
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2145,8 +2137,6 @@ sll_remove
 error
 for
 fallback_ccb
-\
-n
 "
 fname
 )
@@ -2436,8 +2426,6 @@ out
 of
 bounds
 .
-\
-n
 "
 fname
 dn_line
@@ -2471,8 +2459,6 @@ out
 of
 bounds
 .
-\
-n
 "
 fname
 ccm_id
@@ -2517,8 +2503,6 @@ for
 ccmid
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2571,8 +2555,6 @@ for
 ccmid
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3005,8 +2987,6 @@ with
 line
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3049,8 +3029,6 @@ CCM
 id
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3095,8 +3073,6 @@ CCM
 id
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3457,8 +3433,6 @@ s
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3740,8 +3714,6 @@ line
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3860,8 +3832,6 @@ NULL
 !
 !
 !
-\
-n
 "
 fname
 )
@@ -3997,8 +3967,6 @@ s
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4180,8 +4148,6 @@ out
 of
 bounds
 .
-\
-n
 "
 fname
 ccb
@@ -4215,8 +4181,6 @@ out
 of
 bounds
 .
-\
-n
 "
 fname
 ccm_index
@@ -4404,8 +4368,6 @@ s
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4803,8 +4765,6 @@ Came
 here
 from
 cucm
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4836,8 +4796,6 @@ d
 Standby
 =
 NULL
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5023,8 +4981,6 @@ NEED
 TO
 REBOOT
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5239,8 +5195,6 @@ ccm_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5331,8 +5285,6 @@ register
 state
 to
 SIP_REG_NO_STANDBY
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5636,8 +5588,6 @@ timer
 d
 sec
 )
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5816,8 +5766,6 @@ timer
 d
 sec
 )
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5971,8 +5919,6 @@ CCSIP_DEBUG_REG_STATE
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6206,8 +6152,6 @@ count
 as
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -6333,8 +6277,6 @@ timer
 d
 sec
 )
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -6474,8 +6416,6 @@ CCSIP_DEBUG_REG_STATE
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6573,8 +6513,6 @@ DEB_F_PREFIX
 s
 failed
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6692,8 +6630,6 @@ in
 state
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6783,8 +6719,6 @@ in
 state
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7206,8 +7140,6 @@ get
 next
 ccm
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7264,8 +7196,6 @@ retry_times
 =
 %
 d
-\
-n
 "
 fname
 ccb
@@ -7511,8 +7441,6 @@ ccm_id
 is
 %
 d
-\
-n
 "
 fname
 ti_ccm
@@ -7648,8 +7576,6 @@ monitoring
 new
 standby
 cc
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7701,8 +7627,6 @@ next
 standby
 ccm
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8804,8 +8728,6 @@ Received
 a
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -8994,8 +8916,6 @@ Received
 a
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -9167,8 +9087,6 @@ DEB_L_C_F_PREFIX
 "
 Received
 event
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -9313,8 +9231,6 @@ DEB_L_C_F_PREFIX
 "
 Received
 event
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -9392,8 +9308,6 @@ Received
 a
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -9618,8 +9532,6 @@ CCSIP_DEBUG_REG_STATE
 %
 s
 :
-\
-n
 "
 fname
 )
@@ -9655,8 +9567,6 @@ invalid
 ccb
 or
 line_ccb
-\
-n
 "
 fname
 )
@@ -9730,8 +9640,6 @@ s
 Register
 all
 lines
-\
-n
 "
 fname
 )
@@ -9758,8 +9666,6 @@ s
 Register
 prime
 line
-\
-n
 "
 fname
 )
@@ -9911,8 +9817,6 @@ Close
 the
 TCP
 connection
-\
-n
 "
 fname
 )
@@ -9950,8 +9854,6 @@ Open
 a
 new
 connection
-\
-n
 "
 fname
 )
@@ -10114,8 +10016,6 @@ DEB_L_C_F_PREFIX
 "
 Received
 event
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10193,8 +10093,6 @@ Received
 a
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10279,8 +10177,6 @@ a
 503
 response
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10424,8 +10320,6 @@ for
 %
 d
 secs
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10771,8 +10665,6 @@ event
 for
 invalid
 ccb
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10790,8 +10682,6 @@ DEB_L_C_F_PREFIX
 "
 Received
 event
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -11141,8 +11031,6 @@ ccm
 entry
 non
 NULL
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -11206,8 +11094,6 @@ the
 current
 active
 ccm
-\
-n
 "
 fname
 )
@@ -11903,8 +11789,6 @@ DEB_L_C_F_PREFIX
 "
 Received
 event
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -11977,8 +11861,6 @@ timer
 %
 d
 sec
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12055,8 +11937,6 @@ DEB_F_PREFIX
 Registration
 rejected
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12188,8 +12068,6 @@ DEB_L_C_F_PREFIX
 "
 Received
 event
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -12856,8 +12734,6 @@ Attempting
 reconnection
 using
 UDP
-\
-n
 "
 fname
 )
@@ -13090,8 +12966,6 @@ CCM
 %
 d
 >
-\
-n
 "
 fname
 line
@@ -13152,8 +13026,6 @@ Init
 a
 reboot
 !
-\
-n
 "
 fname
 )
@@ -13213,8 +13085,6 @@ CALL
 CONTROL
 AVAILABLE
 !
-\
-n
 "
 fname
 )
@@ -13325,8 +13195,6 @@ DEB_F_PREFIX
 "
 Destroying
 connections
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13743,8 +13611,6 @@ CCSIP_DEBUG_REG_STATE
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13930,8 +13796,6 @@ CCSIP_DEBUG_REG_STATE
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14068,8 +13932,6 @@ new
 standby
 ccm
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14096,8 +13958,6 @@ DEB_F_PREFIX
 "
 START
 TIMER
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14172,8 +14032,6 @@ CCSIP_DEBUG_REG_STATE
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14382,8 +14240,6 @@ DEB_F_PREFIX
 registering
 prime
 line
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14453,8 +14309,6 @@ ccm
 entry
 is
 NULL
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14760,8 +14614,6 @@ DEB_F_PREFIX
 "
 waited
 TRUE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14832,8 +14684,6 @@ failed
 to
 send
 SIP_REG_CLEANUP
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14905,8 +14755,6 @@ CCSIP_DEBUG_TASK
 DEB_F_PREFIX
 "
 Entered
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14999,8 +14847,6 @@ waited
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15513,8 +15359,6 @@ conn
 type
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15576,8 +15420,6 @@ s
 active
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15623,8 +15465,6 @@ DEB_F_PREFIX
 "
 CCM
 changed
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15700,8 +15540,6 @@ DEB_F_PREFIX
 !
 !
 Process_config_change
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16569,8 +16407,6 @@ Re
 register
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16981,8 +16817,6 @@ s
 :
 malloc
 failed
-\
-n
 "
 fname
 )
@@ -17039,8 +16873,6 @@ Fake
 NOTIFY
 TO
 Platform
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17094,8 +16926,6 @@ LOCK
 !
 !
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17351,8 +17181,6 @@ monitoring
 new
 standby
 ccb
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17439,8 +17267,6 @@ the
 System
 now
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17541,8 +17367,6 @@ registration
 attempts
 failed
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17937,8 +17761,6 @@ send
 register
 update
 message
-\
-n
 "
 fname
 )
@@ -17954,8 +17776,6 @@ last_available_line
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -18216,8 +18036,6 @@ last_available_line
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -18669,8 +18487,6 @@ line
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

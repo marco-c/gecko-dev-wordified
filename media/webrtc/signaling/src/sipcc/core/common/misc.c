@@ -909,8 +909,6 @@ NULL
 !
 !
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2416,8 +2414,6 @@ header
 pointer
 is
 NULL
-\
-n
 "
 )
 ;

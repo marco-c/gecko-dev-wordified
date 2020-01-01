@@ -889,8 +889,6 @@ sippmh_write
 )
 failed
 .
-\
-n
 "
 fname
 )
@@ -944,8 +942,6 @@ empty
 buffer
 string
 .
-\
-n
 "
 fname
 )
@@ -1397,8 +1393,6 @@ out
 of
 bounds
 .
-\
-n
 "
 fname
 idx

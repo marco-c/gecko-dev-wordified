@@ -402,10 +402,6 @@ _format
 .
 )
 ;
-#
-define
-logMsg
-buginf
 /
 *
 SIP

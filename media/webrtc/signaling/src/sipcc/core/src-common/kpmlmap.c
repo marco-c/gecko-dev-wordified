@@ -784,8 +784,6 @@ DEB_L_C_F_PREFIX
 Match
 Found
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -1184,8 +1182,6 @@ Release
 kpml
 timers
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -1447,8 +1443,6 @@ memory
 to
 allocate
 timer
-\
-n
 "
 fname
 )
@@ -1616,8 +1610,6 @@ DEB_L_C_F_PREFIX
 Restart
 all
 timers
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -1824,8 +1816,6 @@ DEB_F_PREFIX
 "
 One
 shot
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1925,8 +1915,6 @@ KPML_DEBUG
 DEB_F_PREFIX
 "
 Persistent
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1949,8 +1937,6 @@ DEB_F_PREFIX
 "
 Singly
 notify
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2059,8 +2045,6 @@ KPML
 type
 not
 specified
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2234,8 +2218,6 @@ digit
 0x
 %
 0x
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2298,8 +2280,6 @@ memory
 for
 subscription
 data
-\
-n
 "
 fname
 )
@@ -2522,8 +2502,6 @@ DEB_L_C_F_PREFIX
 "
 Flush
 buffer
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2664,8 +2642,6 @@ DEB_L_C_F_PREFIX
 Update
 quarantined
 digits
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2999,8 +2975,6 @@ data
 not
 found
 .
-\
-n
 "
 fname
 )
@@ -3014,8 +2988,6 @@ KPML_DEBUG
 :
 Interdigit
 Timer
-\
-n
 "
 )
 ;
@@ -4321,8 +4293,6 @@ digits
 0x
 %
 x
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4438,8 +4408,6 @@ d
 ]
 too
 large
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5040,8 +5008,6 @@ KPML_DEBUG
 DEB_L_C_F_PREFIX
 "
 Reject
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5105,8 +5071,6 @@ memory
 for
 subscription
 data
-\
-n
 "
 fname
 )
@@ -5258,8 +5222,6 @@ NO
 call
 with
 id
-\
-n
 "
 kpml_data
 -
@@ -5302,8 +5264,6 @@ not
 in
 connected
 state
-\
-n
 "
 kpml_data
 -
@@ -5613,8 +5573,6 @@ KPML_L_C_F_PREFIX
 "
 NO
 call
-\
-n
 "
 line
 call_id
@@ -6261,8 +6219,6 @@ Regex
 parse
 error
 .
-\
-n
 "
 fname
 )
@@ -6850,8 +6806,6 @@ disabled
 in
 config
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -6900,8 +6854,6 @@ or
 call_id
 not
 correct
-\
-n
 "
 msg
 -
@@ -7176,8 +7128,6 @@ DEB_L_C_F_PREFIX
 "
 Refresh
 Subscription
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7315,8 +7265,6 @@ DEB_L_C_F_PREFIX
 "
 Activate
 Subscription
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7360,8 +7308,6 @@ Regex
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7427,8 +7373,6 @@ memory
 for
 subscription
 data
-\
-n
 "
 msg
 -
@@ -7536,8 +7480,6 @@ DEB_L_C_F_PREFIX
 Terminate
 Subscription
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7985,8 +7927,6 @@ code
 =
 %
 d
-\
-n
 "
 fname
 resp_code
@@ -8280,8 +8220,6 @@ DEB_L_C_F_PREFIX
 "
 SUB
 response
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -8396,8 +8334,6 @@ DEB_L_C_F_PREFIX
 "
 Notify
 response
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -8726,8 +8662,6 @@ RESP
 %
 u
 :
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -8798,8 +8732,6 @@ No
 memory
 for
 eventdata
-\
-n
 "
 kpml_data
 -
@@ -9353,8 +9285,6 @@ DEB_F_PREFIX
 %
 -
 5s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9754,8 +9684,6 @@ DEB_F_PREFIX
 "
 entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

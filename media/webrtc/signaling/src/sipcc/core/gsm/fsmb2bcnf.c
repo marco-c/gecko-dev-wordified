@@ -1118,8 +1118,6 @@ get
 new
 b2bccb
 .
-\
-n
 "
 fname
 )
@@ -4323,8 +4321,6 @@ GSM_F_PREFIX
 FCP
 not
 found
-\
-n
 "
 fname
 )
@@ -4920,8 +4916,6 @@ t_call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5065,8 +5059,6 @@ cns_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5222,8 +5214,6 @@ t_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5756,8 +5746,6 @@ t_call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6265,8 +6253,6 @@ t_call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

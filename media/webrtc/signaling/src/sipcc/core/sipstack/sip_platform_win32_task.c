@@ -836,8 +836,6 @@ sip_msgq
 is
 null
 exiting
-\
-n
 "
 fname
 )
@@ -891,8 +889,6 @@ attach
 thread
 to
 JVM
-\
-n
 "
 fname
 )
@@ -1073,8 +1069,6 @@ errno
 =
 %
 d
-\
-n
 "
 fname
 cpr_errno

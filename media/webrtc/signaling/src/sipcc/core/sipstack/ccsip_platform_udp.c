@@ -572,8 +572,6 @@ ipv6
 address
 in
 AF_INET
-\
-n
 "
 fname
 )
@@ -662,8 +660,6 @@ to
 set
 sockaddr
 .
-\
-n
 "
 fname
 )
@@ -1264,8 +1260,6 @@ ip4
 =
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1306,8 +1300,6 @@ with
 errno
 %
 d
-\
-n
 "
 fname
 cpr_errno
@@ -1690,8 +1682,6 @@ fd
 %
 d
 ]
-\
-n
 "
 fname
 s
@@ -1784,8 +1774,6 @@ on
 fd
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1826,8 +1814,6 @@ on
 fd
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2136,8 +2122,6 @@ read
 UDP
 socket
 .
-\
-n
 "
 fname
 )
@@ -2323,8 +2307,6 @@ to
 error
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

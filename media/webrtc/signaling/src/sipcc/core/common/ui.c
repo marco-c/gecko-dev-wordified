@@ -1330,8 +1330,6 @@ event
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -1453,8 +1451,6 @@ CALL_STATE
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 event
@@ -1568,8 +1564,6 @@ dialed_digits
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -1718,8 +1712,6 @@ CALL_STATE
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 event
@@ -1844,8 +1836,6 @@ attr
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -1939,8 +1929,6 @@ CALL_ATTR
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 attr
@@ -2020,8 +2008,6 @@ callref
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2120,8 +2106,6 @@ CALL_REF
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -2205,8 +2189,6 @@ gcid
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2312,8 +2294,6 @@ CALL_GCID
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -2477,8 +2457,6 @@ VIDEO_AVAIL
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -2681,8 +2659,6 @@ update
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -2818,8 +2794,6 @@ RINGER_STATE
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -2978,8 +2952,6 @@ RINGER_STATE
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -3143,8 +3115,6 @@ VIDEO_OFFERED
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -3354,8 +3324,6 @@ clngname
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3387,8 +3355,6 @@ displayCld
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3939,8 +3905,6 @@ CALL_INFO
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -4019,8 +3983,6 @@ recv_info_list
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4090,8 +4052,6 @@ to
 send
 CALL_RECV_INFO_LIST
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -4206,8 +4166,6 @@ message_body
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4333,8 +4291,6 @@ to
 send
 CALL_INFO_RECEIVED
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -4437,8 +4393,6 @@ priority
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4594,8 +4548,6 @@ CALL_STATUS
 s
 )
 msg
-\
-n
 "
 __FUNCTION__
 status
@@ -4670,8 +4622,6 @@ string
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4826,8 +4776,6 @@ pri
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5000,8 +4948,6 @@ DEVICE_NOTIFICATION
 s
 )
 msg
-\
-n
 "
 __FUNCTION__
 promptString
@@ -5062,8 +5008,6 @@ DEB_F_PREFIX
 called
 .
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5143,8 +5087,6 @@ status
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5211,8 +5153,6 @@ DEVICE_FEATURE_MWILAMP
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 status
@@ -5293,8 +5233,6 @@ count
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5448,8 +5386,6 @@ d
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 line
@@ -5528,8 +5464,6 @@ reached
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5613,8 +5547,6 @@ d
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 line
@@ -5674,8 +5606,6 @@ line
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5791,8 +5721,6 @@ displayname
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5921,8 +5849,6 @@ DEVICE_LABEL_N_SPEED
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 button_no
@@ -5995,8 +5921,6 @@ d
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6145,8 +6069,6 @@ d
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 line
@@ -6228,8 +6150,6 @@ s
 *
 *
 *
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6328,8 +6248,6 @@ failed
 *
 *
 *
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6407,8 +6325,6 @@ CALL_STATE
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -6497,8 +6413,6 @@ s
 *
 *
 *
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6636,8 +6550,6 @@ DEVICE_CCM_CONN_STATUS
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 status
@@ -6705,8 +6617,6 @@ TNP_DEBUG
 DEB_L_C_F_PREFIX
 "
 called
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -6935,8 +6845,6 @@ DEVICE_FEATURE_CFWD
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 cfa
@@ -6977,8 +6885,6 @@ TNP_DEBUG
 DEB_F_PREFIX
 "
 called
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7061,8 +6967,6 @@ string
 s
 NOP
 operation
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7155,8 +7059,6 @@ s
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7193,8 +7095,6 @@ DEB_F_PREFIX
 "
 invalid
 callid
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7353,8 +7253,6 @@ CALL_PLACED_INFO
 s
 )
 msg
-\
-n
 "
 __FUNCTION__
 cldNumber
@@ -7421,8 +7319,6 @@ TNP_DEBUG
 DEB_L_C_F_PREFIX
 "
 called
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7499,8 +7395,6 @@ CALL_DELETE_LAST_DIGIT
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -7580,8 +7474,6 @@ enable
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7652,8 +7544,6 @@ CALL_ENABLE_BKSP
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 enable
@@ -7760,8 +7650,6 @@ selected
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7832,8 +7720,6 @@ CALL_SELECTED
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 selected
@@ -7897,8 +7783,6 @@ app_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8000,8 +7884,6 @@ app_id
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 blf_state
@@ -8127,8 +8009,6 @@ TNP_DEBUG
 DEB_L_C_F_PREFIX
 "
 called
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -8381,8 +8261,6 @@ TNP_DEBUG
 DEB_L_C_F_PREFIX
 "
 called
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -8440,8 +8318,6 @@ in
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8579,8 +8455,6 @@ CALL_SELECT_FEATURE_SET
 (
 )
 msg
-\
-n
 "
 __FUNCTION__
 )
@@ -8637,8 +8511,6 @@ uri
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8696,8 +8568,6 @@ EXECUTE_URI
 (
 )
 msg
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8824,8 +8694,6 @@ security
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -8896,8 +8764,6 @@ CALL_SECURITY
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 call_security
@@ -9005,8 +8871,6 @@ target_call_id
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -9105,8 +8969,6 @@ CALL_FEATURE_CANCEL
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 target_call_id
@@ -9257,8 +9119,6 @@ for
 line
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9715,8 +9575,6 @@ TNP_DEBUG
 DEB_L_C_F_PREFIX
 "
 called
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -9794,8 +9652,6 @@ CALL_PRESERVATION_ACTIVE
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 call_id
@@ -10139,8 +9995,6 @@ CALL_STATE
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 event
@@ -10323,8 +10177,6 @@ call_instance
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10420,8 +10272,6 @@ call_instance
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10517,8 +10367,6 @@ call_instance
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10616,8 +10464,6 @@ call_instance
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10713,8 +10559,6 @@ call_instance
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10846,8 +10690,6 @@ call_instance
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -11004,8 +10846,6 @@ CALL_STATE
 d
 )
 msg
-\
-n
 "
 __FUNCTION__
 event

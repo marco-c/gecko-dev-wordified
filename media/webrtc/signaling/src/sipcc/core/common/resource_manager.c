@@ -189,8 +189,6 @@ resource
 manager
 received
 .
-\
-n
 "
 fname
 )
@@ -317,8 +315,6 @@ resource
 manager
 received
 .
-\
-n
 "
 fname
 )
@@ -358,8 +354,6 @@ is
 %
 d
 .
-\
-n
 "
 fname
 element
@@ -491,8 +485,6 @@ resource
 manager
 received
 .
-\
-n
 "
 fname
 )
@@ -531,8 +523,6 @@ value
 %
 d
 .
-\
-n
 "
 fname
 element
@@ -669,8 +659,6 @@ resource
 manager
 received
 .
-\
-n
 "
 fname
 )
@@ -710,8 +698,6 @@ value
 %
 d
 .
-\
-n
 "
 fname
 element
@@ -914,8 +900,6 @@ resource
 manager
 received
 .
-\
-n
 "
 fname
 )
@@ -1144,8 +1128,6 @@ resource
 manager
 received
 .
-\
-n
 "
 fname
 )
@@ -1223,8 +1205,6 @@ map
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1335,8 +1315,6 @@ element
 d
 received
 .
-\
-n
 "
 fname
 max_element
@@ -1376,8 +1354,6 @@ allocate
 resource
 manager
 .
-\
-n
 "
 fname
 )
@@ -1526,8 +1502,6 @@ resource
 manager
 received
 .
-\
-n
 "
 fname
 )

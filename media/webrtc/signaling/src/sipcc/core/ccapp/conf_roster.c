@@ -359,8 +359,6 @@ DEB_F_PREFIX
 "
 in
 init_call_conference
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -424,8 +422,6 @@ DEB_F_PREFIX
 "
 in
 free_call_confrerence
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -570,8 +566,6 @@ DEB_F_PREFIX
 "
 in
 copy_call_confrerence
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -670,8 +664,6 @@ Malloc
 failure
 for
 participant
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -809,8 +801,6 @@ in
 the
 linked
 list
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1018,8 +1008,6 @@ DEB_F_PREFIX
 Entering
 :
 CCAPI_CallInfo_getConfParticipants
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1065,8 +1053,6 @@ to
 get
 conference
 handle
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1112,8 +1098,6 @@ COUNT
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1307,8 +1291,6 @@ nodecount
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1413,8 +1395,6 @@ DEB_F_PREFIX
 Entering
 :
 CCAPI_CallInfo_getConfParticipantMax
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1466,8 +1446,6 @@ to
 get
 conference
 reference
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1878,8 +1856,6 @@ to
 get
 conference
 reference
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1977,8 +1953,6 @@ to
 get
 conference
 reference
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2075,8 +2049,6 @@ Not
 In
 Conference
 Call
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2430,8 +2402,6 @@ to
 get
 conference
 reference
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2477,8 +2447,6 @@ query
 for
 null
 participant
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2526,8 +2494,6 @@ is
 0
 returning
 NULL
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2642,8 +2608,6 @@ Not
 Find
 participant
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

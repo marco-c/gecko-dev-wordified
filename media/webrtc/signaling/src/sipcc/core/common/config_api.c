@@ -331,8 +331,6 @@ buffer
 :
 %
 d
-\
-n
 "
 "
 config_get_string
@@ -373,8 +371,6 @@ s
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -404,8 +400,6 @@ ID
 :
 %
 d
-\
-n
 "
 "
 config_get_string
@@ -543,8 +537,6 @@ s
 :
 %
 s
-\
-n
 "
 "
 config_set_string
@@ -575,8 +567,6 @@ str
 to
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -606,8 +596,6 @@ ID
 :
 %
 d
-\
-n
 "
 "
 config_set_string
@@ -860,8 +848,6 @@ s
 =
 %
 ld
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -921,8 +907,6 @@ s
 =
 %
 ld
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -982,8 +966,6 @@ s
 =
 %
 ld
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1036,8 +1018,6 @@ s
 =
 %
 ld
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1130,8 +1110,6 @@ s
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1164,8 +1142,6 @@ long
 >
 %
 d
-\
-n
 "
 "
 print_config_value
@@ -1372,8 +1348,6 @@ CFG_F_PREFIX
 s
 size
 error
-\
-n
 "
 "
 config_get_value
@@ -1397,8 +1371,6 @@ ID
 :
 %
 d
-\
-n
 "
 "
 config_get_value
@@ -1573,8 +1545,6 @@ len
 =
 %
 d
-\
-n
 "
 "
 config_set_value
@@ -1639,8 +1609,6 @@ ID
 :
 %
 d
-\
-n
 "
 "
 config_set_value
@@ -2731,8 +2699,6 @@ d
 out
 of
 range
-\
-n
 "
 "
 config_get_line_id

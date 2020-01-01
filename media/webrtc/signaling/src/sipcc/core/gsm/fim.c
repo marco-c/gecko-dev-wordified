@@ -410,8 +410,6 @@ allocate
 FIM
 SCBs
 .
-\
-n
 "
 fname
 )
@@ -452,8 +450,6 @@ allocate
 FIM
 ICBs
 .
-\
-n
 "
 fname
 )
@@ -1533,8 +1529,6 @@ DEB_F_PREFIX
 unknown
 call
 id
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1587,8 +1581,6 @@ DEB_F_PREFIX
 unknown
 call
 id
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2298,8 +2290,6 @@ name
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3301,8 +3291,6 @@ set_next_sess_video_pref
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3477,8 +3465,6 @@ filtered
 by
 UI
 lock
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3812,8 +3798,6 @@ s
 %
 s
 )
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3916,8 +3900,6 @@ d
 %
 d
 )
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (

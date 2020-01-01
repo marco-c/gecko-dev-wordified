@@ -366,8 +366,6 @@ socket
 mode
 %
 d
-\
-n
 "
 fname
 cpr_errno
@@ -459,8 +457,6 @@ a
 socket
 %
 d
-\
-n
 "
 fname
 cpr_errno
@@ -555,8 +551,6 @@ a
 socket
 %
 d
-\
-n
 "
 fname
 cpr_errno
@@ -648,8 +642,6 @@ a
 socket
 %
 d
-\
-n
 "
 fname
 cpr_errno
@@ -954,8 +946,6 @@ SIP_F_PREFIX
 "
 Invalid
 socket
-\
-n
 "
 fname
 )
@@ -1078,8 +1068,6 @@ TCP
 connections
 reached
 .
-\
-n
 "
 fname
 )
@@ -1471,8 +1459,6 @@ TCP
 Connection
 table
 full
-\
-n
 "
 fname
 )
@@ -1660,8 +1646,6 @@ Id
 %
 ld
 .
-\
-n
 "
 fname
 connid
@@ -2090,8 +2074,6 @@ failed
 %
 d
 .
-\
-n
 "
 fname
 cpr_errno
@@ -2136,8 +2118,6 @@ Free
 connection
 entry
 .
-\
-n
 "
 fname
 )
@@ -2175,8 +2155,6 @@ set
 option
 failed
 .
-\
-n
 "
 fname
 )
@@ -2225,8 +2203,6 @@ ip4
 =
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2266,8 +2242,6 @@ with
 error
 %
 d
-\
-n
 "
 fname
 cpr_errno
@@ -2707,8 +2681,6 @@ local
 port
 info
 .
-\
-n
 "
 fname
 )
@@ -3043,8 +3015,6 @@ RCV
 TCP
 message
 =
-\
-n
 "
 fname
 )
@@ -3144,8 +3114,6 @@ message
 .
 %
 d
-\
-n
 "
 fname
 sip_tcp_incomplete_msg
@@ -3188,8 +3156,6 @@ RCV
 TCP
 message
 =
-\
-n
 "
 fname
 )
@@ -3215,8 +3181,6 @@ error
 %
 d
 .
-\
-n
 "
 fname
 sip_tcp_fail_network_msg
@@ -3242,8 +3206,6 @@ Message
 create
 error
 .
-\
-n
 "
 fname
 )
@@ -4069,8 +4031,6 @@ send
 message
 failed
 .
-\
-n
 "
 fname
 )
@@ -4233,8 +4193,6 @@ socket
 %
 d
 .
-\
-n
 "
 fname
 this_fd
@@ -4364,8 +4322,6 @@ error
 %
 d
 =
-\
-n
 "
 fname
 errno
@@ -4471,8 +4427,6 @@ tcp_msg
 buffer
 memory
 .
-\
-n
 "
 fname
 )
@@ -4642,8 +4596,6 @@ tcp_msg
 buffer
 memory
 .
-\
-n
 "
 fname
 )
@@ -4758,8 +4710,6 @@ closed
 TCP
 connection
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4787,8 +4737,6 @@ error
 %
 d
 =
-\
-n
 "
 fname
 errno
@@ -5106,8 +5054,6 @@ to
 buffer
 data
 !
-\
-n
 "
 fname
 )
@@ -5150,8 +5096,6 @@ memory
 for
 sendData
 !
-\
-n
 "
 fname
 )
@@ -5221,8 +5165,6 @@ sendData
 >
 data
 !
-\
-n
 "
 fname
 )
@@ -5294,8 +5236,6 @@ queued
 length
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5506,8 +5446,6 @@ socket
 %
 d
 .
-\
-n
 "
 fname
 connid
@@ -5648,8 +5586,6 @@ Socket
 blocked
 requeue
 data
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5683,8 +5619,6 @@ error
 %
 d
 =
-\
-n
 "
 fname
 errno
@@ -5794,8 +5728,6 @@ dequeue
 an
 entry
 .
-\
-n
 "
 fname
 )
@@ -5962,8 +5894,6 @@ a
 valid
 connid
 !
-\
-n
 "
 fname
 )
@@ -6118,8 +6048,6 @@ socket
 waiting
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6152,8 +6080,6 @@ error
 %
 d
 =
-\
-n
 "
 fname
 errno
@@ -6196,8 +6122,6 @@ connect
 failed
 %
 d
-\
-n
 "
 fname
 s
@@ -6445,8 +6369,6 @@ error
 %
 d
 =
-\
-n
 "
 fname
 errno
@@ -6572,8 +6494,6 @@ for
 connid
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

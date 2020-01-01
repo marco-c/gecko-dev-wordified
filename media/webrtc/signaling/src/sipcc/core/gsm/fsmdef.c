@@ -5093,8 +5093,6 @@ dcb
 media
 pointer
 invalid
-\
-n
 "
 fname
 )
@@ -6890,8 +6888,6 @@ DEB_L_C_F_PREFIX
 call_not_counted_in_mnc_bt
 =
 FALSE
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -8711,8 +8707,6 @@ FSM_DEBUG_SM
 (
 DEB_L_C_F_PREFIX
 "
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -9736,8 +9730,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9825,8 +9817,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10063,8 +10053,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10465,8 +10453,6 @@ cause
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -12849,8 +12835,6 @@ for
 d
 ms
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -13063,6 +13047,10 @@ data
 ;
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SM_DEFAULT_EVENT
@@ -13184,8 +13172,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13432,8 +13418,6 @@ but
 s
 is
 active
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -14351,8 +14335,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14493,8 +14475,6 @@ calling_number
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -16350,8 +16330,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16383,8 +16361,6 @@ Dial
 string
 too
 long
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16512,6 +16488,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -16568,6 +16548,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -16928,8 +16912,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17147,8 +17129,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17212,8 +17192,6 @@ dcb
 is
 NULL
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17350,6 +17328,10 @@ offer
 ;
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -17482,8 +17464,6 @@ vcmGetIceParams
 returned
 an
 error
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17663,8 +17643,6 @@ vcmGetDtlsIdentity
 returned
 an
 error
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17736,6 +17714,10 @@ cause
 ;
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -17809,6 +17791,10 @@ cause
 ;
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -18039,8 +18025,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -18093,8 +18077,6 @@ dcb
 is
 NULL
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -18231,6 +18213,10 @@ answer
 ;
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -18363,8 +18349,6 @@ vcmGetIceParams
 returned
 an
 error
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -18543,8 +18527,6 @@ vcmGetDtlsIdentity
 returned
 an
 error
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -18677,6 +18659,10 @@ cause
 ;
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -18888,6 +18874,10 @@ cause
 ;
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -19078,8 +19068,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -19166,8 +19154,6 @@ dcb
 is
 NULL
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -19210,6 +19196,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -19409,6 +19399,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -20022,8 +20016,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20159,8 +20151,6 @@ not
 currently
 supported
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20227,8 +20217,6 @@ dcb
 is
 NULL
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20583,6 +20571,10 @@ cause
 ;
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -21143,8 +21135,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -21247,8 +21237,6 @@ DEB_F_PREFIX
 lsm_get_facility_by_line
 failed
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -21403,8 +21391,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -21454,8 +21440,6 @@ dcb
 is
 NULL
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -21861,8 +21845,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -21912,8 +21894,6 @@ dcb
 is
 NULL
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -22181,8 +22161,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -22205,8 +22183,6 @@ dcb
 is
 NULL
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -22632,8 +22608,6 @@ setting
 ice
 candidate
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -22953,8 +22927,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -24203,8 +24175,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -24637,8 +24607,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -24798,8 +24766,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -25131,8 +25097,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -25194,6 +25158,10 @@ request
 /
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -25429,8 +25397,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -25678,8 +25644,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -26218,8 +26182,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -26253,8 +26215,6 @@ dial
 tone
 .
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26386,8 +26346,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -26566,8 +26524,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -26696,8 +26652,6 @@ inband_received
 cancel
 timer
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -27041,8 +26995,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -27970,8 +27922,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -28553,8 +28503,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -29003,8 +28951,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -29411,8 +29357,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -29453,6 +29397,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -29798,8 +29746,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -30150,8 +30096,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -30333,6 +30277,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -30537,8 +30485,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -30976,8 +30922,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -31284,8 +31228,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -31687,8 +31629,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -32127,6 +32067,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -32309,8 +32253,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -32793,8 +32735,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -33193,6 +33133,10 @@ on
 /
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -33577,6 +33521,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -33793,8 +33741,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -34822,8 +34768,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -35339,6 +35283,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -35632,8 +35580,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -36340,8 +36286,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -36443,8 +36387,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -36543,8 +36485,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -36859,8 +36799,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -36989,8 +36927,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -37134,6 +37070,10 @@ else
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SM_DEFAULT_EVENT
@@ -37212,8 +37152,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -37320,8 +37258,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -37380,8 +37316,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -37528,6 +37462,10 @@ else
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SM_DEFAULT_EVENT
@@ -37647,8 +37585,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -38202,8 +38138,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -38700,8 +38634,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -38811,8 +38743,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -38850,6 +38780,10 @@ up
 /
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SM_DEFAULT_EVENT
@@ -39265,8 +39199,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -39718,6 +39650,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -40016,8 +39952,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -40146,8 +40080,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -40853,8 +40785,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -41226,8 +41156,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -42019,6 +41947,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -42522,8 +42454,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -43199,8 +43129,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -44471,8 +44399,6 @@ dcb
 was
 found
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -44615,8 +44541,6 @@ for
 headset
 failed
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -44968,8 +44892,6 @@ AutoAnswer
 is
 disabled
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -45047,8 +44969,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -45717,8 +45637,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -46041,8 +45959,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -46200,8 +46116,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -46834,8 +46748,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -46944,6 +46856,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -46992,6 +46908,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -47184,8 +47104,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -47345,8 +47263,6 @@ Feature
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -47470,8 +47386,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -47537,8 +47451,6 @@ Feature
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -48846,8 +48758,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -49035,8 +48945,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -49537,8 +49445,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -49579,6 +49485,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -49795,8 +49705,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -49983,8 +49891,6 @@ is
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -50055,8 +49961,6 @@ find
 join
 target
 dcb
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -50093,8 +49997,6 @@ join
 target
 call
 information
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -50181,8 +50083,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -50260,8 +50160,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -50803,8 +50701,6 @@ DEB_F_PREFIX
 cpr_calloc
 returned
 NULL
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -50843,8 +50739,6 @@ create
 free
 media
 list
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

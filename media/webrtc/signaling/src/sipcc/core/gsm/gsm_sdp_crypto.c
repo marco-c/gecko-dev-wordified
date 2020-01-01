@@ -5759,8 +5759,6 @@ remote
 transport
 %
 d
-\
-n
 "
 fname
 remote_transport
@@ -5774,8 +5772,6 @@ local
 transport
 %
 d
-\
-n
 "
 fname
 local_transport
@@ -5869,8 +5865,6 @@ GSM_F_PREFIX
 remote
 SAVP
 case
-\
-n
 "
 fname
 )
@@ -5898,8 +5892,6 @@ GSM_F_PREFIX
 local
 SAVP
 case
-\
-n
 "
 fname
 )
@@ -5950,8 +5942,6 @@ GSM_F_PREFIX
 crypto
 params
 verified
-\
-n
 "
 fname
 )
@@ -6013,8 +6003,6 @@ negotiated
 transport
 %
 d
-\
-n
 "
 fname
 negotiated_transport
@@ -9927,8 +9915,6 @@ media
 transport
 is
 SRTP
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10044,8 +10030,6 @@ change
 to
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10155,8 +10139,6 @@ SDP
 rx
 key
 changes
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (

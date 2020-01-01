@@ -199,8 +199,6 @@ listener
 is
 NULL
 returning
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -240,8 +238,6 @@ alistener
 is
 NULL
 returning
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -352,8 +348,6 @@ app
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -551,8 +545,6 @@ to
 allocate
 message
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -938,8 +930,6 @@ app
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1017,8 +1007,6 @@ a
 dedicated
 listener
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

@@ -189,8 +189,6 @@ call_handle
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -310,8 +308,6 @@ DEB_F_PREFIX
 "
 ccappTaskPostMsg
 failed
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

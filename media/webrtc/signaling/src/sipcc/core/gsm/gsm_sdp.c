@@ -747,8 +747,6 @@ video
 pref
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -822,8 +820,6 @@ table
 malloc
 failed
 .
-\
-n
 "
 dcb_p
 -
@@ -1337,8 +1333,6 @@ to
 SDP_DIRECTION_INACTIVE
 from
 sendonly
-\
-n
 "
 dcb_p
 -
@@ -1448,8 +1442,6 @@ to
 SDP_DIRECTION_INACTIVE
 from
 recvonly
-\
-n
 "
 dcb_p
 -
@@ -2366,8 +2358,6 @@ table
 malloc
 failed
 .
-\
-n
 "
 dcb_p
 -
@@ -3786,8 +3776,6 @@ media
 lines
 per
 call
-\
-n
 "
 dcb_p
 -
@@ -3947,8 +3935,6 @@ add
 media
 to
 list
-\
-n
 "
 dcb_p
 -
@@ -4100,8 +4086,6 @@ GSM_L_C_F_PREFIX
 removing
 NULL
 media
-\
-n
 "
 dcb_p
 -
@@ -4524,8 +4508,6 @@ no
 media
 capbility
 available
-\
-n
 "
 dcb_p
 -
@@ -4562,8 +4544,6 @@ no
 media
 tracks
 available
-\
-n
 "
 dcb_p
 -
@@ -6037,8 +6017,6 @@ nTimespec
 is
 invalid
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7097,8 +7075,6 @@ populate
 attribs
 %
 d
-\
-n
 "
 payload_number
 )
@@ -8869,8 +8845,6 @@ enumerating
 ICE
 attributes
 failed
-\
-n
 "
 )
 ;
@@ -8894,8 +8868,6 @@ attributes
 returned
 0
 attributes
-\
-n
 "
 )
 ;
@@ -8989,8 +8961,6 @@ to
 retrieve
 ICE
 attribute
-\
-n
 "
 )
 ;
@@ -9198,8 +9168,6 @@ Failed
 to
 add
 attribute
-\
-n
 "
 )
 ;
@@ -9233,8 +9201,6 @@ Failed
 to
 set
 attribute
-\
-n
 "
 )
 ;
@@ -9367,8 +9333,6 @@ Failed
 to
 add
 attribute
-\
-n
 "
 )
 ;
@@ -9402,8 +9366,6 @@ Failed
 to
 set
 attribute
-\
-n
 "
 )
 ;
@@ -9595,8 +9557,6 @@ Failed
 to
 add
 attribute
-\
-n
 "
 )
 ;
@@ -9632,8 +9592,6 @@ set
 dtls
 fingerprint
 attribute
-\
-n
 "
 )
 ;
@@ -10815,8 +10773,6 @@ capability
 disabled
 to
 SDP_DIRECTION_INACTIVE
-\
-n
 "
 "
 gsmsdp_feature_overide_direction
@@ -11878,15 +11834,13 @@ SDP_SUCCESS
 {
 GSM_ERR_MSG
 (
-GSM_L_C_F_PREFIX
+DEB_L_C_F_PREFIX
 "
 Adding
 media
 payload
 type
 failed
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -11974,8 +11928,6 @@ AVT
 payload
 type
 failed
-\
-n
 "
 dcb_p
 -
@@ -12242,8 +12194,6 @@ GSM_DEBUG
 (
 DEB_L_C_F_PREFIX
 "
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -12331,8 +12281,6 @@ video_count
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -12671,8 +12619,6 @@ ERROR
 (
 1
 )
-\
-n
 "
 line
 call_id
@@ -13777,8 +13723,6 @@ NULL
 and
 init
 failed
-\
-n
 "
 dcb_p
 -
@@ -13871,8 +13815,6 @@ line
 to
 Sdp
 failed
-\
-n
 "
 dcb_p
 -
@@ -14063,6 +14005,10 @@ fname
 media
 -
 >
+type
+media
+-
+>
 level
 )
 ;
@@ -14142,8 +14088,6 @@ dynamic
 payload
 type
 failed
-\
-n
 "
 dcb_p
 -
@@ -14280,6 +14224,10 @@ fname
 media
 -
 >
+type
+media
+-
+>
 level
 )
 ;
@@ -14344,8 +14292,6 @@ AVT
 payload
 type
 failed
-\
-n
 "
 dcb_p
 -
@@ -14566,8 +14512,6 @@ port
 for
 media
 line
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -14776,8 +14720,6 @@ allocate
 rx
 port
 failed
-\
-n
 "
 dcb_p
 -
@@ -15120,8 +15062,6 @@ d
 d
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -15166,8 +15106,6 @@ direction
 :
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -16312,8 +16250,6 @@ media
 type
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -16796,8 +16732,6 @@ Codec
 list
 is
 Master
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -16842,8 +16776,6 @@ Codec
 list
 is
 Master
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -18690,8 +18622,6 @@ codec
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -19424,8 +19354,6 @@ sdp
 is
 null
 .
-\
-n
 "
 fname
 )
@@ -19477,8 +19405,6 @@ no
 remote
 SDP
 available
-\
-n
 "
 fname
 )
@@ -19524,8 +19450,6 @@ insert
 a
 media
 line
-\
-n
 "
 fname
 )
@@ -20245,8 +20169,6 @@ with
 at
 %
 d
-\
-n
 "
 dcb_p
 -
@@ -21834,8 +21756,6 @@ not
 IPv4
 or
 IPv6
-\
-n
 "
 dcb_p
 -
@@ -22013,8 +21933,6 @@ does
 not
 support
 IPV6
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -23798,8 +23716,6 @@ GSM_L_C_F_PREFIX
 no
 media
 capability
-\
-n
 "
 dcb_p
 -
@@ -23944,8 +23860,6 @@ GSM_L_C_F_PREFIX
 no
 media
 cap
-\
-n
 "
 dcb_p
 -
@@ -24052,8 +23966,6 @@ cap
 index
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -24290,8 +24202,6 @@ media
 in
 answer
 SDP
-\
-n
 "
 dcb_p
 -
@@ -24848,8 +24758,6 @@ on
 keeping
 media
 line
-\
-n
 "
 dcb_p
 -
@@ -25333,8 +25241,6 @@ media
 lines
 found
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -25387,8 +25293,6 @@ DEB_L_C_F_PREFIX
 failed
 anat
 validation
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -25671,8 +25575,6 @@ at
 d
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -25778,8 +25680,6 @@ addr
 at
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -25943,8 +25843,6 @@ entry
 at
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26038,8 +25936,6 @@ at
 d
 is
 removed
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26088,8 +25984,6 @@ type
 at
 %
 d
-\
-n
 "
 dcb_p
 -
@@ -26246,8 +26140,6 @@ entry
 at
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26360,8 +26252,6 @@ global
 match
 %
 sfound
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26434,8 +26324,6 @@ Offered
 Called
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26576,8 +26464,6 @@ mismatch
 at
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26682,8 +26568,6 @@ mismatch
 at
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26775,8 +26659,6 @@ negotiated
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -26862,8 +26744,6 @@ DEB_L_C_F_PREFIX
 Got
 multicast
 offer
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -26932,8 +26812,6 @@ SDP
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -27552,8 +27430,6 @@ validation
 at
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -27829,8 +27705,6 @@ gsmsdp_negotiate_media_lines
 DTLS
 negotiation
 failed
-\
-n
 "
 )
 ;
@@ -28091,8 +27965,6 @@ Avail
 Called
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -28256,8 +28128,6 @@ media
 lines
 found
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -29416,8 +29286,6 @@ no
 media
 entry
 available
-\
-n
 "
 dcb_p
 -
@@ -29742,8 +29610,6 @@ allocate
 rx
 port
 failed
-\
-n
 "
 dcb_p
 -
@@ -29869,8 +29735,6 @@ invalid
 IP
 address
 mode
-\
-n
 "
 dcb_p
 -
@@ -30149,8 +30013,6 @@ d
 is
 not
 supported
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -30371,8 +30233,6 @@ no
 media
 capbility
 available
-\
-n
 "
 dcb_p
 -
@@ -30758,8 +30618,6 @@ media
 line
 for
 SDP
-\
-n
 "
 dcb_p
 -
@@ -30963,8 +30821,6 @@ media
 line
 for
 SDP
-\
-n
 "
 dcb_p
 -
@@ -31442,8 +31298,6 @@ at
 level
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -31875,8 +31729,6 @@ no
 media
 capbility
 available
-\
-n
 "
 dcb_p
 -
@@ -32329,8 +32181,6 @@ at
 level
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -32432,8 +32282,6 @@ add
 a
 new
 media
-\
-n
 "
 dcb_p
 -
@@ -34046,8 +33894,6 @@ media
 capability
 change
 found
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -36323,8 +36169,6 @@ GSM_DEBUG
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -36579,8 +36423,6 @@ returns
 with
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -36932,8 +36774,6 @@ Init
 is
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -38302,8 +38142,6 @@ DEB_F_PREFIX
 DTLS
 attribute
 error
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -38581,8 +38419,6 @@ payloads
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -38634,8 +38470,6 @@ PT
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -38804,8 +38638,6 @@ codec
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -39020,8 +38852,6 @@ address
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -39046,8 +38876,6 @@ port
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -39101,8 +38929,6 @@ bw
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -39156,8 +38982,6 @@ prof_level
 :
 %
 X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

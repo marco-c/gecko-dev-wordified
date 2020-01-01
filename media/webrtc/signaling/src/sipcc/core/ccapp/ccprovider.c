@@ -950,7 +950,22 @@ Cmd
 #
 define
 APP_ERR_MSG
-err_msg
+(
+format
+.
+.
+.
+)
+CSFLogError
+(
+"
+app
+"
+format
+#
+#
+__VA_ARGS__
+)
 #
 define
 MAX_REASON_LENGTH
@@ -3743,8 +3758,6 @@ CC_FEATURE_ONHOOK
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5147,8 +5160,6 @@ no
 available
 line
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5211,8 +5222,6 @@ callid
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5236,8 +5245,6 @@ callid
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5367,8 +5374,6 @@ CC_FEATURE_ONHOOK
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5532,8 +5537,6 @@ sid
 %
 s
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5686,8 +5689,6 @@ error
 %
 s
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5731,8 +5732,6 @@ conf
 no
 sid
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6035,8 +6034,6 @@ Received
 Cmd
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6135,8 +6132,6 @@ Unknown
 message
 %
 d
-\
-n
 "
 cmd
 )
@@ -6934,8 +6929,6 @@ CCAPP_DEBUG
 DEB_F_PREFIX
 "
 called
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7008,8 +7001,6 @@ DEB_F_PREFIX
 inPreservation
 =
 true
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7078,8 +7069,6 @@ ending
 call
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7232,8 +7221,6 @@ mode
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7457,8 +7444,6 @@ state
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7543,8 +7528,6 @@ state
 d
 .
 Returning
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7875,8 +7858,6 @@ cause
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8386,8 +8367,6 @@ is
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8459,8 +8438,6 @@ as
 state
 is
 ONHOOK
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8572,8 +8549,6 @@ ref
 %
 d
 ]
-\
-n
 "
 "
 CallBegin
@@ -8620,8 +8595,6 @@ failed
 for
 session
 data
-\
-n
 "
 )
 ;
@@ -9580,8 +9553,6 @@ sessid
 %
 x
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9617,8 +9588,6 @@ d
 sessid
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9697,8 +9666,6 @@ x
 event
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9787,8 +9754,6 @@ sessid
 0x
 %
 08x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9921,8 +9886,6 @@ instance
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10189,8 +10152,6 @@ ref
 %
 d
 ]
-\
-n
 "
 "
 CallEND
@@ -10281,8 +10242,6 @@ sessid
 0x
 %
 08x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10970,8 +10929,6 @@ Number
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -11511,8 +11468,6 @@ status
 %
 s
 ]
-\
-n
 "
 "
 callStatusChange
@@ -12136,8 +12091,6 @@ id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12745,10 +12698,6 @@ return
 CCAPP_DEBUG
 (
 DEB_F_PREFIX
-"
-\
-n
-"
 DEB_F_PREFIX_ARGS
 (
 SIP_CC_PROV
@@ -12840,8 +12789,6 @@ Received
 Cmd
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13029,8 +12976,6 @@ info1
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13264,8 +13209,6 @@ type
 %
 d
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13325,8 +13268,6 @@ type
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13384,8 +13325,6 @@ CCAPP_DEBUG
 DEB_F_PREFIX
 "
 DEVICE_REG_STATE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13417,8 +13356,6 @@ CCAPP_DEBUG
 DEB_F_PREFIX
 "
 CC_REGISTERED
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13442,8 +13379,6 @@ CCAPP_DEBUG
 DEB_F_PREFIX
 "
 CC_INSERVICE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13543,8 +13478,6 @@ d
 .
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13580,8 +13513,6 @@ is
 CUCME
 mode
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13615,8 +13546,6 @@ is
 CUCM
 mode
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13637,8 +13566,6 @@ is
 unknown
 mode
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14221,11 +14148,8 @@ message
 d
 msg
 =
-0x
 %
-x
-\
-n
+p
 "
 type
 msg
@@ -14285,8 +14209,6 @@ and
 destroying
 ccapp
 thread
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15058,8 +14980,6 @@ id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15318,8 +15238,6 @@ func_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15376,8 +15294,6 @@ to
 =
 %
 lld
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

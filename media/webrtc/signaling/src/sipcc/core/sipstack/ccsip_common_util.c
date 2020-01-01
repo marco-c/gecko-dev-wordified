@@ -1020,8 +1020,6 @@ the
 %
 d
 response
-\
-n
 "
 fname
 AUTH_HDR_STR
@@ -1046,8 +1044,6 @@ s
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1102,8 +1098,6 @@ the
 %
 d
 response
-\
-n
 "
 fname
 AUTH_HDR_STR
@@ -1363,8 +1357,6 @@ Authorization
 header
 build
 unsuccessful
-\
-n
 "
 fname
 )

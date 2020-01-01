@@ -440,8 +440,6 @@ DEB_F_PREFIX
 returned
 %
 u
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

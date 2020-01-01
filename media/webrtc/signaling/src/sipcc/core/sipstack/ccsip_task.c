@@ -1465,8 +1465,6 @@ model
 :
 %
 s
-\
-n
 "
 fname
 model
@@ -1504,8 +1502,6 @@ not
 obtain
 model
 information
-\
-n
 "
 fname
 )
@@ -1758,8 +1754,6 @@ ccsip_register_init
 )
 failed
 .
-\
-n
 "
 fname
 )
@@ -1793,8 +1787,6 @@ sip_platform_timers_init
 (
 )
 failed
-\
-n
 "
 fname
 )
@@ -2396,8 +2388,6 @@ cmd
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2543,8 +2533,6 @@ cmd
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2967,8 +2955,6 @@ sapp_init
 )
 failed
 .
-\
-n
 "
 fname
 )
@@ -3010,8 +2996,6 @@ sapp_test
 )
 failed
 .
-\
-n
 "
 fname
 )
@@ -5187,8 +5171,6 @@ restartCmd
 %
 d
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5295,8 +5277,6 @@ action
 %
 d
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5360,8 +5340,6 @@ DEB_F_PREFIX
 Received
 SIP_SHUTDOWN
 message
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5615,8 +5593,6 @@ DEB_F_PREFIX
 CFGID_PROXY_REGISTER
 is
 false
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5684,8 +5660,6 @@ recognize
 s
 \
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5793,8 +5767,6 @@ Found
 server
 IP
 match
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5871,8 +5843,6 @@ backup
 server
 IP
 match
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5970,8 +5940,6 @@ fallback
 server
 IP
 match
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6489,8 +6457,6 @@ sippmh_message_create
 (
 )
 failed
-\
-n
 "
 fname
 )
@@ -7398,8 +7364,6 @@ Id
 is
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7760,8 +7724,6 @@ Through
 Timer
 fired
 !
-\
-n
 "
 fname
 )
@@ -7783,8 +7745,11 @@ break
 ;
 default
 :
-err_msg
+CSFLogError
 (
+"
+sipstack
+"
 "
 %
 s
@@ -7793,8 +7758,6 @@ unknown
 timer
 %
 s
-\
-n
 "
 fname
 timerMsg
@@ -8185,8 +8148,6 @@ Max
 Fwd
 Value
 detected
-\
-n
 "
 fname
 )
@@ -8313,8 +8274,6 @@ SIP
 method
 not
 implemented
-\
-n
 "
 fname
 )
@@ -8378,8 +8337,6 @@ SIP
 method
 not
 allowed
-\
-n
 "
 fname
 )
@@ -8672,8 +8629,6 @@ SIP
 Call
 ID
 .
-\
-n
 "
 fname
 )
@@ -9016,8 +8971,6 @@ Recv
 Subs
 Response
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9073,8 +9026,6 @@ DEB_F_PREFIX
 Recv
 Notify
 response
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9129,8 +9080,6 @@ Recv
 Unsolicited
 Notify
 response
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9175,8 +9124,6 @@ Recv
 PUBLISH
 Response
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9231,8 +9178,6 @@ silently
 dropped
 )
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9428,8 +9373,6 @@ Recv
 Refer
 Response
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9589,8 +9532,6 @@ dialog
 )
 message
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9685,8 +9626,6 @@ SIP
 INFO
 message
 .
-\
-n
 "
 fname
 )
@@ -9952,8 +9891,6 @@ INVITEs
 !
 !
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10194,8 +10131,6 @@ Previous
 Call
 ID
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10414,8 +10349,6 @@ to
 SIP
 SM
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10584,8 +10517,6 @@ to
 SIP
 SM
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10662,8 +10593,6 @@ Received
 OOD
 Refer
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10698,8 +10627,6 @@ handled
 OOD
 Refer
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10722,8 +10649,6 @@ handle
 OOD
 Refer
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10778,8 +10703,6 @@ DEB_F_PREFIX
 Recv
 Refer
 Response
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -11752,8 +11675,6 @@ SIP
 request
 message
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -11808,8 +11729,6 @@ Received
 SIP
 response
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -11953,8 +11872,6 @@ Recv
 Refer
 Response
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12144,8 +12061,6 @@ Recv
 1xx
 message
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12173,8 +12088,6 @@ Recv
 2xx
 message
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12202,8 +12115,6 @@ Recv
 3xx
 message
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12241,8 +12152,6 @@ Recv
 6xx
 message
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12336,8 +12245,6 @@ Unknown
 response
 class
 .
-\
-n
 "
 fname
 )
@@ -12483,8 +12390,6 @@ a
 body
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12640,8 +12545,6 @@ event
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -12824,8 +12727,6 @@ type
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13233,8 +13134,6 @@ SIP_F_PREFIX
 Missing
 Event
 header
-\
-n
 "
 fname
 )
@@ -13414,8 +13313,6 @@ Req
 -
 URI
 !
-\
-n
 "
 fname
 )
@@ -13459,8 +13356,6 @@ DEB_F_PREFIX
 NOTIFY
 :
 refer
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13602,8 +13497,6 @@ Req
 -
 URI
 !
-\
-n
 "
 fname
 )
@@ -13816,8 +13709,6 @@ error
 in
 To
 header
-\
-n
 "
 fname
 )
@@ -13907,8 +13798,6 @@ DEB_F_PREFIX
 NOTIFY
 :
 MWI
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13937,8 +13826,6 @@ Bad
 MWI
 NOTIFY
 !
-\
-n
 "
 fname
 )
@@ -13991,8 +13878,6 @@ NOTIFY
 check
 -
 sync
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14033,8 +13918,6 @@ NOTIFY
 service
 -
 control
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14071,8 +13954,6 @@ NOTIFY
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14109,8 +13990,6 @@ NOTIFY
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14147,8 +14026,6 @@ NOTIFY
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14185,8 +14062,6 @@ NOTIFY
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14211,8 +14086,6 @@ SIP_F_PREFIX
 Unrecognized
 Event
 header
-\
-n
 "
 fname
 )
@@ -14502,8 +14375,6 @@ SIP
 Call
 ID
 .
-\
-n
 "
 fname
 )
@@ -14589,8 +14460,6 @@ SIP_F_PREFIX
 ccb
 is
 NULL
-\
-n
 "
 fname
 )
@@ -14644,8 +14513,6 @@ DEB_F_PREFIX
 Recv
 Notify
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -14929,8 +14796,6 @@ Notify
 w
 /
 Progression
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16127,8 +15992,6 @@ allocate
 IPC
 msg
 ccip_restart_req
-\
-n
 "
 fname
 )
@@ -16260,8 +16123,6 @@ DEB_F_PREFIX
 Starting
 Restart
 Process
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16300,8 +16161,6 @@ Re
 -
 init
 Process
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16426,8 +16285,6 @@ change
 detected
 :
 Restarting
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16453,8 +16310,6 @@ No
 config
 change
 detected
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16525,8 +16380,6 @@ allocate
 IPC
 msg
 SIP_SHUTDOWN_REQ_SHUT
-\
-n
 "
 fname
 )
@@ -16637,8 +16490,6 @@ DEB_F_PREFIX
 Starting
 Shutdown
 Process
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16716,8 +16567,6 @@ and
 destroying
 sip
 thread
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

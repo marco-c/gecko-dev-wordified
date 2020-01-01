@@ -137,8 +137,6 @@ DEB_F_PREFIX
 "
 cc_invokeDeviceFeature
 failed
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

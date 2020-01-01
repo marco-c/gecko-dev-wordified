@@ -696,8 +696,6 @@ to
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -767,8 +765,6 @@ to
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -991,8 +987,6 @@ d
 ]
 in
 FCP
-\
-n
 "
 "
 fcp_set_index
@@ -1078,8 +1072,6 @@ capability
 %
 d
 ]
-\
-n
 "
 "
 fcp_set_index
@@ -1307,8 +1299,6 @@ Initializing
 Capabilities
 to
 default
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2318,8 +2308,6 @@ d
 ]
 in
 FCP
-\
-n
 "
 "
 fcp_set_capabilities

@@ -300,8 +300,6 @@ CCAPI_Service_create
 -
 calling
 CC_Service_create
-\
-n
 "
 )
 ;
@@ -351,8 +349,6 @@ CCAPI_Service_destroy
 -
 calling
 CC_Service_destroy
-\
-n
 "
 )
 ;
@@ -444,8 +440,6 @@ pending
 Ignoring
 this
 .
-\
-n
 "
 )
 ;
@@ -458,8 +452,6 @@ DEF_DEBUG
 "
 CCAPI_Service_start
 -
-\
-n
 "
 )
 ;
@@ -508,8 +500,6 @@ CCAPI_Service_stop
 calling
 registration
 stop
-\
-n
 "
 )
 ;
@@ -614,8 +604,6 @@ CCAPI_Service_reregister
 -
 initiate
 reregister
-\
-n
 "
 )
 ;
@@ -653,8 +641,6 @@ pending
 reregister
 Ignored
 !
-\
-n
 "
 )
 ;
@@ -685,8 +671,6 @@ config
 .
 Exiting
 .
-\
-n
 "
 )
 ;
@@ -734,8 +718,6 @@ cfg
 %
 s
 ]
-\
-n
 "
 g_dev_name
 g_cfg_p

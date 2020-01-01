@@ -1462,8 +1462,6 @@ s
 >
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2070,8 +2068,6 @@ allcoate
 FSM
 FCBs
 .
-\
-n
 "
 "
 fsm_init
@@ -4263,8 +4259,6 @@ id
 >
 %
 d
-\
-n
 "
 dcb
 -
@@ -4567,8 +4561,6 @@ feature
 invocation
 state
 table
-\
-n
 "
 dcb
 -
@@ -4862,8 +4854,6 @@ id
 d
 is
 invalid
-\
-n
 "
 fname
 id
@@ -4894,8 +4884,6 @@ line
 d
 is
 invalid
-\
-n
 "
 fname
 line
@@ -5131,8 +5119,6 @@ line
 d
 is
 invalid
-\
-n
 "
 fname
 line
@@ -5348,8 +5334,6 @@ id
 d
 is
 invalid
-\
-n
 "
 fname
 id
@@ -5380,8 +5364,6 @@ line
 d
 is
 invalid
-\
-n
 "
 fname
 line
@@ -5772,8 +5754,6 @@ id
 d
 is
 invalid
-\
-n
 "
 fname
 id
@@ -5804,8 +5784,6 @@ line
 d
 is
 invalid
-\
-n
 "
 fname
 line
@@ -5930,8 +5908,6 @@ id
 d
 is
 invalid
-\
-n
 "
 fname
 id
@@ -5962,8 +5938,6 @@ line
 d
 is
 invalid
-\
-n
 "
 fname
 line
@@ -6083,8 +6057,6 @@ id
 d
 is
 invalid
-\
-n
 "
 fname
 id
@@ -6116,8 +6088,6 @@ line
 d
 is
 invalid
-\
-n
 "
 fname
 line

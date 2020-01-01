@@ -497,8 +497,6 @@ setPropertyCacheByteArray
 malloc
 failed
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -698,8 +696,6 @@ maximum
 d
 ]
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -749,8 +745,6 @@ Length
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -862,8 +856,6 @@ FCP
 Parsing
 FCP
 doc
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -888,8 +880,6 @@ Null
 FCP
 xml
 document
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -930,8 +920,6 @@ Version
 %
 s
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

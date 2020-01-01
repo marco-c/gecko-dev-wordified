@@ -567,8 +567,6 @@ CCAPP_DEBUG
 CC_device_manager_action
 :
 CMD_INSERVICE
-\
-n
 "
 )
 ;
@@ -618,8 +616,6 @@ ccInvokeFeature
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -640,8 +636,6 @@ CCAPP_DEBUG
 CC_device_manager_action
 :
 CMD_INIT
-\
-n
 "
 )
 ;
@@ -683,8 +677,6 @@ ccInvokeFeature
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -705,8 +697,6 @@ CCAPP_DEBUG
 CC_device_manager_action
 :
 CMD_RESTART
-\
-n
 "
 )
 ;
@@ -752,8 +742,6 @@ ccInvokeFeature
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -774,8 +762,6 @@ CCAPP_DEBUG
 CC_device_manager_action
 :
 CMD_SHUTDOWN
-\
-n
 "
 )
 ;
@@ -817,8 +803,6 @@ ccInvokeFeature
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -842,8 +826,6 @@ CCAPP_DEBUG
 CC_device_manager_action
 :
 Default
-\
-n
 "
 )
 ;
@@ -875,8 +857,6 @@ ccInvokeFeature
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -944,8 +924,6 @@ state
 =
 %
 s
-\
-n
 "
 mgmt_state_to_str
 (
@@ -972,8 +950,6 @@ CCAPP_DEBUG
 CC_device_manager
 :
 processInsToOoS
-\
-n
 "
 )
 ;
@@ -983,8 +959,6 @@ DEF_DEBUG
 CC_device_manager
 :
 processInsToOoS
-\
-n
 "
 )
 ;
@@ -1004,8 +978,6 @@ CCAPP_DEBUG
 CC_device_manager
 :
 prepareForSoftReset
-\
-n
 "
 )
 ;
@@ -1024,8 +996,6 @@ CC_device_manager
 process
 Inservice
 Event
-\
-n
 "
 )
 ;
@@ -1102,8 +1072,6 @@ current
 State
 %
 s
-\
-n
 "
 mgmt_event_to_str
 (
@@ -2274,8 +2242,6 @@ in
 State
 %
 s
-\
-n
 "
 mgmt_event_to_str
 (

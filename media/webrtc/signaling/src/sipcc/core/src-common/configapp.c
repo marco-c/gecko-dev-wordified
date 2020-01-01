@@ -195,8 +195,6 @@ SUB
 NOT
 manager
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -450,8 +448,6 @@ to
 %
 d
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -601,8 +597,6 @@ Received
 invalid
 event
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

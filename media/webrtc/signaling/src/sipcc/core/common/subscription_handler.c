@@ -255,8 +255,6 @@ d
 isAlerting
 =
 TRUE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -281,8 +279,6 @@ d
 isAlerting
 =
 FALSE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -388,8 +384,6 @@ d
 isInUse
 =
 TRUE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -414,8 +408,6 @@ d
 isInUse
 =
 FALSE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -486,8 +478,6 @@ isAvailable
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -620,8 +610,6 @@ CCAPP_DEBUG
 DEB_F_PREFIX
 "
 entering
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -731,8 +719,6 @@ lineFeature
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -907,8 +893,6 @@ CCAPP_DEBUG
 DEB_F_PREFIX
 "
 entering
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1043,8 +1027,6 @@ CCAPP_DEBUG
 DEB_F_PREFIX
 "
 entering
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1186,8 +1168,6 @@ CCAPP_DEBUG
 DEB_F_PREFIX
 "
 entering
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1340,8 +1320,6 @@ DEB_F_PREFIX
 going
 to
 hide
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1364,8 +1342,6 @@ DEB_F_PREFIX
 going
 to
 unhide
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1484,8 +1460,6 @@ appId
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

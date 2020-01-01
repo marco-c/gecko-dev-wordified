@@ -3555,11 +3555,13 @@ SIPSPI_EV_END
 )
 )
 {
-buginf
+CSFLogDebug
 (
 "
-\
-nvalue
+sipstack
+"
+"
+value
 of
 event
 passed
@@ -3567,6 +3569,8 @@ isipsmevent
 =
 %
 d
+"
+"
 value
 of
 state
@@ -3758,8 +3762,6 @@ s
 >
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3871,8 +3873,6 @@ DEF_DEBUG
 =
 =
 =
-\
-n
 "
 )
 ;
@@ -4210,8 +4210,6 @@ No
 SDP
 Found
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -13631,8 +13629,6 @@ Require
 Header
 in
 INVITE
-\
-n
 "
 fname
 )
@@ -15614,8 +15610,6 @@ matching
 call
 found
 .
-\
-n
 "
 fname
 )
@@ -16021,8 +16015,6 @@ for
 SDP
 in
 ACK
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20045,8 +20037,6 @@ proxy
 attempting
 backup
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20075,8 +20065,6 @@ backup
 proxy
 failed
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20094,8 +20082,6 @@ will
 be
 broadcast
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20433,8 +20419,6 @@ collected
 Placing
 the
 call
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20480,8 +20464,6 @@ SIPSM
 d
 :
 Setup
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -21117,8 +21099,6 @@ s
 SIP
 180
 RINGING
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -21753,8 +21733,6 @@ BUSY
 IN
 183
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -21903,8 +21881,6 @@ s
 SIP
 182
 QUEUED
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -21991,8 +21967,6 @@ s
 SIP
 BAD
 1xx
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -23848,8 +23822,6 @@ OK
 INVITE
 )
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -25287,8 +25259,6 @@ d
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -25338,8 +25308,6 @@ d
 /
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -25418,8 +25386,6 @@ s
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -26579,8 +26545,6 @@ d
 %
 d
 unsupported
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -28032,8 +27996,6 @@ response
 for
 ext
 refer
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -28113,8 +28075,6 @@ d
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -28187,8 +28147,6 @@ d
 /
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -28319,8 +28277,6 @@ s
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -29094,8 +29050,6 @@ SIP_F_PREFIX
 "
 Clearing
 call
-\
-n
 "
 fname
 )
@@ -29474,8 +29428,6 @@ d
 Glare
 detected
 !
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -30218,8 +30170,6 @@ SIPSM
 d
 :
 connected
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -30415,8 +30365,6 @@ but
 received
 no
 ACK
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -30768,8 +30716,6 @@ the
 SDP
 in
 INVITE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -30908,8 +30854,6 @@ the
 SDP
 in
 INVITE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -32216,8 +32160,6 @@ without
 from
 far
 side
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -33983,8 +33925,6 @@ an
 old
 one
 !
-\
-n
 "
 fname
 )
@@ -34209,8 +34149,6 @@ with
 multiple
 contacts
 !
-\
-n
 "
 fname
 )
@@ -35471,8 +35409,6 @@ within
 dialog
 OPTIONS
 request
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -36095,8 +36031,6 @@ number
 :
 %
 d
-\
-n
 "
 fname
 ccb
@@ -36145,8 +36079,6 @@ number
 :
 %
 d
-\
-n
 "
 fname
 ccb
@@ -36210,8 +36142,6 @@ s
 -
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -36699,8 +36629,6 @@ No
 free
 lines
 available
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -37122,8 +37050,6 @@ gsm_id
 %
 d
 >
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -37461,8 +37387,6 @@ s
 -
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -37542,8 +37466,6 @@ d
 %
 d
 )
-\
-n
 "
 fname
 sip_sm_event
@@ -37859,8 +37781,6 @@ passed
 into
 function
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -41612,8 +41532,6 @@ Check
 ccb
 is
 null
-\
-n
 "
 fname
 )
@@ -41723,8 +41641,6 @@ pre
 allocated
 call
 ID
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -41816,8 +41732,6 @@ Check
 pTagBuf
 is
 null
-\
-n
 "
 fname
 )
@@ -41967,8 +41881,6 @@ SIP_F_PREFIX
 registration
 initialization
 failed
-\
-n
 "
 fname
 )
@@ -41995,8 +41907,6 @@ info
 package
 initialization
 failed
-\
-n
 "
 fname
 )
@@ -42031,8 +41941,6 @@ SIP_F_PREFIX
 timer
 initialization
 failed
-\
-n
 "
 fname
 )
@@ -42308,8 +42216,6 @@ STATE
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -42411,8 +42317,6 @@ STATE
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -42508,8 +42412,6 @@ STATE
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -42586,8 +42488,6 @@ STATE
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -42707,8 +42607,6 @@ STATE
 :
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -42787,8 +42685,6 @@ down
 .
 .
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -42838,8 +42734,6 @@ is
 set
 to
 false
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -43015,8 +42909,6 @@ Error
 :
 sip_sm_init
 failed
-\
-n
 "
 )
 ;
@@ -43141,8 +43033,6 @@ DEB_F_PREFIX
 "
 In
 sip_restart
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -43166,8 +43056,6 @@ SIP_F_PREFIX
 "
 sip_sm_init
 failed
-\
-n
 "
 fname
 )
@@ -43196,8 +43084,6 @@ is
 set
 to
 true
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -43247,8 +43133,6 @@ DEB_F_PREFIX
 %
 d
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -43285,8 +43169,6 @@ is
 set
 to
 true
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -43361,8 +43243,6 @@ sip_shutdown_phase1
 %
 d
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -44698,8 +44578,6 @@ Matched
 branch_id
 &
 CSeq
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -44819,8 +44697,6 @@ Method
 index
 not
 found
-\
-n
 "
 fname
 )
@@ -45155,8 +45031,6 @@ DEB_F_PREFIX
 "
 Matched
 to_tag
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -45198,8 +45072,6 @@ DEB_F_PREFIX
 "
 Matched
 from_tag
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -45526,8 +45398,6 @@ DEB_F_PREFIX
 "
 Matched
 reqURI
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -45655,8 +45525,6 @@ id
 not
 active
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -46024,8 +45892,6 @@ for
 CANCEL
 /
 ACK
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -46295,8 +46161,6 @@ SIP_F_PREFIX
 Found
 Merged
 Request
-\
-n
 "
 fname
 )
@@ -46631,8 +46495,6 @@ action
 >
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -46920,8 +46782,6 @@ CANCEL
 )
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -46983,8 +46843,6 @@ action
 >
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -48427,8 +48285,6 @@ message
 #
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -49041,8 +48897,6 @@ proxy
 attempting
 backup
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -49701,8 +49555,6 @@ within
 a
 dialog
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -49846,8 +49698,6 @@ of
 a
 dialog
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -50553,8 +50403,6 @@ message
 #
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -50863,8 +50711,6 @@ message
 #
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -51456,8 +51302,6 @@ to_tag
 %
 s
 >
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -52849,8 +52693,6 @@ Stopping
 reTx
 timer
 .
-\
-n
 "
 "
 (
@@ -53261,8 +53103,6 @@ parameter
 request_check_reason_phrase
 is
 NULL
-\
-n
 "
 fname
 )
@@ -54745,8 +54585,6 @@ to_tag
 %
 s
 >
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -57703,8 +57541,6 @@ d
 Glare
 condition
 detected
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -58313,8 +58149,6 @@ for
 SDP
 in
 ACK
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -59179,8 +59013,6 @@ unexpected
 feature
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -63676,8 +63508,6 @@ an
 old
 one
 !
-\
-n
 "
 fname
 )
@@ -63744,8 +63574,6 @@ old
 one
 outstanding
 !
-\
-n
 "
 fname
 )
@@ -63885,8 +63713,6 @@ Anonymous
 Callback
 configured
 !
-\
-n
 "
 fname
 )
@@ -64299,8 +64125,6 @@ Update
 received
 without
 SDP
-\
-n
 "
 fname
 )
@@ -65676,8 +65500,6 @@ an
 old
 one
 !
-\
-n
 "
 fname
 )
@@ -65810,8 +65632,6 @@ Anonymous
 Callback
 configured
 !
-\
-n
 "
 fname
 )
@@ -65875,8 +65695,6 @@ Require
 Header
 in
 UPDATE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -65994,8 +65812,6 @@ Audit
 SDP
 in
 UPDATE
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -67124,8 +66940,6 @@ message
 not
 sent
 !
-\
-n
 "
 fname
 ccb
@@ -67430,8 +67244,6 @@ NOTIFY
 with
 no
 body
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -67497,8 +67309,6 @@ with
 unknown
 body
 type
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -67587,8 +67397,6 @@ couldn
 t
 parse
 body
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -67655,8 +67463,6 @@ but
 no
 mandatory
 params
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -67782,8 +67588,6 @@ but
 no
 mandatory
 params
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -68436,8 +68240,6 @@ in
 non
 CCM
 mode
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -68496,8 +68298,6 @@ doesn
 '
 t
 match
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -68560,8 +68360,6 @@ Received
 NOTIFY
 callid
 matches
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -68684,8 +68482,6 @@ ignoring
 call
 preservation
 request
-\
-n
 "
 fname
 sip_util_state2string
@@ -68736,8 +68532,6 @@ Unsupported
 unsolicited
 notify
 event
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -69263,8 +69057,6 @@ fields
 in
 duped
 ccb
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -69290,8 +69082,6 @@ fields
 in
 duped
 ccb
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -69388,8 +69178,6 @@ ID
 for
 OutofDialog
 ccb
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -69426,8 +69214,6 @@ s
 route
 set
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -70034,8 +69820,6 @@ pointer
 from
 mother
 ccb
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -72248,8 +72032,6 @@ is
 to
 %
 d
-\
-n
 "
 fname
 dn_line
@@ -72308,8 +72090,6 @@ SIP_F_PREFIX
 "
 malloc
 failed
-\
-n
 "
 fname
 )
@@ -72443,8 +72223,6 @@ is
 to
 %
 d
-\
-n
 "
 fname
 dn_line
@@ -72554,8 +72332,6 @@ is
 to
 %
 d
-\
-n
 "
 fname
 dn_line
@@ -72687,8 +72463,6 @@ or
 less
 than
 1
-\
-n
 "
 fname
 dn_line
@@ -72804,8 +72578,6 @@ or
 less
 than
 1
-\
-n
 "
 fname
 dn_line
@@ -73018,8 +72790,6 @@ is
 not
 hook
 state
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -73094,8 +72864,6 @@ Exiting
 Not
 CCM
 mode
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -73279,8 +73047,6 @@ tag
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -73329,8 +73095,6 @@ tag
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
