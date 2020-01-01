@@ -473,14 +473,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIGIOSERVICE
-NS_HIDDEN_
-(
-nsresult
-)
-Init
-(
-)
-;
 }
 ;
 #
