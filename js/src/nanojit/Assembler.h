@@ -642,6 +642,14 @@ environment
 *
 *
 /
+#
+define
+STACK_GRANULARITY
+sizeof
+(
+void
+*
+)
 /
 *
 *
@@ -2417,7 +2425,10 @@ r
 return
 stack_direction
 (
-4
+(
+int32_t
+)
+STACK_GRANULARITY
 )
 *
 int32_t

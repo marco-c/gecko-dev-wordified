@@ -3620,10 +3620,8 @@ Fragmento
 :
 drawTrees
 (
-avmplus
-:
-:
-AvmString
+char
+*
 fileName
 )
 {
