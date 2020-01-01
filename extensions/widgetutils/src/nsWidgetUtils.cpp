@@ -1869,6 +1869,8 @@ MIN_INT
 return
 NS_OK
 ;
+/
+*
 mWindow
 -
 >
@@ -1886,8 +1888,8 @@ g_lastY
 =
 y
 ;
-/
 *
+/
 nsEventStatus
 statusX
 ;
@@ -1998,8 +2000,6 @@ g_lastY
 y
 ;
 }
-*
-/
 return
 NS_OK
 ;
