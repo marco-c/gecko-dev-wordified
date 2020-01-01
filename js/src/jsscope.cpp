@@ -6361,7 +6361,10 @@ shape
 >
 attrs
 =
+uint8
+(
 attrs
+)
 ;
 shape
 -
@@ -6380,7 +6383,10 @@ shape
 >
 shortid
 =
+int16
+(
 shortid
+)
 ;
 /
 *
