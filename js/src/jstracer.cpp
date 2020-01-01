@@ -23814,7 +23814,7 @@ lir
 >
 insLoad
 (
-LIR_ldq
+LIR_ldf
 base
 offset
 )
@@ -25822,6 +25822,15 @@ x
 isop
 (
 LIR_stqi
+)
+|
+|
+x
+-
+>
+isop
+(
+LIR_stfi
 )
 )
 ;
@@ -86272,7 +86281,7 @@ TT_DOUBLE
 :
 loadOp
 =
-LIR_ldq
+LIR_ldf
 ;
 break
 ;

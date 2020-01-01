@@ -4160,7 +4160,7 @@ lir
 >
 insLoad
 (
-LIR_ldq
+LIR_ldf
 lirbuf
 -
 >
