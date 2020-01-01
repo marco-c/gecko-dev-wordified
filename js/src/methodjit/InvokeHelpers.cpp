@@ -1802,6 +1802,11 @@ newscript
 code
 construct
 CompileRequest_Interpreter
+f
+.
+fp
+(
+)
 )
 ;
 if
@@ -4668,6 +4673,11 @@ isConstructing
 (
 )
 CompileRequest_Interpreter
+f
+.
+fp
+(
+)
 )
 ;
 if

@@ -4223,6 +4223,12 @@ debugMode
 (
 false
 )
+spsProfiler
+(
+thisFromCtor
+(
+)
+)
 profilingScripts
 (
 false

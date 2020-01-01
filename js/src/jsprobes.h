@@ -2617,16 +2617,6 @@ runtime
 ;
 if
 (
-rt
--
->
-spsProfiler
-.
-enabled
-(
-)
-&
-&
 fp
 -
 >
