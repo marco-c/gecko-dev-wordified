@@ -743,7 +743,7 @@ results
 (
 csshtmltree
 .
-xhtml
+xul
 )
 .
 this
@@ -2398,7 +2398,8 @@ main
 document
 '
 s
-body
+root
+element
 let
 styles
 =
@@ -2414,7 +2415,7 @@ this
 .
 styleDocument
 .
-body
+documentElement
 )
 ;
 let
@@ -2935,7 +2936,7 @@ results
 (
 csshtmltree
 .
-xhtml
+xul
 )
 .
 delete
