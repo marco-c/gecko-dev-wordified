@@ -1335,6 +1335,7 @@ true
 ;
 #
 if
+(
 defined
 (
 _WIN32
@@ -1345,6 +1346,13 @@ _WIN32
 defined
 (
 _WIN64
+)
+)
+|
+|
+defined
+(
+_OS2
 )
 case
 ABI_stdcall_abi
