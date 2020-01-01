@@ -15067,6 +15067,13 @@ nextID
 activeGroupId
 :
 activeGroupId
+totalNumber
+:
+this
+.
+groupItems
+.
+length
 }
 )
 ;
