@@ -3537,6 +3537,9 @@ IsDecodeFinished
 (
 )
 ;
+TimeStamp
+mDrawStartTime
+;
 /
 /
 Decoder
