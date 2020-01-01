@@ -2099,6 +2099,20 @@ None
             
 make_extra
 =
+self
+.
+mozconfig
+[
+'
+make_extra
+'
+]
+or
+[
+]
+            
+make_extra
+=
 dict
 (
 m
@@ -2113,14 +2127,7 @@ split
 for
 m
 in
-self
-.
-mozconfig
-[
-'
 make_extra
-'
-]
 )
             
 self
