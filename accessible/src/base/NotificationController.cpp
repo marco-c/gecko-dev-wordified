@@ -575,7 +575,7 @@ NS_IMPL_RELEASE
 (
 NotificationController
 )
-NS_IMPL_CYCLE_COLLECTION_NATIVE_CLASS
+NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 NotificationController
 )
@@ -5898,7 +5898,7 @@ return
 haveToUpdate
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_NATIVE_CLASS
+NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 NotificationController
 :
