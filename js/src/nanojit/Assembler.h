@@ -2324,8 +2324,10 @@ regs
 )
 ;
 void
-evictScratchRegs
+evictScratchRegsExcept
 (
+RegisterMask
+ignore
 )
 ;
 void

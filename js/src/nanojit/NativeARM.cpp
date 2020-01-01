@@ -7114,7 +7114,7 @@ spilled
 data
 [
 from
-evictScratchRegs
+evictScratchRegsExcept
 (
 )
 ]
@@ -7182,7 +7182,7 @@ else
 *
 meaning
 that
-evictScratchRegs
+evictScratchRegsExcept
 (
 )
 will
@@ -7294,8 +7294,9 @@ be
 spilled
 unnecessarily
 .
-evictScratchRegs
+evictScratchRegsExcept
 (
+0
 )
 ;
 const

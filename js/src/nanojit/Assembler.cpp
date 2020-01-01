@@ -14470,8 +14470,10 @@ void
 Assembler
 :
 :
-evictScratchRegs
+evictScratchRegsExcept
 (
+RegisterMask
+ignore
 )
 {
 /
@@ -14573,6 +14575,9 @@ r
 )
 &
 GpRegs
+&
+~
+ignore
 )
 {
 LIns
@@ -14999,7 +15004,11 @@ else
 evictSomeActiveRegs
 (
 ~
+(
 SavedRegs
+|
+ignore
+)
 )
 ;
 }
