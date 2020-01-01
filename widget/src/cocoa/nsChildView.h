@@ -2239,14 +2239,6 @@ PRBool
 outState
 )
 ;
-NS_IMETHOD
-SetParent
-(
-nsIWidget
-*
-aNewParent
-)
-;
 virtual
 nsIWidget
 *
