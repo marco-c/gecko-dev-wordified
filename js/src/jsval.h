@@ -2275,6 +2275,17 @@ indicate
 construction
 *
 /
+JS_OVERWRITTEN_CALLEE
+/
+*
+arguments
+.
+callee
+has
+been
+overwritten
+*
+/
 JS_ION_ERROR
 /
 *
