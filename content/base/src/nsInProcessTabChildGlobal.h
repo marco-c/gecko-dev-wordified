@@ -226,8 +226,6 @@ nsFrameScriptExecutor
 public
 nsIInProcessContentFrameMessageManager
 public
-nsIScriptContextPrincipal
-public
 nsIGlobalObject
 public
 nsSupportsWeakReference
@@ -538,17 +536,6 @@ nsDOMEventTargetHelper
 :
 AddEventListener
 ;
-virtual
-nsIScriptObjectPrincipal
-*
-GetObjectPrincipal
-(
-)
-{
-return
-this
-;
-}
 virtual
 JSContext
 *

@@ -12576,10 +12576,6 @@ nsIContentFrameMessageManager
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIScriptContextPrincipal
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIScriptObjectPrincipal
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
