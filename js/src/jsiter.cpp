@@ -5808,7 +5808,7 @@ NewObjectWithGivenProto
 (
 cx
 &
-ElementIteratorClass
+class_
 proto
 cx
 -
@@ -5874,7 +5874,10 @@ toObject
 (
 )
 .
-isElementIterator
+is
+<
+ElementIteratorObject
+>
 (
 )
 ;
@@ -6255,10 +6258,10 @@ false
 ;
 }
 Class
-js
+ElementIteratorObject
 :
 :
-ElementIteratorClass
+class_
 =
 {
 "
@@ -11574,7 +11577,10 @@ Class
 cls
 =
 &
-ElementIteratorClass
+ElementIteratorObject
+:
+:
+class_
 ;
 proto
 =
