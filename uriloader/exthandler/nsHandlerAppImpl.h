@@ -485,6 +485,7 @@ nsHandlerAppBase
 NS_HIDDEN
 {
 }
+;
 nsHandlerAppBase
 (
 const
