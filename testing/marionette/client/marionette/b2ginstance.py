@@ -638,6 +638,12 @@ self
 _dm
 =
 devicemanager
+        
+self
+.
+_remote_profiles
+=
+None
     
 property
     
@@ -672,6 +678,33 @@ return
 self
 .
 _dm
+    
+property
+    
+def
+remote_profiles
+(
+self
+)
+:
+        
+if
+not
+self
+.
+_remote_profiles
+:
+            
+self
+.
+check_remote_profiles
+(
+)
+        
+return
+self
+.
+_remote_profiles
     
 def
 check_file
@@ -910,6 +943,12 @@ Path
 )
 )
         
+self
+.
+_remote_profiles
+=
+remote_profiles
+        
 return
 remote_profiles
     
@@ -938,9 +977,7 @@ p
 in
 self
 .
-check_remote_profiles
-(
-)
+remote_profiles
 ]
         
 crashed
@@ -952,20 +989,6 @@ remote_dump_dir
 in
 remote_dump_dirs
 :
-            
-print
-"
-checking
-for
-crashes
-in
-'
-%
-s
-'
-"
-%
-remote_dump_dir
             
 local_dump_dir
 =
