@@ -528,9 +528,10 @@ return
 ;
 if
 (
+getRole
+(
 acc
-.
-finalRole
+)
 !
 =
 ROLE_TEXT_LEAF

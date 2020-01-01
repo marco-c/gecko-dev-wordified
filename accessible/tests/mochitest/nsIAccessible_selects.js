@@ -409,9 +409,10 @@ aIndex
 var
 role
 =
+getRole
+(
 aAcc
-.
-role
+)
 ;
 is
 (
