@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2009
+2010
 Google
 Inc
 .
@@ -346,6 +346,7 @@ HANDLE_EINTR
 (
 x
 )
+__extension__
 (
 {
 \
