@@ -2603,7 +2603,7 @@ makeLowerInfinite
 )
 ;
 else
-setLower
+setLowerInit
 (
 Min
 (
@@ -2630,7 +2630,7 @@ makeUpperInfinite
 )
 ;
 else
-setUpper
+setUpperInit
 (
 Max
 (
