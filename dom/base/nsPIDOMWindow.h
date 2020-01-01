@@ -1716,10 +1716,6 @@ return
 mIsInnerWindow
 ?
 mOuterWindow
-.
-get
-(
-)
 :
 this
 ;
@@ -3349,10 +3345,8 @@ nsPIDOMWindow
 *
 mInnerWindow
 ;
-nsCOMPtr
-<
 nsPIDOMWindow
->
+*
 mOuterWindow
 ;
 /
