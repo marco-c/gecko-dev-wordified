@@ -11195,7 +11195,11 @@ Now
 +
 UsecsToDuration
 (
+PR_MAX
+(
+USECS_PER_MS
 aUsecs
+)
 )
 ;
 TimeStamp
