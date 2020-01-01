@@ -4193,6 +4193,18 @@ traceOK
 ;
 /
 *
+Memoized
+value
+of
+isCompilationUnprofitable
+.
+*
+/
+bool
+unprofitable
+;
+/
+*
 *
 Sometimes
 loops
@@ -5010,7 +5022,7 @@ JSContext
 *
 cx
 uintN
-depth
+goodOps
 )
 ;
 void
