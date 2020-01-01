@@ -1960,6 +1960,7 @@ listeners
 for
 the
 editor
+virtual
 nsresult
 InstallEventListeners
 (
