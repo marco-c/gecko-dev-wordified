@@ -164,8 +164,6 @@ snippetsVersion
 (
 )
 STARTPAGE_VERSION
-}
-;
 /
 *
 *
@@ -188,15 +186,8 @@ engine
 .
 *
 /
-XPCOMUtils
-.
-defineLazyGetter
-(
-AboutHomeUtils
-"
+get
 defaultSearchEngine
-"
-function
 (
 )
 {
@@ -272,7 +263,7 @@ spec
 )
 ;
 }
-)
+}
 ;
 /
 *
