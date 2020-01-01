@@ -146,7 +146,8 @@ js
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -563,6 +564,10 @@ object
 .
 *
 /
+this
+.
+HttpError
+=
 function
 HttpError
 (
@@ -624,7 +629,8 @@ responses
 .
 *
 /
-const
+this
+.
 HTTP_400
 =
 new
@@ -637,7 +643,8 @@ Request
 "
 )
 ;
-const
+this
+.
 HTTP_401
 =
 new
@@ -649,7 +656,8 @@ Unauthorized
 "
 )
 ;
-const
+this
+.
 HTTP_402
 =
 new
@@ -662,7 +670,8 @@ Required
 "
 )
 ;
-const
+this
+.
 HTTP_403
 =
 new
@@ -674,7 +683,8 @@ Forbidden
 "
 )
 ;
-const
+this
+.
 HTTP_404
 =
 new
@@ -687,7 +697,8 @@ Found
 "
 )
 ;
-const
+this
+.
 HTTP_405
 =
 new
@@ -701,7 +712,8 @@ Allowed
 "
 )
 ;
-const
+this
+.
 HTTP_406
 =
 new
@@ -714,7 +726,8 @@ Acceptable
 "
 )
 ;
-const
+this
+.
 HTTP_407
 =
 new
@@ -728,7 +741,8 @@ Required
 "
 )
 ;
-const
+this
+.
 HTTP_408
 =
 new
@@ -741,7 +755,8 @@ Timeout
 "
 )
 ;
-const
+this
+.
 HTTP_409
 =
 new
@@ -753,7 +768,8 @@ Conflict
 "
 )
 ;
-const
+this
+.
 HTTP_410
 =
 new
@@ -765,7 +781,8 @@ Gone
 "
 )
 ;
-const
+this
+.
 HTTP_411
 =
 new
@@ -778,7 +795,8 @@ Required
 "
 )
 ;
-const
+this
+.
 HTTP_412
 =
 new
@@ -791,7 +809,8 @@ Failed
 "
 )
 ;
-const
+this
+.
 HTTP_413
 =
 new
@@ -806,7 +825,8 @@ Large
 "
 )
 ;
-const
+this
+.
 HTTP_414
 =
 new
@@ -822,7 +842,8 @@ Long
 "
 )
 ;
-const
+this
+.
 HTTP_415
 =
 new
@@ -836,7 +857,8 @@ Type
 "
 )
 ;
-const
+this
+.
 HTTP_417
 =
 new
@@ -849,7 +871,8 @@ Failed
 "
 )
 ;
-const
+this
+.
 HTTP_500
 =
 new
@@ -863,7 +886,8 @@ Error
 "
 )
 ;
-const
+this
+.
 HTTP_501
 =
 new
@@ -876,7 +900,8 @@ Implemented
 "
 )
 ;
-const
+this
+.
 HTTP_502
 =
 new
@@ -889,7 +914,8 @@ Gateway
 "
 )
 ;
-const
+this
+.
 HTTP_503
 =
 new
@@ -902,7 +928,8 @@ Unavailable
 "
 )
 ;
-const
+this
+.
 HTTP_504
 =
 new
@@ -915,7 +942,8 @@ Timeout
 "
 )
 ;
-const
+this
+.
 HTTP_505
 =
 new
@@ -5376,7 +5404,8 @@ true
 }
 }
 ;
-var
+this
+.
 HttpServer
 =
 nsHttpServer
