@@ -24777,7 +24777,7 @@ _retval
 }
 nsIContent
 *
-nsDocument
+nsIDocument
 :
 :
 GetHtmlContent
@@ -24827,7 +24827,7 @@ nsnull
 }
 nsIContent
 *
-nsDocument
+nsIDocument
 :
 :
 GetHtmlChildContent
