@@ -763,9 +763,12 @@ mPlugin
 (
 NULL
 )
+ALLOW_THIS_IN_INITIALIZER_LIST
+(
 mTaskFactory
 (
 this
+)
 )
 #
 ifdef
