@@ -1401,7 +1401,7 @@ NS_IMETHOD
 ScrollHorizontal
 (
 bool
-aRight
+aLeft
 )
 ;
 NS_IMETHOD
@@ -2905,7 +2905,7 @@ nsTextInputSelectionImpl
 ScrollHorizontal
 (
 bool
-aRight
+aLeft
 )
 {
 if
@@ -2923,11 +2923,11 @@ ScrollBy
 (
 nsIntPoint
 (
-aRight
+aLeft
 ?
+-
 1
 :
--
 1
 0
 )

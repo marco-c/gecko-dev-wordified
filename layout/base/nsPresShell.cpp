@@ -14808,7 +14808,7 @@ PresShell
 ScrollHorizontal
 (
 bool
-aRight
+aLeft
 )
 {
 nsIScrollableFrame
@@ -14835,11 +14835,11 @@ ScrollBy
 (
 nsIntPoint
 (
-aRight
+aLeft
 ?
+-
 1
 :
--
 1
 0
 )
