@@ -1417,7 +1417,7 @@ plugin
 .
 *
 /
-void
+nsresult
 CallSetWindow
 (
 )
