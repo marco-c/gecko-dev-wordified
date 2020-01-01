@@ -45273,7 +45273,7 @@ mem
 .
 decode_bytes_at_a_time
 "
-4096
+16384
 )
 ;
 /
