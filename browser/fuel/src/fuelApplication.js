@@ -4083,6 +4083,9 @@ extIApplication
 Ci
 .
 nsIObserver
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 /
