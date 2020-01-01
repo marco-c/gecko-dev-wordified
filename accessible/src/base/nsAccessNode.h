@@ -661,7 +661,7 @@ node
 /
 nsDocAccessible
 *
-GetDocAccessible
+Document
 (
 )
 const

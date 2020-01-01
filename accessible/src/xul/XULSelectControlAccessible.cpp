@@ -1914,7 +1914,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;

@@ -2037,7 +2037,7 @@ accessible
 from
 document
 .
-GetDocAccessible
+Document
 (
 )
 -

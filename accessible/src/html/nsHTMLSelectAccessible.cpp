@@ -1273,7 +1273,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;
@@ -4267,7 +4267,7 @@ cache
 if
 (
 !
-GetDocAccessible
+Document
 (
 )
 -
@@ -5152,7 +5152,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;

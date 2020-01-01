@@ -1190,7 +1190,7 @@ mParent
 mParent
 -
 >
-GetDocAccessible
+Document
 (
 )
 :

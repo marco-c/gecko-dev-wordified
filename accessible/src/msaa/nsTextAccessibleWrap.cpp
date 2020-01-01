@@ -1079,7 +1079,7 @@ nsDocAccessible
 *
 docAccessible
 =
-GetDocAccessible
+Document
 (
 )
 ;

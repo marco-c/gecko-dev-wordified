@@ -1822,7 +1822,7 @@ from
 the
 document
 .
-GetDocAccessible
+Document
 (
 )
 -
