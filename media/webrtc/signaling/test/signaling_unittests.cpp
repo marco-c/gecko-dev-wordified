@@ -907,8 +907,13 @@ thread
 nsresult
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+pseudo
+-
+main
+"
 &
 thread
 )

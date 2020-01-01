@@ -136,6 +136,14 @@ process
 .
 h
 >
+void
+CSFLogRegisterThread
+(
+const
+cprThread_t
+thread
+)
+;
 typedef
 struct
 {
@@ -1087,6 +1095,11 @@ fname
 )
 ;
 }
+CSFLogRegisterThread
+(
+threadPtr
+)
+;
 return
 (
 threadPtr
