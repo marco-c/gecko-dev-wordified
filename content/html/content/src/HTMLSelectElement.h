@@ -1185,6 +1185,12 @@ SetCustomValidity
 is
 fine
 .
+using
+nsINode
+:
+:
+Remove
+;
 /
 /
 nsINode

@@ -464,6 +464,11 @@ nsAString
 aArg
 )
 ;
+NS_IMETHOD
+MozRemove
+(
+)
+;
 /
 /
 nsINode
