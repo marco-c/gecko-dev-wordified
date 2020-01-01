@@ -418,9 +418,9 @@ class
 nsDOMSimpleGestureEvent
 :
 public
-nsIDOMSimpleGestureEvent
-public
 nsDOMMouseEvent
+public
+nsIDOMSimpleGestureEvent
 {
 public
 :

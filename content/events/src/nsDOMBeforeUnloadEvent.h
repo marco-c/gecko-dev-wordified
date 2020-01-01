@@ -458,9 +458,9 @@ class
 nsDOMBeforeUnloadEvent
 :
 public
-nsIDOMBeforeUnloadEvent
-public
 nsDOMEvent
+public
+nsIDOMBeforeUnloadEvent
 {
 public
 :

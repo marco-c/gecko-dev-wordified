@@ -464,9 +464,9 @@ class
 nsDOMNotifyPaintEvent
 :
 public
-nsIDOMNotifyPaintEvent
-public
 nsDOMEvent
+public
+nsIDOMNotifyPaintEvent
 {
 public
 :

@@ -523,9 +523,9 @@ class
 nsDOMProgressEvent
 :
 public
-nsIDOMProgressEvent
-public
 nsDOMEvent
+public
+nsIDOMProgressEvent
 {
 public
 :

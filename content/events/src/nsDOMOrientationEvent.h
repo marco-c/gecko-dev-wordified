@@ -412,9 +412,9 @@ class
 nsDOMOrientationEvent
 :
 public
-nsIDOMOrientationEvent
-public
 nsDOMEvent
+public
+nsIDOMOrientationEvent
 {
 public
 :

@@ -460,9 +460,9 @@ class
 nsDOMMutationEvent
 :
 public
-nsIDOMMutationEvent
-public
 nsDOMEvent
+public
+nsIDOMMutationEvent
 {
 public
 :
