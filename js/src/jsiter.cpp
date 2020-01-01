@@ -2950,7 +2950,7 @@ Shape
 *
 emptyEnumeratorShape
 =
-BaseShape
+EmptyShape
 :
 :
 lookupInitialShape
@@ -2958,6 +2958,7 @@ lookupInitialShape
 cx
 &
 IteratorClass
+NULL
 NULL
 FINALIZE_OBJECT2
 )

@@ -1543,7 +1543,6 @@ output
 )
 ;
 }
-const
 Shape
 *
 RegExpObject

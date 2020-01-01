@@ -1031,13 +1031,14 @@ Shape
 *
 emptyArgumentsShape
 =
-BaseShape
+EmptyShape
 :
 :
 lookupInitialShape
 (
 cx
 clasp
+proto
 proto
 -
 >
@@ -4684,7 +4685,7 @@ Shape
 *
 emptyDeclEnvShape
 =
-BaseShape
+EmptyShape
 :
 :
 lookupInitialShape
@@ -4692,6 +4693,7 @@ lookupInitialShape
 cx
 &
 DeclEnvClass
+NULL
 parent
 FINALIZE_OBJECT2
 )

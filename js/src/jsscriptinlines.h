@@ -731,7 +731,7 @@ RESERVED_SLOTS
 ;
 lastBinding
 =
-BaseShape
+EmptyShape
 :
 :
 lookupInitialShape
@@ -739,6 +739,7 @@ lookupInitialShape
 cx
 &
 CallClass
+NULL
 NULL
 kind
 BaseShape

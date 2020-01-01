@@ -3899,7 +3899,6 @@ nativeEmpty
 )
 const
 ;
-const
 js
 :
 :
@@ -3981,7 +3980,6 @@ warnings
 .
 *
 /
-const
 js
 :
 :
@@ -8183,7 +8181,6 @@ callers
 .
 *
 /
-const
 js
 :
 :
@@ -8284,7 +8281,6 @@ scope
 .
 *
 /
-const
 js
 :
 :
@@ -8332,7 +8328,6 @@ scope
 .
 *
 /
-const
 js
 :
 :
@@ -8394,7 +8389,6 @@ scope
 .
 *
 /
-const
 js
 :
 :
@@ -8440,7 +8434,6 @@ scope
 .
 *
 /
-const
 js
 :
 :
@@ -8451,7 +8444,6 @@ changeProperty
 JSContext
 *
 cx
-const
 js
 :
 :
@@ -11861,7 +11853,6 @@ members
 *
 /
 extern
-const
 js
 :
 :
@@ -11932,7 +11923,6 @@ property
 *
 /
 extern
-const
 js
 :
 :
@@ -11946,7 +11936,6 @@ cx
 JSObject
 *
 obj
-const
 js
 :
 :

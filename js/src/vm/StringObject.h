@@ -771,10 +771,6 @@ it
 .
 *
 /
-const
-js
-:
-:
 Shape
 *
 assignInitialShape

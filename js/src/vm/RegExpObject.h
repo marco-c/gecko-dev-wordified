@@ -1382,7 +1382,6 @@ it
 .
 *
 /
-const
 Shape
 *
 assignInitialShape
