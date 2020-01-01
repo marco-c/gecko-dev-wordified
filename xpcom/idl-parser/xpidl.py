@@ -4942,10 +4942,6 @@ readonly
 =
 False
     
-implicit_jscontext
-=
-False
-    
 binaryname
 =
 None
@@ -5300,21 +5296,6 @@ notxpcom
 self
 .
 notxpcom
-=
-True
-                
-elif
-name
-=
-=
-'
-implicit_jscontext
-'
-:
-                    
-self
-.
-implicit_jscontext
 =
 True
                 
@@ -5611,10 +5592,6 @@ binaryname
 =
 None
     
-implicit_jscontext
-=
-False
-    
 optional_argc
 =
 False
@@ -5765,21 +5742,6 @@ notxpcom
 self
 .
 notxpcom
-=
-True
-            
-elif
-name
-=
-=
-'
-implicit_jscontext
-'
-:
-                
-self
-.
-implicit_jscontext
 =
 True
             
