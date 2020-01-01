@@ -21520,6 +21520,11 @@ to
 the
 child
 .
+if
+(
+msg
+)
+{
 ppmm
 .
 broadcastAsyncMessage
@@ -21534,6 +21539,7 @@ Return
 msg
 )
 ;
+}
 }
 registerBrowserElementParentForApp
 :
