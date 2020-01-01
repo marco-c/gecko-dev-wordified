@@ -2187,7 +2187,7 @@ funboxp
 siblings
 ;
 }
-uint16
+uint32
 oldflags
 =
 tc
@@ -2209,9 +2209,6 @@ tc
 >
 flags
 =
-(
-uint16
-)
 funbox
 -
 >
@@ -5036,10 +5033,7 @@ cg
 flags
 |
 =
-uint16
-(
 tcflags
-)
 ;
 cg
 .
@@ -10495,7 +10489,7 @@ analyzeFunctions
 JSFunctionBox
 *
 funbox
-uint16
+uint32
 &
 tcflags
 )
@@ -11989,7 +11983,7 @@ setFunctionKinds
 JSFunctionBox
 *
 funbox
-uint16
+uint32
 &
 tcflags
 )
@@ -53518,7 +53512,7 @@ case
 PN_FUNC
 :
 {
-uint16
+uint32
 oldflags
 =
 tc
@@ -53540,9 +53534,6 @@ tc
 >
 flags
 =
-(
-uint16
-)
 pn
 -
 >
