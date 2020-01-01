@@ -1795,6 +1795,7 @@ too
 SanitizeMetrics
 (
 mMetrics
+PR_FALSE
 )
 ;
 #
