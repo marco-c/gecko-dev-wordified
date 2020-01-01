@@ -3931,7 +3931,7 @@ nsAccessible
 nsXULTreeGridRowAccessible
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

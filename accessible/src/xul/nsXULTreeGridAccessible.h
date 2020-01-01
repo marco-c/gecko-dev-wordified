@@ -574,12 +574,6 @@ nsAccessible
 :
 GetChildAt
 ;
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsXULTreeGridRowAccessible
 (
 nsIContent
@@ -642,7 +636,7 @@ aName
 virtual
 nsAccessible
 *
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

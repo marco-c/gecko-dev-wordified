@@ -519,12 +519,6 @@ nsAccessibleWrap
 {
 public
 :
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsLeafAccessible
 (
 nsIContent
@@ -545,7 +539,7 @@ nsAccessible
 virtual
 nsAccessible
 *
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

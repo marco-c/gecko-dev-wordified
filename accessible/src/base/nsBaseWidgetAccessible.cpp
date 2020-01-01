@@ -812,7 +812,7 @@ nsAccessible
 nsLeafAccessible
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

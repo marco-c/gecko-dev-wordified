@@ -608,12 +608,6 @@ nsHTMLLinkAccessible
 {
 public
 :
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsHTMLAreaAccessible
 (
 nsIContent
@@ -674,7 +668,7 @@ NativeState
 virtual
 nsAccessible
 *
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

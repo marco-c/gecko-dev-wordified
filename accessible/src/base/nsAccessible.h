@@ -1265,7 +1265,7 @@ aAttributes
 *
 Used
 by
-GetChildAtPoint
+ChildAtPoint
 (
 )
 method
@@ -1344,7 +1344,7 @@ returned
 virtual
 nsAccessible
 *
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

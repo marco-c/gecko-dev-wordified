@@ -583,12 +583,6 @@ nsIAccessibleApplication
 {
 public
 :
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsApplicationAccessible
 (
 )
@@ -974,7 +968,7 @@ NativeState
 virtual
 nsAccessible
 *
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

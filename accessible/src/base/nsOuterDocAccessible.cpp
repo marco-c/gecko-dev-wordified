@@ -868,7 +868,7 @@ nsAccessible
 nsOuterDocAccessible
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX
@@ -988,7 +988,7 @@ return
 child
 -
 >
-GetChildAtPoint
+ChildAtPoint
 (
 aX
 aY

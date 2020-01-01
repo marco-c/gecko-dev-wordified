@@ -1141,7 +1141,7 @@ nsAccessible
 nsApplicationAccessible
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

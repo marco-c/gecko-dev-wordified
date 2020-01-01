@@ -734,7 +734,7 @@ nsnull
 nsAccessible
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 x
 y
@@ -790,7 +790,7 @@ accAtPoint
 aAccWrap
 -
 >
-GetChildAtPoint
+ChildAtPoint
 (
 aX
 aY

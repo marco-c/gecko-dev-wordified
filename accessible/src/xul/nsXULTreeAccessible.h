@@ -565,12 +565,6 @@ nsAccessible
 :
 GetChildAt
 ;
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsXULTreeAccessible
 (
 nsIContent
@@ -647,7 +641,7 @@ NativeState
 virtual
 nsAccessible
 *
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX
