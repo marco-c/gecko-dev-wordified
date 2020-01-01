@@ -29,6 +29,7 @@ zero
 /
 let
 itemsSet
+HUD
 ;
 function
 test
@@ -228,6 +229,10 @@ jsterm
 clearOutput
 (
 )
+;
+HUD
+=
+null
 ;
 finish
 (
