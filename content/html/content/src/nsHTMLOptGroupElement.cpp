@@ -696,6 +696,17 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
+/
+/
+We
+start
+off
+enabled
+AddStatesSilently
+(
+NS_EVENT_STATE_ENABLED
+)
+;
 }
 nsHTMLOptGroupElement
 :

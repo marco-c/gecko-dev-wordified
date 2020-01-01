@@ -728,6 +728,17 @@ nsGenericHTMLFormElement
 aNodeInfo
 )
 {
+/
+/
+We
+start
+out
+indeterminate
+AddStatesSilently
+(
+NS_EVENT_STATE_INDETERMINATE
+)
+;
 }
 nsHTMLProgressElement
 :

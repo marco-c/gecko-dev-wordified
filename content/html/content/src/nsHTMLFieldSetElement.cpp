@@ -517,6 +517,17 @@ SetBarredFromConstraintValidation
 PR_TRUE
 )
 ;
+/
+/
+We
+start
+out
+enabled
+AddStatesSilently
+(
+NS_EVENT_STATE_ENABLED
+)
+;
 }
 nsHTMLFieldSetElement
 :
@@ -818,9 +829,6 @@ i
 >
 FieldSetDisabledChanged
 (
-nsEventStates
-(
-)
 aNotify
 )
 ;

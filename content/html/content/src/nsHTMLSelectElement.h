@@ -1679,8 +1679,6 @@ virtual
 void
 FieldSetDisabledChanged
 (
-nsEventStates
-aStates
 PRBool
 aNotify
 )

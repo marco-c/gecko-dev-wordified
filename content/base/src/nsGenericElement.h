@@ -1734,6 +1734,14 @@ nsIContent
 interface
 methods
 virtual
+void
+UpdateEditableState
+(
+PRBool
+aNotify
+)
+;
+virtual
 nsresult
 BindToTree
 (
