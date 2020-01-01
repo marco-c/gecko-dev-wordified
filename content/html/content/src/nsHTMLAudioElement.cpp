@@ -1271,7 +1271,10 @@ tsrc_tvr
 aCx
 )
 ;
-JSObject
+js
+:
+:
+TypedArray
 *
 tsrc
 =
@@ -1323,7 +1326,7 @@ js
 TypedArray
 :
 :
-getTypedArray
+fromJSObject
 (
 darray
 )
@@ -1386,7 +1389,7 @@ js
 TypedArray
 :
 :
-getTypedArray
+fromJSObject
 (
 nobj
 )
@@ -1401,10 +1404,10 @@ NS_ERROR_DOM_TYPE_MISMATCH_ERR
 PRUint32
 dataLength
 =
-JS_GetTypedArrayLength
-(
 tsrc
-)
+-
+>
+length
 ;
 /
 /
@@ -1479,10 +1482,10 @@ mAudioStream
 >
 Write
 (
-JS_GetTypedArrayData
-(
 tsrc
-)
+-
+>
+data
 writeLen
 PR_TRUE
 )
