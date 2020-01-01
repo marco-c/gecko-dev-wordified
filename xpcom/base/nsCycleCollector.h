@@ -100,9 +100,6 @@ nsCycleCollector_h__
 define
 nsCycleCollector_h__
 class
-nsCycleCollectionJSRuntime
-;
-class
 nsICycleCollectorListener
 ;
 class
@@ -111,6 +108,13 @@ nsISupports
 class
 nsScriptObjectTracer
 ;
+namespace
+mozilla
+{
+class
+CycleCollectedJSRuntime
+;
+}
 /
 /
 Contains
@@ -276,7 +280,10 @@ JS
 void
 nsCycleCollector_registerJSRuntime
 (
-nsCycleCollectionJSRuntime
+mozilla
+:
+:
+CycleCollectedJSRuntime
 *
 aRt
 )

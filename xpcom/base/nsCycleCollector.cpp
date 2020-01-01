@@ -1059,7 +1059,9 @@ h
 #
 include
 "
-nsCycleCollectionJSRuntime
+mozilla
+/
+CycleCollectedJSRuntime
 .
 h
 "
@@ -5792,7 +5794,7 @@ mResults
 TimeStamp
 mCollectionStart
 ;
-nsCycleCollectionJSRuntime
+CycleCollectedJSRuntime
 *
 mJSRuntime
 ;
@@ -5871,7 +5873,7 @@ public
 void
 RegisterJSRuntime
 (
-nsCycleCollectionJSRuntime
+CycleCollectedJSRuntime
 *
 aJSRuntime
 )
@@ -5882,7 +5884,7 @@ ForgetJSRuntime
 )
 ;
 inline
-nsCycleCollectionJSRuntime
+CycleCollectedJSRuntime
 *
 JSRuntime
 (
@@ -9746,7 +9748,7 @@ aCollector
 GCGraph
 &
 aGraph
-nsCycleCollectionJSRuntime
+CycleCollectedJSRuntime
 *
 aJSRuntime
 nsICycleCollectorListener
@@ -10195,7 +10197,7 @@ aCollector
 GCGraph
 &
 aGraph
-nsCycleCollectionJSRuntime
+CycleCollectedJSRuntime
 *
 aJSRuntime
 nsICycleCollectorListener
@@ -10233,9 +10235,7 @@ nullptr
 )
 mJSZoneParticipant
 (
-xpc_JSZoneParticipant
-(
-)
+nullptr
 )
 mListener
 (
@@ -10289,7 +10289,16 @@ mJSParticipant
 aJSRuntime
 -
 >
-GetParticipant
+GCThingParticipant
+(
+)
+;
+mJSZoneParticipant
+=
+aJSRuntime
+-
+>
+ZoneParticipant
 (
 )
 ;
@@ -14613,7 +14622,7 @@ nsCycleCollector
 :
 RegisterJSRuntime
 (
-nsCycleCollectionJSRuntime
+CycleCollectedJSRuntime
 *
 aJSRuntime
 )
@@ -16803,7 +16812,7 @@ built
 void
 nsCycleCollector_registerJSRuntime
 (
-nsCycleCollectionJSRuntime
+CycleCollectedJSRuntime
 *
 rt
 )

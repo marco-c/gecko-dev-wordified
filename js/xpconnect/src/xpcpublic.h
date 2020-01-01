@@ -2394,12 +2394,6 @@ GetJunkScope
 /
 namespace
 xpc
-nsCycleCollectionParticipant
-*
-xpc_JSZoneParticipant
-(
-)
-;
 namespace
 mozilla
 {
