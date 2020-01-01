@@ -2807,7 +2807,7 @@ object
 '
 s
 JSObject
-JS_RemoveObjectRootRT
+js_RemoveRoot
 (
 sJSRuntime
 &

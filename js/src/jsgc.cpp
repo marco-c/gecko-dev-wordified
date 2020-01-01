@@ -6822,11 +6822,11 @@ JS_GC_ROOT_SCRIPT_PTR
 )
 ;
 }
+JS_FRIEND_API
+(
 void
-js
-:
-:
-RemoveRoot
+)
+js_RemoveRoot
 (
 JSRuntime
 *
