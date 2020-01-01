@@ -770,12 +770,6 @@ init
 (
 )
 ;
-TabsManager
-.
-init
-(
-)
-;
 TabMirror
 .
 init
@@ -2993,7 +2987,7 @@ activeGroup
 ;
 Tabs
 .
-onFocus
+onSelect
 (
 function
 (

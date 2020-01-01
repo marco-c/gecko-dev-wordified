@@ -824,6 +824,8 @@ ___
 Tabs
 Tabs
 .
+allTabs
+.
 forEach
 (
 function
