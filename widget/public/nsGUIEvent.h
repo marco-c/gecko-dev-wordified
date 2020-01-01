@@ -4264,6 +4264,10 @@ w
 NS_DRAG_EVENT
 eReal
 )
+userCancelled
+(
+PR_FALSE
+)
 {
 if
 (
@@ -4297,6 +4301,9 @@ nsCOMPtr
 nsIDOMDataTransfer
 >
 dataTransfer
+;
+PRPackedBool
+userCancelled
 ;
 }
 ;

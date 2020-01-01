@@ -460,6 +460,10 @@ m_cRef
 (
 0
 )
+mUserCancelled
+(
+PR_FALSE
+)
 {
 }
 nsNativeDragSource
@@ -665,6 +669,10 @@ n
 ;
 #
 endif
+mUserCancelled
+=
+PR_TRUE
+;
 return
 ResultFromScode
 (
