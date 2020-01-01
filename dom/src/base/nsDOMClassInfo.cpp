@@ -47652,9 +47652,7 @@ end
 /
 up
 setting
-it
-'
-s
+its
 prototype
 here
 and
@@ -47956,9 +47954,7 @@ reliably
 /
 /
 access
-it
-'
-s
+its
 prototype
 nsCOMPtr
 <
