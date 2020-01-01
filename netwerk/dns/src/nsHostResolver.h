@@ -904,15 +904,10 @@ HasResult
 const
 {
 return
-(
 addr_info
 |
 |
 addr
-)
-!
-=
-nsnull
 ;
 }
 private
