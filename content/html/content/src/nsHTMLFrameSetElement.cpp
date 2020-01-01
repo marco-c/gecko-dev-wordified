@@ -1867,10 +1867,6 @@ Trim
 "
 )
 ;
-#
-define
-MAX_FRAMESET_SPEC_COUNT
-100000
 /
 /
 Count
@@ -1892,7 +1888,7 @@ bug
 .
 PR_STATIC_ASSERT
 (
-MAX_FRAMESET_SPEC_COUNT
+NS_MAX_FRAMESET_SPEC_COUNT
 *
 sizeof
 (
@@ -1932,7 +1928,7 @@ kNotFound
 &
 count
 <
-MAX_FRAMESET_SPEC_COUNT
+NS_MAX_FRAMESET_SPEC_COUNT
 )
 {
 count
