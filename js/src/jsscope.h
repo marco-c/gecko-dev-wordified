@@ -5363,17 +5363,6 @@ sprop
 hasGetterValue
 (
 )
-;
-or
-joined
-function
-object
-if
-METHOD
-flag
-is
-set
-.
 *
 /
 JSScopeProperty

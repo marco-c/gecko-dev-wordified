@@ -15121,10 +15121,8 @@ return
 true
 ;
 }
+static
 JSBool
-js
-:
-:
 str_replace
 (
 JSContext
