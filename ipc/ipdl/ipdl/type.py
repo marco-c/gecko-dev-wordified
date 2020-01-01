@@ -4646,7 +4646,7 @@ pinc
 in
 tu
 .
-protocolIncludes
+includes
 :
             
 pinc
@@ -4897,15 +4897,15 @@ symtab
 savedSymtab
     
 def
-visitProtocolInclude
+visitInclude
 (
 self
-pi
+inc
 )
 :
         
 if
-pi
+inc
 .
 tu
 is
@@ -4917,7 +4917,7 @@ self
 error
 (
                 
-pi
+inc
 .
 loc
                 
@@ -4940,7 +4940,7 @@ error
             
 return
         
-pi
+inc
 .
 tu
 .
@@ -4955,7 +4955,7 @@ symtab
 .
 declare
 (
-pi
+inc
 .
 tu
 .
@@ -8613,7 +8613,7 @@ ptype
 None
     
 def
-visitProtocolInclude
+visitInclude
 (
 self
 inc
@@ -11896,14 +11896,14 @@ tu
 )
         
 def
-visitProtocolInclude
+visitInclude
 (
 self
-pi
+inc
 )
 :
             
-pi
+inc
 .
 tu
 .
@@ -12188,14 +12188,14 @@ tu
 )
     
 def
-visitProtocolInclude
+visitInclude
 (
 self
-pi
+inc
 )
 :
         
-pi
+inc
 .
 tu
 .

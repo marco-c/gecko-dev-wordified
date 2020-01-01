@@ -116,14 +116,14 @@ self
 )
         
 for
-protoInc
+inc
 in
 tu
 .
-protocolIncludes
+includes
 :
             
-protoInc
+inc
 .
 accept
 (
@@ -180,7 +180,7 @@ inc
 pass
     
 def
-visitProtocolInclude
+visitInclude
 (
 self
 inc
@@ -937,7 +937,7 @@ cxxIncludes
         
 self
 .
-protocolIncludes
+includes
 =
 [
 ]
@@ -979,19 +979,19 @@ cxxInclude
 )
     
 def
-addProtocolInclude
+addInclude
 (
 self
-pInc
+inc
 )
 :
 self
 .
-protocolIncludes
+includes
 .
 append
 (
-pInc
+inc
 )
     
 def
@@ -1084,7 +1084,7 @@ file
 =
 cxxFile
 class
-ProtocolInclude
+Include
 (
 Node
 )
@@ -1095,7 +1095,7 @@ __init__
 (
 self
 loc
-protocolName
+name
 )
 :
         
@@ -1118,7 +1118,7 @@ s
 ipdl
 "
 %
-protocolName
+name
 class
 UsingStmt
 (
