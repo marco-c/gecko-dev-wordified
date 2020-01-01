@@ -457,6 +457,9 @@ class
 nsIDOMSVGPoint
 ;
 class
+nsSVGGlyphFrame
+;
+class
 nsISVGGlyphFragmentNode
 :
 public

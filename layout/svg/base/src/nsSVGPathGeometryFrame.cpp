@@ -457,6 +457,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsSVGMarkerFrame
 .
 h

@@ -448,14 +448,14 @@ NSSVGGFRAME_H
 #
 include
 "
-nsSVGContainerFrame
+gfxMatrix
 .
 h
 "
 #
 include
 "
-gfxMatrix
+nsSVGContainerFrame
 .
 h
 "

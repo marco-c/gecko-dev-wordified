@@ -422,6 +422,13 @@ BLOCK
 #
 include
 "
+nsSVGClipPathFrame
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h
@@ -443,7 +450,7 @@ h
 #
 include
 "
-nsSVGClipPathFrame
+nsRenderingContext
 .
 h
 "

@@ -453,6 +453,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 SVGAnimatedTransformList
 .
 h
