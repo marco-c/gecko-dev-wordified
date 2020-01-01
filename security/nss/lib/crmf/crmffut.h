@@ -418,8 +418,7 @@ needed
 *
 Use
 this
-function
-to
+functionto
 create
 the
 CRMFSinglePubInfo

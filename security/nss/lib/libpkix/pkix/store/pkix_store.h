@@ -445,12 +445,6 @@ crlContinue
 PKIX_CertStore_CheckTrustCallback
 trustCallback
 ;
-PKIX_CertStore_ImportCrlCallback
-importCrlCallback
-;
-PKIX_CertStore_CheckRevokationByCrlCallback
-checkRevByCrlCallback
-;
 PKIX_PL_Object
 *
 certStoreContext

@@ -426,13 +426,6 @@ pkix_pl_ldapt
 h
 "
 #
-include
-"
-pkix_ekuchecker
-.
-h
-"
-#
 ifdef
 __cplusplus
 extern
@@ -589,9 +582,9 @@ PKIX_List
 *
 hintCerts
 ;
-PKIX_RevocationChecker
+PKIX_CertChainChecker
 *
-revChecker
+crlChecker
 ;
 PKIX_PL_AIAMgr
 *
@@ -707,6 +700,10 @@ checkedCritExtOIDs
 PKIX_List
 *
 checkerChain
+;
+PKIX_List
+*
+revCheckers
 ;
 PKIX_CertSelector
 *

@@ -3233,6 +3233,9 @@ sftkdb_SetAttributeValue
 (
 dbHandle
 object
+-
+>
+handle
 &
 attribute
 1
