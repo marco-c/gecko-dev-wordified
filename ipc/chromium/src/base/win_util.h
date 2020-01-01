@@ -150,14 +150,6 @@ WINVERSION_WIN7
 6
 }
 ;
-void
-GetNonClientMetrics
-(
-NONCLIENTMETRICS
-*
-metrics
-)
-;
 /
 /
 Returns
