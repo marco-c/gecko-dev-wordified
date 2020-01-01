@@ -235,11 +235,6 @@ sBigAtom
 static
 nsIAtom
 *
-sBlinkAtom
-;
-static
-nsIAtom
-*
 sBAtom
 ;
 static

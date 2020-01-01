@@ -198,13 +198,6 @@ big
 )
 TS_ATOM
 (
-sBlinkAtom
-"
-blink
-"
-)
-TS_ATOM
-(
 sBAtom
 "
 b
