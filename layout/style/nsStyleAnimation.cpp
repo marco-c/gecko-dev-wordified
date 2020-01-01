@@ -1298,6 +1298,9 @@ break
 case
 eUnit_Null
 :
+case
+eUnit_None
+:
 success
 =
 PR_FALSE
@@ -1931,6 +1934,9 @@ break
 }
 case
 eUnit_Null
+:
+case
+eUnit_None
 :
 success
 =
