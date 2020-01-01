@@ -5539,7 +5539,7 @@ getManifestFor
 (
 app
 .
-origin
+manifestURL
 function
 (
 manifest
@@ -5813,9 +5813,7 @@ DOMApplicationRegistry
 .
 getManifestFor
 (
-app
-.
-origin
+manifestUrl
 function
 (
 aManifest
@@ -6317,7 +6315,7 @@ getManifestFor
 (
 json
 .
-origin
+manifestURL
 function
 (
 aManifest
