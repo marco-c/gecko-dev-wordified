@@ -6062,7 +6062,7 @@ mStream
 Open
 (
 this
-aURI
+mURI
 aChannel
 aStreamListener
 )
