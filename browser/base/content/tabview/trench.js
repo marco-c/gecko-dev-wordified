@@ -1379,7 +1379,7 @@ trench
 setPosition
 :
 function
-Trench_setPos
+Trench_setPosition
 (
 position
 range
@@ -1630,7 +1630,7 @@ Range
 setActiveRange
 :
 function
-Trench_setActiveRect
+Trench_setActiveRange
 (
 activeRange
 )

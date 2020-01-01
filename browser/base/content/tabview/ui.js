@@ -6889,7 +6889,7 @@ groupItem
 updateTabButton
 :
 function
-UI__updateTabButton
+UI_updateTabButton
 (
 )
 {

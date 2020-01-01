@@ -1617,6 +1617,7 @@ false
 show
 :
 function
+TabView_show
 (
 )
 {
@@ -1673,6 +1674,7 @@ true
 hide
 :
 function
+TabView_hide
 (
 )
 {
@@ -1713,6 +1715,7 @@ exit
 toggle
 :
 function
+TabView_toggle
 (
 )
 {
@@ -1929,6 +1932,7 @@ getTitle
 updateContextMenu
 :
 function
+TabView_updateContextMenu
 (
 tab
 popup
@@ -2536,6 +2540,7 @@ tab
 prepareUndoCloseTab
 :
 function
+TabView_prepareUndoCloseTab
 (
 blankTabToRemove
 )
@@ -2603,6 +2608,7 @@ tab
 afterUndoCloseTab
 :
 function
+TabView_afterUndoCloseTab
 (
 )
 {
@@ -2967,7 +2973,7 @@ past
 enableSessionRestore
 :
 function
-UI_enableSessionRestore
+TabView_enableSessionRestore
 (
 )
 {
