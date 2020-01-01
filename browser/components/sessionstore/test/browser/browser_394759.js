@@ -781,8 +781,6 @@ textbox
 ;
 textbox
 .
-wrappedJSObject
-.
 value
 =
 uniqueText
@@ -1027,8 +1025,6 @@ textbox
 is
 (
 textbox
-.
-wrappedJSObject
 .
 value
 uniqueText

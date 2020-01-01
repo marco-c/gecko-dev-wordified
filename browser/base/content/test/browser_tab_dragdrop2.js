@@ -466,17 +466,6 @@ docShell
 contentViewer
 .
 DOMDocument
-.
-wrappedJSObject
-;
-var
-elems
-=
-document
-.
-documentElement
-.
-childNodes
 ;
 var
 calls

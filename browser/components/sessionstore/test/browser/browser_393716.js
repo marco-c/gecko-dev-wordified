@@ -628,8 +628,6 @@ textbox
 ;
 textbox
 .
-wrappedJSObject
-.
 value
 =
 value3
@@ -743,8 +741,6 @@ textbox
 is
 (
 textbox
-.
-wrappedJSObject
 .
 value
 value3
