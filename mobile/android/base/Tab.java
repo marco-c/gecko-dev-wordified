@@ -1034,7 +1034,7 @@ DoorHanger
 ;
 BrowserDB
 .
-unregisterBookmarkObserver
+unregisterContentObserver
 (
 mContentResolver
 mContentObserver
