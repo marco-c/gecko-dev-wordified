@@ -1022,6 +1022,9 @@ helper
 macros
 *
 /
+class
+nsIClassInfo
+;
 extern
 nsIClassInfo
 *
