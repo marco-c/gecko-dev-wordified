@@ -2169,6 +2169,14 @@ PRUint32
 aLength
 PRBool
 aNotify
+CharacterDataChangeInfo
+:
+:
+Details
+*
+aDetails
+=
+nsnull
 )
 ;
 /
