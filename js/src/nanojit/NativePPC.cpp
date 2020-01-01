@@ -4876,6 +4876,18 @@ LIns
 ins
 )
 {
+if
+(
+!
+ins
+-
+>
+isop
+(
+LIR_callv
+)
+)
+{
 Register
 retReg
 =
@@ -4905,6 +4917,7 @@ retReg
 )
 )
 ;
+}
 /
 /
 Do
