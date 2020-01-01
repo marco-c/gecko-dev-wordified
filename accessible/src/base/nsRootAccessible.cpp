@@ -3411,10 +3411,8 @@ if
 focusContent
 )
 {
-nsCOMPtr
-<
 nsIPresShell
->
+*
 shell
 =
 nsCoreUtils
@@ -4290,10 +4288,8 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
-<
 nsIPresShell
->
+*
 eventShell
 =
 nsCoreUtils

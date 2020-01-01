@@ -2134,10 +2134,8 @@ content
 return
 PR_FALSE
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 presShell
 =
 nsCoreUtils
