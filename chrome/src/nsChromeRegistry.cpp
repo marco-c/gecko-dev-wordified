@@ -3556,6 +3556,10 @@ ReloadChrome
 (
 )
 {
+UpdateSelectedLocale
+(
+)
+;
 FlushAllCaches
 (
 )

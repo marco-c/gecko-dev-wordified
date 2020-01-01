@@ -678,6 +678,12 @@ aOverride
 )
 ;
 NS_OVERRIDE
+void
+UpdateSelectedLocale
+(
+)
+;
+NS_OVERRIDE
 nsIURI
 *
 GetBaseURIFromPackage
