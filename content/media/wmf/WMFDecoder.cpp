@@ -622,11 +622,6 @@ IsWindows7OrLater
 OSVERSIONINFO
 versionInfo
 ;
-BOOL
-isWin7OrLater
-=
-FALSE
-;
 versionInfo
 .
 dwOSVersionInfoSize

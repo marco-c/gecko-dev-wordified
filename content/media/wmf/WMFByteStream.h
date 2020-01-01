@@ -155,6 +155,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -247,6 +256,7 @@ class
 .
 class
 WMFByteStream
+MOZ_FINAL
 :
 public
 IMFByteStream
@@ -568,6 +578,7 @@ opreation
 .
 class
 AsyncReadRequestState
+MOZ_FINAL
 :
 public
 IUnknown
@@ -656,7 +667,6 @@ nsAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-;
 }
 ;
 /
@@ -796,7 +806,6 @@ nsAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-;
 }
 ;
 }

@@ -950,12 +950,6 @@ sFailedToLoadDlls
 =
 false
 ;
-static
-HMODULE
-sMfPlatMod
-=
-NULL
-;
 struct
 WMFModule
 {
