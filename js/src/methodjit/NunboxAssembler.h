@@ -1068,6 +1068,15 @@ address
 )
 )
 ;
+if
+(
+!
+v
+.
+isUndefined
+(
+)
+)
 store32
 (
 Imm32
