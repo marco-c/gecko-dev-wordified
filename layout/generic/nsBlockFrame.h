@@ -697,6 +697,9 @@ class
 nsFirstLineFrame
 ;
 class
+nsILineIterator
+;
+class
 nsIntervalSet
 ;
 /
@@ -4076,13 +4079,6 @@ aLineTop
 -
 -
 -
-virtual
-nsILineIterator
-*
-GetLineIterator
-(
-)
-;
 public
 :
 nsLineList
