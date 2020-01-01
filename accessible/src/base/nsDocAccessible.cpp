@@ -6987,10 +6987,14 @@ GetCurrentFocus
 ;
 if
 (
+SameCOMIdentity
+(
+GetRoleContent
+(
 currentFocus
-=
-=
+)
 targetNode
+)
 )
 {
 nsRefPtr
