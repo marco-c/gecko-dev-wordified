@@ -2057,8 +2057,6 @@ inline
 void
 Mark
 (
-JSContext
-*
 )
 ;
 /
