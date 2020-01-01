@@ -653,7 +653,9 @@ GetName
 const
 {
 return
-mFaceName
+Name
+(
+)
 ;
 }
 static
@@ -735,9 +737,6 @@ mFTFace
 cairo_font_face_t
 *
 mFontFace
-;
-nsString
-mFaceName
 ;
 nsCString
 mFilename
