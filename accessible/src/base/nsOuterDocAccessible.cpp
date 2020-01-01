@@ -651,7 +651,7 @@ aRole
 nsIAccessibleRole
 :
 :
-ROLE_CLIENT
+ROLE_INTERNAL_FRAME
 ;
 return
 NS_OK
