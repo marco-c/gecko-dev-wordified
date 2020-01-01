@@ -1226,6 +1226,11 @@ ConfigureInternalPKCS11Token
 )
 ;
 nsresult
+RegisterPSMContentListener
+(
+)
+;
+nsresult
 RegisterObservers
 (
 )
@@ -1308,6 +1313,12 @@ nsCOMPtr
 nsIStringBundle
 >
 mNSSErrorsBundle
+;
+nsCOMPtr
+<
+nsIURIContentListener
+>
+mPSMContentListener
 ;
 nsCOMPtr
 <
