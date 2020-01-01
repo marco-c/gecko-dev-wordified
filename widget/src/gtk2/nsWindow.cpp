@@ -30545,6 +30545,14 @@ numLockMask
 scrollLockMask
 )
 ;
+if
+(
+!
+foundMasks
+)
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
 PRUint32
 mask
 =

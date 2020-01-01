@@ -1719,6 +1719,8 @@ command
 FILE
 *
 destPipe
+=
+NULL
 ;
 rv
 =

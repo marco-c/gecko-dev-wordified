@@ -457,7 +457,7 @@ aKeysym
 int
 DOMKeyCodeToGdkKeyCode
 (
-PRUint32
+int
 aKeysym
 )
 ;
