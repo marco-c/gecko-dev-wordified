@@ -6670,8 +6670,6 @@ Missed
 a
 whitespace
 match
-\
-n
 "
 )
 ;
