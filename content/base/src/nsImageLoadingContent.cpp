@@ -919,7 +919,7 @@ mCurrentRequest
 mCurrentRequest
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
@@ -937,7 +937,7 @@ mPendingRequest
 mPendingRequest
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
