@@ -1713,6 +1713,15 @@ GSList
 slist
 )
 ;
+gboolean
+is_method_scriptable
+(
+IDL_tree
+method_tree
+IDL_tree
+ident
+)
+;
 #
 endif
 /
