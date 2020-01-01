@@ -17536,6 +17536,9 @@ possible
 .
 *
 /
+#
+ifdef
+JS_METHODJIT
 if
 (
 cx
@@ -17649,6 +17652,8 @@ LIR_label
 )
 ;
 }
+#
+endif
 }
 /
 *
@@ -31203,18 +31208,10 @@ cx
 if
 (
 !
-(
 cx
 -
 >
 traceJitEnabled
-|
-|
-cx
--
->
-methodJitEnabled
-)
 )
 return
 ;
@@ -47123,6 +47120,9 @@ throwing
 ok
 )
 ;
+#
+ifdef
+JS_METHODJIT
 if
 (
 cx
@@ -47194,6 +47194,8 @@ ip
 ;
 }
 }
+#
+endif
 return
 ok
 ;
