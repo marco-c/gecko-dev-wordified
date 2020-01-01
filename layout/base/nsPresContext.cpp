@@ -9501,6 +9501,10 @@ here
 return
 ;
 }
+mUsesRootEMUnits
+=
+false
+;
 mUsesViewportUnits
 =
 false

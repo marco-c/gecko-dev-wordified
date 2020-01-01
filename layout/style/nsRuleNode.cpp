@@ -2094,6 +2094,14 @@ case
 eCSSUnit_RootEM
 :
 {
+aPresContext
+-
+>
+SetUsesRootEMUnits
+(
+true
+)
+;
 nscoord
 rootFontSize
 ;
