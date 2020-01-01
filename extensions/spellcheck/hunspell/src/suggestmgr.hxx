@@ -531,6 +531,10 @@ MAXNGRAMSUGS
 define
 MAXPHONSUGS
 2
+#
+define
+MAXCOMPOUNDSUGS
+3
 /
 /
 timelimit
@@ -595,6 +599,15 @@ NGRAM_LOWERING
 <
 <
 2
+)
+#
+define
+NGRAM_WEIGHTED
+(
+1
+<
+<
+3
 )
 #
 include
@@ -694,6 +707,9 @@ nosplitsugs
 ;
 int
 maxngramsugs
+;
+int
+maxcpdsugs
 ;
 int
 complexprefixes

@@ -451,6 +451,12 @@ char
 *
 pattern2
 ;
+bool
+start
+;
+bool
+end
+;
 }
 ;
 #
