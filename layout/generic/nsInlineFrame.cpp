@@ -4547,10 +4547,10 @@ if
 nextFrame
 )
 {
+NS_FRAME_SET_INCOMPLETE
+(
 aStatus
-|
-=
-NS_FRAME_NOT_COMPLETE
+)
 ;
 PushFrames
 (
@@ -4632,10 +4632,10 @@ NotEmpty
 )
 )
 {
+NS_FRAME_SET_INCOMPLETE
+(
 aStatus
-|
-=
-NS_FRAME_NOT_COMPLETE
+)
 ;
 break
 ;
