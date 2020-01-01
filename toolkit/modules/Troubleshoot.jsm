@@ -1619,6 +1619,14 @@ winUtils
 .
 layerManagerType
 ;
+data
+.
+windowLayerManagerRemote
+=
+winUtils
+.
+layerManagerRemote
+;
 }
 catch
 (

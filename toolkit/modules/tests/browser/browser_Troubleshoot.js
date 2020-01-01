@@ -783,6 +783,15 @@ type
 string
 "
 }
+windowLayerManagerRemote
+:
+{
+type
+:
+"
+boolean
+"
+}
 numAcceleratedWindowsMessage
 :
 {
