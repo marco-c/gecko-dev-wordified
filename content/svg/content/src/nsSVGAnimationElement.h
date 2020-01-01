@@ -497,9 +497,6 @@ nsSMILTimedElement
 .
 h
 "
-class
-nsSMILTimeContainer
-;
 typedef
 nsSVGElement
 nsSVGAnimationElementBase
@@ -905,10 +902,6 @@ mHrefTarget
 ;
 nsSMILTimedElement
 mTimedElement
-;
-nsSMILTimeContainer
-*
-mTimedDocumentRoot
 ;
 }
 ;
