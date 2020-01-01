@@ -1057,6 +1057,11 @@ privatebrowsing
 "
 about
 :
+welcomeback
+"
+"
+about
+:
 sessionrestore
 "
 ]
