@@ -196,9 +196,6 @@ class
 GainNode
 ;
 class
-PannerNode
-;
-class
 AudioContext
 MOZ_FINAL
 :
@@ -334,14 +331,6 @@ CreateDelay
 (
 float
 aMaxDelayTime
-)
-;
-already_AddRefed
-<
-PannerNode
->
-CreatePanner
-(
 )
 ;
 private
