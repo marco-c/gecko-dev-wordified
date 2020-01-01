@@ -466,8 +466,6 @@ this
 .
 iter
 =
-devtools
-.
 _Iterator
 (
 aGenerator
