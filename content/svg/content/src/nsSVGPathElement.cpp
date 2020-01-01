@@ -513,7 +513,7 @@ h
 #
 include
 "
-nsSVGPoint
+DOMSVGPoint
 .
 h
 "
@@ -1121,10 +1121,14 @@ totalLength
 distance
 )
 ;
-return
-NS_NewSVGPoint
+NS_ADDREF
 (
+*
 _retval
+=
+new
+DOMSVGPoint
+(
 flat
 -
 >
@@ -1137,6 +1141,10 @@ distance
 )
 )
 )
+)
+;
+return
+NS_OK
 ;
 }
 /
