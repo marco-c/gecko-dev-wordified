@@ -581,6 +581,16 @@ complete
 "
 )
 {
+Services
+.
+obs
+.
+removeObserver
+(
+obs
+topic
+)
+;
 callback
 (
 result
