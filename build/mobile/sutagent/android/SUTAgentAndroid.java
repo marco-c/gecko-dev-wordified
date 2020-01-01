@@ -4832,7 +4832,6 @@ on
 SDK
 version
 >
-=
 8
 use
 Build
@@ -4850,7 +4849,6 @@ VERSION
 .
 SDK_INT
 >
-=
 8
 )
 {
