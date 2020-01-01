@@ -469,7 +469,7 @@ h
 #
 include
 "
-nsIComponentManager
+nsIServiceManager
 .
 h
 "
@@ -1030,7 +1030,7 @@ pMacLocale
 ;
 pMacLocale
 =
-do_CreateInstance
+do_GetService
 (
 NS_MACLOCALE_CONTRACTID
 &
