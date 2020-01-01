@@ -4059,7 +4059,7 @@ browser
 .
 ctrlTab
 .
-previews
+mostRecentlyUsed
 "
 true
 )
