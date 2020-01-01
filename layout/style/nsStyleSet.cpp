@@ -6382,7 +6382,7 @@ return
 if
 (
 mUnusedRuleNodeCount
-=
+>
 =
 kGCInterval
 )
