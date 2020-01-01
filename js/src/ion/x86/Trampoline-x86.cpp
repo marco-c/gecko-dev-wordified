@@ -4500,11 +4500,6 @@ GeneralRegisterSet
 regs
 =
 GeneralRegisterSet
-:
-:
-Not
-(
-GeneralRegisterSet
 (
 Register
 :
@@ -4512,8 +4507,7 @@ Register
 Codes
 :
 :
-VolatileMask
-)
+WrapperMask
 )
 ;
 /
