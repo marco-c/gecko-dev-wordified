@@ -7056,12 +7056,6 @@ aNowTime
 )
 ;
 }
-imagesToRefresh
-.
-Clear
-(
-)
-;
 }
 for
 (
