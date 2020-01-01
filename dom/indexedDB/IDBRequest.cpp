@@ -584,12 +584,12 @@ from
 the
 helper
 .
-JSContext
-*
+AutoPushJSContext
 cx
-=
+(
 GetJSContext
 (
+)
 )
 ;
 if
