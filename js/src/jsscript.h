@@ -4113,6 +4113,12 @@ Ion
 /
 #
 if
+defined
+(
+JS_METHODJIT
+)
+&
+&
 JS_BITS_PER_WORD
 =
 =
