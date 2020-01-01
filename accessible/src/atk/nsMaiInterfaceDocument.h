@@ -496,6 +496,16 @@ aDocument
 const
 gchar
 *
+getDocumentLocaleCB
+(
+AtkDocument
+*
+aDocument
+)
+;
+const
+gchar
+*
 getDocumentAttributeValueCB
 (
 AtkDocument
