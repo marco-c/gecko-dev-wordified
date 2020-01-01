@@ -616,6 +616,8 @@ Character
 Mapping
 Table
 :
+static
+const
 unsigned
 char
 TIS620CharToOrderMap
@@ -956,6 +958,8 @@ sequences
 .
 0436
 %
+static
+const
 char
 ThaiLangModel
 [
@@ -5060,6 +5064,7 @@ ThaiLangModel
 0
 }
 ;
+const
 SequenceModel
 TIS620ThaiModel
 =

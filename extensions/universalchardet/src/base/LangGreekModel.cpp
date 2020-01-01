@@ -599,6 +599,8 @@ Character
 Mapping
 Table
 :
+static
+const
 unsigned
 char
 Latin7_CharToOrderMap
@@ -914,6 +916,8 @@ e0
 f0
 }
 ;
+static
+const
 unsigned
 char
 win1253_CharToOrderMap
@@ -1279,6 +1283,8 @@ sequences
 .
 0148
 %
+static
+const
 char
 GreekLangModel
 [
@@ -5383,6 +5389,7 @@ GreekLangModel
 0
 }
 ;
+const
 SequenceModel
 Latin7Model
 =
@@ -5405,6 +5412,7 @@ ISO
 "
 }
 ;
+const
 SequenceModel
 Win1253Model
 =

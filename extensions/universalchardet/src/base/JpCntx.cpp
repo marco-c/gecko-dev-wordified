@@ -454,6 +454,7 @@ represents
 its
 frequency
 category
+const
 char
 jp2CharContext
 [

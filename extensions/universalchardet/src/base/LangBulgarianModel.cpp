@@ -618,6 +618,8 @@ number
 is
 sure
 valid
+static
+const
 unsigned
 char
 Latin5_BulgarianCharToOrderMap
@@ -932,6 +934,8 @@ e0
 f0
 }
 ;
+static
+const
 unsigned
 char
 win1251BulgarianCharToOrderMap
@@ -1296,6 +1300,8 @@ sequences
 .
 0020
 %
+static
+const
 char
 BulgarianLangModel
 [
@@ -5400,6 +5406,7 @@ BulgarianLangModel
 1
 }
 ;
+const
 SequenceModel
 Latin5BulgarianModel
 =
@@ -5422,6 +5429,7 @@ ISO
 "
 }
 ;
+const
 SequenceModel
 Win1251BulgarianModel
 =

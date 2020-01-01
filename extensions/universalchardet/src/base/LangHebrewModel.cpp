@@ -629,6 +629,8 @@ Character
 Mapping
 Table
 :
+static
+const
 unsigned
 char
 win1255_CharToOrderMap
@@ -969,6 +971,8 @@ sequences
 .
 0015
 %
+static
+const
 char
 HebrewLangModel
 [
@@ -5073,6 +5077,7 @@ HebrewLangModel
 0
 }
 ;
+const
 SequenceModel
 Win1255Model
 =

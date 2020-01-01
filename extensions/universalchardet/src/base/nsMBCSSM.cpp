@@ -463,6 +463,7 @@ stream
 /
 BIG5
 static
+const
 PRUint32
 BIG5_cls
 [
@@ -1012,6 +1013,7 @@ ff
 }
 ;
 static
+const
 PRUint32
 BIG5_st
 [
@@ -1085,6 +1087,7 @@ Big5CharLenTable
 }
 ;
 SMModel
+const
 Big5SMModel
 =
 {
@@ -1110,6 +1113,7 @@ Big5
 }
 ;
 static
+const
 PRUint32
 EUCJP_cls
 [
@@ -1652,6 +1656,7 @@ ff
 }
 ;
 static
+const
 PRUint32
 EUCJP_st
 [
@@ -1757,6 +1762,7 @@ EUCJPCharLenTable
 0
 }
 ;
+const
 SMModel
 EUCJPSMModel
 =
@@ -1785,6 +1791,7 @@ JP
 }
 ;
 static
+const
 PRUint32
 EUCKR_cls
 [
@@ -2327,6 +2334,7 @@ ff
 }
 ;
 static
+const
 PRUint32
 EUCKR_st
 [
@@ -2382,6 +2390,7 @@ EUCKRCharLenTable
 0
 }
 ;
+const
 SMModel
 EUCKRSMModel
 =
@@ -2410,6 +2419,7 @@ KR
 }
 ;
 static
+const
 PRUint32
 EUCTW_cls
 [
@@ -2952,6 +2962,7 @@ ff
 }
 ;
 static
+const
 PRUint32
 EUCTW_st
 [
@@ -3074,6 +3085,7 @@ EUCTWCharLenTable
 3
 }
 ;
+const
 SMModel
 EUCTWSMModel
 =
@@ -3766,6 +3778,7 @@ PSM
 detector
 .
 static
+const
 PRUint32
 GB18030_cls
 [
@@ -4290,6 +4303,7 @@ ff
 }
 ;
 static
+const
 PRUint32
 GB18030_st
 [
@@ -4478,6 +4492,7 @@ GB18030CharLenTable
 2
 }
 ;
+const
 SMModel
 GB18030SMModel
 =
@@ -4507,6 +4522,7 @@ GB18030
 /
 sjis
 static
+const
 PRUint32
 SJIS_cls
 [
@@ -5075,6 +5091,7 @@ ff
 }
 ;
 static
+const
 PRUint32
 SJIS_st
 [
@@ -5148,6 +5165,7 @@ SJISCharLenTable
 0
 }
 ;
+const
 SMModel
 SJISSMModel
 =
@@ -5174,6 +5192,7 @@ Shift_JIS
 }
 ;
 static
+const
 PRUint32
 UTF8_cls
 [
@@ -5724,6 +5743,7 @@ ff
 }
 ;
 static
+const
 PRUint32
 UTF8_st
 [
@@ -6175,6 +6195,7 @@ UTF8CharLenTable
 6
 }
 ;
+const
 SMModel
 UTF8SMModel
 =

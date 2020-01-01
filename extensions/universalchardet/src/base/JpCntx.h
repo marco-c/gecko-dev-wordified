@@ -453,6 +453,7 @@ frequency
 category
 table
 extern
+const
 char
 jp2CharContext
 [
