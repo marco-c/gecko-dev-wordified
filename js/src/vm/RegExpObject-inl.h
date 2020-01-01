@@ -486,9 +486,6 @@ enabled
 )
 ;
 }
-#
-if
-ENABLE_YARR_JIT
 /
 *
 This
@@ -511,10 +508,7 @@ bug
 /
 inline
 bool
-detail
-:
-:
-RegExpCode
+RegExpShared
 :
 :
 isJITRuntimeEnabled
@@ -524,6 +518,9 @@ JSContext
 cx
 )
 {
+#
+if
+ENABLE_YARR_JIT
 #
 if
 defined
@@ -549,9 +546,14 @@ true
 ;
 #
 endif
-}
+#
+else
+return
+false
+;
 #
 endif
+}
 inline
 bool
 RegExpToShared
