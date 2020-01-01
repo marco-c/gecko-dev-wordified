@@ -179,7 +179,7 @@ panel
 just
 in
 case
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1315,7 +1315,7 @@ hideSidebars
 (
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =

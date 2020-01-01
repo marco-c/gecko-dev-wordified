@@ -184,7 +184,7 @@ panel
 just
 in
 case
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =

@@ -262,7 +262,7 @@ panel
 just
 in
 case
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -491,7 +491,7 @@ function
 {
 is
 (
-BrowserUI
+AwesomeScreen
 .
 activePanel
 AllPagesList
@@ -568,7 +568,7 @@ function
 {
 is
 (
-BrowserUI
+AwesomeScreen
 .
 activePanel
 null
@@ -763,7 +763,7 @@ function
 {
 is
 (
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1196,7 +1196,7 @@ hidden
 ;
 is
 (
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1263,7 +1263,7 @@ function
 {
 is
 (
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1557,7 +1557,7 @@ doCommand
 ;
 is
 (
-BrowserUI
+AwesomeScreen
 .
 activePanel
 aPanel
@@ -1709,7 +1709,7 @@ function
 (
 )
 {
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -2627,7 +2627,7 @@ clickSelectsAll
 =
 oldClickSelectsAll
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -3088,7 +3088,7 @@ onPopupReady
 }
 else
 {
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
