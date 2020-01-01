@@ -10658,6 +10658,14 @@ newKind
 ;
 if
 (
+!
+obj
+)
+return
+NULL
+;
+if
+(
 script
 )
 {
