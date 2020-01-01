@@ -517,7 +517,7 @@ editor
 getCaretOffset
 (
 )
-19
+20
 "
 JS
 :
@@ -575,7 +575,7 @@ editor
 getCaretOffset
 (
 )
-19
+20
 "
 JS
 :
@@ -725,7 +725,7 @@ editor
 getCaretOffset
 (
 )
-61
+62
 "
 JS
 :
@@ -876,7 +876,7 @@ editor
 getCaretOffset
 (
 )
-8
+9
 "
 CSS
 :
@@ -934,7 +934,7 @@ editor
 getCaretOffset
 (
 )
-8
+9
 "
 CSS
 :
