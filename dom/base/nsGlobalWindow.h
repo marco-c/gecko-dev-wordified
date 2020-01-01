@@ -4542,11 +4542,6 @@ CanMoveResizeWindows
 (
 )
 ;
-bool
-GetBlurSuppression
-(
-)
-;
 /
 /
 If
