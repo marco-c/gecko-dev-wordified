@@ -1892,6 +1892,10 @@ DOMCI_CLASS
 (
 MozConnection
 )
+DOMCI_CLASS
+(
+MozMobileConnection
+)
 /
 /
 font
