@@ -1638,6 +1638,13 @@ current
 if
 (
 child
+&
+&
+!
+column
+-
+>
+mIsBogus
 )
 child
 =
