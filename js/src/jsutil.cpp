@@ -590,11 +590,6 @@ file
 ln
 )
 ;
-fflush
-(
-stderr
-)
-;
 #
 if
 defined
