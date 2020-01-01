@@ -2547,7 +2547,7 @@ NS_OK
 -
 /
 /
-nsXULTreeAccessibleWrap
+nsXULTreeColumnsAccessibleWrap
 Accessible
 /
 /

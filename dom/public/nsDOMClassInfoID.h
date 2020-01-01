@@ -1022,6 +1022,11 @@ Window
 eDOMClassInfo_ModalContentWindow_id
 /
 /
+Data
+Events
+eDOMClassInfo_DataContainerEvent_id
+/
+/
 This
 one
 better

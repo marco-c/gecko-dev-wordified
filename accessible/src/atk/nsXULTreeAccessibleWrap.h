@@ -497,6 +497,9 @@ nsXULTreeAccessibleWrap
 )
 {
 }
+/
+/
+nsIAccessible
 NS_IMETHOD
 GetChildCount
 (
@@ -505,6 +508,8 @@ PRInt32
 _retval
 )
 ;
+protected
+:
 NS_IMETHOD
 ChangeSelection
 (
