@@ -5315,6 +5315,8 @@ stream_get_position
 /
 wasapi_stream_get_position
 /
+/
+/
 *
 .
 stream_get_latency
