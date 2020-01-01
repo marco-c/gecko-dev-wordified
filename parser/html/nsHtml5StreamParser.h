@@ -1999,7 +1999,7 @@ parser
 .
 *
 /
-nsCOMPtr
+nsRefPtr
 <
 nsHtml5Parser
 >
