@@ -1168,7 +1168,7 @@ rv
 ;
 rv
 =
-piTarget
+elmP
 -
 >
 AddEventListenerByIID
@@ -1185,6 +1185,7 @@ NS_GET_IID
 (
 nsIDOMMouseListener
 )
+NS_EVENT_FLAG_CAPTURE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1550,7 +1551,7 @@ NS_EVENT_FLAG_BUBBLE
 sysGroup
 )
 ;
-piTarget
+elmP
 -
 >
 RemoveEventListenerByIID
@@ -1567,6 +1568,7 @@ NS_GET_IID
 (
 nsIDOMMouseListener
 )
+NS_EVENT_FLAG_CAPTURE
 )
 ;
 elmP
