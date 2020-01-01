@@ -2699,7 +2699,7 @@ submitForm
 )
 )
 {
-this
+self
 .
 notifyStatus
 (
