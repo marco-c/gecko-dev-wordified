@@ -19774,6 +19774,13 @@ includedActorTypedefs
         
 self
 .
+includedActorUsings
+=
+[
+]
+        
+self
+.
 protocolCxxIncludes
 =
 [
@@ -20494,11 +20501,6 @@ standardTypedefs
 )
             
 +
-self
-.
-includedActorTypedefs
-            
-+
 tu
 .
 protocol
@@ -20506,6 +20508,11 @@ protocol
 decl
 .
 cxxtypedefs
+            
++
+self
+.
+includedActorUsings
             
 +
 [
@@ -20676,6 +20683,32 @@ shortname
 self
 .
 prettyside
+)
+)
+)
+            
+self
+.
+includedActorUsings
+.
+append
+(
+Using
+(
+                
+Type
+(
+_actorName
+(
+ip
+.
+decl
+.
+fullname
+self
+.
+prettyside
+)
 )
 )
 )
