@@ -644,13 +644,6 @@ h
 #
 include
 "
-npupp
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
