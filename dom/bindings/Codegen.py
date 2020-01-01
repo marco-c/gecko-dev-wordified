@@ -9929,6 +9929,9 @@ UnwrapObject
 {
 protoID
 }
+{
+type
+}
 >
 (
 cx
@@ -11800,20 +11803,6 @@ tuple
 .
         
 #
--
-target
-is
-where
-a
-pointer
-to
-the
-object
-is
-being
-stored
-        
-#
 Set
 up
 some
@@ -11859,15 +11848,6 @@ else
 declType
 =
 typePtr
-            
-target
-=
-"
-&
-{
-declName
-}
-"
         
 else
 :
@@ -11903,18 +11883,6 @@ typeName
 +
 "
 >
-"
-            
-target
-=
-"
-{
-declName
-}
-.
-Slot
-(
-)
 "
         
 templateBody
@@ -11956,7 +11924,11 @@ toObject
 )
 "
                         
-target
+"
+{
+declName
+}
+"
                         
 failureCode
 )
@@ -11986,7 +11958,11 @@ toObject
 )
 "
                         
-target
+"
+{
+declName
+}
+"
 )
 )
         
@@ -16877,13 +16853,24 @@ returnType
 inner
         
 #
-Assume
-no
-need
-to
-addref
-for
-now
+If
+our
+result
+is
+already
+addrefed
+use
+the
+right
+type
+in
+the
+        
+#
+sequence
+argument
+here
+.
         
 (
 result
@@ -16898,7 +16885,7 @@ inner
                                                         
 descriptorProvider
                                                         
-False
+resultAlreadyAddRefed
 )
         
 result
@@ -21572,7 +21559,6 @@ descriptor
 obj
 "
 "
-&
 self
 "
 )
