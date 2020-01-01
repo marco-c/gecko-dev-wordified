@@ -2970,7 +2970,7 @@ with
 sharp
 corners
 to
-accomodate
+accommodate
 a
 *
 scrollbar
