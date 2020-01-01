@@ -3914,6 +3914,9 @@ insertNode
 {
 if
 (
+contentNode
+&
+&
 insertNode
 -
 >
