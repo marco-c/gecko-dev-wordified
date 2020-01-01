@@ -3723,7 +3723,7 @@ urlclassifier
 .
 randomizeclient
 "
-true
+false
 )
 ;
 /
