@@ -11409,6 +11409,7 @@ BZ_NO_STDIO
 /
 #
 if
+(
 defined
 (
 _WIN32
@@ -11424,6 +11425,14 @@ OS2
 defined
 (
 MSDOS
+)
+)
+&
+&
+!
+defined
+(
+WINCE
 )
 #
 include
