@@ -892,10 +892,13 @@ popupshown
 "
 )
 ;
-sendContextMenuClick
+sendContextMenuClickToSelection
 (
-527
-188
+gFrame
+.
+contentDocument
+.
+defaultView
 )
 ;
 yield
