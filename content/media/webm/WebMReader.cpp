@@ -6123,6 +6123,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+ifdef
+MOZ_DASH
 /
 /
 Find
@@ -6237,6 +6240,8 @@ break
 ;
 }
 }
+#
+endif
 return
 DecodeToTarget
 (

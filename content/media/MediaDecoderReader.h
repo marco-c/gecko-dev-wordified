@@ -2316,6 +2316,9 @@ DecodeAudioData
 =
 0
 ;
+#
+ifdef
+MOZ_DASH
 /
 /
 Steps
@@ -2338,6 +2341,8 @@ PrepareToDecode
 )
 {
 }
+#
+endif
 /
 /
 Reads

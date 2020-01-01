@@ -5969,6 +5969,9 @@ audioPlaying
 )
 )
 {
+#
+ifdef
+MOZ_DASH
 mReader
 -
 >
@@ -5976,6 +5979,8 @@ PrepareToDecode
 (
 )
 ;
+#
+endif
 /
 /
 We
