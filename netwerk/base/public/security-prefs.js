@@ -93,7 +93,7 @@ security
 .
 enable_md5_signatures
 "
-true
+false
 )
 ;
 pref
