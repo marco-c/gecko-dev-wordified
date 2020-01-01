@@ -620,7 +620,7 @@ id
 #
 define
 MAX_CONFIG_VAL_PRINT_LEN
-256
+258
 /
 *
 *
