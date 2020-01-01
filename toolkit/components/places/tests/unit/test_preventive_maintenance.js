@@ -12049,14 +12049,13 @@ this
 .
 _uri2
 function
-AC_onFaviconDataAvailable
 (
-aURI
+aFaviconURI
 )
 {
 do_check_true
 (
-aURI
+aFaviconURI
 .
 equals
 (

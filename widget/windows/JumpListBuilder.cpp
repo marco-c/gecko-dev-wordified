@@ -3080,7 +3080,7 @@ NS_IMETHODIMP
 AsyncFaviconDataReady
 :
 :
-OnFaviconDataAvailable
+OnComplete
 (
 nsIURI
 *
