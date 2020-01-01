@@ -636,10 +636,7 @@ By
 default
 it
 is
-nsCRT
-:
-:
-IsAsciiSpace
+NS_IsAsciiWhitespace
 .
 *
 /
@@ -651,10 +648,7 @@ IsWhitespace
 PRUnichar
 )
 =
-nsCRT
-:
-:
-IsAsciiSpace
+NS_IsAsciiWhitespace
 >
 class
 nsCharSeparatedTokenizerTemplate
