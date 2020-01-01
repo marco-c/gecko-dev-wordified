@@ -7107,10 +7107,6 @@ aSize
 height
 )
 ;
-SchedulePauseComposition
-(
-)
-;
 mBounds
 .
 width
@@ -7147,16 +7143,6 @@ height
 )
 ;
 }
-ScheduleResumeComposition
-(
-aSize
-.
-width
-aSize
-.
-height
-)
-;
 }
 void
 nsWindow
