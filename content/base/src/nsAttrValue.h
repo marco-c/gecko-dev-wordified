@@ -177,10 +177,6 @@ SVGAttrValueWrapper
 .
 h
 "
-typedef
-uintptr_t
-PtrBits
-;
 class
 nsAString
 ;
@@ -234,7 +230,7 @@ NS_ATTRVALUE_MAX_STRINGLENGTH_ATOM
 define
 NS_ATTRVALUE_BASETYPE_MASK
 (
-PtrBits
+uintptr_t
 (
 3
 )
@@ -254,7 +250,7 @@ NS_ATTRVALUE_INTEGERTYPE_BITS
 define
 NS_ATTRVALUE_INTEGERTYPE_MASK
 (
-PtrBits
+uintptr_t
 (
 (
 1
@@ -337,7 +333,7 @@ define
 NS_ATTRVALUE_ENUMTABLEINDEX_MASK
 \
 (
-PtrBits
+uintptr_t
 (
 (
 (
@@ -2936,7 +2932,7 @@ nsTArrayDefaultAllocator
 *
 sEnumTableArray
 ;
-PtrBits
+uintptr_t
 mBits
 ;
 }

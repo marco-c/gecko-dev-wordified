@@ -400,10 +400,6 @@ mConstructorCID
 ;
 }
 ;
-typedef
-uintptr_t
-PtrBits
-;
 /
 /
 To
@@ -455,7 +451,7 @@ nsIClassInfo
 *
 )
 (
-PtrBits
+uintptr_t
 (
 _ptr
 )
@@ -474,7 +470,7 @@ nsIClassInfo
 *
 )
 (
-PtrBits
+uintptr_t
 (
 _ptr
 )
@@ -488,7 +484,7 @@ IS_EXTERNAL
 _ptr
 )
 (
-PtrBits
+uintptr_t
 (
 _ptr
 )

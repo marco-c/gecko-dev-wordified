@@ -5785,7 +5785,7 @@ endif
 bool
 HasFlag
 (
-PtrBits
+uintptr_t
 aFlag
 )
 const

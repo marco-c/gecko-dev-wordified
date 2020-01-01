@@ -6499,10 +6499,6 @@ height
 ;
 }
 ;
-typedef
-uintptr_t
-PtrBits
-;
 enum
 {
 BLOCK_SIZE_BITS
@@ -6566,7 +6562,7 @@ Length
 return
 INVALID_WIDTH
 ;
-PtrBits
+uintptr_t
 bits
 =
 mBlocks
@@ -6659,7 +6655,7 @@ static
 uint32_t
 GetGlyphOffset
 (
-PtrBits
+uintptr_t
 aBits
 )
 {
@@ -6704,7 +6700,7 @@ static
 uint32_t
 GetWidth
 (
-PtrBits
+uintptr_t
 aBits
 )
 {
@@ -6737,7 +6733,7 @@ BLOCK_SIZE_BITS
 ;
 }
 static
-PtrBits
+uintptr_t
 MakeSingle
 (
 uint32_t
@@ -6770,7 +6766,7 @@ aGlyphOffset
 }
 nsTArray
 <
-PtrBits
+uintptr_t
 >
 mBlocks
 ;

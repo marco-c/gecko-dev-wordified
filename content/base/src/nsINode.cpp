@@ -6227,7 +6227,7 @@ UnoptimizableCCNode
 const
 {
 const
-PtrBits
+uintptr_t
 problematicFlags
 =
 (

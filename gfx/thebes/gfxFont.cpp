@@ -19035,7 +19035,7 @@ count
 i
 )
 {
-PtrBits
+uintptr_t
 bits
 =
 mBlocks
@@ -19117,7 +19117,7 @@ Length
 i
 )
 {
-PtrBits
+uintptr_t
 bits
 =
 mBlocks
@@ -19199,7 +19199,7 @@ block
 len
 )
 {
-PtrBits
+uintptr_t
 *
 elems
 =
@@ -19227,7 +19227,7 @@ elems
 0
 sizeof
 (
-PtrBits
+uintptr_t
 )
 *
 (
@@ -19240,7 +19240,7 @@ len
 )
 ;
 }
-PtrBits
+uintptr_t
 bits
 =
 mBlocks
@@ -19385,7 +19385,7 @@ block
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 newBlock

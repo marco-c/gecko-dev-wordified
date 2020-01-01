@@ -2724,7 +2724,7 @@ nsAttrValue
 aOther
 )
 {
-PtrBits
+uintptr_t
 tmp
 =
 aOther
@@ -7302,7 +7302,7 @@ mStringBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 buf
@@ -8454,7 +8454,7 @@ mStringBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 atom
@@ -8488,7 +8488,7 @@ mStringBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 buf
