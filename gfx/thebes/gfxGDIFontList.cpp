@@ -4187,7 +4187,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 gfxGDIFontList
 :
 :
@@ -4300,6 +4300,9 @@ StartLoader
 kDelayBeforeLoadingFonts
 kIntervalBetweenLoadingFonts
 )
+;
+return
+NS_OK
 ;
 }
 int

@@ -551,7 +551,7 @@ aLength
 protected
 :
 virtual
-void
+nsresult
 InitFontList
 (
 )

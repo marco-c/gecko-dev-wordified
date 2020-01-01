@@ -1130,7 +1130,7 @@ observer
 }
 }
 }
-void
+nsresult
 gfxPlatformFontList
 :
 :
@@ -1232,6 +1232,13 @@ SetRange
 /
 C1
 controls
+sPlatformFontList
+=
+this
+;
+return
+NS_OK
+;
 }
 void
 gfxPlatformFontList

@@ -1829,7 +1829,7 @@ XP_WIN
 &
 ANDROID
 }
-void
+nsresult
 gfxFT2FontList
 :
 :
@@ -1852,6 +1852,9 @@ InitFontList
 FindFonts
 (
 )
+;
+return
+NS_OK
 ;
 }
 struct

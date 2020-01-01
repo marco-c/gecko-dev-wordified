@@ -784,7 +784,7 @@ initialize
 font
 lists
 virtual
-void
+nsresult
 InitFontList
 (
 )
