@@ -638,9 +638,6 @@ b
 =
 2
 "
-dupe
-:
-true
 }
 {
 href
@@ -682,9 +679,6 @@ c
 =
 3
 "
-dupe
-:
-true
 }
 {
 href
@@ -718,9 +712,6 @@ a
 =
 2
 "
-dupe
-:
-true
 }
 {
 href
@@ -758,9 +749,6 @@ b
 =
 3
 "
-dupe
-:
-true
 }
 {
 href
@@ -802,9 +790,6 @@ c
 =
 4
 "
-dupe
-:
-true
 }
 {
 href
@@ -1590,8 +1575,6 @@ incorrect
 is
 (
 vs
-.
-_container
 .
 itemCount
 urls

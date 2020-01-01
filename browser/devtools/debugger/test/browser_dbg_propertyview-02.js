@@ -247,6 +247,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )

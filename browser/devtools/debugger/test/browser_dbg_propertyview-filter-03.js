@@ -241,9 +241,7 @@ querySelector
 .
 variables
 -
-searchinput
-.
-devtools
+view
 -
 searchinput
 "
@@ -395,9 +393,7 @@ querySelector
 .
 variables
 -
-searchinput
-.
-devtools
+view
 -
 searchinput
 "
@@ -546,9 +542,7 @@ querySelector
 .
 variables
 -
-searchinput
-.
-devtools
+view
 -
 searchinput
 "

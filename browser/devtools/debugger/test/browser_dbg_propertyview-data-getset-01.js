@@ -1924,6 +1924,10 @@ querySelectorAll
 (
 "
 .
+variables
+-
+view
+-
 scope
 "
 )
@@ -1938,6 +1942,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )

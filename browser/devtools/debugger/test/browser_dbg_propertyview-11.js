@@ -268,6 +268,10 @@ querySelectorAll
 (
 "
 .
+variables
+-
+view
+-
 scope
 "
 )
@@ -288,6 +292,10 @@ querySelectorAll
 (
 "
 .
+variables
+-
+view
+-
 scope
 "
 )
@@ -302,6 +310,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )
@@ -315,6 +329,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )

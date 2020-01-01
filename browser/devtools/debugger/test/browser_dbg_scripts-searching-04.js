@@ -109,7 +109,7 @@ gEditor
 null
 ;
 var
-gScripts
+gSources
 =
 null
 ;
@@ -333,7 +333,7 @@ DebuggerView
 .
 editor
 ;
-gScripts
+gSources
 =
 gDebugger
 .
@@ -488,7 +488,7 @@ url
 n
 "
 +
-gScripts
+gSources
 .
 selectedValue
 +
@@ -524,7 +524,7 @@ n
 let
 url
 =
-gScripts
+gSources
 .
 selectedValue
 ;
@@ -621,7 +621,7 @@ yet
 ;
 is
 (
-gScripts
+gSources
 .
 visibleItems
 .
@@ -943,7 +943,7 @@ line
 ;
 is
 (
-gScripts
+gSources
 .
 visibleItems
 .
@@ -1207,7 +1207,7 @@ line
 ;
 is
 (
-gScripts
+gSources
 .
 visibleItems
 .
@@ -1471,7 +1471,7 @@ line
 ;
 is
 (
-gScripts
+gSources
 .
 visibleItems
 .
@@ -1735,7 +1735,7 @@ line
 ;
 is
 (
-gScripts
+gSources
 .
 visibleItems
 .
@@ -1863,7 +1863,7 @@ url
 n
 "
 +
-gScripts
+gSources
 .
 selectedValue
 +
@@ -1899,7 +1899,7 @@ n
 let
 url
 =
-gScripts
+gSources
 .
 selectedValue
 ;
@@ -1997,7 +1997,7 @@ line
 ;
 is
 (
-gScripts
+gSources
 .
 visibleItems
 .
@@ -2312,7 +2312,7 @@ gEditor
 =
 null
 ;
-gScripts
+gSources
 =
 null
 ;

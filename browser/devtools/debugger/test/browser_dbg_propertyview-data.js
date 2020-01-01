@@ -132,7 +132,7 @@ gDebugger
 .
 DebuggerView
 .
-togglePanes
+toggleInstrumentsPane
 (
 {
 visible

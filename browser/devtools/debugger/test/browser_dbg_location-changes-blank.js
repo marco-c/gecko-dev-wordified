@@ -587,7 +587,8 @@ DebuggerView
 Sources
 .
 selectedValue
-null
+"
+"
 "
 There
 should
@@ -645,7 +646,7 @@ L10N
 getStr
 (
 "
-noScriptsText
+noSourcesText
 "
 )
 ;
