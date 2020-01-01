@@ -6242,15 +6242,12 @@ opportunity
 .
 *
 /
-JS_ATOMIC_SET
-(
-&
 rt
 -
 >
 interrupt
+=
 0
-)
 ;
 /
 *
