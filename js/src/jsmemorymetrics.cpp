@@ -989,6 +989,7 @@ elementsSize
 argumentsDataSize
 regExpStaticsSize
 propertyIteratorDataSize
+ctypesDataSize
 ;
 obj
 -
@@ -1009,6 +1010,8 @@ argumentsDataSize
 regExpStaticsSize
 &
 propertyIteratorDataSize
+&
+ctypesDataSize
 )
 ;
 cStats
@@ -1050,6 +1053,14 @@ objectsExtraPropertyIteratorData
 +
 =
 propertyIteratorDataSize
+;
+cStats
+-
+>
+objectsExtraCtypesData
++
+=
+ctypesDataSize
 ;
 if
 (
