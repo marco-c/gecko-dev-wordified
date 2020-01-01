@@ -1640,13 +1640,13 @@ NULL
 ;
 str
 =
-JSProxyHandler
-:
-:
-obj_toString
+obj_toStringHelper
 (
 cx
+wrappedObject
+(
 wrapper
+)
 )
 ;
 leave
