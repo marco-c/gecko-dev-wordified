@@ -1202,11 +1202,6 @@ PRInt64
 aServerTime
 PRBool
 aFromHttp
-mozIStorageBindingParamsArray
-*
-aParamsArray
-=
-NULL
 )
 ;
 void
@@ -1230,11 +1225,6 @@ char
 aCookieHeader
 PRBool
 aFromHttp
-mozIStorageBindingParamsArray
-*
-aParamsArray
-=
-NULL
 )
 ;
 void
@@ -1244,11 +1234,6 @@ const
 nsListIter
 &
 aIter
-mozIStorageBindingParamsArray
-*
-aParamsArray
-=
-NULL
 )
 ;
 PRBool
@@ -1261,9 +1246,6 @@ aBaseDomain
 nsCookie
 *
 aCookie
-mozIStorageBindingParamsArray
-*
-aParamsArray
 PRBool
 aWriteToDB
 =
@@ -1278,9 +1260,6 @@ nsCookie
 aCookie
 PRInt64
 aLastAccessed
-mozIStorageBindingParamsArray
-*
-aParamsArray
 )
 ;
 static
