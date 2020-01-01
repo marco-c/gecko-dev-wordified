@@ -61,13 +61,15 @@ aWindow
 .
 gBrowser
 ;
-is
+todo
 (
 gBrowser
 .
 contentDocument
 .
 title
+=
+=
 source
 "
 Correct

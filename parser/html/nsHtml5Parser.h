@@ -1082,11 +1082,13 @@ observer
 *
 param
 aURL
-used
+ignored
+(
 for
-View
-Source
-title
+interface
+compat
+only
+)
 *
 param
 aListener
