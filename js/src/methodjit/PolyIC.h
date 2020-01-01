@@ -592,6 +592,16 @@ JSContext
 cx
 )
 ;
+enum
+LookupStatus
+{
+Lookup_Error
+=
+0
+Lookup_Uncacheable
+Lookup_Cacheable
+}
+;
 struct
 BaseIC
 :
