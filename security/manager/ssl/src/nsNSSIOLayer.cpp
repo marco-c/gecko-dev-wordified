@@ -15615,6 +15615,15 @@ nsICertOverrideService
 :
 ERROR_UNTRUSTED
 ;
+sHostsWithCertErrors
+.
+RememberCertHasError
+(
+infoObject
+status
+SECFailure
+)
+;
 }
 remaining_display_errors
 =
