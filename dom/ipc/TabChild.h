@@ -1560,6 +1560,15 @@ return
 mPrincipal
 ;
 }
+protected
+:
+NS_OVERRIDE
+virtual
+bool
+RecvDestroy
+(
+)
+;
 private
 :
 void
