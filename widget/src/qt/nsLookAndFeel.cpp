@@ -2186,6 +2186,15 @@ NS_STYLE_TEXT_DECORATION_STYLE_WAVY
 ;
 break
 ;
+case
+eIntID_ScrollbarButtonAutoRepeatBehavior
+:
+aResult
+=
+1
+;
+break
+;
 default
 :
 aResult
