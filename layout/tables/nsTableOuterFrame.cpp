@@ -1365,7 +1365,9 @@ aDestructRoot
 )
 ;
 }
+const
 nsFrameList
+&
 nsTableOuterFrame
 :
 :

@@ -1768,7 +1768,9 @@ return
 rv
 ;
 }
+const
 nsFrameList
+&
 nsMenuFrame
 :
 :

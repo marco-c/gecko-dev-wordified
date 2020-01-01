@@ -887,7 +887,9 @@ at
 all
 .
 virtual
+const
 nsFrameList
+&
 GetChildList
 (
 ChildListID

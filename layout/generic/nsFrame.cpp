@@ -7478,7 +7478,9 @@ GetUsedMargin
 bottom
 ;
 }
+const
 nsFrameList
+&
 nsFrame
 :
 :

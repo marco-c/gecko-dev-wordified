@@ -8988,7 +8988,9 @@ aDestructRoot
 )
 ;
 }
+const
 nsFrameList
+&
 nsComboboxControlFrame
 :
 :

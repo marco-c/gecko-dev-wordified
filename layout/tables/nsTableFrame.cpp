@@ -6955,7 +6955,9 @@ endif
 Child
 frame
 enumeration
+const
 nsFrameList
+&
 nsTableFrame
 :
 :
