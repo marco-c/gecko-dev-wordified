@@ -722,8 +722,10 @@ original
 SSL
 socket
 .
+nsCOMPtr
+<
 nsIRequest
-*
+>
 mPendingHTTPRequest
 ;
 virtual
