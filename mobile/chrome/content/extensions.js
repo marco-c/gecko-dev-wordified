@@ -3538,12 +3538,11 @@ if
 uri
 )
 {
-Browser
+BrowserUI
 .
-addTab
+newTab
 (
 uri
-true
 )
 ;
 BrowserUI
