@@ -1720,3 +1720,17 @@ enabled
 true
 )
 ;
+user_pref
+(
+"
+dom
+.
+gamepad
+.
+non_standard_events
+.
+enabled
+"
+true
+)
+;
