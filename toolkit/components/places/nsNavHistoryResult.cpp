@@ -18394,6 +18394,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 return
@@ -18436,6 +18438,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 if
@@ -19003,6 +19007,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 NS_PRECONDITION
@@ -19092,6 +19098,7 @@ OnDeleteURI
 (
 aURI
 aGUID
+aReason
 )
 ;
 NS_ENSURE_SUCCESS
@@ -29652,6 +29659,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 return
@@ -29671,6 +29680,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 ENUMERATE_HISTORY_OBSERVERS
@@ -29679,6 +29690,7 @@ OnDeleteURI
 (
 aURI
 aGUID
+aReason
 )
 )
 ;
@@ -29766,6 +29778,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 ENUMERATE_HISTORY_OBSERVERS
@@ -29775,6 +29789,7 @@ OnDeleteVisits
 aURI
 aVisitTime
 aGUID
+aReason
 )
 )
 ;

@@ -27093,6 +27093,10 @@ OnBeforeDeleteURI
 (
 uri
 guid
+nsINavHistoryObserver
+:
+:
+REASON_DELETED
 )
 )
 ;
@@ -27140,6 +27144,10 @@ OnDeleteVisits
 uri
 0
 guid
+nsINavHistoryObserver
+:
+:
+REASON_DELETED
 )
 )
 ;
@@ -27335,6 +27343,10 @@ GUIDs
 [
 i
 ]
+nsINavHistoryObserver
+:
+:
+REASON_DELETED
 )
 )
 ;
@@ -34484,6 +34496,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 /
@@ -34543,6 +34557,7 @@ OnDeleteURI
 (
 aURI
 aGUID
+aReason
 )
 )
 ;
@@ -34575,6 +34590,7 @@ OnDeleteVisits
 aURI
 aVisitTime
 aGUID
+aReason
 )
 )
 ;
