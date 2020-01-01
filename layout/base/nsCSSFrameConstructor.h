@@ -5874,9 +5874,6 @@ aResult
 nsresult
 CreateLetterFrame
 (
-nsFrameConstructorState
-&
-aState
 nsIFrame
 *
 aBlockFrame
@@ -5894,9 +5891,6 @@ aResult
 nsresult
 WrapFramesInFirstLetterFrame
 (
-nsFrameConstructorState
-&
-aState
 nsIContent
 *
 aBlockContent
@@ -5911,9 +5905,6 @@ aBlockFrames
 nsresult
 WrapFramesInFirstLetterFrame
 (
-nsFrameConstructorState
-&
-aState
 nsIFrame
 *
 aBlockFrame
@@ -5946,9 +5937,6 @@ aStopLooking
 nsresult
 RecoverLetterFrames
 (
-nsFrameConstructorState
-&
-aState
 nsIFrame
 *
 aBlockFrame
