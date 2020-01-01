@@ -900,7 +900,7 @@ instead
 .
 if
 (
-mSynthesizedGLError
+mWebGLError
 =
 =
 LOCAL_GL_NO_ERROR
@@ -910,7 +910,7 @@ MakeContextCurrent
 (
 )
 ;
-mSynthesizedGLError
+mWebGLError
 =
 gl
 -
@@ -921,12 +921,12 @@ fGetError
 ;
 if
 (
-mSynthesizedGLError
+mWebGLError
 =
 =
 LOCAL_GL_NO_ERROR
 )
-mSynthesizedGLError
+mWebGLError
 =
 err
 ;

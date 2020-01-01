@@ -12068,7 +12068,7 @@ GetAndClearError
 ;
 /
 /
-mSynthesizedGLError
+mWebGLError
 has
 the
 first
@@ -12093,7 +12093,7 @@ it
 .
 if
 (
-mSynthesizedGLError
+mWebGLError
 !
 =
 LOCAL_GL_NO_ERROR
@@ -12101,9 +12101,9 @@ LOCAL_GL_NO_ERROR
 {
 err
 =
-mSynthesizedGLError
+mWebGLError
 ;
-mSynthesizedGLError
+mWebGLError
 =
 LOCAL_GL_NO_ERROR
 ;
