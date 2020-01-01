@@ -5518,6 +5518,13 @@ ProcessPriorityManagerChild
 (
 )
 ;
+sSingleton
+-
+>
+Init
+(
+)
+;
 ClearOnShutdown
 (
 &
