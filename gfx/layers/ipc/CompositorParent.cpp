@@ -1194,6 +1194,9 @@ SetShadowTransform
 worldTransform
 )
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
 /
 /
 Hang
@@ -1245,6 +1248,8 @@ transform
 transformUserData
 )
 ;
+#
+endif
 mLayerManager
 -
 >
