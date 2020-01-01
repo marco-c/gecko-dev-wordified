@@ -420,7 +420,7 @@ SVGFECompositeElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFECompositeElement
 :
@@ -443,7 +443,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFECompositeElement
 :

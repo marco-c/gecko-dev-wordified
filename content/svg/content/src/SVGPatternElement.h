@@ -404,7 +404,7 @@ Height
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 Href
 (

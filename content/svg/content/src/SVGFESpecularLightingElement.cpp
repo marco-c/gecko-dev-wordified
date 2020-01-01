@@ -247,7 +247,7 @@ SVGFESpecularLightingElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFESpecularLightingElement
 :

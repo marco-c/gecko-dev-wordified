@@ -616,7 +616,7 @@ SVGFEConvolveMatrixElement
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEConvolveMatrixElement
 :

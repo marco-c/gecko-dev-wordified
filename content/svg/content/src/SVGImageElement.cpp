@@ -798,7 +798,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGImageElement
 :

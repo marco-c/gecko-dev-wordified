@@ -705,7 +705,7 @@ this
 *
 readonly
 attribute
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 className
 ;
 *
@@ -716,7 +716,7 @@ nsSVGElement
 :
 GetClassName
 (
-nsIDOMSVGAnimatedString
+nsISupports
 *
 *
 aClassName
@@ -7154,7 +7154,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 nsSVGElement
 :

@@ -423,7 +423,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGAElement
 :
@@ -651,7 +651,7 @@ SVGAElement
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGAElement
 :

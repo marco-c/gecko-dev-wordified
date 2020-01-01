@@ -516,7 +516,7 @@ SVGFEDisplacementMapElement
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEDisplacementMapElement
 :
@@ -539,7 +539,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEDisplacementMapElement
 :

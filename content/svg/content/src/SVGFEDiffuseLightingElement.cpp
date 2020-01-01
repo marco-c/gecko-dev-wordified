@@ -319,7 +319,7 @@ SVGFEDiffuseLightingElement
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEDiffuseLightingElement
 :

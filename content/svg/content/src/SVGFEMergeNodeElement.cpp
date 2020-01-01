@@ -370,7 +370,7 @@ in
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEMergeNodeElement
 :

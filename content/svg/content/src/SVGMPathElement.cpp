@@ -567,7 +567,7 @@ SVGMPathElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGMPathElement
 :

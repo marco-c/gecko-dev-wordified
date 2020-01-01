@@ -357,7 +357,7 @@ SVGAltGlyphElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGAltGlyphElement
 :

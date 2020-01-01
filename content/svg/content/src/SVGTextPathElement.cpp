@@ -514,7 +514,7 @@ SVGTextPathElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGTextPathElement
 :

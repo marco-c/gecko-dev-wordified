@@ -238,7 +238,7 @@ MOZ_OVERRIDE
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 Href
 (

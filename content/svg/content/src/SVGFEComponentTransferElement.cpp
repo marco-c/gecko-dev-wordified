@@ -291,7 +291,7 @@ SVGFEComponentTransferElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEComponentTransferElement
 :

@@ -1253,7 +1253,7 @@ SVGFEImageElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEImageElement
 :

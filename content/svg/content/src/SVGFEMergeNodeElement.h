@@ -242,7 +242,7 @@ IN1
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 In1
 (

@@ -456,7 +456,7 @@ MOZ_OVERRIDE
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 Href
 (
@@ -464,7 +464,7 @@ Href
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 Target
 (

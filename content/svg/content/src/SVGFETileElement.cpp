@@ -287,7 +287,7 @@ SVGFETileElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFETileElement
 :

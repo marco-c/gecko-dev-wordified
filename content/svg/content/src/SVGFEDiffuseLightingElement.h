@@ -225,7 +225,7 @@ const
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 In1
 (
