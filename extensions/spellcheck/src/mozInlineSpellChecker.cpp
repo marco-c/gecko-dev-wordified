@@ -5931,6 +5931,12 @@ uint32_t
 aCount
 )
 {
+NS_ENSURE_TRUE
+(
+mSpellCheck
+NS_ERROR_NOT_INITIALIZED
+)
+;
 /
 /
 add
@@ -8238,6 +8244,12 @@ aDoneChecking
 aDoneChecking
 =
 true
+;
+NS_ENSURE_TRUE
+(
+mSpellCheck
+NS_ERROR_NOT_INITIALIZED
+)
 ;
 /
 /
