@@ -6002,7 +6002,10 @@ i
 {
 if
 (
-XP_IS_SPACE
+dom
+:
+:
+IsSpaceCharacter
 (
 aString
 [

@@ -7757,7 +7757,10 @@ index
 {
 if
 (
-XP_IS_SPACE_W
+dom
+:
+:
+IsSpaceCharacter
 (
 *
 data
@@ -7777,7 +7780,10 @@ index
 }
 while
 (
-XP_IS_SPACE_W
+dom
+:
+:
+IsSpaceCharacter
 (
 *
 data
@@ -7830,7 +7836,10 @@ index
 {
 if
 (
-XP_IS_SPACE_W
+dom
+:
+:
+IsSpaceCharacter
 (
 *
 data
@@ -7850,7 +7859,10 @@ index
 }
 while
 (
-XP_IS_SPACE_W
+dom
+:
+:
+IsSpaceCharacter
 (
 *
 data

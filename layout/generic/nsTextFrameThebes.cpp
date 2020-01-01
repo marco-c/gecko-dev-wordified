@@ -4092,7 +4092,10 @@ mContentOffset
 Smarter
 versions
 of
-XP_IS_SPACE
+dom
+:
+:
+IsSpaceCharacter
 .
 /
 /
