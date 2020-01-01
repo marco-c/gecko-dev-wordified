@@ -638,7 +638,9 @@ rv
 return
 E_FAIL
 ;
-return
+INT
+result
+=
 :
 :
 SysReAllocStringLen
@@ -655,6 +657,13 @@ Length
 (
 )
 )
+;
+return
+result
+?
+NS_OK
+:
+E_OUTOFMEMORY
 ;
 }
 STDMETHODIMP
