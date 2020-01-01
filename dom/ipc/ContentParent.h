@@ -796,6 +796,12 @@ MaybeTakePreallocatedAppProcess
 (
 )
 ;
+static
+void
+FirstIdle
+(
+)
+;
 /
 /
 Hide
@@ -1720,6 +1726,12 @@ const
 bool
 &
 aExist
+)
+;
+virtual
+bool
+RecvFirstIdle
+(
 )
 ;
 virtual
