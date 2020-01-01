@@ -2925,6 +2925,10 @@ inGenexpLambda
 (
 false
 )
+hasDestructuringArgs
+(
+false
+)
 useAsm
 (
 false
@@ -10361,11 +10365,6 @@ null
 (
 )
 ;
-bool
-destructuringArg
-=
-false
-;
 #
 if
 JS_HAS_DESTRUCTURING
@@ -10480,7 +10479,10 @@ return
 false
 ;
 }
-destructuringArg
+funbox
+-
+>
+hasDestructuringArgs
 =
 true
 ;
@@ -10809,7 +10811,10 @@ name
 bool
 disallowDuplicateArgs
 =
-destructuringArg
+funbox
+-
+>
+hasDestructuringArgs
 |
 |
 hasDefaults
