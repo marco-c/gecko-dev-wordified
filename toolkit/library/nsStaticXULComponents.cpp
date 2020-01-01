@@ -1039,6 +1039,12 @@ defined
 (
 MOZ_XPFE_COMPONENTS
 )
+&
+&
+defined
+(
+MOZ_XUL
+)
 #
 define
 FILEVIEW_MODULE
