@@ -219,11 +219,13 @@ USING_INDEXEDDB_NAMESPACE
 USING_QUOTA_NAMESPACE
 static
 const
-mozilla
-:
-:
 fallible_t
 fallible
+=
+new
+fallible_t
+(
+)
 ;
 namespace
 {
