@@ -30147,6 +30147,7 @@ aBuilder
 nsDisplayClip
 (
 frame
+frame
 i
 textRect
 )
