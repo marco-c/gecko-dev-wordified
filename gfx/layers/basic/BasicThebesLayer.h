@@ -1004,7 +1004,7 @@ mFrontUpdatedRegion
 nsIntRegion
 mFrontValidRegion
 ;
-PRPackedBool
+bool
 mFrontAndBackBufferDiffer
 ;
 }
