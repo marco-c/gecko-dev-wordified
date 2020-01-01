@@ -523,7 +523,7 @@ declarations
 .
 *
 /
-struct
+class
 TypeSet
 ;
 struct

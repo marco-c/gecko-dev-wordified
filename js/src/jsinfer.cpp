@@ -6100,7 +6100,7 @@ getProperty
 (
 cx
 JSID_EMPTY
-true
+false
 )
 ;
 if

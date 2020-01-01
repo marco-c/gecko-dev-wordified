@@ -2243,6 +2243,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 +
 2
@@ -2259,6 +2262,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 +
 1
@@ -2386,7 +2392,7 @@ known
 /
 for
 (
-unsigned
+int
 i
 =
 0
