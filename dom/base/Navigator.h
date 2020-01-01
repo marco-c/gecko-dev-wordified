@@ -794,6 +794,9 @@ network
 class
 Connection
 ;
+class
+MobileConnection
+;
 }
 /
 /
@@ -1024,6 +1027,15 @@ network
 Connection
 >
 mConnection
+;
+nsRefPtr
+<
+network
+:
+:
+MobileConnection
+>
+mMobileConnection
 ;
 #
 ifdef
