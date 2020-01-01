@@ -1400,18 +1400,18 @@ boolean
 denoting
 if
 the
+given
 <
 Rect
 >
 is
 contained
-inside
+within
 /
 /
-of
 the
-bounding
-rect
+this
+rectangle
 .
 /
 /
@@ -1439,6 +1439,7 @@ rect
 .
 left
 >
+=
 this
 .
 left
@@ -1448,6 +1449,7 @@ rect
 .
 right
 <
+=
 this
 .
 right
@@ -1457,6 +1459,7 @@ rect
 .
 top
 >
+=
 this
 .
 top
@@ -1466,6 +1469,7 @@ rect
 .
 bottom
 <
+=
 this
 .
 bottom
