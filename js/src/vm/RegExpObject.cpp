@@ -4276,8 +4276,7 @@ get
 JSContext
 *
 cx
-JSAtom
-*
+HandleAtom
 atom
 JSString
 *

@@ -8686,8 +8686,11 @@ defaults
 to
 undefined
 .
-Value
+RootedValue
 defaultValue
+(
+cx
+)
 ;
 if
 (
