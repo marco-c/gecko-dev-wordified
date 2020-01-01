@@ -5498,6 +5498,14 @@ nsIPresShell
 aShell
 )
 ;
+nsresult
+ShowResizersInner
+(
+nsIDOMElement
+*
+aResizedElement
+)
+;
 /
 /
 Returns
