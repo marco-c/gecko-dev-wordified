@@ -1021,7 +1021,7 @@ privateBrowsing_reset
 {
 try
 {
-pb
+this
 .
 stop
 (
@@ -1040,14 +1040,14 @@ Do
 a
 hard
 reset
-pb
+this
 .
 enabled
 =
 false
 ;
 }
-pb
+this
 .
 showPrompt
 =
