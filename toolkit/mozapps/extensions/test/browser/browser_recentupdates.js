@@ -716,11 +716,9 @@ org
 )
 is_element_visible
 (
-gManagerWindow
 item
 .
 _relNotesToggle
-true
 "
 Release
 notes
@@ -737,13 +735,11 @@ notes
 )
 ;
 else
-is_element_visible
+is_element_hidden
 (
-gManagerWindow
 item
 .
 _relNotesToggle
-false
 "
 Release
 notes
