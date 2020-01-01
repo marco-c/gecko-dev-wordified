@@ -2548,6 +2548,10 @@ return
 let
 newZL
 =
+BrowserView
+.
+Util
+.
 clampZoomLevel
 (
 zl
