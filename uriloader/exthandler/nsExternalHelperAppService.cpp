@@ -8075,7 +8075,7 @@ return
 ;
 mBufferSize
 =
-8192
+4096
 ;
 PRInt32
 size
