@@ -1895,11 +1895,11 @@ this
 if
 (
 !
-fop
--
->
-onBackgroundThread
+IsBackgroundFinalized
 (
+getAllocKind
+(
+)
 )
 )
 {
@@ -9561,7 +9561,7 @@ the
 gcHelperThread
 .
 *
-IsBackgroundAllocKind
+IsBackgroundFinalized
 is
 called
 to
@@ -9590,7 +9590,7 @@ return
 gc
 :
 :
-IsBackgroundAllocKind
+IsBackgroundFinalized
 (
 kind
 )

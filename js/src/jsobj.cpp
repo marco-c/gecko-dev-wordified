@@ -20794,7 +20794,7 @@ run
 .
 JS_ASSERT
 (
-IsBackgroundAllocKind
+IsBackgroundFinalized
 (
 getAllocKind
 (
@@ -20802,7 +20802,7 @@ getAllocKind
 )
 =
 =
-IsBackgroundAllocKind
+IsBackgroundFinalized
 (
 other
 -

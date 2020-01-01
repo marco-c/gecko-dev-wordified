@@ -1887,6 +1887,15 @@ kind
 =
 =
 BFS_DONE
+|
+|
+backgroundFinalizeState
+[
+kind
+]
+=
+=
+BFS_JUST_FINISHED
 ;
 }
 /
@@ -2515,6 +2524,8 @@ fop
 ArenaHeader
 *
 listHead
+bool
+onBackgroundThread
 )
 ;
 private
