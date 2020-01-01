@@ -28814,6 +28814,15 @@ jsop_initelem
 (
 )
 {
+RootedScript
+scriptRoot
+(
+cx
+script
+(
+)
+)
+;
 if
 (
 oracle
@@ -28821,9 +28830,7 @@ oracle
 >
 propertyWriteCanSpecialize
 (
-script
-(
-)
+scriptRoot
 pc
 )
 )
@@ -28835,9 +28842,7 @@ oracle
 >
 elementWriteIsDenseArray
 (
-script
-(
-)
+scriptRoot
 pc
 )
 )
