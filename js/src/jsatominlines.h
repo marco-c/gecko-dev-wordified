@@ -1218,6 +1218,11 @@ jsid
 idp
 )
 {
+MaybeCheckStackRoots
+(
+cx
+)
+;
 if
 (
 index

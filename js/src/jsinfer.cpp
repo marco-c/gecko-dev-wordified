@@ -39399,9 +39399,6 @@ JSObject
 proto
 )
 {
-gc
-:
-:
 MaybeCheckStackRoots
 (
 cx

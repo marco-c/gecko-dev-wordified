@@ -17294,6 +17294,16 @@ jsval
 vp
 )
 {
+cx
+-
+>
+runtime
+-
+>
+gcExactScanningEnabled
+=
+false
+;
 if
 (
 argc

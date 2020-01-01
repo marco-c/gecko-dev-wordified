@@ -606,6 +606,9 @@ getProto
 }
 JS_ASSERT
 (
+self
+-
+>
 nativeLookupNoAllocation
 (
 cx

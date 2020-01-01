@@ -2929,6 +2929,14 @@ size_t
 length
 )
 {
+SkipRoot
+skip
+(
+cx
+&
+chars
+)
+;
 /
 *
 *
