@@ -2520,8 +2520,6 @@ the
 content
 pref
 service
-rv
-=
 nsHTMLInputElement
 :
 :
@@ -2537,12 +2535,6 @@ GetDocumentURI
 (
 )
 localFile
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 prefSaved
@@ -2637,8 +2629,6 @@ the
 content
 pref
 service
-rv
-=
 nsHTMLInputElement
 :
 :
@@ -2654,12 +2644,6 @@ GetDocumentURI
 (
 )
 localFile
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
