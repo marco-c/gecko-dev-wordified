@@ -816,7 +816,7 @@ ifdef
 MOZ_WEBRTC
 [
 "
-WebRTC
+WebrtcUI
 "
 [
 "
@@ -834,7 +834,7 @@ browser
 /
 content
 /
-WebRTC
+WebrtcUI
 .
 js
 "
