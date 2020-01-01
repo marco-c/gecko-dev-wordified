@@ -2425,6 +2425,10 @@ size
 addPatchableJump
 (
 src
+Relocation
+:
+:
+HARDCODED
 )
 )
 ;
@@ -2470,6 +2474,10 @@ size
 addPatchableJump
 (
 src
+Relocation
+:
+:
+HARDCODED
 )
 )
 ;

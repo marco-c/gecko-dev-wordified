@@ -702,7 +702,7 @@ kind
 Relocation
 :
 :
-CODE
+IONCODE
 )
 MarkIonCodeUnbarriered
 (

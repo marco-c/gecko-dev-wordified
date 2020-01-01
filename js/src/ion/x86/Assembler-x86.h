@@ -1393,7 +1393,7 @@ kind
 Relocation
 :
 :
-CODE
+IONCODE
 )
 writeRelocation
 (
@@ -2221,7 +2221,7 @@ reloc
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 )
 {
 JmpSrc
@@ -2258,7 +2258,7 @@ reloc
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 )
 {
 JmpSrc
@@ -2310,7 +2310,7 @@ raw
 Relocation
 :
 :
-CODE
+IONCODE
 )
 ;
 }
@@ -2336,7 +2336,7 @@ raw
 Relocation
 :
 :
-CODE
+IONCODE
 )
 ;
 }
@@ -2369,7 +2369,7 @@ raw
 Relocation
 :
 :
-CODE
+IONCODE
 )
 ;
 }
@@ -2400,7 +2400,7 @@ asPointer
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 )
 ;
 }
