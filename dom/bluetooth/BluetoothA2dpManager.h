@@ -221,6 +221,17 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+OnUpdateSdpRecords
+(
+const
+nsAString
+&
+aDeviceAddress
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 GetAddress
 (
 nsAString
