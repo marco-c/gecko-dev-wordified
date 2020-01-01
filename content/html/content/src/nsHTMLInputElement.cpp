@@ -2737,6 +2737,7 @@ mInput
 SetFiles
 (
 newFiles
+true
 )
 ;
 nsContentUtils
@@ -6215,6 +6216,7 @@ else
 {
 ClearFiles
 (
+true
 )
 ;
 }
@@ -6731,6 +6733,7 @@ exist
 SetFiles
 (
 files
+true
 )
 ;
 return
@@ -7378,6 +7381,8 @@ nsIDOMFile
 >
 &
 aFiles
+bool
+aSetValueChanged
 )
 {
 mFiles
@@ -7481,11 +7486,17 @@ UpdateFileList
 (
 )
 ;
+if
+(
+aSetValueChanged
+)
+{
 SetValueChanged
 (
 PR_TRUE
 )
 ;
+}
 UpdateAllValidityStates
 (
 PR_TRUE
@@ -15038,6 +15049,7 @@ compat
 .
 ClearFiles
 (
+false
 )
 ;
 }
@@ -16536,6 +16548,7 @@ VALUE_MODE_FILENAME
 :
 ClearFiles
 (
+false
 )
 ;
 return
@@ -18350,6 +18363,7 @@ GetFiles
 SetFiles
 (
 files
+true
 )
 ;
 break
