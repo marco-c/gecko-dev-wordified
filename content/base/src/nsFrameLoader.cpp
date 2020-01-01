@@ -3177,6 +3177,11 @@ aDocShell
 =
 nsnull
 ;
+nsresult
+rv
+=
+NS_OK
+;
 /
 /
 If
@@ -3258,7 +3263,7 @@ frames
 )
 ;
 return
-NS_ERROR_NOT_AVAILABLE
+rv
 ;
 }
 NS_ASSERTION
@@ -3286,7 +3291,7 @@ aDocShell
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 void
