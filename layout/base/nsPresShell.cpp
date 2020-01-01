@@ -41539,12 +41539,7 @@ userInpStatePusher
 (
 isHandlingUserInput
 aEvent
--
->
-message
-=
-=
-NS_MOUSE_BUTTON_DOWN
+mDocument
 )
 ;
 if
