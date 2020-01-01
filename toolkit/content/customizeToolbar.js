@@ -982,7 +982,7 @@ elts
 i
 ]
 .
-addEventListener
+removeEventListener
 (
 "
 dragstart
@@ -996,7 +996,7 @@ elts
 i
 ]
 .
-addEventListener
+removeEventListener
 (
 "
 dragover
@@ -1010,7 +1010,7 @@ elts
 i
 ]
 .
-addEventListener
+removeEventListener
 (
 "
 dragleave
@@ -1024,7 +1024,7 @@ elts
 i
 ]
 .
-addEventListener
+removeEventListener
 (
 "
 drop
@@ -1607,6 +1607,9 @@ getElementsByTagName
 toolbarpaletteitem
 "
 )
+;
+let
+paletteItem
 ;
 while
 (
