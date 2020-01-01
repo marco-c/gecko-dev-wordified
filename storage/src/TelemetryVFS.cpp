@@ -208,15 +208,6 @@ IOInterposer
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SQLiteInterposer
-.
-h
-"
 /
 *
 *
