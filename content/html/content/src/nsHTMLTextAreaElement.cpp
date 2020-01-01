@@ -333,7 +333,7 @@ h
 #
 include
 "
-nsLayoutErrors
+nsError
 .
 h
 "
@@ -341,13 +341,6 @@ h
 include
 "
 nsStubMutationObserver
-.
-h
-"
-#
-include
-"
-nsDOMError
 .
 h
 "

@@ -187,7 +187,7 @@ h
 #
 include
 "
-nsContentErrors
+nsError
 .
 h
 "
@@ -216,13 +216,6 @@ h
 include
 "
 nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
-nsNetError
 .
 h
 "
@@ -286,13 +279,6 @@ h
 include
 "
 WorkerPrivate
-.
-h
-"
-#
-include
-"
-nsDOMError
 .
 h
 "

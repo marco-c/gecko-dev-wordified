@@ -106,9 +106,13 @@ nsError
 .
 h
 "
-class
-nsAString
-;
+#
+include
+"
+nsStringGlue
+.
+h
+"
 /
 /
 -

@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "

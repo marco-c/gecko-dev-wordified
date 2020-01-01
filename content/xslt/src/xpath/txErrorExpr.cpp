@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-txError
+nsError
 .
 h
 "

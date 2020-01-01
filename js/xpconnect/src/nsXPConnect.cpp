@@ -16048,6 +16048,7 @@ NS_OK
 }
 ;
 static
+const
 CCParticipantVTable
 <
 JSCompartmentParticipant

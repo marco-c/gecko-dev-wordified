@@ -347,7 +347,7 @@ h
 #
 include
 "
-nsContentErrors
+nsError
 .
 h
 "
@@ -399,13 +399,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsDOMError
 .
 h
 "

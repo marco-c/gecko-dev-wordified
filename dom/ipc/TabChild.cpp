@@ -4588,6 +4588,8 @@ aButton
 aClickCount
 aModifiers
 aIgnoreRootScrollFrame
+0
+0
 )
 ;
 return

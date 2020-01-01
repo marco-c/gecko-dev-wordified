@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -1244,6 +1244,11 @@ NS_INTERFACE_TABLE_ENTRY
 (
 nsHTMLSharedObjectElement
 nsIImageLoadingContent
+)
+NS_INTERFACE_TABLE_ENTRY
+(
+nsHTMLSharedObjectElement
+imgIOnloadBlocker
 )
 NS_INTERFACE_TABLE_ENTRY
 (

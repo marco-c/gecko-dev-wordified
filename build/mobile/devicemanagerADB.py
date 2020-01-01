@@ -66,9 +66,9 @@ re
 import
 os
 import
-sys
-import
 tempfile
+import
+time
 class
 DeviceManagerADB
 (
@@ -457,7 +457,6 @@ verifyRoot
     
 except
 DMError
-e
 :
       
 try
@@ -3438,6 +3437,21 @@ runCmdAs
 args
 )
          
+p
+.
+communicate
+(
+)
+         
+if
+p
+.
+returncode
+=
+=
+0
+:
+             
 didKillProcess
 =
 True
@@ -4300,8 +4314,6 @@ filename
     
 data
 =
-p
-=
 self
 .
 runCmd
@@ -4346,8 +4358,6 @@ filename
 :
     
 data
-=
-p
 =
 subprocess
 .

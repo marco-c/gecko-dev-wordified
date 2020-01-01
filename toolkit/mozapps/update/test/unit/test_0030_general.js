@@ -153,7 +153,7 @@ run_test_pt1
 /
 /
 The
-nsHttpServer
+HttpServer
 must
 be
 stopped

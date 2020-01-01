@@ -102,7 +102,7 @@ __NS_SVGSTRING_H__
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "

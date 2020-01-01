@@ -4250,6 +4250,14 @@ mNumDisplayRows
 =
 1
 ;
+mDropdownCanGrow
+=
+GetNumberOfOptions
+(
+)
+>
+1
+;
 }
 else
 {

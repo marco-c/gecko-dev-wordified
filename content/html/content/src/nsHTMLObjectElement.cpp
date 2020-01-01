@@ -147,7 +147,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -1002,6 +1002,11 @@ NS_INTERFACE_TABLE_ENTRY
 (
 nsHTMLObjectElement
 nsIImageLoadingContent
+)
+NS_INTERFACE_TABLE_ENTRY
+(
+nsHTMLObjectElement
+imgIOnloadBlocker
 )
 NS_INTERFACE_TABLE_ENTRY
 (
