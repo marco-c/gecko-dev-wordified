@@ -683,6 +683,9 @@ desktop
 -
 notification
 '
+'
+geolocation
+'
 ]
 ;
 urls
