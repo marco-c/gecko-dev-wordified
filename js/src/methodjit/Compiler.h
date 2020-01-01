@@ -1498,7 +1498,7 @@ mic
 ;
 #
 endif
-void
+bool
 constructThis
 (
 )
@@ -1660,7 +1660,7 @@ uint32
 index
 )
 ;
-void
+bool
 jsop_nameinc
 (
 JSOp
@@ -1671,7 +1671,7 @@ uint32
 index
 )
 ;
-void
+bool
 jsop_propinc
 (
 JSOp
@@ -1738,7 +1738,7 @@ jsop_unbrand
 (
 )
 ;
-void
+bool
 jsop_getprop
 (
 JSAtom
@@ -1750,12 +1750,12 @@ typeCheck
 true
 )
 ;
-void
+bool
 jsop_length
 (
 )
 ;
-void
+bool
 jsop_setprop
 (
 JSAtom
@@ -1811,7 +1811,7 @@ JSAtom
 atom
 )
 ;
-void
+bool
 jsop_instanceof
 (
 )
@@ -1824,7 +1824,7 @@ JSAtom
 atom
 )
 ;
-void
+bool
 jsop_xname
 (
 JSAtom
@@ -2277,12 +2277,12 @@ jsop_setelem
 (
 )
 ;
-void
+bool
 jsop_getelem
 (
 )
 ;
-void
+bool
 jsop_getelem_known_type
 (
 FrameEntry
@@ -2295,7 +2295,7 @@ RegisterID
 tmpReg
 )
 ;
-void
+bool
 jsop_getelem_with_pic
 (
 FrameEntry
@@ -2321,7 +2321,7 @@ RegisterID
 tmpReg
 )
 ;
-void
+bool
 jsop_getelem_pic
 (
 FrameEntry
