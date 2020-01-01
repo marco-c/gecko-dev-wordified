@@ -18402,9 +18402,10 @@ default
 :
 NS_ABORT_IF_FALSE
 (
+!
 type
 .
-IsPointer
+IsArithmetic
 (
 )
 "
