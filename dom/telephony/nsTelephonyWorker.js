@@ -597,7 +597,7 @@ interfaces
 [
 Ci
 .
-nsITelephonyWorker
+nsIRadioWorker
 Ci
 .
 nsITelephone
@@ -613,7 +613,7 @@ generateQI
 [
 Ci
 .
-nsITelephonyWorker
+nsIRadioWorker
 Ci
 .
 nsITelephone
@@ -996,7 +996,7 @@ value
 }
 /
 /
-nsITelephonyWorker
+nsIRadioWorker
 worker
 :
 null
