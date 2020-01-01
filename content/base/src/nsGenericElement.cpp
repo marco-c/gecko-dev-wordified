@@ -6166,11 +6166,15 @@ nsIPresShell
 SetCapturingContent
 (
 mContent
+CAPTURE_PREVENTDRAG
+|
+(
 aRetargetToElement
 ?
 CAPTURE_RETARGETTOELEMENT
 :
 0
+)
 )
 ;
 return
