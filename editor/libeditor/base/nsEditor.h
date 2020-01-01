@@ -3499,14 +3499,6 @@ node
 bool
 IsMozEditorBogusNode
 (
-nsIDOMNode
-*
-aNode
-)
-;
-bool
-IsMozEditorBogusNode
-(
 nsIContent
 *
 aNode
