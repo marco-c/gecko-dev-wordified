@@ -1567,7 +1567,6 @@ sync
 function
 Engine_sync
 (
-onComplete
 )
 {
 if
@@ -1589,7 +1588,7 @@ method
 ;
 this
 .
-_notifyAsync
+_notify
 (
 "
 sync
@@ -1601,11 +1600,7 @@ this
 .
 _sync
 )
-.
-async
 (
-this
-onComplete
 )
 ;
 }
@@ -4128,11 +4123,6 @@ SyncEngine__sync
 (
 )
 {
-let
-self
-=
-yield
-;
 try
 {
 this
