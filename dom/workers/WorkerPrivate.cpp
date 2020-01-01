@@ -857,7 +857,7 @@ xpconnect
 memory
 :
 :
-ReportJSRuntimeStats
+ReportJSRuntimeExplicitTreeStats
 ;
 USING_WORKERS_NAMESPACE
 namespace
@@ -1590,7 +1590,7 @@ about
 :
 memory
 .
-ReportJSRuntimeStats
+ReportJSRuntimeExplicitTreeStats
 (
 rtStats
 mPathPrefix
