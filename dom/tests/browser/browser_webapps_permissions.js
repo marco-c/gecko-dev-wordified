@@ -289,7 +289,7 @@ read
 "
 :
 "
-prompt
+deny
 "
 "
 device
