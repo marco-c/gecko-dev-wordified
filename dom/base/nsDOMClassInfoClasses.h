@@ -1985,6 +1985,10 @@ DOMCI_CLASS
 (
 WebGLUniformLocation
 )
+DOMCI_CLASS
+(
+WebGLActiveInfo
+)
 /
 /
 WebGL
