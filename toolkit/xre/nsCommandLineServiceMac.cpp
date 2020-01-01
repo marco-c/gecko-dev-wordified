@@ -1079,6 +1079,8 @@ char
 *
 &
 argv
+PRBool
+forRestart
 )
 {
 /
@@ -1185,6 +1187,11 @@ argc
 argv
 )
 ;
+if
+(
+forRestart
+)
+{
 Boolean
 isForeground
 =
@@ -1234,17 +1241,6 @@ argument
 to
 the
 child
-.
-Adding
-this
-argument
-is
-harmless
-/
-/
-if
-not
-relaunching
 .
 if
 (
@@ -1321,6 +1317,7 @@ foreground
 "
 )
 ;
+}
 }
 argc
 =
@@ -2347,6 +2344,8 @@ char
 *
 &
 argv
+PRBool
+forRestart
 )
 {
 nsMacCommandLine
@@ -2367,6 +2366,7 @@ SetupCommandLine
 (
 argc
 argv
+forRestart
 )
 ;
 }
