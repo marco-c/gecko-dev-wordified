@@ -2398,7 +2398,7 @@ arguments
 }
 ;
 }
-_prefs
+__prefs
 :
 null
 get
