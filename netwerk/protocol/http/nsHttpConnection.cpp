@@ -824,6 +824,10 @@ mTotalBytesRead
 (
 0
 )
+mTotalBytesWritten
+(
+0
+)
 mKeepAlive
 (
 true
@@ -8085,6 +8089,7 @@ mSocketOutCondition
 NS_BASE_STREAM_CLOSED
 ;
 else
+{
 mSocketOutCondition
 =
 NS_OK
@@ -8093,6 +8098,18 @@ NS_OK
 /
 reset
 condition
+if
+(
+!
+mProxyConnectInProgress
+)
+mTotalBytesWritten
++
+=
+*
+countRead
+;
+}
 return
 mSocketOutCondition
 ;
