@@ -467,16 +467,7 @@ include
 <
 gtk
 /
-gtkcontainer
-.
-h
->
-#
-include
-<
 gtk
-/
-gtkmain
 .
 h
 >

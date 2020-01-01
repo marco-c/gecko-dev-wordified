@@ -444,7 +444,7 @@ include
 <
 gtk
 /
-gtkwidget
+gtk
 .
 h
 >
