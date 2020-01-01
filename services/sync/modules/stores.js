@@ -722,7 +722,6 @@ Store_createRecord
 (
 id
 collection
-id
 )
 {
 throw
