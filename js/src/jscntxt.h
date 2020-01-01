@@ -10593,6 +10593,7 @@ AutoLocalNameArray
 JSContext
 *
 cx
+const
 JSFunction
 *
 fun
