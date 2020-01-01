@@ -2830,9 +2830,7 @@ gre
 /
 modules
 /
-wintaskbar
-/
-jumpLists
+WindowsJumpLists
 .
 jsm
 "
