@@ -567,13 +567,15 @@ future_schema_errors
 "
 )
 ;
+yield
 backend
 .
 _connection
 .
-schemaVersion
-=
+setSchemaVersion
+(
 2
+)
 ;
 yield
 backend
