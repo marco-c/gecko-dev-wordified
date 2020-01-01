@@ -3530,6 +3530,14 @@ referrer
 trans
 )
 {
+if
+(
+this
+.
+ignoreAll
+)
+return
+;
 this
 .
 _log
