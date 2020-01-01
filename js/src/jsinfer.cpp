@@ -4680,6 +4680,12 @@ case
 TYPE_UNDEFINED
 :
 case
+TYPE_BOOLEAN
+:
+case
+TYPE_NULL
+:
+case
 TYPE_INT32
 :
 case
@@ -4704,8 +4710,10 @@ property
 We
 are
 optimistically
-treat
-undefined
+treating
+non
+-
+number
 accesses
 as
 not
@@ -4721,9 +4729,8 @@ an
 integer
 property
 .
-These
-need
-to
+This
+must
 be
 checked
 *
