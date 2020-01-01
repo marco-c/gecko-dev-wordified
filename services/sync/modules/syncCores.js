@@ -2163,11 +2163,11 @@ elt
 ;
 listB
 =
-listB
+guidChanges
 .
 concat
 (
-guidChanges
+listB
 )
 ;
 for
