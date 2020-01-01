@@ -98,13 +98,6 @@ file
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StandardInteger
