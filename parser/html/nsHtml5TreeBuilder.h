@@ -1531,6 +1531,11 @@ isInForeign
 (
 )
 ;
+PRBool
+isInForeignButNotHtmlIntegrationPoint
+(
+)
+;
 public
 :
 void
