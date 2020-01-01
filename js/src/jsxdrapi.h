@@ -1307,10 +1307,9 @@ Bytecode
 version
 number
 .
-Decrement
+Increment
 the
-second
-term
+subtrahend
 whenever
 JS
 bytecode
@@ -1382,7 +1381,7 @@ JSXDR_BYTECODE_VERSION
 (
 0xb973c0de
 -
-23
+24
 )
 /
 *
