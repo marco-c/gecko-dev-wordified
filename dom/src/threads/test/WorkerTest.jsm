@@ -501,6 +501,9 @@ postMessage
 message
 )
 ;
+return
+worker
+;
 }
 }
 ;
