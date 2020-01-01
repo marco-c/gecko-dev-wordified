@@ -9881,6 +9881,12 @@ _setCluster
 )
 )
 {
+Status
+.
+sync
+=
+NO_SYNC_NODE_FOUND
+;
 this
 .
 _scheduleNextSync
