@@ -4117,6 +4117,8 @@ TimeStamp
 :
 Now
 (
+bool
+aHighResolution
 )
 {
 /
@@ -4127,7 +4129,12 @@ volatile
 bool
 useQPC
 =
+(
+aHighResolution
+&
+&
 sUseQPC
+)
 ;
 /
 /
