@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -514,6 +514,11 @@ implementation
 Layer
 *
 GetLayer
+(
+)
+;
+void
+Destroy
 (
 )
 ;

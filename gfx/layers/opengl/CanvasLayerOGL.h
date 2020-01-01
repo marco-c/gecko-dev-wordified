@@ -498,7 +498,12 @@ this
 CanvasLayerOGL
 (
 )
+{
+Destroy
+(
+)
 ;
+}
 /
 /
 CanvasLayer
@@ -527,6 +532,12 @@ aRect
 /
 LayerOGL
 implementation
+virtual
+void
+Destroy
+(
+)
+;
 virtual
 Layer
 *

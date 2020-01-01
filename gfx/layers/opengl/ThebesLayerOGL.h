@@ -536,6 +536,11 @@ LayerOGL
 implementation
 *
 /
+void
+Destroy
+(
+)
+;
 Layer
 *
 GetLayer
