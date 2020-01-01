@@ -1364,10 +1364,8 @@ isInline
 uri
 )
 {
-nsCOMPtr
-<
 nsIURI
->
+*
 oldURI
 =
 mStyleSheet

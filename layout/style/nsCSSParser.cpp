@@ -5407,10 +5407,8 @@ mSheet
 #
 ifdef
 DEBUG
-nsCOMPtr
-<
 nsIURI
->
+*
 uri
 =
 mSheet

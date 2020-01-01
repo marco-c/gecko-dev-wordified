@@ -6554,10 +6554,8 @@ Principal
 )
 ;
 }
-nsCOMPtr
-<
 nsIDocument
->
+*
 document
 =
 sheet
