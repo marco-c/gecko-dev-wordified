@@ -2599,9 +2599,6 @@ isHash
 hash
 -
 >
-KidsHash
-:
-:
 ~
 KidsHash
 (
@@ -4362,9 +4359,6 @@ NULL
 hash
 -
 >
-KidsHash
-:
-:
 ~
 KidsHash
 (
