@@ -1042,6 +1042,17 @@ node
 *
 c
 )
+body
+element
+if
+it
+is
+HTML
+document
+node
+*
+d
+)
 document
 element
 if
