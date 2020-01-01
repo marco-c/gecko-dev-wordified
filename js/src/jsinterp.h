@@ -1598,6 +1598,9 @@ inline
 void
 resetInvokeCallFrame
 (
+JSContext
+*
+cx
 )
 ;
 /
