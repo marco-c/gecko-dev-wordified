@@ -1471,9 +1471,9 @@ response
 headers
 [
 "
-X
+x
 -
-Timestamp
+timestamp
 "
 ]
 10
@@ -2629,7 +2629,7 @@ backoff
 0
 ;
 let
-successfulStatusCodes
+statusCodesWithoutBackoff
 =
 [
 200
