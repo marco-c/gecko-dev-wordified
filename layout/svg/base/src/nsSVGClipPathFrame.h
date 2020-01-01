@@ -501,8 +501,9 @@ aContext
 nsIFrame
 *
 aParent
-nsIDOMSVGMatrix
-*
+const
+gfxMatrix
+&
 aMatrix
 )
 ;
@@ -512,8 +513,9 @@ ClipHitTest
 nsIFrame
 *
 aParent
-nsIDOMSVGMatrix
-*
+const
+gfxMatrix
+&
 aMatrix
 const
 nsPoint

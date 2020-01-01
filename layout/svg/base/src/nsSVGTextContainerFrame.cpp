@@ -443,13 +443,6 @@ h
 #
 include
 "
-nsSVGMatrix
-.
-h
-"
-#
-include
-"
 nsSVGOuterSVGFrame
 .
 h
