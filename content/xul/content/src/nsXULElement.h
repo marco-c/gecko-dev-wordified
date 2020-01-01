@@ -565,9 +565,6 @@ document
 /
 class
 nsXULPrototypeNode
-:
-public
-nsISupports
 {
 public
 :
@@ -583,7 +580,6 @@ eType_PI
 Type
 mType
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 virtual
 ~
 nsXULPrototypeNode
@@ -734,7 +730,11 @@ ReleaseSubtree
 )
 {
 }
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
+(
+nsXULPrototypeNode
+)
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 nsXULPrototypeNode
 )

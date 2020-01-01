@@ -769,7 +769,7 @@ nsTimeout
 (
 )
 ;
-NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
+NS_DECL_CYCLE_COLLECTION_LEGACY_NATIVE_CLASS
 (
 nsTimeout
 )
@@ -6382,7 +6382,7 @@ mBrowserDOMWindow
 ;
 nsCOMPtr
 <
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 >
 mMessageManager
 ;

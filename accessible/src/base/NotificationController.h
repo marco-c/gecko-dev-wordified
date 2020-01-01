@@ -898,7 +898,7 @@ eRefreshProcessingForUpdate
 endif
 protected
 :
-nsAutoRefCnt
+nsCycleCollectingAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
@@ -1366,7 +1366,7 @@ mDocument
 nullptr
 ;
 }
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 ContentInsertion
 )

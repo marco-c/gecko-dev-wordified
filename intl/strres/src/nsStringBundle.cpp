@@ -2731,7 +2731,7 @@ me
 *
 aResult
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -3949,15 +3949,10 @@ nsIStringBundle
 aResult
 )
 {
-if
+NS_ENSURE_ARG_POINTER
 (
 aResult
-=
-=
-NULL
 )
-return
-NS_ERROR_NULL_POINTER
 ;
 nsresult
 res

@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsIIPCSerializableObsolete
+nsIIPCSerializableInputStream
 .
 h
 "
@@ -492,7 +492,7 @@ nsIBufferedInputStream
 public
 nsIStreamBufferAccess
 public
-nsIIPCSerializableObsolete
+nsIIPCSerializableInputStream
 {
 public
 :
@@ -500,7 +500,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIBUFFEREDINPUTSTREAM
 NS_DECL_NSISTREAMBUFFERACCESS
-NS_DECL_NSIIPCSERIALIZABLEOBSOLETE
+NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 nsBufferedInputStream
 (
 )

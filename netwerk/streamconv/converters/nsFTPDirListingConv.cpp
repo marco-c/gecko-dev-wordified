@@ -1641,12 +1641,6 @@ false
 list_state
 state
 ;
-state
-.
-magic
-=
-0
-;
 /
 /
 while

@@ -2433,6 +2433,9 @@ OnMsgUpdateParam
 void
 *
 )
+(
+uintptr_t
+)
 param
 )
 ;
@@ -6310,10 +6313,6 @@ NS_ABORT_IF_FALSE
 count
 =
 =
-(
-(
-int32_t
-)
 ent
 -
 >
@@ -6321,7 +6320,6 @@ mPendingQ
 .
 Length
 (
-)
 )
 "
 something

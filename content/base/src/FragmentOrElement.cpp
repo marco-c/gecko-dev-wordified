@@ -2622,7 +2622,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 NodeList
@@ -10819,10 +10819,6 @@ mRefCnt
 .
 get
 (
-)
-sizeof
-(
-FragmentOrElement
 )
 name
 )

@@ -679,7 +679,7 @@ true
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 IonBuilder
 :
@@ -691,14 +691,14 @@ getInlineReturnTypeSet
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 barrier
 ;
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 returnTypes
 =
@@ -733,7 +733,7 @@ getInlineReturnType
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 returnTypes
 =
@@ -749,7 +749,6 @@ returnTypes
 >
 getKnownTypeTag
 (
-cx
 )
 )
 ;
@@ -757,7 +756,7 @@ cx
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 IonBuilder
 :
@@ -773,7 +772,7 @@ arg
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 argTypes
 =
@@ -812,7 +811,7 @@ arg
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 argTypes
 =
@@ -830,7 +829,6 @@ argTypes
 >
 getKnownTypeTag
 (
-cx
 )
 )
 ;
@@ -1542,7 +1540,7 @@ OBJECT_FLAG_ITERATED
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 thisTypes
 =
@@ -1599,7 +1597,7 @@ InliningStatus_Error
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 returnTypes
 =
@@ -1776,7 +1774,7 @@ set
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 thisTypes
 =

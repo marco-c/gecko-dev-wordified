@@ -2360,9 +2360,12 @@ nsPurpleBufferEntry
 )
 NS_CycleCollectorSuspect2
 (
-nsISupports
+void
 *
 obj
+nsCycleCollectionParticipant
+*
+p
 )
 {
 if
@@ -2381,6 +2384,7 @@ xpcomFunctions
 cycleSuspect2Func
 (
 obj
+p
 )
 ;
 }

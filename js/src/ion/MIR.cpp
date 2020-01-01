@@ -2045,7 +2045,7 @@ index
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 types
 )
@@ -5503,7 +5503,6 @@ lhsTypes
 >
 getKnownTypeTag
 (
-cx
 )
 )
 ;
@@ -5530,7 +5529,6 @@ lhsTypes
 >
 knownNonStringPrimitive
 (
-cx
 )
 ;
 bool
@@ -5567,7 +5565,6 @@ rhsTypes
 >
 getKnownTypeTag
 (
-cx
 )
 )
 ;
@@ -5580,7 +5577,6 @@ rhsTypes
 >
 knownNonStringPrimitive
 (
-cx
 )
 ;
 }
@@ -5596,7 +5592,6 @@ outTypes
 >
 getKnownTypeTag
 (
-cx
 )
 )
 ;
@@ -5825,7 +5820,7 @@ cx
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 types
 )
@@ -5921,26 +5916,9 @@ converts
 =
 flags
 )
-{
-types
--
->
-addFreeze
-(
-cx
-)
-;
-/
-/
-Keeps
-callsite
-logic
-simple
-.
 return
 true
 ;
-}
 return
 false
 ;
@@ -5990,7 +5968,6 @@ lhsTypes
 >
 getKnownTypeTag
 (
-cx
 )
 )
 ;
@@ -6006,7 +5983,6 @@ rhsTypes
 >
 getKnownTypeTag
 (
-cx
 )
 )
 ;

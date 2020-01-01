@@ -302,10 +302,6 @@ cb
 DescribeRefCountedNode
 (
 refcnt
-sizeof
-(
-nsXPCWrappedJS
-)
 name
 )
 ;

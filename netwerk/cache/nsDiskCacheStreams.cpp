@@ -782,13 +782,6 @@ result
 0
 )
 {
-PRErrorCode
-error
-=
-PR_GetError
-(
-)
-;
 nsresult
 rv
 =
@@ -831,7 +824,9 @@ rv
 )
 PR_ErrorToName
 (
-error
+PR_GetError
+(
+)
 )
 )
 )

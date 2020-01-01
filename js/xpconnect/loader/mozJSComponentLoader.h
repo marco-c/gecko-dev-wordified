@@ -520,12 +520,8 @@ sSelf
 mContext
 )
 ;
-JSAutoEnterCompartment
+JSAutoCompartment
 ac
-;
-ac
-.
-enterAndIgnoreErrors
 (
 sSelf
 -
@@ -534,7 +530,7 @@ mContext
 global
 )
 ;
-JS_ClearScope
+JS_SetAllNonReservedSlotsToUndefined
 (
 sSelf
 -

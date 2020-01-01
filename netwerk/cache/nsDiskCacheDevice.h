@@ -393,6 +393,10 @@ friend
 class
 nsEvictDiskCacheEntriesEvent
 ;
+friend
+class
+nsDiskCacheMap
+;
 /
 *
 *

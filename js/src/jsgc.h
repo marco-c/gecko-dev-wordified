@@ -300,6 +300,7 @@ NO_INCREMENTAL
 MARK_ROOTS
 MARK
 SWEEP
+SWEEP_END
 INVALID
 }
 ;
@@ -3765,7 +3766,7 @@ startBackgroundShrink
 Must
 be
 called
-with
+without
 the
 GC
 lock
@@ -3783,7 +3784,7 @@ waitBackgroundSweepEnd
 Must
 be
 called
-with
+without
 the
 GC
 lock
@@ -6373,6 +6374,12 @@ int
 ZealFrameVerifierPostValue
 =
 12
+;
+const
+int
+ZealPurgeAnalysisValue
+=
+13
 ;
 enum
 VerifierType

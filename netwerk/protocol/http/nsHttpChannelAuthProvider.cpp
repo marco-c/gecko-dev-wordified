@@ -728,7 +728,7 @@ configured
 otherwise
 we
 could
-inadvertantly
+inadvertently
 expose
 the
 user

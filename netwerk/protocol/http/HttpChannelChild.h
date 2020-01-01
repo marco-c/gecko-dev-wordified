@@ -638,7 +638,7 @@ uint32_t
 &
 newChannel
 const
-URI
+URIParams
 &
 newURI
 const
@@ -919,7 +919,7 @@ uint32_t
 &
 newChannelId
 const
-URI
+URIParams
 &
 newUri
 const

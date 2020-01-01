@@ -225,7 +225,13 @@ GetJSVal
 JSContext
 *
 aCx
-JSAutoEnterCompartment
+mozilla
+:
+:
+Maybe
+<
+JSAutoCompartment
+>
 &
 aAc
 jsval
