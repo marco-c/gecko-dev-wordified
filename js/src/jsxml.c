@@ -47410,12 +47410,10 @@ NULL
 ;
 chars
 =
+JSFLATSTR_CHARS
+(
 str
--
->
-u
-.
-chars
+)
 ;
 }
 else
@@ -47514,7 +47512,7 @@ chars
 return
 NULL
 ;
-JSSTRING_INIT
+JSFLATSTR_INIT
 (
 str
 chars

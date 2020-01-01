@@ -783,12 +783,9 @@ overwritten
 *
 /
 extern
-JS_FRIEND_API
-(
 const
 char
 *
-)
 js_AtomToPrintableString
 (
 JSContext
@@ -2752,11 +2749,8 @@ flags
 )
 ;
 extern
-JS_FRIEND_API
-(
 JSAtom
 *
-)
 js_Atomize
 (
 JSContext
@@ -2773,11 +2767,8 @@ flags
 )
 ;
 extern
-JS_FRIEND_API
-(
 JSAtom
 *
-)
 js_AtomizeChars
 (
 JSContext
@@ -2993,10 +2984,7 @@ memory
 *
 /
 extern
-JS_FRIEND_API
-(
 void
-)
 js_InitAtomMap
 (
 JSContext
