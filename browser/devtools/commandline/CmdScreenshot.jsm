@@ -298,7 +298,7 @@ screenshotFullPageManual
 name
 :
 "
-node
+selector
 "
 type
 :
@@ -430,7 +430,7 @@ args
 fullpage
 args
 .
-node
+selector
 )
 ;
 }
