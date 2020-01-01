@@ -1330,7 +1330,7 @@ upgradeButton
 "
 :
 "
-applyButton
+updateButton
 "
 )
 )
@@ -3891,7 +3891,7 @@ upgradeButton
 "
 :
 "
-applyButton
+updateButton
 "
 )
 )
