@@ -485,6 +485,10 @@ h
 "
 #
 endif
+#
+define
+MOZ_DUMP_PAINTING
+1
 using
 namespace
 mozilla
