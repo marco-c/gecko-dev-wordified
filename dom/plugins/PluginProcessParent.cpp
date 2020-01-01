@@ -547,16 +547,7 @@ mPluginFilePath
 )
 ;
 return
-mozilla
-:
-:
-ipc
-:
-:
-GeckoChildProcessHost
-:
-:
-Launch
+SyncLaunch
 (
 args
 )
