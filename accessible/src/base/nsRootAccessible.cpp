@@ -3319,9 +3319,9 @@ if
 mCurrentARIAMenubar
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessibleEvent
+nsAccEvent
 >
 menuEndEvent
 =
