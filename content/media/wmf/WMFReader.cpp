@@ -373,6 +373,10 @@ mCanSeek
 (
 false
 )
+mUseHwAccel
+(
+false
+)
 mIsMP3Enabled
 (
 WMFDecoder
@@ -381,10 +385,6 @@ WMFDecoder
 IsMP3Supported
 (
 )
-)
-mUseHwAccel
-(
-false
 )
 {
 NS_ASSERTION
@@ -4748,11 +4748,6 @@ nullptr
 ;
 HRESULT
 hr
-;
-ImageFormat
-format
-=
-D3D9_RGB32_TEXTURE
 ;
 nsRefPtr
 <
