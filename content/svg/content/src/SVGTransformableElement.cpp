@@ -1286,7 +1286,7 @@ this
 false
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 SVGMatrix
 >
@@ -1373,7 +1373,7 @@ this
 true
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 SVGMatrix
 >
@@ -1435,7 +1435,7 @@ rounding
 error
 )
 :
-nsCOMPtr
+nsRefPtr
 <
 SVGMatrix
 >
@@ -1445,7 +1445,7 @@ GetScreenCTM
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 SVGMatrix
 >
@@ -1478,7 +1478,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 SVGMatrix
 >
@@ -1503,7 +1503,7 @@ Failed
 return
 nullptr
 ;
-nsCOMPtr
+nsRefPtr
 <
 SVGMatrix
 >
