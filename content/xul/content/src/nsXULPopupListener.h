@@ -837,6 +837,9 @@ nsIDOMEvent
 aMouseEvent
 )
 ;
+#
+ifndef
+NS_CONTEXT_MENU_IS_MOUSEUP
 /
 /
 When
@@ -861,6 +864,8 @@ nsIDOMNode
 aTargetNode
 )
 ;
+#
+endif
 /
 /
 |
