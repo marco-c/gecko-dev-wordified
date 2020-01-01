@@ -4711,7 +4711,7 @@ isNative
 ;
 clone
 =
-NewObjectWithClassProto
+NewObjectWithGivenProto
 (
 cx
 srcObj
@@ -4733,6 +4733,7 @@ srcObj
 tenuredGetAllocKind
 (
 )
+SingletonObject
 )
 ;
 }
