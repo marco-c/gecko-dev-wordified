@@ -6470,7 +6470,7 @@ rootTransform
 root
 -
 >
-GetTransform
+GetBaseTransform
 (
 )
 *
@@ -6501,7 +6501,7 @@ mYScale
 root
 -
 >
-SetTransform
+SetBaseTransform
 (
 rootTransform
 )
@@ -10739,7 +10739,7 @@ height
 aLayer
 -
 >
-SetTransform
+SetBaseTransform
 (
 gfx3DMatrix
 :
