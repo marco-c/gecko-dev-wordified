@@ -1376,34 +1376,8 @@ testfile
 )
 )
     
-#
-Disable
-this
-temporarily
-on
-Windows
-(
-will
-be
-re
--
-enabled
-by
-bug
-680636
-)
-    
 if
 RUN_NON_ASCII_TESTS
-and
-sys
-.
-platform
-!
-=
-"
-win32
-"
 :
         
 def
@@ -1522,10 +1496,6 @@ isfile
 destfile
 )
 )
-    
-if
-RUN_NON_ASCII_TESTS
-:
         
 def
 test_nsinstall_non_ascii_subprocess
