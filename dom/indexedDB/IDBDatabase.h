@@ -723,11 +723,6 @@ forget
 )
 ;
 }
-bool
-IsQuotaDisabled
-(
-)
-;
 nsCString
 &
 Origin

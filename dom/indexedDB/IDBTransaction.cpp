@@ -4521,9 +4521,14 @@ mConnection
 IndexedDatabaseManager
 :
 :
-SetCurrentDatabase
+SetCurrentWindow
 (
 database
+-
+>
+Owner
+(
+)
 )
 ;
 if
@@ -4698,7 +4703,7 @@ nsnull
 IndexedDatabaseManager
 :
 :
-SetCurrentDatabase
+SetCurrentWindow
 (
 nsnull
 )

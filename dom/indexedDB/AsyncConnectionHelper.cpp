@@ -1582,9 +1582,14 @@ mDatabase
 IndexedDatabaseManager
 :
 :
-SetCurrentDatabase
+SetCurrentWindow
 (
 mDatabase
+-
+>
+Owner
+(
+)
 )
 ;
 /
@@ -1643,7 +1648,7 @@ mDatabase
 IndexedDatabaseManager
 :
 :
-SetCurrentDatabase
+SetCurrentWindow
 (
 nsnull
 )
