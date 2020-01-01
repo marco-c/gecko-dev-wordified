@@ -232,6 +232,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -241,6 +242,7 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -255,6 +257,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -263,6 +266,7 @@ NS_IMETHOD
 LinkAdded
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -272,6 +276,7 @@ NS_IMETHOD
 LinkRemoved
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -296,6 +301,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -310,6 +316,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -323,6 +330,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -338,6 +346,7 @@ aWithMouse
 =
 false
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -349,6 +358,7 @@ nsIURI
 aURI
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -358,6 +368,7 @@ nsAString
 &
 aTarget
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsLinkState
@@ -365,6 +376,7 @@ GetLinkState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -375,6 +387,7 @@ GetHrefURI
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -382,6 +395,7 @@ IntrinsicState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -429,6 +443,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -442,6 +457,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -489,6 +505,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

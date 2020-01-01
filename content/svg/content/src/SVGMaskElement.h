@@ -277,6 +277,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -290,6 +291,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -302,6 +304,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -361,12 +364,14 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

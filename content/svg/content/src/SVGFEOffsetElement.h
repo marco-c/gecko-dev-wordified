@@ -233,6 +233,7 @@ nsIntRect
 &
 aDataRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -245,6 +246,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsSVGString
@@ -271,6 +273,7 @@ nsSVGStringInfo
 &
 aSources
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIntRect
@@ -288,6 +291,7 @@ nsSVGFilterInstance
 &
 aInstance
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -308,6 +312,7 @@ nsSVGFilterInstance
 &
 aInstance
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIntRect
@@ -325,6 +330,7 @@ nsSVGFilterInstance
 &
 aInstance
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -339,6 +345,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -383,12 +390,14 @@ NumberAttributesInfo
 GetNumberInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

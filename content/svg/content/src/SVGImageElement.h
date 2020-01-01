@@ -261,6 +261,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -278,6 +279,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -288,6 +290,7 @@ aDeep
 bool
 aNullParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -295,6 +298,7 @@ IntrinsicState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -308,6 +312,7 @@ nsIAtom
 name
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -322,6 +327,7 @@ gfxContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -334,6 +340,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -348,6 +355,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 CopyInnerTo
@@ -441,6 +449,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -448,12 +457,14 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

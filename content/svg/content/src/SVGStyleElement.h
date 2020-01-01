@@ -232,6 +232,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -246,6 +247,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -293,6 +295,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -306,6 +309,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -324,6 +328,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -338,6 +343,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -525,6 +531,7 @@ GetCORSMode
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *

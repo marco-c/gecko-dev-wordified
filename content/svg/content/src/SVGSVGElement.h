@@ -310,6 +310,7 @@ nsISVGPoint
 Clone
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -319,6 +320,7 @@ float
 X
 (
 )
+MOZ_OVERRIDE
 {
 return
 mPt
@@ -333,6 +335,7 @@ float
 Y
 (
 )
+MOZ_OVERRIDE
 {
 return
 mPt
@@ -352,6 +355,7 @@ ErrorResult
 &
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -363,6 +367,7 @@ ErrorResult
 &
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -375,6 +380,7 @@ SVGMatrix
 &
 matrix
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsISupports
@@ -723,6 +729,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -732,6 +739,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -762,6 +770,7 @@ aWhich
 eAllTransforms
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -769,6 +778,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1189,6 +1199,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1556,6 +1567,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1566,6 +1578,7 @@ aDeep
 bool
 aNullParent
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -2125,6 +2138,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {
@@ -2152,6 +2166,7 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {
@@ -2183,6 +2198,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -2190,6 +2206,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
+MOZ_OVERRIDE
 ;
 nsSVGViewBox
 mViewBox

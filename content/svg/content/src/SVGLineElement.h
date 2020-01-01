@@ -212,6 +212,7 @@ nsIAtom
 name
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -223,6 +224,7 @@ bool
 IsMarkable
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -239,6 +241,7 @@ nsSVGMark
 *
 aMarks
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -248,6 +251,7 @@ gfxContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -305,6 +309,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

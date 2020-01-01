@@ -207,6 +207,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -221,6 +222,7 @@ gfxContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -235,6 +237,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -278,6 +281,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

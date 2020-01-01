@@ -205,6 +205,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -310,18 +311,21 @@ NumberAttributesInfo
 GetNumberInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NumberListAttributesInfo
 GetNumberListInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {
@@ -468,6 +472,7 @@ int32_t
 GetChannel
 (
 )
+MOZ_OVERRIDE
 {
 return
 0
@@ -486,6 +491,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 JSObject
@@ -588,6 +594,7 @@ int32_t
 GetChannel
 (
 )
+MOZ_OVERRIDE
 {
 return
 1
@@ -606,6 +613,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 JSObject
@@ -708,6 +716,7 @@ int32_t
 GetChannel
 (
 )
+MOZ_OVERRIDE
 {
 return
 2
@@ -726,6 +735,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 JSObject
@@ -828,6 +838,7 @@ int32_t
 GetChannel
 (
 )
+MOZ_OVERRIDE
 {
 return
 3
@@ -846,6 +857,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 JSObject

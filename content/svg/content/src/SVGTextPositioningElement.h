@@ -219,12 +219,14 @@ LengthListAttributesInfo
 GetLengthListInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 NumberListAttributesInfo
 GetNumberListInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

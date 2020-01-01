@@ -224,6 +224,7 @@ aWhich
 eAllTransforms
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -231,6 +232,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -248,6 +250,7 @@ nsIAtom
 name
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -262,6 +265,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -305,6 +309,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

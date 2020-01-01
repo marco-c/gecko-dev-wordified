@@ -199,6 +199,7 @@ bool
 SubregionIsUnionOfRegions
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -229,6 +230,7 @@ nsIntRect
 &
 aDataRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSVGString
@@ -236,6 +238,7 @@ nsSVGString
 GetResultImageName
 (
 )
+MOZ_OVERRIDE
 {
 return
 mStringAttributes
@@ -260,6 +263,7 @@ nsSVGFilterInstance
 &
 aInstance
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -277,6 +281,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -291,6 +296,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -304,6 +310,7 @@ int32_t
 Image
 *
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -314,6 +321,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {
