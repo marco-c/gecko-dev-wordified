@@ -35790,6 +35790,11 @@ uppercase
 "
 lowercase
 "
+"
+full
+-
+width
+"
 ]
 invalid_values
 :
