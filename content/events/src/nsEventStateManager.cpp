@@ -17471,11 +17471,11 @@ nsIContent
 >
 newFocus
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 activeContent
-=
-nsnull
 ;
 PRBool
 suppressBlur
