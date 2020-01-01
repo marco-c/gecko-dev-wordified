@@ -1671,8 +1671,10 @@ FlushPendingAppendNotifications
 (
 )
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 parent
 =
 node
@@ -1761,8 +1763,10 @@ case
 eTreeOpAppendChildrenToNewParent
 :
 {
+nsCOMPtr
+<
 nsIContent
-*
+>
 node
 =
 *

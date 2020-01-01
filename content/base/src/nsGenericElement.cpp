@@ -3696,8 +3696,10 @@ node
 /
 Remove
 node
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 node
@@ -22035,8 +22037,10 @@ parent
 if
 one
 exists
+nsCOMPtr
+<
 nsINode
-*
+>
 oldParent
 =
 newContent

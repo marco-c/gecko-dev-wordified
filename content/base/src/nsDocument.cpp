@@ -30851,8 +30851,10 @@ Remove
 from
 parent
 .
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 adoptedNode

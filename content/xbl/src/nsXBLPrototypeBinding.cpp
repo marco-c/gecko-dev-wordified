@@ -6946,8 +6946,10 @@ childrenElements
 i
 ]
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 parent
 =
 child
