@@ -1618,12 +1618,6 @@ asm_farg
 LInsp
 )
 ;
-\
-void
-asm_align_code
-(
-)
-;
 #
 define
 swapptrs

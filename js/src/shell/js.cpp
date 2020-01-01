@@ -15370,16 +15370,6 @@ vp
 )
 ;
 }
-static
-void
-Callback
-(
-JSRuntime
-*
-rt
-)
-{
-}
 #
 ifdef
 JS_THREADSAFE
