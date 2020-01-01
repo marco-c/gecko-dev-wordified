@@ -1758,6 +1758,7 @@ if
 !
 doc
 )
+{
 /
 /
 No
@@ -1773,14 +1774,9 @@ Give
 up
 .
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
-/
-/
-Obtain
-a
-presentation
-context
+}
 nsIPresShell
 *
 shell
@@ -1798,7 +1794,7 @@ if
 shell
 )
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 /
 /
@@ -1852,6 +1848,7 @@ per
 our
 instructions
 .
+return
 presContext
 -
 >
@@ -1865,9 +1862,6 @@ ShiftFocus
 aForward
 content
 )
-;
-return
-NS_OK
 ;
 }
 /
