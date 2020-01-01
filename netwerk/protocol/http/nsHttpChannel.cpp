@@ -29703,6 +29703,9 @@ int16_t
 newValue
 =
 clamped
+<
+int32_t
+>
 (
 value
 INT16_MIN
