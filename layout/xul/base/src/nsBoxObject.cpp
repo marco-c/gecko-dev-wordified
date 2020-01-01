@@ -1312,7 +1312,7 @@ x
 border
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_LEFT
 )
@@ -1325,7 +1325,7 @@ y
 border
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_TOP
 )
@@ -1360,7 +1360,7 @@ x
 parentBorder
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_LEFT
 )
@@ -1373,7 +1373,7 @@ y
 parentBorder
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_TOP
 )
