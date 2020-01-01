@@ -1444,6 +1444,11 @@ enumerateAtom
 "
 fix
 "
+/
+*
+fixAtom
+*
+/
 "
 has
 "
@@ -1466,6 +1471,14 @@ enumerateOwn
 /
 *
 enumerateOwnAtom
+*
+/
+"
+iterate
+"
+/
+*
+iterateAtom
 *
 /
 }

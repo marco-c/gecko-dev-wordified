@@ -21117,10 +21117,11 @@ ida
 if
 (
 !
-EnumerateOwnProperties
+GetPropertyNames
 (
 cx
 obj
+JSITER_OWNONLY
 &
 ida
 )

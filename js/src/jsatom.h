@@ -2154,6 +2154,10 @@ JSAtom
 *
 enumerateOwnAtom
 ;
+JSAtom
+*
+iterateAtom
+;
 /
 *
 Less

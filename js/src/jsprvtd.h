@@ -730,6 +730,16 @@ id
 )
 #
 define
+INT_FITS_IN_JSID
+(
+i
+)
+INT_FITS_IN_JSVAL
+(
+i
+)
+#
+define
 JSID_IS_OBJECT
 (
 id
