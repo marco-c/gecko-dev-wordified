@@ -3642,11 +3642,7 @@ HT__init
 (
 )
 {
-this
-.
-__proto__
-.
-__proto__
+Tracker
 .
 _init
 .
