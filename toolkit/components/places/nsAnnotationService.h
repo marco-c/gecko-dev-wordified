@@ -312,17 +312,6 @@ Init
 (
 )
 ;
-static
-nsAnnotationService
-*
-GetAnnotationServiceIfAvailable
-(
-)
-{
-return
-gAnnotationService
-;
-}
 /
 *
 *
