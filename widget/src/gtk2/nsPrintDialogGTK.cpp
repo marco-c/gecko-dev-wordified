@@ -2367,6 +2367,14 @@ has
 selection
 "
 canSelectText
+"
+embed
+-
+page
+-
+setup
+"
+TRUE
 NULL
 )
 ;
