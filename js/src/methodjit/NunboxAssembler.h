@@ -1272,7 +1272,7 @@ Value
 )
 )
 ;
-loadPrivate
+loadPtr
 (
 privSlot
 to

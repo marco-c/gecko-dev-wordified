@@ -1892,10 +1892,7 @@ initSharingEmptyShape
 js_FunctionClass
 proto
 parent
-PrivateValue
-(
 fun
-)
 cx
 )
 ;

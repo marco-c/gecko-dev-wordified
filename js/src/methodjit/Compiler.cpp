@@ -23957,7 +23957,7 @@ JSSLOT_PRIVATE
 ;
 masm
 .
-loadPayload
+loadPtr
 (
 privSlot
 nireg
@@ -25443,7 +25443,7 @@ JSSLOT_PRIVATE
 ;
 masm
 .
-loadPayload
+loadPtr
 (
 privSlot
 T1
