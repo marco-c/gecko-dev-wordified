@@ -40192,7 +40192,7 @@ atStartOfLine
 =
 lineLayout
 .
-LineIsEmpty
+LineAtStart
 (
 )
 ;
