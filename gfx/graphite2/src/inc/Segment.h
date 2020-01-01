@@ -1385,10 +1385,7 @@ m_slots
 ;
 /
 /
-std
-:
-:
-vector
+Vector
 of
 slot
 buffers
@@ -1397,10 +1394,7 @@ m_userAttrs
 ;
 /
 /
-std
-:
-:
-vector
+Vector
 of
 userAttrs
 buffers

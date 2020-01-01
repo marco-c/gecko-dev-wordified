@@ -488,7 +488,7 @@ uid
 )
 const
 ;
-size_t
+uint8
 numUser
 (
 )
@@ -568,7 +568,7 @@ return
 m_bPass
 ;
 }
-size_t
+uint8
 numPasses
 (
 )
@@ -578,7 +578,7 @@ return
 m_numPasses
 ;
 }
-size_t
+uint8
 maxCompPerLig
 (
 )
@@ -588,7 +588,7 @@ return
 m_iMaxComp
 ;
 }
-size_t
+uint16
 numClasses
 (
 )
@@ -598,7 +598,7 @@ return
 m_nClass
 ;
 }
-uint8
+byte
 flags
 (
 )
@@ -608,7 +608,7 @@ return
 m_flags
 ;
 }
-size_t
+uint8
 numJustLevels
 (
 )

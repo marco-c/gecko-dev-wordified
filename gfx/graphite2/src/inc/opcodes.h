@@ -986,7 +986,7 @@ binop
 ENDOP
 STARTOP
 (
-min
+min_
 )
 const
 int32
@@ -1014,7 +1014,7 @@ a
 ENDOP
 STARTOP
 (
-max
+max_
 )
 const
 int32

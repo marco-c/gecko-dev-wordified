@@ -308,7 +308,8 @@ GlyphCache
 (
 )
 ;
-size_t
+unsigned
+short
 numGlyphs
 (
 )
@@ -317,7 +318,8 @@ throw
 (
 )
 ;
-size_t
+unsigned
+short
 numAttrs
 (
 )
@@ -326,7 +328,8 @@ throw
 (
 )
 ;
-size_t
+unsigned
+short
 unitsPerEm
 (
 )
@@ -404,7 +407,8 @@ _upem
 }
 ;
 inline
-size_t
+unsigned
+short
 GlyphCache
 :
 :
@@ -421,7 +425,8 @@ _num_glyphs
 ;
 }
 inline
-size_t
+unsigned
+short
 GlyphCache
 :
 :
@@ -438,7 +443,8 @@ _num_attrs
 ;
 }
 inline
-size_t
+unsigned
+short
 GlyphCache
 :
 :

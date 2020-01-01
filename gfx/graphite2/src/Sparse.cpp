@@ -369,7 +369,7 @@ size_t
 sparse
 :
 :
-size
+capacity
 (
 )
 const
