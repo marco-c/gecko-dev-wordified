@@ -25677,6 +25677,7 @@ js_DestroyScript
 (
 cx
 script
+3
 )
 ;
 }
@@ -26756,6 +26757,7 @@ js_DestroyScript
 (
 cx
 script
+4
 )
 ;
 return
@@ -28440,6 +28442,7 @@ js_DestroyScript
 (
 cx
 script
+5
 )
 ;
 return
