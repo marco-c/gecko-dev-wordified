@@ -6246,10 +6246,16 @@ UseDB
 (
 )
 )
+{
+mItemsCached
+=
+PR_FALSE
+;
 CacheKeysFromDB
 (
 )
 ;
+}
 IndexFinderData
 data
 (
