@@ -5476,8 +5476,6 @@ ClearForm
 (
 PRBool
 aRemoveFromForm
-PRBool
-aNotify
 )
 ;
 nsresult

@@ -891,17 +891,6 @@ Clear
 )
 )
 *
-param
-aNotify
-If
-true
-send
-nsIDocumentObserver
-notifications
-as
-needed
-.
-*
 /
 virtual
 void
@@ -909,8 +898,6 @@ ClearForm
 (
 PRBool
 aRemoveFromForm
-PRBool
-aNotify
 )
 =
 0
