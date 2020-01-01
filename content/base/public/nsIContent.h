@@ -5594,9 +5594,8 @@ const
 {
 if
 (
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 )
 {
@@ -6688,11 +6687,11 @@ be
 *
 called
 if
-the
-NODE_HAS_ID
-flag
+HasID
+(
+)
 is
-set
+true
 .
 *
 /

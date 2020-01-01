@@ -1916,9 +1916,8 @@ mHasIdAttribute
 element
 -
 >
-SetFlags
+SetHasID
 (
-NODE_HAS_ID
 )
 ;
 }
@@ -8990,9 +8989,8 @@ if
 isId
 )
 {
-UnsetFlags
+ClearHasID
 (
-NODE_HAS_ID
 )
 ;
 }
@@ -11234,9 +11232,8 @@ const
 {
 NS_ASSERTION
 (
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 "
 Unexpected
@@ -11270,7 +11267,7 @@ during
 unlink
 the
 prototype
-looses
+loses
 /
 /
 all
@@ -11318,10 +11315,10 @@ removing
 the
 attribute
 and
-clearing
-the
-NODE_HAS_ID
-flag
+calling
+ClearHasID
+(
+)
 .
 return
 attr
