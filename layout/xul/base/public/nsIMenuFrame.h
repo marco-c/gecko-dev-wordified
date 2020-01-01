@@ -463,7 +463,7 @@ nsIMenuFrame
 {
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECLARE_FRAME_ACCESSOR
 (
 nsIMenuFrame
 )
