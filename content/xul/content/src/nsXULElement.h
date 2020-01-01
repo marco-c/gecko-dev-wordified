@@ -3475,14 +3475,6 @@ nsIFrameLoader
 aFrameLoader
 )
 ;
-nsresult
-SwapFrameLoaders
-(
-nsIFrameLoaderOwner
-*
-aOtherOwner
-)
-;
 virtual
 void
 RecompileScriptEventListeners
@@ -3667,9 +3659,9 @@ nsXULSlots
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsFrameLoader
+nsIFrameLoader
 >
 mFrameLoader
 ;
