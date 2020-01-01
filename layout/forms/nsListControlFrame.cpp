@@ -14070,10 +14070,6 @@ UpdateInListState
 aMouseEvent
 )
 ;
-mButtonDown
-=
-PR_TRUE
-;
 if
 (
 mContent
@@ -14211,6 +14207,10 @@ selectedIndex
 Handle
 Like
 List
+mButtonDown
+=
+PR_TRUE
+;
 CaptureMouseEvents
 (
 PR_TRUE
