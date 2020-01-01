@@ -1356,6 +1356,7 @@ NS_ASSERTION
 (
 aEndTime
 >
+=
 aTime
 "
 Frame
@@ -1417,6 +1418,7 @@ NS_ASSERTION
 (
 aEndTime
 >
+=
 aTime
 "
 Frame
