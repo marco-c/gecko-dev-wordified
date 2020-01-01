@@ -580,6 +580,15 @@ ScaledFont
 >
 GetScaledFontForFont
 (
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
+*
+aTarget
 gfxFont
 *
 aFont

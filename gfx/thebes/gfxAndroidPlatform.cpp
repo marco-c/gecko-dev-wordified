@@ -776,6 +776,9 @@ gfxAndroidPlatform
 :
 GetScaledFontForFont
 (
+DrawTarget
+*
+aTarget
 gfxFont
 *
 aFont
