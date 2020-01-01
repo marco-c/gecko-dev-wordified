@@ -7325,6 +7325,12 @@ leafName
 )
 ;
 }
+dirEntries
+.
+close
+(
+)
+;
 var
 testDir
 =
