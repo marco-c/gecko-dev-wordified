@@ -1276,6 +1276,9 @@ None
 busybox
 =
 None
+symbols_path
+=
+None
 )
 :
         
@@ -1367,6 +1370,12 @@ self
 _test_name
 =
 None
+        
+self
+.
+symbols_path
+=
+symbols_path
         
 if
 bin
@@ -2927,6 +2936,10 @@ name
 =
 None
         
+crashed
+=
+False
+        
 if
 self
 .
@@ -2958,6 +2971,31 @@ name
 '
 emulator
 '
+                
+crashed
+=
+True
+            
+if
+self
+.
+symbols_path
+and
+self
+.
+emulator
+.
+check_for_minidumps
+(
+self
+.
+symbols_path
+)
+:
+                
+crashed
+=
+True
         
 elif
 self
@@ -3018,10 +3056,7 @@ returncode
 )
         
 return
-returncode
-is
-not
-None
+crashed
     
 def
 absolute_url
@@ -3076,6 +3111,9 @@ None
 )
 :
         
+try
+:
+            
 #
 We
 are
@@ -3086,7 +3124,7 @@ least
 for
 now
 .
-        
+            
 self
 .
 session
@@ -3101,6 +3139,27 @@ newSession
 '
 value
 '
+)
+        
+except
+:
+            
+traceback
+.
+print_exc
+(
+)
+            
+self
+.
+check_for_crash
+(
+)
+            
+sys
+.
+exit
+(
 )
         
 self

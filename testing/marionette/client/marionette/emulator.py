@@ -1248,6 +1248,24 @@ return
 False
     
 def
+check_for_minidumps
+(
+self
+symbols_path
+)
+:
+        
+return
+self
+.
+b2g
+.
+check_for_crashes
+(
+symbols_path
+)
+    
+def
 create_sdcard
 (
 self

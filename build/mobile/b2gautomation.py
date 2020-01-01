@@ -69,6 +69,8 @@ import
 tempfile
 import
 time
+import
+traceback
 from
 automation
 import
@@ -725,6 +727,20 @@ _remoteProfile
 minidumps
 '
         
+print
+"
+checking
+for
+crashes
+in
+'
+%
+s
+'
+"
+%
+remote_dump_dir
+        
 if
 self
 .
@@ -770,6 +786,15 @@ test_name
 self
 .
 lastTestSeen
+)
+            
+except
+:
+                
+traceback
+.
+print_exc
+(
 )
             
 finally
