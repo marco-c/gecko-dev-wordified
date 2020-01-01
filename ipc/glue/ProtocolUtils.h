@@ -823,6 +823,7 @@ SharedMemory
 :
 :
 SharedMemoryType
+bool
 int32
 *
 )
