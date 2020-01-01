@@ -46,7 +46,7 @@ exception
 "
 )
 ;
-ok
+is
 (
 ex
 .
