@@ -458,7 +458,7 @@ BMarks
 /
 Shortcuts
 to
-transactions
+transitions
 type
 .
 const
