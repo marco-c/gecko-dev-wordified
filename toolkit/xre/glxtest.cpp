@@ -1789,7 +1789,10 @@ screen
 )
 4
 4
-32
+vInfo
+-
+>
+depth
 )
 ;
 GLXPixmap
