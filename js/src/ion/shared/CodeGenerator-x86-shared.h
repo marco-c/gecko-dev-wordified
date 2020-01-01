@@ -738,6 +738,15 @@ LInteger
 ins
 )
 ;
+virtual
+bool
+visitTestIAndBranch
+(
+LTestIAndBranch
+*
+test
+)
+;
 }
 ;
 }

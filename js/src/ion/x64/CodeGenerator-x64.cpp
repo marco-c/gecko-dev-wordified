@@ -843,13 +843,13 @@ masm
 .
 cmpl
 (
-Imm32
-(
-JSVAL_TAG_INT32
-)
 ToOperand
 (
 result
+)
+Imm32
+(
+JSVAL_TAG_INT32
 )
 )
 ;
