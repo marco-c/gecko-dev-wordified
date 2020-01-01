@@ -2550,6 +2550,10 @@ NULL
 addr
 !
 =
+(
+void
+*
+)
 JaegerTrampolineReturn
 )
 {
@@ -3860,6 +3864,10 @@ if
 addr
 =
 =
+(
+void
+*
+)
 JaegerTrampolineReturn
 )
 {
