@@ -181,7 +181,7 @@ ImageData
 MOZ_FINAL
 :
 public
-nsIDOMImageData
+nsISupports
 {
 public
 :
@@ -236,7 +236,6 @@ DropData
 ;
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMIMAGEDATA
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 ImageData
@@ -293,6 +292,18 @@ return
 mData
 ;
 }
+JSObject
+*
+WrapObject
+(
+JSContext
+*
+cx
+JSObject
+*
+scope
+)
+;
 private
 :
 void

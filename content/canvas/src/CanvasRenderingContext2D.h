@@ -1528,7 +1528,7 @@ dom
 :
 :
 ImageData
-*
+&
 imagedata
 mozilla
 :
@@ -1582,7 +1582,7 @@ dom
 :
 :
 ImageData
-*
+&
 imageData
 double
 dx
@@ -1609,7 +1609,7 @@ dom
 :
 :
 ImageData
-*
+&
 imageData
 double
 dx
