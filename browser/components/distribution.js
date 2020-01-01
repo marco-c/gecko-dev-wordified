@@ -2087,7 +2087,7 @@ value
 {
 case
 "
-bool
+boolean
 "
 :
 defaults
@@ -2102,7 +2102,7 @@ break
 ;
 case
 "
-int
+number
 "
 :
 defaults
