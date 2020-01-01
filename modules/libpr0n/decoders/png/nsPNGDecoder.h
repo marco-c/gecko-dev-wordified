@@ -577,17 +577,6 @@ EndImageFrame
 (
 )
 ;
-NS_METHOD
-ProcessData
-(
-unsigned
-char
-*
-aBuffer
-PRUint32
-aCount
-)
-;
 void
 NotifyDone
 (
