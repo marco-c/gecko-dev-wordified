@@ -266,6 +266,15 @@ h
 #
 include
 "
+ion
+/
+AsmJS
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject

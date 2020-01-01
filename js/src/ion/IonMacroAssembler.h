@@ -188,15 +188,6 @@ include
 "
 ion
 /
-AsmJS
-.
-h
-"
-#
-include
-"
-ion
-/
 IonCompartment
 .
 h
