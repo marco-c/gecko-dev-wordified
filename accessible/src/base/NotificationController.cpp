@@ -1751,8 +1751,14 @@ IsBoundToParent
 (
 )
 )
+{
+mObservingState
+=
+eRefreshObserving
+;
 return
 ;
+}
 #
 ifdef
 DEBUG_NOTIFICATIONS
