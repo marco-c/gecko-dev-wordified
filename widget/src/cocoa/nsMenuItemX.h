@@ -684,6 +684,15 @@ SetupIcon
 (
 )
 ;
+NS_IMETHOD
+GetMenuItemContent
+(
+nsIContent
+*
+*
+aMenuItemContent
+)
+;
 /
 /
 nsIMenuListener

@@ -974,9 +974,6 @@ aMenu
 void
 LoadMenuItem
 (
-nsIMenu
-*
-pParentMenu
 nsIContent
 *
 inMenuItemContent
@@ -985,9 +982,6 @@ inMenuItemContent
 void
 LoadSubMenu
 (
-nsIMenu
-*
-pParentMenu
 nsIContent
 *
 inMenuContent
@@ -1020,6 +1014,12 @@ nsCOMArray
 nsISupports
 >
 mMenuItemsArray
+;
+nsCOMArray
+<
+nsISupports
+>
+mHiddenMenuItemsArray
 ;
 nsISupports
 *
