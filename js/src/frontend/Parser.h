@@ -3067,6 +3067,11 @@ labeledStatement
 )
 ;
 Node
+throwStatement
+(
+)
+;
+Node
 tryStatement
 (
 )
