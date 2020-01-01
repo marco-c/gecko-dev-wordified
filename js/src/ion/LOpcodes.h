@@ -547,6 +547,16 @@ _
 (
 MathD
 )
+\
+_
+(
+ValueToDouble
+)
+\
+_
+(
+ValueToInt32
+)
 #
 if
 defined

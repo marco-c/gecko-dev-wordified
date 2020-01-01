@@ -5096,6 +5096,16 @@ localSlotCount_
 bool
 addConstantToPool
 (
+double
+d
+uint32
+*
+index
+)
+;
+bool
+addConstantToPool
+(
 MConstant
 *
 ins

@@ -472,11 +472,6 @@ UnboxDouble
 \
 _
 (
-UnboxDoubleSSE41
-)
-\
-_
-(
 Box
 )
 \

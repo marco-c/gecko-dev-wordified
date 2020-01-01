@@ -527,6 +527,15 @@ generate
 (
 )
 ;
+virtual
+bool
+visitValueToInt32
+(
+LValueToInt32
+*
+lir
+)
+;
 }
 ;
 }
