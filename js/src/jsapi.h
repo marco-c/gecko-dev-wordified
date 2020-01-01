@@ -16951,10 +16951,6 @@ char
 name
 JSTypeHandler
 handler
-const
-char
-*
-fullName
 )
 ;
 static
@@ -16990,7 +16986,6 @@ nargs
 flags
 parent
 name
-NULL
 NULL
 )
 ;

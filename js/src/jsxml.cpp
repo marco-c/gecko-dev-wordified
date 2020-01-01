@@ -1514,7 +1514,9 @@ Class
 js_NamespaceClass
 =
 {
-js_Namespace_str
+"
+Namespace
+"
 JSCLASS_CONSTRUCT_PROTOTYPE
 |
 JSCLASS_HAS_RESERVED_SLOTS
@@ -2114,7 +2116,9 @@ Class
 js_QNameClass
 =
 {
-js_QName_str
+"
+QName
+"
 JSCLASS_CONSTRUCT_PROTOTYPE
 |
 JSCLASS_HAS_RESERVED_SLOTS

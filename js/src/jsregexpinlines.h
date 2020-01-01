@@ -567,8 +567,8 @@ Given
 cx
 &
 regexp_statics_class
-parent
 NULL
+parent
 )
 ;
 if

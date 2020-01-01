@@ -1553,12 +1553,6 @@ type
 JSVAL_UPPER_INCL_TYPE_OF_BOXABLE_SET
 )
 ;
-/
-*
-/
-/
-FIXME
-overasserting
 JS_ASSERT_IF
 (
 type
@@ -1594,8 +1588,6 @@ slot
 0
 )
 ;
-*
-/
 l
 .
 s
@@ -2145,12 +2137,6 @@ slot
 &
 mask
 ;
-/
-*
-/
-/
-FIXME
-overasserting
 JS_ASSERT_IF
 (
 type
@@ -2181,8 +2167,6 @@ payload
 0
 )
 ;
-*
-/
 l
 .
 asBits
