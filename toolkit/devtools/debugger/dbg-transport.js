@@ -1428,7 +1428,12 @@ was
 :
 "
 +
+JSON
+.
+stringify
+(
 packet
+)
 )
 ;
 }
@@ -1705,7 +1710,7 @@ n
 "
 )
 ;
-dumpn
+dump
 (
 "
 Packet
@@ -1713,7 +1718,12 @@ was
 :
 "
 +
+JSON
+.
+stringify
+(
 aPacket
+)
 +
 "
 \
