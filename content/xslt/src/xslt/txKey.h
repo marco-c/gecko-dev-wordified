@@ -564,13 +564,6 @@ see
 nsDoubleHashtable
 .
 h
-const
-void
-*
-GetKey
-(
-)
-;
 PRBool
 MatchEntry
 (
@@ -677,13 +670,6 @@ see
 nsDoubleHashtable
 .
 h
-const
-void
-*
-GetKey
-(
-)
-;
 PRBool
 MatchEntry
 (
