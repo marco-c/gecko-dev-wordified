@@ -440,6 +440,10 @@ color
 :
 white
 ;
+color
+:
+black
+;
 }
 #
 viewsource
@@ -458,10 +462,6 @@ font
 weight
 :
 normal
-;
-color
-:
-black
 ;
 white
 -
