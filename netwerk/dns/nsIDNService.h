@@ -563,6 +563,9 @@ nsIPrefBranch
 >
 mIDNWhitelistPrefBranch
 ;
+bool
+mIDNUseWhitelist
+;
 }
 ;
 #
