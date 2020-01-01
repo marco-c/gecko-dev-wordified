@@ -19897,7 +19897,7 @@ scrollId
 nsLayoutUtils
 :
 :
-FindIDFor
+FindOrCreateIDFor
 (
 content
 )
