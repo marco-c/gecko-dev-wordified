@@ -1444,6 +1444,12 @@ aContacts
 if
 (
 aErrorMsg
+!
+=
+=
+'
+undefined
+'
 )
 {
 mm
