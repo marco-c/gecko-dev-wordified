@@ -652,6 +652,7 @@ Bug
 *
 /
 static
+const
 nsresult
 GetKeyValue
 (
@@ -1055,6 +1056,7 @@ if
 found
 .
 static
+const
 void
 normalizeDriverId
 (
