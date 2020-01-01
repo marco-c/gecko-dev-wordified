@@ -3881,7 +3881,6 @@ mFrame
 GetStyleContext
 (
 )
-0
 )
 ;
 }

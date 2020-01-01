@@ -15479,7 +15479,6 @@ GetStyleOutline
 (
 )
 styleContext
-0
 )
 ;
 }
