@@ -5195,6 +5195,11 @@ current
 mEndPosition
 )
 {
+theChar
+=
+*
+current
+;
 if
 (
 theChar
@@ -5309,11 +5314,6 @@ setcurrent
 }
 +
 +
-current
-;
-theChar
-=
-*
 current
 ;
 }
@@ -5453,6 +5453,11 @@ current
 mEndPosition
 )
 {
+theChar
+=
+*
+current
+;
 if
 (
 theChar
@@ -5509,11 +5514,6 @@ NS_OK
 }
 +
 +
-current
-;
-theChar
-=
-*
 current
 ;
 }
