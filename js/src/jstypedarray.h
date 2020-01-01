@@ -1313,6 +1313,16 @@ return
 }
 }
 ;
+extern
+bool
+IsFastTypedArrayClass
+(
+const
+Class
+*
+clasp
+)
+;
 }
 /
 /
