@@ -582,13 +582,6 @@ link
 crossOrigin
 "
 ]
-source
-:
-[
-"
-media
-"
-]
 textarea
 :
 [
