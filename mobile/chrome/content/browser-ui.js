@@ -2809,6 +2809,9 @@ init
 (
 )
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 Pre
@@ -2845,6 +2848,8 @@ ensureContentProcess
 (
 )
 ;
+#
+endif
 /
 /
 Init
