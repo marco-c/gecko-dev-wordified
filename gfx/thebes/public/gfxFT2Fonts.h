@@ -631,14 +631,6 @@ mFTFontIndex
 0
 ;
 }
-FontEntry
-(
-const
-FontEntry
-&
-aFontEntry
-)
-;
 ~
 FontEntry
 (
