@@ -13414,7 +13414,7 @@ rv
 bookmarks
 -
 >
-ResultNodeForFolder
+ResultNodeForContainer
 (
 folderId
 options
@@ -26746,6 +26746,7 @@ PR_TRUE
 EmptyCString
 (
 )
+nsnull
 )
 ;
 if
@@ -27296,6 +27297,7 @@ PR_TRUE
 EmptyCString
 (
 )
+nsnull
 )
 ;
 if
@@ -29529,7 +29531,7 @@ rv
 bookmarks
 -
 >
-ResultNodeForFolder
+ResultNodeForContainer
 (
 folderId
 options

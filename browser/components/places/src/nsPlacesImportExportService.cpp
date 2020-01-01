@@ -16155,7 +16155,7 @@ folder
 node
 nsCOMPtr
 <
-nsINavHistoryQueryResultNode
+nsINavHistoryContainerResultNode
 >
 rootNode
 ;
