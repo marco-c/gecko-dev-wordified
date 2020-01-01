@@ -1537,6 +1537,17 @@ GetLocation
 )
 ;
 }
+virtual
+nsHTMLDocument
+*
+AsHTMLDocument
+(
+)
+{
+return
+this
+;
+}
 protected
 :
 nsresult
