@@ -13007,7 +13007,7 @@ argt
 >
 >
 =
-2
+ARGSIZE_SHIFT
 ;
 if
 (
@@ -13075,7 +13075,7 @@ argt
 >
 >
 =
-2
+ARGSIZE_SHIFT
 ;
 ArgSize
 a
@@ -13084,7 +13084,7 @@ ArgSize
 (
 argt
 &
-3
+ARGSIZE_MASK_ANY
 )
 ;
 if

@@ -6366,14 +6366,14 @@ ArgSize
 (
 atypes
 &
-3
+ARGSIZE_MASK_ANY
 )
 ;
 atypes
 >
 >
 =
-2
+ARGSIZE_MASK_SHIFT
 ;
 /
 /
