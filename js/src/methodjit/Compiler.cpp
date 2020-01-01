@@ -48672,7 +48672,7 @@ script
 >
 getRegExp
 (
-fullAtomIndex
+GET_UINT32_INDEX
 (
 PC
 )
