@@ -9153,7 +9153,6 @@ fp
 TCF_COMPILE_N_GO
 chars
 length
-NULL
 filename
 lineno
 NULL

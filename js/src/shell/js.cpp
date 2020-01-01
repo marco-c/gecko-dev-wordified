@@ -22379,7 +22379,6 @@ JS_GetStringLength
 (
 scriptContents
 )
-NULL
 "
 <
 string
