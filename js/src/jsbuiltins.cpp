@@ -619,8 +619,6 @@ not
 /
 if
 (
-!
-(
 JSDOUBLE_IS_FINITE
 (
 a
@@ -630,7 +628,6 @@ a
 JSDOUBLE_IS_INFINITE
 (
 b
-)
 )
 )
 r
