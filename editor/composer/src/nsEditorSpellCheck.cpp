@@ -2504,9 +2504,14 @@ continue
 /
 to
 uninitialize
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 SaveDefaultDictionary
 (
 )

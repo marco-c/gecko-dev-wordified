@@ -1608,6 +1608,8 @@ aEndOffset
 {
 nsresult
 result
+=
+NS_OK
 ;
 /
 /
