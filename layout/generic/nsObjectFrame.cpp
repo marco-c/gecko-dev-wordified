@@ -6904,6 +6904,8 @@ false
 NPWindow
 *
 window
+=
+nsnull
 ;
 mInstanceOwner
 -
@@ -6913,6 +6915,16 @@ GetWindow
 window
 )
 ;
+if
+(
+!
+window
+)
+{
+return
+false
+;
+}
 if
 (
 window
