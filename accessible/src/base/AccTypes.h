@@ -210,6 +210,7 @@ types
 *
 /
 eApplicationType
+eHTMLOptGroupType
 eImageMapType
 eMenuPopupType
 eProgressType
