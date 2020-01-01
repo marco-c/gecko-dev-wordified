@@ -181,6 +181,7 @@ eARIASelectable
 eARIASelectableIfDefined
 eReadonlyUntilEditable
 eIndeterminateIfNoValue
+eFocusableUntilDisabled
 }
 ;
 /

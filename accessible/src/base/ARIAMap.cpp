@@ -603,12 +603,10 @@ eNoLiveAttr
 eSelect
 |
 eTable
-states
-:
-:
-FOCUSABLE
+kNoReqStates
 eARIAMultiSelectable
 eARIAReadonlyOrEditable
+eFocusableUntilDisabled
 }
 {
 /
@@ -782,6 +780,7 @@ eSelect
 kNoReqStates
 eARIAMultiSelectable
 eARIAReadonly
+eFocusableUntilDisabled
 }
 {
 /
@@ -1483,6 +1482,7 @@ eSelect
 kNoReqStates
 eARIAReadonly
 eARIAMultiSelectable
+eFocusableUntilDisabled
 }
 {
 /
@@ -1507,6 +1507,7 @@ eTable
 kNoReqStates
 eARIAReadonly
 eARIAMultiSelectable
+eFocusableUntilDisabled
 }
 {
 /
