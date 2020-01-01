@@ -942,7 +942,7 @@ document
 getElementById
 (
 "
-generatePassphraseButton
+passphraseBackupButtons
 "
 )
 .
