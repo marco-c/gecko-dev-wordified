@@ -48881,9 +48881,6 @@ DoApplyRenderingChangeToTree
 nsIFrame
 *
 aFrame
-nsIViewManager
-*
-aViewManager
 nsFrameManager
 *
 aFrameManager
@@ -48928,9 +48925,6 @@ UpdateViewsForTree
 nsIFrame
 *
 aFrame
-nsIViewManager
-*
-aViewManager
 nsFrameManager
 *
 aFrameManager
@@ -49130,7 +49124,6 @@ do
 DoApplyRenderingChangeToTree
 (
 outOfFlowFrame
-aViewManager
 aFrameManager
 aChange
 )
@@ -49170,7 +49163,6 @@ kPopupList
 DoApplyRenderingChangeToTree
 (
 child
-aViewManager
 aFrameManager
 aChange
 )
@@ -49221,7 +49213,6 @@ GetVisualOverflowRectRelativeToSelf
 UpdateViewsForTree
 (
 child
-aViewManager
 aFrameManager
 aChange
 )
@@ -49238,9 +49229,6 @@ DoApplyRenderingChangeToTree
 nsIFrame
 *
 aFrame
-nsIViewManager
-*
-aViewManager
 nsFrameManager
 *
 aFrameManager
@@ -49330,7 +49318,6 @@ there
 UpdateViewsForTree
 (
 aFrame
-aViewManager
 aFrameManager
 aChange
 )
@@ -49763,17 +49750,6 @@ paint
 )
 ;
 }
-nsIViewManager
-*
-viewManager
-=
-shell
--
->
-GetViewManager
-(
-)
-;
 /
 /
 Trigger
@@ -49828,7 +49804,6 @@ endif
 DoApplyRenderingChangeToTree
 (
 aFrame
-viewManager
 shell
 -
 >
