@@ -452,7 +452,7 @@ BLOCK
 #
 include
 "
-MoveResolver
+MoveEmitter
 -
 x86
 -
@@ -471,10 +471,10 @@ js
 :
 ion
 ;
-MoveResolverX86
+MoveEmitterX86
 :
 :
-MoveResolverX86
+MoveEmitterX86
 (
 MacroAssembler
 &
@@ -523,13 +523,13 @@ framePushed
 ;
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 emit
 (
 const
-MoveGroupResolver
+MoveResolver
 &
 moves
 const
@@ -663,11 +663,11 @@ i
 )
 ;
 }
-MoveResolverX86
+MoveEmitterX86
 :
 :
 ~
-MoveResolverX86
+MoveEmitterX86
 (
 )
 {
@@ -677,7 +677,7 @@ assertDone
 ;
 }
 Operand
-MoveResolverX86
+MoveEmitterX86
 :
 :
 cycleSlot
@@ -700,7 +700,7 @@ pushedAtCycle_
 ;
 }
 Operand
-MoveResolverX86
+MoveEmitterX86
 :
 :
 spillSlot
@@ -723,7 +723,7 @@ pushedAtSpill_
 ;
 }
 Operand
-MoveResolverX86
+MoveEmitterX86
 :
 :
 doubleSpillSlot
@@ -746,7 +746,7 @@ pushedAtDoubleSpill_
 ;
 }
 Operand
-MoveResolverX86
+MoveEmitterX86
 :
 :
 toOperand
@@ -840,7 +840,7 @@ pushedAtStart_
 ;
 }
 Register
-MoveResolverX86
+MoveEmitterX86
 :
 :
 tempReg
@@ -974,7 +974,7 @@ spilledReg_
 ;
 }
 FloatRegister
-MoveResolverX86
+MoveEmitterX86
 :
 :
 tempFloatReg
@@ -1106,7 +1106,7 @@ spilledFloatReg_
 ;
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 breakCycle
@@ -1347,7 +1347,7 @@ cycleSlot
 }
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 completeCycle
@@ -1592,7 +1592,7 @@ reg
 }
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 emitMove
@@ -1792,7 +1792,7 @@ to
 }
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 emitDoubleMove
@@ -1992,7 +1992,7 @@ to
 }
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 assertValidMove
@@ -2089,7 +2089,7 @@ floatReg
 ;
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 emit
@@ -2205,7 +2205,7 @@ to
 ;
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 assertDone
@@ -2220,7 +2220,7 @@ inCycle_
 ;
 }
 void
-MoveResolverX86
+MoveEmitterX86
 :
 :
 finish

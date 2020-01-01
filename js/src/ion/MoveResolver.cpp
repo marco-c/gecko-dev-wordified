@@ -452,7 +452,7 @@ BLOCK
 #
 include
 "
-MoveGroupResolver
+MoveResolver
 .
 h
 "
@@ -467,10 +467,10 @@ js
 :
 ion
 ;
-MoveGroupResolver
+MoveResolver
 :
 :
-MoveGroupResolver
+MoveResolver
 (
 )
 :
@@ -481,7 +481,7 @@ false
 {
 }
 bool
-MoveGroupResolver
+MoveResolver
 :
 :
 addMove
@@ -577,12 +577,12 @@ the
 first
 one
 .
-MoveGroupResolver
+MoveResolver
 :
 :
 PendingMove
 *
-MoveGroupResolver
+MoveResolver
 :
 :
 findBlockingMove
@@ -698,7 +698,7 @@ NULL
 ;
 }
 bool
-MoveGroupResolver
+MoveResolver
 :
 :
 resolve
