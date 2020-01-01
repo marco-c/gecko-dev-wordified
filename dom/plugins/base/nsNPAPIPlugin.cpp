@@ -5759,7 +5759,6 @@ pluginHost
 >
 ReloadPlugins
 (
-reloadPages
 )
 ;
 }

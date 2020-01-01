@@ -994,7 +994,6 @@ mPluginHost
 >
 ReloadPlugins
 (
-aReloadDocuments
 )
 ;
 /

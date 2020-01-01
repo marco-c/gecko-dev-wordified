@@ -420,7 +420,6 @@ pluginHost
 >
 ReloadPlugins
 (
-false
 )
 ;
 if

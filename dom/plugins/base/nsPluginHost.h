@@ -926,15 +926,6 @@ InstanceArray
 void
 DestroyRunningInstances
 (
-nsTArray
-<
-nsCOMPtr
-<
-nsIDocument
->
->
-*
-aReloadDocs
 nsPluginTag
 *
 aPluginTag
