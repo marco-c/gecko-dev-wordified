@@ -3217,6 +3217,7 @@ item
 getActiveTab
 (
 )
+;
 if
 (
 activeTab
@@ -3817,6 +3818,17 @@ resumePainting
 }
 else
 {
+if
+(
+!
+currentTab
+|
+|
+!
+currentTab
+.
+_tabViewTabItem
+)
 self
 .
 clearActiveTab
