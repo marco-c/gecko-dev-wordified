@@ -4016,16 +4016,6 @@ trimURLs
 true
 )
 ;
-pref
-(
-"
-browser
-.
-altClickSave
-"
-false
-)
-;
 /
 /
 Number
