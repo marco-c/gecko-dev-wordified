@@ -1526,12 +1526,12 @@ close
 )
 |
 |
-Utils
-.
-isMiddleClick
-(
 e
-)
+.
+button
+=
+=
+1
 )
 {
 self
