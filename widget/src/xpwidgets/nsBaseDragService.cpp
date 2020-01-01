@@ -4321,6 +4321,10 @@ aCanvas
 RenderContexts
 (
 ctx
+gfxPattern
+:
+:
+FILTER_GOOD
 )
 ;
 }

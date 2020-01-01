@@ -663,6 +663,11 @@ RenderContexts
 gfxContext
 *
 ctx
+gfxPattern
+:
+:
+GraphicsFilter
+aFilter
 )
 ;
 virtual
@@ -2987,6 +2992,11 @@ RenderContexts
 gfxContext
 *
 ctx
+gfxPattern
+:
+:
+GraphicsFilter
+aFilter
 )
 {
 if
@@ -3004,6 +3014,7 @@ mCurrentContext
 Render
 (
 ctx
+aFilter
 )
 ;
 }
