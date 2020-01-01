@@ -3082,6 +3082,13 @@ XRE_ShutdownTestShell
 (
 )
 )
+XRE_API
+(
+void
+XRE_InstallX11ErrorHandler
+(
+)
+)
 #
 endif
 /
