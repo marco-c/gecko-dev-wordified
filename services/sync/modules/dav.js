@@ -2489,6 +2489,7 @@ this
 PROPFIND
 (
 "
+lock
 "
 "
 <
