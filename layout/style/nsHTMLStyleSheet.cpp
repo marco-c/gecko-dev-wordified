@@ -1506,9 +1506,11 @@ aData
 -
 >
 mElement
-ruleWalker
+aData
 -
 >
+mTreeMatchContext
+.
 VisitedHandling
 (
 )
@@ -1564,9 +1566,11 @@ Forward
 mLinkRule
 )
 ;
-ruleWalker
+aData
 -
 >
+mTreeMatchContext
+.
 SetHaveRelevantLink
 (
 )
@@ -1594,9 +1598,11 @@ Forward
 mVisitedRule
 )
 ;
-ruleWalker
+aData
 -
 >
+mTreeMatchContext
+.
 SetHaveRelevantLink
 (
 )
@@ -1722,6 +1728,8 @@ if
 aData
 -
 >
+mTreeMatchContext
+.
 mCompatMode
 =
 =

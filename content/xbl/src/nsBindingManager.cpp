@@ -7076,6 +7076,8 @@ binding
 aData
 -
 >
+mTreeMatchContext
+.
 mScopedRoot
 =
 content
@@ -7240,6 +7242,8 @@ repeatedly
 aData
 -
 >
+mTreeMatchContext
+.
 mScopedRoot
 =
 nsnull
