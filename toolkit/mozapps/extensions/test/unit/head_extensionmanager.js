@@ -1879,6 +1879,12 @@ test_extensionmanager
 "
 )
 ;
+gTestRoot
+.
+normalize
+(
+)
+;
 /
 /
 Need
