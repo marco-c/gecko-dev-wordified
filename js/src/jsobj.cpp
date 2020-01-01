@@ -10088,7 +10088,6 @@ propp
 ;
 if
 (
-!
 sprop
 -
 >
