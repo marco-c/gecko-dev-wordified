@@ -3465,6 +3465,11 @@ void
 newbase
 )
 ;
+void
+clear
+(
+)
+;
 }
 ;
 class
