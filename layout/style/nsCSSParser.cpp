@@ -38030,6 +38030,7 @@ enum
 eLengthPercent
 eTwoLengthPercents
 eAngle
+eTwoAngles
 eNumber
 eTwoNumbers
 eMatrix
@@ -38072,6 +38073,10 @@ VARIANT_PERCENT
 VARIANT_ANGLE
 }
 {
+VARIANT_ANGLE
+VARIANT_ANGLE
+}
+{
 VARIANT_NUMBER
 }
 {
@@ -38107,6 +38112,7 @@ eNumVariantMasks
 1
 2
 1
+2
 1
 2
 6
@@ -38290,13 +38296,15 @@ eCSSKeyword_skew
 *
 Exactly
 one
-angle
+or
+two
+angles
 .
 *
 /
 variantIndex
 =
-eAngle
+eTwoAngles
 ;
 aMinElems
 =
@@ -38304,7 +38312,7 @@ aMinElems
 ;
 aMaxElems
 =
-1U
+2U
 ;
 break
 ;
