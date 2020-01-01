@@ -5784,7 +5784,7 @@ keys
 ;
 }
 let
-pass
+passphrase
 =
 ID
 .
@@ -5794,14 +5794,14 @@ get
 WeaveCryptoID
 "
 )
+;
+if
+(
+passphrase
 .
 getPassword
 (
 )
-;
-if
-(
-pass
 )
 {
 let
@@ -5811,7 +5811,7 @@ PubKeys
 .
 createKeypair
 (
-pass
+passphrase
 PubKeys
 .
 defaultKeyUri

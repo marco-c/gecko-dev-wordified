@@ -1120,6 +1120,8 @@ Crypto
 generateKeypair
 (
 passphrase
+.
+password
 privkey
 .
 salt
