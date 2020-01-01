@@ -398,14 +398,14 @@ clipboardHelper
 copyStringToClipboard
 (
 expectedString
-testWin
-.
-document
 Ci
 .
 nsIClipboard
 .
 kSelectionClipboard
+testWin
+.
+document
 )
 ;
 }
