@@ -1398,12 +1398,6 @@ XMLHttpRequest
 ;
 xhr
 .
-mozBackgroundRequest
-=
-true
-;
-xhr
-.
 open
 (
 '
