@@ -6600,17 +6600,8 @@ sf
 aJSContext
 )
 ;
-if
-(
-!
 xpc_InitJSxIDClassObjects
 (
-)
-)
-return
-UnexpectedFailure
-(
-NS_ERROR_FAILURE
 )
 ;
 if

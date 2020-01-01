@@ -848,10 +848,6 @@ DOMCI_CLASS
 (
 HTMLUnknownElement
 )
-DOMCI_CLASS
-(
-HTMLWBRElement
-)
 /
 /
 CSS
