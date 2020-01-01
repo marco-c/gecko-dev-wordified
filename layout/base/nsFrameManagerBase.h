@@ -576,6 +576,17 @@ nsILayoutHistoryState
 class
 nsFrameManagerBase
 {
+public
+:
+PRBool
+IsDestroyingFrames
+(
+)
+{
+return
+mIsDestroyingFrames
+;
+}
 protected
 :
 class
@@ -634,9 +645,6 @@ is
 being
 destroyed
 .
-#
-ifdef
-DEBUG
 PRPackedBool
 mIsDestroyingFrames
 ;
@@ -653,8 +661,6 @@ frame
 s
 )
 .
-#
-endif
 }
 ;
 #
