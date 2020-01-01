@@ -844,6 +844,15 @@ h
 #
 include
 "
+mozilla
+/
+AutoRestore
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -2475,6 +2484,7 @@ critical
 sections
 .
 class
+NS_STACK_CLASS
 XPCAutoLock
 :
 public
@@ -2526,6 +2536,7 @@ XPCAutoLock
 XPCLock
 *
 lock
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 #
 ifdef
@@ -2563,6 +2574,8 @@ mLock
 lock
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 mLock
@@ -2616,6 +2629,7 @@ XPCLock
 *
 mLock
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 /
 /
 Not
@@ -2792,6 +2806,7 @@ memory
 *
 /
 class
+NS_STACK_CLASS
 XPCAutoUnlock
 :
 public
@@ -2804,6 +2819,7 @@ XPCAutoUnlock
 XPCLock
 *
 lock
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 nsAutoUnlockBase
@@ -2815,6 +2831,8 @@ mLock
 lock
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 mLock
@@ -2868,6 +2886,7 @@ XPCLock
 *
 mLock
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 /
 /
 Not
@@ -23290,6 +23309,7 @@ notifications
 to
 XPCCallContext
 class
+NS_STACK_CLASS
 AutoJSRequest
 {
 public
@@ -23299,6 +23319,7 @@ AutoJSRequest
 XPCCallContext
 &
 aCCX
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCCX
@@ -23314,6 +23335,8 @@ GetJSContext
 )
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 BeginRequest
 (
 )
@@ -23385,9 +23408,11 @@ JSContext
 *
 mCX
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
+NS_STACK_CLASS
 AutoJSSuspendRequest
 {
 public
@@ -23397,6 +23422,7 @@ AutoJSSuspendRequest
 XPCCallContext
 &
 aCCX
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCX
@@ -23408,6 +23434,8 @@ GetJSContext
 )
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 SuspendRequest
 (
 )
@@ -23481,9 +23509,11 @@ mCX
 jsrefcount
 mDepth
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
+NS_STACK_CLASS
 AutoJSSuspendRequestWithNoCallContext
 {
 public
@@ -23493,6 +23523,7 @@ AutoJSSuspendRequestWithNoCallContext
 JSContext
 *
 aCX
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCX
@@ -23500,6 +23531,8 @@ mCX
 aCX
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 SuspendRequest
 (
 )
@@ -23573,9 +23606,11 @@ mCX
 jsrefcount
 mDepth
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
+NS_STACK_CLASS
 AutoJSSuspendNonMainThreadRequest
 {
 public
@@ -23585,6 +23620,7 @@ AutoJSSuspendNonMainThreadRequest
 JSContext
 *
 aCX
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCX
@@ -23592,6 +23628,8 @@ mCX
 aCX
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 SuspendRequest
 (
 )
@@ -23670,6 +23708,7 @@ mCX
 jsrefcount
 mDepth
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -23716,6 +23755,7 @@ mDepth
 *
 /
 class
+NS_STACK_CLASS
 AutoJSRequestWithNoCallContext
 {
 public
@@ -23725,6 +23765,7 @@ AutoJSRequestWithNoCallContext
 JSContext
 *
 aCX
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCX
@@ -23732,6 +23773,8 @@ mCX
 aCX
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 BeginRequest
 (
 )
@@ -23799,6 +23842,7 @@ JSContext
 *
 mCX
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -23879,6 +23923,7 @@ mCX
 *
 /
 class
+NS_STACK_CLASS
 AutoJSErrorAndExceptionEater
 {
 public
@@ -23888,6 +23933,7 @@ AutoJSErrorAndExceptionEater
 JSContext
 *
 aCX
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCX
@@ -23910,6 +23956,8 @@ mCX
 )
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 AutoJSErrorAndExceptionEater
@@ -23942,6 +23990,7 @@ JSExceptionState
 *
 mOldExceptionState
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -24042,6 +24091,7 @@ reporter
 *
 /
 class
+NS_STACK_CLASS
 AutoScriptEvaluate
 {
 public
@@ -24082,6 +24132,7 @@ AutoScriptEvaluate
 JSContext
 *
 cx
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mJSContext
@@ -24105,6 +24156,8 @@ mContextHasThread
 0
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 /
 *
@@ -24200,6 +24253,7 @@ mEvaluated
 jsword
 mContextHasThread
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 /
 /
 No
@@ -24304,6 +24358,7 @@ AutoScriptEvaluate
 *
 /
 class
+NS_STACK_CLASS
 AutoResolveName
 {
 public
@@ -24315,6 +24370,7 @@ XPCCallContext
 ccx
 jsval
 name
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mTLS
@@ -24340,6 +24396,8 @@ mCheck
 name
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 AutoResolveName
@@ -24388,6 +24446,7 @@ mOld
 jsval
 mCheck
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
