@@ -719,6 +719,11 @@ s
 __FUNCTION__
 )
 ;
+if
+(
+gInstance
+)
+{
 gInstance
 -
 >
@@ -733,6 +738,7 @@ gInstance
 =
 NULL
 ;
+}
 }
 nsresult
 PeerConnectionCtx
