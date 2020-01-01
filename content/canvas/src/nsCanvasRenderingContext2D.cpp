@@ -12186,12 +12186,6 @@ fontStyle
 mFont
 .
 systemFont
-fontStyle
--
->
-mFont
-.
-familyNameQuirks
 printerFont
 fontStyle
 -

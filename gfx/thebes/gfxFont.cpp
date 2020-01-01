@@ -18623,10 +18623,6 @@ printerFont
 (
 PR_FALSE
 )
-familyNameQuirks
-(
-PR_FALSE
-)
 weight
 (
 FONT_WEIGHT_NORMAL
@@ -18679,8 +18675,6 @@ aSizeAdjust
 PRPackedBool
 aSystemFont
 PRPackedBool
-aFamilyNameQuirks
-PRPackedBool
 aPrinterFont
 const
 nsString
@@ -18703,10 +18697,6 @@ aSystemFont
 printerFont
 (
 aPrinterFont
-)
-familyNameQuirks
-(
-aFamilyNameQuirks
 )
 weight
 (
@@ -18858,12 +18848,6 @@ printerFont
 aStyle
 .
 printerFont
-)
-familyNameQuirks
-(
-aStyle
-.
-familyNameQuirks
 )
 weight
 (
