@@ -4193,6 +4193,12 @@ IsLabelable
 )
 const
 ;
+static
+bool
+PrefEnabled
+(
+)
+;
 protected
 :
 /
