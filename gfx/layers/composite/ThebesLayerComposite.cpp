@@ -254,6 +254,10 @@ mBuffer
 (
 nullptr
 )
+mRequiresTiledProperties
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (

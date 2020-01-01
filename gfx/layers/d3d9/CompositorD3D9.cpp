@@ -2947,12 +2947,11 @@ matrix
 ;
 }
 }
-nsIntSize
-&
+void
 CompositorD3D9
 :
 :
-GetWidgetSize
+EnsureSize
 (
 )
 {
@@ -2974,9 +2973,6 @@ rect
 Size
 (
 )
-;
-return
-mSize
 ;
 }
 void
