@@ -896,9 +896,6 @@ types
 *
 /
 class
-TreeInfo
-;
-class
 VMAllocator
 ;
 class
@@ -1165,7 +1162,7 @@ exit
 returned
 by
 js_CallTree
-TreeInfo
+TreeFragment
 *
 outermostTree
 ;
@@ -1295,7 +1292,7 @@ cx
 JSTraceMonitor
 *
 tm
-TreeInfo
+TreeFragment
 *
 ti
 uintN
