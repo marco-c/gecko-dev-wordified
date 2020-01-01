@@ -1492,7 +1492,7 @@ false
 HashableValue
 :
 :
-StackRoot
+AutoRooter
 hkeyRoot
 (
 cx

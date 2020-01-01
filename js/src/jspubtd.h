@@ -1124,7 +1124,7 @@ typename
 T
 >
 class
-Root
+RootedVar
 ;
 class
 SkipRoot
@@ -1238,7 +1238,7 @@ GC
 .
 *
 /
-Root
+RootedVar
 <
 void
 *

@@ -9416,11 +9416,10 @@ hasScope
 js
 :
 :
-RootObject
-objRoot
+RootedVarObject
+scopeRoot
 (
 cx
-&
 scope
 )
 ;
@@ -9445,6 +9444,10 @@ scope
 )
 return
 false
+;
+scope
+=
+scopeRoot
 ;
 }
 if

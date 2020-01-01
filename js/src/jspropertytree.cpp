@@ -907,7 +907,7 @@ JSContext
 cx
 Shape
 *
-parent
+parent_
 uint32_t
 nfixed
 const
@@ -922,7 +922,7 @@ shape
 ;
 JS_ASSERT
 (
-parent
+parent_
 )
 ;
 /
@@ -1008,7 +1008,7 @@ KidsPointer
 kidp
 =
 &
-parent
+parent_
 -
 >
 kids
@@ -1105,7 +1105,10 @@ insert
 *
 /
 }
-RootStackShape
+StackShape
+:
+:
+AutoRooter
 childRoot
 (
 cx
@@ -1113,12 +1116,11 @@ cx
 child
 )
 ;
-RootShape
-parentRoot
+RootedVarShape
+parent
 (
 cx
-&
-parent
+parent_
 )
 ;
 shape

@@ -1350,7 +1350,7 @@ function
 Bindings
 :
 :
-StackRoot
+AutoRooter
 bindingsRoot
 ;
 /

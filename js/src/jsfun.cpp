@@ -6144,7 +6144,7 @@ cx
 Bindings
 :
 :
-StackRoot
+AutoRooter
 bindingsRoot
 (
 cx
