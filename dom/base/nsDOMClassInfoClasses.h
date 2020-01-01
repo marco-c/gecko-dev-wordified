@@ -2001,10 +2001,10 @@ DOMCI_CLASS
 (
 WebGLActiveInfo
 )
-/
-/
-WebGL
-Buffers
+DOMCI_CLASS
+(
+WebGLExtension
+)
 DOMCI_CLASS
 (
 PaintRequest
