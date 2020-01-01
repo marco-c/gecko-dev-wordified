@@ -44560,7 +44560,7 @@ index
 )
 )
 return
-JS_FALSE
+false
 ;
 ParseNode
 *
@@ -44636,7 +44636,7 @@ noteIndex
 0
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 top
@@ -44656,7 +44656,7 @@ top
 0
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -44703,7 +44703,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -44715,7 +44715,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -44779,11 +44779,9 @@ JSOP_NOP
 <
 0
 )
-{
 return
-JS_FALSE
+false
 ;
-}
 }
 return
 true
