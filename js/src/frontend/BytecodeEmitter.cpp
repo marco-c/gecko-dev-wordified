@@ -13537,10 +13537,8 @@ return
 true
 ;
 }
+static
 bool
-frontend
-:
-:
 EmitElemOp
 (
 JSContext
