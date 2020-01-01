@@ -1875,3 +1875,17 @@ return
 s
 ;
 }
+void
+*
+test_fnptr
+(
+)
+{
+return
+(
+void
+*
+)
+test_ansi_len
+;
+}

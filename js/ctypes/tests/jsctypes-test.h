@@ -1230,4 +1230,11 @@ test_7_byte_struct_return
 RECT
 )
 ;
+NS_EXPORT
+void
+*
+test_fnptr
+(
+)
+;
 }
