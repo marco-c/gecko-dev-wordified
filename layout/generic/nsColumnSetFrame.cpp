@@ -7433,7 +7433,7 @@ new
 (
 aBuilder
 )
-nsDisplayGeneric
+nsDisplayGenericOverflow
 (
 aBuilder
 this
