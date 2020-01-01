@@ -789,8 +789,6 @@ nsIRollupListener
 aListener
 bool
 aDoCapture
-bool
-aConsumeRollupEvent
 )
 ;
 NS_IMETHOD
@@ -1561,6 +1559,17 @@ needDispatch
 ;
 }
 MozCachedMoveEvent
+;
+bool
+CheckForRollup
+(
+double
+aMouseX
+double
+aMouseY
+bool
+aIsWheel
+)
 ;
 void
 *
