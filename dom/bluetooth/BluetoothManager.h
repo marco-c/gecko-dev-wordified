@@ -216,13 +216,6 @@ BluetoothNamedValue
 aValue
 )
 ;
-nsresult
-FireEnabledDisabledEvent
-(
-bool
-aEnabled
-)
-;
 private
 :
 BluetoothManager
