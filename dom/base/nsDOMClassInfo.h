@@ -1917,10 +1917,6 @@ sOnload_id
 ;
 static
 jsval
-sOnpopstate_id
-;
-static
-jsval
 sOnbeforeunload_id
 ;
 static
