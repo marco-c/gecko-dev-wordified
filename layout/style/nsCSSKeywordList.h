@@ -485,7 +485,7 @@ C
 preprocessing
 .
 All
-entires
+entries
 must
 be
 enclosed
@@ -2876,6 +2876,11 @@ rightwards
 )
 CSS_KEY
 (
+round
+round
+)
+CSS_KEY
+(
 row
 -
 resize
@@ -4116,11 +4121,6 @@ reset
 -
 size
 reset_size
-)
-CSS_KEY
-(
-round
-round
 )
 /
 /
