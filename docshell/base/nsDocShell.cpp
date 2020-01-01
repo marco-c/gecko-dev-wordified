@@ -47813,7 +47813,7 @@ window
 window
 -
 >
-DispatchAsyncHashchange
+DispatchSyncHashchange
 (
 )
 ;
