@@ -411,6 +411,15 @@ xul
 |
 thumb
 {
+-
+moz
+-
+appearance
+:
+none
+!
+important
+;
 background
 -
 color
@@ -556,6 +565,7 @@ touchControls
 )
 ;
 }
+html
 select
 :
 not
@@ -575,6 +585,7 @@ multiple
 xul
 |
 scrollbar
+html
 select
 [
 size
@@ -587,6 +598,7 @@ size
 xul
 |
 scrollbar
+html
 select
 :
 not
@@ -605,6 +617,7 @@ multiple
 xul
 |
 scrollbarbutton
+html
 select
 [
 size
@@ -642,12 +655,17 @@ OS
 themes
 *
 /
+html
 select
+html
 textarea
+html
 button
+html
 xul
 |
 button
+html
 *
 >
 input
@@ -690,14 +708,17 @@ radius
 3px
 ;
 }
+html
 select
 [
 size
 ]
+html
 select
 [
 multiple
 ]
+html
 select
 [
 size
@@ -705,7 +726,9 @@ size
 [
 multiple
 ]
+html
 textarea
+html
 *
 >
 input
@@ -793,8 +816,10 @@ bug
 685197
 *
 /
+html
 select
 option
+html
 select
 optgroup
 {
@@ -805,6 +830,7 @@ events
 none
 ;
 }
+html
 select
 :
 not
@@ -820,6 +846,7 @@ not
 multiple
 ]
 )
+html
 select
 [
 size
@@ -828,6 +855,7 @@ size
 0
 "
 ]
+html
 select
 [
 size
@@ -836,6 +864,7 @@ size
 1
 "
 ]
+html
 *
 >
 input
@@ -846,6 +875,7 @@ type
 button
 "
 ]
+html
 *
 >
 input
@@ -856,6 +886,7 @@ type
 submit
 "
 ]
+html
 *
 >
 input
@@ -866,6 +897,7 @@ type
 reset
 "
 ]
+html
 button
 {
 border
@@ -927,6 +959,7 @@ rgba
 )
 ;
 }
+html
 input
 [
 type
@@ -976,6 +1009,7 @@ rgba
 )
 ;
 }
+html
 input
 [
 type
@@ -1028,6 +1062,7 @@ rgba
 )
 ;
 }
+html
 select
 {
 border
@@ -1041,6 +1076,7 @@ padding
 1px
 ;
 }
+html
 select
 :
 not
@@ -1056,6 +1092,7 @@ not
 multiple
 ]
 )
+html
 select
 [
 size
@@ -1064,6 +1101,7 @@ size
 0
 "
 ]
+html
 select
 [
 size
@@ -1081,6 +1119,7 @@ padding
 1px
 ;
 }
+html
 *
 >
 input
@@ -1107,6 +1146,7 @@ padding
 1px
 ;
 }
+html
 textarea
 {
 resize
@@ -1127,6 +1167,7 @@ padding
 1px
 ;
 }
+html
 input
 [
 type
@@ -1135,6 +1176,7 @@ type
 button
 "
 ]
+html
 input
 [
 type
@@ -1143,6 +1185,7 @@ type
 submit
 "
 ]
+html
 input
 [
 type
@@ -1151,6 +1194,7 @@ type
 reset
 "
 ]
+html
 button
 {
 border
@@ -1167,6 +1211,7 @@ padding
 7px
 ;
 }
+html
 input
 [
 type
@@ -1175,6 +1220,7 @@ type
 radio
 "
 ]
+html
 input
 [
 type
@@ -1213,6 +1259,7 @@ padding
 1px
 ;
 }
+html
 select
 >
 button
@@ -1339,18 +1386,21 @@ size
 inherit
 ;
 }
+html
 select
 [
 size
 ]
 :
 focus
+html
 select
 [
 multiple
 ]
 :
 focus
+html
 select
 [
 size
@@ -1360,9 +1410,11 @@ multiple
 ]
 :
 focus
+html
 textarea
 :
 focus
+html
 input
 [
 type
@@ -1382,6 +1434,7 @@ type
 text
 "
 ]
+html
 *
 >
 input
@@ -1462,6 +1515,7 @@ rgba
 )
 ;
 }
+html
 select
 :
 not
@@ -1479,6 +1533,7 @@ multiple
 )
 :
 focus
+html
 select
 [
 size
@@ -1489,6 +1544,7 @@ size
 ]
 :
 focus
+html
 select
 [
 size
@@ -1499,6 +1555,7 @@ size
 ]
 :
 focus
+html
 input
 [
 type
@@ -1509,6 +1566,7 @@ button
 ]
 :
 focus
+html
 input
 [
 type
@@ -1519,6 +1577,7 @@ submit
 ]
 :
 focus
+html
 input
 [
 type
@@ -1529,6 +1588,7 @@ reset
 ]
 :
 focus
+html
 button
 :
 focus
@@ -1597,6 +1657,7 @@ rgba
 )
 ;
 }
+html
 input
 [
 type
@@ -1607,6 +1668,7 @@ checkbox
 ]
 :
 focus
+html
 input
 [
 type
@@ -1628,6 +1690,7 @@ color
 important
 ;
 }
+html
 input
 [
 type
@@ -1679,6 +1742,7 @@ rgba
 )
 ;
 }
+html
 input
 [
 type
@@ -1751,10 +1815,12 @@ specific
 too
 *
 /
+html
 textarea
 [
 disabled
 ]
+html
 select
 [
 size
@@ -1762,6 +1828,7 @@ size
 [
 disabled
 ]
+html
 select
 [
 multiple
@@ -1769,6 +1836,7 @@ multiple
 [
 disabled
 ]
+html
 select
 [
 size
@@ -1779,6 +1847,7 @@ multiple
 [
 disabled
 ]
+html
 select
 :
 not
@@ -1797,6 +1866,7 @@ multiple
 [
 disabled
 ]
+html
 select
 [
 size
@@ -1808,6 +1878,7 @@ size
 [
 disabled
 ]
+html
 select
 [
 size
@@ -1819,10 +1890,12 @@ size
 [
 disabled
 ]
+html
 button
 [
 disabled
 ]
+html
 *
 >
 input
@@ -1920,6 +1993,7 @@ rgba
 )
 ;
 }
+html
 select
 :
 not
@@ -1938,6 +2012,7 @@ multiple
 [
 disabled
 ]
+html
 select
 [
 size
@@ -1949,6 +2024,7 @@ size
 [
 disabled
 ]
+html
 select
 [
 size
@@ -2002,6 +2078,7 @@ rgba
 )
 ;
 }
+html
 input
 [
 type
@@ -2013,6 +2090,7 @@ button
 [
 disabled
 ]
+html
 input
 [
 type
@@ -2024,6 +2102,7 @@ submit
 [
 disabled
 ]
+html
 input
 [
 type
@@ -2035,6 +2114,7 @@ reset
 [
 disabled
 ]
+html
 button
 [
 disabled
@@ -2092,6 +2172,7 @@ rgba
 )
 ;
 }
+html
 input
 [
 type
@@ -2103,6 +2184,7 @@ radio
 [
 disabled
 ]
+html
 input
 [
 type
@@ -2116,6 +2198,7 @@ disabled
 ]
 :
 active
+html
 input
 [
 type
@@ -2129,6 +2212,7 @@ disabled
 ]
 :
 hover
+html
 input
 [
 type
@@ -2144,6 +2228,7 @@ disabled
 hover
 :
 active
+html
 input
 [
 type
@@ -2155,6 +2240,7 @@ checkbox
 [
 disabled
 ]
+html
 input
 [
 type
@@ -2168,6 +2254,7 @@ disabled
 ]
 :
 active
+html
 input
 [
 type
@@ -2181,6 +2268,7 @@ disabled
 ]
 :
 hover
+html
 input
 [
 type
@@ -2214,6 +2302,7 @@ rgba
 important
 ;
 }
+html
 select
 [
 disabled
@@ -2235,6 +2324,7 @@ padding
 7px
 ;
 }
+html
 *
 :
 -
@@ -2245,6 +2335,7 @@ any
 link
 :
 active
+html
 *
 [
 role
@@ -2253,21 +2344,27 @@ button
 ]
 :
 active
+html
 button
 :
 active
+html
 input
 :
 active
+html
 option
 :
 active
+html
 select
 :
 active
+html
 label
 :
 active
+html
 textarea
 :
 active
