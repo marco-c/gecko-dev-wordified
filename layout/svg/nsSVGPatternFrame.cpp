@@ -3862,7 +3862,7 @@ GetLengthValue
 SVGPatternElement
 :
 :
-X
+ATTR_X
 )
 ;
 tmpY
@@ -3872,7 +3872,7 @@ GetLengthValue
 SVGPatternElement
 :
 :
-Y
+ATTR_Y
 )
 ;
 tmpHeight
@@ -3882,7 +3882,7 @@ GetLengthValue
 SVGPatternElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 )
 ;
 tmpWidth
@@ -3892,7 +3892,7 @@ GetLengthValue
 SVGPatternElement
 :
 :
-WIDTH
+ATTR_WIDTH
 )
 ;
 if
@@ -4292,7 +4292,7 @@ GetLengthValue
 SVGPatternElement
 :
 :
-WIDTH
+ATTR_WIDTH
 )
 -
 >
@@ -4308,7 +4308,7 @@ GetLengthValue
 SVGPatternElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 )
 -
 >
@@ -4340,7 +4340,7 @@ GetLengthValue
 SVGPatternElement
 :
 :
-WIDTH
+ATTR_WIDTH
 )
 -
 >
@@ -4356,7 +4356,7 @@ GetLengthValue
 SVGPatternElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 )
 -
 >
