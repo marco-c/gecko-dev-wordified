@@ -380,9 +380,6 @@ mStackTraceTable
 size_t
 mLiveBlockTable
 ;
-size_t
-mDoubleReportTable
-;
 Sizes
 (
 )
