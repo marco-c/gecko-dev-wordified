@@ -6936,6 +6936,7 @@ ParseStyleAttribute
 this
 aValue
 aResult
+PR_FALSE
 )
 ;
 return
