@@ -3315,6 +3315,14 @@ changed
 /
 /
 EVENT_OBJECT_ATTRIBUTE_CHANGED
+"
+virtual
+cursor
+changed
+"
+/
+/
+EVENT_VIRTUALCURSOR_CHANGED
 }
 ;
 /
