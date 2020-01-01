@@ -705,16 +705,6 @@ resolve
 (
 )
 {
-JS_ASSERT
-(
-!
-pending_
-.
-empty
-(
-)
-)
-;
 orderedMoves_
 .
 clear

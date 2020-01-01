@@ -691,6 +691,14 @@ mir_
 (
 mir
 )
+snapshotOffset_
+(
+INVALID_SNAPSHOT_OFFSET
+)
+bailoutId_
+(
+INVALID_BAILOUT_ID
+)
 {
 }
 bool
