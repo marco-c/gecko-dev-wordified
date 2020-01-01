@@ -5873,11 +5873,6 @@ AccessCheck
 callerIsChrome
 (
 )
-|
-|
-ContentScriptHasUniversalXPConnect
-(
-)
 )
 )
 {
