@@ -318,10 +318,10 @@ gracefully
 *
 param
 {
-String
+object
 }
-obj
-the
+aObj
+The
 object
 fired
 back
@@ -333,7 +333,7 @@ callback
 function
 unexpectedCallbackAndFinish
 (
-obj
+aObj
 )
 {
 ok
@@ -346,7 +346,7 @@ callback
 with
 "
 +
-obj
+aObj
 )
 ;
 SimpleTest
