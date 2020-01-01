@@ -382,6 +382,7 @@ BLOCK
 *
 *
 /
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -392,6 +393,7 @@ baz
 qux
 "
 ]
+;
 function
 baz
 (

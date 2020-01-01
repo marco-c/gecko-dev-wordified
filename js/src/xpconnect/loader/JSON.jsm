@@ -503,6 +503,7 @@ Array
 .
 *
 /
+var
 EXPORTED_SYMBOLS
 =
 [

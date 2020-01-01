@@ -393,6 +393,7 @@ BLOCK
 *
 *
 /
+var
 EXPORTED_SYMBOLS
 =
 [

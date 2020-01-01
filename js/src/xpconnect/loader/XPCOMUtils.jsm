@@ -925,6 +925,7 @@ components
 }
 *
 /
+var
 EXPORTED_SYMBOLS
 =
 [
