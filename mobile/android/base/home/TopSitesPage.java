@@ -3235,6 +3235,14 @@ id
 LOADER_ID_TOP_SITES_LIST
 )
 {
+if
+(
+mListAdapter
+!
+=
+null
+)
+{
 mListAdapter
 .
 swapCursor
@@ -3242,6 +3250,7 @@ swapCursor
 null
 )
 ;
+}
 }
 else
 if
@@ -3252,6 +3261,14 @@ id
 LOADER_ID_TOP_SITES_GRID
 )
 {
+if
+(
+mGridAdapter
+!
+=
+null
+)
+{
 mGridAdapter
 .
 swapCursor
@@ -3259,6 +3276,7 @@ swapCursor
 null
 )
 ;
+}
 }
 else
 {
