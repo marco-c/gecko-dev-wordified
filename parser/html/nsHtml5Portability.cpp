@@ -794,7 +794,7 @@ local
 >
 Equals
 (
-nsDependentString
+nsDependentSubstring
 (
 buf
 +
