@@ -819,8 +819,6 @@ uri
 ;
 this
 .
-cleartext
-.
 type
 =
 "
@@ -905,8 +903,6 @@ uri
 ;
 this
 .
-cleartext
-.
 type
 =
 "
@@ -982,8 +978,6 @@ uri
 ;
 this
 .
-cleartext
-.
 type
 =
 "
@@ -1053,8 +1047,6 @@ uri
 )
 ;
 this
-.
-cleartext
 .
 type
 =
@@ -1130,8 +1122,6 @@ uri
 )
 ;
 this
-.
-cleartext
 .
 type
 =

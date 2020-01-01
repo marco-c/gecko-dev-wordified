@@ -3189,8 +3189,6 @@ visit
 =
 record
 .
-cleartext
-.
 visits
 .
 pop
@@ -3280,8 +3278,6 @@ setPageTitle
 (
 uri
 record
-.
-cleartext
 .
 title
 )
