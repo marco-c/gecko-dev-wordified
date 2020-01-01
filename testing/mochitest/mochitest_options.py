@@ -4276,9 +4276,7 @@ join
 (
 build_obj
 .
-get_binary_path
-(
-)
+topobjdir
 '
 mozinfo
 .
