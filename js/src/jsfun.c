@@ -12663,13 +12663,11 @@ caller
 {
 principals
 =
+JS_StackFramePrincipals
+(
+cx
 caller
--
->
-script
--
->
-principals
+)
 ;
 }
 else
