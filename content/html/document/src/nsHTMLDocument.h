@@ -1045,13 +1045,6 @@ mDisableCookieAccess
 PR_TRUE
 ;
 }
-virtual
-nsIContent
-*
-GetBodyContentExternal
-(
-)
-;
 class
 nsAutoEditingState
 {
