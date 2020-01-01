@@ -2909,6 +2909,8 @@ JSOp
 op
 uint32
 index
+bool
+popped
 )
 ;
 void
