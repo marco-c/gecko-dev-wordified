@@ -579,7 +579,7 @@ GetFirstPrincipalChild
 )
 -
 >
-IsTransformed
+IsSVGTransformed
 (
 )
 ;
