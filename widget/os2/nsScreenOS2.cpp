@@ -489,16 +489,6 @@ see
 here
 .
 }
-/
-/
-addref
-release
-QI
-NS_IMPL_ISUPPORTS1
-(
-nsScreenOS2
-nsIScreen
-)
 NS_IMETHODIMP
 nsScreenOS2
 :
