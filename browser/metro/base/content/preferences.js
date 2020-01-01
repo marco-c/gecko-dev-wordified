@@ -149,7 +149,7 @@ detail
 &
 aEvent
 .
-popup
+target
 =
 =
 =
@@ -169,6 +169,12 @@ PopupChanged
 "
 onShow
 false
+)
+;
+SanitizeUI
+.
+init
+(
 )
 ;
 }
