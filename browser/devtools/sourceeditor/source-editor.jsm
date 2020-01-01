@@ -1305,6 +1305,15 @@ Windows
 .
 *
 -
+ctrl
+-
+boolean
+for
+the
+Control
+key
+*
+-
 shift
 -
 boolean
