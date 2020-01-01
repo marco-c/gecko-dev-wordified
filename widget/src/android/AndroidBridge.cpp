@@ -6198,6 +6198,18 @@ extern
 "
 C
 "
+{
+__attribute__
+(
+(
+visibility
+(
+"
+default
+"
+)
+)
+)
 JNIEnv
 *
 GetJNIForThread
@@ -6215,6 +6227,7 @@ JNIForThread
 (
 )
 ;
+}
 }
 jclass
 GetGeckoAppShellClass
