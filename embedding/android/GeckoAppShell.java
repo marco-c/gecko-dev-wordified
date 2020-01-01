@@ -921,14 +921,6 @@ String
 args
 )
 ;
-public
-static
-native
-void
-nativeQuit
-(
-)
-;
 /
 /
 helper

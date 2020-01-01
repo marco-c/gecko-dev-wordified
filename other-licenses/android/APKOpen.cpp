@@ -1485,10 +1485,6 @@ SHELL_WRAPPER1
 nativeRun
 jstring
 )
-SHELL_WRAPPER0
-(
-nativeQuit
-)
 SHELL_WRAPPER1
 (
 notifyGeckoOfEvent
@@ -4164,11 +4160,6 @@ nativeInit
 GETFUNC
 (
 nativeRun
-)
-;
-GETFUNC
-(
-nativeQuit
 )
 ;
 GETFUNC
