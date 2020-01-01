@@ -598,7 +598,7 @@ h
 #
 include
 "
-gfxPlatform
+gfxPlatformGtk
 .
 h
 "
@@ -1951,9 +1951,14 @@ xGetProcAddress
 )
 )
 {
-mHasTextureFromPixmap
+mUseTextureFromPixmap
 =
-true
+gfxPlatformGtk
+:
+:
+UseXRender
+(
+)
 ;
 }
 else
@@ -2085,7 +2090,7 @@ SurfaceTypeXlib
 |
 |
 !
-mHasTextureFromPixmap
+mUseTextureFromPixmap
 )
 {
 return
@@ -2267,7 +2272,7 @@ aPixmap
 if
 (
 !
-mHasTextureFromPixmap
+mUseTextureFromPixmap
 )
 {
 return
@@ -2301,7 +2306,7 @@ aPixmap
 if
 (
 !
-mHasTextureFromPixmap
+mUseTextureFromPixmap
 )
 {
 return
@@ -2359,7 +2364,7 @@ aPixmap
 if
 (
 !
-mHasTextureFromPixmap
+mUseTextureFromPixmap
 )
 {
 return
@@ -4068,7 +4073,7 @@ TextureImageSupportsGetBackingSurface
 return
 sGLXLibrary
 .
-HasTextureFromPixmap
+UseTextureFromPixmap
 (
 )
 ;
