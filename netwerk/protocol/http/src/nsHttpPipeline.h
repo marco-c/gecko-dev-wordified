@@ -760,7 +760,10 @@ buffer
 .
 not
 exceeding
-NS_HTTP_SEGMENT_SIZE
+nsIOService
+:
+:
+gDefaultSegmentSize
 bytes
 .
 char
