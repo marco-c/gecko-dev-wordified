@@ -540,6 +540,14 @@ mozStoragePrivateHelpers
 .
 cpp
 \
+mozStorageBindingParamsArray
+.
+cpp
+\
+mozStorageBindingParams
+.
+cpp
+\
 (
 NULL
 )
