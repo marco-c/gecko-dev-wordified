@@ -3499,15 +3499,6 @@ interfaces
 Ci
 .
 nsIDOMTCPSocket
-Ci
-.
-nsIDOMGlobalPropertyInitializer
-Ci
-.
-nsIObserver
-Ci
-.
-nsISupportsWeakReference
 ]
 flags
 :
