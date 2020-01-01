@@ -2096,7 +2096,7 @@ on
 the
 current
 line
-PRInt32
+PRUint32
 mColPos
 ;
 /
@@ -2172,7 +2172,7 @@ in
 the
 wrap
 mode
-PRInt32
+PRUint32
 mMaxColumn
 ;
 /

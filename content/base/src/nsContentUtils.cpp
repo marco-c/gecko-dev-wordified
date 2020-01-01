@@ -25453,6 +25453,9 @@ NS_ASSERTION
 lastBlocker
 =
 =
+(
+PRUint32
+)
 sBlockedScriptRunners
 -
 >

@@ -8872,6 +8872,9 @@ mLineBreaker
 {
 if
 (
+(
+PRUint32
+)
 goodSpace
 <
 mCurrentLine

@@ -3308,6 +3308,9 @@ start
 0
 &
 &
+(
+PRUint32
+)
 start
 <
 =
@@ -3339,6 +3342,9 @@ end
 0
 &
 &
+(
+PRUint32
+)
 end
 <
 =

@@ -2297,10 +2297,10 @@ interactive
 /
 perf
 modes
-PRInt32
+PRUint32
 mInteractiveDeflectCount
 ;
-PRInt32
+PRUint32
 mPerfDeflectCount
 ;
 /
@@ -2337,7 +2337,7 @@ there
 are
 pending
 events
-PRInt32
+PRUint32
 mPendingEventMode
 ;
 /
@@ -2354,7 +2354,7 @@ events
 =
 every
 token
-PRInt32
+PRUint32
 mEventProbeRate
 ;
 /
@@ -2379,7 +2379,7 @@ the
 main
 event
 loop
-PRInt32
+PRUint32
 mCurrentParseEndTime
 ;
 /
@@ -2397,10 +2397,10 @@ interactive
 /
 perf
 modes
-PRInt32
+PRUint32
 mInteractiveParseTime
 ;
-PRInt32
+PRUint32
 mPerfParseTime
 ;
 /
@@ -2415,7 +2415,7 @@ mode
 after
 an
 event
-PRInt32
+PRUint32
 mInteractiveTime
 ;
 /
@@ -2430,7 +2430,7 @@ mode
 after
 initial
 loading
-PRInt32
+PRUint32
 mInitialPerfTime
 ;
 /
