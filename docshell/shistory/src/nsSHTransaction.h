@@ -119,13 +119,9 @@ nsISHTransaction
 .
 h
 "
-#
-include
-"
+class
 nsISHEntry
-.
-h
-"
+;
 class
 nsSHTransaction
 :

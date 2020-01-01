@@ -86,13 +86,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIBFCacheEntry
 .
 h
@@ -154,6 +147,9 @@ nsILayoutHistoryState
 ;
 class
 nsDocShellEditorData
+;
+class
+nsISupportsArray
 ;
 /
 /

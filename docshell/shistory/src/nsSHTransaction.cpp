@@ -102,6 +102,13 @@ nsSHTransaction
 .
 h
 "
+#
+include
+"
+nsISHEntry
+.
+h
+"
 /
 /
 *
