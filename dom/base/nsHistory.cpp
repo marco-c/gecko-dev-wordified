@@ -181,13 +181,6 @@ h
 #
 include
 "
-nsIHistoryEntry
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

@@ -170,13 +170,6 @@ nsIURI
 .
 h
 "
-#
-include
-"
-nsIHistoryEntry
-.
-h
-"
 class
 nsSHEntryShared
 ;
@@ -206,7 +199,6 @@ other
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIHISTORYENTRY
 NS_DECL_NSISHENTRY
 NS_DECL_NSISHENTRYINTERNAL
 NS_DECL_NSISHCONTAINER
