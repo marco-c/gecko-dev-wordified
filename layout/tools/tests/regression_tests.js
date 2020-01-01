@@ -2391,6 +2391,9 @@ gTestURLs
 splice
 (
 0
+gTestURLs
+.
+length
 )
 ;
 gTestURLsIndex

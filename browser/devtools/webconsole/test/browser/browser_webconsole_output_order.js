@@ -684,6 +684,11 @@ history
 splice
 (
 0
+jsterm
+.
+history
+.
+length
 )
 ;
 /

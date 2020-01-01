@@ -76,6 +76,9 @@ pathParts
 length
 -
 1
+pathParts
+.
+length
 )
 ;
 var
@@ -113,6 +116,9 @@ pathParts
 length
 -
 1
+pathParts
+.
+length
 )
 ;
 pathParts

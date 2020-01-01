@@ -605,6 +605,11 @@ _hiddenRows
 splice
 (
 0
+this
+.
+_hiddenRows
+.
+length
 )
 ;
 /

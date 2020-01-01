@@ -3921,6 +3921,11 @@ _downUpEvents
 splice
 (
 0
+this
+.
+_downUpEvents
+.
+length
 )
 ;
 }
