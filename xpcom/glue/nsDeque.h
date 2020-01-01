@@ -1481,7 +1481,7 @@ nsDeque
 anOther
 )
 ;
-PRInt32
+PRBool
 GrowCapacity
 (
 )
