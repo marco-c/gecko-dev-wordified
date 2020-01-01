@@ -346,7 +346,7 @@ mFullScreenOverrideSheet
 ;
 nsIMemoryReporter
 *
-mSheetsReporter
+mReporter
 ;
 }
 ;
