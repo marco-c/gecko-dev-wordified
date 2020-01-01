@@ -455,7 +455,13 @@ nsFormControlAccessible
 *
 *
 *
-nsRadioButtonAccessible
+Generic
+class
+used
+for
+radio
+buttons
+.
 *
 /
 class
@@ -468,9 +474,9 @@ public
 :
 nsRadioButtonAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

@@ -458,9 +458,6 @@ nsIContent
 .
 h
 "
-class
-nsIDOMNode
-;
 /
 *
 *
@@ -524,9 +521,9 @@ public
 :
 nsLeafAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -642,9 +639,9 @@ eAction_Jump
 ;
 nsLinkableAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -825,9 +822,9 @@ public
 :
 nsEnumRoleAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

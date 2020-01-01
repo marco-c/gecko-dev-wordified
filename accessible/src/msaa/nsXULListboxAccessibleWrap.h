@@ -493,9 +493,9 @@ public
 :
 nsXULListboxAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -540,9 +540,9 @@ public
 :
 nsXULListCellAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell

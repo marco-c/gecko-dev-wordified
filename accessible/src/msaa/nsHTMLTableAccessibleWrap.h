@@ -508,9 +508,9 @@ public
 :
 nsHTMLTableAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -518,7 +518,7 @@ aShell
 :
 nsHTMLTableAccessible
 (
-aNode
+aContent
 aShell
 )
 {
@@ -561,9 +561,9 @@ public
 :
 nsHTMLTableCellAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -571,7 +571,7 @@ aShell
 :
 nsHTMLTableCellAccessible
 (
-aNode
+aContent
 aShell
 )
 {
@@ -614,9 +614,9 @@ public
 :
 nsHTMLTableHeaderCellAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -624,7 +624,7 @@ aShell
 :
 nsHTMLTableHeaderCellAccessible
 (
-aNode
+aContent
 aShell
 )
 {

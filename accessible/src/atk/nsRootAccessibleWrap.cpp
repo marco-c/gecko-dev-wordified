@@ -487,6 +487,7 @@ nsRootAccessible
 (
 nsnull
 nsnull
+nsnull
 )
 {
 g_object_ref

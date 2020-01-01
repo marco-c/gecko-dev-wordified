@@ -488,9 +488,9 @@ public
 :
 nsXULTreeGridAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -567,9 +567,9 @@ public
 :
 nsXULTreeGridRowAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -774,9 +774,9 @@ public
 :
 nsXULTreeGridCellAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell

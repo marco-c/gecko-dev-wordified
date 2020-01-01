@@ -501,9 +501,9 @@ eAction_Click
 ;
 nsXULComboboxAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell

@@ -457,9 +457,12 @@ public
 :
 nsDocAccessibleWrap
 (
-nsIDOMNode
+nsIDocument
 *
-aNode
+aDocument
+nsIContent
+*
+aRootContent
 nsIWeakReference
 *
 aShell

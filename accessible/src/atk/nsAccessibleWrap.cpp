@@ -1500,9 +1500,9 @@ nsAccessibleWrap
 :
 nsAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -1510,7 +1510,7 @@ aShell
 :
 nsAccessible
 (
-aNode
+aContent
 aShell
 )
 mAtkObject
@@ -2938,11 +2938,9 @@ not
 shut
 down
 return
-(
-mDOMNode
 !
-=
-nsnull
+IsDefunct
+(
 )
 ;
 }

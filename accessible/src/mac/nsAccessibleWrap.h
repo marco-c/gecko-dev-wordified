@@ -537,8 +537,9 @@ construction
 destruction
 nsAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
+aContent
 nsIWeakReference
 *
 aShell

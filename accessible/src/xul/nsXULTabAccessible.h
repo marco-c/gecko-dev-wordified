@@ -490,9 +490,9 @@ eAction_Switch
 ;
 nsXULTabAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -601,9 +601,9 @@ public
 :
 nsXULTabsAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -677,9 +677,9 @@ public
 :
 nsXULTabpanelsAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -800,9 +800,9 @@ public
 :
 nsXULTabpanelAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

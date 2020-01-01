@@ -530,9 +530,9 @@ public
 :
 nsOuterDocAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

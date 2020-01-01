@@ -468,8 +468,9 @@ public
 :
 nsTextAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
+aContent
 nsIWeakReference
 *
 aShell

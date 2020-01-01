@@ -483,9 +483,9 @@ public
 :
 nsHTMLImageAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -493,7 +493,7 @@ aShell
 :
 nsHTMLImageAccessible
 (
-aNode
+aContent
 aShell
 )
 {

@@ -476,9 +476,9 @@ public
 :
 nsXULColorPickerTileAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -552,9 +552,9 @@ public
 :
 nsXULColorPickerAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

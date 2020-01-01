@@ -494,9 +494,9 @@ construction
 destruction
 nsAccessNodeWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

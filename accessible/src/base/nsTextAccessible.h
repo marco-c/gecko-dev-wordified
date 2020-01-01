@@ -470,9 +470,9 @@ public
 :
 nsTextAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell

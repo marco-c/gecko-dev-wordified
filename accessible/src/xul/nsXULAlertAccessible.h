@@ -447,11 +447,14 @@ h
 "
 /
 *
+*
+*
 Accessible
 for
 supporting
 XUL
 alerts
+.
 *
 /
 class
@@ -464,9 +467,9 @@ public
 :
 nsXULAlertAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
