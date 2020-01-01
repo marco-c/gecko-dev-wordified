@@ -286,11 +286,6 @@ BYTES_PER_ELEMENT
 1
 ;
 const
-STACK_THICKNESS
-=
-15
-;
-const
 WIREFRAME_COLOR
 =
 [
@@ -4524,9 +4519,6 @@ postMessage
 maxGroupNodes
 :
 MAX_GROUP_NODES
-thickness
-:
-STACK_THICKNESS
 style
 :
 TiltVisualizerStyle
@@ -5284,7 +5276,15 @@ z
 =
 info
 .
+coord
+.
 depth
++
+info
+.
+coord
+.
+thickness
 ;
 vec3
 .
@@ -5294,8 +5294,6 @@ set
 x
 y
 z
-*
-STACK_THICKNESS
 ]
 highlight
 .
@@ -5312,8 +5310,6 @@ x
 w
 y
 z
-*
-STACK_THICKNESS
 ]
 highlight
 .
@@ -5332,8 +5328,6 @@ y
 +
 h
 z
-*
-STACK_THICKNESS
 ]
 highlight
 .
@@ -5350,8 +5344,6 @@ y
 +
 h
 z
-*
-STACK_THICKNESS
 ]
 highlight
 .
@@ -6047,9 +6039,6 @@ worker
 postMessage
 (
 {
-thickness
-:
-STACK_THICKNESS
 vertices
 :
 this
