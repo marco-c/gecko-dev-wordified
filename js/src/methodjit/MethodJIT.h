@@ -4924,6 +4924,17 @@ fastest
 /
 void
 *
+arityCheckEntry
+;
+/
+*
+arity
+check
+address
+*
+/
+void
+*
 argsCheckEntry
 ;
 /

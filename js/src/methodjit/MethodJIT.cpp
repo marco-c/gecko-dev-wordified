@@ -10862,6 +10862,10 @@ fastEntry
 =
 NULL
 ;
+arityCheckEntry
+=
+NULL
+;
 argsCheckEntry
 =
 NULL
