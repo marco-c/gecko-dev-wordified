@@ -10795,7 +10795,6 @@ aEvent
 )
 {
 static
-int
 event_count
 =
 0

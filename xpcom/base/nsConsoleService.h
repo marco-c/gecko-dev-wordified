@@ -442,15 +442,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Mutex
 .
 h
@@ -478,7 +469,6 @@ h
 "
 class
 nsConsoleService
-MOZ_FINAL
 :
 public
 nsIConsoleService

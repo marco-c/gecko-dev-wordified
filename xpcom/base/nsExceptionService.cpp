@@ -632,7 +632,6 @@ definition
 /
 class
 nsExceptionManager
-MOZ_FINAL
 :
 public
 nsIExceptionManager
