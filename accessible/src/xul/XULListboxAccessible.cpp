@@ -2329,7 +2329,10 @@ selectedItemsCount
 =
 0
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 selectedItems
@@ -2551,7 +2554,10 @@ selectedItemsCount
 =
 0
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 selectedItems
@@ -2839,7 +2845,10 @@ rowCount
 =
 0
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 selectedItems

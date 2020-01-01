@@ -5029,7 +5029,10 @@ uint32_t
 aRowIdx
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 RemoveRowsOrColumnsFromSelection
@@ -5080,7 +5083,10 @@ uint32_t
 aColIdx
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 RemoveRowsOrColumnsFromSelection
