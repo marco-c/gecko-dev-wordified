@@ -645,9 +645,13 @@ sourceDir
 "
 !
 /
-omni
+"
++
+AppConstants
 .
-ja
+OMNIJAR_NAME
++
+"
 !
 /
 update
