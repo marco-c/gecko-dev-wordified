@@ -12230,7 +12230,7 @@ dst
 ;
 }
 case
-PNK_COLON
+PNK_LABEL
 :
 {
 JS_ASSERT
@@ -12269,7 +12269,16 @@ cx
 pn
 -
 >
-pn_atom
+as
+<
+LabeledStatement
+>
+(
+)
+.
+label
+(
+)
 )
 ;
 return
