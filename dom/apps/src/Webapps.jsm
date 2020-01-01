@@ -5230,6 +5230,13 @@ aData
 manifestURL
 )
 ;
+let
+installOrigin
+=
+app
+.
+installOrigin
+;
 if
 (
 !
@@ -5870,6 +5877,8 @@ manifest
 ;
 try
 {
+manifest
+=
 JSON
 .
 parse
@@ -5877,7 +5886,6 @@ parse
 xhr
 .
 responseText
-installOrigin
 )
 ;
 }
