@@ -2637,6 +2637,9 @@ parser
 gets
 recycled
 .
+#
+ifdef
+CSS_REPORT_PARSE_ERRORS
 mFileName
 .
 Truncate
@@ -2653,6 +2656,8 @@ Truncate
 (
 )
 ;
+#
+endif
 if
 (
 mPushback
