@@ -906,18 +906,6 @@ TCF_BINDINGS_ACCESSED_DYNAMICALLY
 0x100
 /
 /
-Compiling
-an
-eval
-(
-)
-script
-.
-TCF_COMPILE_FOR_EVAL
-=
-0x200
-/
-/
 The
 function
 or
@@ -944,7 +932,7 @@ eval
 .
 TCF_FUN_MIGHT_ALIAS_LOCALS
 =
-0x400
+0x200
 /
 /
 The
@@ -956,7 +944,7 @@ JSOP_OBJECT
 .
 TCF_HAS_SINGLETONS
 =
-0x800
+0x400
 /
 /
 Some
@@ -975,7 +963,7 @@ expression
 .
 TCF_IN_WITH
 =
-0x1000
+0x800
 /
 /
 This
@@ -1059,7 +1047,7 @@ appears
 /
 TCF_FUN_EXTENSIBLE_SCOPE
 =
-0x2000
+0x1000
 /
 /
 The
@@ -1072,7 +1060,7 @@ Script
 .
 TCF_NEED_SCRIPT_GLOBAL
 =
-0x4000
+0x2000
 /
 /
 Technically
@@ -1337,7 +1325,7 @@ nformal
 /
 TCF_ARGUMENTS_HAS_LOCAL_BINDING
 =
-0x8000
+0x4000
 /
 /
 In
@@ -1465,7 +1453,7 @@ true
 /
 TCF_DEFINITELY_NEEDS_ARGS_OBJ
 =
-0x10000
+0x8000
 }
 JS_ENUM_FOOTER
 (
