@@ -3371,6 +3371,15 @@ obj
 ;
 \
 JS_END_MACRO
+extern
+uintN
+js_OpLength
+(
+jsbytecode
+*
+pc
+)
+;
 #
 ifdef
 DEBUG
