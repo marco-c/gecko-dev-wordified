@@ -731,6 +731,9 @@ aContext
 JSObject
 *
 aBoundNode
+nsIPrincipal
+*
+aPrincipal
 nsIURI
 *
 aBindingDocURI
@@ -924,7 +927,7 @@ mFieldText
 mFieldTextLength
 )
 aBoundNode
-nsnull
+aPrincipal
 uriSpec
 .
 get
