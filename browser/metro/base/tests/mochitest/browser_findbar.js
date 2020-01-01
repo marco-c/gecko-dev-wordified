@@ -378,9 +378,8 @@ default
 "
 )
 ;
-ContextUI
-.
-displayNavbar
+yield
+showNavBar
 (
 )
 ;
