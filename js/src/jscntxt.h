@@ -6402,6 +6402,14 @@ link
 )
 ;
 }
+void
+mark
+(
+JSTracer
+*
+trc
+)
+;
 private
 :
 /
@@ -8425,7 +8433,6 @@ AutoValueArray
 public
 AutoGCRooter
 {
-const
 js
 :
 :
@@ -8443,7 +8450,6 @@ AutoValueArray
 JSContext
 *
 cx
-const
 js
 :
 :
@@ -8472,13 +8478,11 @@ length
 JS_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
-const
 Value
 *
 start
 (
 )
-const
 {
 return
 start_
