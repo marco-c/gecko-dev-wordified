@@ -168,6 +168,9 @@ sechash
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 Alphabetical
@@ -277,6 +280,11 @@ ScopedSECKEYPublicKey
 SECKEYPublicKey
 SECKEY_DestroyPublicKey
 )
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
