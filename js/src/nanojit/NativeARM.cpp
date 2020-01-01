@@ -19394,7 +19394,7 @@ lhs
 >
 isop
 (
-LIR_alloci
+LIR_allocp
 )
 )
 {
