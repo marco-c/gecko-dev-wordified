@@ -2544,7 +2544,6 @@ jdouble
 jboolean
 jdouble
 )
-;
 SHELL_WRAPPER3
 (
 notifySmsReceived
@@ -2552,12 +2551,10 @@ jstring
 jstring
 jlong
 )
-;
 SHELL_WRAPPER0
 (
 bindWidgetTexture
 )
-;
 SHELL_WRAPPER3_WITH_RETURN
 (
 saveMessageInSentbox
@@ -2566,7 +2563,6 @@ jstring
 jstring
 jlong
 )
-;
 SHELL_WRAPPER6
 (
 notifySmsSent
@@ -2577,7 +2573,6 @@ jlong
 jint
 jlong
 )
-;
 SHELL_WRAPPER4
 (
 notifySmsDelivered
@@ -2586,7 +2581,6 @@ jstring
 jstring
 jlong
 )
-;
 SHELL_WRAPPER3
 (
 notifySmsSendFailed
@@ -2594,7 +2588,6 @@ jint
 jint
 jlong
 )
-;
 SHELL_WRAPPER7
 (
 notifyGetSms
@@ -2606,7 +2599,6 @@ jlong
 jint
 jlong
 )
-;
 SHELL_WRAPPER3
 (
 notifyGetSmsFailed
@@ -2614,7 +2606,6 @@ jint
 jint
 jlong
 )
-;
 SHELL_WRAPPER3
 (
 notifySmsDeleted
@@ -2622,7 +2613,6 @@ jboolean
 jint
 jlong
 )
-;
 SHELL_WRAPPER3
 (
 notifySmsDeleteFailed
@@ -2630,14 +2620,12 @@ jint
 jint
 jlong
 )
-;
 SHELL_WRAPPER2
 (
 notifyNoMessageInList
 jint
 jlong
 )
-;
 SHELL_WRAPPER8
 (
 notifyListCreated
@@ -2650,7 +2638,6 @@ jlong
 jint
 jlong
 )
-;
 SHELL_WRAPPER7
 (
 notifyGotNextMessage
@@ -2662,7 +2649,6 @@ jlong
 jint
 jlong
 )
-;
 SHELL_WRAPPER3
 (
 notifyReadingMessageListFailed
@@ -2670,7 +2656,6 @@ jint
 jint
 jlong
 )
-;
 static
 void
 *
