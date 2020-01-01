@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 Database
 .
 h

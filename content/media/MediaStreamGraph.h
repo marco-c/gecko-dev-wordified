@@ -169,13 +169,10 @@ h
 #
 include
 "
-MainThreadUtils
+nsThreadUtils
 .
 h
 "
-class
-nsIRunnable
-;
 namespace
 mozilla
 {

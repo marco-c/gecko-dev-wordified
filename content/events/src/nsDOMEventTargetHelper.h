@@ -151,7 +151,7 @@ h
 #
 include
 "
-MainThreadUtils
+nsThreadUtils
 .
 h
 "

@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsIPipe
 .
 h

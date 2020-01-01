@@ -161,13 +161,6 @@ nsProxyRelease
 .
 h
 "
-#
-include
-"
-nsThreadUtils
-.
-h
-"
 /
 /
 Must
