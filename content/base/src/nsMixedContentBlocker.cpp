@@ -2796,11 +2796,6 @@ httpsParentExists
 =
 false
 ;
-bool
-chromeParent
-=
-false
-;
 nsCOMPtr
 <
 nsIDocShellTreeItem
