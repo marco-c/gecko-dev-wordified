@@ -1491,7 +1491,6 @@ JS_GetTypedArrayData
 tsrc
 )
 writeLen
-PR_TRUE
 )
 ;
 if

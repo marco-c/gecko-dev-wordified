@@ -534,7 +534,6 @@ get
 (
 )
 mCount
-true
 )
 ;
 return

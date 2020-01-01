@@ -5630,7 +5630,6 @@ Write
 (
 buf
 numValues
-PR_TRUE
 )
 ;
 /
@@ -5920,7 +5919,6 @@ sound
 AudioDataLength
 (
 )
-PR_TRUE
 )
 ;
 offset
