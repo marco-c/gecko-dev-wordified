@@ -678,13 +678,8 @@ Windows
 redefining
 LoadImage
 #
-ifndef
-WINCE
-#
 undef
 LoadImage
-#
-endif
 #
 endif
 #
