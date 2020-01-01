@@ -16705,7 +16705,9 @@ slot
 sprop
 -
 >
-attrs
+attributes
+(
+)
 sprop
 -
 >
@@ -20058,7 +20060,9 @@ slot
 sprop
 -
 >
-attrs
+attributes
+(
+)
 sprop
 -
 >
