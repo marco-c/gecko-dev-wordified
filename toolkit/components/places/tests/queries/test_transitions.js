@@ -1020,14 +1020,6 @@ containerOpen
 =
 false
 ;
-PlacesUtils
-.
-bhistory
-.
-removeAllPages
-(
-)
-;
 }
 /
 *

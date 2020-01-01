@@ -1277,14 +1277,9 @@ containerOpen
 =
 false
 ;
-bhist
-.
-removeAllPages
+waitForClearHistory
 (
-)
-;
 nextTest
-(
 )
 ;
 }
