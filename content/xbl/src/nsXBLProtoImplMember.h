@@ -743,10 +743,13 @@ aContext
 nsIContent
 *
 aBoundElement
-void
+JSObject
 *
 aScriptObject
-void
+/
+/
+Unused
+JSObject
 *
 aTargetClassObject
 const
