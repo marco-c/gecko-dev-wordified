@@ -1670,7 +1670,10 @@ firstFreeSpanStart
 =
 firstFreeSpanEnd
 =
+uint16_t
+(
 ArenaSize
+)
 ;
 }
 FreeSpan
@@ -3339,6 +3342,8 @@ kind
 ;
 firstFreeSpanStart
 =
+uint16_t
+(
 Arena
 :
 :
@@ -3346,10 +3351,14 @@ thingsStartOffset
 (
 thingSize
 )
+)
 ;
 firstFreeSpanEnd
 =
+uint16_t
+(
 ArenaSize
+)
 ;
 }
 inline
