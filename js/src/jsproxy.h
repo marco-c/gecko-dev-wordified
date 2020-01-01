@@ -837,9 +837,6 @@ cx
 JSObject
 *
 proxy
-JSObject
-*
-receiver
 uintN
 argc
 jsval
@@ -1283,9 +1280,6 @@ cx
 JSObject
 *
 proxy
-JSObject
-*
-receiver
 uintN
 argc
 jsval
