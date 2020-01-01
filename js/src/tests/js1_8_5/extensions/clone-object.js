@@ -1484,14 +1484,14 @@ b
 Check
 that
 cloning
-separates
+does
+not
+separate
 merge
 points
 in
 the
 tree
-per
-spec
 .
 var
 same
@@ -1528,7 +1528,7 @@ one
 a
 .
 two
-false
+true
 )
 ;
 b
@@ -1558,7 +1558,7 @@ a
 [
 1
 ]
-false
+true
 )
 ;
 /

@@ -485,9 +485,6 @@ object
 value
 :
 cyclicalObject
-exception
-:
-true
 }
 {
 type
@@ -503,9 +500,6 @@ null
 false
 cyclicalObject
 ]
-exception
-:
-true
 }
 {
 type
@@ -516,9 +510,6 @@ object
 value
 :
 cyclicalArray
-exception
-:
-true
 }
 {
 type
@@ -536,9 +527,6 @@ bar
 :
 cyclicalArray
 }
-exception
-:
-true
 }
 {
 type
@@ -567,9 +555,6 @@ object
 value
 :
 crazyCyclicalObject
-exception
-:
-true
 }
 {
 type
