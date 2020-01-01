@@ -158,6 +158,12 @@ locale
 '
     
 '
+updater
+.
+ini
+'
+    
+'
 extensions
 /
 langpack
