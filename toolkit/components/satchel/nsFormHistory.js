@@ -858,6 +858,7 @@ _privBrowsingSvc
 log
 :
 function
+log
 (
 message
 )
@@ -904,6 +905,7 @@ message
 init
 :
 function
+init
 (
 )
 {
@@ -1213,6 +1215,7 @@ countAllEntries
 addEntry
 :
 function
+addEntry
 (
 name
 value
@@ -1302,6 +1305,7 @@ id
 Update
 existing
 entry
+.
 let
 query
 =
@@ -1416,6 +1420,7 @@ else
 Add
 new
 entry
+.
 guid
 =
 this
@@ -1559,6 +1564,7 @@ reset
 removeEntry
 :
 function
+removeEntry
 (
 name
 value
@@ -1766,6 +1772,7 @@ commitTransaction
 removeEntriesForName
 :
 function
+removeEntriesForName
 (
 name
 )
@@ -1950,6 +1957,7 @@ commitTransaction
 removeAllEntries
 :
 function
+removeAllEntries
 (
 )
 {
@@ -2063,7 +2071,7 @@ this
 log
 (
 "
-removeEntriesForName
+removeAllEntries
 failed
 :
 "
@@ -2102,6 +2110,7 @@ commitTransaction
 nameExists
 :
 function
+nameExists
 (
 name
 )
@@ -2223,6 +2232,7 @@ reset
 entryExists
 :
 function
+entryExists
 (
 name
 value
@@ -2287,6 +2297,7 @@ id
 removeEntriesByTimeframe
 :
 function
+removeEntriesByTimeframe
 (
 beginTime
 endTime
@@ -2491,6 +2502,7 @@ commitTransaction
 moveToDeletedTable
 :
 function
+moveToDeletedTable
 (
 values
 params
@@ -2504,10 +2516,12 @@ this
 log
 (
 "
-move
+Moving
 entries
 to
 deleted
+table
+.
 "
 )
 ;
@@ -2518,14 +2532,15 @@ try
 {
 /
 /
-move
+Move
 the
-entry
+entries
 to
 the
 deleted
 items
 table
+.
 let
 query
 =
@@ -2575,8 +2590,9 @@ this
 log
 (
 "
-move
-entry
+Moving
+deleted
+entries
 failed
 :
 "
@@ -2817,6 +2833,7 @@ interface
 observe
 :
 function
+observe
 (
 subject
 topic
