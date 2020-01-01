@@ -820,17 +820,6 @@ null
 )
 ;
 }
-gNavigatorBundle
-=
-document
-.
-getElementById
-(
-"
-bundle_browser
-"
-)
-;
 gLoadFired
 =
 true
