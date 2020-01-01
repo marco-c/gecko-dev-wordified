@@ -1315,11 +1315,6 @@ nsWinGesture
 (
 )
 ;
-~
-nsWinGesture
-(
-)
-;
 public
 :
 PRBool
@@ -1694,11 +1689,6 @@ load
 info
 PRBool
 InitLibrary
-(
-)
-;
-void
-ShutdownLibrary
 (
 )
 ;
