@@ -4709,6 +4709,9 @@ to
 .
 0
 PRInt32
+mCurAppUnitsPerDevPixel
+;
+PRInt32
 mAutoQualityMinFontSizePixelsPref
 ;
 #
