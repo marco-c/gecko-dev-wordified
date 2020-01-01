@@ -454,10 +454,6 @@ _nsARIAMap_H_
 #
 include
 "
-mozilla
-/
-a11y
-/
 ARIAStateMap
 .
 h
@@ -470,13 +466,6 @@ mozilla
 a11y
 /
 Role
-.
-h
-"
-#
-include
-"
-prtypes
 .
 h
 "

@@ -456,6 +456,15 @@ h
 #
 include
 "
+Accessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h

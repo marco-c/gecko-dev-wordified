@@ -446,6 +446,15 @@ h
 #
 include
 "
+Accessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsDocAccessible
 .
 h

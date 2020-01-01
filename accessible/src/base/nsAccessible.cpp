@@ -443,7 +443,9 @@ BLOCK
 #
 include
 "
-nsAccessible
+Accessible
+-
+inl
 .
 h
 "

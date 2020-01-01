@@ -460,6 +460,15 @@ h
 #
 include
 "
+Accessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsAccUtils
 .
 h

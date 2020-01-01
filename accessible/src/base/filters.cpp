@@ -408,7 +408,9 @@ h
 #
 include
 "
-nsAccessible
+Accessible
+-
+inl
 .
 h
 "
