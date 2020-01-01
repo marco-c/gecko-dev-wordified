@@ -5037,6 +5037,12 @@ fileName
 lineNumber
 )
 ;
+JS_SetOptions
+(
+cx
+saved
+)
+;
 if
 (
 !
@@ -5089,12 +5095,6 @@ return
 false
 ;
 }
-JS_SetOptions
-(
-cx
-saved
-)
-;
 if
 (
 !
