@@ -1908,6 +1908,11 @@ DestroyNativeWindow
 (
 )
 ;
+void
+AdjustWindowShadow
+(
+)
+;
 nsIWidget
 *
 mParent
@@ -1996,6 +2001,9 @@ is
 its
 content
 widget
+PRInt32
+mShadowStyle
+;
 PRPackedBool
 mIsResizing
 ;
