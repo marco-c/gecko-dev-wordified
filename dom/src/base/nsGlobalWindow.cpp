@@ -1261,6 +1261,13 @@ h
 #
 include
 "
+nsIControllers
+.
+h
+"
+#
+include
+"
 nsIControllerContext
 .
 h
