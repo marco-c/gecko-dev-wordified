@@ -653,6 +653,12 @@ nsUrlClassifierDBServiceWorker
 >
 mWorker
 ;
+nsCOMPtr
+<
+nsUrlClassifierDBServiceWorker
+>
+mWorkerProxy
+;
 /
 /
 TRUE
