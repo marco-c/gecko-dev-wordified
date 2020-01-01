@@ -116,7 +116,7 @@ ifndef
 mozilla_dom_WindowNamedPropertiesHandler_h
 #
 define
-mozilla_dom_WindowNamedPropertiesHandler_h__
+mozilla_dom_WindowNamedPropertiesHandler_h
 #
 include
 "
