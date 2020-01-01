@@ -19144,6 +19144,9 @@ wrapWithProto
 "
 )
 ;
+return
+false
+;
 }
 JSObject
 *
