@@ -2892,6 +2892,8 @@ dxSqr
 return
 dxSqr
 +
+sqrWidth
++
 baseWidth
 ;
 }
