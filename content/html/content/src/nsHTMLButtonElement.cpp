@@ -847,7 +847,7 @@ QueryInterface
 implementation
 for
 nsHTMLButtonElement
-NS_INTERFACE_TABLE_HEAD
+NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLButtonElement
 )
