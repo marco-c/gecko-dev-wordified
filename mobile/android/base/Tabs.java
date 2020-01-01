@@ -2158,6 +2158,9 @@ substring
 (
 22
 )
+GeckoAppShell
+.
+BASE64_DEFAULT
 )
 ;
 GeckoApp
