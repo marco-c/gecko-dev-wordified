@@ -383,13 +383,6 @@ h
 #
 include
 "
-nsIPrivateBrowsingService
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
