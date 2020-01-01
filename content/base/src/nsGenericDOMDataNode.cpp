@@ -4729,7 +4729,6 @@ nsGenericDOMDataNode
 TextLength
 (
 )
-const
 {
 return
 mText
@@ -4808,7 +4807,6 @@ nsGenericDOMDataNode
 TextIsOnlyWhitespace
 (
 )
-const
 {
 if
 (

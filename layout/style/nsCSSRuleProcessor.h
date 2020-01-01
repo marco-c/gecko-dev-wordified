@@ -763,7 +763,6 @@ static
 bool
 SelectorListMatches
 (
-const
 mozilla
 :
 :
@@ -776,7 +775,6 @@ aElement
 TreeMatchContext
 &
 aTreeMatchContext
-const
 nsCSSSelectorList
 *
 aSelectorList
@@ -813,7 +811,6 @@ static
 nsEventStates
 GetContentState
 (
-const
 mozilla
 :
 :
@@ -847,7 +844,6 @@ static
 nsEventStates
 GetContentStateForVisitedHandling
 (
-const
 mozilla
 :
 :
@@ -884,7 +880,6 @@ static
 bool
 IsLink
 (
-const
 mozilla
 :
 :

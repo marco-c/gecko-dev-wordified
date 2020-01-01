@@ -4410,7 +4410,6 @@ nsStyleUtil
 :
 IsSignificantChild
 (
-const
 nsIContent
 *
 aChild
