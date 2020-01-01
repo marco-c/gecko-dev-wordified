@@ -175,6 +175,12 @@ aContext
 )
 ;
 virtual
+~
+AudioBufferSourceNode
+(
+)
+;
+virtual
 void
 DestroyMediaStream
 (
