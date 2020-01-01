@@ -5720,7 +5720,7 @@ NULL
 &
 js_RegExpClass
 regexp_construct
-1
+2
 NULL
 regexp_methods
 regexp_static_props
