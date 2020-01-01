@@ -3657,7 +3657,6 @@ tell
 while
 bytes_from_end
 <
-=
 length
 :
     
@@ -3687,6 +3686,8 @@ bytes_from_end
 =
 =
 length
+-
+1
 and
 len
 (
@@ -3721,6 +3722,8 @@ bytes_from_end
 =
 =
 length
+-
+1
 :
       
 #

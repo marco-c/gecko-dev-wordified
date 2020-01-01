@@ -610,9 +610,10 @@ always
     
 cmdline
 =
-subprocess
+"
+"
 .
-list2cmdline
+join
 (
 cmd
 )
