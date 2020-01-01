@@ -166,7 +166,7 @@ debuggerSocketConnect
 LongStringClient
 "
 "
-GripClient
+ObjectClient
 "
 ]
 ;
@@ -8940,7 +8940,7 @@ framescleared
 *
 Return
 a
-GripClient
+ObjectClient
 object
 for
 the
@@ -9001,7 +9001,7 @@ let
 client
 =
 new
-GripClient
+ObjectClient
 (
 this
 .
@@ -9302,7 +9302,7 @@ clear
 .
 *
 /
-_clearGripClients
+_clearObjectClients
 :
 function
 TC_clearGrips
@@ -9369,7 +9369,7 @@ TC_clearPauseGrips
 {
 this
 .
-_clearGripClients
+_clearObjectClients
 (
 "
 _pauseGrips
@@ -9408,7 +9408,7 @@ TC_clearPauseGrips
 {
 this
 .
-_clearGripClients
+_clearObjectClients
 (
 "
 _threadGrips
@@ -10229,7 +10229,7 @@ protocol
 *
 /
 function
-GripClient
+ObjectClient
 (
 aClient
 aGrip
@@ -10258,7 +10258,7 @@ _client
 request
 ;
 }
-GripClient
+ObjectClient
 .
 prototype
 =

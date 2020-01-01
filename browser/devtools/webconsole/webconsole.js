@@ -382,7 +382,7 @@ lazyImporter
 (
 this
 "
-GripClient
+ObjectClient
 "
 "
 resource
@@ -20843,7 +20843,7 @@ attach
 (
 view
 {
-getGripClient
+getObjectClient
 :
 aGrip
 =
@@ -20851,7 +20851,7 @@ aGrip
 {
 return
 new
-GripClient
+ObjectClient
 (
 this
 .

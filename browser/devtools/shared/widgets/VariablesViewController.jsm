@@ -420,7 +420,7 @@ options
 :
 *
 -
-getGripClient
+getObjectClient
 :
 callback
 for
@@ -517,11 +517,11 @@ this
 ;
 this
 .
-_getGripClient
+_getObjectClient
 =
 aOptions
 .
-getGripClient
+getObjectClient
 ;
 this
 .
@@ -965,7 +965,7 @@ defer
 ;
 this
 .
-_getGripClient
+_getObjectClient
 (
 aGrip
 )

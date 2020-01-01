@@ -902,7 +902,7 @@ this
 .
 Variables
 {
-getGripClient
+getObjectClient
 :
 aObject
 =
