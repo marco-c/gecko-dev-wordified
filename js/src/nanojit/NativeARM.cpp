@@ -851,9 +851,12 @@ exit
 guard
 -
 >
-exit
+record
 (
 )
+-
+>
+exit
 ;
 Fragment
 *
@@ -916,9 +919,11 @@ later
 .
 lr
 =
-placeGuardRecord
-(
 guard
+-
+>
+record
+(
 )
 ;
 /
