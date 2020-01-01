@@ -603,11 +603,11 @@ x3
 Function
 )
 ;
-undefined
+parseInt
 =
 x3
 ;
-undefined
+parseInt
 .
 prototype
 =
@@ -631,7 +631,7 @@ z
 )
 {
 new
-undefined
+parseInt
 (
 )
 }
