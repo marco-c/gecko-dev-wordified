@@ -57,12 +57,6 @@ MPL
 *
 /
 #
-ifndef
-mozilla_dom_MediaManager_h
-#
-define
-mozilla_dom_MediaManager_h
-#
 include
 "
 MediaEngine
@@ -2567,10 +2561,3 @@ endif
 /
 namespace
 mozilla
-#
-endif
-/
-*
-mozilla_dom_MediaManager_h
-*
-/
