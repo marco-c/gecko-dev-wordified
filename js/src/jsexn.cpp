@@ -1615,7 +1615,7 @@ cx
 ;
 for
 (
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 i
 (
 cx
@@ -3580,7 +3580,7 @@ caller
 .
 *
 /
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 cx

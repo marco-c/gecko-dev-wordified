@@ -13147,7 +13147,7 @@ JSPrincipals
 origin
 )
 {
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 cx
