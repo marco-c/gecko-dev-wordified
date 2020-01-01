@@ -131,14 +131,12 @@ h
 #
 include
 "
-nscore
+mozilla
+/
+Attributes
 .
 h
 "
-/
-/
-For
-NS_OVERRIDE
 class
 nsAString
 ;
@@ -235,7 +233,6 @@ Methods
 -
 -
 -
-NS_OVERRIDE
 virtual
 void
 Init
@@ -245,8 +242,8 @@ nsSMILValue
 aValue
 )
 const
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 Destroy
@@ -255,8 +252,8 @@ nsSMILValue
 &
 )
 const
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 nsresult
 Assign
@@ -270,8 +267,8 @@ nsSMILValue
 aSrc
 )
 const
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 IsEqual
@@ -286,8 +283,8 @@ nsSMILValue
 aRight
 )
 const
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 nsresult
 Add
@@ -303,8 +300,8 @@ PRUint32
 aCount
 )
 const
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 nsresult
 ComputeDistance
@@ -322,8 +319,8 @@ double
 aDistance
 )
 const
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 nsresult
 Interpolate
@@ -343,6 +340,7 @@ nsSMILValue
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 public
 :

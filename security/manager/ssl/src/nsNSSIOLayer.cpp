@@ -868,7 +868,6 @@ port
 bool
 *
 _retval
-NS_OUTPARAM
 )
 {
 *

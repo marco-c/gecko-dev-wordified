@@ -2455,7 +2455,6 @@ aSelector
 nsresult
 *
 aResult
-NS_OUTPARAM
 )
 ;
 static

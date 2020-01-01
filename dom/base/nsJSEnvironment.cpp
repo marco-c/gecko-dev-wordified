@@ -21360,6 +21360,11 @@ const
 char
 *
 arrow
+;
+while
+(
+(
+arrow
 =
 strstr
 (
@@ -21369,10 +21374,7 @@ filename
 >
 "
 )
-;
-if
-(
-arrow
+)
 )
 filename
 =

@@ -938,13 +938,12 @@ of
 the
 nsIWidget
 methods
-NS_IMETHOD
+virtual
+bool
 IsEnabled
 (
-bool
-*
-aState
 )
+const
 ;
 /
 /

@@ -3478,6 +3478,7 @@ cb
 }
 ;
 static
+const
 CCParticipantVTable
 <
 nsXPConnectParticipant
@@ -6381,6 +6382,7 @@ NS_OK
 }
 ;
 static
+const
 CCParticipantVTable
 <
 JSContextParticipant
@@ -6889,6 +6891,11 @@ during
 GC
 )
 .
+MOZ_ASSERT
+(
+priv
+)
+;
 nsAutoPtr
 <
 xpc

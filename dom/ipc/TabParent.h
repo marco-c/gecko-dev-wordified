@@ -1170,7 +1170,6 @@ AllowContentIME
 (
 )
 ;
-NS_OVERRIDE
 virtual
 PRenderFrameParent
 *
@@ -1189,8 +1188,8 @@ uint64_t
 *
 aLayersId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPRenderFrame
@@ -1199,6 +1198,7 @@ PRenderFrameParent
 *
 aFrame
 )
+MOZ_OVERRIDE
 ;
 /
 /

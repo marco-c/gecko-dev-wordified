@@ -5209,7 +5209,7 @@ const
 PRUint32
 count
 =
-nsnull
+0
 ;
 mControls
 -
@@ -10383,7 +10383,7 @@ aControl
 PRInt32
 index
 =
-nsnull
+0
 ;
 return
 mControls
@@ -10401,7 +10401,7 @@ NS_OK
 ?
 index
 :
-nsnull
+0
 ;
 }
 NS_IMETHODIMP

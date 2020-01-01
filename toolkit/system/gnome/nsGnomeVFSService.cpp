@@ -182,6 +182,7 @@ h
 }
 class
 nsGnomeVFSMimeApp
+MOZ_FINAL
 :
 public
 nsIGnomeVFSMimeApp
@@ -428,6 +429,7 @@ NS_OK
 }
 class
 UTF8StringEnumerator
+MOZ_FINAL
 :
 public
 nsIUTF8StringEnumerator

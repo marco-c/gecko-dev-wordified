@@ -443,7 +443,7 @@ mProgressMax
 )
 ;
 return
-nsnull
+NS_OK
 ;
 }
 nsRefPtr

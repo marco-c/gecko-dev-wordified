@@ -589,7 +589,6 @@ nsIFile
 *
 *
 dump
-NS_OUTPARAM
 PRUint32
 *
 aSequence
@@ -802,17 +801,14 @@ childBlamedThread
 nsAString
 *
 pairGUID
-NS_OUTPARAM
 nsIFile
 *
 *
 childDump
-NS_OUTPARAM
 nsIFile
 *
 *
 parentDump
-NS_OUTPARAM
 )
 ;
 #

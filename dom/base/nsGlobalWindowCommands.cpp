@@ -680,7 +680,6 @@ aCommandContext
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD

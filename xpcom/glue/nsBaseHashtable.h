@@ -659,7 +659,6 @@ aKey
 UserDataType
 *
 pData
-NS_OUTPARAM
 )
 const
 {
@@ -801,7 +800,7 @@ if
 ent
 )
 return
-nsnull
+0
 ;
 return
 ent

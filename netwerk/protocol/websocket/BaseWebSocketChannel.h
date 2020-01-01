@@ -198,7 +198,6 @@ void
 *
 *
 result
-NS_OUTPARAM
 )
 =
 0

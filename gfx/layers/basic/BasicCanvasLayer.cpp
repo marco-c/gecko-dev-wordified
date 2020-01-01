@@ -1916,7 +1916,7 @@ handle
 )
 ;
 return
-nsnull
+0
 ;
 }
 BasicShadowLayerManager
@@ -2182,6 +2182,7 @@ mBounds
 Size
 (
 )
+false
 )
 ;
 }

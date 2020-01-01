@@ -297,6 +297,15 @@ plstr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 MOZ_GNOMEVFS_SCHEME
 "
@@ -2214,6 +2223,7 @@ name
 -
 class
 nsGnomeVFSInputStream
+MOZ_FINAL
 :
 public
 nsIInputStream
@@ -4633,6 +4643,7 @@ NS_OK
 -
 class
 nsGnomeVFSProtocolHandler
+MOZ_FINAL
 :
 public
 nsIProtocolHandler

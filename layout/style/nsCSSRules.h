@@ -718,7 +718,6 @@ aFontDescID
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 const
 ;

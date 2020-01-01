@@ -746,7 +746,7 @@ nsnull
 )
 mLineNumber
 (
-nsnull
+0
 )
 mNextHandler
 (

@@ -371,15 +371,14 @@ PCrashReporterChild
 *
 )
 ;
-NS_OVERRIDE
 virtual
 PHalChild
 *
 AllocPHal
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPHal
@@ -387,6 +386,7 @@ DeallocPHal
 PHalChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PIndexedDBChild

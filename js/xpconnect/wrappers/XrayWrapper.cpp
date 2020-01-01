@@ -1313,7 +1313,7 @@ target
 )
 )
 return
-false
+nsnull
 ;
 JSObject
 *

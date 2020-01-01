@@ -3496,7 +3496,6 @@ char
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 /
@@ -3563,7 +3562,6 @@ char
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 *
@@ -3603,7 +3601,6 @@ char
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 *
@@ -3643,7 +3640,6 @@ char
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 *

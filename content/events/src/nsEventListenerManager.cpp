@@ -3438,7 +3438,7 @@ NS_ConvertUTF8toUTF16
 asciiSpec
 )
 scriptSample
-nsnull
+0
 )
 ;
 return

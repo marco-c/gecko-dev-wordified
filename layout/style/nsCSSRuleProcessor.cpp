@@ -2727,7 +2727,7 @@ mRuleCount
 )
 mUniversalRules
 (
-nsnull
+0
 )
 mEnumList
 (

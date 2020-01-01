@@ -11018,7 +11018,10 @@ transplant
 .
 ww
 =
-js_TransplantObjectWithWrapper
+xpc
+:
+:
+TransplantObjectWithWrapper
 (
 ccx
 flat
@@ -11052,7 +11055,10 @@ else
 {
 flat
 =
-JS_TransplantObject
+xpc
+:
+:
+TransplantObject
 (
 ccx
 flat
