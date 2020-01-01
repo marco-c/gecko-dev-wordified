@@ -461,14 +461,6 @@ int
 aKeysym
 )
 ;
-PRUint32
-nsConvertCharCodeToUnicode
-(
-QKeyEvent
-*
-aEvent
-)
-;
 #
 endif
 /
