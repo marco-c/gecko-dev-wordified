@@ -1356,8 +1356,6 @@ string
 or
 unquoted
 URL
-or
-whitespace
 PRBool
 NextURL
 (
