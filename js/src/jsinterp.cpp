@@ -23533,7 +23533,7 @@ COND
 =
 equal
 OP
-true
+JS_TRUE
 ;
 \
 regs

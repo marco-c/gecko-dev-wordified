@@ -11769,6 +11769,8 @@ JS_FALSE
 lines
 |
 =
+!
+!
 JS_FlatStringEqualsAscii
 (
 flatStr
@@ -11781,6 +11783,8 @@ l
 recursive
 |
 =
+!
+!
 JS_FlatStringEqualsAscii
 (
 flatStr

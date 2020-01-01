@@ -6570,7 +6570,7 @@ p
 NULL
 ;
 }
-struct
+class
 JSShortString
 ;
 ArenaList
