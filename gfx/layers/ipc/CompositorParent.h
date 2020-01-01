@@ -209,7 +209,7 @@ mozilla
 /
 layers
 /
-PLayersParent
+PLayerTransactionParent
 .
 h
 "
@@ -467,7 +467,7 @@ virtual
 void
 ShadowLayersUpdated
 (
-ShadowLayersParent
+LayerTransactionParent
 *
 aLayerTree
 const
@@ -991,9 +991,9 @@ aThreadID
 protected
 :
 virtual
-PLayersParent
+PLayerTransactionParent
 *
-AllocPLayers
+AllocPLayerTransaction
 (
 const
 LayersBackend
@@ -1010,9 +1010,9 @@ aTextureFactoryIdentifier
 ;
 virtual
 bool
-DeallocPLayers
+DeallocPLayerTransaction
 (
-PLayersParent
+PLayerTransactionParent
 *
 aLayers
 )
