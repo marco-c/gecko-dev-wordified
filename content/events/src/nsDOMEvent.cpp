@@ -3913,12 +3913,6 @@ msg
 nullptr
 )
 ;
-NS_ENSURE_TRUE
-(
-mouseScrollEvent
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 isInputEvent
 =
 true
@@ -3939,12 +3933,12 @@ mEvent
 mouseScrollEvent
 -
 >
-scrollFlags
+isHorizontal
 =
 oldMouseScrollEvent
 -
 >
-scrollFlags
+isHorizontal
 ;
 mouseScrollEvent
 -
