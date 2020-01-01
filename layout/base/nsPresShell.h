@@ -282,6 +282,13 @@ nsContentUtils
 .
 h
 "
+/
+/
+For
+AddScriptBlocker
+(
+)
+.
 #
 include
 "
