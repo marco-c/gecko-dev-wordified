@@ -5496,7 +5496,7 @@ this
 .
 _sharing
 .
-share
+_share
 .
 async
 (
