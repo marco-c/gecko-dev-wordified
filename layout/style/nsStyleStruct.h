@@ -4274,6 +4274,10 @@ mOutlineOffset
 reset
 ]
 length
+XXX
+Why
+nsStyleCoord
+?
 nsStyleCoord
 mOutlineWidth
 ;
@@ -4802,6 +4806,9 @@ mOffset
 [
 reset
 ]
+coord
+percent
+auto
 nsStyleCoord
 mWidth
 ;
@@ -4889,6 +4896,8 @@ mZIndex
 [
 reset
 ]
+integer
+auto
 }
 ;
 struct
@@ -5018,12 +5027,15 @@ mVerticalAlign
 [
 reset
 ]
+coord
+percent
+enum
+(
 see
 nsStyleConsts
 .
 h
-for
-enums
+)
 }
 ;
 struct
@@ -5177,6 +5189,8 @@ mLetterSpacing
 [
 inherited
 ]
+coord
+normal
 nsStyleCoord
 mLineHeight
 ;
@@ -5185,6 +5199,9 @@ mLineHeight
 [
 inherited
 ]
+coord
+factor
+normal
 nsStyleCoord
 mTextIndent
 ;
@@ -5193,6 +5210,8 @@ mTextIndent
 [
 inherited
 ]
+coord
+percent
 nsStyleCoord
 mWordSpacing
 ;
@@ -5201,6 +5220,8 @@ mWordSpacing
 [
 inherited
 ]
+coord
+normal
 nsRefPtr
 <
 nsCSSShadowArray
@@ -6349,6 +6370,7 @@ mBorderSpacingX
 [
 inherited
 ]
+coord
 nsStyleCoord
 mBorderSpacingY
 ;
@@ -6357,6 +6379,7 @@ mBorderSpacingY
 [
 inherited
 ]
+coord
 PRUint8
 mBorderCollapse
 ;
@@ -7389,6 +7412,8 @@ mMarkerOffset
 [
 reset
 ]
+coord
+auto
 protected
 :
 PRUint32
@@ -8084,6 +8109,8 @@ mColumnWidth
 [
 reset
 ]
+coord
+auto
 nsStyleCoord
 mColumnGap
 ;
@@ -8093,6 +8120,8 @@ mColumnGap
 reset
 ]
 coord
+percent
+normal
 nscolor
 mColumnRuleColor
 ;
@@ -8427,6 +8456,9 @@ mStrokeDasharray
 [
 inherited
 ]
+coord
+percent
+factor
 nsStyleCoord
 mStrokeDashoffset
 ;
@@ -8435,6 +8467,9 @@ mStrokeDashoffset
 [
 inherited
 ]
+coord
+percent
+factor
 nsStyleCoord
 mStrokeWidth
 ;
@@ -8443,6 +8478,9 @@ mStrokeWidth
 [
 inherited
 ]
+coord
+percent
+factor
 float
 mFillOpacity
 ;
