@@ -50195,6 +50195,11 @@ anonNode
 firstChild
 ;
 }
+if
+(
+textArea
+)
+{
 offset
 =
 nsContentUtils
@@ -50206,6 +50211,7 @@ ptFrame
 offset
 )
 ;
+}
 node
 =
 nonanon
