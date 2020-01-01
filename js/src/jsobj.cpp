@@ -1693,6 +1693,14 @@ slot
 JSSLOT_PROTO
 )
 {
+if
+(
+OBJ_IS_NATIVE
+(
+obj
+)
+)
+{
 JS_LOCK_OBJ
 (
 cx
@@ -1724,6 +1732,7 @@ ok
 return
 JS_FALSE
 ;
+}
 /
 *
 *
