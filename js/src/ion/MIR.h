@@ -4201,6 +4201,7 @@ fp
 ;
 class
 MTableSwitch
+MOZ_FINAL
 :
 public
 MControlInstruction
@@ -16607,6 +16608,7 @@ None
 ;
 class
 MPhi
+MOZ_FINAL
 :
 public
 MDefinition
@@ -26537,6 +26539,7 @@ functions
 .
 class
 MPolyInlineDispatch
+MOZ_FINAL
 :
 public
 MControlInstruction
@@ -36157,6 +36160,7 @@ getOperand
 ;
 class
 MAsmJSCall
+MOZ_FINAL
 :
 public
 MInstruction
