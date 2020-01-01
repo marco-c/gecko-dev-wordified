@@ -32,8 +32,8 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain
@@ -179,7 +179,7 @@ sync
 .
 net
 .
-SyncResourceDelegate
+BaseResourceDelegate
 ;
 import
 org
@@ -709,7 +709,7 @@ httpResource
 delegate
 =
 new
-SyncResourceDelegate
+BaseResourceDelegate
 (
 httpResource
 )

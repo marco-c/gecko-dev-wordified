@@ -165,7 +165,7 @@ sync
 .
 net
 .
-Resource
+BaseResourceDelegate
 ;
 import
 org
@@ -178,7 +178,7 @@ sync
 .
 net
 .
-SyncResourceDelegate
+Resource
 ;
 import
 org
@@ -687,7 +687,7 @@ httpResource
 delegate
 =
 new
-SyncResourceDelegate
+BaseResourceDelegate
 (
 httpResource
 )

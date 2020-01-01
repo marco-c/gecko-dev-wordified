@@ -177,8 +177,8 @@ ResourceDelegate
 Request
 augmentation
 .
-String
-getCredentials
+AuthHeaderProvider
+getAuthHeaderProvider
 (
 )
 ;

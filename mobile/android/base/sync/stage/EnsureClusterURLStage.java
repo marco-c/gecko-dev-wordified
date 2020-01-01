@@ -195,7 +195,7 @@ sync
 .
 net
 .
-SyncResourceDelegate
+BaseResourceDelegate
 ;
 import
 ch
@@ -526,7 +526,7 @@ resource
 delegate
 =
 new
-SyncResourceDelegate
+BaseResourceDelegate
 (
 resource
 )
