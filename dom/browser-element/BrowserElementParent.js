@@ -1055,6 +1055,16 @@ _fireEventFromMsg
 addMessageListener
 (
 "
+error
+"
+this
+.
+_fireEventFromMsg
+)
+;
+addMessageListener
+(
+"
 get
 -
 mozapp
