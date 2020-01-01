@@ -170,13 +170,13 @@ C
 struct
 JSContext
 ;
-struct
+class
 JSFunction
 ;
 struct
 JSObject
 ;
-struct
+class
 JSScript
 ;
 }
@@ -201,7 +201,7 @@ GlobalObject
 class
 UnownedBaseShape
 ;
-struct
+class
 Shape
 ;
 template

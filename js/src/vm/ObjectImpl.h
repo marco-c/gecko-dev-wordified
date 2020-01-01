@@ -5384,7 +5384,7 @@ GCMarker
 struct
 ObjectOps
 ;
-struct
+class
 Shape
 ;
 class
@@ -6415,7 +6415,7 @@ struct
 GCMarker
 ;
 friend
-struct
+class
 Shape
 ;
 friend

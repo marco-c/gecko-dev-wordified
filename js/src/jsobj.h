@@ -1500,7 +1500,7 @@ ObjectImpl
 private
 :
 friend
-struct
+class
 js
 :
 :
@@ -4407,7 +4407,7 @@ setters
 *
 /
 friend
-struct
+class
 JSFunction
 ;
 inline

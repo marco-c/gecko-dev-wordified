@@ -1878,7 +1878,7 @@ Cell
 public
 :
 friend
-struct
+class
 Shape
 ;
 friend
@@ -3069,7 +3069,7 @@ SystemAllocPolicy
 >
 BaseShapeSet
 ;
-struct
+class
 Shape
 :
 public
@@ -3088,7 +3088,7 @@ struct
 JSObject
 ;
 friend
-struct
+class
 :
 :
 JSFunction
@@ -3801,7 +3801,7 @@ Range
 protected
 :
 friend
-struct
+class
 Shape
 ;
 /

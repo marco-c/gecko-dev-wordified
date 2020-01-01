@@ -3943,7 +3943,7 @@ class
 PCCounts
 {
 friend
-struct
+class
 :
 :
 JSScript

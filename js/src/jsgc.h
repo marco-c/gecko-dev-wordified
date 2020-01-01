@@ -242,7 +242,7 @@ js
 class
 GCHelperThread
 ;
-struct
+class
 Shape
 ;
 struct

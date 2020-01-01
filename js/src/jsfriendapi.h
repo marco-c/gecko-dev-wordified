@@ -1725,9 +1725,11 @@ parent
 ;
 }
 ;
-struct
+class
 Shape
 {
+public
+:
 shadow
 :
 :

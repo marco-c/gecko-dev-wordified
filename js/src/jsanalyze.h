@@ -188,7 +188,7 @@ ScopeObject
 .
 h
 "
-struct
+class
 JSScript
 ;
 /

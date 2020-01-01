@@ -146,7 +146,7 @@ class
 ExecutablePool
 ;
 }
-struct
+class
 JSScript
 ;
 namespace

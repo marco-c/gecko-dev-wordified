@@ -1153,7 +1153,7 @@ executing
 .
 *
 /
-struct
+class
 JSFunction
 ;
 namespace

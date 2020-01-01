@@ -179,7 +179,7 @@ JSRuntime
 struct
 JSCompartment
 ;
-struct
+class
 JSScript
 ;
 namespace

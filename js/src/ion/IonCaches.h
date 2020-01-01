@@ -133,10 +133,10 @@ Registers
 .
 h
 "
-struct
+class
 JSFunction
 ;
-struct
+class
 JSScript
 ;
 namespace
