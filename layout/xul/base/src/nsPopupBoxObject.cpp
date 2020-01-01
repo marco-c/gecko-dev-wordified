@@ -1351,15 +1351,8 @@ rect
 new
 nsClientRect
 (
+mContent
 )
-;
-if
-(
-!
-rect
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 NS_ADDREF
 (

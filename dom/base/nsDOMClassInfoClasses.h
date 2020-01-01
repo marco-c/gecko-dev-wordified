@@ -666,10 +666,6 @@ StorageItem
 )
 DOMCI_CLASS
 (
-ClientRect
-)
-DOMCI_CLASS
-(
 XULCommandEvent
 )
 DOMCI_CLASS

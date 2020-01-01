@@ -227,6 +227,7 @@ clientRect
 new
 nsClientRect
 (
+this
 )
 ;
 clientRect
