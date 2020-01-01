@@ -1337,6 +1337,13 @@ defined
 (
 _WIN32
 )
+&
+&
+!
+defined
+(
+_WIN64
+)
 case
 nsIForeignLibrary
 :
