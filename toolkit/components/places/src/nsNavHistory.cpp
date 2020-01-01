@@ -16733,7 +16733,7 @@ rv
 PRBool
 alreadyVisited
 =
-PR_TRUE
+PR_FALSE
 ;
 rv
 =
@@ -16744,6 +16744,12 @@ ExecuteStep
 (
 &
 alreadyVisited
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 PRInt64
