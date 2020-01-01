@@ -719,11 +719,9 @@ aAttrEnum
 &
 aListIndex
 <
+=
+MaxListIndex
 (
-1
-<
-<
-27
 )
 &
 &
