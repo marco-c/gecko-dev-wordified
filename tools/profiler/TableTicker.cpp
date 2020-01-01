@@ -2596,7 +2596,6 @@ do
 not
 support
 backtracing
-static
 void
 doBacktrace
 (
