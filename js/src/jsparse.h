@@ -8988,6 +8988,11 @@ errorNumber
 ;
 private
 :
+bool
+maybeNoteGenerator
+(
+)
+;
 /
 *
 *

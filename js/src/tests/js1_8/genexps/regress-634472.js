@@ -1501,7 +1501,14 @@ top
 JSMSG_TOP_YIELD
 fun
 :
+{
+simple
+:
 JSMSG_GENEXP_YIELD
+call
+:
+JSMSG_GENEXP_PAREN
+}
 gen
 :
 JSMSG_GENEXP_YIELD
