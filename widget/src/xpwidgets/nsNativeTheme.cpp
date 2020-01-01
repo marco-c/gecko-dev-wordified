@@ -521,13 +521,6 @@ h
 #
 include
 "
-nsILookAndFeel
-.
-h
-"
-#
-include
-"
 nsThemeConstants
 .
 h

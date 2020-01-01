@@ -1263,13 +1263,6 @@ h
 #
 include
 "
-nsILookAndFeel
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h

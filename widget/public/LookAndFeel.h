@@ -423,10 +423,10 @@ BLOCK
 /
 #
 ifndef
-__nsILookAndFeel
+__LookAndFeel
 #
 define
-__nsILookAndFeel
+__LookAndFeel
 #
 ifndef
 MOZILLA_INTERNAL_API
@@ -4713,6 +4713,6 @@ NS_ALERT_TOP
 endif
 /
 *
-__nsILookAndFeel
+__LookAndFeel
 *
 /

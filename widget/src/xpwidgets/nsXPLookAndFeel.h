@@ -430,7 +430,9 @@ __nsXPLookAndFeel
 #
 include
 "
-nsILookAndFeel
+mozilla
+/
+LookAndFeel
 .
 h
 "

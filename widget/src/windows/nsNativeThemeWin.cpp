@@ -567,13 +567,6 @@ h
 #
 include
 "
-nsILookAndFeel
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLInputElement
 .
 h

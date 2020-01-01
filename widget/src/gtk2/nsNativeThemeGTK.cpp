@@ -549,13 +549,6 @@ h
 #
 include
 "
-nsILookAndFeel
-.
-h
-"
-#
-include
-"
 nsGfxCIID
 .
 h

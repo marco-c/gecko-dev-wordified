@@ -2118,7 +2118,7 @@ bit
 field
 -
 see
-nsILookAndFeel
+LookAndFeel
 .
 h
 /

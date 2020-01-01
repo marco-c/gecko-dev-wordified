@@ -824,7 +824,7 @@ the
 color
 list
 in
-nsILookAndFeel
+LookAndFeel
 .
 h
 .
