@@ -1458,9 +1458,7 @@ nsISupports
 )
 )
 throw
-Components
-.
-results
+AUS_Cr
 .
 NS_ERROR_NO_INTERFACE
 ;

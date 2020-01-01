@@ -1233,9 +1233,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+AUS_Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -1262,9 +1260,7 @@ outer
 null
 )
 throw
-Components
-.
-results
+AUS_Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
