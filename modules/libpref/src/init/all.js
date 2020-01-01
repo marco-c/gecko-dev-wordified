@@ -34618,16 +34618,6 @@ pref
 "
 signon
 .
-expireMasterPassword
-"
-false
-)
-;
-pref
-(
-"
-signon
-.
 SignonFileName
 "
 "
