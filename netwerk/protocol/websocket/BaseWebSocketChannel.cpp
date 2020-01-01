@@ -640,7 +640,7 @@ endif
 BaseWebSocketChannel
 :
 :
-nsIWebSocketProtocol
+nsIWebSocketChannel
 /
 /
 -

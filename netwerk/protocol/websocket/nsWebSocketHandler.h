@@ -452,13 +452,6 @@ mozilla_net_nsWebSocketHandler_h
 #
 include
 "
-nsIWebSocketProtocol
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
@@ -661,7 +654,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 /
 /
-nsIWebSocketProtocol
+nsIWebSocketChannel
 methods
 BaseWebSocketChannel
 didn

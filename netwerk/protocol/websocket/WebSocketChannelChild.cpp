@@ -592,7 +592,7 @@ WebSocketChannelChild
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIWebSocketProtocol
+nsIWebSocketChannel
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -601,7 +601,7 @@ nsIProtocolHandler
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIWebSocketProtocol
+nsIWebSocketChannel
 )
 NS_INTERFACE_MAP_END
 WebSocketChannelChild
@@ -617,7 +617,7 @@ mEventQ
 (
 static_cast
 <
-nsIWebSocketProtocol
+nsIWebSocketChannel
 *
 >
 (
