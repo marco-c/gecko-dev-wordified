@@ -1806,9 +1806,6 @@ cx
 )
 )
 {
-if
-(
-!
 BooleanGetPrimitiveValue
 (
 cx
@@ -1819,9 +1816,6 @@ address
 (
 )
 )
-)
-return
-false
 ;
 JS_ASSERT
 (

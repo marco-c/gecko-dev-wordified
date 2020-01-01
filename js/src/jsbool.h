@@ -168,7 +168,7 @@ namespace
 js
 {
 inline
-bool
+void
 BooleanGetPrimitiveValue
 (
 JSContext
