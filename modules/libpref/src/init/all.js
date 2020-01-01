@@ -1866,7 +1866,7 @@ navigator
 .
 enabled
 "
-false
+true
 )
 ;
 pref
