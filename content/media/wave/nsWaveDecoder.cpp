@@ -3160,6 +3160,13 @@ STATE_PLAYING
 ;
 }
 else
+if
+(
+mState
+!
+=
+STATE_BUFFERING
+)
 {
 mNextState
 =
@@ -3958,7 +3965,7 @@ mPlaybackPosition
 ;
 /
 /
-don
+Don
 '
 t
 buffer
@@ -4002,6 +4009,7 @@ up
 cache
 space
 )
+.
 if
 (
 mState
