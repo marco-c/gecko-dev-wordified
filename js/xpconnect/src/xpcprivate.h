@@ -3626,16 +3626,6 @@ FinishTraverse
 virtual
 nsCycleCollectionParticipant
 *
-ToParticipant
-(
-void
-*
-p
-)
-;
-virtual
-nsCycleCollectionParticipant
-*
 GetParticipant
 (
 )
