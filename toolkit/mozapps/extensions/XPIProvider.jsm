@@ -11687,14 +11687,8 @@ nsITelemetryPing
 ;
 TelemetryPing
 .
-observe
+setAddOns
 (
-null
-"
-Add
--
-ons
-"
 data
 )
 ;
