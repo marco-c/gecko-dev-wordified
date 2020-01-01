@@ -2749,7 +2749,7 @@ this
 .
 currentLine
 "
-cacheManifestOnlyFirstLine
+cacheManifestOnlyFirstLine2
 "
 this
 .
@@ -2900,7 +2900,7 @@ this
 .
 currentLine
 "
-asteriskInWrongSection
+asteriskInWrongSection2
 "
 this
 .
@@ -3391,7 +3391,7 @@ this
 .
 currentLine
 "
-fallbackAsterisk
+fallbackAsterisk2
 "
 this
 .
