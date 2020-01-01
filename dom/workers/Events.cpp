@@ -327,8 +327,11 @@ aObj
 sClass
 .
 name
-&
 windowPropVal
+.
+address
+(
+)
 )
 )
 {
@@ -373,8 +376,11 @@ windowPropVal
 "
 prototype
 "
-&
 protoVal
+.
+address
+(
+)
 )
 )
 {

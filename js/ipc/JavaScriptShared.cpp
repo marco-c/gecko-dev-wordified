@@ -2570,8 +2570,11 @@ JS_GetPropertyById
 cx
 aObj
 id
-&
 v
+.
+address
+(
+)
 )
 )
 return

@@ -617,8 +617,11 @@ global
 "
 netscape
 "
-&
 v
+.
+address
+(
+)
 )
 )
 return
@@ -687,8 +690,11 @@ obj
 "
 security
 "
-&
 v
+.
+address
+(
+)
 )
 |
 |

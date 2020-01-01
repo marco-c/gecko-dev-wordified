@@ -13647,7 +13647,8 @@ GetOutParamSource
 (
 uint8_t
 paramIndex
-MutableHandleValue
+jsval
+*
 srcp
 )
 const
@@ -15000,7 +15001,8 @@ GetOutParamSource
 (
 uint8_t
 paramIndex
-MutableHandleValue
+jsval
+*
 srcp
 )
 const
@@ -16693,8 +16695,11 @@ if
 GetOutParamSource
 (
 i
-&
 src
+.
+address
+(
+)
 )
 )
 return
@@ -17394,8 +17399,11 @@ if
 GetOutParamSource
 (
 i
-&
 src
+.
+address
+(
+)
 )
 )
 return

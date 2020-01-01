@@ -1891,8 +1891,11 @@ JS_GetPropertyById
 cx
 thisObj
 id
-&
 v
+.
+address
+(
+)
 )
 )
 {
