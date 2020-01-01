@@ -632,7 +632,6 @@ function
 aItemId
 aParentId
 aIndex
-aItemType
 )
 {
 let
@@ -682,6 +681,10 @@ onItemChanged
 :
 function
 (
+aItemId
+aProperty
+aIsAnnotationProperty
+aValue
 )
 {
 }

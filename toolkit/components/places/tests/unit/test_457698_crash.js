@@ -587,7 +587,6 @@ function
 id
 folder
 index
-itemType
 )
 {
 do_check_true

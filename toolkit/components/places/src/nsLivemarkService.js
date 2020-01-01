@@ -3390,7 +3390,6 @@ function
 aItemId
 aParentId
 aIndex
-aItemType
 )
 {
 /
