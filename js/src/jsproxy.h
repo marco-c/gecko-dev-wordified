@@ -1138,7 +1138,9 @@ comment
 for
 weakmapKeyDelegateOp
 in
-jsclass
+js
+/
+Class
 .
 h
 .

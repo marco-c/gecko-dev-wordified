@@ -139,7 +139,9 @@ h
 #
 include
 "
-jsclass
+js
+/
+Class
 .
 h
 "

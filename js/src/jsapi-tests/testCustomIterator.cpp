@@ -59,7 +59,9 @@ MPL
 #
 include
 "
-jsclass
+js
+/
+Class
 .
 h
 "
