@@ -1218,7 +1218,7 @@ bundle
 formatStringFromName
 (
 "
-incompatibleMessage
+incompatibleMessage2
 "
 [
 aInstall
