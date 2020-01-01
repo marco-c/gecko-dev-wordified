@@ -322,6 +322,10 @@ aApplicationCache
 nsIApplicationCache
 *
 aPreviousApplicationCache
+const
+nsACString
+&
+aClientID
 PRUint32
 aType
 )
@@ -355,6 +359,9 @@ nsCOMPtr
 nsIApplicationCache
 >
 mPreviousApplicationCache
+;
+nsCString
+mClientID
 ;
 nsCString
 mCacheKey
@@ -446,6 +453,10 @@ aApplicationCache
 nsIApplicationCache
 *
 aPreviousApplicationCache
+const
+nsACString
+&
+aClientID
 )
 ;
 virtual
