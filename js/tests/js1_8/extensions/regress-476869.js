@@ -852,11 +852,6 @@ __proto__
 .
 __iterator__
 ;
-gczeal
-(
-0
-)
-;
 reportCompare
 (
 expect
