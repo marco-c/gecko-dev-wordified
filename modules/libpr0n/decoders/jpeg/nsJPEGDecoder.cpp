@@ -3193,6 +3193,13 @@ rv
 =
 PR_TRUE
 ;
+mFrame
+-
+>
+LockImageData
+(
+)
+;
 /
 /
 we
@@ -3583,6 +3590,13 @@ r
 )
 ;
 }
+mFrame
+-
+>
+UnlockImageData
+(
+)
+;
 return
 rv
 ;
