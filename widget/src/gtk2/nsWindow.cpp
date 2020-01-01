@@ -23581,6 +23581,11 @@ allocation
 )
 ;
 }
+if
+(
+mDrawingarea
+)
+{
 moz_drawingarea_resize
 (
 mDrawingarea
@@ -23588,6 +23593,7 @@ aWidth
 aHeight
 )
 ;
+}
 }
 void
 nsWindow
