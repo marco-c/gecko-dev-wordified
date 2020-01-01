@@ -13351,6 +13351,8 @@ nsNPAPIPluginInstance
 *
 inst
 =
+npp
+?
 (
 nsNPAPIPluginInstance
 *
@@ -13359,6 +13361,8 @@ npp
 -
 >
 ndata
+:
+NULL
 ;
 if
 (
@@ -13416,6 +13420,8 @@ nsNPAPIPluginInstance
 *
 inst
 =
+npp
+?
 (
 nsNPAPIPluginInstance
 *
@@ -13424,6 +13430,8 @@ npp
 -
 >
 ndata
+:
+NULL
 ;
 if
 (
