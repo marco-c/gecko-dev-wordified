@@ -2959,8 +2959,6 @@ _pwmgr
 addLogin
 (
 aLogin
-.
-formLogin
 )
 ;
 }
