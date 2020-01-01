@@ -5503,7 +5503,7 @@ aIsAsync
 library
 -
 >
-IsOOP
+UseAsyncPainting
 (
 )
 ;
