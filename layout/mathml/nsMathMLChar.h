@@ -267,6 +267,17 @@ net
 Mozilla
 Corporation
 *
+Frederic
+Wang
+<
+fred
+.
+wang
+free
+.
+fr
+>
+*
 *
 Alternatively
 the
@@ -1675,9 +1686,6 @@ private
 :
 nsRect
 mRect
-;
-PRInt32
-mOperator
 ;
 nsStretchDirection
 mDirection
