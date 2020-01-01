@@ -79885,8 +79885,6 @@ ComputeThisFromVp
 (
 cx
 vp
-+
-2
 )
 ;
 if

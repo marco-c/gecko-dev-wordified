@@ -3434,6 +3434,18 @@ Cast
 2
 CTYPESFN_FLAGS
 )
+JS_FN
+(
+"
+libraryName
+"
+Library
+:
+:
+Name
+1
+CTYPESFN_FLAGS
+)
 JS_FS_END
 }
 ;
@@ -28489,6 +28501,8 @@ JS_FALSE
 JSObject
 *
 fieldType
+=
+NULL
 ;
 JSString
 *

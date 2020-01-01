@@ -164,6 +164,8 @@ JS_GetGlobalObject
 cx
 )
 ;
+CHECK
+(
 JS_InitClass
 (
 cx
@@ -177,7 +179,10 @@ NULL
 NULL
 NULL
 )
+)
 ;
+CHECK
+(
 JS_DefineObject
 (
 cx
@@ -189,7 +194,10 @@ clasp
 NULL
 0
 )
+)
 ;
+CHECK
+(
 JS_DefineObject
 (
 cx
@@ -200,6 +208,7 @@ obj2
 clasp
 NULL
 0
+)
 )
 ;
 jsval
