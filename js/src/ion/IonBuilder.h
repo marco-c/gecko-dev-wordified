@@ -3350,7 +3350,8 @@ clearForBackEnd
 (
 )
 ;
-UnrootedScript
+JSScript
+*
 script
 (
 )
