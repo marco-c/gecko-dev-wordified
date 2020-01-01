@@ -2956,6 +2956,7 @@ aDirectories
 )
 ;
 }
+else
 if
 (
 NS_SUCCEEDED
