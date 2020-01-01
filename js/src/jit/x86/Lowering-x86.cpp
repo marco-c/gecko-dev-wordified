@@ -1403,12 +1403,12 @@ type
 MIRType_Int32
 )
 ;
-LUInt32ToDouble
+LAsmJSUInt32ToDouble
 *
 lir
 =
 new
-LUInt32ToDouble
+LAsmJSUInt32ToDouble
 (
 useRegisterAtStart
 (

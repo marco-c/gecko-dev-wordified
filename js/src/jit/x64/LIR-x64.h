@@ -350,7 +350,7 @@ a
 double
 .
 class
-LUInt32ToDouble
+LAsmJSUInt32ToDouble
 :
 public
 LInstructionHelper
@@ -364,9 +364,9 @@ public
 :
 LIR_HEADER
 (
-UInt32ToDouble
+AsmJSUInt32ToDouble
 )
-LUInt32ToDouble
+LAsmJSUInt32ToDouble
 (
 const
 LAllocation

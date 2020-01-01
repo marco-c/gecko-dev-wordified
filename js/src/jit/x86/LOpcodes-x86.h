@@ -173,7 +173,7 @@ PowHalfD
 \
 _
 (
-UInt32ToDouble
+AsmJSUInt32ToDouble
 )
 \
 _
