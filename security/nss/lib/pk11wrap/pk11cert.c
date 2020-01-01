@@ -10742,7 +10742,6 @@ SECFailure
 }
 (
 void
-*
 )
 nssTrustDomain_GetCertsFromCache
 (

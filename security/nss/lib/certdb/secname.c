@@ -3688,12 +3688,17 @@ b
 >
 avas
 ;
+NULL
+!
+=
+(
 bava
 =
 *
 bavas
 +
 +
+)
 ;
 )
 {
