@@ -106,6 +106,13 @@ ostream
 >
 #
 include
+<
+stdlib
+.
+h
+>
+#
+include
 "
 JSAObjectBuilder
 .
