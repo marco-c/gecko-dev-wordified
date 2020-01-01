@@ -12,7 +12,7 @@ version
 .
 5
 .
-18
+19
 '
 #
 get
@@ -115,6 +115,14 @@ mozdevice
 0
 .
 12
+'
+'
+moznetwork
+>
+=
+0
+.
+21
 '
 ]
 setup
