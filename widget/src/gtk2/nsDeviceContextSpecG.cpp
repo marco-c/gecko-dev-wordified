@@ -5388,7 +5388,7 @@ s
 /
 mozilla
 .
-ps
+pdf
 "
 path
 )
@@ -5401,7 +5401,7 @@ AssignLiteral
 "
 mozilla
 .
-ps
+pdf
 "
 )
 ;
