@@ -3334,6 +3334,13 @@ aNode
 )
 ;
 }
+else
+{
+rv
+=
+NS_ERROR_FAILURE
+;
+}
 }
 if
 (
