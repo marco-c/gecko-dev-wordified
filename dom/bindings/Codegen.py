@@ -761,7 +761,7 @@ if
 parent
 else
 '
-NULL
+nullptr
 '
 )
         
@@ -1355,7 +1355,7 @@ finalize
 *
 /
     
-NULL
+nullptr
 /
 *
 checkAccess
@@ -1370,14 +1370,14 @@ call
 *
 /
     
-NULL
+nullptr
 /
 *
 hasInstance
 *
 /
     
-NULL
+nullptr
 /
 *
 construct
@@ -11264,7 +11264,7 @@ append
 "
 {
 false
-NULL
+nullptr
 }
 "
 )
@@ -15020,7 +15020,7 @@ if
 needInterfaceObject
 else
 "
-NULL
+nullptr
 "
 )
 )
@@ -16451,7 +16451,7 @@ obj
 {
     
 return
-NULL
+nullptr
 ;
   
 }
@@ -16534,7 +16534,7 @@ obj
 {
     
 return
-NULL
+nullptr
 ;
   
 }
@@ -17594,7 +17594,7 @@ parent
 {
     
 return
-NULL
+nullptr
 ;
   
 }
@@ -17729,7 +17729,7 @@ proto
 {
     
 return
-NULL
+nullptr
 ;
   
 }
@@ -18145,7 +18145,7 @@ proto
 {
     
 return
-NULL
+nullptr
 ;
   
 }
@@ -25137,7 +25137,7 @@ type
 declName
 }
 =
-NULL
+nullptr
 "
                                           
 failureCode
@@ -25626,7 +25626,7 @@ type
 %
 s
 =
-NULL
+nullptr
 "
 %
 nullableTarget
@@ -46118,7 +46118,7 @@ d
 s
     
 {
-NULL
+nullptr
 0
 }
   
@@ -56342,7 +56342,7 @@ desc
 >
 obj
 =
-NULL
+nullptr
 ;
 return
 true
