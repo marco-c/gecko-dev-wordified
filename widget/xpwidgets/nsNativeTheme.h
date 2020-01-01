@@ -235,6 +235,13 @@ nsNativeTheme
 (
 )
 ;
+virtual
+~
+nsNativeTheme
+(
+)
+{
+}
 /
 /
 Returns

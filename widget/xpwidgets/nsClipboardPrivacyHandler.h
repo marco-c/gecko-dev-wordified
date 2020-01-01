@@ -127,6 +127,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsITransferable
 ;
@@ -201,6 +210,7 @@ way
 .
 class
 nsClipboardPrivacyHandler
+MOZ_FINAL
 :
 public
 nsIObserver

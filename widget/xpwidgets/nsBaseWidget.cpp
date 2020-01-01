@@ -262,6 +262,15 @@ prenv
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -12060,6 +12069,7 @@ dude
 /
 class
 Debug_PrefObserver
+MOZ_FINAL
 :
 public
 nsIObserver
