@@ -615,6 +615,10 @@ errorCallback
 nsIDOMGeoPositionOptions
 *
 options
+PRBool
+watchPositionRequest
+=
+PR_FALSE
 )
 ;
 nsresult
@@ -751,6 +755,9 @@ mCleared
 ;
 PRPackedBool
 mIsFirstUpdate
+;
+PRPackedBool
+mIsWatchPositionRequest
 ;
 nsCOMPtr
 <
