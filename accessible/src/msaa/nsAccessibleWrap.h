@@ -497,6 +497,13 @@ h
 #
 include
 "
+CAccessibleComponent
+.
+h
+"
+#
+include
+"
 CAccessibleHyperlink
 .
 h
@@ -688,6 +695,8 @@ nsAccessibleWrap
 :
 public
 nsAccessible
+public
+CAccessibleComponent
 public
 CAccessibleHyperlink
 public
