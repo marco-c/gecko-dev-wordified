@@ -351,11 +351,6 @@ moz
 lwtheme
 )
 .
-tabbrowser
--
-arrowscrollbox
->
-.
 tabs
 -
 newtab
@@ -448,11 +443,6 @@ true
 )
 :
 hover
-.
-tabbrowser
--
-arrowscrollbox
->
 .
 tabs
 -

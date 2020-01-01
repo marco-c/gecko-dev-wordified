@@ -23031,12 +23031,6 @@ init
 (
 )
 ;
-gHomeButton
-.
-updatePersonalToolbarStyle
-(
-)
-;
 /
 /
 Update
@@ -23215,6 +23209,12 @@ BrowserToolboxCustomizeChange
 gHomeButton
 .
 updatePersonalToolbarStyle
+(
+)
+;
+allTabs
+.
+readPref
 (
 )
 ;

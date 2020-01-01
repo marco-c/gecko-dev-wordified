@@ -548,7 +548,7 @@ addEventListener
 dragstart
 "
 onToolbarDragStart
-false
+true
 )
 ;
 gToolbox
@@ -559,7 +559,7 @@ addEventListener
 dragover
 "
 onToolbarDragOver
-false
+true
 )
 ;
 gToolbox
@@ -570,7 +570,7 @@ addEventListener
 dragleave
 "
 onToolbarDragLeave
-false
+true
 )
 ;
 gToolbox
@@ -581,7 +581,7 @@ addEventListener
 drop
 "
 onToolbarDrop
-false
+true
 )
 ;
 initDialog
@@ -886,7 +886,7 @@ removeEventListener
 dragstart
 "
 onToolbarDragStart
-false
+true
 )
 ;
 gToolbox
@@ -897,7 +897,7 @@ removeEventListener
 dragover
 "
 onToolbarDragOver
-false
+true
 )
 ;
 gToolbox
@@ -908,7 +908,7 @@ removeEventListener
 dragleave
 "
 onToolbarDragLeave
-false
+true
 )
 ;
 gToolbox
@@ -919,7 +919,7 @@ removeEventListener
 drop
 "
 onToolbarDrop
-false
+true
 )
 ;
 }
@@ -4807,6 +4807,12 @@ true
 aEvent
 .
 preventDefault
+(
+)
+;
+aEvent
+.
+stopPropagation
 (
 )
 ;
