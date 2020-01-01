@@ -2575,6 +2575,13 @@ endif
 /
 /
 AVMPLUS_PORTING_API
+avmplus
+:
+:
+Config
+&
+config
+;
 }
 ;
 inline

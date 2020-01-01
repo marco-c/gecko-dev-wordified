@@ -30854,7 +30854,9 @@ avmplus
 AvmCore
 :
 :
-cmov_available
+config
+.
+use_cmov
 =
 avmplus
 :
@@ -30862,7 +30864,9 @@ avmplus
 AvmCore
 :
 :
-sse2_available
+config
+.
+sse2
 =
 js_CheckForSSE2
 (
