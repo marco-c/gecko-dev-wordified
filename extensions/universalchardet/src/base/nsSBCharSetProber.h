@@ -682,13 +682,6 @@ GetConfidence
 void
 )
 ;
-virtual
-void
-SetOpion
-(
-)
-{
-}
 /
 /
 This
