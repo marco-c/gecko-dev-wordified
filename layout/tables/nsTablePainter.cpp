@@ -4360,6 +4360,10 @@ aCell
 GetContentEmpty
 (
 )
+&
+&
+!
+mIsBorderCollapse
 )
 {
 return
