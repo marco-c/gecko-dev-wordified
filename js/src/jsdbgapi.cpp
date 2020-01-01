@@ -3552,7 +3552,10 @@ isNonEvalFunctionFrame
 )
 )
 return
-CreateFunCallObject
+CallObject
+:
+:
+createForFunction
 (
 cx
 fp
@@ -5119,7 +5122,10 @@ getter
 )
 =
 =
-GetCallArg
+CallObject
+:
+:
+getArgOp
 )
 {
 pd
@@ -5154,7 +5160,10 @@ getter
 )
 =
 =
-GetCallVar
+CallObject
+:
+:
+getVarOp
 )
 {
 pd

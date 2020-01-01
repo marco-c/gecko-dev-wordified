@@ -2368,7 +2368,10 @@ isHeavyweight
 if
 (
 !
-CreateFunCallObject
+CallObject
+:
+:
+createForFunction
 (
 cx
 this
