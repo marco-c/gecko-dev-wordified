@@ -687,11 +687,7 @@ FcTrue
 )
 {
 #
-if
-1
-/
-/
-def
+ifdef
 DEBUG_thebes_2
 printf
 (
@@ -845,11 +841,7 @@ enabled
 ;
 }
 #
-if
-1
-/
-/
-def
+ifdef
 DEBUG_thebes_2
 printf
 (
