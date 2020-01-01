@@ -1243,10 +1243,9 @@ HandleObject
 obj
 HandlePropertyName
 name
-MutableHandleValue
-vp
 JSBool
-strict
+*
+succeeded
 )
 ;
 typedef
@@ -1263,10 +1262,9 @@ HandleObject
 obj
 uint32_t
 index
-MutableHandleValue
-vp
 JSBool
-strict
+*
+succeeded
 )
 ;
 typedef
@@ -1283,10 +1281,9 @@ HandleObject
 obj
 HandleSpecialId
 sid
-MutableHandleValue
-vp
 JSBool
-strict
+*
+succeeded
 )
 ;
 typedef
@@ -1350,7 +1347,7 @@ JSPropertyOp
 addProperty
 ;
 \
-JSPropertyOp
+JSDeletePropertyOp
 delProperty
 ;
 \

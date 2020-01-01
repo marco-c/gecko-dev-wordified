@@ -189,7 +189,7 @@ AddPropertyTester
 "
 0
 addProperty
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty

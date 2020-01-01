@@ -2885,7 +2885,7 @@ JS_PropertyStub
 addProperty
 *
 /
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty

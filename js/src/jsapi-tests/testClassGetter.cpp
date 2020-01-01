@@ -189,7 +189,7 @@ JS_PropertyStub
 /
 /
 add
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 /
 delete

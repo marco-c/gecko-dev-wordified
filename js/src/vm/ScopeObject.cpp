@@ -1895,7 +1895,7 @@ JS_PropertyStub
 addProperty
 *
 /
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -1960,7 +1960,7 @@ JS_PropertyStub
 addProperty
 *
 /
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -3417,10 +3417,9 @@ HandleObject
 obj
 HandlePropertyName
 name
-MutableHandleValue
-rval
 JSBool
-strict
+*
+succeeded
 )
 {
 RootedObject
@@ -3449,8 +3448,7 @@ deleteProperty
 cx
 actual
 name
-rval
-strict
+succeeded
 )
 ;
 }
@@ -3465,10 +3463,9 @@ HandleObject
 obj
 uint32_t
 index
-MutableHandleValue
-rval
 JSBool
-strict
+*
+succeeded
 )
 {
 RootedObject
@@ -3497,8 +3494,7 @@ deleteElement
 cx
 actual
 index
-rval
-strict
+succeeded
 )
 ;
 }
@@ -3513,10 +3509,9 @@ HandleObject
 obj
 HandleSpecialId
 sid
-MutableHandleValue
-rval
 JSBool
-strict
+*
+succeeded
 )
 {
 RootedObject
@@ -3545,8 +3540,7 @@ deleteSpecial
 cx
 actual
 sid
-rval
-strict
+succeeded
 )
 ;
 }
@@ -3649,7 +3643,7 @@ JS_PropertyStub
 addProperty
 *
 /
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -4638,7 +4632,7 @@ JS_PropertyStub
 addProperty
 *
 /
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty

@@ -333,7 +333,7 @@ JS_PropertyStub
 addProperty
 *
 /
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -5491,6 +5491,9 @@ iii
 .
 *
 /
+JSBool
+succeeded
+;
 if
 (
 !
@@ -5506,8 +5509,7 @@ IdToValue
 id
 )
 &
-newElement
-false
+succeeded
 )
 )
 return
@@ -5689,6 +5691,9 @@ ii
 .
 *
 /
+JSBool
+succeeded
+;
 if
 (
 !
@@ -5704,8 +5709,7 @@ IdToValue
 id
 )
 &
-newElement
-false
+succeeded
 )
 )
 return
