@@ -655,12 +655,11 @@ NS_IMPL_RELEASE_INHERITED
 nsMathMLmactionFrame
 nsMathMLContainerFrame
 )
-NS_IMPL_QUERY_INTERFACE_INHERITED2
+NS_IMPL_QUERY_INTERFACE_INHERITED1
 (
 nsMathMLmactionFrame
 nsMathMLContainerFrame
 nsIDOMMouseListener
-nsIDOMEventListener
 )
 nsIFrame
 *
