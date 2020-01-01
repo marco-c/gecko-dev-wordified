@@ -230,7 +230,7 @@ gotFocus
 false
 ;
 var
-gotLoadstart
+gotLoadend
 =
 false
 ;
@@ -244,7 +244,7 @@ if
 gotFocus
 &
 &
-gotLoadstart
+gotLoadend
 )
 {
 SimpleTest
@@ -261,13 +261,13 @@ iframe
 addEventListener
 (
 '
-mozbrowserloadstart
+mozbrowserloadend
 '
 function
 (
 )
 {
-gotLoadstart
+gotLoadend
 =
 true
 ;
