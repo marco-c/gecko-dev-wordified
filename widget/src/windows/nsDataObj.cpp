@@ -4748,6 +4748,10 @@ stgm
 aFormat
 FALSE
 )
+?
+S_OK
+:
+E_UNEXPECTED
 ;
 }
 /
