@@ -2792,7 +2792,7 @@ jenv
 GetIntArrayElements
 (
 jIntArray
-false
+NULL
 )
 ;
 for
@@ -2879,7 +2879,7 @@ jenv
 GetFloatArrayElements
 (
 jFloatArray
-false
+NULL
 )
 ;
 for
