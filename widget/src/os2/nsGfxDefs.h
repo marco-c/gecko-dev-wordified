@@ -203,6 +203,9 @@ INCL_DOS
 define
 INCL_DOSERRORS
 #
+define
+INCL_DEV
+#
 include
 <
 os2
