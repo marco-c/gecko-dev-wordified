@@ -1232,7 +1232,7 @@ GetColCount
 tableFrame
 -
 >
-SetBCDamageArea
+AddBCDamageArea
 (
 damageArea
 )
