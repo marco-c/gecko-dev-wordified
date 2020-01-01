@@ -12887,7 +12887,7 @@ parentStruct
 parentContext
 -
 >
-GetStyleData
+StyleData
 (
 aSID
 )

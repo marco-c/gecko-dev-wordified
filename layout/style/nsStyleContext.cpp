@@ -1379,7 +1379,7 @@ void
 nsStyleContext
 :
 :
-GetStyleData
+StyleData
 (
 nsStyleStructID
 aSID
@@ -1588,7 +1588,7 @@ void
 *
 current
 =
-GetStyleData
+StyleData
 (
 aSID
 )

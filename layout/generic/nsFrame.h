@@ -2719,7 +2719,7 @@ virtual
 const
 void
 *
-GetStyleDataExternal
+StyleDataExternal
 (
 nsStyleStructID
 aSID

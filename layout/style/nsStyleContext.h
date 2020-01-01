@@ -1830,7 +1830,7 @@ const
 void
 *
 NS_FASTCALL
-GetStyleData
+StyleData
 (
 nsStyleStructID
 aSID
