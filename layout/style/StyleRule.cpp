@@ -6036,6 +6036,15 @@ GetParentObject
 )
 {
 return
+mRule
+?
+mRule
+-
+>
+GetDocument
+(
+)
+:
 nullptr
 ;
 }
