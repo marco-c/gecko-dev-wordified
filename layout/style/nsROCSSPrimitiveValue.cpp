@@ -150,6 +150,20 @@ h
 /
 /
 DOMCI_DATA
+#
+include
+"
+nsIURI
+.
+h
+"
+#
+include
+"
+nsDOMError
+.
+h
+"
 nsROCSSPrimitiveValue
 :
 :
@@ -1820,7 +1834,7 @@ CSS_RECT
 *
 aReturn
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_DOM_INVALID_ACCESS_ERR
@@ -1879,7 +1893,7 @@ CSS_RGBCOLOR
 *
 aReturn
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_DOM_INVALID_ACCESS_ERR
@@ -2515,7 +2529,7 @@ mValue
 .
 mString
 =
-nullptr
+nsnull
 ;
 break
 ;
