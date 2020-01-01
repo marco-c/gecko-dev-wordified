@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -150,6 +143,9 @@ h
 "
 class
 nsEditor
+;
+class
+nsINode
 ;
 /
 *
@@ -266,7 +262,7 @@ const
 nsAString
 &
 aTag
-nsIDOMNode
+nsINode
 *
 aParent
 uint32_t
@@ -292,7 +288,7 @@ RedoTransaction
 NS_IMETHOD
 GetNewNode
 (
-nsIDOMNode
+nsINode
 *
 *
 aNewNode
@@ -356,7 +352,7 @@ inserted
 /
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mParent
 ;
@@ -388,7 +384,7 @@ insert
 /
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mNewNode
 ;
@@ -412,7 +408,7 @@ ourselves
 /
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mRefNode
 ;
