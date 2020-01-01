@@ -401,6 +401,14 @@ bool
 aMerge
 )
 ;
+NS_IMETHOD
+RedirectTo
+(
+nsIURI
+*
+newURI
+)
+;
 /
 /
 nsIHttpChannelInternal
