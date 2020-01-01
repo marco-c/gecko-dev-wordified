@@ -900,6 +900,12 @@ nsJSEnvironment
 .
 h
 "
+extern
+void
+NS_ShutdownChainItemPool
+(
+)
+;
 static
 nsrefcnt
 sLayoutStaticRefcnt
@@ -1987,6 +1993,10 @@ nsXMLHttpRequest
 :
 :
 ShutdownACCache
+(
+)
+;
+NS_ShutdownChainItemPool
 (
 )
 ;
