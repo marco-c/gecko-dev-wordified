@@ -1835,12 +1835,6 @@ jsdICallHook
 >
 mFunctionHook
 ;
-nsCOMPtr
-<
-jsdIActivationCallback
->
-mActivationCallback
-;
 }
 ;
 #
