@@ -1566,12 +1566,6 @@ cx
 principals
 )
 ;
-tokenStream
-.
-close
-(
-)
-;
 JS_ARENA_RELEASE
 (
 &

@@ -10562,17 +10562,6 @@ operationCallback
 ;
 /
 *
-Interpreter
-activation
-count
-.
-*
-/
-uintN
-interpLevel
-;
-/
-*
 Client
 opaque
 pointers
