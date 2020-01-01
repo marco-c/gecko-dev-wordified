@@ -673,7 +673,9 @@ nsCoreUtils
 :
 GetDocShellTreeItemFor
 (
-mContent
+GetNode
+(
+)
 )
 ;
 NS_ASSERTION
@@ -853,10 +855,10 @@ document
 '
 s
 language
-mContent
+mDoc
 -
 >
-OwnerDoc
+DocumentNode
 (
 )
 -
