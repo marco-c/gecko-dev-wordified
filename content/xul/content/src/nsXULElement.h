@@ -2158,6 +2158,12 @@ if
 aObject
 )
 {
+mScriptObject
+.
+mObject
+=
+nsnull
+;
 return
 ;
 }
