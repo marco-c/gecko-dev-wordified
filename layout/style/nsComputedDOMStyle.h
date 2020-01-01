@@ -516,13 +516,7 @@ aCSSParseEnv
 MOZ_OVERRIDE
 ;
 static
-mozilla
-:
-:
-dom
-:
-:
-CSSValue
+nsROCSSPrimitiveValue
 *
 MatrixToCSSValue
 (

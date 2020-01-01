@@ -5982,7 +5982,7 @@ matrix
 static
 *
 /
-CSSValue
+nsROCSSPrimitiveValue
 *
 nsComputedDOMStyle
 :
