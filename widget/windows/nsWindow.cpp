@@ -7226,7 +7226,7 @@ double
 nsWindow
 :
 :
-GetDefaultScale
+GetDefaultScaleInternal
 (
 )
 {
