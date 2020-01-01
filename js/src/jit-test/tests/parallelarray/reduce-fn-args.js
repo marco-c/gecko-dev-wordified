@@ -26,7 +26,7 @@ args
 var
 N
 =
-minItemsTestingThreshold
+64
 ;
 var
 p

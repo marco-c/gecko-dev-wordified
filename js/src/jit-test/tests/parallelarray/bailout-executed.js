@@ -67,7 +67,7 @@ array
 range
 (
 0
-minItemsTestingThreshold
+768
 )
 ;
 var
@@ -107,8 +107,6 @@ makeObject
 m
 )
 ;
-/
-/
 assertStructuralEq
 (
 pa1
