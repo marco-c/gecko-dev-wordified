@@ -188,7 +188,7 @@ js
 namespace
 ion
 {
-class
+struct
 IonScript
 ;
 }
