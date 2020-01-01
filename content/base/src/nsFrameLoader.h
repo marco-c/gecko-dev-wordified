@@ -980,6 +980,16 @@ nsAString
 aManifestURL
 )
 ;
+virtual
+bool
+CheckAppHasPermission
+(
+const
+nsAString
+&
+aPermission
+)
+;
 /
 *
 *
