@@ -514,13 +514,6 @@ h
 #
 include
 "
-nsIScriptGlobalObjectOwner
-.
-h
-"
-#
-include
-"
 nsIScriptRuntime
 .
 h
