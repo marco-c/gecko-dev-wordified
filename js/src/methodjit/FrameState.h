@@ -6847,12 +6847,8 @@ Assembler
 masm
 Registers
 avail
-FrameEntry
-*
-resumeAt
-FrameEntry
-*
-bottom
+int
+trackerIndex
 )
 const
 ;

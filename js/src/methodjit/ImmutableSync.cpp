@@ -1146,15 +1146,6 @@ FrameEntry
 fe
 )
 {
-#
-ifdef
-DEBUG
-top
-=
-fe
-;
-#
-endif
 if
 (
 fe
