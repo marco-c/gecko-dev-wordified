@@ -1153,6 +1153,12 @@ eduplicate
 =
 false
 ;
+var
+dupName
+=
+"
+"
+;
 if
 (
 alias
@@ -1274,6 +1280,12 @@ eduplicate
 =
 true
 ;
+dupName
+=
+engine
+.
+name
+;
 break
 ;
 }
@@ -1337,9 +1349,7 @@ getFormattedString
 duplicateEngineMsg
 "
 [
-engine
-.
-name
+dupName
 ]
 )
 ;
