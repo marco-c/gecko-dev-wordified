@@ -10015,7 +10015,7 @@ SurfaceTypeD2D
 if
 (
 style
-=
+!
 =
 STYLE_FILL
 )
