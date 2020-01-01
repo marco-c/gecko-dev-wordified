@@ -1061,7 +1061,7 @@ observer
 ;
 if
 (
-mIsEvaluated
+mAlreadyStarted
 |
 |
 !
@@ -1111,7 +1111,7 @@ flag
 ourselves
 as
 evaluated
-mIsEvaluated
+mAlreadyStarted
 =
 PR_TRUE
 ;
@@ -1142,7 +1142,7 @@ ScriptLoader
 (
 )
 ;
-mIsEvaluated
+mAlreadyStarted
 =
 PR_TRUE
 ;
