@@ -695,7 +695,7 @@ JSSharpTable
 struct
 JSSharpObjectMap
 {
-jsrefcount
+unsigned
 depth
 ;
 uint32_t
@@ -1694,7 +1694,7 @@ js
 GCLocks
 gcLocksHash
 ;
-jsrefcount
+unsigned
 gcKeepAtoms
 ;
 size_t
