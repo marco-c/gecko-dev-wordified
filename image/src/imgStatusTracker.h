@@ -112,6 +112,9 @@ imgRequestNotifyRunnable
 class
 imgStatusTrackerObserver
 ;
+class
+imgStatusTrackerNotifyingObserver
+;
 struct
 nsIntRect
 ;
@@ -1421,6 +1424,10 @@ imgRequestNotifyRunnable
 friend
 class
 imgStatusTrackerObserver
+;
+friend
+class
+imgStatusTrackerNotifyingObserver
 ;
 void
 FireFailureNotification
