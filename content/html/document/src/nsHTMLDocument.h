@@ -2014,6 +2014,11 @@ EditingStateChanged
 (
 )
 ;
+void
+MaybeEditingStateChanged
+(
+)
+;
 PRUint32
 mContentEditableCount
 ;
