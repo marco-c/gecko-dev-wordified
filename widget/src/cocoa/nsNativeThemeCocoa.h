@@ -501,6 +501,9 @@ gfxASurface
 h
 "
 class
+CellDrawView
+;
+class
 nsNativeThemeCocoa
 :
 private
@@ -1051,6 +1054,10 @@ mDropdownCell
 NSComboBoxCell
 *
 mComboBoxCell
+;
+CellDrawView
+*
+mCellDrawView
 ;
 }
 ;
