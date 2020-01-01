@@ -8799,6 +8799,7 @@ right
 DOM
 Window
 .
+{
 nsIScriptContext
 *
 scx
@@ -8842,6 +8843,7 @@ cx
 this
 )
 ;
+}
 /
 /
 Close
@@ -61903,6 +61905,7 @@ right
 DOM
 Window
 .
+{
 nsIScriptContext
 *
 scx
@@ -61946,6 +61949,7 @@ cx
 this
 )
 ;
+}
 TimeStamp
 now
 =
@@ -62622,7 +62626,7 @@ workers
 :
 ResumeWorkersForWindow
 (
-cx
+scx
 this
 )
 ;

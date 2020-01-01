@@ -224,6 +224,9 @@ workers
 shutdown
 "
 class
+nsIScriptContext
+;
+class
 nsPIDOMWindow
 ;
 BEGIN_WORKERS_NAMESPACE
@@ -313,7 +316,7 @@ aWindow
 void
 ResumeWorkersForWindow
 (
-JSContext
+nsIScriptContext
 *
 aCx
 nsPIDOMWindow
