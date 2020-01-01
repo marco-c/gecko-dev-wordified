@@ -502,12 +502,6 @@ nsIRDFDataSource
 {
 private
 :
-nsCOMPtr
-<
-nsISupportsArray
->
-mObservers
-;
 static
 PRInt32
 gRefCnt

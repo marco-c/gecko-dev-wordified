@@ -470,6 +470,13 @@ nsIRDFDataSource
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 /
 /
 /
@@ -621,7 +628,12 @@ Init
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+RelatedLinksHandlerImpl
+nsIRelatedLinksHandler
+)
 NS_DECL_NSIRELATEDLINKSHANDLER
 NS_DECL_NSIRDFDATASOURCE
 }
