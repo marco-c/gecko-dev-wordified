@@ -788,7 +788,7 @@ ContentTabActor
 .
 prototype
 "
-contentWindow
+window
 "
 {
 get
