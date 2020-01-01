@@ -28543,7 +28543,7 @@ cx
 /
 rt
 =
-js_GetGCStringRuntime
+js_GetGCThingRuntime
 (
 str
 )
