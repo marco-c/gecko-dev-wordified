@@ -1775,6 +1775,7 @@ SetValueInternal
 (
 value
 PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -3676,6 +3677,7 @@ SetValueInternal
 (
 aValue
 PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -3991,6 +3993,7 @@ else
 SetValueInternal
 (
 aValue
+PR_TRUE
 PR_TRUE
 )
 ;
@@ -4944,6 +4947,8 @@ nsAString
 aValue
 PRBool
 aUserInput
+PRBool
+aSetValueChanged
 )
 {
 NS_PRECONDITION
@@ -5035,11 +5040,17 @@ SanitizeValue
 value
 )
 ;
+if
+(
+aSetValueChanged
+)
+{
 SetValueChanged
 (
 PR_TRUE
 )
 ;
+}
 mInputData
 .
 mState
@@ -11166,13 +11177,6 @@ mType
 nsAutoString
 value
 ;
-PRBool
-valueChanged
-=
-ValueChanged
-(
-)
-;
 GetValue
 (
 value
@@ -11192,11 +11196,7 @@ SetValueInternal
 (
 value
 PR_FALSE
-)
-;
-SetValueChanged
-(
-valueChanged
+PR_FALSE
 )
 ;
 }
@@ -12830,6 +12830,7 @@ return
 SetValueInternal
 (
 resetVal
+PR_FALSE
 PR_FALSE
 )
 ;
@@ -14478,6 +14479,7 @@ GetValue
 (
 )
 PR_FALSE
+PR_TRUE
 )
 ;
 break
