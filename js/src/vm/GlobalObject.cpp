@@ -114,6 +114,8 @@ include
 vm
 /
 GlobalObject
+-
+inl
 .
 h
 "
@@ -238,17 +240,6 @@ h
 include
 "
 jsobjinlines
-.
-h
-"
-#
-include
-"
-vm
-/
-GlobalObject
--
-inl
 .
 h
 "

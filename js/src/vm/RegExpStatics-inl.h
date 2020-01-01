@@ -123,6 +123,13 @@ RegExpStatics
 .
 h
 "
+#
+include
+"
+jsinferinlines
+.
+h
+"
 namespace
 js
 {

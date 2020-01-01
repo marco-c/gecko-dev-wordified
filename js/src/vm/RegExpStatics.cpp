@@ -114,6 +114,8 @@ include
 vm
 /
 RegExpStatics
+-
+inl
 .
 h
 "
