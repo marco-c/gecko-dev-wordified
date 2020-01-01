@@ -473,13 +473,6 @@ h
 #
 include
 "
-nsICSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsICSSLoaderObserver
 .
 h
@@ -549,6 +542,9 @@ nsXBLProtoImplField
 ;
 class
 nsXBLBinding
+;
+class
+nsCSSStyleSheet
 ;
 /
 /
@@ -1167,10 +1163,10 @@ GetRuleProcessor
 (
 )
 ;
-nsCOMArray
-<
-nsICSSStyleSheet
->
+nsXBLPrototypeResources
+:
+:
+sheet_array_type
 *
 GetStyleSheets
 (
@@ -1202,7 +1198,7 @@ mResources
 >
 mStyleSheetList
 .
-Count
+Length
 (
 )
 >

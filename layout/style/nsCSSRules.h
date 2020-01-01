@@ -572,7 +572,7 @@ const
 NS_IMETHOD
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -929,7 +929,7 @@ methods
 NS_IMETHOD
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )

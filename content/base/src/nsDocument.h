@@ -4984,7 +4984,7 @@ nsIURI
 uri
 PRBool
 isAgentSheet
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 sheet

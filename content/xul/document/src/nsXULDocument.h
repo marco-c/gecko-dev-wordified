@@ -1051,7 +1051,7 @@ nsICSSLoaderObserver
 NS_IMETHOD
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -1635,9 +1635,12 @@ DoneWalking
 .
 *
 /
-nsCOMArray
+nsTArray
 <
-nsICSSStyleSheet
+nsRefPtr
+<
+nsCSSStyleSheet
+>
 >
 mOverlaySheets
 ;

@@ -486,6 +486,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -514,7 +521,7 @@ class
 nsICSSLoaderObserver
 ;
 class
-nsICSSStyleSheet
+nsCSSStyleSheet
 ;
 class
 nsIContent
@@ -1702,7 +1709,7 @@ aParentSheet
 nsresult
 LoadChildSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 nsIURI
@@ -2008,7 +2015,7 @@ PRBool
 aEnableUnsafeRules
 PRBool
 aUseSystemPrincipal
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -2036,7 +2043,7 @@ LoadSheetSync
 nsIURI
 *
 aURL
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -2259,7 +2266,7 @@ aCharset
 nsICSSLoaderObserver
 *
 aObserver
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -2830,7 +2837,7 @@ aSyncLoad
 StyleSheetState
 &
 aSheetState
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -2896,7 +2903,7 @@ what
 nsresult
 PrepareSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 const
@@ -2924,7 +2931,7 @@ nsnull
 nsresult
 InsertSheetInDoc
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsIContent
@@ -2938,10 +2945,10 @@ aDocument
 nsresult
 InsertChildSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 nsICSSImportRule
@@ -2966,7 +2973,7 @@ const
 nsCString
 &
 aCharset
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -3070,7 +3077,7 @@ PostLoadEvent
 nsIURI
 *
 aURI
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsICSSLoaderObserver
@@ -3312,10 +3319,10 @@ LoadDataArray
 aDatasToNotify
 )
 ;
-nsInterfaceHashtable
+nsRefPtrHashtable
 <
 URIAndPrincipalHashKey
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mCompleteSheets
 ;

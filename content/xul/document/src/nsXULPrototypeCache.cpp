@@ -500,7 +500,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -1642,7 +1642,7 @@ nsXULPrototypeCache
 :
 PutStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )
@@ -2158,9 +2158,9 @@ FlushSkinSheets
 nsIURI
 *
 aKey
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 &
 aSheet

@@ -1954,7 +1954,7 @@ nsContentSink
 :
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool

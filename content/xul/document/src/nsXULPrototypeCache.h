@@ -485,13 +485,6 @@ h
 #
 include
 "
-nsICSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -547,6 +540,9 @@ h
 "
 class
 nsIFastLoadService
+;
+class
+nsCSSStyleSheet
 ;
 struct
 CacheScriptEntry
@@ -884,7 +880,7 @@ nsnull
 .
 *
 /
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 GetStyleSheet
 (
@@ -935,7 +931,7 @@ itself
 nsresult
 PutStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )
@@ -1020,10 +1016,10 @@ mPrototypeTable
 owns
 the
 prototypes
-nsInterfaceHashtable
+nsRefPtrHashtable
 <
 nsURIHashKey
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mStyleSheetTable
 ;

@@ -723,7 +723,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -1208,7 +1208,7 @@ aTitle
 nsIURI
 *
 aURI
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsIStyleSheetLinkingElement
@@ -1244,7 +1244,7 @@ aLoader
 nsIURI
 *
 aURI
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 SheetLoadData
@@ -1276,7 +1276,7 @@ aLoader
 nsIURI
 *
 aURI
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -1419,9 +1419,9 @@ re
 loading
 data
 for
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mSheet
 ;
@@ -2294,7 +2294,7 @@ aTitle
 nsIURI
 *
 aURI
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsIStyleSheetLinkingElement
@@ -2416,7 +2416,7 @@ aLoader
 nsIURI
 *
 aURI
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 SheetLoadData
@@ -2600,7 +2600,7 @@ aLoader
 nsIURI
 *
 aURI
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -6810,7 +6810,7 @@ CreateSheet
 )
 creates
 an
-nsICSSStyleSheet
+nsCSSStyleSheet
 object
 for
 the
@@ -6919,7 +6919,7 @@ aSyncLoad
 StyleSheetState
 &
 aSheetState
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -7025,9 +7025,9 @@ aSheetState
 =
 eSheetComplete
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -7893,7 +7893,7 @@ Loader
 :
 PrepareSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 const
@@ -8205,7 +8205,7 @@ Loader
 :
 InsertSheetInDoc
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsIContent
@@ -8816,10 +8816,10 @@ Loader
 :
 InsertChildSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 nsICSSImportRule
@@ -12313,9 +12313,9 @@ CreateSheet
 StyleSheetState
 state
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -12791,9 +12791,9 @@ check
 StyleSheetState
 state
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -13122,7 +13122,7 @@ Loader
 :
 LoadChildSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 nsIURI
@@ -13275,10 +13275,7 @@ nsIDOMStyleSheet
 >
 nextParentSheet
 (
-do_QueryInterface
-(
 aParentSheet
-)
 )
 ;
 NS_ENSURE_TRUE
@@ -13615,10 +13612,7 @@ asynchronously
 .
 observer
 =
-do_QueryInterface
-(
 aParentSheet
-)
 ;
 }
 /
@@ -13647,9 +13641,9 @@ loop
 )
 do
 so
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -13892,7 +13886,7 @@ PRBool
 aAllowUnsafeRules
 PRBool
 aUseSystemPrincipal
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -13947,7 +13941,7 @@ aCharset
 nsICSSLoaderObserver
 *
 aObserver
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -14073,7 +14067,7 @@ const
 nsCString
 &
 aCharset
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -14232,9 +14226,9 @@ rv
 StyleSheetState
 state
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -14441,7 +14435,7 @@ PostLoadEvent
 nsIURI
 *
 aURI
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsICSSLoaderObserver

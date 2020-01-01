@@ -559,13 +559,6 @@ h
 #
 include
 "
-nsICSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -672,6 +665,9 @@ nsISelectionController
 ;
 class
 nsIDOMEventTarget
+;
+class
+nsCSSStyleSheet
 ;
 #
 define
@@ -1535,7 +1531,7 @@ sheet
 NS_IMETHOD
 CreateTxnForAddStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 AddStyleSheetTxn
@@ -1560,7 +1556,7 @@ sheet
 NS_IMETHOD
 CreateTxnForRemoveStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 RemoveStyleSheetTxn

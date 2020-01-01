@@ -614,6 +614,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 class
 nsIDOMKeyEvent
 ;
@@ -2734,7 +2741,7 @@ nsICSSLoaderObserver
 NS_IMETHOD
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -3054,7 +3061,7 @@ const
 nsAString
 &
 aURL
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 _retval
@@ -3063,7 +3070,7 @@ _retval
 NS_IMETHOD
 GetURLForStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 nsAString
@@ -3092,7 +3099,7 @@ const
 nsAString
 &
 aURL
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )
@@ -5379,9 +5386,12 @@ nsString
 >
 mStyleSheetURLs
 ;
-nsCOMArray
+nsTArray
 <
-nsICSSStyleSheet
+nsRefPtr
+<
+nsCSSStyleSheet
+>
 >
 mStyleSheets
 ;

@@ -731,7 +731,7 @@ code
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -25381,7 +25381,7 @@ nsEditor
 :
 CreateTxnForAddStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 AddStyleSheetTxn
@@ -25433,7 +25433,7 @@ nsEditor
 :
 CreateTxnForRemoveStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 RemoveStyleSheetTxn

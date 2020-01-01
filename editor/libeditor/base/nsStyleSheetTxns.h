@@ -451,13 +451,6 @@ nsIEditor
 .
 h
 "
-#
-include
-"
-nsICSSStyleSheet
-.
-h
-"
 class
 AddStyleSheetTxn
 :
@@ -497,7 +490,7 @@ Init
 nsIEditor
 *
 aEditor
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -537,9 +530,9 @@ that
 created
 this
 transaction
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mSheet
 ;
@@ -591,7 +584,7 @@ Init
 nsIEditor
 *
 aEditor
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -631,9 +624,9 @@ that
 created
 this
 transaction
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mSheet
 ;

@@ -623,7 +623,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -6522,9 +6522,9 @@ nsnull
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mPrefStyleSheet
 ;

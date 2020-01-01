@@ -575,7 +575,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -5218,7 +5218,7 @@ txTransformNotifier
 :
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool

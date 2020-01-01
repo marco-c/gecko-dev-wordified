@@ -615,7 +615,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -2728,7 +2728,7 @@ nsXMLContentSink
 :
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -7045,9 +7045,9 @@ if
 uri
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;

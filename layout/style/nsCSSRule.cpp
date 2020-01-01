@@ -454,7 +454,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -559,7 +559,7 @@ nsCSSRule
 :
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )

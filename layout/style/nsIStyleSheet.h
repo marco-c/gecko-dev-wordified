@@ -595,7 +595,7 @@ QueryInterface
 |
 d
 to
-nsICSSStyleSheet
+nsCSSStyleSheet
 with
 which
 the

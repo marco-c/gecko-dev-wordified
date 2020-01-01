@@ -614,7 +614,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -1501,7 +1501,7 @@ CSSParserImpl
 nsresult
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -4151,9 +4151,9 @@ we
 re
 parsing
 into
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mSheet
 ;
@@ -4883,7 +4883,7 @@ CSSParserImpl
 :
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -54940,7 +54940,7 @@ css
 Loader
 *
 aLoader
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -55131,7 +55131,7 @@ nsCSSParser
 :
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )

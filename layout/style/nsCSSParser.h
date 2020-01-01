@@ -480,7 +480,7 @@ class
 nsICSSStyleRule
 ;
 class
-nsICSSStyleSheet
+nsCSSStyleSheet
 ;
 class
 nsIPrincipal
@@ -538,7 +538,7 @@ Loader
 aLoader
 =
 nsnull
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 =
@@ -637,7 +637,7 @@ must
 /
 implement
 the
-nsICSSStyleSheet
+nsCSSStyleSheet
 interface
 .
 Null
@@ -658,7 +658,7 @@ reference
 nsresult
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )

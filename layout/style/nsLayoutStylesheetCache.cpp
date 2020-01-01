@@ -486,6 +486,13 @@ nsIXULRuntime
 .
 h
 "
+#
+include
+"
+nsCSSStyleSheet
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsLayoutStylesheetCache
@@ -620,7 +627,7 @@ return
 NS_OK
 ;
 }
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -730,7 +737,7 @@ gStyleCache
 mScrollbarsSheet
 ;
 }
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -839,7 +846,7 @@ gStyleCache
 mFormsSheet
 ;
 }
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -867,7 +874,7 @@ gStyleCache
 mUserContentSheet
 ;
 }
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -895,7 +902,7 @@ gStyleCache
 mUserChromeSheet
 ;
 }
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -923,7 +930,7 @@ gStyleCache
 mUASheet
 ;
 }
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -1436,9 +1443,9 @@ LoadSheetFile
 nsIFile
 *
 aFile
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 &
 aSheet
@@ -1497,9 +1504,9 @@ LoadSheet
 nsIURI
 *
 aURI
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 &
 aSheet
