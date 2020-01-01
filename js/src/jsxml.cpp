@@ -10979,9 +10979,8 @@ filename
 ;
 lineno
 =
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 i
 .
 fp

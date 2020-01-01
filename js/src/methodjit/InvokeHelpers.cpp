@@ -6151,9 +6151,8 @@ OpcodeNames
 [
 op
 ]
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 script
 pc
 )
