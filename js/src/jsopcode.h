@@ -3700,8 +3700,6 @@ such
 as
 JSOP_CALL
 *
-or
-JSOP_NEWARRAY
 (
 for
 such
