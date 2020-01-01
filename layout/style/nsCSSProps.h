@@ -1801,13 +1801,6 @@ kBackgroundAttachmentKTable
 static
 const
 PRInt32
-kBackgroundClipKTable
-[
-]
-;
-static
-const
-PRInt32
 kBackgroundInlinePolicyKTable
 [
 ]
