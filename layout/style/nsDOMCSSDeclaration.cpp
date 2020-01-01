@@ -1962,6 +1962,7 @@ flags_
 datastruct_
 member_
 type_
+\
 kwtable_
 stylestruct_
 stylestructoffset_

@@ -3759,6 +3759,7 @@ id_
 method_
 flags_
 datastruct_
+\
 member_
 type_
 kwtable_
@@ -3799,6 +3800,7 @@ flags_
 datastruct_
 member_
 type_
+\
 kwtable_
 stylestruct_
 stylestructoffset_
