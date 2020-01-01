@@ -458,6 +458,24 @@ argv
 ]
   
 #
+Print
+the
+python
+version
+  
+print
+'
+Python
+:
+%
+s
+'
+%
+sys
+.
+version
+  
+#
 The
 data
 is
@@ -675,6 +693,8 @@ PYTHONHOME
 None
 )
   
+returncode
+=
 call
 (
 [
@@ -693,6 +713,25 @@ destination
 env
 =
 env
+)
+  
+if
+returncode
+:
+    
+print
+'
+Failure
+to
+install
+virtualenv
+'
+    
+sys
+.
+exit
+(
+returncode
 )
   
 if
@@ -747,6 +786,8 @@ pip
 '
 )
   
+returncode
+=
 call
 (
 [
@@ -760,6 +801,25 @@ PACKAGES
 env
 =
 env
+)
+  
+if
+returncode
+:
+    
+print
+'
+Failure
+to
+install
+packages
+'
+    
+sys
+.
+exit
+(
+returncode
 )
 if
 __name__
