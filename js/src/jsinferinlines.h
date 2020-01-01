@@ -6501,7 +6501,7 @@ struct
 TypeObjectKey
 {
 static
-uint32
+intptr_t
 keyBits
 (
 TypeObject
@@ -6511,7 +6511,7 @@ obj
 {
 return
 (
-uint32
+intptr_t
 )
 obj
 ;
