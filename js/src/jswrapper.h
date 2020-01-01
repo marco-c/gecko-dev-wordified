@@ -2767,7 +2767,10 @@ JSObject
 newTarget
 )
 ;
+JS_FRIEND_API
+(
 bool
+)
 RemapAllWrappersForObject
 (
 JSContext

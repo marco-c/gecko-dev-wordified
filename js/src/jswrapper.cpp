@@ -6763,7 +6763,10 @@ wrappers
 are
 recomputed
 .
+JS_FRIEND_API
+(
 bool
+)
 js
 :
 :
