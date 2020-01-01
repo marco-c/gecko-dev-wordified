@@ -3610,6 +3610,13 @@ isEnabled
 )
 return
 ;
+AutoStopVerifyingBarriers
+av
+(
+rt
+false
+)
+;
 if
 (
 position
@@ -3630,13 +3637,6 @@ gcHelperThread
 .
 waitBackgroundSweepEnd
 (
-)
-;
-AutoStopVerifyingBarriers
-av
-(
-rt
-false
 )
 ;
 /
