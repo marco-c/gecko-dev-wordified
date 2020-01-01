@@ -6544,6 +6544,17 @@ object
 hasSingletonType
 (
 )
+&
+&
+object
+-
+>
+markIfUnmarked
+(
+getMarkColor
+(
+)
+)
 )
 pushObject
 (
