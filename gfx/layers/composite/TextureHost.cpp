@@ -367,6 +367,16 @@ mBuffer
 {
 if
 (
+!
+(
+mFlags
+&
+OwnByClient
+)
+)
+{
+if
+(
 mDeAllocator
 )
 {
@@ -397,6 +407,7 @@ SurfaceDescriptor
 Tnull_t
 )
 ;
+}
 }
 delete
 mBuffer

@@ -285,6 +285,13 @@ ISurfaceAllocator
 .
 h
 "
+#
+include
+"
+nsTraceRefcntImpl
+.
+h
+"
 using
 namespace
 mozilla
