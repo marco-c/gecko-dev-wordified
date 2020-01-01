@@ -1448,11 +1448,14 @@ nsIDocument
 >
 document
 =
+do_QueryInterface
+(
 window
 -
 >
-GetExtantDoc
+GetExtantDocument
 (
+)
 )
 ;
 if

@@ -14354,7 +14354,7 @@ do_QueryInterface
 win
 -
 >
-GetExtantDoc
+GetExtantDocument
 (
 )
 )
@@ -30741,14 +30741,14 @@ return
 NS_OK
 ;
 }
-nsIDocument
+nsIDOMDocument
 *
 currentDoc
 =
 win
 -
 >
-GetExtantDoc
+GetExtantDocument
 (
 )
 ;

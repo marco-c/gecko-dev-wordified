@@ -1996,11 +1996,14 @@ nsIDocument
 >
 d
 =
+do_QueryInterface
+(
 mOwner
 -
 >
-GetExtantDoc
+GetExtantDocument
 (
+)
 )
 ;
 return
