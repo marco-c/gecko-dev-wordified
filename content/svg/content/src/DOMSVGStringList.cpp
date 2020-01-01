@@ -926,7 +926,7 @@ return
 tests
 -
 >
-GetStringListAttribute
+GetOrCreateStringListAttribute
 (
 mAttrEnum
 )
