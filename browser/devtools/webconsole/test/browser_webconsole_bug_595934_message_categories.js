@@ -939,6 +939,9 @@ length
 waitForSuccess
 (
 {
+timeout
+:
+10000
 name
 :
 "
@@ -1264,6 +1267,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 addTab
 (
 "
