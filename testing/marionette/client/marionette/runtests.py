@@ -2162,17 +2162,24 @@ ini
 '
 :
             
+testargs
+=
+{
+'
+skip
+'
+:
+'
+false
+'
+}
+            
 if
 testtype
 is
 not
 None
 :
-                
-testargs
-=
-{
-}
                 
 testtypes
 =
@@ -2293,23 +2300,6 @@ read
 filepath
 )
             
-if
-testtype
-is
-None
-:
-                
-manifest_tests
-=
-manifest
-.
-get
-(
-)
-            
-else
-:
-                
 manifest_tests
 =
 manifest
