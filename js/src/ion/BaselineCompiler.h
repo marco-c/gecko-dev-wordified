@@ -302,6 +302,11 @@ JSOP_OR
 \
 _
 (
+JSOP_NOT
+)
+\
+_
+(
 JSOP_POS
 )
 \
