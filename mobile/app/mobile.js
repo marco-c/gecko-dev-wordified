@@ -1884,7 +1884,7 @@ layout
 .
 spellcheckDefault
 "
-1
+0
 )
 ;
 /
