@@ -7853,7 +7853,7 @@ loop
 hoistArrayLengthCheck
 (
 obj
-id
+1
 )
 ;
 if
@@ -10527,7 +10527,7 @@ loop
 hoistArrayLengthCheck
 (
 obj
-id
+0
 )
 ;
 /
