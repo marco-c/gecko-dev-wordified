@@ -529,6 +529,8 @@ chromeWindow
 ;
 tab
 .
+linkedBrowser
+.
 addEventListener
 (
 "
@@ -547,7 +549,7 @@ document
 =
 getTabContentWindow
 (
-this
+tab
 )
 ;
 if
@@ -591,7 +593,9 @@ defaultView
 ;
 }
 }
+true
 )
+;
 setTabURL
 (
 tab
