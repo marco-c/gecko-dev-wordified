@@ -792,14 +792,9 @@ nsITimer
 >
 mUpdateTimer
 ;
-nsIDOMWindow
-*
+nsWeakPtr
 mDOMWindow
 ;
-/
-/
-Weak
-reference
 nsWeakPtr
 mDocShell
 ;
