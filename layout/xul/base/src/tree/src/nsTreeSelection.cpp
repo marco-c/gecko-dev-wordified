@@ -3921,12 +3921,6 @@ mFirstRange
 return
 NS_OK
 ;
-nsTreeRange
-*
-newRange
-=
-nsnull
-;
 PRBool
 selChanged
 =
@@ -3934,9 +3928,19 @@ PR_FALSE
 ;
 nsTreeRange
 *
+oldFirstRange
+=
+mFirstRange
+;
+nsTreeRange
+*
 curr
 =
 mFirstRange
+;
+mFirstRange
+=
+nsnull
 ;
 while
 (
@@ -3975,7 +3979,7 @@ no
 change
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 curr
 -
@@ -4015,7 +4019,7 @@ shift
 down
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 curr
 -
@@ -4058,7 +4062,7 @@ two
 ranges
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 curr
 -
@@ -4071,7 +4075,7 @@ aIndex
 ;
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 aIndex
 +
@@ -4117,7 +4121,7 @@ no
 change
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 curr
 -
@@ -4187,7 +4191,7 @@ shift
 up
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 curr
 -
@@ -4256,7 +4260,7 @@ the
 range
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 aIndex
 curr
@@ -4304,7 +4308,7 @@ the
 range
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 curr
 -
@@ -4329,7 +4333,7 @@ the
 range
 ADD_NEW_RANGE
 (
-newRange
+mFirstRange
 this
 curr
 -
@@ -4354,11 +4358,7 @@ mNext
 ;
 }
 delete
-mFirstRange
-;
-mFirstRange
-=
-newRange
+oldFirstRange
 ;
 /
 /
