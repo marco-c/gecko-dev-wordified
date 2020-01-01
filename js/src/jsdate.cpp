@@ -2365,7 +2365,7 @@ t
 ;
 }
 int64_t
-timeMilliseconds
+utcMilliseconds
 =
 static_cast
 <
@@ -2383,7 +2383,7 @@ dtInfo
 >
 getDSTOffsetMilliseconds
 (
-timeMilliseconds
+utcMilliseconds
 )
 ;
 return
