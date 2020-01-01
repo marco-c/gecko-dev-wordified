@@ -7272,6 +7272,10 @@ newborn
 GCX_OBJECT
 ]
 =
+(
+JSGCThing
+*
+)
 JSVAL_TO_GCTHING
 (
 pval
