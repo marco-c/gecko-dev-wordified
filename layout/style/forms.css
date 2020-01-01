@@ -939,9 +939,6 @@ cursor
 :
 text
 ;
--
-moz
--
 resize
 :
 both
@@ -1124,9 +1121,6 @@ mode
 :
 inherit
 ;
--
-moz
--
 resize
 :
 inherit
@@ -1207,9 +1201,6 @@ events
 :
 none
 ;
--
-moz
--
 resize
 :
 none

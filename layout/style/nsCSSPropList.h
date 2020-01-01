@@ -6460,12 +6460,9 @@ eStyleAnimType_None
 )
 CSS_PROP_DISPLAY
 (
--
-moz
--
 resize
 resize
-MozResize
+Resize
 0
 Display
 mResize
