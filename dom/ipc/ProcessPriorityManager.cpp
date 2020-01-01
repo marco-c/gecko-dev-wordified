@@ -543,7 +543,7 @@ if
 service
 -
 >
-ContentChannelIsActive
+ContentOrNormalChannelIsActive
 (
 )
 )
