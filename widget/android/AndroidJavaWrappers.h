@@ -2932,6 +2932,9 @@ PROXIMITY_EVENT
 ACTIVITY_RESUMING
 =
 24
+SCREENSHOT
+=
+25
 dummy_java_enum_list_end
 }
 ;
