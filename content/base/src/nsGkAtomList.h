@@ -2782,16 +2782,6 @@ end_before
 )
 GK_ATOM
 (
-endsInDiacritic
-"
-EndsInDiacritic
-"
-)
-/
-/
-PRUint32
-GK_ATOM
-(
 equalsize
 "
 equalsize
