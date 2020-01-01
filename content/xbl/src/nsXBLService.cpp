@@ -7277,6 +7277,16 @@ data
 "
 )
 )
+&
+&
+!
+SchemeIs
+(
+aBindingURI
+"
+chrome
+"
+)
 )
 {
 nsresult
