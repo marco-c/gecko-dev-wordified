@@ -261,7 +261,7 @@ protected
 virtual
 PLayerTransactionChild
 *
-AllocPLayerTransaction
+AllocPLayerTransactionChild
 (
 const
 LayersBackend
@@ -279,7 +279,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPLayerTransaction
+DeallocPLayerTransactionChild
 (
 PLayerTransactionChild
 *

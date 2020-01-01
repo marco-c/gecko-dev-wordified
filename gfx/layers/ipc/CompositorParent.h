@@ -1030,7 +1030,7 @@ protected
 virtual
 PLayerTransactionParent
 *
-AllocPLayerTransaction
+AllocPLayerTransactionParent
 (
 const
 LayersBackend
@@ -1047,7 +1047,7 @@ aTextureFactoryIdentifier
 ;
 virtual
 bool
-DeallocPLayerTransaction
+DeallocPLayerTransactionParent
 (
 PLayerTransactionParent
 *

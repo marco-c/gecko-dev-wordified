@@ -643,7 +643,7 @@ PGrallocBufferParent
 ImageBridgeParent
 :
 :
-AllocPGrallocBuffer
+AllocPGrallocBufferParent
 (
 const
 gfxIntSize
@@ -700,7 +700,7 @@ bool
 ImageBridgeParent
 :
 :
-DeallocPGrallocBuffer
+DeallocPGrallocBufferParent
 (
 PGrallocBufferParent
 *
@@ -742,7 +742,7 @@ PCompositableParent
 ImageBridgeParent
 :
 :
-AllocPCompositable
+AllocPCompositableParent
 (
 const
 TextureInfo
@@ -779,7 +779,7 @@ bool
 ImageBridgeParent
 :
 :
-DeallocPCompositable
+DeallocPCompositableParent
 (
 PCompositableParent
 *

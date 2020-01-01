@@ -2926,7 +2926,7 @@ PLayerTransactionParent
 CompositorParent
 :
 :
-AllocPLayerTransaction
+AllocPLayerTransactionParent
 (
 const
 LayersBackend
@@ -3173,7 +3173,7 @@ bool
 CompositorParent
 :
 :
-DeallocPLayerTransaction
+DeallocPLayerTransactionParent
 (
 PLayerTransactionParent
 *
@@ -3946,7 +3946,7 @@ true
 virtual
 PLayerTransactionParent
 *
-AllocPLayerTransaction
+AllocPLayerTransactionParent
 (
 const
 LayersBackend
@@ -3964,7 +3964,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPLayerTransaction
+DeallocPLayerTransactionParent
 (
 PLayerTransactionParent
 *
@@ -4413,7 +4413,7 @@ PLayerTransactionParent
 CrossProcessCompositorParent
 :
 :
-AllocPLayerTransaction
+AllocPLayerTransactionParent
 (
 const
 LayersBackend
@@ -4478,7 +4478,7 @@ bool
 CrossProcessCompositorParent
 :
 :
-DeallocPLayerTransaction
+DeallocPLayerTransactionParent
 (
 PLayerTransactionParent
 *

@@ -224,7 +224,7 @@ aOtherProcess
 virtual
 PGrallocBufferParent
 *
-AllocPGrallocBuffer
+AllocPGrallocBufferParent
 (
 const
 gfxIntSize
@@ -242,7 +242,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPGrallocBuffer
+DeallocPGrallocBufferParent
 (
 PGrallocBufferParent
 *
@@ -278,7 +278,7 @@ aEdits
 ;
 PCompositableParent
 *
-AllocPCompositable
+AllocPCompositableParent
 (
 const
 TextureInfo
@@ -290,7 +290,7 @@ uint64_t
 MOZ_OVERRIDE
 ;
 bool
-DeallocPCompositable
+DeallocPCompositableParent
 (
 PCompositableParent
 *

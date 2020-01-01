@@ -427,7 +427,7 @@ MOZ_OVERRIDE
 virtual
 PGrallocBufferParent
 *
-AllocPGrallocBuffer
+AllocPGrallocBufferParent
 (
 const
 gfxIntSize
@@ -449,7 +449,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPGrallocBuffer
+DeallocPGrallocBufferParent
 (
 PGrallocBufferParent
 *
@@ -460,14 +460,14 @@ MOZ_OVERRIDE
 virtual
 PLayerParent
 *
-AllocPLayer
+AllocPLayerParent
 (
 )
 MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPLayer
+DeallocPLayerParent
 (
 PLayerParent
 *
@@ -478,7 +478,7 @@ MOZ_OVERRIDE
 virtual
 PCompositableParent
 *
-AllocPCompositable
+AllocPCompositableParent
 (
 const
 TextureInfo
@@ -489,7 +489,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPCompositable
+DeallocPCompositableParent
 (
 PCompositableParent
 *

@@ -1107,7 +1107,7 @@ const
 ;
 PCompositableChild
 *
-AllocPCompositable
+AllocPCompositableChild
 (
 const
 TextureInfo
@@ -1120,7 +1120,7 @@ aID
 MOZ_OVERRIDE
 ;
 bool
-DeallocPCompositable
+DeallocPCompositableChild
 (
 PCompositableChild
 *
@@ -1159,7 +1159,7 @@ ImageBridgeChild
 virtual
 PGrallocBufferChild
 *
-AllocPGrallocBuffer
+AllocPGrallocBufferChild
 (
 const
 gfxIntSize
@@ -1177,7 +1177,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPGrallocBuffer
+DeallocPGrallocBufferChild
 (
 PGrallocBufferChild
 *
