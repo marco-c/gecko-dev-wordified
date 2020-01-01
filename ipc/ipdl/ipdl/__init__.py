@@ -528,7 +528,7 @@ open
 (
 path
 '
-w
+wb
 '
 )
 )

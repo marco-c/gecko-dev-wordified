@@ -446,11 +446,9 @@ pname
 return
 _joinProtocolNamespacesName
 (
-os
-.
-path
-.
-sep
+'
+/
+'
 p
 pname
 )
