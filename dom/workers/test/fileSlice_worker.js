@@ -105,7 +105,7 @@ slicedBlob
 =
 blob
 .
-mozSlice
+slice
 (
 start
 )
@@ -124,7 +124,7 @@ slicedBlob
 =
 blob
 .
-mozSlice
+slice
 (
 start
 end
@@ -137,7 +137,7 @@ slicedBlob
 =
 blob
 .
-mozSlice
+slice
 (
 start
 end

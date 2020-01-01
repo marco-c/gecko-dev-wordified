@@ -906,7 +906,7 @@ rv
 blob
 -
 >
-MozSlice
+Slice
 (
 skipStart
 skipStart
@@ -1059,7 +1059,7 @@ rv
 blob
 -
 >
-MozSlice
+Slice
 (
 0
 length

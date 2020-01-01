@@ -1015,7 +1015,7 @@ true
 }
 static
 JSBool
-MozSlice
+Slice
 (
 JSContext
 *
@@ -1056,7 +1056,7 @@ GetInstancePrivate
 aCx
 obj
 "
-mozSlice
+slice
 "
 )
 ;
@@ -1156,7 +1156,7 @@ NS_FAILED
 blob
 -
 >
-MozSlice
+Slice
 (
 static_cast
 <
@@ -1301,9 +1301,9 @@ sFunctions
 JS_FN
 (
 "
-mozSlice
+slice
 "
-MozSlice
+Slice
 1
 JSPROP_ENUMERATE
 )
