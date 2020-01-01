@@ -7772,7 +7772,7 @@ nsIDOMElement
 >
 element
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -7829,7 +7829,7 @@ nsIFrame
 *
 sourceFrame
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetFrameFor
@@ -7862,7 +7862,7 @@ value
 )
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -8066,7 +8066,7 @@ AppendInt
 headLevel
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -8207,7 +8207,7 @@ AppendInt
 lineNumber
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -8394,7 +8394,7 @@ boundsRect
 height
 ;
 return
-nsAccUtils
+nsCoreUtils
 :
 :
 ConvertScreenCoordsTo
@@ -8523,7 +8523,7 @@ coords
 nsresult
 rv
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 ConvertToScreenCoords
@@ -9843,7 +9843,7 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -10442,7 +10442,7 @@ caretContent
 |
 |
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 IsAncestorOf
@@ -12162,7 +12162,7 @@ rv
 )
 ;
 return
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollSubstringTo
@@ -12250,7 +12250,7 @@ coords
 nsresult
 rv
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 ConvertToScreenCoords
@@ -12387,7 +12387,7 @@ scrollable
 area
 to
 use
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollSubstringTo
@@ -12482,7 +12482,7 @@ height
 ;
 rv
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollSubstringTo
@@ -12556,7 +12556,7 @@ traversed
 scrollable
 area
 .
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollFrameToPoint
@@ -13697,7 +13697,7 @@ if
 aAttributes
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -13756,7 +13756,7 @@ nsIDOMElement
 >
 sourceElm
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -13792,7 +13792,7 @@ mDOMNode
 nsAutoString
 lang
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 GetLanguageFor
@@ -13905,7 +13905,7 @@ lang
 rootLang
 )
 )
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -13968,7 +13968,7 @@ nsIDOMElement
 >
 sourceElm
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -13983,7 +13983,7 @@ nsIDOMElement
 >
 rootElm
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -14062,7 +14062,7 @@ nsIFrame
 *
 sourceFrame
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetFrameFor
@@ -14088,7 +14088,7 @@ aIncludeDefAttrs
 )
 rootFrame
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetFrameFor
@@ -14116,7 +14116,7 @@ value
 )
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -14179,7 +14179,7 @@ nsIDOMElement
 >
 rootElm
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -14323,7 +14323,7 @@ nsIDOMElement
 >
 currElm
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -14512,7 +14512,7 @@ nsIDOMElement
 >
 currElm
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -14727,7 +14727,7 @@ nsIDOMElement
 >
 currElm
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -14990,7 +14990,7 @@ nsIDOMElement
 >
 currElm
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor

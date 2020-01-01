@@ -1145,7 +1145,7 @@ nsIDocShellTreeItem
 >
 docShellAsItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -1475,7 +1475,7 @@ nsIDocShellTreeItem
 >
 treeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -2550,7 +2550,7 @@ nsIDocShellTreeItem
 >
 treeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -3335,7 +3335,7 @@ nsIAccessible
 >
 menuBarAccessible
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAncestorWithRole
@@ -3379,7 +3379,7 @@ if
 mCurrentARIAMenubar
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -4444,7 +4444,7 @@ gLastFocusedNode
 |
 |
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 IsAncestorOf
@@ -5147,7 +5147,7 @@ UpdateTreeSelection
 )
 ;
 return
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -5161,7 +5161,7 @@ accessible
 ;
 }
 return
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -5483,7 +5483,7 @@ AlertActive
 )
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -5639,7 +5639,7 @@ if
 event
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -5677,7 +5677,7 @@ nsIAccessibleRole
 ROLE_MENUPOPUP
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -6140,7 +6140,7 @@ aTargetNode
 PR_TRUE
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -6184,7 +6184,7 @@ aTargetNode
 PR_TRUE
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -6245,7 +6245,7 @@ mouseover
 )
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -6915,7 +6915,7 @@ nsIDocShellTreeItem
 >
 treeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -7040,7 +7040,7 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor

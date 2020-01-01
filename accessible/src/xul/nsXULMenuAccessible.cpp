@@ -2612,7 +2612,7 @@ We
 do
 not
 use
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAccesskeyFor
@@ -3174,7 +3174,7 @@ rv
 rv
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttrsForXULContainerItem

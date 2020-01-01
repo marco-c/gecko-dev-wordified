@@ -480,7 +480,7 @@ h
 #
 include
 "
-nsAccessibilityUtils
+nsCoreUtils
 .
 h
 "
@@ -1743,7 +1743,7 @@ mDOMNode
 PRBool
 isOnclick
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 HasListener
@@ -1789,7 +1789,7 @@ GetParent
 {
 isOnclick
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 HasListener

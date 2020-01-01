@@ -1023,7 +1023,7 @@ AppendInt
 idx
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr

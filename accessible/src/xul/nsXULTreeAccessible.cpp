@@ -4022,7 +4022,7 @@ name
 cachedName
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -5819,7 +5819,7 @@ set
 the
 group
 attributes
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccGroupAttrs
@@ -5857,7 +5857,7 @@ if
 isCycler
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr

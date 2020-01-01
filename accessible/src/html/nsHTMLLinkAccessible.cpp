@@ -989,7 +989,7 @@ out
 PRBool
 isOnclick
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 HasListener

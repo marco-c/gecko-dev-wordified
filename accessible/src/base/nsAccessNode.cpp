@@ -2487,7 +2487,7 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -2902,7 +2902,7 @@ PRInt16
 vPercent
 hPercent
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 ConvertScrollTypeToPercents
@@ -2962,7 +2962,7 @@ coords
 nsresult
 rv
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 ConvertToScreenCoords
@@ -3000,7 +3000,7 @@ GetParent
 )
 )
 )
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollFrameToPoint
@@ -3696,7 +3696,7 @@ nsIDOMElement
 >
 domElement
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -4963,7 +4963,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-nsAccUtils
+nsCoreUtils
 :
 :
 GetLanguageFor

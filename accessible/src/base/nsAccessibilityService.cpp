@@ -454,7 +454,7 @@ h
 #
 include
 "
-nsAccessibilityUtils
+nsCoreUtils
 .
 h
 "
@@ -2918,7 +2918,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetRoleMapEntry
@@ -3753,7 +3753,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 HasListener
@@ -7604,7 +7604,7 @@ aContent
 |
 |
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 GetID
@@ -7656,7 +7656,7 @@ aria_flowto
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -9061,7 +9061,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetRoleMapEntry
@@ -9498,7 +9498,7 @@ nsRoleMapEntry
 *
 tableRoleMapEntry
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetRoleMapEntry
@@ -10056,7 +10056,7 @@ IsFocusable
 isHTML
 &
 &
-nsAccUtils
+nsCoreUtils
 :
 :
 HasListener
@@ -10088,7 +10088,7 @@ content
 )
 |
 |
-nsAccUtils
+nsCoreUtils
 :
 :
 IsXLink

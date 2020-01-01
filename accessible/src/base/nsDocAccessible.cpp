@@ -1103,7 +1103,7 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -1670,7 +1670,7 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -1921,7 +1921,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetRoleMapEntry
@@ -2549,7 +2549,7 @@ nsIDocShellTreeItem
 >
 treeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -3284,7 +3284,7 @@ nsIDOMElement
 >
 DOMElement
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -3975,7 +3975,7 @@ nsIDocShellTreeItem
 >
 treeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -5371,7 +5371,7 @@ nsIDocShellTreeItem
 >
 treeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -5556,7 +5556,7 @@ nsIDocShellTreeItem
 >
 focusedTreeItem
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -5696,7 +5696,7 @@ accEvent
 )
 ;
 }
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -5816,7 +5816,7 @@ the
 accessibilty
 scroll
 event
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -9060,7 +9060,7 @@ childNode
 if
 (
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 IsAncestorOf
@@ -10412,7 +10412,7 @@ accForFocus
 )
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -10494,7 +10494,7 @@ selection
 change
 as
 well
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -11059,7 +11059,7 @@ nsRootAccessible
 :
 :
 HandleEvent
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -12969,7 +12969,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetRoleMapEntry
@@ -13115,7 +13115,7 @@ break
 }
 roleMapEntry
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetRoleMapEntry
