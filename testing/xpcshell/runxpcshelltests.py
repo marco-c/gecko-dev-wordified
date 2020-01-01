@@ -4531,7 +4531,6 @@ TEST
 -
 UNEXPECTED
 -
-FAIL
 "
 stdout
 re
