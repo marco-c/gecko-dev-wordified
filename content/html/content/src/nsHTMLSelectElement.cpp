@@ -6766,9 +6766,7 @@ NS_IMPL_POSITIVE_INT_ATTR_DEFAULT_VALUE
 nsHTMLSelectElement
 Size
 size
-GetDefaultSize
-(
-)
+0
 )
 NS_IMPL_INT_ATTR
 (

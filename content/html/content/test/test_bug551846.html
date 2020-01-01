@@ -1025,6 +1025,8 @@ function
 checkSizeWhenChangeMultiple
 (
 element
+aDefaultNonMultiple
+aDefaultMultiple
 )
 {
 s
@@ -1042,7 +1044,7 @@ is
 s
 .
 size
-1
+aDefaultNonMultiple
 "
 Size
 IDL
@@ -1064,7 +1066,7 @@ is
 s
 .
 size
-4
+aDefaultMultiple
 "
 Size
 IDL
@@ -1114,7 +1116,7 @@ is
 s
 .
 size
-4
+aDefaultMultiple
 "
 Size
 IDL
@@ -1136,7 +1138,7 @@ is
 s
 .
 size
-1
+aDefaultNonMultiple
 "
 Size
 IDL
@@ -1186,7 +1188,7 @@ s
 checkSizeReflection
 (
 s
-1
+0
 )
 ;
 checkSetSizeException
@@ -1209,7 +1211,7 @@ true
 checkSizeReflection
 (
 s
-4
+0
 )
 ;
 checkSetSizeException
@@ -1229,6 +1231,8 @@ multiple
 checkSizeWhenChangeMultiple
 (
 s
+0
+0
 )
 ;
 <
