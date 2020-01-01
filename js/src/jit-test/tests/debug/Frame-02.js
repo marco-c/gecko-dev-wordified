@@ -19,8 +19,7 @@ Debugger
 .
 Frame
 object
-must
-be
+is
 passed
 to
 the

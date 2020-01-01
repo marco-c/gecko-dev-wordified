@@ -19,8 +19,7 @@ the
 same
 memory
 it
-must
-deliver
+delivers
 different
 Debugger
 .
