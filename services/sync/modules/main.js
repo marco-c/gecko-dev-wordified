@@ -493,6 +493,9 @@ Engine
 '
 SyncEngine
 '
+'
+Store
+'
 ]
 "
 engines
@@ -661,17 +664,6 @@ js
 [
 "
 Status
-"
-]
-"
-stores
-.
-js
-"
-:
-[
-"
-Store
 "
 ]
 "
