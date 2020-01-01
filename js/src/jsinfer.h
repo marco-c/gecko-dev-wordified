@@ -217,9 +217,6 @@ js
 class
 CallObject
 ;
-#
-ifdef
-JS_METHODJIT
 namespace
 mjit
 {
@@ -227,8 +224,6 @@ struct
 JITScript
 ;
 }
-#
-endif
 namespace
 types
 {
