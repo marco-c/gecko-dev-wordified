@@ -452,6 +452,13 @@ h
 #
 include
 "
+nsIAccessNode
+.
+h
+"
+#
+include
+"
 nsIAccessibleRole
 .
 h

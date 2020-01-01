@@ -2440,7 +2440,9 @@ nsnull
 /
 /
 /
-nsIAccessible
+nsIAccessNode
+and
+nsAccessNode
 NS_IMETHODIMP
 nsApplicationAccessible
 :

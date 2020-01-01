@@ -1036,9 +1036,9 @@ aColorValue
 =
 0
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsAccessible
+nsIAccessNode
 >
 acc
 (
