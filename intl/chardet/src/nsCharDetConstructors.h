@@ -505,13 +505,6 @@ nsCyrillicDetector
 .
 h
 "
-#
-include
-"
-nsXMLEncodingCID
-.
-h
-"
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsRUProbDetector
