@@ -475,6 +475,13 @@ xpcinlines_h___
 #
 define
 xpcinlines_h___
+#
+include
+"
+jsfriendapi
+.
+h
+"
 /
 *
 *
