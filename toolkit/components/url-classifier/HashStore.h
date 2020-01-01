@@ -763,8 +763,8 @@ CalculateChecksum
 nsAutoCString
 &
 aChecksum
-int64_t
-aSize
+uint32_t
+aFileSize
 bool
 aChecksumPresent
 )
@@ -775,6 +775,8 @@ CheckChecksum
 nsIFile
 *
 aStoreFile
+uint32_t
+aFileSize
 )
 ;
 void
