@@ -140,13 +140,6 @@ Nullable
 .
 h
 "
-#
-include
-"
-nsIDOMEvent
-.
-h
-"
 class
 nsDOMEvent
 ;

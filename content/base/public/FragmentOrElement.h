@@ -147,16 +147,6 @@ member
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-/
-/
-member
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
