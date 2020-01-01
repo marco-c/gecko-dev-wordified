@@ -3668,6 +3668,13 @@ explicetly
 *
 *
 Note
+checker
+object
+is
+optional
+.
+*
+Note
 you
 don
 '
@@ -5801,6 +5808,10 @@ getNode
 aNodeOrID
 )
 ;
+if
+(
+aChecker
+)
 aChecker
 .
 target
@@ -5838,6 +5849,10 @@ synthAction_check
 aEvent
 )
 {
+if
+(
+aChecker
+)
 aChecker
 .
 check
