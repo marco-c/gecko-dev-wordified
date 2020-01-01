@@ -1341,6 +1341,12 @@ symbolsPath
 options
 .
 symbolsPath
+                               
+xrePath
+=
+options
+.
+xrePath
 )
     
 #
@@ -1508,6 +1514,18 @@ reftest
 "
 reftestlist
 ]
+                               
+symbolsPath
+=
+options
+.
+symbolsPath
+                               
+xrePath
+=
+options
+.
+xrePath
 )
     
 automation
