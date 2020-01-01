@@ -580,7 +580,6 @@ true
 ;
 Log
 (
-L
 "
 XPCOM
 startup
@@ -599,7 +598,6 @@ true
 ;
 Log
 (
-L
 "
 XPCOM
 startup
@@ -618,7 +616,6 @@ rv
 {
 Log
 (
-L
 "
 XPCOM
 startup
@@ -1035,7 +1032,6 @@ aStatus
 {
 Log
 (
-L
 "
 Async
 operation
@@ -1565,7 +1561,6 @@ nullptr
 ;
 Log
 (
-L
 "
 Exiting
 CoreApplication

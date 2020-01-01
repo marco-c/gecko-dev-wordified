@@ -438,13 +438,15 @@ unsigned
 int
 length
 ;
-Log
+LogW
 (
 L
 "
 SearchActivated
 text
 =
+%
+s
 "
 data
 .
@@ -991,7 +993,7 @@ BeginReading
 )
 )
 ;
-Log
+LogW
 (
 L
 "
@@ -1152,7 +1154,6 @@ ActivationKind_Protocol
 {
 Log
 (
-L
 "
 Activation
 argument
@@ -1281,7 +1282,6 @@ ActivationKind_Search
 {
 Log
 (
-L
 "
 Activation
 argument
@@ -1326,7 +1326,6 @@ ActivationKind_File
 {
 Log
 (
-L
 "
 Activation
 argument
@@ -1371,7 +1370,6 @@ ActivationKind_Launch
 {
 Log
 (
-L
 "
 Activation
 argument
@@ -1880,7 +1878,7 @@ unsigned
 int
 length
 ;
-Log
+LogW
 (
 L
 "
@@ -2257,7 +2255,6 @@ Get
 {
 Log
 (
-L
 "
 Emptry
 string

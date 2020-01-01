@@ -779,12 +779,11 @@ str
 ;
 Log
 (
-L
 "
 name
 :
 %
-s
+ls
 "
 str
 .
@@ -803,12 +802,11 @@ str
 ;
 Log
 (
-L
 "
 description
 :
 %
-s
+ls
 "
 str
 .
@@ -848,7 +846,6 @@ get
 ;
 Log
 (
-L
 "
 Focus
 element
@@ -1890,7 +1887,6 @@ LogFunction
 ;
 Log
 (
-L
 "
 UIABridge
 :
@@ -1966,7 +1962,6 @@ S_OK
 }
 Log
 (
-L
 "
 UIABridge
 :
@@ -2142,7 +2137,6 @@ default
 :
 Log
 (
-L
 "
 UIABridge
 :
@@ -2774,7 +2768,6 @@ LogFunction
 ;
 Log
 (
-L
 "
 UIATextElement
 :
@@ -2817,7 +2810,6 @@ UIA_TextPatternId
 {
 Log
 (
-L
 "
 *
 *
@@ -2860,7 +2852,6 @@ UIA_ValuePatternId
 {
 Log
 (
-L
 "
 *
 *
@@ -2938,7 +2929,6 @@ S_OK
 }
 Log
 (
-L
 "
 UIATextElement
 :
@@ -3165,7 +3155,6 @@ default
 :
 Log
 (
-L
 "
 UIATextElement
 :

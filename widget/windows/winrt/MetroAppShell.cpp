@@ -1482,7 +1482,6 @@ mPowerRequestCount
 {
 Log
 (
-L
 "
 Download
 started
@@ -1594,7 +1593,6 @@ mPowerRequest
 {
 Log
 (
-L
 "
 All
 downloads

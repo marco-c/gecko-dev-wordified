@@ -824,7 +824,6 @@ CoreProcessEventsOption_ProcessUntilQuit
 ;
 Log
 (
-L
 "
 Exiting
 FrameworkView
