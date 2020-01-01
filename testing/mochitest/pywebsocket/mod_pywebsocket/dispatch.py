@@ -1,6 +1,6 @@
 #
 Copyright
-2011
+2012
 Google
 Inc
 .
@@ -416,7 +416,7 @@ handler
 return
 common
 .
-STATUS_NORMAL
+STATUS_NORMAL_CLOSURE
 '
 '
 def
@@ -1779,7 +1779,7 @@ close_connection
 (
 common
 .
-STATUS_ABNORMAL_CLOSE
+STATUS_ABNORMAL_CLOSURE
 )
         
 except
@@ -1855,7 +1855,7 @@ close_connection
 (
 common
 .
-STATUS_UNSUPPORTED
+STATUS_UNSUPPORTED_DATA
 )
         
 except
@@ -1887,7 +1887,7 @@ close_connection
                 
 common
 .
-STATUS_INVALID_FRAME_PAYLOAD
+STATUS_INVALID_FRAME_PAYLOAD_DATA
 )
         
 except

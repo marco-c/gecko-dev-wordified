@@ -652,9 +652,8 @@ append
         
 (
 '
-IETF
-HyBi
-latest
+RFC
+6455
 '
 hybi
 .
@@ -673,7 +672,6 @@ append
         
 (
 '
-IETF
 HyBi
 00
 '
@@ -698,7 +696,6 @@ append
             
 (
 '
-IETF
 Hixie
 75
 '
@@ -726,9 +723,10 @@ debug
 (
 '
 Trying
+protocol
+version
 %
 s
-protocol
 '
 name
 )
