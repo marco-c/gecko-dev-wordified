@@ -919,8 +919,11 @@ this
 ;
 request
 .
-onreadystatechange
-=
+addEventListener
+(
+"
+readystatechange
+"
 function
 (
 )
@@ -1074,6 +1077,8 @@ status
 }
 }
 }
+false
+)
 ;
 request
 .
