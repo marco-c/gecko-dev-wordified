@@ -469,7 +469,7 @@ h
 #
 include
 "
-imgDiscardTracker
+DiscardTracker
 .
 h
 "
