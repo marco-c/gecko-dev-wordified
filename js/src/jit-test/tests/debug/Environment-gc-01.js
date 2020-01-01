@@ -111,6 +111,7 @@ join
 "
 )
 "
+arguments
 x
 "
 )
@@ -158,6 +159,7 @@ join
 "
 )
 "
+arguments
 x
 "
 )
