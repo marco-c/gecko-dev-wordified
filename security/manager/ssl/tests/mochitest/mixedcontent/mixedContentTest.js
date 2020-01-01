@@ -802,13 +802,7 @@ tests
 /
 security
 /
-manager
-/
 ssl
-/
-tests
-/
-mochitest
 /
 mixedcontent
 /
@@ -830,13 +824,7 @@ tests
 /
 security
 /
-manager
-/
 ssl
-/
-tests
-/
-mochitest
 /
 mixedcontent
 /
