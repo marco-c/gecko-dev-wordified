@@ -1705,7 +1705,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 aTags
@@ -1797,7 +1797,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 aTags
@@ -1890,7 +1890,7 @@ APlugns
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 if
@@ -1942,7 +1942,7 @@ ProfD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 if
@@ -1998,7 +1998,7 @@ Home
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 if

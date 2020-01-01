@@ -632,7 +632,7 @@ extension
 *
 returns
 an
-nsILocalFile
+nsIFile
 pointing
 to
 the
