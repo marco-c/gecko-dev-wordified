@@ -574,7 +574,7 @@ pointer
 inline
 sqlite3_stmt
 *
-NativeStatement
+nativeStatement
 (
 )
 {

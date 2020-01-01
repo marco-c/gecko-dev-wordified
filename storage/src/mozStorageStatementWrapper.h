@@ -528,7 +528,7 @@ return
 mStatement
 -
 >
-GetNativeStatementPointer
+nativeStatement
 (
 )
 ;
