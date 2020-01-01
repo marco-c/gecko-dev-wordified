@@ -236,7 +236,7 @@ h
 #
 include
 "
-imgILoader
+imgLoader
 .
 h
 "
