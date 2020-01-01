@@ -1364,6 +1364,10 @@ len
 nsAString
 &
 str
+PRBool
+aMoveOwnership
+=
+PR_FALSE
 )
 ;
 NS_COM
@@ -1375,6 +1379,10 @@ len
 nsACString
 &
 str
+PRBool
+aMoveOwnership
+=
+PR_FALSE
 )
 ;
 }

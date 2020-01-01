@@ -789,6 +789,10 @@ PRBool
 aRewriteEncodingDeclaration
 )
 {
+mInBody
+=
+0
+;
 /
 /
 The
