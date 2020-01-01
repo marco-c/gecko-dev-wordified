@@ -1087,10 +1087,7 @@ drag
 source
 g_signal_connect
 (
-GTK_OBJECT
-(
 mHiddenWidget
-)
 "
 drag_data_get
 "
@@ -1103,10 +1100,7 @@ this
 ;
 g_signal_connect
 (
-GTK_OBJECT
-(
 mHiddenWidget
-)
 "
 drag_end
 "
