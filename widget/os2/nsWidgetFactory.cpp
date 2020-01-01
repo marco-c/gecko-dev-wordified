@@ -283,6 +283,13 @@ headers
 #
 include
 "
+nsWindow
+.
+h
+"
+#
+include
+"
 nsAppShell
 .
 h
@@ -298,13 +305,6 @@ h
 include
 "
 nsBidiKeyboard
-.
-h
-"
-#
-include
-"
-nsWindow
 .
 h
 "
