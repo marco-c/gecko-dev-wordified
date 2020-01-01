@@ -1093,8 +1093,6 @@ uint64_t
 aTextureID
 TextureFlags
 aFlags
-=
-TEXTURE_FLAGS_DEFAULT
 )
 =
 0
