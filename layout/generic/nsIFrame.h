@@ -23204,13 +23204,10 @@ int32_t
 aIndent
 )
 ;
-static
+virtual
 void
 DumpFrameTree
 (
-nsIFrame
-*
-aFrame
 )
 ;
 NS_IMETHOD
