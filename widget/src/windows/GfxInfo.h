@@ -461,6 +461,10 @@ GfxInfoBase
 {
 public
 :
+GfxInfo
+(
+)
+;
 /
 /
 We
@@ -644,6 +648,12 @@ mDeviceKey
 ;
 nsString
 mDeviceKeyDebug
+;
+PRUint32
+mAdapterVendorID
+;
+PRUint32
+mAdapterDeviceID
 ;
 }
 ;
