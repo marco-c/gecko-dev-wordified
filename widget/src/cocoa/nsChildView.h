@@ -690,7 +690,7 @@ during
 a
 keyDown
 PRBool
-mKeyHandled
+mKeyDownHandled
 ;
 /
 /
