@@ -690,7 +690,7 @@ because
 the
 current
 implementation
-frees
+releases
 OggPlay
 '
 s
@@ -700,6 +700,8 @@ buffer
 entries
 and
 stores
+references
+or
 copies
 of
 the
@@ -707,6 +709,8 @@ underlying
 data
 in
 the
+/
+/
 FrameQueue
 .
 #
