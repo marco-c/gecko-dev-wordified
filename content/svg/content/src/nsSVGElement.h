@@ -1200,6 +1200,15 @@ WillChangeTransformList
 (
 )
 ;
+nsAttrValue
+WillChangeStringList
+(
+bool
+aIsConditionalProcessingAttribute
+PRUint8
+aAttrEnum
+)
+;
 void
 DidChangeLength
 (
@@ -1354,6 +1363,10 @@ bool
 aIsConditionalProcessingAttribute
 PRUint8
 aAttrEnum
+const
+nsAttrValue
+&
+aEmptyOrOldValue
 )
 ;
 virtual
