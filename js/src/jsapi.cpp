@@ -2965,7 +2965,8 @@ cx
 obj
 )
 ;
-return
+type
+=
 JSTYPE_OBJECT
 ;
 }
