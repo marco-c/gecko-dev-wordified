@@ -882,10 +882,11 @@ nsAutoPtr
 ScopedAppData
 >
 data
-=
+(
 new
 ScopedAppData
 (
+)
 )
 ;
 if
