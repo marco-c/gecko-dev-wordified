@@ -66,10 +66,6 @@ import
 MarionetteTestCase
 CommonTestCase
 from
-marionette_touch
-import
-MarionetteTouchMixin
-from
 emulator
 import
 Emulator
