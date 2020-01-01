@@ -216,6 +216,10 @@ key
 do_check_eq
 (
 "
+http
+:
+/
+/
 localhost
 :
 4444
