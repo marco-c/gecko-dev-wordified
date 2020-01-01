@@ -510,6 +510,11 @@ SlowCalls
 \
 _
 (
+Regalloc
+)
+\
+_
+(
 Recompile
 )
 enum
