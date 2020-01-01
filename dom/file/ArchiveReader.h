@@ -254,6 +254,12 @@ uint64_t
 aSize
 )
 ;
+static
+bool
+PrefEnabled
+(
+)
+;
 public
 :
 /
