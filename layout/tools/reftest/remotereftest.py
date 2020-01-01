@@ -3562,8 +3562,22 @@ s
 .
 /
 jsreftest
+"
++
+str
+(
+os
+.
+path
+.
+join
+(
+SCRIPT_DIRECTORY
+"
 jsreftest
 "
+)
+)
 )
     
 #
