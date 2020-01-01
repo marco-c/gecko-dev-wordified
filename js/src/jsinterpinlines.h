@@ -5376,7 +5376,7 @@ if
 fp
 -
 >
-isExecuteFrame
+isFramePushedByExecute
 (
 )
 )
@@ -5406,7 +5406,7 @@ hook
 fp
 -
 >
-isExecuteFrame
+isFramePushedByExecute
 (
 )
 ?
