@@ -257,6 +257,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 windows
 .
 h
@@ -1698,7 +1705,7 @@ directoryService
 >
 Get
 (
-NS_XPCOM_CURRENT_PROCESS_DIR
+XRE_EXECUTABLE_FILE
 NS_GET_IID
 (
 nsIFile
@@ -1720,7 +1727,7 @@ rv
 appHelper
 -
 >
-AppendNative
+SetNativeLeafName
 (
 NS_LITERAL_CSTRING
 (
