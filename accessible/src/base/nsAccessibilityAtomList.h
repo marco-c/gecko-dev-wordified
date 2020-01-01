@@ -1638,6 +1638,13 @@ type
 )
 ACCESSIBILITY_ATOM
 (
+usemap
+"
+usemap
+"
+)
+ACCESSIBILITY_ATOM
+(
 value
 "
 value
