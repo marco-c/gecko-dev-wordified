@@ -5941,6 +5941,11 @@ src
 end
 )
 {
+JSBool
+canStartRange
+=
+JS_TRUE
+;
 uintN
 localMax
 =
@@ -6218,6 +6223,10 @@ case
 d
 '
 :
+canStartRange
+=
+JS_FALSE
+;
 if
 (
 inRange
@@ -6271,6 +6280,10 @@ case
 W
 '
 :
+canStartRange
+=
+JS_FALSE
+;
 if
 (
 inRange
@@ -6613,6 +6626,9 @@ else
 {
 if
 (
+canStartRange
+&
+&
 src
 <
 end
