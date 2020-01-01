@@ -3734,8 +3734,6 @@ void
 )
 SetBidiEnabled
 (
-PRBool
-aBidiEnabled
 )
 const
 ;

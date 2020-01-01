@@ -1881,13 +1881,11 @@ data
 void
 SetBidiEnabled
 (
-PRBool
-aBidiEnabled
 )
 {
 mBidiEnabled
 =
-aBidiEnabled
+PR_TRUE
 ;
 }
 /

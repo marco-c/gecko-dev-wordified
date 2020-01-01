@@ -9195,7 +9195,6 @@ aPresContext
 >
 SetBidiEnabled
 (
-bidiEnabled
 )
 ;
 }
