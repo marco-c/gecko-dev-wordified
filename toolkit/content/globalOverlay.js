@@ -186,6 +186,9 @@ windowCount
 !
 canQuitApplication
 (
+"
+lastwindow
+"
 )
 )
 return
@@ -242,6 +245,7 @@ true
 function
 canQuitApplication
 (
+aData
 )
 {
 var
@@ -324,6 +328,9 @@ application
 -
 requested
 "
+aData
+|
+|
 null
 )
 ;
