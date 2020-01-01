@@ -5082,7 +5082,6 @@ if
 (
 private_offset
 >
-=
 table_length
 )
 {
@@ -5115,15 +5114,6 @@ private_offset
 table_length
 )
 {
-/
-/
-does
-not
-overflow
-since
-table_length
-<
-1GB
 return
 OTS_FAILURE
 (
