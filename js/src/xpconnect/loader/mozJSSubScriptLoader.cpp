@@ -596,6 +596,13 @@ h
 #
 include
 "
+jsscript
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
