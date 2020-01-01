@@ -2493,6 +2493,17 @@ options
 .
 profilePath
         
+self
+.
+_dm
+.
+removeDir
+(
+self
+.
+remoteProfile
+)
+        
 if
 self
 .
