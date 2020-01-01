@@ -49699,7 +49699,7 @@ curBeforeHash
 curHash
 )
 :
-NS_OK
+NS_ERROR_FAILURE
 ;
 splitRv2
 =
