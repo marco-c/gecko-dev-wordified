@@ -27407,6 +27407,7 @@ nsGenericElement
 TextLength
 (
 )
+const
 {
 /
 /
@@ -27517,6 +27518,7 @@ nsGenericElement
 TextIsOnlyWhitespace
 (
 )
+const
 {
 return
 false

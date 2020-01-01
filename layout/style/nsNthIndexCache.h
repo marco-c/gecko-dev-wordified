@@ -659,6 +659,7 @@ parent
 PRInt32
 GetNthIndex
 (
+const
 Element
 *
 aChild
@@ -711,9 +712,11 @@ inline
 bool
 SiblingMatchesElement
 (
+const
 nsIContent
 *
 aSibling
+const
 Element
 *
 aElement
@@ -851,6 +854,7 @@ js
 :
 HashMap
 <
+const
 nsIContent
 *
 CacheEntry
@@ -859,6 +863,7 @@ js
 :
 DefaultHasher
 <
+const
 nsIContent
 *
 >
@@ -981,9 +986,11 @@ inline
 bool
 IndexDeterminedFromPreviousSibling
 (
+const
 nsIContent
 *
 aSibling
+const
 Element
 *
 aChild

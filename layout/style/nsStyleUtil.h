@@ -823,6 +823,7 @@ static
 bool
 IsSignificantChild
 (
+const
 nsIContent
 *
 aChild
