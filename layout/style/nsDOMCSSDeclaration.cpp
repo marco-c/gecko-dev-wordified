@@ -523,6 +523,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -1376,6 +1383,12 @@ nsIURI
 baseURI
 sheetURI
 ;
+nsCOMPtr
+<
+nsIPrincipal
+>
+sheetPrincipal
+;
 result
 =
 GetCSSParsingEnvironment
@@ -1387,6 +1400,10 @@ sheetURI
 getter_AddRefs
 (
 baseURI
+)
+getter_AddRefs
+(
+sheetPrincipal
 )
 getter_AddRefs
 (
@@ -1424,6 +1441,7 @@ aPropID
 aPropValue
 sheetURI
 baseURI
+sheetPrincipal
 decl
 &
 changed
@@ -1524,6 +1542,12 @@ nsIURI
 baseURI
 sheetURI
 ;
+nsCOMPtr
+<
+nsIPrincipal
+>
+sheetPrincipal
+;
 result
 =
 GetCSSParsingEnvironment
@@ -1535,6 +1559,10 @@ sheetURI
 getter_AddRefs
 (
 baseURI
+)
+getter_AddRefs
+(
+sheetPrincipal
 )
 getter_AddRefs
 (
@@ -1571,6 +1599,7 @@ ParseAndAppendDeclaration
 aDecl
 sheetURI
 baseURI
+sheetPrincipal
 decl
 aParseOnlyOneDecl
 &
