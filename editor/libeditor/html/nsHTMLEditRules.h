@@ -2547,15 +2547,6 @@ SIZE_STYLE_TABLE
 ;
 }
 ;
-nsresult
-NS_NewHTMLEditRules
-(
-nsIEditRules
-*
-*
-aInstancePtrResult
-)
-;
 #
 endif
 /
