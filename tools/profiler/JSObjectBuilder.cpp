@@ -527,7 +527,10 @@ mOk
 )
 return
 ;
-jsval
+JS
+:
+:
+Value
 objval
 =
 INT_TO_JSVAL
@@ -624,7 +627,10 @@ JS_FALSE
 return
 ;
 }
-jsval
+JS
+:
+:
+Value
 objval
 =
 STRING_TO_JSVAL
@@ -693,7 +699,10 @@ mOk
 )
 return
 ;
-jsval
+JS
+:
+:
+Value
 objval
 =
 OBJECT_TO_JSVAL
