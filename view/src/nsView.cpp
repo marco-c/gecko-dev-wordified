@@ -2200,7 +2200,7 @@ vm
 aChild
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -2410,7 +2410,7 @@ vm
 child
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -2432,7 +2432,7 @@ child
 >
 InvalidateHierarchy
 (
-GetViewManagerInternal
+GetViewManager
 (
 )
 )
@@ -4322,7 +4322,7 @@ return
 GetOffsetTo
 (
 aOther
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -4436,7 +4436,7 @@ currVM
 v
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -4488,7 +4488,7 @@ newVM
 v
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -4839,7 +4839,7 @@ widgetAPD
 widgetView
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -4851,7 +4851,7 @@ AppUnitsPerDevPixel
 int32_t
 ourAPD
 =
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -4891,7 +4891,7 @@ return
 GetNearestWidget
 (
 aOffset
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -4987,7 +4987,7 @@ currVM
 v
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -5032,7 +5032,7 @@ newVM
 v
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -5273,7 +5273,7 @@ nsViewManager
 *
 VM
 =
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -5314,7 +5314,7 @@ parentAPD
 parent
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -5367,7 +5367,7 @@ ConvertAppUnits
 parent
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -5375,7 +5375,7 @@ GetViewManagerInternal
 AppUnitsPerDevPixel
 (
 )
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
