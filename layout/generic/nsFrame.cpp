@@ -5376,6 +5376,7 @@ margin
 if
 (
 (
+(
 mState
 &
 NS_FRAME_FIRST_REFLOW
@@ -5387,6 +5388,7 @@ NS_FRAME_FIRST_REFLOW
 mState
 &
 NS_FRAME_IN_REFLOW
+)
 )
 |
 |
@@ -5503,6 +5505,7 @@ border
 if
 (
 (
+(
 mState
 &
 NS_FRAME_FIRST_REFLOW
@@ -5514,6 +5517,7 @@ NS_FRAME_FIRST_REFLOW
 mState
 &
 NS_FRAME_IN_REFLOW
+)
 )
 |
 |
@@ -5744,6 +5748,7 @@ padding
 if
 (
 (
+(
 mState
 &
 NS_FRAME_FIRST_REFLOW
@@ -5755,6 +5760,7 @@ NS_FRAME_FIRST_REFLOW
 mState
 &
 NS_FRAME_IN_REFLOW
+)
 )
 |
 |
