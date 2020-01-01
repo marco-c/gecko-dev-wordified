@@ -684,8 +684,12 @@ else
 {
 mGLContext
 =
-sGLContextProvider
-.
+gl
+:
+:
+GLContextProvider
+:
+:
 CreateForWindow
 (
 mWidget

@@ -1134,9 +1134,6 @@ gfxIntSize
 &
 aSize
 const
-GLContextProvider
-:
-:
 ContextFormat
 &
 aFormat

@@ -3430,8 +3430,9 @@ mASurfaceAsGLContext
 {
 mASurfaceAsGLContext
 =
-sGLContextProvider
-.
+GLContextProvider
+:
+:
 CreateForNativePixmapSurface
 (
 aData

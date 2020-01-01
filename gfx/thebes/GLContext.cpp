@@ -513,13 +513,6 @@ any
 /
 specific
 implementation
-typedef
-GLContextProvider
-:
-:
-ContextFormat
-ContextFormat
-;
 const
 ContextFormat
 ContextFormat
