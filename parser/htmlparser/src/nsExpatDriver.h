@@ -743,9 +743,6 @@ HandleToken
 CToken
 *
 aToken
-nsIParser
-*
-aParser
 )
 ;
 /
