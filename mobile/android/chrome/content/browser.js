@@ -37084,6 +37084,9 @@ widthStr
 kViewportMinWidth
 kViewportMaxWidth
 )
+|
+|
+0
 ;
 let
 height
@@ -37099,6 +37102,9 @@ heightStr
 kViewportMinHeight
 kViewportMaxHeight
 )
+|
+|
+0
 ;
 /
 /
