@@ -18752,6 +18752,14 @@ JSContext
 cx
 )
 {
+if
+(
+unknownProperties
+(
+)
+)
+return
+;
 AutoEnterTypeInference
 enter
 (
