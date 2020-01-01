@@ -456,7 +456,7 @@ start
 #
 define
 CCSIP_SDP_BUF_SIZE
-2048
+SDP_MAX_LEN
 /
 *
 SDP

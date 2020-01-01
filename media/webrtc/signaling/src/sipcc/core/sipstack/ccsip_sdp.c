@@ -2531,11 +2531,11 @@ been
 truncated
 .
 Issue
-a
+an
+extra
 warning
 and
-continue
-.
+abort
 *
 /
 CCSIP_DEBUG_ERROR
@@ -2553,8 +2553,6 @@ fname
 )
 ;
 }
-else
-{
 cpr_free
 (
 buf
@@ -2570,7 +2568,6 @@ return
 NULL
 )
 ;
-}
 }
 /
 *
