@@ -1942,9 +1942,6 @@ a
 query
 .
 case
-type
-=
-=
 PlacesUtils
 .
 bookmarks
