@@ -10,10 +10,6 @@ http
 :
 /
 /
-%
-LOCALE
-%
-.
 www
 .
 mozilla
@@ -49,10 +45,6 @@ http
 :
 /
 /
-%
-LOCALE
-%
-.
 www
 .
 mozilla
@@ -240,10 +232,6 @@ http
 :
 /
 /
-%
-LOCALE
-%
-.
 www
 .
 mozilla
@@ -280,10 +268,6 @@ http
 :
 /
 /
-%
-LOCALE
-%
-.
 www
 .
 mozilla
