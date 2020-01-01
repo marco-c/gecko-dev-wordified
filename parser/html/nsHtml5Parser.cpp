@@ -3017,6 +3017,13 @@ DropHeldElements
 (
 )
 ;
+mTreeBuilder
+-
+>
+DropHandles
+(
+)
+;
 mAtomTable
 .
 Clear
