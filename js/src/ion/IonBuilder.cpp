@@ -40263,6 +40263,17 @@ object
 -
 >
 singleton
+&
+&
+object
+-
+>
+singleton
+-
+>
+isNative
+(
+)
 )
 {
 Shape
