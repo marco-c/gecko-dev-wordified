@@ -725,11 +725,6 @@ ResumeComposition
 (
 )
 {
-if
-(
-mPaused
-)
-{
 mPaused
 =
 false
@@ -762,7 +757,6 @@ RenewSurface
 ;
 #
 endif
-}
 }
 void
 CompositorParent
