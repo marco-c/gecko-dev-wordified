@@ -1130,6 +1130,9 @@ setSlot
 unsigned
 slot
 const
+js
+:
+:
 Value
 &
 value
@@ -1174,6 +1177,9 @@ initSlot
 unsigned
 slot
 const
+js
+:
+:
 Value
 &
 value
@@ -1230,6 +1236,9 @@ initSlotUnchecked
 unsigned
 slot
 const
+js
+:
+:
 Value
 &
 value
@@ -1267,6 +1276,9 @@ setFixedSlot
 unsigned
 slot
 const
+js
+:
+:
 Value
 &
 value
@@ -1314,6 +1326,9 @@ initFixedSlot
 unsigned
 slot
 const
+js
+:
+:
 Value
 &
 value
