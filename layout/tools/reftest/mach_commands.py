@@ -971,8 +971,15 @@ _run_reftest
 (
 self
 test_file
+=
+None
 filter
+=
+None
 suite
+=
+None
+            
 debugger
 =
 None
@@ -995,6 +1002,10 @@ run_reftest_test
 (
 test_file
 filter
+=
+filter
+suite
+=
 suite
             
 debugger
