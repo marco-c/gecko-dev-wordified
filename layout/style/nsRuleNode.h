@@ -3716,7 +3716,7 @@ nullptr
 /
 /
 These
-uint8_ts
+PRUint8s
 are
 really
 nsStyleSet
