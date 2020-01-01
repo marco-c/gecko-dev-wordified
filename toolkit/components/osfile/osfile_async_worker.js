@@ -2002,6 +2002,7 @@ read
 (
 path
 bytes
+options
 )
 {
 let
