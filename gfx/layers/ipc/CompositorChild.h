@@ -487,6 +487,9 @@ class
 LayerManager
 ;
 class
+CompositorParent
+;
+class
 CompositorChild
 :
 public
@@ -574,6 +577,12 @@ mCompositorThread
 LayerManager
 *
 mLayerManager
+;
+nsRefPtr
+<
+CompositorParent
+>
+mCompositorParent
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

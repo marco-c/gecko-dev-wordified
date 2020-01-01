@@ -560,6 +560,8 @@ printf
 (
 "
 del
+compositor
+child
 \
 n
 "
@@ -733,6 +735,13 @@ compositorChild
 CallInit
 (
 )
+;
+compositorChild
+-
+>
+mCompositorParent
+=
+compositorParent
 ;
 return
 compositorChild
