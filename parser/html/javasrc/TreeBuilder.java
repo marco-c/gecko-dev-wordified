@@ -917,7 +917,7 @@ IFRAME
 final
 static
 int
-EMBED_OR_IMG
+EMBED
 =
 48
 ;
@@ -1053,6 +1053,13 @@ int
 TEMPLATE
 =
 67
+;
+final
+static
+int
+IMG
+=
+68
 ;
 /
 /
@@ -9603,7 +9610,10 @@ case
 UL_OR_OL_OR_DL
 :
 case
-EMBED_OR_IMG
+EMBED
+:
+case
+IMG
 :
 case
 H1_OR_H2_OR_H3_OR_H4_OR_H5_OR_H6
@@ -11202,7 +11212,10 @@ case
 BR
 :
 case
-EMBED_OR_IMG
+EMBED
+:
+case
+IMG
 :
 case
 INPUT
@@ -12216,7 +12229,7 @@ case
 BR
 :
 case
-EMBED_OR_IMG
+EMBED
 :
 case
 AREA_OR_WBR
@@ -12304,6 +12317,9 @@ IMG
 continue
 starttagloop
 ;
+case
+IMG
+:
 case
 KEYGEN
 :
@@ -18809,7 +18825,10 @@ case
 PARAM_OR_SOURCE_OR_TRACK
 :
 case
-EMBED_OR_IMG
+EMBED
+:
+case
+IMG
 :
 case
 IMAGE

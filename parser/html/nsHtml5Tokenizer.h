@@ -17,7 +17,7 @@ c
 )
 2007
 -
-2010
+2013
 Mozilla
 Foundation
 *
