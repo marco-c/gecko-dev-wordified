@@ -4250,6 +4250,16 @@ GetVerifyReflowFlags
 (
 )
 ;
+virtual
+nsIFrame
+*
+GetAbsoluteContainingBlock
+(
+nsIFrame
+*
+aFrame
+)
+;
 #
 ifdef
 MOZ_REFLOW_PERF

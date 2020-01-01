@@ -3754,6 +3754,7 @@ aContent
 *
 *
 These
+two
 functions
 are
 used
@@ -3818,6 +3819,8 @@ functions
 .
 *
 /
+public
+:
 nsIFrame
 *
 GetAbsoluteContainingBlock
@@ -3827,6 +3830,8 @@ nsIFrame
 aFrame
 )
 ;
+private
+:
 nsIFrame
 *
 GetFloatContainingBlock
