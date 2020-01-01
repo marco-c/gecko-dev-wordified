@@ -1990,6 +1990,16 @@ return
 rv
 ;
 }
+NS_ASSERTION
+(
+actor
+"
+Null
+actor
+!
+"
+)
+;
 const
 NPNetscapeFuncs
 *
