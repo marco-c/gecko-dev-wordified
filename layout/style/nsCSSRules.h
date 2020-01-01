@@ -1228,11 +1228,7 @@ nsnull
 URL
 (
 )
-{
-delete
-next
 ;
-}
 }
 ;
 void
