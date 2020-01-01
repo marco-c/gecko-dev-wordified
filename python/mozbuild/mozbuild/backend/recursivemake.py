@@ -1759,6 +1759,16 @@ __class__
 .
 __name__
 )
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
         
 backend_deps
 =
@@ -1778,6 +1788,20 @@ inputs
 =
 sorted
 (
+p
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
+for
+p
+in
 self
 .
 backend_input_files
