@@ -38891,6 +38891,8 @@ JS_FALSE
 }
 JSInt64
 i
+=
+0
 ;
 if
 (
@@ -39983,6 +39985,8 @@ JS_FALSE
 }
 JSUint64
 u
+=
+0
 ;
 if
 (
