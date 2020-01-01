@@ -1152,6 +1152,16 @@ score
 updated
 "
 :
+if
+(
+Status
+.
+login
+=
+=
+LOGIN_SUCCEEDED
+)
+{
 Utils
 .
 namedTimer
@@ -1166,6 +1176,7 @@ _scoreTimer
 "
 )
 ;
+}
 break
 ;
 case

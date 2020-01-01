@@ -1734,6 +1734,15 @@ persistLogin
 (
 )
 ;
+Weave
+.
+SyncScheduler
+.
+delayedAutoConnect
+(
+0
+)
+;
 }
 else
 {
