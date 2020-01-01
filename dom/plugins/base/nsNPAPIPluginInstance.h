@@ -1369,6 +1369,14 @@ aEnabled
 )
 ;
 nsresult
+IsPrivateBrowsing
+(
+bool
+*
+aEnabled
+)
+;
+nsresult
 GetDOMElement
 (
 nsIDOMElement
