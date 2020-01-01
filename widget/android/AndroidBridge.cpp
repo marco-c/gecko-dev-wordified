@@ -7246,12 +7246,6 @@ glController
 ;
 sController
 .
-WaitForValidSurface
-(
-)
-;
-sController
-.
 SetGLVersion
 (
 2
