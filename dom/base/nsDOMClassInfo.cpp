@@ -31094,6 +31094,11 @@ nsresult
 aResult
 )
 {
+*
+aResult
+=
+NS_OK
+;
 nsDOMAttributeMap
 *
 map
@@ -31121,7 +31126,6 @@ map
 GetItemAt
 (
 aIndex
-aResult
 )
 ;
 return
