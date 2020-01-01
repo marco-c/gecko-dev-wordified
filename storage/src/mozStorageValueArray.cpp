@@ -1940,6 +1940,8 @@ Assign
 (
 wstr
 slen
+/
+2
 )
 ;
 }
