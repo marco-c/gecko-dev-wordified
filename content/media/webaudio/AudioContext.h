@@ -282,6 +282,9 @@ namespace
 dom
 {
 class
+AnalyserNode
+;
+class
 AudioBuffer
 ;
 class
@@ -474,6 +477,14 @@ aSampleRate
 ErrorResult
 &
 aRv
+)
+;
+already_AddRefed
+<
+AnalyserNode
+>
+CreateAnalyser
+(
 )
 ;
 already_AddRefed
