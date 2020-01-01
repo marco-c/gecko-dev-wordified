@@ -2933,6 +2933,12 @@ aSourceBufferLen
 (
 (
 PR_UINT32_MAX
+-
+sizeof
+(
+PRUnichar
+)
+)
 /
 (
 6
@@ -2941,12 +2947,6 @@ sizeof
 (
 PRUnichar
 )
-)
-)
-+
-sizeof
-(
-PRUnichar
 )
 )
 )
