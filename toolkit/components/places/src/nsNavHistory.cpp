@@ -50650,12 +50650,10 @@ bug
 for
 details
 )
-if
+NS_WARN_IF_FALSE
 (
+!
 visitType
-)
-NS_WARNING
-(
 "
 new
 transition
