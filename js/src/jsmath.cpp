@@ -248,7 +248,7 @@ using
 mozilla
 :
 :
-DeprecatedAbs
+Abs
 ;
 #
 ifndef
@@ -628,7 +628,7 @@ JS_FALSE
 ;
 z
 =
-DeprecatedAbs
+Abs
 (
 x
 )

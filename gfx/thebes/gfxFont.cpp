@@ -18159,7 +18159,7 @@ sxHeight
 ;
 /
 /
-DeprecatedAbs
+Abs
 because
 of
 negative
@@ -18175,7 +18175,7 @@ aMetrics
 .
 xHeight
 =
-DeprecatedAbs
+Abs
 (
 aMetrics
 .

@@ -13219,7 +13219,7 @@ radiusY
 double
 leftDistance
 =
-DeprecatedAbs
+Abs
 (
 aLineStart
 -
@@ -13230,7 +13230,7 @@ x
 double
 rightDistance
 =
-DeprecatedAbs
+Abs
 (
 aBoxSize
 .
@@ -13245,7 +13245,7 @@ x
 double
 topDistance
 =
-DeprecatedAbs
+Abs
 (
 aLineStart
 -
@@ -13256,7 +13256,7 @@ y
 double
 bottomDistance
 =
-DeprecatedAbs
+Abs
 (
 aBoxSize
 .
