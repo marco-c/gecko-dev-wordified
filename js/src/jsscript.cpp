@@ -1144,7 +1144,7 @@ getter
 setter
 )
 ;
-BaseShape
+UnownedBaseShape
 *
 nbase
 =

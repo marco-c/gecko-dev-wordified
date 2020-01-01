@@ -5495,7 +5495,7 @@ UNUSED_BITS
 ;
 Shape
 (
-BaseShape
+UnownedBaseShape
 *
 base
 jsid
@@ -5553,7 +5553,7 @@ h
 /
 Shape
 (
-BaseShape
+UnownedBaseShape
 *
 base
 uint32
@@ -7967,7 +7967,7 @@ Shape
 {
 EmptyShape
 (
-BaseShape
+UnownedBaseShape
 *
 base
 uint32

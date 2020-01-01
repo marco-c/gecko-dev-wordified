@@ -4288,7 +4288,7 @@ Shape
 shape
 ;
 {
-BaseShape
+UnownedBaseShape
 *
 nbase
 ;
@@ -4319,6 +4319,11 @@ lastProperty
 -
 >
 base
+(
+)
+-
+>
+unowned
 (
 )
 ;
@@ -5612,7 +5617,7 @@ getter
 setter
 )
 ;
-BaseShape
+UnownedBaseShape
 *
 nbase
 =
@@ -6409,6 +6414,11 @@ shape
 base
 (
 )
+-
+>
+unowned
+(
+)
 0
 )
 ;
@@ -7170,6 +7180,11 @@ lastProperty
 base
 (
 )
+-
+>
+unowned
+(
+)
 0
 )
 ;
@@ -7346,6 +7361,11 @@ Shape
 shape
 .
 base
+(
+)
+-
+>
+unowned
 (
 )
 0
@@ -8983,7 +9003,7 @@ parent
 objectFlags
 )
 ;
-BaseShape
+UnownedBaseShape
 *
 nbase
 =

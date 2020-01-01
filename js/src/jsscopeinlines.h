@@ -1015,7 +1015,7 @@ Shape
 :
 Shape
 (
-BaseShape
+UnownedBaseShape
 *
 base
 jsid
@@ -1196,7 +1196,7 @@ Shape
 :
 Shape
 (
-BaseShape
+UnownedBaseShape
 *
 base
 uint32
@@ -2210,7 +2210,7 @@ EmptyShape
 :
 EmptyShape
 (
-BaseShape
+UnownedBaseShape
 *
 base
 uint32
