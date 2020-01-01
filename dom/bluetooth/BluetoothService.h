@@ -1402,6 +1402,8 @@ StartStopBluetooth
 (
 bool
 aStart
+bool
+aIsStartup
 )
 ;
 /
