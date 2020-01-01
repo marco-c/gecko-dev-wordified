@@ -388,6 +388,10 @@ mEventListener
 nullptr
 )
 {
+SetIsDOMBinding
+(
+)
+;
 }
 void
 nsScreen
