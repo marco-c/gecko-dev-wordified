@@ -977,12 +977,14 @@ stackFrames
 substring
 (
 0
-1
+7
 )
 ;
 expect
 =
 '
+myErr
+<
 '
 ;
 addThis

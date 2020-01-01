@@ -1803,7 +1803,7 @@ fun
 )
 -
 >
-atom
+displayAtom
 (
 )
 ;
