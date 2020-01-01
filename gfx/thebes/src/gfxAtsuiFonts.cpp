@@ -7686,6 +7686,7 @@ aBaselineDeltas
 .
 0f
 :
+-
 FixedToFloat
 (
 aBaselineDeltas
