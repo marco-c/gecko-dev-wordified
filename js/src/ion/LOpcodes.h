@@ -1108,11 +1108,6 @@ GetArgument
 \
 _
 (
-RunOncePrologue
-)
-\
-_
-(
 Rest
 )
 \
