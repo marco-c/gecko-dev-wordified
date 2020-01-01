@@ -1510,7 +1510,7 @@ aElement
 before
 -
 >
-SetStyleContextWithoutNotification
+SetStyleContext
 (
 beforeStyle
 )
@@ -1555,7 +1555,7 @@ aElement
 after
 -
 >
-SetStyleContextWithoutNotification
+SetStyleContext
 (
 afterStyle
 )
@@ -2154,7 +2154,7 @@ styleChange
 primaryFrame
 -
 >
-SetStyleContextWithoutNotification
+SetStyleContext
 (
 newStyle
 )
@@ -2373,7 +2373,7 @@ element
 primaryFrame
 -
 >
-SetStyleContextWithoutNotification
+SetStyleContext
 (
 newStyle
 )
