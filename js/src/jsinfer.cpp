@@ -11387,7 +11387,7 @@ if
 vp
 -
 >
-isMagicCheck
+isParticularMagic
 (
 JS_LAZY_ARGUMENTS
 )
