@@ -445,6 +445,16 @@ return
 mCheckForImportantRules
 ;
 }
+bool
+AuthorStyleDisabled
+(
+)
+const
+{
+return
+mAuthorStyleDisabled
+;
+}
 /
 /
 We
@@ -621,6 +631,9 @@ find
 /
 one
 .
+bool
+mAuthorStyleDisabled
+;
 public
 :
 nsRuleWalker
@@ -628,6 +641,8 @@ nsRuleWalker
 nsRuleNode
 *
 aRoot
+bool
+aAuthorStyleDisabled
 )
 :
 mCurrent
@@ -637,6 +652,10 @@ aRoot
 mRoot
 (
 aRoot
+)
+mAuthorStyleDisabled
+(
+aAuthorStyleDisabled
 )
 {
 NS_ASSERTION
