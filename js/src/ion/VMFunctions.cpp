@@ -983,12 +983,11 @@ name
 cx
 -
 >
-runtime
--
->
-atomState
+names
+(
+)
 .
-protoAtom
+proto
 )
 return
 baseops

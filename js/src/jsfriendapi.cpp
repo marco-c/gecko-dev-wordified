@@ -270,7 +270,7 @@ rt
 >
 atomState
 .
-anonymousAtom
+anonymous
 ;
 }
 JS_FRIEND_API
