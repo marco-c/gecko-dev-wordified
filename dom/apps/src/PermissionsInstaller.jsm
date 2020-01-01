@@ -1885,6 +1885,8 @@ channels
 )
 {
 AllPossiblePermissions
+=
+AllPossiblePermissions
 .
 concat
 (
