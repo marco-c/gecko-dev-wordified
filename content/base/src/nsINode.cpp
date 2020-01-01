@@ -10589,7 +10589,7 @@ if
 newContent
 -
 >
-GetParent
+GetParentNode
 (
 )
 )
@@ -11158,7 +11158,7 @@ i
 )
 -
 >
-GetParent
+GetParentNode
 (
 )
 )
