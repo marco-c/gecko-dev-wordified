@@ -10166,6 +10166,9 @@ mLastFrameTime
 =
 0
 ;
+delete
+frame
+;
 frame
 =
 NextFrame
