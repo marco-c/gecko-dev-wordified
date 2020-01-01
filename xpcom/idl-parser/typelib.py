@@ -982,6 +982,39 @@ Array
 )
 :
             
+#
+NB
+:
+For
+an
+Array
+<
+T
+>
+we
+pass
+down
+the
+iid_is
+to
+get
+the
+type
+of
+T
+.
+            
+#
+This
+allows
+Arrays
+of
+InterfaceIs
+types
+to
+work
+.
+            
 return
 xpt
 .
@@ -993,6 +1026,7 @@ type
 .
 type
 calltype
+iid_is
 )
 size_is
                                  
