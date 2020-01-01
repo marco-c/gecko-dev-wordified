@@ -492,6 +492,13 @@ h
 #
 include
 "
+States
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
