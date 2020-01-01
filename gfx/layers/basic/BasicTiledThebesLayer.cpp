@@ -2669,6 +2669,17 @@ UseProgressiveTilePainting
 )
 &
 &
+!
+BasicManager
+(
+)
+-
+>
+HasShadowTarget
+(
+)
+&
+&
 mTiledBuffer
 .
 GetResolution

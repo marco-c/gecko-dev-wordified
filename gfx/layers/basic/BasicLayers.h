@@ -1081,6 +1081,17 @@ return
 mCompositorMightResample
 ;
 }
+bool
+HasShadowTarget
+(
+)
+{
+return
+!
+!
+mShadowTarget
+;
+}
 protected
 :
 enum
