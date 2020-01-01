@@ -1357,7 +1357,7 @@ this
 throw
 Components
 .
-result
+results
 .
 NS_ERROR_NO_INTERFACE
 ;
