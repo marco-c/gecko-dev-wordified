@@ -1115,7 +1115,7 @@ mode
 )
 const
 {
-ASSERT
+assert
 (
 mode
 =
