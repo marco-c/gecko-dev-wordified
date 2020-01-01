@@ -1168,7 +1168,7 @@ element
 .
 *
 /
-nsTArray
+FallibleTArray
 <
 SVGLength
 >

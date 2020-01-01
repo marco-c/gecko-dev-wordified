@@ -1064,7 +1064,7 @@ const
 nsSMILValue
 &
 aValue
-nsTArray
+FallibleTArray
 <
 SVGTransform
 >

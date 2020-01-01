@@ -774,14 +774,14 @@ the
 rationale
 for
 using
-nsTArray
+FallibleTArray
 <
 float
 >
 instead
 *
 of
-nsTArray
+FallibleTArray
 <
 float
 1
@@ -789,7 +789,7 @@ float
 .
 *
 /
-nsTArray
+FallibleTArray
 <
 nsString
 >
