@@ -15821,7 +15821,7 @@ EShSpecWebGL
 resources
 )
 ;
-nsDependentCString
+nsPromiseFlatCString
 src
 (
 shader
