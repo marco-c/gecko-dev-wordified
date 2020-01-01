@@ -969,8 +969,7 @@ f
 #
 if
 JS_MONOIC
-void
-*
+JSBool
 JS_FASTCALL
 InvokeTracer
 (
@@ -987,8 +986,7 @@ tic
 ;
 #
 else
-void
-*
+JSBool
 JS_FASTCALL
 InvokeTracer
 (

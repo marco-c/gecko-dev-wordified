@@ -47758,7 +47758,7 @@ stubs
 :
 :
 InvokeTracer
-REJOIN_FINISH_FRAME
+REJOIN_RUN_TRACER
 )
 ;
 PC
