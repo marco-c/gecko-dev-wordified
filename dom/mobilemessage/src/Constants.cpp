@@ -205,6 +205,17 @@ mms
 failed
 "
 ;
+const
+char
+*
+kMmsReceivedObserverTopic
+=
+"
+mms
+-
+received
+"
+;
 }
 /
 /
