@@ -911,10 +911,6 @@ copy
 bool
 copied
 ;
-FrameEntry
-*
-prev
-;
 }
 ;
 }
