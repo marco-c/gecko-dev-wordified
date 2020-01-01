@@ -544,7 +544,15 @@ nsnull
 ;
 #
 ifdef
-DEBUG
+DEBUG_roc
+#
+define
+DEBUG_TEXT_RUN_STORAGE_METRICS
+#
+endif
+#
+ifdef
+DEBUG_TEXT_RUN_STORAGE_METRICS
 static
 PRUint32
 gTextRunStorageHighWaterMark
@@ -613,7 +621,7 @@ nsnull
 ;
 #
 ifdef
-DEBUG
+DEBUG_TEXT_RUN_STORAGE_METRICS
 printf
 (
 "
@@ -3935,7 +3943,7 @@ PR_TRUE
 }
 #
 ifdef
-DEBUG
+DEBUG_TEXT_RUN_STORAGE_METRICS
 static
 void
 AccountStorageForTextRun
@@ -4390,7 +4398,7 @@ newText
 }
 #
 ifdef
-DEBUG
+DEBUG_TEXT_RUN_STORAGE_METRICS
 AccountStorageForTextRun
 (
 this
@@ -4410,7 +4418,7 @@ gfxTextRun
 {
 #
 ifdef
-DEBUG
+DEBUG_TEXT_RUN_STORAGE_METRICS
 AccountStorageForTextRun
 (
 this
