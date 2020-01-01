@@ -986,7 +986,7 @@ get
 the
 value
 returning
-NULL
+nsnull
 if
 the
 entry
@@ -1012,7 +1012,7 @@ The
 found
 value
 or
-NULL
+nsnull
 if
 no
 entry
@@ -1026,7 +1026,7 @@ key
 *
 note
 If
-NULL
+nsnull
 values
 are
 stored
@@ -1042,7 +1042,7 @@ to
 distinguish
 between
 a
-NULL
+nsnull
 value
 and
 a
@@ -1077,7 +1077,7 @@ if
 ent
 )
 return
-NULL
+nsnull
 ;
 return
 ent
@@ -1683,7 +1683,7 @@ sizeOfEntryExcludingThis
 is
 non
 -
-NULL
+nsnull
 measure
 the
 size
@@ -1765,7 +1765,7 @@ void
 *
 userArg
 =
-NULL
+nsnull
 )
 {
 if
