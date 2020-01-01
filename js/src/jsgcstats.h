@@ -1096,6 +1096,9 @@ uint64
 sweepStringEnd
 ;
 uint64
+sweepShapeEnd
+;
+uint64
 sweepDestroyEnd
 ;
 uint64

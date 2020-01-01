@@ -15339,6 +15339,11 @@ dumpShapes
 cx
 )
 ;
+TIMESTAMP
+(
+sweepShapeEnd
+)
+;
 /
 *
 *
@@ -16157,6 +16162,11 @@ PropertyTree
 dumpShapes
 (
 cx
+)
+;
+TIMESTAMP
+(
+sweepShapeEnd
 )
 ;
 SweepCompartments
