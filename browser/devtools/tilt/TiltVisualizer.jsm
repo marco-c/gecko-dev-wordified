@@ -1227,9 +1227,8 @@ if
 toolbox
 )
 {
-this
-.
-inspector
+let
+panel
 =
 toolbox
 .
@@ -1239,6 +1238,17 @@ getPanel
 inspector
 "
 )
+;
+if
+(
+panel
+)
+{
+this
+.
+inspector
+=
+panel
 ;
 this
 .
@@ -1280,6 +1290,7 @@ onNewNodeFromInspector
 (
 )
 ;
+}
 }
 }
 /
