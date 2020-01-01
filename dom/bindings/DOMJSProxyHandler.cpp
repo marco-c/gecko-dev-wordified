@@ -367,7 +367,7 @@ scope
 xpc
 :
 :
-ObjectScope
+GetObjectScope
 (
 obj
 )

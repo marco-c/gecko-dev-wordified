@@ -11497,7 +11497,7 @@ scope
 xpc
 :
 :
-ObjectScope
+GetObjectScope
 (
 mJSObject
 )
@@ -11509,6 +11509,7 @@ scope
 >
 mWaiverWrapperMap
 )
+{
 scope
 -
 >
@@ -11524,6 +11525,7 @@ newInnerWindow
 mJSObject
 )
 ;
+}
 }
 }
 /

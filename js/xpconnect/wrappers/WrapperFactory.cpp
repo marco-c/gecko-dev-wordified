@@ -496,7 +496,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 obj
 )
@@ -586,7 +586,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 obj
 )
@@ -4676,7 +4676,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 oldWaiver
 )

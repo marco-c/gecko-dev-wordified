@@ -6530,7 +6530,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 obj
 )
@@ -8898,7 +8898,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 aScope
 )
@@ -9057,7 +9057,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 aScope
 )
@@ -9066,7 +9066,7 @@ XPCWrappedNativeScope
 *
 scope2
 =
-ObjectScope
+GetObjectScope
 (
 aNewParent
 )
@@ -9271,7 +9271,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 aScope
 )
@@ -10562,7 +10562,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 aScope
 )

@@ -5196,7 +5196,7 @@ XPCWrappedNativeScope
 *
 xpcscope
 =
-ObjectScope
+GetObjectScope
 (
 jsscope
 )

@@ -11518,7 +11518,7 @@ scope
 xpc
 :
 :
-ObjectScope
+GetObjectScope
 (
 %
 s
