@@ -5086,6 +5086,12 @@ NS_STYLE_HINT_REFLOW
 )
 ;
 }
+mCurAppUnitsPerDevPixel
+=
+AppUnitsPerDevPixel
+(
+)
+;
 }
 void
 nsPresContext
@@ -8375,12 +8381,6 @@ AppUnitsPerDevPixelChanged
 mSupressResizeReflow
 =
 false
-;
-mCurAppUnitsPerDevPixel
-=
-AppUnitsPerDevPixel
-(
-)
 ;
 }
 float
