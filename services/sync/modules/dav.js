@@ -393,6 +393,9 @@ EXPORTED_SYMBOLS
 =
 [
 '
+DAV
+'
+'
 DAVCollection
 '
 ]
