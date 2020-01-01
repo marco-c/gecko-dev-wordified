@@ -2832,6 +2832,9 @@ changeList
 ;
 }
 }
+OverflowChangedTracker
+tracker
+;
 mPresContext
 -
 >
@@ -2848,6 +2851,13 @@ FrameConstructor
 ProcessRestyledFrames
 (
 changeList
+tracker
+)
+;
+tracker
+.
+Flush
+(
 )
 ;
 }
