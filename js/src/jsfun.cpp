@@ -7541,10 +7541,11 @@ isFunctionFrame
 )
 |
 |
+&
 fp
 -
 >
-fun
+callee
 (
 )
 !
