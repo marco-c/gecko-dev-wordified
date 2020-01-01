@@ -1046,6 +1046,14 @@ Length
 )
 ;
 }
+nsIDOMSVGPathSeg
+*
+GetItemWithoutAddRef
+(
+PRUint32
+aIndex
+)
+;
 /
 *
 *

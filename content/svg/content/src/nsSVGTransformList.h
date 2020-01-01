@@ -592,6 +592,14 @@ methods
 :
 nsIDOMSVGTransform
 *
+GetItemWithoutAddRef
+(
+PRInt32
+index
+)
+;
+nsIDOMSVGTransform
+*
 ElementAt
 (
 PRInt32
