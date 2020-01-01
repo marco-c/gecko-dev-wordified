@@ -3297,7 +3297,7 @@ the
 XBL
 document
 ?
-global
+doc
 =
 node
 -
@@ -3305,6 +3305,10 @@ node
 OwnerDoc
 (
 )
+;
+global
+=
+doc
 -
 >
 GetScriptGlobalObject
