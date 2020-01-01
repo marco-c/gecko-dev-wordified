@@ -699,13 +699,6 @@ h
 #
 include
 "
-nsIDOMNSEventTarget
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMEvent
 .
 h
@@ -1836,7 +1829,7 @@ AddEventListeners
 {
 /
 /
-nsIDOMNSEventTarget
+nsIDOMEventTarget
 interface
 allows
 to
@@ -1882,7 +1875,7 @@ events
 .
 nsCOMPtr
 <
-nsIDOMNSEventTarget
+nsIDOMEventTarget
 >
 nstarget
 (

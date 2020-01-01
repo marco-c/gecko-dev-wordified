@@ -676,12 +676,6 @@ nsXHREventTarget
 :
 :
 )
-NS_FORWARD_NSIDOMNSEVENTTARGET
-(
-nsXHREventTarget
-:
-:
-)
 /
 /
 nsICharsetDetectionObserver
