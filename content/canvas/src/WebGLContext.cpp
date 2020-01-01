@@ -1128,11 +1128,15 @@ mLastUseIndex
 =
 0
 ;
-mMinInUseAttribArrayLengthCached
+mBufferFetchingIsVerified
 =
 false
 ;
-mMinInUseAttribArrayLength
+mMaxFetchedVertices
+=
+0
+;
+mMaxFetchedInstances
 =
 0
 ;

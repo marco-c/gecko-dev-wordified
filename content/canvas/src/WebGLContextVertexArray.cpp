@@ -251,7 +251,7 @@ array
 return
 ;
 }
-InvalidateCachedMinInUseAttribArrayLength
+InvalidateBufferFetching
 (
 )
 ;
