@@ -9739,6 +9739,9 @@ calc
 PRUint8
 mBackfaceVisibility
 ;
+PRUint8
+mTransformStyle
+;
 nsAutoTArray
 <
 nsTransition

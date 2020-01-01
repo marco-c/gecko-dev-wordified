@@ -2423,6 +2423,13 @@ kBackfaceVisibilityKTable
 static
 const
 PRInt32
+kTransformStyleKTable
+[
+]
+;
+static
+const
+PRInt32
 kBackgroundAttachmentKTable
 [
 ]

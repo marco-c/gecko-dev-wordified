@@ -2201,6 +2201,11 @@ fixed
 )
 CSS_KEY
 (
+flat
+flat
+)
+CSS_KEY
+(
 forwards
 forwards
 )
@@ -2758,6 +2763,13 @@ pre
 -
 line
 pre_line
+)
+CSS_KEY
+(
+preserve
+-
+3d
+preserve_3d
 )
 CSS_KEY
 (
