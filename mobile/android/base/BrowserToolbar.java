@@ -200,6 +200,13 @@ SystemClock
 import
 android
 .
+text
+.
+TextUtils
+;
+import
+android
+.
 util
 .
 AttributeSet
@@ -723,10 +730,11 @@ clipboard
 null
 |
 |
-clipboard
+TextUtils
 .
 isEmpty
 (
+clipboard
 )
 )
 {
