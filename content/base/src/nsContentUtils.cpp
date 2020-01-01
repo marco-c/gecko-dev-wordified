@@ -32069,6 +32069,11 @@ nsEventStateManager
 IsHandlingUserInput
 (
 )
+|
+|
+IsCallerChrome
+(
+)
 ;
 }
 bool
