@@ -558,13 +558,6 @@ h
 #
 include
 "
-nsIViewManager
-.
-h
-"
-#
-include
-"
 nsBoxLayout
 .
 h
