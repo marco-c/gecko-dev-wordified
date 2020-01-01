@@ -4424,9 +4424,6 @@ object
 .
 *
 /
-ok
-&
-=
 frame
 .
 putActivationObjects

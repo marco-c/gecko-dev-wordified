@@ -7556,6 +7556,14 @@ void
 *
 hookData
 ;
+JS_ASSERT
+(
+argc
+<
+=
+JS_ARGS_LENGTH_MAX
+)
+;
 /
 *
 [
@@ -9494,9 +9502,6 @@ hookData
 )
 ;
 }
-ok
-&
-=
 frame
 .
 putActivationObjects
