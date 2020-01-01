@@ -4937,6 +4937,11 @@ addons
 accesskey
 ;
 "
+key
+=
+"
+key_openAddons
+"
 command
 =
 "
