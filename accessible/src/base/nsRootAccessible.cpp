@@ -2722,7 +2722,6 @@ nsIAccessibleEvent
 :
 EVENT_INTERNAL_LOAD
 aDocNode
-eRemoveDupes
 )
 ;
 }
@@ -3384,6 +3383,10 @@ nsIAccessibleEvent
 EVENT_MENU_END
 mCurrentARIAMenubar
 PR_FALSE
+nsAccEvent
+:
+:
+eAllowDupes
 )
 ;
 if
@@ -3394,7 +3397,6 @@ menuEndEvent
 FireDelayedAccessibleEvent
 (
 menuEndEvent
-eAllowDupes
 )
 ;
 }
@@ -3597,6 +3599,9 @@ nsIAccessibleEvent
 :
 EVENT_FOCUS
 finalFocusNode
+nsAccEvent
+:
+:
 eRemoveDupes
 aIsAsynch
 )
