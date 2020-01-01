@@ -8677,6 +8677,11 @@ aStartNode
 )
 )
 ;
+NS_ENSURE_STATE
+(
+startContent
+)
+;
 nsIContent
 *
 nextContent
