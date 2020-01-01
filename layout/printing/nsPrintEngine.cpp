@@ -21067,6 +21067,16 @@ GetRootElement
 (
 )
 ;
+if
+(
+!
+root
+)
+{
+return
+true
+;
+}
 nsRefPtr
 <
 nsContentList
