@@ -510,17 +510,6 @@ nsIXULOverlayProvider
 .
 h
 "
-#
-include
-"
-IHistory
-.
-h
-"
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
