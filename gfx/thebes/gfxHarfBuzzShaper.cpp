@@ -4972,8 +4972,7 @@ a
 )
 0
 0
--
-1
+UINT_MAX
 }
 ;
 hb_feature_t
@@ -4997,8 +4996,7 @@ g
 )
 0
 0
--
-1
+UINT_MAX
 }
 ;
 features
@@ -5206,8 +5204,7 @@ f
 .
 mValue
 0
--
-1
+UINT_MAX
 }
 ;
 features
