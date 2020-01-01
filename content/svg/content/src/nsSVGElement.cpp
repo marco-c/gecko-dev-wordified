@@ -9436,6 +9436,12 @@ i
 =
 aLength
 ;
+DidChangeLength
+(
+i
+PR_TRUE
+)
+;
 return
 ;
 }
