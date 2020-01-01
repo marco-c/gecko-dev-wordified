@@ -1433,6 +1433,7 @@ isSymLink
 size
 winBirthDate
 lastAccessDate
+lastWriteDate
 )
 {
 this
@@ -1469,7 +1470,7 @@ this
 .
 _lastModificationDate
 =
-lastAccessDate
+lastWriteDate
 ;
 }
 ;
