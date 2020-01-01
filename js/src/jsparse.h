@@ -3995,6 +3995,11 @@ char
 filename
 uintN
 lineno
+JSString
+*
+source
+=
+NULL
 )
 ;
 extern
