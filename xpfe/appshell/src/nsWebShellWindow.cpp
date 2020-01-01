@@ -5063,7 +5063,7 @@ left
 |
 |
 *
-aY
+aX
 >
 left
 +
