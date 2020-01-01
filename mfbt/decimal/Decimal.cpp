@@ -1636,7 +1636,11 @@ coefficient
 m_data
 (
 sign
+coefficient
+?
 exponent
+:
+0
 coefficient
 )
 {
