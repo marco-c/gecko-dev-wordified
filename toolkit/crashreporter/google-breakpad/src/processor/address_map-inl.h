@@ -345,7 +345,7 @@ address_map
 h
 "
 namespace
-google_airbag
+google_breakpad
 {
 template
 <
@@ -620,7 +620,7 @@ clear
 /
 /
 namespace
-google_airbag
+google_breakpad
 #
 endif
 /

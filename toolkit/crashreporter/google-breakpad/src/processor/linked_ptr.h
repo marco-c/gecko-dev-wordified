@@ -581,7 +581,7 @@ PROCESSOR_LINKED_PTR_H__
 define
 PROCESSOR_LINKED_PTR_H__
 namespace
-google_airbag
+google_breakpad
 {
 /
 /
@@ -1538,7 +1538,7 @@ ptr
 /
 /
 namespace
-google_airbag
+google_breakpad
 #
 endif
 /

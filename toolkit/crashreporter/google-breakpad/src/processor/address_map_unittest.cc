@@ -425,13 +425,13 @@ e2
 namespace
 {
 using
-google_airbag
+google_breakpad
 :
 :
 AddressMap
 ;
 using
-google_airbag
+google_breakpad
 :
 :
 linked_ptr
