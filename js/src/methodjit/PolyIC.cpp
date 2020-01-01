@@ -3051,7 +3051,7 @@ unknownProperties
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx

@@ -1839,7 +1839,7 @@ cx
 value
 )
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -2673,7 +2673,7 @@ cx
 compartment
 -
 >
-activeInference
+activeAnalysis
 )
 ;
 InferSpew
@@ -3061,7 +3061,7 @@ cx
 compartment
 -
 >
-activeInference
+activeAnalysis
 )
 ;
 StackTypeSet
@@ -14976,7 +14976,7 @@ AllocationSiteKey
 key
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -15795,7 +15795,7 @@ JSProto_Uint8ClampedArray
 return
 false
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -16338,7 +16338,7 @@ compartment
 )
 -
 >
-activeInference
+activeAnalysis
 )
 ;
 if
@@ -17518,7 +17518,7 @@ flags
 =
 OBJECT_FLAG_SETS_MARKED_UNKNOWN
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -18852,6 +18852,7 @@ compartment
 AutoEnterAnalysis
 enter
 (
+NULL
 compartment
 )
 ;
@@ -19598,7 +19599,7 @@ HandleObject
 obj
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -20423,7 +20424,7 @@ HandleObject
 obj
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -22226,7 +22227,7 @@ type
 .
 *
 /
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -22544,7 +22545,7 @@ id
 )
 )
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -22724,7 +22725,7 @@ if
 atom
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -22807,7 +22808,7 @@ jsid
 id
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -22868,7 +22869,7 @@ unknownProperties
 )
 return
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -22952,7 +22953,7 @@ flags
 )
 return
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -23063,7 +23064,7 @@ JSContext
 cx
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -23077,7 +23078,7 @@ cx
 compartment
 -
 >
-activeInference
+activeAnalysis
 )
 ;
 JS_ASSERT
@@ -23407,7 +23408,7 @@ newScript
 )
 return
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -34260,6 +34261,7 @@ cx
 AutoEnterAnalysis
 enter
 (
+NULL
 script_
 -
 >
@@ -35383,7 +35385,7 @@ JSOP_ITER
 )
 return
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -36060,7 +36062,7 @@ typeInferenceEnabled
 )
 )
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -36920,7 +36922,7 @@ JOF_TYPESET
 )
 return
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -37636,7 +37638,7 @@ return
 true
 ;
 }
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -38378,7 +38380,7 @@ Value
 sp
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -39171,7 +39173,7 @@ raw
 (
 )
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -39539,7 +39541,7 @@ return
 type
 ;
 }
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -40563,7 +40565,7 @@ typeInferenceEnabled
 return
 type
 ;
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -44395,7 +44397,7 @@ beforeUsed
 return
 ;
 }
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx

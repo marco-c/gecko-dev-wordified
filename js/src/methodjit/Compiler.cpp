@@ -3610,7 +3610,7 @@ cx
 compartment
 -
 >
-activeInference
+activeAnalysis
 )
 ;
 {
@@ -7439,11 +7439,10 @@ status
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
-true
 )
 ;
 Compiler

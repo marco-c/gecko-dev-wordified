@@ -10724,7 +10724,7 @@ ranInference
 )
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 f
@@ -10841,7 +10841,7 @@ ranInference
 )
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 f
@@ -11105,7 +11105,7 @@ updated
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 f

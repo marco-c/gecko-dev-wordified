@@ -18027,7 +18027,7 @@ ranInference
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx

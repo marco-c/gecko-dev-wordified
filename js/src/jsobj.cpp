@@ -15776,7 +15776,7 @@ kind
 )
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx

@@ -13319,6 +13319,9 @@ JSContext
 cx
 )
 {
+types
+:
+:
 AutoEnterAnalysis
 enter
 (

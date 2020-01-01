@@ -1516,9 +1516,6 @@ typeLifoAlloc
 bool
 activeAnalysis
 ;
-bool
-activeInference
-;
 /
 *
 Type
