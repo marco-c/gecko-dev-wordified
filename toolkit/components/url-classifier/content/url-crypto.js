@@ -3577,7 +3577,7 @@ and
 a
 variety
 of
-coutns
+counts
 encrypt
 /
 /
