@@ -3754,7 +3754,7 @@ recompile
 ;
 branch32
 (
-Equal
+LessThan
 ReturnReg
 Imm32
 (
