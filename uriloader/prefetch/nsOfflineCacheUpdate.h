@@ -1095,6 +1095,11 @@ FinishNoNotify
 (
 )
 ;
+void
+AsyncFinishWithError
+(
+)
+;
 /
 /
 Find
@@ -1502,6 +1507,9 @@ mDisabled
 ;
 bool
 mUpdateRunning
+;
+bool
+mLowFreeSpace
 ;
 }
 ;
