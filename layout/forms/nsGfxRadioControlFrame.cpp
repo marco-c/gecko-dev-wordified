@@ -1074,18 +1074,6 @@ GetStyleColor
 )
 ;
 const
-nsStylePadding
-*
-myPadding
-=
-mRadioButtonFaceStyle
--
->
-GetStylePadding
-(
-)
-;
-const
 nsStylePosition
 *
 myPosition
@@ -1329,8 +1317,6 @@ rect
 tmpColor
 *
 myBorder
-*
-myPadding
 PR_FALSE
 )
 ;

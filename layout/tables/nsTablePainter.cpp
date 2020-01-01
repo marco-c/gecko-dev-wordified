@@ -1800,12 +1800,6 @@ side
 )
 ;
 }
-mZeroPadding
-.
-RecalcData
-(
-)
-;
 mIsBorderCollapse
 =
 aTableFrame
@@ -2289,7 +2283,6 @@ mBackground
 tableData
 .
 mBorder
-mZeroPadding
 PR_TRUE
 )
 ;
@@ -4484,7 +4477,6 @@ mColGroup
 -
 >
 mBorder
-mZeroPadding
 PR_TRUE
 &
 mCellRect
@@ -4557,7 +4549,6 @@ colIndex
 mCol
 .
 mBorder
-mZeroPadding
 PR_TRUE
 &
 mCellRect
@@ -4603,7 +4594,6 @@ mBackground
 mRowGroup
 .
 mBorder
-mZeroPadding
 PR_TRUE
 &
 mCellRect
@@ -4648,7 +4638,6 @@ mBackground
 mRow
 .
 mBorder
-mZeroPadding
 PR_TRUE
 &
 mCellRect

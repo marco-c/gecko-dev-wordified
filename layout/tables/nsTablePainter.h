@@ -1634,16 +1634,6 @@ zero
 -
 width
 border
-nsStylePadding
-mZeroPadding
-;
-/
-/
-cached
-zero
--
-width
-padding
 }
 ;
 #

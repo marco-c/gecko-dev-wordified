@@ -24176,18 +24176,6 @@ GetStyleBorder
 )
 ;
 const
-nsStylePadding
-*
-myPadding
-=
-aStyleContext
--
->
-GetStylePadding
-(
-)
-;
-const
 nsStyleOutline
 *
 myOutline
@@ -24213,8 +24201,6 @@ aRect
 myColor
 *
 myBorder
-*
-myPadding
 PR_TRUE
 )
 ;

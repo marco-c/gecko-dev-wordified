@@ -1074,10 +1074,6 @@ const
 nsStyleBorder
 &
 aBorder
-const
-nsStylePadding
-&
-aPadding
 PRBool
 aUsePrintSettings
 =
@@ -1678,10 +1674,6 @@ const
 nsStyleBorder
 &
 aBorder
-const
-nsStylePadding
-&
-aPadding
 PRBool
 aCanPaintNonWhite
 )
