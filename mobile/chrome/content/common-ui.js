@@ -6566,7 +6566,7 @@ command
 =
 commands
 .
-children
+childNodes
 [
 i
 ]
