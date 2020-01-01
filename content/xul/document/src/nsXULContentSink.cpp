@@ -4700,7 +4700,7 @@ JAVASCRIPT
 uint32_t
 version
 =
-0
+JSVERSION_LATEST
 ;
 nsresult
 rv
