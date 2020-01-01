@@ -22696,6 +22696,14 @@ lirBufWriter
 }
 #
 ifdef
+DEBUG
+delete
+sanity_filter
+;
+#
+endif
+#
+ifdef
 NJ_VERBOSE
 debug_only_stmt
 (
