@@ -120,6 +120,13 @@ nsGlobalWindow_h___
 #
 include
 "
+nsPIDOMWindow
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -238,13 +245,6 @@ h
 include
 "
 nsITimer
-.
-h
-"
-#
-include
-"
-nsPIDOMWindow
 .
 h
 "

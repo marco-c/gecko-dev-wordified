@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIDOMScriptObjectFactory
 .
 h

@@ -102,6 +102,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 DocumentType
 .
 h

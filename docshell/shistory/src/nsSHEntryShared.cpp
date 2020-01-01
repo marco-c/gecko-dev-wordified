@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsISHistory
 .
 h

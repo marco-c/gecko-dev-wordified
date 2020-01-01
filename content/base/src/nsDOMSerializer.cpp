@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

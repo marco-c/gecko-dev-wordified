@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

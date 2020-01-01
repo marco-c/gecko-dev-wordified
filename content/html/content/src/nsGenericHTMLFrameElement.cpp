@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

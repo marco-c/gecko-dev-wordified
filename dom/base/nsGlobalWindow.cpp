@@ -116,6 +116,13 @@ MPL
 /
 #
 include
+"
+nsGlobalWindow
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -141,13 +148,6 @@ h
 /
 Local
 Includes
-#
-include
-"
-nsGlobalWindow
-.
-h
-"
 #
 include
 "

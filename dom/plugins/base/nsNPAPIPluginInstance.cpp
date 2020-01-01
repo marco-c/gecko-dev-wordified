@@ -206,6 +206,13 @@ h
 #
 include
 "
+nsIDOMElement
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
