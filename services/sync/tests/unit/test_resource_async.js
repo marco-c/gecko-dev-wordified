@@ -3133,7 +3133,7 @@ Weave
 Timestamp
 header
 updates
-Resource
+AsyncResource
 .
 serverTime
 "
@@ -3160,7 +3160,7 @@ Weave
 -
 Timestamp
 header
-Resource
+AsyncResource
 .
 serverTime
 is
@@ -3168,7 +3168,7 @@ null
 .
 do_check_eq
 (
-Resource
+AsyncResource
 .
 serverTime
 null
@@ -3213,7 +3213,7 @@ null
 ;
 do_check_eq
 (
-Resource
+AsyncResource
 .
 serverTime
 TIMESTAMP
