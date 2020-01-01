@@ -8995,6 +8995,9 @@ aTarget
 ;
 if
 (
+target
+&
+&
 IsURLInHistory
 (
 target
