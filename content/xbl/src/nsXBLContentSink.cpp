@@ -3495,6 +3495,8 @@ Init
 cid
 mDocInfo
 binding
+!
+mFoundFirstBinding
 )
 ;
 if
