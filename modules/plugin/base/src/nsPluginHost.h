@@ -1903,15 +1903,6 @@ default_plugin_disabled
 PRPackedBool
 mDefaultPluginDisabled
 ;
-/
-/
-Whether
-java
-is
-enabled
-PRPackedBool
-mJavaEnabled
-;
 nsPluginInstanceTagList
 mPluginInstanceTagList
 ;
