@@ -156,11 +156,8 @@ aPacket
 aPacket
 .
 frame
-[
-"
+.
 arguments
-"
-]
 [
 0
 ]
@@ -232,11 +229,8 @@ to
 aPacket
 .
 frame
-[
-"
+.
 arguments
-"
-]
 [
 i
 ]

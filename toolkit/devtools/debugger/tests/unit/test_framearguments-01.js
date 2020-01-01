@@ -236,11 +236,8 @@ args
 [
 5
 ]
-[
-"
+.
 class
-"
-]
 "
 Object
 "

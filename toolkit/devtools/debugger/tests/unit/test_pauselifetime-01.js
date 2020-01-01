@@ -150,11 +150,8 @@ let
 pauseActor
 =
 aPacket
-[
-"
+.
 actor
-"
-]
 ;
 /
 /
