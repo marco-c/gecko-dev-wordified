@@ -32557,6 +32557,15 @@ disposition
 "
 refresh
 "
+"
+x
+-
+dns
+-
+prefetch
+-
+control
+"
 /
 /
 add
