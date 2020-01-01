@@ -7632,7 +7632,8 @@ js_CheckUndeclaredVarAssignment
 JSContext
 *
 cx
-jsval
+JSString
+*
 propname
 )
 ;
