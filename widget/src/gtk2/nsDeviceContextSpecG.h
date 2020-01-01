@@ -513,7 +513,16 @@ include
 <
 gtk
 /
-gtkunixprint
+gtkprinter
+.
+h
+>
+#
+include
+<
+gtk
+/
+gtkprintjob
 .
 h
 >
