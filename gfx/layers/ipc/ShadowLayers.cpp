@@ -2847,9 +2847,12 @@ DestroySharedSurface
 gfxSharedImageSurface
 *
 aSurface
+PLayersParent
+*
+aDeallocator
 )
 {
-mForwarder
+aDeallocator
 -
 >
 DeallocShmem
@@ -2872,6 +2875,9 @@ DestroySharedSurface
 SurfaceDescriptor
 *
 aSurface
+PLayersParent
+*
+aDeallocator
 )
 {
 if
@@ -2888,7 +2894,7 @@ return
 DestroySharedShmemSurface
 (
 aSurface
-mForwarder
+aDeallocator
 )
 ;
 }
