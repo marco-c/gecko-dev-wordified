@@ -783,6 +783,9 @@ ne
 =
 nx
 *
+(
+pixman_fixed_48_16_t
+)
 e
 -
 >
