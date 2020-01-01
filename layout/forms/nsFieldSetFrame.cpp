@@ -2124,7 +2124,7 @@ font
 size
 inflation
 .
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 this

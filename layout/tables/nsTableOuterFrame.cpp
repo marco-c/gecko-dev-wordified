@@ -448,7 +448,7 @@ font
 size
 inflation
 .
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 this
@@ -2832,7 +2832,7 @@ aMarginResult
 nsnull
 )
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 aChildFrame

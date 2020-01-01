@@ -363,6 +363,13 @@ SpdyStream
 (
 )
 {
+mStreamID
+=
+SpdySession
+:
+:
+kDeadStreamID
+;
 }
 /
 /

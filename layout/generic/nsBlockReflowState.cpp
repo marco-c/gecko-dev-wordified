@@ -4077,7 +4077,7 @@ nsCSSOffsetState
 aFloatOffsetState
 )
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 aFloat

@@ -1679,7 +1679,7 @@ static
 bool
 MustPrune
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )

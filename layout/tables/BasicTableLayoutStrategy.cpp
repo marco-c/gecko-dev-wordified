@@ -470,7 +470,7 @@ font
 size
 inflation
 .
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 aFrame

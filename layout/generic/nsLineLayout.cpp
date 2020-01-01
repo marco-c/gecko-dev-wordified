@@ -581,10 +581,6 @@ aOuterReflowState
 -
 >
 frame
-nsLayoutUtils
-:
-:
-eInReflow
 )
 ;
 /
