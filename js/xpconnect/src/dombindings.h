@@ -456,6 +456,13 @@ xpcpublic
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 namespace
 mozilla
 {
