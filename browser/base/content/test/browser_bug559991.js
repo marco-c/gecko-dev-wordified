@@ -428,13 +428,6 @@ endTest
 (
 )
 {
-gBrowser
-.
-removeTab
-(
-tab
-)
-;
 FullZoom
 .
 _applyPrefToSetting
@@ -446,6 +439,13 @@ FullZoom
 onLocationChange
 =
 oldOLC
+;
+gBrowser
+.
+removeTab
+(
+tab
+)
 ;
 oldAPTS
 =
