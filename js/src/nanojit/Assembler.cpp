@@ -2913,9 +2913,8 @@ Assembler
 :
 getBaseReg
 (
-LIns
-*
-i
+LInsp
+base
 int
 &
 d
@@ -2929,7 +2928,7 @@ if
 PEDANTIC
 if
 (
-i
+base
 -
 >
 isop
@@ -3025,7 +3024,7 @@ d
 =
 findMemFor
 (
-i
+base
 )
 ;
 return
@@ -3044,7 +3043,7 @@ endif
 return
 findRegFor
 (
-i
+base
 allow
 )
 ;
@@ -14452,7 +14451,7 @@ entry
 *
 *
 *
-move
+Move
 regs
 around
 so
@@ -14478,7 +14477,7 @@ ignore
 {
 /
 /
-find
+Find
 the
 top
 GpRegs
@@ -14489,9 +14488,12 @@ to
 put
 in
 SavedRegs
+.
 /
 /
+'
 tosave
+'
 is
 a
 binary
@@ -14501,7 +14503,7 @@ in
 an
 array
 .
-the
+The
 root
 is
 tosave
@@ -14731,7 +14733,7 @@ r
 }
 /
 /
-now
+Now
 primap
 has
 the
@@ -14743,7 +14745,7 @@ order
 .
 /
 /
-allocate
+Allocate
 each
 of
 the
@@ -14753,6 +14755,7 @@ exprs
 to
 a
 SavedReg
+.
 RegisterMask
 allow
 =

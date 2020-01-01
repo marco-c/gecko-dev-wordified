@@ -926,6 +926,15 @@ LastReg
 deprecated_UnknownReg
 =
 30
+/
+/
+XXX
+:
+remove
+eventually
+see
+bug
+538924
 }
 Register
 ;

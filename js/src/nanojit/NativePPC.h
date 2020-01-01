@@ -1044,6 +1044,15 @@ Rctr
 deprecated_UnknownReg
 =
 127
+/
+/
+XXX
+:
+remove
+eventually
+see
+bug
+538924
 FirstReg
 =
 R0
