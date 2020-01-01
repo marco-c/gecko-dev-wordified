@@ -3976,6 +3976,7 @@ callback
 NULL
 )
 {
+return
 callbacks
 [
 content_type
