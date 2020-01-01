@@ -18965,11 +18965,8 @@ only
 set
 in
 root
-nsCOMPtr
-<
-nsIThread
->
-mThread
+bool
+mMainThread
 ;
 }
 ;
