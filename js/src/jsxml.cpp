@@ -32476,8 +32476,7 @@ xml_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -47982,8 +47981,7 @@ xmlfilter_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

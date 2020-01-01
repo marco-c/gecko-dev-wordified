@@ -3572,8 +3572,7 @@ fun_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

@@ -9715,8 +9715,7 @@ traceObject
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -16700,8 +16699,7 @@ DebuggerScript_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -24674,8 +24672,7 @@ DebuggerObject_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -29391,8 +29388,7 @@ DebuggerEnv_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

@@ -2889,8 +2889,7 @@ trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

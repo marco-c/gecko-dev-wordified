@@ -16726,8 +16726,7 @@ proxy_TraceObject
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -16956,8 +16955,7 @@ proxy_TraceFunction
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

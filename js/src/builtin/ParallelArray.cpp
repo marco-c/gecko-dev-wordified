@@ -10445,8 +10445,7 @@ mark
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {
