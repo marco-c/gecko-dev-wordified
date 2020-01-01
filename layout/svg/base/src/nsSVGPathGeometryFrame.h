@@ -792,6 +792,15 @@ nsIDOMSVGMatrix
 aCTM
 )
 ;
+virtual
+already_AddRefed
+<
+nsIDOMSVGMatrix
+>
+GetOverrideCTM
+(
+)
+;
 NS_IMETHOD
 GetBBox
 (

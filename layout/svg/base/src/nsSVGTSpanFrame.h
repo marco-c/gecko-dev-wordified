@@ -648,6 +648,15 @@ nsIDOMSVGMatrix
 aCTM
 )
 ;
+virtual
+already_AddRefed
+<
+nsIDOMSVGMatrix
+>
+GetOverrideCTM
+(
+)
+;
 /
 /
 nsSVGContainerFrame
