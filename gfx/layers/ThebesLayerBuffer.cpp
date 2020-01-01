@@ -1241,7 +1241,11 @@ canHaveRotation
 (
 aFlags
 &
+(
 PAINT_WILL_RESAMPLE
+|
+PAINT_NO_ROTATION
+)
 )
 ;
 nsIntRegion
