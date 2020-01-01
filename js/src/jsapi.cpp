@@ -4292,6 +4292,10 @@ profilingScripts
 (
 false
 )
+alwaysPreserveCode
+(
+false
+)
 hadOutOfMemory
 (
 false

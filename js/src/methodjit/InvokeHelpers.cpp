@@ -2635,6 +2635,15 @@ fp
 isConstructing
 (
 )
+cx
+-
+>
+compartment
+-
+>
+needsBarrier
+(
+)
 )
 )
 {

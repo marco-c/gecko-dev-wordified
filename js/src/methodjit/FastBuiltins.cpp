@@ -5037,8 +5037,6 @@ ReturnReg
 Jump
 emptyFreeList
 =
-masm
-.
 getNewObject
 (
 cx
@@ -5337,8 +5335,6 @@ allocReg
 Jump
 emptyFreeList
 =
-masm
-.
 getNewObject
 (
 cx
@@ -5601,8 +5597,6 @@ allocReg
 Jump
 emptyFreeList
 =
-masm
-.
 getNewObject
 (
 cx
