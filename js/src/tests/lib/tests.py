@@ -617,12 +617,39 @@ prefix_command
 dirname
 )
         
+if
+self
+.
+debugMode
+:
+            
 cmd
 +
 =
-self
+[
+'
+-
+d
+'
+]
+        
+#
+There
+is
+a
+test
+that
+requires
+the
+path
+to
+start
+with
+'
 .
-options
+/
+'
+.
         
 cmd
 +
@@ -632,6 +659,11 @@ cmd
 -
 f
 '
+'
+.
+/
+'
++
 self
 .
 path
@@ -720,6 +752,11 @@ __init__
 (
 self
 path
+enable
+expect
+random
+slow
+debugMode
 )
 :
         
@@ -735,7 +772,7 @@ self
 .
 enable
 =
-True
+enable
 #
 bool
 :
@@ -756,7 +793,7 @@ self
 .
 expect
 =
-True
+expect
 #
 bool
 :
@@ -771,7 +808,7 @@ self
 .
 random
 =
-False
+random
 #
 bool
 :
@@ -789,7 +826,7 @@ self
 .
 slow
 =
-False
+slow
 #
 bool
 :
@@ -803,22 +840,21 @@ slowly
         
 self
 .
-options
+debugMode
 =
-[
-]
+debugMode
 #
-[
-str
-]
+bool
 :
-Extra
-options
-to
-pass
-to
-the
-shell
+True
+=
+>
+must
+be
+run
+in
+debug
+mode
         
 #
 The
@@ -944,14 +980,9 @@ slow
 '
         
 if
-'
--
-d
-'
-in
 self
 .
-options
+debugMode
 :
             
 ans
