@@ -4375,7 +4375,7 @@ void
 TranslateString
 (
 const
-nsAString
+nsString
 &
 aKey
 nsAString
