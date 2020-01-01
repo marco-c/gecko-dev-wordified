@@ -5885,6 +5885,13 @@ PRBool
 aNotify
 )
 ;
+void
+UpdateEditableFormControlState
+(
+PRBool
+aNotify
+)
+;
 /
 *
 *
