@@ -20898,7 +20898,7 @@ JSSLOT_ARRAY_COUNT
 ;
 JSObject
 *
-FASTCALL
+JS_FASTCALL
 js_NewEmptyArray
 (
 JSContext
@@ -21069,7 +21069,7 @@ OBJECT
 endif
 JSObject
 *
-FASTCALL
+JS_FASTCALL
 js_NewArrayWithSlots
 (
 JSContext
