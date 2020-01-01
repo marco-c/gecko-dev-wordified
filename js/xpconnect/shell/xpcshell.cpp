@@ -12048,6 +12048,9 @@ dirs
 else
 if
 (
+mGREDir
+&
+&
 !
 strcmp
 (
