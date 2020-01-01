@@ -15615,6 +15615,8 @@ rv
 ;
 nsCacheAccessMode
 accessRequested
+=
+0
 ;
 rv
 =

@@ -60,7 +60,6 @@ tw
 *
 *
 *
-*
 BEGIN
 LICENSE
 BLOCK
@@ -8416,6 +8415,8 @@ mEnableDiskDevice
 {
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (
@@ -8488,6 +8489,8 @@ mEnableOfflineDevice
 {
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (
@@ -8571,8 +8574,6 @@ mMemoryDevice
 )
 {
 nsresult
-rv
-;
 rv
 =
 mMemoryDevice
