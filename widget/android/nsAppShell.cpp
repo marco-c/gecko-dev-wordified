@@ -474,6 +474,7 @@ nsIAndroidBrowserApp
 aBrowserApp
 int
 aTabId
+const
 nsTArray
 <
 nsIntPoint
@@ -2995,10 +2996,12 @@ MetaState
 (
 )
 ;
+const
 nsTArray
 <
 nsIntPoint
 >
+&
 points
 =
 curEvent
