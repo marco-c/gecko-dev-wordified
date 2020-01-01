@@ -1287,10 +1287,6 @@ height
 )
 )
 ;
-gfxContext
-*
-dummy
-=
 BeginUpdate
 (
 r
