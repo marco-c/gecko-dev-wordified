@@ -3000,6 +3000,7 @@ MockInstall
 (
 aName
 aType
+aAddonToInstall
 )
 {
 this
@@ -3110,6 +3111,12 @@ this
 addon
 =
 null
+;
+this
+.
+_addonToInstall
+=
+aAddonToInstall
 ;
 this
 .
@@ -3253,6 +3260,11 @@ this
 .
 addon
 =
+this
+.
+_addonToInstall
+|
+|
 new
 MockAddon
 (
