@@ -306,7 +306,7 @@ c2
 let
 openRequest
 =
-indexedDB
+mozIndexedDB
 .
 open
 (
@@ -2329,11 +2329,8 @@ unique
 }
 )
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -2341,7 +2338,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 trans
@@ -2406,11 +2402,8 @@ unique
 }
 )
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -2418,7 +2411,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 trans
@@ -2489,11 +2481,8 @@ unique
 100000
 )
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -2501,7 +2490,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 trans
@@ -2569,11 +2557,8 @@ id
 }
 )
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -2581,7 +2566,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 trans
@@ -3904,7 +3888,7 @@ gc
 ;
 openRequest
 =
-indexedDB
+mozIndexedDB
 .
 open
 (

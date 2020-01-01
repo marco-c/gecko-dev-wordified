@@ -103,6 +103,14 @@ requestLongerTimeout
 10
 )
 ;
+setPermission
+(
+testPageURL
+"
+indexedDB
+"
+)
+;
 removePermission
 (
 testPageURL
@@ -244,7 +252,7 @@ is
 result
 "
 abort
-QuotaExceededError
+UnknownError
 "
 "
 Got
@@ -710,7 +718,7 @@ is
 lastResult
 "
 abort
-QuotaExceededError
+UnknownError
 "
 "
 Aborted

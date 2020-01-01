@@ -246,7 +246,7 @@ true
 let
 request
 =
-indexedDB
+mozIndexedDB
 .
 open
 (
@@ -342,6 +342,15 @@ location
 .
 pathname
 ;
+const
+description
+=
+"
+My
+Test
+Database
+"
+;
 window
 .
 addEventListener
@@ -371,7 +380,7 @@ true
 let
 request
 =
-indexedDB
+mozIndexedDB
 .
 open
 (
@@ -379,6 +388,7 @@ name
 version
 +
 +
+description
 )
 ;
 request

@@ -79,7 +79,7 @@ c2
 let
 openRequest
 =
-indexedDB
+mozIndexedDB
 .
 open
 (
@@ -929,7 +929,7 @@ i
 ;
 is
 (
-indexedDB
+mozIndexedDB
 .
 cmp
 (
@@ -981,7 +981,7 @@ j
 {
 is
 (
-indexedDB
+mozIndexedDB
 .
 cmp
 (
@@ -1004,7 +1004,7 @@ j
 ;
 is
 (
-indexedDB
+mozIndexedDB
 .
 cmp
 (
@@ -1050,7 +1050,7 @@ e
 {
 is
 (
-indexedDB
+mozIndexedDB
 .
 cmp
 (
@@ -1135,11 +1135,8 @@ i
 ;
 req
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -1147,7 +1144,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 req
@@ -1213,11 +1209,8 @@ i
 ;
 req
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -1225,7 +1218,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 req
@@ -1280,7 +1272,7 @@ result
 ;
 is
 (
-indexedDB
+mozIndexedDB
 .
 cmp
 (
@@ -1501,7 +1493,7 @@ i
 {
 try
 {
-indexedDB
+mozIndexedDB
 .
 cmp
 (
@@ -1572,7 +1564,7 @@ code
 }
 try
 {
-indexedDB
+mozIndexedDB
 .
 cmp
 (

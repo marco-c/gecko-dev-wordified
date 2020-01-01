@@ -125,7 +125,7 @@ testSteps
 let
 request
 =
-indexedDB
+mozIndexedDB
 .
 open
 (
@@ -322,11 +322,8 @@ unexpectedSuccessHandler
 ;
 request
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -334,7 +331,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 event
@@ -443,11 +439,8 @@ unexpectedSuccessHandler
 ;
 request
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -455,7 +448,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 }

@@ -105,7 +105,7 @@ baz
 let
 request
 =
-indexedDB
+mozIndexedDB
 .
 open
 (
@@ -455,11 +455,8 @@ foopy
 ;
 request
 .
-addEventListener
-(
-"
-error
-"
+onerror
+=
 new
 ExpectError
 (
@@ -467,7 +464,6 @@ ExpectError
 ConstraintError
 "
 true
-)
 )
 ;
 request
