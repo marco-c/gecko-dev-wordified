@@ -1080,6 +1080,13 @@ prprf
 .
 h
 "
+#
+include
+"
+nsVoidArray
+.
+h
+"
 static
 NS_DEFINE_CID
 (
