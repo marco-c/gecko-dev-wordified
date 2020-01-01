@@ -4148,7 +4148,7 @@ thisObj
 if
 (
 !
-js_OnUnknownMethod
+OnUnknownMethod
 (
 cx
 regs
@@ -12326,7 +12326,7 @@ origAtom
 if
 (
 !
-js_OnUnknownMethod
+OnUnknownMethod
 (
 cx
 regs
