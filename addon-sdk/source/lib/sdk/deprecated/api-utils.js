@@ -763,11 +763,6 @@ validatedOptions
 {
 }
 ;
-let
-mapThrew
-=
-false
-;
 for
 (
 let
@@ -776,6 +771,11 @@ in
 requirements
 )
 {
+let
+mapThrew
+=
+false
+;
 let
 req
 =
