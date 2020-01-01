@@ -232,6 +232,9 @@ h
 "
 #
 endif
+class
+nsIDOMAdapter
+;
 /
 /
 *
@@ -684,7 +687,7 @@ ifdef
 MOZ_B2G_BT
 nsCOMPtr
 <
-nsIDOMBluetoothManager
+nsIDOMBluetoothAdapter
 >
 mBluetooth
 ;
