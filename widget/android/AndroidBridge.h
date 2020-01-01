@@ -1877,12 +1877,6 @@ aScaleX
 float
 &
 aScaleY
-gfx
-:
-:
-Margin
-&
-aFixedLayerMargins
 )
 ;
 void
