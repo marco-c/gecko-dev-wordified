@@ -158,7 +158,7 @@ using
 mozilla
 :
 :
-DeprecatedAbs
+Abs
 ;
 bool
 isValueDTRDCandidate
@@ -15894,7 +15894,7 @@ val
 )
 &
 &
-DeprecatedAbs
+Abs
 (
 dest
 .
@@ -16083,7 +16083,7 @@ val
 )
 &
 &
-DeprecatedAbs
+Abs
 (
 addr
 .
