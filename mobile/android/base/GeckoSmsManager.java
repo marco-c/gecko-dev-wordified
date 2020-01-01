@@ -1660,14 +1660,6 @@ kInvalidAddressError
 =
 7
 ;
-public
-final
-static
-int
-kFdnCheckError
-=
-8
-;
 private
 final
 static
