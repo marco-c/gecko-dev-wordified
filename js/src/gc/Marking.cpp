@@ -7732,10 +7732,7 @@ HeapSlot
 *
 end
 ;
-HeapSlot
-:
-:
-Kind
+uintptr_t
 kind
 ;
 }
