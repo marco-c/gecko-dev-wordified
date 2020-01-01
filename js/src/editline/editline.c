@@ -5131,6 +5131,11 @@ char
 p
 ;
 {
+(
+void
+)
+p
+;
 }
 void
 rl_initialize

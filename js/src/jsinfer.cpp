@@ -2435,6 +2435,7 @@ __LINE__
 *
 (
 (
+volatile
 int
 *
 )

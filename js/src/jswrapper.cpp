@@ -5457,6 +5457,9 @@ ret
 }
 template
 class
+js
+:
+:
 SecurityWrapper
 <
 Wrapper
@@ -5464,6 +5467,9 @@ Wrapper
 ;
 template
 class
+js
+:
+:
 SecurityWrapper
 <
 CrossCompartmentWrapper

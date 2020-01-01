@@ -678,6 +678,7 @@ stack
 *
 (
 (
+volatile
 int
 *
 )
@@ -721,6 +722,7 @@ trapped
 *
 (
 (
+volatile
 int
 *
 )
