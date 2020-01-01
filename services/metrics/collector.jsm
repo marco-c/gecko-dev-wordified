@@ -562,7 +562,7 @@ this
 .
 _providerInitQueue
 .
-pop
+shift
 (
 )
 ;
