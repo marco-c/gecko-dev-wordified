@@ -774,7 +774,7 @@ const
 {
 if
 (
-mShuttingDown
+mClosed
 )
 {
 return
@@ -1635,6 +1635,9 @@ mDatabaseStatus
 ;
 bool
 mShuttingDown
+;
+bool
+mClosed
 ;
 }
 ;
