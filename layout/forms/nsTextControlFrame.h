@@ -2134,6 +2134,11 @@ nsSize
 aIntrinsicSize
 )
 ;
+nsresult
+ScrollSelectionIntoView
+(
+)
+;
 private
 :
 /
