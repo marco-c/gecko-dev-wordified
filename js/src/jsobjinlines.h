@@ -2318,6 +2318,7 @@ ndslots
 nfslots
 )
 +
+(
 isFun
 ?
 sizeof
@@ -2328,6 +2329,7 @@ JSFunction
 sizeof
 (
 JSObject
+)
 )
 ;
 }
