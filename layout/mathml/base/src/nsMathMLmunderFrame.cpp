@@ -1858,7 +1858,12 @@ underscript
 }
 *
 /
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLmunderFrame
 :
 :

@@ -1392,6 +1392,11 @@ GetBoundingMetrics
 )
 interface
 .
+/
+*
+virtual
+*
+/
 nsresult
 nsMathMLTokenFrame
 :

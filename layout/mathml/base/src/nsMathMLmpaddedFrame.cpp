@@ -2495,7 +2495,12 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLmpaddedFrame
 :
 :

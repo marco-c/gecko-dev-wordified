@@ -8939,7 +8939,12 @@ leftCorrection
 }
 }
 ;
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLContainerFrame
 :
 :

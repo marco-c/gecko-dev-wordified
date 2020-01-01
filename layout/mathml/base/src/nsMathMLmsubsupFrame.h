@@ -537,7 +537,8 @@ TransmitAutomaticData
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Place
 (
 nsIRenderingContext

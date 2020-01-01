@@ -2129,7 +2129,12 @@ pair
 }
 *
 /
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLmunderoverFrame
 :
 :

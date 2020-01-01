@@ -1967,7 +1967,12 @@ child
 .
 .
 .
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLmactionFrame
 :
 :

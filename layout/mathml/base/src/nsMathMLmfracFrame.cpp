@@ -1710,7 +1710,12 @@ return
 gap
 ;
 }
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLmfracFrame
 :
 :

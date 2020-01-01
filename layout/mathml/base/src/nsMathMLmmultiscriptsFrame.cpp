@@ -1017,7 +1017,12 @@ cssValue
 }
 }
 }
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLmmultiscriptsFrame
 :
 :

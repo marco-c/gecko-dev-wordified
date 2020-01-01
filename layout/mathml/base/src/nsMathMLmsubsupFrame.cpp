@@ -713,7 +713,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLmsubsupFrame
 :
 :

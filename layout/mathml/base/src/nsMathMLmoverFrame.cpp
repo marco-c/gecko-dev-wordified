@@ -1892,7 +1892,12 @@ overscript
 }
 *
 /
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+nsresult
 nsMathMLmoverFrame
 :
 :
