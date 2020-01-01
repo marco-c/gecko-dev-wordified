@@ -362,7 +362,7 @@ container
 "
 ]
 .
-getService
+createInstance
 (
 Components
 .
