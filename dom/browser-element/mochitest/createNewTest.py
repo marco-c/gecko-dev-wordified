@@ -307,7 +307,7 @@ true
       
 browserElementTestHelpers
 .
-addToWhitelist
+addPermission
 (
 )
 ;
