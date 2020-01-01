@@ -464,7 +464,7 @@ An
 Item
 >
 in
-TabCandy
+TabView
 used
 for
 displaying
@@ -1413,9 +1413,9 @@ duration
 350
 easing
 :
-'
-tabcandyBounce
-'
+"
+tabviewBounce
+"
 complete
 :
 function

@@ -3056,9 +3056,9 @@ duration
 200
 easing
 :
-'
-tabcandyBounce
-'
+"
+tabviewBounce
+"
 complete
 :
 function
@@ -4699,7 +4699,7 @@ animation
 after
 returning
 to
-TabCandy
+TabView
 .
 /
 /

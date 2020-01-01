@@ -1378,7 +1378,7 @@ js
 include
 browser
 -
-tabcandy
+tabview
 .
 js
 XPCOMUtils

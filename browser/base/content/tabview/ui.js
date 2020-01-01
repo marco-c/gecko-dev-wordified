@@ -568,7 +568,7 @@ false
 /
 Variable
 :
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 /
 /
 If
@@ -581,10 +581,9 @@ just
 been
 closed
 in
-tab
-candy
+TabView
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 :
 false
 /
@@ -641,8 +640,7 @@ items
 when
 switching
 to
-Tab
-Candy
+TabView
 .
 _reorderTabItemsOnShow
 :
@@ -671,10 +669,9 @@ have
 been
 moved
 in
-Tab
 /
 /
-Candy
+TabView
 UI
 and
 re
@@ -847,7 +844,7 @@ background
 empty
 part
 of
-TabCandy
+TabView
 /
 /
 we
@@ -935,7 +932,7 @@ gWindow
 addEventListener
 (
 "
-tabcandyshow
+tabviewshow
 "
 function
 (
@@ -943,7 +940,7 @@ function
 {
 self
 .
-showTabCandy
+showTabView
 (
 true
 )
@@ -957,7 +954,7 @@ gWindow
 addEventListener
 (
 "
-tabcandyhide
+tabviewhide
 "
 function
 (
@@ -1512,8 +1509,7 @@ _resize
 /
 ___
 show
-Tab
-Candy
+TabView
 at
 startup
 based
@@ -1525,7 +1521,7 @@ if
 (
 data
 .
-tabCandyVisible
+tabViewVisible
 )
 {
 var
@@ -1562,7 +1558,7 @@ true
 ;
 self
 .
-showTabCandy
+showTabView
 (
 )
 ;
@@ -1630,7 +1626,7 @@ else
 {
 self
 .
-hideTabCandy
+hideTabView
 (
 )
 ;
@@ -1657,8 +1653,7 @@ strip
 when
 going
 into
-Tab
-Candy
+TabView
 for
 the
 first
@@ -1749,7 +1744,7 @@ if
 (
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -2062,20 +2057,20 @@ makeActive
 /
 Function
 :
-_isTabCandyVisible
+_isTabViewVisible
 /
 /
 Returns
 true
 if
 the
-TabCandy
+TabView
 UI
 is
 currently
 shown
 .
-_isTabCandyVisible
+_isTabViewVisible
 :
 function
 (
@@ -2106,11 +2101,11 @@ selectedIndex
 /
 Function
 :
-showTabCandy
+showTabView
 /
 /
 Shows
-TabCandy
+TabView
 and
 hides
 the
@@ -2135,7 +2130,7 @@ false
 for
 nothing
 .
-showTabCandy
+showTabView
 :
 function
 (
@@ -2371,12 +2366,11 @@ true
 /
 Function
 :
-hideTabCandy
+hideTabView
 /
 /
 Hides
-Tab
-candy
+TabView
 and
 shows
 the
@@ -2384,7 +2378,7 @@ main
 browser
 UI
 .
-hideTabCandy
+hideTabView
 :
 function
 (
@@ -2537,7 +2531,7 @@ of
 the
 /
 /
-TabCandy
+TabView
 UI
 .
 /
@@ -2554,7 +2548,7 @@ true
 for
 the
 special
-TabCandy
+TabView
 color
 false
 for
@@ -2681,7 +2675,7 @@ if
 (
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -2695,8 +2689,7 @@ selected
 tab
 in
 the
-tab
-candy
+TabView
 interface
 .
 if
@@ -2710,7 +2703,7 @@ this
 )
 self
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 =
 true
 ;
@@ -2754,7 +2747,7 @@ go
 back
 to
 the
-TabCandy
+TabView
 tab
 when
 there
@@ -2836,8 +2829,7 @@ another
 tab
 before
 the
-tab
-candy
+TabView
 interface
 shows
 up
@@ -2921,7 +2913,7 @@ false
 ;
 self
 .
-showTabCandy
+showTabView
 (
 )
 ;
@@ -3020,7 +3012,7 @@ length
 )
 self
 .
-hideTabCandy
+hideTabView
 (
 )
 ;
@@ -3080,7 +3072,7 @@ if
 !
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -3201,7 +3193,7 @@ another
 outside
 of
 the
-TabCandy
+TabView
 UI
 .
 tabOnFocus
@@ -3257,7 +3249,7 @@ if
 (
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 &
@@ -3270,7 +3262,7 @@ _closedLastVisibleTab
 |
 this
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 )
 )
 {
@@ -3282,7 +3274,7 @@ false
 ;
 this
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 =
 false
 ;
@@ -3292,7 +3284,7 @@ return
 /
 /
 if
-TabCandy
+TabView
 is
 visible
 but
@@ -3317,13 +3309,13 @@ if
 (
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
 this
 .
-hideTabCandy
+hideTabView
 (
 )
 ;
@@ -3344,7 +3336,7 @@ false
 ;
 this
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 =
 false
 ;
@@ -3373,7 +3365,7 @@ value
 is
 true
 when
-tabcandy
+TabView
 is
 open
 at
@@ -3486,7 +3478,7 @@ when
 we
 return
 to
-TabCandy
+TabView
 var
 oldItem
 =
@@ -3549,8 +3541,7 @@ shoud
 be
 in
 the
-Tab
-Candy
+TabView
 interface
 .
 if
@@ -3566,7 +3557,7 @@ newItem
 !
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -3610,7 +3601,7 @@ setZoomPrep
 !
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -3695,7 +3686,7 @@ if
 (
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -3766,7 +3757,7 @@ of
 the
 /
 /
-TabCandy
+TabView
 UI
 )
 so
@@ -3807,7 +3798,7 @@ if
 (
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -3938,7 +3929,7 @@ preventDefault
 ;
 self
 .
-showTabCandy
+showTabView
 (
 true
 )
@@ -4059,7 +4050,7 @@ between
 tabs
 within
 the
-TabCandy
+TabView
 UI
 .
 _setTabViewFrameKeyHandlers
@@ -4894,7 +4885,7 @@ empty
 space
 in
 the
-TabCandy
+TabView
 UI
 ;
 /
@@ -5670,7 +5661,7 @@ _resize
 /
 Update
 the
-TabCandy
+TabView
 UI
 contents
 in
@@ -5743,7 +5734,7 @@ false
 /
 /
 If
-TabCandy
+TabView
 isn
 '
 t
@@ -5777,7 +5768,7 @@ force
 !
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -6304,7 +6295,7 @@ menu
 "
 in
 the
-TabCandy
+TabView
 UI
 .
 _addDevMenu
@@ -6516,7 +6507,7 @@ location
 href
 =
 "
-tabcandy
+tabview
 .
 html
 "
@@ -6690,7 +6681,7 @@ _reset
 /
 Wipes
 all
-TabCandy
+TabView
 storage
 and
 refreshes
@@ -6866,11 +6857,11 @@ var
 data
 =
 {
-tabCandyVisible
+tabViewVisible
 :
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 pageBounds
@@ -6922,7 +6913,7 @@ all
 data
 associated
 with
-TabCandy
+TabView
 .
 /
 /

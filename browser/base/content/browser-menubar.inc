@@ -1658,13 +1658,13 @@ menuitem
 id
 =
 "
-menu_tabcandy
+menu_tabview
 "
 label
 =
 "
 &
-showTabCandy
+showTabView
 .
 label
 ;
@@ -1674,7 +1674,7 @@ command
 "
 Browser
 :
-ToggleTabCandy
+ToggleTabView
 "
 /
 >
