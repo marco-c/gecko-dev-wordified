@@ -635,7 +635,7 @@ variant
 >
 AddToRootSet
 (
-GetJSRuntime
+GetMapLock
 (
 )
 &
@@ -660,7 +660,7 @@ wrappedJS
 >
 AddToRootSet
 (
-GetJSRuntime
+GetMapLock
 (
 )
 &
@@ -685,7 +685,7 @@ holder
 >
 AddToRootSet
 (
-GetJSRuntime
+GetMapLock
 (
 )
 &

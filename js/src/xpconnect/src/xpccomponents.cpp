@@ -16238,7 +16238,7 @@ inner_cc
 wrapper
 -
 >
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 )
@@ -16276,7 +16276,7 @@ iface
 wrapper
 -
 >
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 &

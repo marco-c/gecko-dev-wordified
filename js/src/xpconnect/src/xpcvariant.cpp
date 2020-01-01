@@ -704,7 +704,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+GetMapLock
 (
 )
 )
@@ -949,7 +949,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+GetMapLock
 (
 )
 )

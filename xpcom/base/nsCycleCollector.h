@@ -513,6 +513,14 @@ explainLiveExpectedGarbage
 ;
 virtual
 nsresult
+FinishTraverse
+(
+)
+=
+0
+;
+virtual
+nsresult
 FinishCycleCollection
 (
 )
@@ -575,6 +583,11 @@ aListener
 NS_COM
 PRUint32
 nsCycleCollector_suspectedCount
+(
+)
+;
+void
+nsCycleCollector_shutdownThreads
 (
 )
 ;

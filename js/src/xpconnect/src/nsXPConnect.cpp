@@ -3031,7 +3031,7 @@ Didn
 '
 t
 call
-FinishCollection
+FinishTraverse
 ?
 "
 )
@@ -3060,7 +3060,7 @@ mCycleCollectionContext
 nsnull
 ;
 return
-PR_FALSE
+NS_ERROR_FAILURE
 ;
 }
 #
@@ -3077,7 +3077,7 @@ Didn
 '
 t
 call
-FinishCollection
+FinishCycleCollection
 ?
 "
 )
@@ -3252,7 +3252,7 @@ nsresult
 nsXPConnect
 :
 :
-FinishCycleCollection
+FinishTraverse
 (
 )
 {
@@ -3264,6 +3264,18 @@ mCycleCollectionContext
 =
 nsnull
 ;
+return
+NS_OK
+;
+}
+nsresult
+nsXPConnect
+:
+:
+FinishCycleCollection
+(
+)
+{
 #
 ifdef
 DEBUG_CC

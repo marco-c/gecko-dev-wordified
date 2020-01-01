@@ -3791,7 +3791,7 @@ NS_ASSERTION
 wrapper
 -
 >
-GetFlatJSObject
+IsValid
 (
 )
 "
@@ -3824,7 +3824,7 @@ void
 wrapper
 -
 >
-GetFlatJSObject
+GetFlatJSObjectNoMark
 (
 )
 )
@@ -4034,7 +4034,7 @@ flat
 wrapper
 -
 >
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 ;
@@ -4179,12 +4179,7 @@ PostCreate
 (
 wrapper
 ccx
-wrapper
--
->
-GetFlatJSObject
-(
-)
+flat
 )
 ;
 if
@@ -9496,7 +9491,7 @@ flat
 wrapper
 -
 >
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 ;
@@ -12068,9 +12063,7 @@ jso
 jso
 =
 =
-GetFlatJSObject
-(
-)
+mFlatJSObject
 )
 {
 /
@@ -17971,7 +17964,9 @@ aJSObject
 *
 aJSObject
 =
-mFlatJSObject
+GetFlatJSObjectAndMark
+(
+)
 ;
 return
 NS_OK
@@ -18032,7 +18027,7 @@ NS_OK
 }
 /
 *
-readonly
+reaonly
 attribute
 JSObjectPtr
 JSObjectPrototype
@@ -18067,7 +18062,7 @@ GetJSProtoObject
 (
 )
 :
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 ;
@@ -18452,9 +18447,7 @@ NS_OK
 if
 (
 !
-GetFlatJSObject
-(
-)
+mFlatJSObject
 )
 return
 UnexpectedFailure
@@ -18473,7 +18466,7 @@ ac
 enter
 (
 ccx
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 )
@@ -18618,7 +18611,7 @@ if
 JS_SetPrototype
 (
 ccx
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 newProto
@@ -22280,7 +22273,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+GetMapLock
 (
 )
 )
