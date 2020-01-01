@@ -3258,11 +3258,6 @@ name
 js
 :
 :
-HandleObject
-holder
-js
-:
-:
 MutableHandleValue
 vp
 )
