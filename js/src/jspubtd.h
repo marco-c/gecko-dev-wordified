@@ -1038,6 +1038,11 @@ struct
 JSLocaleCallbacks
 JSLocaleCallbacks
 ;
+typedef
+struct
+JSSecurityCallbacks
+JSSecurityCallbacks
+;
 /
 *
 JSClass
