@@ -954,6 +954,7 @@ filter
 (
 "
 "
+null
 )
 ;
 }
@@ -1744,6 +1745,8 @@ filter
 (
 String
 searchTerm
+AutocompleteHandler
+handler
 )
 {
 /
@@ -1834,6 +1837,7 @@ allPages
 filter
 (
 searchTerm
+handler
 )
 ;
 /
