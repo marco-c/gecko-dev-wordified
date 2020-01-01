@@ -4437,6 +4437,14 @@ mChromeEventHandler
 /
 Weak
 Reference
+#
+ifdef
+DEBUG
+PRBool
+mInEnsureScriptEnv
+;
+#
+endif
 static
 nsIURIFixup
 *
