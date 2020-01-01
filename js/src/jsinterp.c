@@ -6036,10 +6036,6 @@ JSObject
 *
 thisp
 ;
-JSClass
-*
-clasp
-;
 if
 (
 JSVAL_IS_PRIMITIVE
