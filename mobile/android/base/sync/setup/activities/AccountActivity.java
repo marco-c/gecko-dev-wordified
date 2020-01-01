@@ -415,6 +415,13 @@ setup
 activities
 ;
 import
+java
+.
+util
+.
+Locale
+;
+import
 org
 .
 mozilla
@@ -1098,6 +1105,13 @@ getText
 .
 toString
 (
+)
+.
+toLowerCase
+(
+Locale
+.
+US
 )
 ;
 password
