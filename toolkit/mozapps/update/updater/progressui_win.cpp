@@ -2334,8 +2334,8 @@ NULL
 Message
 handler
 for
-about
-box
+update
+dialog
 .
 static
 LRESULT
