@@ -916,7 +916,7 @@ hasIonScript
 ion
 :
 :
-forbidIonCompilation
+ForbidCompilation
 (
 script
 )

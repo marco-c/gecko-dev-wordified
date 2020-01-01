@@ -1479,7 +1479,7 @@ typeInferenceEnabled
 ;
 }
 void
-forbidIonCompilation
+ForbidCompilation
 (
 JSScript
 *
