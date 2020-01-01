@@ -682,7 +682,7 @@ aOverride
 )
 ;
 NS_OVERRIDE
-nsresult
+void
 UpdateSelectedLocale
 (
 )

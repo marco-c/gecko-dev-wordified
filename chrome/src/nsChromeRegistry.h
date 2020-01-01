@@ -831,7 +831,7 @@ about
 this
 change
 virtual
-nsresult
+void
 UpdateSelectedLocale
 (
 )
