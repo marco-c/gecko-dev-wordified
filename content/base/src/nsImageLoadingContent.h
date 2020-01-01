@@ -2222,7 +2222,7 @@ SKIP_FRAME_CHECK
 0x1
 }
 ;
-nsresult
+void
 TrackImage
 (
 imgIRequest
@@ -2241,7 +2241,7 @@ REQUEST_DISCARD
 0x1
 }
 ;
-nsresult
+void
 UntrackImage
 (
 imgIRequest

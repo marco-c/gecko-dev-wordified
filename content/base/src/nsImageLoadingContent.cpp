@@ -6984,7 +6984,7 @@ false
 )
 ;
 }
-nsresult
+void
 nsImageLoadingContent
 :
 :
@@ -7009,7 +7009,6 @@ if
 aImage
 )
 return
-NS_OK
 ;
 MOZ_ASSERT
 (
@@ -7132,11 +7131,8 @@ mPendingRequest
 ;
 }
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsImageLoadingContent
 :
 :
@@ -7161,7 +7157,6 @@ if
 aImage
 )
 return
-NS_OK
 ;
 MOZ_ASSERT
 (
@@ -7427,9 +7422,6 @@ RequestDiscard
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 nsImageLoadingContent
