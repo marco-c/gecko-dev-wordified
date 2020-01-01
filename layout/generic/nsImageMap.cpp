@@ -3134,6 +3134,7 @@ pointer
 wherey
 )
 )
+{
 if
 (
 (
@@ -3154,6 +3155,7 @@ mCoords
 wherex
 )
 )
+{
 intersects
 +
 =
@@ -3168,7 +3170,9 @@ wherex
 :
 0
 ;
+}
 else
+{
 intersects
 +
 =
@@ -3209,6 +3213,8 @@ wherex
 :
 0
 ;
+}
+}
 /
 /
 XXX
