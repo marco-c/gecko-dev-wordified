@@ -15631,7 +15631,12 @@ deleteProperty
 f
 .
 cx
-id
+atom
+-
+>
+asPropertyName
+(
+)
 &
 f
 .
@@ -15716,7 +15721,7 @@ if
 obj
 -
 >
-deleteProperty
+deleteGeneric
 (
 cx
 ATOM_TO_JSID
@@ -15878,7 +15883,7 @@ if
 obj
 -
 >
-deleteProperty
+deleteGeneric
 (
 cx
 id

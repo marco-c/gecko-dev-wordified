@@ -20725,7 +20725,12 @@ obj
 deleteProperty
 (
 cx
-id
+atom
+-
+>
+asPropertyName
+(
+)
 &
 regs
 .
@@ -20790,7 +20795,7 @@ if
 obj
 -
 >
-deleteProperty
+deleteGeneric
 (
 cx
 id
@@ -20899,7 +20904,7 @@ if
 obj
 -
 >
-deleteProperty
+deleteGeneric
 (
 cx
 id

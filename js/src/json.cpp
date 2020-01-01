@@ -5650,7 +5650,7 @@ ii
 .
 *
 /
-jsuint
+uint32
 length
 =
 obj
@@ -5678,7 +5678,7 @@ iv
 /
 for
 (
-jsuint
+uint32
 i
 =
 0
@@ -5863,11 +5863,11 @@ iii
 /
 JS_ALWAYS_TRUE
 (
-array_deleteProperty
+array_deleteElement
 (
 cx
 obj
-id
+i
 &
 newElement
 false
