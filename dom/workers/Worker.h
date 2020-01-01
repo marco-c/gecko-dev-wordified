@@ -475,6 +475,17 @@ bool
 aMainRuntime
 )
 ;
+void
+ClearPrivateSlot
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObj
+)
+;
 }
 /
 /
