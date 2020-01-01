@@ -133,6 +133,9 @@ class
 nsBaseContentList
 ;
 class
+nsGUIEvent
+;
+class
 nsRangeFrame
 :
 public
@@ -527,6 +530,14 @@ ShouldUseNativeStyle
 (
 )
 const
+;
+double
+GetValueAtEventPoint
+(
+nsGUIEvent
+*
+aEvent
+)
 ;
 private
 :
