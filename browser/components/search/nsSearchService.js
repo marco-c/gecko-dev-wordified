@@ -16092,7 +16092,7 @@ nsIFile
 ;
 this
 .
-loadEngines
+_loadEngines
 (
 location
 )
@@ -16730,7 +16730,7 @@ _dataType
 ;
 }
 }
-loadEngines
+_loadEngines
 :
 function
 SRCH_SVC_loadEngines
@@ -16741,7 +16741,7 @@ aDir
 LOG
 (
 "
-loadEngines
+_loadEngines
 :
 Searching
 in
@@ -16983,7 +16983,7 @@ ex
 LOG
 (
 "
-loadEngines
+_loadEngines
 :
 Failed
 to
@@ -17040,7 +17040,7 @@ ex
 LOG
 (
 "
-loadEngines
+_loadEngines
 :
 Failed
 to
