@@ -494,13 +494,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsPLDOMEvent
-.
-h
-"
 class
 nsHTMLTitleElement
 :

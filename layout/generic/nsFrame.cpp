@@ -10480,6 +10480,7 @@ nsPLDOMEvent
 (
 target
 aDOMEventName
+PR_TRUE
 PR_FALSE
 )
 ;

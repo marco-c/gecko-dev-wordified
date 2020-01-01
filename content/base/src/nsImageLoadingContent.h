@@ -1720,13 +1720,6 @@ nsAString
 aEventType
 )
 ;
-class
-Event
-;
-friend
-class
-Event
-;
 protected
 :
 void

@@ -814,6 +814,16 @@ nsIURI
 aURI
 )
 ;
+void
+FireErrorEvent
+(
+)
+;
+nsresult
+ReallyStartLoadingInternal
+(
+)
+;
 nsCOMPtr
 <
 nsIDocShell
