@@ -54968,7 +54968,7 @@ telemetry
 .
 optin
 .
-send
+yes
 "
 )
 callback
@@ -55019,7 +55019,7 @@ telemetry
 .
 optin
 .
-dontSend
+no
 "
 )
 callback
