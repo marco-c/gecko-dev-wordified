@@ -1040,11 +1040,13 @@ listener
 on
 UI
 thread
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getMainHandler
+(
+)
 .
-runOnUiThread
+post
 (
 new
 Runnable
@@ -1706,9 +1708,7 @@ GeckoJarReader
 .
 getBitmapDrawable
 (
-GeckoApp
-.
-mAppContext
+mContext
 .
 getResources
 (
