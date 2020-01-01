@@ -49130,6 +49130,12 @@ private
 "
 )
 ;
+gBrowser
+.
+updateTitlebar
+(
+)
+;
 }
 setTimeout
 (
