@@ -644,7 +644,13 @@ ARMs
 have
 conditional
 move
-has_cmov
+avmplus
+:
+:
+AvmCore
+:
+:
+cmov_available
 =
 true
 ;
