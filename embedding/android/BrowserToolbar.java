@@ -550,7 +550,7 @@ ImageButton
 mTabs
 ;
 final
-private
+public
 ImageButton
 mFavicon
 ;
