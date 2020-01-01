@@ -1268,6 +1268,10 @@ char
 data
 uint32_t
 len
+uint32_t
+ppid_partial
+uint32_t
+ppid_final
 )
 ;
 int32_t
@@ -1921,6 +1925,10 @@ mFlags
 (
 0
 )
+mIsRecvBinary
+(
+false
+)
 {
 NS_ASSERTION
 (
@@ -2363,8 +2371,11 @@ mFlags
 uint32_t
 mId
 ;
+bool
+mIsRecvBinary
+;
 nsCString
-mBinaryBuffer
+mRecvBuffer
 ;
 nsTArray
 <
