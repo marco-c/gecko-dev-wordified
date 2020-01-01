@@ -736,15 +736,6 @@ proper
 namespacing
 *
 -
-fix
-the
-!
-TCF_HAS_DEFXMLNS
-optimization
-in
-js_FoldConstants
-*
--
 JSCLASS_DOCUMENT_OBSERVER
 support
 -

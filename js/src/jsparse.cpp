@@ -5605,11 +5605,7 @@ tc
 >
 flags
 &
-(
 TCF_FUN_FLAGS
-|
-TCF_HAS_DEFXMLNS
-)
 )
 ;
 return
@@ -8895,8 +8891,6 @@ flags
 &
 (
 TCF_FUN_FLAGS
-|
-TCF_HAS_DEFXMLNS
 |
 TCF_COMPILE_N_GO
 )
@@ -21277,14 +21271,6 @@ pn
 pn_kid
 =
 pn2
-;
-tc
--
->
-flags
-|
-=
-TCF_HAS_DEFXMLNS
 ;
 break
 ;
