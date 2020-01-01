@@ -1571,6 +1571,9 @@ thread
 uint16_t
 mRemotePort
 ;
+bool
+mUsingDtls
+;
 /
 /
 Timer
