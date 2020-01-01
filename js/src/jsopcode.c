@@ -24809,10 +24809,11 @@ it
 s
 a
 name
+and
 not
 an
-anonymous
 *
+anonymous
 function
 so
 it
@@ -24822,9 +24823,9 @@ t
 get
 decompiled
 as
+*
 a
 generator
-*
 function
 in
 a
@@ -24833,9 +24834,9 @@ or
 setter
 context
 .
+*
 The
 precedence
-*
 level
 is
 the
@@ -24843,6 +24844,7 @@ same
 for
 JSOP_NAME
 and
+*
 JSOP_ANONFUNOBJ
 .
 *
