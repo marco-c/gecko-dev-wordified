@@ -2372,11 +2372,6 @@ list_item
 )
 CSS_KEY
 (
-local
-local
-)
-CSS_KEY
-(
 logical
 logical
 )
