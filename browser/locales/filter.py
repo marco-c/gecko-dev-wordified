@@ -63,6 +63,14 @@ firefox
 "
                  
 "
+browser
+/
+branding
+/
+official
+"
+                 
+"
 services
 /
 sync
