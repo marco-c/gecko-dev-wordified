@@ -411,7 +411,7 @@ bool
 SkDrawGradient
 :
 :
-add
+addChild
 (
 SkAnimateMaker
 &

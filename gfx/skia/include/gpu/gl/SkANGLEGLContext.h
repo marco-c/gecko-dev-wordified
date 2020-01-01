@@ -45,7 +45,7 @@ SK_ANGLE
 #
 include
 "
-SkGLContext
+SkGLContextHelper
 .
 h
 "
@@ -71,7 +71,7 @@ class
 SkANGLEGLContext
 :
 public
-SkGLContext
+SkGLContextHelper
 {
 public
 :

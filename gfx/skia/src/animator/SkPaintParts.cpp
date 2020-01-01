@@ -409,7 +409,6 @@ dump
 (
 SkAnimateMaker
 *
-maker
 )
 {
 SkDebugf

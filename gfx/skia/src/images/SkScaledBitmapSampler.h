@@ -358,7 +358,7 @@ bitmap
 '
 s
 pixels
-int
+size_t
 fDstRowBytes
 ;
 int

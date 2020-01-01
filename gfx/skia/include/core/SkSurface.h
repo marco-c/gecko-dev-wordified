@@ -204,8 +204,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 void
 *
 pixels
@@ -267,8 +265,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 )
 ;
 /
@@ -388,8 +384,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 int
 sampleCount
 =
@@ -736,8 +730,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 )
 ;
 /

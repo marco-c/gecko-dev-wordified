@@ -295,7 +295,7 @@ bool
 SkDisplayEvent
 :
 :
-add
+addChild
 (
 SkAnimateMaker
 &
@@ -1207,9 +1207,12 @@ kind
 kOnEnd
 )
 {
+SkDEBUGCODE
+(
 bool
 found
 =
+)
 maker
 .
 find

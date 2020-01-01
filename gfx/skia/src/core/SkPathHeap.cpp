@@ -355,6 +355,7 @@ count
 ;
 SkPath
 *
+const
 *
 iter
 =
@@ -366,6 +367,7 @@ begin
 ;
 SkPath
 *
+const
 *
 stop
 =

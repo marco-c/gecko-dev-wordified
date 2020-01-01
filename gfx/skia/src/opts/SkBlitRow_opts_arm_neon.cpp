@@ -148,6 +148,8 @@ uint16_t
 *
 SK_RESTRICT
 keep_dst
+=
+0
 ;
 asm
 volatile
@@ -1050,6 +1052,8 @@ uint16_t
 *
 SK_RESTRICT
 keep_dst
+=
+0
 ;
 asm
 volatile
@@ -8521,13 +8525,11 @@ uint8x8_t
 sr
 sg
 sb
-sa
 ;
 uint16x8_t
 dr
 dg
 db
-da
 ;
 uint16x8_t
 dst8
@@ -8673,10 +8675,6 @@ d1
 sb
 =
 d2
-;
-sa
-=
-d3
 ;
 }
 /

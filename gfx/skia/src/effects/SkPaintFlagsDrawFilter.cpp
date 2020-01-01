@@ -83,7 +83,7 @@ kAllFlags
 )
 ;
 }
-void
+bool
 SkPaintFlagsDrawFilter
 :
 :
@@ -114,5 +114,8 @@ fClearFlags
 |
 fSetFlags
 )
+;
+return
+true
 ;
 }

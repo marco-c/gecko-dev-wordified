@@ -1399,9 +1399,12 @@ setCount
 count
 )
 ;
+SkDEBUGCODE
+(
 bool
 success
 =
+)
 animate
 -
 >
@@ -1709,9 +1712,12 @@ setCount
 count
 )
 ;
+SkDEBUGCODE
+(
 bool
 success
 =
+)
 animate
 -
 >

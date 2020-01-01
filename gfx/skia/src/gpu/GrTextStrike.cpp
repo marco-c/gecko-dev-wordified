@@ -943,7 +943,7 @@ getArray
 (
 )
 .
-visit
+visitAll
 (
 FreeGlyph
 )

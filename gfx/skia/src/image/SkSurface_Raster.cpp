@@ -97,8 +97,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 size_t
 rb
 =
@@ -113,8 +111,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 void
 *
 size_t
@@ -129,8 +125,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 SkPixelRef
 *
 size_t
@@ -156,8 +150,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 )
 SK_OVERRIDE
 ;
@@ -302,9 +294,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 size_t
 rowBytes
 )
@@ -488,9 +477,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 void
 *
 pixels
@@ -576,9 +562,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 SkPixelRef
 *
 pr
@@ -654,7 +637,7 @@ fBitmap
 .
 eraseColor
 (
-0
+SK_ColorTRANSPARENT
 )
 ;
 }
@@ -692,9 +675,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 )
 {
 return
@@ -704,7 +684,6 @@ SkSurface
 NewRaster
 (
 info
-cs
 )
 ;
 }
@@ -978,9 +957,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 void
 *
 pixels
@@ -997,7 +973,6 @@ SkSurface_Raster
 Valid
 (
 info
-cs
 rowBytes
 )
 )
@@ -1024,7 +999,6 @@ SkNEW_ARGS
 SkSurface_Raster
 (
 info
-cs
 pixels
 rowBytes
 )
@@ -1045,9 +1019,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 )
 {
 if
@@ -1059,7 +1030,6 @@ SkSurface_Raster
 Valid
 (
 info
-cs
 )
 )
 {
@@ -1158,7 +1128,6 @@ SkNEW_ARGS
 SkSurface_Raster
 (
 info
-cs
 pr
 rowBytes
 )

@@ -381,13 +381,13 @@ deprecated
 constructor
 )
 .
-SkRefPtr
+SkAutoTUnref
 <
 SkStream
 >
 fData
 ;
-SkRefPtr
+SkAutoTUnref
 <
 SkPDFStream
 >

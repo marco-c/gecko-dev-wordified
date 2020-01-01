@@ -92,6 +92,12 @@ gIEEEInfinity
 =
 0x7F800000
 ;
+const
+uint32_t
+gIEEENegativeInfinity
+=
+0xFF800000
+;
 #
 endif
 #

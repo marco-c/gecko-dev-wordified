@@ -257,7 +257,7 @@ bool
 SkPost
 :
 :
-add
+addChild
 (
 SkAnimateMaker
 &
@@ -1702,9 +1702,14 @@ len
 =
 end
 ?
+(
+size_t
+)
+(
 end
 -
 ch
+)
 :
 strlen
 (

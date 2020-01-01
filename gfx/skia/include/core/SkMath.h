@@ -320,7 +320,7 @@ uint32_t
 if
 defined
 (
-__arm__
+SK_CPU_ARM
 )
 #
 define

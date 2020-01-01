@@ -463,6 +463,9 @@ fRepeat
 ?
 totalTime
 :
+(
+SkMSec
+)
 SkScalarMulFloor
 (
 fraction

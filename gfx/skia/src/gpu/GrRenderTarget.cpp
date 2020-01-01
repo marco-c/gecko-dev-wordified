@@ -531,6 +531,17 @@ stencilBuffer
 {
 if
 (
+stencilBuffer
+=
+=
+fStencilBuffer
+)
+{
+return
+;
+}
+if
+(
 NULL
 !
 =

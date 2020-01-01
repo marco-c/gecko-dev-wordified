@@ -514,7 +514,7 @@ simultaneously
 *
 /
 void
-playback
+draw
 (
 SkCanvas
 *

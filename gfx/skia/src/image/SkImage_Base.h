@@ -76,7 +76,9 @@ onDraw
 SkCanvas
 *
 SkScalar
+x
 SkScalar
+y
 const
 SkPaint
 *

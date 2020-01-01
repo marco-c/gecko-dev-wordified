@@ -71,11 +71,14 @@ GrPath
 GrGpu
 *
 gpu
+bool
+isWrapped
 )
 :
 INHERITED
 (
 gpu
+isWrapped
 )
 {
 }

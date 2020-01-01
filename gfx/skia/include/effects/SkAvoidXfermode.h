@@ -72,6 +72,7 @@ color
 *
 /
 class
+SK_API
 SkAvoidXfermode
 :
 public
@@ -283,6 +284,7 @@ aa
 [
 ]
 )
+const
 SK_OVERRIDE
 ;
 virtual
@@ -306,6 +308,7 @@ aa
 [
 ]
 )
+const
 SK_OVERRIDE
 ;
 virtual
@@ -329,6 +332,7 @@ aa
 [
 ]
 )
+const
 SK_OVERRIDE
 ;
 virtual
@@ -352,8 +356,12 @@ aa
 [
 ]
 )
+const
 SK_OVERRIDE
 ;
+SK_DEVELOPER_TO_STRING
+(
+)
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
 (
 SkAvoidXfermode

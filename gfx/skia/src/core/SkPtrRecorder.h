@@ -423,7 +423,6 @@ incPtr
 (
 void
 *
-ptr
 )
 {
 }
@@ -433,7 +432,6 @@ decPtr
 (
 void
 *
-ptr
 )
 {
 }

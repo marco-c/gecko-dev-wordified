@@ -42,7 +42,7 @@ SkDebugGLContext_DEFINED
 #
 include
 "
-SkGLContext
+SkGLContextHelper
 .
 h
 "
@@ -50,7 +50,7 @@ class
 SkDebugGLContext
 :
 public
-SkGLContext
+SkGLContextHelper
 {
 public
 :

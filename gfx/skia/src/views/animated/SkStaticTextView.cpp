@@ -887,6 +887,7 @@ height
 =
 0
 )
+{
 this
 -
 >
@@ -898,7 +899,9 @@ Mode
 index
 )
 ;
+}
 else
+{
 assert_no_attr
 (
 dom
@@ -908,6 +911,7 @@ mode
 "
 )
 ;
+}
 if
 (
 (
@@ -934,6 +938,7 @@ end
 =
 0
 )
+{
 this
 -
 >
@@ -948,7 +953,9 @@ SpacingAlign
 index
 )
 ;
+}
 else
+{
 assert_no_attr
 (
 dom
@@ -960,6 +967,7 @@ align
 "
 )
 ;
+}
 SkScalar
 s
 [
@@ -980,6 +988,7 @@ s
 2
 )
 )
+{
 this
 -
 >
@@ -995,7 +1004,9 @@ s
 ]
 )
 ;
+}
 else
+{
 assert_no_attr
 (
 dom
@@ -1005,6 +1016,7 @@ margin
 "
 )
 ;
+}
 const
 char
 *
@@ -1024,6 +1036,7 @@ if
 (
 text
 )
+{
 this
 -
 >
@@ -1032,6 +1045,7 @@ setText
 text
 )
 ;
+}
 if
 (
 (

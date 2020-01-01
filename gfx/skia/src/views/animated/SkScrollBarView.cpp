@@ -628,6 +628,8 @@ shown
 =
 fShownLength
 ;
+/
+/
 int
 hideBar
 =
@@ -679,6 +681,8 @@ by
 skin
 /
 script
+/
+/
 hideBar
 =
 1

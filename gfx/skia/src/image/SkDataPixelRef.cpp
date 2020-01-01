@@ -243,7 +243,3 @@ NULL
 )
 ;
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkDataPixelRef
-)

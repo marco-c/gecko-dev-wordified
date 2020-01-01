@@ -49,6 +49,7 @@ SkDrawFilter
 h
 "
 class
+SK_API
 SkPaintFlagsDrawFilter
 :
 public
@@ -64,17 +65,15 @@ uint32_t
 setFlags
 )
 ;
-/
-/
-overrides
 virtual
-void
+bool
 filter
 (
 SkPaint
 *
 Type
 )
+SK_OVERRIDE
 ;
 private
 :

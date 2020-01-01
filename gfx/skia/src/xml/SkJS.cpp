@@ -719,7 +719,6 @@ fRuntime
 JS_NewRuntime
 (
 0x100000
-JS_NO_HELPER_THREADS
 )
 )
 =

@@ -66,6 +66,7 @@ class
 SkPaint
 ;
 class
+SK_API
 SkLayerRasterizer
 :
 public
@@ -224,6 +225,7 @@ SkMask
 CreateMode
 mode
 )
+const
 ;
 private
 :

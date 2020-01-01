@@ -69,6 +69,7 @@ to
 java
 .
 class
+SK_API
 Sk1DPathEffect
 :
 public
@@ -89,7 +90,11 @@ SkPath
 src
 SkStrokeRec
 *
+const
+SkRect
+*
 )
+const
 SK_OVERRIDE
 ;
 protected
@@ -121,6 +126,7 @@ begin
 SkScalar
 contourLength
 )
+const
 =
 0
 ;
@@ -180,10 +186,11 @@ SkPath
 *
 dst
 SkScalar
-distance
+dist
 SkPathMeasure
 &
 )
+const
 =
 0
 ;
@@ -196,6 +203,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkPath1DPathEffect
 :
 public
@@ -322,7 +330,11 @@ SkPath
 &
 SkStrokeRec
 *
+const
+SkRect
+*
 )
+const
 SK_OVERRIDE
 ;
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
@@ -360,6 +372,7 @@ begin
 SkScalar
 contourLength
 )
+const
 SK_OVERRIDE
 ;
 virtual
@@ -369,10 +382,10 @@ next
 SkPath
 *
 SkScalar
-distance
 SkPathMeasure
 &
 )
+const
 SK_OVERRIDE
 ;
 private

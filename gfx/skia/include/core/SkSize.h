@@ -39,6 +39,13 @@ SkSize_DEFINED
 #
 define
 SkSize_DEFINED
+#
+include
+"
+SkScalar
+.
+h
+"
 template
 <
 typename
@@ -461,13 +468,6 @@ int32_t
 >
 SkISize
 ;
-#
-include
-"
-SkScalar
-.
-h
-"
 struct
 SkSize
 :

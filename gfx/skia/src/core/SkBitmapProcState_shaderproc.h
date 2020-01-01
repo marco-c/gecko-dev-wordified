@@ -348,7 +348,7 @@ getPixels
 (
 )
 ;
-unsigned
+size_t
 rb
 =
 s

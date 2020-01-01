@@ -90,6 +90,9 @@ SkTDArray
 .
 h
 "
+struct
+SkDeviceProperties
+;
 class
 SkPaint
 ;
@@ -957,6 +960,8 @@ SkGlyphCache
 *
 VisitCache
 (
+SkTypeface
+*
 const
 SkDescriptor
 *
@@ -1134,6 +1139,9 @@ SkGlyphCache
 *
 DetachCache
 (
+SkTypeface
+*
+typeface
 const
 SkDescriptor
 *
@@ -1143,6 +1151,7 @@ desc
 return
 VisitCache
 (
+typeface
 desc
 DetachProc
 NULL
@@ -1245,6 +1254,8 @@ private
 :
 SkGlyphCache
 (
+SkTypeface
+*
 const
 SkDescriptor
 *
@@ -1661,6 +1672,9 @@ cache
 }
 SkAutoGlyphCache
 (
+SkTypeface
+*
+typeface
 const
 SkDescriptor
 *
@@ -1674,6 +1688,7 @@ SkGlyphCache
 :
 DetachCache
 (
+typeface
 desc
 )
 ;
@@ -1684,6 +1699,10 @@ const
 SkPaint
 &
 paint
+const
+SkDeviceProperties
+*
+deviceProperties
 const
 SkMatrix
 *
@@ -1696,6 +1715,7 @@ paint
 .
 detachCache
 (
+deviceProperties
 matrix
 )
 ;

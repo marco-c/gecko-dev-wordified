@@ -296,7 +296,7 @@ MIN_HEIGHT_POW2
 return
 32
 -
-Gr_clz
+SkCLZ
 (
 height
 -

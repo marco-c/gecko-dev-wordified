@@ -42,7 +42,7 @@ GrPathUtils_DEFINED
 #
 include
 "
-GrMatrix
+GrRect
 .
 h
 "
@@ -60,6 +60,9 @@ SkTArray
 .
 h
 "
+class
+SkMatrix
+;
 /
 *
 *
@@ -74,13 +77,13 @@ paths
 namespace
 GrPathUtils
 {
-GrScalar
+SkScalar
 scaleToleranceToSrc
 (
-GrScalar
+SkScalar
 devTol
 const
-GrMatrix
+SkMatrix
 &
 viewM
 const
@@ -128,7 +131,7 @@ SkPath
 int
 *
 subpaths
-GrScalar
+SkScalar
 tol
 )
 ;
@@ -170,7 +173,7 @@ GrPoint
 points
 [
 ]
-GrScalar
+SkScalar
 tol
 )
 ;
@@ -189,7 +192,7 @@ const
 GrPoint
 &
 p2
-GrScalar
+SkScalar
 tolSqd
 GrPoint
 *
@@ -237,7 +240,7 @@ GrPoint
 points
 [
 ]
-GrScalar
+SkScalar
 tol
 )
 ;
@@ -260,7 +263,7 @@ const
 GrPoint
 &
 p3
-GrScalar
+SkScalar
 tolSqd
 GrPoint
 *

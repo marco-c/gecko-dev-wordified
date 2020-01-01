@@ -885,7 +885,6 @@ deepCopy
 (
 SkAnimateMaker
 *
-maker
 )
 {
 SkDrawColor
@@ -1307,7 +1306,6 @@ onEndElement
 (
 SkAnimateMaker
 &
-maker
 )
 {
 fDirty

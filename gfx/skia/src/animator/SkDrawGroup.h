@@ -96,7 +96,7 @@ SkGroup
 ;
 virtual
 bool
-add
+addChild
 (
 SkAnimateMaker
 &

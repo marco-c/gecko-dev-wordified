@@ -1777,7 +1777,7 @@ getInt
 )
 )
 ;
-SkRandom
+SkMWCRandom
 rand
 ;
 int

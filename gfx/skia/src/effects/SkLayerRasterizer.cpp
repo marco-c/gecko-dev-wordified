@@ -510,6 +510,7 @@ SkMask
 CreateMode
 mode
 )
+const
 {
 if
 (
@@ -1102,7 +1103,3 @@ fOffset
 ;
 }
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkLayerRasterizer
-)

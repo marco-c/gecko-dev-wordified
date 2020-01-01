@@ -1355,6 +1355,9 @@ endif
 #
 ifdef
 SK_SCALAR_IS_FLOAT
+#
+ifdef
+SK_DEBUG
 /
 /
 This
@@ -1460,6 +1463,8 @@ fX
 )
 ;
 }
+#
+endif
 #
 endif
 int

@@ -126,7 +126,7 @@ SkDisplayEvent
 ;
 virtual
 bool
-add
+addChild
 (
 SkAnimateMaker
 &

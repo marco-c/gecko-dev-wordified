@@ -60,13 +60,6 @@ defined
 (
 SK_BUILD_FOR_MAC
 )
-&
-&
-!
-defined
-(
-SK_USE_WXWIDGETS
-)
 #
 include
 <

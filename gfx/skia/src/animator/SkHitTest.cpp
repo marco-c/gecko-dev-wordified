@@ -108,7 +108,6 @@ draw
 (
 SkAnimateMaker
 &
-maker
 )
 {
 hits
@@ -278,7 +277,6 @@ enable
 (
 SkAnimateMaker
 &
-maker
 )
 {
 for
@@ -381,7 +379,6 @@ SkHitTest
 preferredChild
 (
 SkDisplayTypes
-type
 )
 {
 if

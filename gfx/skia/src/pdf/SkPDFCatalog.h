@@ -714,14 +714,14 @@ SubstituteMapping
 >
 fSubstituteMap
 ;
-SkTDArray
+SkTSet
 <
 SkPDFObject
 *
 >
 fSubstituteResourcesFirstPage
 ;
-SkTDArray
+SkTSet
 <
 SkPDFObject
 *
@@ -796,7 +796,7 @@ SkPDFObject
 obj
 )
 ;
-SkTDArray
+SkTSet
 <
 SkPDFObject
 *

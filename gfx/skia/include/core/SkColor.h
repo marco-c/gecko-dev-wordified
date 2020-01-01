@@ -597,6 +597,17 @@ common
 colors
 #
 define
+SK_ColorTRANSPARENT
+0x00000000
+/
+/
+!
+<
+transparent
+SkColor
+value
+#
+define
 SK_ColorBLACK
 0xFF000000
 /

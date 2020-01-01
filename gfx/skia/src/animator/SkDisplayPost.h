@@ -112,7 +112,7 @@ SkPost
 ;
 virtual
 bool
-add
+addChild
 (
 SkAnimateMaker
 &

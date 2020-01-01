@@ -68,8 +68,8 @@ SkShader
 class
 GrContext
 ;
-struct
-GrPlatformTextureDesc
+class
+GrTexture
 ;
 /
 /
@@ -90,9 +90,6 @@ h
 /
 /
 EXPERIMENTAL
-class
-SkColorSpace
-;
 /
 *
 *
@@ -243,8 +240,6 @@ NewRasterCopy
 const
 Info
 &
-SkColorSpace
-*
 const
 void
 *
@@ -261,8 +256,6 @@ NewRasterData
 const
 Info
 &
-SkColorSpace
-*
 SkData
 *
 pixels
@@ -284,11 +277,8 @@ SkImage
 *
 NewTexture
 (
-GrContext
+GrTexture
 *
-const
-GrPlatformTextureDesc
-&
 )
 ;
 int

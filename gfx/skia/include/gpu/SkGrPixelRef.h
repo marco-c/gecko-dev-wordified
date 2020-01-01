@@ -297,6 +297,10 @@ SkBitmap
 :
 Config
 dstConfig
+const
+SkIRect
+*
+subset
 )
 SK_OVERRIDE
 ;

@@ -1385,7 +1385,7 @@ x
 y
 )
 ;
-int
+size_t
 rowBytes
 =
 fDevice

@@ -42,7 +42,7 @@ SkNullGLContext_DEFINED
 #
 include
 "
-SkGLContext
+SkGLContextHelper
 .
 h
 "
@@ -50,7 +50,7 @@ class
 SkNullGLContext
 :
 public
-SkGLContext
+SkGLContextHelper
 {
 public
 :

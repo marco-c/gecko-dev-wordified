@@ -86,7 +86,6 @@ SkBitSet
 source
 )
 ;
-const
 SkBitSet
 &
 operator

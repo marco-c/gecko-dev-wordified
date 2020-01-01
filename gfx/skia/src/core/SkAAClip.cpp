@@ -344,7 +344,7 @@ fRefCnt
 int32_t
 fRowCount
 ;
-int32_t
+size_t
 fDataSize
 ;
 YOffset
@@ -1200,16 +1200,6 @@ fRowCount
 0
 )
 ;
-SkASSERT
-(
-head
--
->
-fDataSize
->
-0
-)
-;
 const
 YOffset
 *
@@ -1361,9 +1351,6 @@ fOffset
 rowLength
 <
 =
-(
-size_t
-)
 head
 -
 >

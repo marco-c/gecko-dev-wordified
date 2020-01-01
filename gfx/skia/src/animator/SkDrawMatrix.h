@@ -95,7 +95,7 @@ SkDrawMatrix
 ;
 virtual
 bool
-add
+addChild
 (
 SkAnimateMaker
 &

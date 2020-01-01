@@ -139,6 +139,15 @@ if
 !
 =
 fRenderbufferID
+&
+&
+!
+this
+-
+>
+isWrapped
+(
+)
 )
 {
 GrGpuGL

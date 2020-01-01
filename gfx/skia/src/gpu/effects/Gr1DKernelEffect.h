@@ -46,6 +46,13 @@ GrSingleTextureEffect
 .
 h
 "
+#
+include
+"
+SkMatrix
+.
+h
+"
 /
 *
 *
@@ -172,6 +179,10 @@ radius
 GrSingleTextureEffect
 (
 texture
+MakeDivByTextureWHMatrix
+(
+texture
+)
 )
 fDirection
 (

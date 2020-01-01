@@ -815,10 +815,13 @@ SkPMColor
 )
 )
 ;
+SkDEBUGCODE
+(
 const
 uint32_t
 countRead
 =
+)
 buffer
 .
 readColorArray
@@ -826,6 +829,9 @@ readColorArray
 fColors
 )
 ;
+#
+ifdef
+SK_DEBUG
 SkASSERT
 (
 (
@@ -845,6 +851,8 @@ countRead
 fCount
 )
 ;
+#
+endif
 }
 void
 SkColorTable
@@ -874,7 +882,3 @@ fCount
 )
 ;
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkColorTable
-)

@@ -95,6 +95,8 @@ state
 void
 *
 owner
+unsigned
+modi
 )
 ;
 enum
@@ -109,6 +111,17 @@ kNativeGL_BackEndType
 endif
 }
 ;
+struct
+AttachmentInfo
+{
+int
+fSampleCount
+;
+int
+fStencilBits
+;
+}
+;
 void
 detach
 (
@@ -121,6 +134,8 @@ SkBackEndTypes
 attachType
 int
 msaaSampleCount
+AttachmentInfo
+*
 )
 ;
 void

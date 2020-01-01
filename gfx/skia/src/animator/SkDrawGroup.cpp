@@ -284,7 +284,7 @@ bool
 SkGroup
 :
 :
-add
+addChild
 (
 SkAnimateMaker
 &
@@ -587,7 +587,7 @@ copy
 )
 -
 >
-add
+addChild
 (
 *
 maker
@@ -1381,7 +1381,6 @@ SkAnimateMaker
 maker
 SkDrawable
 *
-drawable
 SkString
 &
 conditionString

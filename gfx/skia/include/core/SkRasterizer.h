@@ -68,6 +68,7 @@ struct
 SkIRect
 ;
 class
+SK_API
 SkRasterizer
 :
 public
@@ -131,6 +132,7 @@ SkMask
 CreateMode
 mode
 )
+const
 ;
 protected
 :
@@ -172,6 +174,7 @@ SkMask
 CreateMode
 mode
 )
+const
 ;
 private
 :

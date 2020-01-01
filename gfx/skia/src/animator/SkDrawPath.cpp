@@ -203,7 +203,7 @@ bool
 SkDrawPath
 :
 :
-add
+addChild
 (
 SkAnimateMaker
 &
@@ -972,7 +972,7 @@ bool
 SkPolyline
 :
 :
-add
+addChild
 (
 SkAnimateMaker
 &

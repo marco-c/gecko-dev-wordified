@@ -682,7 +682,7 @@ with
 the
 original
 paint
-ad
+at
 the
 specified
 offset
@@ -753,6 +753,9 @@ SkPaint
 paint
 )
 ;
+SK_DEVELOPER_TO_STRING
+(
+)
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
 (
 SkLayerDrawLooper

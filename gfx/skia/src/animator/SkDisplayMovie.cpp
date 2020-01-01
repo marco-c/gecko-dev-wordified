@@ -688,7 +688,6 @@ enable
 (
 SkAnimateMaker
 &
-maker
 )
 {
 if

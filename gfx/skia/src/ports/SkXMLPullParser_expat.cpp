@@ -975,10 +975,8 @@ len
 fStream
 -
 >
-read
+getLength
 (
-NULL
-0
 )
 ;
 fImpl

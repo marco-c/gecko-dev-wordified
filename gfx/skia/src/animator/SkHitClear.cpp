@@ -80,7 +80,6 @@ enable
 (
 SkAnimateMaker
 &
-maker
 )
 {
 for

@@ -72,6 +72,7 @@ instead
 *
 /
 class
+SK_API
 SkPorterDuff
 {
 public
@@ -433,7 +434,7 @@ Sc
 Dc
 )
 ]
-kMultiply_Mode
+kModulate_Mode
 /
 /
 !
@@ -446,6 +447,9 @@ Sc
 *
 Dc
 ]
+multiplies
+all
+components
 kScreen_Mode
 /
 /

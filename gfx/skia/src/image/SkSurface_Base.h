@@ -142,8 +142,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 )
 =
 0
@@ -348,6 +346,8 @@ cachedImage
 SkCanvas
 *
 )
+=
+0
 ;
 inline
 SkCanvas
