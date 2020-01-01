@@ -5258,7 +5258,7 @@ stub
 p
 (
 %
-d
+lu
 bytes
 )
 \
@@ -5268,6 +5268,10 @@ cs
 .
 executableAddress
 (
+)
+(
+unsigned
+long
 )
 masm
 .
@@ -5747,7 +5751,7 @@ stub
 p
 (
 %
-d
+lu
 bytes
 )
 \
@@ -5757,6 +5761,10 @@ cs
 .
 executableAddress
 (
+)
+(
+unsigned
+long
 )
 masm
 .
@@ -7083,7 +7091,7 @@ stub
 p
 (
 %
-d
+lu
 bytes
 )
 \
@@ -7093,6 +7101,10 @@ cs
 .
 executableAddress
 (
+)
+(
+unsigned
+long
 )
 masm
 .

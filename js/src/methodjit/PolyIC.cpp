@@ -15945,7 +15945,7 @@ for
 atom
 0x
 %
-x
+lx
 (
 \
 "
@@ -15977,7 +15977,14 @@ cs
 executableAddress
 (
 )
+(
+unsigned
+long
+)
+JSID_TO_ATOM
+(
 id
+)
 chars
 holder
 -
