@@ -1279,6 +1279,14 @@ aAllow
 =
 0
 ;
+virtual
+int
+IsEnabledInternal
+(
+)
+=
+0
+;
 /
 *
 *
