@@ -629,7 +629,7 @@ aFontStyle
 #
 endif
 static
-PRInt32
+double
 DPI
 (
 )
@@ -637,10 +637,10 @@ DPI
 if
 (
 sDPI
-=
-=
--
-1
+<
+0
+.
+0
 )
 {
 InitDPI
@@ -652,6 +652,8 @@ NS_ASSERTION
 (
 sDPI
 >
+0
+.
 0
 "
 Something
@@ -703,7 +705,7 @@ InitDPI
 )
 ;
 static
-PRInt32
+double
 sDPI
 ;
 static

@@ -1304,14 +1304,11 @@ pixels
 size
 *
 =
-float
-(
 gfxPlatformGtk
 :
 :
 DPI
 (
-)
 )
 /
 POINTS_PER_INCH_FLOAT
