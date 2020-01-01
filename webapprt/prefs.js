@@ -90,17 +90,3 @@ folderList
 1
 )
 ;
-pref
-(
-"
-general
-.
-useragent
-.
-compatMode
-.
-firefox
-"
-true
-)
-;
