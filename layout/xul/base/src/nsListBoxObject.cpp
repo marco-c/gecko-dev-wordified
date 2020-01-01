@@ -1271,6 +1271,14 @@ content
 )
 )
 ;
+if
+(
+!
+content
+)
+return
+nsnull
+;
 /
 /
 this
