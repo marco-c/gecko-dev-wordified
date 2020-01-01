@@ -447,6 +447,13 @@ h
 #
 include
 "
+yuv_convert
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex

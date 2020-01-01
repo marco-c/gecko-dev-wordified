@@ -1715,9 +1715,8 @@ if
 mD2DSurface
 &
 &
-UseOpaqueSurface
+CanUseOpaqueSurface
 (
-this
 )
 )
 {
