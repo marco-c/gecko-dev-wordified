@@ -5314,11 +5314,9 @@ JSObject
 *
 global
 =
-js
-:
-:
-GetObjectGlobal
+JS_GetGlobalForObject
 (
+NULL
 static_cast
 <
 JSObject

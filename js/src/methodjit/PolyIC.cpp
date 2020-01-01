@@ -10194,7 +10194,7 @@ objReg
 JSObject
 :
 :
-offsetOfScopeChain
+offsetOfInternalScopeChain
 (
 )
 )
@@ -10214,7 +10214,7 @@ tobj
 tobj
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;
@@ -13002,7 +13002,7 @@ objReg
 JSObject
 :
 :
-offsetOfScopeChain
+offsetOfInternalScopeChain
 (
 )
 )
@@ -13107,7 +13107,7 @@ tobj
 tobj
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;

@@ -696,7 +696,7 @@ obj
 obj
 -
 >
-getParentOrScopeChain
+getParent
 (
 )
 ;
@@ -2407,7 +2407,7 @@ pobj
 pobj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 ;
@@ -2431,7 +2431,7 @@ obj
 pobj
 -
 >
-isScope
+isInternalScope
 (
 )
 ;
@@ -2440,7 +2440,7 @@ pobj
 pobj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 )
@@ -2583,7 +2583,7 @@ pobj
 pobj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 ;
@@ -3001,7 +3001,7 @@ environment
 scopeChain_
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;

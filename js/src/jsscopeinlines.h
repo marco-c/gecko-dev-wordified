@@ -1250,14 +1250,7 @@ table
 this
 =
 *
-static_cast
-<
-BaseShape
-*
->
-(
 other
-)
 ;
 setOwned
 (
