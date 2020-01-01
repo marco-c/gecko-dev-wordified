@@ -4129,7 +4129,11 @@ nsDocHeaderData
 *
 mHeaderData
 ;
-nsHashtable
+nsClassHashtable
+<
+nsStringHashKey
+nsRadioGroupStruct
+>
 mRadioGroups
 ;
 /
