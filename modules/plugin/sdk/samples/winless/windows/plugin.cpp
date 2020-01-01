@@ -823,7 +823,7 @@ return
 NPERR_NO_ERROR
 ;
 }
-uint16
+uint16_t
 nsPluginInstance
 :
 :

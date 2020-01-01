@@ -479,7 +479,7 @@ NPWindow
 pNPWindow
 )
 ;
-uint16
+uint16_t
 HandleEvent
 (
 void

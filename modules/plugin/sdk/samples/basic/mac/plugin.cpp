@@ -1462,7 +1462,7 @@ NPERR_NO_ERROR
 HandleEvent
 /
 /
-uint16
+uint16_t
 nsPluginInstance
 :
 :
@@ -1473,7 +1473,7 @@ void
 event
 )
 {
-int16
+int16_t
 eventHandled
 =
 FALSE
