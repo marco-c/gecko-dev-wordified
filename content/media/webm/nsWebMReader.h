@@ -894,6 +894,17 @@ PRInt64
 aEndTime
 )
 ;
+virtual
+nsresult
+GetBuffered
+(
+nsHTMLTimeRanges
+*
+aBuffered
+PRInt64
+aStartTime
+)
+;
 private
 :
 /
