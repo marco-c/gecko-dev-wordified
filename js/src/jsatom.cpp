@@ -3794,7 +3794,7 @@ JS_ASSERT
 ib
 =
 =
-Intern
+InternAtom
 )
 ;
 MakeInterned
@@ -4370,7 +4370,7 @@ toAtom
 (
 )
 ;
-FileEscapeString
+FileEscapedString
 (
 fp
 key

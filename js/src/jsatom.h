@@ -2108,7 +2108,7 @@ JS_ASSERT
 ib
 <
 =
-Intern
+InternAtom
 )
 ;
 self
