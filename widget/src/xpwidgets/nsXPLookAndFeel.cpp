@@ -587,16 +587,6 @@ false
 "
 ui
 .
-scrollbarsCanOverlapContent
-"
-eIntID_ScrollbarsCanOverlapContent
-false
-0
-}
-{
-"
-ui
-.
 menusCanOverlapOSBar
 "
 eIntID_MenusCanOverlapOSBar

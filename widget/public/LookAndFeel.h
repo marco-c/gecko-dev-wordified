@@ -1060,15 +1060,6 @@ bar
 eIntID_MenusCanOverlapOSBar
 /
 /
-can
-scrollbars
-float
-above
-content
-?
-eIntID_ScrollbarsCanOverlapContent
-/
-/
 skip
 navigating
 to
