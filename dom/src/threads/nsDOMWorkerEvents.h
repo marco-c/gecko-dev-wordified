@@ -1062,6 +1062,14 @@ PRUint32
 aLinenoArg
 )
 ;
+NS_IMETHOD
+GetDefaultPrevented
+(
+PRBool
+*
+aRetVal
+)
+;
 virtual
 PRBool
 PreventDefaultCalled
