@@ -952,9 +952,9 @@ rect
 void
 RelativePositionFrames
 (
-nsRect
+nsOverflowAreas
 &
-aCombinedArea
+aOverflowAreas
 )
 ;
 /
@@ -2817,8 +2817,8 @@ mAscent
 nsRect
 mBounds
 ;
-nsRect
-mCombinedArea
+nsOverflowAreas
+mOverflowAreas
 ;
 /
 /
@@ -3456,9 +3456,9 @@ RelativePositionFrames
 PerSpanData
 *
 psd
-nsRect
+nsOverflowAreas
 &
-aCombinedArea
+aOverflowAreas
 )
 ;
 PRBool
