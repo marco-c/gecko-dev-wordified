@@ -1362,6 +1362,12 @@ mPrintSurface
 /
 Dispatch
 events
+using
+nsGenericHTMLElement
+:
+:
+DispatchEvent
+;
 nsresult
 DispatchEvent
 (

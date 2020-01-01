@@ -1800,7 +1800,7 @@ aUseCapture
 PRBool
 aWantsUntrusted
 PRUint8
-optional_argc
+aOptionalArgc
 )
 {
 /
@@ -1815,7 +1815,7 @@ yet
 .
 NS_ENSURE_TRUE
 (
-optional_argc
+aOptionalArgc
 <
 2
 NS_ERROR_NOT_IMPLEMENTED

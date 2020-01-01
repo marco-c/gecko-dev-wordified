@@ -13621,7 +13621,7 @@ aUseCapture
 PRBool
 aWantsUntrusted
 PRUint8
-optional_argc
+aOptionalArgc
 )
 {
 NS_ASSERTION
@@ -13656,7 +13656,7 @@ aType
 aListener
 aUseCapture
 aWantsUntrusted
-optional_argc
+aOptionalArgc
 )
 ;
 }
