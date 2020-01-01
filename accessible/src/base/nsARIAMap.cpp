@@ -631,6 +631,7 @@ nsIAccessibleRole
 :
 :
 ROLE_ALERT
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -645,6 +646,7 @@ nsIAccessibleRole
 :
 :
 ROLE_DIALOG
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -659,6 +661,7 @@ nsIAccessibleRole
 :
 :
 ROLE_APPLICATION
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -673,6 +676,7 @@ nsIAccessibleRole
 :
 :
 ROLE_DOCUMENT
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -690,6 +694,7 @@ nsIAccessibleRole
 :
 :
 ROLE_PUSHBUTTON
+kUseMapRole
 eNoValue
 eClickAction
 eNoLiveAttr
@@ -740,6 +745,7 @@ nsIAccessibleRole
 :
 :
 ROLE_CHECKBUTTON
+kUseMapRole
 eNoValue
 eCheckUncheckAction
 eNoLiveAttr
@@ -795,6 +801,7 @@ nsIAccessibleRole
 :
 :
 ROLE_COLUMNHEADER
+kUseMapRole
 eNoValue
 eSortAction
 eNoLiveAttr
@@ -852,6 +859,7 @@ nsIAccessibleRole
 :
 :
 ROLE_COMBOBOX
+kUseMapRole
 eHasValueMinMax
 eOpenCloseAction
 eNoLiveAttr
@@ -894,6 +902,7 @@ nsIAccessibleRole
 :
 :
 ROLE_DIALOG
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -908,6 +917,7 @@ nsIAccessibleRole
 :
 :
 ROLE_DOCUMENT
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -925,6 +935,7 @@ nsIAccessibleRole
 :
 :
 ROLE_TABLE
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -971,6 +982,7 @@ nsIAccessibleRole
 :
 :
 ROLE_GRID_CELL
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1028,6 +1040,7 @@ nsIAccessibleRole
 :
 :
 ROLE_GROUPING
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1042,6 +1055,7 @@ nsIAccessibleRole
 :
 :
 ROLE_HEADING
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1056,6 +1070,7 @@ nsIAccessibleRole
 :
 :
 ROLE_GRAPHIC
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1070,6 +1085,7 @@ nsIAccessibleRole
 :
 :
 ROLE_LABEL
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1084,6 +1100,7 @@ nsIAccessibleRole
 :
 :
 ROLE_LINK
+kUseMapRole
 eNoValue
 eJumpAction
 eNoLiveAttr
@@ -1101,6 +1118,7 @@ nsIAccessibleRole
 :
 :
 ROLE_LIST
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1135,6 +1153,7 @@ nsIAccessibleRole
 :
 :
 ROLE_LISTBOX
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1178,6 +1197,7 @@ nsIAccessibleRole
 :
 :
 ROLE_LISTITEM
+kUseMapRole
 eNoValue
 eNoAction
 /
@@ -1286,6 +1306,7 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
+kUseNativeRole
 eNoValue
 eNoAction
 ePoliteLiveAttr
@@ -1300,6 +1321,7 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
+kUseNativeRole
 eNoValue
 eNoAction
 eOffLiveAttr
@@ -1314,6 +1336,7 @@ nsIAccessibleRole
 :
 :
 ROLE_FLAT_EQUATION
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1328,6 +1351,7 @@ nsIAccessibleRole
 :
 :
 ROLE_MENUPOPUP
+kUseMapRole
 eNoValue
 eNoAction
 /
@@ -1366,6 +1390,7 @@ nsIAccessibleRole
 :
 :
 ROLE_MENUBAR
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1380,6 +1405,7 @@ nsIAccessibleRole
 :
 :
 ROLE_MENUITEM
+kUseMapRole
 eNoValue
 eClickAction
 eNoLiveAttr
@@ -1444,6 +1470,7 @@ nsIAccessibleRole
 :
 :
 ROLE_CHECK_MENU_ITEM
+kUseMapRole
 eNoValue
 eClickAction
 eNoLiveAttr
@@ -1487,6 +1514,7 @@ nsIAccessibleRole
 :
 :
 ROLE_RADIO_MENU_ITEM
+kUseMapRole
 eNoValue
 eClickAction
 eNoLiveAttr
@@ -1516,6 +1544,7 @@ nsIAccessibleRole
 :
 :
 ROLE_OPTION
+kUseMapRole
 eNoValue
 eSelectAction
 eNoLiveAttr
@@ -1611,6 +1640,7 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1625,6 +1655,7 @@ nsIAccessibleRole
 :
 :
 ROLE_PROGRESSBAR
+kUseMapRole
 eHasValueMinMax
 eNoAction
 eNoLiveAttr
@@ -1642,6 +1673,7 @@ nsIAccessibleRole
 :
 :
 ROLE_RADIOBUTTON
+kUseMapRole
 eNoValue
 eSelectAction
 eNoLiveAttr
@@ -1671,6 +1703,7 @@ nsIAccessibleRole
 :
 :
 ROLE_GROUPING
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1685,6 +1718,7 @@ nsIAccessibleRole
 :
 :
 ROLE_PANE
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1699,6 +1733,7 @@ nsIAccessibleRole
 :
 :
 ROLE_ROW
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1744,6 +1779,7 @@ nsIAccessibleRole
 :
 :
 ROLE_ROWHEADER
+kUseMapRole
 eNoValue
 eSortAction
 eNoLiveAttr
@@ -1801,6 +1837,7 @@ nsIAccessibleRole
 :
 :
 ROLE_SECTION
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1815,6 +1852,7 @@ nsIAccessibleRole
 :
 :
 ROLE_SEPARATOR
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1829,6 +1867,7 @@ nsIAccessibleRole
 :
 :
 ROLE_SLIDER
+kUseMapRole
 eHasValueMinMax
 eNoAction
 eNoLiveAttr
@@ -1855,6 +1894,7 @@ nsIAccessibleRole
 :
 :
 ROLE_SPINBUTTON
+kUseMapRole
 eHasValueMinMax
 eNoAction
 eNoLiveAttr
@@ -1881,6 +1921,7 @@ nsIAccessibleRole
 :
 :
 ROLE_STATUSBAR
+kUseMapRole
 eNoValue
 eNoAction
 ePoliteLiveAttr
@@ -1895,6 +1936,7 @@ nsIAccessibleRole
 :
 :
 ROLE_PAGETAB
+kUseMapRole
 eNoValue
 eSwitchAction
 eNoLiveAttr
@@ -1909,6 +1951,7 @@ nsIAccessibleRole
 :
 :
 ROLE_PAGETABLIST
+kUseMapRole
 eNoValue
 eNoAction
 ePoliteLiveAttr
@@ -1923,6 +1966,7 @@ nsIAccessibleRole
 :
 :
 ROLE_PROPERTYPAGE
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1937,6 +1981,7 @@ nsIAccessibleRole
 :
 :
 ROLE_ENTRY
+kUseMapRole
 eNoValue
 eActivateAction
 eNoLiveAttr
@@ -2010,6 +2055,7 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
+kUseNativeRole
 eNoValue
 eNoAction
 eOffLiveAttr
@@ -2024,6 +2070,7 @@ nsIAccessibleRole
 :
 :
 ROLE_TOOLBAR
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -2038,6 +2085,7 @@ nsIAccessibleRole
 :
 :
 ROLE_TOOLTIP
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -2052,6 +2100,7 @@ nsIAccessibleRole
 :
 :
 ROLE_OUTLINE
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -2095,6 +2144,7 @@ nsIAccessibleRole
 :
 :
 ROLE_TREE_TABLE
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -2138,6 +2188,7 @@ nsIAccessibleRole
 :
 :
 ROLE_OUTLINEITEM
+kUseMapRole
 eNoValue
 eActivateAction
 /
@@ -2272,6 +2323,7 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
+kUseNativeRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -2292,6 +2344,7 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
