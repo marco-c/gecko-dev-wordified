@@ -6748,11 +6748,6 @@ n
 #
 endif
 }
-CheckFloats
-(
-state
-)
-;
 /
 /
 Place
@@ -7182,6 +7177,11 @@ top
 padding
 .
 }
+CheckFloats
+(
+state
+)
+;
 /
 /
 Compute
