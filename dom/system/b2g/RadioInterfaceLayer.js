@@ -2191,7 +2191,7 @@ message
 )
 {
 let
-message
+sms
 =
 gSmsService
 .
@@ -2200,9 +2200,7 @@ createSmsMessage
 -
 1
 DOM_SMS_DELIVERY_SENT
-message
-.
-SMSC
+null
 message
 .
 number
@@ -2241,7 +2239,7 @@ handle
 errors
 (
 bug
-XXX
+727319
 )
 gSmsRequestManager
 .
@@ -2250,7 +2248,7 @@ notifySmsSent
 message
 .
 requestId
-message
+sms
 )
 ;
 }
