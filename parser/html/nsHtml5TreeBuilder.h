@@ -828,6 +828,14 @@ node
 )
 ;
 void
+silentPush
+(
+nsHtml5StackNode
+*
+node
+)
+;
+void
 append
 (
 nsHtml5StackNode
@@ -1000,6 +1008,11 @@ node
 ;
 void
 pop
+(
+)
+;
+void
+silentPop
 (
 )
 ;
