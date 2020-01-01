@@ -13220,6 +13220,9 @@ aPresContext
 nsIFrame
 *
 aFrame
+nsStyleChangeList
+*
+aChangeList
 nsChangeHint
 aHintsHandledByAncestors
 )
@@ -13281,6 +13284,10 @@ GetContent
 )
 :
 mParentContent
+)
+mChangeList
+(
+aChangeList
 )
 mHintsHandled
 (
@@ -13370,6 +13377,12 @@ GetContent
 )
 :
 mParentContent
+)
+mChangeList
+(
+aParentRestyler
+.
+mChangeList
 )
 mHintsHandled
 (
@@ -13465,6 +13478,12 @@ GetContent
 :
 mParentContent
 )
+mChangeList
+(
+aParentRestyler
+.
+mChangeList
+)
 mHintsHandled
 (
 NS_SubtractHint
@@ -13494,9 +13513,6 @@ aOldContext
 nsStyleContext
 *
 aNewContext
-nsStyleChangeList
-*
-aChangeList
 /
 *
 in
@@ -13648,7 +13664,7 @@ nsChangeHint_ReconstructFrame
 mContent
 )
 {
-aChangeList
+mChangeList
 -
 >
 AppendChange
@@ -13680,7 +13696,7 @@ and
 accumulate
 changes
 into
-aChangeList
+mChangeList
 *
 given
 that
@@ -13759,9 +13775,6 @@ ElementRestyler
 :
 Restyle
 (
-nsStyleChangeList
-*
-aChangeList
 nsChangeHint
 aParentFrameHintsNotHandledForDescendants
 nsRestyleHint
@@ -14228,7 +14241,7 @@ mChangeHint
 )
 )
 {
-aChangeList
+mChangeList
 -
 >
 AppendChange
@@ -14500,7 +14513,6 @@ providerRestyler
 .
 Restyle
 (
-aChangeList
 nsChangeHint_Hints_NotHandledForDescendants
 aRestyleHint
 aRestyleTracker
@@ -15399,7 +15411,7 @@ mHintsHandled
 nsChangeHint_ReconstructFrame
 )
 ;
-aChangeList
+mChangeList
 -
 >
 AppendChange
@@ -15715,7 +15727,6 @@ CaptureChange
 (
 oldContext
 newContext
-aChangeList
 aParentFrameHintsNotHandledForDescendants
 nonInheritedHints
 assumeDifferenceHint
@@ -16011,7 +16022,6 @@ CaptureChange
 (
 oldExtraContext
 newExtraContext
-aChangeList
 aParentFrameHintsNotHandledForDescendants
 extraHintsNotHandledForDescendants
 assumeDifferenceHint
@@ -16518,7 +16528,7 @@ content
 "
 )
 ;
-aChangeList
+mChangeList
 -
 >
 AppendChange
@@ -16816,7 +16826,7 @@ mHintsHandled
 nsChangeHint_ReconstructFrame
 )
 ;
-aChangeList
+mChangeList
 -
 >
 AppendChange
@@ -17070,7 +17080,7 @@ mHintsHandled
 nsChangeHint_ReconstructFrame
 )
 ;
-aChangeList
+mChangeList
 -
 >
 AppendChange
@@ -18018,7 +18028,6 @@ oofRestyler
 .
 Restyle
 (
-aChangeList
 nonInheritedHints
 childRestyleHint
 aRestyleTracker
@@ -18075,7 +18084,6 @@ phRestyler
 .
 Restyle
 (
-aChangeList
 nonInheritedHints
 childRestyleHint
 aRestyleTracker
@@ -18112,7 +18120,6 @@ childRestyler
 .
 Restyle
 (
-aChangeList
 nonInheritedHints
 childRestyleHint
 aRestyleTracker
@@ -18612,6 +18619,7 @@ restyler
 (
 mPresContext
 frame
+aChangeList
 aMinChange
 )
 ;
@@ -18619,7 +18627,6 @@ restyler
 .
 Restyle
 (
-aChangeList
 nsChangeHint
 (
 0

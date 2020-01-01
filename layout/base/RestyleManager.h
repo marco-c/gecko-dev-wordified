@@ -1715,6 +1715,9 @@ aPresContext
 nsIFrame
 *
 aFrame
+nsStyleChangeList
+*
+aChangeList
 nsChangeHint
 aHintsHandledByAncestors
 )
@@ -1949,9 +1952,6 @@ kids
 void
 Restyle
 (
-nsStyleChangeList
-*
-aChangeList
 nsChangeHint
 aParentFrameHintsNotHandledForDescendants
 nsRestyleHint
@@ -2059,9 +2059,6 @@ aOldContext
 nsStyleContext
 *
 aNewContext
-nsStyleChangeList
-*
-aChangeList
 /
 *
 in
@@ -2141,6 +2138,11 @@ nsIContent
 *
 const
 mContent
+;
+nsStyleChangeList
+*
+const
+mChangeList
 ;
 /
 /
