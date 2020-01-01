@@ -1325,6 +1325,9 @@ nsnull
 ;
 jsval
 v
+=
+*
+vp
 ;
 if
 (
