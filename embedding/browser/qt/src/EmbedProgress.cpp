@@ -1052,7 +1052,7 @@ message
 QString
 :
 :
-fromUcs2
+fromUtf16
 (
 aMessage
 )
