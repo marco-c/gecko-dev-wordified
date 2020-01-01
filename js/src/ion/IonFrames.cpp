@@ -528,6 +528,13 @@ jsgcmark
 .
 h
 "
+#
+include
+"
+SnapshotReader
+.
+h
+"
 namespace
 js
 {

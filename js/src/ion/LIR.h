@@ -562,13 +562,6 @@ h
 #
 include
 "
-Snapshots
-.
-h
-"
-#
-include
-"
 Safepoints
 .
 h
