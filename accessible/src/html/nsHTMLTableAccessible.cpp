@@ -7600,7 +7600,7 @@ rowCount
 ;
 rowCount
 <
-rows
+length
 ;
 rowCount
 +
