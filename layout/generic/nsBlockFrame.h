@@ -3430,6 +3430,16 @@ in
 out
 *
 /
+nscoord
+&
+aAvailableSpaceHeight
+/
+*
+in
+-
+out
+*
+/
 PRBool
 *
 aKeepReflowGoing
@@ -3667,6 +3677,9 @@ aLine
 nsFlowAreaRect
 &
 aFloatAvailableSpace
+nscoord
+&
+aAvailableSpaceHeight
 nsFloatManager
 :
 :
