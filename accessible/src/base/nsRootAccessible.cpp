@@ -2767,6 +2767,11 @@ accessible
 ;
 if
 (
+treeAcc
+)
+{
+if
+(
 eventType
 .
 EqualsLiteral
@@ -2828,6 +2833,7 @@ treeAcc
 ;
 return
 ;
+}
 }
 }
 #
