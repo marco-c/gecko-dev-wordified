@@ -1654,8 +1654,7 @@ JS_NO_ITER_VALUE
 )
 ;
 }
-Value
-&
+MutableHandleValue
 value
 (
 )
@@ -1672,11 +1671,8 @@ closed
 )
 ;
 return
+&
 currentValue
-.
-get
-(
-)
 ;
 }
 bool

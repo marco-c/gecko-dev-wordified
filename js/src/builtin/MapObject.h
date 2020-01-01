@@ -324,9 +324,7 @@ setValue
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 )
 ;
@@ -405,9 +403,7 @@ setValue
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 )
 {
