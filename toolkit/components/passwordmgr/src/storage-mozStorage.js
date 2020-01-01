@@ -8848,6 +8848,9 @@ logins
 [
 ]
 ;
+let
+stmt
+;
 query
 =
 "
@@ -9190,6 +9193,9 @@ ids
 =
 [
 ]
+;
+let
+stmt
 ;
 query
 =
