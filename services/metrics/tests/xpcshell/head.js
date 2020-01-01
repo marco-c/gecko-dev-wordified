@@ -39,6 +39,10 @@ initMetricsTestingInfrastructure
 (
 )
 {
+do_get_profile
+(
+)
+;
 let
 ns
 =
@@ -75,6 +79,9 @@ ns
 .
 initTestLogging
 (
+"
+Trace
+"
 )
 ;
 }
