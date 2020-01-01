@@ -651,6 +651,13 @@ jsstr
 h
 "
 #
+include
+"
+jstracer
+.
+h
+"
+#
 ifdef
 INCLUDE_MOZILLA_DTRACE
 #
