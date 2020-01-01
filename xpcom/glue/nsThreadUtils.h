@@ -2421,7 +2421,6 @@ PtrType
 typename
 Method
 >
-NS_COM_GLUE
 typename
 nsRunnableMethodTraits
 <
@@ -2460,7 +2459,6 @@ PtrType
 typename
 Method
 >
-NS_COM_GLUE
 typename
 nsRunnableMethodTraits
 <
