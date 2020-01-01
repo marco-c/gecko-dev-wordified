@@ -297,8 +297,6 @@ sys
 import
 tempfile
 import
-mozunit
-import
 unittest
 import
 xpt
@@ -8381,7 +8379,7 @@ __main__
 '
 :
     
-mozunit
+unittest
 .
 main
 (
