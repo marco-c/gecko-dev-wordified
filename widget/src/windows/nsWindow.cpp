@@ -2967,7 +2967,12 @@ PR_IntervalNow
 )
 )
 .
+#
+ifdef
+WINCE
 static
+#
+endif
 PRUint32
 gLastInputEventTime
 =
