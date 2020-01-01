@@ -1708,6 +1708,12 @@ aOffset
 )
 {
 }
+void
+NotifyDataExhausted
+(
+)
+{
+}
 private
 :
 /
