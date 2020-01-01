@@ -1385,6 +1385,15 @@ nsGkAtoms
 :
 img
 )
+&
+&
+aNode
+-
+>
+HasFlag
+(
+ADDED_TO_FORM
+)
 )
 {
 HTMLImageElement
