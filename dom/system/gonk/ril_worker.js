@@ -31339,6 +31339,13 @@ readString
 (
 )
 ;
+let
+rilMessageType
+=
+options
+.
+rilMessageType
+;
 /
 /
 So
@@ -31360,8 +31367,6 @@ MMI
 .
 if
 (
-options
-.
 rilMessageType
 !
 =
