@@ -4643,7 +4643,8 @@ GetFullScreenElement
 *
 *
 *
-Requests
+Asynchronously
+requests
 that
 the
 document
@@ -4653,8 +4654,8 @@ the
 full
 -
 screen
-element
 *
+element
 and
 move
 into
@@ -4667,7 +4668,7 @@ mode
 /
 virtual
 void
-RequestFullScreen
+AsyncRequestFullScreen
 (
 Element
 *
