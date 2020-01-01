@@ -1652,6 +1652,7 @@ AllocPolicy
 class
 Vector
 :
+private
 AllocPolicy
 {
 /
