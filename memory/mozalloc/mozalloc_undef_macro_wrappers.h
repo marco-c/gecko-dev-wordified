@@ -548,12 +548,6 @@ defined
 (
 HAVE_POSIX_MEMALIGN
 )
-|
-|
-defined
-(
-HAVE_JEMALLOC_POSIX_MEMALIGN
-)
 #
 undef
 posix_memalign
@@ -564,12 +558,6 @@ if
 defined
 (
 HAVE_MEMALIGN
-)
-|
-|
-defined
-(
-HAVE_JEMALLOC_MEMALIGN
 )
 #
 undef
