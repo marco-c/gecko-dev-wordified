@@ -662,8 +662,6 @@ graph
 return
 false
 ;
-/
-/
 if
 (
 !
@@ -672,8 +670,6 @@ Lower
 graph
 )
 )
-/
-/
 return
 false
 ;
@@ -1473,19 +1469,6 @@ undef
 )
 ;
 }
-if
-(
-!
-current
--
->
-initHeader
-(
-)
-)
-return
-false
-;
 if
 (
 !
