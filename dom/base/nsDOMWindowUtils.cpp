@@ -8792,6 +8792,14 @@ NS_ENSURE_STATE
 targetShell
 )
 ;
+targetDoc
+-
+>
+FlushPendingNotifications
+(
+Flush_Layout
+)
+;
 nsEventStatus
 status
 =
