@@ -2096,6 +2096,17 @@ aMIMEType
 ;
 #
 ifdef
+MOZ_RAW
+static
+bool
+IsRawEnabled
+(
+)
+;
+#
+endif
+#
+ifdef
 MOZ_OGG
 static
 bool
