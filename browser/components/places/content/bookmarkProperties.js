@@ -5232,9 +5232,9 @@ type
 :
 Ci
 .
-mozIStorageValueArray
+nsIAnnotationService
 .
-VALUE_TYPE_TEXT
+TYPE_STRING
 flags
 :
 0
@@ -5365,9 +5365,9 @@ type
 :
 Ci
 .
-mozIStorageValueArray
+nsIAnnotationsService
 .
-VALUE_TYPE_INTEGER
+TYPE_INT32
 flags
 :
 0

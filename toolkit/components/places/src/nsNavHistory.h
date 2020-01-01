@@ -2266,6 +2266,14 @@ mozIStorageConnection
 aDBConn
 )
 ;
+nsresult
+MigrateV3Up
+(
+mozIStorageConnection
+*
+aDBConn
+)
+;
 #
 ifdef
 IN_MEMORY_LINKS

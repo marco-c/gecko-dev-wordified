@@ -14835,9 +14835,9 @@ type
 :
 Ci
 .
-mozIStorageValueArray
+nsIAnnotationService
 .
-VALUE_TYPE_INTEGER
+TYPE_INT32
 value
 :
 1
