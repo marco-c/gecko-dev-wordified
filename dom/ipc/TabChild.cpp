@@ -1963,7 +1963,7 @@ tabChild
 this
 )
 {
-gfxRect
+CSSRect
 rect
 ;
 sscanf
@@ -1985,7 +1985,7 @@ x
 "
 :
 %
-lf
+f
 \
 "
 y
@@ -1993,7 +1993,7 @@ y
 "
 :
 %
-lf
+f
 \
 "
 w
@@ -2001,7 +2001,7 @@ w
 "
 :
 %
-lf
+f
 \
 "
 h
@@ -2009,7 +2009,7 @@ h
 "
 :
 %
-lf
+f
 }
 "
 &

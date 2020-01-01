@@ -535,7 +535,7 @@ void
 ZoomToRect
 (
 const
-gfxRect
+CSSRect
 &
 aRect
 )

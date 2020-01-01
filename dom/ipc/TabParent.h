@@ -938,7 +938,7 @@ bool
 RecvZoomToRect
 (
 const
-gfxRect
+CSSRect
 &
 aRect
 )
