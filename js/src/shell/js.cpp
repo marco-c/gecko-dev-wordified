@@ -19287,12 +19287,6 @@ cc
 len
 )
 {
-JS_free
-(
-cx
-buf
-)
-;
 JS_ReportError
 (
 cx
