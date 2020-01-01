@@ -32541,7 +32541,7 @@ delay
 }
 DELAY_HIDE
 :
-150
+250
 _timer
 :
 0
