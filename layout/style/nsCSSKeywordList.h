@@ -2372,6 +2372,11 @@ CSS_KEY
 inside
 inside
 )
+CSS_KEY
+(
+interpolatematrix
+interpolatematrix
+)
 #
 ifdef
 GFX_HAS_INVERT
