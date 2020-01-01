@@ -13836,12 +13836,11 @@ sInst
 nsnull
 ;
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS3
 (
 nsPluginHostImpl
 nsIPluginHost
 nsIObserver
-nsPIPluginHost
 nsISupportsWeakReference
 )
 nsPluginHostImpl
@@ -32239,10 +32238,6 @@ return
 rv
 ;
 }
-/
-/
-nsPIPluginHost
-interface
 NS_IMETHODIMP
 nsPluginHostImpl
 :
@@ -34492,12 +34487,6 @@ return
 NS_OK
 ;
 }
-/
-/
-end
-of
-nsPIPluginHost
-implementation
 nsresult
 nsPluginHostImpl
 :
