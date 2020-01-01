@@ -2239,16 +2239,6 @@ use_text_smoothing_setting
 false
 )
 ;
-pref
-(
-"
-browser
-.
-history_expire_days
-"
-9
-)
-;
 /
 /
 loading
