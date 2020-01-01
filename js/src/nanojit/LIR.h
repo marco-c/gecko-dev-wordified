@@ -8984,13 +8984,6 @@ uint64_t
 ;
 static
 uint32_t
-hashImmf
-(
-double
-)
-;
-static
-uint32_t
 hash1
 (
 LOpcode
@@ -9197,7 +9190,7 @@ k
 LInsp
 findImmf
 (
-double
+uint64_t
 d
 uint32_t
 &
