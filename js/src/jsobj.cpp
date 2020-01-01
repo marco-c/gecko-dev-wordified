@@ -8296,9 +8296,9 @@ isObject
 &
 &
 newKind
-!
 =
-SingletonObject
+=
+GenericObject
 &
 &
 (
@@ -8728,9 +8728,9 @@ JSProto_Null
 &
 &
 newKind
-!
 =
-SingletonObject
+=
+GenericObject
 )
 {
 if
@@ -9007,9 +9007,9 @@ getParent
 &
 &
 newKind
-!
 =
-SingletonObject
+=
+GenericObject
 )
 {
 if
