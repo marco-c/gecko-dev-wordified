@@ -1985,6 +1985,15 @@ nsIDOMCSSValue
 aValue
 )
 ;
+nsresult
+GetMozTabSize
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
 /
 *
 Visibility

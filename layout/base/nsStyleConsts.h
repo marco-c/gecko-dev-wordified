@@ -3289,6 +3289,14 @@ See
 nsStyleText
 #
 define
+NS_STYLE_TABSIZE_INITIAL
+8
+/
+/
+See
+nsStyleText
+#
+define
 NS_STYLE_WHITESPACE_NORMAL
 0
 #
