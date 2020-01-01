@@ -36636,7 +36636,7 @@ Consolidate
 freed
 chunks
 with
-preceeding
+preceding
 or
 succeeding
 bordering

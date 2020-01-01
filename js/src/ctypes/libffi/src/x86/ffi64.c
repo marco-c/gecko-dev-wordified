@@ -527,7 +527,7 @@ of
 DImode
 to
 avoid
-reformating
+reformatting
 penalties
 .
 Similary

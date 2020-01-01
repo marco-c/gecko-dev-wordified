@@ -383,14 +383,10 @@ same
 conventions
 *
 /
+FFI_LAST_ABI
 FFI_DEFAULT_ABI
 =
 FFI_UNIX
-FFI_LAST_ABI
-=
-FFI_DEFAULT_ABI
-+
-1
 }
 ffi_abi
 ;

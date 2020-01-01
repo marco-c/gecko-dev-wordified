@@ -1391,7 +1391,7 @@ the
 ia64_args
 frame
 that
-preceeds
+precedes
 the
 integer
 register
