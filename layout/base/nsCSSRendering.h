@@ -1392,12 +1392,6 @@ aStyleContext
 nsIFrame
 *
 aFrame
-PRBool
-&
-aDrawBackgroundImage
-PRBool
-&
-aDrawBackgroundColor
 )
 ;
 /
