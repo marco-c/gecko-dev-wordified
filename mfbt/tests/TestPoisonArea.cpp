@@ -988,6 +988,15 @@ here
 .
 *
 /
+#
+include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
 /
 /
 MAP_ANON
@@ -1645,7 +1654,7 @@ FORMAT_MESSAGE_ALLOCATE_BUFFER
 FORMAT_MESSAGE_FROM_SYSTEM
 |
 FORMAT_MESSAGE_IGNORE_INSERTS
-NULL
+nullptr
 errcode
 MAKELANGID
 (
@@ -1658,7 +1667,7 @@ LPSTR
 &
 errmsg
 0
-NULL
+nullptr
 )
 ;
 /
