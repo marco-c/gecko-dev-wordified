@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIAutoCompleteInput
 .
 h
