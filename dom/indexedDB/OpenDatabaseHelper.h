@@ -502,6 +502,10 @@ mCurrentVersion
 (
 0
 )
+mDataVersion
+(
+DB_SCHEMA_VERSION
+)
 mDatabaseId
 (
 0
@@ -773,6 +777,9 @@ mObjectStores
 ;
 PRUint64
 mCurrentVersion
+;
+PRUint32
+mDataVersion
 ;
 nsString
 mDatabaseFilePath
