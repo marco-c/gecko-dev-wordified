@@ -4147,7 +4147,7 @@ javaClass
 NULL
 ;
 /
-/
+*
 This
 function
 is
@@ -4159,13 +4159,14 @@ that
 doesn
 '
 t
-/
-/
+*
 seem
 to
 be
 true
 .
+*
+/
 pluginFuncs
 -
 >
