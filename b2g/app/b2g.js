@@ -7867,13 +7867,13 @@ true
 /
 /
 Enable
-future
+promise
 pref
 (
 "
 dom
 .
-future
+promise
 .
 enabled
 "
