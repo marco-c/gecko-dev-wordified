@@ -766,6 +766,7 @@ TestEntry
 {
 TestEntry
 (
+const
 char
 *
 aUTF8FamilyString
@@ -773,6 +774,7 @@ const
 gfxFontStyle
 &
 aFontStyle
+const
 char
 *
 aString
@@ -802,6 +804,7 @@ PR_FALSE
 }
 TestEntry
 (
+const
 char
 *
 aUTF8FamilyString
@@ -811,6 +814,7 @@ gfxFontStyle
 aFontStyle
 int
 stringType
+const
 char
 *
 aString
@@ -1247,6 +1251,7 @@ return
 PR_TRUE
 ;
 }
+const
 char
 *
 utf8FamilyString
@@ -1257,6 +1262,7 @@ fontStyle
 int
 stringType
 ;
+const
 char
 *
 string
@@ -1344,6 +1350,7 @@ TestEntry
 *
 AddTest
 (
+const
 char
 *
 utf8FamilyString
@@ -1353,6 +1360,7 @@ gfxFontStyle
 fontStyle
 int
 stringType
+const
 char
 *
 string
@@ -1808,6 +1816,7 @@ MakeTextRun
 (
 reinterpret_cast
 <
+const
 PRUint8
 *
 >

@@ -546,6 +546,7 @@ keyName
 PrefType
 type
 ;
+const
 char
 *
 targetPrefName
