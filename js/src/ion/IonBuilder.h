@@ -1991,8 +1991,7 @@ MDefinition
 *
 obj
 const
-Shape
-*
+UnrootedShape
 shape
 BailoutKind
 bailoutKind
@@ -2017,8 +2016,7 @@ loadSlot
 MDefinition
 *
 obj
-Shape
-*
+HandleShape
 shape
 MIRType
 rvalType
@@ -2030,8 +2028,7 @@ storeSlot
 MDefinition
 *
 obj
-Shape
-*
+UnrootedShape
 shape
 MDefinition
 *

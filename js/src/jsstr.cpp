@@ -20934,8 +20934,7 @@ str_fromCharCode
 JS_FS_END
 }
 ;
-Shape
-*
+UnrootedShape
 StringObject
 :
 :
@@ -20953,8 +20952,8 @@ nativeEmpty
 )
 )
 ;
-return
-addDataProperty
+RootedId
+lengthid
 (
 cx
 NameToId
@@ -20968,6 +20967,13 @@ names
 .
 length
 )
+)
+;
+return
+addDataProperty
+(
+cx
+lengthid
 LENGTH_SLOT
 JSPROP_PERMANENT
 |

@@ -1722,11 +1722,9 @@ invalidateEntriesForShape
 JSContext
 *
 cx
-Shape
-*
+HandleShape
 shape
-JSObject
-*
+HandleObject
 proto
 )
 ;

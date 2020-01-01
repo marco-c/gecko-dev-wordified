@@ -2732,8 +2732,7 @@ it
 .
 *
 /
-Shape
-*
+UnrootedShape
 assignInitialShape
 (
 JSContext

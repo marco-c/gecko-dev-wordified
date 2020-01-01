@@ -1381,7 +1381,7 @@ JSObject
 pobj
 Shape
 *
-shape
+shapeArg
 unsigned
 getHow
 MutableHandleValue
@@ -1390,7 +1390,7 @@ vp
 {
 if
 (
-shape
+shapeArg
 -
 >
 isDataDescriptor
@@ -1398,7 +1398,7 @@ isDataDescriptor
 )
 &
 &
-shape
+shapeArg
 -
 >
 hasDefaultGetter
@@ -1419,7 +1419,7 @@ properties
 /
 JS_ASSERT
 (
-shape
+shapeArg
 -
 >
 hasSlot
@@ -1436,7 +1436,7 @@ pobj
 >
 nativeGetSlot
 (
-shape
+shapeArg
 -
 >
 slot
@@ -1448,6 +1448,13 @@ slot
 }
 else
 {
+RootedShape
+shape
+(
+cx
+shapeArg
+)
+;
 if
 (
 !
@@ -1459,10 +1466,6 @@ pobj
 shape
 getHow
 vp
-.
-address
-(
-)
 )
 )
 return

@@ -763,8 +763,7 @@ stmt
 >
 blockObj
 ;
-Shape
-*
+UnrootedShape
 shape
 =
 blockObj

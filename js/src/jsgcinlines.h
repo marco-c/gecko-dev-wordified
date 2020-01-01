@@ -3332,8 +3332,7 @@ inline
 js
 :
 :
-Shape
-*
+UnrootedShape
 js_NewGCShape
 (
 JSContext

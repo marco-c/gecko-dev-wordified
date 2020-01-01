@@ -15795,8 +15795,6 @@ obj
 )
 ;
 return
-!
-!
 DefineNativeProperty
 (
 cx

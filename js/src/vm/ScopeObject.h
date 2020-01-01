@@ -640,8 +640,7 @@ hasDynamicScopeObject
 )
 const
 ;
-Shape
-*
+UnrootedShape
 scopeShape
 (
 )
@@ -2523,8 +2522,7 @@ resetPrevBlockChainFromParser
 )
 ;
 static
-Shape
-*
+UnrootedShape
 addVar
 (
 JSContext

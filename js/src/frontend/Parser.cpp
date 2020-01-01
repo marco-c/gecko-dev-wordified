@@ -14142,10 +14142,10 @@ name
 )
 )
 ;
-Shape
-*
+RootedShape
 shape
-=
+(
+cx
 StaticBlockObject
 :
 :
@@ -14157,6 +14157,7 @@ id
 blockCount
 &
 redeclared
+)
 )
 ;
 if

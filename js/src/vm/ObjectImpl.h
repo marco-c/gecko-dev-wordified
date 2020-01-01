@@ -196,6 +196,11 @@ Debugger
 class
 ObjectImpl
 ;
+ForwardDeclare
+(
+Shape
+)
+;
 class
 AutoPropDescArrayRooter
 ;
@@ -2146,8 +2151,7 @@ friend
 class
 SparseElementsHeader
 ;
-Shape
-*
+RawShape
 shape
 ;
 }
@@ -2740,8 +2744,7 @@ ElementsHeader
 {
 public
 :
-Shape
-*
+UnrootedShape
 shape
 (
 )
@@ -6897,8 +6900,7 @@ numDynamicSlots
 )
 const
 ;
-Shape
-*
+UnrootedShape
 nativeLookup
 (
 JSContext
@@ -6909,8 +6911,7 @@ id
 )
 ;
 inline
-Shape
-*
+UnrootedShape
 nativeLookup
 (
 JSContext
@@ -6921,8 +6922,7 @@ pid
 )
 ;
 inline
-Shape
-*
+UnrootedShape
 nativeLookup
 (
 JSContext
@@ -6933,8 +6933,7 @@ PropertyName
 name
 )
 ;
-Shape
-*
+UnrootedShape
 nativeLookupNoAllocation
 (
 jsid
@@ -6942,8 +6941,7 @@ id
 )
 ;
 inline
-Shape
-*
+UnrootedShape
 nativeLookupNoAllocation
 (
 PropertyId
@@ -6951,8 +6949,7 @@ pid
 )
 ;
 inline
-Shape
-*
+UnrootedShape
 nativeLookupNoAllocation
 (
 PropertyName

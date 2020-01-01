@@ -247,8 +247,7 @@ inline
 js
 :
 :
-Shape
-*
+UnrootedShape
 js
 :
 :
@@ -280,8 +279,7 @@ inline
 js
 :
 :
-Shape
-*
+UnrootedShape
 js
 :
 :
@@ -313,8 +311,7 @@ inline
 js
 :
 :
-Shape
-*
+UnrootedShape
 js
 :
 :
@@ -342,8 +339,7 @@ inline
 js
 :
 :
-Shape
-*
+UnrootedShape
 js
 :
 :

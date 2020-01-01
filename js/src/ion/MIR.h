@@ -19952,12 +19952,10 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
-PropertyName
-*
+CompilerRootPropertyName
 name_
 ;
-JSScript
-*
+CompilerRootScript
 script_
 ;
 jsbytecode
@@ -20116,9 +20114,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
-const
-Shape
-*
+CompilerRootShape
 shape_
 ;
 BailoutKind
@@ -20129,9 +20125,7 @@ MGuardShape
 MDefinition
 *
 obj
-const
-Shape
-*
+UnrootedShape
 shape
 BailoutKind
 bailoutKind
@@ -20178,9 +20172,7 @@ New
 MDefinition
 *
 obj
-const
-Shape
-*
+UnrootedShape
 shape
 BailoutKind
 bailoutKind
@@ -20221,8 +20213,7 @@ getOperand
 ;
 }
 const
-Shape
-*
+UnrootedShape
 shape
 (
 )

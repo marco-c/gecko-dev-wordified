@@ -533,10 +533,16 @@ f
 cx
 )
 ;
-Shape
-*
+uint32_t
+slot
+;
+{
+RootedShape
 shape
-=
+(
+f
+.
+cx
 obj
 -
 >
@@ -548,6 +554,7 @@ cx
 NameToId
 (
 name
+)
 )
 )
 ;
@@ -616,7 +623,6 @@ f
 return
 ;
 }
-uint32_t
 slot
 =
 shape
@@ -718,6 +724,7 @@ Value
 )
 )
 ;
+}
 /
 *
 Do
@@ -861,8 +868,7 @@ patchInlineShapeGuard
 Repatcher
 &
 repatcher
-Shape
-*
+UnrootedShape
 shape
 )
 {
@@ -904,8 +910,7 @@ ic
 JSObject
 *
 obj
-Shape
-*
+UnrootedShape
 shape
 )
 {
@@ -1164,8 +1169,8 @@ f
 cx
 )
 ;
-Shape
-*
+{
+UnrootedShape
 shape
 =
 obj
@@ -1214,6 +1219,7 @@ THROW
 (
 )
 ;
+}
 }
 stubs
 :

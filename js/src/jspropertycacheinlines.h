@@ -364,8 +364,7 @@ propertyCache
 )
 )
 ;
-Shape
-*
+UnrootedShape
 kshape
 =
 obj
@@ -573,6 +572,9 @@ PropertyName
 namep
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 this
@@ -587,8 +589,7 @@ propertyCache
 )
 )
 ;
-Shape
-*
+UnrootedShape
 kshape
 =
 obj

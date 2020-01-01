@@ -726,8 +726,7 @@ patchInlineShapeGuard
 Repatcher
 &
 repatcher
-Shape
-*
+UnrootedShape
 shape
 )
 ;

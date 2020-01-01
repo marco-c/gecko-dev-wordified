@@ -522,8 +522,7 @@ globalObj
 *
 /
 extern
-Shape
-*
+UnrootedShape
 GetDenseArrayShape
 (
 JSContext

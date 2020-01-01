@@ -3173,8 +3173,7 @@ repatcher
 void
 setInlinePathShape
 (
-Shape
-*
+UnrootedShape
 shape
 )
 {
@@ -3189,8 +3188,7 @@ inlinePathShape_
 shape
 ;
 }
-Shape
-*
+UnrootedShape
 getSingleShape
 (
 )
@@ -3208,7 +3206,10 @@ stubsGenerated
 0
 )
 return
+UnrootedShape
+(
 NULL
+)
 ;
 return
 inlinePathShape_
