@@ -2909,10 +2909,6 @@ runStart
 =
 i
 ;
-runIsLowercase
-=
-isLowercase
-;
 styleArray
 .
 Clear
@@ -2968,6 +2964,10 @@ i
 length
 )
 {
+runIsLowercase
+=
+isLowercase
+;
 styleArray
 .
 AppendElement
