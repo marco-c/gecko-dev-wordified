@@ -518,7 +518,10 @@ PACKED_BITS_COUNT
 )
 =
 =
+int32
+(
 length
+)
 )
 ;
 JS_ASSERT
