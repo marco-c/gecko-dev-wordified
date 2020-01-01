@@ -12087,11 +12087,6 @@ nsString
 nsAutoString
 name
 ;
-nsresult
-rv
-;
-rv
-=
 DecodeFontName
 (
 nameTable
@@ -12117,15 +12112,6 @@ languageID
 )
 name
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-continue
 ;
 PRUint32
 k
