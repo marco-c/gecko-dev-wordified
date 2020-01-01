@@ -4384,7 +4384,7 @@ mSize
 font
 -
 >
-mFlags
+mGenericID
 )
 ;
 /
