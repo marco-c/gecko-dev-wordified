@@ -446,7 +446,7 @@ mozilla
 /
 ipc
 /
-GeckoThread
+MozillaChildThread
 .
 h
 "
@@ -466,7 +466,7 @@ mozilla
 ipc
 :
 :
-GeckoThread
+MozillaChildThread
 {
 public
 :
@@ -486,12 +486,6 @@ protected
 virtual
 void
 Init
-(
-)
-;
-virtual
-void
-CleanUp
 (
 )
 ;

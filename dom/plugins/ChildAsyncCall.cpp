@@ -511,7 +511,7 @@ mData
 NULL
 ;
 }
-NS_IMETHODIMP
+void
 ChildAsyncCall
 :
 :
@@ -540,9 +540,6 @@ mData
 )
 ;
 }
-return
-NS_OK
-;
 }
 }
 /

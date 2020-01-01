@@ -518,6 +518,13 @@ DeadlockDetector
 h
 "
 #
+include
+"
+nsXPCOM
+.
+h
+"
+#
 endif
 /
 /
@@ -2022,11 +2029,9 @@ Shutdown
 (
 )
 friend
-nsresult
-ShutdownXPCOM
+void
+LogTerm
 (
-nsIServiceManager
-*
 )
 ;
 #
