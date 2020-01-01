@@ -30,8 +30,15 @@ virtual
 nsresult
 RecvPing
 (
+)
+;
+virtual
+nsresult
+RecvPong
+(
+const
 int
-*
+&
 status
 )
 ;
