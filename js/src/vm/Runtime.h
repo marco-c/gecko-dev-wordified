@@ -143,6 +143,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TemplateLib
+.
+h
+"
+#
+include
 <
 string
 .
@@ -3665,7 +3674,7 @@ if
 (
 numElems
 &
-js
+mozilla
 :
 :
 tl
@@ -3680,7 +3689,7 @@ T
 >
 :
 :
-result
+value
 )
 {
 Client
@@ -3750,7 +3759,7 @@ if
 (
 numElems
 &
-js
+mozilla
 :
 :
 tl
@@ -3765,7 +3774,7 @@ T
 >
 :
 :
-result
+value
 )
 {
 Client
