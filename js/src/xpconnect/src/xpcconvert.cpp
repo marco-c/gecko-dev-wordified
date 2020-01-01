@@ -1654,13 +1654,8 @@ JS_TRUE
 *
 *
 /
-/
-/
 static
 JSBool
-XPCConvert
-:
-:
 GetISupportsFromJSObject
 (
 JSObject
