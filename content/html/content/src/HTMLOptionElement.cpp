@@ -136,7 +136,11 @@ h
 #
 include
 "
-nsHTMLSelectElement
+mozilla
+/
+dom
+/
+HTMLSelectElement
 .
 h
 "
@@ -579,7 +583,7 @@ GetForm
 (
 )
 {
-nsHTMLSelectElement
+HTMLSelectElement
 *
 selectControl
 =
@@ -711,7 +715,7 @@ to
 get
 the
 answer
-nsHTMLSelectElement
+HTMLSelectElement
 *
 selectInt
 =
@@ -855,7 +859,7 @@ list
 of
 options
 .
-nsHTMLSelectElement
+HTMLSelectElement
 *
 selectElement
 =
@@ -1137,7 +1141,7 @@ about
 /
 it
 .
-nsHTMLSelectElement
+HTMLSelectElement
 *
 selectInt
 =
@@ -1781,7 +1785,7 @@ that
 contains
 this
 option
-nsHTMLSelectElement
+HTMLSelectElement
 *
 HTMLOptionElement
 :
@@ -1818,11 +1822,11 @@ IsHTML
 )
 )
 {
-nsHTMLSelectElement
+HTMLSelectElement
 *
 select
 =
-nsHTMLSelectElement
+HTMLSelectElement
 :
 :
 FromContent

@@ -145,15 +145,15 @@ nsHTMLFormElement
 .
 h
 "
-class
-nsHTMLSelectElement
-;
 namespace
 mozilla
 {
 namespace
 dom
 {
+class
+HTMLSelectElement
+;
 class
 HTMLOptionElement
 :
@@ -696,7 +696,7 @@ not
 .
 *
 /
-nsHTMLSelectElement
+HTMLSelectElement
 *
 GetSelect
 (
