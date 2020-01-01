@@ -6182,7 +6182,7 @@ this
 may
 clash
 with
-vk_insert
+VK_INSERT
 but
 help
 key
