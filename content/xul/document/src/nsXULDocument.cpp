@@ -13761,7 +13761,8 @@ mState
 eState_Master
 )
 {
-piInsertionPoint
+PRInt32
+indexOfRoot
 =
 IndexOf
 (
@@ -13772,7 +13773,7 @@ GetRootElement
 ;
 NS_ASSERTION
 (
-piInsertionPoint
+indexOfRoot
 >
 =
 0
@@ -13788,6 +13789,10 @@ overlay
 !
 "
 )
+;
+piInsertionPoint
+=
+indexOfRoot
 ;
 }
 const
