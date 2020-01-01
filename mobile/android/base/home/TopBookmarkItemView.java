@@ -921,6 +921,15 @@ return
 }
 mThumbnailView
 .
+setScaleType
+(
+ScaleType
+.
+CENTER_CROP
+)
+;
+mThumbnailView
+.
 setImageBitmap
 (
 thumbnail
