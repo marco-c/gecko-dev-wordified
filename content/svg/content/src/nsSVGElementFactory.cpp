@@ -1015,7 +1015,7 @@ aNodeInfo
 )
 ;
 nsresult
-NS_NewSVGMpathElement
+NS_NewSVGMPathElement
 (
 nsIContent
 *
@@ -2206,7 +2206,7 @@ nsGkAtoms
 mpath
 )
 return
-NS_NewSVGMpathElement
+NS_NewSVGMPathElement
 (
 aResult
 aNodeInfo
