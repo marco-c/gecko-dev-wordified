@@ -2403,7 +2403,7 @@ return
 nullptr
 ;
 }
-NS_ASSERTION
+if
 (
 v
 -
@@ -2417,13 +2417,8 @@ GetFormat
 =
 =
 PLANAR_YCBCR
-"
-Wrong
-format
-?
-"
 )
-;
+{
 mozilla
 :
 :
@@ -2466,6 +2461,7 @@ GetDataSize
 (
 )
 ;
+}
 return
 nullptr
 ;
