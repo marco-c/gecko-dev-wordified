@@ -439,6 +439,15 @@ it
 frequently
 .
     
+if
+results
+.
+pb
+is
+not
+None
+:
+        
 wait
 =
 min
@@ -1384,12 +1393,21 @@ options
 timeout
 )
         
+if
+results
+.
+pb
+:
+            
 results
 .
 pb
 .
-poke
+update
 (
+results
+.
+n
 )
     
 return

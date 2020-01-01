@@ -55,12 +55,6 @@ lib
 results
 import
 ResultsSink
-from
-lib
-.
-progressbar
-import
-ProgressBar
 if
 (
 sys
@@ -1632,7 +1626,6 @@ hide_progress
 =
 (
 (
-(
 options
 .
 show_cmd
@@ -1642,7 +1635,7 @@ options
 show_output
 )
 and
-                              
+                             
 options
 .
 output_fp
@@ -1651,24 +1644,10 @@ output_fp
 sys
 .
 stdout
-)
 or
-                             
 options
 .
 tinderbox
-or
-                             
-ProgressBar
-.
-conservative_isatty
-(
-)
-or
-                             
-options
-.
-hide_progress
 )
     
 return
