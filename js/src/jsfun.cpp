@@ -749,7 +749,7 @@ record
 .
 *
 /
-StackIter
+NonBuiltinScriptFrameIter
 iter
 (
 cx
