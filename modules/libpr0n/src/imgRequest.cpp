@@ -617,13 +617,13 @@ static
 PRBool
 gDecodeOnDraw
 =
-PR_TRUE
+PR_FALSE
 ;
 static
 PRBool
 gDiscardable
 =
-PR_TRUE
+PR_FALSE
 ;
 #
 if
