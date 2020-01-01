@@ -543,6 +543,16 @@ jscntxt
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+plugins
+:
+:
+parent
+;
 /
 /
 Hash
