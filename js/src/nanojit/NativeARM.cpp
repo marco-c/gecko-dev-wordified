@@ -16835,12 +16835,12 @@ FpRegs
 FMRS
 (
 rr
-S14
+FpSingleScratch
 )
 ;
 FTOSID
 (
-S14
+FpSingleScratch
 sr
 )
 ;
