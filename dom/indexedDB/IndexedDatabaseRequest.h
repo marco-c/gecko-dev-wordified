@@ -474,13 +474,6 @@ nsIIndexedDatabaseRequest
 .
 h
 "
-#
-include
-"
-nsCOMPtr
-.
-h
-"
 BEGIN_INDEXEDDB_NAMESPACE
 class
 IndexedDatabaseRequest
