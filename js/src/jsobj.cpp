@@ -7232,9 +7232,6 @@ callerFrame
 JSBool
 indirectCall
 ;
-uint32
-tcflags
-;
 JSPrincipals
 *
 principals
@@ -8200,15 +8197,6 @@ goto
 out
 ;
 }
-tcflags
-=
-TCF_COMPILE_N_GO
-|
-TCF_PUT_STATIC_LEVEL
-(
-staticLevel
-)
-;
 principals
 =
 JS_EvalFramePrincipals
@@ -8762,7 +8750,7 @@ cx
 scopeobj
 callerFrame
 principals
-tcflags
+TCF_COMPILE_N_GO
 str
 -
 >
@@ -8779,6 +8767,7 @@ NULL
 file
 line
 str
+staticLevel
 )
 ;
 if

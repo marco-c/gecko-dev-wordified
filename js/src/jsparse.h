@@ -7117,6 +7117,10 @@ JSString
 source
 =
 NULL
+unsigned
+staticLevel
+=
+0
 )
 ;
 }
