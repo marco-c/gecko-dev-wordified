@@ -4087,7 +4087,7 @@ assert
 isinstance
 (
 name
-str
+basestring
 )
     
 if
@@ -5344,7 +5344,7 @@ not
 isinstance
 (
 testsRootDir
-str
+basestring
 )
 :
             
