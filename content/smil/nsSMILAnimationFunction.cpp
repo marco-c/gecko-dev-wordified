@@ -1613,6 +1613,10 @@ nsSMILValue
 (
 )
 ;
+mHasChanged
+=
+PR_TRUE
+;
 }
 void
 nsSMILAnimationFunction
