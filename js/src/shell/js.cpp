@@ -6237,12 +6237,6 @@ setSourceMap
 (
 cx
 smurl_copy
-script
--
->
-filename
-(
-)
 )
 )
 return

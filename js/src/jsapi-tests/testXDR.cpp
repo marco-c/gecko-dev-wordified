@@ -1864,12 +1864,6 @@ setSourceMap
 (
 cx
 expected
-script
--
->
-filename
-(
-)
 )
 )
 ;

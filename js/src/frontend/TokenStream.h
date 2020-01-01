@@ -3120,6 +3120,17 @@ linebase
 1
 ;
 }
+JSPrincipals
+*
+getOriginPrincipals
+(
+)
+const
+{
+return
+originPrincipals
+;
+}
 JSVersion
 versionNumber
 (
