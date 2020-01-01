@@ -20461,6 +20461,14 @@ aResult
 =
 result
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 result
 -
 >
@@ -20474,6 +20482,7 @@ offset
 y
 )
 ;
+}
 return
 rv
 ;

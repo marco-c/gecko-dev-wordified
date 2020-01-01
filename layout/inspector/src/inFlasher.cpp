@@ -1094,6 +1094,9 @@ nsIRenderingContext
 >
 rcontext
 ;
+nsresult
+rv
+=
 presShell
 -
 >
@@ -1104,6 +1107,12 @@ getter_AddRefs
 (
 rcontext
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsRect
