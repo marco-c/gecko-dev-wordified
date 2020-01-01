@@ -18323,7 +18323,7 @@ idx
 {
 nsIContent
 *
-content
+childContent
 =
 aVisibleKidsOfHiddenElement
 [
@@ -18336,14 +18336,14 @@ accService
 ContentRangeInserted
 (
 presShell
-content
+childContent
 -
 >
 GetParent
 (
 )
-content
-content
+childContent
+childContent
 -
 >
 GetNextSibling
