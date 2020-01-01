@@ -5232,8 +5232,6 @@ d
 expect
 %
 d
-\
-n
 "
 _fpuStkDepth
 _sv_fpuStkDepth
@@ -6085,8 +6083,6 @@ wasn
 '
 t
 freed
-\
-n
 "
 -
 4
@@ -6247,8 +6243,6 @@ _fpuStkDepth
 _fpuStkDepth
 %
 d
-\
-n
 "
 _fpuStkDepth
 )
@@ -7192,8 +7186,6 @@ d
 %
 d
 )
-\
-n
 "
 op
 op
