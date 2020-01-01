@@ -401,6 +401,15 @@ nsCategoryCache_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsICategoryManager
 .
 h
@@ -530,6 +539,7 @@ CategoryCleared
 class
 NS_COM_GLUE
 nsCategoryObserver
+MOZ_FINAL
 :
 public
 nsIObserver

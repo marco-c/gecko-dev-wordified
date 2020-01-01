@@ -435,6 +435,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -632,6 +641,7 @@ definition
 /
 class
 nsExceptionManager
+MOZ_FINAL
 :
 public
 nsIExceptionManager
