@@ -1751,9 +1751,15 @@ if
 rv
 !
 =
-SECFailure
+SECSuccess
 )
 {
+PKIX_ERROR
+(
+PKIX_OUTOFMEMORY
+)
+;
+}
 *
 pOID
 =
@@ -1763,7 +1769,6 @@ oid
 =
 NULL
 ;
-}
 cleanup
 :
 PKIX_DECREF
