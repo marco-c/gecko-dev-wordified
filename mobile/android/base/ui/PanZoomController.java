@@ -154,7 +154,7 @@ gecko
 .
 gfx
 .
-ViewportMetrics
+PointUtils
 ;
 import
 org
@@ -165,7 +165,7 @@ gecko
 .
 gfx
 .
-PointUtils
+ViewportMetrics
 ;
 import
 org
