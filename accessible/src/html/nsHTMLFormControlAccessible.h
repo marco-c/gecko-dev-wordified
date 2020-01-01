@@ -896,6 +896,15 @@ aEditor
 /
 nsAccessible
 virtual
+void
+ApplyARIAState
+(
+PRUint64
+*
+aState
+)
+;
+virtual
 nsresult
 GetNameInternal
 (
