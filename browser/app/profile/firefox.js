@@ -13195,7 +13195,7 @@ chrome
 -
 enabled
 "
-false
+true
 )
 ;
 pref

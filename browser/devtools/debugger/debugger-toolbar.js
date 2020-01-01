@@ -683,6 +683,14 @@ window
 _isChromeDebugger
 )
 ;
+/
+/
+TODO
+:
+bug
+806775
+/
+/
 this
 .
 toggleChromeGlobalsContainer
@@ -4098,6 +4106,14 @@ _lineSearchKey
 )
 )
 ;
+/
+/
+TODO
+:
+bug
+806775
+/
+/
 if
 (
 window
@@ -4105,6 +4121,8 @@ window
 _isChromeDebugger
 )
 {
+/
+/
 this
 .
 target
@@ -4113,6 +4131,8 @@ DebuggerView
 .
 ChromeGlobals
 ;
+/
+/
 }
 else
 {
@@ -4124,6 +4144,8 @@ DebuggerView
 .
 Sources
 ;
+/
+/
 }
 }
 /

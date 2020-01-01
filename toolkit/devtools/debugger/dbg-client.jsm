@@ -145,8 +145,7 @@ Components
 .
 results
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1158,6 +1157,13 @@ networkEventUpdate
 networkEventUpdate
 "
 "
+newGlobal
+"
+:
+"
+newGlobal
+"
+"
 newScript
 "
 :
@@ -1298,10 +1304,6 @@ API
 .
 *
 /
-this
-.
-DebuggerClient
-=
 function
 DebuggerClient
 (
@@ -7382,10 +7384,6 @@ server
 .
 *
 /
-this
-.
-debuggerSocketConnect
-=
 function
 debuggerSocketConnect
 (
