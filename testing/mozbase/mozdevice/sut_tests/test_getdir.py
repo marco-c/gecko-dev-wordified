@@ -62,12 +62,6 @@ shutil
 import
 tempfile
 from
-mozdevice
-.
-devicemanager
-import
-DMError
-from
 dmunit
 import
 DeviceManagerTestCase
@@ -373,12 +367,15 @@ emptysub
 )
 )
         
+filelist
+=
 self
 .
 dm
 .
 getDirectory
 (
+            
 posixpath
 .
 join
@@ -388,7 +385,7 @@ testroot
 push1
 '
 )
-                             
+            
 os
 .
 path
@@ -402,6 +399,22 @@ localdestdir
 push1
 '
 )
+)
+        
+filelist
+.
+sort
+(
+)
+        
+self
+.
+assertEqual
+(
+filelist
+self
+.
+expected_filelist
 )
         
 self
@@ -475,21 +488,19 @@ emptysub
 )
 )
         
-self
-.
-assertRaises
-(
-DMError
+filelist
+=
 self
 .
 dm
 .
 getDirectory
-                
+(
 '
 /
 dummy
 '
+            
 os
 .
 path
@@ -504,6 +515,14 @@ localdestdir
 none
 '
 )
+)
+        
+self
+.
+assertEqual
+(
+filelist
+None
 )
         
 self

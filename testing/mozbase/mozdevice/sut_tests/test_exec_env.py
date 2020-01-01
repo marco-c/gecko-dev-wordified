@@ -53,20 +53,20 @@ MPL
 0
 /
 .
+from
+StringIO
+import
+StringIO
 import
 os
 import
 posixpath
 from
-StringIO
-import
-StringIO
-from
 dmunit
 import
 DeviceManagerTestCase
 class
-ExecEnvTestCase
+ProcessListTestCase
 (
 DeviceManagerTestCase
 )
@@ -82,18 +82,20 @@ self
 "
 "
 "
-Exec
+simple
+exec
 test
-with
+does
+not
+use
 env
 vars
-.
 "
 "
 "
         
 #
-Push
+push
 the
 file
         
@@ -148,7 +150,7 @@ remotefile
 )
         
 #
-Run
+run
 the
 cmd
         
@@ -183,7 +185,7 @@ THE_ANSWER
 )
         
 #
-Rewind
+rewind
 the
 output
 file
@@ -196,7 +198,7 @@ seek
 )
         
 #
-Make
+make
 sure
 first
 line
@@ -225,7 +227,7 @@ line
 )
         
 #
-Clean
+clean
 up
         
 self

@@ -72,9 +72,6 @@ ip
 port
 =
 0
-heartbeat_port
-=
-0
 class
 DeviceManagerTestCase
 (
@@ -181,6 +178,14 @@ port
 =
 port
 )
+        
+self
+.
+dm
+.
+debug
+=
+3
         
 self
 .

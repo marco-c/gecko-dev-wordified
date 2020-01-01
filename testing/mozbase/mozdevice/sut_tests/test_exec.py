@@ -53,18 +53,18 @@ MPL
 0
 /
 .
-import
-posixpath
 from
 StringIO
 import
 StringIO
+import
+posixpath
 from
 dmunit
 import
 DeviceManagerTestCase
 class
-ExecTestCase
+ProcessListTestCase
 (
 DeviceManagerTestCase
 )
@@ -80,7 +80,7 @@ self
 "
 "
 "
-Simple
+simple
 exec
 test
 does
@@ -88,7 +88,6 @@ not
 use
 env
 vars
-.
 "
 "
 "
@@ -118,7 +117,7 @@ test_exec_file
 )
         
 #
-Make
+make
 sure
 the
 file
@@ -144,41 +143,15 @@ shell
 (
 [
 '
-dd
+touch
 '
-'
-if
-=
-/
-dev
-/
-zero
-'
-'
-of
-=
-%
-s
-'
-%
 filename
-'
-bs
-=
-1024
-'
-                       
-'
-count
-=
-1
-'
 ]
 out
 )
         
 #
-Check
+check
 that
 the
 file
@@ -201,7 +174,7 @@ filename
 )
         
 #
-Clean
+clean
 up
         
 self
