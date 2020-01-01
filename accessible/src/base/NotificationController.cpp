@@ -2368,7 +2368,7 @@ accEvent
 ;
 AccMutationEvent
 *
-showOrhideEvent
+showOrHideEvent
 =
 downcast_accEvent
 (
@@ -2377,12 +2377,12 @@ accEvent
 ;
 if
 (
-showOrhideEvent
+showOrHideEvent
 )
 {
 if
 (
-showOrhideEvent
+showOrHideEvent
 -
 >
 mTextChangeEvent
@@ -2392,7 +2392,7 @@ mDocument
 >
 ProcessPendingEvent
 (
-showOrhideEvent
+showOrHideEvent
 -
 >
 mTextChangeEvent
