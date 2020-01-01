@@ -1640,14 +1640,6 @@ BOX_PIECES
 0
 4
 >
-/
-/
-FIXME
-:
-How
-many
-really
-?
 {
 JSFunction
 *
