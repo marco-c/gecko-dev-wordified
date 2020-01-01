@@ -552,6 +552,14 @@ __MWERKS__
 ifdef
 XP_MACOSX
 #
+ifdef
+__LP64__
+#
+define
+NP_NO_QUICKDRAW
+#
+else
+#
 include
 <
 Carbon
@@ -560,12 +568,6 @@ Carbon
 .
 h
 >
-#
-ifdef
-__LP64__
-#
-define
-NP_NO_QUICKDRAW
 #
 endif
 #
