@@ -577,10 +577,6 @@ h
 "
 using
 namespace
-avmplus
-;
-using
-namespace
 nanojit
 ;
 #
