@@ -940,6 +940,14 @@ mWidgetIsTopLevel
 =
 false
 ;
+mPendingRefresh
+=
+false
+;
+mSkippedPaints
+=
+0
+;
 }
 void
 nsView
