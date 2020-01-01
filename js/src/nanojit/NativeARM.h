@@ -571,8 +571,6 @@ NJ_SOFTFLOAT
 is
 defined
 .
-/
-/
 #
 define
 NJ_ARM_VFP
@@ -1431,13 +1429,6 @@ asm_add_imm
 Register
 Register
 int32_t
-)
-;
-\
-void
-asm_fcmp
-(
-LInsp
 )
 ;
 \
