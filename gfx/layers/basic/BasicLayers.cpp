@@ -6904,7 +6904,7 @@ MOZ_EGL_XRENDER_COMPOSITE
 mGLContext
 -
 >
-fFinish
+Finish
 (
 )
 ;
