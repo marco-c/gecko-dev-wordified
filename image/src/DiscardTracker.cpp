@@ -225,7 +225,7 @@ false
 static
 *
 /
-ssize_t
+PRUint64
 DiscardTracker
 :
 :
@@ -741,7 +741,7 @@ DiscardTracker
 :
 InformAllocation
 (
-ssize_t
+PRUint64
 bytes
 )
 {
