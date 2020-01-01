@@ -41691,7 +41691,7 @@ startColIndex
 startRowIndex
 1
 +
-PR_ABS
+NS_ABS
 (
 PRInt32
 (
@@ -43541,7 +43541,7 @@ PR_FALSE
 BCPixelSize
 maxHorSegHeight
 =
-PR_MAX
+NS_MAX
 (
 aIter
 .
@@ -43947,7 +43947,7 @@ PR_FALSE
 ;
 mBottomHorSegHeight
 =
-PR_MAX
+NS_MAX
 (
 aIter
 .
@@ -44767,7 +44767,7 @@ GetRelativeColIndex
 nscoord
 maxVerSegWidth
 =
-PR_MAX
+NS_MAX
 (
 aIter
 .
@@ -45019,7 +45019,7 @@ GetRelativeColIndex
 nscoord
 verWidth
 =
-PR_MAX
+NS_MAX
 (
 aIter
 .

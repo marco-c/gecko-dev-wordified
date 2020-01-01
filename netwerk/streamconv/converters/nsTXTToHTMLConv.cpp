@@ -1384,7 +1384,7 @@ mBuffer
 Left
 (
 pushBuffer
-PR_MAX
+NS_MAX
 (
 cursor
 end
@@ -1396,7 +1396,7 @@ mBuffer
 Cut
 (
 0
-PR_MAX
+NS_MAX
 (
 cursor
 end

@@ -13270,7 +13270,7 @@ inStr
 Read
 (
 mDataBuffer
-PR_MIN
+NS_MIN
 (
 count
 mBufferSize

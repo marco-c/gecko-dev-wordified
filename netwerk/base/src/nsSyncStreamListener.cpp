@@ -1580,7 +1580,7 @@ mStatus
 ;
 avail
 =
-PR_MIN
+NS_MIN
 (
 avail
 bufLen
@@ -1656,7 +1656,7 @@ mStatus
 ;
 avail
 =
-PR_MIN
+NS_MIN
 (
 avail
 count

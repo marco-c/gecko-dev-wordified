@@ -451,6 +451,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -3539,7 +3546,7 @@ NS_BASE_STREAM_CLOSED
 PRUint32
 count
 =
-PR_MIN
+NS_MIN
 (
 mFileLen
 -
@@ -3712,7 +3719,7 @@ NS_BASE_STREAM_CLOSED
 PRUint32
 count
 =
-PR_MIN
+NS_MIN
 (
 mFileLen
 -

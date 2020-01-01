@@ -2165,7 +2165,7 @@ mReply
 .
 mOffset
 =
-PR_MIN
+NS_MIN
 (
 mIMESelectionAnchor
 mIMESelectionFocus
@@ -2387,7 +2387,7 @@ NS_COMPOSITION_START
 ;
 mIMECompositionStart
 =
-PR_MIN
+NS_MIN
 (
 mIMESelectionAnchor
 mIMESelectionFocus
@@ -2522,7 +2522,7 @@ mIMEComposing
 {
 mIMECompositionStart
 =
-PR_MIN
+NS_MIN
 (
 mIMESelectionAnchor
 mIMESelectionFocus

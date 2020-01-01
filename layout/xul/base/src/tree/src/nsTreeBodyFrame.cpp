@@ -10905,7 +10905,7 @@ endif
 PRInt32
 count
 =
-PR_ABS
+NS_ABS
 (
 aCount
 )

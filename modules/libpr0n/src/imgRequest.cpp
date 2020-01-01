@@ -7241,7 +7241,10 @@ len
 ;
 sizeHint
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 sizeHint
 20000000

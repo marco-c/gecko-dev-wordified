@@ -995,7 +995,7 @@ unsupported
 command
 count
 =
-PR_ABS
+NS_ABS
 (
 count
 )
@@ -1388,7 +1388,7 @@ unsupported
 command
 count
 =
-PR_ABS
+NS_ABS
 (
 count
 )

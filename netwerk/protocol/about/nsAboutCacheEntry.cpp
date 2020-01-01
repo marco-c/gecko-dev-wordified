@@ -617,7 +617,7 @@ PRInt32
 i
 row_max
 =
-PR_MIN
+NS_MIN
 (
 HEXDUMP_MAX_ROWS
 n
@@ -3130,7 +3130,10 @@ dataSize
 PRUint32
 count
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 dataSize
 sizeof

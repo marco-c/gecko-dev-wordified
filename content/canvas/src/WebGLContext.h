@@ -4886,7 +4886,7 @@ aMaxLevelWithCustomImages
 {
 mMaxLevelWithCustomImages
 =
-PR_MAX
+NS_MAX
 (
 mMaxLevelWithCustomImages
 aMaxLevelWithCustomImages
@@ -5077,7 +5077,7 @@ expected
 .
 mWidth
 =
-PR_MAX
+NS_MAX
 (
 1
 expected
@@ -5092,7 +5092,7 @@ expected
 .
 mHeight
 =
-PR_MAX
+NS_MAX
 (
 1
 expected
@@ -5740,7 +5740,7 @@ it
 WebGLsizei
 size
 =
-PR_MAX
+NS_MAX
 (
 imageInfo
 .

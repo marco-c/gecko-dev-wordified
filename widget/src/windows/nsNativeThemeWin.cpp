@@ -1549,7 +1549,7 @@ itemSize
 int
 width
 =
-PR_MAX
+NS_MAX
 (
 itemSize
 .
@@ -1566,7 +1566,7 @@ cx
 int
 height
 =
-PR_MAX
+NS_MAX
 (
 itemSize
 .

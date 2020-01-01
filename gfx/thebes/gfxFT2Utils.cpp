@@ -673,7 +673,7 @@ aSize
 gfxFloat
 snappedSize
 =
-PR_MAX
+NS_MAX
 (
 NS_floor
 (
@@ -1812,7 +1812,7 @@ aMetrics
 >
 aveCharWidth
 =
-PR_MAX
+NS_MAX
 (
 aMetrics
 -
@@ -1827,7 +1827,7 @@ aMetrics
 >
 aveCharWidth
 =
-PR_MAX
+NS_MAX
 (
 aMetrics
 -
@@ -1905,7 +1905,7 @@ aMetrics
 >
 maxAdvance
 =
-PR_MAX
+NS_MAX
 (
 aMetrics
 -
@@ -2336,7 +2336,7 @@ aMetrics
 >
 superscriptOffset
 =
-PR_MAX
+NS_MAX
 (
 1
 .
@@ -2404,7 +2404,7 @@ aMetrics
 >
 subscriptOffset
 =
-PR_MAX
+NS_MAX
 (
 1
 .
@@ -2611,7 +2611,7 @@ lineHeight
 =
 NS_floor
 (
-PR_MAX
+NS_MAX
 (
 lineHeight
 aMetrics

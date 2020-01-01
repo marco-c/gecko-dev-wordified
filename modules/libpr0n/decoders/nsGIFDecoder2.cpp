@@ -4957,7 +4957,7 @@ block
 PRUint32
 l
 =
-PR_MIN
+NS_MIN
 (
 len
 mGIFStruct

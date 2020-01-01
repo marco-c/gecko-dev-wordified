@@ -5278,7 +5278,7 @@ ouch
 PRInt32
 checkChars
 =
-PR_MIN
+NS_MIN
 (
 len
 HTTPHeaderLen
@@ -5426,7 +5426,10 @@ PL_strncasecmp
 (
 buf
 HTTPHeader
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 len
 HTTPHeaderLen
@@ -6305,7 +6308,10 @@ p
 LocateHttpStart
 (
 buf
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 count
 11
@@ -7793,7 +7799,7 @@ OnProgress
 nsnull
 nsnull
 mContentRead
-PR_MAX
+NS_MAX
 (
 0
 mContentLength

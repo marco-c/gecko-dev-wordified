@@ -2214,7 +2214,7 @@ idx
 PRUint32
 tokenEnd
 =
-PR_MIN
+NS_MIN
 (
 idx
 len
@@ -3225,7 +3225,7 @@ idx
 }
 tokenEnd
 =
-PR_MIN
+NS_MIN
 (
 idx
 len
@@ -3426,7 +3426,7 @@ idx
 }
 tokenEnd
 =
-PR_MIN
+NS_MIN
 (
 idx
 len

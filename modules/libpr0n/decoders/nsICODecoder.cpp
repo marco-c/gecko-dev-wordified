@@ -2923,7 +2923,7 @@ aCount
 PRUint32
 toCopy
 =
-PR_MIN
+NS_MIN
 (
 rowSize
 -

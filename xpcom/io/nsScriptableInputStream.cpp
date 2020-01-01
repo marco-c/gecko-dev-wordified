@@ -599,7 +599,7 @@ rv
 ;
 count
 =
-PR_MIN
+NS_MIN
 (
 count
 aCount

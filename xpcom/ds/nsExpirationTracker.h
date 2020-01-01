@@ -1802,7 +1802,7 @@ the
 array
 index
 =
-PR_MIN
+NS_MIN
 (
 index
 generation

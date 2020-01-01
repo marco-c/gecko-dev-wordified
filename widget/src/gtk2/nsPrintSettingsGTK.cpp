@@ -2007,7 +2007,7 @@ ii
 {
 start
 =
-PR_MIN
+NS_MIN
 (
 lstRanges
 [
@@ -2163,7 +2163,7 @@ ii
 {
 end
 =
-PR_MAX
+NS_MAX
 (
 lstRanges
 [

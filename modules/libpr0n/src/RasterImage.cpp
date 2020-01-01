@@ -13096,7 +13096,7 @@ it
 PRInt32
 width
 =
-PR_MIN
+NS_MIN
 (
 aSrcRect
 .
@@ -13113,7 +13113,7 @@ x
 PRInt32
 height
 =
-PR_MIN
+NS_MIN
 (
 aSrcRect
 .
@@ -17705,7 +17705,7 @@ data
 PRUint32
 bytesToDecode
 =
-PR_MIN
+NS_MIN
 (
 aMaxBytes
 mSourceData

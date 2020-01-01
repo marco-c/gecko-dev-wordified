@@ -27356,7 +27356,7 @@ mask
 PRInt32
 copyWidth
 =
-PR_MIN
+NS_MIN
 (
 aNewWidth
 mTransparencyBitmapWidth
@@ -27365,7 +27365,7 @@ mTransparencyBitmapWidth
 PRInt32
 copyHeight
 =
-PR_MIN
+NS_MIN
 (
 aNewHeight
 mTransparencyBitmapHeight
@@ -36160,7 +36160,7 @@ do
 !
 width
 =
-PR_MIN
+NS_MIN
 (
 32767
 width
@@ -36168,7 +36168,7 @@ width
 ;
 height
 =
-PR_MIN
+NS_MIN
 (
 32767
 height

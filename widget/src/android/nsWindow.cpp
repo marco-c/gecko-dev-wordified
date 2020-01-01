@@ -9267,7 +9267,7 @@ mLength
 =
 PRUint32
 (
-PR_ABS
+NS_ABS
 (
 ae
 -

@@ -3790,7 +3790,7 @@ PRUint32
 n
 len
 =
-PR_MIN
+NS_MIN
 (
 space
 count

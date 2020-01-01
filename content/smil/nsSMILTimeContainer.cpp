@@ -986,7 +986,10 @@ to
 .
 aSeekTo
 =
-PR_MAX
+NS_MAX
+<
+nsSMILTime
+>
 (
 0
 aSeekTo

@@ -13032,12 +13032,12 @@ NO_IME_CARET
 PRUint32
 cursorPosition
 =
-PR_MIN
-(
+NS_MIN
+<
 PRUint32
+>
 (
 mCursorPosition
-)
 mCompositionString
 .
 Length

@@ -1239,10 +1239,13 @@ GetUsedMargin
 bottom
 ;
 return
-PR_MIN
+NS_MIN
+<
+gint
+>
 (
 MOZ_GTK_TAB_MARGIN_MASK
-PR_MAX
+NS_MAX
 (
 0
 aFrame
@@ -6127,7 +6130,7 @@ aResult
 >
 height
 =
-PR_MIN
+NS_MIN
 (
 NSAppUnitsToIntPixels
 (
@@ -6158,7 +6161,7 @@ aResult
 >
 width
 =
-PR_MIN
+NS_MIN
 (
 NSAppUnitsToIntPixels
 (

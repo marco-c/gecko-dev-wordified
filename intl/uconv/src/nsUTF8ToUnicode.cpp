@@ -425,6 +425,13 @@ BLOCK
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsUCSupport
 .
 h
@@ -2042,7 +2049,7 @@ in
 PRInt32
 max_loops
 =
-PR_MIN
+NS_MIN
 (
 inend
 -

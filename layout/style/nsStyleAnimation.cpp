@@ -1934,7 +1934,7 @@ GetIntValue
 ;
 aDistance
 =
-PR_ABS
+NS_ABS
 (
 endInt
 -
@@ -1981,7 +1981,7 @@ NS_STYLE_VISIBILITY_VISIBLE
 ;
 aDistance
 =
-PR_ABS
+NS_ABS
 (
 startVal
 -
@@ -2016,7 +2016,7 @@ GetIntValue
 ;
 aDistance
 =
-PR_ABS
+NS_ABS
 (
 endInt
 -
@@ -8655,7 +8655,7 @@ NS_ASSERTION
 .
 99
 <
-PR_ABS
+NS_ABS
 (
 A
 *
@@ -8667,7 +8667,7 @@ C
 )
 &
 &
-PR_ABS
+NS_ABS
 (
 A
 *

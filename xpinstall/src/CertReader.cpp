@@ -1010,7 +1010,7 @@ aLength
 {
 size
 =
-PR_MIN
+NS_MIN
 (
 aLength
 sizeof

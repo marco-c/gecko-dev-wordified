@@ -476,6 +476,13 @@ nsAtomicRefcnt
 .
 h
 "
+#
+include
+"
+nsAlgorithm
+.
+h
+"
 using
 namespace
 mozilla
@@ -6162,7 +6169,7 @@ segment
 PRUint32
 lim
 =
-PR_MIN
+NS_MIN
 (
 strLen
 len2

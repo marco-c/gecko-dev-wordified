@@ -433,6 +433,13 @@ GFX_RECT_H
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h

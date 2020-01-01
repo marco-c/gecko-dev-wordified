@@ -5607,7 +5607,7 @@ aOffset
 )
 {
 return
-PR_MAX
+NS_MAX
 (
 aOffset
 mSize

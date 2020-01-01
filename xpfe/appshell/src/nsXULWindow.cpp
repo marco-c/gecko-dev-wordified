@@ -8671,7 +8671,7 @@ listY
 ;
 if
 (
-PR_ABS
+NS_ABS
 (
 listX
 -
@@ -8682,7 +8682,7 @@ aRequestedX
 kSlop
 &
 &
-PR_ABS
+NS_ABS
 (
 listY
 -

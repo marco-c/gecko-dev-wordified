@@ -3595,7 +3595,7 @@ document
 .
 rootLocation
 =
-PR_MAX
+NS_MAX
 (
 rootLocation
 j

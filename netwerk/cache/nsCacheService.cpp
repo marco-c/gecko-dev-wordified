@@ -2271,7 +2271,7 @@ capacity
 {
 mDiskCacheCapacity
 =
-PR_MAX
+NS_MAX
 (
 0
 capacity
@@ -2637,7 +2637,7 @@ rv
 ;
 mDiskCacheCapacity
 =
-PR_MAX
+NS_MAX
 (
 0
 capacity
@@ -2860,7 +2860,7 @@ rv
 ;
 mDiskCacheCapacity
 =
-PR_MAX
+NS_MAX
 (
 0
 newCapacity
@@ -3067,7 +3067,7 @@ rv
 ;
 mOfflineCacheCapacity
 =
-PR_MAX
+NS_MAX
 (
 0
 capacity
@@ -3755,7 +3755,10 @@ DEFAULT_CACHE_SIZE
 2
 )
 return
-PR_MAX
+NS_MAX
+<
+PRInt64
+>
 (
 MIN_CACHE_SIZE
 kBytesAvail
@@ -4226,7 +4229,7 @@ mDiskCacheCapacity
 ;
 mDiskCacheCapacity
 =
-PR_MAX
+NS_MAX
 (
 0
 mDiskCacheCapacity
@@ -4789,7 +4792,7 @@ mOfflineCacheCapacity
 ;
 mOfflineCacheCapacity
 =
-PR_MAX
+NS_MAX
 (
 0
 mOfflineCacheCapacity

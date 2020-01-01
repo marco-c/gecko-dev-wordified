@@ -2747,11 +2747,11 @@ PL_strncpy
 (
 return_buffer
 stringVal
-PR_MIN
-(
-(
+NS_MIN
+<
 size_t
-)
+>
+(
 *
 length
 -

@@ -649,7 +649,7 @@ timers
 *
 aIdleTime
 =
-PR_MIN
+NS_MIN
 (
 mouse
 keyboard

@@ -2300,7 +2300,10 @@ mMetrics
 >
 aveCharWidth
 =
-PR_MAX
+NS_MAX
+<
+gfxFloat
+>
 (
 1
 metrics

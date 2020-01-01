@@ -2797,7 +2797,7 @@ c
 {
 cutStart
 =
-PR_MIN
+NS_MIN
 (
 cutStart
 Length
@@ -2915,7 +2915,7 @@ return
 }
 cutStart
 =
-PR_MIN
+NS_MIN
 (
 cutStart
 Length
@@ -3046,7 +3046,7 @@ return
 endif
 cutStart
 =
-PR_MIN
+NS_MIN
 (
 cutStart
 Length
@@ -3137,7 +3137,7 @@ Length
 ;
 cutStart
 =
-PR_MIN
+NS_MIN
 (
 cutStart
 Length

@@ -441,6 +441,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 prmem
 .
 h
@@ -2105,10 +2112,10 @@ aIsMinimum
 {
 aValue
 =
-PR_MAX
+NS_MAX
 (
 aValue
-PRInt16
+PRInt32
 (
 lo
 -
@@ -6446,7 +6453,7 @@ NO_GLYPH
 {
 glyphEnd
 =
-PR_MAX
+NS_MAX
 (
 glyphEnd
 charToGlyph

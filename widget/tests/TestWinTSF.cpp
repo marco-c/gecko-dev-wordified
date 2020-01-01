@@ -3942,7 +3942,7 @@ range
 .
 start
 =
-PR_MAX
+NS_MAX
 (
 targetStart
 start
@@ -3950,7 +3950,7 @@ start
 ;
 end
 =
-PR_MIN
+NS_MIN
 (
 targetEnd
 end
@@ -5112,7 +5112,7 @@ hr
 ;
 start
 =
-PR_MIN
+NS_MIN
 (
 start
 tmpStart
@@ -5120,7 +5120,7 @@ tmpStart
 ;
 end
 =
-PR_MAX
+NS_MAX
 (
 end
 tmpEnd

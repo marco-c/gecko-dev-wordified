@@ -1892,7 +1892,7 @@ RAND_MAX
 ;
 len
 =
-PR_MAX
+NS_MAX
 (
 1
 len
@@ -2571,7 +2571,7 @@ RAND_MAX
 ;
 len
 =
-PR_MAX
+NS_MAX
 (
 1
 len

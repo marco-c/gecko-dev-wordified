@@ -11863,7 +11863,7 @@ type
 (
 PRUint16
 )
-PR_MIN
+NS_MIN
 (
 value
 PR_UINT16_MAX
@@ -12414,7 +12414,7 @@ PRInt32
 i
 row_max
 =
-PR_MIN
+NS_MIN
 (
 16
 n

@@ -441,6 +441,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsIComponentManager
 .
 h
@@ -956,7 +963,7 @@ aSrcLength
 PRInt32
 bcr
 =
-PR_MIN
+NS_MIN
 (
 mBufferCapacity
 -

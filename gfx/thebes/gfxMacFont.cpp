@@ -1487,14 +1487,14 @@ return
 }
 mAdjustedSize
 =
-PR_MAX
+NS_MAX
 (
 mStyle
 .
 size
 1
 .
-0f
+0
 )
 ;
 mFUnitsConvFactor

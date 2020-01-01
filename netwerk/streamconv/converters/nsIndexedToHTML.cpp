@@ -7029,7 +7029,10 @@ description
 .
 Truncate
 (
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 71
 description

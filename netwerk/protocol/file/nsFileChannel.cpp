@@ -995,7 +995,7 @@ break
 PRInt32
 num
 =
-PR_MIN
+NS_MIN
 (
 (
 PRInt32

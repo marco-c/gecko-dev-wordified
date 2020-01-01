@@ -2136,7 +2136,7 @@ GetArraySize
 (
 )
 +
-PR_MAX
+NS_MAX
 (
 kMaxGrowArrayBy
 aGrowBy
@@ -5902,7 +5902,7 @@ memcmp
 (
 s1
 s2
-PR_MIN
+NS_MIN
 (
 len1
 len2

@@ -826,7 +826,10 @@ unsigned
 )
 capacity
 =
-PR_MAX
+NS_MAX
+<
+size_type
+>
 (
 capacity
 mHdr
@@ -834,7 +837,7 @@ mHdr
 >
 mCapacity
 *
-2u
+2U
 )
 ;
 Header

@@ -710,7 +710,7 @@ rv
 ;
 aCount
 =
-PR_MIN
+NS_MIN
 (
 mString
 .

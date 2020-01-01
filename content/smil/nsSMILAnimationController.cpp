@@ -4323,7 +4323,7 @@ resolved
 .
 sampleTime
 =
-PR_MAX
+NS_MAX
 (
 nextMilestone
 .
@@ -4453,7 +4453,10 @@ values
 nsSMILTime
 containerTime
 =
-PR_MAX
+NS_MAX
+<
+nsSMILTime
+>
 (
 0
 containerTimeValue

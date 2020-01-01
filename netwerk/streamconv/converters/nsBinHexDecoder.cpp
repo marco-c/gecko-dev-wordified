@@ -1627,7 +1627,7 @@ aStream
 Read
 (
 mDataBuffer
-PR_MIN
+NS_MIN
 (
 aCount
 nsIOService

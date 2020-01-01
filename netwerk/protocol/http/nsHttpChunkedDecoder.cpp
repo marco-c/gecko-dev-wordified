@@ -876,7 +876,7 @@ mChunkRemaining
 PRUint32
 amt
 =
-PR_MIN
+NS_MIN
 (
 mChunkRemaining
 count
