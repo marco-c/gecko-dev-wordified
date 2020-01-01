@@ -6917,12 +6917,11 @@ thisp
 ;
 initialVarObj
 =
-(
 cx
 -
 >
-options
-&
+hasRunOption
+(
 JSOPTION_VAROBJFIX
 )
 ?
