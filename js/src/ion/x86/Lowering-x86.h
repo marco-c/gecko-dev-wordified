@@ -464,6 +464,8 @@ shared
 /
 Lowering
 -
+x86
+-
 shared
 .
 h
@@ -478,7 +480,7 @@ class
 LIRGeneratorX86
 :
 public
-LIRGeneratorShared
+LIRGeneratorX86Shared
 {
 public
 :
@@ -495,7 +497,7 @@ LIRGraph
 lirGraph
 )
 :
-LIRGeneratorShared
+LIRGeneratorX86Shared
 (
 gen
 graph

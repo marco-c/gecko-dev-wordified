@@ -837,6 +837,14 @@ MDiv
 div
 )
 ;
+bool
+visitTableSwitch
+(
+MTableSwitch
+*
+tableswitch
+)
+;
 public
 :
 bool
