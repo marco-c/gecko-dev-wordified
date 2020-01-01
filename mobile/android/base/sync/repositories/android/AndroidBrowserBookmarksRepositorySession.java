@@ -3803,7 +3803,7 @@ childArray
 ;
 }
 Override
-protected
+public
 boolean
 shouldIgnore
 (

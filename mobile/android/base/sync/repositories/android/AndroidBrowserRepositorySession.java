@@ -767,7 +767,7 @@ type
 .
 *
 /
-protected
+public
 boolean
 shouldIgnore
 (
