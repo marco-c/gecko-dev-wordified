@@ -3853,6 +3853,17 @@ GETPROP_INLINE_TYPE_GUARD
 pic
 .
 slowPathStart
+.
+labelAtOffset
+(
+pic
+.
+u
+.
+get
+.
+typeCheckOffset
+)
 )
 ;
 }
