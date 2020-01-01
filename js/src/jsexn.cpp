@@ -2078,7 +2078,9 @@ valueCount
 fp
 -
 >
-argc
+numActualArgs
+(
+)
 ;
 }
 +
@@ -2385,7 +2387,9 @@ argc
 fp
 -
 >
-argc
+numActualArgs
+(
+)
 ;
 memcpy
 (
@@ -2394,7 +2398,7 @@ fp
 -
 >
 argv
-fp
+elem
 -
 >
 argc
@@ -2408,7 +2412,7 @@ jsval
 values
 +
 =
-fp
+elem
 -
 >
 argc

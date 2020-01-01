@@ -1032,7 +1032,9 @@ arg
 fp
 -
 >
-argc
+numActualArgs
+(
+)
 )
 {
 if
@@ -1278,7 +1280,9 @@ setInt32
 fp
 -
 >
-argc
+numActualArgs
+(
+)
 )
 ;
 }
@@ -1729,7 +1733,9 @@ global
 fp
 -
 >
-argc
+numActualArgs
+(
+)
 &
 fp
 -
@@ -1859,7 +1865,9 @@ JS_ASSERT_IF
 fp
 -
 >
-argc
+numActualArgs
+(
+)
 >
 0
 argsobj
@@ -1879,7 +1887,9 @@ toPrivateUint32
 fp
 -
 >
-argc
+numActualArgs
+(
+)
 )
 ;
 memcpy
@@ -1895,7 +1905,9 @@ argv
 fp
 -
 >
-argc
+numActualArgs
+(
+)
 *
 sizeof
 (
