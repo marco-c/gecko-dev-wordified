@@ -14414,9 +14414,7 @@ if
 url
 )
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -16678,9 +16676,7 @@ if
 url
 )
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -16933,9 +16929,7 @@ if
 url
 )
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -17184,9 +17178,7 @@ postData
 ;
 try
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -17523,9 +17515,7 @@ not
 a
 valid
 URL
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -29096,9 +29086,7 @@ url
 )
 return
 ;
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
