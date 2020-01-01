@@ -401,7 +401,12 @@ aGlobal
 GetContext
 (
 )
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 JS
 :
 :
