@@ -5067,7 +5067,7 @@ src
 =
 bytes
 .
-encode
+encodeLatin1
 (
 cx
 str

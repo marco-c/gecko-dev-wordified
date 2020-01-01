@@ -6928,7 +6928,7 @@ buf
 =
 bytes
 .
-encode
+encodeLatin1
 (
 cx
 str
@@ -7247,7 +7247,7 @@ s
 num
 funbytes
 .
-encode
+encodeLatin1
 (
 cx
 funname
@@ -7998,7 +7998,7 @@ str
 =
 thisValBytes
 .
-encode
+encodeLatin1
 (
 cx
 thisValStr

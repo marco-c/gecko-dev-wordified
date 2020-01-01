@@ -2261,7 +2261,7 @@ id
 &
 name
 .
-encode
+encodeLatin1
 (
 ccx
 JSID_TO_STRING
@@ -8418,7 +8418,7 @@ funid
 :
 bytes
 .
-encode
+encodeLatin1
 (
 cx
 funid
@@ -8669,7 +8669,7 @@ funid
 :
 bytes
 .
-encode
+encodeLatin1
 (
 cx
 funid

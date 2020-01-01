@@ -16891,7 +16891,7 @@ if
 !
 urlCString
 .
-encode
+encodeLatin1
 (
 cx
 url

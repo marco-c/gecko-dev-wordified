@@ -5217,7 +5217,7 @@ jsString
 ;
 params
 .
-encode
+encodeLatin1
 (
 cx
 jsString
@@ -5297,7 +5297,7 @@ jsString
 ;
 keyGenAlg
 .
-encode
+encodeLatin1
 (
 cx
 jsString
@@ -10021,7 +10021,7 @@ jsString
 ;
 regToken
 .
-encode
+encodeLatin1
 (
 cx
 jsString
@@ -10080,7 +10080,7 @@ jsString
 ;
 authenticator
 .
-encode
+encodeLatin1
 (
 cx
 jsString
@@ -10139,7 +10139,7 @@ jsString
 ;
 eaCert
 .
-encode
+encodeLatin1
 (
 cx
 jsString
@@ -13875,7 +13875,7 @@ i
 2
 ]
 .
-encode
+encodeLatin1
 (
 cx
 caName

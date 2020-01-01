@@ -2615,7 +2615,7 @@ memberId
 ?
 memberNameBytes
 .
-encode
+encodeLatin1
 (
 cx
 JSID_TO_STRING
@@ -2958,7 +2958,7 @@ memberId
 ?
 memberNameBytes
 .
-encode
+encodeLatin1
 (
 cx
 JSID_TO_STRING
@@ -4963,7 +4963,7 @@ return
 bytes
 -
 >
-encode
+encodeLatin1
 (
 cx
 str

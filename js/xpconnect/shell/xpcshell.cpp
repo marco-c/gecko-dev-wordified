@@ -3563,7 +3563,7 @@ if
 !
 fileName
 .
-encode
+encodeLatin1
 (
 cx
 str
@@ -6507,7 +6507,7 @@ str
 &
 bytes
 .
-encode
+encodeLatin1
 (
 cx
 str
