@@ -2966,12 +2966,14 @@ JSContext
 *
 cx
 )
+MOZ_DELETE
 ;
 bool
 isLinear
 (
 )
 const
+MOZ_DELETE
 ;
 JSLinearString
 &
@@ -2979,6 +2981,7 @@ asLinear
 (
 )
 const
+MOZ_DELETE
 ;
 public
 :
@@ -3080,6 +3083,7 @@ isDependent
 (
 )
 const
+MOZ_DELETE
 ;
 JSDependentString
 &
@@ -3087,6 +3091,7 @@ asDependent
 (
 )
 const
+MOZ_DELETE
 ;
 public
 :
@@ -3211,12 +3216,14 @@ JSContext
 *
 cx
 )
+MOZ_DELETE
 ;
 bool
 isFlat
 (
 )
 const
+MOZ_DELETE
 ;
 JSFlatString
 &
@@ -3224,6 +3231,7 @@ asFlat
 (
 )
 const
+MOZ_DELETE
 ;
 public
 :
@@ -3430,6 +3438,7 @@ isExtensible
 (
 )
 const
+MOZ_DELETE
 ;
 JSExtensibleString
 &
@@ -3437,6 +3446,7 @@ asExtensible
 (
 )
 const
+MOZ_DELETE
 ;
 public
 :
@@ -3517,12 +3527,14 @@ JSContext
 *
 cx
 )
+MOZ_DELETE
 ;
 bool
 isFixed
 (
 )
 const
+MOZ_DELETE
 ;
 JSFixedString
 &
@@ -3530,6 +3542,7 @@ asFixed
 (
 )
 const
+MOZ_DELETE
 ;
 public
 :
@@ -3982,6 +3995,7 @@ isExternal
 (
 )
 const
+MOZ_DELETE
 ;
 JSExternalString
 &
@@ -3989,6 +4003,7 @@ asExternal
 (
 )
 const
+MOZ_DELETE
 ;
 public
 :
@@ -4225,6 +4240,7 @@ isAtom
 (
 )
 const
+MOZ_DELETE
 ;
 JSAtom
 &
@@ -4232,6 +4248,7 @@ asAtom
 (
 )
 const
+MOZ_DELETE
 ;
 public
 :
