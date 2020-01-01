@@ -129,13 +129,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 ion
 /
 IonCode
@@ -168,6 +161,13 @@ include
 ion
 /
 IonMacroAssembler
+.
+h
+"
+#
+include
+"
+jsgcinlines
 .
 h
 "
