@@ -1753,7 +1753,7 @@ separated
 config
 lines
 and
-colapses
+collapses
 *
 the
 lines
@@ -3763,7 +3763,7 @@ separated
 config
 files
 and
-colapses
+collapses
 *
 the
 lines
@@ -4217,6 +4217,11 @@ lib
 PORT_Free
 (
 name
+)
+;
+PORT_Free
+(
+block
 )
 ;
 return

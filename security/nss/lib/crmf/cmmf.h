@@ -4352,7 +4352,7 @@ NOTES
 :
 *
 This
-funciton
+function
 creates
 a
 copy

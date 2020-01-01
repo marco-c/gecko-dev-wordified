@@ -535,9 +535,9 @@ lg_classArray
 CKO_PRIVATE_KEY
 CKO_PUBLIC_KEY
 CKO_SECRET_KEY
-CKO_NETSCAPE_TRUST
-CKO_NETSCAPE_CRL
-CKO_NETSCAPE_SMIME
+CKO_NSS_TRUST
+CKO_NSS_CRL
+CKO_NSS_SMIME
 CKO_CERTIFICATE
 }
 ;
@@ -1648,7 +1648,7 @@ obj
 objclass
 !
 =
-CKO_NETSCAPE_SMIME
+CKO_NSS_SMIME
 )
 {
 return
@@ -1765,7 +1765,7 @@ obj
 objclass
 !
 =
-CKO_NETSCAPE_CRL
+CKO_NSS_CRL
 )
 {
 return
@@ -1903,7 +1903,7 @@ CKO_CERTIFICATE
 objClass
 !
 =
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 )
 )
 {
@@ -2007,7 +2007,7 @@ obj
 objclass
 !
 =
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 )
 {
 return
@@ -2151,12 +2151,12 @@ NULL
 }
 pubKey
 =
-nsslowkey_ConvertToPublicKey
+lg_nsslowkey_ConvertToPublicKey
 (
 privKey
 )
 ;
-nsslowkey_DestroyPrivateKey
+lg_nsslowkey_DestroyPrivateKey
 (
 privKey
 )
@@ -2180,7 +2180,7 @@ infoFree
 (
 LGFreeFunc
 )
-nsslowkey_DestroyPublicKey
+lg_nsslowkey_DestroyPublicKey
 ;
 return
 pubKey
@@ -2377,7 +2377,7 @@ infoFree
 (
 LGFreeFunc
 )
-nsslowkey_DestroyPrivateKey
+lg_nsslowkey_DestroyPrivateKey
 ;
 return
 privKey
@@ -6293,7 +6293,7 @@ lg_StaticFalseAttr
 )
 ;
 case
-CKA_NETSCAPE_EMAIL
+CKA_NSS_EMAIL
 :
 return
 lg_CopyAttribute
@@ -6317,7 +6317,7 @@ len
 )
 ;
 case
-CKA_NETSCAPE_SMIME_TIMESTAMP
+CKA_NSS_SMIME_TIMESTAMP
 :
 case
 CKA_SUBJECT
@@ -6361,7 +6361,7 @@ type
 )
 {
 case
-CKA_NETSCAPE_SMIME_TIMESTAMP
+CKA_NSS_SMIME_TIMESTAMP
 :
 return
 lg_CopyAttribute
@@ -6739,7 +6739,7 @@ lg_ULongAttribute
 (
 attribute
 type
-CKT_NETSCAPE_TRUSTED_DELEGATOR
+CKT_NSS_TRUSTED_DELEGATOR
 )
 ;
 }
@@ -6755,7 +6755,7 @@ lg_ULongAttribute
 (
 attribute
 type
-CKT_NETSCAPE_TRUSTED
+CKT_NSS_TRUSTED
 )
 ;
 }
@@ -6763,7 +6763,7 @@ if
 (
 trustFlags
 &
-CERTDB_NOT_TRUSTED
+CERTDB_MUST_VERIFY
 )
 {
 return
@@ -6771,7 +6771,7 @@ lg_ULongAttribute
 (
 attribute
 type
-CKT_NETSCAPE_UNTRUSTED
+CKT_NSS_MUST_VERIFY_TRUST
 )
 ;
 }
@@ -6787,7 +6787,7 @@ lg_ULongAttribute
 (
 attribute
 type
-CKT_NETSCAPE_TRUST_UNKNOWN
+CKT_NSS_TRUST_UNKNOWN
 )
 ;
 }
@@ -6803,7 +6803,7 @@ lg_ULongAttribute
 (
 attribute
 type
-CKT_NETSCAPE_VALID_DELEGATOR
+CKT_NSS_VALID_DELEGATOR
 )
 ;
 }
@@ -6811,7 +6811,7 @@ if
 (
 trustFlags
 &
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 )
 {
 return
@@ -6819,7 +6819,7 @@ lg_ULongAttribute
 (
 attribute
 type
-CKT_NETSCAPE_VALID
+CKT_NSS_NOT_TRUSTED
 )
 ;
 }
@@ -6828,7 +6828,7 @@ lg_ULongAttribute
 (
 attribute
 type
-CKT_NETSCAPE_MUST_VERIFY
+CKT_NSS_TRUST_UNKNOWN
 )
 ;
 case
@@ -7029,7 +7029,7 @@ lg_StaticFalseAttr
 )
 ;
 case
-CKA_NETSCAPE_KRL
+CKA_NSS_KRL
 :
 return
 (
@@ -7081,7 +7081,7 @@ len
 )
 ;
 case
-CKA_NETSCAPE_URL
+CKA_NSS_URL
 :
 case
 CKA_VALUE
@@ -7120,7 +7120,7 @@ type
 )
 {
 case
-CKA_NETSCAPE_URL
+CKA_NSS_URL
 :
 if
 (
@@ -7300,7 +7300,7 @@ case
 CKA_SERIAL_NUMBER
 :
 case
-CKA_NETSCAPE_EMAIL
+CKA_NSS_EMAIL
 :
 break
 ;
@@ -7481,7 +7481,7 @@ item
 NULL
 )
 {
-nsslowkey_DestroyPublicKey
+lg_nsslowkey_DestroyPublicKey
 (
 pubKey
 )
@@ -7515,7 +7515,7 @@ the
 key
 *
 /
-nsslowkey_DestroyPublicKey
+lg_nsslowkey_DestroyPublicKey
 (
 pubKey
 )
@@ -7629,7 +7629,7 @@ len
 )
 ;
 case
-CKA_NETSCAPE_EMAIL
+CKA_NSS_EMAIL
 :
 return
 (
@@ -7826,7 +7826,7 @@ attribute
 )
 ;
 case
-CKO_NETSCAPE_CRL
+CKO_NSS_CRL
 :
 return
 lg_FindCrlAttribute
@@ -7837,7 +7837,7 @@ attribute
 )
 ;
 case
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 :
 return
 lg_FindTrustAttribute
@@ -7848,7 +7848,7 @@ attribute
 )
 ;
 case
-CKO_NETSCAPE_SMIME
+CKO_NSS_SMIME
 :
 return
 lg_FindSMIMEAttribute
@@ -8520,7 +8520,7 @@ if
 type
 =
 =
-CKA_NETSCAPE_EMAIL
+CKA_NSS_EMAIL
 )
 {
 return
@@ -9913,7 +9913,7 @@ ulValueLen
 break
 ;
 case
-CKO_NETSCAPE_CRL
+CKO_NSS_CRL
 :
 /
 *
@@ -9924,7 +9924,7 @@ URL
 break
 ;
 case
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 :
 crv
 =

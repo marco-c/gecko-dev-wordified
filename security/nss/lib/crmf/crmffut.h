@@ -431,10 +431,10 @@ will
 populate
 the
 inPubInfoArray
-paramter
+parameter
 for
 the
-funciton
+function
 *
 CRMF_CreatePKIPublicationInfo
 .

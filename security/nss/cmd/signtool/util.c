@@ -508,11 +508,8 @@ i
 )
 {
 return
-SECU_ErrorStringRaw
+SECU_Strerror
 (
-(
-int16
-)
 i
 )
 ;

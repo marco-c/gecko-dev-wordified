@@ -6375,6 +6375,7 @@ PK11_FindCertFromDERCertItem
 PK11SlotInfo
 *
 slot
+const
 SECItem
 *
 derCert

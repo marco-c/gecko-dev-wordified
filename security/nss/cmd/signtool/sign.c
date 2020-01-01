@@ -2182,11 +2182,8 @@ s
 n
 "
 PROGRAM_NAME
-SECU_ErrorString
+SECU_Strerror
 (
-(
-int16
-)
 PORT_GetError
 (
 )

@@ -5445,7 +5445,7 @@ add
 the
 CKA_VALUE_LEN
 *
-paramter
+parameter
 and
 use
 the
@@ -5493,7 +5493,7 @@ the
 mechanism
 or
 the
-paramters
+parameters
 *
 so
 key
@@ -6002,7 +6002,7 @@ add
 the
 CKA_VALUE_LEN
 *
-paramter
+parameter
 and
 use
 the

@@ -2578,6 +2578,7 @@ D_CODES
 ;
 const
 uch
+ZLIB_INTERNAL
 _dist_code
 [
 DIST_CODE_LEN
@@ -3100,6 +3101,7 @@ DIST_CODE_LEN
 ;
 const
 uch
+ZLIB_INTERNAL
 _length_code
 [
 MAX_MATCH

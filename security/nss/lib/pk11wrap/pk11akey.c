@@ -1836,6 +1836,18 @@ break
 ;
 default
 :
+if
+(
+ckaId
+)
+{
+SECITEM_FreeItem
+(
+ckaId
+PR_TRUE
+)
+;
+}
 PORT_SetError
 (
 SEC_ERROR_BAD_KEY
@@ -2077,7 +2089,6 @@ can
 reliably
 determine
 if
-a
 the
 ecPoint
 passed
@@ -3467,7 +3478,7 @@ we
 assume
 the
 encoded
-paramter
+parameter
 was
 was
 passed

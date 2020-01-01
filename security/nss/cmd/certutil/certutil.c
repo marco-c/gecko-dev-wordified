@@ -7772,8 +7772,7 @@ FPS
 p
 \
 t
-valid
-peer
+prohibited
 \
 n
 "
@@ -7791,10 +7790,6 @@ P
 t
 trusted
 peer
-(
-implies
-p
-)
 \
 n
 "

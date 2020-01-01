@@ -688,7 +688,7 @@ proper
 behavior
 of
 the
-funciton
+function
 fn
 .
 *
@@ -937,7 +937,7 @@ proper
 behavior
 of
 the
-funciton
+function
 fn
 .
 *
@@ -4033,7 +4033,7 @@ don
 t
 want
 the
-funciton
+function
 to
 even
 try
@@ -4242,7 +4242,7 @@ ProofOfPossession
 *
 *
 The
-funciton
+function
 looks
 at
 the
@@ -4270,7 +4270,7 @@ mentioned
 under
 interpretation
 the
-funciton
+function
 will
 not
 *
@@ -4613,7 +4613,7 @@ ProofOfPossession
 *
 *
 The
-funciton
+function
 looks
 at
 the
@@ -4641,7 +4641,7 @@ mentioned
 under
 interpretation
 the
-funciton
+function
 will
 not
 *
@@ -6150,7 +6150,7 @@ no
 issuer
 present
 the
-funciton
+function
 returns
 SECFailure
 and
@@ -10728,7 +10728,7 @@ libraries
 A
 quick
 helper
-funciton
+function
 to
 get
 the

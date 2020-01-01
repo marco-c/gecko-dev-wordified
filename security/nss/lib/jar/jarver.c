@@ -851,7 +851,6 @@ supplied
 .
 This
 is
-a
 the
 location
 of

@@ -740,7 +740,7 @@ outputArg
 *
 *
 This
-funciton
+function
 is
 used
 by

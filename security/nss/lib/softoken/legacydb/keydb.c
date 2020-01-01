@@ -411,21 +411,17 @@ c
 v
 1
 .
-11
-.
-22
-.
-1
+12
 2010
 /
-08
-/
 07
-05
+/
+20
+01
 :
-49
+26
 :
-16
+04
 wtc
 %
 google
@@ -6391,7 +6387,7 @@ buf
 ;
 }
 }
-nsslowkey_DestroyPublicKey
+lg_nsslowkey_DestroyPublicKey
 (
 pubkey
 )
@@ -7370,9 +7366,6 @@ dbkey
 if
 (
 global_salt
-&
-&
-global_salt
 !
 =
 &
@@ -8071,7 +8064,7 @@ keyType
 case
 NSSLOWKEYRSAKey
 :
-prepare_low_rsa_priv_key_for_asn1
+lg_prepare_low_rsa_priv_key_for_asn1
 (
 pk
 )
@@ -8089,7 +8082,7 @@ pki
 privateKey
 )
 pk
-nsslowkey_RSAPrivateKeyTemplate
+lg_nsslowkey_RSAPrivateKeyTemplate
 )
 ;
 if
@@ -8141,7 +8134,7 @@ break
 case
 NSSLOWKEYDSAKey
 :
-prepare_low_dsa_priv_key_for_asn1
+lg_prepare_low_dsa_priv_key_for_asn1
 (
 pk
 )
@@ -8159,7 +8152,7 @@ pki
 privateKey
 )
 pk
-nsslowkey_DSAPrivateKeyTemplate
+lg_nsslowkey_DSAPrivateKeyTemplate
 )
 ;
 if
@@ -8178,7 +8171,7 @@ goto
 loser
 ;
 }
-prepare_low_pqg_params_for_asn1
+lg_prepare_low_pqg_params_for_asn1
 (
 &
 pk
@@ -8206,7 +8199,7 @@ u
 dsa
 .
 params
-nsslowkey_PQGParamsTemplate
+lg_nsslowkey_PQGParamsTemplate
 )
 ;
 if
@@ -8258,7 +8251,7 @@ break
 case
 NSSLOWKEYDHKey
 :
-prepare_low_dh_priv_key_for_asn1
+lg_prepare_low_dh_priv_key_for_asn1
 (
 pk
 )
@@ -8276,7 +8269,7 @@ pki
 privateKey
 )
 pk
-nsslowkey_DHPrivateKeyTemplate
+lg_nsslowkey_DHPrivateKeyTemplate
 )
 ;
 if
@@ -8331,7 +8324,7 @@ NSS_ENABLE_ECC
 case
 NSSLOWKEYECKey
 :
-prepare_low_ec_priv_key_for_asn1
+lg_prepare_low_ec_priv_key_for_asn1
 (
 pk
 )
@@ -8453,7 +8446,7 @@ pki
 privateKey
 )
 pk
-nsslowkey_ECPrivateKeyTemplate
+lg_nsslowkey_ECPrivateKeyTemplate
 )
 ;
 pk
@@ -8634,7 +8627,7 @@ SEC_ASN1EncodeItem
 temparena
 der_item
 pki
-nsslowkey_PrivateKeyInfoTemplate
+lg_nsslowkey_PrivateKeyInfoTemplate
 )
 ;
 SEC_PRINT
@@ -9289,7 +9282,7 @@ SEC_QuickDERDecodeItem
 (
 temparena
 pki
-nsslowkey_PrivateKeyInfoTemplate
+lg_nsslowkey_PrivateKeyInfoTemplate
 dest
 )
 ;
@@ -9326,7 +9319,7 @@ keyType
 =
 NSSLOWKEYRSAKey
 ;
-prepare_low_rsa_priv_key_for_asn1
+lg_prepare_low_rsa_priv_key_for_asn1
 (
 pk
 )
@@ -9356,7 +9349,7 @@ SEC_QuickDERDecodeItem
 (
 permarena
 pk
-nsslowkey_RSAPrivateKeyTemplate
+lg_nsslowkey_RSAPrivateKeyTemplate
 &
 newPrivateKey
 )
@@ -9373,7 +9366,7 @@ keyType
 =
 NSSLOWKEYDSAKey
 ;
-prepare_low_dsa_priv_key_for_asn1
+lg_prepare_low_dsa_priv_key_for_asn1
 (
 pk
 )
@@ -9403,7 +9396,7 @@ SEC_QuickDERDecodeItem
 (
 permarena
 pk
-nsslowkey_DSAPrivateKeyTemplate
+lg_nsslowkey_DSAPrivateKeyTemplate
 &
 newPrivateKey
 )
@@ -9418,7 +9411,7 @@ SECSuccess
 goto
 loser
 ;
-prepare_low_pqg_params_for_asn1
+lg_prepare_low_pqg_params_for_asn1
 (
 &
 pk
@@ -9466,7 +9459,7 @@ u
 dsa
 .
 params
-nsslowkey_PQGParamsTemplate
+lg_nsslowkey_PQGParamsTemplate
 &
 newAlgParms
 )
@@ -9483,7 +9476,7 @@ keyType
 =
 NSSLOWKEYDHKey
 ;
-prepare_low_dh_priv_key_for_asn1
+lg_prepare_low_dh_priv_key_for_asn1
 (
 pk
 )
@@ -9513,7 +9506,7 @@ SEC_QuickDERDecodeItem
 (
 permarena
 pk
-nsslowkey_DHPrivateKeyTemplate
+lg_nsslowkey_DHPrivateKeyTemplate
 &
 newPrivateKey
 )
@@ -9533,7 +9526,7 @@ keyType
 =
 NSSLOWKEYECKey
 ;
-prepare_low_ec_priv_key_for_asn1
+lg_prepare_low_ec_priv_key_for_asn1
 (
 pk
 )
@@ -9588,7 +9581,7 @@ SEC_QuickDERDecodeItem
 (
 permarena
 pk
-nsslowkey_ECPrivateKeyTemplate
+lg_nsslowkey_ECPrivateKeyTemplate
 &
 newPrivateKey
 )
@@ -9603,7 +9596,7 @@ SECSuccess
 goto
 loser
 ;
-prepare_low_ecparams_for_asn1
+lg_prepare_low_ecparams_for_asn1
 (
 &
 pk
@@ -10314,7 +10307,7 @@ if
 pk
 )
 {
-nsslowkey_DestroyPrivateKey
+lg_nsslowkey_DestroyPrivateKey
 (
 pk
 )

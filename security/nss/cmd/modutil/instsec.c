@@ -396,6 +396,13 @@ h
 #
 include
 <
+prerror
+.
+h
+>
+#
+include
+<
 prio
 .
 h
@@ -1584,7 +1591,7 @@ char
 *
 mySECU_ErrorString
 (
-int16
+PRErrorCode
 errnum
 )
 {

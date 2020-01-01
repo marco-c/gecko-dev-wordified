@@ -1927,6 +1927,9 @@ case
 CKM_SHA1_RSA_PKCS
 :
 case
+CKM_SHA224_RSA_PKCS
+:
+case
 CKM_SHA256_RSA_PKCS
 :
 case
@@ -2040,6 +2043,12 @@ CKM_SHA_1_HMAC
 :
 case
 CKM_SHA_1_HMAC_GENERAL
+:
+case
+CKM_SHA224_HMAC
+:
+case
+CKM_SHA224_HMAC_GENERAL
 :
 case
 CKM_SHA256_HMAC
@@ -6238,7 +6247,7 @@ SECSuccess
 create
 a
 new
-paramter
+parameter
 block
 from
 the

@@ -694,11 +694,8 @@ else
 {
 errtext
 =
-SECU_ErrorString
+SECU_Strerror
 (
-(
-int16
-)
 PORT_GetError
 (
 )
@@ -2214,11 +2211,8 @@ else
 {
 errtext
 =
-SECU_ErrorString
+SECU_Strerror
 (
-(
-int16
-)
 PORT_GetError
 (
 )

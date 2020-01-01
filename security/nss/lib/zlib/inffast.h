@@ -19,6 +19,7 @@ C
 1995
 -
 2003
+2010
 Mark
 Adler
 *
@@ -79,6 +80,7 @@ h
 *
 /
 void
+ZLIB_INTERNAL
 inflate_fast
 OF
 (

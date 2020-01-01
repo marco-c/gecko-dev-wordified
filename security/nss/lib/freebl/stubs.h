@@ -541,10 +541,6 @@ NSS_SecureMemcmp
 NSS_SecureMemcmp_stub
 #
 define
-PR_DestroyCondVar
-PR_DestroyCondVar_stub
-#
-define
 PR_Assert
 PR_Assert_stub
 #
@@ -557,6 +553,10 @@ PR_Close
 PR_Close_stub
 #
 define
+PR_DestroyCondVar
+PR_DestroyCondVar_stub
+#
+define
 PR_DestroyLock
 PR_DestroyLock_stub
 #
@@ -567,6 +567,10 @@ PR_Free_stub
 define
 PR_GetLibraryFilePathname
 PR_GetLibraryFilePathname_stub
+#
+define
+PR_ImportPipe
+PR_ImportPipe_stub
 #
 define
 PR_Lock

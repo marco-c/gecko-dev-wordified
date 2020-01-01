@@ -2808,7 +2808,7 @@ prfLength
 initialize
 our
 pkcs5
-paramter
+parameter
 *
 /
 param

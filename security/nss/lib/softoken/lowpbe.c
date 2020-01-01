@@ -634,7 +634,7 @@ algParams
 ;
 /
 *
-paramters
+parameters
 for
 the
 encryption
