@@ -648,9 +648,6 @@ mozilla
 Mutex
 mSPTimerLock
 ;
-PRInt32
-mSizeMode
-;
 void
 SetPersistenceTimer
 (
