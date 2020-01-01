@@ -1381,7 +1381,7 @@ hasRegister
 )
 discouraged
 .
-add
+addUnchecked
 (
 vr
 -
