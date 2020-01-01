@@ -562,7 +562,7 @@ uuid
 )
 *
 -
-loggedInEmail
+loggedInUser
 (
 string
 or
@@ -674,12 +674,12 @@ origin
 "
 origin
 "
-loggedInEmail
+loggedInUser
 :
 "
 aRpCaller
 .
-loggedInEmail
+loggedInUser
 "
 loggedIn
 :
@@ -780,7 +780,7 @@ email
 &
 aRpCaller
 .
-loggedInEmail
+loggedInUser
 =
 =
 =
@@ -814,7 +814,7 @@ if
 (
 aRpCaller
 .
-loggedInEmail
+loggedInUser
 =
 =
 =
@@ -832,7 +832,7 @@ let
 options
 =
 {
-loggedInEmail
+loggedInUser
 :
 state
 .
@@ -857,7 +857,7 @@ else
 /
 /
 A
-loggedInEmail
+loggedInUser
 different
 from
 state
@@ -877,7 +877,7 @@ let
 options
 =
 {
-loggedInEmail
+loggedInUser
 :
 state
 .
@@ -953,7 +953,7 @@ if
 (
 aRpCaller
 .
-loggedInEmail
+loggedInUser
 )
 {
 return
@@ -1062,7 +1062,7 @@ origin
 true
 aOptions
 .
-loggedInEmail
+loggedInUser
 )
 ;
 this
@@ -1074,7 +1074,7 @@ aRpCaller
 id
 aOptions
 .
-loggedInEmail
+loggedInUser
 )
 ;
 aRpCaller
@@ -2078,7 +2078,7 @@ email
 =
 aOptions
 .
-loggedInEmail
+loggedInUser
 |
 |
 this

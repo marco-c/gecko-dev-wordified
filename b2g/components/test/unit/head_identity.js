@@ -379,7 +379,7 @@ uuid
 ;
 mockedDoc
 .
-loggedInEmail
+loggedInUser
 =
 aIdentity
 ;

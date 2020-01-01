@@ -1212,14 +1212,14 @@ Party
 s
 *
 (
-dicitonary
+dictionary
 )
 call
 such
 as
 origin
 and
-loggedInEmail
+loggedInUser
 .
 *
 *
