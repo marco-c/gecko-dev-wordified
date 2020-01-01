@@ -1776,7 +1776,6 @@ objects
 .
 *
 /
-inline
 void
 clearNurseryObjects
 (
