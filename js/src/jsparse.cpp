@@ -37424,7 +37424,6 @@ This
 condition
 folding
 *
-ing
 is
 needed
 for
