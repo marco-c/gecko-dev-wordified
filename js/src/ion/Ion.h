@@ -143,9 +143,7 @@ h
 #
 include
 "
-ion
-/
-IonCode
+jsinfer
 .
 h
 "
@@ -161,7 +159,9 @@ h
 #
 include
 "
-jsinfer
+ion
+/
+IonCode
 .
 h
 "

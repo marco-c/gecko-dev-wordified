@@ -167,7 +167,7 @@ include
 "
 ion
 /
-Ion
+ExecutionModeInlines
 .
 h
 "
@@ -176,7 +176,7 @@ include
 "
 ion
 /
-IonAnalysis
+Ion
 .
 h
 "
@@ -245,15 +245,6 @@ ion
 CompileInfo
 -
 inl
-.
-h
-"
-#
-include
-"
-ion
-/
-ExecutionModeInlines
 .
 h
 "

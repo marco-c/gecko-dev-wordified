@@ -120,6 +120,13 @@ JS_ION
 #
 include
 "
+jsscript
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -142,12 +149,6 @@ SnapshotReader
 .
 h
 "
-class
-JSFunction
-;
-class
-JSScript
-;
 namespace
 js
 {

@@ -119,7 +119,7 @@ include
 "
 ion
 /
-IonTypes
+CompactBuffer
 .
 h
 "
@@ -137,7 +137,7 @@ include
 "
 ion
 /
-Registers
+IonTypes
 .
 h
 "
@@ -146,7 +146,7 @@ include
 "
 ion
 /
-CompactBuffer
+Registers
 .
 h
 "

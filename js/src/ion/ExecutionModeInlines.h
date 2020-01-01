@@ -117,6 +117,15 @@ ion_ExecutionModeInlines_h
 #
 ifdef
 JS_ION
+#
+include
+"
+ion
+/
+CompileInfo
+.
+h
+"
 namespace
 js
 {

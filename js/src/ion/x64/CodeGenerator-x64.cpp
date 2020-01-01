@@ -111,13 +111,6 @@ MPL
 #
 include
 "
-jsnum
-.
-h
-"
-#
-include
-"
 ion
 /
 x64
@@ -125,6 +118,13 @@ x64
 CodeGenerator
 -
 x64
+.
+h
+"
+#
+include
+"
+jsnum
 .
 h
 "

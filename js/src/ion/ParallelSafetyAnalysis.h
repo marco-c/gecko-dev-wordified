@@ -119,7 +119,7 @@ include
 "
 ion
 /
-MIR
+CompileInfo
 .
 h
 "
@@ -128,7 +128,7 @@ include
 "
 ion
 /
-CompileInfo
+MIR
 .
 h
 "
