@@ -321,7 +321,7 @@ data
 )
 ;
 function
-streamEventsFrom
+readStates
 (
 {
 document
@@ -430,12 +430,6 @@ nsIDOMDocument
 }
 )
 }
-exports
-.
-streamEventsFrom
-=
-streamEventsFrom
-;
 let
 opened
 =
@@ -458,7 +452,7 @@ opened
 .
 map
 (
-streamEventsFrom
+readStates
 )
 )
 ;
@@ -504,7 +498,7 @@ futureState
 expand
 (
 futureWindows
-streamEventsFrom
+readStates
 )
 ;
 exports
