@@ -9602,6 +9602,13 @@ PRUnichar
 )
 )
 ;
+if
+(
+!
+mAlternativeString
+)
+return
+;
 memcpy
 (
 (
