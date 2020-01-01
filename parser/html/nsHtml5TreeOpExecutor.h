@@ -612,9 +612,9 @@ class
 nsHtml5TreeOpExecutor
 :
 public
-nsIContentSink
-public
 nsContentSink
+public
+nsIContentSink
 public
 nsAHtml5TreeOpSink
 {
