@@ -414,6 +414,14 @@ MAsmJSLoadFuncPtr
 ins
 )
 ;
+bool
+visitStoreTypedArrayElementStatic
+(
+MStoreTypedArrayElementStatic
+*
+ins
+)
+;
 }
 ;
 typedef

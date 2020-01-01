@@ -1438,6 +1438,14 @@ ins
 )
 ;
 bool
+visitLoadTypedArrayElementStatic
+(
+MLoadTypedArrayElementStatic
+*
+ins
+)
+;
+bool
 visitClampToUint8
 (
 MClampToUint8

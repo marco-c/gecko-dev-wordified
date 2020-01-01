@@ -1205,6 +1205,10 @@ SAFE_OP
 (
 LoadTypedArrayElementHole
 )
+SAFE_OP
+(
+LoadTypedArrayElementStatic
+)
 MAYBE_WRITE_GUARDED_OP
 (
 StoreTypedArrayElement
@@ -1214,6 +1218,10 @@ WRITE_GUARDED_OP
 (
 StoreTypedArrayElementHole
 elements
+)
+UNSAFE_OP
+(
+StoreTypedArrayElementStatic
 )
 UNSAFE_OP
 (
