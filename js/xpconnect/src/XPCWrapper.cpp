@@ -861,8 +861,6 @@ cx
 JSObject
 *
 wrapper
-bool
-stopAtOuter
 )
 {
 if
@@ -900,7 +898,6 @@ js
 UnwrapObject
 (
 wrapper
-stopAtOuter
 )
 ;
 }
