@@ -518,7 +518,10 @@ this
 .
 _csp
 .
-policy
+getPolicy
+(
+0
+)
 ;
 let
 cspr

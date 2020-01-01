@@ -3482,6 +3482,16 @@ CSP
 "
 )
 ;
+if
+(
+mWorkerPrivate
+-
+>
+GetReportCSPViolations
+(
+)
+)
+{
 csp
 -
 >
@@ -3496,6 +3506,7 @@ scriptSample
 mLineNum
 )
 ;
+}
 }
 nsRefPtr
 <
