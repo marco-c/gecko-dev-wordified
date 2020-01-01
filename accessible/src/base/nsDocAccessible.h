@@ -1483,6 +1483,9 @@ events
 PRPackedBool
 mIsContentLoaded
 ;
+PRPackedBool
+mIsLoadCompleteFired
+;
 nsCOMArray
 <
 nsIAccessibleEvent
