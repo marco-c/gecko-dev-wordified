@@ -995,7 +995,7 @@ rt
 xpcrt
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;

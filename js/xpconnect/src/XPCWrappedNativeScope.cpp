@@ -2126,7 +2126,7 @@ Get
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;

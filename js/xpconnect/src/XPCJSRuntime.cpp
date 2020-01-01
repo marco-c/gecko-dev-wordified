@@ -2767,7 +2767,7 @@ JS_GetGCParameter
 self
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 JSGC_NUMBER
@@ -3103,7 +3103,7 @@ acx
 =
 JS_ContextIterator
 (
-GetJSRuntime
+Runtime
 (
 )
 &
@@ -3851,7 +3851,7 @@ acx
 =
 JS_ContextIterator
 (
-GetJSRuntime
+Runtime
 (
 )
 &
@@ -9547,7 +9547,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -9660,7 +9660,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -9686,7 +9686,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -9944,7 +9944,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -15386,7 +15386,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 &
@@ -16971,7 +16971,7 @@ CollectRuntimeStats
 xpcrt
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 &
@@ -20061,7 +20061,7 @@ self
 self
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 &
@@ -21356,7 +21356,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )

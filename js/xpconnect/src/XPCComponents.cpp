@@ -24203,7 +24203,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -24291,7 +24291,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -24366,7 +24366,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
