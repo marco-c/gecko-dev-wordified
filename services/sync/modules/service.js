@@ -487,13 +487,6 @@ addons
 .
 js
 "
-Apps
-:
-"
-apps
-.
-js
-"
 Bookmarks
 :
 "
