@@ -4873,7 +4873,6 @@ member
 isMethod
 isGetter
 customMethodCall
-haveCcx
 )
 :
         
@@ -4990,7 +4989,6 @@ writeCheckForFailure
 f
 isMethod
 isGeter
-haveCcx
 )
 :
         
