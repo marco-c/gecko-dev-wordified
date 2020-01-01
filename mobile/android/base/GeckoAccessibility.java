@@ -2863,7 +2863,7 @@ createBroadcastEvent
 "
 Accessibility
 :
-MoveCaret
+MoveByGranularity
 "
 movementData
 .
@@ -2956,7 +2956,7 @@ createBroadcastEvent
 "
 Accessibility
 :
-MoveCaret
+MoveByGranularity
 "
 movementData
 .

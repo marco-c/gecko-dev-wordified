@@ -1132,6 +1132,7 @@ editState
 .
 editing
 )
+{
 aEvent
 .
 accessibleDocument
@@ -1140,6 +1141,7 @@ takeFocus
 (
 )
 ;
+}
 this
 .
 present
@@ -1153,6 +1155,12 @@ event
 .
 oldAccessible
 reason
+pivot
+.
+startOffset
+pivot
+.
+endOffset
 )
 )
 ;
