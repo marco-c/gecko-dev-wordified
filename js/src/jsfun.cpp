@@ -15968,6 +15968,9 @@ fun_bind
 1
 0
 )
+#
+if
+JS_HAS_GENERATORS
 JS_FN
 (
 "
@@ -15977,6 +15980,8 @@ fun_isGenerator
 0
 0
 )
+#
+endif
 JS_FS_END
 }
 ;
