@@ -11767,7 +11767,7 @@ aRetval
 )
 ;
 }
-nsIDOMEventTarget
+EventTarget
 *
 nsDOMDeviceStorage
 :
@@ -11785,7 +11785,7 @@ GetTargetForDOMEvent
 )
 ;
 }
-nsIDOMEventTarget
+EventTarget
 *
 nsDOMDeviceStorage
 :
