@@ -643,6 +643,17 @@ SetupLookupFunction
 =
 0
 ;
+virtual
+void
+*
+GetNativeContext
+(
+)
+{
+return
+NULL
+;
+}
 protected
 :
 PRBool
