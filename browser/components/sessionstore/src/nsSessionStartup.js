@@ -1132,9 +1132,17 @@ utils
 .
 evalInSandbox
 (
+"
+(
+"
++
 this
 .
 _iniString
++
+"
+)
+"
 s
 )
 ;

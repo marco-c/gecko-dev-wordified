@@ -1804,7 +1804,15 @@ this
 .
 _safeEval
 (
+"
+(
+"
++
 iniString
++
+"
+)
+"
 )
 ;
 let
