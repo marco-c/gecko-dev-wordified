@@ -31213,8 +31213,10 @@ if
 rangeDoc
 )
 {
+nsCOMPtr
+<
 nsISelection
-*
+>
 domSelection
 =
 shell
