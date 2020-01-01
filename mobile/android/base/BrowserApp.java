@@ -1552,8 +1552,6 @@ if
 mRestoreMode
 =
 =
-GeckoAppShell
-.
 RESTORE_NONE
 )
 {
