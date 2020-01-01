@@ -1017,7 +1017,7 @@ LVMCallInstructionHelper
 VMFunction
 :
 :
-ReturnPointer
+Type_Object
 1
 0
 0
