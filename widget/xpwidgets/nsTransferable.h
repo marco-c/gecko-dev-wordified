@@ -232,8 +232,10 @@ uint32_t
 outDataLen
 )
 ;
+already_AddRefed
+<
 nsIFile
-*
+>
 GetFileSpec
 (
 const

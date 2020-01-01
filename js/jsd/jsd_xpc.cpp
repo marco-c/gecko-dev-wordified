@@ -3467,7 +3467,7 @@ jv
 ;
 val
 =
-getter_AddRefs
+dont_AddRef
 (
 jsdValue
 :
@@ -3735,7 +3735,7 @@ jsdIStackFrame
 >
 frame
 =
-getter_AddRefs
+dont_AddRef
 (
 jsdStackFrame
 :
@@ -3987,7 +3987,7 @@ jsdthreadstate
 ;
 js_rv
 =
-getter_AddRefs
+dont_AddRef
 (
 jsdValue
 :
@@ -4053,7 +4053,7 @@ jsdIStackFrame
 >
 frame
 =
-getter_AddRefs
+dont_AddRef
 (
 jsdStackFrame
 :
@@ -4271,7 +4271,7 @@ jsdIScript
 >
 script
 =
-getter_AddRefs
+dont_AddRef
 (
 jsdScript
 :
@@ -13338,7 +13338,7 @@ jsdIContext
 >
 jsdicx
 =
-getter_AddRefs
+dont_AddRef
 (
 jsdContext
 :
@@ -13429,7 +13429,7 @@ jsdIScript
 >
 jsdis
 =
-getter_AddRefs
+dont_AddRef
 (
 jsdScript
 :
