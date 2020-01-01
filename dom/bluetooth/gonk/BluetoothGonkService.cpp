@@ -212,6 +212,13 @@ h
 "
 #
 include
+"
+nsThreadUtils
+.
+h
+"
+#
+include
 <
 dlfcn
 .
