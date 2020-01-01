@@ -8408,7 +8408,7 @@ if
 newborn
 )
 return
-NULL
+false
 ;
 AutoObjectRooter
 tvr2
