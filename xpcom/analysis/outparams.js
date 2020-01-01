@@ -225,8 +225,13 @@ LOG_RESULTS
 =
 false
 ;
-let
+const
 WARN_ON_SET_NULL
+=
+false
+;
+const
+WARN_ON_SET_FAILURE
 =
 false
 ;
@@ -4836,6 +4841,11 @@ error
 '
 )
 ;
+if
+(
+WARN_ON_SET_FAILURE
+)
+{
 this
 .
 warn
@@ -4890,6 +4900,7 @@ here
 ]
 )
 ;
+}
 }
 else
 if
