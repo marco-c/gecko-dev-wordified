@@ -822,6 +822,9 @@ exposure
 events
 *
 /
+do
+{
+}
 while
 (
 XCheckTypedWindowEvent
@@ -838,6 +841,7 @@ Expose
 xevent
 )
 )
+;
 privatePrintScreenMessage
 (
 This

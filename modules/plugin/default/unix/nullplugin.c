@@ -3117,6 +3117,9 @@ exposure
 events
 *
 /
+do
+{
+}
 while
 (
 XCheckTypedWindowEvent
