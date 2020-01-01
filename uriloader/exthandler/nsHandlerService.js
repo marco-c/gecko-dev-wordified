@@ -3642,7 +3642,7 @@ Ci
 .
 nsIHandlerInfo
 .
-handleInternal
+handleInternally
 ;
 return
 Ci
