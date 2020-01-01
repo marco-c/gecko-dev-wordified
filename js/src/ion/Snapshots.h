@@ -591,6 +591,9 @@ frameCount_
 BailoutKind
 bailoutKind_
 ;
+bool
+resumeAfter_
+;
 #
 ifdef
 DEBUG
@@ -1350,6 +1353,16 @@ return
 bailoutKind_
 ;
 }
+bool
+resumeAfter
+(
+)
+const
+{
+return
+resumeAfter_
+;
+}
 Slot
 readSlot
 (
@@ -1696,6 +1709,8 @@ uint32
 frameCount
 BailoutKind
 kind
+bool
+resumeAfter
 )
 ;
 void
