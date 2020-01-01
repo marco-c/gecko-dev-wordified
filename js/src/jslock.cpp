@@ -7921,6 +7921,10 @@ cx
 >
 lockedSealedTitle
 =
+&
+obj
+-
+>
 title
 ;
 return
