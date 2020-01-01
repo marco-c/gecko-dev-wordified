@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h
@@ -122,6 +129,8 @@ public
 nsIXPCScriptable
 public
 nsIClassInfo
+public
+nsSupportsWeakReference
 {
 public
 :

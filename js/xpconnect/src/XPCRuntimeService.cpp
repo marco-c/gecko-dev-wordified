@@ -157,6 +157,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIScriptObjectPrincipal
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupportsWeakReference
+)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports

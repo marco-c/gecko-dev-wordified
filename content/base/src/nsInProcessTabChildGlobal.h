@@ -209,6 +209,13 @@ nsIGlobalObject
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 nsInProcessTabChildGlobal
 :
@@ -222,6 +229,8 @@ public
 nsIScriptContextPrincipal
 public
 nsIGlobalObject
+public
+nsSupportsWeakReference
 public
 mozilla
 :

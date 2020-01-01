@@ -76,6 +76,13 @@ nsIPrincipal
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 /
 /
 This
@@ -112,6 +119,8 @@ SandboxPrivate
 :
 public
 nsIGlobalObject
+public
+nsSupportsWeakReference
 {
 public
 :
