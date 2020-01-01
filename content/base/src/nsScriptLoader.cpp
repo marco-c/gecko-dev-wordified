@@ -6518,10 +6518,13 @@ aRequest
 -
 >
 mLineNo
+JSVersion
+(
 aRequest
 -
 >
 mJSVersion
+)
 nsnull
 &
 isUndefined

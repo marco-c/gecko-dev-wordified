@@ -2191,7 +2191,7 @@ url
 /
 line
 no
-nsnull
+JSVERSION_DEFAULT
 &
 result
 &
