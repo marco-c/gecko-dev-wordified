@@ -1864,15 +1864,6 @@ png_ptr
 png_ptr
 -
 >
-flags
-&
-=
-~
-PNG_FLAG_ROW_INIT
-;
-png_ptr
--
->
 mode
 &
 =

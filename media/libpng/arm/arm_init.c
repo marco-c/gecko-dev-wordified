@@ -35,10 +35,10 @@ libpng
 .
 5
 .
-17
+16
 [
-June
-27
+May
+23
 2013
 ]
 *
@@ -107,10 +107,8 @@ pngpriv
 h
 "
 #
-if
-PNG_ARM_NEON_OPT
->
-0
+ifdef
+PNG_ARM_NEON_SUPPORTED
 #
 ifdef
 PNG_ARM_NEON_CHECK_SUPPORTED
@@ -1313,8 +1311,6 @@ png_read_filter_row_paeth4_neon
 endif
 /
 *
-PNG_ARM_NEON_OPT
->
-0
+PNG_ARM_NEON_SUPPORTED
 *
 /
