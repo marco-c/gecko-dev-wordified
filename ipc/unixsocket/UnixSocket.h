@@ -964,10 +964,8 @@ CancelSocketTask
 ;
 private
 :
-nsAutoPtr
-<
 UnixSocketImpl
->
+*
 mImpl
 ;
 }
