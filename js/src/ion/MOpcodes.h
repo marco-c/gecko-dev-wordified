@@ -795,6 +795,11 @@ ArrayLength
 \
 _
 (
+TypedArrayLength
+)
+\
+_
+(
 InitializedLength
 )
 \

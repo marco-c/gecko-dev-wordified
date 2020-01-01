@@ -1025,6 +1025,11 @@ ArrayLength
 \
 _
 (
+TypedArrayLength
+)
+\
+_
+(
 StringLength
 )
 \
