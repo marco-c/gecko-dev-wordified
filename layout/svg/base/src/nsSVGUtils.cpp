@@ -831,6 +831,13 @@ Element
 .
 h
 "
+#
+include
+"
+gfxUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -4472,9 +4479,7 @@ r
 ;
 if
 (
-NS_SUCCEEDED
-(
-nsLayoutUtils
+gfxUtils
 :
 :
 GfxRectToIntRect
@@ -4482,7 +4487,6 @@ GfxRectToIntRect
 bounds
 &
 r
-)
 )
 )
 {
@@ -6273,9 +6277,7 @@ RoundOut
 ;
 if
 (
-NS_SUCCEEDED
-(
-nsLayoutUtils
+gfxUtils
 :
 :
 GfxRectToIntRect
@@ -6283,7 +6285,6 @@ GfxRectToIntRect
 dirtyBounds
 &
 tmpDirtyRect
-)
 )
 )
 {

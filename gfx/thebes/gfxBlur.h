@@ -454,7 +454,14 @@ h
 #
 include
 "
-gfxThebesUtils
+gfxUtils
+.
+h
+"
+#
+include
+"
+nsRect
 .
 h
 "
