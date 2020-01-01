@@ -5924,6 +5924,16 @@ emptyText
 (
 )
 ;
+DebuggerView
+.
+editor
+.
+setText
+(
+"
+"
+)
+;
 }
 /
 *
