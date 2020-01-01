@@ -5872,7 +5872,7 @@ the
 X
 scale
 (
-Sy
+Sx
 )
 and
 A
