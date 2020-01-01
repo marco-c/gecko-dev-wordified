@@ -2988,7 +2988,8 @@ asm_regarg
 (
 ArgType
 ty
-LInsp
+LIns
+*
 p
 Register
 r
@@ -3189,7 +3190,8 @@ Assembler
 :
 asm_stkarg
 (
-LInsp
+LIns
+*
 arg
 int
 stkd
@@ -3495,7 +3497,8 @@ Assembler
 :
 asm_arg_64
 (
-LInsp
+LIns
+*
 arg
 Register
 &
@@ -4175,7 +4178,8 @@ Assembler
 :
 asm_d2i
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4282,7 +4286,8 @@ if
 cpu_has_fpu
 )
 {
-LInsp
+LIns
+*
 lhs
 =
 ins
@@ -4292,7 +4297,8 @@ oprnd1
 (
 )
 ;
-LInsp
+LIns
+*
 rhs
 =
 ins
@@ -4472,7 +4478,8 @@ if
 cpu_has_fpu
 )
 {
-LInsp
+LIns
+*
 lhs
 =
 ins
@@ -6779,7 +6786,8 @@ opcode
 (
 )
 ;
-LInsp
+LIns
+*
 lhs
 =
 ins
@@ -6789,7 +6797,8 @@ oprnd1
 (
 )
 ;
-LInsp
+LIns
+*
 rhs
 =
 ins
@@ -10282,7 +10291,8 @@ asm_arg
 (
 ArgType
 ty
-LInsp
+LIns
+*
 arg
 Register
 &
@@ -10449,7 +10459,8 @@ Assembler
 :
 asm_call
 (
-LInsp
+LIns
+*
 ins
 )
 {
