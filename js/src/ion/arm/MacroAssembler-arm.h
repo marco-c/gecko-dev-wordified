@@ -6873,6 +6873,17 @@ dest
 )
 ;
 void
+add32
+(
+Imm32
+imm
+const
+Address
+&
+dest
+)
+;
+void
 sub32
 (
 Imm32

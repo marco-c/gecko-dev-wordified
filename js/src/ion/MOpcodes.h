@@ -679,6 +679,16 @@ _
 (
 InterruptCheck
 )
+\
+_
+(
+ProfilingEnter
+)
+\
+_
+(
+ProfilingExit
+)
 /
 /
 Forward

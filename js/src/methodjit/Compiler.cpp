@@ -28019,7 +28019,7 @@ load32
 p
 -
 >
-size
+sizePointer
 (
 )
 size
@@ -28217,7 +28217,7 @@ AbsoluteAddress
 p
 -
 >
-size
+sizePointer
 (
 )
 )
@@ -28381,7 +28381,7 @@ runtime
 >
 spsProfiler
 .
-size
+sizePointer
 (
 )
 )

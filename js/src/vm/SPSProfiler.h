@@ -1024,7 +1024,7 @@ SPSProfiler
 ;
 uint32_t
 *
-size
+sizePointer
 (
 )
 {
