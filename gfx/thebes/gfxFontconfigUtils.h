@@ -1160,9 +1160,8 @@ static
 void
 GetSampleLangForGroup
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 nsACString
 *
@@ -2190,9 +2189,8 @@ nsCString
 >
 &
 aListOfFonts
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 )
 ;
