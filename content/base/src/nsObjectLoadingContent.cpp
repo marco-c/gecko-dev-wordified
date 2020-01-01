@@ -15655,16 +15655,6 @@ GetNativeContext
 (
 )
 ;
-nsCxPusher
-pusher
-;
-pusher
-.
-Push
-(
-cx
-)
-;
 nsCOMPtr
 <
 nsIXPConnectWrappedNative

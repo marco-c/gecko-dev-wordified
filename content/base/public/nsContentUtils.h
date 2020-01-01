@@ -13702,12 +13702,16 @@ to
 be
 returned
 .
-void
+bool
 Push
 (
 JSContext
 *
 cx
+bool
+aRequiresScriptContext
+=
+true
 )
 ;
 /
@@ -13721,7 +13725,7 @@ on
 the
 the
 stack
-void
+bool
 PushNull
 (
 )
@@ -13777,7 +13781,7 @@ Push
 JSContext
 *
 )
-void
+bool
 DoPush
 (
 JSContext
