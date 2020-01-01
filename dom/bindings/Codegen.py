@@ -65607,6 +65607,8 @@ CallSetup
 s
 (
 mCallback
+aRv
+eReportExceptions
 )
 ;
 \
@@ -67865,6 +67867,8 @@ CallSetup
 s
 (
 mCallback
+aRv
+eReportExceptions
 )
 ;
 \
