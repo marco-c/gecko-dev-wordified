@@ -68,19 +68,19 @@ true
 )
 ;
 let
-sms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 ok
 (
-sms
+manager
 instanceof
-MozSmsManager
+MozMobileMessageManager
 )
 ;
 let
@@ -372,7 +372,7 @@ messages
 let
 request
 =
-sms
+manager
 .
 getMessages
 (
@@ -484,7 +484,7 @@ return
 let
 request
 =
-sms
+manager
 .
 delete
 (
@@ -740,7 +740,7 @@ iter
 let
 request
 =
-sms
+manager
 .
 send
 (
@@ -768,7 +768,7 @@ onRequestSuccess
 event
 )
 {
-sms
+manager
 .
 addEventListener
 (
@@ -830,7 +830,7 @@ onReceived
 event
 )
 {
-sms
+manager
 .
 removeEventListener
 (
@@ -898,7 +898,7 @@ count
 let
 request
 =
-sms
+manager
 .
 markMessageRead
 (

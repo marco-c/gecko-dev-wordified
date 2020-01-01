@@ -84,13 +84,13 @@ emulator
 s
 number
 let
-sms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 let
 body
@@ -160,7 +160,7 @@ true
 }
 )
 ;
-sms
+manager
 .
 onreceived
 =

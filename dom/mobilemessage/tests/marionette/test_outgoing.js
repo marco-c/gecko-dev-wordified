@@ -100,13 +100,13 @@ emulator
 s
 number
 let
-sms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 const
 SHORT_BODY
@@ -610,7 +610,7 @@ return
 ;
 }
 }
-sms
+manager
 .
 removeEventListener
 (
@@ -620,7 +620,7 @@ sending
 onSmsSending
 )
 ;
-sms
+manager
 .
 removeEventListener
 (
@@ -898,8 +898,6 @@ event
 log
 (
 "
-SmsManager
-.
 onsending
 event
 received
@@ -1075,8 +1073,6 @@ event
 log
 (
 "
-SmsManager
-.
 onsent
 event
 received
@@ -1139,7 +1135,7 @@ onSentCalled
 )
 ;
 }
-sms
+manager
 .
 addEventListener
 (
@@ -1149,7 +1145,7 @@ sending
 onSmsSending
 )
 ;
-sms
+manager
 .
 addEventListener
 (
@@ -1162,7 +1158,7 @@ onSmsSent
 let
 result
 =
-sms
+manager
 .
 send
 (
@@ -1375,10 +1371,9 @@ add
 test
 cases
 for
-nsIDOMSmsManager
-.
 ondelivered
 event
+.
 doSendMessageAndCheckSuccess
 (
 [

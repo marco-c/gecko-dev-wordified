@@ -58,13 +58,13 @@ true
 )
 ;
 let
-sms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 let
 smsId
@@ -86,9 +86,9 @@ state
 ;
 ok
 (
-sms
+manager
 "
-mozSms
+mozMobileMessage
 "
 )
 ;
@@ -193,7 +193,7 @@ Callback
 for
 incoming
 SMS
-sms
+manager
 .
 onreceived
 =
@@ -300,7 +300,7 @@ nextFunction
 let
 requestRet
 =
-sms
+manager
 .
 markMessageRead
 (
@@ -567,7 +567,7 @@ smsId
 let
 request
 =
-sms
+manager
 .
 delete
 (
@@ -646,7 +646,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 delete
 request
@@ -701,7 +701,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 delete
 request
@@ -732,7 +732,7 @@ cleanUp
 (
 )
 {
-sms
+manager
 .
 onreceived
 =

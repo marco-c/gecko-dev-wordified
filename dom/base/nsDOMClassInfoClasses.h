@@ -379,10 +379,6 @@ MozWakeLock
 )
 DOMCI_CLASS
 (
-MozSmsManager
-)
-DOMCI_CLASS
-(
 MozMobileMessageManager
 )
 DOMCI_CLASS
