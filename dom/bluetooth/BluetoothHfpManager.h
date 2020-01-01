@@ -652,7 +652,7 @@ aState
 )
 ;
 void
-DispatchConnectionStatusChanged
+NotifyConnectionStatusChanged
 (
 const
 nsAString
@@ -667,15 +667,6 @@ const
 nsAString
 &
 aCommand
-)
-;
-void
-NotifyConnectionStatusChanged
-(
-const
-nsAString
-&
-aType
 )
 ;
 bool

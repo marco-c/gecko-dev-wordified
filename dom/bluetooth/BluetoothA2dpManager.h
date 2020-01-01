@@ -394,11 +394,6 @@ HandleShutdown
 )
 ;
 void
-DispatchConnectionStatusChanged
-(
-)
-;
-void
 NotifyConnectionStatusChanged
 (
 )
