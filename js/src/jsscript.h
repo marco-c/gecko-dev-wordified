@@ -3615,6 +3615,12 @@ Create
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
+JSPrincipals
+*
+originPrincipals
 bool
 noScriptRval
 JSVersion

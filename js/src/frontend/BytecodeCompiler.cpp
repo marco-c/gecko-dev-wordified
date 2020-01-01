@@ -773,6 +773,8 @@ JSScript
 Create
 (
 cx
+principals
+originPrincipals
 noScriptRval
 version
 )
@@ -1776,6 +1778,8 @@ JSScript
 Create
 (
 cx
+principals
+originPrincipals
 /
 *
 noScriptRval
