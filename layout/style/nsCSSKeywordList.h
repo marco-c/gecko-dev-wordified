@@ -3333,13 +3333,6 @@ CSS_KEY
 (
 button
 -
-small
-button_small
-)
-CSS_KEY
-(
-button
--
 bevel
 button_bevel
 )
