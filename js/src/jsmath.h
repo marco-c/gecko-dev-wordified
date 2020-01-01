@@ -727,14 +727,6 @@ obj
 )
 ;
 extern
-bool
-js_IsMathFunction
-(
-JSNative
-native
-)
-;
-extern
 void
 js_InitRandom
 (

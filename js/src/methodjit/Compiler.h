@@ -961,10 +961,6 @@ usePropCache
 Label
 shapeGuard
 ;
-jsbytecode
-*
-pc
-;
 JSAtom
 *
 atom
