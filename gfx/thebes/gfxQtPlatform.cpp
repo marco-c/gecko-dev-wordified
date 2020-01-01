@@ -498,7 +498,7 @@ h
 #
 include
 "
-gfxUnicodeProperties
+nsUnicodeProperties
 .
 h
 "
@@ -613,6 +613,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+unicode
 ;
 #
 define
@@ -3001,9 +3008,6 @@ GlobalFontMatch
 data
 (
 aCh
-gfxUnicodeProperties
-:
-:
 GetScriptCode
 (
 aCh
