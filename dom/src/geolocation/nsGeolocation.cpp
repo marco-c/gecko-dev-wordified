@@ -3862,6 +3862,9 @@ sGeoEnabled
 return
 NS_ERROR_NOT_AVAILABLE
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -3894,6 +3897,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 /
 /
 Start
@@ -4107,6 +4112,9 @@ mDisconnectTimer
 nsnull
 ;
 }
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -4142,6 +4150,8 @@ return
 bail
 early
 }
+#
+endif
 for
 (
 PRUint32
