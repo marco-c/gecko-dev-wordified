@@ -1242,7 +1242,7 @@ scriptData
 script
 -
 >
-dataSize
+sizeOfData
 (
 data
 -
@@ -1262,7 +1262,7 @@ mjitData
 script
 -
 >
-jitDataSize
+sizeOfJitScripts
 (
 data
 -

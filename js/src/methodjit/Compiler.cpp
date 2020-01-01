@@ -9410,7 +9410,7 @@ with
 JITChunk
 :
 :
-scriptDataSize
+sizeOfIncludingThis
 !
 *
 /
@@ -13023,9 +13023,10 @@ dataSize
 ;
 /
 *
-Pass
-in
-NULL
+Use
+the
+computed
+size
 here
 -
 -
@@ -13047,9 +13048,8 @@ JS_ASSERT
 chunk
 -
 >
-scriptDataSize
+computedSizeOfIncludingThis
 (
-NULL
 )
 =
 =
