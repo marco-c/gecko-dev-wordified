@@ -104,7 +104,7 @@ h
 "
 #
 define
-ALLOW_LATE_NSHTTP_H_INCLUDE
+ALLOW_LATE_HTTPLOG_H_INCLUDE
 1
 #
 include
@@ -317,6 +317,17 @@ h
 include
 "
 nsNetUtil
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
+NeckoChild
 .
 h
 "
