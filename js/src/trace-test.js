@@ -497,8 +497,6 @@ a
 3486
 )
 ;
-/
-*
 globalName
 =
 907
@@ -622,8 +620,6 @@ globalInt
 499
 )
 ;
-*
-/
 function
 arith
 (
