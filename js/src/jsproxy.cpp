@@ -7107,16 +7107,10 @@ obj
 setSlot
 (
 JSSLOT_PROXY_CONSTRUCT
-construct
-?
 ObjectValue
 (
 *
 construct
-)
-:
-UndefinedValue
-(
 )
 )
 ;
