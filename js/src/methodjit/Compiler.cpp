@@ -31216,6 +31216,16 @@ objectCount
 =
 =
 1
+&
+&
+!
+top
+-
+>
+isNotType
+(
+JSVAL_TYPE_OBJECT
+)
 )
 {
 JS_ASSERT_IF
