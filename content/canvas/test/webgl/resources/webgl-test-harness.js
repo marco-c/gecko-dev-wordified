@@ -1207,6 +1207,17 @@ reportFunc
 var
 files
 =
+window
+.
+gWebGLTestFileList
+;
+if
+(
+!
+files
+)
+files
+=
 getFileList
 (
 '
