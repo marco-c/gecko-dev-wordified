@@ -26127,10 +26127,9 @@ i
 +
 aStart
 ]
-.
-SetMissing
+=
+CompressedGlyph
 (
-0
 )
 ;
 }
