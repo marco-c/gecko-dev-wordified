@@ -172,6 +172,8 @@ test
 /
 browser
 /
+global
+/
 '
 ;
 waitForExplicitFinish
