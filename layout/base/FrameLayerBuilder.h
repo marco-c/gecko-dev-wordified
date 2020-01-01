@@ -3239,14 +3239,6 @@ the
 ThebesLayer
 .
 *
-mItem
-always
-has
-an
-underlying
-frame
-.
-*
 /
 struct
 ClippedDisplayItem
@@ -3256,10 +3248,6 @@ ClippedDisplayItem
 nsDisplayItem
 *
 aItem
-const
-DisplayItemClip
-&
-aClip
 uint32_t
 aGeneration
 )
@@ -3267,10 +3255,6 @@ aGeneration
 mItem
 (
 aItem
-)
-mClip
-(
-aClip
 )
 mContainerLayerGeneration
 (
@@ -3324,9 +3308,6 @@ nsRefPtr
 LayerManager
 >
 mInactiveLayerManager
-;
-DisplayItemClip
-mClip
 ;
 uint32_t
 mContainerLayerGeneration
