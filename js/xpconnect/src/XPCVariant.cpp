@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
@@ -124,6 +131,10 @@ h
 using
 namespace
 JS
+;
+using
+namespace
+mozilla
 ;
 NS_IMPL_CLASSINFO
 (
@@ -2260,7 +2271,6 @@ XPCConvert
 :
 JSArray2Native
 (
-cx
 &
 mData
 .
@@ -2452,9 +2462,6 @@ XPCVariant
 :
 VariantDataToJS
 (
-XPCLazyCallContext
-&
-lccx
 nsIVariant
 *
 variant
@@ -2501,15 +2508,8 @@ type
 return
 false
 ;
-JSContext
-*
+AutoJSContext
 cx
-=
-lccx
-.
-GetJSContext
-(
-)
 ;
 RootedValue
 realVal
@@ -2946,7 +2946,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -2995,7 +2994,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -3048,7 +3046,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -3103,7 +3100,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -3158,7 +3154,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -3213,7 +3208,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -3268,7 +3262,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -3320,7 +3313,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -3388,7 +3380,6 @@ XPCConvert
 :
 NativeStringWithSize2JS
 (
-cx
 pJSVal
 (
 const
@@ -3450,7 +3441,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -3518,7 +3508,6 @@ XPCConvert
 :
 NativeStringWithSize2JS
 (
-cx
 pJSVal
 (
 const
@@ -3614,7 +3603,6 @@ XPCConvert
 :
 NativeData2JS
 (
-lccx
 pJSVal
 (
 const
@@ -4035,7 +4023,6 @@ XPCConvert
 :
 NativeArray2JS
 (
-lccx
 pJSVal
 (
 const

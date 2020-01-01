@@ -3316,14 +3316,6 @@ aAllowNativeWrapper
 nsresult
 rv
 ;
-XPCLazyCallContext
-lccx
-(
-JS_CALLER
-aCx
-aScope
-)
-;
 if
 (
 !
@@ -3332,7 +3324,6 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
-lccx
 aRetval
 NULL
 aHelper
@@ -3795,14 +3786,6 @@ aRetval
 nsresult
 rv
 ;
-XPCLazyCallContext
-lccx
-(
-JS_CALLER
-aCx
-aScope
-)
-;
 if
 (
 !
@@ -3811,7 +3794,6 @@ XPCVariant
 :
 VariantDataToJS
 (
-lccx
 aVariant
 &
 rv

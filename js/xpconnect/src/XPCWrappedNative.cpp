@@ -16321,7 +16321,6 @@ XPCConvert
 :
 NativeArray2JS
 (
-lccx
 v
 .
 address
@@ -16385,7 +16384,6 @@ XPCConvert
 :
 NativeStringWithSize2JS
 (
-mCallContext
 v
 .
 address
@@ -16430,7 +16428,6 @@ XPCConvert
 :
 NativeData2JS
 (
-mCallContext
 v
 .
 address
@@ -16763,7 +16760,6 @@ XPCConvert
 :
 NativeData2JS
 (
-mCallContext
 v
 .
 address
@@ -17845,7 +17841,6 @@ XPCConvert
 :
 JSData2Native
 (
-mCallContext
 &
 dp
 -
@@ -18542,7 +18537,6 @@ XPCConvert
 :
 JSArray2Native
 (
-mCallContext
 (
 void
 *
@@ -18603,7 +18597,6 @@ XPCConvert
 :
 JSStringWithSize2Native
 (
-mCallContext
 (
 void
 *
@@ -18644,7 +18637,6 @@ XPCConvert
 :
 JSData2Native
 (
-mCallContext
 &
 dp
 -

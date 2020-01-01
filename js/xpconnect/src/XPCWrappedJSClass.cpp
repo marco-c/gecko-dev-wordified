@@ -2233,7 +2233,6 @@ XPCConvert
 :
 JSData2Native
 (
-ccx
 aResult
 val
 type
@@ -5543,7 +5542,6 @@ XPCConvert
 :
 JSErrorToXPCException
 (
-ccx
 message
 nullptr
 nullptr
@@ -6403,7 +6401,6 @@ XPCConvert
 :
 JSValToXPCException
 (
-ccx
 js_exception
 anInterfaceName
 aPropertyName
@@ -8363,7 +8360,6 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
-ccx
 v
 .
 address
@@ -8914,7 +8910,6 @@ XPCConvert
 :
 NativeArray2JS
 (
-lccx
 val
 .
 address
@@ -8956,7 +8951,6 @@ XPCConvert
 :
 NativeStringWithSize2JS
 (
-ccx
 val
 .
 address
@@ -8991,7 +8985,6 @@ XPCConvert
 :
 NativeData2JS
 (
-ccx
 val
 .
 address
@@ -10088,7 +10081,6 @@ XPCConvert
 :
 JSData2Native
 (
-ccx
 &
 pv
 -
@@ -10423,7 +10415,6 @@ XPCConvert
 :
 JSArray2Native
 (
-ccx
 (
 void
 *
@@ -10459,7 +10450,6 @@ XPCConvert
 :
 JSStringWithSize2Native
 (
-ccx
 (
 void
 *
@@ -10488,7 +10478,6 @@ XPCConvert
 :
 JSData2Native
 (
-ccx
 &
 pv
 -
