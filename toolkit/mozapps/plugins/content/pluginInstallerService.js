@@ -1847,7 +1847,9 @@ if
 (
 install
 .
-sourceURL
+sourceURI
+.
+spec
 =
 =
 this

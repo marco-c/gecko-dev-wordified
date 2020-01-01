@@ -890,7 +890,7 @@ for
 +
 aInstall
 .
-sourceURL
+sourceURI
 +
 "
 is

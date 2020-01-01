@@ -24582,7 +24582,7 @@ aInstallLocation
 ;
 this
 .
-sourceURL
+sourceURI
 =
 aUrl
 ;
@@ -25181,7 +25181,7 @@ null
 infoURL
 :
 null
-sourceURL
+sourceURI
 :
 null
 file
@@ -25403,7 +25403,7 @@ of
 +
 this
 .
-sourceURL
+sourceURI
 .
 spec
 )
@@ -25449,7 +25449,7 @@ file
 (
 this
 .
-sourceURL
+sourceURI
 instanceof
 Ci
 .
@@ -26030,7 +26030,7 @@ sourceURI
 =
 this
 .
-sourceURL
+sourceURI
 .
 spec
 ;
@@ -26676,7 +26676,7 @@ newChannel
 (
 this
 .
-sourceURL
+sourceURI
 )
 ;
 if
@@ -27050,7 +27050,7 @@ for
 +
 this
 .
-sourceURL
+sourceURI
 .
 spec
 +
@@ -27164,7 +27164,7 @@ of
 +
 this
 .
-sourceURL
+sourceURI
 .
 spec
 +
@@ -27976,7 +27976,7 @@ of
 +
 this
 .
-sourceURL
+sourceURI
 .
 spec
 )
@@ -28287,7 +28287,7 @@ of
 +
 this
 .
-sourceURL
+sourceURI
 .
 spec
 +
@@ -28866,7 +28866,7 @@ of
 +
 self
 .
-sourceURL
+sourceURI
 .
 spec
 +
@@ -28999,7 +28999,7 @@ if
 (
 this
 .
-sourceURL
+sourceURI
 instanceof
 Ci
 .
@@ -29583,16 +29583,14 @@ this
 __defineGetter__
 (
 "
-sourceURL
+sourceURI
 "
 function
 (
 )
 aInstall
 .
-sourceURL
-.
-spec
+sourceURI
 )
 ;
 this
