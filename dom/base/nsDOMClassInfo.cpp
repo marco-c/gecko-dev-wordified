@@ -9878,14 +9878,13 @@ obj
 )
 &
 &
-!
 xpc
 :
 :
-WrapperFactory
+AccessCheck
 :
 :
-IsXOW
+wrapperSubsumes
 (
 obj
 )
