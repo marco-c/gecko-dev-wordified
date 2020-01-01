@@ -8466,11 +8466,14 @@ HasUninitializedRenderbuffer
 realGLboolean
 savedColorMask
 [
+4
 ]
 =
 {
 0
 }
+;
+realGLboolean
 savedDepthMask
 =
 0
@@ -8483,6 +8486,7 @@ savedStencilMask
 GLfloat
 savedColorClearValue
 [
+4
 ]
 =
 {
@@ -8490,6 +8494,8 @@ savedColorClearValue
 .
 f
 }
+;
+GLfloat
 savedDepthClearValue
 =
 0
