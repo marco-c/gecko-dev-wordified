@@ -746,8 +746,8 @@ compartment
 TypeInferenceMemoryStats
 *
 stats
-JSUsableSizeFun
-usf
+JSMallocSizeOfFun
+mallocSizeOf
 )
 ;
 extern
@@ -768,8 +768,8 @@ object
 TypeInferenceMemoryStats
 *
 stats
-JSUsableSizeFun
-usf
+JSMallocSizeOfFun
+mallocSizeOf
 )
 ;
 extern

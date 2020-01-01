@@ -5070,9 +5070,11 @@ return
 result
 ;
 }
-PRUint64
-ComputeTextRunMemoryUsed
+size_t
+SizeOfTextRuns
 (
+nsMallocSizeOfFun
+aMallocSizeOf
 )
 ;
 class

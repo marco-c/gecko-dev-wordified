@@ -5010,8 +5010,8 @@ size_t
 )
 jitDataSize
 (
-JSUsableSizeFun
-usf
+JSMallocSizeOfFun
+mallocSizeOf
 )
 ;
 #
@@ -5159,8 +5159,8 @@ size_t
 )
 dataSize
 (
-JSUsableSizeFun
-usf
+JSMallocSizeOfFun
+mallocSizeOf
 )
 ;
 /

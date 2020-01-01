@@ -3172,8 +3172,8 @@ size_t
 )
 sizeOfSlotsArray
 (
-JSUsableSizeFun
-usf
+JSMallocSizeOfFun
+mallocSizeOf
 )
 ;
 js
