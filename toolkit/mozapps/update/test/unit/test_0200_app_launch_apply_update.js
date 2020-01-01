@@ -267,6 +267,10 @@ APP_BIN_SUFFIX
 return
 ;
 }
+gEnvSKipUpdateDirHashing
+=
+true
+;
 let
 channel
 =
