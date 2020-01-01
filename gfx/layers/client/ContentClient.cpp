@@ -329,6 +329,10 @@ ContentClient
 (
 aForwarder
 )
+ThebesLayerBuffer
+(
+ContainsVisibleBounds
+)
 mManager
 (
 aManager
@@ -516,7 +520,7 @@ nullptr
 ;
 }
 void
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 DestroyBuffers
@@ -570,7 +574,7 @@ this
 ;
 }
 void
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 BeginPaint
@@ -635,7 +639,7 @@ mTextureClientOnWhite
 }
 }
 void
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 EndPaint
@@ -718,7 +722,7 @@ Unlock
 }
 }
 void
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 BuildTextureClients
@@ -928,7 +932,7 @@ TemporaryRef
 <
 DrawTarget
 >
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 CreateDTBuffer
@@ -996,7 +1000,7 @@ already_AddRefed
 <
 gfxASurface
 >
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 CreateBuffer
@@ -1078,7 +1082,7 @@ forget
 ;
 }
 nsIntRegion
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 GetUpdatedRegion
@@ -1270,7 +1274,7 @@ updatedRegion
 ;
 }
 void
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 Updated
@@ -1354,7 +1358,7 @@ updatedRegion
 ;
 }
 void
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 SwapBuffers
@@ -1825,7 +1829,7 @@ ACCESS_READ_ONLY
 )
 ;
 }
-ContentClientRemote
+ContentClientRemoteBuffer
 :
 :
 SwapBuffers
