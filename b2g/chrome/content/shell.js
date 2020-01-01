@@ -6691,9 +6691,6 @@ js
 "
 )
 ;
-#
-ifndef
-MOZ_WIDGET_GONK
 DebuggerServer
 .
 addActors
@@ -6781,8 +6778,6 @@ js
 "
 )
 ;
-#
-endif
 if
 (
 "
