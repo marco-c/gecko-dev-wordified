@@ -1361,6 +1361,7 @@ GetAnimatedTransformList
 ;
 if
 (
+(
 transformList
 &
 &
@@ -1368,6 +1369,15 @@ transformList
 -
 >
 HasTransform
+(
+)
+)
+|
+|
+content
+-
+>
+GetAnimateMotionTransform
 (
 )
 )
