@@ -125,7 +125,7 @@ h
 #
 include
 "
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 .
 h
 "
@@ -357,7 +357,7 @@ return
 ;
 nsCOMPtr
 <
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 >
 serializable
 =
@@ -784,7 +784,7 @@ false
 ;
 nsCOMPtr
 <
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 >
 serializable
 =
@@ -1029,7 +1029,7 @@ return
 ;
 nsCOMPtr
 <
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 >
 serializable
 =
@@ -1068,7 +1068,9 @@ doesn
 '
 t
 support
-nsIIPCSerializable
+"
+"
+nsIIPCSerializableObsolete
 ;
 falling
 back
@@ -1479,7 +1481,7 @@ false
 ;
 nsCOMPtr
 <
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 >
 serializable
 =

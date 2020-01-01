@@ -1899,7 +1899,7 @@ NS_OK
 }
 /
 /
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 bool
 nsNestedAboutURI
 :

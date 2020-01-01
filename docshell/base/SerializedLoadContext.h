@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIIPCSerializable
-.
-h
-"
-#
-include
-"
 nsILoadContext
 .
 h

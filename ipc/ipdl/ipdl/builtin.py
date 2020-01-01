@@ -258,6 +258,16 @@ ipc
 Shmem
 '
     
+'
+mozilla
+:
+:
+ipc
+:
+:
+FileDescriptor
+'
+    
 #
 quasi
 -

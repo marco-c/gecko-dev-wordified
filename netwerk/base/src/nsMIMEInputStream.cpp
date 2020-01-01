@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 .
 h
 "
@@ -219,7 +219,7 @@ nsIMIMEInputStream
 public
 nsISeekableStream
 public
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 {
 public
 :
@@ -237,7 +237,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIMIMEINPUTSTREAM
 NS_DECL_NSISEEKABLESTREAM
-NS_DECL_NSIIPCSERIALIZABLE
+NS_DECL_NSIIPCSERIALIZABLEOBSOLETE
 NS_METHOD
 Init
 (
@@ -351,7 +351,7 @@ nsMIMEInputStream
 nsIMIMEInputStream
 nsIInputStream
 nsISeekableStream
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 )
 NS_IMPL_CI_INTERFACE_GETTER4
 (
@@ -359,7 +359,7 @@ nsMIMEInputStream
 nsIMIMEInputStream
 nsIInputStream
 nsISeekableStream
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 )
 nsMIMEInputStream
 :

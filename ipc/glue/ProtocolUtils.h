@@ -161,6 +161,17 @@ mozilla
 /
 ipc
 /
+FileDescriptor
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 Shmem
 .
 h
