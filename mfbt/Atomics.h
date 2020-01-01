@@ -218,6 +218,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -6038,6 +6047,7 @@ mValue
 ;
 public
 :
+MOZ_CONSTEXPR
 AtomicBase
 (
 )
@@ -6047,21 +6057,18 @@ mValue
 )
 {
 }
+MOZ_CONSTEXPR
 AtomicBase
 (
 T
 aInit
 )
-{
-Intrinsics
 :
-:
-store
-(
 mValue
+(
 aInit
 )
-;
+{
 }
 operator
 T
@@ -6276,6 +6283,7 @@ Base
 ;
 public
 :
+MOZ_CONSTEXPR
 AtomicBaseIncDec
 (
 )
@@ -6285,6 +6293,7 @@ Base
 )
 {
 }
+MOZ_CONSTEXPR
 AtomicBaseIncDec
 (
 T
@@ -6717,6 +6726,7 @@ Base
 ;
 public
 :
+MOZ_CONSTEXPR
 Atomic
 (
 )
@@ -6726,6 +6736,7 @@ Base
 )
 {
 }
+MOZ_CONSTEXPR
 Atomic
 (
 T
@@ -7008,6 +7019,7 @@ Base
 ;
 public
 :
+MOZ_CONSTEXPR
 Atomic
 (
 )
@@ -7017,6 +7029,7 @@ Base
 )
 {
 }
+MOZ_CONSTEXPR
 Atomic
 (
 T
@@ -7195,6 +7208,7 @@ Base
 ;
 public
 :
+MOZ_CONSTEXPR
 Atomic
 (
 )
@@ -7204,6 +7218,7 @@ Base
 )
 {
 }
+MOZ_CONSTEXPR
 Atomic
 (
 T
