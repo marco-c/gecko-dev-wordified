@@ -608,6 +608,8 @@ Lir
 _lirNames
 [
 LIR_last
++
+1
 ]
 ;
 void
