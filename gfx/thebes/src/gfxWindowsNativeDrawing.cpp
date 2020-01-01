@@ -1628,8 +1628,8 @@ gfxASurface
 :
 :
 SurfaceTypeWin32
-|
-|
+&
+&
 surf
 -
 >
