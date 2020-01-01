@@ -996,6 +996,7 @@ stubs
 PutActivationObjects
 )
 NULL
+NULL
 0
 )
 ;

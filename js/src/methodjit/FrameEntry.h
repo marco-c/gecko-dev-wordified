@@ -1531,6 +1531,9 @@ bool
 tracked
 ;
 bool
+inlined
+;
+bool
 initArray
 ;
 JSObject

@@ -2533,6 +2533,10 @@ X86Registers
 ecx
 )
 )
+.
+reg
+(
+)
 ;
 #
 else
@@ -3635,7 +3639,7 @@ lhsTypes
 getKnownObjectKind
 (
 cx
-script
+outerScript
 )
 :
 types
@@ -3657,7 +3661,7 @@ rhsTypes
 getKnownObjectKind
 (
 cx
-script
+outerScript
 )
 :
 types
@@ -6060,7 +6064,7 @@ ValueToBoolean
 )
 frame
 .
-localSlots
+totalDepth
 (
 )
 )
@@ -8382,7 +8386,7 @@ types
 getKnownObjectKind
 (
 cx
-script
+outerScript
 )
 :
 types
@@ -10949,7 +10953,7 @@ types
 getKnownObjectKind
 (
 cx
-script
+outerScript
 )
 :
 types

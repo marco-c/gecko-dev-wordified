@@ -577,6 +577,8 @@ from
 jsbytecode
 *
 pc
+uint32
+inlineIndex
 )
 :
 from
@@ -587,6 +589,10 @@ pc
 (
 pc
 )
+inlineIndex
+(
+inlineIndex
+)
 {
 }
 Jump
@@ -595,6 +601,9 @@ from
 jsbytecode
 *
 pc
+;
+uint32
+inlineIndex
 ;
 }
 ;
@@ -609,10 +618,6 @@ cc
 FrameState
 &
 frame
-;
-JSScript
-*
-script
 ;
 public
 :
@@ -684,9 +689,6 @@ cc
 FrameState
 &
 frame
-JSScript
-*
-script
 )
 ;
 size_t

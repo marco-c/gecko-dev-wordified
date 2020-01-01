@@ -45090,6 +45090,7 @@ fp
 js_GetTopStackFrame
 (
 cx
+FRAME_EXPAND_NONE
 )
 ;
 JSObject
@@ -45871,6 +45872,7 @@ obj
 js_GetTopStackFrame
 (
 cx
+FRAME_EXPAND_NONE
 )
 -
 >

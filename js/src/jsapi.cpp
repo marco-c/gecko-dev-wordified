@@ -31698,6 +31698,7 @@ fp
 js_GetTopStackFrame
 (
 cx
+FRAME_EXPAND_NONE
 )
 ;
 if
