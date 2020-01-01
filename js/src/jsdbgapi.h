@@ -977,7 +977,7 @@ jsid
 id
 JSWatchPointHandler
 handler
-void
+JSObject
 *
 closure
 )
@@ -1000,7 +1000,7 @@ id
 JSWatchPointHandler
 *
 handlerp
-void
+JSObject
 *
 *
 closurep
