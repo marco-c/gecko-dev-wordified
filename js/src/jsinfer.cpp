@@ -41227,9 +41227,6 @@ JSCompartment
 :
 sweepNewTypeObjectTable
 (
-JSContext
-*
-cx
 TypeObjectSet
 &
 table

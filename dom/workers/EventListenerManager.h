@@ -206,9 +206,9 @@ aTrc
 void
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 {
 if
@@ -223,7 +223,7 @@ mCollectionHead
 {
 FinalizeInternal
 (
-aCx
+aFop
 )
 ;
 }
@@ -463,9 +463,9 @@ const
 void
 FinalizeInternal
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 ;
 void

@@ -235,9 +235,9 @@ virtual
 void
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 ;
 JSContext

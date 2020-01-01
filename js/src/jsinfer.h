@@ -6295,11 +6295,9 @@ objects
 void
 finalize
 (
-JSContext
+FreeOp
 *
-cx
-bool
-background
+fop
 )
 {
 }

@@ -1560,9 +1560,9 @@ proxy
 void
 finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 proxy

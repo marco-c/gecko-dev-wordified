@@ -959,9 +959,9 @@ virtual
 void
 finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 proxy

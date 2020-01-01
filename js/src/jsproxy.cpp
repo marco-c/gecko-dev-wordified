@@ -2606,9 +2606,9 @@ ProxyHandler
 :
 finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 proxy
@@ -8264,9 +8264,9 @@ static
 void
 proxy_Finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -8305,7 +8305,7 @@ obj
 >
 finalize
 (
-cx
+fop
 obj
 )
 ;

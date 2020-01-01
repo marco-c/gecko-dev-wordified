@@ -412,9 +412,9 @@ inline
 void
 DestroyList
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 PRCList
 *
 aListHead
@@ -447,9 +447,9 @@ PR_NEXT_LINK
 elem
 )
 ;
-JS_free
+JS_freeop
 (
-aCx
+aFop
 elem
 )
 ;
@@ -787,9 +787,9 @@ EventListenerManager
 :
 FinalizeInternal
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 {
 MOZ_ASSERT
@@ -830,7 +830,7 @@ elem
 {
 DestroyList
 (
-aCx
+aFop
 &
 static_cast
 <
@@ -848,7 +848,7 @@ mListenerHead
 }
 DestroyList
 (
-aCx
+aFop
 &
 mCollectionHead
 )

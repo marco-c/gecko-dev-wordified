@@ -205,9 +205,9 @@ XMLHttpRequestUpload
 :
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 {
 XMLHttpRequestEventTarget
@@ -215,7 +215,7 @@ XMLHttpRequestEventTarget
 :
 _Finalize
 (
-aCx
+aFop
 )
 ;
 }

@@ -23753,9 +23753,9 @@ static
 void
 its_finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -23798,7 +23798,10 @@ rootedVal
 {
 JS_RemoveValueRoot
 (
-cx
+fop
+-
+>
+context
 rootedVal
 )
 ;

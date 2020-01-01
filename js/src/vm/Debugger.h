@@ -1358,9 +1358,9 @@ static
 void
 finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -2208,9 +2208,9 @@ static
 void
 sweepAll
 (
-JSContext
+FreeOp
 *
-cx
+fop
 )
 ;
 static

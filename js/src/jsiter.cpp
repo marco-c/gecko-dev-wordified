@@ -709,9 +709,9 @@ static
 void
 iterator_finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -1028,9 +1028,9 @@ static
 void
 iterator_finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -1070,7 +1070,7 @@ setPrivate
 NULL
 )
 ;
-cx
+fop
 -
 >
 free_
@@ -8693,9 +8693,9 @@ static
 void
 generator_finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -8775,7 +8775,7 @@ state
 JSGEN_OPEN
 )
 ;
-cx
+fop
 -
 >
 free_

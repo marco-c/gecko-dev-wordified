@@ -18399,9 +18399,9 @@ Finalize
 nsIXPConnectWrappedNative
 *
 wrapper
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -33077,9 +33077,9 @@ Finalize
 nsIXPConnectWrappedNative
 *
 wrapper
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -41425,9 +41425,9 @@ nsHTMLDocumentSH
 :
 ReleaseDocument
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

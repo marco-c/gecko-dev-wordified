@@ -1306,11 +1306,12 @@ endif
 void
 finalize
 (
-JSContext
+js
+:
+:
+FreeOp
 *
-cx
-bool
-background
+fop
 )
 ;
 static

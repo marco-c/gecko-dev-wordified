@@ -127,9 +127,9 @@ XMLHttpRequestEventTarget
 :
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 {
 EventTarget
@@ -137,7 +137,7 @@ EventTarget
 :
 _Finalize
 (
-aCx
+aFop
 )
 ;
 }

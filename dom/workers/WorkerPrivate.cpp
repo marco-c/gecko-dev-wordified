@@ -9497,9 +9497,9 @@ Derived
 :
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 {
 AssertIsOnParentThread
@@ -9533,7 +9533,10 @@ if
 !
 TerminatePrivate
 (
-aCx
+aFop
+-
+>
+context
 true
 )
 )
@@ -9655,7 +9658,7 @@ EventTarget
 :
 _Finalize
 (
-aCx
+aFop
 )
 ;
 if

@@ -1612,6 +1612,9 @@ mode
 class
 XDRState
 ;
+class
+FreeOp
+;
 }
 /
 *

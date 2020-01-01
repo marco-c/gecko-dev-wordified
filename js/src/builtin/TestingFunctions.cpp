@@ -2152,9 +2152,9 @@ static
 void
 finalize_counter_finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

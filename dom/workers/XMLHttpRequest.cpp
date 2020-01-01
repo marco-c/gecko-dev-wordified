@@ -6523,9 +6523,9 @@ XMLHttpRequest
 :
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 {
 ReleaseProxy
@@ -6538,7 +6538,7 @@ XMLHttpRequestEventTarget
 :
 _Finalize
 (
-aCx
+aFop
 )
 ;
 }

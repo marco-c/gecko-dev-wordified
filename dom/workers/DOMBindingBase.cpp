@@ -231,9 +231,9 @@ DOMBindingBase
 :
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 {
 ClearWrapper

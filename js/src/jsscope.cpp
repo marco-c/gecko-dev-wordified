@@ -8044,9 +8044,6 @@ JSCompartment
 :
 sweepBaseShapeTable
 (
-JSContext
-*
-cx
 )
 {
 if
@@ -8118,11 +8115,9 @@ BaseShape
 :
 finalize
 (
-JSContext
+FreeOp
 *
-cx
-bool
-background
+fop
 )
 {
 if
@@ -8130,7 +8125,7 @@ if
 table_
 )
 {
-cx
+fop
 -
 >
 delete_
@@ -9254,9 +9249,6 @@ JSCompartment
 :
 sweepInitialShapeTable
 (
-JSContext
-*
-cx
 )
 {
 if

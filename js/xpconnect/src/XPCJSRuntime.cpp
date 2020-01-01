@@ -4395,9 +4395,9 @@ XPCJSRuntime
 :
 FinalizeCallback
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSFinalizeStatus
 status
 )
@@ -4592,9 +4592,9 @@ scopes
 XPCWrappedNativeScope
 :
 :
-FinishedMarkPhaseOfGC
+StartFinalizationPhaseOfGC
 (
-cx
+fop
 self
 )
 ;
@@ -5460,7 +5460,6 @@ XPCWrappedNativeScope
 :
 FinishedFinalizationPhaseOfGC
 (
-cx
 )
 ;
 /
