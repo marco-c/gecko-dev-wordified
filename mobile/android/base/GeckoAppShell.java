@@ -2751,6 +2751,11 @@ removed
 in
 bug
 732069
+loadLibsSetup
+(
+context
+)
+;
 loadSQLiteLibsNative
 (
 apkName
