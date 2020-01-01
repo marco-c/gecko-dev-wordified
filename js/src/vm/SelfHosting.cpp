@@ -1889,6 +1889,9 @@ non
 -
 strict
 .
+if
+(
+!
 JSObject
 :
 :
@@ -1902,6 +1905,9 @@ idx
 tmp
 false
 )
+)
+return
+false
 ;
 }
 }
