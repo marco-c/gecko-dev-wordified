@@ -6090,7 +6090,7 @@ the
 array
 .
 const
-int
+unsigned
 numArrays
 =
 9
