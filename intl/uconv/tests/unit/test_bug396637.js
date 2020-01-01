@@ -32,8 +32,6 @@ const
 expectedString
 =
 "
-\
-ufffd
 "
 ;
 const
