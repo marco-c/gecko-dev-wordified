@@ -4405,7 +4405,7 @@ jsint
 *
 slotp
 uintN
-decltype
+declType
 )
 ;
 /
