@@ -534,6 +534,13 @@ nsParser
 .
 h
 "
+#
+include
+"
+nsCharsetSource
+.
+h
+"
 /
 /
 We

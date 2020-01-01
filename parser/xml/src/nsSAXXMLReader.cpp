@@ -460,6 +460,13 @@ h
 #
 include
 "
+nsIParser
+.
+h
+"
+#
+include
+"
 nsParserCIID
 .
 h
@@ -503,6 +510,13 @@ h
 include
 "
 nsSAXXMLReader
+.
+h
+"
+#
+include
+"
+nsCharsetSource
 .
 h
 "

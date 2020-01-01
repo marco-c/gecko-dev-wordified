@@ -1079,13 +1079,6 @@ h
 #
 include
 "
-nsIParser
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h
