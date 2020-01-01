@@ -32053,16 +32053,8 @@ JSBool
 grouped
 JSBool
 strict
-JSBool
-(
-*
+JSDecompilerPtr
 decompiler
-)
-(
-JSPrinter
-*
-jp
-)
 )
 {
 JSPrinter
