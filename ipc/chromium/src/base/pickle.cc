@@ -174,11 +174,11 @@ capacity_
 .
 static
 const
-uint32
+uint32_t
 kCapacityReadOnly
 =
 (
-uint32
+uint32_t
 )
 -
 1
@@ -197,7 +197,7 @@ char
 /
 Payload
 is
-uint32
+uint32_t
 aligned
 .
 Pickle
@@ -260,7 +260,7 @@ AlignInt
 header_size
 sizeof
 (
-uint32
+uint32_t
 )
 )
 )
@@ -277,7 +277,7 @@ DCHECK
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 header_size
@@ -381,7 +381,7 @@ AlignInt
 header_size_
 sizeof
 (
-uint32
+uint32_t
 )
 )
 )
@@ -419,7 +419,7 @@ other
 variable_buffer_offset_
 )
 {
-uint32
+uint32_t
 payload_size
 =
 header_size_
@@ -654,7 +654,7 @@ void
 *
 *
 iter
-int16
+int16_t
 *
 result
 )
@@ -738,7 +738,7 @@ void
 *
 *
 iter
-uint16
+uint16_t
 *
 result
 )
@@ -1006,7 +1006,7 @@ payload
 )
 )
 ;
-int64
+int64_t
 bigResult
 =
 0
@@ -1164,7 +1164,7 @@ payload
 )
 )
 ;
-uint64
+uint64_t
 bigResult
 =
 0
@@ -1356,7 +1356,7 @@ payload
 )
 )
 ;
-uint64
+uint64_t
 bigResult
 =
 0
@@ -1464,7 +1464,7 @@ void
 *
 *
 iter
-int32
+int32_t
 *
 result
 )
@@ -1548,7 +1548,7 @@ void
 *
 *
 iter
-uint32
+uint32_t
 *
 result
 )
@@ -1632,7 +1632,7 @@ void
 *
 *
 iter
-int64
+int64_t
 *
 result
 )
@@ -1716,7 +1716,7 @@ void
 *
 *
 iter
-uint64
+uint64_t
 *
 result
 )
@@ -1938,7 +1938,7 @@ payload
 )
 )
 ;
-int64
+int64_t
 bigResult
 =
 0
@@ -2463,7 +2463,7 @@ char
 data
 int
 length
-uint32
+uint32_t
 alignment
 )
 const
@@ -2525,7 +2525,7 @@ payload
 )
 )
 ;
-uint32
+uint32_t
 paddingLen
 =
 intptr_t
@@ -2563,7 +2563,7 @@ iter
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2738,9 +2738,9 @@ Pickle
 :
 BeginWrite
 (
-uint32
+uint32_t
 length
-uint32
+uint32_t
 alignment
 )
 {
@@ -2782,7 +2782,7 @@ beginning
 of
 the
 header
-uint32
+uint32_t
 offset
 =
 AlignInt
@@ -2793,11 +2793,11 @@ header_
 payload_size
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
-uint32
+uint32_t
 padding
 =
 (
@@ -2808,7 +2808,7 @@ offset
 %
 alignment
 ;
-uint32
+uint32_t
 new_size
 =
 offset
@@ -2820,11 +2820,11 @@ AlignInt
 length
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
-uint32
+uint32_t
 needed_size
 =
 header_size_
@@ -2880,7 +2880,7 @@ std
 :
 numeric_limits
 <
-uint32
+uint32_t
 >
 :
 :
@@ -2980,7 +2980,7 @@ length
 %
 sizeof
 (
-uint32
+uint32_t
 )
 )
 memset
@@ -2991,7 +2991,7 @@ length
 0
 sizeof
 (
-uint32
+uint32_t
 )
 -
 (
@@ -2999,7 +2999,7 @@ length
 %
 sizeof
 (
-uint32
+uint32_t
 )
 )
 )
@@ -3017,7 +3017,7 @@ void
 data
 int
 data_len
-uint32
+uint32_t
 alignment
 )
 {
@@ -3360,7 +3360,7 @@ BeginWrite
 length
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -3544,7 +3544,7 @@ Pickle
 :
 Resize
 (
-uint32
+uint32_t
 new_capacity
 )
 {
@@ -3604,7 +3604,7 @@ Pickle
 :
 FindNext
 (
-uint32
+uint32_t
 header_size
 const
 char
@@ -3626,7 +3626,7 @@ AlignInt
 header_size
 sizeof
 (
-uint32
+uint32_t
 )
 )
 )
@@ -3638,7 +3638,7 @@ header_size
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 kPayloadUnit

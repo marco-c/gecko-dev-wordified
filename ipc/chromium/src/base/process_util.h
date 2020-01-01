@@ -3234,10 +3234,10 @@ the
 CPU
 usage
 .
-int64
+int64_t
 last_time_
 ;
-int64
+int64_t
 last_system_time_
 ;
 DISALLOW_EVIL_CONSTRUCTORS

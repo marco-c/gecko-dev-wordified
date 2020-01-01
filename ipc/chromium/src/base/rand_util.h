@@ -74,7 +74,7 @@ Thread
 -
 safe
 .
-uint64
+uint64_t
 RandUint64
 (
 )

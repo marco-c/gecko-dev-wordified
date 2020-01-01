@@ -1260,7 +1260,7 @@ threads
 and
 processes
 .
-int32
+int32_t
 counter_id_
 ;
 }

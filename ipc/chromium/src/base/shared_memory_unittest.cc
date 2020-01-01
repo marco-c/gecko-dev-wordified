@@ -193,7 +193,7 @@ public
 explicit
 MultipleThreadMain
 (
-int16
+int16_t
 id
 )
 :
@@ -366,7 +366,7 @@ Close
 }
 private
 :
-int16
+int16_t
 id_
 ;
 static
@@ -1336,7 +1336,7 @@ threads
 .
 for
 (
-int16
+int16_t
 index
 =
 0

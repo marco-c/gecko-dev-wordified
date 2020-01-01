@@ -2172,7 +2172,7 @@ void
 LogFunction
 )
 (
-uint16
+uint16_t
 type
 std
 :
@@ -2216,7 +2216,7 @@ label
 #
 MsgLog
 (
-uint16
+uint16_t
 type
 std
 :
@@ -3634,7 +3634,7 @@ __ID
 \
 msg_class
 (
-int32
+int32_t
 routing_id
 )
 \
@@ -3690,7 +3690,7 @@ __ID
 \
 msg_class
 (
-int32
+int32_t
 routing_id
 const
 type1
@@ -3758,7 +3758,7 @@ __ID
 \
 msg_class
 (
-int32
+int32_t
 routing_id
 const
 type1
@@ -3842,7 +3842,7 @@ __ID
 \
 msg_class
 (
-int32
+int32_t
 routing_id
 const
 type1
@@ -3935,7 +3935,7 @@ __ID
 \
 msg_class
 (
-int32
+int32_t
 routing_id
 const
 type1
@@ -4036,7 +4036,7 @@ __ID
 \
 msg_class
 (
-int32
+int32_t
 routing_id
 const
 type1
@@ -4147,7 +4147,7 @@ __ID
 \
 msg_class
 (
-int32
+int32_t
 routing_id
 const
 type1

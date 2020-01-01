@@ -6393,7 +6393,7 @@ static
 const
 struct
 {
-int64
+int64_t
 bytes
 ;
 DataUnits
@@ -6507,7 +6507,7 @@ static
 const
 struct
 {
-int64
+int64_t
 bytes
 ;
 DataUnits
@@ -7567,7 +7567,7 @@ static
 const
 IntToStringTest
 <
-int64
+int64_t
 >
 int64_tests
 [
@@ -7600,7 +7600,7 @@ std
 :
 numeric_limits
 <
-int64
+int64_t
 >
 :
 :
@@ -7620,7 +7620,7 @@ std
 :
 numeric_limits
 <
-int64
+int64_t
 >
 :
 :
@@ -7759,7 +7759,7 @@ i
 const
 IntToStringTest
 <
-int64
+int64_t
 >
 *
 test
@@ -7848,7 +7848,7 @@ static
 const
 struct
 {
-uint64
+uint64_t
 input
 ;
 std
@@ -8406,7 +8406,7 @@ std
 string
 input
 ;
-int64
+int64_t
 output
 ;
 bool
@@ -8714,7 +8714,7 @@ input
 )
 )
 ;
-int64
+int64_t
 output
 ;
 EXPECT_EQ
@@ -8878,7 +8878,7 @@ input
 1
 )
 ;
-int64
+int64_t
 output
 ;
 EXPECT_FALSE
@@ -9742,7 +9742,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 output
 ;
@@ -9751,7 +9751,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 compare
 ;
@@ -9818,7 +9818,7 @@ push_back
 (
 static_cast
 <
-uint8
+uint8_t
 >
 (
 cases
@@ -9993,7 +9993,7 @@ push_back
 (
 static_cast
 <
-uint8
+uint8_t
 >
 (
 cases

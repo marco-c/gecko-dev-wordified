@@ -208,7 +208,7 @@ important
 /
 }
 const
-uint8
+uint8_t
 tbs_certificate
 [
 1017
@@ -1284,7 +1284,7 @@ OPTIONAL
 /
 /
 const
-uint8
+uint8_t
 signature_algorithm
 [
 15
@@ -1366,7 +1366,7 @@ byte
 order
 .
 const
-uint8
+uint8_t
 signature
 [
 256
@@ -1665,7 +1665,7 @@ BIT
 STRING
 }
 const
-uint8
+uint8_t
 public_key_info
 [
 294
@@ -2266,7 +2266,7 @@ with
 incorrect
 data
 .
-uint8
+uint8_t
 bad_tbs_certificate
 [
 sizeof
@@ -2422,7 +2422,7 @@ a
 bad
 signature
 .
-uint8
+uint8_t
 bad_signature
 [
 sizeof

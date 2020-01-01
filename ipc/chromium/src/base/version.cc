@@ -191,7 +191,7 @@ std
 :
 vector
 <
-uint16
+uint16_t
 >
 other_components
 =
@@ -558,7 +558,7 @@ return
 false
 ;
 const
-uint16
+uint16_t
 max
 =
 0xFFFF
@@ -598,12 +598,12 @@ i
 return
 false
 ;
-uint16
+uint16_t
 component
 =
 static_cast
 <
-uint16
+uint16_t
 >
 (
 num

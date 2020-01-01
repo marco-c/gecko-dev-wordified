@@ -2943,7 +2943,7 @@ ContentParent
 :
 OnChannelConnected
 (
-int32
+int32_t
 pid
 )
 {

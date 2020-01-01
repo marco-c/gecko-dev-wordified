@@ -116,7 +116,7 @@ bitmap
 in
 pixels
 .
-uint32
+uint32_t
 fWidth
 ;
 /
@@ -129,7 +129,7 @@ bitmap
 in
 pixels
 .
-uint32
+uint32_t
 fHeight
 ;
 /
@@ -145,7 +145,7 @@ of
 the
 bitmap
 .
-uint32
+uint32_t
 fRowBytes
 ;
 void

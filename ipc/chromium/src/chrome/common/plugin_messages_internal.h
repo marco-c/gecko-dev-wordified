@@ -162,7 +162,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 /
 *
@@ -423,7 +423,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 /
 *
@@ -470,7 +470,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 /
 *
@@ -483,7 +483,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 /
 *
@@ -515,7 +515,7 @@ but
 is
 passed
 as
-int32
+int32_t
 to
 avoid
 compilation
@@ -524,7 +524,7 @@ errors
 IPC_SYNC_MESSAGE_CONTROL2_1
 (
 PluginProcessHostMsg_GetCookies
-int32
+int32_t
 /
 *
 request_context
@@ -1796,7 +1796,7 @@ status
 IPC_SYNC_MESSAGE_ROUTED0_1
 (
 PluginHostMsg_GetCPBrowsingContext
-uint32
+uint32_t
 /
 *
 context

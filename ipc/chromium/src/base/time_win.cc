@@ -568,7 +568,7 @@ UTC
 )
 .
 "
-int64
+int64_t
 FileTimeToMicroseconds
 (
 const
@@ -613,7 +613,7 @@ machines
 return
 bit_cast
 <
-int64
+int64_t
 FILETIME
 >
 (
@@ -626,7 +626,7 @@ ft
 void
 MicrosecondsToFileTime
 (
-int64
+int64_t
 us
 FILETIME
 *
@@ -695,7 +695,7 @@ ft
 bit_cast
 <
 FILETIME
-int64
+int64_t
 >
 (
 us
@@ -704,7 +704,7 @@ us
 )
 ;
 }
-int64
+int64_t
 CurrentWallclockMicroseconds
 (
 )
@@ -755,7 +755,7 @@ Time
 :
 kMillisecondsPerSecond
 ;
-int64
+int64_t
 initial_time
 =
 0
@@ -944,7 +944,7 @@ and
 /
 static
 const
-int64
+int64_t
 Time
 :
 :
@@ -2523,7 +2523,7 @@ IsUsingHighResClock
 )
 )
 {
-int64
+int64_t
 now
 =
 UnreliableNow
@@ -2683,7 +2683,7 @@ in
 a
 reliable
 fashion
-int64
+int64_t
 UnreliableNow
 (
 )
@@ -2700,7 +2700,7 @@ now
 return
 static_cast
 <
-int64
+int64_t
 >
 (
 now
@@ -2724,7 +2724,7 @@ in
 a
 reliable
 fashion
-int64
+int64_t
 ReliableNow
 (
 )
@@ -2796,7 +2796,7 @@ we
 re
 broken
 .
-int64
+int64_t
 skew_
 ;
 /

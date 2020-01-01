@@ -576,7 +576,7 @@ Context
 :
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {

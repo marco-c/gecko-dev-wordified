@@ -347,7 +347,7 @@ defined
 WCHAR_T_IS_UTF32
 )
 typedef
-uint32
+uint32_t
 Unsigned
 ;
 #
@@ -1107,7 +1107,7 @@ string
 string_type
 ;
 typedef
-int64
+int64_t
 value_type
 ;
 static
@@ -1208,7 +1208,7 @@ string16
 string_type
 ;
 typedef
-int64
+int64_t
 value_type
 ;
 static
@@ -4921,7 +4921,7 @@ wchar_t
 DataUnits
 GetByteDisplayUnits
 (
-int64
+int64_t
 bytes
 )
 {
@@ -4973,7 +4973,7 @@ enum
 .
 static
 const
-int64
+int64_t
 kUnitThresholds
 [
 ]
@@ -5172,7 +5172,7 @@ std
 wstring
 FormatBytesInternal
 (
-int64
+int64_t
 bytes
 DataUnits
 units
@@ -5338,7 +5338,7 @@ lld
 "
 static_cast
 <
-int64
+int64_t
 >
 (
 unit_amount
@@ -5408,7 +5408,7 @@ std
 wstring
 FormatBytes
 (
-int64
+int64_t
 bytes
 DataUnits
 units
@@ -5432,7 +5432,7 @@ std
 wstring
 FormatSpeed
 (
-int64
+int64_t
 bytes
 DataUnits
 units
@@ -7047,7 +7047,7 @@ std
 string
 Int64ToString
 (
-int64
+int64_t
 value
 )
 {
@@ -7058,8 +7058,8 @@ std
 :
 :
 string
-int64
-uint64
+int64_t
+uint64_t
 true
 >
 :
@@ -7076,7 +7076,7 @@ std
 wstring
 Int64ToWString
 (
-int64
+int64_t
 value
 )
 {
@@ -7087,8 +7087,8 @@ std
 :
 :
 wstring
-int64
-uint64
+int64_t
+uint64_t
 true
 >
 :
@@ -7105,7 +7105,7 @@ std
 string
 Uint64ToString
 (
-uint64
+uint64_t
 value
 )
 {
@@ -7116,8 +7116,8 @@ std
 :
 :
 string
-uint64
-uint64
+uint64_t
+uint64_t
 false
 >
 :
@@ -7134,7 +7134,7 @@ std
 wstring
 Uint64ToWString
 (
-uint64
+uint64_t
 value
 )
 {
@@ -7145,8 +7145,8 @@ std
 :
 :
 wstring
-uint64
-uint64
+uint64_t
+uint64_t
 false
 >
 :
@@ -9746,7 +9746,7 @@ std
 string
 &
 input
-int64
+int64_t
 *
 output
 )
@@ -9769,7 +9769,7 @@ const
 string16
 &
 input
-int64
+int64_t
 *
 output
 )
@@ -10028,7 +10028,7 @@ HexDigitToIntT
 const
 CHAR
 digit
-uint8
+uint8_t
 *
 val
 )
@@ -10142,7 +10142,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 *
 output
@@ -10208,7 +10208,7 @@ count
 i
 )
 {
-uint8
+uint8_t
 msb
 =
 0
@@ -10219,7 +10219,7 @@ most
 significant
 4
 bits
-uint8
+uint8_t
 lsb
 =
 0
@@ -10303,7 +10303,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 *
 output
@@ -10329,7 +10329,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 *
 output
@@ -10392,7 +10392,7 @@ return
 result
 ;
 }
-int64
+int64_t
 StringToInt64
 (
 const
@@ -10404,7 +10404,7 @@ string
 value
 )
 {
-int64
+int64_t
 result
 ;
 StringToInt64
@@ -10418,7 +10418,7 @@ return
 result
 ;
 }
-int64
+int64_t
 StringToInt64
 (
 const
@@ -10427,7 +10427,7 @@ string16
 value
 )
 {
-int64
+int64_t
 result
 ;
 StringToInt64

@@ -1418,7 +1418,7 @@ const
 FilePath
 &
 file_path
-int64
+int64_t
 *
 file_size
 )
@@ -2680,7 +2680,7 @@ std
 wstring
 &
 file_path
-int64
+int64_t
 *
 file_size
 )

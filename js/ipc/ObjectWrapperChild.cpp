@@ -211,7 +211,7 @@ const
 mContext
 ;
 const
-uint32
+uint32_t
 mSavedOptions
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER

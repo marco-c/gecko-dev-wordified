@@ -528,7 +528,7 @@ HandleAndSequenceNum
 (
 HANDLE
 h
-uint32
+uint32_t
 seq_num
 )
 :
@@ -594,7 +594,7 @@ sequence_num
 HANDLE
 handle
 ;
-uint32
+uint32_t
 sequence_num
 ;
 }
@@ -717,7 +717,7 @@ Create
 (
 size_t
 size
-uint32
+uint32_t
 sequence_num
 )
 ;
@@ -954,7 +954,7 @@ base
 SharedMemory
 shared_memory_
 ;
-uint32
+uint32_t
 sequence_num_
 ;
 #

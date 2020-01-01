@@ -361,7 +361,7 @@ defined
 WCHAR_T_IS_UTF32
 )
 typedef
-uint16
+uint16_t
 char16
 ;
 namespace

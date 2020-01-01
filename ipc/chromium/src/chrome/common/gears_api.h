@@ -664,7 +664,7 @@ array
 of
 installed
 shortcuts
-uint32
+uint32_t
 num_shortcuts
 ;
 /

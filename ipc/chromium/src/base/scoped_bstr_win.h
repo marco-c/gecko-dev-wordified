@@ -458,7 +458,7 @@ caller
 void
 SetByteLen
 (
-uint32
+uint32_t
 bytes
 )
 ;
@@ -543,7 +543,7 @@ in
 the
 BSTR
 .
-uint32
+uint32_t
 Length
 (
 )
@@ -561,7 +561,7 @@ for
 the
 BSTR
 .
-uint32
+uint32_t
 ByteLength
 (
 )
@@ -672,7 +672,7 @@ macros
 .
 template
 <
-uint32
+uint32_t
 string_bytes
 >
 class
@@ -764,7 +764,7 @@ UINT
 but
 we
 prefer
-uint32
+uint32_t
 .
 /
 /
@@ -788,7 +788,7 @@ COMPILE_ASSERT
 (
 sizeof
 (
-uint32
+uint32_t
 )
 =
 =
@@ -930,7 +930,7 @@ protected
 struct
 BstrInternal
 {
-uint32
+uint32_t
 len_
 ;
 wchar_t

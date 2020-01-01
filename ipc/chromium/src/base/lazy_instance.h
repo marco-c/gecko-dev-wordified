@@ -855,7 +855,7 @@ instance
 }
 private
 :
-int8
+int8_t
 buf_
 [
 sizeof

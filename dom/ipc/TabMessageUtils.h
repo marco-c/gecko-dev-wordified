@@ -195,7 +195,7 @@ in
 this
 case
 typedef
-int32
+int32_t
 NativeThreadId
 ;
 #

@@ -41,7 +41,7 @@ _ipdltest
 {
 static
 const
-uint32
+uint32_t
 nactors
 =
 10
@@ -264,7 +264,7 @@ Main
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -501,7 +501,7 @@ actors
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3233,7 +3233,7 @@ Test18
 }
 for
 (
-uint32
+uint32_t
 i
 =
 0

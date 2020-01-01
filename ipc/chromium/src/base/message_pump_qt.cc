@@ -403,7 +403,7 @@ InMilliseconds
 )
 returns
 an
-int64
+int64_t
 QTimer
 only
 accepts

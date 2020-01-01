@@ -1099,7 +1099,7 @@ unit
 -
 sizeof
 (
-uint32
+uint32_t
 )
 ;
 Pickle
@@ -1119,7 +1119,7 @@ payload_size_after_header
 -
 sizeof
 (
-uint32
+uint32_t
 )
 )
 )
@@ -1189,7 +1189,7 @@ unit
 -
 sizeof
 (
-uint32
+uint32_t
 )
 )
 )
@@ -1292,7 +1292,7 @@ HeaderPadding
 )
 {
 const
-uint32
+uint32_t
 kMagic
 =
 0x12345678
@@ -1364,7 +1364,7 @@ EXPECT_EQ
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 result

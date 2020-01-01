@@ -150,7 +150,7 @@ int
 context_id
 int
 select_request_id
-int64
+int64_t
 app_cache_id
 )
 ;

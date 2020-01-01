@@ -82,7 +82,7 @@ of
 1
 or
 more
-uint16
+uint16_t
 '
 s
 separated
@@ -209,7 +209,7 @@ std
 :
 vector
 <
-uint16
+uint16_t
 >
 &
 components
@@ -245,7 +245,7 @@ std
 :
 vector
 <
-uint16
+uint16_t
 >
 components_
 ;

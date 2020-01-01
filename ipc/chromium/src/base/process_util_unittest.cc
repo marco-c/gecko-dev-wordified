@@ -1298,7 +1298,7 @@ return
 rlim_t
 is
 a
-uint64
+uint64_t
 -
 clip
 to
@@ -1338,7 +1338,7 @@ std
 :
 numeric_limits
 <
-int32
+int32_t
 >
 :
 :

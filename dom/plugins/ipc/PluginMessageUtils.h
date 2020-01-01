@@ -1518,7 +1518,7 @@ aMsg
 >
 WriteInt16
 (
-int16
+int16_t
 (
 aParam
 )
@@ -1542,7 +1542,7 @@ paramType
 aResult
 )
 {
-int16
+int16_t
 result
 ;
 if
@@ -1602,7 +1602,7 @@ L
 %
 d
 "
-int16
+int16_t
 (
 aParam
 )
@@ -1643,7 +1643,7 @@ aMsg
 >
 WriteInt16
 (
-int16
+int16_t
 (
 aParam
 )
@@ -1667,7 +1667,7 @@ paramType
 aResult
 )
 {
-int16
+int16_t
 result
 ;
 if
@@ -1727,7 +1727,7 @@ L
 %
 d
 "
-int16
+int16_t
 (
 aParam
 )
@@ -1908,7 +1908,7 @@ paramType
 aResult
 )
 {
-uint64
+uint64_t
 window
 ;
 int32_t
@@ -3691,7 +3691,7 @@ case
 3
 :
 {
-int32
+int32_t
 value
 ;
 if
@@ -4285,7 +4285,7 @@ aParam
 WriteParam
 (
 aMsg
-int32
+int32_t
 (
 aParam
 )
@@ -4309,7 +4309,7 @@ paramType
 aResult
 )
 {
-int32
+int32_t
 intval
 ;
 if

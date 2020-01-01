@@ -243,7 +243,7 @@ virtual
 void
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {
@@ -1086,7 +1086,7 @@ of
 message
 type
 (
-uint16
+uint16_t
 )
 /
 /

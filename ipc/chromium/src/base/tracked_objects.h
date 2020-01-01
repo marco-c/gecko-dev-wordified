@@ -890,7 +890,7 @@ return
 life_duration_
 ;
 }
-int64
+int64_t
 square_duration
 (
 )
@@ -980,7 +980,7 @@ all
 lifetime
 durations
 .
-int64
+int64_t
 square_duration_
 ;
 /
@@ -1315,7 +1315,7 @@ life_duration
 )
 ;
 }
-int64
+int64_t
 square_duration
 (
 )

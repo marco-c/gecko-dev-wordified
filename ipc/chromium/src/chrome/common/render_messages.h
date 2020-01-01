@@ -480,7 +480,7 @@ resultant
 ViewHostMsg_FrameNavigate
 message
 .
-int32
+int32_t
 page_id
 ;
 /
@@ -682,7 +682,7 @@ are
 loaded
 automatically
 .
-int32
+int32_t
 page_id
 ;
 /
@@ -1811,7 +1811,7 @@ the
 correct
 URLRequestContext
 .
-uint32
+uint32_t
 request_context
 ;
 /
@@ -1835,7 +1835,7 @@ into
 or
 kNoAppCacheContextId
 .
-int32
+int32_t
 app_cache_context_id
 ;
 /
@@ -7853,7 +7853,7 @@ TYPE_FILE
 FilePath
 file_path
 ;
-uint64
+uint64_t
 offset
 length
 ;

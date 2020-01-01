@@ -391,7 +391,7 @@ virtual
 void
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {
@@ -688,7 +688,7 @@ listeners
 void
 DispatchOnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 ;
@@ -1040,7 +1040,7 @@ virtual
 void
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 MOZ_OVERRIDE
@@ -1482,7 +1482,7 @@ virtual
 bool
 OnSpecialMessage
 (
-uint16
+uint16_t
 id
 const
 Message

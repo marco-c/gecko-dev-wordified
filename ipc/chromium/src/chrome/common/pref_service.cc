@@ -3345,7 +3345,7 @@ const
 wchar_t
 *
 path
-int64
+int64_t
 value
 )
 {
@@ -3471,7 +3471,7 @@ get
 )
 ;
 }
-int64
+int64_t
 PrefService
 :
 :
@@ -3604,7 +3604,7 @@ const
 wchar_t
 *
 path
-int64
+int64_t
 default_value
 )
 {

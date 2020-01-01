@@ -472,7 +472,7 @@ the
 URL
 .
 typedef
-uint64
+uint64_t
 Fingerprint
 ;
 /
@@ -484,7 +484,7 @@ of
 a
 fingerprint
 typedef
-int32
+int32_t
 Hash
 ;
 /
@@ -658,7 +658,7 @@ usage
 void
 GetUsageStatistics
 (
-int32
+int32_t
 *
 table_size
 VisitedLinkCommon
@@ -718,7 +718,7 @@ see
 goes
 into
 table_length_
-uint32
+uint32_t
 length
 ;
 /
@@ -726,7 +726,7 @@ length
 goes
 into
 salt_
-uint8
+uint8_t
 salt
 [
 LINK_SALT_LENGTH
@@ -771,7 +771,7 @@ issues
 Fingerprint
 FingerprintAt
 (
-int32
+int32_t
 table_offset
 )
 const
@@ -865,7 +865,7 @@ canonical_url
 size_t
 url_len
 const
-uint8
+uint8_t
 salt
 [
 LINK_SALT_LENGTH
@@ -900,7 +900,7 @@ HashFingerprint
 (
 Fingerprint
 fingerprint
-int32
+int32_t
 table_length
 )
 {
@@ -973,7 +973,7 @@ in
 the
 hash
 table
-int32
+int32_t
 table_length_
 ;
 /
@@ -987,7 +987,7 @@ when
 computing
 the
 fingerprint
-uint8
+uint8_t
 salt_
 [
 LINK_SALT_LENGTH

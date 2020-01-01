@@ -346,19 +346,19 @@ bool
 VerifyInit
 (
 const
-uint8
+uint8_t
 *
 signature_algorithm
 int
 signature_algorithm_len
 const
-uint8
+uint8_t
 *
 signature
 int
 signature_len
 const
-uint8
+uint8_t
 *
 public_key_info
 int
@@ -382,7 +382,7 @@ void
 VerifyUpdate
 (
 const
-uint8
+uint8_t
 *
 data_part
 int
@@ -449,7 +449,7 @@ bool
 Verify
 (
 const
-uint8
+uint8_t
 *
 data
 /
@@ -459,7 +459,7 @@ data_len
 /
 /
 const
-uint8
+uint8_t
 *
 signature_algorithm
 /
@@ -469,7 +469,7 @@ signature_algorithm_len
 /
 /
 const
-uint8
+uint8_t
 *
 signature
 /
@@ -479,7 +479,7 @@ signature_len
 /
 /
 const
-uint8
+uint8_t
 *
 public_key_info
 /
@@ -500,7 +500,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 signature_
 ;
@@ -525,7 +525,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 public_key_info_
 ;

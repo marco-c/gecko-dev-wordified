@@ -207,7 +207,7 @@ msync
 (
 const_cast
 <
-uint8
+uint8_t
 *
 >
 (

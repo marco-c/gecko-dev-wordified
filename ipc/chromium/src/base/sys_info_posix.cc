@@ -268,7 +268,7 @@ res
 /
 /
 static
-int64
+int64_t
 SysInfo
 :
 :
@@ -351,7 +351,7 @@ return
 return
 static_cast
 <
-int64
+int64_t
 >
 (
 hostinfo
@@ -474,7 +474,7 @@ return
 return
 static_cast
 <
-int64
+int64_t
 >
 (
 pages
@@ -488,7 +488,7 @@ endif
 /
 /
 static
-int64
+int64_t
 SysInfo
 :
 :
@@ -538,7 +538,7 @@ return
 return
 static_cast
 <
-int64
+int64_t
 >
 (
 stats

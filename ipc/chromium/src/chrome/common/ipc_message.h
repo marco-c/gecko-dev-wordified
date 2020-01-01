@@ -206,7 +206,7 @@ Pickle
 public
 :
 typedef
-uint32
+uint32_t
 msgid_t
 ;
 /
@@ -347,7 +347,7 @@ ID
 .
 Message
 (
-int32
+int32_t
 routing_id
 msgid_t
 type
@@ -835,7 +835,7 @@ header
 type
 ;
 }
-int32
+int32_t
 routing_id
 (
 )
@@ -853,7 +853,7 @@ routing
 void
 set_routing_id
 (
-int32
+int32_t
 new_id
 )
 {
@@ -867,7 +867,7 @@ routing
 new_id
 ;
 }
-uint32
+uint32_t
 rpc_remote_stack_depth_guess
 (
 )
@@ -885,7 +885,7 @@ rpc_remote_stack_depth_guess
 void
 set_rpc_remote_stack_depth_guess
 (
-uint32
+uint32_t
 depth
 )
 {
@@ -906,7 +906,7 @@ rpc_remote_stack_depth_guess
 depth
 ;
 }
-uint32
+uint32_t
 rpc_local_stack_depth
 (
 )
@@ -924,7 +924,7 @@ rpc_local_stack_depth
 void
 set_rpc_local_stack_depth
 (
-uint32
+uint32_t
 depth
 )
 {
@@ -945,7 +945,7 @@ rpc_local_stack_depth
 depth
 ;
 }
-int32
+int32_t
 seqno
 (
 )
@@ -963,7 +963,7 @@ seqno
 void
 set_seqno
 (
-int32
+int32_t
 seqno
 )
 {
@@ -1431,11 +1431,11 @@ added
 void
 set_sent_time
 (
-int64
+int64_t
 time
 )
 ;
-int64
+int64_t
 sent_time
 (
 )
@@ -1444,12 +1444,12 @@ const
 void
 set_received_time
 (
-int64
+int64_t
 time
 )
 const
 ;
-int64
+int64_t
 received_time
 (
 )
@@ -1714,7 +1714,7 @@ Pickle
 :
 Header
 {
-int32
+int32_t
 routing
 ;
 /
@@ -1741,7 +1741,7 @@ user
 defined
 message
 type
-uint32
+uint32_t
 flags
 ;
 /
@@ -1758,7 +1758,7 @@ defined
 (
 OS_POSIX
 )
-uint32
+uint32_t
 num_fds
 ;
 /
@@ -1793,7 +1793,7 @@ stack
 depth
 is
 .
-uint32
+uint32_t
 rpc_remote_stack_depth_guess
 ;
 /
@@ -1804,14 +1804,14 @@ local
 stack
 depth
 .
-uint32
+uint32_t
 rpc_local_stack_depth
 ;
 /
 /
 Sequence
 number
-int32
+int32_t
 seqno
 ;
 }
@@ -1958,7 +1958,7 @@ for
 logging
 .
 mutable
-int64
+int64_t
 received_time_
 ;
 mutable

@@ -171,7 +171,7 @@ was
 BUG
 984408
 .
-uint32
+uint32_t
 v1
 =
 kuint32max
@@ -259,7 +259,7 @@ was
 BUG
 984408
 .
-uint32
+uint32_t
 v1
 =
 kuint32max
@@ -666,7 +666,7 @@ std
 :
 vector
 <
-int64
+int64_t
 >
 vec
 ;
@@ -801,7 +801,7 @@ std
 :
 vector
 <
-int64
+int64_t
 >
 vec
 ;

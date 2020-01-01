@@ -3226,7 +3226,7 @@ in
 DataUnits
 GetByteDisplayUnits
 (
-int64
+int64_t
 bytes
 )
 ;
@@ -3301,7 +3301,7 @@ std
 wstring
 FormatBytes
 (
-int64
+int64_t
 bytes
 DataUnits
 units
@@ -3366,7 +3366,7 @@ std
 wstring
 FormatSpeed
 (
-int64
+int64_t
 bytes
 DataUnits
 units
@@ -3409,7 +3409,7 @@ std
 wstring
 FormatNumber
 (
-int64
+int64_t
 number
 )
 ;
@@ -3685,7 +3685,7 @@ std
 string
 Int64ToString
 (
-int64
+int64_t
 value
 )
 ;
@@ -3695,7 +3695,7 @@ std
 wstring
 Int64ToWString
 (
-int64
+int64_t
 value
 )
 ;
@@ -3705,7 +3705,7 @@ std
 string
 Uint64ToString
 (
-uint64
+uint64_t
 value
 )
 ;
@@ -3715,7 +3715,7 @@ std
 wstring
 Uint64ToWString
 (
-uint64
+uint64_t
 value
 )
 ;
@@ -3955,7 +3955,7 @@ std
 string
 &
 input
-int64
+int64_t
 *
 output
 )
@@ -3967,7 +3967,7 @@ const
 string16
 &
 input
-int64
+int64_t
 *
 output
 )
@@ -4081,7 +4081,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 *
 output
@@ -4099,7 +4099,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 *
 output
@@ -4292,7 +4292,7 @@ string16
 value
 )
 ;
-int64
+int64_t
 StringToInt64
 (
 const
@@ -4304,7 +4304,7 @@ string
 value
 )
 ;
-int64
+int64_t
 StringToInt64
 (
 const

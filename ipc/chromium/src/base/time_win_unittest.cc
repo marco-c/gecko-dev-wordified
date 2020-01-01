@@ -207,12 +207,12 @@ void
 param
 )
 {
-int64
+int64_t
 counter
 =
 reinterpret_cast
 <
-int64
+int64_t
 >
 (
 param
@@ -269,7 +269,7 @@ Now
 (
 )
 ;
-int64
+int64_t
 milliseconds
 =
 (
@@ -427,7 +427,7 @@ kThreads
 /
 /
 Use
-int64
+int64_t
 so
 we
 can
@@ -442,7 +442,7 @@ compiler
 warning
 .
 const
-int64
+int64_t
 kChecks
 =
 10
@@ -689,7 +689,7 @@ saw_submillisecond_timer
 =
 false
 ;
-int64
+int64_t
 min_timer
 =
 1000

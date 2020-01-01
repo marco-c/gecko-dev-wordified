@@ -2698,7 +2698,7 @@ AsyncChannel
 :
 OnSpecialMessage
 (
-uint16
+uint16_t
 id
 const
 Message
@@ -3486,7 +3486,7 @@ AsyncChannel
 :
 DispatchOnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {
@@ -3830,7 +3830,7 @@ ProcessLink
 :
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {

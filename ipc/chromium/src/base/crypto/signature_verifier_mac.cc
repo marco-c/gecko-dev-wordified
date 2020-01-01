@@ -140,7 +140,7 @@ void
 *
 AppCalloc
 (
-uint32
+uint32_t
 num
 CSSM_SIZE
 size
@@ -280,19 +280,19 @@ SignatureVerifier
 VerifyInit
 (
 const
-uint8
+uint8_t
 *
 signature_algorithm
 int
 signature_algorithm_len
 const
-uint8
+uint8_t
 *
 signature
 int
 signature_len
 const
-uint8
+uint8_t
 *
 public_key_info
 int
@@ -352,7 +352,7 @@ Data
 =
 const_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -556,7 +556,7 @@ SignatureVerifier
 VerifyUpdate
 (
 const
-uint8
+uint8_t
 *
 data_part
 int
@@ -572,7 +572,7 @@ Data
 =
 const_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -622,7 +622,7 @@ Data
 =
 const_cast
 <
-uint8
+uint8_t
 *
 >
 (

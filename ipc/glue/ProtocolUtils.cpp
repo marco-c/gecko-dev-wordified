@@ -227,7 +227,7 @@ WriteParam
 this
 static_cast
 <
-uint32
+uint32_t
 >
 (
 aProtocol
@@ -305,7 +305,7 @@ aMsg
 iter
 reinterpret_cast
 <
-uint32
+uint32_t
 *
 >
 (

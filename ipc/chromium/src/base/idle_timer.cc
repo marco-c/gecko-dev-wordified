@@ -225,7 +225,7 @@ OS_WIN
 bool
 OSIdleTimeSource
 (
-int32
+int32_t
 *
 milliseconds_interval_since_last_event
 )
@@ -258,7 +258,7 @@ return
 false
 ;
 }
-int32
+int32_t
 last_input_time
 =
 lastInputInfo
@@ -284,14 +284,14 @@ over
 ~
 49days
 .
-int32
+int32_t
 current_time
 =
 GetTickCount
 (
 )
 ;
-int32
+int32_t
 delta
 =
 current_time
@@ -344,7 +344,7 @@ OS_MACOSX
 bool
 OSIdleTimeSource
 (
-int32
+int32_t
 *
 milliseconds_interval_since_last_event
 )
@@ -447,7 +447,7 @@ ThreadLocalPointer
 ;
 }
 }
-int32
+int32_t
 IdleTime
 (
 )
@@ -516,7 +516,7 @@ IdleState
 bool
 OSIdleTimeSource
 (
-int32
+int32_t
 *
 milliseconds_interval_since_last_event
 )
@@ -544,7 +544,7 @@ Pointer
 (
 )
 ;
-int32
+int32_t
 idle_time
 =
 state
@@ -800,7 +800,7 @@ CurrentIdleTime
 (
 )
 {
-int32
+int32_t
 interval
 =
 0

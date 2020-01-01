@@ -1086,7 +1086,7 @@ static
 bool
 ValidType
 (
-int32
+int32_t
 type
 )
 {
@@ -1123,7 +1123,7 @@ static
 Type
 FromInt
 (
-int32
+int32_t
 type
 )
 {
@@ -1217,7 +1217,7 @@ Type
 type
 )
 {
-int32
+int32_t
 t
 =
 StripQualifier
@@ -1305,7 +1305,7 @@ Return
 the
 qualifier
 static
-int32
+int32_t
 GetQualifier
 (
 Type

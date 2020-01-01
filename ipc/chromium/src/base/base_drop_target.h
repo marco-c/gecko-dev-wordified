@@ -572,7 +572,7 @@ drag
 identity
 .
 static
-int32
+int32_t
 GetDragIdentity
 (
 )
@@ -837,7 +837,7 @@ to
 gears
 so
 use
-int32
+int32_t
 instead
 /
 /
@@ -846,7 +846,7 @@ int
 here
 .
 static
-int32
+int32_t
 drag_identity_
 ;
 /

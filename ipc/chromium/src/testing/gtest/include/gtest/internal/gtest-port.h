@@ -6424,8 +6424,8 @@ cannot
 use
 /
 /
-uint32
-uint64
+uint32_t
+uint64_t
 and
 etc
 here

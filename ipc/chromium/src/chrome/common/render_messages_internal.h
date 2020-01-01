@@ -376,7 +376,7 @@ value
 IPC_MESSAGE_CONTROL1
 (
 ViewMsg_SetNextPageID
-int32
+int32_t
 /
 *
 next_page_id
@@ -448,7 +448,7 @@ event
 *
 /
 WebPreferences
-int32
+int32_t
 /
 *
 view
@@ -1416,13 +1416,13 @@ int
 request_id
 *
 /
-int64
+int64_t
 /
 *
 position
 *
 /
-int64
+int64_t
 /
 *
 size
@@ -1448,13 +1448,13 @@ int
 request_id
 *
 /
-int64
+int64_t
 /
 *
 position
 *
 /
-int64
+int64_t
 /
 *
 size
@@ -3235,7 +3235,7 @@ ViewHostMsg_DidGetApplicationInfo
 IPC_MESSAGE_ROUTED1
 (
 ViewMsg_GetApplicationInfo
-int32
+int32_t
 /
 *
 page_id
@@ -3679,7 +3679,7 @@ int
 select_request_id
 *
 /
-int64
+int64_t
 /
 *
 cache_id
@@ -3703,7 +3703,7 @@ suggestions
 IPC_MESSAGE_ROUTED4
 (
 ViewMsg_AutofillSuggestions
-int64
+int64_t
 /
 *
 id
@@ -5002,7 +5002,7 @@ entries
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_UpdateState
-int32
+int32_t
 /
 *
 page_id
@@ -5061,7 +5061,7 @@ size
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_UpdateTitle
-int32
+int32_t
 std
 :
 :
@@ -5141,7 +5141,7 @@ link
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_UpdateTargetURL
-int32
+int32_t
 GURL
 )
 /
@@ -6025,7 +6025,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 /
 *
@@ -6080,7 +6080,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 /
 *
@@ -6093,7 +6093,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 /
 *
@@ -6320,7 +6320,7 @@ IPC_MESSAGE_CONTROL3
 (
 ViewHostMsg_PageContents
 GURL
-int32
+int32_t
 std
 :
 :
@@ -6392,7 +6392,7 @@ determined
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_UpdateFavIconURL
-int32
+int32_t
 /
 *
 page_id
@@ -7407,7 +7407,7 @@ it
 IPC_MESSAGE_ROUTED3
 (
 ViewHostMsg_PageHasOSDD
-int32
+int32_t
 /
 *
 page_id
@@ -8085,7 +8085,7 @@ wstring
 msg
 *
 /
-int32
+int32_t
 /
 *
 line
@@ -8576,7 +8576,7 @@ data
 buffer
 *
 /
-int32
+int32_t
 /
 *
 complete
@@ -8627,7 +8627,7 @@ json_retval
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_DidGetApplicationInfo
-int32
+int32_t
 /
 *
 page_id
@@ -8860,7 +8860,7 @@ message
 IPC_SYNC_MESSAGE_CONTROL0_1
 (
 ViewHostMsg_GetCPBrowsingContext
-uint32
+uint32_t
 /
 *
 context
@@ -9330,7 +9330,7 @@ GURL
 document_url
 *
 /
-int64
+int64_t
 /
 *
 cache_document_was_loaded_from
@@ -9435,7 +9435,7 @@ entered
 text
 *
 /
-int64
+int64_t
 /
 *
 id

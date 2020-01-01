@@ -1276,11 +1276,11 @@ const
 wchar_t
 *
 path
-int64
+int64_t
 value
 )
 ;
-int64
+int64_t
 GetInt64
 (
 const
@@ -1297,7 +1297,7 @@ const
 wchar_t
 *
 path
-int64
+int64_t
 default_value
 )
 ;

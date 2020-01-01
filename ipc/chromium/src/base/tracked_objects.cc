@@ -216,7 +216,7 @@ life_duration_
 =
 duration
 ;
-int64
+int64_t
 milliseconds
 =
 duration

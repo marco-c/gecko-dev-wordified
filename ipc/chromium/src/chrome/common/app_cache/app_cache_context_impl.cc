@@ -320,7 +320,7 @@ const
 GURL
 &
 document_url
-int64
+int64_t
 cache_document_was_loaded_from
 )
 {
@@ -378,7 +378,7 @@ const
 GURL
 &
 document_url
-int64
+int64_t
 cache_document_was_loaded_from
 const
 GURL
@@ -433,7 +433,7 @@ OnAppCacheSelected
 (
 int
 select_request_id
-int64
+int64_t
 app_cache_id
 )
 {

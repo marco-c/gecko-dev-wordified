@@ -128,7 +128,7 @@ MessageRouter
 :
 AddRoute
 (
-int32
+int32_t
 routing_id
 IPC
 :
@@ -156,7 +156,7 @@ MessageRouter
 :
 RemoveRoute
 (
-int32
+int32_t
 routing_id
 )
 {

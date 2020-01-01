@@ -2903,7 +2903,7 @@ RPCChannel
 :
 OnSpecialMessage
 (
-uint16
+uint16_t
 id
 const
 Message
@@ -3682,7 +3682,7 @@ size
 i
 )
 {
-int32
+int32_t
 id
 ;
 const

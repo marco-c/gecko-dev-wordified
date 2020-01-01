@@ -252,7 +252,7 @@ Time
 kMicrosecondsPerSecond
 ;
 }
-int64
+int64_t
 TimeDelta
 :
 :
@@ -294,7 +294,7 @@ Time
 kMicrosecondsPerMillisecond
 ;
 }
-int64
+int64_t
 TimeDelta
 :
 :
@@ -312,7 +312,7 @@ Time
 kMicrosecondsPerMillisecond
 ;
 }
-int64
+int64_t
 TimeDelta
 :
 :

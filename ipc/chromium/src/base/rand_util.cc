@@ -98,12 +98,12 @@ min
 max
 )
 ;
-uint64
+uint64_t
 range
 =
 static_cast
 <
-int64
+int64_t
 >
 (
 max
@@ -113,7 +113,7 @@ min
 +
 1
 ;
-uint64
+uint64_t
 number
 =
 base
@@ -256,7 +256,7 @@ double
 :
 digits
 ;
-uint64
+uint64_t
 random_bits
 =
 base

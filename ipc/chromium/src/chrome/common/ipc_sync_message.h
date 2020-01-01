@@ -110,9 +110,9 @@ public
 :
 SyncMessage
 (
-int32
+int32_t
 routing_id
-uint16
+uint16_t
 type
 PriorityValue
 priority
@@ -528,7 +528,7 @@ WaitableEvent
 pump_messages_event_
 ;
 static
-uint32
+uint32_t
 next_id_
 ;
 /

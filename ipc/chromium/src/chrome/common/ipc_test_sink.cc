@@ -151,7 +151,7 @@ TestSink
 :
 GetFirstMessageMatching
 (
-uint16
+uint16_t
 id
 )
 const
@@ -210,7 +210,7 @@ TestSink
 :
 GetUniqueMessageMatching
 (
-uint16
+uint16_t
 id
 )
 const

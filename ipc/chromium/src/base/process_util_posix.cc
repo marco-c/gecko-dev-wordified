@@ -2304,7 +2304,7 @@ WNOHANG
 ;
 static
 const
-int64
+int64_t
 kQuarterSecondInMicroseconds
 =
 kMicrosecondsPerSecond
@@ -2380,7 +2380,7 @@ non
 -
 negative
 !
-int64
+int64_t
 sleep_time_usecs
 =
 (
@@ -2665,7 +2665,7 @@ waitpid_success
 }
 namespace
 {
-int64
+int64_t
 TimeValToMicroseconds
 (
 const
@@ -2737,7 +2737,7 @@ retval
 return
 0
 ;
-int64
+int64_t
 system_time
 =
 (
@@ -2758,7 +2758,7 @@ ru_utime
 /
 processor_count_
 ;
-int64
+int64_t
 time
 =
 TimeValToMicroseconds
@@ -2806,14 +2806,14 @@ return
 0
 ;
 }
-int64
+int64_t
 system_time_delta
 =
 system_time
 -
 last_system_time_
 ;
-int64
+int64_t
 time_delta
 =
 time

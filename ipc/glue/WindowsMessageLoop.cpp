@@ -3379,7 +3379,7 @@ InitTimeoutData
 TimeoutData
 *
 aData
-int32
+int32_t
 aTimeoutMs
 )
 {

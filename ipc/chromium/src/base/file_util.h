@@ -3245,7 +3245,7 @@ const
 FilePath
 &
 file_path
-int64
+int64_t
 *
 file_size
 )
@@ -3267,7 +3267,7 @@ std
 wstring
 &
 file_path
-int64
+int64_t
 *
 file_size
 )
@@ -3307,7 +3307,7 @@ is_directory
 is
 true
 .
-int64
+int64_t
 size
 ;
 /
@@ -4454,7 +4454,7 @@ file_name
 )
 ;
 const
-uint8
+uint8_t
 *
 data
 (
@@ -4594,7 +4594,7 @@ file_
 ;
 #
 endif
-uint8
+uint8_t
 *
 data_
 ;

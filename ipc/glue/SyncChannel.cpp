@@ -191,7 +191,7 @@ namespace
 ipc
 {
 const
-int32
+int32_t
 SyncChannel
 :
 :
@@ -501,7 +501,7 @@ type
 +
 1
 ;
-int32
+int32_t
 msgSeqno
 =
 msg
