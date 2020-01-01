@@ -1783,7 +1783,7 @@ automatically
 /
 /
 be
-NULL
+nullptr
 mCachedIndex
 (
 0
@@ -3999,7 +3999,7 @@ re
 /
 /
 returning
-NULL
+nullptr
 .
 This
 confuses
@@ -4906,7 +4906,7 @@ we
 '
 re
 returning
-NULL
+nullptr
 .
 This
 confuses

@@ -154,7 +154,7 @@ nodes
 called
 evaluatePredicates
 with
-NULL
+nullptr
 NodeSet
 "
 )

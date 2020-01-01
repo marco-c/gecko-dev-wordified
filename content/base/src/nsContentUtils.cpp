@@ -35500,7 +35500,7 @@ if
 catMan
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -35666,7 +35666,7 @@ endif
 /
 MOZ_MEDIA
 return
-NULL
+nullptr
 ;
 }
 /
@@ -36142,7 +36142,7 @@ created
 So
 setting
 a
-NULL
+nullptr
 owner
 would
 be

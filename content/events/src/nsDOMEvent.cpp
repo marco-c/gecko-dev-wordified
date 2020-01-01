@@ -416,7 +416,7 @@ pass
 a
 non
 -
-NULL
+nullptr
 aEvent
 to
 this

@@ -1516,7 +1516,7 @@ aChildCount
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t

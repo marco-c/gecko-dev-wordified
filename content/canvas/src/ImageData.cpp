@@ -234,7 +234,7 @@ mData
 {
 mData
 =
-NULL
+nullptr
 ;
 NS_DROP_JS_OBJECTS
 (

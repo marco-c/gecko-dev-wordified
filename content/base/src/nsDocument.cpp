@@ -26944,9 +26944,9 @@ protoObject
 JS_NewObject
 (
 aCx
-NULL
+nullptr
 htmlProto
-NULL
+nullptr
 )
 ;
 if
@@ -60688,7 +60688,7 @@ mStyledLinks
 .
 SizeOfExcludingThis
 (
-NULL
+nullptr
 aWindowSizes
 -
 >

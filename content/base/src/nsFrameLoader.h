@@ -1344,7 +1344,7 @@ for
 whatever
 reason
 return
-NULL
+nullptr
 .
 The
 returned

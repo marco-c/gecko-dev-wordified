@@ -1356,7 +1356,7 @@ NS_ERROR_OUT_OF_MEMORY
 /
 /
 A
-NULL
+nullptr
 entry
 -
 >
@@ -1382,7 +1382,7 @@ it
 s
 non
 -
-NULL
+nullptr
 then
 we
 have
@@ -1978,7 +1978,7 @@ PL_DHashTableSizeOfExcludingThis
 (
 &
 mObjectValueMap
-NULL
+nullptr
 aMallocSizeOf
 )
 ;

@@ -3616,10 +3616,10 @@ need
 to
 check
 for
-NULL
+nullptr
 .
 A
-NULL
+nullptr
 parameter
 simply
 means
@@ -3636,7 +3636,7 @@ do
 by
 setting
 to
-NULL
+nullptr
 anyway
 .
 /

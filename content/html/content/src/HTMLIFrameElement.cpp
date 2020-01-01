@@ -1344,7 +1344,7 @@ newFlags
 /
 If
 a
-NULL
+nullptr
 aValue
 is
 passed

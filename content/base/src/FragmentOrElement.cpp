@@ -1442,7 +1442,7 @@ isn
 t
 editable
 return
-NULL
+nullptr
 .
 NS_ENSURE_TRUE
 (
@@ -2341,7 +2341,7 @@ GetWrapperPreserveColor
 (
 )
 :
-NULL
+nullptr
 ;
 }
 static

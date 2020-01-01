@@ -1524,7 +1524,7 @@ can
 t
 dereference
 a
-NULL
+nullptr
 WebGLRefPtr
 with
 operator
@@ -1563,7 +1563,7 @@ can
 t
 dereference
 a
-NULL
+nullptr
 WebGLRefPtr
 with
 operator

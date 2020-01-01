@@ -1691,7 +1691,7 @@ bounds
 If
 this
 is
-NULL
+nullptr
 the
 drawing
 *
@@ -7218,7 +7218,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 Element
@@ -7284,7 +7284,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -7464,7 +7464,7 @@ NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -7502,7 +7502,7 @@ CairoStatus
 )
 {
 return
-NULL
+nullptr
 ;
 }
 EnsureTarget
@@ -12128,7 +12128,7 @@ Failed
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nsRefPtr
@@ -18567,7 +18567,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -18605,7 +18605,7 @@ NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -18684,7 +18684,7 @@ NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -18725,7 +18725,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -18746,7 +18746,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -18907,7 +18907,7 @@ Failed
 )
 {
 return
-NULL
+nullptr
 ;
 }
 MOZ_ASSERT
@@ -20796,7 +20796,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -20848,7 +20848,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 nsRefPtr
@@ -20925,7 +20925,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t

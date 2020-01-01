@@ -299,7 +299,7 @@ is
 not
 a
 NodeSet
-NULL
+nullptr
 is
 returned
 .

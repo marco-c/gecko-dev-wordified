@@ -547,7 +547,7 @@ result
 .
 May
 be
-NULL
+nullptr
 (
 e
 .

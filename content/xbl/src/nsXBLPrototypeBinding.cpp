@@ -5681,7 +5681,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -6347,7 +6347,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 nsAutoString
@@ -6980,7 +6980,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 /

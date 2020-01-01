@@ -407,7 +407,7 @@ ClearScriptContext
 {
 mScriptContext
 =
-NULL
+nullptr
 ;
 }
 virtual
@@ -939,10 +939,10 @@ nsXBLDocGlobalObject_resolve
 JS_ConvertStub
 nsXBLDocGlobalObject_finalize
 nsXBLDocGlobalObject_checkAccess
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 /
@@ -1447,7 +1447,7 @@ this
 context
 with
 a
-NULL
+nullptr
 global
 so
 we
@@ -1951,7 +1951,7 @@ finalized
 ;
 mJSObject
 =
-NULL
+nullptr
 ;
 }
 void
@@ -2127,7 +2127,7 @@ if
 document
 )
 return
-NULL
+nullptr
 ;
 return
 document
@@ -2853,7 +2853,7 @@ if
 mBindingTable
 )
 return
-NULL
+nullptr
 ;
 if
 (

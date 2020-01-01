@@ -4914,7 +4914,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 if

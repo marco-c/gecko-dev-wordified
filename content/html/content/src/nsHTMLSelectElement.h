@@ -2967,7 +2967,7 @@ nsISelectControlFrame
 (
 MAY
 RETURN
-NULL
+nullptr
 )
 *
 return

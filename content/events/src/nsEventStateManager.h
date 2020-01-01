@@ -3273,7 +3273,7 @@ value
 This
 can
 be
-NULL
+nullptr
 if
 there
 is

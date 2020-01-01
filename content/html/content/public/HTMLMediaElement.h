@@ -2968,11 +2968,11 @@ val
 )
 mOuter
 (
-NULL
+nullptr
 )
 mWakeLock
 (
-NULL
+nullptr
 )
 {
 }

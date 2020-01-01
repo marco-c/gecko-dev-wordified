@@ -2083,7 +2083,7 @@ nsIFrame
 *
 formFrame
 =
-NULL
+nullptr
 ;
 if
 (

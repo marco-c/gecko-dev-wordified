@@ -18037,9 +18037,9 @@ false
 #
 endif
 {
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 false
 false
 }

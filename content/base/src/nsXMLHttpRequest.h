@@ -805,7 +805,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 nsRefPtr
@@ -959,7 +959,7 @@ nsIURI
 *
 aBaseURI
 =
-NULL
+nullptr
 )
 {
 MOZ_ASSERT

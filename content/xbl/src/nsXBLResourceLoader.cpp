@@ -654,7 +654,7 @@ load
 /
 /
 Passing
-NULL
+nullptr
 for
 pretty
 much
@@ -674,7 +674,7 @@ XXX
 :
 initialDocumentURI
 is
-NULL
+nullptr
 !
 nsRefPtr
 <

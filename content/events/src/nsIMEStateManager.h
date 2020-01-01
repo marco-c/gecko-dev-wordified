@@ -490,7 +490,7 @@ editor
 is
 for
 designMode
-NULL
+nullptr
 .
 static
 void
@@ -562,7 +562,7 @@ editor
 is
 for
 designMode
-NULL
+nullptr
 .
 static
 void
