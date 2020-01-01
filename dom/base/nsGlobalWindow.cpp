@@ -1830,6 +1830,13 @@ Telemetry
 h
 "
 #
+include
+"
+nsLocation
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static
