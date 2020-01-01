@@ -9148,7 +9148,7 @@ pipelines
 /
 /
 The
-defintion
+definition
 of
 connection
 pressure
@@ -9268,7 +9268,7 @@ ent
 mConnInfo
 -
 >
-UsingSSL
+UsingConnect
 (
 )
 )

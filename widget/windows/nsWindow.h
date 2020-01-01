@@ -2639,6 +2639,11 @@ UpdateTranslucentWindow
 )
 ;
 void
+ClearTranslucentWindow
+(
+)
+;
+void
 SetupTranslucentWindowMemoryBitmap
 (
 nsTransparencyMode

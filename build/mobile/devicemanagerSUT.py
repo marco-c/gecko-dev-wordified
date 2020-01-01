@@ -222,8 +222,12 @@ AGENT
 WARNING
 #
 #
+\
+?
+(
 .
 *
+)
 '
 )
   
@@ -336,6 +340,9 @@ port
 retrylimit
 =
 5
+deviceRoot
+=
+None
 )
 :
     
@@ -368,6 +375,12 @@ self
 _sock
 =
 None
+    
+self
+.
+deviceRoot
+=
+deviceRoot
     
 if
 self
@@ -422,39 +435,6 @@ agent
 :
         
 *
-if
-the
-cmd
-matches
-the
-pushRE
-then
-it
-is
-the
-first
-half
-of
-push
-          
-and
-therefore
-we
-want
-to
-wait
-until
-the
-second
-half
-before
-looking
-          
-for
-a
-response
-        
-*
 rebt
 obviously
 doesn
@@ -495,18 +475,6 @@ response
 noResponseCmds
 =
 [
-re
-.
-compile
-(
-'
-^
-push
-.
-*
-'
-)
-                      
 re
 .
 compile
@@ -900,9 +868,6 @@ outputfile
 timeout
 =
 None
-newline
-=
-True
 )
 :
     
@@ -1027,7 +992,6 @@ _doCmds
 cmdlist
 outputfile
 timeout
-newline
 )
         
 return
@@ -1132,9 +1096,6 @@ cmdlist
 timeout
 =
 None
-newline
-=
-True
 )
 :
     
@@ -1199,7 +1160,6 @@ sendCmds
 cmdlist
 outputfile
 timeout
-newline
 )
     
 outputfile
@@ -1223,7 +1183,6 @@ self
 cmdlist
 outputfile
 timeout
-newline
 )
 :
     
@@ -1395,23 +1354,28 @@ in
 cmdlist
 :
       
-if
-newline
-:
-cmd
-+
+cmdline
 =
 '
+%
+s
 \
 r
 \
 n
 '
+%
+cmd
+[
+'
+cmd
+'
+]
       
 try
 :
         
-numbytes
+sent
 =
 self
 .
@@ -1419,18 +1383,16 @@ _sock
 .
 send
 (
-cmd
+cmdline
 )
         
 if
-(
-numbytes
+sent
 !
 =
 len
 (
-cmd
-)
+cmdline
 )
 :
           
@@ -1448,6 +1410,85 @@ s
 bytes
 and
 we
+"
+                           
+"
+only
+sent
+%
+s
+"
+%
+(
+len
+(
+cmdline
+)
+sent
+)
+)
+        
+if
+cmd
+.
+get
+(
+'
+data
+'
+)
+:
+          
+sent
+=
+self
+.
+_sock
+.
+send
+(
+cmd
+[
+'
+data
+'
+]
+)
+          
+if
+sent
+!
+=
+len
+(
+cmd
+[
+'
+data
+'
+]
+)
+:
+              
+raise
+AgentError
+(
+"
+ERROR
+:
+we
+had
+%
+s
+bytes
+of
+data
+to
+send
+but
+"
+                               
+"
 only
 sent
 %
@@ -1458,9 +1499,13 @@ s
 len
 (
 cmd
+[
+'
+data
+'
+]
+sent
 )
-                                                                                
-numbytes
 )
 )
         
@@ -1476,7 +1521,7 @@ debug
 :
 print
 "
-send
+sent
 cmd
 :
 "
@@ -1484,6 +1529,11 @@ cmd
 str
 (
 cmd
+[
+'
+cmd
+'
+]
 )
       
 except
@@ -1531,6 +1581,11 @@ cmd
 str
 (
 cmd
+[
+'
+cmd
+'
+]
 )
 +
 "
@@ -1564,6 +1619,11 @@ self
 _shouldCmdCloseSocket
 (
 cmd
+[
+'
+cmd
+'
+]
 )
       
 #
@@ -1579,6 +1639,11 @@ self
 _cmdNeedsResponse
 (
 cmd
+[
+'
+cmd
+'
+]
 )
 )
 :
@@ -1714,6 +1779,11 @@ cmd
 str
 (
 cmd
+[
+'
+cmd
+'
+]
 )
 +
 "
@@ -1757,12 +1827,13 @@ with
 #
 AGENT
 -
-ERROR
+WARNING
 #
 #
 '
           
-if
+errorMatch
+=
 self
 .
 agentErrorRE
@@ -1771,6 +1842,9 @@ match
 (
 data
 )
+          
+if
+errorMatch
 :
             
 raise
@@ -1781,12 +1855,34 @@ Agent
 Error
 processing
 command
-:
+'
 %
 s
+'
+;
+err
+=
+'
+%
+s
+'
 "
 %
+                             
+(
 cmd
+[
+'
+cmd
+'
+]
+errorMatch
+.
+group
+(
+1
+)
+)
 fatal
 =
 True
@@ -2055,6 +2151,11 @@ self
 sendCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 execcwd
 %
@@ -2067,6 +2168,7 @@ s
 cwd
 cmdline
 )
+}
 ]
 outputfile
 )
@@ -2079,6 +2181,11 @@ self
 sendCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 exec
 su
@@ -2091,6 +2198,7 @@ s
 '
 %
 cmdline
+}
 ]
 outputfile
 )
@@ -2436,6 +2544,11 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 push
 '
@@ -2449,26 +2562,36 @@ str
 (
 filesize
 )
-+
-'
-\
-r
-\
-n
+                               
 '
 data
+'
+:
+data
+}
 ]
-newline
-=
-False
 )
     
 except
 AgentError
+e
 :
       
-retVal
-=
+print
+"
+error
+pushing
+file
+:
+%
+s
+"
+%
+e
+.
+msg
+      
+return
 False
     
 if
@@ -2716,11 +2839,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 mkdr
 '
 +
 name
+}
 ]
 )
       
@@ -3149,14 +3278,26 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 cd
 '
 +
 dirname
+}
+{
+'
+cmd
+'
+:
 '
 cwd
 '
+}
 ]
 )
     
@@ -3397,14 +3538,26 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 cd
 '
 +
 rootdir
+}
+{
+'
+cmd
+'
+:
 '
 ls
 '
+}
 ]
 )
     
@@ -3555,11 +3708,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 rm
 '
 +
 filename
+}
 ]
 )
     
@@ -3646,11 +3805,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 rmdr
 '
 +
 remoteDir
+}
 ]
 )
     
@@ -3703,9 +3868,15 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 ps
 '
+}
 ]
 )
     
@@ -3976,11 +4147,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 exec
 '
 +
 appname
+}
 ]
 )
     
@@ -4337,11 +4514,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 kill
 '
 +
 appname
+}
 ]
 )
     
@@ -4391,9 +4574,15 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 tmpd
 '
+}
 ]
 )
     
@@ -4447,11 +4636,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 cat
 '
 +
 remoteFile
+}
 ]
 )
     
@@ -4939,11 +5134,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 pull
 '
 +
 remoteFile
+}
 ]
 )
     
@@ -5846,11 +6047,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 isdir
 '
 +
 remotePath
+}
 ]
 )
     
@@ -6075,11 +6282,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 hash
 '
 +
 filename
+}
 ]
 )
     
@@ -6277,9 +6490,24 @@ self
 )
 :
     
-try
+if
+self
+.
+deviceRoot
 :
       
+deviceRoot
+=
+self
+.
+deviceRoot
+    
+else
+:
+      
+try
+:
+        
 data
 =
 self
@@ -6287,18 +6515,24 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 testroot
 '
+}
 ]
 )
-    
+      
 except
 :
-      
+        
 return
 None
-    
+      
 deviceRoot
 =
 data
@@ -6341,7 +6575,15 @@ None
 return
 None
     
+self
+.
+deviceRoot
+=
+deviceRoot
+    
 return
+self
+.
 deviceRoot
   
 def
@@ -6362,11 +6604,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 getapproot
 '
 +
 packageName
+}
 ]
 )
     
@@ -6546,16 +6794,28 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 cd
 '
 +
 dir
+}
+{
+'
+cmd
+'
+:
 '
 unzp
 '
 +
 filename
+}
 ]
 )
     
@@ -6695,34 +6955,34 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 push
+%
+s
+%
+s
 '
-+
-destname
-+
-'
-'
-+
-str
+%
 (
+destname
 len
 (
 data
 )
 )
-+
-'
-\
-r
-\
-n
+                        
 '
 data
+'
+:
+data
+}
 ]
-newline
-=
-False
 )
       
 except
@@ -6786,7 +7046,13 @@ self
 runCmds
 (
 [
+{
+'
 cmd
+'
+:
+cmd
+}
 ]
 )
     
@@ -7090,11 +7356,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 info
 '
 +
 d
+}
 ]
 )
       
@@ -7377,7 +7649,13 @@ self
 runCmds
 (
 [
+{
+'
 cmd
+'
+:
+cmd
+}
 ]
 )
     
@@ -7556,7 +7834,13 @@ self
 runCmds
 (
 [
+{
+'
 cmd
+'
+:
+cmd
+}
 ]
 )
     
@@ -7917,7 +8201,13 @@ self
 runCmds
 (
 [
+{
+'
 cmd
+'
+:
+cmd
+}
 ]
 )
     
@@ -8026,9 +8316,15 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 '
 clok
 '
+}
 ]
 )
     
@@ -8897,6 +9193,11 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 "
 exec
 setprop
@@ -8919,6 +9220,7 @@ s
 screentype
 width
 )
+}
 ]
 )
       
@@ -8927,6 +9229,11 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 "
 exec
 setprop
@@ -8949,6 +9256,7 @@ s
 screentype
 height
 )
+}
 ]
 )
     
@@ -8996,11 +9304,17 @@ self
 runCmds
 (
 [
+{
+'
+cmd
+'
+:
 "
 chmod
 "
 +
 remoteDir
+}
 ]
 )
     

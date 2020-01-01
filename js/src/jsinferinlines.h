@@ -10083,6 +10083,14 @@ JSContext
 cx
 )
 {
+JS
+:
+:
+MaybeCheckStackRoots
+(
+cx
+)
+;
 if
 (
 !

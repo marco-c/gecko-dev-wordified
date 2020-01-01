@@ -404,7 +404,6 @@ global
 context
 *
 /
-const
 Rooted
 <
 JSScript

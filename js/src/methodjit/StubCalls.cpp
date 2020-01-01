@@ -9830,6 +9830,15 @@ varObj
 )
 )
 ;
+RootedPropertyName
+name
+(
+f
+.
+cx
+dn
+)
+;
 if
 (
 !
@@ -9839,7 +9848,7 @@ f
 .
 cx
 varobj
-dn
+name
 attrs
 )
 )

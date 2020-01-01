@@ -6065,8 +6065,8 @@ CHROME_OPENAS_CHROME
 )
 )
 {
-bool
-openSucceeded
+*
+aWindowIsNew
 =
 BrowserElementParent
 :
@@ -6115,7 +6115,8 @@ other
 means
 .
 return
-openSucceeded
+*
+aWindowIsNew
 ?
 NS_OK
 :

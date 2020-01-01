@@ -247,6 +247,15 @@ Database
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 QUERYUPDATE_TIME
 0
@@ -440,6 +449,7 @@ nsIAutoCompleteController
 nsNavHistory
 class
 nsNavHistory
+MOZ_FINAL
 :
 public
 nsSupportsWeakReference

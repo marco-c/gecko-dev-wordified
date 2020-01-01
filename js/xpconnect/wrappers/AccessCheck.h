@@ -143,7 +143,7 @@ public
 :
 static
 bool
-isSameOrigin
+subsumes
 (
 JSCompartment
 *
@@ -219,18 +219,6 @@ cx
 JSObject
 *
 wrapper
-)
-;
-static
-bool
-documentDomainMakesSameOrigin
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
 )
 ;
 static

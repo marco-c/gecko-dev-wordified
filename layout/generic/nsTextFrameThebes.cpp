@@ -3286,6 +3286,7 @@ use
 /
 class
 FrameTextRunCache
+MOZ_FINAL
 :
 public
 nsExpirationTracker

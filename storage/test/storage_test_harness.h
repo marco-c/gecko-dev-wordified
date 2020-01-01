@@ -733,6 +733,7 @@ completionReason
 ;
 protected
 :
+virtual
 ~
 AsyncStatementSpinner
 (

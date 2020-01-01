@@ -5096,6 +5096,9 @@ bool
 construct
 CompileRequest
 request
+StackFrame
+*
+sp
 )
 ;
 inline

@@ -271,6 +271,15 @@ nsLayoutUtils
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #
@@ -757,6 +766,7 @@ gInsertSeparatorBeforeAccessKey
 }
 class
 nsAsyncAccesskeyUpdate
+MOZ_FINAL
 :
 public
 nsIReflowCallback

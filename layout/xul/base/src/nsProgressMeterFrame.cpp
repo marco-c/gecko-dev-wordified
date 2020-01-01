@@ -188,6 +188,15 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 /
@@ -261,6 +270,7 @@ nsProgressMeterFrame
 }
 class
 nsAsyncProgressMeterInit
+MOZ_FINAL
 :
 public
 nsIReflowCallback
