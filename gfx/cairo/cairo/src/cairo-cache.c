@@ -646,6 +646,7 @@ derived
 version
 *
 of
+#
 cairo_cache_entry_t
 .
 A
@@ -1129,7 +1130,7 @@ _cairo_cache_thaw
 .
 *
 *
-NOTE
+Note
 :
 Multiple
 calls
@@ -1522,6 +1523,7 @@ cache
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 an
@@ -1531,6 +1533,7 @@ successfully
 *
 removed
 .
+%
 CAIRO_INT_STATUS_CACHE_EMPTY
 if
 there
@@ -1789,6 +1792,7 @@ it
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -1898,7 +1902,7 @@ cache
 *
 *
 (
-NOTE
+Note
 :
 If
 any

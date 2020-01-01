@@ -2089,7 +2089,7 @@ slope
 .
 *
 *
-NOTE
+Note
 :
 The
 behavior
@@ -2324,7 +2324,7 @@ slope
 .
 *
 *
-NOTE
+Note
 :
 The
 behavior

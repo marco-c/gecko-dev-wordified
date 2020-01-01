@@ -351,6 +351,7 @@ backend
 :
 *
 *
+%
 CAIRO_DIRECTFB_NO_ACCEL
 (
 boolean
@@ -364,6 +365,7 @@ at
 all
 *
 *
+%
 CAIRO_DIRECTFB_ARGB_FONT
 (
 boolean

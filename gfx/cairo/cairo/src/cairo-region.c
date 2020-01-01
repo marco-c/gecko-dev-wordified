@@ -938,6 +938,7 @@ a
 region
 as
 a
+#
 cairo_rectangle_int_t
 *
 *

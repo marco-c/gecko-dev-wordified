@@ -365,7 +365,7 @@ page
 .
 *
 *
-NOTE
+Note
 :
 With
 respect
@@ -564,7 +564,8 @@ bbox
 /
 *
 A
-cairo_paginated_surface
+#
+cairo_paginated_surface_t
 provides
 a
 very
@@ -633,10 +634,13 @@ real
 surface
 using
 _cairo_surface_init
+(
+)
 and
 the
 standard
 *
+#
 cairo_surface_backend_t
 .
 Then
@@ -652,7 +656,8 @@ own
 much
 simpler
 *
-cairo_paginated_surface_backend
+#
+cairo_paginated_surface_backend_t
 .
 You
 are
@@ -664,6 +669,8 @@ result
 *
 of
 _cairo_paginated_surface_create
+(
+)
 from
 your
 public
@@ -789,6 +796,7 @@ start_page
 (
 if
 non
+%
 NULL
 )
 .
@@ -1027,8 +1035,10 @@ need
 to
 *
 return
+%
 CAIRO_STATUS_SUCCESS
 or
+%
 CAIRO_INT_STATUS_UNSUPPORTED
 to
 *
@@ -1079,7 +1089,7 @@ case
 .
 *
 *
-NOTE
+Note
 :
 The
 paginated

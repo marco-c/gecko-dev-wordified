@@ -1039,6 +1039,7 @@ this
 function
 will
 return
+%
 CAIRO_INT_STATUS_UNSUPPORTED
 .
 *

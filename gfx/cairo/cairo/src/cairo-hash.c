@@ -401,6 +401,7 @@ the
 table
 as
 a
+%
 NULL
 pointer
 .
@@ -464,6 +465,7 @@ as
 any
 non
 -
+%
 NULL
 non
 -
@@ -963,6 +965,7 @@ a
 function
 to
 return
+%
 TRUE
 if
 two
@@ -1007,6 +1010,7 @@ user
 derived
 versions
 of
+#
 cairo_hash_entry_t
 .
 A
@@ -1083,6 +1087,7 @@ new
 hash
 table
 or
+%
 NULL
 if
 out
@@ -1457,6 +1462,7 @@ key
 key_unique
 :
 If
+%
 TRUE
 then
 caller
@@ -1485,6 +1491,7 @@ If
 unsure
 set
 to
+%
 FALSE
 and
 the
@@ -1940,6 +1947,7 @@ size
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -2358,6 +2366,7 @@ _cairo_hash_table_create
 Return
 value
 :
+%
 TRUE
 if
 there
@@ -2384,6 +2393,7 @@ in
 entry_return
 )
 .
+%
 FALSE
 *
 otherwise
@@ -2395,6 +2405,7 @@ case
 entry_return
 will
 be
+%
 NULL
 )
 .
@@ -2492,6 +2503,7 @@ a
 predicate
 function
 or
+%
 NULL
 for
 any
@@ -2514,6 +2526,7 @@ given
 predicate
 .
 A
+%
 NULL
 predicate
 is
@@ -2527,6 +2540,7 @@ function
 which
 always
 returns
+%
 TRUE
 (
 eg
@@ -2611,6 +2625,7 @@ or
 predicate
 *
 returns
+%
 TRUE
 for
 most
@@ -2626,6 +2641,7 @@ random
 live
 entry
 or
+%
 NULL
 if
 there
@@ -2647,6 +2663,7 @@ is
 *
 NULL
 a
+%
 NULL
 return
 value
@@ -2936,6 +2953,7 @@ first
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -3142,6 +3160,7 @@ _cairo_hash_table_create
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful

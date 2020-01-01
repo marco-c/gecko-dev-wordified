@@ -385,7 +385,7 @@ cairo_path_op_t
 /
 *
 make
-cairo_path_fixed
+_cairo_path_fixed
 fit
 a
 512

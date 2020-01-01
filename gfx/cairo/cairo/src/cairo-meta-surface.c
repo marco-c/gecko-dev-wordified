@@ -2525,6 +2525,7 @@ will
 not
 *
 return
+%
 NULL
 but
 will
@@ -3024,6 +3025,7 @@ cairo_meta_surface_t
 Return
 value
 :
+%
 TRUE
 if
 the
@@ -4395,7 +4397,9 @@ is
 *
 one
 of
+%
 CAIRO_STATUS_SUCCESS
+%
 CAIRO_INT_STATUS_UNSUPPORTED
 or
 *

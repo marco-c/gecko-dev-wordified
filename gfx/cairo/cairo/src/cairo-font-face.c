@@ -434,6 +434,7 @@ _cairo_toy_font_face_backend
 ;
 /
 *
+#
 cairo_font_face_t
 *
 /
@@ -1458,8 +1459,10 @@ slant
 =
 >
 *
+#
 cairo_font_face_t
 for
+#
 cairo_toy_font_t
 .
 The
@@ -1473,6 +1476,7 @@ is
 to
 provide
 unique
+#
 cairo_font_face_t
 values
 so
@@ -1483,9 +1487,11 @@ cache
 and
 mapping
 from
+#
 cairo_font_face_t
 =
 >
+#
 cairo_scaled_font_t
 *
 works
@@ -1493,6 +1499,7 @@ works
 Once
 the
 corresponding
+#
 cairo_font_face_t
 objects
 fall
@@ -1610,6 +1617,7 @@ Initialize
 those
 portions
 of
+#
 cairo_toy_font_face_t
 needed
 to
@@ -1663,6 +1671,7 @@ use
 *
 an
 automatic
+#
 cairo_toy_font_face_t
 variable
 as

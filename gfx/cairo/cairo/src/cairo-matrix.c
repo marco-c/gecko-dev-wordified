@@ -482,6 +482,7 @@ cairo_matrix_init
 matrix
 :
 a
+#
 cairo_matrix_t
 *
 xx
@@ -944,6 +945,7 @@ cairo_matrix_init_translate
 matrix
 :
 a
+#
 cairo_matrix_t
 *
 tx
@@ -1029,6 +1031,7 @@ cairo_matrix_translate
 matrix
 :
 a
+#
 cairo_matrix_t
 *
 tx
@@ -1142,6 +1145,7 @@ cairo_matrix_init_scale
 matrix
 :
 a
+#
 cairo_matrix_t
 *
 sx
@@ -1335,6 +1339,7 @@ cairo_matrix_init_rotate
 matrix
 :
 a
+#
 cairo_matrix_t
 *
 radians
@@ -3235,7 +3240,7 @@ by
 .
 *
 /
-void
+cairo_status_t
 _cairo_matrix_compute_scale_factors
 (
 const
@@ -3262,12 +3267,18 @@ matrix
 det
 )
 ;
-assert
+if
 (
+!
 ISFINITE
 (
 det
 )
+)
+return
+_cairo_error
+(
+CAIRO_STATUS_INVALID_MATRIX
 )
 ;
 if
@@ -3396,6 +3407,9 @@ major
 ;
 }
 }
+return
+CAIRO_STATUS_SUCCESS
+;
 }
 cairo_bool_t
 _cairo_matrix_is_identity

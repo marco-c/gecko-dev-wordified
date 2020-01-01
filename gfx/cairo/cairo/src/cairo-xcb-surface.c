@@ -9654,7 +9654,7 @@ visual
 .
 *
 *
-NOTE
+Note
 :
 If
 drawable
@@ -9816,6 +9816,7 @@ drawn
 to
 as
 a
+%
 CAIRO_FORMAT_A1
 object
 .
@@ -9966,7 +9967,7 @@ format
 .
 *
 *
-NOTE
+Note
 :
 If
 drawable

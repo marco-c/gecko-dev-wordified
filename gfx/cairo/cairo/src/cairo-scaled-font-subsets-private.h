@@ -406,6 +406,7 @@ of
 any
 number
 of
+#
 cairo_scaled_font_t
 *
 objects
@@ -424,7 +425,8 @@ glyph
 indices
 of
 a
-cairo_scaled_font
+#
+cairo_scaled_font_t
 to
 be
 mapped
@@ -561,6 +563,7 @@ font
 subsets
 for
 each
+#
 cairo_scaled_font_t
 object
 .
@@ -724,6 +727,7 @@ subsets
 for
 *
 each
+#
 cairo_scaled_font_t
 object
 .
@@ -1208,6 +1212,7 @@ returned
 values
 in
 the
+#
 cairo_scaled_font_subsets_glyph_t
 struct
 are
@@ -1342,6 +1347,7 @@ font
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -1598,6 +1604,7 @@ function
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -1835,6 +1842,7 @@ function
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -1917,6 +1925,7 @@ glyph_names
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -1942,6 +1951,7 @@ Possible
 errors
 *
 include
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -2025,6 +2035,7 @@ of
 the
 underlying
 *
+#
 cairo_scaled_font_t
 and
 the
@@ -2061,6 +2072,7 @@ data
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -2093,6 +2105,7 @@ Possible
 *
 errors
 include
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -2205,6 +2218,7 @@ of
 the
 underlying
 *
+#
 cairo_scaled_font_t
 and
 the
@@ -2240,6 +2254,7 @@ data
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -2272,6 +2287,7 @@ Possible
 *
 errors
 include
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -2426,6 +2442,7 @@ of
 the
 underlying
 *
+#
 cairo_scaled_font_t
 and
 the
@@ -2462,6 +2479,7 @@ data
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -2494,6 +2512,7 @@ Possible
 *
 errors
 include
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -2657,6 +2676,7 @@ of
 the
 underlying
 *
+#
 cairo_scaled_font_t
 and
 the
@@ -2692,6 +2712,7 @@ data
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -2724,6 +2745,7 @@ Possible
 errors
 *
 include
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -2817,6 +2839,7 @@ cairo_scaled_font_t
 *
 *
 Return
+%
 TRUE
 if
 scaled_font
@@ -2827,6 +2850,7 @@ Type
 font
 otherwise
 return
+%
 FALSE
 .
 *
@@ -2877,6 +2901,7 @@ of
 the
 underlying
 *
+#
 cairo_scaled_font_t
 and
 the
@@ -2923,6 +2948,7 @@ encoded
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -2955,6 +2981,7 @@ Possible
 errors
 *
 include
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -3012,6 +3039,7 @@ of
 the
 underlying
 *
+#
 cairo_scaled_font_t
 and
 the
@@ -3058,6 +3086,7 @@ encoded
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -3090,6 +3119,7 @@ Possible
 errors
 *
 include
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -3226,6 +3256,7 @@ of
 the
 underlying
 *
+#
 cairo_scaled_font_t
 and
 the
@@ -3255,6 +3286,7 @@ subset
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -3287,6 +3319,7 @@ Possible
 errors
 *
 include
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -3387,6 +3420,7 @@ of
 the
 underlying
 *
+#
 cairo_scaled_font_t
 and
 the
@@ -3417,6 +3451,7 @@ to_unicode
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful

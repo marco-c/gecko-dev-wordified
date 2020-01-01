@@ -409,6 +409,7 @@ a
 value
 for
 *
+#
 cairo_cache_t
 .
 User
@@ -416,11 +417,13 @@ User
 derived
 types
 for
+#
 cairo_cache_entry_t
 must
 *
 have
 a
+#
 cairo_cache_entry_t
 as
 their
@@ -473,7 +476,8 @@ any
 of
 *
 the
-cairo_cache
+#
+cairo_cache_t
 functions
 as
 follows
@@ -735,7 +739,8 @@ A
 few
 of
 the
-cairo_cache
+#
+cairo_cache_t
 functions
 accept
 an

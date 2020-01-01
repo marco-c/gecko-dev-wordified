@@ -656,6 +656,7 @@ cairo_bo_event_queue_t
 This
 structure
 extends
+#
 cairo_skip_list_t
 which
 must
@@ -2385,7 +2386,7 @@ rule
 .
 *
 *
-NOTE
+Note
 :
 Fortunately
 we
@@ -3100,6 +3101,7 @@ integers
 *
 *
 Returns
+%
 CAIRO_BO_STATUS_INTERSECTION
 if
 there
@@ -4102,6 +4104,7 @@ integers
 *
 *
 Returns
+%
 CAIRO_BO_STATUS_INTERSECTION
 if
 there
@@ -4114,6 +4117,7 @@ is
 within
 both
 edges
+%
 CAIRO_BO_STATUS_NO_INTERSECTION
 if
 the
@@ -4135,6 +4139,7 @@ or
 both
 edges
 and
+%
 CAIRO_BO_STATUS_PARALLEL
 if
 the
@@ -6281,6 +6286,7 @@ left
 edge
 to
 the
+#
 cairo_traps_t
 *
 of

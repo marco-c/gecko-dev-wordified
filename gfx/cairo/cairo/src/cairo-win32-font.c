@@ -786,7 +786,7 @@ d
 )
 )
 static
-void
+cairo_status_t
 _compute_transform
 (
 cairo_win32_scaled_font_t
@@ -1128,6 +1128,8 @@ scaled_font
 preserve_axes
 )
 {
+status
+=
 _cairo_matrix_compute_scale_factors
 (
 &
@@ -1157,6 +1159,13 @@ vertical
 text
 *
 /
+if
+(
+status
+)
+return
+status
+;
 scaled_font
 -
 >
@@ -1243,6 +1252,9 @@ scaled_font
 >
 device_to_logical
 )
+;
+return
+CAIRO_STATUS_SUCCESS
 ;
 }
 static
@@ -1422,6 +1434,7 @@ face_hfont
 is
 non
 -
+%
 NULL
 then
 font_matrix
@@ -1873,12 +1886,21 @@ font_matrix
 ctm
 )
 ;
+status
+=
 _compute_transform
 (
 f
 &
 scale
 )
+;
+if
+(
+status
+)
+goto
+FAIL
 ;
 status
 =
@@ -4554,6 +4576,7 @@ TRUE
 ;
 }
 }
+return
 _cairo_scaled_font_set_metrics
 (
 &
@@ -4564,9 +4587,6 @@ base
 &
 extents
 )
-;
-return
-CAIRO_STATUS_SUCCESS
 ;
 }
 static
@@ -9599,6 +9619,7 @@ _cairo_win32_scaled_font_map_glyphs_to_unicode
 ;
 /
 *
+#
 cairo_win32_font_face_t
 *
 /
@@ -9614,6 +9635,7 @@ hfont
 is
 non
 -
+%
 NULL
 then
 logfont

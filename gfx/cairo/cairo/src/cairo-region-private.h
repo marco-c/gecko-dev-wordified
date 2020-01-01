@@ -394,6 +394,7 @@ h
 "
 /
 *
+#
 cairo_region_t
 is
 defined

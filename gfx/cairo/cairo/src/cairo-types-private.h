@@ -479,6 +479,7 @@ a
 value
 for
 *
+#
 cairo_hash_table_t
 .
 User
@@ -486,6 +487,7 @@ User
 derived
 types
 for
+#
 cairo_hash_entry_t
 must
 *
@@ -565,7 +567,8 @@ any
 of
 *
 the
-cairo_hash_table
+#
+cairo_hash_table_t
 functions
 as
 follows
@@ -627,6 +630,7 @@ must
 never
 *
 return
+%
 TRUE
 for
 two
@@ -657,6 +661,7 @@ for
 which
 keys_equal
 returns
+%
 FALSE
 .
 *
@@ -711,7 +716,8 @@ A
 few
 of
 the
-cairo_hash_table
+#
+cairo_hash_table_t
 functions
 accept
 an

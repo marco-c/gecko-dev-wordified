@@ -1229,7 +1229,7 @@ like
 32bpp
 .
 *
-NOTE
+Note
 :
 This
 causes
@@ -6903,7 +6903,7 @@ alpha
 source
 *
 *
-NOTE
+Note
 :
 This
 function
@@ -10085,6 +10085,7 @@ with
 this
 surface
 or
+%
 NULL
 if
 none
@@ -10092,6 +10093,7 @@ none
 *
 Also
 returns
+%
 NULL
 if
 the
@@ -10109,6 +10111,7 @@ value
 :
 HDC
 or
+%
 NULL
 if
 no
@@ -10217,6 +10220,7 @@ not
 a
 DIB
 surface
+%
 NULL
 is
 returned
@@ -10234,10 +10238,12 @@ owned
 by
 the
 win32
+#
 cairo_surface_t
 )
 *
 or
+%
 NULL
 if
 the
@@ -11005,14 +11011,6 @@ initial_clip_rgn
 0
 )
 {
-/
-*
-this
-should
-never
-happen
-*
-/
 DeleteObject
 (
 surface

@@ -525,6 +525,7 @@ backend
 *
 -
 typedef
+#
 cairo_mutex_t
 to
 the
@@ -706,6 +707,7 @@ if
 1
 )
 *
+%
 CAIRO_MUTEX_LOCK
 (
 _cairo_some_mutex
@@ -714,6 +716,7 @@ _cairo_some_mutex
 *
 else
 *
+%
 CAIRO_MUTEX_UNLOCK
 (
 _cairo_some_mutex
@@ -724,6 +727,7 @@ _cairo_some_mutex
 -
 #
 define
+%
 CAIRO_MUTEX_NIL_INITIALIZER
 to
 something
@@ -732,6 +736,7 @@ can
 *
 initialize
 the
+#
 cairo_mutex_t
 type
 you
@@ -745,6 +750,7 @@ time
 one
 of
 0
+%
 NULL
 or
 {
@@ -779,6 +785,7 @@ if
 1
 )
 *
+%
 CAIRO_MUTEX_LOCK
 (
 _cairo_some_mutex
@@ -787,6 +794,7 @@ _cairo_some_mutex
 *
 else
 *
+%
 CAIRO_MUTEX_UNLOCK
 (
 _cairo_some_mutex
@@ -853,6 +861,7 @@ CAIRO_MUTEX_NIL_INITIALIZER
 ;
 *
 *
+%
 CAIRO_MUTEX_INIT
 (
 _cairo_some_mutex
@@ -865,6 +874,7 @@ if
 1
 )
 *
+%
 CAIRO_MUTEX_LOCK
 (
 _cairo_some_mutex
@@ -873,6 +883,7 @@ _cairo_some_mutex
 *
 else
 *
+%
 CAIRO_MUTEX_UNLOCK
 (
 _cairo_some_mutex
@@ -913,6 +924,7 @@ happen
 (
 eg
 .
+%
 CAIRO_MUTEX_INIT
 is
 just
@@ -925,6 +937,7 @@ what
 cairo
 does
 using
+%
 CAIRO_MUTEX_NIL_INITIALIZER
 )
 then
@@ -1041,6 +1054,7 @@ eg
 you
 never
 call
+%
 CAIRO_MUTEX_FINALIZE
 )
 then
@@ -1073,6 +1087,7 @@ not
 enough
 to
 implement
+#
 cairo_mutex_t
 on
 your

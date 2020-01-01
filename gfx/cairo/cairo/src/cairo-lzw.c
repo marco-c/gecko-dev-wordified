@@ -491,8 +491,10 @@ will
 be
 *
 either
+%
 CAIRO_STATUS_SUCCESS
 or
+%
 CAIRO_STATUS_NO_MEMORY
 ;
 *
@@ -608,6 +610,7 @@ doubling
 *
 *
 Returns
+%
 CAIRO_STATUS_SUCCESS
 or
 CAIRO_STATUS_NO_MEMORY
@@ -757,7 +760,7 @@ buf
 .
 *
 *
-NOTE
+Note
 :
 The
 bits
@@ -806,8 +809,10 @@ buf
 status
 to
 either
+%
 CAIRO_STATUS_SUCCESS
 or
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -968,7 +973,7 @@ buffer
 .
 *
 *
-NOTE
+Note
 :
 This
 function
@@ -992,8 +997,10 @@ buf
 status
 to
 either
+%
 CAIRO_STATUS_SUCCESS
 or
+%
 CAIRO_STATUS_NO_MEMORY
 .
 *
@@ -1580,6 +1587,7 @@ then
 this
 function
 returns
+%
 TRUE
 and
 slot_ret
@@ -1611,6 +1619,7 @@ then
 this
 function
 returns
+%
 FALSE
 and
 slot_ret
@@ -2061,6 +2070,7 @@ the
 compressed
 data
 or
+%
 NULL
 if
 an

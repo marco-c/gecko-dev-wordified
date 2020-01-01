@@ -365,7 +365,8 @@ _cairo_array_init
 Initialize
 a
 new
-cairo_array
+#
+cairo_array_t
 object
 to
 store
@@ -1097,6 +1098,7 @@ example
 :
 *
 *
+#
 cairo_array_t
 array
 ;
@@ -1460,6 +1462,7 @@ array
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -1550,6 +1553,7 @@ array
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -1690,6 +1694,7 @@ _cairo_array_num_elements
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 successful
@@ -1885,6 +1890,7 @@ size
 }
 /
 *
+#
 cairo_user_data_array_t
 *
 /

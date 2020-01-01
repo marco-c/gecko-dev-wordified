@@ -5413,6 +5413,8 @@ function
 rather
 than
 cairo_beos_surface_create
+(
+)
 .
 Not
 using

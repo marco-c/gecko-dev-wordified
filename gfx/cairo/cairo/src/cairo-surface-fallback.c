@@ -464,6 +464,7 @@ fallback
 Return
 value
 :
+%
 CAIRO_INT_STATUS_NOTHING_TO_DO
 if
 the
@@ -472,6 +473,7 @@ are
 not
 *
 visible
+%
 CAIRO_STATUS_SUCCESS
 if
 some
@@ -1359,6 +1361,7 @@ status
 Handles
 compositing
 for
+%
 CAIRO_OPERATOR_SOURCE
 which
 is

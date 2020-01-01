@@ -564,6 +564,7 @@ CAIRO_MUTEX_INIT
 /
 *
 If
+%
 CAIRO_MUTEX_INIT
 is
 defined
@@ -741,6 +742,7 @@ CAIRO_MUTEX_FINI
 /
 *
 If
+%
 CAIRO_MUTEX_FINI
 is
 defined

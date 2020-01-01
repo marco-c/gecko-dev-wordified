@@ -762,6 +762,7 @@ but
 is
 set
 to
+%
 NULL
 by
 *
@@ -1217,6 +1218,7 @@ to
 be
 copied
 not
+%
 NULL
 .
 *
@@ -1250,6 +1252,7 @@ be
 set
 *
 to
+%
 NULL
 and
 may
@@ -1260,6 +1263,7 @@ the
 caller
 to
 chain
+#
 cairo_gstate_t
 *
 objects
@@ -1272,8 +1276,10 @@ value
 :
 a
 new
+#
 cairo_gstate_t
 or
+%
 NULL
 if
 there
@@ -1992,6 +1998,7 @@ cairo_gstate_t
 Return
 value
 :
+%
 TRUE
 if
 the
@@ -2006,6 +2013,7 @@ different
 than
 the
 original
+%
 FALSE
 otherwise
 .
@@ -2138,6 +2146,7 @@ gstate
 this
 will
 return
+%
 NULL
 .
 *
@@ -2258,6 +2267,7 @@ the
 gstate
 '
 s
+#
 cairo_clip_t
 structure
 .
@@ -5199,8 +5209,16 @@ cairo_gstate_t
 gstate
 )
 {
-return
 cairo_surface_copy_page
+(
+gstate
+-
+>
+target
+)
+;
+return
+cairo_surface_status
 (
 gstate
 -
@@ -5217,8 +5235,16 @@ cairo_gstate_t
 gstate
 )
 {
-return
 cairo_surface_show_page
+(
+gstate
+-
+>
+target
+)
+;
+return
+cairo_surface_status
 (
 gstate
 -
@@ -6725,6 +6751,7 @@ object
 *
 called
 a
+#
 cairo_font_scale_t
 ;
 this

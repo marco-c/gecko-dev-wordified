@@ -347,6 +347,7 @@ CAIRO_DEPRECATED_H
 /
 *
 The
+%
 CAIRO_FORMAT_RGB16_565
 value
 was

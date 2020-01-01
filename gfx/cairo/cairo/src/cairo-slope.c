@@ -699,7 +699,7 @@ b
 ?
 *
 *
-NOTE
+Note
 :
 The
 strict

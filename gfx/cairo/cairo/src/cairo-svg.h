@@ -333,6 +333,7 @@ CAIRO_BEGIN_DECLS
 *
 *
 cairo_svg_version_t
+:
 *
 CAIRO_SVG_VERSION_1_1
 :

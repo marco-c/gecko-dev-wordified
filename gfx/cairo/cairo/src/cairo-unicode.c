@@ -338,14 +338,7 @@ The
 Original
 Code
 is
-cairo_unicode
-.
-c
-as
-distributed
-with
 the
-*
 cairo
 graphics
 library

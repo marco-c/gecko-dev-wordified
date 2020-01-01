@@ -493,6 +493,12 @@ typedef
 struct
 _cairo_pdf_pattern
 {
+double
+width
+;
+double
+height
+;
 cairo_pattern_t
 *
 pattern
@@ -522,6 +528,12 @@ typedef
 struct
 _cairo_pdf_smask_group
 {
+double
+width
+;
+double
+height
+;
 cairo_pdf_resource_t
 group_res
 ;

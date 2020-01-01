@@ -293,14 +293,7 @@ The
 Original
 Code
 is
-cairo_output_stream
-.
-c
-as
-distributed
-with
 the
-*
 cairo
 graphics
 library

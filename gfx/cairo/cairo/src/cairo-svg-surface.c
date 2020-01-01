@@ -922,6 +922,8 @@ and
 should
 call
 cairo_surface_destroy
+(
+)
 when
 done
 *
@@ -1139,6 +1141,8 @@ and
 should
 call
 cairo_surface_destroy
+(
+)
 when
 done
 *
@@ -1300,6 +1304,7 @@ target
 .
 Otherwise
 return
+%
 CAIRO_STATUS_SURFACE_TYPE_MISMATCH
 .
 *
@@ -1644,6 +1649,7 @@ function
 *
 will
 return
+%
 NULL
 if
 version
@@ -5360,9 +5366,14 @@ return
 status
 ;
 }
+cairo_surface_show_page
+(
+paginated_surface
+)
+;
 status
 =
-cairo_surface_show_page
+cairo_surface_status
 (
 paginated_surface
 )
@@ -5879,6 +5890,8 @@ status
 ;
 int
 id
+=
+0
 ;
 p2u
 =

@@ -500,6 +500,7 @@ CAIRO_FIXED_FRAC_BITS
 A
 signed
 type
+%
 CAIRO_FIXED_BITS
 in
 size
@@ -525,6 +526,7 @@ the
 same
 size
 as
+#
 cairo_fixed_t
 *
 /

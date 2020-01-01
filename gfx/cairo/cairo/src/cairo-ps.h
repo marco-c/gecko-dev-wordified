@@ -377,6 +377,7 @@ functions
 *
 *
 cairo_ps_level_t
+:
 *
 CAIRO_PS_LEVEL_2
 :

@@ -1341,6 +1341,7 @@ an
 object
 containing
 a
+#
 cairo_font_options_t
 *
 in

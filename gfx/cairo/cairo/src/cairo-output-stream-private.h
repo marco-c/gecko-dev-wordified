@@ -298,14 +298,7 @@ The
 Original
 Code
 is
-cairo_output_stream
-.
-c
-as
-distributed
-with
 the
-*
 cairo
 graphics
 library
@@ -505,6 +498,7 @@ This
 function
 never
 returns
+%
 NULL
 .
 If
@@ -781,6 +775,7 @@ This
 function
 never
 returns
+%
 NULL
 .
 If
@@ -815,7 +810,7 @@ stream
 .
 *
 *
-NOTE
+Note
 :
 Even
 if
@@ -868,6 +863,7 @@ This
 function
 never
 returns
+%
 NULL
 .
 If

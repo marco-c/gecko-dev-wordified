@@ -730,6 +730,7 @@ for
 errors
 via
 the
+#
 cairo_status_t
 *
 return
@@ -1501,6 +1502,7 @@ image
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 the
@@ -1512,6 +1514,7 @@ written
 successfully
 .
 Otherwise
+%
 CAIRO_STATUS_NO_MEMORY
 if
 memory
@@ -1536,6 +1539,7 @@ have
 pixel
 contents
 or
+%
 CAIRO_STATUS_WRITE_ERROR
 if
 an
@@ -1776,6 +1780,7 @@ function
 Return
 value
 :
+%
 CAIRO_STATUS_SUCCESS
 if
 the
@@ -1787,6 +1792,7 @@ written
 successfully
 .
 Otherwise
+%
 CAIRO_STATUS_NO_MEMORY
 is
 returned
