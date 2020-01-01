@@ -1041,6 +1041,7 @@ The_Places_database
 *
 /
 private
+static
 final
 String
 kRootQuery
@@ -1054,6 +1055,7 @@ moz_bookmarks_roots
 "
 ;
 private
+static
 final
 String
 kRootName
@@ -1063,6 +1065,7 @@ root_name
 "
 ;
 private
+static
 final
 String
 kRootFolderId
@@ -1357,6 +1360,7 @@ of
 relevant
 data
 private
+static
 final
 String
 kBookmarkUrl
@@ -1366,6 +1370,7 @@ p_url
 "
 ;
 private
+static
 final
 String
 kBookmarkTitle
@@ -1375,6 +1380,7 @@ b_title
 "
 ;
 private
+static
 final
 String
 kBookmarkGuid
@@ -1384,6 +1390,7 @@ b_guid
 "
 ;
 private
+static
 final
 String
 kBookmarkId
@@ -1393,6 +1400,7 @@ b_id
 "
 ;
 private
+static
 final
 String
 kBookmarkType
@@ -1402,6 +1410,7 @@ b_type
 "
 ;
 private
+static
 final
 String
 kBookmarkParent
@@ -1411,6 +1420,7 @@ b_parent
 "
 ;
 private
+static
 final
 String
 kBookmarkAdded
@@ -1420,6 +1430,7 @@ b_added
 "
 ;
 private
+static
 final
 String
 kBookmarkModified
@@ -1429,6 +1440,7 @@ b_modified
 "
 ;
 private
+static
 final
 String
 kBookmarkPosition
@@ -1438,6 +1450,7 @@ b_position
 "
 ;
 private
+static
 final
 String
 kFaviconData
@@ -1447,6 +1460,7 @@ f_data
 "
 ;
 private
+static
 final
 String
 kFaviconMime
@@ -1456,6 +1470,7 @@ f_mime_type
 "
 ;
 private
+static
 final
 String
 kFaviconUrl
@@ -1465,6 +1480,7 @@ f_url
 "
 ;
 private
+static
 final
 String
 kFaviconGuid
@@ -1502,6 +1518,7 @@ keeping
 *
 /
 private
+static
 final
 String
 kHistoryCountQuery
@@ -1917,6 +1934,7 @@ js
 *
 /
 private
+static
 final
 String
 [
@@ -1982,6 +2000,7 @@ manager
 *
 /
 private
+static
 final
 String
 kSyncHostName
@@ -1995,6 +2014,7 @@ weave
 "
 ;
 private
+static
 final
 String
 [
