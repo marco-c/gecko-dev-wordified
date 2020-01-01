@@ -4979,8 +4979,6 @@ rt
 -
 >
 atomsCompartment
-(
-)
 -
 >
 zone
