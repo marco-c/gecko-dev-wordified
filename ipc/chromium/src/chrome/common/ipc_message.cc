@@ -255,7 +255,7 @@ Message
 (
 int32
 routing_id
-uint16
+msgid_t
 type
 PriorityValue
 priority
@@ -269,7 +269,7 @@ Message
 (
 int32
 routing_id
-uint16
+msgid_t
 type
 PriorityValue
 priority
