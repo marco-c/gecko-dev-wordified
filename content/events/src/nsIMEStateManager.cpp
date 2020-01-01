@@ -825,8 +825,10 @@ IME
 transaction
 should
 commit
+nsCOMPtr
+<
 nsIKBStateControl
-*
+>
 kb
 =
 GetKBStateControl
@@ -925,8 +927,10 @@ return
 NS_OK
 ;
 }
+nsCOMPtr
+<
 nsIKBStateControl
-*
+>
 kb
 =
 GetKBStateControl
@@ -1108,8 +1112,10 @@ if
 sPresContext
 )
 {
+nsCOMPtr
+<
 nsIKBStateControl
-*
+>
 oldKB
 ;
 if
@@ -1336,8 +1342,10 @@ for
 other
 applications
 .
+nsCOMPtr
+<
 nsIKBStateControl
-*
+>
 kb
 =
 GetKBStateControl
