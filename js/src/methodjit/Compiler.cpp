@@ -1227,6 +1227,7 @@ jumpMap
 ;
 }
 CompileStatus
+JS_NEVER_INLINE
 mjit
 :
 :
