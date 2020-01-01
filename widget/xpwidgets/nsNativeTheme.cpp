@@ -4017,7 +4017,7 @@ a
 semi
 -
 transparent
-docement
+document
 .
 This
 heuristic
