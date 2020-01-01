@@ -9190,6 +9190,15 @@ aStatus
 splitDueToPageBreak
 |
 |
+(
+NS_UNCONSTRAINEDSIZE
+!
+=
+aReflowState
+.
+availableHeight
+&
+&
 aDesiredSize
 .
 height
@@ -9197,6 +9206,7 @@ height
 aReflowState
 .
 availableHeight
+)
 )
 )
 {
