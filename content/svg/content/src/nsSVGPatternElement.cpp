@@ -577,7 +577,7 @@ nsGkAtoms
 :
 :
 width
-100
+0
 nsIDOMSVGLength
 :
 :
@@ -593,7 +593,7 @@ nsGkAtoms
 :
 :
 height
-100
+0
 nsIDOMSVGLength
 :
 :

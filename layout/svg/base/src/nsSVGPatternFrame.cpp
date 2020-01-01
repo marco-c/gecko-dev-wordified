@@ -4631,7 +4631,7 @@ CairoStatus
 )
 )
 return
-PR_FALSE
+nsnull
 ;
 pattern
 -
