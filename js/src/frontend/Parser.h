@@ -1233,6 +1233,14 @@ assignExpr
 ;
 ParseNode
 *
+assignExprWithoutYield
+(
+unsigned
+err
+)
+;
+ParseNode
+*
 condExpr1
 (
 )
@@ -1410,6 +1418,9 @@ ParseNode
 *
 *
 list
+bool
+&
+hasDefaults
 bool
 &
 hasRest

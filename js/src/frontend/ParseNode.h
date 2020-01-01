@@ -4046,6 +4046,8 @@ function
 body
 var
 initializer
+argument
+default
 or
 base
 object
