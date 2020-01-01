@@ -1569,7 +1569,7 @@ do_something_taking_a_long_time
 /
 }
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoEventTracer
 {
 public
