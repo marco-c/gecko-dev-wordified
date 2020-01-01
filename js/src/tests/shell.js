@@ -1264,6 +1264,15 @@ line
 .
 if
 (
+typeof
+document
+!
+=
+"
+object
+"
+|
+|
 !
 document
 .
