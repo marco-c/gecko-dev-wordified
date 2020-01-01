@@ -9386,17 +9386,7 @@ updateMallocCounter
 size_t
 nbytes
 )
-{
-runtime
--
->
-updateMallocCounter
-(
-compartment
-nbytes
-)
 ;
-}
 void
 reportAllocationOverflow
 (

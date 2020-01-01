@@ -375,7 +375,7 @@ PrepareZoneForGC
 global1
 -
 >
-compartment
+zone
 (
 )
 )
@@ -450,7 +450,7 @@ PrepareZoneForGC
 global1
 -
 >
-compartment
+zone
 (
 )
 )
@@ -463,7 +463,7 @@ PrepareZoneForGC
 global2
 -
 >
-compartment
+zone
 (
 )
 )
@@ -476,7 +476,7 @@ PrepareZoneForGC
 global3
 -
 >
-compartment
+zone
 (
 )
 )
@@ -549,7 +549,7 @@ PrepareZoneForGC
 global1
 -
 >
-compartment
+zone
 (
 )
 )
@@ -640,7 +640,7 @@ PrepareZoneForGC
 global1
 -
 >
-compartment
+zone
 (
 )
 )
@@ -653,7 +653,7 @@ PrepareZoneForGC
 global2
 -
 >
-compartment
+zone
 (
 )
 )
@@ -666,7 +666,7 @@ PrepareZoneForGC
 global3
 -
 >
-compartment
+zone
 (
 )
 )
