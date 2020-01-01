@@ -2299,8 +2299,6 @@ type
 HeapSlot
 *
 slots
-HandleObject
-global
 )
 {
 return
@@ -2313,7 +2311,6 @@ cx
 shape
 type
 slots
-global
 )
 ;
 }

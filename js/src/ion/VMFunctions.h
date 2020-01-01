@@ -3301,8 +3301,6 @@ type
 HeapSlot
 *
 slots
-HandleObject
-global
 )
 ;
 bool
