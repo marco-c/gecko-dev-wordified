@@ -4463,13 +4463,6 @@ mStartValue
 ;
 }
 }
-et
--
->
-mStyleRule
-=
-nullptr
-;
 return
 coverRule
 .
