@@ -1238,6 +1238,7 @@ x
 "
 WeakMap
 entry
+value
 "
 )
 ;
@@ -1309,7 +1310,8 @@ trc
 key
 "
 WeakMap
-Key
+entry
+key
 "
 )
 ;
@@ -1386,6 +1388,7 @@ value
 "
 WeakMap
 entry
+value
 "
 )
 ;
@@ -1670,6 +1673,7 @@ proxy
 -
 preserved
 WeakMap
+entry
 key
 "
 )
@@ -1717,6 +1721,7 @@ value
 "
 WeakMap
 entry
+value
 "
 )
 ;
