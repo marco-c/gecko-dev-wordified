@@ -10178,6 +10178,7 @@ DeveloperToolbar
 .
 show
 (
+false
 )
 ;
 }
