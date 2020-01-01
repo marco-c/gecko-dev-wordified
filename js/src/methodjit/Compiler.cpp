@@ -25855,6 +25855,17 @@ callingNew
 {
 if
 (
+!
+script
+-
+>
+compileAndGo
+)
+return
+Compile_InlineAbort
+;
+if
+(
 applyTricks
 =
 =
