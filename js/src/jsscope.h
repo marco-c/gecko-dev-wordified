@@ -2694,6 +2694,7 @@ bool
 adding
 )
 ;
+inline
 JSScopeProperty
 *
 *
@@ -2738,11 +2739,13 @@ JSScope
 scope
 )
 ;
+inline
 void
 hold
 (
 )
 ;
+inline
 bool
 drop
 (
