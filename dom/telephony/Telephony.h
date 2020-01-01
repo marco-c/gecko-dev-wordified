@@ -181,7 +181,7 @@ namespace
 dom
 {
 class
-TelephonyCallOrTelephonyCallGroupReturnValue
+OwningTelephonyCallOrTelephonyCallGroup
 ;
 class
 Telephony
@@ -422,7 +422,7 @@ GetActive
 (
 Nullable
 <
-TelephonyCallOrTelephonyCallGroupReturnValue
+OwningTelephonyCallOrTelephonyCallGroup
 >
 &
 aValue

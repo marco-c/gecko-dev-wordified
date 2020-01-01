@@ -3622,7 +3622,7 @@ CanvasRenderingContext2D
 :
 GetStyleAsUnion
 (
-StringOrCanvasGradientOrCanvasPatternReturnValue
+OwningStringOrCanvasGradientOrCanvasPattern
 &
 aValue
 Style

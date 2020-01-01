@@ -141,7 +141,7 @@ class
 MessagePortList
 ;
 class
-WindowProxyOrMessagePortReturnValue
+OwningWindowProxyOrMessagePort
 ;
 }
 }
@@ -312,7 +312,7 @@ mozilla
 dom
 :
 :
-WindowProxyOrMessagePortReturnValue
+OwningWindowProxyOrMessagePort
 >
 &
 aValue

@@ -6444,7 +6444,7 @@ dict
 (
 )
     
-unionReturnValues
+owningUnionStructs
 =
 dict
 (
@@ -6573,7 +6573,7 @@ providers
 ]
 )
             
-unionReturnValues
+owningUnionStructs
 [
 name
 ]
@@ -6585,8 +6585,8 @@ providers
 [
 0
 ]
-                                                    
-isReturnValue
+                                                     
+ownsMembers
 =
 True
 )
@@ -6817,7 +6817,7 @@ unionStructs
                                    
 SortedDictValues
 (
-unionReturnValues
+owningUnionStructs
 )
 )
 "
@@ -21448,7 +21448,7 @@ isCallbackReturnValue
 =
 False
                                 
-isInUnionReturnValue
+isInOwningUnion
 =
 False
                                 
@@ -22956,8 +22956,7 @@ handleJSObjectType
 (
 type
 isMember
-isInUnionReturnValue
-                           
+isInOwningUnion
 failureCode
 )
 :
@@ -22967,7 +22966,7 @@ not
 isMember
 and
 not
-isInUnionReturnValue
+isInOwningUnion
 :
             
 if
@@ -23056,7 +23055,7 @@ isMember
 Dictionary
 "
 or
-isInUnionReturnValue
+isInOwningUnion
 )
             
 #
@@ -25744,13 +25743,9 @@ n
         
 typeName
 =
-type
-.
-name
-+
 (
 "
-ReturnValue
+Owning
 "
 if
 isMember
@@ -25758,6 +25753,10 @@ else
 "
 "
 )
++
+type
+.
+name
         
 argumentTypeName
 =
@@ -26433,7 +26432,7 @@ handleJSObjectType
 (
 type
 isMember
-isInUnionReturnValue
+isInOwningUnion
                                       
 failureCode
 )
@@ -26776,7 +26775,7 @@ or
 isMember
 or
                            
-isInUnionReturnValue
+isInOwningUnion
 or
                            
 isCallbackReturnValue
@@ -27829,7 +27828,7 @@ not
 isMember
 and
 not
-isInUnionReturnValue
+isInOwningUnion
 :
             
 #
@@ -28555,7 +28554,7 @@ nsAString
 "
         
 elif
-isInUnionReturnValue
+isInOwningUnion
 :
             
 declType
@@ -28596,7 +28595,7 @@ decl
 "
         
 if
-isInUnionReturnValue
+isInOwningUnion
 :
             
 decl
@@ -28645,7 +28644,7 @@ getConversionCode
 str
 "
 if
-isInUnionReturnValue
+isInOwningUnion
 else
 "
 {
@@ -28660,7 +28659,7 @@ str
 ;
 "
 if
-isInUnionReturnValue
+isInOwningUnion
 else
 "
 &
@@ -29984,8 +29983,7 @@ handleJSObjectType
 (
 type
 isMember
-isInUnionReturnValue
-                                  
+isInOwningUnion
 failureCode
 )
     
@@ -37963,6 +37961,10 @@ result
 =
 CGGeneric
 (
+"
+Owning
+"
++
 returnType
 .
 unroll
@@ -37970,10 +37972,6 @@ unroll
 )
 .
 name
-+
-"
-ReturnValue
-"
 )
         
 if
@@ -52485,7 +52483,8 @@ getUnionTypeTemplateVars
 unionType
 type
 descriptorProvider
-isReturnValue
+                             
+ownsMembers
 =
 False
 )
@@ -52578,7 +52577,7 @@ isSpiderMonkeyInterface
 )
 and
 not
-isReturnValue
+ownsMembers
     
 ctorArgs
 =
@@ -52623,7 +52622,7 @@ prefix
 "
 "
 if
-isReturnValue
+ownsMembers
 else
 "
 mUnion
@@ -52684,9 +52683,9 @@ tryNextCode
 isDefinitelyObject
 =
 True
-isInUnionReturnValue
+isInOwningUnion
 =
-isReturnValue
+ownsMembers
         
 sourceDescription
 =
@@ -52776,7 +52775,7 @@ isObject
 :
         
 if
-isReturnValue
+ownsMembers
 :
             
 body
@@ -53070,12 +53069,12 @@ tryNext
 inline
 =
 not
-isReturnValue
+ownsMembers
                               
 bodyInHeader
 =
 not
-isReturnValue
+ownsMembers
                               
 body
 =
@@ -53201,7 +53200,7 @@ __init__
 self
 type
 descriptorProvider
-isReturnValue
+ownsMembers
 =
 False
 )
@@ -53232,9 +53231,9 @@ descriptorProvider
         
 self
 .
-isReturnValue
+ownsMembers
 =
-isReturnValue
+ownsMembers
         
 self
 .
@@ -53543,11 +53542,11 @@ self
 .
 descriptorProvider
                                             
-isReturnValue
+ownsMembers
 =
 self
 .
-isReturnValue
+ownsMembers
 )
             
 if
@@ -53565,7 +53564,7 @@ Object
 or
 self
 .
-isReturnValue
+ownsMembers
 :
                 
 body
@@ -53687,7 +53686,7 @@ bodyInHeader
 not
 self
 .
-isReturnValue
+ownsMembers
                                            
 body
 =
@@ -53698,7 +53697,7 @@ body
 if
 self
 .
-isReturnValue
+ownsMembers
 :
                     
 methods
@@ -53883,7 +53882,7 @@ bodyInHeader
 not
 self
 .
-isReturnValue
+ownsMembers
                                        
 body
 =
@@ -54012,7 +54011,7 @@ vars
 if
 self
 .
-isReturnValue
+ownsMembers
 :
                 
 getterReturnType
@@ -54194,7 +54193,7 @@ name
 if
 self
 .
-isReturnValue
+ownsMembers
 and
 typeNeedsRooting
 (
@@ -54455,7 +54454,7 @@ True
 if
 self
 .
-isReturnValue
+ownsMembers
 :
             
 if
@@ -54549,7 +54548,7 @@ if
 not
 self
 .
-isReturnValue
+ownsMembers
 else
 "
 "
@@ -54557,24 +54556,24 @@ else
 return
 CGClass
 (
+(
+"
+Owning
+"
+if
+self
+.
+ownsMembers
+else
+"
+"
+)
++
 str
 (
 self
 .
 type
-)
-+
-(
-"
-ReturnValue
-"
-if
-self
-.
-isReturnValue
-else
-"
-"
 )
                        
 members
@@ -54618,7 +54617,7 @@ bodyInHeader
 not
 self
 .
-isReturnValue
+ownsMembers
 )
                        
 enums
@@ -70276,7 +70275,7 @@ owning
 union
 .
                             
-isInUnionReturnValue
+isInOwningUnion
 =
 True
                             
