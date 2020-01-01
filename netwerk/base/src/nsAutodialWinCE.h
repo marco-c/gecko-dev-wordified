@@ -418,14 +418,14 @@ windows
 h
 >
 class
-nsRASAutodial
+nsAutodial
 {
 public
 :
 /
 /
 ctor
-nsRASAutodial
+nsAutodial
 (
 )
 ;
@@ -434,7 +434,7 @@ nsRASAutodial
 dtor
 virtual
 ~
-nsRASAutodial
+nsAutodial
 (
 )
 ;

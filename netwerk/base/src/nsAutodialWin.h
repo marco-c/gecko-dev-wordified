@@ -885,7 +885,7 @@ checking
 /
 /
 class
-nsRASAutodial
+nsAutodial
 {
 private
 :
@@ -1346,7 +1346,7 @@ public
 /
 /
 ctor
-nsRASAutodial
+nsAutodial
 (
 )
 ;
@@ -1355,7 +1355,7 @@ nsRASAutodial
 dtor
 virtual
 ~
-nsRASAutodial
+nsAutodial
 (
 )
 ;
