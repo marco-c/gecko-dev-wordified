@@ -285,7 +285,7 @@ num
 ;
 }
 bool
-increase
+growBy
 (
 size_t
 num
@@ -323,10 +323,8 @@ T
 ;
 if
 (
-list
 !
-=
-NULL
+list
 )
 {
 for

@@ -819,7 +819,7 @@ num
 return
 slots_
 .
-increase
+growBy
 (
 num
 )

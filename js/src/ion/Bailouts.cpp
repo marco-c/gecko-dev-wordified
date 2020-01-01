@@ -1419,8 +1419,8 @@ arguments
 the
 reconstructStackDepth
 will
-have
-stackdepth
+be
+atleast
 4
 /
 /
@@ -1450,8 +1450,9 @@ the
 slots
 and
 not
+always
 be
-4
+equal
 .
 JS_ASSERT_IF
 (

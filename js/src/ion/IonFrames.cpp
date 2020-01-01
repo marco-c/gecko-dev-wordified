@@ -6002,7 +6002,7 @@ ifdef
 DEBUG
 numActualArgs_
 =
-0xbad
+0xbadbad
 ;
 #
 endif
@@ -6108,7 +6108,7 @@ JS_ASSERT
 numActualArgs_
 !
 =
-0xbad
+0xbadbad
 )
 ;
 /
