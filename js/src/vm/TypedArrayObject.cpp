@@ -222,13 +222,6 @@ jsutil
 h
 "
 #
-include
-"
-jsversion
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

@@ -278,13 +278,6 @@ h
 #
 include
 "
-jsversion
-.
-h
-"
-#
-include
-"
 frontend
 /
 BytecodeCompiler
