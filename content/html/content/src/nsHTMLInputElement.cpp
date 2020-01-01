@@ -4814,6 +4814,12 @@ nsHTMLInputElement
 Src
 src
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLInputElement
+Step
+step
+)
 NS_IMPL_INT_ATTR
 (
 nsHTMLInputElement
