@@ -1856,10 +1856,6 @@ JS_ASSERT
 numExclusiveThreads
 )
 ;
-exclusiveThreadsPaused
-=
-true
-;
 /
 /
 Avoid
@@ -1868,6 +1864,10 @@ asserts
 during
 teardown
 .
+exclusiveThreadsPaused
+=
+true
+;
 #
 endif
 /

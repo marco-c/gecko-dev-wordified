@@ -2350,7 +2350,10 @@ end
 void
 rollbackProperties
 (
-JSContext
+js
+:
+:
+ExclusiveContext
 *
 cx
 uint32_t
