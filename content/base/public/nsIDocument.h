@@ -413,9 +413,6 @@ class
 nsIDOMDocumentType
 ;
 class
-nsXMLProcessingInstruction
-;
-class
 nsIDOMElement
 ;
 class
@@ -542,6 +539,9 @@ Element
 ;
 class
 Link
+;
+class
+ProcessingInstruction
 ;
 class
 UndoManager
@@ -11289,7 +11289,13 @@ const
 ;
 already_AddRefed
 <
-nsXMLProcessingInstruction
+mozilla
+:
+:
+dom
+:
+:
+ProcessingInstruction
 >
 CreateProcessingInstruction
 (
