@@ -3893,6 +3893,10 @@ mainThread
 (
 this
 )
+interrupt
+(
+0
+)
 atomsCompartment
 (
 NULL
