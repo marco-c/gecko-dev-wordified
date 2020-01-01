@@ -2089,6 +2089,7 @@ function
 createRecord
 (
 guid
+uri
 )
 {
 let
@@ -2107,6 +2108,7 @@ record
 new
 HistoryRec
 (
+uri
 )
 ;
 if

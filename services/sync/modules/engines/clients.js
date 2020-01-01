@@ -1509,6 +1509,7 @@ function
 createRecord
 (
 guid
+uri
 )
 {
 let
@@ -1517,6 +1518,7 @@ record
 new
 ClientsRec
 (
+uri
 )
 ;
 /

@@ -1374,6 +1374,7 @@ function
 createRecord
 (
 guid
+uri
 )
 {
 let
@@ -1382,6 +1383,7 @@ record
 new
 LoginRec
 (
+uri
 )
 ;
 let

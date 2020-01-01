@@ -1326,6 +1326,7 @@ function
 createRecord
 (
 guid
+uri
 )
 {
 let
@@ -1334,6 +1335,7 @@ record
 new
 TabSetRecord
 (
+uri
 )
 ;
 record

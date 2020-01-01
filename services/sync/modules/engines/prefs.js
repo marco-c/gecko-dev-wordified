@@ -1535,6 +1535,7 @@ function
 createRecord
 (
 guid
+uri
 )
 {
 let
@@ -1543,6 +1544,7 @@ record
 new
 PrefRec
 (
+uri
 )
 ;
 if

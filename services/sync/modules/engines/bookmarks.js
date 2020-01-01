@@ -5838,6 +5838,7 @@ function
 createRecord
 (
 guid
+uri
 )
 {
 let
@@ -5868,6 +5869,7 @@ record
 new
 PlacesItem
 (
+uri
 )
 ;
 record
@@ -5947,6 +5949,7 @@ record
 new
 BookmarkMicsum
 (
+uri
 )
 ;
 let
@@ -6014,6 +6017,7 @@ record
 new
 BookmarkQuery
 (
+uri
 )
 ;
 /
@@ -6133,6 +6137,7 @@ record
 new
 Bookmark
 (
+uri
 )
 ;
 record
@@ -6242,6 +6247,7 @@ record
 new
 Livemark
 (
+uri
 )
 ;
 let
@@ -6294,6 +6300,7 @@ record
 new
 BookmarkFolder
 (
+uri
 )
 ;
 }
@@ -6348,6 +6355,7 @@ record
 new
 BookmarkSeparator
 (
+uri
 )
 ;
 /
@@ -6399,6 +6407,7 @@ record
 new
 PlacesItem
 (
+uri
 )
 ;
 this
@@ -6430,6 +6439,7 @@ record
 new
 PlacesItem
 (
+uri
 )
 ;
 this
