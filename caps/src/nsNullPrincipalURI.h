@@ -159,6 +159,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 {
@@ -194,6 +203,7 @@ NS_NULLPRINCIPALURI_IMPLEMENTATION_CID
 }
 class
 nsNullPrincipalURI
+MOZ_FINAL
 :
 public
 nsIURI
