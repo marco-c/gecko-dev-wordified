@@ -9963,15 +9963,6 @@ fail
 "
 )
 ;
-if
-(
-mCanceled
-)
-{
-return
-NS_OK
-;
-}
 switch
 (
 mCallbackState
