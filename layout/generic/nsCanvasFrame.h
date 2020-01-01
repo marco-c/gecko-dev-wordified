@@ -507,17 +507,6 @@ nsAbsoluteContainingBlock
 h
 "
 /
-/
-for
-focus
-#
-include
-"
-nsIScrollableView
-.
-h
-"
-/
 *
 *
 *
