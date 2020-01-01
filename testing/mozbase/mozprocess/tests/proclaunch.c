@@ -32,8 +32,8 @@ not
 distributed
 with
 this
-*
 file
+*
 You
 can
 obtain

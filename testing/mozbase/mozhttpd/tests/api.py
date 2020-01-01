@@ -1,13 +1,4 @@
 #
-!
-/
-usr
-/
-bin
-/
-env
-python
-#
 This
 Source
 Code
@@ -40,8 +31,8 @@ not
 distributed
 with
 this
-#
 file
+#
 You
 can
 obtain

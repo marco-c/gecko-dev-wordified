@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-#
 file
+#
 You
 can
 obtain
@@ -115,7 +115,7 @@ version
 '
 0
 .
-2
+3
 '
 deps
 =

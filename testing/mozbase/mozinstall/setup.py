@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-#
 file
+#
 You
 can
 obtain
@@ -113,15 +113,22 @@ None
 version
 =
 '
-0
+1
 .
-3
+1
 '
 deps
 =
 [
 '
 mozinfo
+=
+=
+0
+.
+3
+.
+3
 '
 ]
 setup
@@ -146,6 +153,11 @@ utility
 package
 for
 installing
+and
+uninstalling
+"
+                  
+"
 Mozilla
 applications
 on
@@ -157,6 +169,27 @@ platforms
 long_description
 =
 description
+      
+#
+Get
+strings
+from
+http
+:
+/
+/
+pypi
+.
+python
+.
+org
+/
+pypi
+?
+%
+3Aaction
+=
+list_classifiers
       
 classifiers
 =
@@ -187,14 +220,14 @@ Approved
 Mozilla
 Public
 License
-1
+2
 .
-1
+0
 (
 MPL
-1
+2
 .
-1
+0
 )
 '
                    
@@ -239,26 +272,6 @@ Modules
 '
                   
 ]
-#
-Get
-strings
-from
-http
-:
-/
-/
-pypi
-.
-python
-.
-org
-/
-pypi
-?
-%
-3Aaction
-=
-list_classifiers
       
 keywords
 =
@@ -269,16 +282,22 @@ mozilla
 author
 =
 '
-mdas
+Mozilla
+Automation
+and
+Tools
+team
 '
       
 author_email
 =
 '
-mdas
+tools
+lists
+.
 mozilla
 .
-com
+org
 '
       
 url
@@ -301,6 +320,9 @@ license
 =
 '
 MPL
+2
+.
+0
 '
       
 packages
@@ -353,7 +375,13 @@ mozinstall
 =
 mozinstall
 :
-cli
+install_cli
+      
+mozuninstall
+=
+mozinstall
+:
+uninstall_cli
       
 "
 "

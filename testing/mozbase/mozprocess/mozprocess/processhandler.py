@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-#
 file
+#
 You
 can
 obtain
@@ -686,7 +686,7 @@ print
 >
 sys
 .
-stderr
+stdout
 "
 Could
 not
@@ -699,6 +699,12 @@ pid
 :
 %
 s
+assuming
+it
+'
+s
+already
+dead
 "
 %
 self
@@ -746,7 +752,7 @@ self
 _cleanup
 (
 )
-            
+        
 return
 self
 .
@@ -2621,6 +2627,12 @@ get
 this
 code
                     
+if
+self
+.
+_handle
+:
+                        
 self
 .
 returncode
@@ -3410,13 +3422,7 @@ None
                  
 env
 =
-os
-.
-environ
-.
-copy
-(
-)
+None
                  
 ignore_children
 =
@@ -3612,12 +3618,6 @@ cwd
         
 self
 .
-env
-=
-env
-        
-self
-.
 didTimeout
 =
 False
@@ -3633,6 +3633,28 @@ self
 keywordargs
 =
 kwargs
+        
+if
+env
+is
+None
+:
+            
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+self
+.
+env
+=
+env
         
 #
 handlers
@@ -4807,13 +4829,10 @@ except
 :
                 
 #
-TODO
-:
 return
 a
 blank
 line
-?
                 
 return
 (
@@ -5128,6 +5147,34 @@ processOutputLine
 [
 ]
 )
+        
+#
+Print
+to
+standard
+output
+only
+if
+no
+outputline
+provided
+        
+if
+not
+kwargs
+[
+'
+processOutputLine
+'
+]
+:
+            
+kwargs
+[
+'
+processOutputLine
+'
+]
 .
 append
 (

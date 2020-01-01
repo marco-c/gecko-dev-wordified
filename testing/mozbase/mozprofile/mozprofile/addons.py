@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-#
 file
+#
 You
 can
 obtain
@@ -57,8 +57,6 @@ import
 os
 import
 shutil
-import
-sys
 import
 tempfile
 import
@@ -183,6 +181,41 @@ profile
 =
 profile
         
+#
+information
+needed
+for
+profile
+reset
+:
+        
+#
+https
+:
+/
+/
+github
+.
+com
+/
+mozilla
+/
+mozbase
+/
+blob
+/
+270a857328b130860d1b1b512e23899557a3c8f7
+/
+mozprofile
+/
+mozprofile
+/
+profile
+.
+py
+#
+L93
+        
 self
 .
 installed_addons
@@ -190,29 +223,28 @@ installed_addons
 [
 ]
         
-#
-keeps
-track
-of
-addons
-and
-manifests
-that
-were
-passed
-to
-install_addons
-        
 self
 .
-addons
+installed_manifests
 =
 [
 ]
         
+#
+addons
+that
+we
+'
+ve
+installed
+;
+needed
+for
+cleanup
+        
 self
 .
-manifests
+_addon_dirs
 =
 [
 ]
@@ -287,6 +319,15 @@ addons
 addons
 ]
             
+self
+.
+installed_addons
+.
+extend
+(
+addons
+)
+            
 for
 addon
 in
@@ -335,6 +376,15 @@ install_from_manifest
 (
 manifest
 )
+            
+self
+.
+installed_manifests
+.
+extended
+(
+manifests
+)
     
 def
 install_from_manifest
@@ -368,15 +418,6 @@ install
 "
 "
 "
-        
-self
-.
-manifests
-.
-append
-(
-filepath
-)
         
 manifest
 =
@@ -1307,15 +1348,6 @@ rdf
 "
 "
         
-self
-.
-addons
-.
-append
-(
-path
-)
-        
 #
 if
 the
@@ -1852,7 +1884,7 @@ preserve_symlinks
                 
 self
 .
-installed_addons
+_addon_dirs
 .
 append
 (
@@ -1922,7 +1954,7 @@ addon
 in
 self
 .
-installed_addons
+_addon_dirs
 :
             
 if

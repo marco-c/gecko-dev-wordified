@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-#
 file
+#
 You
 can
 obtain
@@ -72,7 +72,7 @@ PACKAGE_VERSION
 "
 1
 .
-0
+1
 "
 desc
 =

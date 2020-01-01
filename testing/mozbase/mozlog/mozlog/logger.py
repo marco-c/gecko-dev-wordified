@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-#
 file
+#
 You
 can
 obtain
@@ -112,6 +112,7 @@ import
 getLoggerClass
 addLevelName
 setLoggerClass
+shutdown
 _default_level
 =
 INFO

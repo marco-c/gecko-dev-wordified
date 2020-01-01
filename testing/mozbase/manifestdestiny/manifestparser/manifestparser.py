@@ -40,8 +40,8 @@ not
 distributed
 with
 this
-#
 file
+#
 You
 can
 obtain
@@ -5035,32 +5035,19 @@ g
 run
 -
 if
-=
+.
 os
 =
-=
-'
 win
-'
-|
-|
-os
-=
-=
-'
 linux
-'
         
 skip
 -
 if
-=
+.
 os
 =
-=
-'
 mac
-'
         
 "
 "
