@@ -506,7 +506,7 @@ precache_output
 p
 )
 ;
-void
+qcms_bool
 set_rgb_colorants
 (
 qcms_profile
