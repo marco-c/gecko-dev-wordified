@@ -20964,7 +20964,7 @@ chromeURI
 /
 flat
 packaging
-if
+while
 (
 fileURI
 instanceof
