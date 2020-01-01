@@ -29716,7 +29716,7 @@ aFrameSelection
 =
 mFrameSelection
 ;
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aFrameSelection
