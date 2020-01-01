@@ -183,7 +183,7 @@ support
 libxul
 builds
 and
-HTMLCanvasElement
+nsHTMLCanvasElement
 be
 used
 directly

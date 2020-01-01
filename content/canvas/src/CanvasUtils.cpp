@@ -152,11 +152,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-HTMLCanvasElement
+nsHTMLCanvasElement
 .
 h
 "
@@ -215,10 +211,7 @@ CanvasUtils
 void
 DoDrawImageSecurityCheck
 (
-dom
-:
-:
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 aCanvasElement
 nsIPrincipal

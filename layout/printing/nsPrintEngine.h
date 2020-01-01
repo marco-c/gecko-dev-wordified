@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsIDOMHTMLCanvasElement
+nsHTMLCanvasElement
 .
 h
 "
