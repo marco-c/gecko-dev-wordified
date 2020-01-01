@@ -1273,7 +1273,6 @@ JSContext
 *
 (
 )
-const
 {
 return
 mCx
