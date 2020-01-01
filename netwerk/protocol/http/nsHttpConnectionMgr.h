@@ -2267,6 +2267,11 @@ mHalfOpens
 ;
 /
 /
+half
+open
+connections
+/
+/
 calculate
 the
 number
