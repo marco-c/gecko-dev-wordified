@@ -13319,6 +13319,10 @@ mTreeMatchContext
 (
 aTreeMatchContext
 )
+mResolvedChild
+(
+nullptr
+)
 mDesiredA11yNotifications
 (
 eSendAllNotifications
@@ -13460,6 +13464,10 @@ mTreeMatchContext
 aParentRestyler
 .
 mTreeMatchContext
+)
+mResolvedChild
+(
+nullptr
 )
 mDesiredA11yNotifications
 (
@@ -13624,6 +13632,10 @@ mTreeMatchContext
 aParentRestyler
 .
 mTreeMatchContext
+)
+mResolvedChild
+(
+nullptr
 )
 mDesiredA11yNotifications
 (
@@ -14359,12 +14371,6 @@ nsStyleContext
 *
 parentContext
 ;
-nsIFrame
-*
-resolvedChild
-=
-nullptr
-;
 /
 /
 Get
@@ -14624,7 +14630,7 @@ StyleContext
 /
 Set
 |
-resolvedChild
+mResolvedChild
 |
 so
 we
@@ -14639,7 +14645,7 @@ the
 provider
 again
 .
-resolvedChild
+mResolvedChild
 =
 providerFrame
 ;
@@ -17991,7 +17997,7 @@ NS_ASSERTION
 outOfFlowFrame
 !
 =
-resolvedChild
+mResolvedChild
 "
 out
 -
@@ -18259,7 +18265,7 @@ if
 child
 !
 =
-resolvedChild
+mResolvedChild
 )
 {
 ElementRestyler
