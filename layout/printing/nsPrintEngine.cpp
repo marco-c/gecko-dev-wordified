@@ -16062,7 +16062,7 @@ mPresShell
 >
 FlushPendingNotifications
 (
-Flush_OnlyReflow
+Flush_Layout
 )
 ;
 nsCOMPtr

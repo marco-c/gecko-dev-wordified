@@ -6646,8 +6646,10 @@ WillPaint
 notifications
 while
 scrolling
+nsRefPtr
+<
 nsViewManager
-*
+>
 rootVM
 =
 RootViewManager

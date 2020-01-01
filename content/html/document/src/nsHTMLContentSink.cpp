@@ -17629,8 +17629,9 @@ mInNotification
 if
 (
 aType
-&
-Flush_SinkNotifications
+>
+=
+Flush_ContentAndNotify
 )
 {
 mCurrentContext
@@ -17654,8 +17655,9 @@ FlushText
 if
 (
 aType
-&
-Flush_OnlyReflow
+>
+=
+Flush_Layout
 )
 {
 /

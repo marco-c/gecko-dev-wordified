@@ -891,7 +891,7 @@ aPresShell
 >
 FlushPendingNotifications
 (
-Flush_StyleReresolves
+Flush_Style
 )
 ;
 nsIFrame
