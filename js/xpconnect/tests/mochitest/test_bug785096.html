@@ -242,6 +242,8 @@ option
 ;
 try
 {
+SpecialPowers
+.
 Components
 .
 lookupMethod
@@ -274,8 +276,9 @@ catch
 e
 )
 {
-do_throw
+ok
 (
+false
 "
 this
 call
