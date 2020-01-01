@@ -2832,7 +2832,7 @@ t
 "
 :
 %
-f
+llu
 \
 "
 f
@@ -2877,6 +2877,11 @@ kTypeChars
 [
 type
 ]
+static_cast
+<
+uint64_t
+>
+(
 (
 record
 -
@@ -2888,6 +2893,7 @@ mProfilerStart
 .
 ToMilliseconds
 (
+)
 )
 flags
 record
