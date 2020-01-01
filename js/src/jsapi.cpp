@@ -15358,7 +15358,7 @@ uint32
 rt
 -
 >
-gcChunksWaitingToExpire
+gcEmptyChunkCount
 )
 ;
 case
@@ -15384,6 +15384,11 @@ gcSystemChunkSet
 count
 (
 )
++
+rt
+-
+>
+gcEmptyChunkCount
 )
 ;
 default
