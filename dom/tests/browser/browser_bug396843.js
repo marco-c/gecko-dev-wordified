@@ -181,15 +181,6 @@ Span
 HTML_TAG
 (
 "
-blink
-"
-"
-Span
-"
-)
-HTML_TAG
-(
-"
 blockquote
 "
 "

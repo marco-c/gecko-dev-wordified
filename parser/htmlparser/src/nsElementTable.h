@@ -481,7 +481,6 @@ S
 STRIKE
 BIG
 SMALL
-BLINK
 static
 const
 int
