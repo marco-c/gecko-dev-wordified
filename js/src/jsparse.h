@@ -9446,9 +9446,9 @@ isDirectivePrologueMember
 enum
 FunctionType
 {
-GETTER
-SETTER
-GENERAL
+Getter
+Setter
+Normal
 }
 ;
 bool
