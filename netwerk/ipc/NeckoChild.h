@@ -185,7 +185,7 @@ protected
 virtual
 PHttpChannelChild
 *
-AllocPHttpChannel
+AllocPHttpChannelChild
 (
 PBrowserChild
 *
@@ -200,7 +200,7 @@ aOpenArgs
 ;
 virtual
 bool
-DeallocPHttpChannel
+DeallocPHttpChannelChild
 (
 PHttpChannelChild
 *
@@ -209,13 +209,13 @@ PHttpChannelChild
 virtual
 PCookieServiceChild
 *
-AllocPCookieService
+AllocPCookieServiceChild
 (
 )
 ;
 virtual
 bool
-DeallocPCookieService
+DeallocPCookieServiceChild
 (
 PCookieServiceChild
 *
@@ -224,13 +224,13 @@ PCookieServiceChild
 virtual
 PWyciwygChannelChild
 *
-AllocPWyciwygChannel
+AllocPWyciwygChannelChild
 (
 )
 ;
 virtual
 bool
-DeallocPWyciwygChannel
+DeallocPWyciwygChannelChild
 (
 PWyciwygChannelChild
 *
@@ -239,7 +239,7 @@ PWyciwygChannelChild
 virtual
 PFTPChannelChild
 *
-AllocPFTPChannel
+AllocPFTPChannelChild
 (
 PBrowserChild
 *
@@ -256,7 +256,7 @@ aOpenArgs
 ;
 virtual
 bool
-DeallocPFTPChannel
+DeallocPFTPChannelChild
 (
 PFTPChannelChild
 *
@@ -265,7 +265,7 @@ PFTPChannelChild
 virtual
 PWebSocketChild
 *
-AllocPWebSocket
+AllocPWebSocketChild
 (
 PBrowserChild
 *
@@ -276,7 +276,7 @@ SerializedLoadContext
 ;
 virtual
 bool
-DeallocPWebSocket
+DeallocPWebSocketChild
 (
 PWebSocketChild
 *
@@ -285,7 +285,7 @@ PWebSocketChild
 virtual
 PTCPSocketChild
 *
-AllocPTCPSocket
+AllocPTCPSocketChild
 (
 const
 nsString
@@ -310,7 +310,7 @@ aBrowser
 ;
 virtual
 bool
-DeallocPTCPSocket
+DeallocPTCPSocketChild
 (
 PTCPSocketChild
 *
@@ -319,7 +319,7 @@ PTCPSocketChild
 virtual
 PRemoteOpenFileChild
 *
-AllocPRemoteOpenFile
+AllocPRemoteOpenFileChild
 (
 const
 URIParams
@@ -330,7 +330,7 @@ PBrowserChild
 ;
 virtual
 bool
-DeallocPRemoteOpenFile
+DeallocPRemoteOpenFileChild
 (
 PRemoteOpenFileChild
 *

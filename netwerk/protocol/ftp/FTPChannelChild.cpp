@@ -2399,7 +2399,7 @@ calls
 NeckoChild
 :
 :
-DeallocPFTPChannel
+DeallocPFTPChannelChild
 (
 )
 which

@@ -2796,7 +2796,7 @@ calls
 NeckoChild
 :
 :
-DeallocPHttpChannel
+DeallocPHttpChannelChild
 (
 )
 which

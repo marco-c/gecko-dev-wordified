@@ -513,7 +513,7 @@ call
 NeckoChild
 :
 :
-DeallocPHttpChannel
+DeallocPHttpChannelChild
 (
 )
 )
