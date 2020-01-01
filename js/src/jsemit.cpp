@@ -13858,7 +13858,7 @@ JS_ASSERT
 cg
 -
 >
-upvars
+lexdeps
 .
 lookup
 (
@@ -14211,7 +14211,7 @@ length
 cg
 -
 >
-upvars
+lexdeps
 .
 count
 ;
@@ -28210,7 +28210,7 @@ JS_ASSERT
 cg
 -
 >
-upvars
+lexdeps
 .
 count
 =
@@ -28234,7 +28234,7 @@ count
 cg
 -
 >
-upvars
+lexdeps
 =
 pn
 -

@@ -1697,17 +1697,6 @@ name
 dependencies
 *
 /
-JSAtomList
-upvars
-;
-/
-*
-resolved
-lexical
-name
-dependencies
-*
-/
 JSTreeContext
 *
 parent
