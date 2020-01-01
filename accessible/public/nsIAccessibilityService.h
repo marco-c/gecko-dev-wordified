@@ -1077,7 +1077,7 @@ layout
 *
 /
 virtual
-nsresult
+void
 NotifyOfAnchorJumpTo
 (
 nsIContent
