@@ -7226,6 +7226,8 @@ JSStackFrame
 fp
 *
 caller
+*
+callerFrame
 ;
 JSBool
 indirectCall
@@ -8690,14 +8692,6 @@ nextToGC
 ;
 }
 }
-if
-(
-!
-script
-)
-{
-JSStackFrame
-*
 callerFrame
 =
 (
@@ -8711,6 +8705,12 @@ caller
 :
 NULL
 ;
+if
+(
+!
+script
+)
+{
 script
 =
 JSCompiler
@@ -8852,7 +8852,7 @@ js_Execute
 cx
 scopeobj
 script
-caller
+callerFrame
 JSFRAME_EVAL
 rval
 )
