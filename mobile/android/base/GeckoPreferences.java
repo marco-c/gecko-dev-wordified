@@ -606,12 +606,14 @@ SDK_INT
 =
 11
 )
-getActionBar
+new
+GeckoActionBar
 (
 )
 .
 setDisplayHomeAsUpEnabled
 (
+this
 true
 )
 ;
