@@ -1464,7 +1464,7 @@ int32_t
 aIndent
 )
 {
-nsXPIDLString
+nsString
 name
 ;
 nsCOMPtr
@@ -1521,10 +1521,7 @@ aShellItem
 >
 GetName
 (
-getter_Copies
-(
 name
-)
 )
 ;
 aShellItem
