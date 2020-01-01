@@ -935,6 +935,14 @@ arg
 )
 ;
 bool
+visitCreateThis
+(
+MCreateThis
+*
+ins
+)
+;
+bool
 visitCall
 (
 MCall

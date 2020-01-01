@@ -8005,6 +8005,17 @@ mask
 )
 ;
 }
+void
+setConstructing
+(
+)
+{
+flags_
+|
+=
+CONSTRUCTING
+;
+}
 bool
 isConstructing
 (

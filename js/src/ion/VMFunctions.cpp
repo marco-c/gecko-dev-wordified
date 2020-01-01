@@ -643,15 +643,6 @@ argv
 +
 1
 ;
-/
-/
-Run
-the
-function
-in
-the
-interpreter
-.
 bool
 ok
 =

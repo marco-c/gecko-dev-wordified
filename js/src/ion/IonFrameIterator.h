@@ -726,6 +726,13 @@ frameSize_
 )
 {
 }
+IonFrameIterator
+(
+IonJSFrameLayout
+*
+fp
+)
+;
 /
 /
 Current

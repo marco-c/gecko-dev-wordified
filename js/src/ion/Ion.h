@@ -978,6 +978,8 @@ cx
 StackFrame
 *
 fp
+bool
+newType
 )
 ;
 bool
