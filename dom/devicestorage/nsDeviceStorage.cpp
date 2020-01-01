@@ -10789,12 +10789,10 @@ mIsWatchingFile
 !
 HasListenersFor
 (
-NS_LITERAL_STRING
-(
-"
-change
-"
-)
+nsGkAtoms
+:
+:
+onchange
 )
 )
 {

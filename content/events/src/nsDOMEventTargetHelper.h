@@ -502,10 +502,9 @@ nullptr
 bool
 HasListenersFor
 (
-const
-nsAString
-&
-aType
+nsIAtom
+*
+aTypeWithOn
 )
 {
 return
@@ -517,7 +516,7 @@ mListenerManager
 >
 HasListenersFor
 (
-aType
+aTypeWithOn
 )
 ;
 }
