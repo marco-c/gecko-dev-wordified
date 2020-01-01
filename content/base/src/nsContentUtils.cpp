@@ -11885,7 +11885,6 @@ nsIURI
 >
 loadingURI
 ;
-nsresult
 rv
 =
 aLoadingPrincipal
