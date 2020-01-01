@@ -690,9 +690,6 @@ getNamespaceID
 (
 aNode
 )
-#
-ifndef
-TX_EXE
 &
 &
 !
@@ -711,8 +708,6 @@ isHTMLElementInHTMLDocument
 aNode
 )
 )
-#
-endif
 )
 return
 MB_FALSE
