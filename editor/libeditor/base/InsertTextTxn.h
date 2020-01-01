@@ -596,14 +596,10 @@ nsIEditor
 aEditor
 )
 ;
-private
-:
 InsertTextTxn
 (
 )
 ;
-public
-:
 NS_DECL_EDITTXN
 NS_IMETHOD
 Merge
@@ -757,10 +753,6 @@ selection
 nsIEditor
 *
 mEditor
-;
-friend
-class
-TransactionFactory
 ;
 }
 ;

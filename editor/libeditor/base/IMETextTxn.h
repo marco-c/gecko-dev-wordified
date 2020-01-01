@@ -632,14 +632,10 @@ nsWeakPtr
 aSelCon
 )
 ;
-private
-:
 IMETextTxn
 (
 )
 ;
-public
-:
 NS_DECL_EDITTXN
 NS_IMETHOD
 Merge
@@ -813,10 +809,6 @@ weak
 reference
 PRBool
 mFixed
-;
-friend
-class
-TransactionFactory
 ;
 }
 ;
