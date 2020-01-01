@@ -1861,7 +1861,7 @@ return
 jsdscript
 ;
 /
-/
+*
 Fallback
 for
 unknown
@@ -1871,6 +1871,9 @@ create
 a
 new
 script
+.
+*
+/
 if
 (
 !
@@ -4194,11 +4197,6 @@ if
 jsdhook
 )
 {
-JS_ASSERT
-(
-0
-)
-;
 JSD_UNLOCK
 (
 )
