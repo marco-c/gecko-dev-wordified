@@ -258,6 +258,10 @@ SetUpLocalPlayback
 (
 )
 ;
+LoopBackTransport
+*
+transport_
+;
 }
 ;
 #

@@ -383,7 +383,7 @@ function
 void
 WebRtcIlbcfix_DecodeImpl
 (
-WebRtc_Word16
+int16_t
 *
 decblock
 /
@@ -397,7 +397,7 @@ block
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 *
 bytes
 /
@@ -426,7 +426,7 @@ state
 structure
 *
 /
-WebRtc_Word16
+int16_t
 mode
 /
 *

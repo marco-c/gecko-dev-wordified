@@ -187,7 +187,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc1Cdf
 [
 12
@@ -205,7 +205,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc2Cdf
 [
 12
@@ -223,7 +223,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc3Cdf
 [
 12
@@ -241,7 +241,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc4Cdf
 [
 12
@@ -259,7 +259,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc5Cdf
 [
 12
@@ -277,7 +277,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc6Cdf
 [
 12
@@ -295,7 +295,7 @@ coefficients
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQArBoundaryLevels
 [
 12
@@ -318,7 +318,7 @@ search
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRcInitIndex
 [
 AR_ORDER
@@ -335,7 +335,7 @@ tables
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQArRcCdfPtr
 [
@@ -354,7 +354,7 @@ tables
 /
 extern
 const
-WebRtc_Word16
+int16_t
 *
 WebRtcIsac_kQArRcLevelsPtr
 [
@@ -419,7 +419,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQGainCdf
 [
 19
@@ -437,7 +437,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word32
+int32_t
 WebRtcIsac_kQGain2Levels
 [
 18
@@ -456,7 +456,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word32
+int32_t
 WebRtcIsac_kQGain2BoundaryLevels
 [
 19
@@ -473,7 +473,7 @@ table
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQGainCdf_ptr
 [
@@ -496,7 +496,7 @@ search
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQGainInitIndex
 [
 1
@@ -567,7 +567,7 @@ table
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kCos
 [
 6

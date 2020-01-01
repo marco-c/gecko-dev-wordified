@@ -430,7 +430,7 @@ input
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 in
 /
@@ -443,7 +443,7 @@ to
 encode
 *
 /
-WebRtc_Word16
+int16_t
 *
 weightDenum
 /

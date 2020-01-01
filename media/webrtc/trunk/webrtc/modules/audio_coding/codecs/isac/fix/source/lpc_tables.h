@@ -129,7 +129,7 @@ used
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kSelIndGain
 [
 12
@@ -137,7 +137,7 @@ WebRtcIsacfix_kSelIndGain
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kSelIndShape
 [
 108
@@ -154,7 +154,7 @@ indicator
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kModelCdf
 [
 KLT_NUM_MODELS
@@ -175,7 +175,7 @@ indicator
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kModelCdfPtr
 [
@@ -196,7 +196,7 @@ indicator
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kModelInitIndex
 [
 1
@@ -217,7 +217,7 @@ index
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kQuantMinGain
 [
 12
@@ -225,7 +225,7 @@ WebRtcIsacfix_kQuantMinGain
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kQuantMinShape
 [
 108
@@ -240,7 +240,7 @@ index
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kMaxIndGain
 [
 12
@@ -248,7 +248,7 @@ WebRtcIsacfix_kMaxIndGain
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kMaxIndShape
 [
 108
@@ -262,7 +262,7 @@ offset
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kOffsetGain
 [
 KLT_NUM_MODELS
@@ -273,7 +273,7 @@ KLT_NUM_MODELS
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kOffsetShape
 [
 KLT_NUM_MODELS
@@ -294,7 +294,7 @@ coefficients
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kInitIndexGain
 [
 KLT_NUM_MODELS
@@ -305,7 +305,7 @@ KLT_NUM_MODELS
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kInitIndexShape
 [
 KLT_NUM_MODELS
@@ -325,7 +325,7 @@ levels
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kOfLevelsGain
 [
 3
@@ -333,7 +333,7 @@ WebRtcIsacfix_kOfLevelsGain
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kOfLevelsShape
 [
 3
@@ -348,7 +348,7 @@ levels
 /
 extern
 const
-WebRtc_Word32
+int32_t
 WebRtcIsacfix_kLevelsGainQ17
 [
 1176
@@ -356,7 +356,7 @@ WebRtcIsacfix_kLevelsGainQ17
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kLevelsShapeQ10
 [
 1735
@@ -373,7 +373,7 @@ indices
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kCdfGain
 [
 1212
@@ -381,7 +381,7 @@ WebRtcIsacfix_kCdfGain
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kCdfShape
 [
 2059
@@ -400,7 +400,7 @@ indices
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kCdfGainPtr
 [
@@ -412,7 +412,7 @@ KLT_NUM_MODELS
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kCdfShapePtr
 [
@@ -436,7 +436,7 @@ models
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kCodeLenGainQ11
 [
 392
@@ -444,7 +444,7 @@ WebRtcIsacfix_kCodeLenGainQ11
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kCodeLenShapeQ11
 [
 577
@@ -459,7 +459,7 @@ transforms
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kT1GainQ15
 [
 KLT_NUM_MODELS
@@ -470,7 +470,7 @@ KLT_NUM_MODELS
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kT1ShapeQ15
 [
 KLT_NUM_MODELS
@@ -488,7 +488,7 @@ transforms
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kT2GainQ15
 [
 KLT_NUM_MODELS
@@ -499,7 +499,7 @@ KLT_NUM_MODELS
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kT2ShapeQ15
 [
 KLT_NUM_MODELS
@@ -521,7 +521,7 @@ coefficients
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kMeansGainQ8
 [
 KLT_NUM_MODELS
@@ -532,7 +532,7 @@ KLT_NUM_MODELS
 ;
 extern
 const
-WebRtc_Word32
+int32_t
 WebRtcIsacfix_kMeansShapeQ17
 [
 3

@@ -228,9 +228,9 @@ timestamps
 bool
 CalculateDelay
 (
-WebRtc_UWord32
+uint32_t
 timestamp
-WebRtc_Word64
+int64_t
 *
 delay
 int64_t
@@ -264,7 +264,7 @@ incoming
 /
 timestamps
 .
-WebRtc_UWord32
+uint32_t
 CurrentTimeStampDiffMs
 (
 )
@@ -317,11 +317,11 @@ frame
 void
 CheckForWrapArounds
 (
-WebRtc_UWord32
+uint32_t
 timestamp
 )
 ;
-WebRtc_Word64
+int64_t
 _zeroWallClock
 ;
 /
@@ -334,7 +334,7 @@ first
 video
 packet
 received
-WebRtc_Word32
+int32_t
 _wrapArounds
 ;
 /
@@ -353,7 +353,7 @@ to
 the
 delay
 estimate
-WebRtc_UWord32
+uint32_t
 _prevTimestamp
 ;
 /
@@ -368,7 +368,7 @@ by
 the
 delay
 estimate
-WebRtc_Word64
+int64_t
 _prevWallClock
 ;
 /
@@ -381,7 +381,7 @@ difference
 between
 incoming
 timestamps
-WebRtc_Word64
+int64_t
 _dTS
 ;
 }

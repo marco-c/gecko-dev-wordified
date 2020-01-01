@@ -382,7 +382,7 @@ instance
 -
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_InitDecode
 (
 /
@@ -410,7 +410,7 @@ Decoder
 instance
 *
 /
-WebRtc_Word16
+int16_t
 mode
 /
 *

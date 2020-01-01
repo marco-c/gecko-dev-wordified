@@ -376,7 +376,7 @@ quantization
 void
 WebRtcIlbcfix_SortSq
 (
-WebRtc_Word16
+int16_t
 *
 xq
 /
@@ -389,7 +389,7 @@ quantized
 value
 *
 /
-WebRtc_Word16
+int16_t
 *
 index
 /
@@ -402,7 +402,7 @@ quantization
 index
 *
 /
-WebRtc_Word16
+int16_t
 x
 /
 *
@@ -416,7 +416,7 @@ quantize
 *
 /
 const
-WebRtc_Word16
+int16_t
 *
 cb
 /
@@ -429,7 +429,7 @@ quantization
 codebook
 *
 /
-WebRtc_Word16
+int16_t
 cb_size
 /
 *
@@ -516,7 +516,7 @@ WEBRTC_SPL_RSHIFT_W32
 (
 (
 (
-WebRtc_Word32
+int32_t
 )
 cb
 [

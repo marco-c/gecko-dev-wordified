@@ -337,14 +337,14 @@ WebRtcNetEQ_Cng
 DSPInst_t
 *
 inst
-WebRtc_Word16
+int16_t
 *
 pw16_outData
 int
 len
 )
 {
-WebRtc_Word16
+int16_t
 w16_winMute
 =
 0
@@ -358,7 +358,7 @@ overlap
 data
 *
 /
-WebRtc_Word16
+int16_t
 w16_winUnMute
 =
 0
@@ -372,7 +372,7 @@ comfort
 noise
 *
 /
-WebRtc_Word16
+int16_t
 w16_winMuteInc
 =
 0
@@ -387,7 +387,7 @@ negative
 )
 *
 /
-WebRtc_Word16
+int16_t
 w16_winUnMuteInc
 =
 0
@@ -471,7 +471,7 @@ inst
 CNG_Codec_inst
 pw16_outData
 (
-WebRtc_Word16
+int16_t
 )
 (
 len
@@ -759,7 +759,7 @@ i
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -909,7 +909,7 @@ inst
 CNG_Codec_inst
 pw16_outData
 (
-WebRtc_Word16
+int16_t
 )
 len
 0

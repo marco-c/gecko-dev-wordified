@@ -194,7 +194,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc1Cdf
 [
 12
@@ -212,7 +212,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc2Cdf
 [
 12
@@ -230,7 +230,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc3Cdf
 [
 12
@@ -248,7 +248,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc4Cdf
 [
 12
@@ -266,7 +266,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc5Cdf
 [
 12
@@ -284,7 +284,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc6Cdf
 [
 12
@@ -303,7 +303,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc1Levels
 [
 11
@@ -322,7 +322,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc2Levels
 [
 11
@@ -341,7 +341,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc3Levels
 [
 11
@@ -360,7 +360,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc4Levels
 [
 11
@@ -379,7 +379,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc5Levels
 [
 11
@@ -398,7 +398,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc6Levels
 [
 11
@@ -416,7 +416,7 @@ coefficients
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRcBound
 [
 12
@@ -439,7 +439,7 @@ search
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRcInitInd
 [
 AR_ORDER
@@ -456,7 +456,7 @@ tables
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kRcCdfPtr
 [
@@ -475,7 +475,7 @@ tables
 /
 extern
 const
-WebRtc_Word16
+int16_t
 *
 WebRtcIsacfix_kRcLevPtr
 [
@@ -540,7 +540,7 @@ coefficient
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kGainCdf
 [
 19
@@ -558,7 +558,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word32
+int32_t
 WebRtcIsacfix_kGain2Lev
 [
 18
@@ -577,7 +577,7 @@ coefficient
 /
 extern
 const
-WebRtc_Word32
+int32_t
 WebRtcIsacfix_kGain2Bound
 [
 19
@@ -594,7 +594,7 @@ table
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kGainPtr
 [
@@ -617,7 +617,7 @@ search
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kGainInitInd
 [
 1
@@ -688,7 +688,7 @@ table
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kCos
 [
 6

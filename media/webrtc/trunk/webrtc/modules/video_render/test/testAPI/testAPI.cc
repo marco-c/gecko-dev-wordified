@@ -270,7 +270,7 @@ GetTestVideoFrame
 I420VideoFrame
 *
 frame
-WebRtc_UWord8
+uint8_t
 startColor
 )
 ;
@@ -1309,11 +1309,11 @@ MyRenderCallback
 }
 ;
 virtual
-WebRtc_Word32
+int32_t
 RenderFrame
 (
 const
-WebRtc_UWord32
+uint32_t
 streamId
 I420VideoFrame
 &
@@ -1352,7 +1352,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 _cnt
 ;
 }
@@ -1363,7 +1363,7 @@ GetTestVideoFrame
 I420VideoFrame
 *
 frame
-WebRtc_UWord8
+uint8_t
 startColor
 )
 {
@@ -1372,7 +1372,7 @@ startColor
 changing
 color
 static
-WebRtc_UWord8
+uint8_t
 color
 =
 startColor
@@ -1666,7 +1666,7 @@ half_width
 )
 ;
 const
-WebRtc_UWord32
+uint32_t
 renderDelayMs
 =
 500
@@ -2041,7 +2041,7 @@ SetText
 (
 1
 (
-WebRtc_UWord8
+uint8_t
 *
 )
 "
@@ -2155,7 +2155,7 @@ half_width
 )
 ;
 const
-WebRtc_UWord32
+uint32_t
 renderDelayMs
 =
 500
@@ -2743,7 +2743,7 @@ half_width
 )
 ;
 const
-WebRtc_UWord32
+uint32_t
 renderDelayMs
 =
 500
@@ -3157,7 +3157,7 @@ half_width
 )
 ;
 const
-WebRtc_UWord32
+uint32_t
 renderDelayMs
 =
 500

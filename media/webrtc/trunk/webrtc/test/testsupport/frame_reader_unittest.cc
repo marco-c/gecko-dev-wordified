@@ -170,7 +170,7 @@ on
 Windows
 .
 const
-int
+size_t
 kFrameLength
 =
 1000
@@ -371,7 +371,7 @@ FrameReaderTest
 ReadFrame
 )
 {
-WebRtc_UWord8
+uint8_t
 buffer
 [
 3
@@ -444,7 +444,7 @@ FrameReaderTest
 ReadFrameUninitialized
 )
 {
-WebRtc_UWord8
+uint8_t
 buffer
 [
 3

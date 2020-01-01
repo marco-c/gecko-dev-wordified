@@ -849,10 +849,10 @@ declarations
 void
 stereoInterleave
 (
-WebRtc_Word16
+int16_t
 *
 data
-WebRtc_Word16
+int16_t
 totalLen
 )
 ;
@@ -862,7 +862,7 @@ getNextRecoutTime
 FILE
 *
 fp
-WebRtc_UWord32
+uint32_t
 *
 nextTime
 )
@@ -873,7 +873,7 @@ getNextExtraDelay
 FILE
 *
 fp
-WebRtc_UWord32
+uint32_t
 *
 t
 int
@@ -891,7 +891,7 @@ NETEQTEST_RTPpacket
 *
 rtpSlave
 const
-WebRtc_Word16
+int16_t
 *
 stereoPtype
 const
@@ -902,7 +902,7 @@ stereoMode
 int
 noOfStereoCodecs
 const
-WebRtc_Word16
+int16_t
 *
 cngPtype
 int
@@ -923,7 +923,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 *
@@ -938,7 +938,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 *
@@ -960,7 +960,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 *
@@ -977,7 +977,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 &
@@ -1000,7 +1000,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 &
@@ -1061,7 +1061,7 @@ variables
 *
 *
 /
-WebRtc_Word16
+int16_t
 NetEqPacketBuffer
 [
 MAX_NETEQ_BUFFERSIZE
@@ -1070,7 +1070,7 @@ MAX_NETEQ_BUFFERSIZE
 1
 ]
 ;
-WebRtc_Word16
+int16_t
 NetEqPacketBufferSlave
 [
 MAX_NETEQ_BUFFERSIZE
@@ -1097,7 +1097,7 @@ file
 pointer
 *
 /
-WebRtc_UWord32
+uint32_t
 tot_received_packets
 =
 0
@@ -1114,12 +1114,12 @@ BUILD_DATE
 ;
 #
 endif
-WebRtc_UWord32
+uint32_t
 writtenSamples
 =
 0
 ;
-WebRtc_UWord32
+uint32_t
 simClock
 =
 0
@@ -1161,7 +1161,7 @@ noOfCodecs
 int
 ok
 ;
-WebRtc_Word16
+int16_t
 out_data
 [
 640
@@ -1169,7 +1169,7 @@ out_data
 2
 ]
 ;
-WebRtc_Word16
+int16_t
 outLen
 writeLen
 ;
@@ -1278,7 +1278,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 decoders
@@ -3584,7 +3584,7 @@ usedCodec
 noOfCodecs
 static_cast
 <
-WebRtc_UWord16
+uint16_t
 >
 (
 fs
@@ -3729,7 +3729,7 @@ setSlave
 #
 ifdef
 ZERO_TS_START
-WebRtc_UWord32
+uint32_t
 firstTS
 =
 rtp
@@ -3749,7 +3749,7 @@ setTimeStamp
 ;
 #
 else
-WebRtc_UWord32
+uint32_t
 firstTS
 =
 0
@@ -3796,7 +3796,7 @@ n
 #
 ifdef
 PLAY_CLEAN
-WebRtc_UWord32
+uint32_t
 prevTS
 =
 rtp
@@ -3806,7 +3806,7 @@ timeStamp
 (
 )
 ;
-WebRtc_UWord32
+uint32_t
 currTS
 prev_time
 ;
@@ -3900,7 +3900,7 @@ seedfile
 }
 #
 endif
-WebRtc_UWord32
+uint32_t
 nextRecoutTime
 ;
 int
@@ -3965,12 +3965,12 @@ immediately
 with
 first
 packet
-WebRtc_UWord32
+uint32_t
 start_clock
 =
 simClock
 ;
-WebRtc_UWord32
+uint32_t
 nextExtraDelayTime
 ;
 int
@@ -4545,7 +4545,7 @@ stereoModeMono
 /
 /
 stereo
-WebRtc_Word16
+int16_t
 tempLen
 ;
 tempLen
@@ -4763,7 +4763,7 @@ fwrite
 tot_received_packets
 sizeof
 (
-WebRtc_UWord32
+uint32_t
 )
 1
 delay_fid2
@@ -5329,7 +5329,7 @@ NETEQTEST_RTPpacket
 *
 rtpSlave
 const
-WebRtc_Word16
+int16_t
 *
 stereoPtype
 const
@@ -5340,7 +5340,7 @@ stereoMode
 int
 noOfStereoCodecs
 const
-WebRtc_Word16
+int16_t
 *
 cngPtype
 int
@@ -5414,7 +5414,7 @@ isStereo
 check
 payload
 type
-WebRtc_Word16
+int16_t
 ptype
 =
 rtp
@@ -5597,10 +5597,10 @@ isStereo
 void
 stereoInterleave
 (
-WebRtc_Word16
+int16_t
 *
 data
-WebRtc_Word16
+int16_t
 totalLen
 )
 {
@@ -5624,7 +5624,7 @@ k
 +
 )
 {
-WebRtc_Word16
+int16_t
 temp
 =
 data
@@ -5666,7 +5666,7 @@ k
 *
 sizeof
 (
-WebRtc_Word16
+int16_t
 )
 )
 ;
@@ -5691,7 +5691,7 @@ getNextRecoutTime
 FILE
 *
 fp
-WebRtc_UWord32
+uint32_t
 *
 nextTime
 )
@@ -5738,7 +5738,7 @@ file
 nextTime
 =
 (
-WebRtc_UWord32
+uint32_t
 )
 tempTime
 ;
@@ -5766,7 +5766,7 @@ getNextExtraDelay
 FILE
 *
 fp
-WebRtc_UWord32
+uint32_t
 *
 t
 int
@@ -5823,7 +5823,7 @@ file
 t
 =
 (
-WebRtc_UWord32
+uint32_t
 )
 temp
 [
@@ -5869,7 +5869,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 *
@@ -7959,7 +7959,7 @@ decoders
 [
 static_cast
 <
-WebRtc_UWord8
+uint8_t
 >
 (
 pt
@@ -8004,7 +8004,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 &
@@ -8138,7 +8138,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 *
@@ -8159,7 +8159,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 :
@@ -8240,7 +8240,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 *
@@ -8254,7 +8254,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 :
@@ -8315,12 +8315,12 @@ stereoModeMono
 create
 decoder
 instance
-WebRtc_UWord8
+uint8_t
 pt
 =
 static_cast
 <
-WebRtc_UWord8
+uint8_t
 >
 (
 (
@@ -9197,7 +9197,7 @@ decoder_CNG
 pt
 static_cast
 <
-WebRtc_UWord16
+uint16_t
 >
 (
 (
@@ -9484,7 +9484,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 &
@@ -9496,7 +9496,7 @@ std
 :
 map
 <
-WebRtc_UWord8
+uint8_t
 decoderStruct
 >
 :
@@ -9632,7 +9632,7 @@ codecInst
 WebRtcNetEQ_RTCPStat
 RTCPstat
 ;
-WebRtc_UWord32
+uint32_t
 timestamp
 ;
 int
@@ -9640,6 +9640,9 @@ memorySize
 ;
 int
 ok
+;
+int
+overhead_bytes
 ;
 printf
 (
@@ -9815,6 +9818,8 @@ kTCPLargeJitter
 NetEqBufferMaxPackets
 &
 BufferSizeInBytes
+&
+overhead_bytes
 )
 )
 CHECK_MINUS_ONE
@@ -9883,7 +9888,7 @@ inst
 usedCodec
 )
 )
-WebRtc_Word16
+int16_t
 temp1
 temp2
 ;
@@ -9968,10 +9973,10 @@ inst
 temptype
 )
 )
-WebRtc_UWord8
+uint8_t
 tempFlags
 ;
-WebRtc_UWord16
+uint16_t
 utemp1
 utemp2
 ;
@@ -10075,6 +10080,8 @@ kTCPLargeJitter
 NetEqBufferMaxPackets
 &
 BufferSizeInBytes
+&
+overhead_bytes
 )
 ;
 if
@@ -10193,6 +10200,8 @@ WebRtcNetEQNetworkType
 NetEqBufferMaxPackets
 &
 BufferSizeInBytes
+&
+overhead_bytes
 )
 ;
 if
@@ -10295,6 +10304,8 @@ kTCPLargeJitter
 NetEqBufferMaxPackets
 &
 BufferSizeInBytes
+&
+overhead_bytes
 )
 )
 /

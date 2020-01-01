@@ -146,6 +146,10 @@ NSArray
 *
 _captureDevicesInfo
 ;
+NSAutoreleasePool
+*
+_poolInfo
+;
 int
 _captureDeviceCountInfo
 ;
@@ -514,7 +518,7 @@ NSNumber
 getDeviceNamesFromIndex
 :
 (
-WebRtc_UWord32
+uint32_t
 )
 index
 DefaultName
@@ -527,7 +531,7 @@ deviceName
 WithLength
 :
 (
-WebRtc_UWord32
+uint32_t
 )
 deviceNameLength
 AndUniqueID
@@ -540,7 +544,7 @@ deviceUniqueID
 WithLength
 :
 (
-WebRtc_UWord32
+uint32_t
 )
 deviceUniqueIDLength
 AndProductID
@@ -553,7 +557,7 @@ deviceProductID
 WithLength
 :
 (
-WebRtc_UWord32
+uint32_t
 )
 deviceProductIDLength
 ;
@@ -588,13 +592,13 @@ parentWindow
 AtX
 :
 (
-WebRtc_UWord32
+uint32_t
 )
 positionX
 AndY
 :
 (
-WebRtc_UWord32
+uint32_t
 )
 positionY
 ;

@@ -282,7 +282,7 @@ decoder_inst_ptr_
 uint16_t
 sample_freq_
 ;
-uint16_t
+uint32_t
 bitrate_
 ;
 int

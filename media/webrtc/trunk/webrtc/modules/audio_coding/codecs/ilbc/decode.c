@@ -466,7 +466,7 @@ function
 void
 WebRtcIlbcfix_DecodeImpl
 (
-WebRtc_Word16
+int16_t
 *
 decblock
 /
@@ -480,7 +480,7 @@ block
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 *
 bytes
 /
@@ -509,7 +509,7 @@ state
 structure
 *
 /
-WebRtc_Word16
+int16_t
 mode
 /
 *
@@ -531,13 +531,13 @@ normal
 int
 i
 ;
-WebRtc_Word16
+int16_t
 order_plus_one
 ;
-WebRtc_Word16
+int16_t
 last_bit
 ;
-WebRtc_Word16
+int16_t
 *
 data
 ;
@@ -547,13 +547,13 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 decresidual
 [
 BLOCKL_MAX
 ]
 ;
-WebRtc_Word16
+int16_t
 PLCresidual
 [
 BLOCKL_MAX
@@ -561,7 +561,7 @@ BLOCKL_MAX
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 syntdenum
 [
 NSUB_MAX
@@ -573,7 +573,7 @@ LPC_FILTERORDER
 )
 ]
 ;
-WebRtc_Word16
+int16_t
 PLClpc
 [
 LPC_FILTERORDER
@@ -584,7 +584,7 @@ LPC_FILTERORDER
 #
 ifndef
 WEBRTC_BIG_ENDIAN
-WebRtc_UWord16
+uint16_t
 swapped
 [
 NO_OF_WORDS_30MS
@@ -801,7 +801,7 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 lsfdeq
 [
 LPC_FILTERORDER
@@ -809,7 +809,7 @@ LPC_FILTERORDER
 LPC_N_MAX
 ]
 ;
-WebRtc_Word16
+int16_t
 weightdenum
 [
 (
@@ -846,7 +846,7 @@ WebRtcIlbcfix_SimpleLsfDeQ
 (
 lsfdeq
 (
-WebRtc_Word16
+int16_t
 *
 )
 (
@@ -936,7 +936,7 @@ nsub
 1
 )
 (
-WebRtc_Word16
+int16_t
 )
 (
 iLBCdec_inst
@@ -1014,7 +1014,7 @@ PLClpc
 decresidual
 syntdenum
 (
-WebRtc_Word16
+int16_t
 )
 (
 iLBCdec_inst
@@ -1481,7 +1481,7 @@ not
 activated
 *
 /
-WebRtc_Word16
+int16_t
 lag
 ;
 /
@@ -1521,7 +1521,7 @@ mode
 lag
 =
 (
-WebRtc_Word16
+int16_t
 )
 WebRtcIlbcfix_XcorrCoef
 (
@@ -1560,7 +1560,7 @@ else
 lag
 =
 (
-WebRtc_Word16
+int16_t
 )
 WebRtcIlbcfix_XcorrCoef
 (
@@ -1772,7 +1772,7 @@ WebRtcIlbcfix_HpOutput
 (
 decblock
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcIlbcfix_kHpOutCoefs

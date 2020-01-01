@@ -426,7 +426,7 @@ coefficients
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec01Ub16
 [
 14
@@ -450,7 +450,7 @@ WebRtcIsac_kLpcShapeCdfVec01Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec1Ub16
 [
 16
@@ -476,7 +476,7 @@ WebRtcIsac_kLpcShapeCdfVec1Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec2Ub16
 [
 18
@@ -504,7 +504,7 @@ WebRtcIsac_kLpcShapeCdfVec2Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec3Ub16
 [
 30
@@ -544,7 +544,7 @@ WebRtcIsac_kLpcShapeCdfVec3Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec4Ub16
 [
 16
@@ -570,7 +570,7 @@ WebRtcIsac_kLpcShapeCdfVec4Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec5Ub16
 [
 17
@@ -597,7 +597,7 @@ WebRtcIsac_kLpcShapeCdfVec5Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec6Ub16
 [
 21
@@ -628,7 +628,7 @@ WebRtcIsac_kLpcShapeCdfVec6Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec7Ub16
 [
 36
@@ -674,7 +674,7 @@ WebRtcIsac_kLpcShapeCdfVec7Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec8Ub16
 [
 21
@@ -705,7 +705,7 @@ WebRtcIsac_kLpcShapeCdfVec8Ub16
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec01Ub160
 [
 21
@@ -736,7 +736,7 @@ WebRtcIsac_kLpcShapeCdfVec01Ub160
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec01Ub161
 [
 28
@@ -774,7 +774,7 @@ WebRtcIsac_kLpcShapeCdfVec01Ub161
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec01Ub162
 [
 55
@@ -839,7 +839,7 @@ WebRtcIsac_kLpcShapeCdfVec01Ub162
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec01Ub163
 [
 26
@@ -875,7 +875,7 @@ WebRtcIsac_kLpcShapeCdfVec01Ub163
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec01Ub164
 [
 28
@@ -913,7 +913,7 @@ WebRtcIsac_kLpcShapeCdfVec01Ub164
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec01Ub165
 [
 34
@@ -957,7 +957,7 @@ WebRtcIsac_kLpcShapeCdfVec01Ub165
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeCdfVec01Ub166
 [
 71
@@ -1052,7 +1052,7 @@ LARs
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kLpcShapeCdfMatUb16
 [
@@ -1187,7 +1187,7 @@ coefficients
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kLpcShapeNumRecPointUb16
 [
 UB_LPC_ORDER
@@ -1237,7 +1237,7 @@ coefficient
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcShapeEntropySearchUb16
 [
 UB_LPC_ORDER

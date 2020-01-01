@@ -382,7 +382,7 @@ multiplication
 void
 WebRtcIlbcfix_Window32W32
 (
-WebRtc_Word32
+int32_t
 *
 z
 /
@@ -390,7 +390,7 @@ z
 Output
 *
 /
-WebRtc_Word32
+int32_t
 *
 x
 /
@@ -405,7 +405,7 @@ Output
 *
 /
 const
-WebRtc_Word32
+int32_t
 *
 y
 /
@@ -414,7 +414,7 @@ Q31
 Window
 *
 /
-WebRtc_Word16
+int16_t
 N
 /
 *

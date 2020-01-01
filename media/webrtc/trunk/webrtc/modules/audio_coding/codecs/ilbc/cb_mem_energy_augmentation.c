@@ -247,7 +247,7 @@ h
 void
 WebRtcIlbcfix_CbMemEnergyAugmentation
 (
-WebRtc_Word16
+int16_t
 *
 interpSamples
 /
@@ -260,7 +260,7 @@ interpolated
 samples
 *
 /
-WebRtc_Word16
+int16_t
 *
 CBmem
 /
@@ -273,7 +273,7 @@ CB
 memory
 *
 /
-WebRtc_Word16
+int16_t
 scale
 /
 *
@@ -288,7 +288,7 @@ energy
 values
 *
 /
-WebRtc_Word16
+int16_t
 base_size
 /
 *
@@ -306,7 +306,7 @@ be
 stored
 *
 /
-WebRtc_Word16
+int16_t
 *
 energyW16
 /
@@ -321,7 +321,7 @@ CB
 vectors
 *
 /
-WebRtc_Word16
+int16_t
 *
 energyShifts
 /
@@ -338,11 +338,11 @@ energy
 /
 )
 {
-WebRtc_Word32
+int32_t
 energy
 tmp32
 ;
-WebRtc_Word16
+int16_t
 *
 ppe
 *
@@ -350,12 +350,12 @@ pp
 *
 interpSamplesPtr
 ;
-WebRtc_Word16
+int16_t
 *
 CBmemPtr
 lagcount
 ;
-WebRtc_Word16
+int16_t
 *
 enPtr
 =
@@ -367,7 +367,7 @@ base_size
 20
 ]
 ;
-WebRtc_Word16
+int16_t
 *
 enShPtr
 =
@@ -379,7 +379,7 @@ base_size
 20
 ]
 ;
-WebRtc_Word32
+int32_t
 nrjRecursive
 ;
 CBmemPtr
@@ -546,7 +546,7 @@ enShPtr
 )
 =
 (
-WebRtc_Word16
+int16_t
 )
 WebRtcSpl_NormW32
 (
@@ -570,7 +570,7 @@ enPtr
 )
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_RSHIFT_W32
 (

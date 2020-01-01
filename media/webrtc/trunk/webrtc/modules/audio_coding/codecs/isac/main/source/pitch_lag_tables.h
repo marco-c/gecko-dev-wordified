@@ -219,7 +219,7 @@ lags
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf1Lo
 [
 127
@@ -227,7 +227,7 @@ WebRtcIsac_kQPitchLagCdf1Lo
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf2Lo
 [
 20
@@ -235,7 +235,7 @@ WebRtcIsac_kQPitchLagCdf2Lo
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf3Lo
 [
 2
@@ -243,7 +243,7 @@ WebRtcIsac_kQPitchLagCdf3Lo
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf4Lo
 [
 10
@@ -251,7 +251,7 @@ WebRtcIsac_kQPitchLagCdf4Lo
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQPitchLagCdfPtrLo
 [
@@ -269,7 +269,7 @@ table
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdfSizeLo
 [
 1
@@ -285,7 +285,7 @@ ranges
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQIndexLowerLimitLagLo
 [
 4
@@ -293,7 +293,7 @@ WebRtcIsac_kQIndexLowerLimitLagLo
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQIndexUpperLimitLagLo
 [
 4
@@ -310,7 +310,7 @@ decoder
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQInitIndexLagLo
 [
 3
@@ -377,7 +377,7 @@ lags
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf1Mid
 [
 255
@@ -385,7 +385,7 @@ WebRtcIsac_kQPitchLagCdf1Mid
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf2Mid
 [
 36
@@ -393,7 +393,7 @@ WebRtcIsac_kQPitchLagCdf2Mid
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf3Mid
 [
 2
@@ -401,7 +401,7 @@ WebRtcIsac_kQPitchLagCdf3Mid
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf4Mid
 [
 20
@@ -409,7 +409,7 @@ WebRtcIsac_kQPitchLagCdf4Mid
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQPitchLagCdfPtrMid
 [
@@ -427,7 +427,7 @@ table
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdfSizeMid
 [
 1
@@ -443,7 +443,7 @@ ranges
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQIndexLowerLimitLagMid
 [
 4
@@ -451,7 +451,7 @@ WebRtcIsac_kQIndexLowerLimitLagMid
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQIndexUpperLimitLagMid
 [
 4
@@ -468,7 +468,7 @@ decoder
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQInitIndexLagMid
 [
 3
@@ -535,7 +535,7 @@ lags
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf1Hi
 [
 511
@@ -543,7 +543,7 @@ WebRtcIsac_kQPitchLagCdf1Hi
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf2Hi
 [
 68
@@ -551,7 +551,7 @@ WebRtcIsac_kQPitchLagCdf2Hi
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf3Hi
 [
 2
@@ -559,7 +559,7 @@ WebRtcIsac_kQPitchLagCdf3Hi
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdf4Hi
 [
 35
@@ -567,7 +567,7 @@ WebRtcIsac_kQPitchLagCdf4Hi
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQPitchLagCdfPtrHi
 [
@@ -585,7 +585,7 @@ table
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchLagCdfSizeHi
 [
 1
@@ -601,7 +601,7 @@ ranges
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQindexLowerLimitLagHi
 [
 4
@@ -609,7 +609,7 @@ WebRtcIsac_kQindexLowerLimitLagHi
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQindexUpperLimitLagHi
 [
 4
@@ -626,7 +626,7 @@ decoder
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQInitIndexLagHi
 [
 3

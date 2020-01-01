@@ -296,7 +296,7 @@ config_
 packet_size_in_bytes
 )
 ;
-WebRtc_UWord8
+uint8_t
 *
 packet
 =

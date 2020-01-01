@@ -1596,7 +1596,7 @@ source
 video
 file
 :
-WebRtc_UWord8
+uint8_t
 *
 source_buffer_
 ;
@@ -1621,7 +1621,7 @@ when
 decoding
 fails
 :
-WebRtc_UWord8
+uint8_t
 *
 last_successful_frame_buffer_
 ;
@@ -1772,7 +1772,7 @@ vp
 )
 {
 }
-WebRtc_Word32
+int32_t
 Encoded
 (
 webrtc
@@ -1847,7 +1847,7 @@ vp
 )
 {
 }
-WebRtc_Word32
+int32_t
 Decoded
 (
 webrtc

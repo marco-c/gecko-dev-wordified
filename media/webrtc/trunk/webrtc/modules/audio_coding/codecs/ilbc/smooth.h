@@ -385,7 +385,7 @@ data
 void
 WebRtcIlbcfix_Smooth
 (
-WebRtc_Word16
+int16_t
 *
 odata
 /
@@ -397,7 +397,7 @@ smoothed
 output
 *
 /
-WebRtc_Word16
+int16_t
 *
 current
 /
@@ -414,7 +414,7 @@ this
 block
 *
 /
-WebRtc_Word16
+int16_t
 *
 surround
 /

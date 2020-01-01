@@ -316,7 +316,7 @@ NULL
 ;
 }
 }
-WebRtc_Word32
+int32_t
 JpegEncoder
 :
 :
@@ -363,7 +363,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 JpegEncoder
 :
 :
@@ -775,7 +775,7 @@ height
 ~
 15
 ;
-WebRtc_UWord8
+uint8_t
 *
 imgPtr
 =
@@ -785,7 +785,7 @@ get
 (
 )
 ;
-WebRtc_UWord8
+uint8_t
 *
 origImagePtr
 =
@@ -808,7 +808,7 @@ an
 adequate
 size
 buffer
-WebRtc_UWord32
+uint32_t
 requiredSize
 =
 CalcBufferSize
@@ -821,7 +821,7 @@ height16
 origImagePtr
 =
 new
-WebRtc_UWord8
+uint8_t
 [
 requiredSize
 ]

@@ -130,15 +130,15 @@ VPMSimpleSpatialResampler
 /
 /
 }
-WebRtc_Word32
+int32_t
 VPMSimpleSpatialResampler
 :
 :
 SetTargetFrameSize
 (
-WebRtc_Word32
+int32_t
 width
-WebRtc_Word32
+int32_t
 height
 )
 {
@@ -218,7 +218,7 @@ _targetHeight
 0
 ;
 }
-WebRtc_Word32
+int32_t
 VPMSimpleSpatialResampler
 :
 :
@@ -442,7 +442,7 @@ return
 VPM_SCALE_ERROR
 ;
 }
-WebRtc_Word32
+int32_t
 VPMSimpleSpatialResampler
 :
 :
@@ -454,7 +454,7 @@ return
 _targetHeight
 ;
 }
-WebRtc_Word32
+int32_t
 VPMSimpleSpatialResampler
 :
 :
@@ -472,9 +472,9 @@ VPMSimpleSpatialResampler
 :
 ApplyResample
 (
-WebRtc_Word32
+int32_t
 width
-WebRtc_Word32
+int32_t
 height
 )
 {

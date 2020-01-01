@@ -403,7 +403,7 @@ SimpleInterpolateLSF
 void
 WebRtcIlbcfix_LsfInterpolate2PloyEnc
 (
-WebRtc_Word16
+int16_t
 *
 a
 /
@@ -416,7 +416,7 @@ coefficients
 Q12
 *
 /
-WebRtc_Word16
+int16_t
 *
 lsf1
 /
@@ -432,7 +432,7 @@ coefficients
 Q13
 *
 /
-WebRtc_Word16
+int16_t
 *
 lsf2
 /
@@ -448,7 +448,7 @@ coefficients
 Q13
 *
 /
-WebRtc_Word16
+int16_t
 coef
 /
 *
@@ -466,7 +466,7 @@ lsf2
 Q14
 *
 /
-WebRtc_Word16
+int16_t
 length
 /
 *
@@ -487,7 +487,7 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 lsftmp
 [
 LPC_FILTERORDER

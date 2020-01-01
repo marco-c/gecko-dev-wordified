@@ -460,7 +460,7 @@ polynomial
 -
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_Chebyshev
 (
 /
@@ -476,7 +476,7 @@ x
 )
 *
 /
-WebRtc_Word16
+int16_t
 x
 /
 *
@@ -490,7 +490,7 @@ Chevyshev
 polynomial
 *
 /
-WebRtc_Word16
+int16_t
 *
 f
 /
@@ -507,7 +507,7 @@ polynomial
 /
 )
 {
-WebRtc_Word16
+int16_t
 b1_high
 b1_low
 ;
@@ -524,13 +524,13 @@ the
 accuracy
 *
 /
-WebRtc_Word32
+int32_t
 b2
 ;
-WebRtc_Word32
+int32_t
 tmp1W32
 ;
-WebRtc_Word32
+int32_t
 tmp2W32
 ;
 int
@@ -539,7 +539,7 @@ i
 b2
 =
 (
-WebRtc_Word32
+int32_t
 )
 0x1000000
 ;
@@ -575,7 +575,7 @@ tmp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-WebRtc_Word32
+int32_t
 )
 x
 10
@@ -587,7 +587,7 @@ tmp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-WebRtc_Word32
+int32_t
 )
 f
 [
@@ -634,7 +634,7 @@ part
 b1_high
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -645,7 +645,7 @@ tmp1W32
 b1_low
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -655,7 +655,7 @@ WEBRTC_SPL_LSHIFT_W32
 (
 (
 (
-WebRtc_Word32
+int32_t
 )
 b1_high
 )
@@ -713,7 +713,7 @@ tmp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-WebRtc_Word32
+int32_t
 )
 f
 [
@@ -755,7 +755,7 @@ part
 b1_high
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -766,7 +766,7 @@ tmp1W32
 b1_low
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -776,7 +776,7 @@ WEBRTC_SPL_LSHIFT_W32
 (
 (
 (
-WebRtc_Word32
+int32_t
 )
 b1_high
 )
@@ -837,7 +837,7 @@ tmp1W32
 WEBRTC_SPL_LSHIFT_W32
 (
 (
-WebRtc_Word32
+int32_t
 )
 f
 [
@@ -856,7 +856,7 @@ to
 maximum
 or
 minimum
-WebRtc_Word16
+int16_t
 instead
 *
 /
@@ -866,7 +866,7 @@ tmp1W32
 >
 (
 (
-WebRtc_Word32
+int32_t
 )
 33553408
 )
@@ -885,7 +885,7 @@ tmp1W32
 <
 (
 (
-WebRtc_Word32
+int32_t
 )
 -
 33554432
@@ -903,7 +903,7 @@ else
 return
 (
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_RSHIFT_W32
 (

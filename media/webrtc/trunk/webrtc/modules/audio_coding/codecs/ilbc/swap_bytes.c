@@ -386,7 +386,7 @@ void
 WebRtcIlbcfix_SwapBytes
 (
 const
-WebRtc_UWord16
+uint16_t
 *
 input
 /
@@ -400,7 +400,7 @@ to
 swap
 *
 /
-WebRtc_Word16
+int16_t
 wordLength
 /
 *
@@ -409,12 +409,12 @@ i
 )
 number
 or
-WebRtc_UWord16
+uint16_t
 to
 swap
 *
 /
-WebRtc_UWord16
+uint16_t
 *
 output
 /

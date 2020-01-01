@@ -140,7 +140,7 @@ TraceWindows
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 AddTime
 (
 char
@@ -153,7 +153,7 @@ level
 const
 ;
 virtual
-WebRtc_Word32
+int32_t
 AddBuildInfo
 (
 char
@@ -163,7 +163,7 @@ trace_message
 const
 ;
 virtual
-WebRtc_Word32
+int32_t
 AddDateTimeInfo
 (
 char
@@ -176,12 +176,12 @@ private
 :
 volatile
 mutable
-WebRtc_UWord32
+uint32_t
 prev_api_tick_count_
 ;
 volatile
 mutable
-WebRtc_UWord32
+uint32_t
 prev_tick_count_
 ;
 }

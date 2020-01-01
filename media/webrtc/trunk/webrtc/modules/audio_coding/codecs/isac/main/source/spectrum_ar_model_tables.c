@@ -160,7 +160,7 @@ coefficient
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc1Cdf
 [
 12
@@ -192,7 +192,7 @@ coefficient
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc2Cdf
 [
 12
@@ -224,7 +224,7 @@ coefficient
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc3Cdf
 [
 12
@@ -256,7 +256,7 @@ coefficient
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc4Cdf
 [
 12
@@ -288,7 +288,7 @@ coefficient
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc5Cdf
 [
 12
@@ -320,7 +320,7 @@ coefficient
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRc6Cdf
 [
 12
@@ -353,7 +353,7 @@ coefficient
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQArRc1Levels
 [
 11
@@ -391,7 +391,7 @@ coefficient
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQArRc2Levels
 [
 11
@@ -429,7 +429,7 @@ coefficient
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQArRc3Levels
 [
 11
@@ -467,7 +467,7 @@ coefficient
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQArRc4Levels
 [
 11
@@ -505,7 +505,7 @@ coefficient
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQArRc5Levels
 [
 11
@@ -543,7 +543,7 @@ coefficient
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQArRc6Levels
 [
 11
@@ -580,7 +580,7 @@ coefficients
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQArBoundaryLevels
 [
 12
@@ -623,7 +623,7 @@ search
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQArRcInitIndex
 [
 6
@@ -648,7 +648,7 @@ tables
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQArRcCdfPtr
 [
@@ -675,7 +675,7 @@ tables
 *
 /
 const
-WebRtc_Word16
+int16_t
 *
 WebRtcIsac_kQArRcLevelsPtr
 [
@@ -748,7 +748,7 @@ coefficient
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQGainCdf
 [
 19
@@ -788,7 +788,7 @@ coefficient
 *
 /
 const
-WebRtc_Word32
+int32_t
 WebRtcIsac_kQGain2Levels
 [
 18
@@ -849,7 +849,7 @@ coefficient
 *
 /
 const
-WebRtc_Word32
+int32_t
 WebRtcIsac_kQGain2BoundaryLevels
 [
 19
@@ -887,7 +887,7 @@ table
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQGainCdf_ptr
 [
@@ -913,7 +913,7 @@ search
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQGainInitIndex
 [
 1
@@ -987,7 +987,7 @@ table
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kCos
 [
 6

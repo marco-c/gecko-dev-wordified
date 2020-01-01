@@ -146,9 +146,11 @@ Buffer_inst
 SplitInfo_t
 *
 split_inst
-WebRtc_Word16
+int16_t
 *
 flushed
+int
+av_sync
 )
 {
 int
@@ -163,13 +165,13 @@ i
 RTPPacket_t
 temp_packet
 ;
-WebRtc_Word16
+int16_t
 localFlushed
 =
 0
 ;
 const
-WebRtc_Word16
+int16_t
 *
 pw16_startPayload
 ;
@@ -235,6 +237,7 @@ Buffer_inst
 packet
 &
 localFlushed
+av_sync
 )
 ;
 *
@@ -438,6 +441,7 @@ Buffer_inst
 temp_packet
 &
 localFlushed
+av_sync
 )
 ;
 *
@@ -541,6 +545,7 @@ Buffer_inst
 temp_packet
 &
 localFlushed
+av_sync
 )
 ;
 *
@@ -613,6 +618,7 @@ Buffer_inst
 temp_packet
 &
 localFlushed
+av_sync
 )
 ;
 *
@@ -737,6 +743,7 @@ Buffer_inst
 temp_packet
 &
 localFlushed
+av_sync
 )
 ;
 *

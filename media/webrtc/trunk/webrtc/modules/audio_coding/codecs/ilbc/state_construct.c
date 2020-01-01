@@ -386,7 +386,7 @@ state
 void
 WebRtcIlbcfix_StateConstruct
 (
-WebRtc_Word16
+int16_t
 idxForMax
 /
 *
@@ -405,7 +405,7 @@ max
 amplitude
 *
 /
-WebRtc_Word16
+int16_t
 *
 idxVec
 /
@@ -419,7 +419,7 @@ quantization
 indexes
 *
 /
-WebRtc_Word16
+int16_t
 *
 syntDenum
 /
@@ -432,7 +432,7 @@ filter
 denumerator
 *
 /
-WebRtc_Word16
+int16_t
 *
 Out_fix
 /
@@ -446,7 +446,7 @@ state
 vector
 *
 /
-WebRtc_Word16
+int16_t
 len
 /
 *
@@ -465,10 +465,10 @@ vector
 int
 k
 ;
-WebRtc_Word16
+int16_t
 maxVal
 ;
-WebRtc_Word16
+int16_t
 *
 tmp1
 *
@@ -482,7 +482,7 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 numerator
 [
 1
@@ -490,7 +490,7 @@ numerator
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 sampleValVec
 [
 2
@@ -500,7 +500,7 @@ STATE_SHORT_LEN_30MS
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 sampleMaVec
 [
 2
@@ -510,7 +510,7 @@ STATE_SHORT_LEN_30MS
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 *
 sampleVal
 =
@@ -520,7 +520,7 @@ sampleValVec
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 *
 sampleMa
 =
@@ -530,7 +530,7 @@ sampleMaVec
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 *
 sampleAr
 =
@@ -687,7 +687,7 @@ tmp1
 )
 =
 (
-WebRtc_Word16
+int16_t
 )
 (
 (
@@ -704,7 +704,7 @@ tmp2
 )
 +
 (
-WebRtc_Word32
+int32_t
 )
 2097152
 )
@@ -795,7 +795,7 @@ tmp1
 )
 =
 (
-WebRtc_Word16
+int16_t
 )
 (
 (
@@ -812,7 +812,7 @@ tmp2
 )
 +
 (
-WebRtc_Word32
+int32_t
 )
 262144
 )
@@ -897,7 +897,7 @@ tmp1
 )
 =
 (
-WebRtc_Word16
+int16_t
 )
 (
 (
@@ -914,7 +914,7 @@ tmp2
 )
 +
 (
-WebRtc_Word32
+int32_t
 )
 65536
 )
@@ -1004,7 +1004,7 @@ LPC_FILTERORDER
 +
 1
 (
-WebRtc_Word16
+int16_t
 )
 (
 len
@@ -1039,7 +1039,7 @@ LPC_FILTERORDER
 +
 1
 (
-WebRtc_Word16
+int16_t
 )
 (
 2

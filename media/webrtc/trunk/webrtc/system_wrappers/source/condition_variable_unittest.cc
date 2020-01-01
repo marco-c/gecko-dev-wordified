@@ -402,7 +402,7 @@ lock
 bool
 Pass
 (
-WebRtc_UWord32
+uint32_t
 max_msecs
 )
 {
@@ -462,7 +462,7 @@ passed
 bool
 Grab
 (
-WebRtc_UWord32
+uint32_t
 max_msecs
 )
 {

@@ -408,7 +408,7 @@ section
 void
 WebRtcIlbcfix_FilteredCbVecs
 (
-WebRtc_Word16
+int16_t
 *
 cbvectors
 /
@@ -424,7 +424,7 @@ higher
 section
 *
 /
-WebRtc_Word16
+int16_t
 *
 CBmem
 /
@@ -458,7 +458,7 @@ codebook
 memory
 *
 /
-WebRtc_Word16
+int16_t
 samples
 /
 *

@@ -475,6 +475,20 @@ channel
 =
 1
 ;
+/
+/
+Receive
+timestamp
+can
+be
+set
+to
+send
+timestamp
+in
+this
+test
+.
 ASSERT_EQ
 (
 0
@@ -484,7 +498,7 @@ RecIn
 (
 reinterpret_cast
 <
-WebRtc_UWord8
+uint8_t
 *
 >
 (
@@ -492,6 +506,7 @@ payload
 )
 len_payload_bytes
 rtp_header
+timestamp
 )
 )
 ;

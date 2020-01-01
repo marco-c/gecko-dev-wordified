@@ -460,7 +460,7 @@ channel
 const
 ProcessingTypes
 type
-WebRtc_Word16
+int16_t
 audio10ms
 [
 ]
@@ -744,7 +744,7 @@ int
 ExternalRecordingInsertData
 (
 const
-WebRtc_Word16
+int16_t
 speechData10ms
 [
 ]
@@ -829,7 +829,7 @@ virtual
 int
 ExternalPlayoutGetData
 (
-WebRtc_Word16
+int16_t
 speechData10ms
 [
 ]

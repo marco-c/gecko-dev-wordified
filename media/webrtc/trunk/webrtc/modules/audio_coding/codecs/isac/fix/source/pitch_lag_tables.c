@@ -200,7 +200,7 @@ lags
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf1Lo
 [
 127
@@ -337,7 +337,7 @@ WebRtcIsacfix_kPitchLagCdf1Lo
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf2Lo
 [
 20
@@ -367,7 +367,7 @@ WebRtcIsacfix_kPitchLagCdf2Lo
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf3Lo
 [
 2
@@ -379,7 +379,7 @@ WebRtcIsacfix_kPitchLagCdf3Lo
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf4Lo
 [
 10
@@ -399,7 +399,7 @@ WebRtcIsacfix_kPitchLagCdf4Lo
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kPitchLagPtrLo
 [
@@ -423,7 +423,7 @@ table
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagSizeLo
 [
 1
@@ -442,7 +442,7 @@ ranges
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kLowerLimitLo
 [
 4
@@ -459,7 +459,7 @@ WebRtcIsacfix_kLowerLimitLo
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kUpperLimitLo
 [
 4
@@ -483,7 +483,7 @@ decoder
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kInitIndLo
 [
 3
@@ -508,7 +508,7 @@ Q10
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kMeanLag2Lo
 [
 19
@@ -547,7 +547,7 @@ WebRtcIsacfix_kMeanLag2Lo
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kMeanLag4Lo
 [
 9
@@ -590,7 +590,7 @@ lags
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf1Mid
 [
 255
@@ -855,7 +855,7 @@ WebRtcIsacfix_kPitchLagCdf1Mid
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf2Mid
 [
 36
@@ -901,7 +901,7 @@ WebRtcIsacfix_kPitchLagCdf2Mid
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf3Mid
 [
 2
@@ -913,7 +913,7 @@ WebRtcIsacfix_kPitchLagCdf3Mid
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf4Mid
 [
 20
@@ -943,7 +943,7 @@ WebRtcIsacfix_kPitchLagCdf4Mid
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kPitchLagPtrMid
 [
@@ -967,7 +967,7 @@ table
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagSizeMid
 [
 1
@@ -986,7 +986,7 @@ ranges
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kLowerLimitMid
 [
 4
@@ -1003,7 +1003,7 @@ WebRtcIsacfix_kLowerLimitMid
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kUpperLimitMid
 [
 4
@@ -1027,7 +1027,7 @@ decoder
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kInitIndMid
 [
 3
@@ -1052,7 +1052,7 @@ Q10
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kMeanLag2Mid
 [
 35
@@ -1115,7 +1115,7 @@ WebRtcIsacfix_kMeanLag2Mid
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kMeanLag4Mid
 [
 19
@@ -1174,7 +1174,7 @@ lags
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf1Hi
 [
 511
@@ -1695,7 +1695,7 @@ WebRtcIsacfix_kPitchLagCdf1Hi
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf2Hi
 [
 68
@@ -1773,7 +1773,7 @@ WebRtcIsacfix_kPitchLagCdf2Hi
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf3Hi
 [
 2
@@ -1785,7 +1785,7 @@ WebRtcIsacfix_kPitchLagCdf3Hi
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagCdf4Hi
 [
 35
@@ -1830,7 +1830,7 @@ WebRtcIsacfix_kPitchLagCdf4Hi
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kPitchLagPtrHi
 [
@@ -1854,7 +1854,7 @@ table
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchLagSizeHi
 [
 1
@@ -1873,7 +1873,7 @@ ranges
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kLowerLimitHi
 [
 4
@@ -1890,7 +1890,7 @@ WebRtcIsacfix_kLowerLimitHi
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kUpperLimitHi
 [
 4
@@ -1914,7 +1914,7 @@ decoder
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kInitIndHi
 [
 3
@@ -1937,7 +1937,7 @@ lags
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kMeanLag2Hi
 [
 67
@@ -2049,7 +2049,7 @@ WebRtcIsacfix_kMeanLag2Hi
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kMeanLag4Hi
 [
 34

@@ -207,10 +207,10 @@ FILE
 *
 _sourceFile
 ;
-WebRtc_Word32
+int32_t
 _frameCnt
 ;
-WebRtc_Word32
+int32_t
 _timestamp
 ;
 }
@@ -251,7 +251,7 @@ data
 to
 TransportCallback
 (
-TickTimeBase
+Clock
 *
 clock
 const

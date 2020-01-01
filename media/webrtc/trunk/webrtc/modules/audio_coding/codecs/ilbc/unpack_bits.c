@@ -383,7 +383,7 @@ bytes
 -
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_UnpackBits
 (
 /
@@ -399,7 +399,7 @@ indicator
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 *
 bitstream
 /
@@ -425,7 +425,7 @@ from
 bitstream
 *
 /
-WebRtc_Word16
+int16_t
 mode
 /
 *
@@ -444,7 +444,7 @@ or
 )
 {
 const
-WebRtc_UWord16
+uint16_t
 *
 bitstreamPtr
 ;
@@ -452,7 +452,7 @@ int
 i
 k
 ;
-WebRtc_Word16
+int16_t
 *
 tmpPtr
 ;
@@ -463,7 +463,7 @@ bitstream
 /
 *
 First
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -556,7 +556,7 @@ bitstreamPtr
 /
 *
 Second
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -708,7 +708,7 @@ bitstreamPtr
 /
 *
 Third
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -979,7 +979,7 @@ bitstreamPtr
 /
 *
 Third
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -1122,7 +1122,7 @@ bitstreamPtr
 4
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -1330,7 +1330,7 @@ to
 6
 :
 th
-WebRtc_Word16
+int16_t
 for
 20
 ms
@@ -1342,7 +1342,7 @@ to
 7
 :
 th
-WebRtc_Word16
+int16_t
 for
 30
 ms
@@ -1444,7 +1444,7 @@ mode
 7
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 for
@@ -1653,7 +1653,7 @@ mode
 8
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 for
@@ -1843,7 +1843,7 @@ bitstreamPtr
 9
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -1943,7 +1943,7 @@ bitstreamPtr
 10
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -2221,7 +2221,7 @@ to
 14
 :
 th
-WebRtc_Word16
+int16_t
 for
 20
 ms
@@ -2233,7 +2233,7 @@ to
 17
 :
 th
-WebRtc_Word16
+int16_t
 for
 30
 ms
@@ -2333,7 +2333,7 @@ mode
 15
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -2460,7 +2460,7 @@ bitstreamPtr
 16
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -2644,7 +2644,7 @@ bitstreamPtr
 17
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -2738,7 +2738,7 @@ bitstreamPtr
 18
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -2799,7 +2799,7 @@ bitstreamPtr
 19
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -2996,7 +2996,7 @@ mode
 18
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -3153,7 +3153,7 @@ bitstreamPtr
 19
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -3340,7 +3340,7 @@ bitstreamPtr
 20
 :
 th
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -3467,7 +3467,7 @@ bitstreamPtr
 21
 :
 st
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -3594,7 +3594,7 @@ bitstreamPtr
 22
 :
 nd
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -3721,7 +3721,7 @@ bitstreamPtr
 23
 :
 rd
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -3846,7 +3846,7 @@ bitstreamPtr
 24
 :
 rd
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits
@@ -4033,7 +4033,7 @@ bitstreamPtr
 25
 :
 rd
-WebRtc_Word16
+int16_t
 *
 /
 enc_bits

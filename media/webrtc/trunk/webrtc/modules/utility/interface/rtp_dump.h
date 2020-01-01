@@ -231,7 +231,7 @@ rtpplay
 header
 .
 virtual
-WebRtc_Word32
+int32_t
 Start
 (
 const
@@ -257,7 +257,7 @@ be
 recorded
 .
 virtual
-WebRtc_Word32
+int32_t
 Stop
 (
 )
@@ -341,14 +341,14 @@ RTCP
 header
 .
 virtual
-WebRtc_Word32
+int32_t
 DumpPacket
 (
 const
-WebRtc_UWord8
+uint8_t
 *
 packet
-WebRtc_UWord16
+uint16_t
 packetLength
 )
 =

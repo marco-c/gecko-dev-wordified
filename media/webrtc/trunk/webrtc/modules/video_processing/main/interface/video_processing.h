@@ -298,7 +298,7 @@ hist
 )
 ;
 }
-WebRtc_UWord32
+uint32_t
 hist
 [
 256
@@ -313,7 +313,7 @@ of
 frame
 *
 /
-WebRtc_UWord32
+uint32_t
 mean
 ;
 /
@@ -326,7 +326,7 @@ of
 frame
 *
 /
-WebRtc_UWord32
+uint32_t
 sum
 ;
 /
@@ -338,7 +338,7 @@ of
 frame
 *
 /
-WebRtc_UWord32
+uint32_t
 numPixels
 ;
 /
@@ -350,7 +350,7 @@ of
 pixels
 *
 /
-WebRtc_UWord8
+uint8_t
 subSamplWidth
 ;
 /
@@ -367,7 +367,7 @@ of
 2
 *
 /
-WebRtc_UWord8
+uint8_t
 subSamplHeight
 ;
 /
@@ -473,7 +473,7 @@ VideoProcessingModule
 *
 Create
 (
-WebRtc_Word32
+int32_t
 id
 )
 ;
@@ -519,7 +519,7 @@ supported
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 TimeUntilNextProcess
 (
 )
@@ -538,7 +538,7 @@ supported
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 Process
 (
 )
@@ -650,7 +650,7 @@ failure
 *
 /
 static
-WebRtc_Word32
+int32_t
 GetFrameStats
 (
 FrameStats
@@ -794,7 +794,7 @@ frame
 *
 /
 static
-WebRtc_Word32
+int32_t
 ColorEnhancement
 (
 I420VideoFrame
@@ -862,7 +862,7 @@ failure
 *
 /
 static
-WebRtc_Word32
+int32_t
 Brighten
 (
 I420VideoFrame
@@ -985,7 +985,7 @@ failure
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 Deflickering
 (
 I420VideoFrame
@@ -1053,7 +1053,7 @@ failure
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 Denoising
 (
 I420VideoFrame
@@ -1145,7 +1145,7 @@ error
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 BrightnessDetection
 (
 const
@@ -1277,14 +1277,14 @@ codes
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 SetTargetResolution
 (
-WebRtc_UWord32
+uint32_t
 width
-WebRtc_UWord32
+uint32_t
 height
-WebRtc_UWord32
+uint32_t
 frameRate
 )
 =
@@ -1332,10 +1332,10 @@ codes
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 SetMaxFrameRate
 (
-WebRtc_UWord32
+uint32_t
 maxFrameRate
 )
 =
@@ -1354,7 +1354,7 @@ rate
 *
 /
 virtual
-WebRtc_UWord32
+uint32_t
 DecimatedFrameRate
 (
 )
@@ -1374,7 +1374,7 @@ width
 *
 /
 virtual
-WebRtc_UWord32
+uint32_t
 DecimatedWidth
 (
 )
@@ -1395,7 +1395,7 @@ height
 *
 /
 virtual
-WebRtc_UWord32
+uint32_t
 DecimatedHeight
 (
 )
@@ -1530,7 +1530,7 @@ codes
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 PreprocessFrame
 (
 const

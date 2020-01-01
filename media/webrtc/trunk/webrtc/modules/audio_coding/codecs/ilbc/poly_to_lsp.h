@@ -397,7 +397,7 @@ LPC
 void
 WebRtcIlbcfix_Poly2Lsp
 (
-WebRtc_Word16
+int16_t
 *
 a
 /
@@ -411,7 +411,7 @@ in
 Q12
 *
 /
-WebRtc_Word16
+int16_t
 *
 lsp
 /
@@ -425,7 +425,7 @@ in
 Q15
 *
 /
-WebRtc_Word16
+int16_t
 *
 old_lsp
 /

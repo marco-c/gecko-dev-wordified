@@ -388,7 +388,7 @@ coefficients
 void
 WebRtcIlbcfix_DecoderInterpolateLsp
 (
-WebRtc_Word16
+int16_t
 *
 syntdenum
 /
@@ -401,7 +401,7 @@ filter
 coefficients
 *
 /
-WebRtc_Word16
+int16_t
 *
 weightdenum
 /
@@ -414,7 +414,7 @@ denumerator
 coefficients
 *
 /
-WebRtc_Word16
+int16_t
 *
 lsfdeq
 /
@@ -427,7 +427,7 @@ lsf
 coefficients
 *
 /
-WebRtc_Word16
+int16_t
 length
 /
 *

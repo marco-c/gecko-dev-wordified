@@ -189,7 +189,7 @@ gains
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kPitchGainCdf
 [
 255
@@ -205,7 +205,7 @@ ranges
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kLowerlimiGain
 [
 3
@@ -213,7 +213,7 @@ WebRtcIsacfix_kLowerlimiGain
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kUpperlimitGain
 [
 3
@@ -221,7 +221,7 @@ WebRtcIsacfix_kUpperlimitGain
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kMultsGain
 [
 2
@@ -241,7 +241,7 @@ Q12
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kPitchGain1
 [
 144
@@ -249,7 +249,7 @@ WebRtcIsacfix_kPitchGain1
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kPitchGain2
 [
 144
@@ -257,7 +257,7 @@ WebRtcIsacfix_kPitchGain2
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kPitchGain3
 [
 144
@@ -265,7 +265,7 @@ WebRtcIsacfix_kPitchGain3
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kPitchGain4
 [
 144
@@ -281,7 +281,7 @@ table
 /
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kCdfTableSizeGain
 [
 1
@@ -295,7 +295,7 @@ matrix
 /
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kTransform
 [
 4

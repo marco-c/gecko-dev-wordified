@@ -1001,7 +1001,7 @@ local
 video
 .
 const
-WebRtc_UWord32
+uint32_t
 time_stamp
 =
 video_frame
@@ -1011,7 +1011,7 @@ timestamp
 )
 ;
 const
-WebRtc_Word64
+int64_t
 render_time_stamp
 =
 video_frame
@@ -1152,7 +1152,7 @@ true
 AudioFrame
 audio_frame
 ;
-WebRtc_UWord16
+uint16_t
 length_in_samples
 =
 len
@@ -1168,7 +1168,7 @@ audio_channel_
 static_cast
 <
 const
-WebRtc_Word16
+int16_t
 *
 >
 (

@@ -426,7 +426,7 @@ state_first
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 residual
 /
@@ -439,7 +439,7 @@ residual
 vector
 *
 /
-WebRtc_Word16
+int16_t
 *
 syntDenum
 /
@@ -452,7 +452,7 @@ synthesis
 filter
 *
 /
-WebRtc_Word16
+int16_t
 *
 weightDenum
 /
@@ -467,24 +467,24 @@ denuminator
 /
 )
 {
-WebRtc_Word16
+int16_t
 k
 index
 ;
-WebRtc_Word16
+int16_t
 maxVal
 ;
-WebRtc_Word16
+int16_t
 scale
 shift
 ;
-WebRtc_Word32
+int32_t
 maxValsq
 ;
-WebRtc_Word16
+int16_t
 scaleRes
 ;
-WebRtc_Word16
+int16_t
 max
 ;
 int
@@ -496,7 +496,7 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 numerator
 [
 1
@@ -504,7 +504,7 @@ numerator
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 residualLongVec
 [
 2
@@ -514,7 +514,7 @@ STATE_SHORT_LEN_30MS
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 sampleMa
 [
 2
@@ -522,7 +522,7 @@ sampleMa
 STATE_SHORT_LEN_30MS
 ]
 ;
-WebRtc_Word16
+int16_t
 *
 residualLong
 =
@@ -532,7 +532,7 @@ residualLongVec
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 *
 sampleAr
 =
@@ -709,7 +709,7 @@ LPC_FILTERORDER
 +
 1
 (
-WebRtc_Word16
+int16_t
 )
 (
 iLBCenc_inst
@@ -751,7 +751,7 @@ LPC_FILTERORDER
 +
 1
 (
-WebRtc_Word16
+int16_t
 )
 (
 2
@@ -833,7 +833,7 @@ if
 (
 (
 (
-WebRtc_Word32
+int32_t
 )
 maxVal
 )
@@ -849,7 +849,7 @@ maxValsq
 =
 (
 (
-WebRtc_Word32
+int32_t
 )
 maxVal
 *
@@ -871,7 +871,7 @@ else
 maxValsq
 =
 (
-WebRtc_Word32
+int32_t
 )
 WEBRTC_SPL_WORD32_MAX
 ;
@@ -1045,7 +1045,7 @@ iLBCenc_inst
 >
 state_short_len
 (
-WebRtc_Word16
+int16_t
 )
 (
 shift

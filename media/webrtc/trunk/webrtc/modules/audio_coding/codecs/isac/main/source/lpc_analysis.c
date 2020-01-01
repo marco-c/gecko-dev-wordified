@@ -1364,7 +1364,7 @@ double
 *
 input
 const
-WebRtc_Word16
+int16_t
 *
 pitchGains_Q12
 double
@@ -2320,7 +2320,7 @@ maskdata
 double
 signal_noise_ratio
 const
-WebRtc_Word16
+int16_t
 *
 pitchGains_Q12
 double
@@ -3963,7 +3963,7 @@ UB_LPC_ORDER
 double
 *
 varscale
-WebRtc_Word16
+int16_t
 bandwidth
 )
 {
@@ -3974,13 +3974,13 @@ n
 pos1
 pos2
 ;
-WebRtc_Word16
+int16_t
 criterion1
 ;
-WebRtc_Word16
+int16_t
 criterion2
 ;
-WebRtc_Word16
+int16_t
 numSubFrames
 =
 SUBFRAMES
@@ -4681,11 +4681,11 @@ double
 varscale
 )
 {
-WebRtc_Word16
+int16_t
 j
 n
 ;
-WebRtc_Word16
+int16_t
 subFrameCntr
 ;
 double

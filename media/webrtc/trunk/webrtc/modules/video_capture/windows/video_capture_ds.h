@@ -153,16 +153,16 @@ public
 VideoCaptureDS
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 Init
 (
 const
-WebRtc_Word32
+int32_t
 id
 const
 char
@@ -325,7 +325,7 @@ Stop
 *
 /
 virtual
-WebRtc_Word32
+int32_t
 StartCapture
 (
 const
@@ -335,7 +335,7 @@ capability
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 StopCapture
 (
 )
@@ -505,7 +505,7 @@ CaptureStarted
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 CaptureSettings
 (
 VideoCaptureCapability
@@ -525,7 +525,7 @@ VideoCaptureDS
 /
 Help
 functions
-WebRtc_Word32
+int32_t
 SetCameraOutput
 (
 const
@@ -534,7 +534,7 @@ VideoCaptureCapability
 requestedCapability
 )
 ;
-WebRtc_Word32
+int32_t
 DisconnectGraph
 (
 )

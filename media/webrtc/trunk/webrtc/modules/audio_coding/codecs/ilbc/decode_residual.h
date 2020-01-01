@@ -425,7 +425,7 @@ the
 decoding
 *
 /
-WebRtc_Word16
+int16_t
 *
 decresidual
 /
@@ -438,7 +438,7 @@ residual
 frame
 *
 /
-WebRtc_Word16
+int16_t
 *
 syntdenum
 /

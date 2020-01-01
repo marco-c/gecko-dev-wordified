@@ -134,7 +134,7 @@ Handle
 ;
 namespace
 {
-WebRtc_Word16
+int16_t
 MapSetting
 (
 GainControl
@@ -296,7 +296,7 @@ samples_per_split_channel
 160
 )
 ;
-WebRtc_Word16
+int16_t
 *
 mixed_data
 =
@@ -382,7 +382,7 @@ my_handle
 mixed_data
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 audio
@@ -545,7 +545,7 @@ i
 )
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 audio
@@ -620,7 +620,7 @@ i
 )
 )
 ;
-WebRtc_Word32
+int32_t
 capture_level_out
 =
 0
@@ -646,7 +646,7 @@ i
 )
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 audio
@@ -812,12 +812,12 @@ i
 )
 )
 ;
-WebRtc_Word32
+int32_t
 capture_level_out
 =
 0
 ;
-WebRtc_UWord8
+uint8_t
 saturation_warning
 =
 0
@@ -844,7 +844,7 @@ i
 )
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 audio
@@ -1776,7 +1776,7 @@ targetLevelDbfs
 =
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 -
@@ -1789,7 +1789,7 @@ targetLevelDbfs
 =
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 target_level_dbfs_
@@ -1801,7 +1801,7 @@ compressionGaindB
 =
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 compression_gain_db_

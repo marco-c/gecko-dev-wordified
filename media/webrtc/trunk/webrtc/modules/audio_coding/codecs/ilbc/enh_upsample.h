@@ -387,7 +387,7 @@ bounds
 void
 WebRtcIlbcfix_EnhUpsample
 (
-WebRtc_Word32
+int32_t
 *
 useq1
 /
@@ -400,7 +400,7 @@ output
 sequence
 *
 /
-WebRtc_Word16
+int16_t
 *
 seq1
 /

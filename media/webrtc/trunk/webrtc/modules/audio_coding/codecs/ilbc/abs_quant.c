@@ -438,7 +438,7 @@ input
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 in
 /
@@ -451,7 +451,7 @@ to
 encode
 *
 /
-WebRtc_Word16
+int16_t
 *
 weightDenum
 /
@@ -467,11 +467,11 @@ filter
 /
 )
 {
-WebRtc_Word16
+int16_t
 *
 syntOut
 ;
-WebRtc_Word16
+int16_t
 quantLen
 [
 2
@@ -483,7 +483,7 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 syntOutBuf
 [
 LPC_FILTERORDER
@@ -491,7 +491,7 @@ LPC_FILTERORDER
 STATE_SHORT_LEN_30MS
 ]
 ;
-WebRtc_Word16
+int16_t
 in_weightedVec
 [
 STATE_SHORT_LEN_30MS
@@ -499,7 +499,7 @@ STATE_SHORT_LEN_30MS
 LPC_FILTERORDER
 ]
 ;
-WebRtc_Word16
+int16_t
 *
 in_weighted
 =

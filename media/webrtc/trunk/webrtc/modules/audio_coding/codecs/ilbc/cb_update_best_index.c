@@ -254,7 +254,7 @@ h
 void
 WebRtcIlbcfix_CbUpdateBestIndex
 (
-WebRtc_Word32
+int32_t
 CritNew
 /
 *
@@ -267,7 +267,7 @@ best
 Criteria
 *
 /
-WebRtc_Word16
+int16_t
 CritNewSh
 /
 *
@@ -281,7 +281,7 @@ above
 Criteria
 *
 /
-WebRtc_Word16
+int16_t
 IndexNew
 /
 *
@@ -294,7 +294,7 @@ new
 Criteria
 *
 /
-WebRtc_Word32
+int32_t
 cDotNew
 /
 *
@@ -308,7 +308,7 @@ new
 index
 *
 /
-WebRtc_Word16
+int16_t
 invEnergyNew
 /
 *
@@ -321,7 +321,7 @@ new
 index
 *
 /
-WebRtc_Word16
+int16_t
 energyShiftNew
 /
 *
@@ -335,7 +335,7 @@ new
 index
 *
 /
-WebRtc_Word32
+int32_t
 *
 CritMax
 /
@@ -353,7 +353,7 @@ far
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 shTotMax
 /
@@ -369,7 +369,7 @@ maximum
 criteria
 *
 /
-WebRtc_Word16
+int16_t
 *
 bestIndex
 /
@@ -387,7 +387,7 @@ maximum
 criteria
 *
 /
-WebRtc_Word16
+int16_t
 *
 bestGain
 )
@@ -409,15 +409,15 @@ criteria
 *
 /
 {
-WebRtc_Word16
+int16_t
 shOld
 shNew
 tmp16
 ;
-WebRtc_Word16
+int16_t
 scaleTmp
 ;
-WebRtc_Word32
+int32_t
 gainW32
 ;
 /
@@ -530,7 +530,7 @@ shOld
 tmp16
 =
 (
-WebRtc_Word16
+int16_t
 )
 WebRtcSpl_NormW32
 (
@@ -564,7 +564,7 @@ was
 stored
 in
 a
-WebRtc_Word16
+int16_t
 (
 shifted
 down
@@ -605,7 +605,7 @@ WEBRTC_SPL_MUL_16_16_RSFT
 (
 (
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_SHIFT_W32
 (
@@ -687,7 +687,7 @@ else
 bestGain
 =
 (
-WebRtc_Word16
+int16_t
 )
 gainW32
 ;

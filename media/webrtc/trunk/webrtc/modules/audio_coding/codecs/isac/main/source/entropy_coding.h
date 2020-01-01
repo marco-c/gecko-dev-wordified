@@ -392,7 +392,7 @@ WebRtcIsac_DecodeSpec
 Bitstr
 *
 streamdata
-WebRtc_Word16
+int16_t
 AvgPitchGain_Q12
 enum
 ISACBand
@@ -648,14 +648,14 @@ int
 WebRtcIsac_EncodeSpec
 (
 const
-WebRtc_Word16
+int16_t
 *
 fr
 const
-WebRtc_Word16
+int16_t
 *
 fi
-WebRtc_Word16
+int16_t
 AvgPitchGain_Q12
 enum
 ISACBand
@@ -697,7 +697,7 @@ lpcVecs
 double
 *
 percepFilterGains
-WebRtc_Word16
+int16_t
 bandwidth
 )
 ;
@@ -1109,7 +1109,7 @@ encode
 .
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIsac_EncodeLpcUB
 (
 double
@@ -1121,7 +1121,7 @@ streamdata
 double
 *
 interpolLPCCoeff
-WebRtc_Word16
+int16_t
 bandwidth
 ISACUBSaveEncDataStruct
 *
@@ -1399,7 +1399,7 @@ encode
 .
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIsac_DecodeInterpolLpcUb
 (
 Bitstr
@@ -1408,7 +1408,7 @@ streamdata
 double
 *
 percepFilterParam
-WebRtc_Word16
+int16_t
 bandwidth
 )
 ;
@@ -1426,7 +1426,7 @@ WebRtcIsac_DecodeRc
 Bitstr
 *
 streamdata
-WebRtc_Word16
+int16_t
 *
 RCQ15
 )
@@ -1442,7 +1442,7 @@ RC
 void
 WebRtcIsac_EncodeRc
 (
-WebRtc_Word16
+int16_t
 *
 RCQ15
 Bitstr
@@ -1465,7 +1465,7 @@ WebRtcIsac_DecodeGain2
 Bitstr
 *
 streamdata
-WebRtc_Word32
+int32_t
 *
 Gain2
 )
@@ -1488,7 +1488,7 @@ gain
 int
 WebRtcIsac_EncodeGain2
 (
-WebRtc_Word32
+int32_t
 *
 gain2
 Bitstr
@@ -1499,7 +1499,7 @@ streamdata
 void
 WebRtcIsac_EncodePitchGain
 (
-WebRtc_Word16
+int16_t
 *
 PitchGains_Q12
 Bitstr
@@ -1516,7 +1516,7 @@ WebRtcIsac_EncodePitchLag
 double
 *
 PitchLags
-WebRtc_Word16
+int16_t
 *
 PitchGain_Q12
 Bitstr
@@ -1533,7 +1533,7 @@ WebRtcIsac_DecodePitchGain
 Bitstr
 *
 streamdata
-WebRtc_Word16
+int16_t
 *
 PitchGain_Q12
 )
@@ -1544,7 +1544,7 @@ WebRtcIsac_DecodePitchLag
 Bitstr
 *
 streamdata
-WebRtc_Word16
+int16_t
 *
 PitchGain_Q12
 double
@@ -1558,7 +1558,7 @@ WebRtcIsac_DecodeFrameLen
 Bitstr
 *
 streamdata
-WebRtc_Word16
+int16_t
 *
 framelength
 )
@@ -1566,7 +1566,7 @@ framelength
 int
 WebRtcIsac_EncodeFrameLen
 (
-WebRtc_Word16
+int16_t
 framelength
 Bitstr
 *
@@ -1579,7 +1579,7 @@ WebRtcIsac_DecodeSendBW
 Bitstr
 *
 streamdata
-WebRtc_Word16
+int16_t
 *
 BWno
 )
@@ -2154,7 +2154,7 @@ failed
 .
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIsac_DecodeLpcGainUb
 (
 double
@@ -2339,7 +2339,7 @@ failed
 .
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIsac_EncodeBandwidth
 (
 enum
@@ -2532,7 +2532,7 @@ failed
 .
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIsac_DecodeBandwidth
 (
 Bitstr
@@ -2712,10 +2712,10 @@ failed
 .
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIsac_EncodeJitterInfo
 (
-WebRtc_Word32
+int32_t
 jitterIndex
 Bitstr
 *
@@ -2890,13 +2890,13 @@ failed
 .
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIsac_DecodeJitterInfo
 (
 Bitstr
 *
 streamData
-WebRtc_Word32
+int32_t
 *
 jitterInfo
 )

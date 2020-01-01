@@ -391,7 +391,7 @@ input
 void
 WebRtcIlbcfix_BwExpand
 (
-WebRtc_Word16
+int16_t
 *
 out
 /
@@ -406,7 +406,7 @@ lpc
 coefficients
 *
 /
-WebRtc_Word16
+int16_t
 *
 in
 /
@@ -422,7 +422,7 @@ bandwidth
 expansion
 *
 /
-WebRtc_Word16
+int16_t
 *
 coef
 /
@@ -437,7 +437,7 @@ factor
 Q15
 *
 /
-WebRtc_Word16
+int16_t
 length
 /
 *
@@ -526,7 +526,7 @@ i
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 (
 (

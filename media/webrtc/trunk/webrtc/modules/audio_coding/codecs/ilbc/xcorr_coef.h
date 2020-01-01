@@ -398,7 +398,7 @@ criteria
 int
 WebRtcIlbcfix_XcorrCoef
 (
-WebRtc_Word16
+int16_t
 *
 target
 /
@@ -410,7 +410,7 @@ first
 array
 *
 /
-WebRtc_Word16
+int16_t
 *
 regressor
 /
@@ -422,7 +422,7 @@ second
 array
 *
 /
-WebRtc_Word16
+int16_t
 subl
 /
 *
@@ -433,7 +433,7 @@ dimension
 arrays
 *
 /
-WebRtc_Word16
+int16_t
 searchLen
 /
 *
@@ -445,7 +445,7 @@ search
 lenght
 *
 /
-WebRtc_Word16
+int16_t
 offset
 /
 *
@@ -458,7 +458,7 @@ between
 arrays
 *
 /
-WebRtc_Word16
+int16_t
 step
 /
 *

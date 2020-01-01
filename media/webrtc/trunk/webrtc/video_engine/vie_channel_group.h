@@ -246,9 +246,6 @@ receiver
 ViEChannel
 *
 channel
-ViEEncoder
-*
-encoder
 )
 ;
 BitrateController
@@ -322,7 +319,7 @@ channels_
 ;
 /
 /
-Regisered
+Registered
 at
 construct
 time

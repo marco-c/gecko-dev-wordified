@@ -275,7 +275,7 @@ a
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kHpInCoefs
 [
 5
@@ -292,7 +292,7 @@ WebRtcIlbcfix_kHpInCoefs
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kHpOutCoefs
 [
 5
@@ -338,7 +338,7 @@ state
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kStartSequenceEnrgWin
 [
 NSUB_MAX
@@ -365,7 +365,7 @@ downsampling
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLpFiltCoefs
 [
 FILTERORDER_DS_PLUS1
@@ -405,7 +405,7 @@ Q15
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLpcWin
 [
 BLOCKL_MAX
@@ -666,7 +666,7 @@ Q15
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLpcAsymWin
 [
 BLOCKL_MAX
@@ -927,7 +927,7 @@ Q31
 *
 /
 const
-WebRtc_Word32
+int32_t
 WebRtcIlbcfix_kLpcLagWin
 [
 LPC_FILTERORDER
@@ -982,7 +982,7 @@ vector
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLpcChirpSyntDenum
 [
 LPC_FILTERORDER
@@ -1032,7 +1032,7 @@ vector
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLpcChirpWeightDenum
 [
 LPC_FILTERORDER
@@ -1063,7 +1063,7 @@ domain
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLsfCb
 [
 64
@@ -2171,7 +2171,7 @@ WebRtcIlbcfix_kLsfCb
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLsfDimCb
 [
 LSF_NSPLIT
@@ -2184,7 +2184,7 @@ LSF_NSPLIT
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLsfSizeCb
 [
 LSF_NSPLIT
@@ -2197,7 +2197,7 @@ LSF_NSPLIT
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLsfMean
 [
 LPC_FILTERORDER
@@ -2217,7 +2217,7 @@ LPC_FILTERORDER
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLspMean
 [
 LPC_FILTERORDER
@@ -2246,7 +2246,7 @@ Q14
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLsfWeight20ms
 [
 4
@@ -2260,7 +2260,7 @@ WebRtcIlbcfix_kLsfWeight20ms
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kLsfWeight30ms
 [
 6
@@ -2306,7 +2306,7 @@ WebRtcIlbcfix_Lsp2Lsf
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kCos
 [
 64
@@ -2438,7 +2438,7 @@ x
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kCosDerivative
 [
 64
@@ -2612,7 +2612,7 @@ COS_GRID_POINTS
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kCosGrid
 [
 COS_GRID_POINTS
@@ -2734,7 +2734,7 @@ WebRtcIlbcfix_Lsp2Lsf
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kAcosDerivative
 [
 64
@@ -2889,7 +2889,7 @@ tables
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kStateSq3
 [
 8
@@ -2955,7 +2955,7 @@ k
 *
 /
 const
-WebRtc_Word32
+int32_t
 WebRtcIlbcfix_kChooseFrgQuant
 [
 64
@@ -3029,7 +3029,7 @@ WEBRTC_SPL_WORD32_MAX
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kScale
 [
 64
@@ -3189,7 +3189,7 @@ Q3
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kFrgQuantMod
 [
 64
@@ -3317,7 +3317,7 @@ flp
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kCbFiltersRev
 [
 CB_FILTERLEN
@@ -3366,7 +3366,7 @@ Q15
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kAlpha
 [
 4
@@ -3392,7 +3392,7 @@ subframes
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kSearchRange
 [
 5
@@ -3430,7 +3430,7 @@ CB_NSTAGES
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kFilterRange
 [
 5
@@ -3467,7 +3467,7 @@ extra
 value
 (
 max
-WebRtc_Word16
+int16_t
 )
 to
 simplify
@@ -3478,7 +3478,7 @@ search
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kGainSq3
 [
 9
@@ -3508,7 +3508,7 @@ extra
 value
 (
 max
-WebRtc_Word16
+int16_t
 )
 to
 simplify
@@ -3519,7 +3519,7 @@ search
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kGainSq4
 [
 17
@@ -3561,7 +3561,7 @@ extra
 value
 (
 max
-WebRtc_Word16
+int16_t
 )
 to
 simplify
@@ -3572,7 +3572,7 @@ search
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kGainSq5
 [
 33
@@ -3624,7 +3624,7 @@ Q14
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kGainSq5Sq
 [
 32
@@ -3666,7 +3666,7 @@ WebRtcIlbcfix_kGainSq5Sq
 }
 ;
 const
-WebRtc_Word16
+int16_t
 *
 const
 WebRtcIlbcfix_kGain
@@ -3698,7 +3698,7 @@ ENH_UPS0
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kEnhPolyPhaser
 [
 ENH_UPS0
@@ -3756,7 +3756,7 @@ ENH_FLO_MULT2_PLUS1
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kEnhWt
 [
 3
@@ -3774,7 +3774,7 @@ Q16
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kEnhPlocs
 [
 ENH_NBLOCKS_TOT
@@ -3807,7 +3807,7 @@ table
 *
 /
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kPlcPerSqr
 [
 6
@@ -3835,7 +3835,7 @@ Q15
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kPlcPitchFact
 [
 6
@@ -3883,7 +3883,7 @@ Q15
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_kPlcPfSlope
 [
 6

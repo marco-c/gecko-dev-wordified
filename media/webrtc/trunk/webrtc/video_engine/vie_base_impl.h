@@ -327,7 +327,7 @@ private
 Version
 functions
 .
-WebRtc_Word32
+int32_t
 AddViEVersion
 (
 char
@@ -336,7 +336,7 @@ str
 )
 const
 ;
-WebRtc_Word32
+int32_t
 AddBuildInfo
 (
 char
@@ -345,7 +345,7 @@ str
 )
 const
 ;
-WebRtc_Word32
+int32_t
 AddExternalTransportBuild
 (
 char

@@ -497,7 +497,7 @@ AudioDeviceUtilityWindows
 AudioDeviceUtilityWindows
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 :
@@ -1063,7 +1063,7 @@ Init
 -
 -
 -
-WebRtc_Word32
+int32_t
 AudioDeviceUtilityWindows
 :
 :

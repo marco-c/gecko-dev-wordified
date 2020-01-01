@@ -252,7 +252,7 @@ h
 void
 WebRtcIlbcfix_EnergyInverse
 (
-WebRtc_Word16
+int16_t
 *
 energy
 /
@@ -289,15 +289,15 @@ vector
 *
 /
 {
-WebRtc_Word32
+int32_t
 Nom
 =
 (
-WebRtc_Word32
+int32_t
 )
 0x1FFFFFFF
 ;
-WebRtc_Word16
+int16_t
 *
 energyPtr
 ;
@@ -390,7 +390,7 @@ energyPtr
 )
 =
 (
-WebRtc_Word16
+int16_t
 )
 WebRtcSpl_DivW32W16
 (
