@@ -4990,13 +4990,7 @@ LightingColorFilter
 Color
 .
 WHITE
-GeckoApp
-.
-mBrowserToolbar
-.
-getHighlightColor
-(
-)
+0xFFFF9500
 )
 )
 ;
