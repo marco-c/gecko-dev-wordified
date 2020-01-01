@@ -3944,6 +3944,9 @@ NS_ERROR_NOT_AVAILABLE
 }
 else
 {
+PRBool
+checkState
+;
 rv
 =
 proxyPrompt
@@ -3960,7 +3963,8 @@ get
 &
 password
 nsnull
-nsnull
+&
+checkState
 &
 value
 )

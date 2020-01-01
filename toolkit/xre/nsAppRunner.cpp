@@ -9819,6 +9819,9 @@ BUTTON_POS_1_DEFAULT
 PRInt32
 button
 ;
+PRBool
+checkState
+;
 rv
 =
 ps
@@ -9834,7 +9837,8 @@ killTitle
 nsnull
 nsnull
 nsnull
-nsnull
+&
+checkState
 &
 button
 )

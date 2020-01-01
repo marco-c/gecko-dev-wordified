@@ -15714,6 +15714,9 @@ isUIForbidden
 )
 )
 {
+PRBool
+checkState
+;
 prompter
 -
 >
@@ -15762,7 +15765,8 @@ nsnull
 nsnull
 nsnull
 nsnull
-nsnull
+&
+checkState
 &
 buttonPressed
 )

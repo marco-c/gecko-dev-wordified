@@ -58635,6 +58635,9 @@ rv
 PRInt32
 buttonPressed
 ;
+PRBool
+checkState
+;
 rv
 =
 prompter
@@ -58679,7 +58682,8 @@ get
 nsnull
 nsnull
 nsnull
-nsnull
+&
+checkState
 &
 buttonPressed
 )
