@@ -13276,7 +13276,7 @@ bCached
 ifdef
 XP_MACOSX
 case
-NPNVpluginDrawingModel
+NPPVpluginDrawingModel
 :
 {
 if
