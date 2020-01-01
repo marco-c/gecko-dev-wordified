@@ -8393,10 +8393,6 @@ vp
 ;
 )
 ;
-+
-+
-guardCount
-;
 return
 &
 exit

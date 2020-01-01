@@ -971,9 +971,6 @@ exit
 bool
 recompileFlag
 ;
-unsigned
-guardCount
-;
 bool
 isGlobal
 (
