@@ -1855,6 +1855,12 @@ defined
 (
 NETBSD
 )
+|
+|
+defined
+(
+OPENBSD
+)
 int
 mib
 [

@@ -2279,12 +2279,11 @@ for
 (
 a
 =
+&
 pool
 -
 >
 first
-.
-next
 ;
 a
 ;
@@ -2307,6 +2306,7 @@ a
 base
 )
 <
+=
 PR_UPTRDIFF
 (
 a
