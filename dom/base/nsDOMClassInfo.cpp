@@ -35744,7 +35744,6 @@ CompileScriptEventListener
 (
 script_cx
 scope
-target
 atom
 did_define
 )
@@ -35780,7 +35779,6 @@ RegisterScriptEventListener
 (
 script_cx
 scope
-target
 atom
 )
 ;
