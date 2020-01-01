@@ -714,7 +714,7 @@ h
 "
 extern
 void
-NS_ShutdownEventTargetChainItemRecyclePool
+NS_ShutdownChainItemPool
 (
 )
 ;
@@ -1907,7 +1907,7 @@ ShutdownStatic
 (
 )
 ;
-NS_ShutdownEventTargetChainItemRecyclePool
+NS_ShutdownChainItemPool
 (
 )
 ;
