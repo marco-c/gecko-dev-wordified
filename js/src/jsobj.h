@@ -2695,6 +2695,7 @@ JSObject
 getGlobal
 (
 )
+const
 ;
 void
 *
@@ -4731,6 +4732,14 @@ JSContext
 *
 cx
 )
+;
+inline
+JSObject
+*
+getThrowTypeError
+(
+)
+const
 ;
 void
 swap
