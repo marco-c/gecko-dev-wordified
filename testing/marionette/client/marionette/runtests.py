@@ -485,11 +485,19 @@ errors
 :
         
 for
-test
-err
+error
 in
 errors
 :
+            
+test
+err
+=
+error
+[
+:
+2
+]
             
 self
 .
@@ -1256,6 +1264,10 @@ MarionetteTestRunner
 object
 )
 :
+    
+textrunnerclass
+=
+MarionetteTextTestRunner
     
 def
 __init__
@@ -3270,12 +3282,14 @@ countTestCases
             
 runner
 =
-MarionetteTextTestRunner
+self
+.
+textrunnerclass
 (
 verbosity
 =
 3
-                                              
+                                          
 marionette
 =
 self
