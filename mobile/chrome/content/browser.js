@@ -6731,15 +6731,7 @@ animatedZoomTo
 rect
 )
 {
-let
-zoom
-=
-new
-AnimatedZoom
-(
-)
-;
-zoom
+animatedZoom
 .
 animateTo
 (
