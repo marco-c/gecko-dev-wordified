@@ -5604,17 +5604,6 @@ DrawTo
 nsnull
 )
 ;
-if
-(
-sGLContext
-)
-sGLContext
--
->
-SwapBuffers
-(
-)
-;
 sview
 .
 EndDrawing
