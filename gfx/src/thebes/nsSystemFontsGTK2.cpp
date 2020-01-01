@@ -1267,9 +1267,9 @@ pango_font_description_get_size
 (
 desc
 )
+)
 /
 PANGO_SCALE
-)
 ;
 /
 /
