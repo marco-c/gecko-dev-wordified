@@ -147,7 +147,11 @@ jstypes
 .
 h
 "
-JS_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 typedef
 uint32_t
 JSHashNumber
@@ -638,9 +642,6 @@ void
 key
 )
 ;
-#
-ifdef
-__cplusplus
 extern
 JSHashEntry
 *
@@ -665,8 +666,6 @@ void
 value
 )
 ;
-#
-endif
 extern
 void
 JS_HashTableRawRemove
@@ -811,7 +810,13 @@ void
 v2
 )
 ;
-JS_END_EXTERN_C
+}
+/
+/
+extern
+"
+C
+"
 #
 endif
 /

@@ -2208,16 +2208,6 @@ h
 #
 endif
 #
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
-#
 ifndef
 CONST
 #
@@ -20583,9 +20573,3 @@ return
 s0
 ;
 }
-#
-ifdef
-__cplusplus
-}
-#
-endif

@@ -9105,7 +9105,11 @@ a
 debugger
 *
 /
-JS_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 JS_EXPORT_API
 (
 void
@@ -9396,4 +9400,10 @@ alltracesListener
 )
 ;
 }
-JS_END_EXTERN_C
+}
+/
+/
+extern
+"
+C
+"

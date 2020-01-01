@@ -318,7 +318,11 @@ XPC_LOG_FINISH
 XPC_Log_Finish
 (
 )
-JS_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 void
 XPC_Log_print
 (
@@ -358,7 +362,13 @@ XPC_Log_Finish
 (
 )
 ;
-JS_END_EXTERN_C
+}
+/
+/
+extern
+"
+C
+"
 #
 else
 #

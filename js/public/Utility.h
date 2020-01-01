@@ -995,7 +995,11 @@ endif
 JS_USE_CUSTOM_ALLOCATOR
 *
 /
-JS_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 /
 *
 *
@@ -1903,7 +1907,13 @@ SUPPORTED
 "
 #
 endif
-JS_END_EXTERN_C
+}
+/
+/
+extern
+"
+C
+"
 /
 *
 *
