@@ -1897,6 +1897,16 @@ true
 ;
 if
 (
+self
+.
+_destroyed
+)
+{
+return
+;
+}
+if
+(
 !
 self
 .
