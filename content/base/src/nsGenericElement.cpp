@@ -447,6 +447,13 @@ nsAttrValueOrString
 h
 "
 #
+include
+"
+nsAttrValueInlines
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #

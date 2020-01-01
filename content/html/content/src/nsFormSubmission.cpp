@@ -173,6 +173,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsISaveAsCharset
 .
 h

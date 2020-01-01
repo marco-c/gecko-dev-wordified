@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

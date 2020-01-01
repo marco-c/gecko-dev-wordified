@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsEventStateManager
 .
 h

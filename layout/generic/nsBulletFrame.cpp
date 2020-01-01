@@ -149,6 +149,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

@@ -247,6 +247,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h

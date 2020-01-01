@@ -272,6 +272,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 prprf
 .
 h

@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsHTMLParts
 .
 h

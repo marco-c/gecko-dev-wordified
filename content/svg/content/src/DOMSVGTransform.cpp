@@ -154,6 +154,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsAttrValueInlines
+.
+h
+"
 namespace
 mozilla
 {

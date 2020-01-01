@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

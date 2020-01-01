@@ -129,6 +129,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsLeafFrame
 .
 h

@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Base64
