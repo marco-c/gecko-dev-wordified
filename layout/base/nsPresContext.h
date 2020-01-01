@@ -2631,6 +2631,17 @@ nsRect
 r
 )
 {
+if
+(
+!
+r
+.
+IsExactEqual
+(
+mVisibleArea
+)
+)
+{
 mVisibleArea
 =
 r
@@ -2663,6 +2674,7 @@ PostMediaFeatureValuesChangedEvent
 (
 )
 ;
+}
 }
 /
 *
