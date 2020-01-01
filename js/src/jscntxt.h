@@ -8953,6 +8953,9 @@ gcMaxBytes
 size_t
 gcMaxMallocBytes
 ;
+size_t
+gcNewArenaTriggerBytes
+;
 uint32
 gcEmptyArenaPoolLifespan
 ;
