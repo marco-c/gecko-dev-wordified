@@ -16024,10 +16024,6 @@ new
 ProfileMigrator
 (
 app
-.
-getContentResolver
-(
-)
 profileDir
 )
 ;
