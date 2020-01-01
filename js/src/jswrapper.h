@@ -2554,7 +2554,6 @@ return
 true
 ;
 }
-;
 }
 ;
 struct
@@ -2607,7 +2606,6 @@ c
 )
 {
 }
-;
 virtual
 bool
 match
@@ -2625,7 +2623,6 @@ c
 ours
 ;
 }
-;
 }
 ;
 struct
@@ -2651,7 +2648,6 @@ p
 )
 {
 }
-;
 virtual
 bool
 match
