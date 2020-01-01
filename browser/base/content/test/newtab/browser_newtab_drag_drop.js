@@ -157,8 +157,8 @@ checkGrid
 yield
 simulateDrop
 (
-1
 0
+1
 )
 ;
 checkGrid
@@ -321,8 +321,8 @@ checkGrid
 yield
 simulateDrop
 (
-3
 0
+3
 )
 ;
 checkGrid
@@ -414,8 +414,8 @@ checkGrid
 yield
 simulateDrop
 (
-0
 2
+0
 )
 ;
 checkGrid
@@ -506,8 +506,8 @@ checkGrid
 yield
 simulateDrop
 (
-8
 2
+8
 )
 ;
 checkGrid
@@ -586,8 +586,8 @@ checkGrid
 yield
 simulateDrop
 (
-4
 0
+4
 )
 ;
 checkGrid
@@ -661,7 +661,7 @@ checkGrid
 )
 ;
 yield
-simulateDrop
+simulateExternalDrop
 (
 0
 )
@@ -749,7 +749,7 @@ checkGrid
 )
 ;
 yield
-simulateDrop
+simulateExternalDrop
 (
 7
 )
@@ -834,7 +834,7 @@ checkGrid
 )
 ;
 yield
-simulateDrop
+simulateExternalDrop
 (
 7
 )
@@ -917,7 +917,7 @@ checkGrid
 )
 ;
 yield
-simulateDrop
+simulateExternalDrop
 (
 1
 )

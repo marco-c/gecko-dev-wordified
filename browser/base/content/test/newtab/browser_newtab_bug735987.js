@@ -75,7 +75,7 @@ checkGrid
 )
 ;
 yield
-simulateDrop
+simulateExternalDrop
 (
 1
 )
@@ -117,7 +117,7 @@ checkGrid
 )
 ;
 yield
-simulateDrop
+simulateExternalDrop
 (
 1
 )
