@@ -3445,7 +3445,7 @@ unicode_value
 +
 ranges
 [
-i
+j
 ]
 .
 additional_count
