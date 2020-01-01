@@ -5331,16 +5331,6 @@ enabled
 false
 )
 ;
-pref
-(
-"
-plugins
-.
-click_to_play
-"
-true
-)
-;
 /
 /
 The
