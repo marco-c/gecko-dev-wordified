@@ -4626,7 +4626,7 @@ which
 ;
 }
 /
-/
+*
 Boolean
 conversion
 for
@@ -4639,6 +4639,8 @@ counters
 .
 .
 '
+*
+/
 operator
 void
 *
