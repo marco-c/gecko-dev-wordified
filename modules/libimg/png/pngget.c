@@ -5853,7 +5853,7 @@ ifdef
 PNG_SET_USER_LIMITS_SUPPORTED
 /
 *
-these
+These
 functions
 were
 added
