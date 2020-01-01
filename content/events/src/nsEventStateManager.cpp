@@ -17213,6 +17213,9 @@ panDirection
 panDirection
 ;
 }
+#
+ifdef
+XP_MACOSX
 static
 bool
 NodeAllowsClickThrough
@@ -17336,6 +17339,8 @@ return
 true
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsEventStateManager
 :
