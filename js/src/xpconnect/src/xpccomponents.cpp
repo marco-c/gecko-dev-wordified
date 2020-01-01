@@ -2227,7 +2227,7 @@ idid
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 cx
 obj
@@ -2243,7 +2243,6 @@ JSPROP_ENUMERATE
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
-nsnull
 )
 ;
 }
@@ -4096,7 +4095,7 @@ idid
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 cx
 obj
@@ -4112,7 +4111,6 @@ JSPROP_ENUMERATE
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
-nsnull
 )
 ;
 }
@@ -5813,7 +5811,7 @@ idid
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 cx
 obj
@@ -5829,7 +5827,6 @@ JSPROP_ENUMERATE
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
-nsnull
 )
 ;
 }
@@ -7393,7 +7390,7 @@ idid
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 cx
 obj
@@ -7409,7 +7406,6 @@ JSPROP_ENUMERATE
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
-nsnull
 )
 ;
 }
@@ -8598,7 +8594,7 @@ idid
 |
 |
 !
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 cx
 obj
@@ -8611,7 +8607,6 @@ JSPROP_ENUMERATE
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
-nsnull
 )
 )
 {
@@ -22332,7 +22327,7 @@ obj
 *
 _retval
 =
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 cx
 obj
@@ -22345,7 +22340,6 @@ JSPROP_ENUMERATE
 JSPROP_PERMANENT
 |
 attrs
-nsnull
 )
 ;
 return
@@ -22850,7 +22844,7 @@ obj
 obj
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 ccx
 aGlobal
@@ -22864,7 +22858,6 @@ nsnull
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
-nsnull
 )
 ;
 }

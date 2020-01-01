@@ -1773,7 +1773,7 @@ IDX_PROTOTYPE
 ;
 if
 (
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 aGlobal
@@ -1790,7 +1790,7 @@ val
 )
 &
 &
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 JSVAL_TO_OBJECT
@@ -1838,7 +1838,7 @@ prototype
 }
 if
 (
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 aGlobal
@@ -1855,7 +1855,7 @@ val
 )
 &
 &
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 JSVAL_TO_OBJECT

@@ -1554,7 +1554,7 @@ IDX_QUERY_INTERFACE
 if
 (
 !
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 cx
 jsobj
@@ -2286,7 +2286,7 @@ jsval
 val
 ;
 return
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 aJSObj
@@ -9230,7 +9230,7 @@ IsIn
 if
 (
 !
-OBJ_SET_PROPERTY
+JS_SetPropertyById
 (
 cx
 out_obj
@@ -10139,7 +10139,7 @@ i
 |
 |
 !
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 cx
 JSVAL_TO_OBJECT
@@ -10437,7 +10437,7 @@ else
 if
 (
 !
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 cx
 JSVAL_TO_OBJECT

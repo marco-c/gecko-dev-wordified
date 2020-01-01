@@ -13532,7 +13532,7 @@ arg
 |
 |
 !
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 JSVAL_TO_OBJECT
@@ -14491,7 +14491,7 @@ arg
 |
 |
 !
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 JSVAL_TO_OBJECT
@@ -15398,7 +15398,7 @@ object
 if
 (
 !
-OBJ_SET_PROPERTY
+JS_SetPropertyById
 (
 ccx
 JSVAL_TO_OBJECT

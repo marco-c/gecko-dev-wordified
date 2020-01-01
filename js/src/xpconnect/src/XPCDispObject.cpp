@@ -1494,7 +1494,7 @@ index
 |
 |
 !
-OBJ_SET_PROPERTY
+JS_SetPropertyById
 (
 ccx
 JSVAL_TO_OBJECT
@@ -2284,7 +2284,7 @@ val
 |
 |
 !
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 JSVAL_TO_OBJECT
