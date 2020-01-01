@@ -63,6 +63,8 @@ TestResult
 as
 _TestResult
 import
+unittest
+import
 inspect
 '
 '
@@ -91,10 +93,8 @@ Usage
 :
 import
 unittest
-from
-mozunit
 import
-MozTestRunner
+mozunit
 if
 __name__
 =
@@ -104,15 +104,10 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (
-testRunner
-=
-MozTestRunner
-(
-)
 )
 '
 '
@@ -515,3 +510,23 @@ printErrorList
         
 return
 result
+def
+main
+(
+*
+args
+)
+:
+    
+unittest
+.
+main
+(
+testRunner
+=
+MozTestRunner
+(
+)
+*
+args
+)
