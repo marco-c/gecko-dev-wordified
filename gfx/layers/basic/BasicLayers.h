@@ -1749,6 +1749,15 @@ mRepeatTransaction
 true
 ;
 }
+bool
+IsRepeatTransaction
+(
+)
+{
+return
+mIsRepeatTransaction
+;
+}
 /
 *
 *
@@ -1968,6 +1977,9 @@ drawing
 .
 bool
 mRepeatTransaction
+;
+bool
+mIsRepeatTransaction
 ;
 }
 ;

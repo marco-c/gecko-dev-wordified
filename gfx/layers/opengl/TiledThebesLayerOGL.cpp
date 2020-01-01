@@ -794,9 +794,15 @@ Or
 mRegionToUpload
 mMainMemoryTiledBuffer
 .
-GetLastPaintRegion
+GetPaintedRegion
 (
 )
+)
+;
+mMainMemoryTiledBuffer
+.
+ClearPaintedRegion
+(
 )
 ;
 }

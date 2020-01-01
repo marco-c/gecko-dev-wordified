@@ -6656,6 +6656,10 @@ mRepeatTransaction
 (
 false
 )
+mIsRepeatTransaction
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -7274,6 +7278,10 @@ mRepeatTransaction
 =
 false
 ;
+mIsRepeatTransaction
+=
+true
+;
 BasicLayerManager
 :
 :
@@ -7290,6 +7298,10 @@ aCallback
 aCallbackData
 aFlags
 )
+;
+mIsRepeatTransaction
+=
+false
 ;
 }
 else
