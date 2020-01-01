@@ -274,16 +274,6 @@ cue
 h
 >
 typedef
-enum
-webvtt_token_type_t
-webvtt_token_type
-;
-typedef
-enum
-webvtt_token_state_t
-webvtt_token_state
-;
-typedef
 struct
 webvtt_cuetext_token_t
 webvtt_cuetext_token
@@ -303,8 +293,8 @@ types
 .
 *
 /
+typedef
 enum
-webvtt_token_type_t
 {
 START_TOKEN
 /
@@ -343,6 +333,7 @@ webvtt_cue_text_text_token
 *
 /
 }
+webvtt_token_type
 ;
 /
 *
@@ -362,8 +353,8 @@ in
 .
 *
 /
+typedef
 enum
-webvtt_token_state_t
 {
 DATA
 /
@@ -524,6 +515,7 @@ character
 *
 /
 }
+webvtt_token_state
 ;
 /
 *
@@ -947,7 +939,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_tokenizer
 (
-webvtt_byte
+const
+char
 *
 *
 position
@@ -1009,7 +1002,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_data_state
 (
-webvtt_byte
+const
+char
 *
 *
 position
@@ -1053,7 +1047,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_escape_state
 (
-webvtt_byte
+const
+char
 *
 *
 position
@@ -1097,7 +1092,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_tag_state
 (
-webvtt_byte
+const
+char
 *
 *
 position
@@ -1143,7 +1139,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_start_tag_state
 (
-webvtt_byte
+const
+char
 *
 *
 position
@@ -1191,7 +1188,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_class_state
 (
-webvtt_byte
+const
+char
 *
 *
 position
@@ -1240,7 +1238,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_annotation_state
 (
-webvtt_byte
+const
+char
 *
 *
 position
@@ -1286,7 +1285,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_end_tag_state
 (
-webvtt_byte
+const
+char
 *
 *
 position
@@ -1332,7 +1332,8 @@ WEBVTT_INTERN
 webvtt_status
 webvtt_timestamp_state
 (
-webvtt_byte
+const
+char
 *
 *
 position

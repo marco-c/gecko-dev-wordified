@@ -331,6 +331,11 @@ WEBVTT_VOICE
 6
 |
 WEBVTT_NODE_INTERNAL
+WEBVTT_LANG
+=
+7
+|
+WEBVTT_NODE_INTERNAL
 /
 *
 *
@@ -366,10 +371,10 @@ nodes
 /
 WEBVTT_HEAD_NODE
 =
-7
+8
 WEBVTT_NODE_INTERNAL_END
 =
-7
+8
 /
 *
 *
@@ -604,6 +609,9 @@ webvtt_internal_node_data_t
 {
 webvtt_string
 annotation
+;
+webvtt_string
+lang
 ;
 webvtt_stringlist
 *
