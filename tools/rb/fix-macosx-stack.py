@@ -914,7 +914,7 @@ strip
 underscores
 ourselves
 (
-workes
+works
 better
 than
 c
@@ -930,6 +930,7 @@ s
 strip
 -
 underscores
+)
     
 cxxfilt_proc
 .
