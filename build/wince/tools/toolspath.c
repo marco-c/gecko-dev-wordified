@@ -1587,6 +1587,10 @@ WM_SDK_INC
 "
 ;
 "
+OGLES_SDK_INC
+"
+;
+"
 WCE_INC
 )
 ;
@@ -1597,6 +1601,10 @@ LIB
 =
 "
 WCE_LIB
+"
+;
+"
+OGLES_SDK_LIB
 "
 ;
 "
