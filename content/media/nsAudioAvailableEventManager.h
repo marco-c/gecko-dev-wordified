@@ -731,7 +731,7 @@ samples
 per
 second
 .
-PRUint64
+float
 mSamplesPerSecond
 ;
 /

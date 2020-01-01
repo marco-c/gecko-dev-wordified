@@ -3116,7 +3116,7 @@ PRUint32
 missingSamples
 )
 channels
-sampleTime
+playedSamples
 )
 ;
 }
