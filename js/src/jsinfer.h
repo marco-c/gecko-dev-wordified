@@ -7420,6 +7420,8 @@ GlobalObject
 *
 global
 ;
+public
+:
 /
 *
 Nesting
@@ -7437,8 +7439,6 @@ TypeScriptNesting
 *
 nesting
 ;
-public
-:
 /
 *
 Dynamic

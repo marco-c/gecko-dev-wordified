@@ -630,6 +630,15 @@ gl
 ShaderProgramType
 mLayerProgram
 ;
+RefPtr
+<
+gfx
+:
+:
+DrawTarget
+>
+mDrawTarget
+;
 void
 MakeTexture
 (

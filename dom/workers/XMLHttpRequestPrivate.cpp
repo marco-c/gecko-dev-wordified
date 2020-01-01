@@ -2796,6 +2796,7 @@ UpdateXHRState
 (
 aCx
 target
+mUploadEvent
 state
 )
 )
@@ -7470,6 +7471,7 @@ UpdateXHRState
 (
 aCx
 target
+true
 state
 )
 |
@@ -7550,6 +7552,7 @@ UpdateXHRState
 (
 aCx
 target
+false
 state
 )
 |

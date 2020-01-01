@@ -7914,6 +7914,7 @@ curr
 -
 >
 typeInferenceMemory
+moz_malloc_usable_size
 )
 ;
 }
@@ -8438,6 +8439,7 @@ curr
 -
 >
 typeInferenceMemory
+moz_malloc_usable_size
 )
 ;
 break

@@ -705,10 +705,6 @@ nsISupports
 >
 mOwner
 ;
-nsISHEntry
-*
-mParent
-;
 nsCString
 mContentType
 ;

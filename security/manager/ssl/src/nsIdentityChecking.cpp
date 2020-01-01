@@ -7964,7 +7964,6 @@ overrides
 .
 if
 (
-!
 mHaveCertErrorBits
 )
 return

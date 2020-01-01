@@ -1120,7 +1120,7 @@ PRInt32
 aPort
 )
 ;
-nsresult
+void
 GetPreviousCert
 (
 nsIX509Cert
@@ -1257,15 +1257,6 @@ PRFileDesc
 *
 mFd
 ;
-nsCOMPtr
-<
-nsIX509Cert
->
-mPreviousCert
-;
-/
-/
-DocShellDependent
 enum
 {
 blocking_state_unknown
@@ -1357,11 +1348,6 @@ ActivateSSL
 nsSSLSocketThreadData
 *
 mThreadData
-;
-nsresult
-EnsureDocShellDependentStuffKnown
-(
-)
 ;
 private
 :

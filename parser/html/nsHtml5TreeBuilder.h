@@ -365,13 +365,6 @@ h
 #
 include
 "
-nsHtml5ByteReadable
-.
-h
-"
-#
-include
-"
 nsHtml5TreeOperation
 .
 h
@@ -415,6 +408,13 @@ h
 include
 "
 nsAHtml5TreeBuilderState
+.
+h
+"
+#
+include
+"
+nsHtml5Highlighter
 .
 h
 "

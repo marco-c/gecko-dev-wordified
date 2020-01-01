@@ -1538,6 +1538,13 @@ SHELL_WRAPPER1
 cameraCallbackBridge
 jbyteArray
 )
+SHELL_WRAPPER2
+(
+notifyBatteryChange
+jfloat
+jboolean
+)
+;
 static
 void
 *
@@ -4191,6 +4198,11 @@ executeNextRunnable
 GETFUNC
 (
 cameraCallbackBridge
+)
+;
+GETFUNC
+(
+notifyBatteryChange
 )
 ;
 #

@@ -1732,6 +1732,16 @@ aStream
 )
 const
 ;
+nsISupports
+*
+GetValue
+(
+)
+{
+return
+mKey
+;
+}
 }
 ;
 class

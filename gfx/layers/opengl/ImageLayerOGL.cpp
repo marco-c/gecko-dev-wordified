@@ -5132,14 +5132,6 @@ return
 }
 #
 endif
-InitTexture
-(
-gl
-tex
-LOCAL_GL_RGBA
-mSize
-)
-;
 mLayerProgram
 =
 gl
@@ -5162,6 +5154,7 @@ mSize
 height
 )
 tex
+true
 )
 ;
 }

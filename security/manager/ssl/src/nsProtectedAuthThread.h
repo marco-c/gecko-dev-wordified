@@ -427,6 +427,9 @@ nsIProtectedAuthThread
 h
 "
 class
+nsIRunnable
+;
+class
 nsProtectedAuthThread
 :
 public
@@ -442,15 +445,12 @@ mMutex
 ;
 nsCOMPtr
 <
-nsIObserver
+nsIRunnable
 >
-mStatusObserver
+mNotifyObserver
 ;
 bool
 mIAmRunning
-;
-bool
-mStatusObserverNotified
 ;
 bool
 mLoginReady

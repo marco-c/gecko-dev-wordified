@@ -5807,7 +5807,7 @@ index
 obj
 -
 >
-getDenseArrayCapacity
+getDenseArrayInitializedLength
 (
 )
 &

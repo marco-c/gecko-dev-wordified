@@ -709,7 +709,7 @@ i8
 *
 (
 (
-PRInt32
+PRInt64
 *
 )
 ap
@@ -733,7 +733,7 @@ i16
 *
 (
 (
-PRInt32
+PRInt64
 *
 )
 ap
@@ -757,7 +757,7 @@ i32
 *
 (
 (
-PRInt32
+PRInt64
 *
 )
 ap
@@ -853,7 +853,7 @@ u8
 *
 (
 (
-PRUint32
+PRUint64
 *
 )
 ap
@@ -877,7 +877,7 @@ u16
 *
 (
 (
-PRUint32
+PRUint64
 *
 )
 ap
@@ -901,7 +901,7 @@ u32
 *
 (
 (
-PRUint32
+PRUint64
 *
 )
 ap
@@ -922,7 +922,6 @@ val
 .
 f
 =
-*
 (
 (
 float
@@ -930,6 +929,9 @@ float
 )
 ap
 )
+[
+1
+]
 ;
 break
 ;
@@ -949,7 +951,7 @@ b
 *
 (
 (
-bool
+PRUint64
 *
 )
 ap
@@ -973,7 +975,7 @@ c
 *
 (
 (
-PRUint32
+PRUint64
 *
 )
 ap
@@ -997,7 +999,7 @@ wc
 *
 (
 (
-PRInt32
+PRInt64
 *
 )
 ap

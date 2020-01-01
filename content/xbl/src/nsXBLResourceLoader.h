@@ -709,6 +709,14 @@ NotifyBoundElements
 (
 )
 ;
+nsresult
+Write
+(
+nsIObjectOutputStream
+*
+aStream
+)
+;
 /
 /
 MEMBER

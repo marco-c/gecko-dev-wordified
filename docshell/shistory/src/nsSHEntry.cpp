@@ -738,6 +738,10 @@ mScrollPositionY
 (
 0
 )
+mParent
+(
+nsnull
+)
 mURIWasModified
 (
 false
@@ -831,6 +835,12 @@ why
 not
 copy
 ?
+mParent
+(
+other
+.
+mParent
+)
 mURIWasModified
 (
 other
@@ -2499,9 +2509,6 @@ aResult
 *
 aResult
 =
-mShared
--
->
 mParent
 ;
 NS_IF_ADDREF
@@ -2559,9 +2566,6 @@ case
 !
 *
 /
-mShared
--
->
 mParent
 =
 aParent

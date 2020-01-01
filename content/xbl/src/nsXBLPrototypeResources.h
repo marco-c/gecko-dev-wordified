@@ -602,6 +602,14 @@ FlushSkinSheets
 (
 )
 ;
+nsresult
+Write
+(
+nsIObjectOutputStream
+*
+aStream
+)
+;
 nsXBLPrototypeResources
 (
 nsXBLPrototypeBinding

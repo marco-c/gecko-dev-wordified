@@ -977,7 +977,7 @@ T_BOOL
 *
 (
 (
-bool
+PRUint64
 *
 )
 l_d
