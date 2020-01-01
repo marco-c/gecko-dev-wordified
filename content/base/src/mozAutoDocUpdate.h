@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+mozAutoDocUpdate_h_
+#
+define
+mozAutoDocUpdate_h_
+#
 include
 "
 nsContentUtils
@@ -438,3 +444,5 @@ mDocument
 ;
 }
 ;
+#
+endif
