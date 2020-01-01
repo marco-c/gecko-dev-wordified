@@ -638,13 +638,6 @@ h
 #
 include
 "
-jsstaticcheck
-.
-h
-"
-#
-include
-"
 vm
 /
 RegExpObject
