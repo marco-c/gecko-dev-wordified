@@ -1352,6 +1352,15 @@ if
 (
 !
 aLangGroup
+|
+|
+aLangGroup
+=
+=
+gfxAtoms
+:
+:
+x_unicode
 )
 {
 return
