@@ -799,11 +799,6 @@ ppdispChild
 )
 ;
 NS_IMETHOD
-Shutdown
-(
-)
-;
-NS_IMETHOD
 FireAnchorJumpEvent
 (
 )
