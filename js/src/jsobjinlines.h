@@ -10365,8 +10365,7 @@ gc
 :
 AllocKind
 kind
-Shape
-*
+HandleShape
 shape
 )
 ;

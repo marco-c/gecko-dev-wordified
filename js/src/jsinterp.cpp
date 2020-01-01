@@ -5483,8 +5483,7 @@ DoIncDec
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
