@@ -881,7 +881,7 @@ apps
 .
 #
 ifdef
-MOZ_OFFICIAL
+MOZ_OFFICIAL_BRANDING
 if
 (
 appType
@@ -1416,7 +1416,7 @@ apps
 .
 #
 ifdef
-MOZ_OFFICIAL
+MOZ_OFFICIAL_BRANDING
 if
 (
 appType
@@ -1878,7 +1878,7 @@ missing
 {
 try
 {
-aDir
+appDir
 .
 remove
 (
