@@ -1884,7 +1884,7 @@ gstreamer
 .
 enabled
 "
-true
+false
 )
 ;
 #
