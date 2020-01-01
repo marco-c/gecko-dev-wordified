@@ -1955,6 +1955,13 @@ jboolean
 jdouble
 )
 ;
+SHELL_WRAPPER1_WITH_RETURN
+(
+canCreateFixupURI
+bool
+jstring
+)
+;
 static
 void
 *
@@ -4623,6 +4630,11 @@ notifyUriVisited
 GETFUNC
 (
 notifyBatteryChange
+)
+;
+GETFUNC
+(
+canCreateFixupURI
 )
 ;
 #
