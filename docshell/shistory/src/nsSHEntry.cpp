@@ -1135,6 +1135,12 @@ other
 .
 mOwner
 )
+mStateData
+(
+other
+.
+mStateData
+)
 mDocShellID
 (
 other
