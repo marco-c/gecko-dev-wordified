@@ -5645,9 +5645,12 @@ resetBufferedGrayRoots
 void
 markBufferedGrayRoots
 (
-JSCompartment
+JS
+:
+:
+Zone
 *
-comp
+zone
 )
 ;
 static
