@@ -536,7 +536,7 @@ return
 NS_ProxyRelease
 (
 target
-doomed
+raw
 alwaysProxy
 )
 ;
