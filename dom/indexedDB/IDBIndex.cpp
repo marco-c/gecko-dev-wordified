@@ -6645,9 +6645,6 @@ cpp
 "
 )
 ;
-FIXME_Bug_521898_index
-:
-:
 GetParams
 params
 ;
@@ -7800,9 +7797,6 @@ if
 mKeyRange
 )
 {
-FIXME_Bug_521898_index
-:
-:
 KeyRange
 keyRange
 ;
@@ -8617,9 +8611,6 @@ cpp
 "
 )
 ;
-FIXME_Bug_521898_index
-:
-:
 GetAllParams
 params
 ;
@@ -8628,9 +8619,6 @@ if
 mKeyRange
 )
 {
-FIXME_Bug_521898_index
-:
-:
 KeyRange
 keyRange
 ;
@@ -10412,9 +10400,6 @@ if
 mKeyRange
 )
 {
-FIXME_Bug_521898_index
-:
-:
 KeyRange
 keyRange
 ;
@@ -12197,9 +12182,6 @@ cpp
 "
 )
 ;
-FIXME_Bug_521898_index
-:
-:
 OpenCursorParams
 params
 ;
@@ -12208,9 +12190,6 @@ if
 mKeyRange
 )
 {
-FIXME_Bug_521898_index
-:
-:
 KeyRange
 keyRange
 ;
@@ -13259,9 +13238,6 @@ cpp
 "
 )
 ;
-FIXME_Bug_521898_index
-:
-:
 CountParams
 params
 ;
@@ -13270,9 +13246,6 @@ if
 mKeyRange
 )
 {
-FIXME_Bug_521898_index
-:
-:
 KeyRange
 keyRange
 ;

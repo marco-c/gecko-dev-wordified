@@ -17209,9 +17209,6 @@ cpp
 "
 )
 ;
-FIXME_Bug_521898_objectstore
-:
-:
 GetParams
 params
 ;
@@ -19470,9 +19467,6 @@ cpp
 "
 )
 ;
-FIXME_Bug_521898_objectstore
-:
-:
 OpenCursorParams
 params
 ;
@@ -19481,9 +19475,6 @@ if
 mKeyRange
 )
 {
-FIXME_Bug_521898_objectstore
-:
-:
 KeyRange
 keyRange
 ;
@@ -21979,9 +21970,6 @@ cpp
 "
 )
 ;
-FIXME_Bug_521898_objectstore
-:
-:
 GetAllParams
 params
 ;
@@ -21990,9 +21978,6 @@ if
 mKeyRange
 )
 {
-FIXME_Bug_521898_objectstore
-:
-:
 KeyRange
 keyRange
 ;
@@ -23178,9 +23163,6 @@ cpp
 "
 )
 ;
-FIXME_Bug_521898_objectstore
-:
-:
 CountParams
 params
 ;
@@ -23189,9 +23171,6 @@ if
 mKeyRange
 )
 {
-FIXME_Bug_521898_objectstore
-:
-:
 KeyRange
 keyRange
 ;

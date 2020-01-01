@@ -8214,9 +8214,6 @@ const
 ipc
 :
 :
-FIXME_Bug_521898_objectstore
-:
-:
 OptionalKeyRange
 keyRangeUnion
 =
@@ -8245,9 +8242,6 @@ case
 ipc
 :
 :
-FIXME_Bug_521898_objectstore
-:
-:
 OptionalKeyRange
 :
 :
@@ -8271,9 +8265,6 @@ break
 ;
 case
 ipc
-:
-:
-FIXME_Bug_521898_objectstore
 :
 :
 OptionalKeyRange
@@ -8847,9 +8838,6 @@ const
 ipc
 :
 :
-FIXME_Bug_521898_objectstore
-:
-:
 OptionalKeyRange
 keyRangeUnion
 =
@@ -8878,9 +8866,6 @@ case
 ipc
 :
 :
-FIXME_Bug_521898_objectstore
-:
-:
 OptionalKeyRange
 :
 :
@@ -8904,9 +8889,6 @@ break
 ;
 case
 ipc
-:
-:
-FIXME_Bug_521898_objectstore
 :
 :
 OptionalKeyRange
@@ -9019,9 +9001,6 @@ const
 ipc
 :
 :
-FIXME_Bug_521898_objectstore
-:
-:
 OptionalKeyRange
 keyRangeUnion
 =
@@ -9050,9 +9029,6 @@ case
 ipc
 :
 :
-FIXME_Bug_521898_objectstore
-:
-:
 OptionalKeyRange
 :
 :
@@ -9076,9 +9052,6 @@ break
 ;
 case
 ipc
-:
-:
-FIXME_Bug_521898_objectstore
 :
 :
 OptionalKeyRange
@@ -9711,9 +9684,6 @@ const
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 keyRangeUnion
 =
@@ -9742,9 +9712,6 @@ case
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 :
 :
@@ -9768,9 +9735,6 @@ break
 ;
 case
 ipc
-:
-:
-FIXME_Bug_521898_index
 :
 :
 OptionalKeyRange
@@ -9893,9 +9857,6 @@ const
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 keyRangeUnion
 =
@@ -9924,9 +9885,6 @@ case
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 :
 :
@@ -9950,9 +9908,6 @@ break
 ;
 case
 ipc
-:
-:
-FIXME_Bug_521898_index
 :
 :
 OptionalKeyRange
@@ -10069,9 +10024,6 @@ const
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 keyRangeUnion
 =
@@ -10100,9 +10052,6 @@ case
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 :
 :
@@ -10126,9 +10075,6 @@ break
 ;
 case
 ipc
-:
-:
-FIXME_Bug_521898_index
 :
 :
 OptionalKeyRange
@@ -10246,9 +10192,6 @@ const
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 keyRangeUnion
 =
@@ -10277,9 +10220,6 @@ case
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 :
 :
@@ -10303,9 +10243,6 @@ break
 ;
 case
 ipc
-:
-:
-FIXME_Bug_521898_objectstore
 :
 :
 OptionalKeyRange
@@ -10440,9 +10377,6 @@ const
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 keyRangeUnion
 =
@@ -10471,9 +10405,6 @@ case
 ipc
 :
 :
-FIXME_Bug_521898_index
-:
-:
 OptionalKeyRange
 :
 :
@@ -10497,9 +10428,6 @@ break
 ;
 case
 ipc
-:
-:
-FIXME_Bug_521898_objectstore
 :
 :
 OptionalKeyRange
