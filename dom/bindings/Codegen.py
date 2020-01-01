@@ -10298,6 +10298,7 @@ return
 (
             
 "
+const
 xpc_qsDOMString
 {
 name
