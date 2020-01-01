@@ -5797,6 +5797,10 @@ doesn
 '
 t
 exist
+imageUri
+=
+null
+;
 }
 int
 notificationID
@@ -5957,6 +5961,13 @@ mAppContext
 aAlertTitle
 aAlertText
 contentIntent
+)
+;
+notification
+.
+setCustomIcon
+(
+imageUri
 )
 ;
 /
