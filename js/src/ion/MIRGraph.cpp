@@ -870,6 +870,10 @@ lir_
 (
 NULL
 )
+start_
+(
+NULL
+)
 successorWithPhis_
 (
 NULL
