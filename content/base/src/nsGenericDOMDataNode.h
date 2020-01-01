@@ -1585,6 +1585,12 @@ nsISMILAttr
 *
 GetAnimatedAttr
 (
+PRInt32
+/
+*
+aNamespaceID
+*
+/
 nsIAtom
 *
 /

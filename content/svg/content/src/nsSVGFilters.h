@@ -1664,6 +1664,14 @@ DidAnimatePreserveAspectRatio
 (
 )
 ;
+virtual
+void
+DidAnimateString
+(
+PRUint8
+aAttrEnum
+)
+;
 /
 /
 nsIDOMSVGFitlerPrimitiveStandardAttributes

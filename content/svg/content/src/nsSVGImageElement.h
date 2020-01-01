@@ -721,6 +721,14 @@ GetStringInfo
 (
 )
 ;
+virtual
+void
+DidAnimateString
+(
+PRUint8
+aAttrEnum
+)
+;
 enum
 {
 X

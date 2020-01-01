@@ -699,6 +699,14 @@ PRUint8
 aAttrEnum
 )
 ;
+virtual
+void
+DidAnimateString
+(
+PRUint8
+aAttrEnum
+)
+;
 /
 /
 nsIContent

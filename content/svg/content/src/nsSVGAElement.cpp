@@ -509,6 +509,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
+PR_TRUE
 }
 {
 &
@@ -517,6 +518,7 @@ nsGkAtoms
 :
 target
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
