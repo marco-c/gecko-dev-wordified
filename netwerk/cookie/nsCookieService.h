@@ -1533,12 +1533,6 @@ PRBool
 aPurgeReadSet
 )
 ;
-mozIStorageConnection
-*
-GetSyncDBConn
-(
-)
-;
 void
 EnsureReadDomain
 (
