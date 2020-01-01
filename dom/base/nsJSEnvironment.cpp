@@ -5081,12 +5081,12 @@ DOMOperationCallback
 ;
 if
 (
-NS_FAILED
+NS_SUCCEEDED
 (
 rv
 )
-|
-|
+&
+&
 (
 buttonPressed
 =
