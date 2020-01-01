@@ -584,15 +584,6 @@ GuardObjects
 .
 h
 "
-#
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -1406,7 +1397,7 @@ empty
 )
 {
 return
-nullptr
+NULL
 ;
 }
 static
@@ -1803,7 +1794,7 @@ empty
 )
 {
 return
-nullptr
+NULL
 ;
 }
 const
