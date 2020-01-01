@@ -519,7 +519,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -642,7 +642,7 @@ class
 nsEventSource
 :
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 public
 nsIEventSource
 public
@@ -678,7 +678,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_INHERITED
 (
 nsEventSource
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 NS_DECL_NSIEVENTSOURCE
 /

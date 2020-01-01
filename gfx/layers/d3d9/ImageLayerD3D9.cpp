@@ -1027,9 +1027,10 @@ nsAutoPtr
 PlanarYCbCrD3D9BackendData
 >
 backendData
-=
+(
 new
 PlanarYCbCrD3D9BackendData
+)
 ;
 PlanarYCbCrImage
 :
@@ -2204,10 +2205,11 @@ nsAutoPtr
 CairoD3D9BackendData
 >
 dat
-=
+(
 new
 CairoD3D9BackendData
 (
+)
 )
 ;
 dat

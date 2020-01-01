@@ -2012,6 +2012,14 @@ JSOp
 op
 )
 ;
+bool
+matchInOrOf
+(
+bool
+*
+isForOfp
+)
+;
 }
 ;
 inline

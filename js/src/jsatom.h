@@ -2019,6 +2019,13 @@ js
 :
 PropertyName
 *
+ofAtom
+;
+js
+:
+:
+PropertyName
+*
 protoAtom
 ;
 js
@@ -3473,9 +3480,9 @@ extern
 void
 js_SweepAtomState
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 extern

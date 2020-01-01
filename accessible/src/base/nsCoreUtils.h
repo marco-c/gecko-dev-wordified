@@ -1410,7 +1410,7 @@ for
 implememntation
 of
 *
-nsIAccessNode
+nsIAccessible
 :
 :
 scrollToPoint

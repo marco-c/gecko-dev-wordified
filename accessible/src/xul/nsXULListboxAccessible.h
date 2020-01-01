@@ -910,7 +910,7 @@ aSetSize
 ;
 virtual
 bool
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 ;

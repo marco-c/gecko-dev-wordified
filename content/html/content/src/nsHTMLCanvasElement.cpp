@@ -1151,7 +1151,7 @@ moz_opaque
 NS_UpdateHint
 (
 retval
-nsChangeHint_RepaintFrame
+NS_STYLE_HINT_VISUAL
 )
 ;
 }

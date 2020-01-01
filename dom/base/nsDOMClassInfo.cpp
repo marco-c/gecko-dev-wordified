@@ -738,7 +738,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -15927,10 +15927,6 @@ nsIDOMDataTransfer
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMDataTransfer
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSDataTransfer
 )
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
@@ -34600,11 +34596,11 @@ JSObject
 parentObj
 )
 {
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 *
 target
 =
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 FromSupports
@@ -34711,11 +34707,11 @@ nsISupports
 aNative
 )
 {
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 *
 target
 =
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 FromSupports

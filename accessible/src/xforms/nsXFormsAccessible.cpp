@@ -481,6 +481,13 @@ h
 #
 include
 "
+Statistics
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -774,6 +781,13 @@ service
 )
 ;
 }
+statistics
+:
+:
+XFormsAccessibleUsed
+(
+)
+;
 }
 /
 /
@@ -1592,7 +1606,7 @@ bool
 nsXFormsAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {
@@ -1802,7 +1816,7 @@ bool
 nsXFormsContainerAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {

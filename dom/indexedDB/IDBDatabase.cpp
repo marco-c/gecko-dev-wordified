@@ -592,6 +592,13 @@ DictionaryHelpers
 .
 h
 "
+#
+include
+"
+nsDOMEventTargetHelper
+.
+h
+"
 USING_INDEXEDDB_NAMESPACE
 namespace
 {

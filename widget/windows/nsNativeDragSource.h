@@ -697,7 +697,7 @@ cursor
 state
 nsCOMPtr
 <
-nsIDOMNSDataTransfer
+nsIDOMDataTransfer
 >
 mDataTransfer
 ;

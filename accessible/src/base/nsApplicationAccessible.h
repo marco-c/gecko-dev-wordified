@@ -593,7 +593,7 @@ nsISupports
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsIAccessNode
+nsIAccessible
 NS_SCRIPTABLE
 NS_IMETHOD
 GetDOMNode
@@ -699,9 +699,6 @@ nsAString
 aLanguage
 )
 ;
-/
-/
-nsIAccessible
 NS_IMETHOD
 GetParent
 (

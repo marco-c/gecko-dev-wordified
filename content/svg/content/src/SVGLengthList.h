@@ -2579,6 +2579,7 @@ PRUint32
 Length
 (
 )
+const
 {
 return
 mList
@@ -2612,6 +2613,7 @@ operator
 PRUint32
 aIndex
 )
+const
 {
 return
 (
