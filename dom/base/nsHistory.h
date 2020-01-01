@@ -510,6 +510,8 @@ nsHistory
 :
 public
 nsIDOMHistory
+public
+nsIDOMHistory_MOZILLA_2_0_BRANCH
 {
 public
 :
@@ -534,6 +536,7 @@ NS_DECL_ISUPPORTS
 /
 nsIDOMHistory
 NS_DECL_NSIDOMHISTORY
+NS_DECL_NSIDOMHISTORY_MOZILLA_2_0_BRANCH
 nsIDocShell
 *
 GetDocShell
