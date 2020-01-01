@@ -620,6 +620,13 @@ LiveConnect
 internals
 *
 /
+#
+include
+"
+jsobj
+.
+h
+"
 static
 JSBool
 JavaClass_convert
