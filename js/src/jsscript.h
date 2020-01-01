@@ -2862,6 +2862,15 @@ struct
 JITScript
 ;
 }
+}
+#
+endif
+#
+ifdef
+JS_ION
+namespace
+js
+{
 namespace
 ion
 {

@@ -680,16 +680,6 @@ JS_ASSERT
 mir
 -
 >
-virtualRegister
-(
-)
-)
-;
-JS_ASSERT
-(
-mir
--
->
 type
 (
 )
