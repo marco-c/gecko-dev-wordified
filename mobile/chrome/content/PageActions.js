@@ -760,6 +760,9 @@ desktop
 -
 notification
 "
+"
+openWebappsManage
+"
 ]
 _forEachPermissions
 :
