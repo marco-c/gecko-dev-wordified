@@ -687,11 +687,6 @@ ContentParent
 *
 gSingleton
 ;
-void
-Cleanup
-(
-)
-;
 /
 /
 Hide
