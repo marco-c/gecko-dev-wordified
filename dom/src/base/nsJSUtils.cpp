@@ -745,6 +745,9 @@ differ
 if
 (
 scriptPrins
+&
+&
+scriptPrins
 !
 =
 aPrincipals
