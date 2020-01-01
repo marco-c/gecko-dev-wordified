@@ -4776,6 +4776,16 @@ RelativeFontChangeHelper
 (
 PRInt32
 aSizeChange
+nsINode
+*
+aNode
+)
+;
+nsresult
+RelativeFontChangeHelper
+(
+PRInt32
+aSizeChange
 nsIDOMNode
 *
 aNode
