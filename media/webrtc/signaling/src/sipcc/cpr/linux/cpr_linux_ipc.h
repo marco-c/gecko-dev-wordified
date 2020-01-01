@@ -123,7 +123,7 @@ layout
 struct
 msgbuffer
 {
-int32_t
+long
 mtype
 ;
 /
