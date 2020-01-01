@@ -7854,6 +7854,10 @@ id
 )
 )
 {
+if
+(
+overwriting
+)
 JS_PUSH_TEMP_ROOT_SPROP
 (
 cx
@@ -7872,6 +7876,10 @@ attrs
 setter
 )
 ;
+if
+(
+overwriting
+)
 JS_POP_TEMP_ROOT
 (
 cx
