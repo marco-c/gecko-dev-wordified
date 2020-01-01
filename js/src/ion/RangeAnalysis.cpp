@@ -2510,7 +2510,7 @@ Range
 rhs
 )
 {
-uint64_t
+int64_t
 lower
 =
 0
@@ -2549,7 +2549,7 @@ lower
 =
 INT_MIN
 ;
-uint64_t
+int64_t
 upper
 =
 lhs
