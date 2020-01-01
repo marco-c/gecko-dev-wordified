@@ -446,7 +446,7 @@ h
 #
 include
 "
-nsEventStateManager
+nsIEventStateManager
 .
 h
 "
@@ -922,7 +922,7 @@ IsEmpty
 )
 )
 {
-nsEventStateManager
+nsIEventStateManager
 *
 stateManager
 =
@@ -938,6 +938,7 @@ if
 aDoReg
 )
 {
+return
 stateManager
 -
 >
@@ -957,6 +958,7 @@ First
 }
 else
 {
+return
 stateManager
 -
 >
@@ -974,9 +976,6 @@ First
 )
 ;
 }
-return
-NS_OK
-;
 }
 return
 NS_ERROR_FAILURE

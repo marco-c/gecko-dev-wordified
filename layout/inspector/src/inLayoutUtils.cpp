@@ -767,7 +767,7 @@ GetPrimaryFrame
 )
 ;
 }
-nsEventStateManager
+nsIEventStateManager
 *
 inLayoutUtils
 :

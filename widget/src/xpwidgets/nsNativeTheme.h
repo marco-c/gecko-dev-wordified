@@ -588,7 +588,7 @@ focus
 etc
 )
 see
-nsEventStateManager
+nsIEventStateManager
 .
 h
 nsEventStates

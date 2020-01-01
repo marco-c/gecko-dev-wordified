@@ -967,6 +967,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsIEventListenerManager
 .
 h

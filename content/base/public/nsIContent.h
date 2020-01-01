@@ -5513,11 +5513,11 @@ full
 content
 state
 use
-nsEventStateManager
+nsIEventStateManager
 .
 Also
 see
-nsEventStateManager
+nsIEventStateManager
 *
 for
 the

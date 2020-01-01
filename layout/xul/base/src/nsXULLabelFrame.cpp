@@ -460,7 +460,7 @@ h
 #
 include
 "
-nsEventStateManager
+nsIEventStateManager
 .
 h
 "
@@ -699,7 +699,7 @@ register
 the
 access
 key
-nsEventStateManager
+nsIEventStateManager
 *
 esm
 =
@@ -711,6 +711,9 @@ PresContext
 EventStateManager
 (
 )
+;
+nsresult
+rv
 ;
 PRUint32
 key
@@ -725,6 +728,8 @@ if
 (
 aDoReg
 )
+rv
+=
 esm
 -
 >
@@ -735,6 +740,8 @@ key
 )
 ;
 else
+rv
+=
 esm
 -
 >
@@ -745,7 +752,7 @@ key
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 /

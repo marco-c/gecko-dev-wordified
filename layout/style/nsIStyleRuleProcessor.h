@@ -970,7 +970,7 @@ states
 are
 defined
 in
-nsEventStates
+nsIEventStateManager
 .
 h
 .

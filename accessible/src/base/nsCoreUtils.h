@@ -863,7 +863,7 @@ given
 element
 by
 *
-nsEventStateManager
+nsIEventStateManager
 or
 0
 if

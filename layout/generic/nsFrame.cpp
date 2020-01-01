@@ -13338,9 +13338,9 @@ should
 process
 this
 one
-if
-(
-!
+PRBool
+eventOK
+;
 aPresContext
 -
 >
@@ -13352,7 +13352,14 @@ EventStateManager
 EventStatusOK
 (
 aEvent
+&
+eventOK
 )
+;
+if
+(
+!
+eventOK
 )
 return
 NS_OK

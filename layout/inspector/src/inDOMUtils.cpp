@@ -552,13 +552,6 @@ nsComputedDOMStyle
 .
 h
 "
-#
-include
-"
-nsEventStateManager
-.
-h
-"
 /
 /
 /
@@ -1631,9 +1624,9 @@ NS_ENSURE_ARG_POINTER
 aElement
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsEventStateManager
+nsIEventStateManager
 >
 esm
 =
@@ -1708,9 +1701,9 @@ NS_ENSURE_ARG_POINTER
 aElement
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsEventStateManager
+nsIEventStateManager
 >
 esm
 =

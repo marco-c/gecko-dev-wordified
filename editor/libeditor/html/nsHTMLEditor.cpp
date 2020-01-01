@@ -789,6 +789,13 @@ nsIParserService
 .
 h
 "
+#
+include
+"
+nsIEventStateManager
+.
+h
+"
 /
 /
 Some

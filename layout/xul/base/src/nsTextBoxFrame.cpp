@@ -595,7 +595,7 @@ h
 #
 include
 "
-nsEventStateManager
+nsIEventStateManager
 .
 h
 "
@@ -6277,6 +6277,9 @@ IsEmpty
 return
 NS_OK
 ;
+nsresult
+rv
+;
 /
 /
 With
@@ -6298,7 +6301,7 @@ register
 the
 access
 key
-nsEventStateManager
+nsIEventStateManager
 *
 esm
 =
@@ -6324,6 +6327,8 @@ if
 (
 aDoReg
 )
+rv
+=
 esm
 -
 >
@@ -6334,6 +6339,8 @@ key
 )
 ;
 else
+rv
+=
 esm
 -
 >
@@ -6344,6 +6351,6 @@ key
 )
 ;
 return
-NS_OK
+rv
 ;
 }

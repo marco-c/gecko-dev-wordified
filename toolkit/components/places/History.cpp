@@ -552,6 +552,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Services

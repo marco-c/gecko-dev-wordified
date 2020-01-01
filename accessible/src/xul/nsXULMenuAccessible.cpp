@@ -2675,7 +2675,7 @@ are
 t
 registered
 by
-nsEventStateManager
+nsIEventStateManager
 .
 nsAutoString
 accesskey

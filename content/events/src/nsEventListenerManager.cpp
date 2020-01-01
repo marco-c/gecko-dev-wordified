@@ -566,6 +566,13 @@ MOZ_SVG
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

@@ -522,7 +522,7 @@ h
 #
 include
 "
-nsEventStateManager
+nsIEventStateManager
 .
 h
 "
@@ -1551,8 +1551,6 @@ if
 mPresContext
 )
 {
-targetFrame
-=
 mPresContext
 -
 >
@@ -1563,6 +1561,8 @@ EventStateManager
 >
 GetEventTarget
 (
+&
+targetFrame
 )
 ;
 }
@@ -1672,8 +1672,6 @@ if
 mPresContext
 )
 {
-targetFrame
-=
 mPresContext
 -
 >
@@ -1684,6 +1682,8 @@ EventStateManager
 >
 GetEventTarget
 (
+&
+targetFrame
 )
 ;
 }
@@ -1910,7 +1910,7 @@ though
 nsIFrame
 *
 targetFrame
-=
+;
 mPresContext
 -
 >
@@ -1921,6 +1921,8 @@ EventStateManager
 >
 GetEventTarget
 (
+&
+targetFrame
 )
 ;
 if

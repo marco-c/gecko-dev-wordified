@@ -589,6 +589,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsICanvasElementExternal
 .
 h

@@ -612,6 +612,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsStyleSet
 .
 h

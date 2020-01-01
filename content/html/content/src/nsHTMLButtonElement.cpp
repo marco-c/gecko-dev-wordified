@@ -537,6 +537,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsIDOMEvent
 .
 h
@@ -2197,7 +2204,7 @@ mEvent
 )
 )
 {
-nsEventStateManager
+nsIEventStateManager
 *
 esm
 =
