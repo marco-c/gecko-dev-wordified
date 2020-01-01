@@ -443,15 +443,6 @@ MarkMessageReadRequest
 aRequest
 )
 ;
-bool
-DoRequest
-(
-const
-GetThreadListRequest
-&
-aRequest
-)
-;
 }
 ;
 }
