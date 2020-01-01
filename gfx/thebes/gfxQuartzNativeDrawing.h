@@ -119,6 +119,17 @@ gfxQuartzSurface
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+BorrowedContext
+.
+h
+"
 class
 gfxQuartzNativeDrawing
 {

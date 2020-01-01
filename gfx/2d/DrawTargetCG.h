@@ -469,6 +469,7 @@ DrawTarget
 public
 :
 friend
+class
 BorrowedCGContext
 ;
 DrawTargetCG

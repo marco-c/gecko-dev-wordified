@@ -93,6 +93,13 @@ MPL
 #
 include
 "
+BorrowedContext
+.
+h
+"
+#
+include
+"
 DrawTargetCG
 .
 h

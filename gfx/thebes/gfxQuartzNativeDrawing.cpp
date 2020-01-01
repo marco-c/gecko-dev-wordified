@@ -120,17 +120,6 @@ quartz
 .
 h
 "
-#
-include
-"
-mozilla
-/
-gfx
-/
-2D
-.
-h
-"
 /
 /
 see
