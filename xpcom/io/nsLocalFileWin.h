@@ -825,6 +825,10 @@ PRBool
 followSymlinks
 PRBool
 move
+PRBool
+skipNtfsAclReset
+=
+PR_FALSE
 )
 ;
 nsresult
