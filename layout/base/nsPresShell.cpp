@@ -30104,6 +30104,12 @@ element
 style
 frame
 .
+bool
+drawBackgroundImage
+;
+bool
+drawBackgroundColor
+;
 mCanvasBackgroundColor
 =
 nsCSSRendering
@@ -30114,6 +30120,8 @@ DetermineBackgroundColor
 mPresContext
 bgStyle
 rootStyleFrame
+drawBackgroundImage
+drawBackgroundColor
 )
 ;
 if
