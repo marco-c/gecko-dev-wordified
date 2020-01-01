@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsPK11TokenDB
 .
 h

@@ -224,6 +224,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 SharedSSLState
 .
 h
