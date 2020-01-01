@@ -5076,7 +5076,7 @@ JSContext
 cx
 )
 ;
-JSBool
+bool
 DeferredRelease
 (
 nsISupports

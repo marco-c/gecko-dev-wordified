@@ -1359,6 +1359,14 @@ nsIMemoryMultiReporterCallback
 namespace
 xpc
 {
+bool
+DeferredRelease
+(
+nsISupports
+*
+obj
+)
+;
 /
 /
 If
