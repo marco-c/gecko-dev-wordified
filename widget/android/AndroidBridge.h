@@ -2328,8 +2328,12 @@ aPageHeight
 )
 ;
 void
-GetViewTransform
+SyncViewportInfo
 (
+const
+nsIntRect
+&
+aDisplayPort
 nsIntPoint
 &
 aScrollOffset
