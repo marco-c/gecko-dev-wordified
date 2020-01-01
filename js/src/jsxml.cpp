@@ -45126,8 +45126,8 @@ fp
 >
 scopeChain
 although
-it
 *
+it
 should
 be
 reachable
@@ -45536,6 +45536,9 @@ fp
 -
 >
 varobj
+(
+cx
+)
 ;
 if
 (
