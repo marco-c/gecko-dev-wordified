@@ -6199,7 +6199,7 @@ nsIFrame
 nsCSSRendering
 :
 :
-FindRootFrame
+FindBackgroundStyleFrame
 (
 nsIFrame
 *
@@ -6489,7 +6489,13 @@ bodyFrame
 )
 {
 return
+nsLayoutUtils
+:
+:
+GetStyleFrame
+(
 bodyFrame
+)
 ;
 }
 }
@@ -6775,7 +6781,7 @@ aForFrame
 )
 {
 return
-FindRootFrame
+FindBackgroundStyleFrame
 (
 aForFrame
 )
