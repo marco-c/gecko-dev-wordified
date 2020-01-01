@@ -10052,6 +10052,12 @@ NS_IS_CONTENT_COMMAND_EVENT
 (
 aEvent
 )
+|
+|
+NS_IS_PLUGIN_EVENT
+(
+aEvent
+)
 ;
 }
 /
