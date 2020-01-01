@@ -983,7 +983,10 @@ zip
 is
 reading
 from
+nsAutoPtr
+<
 nsZipArchive
+>
 mZip
 ;
 /
