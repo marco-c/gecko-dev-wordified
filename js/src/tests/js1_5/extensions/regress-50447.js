@@ -44,7 +44,6 @@ offset
 *
 -
 *
-*
 This
 Source
 Code

@@ -40,10 +40,13 @@ set
 ts
 =
 8
-sw
+sts
 =
 4
 et
+sw
+=
+4
 tw
 =
 99
