@@ -8016,7 +8016,7 @@ object
 *
 /
 {
-js_InitObjectClass
+js_InitEval
 EAGER_ATOM
 (
 eval
