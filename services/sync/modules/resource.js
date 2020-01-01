@@ -2426,7 +2426,6 @@ Observers
 .
 notify
 (
-null
 "
 weave
 :
@@ -2436,6 +2435,7 @@ sync
 :
 status
 "
+null
 "
 stats
 .
@@ -2490,7 +2490,6 @@ Observers
 .
 notify
 (
-null
 "
 weave
 :
@@ -2500,6 +2499,7 @@ sync
 :
 status
 "
+null
 "
 stats
 .

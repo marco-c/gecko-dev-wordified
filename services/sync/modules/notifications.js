@@ -632,7 +632,6 @@ Observers
 .
 notify
 (
-notification
 "
 weave
 :
@@ -640,6 +639,7 @@ notification
 :
 added
 "
+notification
 null
 )
 ;
@@ -687,7 +687,6 @@ Observers
 .
 notify
 (
-notification
 "
 weave
 :
@@ -695,6 +694,7 @@ notification
 :
 removed
 "
+notification
 null
 )
 ;
