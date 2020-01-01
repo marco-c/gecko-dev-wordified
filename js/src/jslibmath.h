@@ -32,6 +32,21 @@ offset
 *
 -
 *
+vim
+:
+set
+ts
+=
+4
+sw
+=
+4
+et
+tw
+=
+79
+:
+*
 *
 *
 *
@@ -764,7 +779,7 @@ XP_WIN
 |
 JSDOUBLE_IS_NaN
 (
-a
+b
 )
 /
 *
@@ -787,7 +802,6 @@ endif
 return
 js_NaN
 ;
-else
 if
 (
 JSDOUBLE_IS_NEG
@@ -804,7 +818,6 @@ b
 return
 js_NegativeInfinity
 ;
-else
 return
 js_PositiveInfinity
 ;
