@@ -1113,6 +1113,9 @@ it
 PRPackedBool
 mInPluginInitCall
 ;
+nsXPIDLCString
+mFakeURL
+;
 private
 :
 nsNPAPIPlugin
