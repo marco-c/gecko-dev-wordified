@@ -1087,6 +1087,15 @@ mode
 )
 ;
 }
+if
+(
+!
+surface
+)
+{
+return
+;
+}
 compositor
 -
 >
