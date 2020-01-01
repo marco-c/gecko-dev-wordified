@@ -455,6 +455,13 @@ nsDOMStorageBaseDB
 h
 "
 #
+include
+"
+AudioChannelService
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1878,6 +1885,13 @@ ShutDown
 )
 ;
 nsDOMMutationObserver
+:
+:
+Shutdown
+(
+)
+;
+AudioChannelService
 :
 :
 Shutdown
