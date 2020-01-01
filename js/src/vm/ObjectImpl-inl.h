@@ -183,7 +183,7 @@ Debug_SetSlotRangeToCrashOnTouch
 HeapSlot
 *
 vec
-size_t
+uint32_t
 len
 )
 {
@@ -434,7 +434,7 @@ ObjectImpl
 :
 getDenseArrayElement
 (
-unsigned
+uint32_t
 idx
 )
 {
@@ -469,9 +469,9 @@ ObjectImpl
 :
 getSlotRangeUnchecked
 (
-size_t
+uint32_t
 start
-size_t
+uint32_t
 length
 HeapSlot
 *
@@ -509,7 +509,7 @@ length
 start
 )
 ;
-size_t
+uint32_t
 fixed
 =
 numFixedSlots
@@ -567,7 +567,7 @@ NULL
 }
 else
 {
-size_t
+uint32_t
 localCopy
 =
 fixed
@@ -666,9 +666,9 @@ ObjectImpl
 :
 getSlotRange
 (
-size_t
+uint32_t
 start
-size_t
+uint32_t
 length
 HeapSlot
 *
@@ -720,9 +720,9 @@ ObjectImpl
 :
 hasContiguousSlots
 (
-size_t
+uint32_t
 start
-size_t
+uint32_t
 count
 )
 const
@@ -793,9 +793,9 @@ ObjectImpl
 :
 invalidateSlotRange
 (
-size_t
+uint32_t
 start
-size_t
+uint32_t
 length
 )
 {
@@ -864,9 +864,9 @@ ObjectImpl
 :
 initializeSlotRange
 (
-size_t
+uint32_t
 start
-size_t
+uint32_t
 length
 )
 {
@@ -931,7 +931,7 @@ compartment
 (
 )
 ;
-size_t
+uint32_t
 offset
 =
 start
@@ -1047,7 +1047,7 @@ ObjectImpl
 :
 nativeGetSlotRef
 (
-unsigned
+uint32_t
 slot
 )
 {
@@ -1089,7 +1089,7 @@ ObjectImpl
 :
 nativeGetSlot
 (
-unsigned
+uint32_t
 slot
 )
 const
@@ -1127,7 +1127,7 @@ ObjectImpl
 :
 setSlot
 (
-unsigned
+uint32_t
 slot
 const
 js
@@ -1174,7 +1174,7 @@ ObjectImpl
 :
 initSlot
 (
-unsigned
+uint32_t
 slot
 const
 js
@@ -1233,7 +1233,7 @@ ObjectImpl
 :
 initSlotUnchecked
 (
-unsigned
+uint32_t
 slot
 const
 js
@@ -1273,7 +1273,7 @@ ObjectImpl
 :
 setFixedSlot
 (
-unsigned
+uint32_t
 slot
 const
 js
@@ -1323,7 +1323,7 @@ ObjectImpl
 :
 initFixedSlot
 (
-unsigned
+uint32_t
 slot
 const
 js
@@ -1409,7 +1409,7 @@ slotSpan
 ;
 }
 inline
-size_t
+uint32_t
 js
 :
 :
@@ -1596,7 +1596,7 @@ static
 *
 /
 inline
-size_t
+uint32_t
 js
 :
 :
@@ -1605,9 +1605,9 @@ ObjectImpl
 :
 dynamicSlotsCount
 (
-size_t
+uint32_t
 nfixed
-size_t
+uint32_t
 span
 )
 {
@@ -1636,7 +1636,7 @@ SLOT_CAPACITY_MIN
 return
 SLOT_CAPACITY_MIN
 ;
-size_t
+uint32_t
 slots
 =
 RoundUpPow2
@@ -2183,7 +2183,7 @@ ObjectImpl
 :
 getPrivate
 (
-size_t
+uint32_t
 nfixed
 )
 const
