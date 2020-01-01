@@ -670,6 +670,15 @@ JSObject
 iterobj
 )
 ;
+extern
+JSBool
+js_ThrowStopIteration
+(
+JSContext
+*
+cx
+)
+;
 #
 if
 JS_HAS_GENERATORS
