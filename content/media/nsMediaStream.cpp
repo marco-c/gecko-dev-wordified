@@ -3050,14 +3050,6 @@ rv
 rv
 )
 ;
-crossSiteListener
--
->
-AllowHTTPResult
-(
-HTTP_REQUESTED_RANGE_NOT_SATISFIABLE_CODE
-)
-;
 }
 else
 {
