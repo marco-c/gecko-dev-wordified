@@ -12365,8 +12365,13 @@ else
 if
 (
 aNextFrameIndex
+!
 =
-=
+mAnim
+-
+>
+lastCompositedFrameIndex
++
 1
 )
 {
