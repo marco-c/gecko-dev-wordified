@@ -2285,6 +2285,14 @@ if
 SyntheticGestures
 .
 touchSupported
+|
+|
+!
+target
+.
+ownerDocument
+.
+createTouch
 )
 {
 console
@@ -2313,6 +2321,7 @@ then
 x
 y
 t
+true
 )
 ;
 }
