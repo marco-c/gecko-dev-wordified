@@ -17332,13 +17332,6 @@ value
 =
 value
 ;
-gURLBar
-.
-valueIsTyped
-=
-!
-valid
-;
 SetPageProxyState
 (
 valid
