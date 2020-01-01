@@ -2957,11 +2957,14 @@ the
 heap
 .
 )
-nsAutoTArray
+nsAutoArrayBase
+<
+nsTArray_Impl
 <
 uint8_t
-64
 Alloc
+>
+64
 >
 temp
 ;

@@ -237,16 +237,6 @@ nsCSSStyleSheet
 class
 nsPresContext
 ;
-template
-<
-class
-E
-class
-A
->
-class
-nsTArray
-;
 namespace
 mozilla
 {
