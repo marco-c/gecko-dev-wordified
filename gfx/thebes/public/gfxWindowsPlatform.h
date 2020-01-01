@@ -804,6 +804,12 @@ void
 userArg
 )
 ;
+virtual
+cmsHPROFILE
+GetPlatformCMSOutputProfile
+(
+)
+;
 nsDataHashtable
 <
 nsStringHashKey
