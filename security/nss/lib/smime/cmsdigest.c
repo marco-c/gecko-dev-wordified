@@ -63,9 +63,6 @@ CMS
 digesting
 .
 *
-*
-Id
-*
 /
 #
 include

@@ -65,9 +65,6 @@ database
 handling
 code
 *
-*
-Id
-*
 /
 #
 include

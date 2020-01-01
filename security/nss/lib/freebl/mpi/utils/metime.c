@@ -12,9 +12,6 @@ timing
 test
 *
 *
-Id
-*
-*
 This
 Source
 Code
@@ -69,11 +66,6 @@ MPL
 0
 /
 .
-*
-/
-/
-*
-Id
 *
 /
 #

@@ -73,11 +73,6 @@ ssl3con
 c
 *
 /
-/
-*
-Id
-*
-/
 #
 include
 "

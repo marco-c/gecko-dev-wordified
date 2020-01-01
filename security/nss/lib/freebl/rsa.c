@@ -70,9 +70,6 @@ key
 op
 .
 *
-*
-Id
-*
 /
 #
 ifdef

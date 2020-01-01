@@ -64,9 +64,6 @@ signerInfo
 methods
 .
 *
-*
-Id
-*
 /
 #
 include

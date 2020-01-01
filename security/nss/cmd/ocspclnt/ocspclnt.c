@@ -68,9 +68,6 @@ side
 OCSP
 .
 *
-*
-Id
-*
 /
 #
 include

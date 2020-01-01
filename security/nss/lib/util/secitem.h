@@ -86,9 +86,6 @@ handling
 *
 SECItems
 *
-*
-Id
-*
 /
 #
 include

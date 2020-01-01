@@ -68,9 +68,6 @@ binary
 )
 .
 *
-*
-Id
-*
 /
 #
 include

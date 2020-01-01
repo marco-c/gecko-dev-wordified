@@ -73,9 +73,6 @@ are
 exported
 .
 *
-*
-Id
-*
 /
 #
 include

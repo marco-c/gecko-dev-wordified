@@ -64,9 +64,6 @@ message
 methods
 .
 *
-*
-Id
-*
 /
 #
 include

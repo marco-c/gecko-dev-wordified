@@ -65,9 +65,6 @@ secpkcs7
 .
 c
 *
-*
-Id
-*
 /
 #
 include

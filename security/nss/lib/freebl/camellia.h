@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-*
-Id
-*
-/
 #
 ifndef
 _CAMELLIA_H_

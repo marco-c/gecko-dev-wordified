@@ -64,9 +64,6 @@ contentInfo
 methods
 .
 *
-*
-Id
-*
 /
 #
 include

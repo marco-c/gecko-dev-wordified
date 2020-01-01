@@ -56,11 +56,6 @@ zlib
 distribution
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _ZCONF_H

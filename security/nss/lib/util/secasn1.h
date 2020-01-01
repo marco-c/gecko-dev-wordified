@@ -101,9 +101,6 @@ other
 use
 .
 *
-*
-Id
-*
 /
 #
 ifndef

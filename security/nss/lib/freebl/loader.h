@@ -71,11 +71,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _LOADER_H_

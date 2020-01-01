@@ -64,9 +64,6 @@ array
 functions
 .
 *
-*
-Id
-*
 /
 #
 include

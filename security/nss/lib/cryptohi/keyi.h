@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _KEYI_H_

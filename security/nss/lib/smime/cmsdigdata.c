@@ -64,9 +64,6 @@ digestedData
 methods
 .
 *
-*
-Id
-*
 /
 #
 include

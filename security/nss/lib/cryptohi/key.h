@@ -58,11 +58,6 @@ MPL
 /
 /
 *
-Id
-*
-/
-/
-*
 This
 header
 is

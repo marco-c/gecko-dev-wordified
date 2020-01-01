@@ -72,11 +72,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _SECDIG_H_

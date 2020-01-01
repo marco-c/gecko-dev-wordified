@@ -74,11 +74,6 @@ ssl3ecc
 c
 *
 /
-/
-*
-Id
-*
-/
 #
 include
 "

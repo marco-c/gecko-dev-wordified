@@ -70,11 +70,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _BLAPIT_H_
@@ -490,7 +485,7 @@ ifdef
 NSS_ECC_MORE_THAN_SUITE_B
 #
 define
-EC_MAX_KEY
+EC_MAX_KEY_BITS
 571
 /
 *
@@ -500,7 +495,7 @@ bits
 /
 #
 define
-EC_MIN_KEY
+EC_MIN_KEY_BITS
 112
 /
 *
@@ -512,7 +507,7 @@ bits
 else
 #
 define
-EC_MAX_KEY
+EC_MAX_KEY_BITS
 521
 /
 *
@@ -522,7 +517,7 @@ bits
 /
 #
 define
-EC_MIN_KEY
+EC_MIN_KEY_BITS
 256
 /
 *

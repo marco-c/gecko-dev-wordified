@@ -63,9 +63,6 @@ CMS
 decoding
 .
 *
-*
-Id
-*
 /
 #
 include

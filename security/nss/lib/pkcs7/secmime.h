@@ -94,9 +94,6 @@ interoperability
 etc
 .
 *
-*
-Id
-*
 /
 #
 ifndef

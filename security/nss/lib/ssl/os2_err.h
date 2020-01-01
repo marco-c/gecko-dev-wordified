@@ -146,11 +146,6 @@ MPL
 /
 /
 *
-Id
-*
-/
-/
-*
 NSPR
 doesn
 '

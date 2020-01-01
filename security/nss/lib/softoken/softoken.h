@@ -72,11 +72,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _SOFTOKEN_H_

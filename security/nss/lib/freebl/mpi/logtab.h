@@ -69,11 +69,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 const
 float
 s_logv_2

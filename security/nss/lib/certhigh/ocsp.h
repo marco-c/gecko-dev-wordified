@@ -66,9 +66,6 @@ OCSP
 implementation
 .
 *
-*
-Id
-*
 /
 #
 ifndef

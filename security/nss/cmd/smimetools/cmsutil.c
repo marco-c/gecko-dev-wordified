@@ -70,9 +70,6 @@ with
 CMS
 data
 *
-*
-Id
-*
 /
 #
 include

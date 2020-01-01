@@ -74,9 +74,6 @@ entries
 extensions
 .
 *
-*
-Id
-*
 /
 #
 include

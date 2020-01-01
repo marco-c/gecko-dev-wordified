@@ -87,9 +87,6 @@ both
 .
 )
 *
-*
-Id
-*
 /
 #
 include

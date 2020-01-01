@@ -72,9 +72,6 @@ enveloped
 data
 .
 *
-*
-Id
-*
 /
 #
 include

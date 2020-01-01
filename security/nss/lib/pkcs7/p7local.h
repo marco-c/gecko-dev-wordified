@@ -165,9 +165,6 @@ as
 appropriate
 !
 *
-*
-Id
-*
 /
 #
 ifndef

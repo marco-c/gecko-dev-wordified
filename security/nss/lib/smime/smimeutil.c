@@ -70,9 +70,6 @@ and
 interoperability
 .
 *
-*
-Id
-*
 /
 #
 include

@@ -75,9 +75,6 @@ export
 *
 control
 *
-*
-Id
-*
 /
 #
 ifndef

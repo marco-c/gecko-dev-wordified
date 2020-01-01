@@ -73,9 +73,6 @@ the
 certdb
 module
 *
-*
-Id
-*
 /
 #
 ifndef

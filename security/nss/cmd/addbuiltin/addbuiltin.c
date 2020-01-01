@@ -67,9 +67,6 @@ CA
 certs
 .
 *
-*
-Id
-*
 /
 #
 include

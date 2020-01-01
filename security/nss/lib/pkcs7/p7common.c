@@ -76,9 +76,6 @@ or
 decoding
 .
 *
-*
-Id
-*
 /
 #
 include

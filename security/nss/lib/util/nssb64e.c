@@ -68,9 +68,6 @@ ascii
 )
 .
 *
-*
-Id
-*
 /
 #
 include

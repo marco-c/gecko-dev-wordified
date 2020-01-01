@@ -71,9 +71,6 @@ handle
 blobs
 .
 *
-*
-Id
-*
 /
 #
 include

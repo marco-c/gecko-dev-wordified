@@ -144,16 +144,6 @@ by
 flex
 *
 /
-/
-*
-Scanner
-skeleton
-version
-:
-*
-Header
-*
-/
 #
 define
 FLEX_SCANNER

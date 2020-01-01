@@ -64,9 +64,6 @@ recipient
 list
 functions
 *
-*
-Id
-*
 /
 #
 include

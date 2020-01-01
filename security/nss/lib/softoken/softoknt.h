@@ -71,11 +71,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _SOFTOKNT_H_

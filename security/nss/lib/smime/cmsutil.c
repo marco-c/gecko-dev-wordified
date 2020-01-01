@@ -65,9 +65,6 @@ utility
 functions
 .
 *
-*
-Id
-*
 /
 #
 include

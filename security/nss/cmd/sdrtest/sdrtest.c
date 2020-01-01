@@ -71,9 +71,6 @@ Ring
 functions
 .
 *
-*
-Id
-*
 /
 #
 include
