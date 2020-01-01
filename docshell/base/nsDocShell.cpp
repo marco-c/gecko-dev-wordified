@@ -809,13 +809,6 @@ h
 #
 include
 "
-nsICanvasFrame
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h
