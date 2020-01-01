@@ -733,11 +733,10 @@ expect
 '
 SyntaxError
 :
-let
-is
-a
-reserved
-identifier
+invalid
+for
+each
+loop
 '
 ;
 try
