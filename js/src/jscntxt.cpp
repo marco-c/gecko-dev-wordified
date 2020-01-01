@@ -5496,10 +5496,8 @@ key
 id
 ;
 }
-JS_PUBLIC_API
-(
+static
 JSBool
-)
 resolving_MatchEntry
 (
 JSDHashTable
