@@ -18339,7 +18339,7 @@ ctor
 leaves
 the
 Value
-udnefined
+undefined
 *
 /
 size_t
@@ -18435,7 +18435,7 @@ ctor
 leaves
 the
 Value
-udnefined
+undefined
 *
 /
 if
@@ -18714,11 +18714,11 @@ jsid
 '
 s
 default
-constructor
+ctor
 leaves
 the
 jsid
-udnefined
+undefined
 *
 /
 size_t
@@ -18810,11 +18810,11 @@ jsid
 '
 s
 default
-constructor
+ctor
 leaves
 the
 jsid
-udnefined
+undefined
 *
 /
 if
