@@ -15820,7 +15820,6 @@ getRegExp
 (
 index
 )
-NULL
 )
 ;
 if
