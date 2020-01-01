@@ -1337,7 +1337,7 @@ retRegs
 ]
 )
 ;
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -2022,7 +2022,7 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
@@ -2156,7 +2156,7 @@ FP
 )
 ;
 }
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -2218,7 +2218,7 @@ r
 int32_t
 d
 =
-disp
+deprecated_disp
 (
 i
 )
@@ -2247,7 +2247,7 @@ if
 i
 -
 >
-getArIndex
+deprecated_getArIndex
 (
 )
 )
@@ -2255,7 +2255,7 @@ getArIndex
 i
 -
 >
-markAsClear
+deprecated_markAsClear
 (
 )
 ;
@@ -2712,14 +2712,14 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
 int
 dr
 =
-disp
+deprecated_disp
 (
 ins
 )
@@ -2765,9 +2765,8 @@ GpRegs
 ins
 -
 >
-setReg
+clearReg
 (
-UnknownReg
 )
 ;
 /
@@ -2799,7 +2798,7 @@ rb
 db
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -2810,7 +2809,7 @@ if
 rr
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 {
 NanoAssert
@@ -3288,10 +3287,11 @@ Register
 rv
 =
 (
+!
 value
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -3304,7 +3304,7 @@ FpRegs
 value
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -4118,7 +4118,7 @@ regs
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 AllowableFlagRegs
@@ -4286,7 +4286,7 @@ opcode
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 AllowableFlagRegs
@@ -4524,7 +4524,7 @@ oprnd2
 Register
 rb
 =
-UnknownReg
+deprecated_UnknownReg
 ;
 RegisterMask
 allow
@@ -4573,7 +4573,7 @@ ins
 )
 =
 =
-UnknownReg
+deprecated_UnknownReg
 )
 {
 rb
@@ -4640,7 +4640,7 @@ lea
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -4678,7 +4678,7 @@ L2
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -4716,10 +4716,11 @@ Register
 ra
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -4732,7 +4733,7 @@ rr
 lhs
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -5103,7 +5104,7 @@ opcode
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -5152,10 +5153,11 @@ Register
 ra
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -5168,7 +5170,7 @@ rr
 lhs
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -5259,7 +5261,7 @@ disp
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -5469,7 +5471,7 @@ const
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -5762,7 +5764,7 @@ underrunProtect
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -5827,7 +5829,7 @@ paramKind
 (
 )
 ;
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -5858,7 +5860,7 @@ underrunProtect
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -5917,7 +5919,7 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
@@ -5926,7 +5928,7 @@ if
 rr
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 {
 /
@@ -5952,9 +5954,8 @@ rr
 ins
 -
 >
-setReg
+clearReg
 (
-UnknownReg
 )
 ;
 NanoAssert
@@ -5980,7 +5981,7 @@ ins
 int
 d
 =
-disp
+deprecated_disp
 (
 ins
 )
@@ -6014,12 +6015,12 @@ here
 int
 d
 =
-disp
+deprecated_disp
 (
 ins
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -6099,7 +6100,7 @@ underrunProtect
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -6158,10 +6159,11 @@ Register
 ra
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -6267,7 +6269,7 @@ FpRegs
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -6359,7 +6361,7 @@ goes
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -6416,7 +6418,7 @@ goes
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -6972,7 +6974,7 @@ ins
 )
 {
 return
-UnknownReg
+deprecated_UnknownReg
 ;
 }
 void

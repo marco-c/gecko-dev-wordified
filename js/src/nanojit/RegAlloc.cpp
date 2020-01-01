@@ -541,7 +541,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 ;
 return

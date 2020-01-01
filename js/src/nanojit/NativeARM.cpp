@@ -5682,7 +5682,7 @@ LIR_qjoin
 Register
 fp_reg
 =
-UnknownReg
+deprecated_UnknownReg
 ;
 if
 (
@@ -6468,7 +6468,7 @@ if
 p
 -
 >
-hasKnownReg
+deprecated_hasKnownReg
 (
 )
 )
@@ -6537,7 +6537,7 @@ r
 p
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -6691,7 +6691,7 @@ rr
 arg
 -
 >
-getReg
+deprecated_getReg
 (
 )
 isKnownReg
@@ -7193,7 +7193,7 @@ a
 call
 to
 *
-prepResultReg
+deprecated_prepResultReg
 (
 R0
 )
@@ -7221,7 +7221,7 @@ R0
 .
 However
 *
-prepResultReg
+deprecated_prepResultReg
 is
 not
 aware
@@ -7282,7 +7282,7 @@ described
 }
 else
 {
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -7549,7 +7549,7 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
@@ -7578,7 +7578,7 @@ rr
 int
 d
 =
-disp
+deprecated_disp
 (
 ins
 )
@@ -7591,7 +7591,7 @@ d
 0
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -7667,7 +7667,7 @@ VFP
 result
 register
 .
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -9976,7 +9976,7 @@ FP
 d
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -10161,7 +10161,7 @@ asm_add_imm
 (
 r
 FP
-disp
+deprecated_disp
 (
 i
 )
@@ -10185,7 +10185,7 @@ if
 i
 -
 >
-getArIndex
+deprecated_getArIndex
 (
 )
 )
@@ -10193,7 +10193,7 @@ getArIndex
 i
 -
 >
-markAsClear
+deprecated_markAsClear
 (
 )
 ;
@@ -10774,14 +10774,14 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
 int
 d
 =
-disp
+deprecated_disp
 (
 ins
 )
@@ -10803,7 +10803,7 @@ rb
 )
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -11615,7 +11615,7 @@ asm_quad
 int
 d
 =
-disp
+deprecated_disp
 (
 ins
 )
@@ -11626,11 +11626,11 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -11867,7 +11867,7 @@ LInsp
 )
 {
 return
-UnknownReg
+deprecated_UnknownReg
 ;
 }
 /
@@ -11999,7 +11999,7 @@ have
 /
 /
 called
-freeRsrcOf
+deprecated_freeRsrcOf
 and
 allocating
 a
@@ -12025,7 +12025,7 @@ freed
 by
 /
 /
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 resulting
 in
@@ -16630,7 +16630,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -16696,7 +16696,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -16768,7 +16768,7 @@ goes
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -16824,7 +16824,7 @@ oprnd1
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -16834,10 +16834,11 @@ Register
 sr
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -16850,7 +16851,7 @@ FpRegs
 lhs
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -16926,7 +16927,7 @@ rb
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -18105,7 +18106,7 @@ regs
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 AllowableFlagRegs
@@ -18223,7 +18224,7 @@ ins
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 AllowableFlagRegs
@@ -18505,7 +18506,7 @@ register
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -18546,10 +18547,11 @@ Register
 ra
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -18562,7 +18564,7 @@ rr
 lhs
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -18820,7 +18822,7 @@ constant
 Register
 rs
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -19942,7 +19944,7 @@ opcode
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -19993,10 +19995,11 @@ Register
 ra
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -20009,7 +20012,7 @@ rr
 lhs
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -20087,7 +20090,7 @@ disp
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -20444,7 +20447,7 @@ const
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -20762,7 +20765,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -20810,7 +20813,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -20935,7 +20938,7 @@ incoming
 arg
 in
 register
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -20968,7 +20971,7 @@ genPrologue
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -21005,7 +21008,7 @@ else
 /
 saved
 param
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -21032,7 +21035,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs

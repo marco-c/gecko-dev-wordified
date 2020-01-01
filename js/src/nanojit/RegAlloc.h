@@ -467,24 +467,6 @@ __nanojit_RegAlloc__
 namespace
 nanojit
 {
-inline
-RegisterMask
-rmask
-(
-Register
-r
-)
-{
-return
-RegisterMask
-(
-1
-)
-<
-<
-r
-;
-}
 class
 RegAlloc
 {
@@ -529,7 +511,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 ;
 return
@@ -622,7 +604,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 ;
 NanoAssert
@@ -661,7 +643,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 ;
 NanoAssert
@@ -703,7 +685,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 ;
 NanoAssert
@@ -747,7 +729,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 ;
 NanoAssert
@@ -789,7 +771,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 &
 &
 active
@@ -819,7 +801,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 ;
 return
@@ -1274,7 +1256,7 @@ s
 reservation
 names
 '
-UnknownReg
+deprecated_UnknownReg
 '
 then
 LIns

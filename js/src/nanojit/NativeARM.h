@@ -871,7 +871,7 @@ R0
 LastReg
 =
 D6
-UnknownReg
+deprecated_UnknownReg
 =
 32
 /
