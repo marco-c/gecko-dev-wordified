@@ -7597,6 +7597,9 @@ extractNonDoubleType
 )
 ;
 }
+#
+ifdef
+DEBUG
 JSWhyMagic
 whyMagic
 (
@@ -7614,6 +7617,8 @@ whyMagic
 )
 ;
 }
+#
+endif
 }
 ;
 /
