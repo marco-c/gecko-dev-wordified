@@ -3459,9 +3459,9 @@ homepageUrl
 Favicons
 favicons
 =
-mActivity
+Favicons
 .
-getFavicons
+getInstance
 (
 )
 ;

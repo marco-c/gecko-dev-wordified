@@ -3743,7 +3743,9 @@ tab
 long
 id
 =
-getFavicons
+Favicons
+.
+getInstance
 (
 )
 .
@@ -3957,7 +3959,9 @@ pending
 favicon
 load
 task
-getFavicons
+Favicons
+.
+getInstance
 (
 )
 .
