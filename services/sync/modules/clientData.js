@@ -955,6 +955,7 @@ refresh
 function
 ClientData_refresh
 (
+onComplete
 )
 {
 this
