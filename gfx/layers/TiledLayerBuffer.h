@@ -1308,6 +1308,7 @@ negative
 numbers
 .
 static
+inline
 int
 floor_div
 (
