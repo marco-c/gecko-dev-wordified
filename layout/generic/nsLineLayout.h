@@ -3282,6 +3282,9 @@ mMaxTopBoxHeight
 nscoord
 mMaxBottomBoxHeight
 ;
+nscoord
+mInflationMinFontSize
+;
 /
 /
 Final

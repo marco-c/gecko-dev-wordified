@@ -30567,6 +30567,12 @@ GetStyleContext
 (
 )
 NS_AUTOHEIGHT
+aFrame
+-
+>
+GetFontSizeInflation
+(
+)
 )
 ;
 gfxFloat
