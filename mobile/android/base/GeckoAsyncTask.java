@@ -96,6 +96,17 @@ mozilla
 .
 gecko
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+GeckoBackgroundThread
+;
 /
 /
 AsyncTask
@@ -269,7 +280,7 @@ mPriority
 =
 PRIORITY_HIGH
 )
-GeckoAppShell
+GeckoBackgroundThread
 .
 getHandler
 (
@@ -285,7 +296,7 @@ params
 )
 ;
 else
-GeckoAppShell
+GeckoBackgroundThread
 .
 getHandler
 (
