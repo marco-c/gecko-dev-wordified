@@ -301,6 +301,9 @@ into
 PARSE_ALLOW_NEGATIVE
 =
 0x02
+PARSE_SUPPRESS_WARNINGS
+=
+0x04
 }
 ;
 static
@@ -331,6 +334,9 @@ nsCSSValue
 aCSSValue
 uint32_t
 aFlags
+nsIDocument
+*
+aDocument
 )
 ;
 static

@@ -1252,6 +1252,10 @@ their
 markups
 in
 order
+ReportChildCountError
+(
+)
+;
 rv
 =
 ReflowError

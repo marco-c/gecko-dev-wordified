@@ -1147,6 +1147,16 @@ their
 markups
 in
 order
+if
+(
+aPlaceOrigin
+)
+{
+ReportChildCountError
+(
+)
+;
+}
 return
 ReflowError
 (
