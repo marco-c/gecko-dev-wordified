@@ -595,6 +595,16 @@ EnsureConnection
 (
 )
 ;
+nsIThread
+*
+ConnectionThread
+(
+)
+{
+return
+mConnectionThread
+;
+}
 void
 OnObjectStoreCreated
 (
@@ -663,7 +673,7 @@ nsRefPtr
 <
 LazyIdleThread
 >
-mStorageThread
+mConnectionThread
 ;
 /
 /
