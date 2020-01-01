@@ -51096,9 +51096,15 @@ true
 }
 if
 (
+(
 hint
 &
 nsChangeHint_UpdateOverflow
+)
+&
+&
+!
+didReflow
 )
 {
 while

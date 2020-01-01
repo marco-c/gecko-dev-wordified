@@ -7286,6 +7286,14 @@ nsChangeHint_ClearAncestorIntrinsics
 )
 ;
 }
+aMinChange
+=
+NS_SubtractHint
+(
+aMinChange
+nsChangeHint_UpdateOverflow
+)
+;
 /
 /
 It
