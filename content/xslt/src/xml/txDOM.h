@@ -813,7 +813,7 @@ newChild
 0
 ;
 virtual
-MBool
+bool
 hasChildNodes
 (
 )
@@ -863,7 +863,7 @@ aNSURI
 txXPathNode
 functions
 virtual
-MBool
+bool
 getLocalName
 (
 nsIAtom
@@ -1072,7 +1072,7 @@ Node
 newChild
 )
 ;
-MBool
+bool
 hasChildNodes
 (
 )
@@ -1115,7 +1115,7 @@ aNSURI
 txXPathNode
 functions
 virtual
-MBool
+bool
 getLocalName
 (
 nsIAtom
@@ -1747,7 +1747,7 @@ aName
 )
 const
 ;
-MBool
+bool
 getLocalName
 (
 nsIAtom
@@ -1761,7 +1761,7 @@ getNamespaceID
 (
 )
 ;
-MBool
+bool
 getAttr
 (
 nsIAtom
@@ -1774,7 +1774,7 @@ nsAString
 aValue
 )
 ;
-MBool
+bool
 hasAttr
 (
 nsIAtom
@@ -1919,7 +1919,7 @@ aName
 )
 const
 ;
-MBool
+bool
 getLocalName
 (
 nsIAtom
@@ -2093,7 +2093,7 @@ public
 txXPathNode
 functions
 override
-MBool
+bool
 getLocalName
 (
 nsIAtom
@@ -2293,7 +2293,7 @@ NS_OK
 ;
 }
 static
-MBool
+bool
 init
 (
 )
@@ -2317,7 +2317,7 @@ if
 mNamespaces
 )
 return
-MB_TRUE
+true
 ;
 mNamespaces
 =
@@ -2332,7 +2332,7 @@ if
 mNamespaces
 )
 return
-MB_FALSE
+false
 ;
 /
 *
@@ -2488,11 +2488,11 @@ mNamespaces
 0
 ;
 return
-MB_FALSE
+false
 ;
 }
 return
-MB_TRUE
+true
 ;
 }
 static

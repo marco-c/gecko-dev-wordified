@@ -521,7 +521,7 @@ aResult
 )
 ;
 }
-MBool
+bool
 isStripSpaceAllowed
 (
 const

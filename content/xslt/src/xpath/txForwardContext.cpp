@@ -568,7 +568,7 @@ aResult
 )
 ;
 }
-MBool
+bool
 txForwardContext
 :
 :

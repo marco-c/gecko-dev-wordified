@@ -512,7 +512,7 @@ aQName
 txNamespaceMap
 *
 aResolver
-MBool
+bool
 aUseDefault
 )
 {
@@ -1426,7 +1426,7 @@ conversionLoop
 /
 /
 static
-MBool
+bool
 XMLUtils
 :
 :

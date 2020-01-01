@@ -588,7 +588,7 @@ const
 mLREHandler
 ;
 static
-MBool
+bool
 init
 (
 )

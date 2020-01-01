@@ -495,7 +495,7 @@ over
 the
 given
 NodeSet
-MBool
+bool
 hasNext
 (
 )

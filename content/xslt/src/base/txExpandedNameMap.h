@@ -716,7 +716,7 @@ PRUint32
 )
 {
 }
-MBool
+bool
 next
 (
 )

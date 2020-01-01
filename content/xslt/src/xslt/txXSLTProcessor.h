@@ -466,7 +466,7 @@ classes
 *
 /
 static
-MBool
+bool
 init
 (
 )

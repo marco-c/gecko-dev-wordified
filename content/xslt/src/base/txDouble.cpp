@@ -584,7 +584,7 @@ negative
 inifinity
 *
 /
-MBool
+bool
 Double
 :
 :
@@ -630,7 +630,7 @@ is
 NaN
 *
 /
-MBool
+bool
 Double
 :
 :
@@ -659,7 +659,7 @@ is
 negative
 *
 /
-MBool
+bool
 Double
 :
 :

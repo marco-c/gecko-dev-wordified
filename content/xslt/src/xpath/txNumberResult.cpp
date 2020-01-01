@@ -595,7 +595,7 @@ return
 nsnull
 ;
 }
-MBool
+bool
 NumberResult
 :
 :
@@ -640,7 +640,7 @@ nor
 NaN
 return
 (
-MBool
+bool
 )
 (
 value

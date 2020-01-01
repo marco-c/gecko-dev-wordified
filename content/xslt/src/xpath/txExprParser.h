@@ -823,7 +823,7 @@ aNamespace
 bool
 aIsNameTest
 =
-MB_FALSE
+false
 )
 ;
 /

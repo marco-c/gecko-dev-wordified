@@ -556,7 +556,7 @@ public
 :
 txRomanCounter
 (
-MBool
+bool
 aUpper
 )
 :

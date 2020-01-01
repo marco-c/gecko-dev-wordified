@@ -782,7 +782,7 @@ strip
 *
 /
 virtual
-MBool
+bool
 isStripSpaceAllowed
 (
 const
@@ -879,7 +879,7 @@ aResult
 )
 ;
 \
-MBool
+bool
 isStripSpaceAllowed
 (
 const
