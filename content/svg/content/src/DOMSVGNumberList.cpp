@@ -1039,6 +1039,7 @@ DOMSVGNumberList
 InternalList
 (
 )
+const
 {
 SVGAnimatedNumberList
 *

@@ -1850,16 +1850,6 @@ AttrIsAnimating
 const
 {
 return
-const_cast
-<
-DOMSVGPathSegList
-*
->
-(
-this
-)
--
->
 InternalAList
 (
 )
@@ -1877,6 +1867,7 @@ DOMSVGPathSegList
 InternalList
 (
 )
+const
 {
 SVGAnimatedPathSegList
 *
@@ -1920,6 +1911,7 @@ DOMSVGPathSegList
 InternalAList
 (
 )
+const
 {
 NS_ABORT_IF_FALSE
 (
