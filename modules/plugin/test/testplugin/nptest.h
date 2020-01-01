@@ -389,6 +389,11 @@ TestNPObject
 ;
 typedef
 struct
+_PlatformData
+PlatformData
+;
+typedef
+struct
 InstanceData
 {
 NPP
@@ -401,7 +406,7 @@ TestNPObject
 *
 scriptableObject
 ;
-void
+PlatformData
 *
 platformData
 ;
