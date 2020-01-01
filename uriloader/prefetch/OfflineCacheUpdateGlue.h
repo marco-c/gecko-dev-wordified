@@ -172,7 +172,6 @@ NS_ADJUSTED_FORWARD_NSIOFFLINECACHEUPDATE
 _to
 )
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetStatus
 (
@@ -197,7 +196,6 @@ aStatus
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetPartial
 (
@@ -222,7 +220,6 @@ aPartial
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetIsUpgrade
 (
@@ -247,7 +244,6 @@ aIsUpgrade
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetUpdateDomain
 (
@@ -272,7 +268,6 @@ aUpdateDomain
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetManifestURI
 (
@@ -298,7 +293,6 @@ aManifestURI
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetSucceeded
 (
@@ -323,7 +317,6 @@ aSucceeded
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 InitPartial
 (
@@ -357,7 +350,6 @@ aDocumentURI
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 AddDynamicURI
 (
@@ -382,7 +374,6 @@ aURI
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 AddObserver
 (
@@ -410,7 +401,6 @@ aHoldWeak
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 RemoveObserver
 (
@@ -435,7 +425,6 @@ aObserver
 ;
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetByteProgress
 (
@@ -489,14 +478,12 @@ EnsureUpdate
 (
 )
 )
-NS_SCRIPTABLE
 NS_IMETHOD
 Schedule
 (
 void
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 Init
 (

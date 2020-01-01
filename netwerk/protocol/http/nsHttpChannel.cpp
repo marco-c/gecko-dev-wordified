@@ -35102,7 +35102,6 @@ to
 nsISupportsPRUint32
 implementation
 .
-NS_SCRIPTABLE
 NS_IMETHOD
 GetData
 (
@@ -35121,7 +35120,6 @@ aData
 )
 ;
 }
-NS_SCRIPTABLE
 NS_IMETHOD
 SetData
 (
