@@ -3545,6 +3545,8 @@ String
 typeHint
 String
 actionHint
+boolean
+landscapeFS
 )
 {
 if
@@ -3603,6 +3605,14 @@ surfaceView
 mIMEActionHint
 =
 actionHint
+;
+GeckoApp
+.
+surfaceView
+.
+mIMELandscapeFS
+=
+landscapeFS
 ;
 IMEStateUpdater
 .
