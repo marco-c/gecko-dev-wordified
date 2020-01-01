@@ -903,7 +903,7 @@ JS_BEGIN_MACRO
 \
 if
 (
-GetToken
+js_GetToken
 (
 context
 &
@@ -915,7 +915,7 @@ tt
 )
 {
 \
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -3281,7 +3281,7 @@ pn
 return
 NULL
 ;
-Token
+JSToken
 *
 tp
 =
@@ -3331,7 +3331,7 @@ JSParseNode
 :
 newBinaryOrAppend
 (
-TokenType
+JSTokenType
 tt
 JSOp
 op
@@ -3991,16 +3991,16 @@ js
 if
 JS_HAS_GETTER_SETTER
 static
-TokenType
+JSTokenType
 CheckGetterOrSetter
 (
 JSContext
 *
 cx
-TokenStream
+JSTokenStream
 *
 ts
-TokenType
+JSTokenType
 tt
 )
 {
@@ -4092,7 +4092,7 @@ TOK_NAME
 ;
 if
 (
-PeekTokenSameLine
+js_PeekTokenSameLine
 (
 cx
 ts
@@ -4107,7 +4107,7 @@ TOK_NAME
 (
 void
 )
-GetToken
+js_GetToken
 (
 cx
 ts
@@ -4128,7 +4128,7 @@ t_op
 JSOP_NOP
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 ts
@@ -4186,7 +4186,7 @@ name
 |
 |
 !
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 ts
@@ -4508,7 +4508,7 @@ pn
 if
 (
 !
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -4517,7 +4517,7 @@ TOK_EOF
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -4773,7 +4773,7 @@ JSArenaPool
 codePool
 notePool
 ;
-TokenType
+JSTokenType
 tt
 ;
 JSParseNode
@@ -5398,7 +5398,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekToken
+js_PeekToken
 (
 cx
 &
@@ -5565,7 +5565,7 @@ pn_kid
 |
 |
 !
-TreeTypeIsXML
+TREE_TYPE_IS_XML
 (
 PN_TYPE
 (
@@ -5663,7 +5663,7 @@ TCF_NO_SCRIPT_RVAL
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 &
@@ -6254,7 +6254,7 @@ script
 ;
 too_many_slots
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 &
@@ -7117,7 +7117,7 @@ NULL
 ;
 }
 return
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -7305,7 +7305,7 @@ name
 |
 |
 !
-ReportStrictModeError
+js_ReportStrictModeError
 (
 cx
 TS
@@ -7463,7 +7463,7 @@ if
 (
 name
 )
-ReportStrictModeError
+js_ReportStrictModeError
 (
 cx
 TS
@@ -7777,7 +7777,7 @@ name
 |
 |
 !
-ReportStrictModeError
+js_ReportStrictModeError
 (
 cx
 TS
@@ -7908,7 +7908,7 @@ name
 |
 |
 !
-ReportStrictModeError
+js_ReportStrictModeError
 (
 cx
 TS
@@ -10262,7 +10262,7 @@ else
 if
 (
 !
-MatchToken
+js_MatchToken
 (
 cx
 &
@@ -10273,7 +10273,7 @@ TOK_EOF
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 &
@@ -10877,7 +10877,7 @@ localKind
 JSLOCAL_NONE
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -11196,12 +11196,12 @@ MatchOrInsertSemicolon
 JSContext
 *
 cx
-TokenStream
+JSTokenStream
 *
 ts
 )
 {
-TokenType
+JSTokenType
 tt
 ;
 ts
@@ -11214,7 +11214,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekTokenSameLine
+js_PeekTokenSameLine
 (
 cx
 ts
@@ -11265,7 +11265,7 @@ tt
 TOK_RC
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 ts
@@ -11281,7 +11281,7 @@ JS_FALSE
 (
 void
 )
-MatchToken
+js_MatchToken
 (
 cx
 ts
@@ -14042,7 +14042,7 @@ ndeoptimized
 0
 ;
 const
-TokenPos
+JSTokenPos
 &
 pos
 =
@@ -16944,7 +16944,7 @@ body
 *
 result
 ;
-TokenType
+JSTokenType
 tt
 ;
 JSAtom
@@ -17156,7 +17156,7 @@ TSF_KEYWORD_IS_NAME
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -17210,7 +17210,7 @@ JSOPTION_ANONFUNFIX
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -17228,7 +17228,7 @@ funAtom
 =
 NULL
 ;
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -17368,7 +17368,7 @@ name
 |
 |
 !
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -18004,7 +18004,7 @@ JSMSG_PAREN_BEFORE_FORMAL
 if
 (
 !
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -18017,7 +18017,7 @@ do
 {
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -18541,7 +18541,7 @@ break
 }
 default
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -18584,7 +18584,7 @@ duplicatedArg
 )
 )
 ;
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -18603,7 +18603,7 @@ endif
 }
 while
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -18631,7 +18631,7 @@ TSF_OPERAND
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -18654,7 +18654,7 @@ tt
 TOK_LC
 )
 {
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -19832,7 +19832,7 @@ pn2
 *
 saveBlock
 ;
-TokenType
+JSTokenType
 tt
 ;
 bool
@@ -19925,7 +19925,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -20316,7 +20316,7 @@ pn_parens
 &
 &
 !
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -20346,7 +20346,7 @@ MatchLabel
 JSContext
 *
 cx
-TokenStream
+JSTokenStream
 *
 ts
 JSParseNode
@@ -20358,12 +20358,12 @@ JSAtom
 *
 label
 ;
-TokenType
+JSTokenType
 tt
 ;
 tt
 =
-PeekTokenSameLine
+js_PeekTokenSameLine
 (
 cx
 ts
@@ -20390,7 +20390,7 @@ TOK_NAME
 (
 void
 )
-GetToken
+js_GetToken
 (
 cx
 ts
@@ -20587,7 +20587,7 @@ if
 name
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -20645,7 +20645,7 @@ JS_BIT
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -21386,7 +21386,7 @@ op
 JSOP_DEFCONST
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -21409,7 +21409,7 @@ JS_FALSE
 if
 (
 !
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -21523,7 +21523,7 @@ name
 |
 |
 !
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -22866,7 +22866,7 @@ TCF_GENEXP_LAMBDA
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -23738,7 +23738,7 @@ THROUGH
 endif
 default
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -25074,7 +25074,7 @@ pn_type
 TOK_ARRAYCOMP
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -25120,7 +25120,7 @@ PNX_DESTRUCT
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -25787,7 +25787,7 @@ ok
 ;
 no_var_name
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -26036,7 +26036,7 @@ PNX_DESTRUCT
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 tc
 -
@@ -26371,7 +26371,7 @@ destructuringExpr
 BindData
 *
 data
-TokenType
+JSTokenType
 tt
 )
 {
@@ -27197,7 +27197,7 @@ ContainsStmt
 JSParseNode
 *
 pn
-TokenType
+JSTokenType
 tt
 )
 {
@@ -27465,7 +27465,7 @@ bool
 useAssignExpr
 )
 {
-TokenType
+JSTokenType
 tt
 tt2
 ;
@@ -27504,7 +27504,7 @@ TCF_IN_FUNCTION
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -27584,7 +27584,7 @@ TSF_OPERAND
 ;
 tt2
 =
-PeekTokenSameLine
+js_PeekTokenSameLine
 (
 context
 &
@@ -27873,7 +27873,7 @@ PushLexicalScope
 JSContext
 *
 cx
-TokenStream
+JSTokenStream
 *
 ts
 JSTreeContext
@@ -28202,7 +28202,7 @@ statement
 &
 &
 !
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -29147,7 +29147,7 @@ statement
 (
 )
 {
-TokenType
+JSTokenType
 tt
 ;
 JSParseNode
@@ -29189,7 +29189,7 @@ TSF_OPERAND
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -29258,7 +29258,7 @@ TSF_KEYWORD_IS_NAME
 ;
 tt
 =
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -29375,7 +29375,7 @@ TSF_OPERAND
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -29678,7 +29678,7 @@ while
 (
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -29703,7 +29703,7 @@ if
 seenDefault
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -29799,7 +29799,7 @@ JS_BIT
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -29823,7 +29823,7 @@ NULL
 ;
 default
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -29887,7 +29887,7 @@ while
 (
 tt
 =
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -30424,7 +30424,7 @@ id
 (
 void
 )
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -30525,7 +30525,7 @@ pn_iflags
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -30563,7 +30563,7 @@ pn_iflags
 JSITER_FOREACH
 ;
 else
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -30585,7 +30585,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -30788,7 +30788,7 @@ TOK_VAR
 (
 void
 )
-GetToken
+js_GetToken
 (
 context
 &
@@ -30822,7 +30822,7 @@ true
 (
 void
 )
-GetToken
+js_GetToken
 (
 context
 &
@@ -30831,7 +30831,7 @@ tokenStream
 ;
 if
 (
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -30990,7 +30990,7 @@ if
 pn1
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -31033,7 +31033,7 @@ valid
 JS_ASSERT
 (
 !
-TokenTypeIsDecl
+TOKEN_TYPE_IS_DECL
 (
 tt
 )
@@ -31050,7 +31050,7 @@ tt
 ;
 if
 (
-TokenTypeIsDecl
+TOKEN_TYPE_IS_DECL
 (
 tt
 )
@@ -31334,7 +31334,7 @@ TOK_LB
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -31377,7 +31377,7 @@ PND_ASSIGNED
 ;
 if
 (
-TokenTypeIsDecl
+TOKEN_TYPE_IS_DECL
 (
 tt
 )
@@ -32378,7 +32378,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -32451,7 +32451,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -32712,7 +32712,7 @@ pn
 ;
 bad_for_each
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -32918,7 +32918,7 @@ NULL
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -33002,7 +33002,7 @@ lastCatch
 pn_kid2
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -33210,7 +33210,7 @@ JSMSG_TOO_MANY_CATCH_VARS
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -33309,7 +33309,7 @@ break
 ;
 default
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -33384,7 +33384,7 @@ syntax
 /
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -33480,7 +33480,7 @@ TSF_OPERAND
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -33574,7 +33574,7 @@ tc
 }
 else
 {
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -33594,7 +33594,7 @@ pn
 pn_kid3
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -33662,7 +33662,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekTokenSameLine
+js_PeekTokenSameLine
 (
 context
 &
@@ -33713,7 +33713,7 @@ tt
 TOK_RC
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -33788,7 +33788,7 @@ case
 case
 TOK_CATCH
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -33804,7 +33804,7 @@ NULL
 case
 TOK_FINALLY
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -33889,7 +33889,7 @@ if
 stmt
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -33946,7 +33946,7 @@ if
 stmt
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -34078,7 +34078,7 @@ if
 stmt
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -34127,7 +34127,7 @@ stmt2
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -34174,7 +34174,7 @@ if
 stmt
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -34256,7 +34256,7 @@ and
 we
 should
 use
-ReportStrictModeError
+js_ReportStrictModeError
 .
 However
 '
@@ -34323,7 +34323,7 @@ flags
 TCF_STRICT_MODE_CODE
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -34521,7 +34521,7 @@ expression
 /
 if
 (
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -34747,7 +34747,7 @@ SIF_FOR_BLOCK
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -35638,7 +35638,7 @@ NULL
 if
 (
 !
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -35668,7 +35668,7 @@ xmlAtom
 |
 |
 !
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -35698,7 +35698,7 @@ namespaceAtom
 |
 |
 !
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -35719,7 +35719,7 @@ t_op
 JSOP_NOP
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -35816,7 +35816,7 @@ expression
 :
 #
 endif
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -35838,7 +35838,7 @@ NULL
 ;
 if
 (
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -35860,7 +35860,7 @@ pn_type
 TOK_NAME
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -35920,7 +35920,7 @@ label
 label
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -35943,7 +35943,7 @@ pn2
 (
 void
 )
-GetToken
+js_GetToken
 (
 context
 &
@@ -36474,7 +36474,7 @@ bool
 inLetHead
 )
 {
-TokenType
+JSTokenType
 tt
 ;
 bool
@@ -36825,7 +36825,7 @@ do
 {
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -36910,7 +36910,7 @@ TCF_IN_FOR_INIT
 )
 &
 &
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -37091,7 +37091,7 @@ tt
 TOK_ERROR
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -37183,7 +37183,7 @@ pn2
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -37459,7 +37459,7 @@ TCF_FUN_HEAVYWEIGHT
 }
 while
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -37492,7 +37492,7 @@ pn
 ;
 bad_var_init
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -37532,7 +37532,7 @@ if
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -37617,7 +37617,7 @@ pn2
 pn_parens
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -37659,7 +37659,7 @@ pn2
 }
 while
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -37707,7 +37707,7 @@ pn
 *
 rhs
 ;
-TokenType
+JSTokenType
 tt
 ;
 JSOp
@@ -37732,7 +37732,7 @@ TSF_OPERAND
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -37782,7 +37782,7 @@ NULL
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -37831,7 +37831,7 @@ tt
 TOK_ASSIGN
 )
 {
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -37932,7 +37932,7 @@ op
 JSOP_NOP
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -38042,7 +38042,7 @@ THROUGH
 endif
 default
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -38243,7 +38243,7 @@ if
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38457,7 +38457,7 @@ while
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38509,7 +38509,7 @@ while
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38561,7 +38561,7 @@ while
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38615,7 +38615,7 @@ while
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38669,7 +38669,7 @@ while
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38724,7 +38724,7 @@ while
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38777,7 +38777,7 @@ JSParseNode
 *
 pn
 ;
-TokenType
+JSTokenType
 tt
 ;
 JSOp
@@ -38839,7 +38839,7 @@ pn
 &
 &
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38886,7 +38886,7 @@ inForInitFlag
 0
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38896,7 +38896,7 @@ TOK_IN
 )
 |
 |
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -38993,7 +38993,7 @@ while
 pn
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -39046,7 +39046,7 @@ JSParseNode
 *
 pn
 ;
-TokenType
+JSTokenType
 tt
 ;
 JSOp
@@ -39064,7 +39064,7 @@ pn
 &
 &
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -39073,7 +39073,7 @@ TOK_PLUS
 )
 |
 |
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -39140,7 +39140,7 @@ JSParseNode
 *
 pn
 ;
-TokenType
+JSTokenType
 tt
 ;
 JSOp
@@ -39158,7 +39158,7 @@ pn
 &
 &
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -39167,7 +39167,7 @@ TOK_STAR
 )
 |
 |
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -39226,7 +39226,7 @@ SetLvalKid
 JSContext
 *
 cx
-TokenStream
+JSTokenStream
 *
 ts
 JSTreeContext
@@ -39338,7 +39338,7 @@ pn_type
 TOK_LB
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 ts
@@ -39402,7 +39402,7 @@ SetIncOpKid
 JSContext
 *
 cx
-TokenStream
+JSTokenStream
 *
 ts
 JSTreeContext
@@ -39414,7 +39414,7 @@ pn
 JSParseNode
 *
 kid
-TokenType
+JSTokenType
 tt
 JSBool
 preorder
@@ -39640,7 +39640,7 @@ unaryExpr
 (
 )
 {
-TokenType
+JSTokenType
 tt
 ;
 JSParseNode
@@ -39665,7 +39665,7 @@ TSF_OPERAND
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -40000,7 +40000,7 @@ TOK_NAME
 if
 (
 !
-ReportStrictModeError
+js_ReportStrictModeError
 (
 context
 &
@@ -40043,7 +40043,7 @@ NULL
 ;
 default
 :
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -40103,7 +40103,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekTokenSameLine
+js_PeekTokenSameLine
 (
 context
 &
@@ -40135,7 +40135,7 @@ TOK_DEC
 (
 void
 )
-GetToken
+js_GetToken
 (
 context
 &
@@ -41771,7 +41771,7 @@ JSParseNode
 kid
 uintN
 blockid
-TokenType
+JSTokenType
 type
 JSOp
 op
@@ -41797,7 +41797,7 @@ stmtInfo
 BindData
 data
 ;
-TokenType
+JSTokenType
 tt
 ;
 JSAtom
@@ -42241,7 +42241,7 @@ JSITER_ENUMERATE
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -42280,7 +42280,7 @@ pn_iflags
 JSITER_FOREACH
 ;
 else
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -42299,7 +42299,7 @@ NULL
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -42458,7 +42458,7 @@ break
 ;
 default
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -42580,7 +42580,7 @@ pn_count
 2
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -42718,7 +42718,7 @@ pn_right
 }
 while
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -42729,7 +42729,7 @@ TOK_FOR
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -43610,7 +43610,7 @@ TSF_OPERAND
 ;
 matched
 =
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -43671,7 +43671,7 @@ argNode
 pn_parens
 &
 &
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -43682,7 +43682,7 @@ tokenStream
 TOK_COMMA
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -43704,7 +43704,7 @@ if
 JS_HAS_GENERATOR_EXPRS
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -43759,7 +43759,7 @@ pn_count
 1
 |
 |
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -43770,7 +43770,7 @@ tokenStream
 TOK_COMMA
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -43799,7 +43799,7 @@ argNode
 }
 while
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -43810,7 +43810,7 @@ TOK_COMMA
 ;
 if
 (
-GetToken
+js_GetToken
 (
 context
 &
@@ -43821,7 +43821,7 @@ tokenStream
 TOK_RP
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -43969,7 +43969,7 @@ pn2
 *
 pn3
 ;
-TokenType
+JSTokenType
 tt
 ;
 JS_CHECK_RECURSION
@@ -43998,7 +43998,7 @@ TSF_OPERAND
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -44092,7 +44092,7 @@ begin
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -44270,7 +44270,7 @@ while
 (
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -44322,7 +44322,7 @@ TSF_KEYWORD_IS_NAME
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -44488,7 +44488,7 @@ TCF_FUN_HEAVYWEIGHT
 else
 if
 (
-TokenTypeIsXML
+TOKEN_TYPE_IS_XML
 (
 PN_TYPE
 (
@@ -44514,7 +44514,7 @@ JSOP_GETELEM
 }
 else
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -44675,7 +44675,7 @@ TSF_KEYWORD_IS_NAME
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -44758,13 +44758,13 @@ else
 if
 (
 !
-TokenTypeIsXML
+TOKEN_TYPE_IS_XML
 (
 tt
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -45354,7 +45354,7 @@ end
 }
 else
 {
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -45886,7 +45886,7 @@ pn2
 *
 pn3
 ;
-TokenType
+JSTokenType
 tt
 ;
 JS_ASSERT
@@ -45966,7 +45966,7 @@ TSF_KEYWORD_IS_NAME
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -46083,7 +46083,7 @@ tt
 TOK_LB
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -46200,7 +46200,7 @@ NULL
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -46265,7 +46265,7 @@ pn
 *
 pn2
 ;
-TokenType
+JSTokenType
 tt
 ;
 JS_ASSERT
@@ -46316,7 +46316,7 @@ TSF_KEYWORD_IS_NAME
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -46370,7 +46370,7 @@ endBracketedExpr
 }
 else
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -46668,7 +46668,7 @@ pn
 return
 NULL
 ;
-Token
+JSToken
 *
 tp
 =
@@ -46809,7 +46809,7 @@ pn2
 *
 list
 ;
-TokenType
+JSTokenType
 tt
 ;
 pn
@@ -46986,7 +46986,7 @@ while
 (
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -47004,7 +47004,7 @@ tt
 TOK_LC
 )
 ;
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -47210,7 +47210,7 @@ JSCompiler
 :
 xmlTagContent
 (
-TokenType
+JSTokenType
 tagtype
 JSAtom
 *
@@ -47226,7 +47226,7 @@ pn2
 *
 list
 ;
-TokenType
+JSTokenType
 tt
 ;
 pn
@@ -47269,7 +47269,7 @@ NULL
 ;
 while
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -47280,7 +47280,7 @@ TOK_XMLSPACE
 {
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -47301,7 +47301,7 @@ tt
 TOK_LC
 )
 {
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -47406,7 +47406,7 @@ pn_xflags
 =
 PNX_CANTFOLD
 ;
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -47420,7 +47420,7 @@ TOK_ASSIGN
 JSMSG_NO_ASSIGN_IN_XML_ATTR
 )
 ;
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -47430,7 +47430,7 @@ TOK_XMLSPACE
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -47479,7 +47479,7 @@ PNX_CANTFOLD
 }
 else
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -47560,7 +47560,7 @@ TOK_EOF
 )
 {
 \
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -47620,7 +47620,7 @@ JSParseNode
 pn
 )
 {
-TokenType
+JSTokenType
 tt
 ;
 JSParseNode
@@ -47654,7 +47654,7 @@ TSF_XMLTEXTMODE
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -47763,7 +47763,7 @@ TSF_OPERAND
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -47980,7 +47980,7 @@ pn2
 *
 list
 ;
-TokenType
+JSTokenType
 tt
 ;
 JSAtom
@@ -48037,7 +48037,7 @@ TSF_XMLTAGMODE
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -48103,7 +48103,7 @@ pn2
 return
 NULL
 ;
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -48113,7 +48113,7 @@ TOK_XMLSPACE
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -48271,7 +48271,7 @@ tt
 TOK_XMLTAGC
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -48473,7 +48473,7 @@ NULL
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -48500,7 +48500,7 @@ tt
 TOK_LC
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -48570,7 +48570,7 @@ attributes
 !
 *
 /
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -48625,7 +48625,7 @@ name
 .
 *
 /
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -48749,7 +48749,7 @@ pn_xflags
 PNX_CANTFOLD
 ;
 }
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -48857,7 +48857,7 @@ JSMSG_BAD_XML_LIST_SYNTAX
 }
 else
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -49104,10 +49104,10 @@ TSF_OPERAND
 |
 TSF_XMLONLYMODE
 ;
-TokenType
+JSTokenType
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -49134,7 +49134,7 @@ tt
 TOK_XMLSTAGO
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -49484,7 +49484,7 @@ JSCompiler
 :
 primaryExpr
 (
-TokenType
+JSTokenType
 tt
 JSBool
 afterDot
@@ -49562,7 +49562,7 @@ TSF_KEYWORD_IS_NAME
 ;
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -49721,7 +49721,7 @@ TSF_OPERAND
 ;
 matched
 =
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -49763,7 +49763,7 @@ index
 JS_ARGS_LENGTH_MAX
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -49786,7 +49786,7 @@ TSF_OPERAND
 ;
 tt
 =
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -49840,7 +49840,7 @@ TOK_LB
 .
 *
 /
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -49919,7 +49919,7 @@ case
 if
 (
 !
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -50316,7 +50316,7 @@ pn_count
 0
 &
 &
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -50679,7 +50679,7 @@ TSF_KEYWORD_IS_NAME
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -50836,7 +50836,7 @@ TSF_KEYWORD_IS_NAME
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -50859,7 +50859,7 @@ tt
 TOK_NAME
 )
 {
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -51011,7 +51011,7 @@ end_obj_init
 ;
 default
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -51027,7 +51027,7 @@ NULL
 }
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -51118,7 +51118,7 @@ TOK_RC
 {
 #
 endif
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -51182,7 +51182,7 @@ JS1
 .
 *
 /
-UngetToken
+js_UngetToken
 (
 &
 tokenStream
@@ -51431,7 +51431,7 @@ name
 |
 |
 !
-ReportStrictModeError
+js_ReportStrictModeError
 (
 context
 &
@@ -51493,7 +51493,7 @@ attributesMask
 }
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -51518,7 +51518,7 @@ tt
 TOK_COMMA
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -51634,7 +51634,7 @@ TSF_OPERAND
 ;
 tt
 =
-GetToken
+js_GetToken
 (
 context
 &
@@ -51713,7 +51713,7 @@ tt
 TOK_PRIMARY
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -52291,7 +52291,7 @@ if
 JS_HAS_XML_SUPPORT
 |
 |
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -52765,7 +52765,7 @@ JSOP_NOP
 ;
 if
 (
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -52815,7 +52815,7 @@ case
 /
 if
 (
-PeekToken
+js_PeekToken
 (
 context
 &
@@ -52855,7 +52855,7 @@ if
 JS_HAS_XML_SUPPORT
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -52979,7 +52979,7 @@ tt
 TOK_EOF
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -53249,7 +53249,7 @@ NULL
 ;
 default
 :
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -53282,7 +53282,7 @@ JSBool
 genexp
 )
 {
-TokenPtr
+JSTokenPtr
 begin
 ;
 JSParseNode
@@ -53343,7 +53343,7 @@ if
 JS_HAS_GENERATOR_EXPRS
 if
 (
-MatchToken
+js_MatchToken
 (
 context
 &
@@ -53370,7 +53370,7 @@ pn
 pn_parens
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -53403,7 +53403,7 @@ pn
 pn_parens
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -53480,7 +53480,7 @@ genexp
 {
 if
 (
-GetToken
+js_GetToken
 (
 context
 &
@@ -53491,7 +53491,7 @@ tokenStream
 TOK_RP
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 context
 &
@@ -53573,7 +53573,7 @@ cx
 JSParseNode
 *
 pn
-TokenType
+JSTokenType
 type
 )
 {
@@ -54180,7 +54180,7 @@ JSTreeContext
 tc
 )
 {
-TokenType
+JSTokenType
 tt
 ;
 JSParseNode

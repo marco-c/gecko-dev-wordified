@@ -6817,7 +6817,7 @@ JS_BIT
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 CG_TS
