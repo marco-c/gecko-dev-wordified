@@ -495,6 +495,10 @@ nsButtonBoxFrame
 aPresShell
 aContext
 )
+mCursorOnThis
+(
+false
+)
 {
 }
 /
@@ -729,6 +733,9 @@ Notify
 }
 PRInt32
 mIncrement
+;
+bool
+mCursorOnThis
 ;
 }
 ;
