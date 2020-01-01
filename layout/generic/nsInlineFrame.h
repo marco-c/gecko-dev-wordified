@@ -127,13 +127,9 @@ nsContainerFrame
 .
 h
 "
-#
-include
-"
+class
 nsLineLayout
-.
-h
-"
+;
 /
 *
 *
