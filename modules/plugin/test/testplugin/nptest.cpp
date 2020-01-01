@@ -972,7 +972,7 @@ result
 ;
 static
 bool
-crash
+crashPlugin
 (
 NPObject
 *
@@ -1128,7 +1128,7 @@ throwExceptionNextInvoke
 convertPointX
 convertPointY
 streamTest
-crash
+crashPlugin
 }
 ;
 struct
@@ -11918,7 +11918,7 @@ true
 }
 static
 bool
-crash
+crashPlugin
 (
 NPObject
 *
