@@ -1105,6 +1105,14 @@ aTexture
 ;
 TemporaryRef
 <
+ID2D1Geometry
+>
+GetClippedGeometry
+(
+)
+;
+TemporaryRef
+<
 ID2D1Brush
 >
 CreateBrushForPattern
