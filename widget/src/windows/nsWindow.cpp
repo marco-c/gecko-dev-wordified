@@ -32849,6 +32849,10 @@ ourselves
 /
 if
 (
+!
+mCustomNonClient
+|
+|
 mNonClientMargins
 .
 top
