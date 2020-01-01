@@ -4092,6 +4092,15 @@ options
 return
 ;
 }
+/
+/
+setting
+option
+breaks
+bookmark
+count
+/
+/
 const
 PRUint16
 groupMode
@@ -4101,6 +4110,8 @@ nsINavHistoryQueryOptions
 :
 GROUP_BY_FOLDER
 ;
+/
+/
 options
 -
 >
