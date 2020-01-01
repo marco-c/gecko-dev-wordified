@@ -1813,7 +1813,7 @@ tl
 IsSameType
 <
 size_t
-JSUword
+JSSize
 >
 :
 :
