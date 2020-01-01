@@ -747,6 +747,8 @@ manager
 remove
 -
 download
+-
+guid
 "
 ;
 let
@@ -794,7 +796,7 @@ QueryInterface
 (
 Ci
 .
-nsISupportsPRUint32
+nsISupportsCString
 )
 ;
 do_check_eq
@@ -802,7 +804,7 @@ do_check_eq
 id
 .
 data
-theId
+theGUID
 )
 ;
 /
