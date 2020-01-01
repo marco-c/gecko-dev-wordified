@@ -4067,6 +4067,15 @@ CONTENT_COLOR_ALPHA
 size
 )
 ;
+if
+(
+!
+printSurface
+)
+{
+continue
+;
+}
 nsICanvasRenderingContextInternal
 *
 ctx
