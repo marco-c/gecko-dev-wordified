@@ -3566,8 +3566,7 @@ if
 size_t
 )
 i
->
-=
+<
 str
 -
 >
@@ -3575,10 +3574,7 @@ length
 (
 )
 )
-THROW
-(
-)
-;
+{
 str
 =
 JSString
@@ -3620,6 +3616,7 @@ str
 ;
 return
 ;
+}
 }
 obj
 =
