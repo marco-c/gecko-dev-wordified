@@ -500,9 +500,6 @@ WBORecord
 prototype
 =
 {
-id
-:
-null
 deleted
 :
 false
@@ -984,6 +981,9 @@ WBORecord
 data
 "
 [
+"
+id
+"
 "
 parentid
 "
