@@ -875,6 +875,9 @@ return
 LStackSlot
 (
 stackSlot_
+isDouble
+(
+)
 )
 ;
 JS_ASSERT
