@@ -2626,8 +2626,6 @@ v
 do_CreateInstance
 (
 NS_SUPPORTS_PRUINT32_CONTRACTID
-&
-rv
 )
 )
 ;
