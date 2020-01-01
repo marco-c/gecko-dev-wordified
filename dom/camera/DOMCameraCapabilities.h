@@ -65,13 +65,6 @@ DOM_CAMERA_DOMCAMERACAPABILITIES_H
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 ICameraControl
 .
 h
@@ -127,11 +120,7 @@ nsICameraCapabilities
 {
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS
-(
-DOMCameraCapabilities
-)
+NS_DECL_ISUPPORTS
 NS_DECL_NSICAMERACAPABILITIES
 DOMCameraCapabilities
 (
