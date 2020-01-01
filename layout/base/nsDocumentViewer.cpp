@@ -750,20 +750,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-/
-/
-For
-nsView
-:
-:
-GetViewFor
-#
-include
-"
 nsIPageSequenceFrame
 .
 h
@@ -4946,7 +4932,7 @@ usable
 )
 #
 endif
-PRInt32
+double
 pageWidth
 =
 0
@@ -4962,7 +4948,7 @@ GetPrintSettings
 )
 -
 >
-GetPageSizeInTwips
+GetEffectivePageSize
 (
 &
 pageWidth
@@ -12478,7 +12464,7 @@ nsIView
 *
 containerView
 =
-nsView
+nsIView
 :
 :
 GetViewFor
