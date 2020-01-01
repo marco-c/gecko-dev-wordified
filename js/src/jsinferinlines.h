@@ -2445,7 +2445,9 @@ barriers
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers

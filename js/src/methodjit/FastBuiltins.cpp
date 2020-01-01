@@ -3235,7 +3235,9 @@ if
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers

@@ -2153,9 +2153,12 @@ Probes
 :
 ETWResizeHeap
 (
-JSCompartment
+JS
+:
+:
+Zone
 *
-compartment
+zone
 size_t
 oldSize
 size_t
@@ -2170,7 +2173,7 @@ reinterpret_cast
 uint64_t
 >
 (
-compartment
+zone
 )
 oldSize
 newSize

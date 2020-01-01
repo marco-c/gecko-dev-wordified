@@ -6522,7 +6522,9 @@ f
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers
@@ -7301,7 +7303,9 @@ f
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers

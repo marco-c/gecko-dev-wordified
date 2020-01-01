@@ -2610,7 +2610,9 @@ JSLinearString
 cx
 -
 >
-compartment
+zone
+(
+)
 pendingInput
 input
 matchesInput
@@ -2720,7 +2722,9 @@ JSLinearString
 cx
 -
 >
-compartment
+zone
+(
+)
 pendingInput
 input
 matchesInput

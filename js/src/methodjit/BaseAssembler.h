@@ -9641,7 +9641,9 @@ FreeSpan
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 allocator

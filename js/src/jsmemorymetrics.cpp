@@ -2258,6 +2258,11 @@ i
 ]
 -
 >
+zone
+(
+)
+-
+>
 isSystemCompartment
 )
 +
@@ -2322,6 +2327,11 @@ compartments
 [
 i
 ]
+-
+>
+zone
+(
+)
 -
 >
 isSystemCompartment

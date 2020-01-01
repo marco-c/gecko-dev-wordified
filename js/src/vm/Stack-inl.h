@@ -488,7 +488,7 @@ script
 )
 -
 >
-compartment
+zone
 (
 )
 -

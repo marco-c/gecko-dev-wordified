@@ -1478,6 +1478,11 @@ compartment
 )
 -
 >
+zone
+(
+)
+-
+>
 compileBarriers
 (
 )

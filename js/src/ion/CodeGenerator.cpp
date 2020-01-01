@@ -26250,7 +26250,9 @@ if
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 needsBarrier

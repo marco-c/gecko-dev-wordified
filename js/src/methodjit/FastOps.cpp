@@ -6814,7 +6814,9 @@ if
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers
@@ -9860,7 +9862,9 @@ if
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers
@@ -18375,7 +18379,9 @@ PC
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers

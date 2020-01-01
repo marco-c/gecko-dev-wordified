@@ -2250,7 +2250,7 @@ if
 str
 -
 >
-compartment
+zone
 (
 )
 -
@@ -3170,6 +3170,11 @@ trc
 JS_ASSERT
 (
 !
+zone
+(
+)
+-
+>
 isCollecting
 (
 )
@@ -5012,7 +5017,9 @@ onTooMuchMalloc
 {
 TriggerZoneGC
 (
-this
+zone
+(
+)
 gcreason
 :
 :
@@ -5706,7 +5713,9 @@ dmgc
 .
 scheduleGC
 (
-this
+zone
+(
+)
 )
 ;
 #

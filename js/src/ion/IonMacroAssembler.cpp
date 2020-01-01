@@ -2242,9 +2242,9 @@ hasDynamicElements
 )
 )
 ;
-JSCompartment
+Zone
 *
-compartment
+zone
 =
 GetIonContext
 (
@@ -2252,6 +2252,11 @@ GetIonContext
 -
 >
 compartment
+-
+>
+zone
+(
+)
 ;
 #
 ifdef
@@ -2274,7 +2279,7 @@ movePtr
 (
 ImmWord
 (
-compartment
+zone
 -
 >
 rt
@@ -2375,7 +2380,7 @@ FreeSpan
 *
 >
 (
-compartment
+zone
 -
 >
 allocator

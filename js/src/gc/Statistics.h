@@ -269,6 +269,8 @@ beginSlice
 int
 collectedCount
 int
+zoneCount
+int
 compartmentCount
 gcreason
 :
@@ -412,6 +414,9 @@ gcDepth
 ;
 int
 collectedCount
+;
+int
+zoneCount
 ;
 int
 compartmentCount
@@ -725,6 +730,8 @@ stats
 int
 collectedCount
 int
+zoneCount
+int
 compartmentCount
 gcreason
 :
@@ -746,6 +753,7 @@ stats
 beginSlice
 (
 collectedCount
+zoneCount
 compartmentCount
 reason
 )

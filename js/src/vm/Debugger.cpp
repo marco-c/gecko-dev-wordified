@@ -4562,7 +4562,9 @@ HashTableWriteBarrierPost
 cx
 -
 >
-compartment
+zone
+(
+)
 &
 objects
 obj
@@ -9542,7 +9544,7 @@ dbg
 object
 -
 >
-compartment
+zone
 (
 )
 -
@@ -9938,7 +9940,7 @@ if
 dbgobj
 -
 >
-compartment
+zone
 (
 )
 -

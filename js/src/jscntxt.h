@@ -7787,6 +7787,16 @@ JSContext
 (
 )
 ;
+inline
+JS
+:
+:
+Zone
+*
+zone
+(
+)
+;
 js
 :
 :

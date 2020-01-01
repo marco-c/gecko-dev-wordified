@@ -11324,7 +11324,9 @@ HashTableWriteBarrierPost
 cx
 -
 >
-compartment
+zone
+(
+)
 &
 scopes
 -
