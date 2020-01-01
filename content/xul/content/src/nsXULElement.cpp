@@ -17026,7 +17026,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-}
 mScriptObject
 .
 set
@@ -17034,6 +17033,7 @@ set
 newScriptObject
 )
 ;
+}
 }
 }
 if
