@@ -699,15 +699,6 @@ _retval
 ;
 /
 /
-nsAccessNode
-virtual
-PRBool
-Init
-(
-)
-;
-/
-/
 nsAccessible
 virtual
 nsresult

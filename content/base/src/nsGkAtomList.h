@@ -4312,13 +4312,6 @@ button
 )
 GK_ATOM
 (
-menugenerated
-"
-menugenerated
-"
-)
-GK_ATOM
-(
 menuitem
 "
 menuitem

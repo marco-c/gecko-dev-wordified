@@ -555,15 +555,6 @@ aName
 ;
 /
 /
-nsAccessNode
-virtual
-PRBool
-Init
-(
-)
-;
-/
-/
 nsAccessible
 virtual
 PRUint32
