@@ -2508,17 +2508,6 @@ type
 MIRType_Object
 )
 ;
-JSContext
-*
-cx
-=
-GetIonContext
-(
-)
--
->
-cx
-;
 Label
 done
 ;
