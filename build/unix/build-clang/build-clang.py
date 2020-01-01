@@ -64,7 +64,7 @@ MPL
 llvm_revision
 =
 "
-170377
+170890
 "
 moz_version
 =
