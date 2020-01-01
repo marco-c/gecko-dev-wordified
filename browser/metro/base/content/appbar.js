@@ -340,6 +340,13 @@ aEvent
 lastTab
 .
 browser
+&
+&
+aEvent
+.
+lastTab
+.
+browser
 .
 currentURI
 .

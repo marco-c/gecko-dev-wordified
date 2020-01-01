@@ -1407,6 +1407,13 @@ Events
 ;
 event
 .
+actions
+=
+[
+]
+;
+event
+.
 initEvent
 (
 "
