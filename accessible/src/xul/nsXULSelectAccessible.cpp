@@ -3071,6 +3071,14 @@ do_QueryInterface
 mDOMNode
 )
 ;
+if
+(
+!
+listItem
+)
+return
+nsnull
+;
 nsCOMPtr
 <
 nsIDOMXULSelectControlElement
