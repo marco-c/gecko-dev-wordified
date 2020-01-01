@@ -32005,7 +32005,7 @@ JS_TRUE
 ifdef
 JS_TRACER
 static
-JSBool
+jsint
 FASTCALL
 Regexp_p_test
 (
