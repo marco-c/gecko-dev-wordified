@@ -540,6 +540,17 @@ _itemId
 ;
 }
 get
+uri
+(
+)
+{
+return
+this
+.
+_uri
+;
+}
+get
 multiEdit
 (
 )
