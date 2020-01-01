@@ -1447,10 +1447,8 @@ accessible
 *
 /
 static
-already_AddRefed
-<
 nsHyperTextAccessible
->
+*
 GetTextAccessibleFromSelection
 (
 nsISelection

@@ -843,11 +843,12 @@ nsAccessibleWrap
 aNode
 aShell
 )
-mFlags
-(
-eHyperTextAccessible
-)
 {
+mFlags
+|
+=
+eHyperTextAccessible
+;
 }
 NS_IMPL_ADDREF_INHERITED
 (
