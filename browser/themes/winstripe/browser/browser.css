@@ -13339,6 +13339,14 @@ png
 )
 ;
 }
+#
+tabbrowser
+-
+tabs
+[
+positionpinnedtabs
+]
+>
 .
 tabbrowser
 -

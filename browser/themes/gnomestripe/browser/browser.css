@@ -12323,6 +12323,14 @@ rgba
 )
 ;
 }
+#
+tabbrowser
+-
+tabs
+[
+positionpinnedtabs
+]
+>
 .
 tabbrowser
 -
