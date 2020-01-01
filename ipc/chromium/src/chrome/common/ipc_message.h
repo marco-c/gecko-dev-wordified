@@ -1739,13 +1739,6 @@ COMPRESS_BIT
 0x0200
 }
 ;
-#
-pragma
-pack
-(
-push
-2
-)
 struct
 Header
 :
@@ -1879,12 +1872,6 @@ seqno
 ;
 }
 ;
-#
-pragma
-pack
-(
-pop
-)
 Header
 *
 header
