@@ -710,7 +710,7 @@ JSCodeGenerator
 JSCodeGenerator
 ;
 typedef
-union
+struct
 JSGCThing
 JSGCThing
 ;
