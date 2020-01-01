@@ -9473,8 +9473,8 @@ getter_AddRefs
 (
 domEvent
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr

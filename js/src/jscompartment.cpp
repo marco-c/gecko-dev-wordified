@@ -457,10 +457,6 @@ scriptCountsMap
 (
 NULL
 )
-sourceMapMap
-(
-NULL
-)
 debugScriptMap
 (
 NULL
@@ -519,14 +515,6 @@ Foreground
 delete_
 (
 scriptCountsMap
-)
-;
-Foreground
-:
-:
-delete_
-(
-sourceMapMap
 )
 ;
 Foreground

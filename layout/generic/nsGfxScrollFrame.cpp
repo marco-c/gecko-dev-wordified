@@ -3208,7 +3208,7 @@ mBoxState
 mInner
 .
 mHScrollbarBox
-nsnull
+nullptr
 &
 hScrollbarPrefSize
 false
@@ -3282,9 +3282,9 @@ mBoxState
 mInner
 .
 mVScrollbarBox
+nullptr
 &
 vScrollbarPrefSize
-nsnull
 true
 )
 ;
@@ -18577,7 +18577,7 @@ mScrollbarActivity
 {
 mScrollbarActivity
 =
-nsnull
+nullptr
 ;
 }
 /

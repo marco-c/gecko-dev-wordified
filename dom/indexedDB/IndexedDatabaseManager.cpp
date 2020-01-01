@@ -4644,7 +4644,7 @@ GetIndexedDBQuotaMB
 *
 1024
 mQuotaCallbackSingleton
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

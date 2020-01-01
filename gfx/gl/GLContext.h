@@ -8157,6 +8157,7 @@ ARB_sync
 OES_EGL_image
 OES_EGL_sync
 OES_EGL_image_external
+EXT_packed_depth_stencil
 Extensions_Max
 }
 ;

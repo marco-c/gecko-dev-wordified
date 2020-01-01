@@ -1748,6 +1748,10 @@ WebGLExtensionCompressedTextureS3TC
 )
 DOMCI_CLASS
 (
+WebGLExtensionDepthTexture
+)
+DOMCI_CLASS
+(
 PaintRequest
 )
 DOMCI_CLASS
