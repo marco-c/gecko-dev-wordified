@@ -1775,7 +1775,7 @@ iQ
 .
 isFunction
 (
-value
+callback
 )
 )
 {
