@@ -555,6 +555,13 @@ h
 #
 include
 "
+jsinterpinlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
