@@ -58,7 +58,7 @@ MPL
 /
 "
 use
-stirct
+strict
 "
 ;
 const

@@ -123,6 +123,12 @@ type
 "
 )
 ;
+exports
+.
+Assert
+=
+BaseAssert
+;
 function
 extend
 (
