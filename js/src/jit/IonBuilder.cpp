@@ -17933,7 +17933,13 @@ tableswitch
 >
 addCase
 (
+tableswitch
+-
+>
+addSuccessor
+(
 caseblock
+)
 )
 ;
 /
