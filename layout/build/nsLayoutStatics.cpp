@@ -756,6 +756,13 @@ nsFrameList
 h
 "
 #
+include
+"
+nsListControlFrame
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1969,6 +1976,13 @@ nsTextControlFrame
 :
 :
 ShutDown
+(
+)
+;
+nsListControlFrame
+:
+:
+Shutdown
 (
 )
 ;
