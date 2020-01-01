@@ -22739,10 +22739,7 @@ message
 messageClass
 =
 =
-GECKO_SMS_MESSAGE_CLASSES
-[
-PDU_DCS_MSG_CLASS_2
-]
+PDU_DCS_MSG_CLASS_SIM_SPECIFIC
 )
 {
 switch
@@ -22982,10 +22979,7 @@ message
 messageClass
 !
 =
-GECKO_SMS_MESSAGE_CLASSES
-[
 PDU_DCS_MSG_CLASS_0
-]
 )
 &
 &
@@ -23060,10 +23054,7 @@ message
 messageClass
 =
 =
-GECKO_SMS_MESSAGE_CLASSES
-[
-PDU_DCS_MSG_CLASS_2
-]
+PDU_DCS_MSG_CLASS_SIM_SPECIFIC
 )
 {
 /
@@ -23210,10 +23201,7 @@ message
 messageClass
 =
 =
-GECKO_SMS_MESSAGE_CLASSES
-[
-PDU_DCS_MSG_CLASS_2
-]
+PDU_DCS_MSG_CLASS_SIM_SPECIFIC
 )
 {
 /
@@ -37544,7 +37532,7 @@ default
 let
 messageClass
 =
-PDU_DCS_MSG_CLASS_NORMAL
+PDU_DCS_MSG_CLASS_UNKNOWN
 ;
 /
 /
@@ -37981,10 +37969,7 @@ msg
 .
 messageClass
 =
-GECKO_SMS_MESSAGE_CLASSES
-[
 messageClass
-]
 ;
 if
 (

@@ -223,13 +223,6 @@ error
 "
 ;
 const
-MESSAGE_CLASS_NORMAL
-=
-"
-normal
-"
-;
-const
 FILTER_TIMESTAMP
 =
 "
@@ -2229,9 +2222,6 @@ message
 body
 message
 .
-messageClass
-message
-.
 timestamp
 message
 .
@@ -2366,7 +2356,6 @@ saveReceivedMessage
 (
 sender
 body
-messageClass
 date
 )
 {
@@ -2412,9 +2401,6 @@ receiver
 body
 :
 body
-messageClass
-:
-messageClass
 timestamp
 :
 date
@@ -2484,9 +2470,6 @@ receiver
 body
 :
 body
-messageClass
-:
-MESSAGE_CLASS_NORMAL
 timestamp
 :
 date
@@ -3093,9 +3076,6 @@ receiver
 data
 .
 body
-data
-.
-messageClass
 data
 .
 timestamp
@@ -4744,9 +4724,6 @@ receiver
 message
 .
 body
-message
-.
-messageClass
 message
 .
 timestamp

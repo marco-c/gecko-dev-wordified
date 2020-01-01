@@ -300,10 +300,6 @@ nsAString
 &
 aBody
 const
-nsAString
-&
-aMessageClass
-const
 jsval
 &
 aTimestamp
@@ -331,7 +327,6 @@ aDeliveryStatus
 aSender
 aReceiver
 aBody
-aMessageClass
 aTimestamp
 aRead
 aCx
