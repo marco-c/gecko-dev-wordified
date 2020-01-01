@@ -165,4 +165,14 @@ IonCode
 0x5
 )
 #
+define
+ION_FRAME_OOL_PROXY_GET
+(
+(
+IonCode
+*
+)
+0x6
+)
+#
 endif

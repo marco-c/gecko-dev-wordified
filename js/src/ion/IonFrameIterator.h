@@ -754,6 +754,12 @@ isOOLPropertyOp
 const
 ;
 bool
+isOOLProxyGet
+(
+)
+const
+;
+bool
 isDOMExit
 (
 )
