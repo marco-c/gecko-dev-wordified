@@ -4967,6 +4967,15 @@ tempAcc
 )
 )
 ;
+if
+(
+targets
+.
+Length
+(
+)
+)
+{
 atkRelation
 =
 atk_relation_new
@@ -4995,6 +5004,7 @@ g_object_unref
 atkRelation
 )
 ;
+}
 }
 return
 relation_set
