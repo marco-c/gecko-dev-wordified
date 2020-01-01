@@ -768,7 +768,9 @@ in
 Accessible
 :
 :
-GetAttributes
+Attributes
+(
+)
 .
 *
 This
@@ -838,7 +840,9 @@ in
 Accessible
 :
 :
-GetAttributes
+Attributes
+(
+)
 )
 *
 /

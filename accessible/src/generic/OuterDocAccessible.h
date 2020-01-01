@@ -265,15 +265,6 @@ NativeRole
 )
 ;
 virtual
-nsresult
-GetAttributesInternal
-(
-nsIPersistentProperties
-*
-aAttributes
-)
-;
-virtual
 Accessible
 *
 ChildAtPoint
