@@ -3320,7 +3320,7 @@ dom
 /
 indexedDB
 /
-IDBDatabaseRequest
+IDBDatabase
 .
 h
 "
@@ -6433,7 +6433,7 @@ DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
-IDBDatabaseRequest
+IDBDatabase
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
@@ -15253,12 +15253,8 @@ nsIDOMEventTarget
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
-IDBDatabaseRequest
-nsIIDBDatabaseRequest
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIIDBDatabaseRequest
+IDBDatabase
+nsIIDBDatabase
 )
 DOM_CLASSINFO_MAP_ENTRY
 (

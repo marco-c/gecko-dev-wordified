@@ -602,7 +602,7 @@ IDBTransaction
 :
 Create
 (
-IDBDatabaseRequest
+IDBDatabase
 *
 aDatabase
 nsTArray

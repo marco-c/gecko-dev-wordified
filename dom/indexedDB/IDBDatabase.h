@@ -450,10 +450,10 @@ BLOCK
 /
 #
 ifndef
-mozilla_dom_indexeddb_idbdatabaserequest_h__
+mozilla_dom_indexeddb_idbdatabase_h__
 #
 define
-mozilla_dom_indexeddb_idbdatabaserequest_h__
+mozilla_dom_indexeddb_idbdatabase_h__
 #
 include
 "
@@ -490,7 +490,7 @@ h
 #
 include
 "
-nsIIDBDatabaseRequest
+nsIIDBDatabase
 .
 h
 "
@@ -519,7 +519,7 @@ class
 IDBTransaction
 ;
 class
-IDBDatabaseRequest
+IDBDatabase
 :
 public
 IDBRequest
@@ -527,7 +527,7 @@ IDBRequest
 :
 Generator
 public
-nsIIDBDatabaseRequest
+nsIIDBDatabase
 public
 nsIObserver
 {
@@ -539,12 +539,11 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIIDBDATABASE
-NS_DECL_NSIIDBDATABASEREQUEST
 NS_DECL_NSIOBSERVER
 static
 already_AddRefed
 <
-IDBDatabaseRequest
+IDBDatabase
 >
 Create
 (
@@ -599,12 +598,12 @@ mFilePath
 }
 protected
 :
-IDBDatabaseRequest
+IDBDatabase
 (
 )
 ;
 ~
-IDBDatabaseRequest
+IDBDatabase
 (
 )
 ;
@@ -678,4 +677,4 @@ END_INDEXEDDB_NAMESPACE
 endif
 /
 /
-mozilla_dom_indexeddb_idbdatabaserequest_h__
+mozilla_dom_indexeddb_idbdatabase_h__

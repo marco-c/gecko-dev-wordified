@@ -1632,7 +1632,7 @@ IDBObjectStoreRequest
 :
 Create
 (
-IDBDatabaseRequest
+IDBDatabase
 *
 aDatabase
 IDBTransaction

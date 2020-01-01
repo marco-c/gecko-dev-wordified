@@ -582,7 +582,7 @@ AsyncConnectionHelper
 :
 AsyncConnectionHelper
 (
-IDBDatabaseRequest
+IDBDatabase
 *
 aDatabase
 IDBRequest
@@ -761,7 +761,7 @@ thread
 "
 )
 ;
-IDBDatabaseRequest
+IDBDatabase
 *
 database
 ;

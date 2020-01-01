@@ -476,7 +476,7 @@ dom
 /
 indexedDB
 /
-IDBDatabaseRequest
+IDBDatabase
 .
 h
 "
@@ -586,7 +586,7 @@ IDBTransaction
 >
 Create
 (
-IDBDatabaseRequest
+IDBDatabase
 *
 aDatabase
 nsTArray
@@ -858,7 +858,7 @@ CommitOrRollback
 ;
 nsRefPtr
 <
-IDBDatabaseRequest
+IDBDatabase
 >
 mDatabase
 ;

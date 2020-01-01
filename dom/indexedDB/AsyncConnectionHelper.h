@@ -478,7 +478,7 @@ h
 #
 include
 "
-IDBDatabaseRequest
+IDBDatabase
 .
 h
 "
@@ -785,7 +785,7 @@ protected
 :
 AsyncConnectionHelper
 (
-IDBDatabaseRequest
+IDBDatabase
 *
 aDatabase
 IDBRequest
@@ -1145,7 +1145,7 @@ protected
 :
 nsRefPtr
 <
-IDBDatabaseRequest
+IDBDatabase
 >
 mDatabase
 ;

@@ -2022,7 +2022,7 @@ IDBRequest
 )
 DOMCI_CLASS
 (
-IDBDatabaseRequest
+IDBDatabase
 )
 DOMCI_CLASS
 (
