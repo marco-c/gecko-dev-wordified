@@ -2866,9 +2866,6 @@ getNext
 (
 )
 ;
-#
-ifdef
-XP_WIN
 if
 (
 win
@@ -2880,8 +2877,6 @@ window
 )
 continue
 ;
-#
-endif
 win
 .
 focus
@@ -2909,9 +2904,6 @@ no
 ;
 #
 else
-#
-ifdef
-XP_WIN
 var
 features
 =
@@ -2921,18 +2913,6 @@ centerscreen
 dependent
 "
 ;
-#
-else
-var
-features
-=
-"
-chrome
-centerscreen
-"
-;
-#
-endif
 #
 endif
 window
