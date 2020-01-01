@@ -445,7 +445,7 @@ BLOCK
 #
 include
 "
-nsCommonWidget
+nsWindow
 .
 h
 "
