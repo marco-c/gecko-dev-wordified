@@ -15063,7 +15063,7 @@ if
 (
 newbornDouble
 )
-JS_CALL_DOUBLE_TRACER
+MarkGCThing
 (
 trc
 newbornDouble
