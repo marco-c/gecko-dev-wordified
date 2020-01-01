@@ -653,6 +653,16 @@ SA_LITTLE_ENDIAN
 #
 endif
 #
+elif
+defined
+(
+AIX
+)
+#
+define
+SA_BIG_ENDIAN
+1
+#
 else
 #
 error
