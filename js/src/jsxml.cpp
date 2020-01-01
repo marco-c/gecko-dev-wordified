@@ -30504,13 +30504,13 @@ to
 be
 native
 .
-Therefore
+Thus
 xml_lookupProperty
 must
 return
 a
 valid
-JSProperty
+JSScopeProperty
 *
 pointer
 parameter

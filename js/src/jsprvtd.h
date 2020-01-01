@@ -888,6 +888,11 @@ JSPropCacheEntry
 ;
 typedef
 struct
+JSProperty
+JSProperty
+;
+typedef
+struct
 JSSharpObjectMap
 JSSharpObjectMap
 ;

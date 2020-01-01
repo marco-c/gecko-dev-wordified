@@ -963,11 +963,6 @@ JSIdArray
 ;
 typedef
 struct
-JSProperty
-JSProperty
-;
-typedef
-struct
 JSPropertyDescriptor
 JSPropertyDescriptor
 ;
