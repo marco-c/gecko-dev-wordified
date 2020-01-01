@@ -2065,6 +2065,15 @@ offsetY
 )
 ;
 }
+else
+{
+SelectionHandler
+.
+closeSelection
+(
+)
+;
+}
 }
 /
 /
