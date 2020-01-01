@@ -311,6 +311,13 @@ h
 #
 include
 "
+nsTraceRefcnt
+.
+h
+"
+#
+include
+"
 jArray
 .
 h
