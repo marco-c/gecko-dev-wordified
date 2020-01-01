@@ -3172,6 +3172,9 @@ iterNext
 bool
 iterMore
 (
+jsbytecode
+*
+target
 )
 ;
 void
