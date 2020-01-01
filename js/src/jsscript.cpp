@@ -627,13 +627,6 @@ h
 #
 include
 "
-jsinterpinlines
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h
@@ -8051,6 +8044,8 @@ cx
 -
 >
 thread
+(
+)
 ;
 #
 endif
@@ -9959,6 +9954,8 @@ cx
 -
 >
 thread
+(
+)
 )
 ;
 #
@@ -10967,7 +10964,7 @@ js_FramePCToLineNumber
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 fp
 )
@@ -11045,7 +11042,7 @@ type
 *
 Cope
 with
-JSStackFrame
+StackFrame
 .
 pc
 value
@@ -11706,7 +11703,7 @@ if
 cx
 -
 >
-hasfp
+running
 (
 )
 )
@@ -11720,7 +11717,7 @@ return
 NULL
 ;
 }
-JSStackFrame
+StackFrame
 *
 fp
 =

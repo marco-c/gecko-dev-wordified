@@ -8370,7 +8370,7 @@ with
 source
 *
 /
-JSStackFrame
+StackFrame
 *
 const
 callerFrame
@@ -8504,7 +8504,7 @@ JSPrincipals
 prin
 =
 NULL
-JSStackFrame
+StackFrame
 *
 cfp
 =
@@ -9649,7 +9649,7 @@ JSPrincipals
 prin
 =
 NULL
-JSStackFrame
+StackFrame
 *
 cfp
 =
@@ -9752,7 +9752,7 @@ cx
 JSObject
 *
 scopeChain
-JSStackFrame
+StackFrame
 *
 callerFrame
 JSPrincipals

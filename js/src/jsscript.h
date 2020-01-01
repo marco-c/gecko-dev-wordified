@@ -5437,7 +5437,10 @@ js_FramePCToLineNumber
 JSContext
 *
 cx
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 fp
 )

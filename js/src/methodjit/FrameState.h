@@ -4821,7 +4821,7 @@ address
 relative
 to
 the
-JSStackFrame
+StackFrame
 that
 represents
 where
@@ -4878,7 +4878,7 @@ address
 relative
 to
 the
-JSStackFrame
+StackFrame
 that
 represents
 where

@@ -570,7 +570,7 @@ that
 homes
 the
 current
-JSStackFrame
+StackFrame
 .
 #
 if

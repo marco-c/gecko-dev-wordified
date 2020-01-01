@@ -2998,7 +2998,10 @@ cx
 JSObject
 *
 proto
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 priv
 )
@@ -6250,7 +6253,10 @@ active
 *
 /
 inline
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 maybeCallObjStackFrame
 (
@@ -9774,7 +9780,7 @@ are
 *
 *
 private
-JSStackFrame
+StackFrame
 *
 active
 frame
@@ -9865,7 +9871,7 @@ slot
 referring
 to
 the
-JSStackFrame
+StackFrame
 in
 *
 whose
@@ -10230,7 +10236,10 @@ cx
 JSObject
 *
 proto
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 fp
 )
@@ -13136,7 +13145,10 @@ js_DumpStackFrame
 JSContext
 *
 cx
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 start
 =

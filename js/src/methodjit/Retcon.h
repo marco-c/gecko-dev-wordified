@@ -767,7 +767,7 @@ toPatch
 bool
 recompile
 (
-JSStackFrame
+StackFrame
 *
 fp
 Vector

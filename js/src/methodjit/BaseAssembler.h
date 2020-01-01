@@ -4037,7 +4037,7 @@ Imm32
 (
 sizeof
 (
-JSStackFrame
+StackFrame
 )
 +
 frameDepth
@@ -4145,13 +4145,10 @@ storePtr
 JSFrameReg
 FrameAddress
 (
-offsetof
-(
 VMFrame
-regs
-.
-fp
-)
+:
+:
+offsetOfFp
 )
 )
 ;
@@ -4184,7 +4181,7 @@ regs
 +
 offsetof
 (
-JSFrameRegs
+FrameRegs
 pc
 )
 )
@@ -5230,7 +5227,7 @@ FrameFlagsAddress
 Address
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFlags

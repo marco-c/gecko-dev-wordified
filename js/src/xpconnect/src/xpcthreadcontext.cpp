@@ -2771,6 +2771,8 @@ cx
 -
 >
 thread
+(
+)
 ;
 sMainThreadData
 =
