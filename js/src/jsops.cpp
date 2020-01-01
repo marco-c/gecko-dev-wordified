@@ -12193,9 +12193,11 @@ end_getelem
 }
 rval
 =
-GetArgsSlot
-(
 obj
+-
+>
+getArgsElement
+(
 arg
 )
 ;
