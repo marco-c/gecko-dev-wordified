@@ -1239,6 +1239,27 @@ None
 )
 :
               
+if
+cmd
+[
+0
+]
+=
+=
+'
+am
+'
+:
+                
+self
+.
+proc
+=
+stdout
+              
+else
+:
+                
 raise
 Exception
 (
