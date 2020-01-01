@@ -1164,10 +1164,12 @@ create
 (
 cx
 kind
-gc
-:
-:
-DefaultHeap
+GetInitialHeap
+(
+GenericObject
+&
+CallClass
+)
 shape
 type
 slots
