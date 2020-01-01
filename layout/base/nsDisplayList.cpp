@@ -21618,6 +21618,12 @@ CommonElementAnimationData
 LogAsyncAnimationFailure
 (
 message
+aFrame
+-
+>
+GetContent
+(
+)
 )
 ;
 }

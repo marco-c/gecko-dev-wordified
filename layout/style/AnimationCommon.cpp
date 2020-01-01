@@ -76,7 +76,7 @@ MPL
 #
 include
 "
-CompositorParent
+gfxPlatform
 .
 h
 "
@@ -1226,13 +1226,10 @@ shouldLog
 &
 &
 !
-layers
+gfxPlatform
 :
 :
-CompositorParent
-:
-:
-CompositorLoop
+OffMainThreadCompositingEnabled
 (
 )
 )

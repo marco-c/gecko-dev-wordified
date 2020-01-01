@@ -2377,6 +2377,12 @@ UseAzureContentDrawing
 (
 )
 ;
+static
+bool
+OffMainThreadCompositingEnabled
+(
+)
+;
 /
 *
 *
