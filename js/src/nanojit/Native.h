@@ -608,7 +608,6 @@ OPDEF
 (
 op
 number
-args
 repkind
 )
 \
@@ -622,11 +621,10 @@ number
 )
 #
 define
-OPDEF64
+OPD64
 (
 op
 number
-args
 repkind
 )
 \
@@ -655,7 +653,7 @@ undef
 OPDEF
 #
 undef
-OPDEF64
+OPD64
 #
 ifdef
 NANOJIT_64BIT

@@ -11225,7 +11225,6 @@ OPDEF
 (
 op
 number
-args
 repkind
 )
 \
@@ -11242,11 +11241,10 @@ op
 ;
 #
 define
-OPDEF64
+OPD64
 (
 op
 number
-args
 repkind
 )
 \
@@ -11275,7 +11273,7 @@ undef
 OPDEF
 #
 undef
-OPDEF64
+OPD64
 /
 /
 TODO
