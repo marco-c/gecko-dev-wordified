@@ -273,8 +273,10 @@ mSize
 int32_t
 mStride
 ;
+RefPtr
+<
 DrawTargetSkia
-*
+>
 mDrawTarget
 ;
 bool
