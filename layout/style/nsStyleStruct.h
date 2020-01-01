@@ -9891,6 +9891,17 @@ nsStyleConsts
 h
 NS_STYLE_CLEAR_
 *
+uint8_t
+mBreakInside
+;
+/
+/
+[
+reset
+]
+NS_STYLE_PAGE_BREAK_AUTO
+/
+AVOID
 bool
 mBreakBefore
 ;

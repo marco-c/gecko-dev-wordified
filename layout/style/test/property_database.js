@@ -34078,10 +34078,7 @@ pageBreakInside
 "
 inherited
 :
-true
-backend_only
-:
-true
+false
 type
 :
 CSS_TYPE_LONGHAND
@@ -34102,6 +34099,12 @@ avoid
 invalid_values
 :
 [
+"
+left
+"
+"
+right
+"
 ]
 }
 "
