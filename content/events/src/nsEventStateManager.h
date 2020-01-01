@@ -2614,7 +2614,7 @@ d
 gesture
 state
 machine
-nsPoint
+nsIntPoint
 mGestureDownPoint
 ;
 /

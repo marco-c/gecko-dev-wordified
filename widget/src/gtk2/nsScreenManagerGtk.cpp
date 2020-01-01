@@ -1596,7 +1596,8 @@ in
 pixels
 (
 not
-twips
+app
+units
 )
 and
 in
@@ -1754,7 +1755,7 @@ area
 =
 0
 ;
-nsRect
+nsIntRect
 windowRect
 (
 aX
@@ -1826,7 +1827,7 @@ calculate
 the
 surface
 area
-nsRect
+nsIntRect
 screenRect
 (
 x

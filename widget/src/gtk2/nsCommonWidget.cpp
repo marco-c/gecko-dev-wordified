@@ -852,7 +852,7 @@ nsCommonWidget
 :
 DispatchResizeEvent
 (
-nsRect
+nsIntRect
 &
 aRect
 nsEventStatus
@@ -1280,7 +1280,7 @@ SizeTo
 (
 GetSafeWindowSize
 (
-nsSize
+nsIntSize
 (
 aWidth
 aHeight
@@ -1699,7 +1699,7 @@ mIsTopLevel
 mListenForResizes
 )
 {
-nsRect
+nsIntRect
 rect
 (
 mBounds
@@ -1762,7 +1762,7 @@ SizeTo
 (
 GetSafeWindowSize
 (
-nsSize
+nsIntSize
 (
 aWidth
 aHeight
@@ -2099,7 +2099,7 @@ synthesize
 a
 resize
 event
-nsRect
+nsIntRect
 rect
 (
 aX

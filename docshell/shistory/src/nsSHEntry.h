@@ -743,7 +743,7 @@ nsISupports
 >
 mWindowState
 ;
-nsRect
+nsIntRect
 mViewerBounds
 ;
 nsCOMArray

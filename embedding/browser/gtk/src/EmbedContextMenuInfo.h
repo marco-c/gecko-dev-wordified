@@ -863,7 +863,7 @@ nsIDOMDocument
 >
 mCtxDocument
 ;
-nsRect
+nsIntRect
 mFormRect
 ;
 nsCOMPtr
