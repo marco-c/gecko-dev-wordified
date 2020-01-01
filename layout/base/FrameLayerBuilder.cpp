@@ -18694,7 +18694,7 @@ if
 aLayer
 -
 >
-GetBaseTransform
+GetTransform
 (
 )
 .
@@ -18736,12 +18736,10 @@ gfxSize
 0
 )
 )
-{
 clamp
 =
 false
 ;
-}
 }
 if
 (
