@@ -784,8 +784,13 @@ mWrapper
 &
 &
 !
+(
 GetWrapperFlags
 (
+)
+&
+~
+WRAPPER_IS_DOM_BINDING
 )
 "
 This
