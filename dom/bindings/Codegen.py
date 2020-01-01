@@ -9479,6 +9479,28 @@ attr
 :
             
 if
+attr
+.
+readonly
+and
+attr
+.
+getExtendedAttribute
+(
+"
+PutForwards
+"
+)
+is
+None
+:
+                
+return
+"
+JSOP_NULLWRAPPER
+"
+            
+if
 self
 .
 static
@@ -9504,28 +9526,6 @@ nullptr
             
 else
 :
-                
-if
-attr
-.
-readonly
-and
-attr
-.
-getExtendedAttribute
-(
-"
-PutForwards
-"
-)
-is
-None
-:
-                    
-return
-"
-JSOP_NULLWRAPPER
-"
                 
 accessor
 =
@@ -52603,6 +52603,12 @@ h
                           
 '
 XPCQuickStubs
+.
+h
+'
+                          
+'
+XPCWrapper
 .
 h
 '
