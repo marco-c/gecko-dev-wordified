@@ -39836,6 +39836,8 @@ initialized
 )
 )
 {
+if
+(
 TypeObjectSet
 :
 :
@@ -39848,10 +39850,6 @@ lookup
 (
 this
 )
-;
-if
-(
-p
 )
 MarkTypeObjectUnknownProperties
 (
