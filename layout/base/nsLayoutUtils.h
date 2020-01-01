@@ -5113,14 +5113,7 @@ of
 invalidation
 and
 clipping
-(
-this
-is
-the
-*
-destination
-clip
-)
+.
 *
 param
 aSourceRect
