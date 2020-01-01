@@ -913,8 +913,6 @@ AddonManager
 getAddonsWithOperationsByTypes
 (
 null
-callback_soon
-(
 function
 (
 pendingAddons
@@ -1537,7 +1535,6 @@ a1
 ;
 }
 )
-)
 ;
 }
 )
@@ -2005,8 +2002,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 olda2
@@ -2261,7 +2256,6 @@ run_test_4
 )
 ;
 }
-)
 )
 ;
 }
@@ -2662,8 +2656,6 @@ AddonManager
 getInstallsByTypes
 (
 null
-callback_soon
-(
 function
 (
 installs
@@ -2895,7 +2887,6 @@ run_test_6
 )
 ;
 }
-)
 )
 ;
 }
@@ -3211,8 +3202,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 olda3
@@ -3358,7 +3347,6 @@ run_test_8
 ;
 }
 )
-)
 ;
 }
 function
@@ -3445,10 +3433,7 @@ onInstallStarted
 onInstallEnded
 "
 ]
-callback_soon
-(
 check_test_8
-)
 )
 ;
 install
@@ -4061,8 +4046,6 @@ AddonManager
 .
 getAllInstalls
 (
-callback_soon
-(
 function
 (
 activeInstalls
@@ -4120,7 +4103,6 @@ run_test_11
 )
 ;
 }
-)
 )
 ;
 }
@@ -4920,10 +4902,7 @@ onInstallEnded
 "
 ]
 }
-callback_soon
-(
 check_test_11
-)
 )
 ;
 installs
@@ -5380,10 +5359,7 @@ onInstallEnded
 "
 ]
 }
-callback_soon
-(
 check_test_12
-)
 )
 ;
 install
@@ -6338,8 +6314,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 olda2
@@ -6513,7 +6487,6 @@ run_test_14
 )
 ;
 }
-)
 )
 ;
 }
@@ -8540,8 +8513,6 @@ AddonManager
 .
 getAllInstalls
 (
-callback_soon
-(
 function
 (
 aInstalls
@@ -8634,7 +8605,6 @@ run_test_22
 )
 ;
 }
-)
 )
 ;
 }
@@ -9855,7 +9825,7 @@ ensure_test_completed
 (
 )
 ;
-end_test
+do_test_finished
 (
 )
 ;

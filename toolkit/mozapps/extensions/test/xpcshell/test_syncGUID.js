@@ -520,8 +520,6 @@ AddonManager
 getAddonsByIDs
 (
 installIDs
-callback_soon
-(
 function
 (
 addons
@@ -621,7 +619,6 @@ run_next_test
 ;
 }
 }
-)
 )
 ;
 }

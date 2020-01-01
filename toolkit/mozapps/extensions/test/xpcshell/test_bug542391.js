@@ -2243,8 +2243,6 @@ mozilla
 org
 "
 ]
-callback_soon
-(
 function
 disable_and_restart
 (
@@ -2383,8 +2381,6 @@ mozilla
 org
 "
 ]
-callback_soon
-(
 function
 (
 addons
@@ -2542,10 +2538,8 @@ run_test_1
 ;
 }
 )
-)
 ;
 }
-)
 )
 ;
 }

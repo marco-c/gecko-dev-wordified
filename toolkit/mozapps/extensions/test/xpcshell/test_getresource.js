@@ -649,8 +649,6 @@ do_get_addon
 test_getresource
 "
 )
-callback_soon
-(
 function
 (
 aInstall
@@ -713,16 +711,14 @@ newa1
 null
 )
 ;
-do_execute_soon
-(
 do_test_finished
+(
 )
 ;
 }
 )
 ;
 }
-)
 )
 ;
 }

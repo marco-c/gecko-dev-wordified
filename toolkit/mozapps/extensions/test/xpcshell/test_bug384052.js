@@ -701,9 +701,8 @@ do_check_true
 gSeenExpectedURL
 )
 ;
-do_execute_soon
-(
 shutdownTest
+(
 )
 ;
 }
