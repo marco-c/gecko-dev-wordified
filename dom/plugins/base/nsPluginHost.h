@@ -929,14 +929,6 @@ nsPluginNativeWindow
 aPluginNativeWindow
 )
 ;
-nsresult
-InstantiateDummyJavaPlugin
-(
-nsIPluginInstanceOwner
-*
-aOwner
-)
-;
 void
 AddIdleTimeTarget
 (
