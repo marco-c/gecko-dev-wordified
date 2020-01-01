@@ -2229,11 +2229,6 @@ sw
 surfaceSize
 .
 width
-sh
-=
-surfaceSize
-.
-height
 ;
 const
 PRInt32
@@ -2542,7 +2537,9 @@ nsIntRect
 0
 0
 sw
-sh
+surfaceSize
+.
+height
 )
 .
 Contains
