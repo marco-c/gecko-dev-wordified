@@ -793,7 +793,7 @@ dialog
 no
 all
 "
-cmdLine
+null
 )
 ;
 }
