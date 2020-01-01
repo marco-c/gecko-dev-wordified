@@ -812,7 +812,7 @@ h
 #
 include
 "
-nsIDOMStorage
+nsIDOMStorageObsolete
 .
 h
 "
@@ -4419,7 +4419,7 @@ mCrypto
 ;
 nsCOMPtr
 <
-nsIDOMStorage2
+nsIDOMStorage
 >
 mLocalStorage
 ;
@@ -4498,7 +4498,7 @@ mTimeoutFiringDepth
 ;
 nsCOMPtr
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 mSessionStorage
 ;

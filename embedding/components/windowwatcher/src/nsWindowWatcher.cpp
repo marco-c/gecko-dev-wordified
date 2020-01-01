@@ -776,7 +776,7 @@ h
 #
 include
 "
-nsIDOMStorage
+nsIDOMStorageObsolete
 .
 h
 "
@@ -6309,7 +6309,7 @@ parentDocShell
 {
 nsCOMPtr
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 storage
 ;

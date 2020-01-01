@@ -4045,7 +4045,7 @@ nsIURI
 aURI
 PRBool
 create
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 *
 aStorage
@@ -4823,7 +4823,7 @@ domain
 nsInterfaceHashtable
 <
 nsCStringHashKey
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 mStorages
 ;
