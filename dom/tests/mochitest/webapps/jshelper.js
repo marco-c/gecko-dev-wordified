@@ -2094,8 +2094,8 @@ callNext
 *
 *
 *
-Uninstall
-uninstalls
+Install
+installs
 a
 specific
 App
