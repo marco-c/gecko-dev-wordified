@@ -1376,15 +1376,7 @@ JSTracer
 *
 trc
 )
-{
-stackSpace
-.
-mark
-(
-trc
-)
 ;
-}
 void
 purge
 (
