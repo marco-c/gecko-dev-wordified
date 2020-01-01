@@ -2598,6 +2598,12 @@ outputStream
 {
 nsCacheServiceAutoLock
 lock
+(
+LOCK_TELEM
+(
+NSDISKCACHESTREAMIO_CLOSEOUTPUTSTREAM
+)
+)
 ;
 /
 /
@@ -3331,6 +3337,12 @@ NS_OK
 ;
 nsCacheServiceAutoLock
 lock
+(
+LOCK_TELEM
+(
+NSDISKCACHESTREAMIO_WRITE
+)
+)
 ;
 /
 /
