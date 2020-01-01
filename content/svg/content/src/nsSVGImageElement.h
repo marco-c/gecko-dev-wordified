@@ -549,6 +549,13 @@ nsSVGImageElement
 ;
 public
 :
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
+;
 /
 /
 interfaces
@@ -709,7 +716,7 @@ GetLengthInfo
 )
 ;
 virtual
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 GetPreserveAspectRatio
 (
@@ -750,7 +757,7 @@ sLengthInfo
 4
 ]
 ;
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
 enum

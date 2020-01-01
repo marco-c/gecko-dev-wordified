@@ -483,6 +483,10 @@ gfxMatrix
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsSVGElement
 :
 :
@@ -2497,7 +2501,7 @@ return
 mViewBox
 ;
 }
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 nsSVGMarkerElement
 :

@@ -478,6 +478,10 @@ nsIFrame
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 -
@@ -2006,7 +2010,7 @@ return
 mViewBox
 ;
 }
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 nsSVGPatternElement
 :

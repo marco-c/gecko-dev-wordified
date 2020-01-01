@@ -603,6 +603,13 @@ aNodeInfo
 ;
 public
 :
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
+;
 /
 /
 interfaces
@@ -717,7 +724,7 @@ GetViewBox
 )
 ;
 virtual
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 GetPreserveAspectRatio
 (
@@ -814,7 +821,7 @@ properties
 nsSVGViewBox
 mViewBox
 ;
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
 /

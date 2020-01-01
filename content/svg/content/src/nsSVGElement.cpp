@@ -1234,7 +1234,7 @@ Init
 )
 ;
 }
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
@@ -3699,7 +3699,7 @@ PR_TRUE
 /
 Check
 for
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 attribute
 }
 else
@@ -3714,7 +3714,7 @@ nsGkAtoms
 preserveAspectRatio
 )
 {
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
@@ -4984,7 +4984,7 @@ nsGkAtoms
 preserveAspectRatio
 )
 {
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
@@ -12021,7 +12021,7 @@ MODIFICATION
 ;
 }
 }
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 nsSVGElement
 :
@@ -12051,7 +12051,7 @@ aDoSetAttr
 )
 return
 ;
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
@@ -13855,7 +13855,7 @@ nsGkAtoms
 preserveAspectRatio
 )
 {
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =

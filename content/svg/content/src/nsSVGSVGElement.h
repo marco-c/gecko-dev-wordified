@@ -936,6 +936,13 @@ aFromParser
 ;
 public
 :
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
+;
 /
 /
 interfaces
@@ -1750,7 +1757,7 @@ GetViewBox
 )
 ;
 virtual
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 GetPreserveAspectRatio
 (
@@ -1759,7 +1766,7 @@ GetPreserveAspectRatio
 nsSVGViewBox
 mViewBox
 ;
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
 nsSVGSVGElement
