@@ -425,6 +425,8 @@ kind
 of
 like
 testruns
+/
+/
 but
 w
 /
@@ -543,9 +545,6 @@ handleRunSelect
 var
 id
 =
-document
-.
-getElementById
 (
 "
 qa
