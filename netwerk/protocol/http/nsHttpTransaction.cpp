@@ -4909,7 +4909,7 @@ HTTP
 ;
 static
 const
-PRUInt32
+PRUint32
 HTTPHeaderLen
 =
 sizeof
