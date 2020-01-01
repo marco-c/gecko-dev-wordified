@@ -1483,6 +1483,7 @@ aTransform
 const
 {
 CairoTempMatrix
+temp
 (
 *
 mPathContext
@@ -1562,6 +1563,7 @@ aTransform
 const
 {
 CairoTempMatrix
+temp
 (
 *
 mPathContext
@@ -1621,6 +1623,7 @@ aTransform
 const
 {
 CairoTempMatrix
+temp
 (
 *
 mPathContext
@@ -1699,6 +1702,7 @@ aTransform
 const
 {
 CairoTempMatrix
+temp
 (
 *
 mPathContext
