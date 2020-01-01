@@ -675,16 +675,10 @@ context
 GetNativeContext
 (
 )
-)
-;
 holder
 -
 >
 GetJSObject
-(
-targetScriptObject
-.
-address
 (
 )
 )

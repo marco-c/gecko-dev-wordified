@@ -499,16 +499,10 @@ RootedObject
 obj
 (
 aCx
-)
-;
 wrappedObj
 -
 >
 GetJSObject
-(
-obj
-.
-address
 (
 )
 )

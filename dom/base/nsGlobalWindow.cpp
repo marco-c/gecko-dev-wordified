@@ -12396,12 +12396,14 @@ MOZ_ASSERT
 jsholder
 )
 ;
+*
+aNativeGlobal
+=
 jsholder
 -
 >
 GetJSObject
 (
-aNativeGlobal
 )
 ;
 jsholder
