@@ -822,9 +822,6 @@ the
 stream
 .
 virtual
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 GetTags
@@ -1612,9 +1609,6 @@ static
 bool
 AddVorbisComment
 (
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 aTags
@@ -1709,9 +1703,6 @@ with
 tag
 metadata
 .
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 GetTags
@@ -2631,9 +2622,6 @@ the
 metadata
 header
 .
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 GetTags
