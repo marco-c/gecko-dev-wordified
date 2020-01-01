@@ -10371,6 +10371,12 @@ fontStyle
 mFont
 .
 weight
+fontStyle
+-
+>
+mFont
+.
+stretch
 NSAppUnitsToFloatPixels
 (
 fontSize

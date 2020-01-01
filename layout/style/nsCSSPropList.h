@@ -4578,7 +4578,7 @@ mSizeAdjust
 eCSSType_Value
 nsnull
 )
-CSS_PROP_BACKENDONLY
+CSS_PROP_FONT
 (
 font
 -

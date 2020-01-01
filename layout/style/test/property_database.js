@@ -10232,9 +10232,6 @@ fontStretch
 inherited
 :
 true
-backend_only
-:
-true
 type
 :
 CSS_TYPE_LONGHAND
