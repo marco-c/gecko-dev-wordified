@@ -7480,6 +7480,9 @@ aSize
 const
 bool
 aUseReadFBO
+const
+bool
+aDisableAA
 )
 {
 if
@@ -7561,6 +7564,9 @@ if
 (
 !
 useDrawMSFBO
+|
+|
+aDisableAA
 )
 samples
 =
