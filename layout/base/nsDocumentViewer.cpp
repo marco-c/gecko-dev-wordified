@@ -3995,6 +3995,14 @@ nsnull
 )
 ;
 }
+nsCOMPtr
+<
+nsIPresShell
+>
+shellGrip
+=
+mPresShell
+;
 /
 /
 Initial
@@ -4017,6 +4025,9 @@ refresh
 if
 (
 mEnableRendering
+&
+&
+mViewManager
 )
 {
 mViewManager
