@@ -811,6 +811,14 @@ public
 static
 native
 void
+onCriticalOOM
+(
+)
+;
+public
+static
+native
+void
 callObserver
 (
 String
