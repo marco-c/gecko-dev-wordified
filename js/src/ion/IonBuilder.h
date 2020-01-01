@@ -3243,14 +3243,6 @@ Utility
 intrinsics
 .
 InliningStatus
-inlineThrowError
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineIsCallable
 (
 CallInfo
