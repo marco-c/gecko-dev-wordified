@@ -16908,6 +16908,12 @@ return
 if
 (
 mDoorHangerPopup
+!
+=
+null
+&
+&
+mDoorHangerPopup
 .
 isShowing
 (
