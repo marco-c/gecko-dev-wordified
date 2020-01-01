@@ -11782,16 +11782,6 @@ viewport
 .
 zoom
 ;
-viewport
-.
-allowZoom
-=
-this
-.
-metadata
-.
-allowZoom
-;
 /
 *
 *
