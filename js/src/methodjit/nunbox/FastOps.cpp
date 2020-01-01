@@ -2146,7 +2146,7 @@ allocReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 addr
 data
@@ -2237,7 +2237,7 @@ depth
 ;
 masm
 .
-storeData32
+storePayload
 (
 data
 addr
@@ -4390,7 +4390,7 @@ top
 )
 masm
 .
-loadData32
+loadPayload
 (
 frame
 .
@@ -4603,7 +4603,7 @@ top
 )
 masm
 .
-loadData32
+loadPayload
 (
 frame
 .
@@ -7317,7 +7317,7 @@ else
 {
 masm
 .
-storeData32
+storePayload
 (
 frame
 .
@@ -7341,12 +7341,12 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
 fe
 -
 >
-getKnownTag
+getKnownType
 (
 )
 )
@@ -7551,7 +7551,7 @@ else
 {
 masm
 .
-storeData32
+storePayload
 (
 frame
 .
@@ -7575,12 +7575,12 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
 fe
 -
 >
-getKnownTag
+getKnownType
 (
 )
 )
@@ -7918,7 +7918,7 @@ tmpReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 slot
 objReg
@@ -8049,7 +8049,7 @@ tmpReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 slot
 objReg

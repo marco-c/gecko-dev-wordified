@@ -649,8 +649,8 @@ hasTypeReg
 bool
 learnedType
 ;
-JSValueTag
-typeTag
+JSValueType
+type
 ;
 }
 ;

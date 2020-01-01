@@ -1548,7 +1548,7 @@ DATA
 ;
 masm
 .
-loadData32
+loadPayload
 (
 address
 reg
@@ -2464,7 +2464,7 @@ DATA
 ;
 masm
 .
-loadData32
+loadPayload
 (
 addressOf
 (
@@ -2655,7 +2655,7 @@ reg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 addressOf
 (
@@ -2837,12 +2837,12 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
 fe
 -
 >
-getKnownTag
+getKnownType
 (
 )
 )
@@ -2987,7 +2987,7 @@ to
 else
 masm
 .
-storeData32
+storePayload
 (
 Imm32
 (
@@ -3006,7 +3006,7 @@ else
 {
 masm
 .
-storeData32
+storePayload
 (
 fe
 -

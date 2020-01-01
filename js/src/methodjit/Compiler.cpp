@@ -7394,7 +7394,7 @@ reg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 Address
 (
@@ -10928,7 +10928,7 @@ Value
 ;
 masm
 .
-loadData32
+loadPayload
 (
 funPrivate
 data
@@ -11667,7 +11667,7 @@ stubcc
 .
 masm
 .
-loadData32
+loadPayload
 (
 thisv
 JSReturnReg_Data
@@ -13397,7 +13397,7 @@ shapeReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 slot
 objReg
@@ -13770,7 +13770,7 @@ shapeReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 slot
 objReg
@@ -14220,7 +14220,7 @@ thisv
 ;
 masm
 .
-storeData32
+storePayload
 (
 pic
 .
@@ -14489,7 +14489,7 @@ shapeReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 slot
 objReg
@@ -14784,7 +14784,7 @@ Value
 ;
 masm
 .
-loadData32
+loadPayload
 (
 fslot
 temp
@@ -15236,7 +15236,7 @@ shapeReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 slot
 objReg
@@ -15905,12 +15905,12 @@ s
 .
 type
 .
-tag
+knownType
 =
 rhs
 -
 >
-getKnownTag
+getKnownType
 (
 )
 ;
@@ -16287,7 +16287,7 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
 vr
 .
@@ -16297,7 +16297,7 @@ s
 .
 type
 .
-tag
+knownType
 )
 slot
 )
@@ -16321,7 +16321,7 @@ slot
 ;
 masm
 .
-storeData32
+storePayload
 (
 vr
 .
@@ -16739,7 +16739,7 @@ jsval
 ;
 masm
 .
-loadData32
+loadPayload
 (
 Address
 (
@@ -17041,7 +17041,7 @@ scopeChain
 ;
 masm
 .
-loadData32
+loadPayload
 (
 scopeChain
 reg
@@ -17294,7 +17294,7 @@ allocReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 thisvAddr
 reg
@@ -18513,7 +18513,7 @@ JSSLOT_PRIVATE
 ;
 masm
 .
-loadData32
+loadPayload
 (
 privSlot
 T1
@@ -18950,7 +18950,7 @@ JSSLOT_PRIVATE
 ;
 masm
 .
-loadData32
+loadPayload
 (
 privSlot
 T1
@@ -20455,7 +20455,7 @@ address
 ;
 masm
 .
-storeData32
+storePayload
 (
 dataReg
 address
@@ -21148,7 +21148,7 @@ hit
 /
 masm
 .
-loadData32
+loadPayload
 (
 protoAddr
 obj
