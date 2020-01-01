@@ -1988,6 +1988,17 @@ AST
 serializer
 *
 /
+JS_LAZY_ARGUMENTS
+/
+*
+lazy
+arguments
+value
+on
+the
+stack
+*
+/
 JS_GENERIC_MAGIC
 /
 *
