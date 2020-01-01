@@ -12522,11 +12522,6 @@ ObjectValue
 (
 iter
 .
-fp
-(
-)
--
->
 callee
 (
 )
