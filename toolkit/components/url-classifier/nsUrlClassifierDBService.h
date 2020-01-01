@@ -176,6 +176,15 @@ nsICryptoHMAC
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 The
@@ -251,6 +260,7 @@ thread
 .
 class
 nsUrlClassifierDBService
+MOZ_FINAL
 :
 public
 nsIUrlClassifierDBService
