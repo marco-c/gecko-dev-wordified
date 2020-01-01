@@ -4362,6 +4362,7 @@ nsPIDOMWindow
 GetWindow
 (
 )
+const
 {
 return
 mWindow
@@ -4447,6 +4448,7 @@ PRUint64
 OuterWindowID
 (
 )
+const
 {
 nsPIDOMWindow
 *
@@ -9781,6 +9783,7 @@ nsPIDOMWindow
 GetWindowInternal
 (
 )
+const
 =
 0
 ;
