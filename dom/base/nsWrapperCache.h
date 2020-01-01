@@ -1322,7 +1322,14 @@ nsContentUtils
 :
 ReleaseWrapper
 (
-s
+static_cast
+<
+nsISupports
+*
+>
+(
+p
+)
 tmp
 )
 ;
