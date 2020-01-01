@@ -765,6 +765,8 @@ jwcryptoClass
 (
 )
 ;
+this
+.
 jwcrypto
 .
 ALGORITHMS

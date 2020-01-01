@@ -718,7 +718,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -2057,7 +2058,8 @@ context
 .
 *
 /
-let
+this
+.
 SignInToWebsiteController
 =
 {

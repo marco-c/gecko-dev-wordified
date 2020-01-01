@@ -343,6 +343,9 @@ aCallback
 )
 ;
 }
+;
+this
+.
 Sandbox
 .
 prototype
