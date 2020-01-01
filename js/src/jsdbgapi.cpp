@@ -13806,7 +13806,7 @@ hep
 NULL
 )
 return
-JS_FALSE
+NULL
 ;
 JS_HashTableRawAdd
 (
