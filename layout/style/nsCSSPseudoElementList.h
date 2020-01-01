@@ -478,3 +478,17 @@ bar
 "
 0
 )
+CSS_PSEUDO_ELEMENT
+(
+mozMeterBar
+"
+:
+-
+moz
+-
+meter
+-
+bar
+"
+0
+)
