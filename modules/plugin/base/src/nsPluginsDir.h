@@ -568,6 +568,10 @@ char
 *
 fFullPath
 ;
+char
+*
+fVersion
+;
 #
 ifdef
 XP_MACOSX

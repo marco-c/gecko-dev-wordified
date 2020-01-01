@@ -814,6 +814,10 @@ aFullPath
 const
 char
 *
+aVersion
+const
+char
+*
 const
 *
 aMimeTypes
@@ -1156,6 +1160,14 @@ UTF
 8
 nsCString
 mFullPath
+;
+/
+/
+UTF
+-
+8
+nsCString
+mVersion
 ;
 /
 /

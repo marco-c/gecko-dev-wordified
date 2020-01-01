@@ -5819,6 +5819,16 @@ NP_EXPORT
 char
 *
 )
+NP_GetPluginVersion
+(
+void
+)
+;
+NP_EXPORT
+(
+char
+*
+)
 NP_GetMIMEDescription
 (
 void
