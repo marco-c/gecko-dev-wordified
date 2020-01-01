@@ -874,6 +874,9 @@ OSVERSIONINFO
 mOsVersion
 ;
 PRPackedBool
+mIsXPOrLater
+;
+PRPackedBool
 mIsVistaOrLater
 ;
 }
