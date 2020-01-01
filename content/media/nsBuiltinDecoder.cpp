@@ -2445,6 +2445,10 @@ if
 (
 !
 mElement
+|
+|
+!
+mElement
 -
 >
 MayHaveAudioAvailableEventListener
@@ -3847,6 +3851,11 @@ cancelled
 by
 user
 .
+if
+(
+mElement
+)
+{
 mElement
 -
 >
@@ -3854,6 +3863,7 @@ LoadAborted
 (
 )
 ;
+}
 return
 ;
 }
