@@ -7802,7 +7802,7 @@ surface
 )
 ;
 return
-NS_ERROR_FAILURE
+NPERR_GENERIC_ERROR
 ;
 }
 NPError
@@ -7830,7 +7830,7 @@ surface
 )
 ;
 return
-NS_ERROR_FAILURE
+NPERR_GENERIC_ERROR
 ;
 }
 void
