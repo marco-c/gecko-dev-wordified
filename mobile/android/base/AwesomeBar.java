@@ -4008,7 +4008,7 @@ BrowserDB
 updateBookmark
 (
 mResolver
-url
+id
 newUrl
 nameText
 .
