@@ -272,7 +272,11 @@ h
 #
 include
 "
-nsXBLChildrenElement
+mozilla
+/
+dom
+/
+XBLChildrenElement
 .
 h
 "
@@ -381,6 +385,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 /
 /
@@ -5281,7 +5292,7 @@ InsertAppendedContent
 nsBindingManager
 *
 aManager
-nsXBLChildrenElement
+XBLChildrenElement
 *
 aPoint
 nsIContent
@@ -5505,7 +5516,7 @@ the
 new
 kids
 .
-nsXBLChildrenElement
+XBLChildrenElement
 *
 point
 =
@@ -5839,7 +5850,7 @@ aChild
 nullptr
 )
 ;
-nsXBLChildrenElement
+XBLChildrenElement
 *
 point
 =
@@ -6082,7 +6093,7 @@ kNameSpaceID_XBL
 {
 static_cast
 <
-nsXBLChildrenElement
+XBLChildrenElement
 *
 >
 (
@@ -6549,7 +6560,7 @@ index
 "
 )
 ;
-nsXBLChildrenElement
+XBLChildrenElement
 *
 point
 =
@@ -6866,7 +6877,7 @@ if
 (
 static_cast
 <
-nsXBLChildrenElement
+XBLChildrenElement
 *
 >
 (
@@ -6916,7 +6927,7 @@ binding
 break
 ;
 }
-nsXBLChildrenElement
+XBLChildrenElement
 *
 point
 =
@@ -7019,7 +7030,7 @@ if
 (
 static_cast
 <
-nsXBLChildrenElement
+XBLChildrenElement
 *
 >
 (
@@ -7088,7 +7099,7 @@ return
 nullptr
 ;
 }
-nsXBLChildrenElement
+XBLChildrenElement
 *
 point
 =

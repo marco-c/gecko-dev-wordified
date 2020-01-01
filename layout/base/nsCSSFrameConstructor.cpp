@@ -573,13 +573,6 @@ h
 #
 include
 "
-nsXBLChildrenElement
-.
-h
-"
-#
-include
-"
 nsCSSRendering
 .
 h

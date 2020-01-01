@@ -523,13 +523,6 @@ Util
 .
 h
 "
-#
-include
-"
-nsXBLChildrenElement
-.
-h
-"
 using
 namespace
 mozilla
