@@ -516,7 +516,7 @@ class
 nsIImageLoadingContent
 ;
 class
-nsICanvasElement
+nsICanvasElementExternal
 ;
 /
 *
@@ -828,7 +828,7 @@ aPresContext
 nsIImageLoadingContent
 *
 aImageLoader
-nsICanvasElement
+nsICanvasElementExternal
 *
 aCanvas
 PRInt32

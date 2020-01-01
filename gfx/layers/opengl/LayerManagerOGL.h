@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -1185,6 +1185,15 @@ CreateColorLayer
 virtual
 already_AddRefed
 <
+CanvasLayer
+>
+CreateCanvasLayer
+(
+)
+;
+virtual
+already_AddRefed
+<
 ImageContainer
 >
 CreateImageContainer
@@ -1601,6 +1610,7 @@ TYPE_THEBES
 TYPE_CONTAINER
 TYPE_IMAGE
 TYPE_COLOR
+TYPE_CANVAS
 }
 ;
 virtual

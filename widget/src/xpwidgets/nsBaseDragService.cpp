@@ -596,7 +596,7 @@ h
 #
 include
 "
-nsICanvasElement
+nsICanvasElementExternal
 .
 h
 "
@@ -3637,7 +3637,7 @@ mImage
 {
 nsCOMPtr
 <
-nsICanvasElement
+nsICanvasElementExternal
 >
 canvas
 =
@@ -3841,7 +3841,7 @@ aPresContext
 nsIImageLoadingContent
 *
 aImageLoader
-nsICanvasElement
+nsICanvasElementExternal
 *
 aCanvas
 PRInt32
@@ -3988,19 +3988,14 @@ null
 "
 )
 ;
-PRUint32
-width
-height
-;
+nsIntSize
+sz
+=
 aCanvas
 -
 >
-GetSize
+GetSizeExternal
 (
-&
-width
-&
-height
 )
 ;
 aScreenDragRect
@@ -4008,6 +4003,8 @@ aScreenDragRect
 >
 width
 =
+sz
+.
 width
 ;
 aScreenDragRect
@@ -4015,6 +4012,8 @@ aScreenDragRect
 >
 height
 =
+sz
+.
 height
 ;
 }
@@ -4452,7 +4451,7 @@ return
 aCanvas
 -
 >
-RenderContexts
+RenderContextsExternal
 (
 ctx
 gfxPattern

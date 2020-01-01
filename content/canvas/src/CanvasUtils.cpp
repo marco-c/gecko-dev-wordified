@@ -498,7 +498,7 @@ h
 #
 include
 "
-nsICanvasElement
+nsHTMLCanvasElement
 .
 h
 "
@@ -547,7 +547,7 @@ CanvasUtils
 :
 DoDrawImageSecurityCheck
 (
-nsICanvasElement
+nsHTMLCanvasElement
 *
 aCanvasElement
 nsIPrincipal
@@ -648,7 +648,14 @@ elem
 =
 do_QueryInterface
 (
+static_cast
+<
+nsIDOMHTMLCanvasElement
+*
+>
+(
 aCanvasElement
+)
 )
 ;
 if

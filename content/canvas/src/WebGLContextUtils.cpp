@@ -583,7 +583,7 @@ WebGLContext
 :
 SafeToCreateCanvas3DContext
 (
-nsICanvasElement
+nsHTMLCanvasElement
 *
 canvasElement
 )

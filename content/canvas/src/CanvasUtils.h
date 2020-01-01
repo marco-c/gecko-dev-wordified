@@ -439,7 +439,7 @@ prtypes
 h
 "
 class
-nsICanvasElement
+nsHTMLCanvasElement
 ;
 class
 nsIPrincipal
@@ -583,7 +583,7 @@ static
 void
 DoDrawImageSecurityCheck
 (
-nsICanvasElement
+nsHTMLCanvasElement
 *
 aCanvasElement
 nsIPrincipal

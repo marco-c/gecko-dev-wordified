@@ -730,6 +730,15 @@ CreateImageLayer
 virtual
 already_AddRefed
 <
+CanvasLayer
+>
+CreateCanvasLayer
+(
+)
+;
+virtual
+already_AddRefed
+<
 ImageContainer
 >
 CreateImageContainer
