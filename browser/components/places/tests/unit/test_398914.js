@@ -210,8 +210,9 @@ the
 Original
 Code
 is
+the
 Mozilla
-Corp
+Foundation
 .
 *
 Portions
