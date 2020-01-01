@@ -734,6 +734,10 @@ why
 case
 AbnormalShutdown
 :
+mShutdown
+=
+true
+;
 if
 (
 mPlugin
@@ -745,10 +749,8 @@ PluginCrashed
 (
 )
 ;
-/
-/
-FALL
-THROUGH
+break
+;
 case
 NormalShutdown
 :
