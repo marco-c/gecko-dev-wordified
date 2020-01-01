@@ -1283,7 +1283,7 @@ characters
 *
 /
 void
-EndCharacters
+EndCharactersAndStartMarkupRun
 (
 )
 ;
