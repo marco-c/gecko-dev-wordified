@@ -5395,7 +5395,7 @@ if
 (
 v
 .
-asInt32
+isInt32
 (
 )
 )
@@ -5838,7 +5838,7 @@ out
 js_NaN
 ;
 return
-false
+true
 ;
 }
 bool
