@@ -21179,9 +21179,6 @@ BoxInputsPolicy
 CompilerRootPropertyName
 name_
 ;
-bool
-needsBarrier_
-;
 protected
 :
 MDeleteProperty
@@ -24333,12 +24330,6 @@ newest
 size_t
 numOperands_
 ;
-size_t
-resumePointIndex
-;
-size_t
-operand
-;
 public
 :
 explicit
@@ -24354,14 +24345,6 @@ newest
 newest
 )
 numOperands_
-(
-0
-)
-resumePointIndex
-(
-0
-)
-operand
 (
 0
 )

@@ -177,12 +177,6 @@ js
 namespace
 ion
 {
-static
-Register
-CallReg
-=
-ReturnReg
-;
 class
 MacroAssemblerX86Shared
 :
