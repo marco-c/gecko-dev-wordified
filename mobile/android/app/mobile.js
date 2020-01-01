@@ -5393,12 +5393,10 @@ feedback
 postURL
 "
 "
-http
+https
 :
 /
 /
-m
-.
 input
 .
 mozilla
