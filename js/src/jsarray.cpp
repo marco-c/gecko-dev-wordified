@@ -3956,7 +3956,11 @@ clasp
 OBJ_GET_CLASS
 (
 cx
+js_GetWrappedObject
+(
+cx
 obj
+)
 )
 ;
 *
