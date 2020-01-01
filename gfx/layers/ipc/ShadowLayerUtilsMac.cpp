@@ -309,9 +309,15 @@ surf
 new
 gfxQuartzSurface
 (
-GetMemoryImageData
 (
+unsigned
+char
+*
+)
 image
+.
+data
+(
 )
 image
 .
