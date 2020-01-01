@@ -6209,11 +6209,12 @@ Information
 Processing
 for
 detail
-explaination
+explanation
 of
 the
 following
 table
+.
 *
 /
 /
