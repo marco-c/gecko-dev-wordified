@@ -636,6 +636,17 @@ m_refCount
 0
 )
 ;
+/
+/
+XXX
+:
+disabled
+see
+bug
+654820
+.
+/
+/
 JS_ASSERT_IF
 (
 willDestroy
