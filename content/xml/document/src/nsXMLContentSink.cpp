@@ -510,13 +510,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h

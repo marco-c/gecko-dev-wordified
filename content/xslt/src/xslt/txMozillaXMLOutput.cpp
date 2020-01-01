@@ -484,13 +484,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIParser
 .
 h

@@ -680,13 +680,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h

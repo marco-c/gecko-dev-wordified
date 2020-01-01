@@ -480,13 +480,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

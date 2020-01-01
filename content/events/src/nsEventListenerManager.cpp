@@ -756,13 +756,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

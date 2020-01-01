@@ -521,13 +521,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsStubDocumentObserver
 .
 h
@@ -2827,8 +2820,6 @@ nsIDOMXMLDocument
 inherits
 nsIDOMDocument
 public
-nsIDOMNSDocument
-public
 nsIDOMDocumentXBL
 public
 nsSupportsWeakReference
@@ -3042,7 +3033,7 @@ aContentType
 Already
 declared
 in
-nsIDOMNSDocument
+nsIDOMDocument
 /
 *
 *
@@ -4487,10 +4478,6 @@ NS_DECL_NSIDOMDOCUMENT
 /
 nsIDOMXMLDocument
 NS_DECL_NSIDOMXMLDOCUMENT
-/
-/
-nsIDOMNSDocument
-NS_DECL_NSIDOMNSDOCUMENT
 /
 /
 nsIDOMDocumentXBL
@@ -6791,13 +6778,6 @@ NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
 (
 _class
 nsIDOMDocument
-nsDocument
-)
-\
-NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
-(
-_class
-nsIDOMNSDocument
 nsDocument
 )
 \

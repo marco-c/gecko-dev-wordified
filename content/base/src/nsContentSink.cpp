@@ -810,13 +810,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIRequest
 .
 h

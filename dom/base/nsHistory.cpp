@@ -599,13 +599,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsISHistoryInternal
 .
 h

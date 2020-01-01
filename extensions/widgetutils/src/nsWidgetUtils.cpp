@@ -512,13 +512,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIDOMNSElement
 .
 h

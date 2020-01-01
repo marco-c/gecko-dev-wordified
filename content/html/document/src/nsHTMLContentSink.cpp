@@ -681,13 +681,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIDOMDOMImplementation
 .
 h

@@ -479,13 +479,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentFragment
 .
 h

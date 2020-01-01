@@ -2359,7 +2359,7 @@ be
 compatible
 *
 with
-nsIDOMNSDocument
+nsIDOMDocument
 :
 :
 GetContentType
@@ -6955,7 +6955,7 @@ aResult
 *
 Helper
 for
-nsIDOMNSDocument
+nsIDOMDocument
 :
 :
 elementFromPoint

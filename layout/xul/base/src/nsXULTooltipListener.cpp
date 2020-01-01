@@ -512,13 +512,6 @@ MOZ_XUL
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsITreeView
 .
 h
