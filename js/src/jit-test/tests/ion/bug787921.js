@@ -74,14 +74,6 @@ this
 if
 (
 optionName
-&
-&
-optionName
-!
-=
-"
-allow_xml
-"
 )
 {
 }

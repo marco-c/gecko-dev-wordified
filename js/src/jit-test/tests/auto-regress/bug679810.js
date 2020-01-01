@@ -84,10 +84,8 @@ Engineer
 .
 prototype
 =
-new
-XMLList
-(
-)
+{
+}
 ;
 var
 les

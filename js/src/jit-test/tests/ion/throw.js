@@ -176,14 +176,8 @@ x
 ;
 with
 (
-<
-a
->
-foo
-<
-/
-a
->
+{
+}
 )
 {
 }
@@ -195,6 +189,9 @@ compilation
 .
 .
 .
+(
+?
+)
 }
 function
 test2

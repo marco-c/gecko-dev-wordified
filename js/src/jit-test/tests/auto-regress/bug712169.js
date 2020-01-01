@@ -84,7 +84,7 @@ ex
 )
 {
 new
-XML
+Date
 (
 str
 false

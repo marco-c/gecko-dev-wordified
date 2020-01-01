@@ -6,7 +6,7 @@ a
 property
 with
 an
-XML
+Array
 id
 .
 function
@@ -55,7 +55,7 @@ defineProperty
 this
 \
 new
-QName
+Array
 \
 (
 {

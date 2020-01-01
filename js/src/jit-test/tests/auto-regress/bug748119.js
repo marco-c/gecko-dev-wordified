@@ -828,16 +828,6 @@ bug
 ;
 \
 var
-current
-=
-isXMLName
-(
-{
-}
-)
-;
-\
-var
 expect
 =
 '
