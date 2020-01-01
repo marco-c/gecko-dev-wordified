@@ -4077,6 +4077,11 @@ if
 toolbox
 .
 frame
+&
+&
+toolbox
+.
+frame
 .
 ownerDocument
 .
