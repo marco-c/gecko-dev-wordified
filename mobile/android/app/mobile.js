@@ -3088,6 +3088,16 @@ true
 pref
 (
 "
+dom
+.
+disable_window_find
+"
+true
+)
+;
+pref
+(
+"
 keyword
 .
 enabled
