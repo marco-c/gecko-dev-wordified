@@ -145,6 +145,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 Accessible
 ;
@@ -193,6 +202,7 @@ pivot
 /
 class
 nsAccessiblePivot
+MOZ_FINAL
 :
 public
 nsIAccessiblePivot
