@@ -3142,6 +3142,9 @@ nsIFrame
 aPrimaryFrame
 nsChangeHint
 aMinHint
+RestyleTracker
+&
+aRestyleTracker
 )
 ;
 nsresult
