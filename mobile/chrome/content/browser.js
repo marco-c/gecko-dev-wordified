@@ -3478,6 +3478,12 @@ layout
 might
 have
 changed
+Browser
+.
+forceChromeReflow
+(
+)
+;
 bv
 .
 onAfterVisibleMove
