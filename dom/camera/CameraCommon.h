@@ -160,13 +160,6 @@ endif
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsIDOMCameraManager
 .
 h

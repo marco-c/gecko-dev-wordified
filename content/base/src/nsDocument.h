@@ -409,13 +409,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsIContentViewer
 .
 h
