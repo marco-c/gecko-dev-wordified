@@ -1943,7 +1943,6 @@ t
 u
 v
 ;
-register
 long
 i
 j
