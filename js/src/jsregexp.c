@@ -19112,6 +19112,9 @@ index
 ;
 JS_ASSERT
 (
+(
+int
+)
 cap
 -
 >
