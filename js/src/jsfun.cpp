@@ -7558,9 +7558,11 @@ cx
 atom_
 )
 ;
-JSFunction
-*
+RootedFunction
 fun
+(
+cx
+)
 ;
 if
 (

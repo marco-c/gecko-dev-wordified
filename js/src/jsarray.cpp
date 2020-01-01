@@ -7812,8 +7812,7 @@ AddLengthProperty
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
