@@ -746,14 +746,6 @@ cmd_paste
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsPasteTransferableCommand
-"
-cmd_pasteTransferable
-"
-)
-;
-NS_REGISTER_ONE_COMMAND
-(
 nsSwitchTextDirectionCommand
 "
 cmd_switchTextDirection
