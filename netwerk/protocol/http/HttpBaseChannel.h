@@ -1454,6 +1454,11 @@ mReady
 ;
 protected
 :
+nsresult
+ApplyContentConversions
+(
+)
+;
 void
 AddCookiesToRequest
 (
