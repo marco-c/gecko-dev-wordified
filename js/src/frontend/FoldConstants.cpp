@@ -1460,7 +1460,10 @@ pi
 pn2
 -
 >
-asXMLProcessingInstruction
+as
+<
+XMLProcessingInstruction
+>
 (
 )
 ;
