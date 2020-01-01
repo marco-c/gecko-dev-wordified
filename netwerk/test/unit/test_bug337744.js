@@ -186,7 +186,7 @@ return
 do_throw
 (
 "
-Succesfully
+Successfully
 opened
 invalid
 URI

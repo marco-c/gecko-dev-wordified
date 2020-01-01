@@ -632,7 +632,7 @@ t
 notify
 .
 If
-succesful
+successful
 the
 /
 /

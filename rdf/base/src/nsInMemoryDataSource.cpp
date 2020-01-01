@@ -3586,7 +3586,7 @@ for
 is
 the
 mutliple
-inheiritance
+inheritance
 clashes
 .
 *

@@ -5043,7 +5043,7 @@ block
 is
 currently
 being
-reflown
+reflowed
 .
 If
 so
@@ -6701,7 +6701,7 @@ placeholder
 is
 not
 fully
-reflown
+reflowed
 yet
 if
 our
@@ -6942,7 +6942,7 @@ box
 is
 not
 fully
-reflown
+reflowed
 yet
 if
 our
