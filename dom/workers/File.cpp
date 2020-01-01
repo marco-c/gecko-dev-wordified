@@ -466,6 +466,9 @@ file
 new
 nsDOMMultipartFile
 (
+EmptyString
+(
+)
 )
 ;
 nsresult
