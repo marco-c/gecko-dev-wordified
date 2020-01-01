@@ -502,6 +502,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

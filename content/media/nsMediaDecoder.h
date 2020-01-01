@@ -527,15 +527,6 @@ Monitor
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Mutex
-.
-h
-"
 class
 nsHTMLMediaElement
 ;
@@ -770,13 +761,6 @@ mozilla
 :
 Monitor
 Monitor
-;
-typedef
-mozilla
-:
-:
-Mutex
-Mutex
 ;
 nsMediaDecoder
 (
@@ -2098,7 +2082,7 @@ resource
 in
 units
 of
-seconds
+milliseconds
 .
 /
 /
@@ -2136,7 +2120,7 @@ virtual
 void
 SetDuration
 (
-double
+PRInt64
 aDuration
 )
 =
@@ -3401,7 +3385,8 @@ of
 being
 changed
 .
-Mutex
+PRLock
+*
 mVideoUpdateLock
 ;
 /

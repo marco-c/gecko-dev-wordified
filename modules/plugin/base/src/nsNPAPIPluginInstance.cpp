@@ -1216,9 +1216,9 @@ inside
 a
 lock
 .
-{
-AsyncCallbackAutoLock
-lock
+EnterAsyncPluginThreadCallLock
+(
+)
 ;
 mRunning
 =
@@ -1233,7 +1233,10 @@ Now
 (
 )
 ;
-}
+ExitAsyncPluginThreadCallLock
+(
+)
+;
 OnPluginDestroy
 (
 &

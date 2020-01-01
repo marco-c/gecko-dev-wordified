@@ -562,6 +562,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 nsIFTPChannel
 .
 h

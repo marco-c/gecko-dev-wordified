@@ -497,6 +497,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 nsIIOService
 .
 h

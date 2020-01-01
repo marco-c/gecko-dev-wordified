@@ -503,10 +503,13 @@ xptcall
 .
 h
 "
-using
-namespace
-mozilla
-;
+#
+include
+"
+nsAutoLock
+.
+h
+"
 nsProxyEventObject
 :
 :
@@ -646,7 +649,7 @@ AddRef
 (
 )
 {
-MutexAutoLock
+nsAutoLock
 lock
 (
 nsProxyObjectManager
@@ -710,7 +713,7 @@ void
 )
 {
 {
-MutexAutoLock
+nsAutoLock
 lock
 (
 nsProxyObjectManager

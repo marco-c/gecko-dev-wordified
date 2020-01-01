@@ -554,6 +554,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 nsAtomicRefcnt
 .
 h

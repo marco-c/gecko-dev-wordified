@@ -464,10 +464,6 @@ nsAtomicRefcnt
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 *
 *
@@ -831,7 +827,7 @@ Resolve
 (
 )
 {
-MutexAutoLock
+nsAutoLock
 lock
 (
 xptiInterfaceInfoManager
@@ -3194,7 +3190,7 @@ xptiInterfaceInfo
 info
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 xptiInterfaceInfoManager
@@ -3486,7 +3482,7 @@ if
 cnt
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 xptiInterfaceInfoManager

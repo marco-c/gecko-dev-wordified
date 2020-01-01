@@ -543,6 +543,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 prmem
 .
 h

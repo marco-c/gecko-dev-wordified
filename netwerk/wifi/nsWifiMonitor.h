@@ -453,6 +453,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 nsIThread
 .
 h
@@ -481,9 +488,7 @@ h
 #
 include
 "
-mozilla
-/
-Monitor
+prmon
 .
 h
 "
@@ -639,10 +644,8 @@ nsWifiListener
 >
 mListeners
 ;
-mozilla
-:
-:
-Monitor
+PRMonitor
+*
 mMonitor
 ;
 }

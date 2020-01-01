@@ -465,13 +465,6 @@ h
 #
 include
 "
-prinrval
-.
-h
-"
-#
-include
-"
 prlock
 .
 h
@@ -480,6 +473,13 @@ h
 include
 "
 nscore
+.
+h
+"
+#
+include
+"
+nsAutoLock
 .
 h
 "

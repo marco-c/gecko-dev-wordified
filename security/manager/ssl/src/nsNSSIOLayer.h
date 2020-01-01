@@ -467,15 +467,6 @@ h
 #
 include
 "
-mozilla
-/
-Mutex
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -1519,10 +1510,7 @@ PRIOMethods
 nsSSLIOLayerMethods
 ;
 static
-mozilla
-:
-:
-Mutex
+PRLock
 *
 mutex
 ;

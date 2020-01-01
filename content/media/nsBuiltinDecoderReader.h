@@ -495,6 +495,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -1192,7 +1199,7 @@ time
 of
 samples
 in
-usecs
+ms
 .
 const
 PRInt64
@@ -1201,7 +1208,7 @@ mDuration
 /
 /
 In
-usecs
+ms
 .
 const
 PRUint32
@@ -1535,7 +1542,7 @@ time
 of
 frame
 in
-microseconds
+milliseconds
 .
 PRInt64
 mTime
@@ -1547,7 +1554,7 @@ time
 of
 frame
 in
-microseconds
+milliseconds
 ;
 PRInt64
 mEndTime
@@ -2247,7 +2254,7 @@ the
 approximate
 number
 of
-microseconds
+milliseconds
 of
 samples
 in
@@ -2789,7 +2796,7 @@ decode
 head
 to
 aTime
-microseconds
+milliseconds
 .
 aStartTime
 and
@@ -2806,7 +2813,7 @@ of
 the
 media
 in
-usecs
+ms
 and
 aCurrentTime
 /
@@ -2817,7 +2824,7 @@ current
 playback
 position
 in
-microseconds
+ms
 .
 virtual
 nsresult
@@ -3003,7 +3010,7 @@ at
 time
 aTarget
 (
-usecs
+ms
 )
 .
 nsresult

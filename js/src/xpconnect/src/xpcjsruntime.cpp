@@ -496,10 +496,6 @@ prsystem
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 *
 *
@@ -2073,7 +2069,7 @@ IsShuttingDown
 )
 )
 {
-Mutex
+PRLock
 *
 threadLock
 =
@@ -2093,10 +2089,9 @@ threadLock
 /
 scoped
 lock
-MutexAutoLock
+nsAutoLock
 lock
 (
-*
 threadLock
 )
 ;
@@ -4643,7 +4638,7 @@ IsShuttingDown
 )
 )
 {
-Mutex
+PRLock
 *
 threadLock
 =
@@ -4663,10 +4658,9 @@ threadLock
 /
 scoped
 lock
-MutexAutoLock
+nsAutoLock
 lock
 (
-*
 threadLock
 )
 ;
@@ -5306,7 +5300,7 @@ IsShuttingDown
 )
 )
 {
-Mutex
+PRLock
 *
 threadLock
 =
@@ -5335,10 +5329,9 @@ marking
 /
 scoped
 lock
-MutexAutoLock
+nsAutoLock
 lock
 (
-*
 threadLock
 )
 ;
