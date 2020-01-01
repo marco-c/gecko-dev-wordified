@@ -743,14 +743,6 @@ void
 *
 )
 ;
-size_t
-SizeOfIncludingThisFromMalloc
-(
-nsMallocSizeOfFun
-aMallocSizeOf
-)
-const
-;
 nsTHashtable
 <
 FreeList
