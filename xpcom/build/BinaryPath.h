@@ -74,6 +74,13 @@ h
 for
 MAXPATHLEN
 #
+include
+"
+prtypes
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

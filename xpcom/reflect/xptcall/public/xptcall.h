@@ -128,6 +128,13 @@ endif
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h

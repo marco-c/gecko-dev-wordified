@@ -137,6 +137,13 @@ h
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nsCppSharedAllocator
 .
 h

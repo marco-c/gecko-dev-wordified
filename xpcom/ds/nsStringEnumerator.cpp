@@ -103,6 +103,13 @@ h
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
