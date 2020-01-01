@@ -3219,8 +3219,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Date
 )
-|
-JSCLASS_FIXED_BINDING
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -13316,6 +13314,13 @@ obj
 jsdouble
 msec_time
 ;
+JS_ASSERT
+(
+mon
+<
+12
+)
+;
 msec_time
 =
 date_msecFromDate
@@ -13808,6 +13813,13 @@ month
 {
 jsdouble
 local
+;
+JS_ASSERT
+(
+month
+<
+12
+)
 ;
 if
 (

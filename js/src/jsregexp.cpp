@@ -25099,6 +25099,18 @@ obj
 return
 JS_FALSE
 ;
+STOBJ_SET_PARENT
+(
+obj
+NULL
+)
+;
+STOBJ_SET_PROTO
+(
+obj
+NULL
+)
+;
 re
 =
 js_NewRegExp
@@ -25265,8 +25277,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_RegExp
 )
-|
-JSCLASS_FIXED_BINDING
 JS_PropertyStub
 JS_PropertyStub
 regexp_getProperty
