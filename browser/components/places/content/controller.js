@@ -927,7 +927,7 @@ cmd_undo
 "
 :
 return
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -941,7 +941,7 @@ cmd_redo
 "
 :
 return
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -1280,7 +1280,7 @@ selectedNode
 )
 &
 &
-PlacesUtils
+PlacesUIUtils
 .
 microsummaries
 .
@@ -1530,7 +1530,7 @@ case
 cmd_undo
 "
 :
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -1545,7 +1545,7 @@ case
 cmd_redo
 "
 :
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -1629,7 +1629,7 @@ case
 placesCmd_open
 "
 :
-PlacesUtils
+PlacesUIUtils
 .
 openNodeIn
 (
@@ -1652,7 +1652,7 @@ placesCmd_open
 window
 "
 :
-PlacesUtils
+PlacesUIUtils
 .
 openNodeIn
 (
@@ -1675,7 +1675,7 @@ placesCmd_open
 tab
 "
 :
-PlacesUtils
+PlacesUIUtils
 .
 openNodeIn
 (
@@ -2492,14 +2492,14 @@ nodes
 var
 flavors
 =
-PlacesUtils
+PlacesUIUtils
 .
 placesFlavors
 ;
 var
 clipboard
 =
-PlacesUtils
+PlacesUIUtils
 .
 clipboard
 ;
@@ -3283,7 +3283,7 @@ true
 var
 mss
 =
-PlacesUtils
+PlacesUIUtils
 .
 microsummaries
 ;
@@ -4641,7 +4641,7 @@ nodeIsFolder
 node
 )
 )
-PlacesUtils
+PlacesUIUtils
 .
 showFolderProperties
 (
@@ -4660,7 +4660,7 @@ nodeIsBookmark
 node
 )
 )
-PlacesUtils
+PlacesUIUtils
 .
 showBookmarkProperties
 (
@@ -4837,7 +4837,7 @@ selectedNode
 var
 mss
 =
-PlacesUtils
+PlacesUIUtils
 .
 microsummaries
 ;
@@ -5103,7 +5103,7 @@ promptService
 confirmEx
 (
 window
-PlacesUtils
+PlacesUIUtils
 .
 getString
 (
@@ -5113,7 +5113,7 @@ tabs
 openWarningTitle
 "
 )
-PlacesUtils
+PlacesUIUtils
 .
 getFormattedString
 (
@@ -5142,7 +5142,7 @@ promptService
 .
 BUTTON_POS_1
 )
-PlacesUtils
+PlacesUIUtils
 .
 getString
 (
@@ -5150,7 +5150,7 @@ openKey
 )
 null
 null
-PlacesUtils
+PlacesUIUtils
 .
 getFormattedString
 (
@@ -5266,7 +5266,7 @@ nodeIsContainer
 node
 )
 )
-PlacesUtils
+PlacesUIUtils
 .
 openContainerNodeInTabs
 (
@@ -5279,7 +5279,7 @@ aEvent
 )
 ;
 else
-PlacesUtils
+PlacesUIUtils
 .
 openURINodesInTabs
 (
@@ -5372,7 +5372,7 @@ bookmark
 )
 performed
 =
-PlacesUtils
+PlacesUIUtils
 .
 showAddBookmarkUI
 (
@@ -5394,7 +5394,7 @@ livemark
 )
 performed
 =
-PlacesUtils
+PlacesUIUtils
 .
 showAddLivemarkUI
 (
@@ -5411,7 +5411,7 @@ else
 folder
 performed
 =
-PlacesUtils
+PlacesUIUtils
 .
 showAddFolderUI
 (
@@ -5520,7 +5520,7 @@ false
 ;
 performed
 =
-PlacesUtils
+PlacesUIUtils
 .
 showAddFolderUI
 (
@@ -5611,7 +5611,7 @@ NS_ERROR_NOT_AVAILABLE
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -5625,7 +5625,7 @@ ip
 index
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -5762,7 +5762,7 @@ selectedNode
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -5771,7 +5771,7 @@ sortFolderByName
 itemId
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -6153,7 +6153,7 @@ transactions
 .
 push
 (
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -6291,7 +6291,7 @@ length
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -6301,7 +6301,7 @@ txnName
 transactions
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -7198,7 +7198,7 @@ data
 addDataForFlavour
 (
 type
-PlacesUtils
+PlacesUIUtils
 .
 _wrapString
 (
@@ -7685,7 +7685,7 @@ xferable
 setTransferData
 (
 type
-PlacesUtils
+PlacesUIUtils
 .
 _wrapString
 (
@@ -7786,7 +7786,7 @@ htmlString
 mozURLString
 )
 {
-PlacesUtils
+PlacesUIUtils
 .
 clipboard
 .
@@ -7933,6 +7933,15 @@ aggregating
 the
 results
 .
+dump
+(
+"
+PASTING
+\
+n
+"
+)
+;
 /
 *
 *
@@ -8038,7 +8047,7 @@ xferable
 var
 clipboard
 =
-PlacesUtils
+PlacesUIUtils
 .
 clipboard
 ;
@@ -8257,7 +8266,7 @@ transactions
 .
 push
 (
-PlacesUtils
+PlacesUIUtils
 .
 makeTransaction
 (
@@ -8392,7 +8401,7 @@ TYPE_UNICODE
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -8404,7 +8413,7 @@ Paste
 transactions
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -8792,7 +8801,7 @@ session
 var
 types
 =
-PlacesUtils
+PlacesUIUtils
 .
 GENERIC_VIEW_DROP_TYPES
 ;
@@ -8919,7 +8928,7 @@ nsITransferable
 var
 types
 =
-PlacesUtils
+PlacesUIUtils
 .
 GENERIC_VIEW_DROP_TYPES
 ;
@@ -9252,7 +9261,7 @@ transactions
 .
 push
 (
-PlacesUtils
+PlacesUIUtils
 .
 makeTransaction
 (
@@ -9272,7 +9281,7 @@ copy
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -9284,7 +9293,7 @@ DropItems
 transactions
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
