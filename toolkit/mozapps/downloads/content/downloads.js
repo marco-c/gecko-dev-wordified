@@ -5045,6 +5045,13 @@ effectAllowed
 copyMove
 "
 ;
+dt
+.
+addElement
+(
+dl
+)
+;
 }
 onDragOver
 :
