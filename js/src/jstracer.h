@@ -7795,6 +7795,11 @@ obj
 ;
 #
 endif
+void
+assertInsideLoop
+(
+)
+;
 JS_REQUIRES_STACK
 void
 setImpl
