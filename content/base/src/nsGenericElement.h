@@ -4322,7 +4322,7 @@ RecompileScriptEventListeners
 )
 {
 }
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsGenericElement
 )
