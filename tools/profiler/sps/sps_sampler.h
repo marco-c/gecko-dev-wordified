@@ -927,7 +927,7 @@ h
 >
 and
 <
-windows
+winnt
 .
 h
 >
@@ -937,7 +937,7 @@ together
 .
 #
 ifdef
-_INC_WINDOWS
+_WINNT_
 #
 define
 _interlockedbittestandreset
