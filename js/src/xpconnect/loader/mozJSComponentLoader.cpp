@@ -724,6 +724,9 @@ nsIResProtocolHandler
 h
 "
 #
+ifdef
+MOZ_ENABLE_LIBXUL
+#
 include
 "
 mozilla
@@ -745,6 +748,8 @@ StartupCacheUtils
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2099,6 +2104,9 @@ ap
 )
 ;
 }
+#
+ifdef
+MOZ_ENABLE_LIBXUL
 static
 nsresult
 ReadScriptFromStream
@@ -2830,6 +2838,11 @@ return
 rv
 ;
 }
+#
+endif
+/
+/
+MOZ_ENABLE_LIBXUL
 mozJSComponentLoader
 :
 :
@@ -5492,6 +5505,9 @@ NS_OK
 static
 *
 /
+#
+ifdef
+MOZ_ENABLE_LIBXUL
 nsresult
 mozJSComponentLoader
 :
@@ -5810,6 +5826,11 @@ return
 rv
 ;
 }
+#
+endif
+/
+/
+MOZ_ENABLE_LIBXUL
 nsresult
 mozJSComponentLoader
 :
@@ -6327,6 +6348,9 @@ scriptObj
 =
 nsnull
 ;
+#
+ifdef
+MOZ_ENABLE_LIBXUL
 /
 /
 Before
@@ -6484,6 +6508,8 @@ PR_TRUE
 ;
 }
 }
+#
+endif
 if
 (
 !
@@ -7269,6 +7295,9 @@ get
 ;
 #
 endif
+#
+ifdef
+MOZ_ENABLE_LIBXUL
 if
 (
 writeToCache
@@ -7363,6 +7392,8 @@ n
 ;
 }
 }
+#
+endif
 /
 /
 Assign
@@ -9648,11 +9679,6 @@ if
 mContextStack
 )
 {
-JS_ClearNewbornRoots
-(
-mContext
-)
-;
 if
 (
 mContextThread

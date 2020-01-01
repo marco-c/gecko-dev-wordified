@@ -5063,11 +5063,6 @@ void
 aHolder
 )
 ;
-void
-ClearWeakRoots
-(
-)
-;
 static
 void
 SuspectWrappedNative
