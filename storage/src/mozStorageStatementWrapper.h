@@ -532,7 +532,7 @@ nativeStatement
 }
 nsRefPtr
 <
-mozStorageStatement
+Statement
 >
 mStatement
 ;

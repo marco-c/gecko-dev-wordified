@@ -3653,12 +3653,12 @@ NS_ERROR_NOT_INITIALIZED
 ;
 nsRefPtr
 <
-mozStorageStatement
+Statement
 >
 statement
 (
 new
-mozStorageStatement
+Statement
 (
 )
 )
@@ -3675,7 +3675,7 @@ rv
 statement
 -
 >
-Initialize
+initialize
 (
 this
 aSQLStatement
@@ -3687,7 +3687,7 @@ rv
 rv
 )
 ;
-mozStorageStatement
+Statement
 *
 rawPtr
 ;
@@ -3820,7 +3820,7 @@ old_stmt
 =
 static_cast
 <
-mozStorageStatement
+Statement
 *
 >
 (
@@ -3897,11 +3897,11 @@ that
 making
 a
 new
-mozStorageStatement
+Statement
 would
-/
-/
 normally
+/
+/
 involve
 and
 use

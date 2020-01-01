@@ -734,7 +734,7 @@ mStatement
 =
 static_cast
 <
-mozStorageStatement
+Statement
 *
 >
 (
