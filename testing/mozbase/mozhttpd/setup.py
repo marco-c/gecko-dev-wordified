@@ -393,6 +393,7 @@ from
 setuptools
 import
 setup
+find_packages
 try
 :
     
@@ -568,8 +569,22 @@ mozhttpd
       
 packages
 =
+find_packages
+(
+exclude
+=
 [
+'
+ez_setup
+'
+'
+examples
+'
+'
+tests
+'
 ]
+)
       
 include_package_data
 =

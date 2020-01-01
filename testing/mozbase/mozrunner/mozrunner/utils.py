@@ -489,6 +489,9 @@ ret
 {
 }
         
+try
+:
+            
 dist
 =
 pkg_resources
@@ -497,6 +500,16 @@ get_distribution
 (
 module
 )
+        
+except
+pkg_resources
+.
+DistributionNotFound
+:
+            
+return
+{
+}
         
 if
 dist

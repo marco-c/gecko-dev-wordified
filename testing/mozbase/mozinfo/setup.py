@@ -394,6 +394,7 @@ from
 setuptools
 import
 setup
+find_packages
 version
 =
 '
@@ -591,18 +592,18 @@ license
 MPL
 '
       
-py_modules
-=
-[
-'
-mozinfo
-'
-]
-      
 packages
 =
+find_packages
+(
+exclude
+=
 [
+'
+legacy
+'
 ]
+)
       
 include_package_data
 =
