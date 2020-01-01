@@ -956,6 +956,12 @@ nsDisplayItem
 :
 TYPE_CLIP
 :
+case
+nsDisplayItem
+:
+:
+TYPE_CLIP_ROUNDED_RECT
+:
 {
 nsDisplayClip
 *
