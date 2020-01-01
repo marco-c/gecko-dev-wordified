@@ -2338,6 +2338,13 @@ renderer
 .
 height
 ;
+let
+ih
+=
+renderer
+.
+initialHeight
+;
 /
 /
 if
@@ -2495,7 +2502,7 @@ w
 0
 .
 5
-h
+ih
 *
 0
 .
