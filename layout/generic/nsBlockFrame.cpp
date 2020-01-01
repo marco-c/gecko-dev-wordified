@@ -6827,7 +6827,7 @@ nsContainerFrame
 .
 h
 )
-nsRect
+nsOverflowAreas
 ocBounds
 ;
 nsReflowStatus
@@ -7627,13 +7627,10 @@ overflow
 area
 aMetrics
 .
-mOverflowArea
+mOverflowAreas
 .
-UnionRect
+UnionWith
 (
-aMetrics
-.
-mOverflowArea
 ocBounds
 )
 ;

@@ -4058,7 +4058,7 @@ aPresContext
 aReflowState
 aDesiredSize
 .
-mOverflowArea
+mOverflowAreas
 0
 aStatus
 )
