@@ -644,6 +644,15 @@ spacing
 *
 /
 }
+%
+ifdef
+MOZ_PLATFORM_MAEMO
+/
+*
+MAEMO
+only
+*
+/
 #
 tool
 -
@@ -895,6 +904,12 @@ visibility
 visible
 ;
 }
+/
+*
+MAEMO
+only
+*
+/
 #
 tool
 -
@@ -1282,6 +1297,8 @@ png
 )
 ;
 }
+%
+endif
 /
 *
 URL
