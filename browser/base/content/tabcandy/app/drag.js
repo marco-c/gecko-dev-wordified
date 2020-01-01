@@ -1015,7 +1015,6 @@ Trenches
 .
 hideGuides
 (
-true
 )
 ;
 }
@@ -1069,7 +1068,6 @@ Trenches
 .
 hideGuides
 (
-true
 )
 ;
 for
