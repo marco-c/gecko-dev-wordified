@@ -534,12 +534,6 @@ nodePrincipal
 /
 IDX_NODEPRINCIPAL
 "
-documentURIObject
-"
-/
-/
-IDX_DOCUMENTURIOBJECT
-"
 mozMatchesSelector
 "
 /
