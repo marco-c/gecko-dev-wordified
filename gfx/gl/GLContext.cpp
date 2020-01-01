@@ -8740,7 +8740,6 @@ mImages
 ReplaceElementAt
 (
 i
-&
 teximg
 .
 forget
