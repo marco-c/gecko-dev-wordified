@@ -511,6 +511,10 @@ testPopupBlockerMenuItem
 (
 false
 win
+function
+(
+)
+{
 testOnWindow
 (
 {
@@ -527,6 +531,10 @@ testPopupBlockerMenuItem
 (
 true
 win
+function
+(
+)
+{
 testOnWindow
 (
 {
@@ -545,10 +553,12 @@ finishTest
 ;
 }
 )
+}
 )
 ;
 }
 )
+}
 )
 ;
 }
