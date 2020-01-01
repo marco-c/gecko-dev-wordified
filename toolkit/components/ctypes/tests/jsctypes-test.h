@@ -276,17 +276,6 @@ mozilla
 com
 >
 *
-David
-Rajchenbach
--
-Teller
-<
-dteller
-mozilla
-.
-com
->
-*
 *
 Alternatively
 the
