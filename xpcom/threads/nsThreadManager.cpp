@@ -1513,6 +1513,13 @@ SetObserver
 nsnull
 )
 ;
+mMainThread
+-
+>
+ClearObservers
+(
+)
+;
 /
 /
 Release
