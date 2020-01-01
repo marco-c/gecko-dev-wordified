@@ -35065,6 +35065,16 @@ s
 INFALLIBLE
 }
 {
+js_num_parseInt
+F_ParseIntDouble
+"
+"
+"
+d
+"
+INFALLIBLE
+}
+{
 js_num_parseFloat
 F_ParseFloat
 "
