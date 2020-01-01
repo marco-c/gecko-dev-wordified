@@ -1612,8 +1612,6 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
-aIncludeStyleData
 )
 ;
 NS_IMETHOD
@@ -3239,8 +3237,6 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
-aIncludeStyleData
 )
 ;
 nsresult
