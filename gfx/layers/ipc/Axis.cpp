@@ -2049,7 +2049,7 @@ metrics
 .
 mZoom
 .
-width
+scale
 *
 aScale
 )

@@ -849,7 +849,7 @@ metrics
 .
 mResolution
 .
-width
+scale
 ;
 resolution
 .
@@ -860,7 +860,7 @@ metrics
 .
 mResolution
 .
-height
+scale
 ;
 }
 return
@@ -1106,7 +1106,7 @@ metrics
 .
 mResolution
 .
-width
+scale
 ;
 parentResolution
 .
@@ -1117,7 +1117,7 @@ metrics
 .
 mResolution
 .
-height
+scale
 ;
 }
 if
@@ -1520,6 +1520,23 @@ mScrollableRect
 scale
 )
 ;
+/
+/
+!
+!
+!
+WTF
+.
+this
+code
+is
+just
+wrong
+.
+See
+bug
+881451
+.
 gfx
 :
 :
@@ -1544,7 +1561,7 @@ LayersPixelsPerCSSPixel
 (
 )
 .
-width
+scale
 )
 /
 scale
@@ -1563,7 +1580,7 @@ LayersPixelsPerCSSPixel
 (
 )
 .
-height
+scale
 )
 /
 scale
