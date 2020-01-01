@@ -2208,7 +2208,7 @@ sprop
 JS_ASSERT
 (
 !
-SPROP_HAS_STUB_GETTER
+SPROP_HAS_STUB_GETTER_OR_IS_METHOD
 (
 sprop
 )
@@ -2220,10 +2220,12 @@ v
 if
 (
 !
-js_GetSprop
+sprop
+-
+>
+get
 (
 cx
-sprop
 obj
 &
 v
