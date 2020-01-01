@@ -3298,7 +3298,7 @@ GetStringFromName
 "
 contextmenu
 .
-showControls
+showControls2
 "
 )
 NativeWindow
