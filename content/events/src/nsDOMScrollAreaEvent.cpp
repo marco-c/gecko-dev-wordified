@@ -408,7 +408,10 @@ return
 NS_OK
 ;
 }
+NS_IMETHODIMP_
+(
 void
+)
 nsDOMScrollAreaEvent
 :
 :
@@ -525,7 +528,10 @@ val
 )
 ;
 }
+NS_IMETHODIMP_
+(
 bool
+)
 nsDOMScrollAreaEvent
 :
 :

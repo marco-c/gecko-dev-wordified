@@ -11860,6 +11860,9 @@ ccx
 rval
 )
 ;
+SandboxOptions
+options
+;
 nsresult
 rv
 =
@@ -11869,12 +11872,7 @@ cx
 &
 rval
 principal
-NULL
-false
-true
-EmptyCString
-(
-)
+options
 )
 ;
 NS_ASSERTION

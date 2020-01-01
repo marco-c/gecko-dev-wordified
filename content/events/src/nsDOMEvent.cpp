@@ -1101,10 +1101,6 @@ nsIDOMNSEvent
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIPrivateDOMEvent
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIJSNativeInitializer
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
@@ -3066,7 +3062,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsDOMEvent
 :
 :
@@ -4907,7 +4903,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsDOMEvent
 :
 :
@@ -8124,7 +8120,10 @@ aReturn
 )
 ;
 }
+NS_IMETHODIMP_
+(
 void
+)
 nsDOMEvent
 :
 :
@@ -8246,7 +8245,10 @@ for
 now
 !
 }
+NS_IMETHODIMP_
+(
 bool
+)
 nsDOMEvent
 :
 :

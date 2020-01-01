@@ -141,12 +141,6 @@ nsIDOMEventListener
 .
 h
 "
-class
-nsXULTreeAccessible
-;
-class
-Relation
-;
 namespace
 mozilla
 {
@@ -386,7 +380,7 @@ HandleTreeRowCountChangedEvent
 nsIDOMEvent
 *
 aEvent
-nsXULTreeAccessible
+XULTreeAccessible
 *
 aAccessible
 )
@@ -397,7 +391,7 @@ HandleTreeInvalidatedEvent
 nsIDOMEvent
 *
 aEvent
-nsXULTreeAccessible
+XULTreeAccessible
 *
 aAccessible
 )

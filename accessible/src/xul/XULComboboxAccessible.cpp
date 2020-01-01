@@ -409,7 +409,7 @@ roles
 COMBOBOX
 ;
 }
-uint64_t
+PRUint64
 XULComboboxAccessible
 :
 :
@@ -452,7 +452,7 @@ status
 from
 base
 class
-uint64_t
+PRUint64
 state
 =
 Accessible
@@ -805,7 +805,7 @@ return
 false
 ;
 }
-uint8_t
+PRUint8
 XULComboboxAccessible
 :
 :
@@ -832,7 +832,7 @@ XULComboboxAccessible
 :
 DoAction
 (
-uint8_t
+PRUint8
 aIndex
 )
 {
@@ -919,7 +919,7 @@ XULComboboxAccessible
 :
 GetActionName
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -1180,7 +1180,7 @@ eIgnoreCase
 )
 )
 {
-int32_t
+PRInt32
 childCount
 =
 mChildren
@@ -1191,7 +1191,7 @@ Length
 ;
 for
 (
-int32_t
+PRInt32
 idx
 =
 0

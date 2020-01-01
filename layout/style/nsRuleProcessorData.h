@@ -1230,6 +1230,13 @@ mode
 bool
 mUsingPrivateBrowsing
 ;
+enum
+MatchVisited
+{
+eNeverMatchVisited
+eMatchVisitedDefault
+}
+;
 /
 /
 Constructor
@@ -1255,6 +1262,10 @@ aVisitedHandling
 nsIDocument
 *
 aDocument
+MatchVisited
+aMatchVisited
+=
+eMatchVisitedDefault
 )
 :
 mForStyling
@@ -1298,6 +1309,14 @@ GetCompatibilityMode
 mUsingPrivateBrowsing
 (
 false
+)
+{
+if
+(
+aMatchVisited
+!
+=
+eNeverMatchVisited
 )
 {
 nsCOMPtr
@@ -1363,6 +1382,7 @@ UsePrivateBrowsing
 (
 )
 ;
+}
 }
 }
 }

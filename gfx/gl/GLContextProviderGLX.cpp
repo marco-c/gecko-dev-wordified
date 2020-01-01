@@ -3137,6 +3137,13 @@ err
 #
 ifdef
 DEBUG
+if
+(
+DebugMode
+(
+)
+)
+{
 printf
 (
 "
@@ -3162,6 +3169,7 @@ not
 "
 )
 ;
+}
 #
 endif
 }

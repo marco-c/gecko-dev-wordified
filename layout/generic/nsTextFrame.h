@@ -713,7 +713,7 @@ unconditionally
 invalidated
 *
 (
-nsTypedSelection
+Selection
 :
 :
 Repaint

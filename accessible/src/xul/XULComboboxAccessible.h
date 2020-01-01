@@ -161,14 +161,14 @@ nsIAccessible
 NS_IMETHOD
 DoAction
 (
-uint8_t
+PRUint8
 aIndex
 )
 ;
 NS_IMETHOD
 GetActionName
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -206,7 +206,7 @@ NativeRole
 )
 ;
 virtual
-uint64_t
+PRUint64
 NativeState
 (
 )
@@ -221,7 +221,7 @@ CanHaveAnonChildren
 /
 ActionAccessible
 virtual
-uint8_t
+PRUint8
 ActionCount
 (
 )

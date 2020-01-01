@@ -549,7 +549,7 @@ dom
 :
 Element
 *
-GetFirstDescendantFormControl
+GetFirstLabelableDescendant
 (
 )
 ;

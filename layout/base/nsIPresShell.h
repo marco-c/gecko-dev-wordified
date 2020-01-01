@@ -428,6 +428,9 @@ endif
 class
 nsIWidget
 ;
+class
+nsArenaMemoryStats
+;
 typedef
 short
 SelectionType
@@ -7811,9 +7814,12 @@ SizeOfIncludingThis
 (
 nsMallocSizeOfFun
 aMallocSizeOf
+nsArenaMemoryStats
+*
+aArenaObjectsSize
 size_t
 *
-aArenasSize
+aPresShellSize
 size_t
 *
 aStyleSetsSize
@@ -7824,7 +7830,6 @@ size_t
 *
 aPresContextSize
 )
-const
 =
 0
 ;

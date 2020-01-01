@@ -847,6 +847,12 @@ KillFullGCTimer
 (
 )
 ;
+static
+void
+KillInterSliceGCTimer
+(
+)
+;
 virtual
 void
 GC

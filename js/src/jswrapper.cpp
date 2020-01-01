@@ -6272,7 +6272,7 @@ in
 those
 .
 const
-Value
+CrossCompartmentKey
 &
 k
 =
@@ -6288,9 +6288,13 @@ if
 (
 k
 .
-isString
-(
-)
+kind
+!
+=
+CrossCompartmentKey
+:
+:
+ObjectWrapper
 )
 continue
 ;

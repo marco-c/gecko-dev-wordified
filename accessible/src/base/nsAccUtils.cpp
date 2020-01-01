@@ -865,12 +865,11 @@ nsGkAtoms
 :
 :
 containerLiveRole
-NS_ConvertASCIItoUTF16
-(
 role
 -
 >
-roleString
+ARIARoleString
+(
 )
 )
 ;

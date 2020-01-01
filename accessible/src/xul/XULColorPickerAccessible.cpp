@@ -571,7 +571,7 @@ roles
 PUSHBUTTON
 ;
 }
-uint64_t
+PRUint64
 XULColorPickerTileAccessible
 :
 :
@@ -579,7 +579,7 @@ NativeState
 (
 )
 {
-uint64_t
+PRUint64
 state
 =
 AccessibleWrap
@@ -615,7 +615,7 @@ return
 state
 ;
 }
-uint64_t
+PRUint64
 XULColorPickerTileAccessible
 :
 :
@@ -781,7 +781,7 @@ grandParent
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 /
@@ -1057,7 +1057,7 @@ eMenuButtonAccessible
 XULColorPickerAccessible
 :
 Accessible
-uint64_t
+PRUint64
 XULColorPickerAccessible
 :
 :
@@ -1065,7 +1065,7 @@ NativeState
 (
 )
 {
-uint64_t
+PRUint64
 state
 =
 AccessibleWrap
@@ -1236,7 +1236,7 @@ mChildren
 SafeElementAt
 (
 0
-nullptr
+nsnull
 )
 ;
 if
@@ -1385,7 +1385,7 @@ Accessible
 *
 child
 =
-nullptr
+nsnull
 ;
 while
 (
@@ -1400,7 +1400,7 @@ NextChild
 )
 )
 {
-uint32_t
+PRUint32
 role
 =
 child
