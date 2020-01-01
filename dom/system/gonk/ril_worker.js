@@ -13960,7 +13960,12 @@ if
 (
 options
 .
-body
+type
+=
+=
+"
+sendSMS
+"
 )
 {
 this
