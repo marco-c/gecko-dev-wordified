@@ -526,9 +526,11 @@ private
 :
 NS_OVERRIDE
 virtual
-bool
-Recv__delete__
+void
+ActorDestroy
 (
+ActorDestroyReason
+why
 )
 ;
 nsRefPtr
