@@ -3684,7 +3684,7 @@ of
 the
 /
 /
-visit
+place
 we
 just
 added
@@ -3697,10 +3697,13 @@ FetchVisitInfo
 _place
 )
 ;
-NS_ASSERTION
+if
 (
-!
 visited
+)
+{
+NS_NOTREACHED
+(
 "
 Not
 visited
@@ -3712,6 +3715,7 @@ visit
 "
 )
 ;
+}
 return
 NS_OK
 ;
