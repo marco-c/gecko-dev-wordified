@@ -13187,6 +13187,8 @@ results
 ;
 PRInt64
 keywordId
+=
+0
 ;
 if
 (
