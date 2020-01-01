@@ -492,6 +492,11 @@ compartment
 )
 {
 return
+compartment
+-
+>
+principals
+?
 static_cast
 <
 nsJSPrincipals
@@ -506,6 +511,8 @@ principals
 -
 >
 nsIPrincipalPtr
+:
+0
 ;
 }
 bool
