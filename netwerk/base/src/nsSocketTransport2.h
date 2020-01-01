@@ -484,7 +484,7 @@ h
 #
 include
 "
-nsIClassInfo
+nsIClassInfoImpl
 .
 h
 "
@@ -2334,6 +2334,11 @@ n
 #
 endif
 }
+;
+NS_DECL_CI_INTERFACE_GETTER
+(
+nsSocketTransport
+)
 ;
 #
 endif
