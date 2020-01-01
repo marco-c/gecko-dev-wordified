@@ -1024,6 +1024,11 @@ JSSubString
 ;
 typedef
 struct
+JSTraceableNative
+JSTraceableNative
+;
+typedef
+struct
 JSXML
 JSXML
 ;
