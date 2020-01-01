@@ -581,7 +581,7 @@ h
 #
 include
 "
-nsIDOMMouseListener
+nsIDOMEventListener
 .
 h
 "
@@ -1769,7 +1769,7 @@ box
 .
 nsCOMPtr
 <
-nsIDOMMouseListener
+nsIDOMEventListener
 >
 mButtonListener
 ;
