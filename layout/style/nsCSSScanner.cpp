@@ -987,7 +987,8 @@ SI
 0
 /
 /
-0
+NBSP
+SI
 SI
 SI
 SI
