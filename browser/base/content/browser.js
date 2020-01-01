@@ -24726,6 +24726,14 @@ extraFeatures
 private
 "
 ;
+if
+(
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
+)
+{
 /
 /
 Force
@@ -24751,6 +24759,7 @@ about
 privatebrowsing
 "
 ;
+}
 }
 else
 {
