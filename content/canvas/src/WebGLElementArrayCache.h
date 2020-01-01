@@ -311,6 +311,10 @@ mUint16Tree
 (
 nullptr
 )
+mUint32Tree
+(
+nullptr
+)
 {
 }
 ~
@@ -448,6 +452,13 @@ uint16_t
 >
 *
 mUint16Tree
+;
+WebGLElementArrayCacheTree
+<
+uint32_t
+>
+*
+mUint32Tree
 ;
 }
 ;
