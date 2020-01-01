@@ -1956,11 +1956,13 @@ NS_LITERAL_CSTRING
 (
 "
 CREATE
+UNIQUE
 INDEX
-moz_annos_attributesindex
+moz_annos_placeattributeindex
 ON
 moz_annos
 (
+place_id
 anno_attribute_id
 )
 "
@@ -2167,8 +2169,9 @@ NS_LITERAL_CSTRING
 (
 "
 CREATE
+UNIQUE
 INDEX
-moz_items_annos_attributesindex
+moz_items_annos_itemattributeindex
 ON
 moz_items_annos
 (
