@@ -12903,6 +12903,9 @@ isMovingBack
 =
 PR_TRUE
 ;
+/
+/
+FALLTHROUGH
 case
 NS_VK_DOWN
 :
