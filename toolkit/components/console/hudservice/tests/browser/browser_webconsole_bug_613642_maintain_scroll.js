@@ -187,8 +187,6 @@ first
 node
 outputNode
 .
-firstChild
-.
 focus
 (
 )
