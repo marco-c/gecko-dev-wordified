@@ -6470,7 +6470,8 @@ getOperand
 (
 0
 )
-.
+-
+>
 type
 (
 )
