@@ -862,6 +862,9 @@ mFrameRate
 PRUint32
 mFrameSize
 ;
+nsIntRect
+mPicture
+;
 }
 ;
 #
