@@ -652,6 +652,8 @@ aFontMetrics
 void
 ComputeMetrics
 (
+AntialiasOption
+anAAOption
 )
 ;
 PRBool
@@ -691,6 +693,11 @@ userArg
 ;
 DWRITE_MEASURING_MODE
 GetMeasuringMode
+(
+)
+;
+bool
+GetForceGDIClassic
 (
 )
 ;
