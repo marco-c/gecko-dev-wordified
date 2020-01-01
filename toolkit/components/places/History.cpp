@@ -16334,7 +16334,6 @@ nor
 a
 uri
 .
-*
 placesInfo
 .
 AppendElement
