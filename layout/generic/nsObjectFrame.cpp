@@ -28660,6 +28660,10 @@ widget
 ;
 XEvent
 pluginEvent
+=
+XEvent
+(
+)
 ;
 pluginEvent
 .
@@ -33799,6 +33803,10 @@ NPWindowTypeDrawable
 endif
 XEvent
 pluginEvent
+=
+XEvent
+(
+)
 ;
 XGraphicsExposeEvent
 &
