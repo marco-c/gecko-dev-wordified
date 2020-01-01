@@ -12677,7 +12677,7 @@ return
 mozilla
 :
 :
-LAYER_ACTIVE
+LAYER_ACTIVE_FORCE
 ;
 }
 virtual
