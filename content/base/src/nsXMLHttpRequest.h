@@ -733,7 +733,7 @@ aCx
 JSObject
 *
 aCallback
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -1243,7 +1243,7 @@ _Constructor
 nsISupports
 *
 aGlobal
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -1281,8 +1281,11 @@ principal
 )
 {
 aRv
-=
+.
+Throw
+(
 NS_ERROR_FAILURE
+)
 ;
 return
 NULL
@@ -1501,7 +1504,7 @@ const
 nsAString
 &
 aPassword
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -1535,7 +1538,7 @@ const
 nsAString
 &
 aValue
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -1569,7 +1572,7 @@ SetTimeout
 (
 uint32_t
 aTimeout
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -1921,7 +1924,7 @@ Send
 JSContext
 *
 aCx
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -1949,7 +1952,7 @@ aCx
 JSObject
 *
 aArrayBuffer
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -1988,7 +1991,7 @@ aCx
 nsIDOMBlob
 *
 aBlob
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2027,7 +2030,7 @@ aCx
 nsIDocument
 *
 aDoc
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2067,7 +2070,7 @@ const
 nsAString
 &
 aString
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2111,7 +2114,7 @@ aCx
 nsIDOMFormData
 *
 aFormData
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2150,7 +2153,7 @@ aCx
 nsIInputStream
 *
 aStream
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2190,7 +2193,7 @@ const
 nsAString
 &
 aBody
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2226,7 +2229,7 @@ aHeader
 nsACString
 &
 aResult
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2241,7 +2244,7 @@ aHeader
 nsString
 &
 aResult
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2378,7 +2381,7 @@ SetResponseType
 (
 XMLHttpRequestResponseType
 aType
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2392,7 +2395,7 @@ GetResponse
 JSContext
 *
 aCx
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2403,7 +2406,7 @@ GetResponseText
 nsString
 &
 aResponseText
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2412,7 +2415,7 @@ nsIDocument
 *
 GetResponseXML
 (
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -2481,7 +2484,7 @@ aCx
 nsIJSIID
 *
 aIID
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -3331,7 +3334,7 @@ nsXMLHttpRequest
 :
 ResponseType
 aType
-nsresult
+ErrorResult
 &
 aRv
 )

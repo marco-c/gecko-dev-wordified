@@ -1868,15 +1868,11 @@ pc
 if
 (
 !
-JSScript
-:
-:
-isValidOffset
-(
 script
 -
 >
-trynotesOffset
+hasTrynotes
+(
 )
 )
 return

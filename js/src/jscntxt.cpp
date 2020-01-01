@@ -3276,7 +3276,7 @@ usageStr
 usage
 "
 ;
-JSAtom
+PropertyName
 *
 usageAtom
 =
@@ -3288,6 +3288,11 @@ strlen
 (
 usageStr
 )
+)
+-
+>
+asPropertyName
+(
 )
 ;
 DebugOnly
@@ -3304,7 +3309,7 @@ callee
 nativeLookup
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 usageAtom
 )
@@ -6639,6 +6644,13 @@ JSContext
 cx
 )
 {
+if
+(
+gcRunning
+)
+return
+NULL
+;
 /
 *
 *

@@ -1841,7 +1841,7 @@ str
 *
 id
 =
-ATOM_TO_JSID
+NON_INTEGER_ATOM_TO_JSID
 (
 reinterpret_cast
 <

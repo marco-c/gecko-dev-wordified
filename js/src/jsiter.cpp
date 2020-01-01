@@ -1811,7 +1811,7 @@ Enumerate
 cx
 obj
 pobj
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -3075,9 +3075,9 @@ method
 .
 *
 /
-JSAtom
+PropertyName
 *
-atom
+name
 =
 cx
 -
@@ -3096,9 +3096,9 @@ js_GetMethod
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
-atom
+name
 )
 0
 vp
@@ -3267,7 +3267,7 @@ if
 js_AtomToPrintableString
 (
 cx
-atom
+name
 &
 bytes
 )
@@ -6926,13 +6926,6 @@ id
 return
 false
 ;
-id
-=
-js_CheckForStringIndex
-(
-id
-)
-;
 if
 (
 !
@@ -8047,13 +8040,6 @@ id
 return
 false
 ;
-id
-=
-js_CheckForStringIndex
-(
-id
-)
-;
 ni
 -
 >
@@ -8268,7 +8254,7 @@ method
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -11298,7 +11284,7 @@ createConstructor
 (
 cx
 Iterator
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Iterator

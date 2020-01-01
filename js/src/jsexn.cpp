@@ -2025,7 +2025,7 @@ NullValue
 jsid
 callerid
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -4623,7 +4623,7 @@ isUndefined
 {
 name
 =
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Error
@@ -4766,7 +4766,7 @@ rval
 .
 setString
 (
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Error
@@ -5618,7 +5618,7 @@ RootedVarId
 nameId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -5636,7 +5636,7 @@ RootedVarId
 messageId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -5654,7 +5654,7 @@ RootedVarId
 fileNameId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -5672,7 +5672,7 @@ RootedVarId
 lineNumberId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

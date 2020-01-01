@@ -2170,7 +2170,7 @@ toJSON
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -4911,7 +4911,7 @@ else
 if
 (
 !
-js_ValueToStringId
+ValueToId
 (
 cx
 v
@@ -4921,13 +4921,6 @@ id
 )
 return
 false
-;
-id
-=
-js_CheckForStringIndex
-(
-id
-)
 ;
 }
 }
@@ -4999,7 +4992,7 @@ iv
 if
 (
 !
-js_ValueToStringId
+ValueToId
 (
 cx
 v
@@ -5009,13 +5002,6 @@ id
 )
 return
 false
-;
-id
-=
-js_CheckForStringIndex
-(
-id
-)
 ;
 }
 else
@@ -5424,7 +5410,7 @@ Step
 jsid
 emptyId
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -6304,7 +6290,7 @@ Walk
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -6464,7 +6450,7 @@ vp
 >
 setString
 (
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 JSON

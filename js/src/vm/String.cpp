@@ -2772,7 +2772,7 @@ bool
 JSFlatString
 :
 :
-isIndex
+isIndexSlow
 (
 uint32_t
 *

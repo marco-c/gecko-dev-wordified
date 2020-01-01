@@ -2686,15 +2686,6 @@ mConnInfo
 UsingSSL
 (
 )
-&
-&
-!
-mConnInfo
--
->
-UsingHttpProxy
-(
-)
 )
 {
 LOG

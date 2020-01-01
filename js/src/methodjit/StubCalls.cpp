@@ -7646,7 +7646,7 @@ id
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )

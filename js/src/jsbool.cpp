@@ -1136,7 +1136,7 @@ createConstructor
 (
 cx
 Boolean
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Boolean

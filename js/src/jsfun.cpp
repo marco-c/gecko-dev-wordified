@@ -1556,11 +1556,11 @@ poisonPillProps
 ]
 =
 {
-ATOM_OFFSET
+NAME_OFFSET
 (
 arguments
 )
-ATOM_OFFSET
+NAME_OFFSET
 (
 caller
 )
@@ -1615,7 +1615,7 @@ isBoundFunction
 {
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -1649,7 +1649,7 @@ false
 }
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -1682,7 +1682,7 @@ false
 ;
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -1743,9 +1743,9 @@ i
 ;
 id
 =
-ATOM_TO_JSID
+NameToId
 (
-OFFSET_TO_ATOM
+OFFSET_TO_NAME
 (
 cx
 -
@@ -2477,7 +2477,7 @@ if
 JSID_IS_ATOM
 (
 id
-OFFSET_TO_ATOM
+OFFSET_TO_NAME
 (
 cx
 -
@@ -7702,7 +7702,7 @@ endif
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -7754,7 +7754,7 @@ NULL
 ;
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

@@ -2250,7 +2250,7 @@ if
 addDataProperty
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2296,7 +2296,7 @@ self
 addDataProperty
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2322,7 +2322,7 @@ self
 addDataProperty
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2348,7 +2348,7 @@ self
 addDataProperty
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2374,7 +2374,7 @@ self
 addDataProperty
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2404,7 +2404,7 @@ self
 addDataProperty
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2547,7 +2547,7 @@ self
 nativeLookupNoAllocation
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 atomState
 -
@@ -2573,7 +2573,7 @@ self
 nativeLookupNoAllocation
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 atomState
 -
@@ -2599,7 +2599,7 @@ self
 nativeLookupNoAllocation
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 atomState
 -
@@ -2625,7 +2625,7 @@ self
 nativeLookupNoAllocation
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 atomState
 -
@@ -2651,7 +2651,7 @@ self
 nativeLookupNoAllocation
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 atomState
 -
@@ -2677,7 +2677,7 @@ self
 nativeLookupNoAllocation
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 atomState
 -

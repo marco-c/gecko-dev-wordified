@@ -3206,6 +3206,9 @@ mPopupType
 nsSizeMode
 mOldSizeMode
 ;
+nsSizeMode
+mLastSizeMode
+;
 WindowHook
 mWindowHook
 ;

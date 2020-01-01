@@ -2430,7 +2430,7 @@ false
 }
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 bool
 nsAccUtils
 :
@@ -2497,7 +2497,7 @@ GetChildCount
 ;
 for
 (
-PRint32
+PRInt32
 childIdx
 =
 0
@@ -2515,6 +2515,9 @@ nsAccessible
 *
 child
 =
+aAccessible
+-
+>
 GetChildAt
 (
 childIdx
