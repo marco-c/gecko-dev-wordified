@@ -1348,11 +1348,6 @@ HandleAsyncAbort
 )
 ;
 nsresult
-EnsureAssocReq
-(
-)
-;
-nsresult
 ContinueOnStartRequest1
 (
 nsresult

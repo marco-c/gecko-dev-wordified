@@ -597,15 +597,6 @@ Protocol
 )
 HTTP_ATOM
 (
-Assoc_Req
-"
-Assoc
--
-Req
-"
-)
-HTTP_ATOM
-(
 Authentication
 "
 Authentication

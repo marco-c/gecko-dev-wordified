@@ -581,6 +581,11 @@ mShouldGoAway
 mClosed
 ;
 }
+void
+DontReuse
+(
+)
+;
 bool
 RoomForMoreStreams
 (
@@ -597,8 +602,8 @@ this
 is
 called
 every
-1
-second
+15
+seconds
 void
 ReadTimeoutTick
 (
