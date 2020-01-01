@@ -1670,7 +1670,7 @@ aPoint
 /
 *
 Recursive
-helper
+helpers
 *
 /
 AsyncPanZoomController
@@ -1684,6 +1684,17 @@ const
 ScrollableLayerGuid
 &
 aGuid
+)
+;
+AsyncPanZoomController
+*
+GetAPZCAtPoint
+(
+AsyncPanZoomController
+*
+aApzc
+gfxPoint
+aHitTestPoint
 )
 ;
 /
