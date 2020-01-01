@@ -954,6 +954,12 @@ IsCallerChrome
 ;
 static
 bool
+IsCallerXBL
+(
+)
+;
+static
+bool
 IsImageSrcSetDisabled
 (
 )
