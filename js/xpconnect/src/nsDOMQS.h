@@ -403,7 +403,9 @@ _base
 _bit
 )
 \
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 \
 inline
 JSBool
@@ -532,7 +534,9 @@ true
 }
 \
 \
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 \
 inline
 nsresult
@@ -766,7 +770,9 @@ return
 true
 ;
 }
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 inline
 JSBool
 xpc_qsUnwrapThis
@@ -895,7 +901,9 @@ return
 ok
 ;
 }
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 inline
 nsresult
 xpc_qsUnwrapArg

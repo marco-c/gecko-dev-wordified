@@ -1869,7 +1869,9 @@ release
 class
 nsMainThreadSurfaceRef
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsAutoRefTraits
 <

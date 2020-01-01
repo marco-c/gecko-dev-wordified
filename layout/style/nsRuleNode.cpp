@@ -32355,7 +32355,9 @@ InitialInheritLocationFor
 {
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 InitialInheritLocationFor
 <
@@ -32382,7 +32384,9 @@ mValue
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 InitialInheritLocationFor
 <
@@ -32421,7 +32425,9 @@ BackgroundItemComputer
 {
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 BackgroundItemComputer
 <
@@ -32471,7 +32477,9 @@ PRUint8
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 BackgroundItemComputer
 <
@@ -32580,7 +32588,9 @@ mYPosition
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 BackgroundItemComputer
 <
@@ -33068,7 +33078,9 @@ mHeightType
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 BackgroundItemComputer
 <

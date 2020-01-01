@@ -5006,7 +5006,9 @@ type
 .
 *
 /
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsCOMPtr
 <
@@ -7319,7 +7321,9 @@ mTargetSmartPtr
 ;
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsGetterAddRefs
 <

@@ -1274,7 +1274,9 @@ nsCharTraits
 {
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsCharTraits
 <
@@ -2610,7 +2612,9 @@ pos_type
 endif
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsCharTraits
 <
@@ -3837,7 +3841,9 @@ n
 ;
 #
 else
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsCharSourceTraits
 <
@@ -3949,7 +3955,9 @@ n
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsCharSourceTraits
 <
@@ -4155,7 +4163,9 @@ n
 ;
 #
 else
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsCharSinkTraits
 <
@@ -4200,7 +4210,9 @@ n
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsCharSinkTraits
 <

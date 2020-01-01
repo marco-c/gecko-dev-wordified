@@ -3382,7 +3382,9 @@ return
 HT_ENUMERATE_NEXT
 ;
 }
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsDefaultComparator
 <

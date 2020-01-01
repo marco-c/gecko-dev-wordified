@@ -518,7 +518,9 @@ class
 .
 *
 /
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsAutoRefTraits
 <
@@ -550,7 +552,9 @@ ptr
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsAutoRefTraits
 <
