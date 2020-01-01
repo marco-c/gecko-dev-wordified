@@ -19517,7 +19517,9 @@ nsIFrame
 *
 frame
 =
-mPrimaryFrame
+GetPrimaryFrame
+(
+)
 ;
 if
 (
