@@ -1960,8 +1960,7 @@ lig_id
 if
 (
 j
-=
-=
+<
 c
 -
 >
@@ -1970,7 +1969,7 @@ buffer
 >
 i
 +
-i
+count
 )
 /
 *
@@ -1986,7 +1985,7 @@ c
 >
 replace_glyphs_be16
 (
-i
+count
 1
 (
 const
