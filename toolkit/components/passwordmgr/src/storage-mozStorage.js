@@ -6724,6 +6724,7 @@ Legacy
 .
 js
 .
+let
 filenamePrefs
 =
 [
