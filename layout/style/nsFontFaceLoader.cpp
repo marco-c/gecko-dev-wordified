@@ -658,7 +658,7 @@ gfxProxyFontEntry
 LOADING_STARTED
 )
 {
-int32_t
+int64_t
 contentLength
 ;
 uint32_t
@@ -685,6 +685,11 @@ contentLength
 contentLength
 >
 0
+&
+&
+contentLength
+<
+UINT32_MAX
 &
 &
 NS_SUCCEEDED

@@ -7001,7 +7001,7 @@ n
 )
 ;
 }
-int32_t
+int64_t
 length
 ;
 if
@@ -7338,7 +7338,7 @@ length
 )
 )
 {
-int32_t
+int64_t
 length
 ;
 if

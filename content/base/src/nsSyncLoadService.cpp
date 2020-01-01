@@ -1597,7 +1597,7 @@ aIn
 )
 )
 {
-int32_t
+int64_t
 chunkSize
 ;
 rv
@@ -1628,7 +1628,7 @@ chunkSize
 =
 NS_MIN
 (
-int32_t
+int64_t
 (
 UINT16_MAX
 )

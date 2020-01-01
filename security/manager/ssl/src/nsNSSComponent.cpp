@@ -17531,7 +17531,7 @@ mURI
 )
 )
 ;
-int32_t
+int64_t
 contentLength
 ;
 rv
@@ -17561,6 +17561,15 @@ contentLength
 contentLength
 =
 kDefaultCertAllocLength
+;
+if
+(
+contentLength
+>
+INT32_MAX
+)
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
 mBufferOffset
 =
@@ -17594,7 +17603,10 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mBufferSize
 =
+int32_t
+(
 contentLength
+)
 ;
 return
 NS_OK

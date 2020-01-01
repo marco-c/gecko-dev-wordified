@@ -1367,8 +1367,8 @@ nsFtpChannel
 aRequest
 )
 ;
-int32_t
-aContentLength
+int64_t
+contentLength
 ;
 chan
 -
@@ -1376,7 +1376,7 @@ chan
 GetContentLength
 (
 &
-aContentLength
+contentLength
 )
 ;
 nsCString
@@ -1435,7 +1435,7 @@ mIPCClosed
 !
 SendOnStartRequest
 (
-aContentLength
+contentLength
 contentType
 lastModified
 entityID

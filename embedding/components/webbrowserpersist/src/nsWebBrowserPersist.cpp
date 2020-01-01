@@ -5357,7 +5357,7 @@ true
 ;
 }
 }
-int32_t
+int64_t
 channelContentLength
 =
 -

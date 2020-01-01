@@ -1446,7 +1446,7 @@ FTPChannelChild
 *
 aChild
 const
-int32_t
+int64_t
 &
 aContentLength
 const
@@ -1517,7 +1517,7 @@ FTPChannelChild
 *
 mChild
 ;
-int32_t
+int64_t
 mContentLength
 ;
 nsCString
@@ -1541,7 +1541,7 @@ FTPChannelChild
 RecvOnStartRequest
 (
 const
-int32_t
+int64_t
 &
 aContentLength
 const
@@ -1611,7 +1611,7 @@ FTPChannelChild
 DoOnStartRequest
 (
 const
-int32_t
+int64_t
 &
 aContentLength
 const
@@ -1653,10 +1653,9 @@ this
 )
 )
 ;
-SetContentLength
-(
+mContentLength
+=
 aContentLength
-)
 ;
 SetContentType
 (

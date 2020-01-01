@@ -2245,10 +2245,9 @@ stream
 =
 uploadStream
 ;
-SetContentLength64
-(
+mContentLength
+=
 0
-)
 ;
 /
 /
@@ -2357,9 +2356,7 @@ and
 type
 if
 (
-ContentLength64
-(
-)
+mContentLength
 <
 0
 )
@@ -2388,10 +2385,9 @@ rv
 return
 rv
 ;
-SetContentLength64
-(
+mContentLength
+=
 size
-)
 ;
 }
 if

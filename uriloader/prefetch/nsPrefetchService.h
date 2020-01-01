@@ -789,7 +789,7 @@ mRedirectChannel
 uint16_t
 mState
 ;
-int32_t
+int64_t
 mBytesRead
 ;
 }

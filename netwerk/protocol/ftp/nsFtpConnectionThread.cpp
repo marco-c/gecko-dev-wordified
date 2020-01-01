@@ -5320,7 +5320,7 @@ mFileSize
 mChannel
 -
 >
-SetContentLength64
+SetContentLength
 (
 mFileSize
 )

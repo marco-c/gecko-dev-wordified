@@ -2860,7 +2860,7 @@ do_GetWeakReference
 loadGroup
 )
 ;
-int32_t
+int64_t
 length
 ;
 rv
