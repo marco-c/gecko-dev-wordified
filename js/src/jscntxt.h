@@ -4008,6 +4008,9 @@ contextList
 )
 ;
 }
+JS_SourceHook
+sourceHook
+;
 /
 *
 Per
