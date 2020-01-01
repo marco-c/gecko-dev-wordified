@@ -15710,7 +15710,6 @@ widget
 >
 GetTopLevelWidget
 (
-nsnull
 )
 ;
 if
