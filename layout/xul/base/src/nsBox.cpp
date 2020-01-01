@@ -2637,7 +2637,7 @@ context
 )
 ;
 nsSize
-max
+maxSize
 (
 NS_INTRINSICSIZE
 NS_INTRINSICSIZE
@@ -2646,7 +2646,7 @@ NS_INTRINSICSIZE
 DISPLAY_MAX_SIZE
 (
 this
-max
+maxSize
 )
 ;
 if
@@ -2657,11 +2657,11 @@ aState
 )
 )
 return
-max
+maxSize
 ;
 AddBorderAndPadding
 (
-max
+maxSize
 )
 ;
 nsIBox
@@ -2671,11 +2671,11 @@ AddCSSMaxSize
 (
 aState
 this
-max
+maxSize
 )
 ;
 return
-max
+maxSize
 ;
 }
 nscoord
