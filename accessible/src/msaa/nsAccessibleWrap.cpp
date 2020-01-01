@@ -1185,6 +1185,8 @@ IServiceProvider
 this
 )
 ;
+/
+/
 else
 if
 (
@@ -1193,6 +1195,8 @@ IID_IAccessible2
 =
 iid
 )
+/
+/
 *
 ppv
 =
