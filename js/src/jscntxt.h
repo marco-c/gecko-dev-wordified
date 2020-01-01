@@ -12550,7 +12550,7 @@ Last
 message
 string
 and
-trace
+log
 file
 for
 debugging
@@ -12566,11 +12566,11 @@ ifdef
 DEBUG
 void
 *
-tracefp
+logfp
 ;
 jsbytecode
 *
-tracePrevPc
+logPrevPc
 ;
 #
 endif
