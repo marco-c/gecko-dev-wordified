@@ -722,7 +722,7 @@ protected
 bool
 EnsureDatabase
 (
-IDBRequest
+IDBOpenDBRequest
 *
 aRequest
 const

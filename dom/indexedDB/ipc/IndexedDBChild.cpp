@@ -1264,7 +1264,7 @@ IndexedDBDatabaseChild
 :
 EnsureDatabase
 (
-IDBRequest
+IDBOpenDBRequest
 *
 aRequest
 const
@@ -1535,6 +1535,12 @@ IDBDatabase
 Create
 (
 aRequest
+aRequest
+-
+>
+Factory
+(
+)
 dbInfo
 .
 forget
