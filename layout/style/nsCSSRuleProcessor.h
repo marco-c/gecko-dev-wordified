@@ -625,6 +625,12 @@ ClearRuleCascades
 ;
 static
 void
+Startup
+(
+)
+;
+static
+void
 FreeSystemMetrics
 (
 )
