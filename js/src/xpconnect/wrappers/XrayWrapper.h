@@ -513,6 +513,17 @@ extern
 JSClass
 HolderClass
 ;
+bool
+IsTransparent
+(
+JSContext
+*
+cx
+JSObject
+*
+wrapper
+)
+;
 }
 /
 /
