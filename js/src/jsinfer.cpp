@@ -23407,6 +23407,13 @@ fun
 isFunctionPrototype
 (
 )
+|
+|
+!
+script
+-
+>
+compileAndGo
 )
 {
 script
