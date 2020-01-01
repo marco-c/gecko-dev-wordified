@@ -2124,6 +2124,7 @@ param
 aAttributes
 [
 out
+optional
 ]
 result
 attributes
@@ -2236,6 +2237,7 @@ param
 aAttributes
 [
 out
+optional
 ]
 result
 attributes
@@ -2347,6 +2349,7 @@ param
 aAttributes
 [
 out
+optional
 ]
 result
 attributes
