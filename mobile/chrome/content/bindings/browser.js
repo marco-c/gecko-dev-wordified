@@ -744,7 +744,6 @@ this
 .
 goBack
 (
-message
 )
 ;
 break
@@ -760,7 +759,6 @@ this
 .
 goForward
 (
-message
 )
 ;
 break
