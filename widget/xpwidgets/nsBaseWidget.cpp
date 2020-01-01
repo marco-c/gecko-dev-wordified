@@ -7831,6 +7831,14 @@ AddBoolPrefVarCache
 bool
 disableAcceleration
 =
+(
+mWindowType
+=
+=
+eWindowType_popup
+)
+|
+|
 Preferences
 :
 :
