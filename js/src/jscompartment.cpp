@@ -3710,10 +3710,15 @@ gcstats
 PHASE_FREE_TI_ARENA
 )
 ;
-oldAlloc
+rt
+-
+>
+freeLifoAlloc
 .
-freeAll
+transferFrom
 (
+&
+oldAlloc
 )
 ;
 if
