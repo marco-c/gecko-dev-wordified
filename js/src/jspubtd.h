@@ -968,6 +968,11 @@ JSProperty
 ;
 typedef
 struct
+JSPropertyDescriptor
+JSPropertyDescriptor
+;
+typedef
+struct
 JSPropertySpec
 JSPropertySpec
 ;
