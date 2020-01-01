@@ -1157,12 +1157,6 @@ class
 RasterImage
 :
 public
-mozilla
-:
-:
-imagelib
-:
-:
 Image
 public
 nsITimerCallback
