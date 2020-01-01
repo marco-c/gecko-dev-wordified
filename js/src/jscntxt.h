@@ -5235,7 +5235,7 @@ JSMallocSizeOfFun
 mallocSizeOf
 size_t
 *
-normal
+dtoa
 size_t
 *
 temporary

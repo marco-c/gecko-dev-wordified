@@ -789,7 +789,7 @@ JSMallocSizeOfFun
 mallocSizeOf
 size_t
 *
-normal
+dtoa
 size_t
 *
 temporary
@@ -812,10 +812,10 @@ gcMarkerSize
 {
 if
 (
-normal
+dtoa
 )
 *
-normal
+dtoa
 =
 mallocSizeOf
 (
