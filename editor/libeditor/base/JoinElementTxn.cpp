@@ -339,8 +339,10 @@ mLeftNode
 =
 aLeftNode
 ;
+nsCOMPtr
+<
 nsINode
-*
+>
 leftParent
 =
 mLeftNode
@@ -912,8 +914,10 @@ else
 {
 for
 (
+nsCOMPtr
+<
 nsINode
-*
+>
 child
 =
 mRightNode

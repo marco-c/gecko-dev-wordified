@@ -598,8 +598,10 @@ null
 that
 means
 append
+nsCOMPtr
+<
 nsIContent
-*
+>
 refContent
 =
 parent
