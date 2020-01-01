@@ -1203,7 +1203,7 @@ of
 LABEL
 *
 /
-JSObject
+StaticBlockObject
 *
 blockObj
 ;
@@ -2403,14 +2403,13 @@ scope
 statement
 *
 /
-JSObject
+StaticBlockObject
 *
 blockChain
 ;
 /
 *
 compile
-time
 block
 scope
 chain
@@ -6092,8 +6091,8 @@ tc
 StmtInfo
 *
 stmt
-JSObject
-*
+StaticBlockObject
+&
 blockObj
 ptrdiff_t
 top

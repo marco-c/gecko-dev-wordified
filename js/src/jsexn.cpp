@@ -6663,6 +6663,7 @@ GlobalObject
 *
 global
 =
+&
 obj
 -
 >
@@ -8513,10 +8514,11 @@ if
 js_GetClassPrototype
 (
 cx
+&
 scope
 -
 >
-getGlobal
+global
 (
 )
 GetExceptionProtoKey

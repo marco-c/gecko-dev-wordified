@@ -496,6 +496,15 @@ Services
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -2628,6 +2637,7 @@ usage
 /
 class
 ExpirationTrackerObserver
+MOZ_FINAL
 :
 public
 nsIObserver

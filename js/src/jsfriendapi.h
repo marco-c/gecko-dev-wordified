@@ -1701,16 +1701,6 @@ js
 :
 Class
 )
-ScriptClass
-;
-extern
-JS_FRIEND_DATA
-(
-js
-:
-:
-Class
-)
 XMLClass
 ;
 extern
@@ -1791,7 +1781,6 @@ bool
 )
 IsScopeObject
 (
-const
 JSObject
 *
 obj
@@ -1802,7 +1791,6 @@ JSObject
 *
 GetObjectParent
 (
-const
 JSObject
 *
 obj
@@ -1820,7 +1808,6 @@ obj
 return
 reinterpret_cast
 <
-const
 shadow
 :
 :
@@ -1848,7 +1835,6 @@ JSObject
 )
 GetObjectParentMaybeScope
 (
-const
 JSObject
 *
 obj
@@ -2024,7 +2010,6 @@ JSObject
 *
 GetObjectProto
 (
-const
 JSObject
 *
 obj
@@ -2056,7 +2041,6 @@ void
 *
 GetObjectPrivate
 (
-const
 JSObject
 *
 obj
@@ -2258,7 +2242,6 @@ uint32_t
 )
 GetObjectSlotSpan
 (
-const
 JSObject
 *
 obj
@@ -2270,7 +2253,6 @@ Value
 &
 GetObjectSlot
 (
-const
 JSObject
 *
 obj
@@ -2314,7 +2296,6 @@ Shape
 *
 GetObjectShape
 (
-const
 JSObject
 *
 obj

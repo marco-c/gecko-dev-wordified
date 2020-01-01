@@ -4175,7 +4175,7 @@ MessageEventRunnable
 public
 WorkerRunnable
 {
-uint64
+uint64_t
 *
 mData
 ;

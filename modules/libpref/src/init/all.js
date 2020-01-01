@@ -13532,7 +13532,6 @@ more4
 armscii
 -
 8
-GEOSTD8
 TIS
 -
 620

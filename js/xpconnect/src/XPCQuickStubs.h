@@ -1565,6 +1565,11 @@ Ptr
 (
 )
 {
+MOZ_ASSERT
+(
+mValid
+)
+;
 return
 reinterpret_cast
 <
@@ -1582,6 +1587,11 @@ interface_type
 (
 )
 {
+MOZ_ASSERT
+(
+mValid
+)
+;
 return
 *
 Ptr

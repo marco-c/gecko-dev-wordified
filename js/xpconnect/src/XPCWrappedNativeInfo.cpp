@@ -947,7 +947,7 @@ info
 GetParam
 (
 (
-uint8
+uint8_t
 )
 (
 argc

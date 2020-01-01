@@ -16608,6 +16608,7 @@ GlobalObject
 *
 global
 =
+&
 obj
 -
 >

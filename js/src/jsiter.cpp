@@ -5828,7 +5828,6 @@ vp
 if
 JS_HAS_GENERATORS
 static
-JS_REQUIRES_STACK
 JSBool
 CloseGenerator
 (
@@ -8379,7 +8378,6 @@ null
 .
 *
 /
-JS_REQUIRES_STACK
 JSObject
 *
 js_NewGenerator
@@ -8452,6 +8450,7 @@ GlobalObject
 *
 global
 =
+&
 stackfp
 -
 >
@@ -8459,7 +8458,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -8843,7 +8842,6 @@ frame
 *
 /
 static
-JS_REQUIRES_STACK
 JSBool
 SendToGenerator
 (
@@ -9512,7 +9510,6 @@ JS_FALSE
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 CloseGenerator
 (
@@ -10443,6 +10440,7 @@ GlobalObject
 *
 global
 =
+&
 obj
 -
 >

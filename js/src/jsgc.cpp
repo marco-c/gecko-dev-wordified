@@ -867,7 +867,7 @@ include
 "
 vm
 /
-CallObject
+ScopeObject
 -
 inl
 .
@@ -13570,7 +13570,6 @@ isMarkStackEmpty
 )
 ;
 }
-JS_REQUIRES_STACK
 void
 MarkRuntime
 (
@@ -21772,11 +21771,14 @@ check
 >
 contains
 (
-(
-uint8
+static_cast
+<
+uint8_t
 *
-)
+>
+(
 w
+)
 sizeof
 (
 w

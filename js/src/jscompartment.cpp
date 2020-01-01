@@ -1395,6 +1395,7 @@ hasfp
 {
 global
 =
+&
 cx
 -
 >
@@ -1407,7 +1408,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;

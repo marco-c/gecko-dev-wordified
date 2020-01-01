@@ -1420,7 +1420,7 @@ isArguments
 )
 {
 ArgumentsObject
-*
+&
 argsobj
 =
 obj
@@ -1434,8 +1434,7 @@ if
 (
 !
 argsobj
--
->
+.
 hasOverriddenLength
 (
 )
@@ -1445,8 +1444,7 @@ hasOverriddenLength
 lengthp
 =
 argsobj
--
->
+.
 initialLength
 (
 )
@@ -3071,8 +3069,7 @@ obj
 asArguments
 (
 )
--
->
+.
 getElement
 (
 uint32_t
@@ -3305,7 +3302,7 @@ isArguments
 )
 {
 ArgumentsObject
-*
+&
 argsobj
 =
 aobj
@@ -3319,8 +3316,7 @@ if
 (
 !
 argsobj
--
->
+.
 hasOverriddenLength
 (
 )
@@ -3329,8 +3325,7 @@ hasOverriddenLength
 if
 (
 argsobj
--
->
+.
 getElements
 (
 0
@@ -12123,7 +12118,6 @@ ag
 {
 }
 bool
-JS_REQUIRES_STACK
 operator
 (
 )
@@ -21870,6 +21864,7 @@ cx
 ;
 global
 =
+&
 obj
 -
 >

@@ -7104,7 +7104,7 @@ mWrappedJSMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mWrappedJSMap
@@ -7161,7 +7161,7 @@ mWrappedJSClassMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mWrappedJSClassMap
@@ -7208,7 +7208,7 @@ mIID2NativeInterfaceMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mIID2NativeInterfaceMap
@@ -7255,7 +7255,7 @@ mClassInfo2NativeSetMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mClassInfo2NativeSetMap
@@ -7302,7 +7302,7 @@ mNativeSetMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mNativeSetMap
@@ -7361,7 +7361,7 @@ mThisTranslatorMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mThisTranslatorMap
@@ -7466,7 +7466,7 @@ mNativeScriptableSharedMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mNativeScriptableSharedMap
@@ -7513,7 +7513,7 @@ mDyingWrappedNativeProtoMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mDyingWrappedNativeProtoMap
@@ -7562,7 +7562,7 @@ mDetachedWrappedNativeProtoMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mDetachedWrappedNativeProtoMap
@@ -7610,7 +7610,7 @@ mExplicitNativeWrapperMap
 #
 ifdef
 XPC_DUMP_AT_SHUTDOWN
-uint32
+uint32_t
 count
 =
 mExplicitNativeWrapperMap
@@ -7973,7 +7973,7 @@ vdata
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

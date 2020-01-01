@@ -8558,7 +8558,6 @@ namespace
 js
 {
 extern
-JS_REQUIRES_STACK
 void
 MarkRuntime
 (
@@ -8577,7 +8576,6 @@ trc
 )
 ;
 extern
-JS_REQUIRES_STACK
 JS_FRIEND_API
 (
 void

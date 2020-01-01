@@ -45156,10 +45156,11 @@ toObject
 ;
 if
 (
+&
 obj
 -
 >
-getGlobal
+global
 (
 )
 =
@@ -48402,10 +48403,11 @@ if
 globalObj
 |
 |
+&
 obj
 -
 >
-getGlobal
+global
 (
 )
 !
@@ -48499,6 +48501,7 @@ RegExpObject
 *
 reobj
 =
+&
 obj
 -
 >

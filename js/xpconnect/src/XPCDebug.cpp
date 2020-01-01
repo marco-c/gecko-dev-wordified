@@ -667,7 +667,7 @@ fun
 =
 nsnull
 ;
-uint32
+uint32_t
 namedArgCount
 =
 0
@@ -972,7 +972,7 @@ callObj
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1221,7 +1221,7 @@ namedArgCount
 {
 for
 (
-uint32
+uint32_t
 k
 =
 namedArgCount
@@ -1423,7 +1423,7 @@ array
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1694,7 +1694,7 @@ array
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0

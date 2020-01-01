@@ -725,7 +725,7 @@ buffer
 mData
 =
 (
-PRUint64
+uint64_t
 *
 )
 malloc
@@ -880,7 +880,7 @@ buffer
 mData
 =
 (
-PRUint64
+uint64_t
 *
 )
 malloc

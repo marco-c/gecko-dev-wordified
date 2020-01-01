@@ -9684,6 +9684,7 @@ GlobalObject
 *
 global
 =
+&
 shape
 -
 >
@@ -9692,7 +9693,7 @@ getObjectParent
 )
 -
 >
-getGlobal
+global
 (
 )
 ;
