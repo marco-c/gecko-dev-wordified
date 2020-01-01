@@ -53177,11 +53177,6 @@ nsICachingChannel
 :
 :
 LOAD_ONLY_FROM_CACHE
-|
-nsIRequest
-:
-:
-LOAD_FROM_CACHE
 ;
 }
 nsCOMPtr
