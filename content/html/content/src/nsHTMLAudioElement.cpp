@@ -708,10 +708,6 @@ Init
 (
 aChannels
 aRate
-nsAudioStream
-:
-:
-FORMAT_FLOAT32
 )
 ;
 if

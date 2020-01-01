@@ -7735,12 +7735,6 @@ track
 GetRate
 (
 )
-audio
--
->
-GetFirstFrameFormat
-(
-)
 )
 ;
 }
