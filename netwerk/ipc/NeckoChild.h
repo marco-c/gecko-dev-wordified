@@ -237,13 +237,6 @@ PFTPChannelChild
 *
 AllocPFTPChannel
 (
-PBrowserChild
-*
-aBrowser
-const
-SerializedLoadContext
-&
-aSerialized
 )
 ;
 virtual
@@ -261,9 +254,6 @@ AllocPWebSocket
 (
 PBrowserChild
 *
-const
-SerializedLoadContext
-&
 )
 ;
 virtual

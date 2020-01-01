@@ -6112,6 +6112,14 @@ aDocumentURI
 const
 bool
 &
+isInBrowserElement
+const
+uint32_t
+&
+appId
+const
+bool
+&
 stickDocument
 )
 {
@@ -6136,12 +6144,6 @@ docshell
 :
 OfflineCacheUpdateParent
 (
-OwnOrContainingAppId
-(
-)
-IsBrowserElement
-(
-)
 )
 ;
 nsresult
@@ -6154,6 +6156,8 @@ Schedule
 (
 aManifestURI
 aDocumentURI
+isInBrowserElement
+appId
 stickDocument
 )
 ;
