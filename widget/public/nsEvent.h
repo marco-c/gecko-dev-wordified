@@ -577,9 +577,14 @@ nsMouseEvent
 class
 nsDragEvent
 ;
+#
+ifdef
+ACCESSIBILITY
 class
 nsAccessibleEvent
 ;
+#
+endif
 class
 nsKeyEvent
 ;
