@@ -465,7 +465,7 @@ and
 takes
 that
 path
-gfxTextRun
+nsTransformedTextRun
 *
 MakeTextRun
 (
@@ -497,7 +497,7 @@ aOwnsFactory
 PR_TRUE
 )
 ;
-gfxTextRun
+nsTransformedTextRun
 *
 MakeTextRun
 (
