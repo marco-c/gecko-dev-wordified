@@ -260,8 +260,6 @@ args
 getString
 (
 KEY_SEARCH_TERM
-"
-"
 )
 ;
 final
