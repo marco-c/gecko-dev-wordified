@@ -558,9 +558,15 @@ endGC
 (
 )
 ;
-int64_t
+void
 gcDuration
 (
+int64_t
+*
+total
+int64_t
+*
+maxPause
 )
 ;
 void
