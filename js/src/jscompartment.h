@@ -3054,6 +3054,14 @@ cx
 )
 ;
 void
+finalizeShapeArenaLists
+(
+JSContext
+*
+cx
+)
+;
+void
 finalizeStringArenaLists
 (
 JSContext
