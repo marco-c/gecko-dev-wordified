@@ -2713,15 +2713,12 @@ mInheritStyle
 PR_FALSE
 ;
 }
-nsresult
+PRBool
 nsXBLPrototypeBinding
 :
 :
 GetAllowScripts
 (
-PRBool
-*
-aResult
 )
 {
 return
@@ -2730,7 +2727,6 @@ mXBLDocInfoWeak
 >
 GetScriptAccess
 (
-aResult
 )
 ;
 }

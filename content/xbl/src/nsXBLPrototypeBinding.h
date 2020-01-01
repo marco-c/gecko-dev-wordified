@@ -742,12 +742,9 @@ aURI
 )
 const
 ;
-nsresult
+PRBool
 GetAllowScripts
 (
-PRBool
-*
-aResult
 )
 ;
 nsresult
