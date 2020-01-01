@@ -2622,6 +2622,16 @@ aRegion
 nullptr
 )
 ;
+bool
+MaybeUpload
+(
+nsIntRegion
+*
+aRegion
+=
+nullptr
+)
+;
 Compositor
 *
 mCompositor
