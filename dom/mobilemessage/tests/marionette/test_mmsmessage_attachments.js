@@ -261,7 +261,7 @@ next
 }
 ;
 let
-mozMobileMessage
+manager
 ;
 function
 getAllMessages
@@ -292,7 +292,7 @@ messages
 let
 request
 =
-mozMobileMessage
+manager
 .
 getMessages
 (
@@ -403,7 +403,7 @@ return
 let
 request
 =
-mozMobileMessage
+manager
 .
 delete
 (
@@ -474,7 +474,7 @@ state
 "
 )
 ;
-mozMobileMessage
+manager
 =
 window
 .
@@ -484,9 +484,19 @@ mozMobileMessage
 ;
 ok
 (
-mozMobileMessage
+manager
 instanceof
 MozMobileMessageManager
+"
+manager
+is
+instance
+of
+"
++
+manager
+.
+constructor
 )
 ;
 tasks
@@ -521,7 +531,7 @@ array
 "
 )
 ;
-mozMobileMessage
+manager
 .
 onfailed
 =
@@ -530,7 +540,7 @@ function
 event
 )
 {
-mozMobileMessage
+manager
 .
 onfailed
 =
@@ -607,7 +617,7 @@ need
 networking
 here
 .
-mozMobileMessage
+manager
 .
 sendMMS
 (
