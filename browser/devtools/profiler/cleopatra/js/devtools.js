@@ -1437,10 +1437,13 @@ add
 {
 title
 :
+gStrings
+[
 "
 Complete
 Profile
 "
+]
 enterCallback
 :
 function
