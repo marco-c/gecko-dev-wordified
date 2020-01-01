@@ -1145,9 +1145,6 @@ else
 PL_HashTableAdd
 (
 mDB
-nsCRT
-:
-:
 strdup
 (
 key
@@ -1673,9 +1670,6 @@ he
 >
 value
 ;
-nsCRT
-:
-:
 free
 (
 (

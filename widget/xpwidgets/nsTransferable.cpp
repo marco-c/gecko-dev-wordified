@@ -439,9 +439,6 @@ if
 (
 mCacheFileName
 )
-nsCRT
-:
-:
 free
 (
 mCacheFileName
@@ -1161,9 +1158,6 @@ fName
 ;
 mCacheFileName
 =
-nsCRT
-:
-:
 strdup
 (
 fName

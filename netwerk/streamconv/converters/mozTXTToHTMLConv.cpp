@@ -8941,10 +8941,7 @@ inLength
 *
 _retval
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 text
 )

@@ -9214,9 +9214,6 @@ mimeFlavor
 .
 Adopt
 (
-nsCRT
-:
-:
 strdup
 (
 typeName

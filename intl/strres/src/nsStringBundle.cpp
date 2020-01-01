@@ -4316,10 +4316,7 @@ aStatusArg
 *
 result
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 aStatusArg
 )

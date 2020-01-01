@@ -452,9 +452,6 @@ gkedp
 next
 ]
 =
-nsCRT
-:
-:
 strdup
 (
 key

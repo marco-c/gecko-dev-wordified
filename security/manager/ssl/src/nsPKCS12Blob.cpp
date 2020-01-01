@@ -4430,9 +4430,6 @@ unsigned
 char
 *
 )
-nsCRT
-:
-:
 strdup
 (
 nickname

@@ -844,10 +844,7 @@ key
 uint8_t
 *
 )
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 (
 PRUnichar

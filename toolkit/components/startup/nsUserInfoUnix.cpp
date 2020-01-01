@@ -582,9 +582,6 @@ endif
 *
 aUsername
 =
-nsCRT
-:
-:
 strdup
 (
 pw
@@ -694,9 +691,6 @@ domainname
 *
 aDomain
 =
-nsCRT
-:
-:
 strdup
 (
 domainname
@@ -793,9 +787,6 @@ pos
 *
 aDomain
 =
-nsCRT
-:
-:
 strdup
 (
 pos

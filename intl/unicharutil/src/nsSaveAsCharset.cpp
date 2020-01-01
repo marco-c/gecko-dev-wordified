@@ -720,9 +720,6 @@ NS_ERROR_FAILURE
 *
 aCharset
 =
-nsCRT
-:
-:
 strdup
 (
 charset

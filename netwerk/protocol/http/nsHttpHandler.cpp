@@ -9700,9 +9700,6 @@ available
 ;
 o_Accept
 =
-nsCRT
-:
-:
 strdup
 (
 i_AcceptLanguages
@@ -9785,9 +9782,6 @@ if
 q_Accept
 )
 {
-nsCRT
-:
-:
 free
 (
 o_Accept
@@ -10166,9 +10160,6 @@ enough
 ;
 }
 }
-nsCRT
-:
-:
 free
 (
 o_Accept

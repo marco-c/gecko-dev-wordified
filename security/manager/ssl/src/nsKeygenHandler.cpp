@@ -3833,9 +3833,6 @@ keystring
 aOutPublicKey
 )
 ;
-nsCRT
-:
-:
 free
 (
 keystring

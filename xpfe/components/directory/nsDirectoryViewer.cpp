@@ -4236,9 +4236,6 @@ Adopt
 (
 temp
 ?
-nsCRT
-:
-:
 strdup
 (
 temp
@@ -4667,9 +4664,6 @@ if
 *
 uri
 =
-nsCRT
-:
-:
 strdup
 (
 "
