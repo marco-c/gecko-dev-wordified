@@ -1196,8 +1196,6 @@ MAX_PATH
 HRESULT
 result
 =
-:
-:
 SHGetSpecialFolderPathW
 (
 NULL
