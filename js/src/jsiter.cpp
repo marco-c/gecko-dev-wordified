@@ -5235,9 +5235,11 @@ objects
 *
 *
 /
-static
 JSBool
-Iterator
+js
+:
+:
+IteratorConstructor
 (
 JSContext
 *
@@ -11594,7 +11596,7 @@ global
 createConstructor
 (
 cx
-Iterator
+IteratorConstructor
 CLASS_NAME
 (
 cx
