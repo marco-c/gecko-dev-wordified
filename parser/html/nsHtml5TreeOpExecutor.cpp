@@ -1320,7 +1320,7 @@ nsContentSink
 :
 StartLayout
 (
-PR_FALSE
+PR_TRUE
 )
 ;
 }
