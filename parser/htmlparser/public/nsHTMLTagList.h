@@ -121,6 +121,7 @@ of
 all
 HTML
 tags
+.
 See
 nsHTMLTags
 .
@@ -133,6 +134,7 @@ enum
 values
 for
 tags
+.
 It
 is
 designed
@@ -177,6 +179,7 @@ things
 done
 to
 it
+.
 It
 is
 recommended
@@ -193,6 +196,7 @@ entries
 in
 alphabetical
 order
+.
 The
 first
 argument
