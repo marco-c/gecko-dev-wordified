@@ -1448,7 +1448,7 @@ ifdef
 MOZ_SERVICES_SYNC
 [
 "
-WeaveGlue
+Sync
 "
 "
 chrome

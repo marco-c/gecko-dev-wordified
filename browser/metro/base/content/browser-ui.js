@@ -1169,7 +1169,7 @@ init
 #
 ifdef
 MOZ_SERVICES_SYNC
-WeaveGlue
+Sync
 .
 init
 (
@@ -6666,7 +6666,7 @@ Weave
 CLIENT_NOT_CONFIGURED
 )
 {
-WeaveGlue
+Sync
 .
 open
 (
@@ -9312,7 +9312,7 @@ onShow
 false
 )
 ;
-WeaveGlue
+Sync
 .
 init
 (

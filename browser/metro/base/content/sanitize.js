@@ -529,7 +529,7 @@ function
 (
 )
 {
-WeaveGlue
+Sync
 .
 disconnect
 (
