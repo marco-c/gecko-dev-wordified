@@ -795,10 +795,8 @@ we
 release
 the
 object
-NS_DELETEXPCOM
-(
+delete
 this
-)
 ;
 return
 0

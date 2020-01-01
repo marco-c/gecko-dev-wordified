@@ -835,10 +835,8 @@ stabilize
 *
 /
 \
-NS_DELETEXPCOM
-(
+delete
 this
-)
 ;
 \
 return
