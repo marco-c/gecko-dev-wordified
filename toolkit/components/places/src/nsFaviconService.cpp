@@ -5335,6 +5335,7 @@ mozIStorageStatement
 >
 (
 mSyncStatements
+this
 )
 ;
 nsCOMPtr
