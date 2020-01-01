@@ -477,6 +477,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
