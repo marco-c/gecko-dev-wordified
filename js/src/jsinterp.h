@@ -963,10 +963,6 @@ typedef
 struct
 JSInterpreterState
 {
-JSRuntime
-*
-rt
-;
 JSStackFrame
 *
 fp
