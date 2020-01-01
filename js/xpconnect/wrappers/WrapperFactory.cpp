@@ -2586,14 +2586,12 @@ holder
 )
 )
 ;
-if
-(
-NS_SUCCEEDED
+NS_ENSURE_SUCCESS
 (
 rv
+nullptr
 )
-)
-{
+;
 obj
 =
 JSVAL_TO_OBJECT
@@ -2780,7 +2778,6 @@ SetSet
 unionSet
 )
 ;
-}
 return
 DoubleWrap
 (
