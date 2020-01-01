@@ -2572,11 +2572,13 @@ mTextureHandle
 GLenum
 mGLFormat
 ;
+nsRefPtr
+<
 gl
 :
 :
 GLContext
-*
+>
 mGL
 ;
 }
