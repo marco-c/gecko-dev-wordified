@@ -1086,8 +1086,6 @@ fprintf
 (
 out
 "
-%
-s
 region
 =
 {
