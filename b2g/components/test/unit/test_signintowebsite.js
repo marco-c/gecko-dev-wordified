@@ -1125,13 +1125,9 @@ com
 forceAuthentication
 :
 true
-issuer
+forceIssuer
 :
 "
-https
-:
-/
-/
 foo
 .
 com
