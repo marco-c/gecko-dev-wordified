@@ -793,7 +793,10 @@ error
 ;
 if
 (
+NS_FAILED
+(
 error
+)
 )
 return
 ;

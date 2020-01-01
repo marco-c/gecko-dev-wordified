@@ -2150,10 +2150,10 @@ err
 ;
 if
 (
+NS_FAILED
+(
 err
-!
-=
-0
+)
 )
 {
 mask
