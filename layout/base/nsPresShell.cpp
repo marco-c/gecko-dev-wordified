@@ -40057,11 +40057,11 @@ targetPtr
 )
 ;
 }
+nsRefPtr
+<
 PresShell
-*
+>
 contentPresShell
-=
-nullptr
 ;
 if
 (
