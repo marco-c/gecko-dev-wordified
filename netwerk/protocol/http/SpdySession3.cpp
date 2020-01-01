@@ -11854,9 +11854,6 @@ aReason
 )
 GenerateGoAway
 (
-goawayReason
-:
-:
 OK
 )
 ;
