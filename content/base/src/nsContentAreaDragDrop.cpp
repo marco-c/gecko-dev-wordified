@@ -2707,17 +2707,6 @@ GetType
 )
 !
 =
-NS_FORM_LEGEND
-&
-&
-form
--
->
-GetType
-(
-)
-!
-=
 NS_FORM_LABEL
 &
 &

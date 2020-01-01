@@ -15260,12 +15260,6 @@ NS_FORM_LABEL
 type
 !
 =
-NS_FORM_LEGEND
-&
-&
-type
-!
-=
 NS_FORM_FIELDSET
 &
 &
@@ -15471,12 +15465,6 @@ type
 !
 =
 NS_FORM_OBJECT
-&
-&
-type
-!
-=
-NS_FORM_LEGEND
 ;
 }
 PRInt32
