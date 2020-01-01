@@ -1809,10 +1809,11 @@ IsInitialized
 )
 {
 return
-PL_DHashTableShallowSizeOfExcludingThis
+PL_DHashTableSizeOfExcludingThis
 (
 &
 mTable
+nsnull
 mallocSizeOf
 )
 ;
