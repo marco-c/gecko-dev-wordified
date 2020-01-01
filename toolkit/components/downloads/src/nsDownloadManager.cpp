@@ -9189,7 +9189,6 @@ file
 >
 GetPath
 (
-&
 path
 )
 ;
