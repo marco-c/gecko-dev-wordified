@@ -356,11 +356,6 @@ typedefs
 /
 typedef
 struct
-JSArgumentFormatMap
-JSArgumentFormatMap
-;
-typedef
-struct
 JSGCThing
 JSGCThing
 ;
