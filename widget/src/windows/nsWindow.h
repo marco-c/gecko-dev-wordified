@@ -2666,13 +2666,6 @@ endif
 /
 /
 ACCESSIBILITY
-void
-UpdateWindowInternal
-(
-HWND
-aWnd
-)
-;
 protected
 :
 nsIntSize
