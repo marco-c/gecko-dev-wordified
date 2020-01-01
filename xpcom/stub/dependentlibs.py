@@ -89,6 +89,8 @@ os
 import
 re
 import
+fnmatch
+import
 subprocess
 import
 sys
@@ -885,6 +887,20 @@ ext
 .
 so
 '
+or
+fnmatch
+.
+fnmatch
+(
+lib
+'
+*
+.
+so
+.
+*
+'
+)
 :
         
 func
