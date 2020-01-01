@@ -4399,7 +4399,7 @@ v
 void
 asm_regarg
 (
-ArgType
+ArgSize
 LIns
 *
 Register
@@ -4409,7 +4409,7 @@ Register
 void
 asm_stkarg
 (
-ArgType
+ArgSize
 LIns
 *
 int
