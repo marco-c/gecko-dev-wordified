@@ -610,7 +610,7 @@ doCommand
 ;
 }
 function
-test_locbar_emptyText
+test_locbar_placeholder
 (
 win
 )
@@ -693,7 +693,7 @@ is
 (
 gURLBar
 .
-emptyText
+placeholder
 gURLBar
 .
 getAttribute
@@ -706,14 +706,13 @@ level
 ]
 +
 "
-emptytext
+placeholder
 "
 )
 "
 location
 bar
-empty
-text
+placeholder
 for
 for
 level

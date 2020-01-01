@@ -6943,7 +6943,7 @@ this
 .
 searchFilter
 .
-emptyText
+placeholder
 =
 PlacesUIUtils
 .
@@ -6962,7 +6962,7 @@ this
 .
 searchFilter
 .
-emptyText
+placeholder
 =
 this
 .
