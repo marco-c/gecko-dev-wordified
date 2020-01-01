@@ -652,8 +652,8 @@ sizeof
 (
 mapped_type
 )
-/
-2
+-
+1
 )
 /
 sizeof
@@ -662,11 +662,6 @@ mapped_type
 )
 +
 n_values
-*
-sizeof
-(
-mapped_type
-)
 )
 ;
 if
