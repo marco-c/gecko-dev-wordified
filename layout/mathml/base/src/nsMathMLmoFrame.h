@@ -724,8 +724,6 @@ virtual
 void
 ProcessTextData
 (
-PRBool
-aComputeStyleChange
 )
 ;
 /

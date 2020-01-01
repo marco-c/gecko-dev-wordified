@@ -1076,8 +1076,6 @@ nsMathMLmoFrame
 :
 ProcessTextData
 (
-PRBool
-aComputeStyleChange
 )
 {
 mFlags
@@ -7201,7 +7199,6 @@ core
 )
 ProcessTextData
 (
-PR_FALSE
 )
 ;
 nsIFrame
