@@ -2612,10 +2612,6 @@ nanojit
 :
 SideExit
 {
-JSObject
-*
-block
-;
 jsbytecode
 *
 pc
