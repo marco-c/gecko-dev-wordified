@@ -20476,15 +20476,6 @@ link
 .
 href
 )
-&
-&
-!
-PrivateBrowsingUtils
-.
-isWindowPrivate
-(
-window
-)
 )
 {
 var
