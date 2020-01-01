@@ -956,7 +956,7 @@ Accumulate
 Telemetry
 :
 :
-SPDY_TOTAL_STREAMS
+SPDY_REQUEST_PER_CONN
 (
 mNextStreamID
 -
@@ -11573,6 +11573,18 @@ setup
 ;
 return
 NULL
+;
+}
+PRUint32
+SpdySession
+:
+:
+Http1xTransactionCount
+(
+)
+{
+return
+0
 ;
 }
 /
