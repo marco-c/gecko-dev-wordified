@@ -1461,7 +1461,7 @@ screw
 up
 /
 /
-indicies
+indices
 between
 the
 two
@@ -2195,7 +2195,7 @@ null
 .
 If
 the
-seach
+search
 arg
 is
 an
@@ -2308,7 +2308,7 @@ null
 .
 If
 the
-seach
+search
 arg
 is
 an
