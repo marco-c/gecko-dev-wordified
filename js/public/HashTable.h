@@ -1999,6 +1999,7 @@ popFront
 void
 rekeyFront
 (
+const
 Key
 &
 k
@@ -2026,9 +2027,8 @@ t
 )
 )
 ;
-JS_ASSERT
+if
 (
-!
 table
 .
 match
@@ -2041,6 +2041,7 @@ cur
 k
 )
 )
+return
 ;
 Entry
 e
@@ -2059,7 +2060,14 @@ setKey
 e
 .
 t
+const_cast
+<
+Key
+&
+>
+(
 k
+)
 )
 ;
 table
