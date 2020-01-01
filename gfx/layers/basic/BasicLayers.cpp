@@ -2952,11 +2952,10 @@ IsRetained
 canUseOpaqueSurface
 &
 &
-!
 (
 mContentFlags
 &
-CONTENT_NO_TEXT_OVER_TRANSPARENT
+CONTENT_COMPONENT_ALPHA
 )
 &
 &
