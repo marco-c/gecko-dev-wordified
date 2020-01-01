@@ -6700,16 +6700,6 @@ protocol
 EqualsIgnoreCase
 (
 "
-ftp
-"
-)
-|
-|
-protocol
-.
-EqualsIgnoreCase
-(
-"
 file
 "
 )

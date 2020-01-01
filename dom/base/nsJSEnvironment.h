@@ -645,6 +645,9 @@ aLineNo
 PRUint32
 aVersion
 nsScriptObjectHolder
+<
+JSScript
+>
 &
 aScriptObject
 )
@@ -694,6 +697,9 @@ aLineNo
 PRUint32
 aVersion
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )
@@ -734,6 +740,9 @@ JSObject
 *
 aHandler
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aBoundHandler
 )
@@ -774,14 +783,6 @@ JSObject
 *
 *
 aFunctionObject
-)
-;
-virtual
-void
-SetDefaultLanguageVersion
-(
-PRUint32
-aVersion
 )
 ;
 virtual
@@ -1015,6 +1016,9 @@ nsIObjectInputStream
 *
 aStream
 nsScriptObjectHolder
+<
+JSScript
+>
 &
 aResult
 )

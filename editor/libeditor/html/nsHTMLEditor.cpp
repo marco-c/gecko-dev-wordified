@@ -5604,7 +5604,7 @@ GetBlockNodeParent
 )
 ;
 return
-false
+nsnull
 ;
 }
 nsCOMPtr
@@ -34509,7 +34509,7 @@ GetActiveEditingHost
 NS_ENSURE_TRUE
 (
 mDocWeak
-false
+nsnull
 )
 ;
 nsCOMPtr

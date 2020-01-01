@@ -1823,6 +1823,7 @@ if
 nativeKeyEvent
 |
 |
+(
 nativeKeyEvent
 -
 >
@@ -1840,9 +1841,12 @@ message
 =
 NS_KEY_PRESS
 )
+)
+{
 return
 false
 ;
+}
 for
 (
 PRUint32

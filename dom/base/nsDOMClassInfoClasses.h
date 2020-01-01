@@ -2007,6 +2007,10 @@ WebGLUniformLocation
 )
 DOMCI_CLASS
 (
+WebGLShaderPrecisionFormat
+)
+DOMCI_CLASS
+(
 WebGLActiveInfo
 )
 DOMCI_CLASS
@@ -2074,7 +2078,7 @@ DesktopNotificationCenter
 WebSocket
 DOMCI_CLASS
 (
-MozWebSocket
+WebSocket
 )
 DOMCI_CLASS
 (

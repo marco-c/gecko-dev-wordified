@@ -4380,6 +4380,8 @@ PLDHashEntryHdr
 aHdr
 nsMallocSizeOfFun
 aMallocSizeOf
+void
+*
 )
 {
 RuleHashTableEntry
@@ -4401,8 +4403,9 @@ entry
 >
 mRules
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 }
@@ -4503,8 +4506,9 @@ n
 =
 mUniversalRules
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 return
@@ -5318,6 +5322,8 @@ PLDHashEntryHdr
 aHdr
 nsMallocSizeOfFun
 aMallocSizeOf
+void
+*
 )
 {
 AtomSelectorEntry
@@ -5339,8 +5345,9 @@ entry
 >
 mSelectors
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 }
@@ -5423,8 +5430,9 @@ n
 =
 mStateSelectors
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 n
@@ -5454,8 +5462,9 @@ n
 =
 mPossiblyNegatedClassSelectors
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 n
@@ -5463,8 +5472,9 @@ n
 =
 mPossiblyNegatedIDSelectors
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 n
@@ -5510,8 +5520,9 @@ n
 =
 mFontFaceRules
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 n
@@ -5519,8 +5530,9 @@ n
 =
 mKeyframesRules
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 return
@@ -15523,8 +15535,9 @@ n
 =
 mSheets
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 for

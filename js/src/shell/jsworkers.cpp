@@ -5665,7 +5665,7 @@ JSScript
 *
 script
 =
-JS_CompileFile
+JS_CompileUTF8File
 (
 cx
 child

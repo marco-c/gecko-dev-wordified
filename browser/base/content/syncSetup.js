@@ -4491,6 +4491,11 @@ engine
 .
 prefs
 "
+"
+engine
+.
+addons
+"
 ]
 ;
 for

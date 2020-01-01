@@ -663,6 +663,11 @@ createDevice
 (
 )
 ;
+void
+initializeDevice
+(
+)
+;
 bool
 resetDevice
 (

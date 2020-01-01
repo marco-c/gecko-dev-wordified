@@ -438,6 +438,15 @@ __CrossOriginWrapper_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -493,6 +502,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -505,6 +515,7 @@ JSObject
 *
 wrapper
 )
+MOZ_OVERRIDE
 ;
 static
 NoWaiverWrapper
@@ -553,6 +564,7 @@ PropertyDescriptor
 *
 desc
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -575,6 +587,7 @@ PropertyDescriptor
 *
 desc
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -598,6 +611,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -618,6 +632,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -644,6 +659,7 @@ Value
 *
 rval
 )
+MOZ_OVERRIDE
 ;
 static
 CrossOriginWrapper

@@ -807,7 +807,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -2404,12 +2404,12 @@ mOwnerContent
 {
 nsRefPtr
 <
-nsPLDOMEvent
+nsAsyncDOMEvent
 >
 event
 =
 new
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 (
 mOwnerContent
 NS_LITERAL_STRING

@@ -669,7 +669,7 @@ rv
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 static
 nsresult

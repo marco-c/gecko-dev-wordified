@@ -1693,8 +1693,8 @@ extern
 JS_EXPORT_API
 (
 char
-)
 *
+)
 readline
 (
 const
@@ -3216,7 +3216,7 @@ JSScript
 *
 script
 =
-JS_CompileFileHandleForPrincipals
+JS_CompileUTF8FileHandleForPrincipals
 (
 cx
 obj
@@ -6357,7 +6357,7 @@ cx
 ;
 script
 =
-JS_CompileFileHandleForPrincipals
+JS_CompileUTF8FileHandleForPrincipals
 (
 cx
 obj

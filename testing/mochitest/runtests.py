@@ -3981,6 +3981,8 @@ _scriptdir
 -
 l
 '
+\
+           
 os
 .
 path
@@ -3996,6 +3998,8 @@ websock
 log
 "
 )
+\
+           
 '
 -
 -
@@ -4004,6 +4008,19 @@ log
 level
 =
 debug
+'
+'
+-
+-
+allow
+-
+handlers
+-
+outside
+-
+root
+-
+dir
 '
 ]
     

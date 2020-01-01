@@ -1273,6 +1273,9 @@ nsIAtom
 *
 aName
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )

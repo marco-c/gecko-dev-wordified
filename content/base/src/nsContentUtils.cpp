@@ -11563,7 +11563,7 @@ rv
 aNamespaceResolver
 -
 >
-LookupNamespaceURI
+LookupNamespaceURIInternal
 (
 Substring
 (

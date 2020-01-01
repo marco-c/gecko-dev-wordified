@@ -2354,6 +2354,7 @@ if
 info
 |
 |
+(
 info
 -
 >
@@ -2370,6 +2371,7 @@ mLower
 =
 =
 info
+)
 )
 info
 =
@@ -2938,6 +2940,7 @@ belowInfo
 ;
 if
 (
+(
 inPosition
 !
 =
@@ -2963,6 +2966,7 @@ nsIWindowMediator
 :
 :
 zLevelBelow
+)
 |
 |
 !

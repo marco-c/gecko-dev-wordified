@@ -4219,6 +4219,16 @@ nsPoint
 aPt
 )
 {
+if
+(
+GetStateBits
+(
+)
+&
+NS_STATE_SVG_NONDISPLAY_CHILD
+)
+return
+;
 /
 /
 initialize

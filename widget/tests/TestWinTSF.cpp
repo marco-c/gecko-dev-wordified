@@ -804,7 +804,7 @@ h
 #
 include
 "
-nsIDOMNSElement
+nsIDOMElement
 .
 h
 "
@@ -16910,20 +16910,19 @@ false
 }
 nsCOMPtr
 <
-nsIDOMNSElement
+nsIDOMElement
 >
-textAreaNS
-(
+textArea
+=
 do_QueryInterface
 (
 mTextArea
-)
 )
 ;
 if
 (
 !
-textAreaNS
+textArea
 )
 {
 fail
@@ -16932,7 +16931,7 @@ fail
 TestScrollMessages
 :
 get
-nsIDOMNSElement
+nsIDOMElement
 "
 )
 ;
@@ -17042,7 +17041,7 @@ GetNativeData
 NS_NATIVE_WINDOW
 )
 ;
-textAreaNS
+textArea
 -
 >
 SetScrollTop
@@ -17050,7 +17049,7 @@ SetScrollTop
 0
 )
 ;
-textAreaNS
+textArea
 -
 >
 SetScrollLeft
@@ -17112,7 +17111,7 @@ y
 prevX
 prevY
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17121,7 +17120,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -17218,7 +17217,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17227,7 +17226,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -17336,7 +17335,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17345,7 +17344,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -17442,7 +17441,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17451,7 +17450,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -17548,7 +17547,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17557,7 +17556,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -17654,7 +17653,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17663,7 +17662,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -17764,7 +17763,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17773,7 +17772,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -17870,7 +17869,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17879,7 +17878,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -17976,7 +17975,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -17985,7 +17984,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -18082,7 +18081,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -18091,7 +18090,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -18188,7 +18187,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -18197,7 +18196,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -18266,7 +18265,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -18275,7 +18274,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -18368,7 +18367,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -18377,7 +18376,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -18474,7 +18473,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -18483,7 +18482,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft
@@ -18580,7 +18579,7 @@ prevY
 =
 y
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollTop
@@ -18589,7 +18588,7 @@ GetScrollTop
 y
 )
 ;
-textAreaNS
+textArea
 -
 >
 GetScrollLeft

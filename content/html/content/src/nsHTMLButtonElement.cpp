@@ -2194,6 +2194,7 @@ message
 )
 |
 |
+(
 keyEvent
 -
 >
@@ -2212,6 +2213,7 @@ mEvent
 -
 >
 message
+)
 )
 {
 nsEventStatus

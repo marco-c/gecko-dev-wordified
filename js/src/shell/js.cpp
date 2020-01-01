@@ -1368,11 +1368,12 @@ errorNumber
 ifdef
 EDITLINE
 JS_BEGIN_EXTERN_C
-JS_EXTERN_API
+extern
+JS_EXPORT_API
 (
 char
-)
 *
+)
 readline
 (
 const
@@ -1381,7 +1382,8 @@ char
 prompt
 )
 ;
-JS_EXTERN_API
+extern
+JS_EXPORT_API
 (
 void
 )
@@ -2719,7 +2721,7 @@ JSOPTION_NO_SCRIPT_RVAL
 ;
 script
 =
-JS_CompileFileHandle
+JS_CompileUTF8FileHandle
 (
 cx
 obj
@@ -4515,7 +4517,7 @@ JSScript
 *
 script
 =
-JS_CompileFile
+JS_CompileUTF8File
 (
 cx
 thisobj
@@ -12734,7 +12736,7 @@ JSScript
 *
 script
 =
-JS_CompileFile
+JS_CompileUTF8File
 (
 cx
 thisobj

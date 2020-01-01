@@ -1307,7 +1307,7 @@ if
 fun
 )
 return
-false
+nsnull
 ;
 JSObject
 *
@@ -1369,7 +1369,7 @@ if
 ptrobj
 )
 return
-false
+nsnull
 ;
 Op
 *
@@ -1384,7 +1384,7 @@ if
 popp
 )
 return
-false
+nsnull
 ;
 *
 popp

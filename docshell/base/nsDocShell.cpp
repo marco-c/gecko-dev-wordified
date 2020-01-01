@@ -26263,9 +26263,11 @@ nsIObserverService
 >
 serv
 =
-do_GetService
+services
+:
+:
+GetObserverService
 (
-NS_OBSERVERSERVICE_CONTRACTID
 )
 ;
 if
@@ -26346,9 +26348,11 @@ nsIObserverService
 >
 serv
 =
-do_GetService
+services
+:
+:
+GetObserverService
 (
-NS_OBSERVERSERVICE_CONTRACTID
 )
 ;
 if

@@ -2048,6 +2048,9 @@ return
 NS_OK
 ;
 nsScriptObjectHolder
+<
+JSObject
+>
 handler
 (
 boundContext
@@ -2110,6 +2113,9 @@ GetGlobalJSObject
 )
 ;
 nsScriptObjectHolder
+<
+JSObject
+>
 boundHandler
 (
 boundContext
@@ -2126,7 +2132,7 @@ scriptTarget
 scope
 handler
 .
-getObject
+get
 (
 )
 boundHandler
@@ -2159,7 +2165,7 @@ scriptTarget
 onEventAtom
 boundHandler
 .
-getObject
+get
 (
 )
 getter_AddRefs
@@ -2215,6 +2221,9 @@ nsIAtom
 *
 aName
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )
@@ -2266,7 +2275,7 @@ cachedHandler
 {
 aHandler
 .
-setObject
+set
 (
 cachedHandler
 )

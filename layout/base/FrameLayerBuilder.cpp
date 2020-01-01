@@ -9685,6 +9685,7 @@ layerState
 LAYER_ACTIVE_EMPTY
 |
 |
+(
 layerState
 =
 =
@@ -9735,6 +9736,7 @@ item
 >
 GetVisibleRect
 (
+)
 )
 )
 )

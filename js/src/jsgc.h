@@ -762,7 +762,7 @@ OS
 const
 static
 uint32_t
-MaxFreeCommittedArenas
+FreeCommittedArenasThreshold
 =
 (
 32
@@ -5031,6 +5031,19 @@ JSRuntime
 rt
 )
 ;
+/
+*
+Must
+be
+called
+with
+the
+GC
+lock
+taken
+.
+*
+/
 static
 inline
 void
@@ -5050,9 +5063,6 @@ inline
 void
 init
 (
-JSRuntime
-*
-rt
 )
 ;
 /
@@ -5260,7 +5270,7 @@ JS_FRIEND_API
 (
 int64_t
 )
-countDecommittedArenas
+countCleanDecommittedArenas
 (
 JSRuntime
 *

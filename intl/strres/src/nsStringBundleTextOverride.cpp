@@ -1784,7 +1784,7 @@ hasMore
 )
 mCurrent
 =
-false
+nsnull
 ;
 *
 aResult

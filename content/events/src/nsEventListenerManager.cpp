@@ -3557,6 +3557,9 @@ mTarget
 )
 ;
 nsScriptObjectHolder
+<
+JSObject
+>
 handler
 (
 context
@@ -4399,6 +4402,9 @@ handler
 Bind
 it
 nsScriptObjectHolder
+<
+JSObject
+>
 boundHandler
 (
 context
@@ -4418,7 +4424,7 @@ GetEventScope
 )
 handler
 .
-getObject
+get
 (
 )
 boundHandler
@@ -4431,7 +4437,7 @@ SetHandler
 (
 boundHandler
 .
-getObject
+get
 (
 )
 )

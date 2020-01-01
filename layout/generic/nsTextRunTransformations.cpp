@@ -776,8 +776,9 @@ total
 =
 mStyles
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 total
@@ -785,8 +786,9 @@ total
 =
 mCapitalize
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 if
