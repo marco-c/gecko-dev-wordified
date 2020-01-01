@@ -166,6 +166,9 @@ GonkRecorderVideoProfile
 (
 )
 ;
+android
+:
+:
 video_encoder
 GetPlatformCodec
 (
@@ -177,6 +180,9 @@ mPlatformCodec
 ;
 }
 protected
+:
+android
+:
 :
 video_encoder
 mPlatformCodec
@@ -216,6 +222,9 @@ GonkRecorderAudioProfile
 (
 )
 ;
+android
+:
+:
 audio_encoder
 GetPlatformCodec
 (
@@ -227,6 +236,9 @@ mPlatformCodec
 ;
 }
 protected
+:
+android
+:
 :
 audio_encoder
 mPlatformCodec
@@ -287,6 +299,9 @@ return
 mVideo
 ;
 }
+android
+:
+:
 output_format
 GetOutputFormat
 (
@@ -300,6 +315,9 @@ mPlatformOutputFormat
 nsresult
 ConfigureRecorder
 (
+android
+:
+:
 GonkRecorder
 *
 aRecorder
@@ -313,6 +331,9 @@ GonkRecorderProfile
 (
 )
 ;
+android
+:
+:
 output_format
 mPlatformOutputFormat
 ;
@@ -396,6 +417,9 @@ SetSupportedResolutions
 const
 nsTArray
 <
+dom
+:
+:
 CameraSize
 >
 &
@@ -493,6 +517,9 @@ GonkRecorderProfileManager
 ;
 nsTArray
 <
+dom
+:
+:
 CameraSize
 >
 mSupportedSizes
