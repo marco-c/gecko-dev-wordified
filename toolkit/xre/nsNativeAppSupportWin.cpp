@@ -3637,8 +3637,14 @@ mClassName
 _snwprintf
 (
 classNameBuffer
-sizeof
+128
+/
+/
+size
+of
 classNameBuffer
+in
+PRUnichars
 L
 "
 %
@@ -4568,6 +4574,11 @@ _snwprintf
 mMutexName
 sizeof
 mMutexName
+/
+sizeof
+(
+PRUnichar
+)
 L
 "
 %
