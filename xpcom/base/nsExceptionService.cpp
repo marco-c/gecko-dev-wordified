@@ -788,7 +788,7 @@ code
 #
 ifdef
 NS_DEBUG
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 totalInstances
@@ -814,7 +814,7 @@ code
 #
 ifdef
 NS_DEBUG
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 totalInstances
@@ -1042,7 +1042,7 @@ ifdef
 NS_DEBUG
 if
 (
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 totalInstances
@@ -1202,7 +1202,7 @@ code
 #
 ifdef
 NS_DEBUG
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 totalInstances

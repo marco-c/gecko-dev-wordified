@@ -588,7 +588,7 @@ IncrementInputStreamCount
 (
 )
 {
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 mInStreamCount
@@ -600,7 +600,7 @@ DecrementInputStreamCount
 (
 )
 {
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 mInStreamCount
