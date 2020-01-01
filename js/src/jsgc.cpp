@@ -10108,7 +10108,7 @@ trc
 void
 *
 thing
-uint32
+JSGCTraceKind
 kind
 )
 {

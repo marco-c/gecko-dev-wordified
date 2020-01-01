@@ -7807,7 +7807,7 @@ void
 *
 thing
 ;
-int32
+JSGCTraceKind
 kind
 ;
 JSCountHeapNode
@@ -7850,7 +7850,7 @@ trc
 void
 *
 thing
-uint32
+JSGCTraceKind
 kind
 )
 {
@@ -8061,7 +8061,7 @@ void
 *
 startThing
 ;
-int32
+JSGCTraceKind
 startTraceKind
 ;
 jsval
@@ -8141,7 +8141,7 @@ NULL
 ;
 startTraceKind
 =
-0
+JSTRACE_OBJECT
 ;
 if
 (
@@ -13728,7 +13728,7 @@ void
 *
 startThing
 ;
-uint32
+JSGCTraceKind
 startTraceKind
 ;
 const
@@ -13855,7 +13855,7 @@ NULL
 ;
 startTraceKind
 =
-0
+JSTRACE_OBJECT
 ;
 if
 (
