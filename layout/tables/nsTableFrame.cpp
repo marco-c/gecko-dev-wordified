@@ -33077,29 +33077,6 @@ dStartY
 }
 #
 define
-MAX_TABLE_BORDER_WIDTH
-255
-static
-PRUint8
-LimitBorderWidth
-(
-PRUint16
-aWidth
-)
-{
-return
-NS_MIN
-(
-PRUint16
-(
-MAX_TABLE_BORDER_WIDTH
-)
-aWidth
-)
-;
-}
-#
-define
 ADJACENT
 PR_TRUE
 #
@@ -33867,8 +33844,6 @@ mTableBCData
 >
 mTopBorderWidth
 =
-LimitBorderWidth
-(
 NS_MAX
 (
 mTableBCData
@@ -33876,7 +33851,6 @@ mTableBCData
 >
 mTopBorderWidth
 aWidth
-)
 )
 ;
 }
@@ -33939,8 +33913,6 @@ mTableBCData
 >
 mLeftBorderWidth
 =
-LimitBorderWidth
-(
 NS_MAX
 (
 mTableBCData
@@ -33948,7 +33920,6 @@ mTableBCData
 >
 mLeftBorderWidth
 aWidth
-)
 )
 ;
 }
@@ -34011,8 +33982,6 @@ mTableBCData
 >
 mRightBorderWidth
 =
-LimitBorderWidth
-(
 NS_MAX
 (
 mTableBCData
@@ -34020,7 +33989,6 @@ mTableBCData
 >
 mRightBorderWidth
 aWidth
-)
 )
 ;
 }
@@ -34341,8 +34309,6 @@ mTableBCData
 >
 mBottomBorderWidth
 =
-LimitBorderWidth
-(
 NS_MAX
 (
 mTableBCData
@@ -34350,7 +34316,6 @@ mTableBCData
 >
 mBottomBorderWidth
 aWidth
-)
 )
 ;
 }
