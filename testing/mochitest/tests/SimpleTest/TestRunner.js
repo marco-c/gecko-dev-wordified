@@ -2144,6 +2144,12 @@ red
 "
 ;
 }
+SpecialPowers
+.
+unregisterProcessCrashObservers
+(
+)
+;
 TestRunner
 .
 log
