@@ -683,6 +683,13 @@ R15
 /
 static
 const
+int
+NumSavedRegs
+=
+3
+;
+static
+const
 RegisterMask
 SavedRegs
 =
