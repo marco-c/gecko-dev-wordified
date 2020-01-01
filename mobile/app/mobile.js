@@ -462,8 +462,6 @@ true
 #
 ifdef
 MOZ_IPC
-/
-/
 pref
 (
 "
@@ -476,6 +474,8 @@ remote
 false
 )
 ;
+/
+/
 pref
 (
 "
