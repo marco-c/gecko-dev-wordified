@@ -702,6 +702,11 @@ values
 eStyleAnimType_nscoord
 /
 /
+float
+values
+eStyleAnimType_float
+/
+/
 nscolor
 values
 eStyleAnimType_Color
