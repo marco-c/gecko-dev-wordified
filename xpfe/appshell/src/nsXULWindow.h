@@ -774,6 +774,11 @@ LoadIconFromXUL
 )
 ;
 NS_IMETHOD
+LoadToolbarButtonPresenceFromXUL
+(
+)
+;
+NS_IMETHOD
 SavePersistentAttributes
 (
 )
