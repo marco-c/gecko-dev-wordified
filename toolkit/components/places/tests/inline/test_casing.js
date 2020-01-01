@@ -497,6 +497,10 @@ org
 completed
 :
 "
+http
+:
+/
+/
 www
 .
 mozilla
