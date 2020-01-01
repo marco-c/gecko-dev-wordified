@@ -3904,6 +3904,15 @@ getBitmap
 (
 )
 ;
+if
+(
+bitmap
+=
+=
+null
+)
+return
+;
 ByteArrayOutputStream
 stream
 =
