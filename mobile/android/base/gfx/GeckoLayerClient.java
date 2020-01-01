@@ -872,6 +872,13 @@ mView
 =
 view
 ;
+mView
+.
+setListener
+(
+this
+)
+;
 }
 /
 *
@@ -924,13 +931,6 @@ mView
 .
 getRenderer
 (
-)
-;
-mView
-.
-setListener
-(
-this
 )
 ;
 sendResizeEventIfNecessary
