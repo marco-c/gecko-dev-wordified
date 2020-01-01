@@ -4892,6 +4892,9 @@ false
 return
 ;
 }
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 Services
 .
 obs
@@ -4907,6 +4910,8 @@ browsing
 false
 )
 ;
+#
+endif
 Services
 .
 obs
@@ -6372,6 +6377,9 @@ change
 "
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 Services
 .
 obs
@@ -6386,6 +6394,8 @@ browsing
 "
 )
 ;
+#
+endif
 Services
 .
 obs
@@ -6757,6 +6767,9 @@ gatherMemory
 }
 break
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 case
 "
 private
@@ -6801,6 +6814,8 @@ attachObservers
 }
 break
 ;
+#
+endif
 case
 "
 xul
