@@ -3976,7 +3976,7 @@ return
 false
 ;
 RawObject
-obj
+resultObj
 =
 ToObject
 (
@@ -3987,7 +3987,7 @@ vp
 if
 (
 !
-obj
+resultObj
 )
 return
 false
@@ -3997,7 +3997,7 @@ vp
 setObject
 (
 *
-obj
+resultObj
 )
 ;
 return
