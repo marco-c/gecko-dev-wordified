@@ -634,6 +634,12 @@ eventModel
 bool
 closeStream
 ;
+std
+:
+:
+string
+lastKeyText
+;
 }
 InstanceData
 ;
