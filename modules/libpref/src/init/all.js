@@ -49746,7 +49746,7 @@ touch_activation
 .
 delay_ms
 "
-50
+100
 )
 ;
 /
