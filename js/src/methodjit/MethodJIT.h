@@ -2167,6 +2167,11 @@ check
 address
 *
 /
+~
+JITScript
+(
+)
+;
 bool
 isValidCode
 (
@@ -2229,11 +2234,6 @@ purgeMICs
 ;
 void
 purgePICs
-(
-)
-;
-void
-release
 (
 )
 ;
