@@ -509,7 +509,7 @@ h
 #
 include
 "
-IndexedDatabaseRequest
+IDBFactory
 .
 h
 "
@@ -1433,7 +1433,7 @@ mozIStorageConnection
 >
 connection
 =
-IndexedDatabaseRequest
+IDBFactory
 :
 :
 GetConnection

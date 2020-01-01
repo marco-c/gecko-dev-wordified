@@ -875,7 +875,7 @@ h
 #
 include
 "
-nsIIndexedDatabaseRequest
+nsIIDBFactory
 .
 h
 "
@@ -5014,7 +5014,7 @@ mSuspendedDoc
 ;
 nsCOMPtr
 <
-nsIIndexedDatabaseRequest
+nsIIDBFactory
 >
 mIndexedDB
 ;

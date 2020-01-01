@@ -2014,7 +2014,7 @@ CloseEvent
 )
 DOMCI_CLASS
 (
-IndexedDatabaseRequest
+IDBFactory
 )
 DOMCI_CLASS
 (

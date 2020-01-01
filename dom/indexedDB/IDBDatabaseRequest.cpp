@@ -537,7 +537,7 @@ h
 #
 include
 "
-IndexedDatabaseRequest
+IDBFactory
 .
 h
 "
@@ -1516,7 +1516,7 @@ mConnection
 {
 mConnection
 =
-IndexedDatabaseRequest
+IDBFactory
 :
 :
 GetConnection

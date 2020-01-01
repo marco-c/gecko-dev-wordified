@@ -1648,7 +1648,7 @@ dom
 /
 indexedDB
 /
-IndexedDatabaseRequest
+IDBFactory
 .
 h
 "
@@ -41992,7 +41992,7 @@ nsGlobalWindow
 :
 GetMoz_indexedDB
 (
-nsIIndexedDatabaseRequest
+nsIIDBFactory
 *
 *
 _retval
@@ -42015,7 +42015,7 @@ dom
 indexedDB
 :
 :
-IndexedDatabaseRequest
+IDBFactory
 :
 :
 Create
@@ -42031,7 +42031,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIIndexedDatabaseRequest
+nsIIDBFactory
 >
 request
 (
