@@ -13825,7 +13825,7 @@ sp
 1
 ]
 .
-setDouble
+setNumber
 (
 length
 )
