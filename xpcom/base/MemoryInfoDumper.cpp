@@ -1869,6 +1869,8 @@ MinimizeMemoryUsage
 callback
 )
 ;
+return
+;
 }
 DumpMemoryReportsToFileImpl
 (
