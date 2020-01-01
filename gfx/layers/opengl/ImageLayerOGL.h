@@ -1214,6 +1214,13 @@ nsIntPoint
 aOffset
 )
 ;
+virtual
+void
+CleanupResources
+(
+)
+{
+}
 }
 ;
 class
@@ -1582,6 +1589,12 @@ const
 nsIntPoint
 &
 aOffset
+)
+;
+virtual
+void
+CleanupResources
+(
 )
 ;
 private

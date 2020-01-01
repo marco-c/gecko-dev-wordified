@@ -717,6 +717,12 @@ aTransformToSurface
 )
 ;
 }
+virtual
+void
+CleanupResources
+(
+)
+;
 }
 ;
 class
@@ -889,6 +895,12 @@ aTransformToSurface
 )
 ;
 }
+virtual
+void
+CleanupResources
+(
+)
+;
 }
 ;
 }
