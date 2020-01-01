@@ -6407,6 +6407,13 @@ NS_BINDING_ABORTED
 ;
 }
 }
+mImage
+-
+>
+RequestDecode
+(
+)
+;
 /
 /
 WriteToContainer
