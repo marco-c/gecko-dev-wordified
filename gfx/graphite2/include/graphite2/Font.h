@@ -442,7 +442,9 @@ everything
 /
 gr_face_preloadAll
 =
-6
+gr_face_preloadGlyphs
+|
+gr_face_cacheCmap
 }
 ;
 /
