@@ -180,6 +180,7 @@ enum
 IonRegisterAllocator
 {
 RegisterAllocator_LSRA
+RegisterAllocator_Backtracking
 RegisterAllocator_Stupid
 }
 ;

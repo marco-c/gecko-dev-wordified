@@ -18369,6 +18369,15 @@ bool
 force
 )
 {
+gc
+:
+:
+AutoSuppressGC
+suppressGC
+(
+cx
+)
+;
 JSCompartment
 *
 compartment
