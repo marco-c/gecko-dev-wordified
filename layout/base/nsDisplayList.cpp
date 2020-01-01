@@ -3726,6 +3726,16 @@ mBackgroundColor
 =
 =
 255
+&
+&
+!
+nsCSSRendering
+:
+:
+IsCanvasFrame
+(
+mFrame
+)
 )
 return
 PR_TRUE

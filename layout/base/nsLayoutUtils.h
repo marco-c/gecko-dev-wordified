@@ -3512,7 +3512,7 @@ of
 aFrame
 *
 param
-aBackground
+aBackstop
 paint
 the
 dirty
@@ -3556,7 +3556,7 @@ nsRegion
 &
 aDirtyRegion
 nscolor
-aBackground
+aBackstop
 )
 ;
 /
