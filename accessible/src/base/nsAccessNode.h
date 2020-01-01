@@ -146,13 +146,6 @@ nsINode
 .
 h
 "
-#
-include
-"
-a11yGeneric
-.
-h
-"
 class
 nsAccessNode
 ;
