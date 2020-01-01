@@ -7424,6 +7424,7 @@ sparse
 .
 *
 /
+{
 uint32
 length
 =
@@ -7455,6 +7456,7 @@ length
 :
 JSVAL_VOID
 ;
+}
 /
 *
 Make
