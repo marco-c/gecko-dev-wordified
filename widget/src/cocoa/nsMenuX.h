@@ -481,6 +481,13 @@ h
 #
 include
 "
+nsMenuGroupOwnerX
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -711,9 +718,9 @@ Create
 nsMenuObjectX
 *
 aParent
-nsMenuBarX
+nsMenuGroupOwnerX
 *
-aMenuBar
+aMenuGroupOwner
 nsIContent
 *
 aNode
@@ -899,9 +906,9 @@ mParent
 [
 weak
 ]
-nsMenuBarX
+nsMenuGroupOwnerX
 *
-mMenuBar
+mMenuGroupOwner
 ;
 /
 /

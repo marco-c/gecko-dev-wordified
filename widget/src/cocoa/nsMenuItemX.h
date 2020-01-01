@@ -446,6 +446,13 @@ h
 #
 include
 "
+nsMenuGroupOwnerX
+.
+h
+"
+#
+include
+"
 nsChangeObserver
 .
 h
@@ -474,9 +481,6 @@ nsMenuItemIconX
 ;
 class
 nsMenuX
-;
-class
-nsMenuBarX
 ;
 enum
 {
@@ -629,9 +633,9 @@ nsString
 aLabel
 EMenuItemType
 aItemType
-nsMenuBarX
+nsMenuGroupOwnerX
 *
-aMenuBar
+aMenuGroupOwner
 nsIContent
 *
 aNode
@@ -726,9 +730,9 @@ mMenuParent
 [
 weak
 ]
-nsMenuBarX
+nsMenuGroupOwnerX
 *
-mMenuBar
+mMenuGroupOwner
 ;
 /
 /
