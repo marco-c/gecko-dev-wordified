@@ -414,6 +414,9 @@ return
 false
 on
 failure
+#
+ifndef
+NSS_NO_LIBPKIX
 enum
 {
 ev_status_unknown
@@ -454,6 +457,8 @@ bool
 validEV
 )
 ;
+#
+endif
 }
 ;
 class

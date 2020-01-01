@@ -593,6 +593,9 @@ ISSUER_UNKNOWN
 /
 unnamed
 namespace
+#
+ifndef
+NSS_NO_LIBPKIX
 /
 /
 Validates
@@ -1109,6 +1112,8 @@ return
 result
 ;
 }
+#
+endif
 /
 /
 Maps
@@ -1392,6 +1397,9 @@ is
 /
 complete
 .
+#
+ifndef
+NSS_NO_LIBPKIX
 if
 (
 !
@@ -1401,6 +1409,8 @@ nsNSSComponent
 globalConstFlagUsePKIXVerification
 )
 {
+#
+endif
 if
 (
 localOnly
@@ -1685,6 +1695,9 @@ VERIFIED_OK
 return
 NS_OK
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 }
 RefPtr
 <
@@ -2005,4 +2018,6 @@ VERIFIED_OK
 return
 NS_OK
 ;
+#
+endif
 }

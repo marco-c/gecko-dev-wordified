@@ -185,6 +185,9 @@ nsNSSCleaner
 h
 "
 #
+ifndef
+NSS_NO_LIBPKIX
+#
 include
 "
 nsIDocShell
@@ -212,6 +215,8 @@ nsIInterfaceRequestorUtils
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -715,6 +720,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+NSS_NO_LIBPKIX
 static
 void
 getSecureBrowserUI
@@ -860,6 +868,8 @@ result
 }
 }
 }
+#
+endif
 void
 nsNSSSocketInfo
 :
@@ -1780,6 +1790,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+NSS_NO_LIBPKIX
 class
 PreviousCertRunnable
 :
@@ -1902,6 +1915,8 @@ mCallbacks
 in
 }
 ;
+#
+endif
 void
 nsNSSSocketInfo
 :
@@ -1932,6 +1947,9 @@ _result
 =
 nullptr
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 RefPtr
 <
 PreviousCertRunnable
@@ -1982,6 +2000,8 @@ forget
 _result
 )
 ;
+#
+endif
 }
 void
 nsNSSSocketInfo

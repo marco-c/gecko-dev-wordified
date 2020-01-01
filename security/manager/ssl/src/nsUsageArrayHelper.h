@@ -180,6 +180,9 @@ PRUnichar
 outUsages
 )
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 uint32_t
 check
 (
@@ -203,6 +206,8 @@ PRUnichar
 outUsages
 )
 ;
+#
+endif
 void
 verifyFailed
 (
