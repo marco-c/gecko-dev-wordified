@@ -387,7 +387,7 @@ JSObject
 *
 ourProto
 =
-JS_NewObject
+JS_NewObjectWithUniqueType
 (
 cx
 protoClass
