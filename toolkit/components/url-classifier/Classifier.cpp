@@ -3271,6 +3271,12 @@ rv
 rv
 )
 ;
+AddPrefixHashes
+.
+Clear
+(
+)
+;
 uint32
 applied
 =
