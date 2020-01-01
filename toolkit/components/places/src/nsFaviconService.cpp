@@ -688,6 +688,13 @@ Helpers
 .
 h
 "
+#
+include
+"
+AsyncFaviconHelpers
+.
+h
+"
 /
 /
 For
