@@ -2655,7 +2655,9 @@ gfxAndroidPlatform
 :
 FindFontsInDirectory
 (
+const
 nsCString
+&
 aFontsDir
 FontNameCache
 *
