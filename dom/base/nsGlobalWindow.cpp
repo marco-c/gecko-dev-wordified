@@ -18162,7 +18162,7 @@ assume
 1
 :
 1
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18221,7 +18221,7 @@ assume
 1
 :
 1
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18280,7 +18280,7 @@ assume
 1
 :
 1
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18353,7 +18353,7 @@ assume
 1
 :
 1
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18443,7 +18443,7 @@ mDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18730,7 +18730,7 @@ mDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -36062,7 +36062,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -39026,7 +39026,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -52818,7 +52818,7 @@ NS_OK
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

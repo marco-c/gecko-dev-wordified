@@ -1499,7 +1499,7 @@ presShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -21159,7 +21159,7 @@ if
 docshell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

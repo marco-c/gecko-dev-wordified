@@ -694,7 +694,7 @@ nsIDocument
 >
 mDocument
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

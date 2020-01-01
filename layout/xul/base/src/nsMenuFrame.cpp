@@ -1072,7 +1072,7 @@ nsIContent
 >
 mMenu
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

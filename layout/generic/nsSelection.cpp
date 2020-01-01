@@ -25445,7 +25445,7 @@ NS_OK
 nothing
 to
 do
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -25724,7 +25724,7 @@ SetInterlinePosition
 PR_TRUE
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -26136,7 +26136,7 @@ range
 '
 s
 frames
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -26493,7 +26493,7 @@ of
 the
 current
 ranges
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27336,7 +27336,7 @@ nsIRange
 aRange
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27964,7 +27964,7 @@ anywhere
 return
 NS_OK
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -31186,7 +31186,7 @@ frameStart
 frameEnd
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

@@ -2978,7 +2978,7 @@ aShellItem
 .
 *
 /
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

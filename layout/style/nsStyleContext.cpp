@@ -4026,7 +4026,7 @@ our
 rule
 node
 .
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

@@ -2747,7 +2747,7 @@ if
 docShell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -2980,7 +2980,7 @@ PR_TRUE
 /
 Recursion
 prevention
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

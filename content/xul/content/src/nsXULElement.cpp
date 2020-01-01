@@ -12743,7 +12743,7 @@ don
 t
 destroy
 it
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

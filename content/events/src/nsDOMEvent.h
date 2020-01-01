@@ -807,7 +807,7 @@ nsEvent
 *
 mEvent
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

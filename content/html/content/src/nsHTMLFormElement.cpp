@@ -2059,7 +2059,7 @@ rv
 =
 NS_OK
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

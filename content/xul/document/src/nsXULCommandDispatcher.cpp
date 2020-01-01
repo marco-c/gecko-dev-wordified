@@ -2597,7 +2597,7 @@ event
 will
 fire
 .
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

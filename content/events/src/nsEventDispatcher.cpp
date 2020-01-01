@@ -2938,7 +2938,7 @@ dispatching
 is
 finished
 .
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

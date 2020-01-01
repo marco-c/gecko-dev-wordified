@@ -48289,7 +48289,7 @@ the
 new
 frame
 tree
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

@@ -478,6 +478,13 @@ nsAlgorithm
 h
 "
 #
+include
+"
+nsAutoPtr
+.
+h
+"
+#
 undef
 DEBUG_TABLE_CELLMAP
 class
@@ -3411,7 +3418,7 @@ deallocate
 and
 allocate
 celldata
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
