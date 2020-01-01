@@ -406,6 +406,11 @@ MinMaxD
 \
 _
 (
+NegD
+)
+\
+_
+(
 AbsI
 )
 \
