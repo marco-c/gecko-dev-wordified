@@ -4149,6 +4149,16 @@ true
 "
 )
 ;
+this
+.
+currentViewObj
+.
+node
+.
+focus
+(
+)
+;
 if
 (
 aViewId

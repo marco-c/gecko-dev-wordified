@@ -789,7 +789,7 @@ include
 "
 frontend
 /
-BytecodeEmitter
+TreeContext
 .
 h
 "
@@ -4312,6 +4312,10 @@ debugMode
 false
 )
 profilingScripts
+(
+false
+)
+alwaysPreserveCode
 (
 false
 )

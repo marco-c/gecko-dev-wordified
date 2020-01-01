@@ -2365,11 +2365,13 @@ nsCOMPtr
 nsITextControlElement
 >
 textControl
-(
-do_QueryInterface
+=
+nsITextControlElement
+:
+:
+GetTextControlElementFromEditingHost
 (
 editingElement
-)
 )
 ;
 if

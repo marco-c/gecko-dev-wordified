@@ -1538,6 +1538,7 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
 kwtable_
 \

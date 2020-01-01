@@ -1054,6 +1054,10 @@ nsDragService
 (
 )
 :
+mScheduledTask
+(
+eDragTaskNone
+)
 mTaskSource
 (
 0
