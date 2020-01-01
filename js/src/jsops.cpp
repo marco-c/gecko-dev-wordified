@@ -13410,6 +13410,13 @@ js_ReportOverRecursed
 cx
 )
 ;
+script
+=
+fp
+-
+>
+script
+;
 goto
 error
 ;
