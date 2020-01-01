@@ -3947,7 +3947,9 @@ destroyQueueTail
 )
 ;
 }
-mChildrenTaggedPtr
+mChildren
+.
+asVoid
 =
 nsnull
 ;
@@ -4177,10 +4179,6 @@ mRule
 (
 aRule
 )
-mChildrenTaggedPtr
-(
-nsnull
-)
 mDependentBits
 (
 (
@@ -4206,6 +4204,12 @@ mNoneBits
 0
 )
 {
+mChildren
+.
+asVoid
+=
+nsnull
+;
 MOZ_COUNT_CTOR
 (
 nsRuleNode
