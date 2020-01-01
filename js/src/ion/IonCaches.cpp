@@ -7825,8 +7825,6 @@ shape
 )
 )
 {
-/
-/
 if
 (
 !
@@ -7840,8 +7838,6 @@ obj
 shape
 )
 )
-/
-/
 return
 false
 ;
