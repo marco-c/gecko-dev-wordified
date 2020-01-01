@@ -11835,6 +11835,7 @@ do_QueryInterface
 static_cast
 <
 nsIDOMNodeList
+*
 >
 (
 list
