@@ -477,17 +477,12 @@ nsIRenderingContext
 h
 "
 #
-ifdef
-MOZ_CAIRO_GFX
-#
 include
 "
 gfxImageSurface
 .
 h
 "
-#
-endif
 /
 /
 translucency
@@ -557,9 +552,6 @@ NS_DECL_NSIDRAGSERVICE
 NS_DECL_NSIDRAGSESSION
 protected
 :
-#
-ifdef
-MOZ_CAIRO_GFX
 /
 *
 *
@@ -787,8 +779,6 @@ gfxASurface
 aSurface
 )
 ;
-#
-endif
 PRPackedBool
 mCanDrop
 ;

@@ -664,9 +664,6 @@ nsIPrefService
 h
 "
 #
-ifdef
-MOZ_CAIRO_GFX
-#
 include
 "
 gfxContext
@@ -680,8 +677,6 @@ gfxImageSurface
 .
 h
 "
-#
-endif
 #
 define
 DRAGIMAGES_PREF
@@ -2612,9 +2607,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_CAIRO_GFX
 static
 nsIPresShell
 *
@@ -4076,5 +4068,3 @@ outRect
 )
 ;
 }
-#
-endif
