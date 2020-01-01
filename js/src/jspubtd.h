@@ -937,7 +937,7 @@ gc
 :
 StoreBuffer
 *
-gcStoreBufferPtr
+storeBuffer
 #
 endif
 )
@@ -959,7 +959,7 @@ gcNurseryEnd_
 )
 gcStoreBufferPtr_
 (
-gcStoreBufferPtr
+storeBuffer
 )
 #
 endif
