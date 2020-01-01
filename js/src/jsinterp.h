@@ -5058,6 +5058,16 @@ size_t
 oplen
 )
 ;
+extern
+JSObject
+*
+GetScopeChain
+(
+JSContext
+*
+cx
+)
+;
 /
 *
 *
