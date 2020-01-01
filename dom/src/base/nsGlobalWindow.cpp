@@ -5201,17 +5201,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
 mContext
 )
-/
-/
-See
-comment
-about
-traversing
-mOpener
-above
-.
-/
-/
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
 mOpener
