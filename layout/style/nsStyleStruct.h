@@ -5063,7 +5063,7 @@ by
 NS_ROUND_BORDER_TO_PIXELS
 .
 nscoord
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 mozilla
 :

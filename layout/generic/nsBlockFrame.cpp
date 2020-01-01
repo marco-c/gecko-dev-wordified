@@ -20879,7 +20879,7 @@ if
 border
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 NS_SIDE_TOP
 )
@@ -20891,7 +20891,7 @@ NS_SIDE_TOP
 border
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 NS_SIDE_BOTTOM
 )

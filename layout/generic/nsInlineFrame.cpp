@@ -624,7 +624,7 @@ haveRight
 border
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 NS_SIDE_RIGHT
 )
@@ -669,7 +669,7 @@ haveLeft
 border
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 NS_SIDE_LEFT
 )
