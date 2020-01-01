@@ -108395,7 +108395,7 @@ ARECORD_CONTINUE
 }
 if
 (
-js_GetBlockChainFast
+GetBlockChainFast
 (
 cx
 cx
@@ -108564,7 +108564,7 @@ ARECORD_STOP
 ;
 if
 (
-js_GetBlockChainFast
+GetBlockChainFast
 (
 cx
 cx

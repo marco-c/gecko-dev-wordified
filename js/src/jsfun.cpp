@@ -2563,7 +2563,7 @@ JSObject
 *
 scopeChain
 =
-js_GetScopeChain
+GetScopeChain
 (
 cx
 fp
@@ -19470,7 +19470,7 @@ JSObject
 *
 scopeChain
 =
-js_GetScopeChainFast
+GetScopeChainFast
 (
 cx
 cx
