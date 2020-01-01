@@ -34,7 +34,7 @@ a
 trap
 (
 main
-31
+25
 "
 success
 (

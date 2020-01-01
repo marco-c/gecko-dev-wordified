@@ -600,7 +600,6 @@ script
 >
 analysis
 (
-cx
 )
 -
 >
@@ -991,7 +990,9 @@ argc
 script
 -
 >
-fun
+function
+(
+)
 -
 >
 nargs
@@ -1070,7 +1071,6 @@ script
 >
 analysis
 (
-cx
 )
 ;
 /

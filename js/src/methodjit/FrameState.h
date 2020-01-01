@@ -7074,7 +7074,7 @@ a
 script
 -
 >
-fun
+hasFunction
 &
 &
 fe
@@ -7099,7 +7099,9 @@ a
 script
 -
 >
-fun
+function
+(
+)
 -
 >
 nargs

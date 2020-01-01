@@ -13419,7 +13419,9 @@ loadFrameActuals
 outerScript
 -
 >
-fun
+function
+(
+)
 actualsReg
 )
 ;
@@ -14616,7 +14618,6 @@ outerScript
 >
 analysis
 (
-cx
 )
 -
 >

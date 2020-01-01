@@ -744,7 +744,6 @@ outerScript
 >
 analysis
 (
-cx
 )
 )
 cc
@@ -1481,7 +1480,7 @@ if
 outerScript
 -
 >
-fun
+hasFunction
 )
 {
 if
@@ -1495,7 +1494,9 @@ cx
 outerScript
 -
 >
-fun
+function
+(
+)
 -
 >
 getType
@@ -7187,7 +7188,6 @@ script
 >
 analysis
 (
-cx
 )
 ;
 uint32
@@ -10305,7 +10305,9 @@ loadFrameActuals
 outerScript
 -
 >
-fun
+function
+(
+)
 T0
 )
 ;
@@ -12437,7 +12439,6 @@ script
 >
 analysis
 (
-cx
 )
 ;
 JS_ASSERT
@@ -14255,7 +14256,6 @@ script
 >
 analysis
 (
-cx
 )
 ;
 const
@@ -14941,7 +14941,6 @@ script
 >
 analysis
 (
-cx
 )
 ;
 const
