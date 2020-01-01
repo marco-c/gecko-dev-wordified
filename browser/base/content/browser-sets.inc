@@ -3100,16 +3100,7 @@ broadcaster
 id
 =
 "
-socialBroadcaster_userPortrait
-"
-/
->
-<
-broadcaster
-id
-=
-"
-socialBroadcaster_loggedInStatus
+socialBroadcaster_userDetails
 "
 notLoggedInLabel
 =
