@@ -5189,7 +5189,7 @@ newHttpChannel
 >
 SetOriginalURI
 (
-mRedirectOriginalURI
+mOriginalURI
 )
 ;
 }
