@@ -2007,7 +2007,7 @@ setStackAddressCopy
 (
 void
 *
-sp
+sparg
 bool
 copy
 )
@@ -2112,7 +2112,7 @@ reinterpret_cast
 uintptr_t
 >
 (
-sp
+sparg
 )
 &
 ~
@@ -2136,7 +2136,7 @@ reinterpret_cast
 uintptr_t
 >
 (
-sp
+sparg
 )
 |
 0x1
