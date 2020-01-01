@@ -8016,15 +8016,6 @@ tag
 nsGkAtoms
 :
 :
-menulist
-|
-|
-tag
-=
-=
-nsGkAtoms
-:
-:
 menubutton
 |
 |
