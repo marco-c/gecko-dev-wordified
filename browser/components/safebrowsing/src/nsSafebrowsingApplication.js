@@ -317,14 +317,6 @@ G_Protocol4Parser
 ;
 modScope
 .
-G_ObjectSafeMap
-=
-jslib
-.
-G_ObjectSafeMap
-;
-modScope
-.
 PROT_UrlCrypto
 =
 jslib
