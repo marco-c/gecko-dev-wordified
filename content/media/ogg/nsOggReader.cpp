@@ -11975,6 +11975,9 @@ page
 ;
 if
 (
+mVorbisState
+&
+&
 serial
 =
 =
@@ -12013,6 +12016,9 @@ time
 else
 if
 (
+mTheoraState
+&
+&
 serial
 =
 =
