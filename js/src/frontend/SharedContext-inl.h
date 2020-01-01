@@ -159,6 +159,12 @@ context
 (
 cx
 )
+isFunction
+(
+!
+!
+funbox
+)
 funbox_
 (
 funbox
@@ -214,9 +220,7 @@ UNKNOWN
 ;
 JS_ASSERT_IF
 (
-inFunction
-(
-)
+isFunction
 funbox
 (
 )

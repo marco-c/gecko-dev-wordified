@@ -10767,9 +10767,7 @@ bce
 sc
 -
 >
-inFunction
-(
-)
+isFunction
 ?
 script
 -
@@ -11107,9 +11105,7 @@ bce
 sc
 -
 >
-inFunction
-(
-)
+isFunction
 ?
 bce
 -
@@ -11170,9 +11166,7 @@ bce
 sc
 -
 >
-inFunction
-(
-)
+isFunction
 )
 {
 FunctionBox
@@ -11270,9 +11264,7 @@ bce
 sc
 -
 >
-inFunction
-(
-)
+isFunction
 )
 {
 JS_ASSERT

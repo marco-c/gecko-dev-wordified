@@ -620,9 +620,7 @@ JS_ASSERT
 sc
 -
 >
-inFunction
-(
-)
+isFunction
 )
 ;
 return
@@ -644,9 +642,7 @@ JS_ASSERT
 sc
 -
 >
-inFunction
-(
-)
+isFunction
 )
 ;
 return
