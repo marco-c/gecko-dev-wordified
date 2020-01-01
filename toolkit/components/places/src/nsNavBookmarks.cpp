@@ -14096,6 +14096,9 @@ OnQuit
 (
 )
 {
+#
+ifdef
+MOZ_PLACES_BOOKMARKS
 /
 /
 get
@@ -14317,6 +14320,8 @@ rv
 )
 ;
 }
+#
+endif
 return
 NS_OK
 ;
