@@ -996,7 +996,7 @@ SVGLength
 aLength
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -1031,7 +1031,7 @@ PRUint32
 aIndex
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -1606,7 +1606,7 @@ Axis
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mElement
 "
