@@ -133,6 +133,13 @@ GStreamerMozVideoBuffer
 .
 h
 "
+#
+include
+"
+ImageContainer
+.
+h
+"
 namespace
 mozilla
 {

@@ -102,15 +102,6 @@ MOZILLA_STREAMBUFFER_H_
 #
 include
 "
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
-include
-"
 MediaSegment
 .
 h
@@ -122,11 +113,6 @@ nsAutoPtr
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

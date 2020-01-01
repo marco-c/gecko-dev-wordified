@@ -157,13 +157,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
-MediaDecoder
-.
-h
-"
 namespace
 mozilla
 {

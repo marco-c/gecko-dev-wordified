@@ -120,11 +120,7 @@ mozilla_dom_TextTrackCueList_h
 #
 include
 "
-mozilla
-/
-dom
-/
-TextTrackCue
+nsTArray
 .
 h
 "
