@@ -453,7 +453,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsIThebesFontMetrics
 .
 h
 "

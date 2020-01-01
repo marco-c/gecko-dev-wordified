@@ -531,13 +531,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

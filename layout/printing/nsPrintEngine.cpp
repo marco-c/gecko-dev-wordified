@@ -1000,6 +1000,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsIPageSequenceFrame
 .
 h
@@ -19426,7 +19433,7 @@ which
 is
 needed
 to
-dinf
+find
 the
 selection
 frames

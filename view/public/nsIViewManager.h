@@ -449,13 +449,6 @@ nsEvent
 .
 h
 "
-#
-include
-"
-nsRenderingContext
-.
-h
-"
 class
 nsIWidget
 ;

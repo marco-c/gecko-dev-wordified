@@ -941,6 +941,13 @@ nsTreeBoxObject
 h
 "
 #
+include
+"
+nsRenderingContext
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #
@@ -17037,10 +17044,8 @@ return
 NS_OK
 ;
 }
+static
 nsLineStyle
-nsTreeBodyFrame
-:
-:
 ConvertBorderStyleToLineStyle
 (
 PRUint8

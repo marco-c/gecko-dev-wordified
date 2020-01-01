@@ -579,6 +579,13 @@ nsAttrName
 .
 h
 "
+#
+include
+"
+nsRenderingContext
+.
+h
+"
 eMathMLFrameType
 nsMathMLFrame
 :

@@ -481,13 +481,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

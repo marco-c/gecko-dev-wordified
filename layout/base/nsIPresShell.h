@@ -5414,6 +5414,10 @@ aPresContext
 nsIFrame
 *
 aFrame
+const
+nsPoint
+&
+aOffset
 PRUint32
 aColor
 )

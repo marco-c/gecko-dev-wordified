@@ -682,13 +682,6 @@ window
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIDeviceContext
 .
 h

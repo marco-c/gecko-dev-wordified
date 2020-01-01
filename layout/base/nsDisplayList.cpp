@@ -478,6 +478,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsISelectionController
 .
 h

@@ -463,13 +463,6 @@ nsIMathMLFrame_h___
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -482,6 +475,9 @@ nsEmbellishData
 ;
 struct
 nsHTMLReflowMetrics
+;
+class
+nsRenderingContext
 ;
 /
 /

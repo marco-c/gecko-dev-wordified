@@ -595,6 +595,13 @@ nsDisplayList
 .
 h
 "
+#
+include
+"
+nsRenderingContext
+.
+h
+"
 class
 nsLegendFrame
 ;

@@ -511,13 +511,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIRollupListener
 .
 h

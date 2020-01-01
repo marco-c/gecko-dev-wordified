@@ -439,13 +439,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h

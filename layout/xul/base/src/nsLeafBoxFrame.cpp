@@ -496,13 +496,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h

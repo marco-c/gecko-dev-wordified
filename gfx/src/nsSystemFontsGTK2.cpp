@@ -458,13 +458,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 prlink
 .
 h

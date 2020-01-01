@@ -662,6 +662,13 @@ h
 #
 include
 "
+nsRect
+.
+h
+"
+#
+include
+"
 nsMathUtils
 .
 h

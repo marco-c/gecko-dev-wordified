@@ -600,13 +600,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
