@@ -8527,6 +8527,7 @@ TiledTextureImage
 this
 aSize
 aContentType
+aUseNearestFilter
 )
 ;
 return
