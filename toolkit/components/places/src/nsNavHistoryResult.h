@@ -786,6 +786,15 @@ aPageTitle
 ;
 \
 NS_IMETHOD
+OnBeforeDeleteURI
+(
+nsIURI
+*
+aURI
+)
+;
+\
+NS_IMETHOD
 OnDeleteURI
 (
 nsIURI
