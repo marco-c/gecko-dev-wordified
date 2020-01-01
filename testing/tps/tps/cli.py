@@ -75,7 +75,6 @@ from
 tps
 import
 TPSFirefoxRunner
-TPSPulseMonitor
 TPSTestRunner
 def
 main
