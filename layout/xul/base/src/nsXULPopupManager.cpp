@@ -10462,11 +10462,7 @@ Frame
 (
 )
 ;
-nsCOMPtr
-<
-nsIWidget
->
-widget
+mWidget
 =
 popup
 -
@@ -10477,10 +10473,10 @@ GetWidget
 ;
 if
 (
-widget
+mWidget
 )
 {
-widget
+mWidget
 -
 >
 CaptureRollupEvents
@@ -10494,10 +10490,6 @@ ConsumeOutsideClicks
 (
 )
 )
-;
-mWidget
-=
-widget
 ;
 popup
 -
