@@ -16520,8 +16520,6 @@ JSIdArray
 ida
 )
 {
-DestroyIdArray
-(
 cx
 -
 >
@@ -16533,6 +16531,10 @@ runtime
 defaultFreeOp
 (
 )
+-
+>
+free_
+(
 ida
 )
 ;
@@ -25047,9 +25049,11 @@ JSIdArray
 )
 pdata
 ;
-DestroyIdArray
-(
 fop
+-
+>
+free_
+(
 ida
 )
 ;
