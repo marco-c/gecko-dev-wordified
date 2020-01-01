@@ -1390,6 +1390,14 @@ PRBool
 aNotify
 )
 ;
+NS_IMETHOD_
+(
+PRBool
+)
+HasCachedSelection
+(
+)
+;
 void
 GetDisplayFileName
 (
