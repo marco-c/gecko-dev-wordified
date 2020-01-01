@@ -7766,6 +7766,7 @@ mBuffer
 Assign
 (
 aText
+aLength
 )
 ;
 nsresult
