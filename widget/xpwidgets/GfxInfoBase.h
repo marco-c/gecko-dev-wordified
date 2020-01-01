@@ -185,6 +185,15 @@ Mutex
 .
 h
 "
+#
+include
+"
+js
+/
+Value
+.
+h
+"
 namespace
 mozilla
 {
