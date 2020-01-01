@@ -3051,16 +3051,6 @@ GetStringValue
 eCSSUnit_Families
 )
 ;
-aData
--
->
-mFontData
--
->
-mFamilyFromHTML
-=
-PR_FALSE
-;
 }
 }
 if
