@@ -54,6 +54,11 @@ null
 )
 ;
 var
+global
+=
+this
+;
+var
 frame
 ;
 function

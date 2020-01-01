@@ -2232,7 +2232,7 @@ val
 |
 |
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -2243,7 +2243,6 @@ StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
-NULL
 )
 )
 {
@@ -2458,7 +2457,7 @@ previous
 shape
 -
 >
-id
+propid
 !
 =
 returnId
@@ -2467,7 +2466,7 @@ returnId
 shape
 -
 >
-id
+propid
 !
 =
 throwId
@@ -2566,7 +2565,7 @@ return
 shape
 -
 >
-id
+propid
 =
 =
 returnId
