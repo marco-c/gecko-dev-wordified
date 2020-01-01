@@ -265,6 +265,9 @@ aBackendType
 int
 *
 aMaxTextureSize
+uint64_t
+*
+aId
 )
 {
 return

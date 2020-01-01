@@ -1372,9 +1372,6 @@ if
 gDisableNativeThemeCached
 )
 {
-mozilla
-:
-:
 Preferences
 :
 :
@@ -8121,6 +8118,7 @@ LayerManager
 :
 :
 LAYERS_OPENGL
+0
 &
 maxTextureSize
 )
@@ -8139,6 +8137,7 @@ LayerManager
 :
 :
 LAYERS_BASIC
+0
 &
 maxTextureSize
 )

@@ -169,6 +169,9 @@ aBackendType
 int
 *
 aMaxTextureSize
+uint64_t
+*
+aId
 )
 ;
 NS_OVERRIDE

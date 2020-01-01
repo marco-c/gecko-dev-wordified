@@ -585,6 +585,8 @@ aManager
 ShadowLayersManager
 *
 aLayersManager
+uint64_t
+aId
 )
 :
 mLayerManager
@@ -594,6 +596,10 @@ aManager
 mShadowLayersManager
 (
 aLayersManager
+)
+mId
+(
+aId
 )
 mDestroyed
 (

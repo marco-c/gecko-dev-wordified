@@ -4975,6 +4975,9 @@ be
 PRInt32
 maxTextureSize
 ;
+uint64_t
+id
+;
 PLayersChild
 *
 shadowManager
@@ -4988,6 +4991,8 @@ SendPLayersConstructor
 be
 &
 maxTextureSize
+&
+id
 )
 ;
 if

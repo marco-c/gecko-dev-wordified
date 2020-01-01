@@ -1318,6 +1318,10 @@ mSnapEffectiveTransforms
 (
 true
 )
+mId
+(
+0
+)
 {
 InitLog
 (
@@ -3365,6 +3369,9 @@ static
 PRLogModuleInfo
 *
 sLog
+;
+uint64_t
+mId
 ;
 private
 :
