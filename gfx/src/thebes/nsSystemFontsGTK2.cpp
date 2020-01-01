@@ -1320,10 +1320,10 @@ size
 =
 float
 (
-gfxPlatformGtk
+gfxPlatform
 :
 :
-GetPlatformDPI
+GetDPI
 (
 )
 )
