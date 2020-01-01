@@ -490,6 +490,10 @@ error
 "
 )
 ;
+do_test_pending
+(
+)
+;
 Svc
 .
 Prefs
@@ -1127,6 +1131,10 @@ all
 records
 .
 "
+)
+;
+do_test_pending
+(
 )
 ;
 Svc

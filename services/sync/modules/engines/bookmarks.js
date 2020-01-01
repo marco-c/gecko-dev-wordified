@@ -227,6 +227,15 @@ weitershausen
 de
 >
 *
+Richard
+Newman
+<
+rnewman
+mozilla
+.
+com
+>
+*
 *
 Alternatively
 the
