@@ -2646,9 +2646,6 @@ an
 XPCWN
 a
 *
-slim
-wrapper
-a
 DOM
 object
 or
@@ -2662,7 +2659,6 @@ be
 cross
 -
 compartment
-*
 from
 |
 cx

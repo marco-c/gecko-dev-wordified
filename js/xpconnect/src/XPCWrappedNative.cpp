@@ -8875,13 +8875,6 @@ GetWrapper
 if
 (
 flat
-&
-&
-!
-IS_SLIM_WRAPPER_OBJECT
-(
-flat
-)
 )
 {
 wrapper
@@ -9017,9 +9010,6 @@ wrapper
 .
 if
 (
-wrapper
-&
-&
 wrapper
 -
 >
