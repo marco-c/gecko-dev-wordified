@@ -303,11 +303,6 @@ R0
 and
 R1
 .
-Register
-scratchReg
-=
-BaselineTailCallReg
-;
 masm
 .
 cmpl
