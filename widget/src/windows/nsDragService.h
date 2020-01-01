@@ -631,16 +631,6 @@ inDataObj
 ;
 /
 /
-gets
-shell
-version
-PRUint64
-GetShellVersion
-(
-)
-;
-/
-/
 Create
 a
 bitmap
