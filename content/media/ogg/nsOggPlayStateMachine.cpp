@@ -6949,6 +6949,8 @@ picXLimit
 |
 picXLimit
 >
+PRUint32
+(
 PR_ABS
 (
 aData
@@ -6960,6 +6962,7 @@ mBuffer
 ]
 .
 stride
+)
 )
 |
 |
@@ -6982,6 +6985,8 @@ picYLimit
 |
 picYLimit
 >
+PRUint32
+(
 PR_ABS
 (
 aData
@@ -6993,6 +6998,7 @@ mBuffer
 ]
 .
 height
+)
 )
 )
 {
@@ -7217,15 +7223,6 @@ p
 y
 ;
 unsigned
-yStride
-=
-mInfo
-.
-mPicture
-.
-width
-;
-unsigned
 char
 *
 q
@@ -7264,7 +7261,7 @@ y
 ;
 for
 (
-unsigned
+PRInt32
 i
 =
 0
