@@ -1874,15 +1874,6 @@ val
 }
 /
 /
-XXX
-:
-bug
-660731
-will
-enable
-this
-/
-/
 "
 explicit
 "
@@ -1890,8 +1881,6 @@ is
 found
 differently
 .
-/
-/
 this
 .
 addValue
