@@ -1150,6 +1150,16 @@ uint32_t
 aType
 )
 ;
+virtual
+bool
+RecvNotifyPhoneStateChange
+(
+const
+nsString
+&
+state
+)
+;
 #
 ifdef
 ANDROID
