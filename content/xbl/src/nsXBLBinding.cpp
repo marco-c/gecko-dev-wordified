@@ -857,17 +857,6 @@ nsJSUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
 /
 /
 Helper

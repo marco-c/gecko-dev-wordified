@@ -651,13 +651,6 @@ nsIStructuredCloneContainer
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsIContent
 ;
@@ -1002,7 +995,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_IDOCUMENT_IID
 )
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
-NS_DECL_DOM_MEMORY_REPORTER_SIZEOF
 #
 ifdef
 MOZILLA_INTERNAL_API
@@ -9752,6 +9744,12 @@ WarnOnceAbout
 DeprecatedOperations
 aOperation
 )
+;
+PRInt64
+SizeOf
+(
+)
+const
 ;
 private
 :
