@@ -2326,16 +2326,6 @@ OnPaintImageDDraw16
 (
 )
 ;
-HRESULT
-PaintRectImageDDraw16
-(
-RECT
-aRect
-nsPaintEvent
-*
-aEvent
-)
-;
 #
 endif
 /
