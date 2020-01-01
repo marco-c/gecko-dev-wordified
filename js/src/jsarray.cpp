@@ -2507,7 +2507,7 @@ if
 (
 newcap
 >
-MAX_DSLOTS_LENGTH
+MAX_DSLOTS_LENGTH32
 )
 {
 js_ReportAllocationOverflow
