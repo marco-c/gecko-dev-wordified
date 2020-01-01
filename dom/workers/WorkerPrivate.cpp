@@ -14667,6 +14667,7 @@ shutdown
 }
 #
 endif
+BEGIN_WORKERS_NAMESPACE
 /
 /
 Force
@@ -14679,7 +14680,6 @@ WorkerPrivateParent
 WorkerPrivate
 >
 ;
-BEGIN_WORKERS_NAMESPACE
 WorkerPrivate
 *
 GetWorkerPrivateFromContext
