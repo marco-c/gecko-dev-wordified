@@ -806,8 +806,6 @@ runtime
 >
 atomsTable
 =
-atomState
-.
 atoms
 .
 sizeOfExcludingThis
@@ -2325,7 +2323,7 @@ ok
 )
 ok
 =
-InitCommonAtoms
+InitCommonNames
 (
 cx
 )
@@ -2641,14 +2639,14 @@ NULL
 Unpin
 all
 common
-atoms
+names
 before
 final
 GC
 .
 *
 /
-FinishCommonAtoms
+FinishCommonNames
 (
 rt
 )
