@@ -18318,6 +18318,9 @@ IonSpewEnabled
 (
 IonSpew_Snapshots
 )
+&
+&
+lastResumePoint_
 )
 SpewResumePoint
 (
