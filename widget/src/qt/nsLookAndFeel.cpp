@@ -2013,17 +2013,6 @@ res
 =
 NS_OK
 ;
-QStyle
-*
-qStyle
-=
-qApp
--
->
-style
-(
-)
-;
 switch
 (
 aID
