@@ -220,6 +220,9 @@ XPCNativeMember
 :
 GetCallInfo
 (
+XPCCallContext
+&
+ccx
 JSObject
 *
 funobj
