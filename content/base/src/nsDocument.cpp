@@ -20705,7 +20705,7 @@ aReturn
 )
 ;
 }
-nsIContent
+Element
 *
 nsDocument
 :

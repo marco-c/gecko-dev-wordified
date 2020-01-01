@@ -709,12 +709,12 @@ protected
 :
 virtual
 void
-ContentChanged
+ElementChanged
 (
-nsIContent
+Element
 *
 aFrom
-nsIContent
+Element
 *
 aTo
 )
@@ -736,7 +736,7 @@ mContainer
 nsReferencedElement
 :
 :
-ContentChanged
+ElementChanged
 (
 aFrom
 aTo
