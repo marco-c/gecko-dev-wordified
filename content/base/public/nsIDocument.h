@@ -377,6 +377,9 @@ class
 nsHTMLCSSStyleSheet
 ;
 class
+nsHTMLDocument
+;
+class
 nsHTMLStyleSheet
 ;
 class
@@ -12296,6 +12299,12 @@ nsIDOMTouch
 >
 &
 aTouches
+)
+;
+nsHTMLDocument
+*
+AsHTMLDocument
+(
 )
 ;
 private
