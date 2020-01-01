@@ -1015,9 +1015,6 @@ jsval
 vp
 )
 {
-uint32
-slot
-;
 jsid
 propid
 ;
@@ -1034,16 +1031,6 @@ pobj
 JSClass
 *
 clasp
-;
-slot
-=
-(
-uint32
-)
-JSVAL_TO_INT
-(
-id
-)
 ;
 if
 (
