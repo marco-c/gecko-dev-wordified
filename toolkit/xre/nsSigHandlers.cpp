@@ -594,7 +594,7 @@ endif
 CRAWL_STACK_ON_SIGSEGV
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 /
 /
 Need
@@ -618,7 +618,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 &
 &
@@ -1854,7 +1854,7 @@ SOLARIS
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 &
 &
