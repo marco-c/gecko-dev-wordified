@@ -2428,6 +2428,14 @@ VirtualCursorController
 .
 moveCursorToObject
 (
+Utils
+.
+getVirtualCursor
+(
+aEvent
+.
+accessibleDocument
+)
 aEvent
 .
 accessible
@@ -2487,6 +2495,12 @@ VirtualCursorController
 .
 moveCursorToObject
 (
+Utils
+.
+getVirtualCursor
+(
+doc
+)
 acc
 )
 ;
