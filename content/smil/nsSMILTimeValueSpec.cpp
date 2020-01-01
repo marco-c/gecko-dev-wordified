@@ -1215,6 +1215,8 @@ time
 of
 an
 active
+or
+postactive
 interval
 )
 we
@@ -1225,10 +1227,9 @@ change
 .
 if
 (
-!
 aInstanceTimeToUpdate
 .
-MayUpdate
+IsFixedTime
 (
 )
 )
