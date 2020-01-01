@@ -18,6 +18,9 @@ nsIScriptContext
 .
 h
 "
+class
+nsIJSArgArray
+;
 /
 /
 seems
@@ -363,7 +366,7 @@ aArgc
 void
 *
 aArgv
-nsIArray
+nsIJSArgArray
 *
 *
 aArray
