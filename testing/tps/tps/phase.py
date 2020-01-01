@@ -450,6 +450,9 @@ env
                
 firefoxRunner
 logfn
+ignore_unused_engines
+=
+False
 )
 :
     
@@ -511,6 +514,12 @@ self
 log
 =
 logfn
+    
+self
+.
+ignore_unused_engines
+=
+ignore_unused_engines
     
 self
 .
@@ -628,6 +637,27 @@ self
 logfile
 ]
     
+if
+self
+.
+ignore_unused_engines
+:
+        
+args
+.
+append
+(
+'
+-
+-
+ignore
+-
+unused
+-
+engines
+'
+)
+    
 self
 .
 log
@@ -635,7 +665,7 @@ log
 "
 \
 nlaunching
-firefox
+Firefox
 for
 phase
 %

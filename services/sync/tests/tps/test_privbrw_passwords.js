@@ -73,6 +73,15 @@ etc
 .
 *
 /
+EnableEngines
+(
+[
+"
+passwords
+"
+]
+)
+;
 var
 phases
 =

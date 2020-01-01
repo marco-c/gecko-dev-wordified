@@ -77,6 +77,15 @@ etc
 .
 *
 /
+EnableEngines
+(
+[
+"
+bookmarks
+"
+]
+)
+;
 var
 phases
 =
