@@ -438,6 +438,7 @@ _JSDTRACEF_H
 #
 define
 _JSDTRACEF_H
+JS_BEGIN_EXTERN_C
 extern
 void
 jsdtrace_function_entry
@@ -582,6 +583,7 @@ JSScript
 script
 )
 ;
+JS_END_EXTERN_C
 #
 endif
 /
