@@ -6659,6 +6659,9 @@ aNode
 *
 checkSpelling
 =
+!
+!
+(
 content
 -
 >
@@ -6667,6 +6670,7 @@ IntrinsicState
 )
 &
 NS_EVENT_STATE_MOZ_READWRITE
+)
 ;
 }
 return
