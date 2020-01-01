@@ -148,13 +148,6 @@ UnixSocket
 .
 h
 "
-#
-include
-"
-nsIDOMFile
-.
-h
-"
 class
 nsIOutputStream
 ;
