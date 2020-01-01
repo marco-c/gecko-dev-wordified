@@ -325,4 +325,14 @@ getOverScrollMode
 (
 )
 ;
+public
+void
+updateScrollOffset
+(
+float
+cssX
+float
+cssY
+)
+;
 }
