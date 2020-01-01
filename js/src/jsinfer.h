@@ -496,7 +496,7 @@ h
 namespace
 js
 {
-struct
+class
 CallArgs
 ;
 }
