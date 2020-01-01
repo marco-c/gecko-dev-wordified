@@ -1942,6 +1942,10 @@ gCommentText
 FALSE
 )
 ;
+if
+(
+gIncludeURLCheck
+)
 gtk_widget_set_sensitive
 (
 gIncludeURLCheck
@@ -1966,6 +1970,10 @@ gCloseButton
 FALSE
 )
 ;
+if
+(
+gRestartButton
+)
 gtk_widget_set_sensitive
 (
 gRestartButton
@@ -2316,6 +2324,10 @@ gCommentText
 TRUE
 )
 ;
+if
+(
+gIncludeURLCheck
+)
 gtk_widget_set_sensitive
 (
 gIncludeURLCheck
@@ -2371,6 +2383,10 @@ gCommentText
 FALSE
 )
 ;
+if
+(
+gIncludeURLCheck
+)
 gtk_widget_set_sensitive
 (
 gIncludeURLCheck
