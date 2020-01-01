@@ -291,12 +291,6 @@ update
 }
 )
 ;
-this
-.
-updateActiveBroadcaster
-(
-)
-;
 Social
 .
 init
@@ -916,6 +910,12 @@ init
 SocialMenu
 .
 populate
+(
+)
+;
+this
+.
+updateActiveBroadcaster
 (
 )
 ;
