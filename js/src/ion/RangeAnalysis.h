@@ -2093,6 +2093,10 @@ e
 MaxInt32Exponent
 )
 {
+max_exponent_
+=
+e
+;
 setLowerInit
 (
 l
@@ -2106,10 +2110,6 @@ h
 decimal_
 =
 d
-;
-max_exponent_
-=
-e
 ;
 rectifyExponent
 (
