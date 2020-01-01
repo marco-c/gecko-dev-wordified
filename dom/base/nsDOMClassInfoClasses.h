@@ -187,10 +187,6 @@ ClipboardEvent
 )
 DOMCI_CLASS
 (
-KeyboardEvent
-)
-DOMCI_CLASS
-(
 CompositionEvent
 )
 #
