@@ -5832,6 +5832,24 @@ abort
 "
         
 #
+Enable
+crash
+reporting
+        
+self
+.
+env
+[
+"
+MOZ_CRASHREPORTER
+"
+]
+=
+"
+1
+"
+        
+#
 Don
 '
 t
