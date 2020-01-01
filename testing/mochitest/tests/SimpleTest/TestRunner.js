@@ -16,11 +16,6 @@ type
 eventName
 (
 QuitApplication
-LoggerInit
-LoggerClose
-Logger
-GetPref
-SetPref
 )
 *
 data
@@ -2690,8 +2685,11 @@ cleanUpCrashDumpFiles
 (
 )
 ;
-runNextTest
+SpecialPowers
+.
+flushPrefEnv
 (
+runNextTest
 )
 ;
 }
