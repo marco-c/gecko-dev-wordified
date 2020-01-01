@@ -3565,13 +3565,13 @@ const
 size_t
 kMaxWebGLContextsPerPrincipal
 =
-8
+16
 ;
 const
 size_t
 kMaxWebGLContexts
 =
-16
+32
 ;
 #
 endif
