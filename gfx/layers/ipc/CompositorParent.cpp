@@ -2018,10 +2018,6 @@ mContentRect
 ;
 SetPageRect
 (
-1
-/
-rootScaleX
-mContentRect
 metrics
 .
 mCSSContentRect
@@ -2461,12 +2457,6 @@ CompositorParent
 :
 SetPageRect
 (
-float
-aZoom
-const
-nsIntRect
-&
-aPageRect
 const
 gfx
 :
@@ -2492,8 +2482,6 @@ Bridge
 >
 SetPageRect
 (
-aZoom
-aPageRect
 aCssPageRect
 )
 ;

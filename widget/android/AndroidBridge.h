@@ -1802,12 +1802,6 @@ aCssPageRect
 void
 SetPageRect
 (
-float
-aZoom
-const
-nsIntRect
-&
-aPageRect
 const
 gfx
 :

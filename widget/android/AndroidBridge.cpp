@@ -12868,12 +12868,6 @@ AndroidBridge
 :
 SetPageRect
 (
-float
-aZoom
-const
-nsIntRect
-&
-aPageRect
 const
 gfx
 :
@@ -12901,8 +12895,6 @@ client
 >
 SetPageRect
 (
-aZoom
-aPageRect
 aCssPageRect
 )
 ;
