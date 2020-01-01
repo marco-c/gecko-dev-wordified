@@ -145,6 +145,15 @@ windows
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIWidget
 ;
@@ -562,6 +571,7 @@ Enumerator
 -
 class
 nsPrinterEnumeratorWin
+MOZ_FINAL
 :
 public
 nsIPrinterEnumerator

@@ -659,6 +659,7 @@ uri
 nsnull
 )
 ;
+virtual
 ~
 nsDataObj
 (

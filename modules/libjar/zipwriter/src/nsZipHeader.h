@@ -97,6 +97,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 High
@@ -168,6 +177,7 @@ p
 a
 class
 nsZipHeader
+MOZ_FINAL
 :
 public
 nsIZipEntry

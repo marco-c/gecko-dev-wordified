@@ -116,6 +116,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -690,6 +699,7 @@ defaultPort
 -
 class
 nsAsyncResolveRequest
+MOZ_FINAL
 :
 public
 nsIRunnable

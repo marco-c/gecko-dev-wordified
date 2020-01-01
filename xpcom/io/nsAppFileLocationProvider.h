@@ -107,6 +107,15 @@ nsIFile
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFile
 ;
@@ -274,6 +283,7 @@ nsAppFileLocationProvider
 *
 class
 nsAppFileLocationProvider
+MOZ_FINAL
 :
 public
 nsIDirectoryServiceProvider2

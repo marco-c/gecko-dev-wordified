@@ -23544,7 +23544,14 @@ nsDOMSettableTokenList
 aPropertyValue
 )
 ;
-NS_IF_RELEASE
+list
+-
+>
+DropReference
+(
+)
+;
+NS_RELEASE
 (
 list
 )

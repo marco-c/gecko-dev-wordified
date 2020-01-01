@@ -22683,6 +22683,7 @@ NS_XPC_JSCONTEXT_STACK_ITERATOR_CID
 }
 class
 nsXPCJSContextStackIterator
+MOZ_FINAL
 :
 public
 nsIJSContextStackIterator

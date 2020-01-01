@@ -172,6 +172,15 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIURI
 ;
@@ -180,6 +189,7 @@ nsOfflineCacheDevice
 ;
 class
 nsApplicationCacheNamespace
+MOZ_FINAL
 :
 public
 nsIApplicationCacheNamespace
@@ -213,6 +223,7 @@ mData
 ;
 class
 nsOfflineCacheEvictionFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction

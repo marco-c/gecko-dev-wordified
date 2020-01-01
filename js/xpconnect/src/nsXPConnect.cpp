@@ -15454,9 +15454,6 @@ return
 true
 ;
 }
-#
-ifdef
-DEBUG
 void
 DumpJSHeap
 (
@@ -15534,8 +15531,6 @@ file
 )
 ;
 }
-#
-endif
 void
 SetLocationForGlobal
 (

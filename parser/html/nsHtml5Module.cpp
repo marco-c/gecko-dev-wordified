@@ -158,6 +158,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -519,6 +528,7 @@ aChannel
 }
 class
 nsHtml5ParserThreadTerminator
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -632,8 +642,12 @@ if
 sStreamParserThread
 )
 {
-NS_NewThread
+NS_NewNamedThread
 (
+"
+HTML5
+Parser
+"
 &
 sStreamParserThread
 )

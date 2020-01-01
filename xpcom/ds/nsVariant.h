@@ -130,6 +130,15 @@ xpt_struct
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsCycleCollectionTraversalCallback
 ;
@@ -434,6 +443,7 @@ conversions
 /
 class
 nsVariant
+MOZ_FINAL
 :
 public
 nsIWritableVariant

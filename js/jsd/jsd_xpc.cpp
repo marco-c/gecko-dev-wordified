@@ -219,6 +219,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 XXX
@@ -16316,6 +16325,7 @@ property
 /
 class
 jsdASObserver
+MOZ_FINAL
 :
 public
 nsIObserver

@@ -1326,7 +1326,7 @@ return
 mWindowType
 ;
 }
-static
+virtual
 bool
 UseOffMainThreadCompositing
 (

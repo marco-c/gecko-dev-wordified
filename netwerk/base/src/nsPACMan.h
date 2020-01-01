@@ -174,6 +174,15 @@ prclist
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -311,6 +320,7 @@ only
 /
 class
 nsPACMan
+MOZ_FINAL
 :
 public
 nsIStreamLoaderObserver

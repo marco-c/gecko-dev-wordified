@@ -142,6 +142,15 @@ nsSupportsPrimitives
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 /
@@ -151,6 +160,7 @@ nsStringEnumerator
 /
 class
 nsStringEnumerator
+MOZ_FINAL
 :
 public
 nsIStringEnumerator

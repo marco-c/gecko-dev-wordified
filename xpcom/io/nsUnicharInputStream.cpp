@@ -158,6 +158,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 fcntl
 .
@@ -193,6 +202,7 @@ STRING_BUFFER_SIZE
 8192
 class
 StringUnicharInputStream
+MOZ_FINAL
 :
 public
 nsIUnicharInputStream
@@ -646,6 +656,7 @@ nsIUnicharInputStream
 -
 class
 UTF8InputStream
+MOZ_FINAL
 :
 public
 nsIUnicharInputStream

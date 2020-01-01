@@ -1367,7 +1367,7 @@ DeleteElementTxn
 aTxn
 )
 ;
-NS_IMETHOD
+nsresult
 CreateTxnForDeleteSelection
 (
 EDirection
@@ -1376,7 +1376,7 @@ EditAggregateTxn
 *
 *
 aTxn
-nsIDOMNode
+nsINode
 *
 *
 aNode
@@ -1388,10 +1388,10 @@ PRInt32
 aLength
 )
 ;
-NS_IMETHOD
+nsresult
 CreateTxnForDeleteInsertionPoint
 (
-nsIDOMRange
+nsRange
 *
 aRange
 EDirection
@@ -1399,7 +1399,7 @@ aAction
 EditAggregateTxn
 *
 aTxn
-nsIDOMNode
+nsINode
 *
 *
 aNode
@@ -1541,7 +1541,7 @@ nsIDOMRange
 aRange
 )
 ;
-NS_IMETHOD
+nsresult
 CreateTxnForDeleteText
 (
 nsIDOMCharacterData
@@ -1565,9 +1565,6 @@ nsIDOMCharacterData
 aData
 PRUint32
 aOffset
-nsIEditor
-:
-:
 EDirection
 aDirection
 DeleteTextTxn

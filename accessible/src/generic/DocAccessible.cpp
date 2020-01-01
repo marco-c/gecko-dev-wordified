@@ -12573,6 +12573,14 @@ Accessible
 aRoot
 )
 {
+aRoot
+-
+>
+mFlags
+|
+=
+eIsNotInDocument
+;
 if
 (
 aRoot

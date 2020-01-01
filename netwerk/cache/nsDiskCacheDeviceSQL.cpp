@@ -87,6 +87,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCache
 .
 h
@@ -1449,6 +1458,7 @@ nsOfflineCacheDeviceInfo
 /
 class
 nsOfflineCacheDeviceInfo
+MOZ_FINAL
 :
 public
 nsICacheDeviceInfo
@@ -1823,6 +1833,7 @@ nsOfflineCacheBinding
 /
 class
 nsOfflineCacheBinding
+MOZ_FINAL
 :
 public
 nsISupports
@@ -2688,6 +2699,7 @@ nsOfflineCacheEntryInfo
 /
 class
 nsOfflineCacheEntryInfo
+MOZ_FINAL
 :
 public
 nsICacheEntryInfo

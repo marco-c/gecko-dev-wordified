@@ -238,6 +238,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsJSPrincipals
 .
 h
@@ -5708,6 +5717,14 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+JS
+Watchdog
+"
+)
+;
 XPCJSRuntime
 *
 self
@@ -7699,7 +7716,7 @@ XPConnectJSSystemCompartmentCount
 js
 -
 compartments
--
+/
 system
 "
 KIND_OTHER
@@ -7773,7 +7790,7 @@ XPConnectJSUserCompartmentCount
 js
 -
 compartments
--
+/
 user
 "
 KIND_OTHER
@@ -10849,6 +10866,7 @@ js
 )
 class
 JSCompartmentsMultiReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
@@ -11108,7 +11126,7 @@ i
 nsIMemoryReporter
 :
 :
-KIND_SUMMARY
+KIND_OTHER
 nsIMemoryReporter
 :
 :
@@ -11261,6 +11279,7 @@ get
 ;
 class
 JSMemoryMultiReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter

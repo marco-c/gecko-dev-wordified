@@ -387,6 +387,15 @@ h
 /
 for
 DebugOnly
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -2775,7 +2784,6 @@ GetOpType
 ;
 public
 :
-NS_DECL_ISUPPORTS
 NS_IMETHOD
 HandleError
 (
@@ -2883,11 +2891,6 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
-(
-DBListenerErrorHandler
-mozIStorageStatementCallback
-)
 /
 *
 *
@@ -3061,6 +3064,7 @@ operations
 /
 class
 InsertCookieDBListener
+MOZ_FINAL
 :
 public
 DBListenerErrorHandler
@@ -3083,6 +3087,7 @@ INSERT
 }
 public
 :
+NS_DECL_ISUPPORTS
 InsertCookieDBListener
 (
 DBState
@@ -3204,6 +3209,11 @@ NS_OK
 }
 }
 ;
+NS_IMPL_ISUPPORTS1
+(
+InsertCookieDBListener
+mozIStorageStatementCallback
+)
 /
 *
 *
@@ -3377,6 +3387,7 @@ operations
 /
 class
 UpdateCookieDBListener
+MOZ_FINAL
 :
 public
 DBListenerErrorHandler
@@ -3399,6 +3410,7 @@ UPDATE
 }
 public
 :
+NS_DECL_ISUPPORTS
 UpdateCookieDBListener
 (
 DBState
@@ -3449,6 +3461,11 @@ NS_OK
 }
 }
 ;
+NS_IMPL_ISUPPORTS1
+(
+UpdateCookieDBListener
+mozIStorageStatementCallback
+)
 /
 *
 *
@@ -3622,6 +3639,7 @@ operations
 /
 class
 RemoveCookieDBListener
+MOZ_FINAL
 :
 public
 DBListenerErrorHandler
@@ -3644,6 +3662,7 @@ REMOVE
 }
 public
 :
+NS_DECL_ISUPPORTS
 RemoveCookieDBListener
 (
 DBState
@@ -3694,6 +3713,11 @@ NS_OK
 }
 }
 ;
+NS_IMPL_ISUPPORTS1
+(
+RemoveCookieDBListener
+mozIStorageStatementCallback
+)
 /
 *
 *
@@ -3867,6 +3891,7 @@ operations
 /
 class
 ReadCookieDBListener
+MOZ_FINAL
 :
 public
 DBListenerErrorHandler
@@ -3892,6 +3917,7 @@ mCanceled
 ;
 public
 :
+NS_DECL_ISUPPORTS
 ReadCookieDBListener
 (
 DBState
@@ -4238,6 +4264,11 @@ NS_OK
 }
 }
 ;
+NS_IMPL_ISUPPORTS1
+(
+ReadCookieDBListener
+mozIStorageStatementCallback
+)
 /
 *
 *
@@ -4416,6 +4447,7 @@ closed
 /
 class
 CloseCookieDBListener
+MOZ_FINAL
 :
 public
 mozIStorageCompletionCallback

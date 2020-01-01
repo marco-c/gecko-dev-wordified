@@ -272,6 +272,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsExternalAppHandler
 ;
@@ -1320,6 +1329,7 @@ app
 /
 class
 nsExternalAppHandler
+MOZ_FINAL
 :
 public
 nsIStreamListener

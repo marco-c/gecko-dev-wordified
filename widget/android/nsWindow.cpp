@@ -3580,6 +3580,12 @@ return
 mLayerManager
 ;
 }
+mUseAcceleratedRendering
+=
+GetShouldAccelerate
+(
+)
+;
 #
 ifdef
 MOZ_JAVA_COMPOSITOR
@@ -3637,12 +3643,6 @@ true
 }
 #
 endif
-mUseAcceleratedRendering
-=
-GetShouldAccelerate
-(
-)
-;
 if
 (
 !

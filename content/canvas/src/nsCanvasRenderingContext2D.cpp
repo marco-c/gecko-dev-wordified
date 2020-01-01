@@ -7467,6 +7467,16 @@ jsval
 matrix
 )
 {
+if
+(
+!
+EnsureSurface
+(
+)
+)
+return
+NS_ERROR_FAILURE
+;
 gfxMatrix
 ctm
 =

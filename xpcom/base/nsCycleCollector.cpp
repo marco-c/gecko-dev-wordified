@@ -1154,6 +1154,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsICycleCollectorListener
 .
 h
@@ -7133,6 +7142,7 @@ mType
 ;
 class
 nsCycleCollectorLogger
+MOZ_FINAL
 :
 public
 nsICycleCollectorListener
@@ -7431,9 +7441,6 @@ endif
 +
 gLogCounter
 ;
-#
-ifdef
-DEBUG
 /
 /
 Dump
@@ -7517,8 +7524,6 @@ fclose
 gcDumpFile
 )
 ;
-#
-endif
 /
 /
 Open
@@ -7609,9 +7614,6 @@ get
 )
 )
 ;
-#
-ifdef
-DEBUG
 cs
 -
 >
@@ -7627,8 +7629,6 @@ get
 )
 )
 ;
-#
-endif
 }
 return
 NS_OK
@@ -16712,6 +16712,14 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+XPCOM
+CC
+"
+)
+;
 #
 ifdef
 XP_WIN

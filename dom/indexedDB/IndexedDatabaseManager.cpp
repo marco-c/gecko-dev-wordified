@@ -1318,6 +1318,15 @@ new
 LazyIdleThread
 (
 DEFAULT_THREAD_TIMEOUT_MS
+NS_LITERAL_CSTRING
+(
+"
+IndexedDB
+I
+/
+O
+"
+)
 LazyIdleThread
 :
 :

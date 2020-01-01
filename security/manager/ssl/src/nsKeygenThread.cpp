@@ -512,6 +512,13 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Keygen
+"
+)
+;
 nsKeygenThread
 *
 self

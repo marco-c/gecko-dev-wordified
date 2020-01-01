@@ -6504,6 +6504,7 @@ word
 caches
 class
 MemoryPressureObserver
+MOZ_FINAL
 :
 public
 nsIObserver

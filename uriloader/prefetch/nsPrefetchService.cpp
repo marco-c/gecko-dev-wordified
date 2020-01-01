@@ -226,6 +226,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -706,6 +715,7 @@ nsPrefetchQueueEnumerator
 -
 class
 nsPrefetchQueueEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

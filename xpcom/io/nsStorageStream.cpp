@@ -247,6 +247,15 @@ prlog
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -1801,6 +1810,7 @@ single
 nsStorageStream
 class
 nsStorageInputStream
+MOZ_FINAL
 :
 public
 nsIInputStream

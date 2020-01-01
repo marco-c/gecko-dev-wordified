@@ -354,6 +354,7 @@ eDOMEvents_MozRotateGestureUpdate
 eDOMEvents_MozRotateGesture
 eDOMEvents_MozTapGesture
 eDOMEvents_MozPressTapGesture
+eDOMEvents_MozEdgeUIGesture
 eDOMEvents_MozTouchDown
 eDOMEvents_MozTouchMove
 eDOMEvents_MozTouchUp

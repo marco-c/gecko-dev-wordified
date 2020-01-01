@@ -23762,8 +23762,12 @@ thread
 .
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+URL
+Classifier
+"
 &
 gDbBackgroundThread
 )

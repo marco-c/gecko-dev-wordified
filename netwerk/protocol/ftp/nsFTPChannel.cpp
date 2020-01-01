@@ -208,6 +208,15 @@ nsURLHelper
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -1193,6 +1202,7 @@ namespace
 {
 class
 FTPEventSinkProxy
+MOZ_FINAL
 :
 public
 nsIFTPEventSink

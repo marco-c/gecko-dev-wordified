@@ -1774,7 +1774,7 @@ init
 )
 )
 return
-NULL
+false
 ;
 RootedObject
 obj

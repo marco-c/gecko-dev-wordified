@@ -186,6 +186,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 rdfIDataSource
 .
 h
@@ -6267,6 +6276,7 @@ n
 }
 class
 QNameCollector
+MOZ_FINAL
 :
 public
 rdfITripleVisitor

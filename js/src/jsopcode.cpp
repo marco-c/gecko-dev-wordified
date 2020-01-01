@@ -11939,7 +11939,7 @@ LOCAL_ASSERT_RV
 (
 *
 varAtom
-NULL
+false
 )
 ;
 return
@@ -11988,7 +11988,7 @@ LOCAL_ASSERT_RV
 (
 *
 varAtom
-NULL
+false
 )
 ;
 return

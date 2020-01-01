@@ -253,6 +253,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -2378,6 +2387,7 @@ fit
 ;
 class
 xptiInterfaceInfo
+MOZ_FINAL
 :
 public
 nsIInterfaceInfo
@@ -3206,6 +3216,7 @@ mParent
 /
 class
 xptiInterfaceInfoManager
+MOZ_FINAL
 :
 public
 nsIInterfaceInfoSuperManager

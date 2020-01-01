@@ -8490,6 +8490,15 @@ lastEventTime
 bool
 newDynLower
 =
+mDocument
+-
+>
+IsInBackgroundWindow
+(
+)
+|
+|
+(
 (
 currentTime
 -
@@ -8511,6 +8520,7 @@ lastEventTime
 PRUint32
 (
 sInteractiveTime
+)
 )
 ;
 if

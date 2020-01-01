@@ -191,8 +191,18 @@ nsIRDFLiteral
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 TriplesVisitor
+MOZ_FINAL
 :
 public
 rdfITripleVisitor
@@ -685,6 +695,7 @@ wroteCount
 }
 class
 rdfTriplesSerializer
+MOZ_FINAL
 :
 public
 rdfISerializer

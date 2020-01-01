@@ -94,7 +94,7 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_BACKGROUND
+PREF_APP_UPDATE_STAGE_ENABLED
 false
 )
 ;

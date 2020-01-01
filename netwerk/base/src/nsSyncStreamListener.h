@@ -97,6 +97,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 -
@@ -178,6 +187,7 @@ h
 -
 class
 nsSyncStreamListener
+MOZ_FINAL
 :
 public
 nsISyncStreamListener

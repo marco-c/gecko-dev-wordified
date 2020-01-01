@@ -1696,8 +1696,12 @@ if
 mAudioPlaybackThread
 )
 {
-NS_NewThread
+NS_NewNamedThread
 (
+"
+Audio
+Stream
+"
 getter_AddRefs
 (
 mAudioPlaybackThread

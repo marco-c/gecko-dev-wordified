@@ -20322,13 +20322,6 @@ framebuffer
 )
 ;
 }
-else
-{
-EnsureBackbufferClearedAsNeeded
-(
-)
-;
-}
 /
 /
 Now

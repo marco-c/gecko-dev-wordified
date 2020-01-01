@@ -1143,10 +1143,6 @@ SVGEvent
 )
 DOMCI_CLASS
 (
-SVGException
-)
-DOMCI_CLASS
-(
 SVGLength
 )
 DOMCI_CLASS
@@ -1344,10 +1340,6 @@ objects
 DOMCI_CLASS
 (
 XPathEvaluator
-)
-DOMCI_CLASS
-(
-XPathException
 )
 DOMCI_CLASS
 (
@@ -1898,6 +1890,14 @@ DOMCI_CLASS
 (
 MozSettingsEvent
 )
+DOMCI_CLASS
+(
+MozContactChangeEvent
+)
+DOMCI_CLASS
+(
+MozApplicationEvent
+)
 #
 ifdef
 MOZ_B2G_RIL
@@ -1935,6 +1935,10 @@ DOMError
 DOMCI_CLASS
 (
 DOMRequest
+)
+DOMCI_CLASS
+(
+OpenWindowEventDetail
 )
 DOMCI_CLASS
 (

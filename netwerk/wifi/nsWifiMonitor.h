@@ -136,6 +136,15 @@ nsTArray
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifndef
 __nsWifiMonitor__
 #
@@ -209,6 +218,7 @@ mHasSentData
 ;
 class
 nsWifiMonitor
+MOZ_FINAL
 :
 nsIRunnable
 nsIWifiMonitor

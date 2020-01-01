@@ -99,6 +99,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 This
@@ -132,6 +141,7 @@ class
 /
 class
 nsAuthSASL
+MOZ_FINAL
 :
 public
 nsIAuthModule

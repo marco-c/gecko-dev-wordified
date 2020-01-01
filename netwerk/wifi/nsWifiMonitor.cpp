@@ -538,6 +538,7 @@ NS_OK
 }
 class
 nsPassErrorToWifiListeners
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -679,6 +680,14 @@ n
 )
 )
 ;
+PR_SetCurrentThreadName
+(
+"
+Wifi
+Monitor
+"
+)
+;
 nsresult
 rv
 =
@@ -816,6 +825,7 @@ NS_OK
 }
 class
 nsCallWifiListeners
+MOZ_FINAL
 :
 public
 nsIRunnable

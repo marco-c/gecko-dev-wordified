@@ -137,6 +137,15 @@ Mutex
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_CATEGORYMANAGER_CLASSNAME
 "
@@ -517,6 +526,7 @@ safe
 /
 class
 nsCategoryManager
+MOZ_FINAL
 :
 public
 nsICategoryManager

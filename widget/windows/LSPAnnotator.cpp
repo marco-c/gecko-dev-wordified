@@ -304,6 +304,14 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+LSP
+Annotator
+"
+)
+;
 mThread
 =
 NS_GetCurrentThread
