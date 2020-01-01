@@ -17599,6 +17599,11 @@ js_TraceRuntimeNumberState
 trc
 )
 ;
+js_MarkTraps
+(
+trc
+)
+;
 iter
 =
 NULL
