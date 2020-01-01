@@ -10139,6 +10139,9 @@ nsIOutputStream
 >
 bufferedOut
 ;
+nsresult
+rv
+=
 NS_NewBufferedOutputStream
 (
 getter_AddRefs
@@ -10151,13 +10154,11 @@ out
 1024
 )
 ;
-if
+NS_ENSURE_SUCCESS
 (
-!
-bufferedOut
+rv
+rv
 )
-return
-NS_ERROR_UNEXPECTED
 ;
 bufferedOut
 .

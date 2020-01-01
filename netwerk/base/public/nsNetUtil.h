@@ -5487,6 +5487,7 @@ return
 rv
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 inline
 nsresult
 NS_NewBufferedInputStream
