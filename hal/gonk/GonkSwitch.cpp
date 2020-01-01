@@ -1734,7 +1734,7 @@ sSwitchObserver
 ;
 sSwitchObserver
 =
-NULL
+nullptr
 ;
 }
 }

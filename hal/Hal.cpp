@@ -1329,7 +1329,7 @@ for
 mObservers
 to
 be
-NULL
+nullptr
 here
 on
 some
@@ -3181,7 +3181,7 @@ SwitchObserverList
 *
 sSwitchObserverLists
 =
-NULL
+nullptr
 ;
 static
 SwitchObserverList
@@ -3210,7 +3210,7 @@ if
 sSwitchObserverLists
 =
 =
-NULL
+nullptr
 )
 {
 sSwitchObserverLists
@@ -3290,7 +3290,7 @@ sSwitchObserverLists
 ;
 sSwitchObserverLists
 =
-NULL
+nullptr
 ;
 }
 void

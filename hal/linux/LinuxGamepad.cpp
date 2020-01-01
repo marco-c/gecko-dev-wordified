@@ -725,7 +725,7 @@ dev
 "
 input
 "
-NULL
+nullptr
 )
 ;
 if

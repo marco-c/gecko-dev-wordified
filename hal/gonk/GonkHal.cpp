@@ -1094,7 +1094,7 @@ Wait
 }
 sVibratorRunnable
 =
-NULL
+nullptr
 ;
 return
 NS_OK
@@ -1826,7 +1826,7 @@ sBatteryObserver
 ;
 sBatteryObserver
 =
-NULL
+nullptr
 ;
 }
 void
@@ -3193,7 +3193,7 @@ will
 be
 initialized
 to
-NULL
+nullptr
 light_device_t
 *
 GetDevice
@@ -3249,7 +3249,7 @@ device
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3265,7 +3265,7 @@ that
 if
 backlight
 is
-NULL
+nullptr
 nothing
 has
 been
@@ -3525,7 +3525,7 @@ light
 ]
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3670,7 +3670,7 @@ light
 ]
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4455,7 +4455,7 @@ AlarmData
 *
 sAlarmData
 =
-NULL
+nullptr
 ;
 class
 AlarmFiredEvent
@@ -4873,7 +4873,7 @@ pthread_cleanup_pop
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -4988,7 +4988,7 @@ sigaction
 SIGUSR1
 &
 actions
-NULL
+nullptr
 )
 )
 {
@@ -5089,7 +5089,7 @@ status
 {
 alarmData
 =
-NULL
+nullptr
 ;
 delete
 sInternalLockCpuMonitor
@@ -5177,7 +5177,7 @@ cancellation
 .
 sAlarmData
 =
-NULL
+nullptr
 ;
 /
 /
