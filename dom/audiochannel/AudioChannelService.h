@@ -271,6 +271,8 @@ AudioChannelAgent
 aAgent
 AudioChannelType
 aType
+bool
+aWithVideo
 )
 ;
 /
@@ -492,6 +494,8 @@ AudioChannelType
 aType
 uint64_t
 aChildID
+bool
+aWithVideo
 )
 ;
 void
@@ -503,6 +507,8 @@ bool
 aElementHidden
 uint64_t
 aChildID
+bool
+aWithVideo
 )
 ;
 void
@@ -514,6 +520,8 @@ bool
 aElementHidden
 uint64_t
 aChildID
+bool
+aWithVideo
 )
 ;
 AudioChannelState
@@ -659,6 +667,8 @@ bool
 aElementHidden
 AudioChannelState
 aState
+bool
+aWithVideo
 )
 :
 mType
@@ -673,6 +683,10 @@ mState
 (
 aState
 )
+mWithVideo
+(
+aWithVideo
+)
 {
 }
 AudioChannelType
@@ -683,6 +697,10 @@ mElementHidden
 ;
 AudioChannelState
 mState
+;
+const
+bool
+mWithVideo
 ;
 }
 ;
@@ -731,6 +749,12 @@ nsTArray
 uint64_t
 >
 mActiveContentChildIDs
+;
+nsTArray
+<
+uint64_t
+>
+mWithVideoChildIDs
 ;
 bool
 mActiveContentChildIDsFrozen

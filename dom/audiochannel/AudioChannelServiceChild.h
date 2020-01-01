@@ -211,6 +211,8 @@ AudioChannelAgent
 aAgent
 AudioChannelType
 aType
+bool
+aWithVideo
 )
 ;
 virtual

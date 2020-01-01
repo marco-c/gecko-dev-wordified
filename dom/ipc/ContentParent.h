@@ -2535,6 +2535,10 @@ const
 AudioChannelType
 &
 aType
+const
+bool
+&
+aWithVideo
 )
 ;
 virtual
@@ -2549,6 +2553,10 @@ const
 bool
 &
 aElementHidden
+const
+bool
+&
+aWithVideo
 )
 ;
 virtual
