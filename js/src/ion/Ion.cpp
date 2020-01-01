@@ -943,12 +943,14 @@ compartment
 {
 if
 (
+!
 compartment
 -
 >
 active
 )
-{
+return
+;
 /
 /
 These
@@ -1069,7 +1071,6 @@ bailoutTable
 "
 )
 ;
-}
 }
 }
 void
@@ -2691,7 +2692,6 @@ just
 don
 '
 t
-support
 support
 /
 /

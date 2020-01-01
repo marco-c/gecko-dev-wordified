@@ -1137,7 +1137,7 @@ return
 !
 snapshots_
 .
-outOfMemory
+oom
 (
 )
 ;

@@ -482,7 +482,11 @@ x86
 h
 "
 #
-else
+elif
+defined
+(
+JS_CPU_X64
+)
 #
 include
 "
@@ -495,6 +499,14 @@ Bailouts
 x64
 .
 h
+"
+#
+else
+#
+error
+"
+CPU
+!
 "
 #
 endif

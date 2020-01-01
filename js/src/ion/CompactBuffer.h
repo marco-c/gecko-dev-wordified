@@ -1166,7 +1166,7 @@ buffer_
 ;
 }
 bool
-outOfMemory
+oom
 (
 )
 const
