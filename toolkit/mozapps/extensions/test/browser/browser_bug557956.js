@@ -715,6 +715,14 @@ page_shown
 aEvent
 )
 {
+if
+(
+aEvent
+.
+target
+.
+pageid
+)
 info
 (
 "
@@ -725,7 +733,7 @@ aEvent
 .
 target
 .
-id
+pageid
 +
 "
 shown

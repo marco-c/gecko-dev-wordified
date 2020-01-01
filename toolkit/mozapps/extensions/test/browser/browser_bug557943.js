@@ -44,6 +44,9 @@ results
 var
 gManagerWindow
 ;
+var
+gProvider
+;
 function
 test
 (
