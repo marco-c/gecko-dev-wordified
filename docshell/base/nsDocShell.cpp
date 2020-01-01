@@ -542,13 +542,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIScriptObjectPrincipal
 .
 h

@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIWindowMediator
 .
 h

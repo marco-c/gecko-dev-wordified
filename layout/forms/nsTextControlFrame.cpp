@@ -569,13 +569,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h
