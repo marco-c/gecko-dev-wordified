@@ -765,14 +765,6 @@ aInitData
 nsnull
 )
 ;
-NS_IMETHOD
-PreCreateWidget
-(
-nsWidgetInitData
-*
-aWidgetInitData
-)
-;
 gfxASurface
 *
 GetThebesSurface

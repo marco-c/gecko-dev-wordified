@@ -455,15 +455,6 @@ aInitData
 mWindowType
 =
 =
-eWindowType_java
-|
-|
-aInitData
--
->
-mWindowType
-=
-=
 eWindowType_plugin
 "
 The

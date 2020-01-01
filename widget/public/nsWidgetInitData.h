@@ -530,12 +530,6 @@ eWindowType_plugin
 /
 plugin
 window
-eWindowType_java
-/
-/
-java
-plugin
-window
 eWindowType_sheet
 /
 /

@@ -2991,6 +2991,9 @@ mWindowType
 )
 {
 case
+eWindowType_plugin
+:
+case
 eWindowType_child
 :
 style

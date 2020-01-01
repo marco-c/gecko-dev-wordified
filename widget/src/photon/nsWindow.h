@@ -527,14 +527,6 @@ nsRect
 aNewRect
 )
 ;
-NS_IMETHOD
-PreCreateWidget
-(
-nsWidgetInitData
-*
-aWidgetInitData
-)
-;
 virtual
 void
 *
