@@ -573,7 +573,7 @@ const
 PRUint32
 kDefaultThreadTimeoutMS
 =
-30000
+5000
 ;
 class
 OpenDatabaseHelper
