@@ -454,6 +454,17 @@ Init
 private
 :
 nsresult
+GetBaseDomain
+(
+nsIURI
+*
+aHostURI
+nsCString
+&
+aBaseDomain
+)
+;
+nsresult
 IsThirdPartyInternal
 (
 const
