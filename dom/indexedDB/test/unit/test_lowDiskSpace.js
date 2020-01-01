@@ -258,7 +258,7 @@ data
 ;
 SpecialPowers
 .
-notifyObservers
+notifyObserversInParentProcess
 (
 null
 "
