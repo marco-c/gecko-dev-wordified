@@ -12602,16 +12602,13 @@ pn_dval
 )
 )
 :
+ATOM_HASH
 (
-JSDHashNumber
-)
 pnkey
 -
 >
 pn_atom
--
->
-number
+)
 ;
 }
 JS_STATIC_DLL_CALLBACK
@@ -35932,7 +35929,7 @@ pn
 >
 pn_op
 =
-JSOP_NUMBER
+JSOP_DOUBLE
 ;
 }
 break
@@ -36545,7 +36542,7 @@ pn
 >
 pn_op
 =
-JSOP_NUMBER
+JSOP_DOUBLE
 ;
 pn
 -
@@ -40290,7 +40287,7 @@ pn
 >
 pn_op
 =
-JSOP_NUMBER
+JSOP_DOUBLE
 ;
 pn
 -
