@@ -3161,7 +3161,7 @@ if
 !
 this
 .
-_connected
+mainRoot
 )
 {
 throw
@@ -3440,7 +3440,7 @@ if
 !
 this
 .
-_connected
+mainRoot
 )
 {
 /
@@ -3448,12 +3448,6 @@ _connected
 Hello
 packet
 .
-this
-.
-_connected
-=
-true
-;
 this
 .
 mainRoot
