@@ -5981,11 +5981,6 @@ return
 PR_FALSE
 ;
 }
-void
-UpdateEditableFormControlState
-(
-)
-;
 PRBool
 IsSingleLineTextControlInternal
 (
