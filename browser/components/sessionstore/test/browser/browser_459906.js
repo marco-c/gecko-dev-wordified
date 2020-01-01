@@ -416,9 +416,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 /
@@ -764,9 +762,7 @@ is
 (
 innerDomain
 "
-mochi
-.
-test
+localhost
 "
 "
 XSS
