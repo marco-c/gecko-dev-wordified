@@ -5439,7 +5439,7 @@ emptyClipboard
 clear
 the
 windows
-clipbaord
+clipboard
 .
 *
 /
