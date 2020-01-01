@@ -1160,6 +1160,7 @@ sFontSpecificationMap
 sGradientStopMap
 sGraphicsMap
 sMarkersMap
+sMaskMap
 sTextContentElementsMap
 sViewportsMap
 }

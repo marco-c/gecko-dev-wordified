@@ -1464,6 +1464,11 @@ all_scroll
 )
 CSS_KEY
 (
+alpha
+alpha
+)
+CSS_KEY
+(
 alternate
 alternate
 )
@@ -2311,6 +2316,11 @@ CSS_KEY
 (
 ltr
 ltr
+)
+CSS_KEY
+(
+luminance
+luminance
 )
 CSS_KEY
 (

@@ -535,6 +535,13 @@ sLightingEffectsMap
 [
 ]
 ;
+static
+const
+MappedAttributeEntry
+sMaskMap
+[
+]
+;
 /
 /
 nsIDOMNode
