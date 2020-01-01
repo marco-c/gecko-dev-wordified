@@ -2848,9 +2848,9 @@ gfxPlatform
 GetCMSMode
 (
 )
+!
 =
-=
-eCMSMode_Off
+eCMSMode_All
 )
 &
 &
