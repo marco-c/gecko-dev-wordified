@@ -5256,7 +5256,7 @@ pt
 .
 x
 0
-PR_MAX
+NS_MAX
 (
 gAndroidBounds
 .
@@ -5277,7 +5277,7 @@ pt
 .
 y
 0
-PR_MAX
+NS_MAX
 (
 gAndroidBounds
 .
