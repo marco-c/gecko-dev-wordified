@@ -522,10 +522,6 @@ UserDataHandler
 )
 DOMCI_CLASS
 (
-GeoPositionError
-)
-DOMCI_CLASS
-(
 LoadStatus
 )
 DOMCI_CLASS
