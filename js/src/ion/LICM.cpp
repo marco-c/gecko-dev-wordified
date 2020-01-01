@@ -656,6 +656,10 @@ MIRGraph
 graph
 )
 :
+graph
+(
+graph
+)
 footer_
 (
 footer
@@ -663,10 +667,6 @@ footer
 header_
 (
 header
-)
-graph
-(
-graph
 )
 {
 preLoop_

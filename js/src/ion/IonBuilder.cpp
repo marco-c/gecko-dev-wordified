@@ -7673,6 +7673,10 @@ New
 this
 predecessor
 pc
+MBasicBlock
+:
+:
+NORMAL
 )
 ;
 if

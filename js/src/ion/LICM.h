@@ -637,11 +637,11 @@ header
 .
 MBasicBlock
 *
-header_
+footer_
 ;
 MBasicBlock
 *
-footer_
+header_
 ;
 /
 /
