@@ -1182,6 +1182,13 @@ nsRenderingContext
 h
 "
 #
+include
+"
+nsAutoLayoutPhase
+.
+h
+"
+#
 ifdef
 MOZ_REFLOW_PERF
 #

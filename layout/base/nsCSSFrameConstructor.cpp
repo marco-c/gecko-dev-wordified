@@ -1015,6 +1015,13 @@ FrameLayerBuilder
 h
 "
 #
+include
+"
+nsAutoLayoutPhase
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
