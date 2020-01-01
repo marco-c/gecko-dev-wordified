@@ -1933,15 +1933,6 @@ shader
 program
 if
 necessary
-/
-/
-XXX
-Can
-the
-context
-'
-s
-LayerRenderer
 if
 (
 mProgram
