@@ -1659,7 +1659,7 @@ sf
 return
 NS_ERROR_FAILURE
 ;
-nsIntPoint
+CSSIntPoint
 pt
 =
 sf
