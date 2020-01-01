@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+WebGLObjectModel
+.
+h
+"
+#
+include
+"
 WebGLShader
 .
 h

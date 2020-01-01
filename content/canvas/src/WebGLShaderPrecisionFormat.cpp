@@ -103,6 +103,13 @@ h
 #
 include
 "
+WebGLShaderPrecisionFormat
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
