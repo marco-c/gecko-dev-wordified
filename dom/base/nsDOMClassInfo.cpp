@@ -3338,6 +3338,13 @@ h
 #
 include
 "
+DOMSVGTransformList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -5952,8 +5959,8 @@ DOM_DEFAULT_SCRIPTABLE_FLAGS
 NS_DEFINE_CLASSINFO_DATA
 (
 SVGTransformList
-nsDOMGenericSH
-DOM_DEFAULT_SCRIPTABLE_FLAGS
+nsSVGTransformListSH
+ARRAY_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (

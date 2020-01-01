@@ -534,6 +534,9 @@ DOMSVGPathSegList
 class
 DOMSVGPointList
 ;
+class
+DOMSVGTransformList
+;
 }
 class
 nsGlobalWindow
@@ -588,9 +591,6 @@ nsIHTMLDocument
 ;
 class
 nsNPAPIPluginInstance
-;
-class
-nsSVGTransformList
 ;
 struct
 nsDOMClassInfoData
@@ -7396,6 +7396,17 @@ mozilla
 DOMSVGPointList
 >
 nsSVGPointListSH
+;
+typedef
+nsSVGListSH
+<
+nsIDOMSVGTransformList
+mozilla
+:
+:
+DOMSVGTransformList
+>
+nsSVGTransformListSH
 ;
 #
 endif
