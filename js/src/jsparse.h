@@ -4315,16 +4315,6 @@ has
 holes
 *
 /
-#
-define
-PNX_CLOSED
-0x800
-/
-*
-closed
-over
-*
-/
 uintN
 frameLevel
 (
