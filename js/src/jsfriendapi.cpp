@@ -4168,6 +4168,12 @@ rt
 DumpHeapVisitRoot
 )
 ;
+dtrc
+.
+eagerlyTraceWeakMaps
+=
+TraceWeakMapKeysValues
+;
 TraceRuntime
 (
 &
