@@ -1323,16 +1323,15 @@ isRope
 isDependent
 isFlat
 isAtom
-isStaticAtom
 )
 which
 in
 view
 of
 subtyping
-*
 would
 require
+*
 slower
 (
 isX
@@ -1528,10 +1527,6 @@ ShortAtom
 is
 Short
 *
-StaticAtom
-0000
-0000
-*
 /
 static
 const
@@ -1623,7 +1618,7 @@ JS_BITMASK
 static
 const
 size_t
-NON_STATIC_ATOM_FLAGS
+ATOM_FLAGS
 =
 JS_BIT
 (

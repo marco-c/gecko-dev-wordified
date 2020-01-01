@@ -512,9 +512,6 @@ class
 JSFixedString
 ;
 class
-JSStaticAtom
-;
-class
 JSRope
 ;
 class
