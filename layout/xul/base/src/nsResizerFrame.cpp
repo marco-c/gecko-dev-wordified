@@ -2374,7 +2374,6 @@ aEvent
 aEventStatus
 )
 ;
-else
 return
 NS_OK
 ;
@@ -2992,6 +2991,11 @@ bottomright
 nsGkAtoms
 :
 :
+bottomstart
+&
+nsGkAtoms
+:
+:
 bottomend
 nsnull
 }
@@ -3039,6 +3043,11 @@ directions
 1
 }
 {
+1
+1
+}
+{
+-
 1
 1
 }

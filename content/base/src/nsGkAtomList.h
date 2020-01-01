@@ -1370,6 +1370,13 @@ bottomend
 )
 GK_ATOM
 (
+bottomstart
+"
+bottomstart
+"
+)
+GK_ATOM
+(
 bottomleft
 "
 bottomleft
