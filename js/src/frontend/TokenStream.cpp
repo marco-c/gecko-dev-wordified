@@ -11923,10 +11923,6 @@ if
 hadUnicodeEscape
 )
 {
-c
-=
-qc
-;
 identStart
 =
 userbuf

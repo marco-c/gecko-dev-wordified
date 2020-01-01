@@ -1544,12 +1544,6 @@ abbrev
 return
 false
 ;
-mark
-=
-i
-+
-1
-;
 }
 else
 {
