@@ -8510,8 +8510,6 @@ this
 categoryForScriptError
 (
 aMessage
-.
-category
 )
 ;
 this
