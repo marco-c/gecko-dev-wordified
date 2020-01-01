@@ -14339,7 +14339,7 @@ const
 uint32_t
 kMaxLength
 =
-0x7fff
+32
 ;
 /
 /
