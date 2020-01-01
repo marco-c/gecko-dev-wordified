@@ -13570,7 +13570,7 @@ wrapper
 wrapper
 -
 >
-RefreshPrototype
+FinishInitForWrappedGlobal
 (
 )
 ;
