@@ -3283,7 +3283,7 @@ to
 observerService
 instead
 .
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 StartupCacheListener
 nsIObserver
@@ -4034,7 +4034,7 @@ gStartupCacheWrapper
 =
 nullptr
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 StartupCacheWrapper
 nsIStartupCache
