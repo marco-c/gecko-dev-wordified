@@ -1453,6 +1453,9 @@ PRIntervalTime
 mLastReadTime
 ;
 PRIntervalTime
+mLastWriteTime
+;
+PRIntervalTime
 mMaxHangTime
 ;
 /
