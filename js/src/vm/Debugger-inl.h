@@ -134,6 +134,7 @@ inl
 .
 h
 "
+inline
 bool
 js
 :

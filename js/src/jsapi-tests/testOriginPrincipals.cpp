@@ -70,13 +70,6 @@ jsdbgapi
 .
 h
 "
-#
-include
-"
-jsobjinlines
-.
-h
-"
 JSPrincipals
 *
 sOriginPrincipalsInErrorReporter

@@ -121,13 +121,6 @@ jsiter
 .
 h
 "
-#
-include
-"
-jsobjinlines
-.
-h
-"
 inline
 bool
 JSObject

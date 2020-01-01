@@ -121,6 +121,13 @@ NumberObject
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 namespace
 js
 {

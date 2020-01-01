@@ -134,13 +134,6 @@ StringBuffer
 .
 h
 "
-#
-include
-"
-jsobjinlines
-.
-h
-"
 BEGIN_TEST
 (
 testStringBuffer_finishString

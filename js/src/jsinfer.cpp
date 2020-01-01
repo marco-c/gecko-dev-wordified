@@ -286,14 +286,14 @@ h
 #
 include
 "
-jsobjinlines
+jsopcodeinlines
 .
 h
 "
 #
 include
 "
-jsopcodeinlines
+jsobjinlines
 .
 h
 "

@@ -121,6 +121,13 @@ StringObject
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 namespace
 js
 {

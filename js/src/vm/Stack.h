@@ -1897,7 +1897,6 @@ rval
 )
 const
 ;
-inline
 bool
 hasPushedSPSFrame
 (

@@ -161,6 +161,13 @@ h
 #
 include
 "
+jsfuninlines
+.
+h
+"
+#
+include
+"
 vm
 /
 String
