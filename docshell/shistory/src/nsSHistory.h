@@ -171,7 +171,7 @@ h
 #
 include
 "
-nsIObserver
+nsTObserverArray
 .
 h
 "
@@ -567,9 +567,13 @@ mRequestedIndex
 /
 Session
 History
-listener
+listeners
+nsAutoTObserverArray
+<
 nsWeakPtr
-mListener
+2
+>
+mListeners
 ;
 /
 /
