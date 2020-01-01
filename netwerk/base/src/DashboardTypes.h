@@ -208,14 +208,6 @@ ssl
 ;
 }
 ;
-struct
-ConnStatus
-{
-nsString
-creationSts
-;
-}
-;
 }
 }
 #
