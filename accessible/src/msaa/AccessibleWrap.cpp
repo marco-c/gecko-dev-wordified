@@ -918,7 +918,7 @@ ppv
 HRESULT
 hr
 =
-CAccessibleHyperlink
+ia2AccessibleHyperlink
 :
 :
 QueryInterface
