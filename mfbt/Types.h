@@ -768,5 +768,7 @@ JS_END_EXTERN_C
 #
 endif
 /
-/
+*
 mozilla_Types_h_
+*
+/

@@ -680,8 +680,10 @@ void
 #
 endif
 /
-/
+*
 DEBUG
+*
+/
 #
 ifdef
 __cplusplus
