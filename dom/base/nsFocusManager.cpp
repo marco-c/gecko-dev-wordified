@@ -1799,9 +1799,10 @@ aWindow
 ;
 NS_ASSERTION
 (
+!
 piWindow
-&
-&
+|
+|
 piWindow
 -
 >
