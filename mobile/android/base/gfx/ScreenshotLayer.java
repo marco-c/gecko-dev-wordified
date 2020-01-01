@@ -232,17 +232,6 @@ GeckoScreenshot
 "
 ;
 public
-static
-int
-getMaxNumPixels
-(
-)
-{
-return
-SCREENSHOT_SIZE_LIMIT
-;
-}
-public
 void
 reset
 (
