@@ -1877,10 +1877,6 @@ mDecoder
 (
 aDecoder
 )
-mDataOffset
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
