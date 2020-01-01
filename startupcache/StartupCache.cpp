@@ -1390,9 +1390,6 @@ PRUint32
 length
 )
 {
-PRBool
-exists
-;
 char
 *
 data
