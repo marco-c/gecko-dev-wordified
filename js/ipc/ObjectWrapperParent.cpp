@@ -111,6 +111,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 jsipc
 /
 ObjectWrapperParent
@@ -232,7 +241,7 @@ mObj
 unsigned
 mOldFlags
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 static
 unsigned
 GetFlags
@@ -305,7 +314,7 @@ AutoResolveFlag
 JSObject
 *
 obj
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mObj
@@ -326,7 +335,7 @@ CPOW_FLAG_RESOLVING
 )
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 ~
@@ -405,7 +414,7 @@ AutoCheckOperation
 public
 ACOBase
 {
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 AutoCheckOperation
@@ -416,7 +425,7 @@ cx
 ObjectWrapperParent
 *
 owp
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ACOBase
@@ -425,7 +434,7 @@ cx
 owp
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 }
