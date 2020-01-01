@@ -1524,7 +1524,7 @@ Heap
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -2432,7 +2432,7 @@ bits
 0
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -3023,7 +3023,7 @@ dummy
 0
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -3089,7 +3089,7 @@ js
 NullPtr
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 mozilla
 :
@@ -3157,7 +3157,7 @@ JS
 NullPtr
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 mozilla
 :
@@ -7074,7 +7074,7 @@ T
 root
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

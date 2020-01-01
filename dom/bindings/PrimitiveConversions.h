@@ -1344,7 +1344,7 @@ T
 retval
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 std
 :
@@ -1533,7 +1533,7 @@ T
 retval
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 std
 :

@@ -5103,7 +5103,7 @@ Primitives
 Type
 PrimType
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6410,7 +6410,7 @@ sized
 types
 everywhere
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6471,7 +6471,7 @@ integral
 types
 here
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsIntegral
 <

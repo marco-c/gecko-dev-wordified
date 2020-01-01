@@ -54,7 +54,7 @@ the
 .
 h
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 (
@@ -80,7 +80,7 @@ type
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

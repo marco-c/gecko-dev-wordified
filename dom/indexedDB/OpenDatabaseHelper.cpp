@@ -236,7 +236,7 @@ major
 schema
 version
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 JS_STRUCTURED_CLONE_VERSION
 =
@@ -357,7 +357,7 @@ max
 is
 0xF
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 kMajorSchemaVersion
 <
@@ -376,7 +376,7 @@ bits
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 kMinorSchemaVersion
 <
@@ -10514,7 +10514,7 @@ change
 the
 schema
 !
-MOZ_STATIC_ASSERT
+static_assert
 (
 kSQLiteSchemaVersion
 =

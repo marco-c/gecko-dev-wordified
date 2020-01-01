@@ -5381,7 +5381,7 @@ break
 case
 eCSSProperty_paint_order
 :
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_PAINT_ORDER_BITWIDTH
 *
@@ -9408,7 +9408,7 @@ return
 n
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_SIDE_TOP
 =
@@ -11694,7 +11694,7 @@ Reset
 ;
 }
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_CORNER_TOP_LEFT
 =

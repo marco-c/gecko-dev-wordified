@@ -3828,7 +3828,7 @@ a
 b
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 nsIXULRuntime
 :
@@ -3899,7 +3899,7 @@ all
 of
 them
 :
-MOZ_STATIC_ASSERT
+static_assert
 (
 GeckoProcessType_IPDLUnitTest
 +

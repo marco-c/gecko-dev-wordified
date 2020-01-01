@@ -6132,7 +6132,7 @@ defined
 (
 HAVE_CPP_CHAR16_T
 )
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6163,7 +6163,7 @@ u
 s
 #
 else
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6389,7 +6389,7 @@ is
 unsigned
 *
 /
-MOZ_STATIC_ASSERT
+static_assert
 (
 PRUnichar
 (

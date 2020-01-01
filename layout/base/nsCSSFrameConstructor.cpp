@@ -59531,7 +59531,7 @@ kMaxDepth
 *
 MAX_REFLOW_DEPTH
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 kMaxDepth
 <

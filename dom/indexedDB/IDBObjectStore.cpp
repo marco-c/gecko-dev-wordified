@@ -6314,7 +6314,7 @@ FileHandleData
 aRetval
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 SCTAG_DOM_FILEHANDLE
 =
@@ -6410,7 +6410,7 @@ BlobOrFileData
 aRetval
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 SCTAG_DOM_BLOB
 =
@@ -6728,7 +6728,7 @@ them
 they
 notice
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 SCTAG_DOM_BLOB
 =

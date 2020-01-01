@@ -3190,7 +3190,7 @@ newSize
 ~
 4095
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

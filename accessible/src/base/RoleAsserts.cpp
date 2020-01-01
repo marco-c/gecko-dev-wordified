@@ -154,7 +154,7 @@ ia2Role
 nameRule
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 static_cast
 <

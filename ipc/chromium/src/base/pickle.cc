@@ -179,7 +179,7 @@ algorithm
 -
 -
 -
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ALIGNOF
 (
@@ -521,7 +521,7 @@ hiIndex
 ;
 #
 endif
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ALIGNOF
 (
@@ -706,7 +706,7 @@ t
 be
 here
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ALIGNOF
 (
@@ -765,7 +765,7 @@ void
 iter
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 mozilla
 :

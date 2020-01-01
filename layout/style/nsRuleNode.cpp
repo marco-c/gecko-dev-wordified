@@ -20417,7 +20417,7 @@ never
 inherit
 !
 )
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_FONT_CAPTION
 =
@@ -37855,7 +37855,7 @@ GetUnit
 )
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 nsStyleBackground
 :
@@ -50129,7 +50129,7 @@ break
 case
 eCSSUnit_Enumerated
 :
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_PAINT_ORDER_BITWIDTH
 *

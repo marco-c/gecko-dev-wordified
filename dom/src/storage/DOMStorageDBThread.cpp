@@ -3601,7 +3601,7 @@ the
 timeout
 .
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 PR_INTERVAL_NO_TIMEOUT
 !

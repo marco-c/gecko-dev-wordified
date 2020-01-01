@@ -422,7 +422,7 @@ ex
 wild
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 ETLD_ENTRY_OFFSET
 (

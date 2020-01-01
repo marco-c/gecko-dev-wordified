@@ -274,7 +274,7 @@ MOZ_COUNT_CTOR
 CellData
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

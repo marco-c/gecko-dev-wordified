@@ -2141,7 +2141,7 @@ template
 functions
 and
 for
-MOZ_STATIC_ASSERT
+static_assert
 (
 )
 calls

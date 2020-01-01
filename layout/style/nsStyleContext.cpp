@@ -389,7 +389,7 @@ it
 needed
 to
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 UINT32_MAX

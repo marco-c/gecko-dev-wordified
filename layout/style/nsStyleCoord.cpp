@@ -1240,7 +1240,7 @@ side
 result
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_SIDE_IS_VERTICAL
 (
@@ -1291,7 +1291,7 @@ corner
 result
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_HALF_CORNER_IS_X
 (
@@ -1372,7 +1372,7 @@ corner
 result
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_HALF_TO_FULL_CORNER
 (
@@ -1454,7 +1454,7 @@ vert
 result
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_FULL_TO_HALF_CORNER
 (
@@ -1550,7 +1550,7 @@ second
 result
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_SIDE_TO_FULL_CORNER
 (
@@ -1636,7 +1636,7 @@ parallel
 result
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_SIDE_TO_HALF_CORNER
 (

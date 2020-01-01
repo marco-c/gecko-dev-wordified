@@ -19297,7 +19297,7 @@ StaticAsserts
 )
 const
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 eLastChildrenFlag
 <
@@ -19323,7 +19323,7 @@ eLastChildrenFlag
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 eLastStateFlag
 <
@@ -19349,7 +19349,7 @@ eLastStateFlag
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 eLastAccType
 <
@@ -19375,7 +19375,7 @@ eLastAccType
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 eLastAccGenericType
 <

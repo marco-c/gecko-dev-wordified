@@ -709,7 +709,7 @@ endif
 /
 system
 dependencies
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -731,7 +731,7 @@ uintptr_t
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

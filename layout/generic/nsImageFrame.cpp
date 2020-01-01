@@ -5697,7 +5697,7 @@ outside
 the
 image
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 eOverflowType_LENGTH
 =

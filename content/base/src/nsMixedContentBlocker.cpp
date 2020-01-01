@@ -1843,7 +1843,7 @@ amplifies
 these
 concerns
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 TYPE_DATAREQUEST
 =

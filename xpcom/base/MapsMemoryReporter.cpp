@@ -1529,7 +1529,7 @@ sizes
 we
 expect
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -1559,7 +1559,7 @@ int64_t
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -3111,7 +3111,7 @@ CategoriesSeen
 aCategoriesSeen
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

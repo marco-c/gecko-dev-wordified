@@ -3090,8 +3090,7 @@ actually
 inherits
 from
 T
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -3104,7 +3103,6 @@ U
 :
 :
 value
-)
 "
 U
 is
@@ -3550,8 +3548,7 @@ actually
 inherits
 from
 T
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -3564,7 +3561,6 @@ U
 :
 :
 value
-)
 "
 U
 is

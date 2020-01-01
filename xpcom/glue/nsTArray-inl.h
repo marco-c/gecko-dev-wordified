@@ -330,7 +330,7 @@ the
 auto
 array
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -842,7 +842,7 @@ less
 in
 nsAutoArrayBase
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

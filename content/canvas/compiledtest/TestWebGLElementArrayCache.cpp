@@ -1017,7 +1017,7 @@ types
 smaller
 than
 uint32_t
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

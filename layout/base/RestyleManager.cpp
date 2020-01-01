@@ -3707,7 +3707,7 @@ nsIFrame
 aFrame
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 0
 <
@@ -3727,7 +3727,7 @@ range
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 0
 <

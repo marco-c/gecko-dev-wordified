@@ -6117,7 +6117,7 @@ state
 .
 *
 /
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -7434,7 +7434,7 @@ DOM_CLASSINFO_MAP_ENTRY
 nsIDOMXULPopupElement
 )
 DOM_CLASSINFO_MAP_END
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ARRAY_LENGTH
 (

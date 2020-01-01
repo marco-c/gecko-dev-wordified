@@ -2235,7 +2235,7 @@ the
 length
 manually
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

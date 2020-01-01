@@ -1467,7 +1467,7 @@ nsAString
 aResult
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_PAINT_ORDER_BITWIDTH
 *
@@ -1522,7 +1522,7 @@ given
 paint
 order
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_PAINT_ORDER_LAST_VALUE
 =

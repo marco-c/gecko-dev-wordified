@@ -188,8 +188,7 @@ kFrameIID
 :
 {
 \
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -205,7 +204,6 @@ Has_NS_DECL_QUERYFRAME_TARGET
 :
 :
 value
-)
 \
 #
 class
@@ -254,8 +252,7 @@ condition
 )
 {
 \
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -271,7 +268,6 @@ Has_NS_DECL_QUERYFRAME_TARGET
 :
 :
 value
-)
 \
 #
 class
@@ -545,8 +541,7 @@ Dest
 (
 )
 {
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -563,7 +558,6 @@ Has_NS_DECL_QUERYFRAME_TARGET
 :
 :
 value
-)
 "
 Dest
 must

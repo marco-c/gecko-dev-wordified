@@ -600,7 +600,7 @@ SU
 S
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ARRAY_LENGTH
 (

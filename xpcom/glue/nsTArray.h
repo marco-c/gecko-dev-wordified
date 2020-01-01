@@ -4261,7 +4261,7 @@ E
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -12029,7 +12029,7 @@ Init
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ALIGNOF
 (
@@ -12775,7 +12775,7 @@ void
 8
 bytes
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

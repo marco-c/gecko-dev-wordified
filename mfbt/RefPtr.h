@@ -742,8 +742,7 @@ RefCounted
 (
 )
 {
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsBaseOf
 <
@@ -753,7 +752,6 @@ T
 :
 :
 value
-)
 "
 T
 must
@@ -821,8 +819,7 @@ AtomicRefCounted
 (
 )
 {
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsBaseOf
 <
@@ -832,7 +829,6 @@ T
 :
 :
 value
-)
 "
 T
 must

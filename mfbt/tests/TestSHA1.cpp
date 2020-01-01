@@ -1186,7 +1186,7 @@ expected
 0x81
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

@@ -154,7 +154,7 @@ value
 /
 offsets
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -179,7 +179,7 @@ size
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 uintptr_t
 (
@@ -200,7 +200,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 size_t
 (

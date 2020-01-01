@@ -303,7 +303,7 @@ h
 the
 same
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 static_cast
 <

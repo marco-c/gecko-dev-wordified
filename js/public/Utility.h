@@ -445,7 +445,7 @@ JS_STATIC_ASSERT
 (
 cond
 )
-MOZ_STATIC_ASSERT
+static_assert
 (
 cond
 "

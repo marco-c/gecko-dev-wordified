@@ -1050,7 +1050,7 @@ them
 simple
 .
 )
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -1069,7 +1069,7 @@ changed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_ALIGNMENT_OF
 (
@@ -1098,7 +1098,7 @@ nsCSSCompressedDataBlock
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_ALIGNMENT_OF
 (
@@ -1134,7 +1134,7 @@ is
 big
 enough
 .
-MOZ_STATIC_ASSERT
+static_assert
 (
 eCSSProperty_COUNT_no_shorthands
 <

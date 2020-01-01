@@ -403,7 +403,7 @@ so
 .
 *
 /
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -454,7 +454,7 @@ DoubleSignificandBits
 =
 0x000fffffffffffffULL
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 DoubleSignBit
@@ -476,7 +476,7 @@ bits
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 DoubleSignBit
@@ -498,7 +498,7 @@ bits
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 DoubleExponentBits
@@ -520,7 +520,7 @@ bits
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 DoubleSignBit
