@@ -6559,7 +6559,8 @@ ICStubSpace
 *
 getStubSpace
 (
-HandleScript
+JSScript
+*
 script
 )
 {
