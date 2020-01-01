@@ -9534,7 +9534,7 @@ if
 display
 -
 >
-IsBlockLevel
+IsBlockOutside
 (
 )
 |
