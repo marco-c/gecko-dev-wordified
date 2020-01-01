@@ -25599,7 +25599,7 @@ sss__initRestoringState
 /
 this
 .
-_tasToRestore
+_tabsToRestore
 =
 {
 visible
