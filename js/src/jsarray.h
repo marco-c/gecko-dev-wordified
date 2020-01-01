@@ -496,7 +496,7 @@ js_SlowArrayClass
 ;
 #
 define
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -520,7 +520,7 @@ cx
 obj
 )
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj

@@ -2718,7 +2718,7 @@ prop
 ;
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -2960,7 +2960,7 @@ id
 ;
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -3139,7 +3139,7 @@ junk
 ;
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -3904,7 +3904,7 @@ JS_TRUE
 }
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -4222,7 +4222,7 @@ i
 if
 (
 !
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -4477,7 +4477,7 @@ prop
 JS_ASSERT
 (
 !
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -4591,7 +4591,7 @@ JS_TRUE
 if
 (
 !
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -4898,7 +4898,7 @@ vp
 if
 (
 !
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -5234,7 +5234,7 @@ i
 if
 (
 !
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -5638,7 +5638,7 @@ length
 ;
 JS_ASSERT
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -5897,7 +5897,7 @@ v
 ;
 JS_ASSERT
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -7267,7 +7267,7 @@ index
 {
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -8225,7 +8225,7 @@ vector
 {
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -11953,7 +11953,7 @@ argc
 |
 |
 !
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -12120,7 +12120,7 @@ JS_FALSE
 ;
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -13822,7 +13822,7 @@ vp
 ;
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 aobj
@@ -14490,7 +14490,7 @@ end
 ;
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 obj
@@ -17087,7 +17087,7 @@ len
 lu
 "
 bytes
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 array
@@ -17108,7 +17108,7 @@ array
 ;
 if
 (
-ARRAY_IS_DENSE
+OBJ_IS_DENSE_ARRAY
 (
 cx
 array
