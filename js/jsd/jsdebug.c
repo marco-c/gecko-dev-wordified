@@ -1550,8 +1550,7 @@ jsdscript
 }
 JSD_PUBLIC_API
 (
-const
-char
+JSString
 *
 )
 JSD_GetScriptFunctionName
@@ -3447,8 +3446,7 @@ jsdframe
 }
 JSD_PUBLIC_API
 (
-const
-char
+JSString
 *
 )
 JSD_GetNameForStackFrame
@@ -5117,8 +5115,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-const
-char
+JSString
 *
 )
 JSD_GetValueFunctionName

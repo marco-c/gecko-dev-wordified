@@ -1784,8 +1784,7 @@ JSString
 *
 string
 ;
-const
-char
+JSString
 *
 funName
 ;
@@ -2810,8 +2809,7 @@ jsdscript
 )
 ;
 extern
-const
-char
+JSString
 *
 jsd_GetScriptFunctionName
 (
@@ -4018,8 +4016,7 @@ jsdframe
 )
 ;
 extern
-const
-char
+JSString
 *
 jsd_GetNameForStackFrame
 (
@@ -5757,8 +5754,7 @@ jsdval
 )
 ;
 extern
-const
-char
+JSString
 *
 jsd_GetValueFunctionName
 (

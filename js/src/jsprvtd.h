@@ -1017,9 +1017,6 @@ class
 HashSet
 ;
 class
-DeflatedStringCache
-;
-class
 PropertyCache
 ;
 struct
