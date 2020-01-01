@@ -12020,16 +12020,6 @@ bool
 aPreventPanning
 )
 {
-ALOG_BRIDGE
-(
-"
-AndroidBridge
-:
-:
-PreventPanning
-"
-)
-;
 JNIEnv
 *
 env
