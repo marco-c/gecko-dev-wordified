@@ -23741,17 +23741,7 @@ templateObj
 (
 )
 const
-{
-return
-&
-templateObj_
--
->
-asString
-(
-)
 ;
-}
 TypePolicy
 *
 typePolicy
