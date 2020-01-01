@@ -518,7 +518,7 @@ self
         
 tdef
 .
-tottype
+totype
 .
 accept
 (
@@ -551,15 +551,14 @@ cls
 :
         
 for
-viz
-parent
+inherit
 in
 cls
 .
 inherits
 :
             
-parent
+inherit
 .
 accept
 (
@@ -578,6 +577,16 @@ visitInherit
 (
 self
 inh
+)
+:
+        
+pass
+    
+def
+visitFriendClassDecl
+(
+self
+fcd
 )
 :
         
@@ -742,6 +751,16 @@ dd
 )
     
 def
+visitExprLiteral
+(
+self
+l
+)
+:
+        
+pass
+    
+def
 visitExprVar
 (
 self
@@ -822,6 +841,23 @@ self
 visitExprPrefixUnop
 (
 ed
+)
+    
+def
+visitExprCast
+(
+self
+ec
+)
+:
+        
+ec
+.
+expr
+.
+accept
+(
+self
 )
     
 def
@@ -1007,6 +1043,50 @@ dl
 :
         
 pass
+    
+def
+visitStmtIf
+(
+self
+si
+)
+:
+        
+si
+.
+cond
+.
+accept
+(
+self
+)
+        
+si
+.
+ifb
+.
+accept
+(
+self
+)
+        
+if
+si
+.
+elseb
+is
+not
+None
+:
+            
+si
+.
+elseb
+.
+accept
+(
+self
+)
     
 def
 visitStmtSwitch
@@ -1913,14 +1993,6 @@ self
 inherits
 =
 inherits
-#
-array
-of
-(
-viz
-Type
-)
-pairs
         
 self
 .
