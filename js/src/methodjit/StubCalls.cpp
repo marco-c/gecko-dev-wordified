@@ -19015,6 +19015,8 @@ isString
 ;
 int32
 i32
+=
+0
 ;
 #
 ifdef
@@ -19208,6 +19210,8 @@ isString
 ;
 double
 d
+=
+0
 ;
 #
 ifdef
