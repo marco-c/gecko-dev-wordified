@@ -5584,7 +5584,7 @@ emptyAtom
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 wrapper
@@ -5596,7 +5596,6 @@ StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
-NULL
 )
 )
 {
@@ -6359,7 +6358,7 @@ isNative
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -6370,7 +6369,6 @@ StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
-NULL
 )
 )
 {

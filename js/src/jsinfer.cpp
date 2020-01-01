@@ -15773,7 +15773,7 @@ i
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 xobj
@@ -15789,7 +15789,6 @@ NULL
 JSPROP_ENUMERATE
 0
 0
-NULL
 0
 )
 )
@@ -25876,7 +25875,7 @@ slotSpan
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -25889,7 +25888,6 @@ NULL
 JSPROP_ENUMERATE
 0
 0
-NULL
 0
 )
 )
