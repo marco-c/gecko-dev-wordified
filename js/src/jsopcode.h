@@ -3371,6 +3371,9 @@ obj
 ;
 \
 JS_END_MACRO
+#
+ifdef
+__cplusplus
 uintN
 js_OpLength
 (
@@ -3385,6 +3388,8 @@ cs
 NULL
 )
 ;
+#
+endif
 #
 ifdef
 DEBUG
