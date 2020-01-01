@@ -20899,6 +20899,17 @@ if
 aCallback
 )
 {
+mDoc
+-
+>
+WarnOnceAbout
+(
+nsIDocument
+:
+:
+eMozBeforePaint
+)
+;
 return
 NS_ERROR_XPC_BAD_CONVERT_JS
 ;
