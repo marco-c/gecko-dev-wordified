@@ -1075,11 +1075,14 @@ PropertyCache
 struct
 PropertyCacheEntry
 ;
-struct
-Shape
+class
+BaseShape
+;
+class
+UnownedBaseShape
 ;
 struct
-BaseShape
+Shape
 ;
 struct
 EmptyShape

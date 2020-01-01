@@ -1458,7 +1458,7 @@ slowClass
 if
 (
 !
-InitNonNativeObject
+InitScopeForNonNativeObject
 (
 cx
 obj
@@ -7708,7 +7708,7 @@ slowClass
 if
 (
 !
-InitNonNativeObject
+InitScopeForNonNativeObject
 (
 cx
 obj
