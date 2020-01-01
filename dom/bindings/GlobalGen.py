@@ -450,10 +450,23 @@ finish
 )
     
 #
+Load
+the
+configuration
+.
+    
+config
+=
+Configuration
+(
+configFile
+parserResults
+)
+    
+#
 Write
 the
-parser
-results
+configuration
 out
 to
 a
@@ -478,7 +491,7 @@ cPickle
 .
 dump
 (
-parserResults
+config
 resultsFile
 -
 1
@@ -488,20 +501,6 @@ resultsFile
 .
 close
 (
-)
-    
-#
-Load
-the
-configuration
-.
-    
-config
-=
-Configuration
-(
-configFile
-parserResults
 )
     
 #
