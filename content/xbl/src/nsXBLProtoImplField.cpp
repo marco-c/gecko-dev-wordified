@@ -2503,11 +2503,8 @@ JS_CharsToId
 (
 aCx
 chars
+&
 id
-.
-address
-(
-)
 )
 )
 return
