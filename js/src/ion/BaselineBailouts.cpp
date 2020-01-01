@@ -5955,8 +5955,15 @@ int
 loc2
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+loc1
+!
+=
+PCMappingSlotInfo
+:
+:
+SlotIgnore
 loc1
 !
 =
