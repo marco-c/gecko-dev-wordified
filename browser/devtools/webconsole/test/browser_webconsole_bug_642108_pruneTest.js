@@ -128,16 +128,6 @@ LOG_LIMIT
 =
 20
 ;
-const
-CATEGORY_CSS
-=
-1
-;
-const
-SEVERITY_WARNING
-=
-1
-;
 function
 test
 (
