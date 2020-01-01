@@ -1325,6 +1325,12 @@ nsIURI
 aURI
 )
 ;
+nsIPrincipal
+*
+GetCurrentPrincipal
+(
+)
+;
 virtual
 void
 UpdateBytesDownloaded
