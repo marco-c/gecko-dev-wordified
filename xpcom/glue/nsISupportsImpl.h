@@ -2107,12 +2107,6 @@ refcnt
 )
 ;
 \
-NS_ASSERT_OWNINGTHREAD
-(
-_class
-)
-;
-\
 +
 +
 mRefCnt
@@ -2151,12 +2145,6 @@ mRefCnt
 dup
 release
 "
-)
-;
-\
-NS_ASSERT_OWNINGTHREAD
-(
-_class
 )
 ;
 \
@@ -2209,8 +2197,6 @@ protected
 nsAutoRefCnt
 mRefCnt
 ;
-\
-NS_DECL_OWNINGTHREAD
 \
 public
 :
