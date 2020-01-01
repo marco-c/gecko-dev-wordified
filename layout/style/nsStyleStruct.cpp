@@ -3469,6 +3469,10 @@ doc
 RemoveImage
 (
 mBorderImageSource
+nsIDocument
+:
+:
+REQUEST_DISCARD
 )
 ;
 /
@@ -8534,6 +8538,10 @@ doc
 RemoveImage
 (
 mImage
+nsIDocument
+:
+:
+REQUEST_DISCARD
 )
 ;
 /
@@ -13814,6 +13822,10 @@ RemoveImage
 mContent
 .
 mImage
+nsIDocument
+:
+:
+REQUEST_DISCARD
 )
 ;
 /

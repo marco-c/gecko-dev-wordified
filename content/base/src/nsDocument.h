@@ -4880,6 +4880,8 @@ RemoveImage
 imgIRequest
 *
 aImage
+uint32_t
+aFlags
 )
 ;
 virtual
