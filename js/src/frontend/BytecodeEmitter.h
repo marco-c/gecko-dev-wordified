@@ -4820,6 +4820,14 @@ versionWithFlags
 ;
 }
 bool
+isAliasedName
+(
+ParseNode
+*
+pn
+)
+;
+bool
 shouldNoteClosedName
 (
 ParseNode

@@ -49,7 +49,7 @@ x
 trap
 (
 caller
-20
+32
 "
 var
 x

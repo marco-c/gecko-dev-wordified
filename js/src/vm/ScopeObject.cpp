@@ -2067,7 +2067,7 @@ debugMode
 script
 -
 >
-argIsAliased
+argLivesInCallObject
 (
 i
 )
@@ -2202,7 +2202,7 @@ debugMode
 script
 -
 >
-argIsAliased
+argLivesInCallObject
 (
 i
 )
