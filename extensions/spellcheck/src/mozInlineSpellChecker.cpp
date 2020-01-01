@@ -928,9 +928,6 @@ mozInlineSpellStatus
 :
 InitForEditorChange
 (
-nsEditor
-:
-:
 OperationID
 aAction
 nsIDOMNode
@@ -1021,10 +1018,10 @@ if
 aAction
 =
 =
-nsEditor
+OperationID
 :
 :
-kOpDeleteSelection
+deleteSelection
 )
 {
 /
@@ -1259,10 +1256,10 @@ if
 aAction
 =
 =
-nsEditor
+OperationID
 :
 :
-kOpInsertText
+insertText
 )
 mCreatedRange
 =
@@ -4485,9 +4482,6 @@ status
 InitForEditorChange
 (
 (
-nsEditor
-:
-:
 OperationID
 )
 aAction

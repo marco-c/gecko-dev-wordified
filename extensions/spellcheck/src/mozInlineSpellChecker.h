@@ -232,9 +232,6 @@ aSpellChecker
 nsresult
 InitForEditorChange
 (
-nsEditor
-:
-:
 OperationID
 aAction
 nsIDOMNode
@@ -390,13 +387,13 @@ eOpChange
 for
 SpellCheckAfterChange
 except
-kOpDeleteSelection
+deleteSelection
 eOpChangeDelete
 /
 /
 for
 SpellCheckAfterChange
-kOpDeleteSelection
+deleteSelection
 eOpNavigation
 /
 /

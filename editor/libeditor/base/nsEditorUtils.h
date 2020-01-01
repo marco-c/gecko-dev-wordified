@@ -790,9 +790,6 @@ nsAutoRules
 nsEditor
 *
 ed
-nsEditor
-:
-:
 OperationID
 action
 nsIEditor
