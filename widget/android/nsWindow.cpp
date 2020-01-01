@@ -6678,7 +6678,6 @@ width
 gAndroidBounds
 .
 height
-dirtyRect
 metadata
 )
 )
