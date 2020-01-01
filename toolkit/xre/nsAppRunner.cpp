@@ -23058,7 +23058,9 @@ aFlags
 XREMain
 main
 ;
-return
+int
+result
+=
 main
 .
 XRE_main
@@ -23067,6 +23069,16 @@ argc
 argv
 aAppData
 )
+;
+mozilla
+:
+:
+RecordShutdownEndTimeStamp
+(
+)
+;
+return
+result
 ;
 }
 nsresult

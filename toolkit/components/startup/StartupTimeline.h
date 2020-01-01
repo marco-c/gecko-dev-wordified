@@ -266,6 +266,11 @@ endif
 namespace
 mozilla
 {
+void
+RecordShutdownEndTimeStamp
+(
+)
+;
 class
 StartupTimeline
 {
