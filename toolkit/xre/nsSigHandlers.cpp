@@ -1661,7 +1661,7 @@ defined
 (
 __amd64__
 )
-uint16_t
+__uint16_t
 *
 cw
 =
@@ -1682,7 +1682,7 @@ cw
 =
 FPU_EXCEPTION_MASK
 ;
-uint16_t
+__uint16_t
 *
 sw
 =
