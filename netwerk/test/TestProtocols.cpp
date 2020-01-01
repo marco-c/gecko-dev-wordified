@@ -4109,8 +4109,6 @@ info
 -
 >
 mBytesRead
-.
-mValue
 )
 )
 ;
