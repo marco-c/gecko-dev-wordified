@@ -709,6 +709,9 @@ function
 CSPWarning
 (
 aMsg
+aSource
+aScriptSample
+aLineNum
 )
 {
 var
@@ -764,9 +767,9 @@ CSP
 '
 +
 aMsg
-null
-null
-0
+aSource
+aScriptSample
+aLineNum
 0
 Components
 .
