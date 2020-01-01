@@ -1244,6 +1244,10 @@ sniffing
 services
 "
 )
+mWindowId
+(
+0
+)
 mDecodeRequested
 (
 PR_FALSE
@@ -1259,10 +1263,6 @@ PR_FALSE
 mIsInCache
 (
 PR_FALSE
-)
-mWindowId
-(
-0
 )
 {
 }

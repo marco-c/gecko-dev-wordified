@@ -448,6 +448,10 @@ imgStatusTracker
 aStatusTracker
 )
 :
+mWindowId
+(
+0
+)
 mAnimationConsumers
 (
 0
@@ -467,10 +471,6 @@ PR_FALSE
 mError
 (
 PR_FALSE
-)
-mWindowId
-(
-0
 )
 {
 if
