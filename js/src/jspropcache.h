@@ -495,7 +495,7 @@ Property_cache
 *
 /
 const
-unsigned
+int
 PROPERTY_CACHE_LOG2
 =
 12
@@ -530,7 +530,7 @@ macros
 *
 /
 const
-unsigned
+int
 PCVCAP_PROTOBITS
 =
 4
@@ -554,7 +554,7 @@ PCVCAP_PROTOBITS
 )
 ;
 const
-unsigned
+int
 PCVCAP_SCOPEBITS
 =
 4
@@ -1584,7 +1584,7 @@ PCVAL_SPROP
 2
 ;
 const
-unsigned
+int
 PCVAL_TAGBITS
 =
 2
