@@ -816,6 +816,14 @@ isSystem
 bool
 marked
 ;
+#
+ifdef
+DEBUG
+bool
+firedOnNewGlobalObject
+;
+#
+endif
 void
 mark
 (
