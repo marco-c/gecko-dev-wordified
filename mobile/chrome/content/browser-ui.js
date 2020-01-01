@@ -1749,10 +1749,8 @@ aEvent
 .
 target
 )
-{
 return
-}
-var
+let
 toolbarH
 =
 document
@@ -1770,7 +1768,7 @@ boxObject
 .
 height
 ;
-var
+let
 popup
 =
 document
@@ -1782,14 +1780,14 @@ popup_autocomplete
 "
 )
 ;
-var
+let
 windowW
 =
 window
 .
 innerWidth
 ;
-var
+let
 windowH
 =
 window
@@ -1843,7 +1841,6 @@ toolbarH
 XXX
 need
 to
-handle
 make
 some
 of
