@@ -447,6 +447,13 @@ h
 #
 include
 "
+yuv_convert
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
@@ -1356,6 +1363,12 @@ mSize
 ;
 PRPackedBool
 mHasData
+;
+gfx
+:
+:
+YUVType
+mType
 ;
 }
 ;
