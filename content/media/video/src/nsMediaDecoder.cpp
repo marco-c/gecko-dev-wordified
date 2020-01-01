@@ -675,10 +675,6 @@ mShuttingDown
 (
 PR_FALSE
 )
-mStopping
-(
-PR_FALSE
-)
 {
 MOZ_COUNT_CTOR
 (
