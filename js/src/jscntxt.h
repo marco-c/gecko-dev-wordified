@@ -844,6 +844,9 @@ cx
 )
 cnt
 )
+#
+ifdef
+JS_TRACER
 /
 *
 Forward
@@ -901,9 +904,14 @@ namespace
 nanojit
 *
 /
+#
+endif
 namespace
 js
 {
+#
+ifdef
+JS_TRACER
 /
 *
 Tracer
@@ -1619,6 +1627,8 @@ callstack_buf
 }
 }
 ;
+#
+endif
 /
 *
 Holds
@@ -2285,6 +2295,9 @@ saved
 }
 }
 ;
+#
+ifdef
+JS_TRACER
 /
 *
 Holds
@@ -2313,6 +2326,9 @@ jsbytecode
 SystemAllocPolicy
 >
 RecordAttemptMap
+;
+class
+Oracle
 ;
 /
 *
@@ -2785,6 +2801,10 @@ FrameInfoCache
 *
 frameCache
 ;
+Oracle
+*
+oracle
+;
 TraceRecorder
 *
 recorder
@@ -3111,6 +3131,8 @@ namespace
 js
 *
 /
+#
+endif
 /
 *
 *
