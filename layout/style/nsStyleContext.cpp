@@ -2930,7 +2930,7 @@ ForceCompare
 |
 |
 \
-NS_IsHintSubset
+NS_HintsNotHandledForDescendantsIn
 (
 nsStyle
 #
@@ -2941,13 +2941,10 @@ struct_
 MaxDifference
 (
 )
-\
-nsChangeHint
-(
-~
-nsChangeHint_NonInherited_Hints
 )
-)
+=
+=
+0
 \
 "
 Structs
