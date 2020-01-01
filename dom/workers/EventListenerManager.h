@@ -119,6 +119,15 @@ prclist
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 BEGIN_WORKERS_NAMESPACE
 class
 EventTarget
@@ -256,7 +265,7 @@ bool
 aCapturing
 bool
 aWantsUntrusted
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -332,7 +341,7 @@ aTarget
 JSObject
 *
 aEvent
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -362,7 +371,7 @@ aType
 JSObject
 *
 aListener
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -485,7 +494,7 @@ Phase
 aPhase
 bool
 aWantsUntrusted
-nsresult
+ErrorResult
 &
 aRv
 )
