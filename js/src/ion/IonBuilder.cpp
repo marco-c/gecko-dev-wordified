@@ -22506,7 +22506,7 @@ getObjectCount
 1
 )
 return
-false
+NULL
 ;
 types
 :
@@ -22537,7 +22537,7 @@ unknownProperties
 )
 )
 return
-false
+NULL
 ;
 jsid
 id
@@ -22562,7 +22562,7 @@ id
 )
 )
 return
-false
+NULL
 ;
 types
 :
@@ -22608,7 +22608,7 @@ true
 )
 {
 return
-false
+NULL
 ;
 }
 types
