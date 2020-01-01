@@ -388,6 +388,9 @@ bool
 mCLIP
 ;
 bool
+mCMER
+;
+bool
 mReceiveVgsFlag
 ;
 nsString
