@@ -10075,7 +10075,7 @@ SystemIsBeingShutDown
 ;
 static
 void
-TraceJS
+TraceWrappedNativesInAllScopes
 (
 JSTracer
 *

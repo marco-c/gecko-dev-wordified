@@ -2198,7 +2198,7 @@ mMapLock
 XPCWrappedNativeScope
 :
 :
-TraceJS
+TraceWrappedNativesInAllScopes
 (
 trc
 this
