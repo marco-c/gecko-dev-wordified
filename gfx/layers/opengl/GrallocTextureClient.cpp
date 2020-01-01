@@ -706,6 +706,8 @@ gfx
 :
 IntSize
 aCbCrSize
+StereoMode
+aStereoMode
 )
 {
 return
