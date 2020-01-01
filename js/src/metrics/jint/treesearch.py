@@ -3401,7 +3401,7 @@ relative
 #
 to
 the
-jit
+trace
 -
 test
 /
