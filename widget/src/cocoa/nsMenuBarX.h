@@ -655,13 +655,6 @@ nsMenuBarX
 (
 )
 ;
-enum
-{
-kApplicationMenuID
-=
-1
-}
-;
 /
 /
 |
