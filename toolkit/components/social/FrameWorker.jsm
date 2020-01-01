@@ -1121,6 +1121,9 @@ FileReader
 Blob
 '
 '
+EventSource
+'
+'
 location
 '
 ]
