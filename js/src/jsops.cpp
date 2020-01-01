@@ -2164,7 +2164,7 @@ JSOP_CALL_LENGTH
 ;
 MONITOR_BRANCH
 (
-Monitor_LeaveFrame
+Record_LeaveFrame
 )
 ;
 op
@@ -14513,7 +14513,7 @@ JSOP_TRACE
 {
 MONITOR_BRANCH
 (
-Monitor_EnterFrame
+Record_EnterFrame
 )
 ;
 }
