@@ -535,11 +535,6 @@ Unbox
 \
 _
 (
-Snapshot
-)
-\
-_
-(
 Start
 )
 /
