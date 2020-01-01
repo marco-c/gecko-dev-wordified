@@ -1019,6 +1019,9 @@ PR_FALSE
 {
 ops
 =
+(
+PLDHashTableOps
+)
 {
 PL_DHashAllocTable
 PL_DHashFreeTable
