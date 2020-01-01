@@ -21219,6 +21219,14 @@ CommonElementAnimationData
 LogAsyncAnimationFailure
 (
 message
+GetUnderlyingFrame
+(
+)
+-
+>
+GetContent
+(
+)
 )
 ;
 }
@@ -21323,6 +21331,12 @@ CommonElementAnimationData
 LogAsyncAnimationFailure
 (
 message
+aFrame
+-
+>
+GetContent
+(
+)
 )
 ;
 }
