@@ -370,6 +370,9 @@ argc
 argv
 )
 ;
+int
+rv
+=
 RUN_ALL_TESTS
 (
 )
@@ -378,6 +381,6 @@ delete
 test_utils
 ;
 return
-0
+rv
 ;
 }
