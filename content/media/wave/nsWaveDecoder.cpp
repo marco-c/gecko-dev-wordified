@@ -8386,6 +8386,11 @@ cancelled
 by
 user
 .
+if
+(
+mElement
+)
+{
 mElement
 -
 >
@@ -8393,6 +8398,7 @@ LoadAborted
 (
 )
 ;
+}
 }
 else
 if
