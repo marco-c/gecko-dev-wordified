@@ -1013,7 +1013,7 @@ apply
 float
 DisplacementWillOverscrollAmount
 (
-PRInt32
+int32_t
 aDisplacement
 )
 ;
@@ -1193,7 +1193,7 @@ ScaleWillOverscrollAmount
 (
 float
 aScale
-PRInt32
+int32_t
 aFocus
 )
 ;

@@ -2653,7 +2653,7 @@ mRunning
 =
 false
 ;
-PRInt16
+int16_t
 result
 ;
 switch

@@ -643,7 +643,7 @@ PContentDialogParent
 AllocPContentDialog
 (
 const
-PRUint32
+uint32_t
 &
 aType
 const
