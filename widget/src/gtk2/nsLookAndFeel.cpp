@@ -4278,6 +4278,9 @@ InitLookAndFeel
 ;
 }
 PRBool
+nsLookAndFeel
+:
+:
 GetEchoPasswordImpl
 (
 )
