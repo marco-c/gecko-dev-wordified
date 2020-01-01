@@ -13426,7 +13426,7 @@ cnt
 ]
 )
 {
-PR_Free
+NS_Free
 (
 mCachedAttrParamNames
 [
@@ -13453,7 +13453,7 @@ cnt
 ]
 )
 {
-PR_Free
+NS_Free
 (
 mCachedAttrParamValues
 [
