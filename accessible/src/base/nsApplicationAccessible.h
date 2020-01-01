@@ -653,15 +653,6 @@ PRInt32
 aY
 )
 ;
-NS_IMETHOD
-GetOwnerWindow
-(
-void
-*
-*
-aOwnerWindow
-)
-;
 NS_SCRIPTABLE
 NS_IMETHOD
 GetComputedStyleValue
