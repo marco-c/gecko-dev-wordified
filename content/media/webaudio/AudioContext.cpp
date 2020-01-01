@@ -370,6 +370,16 @@ float
 aSampleRate
 )
 :
+mSampleRate
+(
+aIsOffline
+?
+aSampleRate
+:
+IdealAudioRate
+(
+)
+)
 mDestination
 (
 new
