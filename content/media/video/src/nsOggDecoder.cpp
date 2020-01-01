@@ -8121,6 +8121,10 @@ mDecodedFrames
 IsEmpty
 (
 )
+&
+&
+!
+mDecodingCompleted
 )
 {
 mon
