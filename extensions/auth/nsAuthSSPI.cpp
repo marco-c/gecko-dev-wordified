@@ -545,6 +545,13 @@ nsCOMPtr
 h
 "
 #
+include
+<
+windows
+.
+h
+>
+#
 define
 SEC_SUCCESS
 (
@@ -877,7 +884,7 @@ HINSTANCE
 sspi_lib
 ;
 static
-PSecurityFunctionTable
+PSecurityFunctionTableW
 sspi
 ;
 static
@@ -886,7 +893,7 @@ InitSSPI
 (
 )
 {
-PSecurityFunctionTable
+PSecurityFunctionTableW
 (
 *
 initFun
@@ -908,8 +915,9 @@ n
 ;
 sspi_lib
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 secur32
 .
@@ -925,8 +933,9 @@ sspi_lib
 {
 sspi_lib
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 security
 .
@@ -960,7 +969,7 @@ NS_ERROR_UNEXPECTED
 initFun
 =
 (
-PSecurityFunctionTable
+PSecurityFunctionTableW
 (
 *
 )
@@ -972,7 +981,7 @@ GetProcAddress
 (
 sspi_lib
 "
-InitSecurityInterfaceA
+InitSecurityInterfaceW
 "
 )
 ;
@@ -986,7 +995,7 @@ LOG
 (
 (
 "
-InitSecurityInterfaceA
+InitSecurityInterfaceW
 not
 found
 "
@@ -1013,7 +1022,7 @@ LOG
 (
 (
 "
-InitSecurityInterfaceA
+InitSecurityInterfaceW
 failed
 "
 )
@@ -1841,14 +1850,14 @@ return
 rv
 ;
 }
-SEC_CHAR
+SEC_WCHAR
 *
 package
 ;
 package
 =
 (
-SEC_CHAR
+SEC_WCHAR
 *
 )
 pTypeName
@@ -1893,7 +1902,7 @@ serviceFlags
 SECURITY_STATUS
 rc
 ;
-PSecPkgInfo
+PSecPkgInfoW
 pinfo
 ;
 rc
@@ -1902,7 +1911,7 @@ rc
 sspi
 -
 >
-QuerySecurityPackageInfo
+QuerySecurityPackageInfoW
 )
 (
 package
@@ -1964,7 +1973,7 @@ rc
 sspi
 -
 >
-AcquireCredentialsHandle
+AcquireCredentialsHandleW
 )
 (
 NULL
@@ -2295,7 +2304,7 @@ ob
 cbBuffer
 )
 ;
-SEC_CHAR
+SEC_WCHAR
 *
 sn
 ;
@@ -2314,7 +2323,7 @@ else
 sn
 =
 (
-SEC_CHAR
+SEC_WCHAR
 *
 )
 mServiceName
@@ -2329,7 +2338,7 @@ rc
 sspi
 -
 >
-InitializeSecurityContext
+InitializeSecurityContextW
 )
 (
 &
@@ -2861,7 +2870,7 @@ rc
 sspi
 -
 >
-QueryContextAttributes
+QueryContextAttributesW
 )
 (
 &
