@@ -644,15 +644,6 @@ fArg
 "
 )
 ;
-/
-/
-FIXME
-bug
-TODO
-:
-reenable
-/
-/
 is
 (
 localNodes
@@ -672,8 +663,6 @@ textContent
 "
 1
 "
-/
-/
 "
 Should
 have
@@ -689,8 +678,6 @@ a
 "
 )
 ;
-/
-/
 is
 (
 localNodes
@@ -713,8 +700,6 @@ object
 Object
 ]
 "
-/
-/
 "
 Should
 have
@@ -730,8 +715,6 @@ b
 "
 )
 ;
-/
-/
 is
 (
 localNodes
@@ -754,8 +737,6 @@ object
 Object
 ]
 "
-/
-/
 "
 Should
 have
@@ -771,8 +752,6 @@ c
 "
 )
 ;
-/
-/
 is
 (
 localNodes
@@ -795,8 +774,6 @@ object
 Arguments
 ]
 "
-/
-/
 "
 Should
 have
