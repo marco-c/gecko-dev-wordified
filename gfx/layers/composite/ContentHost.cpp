@@ -1734,6 +1734,7 @@ mDeprecatedTextureHostFlags
 aTextureInfo
 .
 mTextureFlags
+this
 )
 ;
 (
@@ -2283,6 +2284,7 @@ mDeprecatedTextureHostFlags
 aTextureInfo
 .
 mTextureFlags
+this
 )
 ;
 newHost
@@ -3000,6 +3002,7 @@ mDeprecatedTextureHostFlags
 mTextureInfo
 .
 mTextureFlags
+nullptr
 )
 ;
 Compositor
@@ -3059,6 +3062,7 @@ mDeprecatedTextureHostFlags
 mTextureInfo
 .
 mTextureFlags
+nullptr
 )
 ;
 Compositor
