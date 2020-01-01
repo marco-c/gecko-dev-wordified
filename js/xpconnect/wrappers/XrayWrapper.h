@@ -561,6 +561,9 @@ XPCWrappedNativeXrayTraits
 class
 ProxyXrayTraits
 ;
+class
+DOMXrayTraits
+;
 /
 /
 NB
@@ -955,5 +958,16 @@ CrossCompartmentWrapper
 ProxyXrayTraits
 >
 XrayProxy
+;
+typedef
+XrayWrapper
+<
+js
+:
+:
+CrossCompartmentWrapper
+DOMXrayTraits
+>
+XrayDOM
 ;
 }

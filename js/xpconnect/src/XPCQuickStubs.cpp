@@ -6207,16 +6207,6 @@ Value
 rval
 )
 {
-MOZ_ASSERT
-(
-!
-str
-.
-IsVoid
-(
-)
-)
-;
 nsStringBuffer
 *
 sharedBuffer

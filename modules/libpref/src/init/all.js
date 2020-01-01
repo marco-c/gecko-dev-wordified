@@ -7445,6 +7445,16 @@ new_bindings
 true
 )
 ;
+pref
+(
+"
+dom
+.
+paris_bindings
+"
+true
+)
+;
 /
 /
 Parsing
