@@ -191,17 +191,6 @@ s
 )
 :
 #
-Serge
-Gautherie
-<
-sgautherie
-.
-bz
-free
-.
-fr
->
-#
 Ted
 Mielczarek
 <
@@ -465,7 +454,6 @@ from
 automationutils
 import
 addCommonOptions
-processLeakLog
 from
 optparse
 import
@@ -1469,6 +1457,8 @@ care
 to
 call
 |
+automation
+.
 processLeakLog
 (
 )
@@ -1635,6 +1625,8 @@ options
 symbolsPath
 )
     
+automation
+.
 processLeakLog
 (
 leakLogFile
