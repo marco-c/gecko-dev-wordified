@@ -1357,7 +1357,8 @@ nanojit
 :
 LIns
 *
-v_before
+&
+v_ins
 jsint
 incr
 bool
@@ -1669,6 +1670,13 @@ LIns
 *
 &
 v_ins
+nanojit
+:
+:
+LIns
+*
+&
+addr_ins
 )
 ;
 bool
