@@ -11306,7 +11306,7 @@ support
 baseURL
 "
 "
-http
+https
 :
 /
 /
