@@ -1023,7 +1023,7 @@ milliseconds
 .
 #
 define
-SECONDS_TO_MS
+MS_TO_SECONDS
 (
 s
 )
