@@ -498,7 +498,8 @@ NetUtil
 }
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -546,7 +547,8 @@ rules
 .
 *
 /
-var
+this
+.
 NetworkHelper
 =
 {

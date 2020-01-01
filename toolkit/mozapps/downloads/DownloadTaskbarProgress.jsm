@@ -104,7 +104,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -313,7 +314,8 @@ taskbar
 /
 DownloadTaskbarProgress
 Object
-const
+this
+.
 DownloadTaskbarProgress
 =
 {

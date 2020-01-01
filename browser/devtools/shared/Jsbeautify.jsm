@@ -441,7 +441,8 @@ t
 ;
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -450,6 +451,10 @@ js_beautify
 "
 ]
 ;
+this
+.
+js_beautify
+=
 function
 js_beautify
 (

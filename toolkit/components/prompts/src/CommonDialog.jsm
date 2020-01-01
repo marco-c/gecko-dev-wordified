@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -112,6 +113,10 @@ jsm
 "
 )
 ;
+this
+.
+CommonDialog
+=
 function
 CommonDialog
 (

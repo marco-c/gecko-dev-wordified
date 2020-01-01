@@ -129,7 +129,8 @@ within
 JavaScript
 code
 .
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -298,6 +299,10 @@ the
 assertion
 *
 /
+this
+.
+NS_ASSERT
+=
 function
 NS_ASSERT
 (

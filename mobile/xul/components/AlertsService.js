@@ -347,7 +347,8 @@ aAlertListener
 }
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

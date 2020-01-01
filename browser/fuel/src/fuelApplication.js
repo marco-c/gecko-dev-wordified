@@ -5169,7 +5169,8 @@ extApplication
 .
 prototype
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

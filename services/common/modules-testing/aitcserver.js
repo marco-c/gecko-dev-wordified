@@ -76,7 +76,8 @@ Cu
 =
 Components
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -200,6 +201,10 @@ data
 .
 *
 /
+this
+.
+AITCServer10User
+=
 function
 AITCServer10User
 (
@@ -745,6 +750,10 @@ time
 .
 *
 /
+this
+.
+AITCServer10Server
+=
 function
 AITCServer10Server
 (

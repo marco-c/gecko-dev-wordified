@@ -324,7 +324,8 @@ case
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -3138,7 +3139,8 @@ removeCurrentTab
 /
 /
 /
-var
+this
+.
 helpers
 =
 {

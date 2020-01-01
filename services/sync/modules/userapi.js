@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -224,6 +225,10 @@ service
 .
 *
 /
+this
+.
+UserAPI10Client
+=
 function
 UserAPI10Client
 (

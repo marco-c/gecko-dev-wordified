@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -141,7 +142,8 @@ version
 2
 *
 /
-let
+this
+.
 Observers
 =
 {

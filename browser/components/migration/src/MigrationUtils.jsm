@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -724,7 +725,8 @@ startupOnlyMigrator
 .
 *
 /
-let
+this
+.
 MigratorPrototype
 =
 {
@@ -2394,7 +2396,8 @@ aProfile
 }
 }
 ;
-let
+this
+.
 MigrationUtils
 =
 Object

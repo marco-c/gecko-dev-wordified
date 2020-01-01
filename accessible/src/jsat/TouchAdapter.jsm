@@ -89,7 +89,8 @@ Components
 .
 results
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -160,7 +161,8 @@ EXPLORE_THROTTLE
 =
 100
 ;
-var
+this
+.
 TouchAdapter
 =
 {
@@ -2564,7 +2566,8 @@ stopImmediatePropagation
 }
 }
 ;
-var
+this
+.
 AndroidTouchAdapter
 =
 {

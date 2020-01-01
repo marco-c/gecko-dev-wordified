@@ -94,7 +94,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [

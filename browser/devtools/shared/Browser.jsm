@@ -115,7 +115,8 @@ dump
 ;
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -159,7 +160,8 @@ hardcoded
 numbers
 *
 /
-const
+this
+.
 Node
 =
 Components
@@ -168,7 +170,8 @@ interfaces
 .
 nsIDOMNode
 ;
-const
+this
+.
 HTMLElement
 =
 Components
@@ -453,7 +456,8 @@ clearTimeout
 .
 *
 /
-const
+this
+.
 setTimeout
 =
 function
@@ -580,7 +584,8 @@ setTimeout
 .
 *
 /
-const
+this
+.
 clearTimeout
 =
 function

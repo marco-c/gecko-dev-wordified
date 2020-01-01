@@ -322,7 +322,8 @@ interfaces
 .
 nsIFile
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -683,6 +684,10 @@ readLastDirPref
 (
 )
 ;
+this
+.
+DownloadLastDir
+=
 function
 DownloadLastDir
 (

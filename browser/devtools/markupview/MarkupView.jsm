@@ -153,7 +153,8 @@ PREVIEW_AREA
 =
 700
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -377,6 +378,10 @@ xhtml
 .
 *
 /
+this
+.
+MarkupView
+=
 function
 MarkupView
 (

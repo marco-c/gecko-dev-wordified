@@ -191,7 +191,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -501,7 +502,8 @@ DBConnection
 /
 /
 PlacesDBUtils
-let
+this
+.
 PlacesDBUtils
 =
 {

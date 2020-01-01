@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -65,7 +66,8 @@ Weave
 '
 ]
 ;
-let
+this
+.
 Weave
 =
 {

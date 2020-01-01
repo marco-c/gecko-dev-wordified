@@ -488,7 +488,8 @@ XPCOMUtils
 .
 generateNSGetFactory
 )
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

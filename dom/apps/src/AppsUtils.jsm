@@ -142,7 +142,8 @@ and
 Webapps
 .
 js
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -183,7 +184,8 @@ n
 )
 ;
 }
-let
+this
+.
 AppsUtils
 =
 {
@@ -1417,7 +1419,8 @@ locale
 support
 *
 /
-let
+this
+.
 ManifestHelper
 =
 function

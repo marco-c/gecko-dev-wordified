@@ -881,7 +881,8 @@ true
 )
 ;
 }
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -956,6 +957,10 @@ orion
 constructor
 *
 /
+this
+.
+SourceEditor
+=
 function
 SourceEditor
 (

@@ -132,7 +132,8 @@ jsm
 "
 )
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -144,7 +145,8 @@ openChatWindow
 "
 ]
 ;
-var
+this
+.
 MozSocialAPI
 =
 {
@@ -1633,6 +1635,10 @@ return
 fullURL
 ;
 }
+this
+.
+openChatWindow
+=
 function
 openChatWindow
 (

@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -231,6 +232,10 @@ message
 .
 *
 /
+this
+.
+TokenServerClientError
+=
 function
 TokenServerClientError
 (
@@ -307,6 +312,10 @@ layer
 .
 *
 /
+this
+.
+TokenServerClientNetworkError
+=
 function
 TokenServerClientNetworkError
 (
@@ -587,6 +596,10 @@ message
 .
 *
 /
+this
+.
+TokenServerClientServerError
+=
 function
 TokenServerClientServerError
 (
@@ -862,6 +875,10 @@ a
 .
 *
 /
+this
+.
+TokenServerClient
+=
 function
 TokenServerClient
 (

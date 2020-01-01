@@ -77,7 +77,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -103,6 +104,10 @@ Components
 .
 interfaces
 ;
+this
+.
+parseKeyValuePairs
+=
 function
 parseKeyValuePairs
 (
@@ -279,6 +284,10 @@ return
 data
 ;
 }
+this
+.
+parseKeyValuePairsFromFile
+=
 function
 parseKeyValuePairsFromFile
 (

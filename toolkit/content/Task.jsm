@@ -119,7 +119,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -1261,7 +1262,8 @@ functions
 .
 *
 /
-const
+this
+.
 Task
 =
 {

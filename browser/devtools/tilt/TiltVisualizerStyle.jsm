@@ -138,7 +138,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -169,7 +170,8 @@ Tilt
 .
 *
 /
-let
+this
+.
 TiltVisualizerStyle
 =
 {

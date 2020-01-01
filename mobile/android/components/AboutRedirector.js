@@ -677,7 +677,8 @@ components
 AboutRedirector
 ]
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

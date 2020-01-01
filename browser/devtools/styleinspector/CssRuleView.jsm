@@ -394,7 +394,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -818,7 +819,8 @@ for
 unit
 tests
 .
-var
+this
+.
 _ElementStyle
 =
 ElementStyle
@@ -5471,6 +5473,10 @@ properties
 constructor
 *
 /
+this
+.
+CssRuleView
+=
 function
 CssRuleView
 (
@@ -11935,6 +11941,10 @@ activated
 .
 *
 /
+this
+.
+editableItem
+=
 function
 editableItem
 (
@@ -12263,7 +12273,8 @@ _editable
 true
 ;
 }
-var
+this
+.
 _editableField
 =
 editableField
@@ -14283,6 +14294,10 @@ here
 .
 *
 /
+this
+.
+_getInplaceEditorForSpan
+=
 function
 _getInplaceEditorForSpan
 (

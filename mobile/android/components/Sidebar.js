@@ -1388,7 +1388,8 @@ classID
 SIDEBAR_CID
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

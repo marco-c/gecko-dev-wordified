@@ -119,7 +119,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -750,7 +751,8 @@ interface
 .
 *
 /
-const
+this
+.
 DownloadsCommon
 =
 {

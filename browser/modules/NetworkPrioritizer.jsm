@@ -148,7 +148,8 @@ windows
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -280,6 +281,10 @@ _windows
 /
 Exported
 symbol
+this
+.
+trackBrowserWindow
+=
 function
 trackBrowserWindow
 (

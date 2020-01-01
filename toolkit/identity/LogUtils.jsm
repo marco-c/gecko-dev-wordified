@@ -112,7 +112,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -723,7 +724,8 @@ n
 }
 }
 ;
-let
+this
+.
 Logger
 =
 new

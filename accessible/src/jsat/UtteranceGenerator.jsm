@@ -146,7 +146,8 @@ properties
 '
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -350,7 +351,8 @@ not
 .
 *
 /
-var
+this
+.
 UtteranceGenerator
 =
 {

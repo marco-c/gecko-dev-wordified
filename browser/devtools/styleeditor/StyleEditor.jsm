@@ -79,7 +79,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -544,6 +545,10 @@ see
 StyleEditorChrome
 *
 /
+this
+.
+StyleEditor
+=
 function
 StyleEditor
 (
@@ -6696,7 +6701,8 @@ StyleEditor
 setFlag
 *
 /
-let
+this
+.
 StyleEditorFlags
 =
 {
@@ -7568,6 +7574,10 @@ instances
 .
 *
 /
+this
+.
+StyleEditorManager
+=
 function
 StyleEditorManager
 (

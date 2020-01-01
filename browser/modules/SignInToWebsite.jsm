@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -208,7 +209,8 @@ aMessageArgs
 )
 ;
 }
-let
+this
+.
 SignInToWebsiteUX
 =
 {
