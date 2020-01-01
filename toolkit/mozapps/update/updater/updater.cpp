@@ -4154,6 +4154,10 @@ while
 feof
 (
 infile
+.
+get
+(
+)
 )
 )
 {
