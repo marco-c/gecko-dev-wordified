@@ -8034,7 +8034,7 @@ in
 nsIClassInfo
 aClassInfo
 in
-JSVal
+jsval
 aName
 inout
 voidPtr
@@ -8096,7 +8096,7 @@ in
 string
 aClassName
 in
-JSVal
+jsval
 aProperty
 in
 PRUint32
