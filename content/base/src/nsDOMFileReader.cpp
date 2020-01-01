@@ -257,13 +257,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsJSEnvironment
 .
 h

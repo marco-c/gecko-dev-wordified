@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h

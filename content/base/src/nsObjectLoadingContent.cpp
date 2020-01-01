@@ -248,13 +248,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

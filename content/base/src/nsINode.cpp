@@ -516,13 +516,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsILinkHandler
 .
 h

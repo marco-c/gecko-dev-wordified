@@ -295,13 +295,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLMapElement
 .
 h

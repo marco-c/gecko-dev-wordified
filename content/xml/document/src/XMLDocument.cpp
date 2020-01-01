@@ -370,13 +370,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h
