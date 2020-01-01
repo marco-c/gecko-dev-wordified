@@ -1053,9 +1053,6 @@ AllocPRemoteOpenFileChild
 const
 URIParams
 &
-const
-URIParams
-&
 )
 {
 /

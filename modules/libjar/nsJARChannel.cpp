@@ -2154,7 +2154,6 @@ remoteFile
 Init
 (
 mJarBaseURI
-mAppURI
 )
 ;
 NS_ENSURE_SUCCESS
