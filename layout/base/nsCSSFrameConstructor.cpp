@@ -23267,8 +23267,12 @@ GetParent
 )
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 |
 |
