@@ -912,8 +912,6 @@ meta_global
 Upload
 keys
 .
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -1050,7 +1048,7 @@ coll_modified
 =
 CollectionKeys
 .
-_lastModified
+lastModified
 ;
 /
 /

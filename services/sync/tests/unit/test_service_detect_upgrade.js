@@ -2041,8 +2041,6 @@ wboName
 collWBO
 )
 {
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -2235,8 +2233,6 @@ and
 get
 new
 ones
-.
-CollectionKeys
 .
 generateNewKeys
 (

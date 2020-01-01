@@ -467,8 +467,6 @@ ilovejane
 passphrase
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -593,8 +591,6 @@ resetClient
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -760,8 +756,6 @@ resetClient
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -916,8 +910,6 @@ and
 upload
 keys
 .
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -1002,8 +994,6 @@ client
 record
 is
 wrong
-.
-CollectionKeys
 .
 generateNewKeys
 (
@@ -1110,8 +1100,6 @@ resetClient
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -1357,8 +1345,6 @@ foo
 "
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )

@@ -799,8 +799,6 @@ default
 key
 handling
 .
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -919,8 +917,6 @@ for
 "
 bookmarks
 "
-.
-CollectionKeys
 .
 generateNewKeys
 (

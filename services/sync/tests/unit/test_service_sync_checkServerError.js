@@ -465,8 +465,6 @@ generateAndUploadKeys
 (
 )
 {
-CollectionKeys
-.
 generateNewKeys
 (
 )

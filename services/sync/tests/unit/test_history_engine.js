@@ -1175,8 +1175,6 @@ run_test
 (
 )
 {
-CollectionKeys
-.
 generateNewKeys
 (
 )

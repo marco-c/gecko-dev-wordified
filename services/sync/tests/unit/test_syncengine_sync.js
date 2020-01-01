@@ -1759,8 +1759,6 @@ foo
 "
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -7873,8 +7871,6 @@ do_test_pending
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -10227,8 +10223,6 @@ do_test_pending
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -10990,8 +10984,6 @@ service
 js
 does
 .
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -11132,8 +11124,6 @@ DISABLE_TESTS_BUG_604565
 )
 return
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
