@@ -7230,7 +7230,7 @@ openPopup
 toolbarButtonImage
 "
 bottomcenter
-topleft
+topright
 "
 0
 0
