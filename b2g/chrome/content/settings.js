@@ -582,9 +582,6 @@ STREAM_TYPE_SYSTEM
 nsIAudioManager
 .
 STREAM_TYPE_MUSIC
-nsIAudioManager
-.
-STREAM_TYPE_FM
 ]
 ]
 [

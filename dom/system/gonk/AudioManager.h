@@ -277,6 +277,9 @@ SwitchObserver
 >
 mObserver
 ;
+bool
+mFMChannelIsMuted
+;
 }
 ;
 }
