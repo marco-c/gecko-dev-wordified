@@ -7986,7 +7986,7 @@ if
 contextMenuKey
 )
 {
-nsPoint
+nsIntPoint
 caretPoint
 ;
 /
@@ -8195,7 +8195,7 @@ focused
 frame
 in
 view
-nsPoint
+nsIntPoint
 targetPt
 ;
 GetCoordinatesFor
@@ -8390,7 +8390,7 @@ aEventWidget
 nsIPresShell
 *
 aShell
-nsPoint
+nsIntPoint
 &
 aTargetPt
 )
@@ -9149,7 +9149,8 @@ caret
 coordinates
 are
 in
-twips
+app
+units
 convert
 to
 pixels
@@ -9248,7 +9249,7 @@ aPresContext
 nsIPresShell
 *
 aPresShell
-nsPoint
+nsIntPoint
 &
 aTargetPt
 )

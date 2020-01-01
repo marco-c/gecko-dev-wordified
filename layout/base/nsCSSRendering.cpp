@@ -9518,8 +9518,8 @@ image
 )
 )
 ;
-nsSize
-imageSize
+nsIntSize
+imageIntSize
 ;
 image
 -
@@ -9527,7 +9527,7 @@ image
 GetWidth
 (
 &
-imageSize
+imageIntSize
 .
 width
 )
@@ -9538,10 +9538,13 @@ image
 GetHeight
 (
 &
-imageSize
+imageIntSize
 .
 height
 )
+;
+nsSize
+imageSize
 ;
 imageSize
 .
@@ -9552,7 +9555,7 @@ nsPresContext
 :
 CSSPixelsToAppUnits
 (
-imageSize
+imageIntSize
 .
 width
 )
@@ -9566,7 +9569,7 @@ nsPresContext
 :
 CSSPixelsToAppUnits
 (
-imageSize
+imageIntSize
 .
 height
 )
@@ -10050,7 +10053,7 @@ itself
 is
 opaque
 .
-nsSize
+nsIntSize
 iSize
 ;
 image
@@ -10075,7 +10078,7 @@ iSize
 height
 )
 ;
-nsRect
+nsIntRect
 iframeRect
 ;
 gfxImgFrame

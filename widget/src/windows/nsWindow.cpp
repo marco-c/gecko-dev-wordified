@@ -5732,10 +5732,10 @@ nsWindow
 WidgetToScreen
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -5811,10 +5811,10 @@ nsWindow
 ScreenToWidget
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -6157,7 +6157,7 @@ InitEvent
 nsGUIEvent
 &
 event
-nsPoint
+nsIntPoint
 *
 aPoint
 )
@@ -6187,9 +6187,6 @@ position
 in
 client
 coordinates
-and
-in
-twips
 if
 (
 mWnd
@@ -8671,7 +8668,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -9736,7 +9733,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -9952,7 +9949,7 @@ Create
 nsNativeWidget
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -16018,7 +16015,7 @@ nsWindow
 :
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -16321,7 +16318,7 @@ nsWindow
 :
 GetClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -16425,7 +16422,7 @@ nsWindow
 :
 GetNonClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -16583,7 +16580,7 @@ nsWindow
 :
 GetScreenBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -19618,7 +19615,7 @@ nsWindow
 Invalidate
 (
 const
-nsRect
+nsIntRect
 &
 aRect
 PRBool
@@ -21090,7 +21087,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsRect
+nsIntRect
 *
 aClipRect
 )
@@ -21319,7 +21316,7 @@ nsWindow
 :
 ScrollRect
 (
-nsRect
+nsIntRect
 &
 aRect
 PRInt32
@@ -21670,12 +21667,12 @@ args
 ]
 )
 (
-nsRect
+nsIntRect
 &
 )
 *
 (
-nsRect
+nsIntRect
 *
 )
 (
@@ -21795,12 +21792,12 @@ args
 ]
 )
 (
-nsRect
+nsIntRect
 &
 )
 *
 (
-nsRect
+nsIntRect
 *
 )
 (
@@ -22646,7 +22643,7 @@ aEventType
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -31164,7 +31161,7 @@ NS_CONTROL_CHANGE
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -34592,7 +34589,7 @@ r
 top
 )
 ;
-nsRect
+nsIntRect
 rect
 (
 wp
@@ -38774,7 +38771,7 @@ NS_PLUGIN_EVENT
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -41795,9 +41792,6 @@ HDC
 aDC
 )
 {
-nsRect
-bounds
-;
 PRBool
 result
 =
@@ -43260,7 +43254,7 @@ nsWindow
 :
 OnResize
 (
-nsRect
+nsIntRect
 &
 aWindowRect
 )
@@ -43694,7 +43688,7 @@ return
 result
 ;
 }
-nsPoint
+nsIntPoint
 eventPoint
 ;
 eventPoint
@@ -43749,7 +43743,7 @@ NS_CONTEXTMENU
 aIsContextMenuKey
 )
 {
-nsPoint
+nsIntPoint
 zero
 (
 0
@@ -43813,10 +43807,10 @@ button
 =
 aButton
 ;
-nsRect
+nsIntRect
 mpWidget
 ;
-nsRect
+nsIntRect
 mpScreen
 ;
 mpWidget
@@ -44660,7 +44654,7 @@ mWnd
 )
 ;
 }
-nsRect
+nsIntRect
 rect
 ;
 GetBounds
@@ -45051,7 +45045,7 @@ nsIAccessible
 *
 *
 aAcc
-nsPoint
+nsIntPoint
 *
 aPoint
 )
@@ -46960,7 +46954,7 @@ NS_TEXT_TEXT
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -47094,7 +47088,7 @@ mCursorPosition
 height
 )
 {
-nsRect
+nsIntRect
 cursorPosition
 ;
 ResolveIMECaretPos
@@ -47607,7 +47601,7 @@ NS_COMPOSITION_START
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -47659,7 +47653,7 @@ mCursorPosition
 height
 )
 {
-nsRect
+nsIntRect
 cursorPosition
 ;
 ResolveIMECaretPos
@@ -48033,7 +48027,7 @@ NS_COMPOSITION_END
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -52063,7 +52057,7 @@ NS_QUERY_SELECTED_TEXT
 this
 )
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -52484,7 +52478,7 @@ len
 return
 PR_FALSE
 ;
-nsPoint
+nsIntPoint
 point
 (
 0
@@ -52549,7 +52543,7 @@ IsEmpty
 (
 )
 ;
-nsRect
+nsIntRect
 r
 ;
 if
@@ -52658,7 +52652,7 @@ mReply
 mRect
 ;
 }
-nsRect
+nsIntRect
 screenRect
 ;
 /
@@ -52852,13 +52846,13 @@ ResolveIMECaretPos
 nsIWidget
 *
 aReferenceWidget
-nsRect
+nsIntRect
 &
 aCursorRect
 nsIWidget
 *
 aNewOriginWidget
-nsRect
+nsIntRect
 &
 aOutRect
 )

@@ -657,9 +657,9 @@ gfxIImageFrame
 *
 aFrame
 const
-nsRect
+nsIntRect
 *
-rect
+aRect
 )
 ;
 NS_IMETHOD
@@ -685,7 +685,7 @@ aContainer
 gfxIImageFrame
 *
 aNewframe
-nsRect
+nsIntRect
 *
 aDirtyRect
 )

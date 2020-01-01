@@ -1105,7 +1105,7 @@ NotifyContentObjectWrapper
 (
 )
 ;
-nsPoint
+nsIntPoint
 GetWindowOriginInPixels
 (
 PRBool
@@ -1227,7 +1227,7 @@ nsPluginInstanceOwner
 >
 mInstanceOwner
 ;
-nsRect
+nsIntRect
 mWindowlessRect
 ;
 /

@@ -2151,7 +2151,7 @@ nsISupports
 *
 aState
 const
-nsRect
+nsIntRect
 &
 aBounds
 PRBool
@@ -3783,7 +3783,7 @@ nsIWidget
 *
 aParentWidget
 const
-nsRect
+nsIntRect
 &
 aBounds
 )
@@ -4027,7 +4027,7 @@ Initialize
 our
 view
 manager
-nsRect
+nsIntRect
 bounds
 ;
 mWindow
@@ -4653,7 +4653,7 @@ nsISupports
 *
 aState
 const
-nsRect
+nsIntRect
 &
 aBounds
 PRBool
@@ -7536,7 +7536,7 @@ mPresShell
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsRect
+nsIntRect
 bounds
 ;
 mWindow
@@ -10159,7 +10159,7 @@ DocumentViewerImpl
 :
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aResult
 )
@@ -10496,7 +10496,7 @@ DocumentViewerImpl
 SetBounds
 (
 const
-nsRect
+nsIntRect
 &
 aBounds
 )
@@ -11210,7 +11210,7 @@ return
 rv
 ;
 }
-nsRect
+nsIntRect
 tbounds
 ;
 if
@@ -11250,7 +11250,7 @@ better
 .
 tbounds
 =
-nsRect
+nsIntRect
 (
 0
 0
@@ -24413,7 +24413,7 @@ what
 is
 being
 viewed
-nsRect
+nsIntRect
 bounds
 ;
 mWindow

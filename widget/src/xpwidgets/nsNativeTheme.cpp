@@ -2175,7 +2175,7 @@ if
 aLeftOfParent
 )
 {
-nsRect
+nsIntRect
 selfBounds
 parentBounds
 ;

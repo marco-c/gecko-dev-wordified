@@ -2774,7 +2774,7 @@ by
 layout
 code
 .
-nsPoint
+nsIntPoint
 refPoint
 ;
 /
@@ -3151,7 +3151,7 @@ pixels
 client
 area
 )
-nsRect
+nsIntRect
 *
 windowSize
 ;
@@ -3428,7 +3428,7 @@ of
 area
 to
 paint
-nsRect
+nsIntRect
 *
 rect
 ;
@@ -4418,7 +4418,7 @@ nsnull
 )
 {
 }
-nsRect
+nsIntRect
 mCursorPosition
 ;
 PRBool
@@ -5244,7 +5244,7 @@ mOffset
 nsString
 mString
 ;
-nsRect
+nsIntRect
 mRect
 ;
 /

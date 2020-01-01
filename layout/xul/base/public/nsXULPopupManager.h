@@ -4808,7 +4808,7 @@ mRangeParent
 PRInt32
 mRangeOffset
 ;
-nsPoint
+nsIntPoint
 mCachedMousePoint
 ;
 /

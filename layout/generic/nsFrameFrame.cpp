@@ -1386,7 +1386,7 @@ ReflowCallbackCanceled
 ;
 protected
 :
-nsSize
+nsIntSize
 GetMargin
 (
 )
@@ -4618,7 +4618,7 @@ nsnull
 }
 }
 }
-nsSize
+nsIntSize
 nsSubDocumentFrame
 :
 :
@@ -4626,7 +4626,7 @@ GetMargin
 (
 )
 {
-nsSize
+nsIntSize
 result
 (
 -
@@ -5270,7 +5270,7 @@ document
 can
 use
 it
-nsSize
+nsIntSize
 margin
 =
 GetMargin

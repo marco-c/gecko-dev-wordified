@@ -492,10 +492,10 @@ NS_IPLUGINWIDGET_IID
 NS_IMETHOD
 GetPluginClipRect
 (
-nsRect
+nsIntRect
 &
 outClipRect
-nsPoint
+nsIntPoint
 &
 outOrigin
 PRBool

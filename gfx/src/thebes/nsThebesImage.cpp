@@ -1104,7 +1104,7 @@ nsIDeviceContext
 aContext
 PRUint8
 aFlags
-nsRect
+nsIntRect
 *
 aUpdateRect
 )
@@ -1208,7 +1208,7 @@ mImageComplete
 mDecoded
 =
 =
-nsRect
+nsIntRect
 (
 0
 0
