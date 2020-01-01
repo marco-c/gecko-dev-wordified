@@ -5775,9 +5775,6 @@ index
 ]
 ;
 }
-#
-ifdef
-DEBUG
 bool
 varIsAliased
 (
@@ -5806,8 +5803,6 @@ unsigned
 argSlot
 )
 ;
-#
-endif
 private
 :
 /

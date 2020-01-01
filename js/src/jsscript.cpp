@@ -15082,9 +15082,6 @@ return
 true
 ;
 }
-#
-ifdef
-DEBUG
 bool
 JSScript
 :
@@ -15274,5 +15271,3 @@ return
 false
 ;
 }
-#
-endif
