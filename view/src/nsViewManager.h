@@ -1194,6 +1194,13 @@ root
 void
 CallWillPaintOnObservers
 (
+PRBool
+aWillSendDidPaint
+)
+;
+void
+CallDidPaintOnObservers
+(
 )
 ;
 void
