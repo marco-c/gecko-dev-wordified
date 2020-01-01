@@ -1127,6 +1127,8 @@ guids
 null
 )
 ;
+try
+{
 HashMap
 <
 String
@@ -1225,6 +1227,16 @@ moveToNext
 return
 out
 ;
+}
+finally
+{
+c
+.
+close
+(
+)
+;
+}
 }
 /
 *
