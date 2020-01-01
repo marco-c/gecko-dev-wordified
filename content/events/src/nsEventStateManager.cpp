@@ -11092,6 +11092,12 @@ NS_FORM_INPUT_FILE
 type
 =
 =
+NS_FORM_INPUT_NUMBER
+|
+|
+type
+=
+=
 NS_FORM_TEXTAREA
 )
 ;
