@@ -247,6 +247,13 @@ nsXULSortService
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 NS_IMPL_ISUPPORTS1
 (
 nsXMLQuery
@@ -1144,7 +1151,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 (

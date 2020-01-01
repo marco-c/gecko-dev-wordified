@@ -4888,7 +4888,13 @@ mTreeOwner
 /
 Weak
 Reference
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 *
 mChromeEventHandler
 ;

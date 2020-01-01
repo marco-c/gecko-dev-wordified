@@ -4645,7 +4645,13 @@ attached
 to
 nsCOMPtr
 <
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 >
 mKeyListener
 ;
