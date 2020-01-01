@@ -459,7 +459,7 @@ mozilla
 /
 plugins
 /
-PluginThreadChild
+PluginProcessChild
 .
 h
 "
@@ -470,7 +470,7 @@ mozilla
 plugins
 :
 :
-PluginThreadChild
+PluginProcessChild
 ;
 #
 endif
@@ -1262,7 +1262,7 @@ handle
 that
 differently
 .
-PluginThreadChild
+PluginProcessChild
 :
 :
 AppendNotesToCrashReport
