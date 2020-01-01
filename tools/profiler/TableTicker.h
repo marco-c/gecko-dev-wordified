@@ -299,6 +299,9 @@ js
 ;
 mProfileThreads
 =
+true
+|
+|
 hasFeature
 (
 aFeatures
