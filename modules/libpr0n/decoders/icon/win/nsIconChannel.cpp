@@ -1811,6 +1811,9 @@ PR_FALSE
 ;
 nsCAutoString
 filePath
+(
+fileExt
+)
 ;
 if
 (
