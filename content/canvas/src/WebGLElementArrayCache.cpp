@@ -2513,6 +2513,16 @@ T
 1
 )
 ;
+if
+(
+firstByte
+>
+lastByte
+)
+{
+return
+;
+}
 size_t
 firstLeaf
 =
