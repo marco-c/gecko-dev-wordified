@@ -632,13 +632,6 @@ NS_PROPTABLE_PROP_OVERWRITTEN
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsStyleUtil
 .
 h

@@ -498,13 +498,6 @@ h
 #
 include
 "
-nsDOMError
-.
-h
-"
-#
-include
-"
 txURIUtils
 .
 h

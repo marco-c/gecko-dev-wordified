@@ -480,13 +480,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 FunctionTimer
