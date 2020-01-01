@@ -31934,6 +31934,17 @@ id
 sDialogArguments_id
 &
 &
+(
+mData
+=
+=
+&
+sClassInfoData
+[
+eDOMClassInfo_InnerModalContentWindow_id
+]
+|
+|
 mData
 =
 =
@@ -31942,6 +31953,7 @@ sClassInfoData
 [
 eDOMClassInfo_ModalContentWindow_id
 ]
+)
 )
 {
 nsCOMPtr
