@@ -500,7 +500,7 @@ temp
 .
 LightweightThemeManager
 .
-currentTheme
+currentThemeForDisplay
 )
 ;
 }
