@@ -759,6 +759,8 @@ pointRect
 .
 setRect
 (
+int32_t
+(
 SkFloatToScalar
 (
 transformed
@@ -767,6 +769,9 @@ x
 -
 1
 )
+)
+int32_t
+(
 SkFloatToScalar
 (
 transformed
@@ -775,6 +780,9 @@ y
 -
 1
 )
+)
+int32_t
+(
 SkFloatToScalar
 (
 transformed
@@ -783,6 +791,9 @@ x
 +
 1
 )
+)
+int32_t
+(
 SkFloatToScalar
 (
 transformed
@@ -790,6 +801,7 @@ transformed
 y
 +
 1
+)
 )
 )
 ;

@@ -214,6 +214,8 @@ aStartAngle
 Float
 correction
 =
+Float
+(
 ceil
 (
 (
@@ -230,10 +232,13 @@ aEndAngle
 M_PI
 )
 )
+)
 ;
 aEndAngle
 +
 =
+float
+(
 correction
 *
 2
@@ -241,6 +246,7 @@ correction
 0f
 *
 M_PI
+)
 ;
 }
 else
@@ -259,6 +265,9 @@ aEndAngle
 Float
 correction
 =
+(
+Float
+)
 ceil
 (
 (
@@ -279,6 +288,8 @@ M_PI
 aStartAngle
 +
 =
+float
+(
 correction
 *
 2
@@ -286,6 +297,7 @@ correction
 0f
 *
 M_PI
+)
 ;
 }
 /
@@ -320,6 +332,8 @@ M_PI
 {
 aEndAngle
 =
+float
+(
 aStartAngle
 +
 2
@@ -327,6 +341,7 @@ aStartAngle
 0f
 *
 M_PI
+)
 ;
 }
 else
@@ -350,6 +365,8 @@ M_PI
 {
 aEndAngle
 =
+float
+(
 aStartAngle
 -
 2
@@ -357,6 +374,7 @@ aStartAngle
 0f
 *
 M_PI
+)
 ;
 }
 /
@@ -444,6 +462,8 @@ M_PI
 {
 currentEndAngle
 =
+Float
+(
 currentStartAngle
 +
 M_PI
@@ -453,6 +473,7 @@ M_PI
 0f
 *
 sweepDirection
+)
 ;
 }
 else
@@ -649,11 +670,14 @@ currentEndPoint
 arcSweepLeft
 -
 =
+Float
+(
 M_PI
 /
 2
 .
 0f
+)
 ;
 currentStartAngle
 =
