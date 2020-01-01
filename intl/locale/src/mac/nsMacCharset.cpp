@@ -462,13 +462,6 @@ h
 #
 include
 "
-nsIMacLocale
-.
-h
-"
-#
-include
-"
 nsLocaleCID
 .
 h

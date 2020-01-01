@@ -601,13 +601,6 @@ nsDateTimeFormatMac
 h
 "
 #
-include
-"
-nsMacLocale
-.
-h
-"
-#
 endif
 #
 ifdef
@@ -788,10 +781,6 @@ endif
 #
 ifdef
 USE_MAC_LOCALE
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsMacLocale
-)
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsCollationMacUC

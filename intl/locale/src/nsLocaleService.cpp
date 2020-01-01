@@ -572,13 +572,6 @@ Carbon
 h
 >
 #
-include
-"
-nsIMacLocale
-.
-h
-"
-#
 elif
 defined
 (
