@@ -685,11 +685,13 @@ tryLock
 {
 try
 {
-return
 performUpdates
 (
 context
 )
+;
+return
+true
 ;
 }
 finally
@@ -1275,7 +1277,7 @@ complete
 *
 /
 protected
-boolean
+void
 performUpdates
 (
 RenderContext
@@ -1320,9 +1322,6 @@ mNewResolution
 0f
 ;
 }
-return
-true
-;
 }
 public
 static

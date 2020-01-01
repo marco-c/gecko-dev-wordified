@@ -1316,7 +1316,7 @@ mTextureId
 }
 Override
 protected
-boolean
+void
 performUpdates
 (
 RenderContext
@@ -1337,9 +1337,6 @@ mNewInverted
 mBlend
 =
 mNewBlend
-;
-return
-true
 ;
 }
 private
