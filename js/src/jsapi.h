@@ -21391,7 +21391,10 @@ payload
 boo
 =
 =
-JSVAL_TRUE
+JSBool
+(
+true
+)
 ;
 }
 bool
