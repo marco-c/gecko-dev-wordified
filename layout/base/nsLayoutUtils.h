@@ -11328,6 +11328,16 @@ return
 sFontSizeInflationForceEnabled
 ;
 }
+static
+bool
+FontSizeInflationDisabledInMasterProcess
+(
+)
+{
+return
+sFontSizeInflationDisabledInMasterProcess
+;
+}
 /
 *
 *
@@ -12089,6 +12099,10 @@ sFontSizeInflationMaxRatio
 static
 bool
 sFontSizeInflationForceEnabled
+;
+static
+bool
+sFontSizeInflationDisabledInMasterProcess
 ;
 }
 ;
