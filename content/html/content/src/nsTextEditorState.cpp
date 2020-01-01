@@ -5619,7 +5619,7 @@ mBoundFrame
 >
 UpdateValueDisplay
 (
-PR_FALSE
+PR_TRUE
 PR_FALSE
 aValue
 )
