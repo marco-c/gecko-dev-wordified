@@ -269,11 +269,11 @@ collapsed
 :
 nsRefPtr
 <
-nsTypedSelection
+Selection
 >
 selection
 =
-GetTypedSelection
+GetSelection
 (
 )
 ;
@@ -765,11 +765,11 @@ collapsed
 :
 nsRefPtr
 <
-nsTypedSelection
+Selection
 >
 selection
 =
-GetTypedSelection
+GetSelection
 (
 )
 ;

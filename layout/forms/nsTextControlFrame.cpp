@@ -390,6 +390,13 @@ check
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h
@@ -626,6 +633,10 @@ h
 define
 DEFAULT_COLUMN_WIDTH
 20
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewTextControlFrame
@@ -6127,7 +6138,7 @@ NS_ERROR_FAILURE
 ;
 nsRefPtr
 <
-nsTypedSelection
+Selection
 >
 typedSel
 =
