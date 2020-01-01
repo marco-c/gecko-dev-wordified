@@ -986,6 +986,10 @@ document
 )
 ;
 }
+BecomeInteractive
+(
+)
+;
 }
 else
 {
