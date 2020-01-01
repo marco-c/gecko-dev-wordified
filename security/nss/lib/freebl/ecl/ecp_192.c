@@ -87,13 +87,6 @@ priv
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 define
 ECP192_DIGITS
 ECL_CURVE_DIGITS
@@ -147,6 +140,7 @@ Fields
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp192_mod
 (
@@ -1954,6 +1948,7 @@ p192
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp192_add
 (
@@ -2546,6 +2541,7 @@ p192
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp192_sub
 (
@@ -3085,6 +3081,7 @@ p192
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp192_sqr
 (
@@ -3175,6 +3172,7 @@ p192
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp192_mul
 (
@@ -3247,6 +3245,7 @@ b
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp192_div
 (

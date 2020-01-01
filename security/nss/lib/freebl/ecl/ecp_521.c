@@ -87,13 +87,6 @@ priv
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 define
 ECP521_DIGITS
 ECL_CURVE_DIGITS
@@ -139,6 +132,7 @@ Cryptography
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp521_mod
 (
@@ -558,6 +552,7 @@ p521
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp521_sqr
 (
@@ -648,6 +643,7 @@ p521
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp521_mul
 (
@@ -720,6 +716,7 @@ b
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp521_div
 (

@@ -87,13 +87,6 @@ priv
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 define
 ECP224_DIGITS
 ECL_CURVE_DIGITS
@@ -147,6 +140,7 @@ Fields
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp224_mod
 (
@@ -2043,6 +2037,7 @@ p224
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp224_sqr
 (
@@ -2133,6 +2128,7 @@ p224
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp224_mul
 (
@@ -2205,6 +2201,7 @@ b
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp224_div
 (

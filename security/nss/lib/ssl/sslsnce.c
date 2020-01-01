@@ -13356,11 +13356,11 @@ globalCache
 uint8
 ticketMacKey
 [
-AES_256_KEY_LENGTH
+SHA256_LENGTH
 ]
 ticketEncKey
 [
-SHA256_LENGTH
+AES_256_KEY_LENGTH
 ]
 ;
 uint8

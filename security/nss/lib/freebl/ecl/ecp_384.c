@@ -86,13 +86,6 @@ priv
 .
 h
 "
-#
-include
-<
-stdlib
-.
-h
->
 /
 *
 Fast
@@ -144,6 +137,7 @@ Cryptography
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp384_mod
 (
@@ -2487,6 +2481,7 @@ p384
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp384_sqr
 (
@@ -2577,6 +2572,7 @@ p384
 .
 *
 /
+static
 mp_err
 ec_GFp_nistp384_mul
 (
