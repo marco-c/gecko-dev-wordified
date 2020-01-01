@@ -173,14 +173,6 @@ static
 const
 unsigned
 short
-SVG_OPERATOR_UNKNOWN
-=
-0
-;
-static
-const
-unsigned
-short
 SVG_OPERATOR_ERODE
 =
 1

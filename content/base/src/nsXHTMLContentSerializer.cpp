@@ -309,17 +309,6 @@ h
 "
 static
 const
-char
-kMozStr
-[
-]
-=
-"
-moz
-"
-;
-static
-const
 int32_t
 kLongLineLen
 =

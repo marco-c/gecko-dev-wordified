@@ -346,13 +346,6 @@ mozilla
 :
 dom
 ;
-static
-const
-int32_t
-kLongLineLen
-=
-128
-;
 nsresult
 NS_NewHTMLContentSerializer
 (

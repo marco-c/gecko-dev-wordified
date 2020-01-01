@@ -3950,17 +3950,6 @@ dom
 /
 namespace
 mozilla
-DOMCI_DATA
-(
-ImageDocument
-mozilla
-:
-:
-dom
-:
-:
-ImageDocument
-)
 nsresult
 NS_NewImageDocument
 (

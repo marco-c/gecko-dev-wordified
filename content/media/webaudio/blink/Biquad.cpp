@@ -300,12 +300,6 @@ algorithm
 namespace
 WebCore
 {
-const
-int
-kBufferSize
-=
-1024
-;
 Biquad
 :
 :

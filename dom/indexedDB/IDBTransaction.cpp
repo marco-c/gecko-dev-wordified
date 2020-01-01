@@ -3326,11 +3326,6 @@ NS_IMPL_RELEASE_INHERITED
 IDBTransaction
 IDBWrapperCache
 )
-DOMCI_DATA
-(
-IDBTransaction
-IDBTransaction
-)
 JSObject
 *
 IDBTransaction
