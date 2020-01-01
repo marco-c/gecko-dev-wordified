@@ -235,7 +235,6 @@ was
 not
 required
 .
-.
 let
 activeWindow
 =

@@ -7354,6 +7354,15 @@ preferences
 '
 )
     
+#
+Do
+not
+add
+entries
+for
+SDK
+modules
+    
 harness_options
 [
 '
@@ -7361,15 +7370,11 @@ manifest
 '
 ]
 =
-\
-        
 manifest
 .
 get_harness_options_manifest
 (
-options
-.
-bundle_sdk
+False
 )
     
 #
@@ -8063,6 +8068,12 @@ verbose
 options
 .
 verbose
+                             
+parseable
+=
+options
+.
+parseable
                              
 enforce_timeouts
 =

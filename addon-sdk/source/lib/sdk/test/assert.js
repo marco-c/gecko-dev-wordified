@@ -453,6 +453,8 @@ e
 .
 message
 ;
+try
+{
 if
 (
 '
@@ -492,6 +494,13 @@ join
 "
 )
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 this
 .
