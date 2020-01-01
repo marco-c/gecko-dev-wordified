@@ -6888,6 +6888,15 @@ see
 nsStyleConsts
 .
 h
+PRInt32
+mOrder
+;
+/
+/
+[
+reset
+]
+integer
 #
 endif
 /

@@ -1957,6 +1957,12 @@ properties
 /
 nsIDOMCSSValue
 *
+DoGetOrder
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetJustifyContent
 (
 )
