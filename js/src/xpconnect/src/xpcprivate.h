@@ -3742,8 +3742,8 @@ p
 ;
 #
 endif
-PRInt32
-GetRequestDepth
+unsigned
+GetOutstandingRequests
 (
 JSContext
 *
@@ -21833,7 +21833,7 @@ frame
 (
 nsnull
 )
-requestDepth
+suspendDepth
 (
 0
 )
@@ -21873,8 +21873,9 @@ a
 request
 was
 suspended
+.
 jsrefcount
-requestDepth
+suspendDepth
 ;
 }
 ;
