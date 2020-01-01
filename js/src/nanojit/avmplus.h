@@ -1097,7 +1097,7 @@ struct
 JSContext
 ;
 namespace
-avmplus
+MMgc
 {
 class
 GC
@@ -1485,6 +1485,7 @@ heap
 }
 }
 ;
+}
 #
 define
 DWB
@@ -1555,6 +1556,13 @@ MMGC_MEM_TYPE
 (
 x
 )
+namespace
+avmplus
+{
+using
+namespace
+MMgc
+;
 typedef
 int
 FunctionID

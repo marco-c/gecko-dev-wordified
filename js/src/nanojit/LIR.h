@@ -585,6 +585,10 @@ point
 namespace
 nanojit
 {
+using
+namespace
+MMgc
+;
 enum
 LOpcode
 #
@@ -5397,9 +5401,6 @@ class
 LirWriter
 :
 public
-avmplus
-:
-:
 GCObject
 {
 public
@@ -6248,9 +6249,6 @@ public
 :
 CountMap
 (
-avmplus
-:
-:
 GC
 *
 gc
@@ -6412,9 +6410,6 @@ public
 :
 LirNameMap
 (
-avmplus
-:
-:
 GC
 *
 gc
@@ -6538,9 +6533,6 @@ public
 :
 VerboseWriter
 (
-avmplus
-:
-:
 GC
 *
 gc
@@ -7216,9 +7208,6 @@ uint32_t
 m_used
 m_cap
 ;
-avmplus
-:
-:
 GC
 *
 m_gc
@@ -7269,9 +7258,6 @@ public
 :
 LInsHashSet
 (
-avmplus
-:
-:
 GC
 *
 gc
@@ -7464,9 +7450,6 @@ CseFilter
 LirWriter
 *
 out
-avmplus
-:
-:
 GC
 *
 gc
@@ -7560,9 +7543,6 @@ class
 LirBuffer
 :
 public
-avmplus
-:
-:
 GCFinalizedObject
 {
 public
@@ -8081,9 +8061,6 @@ verbose_only
 void
 live
 (
-avmplus
-:
-:
 GC
 *
 gc
@@ -8099,9 +8076,6 @@ StackFilter
 public
 LirFilter
 {
-avmplus
-:
-:
 GC
 *
 gc
@@ -8136,9 +8110,6 @@ StackFilter
 LirFilter
 *
 in
-avmplus
-:
-:
 GC
 *
 gc
@@ -8233,9 +8204,6 @@ LoadFilter
 LirWriter
 *
 out
-avmplus
-:
-:
 GC
 *
 gc
