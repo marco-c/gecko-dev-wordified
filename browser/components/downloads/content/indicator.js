@@ -1864,10 +1864,7 @@ false
 ;
 DownloadsCommon
 .
-getIndicatorData
-(
-window
-)
+indicatorData
 .
 addView
 (
@@ -1929,10 +1926,7 @@ false
 ;
 DownloadsCommon
 .
-getIndicatorData
-(
-window
-)
+indicatorData
 .
 removeView
 (
@@ -2083,10 +2077,7 @@ _initialized
 {
 DownloadsCommon
 .
-getIndicatorData
-(
-window
-)
+indicatorData
 .
 refreshView
 (
@@ -3275,10 +3266,7 @@ now
 .
 DownloadsCommon
 .
-getIndicatorData
-(
-window
-)
+indicatorData
 .
 attention
 =
