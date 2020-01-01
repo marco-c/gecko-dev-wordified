@@ -33160,7 +33160,7 @@ getTypeInitObject
 (
 cx
 PC
-true
+isArray
 )
 ;
 masm
@@ -35369,9 +35369,11 @@ TYPE_OBJECT_ARRAY_PROTOTYPE
 )
 -
 >
-indexTypes
+getProperty
 (
 cx
+JSID_VOID
+false
 )
 ;
 types
@@ -35393,9 +35395,11 @@ TYPE_OBJECT_OBJECT_PROTOTYPE
 )
 -
 >
-indexTypes
+getProperty
 (
 cx
+JSID_VOID
+false
 )
 ;
 return

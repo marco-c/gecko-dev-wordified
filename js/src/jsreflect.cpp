@@ -15879,8 +15879,7 @@ getTypeObject
 js_ReflectClass
 .
 name
-false
-false
+NULL
 )
 ;
 JSObject

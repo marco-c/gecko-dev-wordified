@@ -7364,8 +7364,6 @@ fp
 thisValue
 (
 )
-false
-true
 )
 ;
 /

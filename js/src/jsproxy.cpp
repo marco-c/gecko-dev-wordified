@@ -7050,7 +7050,7 @@ cx
 >
 getFixedTypeObject
 (
-TYPE_OBJECT_NEW_PROXY
+TYPE_OBJECT_PROXY
 )
 ;
 JSObject
@@ -8212,7 +8212,7 @@ cx
 >
 getFixedTypeObject
 (
-TYPE_OBJECT_NEW_PROXY
+TYPE_OBJECT_PROXY
 )
 ;
 JSObject
@@ -8596,7 +8596,7 @@ cx
 >
 getFixedTypeObject
 (
-TYPE_OBJECT_NEW_PROXY
+TYPE_OBJECT_PROXY
 )
 ;
 gc
@@ -8836,8 +8836,7 @@ getTypeObject
 js_ProxyClass
 .
 name
-false
-false
+NULL
 )
 ;
 JSObject
