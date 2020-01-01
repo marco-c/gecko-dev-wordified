@@ -1951,6 +1951,9 @@ defined
 (
 _WIN32
 )
+#
+ifndef
+WINCE
 /
 /
 This
@@ -1962,6 +1965,8 @@ raise
 SIGABRT
 )
 ;
+#
+endif
 /
 /
 If
