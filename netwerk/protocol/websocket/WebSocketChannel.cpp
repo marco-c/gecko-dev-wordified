@@ -37,6 +37,24 @@ offset
 /
 /
 *
+vim
+:
+set
+sw
+=
+4
+ts
+=
+4
+et
+tw
+=
+80
+:
+*
+/
+/
+*
 *
 *
 *
@@ -453,7 +471,7 @@ h
 #
 include
 "
-nsWebSocketHandler
+WebSocketChannel
 .
 h
 "
@@ -673,7 +691,7 @@ net
 {
 NS_IMPL_THREADSAFE_ISUPPORTS11
 (
-nsWebSocketHandler
+WebSocketChannel
 nsIWebSocketChannel
 nsIHttpUpgradeListener
 nsIRequestObserver
@@ -1167,7 +1185,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 CallAcknowledge
@@ -1235,9 +1253,9 @@ public
 NS_DECL_ISUPPORTS
 nsPostMessage
 (
-nsWebSocketHandler
+WebSocketChannel
 *
-handler
+channel
 nsCString
 *
 aData
@@ -1245,9 +1263,9 @@ PRInt32
 aDataLen
 )
 :
-mHandler
+mChannel
 (
-handler
+channel
 )
 mData
 (
@@ -1269,7 +1287,7 @@ if
 (
 mData
 )
-mHandler
+mChannel
 -
 >
 SendMsgInternal
@@ -1292,9 +1310,9 @@ nsPostMessage
 }
 nsRefPtr
 <
-nsWebSocketHandler
+WebSocketChannel
 >
-mHandler
+mChannel
 ;
 nsCString
 *
@@ -1389,18 +1407,18 @@ nsOpenConn
 nsCString
 &
 addr
-nsWebSocketHandler
+WebSocketChannel
 *
-handler
+channel
 )
 :
 mAddress
 (
 addr
 )
-mHandler
+mChannel
 (
-handler
+channel
 )
 {
 MOZ_COUNT_CTOR
@@ -1425,9 +1443,9 @@ mAddress
 ;
 nsRefPtr
 <
-nsWebSocketHandler
+WebSocketChannel
 >
-mHandler
+mChannel
 ;
 }
 ;
@@ -1473,7 +1491,7 @@ ConditionallyConnect
 nsCString
 &
 aStr
-nsWebSocketHandler
+WebSocketChannel
 *
 ws
 )
@@ -1701,7 +1719,7 @@ index
 )
 -
 >
-mHandler
+mChannel
 -
 >
 BeginOpen
@@ -2425,11 +2443,11 @@ nsnull
 ;
 /
 /
-nsWebSocketHandler
-nsWebSocketHandler
+WebSocketChannel
+WebSocketChannel
 :
 :
-nsWebSocketHandler
+WebSocketChannel
 (
 )
 :
@@ -2566,10 +2584,10 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
-nsWebSocketHandler
+WebSocketChannel
 (
 )
 %
@@ -2610,11 +2628,11 @@ mBufferSize
 )
 ;
 }
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 ~
-nsWebSocketHandler
+WebSocketChannel
 (
 )
 {
@@ -2622,11 +2640,11 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 ~
-nsWebSocketHandler
+WebSocketChannel
 (
 )
 %
@@ -2847,7 +2865,7 @@ PR_FALSE
 }
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 Shutdown
@@ -2863,7 +2881,7 @@ nsnull
 ;
 }
 nsresult
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 BeginOpen
@@ -2874,7 +2892,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 BeginOpen
@@ -2913,7 +2931,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 BeginOpen
@@ -2968,7 +2986,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 BeginOpen
@@ -3013,7 +3031,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 BeginOpen
@@ -3077,7 +3095,7 @@ rv
 ;
 }
 PRBool
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 IsPersistentFramePtr
@@ -3121,7 +3139,7 @@ available
 for
 read
 PRUint32
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 UpdateReadBuffer
@@ -3137,7 +3155,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 UpdateReadBuffer
@@ -3203,7 +3221,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 update
@@ -3263,7 +3281,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 update
@@ -3315,7 +3333,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 update
@@ -3388,7 +3406,7 @@ mBuffer
 ;
 }
 nsresult
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 ProcessInput
@@ -3404,7 +3422,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 ProcessInput
@@ -3777,7 +3795,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 high
@@ -3845,7 +3863,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 ProcessInput
@@ -3920,7 +3938,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 ProcessInput
@@ -3969,7 +3987,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Client
@@ -4038,7 +4056,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 fragmented
@@ -4072,7 +4090,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 unexpected
@@ -4195,7 +4213,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Accumulating
@@ -4298,7 +4316,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Finalizing
@@ -4432,7 +4450,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 ignoring
@@ -4464,7 +4482,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 "
@@ -4498,7 +4516,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 text
@@ -4592,7 +4610,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 text
@@ -4662,7 +4680,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 bad
@@ -4703,7 +4721,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 close
@@ -4749,7 +4767,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 close
@@ -4857,7 +4875,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 close
@@ -4885,7 +4903,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 close
@@ -4968,7 +4986,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 ping
@@ -5021,7 +5039,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 pong
@@ -5066,7 +5084,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Removing
@@ -5149,7 +5167,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 binary
@@ -5219,7 +5237,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 unknown
@@ -5331,7 +5349,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Setup
@@ -5393,7 +5411,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Setup
@@ -5459,7 +5477,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Internal
@@ -5481,7 +5499,7 @@ NS_OK
 ;
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 ApplyMask
@@ -5704,7 +5722,7 @@ len
 }
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 GeneratePing
@@ -5715,7 +5733,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 GeneratePing
@@ -5767,7 +5785,7 @@ mSocketOut
 ;
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 GeneratePong
@@ -5783,7 +5801,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 GeneratePong
@@ -5839,7 +5857,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 GeneratePong
@@ -5887,7 +5905,7 @@ mSocketOut
 ;
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 SendMsgInternal
@@ -5903,7 +5921,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 SendMsgInternal
@@ -5996,7 +6014,7 @@ mSocketOut
 ;
 }
 PRUint16
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 ResultToCloseCode
@@ -6052,7 +6070,7 @@ kCloseProtocolError
 ;
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoingMessage
@@ -6063,7 +6081,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoingMessage
@@ -6239,7 +6257,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoingMessage
@@ -6460,7 +6478,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoingMessage
@@ -6497,7 +6515,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoingMessage
@@ -6541,7 +6559,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoing
@@ -6585,7 +6603,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoing
@@ -6809,7 +6827,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoingMessage
@@ -6882,7 +6900,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 PrimeNewOutgoingMessage
@@ -7277,7 +7295,7 @@ compression
 process
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 EnsureHdrOut
@@ -7290,7 +7308,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 EnsureHdrOut
@@ -7340,7 +7358,7 @@ mDynamicOutput
 ;
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 CleanupConnection
@@ -7351,7 +7369,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 CleanupConnection
@@ -7471,7 +7489,7 @@ nsnull
 }
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 StopSession
@@ -7484,7 +7502,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 StopSession
@@ -7870,7 +7888,7 @@ keeping
 this
 /
 /
-handler
+channel
 object
 around
 waiting
@@ -7945,7 +7963,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 StopSession
@@ -8085,7 +8103,7 @@ return
 ;
 }
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 AbortSession
@@ -8098,7 +8116,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 AbortSession
@@ -8303,7 +8321,7 @@ on
 orderly
 shutdown
 void
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 ReleaseSession
@@ -8314,7 +8332,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 ReleaseSession
@@ -8366,7 +8384,7 @@ NS_OK
 ;
 }
 nsresult
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 HandleExtensions
@@ -8377,7 +8395,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 HandleExtensions
@@ -8470,7 +8488,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -8519,7 +8537,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 HandleExtensions
@@ -8573,7 +8591,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Cannot
@@ -8628,7 +8646,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Cannot
@@ -8671,7 +8689,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Cannot
@@ -8717,7 +8735,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Cannot
@@ -8753,7 +8771,7 @@ NS_OK
 ;
 }
 nsresult
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 SetupRequest
@@ -8764,7 +8782,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 SetupRequest
@@ -9087,7 +9105,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 AsyncOpen
@@ -9234,7 +9252,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 AsyncOpen
@@ -9261,7 +9279,7 @@ NS_OK
 ;
 }
 nsresult
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 ApplyForAdmission
@@ -9272,7 +9290,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 ApplyForAdmission
@@ -9373,7 +9391,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 AsyncOpen
@@ -9457,7 +9475,7 @@ state
 machine
 .
 nsresult
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 StartWebsocketData
@@ -9468,7 +9486,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 StartWebsocketData
@@ -9500,7 +9518,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 max
 concurrency
 %
@@ -9543,7 +9561,7 @@ mSocketThread
 /
 nsIDNSListener
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnLookupComplete
@@ -9562,7 +9580,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnLookupComplete
@@ -9645,7 +9663,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnLookupComplete
@@ -9683,7 +9701,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnLookupComplete
@@ -9712,7 +9730,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnLookupComplete
@@ -9732,7 +9750,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnLookupComplete
@@ -9753,7 +9771,7 @@ NS_OK
 /
 nsIInterfaceRequestor
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 GetInterface
@@ -9773,7 +9791,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 GetInterface
@@ -9829,7 +9847,7 @@ NS_ERROR_FAILURE
 /
 nsIChannelEventSink
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 AsyncOnChannelRedirect
@@ -9851,7 +9869,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 AsyncOnChannelRedirect
@@ -9920,7 +9938,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 Redirect
 to
 %
@@ -10005,7 +10023,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 Redirect
 to
 %
@@ -10061,7 +10079,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 Redirect
 could
 not
@@ -10111,7 +10129,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 Redirect
 could
 not
@@ -10182,7 +10200,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 Redirect
 could
 not
@@ -10312,7 +10330,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 Redirect
 failed
 due
@@ -10346,7 +10364,7 @@ NS_OK
 /
 nsITimerCallback
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 Notify
@@ -10360,7 +10378,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Notify
@@ -10440,7 +10458,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 Expecting
@@ -10503,7 +10521,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 Connection
@@ -10600,7 +10618,7 @@ LOG
 (
 (
 "
-nsWebSockethandler
+WebSocketChannel
 :
 :
 Generating
@@ -10639,7 +10657,7 @@ LOG
 (
 (
 "
-nsWebSockethandler
+WebSocketChannel
 :
 :
 Timed
@@ -10675,7 +10693,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 Lingering
@@ -10707,7 +10725,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 GetSecurityInfo
@@ -10722,7 +10740,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 GetSecurityInfo
@@ -10778,7 +10796,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 AsyncOpen
@@ -10802,7 +10820,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 AsyncOpen
@@ -10843,7 +10861,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 AsyncOpen
@@ -11376,7 +11394,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 max
 concurrency
 %
@@ -11463,7 +11481,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 will
 generate
 ping
@@ -11788,7 +11806,7 @@ ApplyForAdmission
 ;
 }
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 Close
@@ -11799,7 +11817,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Close
@@ -11835,7 +11853,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 Double
@@ -11888,7 +11906,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 SendMsg
@@ -11903,7 +11921,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 SendMsg
@@ -11939,7 +11957,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 SendMsg
@@ -11965,7 +11983,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 SendMsg
@@ -12016,7 +12034,7 @@ DISPATCH_NORMAL
 ;
 }
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 SendBinaryMsg
@@ -12031,7 +12049,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 SendBinaryMsg
@@ -12076,7 +12094,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 SendBinaryMsg
@@ -12102,7 +12120,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 SendBinaryMsg
@@ -12156,7 +12174,7 @@ DISPATCH_NORMAL
 ;
 }
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnTransportAvailable
@@ -12176,7 +12194,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnTransportAvailable
@@ -12332,7 +12350,7 @@ from
 nsIStreamListener
 )
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12349,7 +12367,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12451,7 +12469,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12469,7 +12487,7 @@ LOG
 (
 (
 "
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12509,11 +12527,11 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
-Handler
+Channel
 Already
 Done
 \
@@ -12566,7 +12584,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12592,7 +12610,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12730,7 +12748,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12865,7 +12883,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12945,7 +12963,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -12971,7 +12989,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -13155,7 +13173,7 @@ LOG
 (
 (
 "
-WebsocketHandler
+WebsocketChannel
 :
 :
 OnStartRequest
@@ -13185,7 +13203,7 @@ LOG
 (
 (
 "
-WebsocketHandler
+WebsocketChannel
 :
 :
 OnStartRequest
@@ -13230,7 +13248,7 @@ LOG
 (
 (
 "
-WebsocketHandler
+WebsocketChannel
 :
 :
 OnStartRequest
@@ -13283,7 +13301,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStartRequest
@@ -13332,7 +13350,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnStopRequest
@@ -13351,7 +13369,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnStopRequest
@@ -13431,7 +13449,7 @@ NS_OK
 /
 nsIInputStreamCallback
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnInputStreamReady
@@ -13445,7 +13463,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnInputStreamReady
@@ -13542,7 +13560,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnInputStreamReady
@@ -13726,7 +13744,7 @@ NS_OK
 /
 nsIOutputStreamCallback
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnOutputStreamReady
@@ -13740,7 +13758,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnOutputStreamReady
@@ -13823,7 +13841,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnOutputStreamReady
@@ -13885,7 +13903,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnOutputStreamReady
@@ -13939,7 +13957,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnOutputStreamReady
@@ -14117,7 +14135,7 @@ NS_OK
 /
 nsIStreamListener
 NS_IMETHODIMP
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 OnDataAvailable
@@ -14141,7 +14159,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnDataAvailable
@@ -14192,7 +14210,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnDataAvailable
@@ -14265,7 +14283,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnDataAvailable
@@ -14402,7 +14420,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnDataAvailable
@@ -14529,7 +14547,7 @@ LOG
 (
 (
 "
-WebSocketHandler
+WebSocketChannel
 :
 :
 OnDataAvailable
