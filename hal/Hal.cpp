@@ -979,9 +979,6 @@ id
 else
 if
 (
-gLastIDToVibrate
-&
-&
 *
 gLastIDToVibrate
 =
