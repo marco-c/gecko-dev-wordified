@@ -6486,6 +6486,10 @@ cmdT
 +
 args
       
+proc
+=
+None
+      
 try
 :
         
@@ -7488,6 +7492,8 @@ needed
 .
         
 if
+proc
+and
 self
 .
 poll
