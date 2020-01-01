@@ -1938,6 +1938,10 @@ DOMRequest
 )
 DOMCI_CLASS
 (
+OpenWindowEventDetail
+)
+DOMCI_CLASS
+(
 DOMFileHandle
 )
 DOMCI_CLASS
