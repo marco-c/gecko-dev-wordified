@@ -591,9 +591,6 @@ PRInt32
 aModType
 )
 ;
-#
-ifdef
-DEBUG
 NS_IMETHOD
 Init
 (
@@ -608,8 +605,6 @@ nsIFrame
 aPrevInFlow
 )
 ;
-#
-endif
 /
 *
 *

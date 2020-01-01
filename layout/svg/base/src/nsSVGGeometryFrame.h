@@ -596,11 +596,6 @@ GetClipRule
 (
 )
 ;
-PRBool
-IsClipChild
-(
-)
-;
 float
 GetStrokeWidth
 (

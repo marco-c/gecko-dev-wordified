@@ -1787,9 +1787,6 @@ aModType
 )
 ;
 }
-#
-ifdef
-DEBUG
 NS_IMETHODIMP
 nsSVGClipPathFrame
 :
@@ -1807,6 +1804,9 @@ nsIFrame
 aPrevInFlow
 )
 {
+#
+ifdef
+DEBUG
 nsCOMPtr
 <
 nsIDOMSVGClipPathElement
@@ -1832,6 +1832,13 @@ clipPath
 "
 )
 ;
+#
+endif
+AddStateBits
+(
+NS_STATE_SVG_CLIPPATH_CHILD
+)
+;
 return
 nsSVGClipPathFrameBase
 :
@@ -1844,13 +1851,6 @@ aPrevInFlow
 )
 ;
 }
-#
-endif
-/
-*
-DEBUG
-*
-/
 nsIAtom
 *
 nsSVGClipPathFrame
