@@ -528,14 +528,6 @@ true
 break
 ;
 }
-decoder
--
->
-NotifyBytesConsumed
-(
-bytes
-)
-;
 aLength
 -
 =
