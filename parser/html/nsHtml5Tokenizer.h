@@ -921,6 +921,10 @@ PRUnichar
 c
 )
 {
+errConsecutiveHyphens
+(
+)
+;
 appendLongStrBuf
 (
 c
