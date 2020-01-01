@@ -8271,11 +8271,6 @@ mState
 =
 STATE_TRANSFERRING
 ;
-SendStatus
-(
-STATUS_CONNECTED_TO
-)
-;
 /
 /
 assign
@@ -8340,6 +8335,11 @@ mFDconnected
 PR_TRUE
 ;
 }
+SendStatus
+(
+STATUS_CONNECTED_TO
+)
+;
 }
 PRFileDesc
 *
