@@ -8241,7 +8241,6 @@ _checkSync
 (
 [
 kSyncNotLoggedIn
-kFirstSyncChoiceNotMade
 ]
 )
 ;
