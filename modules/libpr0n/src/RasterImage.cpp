@@ -14290,7 +14290,7 @@ can
 discard
 an
 image
-PRBool
+bool
 RasterImage
 :
 :
@@ -14376,7 +14376,7 @@ to
 discard
 .
 }
-PRBool
+bool
 RasterImage
 :
 :
@@ -14439,7 +14439,7 @@ Mainly
 for
 assertions
 .
-PRBool
+bool
 RasterImage
 :
 :
@@ -14489,7 +14489,7 @@ directly
 to
 the
 decoder
-PRBool
+bool
 RasterImage
 :
 :
@@ -19287,7 +19287,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 RasterImage
 :
 :

@@ -1027,7 +1027,7 @@ animate
 *
 /
 virtual
-PRBool
+bool
 ShouldAnimate
 (
 )
