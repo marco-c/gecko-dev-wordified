@@ -153,9 +153,9 @@ components
 /
 telemetry
 /
-TelemetryHistograms
+Histograms
 .
-h
+json
 public
 static
 void
