@@ -1560,7 +1560,7 @@ nsIDOMNSHTMLElement
 )
 private
 :
-nsCOMPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >

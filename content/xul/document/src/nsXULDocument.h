@@ -2743,7 +2743,7 @@ mDocument
 [
 WEAK
 ]
-nsCOMPtr
+nsRefPtr
 <
 mozilla
 :

@@ -940,7 +940,7 @@ RestyleEnumerateData
 public
 RestyleData
 {
-nsCOMPtr
+nsRefPtr
 <
 Element
 >
