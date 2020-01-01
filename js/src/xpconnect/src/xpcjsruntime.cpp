@@ -6853,7 +6853,7 @@ TraceJS
 this
 )
 ;
-JS_SetWrapObjectCallback
+JS_SetWrapObjectCallbacks
 (
 mJSRuntime
 xpc
@@ -6863,6 +6863,13 @@ WrapperFactory
 :
 :
 Rewrap
+xpc
+:
+:
+WrapperFactory
+:
+:
+PrepareForWrapping
 )
 ;
 mWatchdogWakeup
