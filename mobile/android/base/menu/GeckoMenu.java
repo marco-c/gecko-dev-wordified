@@ -1354,14 +1354,12 @@ hasSubMenu
 {
 if
 (
+!
 menuItem
 .
-getActionProvider
+hasActionProvider
 (
 )
-=
-=
-null
 )
 {
 SubMenu
