@@ -1213,7 +1213,7 @@ hfont
 ;
 }
 hb_bool_t
-hb_uniscribe_shape
+_hb_uniscribe_shape
 (
 hb_font_t
 *
@@ -1228,12 +1228,6 @@ features
 unsigned
 int
 num_features
-const
-char
-*
-const
-*
-shaper_options
 )
 {
 buffer

@@ -1706,6 +1706,7 @@ Tag
 HB_OT_TAG_GDEF
 ;
 enum
+GlyphClasses
 {
 UnclassifiedGlyph
 =

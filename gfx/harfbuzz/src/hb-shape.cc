@@ -232,8 +232,10 @@ include
 hb
 -
 graphite2
+-
+private
 .
-h
+hh
 "
 #
 endif
@@ -246,8 +248,10 @@ include
 hb
 -
 uniscribe
+-
+private
 .
-h
+hh
 "
 #
 endif
@@ -262,8 +266,10 @@ hb
 ot
 -
 shape
+-
+private
 .
-h
+hh
 "
 #
 endif
@@ -300,12 +306,6 @@ features
 unsigned
 int
 num_features
-const
-char
-*
-const
-*
-shaper_options
 )
 ;
 #
@@ -317,7 +317,7 @@ name
 {
 #
 name
-hb_
+_hb_
 #
 #
 name
@@ -365,7 +365,7 @@ ifdef
 HAVE_GRAPHITE
 HB_SHAPER_IMPLEMENT
 (
-graphite
+graphite2
 )
 #
 endif
@@ -740,12 +740,6 @@ char
 *
 const
 *
-shaper_options
-const
-char
-*
-const
-*
 shaper_list
 )
 {
@@ -792,7 +786,6 @@ font
 buffer
 features
 num_features
-shaper_options
 )
 )
 )
@@ -860,7 +853,6 @@ font
 buffer
 features
 num_features
-shaper_options
 )
 )
 )
@@ -904,7 +896,6 @@ font
 buffer
 features
 num_features
-NULL
 NULL
 )
 ;

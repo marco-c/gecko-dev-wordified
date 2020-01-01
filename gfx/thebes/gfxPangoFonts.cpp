@@ -585,8 +585,6 @@ include
 harfbuzz
 /
 hb
--
-unicode
 .
 h
 "
@@ -598,8 +596,6 @@ harfbuzz
 hb
 -
 ot
--
-tag
 .
 h
 "

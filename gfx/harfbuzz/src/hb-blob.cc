@@ -1357,7 +1357,7 @@ DEBUG_MSG_FUNC
 BLOB
 blob
 "
-currect
+current
 data
 is
 -

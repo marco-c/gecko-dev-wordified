@@ -217,7 +217,7 @@ private
 hh
 "
 hb_bool_t
-hb_fallback_shape
+_hb_fallback_shape
 (
 hb_font_t
 *
@@ -232,12 +232,6 @@ features
 unsigned
 int
 num_features
-const
-char
-*
-const
-*
-shaper_options
 )
 {
 buffer

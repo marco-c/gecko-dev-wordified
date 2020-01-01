@@ -1629,6 +1629,7 @@ LookupFlag
 USHORT
 {
 enum
+Flags
 {
 RightToLeft
 =
