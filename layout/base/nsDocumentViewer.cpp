@@ -2376,7 +2376,7 @@ nsIWebProgressListener
 >
 mCachedPrintWebProgressListner
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPrintEngine
 >
