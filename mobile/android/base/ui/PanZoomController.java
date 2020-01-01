@@ -1980,6 +1980,11 @@ page
 /
 transitions
 .
+synchronized
+(
+mController
+)
+{
 mController
 .
 setViewportMetrics
@@ -1995,6 +2000,7 @@ notifyLayerClientOfGeometryChange
 (
 )
 ;
+}
 break
 ;
 }
@@ -2027,6 +2033,11 @@ mState
 PanZoomState
 .
 NOTHING
+)
+{
+synchronized
+(
+mController
 )
 {
 ViewportMetrics
@@ -2092,6 +2103,7 @@ notifyLayerClientOfGeometryChange
 (
 )
 ;
+}
 }
 }
 }
