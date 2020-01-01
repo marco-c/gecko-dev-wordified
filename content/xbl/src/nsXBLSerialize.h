@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIScriptContext
-.
-h
-"
-#
-include
-"
 nsIObjectInputStream
 .
 h

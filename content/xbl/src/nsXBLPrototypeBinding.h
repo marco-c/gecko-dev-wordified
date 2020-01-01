@@ -193,9 +193,6 @@ class
 nsIDocument
 ;
 class
-nsIScriptContext
-;
-class
 nsSupportsHashtable
 ;
 class
