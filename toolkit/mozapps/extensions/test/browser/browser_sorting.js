@@ -54,8 +54,6 @@ test
 (
 )
 {
-return
-;
 waitForExplicitFinish
 (
 )
