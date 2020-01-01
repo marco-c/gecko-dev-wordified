@@ -952,7 +952,7 @@ chromeDocument
 .
 defaultView
 ;
-GcliCommands
+CmdCommands
 .
 refreshAutoCommands
 (
