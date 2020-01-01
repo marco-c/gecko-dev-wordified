@@ -20770,9 +20770,12 @@ WorkerPrivate
 *
 >
 (
-JS_GetContextPrivate
+JS_GetRuntimePrivate
+(
+JS_GetRuntime
 (
 aCx
+)
 )
 )
 ;
