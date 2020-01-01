@@ -2443,7 +2443,7 @@ LC_Liveness
 1
 <
 <
-7
+6
 /
 /
 (
@@ -2457,7 +2457,7 @@ LC_ReadLIR
 1
 <
 <
-6
+5
 /
 /
 As
@@ -2469,7 +2469,7 @@ LC_AfterSF_SP
 1
 <
 <
-5
+4
 /
 /
 After
@@ -2482,7 +2482,7 @@ LC_AfterSF_RP
 1
 <
 <
-4
+3
 /
 /
 After
@@ -2490,16 +2490,6 @@ StackFilter
 (
 rp
 )
-LC_AfterDeadF
-=
-1
-<
-<
-3
-/
-/
-After
-DeadFilter
 LC_RegAlloc
 =
 1
