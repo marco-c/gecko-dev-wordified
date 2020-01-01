@@ -535,6 +535,9 @@ h
 class
 nsIXPConnect
 ;
+struct
+sqlite3_vfs
+;
 namespace
 mozilla
 {
@@ -804,6 +807,10 @@ mLocaleCollation
 /
 Mutex
 mMutex
+;
+sqlite3_vfs
+*
+mSqliteVFS
 ;
 /
 *
