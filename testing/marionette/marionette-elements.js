@@ -702,11 +702,13 @@ if
 el
 .
 ownerDocument
-=
-=
+.
+isEqualNode
+(
 win
 .
 document
+)
 )
 )
 {
