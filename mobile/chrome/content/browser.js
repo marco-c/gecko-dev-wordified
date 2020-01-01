@@ -3002,9 +3002,6 @@ controlsScrollbox
 customDragger
 =
 {
-allowRealtimeDownUp
-:
-true
 dragStart
 :
 function
@@ -8979,12 +8976,6 @@ MainDragger
 browserView
 )
 {
-this
-.
-allowRealtimeDownUp
-=
-true
-;
 this
 .
 bv
