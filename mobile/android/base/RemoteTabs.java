@@ -415,6 +415,7 @@ hide
 )
 {
 }
+private
 void
 autoHidePanel
 (
