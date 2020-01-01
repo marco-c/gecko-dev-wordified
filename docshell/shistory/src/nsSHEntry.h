@@ -709,6 +709,9 @@ PRInt32
 mScrollPositionY
 ;
 PRPackedBool
+mSaveContentViewer
+;
+PRPackedBool
 mIsFrameNavigation
 ;
 PRPackedBool
