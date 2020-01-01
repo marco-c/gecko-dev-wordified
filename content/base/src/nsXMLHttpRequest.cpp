@@ -5187,7 +5187,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_XMLHTTPREQUEST
 uri
 (
 doc

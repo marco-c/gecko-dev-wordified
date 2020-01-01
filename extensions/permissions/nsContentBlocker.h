@@ -524,7 +524,7 @@ nsIContentPolicy
 #
 define
 NUMBER_OF_TYPES
-8
+12
 class
 nsContentBlocker
 :

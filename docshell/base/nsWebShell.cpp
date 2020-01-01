@@ -1642,7 +1642,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_PING
 uri
 docURI
 content
