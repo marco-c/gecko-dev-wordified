@@ -1382,7 +1382,7 @@ else
 #
 include
 "
-GeckoProfilerImpl
+sps_sampler
 .
 h
 "

@@ -312,7 +312,7 @@ h
 #
 include
 "
-GeckoProfiler
+sampler
 .
 h
 "

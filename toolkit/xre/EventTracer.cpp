@@ -420,7 +420,7 @@ serviced
 #
 include
 "
-GeckoProfiler
+sampler
 .
 h
 "
@@ -881,7 +881,7 @@ Now
 )
 )
 ;
-profiler_responsiveness
+SAMPLER_RESPONSIVENESS
 (
 start
 )
