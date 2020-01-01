@@ -461,6 +461,10 @@ nsIDOMSmsEvent
 .
 idl
 \
+nsISmsDatabaseService
+.
+idl
+\
 (
 NULL
 )
