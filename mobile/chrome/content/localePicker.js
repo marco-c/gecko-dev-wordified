@@ -2397,8 +2397,10 @@ locale
 if
 (
 matchingLocale
-&
-&
+)
+{
+if
+(
 matchingLocale
 !
 =
@@ -2417,6 +2419,13 @@ language
 =
 matchingLocale
 ;
+LocaleUI
+.
+closeWindow
+(
+)
+;
+}
 else
 {
 LocaleUI
