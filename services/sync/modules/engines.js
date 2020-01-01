@@ -1359,7 +1359,7 @@ this
 .
 resetClient
 (
-this
+self
 .
 cb
 )
