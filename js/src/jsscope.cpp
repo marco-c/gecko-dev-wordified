@@ -12454,6 +12454,7 @@ sizeof
 void
 *
 )
+NULL
 )
 ;
 return
