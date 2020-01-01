@@ -13344,7 +13344,10 @@ methodSets
 if
 (
 !
-funbox
+method
+-
+>
+pn_funbox
 -
 >
 joinable
