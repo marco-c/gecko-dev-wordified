@@ -2223,7 +2223,6 @@ stats
 endif
 }
 ;
-typedef
 struct
 JSWeakRoots
 {
@@ -2294,7 +2293,6 @@ jsval
 lastInternalResult
 ;
 }
-JSWeakRoots
 ;
 JS_STATIC_ASSERT
 (

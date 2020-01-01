@@ -3779,7 +3779,7 @@ JS_FALSE
 ;
 atom
 =
-js_AtomizeValue
+js_AtomizePrimitiveValue
 (
 xdr
 -
