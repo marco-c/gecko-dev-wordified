@@ -817,9 +817,6 @@ TemporaryRef
 <
 ID2D1Bitmap
 >
-DrawTargetD2D
-:
-:
 GetBitmapForSurface
 (
 SourceSurface
