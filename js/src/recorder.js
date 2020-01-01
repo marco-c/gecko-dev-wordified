@@ -444,6 +444,12 @@ sp
 {
 this
 .
+error
+=
+false
+;
+this
+.
 anchorPC
 =
 pc
@@ -481,9 +487,6 @@ at
 +
 pc
 )
-;
-return
-true
 ;
 }
 stop
@@ -537,9 +540,6 @@ map
 from
 ]
 ;
-return
-true
-;
 }
 /
 *
@@ -573,9 +573,6 @@ push
 x
 )
 ;
-return
-true
-;
 }
 /
 *
@@ -600,9 +597,6 @@ this
 SP
 =
 sp
-;
-return
-true
 ;
 }
 /
@@ -640,9 +634,6 @@ value
 c
 }
 )
-;
-return
-true
 ;
 }
 }
