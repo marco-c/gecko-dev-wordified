@@ -2541,7 +2541,7 @@ this
 .
 _log
 .
-error
+info
 (
 "
 Could
