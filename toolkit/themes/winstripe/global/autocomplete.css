@@ -1088,6 +1088,13 @@ autocomplete
 -
 richlistbox
 {
+-
+moz
+-
+appearance
+:
+none
+;
 margin
 :
 0
