@@ -2624,6 +2624,11 @@ const
 TextureInfo
 &
 aTextureInfo
+gfxReusableSurfaceWrapper
+*
+aSurface
+=
+nullptr
 )
 ;
 ~

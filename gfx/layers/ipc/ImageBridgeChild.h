@@ -1504,9 +1504,10 @@ PaintedTiledLayerBuffer
 CompositableClient
 *
 aCompositable
-BasicTiledLayerBuffer
-*
-aTiledLayerBuffer
+const
+SurfaceDescriptorTiles
+&
+aTileLayerDescriptor
 )
 MOZ_OVERRIDE
 {

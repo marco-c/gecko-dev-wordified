@@ -168,6 +168,9 @@ class
 SurfaceDescriptor
 ;
 class
+SurfaceDescriptorTiles
+;
+class
 ThebesBufferData
 ;
 class
@@ -543,9 +546,10 @@ PaintedTiledLayerBuffer
 CompositableClient
 *
 aCompositable
-BasicTiledLayerBuffer
-*
-aTiledLayerBuffer
+const
+SurfaceDescriptorTiles
+&
+aTiledDescriptor
 )
 =
 0
