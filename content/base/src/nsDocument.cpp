@@ -20385,14 +20385,12 @@ code
 nsEvent
 *
 innerEvent
-;
+=
 privateEvent
 -
 >
 GetInternalNSEvent
 (
-&
-innerEvent
 )
 ;
 if
