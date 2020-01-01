@@ -1877,7 +1877,7 @@ if
 base
 :
 :
-OpenProcessHandle
+OpenPrivilegedProcessHandle
 (
 peer_pid
 &
