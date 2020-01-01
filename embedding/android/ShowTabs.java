@@ -19,7 +19,7 @@ tab
 -
 width
 :
-20
+4
 ;
 indent
 -

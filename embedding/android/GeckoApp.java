@@ -19,7 +19,7 @@ tab
 -
 width
 :
-20
+4
 ;
 indent
 -
@@ -7434,7 +7434,7 @@ getInstance
 (
 )
 .
-switchToTab
+selectTab
 (
 id
 )
@@ -7494,11 +7494,9 @@ new
 GeckoEvent
 (
 "
-switch
--
-to
--
 tab
+-
+select
 "
 "
 "
@@ -7634,9 +7632,9 @@ new
 GeckoEvent
 (
 "
-add
--
 tab
+-
+add
 "
 url
 )
@@ -7653,9 +7651,9 @@ new
 GeckoEvent
 (
 "
-load
--
 tab
+-
+load
 "
 url
 )
