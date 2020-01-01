@@ -20068,6 +20068,13 @@ apnSetting
 =
 apnSetting
 ;
+this
+.
+connectedTypes
+=
+[
+]
+;
 }
 RILNetworkInterface
 .
@@ -21082,8 +21089,7 @@ connecting
 false
 apnSetting
 :
-{
-}
+null
 /
 /
 APN
@@ -21097,8 +21103,7 @@ apnRetryCounter
 0
 connectedTypes
 :
-[
-]
+null
 inConnectedTypes
 :
 function
