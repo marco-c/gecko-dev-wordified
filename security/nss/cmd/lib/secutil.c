@@ -14114,6 +14114,8 @@ level
 char
 *
 nameStr
+=
+NULL
 ;
 char
 *

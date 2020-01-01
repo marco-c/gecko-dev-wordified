@@ -579,6 +579,9 @@ PKIX_PL_OID
 *
 subjPKAlgId
 ;
+PKIX_Boolean
+leafCertFlag
+;
 }
 ;
 /

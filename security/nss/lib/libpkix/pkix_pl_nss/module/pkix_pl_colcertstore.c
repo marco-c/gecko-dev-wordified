@@ -4621,11 +4621,6 @@ certSelectorMatch
 =
 NULL
 ;
-PKIX_Boolean
-pass
-=
-PKIX_TRUE
-;
 PKIX_UInt32
 numCerts
 =
@@ -4736,8 +4731,6 @@ certSelectorMatch
 (
 selector
 certItem
-&
-pass
 plContext
 )
 PKIX_CERTSELECTORMATCHFAILED
@@ -4747,9 +4740,6 @@ if
 (
 !
 PKIX_ERROR_RECEIVED
-&
-&
-pass
 )
 {
 PKIX_CHECK_ONLY_FATAL
@@ -5407,6 +5397,9 @@ certStore
 PKIX_CertSelector
 *
 selector
+PKIX_VerifyNode
+*
+verifyNode
 void
 *
 *

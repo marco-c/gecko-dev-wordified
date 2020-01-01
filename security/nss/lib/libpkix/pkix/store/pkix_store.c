@@ -1541,6 +1541,9 @@ store
 PKIX_CertSelector
 *
 selector
+PKIX_VerifyNode
+*
+verifyNode
 void
 *
 *
@@ -1579,6 +1582,7 @@ certContinue
 (
 store
 selector
+verifyNode
 pNBIOContext
 pCertList
 plContext

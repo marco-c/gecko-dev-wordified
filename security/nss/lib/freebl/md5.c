@@ -3667,7 +3667,7 @@ ifdef
 IS_LITTLE_ENDIAN
 #
 ifdef
-_X86_
+NSS_X86_OR_X64
 /
 *
 x86

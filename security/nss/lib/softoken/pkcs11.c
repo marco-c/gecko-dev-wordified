@@ -14422,6 +14422,10 @@ params
 -
 >
 forceOpen
+moduleIndex
+=
+=
+NSC_FIPS_MODULE
 &
 certHandle
 &

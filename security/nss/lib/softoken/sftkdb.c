@@ -14959,6 +14959,8 @@ PRBool
 noKeyDB
 PRBool
 forceOpen
+PRBool
+isFIPS
 SFTKDBHandle
 *
 *
@@ -15081,6 +15083,7 @@ keyPrefix
 8
 3
 flags
+isFIPS
 noCertDB
 ?
 NULL
@@ -15110,6 +15113,7 @@ keyPrefix
 8
 3
 flags
+isFIPS
 noCertDB
 ?
 NULL
@@ -15257,6 +15261,7 @@ keyPrefix
 8
 3
 flags
+isFIPS
 noCertDB
 ?
 NULL
@@ -15697,6 +15702,7 @@ keyPrefix
 8
 3
 flags
+isFIPS
 noCertDB
 ?
 NULL
