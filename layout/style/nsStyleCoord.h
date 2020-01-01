@@ -724,6 +724,12 @@ nsStyleUnit
 aUnit
 )
 ;
+nsStyleCoord
+(
+nscolor
+aValue
+)
+;
 inline
 nsStyleCoord
 (
