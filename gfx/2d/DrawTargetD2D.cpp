@@ -7005,6 +7005,10 @@ IdentityMatrix
 )
 )
 ;
+mTransformDirty
+=
+true
+;
 if
 (
 mClipsArePushed
