@@ -2372,6 +2372,13 @@ changed
 /
 EVENT_OBJECT_ATTRIBUTE_CHANGED
 "
+page
+changed
+"
+/
+/
+EVENT_PAGE_CHANGED
+"
 internal
 load
 "
