@@ -873,6 +873,10 @@ SetFirstChild
 nsnull
 )
 ;
+mAccChildCount
+=
+0
+;
 /
 /
 In
@@ -993,10 +997,6 @@ if
 outerDoc
 )
 {
-mAccChildCount
-=
-0
-;
 return
 ;
 }
@@ -1030,10 +1030,6 @@ if
 innerNode
 )
 {
-mAccChildCount
-=
-0
-;
 return
 ;
 }
@@ -1091,10 +1087,6 @@ if
 privateInnerAccessible
 )
 {
-mAccChildCount
-=
-0
-;
 return
 ;
 }

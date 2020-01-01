@@ -1211,6 +1211,10 @@ mAccChildCount
 =
 0
 ;
+/
+/
+Avoid
+reentry
 SetFirstChild
 (
 nsnull

@@ -817,6 +817,14 @@ eChildCountUninitialized
 )
 return
 ;
+mAccChildCount
+=
+0
+;
+/
+/
+Avoid
+reentry
 nsIAccessibilityService
 *
 accService

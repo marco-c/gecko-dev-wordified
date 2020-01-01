@@ -1041,6 +1041,14 @@ mAccChildCount
 eChildCountUninitialized
 )
 {
+mAccChildCount
+=
+0
+;
+/
+/
+Prevent
+reentry
 nsCOMPtr
 <
 nsISimpleEnumerator
