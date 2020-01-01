@@ -799,9 +799,6 @@ crc_
 The
 MD5
 context
-google_breakpad
-:
-:
 MD5Context
 md5_context_
 ;
