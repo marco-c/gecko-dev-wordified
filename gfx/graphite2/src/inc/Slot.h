@@ -281,6 +281,9 @@ class
 Segment
 ;
 class
+SegCacheEntry
+;
+class
 Slot
 {
 enum
@@ -1245,6 +1248,14 @@ pointer
 to
 user
 attributes
+friend
+class
+SegCacheEntry
+;
+friend
+class
+Segment
+;
 }
 ;
 }

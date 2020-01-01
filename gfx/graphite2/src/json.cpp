@@ -243,11 +243,14 @@ Author
 Tim
 Eves
 #
+if
+!
+defined
+GRAPHITE2_NTRACING
+#
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 include
@@ -1012,3 +1015,5 @@ return
 this
 ;
 }
+#
+endif

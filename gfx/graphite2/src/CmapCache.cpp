@@ -801,6 +801,9 @@ throw
 {
 return
 m_blocks
+!
+=
+0
 ;
 }
 DirectCmap
@@ -945,5 +948,8 @@ throw
 {
 return
 _ctable
+!
+=
+0
 ;
 }

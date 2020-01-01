@@ -710,6 +710,8 @@ program
 0
 )
 ;
+/
+/
 assert
 (
 _status

@@ -289,7 +289,8 @@ Pass
 bool
 readPass
 (
-void
+const
+byte
 *
 pPass
 size_t

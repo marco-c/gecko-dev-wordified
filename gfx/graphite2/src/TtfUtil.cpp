@@ -12039,6 +12039,7 @@ Sfnt
 HorizontalMetric
 )
 >
+=
 lHmtxSize
 )
 return
@@ -16339,7 +16340,6 @@ if
 (
 nGlyphId
 <
-=
 (
 lLocaSize
 >
@@ -16428,7 +16428,6 @@ if
 (
 nGlyphId
 <
-=
 (
 lLocaSize
 >
