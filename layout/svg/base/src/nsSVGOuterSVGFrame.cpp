@@ -5104,7 +5104,7 @@ NS_STATE_SVG_NONDISPLAY_CHILD
 )
 )
 {
-PRUint32
+uint32_t
 flags
 =
 (

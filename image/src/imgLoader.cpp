@@ -530,7 +530,7 @@ content
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1126,7 +1126,7 @@ n2
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1197,7 +1197,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

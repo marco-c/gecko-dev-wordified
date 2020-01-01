@@ -1125,7 +1125,7 @@ aDevicePath
 virtual
 nsTArray
 <
-PRUint32
+uint32_t
 >
 AddReservedServicesInternal
 (

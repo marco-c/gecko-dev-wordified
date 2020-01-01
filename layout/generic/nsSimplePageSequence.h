@@ -662,7 +662,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 ;

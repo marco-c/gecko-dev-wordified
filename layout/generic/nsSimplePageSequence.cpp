@@ -4133,7 +4133,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mCurrentCanvasList
@@ -4269,14 +4269,14 @@ IsAlive
 }
 }
 }
-PRInt32
+int32_t
 doneCounter
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mCurrentCanvasList
@@ -4368,7 +4368,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -4437,7 +4437,7 @@ ResetPrintCanvasList
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mCurrentCanvasList

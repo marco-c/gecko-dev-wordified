@@ -209,7 +209,7 @@ file
 .
 static
 const
-PRUint32
+uint32_t
 MAX_BYTES_SNIFFED
 =
 512
@@ -430,11 +430,11 @@ bool
 MatchesMP4
 (
 const
-PRUint8
+uint8_t
 *
 aData
 const
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -461,11 +461,11 @@ host
 byte
 order
 .
-PRUint32
+uint32_t
 boxSize
 =
 (
-PRUint32
+uint32_t
 )
 (
 aData
@@ -576,7 +576,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 2
@@ -672,11 +672,11 @@ nsIRequest
 *
 aRequest
 const
-PRUint8
+uint8_t
 *
 aData
 const
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -684,7 +684,7 @@ aSniffedType
 )
 {
 const
-PRUint32
+uint32_t
 clampedLength
 =
 NS_MIN
@@ -695,7 +695,7 @@ MAX_BYTES_SNIFFED
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -749,7 +749,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
