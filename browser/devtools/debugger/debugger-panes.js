@@ -644,6 +644,12 @@ _onConditionalTextboxKeyPress
 false
 )
 ;
+this
+.
+autoFocusOnSelection
+=
+false
+;
 /
 /
 Show
