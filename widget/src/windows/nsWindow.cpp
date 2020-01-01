@@ -28789,6 +28789,7 @@ nsWindowCE
 :
 ToggleSoftKB
 (
+mWnd
 fActive
 )
 ;
@@ -29476,6 +29477,7 @@ nsWindowCE
 :
 NotifySoftKbObservers
 (
+mWnd
 )
 ;
 break
@@ -42335,6 +42337,7 @@ nsWindowCE
 :
 ToggleSoftKB
 (
+mWnd
 sSoftKeyboardState
 )
 ;
