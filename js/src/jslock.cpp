@@ -741,6 +741,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -788,6 +789,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -885,6 +887,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1043,6 +1046,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1154,6 +1158,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1321,6 +1326,7 @@ C
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1352,6 +1358,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1509,6 +1516,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1660,6 +1668,7 @@ endif
 JSBool
 js_CompareAndSwap
 (
+volatile
 jsword
 *
 w
