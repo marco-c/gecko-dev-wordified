@@ -5285,6 +5285,12 @@ doTransaction
 txn
 )
 ;
+this
+.
+_uri
+=
+uri
+;
 }
 }
 onKeywordFieldBlur
