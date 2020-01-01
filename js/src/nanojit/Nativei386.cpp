@@ -3260,6 +3260,7 @@ op
 LIR_callh
 |
 |
+(
 op
 =
 =
@@ -3280,6 +3281,7 @@ opcode
 =
 =
 LIR_callh
+)
 )
 {
 prefer
