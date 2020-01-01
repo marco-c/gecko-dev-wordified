@@ -574,13 +574,6 @@ h
 #
 include
 "
-nsIJAR
-.
-h
-"
-#
-include
-"
 nsZipArchive
 .
 h
@@ -844,8 +837,6 @@ nsJAR
 :
 public
 nsIZipReader
-public
-nsIJAR
 {
 /
 /
@@ -878,7 +869,6 @@ NS_ZIPREADER_CID
 )
 NS_DECL_ISUPPORTS
 NS_DECL_NSIZIPREADER
-NS_DECL_NSIJAR
 nsresult
 GetJarPath
 (
