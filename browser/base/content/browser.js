@@ -13204,6 +13204,7 @@ initialTab
 initialTab
 }
 ;
+return
 toOpenDialogByTypeAndUrl
 (
 "
@@ -21025,6 +21026,7 @@ if
 (
 features
 )
+return
 window
 .
 openDialog
@@ -21037,7 +21039,7 @@ features
 extraArgument
 )
 ;
-else
+return
 window
 .
 openDialog
