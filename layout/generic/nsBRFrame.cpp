@@ -1214,7 +1214,6 @@ aReflowState
 .
 CalcLineHeight
 (
-aPresContext
 aReflowState
 .
 rendContext

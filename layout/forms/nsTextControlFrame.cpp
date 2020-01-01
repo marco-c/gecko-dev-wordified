@@ -6745,14 +6745,6 @@ SetFont
 fontMet
 )
 ;
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 lineHeight
 =
 nsHTMLReflowState
@@ -6760,7 +6752,6 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
-presContext
 aRenderingContext
 this
 )
@@ -7003,7 +6994,9 @@ bug
 .
 if
 (
-presContext
+PresContext
+(
+)
 -
 >
 CompatibilityMode

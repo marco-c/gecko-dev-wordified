@@ -13050,7 +13050,6 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
-mPresContext
 rc
 spanFrame
 )
@@ -14652,7 +14651,6 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
-mPresContext
 rc
 frame
 )
