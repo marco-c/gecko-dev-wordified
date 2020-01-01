@@ -436,6 +436,36 @@ WebGLContext
 .
 h
 "
+#
+if
+defined
+_MSC_VER
+#
+define
+FORCE_INLINE
+__forceinline
+#
+elif
+defined
+__GNUC__
+#
+define
+FORCE_INLINE
+__attribute__
+(
+(
+always_inline
+)
+)
+inline
+#
+else
+#
+define
+FORCE_INLINE
+inline
+#
+endif
 namespace
 mozilla
 {
@@ -448,19 +478,6 @@ PRUint16
 uint16_t
 ;
 namespace
-{
-/
-/
-this
-is
-only
-included
-by
-WebGLContextGL
-.
-cpp
-anyway
-namespace
 WebGLTexelConversions
 {
 /
@@ -472,8 +489,8 @@ WebGLTexelConversions
 *
 BEGIN
 CODE
-TAKEN
-FROM
+SHARED
+WITH
 WEBKIT
 *
 *
@@ -560,6 +577,7 @@ Pixel
 unpacking
 routines
 .
+FORCE_INLINE
 void
 unpackRGBA8ToRGBA8
 (
@@ -615,6 +633,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 unpackRGB8ToRGBA8
 (
@@ -667,6 +686,7 @@ destination
 0xFF
 ;
 }
+FORCE_INLINE
 void
 unpackBGRA8ToRGBA8
 (
@@ -722,6 +742,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 unpackBGR8ToRGBA8
 (
@@ -774,6 +795,7 @@ destination
 0xFF
 ;
 }
+FORCE_INLINE
 void
 unpackRGBA5551ToRGBA8
 (
@@ -898,6 +920,7 @@ packedValue
 0x0
 ;
 }
+FORCE_INLINE
 void
 unpackRGBA4444ToRGBA8
 (
@@ -1008,6 +1031,7 @@ a
 a
 ;
 }
+FORCE_INLINE
 void
 unpackRGB565ToRGBA8
 (
@@ -1119,6 +1143,7 @@ destination
 0xFF
 ;
 }
+FORCE_INLINE
 void
 unpackR8ToRGBA8
 (
@@ -1171,6 +1196,7 @@ destination
 0xFF
 ;
 }
+FORCE_INLINE
 void
 unpackRA8ToRGBA8
 (
@@ -1226,6 +1252,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 unpackA8ToRGBA8
 (
@@ -1272,6 +1299,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 unpackRGB32FToRGBA32F
 (
@@ -1324,6 +1352,7 @@ destination
 1
 ;
 }
+FORCE_INLINE
 void
 unpackR32FToRGBA32F
 (
@@ -1376,6 +1405,7 @@ destination
 1
 ;
 }
+FORCE_INLINE
 void
 unpackRA32FToRGBA32F
 (
@@ -1431,6 +1461,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 unpackA32FToRGBA32F
 (
@@ -1557,6 +1588,7 @@ routines
 .
 /
 /
+FORCE_INLINE
 void
 packRGBA8ToA8
 (
@@ -1582,6 +1614,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToR8
 (
@@ -1607,6 +1640,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToR8Premultiply
 (
@@ -1676,6 +1710,7 @@ must
 be
 removed
 .
+FORCE_INLINE
 void
 packRGBA8ToR8Unmultiply
 (
@@ -1741,6 +1776,7 @@ destination
 sourceR
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToRA8
 (
@@ -1776,6 +1812,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToRA8Premultiply
 (
@@ -1855,6 +1892,7 @@ must
 be
 removed
 .
+FORCE_INLINE
 void
 packRGBA8ToRA8Unmultiply
 (
@@ -1930,6 +1968,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToRGB8
 (
@@ -1975,6 +2014,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToRGB8Premultiply
 (
@@ -2102,6 +2142,7 @@ must
 be
 removed
 .
+FORCE_INLINE
 void
 packRGBA8ToRGB8Unmultiply
 (
@@ -2240,6 +2281,7 @@ different
 than
 kSourceFormatRGBA8
 .
+FORCE_INLINE
 void
 packRGBA8ToRGBA8
 (
@@ -2295,6 +2337,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToRGBA8Premultiply
 (
@@ -2432,6 +2475,7 @@ must
 be
 removed
 .
+FORCE_INLINE
 void
 packRGBA8ToRGBA8Unmultiply
 (
@@ -2565,6 +2609,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort4444
 (
@@ -2632,6 +2677,7 @@ source
 )
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort4444Premultiply
 (
@@ -2781,6 +2827,7 @@ must
 be
 removed
 .
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort4444Unmultiply
 (
@@ -2926,6 +2973,7 @@ source
 )
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort5551
 (
@@ -2998,6 +3046,7 @@ source
 )
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort5551Premultiply
 (
@@ -3152,6 +3201,7 @@ must
 be
 removed
 .
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort5551Unmultiply
 (
@@ -3302,6 +3352,7 @@ source
 )
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort565
 (
@@ -3364,6 +3415,7 @@ source
 )
 ;
 }
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort565Premultiply
 (
@@ -3508,6 +3560,7 @@ must
 be
 removed
 .
+FORCE_INLINE
 void
 packRGBA8ToUnsignedShort565Unmultiply
 (
@@ -3648,6 +3701,7 @@ sourceB
 )
 ;
 }
+FORCE_INLINE
 void
 packRGBA32FToRGB32F
 (
@@ -3693,6 +3747,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA32FToRGB32FPremultiply
 (
@@ -3752,6 +3807,7 @@ source
 scaleFactor
 ;
 }
+FORCE_INLINE
 void
 packRGBA32FToRGBA32FPremultiply
 (
@@ -3821,6 +3877,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA32FToA32F
 (
@@ -3856,6 +3913,7 @@ avoid
 special
 -
 casing
+FORCE_INLINE
 void
 packRGBA32FToA32FPremultiply
 (
@@ -3881,6 +3939,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA32FToR32F
 (
@@ -3906,6 +3965,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA32FToR32FPremultiply
 (
@@ -3941,6 +4001,7 @@ source
 scaleFactor
 ;
 }
+FORCE_INLINE
 void
 packRGBA32FToRA32F
 (
@@ -3976,6 +4037,7 @@ source
 ]
 ;
 }
+FORCE_INLINE
 void
 packRGBA32FToRA32FPremultiply
 (
@@ -4027,8 +4089,8 @@ scaleFactor
 *
 END
 CODE
-TAKEN
-FROM
+SHARED
+WITH
 WEBKIT
 *
 *
@@ -4043,12 +4105,6 @@ WEBKIT
 end
 namespace
 WebGLTexelConversions
-}
-/
-/
-end
-anonymous
-namespace
 }
 /
 /
