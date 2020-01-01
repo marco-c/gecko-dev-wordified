@@ -513,6 +513,14 @@ sNumSlots
 =
 2
 ;
+JSNative
+XPCWrapper
+:
+:
+sEvalNative
+=
+nsnull
+;
 /
 /
 static
