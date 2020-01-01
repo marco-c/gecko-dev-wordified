@@ -1222,6 +1222,7 @@ filepath
 suite
 testloader
 marionette
+testvars
 )
 :
         
