@@ -978,9 +978,6 @@ mROFrontBuffer
 nsIntRegion
 mFrontUpdatedRegion
 ;
-nsIntRegion
-mFrontValidRegion
-;
 bool
 mFrontAndBackBufferDiffer
 ;
