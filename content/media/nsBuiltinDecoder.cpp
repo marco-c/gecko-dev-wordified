@@ -2455,6 +2455,13 @@ PRUint32
 aRate
 bool
 aHasAudio
+const
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+aTags
 )
 {
 NS_ASSERTION
@@ -2571,6 +2578,7 @@ MetadataLoaded
 aChannels
 aRate
 aHasAudio
+aTags
 )
 ;
 }

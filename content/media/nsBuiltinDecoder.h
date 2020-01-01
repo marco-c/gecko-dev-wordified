@@ -4137,6 +4137,13 @@ PRUint32
 aRate
 bool
 aHasAudio
+const
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+aTags
 )
 ;
 /

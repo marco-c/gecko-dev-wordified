@@ -757,6 +757,13 @@ ReadMetadata
 nsVideoInfo
 *
 aInfo
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+*
+aTags
 )
 {
 NS_ASSERTION
@@ -832,6 +839,11 @@ mChannels
 aInfo
 =
 mInfo
+;
+*
+aTags
+=
+nullptr
 ;
 ReentrantMonitorAutoEnter
 mon
