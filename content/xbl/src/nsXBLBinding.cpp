@@ -595,14 +595,7 @@ nsContentUtils
 :
 DeferredFinalize
 (
-static_cast
-<
-nsIScriptGlobalObjectOwner
-*
->
-(
 docInfo
-)
 )
 ;
 nsXBLJSClass
@@ -1248,12 +1241,6 @@ cb
 .
 NoteXPCOMChild
 (
-static_cast
-<
-nsIScriptGlobalObjectOwner
-*
->
-(
 tmp
 -
 >
@@ -1262,7 +1249,6 @@ mPrototypeBinding
 >
 XBLDocumentInfo
 (
-)
 )
 )
 ;
