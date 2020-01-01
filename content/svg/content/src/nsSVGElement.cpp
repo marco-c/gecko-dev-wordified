@@ -5238,6 +5238,13 @@ sMarkersMap
 nsGkAtoms
 :
 :
+marker
+}
+{
+&
+nsGkAtoms
+:
+:
 marker_end
 }
 {
