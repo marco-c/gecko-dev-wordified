@@ -749,9 +749,7 @@ let
 the
 iterator
 do
-it
-'
-s
+its
 own
 seed
 handling

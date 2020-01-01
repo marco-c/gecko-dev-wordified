@@ -962,9 +962,7 @@ to
 *
 *
 |
-it
-'
-s
+its
 final
 destination
 .

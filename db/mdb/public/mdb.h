@@ -16804,9 +16804,7 @@ runtime
 object
 can
 have
-it
-'
-s
+its
 internal
 representation
 purged
