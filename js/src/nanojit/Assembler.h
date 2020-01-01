@@ -2154,6 +2154,13 @@ LInsp
 Register
 )
 ;
+Register
+asm_binop_rhs_reg
+(
+LInsp
+ins
+)
+;
 /
 /
 platform
