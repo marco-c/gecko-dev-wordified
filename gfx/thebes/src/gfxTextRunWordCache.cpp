@@ -3227,6 +3227,8 @@ aTextRun
 GetTextUnicode
 (
 )
++
+sourceOffset
 length
 aParams
 aNewRun
