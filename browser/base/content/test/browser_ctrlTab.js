@@ -225,7 +225,13 @@ open
 "
 )
 ;
-}
+/
+*
+private
+utitily
+functions
+*
+/
 function
 pressCtrlTab
 (
@@ -602,4 +608,5 @@ goes
 where
 )
 ;
+}
 }
