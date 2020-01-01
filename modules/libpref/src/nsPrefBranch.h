@@ -528,13 +528,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -546,6 +539,9 @@ nsWeakReference
 .
 h
 "
+struct
+PrefCallbackData
+;
 class
 nsPrefBranch
 :
@@ -655,7 +651,12 @@ private
 PRInt32
 mPrefRootLength
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+PrefCallbackData
+*
+8
+>
 *
 mObservers
 ;
