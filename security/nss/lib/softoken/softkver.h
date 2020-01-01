@@ -510,7 +510,7 @@ SOFTOKEN_VERSION
 .
 13
 .
-4
+5
 .
 0
 "
@@ -526,7 +526,7 @@ SOFTOKEN_VMINOR
 #
 define
 SOFTOKEN_VPATCH
-4
+5
 #
 define
 SOFTOKEN_VBUILD
@@ -534,7 +534,7 @@ SOFTOKEN_VBUILD
 #
 define
 SOFTOKEN_BETA
-PR_FALSE
+PR_TRUE
 #
 endif
 /
