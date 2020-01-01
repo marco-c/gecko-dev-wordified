@@ -357,8 +357,8 @@ private
 h
 "
 extern
-const
 cairo_private
+const
 cairo_rectangle_list_t
 _cairo_rectangles_nil
 ;
@@ -454,7 +454,7 @@ cairo_surface_t
 *
 surface
 ;
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 surface_rect
 ;
 /
@@ -496,11 +496,9 @@ the
 surface
 *
 /
-cairo_region_t
+pixman_region16_t
+*
 region
-;
-cairo_bool_t
-has_region
 ;
 /
 *
@@ -550,7 +548,16 @@ target
 )
 ;
 cairo_private
-cairo_status_t
+void
+_cairo_clip_fini
+(
+cairo_clip_t
+*
+clip
+)
+;
+cairo_private
+void
 _cairo_clip_init_copy
 (
 cairo_clip_t
@@ -562,7 +569,7 @@ other
 )
 ;
 cairo_private
-cairo_status_t
+void
 _cairo_clip_init_deep_copy
 (
 cairo_clip_t
@@ -577,7 +584,7 @@ target
 )
 ;
 cairo_private
-void
+cairo_status_t
 _cairo_clip_reset
 (
 cairo_clip_t
@@ -613,7 +620,7 @@ _cairo_clip_intersect_to_rectangle
 cairo_clip_t
 *
 clip
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 *
 rectangle
 )
@@ -625,7 +632,7 @@ _cairo_clip_intersect_to_region
 cairo_clip_t
 *
 clip
-cairo_region_t
+pixman_region16_t
 *
 region
 )
@@ -647,7 +654,7 @@ dst_x
 int
 dst_y
 const
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 *
 extents
 )

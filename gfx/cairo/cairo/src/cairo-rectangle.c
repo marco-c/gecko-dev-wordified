@@ -408,7 +408,7 @@ point
 numbers
 .
 A
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 is
 *
 also
@@ -442,7 +442,7 @@ a
 cairo_box_t
 to
 a
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 by
 *
 increasing
@@ -459,9 +459,9 @@ should
 *
 standardize
 on
-cairo_rectangle_fixed_t
+cairo_rectangle_int16_t
 and
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 and
 *
 this
@@ -484,7 +484,7 @@ _cairo_box_round_to_rectangle
 cairo_box_t
 *
 box
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 *
 rectangle
 )
@@ -563,10 +563,10 @@ y
 void
 _cairo_rectangle_intersect
 (
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 *
 dest
-cairo_rectangle_int_t
+cairo_rectangle_int16_t
 *
 src
 )
