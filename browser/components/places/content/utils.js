@@ -7236,7 +7236,7 @@ promptService
 alert
 (
 window
-brandStr
+brandShortName
 errorStr
 )
 ;
