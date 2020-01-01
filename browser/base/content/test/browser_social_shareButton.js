@@ -161,6 +161,15 @@ function
 (
 )
 {
+Services
+.
+prefs
+.
+clearUserPref
+(
+prefName
+)
+;
 gBrowser
 .
 removeTab
