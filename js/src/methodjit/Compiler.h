@@ -1954,10 +1954,6 @@ returnOffset
 (
 returnOffset
 )
-inlinePatch
-(
-inlinePatch
-)
 inlineIndex
 (
 inlineIndex
