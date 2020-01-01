@@ -431,6 +431,9 @@ class
 nsIDOMElement
 ;
 class
+nsIDOMNodeFilter
+;
+class
 nsIDOMNodeList
 ;
 class

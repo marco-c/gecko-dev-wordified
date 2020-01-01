@@ -115,6 +115,13 @@ nsDocument_h___
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -130,13 +137,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-nsIDocument
 .
 h
 "
