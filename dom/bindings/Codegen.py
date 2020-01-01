@@ -47782,6 +47782,7 @@ strings
 "
 "
   
+extern
 const
 EnumEntry
 %
