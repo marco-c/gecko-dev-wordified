@@ -1249,6 +1249,7 @@ hardware
 /
 /
 smaller
+area
 windows
 do
 not
@@ -1268,7 +1269,7 @@ no
 negative
 consequences
 by
-itsself
+itself
 .
 See
 bug
