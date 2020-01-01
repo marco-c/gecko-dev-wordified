@@ -510,6 +510,17 @@ gfxDDrawSurface
 (
 )
 ;
+already_AddRefed
+<
+gfxImageSurface
+>
+gfxDDrawSurface
+:
+:
+GetImageSurface
+(
+)
+;
 nsresult
 BeginPrinting
 (
