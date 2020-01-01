@@ -782,6 +782,11 @@ emitStackCheck
 )
 ;
 bool
+emitInterruptCheck
+(
+)
+;
+bool
 emitUseCountIncrement
 (
 )
