@@ -10467,6 +10467,18 @@ Truncate
 )
 ;
 }
+nsCOMPtr
+<
+nsIEditor
+>
+editor
+(
+do_QueryReferent
+(
+mEditor
+)
+)
+;
 nsresult
 rv
 =
@@ -10475,6 +10487,7 @@ mSpellCheck
 >
 UpdateCurrentDictionary
 (
+editor
 )
 ;
 nsAutoString
