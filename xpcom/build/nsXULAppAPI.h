@@ -3018,6 +3018,13 @@ void
 aCallback
 )
 )
+XRE_API
+(
+bool
+XRE_ShutdownTestShell
+(
+)
+)
 #
 endif
 /
