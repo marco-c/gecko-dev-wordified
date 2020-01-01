@@ -600,7 +600,7 @@ XPCShell
 "
 )
 ;
-startupEM
+startupManager
 (
 )
 ;
@@ -643,7 +643,9 @@ to
 the
 test
 server
-gPrefs
+Services
+.
+prefs
 .
 setCharPref
 (
