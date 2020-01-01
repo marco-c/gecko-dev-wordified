@@ -8561,7 +8561,7 @@ metaElements
 i
 ]
 .
-localName
+name
 .
 toLowerCase
 (
