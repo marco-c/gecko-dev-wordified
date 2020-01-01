@@ -522,7 +522,7 @@ folder
 =
 "
 +
-PlacesUtils
+PlacesUIUtils
 .
 allBookmarksFolderId
 ;
@@ -638,7 +638,7 @@ transactions
 push
 (
 new
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -672,7 +672,7 @@ length
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -685,7 +685,7 @@ Items
 transactions
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
