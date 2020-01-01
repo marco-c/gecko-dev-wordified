@@ -10174,7 +10174,7 @@ jumps
 :
 *
 /
-JSBool
+bool
 interpReturnOK
 ;
 /
@@ -10288,7 +10288,7 @@ JSTRAP_RETURN
 :
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -10842,7 +10842,7 @@ rval
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -10946,7 +10946,7 @@ rval
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -17706,7 +17706,7 @@ JSTRAP_RETURN
 :
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -23289,7 +23289,7 @@ rval
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -26122,7 +26122,7 @@ JSOP_YIELD_LENGTH
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 exit
@@ -26456,7 +26456,7 @@ ASAP
 /
 interpReturnOK
 =
-JS_FALSE
+false
 ;
 }
 else
@@ -26638,7 +26638,7 @@ rval
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -27336,7 +27336,7 @@ generator
 /
 interpReturnOK
 =
-JS_FALSE
+false
 ;
 #
 if
@@ -27376,7 +27376,7 @@ clearPendingException
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 regs
 .
