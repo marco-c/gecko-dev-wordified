@@ -421,7 +421,7 @@ drawing
 .
 *
 /
-static
+inline
 bool
 pluginSupportsAsyncDXGIDrawing
 (
