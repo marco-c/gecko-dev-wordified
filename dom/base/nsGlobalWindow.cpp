@@ -51551,6 +51551,13 @@ ShowSlowScriptDialog
 (
 )
 {
+MOZ_ASSERT
+(
+IsInnerWindow
+(
+)
+)
+;
 nsresult
 rv
 ;
