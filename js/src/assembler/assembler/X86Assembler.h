@@ -1646,7 +1646,7 @@ public
 :
 #
 ifdef
-DEBUG
+JS_METHODJIT_SPEW
 bool
 isOOLPath
 ;
@@ -1801,7 +1801,7 @@ X86Assembler
 )
 #
 ifdef
-DEBUG
+JS_METHODJIT_SPEW
 :
 isOOLPath
 (
