@@ -988,6 +988,13 @@ QuickExit
 (
 )
 ;
+NS_OVERRIDE
+virtual
+bool
+RecvProcessNativeEventsInRPCCall
+(
+)
+;
 public
 :
 PluginModuleChild

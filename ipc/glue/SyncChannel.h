@@ -832,6 +832,9 @@ mRPC
 bool
 mSpinNestedEvents
 ;
+bool
+mListenerNotified
+;
 SyncChannel
 *
 mChannel
