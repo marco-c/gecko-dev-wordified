@@ -17812,6 +17812,11 @@ cx
 #
 ifdef
 DEBUG
+if
+(
+obj
+)
+{
 memset
 (
 (
@@ -17836,6 +17841,7 @@ JSObject
 )
 )
 ;
+}
 #
 endif
 }
