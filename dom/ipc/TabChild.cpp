@@ -281,17 +281,6 @@ include
 "
 mozilla
 /
-layers
-/
-ShadowLayers
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layout
 /
 RenderFrameChild

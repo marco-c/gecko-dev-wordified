@@ -117,17 +117,6 @@ BaseSize
 .
 h
 "
-#
-include
-"
-nsMathUtils
-.
-h
-"
-/
-/
-for
-NS_lround
 namespace
 mozilla
 {

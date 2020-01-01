@@ -118,17 +118,6 @@ TextureHost
 .
 h
 "
-#
-include
-"
-mozilla
-/
-gfx
-/
-2D
-.
-h
-"
 namespace
 mozilla
 {
