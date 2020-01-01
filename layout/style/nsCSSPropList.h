@@ -3428,7 +3428,7 @@ mBackPosition
 eCSSType_ValuePairList
 kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_BACKGROUND
 (
@@ -3465,7 +3465,7 @@ mBackSize
 eCSSType_ValuePairList
 kBackgroundSizeKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_DISPLAY
 (
