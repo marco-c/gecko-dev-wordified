@@ -5805,11 +5805,9 @@ standard
 /
 if
 (
-(
 flags
 &
 JSITER_ENUMERATE
-)
 )
 {
 if
