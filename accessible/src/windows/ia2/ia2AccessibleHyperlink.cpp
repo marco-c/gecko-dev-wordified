@@ -137,13 +137,6 @@ AccessibleWrap
 .
 h
 "
-#
-include
-"
-nsIWinAccessNode
-.
-h
-"
 using
 namespace
 mozilla
