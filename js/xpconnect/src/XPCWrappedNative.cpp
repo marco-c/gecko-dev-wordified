@@ -17614,7 +17614,6 @@ dp
 val
 src
 array_count
-array_capacity
 datum_type
 &
 param_iid
@@ -17675,7 +17674,6 @@ dp
 val
 src
 array_count
-array_capacity
 datum_type
 &
 err
