@@ -50,13 +50,6 @@ BASE_LOGGING_H_
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 string
 >
 #
@@ -107,6 +100,10 @@ std
 :
 :
 ostream
+#
+define
+ERROR
+0
 namespace
 mozilla
 {
@@ -566,7 +563,7 @@ cond
 )
 CHECK
 (
-0
+ERROR
 )
 #
 define
@@ -576,7 +573,7 @@ cond
 )
 DCHECK
 (
-0
+ERROR
 )
 #
 define
