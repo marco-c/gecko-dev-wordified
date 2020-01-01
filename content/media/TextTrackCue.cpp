@@ -245,6 +245,13 @@ TextTrackCueAlign
 :
 Middle
 ;
+mVertical
+=
+DirectionSetting
+:
+:
+_empty
+;
 }
 TextTrackCue
 :
