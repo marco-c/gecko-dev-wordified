@@ -950,11 +950,14 @@ the
 nsDecoderStateMachine
 owns
 .
-Decode
+Play
 (
 )
 Start
 decoding
+and
+playback
+of
 media
 data
 .
@@ -1144,7 +1147,7 @@ t
 |
 |
 |
-Decode
+Play
 (
 )
 |
@@ -1218,7 +1221,7 @@ Shutdown
 -
 ^
 |
-Decode
+Play
 (
 )
 |
@@ -2151,7 +2154,7 @@ changed
 .
 virtual
 void
-Decode
+Play
 (
 )
 =

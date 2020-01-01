@@ -4020,7 +4020,7 @@ PLAY_STATE_PLAYING
 mDecoderStateMachine
 -
 >
-Decode
+Play
 (
 )
 ;
