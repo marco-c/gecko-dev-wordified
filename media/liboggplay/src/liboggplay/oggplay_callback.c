@@ -3622,6 +3622,11 @@ i
 serialno
 )
 {
+int
+ret
+=
+0
+;
 /
 *
 *
@@ -3643,6 +3648,8 @@ callback
 NULL
 )
 {
+ret
+=
 callbacks
 [
 content_type
@@ -3809,7 +3816,13 @@ all_tracks_initialised
 ;
 }
 return
+ret
+<
 0
+?
+OGGZ_ERR_HOLE_IN_DATA
+:
+ret
 ;
 }
 }
