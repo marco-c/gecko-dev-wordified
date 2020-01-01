@@ -2571,6 +2571,8 @@ makeInliningDecision
 AutoObjectVector
 &
 targets
+uint32
+argc
 )
 ;
 MCall
