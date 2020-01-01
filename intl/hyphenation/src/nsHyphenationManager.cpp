@@ -1199,8 +1199,10 @@ rv
 return
 ;
 }
+nsRefPtr
+<
 nsZipArchive
-*
+>
 zip
 =
 Omnijar
