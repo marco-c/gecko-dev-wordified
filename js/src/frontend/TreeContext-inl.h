@@ -728,10 +728,6 @@ yieldNode
 (
 NULL
 )
-argumentsNode
-(
-NULL
-)
 parserTC
 (
 &

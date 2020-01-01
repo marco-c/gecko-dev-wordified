@@ -1009,9 +1009,6 @@ for
 mapping
 *
 /
-AtomDefnMapPtr
-roLexdeps
-;
 unsigned
 firstLine
 ;
