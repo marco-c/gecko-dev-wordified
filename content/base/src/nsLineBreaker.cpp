@@ -1349,6 +1349,8 @@ state
 because
 GetJISx4051Breaks
 will
+/
+/
 set
 it
 to
@@ -1358,7 +1360,7 @@ currentStart
 =
 breakState
 [
-offset
+wordStart
 ]
 ;
 nsContentUtils
@@ -1383,12 +1385,12 @@ Elements
 (
 )
 +
-offset
+wordStart
 )
 ;
 breakState
 [
-offset
+wordStart
 ]
 =
 currentStart
