@@ -556,8 +556,6 @@ setRegister
 (
 RegisterID
 reg
-bool
-synced
 )
 {
 reg_
@@ -570,7 +568,7 @@ PhysLoc_Register
 ;
 synced_
 =
-synced
+false
 ;
 }
 bool
