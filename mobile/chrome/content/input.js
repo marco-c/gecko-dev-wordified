@@ -1811,6 +1811,12 @@ _cleanClickBuffer
 ;
 }
 }
+this
+.
+_target
+=
+null
+;
 /
 /
 Do
