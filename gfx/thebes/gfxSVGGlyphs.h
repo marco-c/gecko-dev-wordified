@@ -473,11 +473,6 @@ DrawMode
 ;
 public
 :
-static
-const
-float
-SVG_UNITS_PER_EM
-;
 /
 *
 *
