@@ -12407,6 +12407,13 @@ genConInitializerProperty
 QuoteNodeProperty
 "
 )
+GK_ATOM
+(
+labelMouseDownPtProperty
+"
+LabelMouseDownPtProperty
+"
+)
 /
 /
 Languages
