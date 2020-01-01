@@ -1872,6 +1872,8 @@ size
 72
 .
 0f
+*
+aDevPixPerCSSPixel
 ;
 aFontStyle
 .
