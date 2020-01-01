@@ -10628,9 +10628,16 @@ outparams
 )
 :
         
-reader
+ifdata
+=
+StmtIf
+(
+itervar
+)
+        
+ifdata
 .
-addstmt
+addifstmt
 (
 StmtExpr
 (
@@ -10656,6 +10663,13 @@ itervar
 ]
 )
 )
+)
+        
+reader
+.
+addstmt
+(
+ifdata
 )
     
 reader
