@@ -685,6 +685,14 @@ nsTimerImpl
 aTimer
 )
 ;
+void
+ReleaseTimerInternal
+(
+nsTimerImpl
+*
+aTimer
+)
+;
 nsCOMPtr
 <
 nsIThread
