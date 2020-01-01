@@ -369,11 +369,6 @@ com
 >
 *
 /
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -414,7 +409,6 @@ private
 .
 h
 "
-}
 #
 include
 "
