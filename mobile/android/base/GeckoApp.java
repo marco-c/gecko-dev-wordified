@@ -8646,6 +8646,13 @@ mLayerView
 =
 layerView
 ;
+GeckoAppShell
+.
+setLayerView
+(
+layerView
+)
+;
 /
 /
 bind

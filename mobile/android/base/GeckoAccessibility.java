@@ -1275,10 +1275,6 @@ view
 =
 GeckoAppShell
 .
-getGeckoInterface
-(
-)
-.
 getLayerView
 (
 )

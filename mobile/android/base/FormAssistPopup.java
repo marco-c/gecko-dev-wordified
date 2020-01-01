@@ -1400,10 +1400,6 @@ viewportMetrics
 =
 GeckoAppShell
 .
-getGeckoInterface
-(
-)
-.
 getLayerView
 (
 )

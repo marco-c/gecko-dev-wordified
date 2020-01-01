@@ -1788,10 +1788,6 @@ geckoPoint
 =
 GeckoAppShell
 .
-getGeckoInterface
-(
-)
-.
 getLayerView
 (
 )
