@@ -307,10 +307,6 @@ mPrintAsIs
 (
 false
 )
-mSharedPresShell
-(
-false
-)
 mInvisible
 (
 false
