@@ -4266,7 +4266,7 @@ cpp
 .
 *
 /
-uint32_t
+int32_t
 propertyRemovals
 ;
 /
