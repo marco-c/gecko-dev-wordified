@@ -756,17 +756,6 @@ id
 #
 endif
 JS_BEGIN_EXTERN_C
-/
-*
-Scalar
-typedefs
-.
-*
-/
-typedef
-uint32_t
-jsuint
-;
 #
 ifdef
 WIN32

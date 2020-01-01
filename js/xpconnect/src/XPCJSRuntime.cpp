@@ -10616,7 +10616,7 @@ marker
 nsIMemoryReporter
 :
 :
-KIND_NONHEAP
+KIND_HEAP
 rtStats
 .
 runtimeGCMarker

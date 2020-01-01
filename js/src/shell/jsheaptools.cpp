@@ -4024,7 +4024,7 @@ array
 .
 *
 /
-jsuint
+uint32_t
 length
 ;
 return

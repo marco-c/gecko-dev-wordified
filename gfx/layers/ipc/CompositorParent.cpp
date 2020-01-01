@@ -466,6 +466,13 @@ h
 #
 include
 "
+RenderTrace
+.
+h
+"
+#
+include
+"
 ShadowLayersParent
 .
 h

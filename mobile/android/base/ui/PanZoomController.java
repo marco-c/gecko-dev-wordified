@@ -1946,16 +1946,10 @@ getValidViewportMetrics
 if
 (
 !
-(
-new
-ViewportMetrics
-(
 mController
 .
 getViewportMetrics
 (
-)
-)
 )
 .
 fuzzyEquals
@@ -2255,7 +2249,7 @@ layers
 ;
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -2274,7 +2268,7 @@ PANNING_HOLD_LOCKED
 :
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -2306,7 +2300,7 @@ PANNING_HOLD
 :
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -5044,7 +5038,7 @@ views
 ;
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -5671,7 +5665,7 @@ motionEvent
 {
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -5754,7 +5748,7 @@ zoomToRect
 {
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
