@@ -1610,6 +1610,13 @@ color
 :
 transparent
 ;
+background
+-
+position
+:
+right
+top
+;
 -
 moz
 -
@@ -1632,7 +1639,7 @@ background
 -
 position
 :
-left
+right
 center
 ;
 }
@@ -1650,7 +1657,7 @@ background
 -
 position
 :
-left
+right
 bottom
 ;
 }
