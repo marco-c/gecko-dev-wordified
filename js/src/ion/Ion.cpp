@@ -1146,9 +1146,6 @@ regalloc
 ;
 #
 endif
-#
-if
-0
 CodeGenerator
 codegen
 (
@@ -1179,8 +1176,6 @@ generation
 "
 )
 ;
-#
-endif
 spew
 .
 finish

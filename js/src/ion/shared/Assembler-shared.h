@@ -732,8 +732,7 @@ Label
 &
 label
 )
-{
-}
+;
 public
 :
 static
