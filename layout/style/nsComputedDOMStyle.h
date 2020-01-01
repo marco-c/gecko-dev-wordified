@@ -211,6 +211,9 @@ class
 nsStyleContext
 ;
 class
+gfx3DMatrix
+;
+class
 nsComputedDOMStyle
 MOZ_FINAL
 :
