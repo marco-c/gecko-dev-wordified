@@ -13538,6 +13538,8 @@ theme
 /
 menu
 backgrounds
+and
+tooltips
 which
 can
 '
@@ -13552,6 +13554,12 @@ aWidgetType
 =
 =
 NS_THEME_MENUPOPUP
+|
+|
+aWidgetType
+=
+=
+NS_THEME_TOOLTIP
 )
 {
 return
