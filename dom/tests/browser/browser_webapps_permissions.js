@@ -274,6 +274,13 @@ installedPermsToTest
 =
 {
 "
+storage
+"
+:
+"
+unknown
+"
+"
 geolocation
 "
 :
