@@ -254,17 +254,6 @@ Crypto
 )
 /
 /
-Rect
-object
-used
-by
-getComputedStyle
-DOMCI_CLASS
-(
-CSSRect
-)
-/
-/
 DOM
 Chrome
 Window

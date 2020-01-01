@@ -22569,14 +22569,3 @@ mHeight
 }
 }
 }
-DOMCI_DATA
-(
-CanvasRenderingContext2D
-mozilla
-:
-:
-dom
-:
-:
-CanvasRenderingContext2D
-)

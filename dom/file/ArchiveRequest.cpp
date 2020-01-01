@@ -157,13 +157,6 @@ nsEventDispatcher
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 USING_FILE_NAMESPACE
 /
 *
@@ -1391,9 +1384,4 @@ NS_IMPL_RELEASE_INHERITED
 (
 ArchiveRequest
 DOMRequest
-)
-DOMCI_DATA
-(
-ArchiveRequest
-ArchiveRequest
 )
