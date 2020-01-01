@@ -1217,11 +1217,27 @@ timeout
 =
 3600
             
+#
+The
+benefit
+of
+the
+following
+sleep
+is
+unclear
+;
+it
+was
+formerly
+15
+seconds
+            
 time
 .
 sleep
 (
-15
+1
 )
         
 property
