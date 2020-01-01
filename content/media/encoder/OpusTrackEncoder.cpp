@@ -1332,6 +1332,9 @@ Wait
 if
 (
 mCanceled
+|
+|
+mDoneEncoding
 )
 {
 return
@@ -1612,6 +1615,9 @@ Wait
 if
 (
 mCanceled
+|
+|
+mDoneEncoding
 )
 {
 return

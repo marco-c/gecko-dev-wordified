@@ -1064,8 +1064,6 @@ reloop
 =
 false
 ;
-break
-;
 }
 }
 else
@@ -1258,8 +1256,6 @@ writer
 reloop
 =
 false
-;
-break
 ;
 }
 mState
