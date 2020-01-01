@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAlertsService_h__
+nsSystemAlertsService_h__
 #
 define
-nsAlertsService_h__
+nsSystemAlertsService_h__
 #
 include
 "
@@ -114,7 +114,7 @@ nsCOMPtr
 h
 "
 class
-nsAlertsService
+nsSystemAlertsService
 :
 public
 nsIAlertsService
@@ -123,13 +123,13 @@ public
 :
 NS_DECL_NSIALERTSSERVICE
 NS_DECL_ISUPPORTS
-nsAlertsService
+nsSystemAlertsService
 (
 )
 ;
 virtual
 ~
-nsAlertsService
+nsSystemAlertsService
 (
 )
 ;
@@ -146,6 +146,6 @@ protected
 endif
 /
 *
-nsAlertsService_h__
+nsSystemAlertsService_h__
 *
 /
