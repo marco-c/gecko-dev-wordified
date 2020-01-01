@@ -457,10 +457,10 @@ BLOCK
 /
 #
 ifndef
-_nsAccessibleEventData_H_
+_nsAccEvent_H_
 #
 define
-_nsAccessibleEventData_H_
+_nsAccEvent_H_
 #
 include
 "

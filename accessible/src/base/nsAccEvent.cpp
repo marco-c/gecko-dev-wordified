@@ -437,7 +437,7 @@ BLOCK
 #
 include
 "
-nsAccessibleEventData
+nsAccEvent
 .
 h
 "
