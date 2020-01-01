@@ -1012,11 +1012,6 @@ sts_target
 (
 )
 audio_
--
->
-GetStream
-(
-)
 1
 audio_conduit_
 audio_rtp_transport_
