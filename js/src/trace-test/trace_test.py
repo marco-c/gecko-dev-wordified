@@ -1452,19 +1452,13 @@ write
 Exit
 code
 :
-'
-+
-str
-(
-p
-.
-returncode
-)
-+
-"
+%
+s
 \
 n
-"
+'
+%
+code
 )
     
 if
