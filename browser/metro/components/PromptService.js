@@ -1745,8 +1745,6 @@ aType
 "
 -
 checkbox
--
-label
 "
 )
 aCheck
