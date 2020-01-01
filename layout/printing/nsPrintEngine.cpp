@@ -14944,12 +14944,11 @@ IsVisible
 )
 )
 {
+SetPrintPO
+(
 aPO
--
->
-mDontPrint
-=
-true
+false
+)
 ;
 aPO
 -
