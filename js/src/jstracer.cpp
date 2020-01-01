@@ -16597,6 +16597,11 @@ flush
 (
 )
 {
+AUDIT
+(
+cacheFlushed
+)
+;
 /
 /
 recover
@@ -49909,6 +49914,11 @@ mismatch
 %
 llu
 )
+flushed
+(
+%
+llu
+)
 \
 n
 "
@@ -49924,6 +49934,9 @@ typeMapMismatchAtEntry
 jitstats
 .
 globalShapeMismatchAtEntry
+jitstats
+.
+cacheFlushed
 )
 ;
 }
