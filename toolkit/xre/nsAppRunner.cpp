@@ -21735,11 +21735,16 @@ _set_sbh_threshold
 endif
 #
 endif
+#
+ifndef
+XP_OS2
 InstallSignalHandlers
 (
 progname
 )
 ;
+#
+endif
 #
 ifndef
 WINCE
