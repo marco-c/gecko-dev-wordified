@@ -36288,10 +36288,13 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsDocument
 this
+&
+nsDocument
+:
+:
 AsyncBlockOnload
 )
 )
