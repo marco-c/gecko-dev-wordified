@@ -1137,6 +1137,9 @@ _catch
 Utils
 .
 catch
+_locked
+:
+false
 _loggedIn
 :
 false
@@ -3403,6 +3406,9 @@ break
 ;
 case
 FIREFOX_ID
+:
+case
+TEST_HARNESS_ID
 :
 engines
 =
