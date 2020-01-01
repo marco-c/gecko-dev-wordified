@@ -7748,6 +7748,18 @@ mCurrentScale
 mCurrentScale
 )
 ;
+gfxMatrix
+matrix
+=
+mFragmentIdentifierTransform
+?
+*
+mFragmentIdentifierTransform
+*
+aMatrix
+:
+aMatrix
+;
 return
 GetViewBoxTransform
 (
@@ -7755,7 +7767,7 @@ GetViewBoxTransform
 *
 zoomPanTM
 *
-aMatrix
+matrix
 ;
 }
 /

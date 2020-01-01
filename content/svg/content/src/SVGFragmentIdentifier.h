@@ -331,6 +331,15 @@ nsSVGSVGElement
 root
 )
 ;
+static
+void
+ClearTransform
+(
+nsSVGSVGElement
+*
+root
+)
+;
 }
 ;
 }
