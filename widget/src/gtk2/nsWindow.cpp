@@ -2416,6 +2416,7 @@ gRollupListener
 >
 Rollup
 (
+nsnull
 )
 ;
 gRollupWindow
@@ -22209,6 +22210,7 @@ gRollupListener
 >
 Rollup
 (
+nsnull
 )
 ;
 retVal

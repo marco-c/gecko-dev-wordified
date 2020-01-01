@@ -1272,6 +1272,10 @@ this
 NS_IMETHOD
 Rollup
 (
+nsIContent
+*
+*
+aLastRolledUp
 )
 ;
 /
