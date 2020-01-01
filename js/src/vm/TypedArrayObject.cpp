@@ -8206,6 +8206,15 @@ moved
 .
 *
 /
+if
+(
+bufSlot
+.
+isObject
+(
+)
+)
+{
 ArrayBufferObject
 &
 buf
@@ -8252,6 +8261,7 @@ dataPointer
 offset
 )
 ;
+}
 /
 *
 Update
