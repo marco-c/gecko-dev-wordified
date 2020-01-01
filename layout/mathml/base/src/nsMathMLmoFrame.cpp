@@ -3075,9 +3075,12 @@ so
 )
 if
 (
-mPresentationData
-.
-scriptLevel
+GetStyleFont
+(
+)
+-
+>
+mScriptLevel
 >
 0
 )

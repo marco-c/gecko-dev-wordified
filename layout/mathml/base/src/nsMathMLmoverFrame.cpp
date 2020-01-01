@@ -670,8 +670,6 @@ nsMathMLmoverFrame
 :
 UpdatePresentationData
 (
-PRInt32
-aScriptLevelIncrement
 PRUint32
 aFlagsValues
 PRUint32
@@ -683,7 +681,6 @@ nsMathMLContainerFrame
 :
 UpdatePresentationData
 (
-aScriptLevelIncrement
 aFlagsValues
 aFlagsToUpdate
 )
@@ -757,8 +754,6 @@ PRInt32
 aFirstIndex
 PRInt32
 aLastIndex
-PRInt32
-aScriptLevelIncrement
 PRUint32
 aFlagsValues
 PRUint32
@@ -969,7 +964,6 @@ NS_MATHML_DISPLAYSTYLE
 PropagatePresentationDataFor
 (
 childFrame
-aScriptLevelIncrement
 aFlagsValues
 aFlagsToUpdate
 )
@@ -1741,19 +1735,17 @@ counterparts
 .
 *
 /
-PRInt32
-increment
-=
+SetIncrementScriptLevel
+(
+1
+!
 NS_MATHML_EMBELLISH_IS_ACCENTOVER
 (
 mEmbellishData
 .
 flags
 )
-?
-0
-:
-1
+)
 ;
 PRUint32
 compress
@@ -1772,7 +1764,6 @@ NS_MATHML_COMPRESSED
 PropagatePresentationDataFor
 (
 overscriptFrame
-increment
 ~
 NS_MATHML_DISPLAYSTYLE
 |
