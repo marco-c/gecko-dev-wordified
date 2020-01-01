@@ -3312,6 +3312,8 @@ int
 width
 int
 height
+float
+resolution
 )
 {
 /

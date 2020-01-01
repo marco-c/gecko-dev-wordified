@@ -2272,7 +2272,7 @@ syncViewportInfo
 "
 "
 (
-IIII
+IIIIF
 )
 Lorg
 /
@@ -4509,6 +4509,8 @@ const
 nsIntRect
 &
 aDisplayPort
+float
+aDisplayResolution
 nsIntPoint
 &
 aScrollOffset
@@ -4595,6 +4597,7 @@ width
 aDisplayPort
 .
 height
+aDisplayResolution
 )
 ;
 NS_ABORT_IF_FALSE
