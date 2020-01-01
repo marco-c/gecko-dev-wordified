@@ -4733,6 +4733,15 @@ function
 e
 )
 {
+if
+(
+e
+.
+button
+=
+=
+0
+)
 SocialToolbar
 .
 showAmbientPopup
