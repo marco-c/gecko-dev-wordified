@@ -12984,6 +12984,13 @@ aReferrer
 referrer
 *
 /
+aLoadingPrincipal
+/
+*
+loading
+principal
+*
+/
 loadGroup
 /
 *

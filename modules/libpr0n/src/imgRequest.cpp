@@ -1284,6 +1284,9 @@ aCacheId
 void
 *
 aLoadId
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 {
 LOG_FUNC
@@ -1391,6 +1394,10 @@ do_QueryInterface
 (
 mChannel
 )
+;
+mLoadingPrincipal
+=
+aLoadingPrincipal
 ;
 mChannel
 -

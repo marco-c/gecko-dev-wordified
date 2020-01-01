@@ -1688,6 +1688,9 @@ aProxyRequest
 nsIChannelPolicy
 *
 aPolicy
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 ;
 PRBool
@@ -1726,6 +1729,9 @@ aProxyRequest
 nsIChannelPolicy
 *
 aPolicy
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 ;
 nsresult
