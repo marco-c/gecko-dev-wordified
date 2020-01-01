@@ -10197,6 +10197,7 @@ isZero
 (
 )
 )
+{
 this
 .
 _panScrollbox
@@ -10207,6 +10208,11 @@ contentScrollbox
 doffset
 )
 ;
+render
+=
+true
+;
+}
 /
 /
 Do
