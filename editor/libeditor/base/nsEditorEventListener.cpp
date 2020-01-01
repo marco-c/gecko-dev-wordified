@@ -4205,13 +4205,11 @@ aEvent
 )
 )
 ;
-if
+NS_ENSURE_TRUE
 (
-!
 nsuiEvent
-)
-return
 PR_FALSE
+)
 ;
 nsCOMPtr
 <

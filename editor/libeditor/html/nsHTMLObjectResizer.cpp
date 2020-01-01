@@ -2712,13 +2712,11 @@ do_QueryInterface
 domDoc
 )
 ;
-if
+NS_ENSURE_TRUE
 (
-!
 doc
-)
-return
 NS_ERROR_NULL_POINTER
+)
 ;
 nsCOMPtr
 <
