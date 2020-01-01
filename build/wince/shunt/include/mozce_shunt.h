@@ -440,6 +440,10 @@ wgetcwd
 _wgetcwd
 #
 define
+vsnprintf
+_vsnprintf
+#
+define
 SHGetSpecialFolderPathW
 SHGetSpecialFolderPath
 #
