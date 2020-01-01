@@ -3593,7 +3593,7 @@ newItem
 }
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;

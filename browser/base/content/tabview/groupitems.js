@@ -4640,7 +4640,7 @@ this
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -6992,7 +6992,7 @@ self
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -7052,7 +7052,7 @@ self
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -8388,7 +8388,7 @@ this
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -8829,7 +8829,7 @@ id
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -11168,7 +11168,7 @@ newGroupItem
 ;
 this
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -11647,7 +11647,7 @@ tabItem
 /
 Function
 :
-updateTabBarForActiveGroupItem
+updateTabBar
 /
 /
 Hides
@@ -11663,8 +11663,14 @@ on
 the
 active
 groupItem
-.
-updateTabBarForActiveGroupItem
+or
+/
+/
+currently
+active
+orphan
+tabItem
+updateTabBar
 :
 function
 (
@@ -12492,7 +12498,7 @@ shouldUpdateTabBar
 )
 this
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;

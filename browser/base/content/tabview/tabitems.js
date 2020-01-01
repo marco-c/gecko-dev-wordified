@@ -4402,12 +4402,6 @@ setActiveGroupItem
 groupItem
 )
 ;
-GroupItems
-.
-updateTabBarForActiveGroupItem
-(
-)
-;
 groupItem
 .
 setActiveTab
@@ -4432,13 +4426,13 @@ setActiveOrphanTab
 self
 )
 ;
+}
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
-}
 if
 (
 childHitResult
@@ -7507,7 +7501,7 @@ hideCachedData
 }
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
