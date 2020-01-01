@@ -27155,10 +27155,10 @@ NS_OK
 nsAdoptingString
 homeURL
 =
-nsContentUtils
+Preferences
 :
 :
-GetLocalizedStringPref
+GetLocalizedString
 (
 PREF_BROWSER_STARTUP_HOMEPAGE
 )
@@ -59601,10 +59601,10 @@ nsAdoptingString
 &
 acceptLang
 =
-nsContentUtils
+Preferences
 :
 :
-GetLocalizedStringPref
+GetLocalizedString
 (
 "
 intl
