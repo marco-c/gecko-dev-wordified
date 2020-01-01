@@ -5522,6 +5522,13 @@ DecodeError
 (
 )
 ;
+MediaDecoderOwner
+*
+GetOwner
+(
+)
+MOZ_OVERRIDE
+;
 #
 ifdef
 MOZ_RAW
