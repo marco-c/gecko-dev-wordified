@@ -674,7 +674,12 @@ valgrind
 h
 >
 #
-else
+elif
+!
+defined
+(
+VALGRIND_DISCARD_TRANSLATIONS
+)
 #
 define
 VALGRIND_DISCARD_TRANSLATIONS
