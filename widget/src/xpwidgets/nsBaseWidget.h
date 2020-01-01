@@ -1600,6 +1600,16 @@ class
 AutoUseBasicLayerManager
 ;
 PRBool
+HasDestroyStarted
+(
+)
+const
+{
+return
+mOnDestroyCalled
+;
+}
+PRBool
 Destroyed
 (
 )
