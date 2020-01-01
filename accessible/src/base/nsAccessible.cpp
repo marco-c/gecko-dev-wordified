@@ -12145,9 +12145,6 @@ aEvent
 nsIAccessible
 *
 aTarget
-void
-*
-aData
 )
 {
 /
@@ -12184,7 +12181,6 @@ nsAccEvent
 (
 aEvent
 aTarget
-aData
 )
 ;
 NS_ENSURE_TRUE

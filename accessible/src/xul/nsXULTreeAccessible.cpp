@@ -3471,7 +3471,6 @@ nsIAccessibleEvent
 :
 EVENT_DOM_DESTROY
 accessible
-nsnull
 PR_FALSE
 )
 ;

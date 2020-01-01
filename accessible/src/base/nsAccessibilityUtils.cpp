@@ -1568,7 +1568,6 @@ nsAccEvent
 (
 aEventType
 aAccessible
-nsnull
 aIsAsynch
 )
 ;
