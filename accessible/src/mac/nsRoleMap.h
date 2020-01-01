@@ -1307,7 +1307,7 @@ roles
 :
 ICON
 78
-NSAccessibilityStaticTextRole
+NSAccessibilityGroupRole
 /
 /
 roles
