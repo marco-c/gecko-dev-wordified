@@ -11429,16 +11429,8 @@ nsWrapperCache
 *
 *
 aCache
-nsresult
-*
-aResult
 )
 {
-*
-aResult
-=
-NS_OK
-;
 nsINode
 *
 item

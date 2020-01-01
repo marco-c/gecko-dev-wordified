@@ -1635,9 +1635,6 @@ nsWrapperCache
 *
 *
 aCache
-nsresult
-*
-aResult
 )
 ;
 /

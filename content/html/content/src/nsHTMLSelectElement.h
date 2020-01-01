@@ -697,9 +697,6 @@ nsWrapperCache
 *
 *
 aCache
-nsresult
-*
-aResult
 )
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
