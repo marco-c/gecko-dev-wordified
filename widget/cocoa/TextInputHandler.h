@@ -5281,7 +5281,7 @@ mTimer
 ;
 enum
 {
-kResetIMEWindowLevel
+kNotifyIMEOfFocusChangeInGecko
 =
 1
 kDiscardIMEComposition
@@ -5534,7 +5534,7 @@ OpenSystemPreferredLanguageIME
 Pending
 methods
 void
-ResetIMEWindowLevel
+NotifyIMEOfFocusChangeInGecko
 (
 )
 ;
