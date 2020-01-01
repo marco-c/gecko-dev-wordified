@@ -35727,10 +35727,6 @@ letStatement
 (
 )
 {
-JSObject
-*
-obj
-;
 JSObjectBox
 *
 blockbox
@@ -36021,15 +36017,6 @@ stmt
 -
 >
 blockBox
-)
-;
-obj
-=
-tc
--
->
-blockChain
-(
 )
 ;
 }
