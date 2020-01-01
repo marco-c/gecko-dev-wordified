@@ -12668,6 +12668,7 @@ size
 )
 )
 ;
+let
 formatted
 =
 gStrings
