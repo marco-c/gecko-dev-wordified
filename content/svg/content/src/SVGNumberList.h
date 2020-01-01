@@ -800,14 +800,14 @@ the
 rationale
 for
 using
-FallibleTArray
+nsTArray
 <
 float
 >
 instead
 *
 of
-FallibleTArray
+nsTArray
 <
 float
 1
@@ -815,7 +815,7 @@ float
 .
 *
 /
-FallibleTArray
+nsTArray
 <
 float
 >
