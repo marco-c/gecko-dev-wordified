@@ -901,6 +901,9 @@ Init
 IDBRequest
 *
 aRequest
+IDBTransactionRequest
+*
+aTransaction
 )
 {
 mSource
@@ -911,6 +914,10 @@ aRequest
 GetGenerator
 (
 )
+;
+mTransaction
+=
+aTransaction
 ;
 nsresult
 rv
@@ -4152,6 +4159,7 @@ event
 Init
 (
 mRequest
+mTransaction
 )
 ;
 NS_ENSURE_SUCCESS
