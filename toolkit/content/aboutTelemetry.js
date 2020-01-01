@@ -4682,7 +4682,6 @@ displayPingData
 function
 displayPingData
 (
-ping
 )
 {
 let
