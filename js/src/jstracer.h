@@ -608,7 +608,7 @@ recording
 /
 template
 <
-class
+typename
 T
 >
 class

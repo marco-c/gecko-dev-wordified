@@ -551,7 +551,7 @@ AvmCore
 ;
 template
 <
-class
+typename
 T
 >
 Tracker
@@ -571,7 +571,7 @@ pagelist
 }
 template
 <
-class
+typename
 T
 >
 Tracker
@@ -592,7 +592,7 @@ clear
 }
 template
 <
-class
+typename
 T
 >
 jsuword
@@ -628,7 +628,7 @@ NJ_PAGE_SIZE
 }
 template
 <
-class
+typename
 T
 >
 struct
@@ -710,7 +710,7 @@ return
 }
 template
 <
-class
+typename
 T
 >
 struct
@@ -811,7 +811,7 @@ p
 }
 template
 <
-class
+typename
 T
 >
 void
@@ -855,7 +855,7 @@ p
 }
 template
 <
-class
+typename
 T
 >
 T
@@ -949,7 +949,7 @@ i
 }
 template
 <
-class
+typename
 T
 >
 void
