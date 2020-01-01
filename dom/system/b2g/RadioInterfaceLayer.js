@@ -2567,7 +2567,7 @@ FORCE_NONE
 ;
 gAudioManager
 .
-setForceUse
+setForceForUse
 (
 nsIAudioManager
 .
