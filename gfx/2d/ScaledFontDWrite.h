@@ -223,6 +223,12 @@ void
 aBaton
 )
 ;
+virtual
+AntialiasMode
+GetDefaultAAMode
+(
+)
+;
 #
 ifdef
 USE_SKIA

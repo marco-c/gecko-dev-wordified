@@ -339,6 +339,7 @@ AntialiasMode
 AA_NONE
 AA_GRAY
 AA_SUBPIXEL
+AA_DEFAULT
 }
 ;
 enum
