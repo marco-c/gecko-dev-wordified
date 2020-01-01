@@ -1302,7 +1302,7 @@ corruptedFrames
 0
 ;
 double
-playbackJitter
+totalFrameDelay
 =
 0
 .
@@ -1416,11 +1416,11 @@ GetDecodedFrames
 (
 )
 ;
-playbackJitter
+totalFrameDelay
 =
 stats
 .
-GetPlaybackJitter
+GetTotalFrameDelay
 (
 )
 ;
@@ -1440,7 +1440,7 @@ creationTime
 totalFrames
 droppedFrames
 corruptedFrames
-playbackJitter
+totalFrameDelay
 )
 ;
 return
