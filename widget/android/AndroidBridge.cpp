@@ -11644,6 +11644,9 @@ Thread
 aCompositorThread
 )
 {
+#
+ifdef
+MOZ_JAVA_COMPOSITOR
 nsWindow
 :
 :
@@ -11653,6 +11656,8 @@ aCompositorParent
 aCompositorThread
 )
 ;
+#
+endif
 }
 void
 AndroidBridge
