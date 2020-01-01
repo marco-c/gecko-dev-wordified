@@ -1793,6 +1793,7 @@ S
 inline
 Handle
 (
+const
 Rooted
 <
 S
@@ -4979,6 +4980,7 @@ T
 :
 Handle
 (
+const
 Rooted
 <
 S
