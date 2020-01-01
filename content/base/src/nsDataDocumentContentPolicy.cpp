@@ -628,6 +628,15 @@ domDoc
 }
 if
 (
+aContentType
+!
+=
+nsIContentPolicy
+:
+:
+TYPE_DTD
+&
+&
 doc
 &
 &

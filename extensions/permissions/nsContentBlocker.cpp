@@ -557,6 +557,9 @@ xmlhttprequest
 "
 objectsubrequest
 "
+"
+dtd
+"
 }
 ;
 NS_IMPL_ISUPPORTS3
