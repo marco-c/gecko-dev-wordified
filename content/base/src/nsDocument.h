@@ -621,6 +621,9 @@ nsDocumentOnStack
 class
 nsPointerLockPermissionRequest
 ;
+class
+nsISecurityConsoleMessage
+;
 namespace
 mozilla
 {
@@ -4211,6 +4214,17 @@ nsAString
 aName
 )
 const
+;
+void
+SendToConsole
+(
+nsCOMArray
+<
+nsISecurityConsoleMessage
+>
+&
+aMessages
+)
 ;
 public
 :
