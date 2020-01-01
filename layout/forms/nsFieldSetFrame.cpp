@@ -3490,8 +3490,13 @@ aReflowState
 aStatus
 )
 ;
-InvalidateFrame
+Invalidate
 (
+aDesiredSize
+.
+VisualOverflow
+(
+)
 )
 ;
 NS_FRAME_SET_TRUNCATION
