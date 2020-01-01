@@ -2503,6 +2503,7 @@ results
 NS_ERROR_ABORT
 )
 {
+let
 msg
 =
 "
