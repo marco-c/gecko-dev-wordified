@@ -393,7 +393,9 @@ BLOCK
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include
