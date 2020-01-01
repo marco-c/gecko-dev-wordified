@@ -8134,7 +8134,10 @@ glyphs
 num_glyphs
 NULL
 0
-FALSE
+(
+cairo_text_cluster_flags_t
+)
+0
 scaled_font
 )
 ;
