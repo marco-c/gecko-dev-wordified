@@ -6631,6 +6631,20 @@ implicit_jscontext
 return
 True
         
+if
+self
+.
+type
+=
+=
+"
+jsval
+"
+:
+            
+return
+True
+        
 for
 p
 in
