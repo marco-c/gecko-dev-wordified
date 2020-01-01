@@ -171,7 +171,7 @@ globals
 let
 require
 =
-loader
+Loader
 .
 Require
 (
