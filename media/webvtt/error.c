@@ -788,12 +788,12 @@ char
 webvtt_strerror
 (
 webvtt_error
-errno
+err
 )
 {
 if
 (
-errno
+err
 >
 =
 (
@@ -818,7 +818,7 @@ return
 return
 errstr
 [
-errno
+err
 ]
 ;
 }
