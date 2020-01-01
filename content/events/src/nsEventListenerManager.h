@@ -490,6 +490,12 @@ nsIDOMEvent
 class
 nsIAtom
 ;
+class
+nsIWidget
+;
+struct
+nsPoint
+;
 struct
 EventTypeData
 ;
@@ -778,6 +784,12 @@ const
 nsAString
 &
 aEventName
+)
+;
+virtual
+PRBool
+HasListeners
+(
 )
 ;
 static
