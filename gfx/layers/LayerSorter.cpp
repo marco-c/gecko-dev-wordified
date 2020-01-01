@@ -1323,6 +1323,16 @@ original
 order
 if
 (
+fabs
+(
+highest
+)
+<
+0
+.
+1
+|
+|
 highest
 >
 =
