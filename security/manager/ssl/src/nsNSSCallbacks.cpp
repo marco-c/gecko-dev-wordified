@@ -517,8 +517,6 @@ mRequestSession
 -
 >
 mPostData
-0
-ios
 )
 ;
 NS_ENSURE_SUCCESS
