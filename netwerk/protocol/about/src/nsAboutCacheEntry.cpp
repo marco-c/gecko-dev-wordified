@@ -1105,7 +1105,10 @@ result
 *
 result
 =
-0
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 ;
 return
 NS_OK
