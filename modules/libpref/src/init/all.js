@@ -21395,7 +21395,6 @@ TW
 "
 Apple
 LiSung
-Light
 "
 )
 ;
@@ -21417,7 +21416,6 @@ TW
 "
 Apple
 LiGothic
-Medium
 "
 )
 ;
@@ -21437,7 +21435,6 @@ TW
 "
 Apple
 LiGothic
-Medium
 "
 )
 ;
@@ -21459,7 +21456,6 @@ TW
 "
 Apple
 LiSung
-Light
 "
 )
 ;
@@ -21483,7 +21479,6 @@ TW
 "
 Apple
 LiGothic
-Medium
 "
 )
 ;
@@ -21505,7 +21500,6 @@ TW
 "
 Apple
 LiGothic
-Medium
 "
 )
 ;
