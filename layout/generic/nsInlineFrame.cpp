@@ -7743,8 +7743,9 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolvePseudoStyleFor
 (
+nsnull
 nsCSSAnonBoxes
 :
 :
