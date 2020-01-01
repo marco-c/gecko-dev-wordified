@@ -579,6 +579,15 @@ nsIXPConnect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 /
 /
 Initial
@@ -2869,7 +2878,10 @@ if
 obsService
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 obsService
