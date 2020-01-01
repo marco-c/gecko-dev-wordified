@@ -3363,6 +3363,12 @@ set
 (
 )
         
+self
+.
+_hasChildInterfaces
+=
+False
+        
 IDLObjectWithScope
 .
 __init__
@@ -3731,6 +3737,14 @@ finish
 (
 scope
 )
+            
+self
+.
+parent
+.
+_hasChildInterfaces
+=
+True
             
 #
 Callbacks
@@ -6801,6 +6815,18 @@ getJSImplementation
 (
 )
 )
+    
+def
+hasChildInterfaces
+(
+self
+)
+:
+        
+return
+self
+.
+_hasChildInterfaces
     
 def
 _getDependentObjects

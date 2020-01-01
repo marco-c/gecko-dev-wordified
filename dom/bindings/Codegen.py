@@ -46876,7 +46876,7 @@ Used
 for
 adding
 a
-constructor
+destructor
 to
 a
 CGClass
@@ -46945,7 +46945,19 @@ the
 destructor
 defaults
 to
-None
+empty
+.
+    
+virtual
+determines
+whether
+the
+destructor
+is
+virtual
+defaults
+to
+False
 .
     
 "
@@ -46970,7 +46982,11 @@ private
 "
 body
 =
-None
+'
+'
+virtual
+=
+False
 )
 :
         
@@ -46994,6 +47010,12 @@ body
 =
 body
         
+self
+.
+virtual
+=
+virtual
+        
 ClassItem
 .
 __init__
@@ -47015,6 +47037,23 @@ decorators
 =
 [
 ]
+        
+if
+self
+.
+virtual
+and
+declaring
+:
+            
+decorators
+.
+append
+(
+'
+virtual
+'
+)
         
 if
 self
@@ -47059,14 +47098,6 @@ getBody
 self
 )
 :
-        
-assert
-self
-.
-body
-is
-not
-None
         
 return
 self
@@ -69061,6 +69092,60 @@ name
 }
 )
         
+if
+descriptor
+.
+interface
+.
+hasChildInterfaces
+(
+)
+:
+            
+decorators
+=
+"
+"
+            
+#
+We
+need
+a
+public
+virtual
+destructor
+our
+subclasses
+can
+use
+            
+destructor
+=
+ClassDestructor
+(
+virtual
+=
+True
+visibility
+=
+"
+public
+"
+)
+        
+else
+:
+            
+decorators
+=
+"
+MOZ_FINAL
+"
+            
+destructor
+=
+None
+        
 CGClass
 .
 __init__
@@ -69158,6 +69243,10 @@ SetIsDOMBinding
 )
 ]
                          
+destructor
+=
+destructor
+                         
 methods
 =
 self
@@ -69166,9 +69255,7 @@ methodDecls
                          
 decorators
 =
-"
-MOZ_FINAL
-"
+decorators
                          
 extradeclarations
 =
