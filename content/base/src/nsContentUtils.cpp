@@ -23900,7 +23900,7 @@ return
 cyclecollector
 :
 :
-TestJSHolder
+IsJSHolder
 (
 aScriptObjectHolder
 )

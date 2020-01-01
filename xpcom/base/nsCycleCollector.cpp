@@ -16953,7 +16953,7 @@ bool
 cyclecollector
 :
 :
-TestJSHolder
+IsJSHolder
 (
 void
 *
@@ -17018,7 +17018,7 @@ data
 mRuntime
 -
 >
-TestJSHolder
+IsJSHolder
 (
 aHolder
 )
