@@ -11634,6 +11634,9 @@ JSObject
 obj
 )
 {
+#
+ifdef
+DEBUG
 JSFunction
 *
 fun
@@ -11666,6 +11669,8 @@ isFunctionPrototype
 )
 )
 ;
+#
+endif
 /
 *
 *
@@ -17536,6 +17541,9 @@ JSObject
 funobj
 )
 {
+#
+ifdef
+DEBUG
 JSFunction
 *
 fun
@@ -17579,6 +17587,8 @@ isBoundFunction
 )
 )
 ;
+#
+endif
 jsid
 id
 =
