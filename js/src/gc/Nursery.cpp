@@ -167,6 +167,13 @@ h
 #
 include
 "
+jscompartmentinlines
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier
