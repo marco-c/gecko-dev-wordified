@@ -724,11 +724,11 @@ nsWindow
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-ChildWindow
+nsChildWindow
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-PopupWindow
+nsPopupWindow
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -842,7 +842,7 @@ qt
 ;
 1
 "
-ChildWindowConstructor
+nsChildWindowConstructor
 }
 {
 "
@@ -908,7 +908,7 @@ qt
 ;
 1
 "
-PopupWindowConstructor
+nsPopupWindowConstructor
 }
 {
 "
