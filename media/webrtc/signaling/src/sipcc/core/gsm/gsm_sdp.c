@@ -27289,9 +27289,10 @@ if
 lsm_rc
 )
 {
-cause
-=
+return
+(
 CC_CAUSE_NO_MEDIA
+)
 ;
 }
 else
@@ -27360,6 +27361,11 @@ TRUE
 ;
 }
 }
+if
+(
+created_media_stream
+)
+{
 /
 *
 Now
@@ -27421,6 +27427,7 @@ fail
 "
 *
 /
+}
 }
 }
 }
