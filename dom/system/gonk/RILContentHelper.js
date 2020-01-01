@@ -6138,6 +6138,11 @@ msg
 json
 .
 isActive
+msg
+.
+json
+.
+isOutgoing
 ]
 )
 ;
@@ -6895,6 +6900,9 @@ number
 call
 .
 isActive
+call
+.
+isOutgoing
 )
 ;
 }

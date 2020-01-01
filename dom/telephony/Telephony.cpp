@@ -1814,6 +1814,8 @@ nsAString
 aNumber
 bool
 aIsActive
+bool
+aIsOutgoing
 )
 {
 NS_ASSERTION
@@ -2288,6 +2290,8 @@ nsAString
 aNumber
 bool
 aIsActive
+bool
+aIsOutgoing
 bool
 *
 aContinue
