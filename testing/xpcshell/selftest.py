@@ -1140,6 +1140,10 @@ tempdir
 xunitFilename
 =
 xunitFilename
+                                          
+sequential
+=
+True
 )
                           
 msg
