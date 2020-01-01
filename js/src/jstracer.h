@@ -570,6 +570,14 @@ loopTable
 uint32
 loopTableSize
 ;
+JSScript
+*
+recorderScript
+;
+JSObject
+*
+recorderScriptObject
+;
 }
 ;
 #
