@@ -3018,7 +3018,7 @@ this
 .
 _defaultInsertionPoint
 .
-folderId
+itemId
 true
 )
 ;
@@ -6041,7 +6041,7 @@ this
 .
 _defaultInsertionPoint
 .
-folderId
+itemId
 ;
 indexInContainer
 =
