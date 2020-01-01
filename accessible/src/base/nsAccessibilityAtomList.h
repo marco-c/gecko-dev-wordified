@@ -1637,6 +1637,13 @@ popup
 )
 ACCESSIBILITY_ATOM
 (
+placeholder
+"
+placeholder
+"
+)
+ACCESSIBILITY_ATOM
+(
 readonly
 "
 readonly
