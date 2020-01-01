@@ -5535,13 +5535,6 @@ aBroadcaster
 PL_DHASH_REMOVE
 )
 ;
-SynchronizeBroadcastListener
-(
-aBroadcaster
-aListener
-aAttr
-)
-;
 break
 ;
 }
