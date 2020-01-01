@@ -999,6 +999,10 @@ JSScript
 >
 &
 invalid
+bool
+resetUses
+=
+true
 )
 ;
 static
