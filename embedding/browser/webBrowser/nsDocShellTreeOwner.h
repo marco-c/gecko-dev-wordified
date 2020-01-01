@@ -507,7 +507,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsIDOMEventTarget
 .
 h
 "
@@ -599,6 +599,13 @@ h
 include
 "
 nsIDragDropHandler
+.
+h
+"
+#
+include
+"
+nsPIDOMEventTarget
 .
 h
 "
@@ -1343,9 +1350,9 @@ mWebBrowser
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-mEventReceiver
+mEventTarget
 ;
 nsCOMPtr
 <
@@ -1801,9 +1808,9 @@ mWebBrowser
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-mEventReceiver
+mEventTarget
 ;
 nsCOMPtr
 <

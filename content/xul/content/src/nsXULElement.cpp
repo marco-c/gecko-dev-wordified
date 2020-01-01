@@ -711,7 +711,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsIDOMEventTarget
 .
 h
 "
@@ -3353,9 +3353,9 @@ GetInnerWindow
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-receiver
+piTarget
 =
 do_QueryInterface
 (
@@ -3365,7 +3365,7 @@ window
 if
 (
 !
-receiver
+piTarget
 )
 return
 NS_ERROR_UNEXPECTED
@@ -3373,7 +3373,7 @@ NS_ERROR_UNEXPECTED
 nsresult
 rv
 =
-receiver
+piTarget
 -
 >
 GetListenerManager

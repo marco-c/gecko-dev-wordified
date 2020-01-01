@@ -842,7 +842,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsIDOMEventTarget
 .
 h
 "
@@ -18576,9 +18576,9 @@ mCXMenuListener
 }
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsIDOMEventTarget
 >
-receiver
+target
 (
 do_QueryInterface
 (
@@ -18588,7 +18588,7 @@ mContent
 ;
 if
 (
-receiver
+target
 )
 {
 nsCOMPtr
@@ -18615,7 +18615,7 @@ Unregister
 focus
 event
 listener
-receiver
+mContent
 -
 >
 RemoveEventListenerByIID
@@ -18633,7 +18633,7 @@ Unregister
 mouse
 event
 listener
-receiver
+mContent
 -
 >
 RemoveEventListenerByIID
@@ -18653,7 +18653,7 @@ the
 mouse
 motion
 listener
-receiver
+mContent
 -
 >
 RemoveEventListenerByIID
@@ -18672,7 +18672,7 @@ key
 event
 listener
 ;
-receiver
+target
 -
 >
 RemoveEventListener
@@ -18687,7 +18687,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 RemoveEventListener
@@ -18702,7 +18702,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 RemoveEventListener
@@ -18724,7 +18724,7 @@ drag
 event
 listener
 ;
-receiver
+target
 -
 >
 RemoveEventListener
@@ -18739,7 +18739,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 RemoveEventListener
@@ -18754,7 +18754,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 RemoveEventListener
@@ -18769,7 +18769,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 RemoveEventListener
@@ -18784,7 +18784,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 RemoveEventListener
@@ -19780,9 +19780,9 @@ aContent
 }
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsIDOMEventTarget
 >
-receiver
+target
 (
 do_QueryInterface
 (
@@ -19792,7 +19792,7 @@ mContent
 ;
 if
 (
-receiver
+target
 )
 {
 nsCOMPtr
@@ -19818,7 +19818,7 @@ listener
 Register
 focus
 listener
-receiver
+mContent
 -
 >
 AddEventListenerByIID
@@ -19835,7 +19835,7 @@ nsIDOMFocusListener
 Register
 mouse
 listener
-receiver
+mContent
 -
 >
 AddEventListenerByIID
@@ -19855,7 +19855,7 @@ the
 mouse
 motion
 listener
-receiver
+mContent
 -
 >
 AddEventListenerByIID
@@ -19872,7 +19872,7 @@ nsIDOMMouseMotionListener
 Register
 key
 listener
-receiver
+target
 -
 >
 AddEventListener
@@ -19887,7 +19887,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 AddEventListener
@@ -19902,7 +19902,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 AddEventListener
@@ -19922,7 +19922,7 @@ PR_TRUE
 Register
 drag
 listener
-receiver
+target
 -
 >
 AddEventListener
@@ -19937,7 +19937,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 AddEventListener
@@ -19952,7 +19952,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 AddEventListener
@@ -19967,7 +19967,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 AddEventListener
@@ -19982,7 +19982,7 @@ listener
 PR_TRUE
 )
 ;
-receiver
+target
 -
 >
 AddEventListener

@@ -518,7 +518,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 .
 h
 "
@@ -1930,9 +1930,9 @@ manager
 .
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-receiver
+piTarget
 (
 do_QueryInterface
 (
@@ -1943,7 +1943,7 @@ target
 if
 (
 !
-receiver
+piTarget
 )
 return
 PyXPCOM_BuildPyException
@@ -1957,7 +1957,7 @@ nsIEventListenerManager
 >
 manager
 ;
-receiver
+piTarget
 -
 >
 GetListenerManager
@@ -2372,9 +2372,9 @@ manager
 .
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-receiver
+piTarget
 (
 do_QueryInterface
 (
@@ -2385,7 +2385,7 @@ target
 if
 (
 !
-receiver
+piTarget
 )
 return
 PyXPCOM_BuildPyException
@@ -2399,7 +2399,7 @@ nsIEventListenerManager
 >
 manager
 ;
-receiver
+piTarget
 -
 >
 GetListenerManager
@@ -2804,9 +2804,9 @@ manager
 .
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-receiver
+piTarget
 (
 do_QueryInterface
 (
@@ -2817,7 +2817,7 @@ target
 if
 (
 !
-receiver
+piTarget
 )
 return
 PyXPCOM_BuildPyException
@@ -2831,7 +2831,7 @@ nsIEventListenerManager
 >
 manager
 ;
-receiver
+piTarget
 -
 >
 GetListenerManager

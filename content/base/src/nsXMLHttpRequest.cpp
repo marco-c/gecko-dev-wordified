@@ -529,13 +529,6 @@ h
 #
 include
 "
-nsIDOMEventReceiver
-.
-h
-"
-#
-include
-"
 nsIEventListenerManager
 .
 h
@@ -6726,7 +6719,7 @@ the
 document
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
 target
 (

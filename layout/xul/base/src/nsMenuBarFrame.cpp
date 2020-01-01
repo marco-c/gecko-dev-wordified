@@ -527,7 +527,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsIDOMEventTarget
 .
 h
 "
@@ -956,7 +956,7 @@ does
 .
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsIDOMEventTarget
 >
 target
 =

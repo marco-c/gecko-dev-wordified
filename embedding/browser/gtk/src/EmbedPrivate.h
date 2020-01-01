@@ -561,7 +561,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 .
 h
 "
@@ -1327,16 +1327,11 @@ nsISHistory
 >
 mSessionHistory
 ;
-/
-/
-our
-event
-receiver
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-mEventReceiver
+mEventTarget
 ;
 /
 /
