@@ -14066,7 +14066,7 @@ JS_FS
 "
 startShark
 "
-StartShark
+js_StartShark
 0
 0
 0
@@ -14076,7 +14076,7 @@ JS_FS
 "
 stopShark
 "
-StopShark
+js_StopShark
 0
 0
 0
@@ -14086,7 +14086,7 @@ JS_FS
 "
 connectShark
 "
-ConnectShark
+js_ConnectShark
 0
 0
 0
@@ -14096,7 +14096,7 @@ JS_FS
 "
 disconnectShark
 "
-DisconnectShark
+js_DisconnectShark
 0
 0
 0
