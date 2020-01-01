@@ -2683,7 +2683,7 @@ element
 element
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 )

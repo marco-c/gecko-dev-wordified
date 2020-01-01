@@ -2481,7 +2481,7 @@ parent
 aTextNode
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;
@@ -4224,7 +4224,7 @@ parent
 aElement
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;
@@ -4554,7 +4554,7 @@ parent
 aElement
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;
@@ -4697,7 +4697,7 @@ parent
 parent
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;
@@ -5017,7 +5017,7 @@ parent
 aTextNode
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;
@@ -5427,7 +5427,7 @@ parent
 parent
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;

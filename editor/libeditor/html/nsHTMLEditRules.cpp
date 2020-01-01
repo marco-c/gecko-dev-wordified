@@ -4801,7 +4801,7 @@ parent
 curElement
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 )

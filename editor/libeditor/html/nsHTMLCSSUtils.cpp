@@ -8325,7 +8325,7 @@ node
 node
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;
