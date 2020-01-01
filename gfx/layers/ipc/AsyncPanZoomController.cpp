@@ -5428,14 +5428,6 @@ happen
 .
 if
 (
-enlargedX
-|
-|
-enlargedY
-)
-{
-if
-(
 scrollOffset
 .
 x
@@ -5541,7 +5533,6 @@ scrollableRect
 .
 y
 ;
-}
 }
 gfx
 :
