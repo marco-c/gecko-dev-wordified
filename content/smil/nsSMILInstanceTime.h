@@ -1057,14 +1057,12 @@ kDynamic
 kMayUpdate
 etc
 .
+mutable
 bool
 mVisited
 ;
 /
 /
-(
-mutable
-)
 Cycle
 tracking
 /

@@ -311,6 +311,11 @@ aInitData
 nullptr
 )
 ;
+void
+InitIMEState
+(
+)
+;
 virtual
 already_AddRefed
 <
@@ -1225,6 +1230,9 @@ blur
 occurs
 uint32_t
 mIMELastBlurSeqno
+;
+bool
+mNeedIMEStateInit
 ;
 /
 /

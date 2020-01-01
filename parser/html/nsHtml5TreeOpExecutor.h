@@ -1801,6 +1801,10 @@ const
 nsAString
 &
 aCharset
+const
+nsAString
+&
+aCrossOrigin
 )
 ;
 void

@@ -8318,7 +8318,7 @@ pushedSeg
 )
 )
 return
-NULL
+false
 ;
 JS_ASSERT
 (

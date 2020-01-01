@@ -1071,7 +1071,6 @@ running
 true
 ;
 }
-;
 void
 Stop
 (

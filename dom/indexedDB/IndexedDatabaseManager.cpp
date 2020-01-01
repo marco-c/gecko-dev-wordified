@@ -5689,12 +5689,11 @@ else
 nsresult
 rv
 =
-nsContentUtils
-:
-:
-GetASCIIOrigin
-(
 principal
+-
+>
+GetExtendedOrigin
+(
 aASCIIOrigin
 )
 ;

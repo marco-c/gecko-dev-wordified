@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+nsDNSService2_h__
+#
+define
+nsDNSService2_h__
+#
 include
 "
 nsPIDNSService
@@ -262,3 +268,8 @@ mLocalDomains
 ;
 }
 ;
+#
+endif
+/
+/
+nsDNSService2_h__

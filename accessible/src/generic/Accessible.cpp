@@ -15629,10 +15629,6 @@ filters
 :
 :
 GetSelected
-AccIterator
-:
-:
-eTreeNav
 )
 ;
 nsIAccessible
@@ -15701,10 +15697,6 @@ filters
 :
 :
 GetSelected
-AccIterator
-:
-:
-eTreeNav
 )
 ;
 Accessible
@@ -15752,10 +15744,6 @@ filters
 :
 :
 GetSelected
-AccIterator
-:
-:
-eTreeNav
 )
 ;
 Accessible
@@ -15817,10 +15805,6 @@ filters
 :
 :
 GetSelectable
-AccIterator
-:
-:
-eTreeNav
 )
 ;
 Accessible
@@ -15890,10 +15874,6 @@ filters
 :
 :
 GetSelectable
-AccIterator
-:
-:
-eTreeNav
 )
 ;
 Accessible
@@ -15968,10 +15948,6 @@ filters
 :
 :
 GetSelectable
-AccIterator
-:
-:
-eTreeNav
 )
 ;
 Accessible
@@ -16050,10 +16026,6 @@ filters
 :
 :
 GetSelectable
-AccIterator
-:
-:
-eTreeNav
 )
 ;
 while
@@ -16113,10 +16085,6 @@ filters
 :
 :
 GetSelected
-AccIterator
-:
-:
-eTreeNav
 )
 ;
 while

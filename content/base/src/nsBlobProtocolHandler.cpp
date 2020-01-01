@@ -875,7 +875,7 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 size
 ;
 rv
