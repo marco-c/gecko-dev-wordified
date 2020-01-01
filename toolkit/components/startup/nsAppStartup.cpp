@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsIProfileChangeStatus
+.
+h
+"
+#
+include
+"
 nsIPromptService
 .
 h

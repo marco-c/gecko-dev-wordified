@@ -794,9 +794,8 @@ set
 .
 *
 See
-notifications
+nsIProfileChangeStatus
 .
-txt
 *
 /
 nsresult
