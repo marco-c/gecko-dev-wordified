@@ -2664,7 +2664,7 @@ DESTROY_CONTEXT
 )
 ;
 }
-js_delete
+js_delete_poison
 (
 cx
 )
