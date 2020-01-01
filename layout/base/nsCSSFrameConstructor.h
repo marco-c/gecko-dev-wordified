@@ -527,6 +527,13 @@ RestyleTracker
 .
 h
 "
+#
+include
+"
+nsIAnonymousContentCreator
+.
+h
+"
 class
 nsIDocument
 ;
@@ -8679,8 +8686,10 @@ nsIFrame
 aParentFrame
 nsTArray
 <
-nsIContent
-*
+nsIAnonymousContentCreator
+:
+:
+ContentInfo
 >
 &
 aAnonContent

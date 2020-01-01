@@ -2624,8 +2624,7 @@ CreateAnonymousContent
 (
 nsTArray
 <
-nsIContent
-*
+ContentInfo
 >
 &
 aElements
