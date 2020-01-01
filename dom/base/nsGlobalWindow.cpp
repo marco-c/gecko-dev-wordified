@@ -45094,6 +45094,7 @@ IDBFactory
 Create
 (
 this
+nullptr
 getter_AddRefs
 (
 mIndexedDB
