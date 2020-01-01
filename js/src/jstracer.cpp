@@ -533,6 +533,8 @@ endif
 include
 "
 nanojit
+/
+nanojit
 .
 h
 "
