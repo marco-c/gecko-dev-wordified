@@ -978,8 +978,12 @@ VMPI_sprintf
 outline
 "
 %
-p
+010lx
 "
+(
+unsigned
+long
+)
 _nIns
 )
 ;
