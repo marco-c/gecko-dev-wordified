@@ -462,15 +462,11 @@ nsTArray
 .
 h
 "
-#
-include
-"
-mozStorageBackground
-.
-h
-"
 struct
 sqlite3_stmt
+;
+class
+mozStorageConnection
 ;
 class
 mozIStorageStatementCallback
@@ -565,7 +561,7 @@ sqlite3_stmt
 >
 &
 aStatements
-mozIStorageConnection
+mozStorageConnection
 *
 aConnection
 mozIStorageStatementCallback
