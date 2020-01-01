@@ -318,6 +318,12 @@ GetMatrix
 )
 const
 ;
+gfxMatrix
+GetInverseMatrix
+(
+)
+const
+;
 /
 *
 Get
