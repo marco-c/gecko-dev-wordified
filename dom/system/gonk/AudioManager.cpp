@@ -311,7 +311,7 @@ AUDIO_STREAM_CNT
 ]
 =
 {
-10
+5
 /
 /
 voice
@@ -320,7 +320,7 @@ call
 /
 /
 system
-7
+15
 /
 /
 ring
@@ -328,11 +328,11 @@ ring
 /
 /
 music
-7
+15
 /
 /
 alarm
-7
+15
 /
 /
 notification
@@ -341,7 +341,7 @@ notification
 /
 BT
 SCO
-7
+15
 /
 /
 enforced
