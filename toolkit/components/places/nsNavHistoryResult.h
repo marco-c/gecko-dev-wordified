@@ -776,6 +776,11 @@ aReferringId
 \
 PRUint32
 aTransitionType
+const
+nsACString
+&
+aGUID
+\
 PRUint32
 *
 aAdded
@@ -801,6 +806,10 @@ OnBeforeDeleteURI
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aGUID
 )
 ;
 \
@@ -810,6 +819,10 @@ OnDeleteURI
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aGUID
 )
 ;
 \
@@ -843,6 +856,11 @@ nsIURI
 aURI
 PRTime
 aVisitTime
+\
+const
+nsACString
+&
+aGUID
 )
 ;
 /

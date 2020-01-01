@@ -17345,6 +17345,10 @@ PRInt64
 aReferringID
 PRUint32
 aTransitionType
+const
+nsACString
+&
+aGUID
 PRUint32
 *
 aAdded
@@ -17452,6 +17456,10 @@ OnBeforeDeleteURI
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aGUID
 )
 {
 return
@@ -17467,6 +17475,10 @@ OnDeleteURI
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aGUID
 )
 {
 #
@@ -17919,6 +17931,10 @@ nsIURI
 aURI
 PRTime
 aVisitTime
+const
+nsACString
+&
+aGUID
 )
 {
 /

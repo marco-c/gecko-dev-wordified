@@ -3226,6 +3226,10 @@ PRInt64
 referringVisitID
 PRInt32
 aTransitionType
+const
+nsACString
+&
+aGUID
 )
 ;
 /
@@ -4049,6 +4053,9 @@ aCalculateFrecency
 PRInt64
 *
 aPageID
+nsACString
+&
+guid
 )
 ;
 nsresult

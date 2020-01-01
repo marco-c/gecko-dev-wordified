@@ -17096,6 +17096,10 @@ PRInt64
 aReferringId
 PRUint32
 aTransitionType
+const
+nsACString
+&
+aGUID
 PRUint32
 *
 aAdded
@@ -18386,6 +18390,10 @@ OnBeforeDeleteURI
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aGUID
 )
 {
 return
@@ -18424,6 +18432,10 @@ OnDeleteURI
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aGUID
 )
 {
 if
@@ -18987,6 +18999,10 @@ nsIURI
 aURI
 PRTime
 aVisitTime
+const
+nsACString
+&
+aGUID
 )
 {
 NS_PRECONDITION
@@ -19075,6 +19091,7 @@ rv
 OnDeleteURI
 (
 aURI
+aGUID
 )
 ;
 NS_ENSURE_SUCCESS
@@ -29190,6 +29207,10 @@ PRInt64
 aReferringId
 PRUint32
 aTransitionType
+const
+nsACString
+&
+aGUID
 PRUint32
 *
 aAdded
@@ -29210,6 +29231,7 @@ aTime
 aSessionId
 aReferringId
 aTransitionType
+aGUID
 &
 added
 )
@@ -29626,6 +29648,10 @@ OnBeforeDeleteURI
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aGUID
 )
 {
 return
@@ -29641,6 +29667,10 @@ OnDeleteURI
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aGUID
 )
 {
 ENUMERATE_HISTORY_OBSERVERS
@@ -29648,6 +29678,7 @@ ENUMERATE_HISTORY_OBSERVERS
 OnDeleteURI
 (
 aURI
+aGUID
 )
 )
 ;
@@ -29731,6 +29762,10 @@ nsIURI
 aURI
 PRTime
 aVisitTime
+const
+nsACString
+&
+aGUID
 )
 {
 ENUMERATE_HISTORY_OBSERVERS
@@ -29739,6 +29774,7 @@ OnDeleteVisits
 (
 aURI
 aVisitTime
+aGUID
 )
 )
 ;
