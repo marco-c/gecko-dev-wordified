@@ -997,9 +997,7 @@ browser
 =
 win
 .
-getBrowser
-(
-)
+gBrowser
 ;
 browser
 .
