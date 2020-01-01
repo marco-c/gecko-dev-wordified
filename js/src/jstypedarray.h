@@ -210,11 +210,11 @@ TypedArrayObjectTemplate
 /
 /
 -
-Int8Array
+Int8ArrayObject
 /
 /
 -
-Uint8Array
+Uint8ArrayObject
 /
 /
 -
