@@ -4129,16 +4129,7 @@ f
 .
 regs
 .
-sp
-=
-f
-.
-fp
-(
-)
--
->
-base
+setToEndOfScript
 (
 )
 ;
