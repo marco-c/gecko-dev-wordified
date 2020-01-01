@@ -610,6 +610,13 @@ h
 #
 include
 "
+nsVoidArray
+.
+h
+"
+#
+include
+"
 nsDeleteDir
 .
 h

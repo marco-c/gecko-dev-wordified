@@ -473,7 +473,7 @@ h
 #
 include
 "
-nsTArray
+nsVoidArray
 .
 h
 "
@@ -2931,6 +2931,15 @@ locked
 .
 .
 MMP
+static
+PRInt32
+mVMCount
+;
+/
+/
+number
+of
+viewmanagers
 /
 /
 Rendering
@@ -2953,11 +2962,7 @@ of
 view
 managers
 static
-nsTArray
-<
-nsViewManager
-*
->
+nsVoidArray
 *
 gViewManagers
 ;

@@ -451,6 +451,13 @@ h
 #
 include
 "
+nsVoidArray
+.
+h
+"
+#
+include
+"
 nsDOMClassInfoID
 .
 h
