@@ -4086,7 +4086,7 @@ Step
 .
 *
 /
-double
+jsdouble
 i
 ;
 if

@@ -2977,7 +2977,7 @@ NS_ENSURE_TRUE
 JS_NewNumberValue
 (
 cx
-double
+jsdouble
 (
 aId
 )
@@ -3051,7 +3051,7 @@ NS_ENSURE_TRUE
 JS_NewNumberValue
 (
 cx
-double
+jsdouble
 (
 aParentId
 )

@@ -1050,7 +1050,7 @@ int
 *
 /
 static
-double
+jsdouble
 MAX_TIMEOUT_INTERVAL
 =
 1800
@@ -1058,7 +1058,7 @@ MAX_TIMEOUT_INTERVAL
 0
 ;
 static
-double
+jsdouble
 gTimeoutInterval
 =
 -
@@ -1104,7 +1104,7 @@ SetTimeoutValue
 JSContext
 *
 cx
-double
+jsdouble
 t
 )
 ;
@@ -1130,7 +1130,7 @@ ScheduleWatchdog
 JSRuntime
 *
 rt
-double
+jsdouble
 t
 )
 ;
@@ -3962,7 +3962,7 @@ argv
 )
 )
 {
-double
+jsdouble
 fv
 =
 JSVAL_TO_DOUBLE
@@ -6397,7 +6397,7 @@ jsval
 vp
 )
 {
-double
+jsdouble
 now
 =
 PRMJ_Now
@@ -9012,7 +9012,7 @@ JS_NewNumberValue
 (
 cx
 (
-double
+jsdouble
 )
 counter
 vp
@@ -15174,7 +15174,7 @@ vp
 va_list
 ap
 ;
-double
+jsdouble
 re
 im
 ;
@@ -15239,7 +15239,7 @@ JS_FALSE
 va_arg
 (
 ap
-double
+jsdouble
 *
 )
 =
@@ -15249,7 +15249,7 @@ re
 va_arg
 (
 ap
-double
+jsdouble
 *
 )
 =
@@ -15263,7 +15263,7 @@ re
 va_arg
 (
 ap
-double
+jsdouble
 )
 ;
 im
@@ -15271,7 +15271,7 @@ im
 va_arg
 (
 ap
-double
+jsdouble
 )
 ;
 if
@@ -15370,7 +15370,7 @@ u
 =
 0
 ;
-double
+jsdouble
 d
 =
 0
@@ -19048,7 +19048,7 @@ t_ticks
 }
 else
 {
-double
+jsdouble
 t_secs
 ;
 if
@@ -19533,7 +19533,7 @@ ScheduleWatchdog
 JSRuntime
 *
 rt
-double
+jsdouble
 t
 )
 {
@@ -19763,7 +19763,7 @@ ScheduleWatchdog
 JSRuntime
 *
 rt
-double
+jsdouble
 t
 )
 {
@@ -20056,7 +20056,7 @@ SetTimeoutValue
 JSContext
 *
 cx
-double
+jsdouble
 t
 )
 {
@@ -20187,7 +20187,7 @@ return
 JS_FALSE
 ;
 }
-double
+jsdouble
 t
 ;
 if
@@ -22111,7 +22111,7 @@ return
 JS_FALSE
 ;
 }
-double
+jsdouble
 t
 ;
 if

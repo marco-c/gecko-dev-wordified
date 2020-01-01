@@ -561,7 +561,7 @@ data
 bool
 writeDouble
 (
-double
+jsdouble
 d
 )
 ;
@@ -696,7 +696,7 @@ datap
 bool
 readDouble
 (
-double
+jsdouble
 *
 p
 )
@@ -774,7 +774,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-double
+jsdouble
 )
 =
 =
@@ -895,7 +895,7 @@ context
 bool
 checkDouble
 (
-double
+jsdouble
 d
 )
 ;

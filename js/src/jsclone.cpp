@@ -1201,7 +1201,7 @@ SCInput
 :
 readDouble
 (
-double
+jsdouble
 *
 p
 )
@@ -1211,7 +1211,7 @@ union
 uint64_t
 u
 ;
-double
+jsdouble
 d
 ;
 }
@@ -1605,7 +1605,7 @@ last
 2
 bytes
 of
-doubles
+jsdoubles
 on
 the
 *
@@ -1674,13 +1674,13 @@ inline
 uint64_t
 ReinterpretDoubleAsUInt64
 (
-double
+jsdouble
 d
 )
 {
 union
 {
-double
+jsdouble
 d
 ;
 uint64_t
@@ -1703,7 +1703,7 @@ u
 }
 static
 inline
-double
+jsdouble
 ReinterpretUInt64AsDouble
 (
 uint64_t
@@ -1715,7 +1715,7 @@ union
 uint64_t
 u
 ;
-double
+jsdouble
 d
 ;
 }
@@ -1735,7 +1735,7 @@ d
 }
 static
 inline
-double
+jsdouble
 ReinterpretPairAsDouble
 (
 uint32_t
@@ -1761,7 +1761,7 @@ SCOutput
 :
 writeDouble
 (
-double
+jsdouble
 d
 )
 {
@@ -3423,7 +3423,7 @@ isDate
 )
 )
 {
-double
+jsdouble
 d
 =
 js_DateGetMsecSinceEpoch
@@ -3905,7 +3905,7 @@ JSStructuredCloneReader
 :
 checkDouble
 (
-double
+jsdouble
 d
 )
 {
@@ -4665,7 +4665,7 @@ case
 SCTAG_NUMBER_OBJECT
 :
 {
-double
+jsdouble
 d
 ;
 if
@@ -4718,7 +4718,7 @@ case
 SCTAG_DATE_OBJECT
 :
 {
-double
+jsdouble
 d
 ;
 if
@@ -5096,7 +5096,7 @@ tag
 SCTAG_FLOAT_MAX
 )
 {
-double
+jsdouble
 d
 =
 ReinterpretPairAsDouble

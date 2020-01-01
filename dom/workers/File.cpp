@@ -894,7 +894,7 @@ if
 JS_NewNumberValue
 (
 aCx
-double
+jsdouble
 (
 size
 )
@@ -1072,7 +1072,7 @@ return
 false
 ;
 }
-double
+jsdouble
 start
 =
 0

@@ -7285,7 +7285,7 @@ JS_NewNumberValue
 aCx
 static_cast
 <
-double
+jsdouble
 >
 (
 mCount

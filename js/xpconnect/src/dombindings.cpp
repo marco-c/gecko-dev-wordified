@@ -3805,7 +3805,7 @@ cx
 jsval
 idval
 ;
-double
+jsdouble
 array_index
 ;
 int32_t

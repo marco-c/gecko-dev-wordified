@@ -2272,7 +2272,7 @@ recorded
 extern
 JSD_PUBLIC_API
 (
-double
+jsdouble
 )
 JSD_GetScriptMinExecutionTime
 (
@@ -2299,7 +2299,7 @@ recorded
 extern
 JSD_PUBLIC_API
 (
-double
+jsdouble
 )
 JSD_GetScriptMaxExecutionTime
 (
@@ -2330,7 +2330,7 @@ script
 extern
 JSD_PUBLIC_API
 (
-double
+jsdouble
 )
 JSD_GetScriptTotalExecutionTime
 (
@@ -2364,7 +2364,7 @@ functions
 extern
 JSD_PUBLIC_API
 (
-double
+jsdouble
 )
 JSD_GetScriptMinOwnExecutionTime
 (
@@ -2398,7 +2398,7 @@ functions
 extern
 JSD_PUBLIC_API
 (
-double
+jsdouble
 )
 JSD_GetScriptMaxOwnExecutionTime
 (
@@ -2436,7 +2436,7 @@ functions
 extern
 JSD_PUBLIC_API
 (
-double
+jsdouble
 )
 JSD_GetScriptTotalOwnExecutionTime
 (
@@ -8505,7 +8505,7 @@ version
 extern
 JSD_PUBLIC_API
 (
-double
+jsdouble
 )
 JSD_GetValueDouble
 (

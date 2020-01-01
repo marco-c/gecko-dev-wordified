@@ -1536,7 +1536,7 @@ isDouble
 )
 )
 {
-double
+jsdouble
 d
 ;
 d

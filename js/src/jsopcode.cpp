@@ -10236,7 +10236,7 @@ JSOp
 opp
 )
 {
-double
+jsdouble
 d
 ;
 ptrdiff_t

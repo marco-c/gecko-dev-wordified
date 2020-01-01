@@ -396,7 +396,7 @@ std
 :
 numeric_limits
 <
-double
+jsdouble
 >
 :
 :
