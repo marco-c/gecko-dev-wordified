@@ -1247,6 +1247,7 @@ usingCustomParseOptions
 nsresult
 ExtractData
 (
+const
 nsAString
 &
 aType
@@ -1258,6 +1259,9 @@ nsIInputStream
 *
 *
 aStream
+bool
+&
+aFellBackToPNG
 )
 ;
 nsresult
