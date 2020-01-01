@@ -3066,6 +3066,13 @@ GradientCache
 (
 )
 ;
+nsCSSBorderRenderer
+:
+:
+Init
+(
+)
+;
 }
 /
 /
@@ -3099,6 +3106,13 @@ gGradientCache
 gGradientCache
 =
 nullptr
+;
+nsCSSBorderRenderer
+:
+:
+Shutdown
+(
+)
 ;
 }
 /
