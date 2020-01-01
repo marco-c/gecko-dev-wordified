@@ -982,6 +982,10 @@ nsHTMLReflowState
 aReflowState
 bool
 aForceAuto
+nscoord
+aFeasibleHeight
+nscoord
+aInfeasibleHeight
 )
 ;
 /
