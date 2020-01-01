@@ -702,6 +702,16 @@ title
 ;
 }
 public
+Drawable
+getFavicon
+(
+)
+{
+return
+favicon
+;
+}
+public
 boolean
 isLoading
 (
