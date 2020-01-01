@@ -1612,6 +1612,8 @@ started
 our
 download
 listener
+/
+*
 var
 listener
 =
@@ -2039,6 +2041,8 @@ done
 false
 )
 ;
+*
+/
 for
 (
 var
@@ -2063,6 +2067,8 @@ i
 (
 )
 ;
+/
+/
 cleanup
 (
 )
