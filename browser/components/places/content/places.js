@@ -2694,6 +2694,13 @@ _content
 .
 selectedNode
 aEvent
+this
+.
+_content
+.
+treeBoxObject
+.
+view
 )
 ;
 }
