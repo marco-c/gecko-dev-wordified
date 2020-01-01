@@ -4371,13 +4371,8 @@ DrawOptions
 (
 )
 )
-{
-MOZ_ASSERT
-(
+=
 0
-)
-;
-}
 ;
 /
 *
