@@ -662,6 +662,13 @@ initWithPath
 "
 )
 ;
+const
+Ci
+=
+Components
+.
+interfaces
+;
 var
 gDownloadManager
 =
@@ -1890,6 +1897,12 @@ dl
 cancel
 "
 :
+gDownloadViewController
+.
+onCommandUpdate
+(
+)
+;
 var
 dl
 =
