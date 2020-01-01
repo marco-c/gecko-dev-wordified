@@ -1422,6 +1422,12 @@ ID3D10Texture2D
 >
 mCurrentClipMaskTexture
 ;
+RefPtr
+<
+ID2D1PathGeometry
+>
+mCurrentClippedGeometry
+;
 mutable
 RefPtr
 <
