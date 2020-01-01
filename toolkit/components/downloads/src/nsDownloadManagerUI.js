@@ -1007,7 +1007,11 @@ openWindow
 (
 window
 DOWNLOAD_MANAGER_URL
-null
+"
+Download
+:
+Manager
+"
 "
 chrome
 dialog
