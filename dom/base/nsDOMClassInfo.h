@@ -177,6 +177,14 @@ xpcpublic
 .
 h
 "
+#
+ifdef
+XP_WIN
+#
+undef
+GetClassName
+#
+endif
 namespace
 mozilla
 {
