@@ -15366,9 +15366,7 @@ constants
 const
 GECKO_RADIOSTATE_UNAVAILABLE
 =
-"
-unavailable
-"
+null
 ;
 const
 GECKO_RADIOSTATE_OFF
