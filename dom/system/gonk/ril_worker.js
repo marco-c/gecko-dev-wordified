@@ -440,31 +440,6 @@ n
 ;
 }
 const
-INT32_MAX
-=
-2147483647
-;
-const
-UINT8_SIZE
-=
-1
-;
-const
-UINT16_SIZE
-=
-2
-;
-const
-UINT32_SIZE
-=
-4
-;
-const
-PDU_HEX_OCTET_SIZE
-=
-4
-;
-const
 DEFAULT_EMERGENCY_NUMBERS
 =
 [
@@ -23255,6 +23230,8 @@ getReadAvailable
 -
 2
 *
+Buf
+.
 UINT32_SIZE
 )
 )
@@ -23515,6 +23492,8 @@ Buf
 .
 copyIncomingToOutgoing
 (
+Buf
+.
 PDU_HEX_OCTET_SIZE
 *
 smscLength
@@ -23562,6 +23541,8 @@ Buf
 .
 copyIncomingToOutgoing
 (
+Buf
+.
 PDU_HEX_OCTET_SIZE
 *
 tpduLength
@@ -23893,6 +23874,8 @@ Buf
 .
 copyIncomingToOutgoing
 (
+Buf
+.
 PDU_HEX_OCTET_SIZE
 *
 responsePduLen
@@ -23991,6 +23974,8 @@ getReadAvailable
 -
 2
 *
+Buf
+.
 UINT32_SIZE
 )
 )
@@ -24073,6 +24058,8 @@ seekIncoming
 (
 smscLength
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -24108,6 +24095,8 @@ Buf
 .
 copyIncomingToOutgoing
 (
+Buf
+.
 PDU_HEX_OCTET_SIZE
 *
 pduLength
@@ -24216,6 +24205,8 @@ getReadAvailable
 -
 2
 *
+Buf
+.
 UINT32_SIZE
 /
 /
@@ -24226,6 +24217,8 @@ request_type
 -
 2
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 )
@@ -24241,6 +24234,8 @@ Buf
 .
 copyIncomingToOutgoing
 (
+Buf
+.
 PDU_HEX_OCTET_SIZE
 *
 smscLength
@@ -40415,6 +40410,8 @@ numOctets
 i
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -41226,6 +41223,8 @@ numOctets
 i
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -41822,6 +41821,8 @@ count
 1
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -41865,6 +41866,8 @@ len
 headerLen
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -43548,6 +43551,8 @@ seekIncoming
 (
 2
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -43875,6 +43880,8 @@ seekIncoming
 -
 1
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -44556,6 +44563,8 @@ ADN_MAX_BCD_NUMBER_BYTES
 numLen
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -44568,6 +44577,8 @@ seekIncoming
 (
 ADN_MAX_BCD_NUMBER_BYTES
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -61225,6 +61236,8 @@ seekIncoming
 (
 length
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -67603,6 +67616,8 @@ seekIncoming
 (
 2
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -67822,6 +67837,8 @@ RESPONSE_DATA_FILE_TYPE
 1
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 )
@@ -67943,6 +67960,8 @@ seekIncoming
 (
 1
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -70304,6 +70323,8 @@ octetLen
 readLen
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -71152,6 +71173,8 @@ seekIncoming
 (
 2
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -71602,6 +71625,8 @@ seekIncoming
 (
 1
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -71629,6 +71654,8 @@ seekIncoming
 (
 2
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -71669,6 +71696,8 @@ seekIncoming
 (
 2
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -72249,6 +72278,8 @@ octetLen
 readLen
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -73628,6 +73659,8 @@ seekIncoming
 (
 5
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -73818,6 +73851,8 @@ octetLen
 readLen
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -73896,6 +73931,8 @@ seekIncoming
 (
 tlvLen
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -74217,6 +74254,8 @@ octetLen
 readLen
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -81379,6 +81418,8 @@ Buf
 .
 seekIncoming
 (
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -81746,6 +81787,8 @@ Buf
 .
 seekIncoming
 (
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
@@ -81940,6 +81983,8 @@ octetLen
 readLen
 )
 *
+Buf
+.
 PDU_HEX_OCTET_SIZE
 )
 ;
