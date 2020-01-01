@@ -716,9 +716,6 @@ aRate
 bool
 aHasAudio
 const
-mozilla
-:
-:
 MetadataTags
 *
 aTags
@@ -4519,9 +4516,6 @@ aUserArg
 nsAutoPtr
 <
 const
-mozilla
-:
-:
 MetadataTags
 >
 mTags
