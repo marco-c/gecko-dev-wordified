@@ -30229,6 +30229,15 @@ tcflags
 TCF_COMPILING
 |
 TCF_IN_FUNCTION
+|
+(
+cg
+-
+>
+flags
+&
+TCF_FUN_MIGHT_ALIAS_LOCALS
+)
 ;
 #
 if
