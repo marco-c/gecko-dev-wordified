@@ -22663,7 +22663,7 @@ rt
 >
 atomState
 .
-classPrototypeAtom
+classPrototype
 ;
 objReg
 =
@@ -24688,7 +24688,7 @@ rt
 >
 atomState
 .
-numberAtom
+number
 )
 output
 )
@@ -24736,7 +24736,7 @@ rt
 >
 atomState
 .
-undefinedAtom
+undefined
 )
 output
 )
@@ -24784,7 +24784,7 @@ rt
 >
 atomState
 .
-objectAtom
+object
 )
 output
 )
@@ -24832,7 +24832,7 @@ rt
 >
 atomState
 .
-booleanAtom
+boolean
 )
 output
 )
@@ -24864,7 +24864,7 @@ rt
 >
 atomState
 .
-stringAtom
+string
 )
 output
 )

@@ -946,7 +946,7 @@ JS_STATIC_ASSERT
 offsetof
 (
 JSAtomState
-undefinedAtom
+undefined
 )
 +
 JSTYPE_LIMIT
@@ -982,7 +982,7 @@ rt
 >
 atomState
 .
-undefinedAtom
+undefined
 )
 [
 type
@@ -1042,7 +1042,7 @@ JS_STATIC_ASSERT
 offsetof
 (
 JSAtomState
-NullAtom
+Null
 )
 +
 JSProto_LIMIT
@@ -1081,7 +1081,7 @@ runtime
 >
 atomState
 .
-NullAtom
+Null
 )
 [
 key
