@@ -1300,6 +1300,9 @@ JSBool
 singleStep
 )
 {
+#
+ifdef
+JS_METHODJIT
 if
 (
 !
@@ -1315,6 +1318,8 @@ singleStep
 return
 JS_TRUE
 ;
+#
+endif
 JS_ASSERT_IF
 (
 singleStep

@@ -2435,6 +2435,14 @@ return
 true
 ;
 }
+#
+if
+defined
+JS_METHODJIT
+&
+&
+defined
+JS_MONOIC
 /
 *
 *
@@ -2619,6 +2627,8 @@ pool
 m_destroy
 ;
 }
+#
+endif
 void
 JSCompartment
 :

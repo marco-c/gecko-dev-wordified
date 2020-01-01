@@ -3364,6 +3364,9 @@ GetNativeStackBase
 (
 )
 ;
+#
+ifdef
+JS_TRACER
 /
 *
 Set
@@ -3387,6 +3390,8 @@ maxCodeCacheBytes
 *
 1024
 ;
+#
+endif
 return
 true
 ;
