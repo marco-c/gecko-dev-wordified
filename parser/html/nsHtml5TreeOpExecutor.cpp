@@ -4271,6 +4271,11 @@ return
 }
 if
 (
+mFragmentMode
+)
+{
+if
+(
 mPreventScriptExecution
 )
 {
@@ -4282,11 +4287,6 @@ PreventExecution
 )
 ;
 }
-if
-(
-mFragmentMode
-)
-{
 return
 ;
 }
