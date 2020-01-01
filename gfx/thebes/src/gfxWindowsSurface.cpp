@@ -546,6 +546,9 @@ mOwnsDC
 =
 PR_TRUE
 ;
+#
+ifdef
+NS_PRINTING
 if
 (
 flags
@@ -567,7 +570,8 @@ PR_TRUE
 ;
 }
 else
-{
+#
+endif
 Init
 (
 cairo_win32_surface_create
@@ -576,7 +580,6 @@ mDC
 )
 )
 ;
-}
 }
 gfxWindowsSurface
 :
