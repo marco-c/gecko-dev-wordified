@@ -2577,7 +2577,7 @@ target_format
 XRenderFindVisualFormat
 (
 dpy
-visual
+target_visual
 )
 ;
 }
