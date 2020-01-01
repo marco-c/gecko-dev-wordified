@@ -11936,7 +11936,7 @@ JSPropertyOp
 setter
 ;
 jsval
-storedValue
+value
 ;
 }
 ;
