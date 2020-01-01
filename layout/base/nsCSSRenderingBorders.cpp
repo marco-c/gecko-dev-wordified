@@ -7485,6 +7485,15 @@ if
 mContext
 -
 >
+IsCairo
+(
+)
+&
+&
+(
+mContext
+-
+>
 OriginalSurface
 (
 )
@@ -7518,6 +7527,7 @@ gfxASurface
 :
 :
 SurfaceTypeQuartz
+)
 )
 {
 /
@@ -7574,6 +7584,8 @@ else
 /
 When
 cairo
+/
+Azure
 does
 the
 gradient
