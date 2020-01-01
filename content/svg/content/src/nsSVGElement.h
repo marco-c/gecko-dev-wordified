@@ -211,9 +211,6 @@ nsIDOMSVGElement
 h
 "
 class
-nsIDOMSVGSVGElement
-;
-class
 nsSVGAngle
 ;
 class
@@ -616,7 +613,7 @@ aId
 NS_IMETHOD
 GetOwnerSVGElement
 (
-nsIDOMSVGSVGElement
+nsIDOMSVGElement
 *
 *
 aOwnerSVGElement

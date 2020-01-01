@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsIDOMSVGSVGElement
+nsIDOMSVGElement
 .
 h
 "
@@ -505,7 +505,7 @@ nsSVGDocument
 :
 GetRootElement
 (
-nsIDOMSVGSVGElement
+nsIDOMSVGElement
 *
 *
 aRootElement

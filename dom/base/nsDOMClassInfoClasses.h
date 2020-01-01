@@ -910,10 +910,6 @@ SVGMaskElement
 )
 DOMCI_CLASS
 (
-SVGSVGElement
-)
-DOMCI_CLASS
-(
 SVGSwitchElement
 )
 DOMCI_CLASS
