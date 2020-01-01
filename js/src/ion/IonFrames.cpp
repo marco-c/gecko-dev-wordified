@@ -1733,11 +1733,6 @@ CountArgSlots
 (
 frame
 .
-script
-(
-)
-frame
-.
 maybeCallee
 (
 )
