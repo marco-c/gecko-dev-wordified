@@ -7450,7 +7450,7 @@ specWidth
 =
 CSSToDevPixels
 (
-PR_MAX
+NS_MAX
 (
 temp
 100
@@ -7515,7 +7515,7 @@ specHeight
 =
 CSSToDevPixels
 (
-PR_MAX
+NS_MAX
 (
 temp
 100
@@ -10903,7 +10903,7 @@ aShellItem
 .
 winCX
 =
-PR_MAX
+NS_MAX
 (
 winCX
 +
@@ -10913,7 +10913,7 @@ aCX
 ;
 winCY
 =
-PR_MAX
+NS_MAX
 (
 winCY
 +
