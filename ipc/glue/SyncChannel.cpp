@@ -560,13 +560,13 @@ mNextSeqno
 (
 0
 )
-mTimeoutMs
-(
-kNoTimeout
-)
 mInTimeoutSecondHalf
 (
 false
+)
+mTimeoutMs
+(
+kNoTimeout
 )
 #
 ifdef
