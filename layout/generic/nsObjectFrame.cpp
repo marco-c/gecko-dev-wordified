@@ -22016,7 +22016,7 @@ EventRecord
 guiEvent
 -
 >
-nativeMsg
+pluginEvent
 )
 ;
 if
@@ -24616,7 +24616,7 @@ if
 (
 anEvent
 .
-nativeMsg
+pluginEvent
 )
 {
 XKeyEvent
@@ -24660,7 +24660,7 @@ GdkEventKey
 (
 anEvent
 .
-nativeMsg
+pluginEvent
 )
 ;
 event
@@ -24721,7 +24721,7 @@ could
 be
 obtained
 from
-nativeMsg
+pluginEvent
 but
 we
 may
@@ -25378,7 +25378,7 @@ event
 =
 anEvent
 .
-nativeMsg
+pluginEvent
 ;
 if
 (
@@ -26000,7 +26000,7 @@ NPEvent
 )
 anEvent
 .
-nativeMsg
+pluginEvent
 ;
 /
 /
@@ -26020,7 +26020,7 @@ these
 /
 have
 no
-nativeMsg
+pluginEvent
 NPEvent
 pluginEvent
 ;
@@ -27224,7 +27224,7 @@ if
 (
 anEvent
 .
-nativeMsg
+pluginEvent
 )
 {
 XKeyEvent
@@ -27268,7 +27268,7 @@ GdkEventKey
 (
 anEvent
 .
-nativeMsg
+pluginEvent
 )
 ;
 event
@@ -27329,7 +27329,7 @@ could
 be
 obtained
 from
-nativeMsg
+pluginEvent
 but
 we
 may

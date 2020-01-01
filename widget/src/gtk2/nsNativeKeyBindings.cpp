@@ -2060,7 +2060,7 @@ NS_KEY_DOWN
 guiEvent
 -
 >
-nativeMsg
+pluginEvent
 )
 gtk_bindings_activate_event
 (
@@ -2077,7 +2077,7 @@ GdkEventKey
 guiEvent
 -
 >
-nativeMsg
+pluginEvent
 )
 )
 ;

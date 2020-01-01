@@ -3272,7 +3272,7 @@ widget
 (
 w
 )
-nativeMsg
+pluginEvent
 (
 nsnull
 )
@@ -3301,7 +3301,7 @@ widget
 (
 w
 )
-nativeMsg
+pluginEvent
 (
 nsnull
 )
@@ -3323,14 +3323,13 @@ widget
 /
 /
 /
-Internal
-platform
-specific
-message
-.
+Event
+for
+NPAPI
+plugin
 void
 *
-nativeMsg
+pluginEvent
 ;
 }
 ;

@@ -21947,7 +21947,7 @@ isMeta
 ;
 event
 .
-nativeMsg
+pluginEvent
 =
 (
 (
@@ -21958,7 +21958,7 @@ aEvent
 )
 -
 >
-nativeMsg
+pluginEvent
 ;
 event
 .

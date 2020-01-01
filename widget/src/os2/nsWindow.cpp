@@ -25396,7 +25396,7 @@ y
 ;
 event
 .
-nativeMsg
+pluginEvent
 =
 (
 void
@@ -25706,7 +25706,7 @@ break
 }
 event
 .
-nativeMsg
+pluginEvent
 =
 (
 void
