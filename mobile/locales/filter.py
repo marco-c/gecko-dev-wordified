@@ -434,6 +434,17 @@ manager
 "
                  
 "
+services
+/
+sync
+"
+"
+embedding
+/
+android
+"
+                 
+"
 mobile
 "
 )
