@@ -4311,7 +4311,6 @@ nsBlockFrame
 *
 aFrame
 line_iterator
-&
 aLine
 PRBool
 aInOverflow
@@ -4326,6 +4325,11 @@ return
 mLine
 ;
 }
+PRBool
+IsLastLineInList
+(
+)
+;
 nsBlockFrame
 *
 GetContainer
