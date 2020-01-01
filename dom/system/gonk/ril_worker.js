@@ -69065,7 +69065,7 @@ contact
 (
 RIL
 .
-iccInfo
+iccInfoPrivate
 .
 mbdn
 !
@@ -69076,7 +69076,7 @@ undefined
 &
 RIL
 .
-iccInfo
+iccInfoPrivate
 .
 mbdn
 =
@@ -69093,7 +69093,7 @@ return
 }
 RIL
 .
-iccInfo
+iccInfoPrivate
 .
 mbdn
 =
