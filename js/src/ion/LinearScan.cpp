@@ -2513,7 +2513,7 @@ MoveGroup
 *
 graph
 .
-numBlocks
+numVirtualRegisters
 (
 )
 )
@@ -2530,7 +2530,7 @@ MoveGroup
 *
 graph
 .
-numBlocks
+numVirtualRegisters
 (
 )
 )
