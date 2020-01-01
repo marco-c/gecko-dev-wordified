@@ -3782,9 +3782,9 @@ guid
 ;
 record
 .
-payload
+deleted
 =
-null
+true
 ;
 this
 .
