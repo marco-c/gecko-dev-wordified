@@ -1088,8 +1088,9 @@ status
 nsresult
 BeginDocument
 (
-PRUnichar
-*
+const
+nsAString
+&
 aTitle
 PRUnichar
 *

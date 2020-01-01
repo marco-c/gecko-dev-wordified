@@ -322,8 +322,9 @@ nsDeviceContextSpecAndroid
 :
 BeginDocument
 (
-PRUnichar
-*
+const
+nsAString
+&
 aTitle
 PRUnichar
 *

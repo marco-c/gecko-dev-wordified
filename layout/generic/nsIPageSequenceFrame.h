@@ -258,11 +258,13 @@ aPresContext
 nsIPrintSettings
 *
 aPrintOptions
-PRUnichar
-*
+const
+nsAString
+&
 aDocTitle
-PRUnichar
-*
+const
+nsAString
+&
 aDocURL
 )
 =
