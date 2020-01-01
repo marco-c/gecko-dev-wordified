@@ -622,6 +622,13 @@ for
 this
 declaration
 .
+aProperty
+must
+not
+be
+a
+shorthand
+.
 *
 /
 nsresult
