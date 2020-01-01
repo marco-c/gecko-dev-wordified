@@ -171,6 +171,7 @@ new
 MediaPluginReader
 (
 this
+mType
 )
 )
 ;
