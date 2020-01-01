@@ -1718,7 +1718,7 @@ mOwnSafeJSContext
 aSafeJSContext
 )
 {
-JS_DestroyContext
+JS_DestroyContextNoGC
 (
 mOwnSafeJSContext
 )
