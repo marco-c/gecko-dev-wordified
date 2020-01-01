@@ -1529,7 +1529,6 @@ event
 shiftKey
 &
 &
-!
 event
 .
 altKey
@@ -1544,6 +1543,8 @@ charCode
 /
 /
 ctrl
++
+alt
 +
 space
 #

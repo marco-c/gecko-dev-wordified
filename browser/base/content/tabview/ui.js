@@ -4385,7 +4385,6 @@ event
 shiftKey
 &
 &
-!
 event
 .
 altKey
