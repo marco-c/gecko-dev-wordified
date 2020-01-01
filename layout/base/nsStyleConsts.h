@@ -2168,7 +2168,7 @@ NS_STYLE_CURSOR_NONE
 /
 /
 See
-nsStyleDisplay
+nsStyleVisibility
 #
 define
 NS_STYLE_DIRECTION_LTR
@@ -3062,7 +3062,7 @@ NS_STYLE_MARGIN_SIZE_AUTO
 /
 /
 See
-nsStyleDisplay
+nsStyleVisibility
 #
 define
 NS_STYLE_POINTER_EVENTS_NONE
@@ -3498,7 +3498,7 @@ NS_STYLE_VERTICAL_ALIGN_MIDDLE_WITH_BASELINE
 /
 /
 See
-nsStyleDisplay
+nsStyleVisibility
 #
 define
 NS_STYLE_VISIBILITY_HIDDEN
