@@ -1014,7 +1014,7 @@ kLookAndFeelCID
 NS_LOOKANDFEEL_CID
 )
 ;
-nsIFocusManager
+nsFocusManager
 *
 nsFocusManager
 :
