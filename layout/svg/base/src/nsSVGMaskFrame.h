@@ -473,8 +473,6 @@ InitSVG
 (
 )
 ;
-public
-:
 nsSVGMaskFrame
 (
 nsStyleContext
@@ -488,6 +486,8 @@ aContext
 )
 {
 }
+public
+:
 /
 /
 nsSVGMaskFrame
@@ -572,16 +572,6 @@ aResult
 endif
 private
 :
-PRUint16
-GetMaskUnits
-(
-)
-;
-PRUint16
-GetMaskContentUnits
-(
-)
-;
 nsISVGChildFrame
 *
 mMaskParent
@@ -608,9 +598,9 @@ GetCanvasTM
 ;
 }
 ;
-nsSVGMaskFrame
+nsIContent
 *
-NS_GetSVGMaskFrame
+NS_GetSVGMaskElement
 (
 nsIURI
 *

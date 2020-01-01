@@ -774,9 +774,9 @@ mInUse
 ;
 }
 ;
-nsSVGClipPathFrame
+nsIContent
 *
-NS_GetSVGClipPathFrame
+NS_GetSVGClipPathElement
 (
 nsIURI
 *
