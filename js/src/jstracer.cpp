@@ -83397,6 +83397,17 @@ lval
 v_ins
 )
 ;
+if
+(
+call
+)
+set
+(
+&
+idx
+obj_ins
+)
+;
 return
 ARECORD_CONTINUE
 ;
