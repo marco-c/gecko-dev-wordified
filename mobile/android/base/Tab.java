@@ -591,13 +591,9 @@ Layer
 ;
 mState
 =
-"
-about
-:
-home
-"
+GeckoApp
 .
-equals
+shouldShowProgress
 (
 url
 )
