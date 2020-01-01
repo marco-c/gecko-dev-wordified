@@ -17473,9 +17473,8 @@ endif
 JS_FS_END
 }
 ;
-static
 JSBool
-Array
+js_Array
 (
 JSContext
 *
@@ -17729,7 +17728,7 @@ obj
 NULL
 &
 js_ArrayClass
-Array
+js_Array
 1
 array_props
 array_methods
