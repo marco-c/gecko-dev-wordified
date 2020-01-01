@@ -2437,7 +2437,7 @@ parameter
 .
 *
 /
-nsresult
+void
 DoSetChecked
 (
 bool
@@ -2533,7 +2533,7 @@ bool
 aNotify
 )
 ;
-nsresult
+void
 RadioSetChecked
 (
 bool
