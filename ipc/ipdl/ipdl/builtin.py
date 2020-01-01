@@ -474,6 +474,18 @@ uintptr_t
 '
     
 #
+stddef
+types
+    
+'
+size_t
+'
+    
+'
+ssize_t
+'
+    
+#
 NSPR
 types
     
@@ -548,6 +560,16 @@ nsString
 '
 nsCString
 '
+    
+'
+mozilla
+:
+:
+ipc
+:
+:
+Shmem
+'
 )
 Includes
 =
@@ -583,6 +605,12 @@ h
 IPC
 /
 IPCMessageUtils
+.
+h
+'
+    
+'
+nsAutoPtr
 .
 h
 '
