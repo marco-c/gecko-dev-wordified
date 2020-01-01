@@ -53,13 +53,10 @@ MPL
 0
 /
 .
-import
-time
 from
 marionette
 import
 Marionette
-HTMLElement
 #
 #
 Test

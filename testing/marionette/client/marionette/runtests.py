@@ -58,10 +58,6 @@ datetime
 import
 datetime
 import
-imp
-import
-inspect
-import
 logging
 from
 optparse
@@ -80,8 +76,6 @@ time
 import
 traceback
 import
-platform
-import
 moznetwork
 import
 xml
@@ -91,10 +85,6 @@ dom
 minidom
 as
 dom
-from
-functools
-import
-wraps
 from
 manifestparser
 import

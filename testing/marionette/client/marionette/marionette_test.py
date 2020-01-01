@@ -82,7 +82,6 @@ import
 from
 marionette
 import
-HTMLElement
 Marionette
 class
 SkipTest

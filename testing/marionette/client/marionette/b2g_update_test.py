@@ -66,15 +66,9 @@ re
 import
 subprocess
 import
-sys
-import
-tempfile
-import
 time
 import
 types
-import
-unittest
 import
 weakref
 from
@@ -88,7 +82,6 @@ MarionetteClient
 from
 errors
 import
-MarionetteException
 InvalidResponseException
 from
 marionette
@@ -103,8 +96,6 @@ runtests
 import
 MarionetteTestRunner
 cli
-parse_options
-startTestRunner
 class
 B2GUpdateMarionetteClient
 (
@@ -2796,14 +2787,6 @@ self
 flash_script
 )
 :
-        
-update_tools
-=
-self
-.
-runner
-.
-update_tools
         
 flash_build
 =

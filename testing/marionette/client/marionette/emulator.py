@@ -84,8 +84,6 @@ import
 socket
 import
 subprocess
-import
-sys
 from
 telnetlib
 import
@@ -3898,9 +3896,6 @@ port
 "
 "
         
-import
-socket
-        
 s
 =
 socket
@@ -3943,8 +3938,6 @@ close
 (
 )
         
-output
-=
 self
 .
 _run_adb
@@ -3953,7 +3946,7 @@ _run_adb
 '
 forward
 '
-                                
+                       
 '
 tcp
 :
@@ -3962,7 +3955,7 @@ d
 '
 %
 local_port
-                                
+                       
 '
 tcp
 :

@@ -1084,7 +1084,7 @@ element
 .
 id
         
-time
+elapsed
 =
 0
         
@@ -1152,14 +1152,12 @@ y1
 )
         
 while
-(
-time
+elapsed
 <
 duration
-)
 :
             
-time
+elapsed
 +
 =
 time_increment
