@@ -6577,6 +6577,9 @@ executionMode
 )
 )
 ;
+if
+(
+!
 enterCompiler
 .
 init
@@ -6585,6 +6588,9 @@ script
 false
 0
 )
+)
+return
+false
 ;
 AutoTempAllocatorRooter
 root
