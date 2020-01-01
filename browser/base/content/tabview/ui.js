@@ -1017,11 +1017,12 @@ function
 tab
 )
 {
-tab
+gBrowser
 .
-hidden
-=
-false
+showTab
+(
+tab
+)
 ;
 }
 )

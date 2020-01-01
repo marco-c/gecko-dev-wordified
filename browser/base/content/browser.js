@@ -46837,7 +46837,7 @@ tabContainer
 addEventListener
 (
 "
-TabSelect
+TabShow
 "
 this
 true
@@ -46850,7 +46850,7 @@ tabContainer
 addEventListener
 (
 "
-TabMove
+TabHide
 "
 this
 true
