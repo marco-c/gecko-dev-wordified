@@ -156,9 +156,6 @@ nsISMILAnimationElement
 class
 nsSMILValue
 ;
-class
-nsSVGOrientType
-;
 namespace
 mozilla
 {
@@ -210,6 +207,9 @@ SVG_ANGLETYPE_GRAD
 namespace
 dom
 {
+class
+nsSVGOrientType
+;
 class
 SVGAngle
 ;
@@ -638,6 +638,12 @@ public
 :
 SMILOrient
 (
+mozilla
+:
+:
+dom
+:
+:
 nsSVGOrientType
 *
 aOrientType
@@ -698,6 +704,12 @@ die
 during
 that
 .
+mozilla
+:
+:
+dom
+:
+:
 nsSVGOrientType
 *
 mOrientType
