@@ -977,6 +977,7 @@ nsStyleSet
 :
 :
 eDocSheet
+nullptr
 )
 ;
 /
