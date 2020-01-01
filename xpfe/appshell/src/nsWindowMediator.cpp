@@ -3222,6 +3222,7 @@ if
 (
 info
 )
+{
 *
 _retval
 =
@@ -3230,6 +3231,7 @@ info
 >
 mZLevel
 ;
+}
 else
 {
 NS_WARNING
