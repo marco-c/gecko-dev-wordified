@@ -293,7 +293,7 @@ Accumulate
 Telemetry
 :
 :
-SPDY_VERSION
+SPDY_VERSION2
 version
 )
 ;
