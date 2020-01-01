@@ -9024,6 +9024,14 @@ computedHeightLeftOver
 0
 &
 &
+NS_UNCONSTRAINEDSIZE
+!
+=
+aReflowState
+.
+availableHeight
+&
+&
 aMetrics
 .
 height
