@@ -355,6 +355,10 @@ define
 STATFS
 statvfs64
 #
+define
+F_BSIZE
+f_frsize
+#
 elif
 defined
 (
@@ -364,6 +368,10 @@ HAVE_STATVFS
 define
 STATFS
 statvfs
+#
+define
+F_BSIZE
+f_frsize
 #
 elif
 defined
@@ -375,6 +383,10 @@ define
 STATFS
 statfs64
 #
+define
+F_BSIZE
+f_bsize
+#
 elif
 defined
 (
@@ -384,6 +396,10 @@ HAVE_STATFS
 define
 STATFS
 statfs
+#
+define
+F_BSIZE
+f_bsize
 #
 endif
 #
