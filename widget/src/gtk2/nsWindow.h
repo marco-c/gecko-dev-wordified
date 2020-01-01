@@ -2009,9 +2009,6 @@ ApplyTransparencyBitmap
 (
 )
 ;
-#
-ifdef
-MOZ_XUL
 NS_IMETHOD
 SetWindowTranslucency
 (
@@ -2053,8 +2050,6 @@ PRUint8
 aAlphas
 )
 ;
-#
-endif
 gfxASurface
 *
 GetThebesSurface
