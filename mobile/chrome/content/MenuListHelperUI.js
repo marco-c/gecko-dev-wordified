@@ -348,7 +348,7 @@ setAttribute
 class
 "
 "
-menulist
+option
 -
 command
 prompt
