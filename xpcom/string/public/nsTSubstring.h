@@ -4200,7 +4200,7 @@ NS_WARN_UNUSED_RESULT
 {
 cutLength
 =
-NS_MIN
+XPCOM_MIN
 (
 cutLength
 mLength

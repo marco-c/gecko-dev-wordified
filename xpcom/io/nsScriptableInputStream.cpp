@@ -279,12 +279,12 @@ overflow
 uint32_t
 count
 =
-NS_MIN
+XPCOM_MIN
 (
 (
 uint32_t
 )
-NS_MIN
+XPCOM_MIN
 <
 uint64_t
 >

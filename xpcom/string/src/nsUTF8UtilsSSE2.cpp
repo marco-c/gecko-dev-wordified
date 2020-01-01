@@ -123,7 +123,7 @@ i
 uint32_t
 alignLen
 =
-NS_MIN
+XPCOM_MIN
 <
 uint32_t
 >
@@ -586,7 +586,7 @@ i
 uint32_t
 alignLen
 =
-NS_MIN
+XPCOM_MIN
 (
 aSourceLength
 uint32_t

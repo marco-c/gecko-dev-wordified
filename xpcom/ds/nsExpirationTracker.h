@@ -1557,7 +1557,7 @@ the
 array
 index
 =
-NS_MIN
+XPCOM_MIN
 (
 index
 generation

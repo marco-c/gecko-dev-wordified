@@ -6022,7 +6022,7 @@ maxCount
 =
 int32_t
 (
-NS_MIN
+XPCOM_MIN
 (
 mLength
 strLen
@@ -6197,7 +6197,7 @@ maxCount
 =
 int32_t
 (
-NS_MIN
+XPCOM_MIN
 (
 mLength
 strLen

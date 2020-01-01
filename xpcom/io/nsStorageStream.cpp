@@ -1135,7 +1135,7 @@ mSegmentEnd
 }
 count
 =
-NS_MIN
+XPCOM_MIN
 (
 availableInSegment
 remaining
@@ -2290,7 +2290,7 @@ mReadCursor
 ;
 mSegmentEnd
 =
-NS_MIN
+XPCOM_MIN
 (
 mSegmentSize
 available
@@ -2319,7 +2319,7 @@ mSegmentNum
 ;
 count
 =
-NS_MIN
+XPCOM_MIN
 (
 availableInSegment
 remainingCapacity
@@ -2678,7 +2678,7 @@ mSegmentEnd
 =
 mReadCursor
 +
-NS_MIN
+XPCOM_MIN
 (
 mSegmentSize
 -

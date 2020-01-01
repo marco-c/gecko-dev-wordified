@@ -818,7 +818,7 @@ y
 )
 {
 return
-NS_MIN
+XPCOM_MIN
 (
 x
 y
@@ -836,7 +836,7 @@ y
 )
 {
 return
-NS_MAX
+XPCOM_MAX
 (
 x
 y

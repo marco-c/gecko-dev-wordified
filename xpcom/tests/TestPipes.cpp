@@ -1554,7 +1554,7 @@ RAND_MAX
 ;
 len
 =
-NS_MAX
+XPCOM_MAX
 (
 1
 len
@@ -2233,7 +2233,7 @@ RAND_MAX
 ;
 len
 =
-NS_MAX
+XPCOM_MAX
 (
 1
 len

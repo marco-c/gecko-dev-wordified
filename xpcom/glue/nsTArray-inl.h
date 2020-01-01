@@ -2783,7 +2783,7 @@ buffer
 size_type
 smallerLength
 =
-NS_MIN
+XPCOM_MIN
 (
 Length
 (
@@ -2798,7 +2798,7 @@ Length
 size_type
 largerLength
 =
-NS_MAX
+XPCOM_MAX
 (
 Length
 (

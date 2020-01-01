@@ -3127,7 +3127,7 @@ aSourceLength
 uint32_t
 len
 =
-NS_MIN
+XPCOM_MIN
 (
 uint32_t
 (
@@ -3518,7 +3518,7 @@ aSourceLength
 uint32_t
 len
 =
-NS_MIN
+XPCOM_MIN
 (
 uint32_t
 (
