@@ -1525,6 +1525,11 @@ JSObject
 target
 )
 ;
+~
+ForceFrame
+(
+)
+;
 bool
 enter
 (
