@@ -238,9 +238,9 @@ mozilla
 .
 org
 /
-dom
-/
-storagemanager
+observer
+-
+service
 ;
 1
 "
@@ -250,10 +250,10 @@ getService
 (
 Ci
 .
-nsIObserver
+nsIObserverService
 )
 .
-observe
+notifyObservers
 (
 null
 "

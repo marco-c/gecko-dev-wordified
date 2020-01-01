@@ -4307,7 +4307,9 @@ org
 /
 dom
 /
-storagemanager
+localStorage
+-
+manager
 ;
 1
 "
@@ -4323,7 +4325,7 @@ nsIDOMStorageManager
 return
 dsm
 .
-getLocalStorageForPrincipal
+createStorage
 (
 principal
 "
