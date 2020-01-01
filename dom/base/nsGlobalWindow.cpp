@@ -3297,7 +3297,7 @@ NS_IMETHODIMP
 nsDummyJavaPluginOwner
 :
 :
-SetWindow
+CallSetWindow
 (
 )
 {
