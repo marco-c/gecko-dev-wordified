@@ -2070,12 +2070,9 @@ i
 JSONObject
 suggestion
 =
-(
-JSONObject
-)
 suggestions
 .
-get
+getJSONObject
 (
 i
 )
