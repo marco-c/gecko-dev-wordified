@@ -614,7 +614,7 @@ does
 mPtr
 =
 (
-uint32_t
+T
 *
 )
 (
