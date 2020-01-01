@@ -3792,12 +3792,6 @@ js_Interpret
 JSContext
 *
 cx
-jsbytecode
-*
-pc
-jsval
-*
-result
 )
 ;
 #
