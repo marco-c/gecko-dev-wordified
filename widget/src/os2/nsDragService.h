@@ -699,6 +699,7 @@ aTargetName
 HWND
 mDragWnd
 ;
+const
 char
 *
 mMimeType
