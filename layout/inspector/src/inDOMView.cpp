@@ -3510,6 +3510,15 @@ SHOW_ATTRIBUTE
 return
 ;
 }
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 /
 /
 get

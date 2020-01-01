@@ -3440,6 +3440,15 @@ aAttribute
 return
 ;
 }
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 /
 /
 Just

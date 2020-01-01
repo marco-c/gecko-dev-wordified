@@ -9425,6 +9425,15 @@ PRInt32
 aModType
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 /
 /
 Handle

@@ -1855,6 +1855,15 @@ PRInt32
 aModType
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 aNameSpaceID
