@@ -3806,6 +3806,10 @@ JSObjectRefcounts
 *
 mObjRefcounts
 ;
+XPCCallContext
+*
+mCycleCollectionContext
+;
 #
 ifdef
 XPC_TOOLS_SUPPORT
