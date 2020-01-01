@@ -3195,6 +3195,15 @@ a
 Definition
 *
 /
+ParseNode
+(
+const
+ParseNode
+&
+other
+)
+MOZ_DELETE
+;
 void
 operator
 =

@@ -7466,11 +7466,15 @@ JSBool
 strict
 )
 {
+JS_ASSERT
+(
 id
+=
 =
 js_CheckForStringIndex
 (
 id
+)
 )
 ;
 /
@@ -7547,9 +7551,12 @@ proxy_DeleteGeneric
 (
 cx
 obj
+js_CheckForStringIndex
+(
 ATOM_TO_JSID
 (
 name
+)
 )
 rval
 strict
@@ -8159,7 +8166,6 @@ proxy_SetGenericAttributes
 proxy_SetPropertyAttributes
 proxy_SetElementAttributes
 proxy_SetSpecialAttributes
-proxy_DeleteGeneric
 proxy_DeleteProperty
 proxy_DeleteElement
 proxy_DeleteSpecial
@@ -8335,7 +8341,6 @@ proxy_SetGenericAttributes
 proxy_SetPropertyAttributes
 proxy_SetElementAttributes
 proxy_SetSpecialAttributes
-proxy_DeleteGeneric
 proxy_DeleteProperty
 proxy_DeleteElement
 proxy_DeleteSpecial
@@ -8597,7 +8602,6 @@ proxy_SetGenericAttributes
 proxy_SetPropertyAttributes
 proxy_SetElementAttributes
 proxy_SetSpecialAttributes
-proxy_DeleteGeneric
 proxy_DeleteProperty
 proxy_DeleteElement
 proxy_DeleteSpecial

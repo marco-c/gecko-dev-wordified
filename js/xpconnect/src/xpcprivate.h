@@ -8677,13 +8677,6 @@ setSpecialAttributes
 nsnull
 /
 *
-deleteGeneric
-*
-/
-\
-nsnull
-/
-*
 deleteProperty
 *
 /
@@ -8896,13 +8889,6 @@ nsnull
 /
 *
 setSpecialAttributes
-*
-/
-\
-nsnull
-/
-*
-deleteGeneric
 *
 /
 \
