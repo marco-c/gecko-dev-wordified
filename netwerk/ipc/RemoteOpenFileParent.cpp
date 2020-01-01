@@ -160,6 +160,13 @@ fcntl
 h
 >
 #
+include
+<
+unistd
+.
+h
+>
+#
 endif
 namespace
 mozilla
