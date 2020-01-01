@@ -770,6 +770,7 @@ public
 void
 AddTrace
 (
+const
 char
 *
 aTrace
@@ -778,6 +779,7 @@ aTrace
 void
 DelTrace
 (
+const
 char
 *
 aTrace
@@ -786,9 +788,11 @@ aTrace
 void
 PrintError
 (
+const
 char
 *
 aCall
+const
 int
 aError
 )
@@ -796,9 +800,11 @@ aError
 void
 PrintError
 (
+const
 char
 *
 aCall
+const
 char
 *
 aMessage
@@ -1488,6 +1494,7 @@ nsTestLog
 :
 AddTrace
 (
+const
 char
 *
 aTrace
@@ -1514,6 +1521,7 @@ nsTestLog
 :
 DelTrace
 (
+const
 char
 *
 aTrace
@@ -1547,9 +1555,11 @@ nsTestLog
 :
 PrintError
 (
+const
 char
 *
 aCall
+const
 int
 aError
 )
@@ -1595,9 +1605,11 @@ nsTestLog
 :
 PrintError
 (
+const
 char
 *
 aCall
+const
 char
 *
 aMessage
@@ -1730,6 +1742,7 @@ TestEncoders
 (
 )
 {
+const
 char
 *
 trace
@@ -1859,6 +1872,7 @@ TestDecoders
 (
 )
 {
+const
 char
 *
 trace
@@ -1903,6 +1917,7 @@ TestCharsetManager
 (
 )
 {
+const
 char
 *
 trace
@@ -1986,6 +2001,7 @@ DisplayDetectors
 (
 )
 {
+const
 char
 *
 trace
@@ -2278,6 +2294,7 @@ DisplayCharsets
 (
 )
 {
+const
 char
 *
 trace
@@ -3211,6 +3228,7 @@ TestTempBug
 (
 )
 {
+const
 char
 *
 trace
@@ -3352,6 +3370,7 @@ nsAFlatCString
 aCharset
 )
 {
+const
 char
 *
 trace
@@ -3735,6 +3754,7 @@ char
 aArgV
 )
 {
+const
 char
 *
 trace

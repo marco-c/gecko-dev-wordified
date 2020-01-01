@@ -545,6 +545,7 @@ CacheLogPrintPath
 (
 PRLogModuleLevel
 level
+const
 char
 *
 format

@@ -2171,6 +2171,7 @@ mThread
 nsnull
 ;
 }
+const
 char
 *
 topic

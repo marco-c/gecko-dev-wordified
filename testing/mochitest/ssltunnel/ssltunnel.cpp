@@ -4775,6 +4775,7 @@ char
 argv
 )
 {
+const
 char
 *
 configFilePath

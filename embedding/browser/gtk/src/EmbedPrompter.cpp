@@ -487,6 +487,7 @@ DialogDescription
 int
 flags
 ;
+const
 gchar
 *
 icon

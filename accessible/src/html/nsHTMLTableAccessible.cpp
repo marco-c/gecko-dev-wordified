@@ -6470,6 +6470,7 @@ nsHTMLTableAccessible
 :
 HasDescendant
 (
+const
 char
 *
 aTagName
