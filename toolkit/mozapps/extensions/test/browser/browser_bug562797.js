@@ -3814,6 +3814,8 @@ getElementById
 detail
 -
 uninstall
+-
+btn
 "
 )
 {

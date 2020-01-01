@@ -564,9 +564,9 @@ sorters
 anonid
 "
 "
-btn
--
 date
+-
+btn
 "
 )
 ;
@@ -682,9 +682,9 @@ sorters
 anonid
 "
 "
-btn
--
 name
+-
+btn
 "
 )
 ;

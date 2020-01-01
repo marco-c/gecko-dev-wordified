@@ -4288,6 +4288,8 @@ getElementById
 updates
 -
 manualUpdatesFound
+-
+btn
 "
 )
 .
@@ -4397,6 +4399,8 @@ getElementById
 updates
 -
 manualUpdatesFound
+-
+btn
 "
 )
 .
@@ -4461,6 +4465,8 @@ getElementById
 updates
 -
 restart
+-
+btn
 "
 )
 .
@@ -12230,6 +12236,8 @@ getElementById
 detail
 -
 findUpdates
+-
+btn
 "
 )
 .
@@ -12256,6 +12264,8 @@ getElementById
 detail
 -
 findUpdates
+-
+btn
 "
 )
 .
@@ -12272,6 +12282,8 @@ getElementById
 detail
 -
 prefs
+-
+btn
 "
 )
 .
@@ -13526,6 +13538,8 @@ getElementById
 detail
 -
 findUpdates
+-
+btn
 "
 )
 .
@@ -13701,6 +13715,8 @@ getElementById
 update
 -
 selected
+-
+btn
 "
 )
 ;
