@@ -2868,7 +2868,9 @@ aState
 =
 null
 ?
-convertRILCallState
+this
+.
+_convertRILCallState
 (
 aState
 )
