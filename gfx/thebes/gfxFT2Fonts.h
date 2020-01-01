@@ -191,12 +191,6 @@ gfxFT2Font
 (
 )
 ;
-cairo_font_face_t
-*
-CairoFontFace
-(
-)
-;
 FT2FontEntry
 *
 GetFontEntry
