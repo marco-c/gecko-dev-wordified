@@ -653,6 +653,10 @@ pc
 ;
 }
 ;
+#
+if
+defined
+JS_MONOIC
 struct
 MICGenInfo
 {
@@ -709,6 +713,12 @@ dataWrite
 ;
 }
 ;
+#
+endif
+#
+if
+defined
+JS_POLYIC
 struct
 PICGenInfo
 {
@@ -781,6 +791,8 @@ vr
 ;
 }
 ;
+#
+endif
 struct
 Defs
 {
@@ -996,6 +1008,10 @@ BranchPatch
 >
 branchPatches
 ;
+#
+if
+defined
+JS_MONOIC
 js
 :
 :
@@ -1006,6 +1022,12 @@ MICGenInfo
 >
 mics
 ;
+#
+endif
+#
+if
+defined
+JS_POLYIC
 js
 :
 :
@@ -1016,6 +1038,8 @@ PICGenInfo
 >
 pics
 ;
+#
+endif
 StubCompiler
 stubcc
 ;

@@ -443,6 +443,10 @@ jsjaeger_poly_ic_h__
 &
 defined
 JS_METHODJIT
+&
+&
+defined
+JS_POLYIC
 #
 define
 jsjaeger_poly_ic_h__
@@ -505,10 +509,6 @@ RematInfo
 .
 h
 "
-#
-define
-ENABLE_PIC
-1
 namespace
 js
 {

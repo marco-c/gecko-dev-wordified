@@ -537,7 +537,8 @@ mjit
 ;
 #
 if
-ENABLE_PIC
+defined
+JS_POLYIC
 /
 *
 Rough
@@ -11197,3 +11198,8 @@ reset
 }
 #
 endif
+/
+*
+JS_POLYIC
+*
+/

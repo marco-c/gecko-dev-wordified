@@ -510,6 +510,10 @@ mjit
 :
 ic
 ;
+#
+if
+defined
+JS_MONOIC
 static
 void
 PatchGetFallback
@@ -1418,3 +1422,10 @@ atom
 )
 ;
 }
+#
+endif
+/
+*
+JS_MONOIC
+*
+/
