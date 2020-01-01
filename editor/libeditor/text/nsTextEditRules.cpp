@@ -2656,6 +2656,10 @@ nsIEditor
 :
 :
 eNone
+nsIEditor
+:
+:
+eStrip
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4054,6 +4058,10 @@ nsIEditor
 :
 :
 eNone
+nsIEditor
+:
+:
+eStrip
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5334,6 +5342,10 @@ mEditor
 DeleteSelectionImpl
 (
 aCollapsedAction
+nsIEditor
+:
+:
+eStrip
 )
 ;
 NS_ENSURE_SUCCESS

@@ -5174,6 +5174,10 @@ nsIEditor
 :
 :
 eNone
+nsIEditor
+:
+:
+eStrip
 )
 ;
 nsCOMPtr

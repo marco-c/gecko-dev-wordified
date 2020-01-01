@@ -576,6 +576,11 @@ nsIEditor
 :
 EDirection
 aAction
+nsIEditor
+:
+:
+EStripWrappers
+aStripWrappers
 )
 ;
 NS_IMETHOD

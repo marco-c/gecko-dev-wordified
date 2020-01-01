@@ -1040,6 +1040,11 @@ nsIEditor
 :
 EDirection
 aAction
+nsIEditor
+:
+:
+EStripWrappers
+aStripWrappers
 )
 {
 nsAutoHTMLEditorLogLock
@@ -1100,6 +1105,7 @@ nsHTMLEditor
 DeleteSelection
 (
 aAction
+aStripWrappers
 )
 ;
 }

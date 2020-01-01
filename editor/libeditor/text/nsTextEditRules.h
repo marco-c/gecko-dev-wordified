@@ -1815,6 +1815,13 @@ nsIEditor
 :
 eNext
 )
+stripWrappers
+(
+nsIEditor
+:
+:
+eStrip
+)
 bOrdered
 (
 false
@@ -1876,6 +1883,12 @@ nsIEditor
 :
 EDirection
 collapsedAction
+;
+nsIEditor
+:
+:
+EStripWrappers
+stripWrappers
 ;
 /
 /

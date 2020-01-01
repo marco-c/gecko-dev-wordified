@@ -9338,6 +9338,10 @@ nsIEditor
 :
 :
 eNone
+nsIEditor
+:
+:
+eStrip
 )
 ;
 }

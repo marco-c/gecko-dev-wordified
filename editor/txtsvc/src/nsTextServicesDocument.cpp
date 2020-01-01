@@ -6132,6 +6132,10 @@ nsIEditor
 :
 :
 ePrevious
+nsIEditor
+:
+:
+eStrip
 )
 ;
 if

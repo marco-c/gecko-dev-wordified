@@ -969,6 +969,10 @@ nsIEditor
 :
 :
 eNext
+nsIEditor
+:
+:
+eStrip
 )
 ;
 TEST_RESULT

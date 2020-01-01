@@ -806,6 +806,8 @@ DeleteSelection
 (
 EDirection
 aAction
+EStripWrappers
+aStripWrappers
 )
 ;
 NS_IMETHOD
