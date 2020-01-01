@@ -4268,8 +4268,6 @@ searchResult
 results
 .
 length
-(
-)
 >
 0
 ?
