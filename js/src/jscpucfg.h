@@ -624,12 +624,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 #
 error
 "
@@ -690,7 +684,6 @@ Must
 define
 one
 of
-XP_BEOS
 XP_OS2
 XP_WIN
 or

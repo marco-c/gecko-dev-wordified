@@ -533,8 +533,6 @@ h
 /
 XP_MACOSX
 or
-XP_BEOS
-or
 ANDROID
 /
 /
@@ -617,12 +615,6 @@ ANDROID
 -
 #
 if
-defined
-(
-XP_BEOS
-)
-|
-|
 defined
 (
 XP_MACOSX

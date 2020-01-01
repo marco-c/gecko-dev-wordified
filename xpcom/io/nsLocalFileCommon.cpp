@@ -1252,12 +1252,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 static
 const
 PRUnichar

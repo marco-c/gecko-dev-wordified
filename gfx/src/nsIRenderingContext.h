@@ -2920,12 +2920,6 @@ defined
 (
 MOZ_X11
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 /
 *
 *

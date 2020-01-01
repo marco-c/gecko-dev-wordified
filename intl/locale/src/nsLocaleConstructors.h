@@ -508,7 +508,6 @@ USE_MAC_LOCALE
 endif
 #
 if
-(
 defined
 (
 XP_UNIX
@@ -519,13 +518,6 @@ XP_UNIX
 defined
 (
 XP_MACOSX
-)
-)
-|
-|
-defined
-(
-XP_BEOS
 )
 #
 define

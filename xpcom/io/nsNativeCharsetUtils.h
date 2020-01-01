@@ -818,8 +818,6 @@ On
 Mac
 OS
 X
-and
-BeOS
 it
 '
 s
@@ -890,12 +888,6 @@ if
 defined
 (
 XP_MACOSX
-)
-|
-|
-defined
-(
-XP_BEOS
 )
 |
 |
