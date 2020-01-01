@@ -20880,9 +20880,6 @@ scope
 uint32
 slot
 ;
-jsval
-pval
-;
 int32
 sample
 ;
@@ -20942,9 +20939,7 @@ slot
 SPROP_INVALID_SLOT
 )
 {
-pval
-=
-LOCKED_OBJ_GET_SLOT
+OBJ_CHECK_SLOT
 (
 obj
 slot
@@ -21026,10 +21021,6 @@ sprop
 )
 return
 JS_TRUE
-;
-pval
-=
-JSVAL_VOID
 ;
 }
 sample
