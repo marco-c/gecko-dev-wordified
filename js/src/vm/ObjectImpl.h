@@ -3401,7 +3401,6 @@ template
 typename
 T
 >
-static
 inline
 const
 bool
@@ -3452,7 +3451,6 @@ template
 typename
 T
 >
-static
 inline
 const
 bool
