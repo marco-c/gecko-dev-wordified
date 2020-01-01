@@ -1161,7 +1161,7 @@ login
 .
 reason
 .
-no_synckey
+no_recoverykey
 "
 LOGIN_FAILED_NETWORK_ERROR
 :
@@ -1194,7 +1194,7 @@ login
 .
 reason
 .
-synckey
+recoverykey
 "
 LOGIN_FAILED_LOGIN_REJECTED
 :

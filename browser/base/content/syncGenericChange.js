@@ -833,7 +833,7 @@ _str
 "
 new
 .
-synckey
+recoverykey
 .
 label
 "
@@ -883,7 +883,7 @@ _str
 "
 new
 .
-synckey
+recoverykey
 .
 title
 "
@@ -900,7 +900,7 @@ _str
 "
 new
 .
-synckey2
+recoverykey
 .
 introText
 "
@@ -926,7 +926,7 @@ _str
 "
 new
 .
-synckey
+recoverykey
 .
 acceptButton
 "
@@ -1033,7 +1033,7 @@ _str
 "
 change
 .
-synckey2
+recoverykey
 .
 title
 "
@@ -1067,7 +1067,7 @@ _str
 "
 change
 .
-synckey2
+recoverykey
 .
 warningText
 "
@@ -1093,7 +1093,7 @@ _str
 "
 change
 .
-synckey
+recovery
 .
 acceptButton
 "
@@ -1312,7 +1312,7 @@ _str
 "
 change
 .
-password2
+password3
 .
 introText
 "
@@ -1717,7 +1717,7 @@ _updateStatus
 "
 change
 .
-synckey2
+recoverykey
 .
 success
 "
@@ -1766,7 +1766,7 @@ _updateStatus
 "
 change
 .
-synckey
+recoverykey
 .
 label
 "
@@ -1793,7 +1793,7 @@ _updateStatus
 "
 change
 .
-synckey2
+recoverykey
 .
 success
 "
@@ -1810,7 +1810,7 @@ _updateStatus
 "
 change
 .
-synckey2
+recoverykey
 .
 error
 "
