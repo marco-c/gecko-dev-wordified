@@ -404,6 +404,9 @@ BookmarksStore
 '
 HistoryStore
 '
+'
+CookieStore
+'
 ]
 ;
 const

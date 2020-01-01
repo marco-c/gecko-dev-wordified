@@ -401,6 +401,9 @@ BookmarksEngine
 '
 HistoryEngine
 '
+'
+CookieEngine
+'
 ]
 ;
 const
@@ -7195,7 +7198,7 @@ function
 CookieEngine
 (
 davCollection
-cryptoId
+pbeId
 )
 {
 this
@@ -7203,7 +7206,7 @@ this
 _init
 (
 davCollection
-cryptoId
+pbeId
 )
 ;
 }
