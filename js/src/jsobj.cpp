@@ -34243,7 +34243,7 @@ if
 fun
 -
 >
-isInterpreted
+hasScript
 (
 )
 )

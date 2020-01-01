@@ -1834,7 +1834,7 @@ fr
 )
 ;
 void
-branchIfFunctionIsNative
+branchIfFunctionHasNoScript
 (
 Register
 fun

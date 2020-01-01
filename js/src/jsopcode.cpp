@@ -6967,7 +6967,7 @@ fun
 fun
 -
 >
-isInterpreted
+hasScript
 (
 )
 )

@@ -9532,6 +9532,14 @@ SNAPSHOT_MAX_NARGS
 fun
 -
 >
+hasScript
+(
+)
+&
+&
+fun
+-
+>
 script
 (
 )

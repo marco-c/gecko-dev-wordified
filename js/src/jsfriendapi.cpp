@@ -2227,9 +2227,6 @@ id
 call
 nargs
 attrs
-NullPtr
-(
-)
 JSFunction
 :
 :

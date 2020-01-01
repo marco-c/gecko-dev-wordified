@@ -12120,9 +12120,6 @@ enclosingScriptsCompiledSuccessfully
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 /
 *
 *
@@ -12223,13 +12220,8 @@ if
 fun
 -
 >
-script
+hasScript
 (
-)
-.
-get
-(
-nogc
 )
 )
 return
