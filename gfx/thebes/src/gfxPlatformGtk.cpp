@@ -3160,6 +3160,16 @@ retProperty
 cmsHPROFILE
 profile
 =
+NULL
+;
+if
+(
+retLength
+>
+0
+)
+profile
+=
 cmsOpenProfileFromMem
 (
 retProperty
