@@ -31531,6 +31531,10 @@ range
 )
 )
 ;
+if
+(
+NS_FAILED
+(
 range
 -
 >
@@ -31538,6 +31542,10 @@ SelectNode
 (
 aNode
 )
+)
+)
+return
+nsnull
 ;
 RangePaintInfo
 *
