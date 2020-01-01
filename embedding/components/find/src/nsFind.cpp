@@ -2460,13 +2460,9 @@ nsITextControlFrame
 *
 tcFrame
 =
-nsnull
-;
-CallQueryInterface
+do_QueryFrame
 (
 frame
-&
-tcFrame
 )
 ;
 if

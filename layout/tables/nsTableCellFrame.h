@@ -610,10 +610,7 @@ nsIPercentHeightObserver
 {
 public
 :
-/
-/
-nsISupports
-NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_QUERYFRAME
 /
 /
 default

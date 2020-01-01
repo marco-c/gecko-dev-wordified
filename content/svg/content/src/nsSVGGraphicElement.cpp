@@ -928,12 +928,10 @@ NS_ERROR_FAILURE
 nsISVGChildFrame
 *
 svgframe
-;
-CallQueryInterface
+=
+do_QueryFrame
 (
 frame
-&
-svgframe
 )
 ;
 NS_ASSERTION

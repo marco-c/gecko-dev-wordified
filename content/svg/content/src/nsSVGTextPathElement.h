@@ -613,10 +613,8 @@ nsIAtom
 aName
 )
 ;
-already_AddRefed
-<
 nsISVGTextContentMetrics
->
+*
 GetTextContentMetrics
 (
 )
