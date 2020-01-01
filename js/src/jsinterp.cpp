@@ -16645,10 +16645,12 @@ NULL
 ;
 if
 (
+JS_TRACE_MONITOR
+(
 cx
--
->
-executingTrace
+)
+.
+onTrace
 )
 {
 tr
