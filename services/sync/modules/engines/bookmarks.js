@@ -5708,6 +5708,15 @@ BMT_onEndUpdateBatch
 )
 {
 }
+onBeforeItemRemoved
+:
+function
+BMT_onBeforeItemRemoved
+(
+itemId
+)
+{
+}
 onItemVisited
 :
 function
