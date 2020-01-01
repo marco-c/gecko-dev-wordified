@@ -105,6 +105,9 @@ dom
 class
 Element
 ;
+class
+HTMLCanvasElement
+;
 }
 /
 /
@@ -115,9 +118,6 @@ dom
 /
 namespace
 mozilla
-class
-nsHTMLCanvasElement
-;
 class
 imgIRequest
 ;
@@ -199,7 +199,10 @@ dom
 Element
 *
 aImage
-nsHTMLCanvasElement
+dom
+:
+:
+HTMLCanvasElement
 *
 aCanvas
 imgIRequest
@@ -286,7 +289,10 @@ dom
 Element
 *
 aImage
-nsHTMLCanvasElement
+dom
+:
+:
+HTMLCanvasElement
 *
 aCanvas
 gfxIntSize

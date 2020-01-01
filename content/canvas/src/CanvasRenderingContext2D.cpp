@@ -151,7 +151,11 @@ h
 #
 include
 "
-nsHTMLCanvasElement
+mozilla
+/
+dom
+/
+HTMLCanvasElement
 .
 h
 "
@@ -3351,7 +3355,7 @@ static
 void
 WarnAboutUnexpectedStyle
 (
-nsHTMLCanvasElement
+HTMLCanvasElement
 *
 canvasElement
 )
@@ -7083,7 +7087,7 @@ IsHTMLCanvasElement
 )
 )
 {
-nsHTMLCanvasElement
+HTMLCanvasElement
 *
 canvas
 =
@@ -16034,7 +16038,7 @@ IsHTMLCanvasElement
 )
 )
 {
-nsHTMLCanvasElement
+HTMLCanvasElement
 *
 canvas
 =
