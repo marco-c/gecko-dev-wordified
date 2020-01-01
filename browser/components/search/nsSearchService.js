@@ -13999,6 +13999,7 @@ xml
 "
 )
 ;
+var
 docElem
 =
 doc
@@ -14464,6 +14465,7 @@ this
 somehow
 fails
 .
+var
 doc
 =
 this
