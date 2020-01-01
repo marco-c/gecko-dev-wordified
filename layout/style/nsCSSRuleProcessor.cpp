@@ -11597,6 +11597,9 @@ the
 possibility
 that
 neither
+-
+moz
+-
 dir
 (
 rtl
@@ -11604,6 +11607,9 @@ rtl
 nor
 /
 /
+-
+moz
+-
 dir
 (
 ltr

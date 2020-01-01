@@ -20509,7 +20509,9 @@ locale
 -
 dir
 and
-:
+-
+moz
+-
 dir
 can
 only
