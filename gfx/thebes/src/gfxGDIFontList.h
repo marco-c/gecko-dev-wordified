@@ -1801,8 +1801,6 @@ nsAString
 aName
 gfxWindowsFontType
 aFontType
-PRBool
-aUseCleartype
 )
 ;
 virtual

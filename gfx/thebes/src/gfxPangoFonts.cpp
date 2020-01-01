@@ -2016,6 +2016,10 @@ pattern
 )
 ;
 }
+mIsLocalUserFont
+=
+PR_TRUE
+;
 }
 }
 ;

@@ -929,6 +929,10 @@ mIsUserFont
 =
 PR_TRUE
 ;
+mIsLocalUserFont
+=
+PR_TRUE
+;
 }
 /
 *
