@@ -2849,7 +2849,7 @@ JSOP_SETNAME
 pn
 -
 >
-noteLValue
+markAsAssigned
 (
 )
 ;
