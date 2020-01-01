@@ -316,6 +316,15 @@ see
 bug
 586550
 #
+include
+<
+linux
+/
+version
+.
+h
+>
+#
 if
 LINUX_VERSION_CODE
 <
