@@ -458,12 +458,6 @@ const
 kWildcardPboardType
 ;
 class
-nsILocalFile
-;
-class
-nsIDOMDragEvent
-;
-class
 nsDragService
 :
 public
