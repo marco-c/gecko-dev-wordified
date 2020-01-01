@@ -577,6 +577,13 @@ __i386__
 !
 defined
 (
+XP_MACOSX
+)
+&
+&
+!
+defined
+(
 XP_OS2
 )
 #
