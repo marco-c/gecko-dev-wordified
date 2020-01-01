@@ -451,13 +451,39 @@ BLOCK
 *
 *
 /
-#
-include
-"
+/
+*
+*
+*
+Note
+:
+This
+file
+is
+included
+by
 Variant
 .
 h
+.
+*
+/
+#
+ifndef
+mozilla_storage_Variant_h__
+#
+error
 "
+Do
+not
+include
+this
+file
+directly
+!
+"
+#
+endif
 namespace
 mozilla
 {
@@ -549,7 +575,18 @@ storage
 /
 /
 Variant_base
-NS_IMPL_THREADSAFE_ISUPPORTS1
+inline
+NS_IMPL_THREADSAFE_ADDREF
+(
+Variant_base
+)
+inline
+NS_IMPL_THREADSAFE_RELEASE
+(
+Variant_base
+)
+inline
+NS_IMPL_THREADSAFE_QUERY_INTERFACE1
 (
 Variant_base
 nsIVariant
@@ -639,6 +676,7 @@ nsIVariant
 /
 /
 nsIVariant
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -662,6 +700,7 @@ return
 NS_OK
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -676,6 +715,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -690,6 +730,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -704,6 +745,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -718,6 +760,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -732,6 +775,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -753,6 +797,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -767,6 +812,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -781,6 +827,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -795,6 +842,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -809,6 +857,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -823,6 +872,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -837,6 +887,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -851,6 +902,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -865,6 +917,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -879,6 +932,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -893,6 +947,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -907,6 +962,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -921,6 +977,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -936,6 +993,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -951,6 +1009,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -966,6 +1025,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -984,6 +1044,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -998,6 +1059,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
@@ -1015,6 +1077,7 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+inline
 NS_IMETHODIMP
 Variant_base
 :
