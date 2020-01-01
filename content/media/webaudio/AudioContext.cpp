@@ -306,7 +306,7 @@ aTriedToWrap
 )
 {
 return
-mozAudioContextBinding
+AudioContextBinding
 :
 :
 Wrap
