@@ -1373,7 +1373,7 @@ nsIContent
 aContent
 )
 ;
-float
+nsresult
 GetSubStringLength
 (
 nsIContent
@@ -1383,6 +1383,9 @@ uint32_t
 charnum
 uint32_t
 nchars
+float
+*
+aResult
 )
 ;
 int32_t
