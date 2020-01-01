@@ -1510,6 +1510,13 @@ nsCID
 aClassIID
 )
 ;
+void
+NotifyEffectiveVisibilityChanged
+(
+PRBool
+aEffectivelyVisible
+)
+;
 /
 /
 Update
@@ -1759,6 +1766,11 @@ CalcWidgetBounds
 (
 nsWindowType
 aType
+)
+;
+PRBool
+IsEffectivelyVisible
+(
 )
 ;
 protected
