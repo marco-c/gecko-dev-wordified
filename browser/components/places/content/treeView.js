@@ -2340,7 +2340,7 @@ for
 var
 i
 =
-startReplacement
+0
 ;
 i
 <
@@ -5208,6 +5208,7 @@ _collapseDuplicates
 val
 )
 return
+val
 ;
 /
 /
@@ -6263,14 +6264,15 @@ favicons
 .
 defaultFavicon
 ;
-if
-(
-icon
-)
 return
+icon
+?
 icon
 .
 spec
+:
+"
+"
 ;
 }
 getProgressMode
