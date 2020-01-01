@@ -28185,6 +28185,16 @@ getOperand
 )
 ;
 }
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
+;
+}
 }
 ;
 /
