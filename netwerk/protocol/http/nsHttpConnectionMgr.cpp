@@ -7439,7 +7439,7 @@ e
 .
 6
 )
-PRInt32
+PRUint32
 idx
 ;
 for
