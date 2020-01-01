@@ -1159,13 +1159,13 @@ aGroup
 )
 ;
 virtual
-nsresult
-GetContextForEventHandlers
-(
 nsIScriptContext
 *
+GetContextForEventHandlers
+(
+nsresult
 *
-aContext
+aRv
 )
 {
 return
@@ -1175,7 +1175,7 @@ nsContentUtils
 GetContextForEventHandlers
 (
 this
-aContext
+aRv
 )
 ;
 }

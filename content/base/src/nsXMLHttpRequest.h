@@ -1083,13 +1083,13 @@ aGroup
 )
 ;
 virtual
-nsresult
-GetContextForEventHandlers
-(
 nsIScriptContext
 *
+GetContextForEventHandlers
+(
+nsresult
 *
-aContext
+aRv
 )
 ;
 PRBool
