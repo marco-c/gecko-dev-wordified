@@ -1567,7 +1567,7 @@ Ci
 .
 nsIBrowserDOMWindow
 .
-OPEN_DEFAULT_WINDOW
+OPEN_DEFAULTWINDOW
 Ci
 .
 nsIBrowserDOMWindow
