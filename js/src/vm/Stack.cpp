@@ -2545,10 +2545,6 @@ Value
 *
 quota
 =
-Max
-(
-*
-limit
 (
 Value
 *
@@ -2556,15 +2552,6 @@ Value
 fp
 +
 STACK_QUOTA
-)
-;
-JS_ASSERT
-(
-quota
->
-=
-sp
-)
 ;
 uintN
 remain
