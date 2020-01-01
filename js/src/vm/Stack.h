@@ -3096,7 +3096,7 @@ Ion
 private
 :
 mutable
-uint32
+uint32_t
 flags_
 ;
 /
@@ -3460,7 +3460,7 @@ callee
 JSScript
 *
 script
-uint32
+uint32_t
 nactual
 StackFrame
 :
@@ -3525,7 +3525,7 @@ initJitFrameEarlyPrologue
 JSFunction
 *
 fun
-uint32
+uint32_t
 nactual
 )
 ;
@@ -7444,7 +7444,7 @@ int
 LOWERED_CALL_APPLY
 )
 ;
-uint32
+uint32_t
 mask
 =
 CONSTRUCTING

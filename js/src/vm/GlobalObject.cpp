@@ -2348,7 +2348,7 @@ throw
 .
 *
 /
-int32
+int32_t
 flags
 =
 getSlot

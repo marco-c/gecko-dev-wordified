@@ -3290,12 +3290,12 @@ small
 .
 *
 /
-int32
+int32_t
 size
 =
 static_cast
 <
-int32
+int32_t
 >
 (
 newCommit
@@ -4574,7 +4574,7 @@ StackFrame
 Flags
 *
 /
-uint32
+uint32_t
 flags
 =
 ToFrameFlags

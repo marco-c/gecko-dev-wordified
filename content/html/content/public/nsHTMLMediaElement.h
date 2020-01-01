@@ -847,6 +847,12 @@ aNullParent
 true
 )
 ;
+virtual
+void
+DoneCreatingElement
+(
+)
+;
 /
 *
 *

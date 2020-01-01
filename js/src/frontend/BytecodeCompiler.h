@@ -474,6 +474,9 @@ fun
 JSPrincipals
 *
 principals
+JSPrincipals
+*
+originPrincipals
 Bindings
 *
 bindings
@@ -509,7 +512,10 @@ callerFrame
 JSPrincipals
 *
 principals
-uint32
+JSPrincipals
+*
+originPrincipals
+uint32_t
 tcflags
 const
 jschar

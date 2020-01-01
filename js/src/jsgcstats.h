@@ -565,7 +565,7 @@ CGCT_END
 struct
 ConservativeGCStats
 {
-uint32
+uint32_t
 counter
 [
 gc
@@ -581,7 +581,7 @@ classification
 counters
 *
 /
-uint32
+uint32_t
 unaligned
 ;
 /

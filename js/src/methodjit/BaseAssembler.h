@@ -555,7 +555,7 @@ mjit
 /
 Represents
 an
-int32
+int32_t
 property
 name
 in
@@ -590,7 +590,7 @@ RegisterID
 MaybeRegisterID
 reg_
 ;
-int32
+int32_t
 index_
 ;
 Int32Key
@@ -628,7 +628,7 @@ static
 Int32Key
 FromConstant
 (
-int32
+int32_t
 index
 )
 {
@@ -645,7 +645,7 @@ return
 key
 ;
 }
-int32
+int32_t
 index
 (
 )
@@ -709,7 +709,7 @@ Address
 {
 FrameAddress
 (
-int32
+int32_t
 offset
 )
 :
@@ -764,17 +764,17 @@ val
 struct
 StackMarker
 {
-uint32
+uint32_t
 base
 ;
-uint32
+uint32_t
 bytes
 ;
 StackMarker
 (
-uint32
+uint32_t
 base
-uint32
+uint32_t
 bytes
 )
 :
@@ -902,7 +902,7 @@ references
 across
 calls
 .
-uint32
+uint32_t
 extraStackSpace
 ;
 /
@@ -947,7 +947,7 @@ alignment
 and
 parameters
 .
-uint32
+uint32_t
 stackAdjust
 ;
 /
@@ -1359,7 +1359,7 @@ JSObject
 obj
 RegisterID
 reg
-uint32
+uint32_t
 slot
 )
 {
@@ -1558,7 +1558,7 @@ may
 indicate
 either
 an
-int32
+int32_t
 or
 double
 into
@@ -1569,7 +1569,7 @@ to
 double
 in
 the
-int32
+int32_t
 case
 .
 *
@@ -1715,7 +1715,7 @@ which
 contains
 either
 an
-int32
+int32_t
 or
 double
 into
@@ -1726,7 +1726,7 @@ to
 double
 in
 the
-int32
+int32_t
 case
 .
 *
@@ -1884,7 +1884,7 @@ defined
 JS_CPU_X64
 static
 const
-uint64
+uint64_t
 DoubleNegMask
 =
 0x8000000000000000ULL
@@ -2268,12 +2268,12 @@ endif
 }
 static
 inline
-uint32
+uint32_t
 align
 (
-uint32
+uint32_t
 bytes
-uint32
+uint32_t
 alignment
 )
 {
@@ -2361,9 +2361,9 @@ stack
 StackMarker
 allocStack
 (
-uint32
+uint32_t
 bytes
-uint32
+uint32_t
 alignment
 =
 4
@@ -2492,17 +2492,17 @@ reg
 }
 static
 const
-uint32
+uint32_t
 StackAlignment
 =
 16
 ;
 static
 inline
-uint32
+uint32_t
 alignForCall
 (
-uint32
+uint32_t
 stackBytes
 )
 {
@@ -2685,7 +2685,7 @@ ifdef
 _WIN64
 static
 const
-uint32
+uint32_t
 ReturnStackAdjustment
 =
 32
@@ -2704,7 +2704,7 @@ JS_NO_FASTCALL
 )
 static
 const
-uint32
+uint32_t
 ReturnStackAdjustment
 =
 16
@@ -2713,7 +2713,7 @@ ReturnStackAdjustment
 else
 static
 const
-uint32
+uint32_t
 ReturnStackAdjustment
 =
 0
@@ -2780,7 +2780,7 @@ ifdef
 _WIN64
 static
 const
-uint32
+uint32_t
 ShadowStackSpace
 =
 32
@@ -2793,7 +2793,7 @@ JS_CPU_SPARC
 )
 static
 const
-uint32
+uint32_t
 ShadowStackSpace
 =
 92
@@ -2802,7 +2802,7 @@ ShadowStackSpace
 else
 static
 const
-uint32
+uint32_t
 ShadowStackSpace
 =
 0
@@ -2817,7 +2817,7 @@ JS_CPU_SPARC
 )
 static
 const
-uint32
+uint32_t
 BaseStackSpace
 =
 104
@@ -2826,7 +2826,7 @@ BaseStackSpace
 else
 static
 const
-uint32
+uint32_t
 BaseStackSpace
 =
 0
@@ -2956,7 +2956,7 @@ Registers
 :
 CallConvention
 convention
-uint32
+uint32_t
 generalArgs
 )
 {
@@ -2966,7 +2966,7 @@ JS_ASSERT
 callIsAligned
 )
 ;
-uint32
+uint32_t
 numArgRegs
 =
 Registers
@@ -2977,7 +2977,7 @@ numArgRegs
 convention
 )
 ;
-uint32
+uint32_t
 pushCount
 =
 (
@@ -3033,7 +3033,7 @@ to
 compute
 alignment
 .
-uint32
+uint32_t
 total
 =
 (
@@ -3140,7 +3140,7 @@ call
 Address
 vmFrameOffset
 (
-uint32
+uint32_t
 offs
 )
 {
@@ -3308,11 +3308,11 @@ registers
 Address
 addressOfArg
 (
-uint32
+uint32_t
 i
 )
 {
-uint32
+uint32_t
 numArgRegs
 =
 Registers
@@ -3356,7 +3356,7 @@ writing
 its
 arguments
 .
-int32
+int32_t
 spOffset
 =
 (
@@ -3395,7 +3395,7 @@ call
 void
 storeArg
 (
-uint32
+uint32_t
 i
 RegisterID
 reg
@@ -3488,7 +3488,7 @@ storeArg
 void
 storeArg
 (
-uint32
+uint32_t
 i
 Address
 address
@@ -3671,7 +3671,7 @@ storeArg
 void
 storeArgAddr
 (
-uint32
+uint32_t
 i
 Address
 address
@@ -3826,7 +3826,7 @@ pressure
 void
 storeArg
 (
-uint32
+uint32_t
 i
 ImmPtr
 imm
@@ -4301,7 +4301,7 @@ pc
 DataLabelPtr
 *
 pinlined
-uint32
+uint32_t
 fd
 )
 {
@@ -4350,7 +4350,7 @@ STUB_CALL_TYPE
 void
 setupFrameDepth
 (
-int32
+int32_t
 frameDepth
 )
 {
@@ -4457,7 +4457,7 @@ offsetOfRegsSp
 void
 setupInfallibleVMFrame
 (
-int32
+int32_t
 frameDepth
 )
 {
@@ -4525,7 +4525,7 @@ pc
 DataLabelPtr
 *
 pinlined
-int32
+int32_t
 frameDepth
 )
 {
@@ -4645,7 +4645,7 @@ inlining
 jsbytecode
 *
 pc
-int32
+int32_t
 frameDepth
 )
 {
@@ -4879,7 +4879,7 @@ infallibleVMCall
 void
 *
 ptr
-int32
+int32_t
 frameDepth
 )
 {
@@ -4963,7 +4963,7 @@ pc
 DataLabelPtr
 *
 pinlined
-int32
+int32_t
 frameDepth
 )
 {
@@ -5687,7 +5687,7 @@ bumpKey
 Int32Key
 &
 key
-int32
+int32_t
 delta
 )
 {
@@ -6020,7 +6020,7 @@ Condition
 cond
 RegisterID
 reg
-int32
+int32_t
 value
 RegisterID
 result
@@ -6259,7 +6259,7 @@ loadDynamicSlot
 (
 RegisterID
 objReg
-uint32
+uint32_t
 index
 RegisterID
 typeReg
@@ -6867,7 +6867,7 @@ the
 result
 is
 either
-int32
+int32_t
 or
 double
 .
@@ -6884,7 +6884,7 @@ load
 a
 double
 or
-int32
+int32_t
 into
 dataReg
 /
@@ -8167,7 +8167,7 @@ JSObject
 obj
 RegisterID
 objReg
-uint32
+uint32_t
 slot
 )
 {
@@ -8229,7 +8229,7 @@ Value
 ;
 }
 static
-uint32
+uint32_t
 maskAddress
 (
 Address
@@ -8249,7 +8249,7 @@ base
 ;
 }
 static
-uint32
+uint32_t
 maskAddress
 (
 BaseIndex
@@ -9648,7 +9648,7 @@ hasPrivate
 )
 )
 {
-uint32
+uint32_t
 nfixed
 =
 templateObject
@@ -10025,7 +10025,7 @@ Assembler
 &
 masm
 ;
-uint32
+uint32_t
 count
 ;
 RegisterID

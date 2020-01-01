@@ -615,7 +615,7 @@ JSFunction
 :
 FinalizeKind
 ;
-uint32
+uint32_t
 nslots
 =
 JSCLASS_RESERVED_SLOTS

@@ -7898,6 +7898,17 @@ event
 )
 ;
 }
+NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
+(
+HistoryLinksHashtableMallocSizeOf
+"
+history
+-
+links
+-
+hashtable
+"
+)
 PRInt64
 GetHistoryObserversSize
 (
@@ -7928,7 +7939,7 @@ history
 >
 SizeOfIncludingThis
 (
-MemoryReporterMallocSizeOf
+HistoryLinksHashtableMallocSizeOf
 )
 ;
 }

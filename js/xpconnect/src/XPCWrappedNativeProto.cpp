@@ -1195,7 +1195,7 @@ nsnull
 JSBool
 shared
 ;
-JSUint32
+uint32_t
 ciFlags
 ;
 if

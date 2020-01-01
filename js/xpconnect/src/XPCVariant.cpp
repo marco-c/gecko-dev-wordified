@@ -1503,7 +1503,7 @@ type
 ;
 for
 (
-jsuint
+uint32_t
 i
 =
 0
@@ -2427,7 +2427,7 @@ js
 array
 object
 .
-jsuint
+uint32_t
 len
 ;
 if

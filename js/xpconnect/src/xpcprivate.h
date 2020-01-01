@@ -12409,14 +12409,14 @@ XPCNativeScriptableFlags
 {
 private
 :
-JSUint32
+uint32_t
 mFlags
 ;
 public
 :
 XPCNativeScriptableFlags
 (
-JSUint32
+uint32_t
 flags
 =
 0
@@ -12428,7 +12428,7 @@ flags
 )
 {
 }
-JSUint32
+uint32_t
 GetFlags
 (
 )
@@ -12444,7 +12444,7 @@ XPC_WN_SJSFLAGS_MARK_FLAG
 void
 SetFlags
 (
-JSUint32
+uint32_t
 flags
 )
 {
@@ -12454,7 +12454,7 @@ flags
 ;
 }
 operator
-JSUint32
+uint32_t
 (
 )
 const
@@ -13082,7 +13082,7 @@ nsnull
 }
 XPCNativeScriptableShared
 (
-JSUint32
+uint32_t
 aFlags
 char
 *
@@ -14093,7 +14093,7 @@ return
 mSecurityInfo
 ;
 }
-JSUint32
+uint32_t
 GetClassInfoFlags
 (
 )
@@ -18411,7 +18411,7 @@ paramIndex
 nsXPTCMiniVariant
 *
 params
-JSUint32
+uint32_t
 *
 result
 )
@@ -18451,7 +18451,7 @@ const
 nsXPTType
 &
 datum_type
-JSUint32
+uint32_t
 array_count
 void
 *
@@ -20764,7 +20764,7 @@ const
 nsID
 *
 iid
-JSUint32
+uint32_t
 count
 nsresult
 *
@@ -20784,7 +20784,7 @@ void
 d
 jsval
 s
-JSUint32
+uint32_t
 count
 const
 nsXPTType
@@ -20813,7 +20813,7 @@ d
 JSObject
 *
 jsarray
-JSUint32
+uint32_t
 count
 const
 nsXPTType
@@ -20842,7 +20842,7 @@ const
 nsXPTType
 &
 type
-JSUint32
+uint32_t
 count
 nsresult
 *
@@ -20861,7 +20861,7 @@ void
 d
 jsval
 s
-JSUint32
+uint32_t
 count
 const
 nsXPTType
@@ -23063,7 +23063,7 @@ BAD_TLS_INDEX
 #
 ifdef
 XPC_CHECK_WRAPPER_THREADSAFETY
-JSUint32
+uint32_t
 IncrementWrappedNativeThreadsafetyReportDepth
 (
 )
@@ -23177,7 +23177,7 @@ mAutoRoots
 #
 ifdef
 XPC_CHECK_WRAPPER_THREADSAFETY
-JSUint32
+uint32_t
 mWrappedNativeThreadsafetyReportDepth
 ;
 #
@@ -23954,7 +23954,7 @@ xpc_DumpEvalInJSStackFrame
 JSContext
 *
 cx
-JSUint32
+uint32_t
 frameno
 const
 char

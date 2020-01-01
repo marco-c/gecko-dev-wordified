@@ -477,7 +477,9 @@ nsGkAtoms
 .
 h
 "
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsDefaultComparator
 <
@@ -514,7 +516,9 @@ aPrefix
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsDefaultComparator
 <

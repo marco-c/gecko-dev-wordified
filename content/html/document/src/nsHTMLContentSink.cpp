@@ -4745,6 +4745,12 @@ break
 case
 eHTMLTag_button
 :
+case
+eHTMLTag_audio
+:
+case
+eHTMLTag_video
+:
 content
 -
 >

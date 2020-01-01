@@ -817,7 +817,7 @@ prev_
 isDummyFrame
 (
 )
-uint32
+uint32_t
 (
 prevpc_
 -
@@ -1027,7 +1027,7 @@ callee
 JSScript
 *
 script
-uint32
+uint32_t
 nactual
 StackFrame
 :
@@ -1405,7 +1405,7 @@ initJitFrameEarlyPrologue
 JSFunction
 *
 fun
-uint32
+uint32_t
 nactual
 )
 {
@@ -3402,7 +3402,7 @@ StackFrame
 Flags
 *
 /
-uint32
+uint32_t
 *
 flags
 )
@@ -3802,7 +3802,7 @@ StackFrame
 Flags
 *
 /
-uint32
+uint32_t
 flags
 =
 ToFrameFlags
@@ -4059,7 +4059,7 @@ StackFrame
 Flags
 *
 /
-uint32
+uint32_t
 flags
 =
 ToFrameFlags
@@ -4707,7 +4707,7 @@ operator
 (
 )
 (
-uint32
+uint32_t
 argi
 Value
 *
@@ -4759,7 +4759,7 @@ ArgumentsObject
 :
 getElement
 (
-uint32
+uint32_t
 i
 Value
 *
@@ -4907,9 +4907,9 @@ ArgumentsObject
 :
 getElements
 (
-uint32
+uint32_t
 start
-uint32
+uint32_t
 count
 Value
 *
@@ -4926,7 +4926,7 @@ count
 start
 )
 ;
-uint32
+uint32_t
 length
 =
 initialLength

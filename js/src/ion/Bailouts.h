@@ -1225,10 +1225,6 @@ more
 /
 detail
 .
-typedef
-uint32
-BailoutId
-;
 static
 const
 BailoutId
@@ -1652,15 +1648,7 @@ cx
 )
 ;
 }
-/
-/
-namespace
-ion
 }
-/
-/
-namespace
-js
 #
 endif
 /

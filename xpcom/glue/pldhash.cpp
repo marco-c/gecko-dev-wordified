@@ -5129,6 +5129,7 @@ PL_DHASH_NEXT
 size_t
 PL_DHashTableSizeOfExcludingThis
 (
+const
 PLDHashTable
 *
 table
@@ -5181,7 +5182,14 @@ mallocSizeOf
 ;
 PL_DHashTableEnumerate
 (
+const_cast
+<
+PLDHashTable
+*
+>
+(
 table
+)
 SizeOfEntryEnumerator
 &
 arg
@@ -5202,6 +5210,7 @@ n
 size_t
 PL_DHashTableSizeOfIncludingThis
 (
+const
 PLDHashTable
 *
 table

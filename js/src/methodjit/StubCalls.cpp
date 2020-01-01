@@ -1508,17 +1508,6 @@ atom
 )
 ;
 }
-PropertyName
-*
-name
-=
-atom
--
->
-asPropertyName
-(
-)
-;
 jsid
 id
 =
@@ -1622,10 +1611,10 @@ if
 obj
 -
 >
-setProperty
+setGeneric
 (
 cx
-name
+id
 &
 rval
 strict
@@ -2902,7 +2891,7 @@ THROW
 (
 )
 ;
-uint32
+uint32_t
 index
 ;
 if
@@ -4695,7 +4684,7 @@ sp
 .
 setNumber
 (
-uint32
+uint32_t
 (
 u
 )
@@ -5693,7 +5682,7 @@ toString
 )
 ;
 \
-int32
+int32_t
 cmp
 ;
 \
@@ -8251,7 +8240,7 @@ Trap
 VMFrame
 &
 f
-uint32
+uint32_t
 trapTypes
 )
 {
@@ -8758,7 +8747,7 @@ NewInitArray
 VMFrame
 &
 f
-uint32
+uint32_t
 count
 )
 {
@@ -8977,7 +8966,7 @@ InitElem
 VMFrame
 &
 f
-uint32
+uint32_t
 last
 )
 {
@@ -9296,7 +9285,7 @@ GetUpvar
 VMFrame
 &
 f
-uint32
+uint32_t
 ck
 )
 {
@@ -9318,7 +9307,7 @@ needed
 .
 *
 /
-uint32
+uint32_t
 staticLevel
 =
 f
@@ -11277,7 +11266,7 @@ Iter
 VMFrame
 &
 f
-uint32
+uint32_t
 flags
 )
 {
@@ -11791,7 +11780,7 @@ IterNext
 VMFrame
 &
 f
-int32
+int32_t
 offset
 )
 {
@@ -13359,7 +13348,7 @@ pc
 =
 JUMP_OFFSET_LEN
 ;
-uint32
+uint32_t
 npairs
 =
 GET_UINT16
@@ -13416,7 +13405,7 @@ NULL
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 1
@@ -13546,7 +13535,7 @@ toNumber
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 1
@@ -13637,7 +13626,7 @@ else
 {
 for
 (
-uint32
+uint32_t
 i
 =
 1
@@ -13792,7 +13781,7 @@ op
 JSOP_TABLESWITCHX
 )
 ;
-uint32
+uint32_t
 jumpOffset
 =
 js
@@ -14002,7 +13991,7 @@ jumpLength
 *
 tableIdx
 ;
-uint32
+uint32_t
 candidateOffset
 =
 js
@@ -15152,7 +15141,7 @@ TypeBarrierHelper
 VMFrame
 &
 f
-uint32
+uint32_t
 which
 )
 {
@@ -15380,7 +15369,7 @@ StubTypeHelper
 VMFrame
 &
 f
-int32
+int32_t
 which
 )
 {
@@ -16569,7 +16558,7 @@ template
 bool
 Clamped
 >
-int32
+int32_t
 JS_FASTCALL
 stubs
 :
@@ -16691,7 +16680,7 @@ isString
 )
 )
 ;
-int32
+int32_t
 i32
 =
 0
@@ -16730,7 +16719,7 @@ i32
 ;
 }
 template
-int32
+int32_t
 JS_FASTCALL
 stubs
 :
@@ -16747,7 +16736,7 @@ Value
 )
 ;
 template
-int32
+int32_t
 JS_FASTCALL
 stubs
 :

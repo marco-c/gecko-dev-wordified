@@ -483,6 +483,15 @@ CoreFoundation
 h
 >
 class
+nsIPrefBranch
+;
+class
+nsINavBookmarksService
+;
+class
+nsIRDFResource
+;
+class
 nsIRDFDataSource
 ;
 class

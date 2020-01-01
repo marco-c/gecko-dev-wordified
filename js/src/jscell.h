@@ -557,14 +557,14 @@ collection
 /
 static
 const
-uint32
+uint32_t
 BLACK
 =
 0
 ;
 static
 const
-uint32
+uint32_t
 GRAY
 =
 1
@@ -652,7 +652,7 @@ JS_ALWAYS_INLINE
 bool
 isMarked
 (
-uint32
+uint32_t
 color
 =
 BLACK
@@ -663,7 +663,7 @@ JS_ALWAYS_INLINE
 bool
 markIfUnmarked
 (
-uint32
+uint32_t
 color
 =
 BLACK
@@ -674,7 +674,7 @@ JS_ALWAYS_INLINE
 void
 unmark
 (
-uint32
+uint32_t
 color
 )
 const

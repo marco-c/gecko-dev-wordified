@@ -1030,7 +1030,7 @@ jsdouble
 d
 d2
 ;
-int32
+int32_t
 i
 j
 ;
@@ -1588,7 +1588,7 @@ ParseNode
 *
 pn2
 ;
-uint32
+uint32_t
 i
 j
 ;
@@ -2739,7 +2739,7 @@ case
 PN_FUNC
 :
 {
-uint32
+uint32_t
 oldflags
 =
 tc

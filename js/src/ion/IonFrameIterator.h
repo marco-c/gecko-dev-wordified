@@ -462,6 +462,13 @@ jstypes
 .
 h
 "
+#
+include
+"
+IonCode
+.
+h
+"
 struct
 JSFunction
 ;

@@ -5488,7 +5488,7 @@ setCapacity
 JSContext
 *
 cx
-uint32
+uint32_t
 newCapacity
 )
 {
@@ -5685,7 +5685,7 @@ barrier
 /
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -5756,13 +5756,7 @@ endif
 #
 define
 XML_NOT_FOUND
-(
-(
-uint32
-)
--
-1
-)
+UINT32_MAX
 template
 <
 class
@@ -5771,7 +5765,7 @@ class
 U
 >
 static
-uint32
+uint32_t
 XMLArrayFindMember
 (
 const
@@ -5803,7 +5797,7 @@ T
 *
 vector
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -5937,14 +5931,14 @@ T
 >
 *
 array
-uint32
+uint32_t
 index
 T
 *
 elt
 )
 {
-uint32
+uint32_t
 capacity
 i
 ;
@@ -6156,13 +6150,13 @@ T
 >
 *
 array
-uint32
+uint32_t
 i
-uint32
+uint32_t
 n
 )
 {
-uint32
+uint32_t
 j
 k
 ;
@@ -6252,7 +6246,7 @@ n
 !
 =
 (
-uint32
+uint32_t
 )
 -
 1
@@ -6349,13 +6343,13 @@ T
 >
 *
 array
-uint32
+uint32_t
 index
 JSBool
 compress
 )
 {
-uint32
+uint32_t
 length
 ;
 HeapPtr
@@ -6535,7 +6529,7 @@ T
 >
 *
 array
-uint32
+uint32_t
 length
 )
 {
@@ -6569,7 +6563,7 @@ return
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 length
@@ -7508,7 +7502,7 @@ limit
 *
 colon
 ;
-uint32
+uint32_t
 n
 ;
 JSObject
@@ -8254,7 +8248,7 @@ JSLinearString
 *
 str
 ;
-uint32
+uint32_t
 length
 n
 i
@@ -10414,7 +10408,7 @@ const
 char
 *
 name
-uint32
+uint32_t
 *
 uip
 )
@@ -11451,7 +11445,7 @@ cx
 JSXML
 *
 xml
-uint32
+uint32_t
 i
 )
 {
@@ -11573,7 +11567,7 @@ JSString
 *
 str
 ;
-uint32
+uint32_t
 length
 ;
 if
@@ -11977,7 +11971,7 @@ JSString
 *
 str
 ;
-uint32
+uint32_t
 i
 length
 ;
@@ -13234,7 +13228,7 @@ sb
 JSString
 *
 str
-uint32
+uint32_t
 toSourceFlag
 )
 {
@@ -13505,7 +13499,7 @@ match
 *
 ns
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -14158,7 +14152,7 @@ length
 newlength
 offset
 ;
-uint32
+uint32_t
 i
 n
 m
@@ -15130,7 +15124,7 @@ JSObject
 >
 *
 ancestorNSes
-uint32
+uint32_t
 indentLevel
 JSBool
 pretty
@@ -15155,7 +15149,7 @@ prefix
 *
 nsuri
 ;
-uint32
+uint32_t
 i
 n
 nextIndentLevel
@@ -17752,7 +17746,7 @@ JSContext
 cx
 jsval
 v
-uint32
+uint32_t
 toSourceFlag
 )
 {
@@ -18420,7 +18414,7 @@ Class
 *
 clasp
 ;
-uint32
+uint32_t
 index
 ;
 if
@@ -18642,7 +18636,7 @@ idea
 is
 to
 reject
-uint32
+uint32_t
 property
 names
 then
@@ -18875,7 +18869,7 @@ match
 *
 ns2
 ;
-uint32
+uint32_t
 i
 n
 m
@@ -19288,7 +19282,7 @@ JSXML
 xml
 )
 {
-uint32
+uint32_t
 i
 j
 k
@@ -19746,7 +19740,7 @@ uintN
 flags
 )
 {
-uint32
+uint32_t
 j
 n
 ;
@@ -20027,7 +20021,7 @@ qn
 JSBool
 ok
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -20418,7 +20412,7 @@ cx
 JSXML
 *
 xml
-uint32
+uint32_t
 index
 )
 {
@@ -20737,7 +20731,7 @@ JSXML
 list
 )
 {
-uint32
+uint32_t
 i
 n
 ;
@@ -20968,7 +20962,7 @@ list
 *
 kid
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -21262,7 +21256,7 @@ qn
 *
 vqn
 ;
-uint32
+uint32_t
 i
 j
 n
@@ -22147,13 +22141,13 @@ cx
 JSXML
 *
 xml
-uint32
+uint32_t
 i
 jsval
 v
 )
 {
-uint32
+uint32_t
 j
 n
 ;
@@ -22571,13 +22565,13 @@ cx
 JSXML
 *
 xml
-uint32
+uint32_t
 i
 jsval
 v
 )
 {
-uint32
+uint32_t
 n
 ;
 JSXML
@@ -22983,7 +22977,7 @@ JSXML
 *
 array
 ;
-uint32
+uint32_t
 index
 deleteCount
 ;
@@ -23234,7 +23228,7 @@ cx
 JSXML
 *
 xml
-uint32
+uint32_t
 index
 )
 {
@@ -23244,7 +23238,7 @@ kid
 *
 parent
 ;
-uint32
+uint32_t
 kidIndex
 ;
 JS_ASSERT
@@ -23405,7 +23399,7 @@ JSObject
 *
 nsarray
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -23799,7 +23793,7 @@ list
 *
 kid
 ;
-uint32
+uint32_t
 index
 ;
 JSObject
@@ -24378,7 +24372,7 @@ cx
 JSXML
 *
 xml
-uint32
+uint32_t
 index
 )
 {
@@ -24585,7 +24579,7 @@ nameqn
 *
 attrqn
 ;
-uint32
+uint32_t
 index
 i
 j
@@ -29400,7 +29394,7 @@ array
 JSXMLNameMatcher
 matcher
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -29576,7 +29570,7 @@ HasIndexedProperty
 JSXML
 *
 xml
-uint32
+uint32_t
 i
 )
 {
@@ -29973,7 +29967,7 @@ xml
 bool
 isIndex
 ;
-uint32
+uint32_t
 i
 ;
 JSObject
@@ -30386,7 +30380,7 @@ JSXML
 *
 xml
 ;
-uint32
+uint32_t
 i
 ;
 JSObject
@@ -30589,7 +30583,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSObject
 *
@@ -30884,7 +30878,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 const
 Value
@@ -31065,7 +31059,7 @@ obj
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -31208,7 +31202,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -31370,7 +31364,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -31534,7 +31528,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -31624,7 +31618,7 @@ xml
 jsval
 idval
 ;
-uint32
+uint32_t
 index
 ;
 JSObject
@@ -31944,7 +31938,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -32321,7 +32315,7 @@ JSXML
 *
 xml
 ;
-uint32
+uint32_t
 length
 index
 ;
@@ -32751,7 +32745,7 @@ kid
 JSBool
 simple
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -35094,7 +35088,7 @@ rval
 bool
 isIndex
 ;
-uint32
+uint32_t
 index
 ;
 JSXML
@@ -35590,7 +35584,7 @@ JSXML
 *
 parent
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -35810,7 +35804,7 @@ vxml
 JSBool
 ok
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -36490,7 +36484,7 @@ JSObject
 *
 kidobj
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -37032,7 +37026,7 @@ JSObject
 *
 kidobj
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -37294,7 +37288,7 @@ JSObject
 nsarray
 )
 {
-uint32
+uint32_t
 length
 i
 j
@@ -37599,7 +37593,7 @@ cx
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -37740,7 +37734,7 @@ JSXML
 *
 kid
 ;
-uint32
+uint32_t
 i
 ;
 NON_LIST_XML_METHOD_PROLOG
@@ -37909,7 +37903,7 @@ JSXML
 *
 kid
 ;
-uint32
+uint32_t
 i
 ;
 NON_LIST_XML_METHOD_PROLOG
@@ -38100,7 +38094,7 @@ JSVAL_ONE
 }
 else
 {
-uint32
+uint32_t
 l
 =
 xml
@@ -38552,7 +38546,7 @@ JSXML_CLASS_ELEMENT
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -38627,7 +38621,7 @@ false
 }
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -38850,7 +38844,7 @@ cx
 JSXML
 *
 xml
-uint32
+uint32_t
 index
 )
 {
@@ -38908,7 +38902,7 @@ kid
 *
 kid2
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -39225,7 +39219,7 @@ parent
 *
 kid
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -39438,7 +39432,7 @@ kidobj
 jsval
 v
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -39971,7 +39965,7 @@ vp
 bool
 isIndex
 ;
-uint32
+uint32_t
 index
 ;
 XML_METHOD_PROLOG
@@ -40182,7 +40176,7 @@ thisns
 *
 attrns
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -40560,7 +40554,7 @@ vxml
 *
 kid
 ;
-uint32
+uint32_t
 index
 i
 ;
@@ -41233,7 +41227,7 @@ JSObject
 *
 nsarray
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -42341,7 +42335,7 @@ parent
 >
 xml_attrs
 ;
-uint32
+uint32_t
 i
 =
 XMLArrayFindMember
@@ -42508,7 +42502,7 @@ kid
 *
 vxml
 ;
-uint32
+uint32_t
 i
 n
 ;
@@ -44545,7 +44539,7 @@ JS_INIT_STATIC_CLIST
 xml_leaks
 )
 ;
-uint32
+uint32_t
 xml_serial
 ;
 #
@@ -47977,7 +47971,7 @@ JSXML
 *
 list
 ;
-uint32
+uint32_t
 n
 ;
 list

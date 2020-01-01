@@ -189,6 +189,15 @@ mozilla
 com
 >
 *
+Vladan
+Djeric
+<
+vdjeric
+mozilla
+.
+com
+>
+*
 *
 Alternatively
 the
@@ -2347,6 +2356,11 @@ this
 getHistograms
 (
 )
+slowSQL
+:
+Telemetry
+.
+slowSQL
 }
 ;
 let

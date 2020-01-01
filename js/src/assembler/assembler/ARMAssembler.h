@@ -13046,7 +13046,7 @@ uncheckedSize
 void
 putInst32
 (
-uint32
+uint32_t
 data
 )
 {
@@ -13058,7 +13058,7 @@ data
 )
 ;
 }
-uint32
+uint32_t
 *
 editSrc
 (
@@ -13068,7 +13068,7 @@ src
 {
 return
 (
-uint32
+uint32_t
 *
 )
 (

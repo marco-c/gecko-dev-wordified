@@ -4704,7 +4704,7 @@ IndexToIdSlow
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 jsid
 *

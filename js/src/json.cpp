@@ -1590,7 +1590,7 @@ c
 10
 )
 ;
-uint8
+uint8_t
 x
 =
 c
@@ -1774,7 +1774,7 @@ AutoIdVector
 &
 propertyList
 ;
-uint32
+uint32_t
 depth
 ;
 HashSet
@@ -1812,7 +1812,7 @@ cx
 StringifyContext
 *
 scx
-uint32
+uint32_t
 limit
 )
 {
@@ -1850,7 +1850,7 @@ JS_FALSE
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2028,7 +2028,7 @@ template
 class
 KeyStringifier
 <
-uint32
+uint32_t
 >
 {
 public
@@ -2041,7 +2041,7 @@ toString
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 )
 {
@@ -3589,7 +3589,7 @@ outputValue
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -5248,7 +5248,7 @@ appendN
 (
 '
 '
-uint32
+uint32_t
 (
 d
 )
@@ -5652,7 +5652,7 @@ ii
 .
 *
 /
-uint32
+uint32_t
 length
 =
 obj
@@ -5680,7 +5680,7 @@ iv
 /
 for
 (
-uint32
+uint32_t
 i
 =
 0

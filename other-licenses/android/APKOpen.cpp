@@ -1955,13 +1955,6 @@ jboolean
 jdouble
 )
 ;
-SHELL_WRAPPER1_WITH_RETURN
-(
-canCreateFixupURI
-bool
-jstring
-)
-;
 SHELL_WRAPPER3
 (
 notifySmsReceived
@@ -4638,11 +4631,6 @@ notifyUriVisited
 GETFUNC
 (
 notifyBatteryChange
-)
-;
-GETFUNC
-(
-canCreateFixupURI
 )
 ;
 GETFUNC

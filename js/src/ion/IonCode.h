@@ -462,6 +462,13 @@ jscell
 .
 h
 "
+#
+include
+"
+IonTypes
+.
+h
+"
 namespace
 JSC
 {
@@ -529,10 +536,6 @@ MAX_BUFFER_SIZE
 )
 -
 1
-;
-typedef
-uint32
-SnapshotOffset
 ;
 class
 MacroAssembler

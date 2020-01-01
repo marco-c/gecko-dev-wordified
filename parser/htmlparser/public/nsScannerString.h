@@ -2700,7 +2700,9 @@ nsAlgorithm
 h
 *
 /
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsCharSourceTraits
 <

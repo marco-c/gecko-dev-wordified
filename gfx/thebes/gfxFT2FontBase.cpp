@@ -524,9 +524,7 @@ gfxFont
 (
 aFontEntry
 aFontStyle
-)
-mScaledFont
-(
+kAntialiasDefault
 aScaledFont
 )
 mSpaceGlyph

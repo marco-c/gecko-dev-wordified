@@ -2778,7 +2778,7 @@ NewInitArray
 JSContext
 *
 cx
-uint32
+uint32_t
 count
 types
 :

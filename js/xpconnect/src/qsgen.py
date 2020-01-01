@@ -3502,7 +3502,7 @@ octet
 :
         
 "
-uint32
+uint32_t
 {
 name
 }
@@ -3565,7 +3565,7 @@ short
 :
         
 "
-int32
+int32_t
 {
 name
 }
@@ -3629,7 +3629,7 @@ short
 :
         
 "
-uint32
+uint32_t
 {
 name
 }
@@ -3692,7 +3692,7 @@ long
 :
         
 "
-int32
+int32_t
 {
 name
 }
@@ -3736,7 +3736,7 @@ long
 :
         
 "
-uint32
+uint32_t
 {
 name
 }

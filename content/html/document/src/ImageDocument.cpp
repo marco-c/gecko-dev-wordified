@@ -1990,7 +1990,7 @@ it
 .
 .
 .
-nsHTMLDocument
+MediaDocument
 :
 :
 SetScriptGlobalObject

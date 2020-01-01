@@ -458,7 +458,7 @@ jsion_cpu_registers_h__
 #
 include
 "
-jstypes
+IonTypes
 .
 h
 "
