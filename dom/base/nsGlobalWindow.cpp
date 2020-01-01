@@ -19325,9 +19325,6 @@ NS_IF_ADDREF
 *
 aSpeechSynthesis
 =
-nsPIDOMWindow
-:
-:
 GetSpeechSynthesisInternal
 (
 )
@@ -19339,7 +19336,7 @@ NS_OK
 }
 SpeechSynthesis
 *
-nsPIDOMWindow
+nsGlobalWindow
 :
 :
 GetSpeechSynthesisInternal
