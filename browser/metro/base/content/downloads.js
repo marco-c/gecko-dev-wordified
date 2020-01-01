@@ -1467,13 +1467,6 @@ message
 let
 showInFilesButtonText
 =
-PluralForm
-.
-get
-(
-this
-.
-_downloadCount
 Strings
 .
 browser
@@ -1481,9 +1474,8 @@ browser
 GetStringFromName
 (
 "
-downloadsShowInFiles
+downloadShowInFiles
 "
-)
 )
 ;
 let
