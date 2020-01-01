@@ -346,6 +346,10 @@ hold
 (
 false
 )
+isSystemCompartment
+(
+false
+)
 lastCodeRelease
 (
 0
