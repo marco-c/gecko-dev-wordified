@@ -941,6 +941,11 @@ IonSpewChannel
 channel
 )
 ;
+void
+EnableIonDebugLogging
+(
+)
+;
 #
 else
 static
@@ -1077,6 +1082,14 @@ void
 DisableChannel
 (
 IonSpewChannel
+)
+{
+}
+static
+inline
+void
+EnableIonDebugLogging
+(
 )
 {
 }
