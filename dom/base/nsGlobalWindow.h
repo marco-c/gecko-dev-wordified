@@ -5976,10 +5976,6 @@ WindowByIdTable
 *
 sWindowsById
 ;
-static
-bool
-sWarnedAboutWindowInternal
-;
 }
 ;
 /
