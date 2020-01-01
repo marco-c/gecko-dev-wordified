@@ -935,12 +935,6 @@ defined
 (
 _M_X64
 )
-&
-&
-defined
-(
-_MSC_VER
-)
 PNT_TIB64
 pTib
 =

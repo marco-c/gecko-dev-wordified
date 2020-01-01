@@ -1019,8 +1019,7 @@ return
 JSDHashNumber
 )
 (
-unsigned
-long
+uintptr_t
 )
 key
 >
