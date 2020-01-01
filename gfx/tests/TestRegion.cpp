@@ -560,7 +560,7 @@ fail
 "
 Did
 not
-succesfully
+successfully
 find
 largest
 rectangle
@@ -801,7 +801,7 @@ fail
 "
 Did
 not
-succesfully
+successfully
 find
 largest
 rectangle

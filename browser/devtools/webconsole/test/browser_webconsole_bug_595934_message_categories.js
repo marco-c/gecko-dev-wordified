@@ -949,7 +949,7 @@ test
 pos
 +
 "
-succesful
+successful
 finish
 "
 validatorFn

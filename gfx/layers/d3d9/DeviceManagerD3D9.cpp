@@ -2134,7 +2134,7 @@ Direct3D
 9
 DeviceManager
 Initialized
-Succesfully
+Successfully
 .
 \
 nDriver

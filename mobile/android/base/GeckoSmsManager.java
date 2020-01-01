@@ -2645,7 +2645,7 @@ GeckoSmsManager
 "
 "
 SMS
-succesfully
+successfully
 delivered
 !
 "
