@@ -10217,6 +10217,11 @@ JSStackFrame
 *
 fp
 ;
+CHECK_REQUEST
+(
+cx
+)
+;
 fp
 =
 cx
@@ -25987,6 +25992,11 @@ tvr
 JSObject
 *
 obj
+;
+CHECK_REQUEST
+(
+cx
+)
 ;
 if
 (
