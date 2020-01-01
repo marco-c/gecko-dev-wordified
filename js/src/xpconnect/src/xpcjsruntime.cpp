@@ -2797,7 +2797,7 @@ if
 XPCPerThreadData
 :
 :
-IsMainThreadContext
+IsMainThread
 (
 acx
 )
