@@ -15977,10 +15977,7 @@ s
 iidStr
 )
 ;
-nsCRT
-:
-:
-free
+NS_Free
 (
 iidStr
 )
@@ -16686,10 +16683,7 @@ s
 cidStr
 )
 ;
-nsCRT
-:
-:
-free
+NS_Free
 (
 cidStr
 )
@@ -16867,10 +16861,7 @@ s
 cidStr
 )
 ;
-nsCRT
-:
-:
-free
+NS_Free
 (
 cidStr
 )

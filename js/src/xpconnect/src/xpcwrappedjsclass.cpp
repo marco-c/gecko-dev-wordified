@@ -11554,7 +11554,7 @@ if
 (
 iid
 )
-PR_Free
+NS_Free
 (
 iid
 )

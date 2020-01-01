@@ -3825,7 +3825,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -4135,7 +4135,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -4355,7 +4355,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -4561,7 +4561,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -5028,7 +5028,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )

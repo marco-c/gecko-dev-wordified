@@ -626,7 +626,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -893,7 +893,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -1134,7 +1134,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -1248,7 +1248,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -1905,7 +1905,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PR_Free
+NS_Free
 (
 iid_str
 )
@@ -10157,7 +10157,7 @@ iid_str
 )
 )
 ;
-PR_Free
+NS_Free
 (
 iid_str
 )
