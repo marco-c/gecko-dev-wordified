@@ -717,12 +717,6 @@ GetProcessEvent
 }
 private
 :
-static
-const
-char
-*
-kPluginProcessName
-;
 std
 :
 :
