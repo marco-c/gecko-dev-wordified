@@ -5184,6 +5184,9 @@ mIsActive
 PRPackedBool
 mIsAppTab
 ;
+PRPackedBool
+mUseGlobalHistory
+;
 /
 /
 This
