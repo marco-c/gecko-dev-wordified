@@ -12320,6 +12320,8 @@ nsTableRowGroupFrame
 :
 InvalidateFrame
 (
+PRUint32
+aFlags
 )
 {
 nsIFrame
@@ -12327,6 +12329,7 @@ nsIFrame
 :
 InvalidateFrame
 (
+aFlags
 )
 ;
 nsTableFrame
@@ -12346,6 +12349,9 @@ tableFrame
 >
 InvalidateFrame
 (
+aFlags
+|
+INVALIDATE_DONT_SCHEDULE_PAINT
 )
 ;
 }

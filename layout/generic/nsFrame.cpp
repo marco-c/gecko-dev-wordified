@@ -29004,10 +29004,13 @@ nsIFrame
 :
 InvalidateFrameSubtree
 (
+PRUint32
+aFlags
 )
 {
 InvalidateFrame
 (
+aFlags
 )
 ;
 if
@@ -29107,6 +29110,9 @@ get
 >
 InvalidateFrameSubtree
 (
+aFlags
+|
+INVALIDATE_DONT_SCHEDULE_PAINT
 )
 ;
 }
@@ -29230,6 +29236,8 @@ nsIFrame
 :
 InvalidateFrame
 (
+PRUint32
+aFlags
 )
 {
 AddStateBits
@@ -29286,7 +29294,11 @@ parent
 if
 (
 !
-parent
+(
+aFlags
+&
+INVALIDATE_DONT_SCHEDULE_PAINT
+)
 )
 {
 SchedulePaint
@@ -50756,6 +50768,7 @@ NS_FRAME_ALL_DESCENDANTS_NEED_PAINT
 {
 InvalidateFrame
 (
+INVALIDATE_DONT_SCHEDULE_PAINT
 )
 ;
 }
