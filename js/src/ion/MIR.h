@@ -6942,7 +6942,7 @@ JS_ASSERT
 compareType_
 <
 =
-Compare_Object
+Compare_Value
 )
 ;
 return
