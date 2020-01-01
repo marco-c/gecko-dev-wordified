@@ -550,6 +550,11 @@ MathD
 \
 _
 (
+Int32ToDouble
+)
+\
+_
+(
 ValueToDouble
 )
 \
