@@ -1543,9 +1543,9 @@ void
 )
 JS_ClearScriptTraps
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 JSScript
 *
 script
@@ -1556,12 +1556,7 @@ script
 >
 clearTraps
 (
-cx
--
->
-runtime
-(
-)
+rt
 -
 >
 defaultFreeOp
