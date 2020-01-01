@@ -1147,7 +1147,7 @@ if
 (
 value
 .
-reference
+get
 (
 )
 .
@@ -1186,7 +1186,7 @@ if
 (
 idval
 .
-reference
+get
 (
 )
 .
@@ -1202,7 +1202,7 @@ obj
 &
 idval
 .
-reference
+get
 (
 )
 .
@@ -3894,7 +3894,7 @@ if
 (
 lvalue
 .
-reference
+get
 (
 )
 .
@@ -3905,7 +3905,7 @@ isString
 &
 rvalue
 .
-reference
+get
 (
 )
 .
@@ -3920,7 +3920,7 @@ l
 =
 lvalue
 .
-reference
+get
 (
 )
 .
@@ -3934,7 +3934,7 @@ r
 =
 rvalue
 .
-reference
+get
 (
 )
 .
@@ -6483,10 +6483,6 @@ LookupProperty
 cx
 start
 name
-.
-reference
-(
-)
 &
 pobj
 &
@@ -14700,10 +14696,6 @@ regs
 .
 pc
 rval
-.
-reference
-(
-)
 )
 ;
 regs

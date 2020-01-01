@@ -9658,10 +9658,6 @@ ObjectValue
 (
 *
 enclosing
-.
-value
-(
-)
 )
 )
 ;

@@ -1982,10 +1982,6 @@ NULL
 if
 (
 objp
-.
-value
-(
-)
 =
 =
 delegate
@@ -2203,10 +2199,6 @@ NULL
 if
 (
 objp
-.
-value
-(
-)
 =
 =
 delegate

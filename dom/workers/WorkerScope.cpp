@@ -3849,7 +3849,7 @@ resolved
 ?
 aObj
 .
-value
+get
 (
 )
 :

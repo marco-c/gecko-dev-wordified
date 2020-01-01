@@ -3144,7 +3144,7 @@ JS_DATA_TO_FUNC_PTR
 JSPropertyOp
 get
 .
-reference
+get
 (
 )
 )
@@ -3153,7 +3153,7 @@ JS_DATA_TO_FUNC_PTR
 JSStrictPropertyOp
 set
 .
-reference
+get
 (
 )
 )

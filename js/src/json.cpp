@@ -2813,7 +2813,7 @@ cx
 obj
 id
 .
-reference
+get
 (
 )
 &
@@ -3992,7 +3992,7 @@ space
 =
 spaceRoot
 .
-reference
+get
 (
 )
 ;
@@ -5150,7 +5150,7 @@ cx
 wrapper
 emptyId
 .
-reference
+get
 (
 )
 vp

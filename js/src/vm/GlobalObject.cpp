@@ -2678,7 +2678,7 @@ objectProto
 *
 self
 .
-reference
+get
 (
 )
 )

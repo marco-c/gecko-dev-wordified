@@ -16879,7 +16879,7 @@ let
 .
 blockObj
 .
-reference
+get
 (
 )
 :

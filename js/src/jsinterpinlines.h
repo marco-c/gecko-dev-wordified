@@ -1863,12 +1863,12 @@ cx
 pc
 obj
 .
-reference
+get
 (
 )
 obj2
 .
-reference
+get
 (
 )
 entry
@@ -2786,18 +2786,18 @@ cx
 pc
 obj
 .
-reference
+get
 (
 )
 obj2
 .
-reference
+get
 (
 )
 entry
 name
 .
-reference
+get
 (
 )
 )
@@ -3583,7 +3583,7 @@ lval
 =
 lval_
 .
-reference
+get
 (
 )
 ;
@@ -3593,7 +3593,7 @@ rval
 =
 rval_
 .
-reference
+get
 (
 )
 ;
@@ -3970,7 +3970,7 @@ d
 (
 lhs
 .
-value
+get
 (
 )
 .
@@ -3981,7 +3981,7 @@ isDouble
 |
 rhs
 .
-value
+get
 (
 )
 .
@@ -4073,7 +4073,7 @@ d
 (
 lhs
 .
-value
+get
 (
 )
 .
@@ -4084,7 +4084,7 @@ isDouble
 |
 rhs
 .
-value
+get
 (
 )
 .
@@ -4186,7 +4186,7 @@ isDouble
 (
 lhs
 .
-value
+get
 (
 )
 .
@@ -4197,7 +4197,7 @@ isDouble
 |
 rhs
 .
-value
+get
 (
 )
 .
@@ -4247,7 +4247,7 @@ if
 (
 lhs
 .
-value
+get
 (
 )
 .
@@ -4258,7 +4258,7 @@ isInt32
 &
 rhs
 .
-value
+get
 (
 )
 .
@@ -4272,7 +4272,7 @@ l
 =
 lhs
 .
-value
+get
 (
 )
 .
@@ -4290,7 +4290,7 @@ r
 =
 rhs
 .
-value
+get
 (
 )
 .
@@ -5511,7 +5511,7 @@ lval
 =
 lvalRoot
 .
-reference
+get
 (
 )
 ;
@@ -5522,7 +5522,7 @@ rval
 =
 rvalRoot
 .
-reference
+get
 (
 )
 ;

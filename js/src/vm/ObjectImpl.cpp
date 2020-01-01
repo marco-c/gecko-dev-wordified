@@ -3254,7 +3254,7 @@ JSObject
 (
 obj
 .
-value
+get
 (
 )
 )
@@ -3351,7 +3351,7 @@ id
 cx
 pid
 .
-reference
+get
 (
 )
 .
@@ -3376,7 +3376,7 @@ JSObject
 (
 obj
 .
-value
+get
 (
 )
 )

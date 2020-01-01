@@ -1737,7 +1737,7 @@ wrapper
 &
 key
 .
-reference
+get
 (
 )
 .
@@ -1862,7 +1862,7 @@ strp
 =
 value
 .
-reference
+get
 (
 )
 .
@@ -1920,7 +1920,7 @@ strp
 =
 value
 .
-reference
+get
 (
 )
 .
@@ -1990,7 +1990,7 @@ objp
 &
 value
 .
-reference
+get
 (
 )
 .
@@ -2060,7 +2060,7 @@ ValueToId
 cx
 value
 .
-reference
+get
 (
 )
 idp

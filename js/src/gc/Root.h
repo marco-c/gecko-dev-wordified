@@ -908,7 +908,7 @@ ptr
 ;
 }
 T
-value
+get
 (
 )
 const
@@ -925,7 +925,7 @@ T
 const
 {
 return
-value
+get
 (
 )
 ;
@@ -939,7 +939,7 @@ operator
 const
 {
 return
-value
+get
 (
 )
 ;
@@ -1151,7 +1151,6 @@ ptr
 v
 ;
 }
-const
 T
 *
 address
@@ -1164,17 +1163,7 @@ ptr
 ;
 }
 T
-*
-address
-(
-)
-{
-return
-ptr
-;
-}
-T
-value
+get
 (
 )
 const
@@ -1191,7 +1180,7 @@ T
 const
 {
 return
-value
+get
 (
 )
 ;
@@ -1205,7 +1194,7 @@ operator
 const
 {
 return
-value
+get
 (
 )
 ;
@@ -1616,7 +1605,7 @@ ptr
 }
 T
 &
-reference
+get
 (
 )
 {
@@ -1624,8 +1613,10 @@ return
 ptr
 ;
 }
+const
 T
-raw
+&
+get
 (
 )
 const

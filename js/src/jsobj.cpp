@@ -1067,7 +1067,7 @@ put
 (
 obj
 .
-value
+get
 (
 )
 sharpid
@@ -1194,7 +1194,7 @@ value
 =
 valueRoot
 .
-reference
+get
 (
 )
 ;
@@ -1204,7 +1204,7 @@ setter
 =
 setterRoot
 .
-reference
+get
 (
 )
 ;
@@ -1925,7 +1925,7 @@ put
 (
 obj
 .
-value
+get
 (
 )
 sharpid
@@ -28759,7 +28759,7 @@ if
 (
 v
 .
-reference
+get
 (
 )
 .
@@ -28769,7 +28769,7 @@ isPrimitive
 )
 v
 .
-reference
+get
 (
 )
 .
@@ -31433,10 +31433,6 @@ getProto
 !
 =
 objp
-.
-value
-(
-)
 )
 JS_ASSERT
 (
@@ -32370,10 +32366,6 @@ LookupPropertyWithFlags
 cx
 obj
 name
-.
-value
-(
-)
 cx
 -
 >
@@ -38169,7 +38161,7 @@ ctor
 &
 v
 .
-reference
+get
 (
 )
 .
@@ -38212,7 +38204,7 @@ set
 (
 v
 .
-reference
+get
 (
 )
 .
@@ -38223,7 +38215,7 @@ isObject
 &
 v
 .
-reference
+get
 (
 )
 .
