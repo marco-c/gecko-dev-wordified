@@ -99650,6 +99650,13 @@ SIGN
 0x20ba
 0x20ba
 ]
+/
+*
+TURKISH
+LIRA
+SIGN
+*
+/
 [
 0x20bb
 0x20bb
