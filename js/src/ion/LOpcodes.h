@@ -176,6 +176,11 @@ TableSwitch
 \
 _
 (
+TableSwitchV
+)
+\
+_
+(
 Goto
 )
 \

@@ -3461,8 +3461,6 @@ MTableSwitch
 :
 public
 MControlInstruction
-public
-TableSwitchPolicy
 {
 /
 /
@@ -3926,16 +3924,6 @@ const
 {
 return
 1
-;
-}
-TypePolicy
-*
-typePolicy
-(
-)
-{
-return
-this
 ;
 }
 }
