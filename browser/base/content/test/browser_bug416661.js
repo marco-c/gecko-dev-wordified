@@ -148,12 +148,13 @@ is
 ZoomManager
 .
 zoom
-zoomLevel
+1
 "
 zoom
 level
 pref
 should
+not
 apply
 to
 an
