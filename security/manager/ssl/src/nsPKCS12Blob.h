@@ -677,7 +677,7 @@ SECItem
 *
 )
 ;
-PRBool
+void
 handleError
 (
 int
