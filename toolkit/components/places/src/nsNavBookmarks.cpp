@@ -3876,7 +3876,10 @@ rv
 SetItemTitle
 (
 mBookmarksRoot
+NS_ConvertUTF16toUTF8
+(
 bookmarksTitle
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3926,7 +3929,10 @@ rv
 SetItemTitle
 (
 mToolbarFolder
+NS_ConvertUTF16toUTF8
+(
 toolbarTitle
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3976,7 +3982,10 @@ rv
 SetItemTitle
 (
 mUnfiledRoot
+NS_ConvertUTF16toUTF8
+(
 unfiledTitle
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4025,7 +4034,10 @@ rv
 SetItemTitle
 (
 mTagRoot
+NS_ConvertUTF16toUTF8
+(
 tagsTitle
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4289,10 +4301,8 @@ rv
 CreateFolder
 (
 aParentID
-NS_LITERAL_STRING
+EmptyCString
 (
-"
-"
 )
 nsINavBookmarksService
 :
@@ -6150,7 +6160,7 @@ aItem
 PRInt32
 aIndex
 const
-nsAString
+nsACString
 &
 aTitle
 PRInt64
@@ -6375,7 +6385,7 @@ rv
 mDBInsertBookmark
 -
 >
-BindStringParameter
+BindUTF8StringParameter
 (
 4
 aTitle
@@ -7161,7 +7171,7 @@ CreateFolder
 PRInt64
 aParent
 const
-nsAString
+nsACString
 &
 aName
 PRInt32
@@ -7262,7 +7272,7 @@ CreateDynamicContainer
 PRInt64
 aParent
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -7450,7 +7460,7 @@ aItemId
 PRInt64
 aParent
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -7704,7 +7714,7 @@ rv
 statement
 -
 >
-BindStringParameter
+BindUTF8StringParameter
 (
 0
 aName
@@ -9037,7 +9047,7 @@ folder
 safely
 later
 .
-nsAutoString
+nsCAutoString
 title
 ;
 nsresult
@@ -11289,7 +11299,7 @@ SetItemTitle
 PRInt64
 aItemId
 const
-nsAString
+nsACString
 &
 aTitle
 )
@@ -11357,7 +11367,7 @@ rv
 statement
 -
 >
-BindStringParameter
+BindUTF8StringParameter
 (
 0
 aTitle
@@ -11445,10 +11455,7 @@ title
 "
 )
 PR_FALSE
-NS_ConvertUTF16toUTF8
-(
 aTitle
-)
 )
 )
 ;
@@ -11464,7 +11471,7 @@ GetItemTitle
 (
 PRInt64
 aItemId
-nsAString
+nsACString
 &
 aTitle
 )
@@ -11530,7 +11537,7 @@ return
 mDBGetItemProperties
 -
 >
-GetString
+GetUTF8String
 (
 kGetItemPropertiesIndex_Title
 aTitle

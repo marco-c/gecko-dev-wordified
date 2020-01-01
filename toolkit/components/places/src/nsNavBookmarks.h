@@ -717,7 +717,7 @@ aId
 PRInt64
 aParent
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -1311,7 +1311,7 @@ aID
 PRInt64
 aParent
 const
-nsAString
+nsACString
 &
 aTitle
 PRInt32
@@ -1464,7 +1464,7 @@ mID
 PRInt64
 mParent
 ;
-nsString
+nsCString
 mTitle
 ;
 nsString
