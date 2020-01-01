@@ -6497,6 +6497,8 @@ if
 sheet
 )
 {
+NS_IF_ADDREF
+(
 *
 aSheetURI
 =
@@ -6506,11 +6508,10 @@ sheet
 GetSheetURI
 (
 )
-.
-get
-(
 )
 ;
+NS_IF_ADDREF
+(
 *
 aBaseURI
 =
@@ -6520,9 +6521,6 @@ sheet
 GetBaseURI
 (
 )
-.
-get
-(
 )
 ;
 nsRefPtr
