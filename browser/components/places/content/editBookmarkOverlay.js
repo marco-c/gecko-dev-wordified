@@ -3051,7 +3051,7 @@ collapsed
 )
 this
 .
-_toggleTagsSelector
+toggleTagsSelector
 (
 )
 ;
