@@ -459,13 +459,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedString
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h

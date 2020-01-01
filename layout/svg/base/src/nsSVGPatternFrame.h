@@ -438,13 +438,6 @@ __NS_SVGPATTERNFRAME_H__
 #
 include
 "
-nsIDOMSVGAnimatedString
-.
-h
-"
-#
-include
-"
 nsIDOMSVGMatrix
 .
 h
