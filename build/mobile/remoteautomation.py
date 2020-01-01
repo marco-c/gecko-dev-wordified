@@ -2356,7 +2356,7 @@ proc
 try
 :
                     
-t
+newLogContent
 =
 self
 .
@@ -2367,6 +2367,9 @@ pullFile
 self
 .
 proc
+self
+.
+stdoutlen
 )
                 
 except
@@ -2408,23 +2411,14 @@ return
 '
 '
                 
-newLogContent
-=
-t
-[
 self
 .
 stdoutlen
-:
-]
-                
-self
-.
-stdoutlen
++
 =
 len
 (
-t
+newLogContent
 )
                 
 #
@@ -2569,7 +2563,7 @@ timer
             
 interval
 =
-5
+20
             
 if
 timeout
@@ -2601,12 +2595,29 @@ procName
 )
 :
                 
+#
+retrieve
+log
+updates
+every
+60
+seconds
+                
+if
+timer
+%
+60
+=
+=
+0
+:
+                    
 t
 =
 self
 .
 stdout
-                
+                    
 if
 t
 !
@@ -2614,6 +2625,7 @@ t
 '
 '
 :
+                        
 print
 t
                 
