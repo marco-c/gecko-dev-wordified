@@ -223,6 +223,13 @@ Element
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 using
 namespace
 mozilla

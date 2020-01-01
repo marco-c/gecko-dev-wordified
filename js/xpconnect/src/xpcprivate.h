@@ -1395,6 +1395,13 @@ nsCxPusher
 h
 "
 #
+include
+"
+nsAXPCNativeCallContext
+.
+h
+"
+#
 ifdef
 XP_WIN
 /

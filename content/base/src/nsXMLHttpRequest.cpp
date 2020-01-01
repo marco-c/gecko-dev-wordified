@@ -564,6 +564,13 @@ h
 #
 include
 "
+xpcjsid
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h

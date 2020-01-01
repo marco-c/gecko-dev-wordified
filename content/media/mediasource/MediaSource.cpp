@@ -161,6 +161,13 @@ nsContentTypeParser
 h
 "
 #
+include
+"
+nsIInputStream
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 PRLogModuleInfo

@@ -202,6 +202,9 @@ nscore
 .
 h
 "
+class
+nsIInputStream
+;
 namespace
 mozilla
 {

@@ -172,6 +172,13 @@ prprf
 .
 h
 "
+#
+include
+"
+nsIException
+.
+h
+"
 using
 namespace
 mozilla

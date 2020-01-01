@@ -218,6 +218,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 static
 bool
 IsAudioAPIEnabled

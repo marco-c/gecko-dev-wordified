@@ -198,6 +198,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 /
 /
 A

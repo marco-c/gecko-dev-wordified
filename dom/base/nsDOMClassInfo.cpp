@@ -1191,6 +1191,13 @@ WindowNamedPropertiesHandler
 h
 "
 #
+include
+"
+nsIInterfaceInfoManager
+.
+h
+"
+#
 ifdef
 MOZ_TIME_MANAGER
 #
