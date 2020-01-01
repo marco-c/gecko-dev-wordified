@@ -519,11 +519,15 @@ return
 0
 ;
 return
-GetSourceDataSize
+GetSourceHeapSize
 (
 )
 +
-GetDecodedDataSize
+GetDecodedHeapSize
+(
+)
++
+GetDecodedNonheapSize
 (
 )
 ;
