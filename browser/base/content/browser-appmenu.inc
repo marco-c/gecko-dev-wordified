@@ -1657,7 +1657,7 @@ _placesView
 onpopupshowing
 =
 "
-BookmarksMenuButton
+BookmarkingUI
 .
 onPopupShowing
 (
