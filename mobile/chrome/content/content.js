@@ -3887,6 +3887,13 @@ spec
 else
 if
 (
+this
+.
+_highlightElement
+)
+{
+if
+(
 !
 this
 .
@@ -3896,13 +3903,7 @@ open
 (
 element
 )
-&
-&
-this
-.
-_highlightElement
 )
-{
 sendAsyncMessage
 (
 "
