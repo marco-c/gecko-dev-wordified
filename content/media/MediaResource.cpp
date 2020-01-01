@@ -576,7 +576,7 @@ aContext
 nsIInputStream
 *
 aStream
-uint32_t
+uint64_t
 aOffset
 uint32_t
 aCount
