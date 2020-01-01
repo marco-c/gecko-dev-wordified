@@ -1485,7 +1485,7 @@ bkmk1Id
 =
 bkmkIds
 [
-2
+0
 ]
 ;
 var
@@ -1501,7 +1501,7 @@ bkmk3Id
 =
 bkmkIds
 [
-0
+2
 ]
 ;
 var
@@ -3055,7 +3055,7 @@ b1
 =
 b
 [
-2
+0
 ]
 ;
 var
@@ -3071,7 +3071,7 @@ b3
 =
 b
 [
-0
+2
 ]
 ;
 do_check_eq
