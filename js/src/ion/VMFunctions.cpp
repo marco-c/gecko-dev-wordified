@@ -371,12 +371,10 @@ to
 run
 it
 again
+ForbidCompilation
+(
 script
--
->
-ion
-=
-ION_DISABLED_SCRIPT
+)
 ;
 }
 }
