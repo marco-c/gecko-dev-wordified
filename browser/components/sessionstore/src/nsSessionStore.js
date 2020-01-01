@@ -16311,6 +16311,13 @@ designMode
 "
 on
 "
+&
+&
+aContent
+.
+document
+.
+body
 )
 {
 if
@@ -25325,6 +25332,13 @@ aData
 .
 url
 )
+&
+&
+aContent
+.
+document
+.
+body
 )
 {
 aContent
