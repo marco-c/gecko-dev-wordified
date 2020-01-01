@@ -5087,7 +5087,12 @@ if
 obj
 -
 >
-getParent
+toFunction
+(
+)
+-
+>
+callScope
 (
 )
 !
@@ -9585,7 +9590,12 @@ if
 obj
 -
 >
-getParent
+toFunction
+(
+)
+-
+>
+callScope
 (
 )
 !

@@ -2232,10 +2232,10 @@ ensureRanAnalysis
 (
 cx
 fun
-callee
+fun
 -
 >
-getParent
+callScope
 (
 )
 )
