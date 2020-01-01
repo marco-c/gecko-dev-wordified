@@ -540,13 +540,6 @@ jsprvtd
 .
 h
 "
-#
-include
-"
-jsstdint
-.
-h
-"
 /
 *
 *
@@ -870,7 +863,7 @@ fields
 .
 *
 /
-uint8_t
+uint8
 attrs
 ;
 /
