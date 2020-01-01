@@ -1750,7 +1750,7 @@ gcNumArenasFreeCommitted
 js
 :
 :
-FullGCMarker
+GCMarker
 gcMarker
 ;
 void
