@@ -85,6 +85,10 @@ fail
 .
 *
 /
+this
+.
+safeErrorString
+=
 function
 safeErrorString
 (
@@ -154,6 +158,10 @@ aException
 .
 *
 /
+this
+.
+reportException
+=
 function
 reportException
 (
@@ -366,6 +374,10 @@ moment
 )
 *
 /
+this
+.
+makeInfallible
+=
 function
 makeInfallible
 (
