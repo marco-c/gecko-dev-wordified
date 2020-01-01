@@ -500,6 +500,17 @@ jsinferinlines
 .
 h
 "
+#
+include
+"
+frontend
+/
+TreeContext
+-
+inl
+.
+h
+"
 using
 namespace
 js
