@@ -733,6 +733,16 @@ this
 _fireEventFromMsg
 )
 ;
+addMessageListener
+(
+"
+iconchange
+"
+this
+.
+_fireEventFromMsg
+)
+;
 mm
 .
 loadFrameScript
