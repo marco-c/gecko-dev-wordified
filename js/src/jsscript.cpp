@@ -18374,9 +18374,6 @@ mark
 if
 (
 code
-|
-|
-natoms
 )
 MarkScriptData
 (
