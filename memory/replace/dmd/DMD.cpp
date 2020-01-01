@@ -8787,7 +8787,7 @@ mGroupSize
 const
 GroupSize
 &
-GroupSize
+GetGroupSize
 (
 )
 const
@@ -9976,7 +9976,7 @@ mGroupSize
 const
 GroupSize
 &
-GroupSize
+GetGroupSize
 (
 )
 const
@@ -13408,7 +13408,7 @@ cumulativeUsableSize
 tg
 -
 >
-GroupSize
+GetGroupSize
 (
 )
 .
