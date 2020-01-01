@@ -2168,7 +2168,7 @@ trap
 )
 ;
 return
-false
+NULL
 ;
 }
 bool
