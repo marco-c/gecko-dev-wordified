@@ -11042,6 +11042,8 @@ the
 content
 is
 in
+/
+/
 the
 document
 .
@@ -11087,10 +11089,16 @@ kungFuURIGrip
 mURI
 )
 ;
+nsCString
+contentType
+(
+mContentType
+)
+;
 return
 InstantiatePluginInstance
 (
-mContentType
+contentType
 .
 get
 (

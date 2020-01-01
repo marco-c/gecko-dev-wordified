@@ -568,13 +568,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIPrefLocalizedString
 .
 h
@@ -1593,7 +1586,7 @@ from
 prefs
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 ;
@@ -2733,7 +2726,7 @@ false
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 ;
@@ -5868,7 +5861,7 @@ nsIOService
 :
 GetPrefBranch
 (
-nsIPrefBranch2
+nsIPrefBranch
 *
 *
 result

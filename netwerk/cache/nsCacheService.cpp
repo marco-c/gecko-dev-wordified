@@ -593,13 +593,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsILocalFile
 .
 h
@@ -1790,7 +1783,7 @@ mSmartSize
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 ps
 =
@@ -2104,7 +2097,7 @@ preferences
 observer
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 branch
 =
@@ -2394,7 +2387,7 @@ Service
 observers
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 =

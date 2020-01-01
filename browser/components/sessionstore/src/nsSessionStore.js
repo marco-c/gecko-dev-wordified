@@ -1336,13 +1336,6 @@ browser
 .
 "
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
 ;
 }
 )

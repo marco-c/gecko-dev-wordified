@@ -481,7 +481,7 @@ h
 #
 include
 "
-nsIPrefBranch2
+nsIPrefBranch
 .
 h
 "
@@ -673,7 +673,7 @@ observer
 .
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 =

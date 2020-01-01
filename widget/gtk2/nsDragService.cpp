@@ -2269,7 +2269,7 @@ time
 nsWindow
 :
 :
-GetCurrentEventTime
+GetLastUserInputTime
 (
 )
 ;

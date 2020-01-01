@@ -6260,9 +6260,15 @@ elements
 .
 if
 (
+(
 mType
 &
 NS_HANDLER_TYPE_XUL
+)
+|
+|
+!
+mEventName
 )
 return
 NS_OK

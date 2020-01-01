@@ -3447,6 +3447,8 @@ newValue
 ;
 bool
 tmpPreventCachingOfSandwich
+=
+false
 ;
 nsresult
 rv

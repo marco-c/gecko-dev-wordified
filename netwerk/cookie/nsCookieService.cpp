@@ -546,13 +546,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIPrefService
 .
 h
@@ -5450,7 +5443,7 @@ and
 observer
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 =

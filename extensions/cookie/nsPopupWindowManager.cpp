@@ -456,13 +456,6 @@ nsIPrefBranch
 .
 h
 "
-#
-include
-"
-nsIPrefBranch2
-.
-h
-"
 /
 *
 *
@@ -710,7 +703,7 @@ NS_PERMISSIONMANAGER_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 =
