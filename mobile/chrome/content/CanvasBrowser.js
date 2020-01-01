@@ -2904,6 +2904,12 @@ if
 !
 this
 .
+_isPanning
+&
+&
+!
+this
+.
 _pageLoading
 &
 &
