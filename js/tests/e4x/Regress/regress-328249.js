@@ -446,7 +446,7 @@ js_IsXMLName
 var
 BUGNUMBER
 =
-327897
+328249
 ;
 var
 actual
