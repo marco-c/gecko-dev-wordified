@@ -12880,6 +12880,9 @@ JSOP_POPN
 return
 false
 ;
+#
+ifdef
+JS_METHODJIT
 /
 *
 SplatApplyArgs
@@ -12956,6 +12959,8 @@ return
 false
 ;
 }
+#
+endif
 /
 *
 arguments
