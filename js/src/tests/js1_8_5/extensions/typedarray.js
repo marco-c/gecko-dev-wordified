@@ -2268,6 +2268,13 @@ set
 0
 )
 ;
+empty
+.
+set
+(
+empty
+)
+;
 checkThrows
 (
 function
@@ -2339,6 +2346,13 @@ set
 [
 ]
 9
+)
+;
+a
+.
+set
+(
+a
 )
 ;
 a
