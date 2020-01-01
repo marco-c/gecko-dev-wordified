@@ -847,7 +847,7 @@ if
 wrapper
 -
 >
-isProxy
+isWrapper
 (
 )
 )
