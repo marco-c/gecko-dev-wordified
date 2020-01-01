@@ -1475,10 +1475,10 @@ _status
 )
 ;
 }
-static
 int
 nr_praddr_to_transport_addr
 (
+const
 PRNetAddr
 *
 praddr
