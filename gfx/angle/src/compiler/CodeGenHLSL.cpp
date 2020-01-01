@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2010
+2013
 The
 ANGLE
 Project
@@ -107,7 +107,10 @@ output
 )
 {
 case
-SH_HLSL_OUTPUT
+SH_HLSL9_OUTPUT
+:
+case
+SH_HLSL11_OUTPUT
 :
 return
 new
@@ -115,6 +118,7 @@ TranslatorHLSL
 (
 type
 spec
+output
 )
 ;
 default

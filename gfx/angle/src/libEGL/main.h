@@ -169,7 +169,6 @@ getCurrentReadSurface
 (
 )
 ;
-}
 void
 error
 (
@@ -231,6 +230,7 @@ EGL_SUCCESS
 return
 returnValue
 ;
+}
 }
 #
 endif

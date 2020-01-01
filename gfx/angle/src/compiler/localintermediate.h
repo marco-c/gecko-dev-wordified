@@ -121,8 +121,8 @@ public
 :
 POOL_ALLOCATOR_NEW_DELETE
 (
-GlobalPoolAllocator
 )
+;
 TIntermediate
 (
 TInfoSink
@@ -148,7 +148,9 @@ TString
 const
 TType
 &
+const
 TSourceLoc
+&
 )
 ;
 TIntermTyped
@@ -175,7 +177,9 @@ left
 TIntermTyped
 *
 right
+const
 TSourceLoc
+&
 TSymbolTable
 &
 )
@@ -192,7 +196,9 @@ left
 TIntermTyped
 *
 right
+const
 TSourceLoc
+&
 )
 ;
 TIntermTyped
@@ -207,7 +213,9 @@ base
 TIntermTyped
 *
 index
+const
 TSourceLoc
+&
 )
 ;
 TIntermTyped
@@ -219,7 +227,9 @@ op
 TIntermNode
 *
 child
+const
 TSourceLoc
+&
 TSymbolTable
 &
 )
@@ -234,7 +244,9 @@ left
 TIntermNode
 *
 right
+const
 TSourceLoc
+&
 )
 ;
 TIntermAggregate
@@ -244,7 +256,9 @@ makeAggregate
 TIntermNode
 *
 node
+const
 TSourceLoc
+&
 )
 ;
 TIntermAggregate
@@ -254,7 +268,9 @@ setAggregateOperator
 TIntermNode
 *
 TOperator
+const
 TSourceLoc
+&
 )
 ;
 TIntermNode
@@ -266,7 +282,9 @@ TIntermTyped
 cond
 TIntermNodePair
 code
+const
 TSourceLoc
+&
 )
 ;
 TIntermTyped
@@ -282,7 +300,9 @@ trueBlock
 TIntermTyped
 *
 falseBlock
+const
 TSourceLoc
+&
 )
 ;
 TIntermTyped
@@ -295,7 +315,9 @@ left
 TIntermTyped
 *
 right
+const
 TSourceLoc
+&
 )
 ;
 TIntermConstantUnion
@@ -307,7 +329,9 @@ ConstantUnion
 const
 TType
 &
+const
 TSourceLoc
+&
 )
 ;
 TIntermTyped
@@ -322,7 +346,9 @@ TIntermConstantUnion
 bool
 parseConstTree
 (
+const
 TSourceLoc
+&
 TIntermNode
 *
 ConstantUnion
@@ -350,7 +376,9 @@ TIntermTyped
 *
 TIntermNode
 *
+const
 TSourceLoc
+&
 )
 ;
 TIntermBranch
@@ -358,7 +386,9 @@ TIntermBranch
 addBranch
 (
 TOperator
+const
 TSourceLoc
+&
 )
 ;
 TIntermBranch
@@ -368,7 +398,9 @@ addBranch
 TOperator
 TIntermTyped
 *
+const
 TSourceLoc
+&
 )
 ;
 TIntermTyped
@@ -377,7 +409,9 @@ addSwizzle
 (
 TVectorFields
 &
+const
 TSourceLoc
+&
 )
 ;
 bool
@@ -401,12 +435,6 @@ TIntermNode
 *
 )
 ;
-protected
-:
-TInfoSink
-&
-infoSink
-;
 private
 :
 void
@@ -421,6 +449,10 @@ TIntermediate
 /
 prevent
 assignments
+TInfoSink
+&
+infoSink
+;
 }
 ;
 #

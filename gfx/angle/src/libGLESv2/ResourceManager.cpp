@@ -1,3 +1,10 @@
+#
+include
+"
+precompiled
+.
+h
+"
 /
 /
 /
@@ -136,11 +143,21 @@ ResourceManager
 :
 ResourceManager
 (
+rx
+:
+:
+Renderer
+*
+renderer
 )
 {
 mRefCount
 =
 1
+;
+mRenderer
+=
+renderer
 ;
 }
 ResourceManager
@@ -383,6 +400,7 @@ new
 VertexShader
 (
 this
+mRenderer
 handle
 )
 ;
@@ -405,6 +423,7 @@ new
 FragmentShader
 (
 this
+mRenderer
 handle
 )
 ;
@@ -452,6 +471,7 @@ handle
 new
 Program
 (
+mRenderer
 this
 handle
 )
@@ -1242,6 +1262,7 @@ bufferObject
 new
 Buffer
 (
+mRenderer
 buffer
 )
 ;
@@ -1305,6 +1326,7 @@ textureObject
 new
 Texture2D
 (
+mRenderer
 texture
 )
 ;
@@ -1323,6 +1345,7 @@ textureObject
 new
 TextureCubeMap
 (
+mRenderer
 texture
 )
 ;
@@ -1384,10 +1407,12 @@ renderbufferObject
 new
 Renderbuffer
 (
+mRenderer
 renderbuffer
 new
 Colorbuffer
 (
+mRenderer
 0
 0
 GL_RGBA4

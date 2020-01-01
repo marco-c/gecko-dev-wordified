@@ -2863,7 +2863,9 @@ TSymbolTable
 &
 symbolTable
 =
-GlobalParseContext
+GetGlobalParseContext
+(
+)
 -
 >
 symbolTable

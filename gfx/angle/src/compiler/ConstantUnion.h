@@ -64,6 +64,10 @@ ConstantUnion
 {
 public
 :
+POOL_ALLOCATOR_NEW_DELETE
+(
+)
+;
 ConstantUnion
 (
 )
@@ -77,10 +81,6 @@ type
 EbtVoid
 ;
 }
-POOL_ALLOCATOR_NEW_DELETE
-(
-GlobalPoolAllocator
-)
 void
 setIConst
 (

@@ -95,6 +95,15 @@ writeVariablePrecision
 TPrecision
 )
 ;
+virtual
+void
+visitSymbol
+(
+TIntermSymbol
+*
+node
+)
+;
 }
 ;
 #
