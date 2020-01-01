@@ -2094,6 +2094,7 @@ NULL
 ;
 XRE_AddComponentLocation
 (
+NS_COMPONENT_LOCATION
 NULL
 )
 ;
