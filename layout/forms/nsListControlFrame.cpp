@@ -17761,6 +17761,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 FireMenuItemActiveEvent
 (
 )
@@ -17773,6 +17776,8 @@ if
 new
 item
 reached
+#
+endif
 }
 break
 ;
