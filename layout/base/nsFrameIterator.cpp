@@ -134,7 +134,7 @@ nsIFrame
 aStart
 nsIteratorType
 aType
-uint32_t
+PRUint32
 aFlags
 )
 :
@@ -156,6 +156,9 @@ mFollowOOFs
 (
 aFlags
 &
+FrameIteratorFlags
+:
+:
 FLAG_FOLLOW_OUT_OF_FLOW
 )
 !
@@ -167,6 +170,9 @@ mLockScroll
 (
 aFlags
 &
+FrameIteratorFlags
+:
+:
 FLAG_LOCK_SCROLL
 )
 !
@@ -178,6 +184,9 @@ mVisual
 (
 aFlags
 &
+FrameIteratorFlags
+:
+:
 FLAG_VISUAL
 )
 !

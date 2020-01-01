@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsBidi
 .
 h
@@ -169,6 +162,9 @@ BidiParagraphData
 ;
 struct
 BidiLineData
+;
+class
+nsIFrame
 ;
 /
 *

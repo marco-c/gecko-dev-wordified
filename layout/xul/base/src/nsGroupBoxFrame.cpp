@@ -346,7 +346,7 @@ return
 true
 ;
 }
-nsIBox
+nsIFrame
 *
 GetCaptionBox
 (
@@ -760,7 +760,7 @@ PresContext
 nsRect
 groupRect
 ;
-nsIBox
+nsIFrame
 *
 groupBox
 =
@@ -1153,7 +1153,7 @@ skipSides
 ;
 }
 }
-nsIBox
+nsIFrame
 *
 nsGroupBoxFrame
 :
@@ -1176,7 +1176,7 @@ is
 our
 grouped
 area
-nsIBox
+nsIFrame
 *
 box
 =
@@ -1252,7 +1252,7 @@ the
 caption
 frame
 .
-nsIBox
+nsIFrame
 *
 child
 =

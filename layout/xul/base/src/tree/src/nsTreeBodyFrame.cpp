@@ -1149,7 +1149,7 @@ bool
 widthSet
 heightSet
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMinSize

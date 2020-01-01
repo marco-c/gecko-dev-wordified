@@ -259,9 +259,6 @@ nsLeafBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-/
-/
-nsIBox
 virtual
 nsSize
 GetPrefSize
@@ -308,11 +305,6 @@ nsStyleContext
 aContext
 )
 ;
-/
-/
-nsIBox
-frame
-interface
 NS_IMETHOD
 Init
 (

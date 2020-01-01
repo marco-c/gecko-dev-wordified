@@ -384,9 +384,6 @@ ReflowCallbackCanceled
 (
 )
 ;
-/
-/
-nsIBox
 NS_IMETHOD
 DoLayout
 (
@@ -595,7 +592,7 @@ PRInt32
 aRowsToLose
 )
 ;
-nsIBox
+nsIFrame
 *
 GetFirstItemBox
 (
@@ -606,11 +603,11 @@ bool
 aCreated
 )
 ;
-nsIBox
+nsIFrame
 *
 GetNextItemBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32

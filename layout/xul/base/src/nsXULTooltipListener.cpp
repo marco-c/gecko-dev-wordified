@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIPopupBoxObject
 .
 h

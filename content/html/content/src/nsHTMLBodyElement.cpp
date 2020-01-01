@@ -196,13 +196,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

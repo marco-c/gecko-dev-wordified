@@ -300,13 +300,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -343,6 +336,13 @@ h
 include
 "
 txError
+.
+h
+"
+#
+include
+"
+nsIFrame
 .
 h
 "

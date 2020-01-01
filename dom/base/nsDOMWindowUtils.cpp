@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsIDOMNSEvent
+nsIDOMEvent
 .
 h
 "

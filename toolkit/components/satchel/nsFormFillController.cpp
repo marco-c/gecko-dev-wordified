@@ -243,13 +243,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h
@@ -302,13 +295,6 @@ h
 include
 "
 nsIDOMNSEditableElement
-.
-h
-"
-#
-include
-"
-nsIDOMNSEvent
 .
 h
 "

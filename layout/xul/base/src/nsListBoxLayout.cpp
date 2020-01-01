@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsBox
 .
 h
@@ -206,7 +199,7 @@ nsListBoxLayout
 :
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -395,7 +388,7 @@ nsListBoxLayout
 :
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -584,7 +577,7 @@ nsListBoxLayout
 :
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -726,7 +719,7 @@ nsListBoxLayout
 :
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -802,7 +795,7 @@ nsListBoxLayout
 :
 LayoutInternal
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -964,7 +957,7 @@ our
 currently
 created
 children
-nsIBox
+nsIFrame
 *
 box
 =

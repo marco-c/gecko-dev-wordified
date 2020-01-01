@@ -392,13 +392,6 @@ size
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

@@ -1050,7 +1050,7 @@ RelayoutChildAtOrdinal
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 )
@@ -2065,7 +2065,7 @@ bool
 widthSet
 heightSet
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSPrefSize
@@ -2158,7 +2158,7 @@ bool
 widthSet
 heightSet
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMinSize
@@ -2250,7 +2250,7 @@ bool
 widthSet
 heightSet
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMaxSize
@@ -2281,7 +2281,7 @@ flex
 =
 0
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSFlex
@@ -2956,12 +2956,12 @@ NS_OK
 ;
 }
 bool
-nsIBox
+nsIFrame
 :
 :
 AddCSSPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -3458,7 +3458,7 @@ aHeightSet
 ;
 }
 bool
-nsIBox
+nsIFrame
 :
 :
 AddCSSMinSize
@@ -3466,7 +3466,7 @@ AddCSSMinSize
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -4284,12 +4284,12 @@ aHeightSet
 ;
 }
 bool
-nsIBox
+nsIFrame
 :
 :
 AddCSSMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -4654,7 +4654,7 @@ aHeightSet
 ;
 }
 bool
-nsIBox
+nsIFrame
 :
 :
 AddCSSFlex
@@ -4662,7 +4662,7 @@ AddCSSFlex
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aBox
 nscoord
@@ -4832,7 +4832,7 @@ nsBox
 :
 AddBorderAndPadding
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -4870,7 +4870,7 @@ nsBox
 :
 AddMargin
 (
-nsIBox
+nsIFrame
 *
 aChild
 nsSize
@@ -5120,7 +5120,7 @@ const
 nsPoint
 &
 aPoint
-nsIBox
+nsIFrame
 *
 *
 aBox
@@ -5152,7 +5152,7 @@ aPoint
 return
 NS_ERROR_FAILURE
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -5160,7 +5160,7 @@ GetChildBox
 (
 )
 ;
-nsIBox
+nsIFrame
 *
 hit
 =

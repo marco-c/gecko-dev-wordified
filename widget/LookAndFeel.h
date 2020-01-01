@@ -720,6 +720,16 @@ bar
 eIntID_MenusCanOverlapOSBar
 /
 /
+show
+/
+hide
+scrollbars
+based
+on
+activity
+eIntID_ShowHideScrollbars
+/
+/
 skip
 navigating
 to

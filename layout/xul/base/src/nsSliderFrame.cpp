@@ -356,7 +356,7 @@ nsIContent
 >
 GetContentOfBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -1117,7 +1117,7 @@ bounds
 check
 it
 .
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -1544,7 +1544,7 @@ t
 paint
 it
 .
-nsIBox
+nsIFrame
 *
 thumb
 =
@@ -1650,7 +1650,7 @@ be
 our
 only
 child
-nsIBox
+nsIFrame
 *
 thumbBox
 =
@@ -1731,7 +1731,7 @@ clientRect
 get
 the
 scrollbar
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -2271,7 +2271,7 @@ return
 NS_OK
 ;
 }
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -3403,7 +3403,7 @@ false
 #
 endif
 }
-nsIBox
+nsIFrame
 *
 nsSliderFrame
 :
@@ -3544,7 +3544,7 @@ our
 own
 node
 .
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -3709,7 +3709,7 @@ bool
 aImmediateRedraw
 )
 {
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -4582,7 +4582,7 @@ scrollbar
 =
 aScrollbar
 ;
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -5191,7 +5191,7 @@ thumbLength
 2
 )
 ;
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -6016,7 +6016,7 @@ EnsureOrient
 (
 )
 {
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =

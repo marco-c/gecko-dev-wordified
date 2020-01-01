@@ -494,13 +494,6 @@ h
 #
 include
 "
-nsIFrameTraversal
-.
-h
-"
-#
-include
-"
 nsLayoutCID
 .
 h
@@ -744,13 +737,6 @@ NS_USER_INTERACTION_INTERVAL
 /
 /
 ms
-static
-NS_DEFINE_CID
-(
-kFrameTraversalCID
-NS_FRAMETRAVERSAL_CID
-)
-;
 static
 bool
 sLeftClickOnly
@@ -13608,7 +13594,7 @@ GetContainer
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 window
 =

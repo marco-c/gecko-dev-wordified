@@ -453,13 +453,6 @@ h
 #
 include
 "
-nsIDOMNSEvent
-.
-h
-"
-#
-include
-"
 nsIDOMCharacterData
 .
 h
