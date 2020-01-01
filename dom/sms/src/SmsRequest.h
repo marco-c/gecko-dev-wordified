@@ -526,6 +526,7 @@ eNoError
 =
 0
 eNoSignalError
+eNotFoundError
 eUnknownError
 eInternalError
 }

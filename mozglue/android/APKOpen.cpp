@@ -2367,6 +2367,14 @@ jint
 jlong
 )
 ;
+SHELL_WRAPPER3
+(
+notifyGetSmsFailed
+jint
+jint
+jlong
+)
+;
 static
 void
 *
@@ -4757,6 +4765,11 @@ notifySmsSendFailed
 GETFUNC
 (
 notifyGetSms
+)
+;
+GETFUNC
+(
+notifyGetSmsFailed
 )
 ;
 #
