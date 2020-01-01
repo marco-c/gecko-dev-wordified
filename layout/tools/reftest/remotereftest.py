@@ -3782,7 +3782,7 @@ else
             
 dm
 =
-dm_auto
+dm_none
     
 else
 :
