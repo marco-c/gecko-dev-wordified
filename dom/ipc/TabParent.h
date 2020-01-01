@@ -305,6 +305,16 @@ dom
 ClonedMessageData
 ClonedMessageData
 ;
+typedef
+mozilla
+:
+:
+layout
+:
+:
+ScrollingBehavior
+ScrollingBehavior
+;
 public
 :
 TabParent

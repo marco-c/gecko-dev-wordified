@@ -4958,7 +4958,11 @@ forget
 get
 (
 )
+IPCTabContext
+(
 context
+mScrolling
+)
 /
 *
 chromeFlags
