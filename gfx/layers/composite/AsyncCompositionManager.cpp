@@ -3983,7 +3983,7 @@ aOffset
 {
 #
 ifdef
-MOZ_ANDROID_WIDGET
+MOZ_WIDGET_ANDROID
 AndroidBridge
 :
 :
