@@ -5087,10 +5087,6 @@ mParentWN
 (
 aParentWN
 )
-mCallbackCount
-(
-0
-)
 mLock
 (
 nsnull

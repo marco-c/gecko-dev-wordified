@@ -3929,7 +3929,6 @@ if
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 |
 |
@@ -4072,7 +4071,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -8228,7 +8226,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -8581,12 +8578,6 @@ growth
 sizeof
 (
 jschar
-)
-;
-JS_COUNT_OPERATION
-(
-cx
-JSOW_ALLOCATION
 )
 ;
 if
@@ -9220,7 +9211,6 @@ if
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 |
 |
@@ -9728,7 +9718,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -10912,7 +10901,6 @@ if
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 )
 return
@@ -11152,7 +11140,6 @@ JSContext
 *
 )
 arg
-JSOW_JUMP
 )
 )
 return
@@ -11767,7 +11754,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 ;
 if
@@ -12342,7 +12328,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 ;
 if
@@ -12828,7 +12813,6 @@ if
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 |
 |
@@ -12880,7 +12864,6 @@ if
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 |
 |
@@ -13938,7 +13921,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -14162,7 +14144,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -14754,7 +14735,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -14927,7 +14907,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -15014,7 +14993,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -15556,7 +15534,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 ;
 if
@@ -15698,7 +15675,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -16239,7 +16215,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
@@ -16591,7 +16566,6 @@ if
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 |
 |
@@ -17366,7 +17340,6 @@ ok
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_JUMP
 )
 &
 &
