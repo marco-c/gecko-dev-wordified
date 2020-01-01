@@ -9392,6 +9392,7 @@ importJSONNode
 child
 container
 index
+0
 )
 ;
 for
@@ -9445,6 +9446,7 @@ this
 ;
 }
 else
+{
 this
 .
 importJSONNode
@@ -9456,8 +9458,10 @@ placesRootId
 node
 .
 index
+0
 )
 ;
+}
 }
 PlacesUtils
 )
@@ -9664,6 +9668,7 @@ PU_importJSONNode
 aData
 aContainer
 aIndex
+aGrandParentId
 )
 {
 var
@@ -9982,6 +9987,7 @@ importJSONNode
 aChild
 id
 aIndex
+aContainer
 )
 ;
 for
@@ -10382,6 +10388,22 @@ id
 =
 -
 1
+&
+&
+aContainer
+!
+=
+PlacesUtils
+.
+tagsFolderId
+&
+&
+aGrandParentId
+!
+=
+PlacesUtils
+.
+tagsFolderId
 )
 {
 if
