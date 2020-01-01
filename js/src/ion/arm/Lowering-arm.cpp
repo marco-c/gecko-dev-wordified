@@ -1273,7 +1273,7 @@ inner
 LUse
 :
 :
-ANY
+REGISTER
 )
 )
 ;
