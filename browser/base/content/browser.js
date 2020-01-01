@@ -51361,6 +51361,7 @@ StyleEditorManager
 newEditor
 (
 contentWindow
+window
 aSelectedStyleSheet
 aLine
 aCol
@@ -51384,6 +51385,7 @@ toggleEditor
 gBrowser
 .
 contentWindow
+window
 )
 ;
 }

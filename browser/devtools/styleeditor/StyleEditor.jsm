@@ -7761,6 +7761,14 @@ window
 *
 param
 {
+Window
+}
+chrome
+window
+.
+*
+param
+{
 CSSStyleSheet
 }
 [
@@ -7821,6 +7829,7 @@ function
 SEM_newEditor
 (
 aContentWindow
+aChromeWindow
 aSelectedStyleSheet
 aLine
 aCol
@@ -7888,7 +7897,7 @@ ww
 .
 openWindow
 (
-null
+aChromeWindow
 CHROME_URL
 "
 _blank
@@ -7990,6 +7999,7 @@ function
 SEM_toggleEditor
 (
 aContentWindow
+aChromeWindow
 )
 {
 let
@@ -8021,6 +8031,7 @@ this
 newEditor
 (
 aContentWindow
+aChromeWindow
 )
 ;
 }
