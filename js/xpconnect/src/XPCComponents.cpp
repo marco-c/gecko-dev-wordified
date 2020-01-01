@@ -596,6 +596,17 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+jscntxt
+.
+h
+"
+/
+/
+AutoObjectRooter
+AutoIdArray
 using
 namespace
 mozilla

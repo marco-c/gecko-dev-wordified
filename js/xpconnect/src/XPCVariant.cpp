@@ -461,6 +461,16 @@ XPCWrapper
 .
 h
 "
+#
+include
+"
+jscntxt
+.
+h
+"
+/
+/
+JS_CHECK_RECURSION
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 XPCVariant

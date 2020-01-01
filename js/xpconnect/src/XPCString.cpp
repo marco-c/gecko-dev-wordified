@@ -552,6 +552,16 @@ nsStringBuffer
 .
 h
 "
+#
+include
+"
+jscntxt
+.
+h
+"
+/
+/
+emptyAtom
 static
 int
 sDOMStringFinalizerIndex
