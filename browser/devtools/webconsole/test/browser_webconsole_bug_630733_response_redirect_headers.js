@@ -184,7 +184,9 @@ set
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 requestDoneCallback
 ;
@@ -251,7 +253,9 @@ getHeaders
 {
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 null
 ;

@@ -350,7 +350,9 @@ finishTest
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 null
 ;
@@ -410,7 +412,9 @@ null
 {
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 performTest
 ;

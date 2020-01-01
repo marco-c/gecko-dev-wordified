@@ -117,7 +117,7 @@ console
 "
 )
 ;
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (

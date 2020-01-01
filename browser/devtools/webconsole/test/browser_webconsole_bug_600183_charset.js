@@ -149,7 +149,9 @@ logged
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 null
 ;
@@ -261,7 +263,9 @@ string
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 null
 ;
@@ -372,7 +376,9 @@ set
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 performTest
 ;

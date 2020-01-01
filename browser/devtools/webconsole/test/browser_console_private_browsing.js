@@ -771,7 +771,7 @@ closed
 ;
 privateWindow
 .
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (
@@ -1027,7 +1027,7 @@ console
 ;
 privateWindow
 .
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (
@@ -1056,7 +1056,7 @@ executeSoon
 )
 =
 >
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (

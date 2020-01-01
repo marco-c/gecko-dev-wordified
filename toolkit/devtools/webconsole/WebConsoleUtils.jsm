@@ -1651,6 +1651,7 @@ try
 {
 if
 (
+(
 desc
 =
 Object
@@ -1659,6 +1660,7 @@ getOwnPropertyDescriptor
 (
 aObject
 aProp
+)
 )
 )
 {
@@ -7704,7 +7706,6 @@ window
 .
 document
 ;
-let
 aContext
 =
 aContext
@@ -7735,12 +7736,14 @@ node
 ;
 while
 (
+(
 node
 =
 results
 .
 iterateNext
 (
+)
 )
 )
 {
@@ -8406,6 +8409,7 @@ helperFuncUnsupportedTypeError
 }
 ;
 return
+null
 ;
 }
 aOwner

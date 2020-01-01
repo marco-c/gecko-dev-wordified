@@ -420,7 +420,7 @@ closed
 "
 )
 ;
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (

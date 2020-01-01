@@ -152,7 +152,7 @@ onLoad
 true
 )
 ;
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (

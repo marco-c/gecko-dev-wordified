@@ -289,7 +289,9 @@ aHud
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 requestCallbackWrapper
 ;
@@ -1378,7 +1380,9 @@ null
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 null
 ;

@@ -123,7 +123,7 @@ cached
 "
 )
 ;
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (
