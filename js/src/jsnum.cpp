@@ -6054,8 +6054,8 @@ hook
 .
 *
 /
-JSAutoTempValueRooter
-tvr
+AutoValueRooter
+gcr
 (
 cx
 v
@@ -6071,7 +6071,7 @@ defaultValue
 (
 cx
 JSTYPE_NUMBER
-tvr
+gcr
 .
 addr
 (
@@ -6088,7 +6088,7 @@ v
 *
 vp
 =
-tvr
+gcr
 .
 value
 (
