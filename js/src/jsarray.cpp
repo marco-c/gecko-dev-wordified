@@ -22741,8 +22741,9 @@ setFixedElements
 obj
 -
 >
-setDenseArrayLength
+setArrayLength
 (
+cx
 length
 )
 ;
