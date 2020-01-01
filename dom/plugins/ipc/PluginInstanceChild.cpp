@@ -15975,7 +15975,9 @@ deviceOffset
 -
 targetRect
 .
-pos
+TopLeft
+(
+)
 ;
 /
 /
@@ -16122,7 +16124,9 @@ gfxPoint
 )
 targetRect
 .
-size
+Size
+(
+)
 )
 ;
 nsRefPtr

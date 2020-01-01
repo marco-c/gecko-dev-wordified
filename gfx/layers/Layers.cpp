@@ -2195,9 +2195,9 @@ x
 -
 aSnapRect
 .
-pos
-.
-x
+X
+(
+)
 *
 snappedMatrix
 .
@@ -2213,9 +2213,9 @@ y
 -
 aSnapRect
 .
-pos
-.
-y
+Y
+(
+)
 *
 snappedMatrix
 .

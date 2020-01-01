@@ -4377,7 +4377,9 @@ MoveBy
 -
 rect
 .
-pos
+TopLeft
+(
+)
 )
 ;
 /
@@ -4757,7 +4759,9 @@ Translate
 (
 rect
 .
-pos
+TopLeft
+(
+)
 +
 gfxPoint
 (
