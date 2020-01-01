@@ -11587,6 +11587,8 @@ FindLineContaining
 nsIFrame
 *
 aFrame
+PRInt32
+aStartLine
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -11619,7 +11621,9 @@ row
 "
 )
 ;
-return
+PRInt32
+rowIndexInGroup
+=
 rowFrame
 -
 >
@@ -11630,6 +11634,17 @@ GetRowIndex
 GetStartRowIndex
 (
 )
+;
+return
+rowIndexInGroup
+>
+=
+aStartLine
+?
+rowIndexInGroup
+:
+-
+1
 ;
 }
 #
