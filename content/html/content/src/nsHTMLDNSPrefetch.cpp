@@ -462,6 +462,13 @@ NeckoChild
 h
 "
 #
+include
+"
+nsURLHelper
+.
+h
+"
+#
 endif
 #
 include
@@ -488,13 +495,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-nsURLHelper
 .
 h
 "

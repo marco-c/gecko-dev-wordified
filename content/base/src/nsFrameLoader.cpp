@@ -4433,7 +4433,8 @@ false
 /
 FIXME
 /
-cjones
+bug
+589337
 :
 Show
 (
@@ -4446,11 +4447,11 @@ is
 pretty
 expensive
 for
+/
+/
 cross
 -
 process
-/
-/
 layers
 ;
 need
@@ -4461,11 +4462,11 @@ what
 behavior
 we
 really
+/
+/
 want
 here
 .
-/
-/
 For
 now
 hack
