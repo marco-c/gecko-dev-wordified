@@ -858,6 +858,7 @@ nsresult
 aStatus
 )
 ;
+virtual
 nsresult
 ProcessMETATag
 (
