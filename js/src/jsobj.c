@@ -9207,7 +9207,7 @@ obj2
 OBJ_GET_CLASS
 (
 cx
-obj2
+obj
 )
 =
 =
