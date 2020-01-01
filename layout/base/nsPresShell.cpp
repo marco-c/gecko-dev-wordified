@@ -24869,12 +24869,11 @@ GetPosition
 ;
 container
 =
-nsLayoutUtils
-:
-:
-GetCrossDocParentFrame
-(
 container
+-
+>
+GetParent
+(
 )
 ;
 }
