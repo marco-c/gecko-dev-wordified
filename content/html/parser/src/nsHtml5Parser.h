@@ -1510,6 +1510,12 @@ ScriptDidExecute
 (
 )
 ;
+virtual
+PRBool
+CanInterrupt
+(
+)
+;
 /
 *
 End
