@@ -5156,6 +5156,10 @@ NS_DEFINE_EVENT_CTOR
 (
 WheelEvent
 )
+NS_DEFINE_EVENT_CTOR
+(
+ClipboardEvent
+)
 #
 define
 MOZ_GENERATED_EVENT_LIST
@@ -5267,6 +5271,10 @@ MouseEvent
 NS_DEFINE_EVENT_CONSTRUCTOR_FUNC_DATA
 (
 WheelEvent
+)
+NS_DEFINE_EVENT_CONSTRUCTOR_FUNC_DATA
+(
+ClipboardEvent
 )
 #
 ifdef

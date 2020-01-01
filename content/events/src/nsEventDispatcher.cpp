@@ -4253,6 +4253,7 @@ return
 NS_NewDOMClipboardEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
