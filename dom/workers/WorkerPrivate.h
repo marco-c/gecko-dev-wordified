@@ -1870,6 +1870,12 @@ JSContext
 *
 mJSContext
 ;
+nsRefPtr
+<
+WorkerCrossThreadDispatcher
+>
+mCrossThreadDispatcher
+;
 /
 /
 Things
@@ -2442,6 +2448,12 @@ const
 }
 #
 endif
+WorkerCrossThreadDispatcher
+*
+GetCrossThreadDispatcher
+(
+)
+;
 private
 :
 WorkerPrivate
