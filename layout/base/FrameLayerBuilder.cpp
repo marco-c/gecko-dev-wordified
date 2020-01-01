@@ -10127,7 +10127,7 @@ GetTransform
 gfx3DMatrix
 :
 :
-Scale
+ScalingMatrix
 (
 mParameters
 .
@@ -11952,7 +11952,7 @@ transform
 gfx3DMatrix
 :
 :
-Scale
+ScalingMatrix
 (
 aIncomingScale
 .
@@ -12361,7 +12361,7 @@ transform
 gfx3DMatrix
 :
 :
-Scale
+ScalingMatrix
 (
 1
 .

@@ -3843,7 +3843,7 @@ GetTransform
 gfx3DMatrix
 :
 :
-Scale
+ScalingMatrix
 (
 1
 .

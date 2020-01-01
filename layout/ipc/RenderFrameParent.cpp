@@ -688,7 +688,7 @@ return
 gfx3DMatrix
 :
 :
-Scale
+ScalingMatrix
 (
 mXScale
 mYScale
