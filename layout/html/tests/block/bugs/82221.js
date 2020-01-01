@@ -1,9 +1,0 @@
-/
-*
-This
-script
-does
-nothing
-.
-*
-/
