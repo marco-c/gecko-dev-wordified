@@ -24762,7 +24762,7 @@ ifdef
 DEBUG
 for
 (
-GCCompartmentsIter
+CompartmentsIter
 c
 (
 rt
@@ -24782,16 +24782,6 @@ next
 )
 )
 {
-JS_ASSERT
-(
-c
--
->
-isCollecting
-(
-)
-)
-;
 JS_ASSERT
 (
 !
