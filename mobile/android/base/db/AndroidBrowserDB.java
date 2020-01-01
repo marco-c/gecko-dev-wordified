@@ -1351,9 +1351,8 @@ close
 return
 (
 count
-=
-=
-1
+>
+0
 )
 ;
 }

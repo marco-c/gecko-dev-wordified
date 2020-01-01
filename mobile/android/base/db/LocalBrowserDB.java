@@ -2705,7 +2705,10 @@ cr
 .
 query
 (
-mBookmarksUriWithProfile
+bookmarksUriWithLimit
+(
+1
+)
 new
 String
 [
@@ -2794,9 +2797,8 @@ uri
 return
 (
 count
-=
-=
-1
+>
+0
 )
 ;
 }
