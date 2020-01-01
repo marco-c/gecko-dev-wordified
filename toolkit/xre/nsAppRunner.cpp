@@ -13187,6 +13187,15 @@ buildID
 )
 )
 ;
+CrashReporter
+:
+:
+SetRestartArgs
+(
+argc
+argv
+)
+;
 }
 #
 endif
