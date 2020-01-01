@@ -2993,7 +2993,7 @@ return
 str
 ;
 }
-static
+JS_ALWAYS_INLINE
 bool
 IsString
 (
@@ -3137,7 +3137,7 @@ return
 true
 ;
 }
-static
+JS_ALWAYS_INLINE
 bool
 str_toSource_impl
 (
@@ -3282,7 +3282,6 @@ return
 true
 ;
 }
-static
 JSBool
 str_toSource
 (
@@ -3307,10 +3306,12 @@ vp
 ;
 return
 CallNonGenericMethod
-(
-cx
+<
 IsString
 str_toSource_impl
+>
+(
+cx
 args
 )
 ;
@@ -3322,7 +3323,7 @@ endif
 JS_HAS_TOSOURCE
 *
 /
-static
+JS_ALWAYS_INLINE
 bool
 str_toString_impl
 (
@@ -3420,10 +3421,12 @@ vp
 ;
 return
 CallNonGenericMethod
-(
-cx
+<
 IsString
 str_toString_impl
+>
+(
+cx
 args
 )
 ;

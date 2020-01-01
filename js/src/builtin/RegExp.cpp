@@ -1945,7 +1945,7 @@ return
 true
 ;
 }
-static
+JS_ALWAYS_INLINE
 bool
 IsRegExp
 (
@@ -1976,7 +1976,7 @@ RegExpClass
 )
 ;
 }
-static
+JS_ALWAYS_INLINE
 bool
 regexp_compile_impl
 (
@@ -2028,7 +2028,6 @@ args
 )
 ;
 }
-static
 JSBool
 regexp_compile
 (
@@ -2053,10 +2052,12 @@ vp
 ;
 return
 CallNonGenericMethod
-(
-cx
+<
 IsRegExp
 regexp_compile_impl
+>
+(
+cx
 args
 )
 ;
@@ -2196,7 +2197,7 @@ args
 )
 ;
 }
-static
+JS_ALWAYS_INLINE
 bool
 regexp_toString_impl
 (
@@ -2265,7 +2266,6 @@ return
 true
 ;
 }
-static
 JSBool
 regexp_toString
 (
@@ -2290,10 +2290,12 @@ vp
 ;
 return
 CallNonGenericMethod
-(
-cx
+<
 IsRegExp
 regexp_toString_impl
+>
+(
+cx
 args
 )
 ;
