@@ -32920,7 +32920,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_HMK
+VARIANT_HK
 |
 VARIANT_SYSFONT
 nsCSSProps
@@ -32936,7 +32936,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_HMK
+VARIANT_HK
 |
 VARIANT_SYSFONT
 nsCSSProps
@@ -33262,7 +33262,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_AHK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -46494,7 +46494,7 @@ if
 ParseVariant
 (
 overflow
-VARIANT_AHK
+VARIANT_HK
 nsCSSProps
 :
 :
