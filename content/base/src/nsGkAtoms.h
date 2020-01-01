@@ -143,13 +143,9 @@ nsGkAtoms_h___
 #
 define
 nsGkAtoms_h___
-#
-include
-"
+class
 nsIAtom
-.
-h
-"
+;
 class
 nsGkAtoms
 {

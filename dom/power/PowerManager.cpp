@@ -165,6 +165,13 @@ nsServiceManagerUtils
 .
 h
 "
+#
+include
+"
+nsDOMError
+.
+h
+"
 DOMCI_DATA
 (
 MozPowerManager

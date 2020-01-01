@@ -460,6 +460,13 @@ nsAttrValueOrString
 .
 h
 "
+#
+include
+"
+nsSMILAnimationController
+.
+h
+"
 using
 namespace
 mozilla

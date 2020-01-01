@@ -352,6 +352,9 @@ class
 nsIControllers
 ;
 class
+nsEventChainVisitor
+;
+class
 nsEventListenerManager
 ;
 class

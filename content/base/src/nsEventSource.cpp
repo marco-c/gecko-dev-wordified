@@ -302,6 +302,13 @@ nsDOMClassInfoID
 .
 h
 "
+#
+include
+"
+nsDOMError
+.
+h
+"
 using
 namespace
 mozilla

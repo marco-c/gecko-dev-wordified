@@ -455,6 +455,13 @@ ScrollbarActivity
 .
 h
 "
+#
+include
+"
+nsRefreshDriver
+.
+h
+"
 using
 namespace
 mozilla

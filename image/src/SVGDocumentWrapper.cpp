@@ -233,6 +233,13 @@ h
 #
 include
 "
+nsSMILAnimationController
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

@@ -142,6 +142,13 @@ dombindings
 .
 h
 "
+#
+include
+"
+nsDOMError
+.
+h
+"
 /
 /
 local
