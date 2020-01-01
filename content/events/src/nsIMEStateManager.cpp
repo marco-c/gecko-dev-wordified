@@ -1543,7 +1543,7 @@ rv
 vm
 -
 >
-GetWidget
+GetRootWidget
 (
 getter_AddRefs
 (
@@ -2834,7 +2834,7 @@ rv
 vm
 -
 >
-GetWidget
+GetRootWidget
 (
 getter_AddRefs
 (
