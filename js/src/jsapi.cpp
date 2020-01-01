@@ -22777,6 +22777,17 @@ ida
 length
 )
 ;
+STATIC_ASSUME
+(
+i
+<
+=
+ida
+-
+>
+length
+)
+;
 if
 (
 i

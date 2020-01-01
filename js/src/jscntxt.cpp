@@ -1493,6 +1493,17 @@ getPreviousInMemory
 )
 )
 {
+STATIC_ASSERT
+(
+ubound
+(
+end
+)
+>
+=
+0
+)
+;
 if
 (
 seg

@@ -2184,6 +2184,15 @@ arenaIndex
 ]
 ;
 }
+STATIC_POSTCONDITION_ASSUME
+(
+return
+<
+ArenaBitmap
+:
+:
+BitCount
+)
 size_t
 Cell
 :

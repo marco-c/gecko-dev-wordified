@@ -498,6 +498,7 @@ h
 struct
 JSFrameRegs
 {
+STATIC_SKIP_INFERENCE
 js
 :
 :
