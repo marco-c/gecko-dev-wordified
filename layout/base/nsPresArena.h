@@ -320,6 +320,8 @@ nsQueryFrame
 :
 :
 NON_FRAME_MARKER
+nsRuleNode_id
+nsStyleContext_id
 /
 /
 The
