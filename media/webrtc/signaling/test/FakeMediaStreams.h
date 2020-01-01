@@ -695,12 +695,10 @@ int16_t
 (
 chunk
 .
-mBuffer
--
->
-Data
-(
-)
+mChannelData
+[
+0
+]
 )
 ;
 for
