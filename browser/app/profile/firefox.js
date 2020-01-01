@@ -9897,7 +9897,7 @@ sessionstore
 .
 privacy_level
 "
-1
+0
 )
 ;
 /
@@ -9925,7 +9925,7 @@ sessionstore
 .
 privacy_level_deferred
 "
-2
+0
 )
 ;
 /
