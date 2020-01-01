@@ -476,13 +476,6 @@ h
 #
 include
 "
-nsContainerFrame
-.
-h
-"
-#
-include
-"
 nsHTMLParts
 .
 h

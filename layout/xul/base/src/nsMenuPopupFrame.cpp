@@ -764,13 +764,6 @@ h
 #
 include
 "
-nsIRootBox
-.
-h
-"
-#
-include
-"
 nsIScreenManager
 .
 h

@@ -42291,7 +42291,7 @@ if
 nsContentUtils
 :
 :
-IsPunctuationMarkAt
+IsFirstLetterPunctuationAt
 (
 aFrag
 aOffset

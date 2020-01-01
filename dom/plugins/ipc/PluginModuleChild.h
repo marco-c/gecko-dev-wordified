@@ -855,6 +855,10 @@ virtual
 bool
 AnswerNP_Initialize
 (
+const
+uint32_t
+&
+aFlags
 NPError
 *
 rv
@@ -1252,6 +1256,15 @@ aObject
 ;
 #
 endif
+bool
+AsyncDrawingAllowed
+(
+)
+{
+return
+mAsyncDrawingAllowed
+;
+}
 /
 *
 *
@@ -2031,6 +2044,9 @@ mUserAgent
 ;
 int
 mQuirks
+;
+bool
+mAsyncDrawingAllowed
 ;
 /
 /

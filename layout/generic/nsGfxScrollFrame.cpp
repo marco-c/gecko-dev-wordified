@@ -555,13 +555,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsBoxLayoutState
 .
 h

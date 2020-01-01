@@ -611,13 +611,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsIDOMMouseEvent
 .
 h
@@ -633,13 +626,6 @@ h
 include
 "
 nsIDocument
-.
-h
-"
-#
-include
-"
-nsPIDOMWindow
 .
 h
 "

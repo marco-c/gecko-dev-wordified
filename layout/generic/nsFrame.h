@@ -4920,6 +4920,11 @@ const
 nsDisplayList
 &
 aList
+FILE
+*
+aFile
+=
+stdout
 )
 ;
 #

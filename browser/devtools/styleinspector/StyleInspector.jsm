@@ -761,7 +761,7 @@ highlighter
 .
 button
 .
-tooltip
+tooltip2
 "
 )
 accesskey

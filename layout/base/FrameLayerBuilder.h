@@ -1887,6 +1887,11 @@ stderr
 void
 DumpRetainedLayerTree
 (
+FILE
+*
+aFile
+=
+stdout
 )
 ;
 #
