@@ -1107,14 +1107,6 @@ the
 file
 overwritten
 .
-if
-(
-file
-.
-exists
-(
-)
-)
 file
 .
 remove
