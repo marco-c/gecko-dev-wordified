@@ -1363,6 +1363,11 @@ GetDPI
 (
 )
 ;
+int
+GetScreenDepth
+(
+)
+;
 void
 ShowFilePickerForExtensions
 (
@@ -2585,6 +2590,9 @@ jCloseNotification
 ;
 jmethodID
 jGetDpi
+;
+jmethodID
+jGetScreenDepth
 ;
 jmethodID
 jSetFullScreen
