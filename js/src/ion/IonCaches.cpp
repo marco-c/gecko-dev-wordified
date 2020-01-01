@@ -5747,6 +5747,13 @@ bindings
 extensibleParents
 (
 )
+&
+&
+!
+script
+-
+>
+funHasExtensibleScope
 )
 return
 ;
