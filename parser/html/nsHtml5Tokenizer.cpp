@@ -16052,6 +16052,13 @@ other
 >
 stateSave
 ;
+returnStateSave
+=
+other
+-
+>
+returnStateSave
+;
 lastCR
 =
 other
