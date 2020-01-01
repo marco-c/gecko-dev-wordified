@@ -176,17 +176,6 @@ init
 (
 )
 ;
-#
-ifdef
-XP_WIN
-gTabsPane
-.
-init
-(
-)
-;
-#
-endif
 gPrivacyPane
 .
 init
