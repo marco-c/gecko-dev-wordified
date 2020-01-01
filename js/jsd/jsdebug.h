@@ -490,6 +490,9 @@ __cplusplus
 }
 #
 endif
+#
+define
+WRAPPED_IN_EXTERN_C
 JS_BEGIN_EXTERN_C
 #
 include
@@ -518,6 +521,9 @@ h
 #
 endif
 JS_END_EXTERN_C
+#
+undef
+POSSIBLY_INCLUDED_FROM_C
 JS_BEGIN_EXTERN_C
 /
 *

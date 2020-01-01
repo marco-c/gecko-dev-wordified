@@ -491,7 +491,7 @@ JSIFY
 #
 include
 "
-jspubtd
+jsprvtd
 .
 h
 "

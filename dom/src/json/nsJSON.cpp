@@ -455,6 +455,13 @@ h
 #
 include
 "
+jsprvtd
+.
+h
+"
+#
+include
+"
 jsnum
 .
 h

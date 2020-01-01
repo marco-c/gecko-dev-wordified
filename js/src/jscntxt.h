@@ -553,6 +553,13 @@ jsutil
 .
 h
 "
+#
+include
+"
+jsarray
+.
+h
+"
 JS_BEGIN_EXTERN_C
 /
 *
@@ -5696,6 +5703,10 @@ conversion
 /
 JSSharpObjectMap
 sharpObjectMap
+;
+JSHashTable
+*
+busyArrayTable
 ;
 /
 *
