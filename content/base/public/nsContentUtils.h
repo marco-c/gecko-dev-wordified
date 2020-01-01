@@ -7737,7 +7737,7 @@ JAVASCRIPT
 aCache
 -
 >
-GetWrapperPreserveColor
+GetWrapper
 (
 )
 aClosure
