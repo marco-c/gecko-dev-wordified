@@ -5961,14 +5961,6 @@ JSScript
 bucket
 )
 {
-if
-(
-!
-principals
-)
-return
-NULL
-;
 /
 *
 *
@@ -6224,6 +6216,9 @@ principals
 |
 |
 (
+principals
+&
+&
 script
 -
 >
