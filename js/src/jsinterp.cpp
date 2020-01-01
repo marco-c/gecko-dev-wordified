@@ -44384,11 +44384,9 @@ recorder
 =
 tr
 ;
-tr
--
->
-deepAbort
+js_DeepAbort
 (
+cx
 )
 ;
 }
