@@ -250,6 +250,12 @@ mozilla
 :
 NegativeInfinity
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 /
 /
 shared
