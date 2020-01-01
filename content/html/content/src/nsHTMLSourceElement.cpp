@@ -869,6 +869,10 @@ if
 (
 !
 aParent
+|
+|
+!
+aParent
 -
 >
 IsNodeOfType
