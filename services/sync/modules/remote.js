@@ -3899,10 +3899,8 @@ scratch
 "
 )
 ;
-self
-.
-done
-(
+snap
+=
 yield
 this
 .
@@ -3915,6 +3913,12 @@ self
 .
 cb
 )
+;
+self
+.
+done
+(
+snap
 )
 ;
 return
@@ -4038,10 +4042,9 @@ id
 +
 )
 {
-deltas
-.
-push
-(
+let
+delta
+=
 yield
 this
 .
@@ -4054,6 +4057,12 @@ self
 cb
 id
 )
+;
+deltas
+.
+push
+(
+delta
 )
 ;
 }
@@ -4200,6 +4209,7 @@ i
 +
 )
 {
+yield
 snap
 .
 applyCommands
@@ -4215,8 +4225,6 @@ deltas
 i
 ]
 )
-;
-yield
 ;
 }
 }
@@ -4288,6 +4296,7 @@ e
 ;
 snap
 =
+yield
 this
 .
 _getLatestFromScratch
