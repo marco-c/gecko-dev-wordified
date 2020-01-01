@@ -2644,17 +2644,6 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
-mDBUrlToUrlResult
-;
-/
-/
-kGetInfoIndex_
-*
-results
-nsCOMPtr
-<
-mozIStorageStatement
->
 mDBBookmarkToUrlResult
 ;
 /
