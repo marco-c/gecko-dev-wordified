@@ -2109,7 +2109,7 @@ mWidth
 GetUnit
 (
 )
-!
+=
 =
 eStyleUnit_Auto
 and
