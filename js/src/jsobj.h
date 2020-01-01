@@ -2261,6 +2261,14 @@ ObjectClass
 ;
 extern
 Class
+ParallelArrayClass
+;
+extern
+Class
+ParallelArrayProtoClass
+;
+extern
+Class
 ProxyClass
 ;
 extern
