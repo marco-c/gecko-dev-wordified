@@ -1486,7 +1486,7 @@ lir
 new
 LCreateThis
 (
-useRegister
+useRegisterOrConstant
 (
 ins
 -
@@ -1495,7 +1495,7 @@ getCallee
 (
 )
 )
-useRegister
+useRegisterOrConstant
 (
 ins
 -
