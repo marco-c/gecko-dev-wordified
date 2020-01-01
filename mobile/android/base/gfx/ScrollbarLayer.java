@@ -105,7 +105,9 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+mozglue
+.
+DirectBufferAllocator
 ;
 import
 org
@@ -977,9 +979,9 @@ BAR_SIZE
 ByteBuffer
 buffer
 =
-GeckoAppShell
+DirectBufferAllocator
 .
-allocateDirectBuffer
+allocate
 (
 imageSize
 *
