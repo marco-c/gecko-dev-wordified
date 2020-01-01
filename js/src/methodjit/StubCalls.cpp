@@ -3176,7 +3176,7 @@ f
 )
 {
 return
-js_ValueToBoolean
+ToBoolean
 (
 f
 .
@@ -3206,7 +3206,7 @@ JSBool
 b
 =
 !
-js_ValueToBoolean
+ToBoolean
 (
 f
 .

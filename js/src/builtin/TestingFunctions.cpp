@@ -2602,7 +2602,7 @@ gc
 SetDeterministicGC
 (
 cx
-js_ValueToBoolean
+ToBoolean
 (
 vp
 [

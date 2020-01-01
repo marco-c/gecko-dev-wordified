@@ -3977,9 +3977,7 @@ bp
 *
 bp
 =
-!
-!
-js_ValueToBoolean
+ToBoolean
 (
 v
 )

@@ -14651,7 +14651,7 @@ length
 2
 &
 &
-js_ValueToBoolean
+ToBoolean
 (
 args
 [
@@ -14974,7 +14974,7 @@ length
 3
 &
 &
-js_ValueToBoolean
+ToBoolean
 (
 args
 [
