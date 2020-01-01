@@ -10238,7 +10238,7 @@ regs
 pc
 )
 ;
-if
+JS_ASSERT
 (
 index
 <
@@ -10247,7 +10247,7 @@ global
 >
 nvars
 )
-{
+;
 jsval
 *
 gvarp
@@ -10322,7 +10322,6 @@ get
 slotp
 )
 ;
-}
 #
 endif
 return
