@@ -4194,3 +4194,16 @@ GetNext
 ;
 }
 }
+void
+imgStatusTracker
+:
+:
+ClearRequest
+(
+)
+{
+mRequest
+=
+nullptr
+;
+}
