@@ -795,13 +795,6 @@ h
 #
 include
 "
-nsStaticComponents
-.
-h
-"
-#
-include
-"
 nsXPCOM
 .
 h

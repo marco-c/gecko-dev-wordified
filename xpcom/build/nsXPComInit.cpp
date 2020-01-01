@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsStaticComponents
-.
-h
-"
-#
-include
-"
 prlink
 .
 h

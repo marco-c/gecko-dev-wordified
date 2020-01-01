@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsStaticComponents
-.
-h
-"
-#
-include
-"
 FakeMediaStreamsImpl
 .
 h

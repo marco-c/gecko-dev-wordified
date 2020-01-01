@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsStaticComponents
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h
