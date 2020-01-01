@@ -7102,6 +7102,23 @@ p
 manages
 :
         
+#
+special
+case
+for
+self
+-
+managed
+protocols
+        
+if
+cp
+is
+p
+:
+            
+continue
+        
 if
 cp
 in
