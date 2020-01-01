@@ -701,6 +701,13 @@ js
 :
 gc
 ;
+using
+namespace
+js
+:
+:
+frontend
+;
 namespace
 js
 {
@@ -8213,7 +8220,7 @@ releaseSourceMap
 if
 (
 !
-js_FinishTakingSrcNotes
+FinishTakingSrcNotes
 (
 cx
 cg
@@ -8238,7 +8245,7 @@ ntrynotes
 =
 0
 )
-js_FinishTakingTryNotes
+FinishTakingTryNotes
 (
 cg
 script
