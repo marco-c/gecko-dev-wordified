@@ -4,6 +4,15 @@ Don
 '
 t
 crash
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 Object
 .
 defineProperty
@@ -53,3 +62,4 @@ partition
 y
 +
 y
+}

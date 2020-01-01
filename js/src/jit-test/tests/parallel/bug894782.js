@@ -4,6 +4,15 @@ Don
 '
 t
 crash
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 print
 (
 ParallelArray
@@ -27,3 +36,4 @@ function
 )
 )
 )
+}

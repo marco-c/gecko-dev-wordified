@@ -8,6 +8,15 @@ Array
 .
 build
 .
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 load
 (
 libdir
@@ -215,3 +224,4 @@ function
 true
 )
 ;
+}
