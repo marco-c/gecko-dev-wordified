@@ -1057,6 +1057,16 @@ the
 frame
 list
 .
+If
+*
+aAfterFrame
+is
+null
+removes
+the
+entire
+list
+.
 *
 param
 aAfterFrame
@@ -1065,6 +1075,8 @@ frame
 in
 this
 list
+or
+null
 *
 return
 the
