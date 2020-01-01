@@ -16856,6 +16856,7 @@ insLoad
 LIR_ld
 pos
 0
+ACC_OTHER
 )
 ;
 LIns
@@ -20036,6 +20037,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -20095,6 +20097,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 /
@@ -20132,6 +20135,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 "
 pos
@@ -20198,6 +20202,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 /
@@ -20244,6 +20249,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 /
@@ -20284,6 +20290,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 "
 pos
@@ -20695,6 +20702,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 /
@@ -20742,6 +20750,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 "
 pos
@@ -20883,6 +20892,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 lir
@@ -21515,6 +21525,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 lir
@@ -21811,6 +21822,7 @@ offsetof
 REGlobalData
 skipped
 )
+ACC_OTHER
 )
 ;
 return
@@ -22484,6 +22496,10 @@ new
 ValidateWriter
 (
 lir
+lirbuf
+-
+>
+printer
 "
 regexp
 writer
@@ -22731,6 +22747,7 @@ offsetof
 REGlobalData
 skipped
 )
+ACC_OTHER
 )
 "
 start
