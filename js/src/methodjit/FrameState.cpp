@@ -16535,6 +16535,12 @@ if
 backing
 <
 target
+|
+|
+isTemporary
+(
+backing
+)
 )
 {
 /
