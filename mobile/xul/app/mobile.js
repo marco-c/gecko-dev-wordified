@@ -7740,7 +7740,9 @@ pref
 "
 urlclassifier
 .
-confirm
+max
+-
+complete
 -
 age
 "
