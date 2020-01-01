@@ -541,6 +541,12 @@ defined
 (
 MOZ_PLATFORM_MAEMO
 )
+&
+&
+defined
+(
+__arm__
+)
 #
 include
 <
@@ -926,6 +932,12 @@ elif
 defined
 (
 MOZ_PLATFORM_MAEMO
+)
+&
+&
+defined
+(
+__arm__
 )
 static
 int
