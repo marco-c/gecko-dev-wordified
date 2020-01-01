@@ -4192,6 +4192,7 @@ MAX_DIMENSION
 16384
 }
 ;
+virtual
 ~
 PlanarYCbCrImage
 (
