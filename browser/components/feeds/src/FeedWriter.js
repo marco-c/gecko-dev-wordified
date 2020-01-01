@@ -7316,8 +7316,6 @@ _getMimeTypeForFeedType
 (
 feedType
 )
-{
-}
 )
 ;
 if

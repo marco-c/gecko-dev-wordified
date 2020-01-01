@@ -5359,8 +5359,6 @@ getContentHandlers
 this
 .
 type
-{
-}
 )
 ;
 for
