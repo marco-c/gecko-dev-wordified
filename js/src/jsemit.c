@@ -19178,7 +19178,7 @@ supports
 only
 atom
 indexes
-bellow
+below
 64K
 limit
 .
