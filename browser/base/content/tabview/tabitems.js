@@ -1576,6 +1576,12 @@ e
 {
 self
 .
+closedManually
+=
+true
+;
+self
+.
 close
 (
 )
