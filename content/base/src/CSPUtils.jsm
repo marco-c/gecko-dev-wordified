@@ -2600,7 +2600,7 @@ CSPLocalizer
 getStr
 (
 "
-allowDirectiveDeprecated
+allowDirectiveIsDeprecated
 "
 )
 )
