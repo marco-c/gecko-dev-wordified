@@ -1191,6 +1191,7 @@ ScreenshotHandler
 .
 disableScreenshot
 (
+false
 )
 ;
 GeckoAppShell
@@ -1261,6 +1262,7 @@ ScreenshotHandler
 .
 enableScreenshot
 (
+false
 )
 ;
 }
