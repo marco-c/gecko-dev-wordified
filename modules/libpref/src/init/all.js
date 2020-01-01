@@ -44595,7 +44595,7 @@ high_quality_downscaling
 .
 enabled
 "
-true
+false
 )
 ;
 #
