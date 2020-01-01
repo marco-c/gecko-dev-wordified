@@ -3938,7 +3938,7 @@ first
 use
 *
 the
-JS_WritePair
+JS_WriteUint32Pair
 API
 to
 write
@@ -3948,9 +3948,9 @@ header
 passing
 a
 value
+*
 greater
 than
-*
 JS_SCTAG_USER
 to
 the
@@ -3962,11 +3962,11 @@ it
 can
 use
 the
+*
 JS_Write
 *
 APIs
 to
-*
 write
 any
 other
@@ -3978,6 +3978,7 @@ value
 v
 to
 the
+*
 writer
 w
 .

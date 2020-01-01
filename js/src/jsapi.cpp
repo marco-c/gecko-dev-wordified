@@ -30382,7 +30382,7 @@ JS_PUBLIC_API
 (
 JSBool
 )
-JS_ReadPair
+JS_ReadUint32Pair
 (
 JSStructuredCloneReader
 *
@@ -30453,7 +30453,7 @@ JS_PUBLIC_API
 (
 JSBool
 )
-JS_WritePair
+JS_WriteUint32Pair
 (
 JSStructuredCloneWriter
 *
