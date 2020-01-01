@@ -531,13 +531,12 @@ XMLList
 ;
 Namespace
 =
-{
-}
+obj
 ;
 TEST
 (
 4
-saveNamespace
+obj
 Namespace
 )
 ;
