@@ -4477,6 +4477,11 @@ iconic
 bookmark
 -
 item
+menuitem
+-
+with
+-
+favicon
 "
 )
 ;
@@ -5204,6 +5209,11 @@ iconic
 bookmark
 -
 item
+menuitem
+-
+with
+-
+favicon
 "
 )
 ;

@@ -6918,6 +6918,11 @@ iconic
 bookmark
 -
 item
+menuitem
+-
+with
+-
+favicon
 "
 ;
 element
