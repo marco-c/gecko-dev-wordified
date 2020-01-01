@@ -555,6 +555,12 @@ EXTRA_COMPONENTS
 EXTRA_COMPONENTS
 '
             
+HOST_CSRCS
+=
+'
+HOST_CSRCS
+'
+            
 MODULE
 =
 '

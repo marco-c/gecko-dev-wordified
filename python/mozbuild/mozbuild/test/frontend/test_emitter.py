@@ -1113,6 +1113,21 @@ js
 '
 ]
             
+HOST_CSRCS
+=
+[
+'
+fans
+.
+c
+'
+'
+tans
+.
+c
+'
+]
+            
 SIMPLE_PROGRAMS
 =
 [
