@@ -1081,6 +1081,13 @@ complete
 =
 False
     
+doing
+=
+'
+before
+starting
+'
+    
 try
 :
         
@@ -1094,6 +1101,18 @@ tests
 )
 :
             
+doing
+=
+'
+on
+%
+s
+'
+%
+test
+.
+path
+            
 ok
 out
 err
@@ -1103,6 +1122,18 @@ run_test
 test
 lib_dir
 )
+            
+doing
+=
+'
+after
+%
+s
+'
+%
+test
+.
+path
             
 if
 not
@@ -1494,8 +1525,12 @@ run
 interrupted
 by
 user
+%
+s
 )
 '
+%
+doing
 )
 )
 if
