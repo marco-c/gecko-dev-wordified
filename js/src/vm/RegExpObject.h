@@ -161,6 +161,17 @@ YarrJIT
 h
 "
 #
+else
+#
+include
+"
+yarr
+/
+YarrInterpreter
+.
+h
+"
+#
 endif
 /
 *
