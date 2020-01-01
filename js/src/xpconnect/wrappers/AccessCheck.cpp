@@ -499,13 +499,6 @@ jsfriendapi
 .
 h
 "
-#
-include
-"
-jsstr
-.
-h
-"
 namespace
 xpc
 {

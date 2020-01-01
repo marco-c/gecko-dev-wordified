@@ -636,6 +636,13 @@ h
 #
 include
 "
+jsnuminlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
