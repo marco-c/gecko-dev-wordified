@@ -1692,7 +1692,7 @@ f
 f
 )
 {
-int64_t
+PRTime
 msecs
 ;
 f

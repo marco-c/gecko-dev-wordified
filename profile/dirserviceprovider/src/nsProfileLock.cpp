@@ -2427,7 +2427,7 @@ nsProfileLock
 :
 GetReplacedLockTime
 (
-int64_t
+PRTime
 *
 aResult
 )

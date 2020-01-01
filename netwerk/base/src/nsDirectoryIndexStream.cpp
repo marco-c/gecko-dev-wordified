@@ -1790,7 +1790,7 @@ GetFileSize
 fileSize
 )
 ;
-int64_t
+PRTime
 fileInfoModifyTime
 =
 0

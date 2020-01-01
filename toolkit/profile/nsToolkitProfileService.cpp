@@ -1401,7 +1401,7 @@ nsToolkitProfileLock
 :
 GetReplacedLockTime
 (
-int64_t
+PRTime
 *
 aResult
 )

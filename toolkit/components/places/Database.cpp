@@ -683,7 +683,7 @@ Length
 1
 )
 {
-int64_t
+PRTime
 lastMod
 =
 0

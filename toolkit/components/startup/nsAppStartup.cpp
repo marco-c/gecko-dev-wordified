@@ -5301,7 +5301,7 @@ GetInSafeMode
 inSafeMode
 )
 ;
-int64_t
+PRTime
 replacedLockTime
 ;
 rv

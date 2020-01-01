@@ -2769,7 +2769,7 @@ Value
 aLastModifiedDate
 )
 {
-int64_t
+PRTime
 msecs
 ;
 mFile

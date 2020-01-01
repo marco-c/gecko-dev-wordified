@@ -5689,7 +5689,7 @@ SetFollowLinks
 false
 )
 ;
-int64_t
+PRTime
 lastModDate
 ;
 if
