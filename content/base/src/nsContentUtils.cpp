@@ -7204,7 +7204,7 @@ return
 nsAutoTPtrArray
 <
 nsINode
-30
+32
 >
 parents1
 parents2
@@ -8023,10 +8023,11 @@ aOffset2
 0
 ;
 }
-nsTArray
+nsAutoTArray
 <
 nsINode
 *
+32
 >
 parents1
 parents2
