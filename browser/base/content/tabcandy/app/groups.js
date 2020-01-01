@@ -3945,6 +3945,13 @@ re
 stacked
 so
 expand
+Groups
+.
+setActiveGroup
+(
+self
+)
+;
 var
 startBounds
 =
