@@ -9254,7 +9254,7 @@ value
 return
 NS_OK
 ;
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -9894,7 +9894,7 @@ value
 return
 NS_OK
 ;
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;

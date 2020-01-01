@@ -1149,11 +1149,11 @@ mAllowRestore
 =
 true
 ;
-mRobustnessTimerRunning
+mContextLossTimerRunning
 =
 false
 ;
-mDrawSinceRobustnessTimerSet
+mDrawSinceContextLossTimerSet
 =
 false
 ;
@@ -1249,7 +1249,7 @@ RemoveWebGLContext
 this
 )
 ;
-TerminateRobustnessTimer
+TerminateContextLossTimer
 (
 )
 ;
@@ -6114,7 +6114,7 @@ nsITimer
 timer
 )
 {
-TerminateRobustnessTimer
+TerminateContextLossTimer
 (
 )
 ;
@@ -6276,7 +6276,7 @@ next
 /
 callback
 .
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -6325,7 +6325,7 @@ mHeight
 )
 )
 {
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -6680,9 +6680,9 @@ later
 .
 if
 (
-mDrawSinceRobustnessTimerSet
+mDrawSinceContextLossTimerSet
 )
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -6873,7 +6873,7 @@ restore
 the
 event
 .
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
