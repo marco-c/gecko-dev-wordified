@@ -18967,6 +18967,9 @@ mNumEvaluations
 +
 +
 ;
+#
+ifdef
+JS_GC_ZEAL
 if
 (
 mContext
@@ -18990,6 +18993,8 @@ mContext
 ;
 }
 else
+#
+endif
 if
 (
 mNumEvaluations
