@@ -1018,7 +1018,7 @@ jsdscript
 {
 ctorName
 =
-jsd_GetScriptFunctionName
+jsd_GetScriptFunctionId
 (
 jsdc
 jsdscript

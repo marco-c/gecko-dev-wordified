@@ -1797,7 +1797,7 @@ jsdval
 }
 JSString
 *
-jsd_GetNameForStackFrame
+jsd_GetIdForStackFrame
 (
 JSDContext
 *

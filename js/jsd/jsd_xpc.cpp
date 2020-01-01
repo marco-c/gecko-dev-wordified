@@ -6037,7 +6037,7 @@ JSString
 *
 str
 =
-JSD_GetScriptFunctionName
+JSD_GetScriptFunctionId
 (
 mCx
 mScript
@@ -10001,7 +10001,7 @@ JSString
 *
 str
 =
-JSD_GetNameForStackFrame
+JSD_GetIdForStackFrame
 (
 mCx
 mThreadState
@@ -11383,7 +11383,7 @@ AssignToJSString
 (
 &
 _rval
-JSD_GetValueFunctionName
+JSD_GetValueFunctionId
 (
 mCx
 mValue
