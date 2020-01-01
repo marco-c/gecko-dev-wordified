@@ -3767,17 +3767,6 @@ children
 "
 )
 ;
-nsViewManager
-*
-viewManager
-=
-view
--
->
-GetViewManager
-(
-)
-;
 /
 /
 We
