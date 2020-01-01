@@ -273,9 +273,11 @@ navMimeType
 navigator
 .
 mimeTypes
-[
+.
+namedItem
+(
 tagMimetype
-]
+)
 ;
 if
 (
