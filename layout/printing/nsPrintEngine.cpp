@@ -2473,11 +2473,6 @@ NS_ENSURE_ARG_POINTER
 aDocument
 )
 ;
-NS_ENSURE_ARG_POINTER
-(
-aParentWidget
-)
-;
 mDocViewerPrint
 =
 aDocViewerPrint

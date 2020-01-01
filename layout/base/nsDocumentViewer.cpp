@@ -21118,10 +21118,6 @@ mDocument
 |
 !
 mDeviceContext
-|
-|
-!
-mParentWidget
 )
 {
 PR_PL
