@@ -13719,6 +13719,16 @@ isStackingContext
 isPositioned
 &
 &
+(
+disp
+-
+>
+mPosition
+=
+=
+NS_STYLE_POSITION_STICKY
+|
+|
 pos
 -
 >
@@ -13730,6 +13740,7 @@ GetUnit
 =
 =
 eStyleUnit_Integer
+)
 )
 |
 |
