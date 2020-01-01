@@ -16336,6 +16336,7 @@ NS_ASSERTION
 *
 aSize
 >
+=
 parentSize
 "
 FindNextLargerFontSize
