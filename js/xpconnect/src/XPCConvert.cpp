@@ -9530,11 +9530,10 @@ if
 message
 )
 {
-bestMessage
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 message
+bestMessage
 )
 ;
 }

@@ -1234,12 +1234,8 @@ it
 .
 *
 /
-nsAutoString
+NS_ConvertASCIItoUTF16
 fileUni
-;
-fileUni
-.
-AssignWithConversion
 (
 rep
 -

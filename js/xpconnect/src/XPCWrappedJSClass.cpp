@@ -7446,12 +7446,8 @@ exception
 as
 the
 message
-nsAutoString
+NS_ConvertASCIItoUTF16
 newMessage
-;
-newMessage
-.
-AssignWithConversion
 (
 exn_string
 )
