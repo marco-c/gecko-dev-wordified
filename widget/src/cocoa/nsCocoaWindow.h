@@ -997,11 +997,7 @@ SetModal
 PRBool
 aState
 )
-{
-return
-NS_OK
 ;
-}
 NS_IMETHOD
 IsVisible
 (
@@ -1533,6 +1529,9 @@ to
 be
 shown
 ?
+PRPackedBool
+mModal
+;
 }
 ;
 #
