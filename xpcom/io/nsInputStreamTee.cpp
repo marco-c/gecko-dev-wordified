@@ -1035,7 +1035,7 @@ nsresult
 rv
 ;
 PRUint32
-bytesWritten
+totalBytesWritten
 =
 0
 ;
@@ -1044,6 +1044,11 @@ while
 count
 )
 {
+PRUint32
+bytesWritten
+=
+0
+;
 rv
 =
 mSink
@@ -1053,7 +1058,7 @@ Write
 (
 buf
 +
-bytesWritten
+totalBytesWritten
 count
 &
 bytesWritten
@@ -1141,6 +1146,11 @@ mSink
 break
 ;
 }
+totalBytesWritten
++
+=
+bytesWritten
+;
 NS_ASSERTION
 (
 bytesWritten
