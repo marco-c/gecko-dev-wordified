@@ -186,6 +186,8 @@ BEHAVIOR_REJECTFOREIGN
 =
 1
 ;
+/
+/
 static
 const
 int32_t
