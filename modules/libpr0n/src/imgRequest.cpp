@@ -4051,7 +4051,7 @@ aStatusArg
 }
 /
 /
-ImgContainer
+RasterImage
 and
 everything
 below
@@ -4164,7 +4164,7 @@ the
 /
 decoder
 and
-container
+RasterImage
 and
 generate
 our
@@ -4494,7 +4494,7 @@ TYPE_RASTER
 /
 Inform
 the
-container
+RasterImage
 that
 we
 have
@@ -6328,9 +6328,8 @@ get
 /
 Figure
 out
-if
 our
-container
+Image
 initialization
 flags
 /
@@ -6529,7 +6528,7 @@ information
 we
 need
 PRUint32
-containerFlags
+imageFlags
 =
 Image
 :
@@ -6540,7 +6539,7 @@ if
 (
 isDiscardable
 )
-containerFlags
+imageFlags
 |
 =
 Image
@@ -6552,7 +6551,7 @@ if
 (
 doDecodeOnDraw
 )
-containerFlags
+imageFlags
 |
 =
 Image
@@ -6564,7 +6563,7 @@ if
 (
 mIsMultiPartChannel
 )
-containerFlags
+imageFlags
 |
 =
 Image
@@ -6630,7 +6629,7 @@ mContentType
 get
 (
 )
-containerFlags
+imageFlags
 )
 ;
 if
@@ -6841,7 +6840,7 @@ RequestDecode
 }
 /
 /
-WriteToContainer
+WriteToRasterImage
 always
 consumes
 everything
@@ -6860,7 +6859,7 @@ ReadSegments
 RasterImage
 :
 :
-WriteToContainer
+WriteToRasterImage
 static_cast
 <
 void
@@ -6904,7 +6903,7 @@ OnDataAvailable
 "
 copy
 to
-container
+RasterImage
 failed
 \
 n
@@ -6932,7 +6931,7 @@ bytesRead
 =
 count
 "
-WriteToContainer
+WriteToRasterImage
 should
 consume
 everything
