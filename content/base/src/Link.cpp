@@ -784,10 +784,9 @@ PR_TRUE
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 content
-nsnull
 oldLinkState
 ^
 newLinkState
@@ -3017,10 +3016,9 @@ aNotify
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 content
-nsnull
 changedState
 )
 ;

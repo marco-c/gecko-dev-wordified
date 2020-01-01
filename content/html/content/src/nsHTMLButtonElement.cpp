@@ -3554,10 +3554,9 @@ PR_TRUE
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 this
-nsnull
 states
 )
 ;

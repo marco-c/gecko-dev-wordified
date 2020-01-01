@@ -4008,14 +4008,11 @@ GetReadyStateEnum
 ;
 virtual
 void
-ContentStatesChanged
+ContentStateChanged
 (
 nsIContent
 *
-aContent1
-nsIContent
-*
-aContent2
+aContent
 nsEventStates
 aStateMask
 )

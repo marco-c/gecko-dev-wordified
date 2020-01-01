@@ -3363,10 +3363,9 @@ PR_TRUE
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 this
-nsnull
 NS_EVENT_STATE_INCREMENT_SCRIPT_LEVEL
 )
 ;
