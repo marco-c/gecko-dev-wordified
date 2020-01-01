@@ -814,14 +814,9 @@ ref
 let
 isSelectedTab
 =
-(
 gNewTab
-=
-=
-gBrowser
 .
-selectedTab
-)
+selected
 ;
 setTimeout
 (

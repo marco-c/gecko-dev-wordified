@@ -486,12 +486,9 @@ tab
 pinned
 |
 |
-gBrowser
-.
-selectedTab
-=
-=
 tab
+.
+selected
 "
 load
 came

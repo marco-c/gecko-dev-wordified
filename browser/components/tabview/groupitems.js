@@ -7173,11 +7173,8 @@ if
 item
 .
 tab
-=
-=
-gBrowser
 .
-selectedTab
+selected
 |
 |
 (
@@ -17886,12 +17883,9 @@ first
 .
 if
 (
-gBrowser
-.
-selectedTab
-=
-=
 tab
+.
+selected
 )
 {
 if
