@@ -18306,10 +18306,10 @@ obj
 ;
 JS_ASSERT
 (
+DSLOTS_IS_NOT_NULL
+(
 obj
--
->
-dslots
+)
 )
 ;
 index
