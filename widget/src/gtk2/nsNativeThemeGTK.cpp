@@ -6331,6 +6331,11 @@ height
 =
 15
 ;
+*
+aIsOverridable
+=
+PR_FALSE
+;
 break
 ;
 case
