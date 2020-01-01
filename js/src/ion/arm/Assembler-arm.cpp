@@ -2369,10 +2369,9 @@ getOffset
 (
 )
 ;
-dataRelocations_
-.
-writeUnsigned
-(
+int
+real_offset
+=
 offset
 +
 m_buffer
@@ -2381,6 +2380,12 @@ poolSizeBefore
 (
 offset
 )
+;
+dataRelocations_
+.
+writeUnsigned
+(
+real_offset
 )
 ;
 }
