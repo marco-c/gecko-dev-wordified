@@ -3223,9 +3223,6 @@ break
 case
 JSOP_THIS
 :
-case
-JSOP_GETTHISPROP
-:
 usesThis
 =
 true
@@ -3950,9 +3947,6 @@ break
 ;
 case
 JSOP_CALLLOCAL
-:
-case
-JSOP_GETLOCALPROP
 :
 case
 JSOP_INCLOCAL
@@ -5976,9 +5970,6 @@ JSOP_GETARG
 case
 JSOP_CALLARG
 :
-case
-JSOP_GETARGPROP
-:
 {
 unsigned
 arg
@@ -6138,9 +6129,6 @@ JSOP_GETLOCAL
 :
 case
 JSOP_CALLLOCAL
-:
-case
-JSOP_GETLOCALPROP
 :
 {
 unsigned
@@ -6318,9 +6306,6 @@ break
 }
 case
 JSOP_THIS
-:
-case
-JSOP_GETTHISPROP
 :
 if
 (
