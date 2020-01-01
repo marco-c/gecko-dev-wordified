@@ -52190,6 +52190,8 @@ GsmPDUHelper
 readSeptetsToString
 (
 length
+*
+8
 /
 7
 0
