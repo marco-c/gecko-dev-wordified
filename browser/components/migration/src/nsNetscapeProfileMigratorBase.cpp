@@ -2042,6 +2042,8 @@ return
 ImportBookmarksHTML
 (
 bookmarksFile
+PR_FALSE
+PR_FALSE
 aImportSourceNameKey
 )
 ;
