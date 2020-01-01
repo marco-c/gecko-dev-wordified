@@ -1020,6 +1020,15 @@ return
 mEverUsedSpdy
 ;
 }
+PRIntervalTime
+Rtt
+(
+)
+{
+return
+mRtt
+;
+}
 /
 /
 true
