@@ -715,7 +715,6 @@ bool
 MaybeFireCallback
 (
 DatabasesCompleteCallback
-&
 aCallback
 )
 ;
