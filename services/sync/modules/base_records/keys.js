@@ -1100,7 +1100,7 @@ generateKeypair
 (
 passphrase
 .
-password
+passwordUTF8
 privkey
 .
 salt
