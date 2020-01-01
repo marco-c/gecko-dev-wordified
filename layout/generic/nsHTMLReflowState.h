@@ -142,15 +142,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-AutoRestore
-.
-h
-"
-#
-include
 <
 algorithm
 >
