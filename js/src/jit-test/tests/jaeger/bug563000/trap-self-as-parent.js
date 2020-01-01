@@ -17,11 +17,6 @@ x
 notset
 "
 ;
-dis
-(
-myparent
-)
-;
 function
 myparent
 (
