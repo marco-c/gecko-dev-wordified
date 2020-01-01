@@ -7493,7 +7493,7 @@ ci
 >
 _typesig
 &
-ARGTYPE_MASK_ANY
+ARGTYPE_MASK
 )
 ;
 /
