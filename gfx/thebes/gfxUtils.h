@@ -454,6 +454,9 @@ gfxImageSurface
 h
 "
 class
+gfxDrawable
+;
+class
 THEBES_API
 gfxUtils
 {
@@ -559,8 +562,8 @@ nsnull
 *
 *
 Draw
-a
-surface
+something
+drawable
 while
 working
 around
@@ -689,9 +692,9 @@ DrawPixelSnapped
 gfxContext
 *
 aContext
-gfxASurface
+gfxDrawable
 *
-aSurface
+aDrawable
 const
 gfxMatrix
 &
