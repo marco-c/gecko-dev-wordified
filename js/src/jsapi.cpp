@@ -29349,6 +29349,10 @@ hasOption
 JSOPTION_COMPILE_N_GO
 )
 )
+forEval
+(
+false
+)
 noScriptRval
 (
 cx

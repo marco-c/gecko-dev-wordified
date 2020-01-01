@@ -26678,6 +26678,11 @@ setCompileAndGo
 true
 )
 .
+setForEval
+(
+true
+)
+.
 setNoScriptRval
 (
 false
