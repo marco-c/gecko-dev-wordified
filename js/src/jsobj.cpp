@@ -728,6 +728,13 @@ h
 #
 endif
 #
+include
+"
+jsautooplen
+.
+h
+"
+#
 ifdef
 JS_THREADSAFE
 #
