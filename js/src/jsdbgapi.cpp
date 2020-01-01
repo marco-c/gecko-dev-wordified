@@ -1930,10 +1930,7 @@ cl
 >
 next
 )
-JSContext
-:
-:
-fromLinkField
+js_ContextFromLinkField
 (
 cl
 )
@@ -1985,10 +1982,7 @@ cl
 >
 next
 )
-JSContext
-:
-:
-fromLinkField
+js_ContextFromLinkField
 (
 cl
 )
