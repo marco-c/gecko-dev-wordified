@@ -208,6 +208,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsContentTestNode
 .
 h

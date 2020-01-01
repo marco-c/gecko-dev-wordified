@@ -148,6 +148,9 @@ nsXBLPrototypeBinding
 struct
 nsXBLResource
 ;
+class
+nsIObjectOutputStream
+;
 /
 /
 *

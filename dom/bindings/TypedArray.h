@@ -142,6 +142,13 @@ BindingDeclarations
 .
 h
 "
+#
+include
+"
+nsWrapperCache
+.
+h
+"
 namespace
 mozilla
 {

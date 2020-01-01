@@ -192,6 +192,13 @@ nsIPrincipal
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 /
 /
 XXXtw
