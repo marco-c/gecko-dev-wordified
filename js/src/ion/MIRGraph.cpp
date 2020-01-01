@@ -4006,7 +4006,7 @@ lastIns
 )
 -
 >
-replaceEdge
+replaceSuccessor
 (
 pos
 split
