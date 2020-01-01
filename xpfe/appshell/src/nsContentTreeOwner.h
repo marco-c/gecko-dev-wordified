@@ -163,7 +163,7 @@ class
 nsXULWindow
 ;
 class
-nsSiteWindow2
+nsSiteWindow
 ;
 class
 nsContentTreeOwner
@@ -185,7 +185,7 @@ nsXULWindow
 ;
 friend
 class
-nsSiteWindow2
+nsSiteWindow
 ;
 public
 :
@@ -231,7 +231,7 @@ nsXULWindow
 *
 mXULWindow
 ;
-nsSiteWindow2
+nsSiteWindow
 *
 mSiteWindow2
 ;
