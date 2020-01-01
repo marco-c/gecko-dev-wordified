@@ -192,6 +192,10 @@ cx
 global_class
 &
 system_principals
+JS
+:
+:
+FireOnNewGlobalHook
 )
 ;
 CHECK

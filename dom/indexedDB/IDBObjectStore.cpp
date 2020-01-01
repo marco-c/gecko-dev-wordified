@@ -2169,6 +2169,10 @@ mContext
 &
 sGlobalClass
 NULL
+JS
+:
+:
+FireOnNewGlobalHook
 )
 ;
 NS_ENSURE_TRUE

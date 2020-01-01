@@ -5073,6 +5073,10 @@ Class
 GetWorkerPrincipal
 (
 )
+JS
+:
+:
+DontFireOnNewGlobalHook
 options
 )
 )
@@ -5512,6 +5516,12 @@ return
 NULL
 ;
 }
+JS_FireOnNewGlobalObject
+(
+aCx
+global
+)
+;
 return
 global
 ;

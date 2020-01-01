@@ -4754,6 +4754,10 @@ cx
 &
 self_hosting_global_class
 NULL
+JS
+:
+:
+DontFireOnNewGlobalHook
 )
 )
 )
@@ -4863,6 +4867,12 @@ intrinsic_functions
 )
 return
 false
+;
+JS_FireOnNewGlobalObject
+(
+cx
+shg
+)
 ;
 /
 *

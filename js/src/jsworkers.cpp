@@ -1302,6 +1302,10 @@ cx
 &
 workerGlobalClass
 NULL
+JS
+:
+:
+FireOnNewGlobalHook
 compartmentOptions
 )
 ;

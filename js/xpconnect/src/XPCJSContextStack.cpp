@@ -1166,6 +1166,12 @@ MOZ_CRASH
 (
 )
 ;
+JS_FireOnNewGlobalObject
+(
+mSafeJSContext
+glob
+)
+;
 /
 /
 Save

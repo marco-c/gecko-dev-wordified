@@ -1516,6 +1516,10 @@ GetPrincipal
 (
 )
 )
+JS
+:
+:
+DontFireOnNewGlobalHook
 options
 )
 ;

@@ -3053,6 +3053,10 @@ get
 (
 principal
 )
+JS
+:
+:
+DontFireOnNewGlobalHook
 aOptions
 )
 )

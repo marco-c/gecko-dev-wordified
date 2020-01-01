@@ -471,6 +471,10 @@ cx
 &
 c
 NULL
+JS
+:
+:
+FireOnNewGlobalHook
 )
 ;
 std

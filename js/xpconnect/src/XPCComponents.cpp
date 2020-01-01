@@ -20481,6 +20481,12 @@ options
 sandboxName
 )
 ;
+JS_FireOnNewGlobalObject
+(
+cx
+sandbox
+)
+;
 return
 NS_OK
 ;

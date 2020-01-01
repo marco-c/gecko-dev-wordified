@@ -1166,6 +1166,10 @@ getGlobalClass
 (
 )
 NULL
+JS
+:
+:
+FireOnNewGlobalHook
 )
 )
 ;
@@ -1439,6 +1443,10 @@ getGlobalClass
 (
 )
 NULL
+JS
+:
+:
+FireOnNewGlobalHook
 )
 )
 ;

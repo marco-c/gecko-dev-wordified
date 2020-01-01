@@ -3167,6 +3167,10 @@ cx
 &
 global_class
 nullptr
+JS
+:
+:
+FireOnNewGlobalHook
 )
 ;
 if
