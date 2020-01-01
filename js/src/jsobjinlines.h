@@ -3594,7 +3594,7 @@ getElementsHeader
 )
 -
 >
-length
+initializedLength
 )
 ;
 getElementsHeader

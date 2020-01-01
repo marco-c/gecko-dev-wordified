@@ -13882,6 +13882,15 @@ strictModeCode
 &
 &
 !
+types
+:
+:
+TypeSet
+:
+:
+HasObjectFlags
+(
+cx
 script
 -
 >
@@ -13894,10 +13903,6 @@ getType
 (
 cx
 )
--
->
-hasAnyFlags
-(
 types
 :
 :
