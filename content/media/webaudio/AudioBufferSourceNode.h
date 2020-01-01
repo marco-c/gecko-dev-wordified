@@ -503,6 +503,10 @@ double
 aDopplerShift
 )
 ;
+IMPL_EVENT_HANDLER
+(
+ended
+)
 virtual
 void
 NotifyMainThreadStateChanged
@@ -647,6 +651,9 @@ mLoop
 ;
 bool
 mStartCalled
+;
+bool
+mStopped
 ;
 bool
 mOffsetAndDurationRemembered
