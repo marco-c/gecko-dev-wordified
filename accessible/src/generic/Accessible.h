@@ -210,9 +210,6 @@ class
 HyperTextAccessible
 ;
 class
-nsHTMLImageAccessible
-;
-class
 nsHTMLImageMapAccessible
 ;
 struct
@@ -229,6 +226,9 @@ a11y
 {
 class
 HTMLLIAccessible
+;
+class
+ImageAccessible
 ;
 class
 TableAccessible
@@ -2911,7 +2911,13 @@ mFlags
 eImageAccessible
 ;
 }
-nsHTMLImageAccessible
+mozilla
+:
+:
+a11y
+:
+:
+ImageAccessible
 *
 AsImage
 (

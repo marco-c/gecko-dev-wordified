@@ -360,7 +360,7 @@ DocAccessible
 aDoc
 )
 :
-nsHTMLImageAccessibleWrap
+ImageAccessibleWrap
 (
 aContent
 aDoc
@@ -460,7 +460,7 @@ nsISupports
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsHTMLImageMapAccessible
-nsHTMLImageAccessible
+ImageAccessible
 )
 /
 /

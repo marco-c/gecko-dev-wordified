@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsHTMLImageAccessible
+ImageAccessible
 .
 h
 "
@@ -294,7 +294,7 @@ a11y
 /
 /
 /
-nsHTMLImageAccessible
+ImageAccessible
 /
 /
 /
@@ -375,10 +375,10 @@ nsHTMLImageAccessible
 /
 /
 /
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
-nsHTMLImageAccessible
+ImageAccessible
 (
 nsIContent
 *
@@ -402,7 +402,7 @@ eImageAccessible
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsHTMLImageAccessible
+ImageAccessible
 Accessible
 nsIAccessibleImage
 )
@@ -491,7 +491,7 @@ nsIAccessibleImage
 Accessible
 public
 PRUint64
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 NativeState
@@ -630,7 +630,7 @@ state
 ;
 }
 nsresult
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetNameInternal
@@ -765,7 +765,7 @@ NS_OK
 ;
 }
 role
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 NativeRole
@@ -863,7 +863,7 @@ GRAPHIC
 /
 nsIAccessible
 PRUint8
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 ActionCount
@@ -893,7 +893,7 @@ actionCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetActionName
@@ -958,7 +958,7 @@ aName
 ;
 }
 NS_IMETHODIMP
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 DoAction
@@ -1192,7 +1192,7 @@ tmp
 /
 nsIAccessibleImage
 NS_IMETHODIMP
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetImagePosition
@@ -1248,7 +1248,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetImageSize
@@ -1281,7 +1281,7 @@ aHeight
 /
 Accessible
 nsresult
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetAttributesInternal
@@ -1447,7 +1447,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetLongDescURI
@@ -1645,7 +1645,7 @@ nsnull
 ;
 }
 bool
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 IsLongDescIndex
