@@ -795,7 +795,7 @@ PRPackedBool
 mNeedsRecalc
 ;
 PRPackedBool
-mReflowCallbackPosted
+mNeedsReflowCallback
 ;
 nsSize
 mTextSize
