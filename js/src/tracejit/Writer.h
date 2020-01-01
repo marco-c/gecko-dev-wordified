@@ -8165,6 +8165,14 @@ imm
 )
 ;
 }
+#
+if
+defined
+NANOJIT_IA32
+|
+|
+defined
+NANOJIT_X64
 nj
 :
 :
@@ -8232,6 +8240,8 @@ x
 )
 ;
 }
+#
+endif
 nj
 :
 :
