@@ -13422,7 +13422,7 @@ toolbox
 .
 sideEnabled
 "
-false
+true
 )
 ;
 /
