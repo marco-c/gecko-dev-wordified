@@ -1199,7 +1199,7 @@ funobj
 pobj
 -
 >
-lockedGetSlot
+nativeGetSlot
 (
 shape
 -
@@ -1261,7 +1261,7 @@ v
 pobj
 -
 >
-lockedGetSlot
+nativeGetSlot
 (
 shape
 -

@@ -672,7 +672,7 @@ obj
 )
 -
 >
-lockedSetSlot
+nativeSetSlot
 (
 (
 shape
@@ -805,7 +805,7 @@ pobj
 )
 -
 >
-lockedGetSlot
+nativeGetSlot
 (
 (
 shape

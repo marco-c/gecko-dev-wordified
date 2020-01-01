@@ -502,13 +502,6 @@ shape
 )
 {
 return
-CX_OWNS_OBJECT_TITLE
-(
-cx
-obj
-)
-&
-&
 obj
 -
 >
@@ -1039,13 +1032,6 @@ kshape
 =
 =
 shape
-&
-&
-CX_OWNS_OBJECT_TITLE
-(
-cx
-obj
-)
 )
 return
 true

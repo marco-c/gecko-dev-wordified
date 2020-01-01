@@ -3586,17 +3586,6 @@ if
 prop
 )
 {
-obj2
--
->
-dropProperty
-(
-context
-(
-)
-prop
-)
-;
 Value
 val
 ;
