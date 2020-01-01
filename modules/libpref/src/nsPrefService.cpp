@@ -655,6 +655,9 @@ nsZipArchive
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 Definitions
@@ -785,19 +788,19 @@ Constructor
 Destructor
 *
 /
-nsPrefService
+Preferences
 :
 :
-nsPrefService
+Preferences
 (
 )
 {
 }
-nsPrefService
+Preferences
 :
 :
 ~
-nsPrefService
+Preferences
 (
 )
 {
@@ -815,15 +818,15 @@ Implementation
 /
 NS_IMPL_THREADSAFE_ADDREF
 (
-nsPrefService
+Preferences
 )
 NS_IMPL_THREADSAFE_RELEASE
 (
-nsPrefService
+Preferences
 )
 NS_INTERFACE_MAP_BEGIN
 (
-nsPrefService
+Preferences
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
@@ -867,7 +870,7 @@ Implementation
 *
 /
 nsresult
-nsPrefService
+Preferences
 :
 :
 Init
@@ -1244,7 +1247,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 Observe
@@ -1446,7 +1449,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 ReadUserPrefs
@@ -1524,7 +1527,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 ResetPrefs
@@ -1586,7 +1589,7 @@ pref_InitInitialObjects
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 ResetUserPrefs
@@ -1628,7 +1631,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 SavePrefFile
@@ -1679,7 +1682,7 @@ nsIPrefServiceInternal
 *
 /
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 ReadExtensionPrefs
@@ -1961,7 +1964,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 PrefHasUserValue
@@ -1992,7 +1995,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 SetPreference
@@ -2013,7 +2016,7 @@ PR_TRUE
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 ClearContentPref
@@ -2036,7 +2039,7 @@ BeginReading
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 MirrorPreference
@@ -2085,7 +2088,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 MirrorPreferences
@@ -2124,7 +2127,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 GetBranch
@@ -2237,7 +2240,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPrefService
+Preferences
 :
 :
 GetDefaultBranch
@@ -2308,7 +2311,7 @@ rv
 ;
 }
 nsresult
-nsPrefService
+Preferences
 :
 :
 NotifyServiceObservers
@@ -2374,7 +2377,7 @@ NS_OK
 ;
 }
 nsresult
-nsPrefService
+Preferences
 :
 :
 UseDefaultPrefFile
@@ -2496,7 +2499,7 @@ rv
 ;
 }
 nsresult
-nsPrefService
+Preferences
 :
 :
 UseUserPrefFile
@@ -2612,7 +2615,7 @@ rv
 ;
 }
 nsresult
-nsPrefService
+Preferences
 :
 :
 MakeBackupPrefFile
@@ -2794,7 +2797,7 @@ rv
 ;
 }
 nsresult
-nsPrefService
+Preferences
 :
 :
 ReadAndOwnUserPrefFile
@@ -2933,7 +2936,7 @@ rv
 ;
 }
 nsresult
-nsPrefService
+Preferences
 :
 :
 SavePrefFileInternal
@@ -3033,7 +3036,7 @@ aFile
 }
 }
 nsresult
-nsPrefService
+Preferences
 :
 :
 WritePrefFile
@@ -5829,3 +5832,8 @@ NS_EXT_PREFS_DEFAULTS_DIR_LIST
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
