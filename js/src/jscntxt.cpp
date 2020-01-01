@@ -6304,6 +6304,15 @@ cxCallback
 JSBool
 last
 ;
+JS_ASSERT
+(
+!
+cx
+-
+>
+enumerators
+)
+;
 rt
 =
 cx
