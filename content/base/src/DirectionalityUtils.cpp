@@ -2160,6 +2160,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -4022,7 +4031,10 @@ nsINode
 aTextNode
 )
 {
+DebugOnly
+<
 uint32_t
+>
 clearedEntries
 =
 mElements
