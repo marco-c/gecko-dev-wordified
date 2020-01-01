@@ -23341,8 +23341,10 @@ xpc_NewIDObject
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 jsobj
 const
 nsID
