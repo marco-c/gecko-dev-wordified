@@ -586,16 +586,8 @@ registerDirectory
 "
 /
 "
-dirSvc
-.
-get
+do_get_cwd
 (
-"
-ProfD
-"
-Ci
-.
-nsILocalFile
 )
 )
 ;
