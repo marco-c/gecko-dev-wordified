@@ -1847,6 +1847,9 @@ ImageContainer
 >
 GetContainer
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 MOZ_OVERRIDE
 ;

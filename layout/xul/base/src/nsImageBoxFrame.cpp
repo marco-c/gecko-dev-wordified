@@ -2135,6 +2135,9 @@ nsDisplayXULImage
 :
 GetContainer
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 {
 return

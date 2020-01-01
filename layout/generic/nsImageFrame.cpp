@@ -7905,6 +7905,9 @@ nsDisplayImage
 :
 GetContainer
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 {
 nsRefPtr
