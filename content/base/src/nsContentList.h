@@ -696,14 +696,7 @@ nsBaseContentList
 (
 )
 {
-/
-/
-Mark
-ourselves
-as
-a
-proxy
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

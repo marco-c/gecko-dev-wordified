@@ -1109,7 +1109,7 @@ Anonymous
 goes
 away
 .
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

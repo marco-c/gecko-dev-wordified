@@ -494,7 +494,7 @@ to
 drop
 our
 reference
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

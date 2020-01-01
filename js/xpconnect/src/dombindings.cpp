@@ -3558,7 +3558,7 @@ triedToWrap
 aWrapperCache
 -
 >
-ClearIsProxy
+ClearIsDOMBinding
 (
 )
 ;
