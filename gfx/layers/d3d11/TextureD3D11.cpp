@@ -264,15 +264,11 @@ ID3D11Texture2D
 aTexture
 )
 {
-if
+MOZ_ASSERT
 (
-!
 aTexture
 )
-{
-return
 ;
-}
 mTextures
 [
 0
