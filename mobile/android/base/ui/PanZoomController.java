@@ -2660,6 +2660,10 @@ PanZoomState
 .
 NOTHING
 ;
+cancelTouch
+(
+)
+;
 /
 /
 ensure
@@ -6007,7 +6011,7 @@ return
 true
 ;
 }
-public
+private
 void
 cancelTouch
 (

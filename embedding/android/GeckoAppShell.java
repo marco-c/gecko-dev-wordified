@@ -12764,11 +12764,10 @@ Fennec
 public
 static
 void
-setPreventPanning
+notifyDefaultPrevented
 (
-final
 boolean
-aPreventPanning
+defaultPrevented
 )
 {
 }
