@@ -378,13 +378,6 @@ nsAHtml5TreeBuilderState
 .
 h
 "
-#
-include
-"
-nsAHtml5EncodingDeclarationHandler
-.
-h
-"
 class
 nsHtml5StreamParser
 ;
@@ -557,7 +550,7 @@ nsHtml5TreeBuilder
 *
 tokenHandler
 ;
-nsAHtml5EncodingDeclarationHandler
+nsHtml5StreamParser
 *
 encodingDeclarationHandler
 ;
@@ -1345,7 +1338,7 @@ initializeWithoutStarting
 void
 setEncodingDeclarationHandler
 (
-nsAHtml5EncodingDeclarationHandler
+nsHtml5StreamParser
 *
 encodingDeclarationHandler
 )

@@ -356,13 +356,6 @@ h
 #
 include
 "
-nsAHtml5EncodingDeclarationHandler
-.
-h
-"
-#
-include
-"
 nsHtml5Tokenizer
 .
 h

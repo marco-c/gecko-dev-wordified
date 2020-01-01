@@ -346,13 +346,6 @@ nsAHtml5TreeBuilderState
 .
 h
 "
-#
-include
-"
-nsAHtml5EncodingDeclarationHandler
-.
-h
-"
 class
 nsHtml5StreamParser
 ;

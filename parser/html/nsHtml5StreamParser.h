@@ -503,6 +503,13 @@ h
 #
 include
 "
+nsICharsetAlias
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
@@ -534,13 +541,6 @@ h
 include
 "
 nsICharsetDetector
-.
-h
-"
-#
-include
-"
-nsAHtml5EncodingDeclarationHandler
 .
 h
 "
@@ -732,8 +732,6 @@ public
 nsIStreamListener
 public
 nsICharsetDetectionObserver
-public
-nsAHtml5EncodingDeclarationHandler
 {
 friend
 class
@@ -824,7 +822,7 @@ aConf
 ;
 /
 /
-nsAHtml5EncodingDeclarationHandler
+EncodingDeclarationHandler
 /
 *
 *
@@ -843,7 +841,6 @@ charset
 >
 *
 /
-virtual
 void
 internalEncodingDeclaration
 (
