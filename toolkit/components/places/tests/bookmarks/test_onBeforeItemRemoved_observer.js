@@ -1050,7 +1050,7 @@ createFolder
 (
 bs
 .
-unfiledBookmarsFolder
+unfiledBookmarksFolder
 "
 t
 "
@@ -1142,7 +1142,7 @@ createFolder
 (
 bs
 .
-unfiledBookmarsFolder
+unfiledBookmarksFolder
 "
 tf
 "
