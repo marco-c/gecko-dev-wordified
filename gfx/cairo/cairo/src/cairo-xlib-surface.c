@@ -10095,6 +10095,10 @@ cairo_xlib_screen_info_t
 *
 screen_info
 ;
+CAIRO_MUTEX_INITIALIZE
+(
+)
+;
 screen_info
 =
 _cairo_xlib_screen_info_get
@@ -10952,10 +10956,6 @@ CAIRO_STATUS_INVALID_VISUAL
 )
 )
 ;
-CAIRO_MUTEX_INITIALIZE
-(
-)
-;
 return
 _cairo_xlib_surface_create_internal
 (
@@ -11077,10 +11077,6 @@ int
 height
 )
 {
-CAIRO_MUTEX_INITIALIZE
-(
-)
-;
 return
 _cairo_xlib_surface_create_internal
 (
@@ -11267,10 +11263,6 @@ int
 height
 )
 {
-CAIRO_MUTEX_INITIALIZE
-(
-)
-;
 return
 _cairo_xlib_surface_create_internal
 (

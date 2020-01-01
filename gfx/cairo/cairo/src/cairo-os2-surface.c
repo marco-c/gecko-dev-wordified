@@ -767,6 +767,9 @@ DisableFPUException
 (
 )
 ;
+#
+if
+CAIRO_HAS_FT_FONT
 /
 *
 Initialize
@@ -777,6 +780,8 @@ FcInit
 (
 )
 ;
+#
+endif
 CAIRO_MUTEX_INITIALIZE
 (
 )
@@ -927,7 +932,7 @@ memories
 *
 (
 Check
-cairo_debug_reset_static_date
+cairo_debug_reset_static_data
 (
 )
 for
@@ -944,7 +949,7 @@ _cairo_font_reset_static_data
 )
 ;
 #
-ifdef
+if
 CAIRO_HAS_FT_FONT
 _cairo_ft_font_reset_static_data
 (
@@ -956,6 +961,9 @@ CAIRO_MUTEX_FINALIZE
 (
 )
 ;
+#
+if
+CAIRO_HAS_FT_FONT
 /
 *
 Uninitialize
@@ -966,6 +974,8 @@ FcFini
 (
 )
 ;
+#
+endif
 #
 ifdef
 __WATCOMC__

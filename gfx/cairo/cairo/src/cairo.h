@@ -1604,9 +1604,9 @@ error
 update
 CAIRO_STATUS_LAST_STATUS
 in
-cairo
+cairoint
 .
-c
+h
 *
 /
 }

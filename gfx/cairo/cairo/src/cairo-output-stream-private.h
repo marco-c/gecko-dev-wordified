@@ -734,6 +734,11 @@ fmt
 va_list
 ap
 )
+CAIRO_PRINTF_FORMAT
+(
+2
+0
+)
 ;
 cairo_private
 void
@@ -749,6 +754,11 @@ fmt
 .
 .
 .
+)
+CAIRO_PRINTF_FORMAT
+(
+2
+3
 )
 ;
 cairo_private
