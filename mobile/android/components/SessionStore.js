@@ -5838,6 +5838,8 @@ shEntry
 adoptBFCacheEntry
 (
 matchingEntry
+.
+shEntry
 )
 ;
 childDocIdents
