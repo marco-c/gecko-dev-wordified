@@ -3630,6 +3630,14 @@ v
 ;
 inline
 void
+setRegExpLastIndex
+(
+jsdouble
+d
+)
+;
+inline
+void
 zeroRegExpLastIndex
 (
 )
