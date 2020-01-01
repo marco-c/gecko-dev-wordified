@@ -2952,6 +2952,7 @@ self
 cb
 )
 ;
+}
 this
 .
 _tracker
@@ -2960,7 +2961,6 @@ disable
 (
 )
 ;
-}
 }
 /
 /
