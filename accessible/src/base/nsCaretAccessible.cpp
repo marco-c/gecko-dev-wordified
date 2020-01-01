@@ -1725,6 +1725,12 @@ mLastUsedSelection
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+caretSelection
+caretRect
+)
+;
 caret
 -
 >
