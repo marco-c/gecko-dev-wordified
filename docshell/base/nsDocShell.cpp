@@ -52584,6 +52584,15 @@ nsIURI
 aURI
 )
 {
+if
+(
+mInPrivateBrowsing
+)
+{
+return
+false
+;
+}
 nsCOMPtr
 <
 nsIOfflineCacheUpdateService
