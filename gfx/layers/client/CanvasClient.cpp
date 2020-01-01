@@ -167,7 +167,7 @@ h
 "
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 #
 include
 "
@@ -661,7 +661,7 @@ return
 }
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 if
 (
 surf
@@ -729,7 +729,7 @@ printf_stderr
 isCrossProcess
 but
 not
-MOZ_B2G
+MOZ_WIDGET_GONK
 !
 Someone
 needs
