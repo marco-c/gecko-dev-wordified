@@ -11226,6 +11226,14 @@ onerror
 }
 else
 {
+if
+(
+!
+this
+.
+_isCdma
+)
+{
 /
 /
 TODO
@@ -11319,6 +11327,7 @@ _getCLIRMode
 mmi
 )
 ;
+}
 }
 this
 .
