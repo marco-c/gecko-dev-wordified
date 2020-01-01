@@ -33475,13 +33475,14 @@ true
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 targ
-=
+(
 do_QueryInterface
 (
 aDoc
+)
 )
 ;
 bool
@@ -43693,7 +43694,7 @@ nsEventListenerManager
 (
 static_cast
 <
-EventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -47007,7 +47008,7 @@ true
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 outerWindow
 =

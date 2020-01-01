@@ -2290,7 +2290,7 @@ return
 }
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 target
 =
