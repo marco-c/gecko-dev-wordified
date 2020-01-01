@@ -17842,8 +17842,14 @@ SourceHook
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSScript
 *
+>
 script
 jschar
 *
