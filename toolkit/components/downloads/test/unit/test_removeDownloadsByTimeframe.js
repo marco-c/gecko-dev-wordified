@@ -1127,6 +1127,16 @@ run_test
 (
 )
 {
+if
+(
+oldDownloadManagerDisabled
+(
+)
+)
+{
+return
+;
+}
 for
 (
 let
