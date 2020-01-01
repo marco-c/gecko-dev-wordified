@@ -1310,10 +1310,7 @@ aName
 {
 aName
 =
-mNodeInfo
--
->
-QualifiedName
+NodeName
 (
 )
 ;

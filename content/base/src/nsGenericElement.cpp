@@ -13000,10 +13000,7 @@ aTagName
 {
 aTagName
 =
-mNodeInfo
--
->
-QualifiedNameCorrectedCase
+NodeName
 (
 )
 ;
