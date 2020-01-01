@@ -738,6 +738,17 @@ GetOwnedFrameSelection
 =
 0
 ;
+virtual
+nsresult
+GetPhonetic
+(
+nsAString
+&
+aPhonetic
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
