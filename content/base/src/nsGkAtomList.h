@@ -5983,6 +5983,13 @@ profile
 )
 GK_ATOM
 (
+progress
+"
+progress
+"
+)
+GK_ATOM
+(
 progressmeter
 "
 progressmeter
@@ -12545,13 +12552,6 @@ GK_ATOM
 loadstart
 "
 loadstart
-"
-)
-GK_ATOM
-(
-progress
-"
-progress
 "
 )
 GK_ATOM
