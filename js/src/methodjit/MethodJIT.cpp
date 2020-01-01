@@ -6552,7 +6552,7 @@ uintN
 mjit
 :
 :
-GetCallsitePolymorphism
+GetCallTargetCount
 (
 JSScript
 *
