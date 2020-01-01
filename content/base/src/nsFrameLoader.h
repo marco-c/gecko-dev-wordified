@@ -970,6 +970,16 @@ nsAString
 aPermission
 )
 ;
+virtual
+bool
+CheckManifestURL
+(
+const
+nsAString
+&
+aManifestURL
+)
+;
 /
 *
 *

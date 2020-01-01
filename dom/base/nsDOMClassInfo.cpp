@@ -14497,7 +14497,7 @@ nsISupports
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIPermissionChecker
+nsIProcessChecker
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
