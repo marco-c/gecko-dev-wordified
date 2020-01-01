@@ -614,6 +614,14 @@ mFramerate
 .
 0
 )
+mShuttingDown
+(
+PR_FALSE
+)
+mStopping
+(
+PR_FALSE
+)
 {
 MOZ_COUNT_CTOR
 (
