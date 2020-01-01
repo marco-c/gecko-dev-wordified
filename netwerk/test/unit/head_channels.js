@@ -216,6 +216,11 @@ CL_SUSPEND
 0x8
 ;
 const
+CL_ALLOW_UNKNOWN_CL
+=
+0x10
+;
+const
 SUSPEND_DELAY
 =
 3000
@@ -523,7 +528,11 @@ this
 .
 _flags
 &
+(
 CL_EXPECT_FAILURE
+|
+CL_ALLOW_UNKNOWN_CL
+)
 )
 )
 do_throw
@@ -554,7 +563,11 @@ this
 .
 _flags
 &
+(
 CL_EXPECT_FAILURE
+|
+CL_ALLOW_UNKNOWN_CL
+)
 )
 )
 do_throw
