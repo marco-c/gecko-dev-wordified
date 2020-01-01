@@ -415,12 +415,6 @@ toSource
 /
 IDX_TO_SOURCE
 "
-valueOf
-"
-/
-/
-IDX_VALUE_OF
-"
 lastResult
 "
 /
