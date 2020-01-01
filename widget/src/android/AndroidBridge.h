@@ -759,6 +759,11 @@ nsCString
 aMimeType
 )
 ;
+void
+MoveTaskToBack
+(
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1009,6 +1014,9 @@ jOpenUriExternal
 ;
 jmethodID
 jGetMimeTypeFromExtension
+;
+jmethodID
+jMoveTaskToBack
 ;
 }
 ;
