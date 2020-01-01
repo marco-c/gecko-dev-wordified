@@ -565,6 +565,9 @@ Components
 .
 results
 ;
+#
+ifdef
+ANDROID
 function
 getBridge
 (
@@ -616,6 +619,8 @@ aMessage
 )
 ;
 }
+#
+endif
 function
 getBrowser
 (
@@ -1291,6 +1296,9 @@ self
 =
 this
 ;
+#
+ifdef
+ANDROID
 sendMessageToJava
 (
 {
@@ -1308,6 +1316,8 @@ Ready
 }
 )
 ;
+#
+endif
 try
 {
 messageManager
