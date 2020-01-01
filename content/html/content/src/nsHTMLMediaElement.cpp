@@ -2505,7 +2505,7 @@ SetVolume
 aVolume
 )
 ;
-DispatchSimpleEvent
+DispatchAsyncSimpleEvent
 (
 NS_LITERAL_STRING
 (
@@ -2628,7 +2628,7 @@ oldMuted
 =
 mMuted
 )
-DispatchSimpleEvent
+DispatchAsyncSimpleEvent
 (
 NS_LITERAL_STRING
 (
