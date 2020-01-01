@@ -8278,11 +8278,11 @@ is
 gone
 if
 (
-PseudoStack
+ProfileStack
 *
 stack
 =
-mozilla_get_pseudo_stack
+mozilla_profile_stack
 (
 )
 )
@@ -17257,11 +17257,11 @@ ifdef
 MOZ_ENABLE_PROFILER_SPS
 if
 (
-PseudoStack
+ProfileStack
 *
 stack
 =
-mozilla_get_pseudo_stack
+mozilla_profile_stack
 (
 )
 )
