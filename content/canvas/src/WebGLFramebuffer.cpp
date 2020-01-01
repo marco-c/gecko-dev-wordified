@@ -731,7 +731,7 @@ LOCAL_GL_COLOR_ATTACHMENT0
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 )
 )
 {
@@ -2068,9 +2068,8 @@ LOCAL_GL_STENCIL_ATTACHMENT
 return
 mStencilAttachment
 ;
-if
+MOZ_ASSERT
 (
-!
 CheckColorAttachementNumber
 (
 attachment
@@ -2079,18 +2078,7 @@ getAttachment
 "
 )
 )
-{
-NS_ABORT
-(
-)
 ;
-return
-mColorAttachments
-[
-0
-]
-;
-}
 uint32_t
 colorAttachmentId
 =
@@ -2637,7 +2625,7 @@ colorAttachmentsMask
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 ]
 =
 {
@@ -2652,7 +2640,7 @@ colorAttachmentCount
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 )
 ;
 for
@@ -3061,7 +3049,7 @@ colorAttachmentId
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 )
 ;
 mColorAttachments
