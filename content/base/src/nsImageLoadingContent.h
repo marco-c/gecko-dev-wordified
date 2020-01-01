@@ -1424,9 +1424,6 @@ The
 default
 implementation
 returns
-nsGenericHTMLElement
-:
-:
 CORS_NONE
 unconditionally
 .

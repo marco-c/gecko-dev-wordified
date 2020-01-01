@@ -871,9 +871,6 @@ NS_DECL_NSIDOMHTMLIMAGEELEMENT
 override
 from
 nsImageLoadingContent
-nsGenericHTMLElement
-:
-:
 CORSMode
 GetCORSMode
 (
