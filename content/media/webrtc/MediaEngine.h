@@ -614,7 +614,9 @@ fields
 *
 /
 virtual
+const
 MediaEngineVideoOptions
+*
 GetOptions
 (
 )
