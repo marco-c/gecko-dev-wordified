@@ -12332,7 +12332,7 @@ nsISupports
 *
 item
 =
-GetNodeAt
+GetElementAt
 (
 aIndex
 )
@@ -13970,12 +13970,12 @@ return
 NS_OK
 ;
 }
-nsIContent
+nsGenericElement
 *
 nsFormControlList
 :
 :
-GetNodeAt
+GetElementAt
 (
 uint32_t
 aIndex

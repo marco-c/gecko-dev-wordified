@@ -1446,6 +1446,15 @@ return
 mRootNode
 ;
 }
+virtual
+nsIContent
+*
+GetNodeAt
+(
+uint32_t
+aIndex
+)
+;
 /
 /
 nsContentList

@@ -313,9 +313,9 @@ in
 /
 nsIDOMHTMLOptionsCollection
 virtual
-nsIContent
+nsGenericElement
 *
-GetNodeAt
+GetElementAt
 (
 uint32_t
 aIndex
