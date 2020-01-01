@@ -54862,6 +54862,10 @@ units
 has
 changed
 .
+newContext
+=
+nullptr
+;
 DoRebuildAllStyleData
 (
 aRestyleTracker
