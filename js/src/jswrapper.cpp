@@ -3903,7 +3903,7 @@ getClass
 =
 =
 &
-IteratorClass
+js_IteratorClass
 &
 &
 (

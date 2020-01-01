@@ -1098,7 +1098,7 @@ pc
 JSBool
 ok
 =
-UnwindScope
+js_UnwindScope
 (
 cx
 tn
@@ -1529,11 +1529,12 @@ entryfp
 JS_ASSERT
 (
 !
-IsActiveWithOrBlock
+js_IsActiveWithOrBlock
 (
 f
 .
 cx
+&
 f
 .
 fp
@@ -4638,7 +4639,7 @@ finishedInInterpreter
 )
 )
 ;
-UnwindScope
+js_UnwindScope
 (
 cx
 0
@@ -5960,7 +5961,9 @@ return
 returnOK
 &
 =
-UnwindScope
+bool
+(
+js_UnwindScope
 (
 cx
 0
@@ -5972,6 +5975,7 @@ cx
 >
 isExceptionPending
 (
+)
 )
 )
 ;

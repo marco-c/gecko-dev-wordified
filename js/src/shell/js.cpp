@@ -8794,7 +8794,7 @@ clasp
 Jsvalify
 (
 &
-ScriptClass
+js_ScriptClass
 )
 )
 {
@@ -8820,7 +8820,7 @@ clasp
 Jsvalify
 (
 &
-GeneratorClass
+js_GeneratorClass
 )
 )
 {
@@ -9152,7 +9152,7 @@ v
 Jsvalify
 (
 &
-FunctionClass
+js_FunctionClass
 )
 |
 |
@@ -9169,7 +9169,7 @@ v
 Jsvalify
 (
 &
-ScriptClass
+js_ScriptClass
 )
 )
 )

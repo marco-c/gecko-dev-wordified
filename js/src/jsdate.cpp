@@ -3293,10 +3293,7 @@ definitions
 *
 /
 Class
-js
-:
-:
-DateClass
+js_DateClass
 =
 {
 js_Date_str
@@ -8185,7 +8182,7 @@ ReportIncompatibleMethod
 cx
 vp
 &
-DateClass
+js_DateClass
 )
 ;
 return
@@ -9241,7 +9238,7 @@ ReportIncompatibleMethod
 cx
 vp
 &
-DateClass
+js_DateClass
 )
 ;
 return
@@ -10631,7 +10628,7 @@ ReportIncompatibleMethod
 cx
 vp
 &
-DateClass
+js_DateClass
 )
 ;
 return
@@ -16153,7 +16150,7 @@ cx
 obj
 NULL
 &
-DateClass
+js_DateClass
 js_Date
 MAXARGS
 NULL
@@ -16331,7 +16328,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-DateClass
+js_DateClass
 )
 ;
 if

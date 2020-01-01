@@ -2301,7 +2301,7 @@ Class
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 NULL
 NULL
 )
@@ -4191,7 +4191,7 @@ Class
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 NULL
 NULL
 )
@@ -18135,7 +18135,7 @@ Class
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 NULL
 obj
 )

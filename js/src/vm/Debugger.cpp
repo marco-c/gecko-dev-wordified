@@ -2352,9 +2352,7 @@ JS_ASSERT
 obj
 -
 >
-getClass
-(
-)
+clasp
 =
 =
 &
@@ -2364,9 +2362,7 @@ DebuggerFrame_class
 obj
 -
 >
-getClass
-(
-)
+clasp
 =
 =
 &
@@ -2376,9 +2372,7 @@ DebuggerObject_class
 obj
 -
 >
-getClass
-(
-)
+clasp
 =
 =
 &
@@ -3692,9 +3686,7 @@ if
 dobj
 -
 >
-getClass
-(
-)
+clasp
 !
 =
 &
@@ -3718,9 +3710,7 @@ Object
 dobj
 -
 >
-getClass
-(
-)
+clasp
 -
 >
 name
@@ -4080,7 +4070,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 )
 ;
 if
@@ -10681,9 +10671,7 @@ if
 obj
 -
 >
-getClass
-(
-)
+clasp
 =
 =
 &
@@ -14603,9 +14591,7 @@ if
 thisobj
 -
 >
-getClass
-(
-)
+clasp
 !
 =
 &
@@ -21155,7 +21141,7 @@ Given
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 NULL
 scobj
 )
@@ -21778,9 +21764,7 @@ if
 thisobj
 -
 >
-getClass
-(
-)
+clasp
 !
 =
 &
@@ -22163,9 +22147,7 @@ s
 refobj
 -
 >
-getClass
-(
-)
+clasp
 -
 >
 name

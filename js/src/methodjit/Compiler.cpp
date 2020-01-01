@@ -39303,7 +39303,7 @@ Assembler
 NotEqual
 reg
 &
-IteratorClass
+js_IteratorClass
 )
 ;
 stubcc
@@ -39701,7 +39701,7 @@ Assembler
 NotEqual
 reg
 &
-IteratorClass
+js_IteratorClass
 )
 ;
 stubcc
@@ -39967,7 +39967,7 @@ Assembler
 NotEqual
 reg
 &
-IteratorClass
+js_IteratorClass
 )
 ;
 stubcc

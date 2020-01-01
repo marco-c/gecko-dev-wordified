@@ -1360,7 +1360,7 @@ getClass
 {
 return
 &
-StringClass
+js_StringClass
 ;
 }
 }
@@ -1424,7 +1424,7 @@ getClass
 {
 return
 &
-BooleanClass
+js_BooleanClass
 ;
 }
 }
@@ -1488,7 +1488,7 @@ getClass
 {
 return
 &
-NumberClass
+js_NumberClass
 ;
 }
 }

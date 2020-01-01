@@ -2879,10 +2879,7 @@ JS_TRUE
 ;
 }
 Class
-js
-:
-:
-StringClass
+js_StringClass
 =
 {
 js_String_str
@@ -2990,13 +2987,6 @@ prototype
 *
 methods
 do
-(
-other
-than
-toString
-and
-valueOf
-)
 .
 *
 /
@@ -3073,9 +3063,13 @@ if
 obj
 -
 >
-isString
+getClass
 (
 )
+=
+=
+&
+js_StringClass
 &
 &
 ClassMethodIsNative
@@ -3083,7 +3077,7 @@ ClassMethodIsNative
 cx
 obj
 &
-StringClass
+js_StringClass
 ATOM_TO_JSID
 (
 cx
@@ -21656,7 +21650,7 @@ createBlankPrototype
 (
 cx
 &
-StringClass
+js_StringClass
 )
 ;
 if
@@ -21711,7 +21705,7 @@ createConstructor
 cx
 js_String
 &
-StringClass
+js_StringClass
 CLASS_ATOM
 (
 cx

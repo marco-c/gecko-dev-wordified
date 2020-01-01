@@ -4079,11 +4079,10 @@ nj
 :
 LIR_ldp
 obj
-JSObject
-:
-:
-offsetOfClassPointer
+offsetof
 (
+JSObject
+clasp
 )
 ACCSET_OBJ_CLASP
 loadQual

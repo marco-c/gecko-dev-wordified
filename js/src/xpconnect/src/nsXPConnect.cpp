@@ -5111,10 +5111,7 @@ clazz
 =
 =
 &
-js
-:
-:
-ScriptClass
+js_ScriptClass
 )
 {
 JSScript
@@ -5189,10 +5186,7 @@ clazz
 =
 =
 &
-js
-:
-:
-FunctionClass
+js_FunctionClass
 )
 {
 JSFunction

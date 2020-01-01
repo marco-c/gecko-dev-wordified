@@ -3129,7 +3129,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-RegExpClass
+js_RegExpClass
 )
 ;
 if

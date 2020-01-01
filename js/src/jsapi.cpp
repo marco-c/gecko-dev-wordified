@@ -8979,6 +8979,9 @@ name
 )
 (
 &
+js_
+#
+#
 name
 #
 #
@@ -9765,7 +9768,7 @@ EAGER_CLASS_ATOM
 ArrayBuffer
 )
 &
-ArrayBufferClass
+js_ArrayBufferClass
 }
 {
 js_InitTypedArrayClasses
@@ -12950,7 +12953,7 @@ clasp
 =
 =
 &
-FunctionClass
+js_FunctionClass
 )
 {
 JSFunction
@@ -17172,7 +17175,7 @@ clasp
 clasp
 =
 &
-ObjectClass
+js_ObjectClass
 ;
 /
 *
@@ -17188,7 +17191,7 @@ clasp
 !
 =
 &
-FunctionClass
+js_FunctionClass
 )
 ;
 JS_ASSERT
@@ -17364,7 +17367,7 @@ clasp
 clasp
 =
 &
-ObjectClass
+js_ObjectClass
 ;
 /
 *
@@ -17380,7 +17383,7 @@ clasp
 !
 =
 &
-FunctionClass
+js_FunctionClass
 )
 ;
 JS_ASSERT
@@ -17768,7 +17771,7 @@ clasp
 clasp
 =
 &
-ObjectClass
+js_ObjectClass
 ;
 /
 *
@@ -17850,7 +17853,7 @@ clasp
 clasp
 =
 &
-ObjectClass
+js_ObjectClass
 ;
 /
 *
@@ -19953,7 +19956,7 @@ clasp
 clasp
 =
 &
-ObjectClass
+js_ObjectClass
 ;
 /
 *
@@ -24086,13 +24089,16 @@ parent
 }
 if
 (
-!
 funobj
 -
 >
-isFunction
+getClass
 (
 )
+!
+=
+&
+js_FunctionClass
 )
 {
 /
@@ -24630,9 +24636,13 @@ return
 obj
 -
 >
-isFunction
+getClass
 (
 )
+=
+=
+&
+js_FunctionClass
 ;
 }
 JS_PUBLIC_API

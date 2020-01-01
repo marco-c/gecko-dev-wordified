@@ -531,7 +531,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-StringClass
+js_StringClass
 )
 ;
 if
@@ -607,7 +607,7 @@ GetGCObjectKind
 JSCLASS_RESERVED_SLOTS
 (
 &
-StringClass
+js_StringClass
 )
 )
 )
@@ -620,7 +620,7 @@ NewObjectWithClassProto
 (
 cx
 &
-StringClass
+js_StringClass
 &
 proto
 gc

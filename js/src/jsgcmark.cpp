@@ -688,7 +688,7 @@ for
 things
 like
 *
-IteratorClass
+js_IteratorClass
 )
 .
 It
@@ -4505,7 +4505,7 @@ clasp
 =
 =
 &
-ArrayClass
+js_ArrayClass
 )
 {
 if

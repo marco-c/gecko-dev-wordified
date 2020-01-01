@@ -1068,9 +1068,13 @@ JS_ASSERT
 obj
 -
 >
-isRegExp
+getClass
 (
 )
+=
+=
+&
+js_RegExpClass
 )
 ;
 return

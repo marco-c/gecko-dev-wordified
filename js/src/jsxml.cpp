@@ -1121,7 +1121,7 @@ getClass
 =
 =
 &
-NamespaceClass
+js_NamespaceClass
 )
 ;
 v
@@ -1340,7 +1340,7 @@ getClass
 =
 =
 &
-NamespaceClass
+js_NamespaceClass
 )
 *
 vp
@@ -1366,7 +1366,7 @@ getClass
 =
 =
 &
-NamespaceClass
+js_NamespaceClass
 )
 *
 vp
@@ -1437,7 +1437,7 @@ getClass
 !
 =
 &
-NamespaceClass
+js_NamespaceClass
 )
 ?
 JS_FALSE
@@ -1466,10 +1466,7 @@ JS_FRIEND_DATA
 (
 Class
 )
-js
-:
-:
-NamespaceClass
+js_NamespaceClass
 =
 {
 "
@@ -1681,7 +1678,7 @@ ReportIncompatibleMethod
 cx
 vp
 &
-NamespaceClass
+js_NamespaceClass
 )
 ;
 return
@@ -1750,7 +1747,7 @@ NewBuiltinClassInstanceXML
 (
 cx
 &
-NamespaceClass
+js_NamespaceClass
 )
 ;
 if
@@ -1899,7 +1896,7 @@ getClass
 =
 =
 &
-QNameClass
+js_QNameClass
 )
 *
 vp
@@ -1937,7 +1934,7 @@ getClass
 =
 =
 &
-QNameClass
+js_QNameClass
 )
 *
 vp
@@ -2076,7 +2073,7 @@ getClass
 !
 =
 &
-QNameClass
+js_QNameClass
 )
 ?
 JS_FALSE
@@ -2095,10 +2092,7 @@ JS_FRIEND_DATA
 (
 Class
 )
-js
-:
-:
-QNameClass
+js_QNameClass
 =
 {
 "
@@ -2267,10 +2261,7 @@ JS_FRIEND_DATA
 (
 Class
 )
-js
-:
-:
-AttributeNameClass
+js_AttributeNameClass
 =
 {
 js_AttributeName_str
@@ -2317,10 +2308,7 @@ JS_FRIEND_DATA
 (
 Class
 )
-js
-:
-:
-AnyNameClass
+js_AnyNameClass
 =
 {
 js_AnyName_str
@@ -2576,7 +2564,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 {
 JS
@@ -2774,7 +2762,7 @@ ReportIncompatibleMethod
 cx
 vp
 &
-QNameClass
+js_QNameClass
 )
 ;
 return
@@ -2999,7 +2987,7 @@ NewBuiltinClassInstanceXML
 (
 cx
 &
-QNameClass
+js_QNameClass
 )
 ;
 if
@@ -3091,7 +3079,7 @@ Given
 (
 cx
 &
-AttributeNameClass
+js_AttributeNameClass
 NULL
 parent
 )
@@ -3203,7 +3191,7 @@ getClass
 =
 =
 &
-AnyNameClass
+js_AnyNameClass
 )
 {
 argv
@@ -3238,7 +3226,7 @@ js_ConstructObject
 (
 cx
 &
-QNameClass
+js_QNameClass
 NULL
 NULL
 2
@@ -3675,7 +3663,7 @@ clasp
 =
 =
 &
-NamespaceClass
+js_NamespaceClass
 )
 ;
 isQName
@@ -3685,7 +3673,7 @@ clasp
 =
 =
 &
-QNameClass
+js_QNameClass
 )
 ;
 }
@@ -3744,7 +3732,7 @@ NewBuiltinClassInstanceXML
 (
 cx
 &
-NamespaceClass
+js_NamespaceClass
 )
 ;
 if
@@ -4408,7 +4396,7 @@ getClass
 =
 =
 &
-QNameClass
+js_QNameClass
 ;
 }
 if
@@ -4481,7 +4469,7 @@ NewBuiltinClassInstanceXML
 (
 cx
 &
-QNameClass
+js_QNameClass
 )
 ;
 if
@@ -4737,7 +4725,7 @@ getClass
 =
 =
 &
-NamespaceClass
+js_NamespaceClass
 )
 ;
 }
@@ -4879,7 +4867,7 @@ getClass
 =
 =
 &
-NamespaceClass
+js_NamespaceClass
 )
 ;
 isQName
@@ -4894,7 +4882,7 @@ getClass
 =
 =
 &
-QNameClass
+js_QNameClass
 )
 ;
 }
@@ -11455,21 +11443,21 @@ clasp
 !
 =
 &
-StringClass
+js_StringClass
 &
 &
 clasp
 !
 =
 &
-NumberClass
+js_NumberClass
 &
 &
 clasp
 !
 =
 &
-BooleanClass
+js_BooleanClass
 )
 {
 goto
@@ -11859,21 +11847,21 @@ clasp
 !
 =
 &
-StringClass
+js_StringClass
 &
 &
 clasp
 !
 =
 &
-NumberClass
+js_NumberClass
 &
 &
 clasp
 !
 =
 &
-BooleanClass
+js_BooleanClass
 )
 {
 goto
@@ -13777,7 +13765,7 @@ js_ConstructObject
 (
 cx
 &
-NamespaceClass
+js_NamespaceClass
 NULL
 NULL
 2
@@ -17712,7 +17700,7 @@ clasp
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 return
 obj
@@ -17723,7 +17711,7 @@ clasp
 =
 =
 &
-QNameClass
+js_QNameClass
 )
 {
 qn
@@ -17766,7 +17754,7 @@ clasp
 =
 =
 &
-AnyNameClass
+js_AnyNameClass
 )
 {
 name
@@ -18073,14 +18061,14 @@ clasp
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 |
 |
 clasp
 =
 =
 &
-QNameClass
+js_QNameClass
 )
 goto
 out
@@ -18091,7 +18079,7 @@ clasp
 =
 =
 &
-AnyNameClass
+js_AnyNameClass
 )
 {
 name
@@ -18344,7 +18332,7 @@ js_ConstructObject
 (
 cx
 &
-QNameClass
+js_QNameClass
 NULL
 NULL
 1
@@ -20360,7 +20348,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 {
 for
@@ -20479,7 +20467,7 @@ getClass
 !
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 &
 &
 MatchElemName
@@ -23214,7 +23202,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 ;
 if
@@ -24920,7 +24908,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 {
 /
@@ -25602,7 +25590,7 @@ getClass
 !
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 {
 nameobj
@@ -27073,7 +27061,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 {
 /
@@ -28770,7 +28758,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 {
 *
@@ -29088,7 +29076,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 {
 array
@@ -29269,7 +29257,7 @@ getClass
 =
 =
 &
-XMLClass
+js_XMLClass
 )
 ;
 if
@@ -30700,7 +30688,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 )
 ;
 }
@@ -32385,10 +32373,7 @@ JS_FRIEND_DATA
 (
 Class
 )
-js
-:
-:
-XMLClass
+js_XMLClass
 =
 {
 js_XML_str
@@ -32582,7 +32567,7 @@ Valueify
 vp
 )
 &
-XMLClass
+js_XMLClass
 )
 ;
 return
@@ -32819,7 +32804,7 @@ Valueify
 vp
 )
 &
-XMLClass
+js_XMLClass
 )
 ;
 \
@@ -35573,7 +35558,7 @@ Valueify
 vp
 )
 &
-XMLClass
+js_XMLClass
 )
 ;
 return
@@ -39972,7 +39957,7 @@ getClass
 =
 =
 &
-QNameClass
+js_QNameClass
 &
 &
 !
@@ -40013,7 +39998,7 @@ js_ConstructObject
 (
 cx
 &
-QNameClass
+js_QNameClass
 NULL
 NULL
 1
@@ -40761,7 +40746,7 @@ js_ConstructObject
 (
 cx
 &
-NamespaceClass
+js_NamespaceClass
 NULL
 obj
 argc
@@ -40835,7 +40820,7 @@ js_ConstructObject
 (
 cx
 &
-QNameClass
+js_QNameClass
 NULL
 NULL
 2
@@ -42760,7 +42745,7 @@ clasp
 =
 =
 &
-XMLClass
+js_XMLClass
 |
 |
 (
@@ -43579,7 +43564,7 @@ Class
 (
 cx
 &
-XMLClass
+js_XMLClass
 NULL
 parent
 )
@@ -43720,7 +43705,7 @@ createBlankPrototype
 (
 cx
 &
-NamespaceClass
+js_NamespaceClass
 )
 ;
 if
@@ -43784,7 +43769,7 @@ createConstructor
 cx
 Namespace
 &
-NamespaceClass
+js_NamespaceClass
 CLASS_ATOM
 (
 cx
@@ -43891,7 +43876,7 @@ createBlankPrototype
 (
 cx
 &
-QNameClass
+js_QNameClass
 )
 ;
 if
@@ -43954,7 +43939,7 @@ createConstructor
 cx
 QName
 &
-QNameClass
+js_QNameClass
 CLASS_ATOM
 (
 cx
@@ -44061,7 +44046,7 @@ createBlankPrototype
 (
 cx
 &
-XMLClass
+js_XMLClass
 )
 ;
 if
@@ -44164,7 +44149,7 @@ createConstructor
 cx
 XML
 &
-XMLClass
+js_XMLClass
 CLASS_ATOM
 (
 cx
@@ -44841,14 +44826,14 @@ clasp
 =
 =
 &
-BlockClass
+js_BlockClass
 |
 |
 clasp
 =
 =
 &
-WithClass
+js_WithClass
 )
 continue
 ;
@@ -44901,7 +44886,7 @@ js_ConstructObject
 (
 cx
 &
-NamespaceClass
+js_NamespaceClass
 NULL
 obj
 0
@@ -45005,7 +44990,7 @@ js_ConstructObject
 (
 cx
 &
-NamespaceClass
+js_NamespaceClass
 NULL
 NULL
 2
@@ -45501,7 +45486,7 @@ Given
 (
 cx
 &
-AnyNameClass
+js_AnyNameClass
 NULL
 global
 )
@@ -45683,7 +45668,7 @@ getClass
 =
 =
 &
-AnyNameClass
+js_AnyNameClass
 )
 {
 v
@@ -45707,7 +45692,7 @@ js_ConstructObject
 (
 cx
 &
-QNameClass
+js_QNameClass
 NULL
 NULL
 1
@@ -45740,7 +45725,7 @@ getClass
 =
 =
 &
-AttributeNameClass
+js_AttributeNameClass
 |
 |
 nameobj
@@ -45752,7 +45737,7 @@ getClass
 =
 =
 &
-QNameClass
+js_QNameClass
 )
 ;
 }
@@ -45816,7 +45801,7 @@ getClass
 =
 =
 &
-WithClass
+js_WithClass
 )
 {
 proto

@@ -664,10 +664,7 @@ js
 types
 ;
 Class
-js
-:
-:
-JSONClass
+js_JSONClass
 =
 {
 js_JSON_str
@@ -2421,7 +2418,7 @@ clasp
 =
 =
 &
-NumberClass
+js_NumberClass
 )
 {
 double
@@ -2458,7 +2455,7 @@ clasp
 =
 =
 &
-StringClass
+js_StringClass
 )
 {
 JSString
@@ -2496,7 +2493,7 @@ clasp
 =
 =
 &
-BooleanClass
+js_BooleanClass
 )
 {
 *
@@ -5303,7 +5300,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 )
 ;
 if
@@ -6131,7 +6128,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 )
 ;
 if
@@ -6426,7 +6423,7 @@ Class
 (
 cx
 &
-JSONClass
+js_JSONClass
 NULL
 obj
 )
@@ -6486,7 +6483,7 @@ MarkStandardClassInitializedNoProto
 (
 obj
 &
-JSONClass
+js_JSONClass
 )
 ;
 return

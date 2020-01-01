@@ -1627,7 +1627,7 @@ clasp
 !
 =
 &
-ObjectClass
+js_ObjectClass
 )
 ;
 JS_ASSERT
@@ -1636,7 +1636,7 @@ clasp
 !
 =
 &
-FunctionClass
+js_FunctionClass
 )
 ;
 JSObject
@@ -2056,9 +2056,7 @@ toObject
 (
 )
 .
-getClass
-(
-)
+clasp
 =
 =
 &
