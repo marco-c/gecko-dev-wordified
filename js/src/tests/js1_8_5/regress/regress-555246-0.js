@@ -30,6 +30,17 @@ Jason
 Orendorff
 *
 /
+if
+(
+typeof
+evalcx
+!
+=
+'
+function
+'
+)
+{
 var
 cx
 =
@@ -70,6 +81,7 @@ f
 cx
 )
 ;
+}
 reportCompare
 (
 0
