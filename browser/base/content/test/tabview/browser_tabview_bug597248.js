@@ -1574,7 +1574,7 @@ if
 (
 tabItem
 .
-reconnected
+_reconnected
 )
 {
 ok
