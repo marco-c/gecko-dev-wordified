@@ -436,7 +436,7 @@ PRBool
 OnConnectionFailed
 (
 const
-PRUnichar
+char
 *
 hostName
 )
