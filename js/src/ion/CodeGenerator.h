@@ -802,6 +802,16 @@ call
 )
 ;
 bool
+emitCallInvokeFunction
+(
+LCallGeneric
+*
+call
+uint32
+unusedStack
+)
+;
+bool
 visitCallGeneric
 (
 LCallGeneric
