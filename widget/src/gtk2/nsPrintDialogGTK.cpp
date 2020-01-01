@@ -473,13 +473,6 @@ h
 #
 include
 "
-nsAccessibilityHelper
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h
@@ -1206,7 +1199,7 @@ FALSE
 gint
 diag_response
 =
-RunDialog
+gtk_dialog_run
 (
 GTK_DIALOG
 (
@@ -3203,7 +3196,7 @@ const
 gint
 response
 =
-RunDialog
+gtk_dialog_run
 (
 GTK_DIALOG
 (
