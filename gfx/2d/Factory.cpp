@@ -1029,7 +1029,7 @@ ScaledFontWin
 (
 static_cast
 <
-gfxGDIFont
+LOGFONT
 *
 >
 (
