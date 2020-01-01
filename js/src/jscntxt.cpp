@@ -12363,7 +12363,7 @@ compartment
 scopeobj
 -
 >
-compartment
+getCompartment
 (
 )
 ;

@@ -10769,7 +10769,7 @@ if
 (
 caller
 .
-compartment
+getCompartment
 (
 )
 !
