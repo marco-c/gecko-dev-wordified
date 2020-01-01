@@ -6883,7 +6883,7 @@ bug
 nsresult
 rv
 ;
-ncCOMPtr
+nsCOMPtr
 <
 nsILoginInfo
 >
