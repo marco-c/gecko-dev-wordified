@@ -7698,11 +7698,11 @@ IME_DELETE_TEXT
 "
 )
 ;
-nsContentCommandEvent
+nsKeyEvent
 event
 (
 PR_TRUE
-NS_CONTENT_COMMAND_DELETE
+NS_KEY_PRESS
 this
 )
 ;
@@ -7711,6 +7711,12 @@ InitEvent
 event
 nsnull
 )
+;
+event
+.
+keyCode
+=
+NS_VK_BACK
 ;
 DispatchEvent
 (
