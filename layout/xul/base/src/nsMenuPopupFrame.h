@@ -1790,6 +1790,9 @@ nsMenuFrame
 *
 Enter
 (
+nsGUIEvent
+*
+aEvent
 )
 ;
 nsPopupType

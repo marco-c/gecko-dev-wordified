@@ -1146,6 +1146,9 @@ nsMenuFrame
 *
 Enter
 (
+nsGUIEvent
+*
+aEvent
 )
 ;
 virtual

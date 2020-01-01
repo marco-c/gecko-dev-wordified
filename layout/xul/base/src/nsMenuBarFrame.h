@@ -866,6 +866,9 @@ nsMenuFrame
 *
 Enter
 (
+nsGUIEvent
+*
+aEvent
 )
 ;
 /
