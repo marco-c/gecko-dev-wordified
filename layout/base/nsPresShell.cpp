@@ -574,13 +574,6 @@ part
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -1143,6 +1136,13 @@ code
 include
 "
 prenv
+.
+h
+"
+#
+include
+"
+nsAlgorithm
 .
 h
 "

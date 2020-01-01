@@ -843,7 +843,7 @@ YMost
 ;
 x
 =
-PR_MIN
+NS_MIN
 (
 aRect1
 .
@@ -855,7 +855,7 @@ x
 ;
 y
 =
-PR_MIN
+NS_MIN
 (
 aRect1
 .
