@@ -383,14 +383,6 @@ used
 to
 menu
 bar
-background
-eColorID__moz_menubar
-/
-/
-used
-to
-menu
-bar
 item
 text
 eColorID__moz_menubartext
