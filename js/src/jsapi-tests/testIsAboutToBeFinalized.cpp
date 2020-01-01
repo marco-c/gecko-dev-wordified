@@ -334,11 +334,9 @@ checkPointersStaticStrings
 ;
 }
 }
-CHECK
+CHECK_EQUAL
 (
 checkPointersStaticStrings
-=
-=
 0
 )
 ;

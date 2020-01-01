@@ -203,11 +203,9 @@ n
 "
 )
 ;
-CHECK
+CHECK_EQUAL
 (
 g_counter
-=
-=
 1
 )
 ;

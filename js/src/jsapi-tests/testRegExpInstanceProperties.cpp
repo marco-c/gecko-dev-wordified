@@ -129,7 +129,7 @@ JS_GC
 cx
 )
 ;
-CHECK
+CHECK_EQUAL
 (
 regexpProto
 -
@@ -140,8 +140,6 @@ getCompartment
 -
 >
 initialRegExpShape
-=
-=
 NULL
 )
 ;
@@ -178,7 +176,7 @@ lastProperty
 )
 )
 ;
-CHECK
+CHECK_EQUAL
 (
 robj
 -
@@ -189,8 +187,6 @@ getCompartment
 -
 >
 initialRegExpShape
-=
-=
 robj
 -
 >
