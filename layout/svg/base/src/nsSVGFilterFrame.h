@@ -495,6 +495,10 @@ aContext
 nsISVGChildFrame
 *
 aTarget
+const
+nsRect
+*
+aDirtyRect
 )
 ;
 /

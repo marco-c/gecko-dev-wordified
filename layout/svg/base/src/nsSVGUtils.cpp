@@ -7580,6 +7580,7 @@ FilterPaint
 (
 aContext
 svgChildFrame
+aDirtyRect
 )
 ;
 }

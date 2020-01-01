@@ -591,6 +591,10 @@ const
 nsIntSize
 &
 aFilterSpaceSize
+const
+nsIntRect
+&
+aDirtyRect
 PRUint16
 aPrimitiveUnits
 )
@@ -614,6 +618,10 @@ aFilterRect
 mFilterSpaceSize
 (
 aFilterSpaceSize
+)
+mDirtyRect
+(
+aDirtyRect
 )
 mSurfaceRect
 (
@@ -1133,6 +1141,9 @@ mFilterRect
 ;
 nsIntSize
 mFilterSpaceSize
+;
+nsIntRect
+mDirtyRect
 ;
 nsIntRect
 mSurfaceRect
