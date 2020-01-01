@@ -305,15 +305,10 @@ testVideo
 '
 )
 ;
-navigator
-.
-mozGetUserMedia
+getUserMedia
 (
 {
 video
-:
-true
-fake
 :
 true
 }
@@ -326,7 +321,7 @@ var
 playback
 =
 new
-MediaStreamPlayback
+LocalMediaStreamPlayback
 (
 testVideo
 aStream
@@ -336,7 +331,7 @@ playback
 .
 playMedia
 (
-10000
+false
 function
 (
 )
