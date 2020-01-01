@@ -4632,6 +4632,8 @@ cp
 bool
 getAtSourceMappingURL
 (
+bool
+isMultiline
 )
 ;
 bool
