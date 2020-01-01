@@ -23434,7 +23434,10 @@ argc
 0
 )
 ;
-JSTempVector
+js
+:
+:
+Vector
 <
 char
 *
