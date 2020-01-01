@@ -158,7 +158,6 @@ macro
 macro
 (
 etago
-etago
 "
 <
 /
@@ -167,7 +166,6 @@ etago
 \
 macro
 (
-functionNamespaceURI
 functionNamespaceURI
 "
 mozilla
@@ -183,7 +181,6 @@ function
 macro
 (
 namespace
-namespace_
 "
 namespace
 "
@@ -191,7 +188,6 @@ namespace
 \
 macro
 (
-ptagc
 ptagc
 "
 /
@@ -202,7 +198,6 @@ ptagc
 macro
 (
 qualifier
-qualifier
 "
 :
 :
@@ -212,14 +207,12 @@ qualifier
 macro
 (
 space
-space
 "
 "
 )
 \
 macro
 (
-stago
 stago
 "
 <
@@ -229,7 +222,6 @@ stago
 macro
 (
 star
-star
 "
 *
 "
@@ -237,7 +229,6 @@ star
 \
 macro
 (
-starQualifier
 starQualifier
 "
 *
@@ -248,7 +239,6 @@ starQualifier
 \
 macro
 (
-tagc
 tagc
 "
 >
@@ -257,7 +247,6 @@ tagc
 \
 macro
 (
-XMLList
 XMLList
 "
 XMLList
@@ -293,7 +282,6 @@ macro
 macro
 (
 anonymous
-anonymous
 "
 anonymous
 "
@@ -302,7 +290,6 @@ anonymous
 macro
 (
 apply
-apply
 "
 apply
 "
@@ -311,7 +298,6 @@ apply
 macro
 (
 arguments
-arguments
 "
 arguments
 "
@@ -320,7 +306,6 @@ arguments
 macro
 (
 buffer
-buffer
 "
 buffer
 "
@@ -329,7 +314,6 @@ buffer
 macro
 (
 builder
-builder
 "
 builder
 "
@@ -338,7 +322,6 @@ builder
 macro
 (
 byteLength
-byteLength
 "
 byteLength
 "
@@ -347,7 +330,6 @@ byteLength
 macro
 (
 byteOffset
-byteOffset
 "
 byteOffset
 "
@@ -356,7 +338,6 @@ byteOffset
 macro
 (
 BYTES_PER_ELEMENT
-BYTES_PER_ELEMENT
 "
 BYTES_PER_ELEMENT
 "
@@ -365,7 +346,6 @@ BYTES_PER_ELEMENT
 macro
 (
 call
-call
 "
 call
 "
@@ -374,7 +354,6 @@ call
 macro
 (
 callee
-callee
 "
 callee
 "
@@ -383,7 +362,6 @@ callee
 macro
 (
 caller
-caller
 "
 caller
 "
@@ -392,7 +370,6 @@ caller
 macro
 (
 _CallFunction
-_CallFunction
 "
 _CallFunction
 "
@@ -400,7 +377,6 @@ _CallFunction
 \
 macro
 (
-classPrototype
 classPrototype
 "
 prototype
@@ -410,7 +386,6 @@ prototype
 macro
 (
 columnNumber
-columnNumber
 "
 columnNumber
 "
@@ -419,7 +394,6 @@ columnNumber
 macro
 (
 configurable
-configurable
 "
 configurable
 "
@@ -428,7 +402,6 @@ configurable
 macro
 (
 construct
-construct
 "
 construct
 "
@@ -437,7 +410,6 @@ construct
 macro
 (
 constructor
-constructor
 "
 constructor
 "
@@ -446,7 +418,6 @@ constructor
 macro
 (
 decodeURI
-decodeURI
 "
 decodeURI
 "
@@ -455,7 +426,6 @@ decodeURI
 macro
 (
 decodeURIComponent
-decodeURIComponent
 "
 decodeURIComponent
 "
@@ -464,7 +434,6 @@ decodeURIComponent
 macro
 (
 defineProperty
-defineProperty
 "
 defineProperty
 "
@@ -472,7 +441,6 @@ defineProperty
 \
 macro
 (
-defineGetter
 defineGetter
 "
 __defineGetter__
@@ -482,7 +450,6 @@ __defineGetter__
 macro
 (
 defineSetter
-defineSetter
 "
 __defineSetter__
 "
@@ -491,7 +458,6 @@ __defineSetter__
 macro
 (
 delete
-delete_
 "
 delete
 "
@@ -500,7 +466,6 @@ delete
 macro
 (
 deleteProperty
-deleteProperty
 "
 deleteProperty
 "
@@ -508,7 +473,6 @@ deleteProperty
 \
 macro
 (
-each
 each
 "
 each
@@ -518,14 +482,12 @@ each
 macro
 (
 empty
-empty
 "
 "
 )
 \
 macro
 (
-encodeURI
 encodeURI
 "
 encodeURI
@@ -535,7 +497,6 @@ encodeURI
 macro
 (
 encodeURIComponent
-encodeURIComponent
 "
 encodeURIComponent
 "
@@ -544,7 +505,6 @@ encodeURIComponent
 macro
 (
 enumerable
-enumerable
 "
 enumerable
 "
@@ -553,7 +513,6 @@ enumerable
 macro
 (
 enumerate
-enumerate
 "
 enumerate
 "
@@ -562,7 +521,6 @@ enumerate
 macro
 (
 escape
-escape
 "
 escape
 "
@@ -570,7 +528,6 @@ escape
 \
 macro
 (
-eval
 eval
 "
 eval
@@ -580,7 +537,6 @@ eval
 macro
 (
 false
-false_
 "
 false
 "
@@ -589,7 +545,6 @@ false
 macro
 (
 fileName
-fileName
 "
 fileName
 "
@@ -598,7 +553,6 @@ fileName
 macro
 (
 fix
-fix
 "
 fix
 "
@@ -607,7 +561,6 @@ fix
 macro
 (
 get
-get
 "
 get
 "
@@ -616,7 +569,6 @@ get
 macro
 (
 getOwnPropertyDescriptor
-getOwnPropertyDescriptor
 "
 getOwnPropertyDescriptor
 "
@@ -625,7 +577,6 @@ getOwnPropertyDescriptor
 macro
 (
 getOwnPropertyNames
-getOwnPropertyNames
 "
 getOwnPropertyNames
 "
@@ -634,7 +585,6 @@ getOwnPropertyNames
 macro
 (
 getPropertyDescriptor
-getPropertyDescriptor
 "
 getPropertyDescriptor
 "
@@ -643,7 +593,6 @@ getPropertyDescriptor
 macro
 (
 global
-global
 "
 global
 "
@@ -652,7 +601,6 @@ global
 macro
 (
 has
-has
 "
 has
 "
@@ -661,7 +609,6 @@ has
 macro
 (
 hasOwn
-hasOwn
 "
 hasOwn
 "
@@ -670,7 +617,6 @@ hasOwn
 macro
 (
 hasOwnProperty
-hasOwnProperty
 "
 hasOwnProperty
 "
@@ -679,7 +625,6 @@ hasOwnProperty
 macro
 (
 ignoreCase
-ignoreCase
 "
 ignoreCase
 "
@@ -688,7 +633,6 @@ ignoreCase
 macro
 (
 index
-index
 "
 index
 "
@@ -697,7 +641,6 @@ index
 macro
 (
 innermost
-innermost
 "
 innermost
 "
@@ -706,7 +649,6 @@ innermost
 macro
 (
 input
-input
 "
 input
 "
@@ -715,7 +657,6 @@ input
 macro
 (
 isFinite
-isFinite
 "
 isFinite
 "
@@ -724,7 +665,6 @@ isFinite
 macro
 (
 isNaN
-isNaN
 "
 isNaN
 "
@@ -733,7 +673,6 @@ isNaN
 macro
 (
 isPrototypeOf
-isPrototypeOf
 "
 isPrototypeOf
 "
@@ -742,7 +681,6 @@ isPrototypeOf
 macro
 (
 isXMLName
-isXMLName
 "
 isXMLName
 "
@@ -751,7 +689,6 @@ isXMLName
 macro
 (
 iterate
-iterate
 "
 iterate
 "
@@ -760,7 +697,6 @@ iterate
 macro
 (
 Infinity
-Infinity
 "
 Infinity
 "
@@ -769,7 +705,6 @@ Infinity
 macro
 (
 iterator
-iterator
 "
 iterator
 "
@@ -777,7 +712,6 @@ iterator
 \
 macro
 (
-iteratorIntrinsic
 iteratorIntrinsic
 "
 __iterator__
@@ -787,7 +721,6 @@ __iterator__
 macro
 (
 join
-join
 "
 join
 "
@@ -796,7 +729,6 @@ join
 macro
 (
 keys
-keys
 "
 keys
 "
@@ -805,7 +737,6 @@ keys
 macro
 (
 lastIndex
-lastIndex
 "
 lastIndex
 "
@@ -814,7 +745,6 @@ lastIndex
 macro
 (
 length
-length
 "
 length
 "
@@ -823,7 +753,6 @@ length
 macro
 (
 line
-line
 "
 line
 "
@@ -832,7 +761,6 @@ line
 macro
 (
 lineNumber
-lineNumber
 "
 lineNumber
 "
@@ -841,7 +769,6 @@ lineNumber
 macro
 (
 loc
-loc
 "
 loc
 "
@@ -849,7 +776,6 @@ loc
 \
 macro
 (
-lookupGetter
 lookupGetter
 "
 __lookupGetter__
@@ -859,7 +785,6 @@ __lookupGetter__
 macro
 (
 lookupSetter
-lookupSetter
 "
 __lookupSetter__
 "
@@ -868,7 +793,6 @@ __lookupSetter__
 macro
 (
 message
-message
 "
 message
 "
@@ -877,7 +801,6 @@ message
 macro
 (
 multiline
-multiline
 "
 multiline
 "
@@ -886,7 +809,6 @@ multiline
 macro
 (
 name
-name
 "
 name
 "
@@ -895,7 +817,6 @@ name
 macro
 (
 NaN
-NaN
 "
 NaN
 "
@@ -904,7 +825,6 @@ NaN
 macro
 (
 next
-next
 "
 next
 "
@@ -912,7 +832,6 @@ next
 \
 macro
 (
-noSuchMethod
 noSuchMethod
 "
 __noSuchMethod__
@@ -921,7 +840,6 @@ __noSuchMethod__
 \
 macro
 (
-objectNull
 objectNull
 "
 [
@@ -934,7 +852,6 @@ Null
 macro
 (
 objectUndefined
-objectUndefined
 "
 [
 object
@@ -946,7 +863,6 @@ Undefined
 macro
 (
 of
-of
 "
 of
 "
@@ -955,7 +871,6 @@ of
 macro
 (
 parseFloat
-parseFloat
 "
 parseFloat
 "
@@ -964,7 +879,6 @@ parseFloat
 macro
 (
 parseInt
-parseInt
 "
 parseInt
 "
@@ -973,7 +887,6 @@ parseInt
 macro
 (
 propertyIsEnumerable
-propertyIsEnumerable
 "
 propertyIsEnumerable
 "
@@ -981,7 +894,6 @@ propertyIsEnumerable
 \
 macro
 (
-proto
 proto
 "
 __proto__
@@ -991,7 +903,6 @@ __proto__
 macro
 (
 return
-return_
 "
 return
 "
@@ -1000,7 +911,6 @@ return
 macro
 (
 set
-set
 "
 set
 "
@@ -1009,7 +919,6 @@ set
 macro
 (
 shape
-shape
 "
 shape
 "
@@ -1018,7 +927,6 @@ shape
 macro
 (
 source
-source
 "
 source
 "
@@ -1027,7 +935,6 @@ source
 macro
 (
 stack
-stack
 "
 stack
 "
@@ -1036,7 +943,6 @@ stack
 macro
 (
 sticky
-sticky
 "
 sticky
 "
@@ -1044,7 +950,6 @@ sticky
 \
 macro
 (
-test
 test
 "
 test
@@ -1054,7 +959,6 @@ test
 macro
 (
 throw
-throw_
 "
 throw
 "
@@ -1063,7 +967,6 @@ throw
 macro
 (
 toGMTString
-toGMTString
 "
 toGMTString
 "
@@ -1072,7 +975,6 @@ toGMTString
 macro
 (
 toISOString
-toISOString
 "
 toISOString
 "
@@ -1081,7 +983,6 @@ toISOString
 macro
 (
 toJSON
-toJSON
 "
 toJSON
 "
@@ -1090,7 +991,6 @@ toJSON
 macro
 (
 toLocaleString
-toLocaleString
 "
 toLocaleString
 "
@@ -1099,7 +999,6 @@ toLocaleString
 macro
 (
 toSource
-toSource
 "
 toSource
 "
@@ -1108,7 +1007,6 @@ toSource
 macro
 (
 toString
-toString
 "
 toString
 "
@@ -1116,7 +1014,6 @@ toString
 \
 macro
 (
-toUTCString
 toUTCString
 "
 toUTCString
@@ -1126,7 +1023,6 @@ toUTCString
 macro
 (
 true
-true_
 "
 true
 "
@@ -1135,7 +1031,6 @@ true
 macro
 (
 unescape
-unescape
 "
 unescape
 "
@@ -1144,7 +1039,6 @@ unescape
 macro
 (
 uneval
-uneval
 "
 uneval
 "
@@ -1153,7 +1047,6 @@ uneval
 macro
 (
 unwatch
-unwatch
 "
 unwatch
 "
@@ -1162,7 +1055,6 @@ unwatch
 macro
 (
 url
-url
 "
 url
 "
@@ -1170,7 +1062,6 @@ url
 \
 macro
 (
-useStrict
 useStrict
 "
 use
@@ -1181,7 +1072,6 @@ strict
 macro
 (
 value
-value
 "
 value
 "
@@ -1190,7 +1080,6 @@ value
 macro
 (
 valueOf
-valueOf
 "
 valueOf
 "
@@ -1199,7 +1088,6 @@ valueOf
 macro
 (
 var
-var
 "
 var
 "
@@ -1207,7 +1095,6 @@ var
 \
 macro
 (
-void0
 void0
 "
 (
@@ -1220,7 +1107,6 @@ void
 macro
 (
 watch
-watch
 "
 watch
 "
@@ -1228,7 +1114,6 @@ watch
 \
 macro
 (
-writable
 writable
 "
 writable
@@ -1257,7 +1142,6 @@ TypeName
 macro
 (
 undefined
-undefined
 "
 undefined
 "
@@ -1266,7 +1150,6 @@ undefined
 macro
 (
 object
-object
 "
 object
 "
@@ -1275,7 +1158,6 @@ object
 macro
 (
 function
-function
 "
 function
 "
@@ -1284,7 +1166,6 @@ function
 macro
 (
 string
-string
 "
 string
 "
@@ -1293,7 +1174,6 @@ string
 macro
 (
 number
-number
 "
 number
 "
@@ -1302,7 +1182,6 @@ number
 macro
 (
 boolean
-boolean
 "
 boolean
 "
@@ -1311,7 +1190,6 @@ boolean
 macro
 (
 null
-null
 "
 null
 "
@@ -1319,7 +1197,6 @@ null
 \
 macro
 (
-xml
 xml
 "
 xml

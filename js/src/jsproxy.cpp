@@ -5122,7 +5122,7 @@ cx
 handler
 ATOM
 (
-delete_
+delete
 )
 &
 fval
