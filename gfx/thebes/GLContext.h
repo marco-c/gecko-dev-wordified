@@ -4019,6 +4019,7 @@ OpenGL
 calls
 .
 static
+THEBES_API
 GLContext
 *
 sCurrentGLContext
