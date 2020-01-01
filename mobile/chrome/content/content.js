@@ -2827,7 +2827,7 @@ false
 addMessageListener
 (
 "
-MozScrollBy
+MozScrollTo
 "
 function
 (
@@ -2836,7 +2836,7 @@ message
 {
 content
 .
-scrollBy
+scrollTo
 (
 message
 .
