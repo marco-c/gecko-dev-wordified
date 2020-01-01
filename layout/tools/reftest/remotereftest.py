@@ -61,6 +61,8 @@ import
 time
 import
 tempfile
+import
+traceback
 #
 We
 need
@@ -4105,18 +4107,21 @@ except
         
 print
 "
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-|
-exception
+Automation
+Error
+:
+Exception
+caught
 while
 running
-reftests
+tests
 "
+        
+traceback
+.
+print_exc
+(
+)
         
 retVal
 =
