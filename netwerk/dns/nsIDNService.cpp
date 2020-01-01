@@ -1246,7 +1246,7 @@ idn_success
 =
 idn_nameprep_create
 (
-NULL
+nullptr
 &
 mNamePrepHandle
 )

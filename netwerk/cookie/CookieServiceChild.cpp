@@ -578,7 +578,7 @@ aCookieString
 *
 aCookieString
 =
-NULL
+nullptr
 ;
 /
 /

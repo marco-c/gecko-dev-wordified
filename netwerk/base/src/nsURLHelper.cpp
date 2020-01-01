@@ -6695,7 +6695,7 @@ type
 )
 !
 =
-NULL
+nullptr
 )
 {
 /

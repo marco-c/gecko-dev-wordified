@@ -334,9 +334,9 @@ FSGetVolumeInfo
 (
 0
 volumeIndex
-NULL
+nullptr
 kFSVolInfoNone
-NULL
+nullptr
 &
 volName
 &
@@ -610,7 +610,7 @@ pathStrRef
 =
 CFStringCreateWithCString
 (
-NULL
+nullptr
 PromiseFlatCString
 (
 hfsPath
@@ -640,7 +640,7 @@ urlRef
 =
 CFURLCreateWithFileSystemPath
 (
-NULL
+nullptr
 pathStrRef
 kCFURLHFSPathStyle
 true

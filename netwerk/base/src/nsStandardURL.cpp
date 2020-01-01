@@ -6080,7 +6080,7 @@ Length
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6089,7 +6089,7 @@ len
 0
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6109,7 +6109,7 @@ pos
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6117,7 +6117,7 @@ if
 tail
 )
 return
-NULL
+nullptr
 ;
 uint32_t
 tailLen
@@ -6155,7 +6155,7 @@ len
 tailLen
 )
 return
-NULL
+nullptr
 ;
 char
 *

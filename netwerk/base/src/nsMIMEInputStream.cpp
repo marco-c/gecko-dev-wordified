@@ -345,7 +345,7 @@ nsMIMEInputStream
 NS_IMPL_CLASSINFO
 (
 nsMIMEInputStream
-NULL
+nullptr
 nsIClassInfo
 :
 :

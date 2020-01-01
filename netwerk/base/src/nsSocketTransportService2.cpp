@@ -3608,7 +3608,7 @@ list
 mThreadEvent
 may
 be
-NULL
+nullptr
 )
 mPollList
 [

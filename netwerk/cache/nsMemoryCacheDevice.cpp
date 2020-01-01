@@ -2978,7 +2978,7 @@ DoEvictEntries
 (
 &
 IsEntryPrivate
-NULL
+nullptr
 )
 ;
 }

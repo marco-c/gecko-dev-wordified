@@ -646,7 +646,7 @@ If
 version
 '
 is
-NULL
+nullptr
 the
 latest
 version
@@ -827,7 +827,7 @@ found
 '
 will
 be
-NULL
+nullptr
 .
 *
 *
@@ -934,7 +934,7 @@ found
 '
 will
 be
-NULL
+nullptr
 .
 *
 *
@@ -1048,7 +1048,7 @@ found
 '
 will
 be
-NULL
+nullptr
 .
 *
 *

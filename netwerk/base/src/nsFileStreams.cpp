@@ -1851,7 +1851,7 @@ nsFileStreamBase
 NS_IMPL_CLASSINFO
 (
 nsFileInputStream
-NULL
+nullptr
 nsIClassInfo
 :
 :
@@ -3266,7 +3266,7 @@ nsFileStreamBase
 NS_IMPL_CLASSINFO
 (
 nsPartialFileInputStream
-NULL
+nullptr
 nsIClassInfo
 :
 :

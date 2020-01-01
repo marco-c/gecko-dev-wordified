@@ -2493,7 +2493,7 @@ nsProtocolProxyService
 NS_IMPL_CLASSINFO
 (
 nsProtocolProxyService
-NULL
+nullptr
 nsIClassInfo
 :
 :

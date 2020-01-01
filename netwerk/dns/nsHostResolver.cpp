@@ -6954,7 +6954,7 @@ nsHostRecord
 *
 recPtr
 =
-NULL
+nullptr
 ;
 PRCList
 *
