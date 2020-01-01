@@ -551,6 +551,17 @@ h
 undef
 CSS_PROP_SHORTHAND
 eCSSProperty_COUNT
+/
+/
+Extra
+dummy
+values
+for
+nsCSSParser
+internal
+use
+.
+eCSSPropertyExtra_x_none_value
 }
 ;
 /
