@@ -551,7 +551,6 @@ completeNode
 .
 value
 "
-entById
 "
 "
 '
@@ -611,7 +610,7 @@ completeNode
 .
 value
 "
-entsByClassName
+entsByTagNameNS
 "
 "
 '
@@ -672,7 +671,6 @@ completeNode
 .
 value
 "
-entById
 "
 "
 '
