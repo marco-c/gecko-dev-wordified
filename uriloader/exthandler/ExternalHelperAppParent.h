@@ -589,6 +589,13 @@ const
 PRBool
 &
 aForceSave
+const
+IPC
+:
+:
+URI
+&
+aReferrer
 )
 ;
 virtual
