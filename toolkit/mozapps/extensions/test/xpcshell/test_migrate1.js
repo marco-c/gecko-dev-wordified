@@ -36,10 +36,10 @@ we
 migrate
 data
 from
-previous
-versions
-of
 the
+old
+rdf
+style
 database
 var
 addon1

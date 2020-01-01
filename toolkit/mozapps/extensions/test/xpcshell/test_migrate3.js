@@ -36,10 +36,11 @@ we
 migrate
 data
 from
-previous
-versions
-of
 the
+old
+extensions
+.
+rdf
 database
 .
 This
