@@ -62,6 +62,15 @@ nsAttrValueInlines_h__
 #
 define
 nsAttrValueInlines_h__
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 struct
 MiscContainer
 {
@@ -116,7 +125,7 @@ of
 /
 mStringBits
 .
-PtrBits
+uintptr_t
 mStringBits
 ;
 union
@@ -996,7 +1005,7 @@ mBits
 =
 reinterpret_cast
 <
-PtrBits
+intptr_t
 >
 (
 aValue
