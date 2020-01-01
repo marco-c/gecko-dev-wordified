@@ -1510,6 +1510,7 @@ t
 have
 a
 downgrade
+-
 1
 if
 appVersion
@@ -1519,7 +1520,6 @@ than
 productInfoBlock
 .
 productVersion
--
 1
 if
 appVersion
@@ -1601,7 +1601,6 @@ productVersion
 ;
 if
 (
--
 1
 =
 =
