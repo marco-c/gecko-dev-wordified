@@ -27229,8 +27229,6 @@ Recycle
 the
 useless
 TOK_RP
-/
-JSOP_GROUP
 node
 .
 *
