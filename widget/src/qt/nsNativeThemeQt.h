@@ -767,16 +767,6 @@ rect
 QStyleOptionComboBox
 &
 opt
-QStyle
-:
-:
-State
-extraFlags
-=
-QStyle
-:
-:
-State_None
 )
 ;
 private
