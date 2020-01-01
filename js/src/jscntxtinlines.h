@@ -2474,8 +2474,7 @@ vp
 }
 static
 inline
-JSAtom
-*
+HeapPtrAtom
 *
 FrameAtomBase
 (

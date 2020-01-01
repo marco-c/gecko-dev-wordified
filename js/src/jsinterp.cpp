@@ -10272,8 +10272,7 @@ first
 .
 *
 /
-JSAtom
-*
+HeapPtrAtom
 *
 atoms
 =
