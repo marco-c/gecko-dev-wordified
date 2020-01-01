@@ -27165,6 +27165,13 @@ bindings
 cx
 )
 ;
+AutoBindingsRooter
+root
+(
+cx
+bindings
+)
+;
 for
 (
 i
