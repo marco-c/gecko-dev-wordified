@@ -7916,8 +7916,8 @@ moz_places_temp
 WHERE
 url
 =
-?
-2
+:
+page_url
 )
 "
 "
@@ -7929,8 +7929,8 @@ moz_places
 WHERE
 url
 =
-?
-2
+:
+page_url
 )
 )
 "
@@ -7974,8 +7974,8 @@ t
 .
 parent
 =
-?
-1
+:
+tags_folder
 "
 "
 ORDER
