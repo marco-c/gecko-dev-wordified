@@ -4721,6 +4721,15 @@ nsGkAtoms
 svgOuterSVGFrame
 |
 |
+fType
+=
+=
+nsGkAtoms
+:
+:
+imageFrame
+|
+|
 #
 endif
 fType
