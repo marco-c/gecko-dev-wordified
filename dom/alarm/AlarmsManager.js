@@ -493,12 +493,11 @@ remove
 "
 )
 ;
-return
 this
 .
 _cpmm
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 AlarmsManager
@@ -913,9 +912,11 @@ enabled
 "
 )
 )
+{
 return
 null
 ;
+}
 /
 /
 Only
@@ -963,9 +964,11 @@ nsIPermissionManager
 .
 ALLOW_ACTION
 )
+{
 return
 null
 ;
+}
 this
 .
 _cpmm
