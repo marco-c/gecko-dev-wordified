@@ -1025,6 +1025,7 @@ Succs
 ;
 public
 :
+virtual
 size_t
 numSuccessors
 (
@@ -1037,6 +1038,7 @@ return
 Succs
 ;
 }
+virtual
 MBasicBlock
 *
 getSuccessor
@@ -1055,6 +1057,7 @@ i
 ]
 ;
 }
+virtual
 void
 setSuccessor
 (
