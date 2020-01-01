@@ -14246,7 +14246,7 @@ CompositorParent
 (
 aWidget
 aRenderToEGLSurface
-aSurfaceHeight
+aSurfaceWidth
 aSurfaceHeight
 )
 {
