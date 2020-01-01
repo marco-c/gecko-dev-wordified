@@ -14004,7 +14004,6 @@ false
 )
 )
 {
-return
 *
 aStateInOut
 &
@@ -14016,7 +14015,8 @@ aStateMapEntry
 state
 ;
 }
-return
+else
+{
 *
 aStateInOut
 |
@@ -14027,6 +14027,8 @@ aStateMapEntry
 state
 ;
 }
+}
+else
 if
 (
 NS_ConvertUTF16toUTF8
@@ -14043,7 +14045,6 @@ attributeValue
 )
 )
 {
-return
 *
 aStateInOut
 |
