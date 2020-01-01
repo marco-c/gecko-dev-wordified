@@ -90,8 +90,6 @@ sleep
 (
 3
 )
-    
-pass
   
 elif
 request
@@ -112,8 +110,6 @@ sleep
 (
 3
 )
-    
-pass
   
 elif
 request
@@ -134,8 +130,6 @@ sleep
 (
 3
 )
-    
-pass
   
 elif
 request
@@ -193,8 +187,6 @@ sleep
 (
 3
 )
-    
-pass
   
 elif
 request
@@ -222,8 +214,31 @@ sleep
 (
 13
 )
+  
+elif
+request
+.
+ws_protocol
+=
+=
+"
+test
+-
+41b
+"
+:
     
-pass
+request
+.
+sts
+=
+"
+max
+-
+age
+=
+100
+"
   
 else
 :

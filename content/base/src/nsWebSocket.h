@@ -992,6 +992,11 @@ DontKeepAliveAnyMore
 (
 )
 ;
+nsresult
+UpdateURI
+(
+)
+;
 nsCOMPtr
 <
 nsIWebSocketChannel
@@ -1033,6 +1038,13 @@ steps
 nsString
 mOriginalURL
 ;
+nsString
+mEffectiveURL
+;
+/
+/
+after
+redirects
 bool
 mSecure
 ;
