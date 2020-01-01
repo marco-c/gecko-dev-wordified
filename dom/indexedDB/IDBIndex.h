@@ -532,6 +532,12 @@ const
 SerializedStructuredCloneReadInfo
 &
 aCloneInfo
+nsTArray
+<
+StructuredCloneFile
+>
+&
+aBlobs
 IDBCursor
 *
 *
