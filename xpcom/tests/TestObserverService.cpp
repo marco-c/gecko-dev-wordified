@@ -571,7 +571,10 @@ printf
 %
 s
 "
+NS_ConvertUTF16toUTF8
+(
 str
+)
 .
 get
 (
