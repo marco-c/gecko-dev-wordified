@@ -1103,20 +1103,6 @@ h
 #
 include
 "
-nsIDOM3EventTarget
-.
-h
-"
-#
-include
-"
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
 nsIControllers
 .
 h
@@ -13504,7 +13490,6 @@ mousedown
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -13522,7 +13507,6 @@ contextmenu
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }
@@ -13737,7 +13721,6 @@ contextmenu
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }
@@ -13758,7 +13741,6 @@ mousedown
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }

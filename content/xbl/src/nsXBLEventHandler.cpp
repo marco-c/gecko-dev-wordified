@@ -455,13 +455,6 @@ h
 #
 include
 "
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
 nsIDOMEventListener
 .
 h
@@ -491,13 +484,6 @@ h
 include
 "
 nsIDOMText
-.
-h
-"
-#
-include
-"
-nsIDOM3EventTarget
 .
 h
 "

@@ -596,13 +596,6 @@ h
 #
 include
 "
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
@@ -958,7 +951,6 @@ NS_EVENT_FLAG_BUBBLE
 NS_PRIV_EVENT_UNTRUSTED_PERMITTED
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -997,7 +989,6 @@ draggesture
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1023,7 +1014,6 @@ dragenter
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1049,7 +1039,6 @@ dragover
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1075,7 +1064,6 @@ dragexit
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1101,7 +1089,6 @@ drop
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1331,7 +1318,6 @@ keypress
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 elmP
@@ -1349,7 +1335,6 @@ draggesture
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 elmP
@@ -1367,7 +1352,6 @@ dragenter
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 elmP
@@ -1385,7 +1369,6 @@ dragover
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 elmP
@@ -1403,7 +1386,6 @@ dragexit
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 elmP
@@ -1421,7 +1403,6 @@ drop
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 elmP

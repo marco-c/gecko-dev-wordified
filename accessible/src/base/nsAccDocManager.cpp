@@ -2980,7 +2980,6 @@ pagehide
 "
 )
 NS_EVENT_FLAG_CAPTURE
-nsnull
 )
 ;
 NS_LOG_ACCDOCCREATE_TEXT
@@ -3011,7 +3010,6 @@ DOMContentLoaded
 "
 )
 NS_EVENT_FLAG_CAPTURE
-nsnull
 )
 ;
 NS_LOG_ACCDOCCREATE_TEXT

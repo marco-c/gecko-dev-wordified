@@ -792,13 +792,6 @@ h
 #
 include
 "
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
@@ -4734,7 +4727,6 @@ keydown
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -4752,7 +4744,6 @@ keyup
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -4770,7 +4761,6 @@ keypress
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 if
@@ -5003,7 +4993,6 @@ keydown
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -5021,7 +5010,6 @@ keyup
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -5039,7 +5027,6 @@ keypress
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 contentNode

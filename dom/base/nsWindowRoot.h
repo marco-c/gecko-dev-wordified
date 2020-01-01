@@ -468,13 +468,6 @@ h
 #
 include
 "
-nsIDOM3EventTarget
-.
-h
-"
-#
-include
-"
 nsEventListenerManager
 .
 h
@@ -497,8 +490,6 @@ class
 nsWindowRoot
 :
 public
-nsIDOM3EventTarget
-public
 nsPIWindowRoot
 {
 public
@@ -518,7 +509,6 @@ nsWindowRoot
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMEVENTTARGET
-NS_DECL_NSIDOM3EVENTTARGET
 /
 /
 nsPIWindowRoot

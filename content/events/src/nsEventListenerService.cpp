@@ -548,13 +548,6 @@ nsIJSEventListener
 h
 "
 #
-include
-"
-nsIDOMEventGroup
-.
-h
-"
-#
 ifdef
 MOZ_JSDEBUGGER
 #
@@ -1613,7 +1606,6 @@ AddEventListenerByType
 aListener
 aType
 flags
-nsnull
 )
 ;
 }
@@ -1693,7 +1685,6 @@ RemoveEventListenerByType
 aListener
 aType
 flags
-nsnull
 )
 ;
 }

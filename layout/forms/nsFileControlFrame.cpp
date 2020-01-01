@@ -676,20 +676,6 @@ h
 #
 include
 "
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
-nsIDOM3EventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLInputElement
 .
 h
@@ -1095,7 +1081,6 @@ click
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }
@@ -1133,7 +1118,6 @@ click
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }
@@ -1830,7 +1814,6 @@ click
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 /
@@ -2298,7 +2281,6 @@ click
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 SyncAttr

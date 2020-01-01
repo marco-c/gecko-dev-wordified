@@ -981,17 +981,6 @@ this
 )
 NS_INTERFACE_MAP_ENTRY_TEAROFF
 (
-nsIDOM3EventTarget
-nsDOMEventRTTearoff
-:
-:
-Create
-(
-this
-)
-)
-NS_INTERFACE_MAP_ENTRY_TEAROFF
-(
 nsIDOMXPathNSResolver
 new
 nsNode3Tearoff

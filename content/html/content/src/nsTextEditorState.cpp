@@ -630,13 +630,6 @@ h
 #
 include
 "
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h
@@ -7944,7 +7937,6 @@ keydown
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -7962,7 +7954,6 @@ keypress
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -7980,7 +7971,6 @@ keyup
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }
@@ -10608,7 +10598,6 @@ keydown
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -10626,7 +10615,6 @@ keypress
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 manager
@@ -10644,7 +10632,6 @@ keyup
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }

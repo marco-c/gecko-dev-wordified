@@ -610,13 +610,6 @@ h
 #
 include
 "
-nsIDOM3EventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMNavigator
 .
 h
@@ -2046,8 +2039,6 @@ nsIScriptObjectPrincipal
 public
 nsIDOMEventTarget
 public
-nsIDOM3EventTarget
-public
 nsIDOMStorageWindow
 public
 nsIDOMStorageIndexedDB
@@ -2254,10 +2245,6 @@ NS_DECL_NSIDOMJSWINDOW
 /
 nsIDOMEventTarget
 NS_DECL_NSIDOMEVENTTARGET
-/
-/
-nsIDOM3EventTarget
-NS_DECL_NSIDOM3EVENTTARGET
 /
 /
 nsIDOMWindow_2_0_BRANCH

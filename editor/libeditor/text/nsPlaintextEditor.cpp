@@ -506,13 +506,6 @@ h
 #
 include
 "
-nsIDOM3EventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMKeyEvent
 .
 h
@@ -549,13 +542,6 @@ h
 include
 "
 nsGUIEvent
-.
-h
-"
-#
-include
-"
-nsIDOMEventGroup
 .
 h
 "
