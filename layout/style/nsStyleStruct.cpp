@@ -8072,6 +8072,7 @@ nsStyleImage
 RequestDecode
 (
 )
+const
 {
 if
 (

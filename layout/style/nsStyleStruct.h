@@ -1806,6 +1806,7 @@ nsresult
 RequestDecode
 (
 )
+const
 ;
 /
 *

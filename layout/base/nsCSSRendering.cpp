@@ -886,7 +886,7 @@ nsIFrame
 aForFrame
 const
 nsStyleImage
-&
+*
 aImage
 PRUint32
 aFlags
@@ -1041,7 +1041,9 @@ nsIFrame
 *
 mForFrame
 ;
+const
 nsStyleImage
+*
 mImage
 ;
 nsStyleImageType
@@ -16227,6 +16229,7 @@ ImageRenderer
 imageRenderer
 (
 aForFrame
+&
 aLayer
 .
 mImage
@@ -24630,7 +24633,7 @@ nsIFrame
 aForFrame
 const
 nsStyleImage
-&
+*
 aImage
 PRUint32
 aFlags
@@ -24647,7 +24650,8 @@ aImage
 mType
 (
 aImage
-.
+-
+>
 GetType
 (
 )
@@ -24704,7 +24708,8 @@ PrepareImage
 if
 (
 mImage
-.
+-
+>
 IsEmpty
 (
 )
@@ -24712,7 +24717,8 @@ IsEmpty
 |
 !
 mImage
-.
+-
+>
 IsComplete
 (
 )
@@ -24728,7 +24734,8 @@ is
 actually
 decoding
 mImage
-.
+-
+>
 RequestDecode
 (
 )
@@ -24802,7 +24809,8 @@ eStyleImageType_Image
 NS_SUCCEEDED
 (
 mImage
-.
+-
+>
 GetImageData
 (
 )
@@ -24842,7 +24850,8 @@ imgIContainer
 srcImage
 ;
 mImage
-.
+-
+>
 GetImageData
 (
 )
@@ -24865,7 +24874,8 @@ srcImage
 is
 null
 mImage
-.
+-
+>
 IsComplete
 (
 )
@@ -24882,7 +24892,8 @@ if
 (
 !
 mImage
-.
+-
+>
 GetCropRect
 (
 )
@@ -24908,7 +24919,8 @@ PRBool
 success
 =
 mImage
-.
+-
+>
 ComputeActualCropRect
 (
 actualCropRect
@@ -25093,7 +25105,8 @@ eStyleImageType_Gradient
 mGradientData
 =
 mImage
-.
+-
+>
 GetGradientData
 (
 )
@@ -25124,7 +25137,8 @@ NS_LITERAL_STRING
 nsDependentString
 (
 mImage
-.
+-
+>
 GetElementId
 (
 )
