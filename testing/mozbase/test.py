@@ -498,18 +498,23 @@ success
 of
 unittests
     
-results
+unittest_results
 =
-TestResultCollection
-.
-from_unittest_results
-(
 runner
 .
 run
 (
 suite
 )
+    
+results
+=
+TestResultCollection
+.
+from_unittest_results
+(
+None
+unittest_results
 )
     
 #

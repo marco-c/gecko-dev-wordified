@@ -1229,6 +1229,49 @@ installed
 "
 )
     
+parser
+.
+add_option
+(
+'
+-
+-
+extra
+'
+'
+-
+-
+install
+-
+extra
+-
+packages
+'
+action
+=
+'
+store_true
+'
+default
+=
+False
+                      
+help
+=
+"
+installs
+extra
+supporting
+packages
+as
+well
+as
+core
+mozbase
+ones
+"
+)
+    
 options
 packages
 =
@@ -1238,10 +1281,6 @@ parse_args
 (
 args
 )
-    
-install_extra_packages
-=
-False
     
 if
 not
@@ -1259,10 +1298,6 @@ sorted
 (
 mozbase_packages
 )
-        
-install_extra_packages
-=
-True
     
 #
 ensure
@@ -1919,7 +1954,9 @@ if
 desired
     
 if
-install_extra_packages
+options
+.
+extra
 :
         
 for
