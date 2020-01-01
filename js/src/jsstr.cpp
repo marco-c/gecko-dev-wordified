@@ -1509,14 +1509,9 @@ minCap
 else
 size
 =
-1
-<
-<
-(
-JS_CeilingLog2
+RoundUpPow2
 (
 minCap
-)
 )
 ;
 *
