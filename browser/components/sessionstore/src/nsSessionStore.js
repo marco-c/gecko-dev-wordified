@@ -13828,6 +13828,15 @@ t
 ]
 ;
 }
+if
+(
+aTabs
+.
+length
+>
+0
+)
+{
 /
 /
 Determine
@@ -14066,6 +14075,7 @@ aTabs
 0
 ]
 ;
+}
 }
 if
 (
