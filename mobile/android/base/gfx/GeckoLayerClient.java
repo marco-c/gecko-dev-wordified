@@ -2458,7 +2458,7 @@ checkMonitoringEnabled
 ;
 mLayerRenderer
 .
-createProgram
+createDefaultProgram
 (
 )
 ;
@@ -2537,7 +2537,7 @@ activateProgram
 {
 mLayerRenderer
 .
-activateProgram
+activateDefaultProgram
 (
 )
 ;
@@ -2570,7 +2570,7 @@ deactivateProgram
 {
 mLayerRenderer
 .
-deactivateProgram
+deactivateDefaultProgram
 (
 )
 ;
