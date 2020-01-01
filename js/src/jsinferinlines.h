@@ -4040,6 +4040,7 @@ return
 (
 uint32
 )
+size_t
 (
 key
 .
