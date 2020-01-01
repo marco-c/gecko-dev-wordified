@@ -951,8 +951,6 @@ objects
 to
 script
 .
-obj
-=
 GetCurrentOuter
 (
 cx
