@@ -2893,7 +2893,7 @@ PRBool
 nsExternalProtocolHandler
 :
 :
-HaveOSProtocolHandler
+HaveExternalProtocolHandler
 (
 nsIURI
 *
@@ -2928,7 +2928,7 @@ gExtProtSvc
 gExtProtSvc
 -
 >
-OSProtocolHandlerExists
+ExternalProtocolHandlerExists
 (
 scheme
 .
@@ -3092,16 +3092,16 @@ for
 the
 url
 PRBool
-haveOSHandler
+haveExternalHandler
 =
-HaveOSProtocolHandler
+HaveExternalProtocolHandler
 (
 aURI
 )
 ;
 if
 (
-haveOSHandler
+haveExternalHandler
 )
 {
 nsCOMPtr
