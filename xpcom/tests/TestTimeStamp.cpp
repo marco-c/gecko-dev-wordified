@@ -426,7 +426,9 @@ BLOCK
 #
 include
 "
-nsTimeStamp
+mozilla
+/
+TimeStamp
 .
 h
 "

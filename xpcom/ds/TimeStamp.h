@@ -450,10 +450,10 @@ BLOCK
 /
 #
 ifndef
-nsTimeStamp_h_
+mozilla_TimeStamp_h
 #
 define
-nsTimeStamp_h_
+mozilla_TimeStamp_h
 #
 include
 "
@@ -1953,6 +1953,6 @@ mValue
 endif
 /
 *
-nsTimeStamp_h_
+mozilla_TimeStamp_h
 *
 /
