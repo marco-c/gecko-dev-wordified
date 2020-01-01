@@ -15363,7 +15363,7 @@ for
 that
 nsAutoTArray
 <
-nsAutoString
+nsString
 32
 >
 tagStack
@@ -15815,7 +15815,7 @@ nsAString
 aFragStr
 nsTArray
 <
-nsAutoString
+nsString
 >
 &
 aTagStack
@@ -16066,7 +16066,7 @@ CreateTagStack
 (
 nsTArray
 <
-nsAutoString
+nsString
 >
 &
 aTagStack
@@ -16143,7 +16143,7 @@ ELEMENT_NODE
 nodeType
 )
 {
-nsAutoString
+nsString
 *
 tagName
 =

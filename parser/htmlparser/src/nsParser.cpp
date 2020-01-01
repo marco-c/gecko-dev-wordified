@@ -12460,7 +12460,7 @@ void
 aKey
 nsTArray
 <
-nsAutoString
+nsString
 >
 &
 aTagStack
@@ -13188,7 +13188,7 @@ AppendLiteral
 )
 ;
 }
-nsAutoString
+nsString
 &
 thisTag
 =

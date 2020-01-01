@@ -18812,7 +18812,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 nsAutoTArray
 <
-nsAutoString
+nsString
 32
 >
 tagStack
@@ -18885,7 +18885,7 @@ eELEMENT
 )
 )
 {
-nsAutoString
+nsString
 &
 tagName
 =

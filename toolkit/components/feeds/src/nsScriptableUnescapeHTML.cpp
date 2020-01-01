@@ -1086,7 +1086,7 @@ fragment
 .
 nsAutoTArray
 <
-nsAutoString
+nsString
 2
 >
 tagStack
