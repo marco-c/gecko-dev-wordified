@@ -437,6 +437,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 nsContentCID
 .
 h

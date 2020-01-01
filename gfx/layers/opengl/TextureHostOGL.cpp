@@ -336,6 +336,17 @@ h
 for
 nsIntRegion
 #
+include
+"
+GfxTexturesReporter
+.
+h
+"
+/
+/
+for
+GfxTexturesReporter
+#
 ifdef
 XP_MACOSX
 #
