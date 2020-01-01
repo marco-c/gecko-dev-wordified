@@ -242,9 +242,11 @@ function
 (
 )
 {
+let
+library
+;
 try
 {
-let
 library
 =
 ctypes
