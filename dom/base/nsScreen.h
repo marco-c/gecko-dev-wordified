@@ -210,7 +210,7 @@ aWindow
 )
 ;
 void
-Invalidate
+Reset
 (
 )
 ;
