@@ -1737,7 +1737,6 @@ aCallback
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -2354,7 +2353,6 @@ related
 methods
 and
 callbacks
-PR_CALLBACK
 PLDHashOperator
 TransferCachedBaseValue
 (
@@ -2414,7 +2412,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 RemoveCompositorFromTable
 (
@@ -2456,7 +2453,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 DoClearAnimationEffects
 (
@@ -2483,7 +2479,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 DoComposeAttribute
 (
@@ -3399,7 +3394,6 @@ nullptr
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -3480,7 +3474,6 @@ PL_DHASH_NEXT
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -3551,7 +3544,6 @@ PL_DHASH_NEXT
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -4224,7 +4216,6 @@ containerTime
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -4367,7 +4358,6 @@ PL_DHASH_NEXT
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -4494,7 +4484,6 @@ PL_DHASH_NEXT
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -4630,7 +4619,6 @@ PL_DHASH_NEXT
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :

@@ -281,7 +281,6 @@ typedef
 cups_dest_t
 *
 (
-PR_CALLBACK
 *
 CupsGetDestType
 )
@@ -304,7 +303,6 @@ dests
 typedef
 int
 (
-PR_CALLBACK
 *
 CupsGetDestsType
 )
@@ -318,7 +316,6 @@ dests
 typedef
 int
 (
-PR_CALLBACK
 *
 CupsFreeDestsType
 )
@@ -333,7 +330,6 @@ dests
 typedef
 int
 (
-PR_CALLBACK
 *
 CupsPrintFileType
 )
@@ -360,7 +356,6 @@ options
 typedef
 int
 (
-PR_CALLBACK
 *
 CupsTempFdType
 )
@@ -375,7 +370,6 @@ length
 typedef
 int
 (
-PR_CALLBACK
 *
 CupsAddOptionType
 )

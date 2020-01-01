@@ -1124,7 +1124,6 @@ rv
 ;
 }
 SECStatus
-PR_CALLBACK
 collect_certs
 (
 void
@@ -6552,7 +6551,6 @@ count
 }
 static
 SECStatus
-PR_CALLBACK
 GetOCSPResponders
 (
 CERTCertificate

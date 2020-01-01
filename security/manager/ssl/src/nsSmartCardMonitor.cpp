@@ -689,7 +689,6 @@ function
 .
 .
 static
-PR_CALLBACK
 PLHashNumber
 unity
 (

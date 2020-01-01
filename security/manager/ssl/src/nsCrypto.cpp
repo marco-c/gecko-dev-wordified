@@ -7956,7 +7956,6 @@ NS_ERROR_FAILURE
 }
 static
 void
-PR_CALLBACK
 nsCRMFEncoderItemCount
 (
 void
@@ -7973,7 +7972,6 @@ len
 ;
 static
 void
-PR_CALLBACK
 nsCRMFEncoderItemStore
 (
 void
@@ -9208,7 +9206,6 @@ certReq
 }
 static
 void
-PR_CALLBACK
 nsCRMFEncoderItemCount
 (
 void
@@ -9244,7 +9241,6 @@ len
 }
 static
 void
-PR_CALLBACK
 nsCRMFEncoderItemStore
 (
 void

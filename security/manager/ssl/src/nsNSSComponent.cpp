@@ -638,7 +638,6 @@ password
 extern
 char
 *
-PR_CALLBACK
 pk11PasswordPrompt
 (
 PK11SlotInfo
@@ -685,7 +684,6 @@ properties
 "
 static
 PLHashNumber
-PR_CALLBACK
 certHashtable_keyHash
 (
 const
@@ -779,7 +777,6 @@ hash
 }
 static
 int
-PR_CALLBACK
 certHashtable_keyCompare
 (
 const
@@ -930,7 +927,6 @@ true
 }
 static
 int
-PR_CALLBACK
 certHashtable_valueCompare
 (
 const
@@ -1004,7 +1000,6 @@ certKey
 }
 static
 int
-PR_CALLBACK
 certHashtable_clearEntry
 (
 PLHashEntry

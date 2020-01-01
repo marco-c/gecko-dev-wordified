@@ -1557,7 +1557,6 @@ return
 #
 endif
 void
-PR_CALLBACK
 nsProcess
 :
 :

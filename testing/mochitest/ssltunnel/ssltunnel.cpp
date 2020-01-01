@@ -1578,7 +1578,6 @@ any_host_spec_config
 =
 false
 ;
-PR_CALLBACK
 int
 ClientAuthValueComparator
 (

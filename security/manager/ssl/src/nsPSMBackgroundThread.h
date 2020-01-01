@@ -108,7 +108,6 @@ protected
 :
 static
 void
-PR_CALLBACK
 nsThreadRunner
 (
 void

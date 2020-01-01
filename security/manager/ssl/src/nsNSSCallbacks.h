@@ -154,7 +154,6 @@ h
 "
 char
 *
-PR_CALLBACK
 PK11PasswordPrompt
 (
 PK11SlotInfo
@@ -168,7 +167,6 @@ arg
 )
 ;
 void
-PR_CALLBACK
 HandshakeCallback
 (
 PRFileDesc

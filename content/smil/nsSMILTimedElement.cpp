@@ -14846,7 +14846,6 @@ functions
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsSMILTimedElement
 :

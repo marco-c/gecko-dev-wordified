@@ -2854,7 +2854,6 @@ unnnamed
 namespace
 static
 PRStatus
-PR_CALLBACK
 nsSSLIOLayerConnect
 (
 PRFileDesc
@@ -3320,7 +3319,6 @@ key
 }
 static
 PRStatus
-PR_CALLBACK
 nsSSLIOLayerClose
 (
 PRFileDesc
@@ -5060,7 +5058,6 @@ bytesTransfered
 }
 static
 int16_t
-PR_CALLBACK
 nsSSLIOLayerPoll
 (
 PRFileDesc
@@ -5733,7 +5730,6 @@ NULL
 }
 static
 PRStatus
-PR_CALLBACK
 PSMGetsockname
 (
 PRFileDesc
@@ -5782,7 +5778,6 @@ addr
 }
 static
 PRStatus
-PR_CALLBACK
 PSMGetpeername
 (
 PRFileDesc
@@ -5831,7 +5826,6 @@ addr
 }
 static
 PRStatus
-PR_CALLBACK
 PSMGetsocketoption
 (
 PRFileDesc
@@ -5877,7 +5871,6 @@ data
 }
 static
 PRStatus
-PR_CALLBACK
 PSMSetsocketoption
 (
 PRFileDesc
@@ -5924,7 +5917,6 @@ data
 }
 static
 int32_t
-PR_CALLBACK
 PSMRecv
 (
 PRFileDesc
@@ -6067,7 +6059,6 @@ socketInfo
 }
 static
 int32_t
-PR_CALLBACK
 PSMSend
 (
 PRFileDesc
@@ -6201,7 +6192,6 @@ socketInfo
 }
 static
 int32_t
-PR_CALLBACK
 nsSSLIOLayerRead
 (
 PRFileDesc
@@ -6227,7 +6217,6 @@ PR_INTERVAL_NO_TIMEOUT
 }
 static
 int32_t
-PR_CALLBACK
 nsSSLIOLayerWrite
 (
 PRFileDesc
@@ -6254,7 +6243,6 @@ PR_INTERVAL_NO_TIMEOUT
 }
 static
 PRStatus
-PR_CALLBACK
 PSMConnectcontinue
 (
 PRFileDesc

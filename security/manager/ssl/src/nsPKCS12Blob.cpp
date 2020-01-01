@@ -3434,7 +3434,6 @@ reading
 writing
 digests
 SECStatus
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -3589,7 +3588,6 @@ buffer
 if
 requested
 SECStatus
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -3669,7 +3667,6 @@ the
 memory
 buffer
 int
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -3804,7 +3801,6 @@ the
 memory
 buffer
 int
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -3941,7 +3937,6 @@ changed
 ?
 SECItem
 *
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -4519,7 +4514,6 @@ PKCS
 12
 file
 void
-PR_CALLBACK
 nsPKCS12Blob
 :
 :

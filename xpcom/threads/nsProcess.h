@@ -258,7 +258,6 @@ nsProcess
 ;
 static
 void
-PR_CALLBACK
 Monitor
 (
 void

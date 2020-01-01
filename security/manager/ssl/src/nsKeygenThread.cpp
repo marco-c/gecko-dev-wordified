@@ -504,7 +504,6 @@ rv
 }
 static
 void
-PR_CALLBACK
 nsKeygenThreadRunner
 (
 void

@@ -75,7 +75,6 @@ namespace
 mozilla
 ;
 void
-PR_CALLBACK
 nsPSMBackgroundThread
 :
 :

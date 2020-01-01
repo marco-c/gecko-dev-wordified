@@ -3458,7 +3458,6 @@ password
 }
 char
 *
-PR_CALLBACK
 PK11PasswordPrompt
 (
 PK11SlotInfo
@@ -3506,7 +3505,6 @@ mResult
 ;
 }
 void
-PR_CALLBACK
 HandshakeCallback
 (
 PRFileDesc
@@ -5154,7 +5152,6 @@ use
 /
 char
 *
-PR_CALLBACK
 MyAlternateOCSPAIAInfoCallback
 (
 CERTCertificate
