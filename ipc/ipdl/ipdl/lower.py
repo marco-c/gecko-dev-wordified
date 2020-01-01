@@ -26404,8 +26404,9 @@ kidsvar
 name
 )
                     
-init
+initargs
 =
+[
 p
 .
 managedVar
@@ -26415,6 +26416,7 @@ self
 .
 side
 )
+]
 )
                 
 foreachdestroy
@@ -35295,13 +35297,6 @@ ct
 tmpvar
 .
 name
-)
-init
-=
-c
-.
-defaultValue
-(
 )
 )
                     
