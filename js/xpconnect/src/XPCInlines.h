@@ -1088,7 +1088,10 @@ XPCCallContext
 :
 SetResolveName
 (
-jsid
+JS
+:
+:
+HandleId
 name
 )
 {
