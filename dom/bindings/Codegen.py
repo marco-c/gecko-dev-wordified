@@ -26643,9 +26643,6 @@ MaybeWrapValue
 (
 cx
 {
-obj
-}
-{
 jsvalPtr
 }
 )
