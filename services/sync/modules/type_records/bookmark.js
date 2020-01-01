@@ -812,6 +812,9 @@ bmkUri
 description
 "
 "
+loadInSidebar
+"
+"
 tags
 "
 "
