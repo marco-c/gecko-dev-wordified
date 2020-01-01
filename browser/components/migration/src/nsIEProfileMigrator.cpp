@@ -7182,7 +7182,8 @@ PStoreCreateInstance
 "
 )
 ;
-IPStorePtr
+IPStore
+*
 PStore
 ;
 hr
@@ -7518,7 +7519,8 @@ mtGuid
 0
 }
 ;
-IEnumPStoreItemsPtr
+IEnumPStoreItems
+*
 enumItems
 =
 NULL
@@ -7982,7 +7984,8 @@ NS_ENSURE_ARG_POINTER
 aPStore
 )
 ;
-IEnumPStoreItemsPtr
+IEnumPStoreItems
+*
 enumItems
 =
 NULL
@@ -8562,7 +8565,8 @@ aSignonsFound
 HRESULT
 hr
 ;
-IEnumPStoreItemsPtr
+IEnumPStoreItems
+*
 enumItems
 =
 NULL
@@ -9798,7 +9802,8 @@ PStoreCreateInstance
 "
 )
 ;
-IPStorePtr
+IPStore
+*
 PStore
 =
 NULL
@@ -9830,7 +9835,8 @@ NULL
 return
 NS_OK
 ;
-IEnumPStoreItemsPtr
+IEnumPStoreItems
+*
 enumItems
 =
 NULL
