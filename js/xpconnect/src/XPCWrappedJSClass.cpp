@@ -157,13 +157,6 @@ h
 #
 include
 "
-XPCWrapper
-.
-h
-"
-#
-include
-"
 AccessCheck
 .
 h

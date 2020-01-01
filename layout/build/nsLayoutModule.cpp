@@ -596,6 +596,13 @@ h
 #
 include
 "
+nsZipArchive
+.
+h
+"
+#
+include
+"
 mozIApplicationClearPrivateDataParams
 .
 h

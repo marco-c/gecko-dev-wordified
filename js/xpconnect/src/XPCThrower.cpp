@@ -112,13 +112,6 @@ h
 #
 include
 "
-xpcpublic
-.
-h
-"
-#
-include
-"
 XPCWrapper
 .
 h

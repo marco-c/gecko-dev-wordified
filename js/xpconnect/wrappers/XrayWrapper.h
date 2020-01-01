@@ -121,15 +121,6 @@ h
 #
 include
 "
-mozilla
-/
-GuardObjects
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h
@@ -194,9 +185,6 @@ world
 around
 them
 .
-class
-XPCWrappedNative
-;
 namespace
 xpc
 {
@@ -344,9 +332,6 @@ XrayTraits
 ;
 class
 XPCWrappedNativeXrayTraits
-;
-class
-ProxyXrayTraits
 ;
 class
 DOMXrayTraits

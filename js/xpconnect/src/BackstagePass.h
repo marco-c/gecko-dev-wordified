@@ -127,6 +127,13 @@ nsIScriptObjectPrincipal
 .
 h
 "
+#
+include
+"
+nsIXPCScriptable
+.
+h
+"
 class
 BackstagePass
 :

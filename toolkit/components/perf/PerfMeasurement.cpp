@@ -141,6 +141,13 @@ mozJSComponentLoader
 h
 "
 #
+include
+"
+nsZipArchive
+.
+h
+"
+#
 define
 JSPERF_CONTRACTID
 \

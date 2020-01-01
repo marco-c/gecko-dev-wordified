@@ -128,13 +128,6 @@ h
 #
 include
 "
-xpcpublic
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h
