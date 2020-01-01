@@ -517,7 +517,6 @@ JSEmptyScope
 >
 (
 cx
-ops
 clasp
 )
 ;
