@@ -2711,6 +2711,7 @@ this
 LOCK
 (
 "
+lock
 "
 "
 <
@@ -3041,6 +3042,7 @@ this
 UNLOCK
 (
 "
+lock
 "
 self
 .
