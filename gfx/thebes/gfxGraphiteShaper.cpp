@@ -1115,10 +1115,12 @@ if
 MergeFontFeatures
 (
 style
+mFont
 -
 >
-featureSettings
-entry
+GetFontEntry
+(
+)
 -
 >
 mFeatureSettings
