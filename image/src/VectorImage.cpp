@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
