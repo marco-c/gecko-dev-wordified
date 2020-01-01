@@ -604,6 +604,9 @@ nsMenuEvent
 class
 nsSimpleGestureEvent
 ;
+class
+nsContentCommandEvent
+;
 struct
 nsTextEventReply
 ;
