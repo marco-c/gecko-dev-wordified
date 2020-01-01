@@ -5713,7 +5713,7 @@ base
 down
 -
 >
-getFunction
+hasFunction
 (
 )
 &
