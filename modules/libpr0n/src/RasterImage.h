@@ -617,6 +617,15 @@ TimeStamp
 h
 "
 #
+include
+"
+mozilla
+/
+Telemetry
+.
+h
+"
+#
 ifdef
 DEBUG
 #
