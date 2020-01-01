@@ -878,7 +878,7 @@ httpd_setup
 /
 1
 .
-0
+1
 /
 foo
 /
@@ -898,7 +898,7 @@ handler
 /
 1
 .
-0
+1
 /
 foo
 /
@@ -1620,7 +1620,7 @@ httpd_setup
 /
 1
 .
-0
+1
 /
 foo
 /
@@ -1640,7 +1640,7 @@ handler
 /
 1
 .
-0
+1
 /
 foo
 /
