@@ -401,7 +401,7 @@ s
 buffer
 contents
 .
-ShadowLayerManager
+LayerManagerComposite
 :
 :
 PlatformSyncBeforeReplyUpdate

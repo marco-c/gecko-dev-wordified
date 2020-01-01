@@ -125,6 +125,17 @@ mozilla
 /
 layers
 /
+LayerManagerComposite
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 PLayerTransaction
 .
 h
@@ -344,7 +355,7 @@ already_AddRefed
 <
 TextureImage
 >
-ShadowLayerManager
+LayerManagerComposite
 :
 :
 OpenDescriptorForDirectTexturing
@@ -367,7 +378,7 @@ static
 *
 /
 bool
-ShadowLayerManager
+LayerManagerComposite
 :
 :
 SupportsDirectTexturing
@@ -384,7 +395,7 @@ static
 *
 /
 void
-ShadowLayerManager
+LayerManagerComposite
 :
 :
 PlatformSyncBeforeReplyUpdate

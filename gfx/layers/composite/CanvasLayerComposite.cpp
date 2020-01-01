@@ -192,7 +192,7 @@ LayerManagerComposite
 aManager
 )
 :
-ShadowCanvasLayer
+CanvasLayer
 (
 aManager
 nullptr
