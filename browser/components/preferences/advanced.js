@@ -1402,7 +1402,9 @@ app
 "
 manageCapability
 :
-Ci
+Components
+.
+interfaces
 .
 nsIPermissionManager
 .
