@@ -13174,7 +13174,10 @@ pcCounters
 .
 get
 (
-JSRUNMODE_INTERP
+JSPCCounters
+:
+:
+INTERP
 )
 ;
 \
@@ -13826,7 +13829,7 @@ script
 (
 )
 ;
-int
+double
 *
 pcCounts
 =
@@ -13837,7 +13840,10 @@ pcCounters
 .
 get
 (
-JSRUNMODE_INTERP
+JSPCCounters
+:
+:
+INTERP
 )
 ;
 Value

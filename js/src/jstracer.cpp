@@ -52429,7 +52429,10 @@ pcCounters
 .
 get
 (
-JSRUNMODE_TRACEJIT
+JSPCCounters
+:
+:
+TRACEJIT
 offset
 )
 )
@@ -52446,7 +52449,7 @@ ins
 =
 w
 .
-ldi
+ldd
 (
 pcCounter_addr
 )
@@ -52455,8 +52458,9 @@ ins
 =
 w
 .
-addi
+ins2
 (
+LIR_addd
 ins
 w
 .
@@ -52464,9 +52468,11 @@ name
 (
 w
 .
-immi
+immd
 (
 1
+.
+0
 )
 "
 pctick
