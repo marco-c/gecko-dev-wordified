@@ -21440,6 +21440,8 @@ nsStyleCoord
 (
 )
 SETCOORD_LENGTH
+|
+SETCOORD_CALC_LENGTH_ONLY
 aContext
 mPresContext
 canStoreInRuleTree
@@ -21481,6 +21483,8 @@ nsStyleCoord
 (
 )
 SETCOORD_LENGTH
+|
+SETCOORD_CALC_LENGTH_ONLY
 aContext
 mPresContext
 canStoreInRuleTree
@@ -21553,6 +21557,10 @@ nsStyleCoord
 (
 )
 SETCOORD_LENGTH
+|
+SETCOORD_CALC_LENGTH_ONLY
+|
+SETCOORD_CALC_CLAMP_NONNEGATIVE
 aContext
 mPresContext
 canStoreInRuleTree
@@ -21632,6 +21640,8 @@ nsStyleCoord
 (
 )
 SETCOORD_LENGTH
+|
+SETCOORD_CALC_LENGTH_ONLY
 aContext
 mPresContext
 canStoreInRuleTree
