@@ -746,6 +746,7 @@ WyciwygStopRequestEvent
 ;
 }
 ;
+inline
 bool
 WyciwygChannelChild
 :
