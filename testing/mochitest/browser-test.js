@@ -2308,6 +2308,13 @@ tests
 are
 done
 .
+if
+(
+window
+.
+gBrowser
+)
+{
 gBrowser
 .
 addTab
@@ -2320,6 +2327,7 @@ removeCurrentTab
 (
 )
 ;
+}
 /
 /
 Schedule
