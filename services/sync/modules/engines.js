@@ -1718,11 +1718,6 @@ Engine__wipeClient
 (
 )
 {
-let
-self
-=
-yield
-;
 this
 .
 resetClient
@@ -1757,12 +1752,11 @@ wipeClient
 function
 Engine_wipeClient
 (
-onComplete
 )
 {
 this
 .
-_notifyAsync
+_notify
 (
 "
 wipe
@@ -1776,11 +1770,7 @@ this
 .
 _wipeClient
 )
-.
-async
 (
-this
-onComplete
 )
 ;
 }
