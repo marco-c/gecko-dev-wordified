@@ -2957,6 +2957,14 @@ mPosition
 =
 =
 NS_STYLE_POSITION_STICKY
+&
+&
+!
+(
+mState
+&
+NS_FRAME_IS_NONDISPLAY
+)
 )
 {
 StickyScrollContainer
