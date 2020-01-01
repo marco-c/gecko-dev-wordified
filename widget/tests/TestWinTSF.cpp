@@ -535,6 +535,13 @@ implementation
 #
 include
 <
+ole2
+.
+h
+>
+#
+include
+<
 msctf
 .
 h
@@ -994,9 +1001,6 @@ void
 )
 ;
 PRBool
-TestApp
-:
-:
 TestSelectionInternal
 (
 char
