@@ -530,6 +530,10 @@ nsSVGGradientElementBase
 public
 nsIDOMSVGURIReference
 {
+friend
+class
+nsSVGGradientFrame
+;
 protected
 :
 nsSVGGradientElement
