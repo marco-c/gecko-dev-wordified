@@ -620,7 +620,7 @@ ShutdownAtkObject
 /
 nsAccessNode
 virtual
-nsresult
+void
 Shutdown
 (
 )

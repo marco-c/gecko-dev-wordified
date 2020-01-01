@@ -1498,7 +1498,7 @@ aName
 /
 nsAccessNode
 virtual
-nsresult
+void
 Shutdown
 (
 )

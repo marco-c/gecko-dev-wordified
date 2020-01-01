@@ -1394,7 +1394,7 @@ NS_ERROR_INVALID_ARG
 /
 nsAccessNode
 public
-nsresult
+void
 nsOuterDocAccessible
 :
 :
@@ -1481,7 +1481,6 @@ InvalidateChildren
 (
 )
 ;
-return
 nsAccessibleWrap
 :
 :

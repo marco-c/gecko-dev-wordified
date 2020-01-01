@@ -2890,7 +2890,7 @@ ShutdownAtkObject
 )
 ;
 }
-nsresult
+PRBool
 nsApplicationAccessibleWrap
 :
 :

@@ -581,7 +581,7 @@ aIndex
 /
 nsAccessNode
 virtual
-nsresult
+void
 Shutdown
 (
 )

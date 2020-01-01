@@ -662,7 +662,7 @@ aOutNativeWindow
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )

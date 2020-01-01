@@ -1085,10 +1085,8 @@ this
 struct
 nsSearchAccessibleInCacheArg
 {
-nsRefPtr
-<
 nsAccessible
->
+*
 mAccessible
 ;
 void

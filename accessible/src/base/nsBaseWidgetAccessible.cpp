@@ -1874,7 +1874,7 @@ NS_ERROR_INVALID_ARG
 nsLinkableAccessible
 .
 nsAccessNode
-nsresult
+PRBool
 nsLinkableAccessible
 :
 :
@@ -1895,7 +1895,7 @@ Init
 )
 ;
 }
-nsresult
+void
 nsLinkableAccessible
 :
 :
@@ -1907,7 +1907,6 @@ mActionContent
 =
 nsnull
 ;
-return
 nsAccessibleWrap
 :
 :

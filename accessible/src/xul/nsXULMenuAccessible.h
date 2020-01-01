@@ -503,7 +503,7 @@ nsXULSelectableAccessible
 /
 nsAccessNode
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -649,7 +649,7 @@ _retval
 /
 nsAccessNode
 virtual
-nsresult
+PRBool
 Init
 (
 )

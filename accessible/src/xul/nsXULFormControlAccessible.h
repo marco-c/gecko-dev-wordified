@@ -580,7 +580,7 @@ index
 /
 nsAccessNode
 virtual
-nsresult
+PRBool
 Init
 (
 )

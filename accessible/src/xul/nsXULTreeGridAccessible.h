@@ -602,7 +602,7 @@ nsAccessible
 /
 nsAccessNode
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -888,7 +888,7 @@ IsDefunct
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )

@@ -564,7 +564,7 @@ aShell
 /
 nsAccessNode
 virtual
-nsresult
+PRBool
 Init
 (
 )

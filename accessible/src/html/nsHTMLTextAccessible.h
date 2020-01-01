@@ -784,7 +784,7 @@ aName
 /
 nsAccessNode
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -1061,7 +1061,7 @@ height
 /
 nsAccessNode
 virtual
-nsresult
+void
 Shutdown
 (
 )

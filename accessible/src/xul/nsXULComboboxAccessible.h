@@ -557,7 +557,7 @@ aName
 /
 nsAccessNode
 virtual
-nsresult
+PRBool
 Init
 (
 )

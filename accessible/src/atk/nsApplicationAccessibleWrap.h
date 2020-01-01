@@ -508,7 +508,7 @@ nsApplicationAccessibleWrap
 /
 nsAccessNode
 virtual
-nsresult
+PRBool
 Init
 (
 )

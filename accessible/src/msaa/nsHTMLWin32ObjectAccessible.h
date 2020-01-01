@@ -582,7 +582,7 @@ nsHTMLWin32ObjectOwnerAccessible
 /
 nsAccessNode
 virtual
-nsresult
+void
 Shutdown
 (
 )

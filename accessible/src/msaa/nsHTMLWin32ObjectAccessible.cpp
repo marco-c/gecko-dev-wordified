@@ -736,7 +736,7 @@ nsHTMLWin32ObjectOwnerAccessible
 :
 nsAccessNode
 implementation
-nsresult
+void
 nsHTMLWin32ObjectOwnerAccessible
 :
 :
@@ -754,9 +754,6 @@ Shutdown
 mNativeAccessible
 =
 nsnull
-;
-return
-NS_OK
 ;
 }
 /
