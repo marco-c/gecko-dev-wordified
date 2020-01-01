@@ -812,7 +812,7 @@ up
 after
 ourselves
 .
-catMan
+categoryManager
 .
 deleteCategoryEntry
 (
