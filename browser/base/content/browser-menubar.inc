@@ -4881,11 +4881,7 @@ accesskey
 key
 =
 "
-&
-inspectMenu
-.
-commandkey
-;
+key_inspect
 "
 command
 =
