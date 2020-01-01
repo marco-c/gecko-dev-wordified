@@ -6355,6 +6355,15 @@ white
 autocompleteresult
 placeitem
 {
+-
+moz
+-
+user
+-
+focus
+:
+ignore
+;
 color
 :
 black
