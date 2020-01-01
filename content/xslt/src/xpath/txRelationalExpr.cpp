@@ -437,14 +437,14 @@ BLOCK
 #
 include
 "
-txExpr
+nsContentUtils
 .
 h
 "
 #
 include
 "
-txDouble
+txExpr
 .
 h
 "
@@ -996,7 +996,7 @@ numberValue
 ;
 result
 =
-TX_DOUBLE_COMPARE
+DOUBLE_COMPARE
 (
 lval
 =
@@ -1207,7 +1207,7 @@ LESS_THAN
 :
 {
 return
-TX_DOUBLE_COMPARE
+DOUBLE_COMPARE
 (
 leftDbl
 <
@@ -1220,7 +1220,7 @@ LESS_OR_EQUAL
 :
 {
 return
-TX_DOUBLE_COMPARE
+DOUBLE_COMPARE
 (
 leftDbl
 <
@@ -1234,7 +1234,7 @@ GREATER_THAN
 :
 {
 return
-TX_DOUBLE_COMPARE
+DOUBLE_COMPARE
 (
 leftDbl
 >
@@ -1247,7 +1247,7 @@ GREATER_OR_EQUAL
 :
 {
 return
-TX_DOUBLE_COMPARE
+DOUBLE_COMPARE
 (
 leftDbl
 >
