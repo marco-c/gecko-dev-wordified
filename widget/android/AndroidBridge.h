@@ -1353,10 +1353,6 @@ JNIEnv
 env
 =
 NULL
-bool
-resetting
-=
-false
 )
 ;
 EGLSurface
