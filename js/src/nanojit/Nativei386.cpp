@@ -4730,7 +4730,7 @@ s
 0
 (
 %
-lx
+p
 )
 "
 gpn
@@ -4738,8 +4738,8 @@ gpn
 reg
 )
 (
-unsigned
-long
+void
+*
 )
 addr
 )
@@ -6694,12 +6694,12 @@ verbose_outputf
 (
 "
 %
-010lx
+p
 :
 "
 (
-unsigned
-long
+void
+*
 )
 _nIns
 )
