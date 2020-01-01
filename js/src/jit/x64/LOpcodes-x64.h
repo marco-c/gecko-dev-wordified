@@ -133,7 +133,7 @@ Unbox
 \
 _
 (
-UnboxFloatingPoint
+UnboxDouble
 )
 \
 _
