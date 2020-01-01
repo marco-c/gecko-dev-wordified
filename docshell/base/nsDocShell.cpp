@@ -2566,7 +2566,7 @@ closure
 NOTE
 :
 Using
-nsIDOMNSHTMLAnchorElement2
+nsIDOMHTMLAnchorElement
 :
 :
 GetPing
