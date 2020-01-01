@@ -721,11 +721,7 @@ if
 (
 _cairo_region_get_boxes
 (
-&
-surface
--
->
-clip
+region
 &
 n
 &
@@ -858,12 +854,7 @@ done
 :
 _cairo_region_boxes_fini
 (
-&
-sruface
--
->
-clip
-&
+region
 cboxes
 )
 ;
@@ -3625,7 +3616,7 @@ i
 .
 color
 .
-alpha
+alpha_short
 >
 >
 8
@@ -3652,7 +3643,7 @@ i
 .
 color
 .
-red
+red_short
 >
 >
 8
@@ -3679,7 +3670,7 @@ i
 .
 color
 .
-green
+green_short
 >
 >
 8
@@ -3706,7 +3697,7 @@ i
 .
 color
 .
-blue
+blue_short
 >
 >
 8
@@ -3913,7 +3904,7 @@ params
 grad
 -
 >
-radius1
+r1
 ;
 params
 [
@@ -3947,7 +3938,7 @@ params
 grad
 -
 >
-radius2
+r2
 ;
 attr
 -
@@ -6366,7 +6357,6 @@ cairo_region_t
 *
 region
 )
-;
 {
 cairo_glitz_surface_t
 *
@@ -9766,9 +9756,9 @@ i
 ]
 .
 x
-)
-+
+-
 x_offset
+)
 ;
 y1
 =
@@ -9780,9 +9770,9 @@ i
 ]
 .
 y
-)
-+
+-
 y_offset
+)
 ;
 x2
 =
@@ -10006,9 +9996,9 @@ i
 ]
 .
 x
-)
-+
+-
 x_offset
+)
 ;
 y1
 =
@@ -10020,9 +10010,9 @@ i
 ]
 .
 y
-)
-+
+-
 y_offset
+)
 ;
 glitz_composite
 (

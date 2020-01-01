@@ -550,17 +550,6 @@ fontconfig
 .
 h
 >
-#
-include
-<
-X11
-/
-extensions
-/
-Xrender
-.
-h
->
 static
 int
 parse_boolean

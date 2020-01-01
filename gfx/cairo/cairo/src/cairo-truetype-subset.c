@@ -5681,6 +5681,11 @@ base
 .
 units_per_em
 ;
+if
+(
+length
+)
+{
 truetype_subset
 -
 >
@@ -5719,6 +5724,15 @@ data
 data
 length
 )
+;
+}
+else
+truetype_subset
+-
+>
+data
+=
+NULL
 ;
 truetype_subset
 -

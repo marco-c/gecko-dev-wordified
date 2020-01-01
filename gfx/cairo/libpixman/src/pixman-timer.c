@@ -197,7 +197,7 @@ SOFTWARE
 *
 /
 #
-if
+ifdef
 HAVE_CONFIG_H
 #
 include
@@ -231,6 +231,9 @@ private
 .
 h
 "
+#
+ifdef
+PIXMAN_TIMER
 static
 PixmanTimer
 *
@@ -368,3 +371,5 @@ timers
 timer
 ;
 }
+#
+endif

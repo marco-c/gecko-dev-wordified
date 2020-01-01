@@ -208,7 +208,7 @@ Inc
 *
 /
 #
-if
+ifdef
 HAVE_CONFIG_H
 #
 include
@@ -7504,9 +7504,6 @@ format
 )
 {
 case
-PIXMAN_a8r8g8b8
-:
-case
 PIXMAN_x8r8g8b8
 :
 #
@@ -7544,9 +7541,6 @@ bits
 format
 )
 {
-case
-PIXMAN_a8b8g8r8
-:
 case
 PIXMAN_x8b8g8r8
 :

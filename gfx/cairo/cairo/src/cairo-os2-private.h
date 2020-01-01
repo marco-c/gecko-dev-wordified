@@ -415,11 +415,11 @@ h
 >
 #
 include
-<
+"
 cairoint
 .
 h
->
+"
 typedef
 struct
 _cairo_os2_surface

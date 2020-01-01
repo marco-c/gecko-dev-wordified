@@ -201,7 +201,7 @@ Inc
 *
 /
 #
-if
+ifdef
 HAVE_CONFIG_H
 #
 include
