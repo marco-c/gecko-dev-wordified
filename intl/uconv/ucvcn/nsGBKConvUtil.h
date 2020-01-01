@@ -95,17 +95,10 @@ MPL
 /
 #
 ifndef
-nsGBKConvUtil_h__
+nsGBKConvUtil_h_
 #
 define
-nsGBKConvUtil_h__
-#
-include
-"
-prtypes
-.
-h
-"
+nsGBKConvUtil_h_
 #
 include
 "
@@ -159,6 +152,6 @@ aOutByte2
 endif
 /
 *
-nsGBKConvUtil_h__
+nsGBKConvUtil_h_
 *
 /

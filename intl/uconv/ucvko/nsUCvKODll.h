@@ -95,17 +95,10 @@ MPL
 /
 #
 ifndef
-nsUCvKODll_h___
+nsUCvKODll_h_
 #
 define
-nsUCvKODll_h___
-#
-include
-"
-prtypes
-.
-h
-"
+nsUCvKODll_h_
 extern
 const
 uint16_t
@@ -145,6 +138,6 @@ g_ufJohabJamoMapping
 endif
 /
 *
-nsUCvKODll_h___
+nsUCvKODll_h_
 *
 /

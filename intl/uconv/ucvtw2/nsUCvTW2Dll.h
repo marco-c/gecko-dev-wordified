@@ -95,17 +95,10 @@ MPL
 /
 #
 ifndef
-nsUCvTW2Dll_h___
+nsUCvTW2Dll_h_
 #
 define
-nsUCvTW2Dll_h___
-#
-include
-"
-prtypes
-.
-h
-"
+nsUCvTW2Dll_h_
 extern
 const
 uint16_t
@@ -215,6 +208,6 @@ g_utCNS7MappingTable
 endif
 /
 *
-nsUCvTW2Dll_h___
+nsUCvTW2Dll_h_
 *
 /

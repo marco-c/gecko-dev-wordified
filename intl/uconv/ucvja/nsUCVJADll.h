@@ -95,17 +95,10 @@ MPL
 /
 #
 ifndef
-nsUCVJADll_h___
+nsUCVJADll_h_
 #
 define
-nsUCVJADll_h___
-#
-include
-"
-prtypes
-.
-h
-"
+nsUCVJADll_h_
 extern
 const
 uint16_t
@@ -159,6 +152,6 @@ g_uf0208extMapping
 endif
 /
 *
-nsUCVJADll_h___
+nsUCVJADll_h_
 *
 /

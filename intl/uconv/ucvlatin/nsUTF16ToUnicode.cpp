@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsUCvLatinDll
-.
-h
-"
-#
-include
-"
 nsCharTraits
 .
 h
@@ -128,13 +121,6 @@ string
 .
 h
 >
-#
-include
-"
-prtypes
-.
-h
-"
 enum
 {
 STATE_NORMAL

@@ -136,7 +136,14 @@ h
 #
 include
 "
-nsCharDetDll
+nsICharsetDetectionObserver
+.
+h
+"
+#
+include
+"
+nsIStringCharsetDetector
 .
 h
 "

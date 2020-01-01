@@ -95,17 +95,10 @@ MPL
 /
 #
 ifndef
-nsUCvTWDll_h___
+nsUCvTWDll_h_
 #
 define
-nsUCvTWDll_h___
-#
-include
-"
-prtypes
-.
-h
-"
+nsUCvTWDll_h_
 extern
 const
 uint16_t
@@ -145,6 +138,6 @@ g_utBig5HKSCSMapping
 endif
 /
 *
-nsUCvTWDll_h___
+nsUCvTWDll_h_
 *
 /

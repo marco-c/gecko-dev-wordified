@@ -393,13 +393,6 @@ character
 #
 include
 "
-nsUCvCnDll
-.
-h
-"
-#
-include
-"
 nsHZToUnicode
 .
 h
