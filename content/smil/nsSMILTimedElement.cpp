@@ -14246,11 +14246,9 @@ STATE_POSTACTIVE
 return
 false
 ;
-default
-:
-NS_ABORT_IF_FALSE
+}
+MOZ_NOT_REACHED
 (
-false
 "
 Invalid
 element
@@ -14258,10 +14256,6 @@ state
 "
 )
 ;
-return
-false
-;
-}
 }
 void
 nsSMILTimedElement
@@ -14569,9 +14563,8 @@ Begin
 nsnull
 ;
 }
-default
-:
-NS_NOTREACHED
+}
+MOZ_NOT_REACHED
 (
 "
 Invalid
@@ -14580,10 +14573,6 @@ state
 "
 )
 ;
-return
-nsnull
-;
-}
 }
 const
 nsSMILInterval
