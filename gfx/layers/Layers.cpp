@@ -3431,11 +3431,13 @@ AppendElement
 ;
 InfallibleTArray
 <
+nsAutoPtr
+<
 css
 :
 :
 ComputedTimingFunction
-*
+>
 >
 &
 functions
