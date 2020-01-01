@@ -1320,6 +1320,12 @@ mL2capSocket
 nullptr
 ;
 }
+MOZ_ASSERT
+(
+!
+mRunnable
+)
+;
 mRunnable
 =
 aRunnable
