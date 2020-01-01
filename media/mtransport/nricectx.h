@@ -786,7 +786,7 @@ NS_OK
 else
 if
 (
-host_
+addr
 .
 size
 (
