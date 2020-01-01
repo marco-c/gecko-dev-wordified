@@ -4696,7 +4696,6 @@ _allowInlineScripts
 true
 ;
 }
-else
 if
 (
 dv
