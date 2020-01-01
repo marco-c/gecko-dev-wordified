@@ -259,7 +259,6 @@ possible
 .
 *
 /
-MOZ_NORETURN
 MOZALLOC_EXPORT
 void
 mozalloc_abort
