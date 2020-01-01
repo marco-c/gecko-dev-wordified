@@ -456,13 +456,6 @@ h
 #
 include
 "
-nsCoreAnimationSupport
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ReentrantMonitor
@@ -487,6 +480,9 @@ mozalloc
 .
 h
 "
+class
+nsIOSurface
+;
 namespace
 mozilla
 {
