@@ -599,6 +599,8 @@ PluginProcessParent
 :
 Launch
 (
+PRInt32
+timeoutMs
 )
 {
 vector
@@ -621,6 +623,7 @@ return
 SyncLaunch
 (
 args
+timeoutMs
 )
 ;
 }
