@@ -3246,16 +3246,6 @@ pref
 "
 editor
 .
-htmlWrapColumn
-"
-72
-)
-;
-pref
-(
-"
-editor
-.
 singleLine
 .
 pasteNewlines
