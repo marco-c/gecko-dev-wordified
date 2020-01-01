@@ -134,6 +134,9 @@ h
 class
 nsIIDNService
 ;
+class
+nsIMemoryReporter
+;
 #
 define
 ETLD_ENTRY_N_INDEX_BITS
@@ -547,6 +550,13 @@ Init
 (
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 private
 :
 nsresult
@@ -574,8 +584,11 @@ aHostname
 nsEffectiveTLDService
 (
 )
-{
-}
+;
+nsIMemoryReporter
+*
+mReporter
+;
 nsTHashtable
 <
 nsDomainEntry
