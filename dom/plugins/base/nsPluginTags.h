@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
