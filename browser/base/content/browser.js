@@ -47068,6 +47068,17 @@ aPermission
 )
 )
 {
+if
+(
+state
+=
+=
+SitePermissions
+.
+UNKNOWN
+)
+continue
+;
 let
 menuitem
 =
