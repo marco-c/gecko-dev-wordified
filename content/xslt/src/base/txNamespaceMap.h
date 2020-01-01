@@ -449,6 +449,13 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 txNamespaceMap
 {
@@ -559,7 +566,10 @@ nsIAtom
 >
 mPrefixes
 ;
-nsVoidArray
+nsTArray
+<
+PRInt32
+>
 mNamespaces
 ;
 }

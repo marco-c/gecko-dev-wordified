@@ -459,7 +459,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -709,7 +709,11 @@ PRBool
 aIgnoreShiftKey
 )
 ;
-nsVoidArray
+nsTArray
+<
+nsXBLPrototypeHandler
+*
+>
 mProtoHandlers
 ;
 nsCOMPtr

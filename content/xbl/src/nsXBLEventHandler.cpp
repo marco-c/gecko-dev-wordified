@@ -883,7 +883,7 @@ i
 <
 mProtoHandlers
 .
-Count
+Length
 (
 )
 ;
@@ -896,17 +896,10 @@ nsXBLPrototypeHandler
 *
 handler
 =
-static_cast
-<
-nsXBLPrototypeHandler
-*
->
-(
 mProtoHandlers
 [
 i
 ]
-)
 ;
 PRBool
 hasAllowUntrustedAttr
@@ -994,7 +987,7 @@ count
 =
 mProtoHandlers
 .
-Count
+Length
 (
 )
 ;

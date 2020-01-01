@@ -463,7 +463,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTPtrArray
 .
 h
 "
@@ -645,7 +645,10 @@ DeleteControllers
 (
 )
 ;
-nsVoidArray
+nsTPtrArray
+<
+nsXULControllerData
+>
 mControllers
 ;
 PRUint32

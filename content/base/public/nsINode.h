@@ -528,9 +528,6 @@ class
 nsIPrincipal
 ;
 class
-nsVoidArray
-;
-class
 nsIMutationObserver
 ;
 class

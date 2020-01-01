@@ -493,6 +493,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsHashSets
 .
 h
@@ -6095,7 +6102,11 @@ mReferrer
 nsString
 mLastModified
 ;
-nsVoidArray
+nsTArray
+<
+nsIObserver
+*
+>
 mCharSetObservers
 ;
 PLDHashTable

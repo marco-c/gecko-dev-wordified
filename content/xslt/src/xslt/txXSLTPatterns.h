@@ -449,13 +449,6 @@ txXMLUtils
 .
 h
 "
-#
-include
-"
-nsVoidArray
-.
-h
-"
 class
 ProcessorState
 ;

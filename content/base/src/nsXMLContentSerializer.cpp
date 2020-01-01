@@ -612,8 +612,8 @@ nsAttrName
 .
 h
 "
-typedef
 struct
+NameSpaceDecl
 {
 nsString
 mPrefix
@@ -626,7 +626,6 @@ nsIDOMElement
 mOwner
 ;
 }
-NameSpaceDecl
 ;
 nsresult
 NS_NewXMLContentSerializer
@@ -2043,10 +2042,6 @@ mNameSpaceStack
 .
 AppendElement
 (
-(
-void
-*
-)
 decl
 )
 ;
@@ -2073,7 +2068,7 @@ count
 =
 mNameSpaceStack
 .
-Count
+Length
 (
 )
 ;
@@ -2099,10 +2094,6 @@ NameSpaceDecl
 *
 decl
 =
-(
-NameSpaceDecl
-*
-)
 mNameSpaceStack
 .
 ElementAt
@@ -2455,7 +2446,7 @@ count
 =
 mNameSpaceStack
 .
-Count
+Length
 (
 )
 ;
@@ -2478,10 +2469,6 @@ NameSpaceDecl
 *
 decl
 =
-(
-NameSpaceDecl
-*
-)
 mNameSpaceStack
 .
 ElementAt
@@ -2964,10 +2951,6 @@ NameSpaceDecl
 *
 decl2
 =
-(
-NameSpaceDecl
-*
-)
 mNameSpaceStack
 .
 ElementAt

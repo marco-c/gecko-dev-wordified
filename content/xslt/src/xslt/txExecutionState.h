@@ -459,13 +459,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 txIXPathContext
 .
 h

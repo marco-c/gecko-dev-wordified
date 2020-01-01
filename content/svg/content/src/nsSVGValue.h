@@ -470,7 +470,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -649,7 +649,12 @@ before
 observers
 are
 notified
-nsSmallVoidArray
+nsAutoTArray
+<
+nsIWeakReference
+*
+1
+>
 mObservers
 ;
 PRInt32

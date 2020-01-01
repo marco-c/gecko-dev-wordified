@@ -510,9 +510,6 @@ nsStubMutationObserver
 .
 h
 "
-class
-nsVoidArray
-;
 /
 /
 -
