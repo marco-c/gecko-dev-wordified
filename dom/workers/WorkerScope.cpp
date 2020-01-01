@@ -2805,12 +2805,12 @@ buffer
 ptr
 (
 )
-stderr
+stdout
 )
 ;
 fflush
 (
-stderr
+stdout
 )
 ;
 }
