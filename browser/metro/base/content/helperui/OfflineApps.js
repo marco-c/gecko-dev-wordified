@@ -299,7 +299,8 @@ allow
 )
 accessKey
 :
-null
+"
+"
 callback
 :
 function
@@ -355,7 +356,8 @@ never
 )
 accessKey
 :
-null
+"
+"
 callback
 :
 function
@@ -410,7 +412,8 @@ notNow
 )
 accessKey
 :
-null
+"
+"
 callback
 :
 function
