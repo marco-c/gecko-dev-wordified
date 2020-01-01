@@ -8197,6 +8197,8 @@ range
 kNonContainer
 |
 kPreferHead
+|
+kLegalOpen
 kDefaultPropRange
 /
 *
@@ -10888,6 +10890,8 @@ range
 kNoStyleLeaksIn
 |
 kPreferHead
+|
+kLegalOpen
 kNoPropRange
 /
 *
