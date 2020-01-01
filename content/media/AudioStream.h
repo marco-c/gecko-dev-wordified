@@ -1322,6 +1322,7 @@ the
 time
 stretcher
 .
+virtual
 void
 EnsureTimeStretcherInitialized
 (
