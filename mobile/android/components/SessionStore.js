@@ -6836,7 +6836,7 @@ browser
 =
 aTab
 .
-linkedBrowser
+browser
 ;
 let
 data
@@ -6875,7 +6875,7 @@ browser
 =
 aTab
 .
-linkedBrowser
+browser
 ;
 /
 /
@@ -7074,7 +7074,7 @@ browser
 =
 aTab
 .
-linkedBrowser
+browser
 ;
 if
 (
