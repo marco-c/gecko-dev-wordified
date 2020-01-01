@@ -522,7 +522,7 @@ h
 #
 define
 DB_SCHEMA_VERSION
-7
+8
 #
 define
 BEGIN_INDEXEDDB_NAMESPACE

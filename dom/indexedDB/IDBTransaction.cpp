@@ -2192,6 +2192,8 @@ GetCachedStatement
 (
 "
 INSERT
+OR
+IGNORE
 INTO
 ai_index_data
 "
@@ -2258,6 +2260,8 @@ GetCachedStatement
 (
 "
 INSERT
+OR
+IGNORE
 INTO
 index_data
 (
