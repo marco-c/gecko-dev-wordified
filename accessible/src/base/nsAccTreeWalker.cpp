@@ -1168,10 +1168,10 @@ childIdx
 +
 +
 ;
-PRBool
-isHidden
+bool
+isSubtreeHidden
 =
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -1190,7 +1190,7 @@ childNode
 presShell
 mWeakShell
 &
-isHidden
+isSubtreeHidden
 )
 ;
 if
@@ -1217,7 +1217,7 @@ accessibles
 if
 (
 !
-isHidden
+isSubtreeHidden
 )
 {
 if

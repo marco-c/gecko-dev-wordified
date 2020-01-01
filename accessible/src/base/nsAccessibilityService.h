@@ -1011,7 +1011,7 @@ pres
 shell
 *
 param
-aIsHidden
+aIsSubtreeHidden
 [
 out
 optional
@@ -1022,9 +1022,12 @@ the
 node
 '
 s
-frame
-is
 *
+frame
+and
+its
+subtree
+is
 hidden
 *
 /
@@ -1043,9 +1046,9 @@ aPresShell
 nsIWeakReference
 *
 aWeakShell
-PRBool
+bool
 *
-aIsHidden
+aIsSubtreeHidden
 =
 nsnull
 )
