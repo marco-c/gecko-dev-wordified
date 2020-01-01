@@ -942,10 +942,6 @@ const
 int32_t
 &
 aState
-const
-int32_t
-&
-aMountGeneration
 )
 ;
 #
