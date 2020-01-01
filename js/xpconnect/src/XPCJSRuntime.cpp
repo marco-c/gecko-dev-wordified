@@ -494,6 +494,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 jsgcchunk
 .
 h
