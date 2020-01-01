@@ -14510,6 +14510,7 @@ if
 SetNameOperation
 (
 cx
+script
 regs
 .
 pc
