@@ -4684,7 +4684,7 @@ EXPIRE_NEVER
 }
 if
 (
-Utils
+Array
 .
 isArray
 (
@@ -5816,7 +5816,7 @@ tags
 :
 if
 (
-Utils
+Array
 .
 isArray
 (

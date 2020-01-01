@@ -2148,7 +2148,7 @@ of
 names
 if
 (
-Utils
+Array
 .
 isArray
 (
@@ -2381,7 +2381,7 @@ engineObject
 {
 if
 (
-Utils
+Array
 .
 isArray
 (
