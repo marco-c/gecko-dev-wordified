@@ -175,8 +175,10 @@ m
         
 m
 .
-write_file
+write
 (
+path
+=
 p
 )
         
@@ -197,9 +199,9 @@ p
 m2
 =
 PurgeManifest
-.
-from_path
 (
+path
+=
 p
 )
         
@@ -296,9 +298,9 @@ UnreadablePurgeManifest
 :
             
 PurgeManifest
-.
-from_path
 (
+path
+=
 p
 )
 if

@@ -1295,23 +1295,6 @@ mm
 ]
             
 '
-CPP_UNIT_TESTS
-'
-:
-[
-                
-'
-CPP_UNIT_TESTS
-+
-=
-foo
-.
-cpp
-'
-            
-]
-            
-'
 CSRCS
 '
 :
@@ -2033,9 +2016,9 @@ manifest
 m
 =
 PurgeManifest
-.
-from_path
 (
+path
+=
 os
 .
 path
@@ -2548,9 +2531,9 @@ full
 m
 =
 PurgeManifest
-.
-from_path
 (
+path
+=
 os
 .
 path
@@ -2663,8 +2646,10 @@ PurgeManifest
         
 m
 .
-write_file
+write
 (
+path
+=
 manifest_path
 )
         
