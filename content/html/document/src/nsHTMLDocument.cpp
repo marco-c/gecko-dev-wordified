@@ -18053,6 +18053,12 @@ reasons
 if
 (
 designMode
+&
+&
+oldState
+=
+=
+eOff
 )
 {
 rv
