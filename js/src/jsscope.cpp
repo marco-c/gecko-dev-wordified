@@ -8227,6 +8227,8 @@ finalize
 JSContext
 *
 cx
+bool
+background
 )
 {
 if

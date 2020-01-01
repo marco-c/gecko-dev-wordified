@@ -7960,6 +7960,8 @@ finalize
 JSContext
 *
 cx
+bool
+background
 )
 ;
 /

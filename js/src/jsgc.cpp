@@ -1858,6 +1858,8 @@ AllocKind
 thingKind
 size_t
 thingSize
+bool
+background
 )
 {
 /
@@ -2190,6 +2192,7 @@ t
 finalize
 (
 cx
+background
 )
 ;
 JS_POISON
@@ -2435,6 +2438,8 @@ ArenaList
 al
 AllocKind
 thingKind
+bool
+background
 )
 {
 /
@@ -2559,6 +2564,7 @@ T
 cx
 thingKind
 thingSize
+background
 )
 ;
 if
@@ -2739,6 +2745,8 @@ ArenaList
 al
 AllocKind
 thingKind
+bool
+background
 )
 {
 switch
@@ -2793,6 +2801,7 @@ JSObject
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -2808,6 +2817,7 @@ JSScript
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -2823,6 +2833,7 @@ Shape
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -2838,6 +2849,7 @@ BaseShape
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -2856,6 +2868,7 @@ TypeObject
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -2874,6 +2887,7 @@ JSXML
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -2891,6 +2905,7 @@ JSString
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -2906,6 +2921,7 @@ JSShortString
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -2921,6 +2937,7 @@ JSExternalString
 cx
 al
 thingKind
+background
 )
 ;
 break
@@ -8444,6 +8461,7 @@ arenaLists
 thingKind
 ]
 thingKind
+false
 )
 ;
 }
@@ -8716,6 +8734,7 @@ FinalizeArenas
 cx
 al
 thingKind
+false
 )
 ;
 backgroundFinalizeState
@@ -8804,6 +8823,7 @@ cx
 &
 finalized
 thingKind
+true
 )
 ;
 /

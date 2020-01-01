@@ -3571,6 +3571,8 @@ finalize
 JSContext
 *
 cx
+bool
+background
 )
 ;
 BaseShape
@@ -6671,6 +6673,8 @@ finalize
 JSContext
 *
 cx
+bool
+background
 )
 ;
 void
