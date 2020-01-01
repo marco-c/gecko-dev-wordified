@@ -7533,6 +7533,13 @@ prototype
 object
 .
 *
+flags
+are
+JSITER_
+*
+flags
+.
+*
 /
 bool
 XrayEnumerateProperties
@@ -7546,8 +7553,8 @@ wrapper
 JSObject
 *
 obj
-bool
-ownOnly
+unsigned
+flags
 JS
 :
 :
