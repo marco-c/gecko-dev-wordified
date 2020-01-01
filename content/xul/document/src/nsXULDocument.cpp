@@ -15499,6 +15499,7 @@ CheckMayLoad
 (
 aURI
 true
+false
 )
 ;
 if

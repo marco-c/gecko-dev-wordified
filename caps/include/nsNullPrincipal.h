@@ -162,6 +162,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsPrincipal
+.
+h
+"
 class
 nsIURI
 ;

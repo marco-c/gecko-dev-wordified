@@ -24963,6 +24963,7 @@ CheckMayLoad
 (
 aURIToLoad
 true
+false
 )
 ;
 }
@@ -32112,6 +32113,7 @@ CheckMayLoad
 (
 newURI
 false
+false
 )
 ;
 if
@@ -32136,6 +32138,7 @@ oldPrincipal
 CheckMayLoad
 (
 newOriginalURI
+false
 false
 )
 ;
@@ -32901,6 +32904,8 @@ aPrincipal
 nsIChannel
 *
 aChannel
+bool
+aAllowIfInheritsPrincipal
 )
 {
 nsCOMPtr
@@ -32937,6 +32942,7 @@ CheckMayLoad
 (
 channelURI
 false
+aAllowIfInheritsPrincipal
 )
 )
 ;
@@ -37335,6 +37341,7 @@ aLoadingPrincipal
 CheckMayLoad
 (
 aURI
+false
 false
 )
 )

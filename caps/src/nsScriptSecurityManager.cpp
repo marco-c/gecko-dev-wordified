@@ -7678,6 +7678,7 @@ CheckMayLoad
 (
 targetBaseURI
 true
+false
 )
 ;
 }

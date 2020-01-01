@@ -10552,6 +10552,8 @@ aPrincipal
 nsIChannel
 *
 aChannel
+bool
+aAllowIfInheritsPrincipal
 )
 ;
 /
