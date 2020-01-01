@@ -319,15 +319,6 @@ h
 #
 include
 <
-curl
-/
-types
-.
-h
->
-#
-include
-<
 dlfcn
 .
 h
