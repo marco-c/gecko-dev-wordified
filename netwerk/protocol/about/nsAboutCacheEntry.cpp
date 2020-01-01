@@ -1465,12 +1465,10 @@ usec_per_sec
 PR_USEC_PER_SEC
 )
 ;
-LL_MUL
-(
 t_usec
-t_usec
+*
+=
 usec_per_sec
-)
 ;
 return
 t_usec

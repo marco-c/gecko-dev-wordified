@@ -35371,12 +35371,11 @@ intermediateValue
 PR_USEC_PER_MSEC
 )
 ;
-LL_MUL
-(
 modDate
+=
 msecs
+*
 intermediateValue
-)
 ;
 }
 }
