@@ -500,7 +500,7 @@ nsresult
 nsXPCOMCycleCollectionParticipant
 :
 :
-RootAndUnlinkJSObjects
+Root
 (
 void
 *

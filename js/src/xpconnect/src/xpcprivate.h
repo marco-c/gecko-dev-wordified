@@ -4092,7 +4092,7 @@ out
 /
 nsCycleCollectionParticipant
 NS_IMETHOD
-RootAndUnlinkJSObjects
+Root
 (
 void
 *
@@ -15286,7 +15286,7 @@ XPCWrappedNative
 XPCWrappedNative
 )
 NS_IMETHOD
-RootAndUnlinkJSObjects
+Root
 (
 void
 *
