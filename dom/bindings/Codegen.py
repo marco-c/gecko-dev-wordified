@@ -16411,7 +16411,7 @@ JSObject
 *
 '
 '
-aScope
+aScopeArg
 '
 )
                 
@@ -16563,6 +16563,25 @@ return
 s
 %
 s
+  
+JS
+:
+:
+Rooted
+<
+JSObject
+*
+>
+aScope
+(
+aCx
+aScopeArg
+)
+;
+/
+/
+Temporary
+!
   
 JSObject
 *
@@ -73036,6 +73055,11 @@ JSObject
 *
 thisObjJS
 =
+\
+n
+"
+            
+"
 WrapCallThisObject
 (
 s
@@ -73043,7 +73067,9 @@ s
 GetContext
 (
 )
-mCallback
+CallbackPreserveColor
+(
+)
 thisObj
 )
 ;
