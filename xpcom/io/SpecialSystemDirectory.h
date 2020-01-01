@@ -657,6 +657,9 @@ Win_ProgramFiles
 Win_Downloads
 =
 230
+Win_Common_AppData
+=
+231
 Unix_LocalDirectory
 =
 301
