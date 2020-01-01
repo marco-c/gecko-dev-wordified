@@ -10750,6 +10750,9 @@ ImageContainer
 >
 GetContainer
 (
+LayerManager
+*
+aManager
 nsDisplayListBuilder
 *
 aBuilder
@@ -12730,6 +12733,9 @@ ImageContainer
 >
 GetContainer
 (
+LayerManager
+*
+aManager
 nsDisplayListBuilder
 *
 aBuilder
@@ -12798,6 +12804,9 @@ ImageLayer
 bool
 TryOptimizeToImageLayer
 (
+LayerManager
+*
+aManager
 nsDisplayListBuilder
 *
 aBuilder
