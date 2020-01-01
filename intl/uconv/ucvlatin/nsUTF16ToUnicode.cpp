@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsUCS2BEToUnicode
+nsUTF16ToUnicode
 .
 h
 "

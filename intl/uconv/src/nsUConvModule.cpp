@@ -640,7 +640,7 @@ h
 #
 include
 "
-nsUCS2BEToUnicode
+nsUTF16ToUnicode
 .
 h
 "
@@ -983,7 +983,7 @@ h
 #
 include
 "
-nsUnicodeToUCS2BE
+nsUnicodeToUTF16
 .
 h
 "

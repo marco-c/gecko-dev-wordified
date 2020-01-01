@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsUnicodeToUCS2BE
+nsUnicodeToUTF16
 .
 h
 "

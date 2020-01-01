@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsUCS2BEToUnicode_h___
+nsUTF16ToUnicode_h_
 #
 define
-nsUCS2BEToUnicode_h___
+nsUTF16ToUnicode_h_
 #
 include
 "
@@ -433,6 +433,6 @@ mFoundBOM
 endif
 /
 *
-nsUCS2BEToUnicode_h___
+nsUTF16ToUnicode_h_
 *
 /
