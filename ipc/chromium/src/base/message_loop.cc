@@ -2370,6 +2370,9 @@ not
 already
 pumping
 .
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 pump_
 -
 >
@@ -2377,6 +2380,17 @@ ScheduleWork
 (
 )
 ;
+#
+else
+pump_
+-
+>
+ScheduleWorkForNestedLoop
+(
+)
+;
+#
+endif
 }
 }
 void
