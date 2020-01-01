@@ -1359,7 +1359,7 @@ js
 gc
 :
 :
-IsAddressableGCThing
+GetAddressableGCThing
 (
 JSRuntime
 *

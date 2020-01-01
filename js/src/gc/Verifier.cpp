@@ -367,7 +367,7 @@ void
 *
 thing
 =
-IsAddressableGCThing
+GetAddressableGCThing
 (
 rt
 *
