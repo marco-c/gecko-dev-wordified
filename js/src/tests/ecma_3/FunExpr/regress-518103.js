@@ -148,8 +148,8 @@ true
 ;
 reportCompare
 (
-actual
 expect
+actual
 summary
 )
 ;

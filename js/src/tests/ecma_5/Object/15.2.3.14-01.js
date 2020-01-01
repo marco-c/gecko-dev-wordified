@@ -827,8 +827,8 @@ keys2
 /
 reportCompare
 (
-actual
 expect
+actual
 "
 Object
 .
