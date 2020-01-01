@@ -543,8 +543,8 @@ or
 it
 '
 s
-role
 *
+role
 is
 included
 is
@@ -560,6 +560,7 @@ verbosityRoleMap
 genForObject
 :
 function
+genForObject
 (
 aAccessible
 aForceName
@@ -709,6 +710,7 @@ action
 genForAction
 :
 function
+genForAction
 (
 aObject
 aActionName
@@ -794,6 +796,7 @@ utterace
 genForTabStateChange
 :
 function
+genForTabStateChange
 (
 aObject
 aTabState
@@ -1392,6 +1395,7 @@ utterance
 heading
 :
 function
+heading
 (
 aAccessible
 aRoleStr
@@ -1475,6 +1479,7 @@ utterance
 listitem
 :
 function
+listitem
 (
 aAccessible
 aRoleStr
