@@ -3098,7 +3098,7 @@ that
 right
 ac
 =
-PR_MIN
+NS_MIN
 (
 ac
 aTokenizer
