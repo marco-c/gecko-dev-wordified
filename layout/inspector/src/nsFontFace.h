@@ -412,6 +412,9 @@ gfxFont
 h
 "
 class
+nsCSSFontFaceRule
+;
+class
 nsFontFace
 :
 public
@@ -426,6 +429,9 @@ nsFontFace
 gfxFontEntry
 *
 aFontEntry
+nsCSSFontFaceRule
+*
+aRule
 )
 ;
 virtual
@@ -456,6 +462,12 @@ nsRefPtr
 gfxFontEntry
 >
 mFontEntry
+;
+nsRefPtr
+<
+nsCSSFontFaceRule
+>
+mRule
 ;
 }
 ;
