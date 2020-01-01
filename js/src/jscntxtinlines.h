@@ -2135,7 +2135,7 @@ AutoLockForExclusiveAccess
 {
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 JSRuntime
 *
 runtime
@@ -2310,7 +2310,7 @@ false
 else
 /
 /
-JS_THREADSAFE
+JS_WORKER_THREADS
 public
 :
 AutoLockForExclusiveAccess
@@ -2367,7 +2367,7 @@ type
 endif
 /
 /
-JS_THREADSAFE
+JS_WORKER_THREADS
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
