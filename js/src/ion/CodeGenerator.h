@@ -792,6 +792,14 @@ ins
 )
 ;
 bool
+visitMinMaxI
+(
+LMinMaxI
+*
+lir
+)
+;
+bool
 visitBinaryV
 (
 LBinaryV

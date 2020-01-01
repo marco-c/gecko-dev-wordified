@@ -371,6 +371,16 @@ IsNullOrUndefinedAndBranch
 \
 _
 (
+MinMaxI
+)
+\
+_
+(
+MinMaxD
+)
+\
+_
+(
 AbsI
 )
 \
