@@ -4199,6 +4199,10 @@ left
 aEvent
 .
 x
++
+content
+.
+scrollX
 }
 )
 ;
