@@ -1702,6 +1702,11 @@ void
 anInstance
 )
 ;
+void
+HandleScrollbarStyleSwitching
+(
+)
+;
 /
 /
 owning
