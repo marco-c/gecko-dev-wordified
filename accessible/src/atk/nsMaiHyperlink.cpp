@@ -1236,15 +1236,6 @@ hyperlink
 nsnull
 )
 ;
-MaiAtkHyperlink
-*
-maiAtkHyperlink
-=
-MAI_ATK_HYPERLINK
-(
-aLink
-)
-;
 nsCOMPtr
 <
 nsIURI
