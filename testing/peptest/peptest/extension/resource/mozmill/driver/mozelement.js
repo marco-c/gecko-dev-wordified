@@ -610,6 +610,7 @@ createInstance
 locatorType
 locator
 elem
+document
 )
 {
 if
@@ -626,6 +627,11 @@ element
 "
 :
 elem
+"
+document
+"
+:
+document
 }
 ;
 for
@@ -739,7 +745,7 @@ Selector
 =
 function
 (
-_document
+document
 selector
 index
 )
@@ -755,10 +761,11 @@ elementslib
 .
 Selector
 (
-_document
+document
 selector
 index
 )
+document
 )
 ;
 }
@@ -768,7 +775,7 @@ ID
 =
 function
 (
-_document
+document
 nodeID
 )
 {
@@ -783,9 +790,10 @@ elementslib
 .
 ID
 (
-_document
+document
 nodeID
 )
+document
 )
 ;
 }
@@ -795,7 +803,7 @@ Link
 =
 function
 (
-_document
+document
 linkName
 )
 {
@@ -810,9 +818,10 @@ elementslib
 .
 Link
 (
-_document
+document
 linkName
 )
+document
 )
 ;
 }
@@ -822,7 +831,7 @@ XPath
 =
 function
 (
-_document
+document
 expr
 )
 {
@@ -837,9 +846,10 @@ elementslib
 .
 XPath
 (
-_document
+document
 expr
 )
+document
 )
 ;
 }
@@ -849,7 +859,7 @@ Name
 =
 function
 (
-_document
+document
 nName
 )
 {
@@ -864,9 +874,10 @@ elementslib
 .
 Name
 (
-_document
+document
 nName
 )
+document
 )
 ;
 }
@@ -876,7 +887,7 @@ Lookup
 =
 function
 (
-_document
+document
 expression
 )
 {
@@ -891,9 +902,10 @@ elementslib
 .
 Lookup
 (
-_document
+document
 expression
 )
+document
 )
 ;
 }
