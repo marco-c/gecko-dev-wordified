@@ -2054,6 +2054,10 @@ nsnull
 /
 )
 {
+GetData
+(
+)
+;
 NS_ENSURE_ARG_POINTER
 (
 aStatus
@@ -2253,10 +2257,6 @@ nsIGfxInfo
 FEATURE_WEBGL_MSAA
 )
 {
-GetData
-(
-)
-;
 /
 /
 Disable
