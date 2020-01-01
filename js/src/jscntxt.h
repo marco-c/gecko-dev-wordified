@@ -484,7 +484,7 @@ ifdef
 mozilla_mozalloc_macro_wrappers_h
 #
 define
-JS_UNDEFD_MOZALLOC_WRAPPERS
+JS_CNTXT_UNDEFD_MOZALLOC_WRAPPERS
 /
 *
 The
@@ -19263,7 +19263,7 @@ pop
 endif
 #
 ifdef
-JS_UNDEFD_MOZALLOC_WRAPPERS
+JS_CNTXT_UNDEFD_MOZALLOC_WRAPPERS
 #
 include
 "

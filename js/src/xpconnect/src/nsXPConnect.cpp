@@ -6044,7 +6044,7 @@ compartment
 tempGlobal
 -
 >
-getCompartment
+compartment
 (
 )
 ;

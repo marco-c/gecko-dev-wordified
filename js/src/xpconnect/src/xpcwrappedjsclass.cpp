@@ -1681,7 +1681,7 @@ isChrome
 jsobj
 -
 >
-getCompartment
+compartment
 (
 )
 )
@@ -8212,7 +8212,7 @@ getPrincipal
 obj
 -
 >
-getCompartment
+compartment
 (
 )
 )

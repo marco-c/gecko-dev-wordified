@@ -1588,7 +1588,7 @@ if
 originalScope
 -
 >
-getCompartment
+compartment
 (
 )
 !
@@ -1972,7 +1972,7 @@ origin
 obj
 -
 >
-getCompartment
+compartment
 (
 )
 ;
