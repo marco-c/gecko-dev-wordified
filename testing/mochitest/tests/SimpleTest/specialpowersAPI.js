@@ -3619,7 +3619,7 @@ magic
 ]
 ]
 '
-remove
+clear
 '
 :
 [
