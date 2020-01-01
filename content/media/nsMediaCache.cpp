@@ -511,7 +511,7 @@ h
 #
 include
 "
-nsMediaStream
+MediaResource
 .
 h
 "
@@ -13464,7 +13464,7 @@ nsMediaCacheStream
 :
 AreAllStreamsForResourceSuspended
 (
-nsMediaStream
+MediaResource
 *
 *
 aActiveStream
@@ -16048,7 +16048,7 @@ GetCachedRanges
 (
 nsTArray
 <
-nsByteRange
+MediaByteRange
 >
 &
 aRanges
@@ -16188,7 +16188,7 @@ aRanges
 .
 AppendElement
 (
-nsByteRange
+MediaByteRange
 (
 startOffset
 endOffset

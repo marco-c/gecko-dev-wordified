@@ -1281,6 +1281,7 @@ nsPlaceholderFrame
 GetParentStyleContextFrame
 (
 )
+const
 {
 NS_PRECONDITION
 (

@@ -1818,6 +1818,7 @@ nsFrameManager
 :
 GetPlaceholderFrameFor
 (
+const
 nsIFrame
 *
 aFrame

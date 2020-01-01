@@ -599,7 +599,7 @@ offset
 gc
 :
 :
-MarkRootThingOrValue
+MarkThingOrValueRoot
 (
 trc
 reinterpret_cast

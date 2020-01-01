@@ -17213,9 +17213,7 @@ a
 text
 node
 use
-it
-'
-s
+its
 location
 instead
 if
@@ -24480,9 +24478,7 @@ node
 s
 offset
 in
-it
-'
-s
+its
 parent
 and
 insert
@@ -26377,9 +26373,7 @@ a
 priorNode
 so
 delete
-it
-'
-s
+its
 last
 child
 (
@@ -26870,9 +26864,7 @@ not
 text
 so
 tell
-it
-'
-s
+its
 parent
 to
 delete

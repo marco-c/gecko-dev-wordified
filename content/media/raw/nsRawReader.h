@@ -563,11 +563,11 @@ aStartTime
 private
 :
 bool
-ReadFromStream
+ReadFromResource
 (
-nsMediaStream
+MediaResource
 *
-aStream
+aResource
 PRUint8
 *
 aBuf

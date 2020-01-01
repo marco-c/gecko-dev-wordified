@@ -21957,6 +21957,12 @@ if
 argc
 >
 1
+|
+|
+argc
+=
+=
+0
 )
 {
 JS_ReportError

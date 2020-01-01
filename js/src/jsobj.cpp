@@ -2624,7 +2624,7 @@ void
 arg
 )
 {
-MarkRoot
+MarkObjectRoot
 (
 (
 JSTracer

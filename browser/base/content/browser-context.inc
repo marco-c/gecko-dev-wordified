@@ -2666,6 +2666,15 @@ getBrowserSelection
 (
 )
 true
+'
+application
+/
+x
+-
+moz
+-
+contextsearch
+'
 )
 ;
 "

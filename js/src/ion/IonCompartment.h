@@ -571,6 +571,17 @@ friend
 class
 IonActivation
 ;
+/
+/
+Executable
+allocator
+(
+owned
+by
+the
+runtime
+)
+.
 JSC
 :
 :

@@ -1274,6 +1274,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 ;
 /
 *

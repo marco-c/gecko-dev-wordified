@@ -1683,6 +1683,12 @@ GetLocalTransform
 *
 aTransformToSurface
 ;
+idealTransform
+.
+ProjectTo2D
+(
+)
+;
 if
 (
 !
@@ -17394,6 +17400,12 @@ GetLocalTransform
 )
 *
 aTransformToSurface
+;
+idealTransform
+.
+ProjectTo2D
+(
+)
 ;
 if
 (

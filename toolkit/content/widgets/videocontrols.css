@@ -200,6 +200,17 @@ none
 important
 ;
 }
+.
+controlsSpacer
+[
+hideCursor
+]
+{
+cursor
+:
+none
+;
+}
 /
 *
 CSS

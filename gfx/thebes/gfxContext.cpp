@@ -2686,7 +2686,7 @@ if
 UserToDevicePixelSnapped
 (
 newRect
-PR_TRUE
+true
 )
 )
 {
@@ -9316,7 +9316,7 @@ needs
 fixing
 .
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -9606,7 +9606,7 @@ in
 error
 .
 return
-PR_FALSE
+false
 ;
 }
 }
