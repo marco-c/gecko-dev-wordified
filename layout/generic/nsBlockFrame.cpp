@@ -30794,21 +30794,6 @@ return
 PR_TRUE
 ;
 }
-/
-/
-May
-be
-needed
-below
-PRBool
-wasAdjacentWIthTop
-=
-aState
-.
-IsAdjacentWithTop
-(
-)
-;
 aState
 .
 mY
@@ -30897,7 +30882,6 @@ PlaceBelowCurrentLineFloats
 aState
 .
 mBelowCurrentLineFloats
-wasAdjacentWIthTop
 )
 )
 {
@@ -46841,7 +46825,6 @@ aState
 GetFloatAvailableSpaceWithState
 (
 aLineTop
-PR_FALSE
 &
 aState
 .

@@ -739,7 +739,6 @@ return
 GetFloatAvailableSpace
 (
 mY
-PR_FALSE
 )
 ;
 }
@@ -748,8 +747,6 @@ GetFloatAvailableSpace
 (
 nscoord
 aY
-PRBool
-aRelaxHeightConstraint
 )
 const
 {
@@ -757,7 +754,6 @@ return
 GetFloatAvailableSpaceWithState
 (
 aY
-aRelaxHeightConstraint
 nsnull
 )
 ;
@@ -767,8 +763,6 @@ GetFloatAvailableSpaceWithState
 (
 nscoord
 aY
-PRBool
-aRelaxHeightConstraint
 nsFloatManager
 :
 :
@@ -878,8 +872,6 @@ const
 nsFlowAreaRect
 &
 aFloatAvailableSpace
-PRBool
-aForceFit
 )
 ;
 PRBool
@@ -891,8 +883,6 @@ aFloat
 nsReflowStatus
 &
 aReflowStatus
-PRBool
-aForceFit
 )
 ;
 PRBool
@@ -901,8 +891,6 @@ PlaceBelowCurrentLineFloats
 nsFloatCacheFreeList
 &
 aFloats
-PRBool
-aForceFit
 )
 ;
 /
