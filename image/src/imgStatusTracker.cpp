@@ -3074,13 +3074,6 @@ mState
 stateBlockingOnload
 ;
 }
-mImageStatus
-=
-other
--
->
-mImageStatus
-;
 mIsMultipart
 =
 other
