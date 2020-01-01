@@ -9058,11 +9058,17 @@ if
 mScriptsEnabled
 )
 {
+if
+(
+aIsUndefined
+)
+{
 *
 aIsUndefined
 =
 PR_TRUE
 ;
+}
 if
 (
 aRetValue
