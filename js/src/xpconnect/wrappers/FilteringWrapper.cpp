@@ -627,7 +627,10 @@ check
 cx
 wrapper
 id
-false
+JSWrapper
+:
+:
+GET
 perm
 )
 )
@@ -684,8 +687,11 @@ JSObject
 wrapper
 jsid
 id
-bool
-set
+JSWrapper
+:
+:
+Action
+act
 Permission
 &
 perm
@@ -702,7 +708,7 @@ check
 cx
 wrapper
 id
-set
+act
 perm
 )
 )
@@ -1072,8 +1078,11 @@ JSObject
 wrapper
 jsid
 id
-bool
-set
+JSWrapper
+:
+:
+Action
+act
 )
 {
 Permission
@@ -1088,7 +1097,7 @@ Policy
 cx
 wrapper
 id
-set
+act
 perm
 )
 &
@@ -1101,7 +1110,7 @@ enter
 cx
 wrapper
 id
-set
+act
 )
 ;
 }

@@ -959,6 +959,14 @@ traps
 .
 *
 /
+enum
+Action
+{
+GET
+SET
+CALL
+}
+;
 virtual
 JS_FRIEND_API
 (
@@ -974,8 +982,8 @@ JSObject
 wrapper
 jsid
 id
-bool
-set
+Action
+act
 )
 ;
 virtual

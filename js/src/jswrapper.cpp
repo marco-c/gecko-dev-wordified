@@ -702,7 +702,7 @@ define
 CHECKED
 (
 op
-set
+act
 )
 \
 JS_BEGIN_MACRO
@@ -715,7 +715,7 @@ enter
 cx
 wrapper
 id
-set
+act
 )
 )
 \
@@ -752,7 +752,7 @@ action
 CHECKED
 (
 action
-true
+SET
 )
 #
 define
@@ -763,7 +763,7 @@ action
 CHECKED
 (
 action
-false
+GET
 )
 bool
 JSWrapper
@@ -1446,7 +1446,7 @@ id
 =
 JSID_VOID
 ;
-GET
+CHECKED
 (
 JSProxyHandler
 :
@@ -1458,6 +1458,7 @@ wrapper
 argc
 vp
 )
+CALL
 )
 ;
 }
@@ -1532,7 +1533,7 @@ enter
 cx
 wrapper
 JSID_VOID
-false
+GET
 )
 )
 return
@@ -1588,7 +1589,7 @@ enter
 cx
 wrapper
 JSID_VOID
-false
+GET
 )
 )
 return
@@ -1658,8 +1659,8 @@ JSObject
 wrapper
 jsid
 id
-bool
-set
+Action
+act
 )
 {
 return
