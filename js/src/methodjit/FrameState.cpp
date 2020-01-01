@@ -517,6 +517,9 @@ script
 JSFunction
 *
 fun
+mjit
+:
+:
 Compiler
 &
 cc
