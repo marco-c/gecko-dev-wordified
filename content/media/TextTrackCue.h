@@ -146,7 +146,7 @@ mozilla
 /
 dom
 /
-TextTrackCueBinding
+VTTCueBinding
 .
 h
 "
