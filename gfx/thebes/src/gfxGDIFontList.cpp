@@ -1427,6 +1427,13 @@ mSymbolFont
 =
 symbolFont
 ;
+mHasCmapTable
+=
+NS_SUCCEEDED
+(
+rv
+)
+;
 PR_LOG
 (
 gFontInfoLog

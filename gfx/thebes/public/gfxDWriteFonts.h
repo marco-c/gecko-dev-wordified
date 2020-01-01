@@ -636,6 +636,12 @@ aTag
 ;
 protected
 :
+virtual
+void
+CreatePlatformShaper
+(
+)
+;
 void
 ComputeMetrics
 (
@@ -675,9 +681,6 @@ mCairoFontFace
 cairo_scaled_font_t
 *
 mCairoScaledFont
-;
-gfxFloat
-mAdjustedSize
 ;
 gfxFont
 :
