@@ -4718,6 +4718,16 @@ return
 false
 ;
 }
+bool
+isSnapshotInput
+(
+)
+const
+{
+return
+snapshot_
+;
+}
 void
 next
 (
