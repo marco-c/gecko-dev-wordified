@@ -1201,10 +1201,7 @@ nsIFormHistory
 return
 formHistory
 .
-rowCount
-!
-=
-0
+hasEntries
 ;
 }
 }
