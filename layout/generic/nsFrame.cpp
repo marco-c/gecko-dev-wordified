@@ -6270,6 +6270,10 @@ ApplySkipSides
 nsMargin
 &
 aMargin
+const
+nsHTMLReflowState
+*
+aReflowState
 )
 const
 {
@@ -6278,6 +6282,7 @@ skipSides
 =
 GetSkipSides
 (
+aReflowState
 )
 ;
 if

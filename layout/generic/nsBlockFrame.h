@@ -3066,14 +3066,6 @@ nscoord
 aDY
 )
 ;
-virtual
-int
-GetSkipSides
-(
-)
-const
-MOZ_OVERRIDE
-;
 void
 ComputeFinalSize
 (
