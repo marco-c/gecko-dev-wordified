@@ -1058,6 +1058,8 @@ const
 PRAddrInfo
 *
 prAddrInfo
+bool
+disableIPv4
 )
 ;
 ~
