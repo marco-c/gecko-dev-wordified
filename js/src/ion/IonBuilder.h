@@ -1451,6 +1451,11 @@ op
 )
 ;
 ControlStatus
+processThrow
+(
+)
+;
+ControlStatus
 processContinue
 (
 JSOp
