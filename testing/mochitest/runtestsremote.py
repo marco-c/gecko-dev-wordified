@@ -3675,6 +3675,10 @@ options
 .
 app
         
+retVal
+=
+None
+        
 for
 test
 in
@@ -3801,7 +3805,7 @@ TEST
 -
 UNEXPECTED
 -
-FAIL
+ERROR
 |
 %
 s
@@ -3860,6 +3864,31 @@ exit
 (
 1
 )
+        
+if
+retVal
+is
+None
+:
+            
+print
+"
+No
+tests
+run
+.
+Did
+you
+pass
+an
+invalid
+TEST_PATH
+?
+"
+            
+retVal
+=
+1
     
 else
 :
@@ -3885,7 +3914,7 @@ TEST
 -
 UNEXPECTED
 -
-FAIL
+ERROR
 |
 %
 s
