@@ -694,7 +694,10 @@ Bridge
 ScanMedia
 (
 path
+NS_ConvertUTF8toUTF16
+(
 aContentType
+)
 )
 ;
 }
