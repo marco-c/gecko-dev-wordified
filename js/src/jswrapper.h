@@ -360,7 +360,6 @@ mSafeToUnwrap
 safe
 ;
 }
-virtual
 bool
 isSafeToUnwrap
 (
