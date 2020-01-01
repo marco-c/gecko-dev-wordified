@@ -4464,12 +4464,12 @@ reference
 *
 /
 JSTreeContext
-tc
+globaltc
 (
 this
 )
 ;
-tc
+globaltc
 .
 scopeChain
 =
@@ -4481,8 +4481,8 @@ if
 GenerateBlockId
 (
 &
-tc
-tc
+globaltc
+globaltc
 .
 bodyid
 )
@@ -4496,8 +4496,6 @@ pn
 =
 statements
 (
-&
-tc
 )
 ;
 if
@@ -4542,7 +4540,7 @@ js_FoldConstants
 context
 pn
 &
-tc
+globaltc
 )
 )
 pn
@@ -5450,8 +5448,6 @@ jsc
 .
 statement
 (
-&
-cg
 )
 ;
 if
@@ -5480,8 +5476,6 @@ jsc
 .
 recognizeDirectivePrologue
 (
-&
-cg
 pn
 )
 ;
@@ -7943,9 +7937,6 @@ JSCompiler
 :
 functionBody
 (
-JSTreeContext
-*
-tc
 )
 {
 JSStmtInfo
@@ -8087,7 +8078,6 @@ pn
 =
 statements
 (
-tc
 )
 ;
 }
@@ -8115,7 +8105,6 @@ pn_kid
 =
 assignExpr
 (
-tc
 )
 ;
 if
@@ -8201,7 +8190,6 @@ pn
 =
 statements
 (
-tc
 )
 ;
 #
@@ -10233,8 +10221,6 @@ jsc
 .
 functionBody
 (
-&
-funcg
 )
 :
 NULL
@@ -15763,9 +15749,6 @@ JSParseNode
 fn
 JSTreeContext
 *
-tc
-JSTreeContext
-*
 funtc
 JSAtom
 *
@@ -15778,6 +15761,15 @@ lambda
 JSFUN_LAMBDA
 )
 {
+JSTreeContext
+*
+tc
+=
+funtc
+-
+>
+parent
+;
 JSFunction
 *
 fun
@@ -15913,13 +15905,6 @@ funbox
 =
 funbox
 ;
-funtc
--
->
-parent
-=
-tc
-;
 if
 (
 !
@@ -15951,9 +15936,6 @@ fn
 JSTreeContext
 *
 funtc
-JSTreeContext
-*
-tc
 JSAtom
 *
 funAtom
@@ -15965,6 +15947,15 @@ lambda
 JSFUN_LAMBDA
 )
 {
+JSTreeContext
+*
+tc
+=
+funtc
+-
+>
+parent
+;
 tc
 -
 >
@@ -16928,9 +16919,6 @@ JSCompiler
 :
 functionDef
 (
-JSTreeContext
-*
-tc
 uintN
 lambda
 )
@@ -17890,6 +17878,12 @@ default
 }
 }
 }
+JSTreeContext
+*
+outertc
+=
+tc
+;
 /
 *
 Initialize
@@ -17919,7 +17913,6 @@ funbox
 EnterFunction
 (
 pn
-tc
 &
 funtc
 funAtom
@@ -18134,8 +18127,6 @@ destructuringExpr
 (
 &
 data
-&
-funtc
 tt
 )
 ;
@@ -18682,8 +18673,6 @@ body
 =
 functionBody
 (
-&
-funtc
 )
 ;
 if
@@ -18878,7 +18867,7 @@ ListNode
 :
 create
 (
-tc
+outertc
 )
 ;
 if
@@ -18926,7 +18915,7 @@ UnaryNode
 :
 create
 (
-tc
+outertc
 )
 ;
 if
@@ -19101,7 +19090,7 @@ flags
 =
 JSFUN_HEAVYWEIGHT
 ;
-tc
+outertc
 -
 >
 flags
@@ -19171,7 +19160,7 @@ lambda
 &
 funAtom
 )
-tc
+outertc
 -
 >
 flags
@@ -19292,7 +19281,7 @@ UnaryNode
 :
 create
 (
-tc
+outertc
 )
 ;
 if
@@ -19478,7 +19467,7 @@ pn
 >
 pn_blockid
 =
-tc
+outertc
 -
 >
 blockid
@@ -19493,7 +19482,6 @@ LeaveFunction
 pn
 &
 funtc
-tc
 funAtom
 lambda
 )
@@ -19521,7 +19509,7 @@ if
 (
 !
 (
-tc
+outertc
 -
 >
 flags
@@ -19548,15 +19536,11 @@ JSCompiler
 :
 functionStmt
 (
-JSTreeContext
-*
-tc
 )
 {
 return
 functionDef
 (
-tc
 0
 )
 ;
@@ -19568,15 +19552,11 @@ JSCompiler
 :
 functionExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 return
 functionDef
 (
-tc
 JSFUN_LAMBDA
 )
 ;
@@ -19707,9 +19687,6 @@ JSCompiler
 :
 recognizeDirectivePrologue
 (
-JSTreeContext
-*
-tc
 JSParseNode
 *
 pn
@@ -19835,9 +19812,6 @@ JSCompiler
 :
 statements
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -20004,7 +19978,6 @@ pn2
 =
 statement
 (
-tc
 )
 ;
 if
@@ -20040,7 +20013,6 @@ inDirectivePrologue
 =
 recognizeDirectivePrologue
 (
-tc
 pn2
 )
 ;
@@ -20249,9 +20221,6 @@ JSCompiler
 :
 condition
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -20268,7 +20237,6 @@ pn
 =
 parenExpr
 (
-tc
 NULL
 NULL
 )
@@ -26391,9 +26359,6 @@ destructuringExpr
 BindData
 *
 data
-JSTreeContext
-*
-tc
 JSTokenType
 tt
 )
@@ -26414,7 +26379,6 @@ pn
 =
 primaryExpr
 (
-tc
 tt
 JS_FALSE
 )
@@ -27485,9 +27449,6 @@ JSCompiler
 :
 returnOrYield
 (
-JSTreeContext
-*
-tc
 bool
 useAssignExpr
 )
@@ -27713,12 +27674,10 @@ useAssignExpr
 ?
 assignExpr
 (
-tc
 )
 :
 expr
 (
-tc
 )
 ;
 if
@@ -28062,9 +28021,6 @@ JSCompiler
 :
 letBlock
 (
-JSTreeContext
-*
-tc
 JSBool
 statement
 )
@@ -28191,7 +28147,6 @@ pn_left
 =
 variables
 (
-tc
 true
 )
 ;
@@ -28349,7 +28304,6 @@ pn_right
 =
 statements
 (
-tc
 )
 ;
 if
@@ -28414,7 +28368,6 @@ pn_right
 =
 assignExpr
 (
-tc
 )
 ;
 if
@@ -29180,9 +29133,6 @@ JSCompiler
 :
 statement
 (
-JSTreeContext
-*
-tc
 )
 {
 JSTokenType
@@ -29326,7 +29276,6 @@ endif
 return
 functionStmt
 (
-tc
 )
 ;
 case
@@ -29371,7 +29320,6 @@ pn1
 =
 condition
 (
-tc
 )
 ;
 if
@@ -29396,7 +29344,6 @@ pn2
 =
 statement
 (
-tc
 )
 ;
 if
@@ -29443,7 +29390,6 @@ pn3
 =
 statement
 (
-tc
 )
 ;
 if
@@ -29583,7 +29529,6 @@ pn1
 =
 parenExpr
 (
-tc
 NULL
 NULL
 )
@@ -29806,7 +29751,6 @@ pn_left
 =
 expr
 (
-tc
 )
 ;
 if
@@ -29977,7 +29921,6 @@ pn5
 =
 statement
 (
-tc
 )
 ;
 if
@@ -30251,7 +30194,6 @@ pn2
 =
 condition
 (
-tc
 )
 ;
 if
@@ -30273,7 +30215,6 @@ pn2
 =
 statement
 (
-tc
 )
 ;
 if
@@ -30348,7 +30289,6 @@ pn2
 =
 statement
 (
-tc
 )
 ;
 if
@@ -30376,7 +30316,6 @@ pn2
 =
 condition
 (
-tc
 )
 ;
 if
@@ -30848,7 +30787,6 @@ pn1
 =
 variables
 (
-tc
 false
 )
 ;
@@ -30896,7 +30834,6 @@ pn1
 =
 letBlock
 (
-tc
 JS_FALSE
 )
 ;
@@ -30938,7 +30875,6 @@ pn1
 =
 variables
 (
-tc
 false
 )
 ;
@@ -30952,7 +30888,6 @@ pn1
 =
 expr
 (
-tc
 )
 ;
 }
@@ -32334,7 +32269,6 @@ pn2
 =
 expr
 (
-tc
 )
 ;
 #
@@ -32466,7 +32400,6 @@ pn2
 =
 expr
 (
-tc
 )
 ;
 if
@@ -32540,7 +32473,6 @@ pn3
 =
 expr
 (
-tc
 )
 ;
 if
@@ -32654,7 +32586,6 @@ pn2
 =
 statement
 (
-tc
 )
 ;
 if
@@ -32945,7 +32876,6 @@ pn_kid1
 =
 statements
 (
-tc
 )
 ;
 if
@@ -33295,7 +33225,6 @@ destructuringExpr
 (
 &
 data
-tc
 tt
 )
 ;
@@ -33459,7 +33388,6 @@ pn_kid2
 =
 expr
 (
-tc
 )
 ;
 if
@@ -33495,7 +33423,6 @@ pn_kid3
 =
 statements
 (
-tc
 )
 ;
 if
@@ -33608,7 +33535,6 @@ pn_kid3
 =
 statements
 (
-tc
 )
 ;
 if
@@ -33793,7 +33719,6 @@ pn2
 =
 expr
 (
-tc
 )
 ;
 if
@@ -34428,7 +34353,6 @@ pn2
 =
 parenExpr
 (
-tc
 NULL
 NULL
 )
@@ -34468,7 +34392,6 @@ pn2
 =
 statement
 (
-tc
 )
 ;
 if
@@ -34523,7 +34446,6 @@ pn
 =
 variables
 (
-tc
 false
 )
 ;
@@ -34602,7 +34524,6 @@ pn
 =
 letBlock
 (
-tc
 JS_TRUE
 )
 ;
@@ -34936,7 +34857,6 @@ pn
 =
 variables
 (
-tc
 false
 )
 ;
@@ -35388,7 +35308,6 @@ pn
 =
 variables
 (
-tc
 false
 )
 ;
@@ -35424,7 +35343,6 @@ pn
 =
 returnOrYield
 (
-tc
 false
 )
 ;
@@ -35480,7 +35398,6 @@ pn
 =
 statements
 (
-tc
 )
 ;
 if
@@ -35828,7 +35745,6 @@ pn2
 =
 expr
 (
-tc
 )
 ;
 if
@@ -35896,7 +35812,6 @@ pn2
 =
 expr
 (
-tc
 )
 ;
 if
@@ -36054,7 +35969,6 @@ pn
 =
 statement
 (
-tc
 )
 ;
 if
@@ -36542,9 +36456,6 @@ JSCompiler
 :
 variables
 (
-JSTreeContext
-*
-tc
 bool
 inLetHead
 )
@@ -36936,7 +36847,6 @@ pn2
 =
 primaryExpr
 (
-tc
 tt
 JS_FALSE
 )
@@ -37067,7 +36977,6 @@ init
 =
 assignExpr
 (
-tc
 )
 ;
 #
@@ -37322,7 +37231,6 @@ init
 =
 assignExpr
 (
-tc
 )
 ;
 #
@@ -37591,9 +37499,6 @@ JSCompiler
 :
 expr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -37606,7 +37511,6 @@ pn
 =
 assignExpr
 (
-tc
 )
 ;
 if
@@ -37720,7 +37624,6 @@ pn2
 =
 assignExpr
 (
-tc
 )
 ;
 if
@@ -37782,9 +37685,6 @@ JSCompiler
 :
 assignExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -37838,7 +37738,6 @@ TSF_OPERAND
 return
 returnOrYield
 (
-tc
 true
 )
 ;
@@ -37857,7 +37756,6 @@ pn
 =
 condExpr
 (
-tc
 )
 ;
 if
@@ -38038,7 +37936,6 @@ rhs
 =
 assignExpr
 (
-tc
 )
 ;
 if
@@ -38149,7 +38046,6 @@ rhs
 =
 assignExpr
 (
-tc
 )
 ;
 if
@@ -38307,9 +38203,6 @@ JSCompiler
 :
 condExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -38329,7 +38222,6 @@ pn
 =
 orExpr
 (
-tc
 )
 ;
 if
@@ -38427,7 +38319,6 @@ pn2
 =
 assignExpr
 (
-tc
 )
 ;
 tc
@@ -38464,7 +38355,6 @@ pn3
 =
 assignExpr
 (
-tc
 )
 ;
 if
@@ -38536,9 +38426,6 @@ JSCompiler
 :
 orExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -38549,7 +38436,6 @@ pn
 =
 andExpr
 (
-tc
 )
 ;
 while
@@ -38577,7 +38463,6 @@ JSOP_OR
 pn
 andExpr
 (
-tc
 )
 tc
 )
@@ -38593,9 +38478,6 @@ JSCompiler
 :
 andExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -38606,7 +38488,6 @@ pn
 =
 bitOrExpr
 (
-tc
 )
 ;
 while
@@ -38634,7 +38515,6 @@ JSOP_AND
 pn
 bitOrExpr
 (
-tc
 )
 tc
 )
@@ -38650,9 +38530,6 @@ JSCompiler
 :
 bitOrExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -38663,7 +38540,6 @@ pn
 =
 bitXorExpr
 (
-tc
 )
 ;
 while
@@ -38692,7 +38568,6 @@ JSOP_BITOR
 pn
 bitXorExpr
 (
-tc
 )
 tc
 )
@@ -38709,9 +38584,6 @@ JSCompiler
 :
 bitXorExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -38722,7 +38594,6 @@ pn
 =
 bitAndExpr
 (
-tc
 )
 ;
 while
@@ -38751,7 +38622,6 @@ JSOP_BITXOR
 pn
 bitAndExpr
 (
-tc
 )
 tc
 )
@@ -38768,9 +38638,6 @@ JSCompiler
 :
 bitAndExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -38781,7 +38648,6 @@ pn
 =
 eqExpr
 (
-tc
 )
 ;
 while
@@ -38809,7 +38675,6 @@ JSOP_BITAND
 pn
 eqExpr
 (
-tc
 )
 tc
 )
@@ -38825,9 +38690,6 @@ JSCompiler
 :
 eqExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -38841,7 +38703,6 @@ pn
 =
 relExpr
 (
-tc
 )
 ;
 while
@@ -38880,7 +38741,6 @@ op
 pn
 relExpr
 (
-tc
 )
 tc
 )
@@ -38897,9 +38757,6 @@ JSCompiler
 :
 relExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -38960,7 +38817,6 @@ pn
 =
 shiftExpr
 (
-tc
 )
 ;
 while
@@ -39068,7 +38924,6 @@ op
 pn
 shiftExpr
 (
-tc
 )
 tc
 )
@@ -39104,9 +38959,6 @@ JSCompiler
 :
 shiftExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -39120,7 +38972,6 @@ pn
 =
 addExpr
 (
-tc
 )
 ;
 while
@@ -39159,7 +39010,6 @@ op
 pn
 addExpr
 (
-tc
 )
 tc
 )
@@ -39176,9 +39026,6 @@ JSCompiler
 :
 addExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -39195,7 +39042,6 @@ pn
 =
 mulExpr
 (
-tc
 )
 ;
 while
@@ -39258,7 +39104,6 @@ op
 pn
 mulExpr
 (
-tc
 )
 tc
 )
@@ -39275,9 +39120,6 @@ JSCompiler
 :
 mulExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -39294,7 +39136,6 @@ pn
 =
 unaryExpr
 (
-tc
 )
 ;
 while
@@ -39354,7 +39195,6 @@ op
 pn
 unaryExpr
 (
-tc
 )
 tc
 )
@@ -39784,9 +39624,6 @@ JSCompiler
 :
 unaryExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSTokenType
@@ -39894,7 +39731,6 @@ pn2
 =
 unaryExpr
 (
-tc
 )
 ;
 if
@@ -39956,7 +39792,6 @@ pn2
 =
 memberExpr
 (
-tc
 JS_TRUE
 )
 ;
@@ -40027,7 +39862,6 @@ pn2
 =
 unaryExpr
 (
-tc
 )
 ;
 if
@@ -40205,7 +40039,6 @@ pn
 =
 memberExpr
 (
-tc
 JS_TRUE
 )
 ;
@@ -41924,9 +41757,6 @@ JSParseNode
 kid
 uintN
 blockid
-JSTreeContext
-*
-tc
 JSTokenType
 type
 JSOp
@@ -42488,7 +42318,6 @@ pn3
 =
 primaryExpr
 (
-tc
 tt
 JS_FALSE
 )
@@ -42644,7 +42473,6 @@ pn4
 =
 expr
 (
-tc
 )
 ;
 if
@@ -42921,7 +42749,6 @@ pn_kid1
 =
 condition
 (
-tc
 )
 ;
 if
@@ -43174,9 +43001,6 @@ pn
 JSParseNode
 *
 kid
-JSTreeContext
-*
-tc
 )
 {
 /
@@ -43312,6 +43136,12 @@ PND_FUNARG
 ;
 {
 JSTreeContext
+*
+outertc
+=
+tc
+;
+JSTreeContext
 gentc
 (
 tc
@@ -43327,7 +43157,6 @@ funbox
 EnterFunction
 (
 genfn
-tc
 &
 gentc
 )
@@ -43355,8 +43184,8 @@ propagate
 sharp
 variables
 from
-tc
 *
+outertc
 to
 gentc
 before
@@ -43364,11 +43193,11 @@ setting
 TCF_HAS_SHARPS
 implicitly
 by
+*
 propagating
 all
-*
 of
-tc
+outertc
 '
 s
 TCF_FUN_FLAGS
@@ -43378,18 +43207,19 @@ As
 below
 we
 have
+*
 to
 be
 conservative
 by
-*
 leaving
 TCF_HAS_SHARPS
 set
 in
-tc
+outertc
 if
 we
+*
 do
 propagate
 to
@@ -43399,7 +43229,7 @@ gentc
 /
 if
 (
-tc
+outertc
 -
 >
 flags
@@ -43547,14 +43377,12 @@ body
 comprehensionTail
 (
 pn
-tc
+outertc
 -
 >
 blockid
 (
 )
-&
-gentc
 )
 ;
 if
@@ -43634,7 +43462,6 @@ LeaveFunction
 genfn
 &
 gentc
-tc
 )
 )
 return
@@ -43752,9 +43579,6 @@ JSCompiler
 :
 argumentList
 (
-JSTreeContext
-*
-tc
 JSParseNode
 *
 listNode
@@ -43802,7 +43626,6 @@ argNode
 =
 assignExpr
 (
-tc
 )
 ;
 if
@@ -43902,7 +43725,6 @@ generatorExpr
 (
 pn
 argNode
-tc
 )
 ;
 if
@@ -44121,9 +43943,6 @@ JSCompiler
 :
 memberExpr
 (
-JSTreeContext
-*
-tc
 JSBool
 allowCallSyntax
 )
@@ -44210,7 +44029,6 @@ pn2
 =
 memberExpr
 (
-tc
 JS_FALSE
 )
 ;
@@ -44272,7 +44090,6 @@ TOK_LP
 !
 argumentList
 (
-tc
 pn
 )
 )
@@ -44327,7 +44144,6 @@ pn
 =
 primaryExpr
 (
-tc
 tt
 JS_FALSE
 )
@@ -44515,7 +44331,6 @@ pn3
 =
 primaryExpr
 (
-tc
 tt
 JS_TRUE
 )
@@ -44869,7 +44684,6 @@ pn3
 =
 primaryExpr
 (
-tc
 tt
 JS_TRUE
 )
@@ -45036,7 +44850,6 @@ pn3
 =
 expr
 (
-tc
 )
 ;
 if
@@ -45479,7 +45292,6 @@ if
 !
 argumentList
 (
-tc
 pn2
 )
 )
@@ -45564,9 +45376,6 @@ JSCompiler
 :
 bracketedExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 uintN
@@ -45632,7 +45441,6 @@ pn
 =
 expr
 (
-tc
 )
 ;
 tc
@@ -45665,9 +45473,6 @@ JSCompiler
 :
 endBracketedExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -45678,7 +45483,6 @@ pn
 =
 bracketedExpr
 (
-tc
 )
 ;
 if
@@ -45933,9 +45737,6 @@ JSCompiler
 :
 propertySelector
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -46063,9 +45864,6 @@ qualifiedSuffix
 JSParseNode
 *
 pn
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -46289,7 +46087,6 @@ pn3
 =
 endBracketedExpr
 (
-tc
 )
 ;
 if
@@ -46367,9 +46164,6 @@ JSCompiler
 :
 qualifiedIdentifier
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -46380,7 +46174,6 @@ pn
 =
 propertySelector
 (
-tc
 )
 ;
 if
@@ -46436,7 +46229,6 @@ pn
 qualifiedSuffix
 (
 pn
-tc
 )
 ;
 }
@@ -46451,9 +46243,6 @@ JSCompiler
 :
 attributeIdentifier
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -46546,7 +46335,6 @@ pn2
 =
 qualifiedIdentifier
 (
-tc
 )
 ;
 }
@@ -46563,7 +46351,6 @@ pn2
 =
 endBracketedExpr
 (
-tc
 )
 ;
 }
@@ -46627,9 +46414,6 @@ xmlExpr
 (
 JSBool
 inTag
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -46748,7 +46532,6 @@ pn2
 =
 expr
 (
-tc
 )
 ;
 if
@@ -46849,9 +46632,6 @@ JSCompiler
 :
 xmlAtomNode
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -47010,9 +46790,6 @@ JSCompiler
 :
 xmlNameExpr
 (
-JSTreeContext
-*
-tc
 )
 {
 JSParseNode
@@ -47057,7 +46834,6 @@ pn2
 xmlExpr
 (
 JS_TRUE
-tc
 )
 ;
 if
@@ -47083,7 +46859,6 @@ pn2
 =
 xmlAtomNode
 (
-tc
 )
 ;
 if
@@ -47426,9 +47201,6 @@ JSCompiler
 :
 xmlTagContent
 (
-JSTreeContext
-*
-tc
 JSTokenType
 tagtype
 JSAtom
@@ -47452,7 +47224,6 @@ pn
 =
 xmlNameExpr
 (
-tc
 )
 ;
 if
@@ -47534,7 +47305,6 @@ pn2
 =
 xmlNameExpr
 (
-tc
 )
 ;
 if
@@ -47670,7 +47440,6 @@ pn2
 =
 xmlAtomNode
 (
-tc
 )
 ;
 }
@@ -47688,7 +47457,6 @@ pn2
 xmlExpr
 (
 JS_TRUE
-tc
 )
 ;
 pn
@@ -47841,9 +47609,6 @@ xmlElementContent
 JSParseNode
 *
 pn
-JSTreeContext
-*
-tc
 )
 {
 JSTokenType
@@ -47947,7 +47712,6 @@ pn2
 =
 xmlAtomNode
 (
-tc
 )
 ;
 if
@@ -48033,7 +47797,6 @@ pn2
 xmlExpr
 (
 JS_FALSE
-tc
 )
 ;
 pn
@@ -48058,7 +47821,6 @@ pn2
 =
 xmlElementOrList
 (
-tc
 JS_FALSE
 )
 ;
@@ -48115,7 +47877,6 @@ pn2
 =
 xmlAtomNode
 (
-tc
 )
 ;
 }
@@ -48198,9 +47959,6 @@ JSCompiler
 :
 xmlElementOrList
 (
-JSTreeContext
-*
-tc
 JSBool
 allowList
 )
@@ -48323,7 +48081,6 @@ pn2
 =
 xmlTagContent
 (
-tc
 TOK_XMLSTAGO
 &
 startAtom
@@ -48700,7 +48457,6 @@ if
 xmlElementContent
 (
 pn
-tc
 )
 )
 return
@@ -48771,7 +48527,6 @@ pn2
 =
 xmlTagContent
 (
-tc
 TOK_XMLETAGO
 &
 endAtom
@@ -49079,7 +48834,6 @@ if
 xmlElementContent
 (
 pn
-tc
 )
 )
 return
@@ -49144,9 +48898,6 @@ JSCompiler
 :
 xmlElementOrListRoot
 (
-JSTreeContext
-*
-tc
 JSBool
 allowList
 )
@@ -49234,7 +48985,6 @@ pn
 =
 xmlElementOrList
 (
-tc
 allowList
 )
 ;
@@ -49304,12 +49054,12 @@ us
 *
 /
 JSTreeContext
-tc
+xmltc
 (
 this
 )
 ;
-tc
+xmltc
 .
 scopeChain
 =
@@ -49396,8 +49146,6 @@ pn
 =
 xmlElementOrListRoot
 (
-&
-tc
 allowList
 )
 ;
@@ -49727,9 +49475,6 @@ JSCompiler
 :
 primaryExpr
 (
-JSTreeContext
-*
-tc
 JSTokenType
 tt
 JSBool
@@ -49855,7 +49600,6 @@ pn
 qualifiedSuffix
 (
 pn2
-tc
 )
 ;
 if
@@ -49883,7 +49627,6 @@ pn
 =
 functionExpr
 (
-tc
 )
 ;
 if
@@ -50121,7 +49864,6 @@ pn2
 =
 assignExpr
 (
-tc
 )
 ;
 }
@@ -50720,7 +50462,6 @@ pn
 -
 >
 pn_blockid
-tc
 TOK_ARRAYPUSH
 JSOP_ARRAYPUSH
 )
@@ -51187,7 +50928,6 @@ pn2
 =
 functionExpr
 (
-tc
 )
 ;
 pn2
@@ -51343,7 +51083,6 @@ pnval
 =
 assignExpr
 (
-tc
 )
 ;
 }
@@ -51820,7 +51559,6 @@ pn
 =
 letBlock
 (
-tc
 JS_FALSE
 )
 ;
@@ -51985,7 +51723,6 @@ pn_kid
 =
 primaryExpr
 (
-tc
 tt
 JS_FALSE
 )
@@ -52102,7 +51839,6 @@ pn
 =
 parenExpr
 (
-tc
 NULL
 &
 genexp
@@ -52147,7 +51883,6 @@ pn
 =
 qualifiedIdentifier
 (
-tc
 )
 ;
 if
@@ -52167,7 +51902,6 @@ pn
 =
 attributeIdentifier
 (
-tc
 )
 ;
 if
@@ -52187,7 +51921,6 @@ pn
 =
 xmlElementOrListRoot
 (
-tc
 JS_TRUE
 )
 ;
@@ -53255,7 +52988,6 @@ pn
 qualifiedSuffix
 (
 pn
-tc
 )
 ;
 if
@@ -53527,9 +53259,6 @@ JSCompiler
 :
 parenExpr
 (
-JSTreeContext
-*
-tc
 JSParseNode
 *
 pn1
@@ -53584,7 +53313,6 @@ pn
 =
 bracketedExpr
 (
-tc
 )
 ;
 if
@@ -53711,7 +53439,6 @@ generatorExpr
 (
 pn1
 pn
-tc
 )
 ;
 if
