@@ -2450,7 +2450,7 @@ nsDOMTokenList
 Element
 :
 :
-GetClassList
+ClassList
 (
 )
 {
@@ -2474,8 +2474,10 @@ slots
 mClassList
 )
 {
+nsCOMPtr
+<
 nsIAtom
-*
+>
 classAttr
 =
 GetClassAttributeName
@@ -2525,7 +2527,7 @@ NS_IF_ADDREF
 *
 aClassList
 =
-GetClassList
+ClassList
 (
 )
 )
