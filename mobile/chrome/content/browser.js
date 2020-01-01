@@ -4704,11 +4704,8 @@ this
 .
 _browserView
 .
-setBrowser
+uninit
 (
-null
-null
-false
 )
 ;
 BrowserUI
