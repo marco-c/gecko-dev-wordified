@@ -7877,6 +7877,11 @@ void
 handler
 )
 ;
+void
+handleFailureWithHandlerTail
+(
+)
+;
 /
 /
 /
