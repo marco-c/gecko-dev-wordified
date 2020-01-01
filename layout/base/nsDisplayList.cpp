@@ -758,6 +758,16 @@ mBoundingSelection
 ;
 }
 }
+LayerBuilder
+(
+)
+-
+>
+Init
+(
+this
+)
+;
 PR_STATIC_ASSERT
 (
 nsDisplayItem
