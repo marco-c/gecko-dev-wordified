@@ -4159,7 +4159,7 @@ rv
 statement
 -
 >
-BindNullParameter
+BindNullByIndex
 (
 0
 )
@@ -4170,7 +4170,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 0
 entry
@@ -4189,7 +4189,7 @@ rv
 statement
 -
 >
-BindBlobParameter
+BindBlobByIndex
 (
 1
 entry
@@ -4266,7 +4266,7 @@ rv
 statement
 -
 >
-BindNullParameter
+BindNullByIndex
 (
 2
 )
@@ -4279,7 +4279,7 @@ rv
 statement
 -
 >
-BindBlobParameter
+BindBlobByIndex
 (
 2
 entry
@@ -4299,7 +4299,7 @@ rv
 statement
 -
 >
-BindNullParameter
+BindNullByIndex
 (
 2
 )
@@ -4323,7 +4323,7 @@ rv
 statement
 -
 >
-BindBlobParameter
+BindBlobByIndex
 (
 3
 entry
@@ -4342,7 +4342,7 @@ rv
 statement
 -
 >
-BindNullParameter
+BindNullByIndex
 (
 3
 )
@@ -4359,7 +4359,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 4
 entry
@@ -4378,7 +4378,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 5
 entry
@@ -4520,7 +4520,7 @@ rv
 mLookupWithIDStatement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 0
 id
@@ -4624,7 +4624,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 0
 rowID
@@ -4639,7 +4639,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 numRequested
@@ -4745,7 +4745,7 @@ rv
 wraparoundStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 numRequested
@@ -5342,7 +5342,7 @@ rv
 mLookupWithChunkStatement
 -
 >
-BindBlobParameter
+BindBlobByIndex
 (
 0
 hash
@@ -5362,7 +5362,7 @@ rv
 mLookupWithChunkStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 tableId
@@ -5379,7 +5379,7 @@ rv
 mLookupWithChunkStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 2
 chunkId
@@ -5429,7 +5429,7 @@ rv
 mLookupStatement
 -
 >
-BindBlobParameter
+BindBlobByIndex
 (
 0
 hash
@@ -6021,7 +6021,7 @@ return
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 6
 entry
@@ -6060,7 +6060,7 @@ rv
 mLookupWithAddChunkStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 tableId
@@ -6077,7 +6077,7 @@ rv
 mLookupWithAddChunkStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 addChunkId
@@ -6121,7 +6121,7 @@ rv
 mExpireAddChunkStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 tableId
@@ -6138,7 +6138,7 @@ rv
 mExpireAddChunkStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 addChunkId
@@ -11027,7 +11027,7 @@ rv
 mGetTableIdStatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 table
@@ -11090,7 +11090,7 @@ rv
 mInsertTableIdStatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 table
@@ -11180,7 +11180,7 @@ rv
 mGetTableNameStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 tableId
@@ -11453,7 +11453,7 @@ mDeleteStatement
 mDeleteStatement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 0
 entry
@@ -13870,7 +13870,7 @@ rv
 mGetChunkListsStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 tableId
@@ -14031,7 +14031,7 @@ mSetChunkListsStatement
 mSetChunkListsStatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 addChunks
@@ -14040,7 +14040,7 @@ addChunks
 mSetChunkListsStatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 subChunks
@@ -14049,7 +14049,7 @@ subChunks
 mSetChunkListsStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 2
 tableId
@@ -14785,7 +14785,7 @@ rv
 mExpireStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 tableId
@@ -14802,7 +14802,7 @@ rv
 mExpireStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 chunkNum
