@@ -226,6 +226,11 @@ StartRendering
 (
 )
 ;
+void
+DestroyGraph
+(
+)
+;
 private
 :
 uint32_t
