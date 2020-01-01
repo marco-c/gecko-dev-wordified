@@ -1480,10 +1480,8 @@ GetRows
 placeholder
 methods
 void
-SetPlaceholderVisibility
+UpdatePlaceholderVisibility
 (
-bool
-aVisible
 bool
 aNotify
 )

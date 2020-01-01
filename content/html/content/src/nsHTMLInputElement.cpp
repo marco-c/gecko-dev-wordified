@@ -7849,10 +7849,8 @@ void
 nsHTMLInputElement
 :
 :
-SetPlaceholderVisibility
+UpdatePlaceholderVisibility
 (
-bool
-aVisible
 bool
 aNotify
 )
@@ -7873,9 +7871,8 @@ state
 state
 -
 >
-SetPlaceholderVisibility
+UpdatePlaceholderVisibility
 (
-aVisible
 aNotify
 )
 ;
