@@ -43521,7 +43521,10 @@ RootedObject
 moduleObj
 (
 cx
-NewAsmJSModuleObject
+AsmJSModuleObject
+:
+:
+create
 (
 cx
 &

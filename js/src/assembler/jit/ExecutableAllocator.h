@@ -492,7 +492,6 @@ CodeKind
 ION_CODE
 BASELINE_CODE
 REGEXP_CODE
-ASMJS_CODE
 OTHER_CODE
 }
 ;
@@ -589,9 +588,6 @@ m_ionCodeBytes
 ;
 size_t
 m_baselineCodeBytes
-;
-size_t
-m_asmJSCodeBytes
 ;
 size_t
 m_regexpCodeBytes
@@ -748,10 +744,6 @@ m_baselineCodeBytes
 (
 0
 )
-m_asmJSCodeBytes
-(
-0
-)
 m_regexpCodeBytes
 (
 0
@@ -884,16 +876,6 @@ case
 BASELINE_CODE
 :
 m_baselineCodeBytes
-+
-=
-n
-;
-break
-;
-case
-ASMJS_CODE
-:
-m_asmJSCodeBytes
 +
 =
 n
