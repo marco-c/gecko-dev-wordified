@@ -2291,7 +2291,9 @@ JS_ASSERT
 fp
 -
 >
-script
+hasScript
+(
+)
 &
 &
 FUN_SLOW_NATIVE
@@ -2299,7 +2301,9 @@ FUN_SLOW_NATIVE
 fp
 -
 >
-fun
+getFunction
+(
+)
 )
 )
 ;
@@ -2399,7 +2403,9 @@ cx
 fp
 -
 >
-script
+hasScript
+(
+)
 &
 &
 FUN_SLOW_NATIVE
@@ -2410,7 +2416,9 @@ cx
 fp
 -
 >
-fun
+getFunction
+(
+)
 )
 )
 ;
@@ -7948,7 +7956,9 @@ filename
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 filename
@@ -8505,7 +8515,9 @@ fp
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 strictModeCode
@@ -11201,7 +11213,9 @@ if
 fp
 -
 >
-script
+hasScript
+(
+)
 )
 return
 fp

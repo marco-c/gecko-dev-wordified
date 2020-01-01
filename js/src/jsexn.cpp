@@ -2029,7 +2029,9 @@ if
 fp
 -
 >
-fun
+hasFunction
+(
+)
 &
 &
 fp
@@ -2317,7 +2319,9 @@ if
 fp
 -
 >
-fun
+hasFunction
+(
+)
 )
 {
 elem
@@ -2345,7 +2349,9 @@ funName
 fp
 -
 >
-fun
+getFunction
+(
+)
 -
 >
 atom
@@ -2355,7 +2361,9 @@ ATOM_TO_STRING
 fp
 -
 >
-fun
+getFunction
+(
+)
 -
 >
 atom
@@ -2425,7 +2433,9 @@ if
 fp
 -
 >
-script
+hasScript
+(
+)
 )
 {
 elem
@@ -2436,7 +2446,9 @@ filename
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 filename
@@ -4850,7 +4862,9 @@ cx
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 filename

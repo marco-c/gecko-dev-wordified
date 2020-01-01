@@ -7962,7 +7962,9 @@ script
 fp
 -
 >
-script
+maybeScript
+(
+)
 ;
 callee
 =

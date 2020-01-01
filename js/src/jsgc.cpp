@@ -15334,7 +15334,9 @@ if
 fp
 -
 >
-script
+hasScript
+(
+)
 )
 js_TraceScript
 (
@@ -15342,7 +15344,9 @@ trc
 fp
 -
 >
-script
+getScript
+(
+)
 )
 ;
 /
@@ -15366,7 +15370,9 @@ trc
 fp
 -
 >
-thisv
+getThisValue
+(
+)
 "
 this
 "
@@ -15378,7 +15384,9 @@ trc
 fp
 -
 >
-rval
+getReturnValue
+(
+)
 "
 rval
 "

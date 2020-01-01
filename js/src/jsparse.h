@@ -7646,7 +7646,9 @@ cfp
 cfp
 -
 >
-script
+hasScript
+(
+)
 )
 ;
 }
