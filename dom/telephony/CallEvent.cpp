@@ -147,12 +147,6 @@ mozilla
 :
 dom
 ;
-using
-mozilla
-:
-:
-ErrorResult
-;
 /
 *
 static
