@@ -180,16 +180,6 @@ NS_NewGridRowLeafLayout
 (
 )
 ;
-if
-(
-!
-layout
-)
-{
-return
-nullptr
-;
-}
 return
 new
 (
