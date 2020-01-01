@@ -607,6 +607,7 @@ a
 corrupt
 database
 .
+let
 corruptDB
 =
 gTestDir

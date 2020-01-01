@@ -774,6 +774,7 @@ a
 corrupt
 database
 .
+var
 corruptDB
 =
 gTestDir
