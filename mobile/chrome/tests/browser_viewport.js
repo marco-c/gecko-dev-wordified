@@ -630,9 +630,7 @@ width
 980
 scale
 :
-0
-.
-8163
+1
 }
 {
 metadata
