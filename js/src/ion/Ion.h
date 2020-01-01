@@ -1264,6 +1264,12 @@ GetIonContext
 (
 )
 ;
+IonContext
+*
+MaybeGetIonContext
+(
+)
+;
 bool
 SetIonContext
 (
