@@ -592,6 +592,11 @@ JSOP_DEFCONST
 \
 _
 (
+JSOP_DEFFUN
+)
+\
+_
+(
 JSOP_GETLOCAL
 )
 \
