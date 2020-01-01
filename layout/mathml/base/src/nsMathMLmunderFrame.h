@@ -552,8 +552,6 @@ TransmitAutomaticData
 NS_IMETHOD
 UpdatePresentationData
 (
-PRInt32
-aScriptLevelIncrement
 PRUint32
 aFlagsValues
 PRUint32
@@ -567,8 +565,6 @@ PRInt32
 aFirstIndex
 PRInt32
 aLastIndex
-PRInt32
-aScriptLevelIncrement
 PRUint32
 aFlagsValues
 PRUint32
