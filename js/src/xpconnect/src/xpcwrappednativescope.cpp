@@ -1097,15 +1097,10 @@ mPrototypeNoHelper
 (
 nsnull
 )
-#
-ifndef
-XPCONNECT_STANDALONE
 mScriptObjectPrincipal
 (
 nsnull
 )
-#
-endif
 {
 /
 /
@@ -1598,9 +1593,6 @@ mGlobalJSObject
 =
 aGlobal
 ;
-#
-ifndef
-XPCONNECT_STANDALONE
 mScriptObjectPrincipal
 =
 nsnull
@@ -1735,8 +1727,6 @@ mScriptObjectPrincipal
 sop
 ;
 }
-#
-endif
 /
 /
 Lookup
@@ -2759,9 +2749,6 @@ mGlobalJSObject
 =
 nsnull
 ;
-#
-ifndef
-XPCONNECT_STANDALONE
 cur
 -
 >
@@ -2769,8 +2756,6 @@ mScriptObjectPrincipal
 =
 nsnull
 ;
-#
-endif
 /
 /
 Move

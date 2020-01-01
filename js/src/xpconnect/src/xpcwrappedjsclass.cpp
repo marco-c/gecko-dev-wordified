@@ -3722,9 +3722,6 @@ return
 nsnull
 ;
 }
-#
-ifndef
-XPCONNECT_STANDALONE
 class
 SameOriginCheckedComponent
 :
@@ -3961,8 +3958,6 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-#
-endif
 NS_IMETHODIMP
 nsXPCWrappedJSClass
 :
@@ -4570,9 +4565,6 @@ stuff
 .
 .
 .
-#
-ifndef
-XPCONNECT_STANDALONE
 /
 /
 Before
@@ -4963,8 +4955,6 @@ NS_OK
 ;
 }
 }
-#
-endif
 /
 /
 check

@@ -1930,15 +1930,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIXPCScriptable
 )
-#
-ifdef
-XPC_USE_SECURITY_CHECKED_COMPONENT
 NS_INTERFACE_MAP_ENTRY
 (
 nsISecurityCheckedComponent
 )
-#
-endif
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
@@ -3091,9 +3086,6 @@ return
 rv
 ;
 }
-#
-ifdef
-XPC_USE_SECURITY_CHECKED_COMPONENT
 /
 *
 string
@@ -3334,8 +3326,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 /
 *
 *
