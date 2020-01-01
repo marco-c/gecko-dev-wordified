@@ -6967,11 +6967,6 @@ Truncate
 (
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 if
 (
 httpChannel
