@@ -602,7 +602,7 @@ endif
 namespace
 js
 {
-struct
+class
 GCHelperThread
 ;
 struct
