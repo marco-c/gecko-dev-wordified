@@ -1660,7 +1660,7 @@ version
 =
 JSVERSION_DEFAULT
 ;
-JS_InitArenaPool
+JS_INIT_ARENA_POOL
 (
 &
 cx
@@ -1677,7 +1677,7 @@ jsval
 )
 )
 ;
-JS_InitArenaPool
+JS_INIT_ARENA_POOL
 (
 &
 cx
