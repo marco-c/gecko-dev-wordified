@@ -1850,6 +1850,9 @@ SetCapacity
 stringLen
 +
 1
+fallible_t
+(
+)
 )
 &
 &
@@ -2068,6 +2071,9 @@ SetCapacity
 binaryDataLen
 +
 1
+fallible_t
+(
+)
 )
 &
 &
