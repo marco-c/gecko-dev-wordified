@@ -1160,7 +1160,6 @@ nsIHttpChannel
 nsIHttpChannelInternal
 nsISupportsPriority
 )
-;
 /
 /
 -
