@@ -17653,7 +17653,7 @@ _lastCount
 url
 :
 "
-http
+https
 :
 /
 /
@@ -17662,6 +17662,8 @@ mail
 google
 .
 com
+/
+mail
 "
 updateBadge
 :
