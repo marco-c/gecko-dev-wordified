@@ -280,7 +280,7 @@ pruning
 segments
 .
 const
-int
+MediaTime
 roundTo
 =
 MillisecondsToMediaTime
