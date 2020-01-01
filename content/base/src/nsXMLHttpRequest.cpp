@@ -7029,6 +7029,9 @@ loadGroup
 ;
 if
 (
+doc
+&
+&
 !
 (
 mState
