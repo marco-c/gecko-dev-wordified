@@ -3994,11 +3994,10 @@ Append
 "
 )
 ;
-note
-.
-AppendWithConversion
+LossyAppendUTF16toASCII
 (
 mDeviceID
+note
 )
 ;
 note
@@ -4009,11 +4008,10 @@ Append
 "
 )
 ;
-note
-.
-AppendWithConversion
+LossyAppendUTF16toASCII
 (
 mDeviceKeyDebug
+note
 )
 ;
 LossyAppendUTF16toASCII
