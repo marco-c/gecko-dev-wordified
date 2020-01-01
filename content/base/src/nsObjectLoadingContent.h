@@ -941,10 +941,8 @@ SetupProtoChain
 JSContext
 *
 aCx
-JS
-:
-:
-HandleObject
+JSObject
+*
 aObject
 )
 ;

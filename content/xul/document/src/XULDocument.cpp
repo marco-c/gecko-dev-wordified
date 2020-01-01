@@ -28828,17 +28828,10 @@ JSObject
 aScope
 )
 {
-JS
-:
-:
-Rooted
-<
 JSObject
 *
->
 obj
-(
-aCx
+=
 XULDocumentBinding
 :
 :
@@ -28847,7 +28840,6 @@ Wrap
 aCx
 aScope
 this
-)
 )
 ;
 if
