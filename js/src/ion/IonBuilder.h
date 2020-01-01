@@ -1172,6 +1172,9 @@ IonBuilder
 JSContext
 *
 cx
+JSObject
+*
+scopeChain
 TempAllocator
 &
 temp
@@ -1765,7 +1768,7 @@ insertRecompileCheck
 (
 )
 ;
-void
+bool
 initParameters
 (
 )
@@ -2057,6 +2060,10 @@ private
 jsbytecode
 *
 pc
+;
+JSObject
+*
+initialScopeChain_
 ;
 MBasicBlock
 *

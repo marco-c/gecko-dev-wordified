@@ -477,7 +477,7 @@ nargs
 +
 2
 :
-0
+1
 ;
 /
 /
@@ -490,6 +490,13 @@ scopeChain
 and
 |
 this
+|
+or
++
+1
+for
+|
+scopeChain
 |
 }
 /
@@ -811,13 +818,6 @@ scopeChainSlot
 )
 const
 {
-JS_ASSERT
-(
-fun
-(
-)
-)
-;
 return
 0
 ;
