@@ -28707,6 +28707,11 @@ SIMPLE_MATHML_CREATE
 menclose_
 NS_NewMathMLmencloseFrame
 )
+SIMPLE_MATHML_CREATE
+(
+semantics_
+NS_NewMathMLsemanticsFrame
+)
 }
 ;
 return
