@@ -1433,7 +1433,7 @@ the
 call
 finishes
 which
-RejoinInterpreter
+js_InternalInterpret
 *
 must
 use
