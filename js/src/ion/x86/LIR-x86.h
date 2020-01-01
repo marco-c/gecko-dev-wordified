@@ -549,6 +549,10 @@ const
 LAllocation
 &
 in
+const
+LDefinition
+&
+temp
 )
 {
 setOperand
@@ -560,13 +564,7 @@ in
 setTemp
 (
 0
-LDefinition
-(
-LDefinition
-:
-:
-DOUBLE
-)
+temp
 )
 ;
 }
