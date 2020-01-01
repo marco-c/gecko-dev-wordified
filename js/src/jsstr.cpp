@@ -19218,6 +19218,9 @@ endif
 JS_FS_END
 }
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 /
 *
 *
@@ -21073,6 +21076,16 @@ R3
 #
 undef
 R7
+#
+endif
+/
+*
+defined
+(
+JS_HAS_STATIC_STRINGS
+)
+*
+/
 JSBool
 js_String
 (
