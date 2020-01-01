@@ -1251,16 +1251,10 @@ UNSAFE_OP
 (
 GetNameCache
 )
-SAFE_OP
+UNSAFE_OP
 (
 CallGetIntrinsicValue
 )
-/
-/
-Bails
-in
-parallel
-mode
 UNSAFE_OP
 (
 CallsiteCloneCache
