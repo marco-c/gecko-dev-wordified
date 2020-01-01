@@ -1285,14 +1285,6 @@ get
 )
 )
 ;
-httpChan
--
->
-SetServicingRemoteChannel
-(
-PR_TRUE
-)
-;
 if
 (
 doResumeAt
