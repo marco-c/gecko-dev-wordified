@@ -2218,6 +2218,7 @@ through
 this
 function
 .
+virtual
 void
 printf
 (
