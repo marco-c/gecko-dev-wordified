@@ -749,6 +749,11 @@ DATABASE_MEMORY
 }
 ;
 nsresult
+InitDB
+(
+)
+;
+nsresult
 InitFileDB
 (
 PRBool
