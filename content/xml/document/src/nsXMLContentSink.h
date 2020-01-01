@@ -967,14 +967,6 @@ HaveNotifiedForCurrentContent
 )
 const
 ;
-void
-ProcessBASETag
-(
-nsIContent
-*
-aContent
-)
-;
 nsresult
 FlushTags
 (
@@ -1171,11 +1163,6 @@ mPrettyPrintHasSpecialRoot
 ;
 PRUint8
 mPrettyPrintHasFactoredElements
-:
-1
-;
-PRUint8
-mHasProcessedBase
 :
 1
 ;

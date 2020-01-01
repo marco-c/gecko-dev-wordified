@@ -1996,12 +1996,6 @@ mDocumentURI
 ;
 nsCOMPtr
 <
-nsIURI
->
-mDocumentBaseURI
-;
-nsCOMPtr
-<
 nsIDocShell
 >
 mDocShell

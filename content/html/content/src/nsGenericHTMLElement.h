@@ -1490,15 +1490,6 @@ UpdateEditableState
 (
 )
 ;
-already_AddRefed
-<
-nsIURI
->
-GetBaseURI
-(
-)
-const
-;
 virtual
 PRBool
 ParseAttribute
