@@ -3754,9 +3754,6 @@ glue
 sanitize
 (
 window
-|
-|
-null
 )
 ;
 /
