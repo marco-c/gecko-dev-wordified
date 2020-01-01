@@ -506,7 +506,7 @@ defined
 MOZALLOC_EXPORT
 )
 /
-/
+*
 do
 nothing
 :
@@ -521,8 +521,7 @@ __declspec
 dllexport
 )
 by
-/
-/
+*
 mozalloc
 *
 .
@@ -534,6 +533,9 @@ that
 '
 s
 required
+.
+*
+/
 #
 elif
 defined
