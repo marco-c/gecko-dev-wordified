@@ -645,7 +645,7 @@ js_BooleanClass
 name
 JS_BOOLEAN_STR
 (
-vp
+primp
 -
 >
 asBoolean
