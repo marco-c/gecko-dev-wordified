@@ -8510,10 +8510,6 @@ StackFilter
 public
 LirFilter
 {
-GC
-*
-gc
-;
 LirBuffer
 *
 lirbuf
@@ -8544,9 +8540,6 @@ StackFilter
 LirFilter
 *
 in
-GC
-*
-gc
 LirBuffer
 *
 lirbuf
