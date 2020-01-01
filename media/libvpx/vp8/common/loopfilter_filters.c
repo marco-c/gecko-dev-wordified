@@ -107,6 +107,16 @@ onyxc_int
 h
 "
 #
+ifdef
+__SUNPRO_C
+#
+define
+__inline
+static
+inline
+#
+endif
+#
 define
 NEW_LOOPFILTER_MASK
 typedef
