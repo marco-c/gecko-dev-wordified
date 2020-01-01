@@ -3826,6 +3826,13 @@ function
 )
 {
 }
+batching
+:
+function
+(
+)
+{
+}
 /
 /
 Replaced
