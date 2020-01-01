@@ -8675,8 +8675,6 @@ strlen
 (
 name
 )
-+
-1
 ;
 thread
 -
@@ -8690,6 +8688,8 @@ char
 PR_Malloc
 (
 nameLen
++
+1
 )
 ;
 if
@@ -8711,6 +8711,8 @@ thread
 name
 name
 nameLen
++
+1
 )
 ;
 _PR_MD_SET_CURRENT_THREAD_NAME
