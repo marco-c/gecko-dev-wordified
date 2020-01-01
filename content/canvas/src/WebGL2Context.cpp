@@ -661,6 +661,10 @@ blend_minmax
 GLFeature
 :
 :
+instanced_non_arrays
+GLFeature
+:
+:
 transform_feedback
 }
 ;
