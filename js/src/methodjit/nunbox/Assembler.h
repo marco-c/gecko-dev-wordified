@@ -486,7 +486,7 @@ public
 :
 ImmTag
 (
-JSValueMask32
+JSValueTag
 mask
 )
 :
@@ -1012,9 +1012,7 @@ jv
 .
 s
 .
-u
-.
-mask32
+tag
 )
 tagOf
 (
@@ -1081,9 +1079,7 @@ jv
 .
 s
 .
-u
-.
-mask32
+tag
 )
 tagOf
 (
@@ -1138,7 +1134,7 @@ cond
 reg
 ImmTag
 (
-JSVAL_MASK32_INT32
+JSVAL_TAG_INT32
 )
 )
 ;
@@ -1165,7 +1161,7 @@ address
 )
 ImmTag
 (
-JSVAL_MASK32_INT32
+JSVAL_TAG_INT32
 )
 )
 ;
@@ -1211,7 +1207,7 @@ cond
 reg
 ImmTag
 (
-JSVAL_MASK32_NONFUNOBJ
+JSVAL_TAG_NONFUNOBJ
 )
 )
 ;
@@ -1260,7 +1256,7 @@ address
 )
 ImmTag
 (
-JSVAL_MASK32_NONFUNOBJ
+JSVAL_TAG_NONFUNOBJ
 )
 )
 ;
@@ -1284,7 +1280,7 @@ cond
 reg
 ImmTag
 (
-JSVAL_MASK32_NONFUNOBJ
+JSVAL_TAG_NONFUNOBJ
 )
 )
 ;
@@ -1311,7 +1307,7 @@ address
 )
 ImmTag
 (
-JSVAL_MASK32_NONFUNOBJ
+JSVAL_TAG_NONFUNOBJ
 )
 )
 ;
@@ -1335,7 +1331,7 @@ cond
 reg
 ImmTag
 (
-JSVAL_MASK32_FUNOBJ
+JSVAL_TAG_FUNOBJ
 )
 )
 ;
@@ -1362,7 +1358,7 @@ address
 )
 ImmTag
 (
-JSVAL_MASK32_FUNOBJ
+JSVAL_TAG_FUNOBJ
 )
 )
 ;
@@ -1417,7 +1413,7 @@ opcond
 reg
 ImmTag
 (
-JSVAL_MASK32_CLEAR
+JSVAL_TAG_CLEAR
 )
 )
 ;
@@ -1475,7 +1471,7 @@ address
 )
 ImmTag
 (
-JSVAL_MASK32_CLEAR
+JSVAL_TAG_CLEAR
 )
 )
 ;
@@ -1499,7 +1495,7 @@ cond
 reg
 ImmTag
 (
-JSVAL_MASK32_BOOLEAN
+JSVAL_TAG_BOOLEAN
 )
 )
 ;
@@ -1526,7 +1522,7 @@ address
 )
 ImmTag
 (
-JSVAL_MASK32_BOOLEAN
+JSVAL_TAG_BOOLEAN
 )
 )
 ;

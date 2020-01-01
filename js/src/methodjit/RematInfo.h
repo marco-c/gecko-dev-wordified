@@ -495,8 +495,8 @@ union
 RegisterID
 reg
 ;
-uint32
-mask
+JSValueTag
+tag
 ;
 }
 type

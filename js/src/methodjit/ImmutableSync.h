@@ -649,7 +649,7 @@ hasTypeReg
 bool
 learnedType
 ;
-JSValueMask32
+JSValueTag
 typeTag
 ;
 }
