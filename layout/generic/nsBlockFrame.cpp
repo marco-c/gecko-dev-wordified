@@ -8545,9 +8545,7 @@ or
 outline
 CheckInvalidateSizeChange
 (
-aPresContext
 aMetrics
-aReflowState
 )
 ;
 FinishAndStoreOverflow

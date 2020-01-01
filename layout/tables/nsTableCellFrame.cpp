@@ -6387,9 +6387,7 @@ NS_FRAME_FIRST_REFLOW
 {
 CheckInvalidateSizeChange
 (
-aPresContext
 aDesiredSize
-aReflowState
 )
 ;
 }

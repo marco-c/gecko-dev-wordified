@@ -3588,9 +3588,7 @@ or
 outline
 CheckInvalidateSizeChange
 (
-aPresContext
 aDesiredSize
-aReflowState
 )
 ;
 FinishAndStoreOverflow

@@ -6961,11 +6961,7 @@ colData
 }
 CheckInvalidateSizeChange
 (
-PresContext
-(
-)
 aDesiredSize
-aReflowState
 )
 ;
 FinishAndStoreOverflow
