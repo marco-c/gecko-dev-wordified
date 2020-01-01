@@ -3169,7 +3169,7 @@ false
 }
 #
 ifdef
-ANDROID
+MOZ_JAVA_COMPOSITOR
 /
 /
 bug
