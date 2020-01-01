@@ -1069,12 +1069,11 @@ aFlags
 )
 ;
 virtual
-void
-GetCurrentFrameRect
-(
 nsIntRect
-&
-aRect
+FrameRect
+(
+uint32_t
+aWhichFrame
 )
 MOZ_OVERRIDE
 ;
