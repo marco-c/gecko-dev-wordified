@@ -3129,7 +3129,7 @@ root
 vm
 -
 >
-UpdateView
+InvalidateView
 (
 root
 )

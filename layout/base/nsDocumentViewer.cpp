@@ -9250,7 +9250,7 @@ happen
 vm
 -
 >
-UpdateViewNoSuppression
+InvalidateViewNoSuppression
 (
 rootView
 rootView

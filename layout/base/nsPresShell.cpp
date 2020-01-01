@@ -45451,7 +45451,7 @@ GetRootView
 mViewManager
 -
 >
-UpdateView
+InvalidateView
 (
 rootView
 )

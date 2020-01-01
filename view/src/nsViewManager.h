@@ -828,7 +828,7 @@ aDoReflow
 )
 ;
 NS_IMETHOD
-UpdateView
+InvalidateView
 (
 nsIView
 *
@@ -836,7 +836,7 @@ aView
 )
 ;
 NS_IMETHOD
-UpdateViewNoSuppression
+InvalidateViewNoSuppression
 (
 nsIView
 *
@@ -848,7 +848,7 @@ aRect
 )
 ;
 NS_IMETHOD
-UpdateAllViews
+InvalidateAllViews
 (
 )
 ;
@@ -1163,7 +1163,7 @@ aParent
 )
 ;
 void
-UpdateWidgetArea
+InvalidateWidgetArea
 (
 nsView
 *
@@ -1175,7 +1175,7 @@ aDamagedRegion
 )
 ;
 void
-UpdateViews
+InvalidateViews
 (
 nsView
 *
@@ -1397,7 +1397,7 @@ aPainting
 ;
 }
 nsresult
-UpdateView
+InvalidateView
 (
 nsIView
 *
