@@ -1859,7 +1859,7 @@ aLastModifiedTime
 )
 mSeen
 (
-PR_FALSE
+false
 )
 {
 }
@@ -12275,7 +12275,7 @@ continue
 bool
 isKnownInvalidPlugin
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -12500,7 +12500,7 @@ invalidTag
 >
 mSeen
 =
-PR_TRUE
+true
 ;
 }
 invalidTag
@@ -14612,7 +14612,7 @@ invalidPlugins
 >
 mSeen
 =
-PR_FALSE
+false
 ;
 invalidPlugins
 =
