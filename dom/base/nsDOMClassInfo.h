@@ -1904,6 +1904,14 @@ sOnchange_id
 ;
 static
 jsid
+sOninput_id
+;
+static
+jsid
+sOninvalid_id
+;
+static
+jsid
 sOnselect_id
 ;
 static
