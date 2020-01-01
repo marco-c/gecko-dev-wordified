@@ -7358,7 +7358,6 @@ Init
 (
 channels
 rate
-MOZ_AUDIO_DATA_FORMAT
 )
 ;
 {
