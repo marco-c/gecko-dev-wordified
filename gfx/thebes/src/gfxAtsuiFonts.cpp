@@ -6248,8 +6248,10 @@ offset
 )
 {
 PRUint32
-index
+charIndex
 =
+aSegmentStart
++
 offset
 /
 2
@@ -6265,7 +6267,7 @@ aRun
 >
 IsClusterStart
 (
-index
+charIndex
 )
 ;
 g
@@ -6282,9 +6284,7 @@ aRun
 >
 SetGlyphs
 (
-aSegmentStart
-+
-index
+charIndex
 g
 nsnull
 )
@@ -6374,6 +6374,15 @@ displayGlyph
 -
 >
 glyphID
+)
+&
+&
+aRun
+-
+>
+IsClusterStart
+(
+charIndex
 )
 )
 {
