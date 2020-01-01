@@ -10963,7 +10963,7 @@ i
 )
 {
 PRUint8
-i2
+i1
 =
 targetData
 [
@@ -10973,7 +10973,7 @@ i
 ]
 ;
 PRUint8
-i1
+i2
 =
 sourceData
 [
