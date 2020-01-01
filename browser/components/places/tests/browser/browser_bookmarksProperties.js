@@ -4760,10 +4760,9 @@ win
 addEventListener
 (
 "
-load
+focus
 "
 function
-onLoad
 (
 event
 )
@@ -4773,9 +4772,11 @@ win
 removeEventListener
 (
 "
-load
+focus
 "
-onLoad
+arguments
+.
+callee
 false
 )
 ;
