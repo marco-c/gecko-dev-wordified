@@ -905,6 +905,7 @@ runtime
 gcRegenShapes
 &
 &
+!
 hasRegenFlag
 (
 regenFlag
@@ -1058,6 +1059,7 @@ emptyScope
 empty
 &
 &
+!
 empty
 -
 >
