@@ -16153,6 +16153,8 @@ static
 bool
 DoMergingCC
 (
+bool
+aForced
 )
 {
 return
@@ -16161,7 +16163,7 @@ false
 }
 /
 /
-Static
+static
 void
 nsJSContext
 :
@@ -16173,6 +16175,8 @@ nsICycleCollectorListener
 aListener
 PRInt32
 aExtraForgetSkippableCalls
+bool
+aForced
 )
 {
 if
@@ -16331,6 +16335,7 @@ mergingCC
 =
 DoMergingCC
 (
+aForced
 )
 ;
 nsCycleCollectorResults
@@ -17572,6 +17577,9 @@ nsJSContext
 :
 CycleCollectNow
 (
+nsnull
+0
+false
 )
 ;
 }
