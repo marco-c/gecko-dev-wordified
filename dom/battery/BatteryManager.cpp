@@ -745,7 +745,7 @@ BatteryManager
 :
 GetLevel
 (
-float
+double
 *
 aLevel
 )
@@ -968,7 +968,7 @@ BatteryInformation
 aBatteryInfo
 )
 {
-float
+double
 previousLevel
 =
 mLevel

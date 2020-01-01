@@ -662,7 +662,7 @@ BatteryInformation
 aBatteryInfo
 )
 ;
-float
+double
 mLevel
 ;
 bool

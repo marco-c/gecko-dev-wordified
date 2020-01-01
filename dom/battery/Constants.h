@@ -489,12 +489,12 @@ battery
 {
 static
 const
-float
+double
 kDefaultLevel
 =
 1
 .
-0f
+0
 ;
 static
 const
