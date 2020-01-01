@@ -692,7 +692,7 @@ requestId
 addEventListener
 (
 "
-DOMContentLoaded
+DOMWindowCreated
 "
 function
 (
