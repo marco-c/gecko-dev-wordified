@@ -13976,7 +13976,7 @@ frame
 frame
 -
 >
-UpdateThumbPositionForValueChange
+UpdateForValueChange
 (
 )
 ;
@@ -14040,7 +14040,7 @@ frame
 frame
 -
 >
-UpdateThumbPositionForValueChange
+UpdateForValueChange
 (
 )
 ;
