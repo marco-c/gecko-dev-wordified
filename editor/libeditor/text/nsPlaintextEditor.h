@@ -1309,7 +1309,7 @@ aSelect
 eNone
 )
 ;
-NS_IMETHOD
+nsresult
 CreateBRImpl
 (
 nsCOMPtr
@@ -1331,7 +1331,7 @@ EDirection
 aSelect
 )
 ;
-NS_IMETHOD
+nsresult
 InsertBR
 (
 nsCOMPtr
@@ -1495,6 +1495,18 @@ FireClipboardEvent
 (
 PRInt32
 aType
+)
+;
+bool
+UpdateMetaCharset
+(
+nsIDOMDocument
+*
+aDocument
+const
+nsACString
+&
+aCharacterSet
 )
 ;
 /
