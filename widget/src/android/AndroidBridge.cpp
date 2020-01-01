@@ -712,14 +712,11 @@ unloading
 /
 putenv
 (
-strdup
-(
 "
 NSS_DISABLE_UNLOAD
 =
 1
 "
-)
 )
 ;
 sBridge
