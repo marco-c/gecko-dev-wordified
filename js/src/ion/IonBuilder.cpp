@@ -22927,6 +22927,7 @@ prop
 ;
 if
 (
+!
 shape
 -
 >
@@ -22934,7 +22935,9 @@ hasDefaultGetter
 (
 )
 )
-{
+return
+true
+;
 if
 (
 !
@@ -22970,7 +22973,6 @@ isUndefined
 return
 true
 ;
-}
 *
 isKnownConstant
 =
