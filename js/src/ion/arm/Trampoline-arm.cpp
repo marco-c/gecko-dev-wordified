@@ -1848,7 +1848,7 @@ setting
 regs_
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1895,7 +1895,7 @@ WriteBack
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2818,7 +2818,7 @@ GenerateBailoutThunk
 MacroAssembler
 &
 masm
-uint32
+uint32_t
 frameClass
 )
 {
@@ -2917,7 +2917,7 @@ setting
 regs_
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2964,7 +2964,7 @@ WriteBack
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3392,7 +3392,7 @@ a
 bailout
 frame
 .
-uint32
+uint32_t
 bailoutFrameSize
 =
 sizeof
@@ -3503,7 +3503,7 @@ because
 /
 sizeof
 (
-uint32
+uint32_t
 )
 for
 the
@@ -3568,7 +3568,7 @@ r4
 }
 else
 {
-uint32
+uint32_t
 frameSize
 =
 FrameSizeClass
@@ -3661,7 +3661,7 @@ generateBailoutTable
 JSContext
 *
 cx
-uint32
+uint32_t
 frameClass
 )
 {
@@ -4102,7 +4102,7 @@ reserveStack
 (
 sizeof
 (
-int32
+int32_t
 )
 )
 ;
@@ -4202,7 +4202,7 @@ arguments
 .
 for
 (
-uint32
+uint32_t
 explicitArg
 =
 0
@@ -4542,7 +4542,7 @@ freeStack
 (
 sizeof
 (
-int32
+int32_t
 )
 )
 ;

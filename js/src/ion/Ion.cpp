@@ -839,7 +839,7 @@ false
 ;
 for
 (
-uint32
+uint32_t
 id
 =
 0
@@ -1787,10 +1787,10 @@ New
 JSContext
 *
 cx
-uint8
+uint8_t
 *
 code
-uint32
+uint32_t
 bufferSize
 JSC
 :
@@ -2040,7 +2040,7 @@ if
 jumpRelocTableBytes_
 )
 {
-uint8
+uint8_t
 *
 start
 =
@@ -2075,7 +2075,7 @@ if
 dataRelocTableBytes_
 )
 {
-uint8
+uint8_t
 *
 start
 =
@@ -2471,9 +2471,9 @@ New
 JSContext
 *
 cx
-uint32
+uint32_t
 frameSlots
-uint32
+uint32_t
 frameSize
 size_t
 snapshotsSize
@@ -2511,7 +2511,7 @@ MAX_BUFFER_SIZE
 /
 sizeof
 (
-uint32
+uint32_t
 )
 )
 )
@@ -2578,7 +2578,7 @@ bailoutEntries
 *
 sizeof
 (
-uint32
+uint32_t
 )
 DataAlignment
 )
@@ -2698,12 +2698,12 @@ paddedSafepointSize
 +
 paddedScriptSize
 ;
-uint8
+uint8_t
 *
 buffer
 =
 (
-uint8
+uint8_t
 *
 )
 cx
@@ -2748,7 +2748,7 @@ IonScript
 (
 )
 ;
-uint32
+uint32_t
 offsetCursor
 =
 sizeof
@@ -3061,7 +3061,7 @@ snapshotsSize_
 memcpy
 (
 (
-uint8
+uint8_t
 *
 )
 this
@@ -3105,7 +3105,7 @@ safepointsSize_
 memcpy
 (
 (
-uint8
+uint8_t
 *
 )
 this
@@ -3143,7 +3143,7 @@ bailoutEntries_
 *
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -3614,7 +3614,7 @@ IonScript
 :
 getSafepointIndex
 (
-uint32
+uint32_t
 disp
 )
 const
@@ -3678,7 +3678,7 @@ safepointIndexEntries_
 -
 1
 ;
-uint32
+uint32_t
 min
 =
 table
@@ -3690,7 +3690,7 @@ displacement
 (
 )
 ;
-uint32
+uint32_t
 max
 =
 table
@@ -3760,7 +3760,7 @@ min
 +
 minEntry
 ;
-uint32
+uint32_t
 guessDisp
 =
 table
@@ -3970,7 +3970,7 @@ IonScript
 :
 getOsiIndex
 (
-uint32
+uint32_t
 disp
 )
 const
@@ -4045,7 +4045,7 @@ IonScript
 :
 getOsiIndex
 (
-uint8
+uint8_t
 *
 retAddr
 )
@@ -4096,7 +4096,7 @@ retAddr
 )
 )
 ;
-uint32
+uint32_t
 disp
 =
 retAddr
@@ -9869,7 +9869,7 @@ InvalidateActivation
 FreeOp
 *
 fop
-uint8
+uint8_t
 *
 ionTop
 bool

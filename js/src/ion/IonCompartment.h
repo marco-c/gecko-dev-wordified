@@ -394,7 +394,7 @@ generateBailoutTable
 JSContext
 *
 cx
-uint32
+uint32_t
 frameClass
 )
 ;
@@ -955,7 +955,7 @@ BailoutClosure
 *
 bailout_
 ;
-uint8
+uint8_t
 *
 prevIonTop_
 ;
@@ -1029,7 +1029,7 @@ return
 prev_
 ;
 }
-uint8
+uint8_t
 *
 prevIonTop
 (

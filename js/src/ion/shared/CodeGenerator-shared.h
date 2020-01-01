@@ -281,12 +281,12 @@ deoptTable_
 #
 ifdef
 DEBUG
-uint32
+uint32_t
 pushedArgs_
 ;
 #
 endif
-uint32
+uint32_t
 lastOsiPointOffset_
 ;
 SafepointWriter
@@ -412,7 +412,7 @@ js
 :
 Vector
 <
-uint32
+uint32_t
 0
 SystemAllocPolicy
 >
@@ -584,7 +584,7 @@ determined
 /
 spills
 .
-int32
+int32_t
 frameDepth_
 ;
 /
@@ -618,10 +618,10 @@ current
 function
 .
 inline
-int32
+int32_t
 ArgToStackOffset
 (
-int32
+int32_t
 slot
 )
 const
@@ -652,7 +652,7 @@ current
 function
 .
 inline
-int32
+int32_t
 CalleeStackOffset
 (
 )
@@ -674,10 +674,10 @@ offsetOfCalleeToken
 ;
 }
 inline
-int32
+int32_t
 SlotToStackOffset
 (
-int32
+int32_t
 slot
 )
 const
@@ -692,7 +692,7 @@ slot
 slot
 <
 =
-int32
+int32_t
 (
 graph
 .
@@ -702,7 +702,7 @@ localSlotCount
 )
 )
 ;
-int32
+int32_t
 offset
 =
 masm
@@ -730,10 +730,10 @@ offset
 ;
 }
 inline
-int32
+int32_t
 StackOffsetToSlot
 (
-int32
+int32_t
 offset
 )
 const
@@ -835,10 +835,10 @@ Value
 sized
 .
 inline
-int32
+int32_t
 StackOffsetOfPassedArg
 (
-int32
+int32_t
 slot
 )
 const
@@ -871,7 +871,7 @@ slot
 slot
 <
 =
-int32
+int32_t
 (
 graph
 .
@@ -881,7 +881,7 @@ argumentSlotCount
 )
 )
 ;
-int32
+int32_t
 offset
 =
 masm
@@ -993,7 +993,7 @@ offset
 ;
 }
 inline
-int32
+int32_t
 ToStackOffset
 (
 const
@@ -1045,7 +1045,7 @@ slot
 )
 ;
 }
-uint32
+uint32_t
 frameSize
 (
 )
@@ -1163,7 +1163,7 @@ snapshot
 MResumePoint
 *
 resumePoint
-uint32
+uint32_t
 *
 startIndex
 )
@@ -1290,7 +1290,7 @@ ins
 bool
 markSafepointAt
 (
-uint32
+uint32_t
 offset
 LInstruction
 *
@@ -1346,7 +1346,7 @@ markOsiPoint
 LOsiPoint
 *
 ins
-uint32
+uint32_t
 *
 returnPointOffset
 )
@@ -1988,7 +1988,7 @@ entry_
 Label
 rejoin_
 ;
-uint32
+uint32_t
 framePushed_
 ;
 jsbytecode
@@ -2075,7 +2075,7 @@ rejoin_
 void
 setFramePushed
 (
-uint32
+uint32_t
 framePushed
 )
 {
@@ -2084,7 +2084,7 @@ framePushed_
 framePushed
 ;
 }
-uint32
+uint32_t
 framePushed
 (
 )

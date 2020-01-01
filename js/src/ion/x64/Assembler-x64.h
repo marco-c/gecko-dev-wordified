@@ -884,7 +884,7 @@ r9
 ;
 static
 const
-uint32
+uint32_t
 NumIntArgRegs
 =
 4
@@ -934,7 +934,7 @@ xmm3
 ;
 static
 const
-uint32
+uint32_t
 NumFloatArgRegs
 =
 4
@@ -1000,7 +1000,7 @@ r9
 ;
 static
 const
-uint32
+uint32_t
 NumIntArgRegs
 =
 6
@@ -1080,7 +1080,7 @@ xmm7
 ;
 static
 const
-uint32
+uint32_t
 NumFloatArgRegs
 =
 8
@@ -1145,7 +1145,7 @@ code
 .
 static
 const
-uint32
+uint32_t
 StackAlignment
 =
 16
@@ -1183,7 +1183,7 @@ kind_
 :
 3
 ;
-int32
+int32_t
 base_
 :
 5
@@ -1193,10 +1193,10 @@ scale_
 :
 3
 ;
-int32
+int32_t
 disp_
 ;
-int32
+int32_t
 index_
 :
 5
@@ -1331,7 +1331,7 @@ Register
 index
 Scale
 scale
-int32
+int32_t
 disp
 =
 0
@@ -1371,7 +1371,7 @@ Operand
 (
 Register
 reg
-int32
+int32_t
 disp
 )
 :
@@ -1547,7 +1547,7 @@ Code
 base_
 ;
 }
-int32
+int32_t
 disp
 (
 )
@@ -1897,7 +1897,7 @@ address
 /
 static
 const
-uint32
+uint32_t
 SizeOfExtendedJump
 =
 1
@@ -1910,12 +1910,12 @@ SizeOfExtendedJump
 ;
 static
 const
-uint32
+uint32_t
 SizeOfJumpTableEntry
 =
 16
 ;
-uint32
+uint32_t
 extendedJumpTable_
 ;
 static
@@ -1926,7 +1926,7 @@ CodeFromJump
 IonCode
 *
 code
-uint8
+uint8_t
 *
 jump
 )
@@ -1995,7 +1995,7 @@ AssemblerX86Shared
 push
 ;
 static
-uint8
+uint8_t
 *
 PatchableJumpAddress
 (
@@ -2010,10 +2010,10 @@ static
 void
 PatchJumpEntry
 (
-uint8
+uint8_t
 *
 entry
-uint8
+uint8_t
 *
 target
 )
@@ -2101,7 +2101,7 @@ address
 void
 executableCopy
 (
-uint8
+uint8_t
 *
 buffer
 )
@@ -4149,9 +4149,9 @@ inline
 bool
 GetIntArgReg
 (
-uint32
+uint32_t
 intArg
-uint32
+uint32_t
 floatArg
 Register
 *
@@ -4164,7 +4164,7 @@ defined
 (
 _WIN64
 )
-uint32
+uint32_t
 arg
 =
 intArg
@@ -4173,7 +4173,7 @@ floatArg
 ;
 #
 else
-uint32
+uint32_t
 arg
 =
 intArg
@@ -4207,9 +4207,9 @@ inline
 bool
 GetFloatArgReg
 (
-uint32
+uint32_t
 intArg
-uint32
+uint32_t
 floatArg
 FloatRegister
 *
@@ -4222,7 +4222,7 @@ defined
 (
 _WIN64
 )
-uint32
+uint32_t
 arg
 =
 intArg
@@ -4231,7 +4231,7 @@ floatArg
 ;
 #
 else
-uint32
+uint32_t
 arg
 =
 floatArg

@@ -142,7 +142,7 @@ protected
 struct
 RelativePatch
 {
-int32
+int32_t
 offset
 ;
 void
@@ -157,7 +157,7 @@ kind
 ;
 RelativePatch
 (
-int32
+int32_t
 offset
 void
 *
@@ -827,7 +827,7 @@ processDeferredData
 IonCode
 *
 code
-uint8
+uint8_t
 *
 data
 )
@@ -843,7 +843,7 @@ code
 void
 copyJumpRelocationTable
 (
-uint8
+uint8_t
 *
 buffer
 )
@@ -851,7 +851,7 @@ buffer
 void
 copyDataRelocationTable
 (
-uint8
+uint8_t
 *
 buffer
 )
@@ -3974,7 +3974,7 @@ offset
 )
 ;
 }
-uint32
+uint32_t
 currentOffset
 (
 )
@@ -4191,7 +4191,7 @@ void
 address
 )
 {
-uint8
+uint8_t
 *
 raw
 =
@@ -8619,10 +8619,10 @@ ARM
 '
 s
 assembler
-uint32
+uint32_t
 actualOffset
 (
-uint32
+uint32_t
 x
 )
 {
@@ -8630,10 +8630,10 @@ return
 x
 ;
 }
-uint32
+uint32_t
 actualIndex
 (
-uint32
+uint32_t
 x
 )
 {
@@ -8671,7 +8671,7 @@ static
 uintptr_t
 getPointer
 (
-uint8
+uint8_t
 *
 instPtr
 )
@@ -8735,7 +8735,7 @@ CodeLocationLabel
 target
 )
 {
-uint8
+uint8_t
 *
 start
 =
@@ -8763,7 +8763,7 @@ patchWrite_NearCallSize
 ;
 JS_ASSERT
 (
-int32
+int32_t
 (
 offset
 )
@@ -8775,7 +8775,7 @@ offset
 *
 (
 (
-int32
+int32_t
 *
 )
 (
@@ -8801,7 +8801,7 @@ toWrite
 *
 (
 (
-int32
+int32_t
 *
 )
 dataLabel
@@ -8883,7 +8883,7 @@ value
 ;
 }
 static
-uint32
+uint32_t
 nopSize
 (
 )
@@ -8893,14 +8893,14 @@ return
 ;
 }
 static
-uint8
+uint8_t
 *
 nextInstruction
 (
-uint8
+uint8_t
 *
 cur
-uint32
+uint32_t
 *
 count
 )

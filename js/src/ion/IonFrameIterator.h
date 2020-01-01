@@ -426,14 +426,14 @@ IonFrameIterator
 {
 protected
 :
-uint8
+uint8_t
 *
 current_
 ;
 FrameType
 type_
 ;
-uint8
+uint8_t
 *
 returnAddressToFp_
 ;
@@ -463,7 +463,7 @@ public
 :
 IonFrameIterator
 (
-uint8
+uint8_t
 *
 top
 )
@@ -525,7 +525,7 @@ return
 type_
 ;
 }
-uint8
+uint8_t
 *
 fp
 (
@@ -545,7 +545,7 @@ current
 const
 ;
 inline
-uint8
+uint8_t
 *
 returnAddress
 (
@@ -846,7 +846,7 @@ current
 frame
 )
 .
-uint8
+uint8_t
 *
 returnAddressToFp
 (
@@ -882,7 +882,7 @@ prevType
 )
 const
 ;
-uint8
+uint8_t
 *
 prevFp
 (
@@ -1107,7 +1107,7 @@ const
 class
 IonActivationIterator
 {
-uint8
+uint8_t
 *
 top_
 ;
@@ -1157,7 +1157,7 @@ return
 activation_
 ;
 }
-uint8
+uint8_t
 *
 top
 (
@@ -1534,7 +1534,7 @@ jsbytecode
 *
 pc_
 ;
-uint32
+uint32_t
 numActualArgs_
 ;
 private
