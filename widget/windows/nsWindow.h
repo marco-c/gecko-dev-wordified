@@ -3700,10 +3700,6 @@ sRedirectedKeyDown
 ;
 static
 bool
-sEnablePixelScrolling
-;
-static
-bool
 sNeedsToInitMouseWheelSettings
 ;
 static
