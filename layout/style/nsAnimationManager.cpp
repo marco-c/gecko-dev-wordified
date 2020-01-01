@@ -1221,6 +1221,12 @@ whichIteration
 anim
 .
 mIterationCount
+&
+&
+whichIteration
+!
+=
+0
 )
 {
 /
@@ -1264,6 +1270,13 @@ of
 the
 next
 one
+(
+unless
+it
+'
+s
+zero
+)
 .
 -
 -
