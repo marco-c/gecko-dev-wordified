@@ -2121,6 +2121,9 @@ cx
 void
 purgeForScript
 (
+JSContext
+*
+cx
 JSScript
 *
 script
