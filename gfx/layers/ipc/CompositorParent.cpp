@@ -1884,6 +1884,8 @@ to
 attach
 to
 .
+/
+/
 RegisterCompositorWithJava
 (
 )

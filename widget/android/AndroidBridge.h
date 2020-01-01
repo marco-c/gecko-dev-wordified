@@ -497,6 +497,13 @@ h
 #
 include
 "
+AndroidFlexViewWrapper
+.
+h
+"
+#
+include
+"
 AndroidJavaWrappers
 .
 h
@@ -1693,7 +1700,7 @@ the
 Gecko
 Compositor
 thread
-void
+EGLSurface
 RegisterCompositor
 (
 )
