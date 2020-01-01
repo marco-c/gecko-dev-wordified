@@ -865,15 +865,6 @@ GetCurrentTransaction
 (
 )
 ;
-bool
-HasTransaction
-(
-)
-{
-return
-mTransaction
-;
-}
 nsISupports
 *
 GetSource
