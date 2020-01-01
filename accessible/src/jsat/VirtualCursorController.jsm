@@ -1917,6 +1917,9 @@ SINGLE_LINE_EDITABLE
 MULTI_LINE_EDITABLE
 :
 2
+explorebytouch
+:
+false
 attach
 :
 function
