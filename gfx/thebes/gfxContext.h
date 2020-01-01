@@ -4180,6 +4180,15 @@ SourceSurface
 >
 sourceSurface
 ;
+mozilla
+:
+:
+gfx
+:
+:
+Point
+sourceSurfaceDeviceOffset
+;
 Matrix
 surfTransform
 ;
