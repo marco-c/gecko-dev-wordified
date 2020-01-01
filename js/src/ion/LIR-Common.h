@@ -5424,8 +5424,8 @@ getDef
 Absolute
 value
 of
-an
-integer
+a
+double
 .
 class
 LAbsD
@@ -5498,11 +5498,11 @@ getDef
 ;
 /
 /
-Absolute
-value
+Square
+root
 of
-an
-integer
+a
+double
 .
 class
 LSqrtD
