@@ -6812,7 +6812,7 @@ NS_OK
 }
 #
 ifdef
-MOZ_DEBUG
+DEBUG
 {
 PRTime
 now
@@ -6881,6 +6881,9 @@ mBackoffCount
 }
 #
 endif
+/
+/
+DEBUG
 if
 (
 WaitForPendingSheets

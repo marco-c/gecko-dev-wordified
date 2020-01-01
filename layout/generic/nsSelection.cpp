@@ -604,7 +604,7 @@ x
 endif
 /
 /
-MOZ_DEBUG
+PRINT_RANGE
 /
 /
 #
