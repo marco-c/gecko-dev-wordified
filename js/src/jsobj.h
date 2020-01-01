@@ -4146,9 +4146,6 @@ static_ps
 JSFunctionSpec
 *
 static_fs
-JSTraceableNative
-*
-trcinfo
 )
 ;
 /
