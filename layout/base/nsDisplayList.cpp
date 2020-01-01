@@ -630,6 +630,10 @@ mEventDelivery
 (
 aIsForEvents
 )
+mIgnoreSuppression
+(
+PR_FALSE
+)
 mIsAtRootOfPseudoStackingContext
 (
 PR_FALSE
