@@ -25670,6 +25670,17 @@ aColumn
 )
 ;
 return
+(
+*
+aIndex
+=
+=
+-
+1
+)
+?
+NS_TABLELAYOUT_CELL_NOT_FOUND
+:
 NS_OK
 ;
 }
