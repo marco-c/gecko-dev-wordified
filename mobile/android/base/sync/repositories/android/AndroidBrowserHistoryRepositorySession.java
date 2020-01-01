@@ -419,10 +419,6 @@ record
 return
 hist
 .
-title
-+
-hist
-.
 histURI
 ;
 }
