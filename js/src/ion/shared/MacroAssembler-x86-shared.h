@@ -2691,7 +2691,7 @@ ifNaN
 Assembler
 :
 :
-NaN_Unexpected
+NaN_HandledByCond
 )
 {
 if
@@ -2752,7 +2752,7 @@ ifNaN
 Assembler
 :
 :
-NaN_Unexpected
+NaN_HandledByCond
 )
 {
 Label

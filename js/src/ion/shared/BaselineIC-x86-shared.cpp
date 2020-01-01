@@ -283,7 +283,7 @@ nanCond
 Assembler
 :
 :
-NaN_Unexpected
+NaN_HandledByCond
 )
 {
 masm
