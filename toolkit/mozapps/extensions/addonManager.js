@@ -906,12 +906,13 @@ onDownloadFailed
 function
 (
 aInstall
-aError
 )
 {
 if
 (
-aError
+aInstall
+.
+error
 =
 =
 AddonManager
@@ -941,7 +942,6 @@ onInstallFailed
 function
 (
 aInstall
-aError
 )
 {
 aCallback

@@ -1969,7 +1969,6 @@ onDownloadFailed
 function
 (
 install
-error
 )
 {
 var
@@ -1984,6 +1983,8 @@ install
 ;
 switch
 (
+install
+.
 error
 )
 {
@@ -2139,7 +2140,6 @@ onInstallFailed
 function
 (
 install
-error
 )
 {
 var

@@ -230,12 +230,13 @@ function
 download_failed
 (
 install
-status
 )
 {
 is
 (
-status
+install
+.
+error
 AddonManager
 .
 ERROR_INCORRECT_HASH
