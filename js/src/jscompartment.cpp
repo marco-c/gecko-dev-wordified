@@ -1090,6 +1090,17 @@ compartment
 this
 )
 ;
+JS_ASSERT
+(
+this
+!
+=
+rt
+-
+>
+atomsCompartment
+)
+;
 JS_ASSERT_IF
 (
 existingArg
