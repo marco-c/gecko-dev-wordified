@@ -2843,6 +2843,9 @@ PRPackedBool
 mUnicodeWidget
 ;
 PRPackedBool
+mIsPluginWindow
+;
+PRPackedBool
 mPainting
 ;
 char
