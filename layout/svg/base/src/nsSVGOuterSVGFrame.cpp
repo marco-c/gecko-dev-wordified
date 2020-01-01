@@ -4312,18 +4312,6 @@ rv
 rv
 )
 ;
-if
-(
-GetStyleDisplay
-(
-)
--
->
-IsScrollableOverflow
-(
-)
-)
-{
 /
 /
 Clip
@@ -4379,7 +4367,6 @@ rv
 rv
 )
 ;
-}
 WrapReplacedContentForBorderRadius
 (
 aBuilder
