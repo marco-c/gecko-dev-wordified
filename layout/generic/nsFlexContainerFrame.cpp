@@ -12703,7 +12703,7 @@ return
 mainSize
 ;
 }
-MOZ_ASSERT
+NS_WARN_IF_FALSE
 (
 !
 IsAxisHorizontal
@@ -12728,7 +12728,6 @@ horizontal
 flex
 containers
 should
-always
 have
 a
 constrained
