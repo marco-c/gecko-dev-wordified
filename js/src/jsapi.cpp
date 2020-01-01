@@ -24227,6 +24227,11 @@ JSAtom
 *
 atom
 ;
+CHECK_REQUEST
+(
+cx
+)
+;
 atom
 =
 js_AtomizeChars
