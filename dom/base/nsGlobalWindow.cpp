@@ -50451,8 +50451,9 @@ widget
 rootView
 -
 >
-GetWidget
+GetNearestWidget
 (
+nsnull
 )
 ;
 NS_ENSURE_TRUE
