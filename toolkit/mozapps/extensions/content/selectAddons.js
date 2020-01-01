@@ -526,6 +526,16 @@ type
 "
 plugin
 "
+|
+|
+aAddon
+.
+type
+=
+=
+"
+service
+"
 )
 return
 false

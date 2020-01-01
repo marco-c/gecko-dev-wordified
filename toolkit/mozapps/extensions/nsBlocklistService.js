@@ -6328,6 +6328,9 @@ locale
 "
 dictionary
 "
+"
+service
+"
 ]
 AddonManager
 .
