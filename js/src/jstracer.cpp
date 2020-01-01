@@ -14453,13 +14453,10 @@ reset
 (
 )
 ;
-delete
 codeAlloc
-;
-codeAlloc
-=
-new
-CodeAlloc
+-
+>
+reset
 (
 )
 ;
