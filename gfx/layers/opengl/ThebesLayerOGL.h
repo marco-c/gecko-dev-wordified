@@ -583,12 +583,6 @@ IsEmpty
 ;
 virtual
 void
-Validate
-(
-)
-;
-virtual
-void
 RenderLayer
 (
 int
