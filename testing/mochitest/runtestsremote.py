@@ -4936,6 +4936,23 @@ true
 '
 )
         
+options
+.
+extraPrefs
+.
+append
+(
+'
+browser
+.
+viewport
+.
+scaleRatio
+=
+100
+'
+)
+        
 if
 (
 options
