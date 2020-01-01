@@ -783,11 +783,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
-=
-nsnull
 nsIToolkit
 *
 aToolkit

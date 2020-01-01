@@ -7633,7 +7633,6 @@ nsIAppShellService
 SIZE_TO_CONTENT
 *
 /
-mAppShell
 getter_AddRefs
 (
 mWindow

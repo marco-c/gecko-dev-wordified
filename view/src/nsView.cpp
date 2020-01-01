@@ -4215,7 +4215,6 @@ trect
 HandleEvent
 dx
 nsnull
-nsnull
 aWidgetInitData
 PR_TRUE
 )
@@ -4348,7 +4347,6 @@ trect
 :
 HandleEvent
 dx
-nsnull
 nsnull
 aWidgetInitData
 )
@@ -4559,7 +4557,6 @@ trect
 HandleEvent
 dx
 nsnull
-nsnull
 aWidgetInitData
 PR_TRUE
 )
@@ -4633,7 +4630,6 @@ trect
 :
 HandleEvent
 dx
-nsnull
 nsnull
 aWidgetInitData
 )

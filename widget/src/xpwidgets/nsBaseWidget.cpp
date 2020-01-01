@@ -1397,9 +1397,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -1920,9 +1917,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -2080,7 +2074,6 @@ nativeParent
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )

@@ -458,13 +458,6 @@ h
 #
 include
 "
-nsIAppShell
-.
-h
-"
-#
-include
-"
 nsILocalFile
 .
 h
@@ -1331,11 +1324,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
-=
-nsnull
 nsIToolkit
 *
 aToolkit
@@ -1660,9 +1648,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit

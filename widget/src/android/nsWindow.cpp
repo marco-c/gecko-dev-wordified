@@ -1352,9 +1352,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -1558,7 +1555,6 @@ nsnull
 mBounds
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )

@@ -510,9 +510,6 @@ class
 nsIURI
 ;
 class
-nsIAppShell
-;
-class
 nsWebShellWindow
 :
 public
@@ -552,9 +549,6 @@ aParent
 nsIXULWindow
 *
 aOpener
-nsIAppShell
-*
-aShell
 nsIURI
 *
 aUrl

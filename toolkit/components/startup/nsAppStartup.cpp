@@ -1260,7 +1260,6 @@ appShellService
 >
 CreateHiddenWindow
 (
-mAppShell
 )
 ;
 }
@@ -2907,7 +2906,6 @@ xulParent
 CreateNewWindow
 (
 aChromeFlags
-mAppShell
 getter_AddRefs
 (
 newWindow
@@ -3045,7 +3043,6 @@ nsIAppShellService
 :
 :
 SIZE_TO_CONTENT
-mAppShell
 getter_AddRefs
 (
 newWindow

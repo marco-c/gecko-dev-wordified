@@ -820,9 +820,6 @@ nsAppShellService
 :
 CreateHiddenWindow
 (
-nsIAppShell
-*
-aAppShell
 )
 {
 nsresult
@@ -950,7 +947,6 @@ chromeMask
 initialWidth
 initialHeight
 PR_TRUE
-aAppShell
 getter_AddRefs
 (
 newWindow
@@ -1058,9 +1054,6 @@ PRInt32
 aInitialWidth
 PRInt32
 aInitialHeight
-nsIAppShell
-*
-aAppShell
 nsIXULWindow
 *
 *
@@ -1097,7 +1090,6 @@ aChromeMask
 aInitialWidth
 aInitialHeight
 PR_FALSE
-aAppShell
 &
 newWindow
 )
@@ -1647,9 +1639,6 @@ PRInt32
 aInitialHeight
 bool
 aIsHiddenWindow
-nsIAppShell
-*
-aAppShell
 nsWebShellWindow
 *
 *
@@ -2377,7 +2366,6 @@ center
 aParent
 :
 nsnull
-aAppShell
 aUrl
 aInitialWidth
 aInitialHeight

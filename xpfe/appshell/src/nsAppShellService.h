@@ -540,9 +540,6 @@ PRInt32
 aInitialHeight
 bool
 aIsHiddenWindow
-nsIAppShell
-*
-aAppShell
 nsWebShellWindow
 *
 *

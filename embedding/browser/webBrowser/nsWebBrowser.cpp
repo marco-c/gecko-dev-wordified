@@ -7358,7 +7358,6 @@ nsWebBrowser
 HandleEvent
 nsnull
 nsnull
-nsnull
 &
 widgetInit
 )
