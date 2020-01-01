@@ -236,12 +236,6 @@ Taylor
 *
 /
 #
-ifndef
-_PIXMAN_MMX_H_
-#
-define
-_PIXMAN_MMX_H_
-#
 ifdef
 HAVE_DIX_CONFIG_H
 #
@@ -1014,12 +1008,5 @@ endif
 /
 *
 USE_MMX
-*
-/
-#
-endif
-/
-*
-_PIXMAN_MMX_H_
 *
 /

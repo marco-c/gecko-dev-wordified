@@ -533,7 +533,7 @@ include
 "
 cairo
 -
-quartz
+atsui
 .
 h
 "
@@ -1003,7 +1003,7 @@ fontRef
 ;
 mFontFace
 =
-cairo_quartz_font_face_create_for_atsu_font_id
+cairo_atsui_font_face_create_for_atsu_font_id
 (
 fontID
 )
