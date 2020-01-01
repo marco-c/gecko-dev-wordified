@@ -7573,6 +7573,13 @@ pinEntry
 (
 value
 vr
+/
+*
+breakDouble
+=
+*
+/
+false
 )
 ;
 Int32Key

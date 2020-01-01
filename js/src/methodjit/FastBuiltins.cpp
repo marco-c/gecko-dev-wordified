@@ -2244,6 +2244,13 @@ pinEntry
 (
 arg
 vr
+/
+*
+breakDouble
+=
+*
+/
+false
 )
 ;
 RegisterID
