@@ -962,6 +962,10 @@ this
 *
 otherfp
 ;
+unsetPushedSPSFrame
+(
+)
+;
 if
 (
 doPostBarrier
