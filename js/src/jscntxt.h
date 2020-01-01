@@ -3349,7 +3349,7 @@ JS_BEGIN_MACRO
 JS_ASSERT
 (
 (
-ptrdiff_t
+int
 )
 (
 cnt
