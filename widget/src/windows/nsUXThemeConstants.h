@@ -614,6 +614,10 @@ BP_RADIO
 define
 BP_CHECKBOX
 3
+#
+define
+BP_GROUPBOX
+4
 /
 /
 Textfield
