@@ -702,10 +702,8 @@ private
 interface
 *
 /
-NS_IMETHOD_
-(
+virtual
 void
-)
 InstallJarCallBack
 (
 )

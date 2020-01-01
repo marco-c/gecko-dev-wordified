@@ -277,10 +277,8 @@ nsIXPIListener
 aListener
 )
 ;
-NS_IMETHOD_
-(
+virtual
 void
-)
 InstallJarCallBack
 (
 )
