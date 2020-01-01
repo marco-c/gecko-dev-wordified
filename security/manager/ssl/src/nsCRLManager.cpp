@@ -2220,12 +2220,11 @@ cycles
 from
 lst
 update
-LL_MOD
-(
 temp
+=
 diff
+%
 microsecInDayCnt
-)
 ;
 if
 (
