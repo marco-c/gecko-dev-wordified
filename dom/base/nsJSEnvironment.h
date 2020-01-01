@@ -541,6 +541,13 @@ nsJSContext
 nsIScriptContext
 )
 virtual
+nsIScriptObjectPrincipal
+*
+GetObjectPrincipal
+(
+)
+;
+virtual
 PRUint32
 GetScriptTypeID
 (
