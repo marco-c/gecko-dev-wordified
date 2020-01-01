@@ -886,7 +886,7 @@ final
 int
 NUMBER_OF_REMOTE_TABS
 =
-10
+5
 ;
 static
 enum
