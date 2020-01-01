@@ -2040,7 +2040,7 @@ rhs
 )
 ;
 void
-jsop_rsh_unknown_unknown
+jsop_rsh_unknown_any
 (
 FrameEntry
 *
