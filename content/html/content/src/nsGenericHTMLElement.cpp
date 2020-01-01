@@ -19015,7 +19015,7 @@ event
 .
 inputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -19567,7 +19567,7 @@ event
 .
 inputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_KEYBOARD
