@@ -5357,6 +5357,11 @@ n
 }
 break
 ;
+case
+numberRequestHeaders
+:
+break
+;
 }
 headersToSend
 .
@@ -9657,14 +9662,13 @@ list
 "
 )
 ;
-#
-endif
-PRBool
+bool
 inserted
 =
 !
 !
-(
+#
+endif
 sWSsConnecting
 -
 >
@@ -9673,7 +9677,6 @@ InsertElementSorted
 this
 nsWSNetAddressComparator
 (
-)
 )
 )
 ;

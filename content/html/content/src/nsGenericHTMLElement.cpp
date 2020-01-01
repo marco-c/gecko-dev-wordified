@@ -6775,6 +6775,8 @@ kNameSpaceID_None
 ;
 PRInt32
 change
+=
+0
 ;
 if
 (
@@ -6916,6 +6918,8 @@ PR_FALSE
 ;
 PRInt32
 contentEditableChange
+=
+0
 ;
 /
 /

@@ -2243,6 +2243,8 @@ rv
 ;
 PRBool
 result
+=
+PR_FALSE
 ;
 if
 (

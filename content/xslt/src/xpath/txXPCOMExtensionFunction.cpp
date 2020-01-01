@@ -1440,6 +1440,8 @@ iid
 ;
 PRUint16
 methodIndex
+=
+0
 ;
 nsCOMPtr
 <

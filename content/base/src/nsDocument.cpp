@@ -42269,9 +42269,14 @@ be
 PRUint32
 count
 ;
+#
+ifdef
+DEBUG
 PRBool
 found
 =
+#
+endif
 mImageTracker
 .
 Get

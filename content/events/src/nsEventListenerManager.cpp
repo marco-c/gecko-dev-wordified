@@ -4113,9 +4113,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsINode
@@ -4320,6 +4317,11 @@ return
 NS_OK
 ;
 }
+nsresult
+rv
+=
+NS_OK
+;
 /
 /
 return

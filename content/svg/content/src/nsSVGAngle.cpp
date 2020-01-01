@@ -1729,9 +1729,13 @@ aDoSetAttr
 {
 float
 value
+=
+0
 ;
 PRUint16
 unitType
+=
+0
 ;
 nsresult
 rv

@@ -8060,6 +8060,8 @@ val
 JSObject
 *
 proto
+=
+NULL
 ;
 nsCAutoString
 className

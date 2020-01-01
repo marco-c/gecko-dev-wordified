@@ -930,9 +930,14 @@ Init
 (
 )
 {
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 InitTabChildGlobal
 (
 )

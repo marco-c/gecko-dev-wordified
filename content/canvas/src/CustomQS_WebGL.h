@@ -4159,9 +4159,6 @@ obj
 return
 JS_FALSE
 ;
-nsresult
-rv
-;
 nsIDOMWebGLRenderingContext
 *
 self
@@ -4233,6 +4230,7 @@ location
 xpc_qsSelfRef
 location_selfref
 ;
+nsresult
 rv
 =
 xpc_qsUnwrapArg
@@ -4603,9 +4601,6 @@ obj
 return
 JS_FALSE
 ;
-nsresult
-rv
-;
 nsIDOMWebGLRenderingContext
 *
 self
@@ -4857,6 +4852,11 @@ return
 JS_FALSE
 ;
 }
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 nElements
@@ -5627,6 +5627,8 @@ return
 }
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (
@@ -6038,6 +6040,8 @@ return
 }
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (
@@ -6453,6 +6457,8 @@ return
 }
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (
