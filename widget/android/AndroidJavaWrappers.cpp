@@ -5140,9 +5140,9 @@ AndroidBridge
 :
 :
 AutoLocalJNIFrame
+jniFrame
 (
 env
-1
 )
 ;
 jstring
@@ -5231,9 +5231,9 @@ AndroidBridge
 :
 :
 AutoLocalJNIFrame
+jniFrame
 (
 env
-1
 )
 ;
 return
