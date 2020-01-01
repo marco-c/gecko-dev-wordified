@@ -577,9 +577,10 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 {
 Invalidate

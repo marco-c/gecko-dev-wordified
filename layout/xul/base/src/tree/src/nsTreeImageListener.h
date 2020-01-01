@@ -629,9 +629,10 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 ;
 NS_IMETHOD

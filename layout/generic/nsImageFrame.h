@@ -635,6 +635,7 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
 dirtyRect
@@ -1313,6 +1314,7 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
 aDirtyRect

@@ -550,9 +550,10 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 ;
 /
@@ -2521,9 +2522,10 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 {
 if

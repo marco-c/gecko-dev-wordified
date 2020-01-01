@@ -3039,6 +3039,7 @@ FrameChanged
 imgIContainer
 *
 container
+const
 nsIntRect
 *
 dirtyRect

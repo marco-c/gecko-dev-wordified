@@ -540,10 +540,11 @@ FrameChanged
 (
 imgIContainer
 *
-container
+aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 ;
 void
@@ -818,10 +819,11 @@ FrameChanged
 (
 imgIContainer
 *
-container
+aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 ;
 virtual
