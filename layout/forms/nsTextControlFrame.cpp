@@ -6333,10 +6333,13 @@ firstNode
 *
 aPosition
 =
-PR_MIN
+NS_MIN
 (
 aOffset
+PRInt32
+(
 textLength
+)
 )
 ;
 }
