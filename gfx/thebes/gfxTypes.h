@@ -99,6 +99,13 @@ GFX_TYPES_H
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nsAtomicRefcnt
 .
 h

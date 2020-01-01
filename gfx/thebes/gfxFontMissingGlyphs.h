@@ -99,6 +99,13 @@ GFX_FONTMISSINGGLYPHS_H
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
