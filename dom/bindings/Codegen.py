@@ -8805,9 +8805,25 @@ false
 "
 "
         
+#
+Sort
+interaces
+implementing
+self
+by
+name
+so
+we
+get
+stable
+output
+.
+        
 for
 iface
 in
+sorted
+(
 self
 .
 descriptor
@@ -8815,6 +8831,18 @@ descriptor
 interface
 .
 interfacesImplementingSelf
+                            
+key
+=
+lambda
+iface
+:
+iface
+.
+identifier
+.
+name
+)
 :
             
 hasInstanceCode
