@@ -1514,7 +1514,7 @@ Mozilla
 .
 9
 .
-2
+1
 CycleCollectorSuspect2Func
 cycleSuspect2Func
 ;
