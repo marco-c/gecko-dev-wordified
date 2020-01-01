@@ -189,6 +189,8 @@ bool
 aIsActive
 bool
 aIsOutgoing
+bool
+aIsEmergency
 )
 {
 BluetoothHfpManager
@@ -236,6 +238,8 @@ bool
 aIsActive
 bool
 aIsOutgoing
+bool
+aIsEmergency
 bool
 *
 aResult
