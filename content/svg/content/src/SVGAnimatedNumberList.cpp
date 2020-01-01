@@ -638,6 +638,10 @@ care
 of
 notifying
 .
+mIsBaseSet
+=
+PR_TRUE
+;
 rv
 =
 mBaseVal
@@ -753,6 +757,10 @@ mBaseVal
 Clear
 (
 )
+;
+mIsBaseSet
+=
+PR_FALSE
 ;
 /
 /
