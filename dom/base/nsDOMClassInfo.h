@@ -1989,6 +1989,14 @@ static
 jsid
 sOnafterprint_id
 ;
+static
+jsid
+sOndevicemotion_id
+;
+static
+jsid
+sOndeviceorientation_id
+;
 protected
 :
 static
