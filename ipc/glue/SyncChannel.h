@@ -609,7 +609,7 @@ class
 NS_INTERFACE_CLASS
 *
 /
-Listener
+SyncListener
 :
 public
 AsyncChannel
@@ -621,7 +621,7 @@ public
 :
 virtual
 ~
-Listener
+SyncListener
 (
 )
 {
@@ -655,6 +655,10 @@ aReply
 0
 ;
 }
+;
+typedef
+SyncListener
+Listener
 ;
 SyncChannel
 (

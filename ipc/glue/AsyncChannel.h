@@ -634,13 +634,13 @@ class
 NS_INTERFACE_CLASS
 *
 /
-Listener
+AsyncListener
 {
 public
 :
 virtual
 ~
-Listener
+AsyncListener
 (
 )
 {
@@ -658,6 +658,10 @@ aMessage
 0
 ;
 }
+;
+typedef
+AsyncListener
+Listener
 ;
 AsyncChannel
 (
