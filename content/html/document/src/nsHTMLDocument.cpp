@@ -19301,6 +19301,11 @@ can
 override
 it
 .
+SetDocumentCharacterSetSource
+(
+kCharsetFromHintPrevDoc
+)
+;
 mWyciwygChannel
 -
 >
