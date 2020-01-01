@@ -770,7 +770,7 @@ getAction
 (
 )
 &
-event
+MotionEvent
 .
 ACTION_MASK
 )

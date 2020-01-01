@@ -3040,6 +3040,12 @@ backed
 by
 a
 SimpleExpandableListAdapter
+SuppressWarnings
+(
+"
+rawtypes
+"
+)
 Map
 map
 =
@@ -3292,6 +3298,12 @@ instanceof
 Map
 )
 {
+SuppressWarnings
+(
+"
+rawtypes
+"
+)
 Map
 map
 =

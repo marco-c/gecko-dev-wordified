@@ -1716,7 +1716,7 @@ getAction
 (
 )
 &
-event
+MotionEvent
 .
 ACTION_MASK
 )
@@ -2353,8 +2353,6 @@ PANNING_HOLD_LOCKED
 :
 GeckoApp
 .
-mAppContext
-.
 mAutoCompletePopup
 .
 hide
@@ -2386,8 +2384,6 @@ case
 PANNING_HOLD
 :
 GeckoApp
-.
-mAppContext
 .
 mAutoCompletePopup
 .
@@ -5194,8 +5190,6 @@ views
 ;
 GeckoApp
 .
-mAppContext
-.
 mAutoCompletePopup
 .
 hide
@@ -5823,8 +5817,6 @@ motionEvent
 {
 GeckoApp
 .
-mAppContext
-.
 mAutoCompletePopup
 .
 hide
@@ -5907,8 +5899,6 @@ zoomToRect
 )
 {
 GeckoApp
-.
-mAppContext
 .
 mAutoCompletePopup
 .

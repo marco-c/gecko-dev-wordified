@@ -1426,7 +1426,7 @@ gl
 .
 glTexImage2D
 (
-gl
+GL10
 .
 GL_TEXTURE_2D
 0
@@ -1458,7 +1458,7 @@ gl
 .
 glTexImage2D
 (
-gl
+GL10
 .
 GL_TEXTURE_2D
 0
@@ -1485,7 +1485,7 @@ gl
 .
 glTexSubImage2D
 (
-gl
+GL10
 .
 GL_TEXTURE_2D
 0
@@ -1689,7 +1689,7 @@ gl
 .
 glTexSubImage2D
 (
-gl
+GL10
 .
 GL_TEXTURE_2D
 0

@@ -2211,6 +2211,9 @@ false
 try
 {
 Iterator
+<
+File
+>
 fileIterator
 =
 Arrays
@@ -2236,9 +2239,6 @@ hasNext
 File
 file
 =
-(
-File
-)
 fileIterator
 .
 next
@@ -3198,6 +3198,9 @@ null
 )
 {
 Iterator
+<
+File
+>
 cacheFiles
 =
 Arrays
@@ -3223,9 +3226,6 @@ hasNext
 File
 libFile
 =
-(
-File
-)
 cacheFiles
 .
 next
@@ -7366,6 +7366,11 @@ lastIndexOf
 try
 {
 Class
+<
+R
+.
+drawable
+>
 drawableClass
 =
 R
@@ -12079,6 +12084,9 @@ type
 )
 ;
 Iterator
+<
+GeckoEventListener
+>
 items
 =
 listeners
@@ -12096,15 +12104,10 @@ hasNext
 )
 )
 {
-(
-(
-GeckoEventListener
-)
 items
 .
 next
 (
-)
 )
 .
 handleMessage
