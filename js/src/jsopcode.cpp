@@ -2309,7 +2309,10 @@ return
 ok
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_DumpScript
 (
 JSContext
@@ -32444,6 +32447,13 @@ nextpc
 =
 =
 JSOP_SETALIASEDVAR
+|
+|
+*
+nextpc
+=
+=
+JSOP_SETARG
 )
 ;
 nextpc
