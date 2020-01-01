@@ -135,11 +135,11 @@ nsIComponentManager
 .
 h
 "
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsPrintProgress
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsPrintProgress
 )
