@@ -9370,6 +9370,12 @@ HasPerspective
 )
 const
 ;
+bool
+ChildrenHavePerspective
+(
+)
+const
+;
 /
 /
 Calculate
@@ -9402,9 +9408,9 @@ void
 RecomputePerspectiveChildrenOverflow
 (
 const
-nsIFrame
+nsStyleContext
 *
-aStartFrame
+aStartStyle
 const
 nsRect
 *
