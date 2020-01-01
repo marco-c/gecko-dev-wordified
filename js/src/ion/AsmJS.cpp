@@ -2059,11 +2059,6 @@ isDouble
 isSigned
 (
 )
-|
-|
-isUnsigned
-(
-)
 ;
 }
 MIRType
