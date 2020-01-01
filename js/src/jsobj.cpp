@@ -30646,10 +30646,6 @@ obj2
 receiver
 id
 vp
-.
-address
-(
-)
 )
 :
 obj2
