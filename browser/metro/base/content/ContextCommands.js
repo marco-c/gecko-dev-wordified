@@ -1006,6 +1006,7 @@ ContextUI
 .
 peekTabs
 (
+kOpenInNewTabAnimationDelayMsec
 )
 ;
 }
