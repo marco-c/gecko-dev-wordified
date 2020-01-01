@@ -7,7 +7,7 @@ c
 )
 2008
 -
-2010
+2011
 Mozilla
 Foundation
 *
@@ -2552,6 +2552,15 @@ NS_HTML5ELEMENT_NAME_HTML_INTEGRATION_POINT
 <
 <
 24
+)
+#
+define
+NS_HTML5ELEMENT_NAME_OPTIONAL_END_TAG
+(
+1
+<
+<
+23
 )
 #
 endif
