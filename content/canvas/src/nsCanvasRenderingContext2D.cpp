@@ -8387,6 +8387,16 @@ nsIDOMCanvasPattern
 _retval
 )
 {
+if
+(
+!
+image
+)
+{
+return
+NS_ERROR_DOM_TYPE_MISMATCH_ERR
+;
+}
 gfxPattern
 :
 :
