@@ -521,13 +521,6 @@ aResult
 MOZ_OVERRIDE
 ;
 virtual
-bool
-GetExecutingScript
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 nsresult
 InitClasses
 (
@@ -1052,9 +1045,6 @@ mGCOnDestruction
 ;
 bool
 mProcessingScriptTag
-;
-uint32_t
-mExecuteDepth
 ;
 uint32_t
 mDefaultJSOptions
