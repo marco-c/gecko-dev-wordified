@@ -6333,9 +6333,6 @@ nsAString
 aName
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsISupportsString
@@ -6363,6 +6360,7 @@ SetData
 aName
 )
 ;
+nsresult
 rv
 =
 SendNotification
@@ -6419,9 +6417,6 @@ nsAutoString
 aGuid
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsISupportsString
@@ -6520,8 +6515,9 @@ if
 notifyData
 )
 return
-rv
+NS_ERROR_OUT_OF_MEMORY
 ;
+nsresult
 rv
 =
 notifyData
@@ -6618,9 +6614,6 @@ PRInt64
 aNumber
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsISupportsPRInt64
@@ -6648,6 +6641,7 @@ SetData
 aNumber
 )
 ;
+nsresult
 rv
 =
 SendNotification
@@ -6701,9 +6695,6 @@ PRInt64
 aTwo
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsISupportsPRInt64
@@ -6775,8 +6766,9 @@ if
 notifyData
 )
 return
-rv
+NS_ERROR_OUT_OF_MEMORY
 ;
+nsresult
 rv
 =
 notifyData
