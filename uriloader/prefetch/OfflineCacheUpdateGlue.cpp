@@ -841,6 +841,9 @@ aDocument
 nsIFile
 *
 aCustomProfileDir
+nsILoadContext
+*
+aLoadContext
 )
 {
 if
@@ -876,6 +879,7 @@ aManifestURI
 aDocumentURI
 nullptr
 aCustomProfileDir
+aLoadContext
 )
 ;
 }

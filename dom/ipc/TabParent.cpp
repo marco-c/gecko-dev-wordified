@@ -5563,9 +5563,13 @@ URIParams
 &
 aDocumentURI
 const
-nsCString
+bool
 &
-aClientID
+isInBrowserElement
+const
+uint32_t
+&
+appId
 const
 bool
 &
@@ -5605,7 +5609,8 @@ Schedule
 (
 aManifestURI
 aDocumentURI
-aClientID
+isInBrowserElement
+appId
 stickDocument
 )
 ;
