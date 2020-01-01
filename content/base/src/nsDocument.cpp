@@ -25624,7 +25624,7 @@ change
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchChromeEvent
 (
 this
 static_cast
