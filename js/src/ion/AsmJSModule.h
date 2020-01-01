@@ -143,13 +143,6 @@ jsscript
 h
 "
 #
-include
-"
-jstypedarrayinlines
-.
-h
-"
-#
 if
 defined
 (

@@ -230,13 +230,6 @@ h
 #
 include
 "
-jstypedarrayinlines
-.
-h
-"
-#
-include
-"
 vm
 /
 GlobalObject
