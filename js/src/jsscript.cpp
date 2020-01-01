@@ -7915,10 +7915,7 @@ jschar
 *
 >
 (
-cx
--
->
-malloc_
+js_malloc
 (
 nbytes
 )
