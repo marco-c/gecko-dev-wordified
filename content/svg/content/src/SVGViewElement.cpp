@@ -538,7 +538,7 @@ NS_ERROR_RANGE_ERR
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 SVGViewElement
 :
@@ -547,9 +547,9 @@ ViewBox
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 box
 ;

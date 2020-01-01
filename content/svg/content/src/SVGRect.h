@@ -117,6 +117,13 @@ SVGIRect
 .
 h
 "
+#
+include
+"
+nsSVGElement
+.
+h
+"
 /
 /
 /
@@ -210,6 +217,9 @@ public
 :
 SVGRect
 (
+nsIContent
+*
+aParent
 float
 x
 =
@@ -445,6 +455,9 @@ SVGRect
 >
 NS_NewSVGRect
 (
+nsIContent
+*
+aParent
 float
 x
 =
@@ -483,6 +496,9 @@ SVGRect
 >
 NS_NewSVGRect
 (
+nsIContent
+*
+aParent
 const
 gfxRect
 &

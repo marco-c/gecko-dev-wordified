@@ -8446,6 +8446,7 @@ rect
 =
 NS_NewSVGRect
 (
+mContent
 tmpCtx
 -
 >

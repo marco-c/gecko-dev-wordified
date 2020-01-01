@@ -2310,6 +2310,7 @@ CreateSVGRect
 return
 NS_NewSVGRect
 (
+this
 )
 ;
 }
@@ -2530,7 +2531,7 @@ nullptr
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 SVGSVGElement
 :
@@ -2539,9 +2540,9 @@ ViewBox
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 rect
 ;

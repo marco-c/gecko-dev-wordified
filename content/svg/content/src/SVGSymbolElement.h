@@ -257,7 +257,7 @@ const
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 ViewBox
 (

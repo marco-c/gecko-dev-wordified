@@ -623,7 +623,7 @@ SVGPatternElement
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 SVGPatternElement
 :
@@ -632,9 +632,9 @@ ViewBox
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 rect
 ;

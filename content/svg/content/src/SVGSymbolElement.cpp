@@ -496,7 +496,7 @@ SVGSymbolElement
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 SVGSymbolElement
 :
@@ -505,9 +505,9 @@ ViewBox
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 rect
 ;
