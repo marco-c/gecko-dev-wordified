@@ -8027,6 +8027,13 @@ nsIScriptContext
 aContext
 )
 ;
+static
+JSContext
+*
+GetCurrentJSContext
+(
+)
+;
 private
 :
 static
