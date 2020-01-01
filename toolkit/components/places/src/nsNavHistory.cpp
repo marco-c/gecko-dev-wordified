@@ -17108,6 +17108,12 @@ aTransitionType
 !
 =
 TRANSITION_EMBED
+&
+&
+aTransitionType
+!
+=
+TRANSITION_DOWNLOAD
 )
 hidden
 =
@@ -17286,8 +17292,9 @@ Hide
 only
 embedded
 links
-and
 redirects
+and
+downloads
 /
 /
 See
@@ -17312,6 +17319,12 @@ TRANSITION_EMBED
 |
 |
 aIsRedirect
+|
+|
+aTransitionType
+=
+=
+TRANSITION_DOWNLOAD
 )
 ;
 typed
