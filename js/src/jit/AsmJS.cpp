@@ -9944,11 +9944,6 @@ char
 out
 )
 {
-int
-msTotal
-=
-0
-;
 ScopedJSFreePtr
 <
 char
@@ -9965,6 +9960,7 @@ PRMJ_Now
 (
 )
 ;
+int
 msTotal
 =
 (
