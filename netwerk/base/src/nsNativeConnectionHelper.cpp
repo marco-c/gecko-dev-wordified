@@ -588,7 +588,7 @@ nsNativeConnectionHelper
 OnConnectionFailed
 (
 const
-char
+PRUnichar
 *
 hostName
 )
