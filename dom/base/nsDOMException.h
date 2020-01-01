@@ -491,6 +491,8 @@ const
 char
 *
 aMessage
+PRUint16
+aCode
 nsIException
 *
 aDefaultException
@@ -511,6 +513,10 @@ char
 *
 mMessage
 ;
+PRUint16
+mCode
+;
+\
 nsCOMPtr
 <
 nsIException
@@ -573,12 +579,4 @@ SVGException
 DECL_INTERNAL_DOM_EXCEPTION
 (
 XPathException
-)
-DECL_INTERNAL_DOM_EXCEPTION
-(
-FileException
-)
-DECL_INTERNAL_DOM_EXCEPTION
-(
-IDBDatabaseException
 )

@@ -1453,7 +1453,7 @@ PREV_UNIQUE
 else
 {
 return
-NS_ERROR_DOM_INDEXEDDB_NON_TRANSIENT_ERR
+NS_ERROR_TYPE_ERR
 ;
 }
 return
@@ -3575,7 +3575,7 @@ aCount
 )
 {
 return
-NS_ERROR_DOM_TYPE_ERR
+NS_ERROR_TYPE_ERR
 ;
 }
 Key
