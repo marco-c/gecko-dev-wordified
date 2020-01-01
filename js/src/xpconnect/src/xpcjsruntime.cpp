@@ -647,6 +647,12 @@ supports
 IDX_ACTIVEX_SUPPORTS
 #
 endif
+"
+__proto__
+"
+/
+/
+IDX_PROTO
 }
 ;
 /
