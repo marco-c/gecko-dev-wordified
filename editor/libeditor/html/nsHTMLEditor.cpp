@@ -20978,6 +20978,7 @@ IsEmpty
 )
 &
 &
+!
 mLastStyleSheetURL
 .
 Equals
