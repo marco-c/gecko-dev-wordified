@@ -5543,6 +5543,15 @@ char
 info
 )
 ;
+bool
+DrawInstanced_check
+(
+const
+char
+*
+info
+)
+;
 void
 Draw_cleanup
 (
