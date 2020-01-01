@@ -2904,7 +2904,7 @@ eax
 ;
 masm
 .
-load16
+movzxh
 (
 Operand
 (

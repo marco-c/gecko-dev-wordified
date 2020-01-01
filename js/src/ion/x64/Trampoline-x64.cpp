@@ -2814,7 +2814,7 @@ rax
 ;
 masm
 .
-load16
+movzxh
 (
 Operand
 (
