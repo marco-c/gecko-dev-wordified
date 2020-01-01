@@ -64,6 +64,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+GeckoLoader
+;
+import
 android
 .
 content
@@ -130,7 +141,7 @@ getPackageResourcePath
 (
 )
 ;
-GeckoAppShell
+GeckoLoader
 .
 loadNSSLibs
 (
@@ -188,7 +199,7 @@ getPackageResourcePath
 (
 )
 ;
-GeckoAppShell
+GeckoLoader
 .
 loadNSSLibs
 (
@@ -226,7 +237,7 @@ getPackageResourcePath
 (
 )
 ;
-GeckoAppShell
+GeckoLoader
 .
 loadNSSLibs
 (
@@ -284,7 +295,7 @@ getPackageResourcePath
 (
 )
 ;
-GeckoAppShell
+GeckoLoader
 .
 loadNSSLibs
 (

@@ -151,6 +151,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+GeckoLoader
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sqlite
 .
 SQLiteBridge
@@ -4386,7 +4397,7 @@ cleanupXULLibCache
 File
 cacheFile
 =
-GeckoAppShell
+GeckoLoader
 .
 getCacheDir
 (
@@ -8724,7 +8735,7 @@ db
 =
 null
 ;
-GeckoAppShell
+GeckoLoader
 .
 loadSQLiteLibs
 (

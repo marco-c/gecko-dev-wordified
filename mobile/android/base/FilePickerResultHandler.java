@@ -70,6 +70,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+GeckoLoader
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ActivityResultHandler
@@ -454,7 +465,7 @@ createTempFile
 (
 fileName
 fileExt
-GeckoAppShell
+GeckoLoader
 .
 getGREDir
 (
