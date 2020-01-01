@@ -5321,6 +5321,13 @@ GetVisualOverflowRectRelativeToSelf
 content
 )
 ;
+aBuilder
+-
+>
+ResetMarkedFramesForDisplayList
+(
+)
+;
 child
 =
 child
