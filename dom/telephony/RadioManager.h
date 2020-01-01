@@ -669,7 +669,7 @@ nsIXPConnectJSObjectHolder
 ;
 BEGIN_TELEPHONY_NAMESPACE
 class
-Radio
+RadioManager
 :
 public
 nsIObserver
@@ -691,7 +691,7 @@ Shutdown
 static
 already_AddRefed
 <
-Radio
+RadioManager
 >
 FactoryCreate
 (
@@ -708,12 +708,12 @@ GetRadioInterface
 ;
 protected
 :
-Radio
+RadioManager
 (
 )
 ;
 ~
-Radio
+RadioManager
 (
 )
 ;
