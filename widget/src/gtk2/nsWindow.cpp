@@ -3416,8 +3416,6 @@ nsWindow
 :
 PlaceBehind
 (
-nsTopLevelWidgetZPlacement
-aPlacement
 nsIWidget
 *
 aWidget
