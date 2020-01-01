@@ -29971,14 +29971,12 @@ mAscent
 app
 ;
 const
-nscoord
-baseline
+gfxFloat
+frameTop
 =
-aTextBaselinePt
+aFramePt
 .
 y
--
-mAscent
 ;
 nscolor
 lineColor
@@ -30052,7 +30050,7 @@ pt
 y
 =
 (
-baseline
+frameTop
 -
 dec
 .
@@ -30158,7 +30156,7 @@ pt
 y
 =
 (
-baseline
+frameTop
 -
 dec
 .
@@ -30261,7 +30259,7 @@ pt
 y
 =
 (
-baseline
+frameTop
 -
 dec
 .
