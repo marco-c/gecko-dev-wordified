@@ -113,13 +113,6 @@ nsSVGNumber2
 .
 h
 "
-#
-include
-"
-nsIDOMSVGStopElement
-.
-h
-"
 nsresult
 NS_NewSVGStopElement
 (
@@ -151,7 +144,7 @@ MOZ_FINAL
 public
 SVGStopElementBase
 public
-nsIDOMSVGStopElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -207,7 +200,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGSTOPELEMENT
 /
 /
 xxx
@@ -269,13 +261,6 @@ aResult
 const
 ;
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 nsIDOMNode
 *
 AsDOMNode
@@ -305,11 +290,6 @@ GetNumberInfo
 (
 )
 ;
-/
-/
-nsIDOMSVGStopElement
-properties
-:
 nsSVGNumber2
 mOffset
 ;
