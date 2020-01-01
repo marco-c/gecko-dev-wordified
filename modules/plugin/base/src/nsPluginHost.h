@@ -1432,6 +1432,17 @@ default_plugin_disabled
 PRPackedBool
 mDefaultPluginDisabled
 ;
+/
+/
+set
+by
+pref
+plugin
+.
+disable
+PRPackedBool
+mPluginsDisabled
+;
 nsPluginInstanceTagList
 mPluginInstanceTagList
 ;
