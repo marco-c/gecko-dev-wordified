@@ -190,6 +190,13 @@ nsCSSProperty
 .
 h
 "
+#
+include
+"
+nsWrapperCache
+.
+h
+"
 /
 /
 57eb81d1
@@ -229,6 +236,8 @@ nsICSSDeclaration
 :
 public
 nsIDOMCSSStyleDeclaration
+public
+nsWrapperCache
 {
 public
 :
