@@ -519,7 +519,7 @@ blur
 (
 )
 ;
-finishTest
+finishUp
 (
 )
 ;
@@ -562,6 +562,18 @@ finishUp
 (
 )
 {
+InspectorUI
+.
+hideSidebar
+(
+)
+;
+InspectorUI
+.
+closeInspectorUI
+(
+)
+;
 doc
 =
 stylePanel
