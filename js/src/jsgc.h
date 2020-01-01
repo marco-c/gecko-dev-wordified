@@ -525,15 +525,11 @@ only
 /
 #
 define
-GCX_PRIVATE
+GCX_FUNCTION
 4
 /
 *
-private
-(
-unscanned
-)
-data
+JSFunction
 *
 /
 #
