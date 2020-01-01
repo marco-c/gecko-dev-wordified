@@ -683,8 +683,11 @@ publicList
 yield
 Downloads
 .
-getPublicDownloadList
+getList
 (
+Downloads
+.
+PUBLIC
 )
 ;
 let
@@ -6535,8 +6538,11 @@ publicList
 yield
 Downloads
 .
-getPublicDownloadList
+getList
 (
+Downloads
+.
+PUBLIC
 )
 ;
 let
