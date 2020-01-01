@@ -2912,7 +2912,7 @@ const
 int
 kTimeoutMs
 =
-1000
+10000
 ;
 MachReceiveMessage
 child_message
