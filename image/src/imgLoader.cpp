@@ -12358,6 +12358,9 @@ IMAGE_ICO
 )
 ;
 }
+#
+ifdef
+MOZ_WBMP
 /
 /
 A
@@ -12450,6 +12453,8 @@ IMAGE_WBMP
 )
 ;
 }
+#
+endif
 else
 {
 /

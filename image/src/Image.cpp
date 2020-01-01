@@ -468,6 +468,9 @@ rv
 =
 eDecoderType_icon
 ;
+#
+ifdef
+MOZ_WBMP
 /
 /
 WBMP
@@ -485,6 +488,8 @@ rv
 =
 eDecoderType_wbmp
 ;
+#
+endif
 return
 rv
 ;
