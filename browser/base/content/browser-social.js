@@ -8628,6 +8628,12 @@ return
 ;
 sbrowser
 .
+stop
+(
+)
+;
+sbrowser
+.
 removeAttribute
 (
 "
