@@ -5703,13 +5703,6 @@ setGCMaxMallocBytes
 maxbytes
 )
 ;
-rt
--
->
-gcEmptyArenaPoolLifespan
-=
-30000
-;
 /
 *
 *
