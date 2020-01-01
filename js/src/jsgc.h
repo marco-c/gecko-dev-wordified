@@ -4435,11 +4435,6 @@ return
 thread
 ;
 }
-bool
-onBackgroundThread
-(
-)
-;
 /
 *
 *

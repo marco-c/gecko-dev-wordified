@@ -4317,7 +4317,6 @@ chunk
 struct
 ChunkBitmap
 {
-volatile
 uintptr_t
 bitmap
 [
