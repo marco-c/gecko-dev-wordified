@@ -1128,7 +1128,7 @@ b
 *
 (
 (
-bool
+PRUint32
 *
 )
 args

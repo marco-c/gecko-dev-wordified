@@ -1193,7 +1193,7 @@ T_BOOL
 *
 (
 (
-bool
+uint32
 *
 )
 l_d
