@@ -5303,7 +5303,7 @@ const
 ;
 virtual
 void
-DestroyContent
+SaveSubtreeState
 (
 )
 ;

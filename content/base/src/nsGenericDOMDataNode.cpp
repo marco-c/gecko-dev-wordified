@@ -4222,6 +4222,15 @@ void
 nsGenericDOMDataNode
 :
 :
+SaveSubtreeState
+(
+)
+{
+}
+void
+nsGenericDOMDataNode
+:
+:
 DestroyContent
 (
 )
