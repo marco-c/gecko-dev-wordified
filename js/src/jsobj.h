@@ -6720,7 +6720,10 @@ null
 *
 /
 extern
+JS_FRIEND_API
+(
 JSBool
+)
 js_GetClassPrototype
 (
 JSContext

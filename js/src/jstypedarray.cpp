@@ -212,7 +212,7 @@ Code
 is
 *
 Mozilla
-Corp
+Foundation
 *
 Portions
 created

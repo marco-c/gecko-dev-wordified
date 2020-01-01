@@ -6468,15 +6468,14 @@ eval
 if
 (
 callbacks
-)
-{
-return
+&
+&
 callbacks
 -
 >
 contentSecurityPolicyAllows
-&
-&
+)
+return
 callbacks
 -
 >
@@ -6485,7 +6484,6 @@ contentSecurityPolicyAllows
 cx
 )
 ;
-}
 return
 JS_TRUE
 ;
@@ -36741,6 +36739,9 @@ cx
 JSRESOLVE_QUALIFIED
 )
 ;
+jsval
+v
+;
 if
 (
 !
@@ -36774,6 +36775,7 @@ cx
 ;
 }
 else
+{
 if
 (
 VALUE_IS_FUNCTION
@@ -36782,7 +36784,6 @@ cx
 v
 )
 )
-{
 return
 JSTYPE_FUNCTION
 ;
