@@ -372,8 +372,6 @@ aURL
 nsIPrincipal
 *
 aOriginPrincipal
-bool
-aAugmentFlag
 nsXBLBinding
 *
 *
