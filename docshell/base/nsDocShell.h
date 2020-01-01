@@ -1528,13 +1528,11 @@ aTargetSpec
 nsIInputStream
 *
 aPostDataStream
-=
-0
 nsIInputStream
 *
 aHeadersDataStream
-=
-0
+PRBool
+aIsTrusted
 )
 ;
 NS_IMETHOD

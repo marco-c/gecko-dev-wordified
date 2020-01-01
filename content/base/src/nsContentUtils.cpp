@@ -22473,6 +22473,8 @@ PRBool
 aClick
 PRBool
 aIsUserTriggered
+PRBool
+aIsTrusted
 )
 {
 NS_ASSERTION
@@ -22652,6 +22654,9 @@ aTargetSpec
 get
 (
 )
+nsnull
+nsnull
+aIsTrusted
 )
 ;
 }
