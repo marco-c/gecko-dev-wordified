@@ -6728,6 +6728,14 @@ forcing
 otherwise
 forcing
 )
+PRUint8
+mIMEMode
+;
+/
+/
+[
+reset
+]
 }
 ;
 struct

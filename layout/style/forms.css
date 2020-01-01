@@ -998,6 +998,12 @@ decoration
 :
 inherit
 ;
+ime
+-
+mode
+:
+inherit
+;
 }
 select
 {

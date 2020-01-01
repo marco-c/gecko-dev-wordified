@@ -2156,6 +2156,9 @@ mCursor
 nsCSSValue
 mForceBrokenImageIcon
 ;
+nsCSSValue
+mIMEMode
+;
 }
 ;
 struct

@@ -8754,6 +8754,10 @@ mForceBrokenImageIcon
 =
 0
 ;
+mIMEMode
+=
+NS_STYLE_IME_MODE_AUTO
+;
 }
 nsStyleUIReset
 :
@@ -8777,6 +8781,12 @@ mForceBrokenImageIcon
 aSource
 .
 mForceBrokenImageIcon
+;
+mIMEMode
+=
+aSource
+.
+mIMEMode
 ;
 }
 nsStyleUIReset
@@ -8802,6 +8812,10 @@ aOther
 )
 const
 {
+/
+/
+ignore
+mIMEMode
 if
 (
 mForceBrokenImageIcon

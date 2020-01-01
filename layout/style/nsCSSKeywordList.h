@@ -1692,6 +1692,11 @@ absolute
 )
 CSS_KEY
 (
+active
+active
+)
+CSS_KEY
+(
 activeborder
 activeborder
 )
@@ -2248,6 +2253,11 @@ CSS_KEY
 (
 in
 in
+)
+CSS_KEY
+(
+inactive
+inactive
 )
 CSS_KEY
 (
