@@ -1232,6 +1232,17 @@ JSObject
 scopeChain
 )
 ;
+void
+ReleaseScriptCode
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 static
 inline
 CompileStatus
