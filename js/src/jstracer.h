@@ -2142,6 +2142,14 @@ fun_ins
 )
 ;
 bool
+guardShapelessCallee
+(
+jsval
+&
+callee
+)
+;
+bool
 interpretedFunctionCall
 (
 jsval
