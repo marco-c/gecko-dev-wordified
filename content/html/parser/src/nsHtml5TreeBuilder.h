@@ -437,11 +437,6 @@ PRInt32
 >
 QUIRKY_PUBLIC_IDS
 ;
-static
-nsIAtom
-*
-HTML_LOCAL
-;
 PRInt32
 mode
 ;
@@ -1456,15 +1451,6 @@ nsHtml5TreeBuilder
 :
 :
 QUIRKY_PUBLIC_IDS
-=
-nsnull
-;
-nsIAtom
-*
-nsHtml5TreeBuilder
-:
-:
-HTML_LOCAL
 =
 nsnull
 ;
