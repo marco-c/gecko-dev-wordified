@@ -603,10 +603,8 @@ But
 places
 with
 frecency
-(
--
-1
-)
+<
+0
 are
 included
 as
@@ -2053,9 +2051,8 @@ of
 places
 with
 frecency
-=
--
-1
+<
+0
 (
 until
 idle

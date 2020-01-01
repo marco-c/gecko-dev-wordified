@@ -1263,6 +1263,10 @@ points
 {
 if
 (
+!
+visitType
+|
+|
 visitType
 =
 =
@@ -1271,6 +1275,16 @@ Ci
 nsINavHistoryService
 .
 TRANSITION_EMBED
+|
+|
+visitType
+=
+=
+Ci
+.
+nsINavHistoryService
+.
+TRANSITION_DOWNLOAD
 |
 |
 bonusName
