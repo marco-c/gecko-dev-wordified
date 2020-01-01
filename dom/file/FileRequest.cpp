@@ -379,6 +379,9 @@ event
 and
 return
 .
+bool
+allowDefault
+;
 if
 (
 NS_FAILED
@@ -390,6 +393,8 @@ rv
 FireError
 (
 rv
+&
+allowDefault
 )
 ;
 return
@@ -556,6 +561,8 @@ rv
 FireSuccess
 (
 result
+&
+allowDefault
 )
 ;
 }
@@ -564,6 +571,8 @@ else
 FireError
 (
 rv
+&
+allowDefault
 )
 ;
 }
