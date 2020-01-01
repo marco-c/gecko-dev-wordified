@@ -69,6 +69,13 @@ healthreport
 .
 upload
 ;
+import
+java
+.
+util
+.
+Collection
+;
 public
 interface
 SubmissionClient
@@ -268,6 +275,13 @@ upload
 (
 long
 localTime
+String
+id
+Collection
+<
+String
+>
+oldIds
 Delegate
 delegate
 )

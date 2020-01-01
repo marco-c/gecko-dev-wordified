@@ -907,7 +907,7 @@ pair
 :
 collections
 .
-entryIterable
+entrySet
 (
 )
 )
