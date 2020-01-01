@@ -538,7 +538,9 @@ aEvent
 .
 target
 .
-errorMessage
+error
+.
+name
 )
 ;
 }
