@@ -1488,7 +1488,7 @@ TOK_UPVARS
 lexical
 dependencies
 as
-JSAtomList
+JSAtomDefnMap
 of
 definitions
 paired

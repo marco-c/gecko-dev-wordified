@@ -12708,9 +12708,6 @@ size_t
 nbytes
 pbytes
 ;
-jsatomid
-i
-;
 jssrcnote
 *
 sn
@@ -12794,6 +12791,7 @@ vector
 ;
 for
 (
+size_t
 i
 =
 0
@@ -12916,6 +12914,7 @@ objects
 (
 )
 ;
+size_t
 i
 =
 objarray
@@ -12993,6 +12992,7 @@ regexps
 (
 )
 ;
+size_t
 i
 =
 objarray

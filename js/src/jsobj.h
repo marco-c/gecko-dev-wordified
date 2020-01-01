@@ -9705,7 +9705,7 @@ JSSharpObjectMap
 jsrefcount
 depth
 ;
-jsatomid
+uint32
 sharpgen
 ;
 JSHashTable
