@@ -1654,6 +1654,10 @@ nsXFormsEditableAccessible
 aNode
 aShell
 )
+mIsSelect1Element
+(
+nsnull
+)
 {
 nsCOMPtr
 <
