@@ -3340,17 +3340,6 @@ aDefault
 0
 )
 ;
-static
-nsIPrefBranch2
-*
-GetPrefBranch
-(
-)
-{
-return
-sPrefBranch
-;
-}
 /
 /
 Get
