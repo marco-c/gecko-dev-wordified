@@ -1915,6 +1915,9 @@ pixman_transform_t
 0
 )
 {
+common
+-
+>
 transform
 =
 NULL
