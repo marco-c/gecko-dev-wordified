@@ -375,6 +375,10 @@ NS_VK_SHIFT
 GDK_Shift_R
 }
 {
+NS_VK_SHIFT
+GDK_Shift_Lock
+}
+{
 NS_VK_CONTROL
 GDK_Control_L
 }
@@ -1207,6 +1211,9 @@ GDK_Scroll_Lock
 return
 SCROLL_LOCK
 ;
+case
+GDK_Shift_Lock
+:
 case
 GDK_Shift_L
 :
