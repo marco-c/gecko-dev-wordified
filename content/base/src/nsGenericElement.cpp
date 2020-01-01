@@ -1181,7 +1181,7 @@ h
 #
 include
 "
-xpcprivate
+nsIScriptError
 .
 h
 "
