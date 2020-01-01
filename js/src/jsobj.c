@@ -9320,7 +9320,7 @@ JSVAL_TO_OBJECT
 (
 fval
 )
-NULL
+JS_PropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_GETTER
@@ -9486,7 +9486,7 @@ cx
 obj
 id
 JSVAL_VOID
-NULL
+JS_PropertyStub
 (
 JSPropertyOp
 )
