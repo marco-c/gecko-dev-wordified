@@ -17443,9 +17443,9 @@ sandbox_resolve
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 )
 {

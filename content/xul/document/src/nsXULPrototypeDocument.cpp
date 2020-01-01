@@ -538,9 +538,15 @@ nsXULPDGlobalObject_resolve
 JSContext
 *
 cx
-JSHandleObject
+JS
+:
+:
+HandleObject
 obj
-JSHandleId
+JS
+:
+:
+HandleId
 id
 )
 {
