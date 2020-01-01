@@ -720,6 +720,11 @@ CGContextRelease
 mCg
 )
 ;
+free
+(
+mData
+)
+;
 }
 TemporaryRef
 <
@@ -5128,11 +5133,6 @@ a
 waste
 of
 time
-/
-/
-XXX
-:
-leaked
 mData
 =
 calloc
