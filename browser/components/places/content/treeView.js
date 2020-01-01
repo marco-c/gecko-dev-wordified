@@ -2345,6 +2345,8 @@ _visibleElements
 [
 nodeIndex
 ]
+.
+node
 oldIndex
 :
 nodeIndex
@@ -4216,7 +4218,14 @@ splice
 (
 newViewIndex
 0
+{
+node
+:
 aItem
+properties
+:
+null
+}
 )
 ;
 for
