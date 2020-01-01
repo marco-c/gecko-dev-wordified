@@ -2017,6 +2017,7 @@ blue
 }
 ;
 class
+THEBES_API
 GLContext
 :
 public
