@@ -28791,7 +28791,6 @@ Template
 "
 "
 "
-const
 {
 seqType
 }
@@ -28811,30 +28810,12 @@ index
 )
 {
   
-{
-seqType
-}
-&
-arr
-=
-const_cast
-<
-{
-seqType
-}
-&
->
-(
-{
-declName
-}
-)
-;
-  
 if
 (
 !
-arr
+{
+declName
+}
 .
 SetCapacity
 (
@@ -28889,7 +28870,9 @@ elemType
 slot
 =
 *
-arr
+{
+declName
+}
 .
 AppendElement
 (
@@ -33291,6 +33274,14 @@ due
 to
 being
 optional
+.
+                    
+#
+This
+also
+covers
+variadic
+arguments
 .
                     
 return
