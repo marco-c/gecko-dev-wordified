@@ -585,11 +585,9 @@ have
 to
 refactor
 .
-class
+struct
 IonFrameData
 {
-protected
-:
 void
 *
 returnAddress_
@@ -606,7 +604,7 @@ calleeToken_
 class
 IonFramePrefix
 :
-public
+protected
 IonFrameData
 {
 public
