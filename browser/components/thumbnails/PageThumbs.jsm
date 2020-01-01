@@ -153,7 +153,7 @@ now
 const
 THUMBNAIL_WIDTH
 =
-201
+400
 ;
 /
 *
@@ -195,7 +195,7 @@ now
 const
 THUMBNAIL_HEIGHT
 =
-127
+225
 ;
 /
 *
