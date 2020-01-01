@@ -648,11 +648,9 @@ kStorageCategories
 {
 {
 "
-profile
+idle
 -
-after
--
-change
+daily
 "
 "
 MozStorage
