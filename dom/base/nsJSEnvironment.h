@@ -832,6 +832,9 @@ nsIScriptGlobalObject
 aGlobal
 PRBool
 aIsChrome
+nsIPrincipal
+*
+aPrincipal
 void
 *
 *
@@ -867,6 +870,9 @@ CreateOuterObject
 nsIScriptGlobalObject
 *
 aGlobalObject
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 virtual
