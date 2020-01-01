@@ -2903,12 +2903,15 @@ called
 Close
 (
 )
-and
 CloseWithError
 (
 )
 /
 /
+and
+KillHard
+(
+)
 on
 our
 channel
@@ -2918,6 +2921,9 @@ mCalledClose
 ;
 bool
 mCalledCloseWithError
+;
+bool
+mCalledKillHard
 ;
 friend
 class
