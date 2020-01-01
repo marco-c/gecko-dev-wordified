@@ -605,13 +605,6 @@ h
 #
 include
 "
-jsarray
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -3120,10 +3113,8 @@ GetFrameMessageManager
 )
 )
 {
-nsRefPtr
-<
 nsFrameMessageManager
->
+*
 manager
 =
 frameLoader
