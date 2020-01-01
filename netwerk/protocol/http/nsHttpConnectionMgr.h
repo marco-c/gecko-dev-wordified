@@ -4164,11 +4164,6 @@ nsConnectionEntry
 ent
 )
 ;
-void
-ProcessAllSpdyPendingQ
-(
-)
-;
 static
 PLDHashOperator
 ProcessSpdyPendingQCB
@@ -4463,6 +4458,14 @@ void
 ;
 void
 OnMsgProcessFeedback
+(
+int32_t
+void
+*
+)
+;
+void
+OnMsgProcessAllSpdyPendingQ
 (
 int32_t
 void
