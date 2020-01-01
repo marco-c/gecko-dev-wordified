@@ -517,7 +517,7 @@ js
 var
 BUGNUMBER
 =
-396696
+369696
 ;
 var
 summary
