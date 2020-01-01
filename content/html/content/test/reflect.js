@@ -622,16 +622,6 @@ source
 media
 "
 ]
-table
-:
-[
-"
-border
-"
-"
-width
-"
-]
 tbody
 :
 [
