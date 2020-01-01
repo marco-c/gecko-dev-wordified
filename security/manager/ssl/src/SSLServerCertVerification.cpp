@@ -2344,7 +2344,7 @@ overriden
 remaining_display_errors
 &
 =
-!
+~
 overrideBits
 ;
 }
