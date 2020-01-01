@@ -725,6 +725,16 @@ Run
 {
 if
 (
+!
+mTextEditorState
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 mFrame
 )
 {
@@ -851,6 +861,10 @@ Revoke
 )
 {
 mFrame
+=
+nsnull
+;
+mTextEditorState
 =
 nsnull
 ;
