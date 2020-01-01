@@ -2054,6 +2054,7 @@ PRBool
 IsNull
 (
 )
+const
 {
 return
 mOffsetStart
@@ -2548,6 +2549,19 @@ times
 of
 the
 media
+in
+ms
+and
+aCurrentTime
+/
+/
+is
+the
+current
+playback
+position
+in
+ms
 .
 virtual
 nsresult
@@ -2559,6 +2573,8 @@ PRInt64
 aStartTime
 PRInt64
 aEndTime
+PRInt64
+aCurrentTime
 )
 =
 0
