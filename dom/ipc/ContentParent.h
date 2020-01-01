@@ -665,6 +665,13 @@ IsAlive
 ;
 protected
 :
+void
+OnChannelConnected
+(
+int32
+pid
+)
+;
 virtual
 void
 ActorDestroy
