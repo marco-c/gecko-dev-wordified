@@ -2495,6 +2495,7 @@ parseInt
 input
 .
 value
+10
 )
 ;
 if
