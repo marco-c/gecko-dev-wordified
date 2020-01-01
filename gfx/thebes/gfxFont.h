@@ -1144,8 +1144,10 @@ inferred
 from
 the
 charset
+nsRefPtr
+<
 nsIAtom
-*
+>
 language
 ;
 /
