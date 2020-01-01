@@ -216,6 +216,8 @@ PTestDescSubParent
 *
 AllocPTestDescSub
 (
+PTestDescSubsubParent
+*
 )
 ;
 NS_OVERRIDE
@@ -295,6 +297,8 @@ PTestDescSubChild
 *
 AllocPTestDescSub
 (
+PTestDescSubsubChild
+*
 )
 ;
 NS_OVERRIDE
