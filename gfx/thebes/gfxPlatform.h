@@ -2909,11 +2909,6 @@ char
 aPref
 )
 ;
-void
-OrientationSyncPrefsObserverChanged
-(
-)
-;
 int32_t
 GetBidiNumeralOption
 (
@@ -3055,12 +3050,6 @@ return
 mWidgetUpdateFlashing
 ;
 }
-uint32_t
-GetOrientationSyncMillis
-(
-)
-const
-;
 protected
 :
 gfxPlatform
@@ -3519,12 +3508,6 @@ nsIObserver
 >
 mFontPrefsObserver
 ;
-nsCOMPtr
-<
-nsIObserver
->
-mOrientationSyncPrefsObserver
-;
 /
 /
 The
@@ -3619,9 +3602,6 @@ mRecorder
 ;
 bool
 mWidgetUpdateFlashing
-;
-uint32_t
-mOrientationSyncMillis
 ;
 }
 ;
