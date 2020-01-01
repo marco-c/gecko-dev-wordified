@@ -1230,7 +1230,7 @@ afterMilliseconds
 void
 SetIdleTimeout
 (
-PRUint16
+PRIntervalTime
 val
 )
 {
@@ -1413,6 +1413,11 @@ OnSocketReadable
 ;
 nsresult
 SetupProxyConnect
+(
+)
+;
+PRIntervalTime
+IdleTime
 (
 )
 ;
@@ -1607,7 +1612,7 @@ mConnInfo
 PRUint32
 mLastReadTime
 ;
-PRUint16
+PRIntervalTime
 mMaxHangTime
 ;
 /
@@ -1621,7 +1626,7 @@ keep
 -
 alive
 status
-PRUint16
+PRIntervalTime
 mIdleTimeout
 ;
 /
