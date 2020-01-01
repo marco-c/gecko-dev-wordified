@@ -3061,6 +3061,7 @@ nsGkAtoms
 :
 stdDeviation
 0
+PR_FALSE
 }
 {
 &
@@ -3069,6 +3070,7 @@ nsGkAtoms
 :
 stdDeviation
 0
+PR_FALSE
 }
 }
 ;
@@ -10046,6 +10048,7 @@ nsGkAtoms
 :
 k1
 0
+PR_FALSE
 }
 {
 &
@@ -10054,6 +10057,7 @@ nsGkAtoms
 :
 k2
 0
+PR_FALSE
 }
 {
 &
@@ -10062,6 +10066,7 @@ nsGkAtoms
 :
 k3
 0
+PR_FALSE
 }
 {
 &
@@ -10070,6 +10075,7 @@ nsGkAtoms
 :
 k4
 0
+PR_FALSE
 }
 }
 ;
@@ -13203,6 +13209,7 @@ nsGkAtoms
 :
 slope
 1
+PR_FALSE
 }
 {
 &
@@ -13211,6 +13218,7 @@ nsGkAtoms
 :
 intercept
 0
+PR_FALSE
 }
 {
 &
@@ -13219,6 +13227,7 @@ nsGkAtoms
 :
 amplitude
 1
+PR_FALSE
 }
 {
 &
@@ -13227,6 +13236,7 @@ nsGkAtoms
 :
 exponent
 1
+PR_FALSE
 }
 {
 &
@@ -13235,6 +13245,7 @@ nsGkAtoms
 :
 offset
 0
+PR_FALSE
 }
 }
 ;
@@ -16800,6 +16811,7 @@ nsGkAtoms
 :
 dx
 0
+PR_FALSE
 }
 {
 &
@@ -16808,6 +16820,7 @@ nsGkAtoms
 :
 dy
 0
+PR_FALSE
 }
 }
 ;
@@ -20907,6 +20920,7 @@ nsGkAtoms
 :
 baseFrequency
 0
+PR_FALSE
 }
 {
 &
@@ -20915,6 +20929,7 @@ nsGkAtoms
 :
 baseFrequency
 0
+PR_FALSE
 }
 {
 &
@@ -20923,6 +20938,7 @@ nsGkAtoms
 :
 seed
 0
+PR_FALSE
 }
 }
 ;
@@ -24177,6 +24193,7 @@ nsGkAtoms
 :
 radius
 0
+PR_FALSE
 }
 {
 &
@@ -24185,6 +24202,7 @@ nsGkAtoms
 :
 radius
 0
+PR_FALSE
 }
 }
 ;
@@ -26546,6 +26564,7 @@ nsGkAtoms
 :
 divisor
 1
+PR_FALSE
 }
 {
 &
@@ -26554,6 +26573,7 @@ nsGkAtoms
 :
 bias
 0
+PR_FALSE
 }
 {
 &
@@ -26562,6 +26582,7 @@ nsGkAtoms
 :
 kernelUnitLength
 0
+PR_FALSE
 }
 {
 &
@@ -26570,6 +26591,7 @@ nsGkAtoms
 :
 kernelUnitLength
 0
+PR_FALSE
 }
 }
 ;
@@ -29035,6 +29057,7 @@ nsGkAtoms
 :
 azimuth
 0
+PR_FALSE
 }
 {
 &
@@ -29043,6 +29066,7 @@ nsGkAtoms
 :
 elevation
 0
+PR_FALSE
 }
 }
 ;
@@ -29697,6 +29721,7 @@ nsGkAtoms
 :
 x
 0
+PR_FALSE
 }
 {
 &
@@ -29705,6 +29730,7 @@ nsGkAtoms
 :
 y
 0
+PR_FALSE
 }
 {
 &
@@ -29713,6 +29739,7 @@ nsGkAtoms
 :
 z
 0
+PR_FALSE
 }
 }
 ;
@@ -30397,6 +30424,7 @@ nsGkAtoms
 :
 x
 0
+PR_FALSE
 }
 {
 &
@@ -30405,6 +30433,7 @@ nsGkAtoms
 :
 y
 0
+PR_FALSE
 }
 {
 &
@@ -30413,6 +30442,7 @@ nsGkAtoms
 :
 z
 0
+PR_FALSE
 }
 {
 &
@@ -30421,6 +30451,7 @@ nsGkAtoms
 :
 pointsAtX
 0
+PR_FALSE
 }
 {
 &
@@ -30429,6 +30460,7 @@ nsGkAtoms
 :
 pointsAtY
 0
+PR_FALSE
 }
 {
 &
@@ -30437,6 +30469,7 @@ nsGkAtoms
 :
 pointsAtZ
 0
+PR_FALSE
 }
 {
 &
@@ -30445,6 +30478,7 @@ nsGkAtoms
 :
 specularExponent
 1
+PR_FALSE
 }
 {
 &
@@ -30453,6 +30487,7 @@ nsGkAtoms
 :
 limitingConeAngle
 0
+PR_FALSE
 }
 }
 ;
@@ -31376,6 +31411,7 @@ nsGkAtoms
 :
 surfaceScale
 1
+PR_FALSE
 }
 {
 &
@@ -31384,6 +31420,7 @@ nsGkAtoms
 :
 diffuseConstant
 1
+PR_FALSE
 }
 {
 &
@@ -31392,6 +31429,7 @@ nsGkAtoms
 :
 specularConstant
 1
+PR_FALSE
 }
 {
 &
@@ -31400,6 +31438,7 @@ nsGkAtoms
 :
 specularExponent
 1
+PR_FALSE
 }
 {
 &
@@ -31408,6 +31447,7 @@ nsGkAtoms
 :
 kernelUnitLength
 0
+PR_FALSE
 }
 {
 &
@@ -31416,6 +31456,7 @@ nsGkAtoms
 :
 kernelUnitLength
 0
+PR_FALSE
 }
 }
 ;
@@ -38310,6 +38351,7 @@ nsGkAtoms
 :
 scale
 0
+PR_FALSE
 }
 }
 ;
