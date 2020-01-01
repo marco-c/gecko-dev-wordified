@@ -446,7 +446,7 @@ new
 pointer
 for
 |
-ptr
+p
 |
 restricted
 to
@@ -466,7 +466,7 @@ create
 (
 T
 *
-ptr
+p
 )
 const
 {
@@ -479,7 +479,7 @@ RangedPtr
 T
 >
 (
-ptr
+p
 rangeStart
 rangeEnd
 )
@@ -492,7 +492,7 @@ RangedPtr
 T
 >
 (
-ptr
+p
 NULL
 size_t
 (

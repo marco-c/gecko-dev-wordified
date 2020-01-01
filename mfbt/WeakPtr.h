@@ -732,12 +732,12 @@ WeakReference
 (
 T
 *
-ptr
+p
 )
 :
 ptr
 (
-ptr
+p
 )
 {
 }
