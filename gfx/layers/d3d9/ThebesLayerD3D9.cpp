@@ -2940,10 +2940,10 @@ gfxWindowsSurface
 (
 gfxIntSize
 (
-bounds
+scaledSize
 .
 width
-bounds
+scaledSize
 .
 height
 )
