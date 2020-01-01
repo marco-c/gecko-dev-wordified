@@ -395,10 +395,6 @@ BLOCK
 *
 *
 /
-eval
-(
-)
-;
 const
 Cc
 =
