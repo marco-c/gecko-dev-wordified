@@ -3160,6 +3160,13 @@ mMetrics
 .
 xHeight
 ;
+SanitizeMetrics
+(
+&
+mMetrics
+PR_FALSE
+)
+;
 #
 if
 0
