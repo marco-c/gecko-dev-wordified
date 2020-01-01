@@ -1285,7 +1285,13 @@ mNode
 >
 DoneAddingChildren
 (
-PR_FALSE
+aBuilder
+-
+>
+HaveNotified
+(
+mNode
+)
 )
 ;
 return
