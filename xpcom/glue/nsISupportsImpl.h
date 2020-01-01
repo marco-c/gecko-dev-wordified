@@ -2118,8 +2118,9 @@ this
 _class
 :
 :
-NS_CYCLE_COLLECTION_INNERNAME
-.
+NS_CYCLE_COLLECTION_INNERCLASS
+:
+:
 GetParticipant
 (
 )
