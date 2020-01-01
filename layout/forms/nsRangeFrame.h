@@ -111,6 +111,15 @@ h
 #
 include
 "
+mozilla
+/
+Decimal
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -653,7 +662,10 @@ ShouldUseNativeStyle
 )
 const
 ;
-double
+mozilla
+:
+:
+Decimal
 GetValueAtEventPoint
 (
 nsGUIEvent
