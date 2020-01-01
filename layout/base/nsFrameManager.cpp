@@ -9544,11 +9544,6 @@ nsChangeHint_ReconstructFrame
 )
 )
 {
-A11yNotificationType
-ourA11yNotification
-=
-eDontNotify
-;
 DesiredA11yNotifications
 kidsDesiredA11yNotification
 =
@@ -9557,6 +9552,11 @@ aDesiredA11yNotifications
 #
 ifdef
 ACCESSIBILITY
+A11yNotificationType
+ourA11yNotification
+=
+eDontNotify
+;
 /
 /
 Notify
