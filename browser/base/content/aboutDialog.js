@@ -399,6 +399,12 @@ appUpdater
 (
 )
 ;
+#
+if
+MOZ_UPDATE_CHANNEL
+!
+=
+release
 let
 defaults
 =
@@ -441,6 +447,8 @@ channel
 "
 )
 ;
+#
+endif
 #
 endif
 #
