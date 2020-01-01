@@ -2320,6 +2320,10 @@ if
 context
 )
 {
+StartDragSession
+(
+)
+;
 /
 /
 GTK
@@ -2401,10 +2405,6 @@ NS_ERROR_FAILURE
 gtk_target_list_unref
 (
 sourceList
-)
-;
-StartDragSession
-(
 )
 ;
 return
