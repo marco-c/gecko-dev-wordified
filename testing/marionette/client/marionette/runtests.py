@@ -674,7 +674,8 @@ stream
 writeln
 (
 '
-START
+\
+nSTART
 LOG
 :
 '
@@ -1205,15 +1206,15 @@ startTime
         
 result
 .
-printErrors
+printLogs
 (
+test
 )
         
 result
 .
-printLogs
+printErrors
 (
-test
 )
         
 if
