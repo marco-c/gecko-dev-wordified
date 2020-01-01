@@ -820,7 +820,7 @@ v
 )
 (
 (
-JSGCThing
+void
 *
 )
 JSVAL_CLRTAG
