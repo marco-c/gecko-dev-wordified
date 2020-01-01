@@ -685,15 +685,6 @@ nsIXULRuntime
 h
 "
 #
-include
-"
-mozilla
-/
-Omnijar
-.
-h
-"
-#
 define
 UILOCALE_CMD_LINE_ARG
 "
@@ -4258,9 +4249,6 @@ return
 NULL
 ;
 }
-#
-ifdef
-MOZ_OMNIJAR
 if
 (
 mPath
@@ -4340,8 +4328,6 @@ io
 ;
 }
 else
-#
-endif
 {
 io
 -

@@ -497,6 +497,9 @@ file
 *
 /
 #
+ifndef
+PL_ARENA_CONST_ALIGN_MASK
+#
 define
 PL_ARENA_CONST_ALIGN_MASK
 (
@@ -508,6 +511,8 @@ void
 -
 1
 )
+#
+endif
 #
 include
 "
