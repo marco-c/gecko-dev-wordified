@@ -3560,6 +3560,7 @@ RGB24
 *
 /
 void
+THEBES_API
 ReadPixelsIntoImageSurface
 (
 GLint
