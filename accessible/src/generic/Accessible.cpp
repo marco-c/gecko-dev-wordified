@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsIAccessibleRole
+.
+h
+"
+#
+include
+"
 nsEventShell
 .
 h
