@@ -625,12 +625,6 @@ ContextStack
 class
 ScriptFrameIter
 ;
-class
-CallReceiver
-;
-class
-CallArgs
-;
 struct
 BytecodeEmitter
 ;
