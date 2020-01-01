@@ -18782,8 +18782,8 @@ data
 =
 =
 null
-&
-&
+|
+|
 resultCode
 !
 =
