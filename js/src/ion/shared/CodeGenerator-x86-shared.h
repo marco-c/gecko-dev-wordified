@@ -722,6 +722,15 @@ ins
 ;
 virtual
 bool
+visitMulI
+(
+LMulI
+*
+ins
+)
+;
+virtual
+bool
 visitBitNot
 (
 LBitNot

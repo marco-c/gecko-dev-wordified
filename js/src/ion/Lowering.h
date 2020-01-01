@@ -735,6 +735,14 @@ ins
 )
 ;
 bool
+visitMul
+(
+MMul
+*
+ins
+)
+;
+bool
 visitStart
 (
 MStart
