@@ -2979,7 +2979,7 @@ static
 nsresult
 InsertElement
 (
-nsIContent
+nsINode
 *
 aParent
 nsIContent
@@ -2993,10 +2993,10 @@ static
 nsresult
 RemoveElement
 (
-nsIContent
+nsINode
 *
 aParent
-nsIContent
+nsINode
 *
 aChild
 )
