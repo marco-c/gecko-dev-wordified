@@ -10357,6 +10357,13 @@ return
 }
 if
 (
+!
+message
+)
+return
+;
+if
+(
 gNPPException
 )
 {
