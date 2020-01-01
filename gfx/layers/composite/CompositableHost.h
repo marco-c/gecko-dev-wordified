@@ -953,7 +953,7 @@ later
 /
 virtual
 void
-EnsureTextureHost
+EnsureTextureHostIncremental
 (
 ISurfaceAllocator
 *

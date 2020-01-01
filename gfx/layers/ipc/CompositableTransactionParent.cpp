@@ -375,7 +375,7 @@ GetCompositableHost
 compositable
 -
 >
-EnsureTextureHost
+EnsureTextureHostIncremental
 (
 compositableParent
 -

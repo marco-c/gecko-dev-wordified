@@ -1222,7 +1222,7 @@ BUFFER_CONTENT
 }
 virtual
 void
-EnsureTextureHost
+EnsureTextureHostIncremental
 (
 ISurfaceAllocator
 *
