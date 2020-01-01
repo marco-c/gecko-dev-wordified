@@ -20940,6 +20940,7 @@ supported
 .
 JS_ASSERT
 (
+!
 script
 (
 )
