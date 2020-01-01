@@ -775,6 +775,9 @@ ltime
 #
 else
 return
+(
+JSInt32
+)
 mktime
 (
 &

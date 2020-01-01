@@ -12152,6 +12152,9 @@ parent
 ;
 depth
 =
+(
+uint16
+)
 OBJ_BLOCK_DEPTH
 (
 cx
@@ -12160,6 +12163,9 @@ obj
 ;
 count
 =
+(
+uint16
+)
 OBJ_BLOCK_COUNT
 (
 cx
