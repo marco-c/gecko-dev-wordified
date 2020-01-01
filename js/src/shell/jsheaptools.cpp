@@ -193,8 +193,8 @@ Original
 Code
 is
 JavaScript
-shell
-workers
+heap
+tools
 .
 *
 *
@@ -240,10 +240,10 @@ s
 )
 :
 *
-Jason
-Orendorff
+Jim
+Blandy
 <
-jorendorff
+jimb
 mozilla
 .
 com
