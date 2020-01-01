@@ -4527,6 +4527,9 @@ JSSLOT_ARRAY_LENGTH
 ]
 =
 =
+(
+jsval
+)
 len
 )
 ;
@@ -6788,6 +6791,9 @@ gotten
 here
 "
 )
+;
+return
+false
 ;
 }
 }
