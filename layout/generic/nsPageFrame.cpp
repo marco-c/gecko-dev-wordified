@@ -1458,6 +1458,10 @@ mPD
 -
 >
 mPageNumAndTotalsFormat
+.
+get
+(
+)
 mPageNum
 mTotNumPages
 )
@@ -1544,6 +1548,10 @@ mPD
 -
 >
 mPageNumFormat
+.
+get
+(
+)
 mPageNum
 )
 ;
@@ -1687,6 +1695,10 @@ mPD
 -
 >
 mPageNumFormat
+.
+get
+(
+)
 mTotNumPages
 )
 ;

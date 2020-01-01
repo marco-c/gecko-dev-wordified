@@ -251,12 +251,10 @@ nsFont
 *
 mHeadFootFont
 ;
-PRUnichar
-*
+nsString
 mPageNumFormat
 ;
-PRUnichar
-*
+nsString
 mPageNumAndTotalsFormat
 ;
 nsString
@@ -727,8 +725,9 @@ aDateTimeStr
 void
 SetPageNumberFormat
 (
-PRUnichar
-*
+const
+nsAString
+&
 aFormatStr
 bool
 aForPageNumOnly
