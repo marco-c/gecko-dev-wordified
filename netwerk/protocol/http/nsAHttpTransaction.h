@@ -415,6 +415,9 @@ nsAHttpSegmentWriter
 class
 nsIInterfaceRequestor
 ;
+class
+nsIEventTarget
+;
 /
 /
 -
@@ -699,6 +702,9 @@ GetSecurityCallbacks
 nsIInterfaceRequestor
 *
 *
+nsIEventTarget
+*
+*
 )
 =
 0
@@ -863,6 +869,10 @@ void
 GetSecurityCallbacks
 (
 nsIInterfaceRequestor
+*
+*
+\
+nsIEventTarget
 *
 *
 )
