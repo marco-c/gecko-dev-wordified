@@ -2774,6 +2774,15 @@ output
 close
 (
 )
+  
+return
+"
+"
+.
+join
+(
+all_sources
+)
 def
 main
 (

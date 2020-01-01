@@ -402,6 +402,8 @@ messages_file
 combined_file
 )
     
+combined_sources
+=
 js2c
 .
 JS2C
@@ -434,6 +436,25 @@ DEBUG
 :
 debug
 }
+)
+    
+with
+open
+(
+combined_file
+'
+w
+'
+)
+as
+output
+:
+        
+output
+.
+write
+(
+combined_sources
 )
 if
 __name__
