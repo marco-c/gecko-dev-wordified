@@ -1925,6 +1925,11 @@ origin
 this
 .
 origin
+manifestURL
+:
+this
+.
+manifestURL
 startPoint
 :
 aStartPoint
