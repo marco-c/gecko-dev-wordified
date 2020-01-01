@@ -156,8 +156,10 @@ MySpell
 )
 *
 and
-Laszlo
-Nemeth
+L
+szl
+N
+meth
 (
 Hunspell
 )
