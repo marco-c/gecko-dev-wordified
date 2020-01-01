@@ -1208,6 +1208,9 @@ nsIFile
 *
 *
 aDump
+PRUint32
+*
+aSequence
 )
 {
 return
@@ -1218,6 +1221,7 @@ TakeMinidumpForChild
 (
 aChildPid
 aDump
+aSequence
 )
 ;
 }

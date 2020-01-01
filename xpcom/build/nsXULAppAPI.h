@@ -2237,6 +2237,9 @@ nsIFile
 *
 *
 aDump
+PRUint32
+*
+aSequence
 )
 )
 /

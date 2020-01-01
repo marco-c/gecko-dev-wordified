@@ -336,6 +336,18 @@ AnnotationTable
 processNotes
 )
 ;
+bool
+GenerateCrashReportForMinidump
+(
+nsIFile
+*
+minidump
+const
+AnnotationTable
+*
+processNotes
+)
+;
 /
 *
 Instantiate
@@ -737,6 +749,7 @@ getter_AddRefs
 (
 crashDump
 )
+NULL
 )
 &
 &
