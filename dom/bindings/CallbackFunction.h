@@ -227,7 +227,7 @@ MOZ_ASSERT
 JS_ObjectIsCallable
 (
 nullptr
-aCallable
+mCallback
 )
 )
 ;

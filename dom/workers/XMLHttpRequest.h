@@ -502,9 +502,16 @@ JSContext
 unused
 *
 /
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aListener
+\
 ErrorResult
 &
 aRv
