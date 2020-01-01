@@ -1013,6 +1013,10 @@ aThreadID
 struct
 LayerTreeState
 {
+LayerTreeState
+(
+)
+;
 nsRefPtr
 <
 Layer
