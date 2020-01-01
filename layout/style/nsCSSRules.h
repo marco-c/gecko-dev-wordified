@@ -1671,6 +1671,15 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+void
+DoGetKeyText
+(
+nsAString
+&
+aKeyText
+)
+const
+;
 private
 :
 nsAutoTArray
