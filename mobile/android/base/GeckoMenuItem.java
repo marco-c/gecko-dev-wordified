@@ -961,9 +961,8 @@ mActionItem
 =
 (
 actionEnum
-=
-=
-1
+>
+0
 )
 )
 return
@@ -971,9 +970,8 @@ return
 if
 (
 actionEnum
-=
-=
-1
+>
+0
 )
 {
 if
@@ -1029,9 +1027,8 @@ mActionItem
 =
 (
 actionEnum
-=
-=
-1
+>
+0
 )
 ;
 mLayout
