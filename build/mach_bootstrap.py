@@ -355,6 +355,14 @@ mozbase
 /
 mozinfo
 '
+    
+'
+xpcom
+/
+idl
+-
+parser
+'
 ]
 #
 Individual
