@@ -3942,11 +3942,7 @@ if
 lastCharset
 )
 {
-try
-{
 PlacesUtils
-.
-history
 .
 setCharsetForURI
 (
@@ -3956,13 +3952,6 @@ previousLink
 lastCharset
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 }
 }
 _handleContainerBegin

@@ -3826,8 +3826,6 @@ window
 )
 PlacesUtils
 .
-history
-.
 setCharsetForURI
 (
 this

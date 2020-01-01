@@ -2078,8 +2078,6 @@ contentWindow
 )
 PlacesUtils
 .
-history
-.
 setCharsetForURI
 (
 uri

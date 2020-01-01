@@ -38233,8 +38233,6 @@ window
 )
 PlacesUtils
 .
-history
-.
 setCharsetForURI
 (
 getWebNavigation
