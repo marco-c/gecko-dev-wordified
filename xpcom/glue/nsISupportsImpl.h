@@ -2193,8 +2193,10 @@ stabilize
 *
 /
 \
-delete
+NS_DELETEXPCOM
+(
 this
+)
 ;
 \
 }
@@ -2789,7 +2791,7 @@ _class
 NS_IMPL_RELEASE_WITH_DESTROY
 (
 _class
-delete
+NS_DELETEXPCOM
 (
 this
 )
@@ -3147,7 +3149,7 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE_FULL
 (
 _class
 _basetype
-delete
+NS_DELETEXPCOM
 (
 this
 )
@@ -3163,7 +3165,7 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE_FULL
 (
 _class
 _class
-delete
+NS_DELETEXPCOM
 (
 this
 )
@@ -7937,7 +7939,7 @@ _class
 *
 /
 \
-delete
+NS_DELETEXPCOM
 (
 this
 )

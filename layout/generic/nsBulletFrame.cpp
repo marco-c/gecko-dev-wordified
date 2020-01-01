@@ -911,10 +911,11 @@ mListener
 nsBulletListener
 *
 listener
-=
-new
-nsBulletListener
+;
+NS_NEWXPCOM
 (
+listener
+nsBulletListener
 )
 ;
 NS_ADDREF

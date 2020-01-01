@@ -817,6 +817,10 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
+mozInlineSpellChecker
+*
+inst
+;
 *
 aResult
 =
@@ -838,13 +842,10 @@ return
 rv
 ;
 }
-mozInlineSpellChecker
-*
-inst
-=
-new
-mozInlineSpellChecker
+NS_NEWXPCOM
 (
+inst
+mozInlineSpellChecker
 )
 ;
 if

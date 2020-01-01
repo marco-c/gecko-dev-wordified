@@ -6292,9 +6292,11 @@ s
 the
 case
 where
+neither
+NS_NEWXPCOM
+nor
 MOZ_COUNT_CTOR
-was
-not
+were
 used
 /
 /
@@ -6825,9 +6827,11 @@ s
 the
 case
 where
+neither
+NS_DELETEXPCOM
+nor
 MOZ_COUNT_DTOR
-was
-not
+were
 used
 /
 /

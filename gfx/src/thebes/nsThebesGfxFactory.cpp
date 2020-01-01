@@ -585,10 +585,11 @@ nsCOMPtr
 nsIRegion
 >
 rgn
-=
-new
-nsThebesRegion
+;
+NS_NEWXPCOM
 (
+rgn
+nsThebesRegion
 )
 ;
 nsCOMPtr
