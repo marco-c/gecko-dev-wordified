@@ -2782,6 +2782,12 @@ SetCharset
 {
 docShell
 .
+gatherCharsetMenuTelemetry
+(
+)
+;
+docShell
+.
 charset
 =
 json
