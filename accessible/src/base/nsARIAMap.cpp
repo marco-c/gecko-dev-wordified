@@ -796,7 +796,7 @@ nsIAccessibleRole
 :
 ROLE_COLUMNHEADER
 eNoValue
-eNoAction
+eSortAction
 eNoLiveAttr
 kNoReqStates
 {
@@ -1745,7 +1745,7 @@ nsIAccessibleRole
 :
 ROLE_ROWHEADER
 eNoValue
-eNoAction
+eSortAction
 eNoLiveAttr
 kNoReqStates
 {
