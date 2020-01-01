@@ -501,7 +501,7 @@ numVirtualRegisters_
 (
 0
 )
-stackHeight_
+localSlotCount_
 (
 0
 )

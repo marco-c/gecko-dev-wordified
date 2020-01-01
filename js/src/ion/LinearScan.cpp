@@ -7004,7 +7004,7 @@ stack
 height
 graph
 .
-setStackHeight
+setLocalSlotCount
 (
 stackAssignment
 .

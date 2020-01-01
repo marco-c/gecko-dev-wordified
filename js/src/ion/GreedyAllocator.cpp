@@ -6262,7 +6262,7 @@ false
 ;
 graph
 .
-setStackHeight
+setLocalSlotCount
 (
 stackSlots
 .
