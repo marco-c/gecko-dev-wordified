@@ -519,6 +519,9 @@ startup
 "
 nsAlertsService
 "
+"
+service
+"
 NS_ALERTSERVICE_CONTRACTID
 PR_TRUE
 PR_TRUE
