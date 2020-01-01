@@ -496,9 +496,9 @@ aDocument
 nsIContent
 *
 aRootContent
-nsIWeakReference
+nsIPresShell
 *
-aShell
+aPresShell
 )
 ;
 virtual

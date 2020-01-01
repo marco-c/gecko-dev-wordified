@@ -1745,11 +1745,6 @@ nsAccTreeWalker
 walker
 (
 mDoc
--
->
-GetWeakShell
-(
-)
 mContent
 true
 )

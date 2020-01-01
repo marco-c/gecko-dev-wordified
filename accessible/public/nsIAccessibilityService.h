@@ -590,7 +590,7 @@ node
 virtual
 nsAccessible
 *
-GetAccessibleInShell
+GetAccessible
 (
 nsINode
 *

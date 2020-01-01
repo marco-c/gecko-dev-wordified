@@ -1066,6 +1066,7 @@ GetAccService
 GetAccessible
 (
 currNode
+nsnull
 )
 :
 nsnull
@@ -1317,6 +1318,7 @@ GetAccService
 GetAccessible
 (
 itemNode
+nsnull
 )
 :
 nsnull
@@ -1459,6 +1461,7 @@ GetAccService
 GetAccessible
 (
 itemNode
+nsnull
 )
 :
 nsnull
@@ -2349,6 +2352,7 @@ GetAccService
 GetAccessible
 (
 aNode
+nsnull
 )
 ;
 if

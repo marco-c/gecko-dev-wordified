@@ -4405,6 +4405,7 @@ GetAccService
 GetAccessible
 (
 menuItemNode
+nsnull
 )
 ;
 }

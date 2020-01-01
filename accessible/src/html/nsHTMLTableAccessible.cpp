@@ -3446,11 +3446,6 @@ nsAccTreeWalker
 walker
 (
 mDoc
--
->
-GetWeakShell
-(
-)
 mContent
 CanHaveAnonChildren
 (
