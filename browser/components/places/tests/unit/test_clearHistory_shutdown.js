@@ -494,6 +494,9 @@ default
 bookmarks
 import
 .
+let
+glue
+=
 Cc
 [
 "
@@ -515,6 +518,8 @@ Ci
 .
 nsIObserver
 )
+;
+glue
 .
 observe
 (
@@ -523,6 +528,14 @@ null
 initial
 -
 migration
+-
+will
+-
+import
+-
+default
+-
+bookmarks
 "
 null
 )
