@@ -233,6 +233,13 @@ run
 }
 else
 {
+BrowserUI
+.
+closeAutoComplete
+(
+true
+)
+;
 finish
 (
 )

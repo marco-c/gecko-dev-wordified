@@ -1441,6 +1441,7 @@ for
 Show
 images
 *
+var
 images
 =
 expected
