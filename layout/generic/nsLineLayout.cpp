@@ -19470,6 +19470,17 @@ pfd
 >
 GetFlag
 (
+PFD_ISTEXTFRAME
+)
+)
+{
+if
+(
+pfd
+-
+>
+GetFlag
+(
 PFD_RECOMPUTEOVERFLOW
 )
 )
@@ -19512,6 +19523,7 @@ GetSize
 )
 )
 ;
+}
 /
 /
 If
