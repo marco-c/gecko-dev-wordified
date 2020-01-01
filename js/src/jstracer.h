@@ -5017,14 +5017,6 @@ BUILTIN_BAILED
 BUILTIN_ERROR
 =
 2
-BUILTIN_NO_FIXUP_NEEDED
-=
-4
-BUILTIN_ERROR_NO_FIXUP_NEEDED
-=
-BUILTIN_ERROR
-|
-BUILTIN_NO_FIXUP_NEEDED
 }
 BuiltinStatus
 ;
@@ -5036,10 +5028,6 @@ SetBuiltinError
 JSContext
 *
 cx
-BuiltinStatus
-status
-=
-BUILTIN_ERROR
 )
 {
 cx
@@ -5051,7 +5039,7 @@ tracerState
 builtinStatus
 |
 =
-status
+BUILTIN_ERROR
 ;
 }
 #
