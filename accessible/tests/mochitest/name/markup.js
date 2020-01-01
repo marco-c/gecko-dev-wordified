@@ -113,7 +113,7 @@ stuff
 var
 gDumpToConsole
 =
-false
+true
 ;
 /
 *
