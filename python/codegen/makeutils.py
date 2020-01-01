@@ -55,6 +55,8 @@ MPL
 .
 import
 errno
+import
+os
 dependencies
 =
 [
