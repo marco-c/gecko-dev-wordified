@@ -1786,7 +1786,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -2311,7 +2311,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -4181,7 +4181,7 @@ pn2
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 pn2
@@ -4198,7 +4198,7 @@ pn2
 >
 isKind
 (
-TOK_ARGSBODY
+PNK_ARGSBODY
 )
 )
 pn2
@@ -4218,7 +4218,7 @@ pn2
 >
 isKind
 (
-TOK_LC
+PNK_LC
 )
 )
 returnsExpr
@@ -4568,7 +4568,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -4855,14 +4855,18 @@ default
 :
 /
 *
-js_EmitTree
+js
+:
+:
+frontend
+:
+:
+EmitTree
 '
 s
+PNK_FUNCTION
 case
-TOK_FUNCTION
-:
-will
-select
+sets
 op
 .
 *
@@ -4899,7 +4903,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {

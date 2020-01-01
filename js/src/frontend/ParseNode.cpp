@@ -703,7 +703,7 @@ this
 >
 isKind
 (
-TOK_FUNCTION
+PNK_FUNCTION
 )
 &
 &
@@ -820,7 +820,7 @@ clear
 {
 pn_type
 =
-TOK_EOF
+PNK_LIMIT
 ;
 setOp
 (
@@ -2697,6 +2697,8 @@ ParseNode
 :
 create
 (
+ParseNodeKind
+kind
 ParseNodeArity
 arity
 TreeContext
@@ -2736,9 +2738,7 @@ new_
 ParseNode
 >
 (
-tok
-.
-type
+kind
 JSOP_NOP
 arity
 tok
@@ -2754,8 +2754,8 @@ ParseNode
 :
 append
 (
-TokenKind
-tt
+ParseNodeKind
+kind
 JSOp
 op
 ParseNode
@@ -2785,7 +2785,7 @@ left
 >
 isKind
 (
-tt
+kind
 )
 &
 &
@@ -2870,10 +2870,10 @@ pn2
 ;
 if
 (
-tt
+kind
 =
 =
-TOK_PLUS
+PNK_PLUS
 )
 {
 if
@@ -2883,7 +2883,7 @@ pn1
 >
 isKind
 (
-TOK_STRING
+PNK_STRING
 )
 )
 left
@@ -2903,7 +2903,7 @@ pn1
 >
 isKind
 (
-TOK_NUMBER
+PNK_NUMBER
 )
 )
 left
@@ -2921,7 +2921,7 @@ pn2
 >
 isKind
 (
-TOK_STRING
+PNK_STRING
 )
 )
 left
@@ -2941,7 +2941,7 @@ pn2
 >
 isKind
 (
-TOK_NUMBER
+PNK_NUMBER
 )
 )
 left
@@ -2978,10 +2978,10 @@ end
 ;
 if
 (
-tt
+kind
 =
 =
-TOK_PLUS
+PNK_PLUS
 )
 {
 if
@@ -2991,7 +2991,7 @@ right
 >
 isKind
 (
-TOK_STRING
+PNK_STRING
 )
 )
 left
@@ -3011,7 +3011,7 @@ right
 >
 isKind
 (
-TOK_NUMBER
+PNK_NUMBER
 )
 )
 left
@@ -3034,8 +3034,8 @@ ParseNode
 :
 newBinaryOrAppend
 (
-TokenKind
-tt
+ParseNodeKind
+kind
 JSOp
 op
 ParseNode
@@ -3099,7 +3099,7 @@ left
 >
 isKind
 (
-tt
+kind
 )
 &
 &
@@ -3126,7 +3126,7 @@ JOF_LEFTASSOC
 return
 append
 (
-tt
+kind
 op
 left
 right
@@ -3203,10 +3203,10 @@ not
 /
 if
 (
-tt
+kind
 =
 =
-TOK_PLUS
+PNK_PLUS
 &
 &
 left
@@ -3214,7 +3214,7 @@ left
 >
 isKind
 (
-TOK_NUMBER
+PNK_NUMBER
 )
 &
 &
@@ -3223,7 +3223,7 @@ right
 >
 isKind
 (
-TOK_NUMBER
+PNK_NUMBER
 )
 &
 &
@@ -3285,7 +3285,7 @@ new_
 BinaryNode
 >
 (
-tt
+kind
 op
 left
 right
@@ -3299,6 +3299,8 @@ NameNode
 :
 create
 (
+ParseNodeKind
+kind
 JSAtom
 *
 atom
@@ -3316,6 +3318,7 @@ ParseNode
 :
 create
 (
+kind
 PN_NAME
 tc
 )
@@ -4406,7 +4409,7 @@ opn
 >
 isKind
 (
-TOK_RB
+PNK_RB
 )
 |
 |
@@ -4415,7 +4418,7 @@ opn
 >
 isKind
 (
-TOK_RC
+PNK_RC
 )
 )
 ;
@@ -4458,7 +4461,7 @@ opn
 >
 isKind
 (
-TOK_RC
+PNK_RC
 )
 )
 {
@@ -4480,7 +4483,7 @@ opn2
 >
 isKind
 (
-TOK_COLON
+PNK_COLON
 )
 )
 ;
@@ -4539,7 +4542,7 @@ new_
 BinaryNode
 >
 (
-TOK_COLON
+PNK_COLON
 JSOP_INITPROP
 opn2
 -
@@ -4569,7 +4572,7 @@ opn2
 >
 isKind
 (
-TOK_COMMA
+PNK_COMMA
 )
 )
 ;
@@ -4644,7 +4647,7 @@ opn
 >
 isKind
 (
-TOK_NAME
+PNK_NAME
 )
 )
 ;
