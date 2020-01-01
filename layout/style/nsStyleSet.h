@@ -2423,6 +2423,8 @@ aFunc
 RuleProcessorData
 *
 aData
+PRBool
+aWalkAllXBLStylesheets
 )
 ;
 already_AddRefed

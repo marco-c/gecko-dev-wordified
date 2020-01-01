@@ -4031,12 +4031,12 @@ mRuleHash
 (
 aQuirksMode
 )
+mStateSelectors
+(
+)
 mSelectorDocumentStates
 (
 0
-)
-mStateSelectors
-(
 )
 mCacheKey
 (
