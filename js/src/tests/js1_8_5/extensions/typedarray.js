@@ -1664,6 +1664,18 @@ Uint8Array
 3
 )
 ;
+/
+/
+XXX
+these
+are
+ignored
+now
+and
+return
+undefined
+/
+/
 checkThrows
 (
 function
@@ -1677,6 +1689,8 @@ a
 0
 )
 ;
+/
+/
 checkThrows
 (
 function
@@ -1692,6 +1706,8 @@ hello
 0
 )
 ;
+/
+/
 checkThrows
 (
 function
