@@ -388,6 +388,12 @@ BluetoothRilListener
 >
 mListener
 ;
+nsRefPtr
+<
+BluetoothReplyRunnable
+>
+mRunnable
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
