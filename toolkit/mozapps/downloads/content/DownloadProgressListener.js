@@ -479,7 +479,7 @@ aStringBundle
 getString
 (
 "
-statusFormat
+statusFormat2
 "
 )
 ;
