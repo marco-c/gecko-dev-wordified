@@ -450,6 +450,13 @@ h
 #
 include
 "
+nsSVGUtils
+.
+h
+"
+#
+include
+"
 nsTextFormatter
 .
 h
@@ -1141,7 +1148,7 @@ while
 rest
 &
 &
-isspace
+IsSVGWhitespace
 (
 *
 rest

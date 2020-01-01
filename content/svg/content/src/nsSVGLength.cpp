@@ -2065,7 +2065,7 @@ while
 number
 &
 &
-isspace
+IsSVGWhitespace
 (
 *
 number
