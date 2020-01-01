@@ -43964,7 +43964,7 @@ endif
 OnMouseWheel
 -
 mouse
-wheele
+wheel
 event
 processing
 .
@@ -44329,6 +44329,7 @@ to
 the
 child
 window
+.
 PRBool
 quit
 ;
@@ -44353,7 +44354,9 @@ quit
 return
 immediately
 if
-its
+it
+'
+s
 not
 our
 window
