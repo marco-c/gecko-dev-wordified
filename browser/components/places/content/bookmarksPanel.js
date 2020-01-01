@@ -516,7 +516,6 @@ tree
 applyFilter
 (
 aSearchString
-true
 [
 PlacesUtils
 .
