@@ -847,6 +847,8 @@ mCheckerboardColor
 private
 boolean
 mCheckerboardShouldShowChecks
+=
+true
 ;
 private
 boolean
