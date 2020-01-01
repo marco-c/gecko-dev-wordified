@@ -7260,6 +7260,7 @@ lccx
 GetJSContext
 (
 )
+xpcscope
 )
 ;
 if

@@ -6368,6 +6368,7 @@ isNative
 JS_ASSERT_IF
 (
 globalObj
+JSCLASS_HAS_GLOBAL_FLAG_AND_SLOTS
 (
 globalObj
 -
@@ -6375,15 +6376,7 @@ globalObj
 getClass
 (
 )
--
->
-flags
-&
-JSCLASS_GLOBAL_FLAGS
 )
-=
-=
-JSCLASS_GLOBAL_FLAGS
 )
 ;
 /

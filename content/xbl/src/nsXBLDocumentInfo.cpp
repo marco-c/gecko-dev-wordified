@@ -1197,11 +1197,7 @@ nsXBLPrototypeScript
 compilation
 scope
 "
-JSCLASS_HAS_PRIVATE
-|
-JSCLASS_PRIVATE_IS_NSISUPPORTS
-|
-JSCLASS_GLOBAL_FLAGS
+XPCONNECT_GLOBAL_FLAGS
 JS_PropertyStub
 JS_PropertyStub
 nsXBLDocGlobalObject_getProperty
@@ -1212,6 +1208,11 @@ JS_ConvertStub
 nsXBLDocGlobalObject_finalize
 NULL
 nsXBLDocGlobalObject_checkAccess
+NULL
+NULL
+NULL
+NULL
+TraceXPCGlobal
 }
 ;
 /

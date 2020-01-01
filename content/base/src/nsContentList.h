@@ -1655,6 +1655,9 @@ WrapObject
 JSContext
 *
 cx
+XPCWrappedNativeScope
+*
+scope
 )
 ;
 /
