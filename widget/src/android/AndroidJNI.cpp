@@ -1050,6 +1050,9 @@ jstring
 stack
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 nsJNIString
 javaStack
 (
@@ -1067,6 +1070,8 @@ javaStack
 )
 )
 ;
+#
+endif
 abort
 (
 )
