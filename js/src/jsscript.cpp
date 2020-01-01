@@ -7444,7 +7444,7 @@ JSScript
 JSScript
 :
 :
-NewScriptFromCG
+NewScriptFromEmitter
 (
 JSContext
 *

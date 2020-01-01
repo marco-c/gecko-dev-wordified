@@ -1822,7 +1822,7 @@ script
 JSScript
 :
 :
-NewScriptFromCG
+NewScriptFromEmitter
 (
 cx
 &

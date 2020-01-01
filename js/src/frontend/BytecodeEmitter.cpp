@@ -11220,7 +11220,7 @@ JSBool
 frontend
 :
 :
-PopStatementCG
+PopStatementBCE
 (
 JSContext
 *
@@ -26396,7 +26396,7 @@ ok
 {
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -26780,7 +26780,7 @@ JSOP_STOP
 JSScript
 :
 :
-NewScriptFromCG
+NewScriptFromEmitter
 (
 cx
 bce
@@ -35004,7 +35004,7 @@ depth
 if
 (
 !
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -35617,14 +35617,14 @@ else
 part
 .
 The
-PopStatementCG
+PopStatementBCE
 call
 at
 the
 bottom
 of
-this
 *
+this
 function
 will
 fix
@@ -35835,7 +35835,7 @@ beq
 ;
 }
 return
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -37169,7 +37169,7 @@ false
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -37298,7 +37298,7 @@ false
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -38243,7 +38243,7 @@ JSOP_ENDITER
 if
 (
 !
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -39333,7 +39333,7 @@ continues
 *
 /
 return
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -41203,7 +41203,7 @@ JS_FALSE
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -41565,7 +41565,7 @@ JS_FALSE
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -42828,7 +42828,7 @@ JS_FALSE
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -42895,7 +42895,7 @@ JS_FALSE
 }
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -43598,7 +43598,7 @@ JS_FALSE
 if
 (
 !
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce

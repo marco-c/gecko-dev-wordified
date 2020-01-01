@@ -1822,12 +1822,12 @@ to
 JSScript
 :
 :
-NewScriptFromCG
+NewScriptFromEmitter
 from
 script_compile_sub
+*
 and
 any
-*
 kindred
 functions
 that
@@ -1839,13 +1839,13 @@ scripts
 (
 even
 empty
+*
 ones
 ;
 i
 .
 e
 .
-*
 they
 can
 '
@@ -4756,7 +4756,7 @@ for
 JSScript
 :
 :
-NewScriptFromCG
+NewScriptFromEmitter
 *
 /
 intN
@@ -6203,7 +6203,7 @@ if
 generating
 code
 )
-PopStatementCG
+PopStatementBCE
 .
 *
 /
@@ -6304,7 +6304,7 @@ overflows
 *
 /
 JSBool
-PopStatementCG
+PopStatementBCE
 (
 JSContext
 *

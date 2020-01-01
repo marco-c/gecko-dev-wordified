@@ -3119,7 +3119,7 @@ only
 the
 second
 *
-NewScriptFromCG
+NewScriptFromEmitter
 calls
 this
 optional
@@ -3238,7 +3238,7 @@ version
 static
 JSScript
 *
-NewScriptFromCG
+NewScriptFromEmitter
 (
 JSContext
 *
@@ -6191,7 +6191,7 @@ calling
 is
 factored
 from
-js_NewScriptFromCG
+NewScriptFromEmitter
 so
 that
 it

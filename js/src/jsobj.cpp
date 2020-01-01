@@ -7036,7 +7036,7 @@ script
 {
 /
 *
-NewScriptFromCG
+NewScriptFromEmitter
 has
 already
 called
