@@ -782,6 +782,7 @@ log
 void
 StoreStr
 (
+const
 char
 *
 )

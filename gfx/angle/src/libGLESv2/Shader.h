@@ -262,7 +262,8 @@ class
 Shader
 {
 friend
-Program
+class
+ProgramBinary
 ;
 public
 :
@@ -653,7 +654,8 @@ public
 Shader
 {
 friend
-Program
+class
+ProgramBinary
 ;
 public
 :

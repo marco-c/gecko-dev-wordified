@@ -888,14 +888,6 @@ int
 atom
 )
 ;
-void
-CPPErrorToInfoLog
-(
-const
-char
-*
-)
-;
 #
 endif
 /

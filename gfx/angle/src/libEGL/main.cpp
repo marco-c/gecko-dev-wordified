@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2010
+2012
 The
 ANGLE
 Project
@@ -150,11 +150,17 @@ wt
 /
 /
 Erase
+if
+(
+debug
+)
+{
 fclose
 (
 debug
 )
 ;
+}
 }
 #
 endif
