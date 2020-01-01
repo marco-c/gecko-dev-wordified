@@ -2925,7 +2925,7 @@ mConnection
 }
 ;
 static
-StaticAutoPtr
+StaticRefPtr
 <
 DBusThread
 >
@@ -2965,7 +2965,7 @@ gDBusThread
 true
 )
 ;
-nsAutoPtr
+nsRefPtr
 <
 DBusThread
 >
@@ -3084,10 +3084,6 @@ false
 gDBusThread
 =
 dbusThread
-.
-forget
-(
-)
 ;
 return
 true

@@ -1062,7 +1062,7 @@ thread
 *
 /
 static
-nsAutoPtr
+nsRefPtr
 <
 RawDBusConnection
 >
