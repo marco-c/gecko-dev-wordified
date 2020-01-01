@@ -464,6 +464,13 @@ Vector
 .
 h
 "
+#
+include
+"
+IonTypes
+.
+h
+"
 namespace
 js
 {
