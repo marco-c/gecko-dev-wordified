@@ -6272,12 +6272,9 @@ CloseTransaction
 .
 NS_ASSERTION
 (
-PR_GetCurrentThread
+NS_IsMainThread
 (
 )
-!
-=
-gSocketThread
 "
 wrong
 thread
