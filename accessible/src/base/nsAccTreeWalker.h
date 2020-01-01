@@ -679,7 +679,7 @@ nsIWeakReference
 mWeakShell
 ;
 PRInt32
-mChildType
+mChildFilter
 ;
 WalkState
 *

@@ -687,6 +687,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilter
 )
 ;
 NS_IMETHOD

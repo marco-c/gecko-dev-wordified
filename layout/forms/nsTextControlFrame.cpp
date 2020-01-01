@@ -3005,6 +3005,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilter
 )
 {
 nsCOMPtr
@@ -3045,6 +3047,18 @@ GetRootEditorNode
 )
 )
 ;
+if
+(
+!
+(
+aFilter
+&
+nsIContent
+:
+:
+eSkipPlaceholderContent
+)
+)
 aElements
 .
 MaybeAppendElement

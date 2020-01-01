@@ -903,7 +903,7 @@ WalkState
 aContent
 )
 ;
-mChildType
+mChildFilter
 =
 aWalkAnonContent
 ?
@@ -916,6 +916,14 @@ nsIContent
 :
 :
 eAllButXBL
+;
+mChildFilter
+|
+=
+nsIContent
+:
+:
+eSkipPlaceholderContent
 ;
 MOZ_COUNT_CTOR
 (
@@ -1086,7 +1094,7 @@ content
 >
 GetChildren
 (
-mChildType
+mChildFilter
 )
 ;
 nsCOMPtr

@@ -1337,8 +1337,8 @@ nsINodeList
 >
 GetChildren
 (
-PRInt32
-aChildType
+PRUint32
+aFilter
 )
 ;
 virtual

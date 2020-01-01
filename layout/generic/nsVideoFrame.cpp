@@ -1027,6 +1027,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFliter
 )
 {
 aElements

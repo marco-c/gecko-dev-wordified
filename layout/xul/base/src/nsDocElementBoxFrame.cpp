@@ -649,6 +649,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilter
 )
 ;
 virtual
@@ -1096,6 +1098,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilter
 )
 {
 aElements

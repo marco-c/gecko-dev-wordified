@@ -3365,8 +3365,8 @@ nsGenericDOMDataNode
 :
 GetChildren
 (
-PRInt32
-aChildType
+PRUint32
+aFilter
 )
 {
 return
