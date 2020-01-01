@@ -7591,7 +7591,7 @@ testNegZero1
 )
 ;
 /
-*
+/
 No
 test
 case
@@ -7604,8 +7604,6 @@ doesn
 t
 assert
 .
-*
-/
 function
 testNegZero2
 (
