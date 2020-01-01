@@ -10944,6 +10944,9 @@ const
 nsRect
 &
 aClipRect
+gfxRect
+*
+aDestRect
 )
 {
 if
@@ -11083,7 +11086,8 @@ AppUnitsPerDevPixel
 (
 )
 ;
-mDestRect
+*
+aDestRect
 =
 nsLayoutUtils
 :
