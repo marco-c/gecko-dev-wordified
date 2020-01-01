@@ -4520,6 +4520,14 @@ inputType
 InputType
 .
 TYPE_CLASS_NUMBER
+|
+InputType
+.
+TYPE_NUMBER_FLAG_SIGNED
+|
+InputType
+.
+TYPE_NUMBER_FLAG_DECIMAL
 ;
 else
 if
