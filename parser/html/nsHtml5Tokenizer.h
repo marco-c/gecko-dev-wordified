@@ -1349,6 +1349,11 @@ nsHtml5StreamParser
 encodingDeclarationHandler
 )
 ;
+~
+nsHtml5Tokenizer
+(
+)
+;
 static
 void
 initializeStatics
