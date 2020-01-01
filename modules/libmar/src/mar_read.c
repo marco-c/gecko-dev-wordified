@@ -1110,10 +1110,10 @@ FILE
 *
 fp
 ;
-fp
-=
-_wfopen
+_wfopen_s
 (
+&
+fp
 path
 L
 "
@@ -2313,7 +2313,6 @@ infoBlock
 int
 i
 hasAdditionalBlocks
-offset
 offsetAdditionalBlocks
 numAdditionalBlocks
 additionalBlockSize
