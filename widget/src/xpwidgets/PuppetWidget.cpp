@@ -1765,6 +1765,12 @@ textEvent
 nsnull
 )
 ;
+textEvent
+.
+seqno
+=
+mIMELastReceivedSeqno
+;
 /
 /
 SendEndIMEComposition
@@ -1840,6 +1846,12 @@ InitEvent
 compEvent
 nsnull
 )
+;
+compEvent
+.
+seqno
+=
+mIMELastReceivedSeqno
 ;
 DispatchEvent
 (
