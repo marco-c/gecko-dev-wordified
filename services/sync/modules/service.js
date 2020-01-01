@@ -5351,7 +5351,7 @@ to
 avoid
 repeated
 collisions
-var
+let
 interval
 =
 Math
