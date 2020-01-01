@@ -1379,14 +1379,7 @@ setUpdateURLOverride
 url
 )
 ;
-var
-defaults
-=
-getDefaultPrefBranch
-(
-)
-;
-defaults
+gDefaultPrefBranch
 .
 setCharPref
 (
@@ -1400,7 +1393,7 @@ test_partner1
 "
 )
 ;
-defaults
+gDefaultPrefBranch
 .
 setCharPref
 (
@@ -1790,9 +1783,7 @@ setUpdateURLOverride
 url
 )
 ;
-getDefaultPrefBranch
-(
-)
+gDefaultPrefBranch
 .
 setCharPref
 (
@@ -1888,9 +1879,7 @@ setUpdateURLOverride
 url
 )
 ;
-getDefaultPrefBranch
-(
-)
+gDefaultPrefBranch
 .
 setCharPref
 (
