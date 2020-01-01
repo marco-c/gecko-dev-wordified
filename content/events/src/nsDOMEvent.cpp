@@ -3712,7 +3712,7 @@ pseudoElement
 transitionEvent
 -
 >
-AssignEventData
+AssignTransitionEventData
 (
 *
 oldTransitionEvent
