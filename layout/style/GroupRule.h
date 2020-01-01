@@ -464,7 +464,7 @@ to
 help
 implement
 nsIDOMCSSRule
-nsresult
+void
 AppendRulesToCssText
 (
 nsAString
