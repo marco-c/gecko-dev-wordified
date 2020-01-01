@@ -6106,7 +6106,6 @@ XML_HTTP_REQUEST_DONE
 true
 )
 ;
-}
 if
 (
 !
@@ -6154,6 +6153,7 @@ mUploadTransferred
 mUploadTotal
 )
 ;
+}
 }
 }
 /
