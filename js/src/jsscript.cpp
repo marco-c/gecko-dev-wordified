@@ -9297,9 +9297,6 @@ return
 mallocSizeOf
 (
 data
-computedSizeOfData
-(
-)
 )
 ;
 }

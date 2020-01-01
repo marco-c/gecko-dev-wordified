@@ -2627,10 +2627,6 @@ n
 mallocSizeOf
 (
 arena
-sizeof
-(
-XPTArena
-)
 )
 ;
 /
@@ -2693,10 +2689,6 @@ n
 mallocSizeOf
 (
 cur
-cur
--
->
-size
 )
 ;
 cur

@@ -2798,10 +2798,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsAnimationManager
-)
 )
 +
 SizeOfExcludingThis

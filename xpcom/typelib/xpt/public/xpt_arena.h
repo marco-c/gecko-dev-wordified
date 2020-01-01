@@ -637,8 +637,6 @@ const
 void
 *
 p
-size_t
-computedSize
 )
 ;
 XPT_PUBLIC_API

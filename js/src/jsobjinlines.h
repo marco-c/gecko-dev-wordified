@@ -7852,7 +7852,6 @@ mallocSizeOf
 mallocSizeOf
 (
 slots
-computedSize
 )
 :
 computedSize
@@ -7911,7 +7910,6 @@ mallocSizeOf
 getElementsHeader
 (
 )
-computedSize
 )
 :
 computedSize

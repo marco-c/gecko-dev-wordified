@@ -960,8 +960,6 @@ const
 void
 *
 ptr
-size_t
-computedSize
 )
 ;
 #

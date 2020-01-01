@@ -1054,10 +1054,6 @@ n
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsStyleSet
-)
 )
 ;
 for

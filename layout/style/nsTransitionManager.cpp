@@ -5396,10 +5396,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsTransitionManager
-)
 )
 +
 SizeOfExcludingThis

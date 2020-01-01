@@ -1108,7 +1108,6 @@ return
 mallocSizeOf
 (
 data
-size
 )
 ;
 }

@@ -934,11 +934,6 @@ return
 mallocSizeOf
 (
 this
-limit
--
-headerBase
-(
-)
 )
 ;
 }
@@ -1996,10 +1991,6 @@ return
 mallocSizeOf
 (
 this
-sizeof
-(
-LifoAlloc
-)
 )
 +
 sizeOfExcludingThis

@@ -4530,10 +4530,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-RuleHash
-)
 )
 +
 SizeOfExcludingThis
@@ -5368,10 +5364,6 @@ n
 aMallocSizeOf
 (
 this
-sizeof
-(
-RuleCascadeData
-)
 )
 ;
 n
@@ -15594,10 +15586,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsCSSRuleProcessor
-)
 )
 +
 SizeOfExcludingThis
