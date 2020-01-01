@@ -863,6 +863,17 @@ aOutgoingLength
 )
 ;
 nsresult
+DoOnMessageAvailable
+(
+const
+nsACString
+&
+aMsg
+bool
+isBinary
+)
+;
+nsresult
 CreateAndDispatchSimpleEvent
 (
 const
