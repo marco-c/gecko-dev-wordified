@@ -5372,6 +5372,16 @@ oldcode
 1
 )
 {
+if
+(
+code
+>
+=
+MAX_BITS
+)
+return
+PR_FALSE
+;
 *
 rowp
 +
