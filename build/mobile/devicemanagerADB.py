@@ -230,6 +230,13 @@ name
 ]
 )
       
+self
+.
+chmodDir
+(
+name
+)
+      
 return
 name
     
