@@ -200,6 +200,17 @@ PathBuilder
 aBuilder
 )
 ;
+virtual
+bool
+GetFontFileData
+(
+FontFileDataOutput
+aDataCallback
+void
+*
+aBaton
+)
+;
 private
 :
 friend
