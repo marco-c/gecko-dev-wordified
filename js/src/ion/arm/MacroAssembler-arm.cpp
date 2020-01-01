@@ -17792,7 +17792,7 @@ StackAlignment
 ;
 breakpoint
 (
-Equal
+NonZero
 )
 ;
 #
