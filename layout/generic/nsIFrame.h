@@ -6432,7 +6432,7 @@ undef
 STYLE_STRUCT
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 /
 *
 *
@@ -24180,7 +24180,7 @@ aFrame
 {
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 InitInternal
 (
 aFrame

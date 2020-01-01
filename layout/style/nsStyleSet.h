@@ -3115,7 +3115,7 @@ mFontFeatureValuesLookup
 ;
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 inline
 void
 nsRuleNode

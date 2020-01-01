@@ -1600,7 +1600,7 @@ aDocAccessible
 endif
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 nsStyleSet
 *
 StyleSet
@@ -1854,7 +1854,7 @@ ReconstructStyleDataInternal
 ;
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 void
 ReconstructStyleData
 (
@@ -2415,7 +2415,7 @@ const
 {
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 return
 mFrameManager
 -
@@ -6621,7 +6621,7 @@ aWeakFrame
 {
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 AddWeakFrameInternal
 (
 aWeakFrame
@@ -6664,7 +6664,7 @@ aWeakFrame
 {
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 RemoveWeakFrameInternal
 (
 aWeakFrame
@@ -8646,7 +8646,7 @@ aFlushType
 {
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 return
 AddRefreshObserverInternal
 (
@@ -8678,7 +8678,7 @@ aFlushType
 {
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 return
 RemoveRefreshObserverInternal
 (

@@ -169,7 +169,7 @@ interface
 .
 #
 ifndef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 #
 error
 "
@@ -180,9 +180,7 @@ only
 be
 included
 within
-the
-layout
-library
+libxul
 "
 #
 endif

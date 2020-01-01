@@ -1221,7 +1221,7 @@ mDocument
 }
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 nsStyleSet
 *
 StyleSet
@@ -1229,7 +1229,7 @@ StyleSet
 )
 {
 return
-PresShell
+GetPresShell
 (
 )
 -
@@ -1582,7 +1582,7 @@ aMode
 ;
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 void
 SetImageAnimationMode
 (
@@ -2315,7 +2315,7 @@ const
 ;
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 already_AddRefed
 <
 nsISupports
@@ -4041,7 +4041,7 @@ lina
 /
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 bool
 BidiEnabled
 (
@@ -4804,7 +4804,7 @@ false
 }
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 void
 InvalidateIsChromeCache
 (
@@ -4975,7 +4975,7 @@ GetUserFontSetInternal
 ;
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 gfxUserFontSet
 *
 GetUserFontSet

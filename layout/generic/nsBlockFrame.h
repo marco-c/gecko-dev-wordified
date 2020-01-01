@@ -2795,9 +2795,6 @@ nsBlockFrame
 #
 ifdef
 DEBUG
-#
-ifdef
-_IMPL_NS_LAYOUT
 already_AddRefed
 <
 nsStyleContext
@@ -2834,8 +2831,6 @@ mStyleContext
 )
 ;
 }
-#
-endif
 #
 endif
 NS_DECLARE_FRAME_PROPERTY
