@@ -4186,6 +4186,17 @@ idiv
 rhs
 )
 ;
+if
+(
+!
+mir
+-
+>
+isTruncated
+(
+)
+)
+{
 /
 /
 If
@@ -4230,6 +4241,7 @@ snapshot
 return
 false
 ;
+}
 return
 true
 ;
