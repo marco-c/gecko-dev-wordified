@@ -47,14 +47,14 @@ failure
 The
 JSOP_STOP
 in
-a
+main
 .
 *
 /
 trap
 (
 main
-8
+10
 "
 failure
 (
@@ -65,7 +65,7 @@ failure
 untrap
 (
 main
-8
+10
 )
 ;
 main

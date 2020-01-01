@@ -33,7 +33,7 @@ main
 untrap
 (
 main
-23
+22
 )
 ;
 x
@@ -66,7 +66,7 @@ main
 trap
 (
 main
-23
+22
 "
 failure
 (

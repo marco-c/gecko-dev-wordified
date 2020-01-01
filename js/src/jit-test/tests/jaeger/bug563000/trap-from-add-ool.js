@@ -27,7 +27,7 @@ main
 The
 JSOP_STOP
 in
-a
+main
 .
 *
 /
@@ -43,7 +43,7 @@ function
 trap
 (
 main
-57
+58
 "
 success
 (

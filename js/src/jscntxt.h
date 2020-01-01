@@ -3087,9 +3087,6 @@ c
 *
 /
 JSCList
-trapList
-;
-JSCList
 watchPointList
 ;
 /
@@ -3237,8 +3234,6 @@ stateChange
 *
 Lock
 serializing
-trapList
-and
 watchPointList
 accesses
 and
@@ -3248,8 +3243,6 @@ all
 *
 mutations
 to
-trapList
-and
 watchPointList
 made
 by

@@ -27,7 +27,7 @@ main
 The
 JSOP_STOP
 in
-a
+main
 .
 *
 /
