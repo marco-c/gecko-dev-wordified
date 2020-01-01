@@ -591,13 +591,6 @@ h
 #
 include
 "
-nsIKBStateControl
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

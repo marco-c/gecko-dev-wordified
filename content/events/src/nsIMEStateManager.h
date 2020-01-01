@@ -455,7 +455,7 @@ class
 nsPresContext
 ;
 class
-nsIKBStateControl
+nsIWidget
 ;
 class
 nsIFocusController
@@ -543,7 +543,7 @@ nsPresContext
 aPresContext
 PRUint32
 aState
-nsIKBStateControl
+nsIWidget
 *
 aKB
 )
@@ -580,9 +580,9 @@ aPresContext
 )
 ;
 static
-nsIKBStateControl
+nsIWidget
 *
-GetKBStateControl
+GetWidget
 (
 nsPresContext
 *

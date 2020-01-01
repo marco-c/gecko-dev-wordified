@@ -526,13 +526,6 @@ h
 #
 include
 "
-nsIKBStateControl
-.
-h
-"
-#
-include
-"
 nsIMouseListener
 .
 h
@@ -843,8 +836,6 @@ public
 nsSwitchToUIThread
 public
 nsBaseWidget
-public
-nsIKBStateControl
 {
 public
 :
@@ -1542,10 +1533,6 @@ public
 :
 #
 endif
-/
-/
-nsIKBStateControl
-interface
 NS_IMETHOD
 ResetInputState
 (

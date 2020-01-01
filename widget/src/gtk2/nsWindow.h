@@ -587,13 +587,6 @@ pldhash
 h
 "
 #
-include
-"
-nsIKBStateControl
-.
-h
-"
-#
 endif
 class
 nsWindow
@@ -602,13 +595,6 @@ public
 nsCommonWidget
 public
 nsSupportsWeakReference
-#
-ifdef
-USE_XIM
-public
-nsIKBStateControl
-#
-endif
 {
 public
 :
@@ -2111,7 +2097,7 @@ mRefCount
 ;
 mEnabled
 =
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_ENABLED
@@ -2123,10 +2109,6 @@ nsIMEData
 *
 mIMEData
 ;
-/
-/
-nsIKBStateControl
-interface
 NS_IMETHOD
 ResetInputState
 (

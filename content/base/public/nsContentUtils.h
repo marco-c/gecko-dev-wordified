@@ -6704,7 +6704,7 @@ nsIContent
 IME_STATUS_
 *
 to
-nsIKBStateControll
+nsIWidget
 :
 :
 IME_STATUS_
@@ -6713,7 +6713,7 @@ IME_STATUS_
 /
 static
 PRUint32
-GetKBStateControlStatusFromIMEStatus
+GetWidgetStatusFromIMEStatus
 (
 PRUint32
 aState
