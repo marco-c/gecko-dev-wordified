@@ -160,6 +160,13 @@ nsDeviceContext
 .
 h
 "
+#
+include
+"
+nsRect
+.
+h
+"
 namespace
 mozilla
 {
