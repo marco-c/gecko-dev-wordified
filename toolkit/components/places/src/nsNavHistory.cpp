@@ -4388,7 +4388,7 @@ rv
 mDBService
 -
 >
-OpenDatabase
+OpenUnsharedDatabase
 (
 mDBFile
 getter_AddRefs
@@ -4507,7 +4507,7 @@ rv
 mDBService
 -
 >
-OpenDatabase
+OpenUnsharedDatabase
 (
 mDBFile
 getter_AddRefs
