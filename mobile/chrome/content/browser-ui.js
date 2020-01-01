@@ -5315,6 +5315,13 @@ show
 UIMODE_URLEDIT
 )
 ;
+this
+.
+updateAutoComplete
+(
+true
+)
+;
 break
 ;
 case
