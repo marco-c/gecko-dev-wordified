@@ -3345,4 +3345,7 @@ target
 )
 ;
 }
+return
+CAIRO_STATUS_SUCCESS
+;
 }
