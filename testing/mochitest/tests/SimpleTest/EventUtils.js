@@ -1187,6 +1187,15 @@ _parseModifiers
 aEvent
 )
 {
+const
+masks
+=
+Components
+.
+interfaces
+.
+nsIDOMNSEvent
+;
 var
 mval
 =
