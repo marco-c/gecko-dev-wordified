@@ -420,7 +420,7 @@ getEventDispatcher
 registerEventListener
 (
 "
-SelectedText
+TextSelection
 :
 Data
 "
@@ -477,7 +477,7 @@ GeckoEvent
 createBroadcastEvent
 (
 "
-SelectedText
+TextSelection
 :
 Get
 "
@@ -576,7 +576,7 @@ getEventDispatcher
 unregisterEventListener
 (
 "
-SelectedText
+TextSelection
 :
 Data
 "
@@ -817,7 +817,7 @@ event
 equals
 (
 "
-SelectedText
+TextSelection
 :
 Data
 "
