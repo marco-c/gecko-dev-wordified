@@ -15,6 +15,12 @@ content
 true
 )
 /
+/
+|
+reftest
+|
+skip
+/
 *
 -
 *

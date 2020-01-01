@@ -3,15 +3,7 @@
 |
 reftest
 |
-fails
--
-if
-(
-!
-xulRuntime
-.
-shell
-)
+skip
 /
 /
 Any
