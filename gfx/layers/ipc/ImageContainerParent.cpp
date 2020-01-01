@@ -356,13 +356,6 @@ if
 removed
 )
 {
-DeallocSharedImageData
-(
-this
-*
-removed
-)
-;
 delete
 removed
 ;
