@@ -26523,6 +26523,7 @@ isCallback
 )
 and
             
+(
 descriptor
 .
 interface
@@ -26535,22 +26536,14 @@ name
 "
 EventListener
 "
-)
-:
-            
-if
-descriptor
+or
+             
+descriptorProvider
 .
 workers
-:
-                
-return
-handleJSObjectType
-(
-type
-isMember
-failureCode
 )
+)
+:
             
 name
 =
@@ -34520,6 +34513,7 @@ isCallbackInterface
 )
 or
          
+(
 type
 .
 unroll
@@ -34536,6 +34530,13 @@ name
 "
 EventListener
 "
+and
+          
+not
+descriptorProvider
+.
+workers
+)
 )
 )
 :
