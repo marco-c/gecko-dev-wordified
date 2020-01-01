@@ -6647,11 +6647,6 @@ callee_
 nonLazyScript
 (
 )
-.
-get
-(
-nogc
-)
 ;
 pc_
 =

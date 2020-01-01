@@ -11023,7 +11023,7 @@ callee
 (
 )
 ;
-RawScript
+UnrootedScript
 script
 =
 fun
@@ -11031,11 +11031,6 @@ fun
 >
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 ;
 if
