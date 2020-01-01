@@ -7927,6 +7927,9 @@ mInitInfo
 sessionHistory
 )
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -7936,6 +7939,8 @@ XRE_GetProcessType
 =
 GeckoProcessType_Default
 )
+#
+endif
 {
 /
 /
