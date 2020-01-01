@@ -1128,6 +1128,9 @@ KL_NAMELENGTH
 1
 LANGIDFROMLCID
 (
+(
+DWORD
+)
 locale
 )
 )
@@ -1153,6 +1156,9 @@ KL_NAMELENGTH
 1
 LANGIDFROMLCID
 (
+(
+DWORD
+)
 locale
 )
 )
@@ -1494,6 +1500,9 @@ GetLocaleInfoW
 (
 PRIMARYLANGID
 (
+(
+DWORD
+)
 aLocale
 )
 LOCALE_FONTSIGNATURE
