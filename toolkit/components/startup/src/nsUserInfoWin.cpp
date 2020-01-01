@@ -513,7 +513,7 @@ aUsername
 =
 nsnull
 ;
-TCHAR
+PRUnichar
 username
 [
 256
@@ -527,7 +527,7 @@ size
 if
 (
 !
-GetUserName
+GetUserNameW
 (
 username
 &
@@ -540,12 +540,12 @@ NS_ERROR_FAILURE
 *
 aUsername
 =
-nsCRT
-:
-:
-strdup
+ToNewUTF8String
+(
+nsDependentString
 (
 username
+)
 )
 ;
 if
