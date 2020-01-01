@@ -3036,6 +3036,10 @@ iter
 +
 )
 {
+-
+-
+spill
+;
 if
 (
 gcRegs
@@ -3052,8 +3056,6 @@ gc
 MarkThingOrValueRoot
 (
 trc
--
--
 spill
 "
 ion
