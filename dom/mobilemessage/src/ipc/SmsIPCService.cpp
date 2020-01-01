@@ -1144,7 +1144,7 @@ req
 )
 {
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_INVALID_ARG
 ;
 }
 return
