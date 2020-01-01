@@ -11907,6 +11907,17 @@ JSBool
 bp
 )
 ;
+typedef
+JSRawObject
+(
+*
+JSWeakmapKeyDelegateOp
+)
+(
+JSRawObject
+obj
+)
+;
 /
 *
 *
