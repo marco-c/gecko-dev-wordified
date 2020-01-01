@@ -1315,6 +1315,8 @@ data
 {
 val
 =
+this
+.
 _getValueFromSHA1
 (
 nam
