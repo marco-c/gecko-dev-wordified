@@ -992,8 +992,6 @@ drop
 the
 loop
 element
-/
-*
 function
 (
 )
@@ -1061,10 +1059,6 @@ later
 }
 ;
 }
-/
-/
-*
-/
 function
 (
 )
