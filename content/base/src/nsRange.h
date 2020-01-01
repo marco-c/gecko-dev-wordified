@@ -812,8 +812,7 @@ aNewRange
 )
 const
 ;
-virtual
-nsresult
+NS_IMETHOD
 GetUsedFontFaces
 (
 nsIDOMFontFaceList
