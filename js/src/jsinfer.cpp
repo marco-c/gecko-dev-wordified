@@ -26711,6 +26711,11 @@ compartment
 -
 >
 debugMode
+|
+|
+localsAliasStack
+(
+)
 )
 {
 MarkArgumentsCreated

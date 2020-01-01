@@ -12521,6 +12521,14 @@ script
 -
 >
 failedBoundsCheck
+|
+|
+analysis
+-
+>
+localsAliasStack
+(
+)
 )
 skipAnalysis
 =
