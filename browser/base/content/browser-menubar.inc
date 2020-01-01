@@ -3693,6 +3693,11 @@ maxResults
 >
 <
 menuitem
+id
+=
+"
+historyMenuBack
+"
 label
 =
 "
@@ -3770,6 +3775,11 @@ menuitem
 >
 <
 menuitem
+id
+=
+"
+historyMenuForward
+"
 label
 =
 "
