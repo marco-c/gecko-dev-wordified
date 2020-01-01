@@ -55,9 +55,8 @@ that
 the
 checkbox
 to
-show
-only
-user
+include
+browser
 styles
 works
 properly
@@ -410,7 +409,7 @@ querySelector
 (
 "
 .
-onlyuserstyles
+includebrowserstyles
 "
 )
 ;
