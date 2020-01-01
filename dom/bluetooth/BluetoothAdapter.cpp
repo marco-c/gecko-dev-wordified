@@ -4887,7 +4887,7 @@ nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
-results
+result
 =
 new
 BluetoothVoidReplyRunnable
@@ -4895,8 +4895,6 @@ BluetoothVoidReplyRunnable
 req
 )
 ;
-/
-/
 bs
 -
 >

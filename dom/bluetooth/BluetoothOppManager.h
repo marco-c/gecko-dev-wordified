@@ -407,6 +407,16 @@ aRunnable
 )
 ;
 void
+ConfirmReceivingFile
+(
+bool
+aConfirm
+BluetoothReplyRunnable
+*
+aRunnable
+)
+;
+void
 SendConnectRequest
 (
 )
