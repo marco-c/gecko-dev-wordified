@@ -361,9 +361,6 @@ class
 nsHtml5ElementName
 ;
 class
-nsHtml5StackNode
-;
-class
 nsHtml5UTF16Buffer
 ;
 class

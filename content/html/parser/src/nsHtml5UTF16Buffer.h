@@ -354,9 +354,6 @@ class
 nsHtml5HtmlAttributes
 ;
 class
-nsHtml5StackNode
-;
-class
 nsHtml5StateSnapshot
 ;
 class
