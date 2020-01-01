@@ -796,8 +796,10 @@ function
 {
 return
 {
-get
 super
+getter
+:
+function
 (
 )
 {
