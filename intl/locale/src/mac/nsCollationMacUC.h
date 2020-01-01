@@ -115,6 +115,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 Carbon
 /
@@ -182,6 +191,7 @@ kCollationValueSizeFactor
 ;
 class
 nsCollationMacUC
+MOZ_FINAL
 :
 public
 nsICollation

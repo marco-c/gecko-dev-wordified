@@ -143,6 +143,15 @@ nsIAtom
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_LANGUAGEATOMSERVICE_CID
 \
@@ -163,6 +172,7 @@ NS_LANGUAGEATOMSERVICE_CID
 }
 class
 nsLanguageAtomService
+MOZ_FINAL
 :
 public
 nsILanguageAtomService

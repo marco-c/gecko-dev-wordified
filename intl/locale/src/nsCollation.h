@@ -118,6 +118,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Create
@@ -133,6 +142,7 @@ locale
 /
 class
 nsCollationFactory
+MOZ_FINAL
 :
 public
 nsICollationFactory
