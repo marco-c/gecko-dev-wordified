@@ -128,11 +128,6 @@ name
 '
 file
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                        
@@ -180,11 +175,6 @@ name
 '
 packagename
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                          
@@ -283,11 +273,6 @@ name
 '
 appname
 '
-'
-nargs
-'
-:
-None
 }
                                                    
 {
@@ -298,12 +283,6 @@ name
 '
 activity_name
 '
-                                                     
-'
-nargs
-'
-:
-None
 }
                                                    
 {
@@ -359,6 +338,49 @@ action
 store
 '
 }
+                                                   
+{
+'
+name
+'
+:
+'
+-
+-
+no
+-
+fail
+-
+if
+-
+running
+'
+                                                     
+'
+action
+'
+:
+'
+store_true
+'
+                                                     
+'
+help
+'
+:
+'
+Don
+\
+'
+t
+fail
+if
+application
+is
+already
+running
+'
+}
                                                 
 ]
                                       
@@ -400,11 +422,6 @@ name
 '
 local_file
 '
-'
-nargs
-'
-:
-None
 }
                                               
 {
@@ -415,11 +432,6 @@ name
 '
 remote_file
 '
-'
-nargs
-'
-:
-None
 }
                                               
 ]
@@ -464,11 +476,6 @@ name
 '
 local_file
 '
-'
-nargs
-'
-:
-None
 }
                                               
 {
@@ -702,11 +709,6 @@ name
 '
 remote_dir
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                   
@@ -749,11 +751,6 @@ name
 '
 remote_file
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                   
@@ -796,11 +793,6 @@ name
 '
 remote_dir
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                      
@@ -846,11 +838,6 @@ name
 '
 remote_dir
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                      
@@ -894,11 +881,6 @@ name
 '
 remote_dir
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                      
@@ -942,11 +924,6 @@ name
 '
 png_file
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                          
@@ -1075,11 +1052,6 @@ name
 '
 remote_file
 '
-'
-nargs
-'
-:
-None
 }
 ]
                                       
@@ -1126,11 +1098,6 @@ name
 '
 appname
 '
-'
-nargs
-'
-:
-None
 }
                                                       
 {
@@ -1224,6 +1191,50 @@ action
 store
 '
 }
+                                                      
+{
+'
+name
+'
+:
+'
+-
+-
+no
+-
+fail
+-
+if
+-
+running
+'
+                                                        
+'
+action
+'
+:
+'
+store_true
+'
+                                                        
+'
+help
+'
+:
+'
+Don
+\
+'
+t
+fail
+if
+application
+is
+already
+running
+'
+}
+                                                      
 ]
                                             
 '
@@ -1792,6 +1803,30 @@ args
 ]
 :
                     
+kwargs
+=
+{
+k
+:
+v
+for
+k
+v
+in
+arg
+.
+items
+(
+)
+if
+k
+is
+not
+'
+name
+'
+}
+                    
 subparser
 .
 add_argument
@@ -1802,27 +1837,9 @@ arg
 name
 '
 ]
-nargs
-=
-arg
-.
-get
-(
-'
-nargs
-'
-)
-                                           
-action
-=
-arg
-.
-get
-(
-'
-action
-'
-)
+*
+*
+kwargs
 )
             
 subparser
@@ -2336,9 +2353,20 @@ activity_name
 args
 .
 intent
+url
+=
 args
 .
 url
+                                  
+failIfRunning
+=
+(
+not
+args
+.
+no_fail_if_running
+)
 )
     
 def
@@ -2926,6 +2954,15 @@ url
 args
 .
 url
+                             
+failIfRunning
+=
+(
+not
+args
+.
+no_fail_if_running
+)
 )
     
 def
