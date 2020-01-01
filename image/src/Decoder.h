@@ -122,6 +122,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+ImageMetadata
+.
+h
+"
 namespace
 mozilla
 {
@@ -1245,6 +1252,9 @@ RefPtr
 imgDecoderObserver
 >
 mObserver
+;
+ImageMetadata
+mImageMetadata
 ;
 uint32_t
 mDecodeFlags
