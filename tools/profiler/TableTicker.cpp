@@ -3088,11 +3088,6 @@ pthread_get_stackaddr_np
 pt
 )
 )
--
-pthread_get_stacksize_np
-(
-pt
-)
 ;
 nsresult
 rv
