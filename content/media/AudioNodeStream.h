@@ -693,15 +693,6 @@ FinishOutput
 (
 )
 ;
-StreamBuffer
-:
-:
-Track
-*
-EnsureTrack
-(
-)
-;
 void
 ObtainInputBlock
 (

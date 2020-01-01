@@ -321,6 +321,9 @@ class
 GlobalObject
 ;
 class
+MediaStreamAudioDestinationNode
+;
+class
 OfflineRenderSuccessCallback
 ;
 class
@@ -566,6 +569,14 @@ aMixToMono
 ErrorResult
 &
 aRv
+)
+;
+already_AddRefed
+<
+MediaStreamAudioDestinationNode
+>
+CreateMediaStreamDestination
+(
 )
 ;
 already_AddRefed
