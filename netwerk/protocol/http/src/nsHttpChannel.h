@@ -2125,6 +2125,11 @@ mChooseApplicationCache
 1
 ;
 PRUint32
+mLoadedFromApplicationCache
+:
+1
+;
+PRUint32
 mTracingEnabled
 :
 1

@@ -1195,15 +1195,6 @@ nsIDOMDocument
 *
 aDocument
 )
-{
-mDocuments
-.
-AppendObject
-(
-aDocument
-)
-;
-}
 ;
 private
 :
@@ -1336,6 +1327,11 @@ AssociateDocument
 nsIDOMDocument
 *
 aDocument
+)
+;
+nsresult
+ScheduleImplicit
+(
 )
 ;
 nsresult
