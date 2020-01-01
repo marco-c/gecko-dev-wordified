@@ -5186,6 +5186,9 @@ bool
 mAllowImages
 ;
 bool
+mAllowMedia
+;
+bool
 mAllowDNSPrefetch
 ;
 bool
