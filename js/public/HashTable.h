@@ -4330,16 +4330,11 @@ deltaLog2
 1
 ;
 }
-(
-void
-)
+return
 changeTableSize
 (
 deltaLog2
 )
-;
-return
-true
 ;
 }
 return
