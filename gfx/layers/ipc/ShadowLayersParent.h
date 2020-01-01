@@ -304,6 +304,13 @@ isFirstPaint
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvClearCachedResources
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 PGrallocBufferParent
 *
 AllocPGrallocBuffer

@@ -2813,6 +2813,12 @@ CleanupResources
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mFirstChild
+)
+;
 }
 }
 /
