@@ -3289,6 +3289,12 @@ ensureFullRegs
 FrameEntry
 *
 fe
+MaybeRegisterID
+*
+typeReg
+MaybeRegisterID
+*
+dataReg
 )
 ;
 /
