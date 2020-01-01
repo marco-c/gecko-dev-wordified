@@ -1151,6 +1151,8 @@ obj
 -
 >
 freeslot
+(
+)
 >
 =
 JSSLOT_FREE
