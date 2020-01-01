@@ -4083,6 +4083,14 @@ onError
 (
 )
 {
+this
+.
+savePing
+(
+data
+true
+)
+;
 /
 /
 Notify
