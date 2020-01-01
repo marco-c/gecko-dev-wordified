@@ -3332,7 +3332,7 @@ offmainthreadcomposition
 .
 enabled
 "
-true
+false
 )
 ;
 /
