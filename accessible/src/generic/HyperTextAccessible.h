@@ -338,7 +338,6 @@ to
 rendered
 text
 offset
-static
 nsresult
 ContentToRenderedOffset
 (
@@ -361,7 +360,6 @@ offset
 to
 content
 offset
-static
 nsresult
 RenderedToContentOffset
 (
