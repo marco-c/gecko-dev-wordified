@@ -1577,7 +1577,7 @@ nsIWeakReference
 aShell
 )
 :
-nsXULSelectableAccessible
+XULSelectControlAccessible
 (
 aContent
 aShell
