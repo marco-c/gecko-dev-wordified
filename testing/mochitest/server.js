@@ -1724,7 +1724,7 @@ serverAlive
 0x08
 |
 0x20
-0664
+436
 0
 )
 ;
@@ -2271,7 +2271,12 @@ FileInputStream
 (
 serverLocations
 PR_RDONLY
+292
+/
+*
 0444
+*
+/
 Ci
 .
 nsIFileInputStream

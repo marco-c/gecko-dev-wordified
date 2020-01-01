@@ -2978,6 +2978,8 @@ exists
 )
 )
 return
+{
+}
 ;
 var
 fileInStream

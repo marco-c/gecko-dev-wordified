@@ -10,6 +10,9 @@ TIMEOUT_SECONDS
 =
 30
 ;
+var
+gConfig
+;
 if
 (
 Cc
