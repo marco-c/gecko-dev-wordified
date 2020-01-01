@@ -1772,6 +1772,12 @@ aOther
 .
 mHadLastPart
 )
+mHasBeenDecoded
+(
+aOther
+.
+mHasBeenDecoded
+)
 /
 /
 Note
