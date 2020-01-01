@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIIDBTransaction
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

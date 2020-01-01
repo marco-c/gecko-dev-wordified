@@ -463,10 +463,6 @@ IDBObjectStore
 )
 DOMCI_CLASS
 (
-IDBTransaction
-)
-DOMCI_CLASS
-(
 IDBCursor
 )
 DOMCI_CLASS

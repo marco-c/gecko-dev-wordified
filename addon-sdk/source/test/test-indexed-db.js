@@ -109,7 +109,6 @@ indexedDB
 IDBKeyRange
 DOMException
 IDBCursor
-IDBTransaction
 IDBOpenDBRequest
 IDBDatabase
 IDBIndex
@@ -216,7 +215,6 @@ indexedDB
 IDBKeyRange
 DOMException
 IDBCursor
-IDBTransaction
 IDBOpenDBRequest
 IDBOpenDBRequest
 IDBDatabase

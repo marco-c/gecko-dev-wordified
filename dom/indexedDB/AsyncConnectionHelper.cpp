@@ -986,7 +986,7 @@ NS_ProxyRelease
 mainThread
 static_cast
 <
-nsIIDBTransaction
+IDBWrapperCache
 *
 >
 (

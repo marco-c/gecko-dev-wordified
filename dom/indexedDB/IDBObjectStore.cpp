@@ -12292,7 +12292,7 @@ IDBObjectStore
 :
 GetTransaction
 (
-nsIIDBTransaction
+nsISupports
 *
 *
 aTransaction
@@ -12310,9 +12310,9 @@ thread
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIIDBTransaction
+IDBWrapperCache
 >
 transaction
 (

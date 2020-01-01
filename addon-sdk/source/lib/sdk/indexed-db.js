@@ -479,14 +479,6 @@ nsIIDBCursor
 ;
 exports
 .
-IDBTransaction
-=
-Ci
-.
-nsIIDBTransaction
-;
-exports
-.
 IDBOpenDBRequest
 =
 Ci

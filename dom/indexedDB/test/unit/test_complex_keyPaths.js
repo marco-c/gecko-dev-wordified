@@ -51,15 +51,6 @@ interfaces
 .
 nsIIDBObjectStore
 ;
-const
-nsIIDBTransaction
-=
-Components
-.
-interfaces
-.
-nsIIDBTransaction
-;
 /
 /
 Test

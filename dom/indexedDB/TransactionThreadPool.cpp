@@ -2401,6 +2401,9 @@ returned
 /
 errors
 .
+ErrorResult
+rv
+;
 transactions
 [
 index
@@ -2409,6 +2412,7 @@ index
 >
 Abort
 (
+rv
 )
 ;
 }
