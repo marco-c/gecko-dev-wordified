@@ -1497,6 +1497,14 @@ ins
 isConstant
 (
 )
+|
+|
+ins
+-
+>
+isUnused
+(
+)
 )
 {
 *

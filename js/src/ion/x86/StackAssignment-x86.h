@@ -584,9 +584,9 @@ normalSlots
 .
 append
 (
++
++
 height_
-+
-+
 )
 ;
 JS_ASSERT
