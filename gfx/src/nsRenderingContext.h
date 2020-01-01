@@ -457,7 +457,7 @@ h
 #
 include
 "
-nsIThebesFontMetrics
+nsIFontMetrics
 .
 h
 "
@@ -902,7 +902,7 @@ nsIFontMetrics
 aFontMetrics
 )
 ;
-nsIThebesFontMetrics
+nsIFontMetrics
 *
 FontMetrics
 (
@@ -1087,7 +1087,7 @@ mDeviceContext
 ;
 nsCOMPtr
 <
-nsIThebesFontMetrics
+nsIFontMetrics
 >
 mFontMetrics
 ;

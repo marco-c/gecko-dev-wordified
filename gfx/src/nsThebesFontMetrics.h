@@ -439,7 +439,7 @@ NSTHEBESFONTMETRICS__H__
 #
 include
 "
-nsIThebesFontMetrics
+nsIFontMetrics
 .
 h
 "
@@ -484,7 +484,7 @@ class
 nsThebesFontMetrics
 :
 public
-nsIThebesFontMetrics
+nsIFontMetrics
 {
 public
 :

@@ -1041,19 +1041,6 @@ mFontMetrics
 i
 ]
 ;
-nsIThebesFontMetrics
-*
-tfm
-=
-static_cast
-<
-nsIThebesFontMetrics
-*
->
-(
-fm
-)
-;
 if
 (
 fm
@@ -1069,7 +1056,7 @@ aFont
 )
 &
 &
-tfm
+fm
 -
 >
 GetUserFontSet
@@ -1142,7 +1129,7 @@ fm
 )
 ;
 }
-tfm
+fm
 -
 >
 GetThebesFontGroup
