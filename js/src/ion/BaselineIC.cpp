@@ -8518,8 +8518,10 @@ rhs
 isObject
 (
 )
-&
-&
+)
+{
+JS_ASSERT
+(
 !
 stub
 -
@@ -8532,7 +8534,7 @@ ICStub
 Compare_Object
 )
 )
-{
+;
 ICCompare_Object
 :
 :
