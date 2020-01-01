@@ -432,6 +432,13 @@ prefix
 )
 ;
 virtual
+nsHtml5AttributeName
+*
+cloneAttributeName
+(
+)
+;
+virtual
 void
 release
 (
