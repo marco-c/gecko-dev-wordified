@@ -2534,7 +2534,6 @@ Bridge
 >
 ProvideEGLSurface
 (
-false
 )
 ;
 if
@@ -9791,7 +9790,6 @@ Bridge
 >
 ProvideEGLSurface
 (
-true
 )
 ;
 #

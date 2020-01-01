@@ -848,6 +848,11 @@ aAllowRetaining
 nullptr
 )
 ;
+void
+CreateLayerManager
+(
+)
+;
 NS_IMETHOD
 ReparentNativeWidget
 (
