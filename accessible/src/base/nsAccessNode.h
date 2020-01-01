@@ -711,10 +711,12 @@ document
 accessible
 for
 this
-accesnode
+access
+node
 .
 *
 /
+inline
 nsDocAccessible
 *
 GetDocAccessible
