@@ -6773,7 +6773,11 @@ results
 .
 *
 /
+extern
+JS_FRIEND_API
+(
 void
+)
 IterateCells
 (
 JSContext
