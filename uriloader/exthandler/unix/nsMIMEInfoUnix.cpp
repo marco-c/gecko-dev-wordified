@@ -576,7 +576,7 @@ action
 =
 hildon_uri_get_default_action
 (
-mType
+mSchemeOrType
 .
 get
 (
@@ -657,7 +657,7 @@ nsGNOMERegistry
 :
 GetFromType
 (
-mType
+mSchemeOrType
 )
 ;
 if
@@ -734,7 +734,7 @@ action
 =
 hildon_uri_get_default_action
 (
-mType
+mSchemeOrType
 .
 get
 (
@@ -886,7 +886,7 @@ giovfs
 >
 GetAppForMimeType
 (
-mType
+mSchemeOrType
 getter_AddRefs
 (
 app
@@ -935,7 +935,7 @@ gnomevfs
 >
 GetAppForMimeType
 (
-mType
+mSchemeOrType
 getter_AddRefs
 (
 app
@@ -1246,7 +1246,7 @@ hildon_mime_open_file_with_mime_type
 (
 connection
 aFilePath
-mType
+mSchemeOrType
 .
 get
 (
@@ -1368,7 +1368,7 @@ actions
 =
 hildon_uri_get_actions
 (
-mType
+mSchemeOrType
 .
 get
 (

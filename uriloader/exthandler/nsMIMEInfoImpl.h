@@ -906,7 +906,7 @@ nsACString
 aMIMEType
 )
 {
-mType
+mSchemeOrType
 =
 aMIMEType
 ;
@@ -1363,7 +1363,7 @@ human
 readable
 description
 nsCString
-mType
+mSchemeOrType
 ;
 HandlerClass
 mClass

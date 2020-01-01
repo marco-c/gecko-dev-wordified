@@ -582,7 +582,7 @@ char
 aMIMEType
 )
 :
-mType
+mSchemeOrType
 (
 aMIMEType
 )
@@ -614,7 +614,7 @@ nsACString
 aMIMEType
 )
 :
-mType
+mSchemeOrType
 (
 aMIMEType
 )
@@ -728,7 +728,7 @@ HandlerClass
 aClass
 )
 :
-mType
+mSchemeOrType
 (
 aType
 )
@@ -1072,7 +1072,7 @@ aType
 {
 if
 (
-mType
+mSchemeOrType
 .
 IsEmpty
 (
@@ -1083,7 +1083,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 aType
 =
-mType
+mSchemeOrType
 ;
 return
 NS_OK
@@ -1102,7 +1102,7 @@ aMIMEType
 {
 if
 (
-mType
+mSchemeOrType
 .
 IsEmpty
 (
@@ -1113,7 +1113,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 aMIMEType
 =
-mType
+mSchemeOrType
 ;
 return
 NS_OK
@@ -1207,7 +1207,7 @@ rv
 *
 _retval
 =
-mType
+mSchemeOrType
 .
 Equals
 (
@@ -1868,9 +1868,9 @@ aOther
 aOther
 -
 >
-mType
+mSchemeOrType
 =
-mType
+mSchemeOrType
 ;
 aOther
 -
