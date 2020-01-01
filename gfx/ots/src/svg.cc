@@ -200,7 +200,7 @@ if
 version
 !
 =
-1
+0
 )
 {
 NONFATAL_FAILURE
