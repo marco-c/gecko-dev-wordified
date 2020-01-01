@@ -147,8 +147,18 @@ xpctest_params
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 xpcTestObjectReadOnly
+MOZ_FINAL
 :
 public
 nsIXPCTestObjectReadOnly
@@ -182,6 +192,7 @@ charProperty
 ;
 class
 xpcTestObjectReadWrite
+MOZ_FINAL
 :
 public
 nsIXPCTestObjectReadWrite
@@ -224,6 +235,7 @@ stringProperty
 ;
 class
 nsXPCTestParams
+MOZ_FINAL
 :
 public
 nsIXPCTestParams
