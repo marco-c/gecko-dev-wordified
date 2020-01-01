@@ -456,9 +456,6 @@ jsfun
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 ion
@@ -467,8 +464,6 @@ IonFrameIterator
 .
 h
 "
-#
-endif
 struct
 JSContext
 ;
