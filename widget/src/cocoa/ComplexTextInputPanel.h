@@ -311,6 +311,12 @@ void
 )
 cancelComposition
 ;
+-
+(
+BOOL
+)
+inComposition
+;
 end
 #
 endif
