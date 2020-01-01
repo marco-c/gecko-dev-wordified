@@ -9558,6 +9558,15 @@ document
 ;
 break
 ;
+default
+:
+MOZ_ASSERT
+(
+false
+)
+;
+break
+;
 }
 return
 newAcc

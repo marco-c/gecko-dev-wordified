@@ -4529,17 +4529,6 @@ AccMutationEvent
 aEvent
 )
 {
-DocAccessible
-*
-document
-=
-aEvent
--
->
-GetDocAccessible
-(
-)
-;
 Accessible
 *
 container
