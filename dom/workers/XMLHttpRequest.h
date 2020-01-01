@@ -169,6 +169,15 @@ TypedArray
 .
 h
 "
+#
+include
+"
+js
+/
+StructuredClone
+.
+h
+"
 BEGIN_WORKERS_NAMESPACE
 class
 Proxy
