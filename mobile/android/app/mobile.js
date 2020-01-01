@@ -7033,7 +7033,6 @@ android
 .
 landscape_fullscreen
 "
--
 1
 )
 ;
