@@ -74,10 +74,8 @@ err
 .
 message
 "
-(
-intermediate
-value
-)
+[
+]
 [
 j
 ]
