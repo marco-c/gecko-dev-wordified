@@ -6170,10 +6170,7 @@ aScrollOffset
 CSSToScreenScale
 &
 aScale
-gfx
-:
-:
-Margin
+LayerMargin
 &
 aFixedLayerMargins
 ScreenPoint
@@ -6376,10 +6373,7 @@ CSSToLayerScale
 aDisplayResolution
 bool
 aIsFirstPaint
-gfx
-:
-:
-Margin
+LayerMargin
 &
 aFixedLayerMargins
 ScreenPoint
@@ -8021,10 +8015,7 @@ GetFixedLayerMargins
 JNIEnv
 *
 env
-gfx
-:
-:
-Margin
+LayerMargin
 &
 aFixedLayerMargins
 )

@@ -834,10 +834,7 @@ aScrollOffset
 CSSToScreenScale
 &
 aScale
-gfx
-:
-:
-Margin
+LayerMargin
 &
 aFixedLayerMargins
 ScreenPoint
@@ -870,10 +867,7 @@ CSSToLayerScale
 aDisplayResolution
 bool
 aIsFirstPaint
-gfx
-:
-:
-Margin
+LayerMargin
 &
 aFixedLayerMargins
 ScreenPoint
@@ -989,10 +983,7 @@ gfx3DMatrix
 &
 aPreviousTransformForRoot
 const
-gfx
-:
-:
-Margin
+LayerMargin
 &
 aFixedLayerMargins
 )

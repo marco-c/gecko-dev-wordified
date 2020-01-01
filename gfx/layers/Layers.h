@@ -5844,10 +5844,7 @@ void
 SetFixedPositionMargins
 (
 const
-gfx
-:
-:
-Margin
+LayerMargin
 &
 aMargins
 )
@@ -6079,10 +6076,7 @@ mAnchor
 ;
 }
 const
-gfx
-:
-:
-Margin
+LayerMargin
 &
 GetFixedPositionMargins
 (
@@ -8532,10 +8526,7 @@ mIsFixedPosition
 LayerPoint
 mAnchor
 ;
-gfx
-:
-:
-Margin
+LayerMargin
 mMargins
 ;
 DebugOnly
