@@ -911,6 +911,7 @@ ptr
 {
 mozalloc_handle_oom
 (
+size
 )
 ;
 return
@@ -970,6 +971,7 @@ ptr
 {
 mozalloc_handle_oom
 (
+size
 )
 ;
 return
@@ -1034,6 +1036,7 @@ newptr
 {
 mozalloc_handle_oom
 (
+size
 )
 ;
 return
@@ -1097,6 +1100,7 @@ dup
 {
 mozalloc_handle_oom
 (
+0
 )
 ;
 return
@@ -1166,6 +1170,7 @@ dup
 {
 mozalloc_handle_oom
 (
+strsize
 )
 ;
 return
@@ -1260,6 +1265,7 @@ err
 {
 mozalloc_handle_oom
 (
+size
 )
 ;
 return
@@ -1464,6 +1470,7 @@ errno
 {
 mozalloc_handle_oom
 (
+size
 )
 ;
 return
@@ -1556,6 +1563,7 @@ ptr
 {
 mozalloc_handle_oom
 (
+size
 )
 ;
 return
