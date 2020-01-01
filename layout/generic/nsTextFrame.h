@@ -1682,7 +1682,7 @@ case
 we
 should
 call
-RecomputeOverflowRect
+RecomputeOverflow
 on
 this
 frame
@@ -1793,8 +1793,8 @@ aSkippedMaxLength
 PR_UINT32_MAX
 )
 ;
-nsRect
-RecomputeOverflowRect
+nsOverflowAreas
+RecomputeOverflow
 (
 )
 ;
@@ -2885,7 +2885,7 @@ PropertyProvider
 aProvider
 nsRect
 *
-aOverflowRect
+aVisualOverflowRect
 )
 ;
 void
