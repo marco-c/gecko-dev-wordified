@@ -523,12 +523,6 @@ from
 .
 firefox
 /
-or
-~
-/
-.
-phoenix
-/
 *
 return
 PR_TRUE
