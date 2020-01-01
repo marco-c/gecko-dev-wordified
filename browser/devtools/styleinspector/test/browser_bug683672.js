@@ -116,10 +116,6 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 addTab
 (
 TEST_URI
