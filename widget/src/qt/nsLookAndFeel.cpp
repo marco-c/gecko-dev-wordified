@@ -2423,12 +2423,13 @@ MOZ_PLATFORM_MAEMO
 /
 /
 All
-Hildon
+known
+Maemo
 devices
 are
 touch
--
 enabled
+.
 aMetric
 =
 1
