@@ -766,6 +766,10 @@ const
 nsHttpResponseHead
 &
 responseHead
+const
+PRBool
+&
+useResponseHead
 )
 ;
 bool
