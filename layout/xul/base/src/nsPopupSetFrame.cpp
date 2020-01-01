@@ -1219,6 +1219,7 @@ popupChild
 SetPopupPosition
 (
 nsnull
+PR_FALSE
 )
 ;
 /
@@ -1513,6 +1514,7 @@ popupChild
 SetPopupPosition
 (
 nsnull
+PR_FALSE
 )
 ;
 }
