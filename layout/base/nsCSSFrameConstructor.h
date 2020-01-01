@@ -9039,7 +9039,7 @@ cleared
 .
 *
 /
-nsresult
+void
 FlushAccumulatedBlock
 (
 nsFrameConstructorState

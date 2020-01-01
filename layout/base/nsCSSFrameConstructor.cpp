@@ -23554,8 +23554,6 @@ if
 wrapFrame
 )
 {
-rv
-=
 FlushAccumulatedBlock
 (
 aState
@@ -23564,15 +23562,6 @@ newFrame
 currentBlockItems
 newItems
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-break
 ;
 }
 childItems
@@ -23606,8 +23595,6 @@ f
 ;
 }
 }
-rv
-=
 FlushAccumulatedBlock
 (
 aState
@@ -28218,7 +28205,7 @@ MathML
 Mod
 -
 RBS
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -28256,7 +28243,6 @@ Nothing
 to
 do
 return
-NS_OK
 ;
 }
 nsIAtom
@@ -28446,9 +28432,6 @@ AddChild
 (
 blockFrame
 )
-;
-return
-NS_OK
 ;
 }
 /
