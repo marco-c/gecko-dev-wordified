@@ -4306,6 +4306,11 @@ GetRenderState
 )
 MOZ_OVERRIDE
 ;
+GLuint
+GetGLTexture
+(
+)
+;
 private
 :
 gl
