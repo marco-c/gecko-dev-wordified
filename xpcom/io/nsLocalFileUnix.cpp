@@ -792,7 +792,7 @@ h
 endif
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 <
@@ -1539,7 +1539,7 @@ mPath
 }
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 NS_IMPL_THREADSAFE_ISUPPORTS4
 (
 nsLocalFile
@@ -7918,7 +7918,7 @@ Services
 .
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 /
 /
 Certain
@@ -9425,7 +9425,7 @@ aPersistentDescriptor
 {
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 if
 (
 aPersistentDescriptor
@@ -9933,7 +9933,7 @@ dirPath
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 CFURLRef
 url
@@ -10333,7 +10333,7 @@ NS_ERROR_FAILURE
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 CFURLRef
 url
@@ -11297,7 +11297,7 @@ GlobalShutdown
 nsILocalFileMac
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 static
 nsresult
 MacErrorMapper
