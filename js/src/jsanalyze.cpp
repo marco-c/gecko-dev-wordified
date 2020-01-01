@@ -1600,7 +1600,7 @@ if
 script
 -
 >
-usesEval
+bindingsAccessedDynamically
 |
 |
 script
@@ -1708,7 +1708,7 @@ if
 script
 -
 >
-usesEval
+bindingsAccessedDynamically
 |
 |
 script
@@ -1904,7 +1904,7 @@ heavyweight
 script
 -
 >
-usesEval
+bindingsAccessedDynamically
 |
 |
 script
@@ -10942,7 +10942,7 @@ JS_ASSERT
 script
 -
 >
-usesEval
+bindingsAccessedDynamically
 )
 ;
 /
