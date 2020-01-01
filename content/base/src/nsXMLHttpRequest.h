@@ -1566,6 +1566,9 @@ nsIInputStream
 *
 *
 aResult
+uint64_t
+*
+aContentLength
 nsACString
 &
 aContentType

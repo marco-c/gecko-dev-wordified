@@ -783,6 +783,9 @@ nsIInputStream
 *
 *
 aBody
+uint64_t
+*
+aContentLength
 nsACString
 &
 aContentType
@@ -889,6 +892,11 @@ Truncate
 (
 )
 ;
+*
+aContentLength
+=
+0
+;
 NS_ADDREF
 (
 *
@@ -898,6 +906,7 @@ fs
 .
 GetSubmissionBody
 (
+aContentLength
 )
 )
 ;
