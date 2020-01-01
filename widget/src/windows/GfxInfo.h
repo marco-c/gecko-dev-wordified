@@ -679,6 +679,9 @@ mAdapterDeviceID
 PRUint32
 mWindowsVersion
 ;
+PRBool
+mHasDriverVersionMismatch
+;
 }
 ;
 }
