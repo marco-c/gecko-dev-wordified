@@ -476,7 +476,12 @@ defined
 __cplusplus
 )
 extern
-bool
+const
+js
+:
+:
+Shape
+*
 js_SlowPathUpdateWatchpointsForShape
 (
 JSContext
@@ -506,7 +511,7 @@ obj
 |
 on
 |
-new_shape
+newShape
 -
 >
 id
@@ -514,7 +519,7 @@ id
 to
 use
 |
-new_shape
+newShape
 |
 .
 Property
@@ -558,7 +563,12 @@ getter
 /
 static
 inline
-bool
+const
+js
+:
+:
+Shape
+*
 js_UpdateWatchpointsForShape
 (
 JSContext
@@ -591,7 +601,7 @@ watchPointList
 )
 )
 return
-true
+newShape
 ;
 return
 js_SlowPathUpdateWatchpointsForShape
