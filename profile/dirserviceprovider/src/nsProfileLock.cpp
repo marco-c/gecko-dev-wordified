@@ -932,7 +932,7 @@ sigaction
 (
 signo
 oldact
-NULL
+nullptr
 )
 ;
 /
@@ -976,7 +976,7 @@ sigprocmask
 SIG_UNBLOCK
 &
 unblock_sigs
-NULL
+nullptr
 )
 ;
 raise
@@ -2277,7 +2277,7 @@ if
 sigaction
 (
 signame
-NULL
+nullptr
 &
 oldact
 )
@@ -2873,7 +2873,7 @@ processInfo
 .
 processAppRef
 =
-NULL
+nullptr
 ;
 #
 else
@@ -2881,7 +2881,7 @@ processInfo
 .
 processAppSpec
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -2889,7 +2889,7 @@ processInfo
 .
 processName
 =
-NULL
+nullptr
 ;
 processInfo
 .
