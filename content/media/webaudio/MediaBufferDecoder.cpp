@@ -1759,6 +1759,7 @@ mBuffer
 )
 mLength
 mPrincipal
+mContentType
 )
 ;
 MOZ_ASSERT
