@@ -935,16 +935,6 @@ XXXNeverCalled
 (
 )
 {
-GRE_GetGREPathWithProperties
-(
-nsnull
-0
-nsnull
-0
-nsnull
-0
-)
-;
 nsTextFormatter
 :
 :
