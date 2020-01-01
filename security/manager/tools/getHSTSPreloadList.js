@@ -381,8 +381,6 @@ chromium
 .
 org
 /
-viewvc
-/
 chrome
 /
 trunk
