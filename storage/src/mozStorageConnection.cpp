@@ -2423,6 +2423,14 @@ char
 aTableSchema
 )
 {
+if
+(
+!
+mDBConn
+)
+return
+NS_ERROR_NOT_INITIALIZED
+;
 int
 srv
 ;
