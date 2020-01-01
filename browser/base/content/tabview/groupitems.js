@@ -5585,9 +5585,6 @@ extend
 }
 options
 {
-padding
-:
-8
 z
 :
 99999
