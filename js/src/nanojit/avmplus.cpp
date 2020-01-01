@@ -515,6 +515,9 @@ using
 namespace
 avmplus
 ;
+nanojit
+:
+:
 Config
 AvmCore
 :

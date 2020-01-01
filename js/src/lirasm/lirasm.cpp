@@ -12340,12 +12340,6 @@ mAlloc
 mCore
 &
 mLogc
-)
-{
-mVerbose
-=
-verbose
-;
 nanojit
 :
 :
@@ -12353,10 +12347,11 @@ AvmCore
 :
 :
 config
-.
-tree_opt
+)
+{
+mVerbose
 =
-true
+verbose
 ;
 mLogc
 .
@@ -14372,7 +14367,7 @@ AvmCore
 :
 config
 .
-use_cmov
+i386_use_cmov
 =
 avmplus
 :
@@ -14382,7 +14377,7 @@ AvmCore
 :
 config
 .
-sse2
+i386_sse2
 =
 i386_sse
 ;
@@ -14394,7 +14389,7 @@ AvmCore
 :
 config
 .
-fixed_esp
+i386_fixed_esp
 =
 true
 ;

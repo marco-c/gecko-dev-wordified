@@ -2078,6 +2078,10 @@ core
 LogControl
 *
 logc
+const
+Config
+&
+config
 )
 ;
 void
@@ -3438,12 +3442,10 @@ _fpuStkDepth
 }
 #
 endif
-avmplus
-:
-:
+const
 Config
 &
-config
+_config
 ;
 }
 ;

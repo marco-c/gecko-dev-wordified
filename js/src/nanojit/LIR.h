@@ -10403,9 +10403,6 @@ housing
 the
 instructions
 const
-avmplus
-:
-:
 Config
 &
 _config
@@ -10418,9 +10415,6 @@ LirBuffer
 *
 buf
 const
-avmplus
-:
-:
 Config
 &
 config

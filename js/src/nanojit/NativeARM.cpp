@@ -1125,9 +1125,9 @@ run
 time
 check
 on
-config
+_config
 .
-arch
+arm_arch
 and
 fall
 back
@@ -1163,7 +1163,7 @@ anyway
 .
 NanoAssert
 (
-config
+_config
 .
 arm_arch
 >
@@ -4956,9 +4956,9 @@ ifdef
 NJ_VERBOSE
 if
 (
-config
+_config
 .
-show_stats
+arm_show_stats
 )
 {
 /
@@ -5094,7 +5094,7 @@ ARMv5
 .
 NanoAssert
 (
-config
+_config
 .
 arm_arch
 >
@@ -5651,7 +5651,7 @@ LIR_qjoin
 .
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 |
@@ -5672,7 +5672,7 @@ deprecated_UnknownReg
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -5946,7 +5946,7 @@ arguments
 .
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -6126,7 +6126,7 @@ stkd
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -6690,7 +6690,7 @@ stack
 if
 (
 !
-config
+_config
 .
 arm_vfp
 |
@@ -6789,7 +6789,7 @@ available
 .
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 )
@@ -7005,7 +7005,7 @@ ins
 {
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -7361,7 +7361,7 @@ call
 .
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 |
@@ -7446,7 +7446,7 @@ calls
 .
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -8218,7 +8218,7 @@ LR
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -10307,7 +10307,7 @@ i
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -10510,7 +10510,7 @@ d
 {
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -10810,7 +10810,7 @@ LIR_ldfc
 :
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -11026,7 +11026,7 @@ LIR_ldc32f
 :
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -11293,7 +11293,7 @@ LIR_stfi
 :
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -11571,7 +11571,7 @@ LIR_st32f
 :
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -12059,7 +12059,7 @@ false
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -12209,7 +12209,7 @@ s
 {
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -14367,7 +14367,7 @@ check
 .
 NanoAssert
 (
-config
+_config
 .
 arm_arch
 >
@@ -14609,7 +14609,7 @@ check
 .
 NanoAssert
 (
-config
+_config
 .
 arm_arch
 >
@@ -14839,7 +14839,7 @@ chk
 {
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -15593,7 +15593,7 @@ target
 )
 if
 (
-config
+_config
 .
 arm_arch
 >
@@ -17701,7 +17701,7 @@ isCond
 ;
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 |
@@ -18216,7 +18216,7 @@ disabled
 .
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 |
@@ -18280,7 +18280,7 @@ _nIns
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -19752,7 +19752,7 @@ method
 if
 (
 (
-config
+_config
 .
 arm_arch
 >
@@ -19894,7 +19894,7 @@ else
 {
 /
 /
-config
+_config
 .
 arm_arch
 is
@@ -21751,7 +21751,7 @@ LIR_fret
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 )

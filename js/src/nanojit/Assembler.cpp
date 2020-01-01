@@ -573,6 +573,10 @@ core
 LogControl
 *
 logc
+const
+Config
+&
+config
 )
 :
 codeList
@@ -642,11 +646,8 @@ NULL
 )
 #
 endif
-config
+_config
 (
-core
--
->
 config
 )
 {

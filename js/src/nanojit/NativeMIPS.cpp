@@ -11319,13 +11319,6 @@ record
 >
 exit
 ;
-bool
-trees
-=
-config
-.
-tree_opt
-;
 Fragment
 *
 frag
@@ -11373,10 +11366,6 @@ jump
 if
 (
 destKnown
-&
-&
-!
-trees
 )
 {
 /

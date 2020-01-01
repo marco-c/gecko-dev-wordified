@@ -2401,6 +2401,13 @@ definitions
 #
 include
 "
+njconfig
+.
+h
+"
+#
+include
+"
 Allocator
 .
 h

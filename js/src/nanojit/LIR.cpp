@@ -6744,10 +6744,9 @@ LIR_icall
 .
 if
 (
-!
 _config
 .
-arm_vfp
+soft_float
 &
 &
 op
