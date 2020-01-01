@@ -1338,6 +1338,12 @@ char
 aCapability
 )
 ;
+static
+bool
+IsImageSrcSetDisabled
+(
+)
+;
 /
 *
 *
