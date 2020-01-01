@@ -5247,6 +5247,9 @@ keyup
 keydown
 '
 '
+keypress
+'
+'
 mouseup
 '
 '
