@@ -1231,6 +1231,11 @@ resolver
 "
 "
 NUMBER_OF_TOP_SITES_PORTRAIT
+"
+about
+:
+%
+"
 )
 ;
 activity
