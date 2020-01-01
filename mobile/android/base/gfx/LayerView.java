@@ -679,7 +679,6 @@ LayerView
 extends
 FlexibleGLSurfaceView
 implements
-AbstractLayerView
 GeckoEventListener
 {
 private
@@ -1596,16 +1595,6 @@ mRenderer
 getMaxTextureSize
 (
 )
-;
-}
-public
-View
-getAndroidView
-(
-)
-{
-return
-this
 ;
 }
 /

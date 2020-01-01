@@ -535,7 +535,7 @@ float
 mNewResolution
 ;
 private
-AbstractLayerView
+LayerView
 mView
 ;
 public
@@ -932,7 +932,7 @@ public
 void
 beginTransaction
 (
-AbstractLayerView
+LayerView
 aView
 )
 {

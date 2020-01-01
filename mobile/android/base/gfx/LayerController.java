@@ -485,17 +485,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-AbstractLayerView
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 ui
 .
 PanZoomController
@@ -749,7 +738,7 @@ layer
 *
 /
 private
-AbstractLayerView
+LayerView
 mView
 ;
 /
@@ -1133,7 +1122,7 @@ mRootLayer
 ;
 }
 public
-AbstractLayerView
+LayerView
 getView
 (
 )
@@ -3074,10 +3063,6 @@ mOnTouchListener
 onTouch
 (
 mView
-.
-getAndroidView
-(
-)
 event
 )
 ;
