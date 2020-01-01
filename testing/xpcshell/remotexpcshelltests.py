@@ -2139,12 +2139,9 @@ None
 :
           
 return
-int
-(
 self
 .
 shellReturnCode
-)
         
 else
 :
