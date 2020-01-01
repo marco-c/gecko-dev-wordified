@@ -2641,7 +2641,7 @@ used
 by
 nsCSSRendering
 .
-nsresult
+void
 nsCSSRendering
 :
 :
@@ -2666,17 +2666,6 @@ new
 InlineBackgroundData
 (
 )
-;
-if
-(
-!
-gInlineBGData
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-return
-NS_OK
 ;
 }
 /

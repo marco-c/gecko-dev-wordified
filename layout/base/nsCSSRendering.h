@@ -497,7 +497,7 @@ nsCSSRendering
 *
 /
 static
-nsresult
+void
 Init
 (
 )
