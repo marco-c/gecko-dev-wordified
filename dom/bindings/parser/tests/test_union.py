@@ -477,6 +477,10 @@ octet
 DOMString
 "
              
+"
+ByteString
+"
+             
 #
 "
 sequence
