@@ -487,8 +487,7 @@ nsDOMString
 h
 "
 typedef
-unsigned
-long
+PRUptrdiff
 PtrBits
 ;
 #
