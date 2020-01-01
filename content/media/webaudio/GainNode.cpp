@@ -699,7 +699,9 @@ mGain
 new
 AudioParam
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 SendGainToStream
 1
 .

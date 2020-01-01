@@ -2598,7 +2598,9 @@ mPlaybackRate
 new
 AudioParam
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 SendPlaybackRateToStream
 1
 .

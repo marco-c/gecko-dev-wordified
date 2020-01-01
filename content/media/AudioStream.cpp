@@ -790,7 +790,9 @@ mWritten
 )
 mAudioClock
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 )
 {
 }
