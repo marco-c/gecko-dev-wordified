@@ -7073,6 +7073,7 @@ nativePath
 get
 (
 )
+PR_TRUE
 )
 ;
 #
