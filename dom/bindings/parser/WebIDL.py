@@ -4681,11 +4681,38 @@ setter
 creator
 deleter
 }
-and
 at
 most
 one
 stringifier
+        
+#
+and
+at
+most
+one
+legacycaller
+.
+Note
+that
+this
+last
+is
+not
+        
+#
+quite
+per
+spec
+but
+in
+practice
+no
+one
+overloads
+        
+#
+legacycallers
 .
         
 specialMembersSeen
@@ -4782,6 +4809,20 @@ memberType
 stringifiers
 "
             
+elif
+member
+.
+isLegacycaller
+(
+)
+:
+                
+memberType
+=
+"
+legacycallers
+"
+            
 else
 :
                 
@@ -4793,6 +4834,13 @@ memberType
 =
 "
 stringifiers
+"
+and
+memberType
+!
+=
+"
+legacycallers
 "
 :
                 
