@@ -446,13 +446,13 @@ GetNearestWidget
 (
 )
 ;
-nsWindow
+nsWindowBase
 *
 window
 =
 static_cast
 <
-nsWindow
+nsWindowBase
 *
 >
 (
@@ -497,7 +497,7 @@ window
 window
 -
 >
-GetParentWindow
+GetParentWindowBase
 (
 false
 )

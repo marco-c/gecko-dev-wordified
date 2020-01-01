@@ -2541,14 +2541,14 @@ underCursorWnd
 )
 )
 {
-nsWindow
+nsWindowBase
 *
 destWindow
 =
 WinUtils
 :
 :
-GetNSWindowPtr
+GetNSWindowBasePtr
 (
 underCursorWnd
 )
@@ -2620,7 +2620,7 @@ destWindow
 WinUtils
 :
 :
-GetNSWindowPtr
+GetNSWindowBasePtr
 (
 wnd
 )
@@ -11022,7 +11022,7 @@ eWindowType_plugin
 WinUtils
 :
 :
-GetNSWindowPtr
+GetNSWindowBasePtr
 (
 mWnd
 )
