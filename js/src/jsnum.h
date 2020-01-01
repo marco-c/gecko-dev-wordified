@@ -1068,6 +1068,14 @@ extern
 jsdouble
 js_NaN
 ;
+extern
+jsdouble
+js_PositiveInfinity
+;
+extern
+jsdouble
+js_NegativeInfinity
+;
 /
 *
 Initialize

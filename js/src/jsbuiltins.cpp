@@ -608,10 +608,6 @@ using
 namespace
 nanojit
 ;
-extern
-jsdouble
-js_NaN
-;
 JS_FRIEND_API
 (
 void
