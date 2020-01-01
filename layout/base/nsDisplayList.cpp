@@ -5783,9 +5783,6 @@ nsDisplayClip
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aClippingFrame
 nsDisplayItem
 *
 aItem
@@ -5799,10 +5796,6 @@ nsDisplayWrapList
 (
 aFrame
 aItem
-)
-mClippingFrame
-(
-aClippingFrame
 )
 mClip
 (
@@ -5823,9 +5816,6 @@ nsDisplayClip
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aClippingFrame
 nsDisplayList
 *
 aList
@@ -5839,10 +5829,6 @@ nsDisplayWrapList
 (
 aFrame
 aList
-)
-mClippingFrame
-(
-aClippingFrame
 )
 mClip
 (
@@ -6090,15 +6076,6 @@ mClip
 !
 =
 mClip
-|
-|
-other
--
->
-mClippingFrame
-!
-=
-mClippingFrame
 )
 return
 PR_FALSE
@@ -6146,7 +6123,6 @@ aItem
 GetUnderlyingFrame
 (
 )
-mClippingFrame
 aItem
 mClip
 )
