@@ -1645,14 +1645,6 @@ char
 )
 ;
 nsresult
-SetAcceptCharsets
-(
-const
-char
-*
-)
-;
-nsresult
 InitConnectionMgr
 (
 )
@@ -1886,9 +1878,6 @@ mAcceptLanguages
 ;
 nsCString
 mAcceptEncodings
-;
-nsCString
-mAcceptCharsets
 ;
 nsXPIDLCString
 mDefaultSocketType

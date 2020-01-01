@@ -2822,15 +2822,6 @@ accept_languages
 "
 String
 )
-MAKESAMETYPEPREFTRANSFORM
-(
-"
-intl
-.
-accept_charsets
-"
-String
-)
 MAKEPREFTRANSFORM
 (
 "
