@@ -537,10 +537,6 @@ PIFrameEmbeddingChild
 *
 AllocPIFrameEmbedding
 (
-const
-MagicWindowHandle
-&
-hwnd
 )
 ;
 virtual

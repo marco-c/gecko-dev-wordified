@@ -582,10 +582,6 @@ TabParent
 *
 CreateTab
 (
-const
-MagicWindowHandle
-&
-hwnd
 )
 ;
 mozilla
@@ -654,10 +650,6 @@ PIFrameEmbeddingParent
 *
 AllocPIFrameEmbedding
 (
-const
-MagicWindowHandle
-&
-parentWidget
 )
 ;
 virtual

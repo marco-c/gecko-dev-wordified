@@ -1357,6 +1357,17 @@ nsIFrame
 aOther
 )
 ;
+virtual
+nsIFrame
+*
+GetFrame
+(
+)
+{
+return
+this
+;
+}
 /
 /
 nsIReflowCallback

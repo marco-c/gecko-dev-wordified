@@ -661,10 +661,6 @@ ContentProcessParent
 :
 CreateTab
 (
-const
-MagicWindowHandle
-&
-hwnd
 )
 {
 return
@@ -676,7 +672,6 @@ TabParent
 (
 SendPIFrameEmbeddingConstructor
 (
-hwnd
 )
 )
 ;
@@ -961,10 +956,6 @@ ContentProcessParent
 :
 AllocPIFrameEmbedding
 (
-const
-MagicWindowHandle
-&
-parentWidget
 )
 {
 return
