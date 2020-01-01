@@ -197,7 +197,7 @@ nsINodeInfo
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_DECL_CYCLE_COLLECTION_SKIPPABLE_CLASS
 (
 nsNodeInfo
 )
@@ -345,6 +345,11 @@ class
 static
 void
 ClearCache
+(
+)
+;
+bool
+CanSkip
 (
 )
 ;
