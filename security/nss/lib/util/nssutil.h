@@ -484,7 +484,7 @@ NSSUTIL_VERSION
 .
 6
 .
-0
+2
 "
 #
 define
@@ -501,7 +501,7 @@ NSSUTIL_VPATCH
 #
 define
 NSSUTIL_VBUILD
-0
+2
 #
 define
 NSSUTIL_BETA
