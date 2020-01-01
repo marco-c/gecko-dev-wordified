@@ -9329,6 +9329,15 @@ void
 nsDocAccessible
 :
 :
+NotifyOfInitialUpdate
+(
+)
+{
+}
+void
+nsDocAccessible
+:
+:
 AddDependentIDsFor
 (
 nsAccessible
