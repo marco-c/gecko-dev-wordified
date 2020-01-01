@@ -3546,13 +3546,16 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_XUL
 NS_IMETHODIMP
 nsHTMLStyleSheet
 :
 :
 RulesMatching
 (
-PseudoRuleProcessorData
+XULTreeRuleProcessorData
 *
 aData
 )
@@ -3561,6 +3564,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 /
 /
 nsIStyleSheet
