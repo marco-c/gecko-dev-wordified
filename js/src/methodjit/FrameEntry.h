@@ -652,6 +652,15 @@ location_
 PhysLoc_Memory
 ;
 }
+bool
+synced
+(
+)
+{
+return
+synced_
+;
+}
 RegisterID
 reg_
 ;
