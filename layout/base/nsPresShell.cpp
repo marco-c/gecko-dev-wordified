@@ -33599,7 +33599,7 @@ rangeInfo
 >
 mList
 .
-ComputeVisibilityForRoot
+ComputeVisibility
 (
 &
 rangeInfo

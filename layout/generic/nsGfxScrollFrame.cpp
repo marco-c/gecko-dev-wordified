@@ -9946,7 +9946,7 @@ aUpdateRect
 ;
 list
 .
-ComputeVisibilityForRoot
+ComputeVisibility
 (
 &
 builder
