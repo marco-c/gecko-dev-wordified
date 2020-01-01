@@ -1264,12 +1264,6 @@ updateBookmark
 (
 )
 ;
-updateHistory
-(
-mUrl
-mTitle
-)
-;
 }
 }
 public
@@ -2554,11 +2548,6 @@ mHistorySize
 mHistoryIndex
 +
 1
-;
-addHistory
-(
-url
-)
 ;
 }
 else
