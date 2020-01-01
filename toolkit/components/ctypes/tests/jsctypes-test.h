@@ -720,7 +720,7 @@ _WIN32
 !
 defined
 (
-__WIN64
+_WIN64
 )
 EXPORT_STDCALL
 (
@@ -903,7 +903,7 @@ _WIN32
 !
 defined
 (
-__WIN64
+_WIN64
 )
 *
 /
@@ -1256,7 +1256,7 @@ _WIN32
 !
 defined
 (
-__WIN64
+_WIN64
 )
 NS_EXPORT
 PRInt32
@@ -1286,7 +1286,7 @@ _WIN32
 !
 defined
 (
-__WIN64
+_WIN64
 )
 *
 /

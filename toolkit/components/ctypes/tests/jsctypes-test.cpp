@@ -1077,7 +1077,7 @@ _WIN32
 !
 defined
 (
-__WIN64
+_WIN64
 )
 void
 NS_STDCALL
@@ -1119,7 +1119,7 @@ _WIN32
 !
 defined
 (
-__WIN64
+_WIN64
 )
 *
 /
@@ -2005,7 +2005,7 @@ _WIN32
 !
 defined
 (
-__WIN64
+_WIN64
 )
 PRInt32
 test_closure_cdecl
@@ -2043,7 +2043,7 @@ _WIN32
 !
 defined
 (
-__WIN64
+_WIN64
 )
 *
 /
