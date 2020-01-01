@@ -1265,6 +1265,7 @@ ParseFragmentXML
 aFragment
 document
 tagStack
+PR_TRUE
 aReturn
 )
 ;

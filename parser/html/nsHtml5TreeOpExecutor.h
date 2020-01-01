@@ -744,9 +744,6 @@ mRunFlushLoopOnStack
 PRBool
 mCallContinueInterruptedParsingIfEnabled
 ;
-PRBool
-mPreventScriptExecution
-;
 public
 :
 nsHtml5TreeOpExecutor

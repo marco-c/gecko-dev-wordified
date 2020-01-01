@@ -1541,6 +1541,13 @@ h
 #
 include
 "
+nsIScriptElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -19924,6 +19931,8 @@ const
 nsAString
 &
 aFragment
+PRBool
+aPreventScriptExecution
 nsIDOMDocumentFragment
 *
 *
@@ -20177,7 +20186,7 @@ GetCompatibilityMode
 =
 eCompatibility_NavQuirks
 )
-PR_FALSE
+aPreventScriptExecution
 )
 ;
 }
@@ -20203,7 +20212,7 @@ GetCompatibilityMode
 =
 eCompatibility_NavQuirks
 )
-PR_FALSE
+aPreventScriptExecution
 )
 ;
 }
@@ -20631,6 +20640,7 @@ ParseFragmentXML
 aFragment
 document
 tagStack
+aPreventScriptExecution
 aReturn
 )
 ;
@@ -20793,6 +20803,8 @@ nsString
 >
 &
 aTagStack
+PRBool
+aPreventScriptExecution
 nsIDOMDocumentFragment
 *
 *
@@ -20892,6 +20904,14 @@ sXMLFragmentSink
 SetTargetDocument
 (
 aDocument
+)
+;
+sXMLFragmentSink
+-
+>
+SetPreventScriptExecution
+(
+aPreventScriptExecution
 )
 ;
 nsresult
