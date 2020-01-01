@@ -1158,10 +1158,6 @@ MMGC_SUBCLASS_DECL
 {
 friend
 class
-DeadCodeFilter
-;
-friend
-class
 VerboseBlockReader
 ;
 public
@@ -1809,11 +1805,6 @@ RegAllocMap
 *
 _branchStateMap
 ;
-const
-CallInfo
-*
-_functions
-;
 NIns
 *
 _nIns
@@ -2393,13 +2384,6 @@ Page
 page
 int
 flags
-)
-;
-void
-nFrameRestore
-(
-RegisterMask
-rmask
 )
 ;
 NIns

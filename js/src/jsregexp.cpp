@@ -16224,7 +16224,6 @@ LirNameMap
 (
 &
 gc
-NULL
 fragmento
 -
 >
