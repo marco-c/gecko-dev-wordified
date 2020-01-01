@@ -1695,6 +1695,13 @@ async
 "
 Debug
 "
+"
+xmpp
+.
+enabled
+"
+:
+false
 }
 ;
 Cu
