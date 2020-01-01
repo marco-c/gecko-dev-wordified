@@ -659,9 +659,6 @@ GetTransformMatrix
 (
 nsIFrame
 *
-aAncestor
-nsIFrame
-*
 *
 aOutAncestor
 )

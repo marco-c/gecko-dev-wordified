@@ -3884,6 +3884,8 @@ frame
 nsIFrame
 *
 parent
+=
+nsnull
 ;
 gfx3DMatrix
 ctm
@@ -3893,7 +3895,6 @@ frame
 >
 GetTransformMatrix
 (
-nsnull
 &
 parent
 )
