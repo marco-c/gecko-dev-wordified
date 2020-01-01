@@ -433,13 +433,6 @@ gfxCore
 .
 h
 "
-#
-include
-"
-nsIRegion
-.
-h
-"
 class
 nsIRegion
 ;
@@ -487,10 +480,6 @@ private
 nsIRegion
 *
 mRegion
-;
-nsRegionRectSet
-*
-mRectSet
 ;
 }
 ;
