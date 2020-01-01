@@ -13114,6 +13114,7 @@ for
 BytecodeRange
 r
 (
+cx
 script
 )
 ;

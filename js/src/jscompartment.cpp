@@ -443,11 +443,11 @@ lastCodeRelease
 )
 analysisLifoAlloc
 (
-LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+ANALYSIS_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 )
 typeLifoAlloc
 (
-LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+TYPE_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 )
 data
 (
@@ -754,6 +754,7 @@ crossCompartmentWrappers
 .
 init
 (
+0
 )
 )
 return
@@ -809,6 +810,7 @@ debuggees
 .
 init
 (
+0
 )
 ;
 }
