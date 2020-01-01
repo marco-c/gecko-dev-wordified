@@ -1108,16 +1108,6 @@ options
 testPath
 =
 test_path
-            
-env
-=
-{
-'
-TEST_PATH
-'
-:
-test_path
-}
         
 if
 rerun_failures

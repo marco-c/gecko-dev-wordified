@@ -385,16 +385,34 @@ exit
 code
 .
             
+#
+Note
+:
+subprocess
+requires
+native
+strings
+in
+os
+.
+environ
+on
+Windows
+            
 append_env
 =
 {
+b
 '
 PYTHONDONTWRITEBYTECODE
 '
 :
+str
+(
 '
 1
 '
+)
 }
 )
     
@@ -874,16 +892,32 @@ python
 test
 '
                 
+#
+subprocess
+requires
+native
+strings
+in
+os
+.
+environ
+on
+Windows
+                
 append_env
 =
 {
+b
 '
 PYTHONDONTWRITEBYTECODE
 '
 :
+str
+(
 '
 1
 '
+)
 }
                 
 line_handler
