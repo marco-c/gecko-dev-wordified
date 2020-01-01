@@ -6072,6 +6072,9 @@ type
 op
 PN_TERNARY
 TokenPos
+:
+:
+make
 (
 (
 kid1
