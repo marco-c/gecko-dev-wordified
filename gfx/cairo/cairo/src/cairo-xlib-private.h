@@ -689,7 +689,12 @@ reset_clip
 ;
 #
 if
+1
+/
+*
 CAIRO_HAS_XLIB_XRENDER_SURFACE
+*
+/
 #
 include
 "
