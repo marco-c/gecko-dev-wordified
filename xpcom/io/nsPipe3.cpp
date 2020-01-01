@@ -2632,7 +2632,10 @@ if
 (
 mMonitor
 )
-PR_DestroyMonitor
+nsAutoMonitor
+:
+:
+DestroyMonitor
 (
 mMonitor
 )
@@ -2664,8 +2667,14 @@ segmentAlloc
 {
 mMonitor
 =
-PR_NewMonitor
+nsAutoMonitor
+:
+:
+NewMonitor
 (
+"
+pipeMonitor
+"
 )
 ;
 if
