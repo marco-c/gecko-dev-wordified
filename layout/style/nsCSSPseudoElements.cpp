@@ -536,6 +536,9 @@ nsCSSPseudoElementList
 .
 h
 "
+#
+undef
+CSS_PSEUDO_ELEMENT
 static
 const
 nsStaticAtom
