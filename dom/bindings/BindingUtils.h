@@ -12428,7 +12428,16 @@ JSContext
 cx
 JSHandleObject
 obj
-JSMutableHandleValue
+JS
+:
+:
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 vp
 JSBool
 *

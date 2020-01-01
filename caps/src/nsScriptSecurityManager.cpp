@@ -2820,7 +2820,16 @@ JSHandleId
 id
 JSAccessMode
 mode
-JSMutableHandleValue
+JS
+:
+:
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 vp
 )
 {
