@@ -2487,9 +2487,9 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
-MIRTypeToTag
+ValueTypeFromMIRType
 (
 valueType
 )
