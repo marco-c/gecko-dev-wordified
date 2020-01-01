@@ -183,6 +183,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
