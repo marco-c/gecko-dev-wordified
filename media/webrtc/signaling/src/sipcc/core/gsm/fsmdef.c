@@ -19091,7 +19091,7 @@ FALSE
 }
 ui_create_offer
 (
-evCreateOffer
+evCreateOfferSuccess
 line
 call_id
 dcb
@@ -19571,7 +19571,7 @@ UI
 /
 ui_create_offer
 (
-evCreateOffer
+evCreateOfferSuccess
 line
 call_id
 dcb
@@ -19976,7 +19976,7 @@ FALSE
 }
 ui_create_answer
 (
-evCreateAnswer
+evCreateAnswerSuccess
 line
 call_id
 dcb
@@ -20653,7 +20653,7 @@ UI
 /
 ui_create_answer
 (
-evCreateAnswer
+evCreateAnswerSuccess
 line
 call_id
 dcb
@@ -21670,7 +21670,7 @@ SM_RC_END
 }
 ui_set_local_description
 (
-evSetLocalDesc
+evSetLocalDescSuccess
 msg
 -
 >
@@ -23161,7 +23161,7 @@ SM_RC_END
 }
 ui_set_remote_description
 (
-evSetRemoteDesc
+evSetRemoteDescSuccess
 line
 call_id
 dcb

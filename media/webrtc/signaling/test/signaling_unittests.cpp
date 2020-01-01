@@ -985,15 +985,6 @@ ANSWER
 }
 ;
 enum
-StateType
-{
-kReadyState
-kIceState
-kSdpState
-kSipccState
-}
-;
-enum
 ResponseState
 {
 stateNoResponse
@@ -1612,6 +1603,9 @@ state_type
 )
 {
 case
+IPeerConnectionObserver
+:
+:
 kReadyState
 :
 rv
@@ -1649,6 +1643,9 @@ endl
 break
 ;
 case
+IPeerConnectionObserver
+:
+:
 kIceState
 :
 rv
@@ -1686,6 +1683,9 @@ endl
 break
 ;
 case
+IPeerConnectionObserver
+:
+:
 kSdpState
 :
 cout
@@ -1711,6 +1711,9 @@ rv
 break
 ;
 case
+IPeerConnectionObserver
+:
+:
 kSipccState
 :
 rv
