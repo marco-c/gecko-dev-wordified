@@ -4824,7 +4824,10 @@ DidReflow
 (
 aPresContext
 nullptr
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 )
 ;
 continue
@@ -6847,7 +6850,10 @@ DidReflow
 (
 aPresContext
 nullptr
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 )
 ;
 return

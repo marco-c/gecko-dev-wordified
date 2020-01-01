@@ -9758,7 +9758,10 @@ PresContext
 (
 )
 nullptr
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 )
 ;
 }
