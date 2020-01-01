@@ -4608,8 +4608,6 @@ updateName
 updateName
 +
 "
-nightly
-(
 "
 +
 gUpdates
@@ -4619,7 +4617,7 @@ update
 buildID
 +
 "
-)
+nightly
 "
 ;
 var
