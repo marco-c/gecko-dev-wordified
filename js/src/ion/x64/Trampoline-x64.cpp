@@ -508,7 +508,7 @@ include
 "
 ion
 /
-IonVMFunctions
+VMFunctions
 .
 h
 "
@@ -3721,7 +3721,7 @@ Value
 ;
 masm
 .
-movl
+movq
 (
 rsp
 outReg
