@@ -4163,6 +4163,8 @@ idp
 *
 idp
 =
+:
+:
 INT_TO_JSID
 (
 tarray
@@ -4193,6 +4195,8 @@ idp
 *
 idp
 =
+:
+:
 INT_TO_JSID
 (
 tarray
@@ -4269,6 +4273,8 @@ length
 *
 idp
 =
+:
+:
 INT_TO_JSID
 (
 index
@@ -6990,6 +6996,8 @@ ar
 getProperty
 (
 cx
+:
+:
 INT_TO_JSID
 (
 i

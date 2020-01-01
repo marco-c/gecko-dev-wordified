@@ -538,6 +538,8 @@ CHECK
 (
 condition
 )
+:
+:
 CheckHelper
 (
 __FILE__

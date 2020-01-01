@@ -1719,6 +1719,12 @@ stack
 "
 )
 ;
+js
+:
+:
+gc
+:
+:
 Mark
 (
 trc
@@ -8561,6 +8567,12 @@ isMarked
 (
 )
 )
+js
+:
+:
+gc
+:
+:
 MarkChildren
 (
 trc
