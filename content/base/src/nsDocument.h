@@ -465,13 +465,6 @@ h
 #
 include
 "
-nsIDocumentRegister
-.
-h
-"
-#
-include
-"
 imgIRequest
 .
 h
@@ -2658,8 +2651,6 @@ nsIDOMDocumentTouch
 public
 nsIInlineEventHandlers
 public
-nsIDocumentRegister
-public
 nsIObserver
 {
 public
@@ -4329,10 +4320,6 @@ NS_DECL_NSIDOMDOCUMENTTOUCH
 /
 nsIInlineEventHandlers
 NS_DECL_NSIINLINEEVENTHANDLERS
-/
-/
-nsIDocumentRegister
-NS_DECL_NSIDOCUMENTREGISTER
 /
 /
 nsIObserver
