@@ -3550,7 +3550,7 @@ aclasp
 ;
 flags
 =
-INITIAL_FLAGS
+0
 ;
 #
 ifdef
