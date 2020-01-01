@@ -20478,6 +20478,10 @@ mCurrentTarget
 =
 nsnull
 ;
+mCurrentTargetContent
+=
+nsnull
+;
 return
 ret
 ;
@@ -21942,6 +21946,10 @@ mCurrentTargetContent
 =
 aTargetContent
 ;
+mCurrentTarget
+=
+nsnull
+;
 nsIFrame
 *
 targetFrame
@@ -22028,6 +22036,10 @@ aTargetContent
 }
 }
 mCurrentTargetContent
+=
+nsnull
+;
+mCurrentTarget
 =
 nsnull
 ;
@@ -22960,6 +22972,10 @@ was
 mCurrentTargetContent
 =
 targetBeforeEvent
+;
+mCurrentTarget
+=
+nsnull
 ;
 }
 void
