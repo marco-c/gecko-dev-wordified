@@ -400,6 +400,11 @@ BLOCK
 *
 *
 /
+"
+use
+strict
+"
+;
 const
 Cc
 =
@@ -9310,6 +9315,7 @@ returnedAddons
 for
 each
 (
+let
 addon
 in
 addons
