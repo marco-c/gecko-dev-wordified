@@ -427,7 +427,6 @@ z
 index
 elements
 .
-return
 BuildDisplayListForChild
 (
 aBuilder
@@ -435,6 +434,9 @@ kid
 aDirtyRect
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -3455,9 +3455,6 @@ aBuilder
 this
 )
 ;
-nsresult
-rv
-=
 aLists
 .
 BorderBackground
@@ -3470,15 +3467,8 @@ AppendNewToTop
 item
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 }
 }
-return
 nsTableFrame
 :
 :
@@ -3490,6 +3480,9 @@ aDirtyRect
 aLists
 item
 )
+;
+return
+NS_OK
 ;
 }
 int
