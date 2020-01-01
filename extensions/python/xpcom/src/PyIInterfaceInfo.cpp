@@ -681,6 +681,7 @@ NULL
 return
 NULL
 ;
+const
 nsIID
 *
 iid_ret
