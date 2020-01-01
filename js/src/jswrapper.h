@@ -1472,7 +1472,7 @@ frame
 JSFrameRegs
 regs
 ;
-JSRegExpStatics
+RegExpStatics
 statics
 ;
 AutoStringRooter
