@@ -760,8 +760,6 @@ inlined
 /
 isJaegerInlineable
 =
-isIonInlineable
-=
 false
 ;
 hasLoops_
