@@ -25329,10 +25329,16 @@ nsIntRect
 aRects
 )
 {
+if
+(
+!
 StoreWindowClipRegion
 (
 aRects
 )
+)
+return
+NS_OK
 ;
 if
 (
