@@ -837,6 +837,9 @@ PRTime
 EXPIRATION_POLICY_MONTHS
 =
 (
+(
+PRTime
+)
 180
 *
 86400
