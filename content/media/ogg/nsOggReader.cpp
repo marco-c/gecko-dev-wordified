@@ -522,7 +522,7 @@ h
 #
 include
 "
-nsOggHacks
+VideoUtils
 .
 h
 "
@@ -555,7 +555,7 @@ PR_LOGGING
 extern
 PRLogModuleInfo
 *
-gOggDecoderLog
+gBuiltinDecoderLog
 ;
 #
 define
@@ -566,7 +566,7 @@ msg
 )
 PR_LOG
 (
-gOggDecoderLog
+gBuiltinDecoderLog
 type
 msg
 )
@@ -582,7 +582,7 @@ msg
 )
 PR_LOG
 (
-gOggDecoderLog
+gBuiltinDecoderLog
 type
 msg
 )
@@ -4378,7 +4378,9 @@ mPlayer
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 ;
 while
 (
@@ -4617,7 +4619,9 @@ mPlayer
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 GetLength
@@ -4837,7 +4841,9 @@ mPlayer
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 ;
 if
 (
@@ -6479,7 +6485,9 @@ mPlayer
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 ;
 if
 (
@@ -8101,7 +8109,9 @@ mPlayer
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 Read
@@ -9897,7 +9907,9 @@ mPlayer
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 ;
 stream
 -
@@ -10201,7 +10213,9 @@ mPlayer
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 ;
 ogg_sync_reset
 (

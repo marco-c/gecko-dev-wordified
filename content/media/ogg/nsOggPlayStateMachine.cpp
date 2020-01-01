@@ -483,7 +483,7 @@ h
 #
 include
 "
-nsOggDecoder
+nsBuiltinDecoder
 .
 h
 "
@@ -522,7 +522,7 @@ h
 #
 include
 "
-nsOggHacks
+VideoUtils
 .
 h
 "
@@ -583,7 +583,7 @@ PR_LOGGING
 extern
 PRLogModuleInfo
 *
-gOggDecoderLog
+gBuiltinDecoderLog
 ;
 #
 define
@@ -594,7 +594,7 @@ msg
 )
 PR_LOG
 (
-gOggDecoderLog
+gBuiltinDecoderLog
 type
 msg
 )
@@ -757,7 +757,7 @@ nsOggPlayStateMachine
 :
 nsOggPlayStateMachine
 (
-nsOggDecoder
+nsBuiltinDecoder
 *
 aDecoder
 )
@@ -1531,7 +1531,9 @@ initialDownloadPosition
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 GetCachedDataEnd
@@ -1749,7 +1751,9 @@ initialDownloadPosition
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 GetCachedDataEnd
@@ -2870,7 +2874,7 @@ aMode
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -3080,7 +3084,7 @@ StartPlayback
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -3279,7 +3283,7 @@ aTime
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -3385,7 +3389,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 DurationChanged
@@ -3418,7 +3422,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 PlaybackPositionChanged
@@ -4006,7 +4010,7 @@ ResetPlayback
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -4082,7 +4086,7 @@ GetMonitor
 ;
 /
 /
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 mPlayState
@@ -4098,7 +4102,7 @@ and
 in
 that
 case
-nsOggDecoder
+nsBuiltinDecoder
 shouldn
 '
 t
@@ -4300,7 +4304,7 @@ StopDecodeThreads
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -4415,7 +4419,7 @@ StartDecodeThreads
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -4590,7 +4594,7 @@ Run
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -4615,7 +4619,9 @@ stream
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 ;
 NS_ENSURE_TRUE
 (
@@ -4926,7 +4932,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 MetadataLoaded
@@ -4984,7 +4990,7 @@ GetState
 )
 =
 =
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 PLAY_STATE_PLAYING
@@ -5050,7 +5056,7 @@ GetState
 )
 =
 =
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 PLAY_STATE_PLAYING
@@ -5060,7 +5066,9 @@ PLAY_STATE_PLAYING
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 IsDataCachedToEndOfStream
@@ -5076,7 +5084,9 @@ mDecoderPosition
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 IsSuspendedByCache
@@ -5566,7 +5576,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 SeekingStarted
@@ -5923,7 +5933,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 SeekingStoppedAtEnd
@@ -5966,7 +5976,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 SeekingStopped
@@ -6046,7 +6056,9 @@ BUFFERING_WAIT
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 GetCachedDataEnd
@@ -6064,7 +6076,9 @@ mBufferingEndOffset
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 IsDataCachedToEndOfStream
@@ -6080,7 +6094,9 @@ mDecoderPosition
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 IsSuspendedByCache
@@ -6115,7 +6131,9 @@ mBufferingEndOffset
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 -
 >
 GetCachedDataEnd
@@ -6258,7 +6276,7 @@ GetState
 )
 =
 =
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 PLAY_STATE_PLAYING
@@ -6432,7 +6450,7 @@ GetState
 )
 =
 =
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 PLAY_STATE_PLAYING
@@ -6497,7 +6515,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 PlaybackEnded
@@ -6553,7 +6571,7 @@ aData
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -7348,7 +7366,7 @@ GetAudioClock
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -7418,7 +7436,7 @@ AdvanceFrame
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -7475,7 +7493,7 @@ GetState
 )
 =
 =
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 PLAY_STATE_PLAYING
@@ -8436,7 +8454,7 @@ LoadOggHeaders
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -8549,7 +8567,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 DecodeError
@@ -8767,7 +8785,7 @@ FindStartTime
 {
 NS_ASSERTION
 (
-IsThread
+IsCurrentThread
 (
 mDecoder
 -
@@ -8977,7 +8995,9 @@ stream
 mDecoder
 -
 >
-mStream
+GetCurrentStream
+(
+)
 ;
 /
 /
@@ -9179,7 +9199,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 NextFrameUnavailableBuffering
@@ -9199,7 +9219,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 NextFrameAvailable
@@ -9219,7 +9239,7 @@ NS_NewRunnableMethod
 (
 mDecoder
 &
-nsOggDecoder
+nsBuiltinDecoder
 :
 :
 NextFrameUnavailable
