@@ -1659,11 +1659,14 @@ WebGLRenderbuffer
 >
 mMapRenderbuffers
 ;
+public
+:
 /
 /
 console
 logging
 helpers
+static
 void
 LogMessage
 (
@@ -1676,6 +1679,7 @@ fmt
 .
 )
 ;
+static
 nsresult
 ErrorMessage
 (
