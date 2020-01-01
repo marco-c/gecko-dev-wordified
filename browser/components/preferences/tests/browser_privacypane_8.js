@@ -467,6 +467,10 @@ file
 tmpdir
 .
 path
++
+'
+/
+'
 ;
 }
 loader
@@ -476,7 +480,6 @@ loadSubScript
 rootDir
 +
 "
-/
 privacypane_tests
 .
 js
