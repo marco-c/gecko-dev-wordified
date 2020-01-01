@@ -5727,6 +5727,17 @@ TagAt
 theIndex
 )
 ;
+if
+(
+theParentTag
+=
+=
+eHTMLTag_userdefined
+)
+{
+continue
+;
+}
 /
 /
 Figure
