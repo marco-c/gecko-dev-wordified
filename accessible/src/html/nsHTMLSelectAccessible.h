@@ -1186,6 +1186,13 @@ Select
 element
 state
 *
+param
+aExtraState
+Select
+element
+extra
+state
+*
 return
 Select
 element
@@ -1204,6 +1211,11 @@ GetSelectState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
+=
+nsnull
 )
 ;
 }
