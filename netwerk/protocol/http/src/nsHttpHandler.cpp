@@ -8624,12 +8624,12 @@ PR_TRUE
 }
 if
 (
-PL_strstr
+PL_strchr
 (
 acceptable
-"
+'
 *
-"
+'
 )
 =
 =
