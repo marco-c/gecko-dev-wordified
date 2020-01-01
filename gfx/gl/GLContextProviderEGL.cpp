@@ -4442,7 +4442,7 @@ GLuint
 texture
 =
 (
-GLuint
+uintptr_t
 )
 aBuffer
 ;
