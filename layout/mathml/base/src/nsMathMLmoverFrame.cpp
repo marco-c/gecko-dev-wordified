@@ -2080,14 +2080,6 @@ their
 markups
 in
 order
-NS_WARNING
-(
-"
-invalid
-markup
-"
-)
-;
 return
 ReflowError
 (
