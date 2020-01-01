@@ -4352,8 +4352,6 @@ NS_FRAME_IS_DIRTY
 ;
 }
 }
-else
-{
 /
 /
 Update
@@ -4369,7 +4367,6 @@ InvalidateFrame
 (
 )
 ;
-}
 }
 }
 nsresult
