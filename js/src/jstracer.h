@@ -3740,7 +3740,7 @@ v_ins
 ;
 JS_REQUIRES_STACK
 JSRecordingStatus
-elem
+denseArrayElement
 (
 jsval
 &
