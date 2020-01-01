@@ -277,13 +277,6 @@ h
 #
 include
 "
-nsByteBuffer
-.
-h
-"
-#
-include
-"
 nsSupportsArray
 .
 h
