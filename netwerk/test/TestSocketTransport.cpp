@@ -456,13 +456,6 @@ h
 #
 include
 "
-nsIProxyObjectManager
-.
-h
-"
-#
-include
-"
 nsIRequest
 .
 h

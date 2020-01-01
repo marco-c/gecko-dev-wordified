@@ -530,13 +530,6 @@ h
 #
 include
 "
-nsIProxyObjectManager
-.
-h
-"
-#
-include
-"
 nsIPrivateBrowsingService
 .
 h
