@@ -1062,6 +1062,16 @@ nsIAtom
 aName
 )
 ;
+void
+AnimationNeedsResample
+(
+)
+;
+void
+FlushAnimations
+(
+)
+;
 #
 endif
 virtual

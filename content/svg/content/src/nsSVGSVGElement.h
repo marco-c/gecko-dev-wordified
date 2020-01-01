@@ -956,11 +956,6 @@ GetTimedDocumentRoot
 (
 )
 ;
-void
-RequestSample
-(
-)
-;
 #
 endif
 /
