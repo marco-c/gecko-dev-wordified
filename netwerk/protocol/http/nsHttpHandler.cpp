@@ -744,6 +744,13 @@ h
 #
 include
 "
+nsSocketTransportService2
+.
+h
+"
+#
+include
+"
 nsIXULAppInfo
 .
 h
@@ -5793,7 +5800,7 @@ NS_CLAMP
 (
 val
 1
-0xffff
+NS_SOCKET_MAX_COUNT
 )
 ;
 if
