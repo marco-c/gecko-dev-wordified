@@ -4098,6 +4098,17 @@ __GNUC__
 defined
 __i386__
 )
+|
+|
+\
+(
+defined
+__SUNPRO_CC
+&
+&
+defined
+__i386
+)
 /
 *
 *
