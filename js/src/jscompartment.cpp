@@ -1374,6 +1374,11 @@ global
 (
 )
 ;
+JS_ASSERT
+(
+global
+)
+;
 /
 *
 Unwrap
