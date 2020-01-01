@@ -741,16 +741,6 @@ GetPresShell
 (
 )
 ;
-void
-EnsureSelectionInEditor
-(
-nsIDOMEvent
-*
-aEvent
-PRBool
-aOnFocus
-)
-;
 protected
 :
 nsEditor
