@@ -298,12 +298,12 @@ nsSVGGenericContainerFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -453,7 +453,7 @@ nsSVGGenericContainerFrame
 :
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {

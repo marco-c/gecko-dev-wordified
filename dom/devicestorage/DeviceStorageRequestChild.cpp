@@ -443,7 +443,7 @@ get
 )
 )
 ;
-PRUint32
+uint32_t
 count
 =
 r
@@ -458,7 +458,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

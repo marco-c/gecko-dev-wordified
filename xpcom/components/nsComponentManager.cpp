@@ -1484,7 +1484,7 @@ const
 char
 *
 s
-PRUint32
+uint32_t
 len
 PLArenaPool
 *
@@ -2364,7 +2364,7 @@ NULL
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3128,7 +3128,7 @@ nsCString
 path
 )
 {
-PRInt32
+int32_t
 dotPos
 =
 path
@@ -3180,7 +3180,7 @@ bool
 aChromeOnly
 )
 {
-PRUint32
+uint32_t
 len
 ;
 FileLocation
@@ -3578,7 +3578,7 @@ argv
 ]
 )
 ;
-PRUint32
+uint32_t
 len
 ;
 FileLocation
@@ -4250,7 +4250,7 @@ aChromeOnly
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4774,7 +4774,7 @@ const
 char
 *
 aContractID
-PRUint32
+uint32_t
 aContractIDLen
 )
 {
@@ -4879,7 +4879,7 @@ const
 char
 *
 contractID
-PRUint32
+uint32_t
 aContractIDLen
 )
 {
@@ -6306,7 +6306,7 @@ nsCID
 aServiceCID
 )
 {
-PRUint32
+uint32_t
 pendingCount
 =
 mPendingServices
@@ -6317,7 +6317,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -6394,7 +6394,7 @@ aServiceCID
 )
 const
 {
-PRUint32
+uint32_t
 pendingCount
 =
 mPendingServices
@@ -6405,7 +6405,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -6679,7 +6679,7 @@ ReentrantMonitor
 *
 mReentrantMonitor
 ;
-PRInt32
+int32_t
 mEnterCount
 ;
 }

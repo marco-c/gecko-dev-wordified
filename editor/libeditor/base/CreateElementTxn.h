@@ -276,7 +276,7 @@ aTag
 nsIDOMNode
 *
 aParent
-PRUint32
+uint32_t
 aOffsetInParent
 )
 ;
@@ -380,7 +380,7 @@ new
 node
 *
 /
-PRUint32
+uint32_t
 mOffsetInParent
 ;
 /

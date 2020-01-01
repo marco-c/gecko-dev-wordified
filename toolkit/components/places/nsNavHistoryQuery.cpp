@@ -274,11 +274,11 @@ const
 nsCSubstring
 &
 aSource
-PRInt32
+int32_t
 aKeyBegin
-PRInt32
+int32_t
 aEquals
-PRInt32
+int32_t
 aPastEnd
 )
 {
@@ -390,7 +390,7 @@ Uint32QueryGetter
 nsINavHistoryQuery
 GetBeginTimeReference
 (
-PRUint32
+uint32_t
 *
 )
 )
@@ -403,7 +403,7 @@ Int64QueryGetter
 nsINavHistoryQuery
 GetBeginTime
 (
-PRInt64
+int64_t
 *
 )
 )
@@ -486,7 +486,7 @@ Uint32QuerySetter
 nsINavHistoryQuery
 SetBeginTimeReference
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -498,7 +498,7 @@ Int64QuerySetter
 nsINavHistoryQuery
 SetBeginTime
 (
-PRInt64
+int64_t
 )
 )
 ;
@@ -571,7 +571,7 @@ Uint32OptionsSetter
 nsINavHistoryQueryOptions
 SetMaxResults
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -583,7 +583,7 @@ Uint16OptionsSetter
 nsINavHistoryQueryOptions
 SetResultType
 (
-PRUint16
+uint16_t
 )
 )
 ;
@@ -898,7 +898,7 @@ AppendInt16
 nsACString
 &
 str
-PRInt16
+int16_t
 i
 )
 {
@@ -927,7 +927,7 @@ AppendInt32
 nsACString
 &
 str
-PRInt32
+int32_t
 i
 )
 {
@@ -956,7 +956,7 @@ AppendInt64
 nsACString
 &
 str
-PRInt64
+int64_t
 i
 )
 {
@@ -1059,7 +1059,7 @@ otherwise
 *
 /
 inline
-PRInt64
+int64_t
 DecodeFolder
 (
 const
@@ -1085,7 +1085,7 @@ bs
 false
 )
 ;
-PRInt64
+int64_t
 folderID
 =
 -
@@ -1292,7 +1292,7 @@ AppendFolder
 nsCString
 &
 aQuery
-PRInt64
+int64_t
 aFolderID
 )
 {
@@ -1307,7 +1307,7 @@ GetBookmarksService
 (
 )
 ;
-PRInt64
+int64_t
 folderID
 ;
 (
@@ -1535,7 +1535,7 @@ nsINavHistoryQuery
 *
 *
 aQueries
-PRUint32
+uint32_t
 *
 aResultCount
 nsINavHistoryQueryOptions
@@ -1666,7 +1666,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1903,7 +1903,7 @@ nsINavHistoryQuery
 *
 *
 aQueries
-PRUint32
+uint32_t
 aQueryCount
 nsINavHistoryQueryOptions
 *
@@ -1945,7 +1945,7 @@ queryString
 ;
 for
 (
-PRUint32
+uint32_t
 queryIndex
 =
 0
@@ -2171,7 +2171,7 @@ min
 and
 max
 visits
-PRInt32
+int32_t
 minVisits
 ;
 if
@@ -2220,7 +2220,7 @@ minVisits
 )
 ;
 }
-PRInt32
+int32_t
 maxVisits
 ;
 if
@@ -2648,13 +2648,13 @@ escaped
 /
 /
 folders
-PRInt64
+int64_t
 *
 folders
 =
 nullptr
 ;
-PRUint32
+uint32_t
 folderCount
 =
 0
@@ -2672,7 +2672,7 @@ folders
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2743,7 +2743,7 @@ Tags
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2826,7 +2826,7 @@ transitions
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 transitions
@@ -2840,7 +2840,7 @@ Transitions
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3403,7 +3403,7 @@ place
 "
 prefix
 const
-PRUint32
+uint32_t
 prefixlen
 =
 6
@@ -3462,19 +3462,19 @@ query
 =
 aQuery
 ;
-PRInt32
+int32_t
 keyFirstIndex
 =
 0
 ;
-PRInt32
+int32_t
 equalsIndex
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3708,7 +3708,7 @@ to
 do
 nsTArray
 <
-PRInt64
+int64_t
 >
 folders
 ;
@@ -3720,13 +3720,13 @@ tags
 ;
 nsTArray
 <
-PRUint32
+uint32_t
 >
 transitions
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3949,7 +3949,7 @@ QUERYKEY_MIN_VISITS
 )
 )
 {
-PRInt32
+int32_t
 visits
 =
 kvp
@@ -4008,7 +4008,7 @@ QUERYKEY_MAX_VISITS
 )
 )
 {
-PRInt32
+int32_t
 visits
 =
 kvp
@@ -4179,7 +4179,7 @@ QUERYKEY_FOLDER
 )
 )
 {
-PRInt64
+int64_t
 folder
 ;
 if
@@ -4596,7 +4596,7 @@ QUERYKEY_TRANSITION
 )
 )
 {
-PRUint32
+uint32_t
 transition
 =
 kvp
@@ -5638,7 +5638,7 @@ nsNavHistoryQuery
 :
 GetBeginTimeReference
 (
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -5658,7 +5658,7 @@ nsNavHistoryQuery
 :
 SetBeginTimeReference
 (
-PRUint32
+uint32_t
 aReference
 )
 {
@@ -5816,7 +5816,7 @@ nsNavHistoryQuery
 :
 GetEndTimeReference
 (
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -5836,7 +5836,7 @@ nsNavHistoryQuery
 :
 SetEndTimeReference
 (
-PRUint32
+uint32_t
 aReference
 )
 {
@@ -6011,7 +6011,7 @@ NS_OK
 /
 *
 attribute
-PRInt32
+int32_t
 minVisits
 ;
 *
@@ -6022,7 +6022,7 @@ nsNavHistoryQuery
 :
 GetMinVisits
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -6047,7 +6047,7 @@ nsNavHistoryQuery
 :
 SetMinVisits
 (
-PRInt32
+int32_t
 aVisits
 )
 {
@@ -6073,7 +6073,7 @@ nsNavHistoryQuery
 :
 GetMaxVisits
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -6098,7 +6098,7 @@ nsNavHistoryQuery
 :
 SetMaxVisits
 (
-PRInt32
+int32_t
 aVisits
 )
 {
@@ -6580,7 +6580,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 arrayLen
 =
 mTags
@@ -6656,7 +6656,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6748,7 +6748,7 @@ NS_ENSURE_ARG
 aTags
 )
 ;
-PRUint16
+uint16_t
 dataType
 ;
 aTags
@@ -6826,13 +6826,13 @@ VTYPE_ARRAY
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-PRUint16
+uint16_t
 eltType
 ;
 nsIID
 eltIID
 ;
-PRUint32
+uint32_t
 arrayLen
 ;
 void
@@ -6946,7 +6946,7 @@ array
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7009,7 +7009,7 @@ array
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7101,7 +7101,7 @@ it
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7309,16 +7309,16 @@ nsNavHistoryQuery
 :
 GetFolders
 (
-PRUint32
+uint32_t
 *
 aCount
-PRInt64
+int64_t
 *
 *
 aFolders
 )
 {
-PRUint32
+uint32_t
 count
 =
 mFolders
@@ -7327,7 +7327,7 @@ Length
 (
 )
 ;
-PRInt64
+int64_t
 *
 folders
 =
@@ -7344,7 +7344,7 @@ folders
 =
 static_cast
 <
-PRInt64
+int64_t
 *
 >
 (
@@ -7357,7 +7357,7 @@ count
 *
 sizeof
 (
-PRInt64
+int64_t
 )
 )
 )
@@ -7370,7 +7370,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7416,7 +7416,7 @@ nsNavHistoryQuery
 :
 GetFolderCount
 (
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -7441,10 +7441,10 @@ nsNavHistoryQuery
 SetFolders
 (
 const
-PRInt64
+int64_t
 *
 aFolders
-PRUint32
+uint32_t
 aFolderCount
 )
 {
@@ -7480,16 +7480,16 @@ nsNavHistoryQuery
 :
 GetTransitions
 (
-PRUint32
+uint32_t
 *
 aCount
-PRUint32
+uint32_t
 *
 *
 aTransitions
 )
 {
-PRUint32
+uint32_t
 count
 =
 mTransitions
@@ -7498,7 +7498,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 *
 transitions
 =
@@ -7515,7 +7515,7 @@ transitions
 =
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -7525,7 +7525,7 @@ count
 *
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 )
@@ -7538,7 +7538,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7584,7 +7584,7 @@ nsNavHistoryQuery
 :
 GetTransitionCount
 (
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -7609,10 +7609,10 @@ nsNavHistoryQuery
 SetTransitions
 (
 const
-PRUint32
+uint32_t
 *
 aTransitions
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -7721,7 +7721,7 @@ nsNavHistoryQueryOptions
 :
 GetSortingMode
 (
-PRUint16
+uint16_t
 *
 aMode
 )
@@ -7741,7 +7741,7 @@ nsNavHistoryQueryOptions
 :
 SetSortingMode
 (
-PRUint16
+uint16_t
 aMode
 )
 {
@@ -7819,7 +7819,7 @@ nsNavHistoryQueryOptions
 :
 GetResultType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -7839,7 +7839,7 @@ nsNavHistoryQueryOptions
 :
 SetResultType
 (
-PRUint16
+uint16_t
 aType
 )
 {
@@ -8109,7 +8109,7 @@ nsNavHistoryQueryOptions
 :
 GetMaxResults
 (
-PRUint32
+uint32_t
 *
 aMaxResults
 )
@@ -8129,7 +8129,7 @@ nsNavHistoryQueryOptions
 :
 SetMaxResults
 (
-PRUint32
+uint32_t
 aMaxResults
 )
 {
@@ -8150,7 +8150,7 @@ nsNavHistoryQueryOptions
 :
 GetQueryType
 (
-PRUint16
+uint16_t
 *
 _retval
 )
@@ -8170,7 +8170,7 @@ nsNavHistoryQueryOptions
 :
 SetQueryType
 (
-PRUint16
+uint16_t
 aQueryType
 )
 {
@@ -8519,7 +8519,7 @@ Uint32QueryGetter
 getter
 )
 {
-PRUint32
+uint32_t
 value
 ;
 DebugOnly
@@ -8622,7 +8622,7 @@ Int64QueryGetter
 getter
 )
 {
-PRInt64
+int64_t
 value
 ;
 DebugOnly
@@ -8905,7 +8905,7 @@ setter
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 value
 =
 aValue
@@ -8996,7 +8996,7 @@ setter
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 value
 =
 aValue
@@ -9087,12 +9087,12 @@ setter
 nsresult
 rv
 ;
-PRUint16
+uint16_t
 value
 =
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 aValue
@@ -9184,7 +9184,7 @@ setter
 nsresult
 rv
 ;
-PRInt64
+int64_t
 value
 ;
 if

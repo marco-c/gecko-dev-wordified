@@ -167,7 +167,7 @@ virtual
 nsresult
 Which
 (
-PRUint32
+uint32_t
 *
 aWhich
 )

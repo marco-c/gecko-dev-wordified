@@ -121,9 +121,9 @@ aInputStream
 nsACString
 &
 aDest
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 aOffset
 =
 0
@@ -138,9 +138,9 @@ aInputStream
 nsAString
 &
 aDest
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 aOffset
 =
 0

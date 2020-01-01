@@ -190,7 +190,7 @@ sqlite
 type
 :
 *
-PRInt64
+int64_t
 -
 >
 INTEGER
@@ -226,7 +226,7 @@ use
 UTF8TextVariant
 )
 *
-PRUint8
+uint8_t
 [
 ]
 -
@@ -462,7 +462,7 @@ variant_traits
 {
 static
 inline
-PRUint16
+uint16_t
 type
 (
 )
@@ -538,7 +538,7 @@ nsresult
 asInt32
 (
 StorageType
-PRInt32
+int32_t
 *
 )
 {
@@ -550,7 +550,7 @@ nsresult
 asInt64
 (
 StorageType
-PRInt64
+int64_t
 *
 )
 {
@@ -661,9 +661,9 @@ nsresult
 asArray
 (
 StorageType
-PRUint16
+uint16_t
 *
-PRUint32
+uint32_t
 *
 void
 *
@@ -691,12 +691,12 @@ template
 struct
 variant_traits
 <
-PRInt64
+int64_t
 >
 {
 static
 inline
-PRUint16
+uint16_t
 type
 (
 )
@@ -716,7 +716,7 @@ template
 struct
 variant_integer_traits
 <
-PRInt64
+int64_t
 >
 {
 static
@@ -724,9 +724,9 @@ inline
 nsresult
 asInt32
 (
-PRInt64
+int64_t
 aValue
-PRInt32
+int32_t
 *
 _result
 )
@@ -750,7 +750,7 @@ _result
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 aValue
@@ -765,9 +765,9 @@ inline
 nsresult
 asInt64
 (
-PRInt64
+int64_t
 aValue
-PRInt64
+int64_t
 *
 _result
 )
@@ -801,7 +801,7 @@ template
 struct
 variant_float_traits
 <
-PRInt64
+int64_t
 >
 {
 static
@@ -809,7 +809,7 @@ inline
 nsresult
 asDouble
 (
-PRInt64
+int64_t
 aValue
 double
 *
@@ -849,7 +849,7 @@ double
 {
 static
 inline
-PRUint16
+uint16_t
 type
 (
 )
@@ -914,7 +914,7 @@ nsString
 {
 static
 inline
-PRUint16
+uint16_t
 type
 (
 )
@@ -1033,7 +1033,7 @@ nsCString
 {
 static
 inline
-PRUint16
+uint16_t
 type
 (
 )
@@ -1155,14 +1155,14 @@ template
 struct
 variant_traits
 <
-PRUint8
+uint8_t
 [
 ]
 >
 {
 static
 inline
-PRUint16
+uint16_t
 type
 (
 )
@@ -1182,7 +1182,7 @@ template
 struct
 variant_storage_traits
 <
-PRUint8
+uint8_t
 [
 ]
 >
@@ -1203,7 +1203,7 @@ ConstructorType
 typedef
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 StorageType
 ;
@@ -1234,7 +1234,7 @@ AppendElements
 static_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -1259,7 +1259,7 @@ template
 struct
 variant_blob_traits
 <
-PRUint8
+uint8_t
 [
 ]
 >
@@ -1271,14 +1271,14 @@ asArray
 (
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 &
 aData
-PRUint16
+uint16_t
 *
 _type
-PRUint32
+uint32_t
 *
 _size
 void
@@ -1359,7 +1359,7 @@ Length
 *
 sizeof
 (
-PRUint8
+uint8_t
 )
 )
 ;
@@ -1418,7 +1418,7 @@ public
 NS_IMETHOD
 GetDataType
 (
-PRUint16
+uint16_t
 *
 _type
 )
@@ -1638,7 +1638,7 @@ aData
 NS_IMETHOD
 GetDataType
 (
-PRUint16
+uint16_t
 *
 _type
 )
@@ -1663,7 +1663,7 @@ NS_OK
 NS_IMETHOD
 GetAsInt32
 (
-PRInt32
+int32_t
 *
 _integer
 )
@@ -1685,7 +1685,7 @@ _integer
 NS_IMETHOD
 GetAsInt64
 (
-PRInt64
+int64_t
 *
 _integer
 )
@@ -1773,12 +1773,12 @@ _str
 NS_IMETHOD
 GetAsArray
 (
-PRUint16
+uint16_t
 *
 _type
 nsIID
 *
-PRUint32
+uint32_t
 *
 _size
 void
@@ -1914,7 +1914,7 @@ mapping
 typedef
 Variant
 <
-PRInt64
+int64_t
 >
 IntegerVariant
 ;
@@ -1942,7 +1942,7 @@ UTF8TextVariant
 typedef
 Variant
 <
-PRUint8
+uint8_t
 [
 ]
 >

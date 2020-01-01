@@ -137,7 +137,7 @@ const
 nsAString
 &
 title
-PRInt16
+int16_t
 mode
 )
 {
@@ -172,7 +172,7 @@ nsFilePicker
 :
 AppendFilters
 (
-PRInt32
+int32_t
 aFilterMask
 )
 {
@@ -588,7 +588,7 @@ nsFilePicker
 :
 Show
 (
-PRInt16
+int16_t
 *
 _retval
 )

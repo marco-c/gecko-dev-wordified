@@ -418,7 +418,7 @@ width
 &
 height
 .
-PRInt32
+int32_t
 orientation
 ;
 mPrintSettings
@@ -638,7 +638,7 @@ rv
 return
 rv
 ;
-PRInt16
+int16_t
 format
 ;
 mPrintSettings
@@ -902,9 +902,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-PRInt32
+int32_t
 aStartPage
-PRInt32
+int32_t
 aEndPage
 )
 {
@@ -1231,7 +1231,7 @@ size
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

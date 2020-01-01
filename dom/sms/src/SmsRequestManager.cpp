@@ -204,7 +204,7 @@ AddRequest
 nsIDOMMozSmsRequest
 *
 aRequest
-PRInt32
+int32_t
 *
 aRequestId
 )
@@ -216,7 +216,7 @@ TODO
 merge
 with
 CreateRequest
-PRInt32
+int32_t
 size
 =
 mRequests
@@ -234,7 +234,7 @@ slots
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -305,7 +305,7 @@ nsIDOMMozSmsRequest
 *
 *
 aRequest
-PRInt32
+int32_t
 *
 aRequestId
 )
@@ -329,7 +329,7 @@ aManager
 )
 )
 ;
-PRInt32
+int32_t
 size
 =
 mRequests
@@ -347,7 +347,7 @@ slots
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -506,7 +506,7 @@ SmsRequestManager
 :
 GetRequest
 (
-PRInt32
+int32_t
 aRequestId
 )
 {
@@ -591,7 +591,7 @@ SmsRequestManager
 :
 NotifySuccess
 (
-PRInt32
+int32_t
 aRequestId
 T
 aParam
@@ -641,9 +641,9 @@ SmsRequestManager
 :
 NotifyError
 (
-PRInt32
+int32_t
 aRequestId
-PRInt32
+int32_t
 aError
 )
 {
@@ -691,7 +691,7 @@ SmsRequestManager
 :
 NotifySmsSent
 (
-PRInt32
+int32_t
 aRequestId
 nsIDOMMozSmsMessage
 *
@@ -716,9 +716,9 @@ SmsRequestManager
 :
 NotifySmsSendFailed
 (
-PRInt32
+int32_t
 aRequestId
-PRInt32
+int32_t
 aError
 )
 {
@@ -736,7 +736,7 @@ SmsRequestManager
 :
 NotifyGotSms
 (
-PRInt32
+int32_t
 aRequestId
 nsIDOMMozSmsMessage
 *
@@ -761,9 +761,9 @@ SmsRequestManager
 :
 NotifyGetSmsFailed
 (
-PRInt32
+int32_t
 aRequestId
-PRInt32
+int32_t
 aError
 )
 {
@@ -781,7 +781,7 @@ SmsRequestManager
 :
 NotifySmsDeleted
 (
-PRInt32
+int32_t
 aRequestId
 bool
 aDeleted
@@ -804,9 +804,9 @@ SmsRequestManager
 :
 NotifySmsDeleteFailed
 (
-PRInt32
+int32_t
 aRequestId
-PRInt32
+int32_t
 aError
 )
 {
@@ -824,7 +824,7 @@ SmsRequestManager
 :
 NotifyNoMessageInList
 (
-PRInt32
+int32_t
 aRequestId
 )
 {
@@ -903,9 +903,9 @@ SmsRequestManager
 :
 NotifyCreateMessageList
 (
-PRInt32
+int32_t
 aRequestId
-PRInt32
+int32_t
 aListId
 nsIDOMMozSmsMessage
 *
@@ -960,7 +960,7 @@ SmsRequestManager
 :
 NotifyGotNextMessage
 (
-PRInt32
+int32_t
 aRequestId
 nsIDOMMozSmsMessage
 *
@@ -1038,9 +1038,9 @@ SmsRequestManager
 :
 NotifyReadMessageListFailed
 (
-PRInt32
+int32_t
 aRequestId
-PRInt32
+int32_t
 aError
 )
 {
@@ -1104,7 +1104,7 @@ SmsRequestManager
 :
 NotifyMarkedMessageRead
 (
-PRInt32
+int32_t
 aRequestId
 bool
 aRead
@@ -1127,9 +1127,9 @@ SmsRequestManager
 :
 NotifyMarkMessageReadFailed
 (
-PRInt32
+int32_t
 aRequestId
-PRInt32
+int32_t
 aError
 )
 {

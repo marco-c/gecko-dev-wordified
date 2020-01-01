@@ -122,7 +122,7 @@ enum
 nsCAutoString
 stringVal
 ;
-PRInt32
+int32_t
 intVal
 ;
 bool

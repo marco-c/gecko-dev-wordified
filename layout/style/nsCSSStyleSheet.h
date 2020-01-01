@@ -776,7 +776,7 @@ owner
 inner
 window
 .
-PRUint64
+uint64_t
 FindOwningWindowInnerID
 (
 )
@@ -794,7 +794,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -817,7 +817,7 @@ InsertStyleSheetAt
 nsCSSStyleSheet
 *
 aSheet
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -884,7 +884,7 @@ Rule
 aNew
 )
 ;
-PRInt32
+int32_t
 StyleRuleCount
 (
 )
@@ -893,7 +893,7 @@ const
 nsresult
 GetStyleRuleAt
 (
-PRInt32
+int32_t
 aIndex
 mozilla
 :
@@ -920,7 +920,7 @@ css
 GroupRule
 *
 aGroup
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -940,9 +940,9 @@ css
 GroupRule
 *
 aGroup
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -979,7 +979,7 @@ Rule
 aNew
 )
 ;
-PRInt32
+int32_t
 StyleSheetCount
 (
 )
@@ -1354,9 +1354,9 @@ const
 nsAString
 &
 aRule
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 aReturn
 )

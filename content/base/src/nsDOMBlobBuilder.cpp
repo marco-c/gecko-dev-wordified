@@ -186,7 +186,7 @@ nsDOMMultipartFile
 :
 GetSize
 (
-PRUint64
+uint64_t
 *
 aLength
 )
@@ -204,10 +204,10 @@ length
 =
 0
 ;
-PRUint32
+uint32_t
 i
 ;
-PRUint32
+uint32_t
 len
 =
 mBlobs
@@ -246,7 +246,7 @@ get
 (
 )
 ;
-PRUint64
+uint64_t
 l
 =
 0
@@ -354,7 +354,7 @@ stream
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -450,9 +450,9 @@ nsDOMMultipartFile
 :
 CreateSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -481,12 +481,12 @@ nsIDOMBlob
 >
 blobs
 ;
-PRUint64
+uint64_t
 length
 =
 aLength
 ;
-PRUint64
+uint64_t
 skipStart
 =
 aStart
@@ -501,7 +501,7 @@ blobs
 if
 we
 can
-PRUint32
+uint32_t
 i
 ;
 for
@@ -542,7 +542,7 @@ get
 (
 )
 ;
-PRUint64
+uint64_t
 l
 ;
 nsresult
@@ -570,12 +570,12 @@ skipStart
 l
 )
 {
-PRUint64
+uint64_t
 upperBound
 =
 NS_MIN
 <
-PRUint64
+uint64_t
 >
 (
 l
@@ -709,7 +709,7 @@ get
 (
 )
 ;
-PRUint64
+uint64_t
 l
 ;
 nsresult
@@ -789,7 +789,7 @@ length
 =
 NS_MIN
 <
-PRUint64
+uint64_t
 >
 (
 l
@@ -970,7 +970,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -996,7 +996,7 @@ InitInternal
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -1469,7 +1469,7 @@ const
 void
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1478,7 +1478,7 @@ NS_ENSURE_ARG_POINTER
 aData
 )
 ;
-PRUint64
+uint64_t
 offset
 =
 mDataLen
@@ -2410,7 +2410,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *

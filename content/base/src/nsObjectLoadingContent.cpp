@@ -2021,7 +2021,7 @@ if
 appShell
 )
 {
-PRUint32
+uint32_t
 currentLevel
 =
 0
@@ -2749,7 +2749,7 @@ GetSpec
 spec
 )
 ;
-PRInt32
+int32_t
 offset
 =
 spec
@@ -3162,7 +3162,7 @@ GetScriptGlobalObject
 )
 ;
 }
-PRUint32
+uint32_t
 supported
 ;
 nsresult
@@ -4333,7 +4333,7 @@ if
 blocklist
 )
 {
-PRUint32
+uint32_t
 blockState
 =
 nsIBlocklistService
@@ -4803,9 +4803,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -4984,7 +4984,7 @@ nsObjectLoadingContent
 :
 GetDisplayedType
 (
-PRUint32
+uint32_t
 *
 aType
 )
@@ -5215,7 +5215,7 @@ const
 nsACString
 &
 aMIMEType
-PRUint32
+uint32_t
 *
 aType
 )
@@ -5306,7 +5306,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -5599,7 +5599,7 @@ nsObjectLoadingContent
 :
 CheckLoadPolicy
 (
-PRInt16
+int16_t
 *
 aContentPolicy
 )
@@ -5802,7 +5802,7 @@ nsObjectLoadingContent
 :
 CheckProcessPolicy
 (
-PRInt16
+int16_t
 *
 aContentPolicy
 )
@@ -5868,7 +5868,7 @@ OwnerDoc
 (
 )
 ;
-PRInt32
+int32_t
 objectType
 ;
 switch
@@ -6062,7 +6062,7 @@ content
 "
 )
 ;
-PRUint32
+uint32_t
 caps
 =
 GetCapabilities
@@ -9451,7 +9451,7 @@ mType
 eType_Null
 )
 {
-PRInt16
+int16_t
 contentPolicy
 =
 nsIContentPolicy
@@ -11444,7 +11444,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsObjectLoadingContent
 :
 :
@@ -12144,7 +12144,7 @@ return
 eType_Null
 ;
 }
-PRUint32
+uint32_t
 caps
 =
 GetCapabilities
@@ -14359,7 +14359,7 @@ nsObjectLoadingContent
 :
 GetPluginFallbackType
 (
-PRUint32
+uint32_t
 *
 aPluginFallbackType
 )
@@ -14788,7 +14788,7 @@ NodePrincipal
 )
 )
 {
-PRUint32
+uint32_t
 permission
 ;
 rv
@@ -14828,7 +14828,7 @@ nsIPermissionManager
 ALLOW_ACTION
 ;
 }
-PRUint32
+uint32_t
 state
 ;
 rv

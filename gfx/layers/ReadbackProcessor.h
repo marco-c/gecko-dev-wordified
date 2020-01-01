@@ -349,7 +349,7 @@ calling
 DoUpdate
 *
 /
-PRUint64
+uint64_t
 mSequenceCounter
 ;
 }

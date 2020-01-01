@@ -353,7 +353,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 ;
@@ -464,7 +464,7 @@ virtual
 bool
 SetDocElement
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -483,12 +483,12 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
 nsINodeInfo
 *
 aNodeInfo
-PRUint32
+uint32_t
 aLineNumber
 nsIContent
 *
@@ -944,7 +944,7 @@ nsXMLFragmentContentSink
 :
 SetDocElement
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -978,12 +978,12 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
 nsINodeInfo
 *
 aNodeInfo
-PRUint32
+uint32_t
 aLineNumber
 nsIContent
 *
@@ -1439,7 +1439,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 {

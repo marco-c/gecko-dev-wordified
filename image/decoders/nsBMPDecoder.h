@@ -229,7 +229,7 @@ the
 internal
 BIH
 header
-PRInt32
+int32_t
 GetBitsPerPixel
 (
 )
@@ -245,7 +245,7 @@ the
 internal
 BIH
 header
-PRInt32
+int32_t
 GetWidth
 (
 )
@@ -266,7 +266,7 @@ the
 internal
 BIH
 header
-PRInt32
+int32_t
 GetHeight
 (
 )
@@ -280,7 +280,7 @@ internal
 output
 image
 buffer
-PRUint32
+uint32_t
 *
 GetImageData
 (
@@ -296,7 +296,7 @@ the
 compressed
 image
 resource
-PRInt32
+int32_t
 GetCompressedImageSize
 (
 )
@@ -347,7 +347,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -385,7 +385,7 @@ CalcBitShift
 (
 )
 ;
-PRUint32
+uint32_t
 mPos
 ;
 BMPFILEHEADER
@@ -400,7 +400,7 @@ mRawBuf
 WIN_V3_INTERNAL_BIH_LENGTH
 ]
 ;
-PRUint32
+uint32_t
 mLOH
 ;
 /
@@ -411,7 +411,7 @@ Length
 of
 the
 header
-PRUint32
+uint32_t
 mNumColors
 ;
 /
@@ -440,7 +440,7 @@ mColors
 bitFields
 mBitFields
 ;
-PRUint32
+uint32_t
 *
 mImageData
 ;
@@ -456,7 +456,7 @@ data
 for
 the
 frame
-PRUint8
+uint8_t
 *
 mRow
 ;
@@ -471,7 +471,7 @@ line
 of
 the
 image
-PRUint32
+uint32_t
 mRowBytes
 ;
 /
@@ -487,7 +487,7 @@ row
 were
 already
 received
-PRInt32
+int32_t
 mCurLine
 ;
 /
@@ -512,7 +512,7 @@ decoded
 height
 1
 ]
-PRInt32
+int32_t
 mOldLine
 ;
 /
@@ -524,7 +524,7 @@ index
 of
 the
 line
-PRInt32
+int32_t
 mCurPos
 ;
 /
@@ -554,7 +554,7 @@ of
 the
 RLE
 decoding
-PRUint32
+uint32_t
 mStateData
 ;
 /
@@ -809,17 +809,17 @@ inline
 void
 SetPixel
 (
-PRUint32
+uint32_t
 *
 &
 aDecoded
-PRUint8
+uint8_t
 aRed
-PRUint8
+uint8_t
 aGreen
-PRUint8
+uint8_t
 aBlue
-PRUint8
+uint8_t
 aAlpha
 =
 0xFF
@@ -844,11 +844,11 @@ inline
 void
 SetPixel
 (
-PRUint32
+uint32_t
 *
 &
 aDecoded
-PRUint8
+uint8_t
 idx
 colorTable
 *
@@ -948,13 +948,13 @@ inline
 void
 Set4BitPixel
 (
-PRUint32
+uint32_t
 *
 &
 aDecoded
-PRUint8
+uint8_t
 aData
-PRUint32
+uint32_t
 &
 aCount
 colorTable
@@ -962,7 +962,7 @@ colorTable
 aColors
 )
 {
-PRUint8
+uint8_t
 idx
 =
 aData

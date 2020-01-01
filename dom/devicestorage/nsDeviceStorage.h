@@ -381,7 +381,7 @@ Write
 (
 InfallibleTArray
 <
-PRUint8
+uint8_t
 >
 &
 bits
@@ -399,7 +399,7 @@ DeviceStorageFile
 >
 &
 aFiles
-PRUint64
+uint64_t
 aSince
 =
 0
@@ -417,7 +417,7 @@ DeviceStorageFile
 >
 &
 aFiles
-PRUint64
+uint64_t
 aSince
 nsAString
 &
@@ -425,13 +425,13 @@ aRootPath
 )
 ;
 static
-PRUint64
+uint64_t
 DirectoryDiskUsage
 (
 nsIFile
 *
 aFile
-PRUint64
+uint64_t
 aSoFar
 =
 0
@@ -526,7 +526,7 @@ aPrincipal
 DeviceStorageFile
 *
 aFile
-PRUint64
+uint64_t
 aSince
 )
 ;
@@ -542,7 +542,7 @@ mFiles
 bool
 mOkToCallContinue
 ;
-PRUint64
+uint64_t
 mSince
 ;
 virtual
@@ -595,9 +595,9 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMDEVICESTORAGESTAT
 nsDOMDeviceStorageStat
 (
-PRUint64
+uint64_t
 aFreeBytes
-PRUint64
+uint64_t
 aTotalBytes
 nsAString
 &
@@ -611,7 +611,7 @@ nsDOMDeviceStorageStat
 (
 )
 ;
-PRUint64
+uint64_t
 mFreeBytes
 mTotalBytes
 ;

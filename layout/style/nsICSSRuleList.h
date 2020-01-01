@@ -150,7 +150,7 @@ nsIDOMCSSRule
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *

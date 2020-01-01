@@ -339,7 +339,7 @@ be
 patched
 *
 /
-PRUint32
+uint32_t
 slen
 ;
 /
@@ -353,7 +353,7 @@ be
 patched
 *
 /
-PRUint32
+uint32_t
 scrc32
 ;
 /
@@ -365,7 +365,7 @@ result
 file
 *
 /
-PRUint32
+uint32_t
 dlen
 ;
 /
@@ -379,7 +379,7 @@ in
 bytes
 *
 /
-PRUint32
+uint32_t
 cblen
 ;
 /
@@ -393,7 +393,7 @@ in
 bytes
 *
 /
-PRUint32
+uint32_t
 difflen
 ;
 /
@@ -407,7 +407,7 @@ in
 bytes
 *
 /
-PRUint32
+uint32_t
 extralen
 ;
 /
@@ -617,7 +617,7 @@ typedef
 struct
 MBSPatchTriple_
 {
-PRUint32
+uint32_t
 x
 ;
 /
@@ -636,7 +636,7 @@ diff
 block
 *
 /
-PRUint32
+uint32_t
 y
 ;
 /
@@ -650,7 +650,7 @@ extra
 block
 *
 /
-PRInt32
+int32_t
 z
 ;
 /

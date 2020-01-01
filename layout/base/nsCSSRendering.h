@@ -251,7 +251,7 @@ const
 nsStyleImage
 *
 aImage
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -620,7 +620,7 @@ image
 in
 app
 units
-PRUint32
+uint32_t
 mFlags
 ;
 }
@@ -690,7 +690,7 @@ const
 nsStyleImage
 *
 aImage
-PRUint32
+uint32_t
 aFlags
 )
 :
@@ -1762,7 +1762,7 @@ aPresContext
 nsIFrame
 *
 aForFrame
-PRUint32
+uint32_t
 aFlags
 const
 nsRect
@@ -1917,7 +1917,7 @@ const
 nsRect
 &
 aBorderArea
-PRUint32
+uint32_t
 aFlags
 nsRect
 *
@@ -1995,7 +1995,7 @@ const
 nsStyleBorder
 &
 aBorder
-PRUint32
+uint32_t
 aFlags
 nsRect
 *
@@ -2116,7 +2116,7 @@ DrawTableBorderSegment
 nsRenderingContext
 &
 aContext
-PRUint8
+uint8_t
 aBorderStyle
 nscolor
 aBorderColor
@@ -2128,9 +2128,9 @@ const
 nsRect
 &
 aBorderRect
-PRInt32
+int32_t
 aAppUnitsPerCSSPixel
-PRUint8
+uint8_t
 aStartBevelSide
 =
 0
@@ -2138,7 +2138,7 @@ nscoord
 aStartBevelOffset
 =
 0
-PRUint8
+uint8_t
 aEndBevelSide
 =
 0
@@ -2500,10 +2500,10 @@ const
 gfxFloat
 aOffset
 const
-PRUint8
+uint8_t
 aDecoration
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxFloat
@@ -2606,10 +2606,10 @@ const
 gfxFloat
 aOffset
 const
-PRUint8
+uint8_t
 aDecoration
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxFloat
@@ -2886,10 +2886,10 @@ const
 gfxFloat
 aOffset
 const
-PRUint8
+uint8_t
 aDecoration
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxFloat
@@ -2922,10 +2922,10 @@ const
 gfxFloat
 aOffset
 const
-PRUint8
+uint8_t
 aDecoration
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxFloat
@@ -3087,7 +3087,7 @@ nsIFrame
 *
 aFrame
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxRect
@@ -3654,7 +3654,7 @@ nscoord
 aSpreadRadius
 nscoord
 aBlurRadius
-PRInt32
+int32_t
 aAppUnitsPerDevPixel
 gfxContext
 *
@@ -3667,7 +3667,7 @@ const
 gfxRect
 *
 aSkipRect
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -3874,7 +3874,7 @@ GetBlurRadiusMargin
 (
 nscoord
 aBlurRadius
-PRInt32
+int32_t
 aAppUnitsPerDevPixel
 )
 ;

@@ -204,7 +204,7 @@ NS_IBYTEBUFFER_IID
 NS_IMETHOD
 Init
 (
-PRUint32
+uint32_t
 aBufferSize
 )
 =
@@ -233,7 +233,7 @@ it
 /
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetLength
 (
@@ -258,7 +258,7 @@ buffer
 /
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetBufferSize
 (
@@ -306,7 +306,7 @@ bool
 )
 Grow
 (
-PRUint32
+uint32_t
 aNewSize
 )
 =
@@ -344,7 +344,7 @@ size
 /
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 Fill
 (
@@ -354,7 +354,7 @@ aErrorCode
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aKeep
 )
 =
@@ -431,7 +431,7 @@ aInstancePtrResult
 nsISupports
 *
 aOuter
-PRUint32
+uint32_t
 aBufferSize
 =
 0

@@ -5861,7 +5861,7 @@ buffer
 =
 nullptr
 ;
-PRInt32
+int32_t
 dstLength
 ;
 if
@@ -5872,7 +5872,7 @@ rv
 )
 )
 {
-PRInt32
+int32_t
 unicharLength
 =
 aBuffer
@@ -5959,7 +5959,7 @@ rv
 )
 )
 {
-PRInt32
+int32_t
 finLen
 =
 0
@@ -6155,9 +6155,9 @@ aCtxt
 nsIInputStream
 *
 aInput
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -6308,7 +6308,7 @@ to
 group
 items
 .
-PRUint32
+uint32_t
 type
 ;
 aIndex
@@ -6633,7 +6633,7 @@ Truncate
 (
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 71
@@ -7000,7 +7000,7 @@ location
 .
 .
 .
-PRUint32
+uint32_t
 escFlags
 ;
 /
@@ -7281,7 +7281,7 @@ icon
 "
 )
 ;
-PRInt32
+int32_t
 lastDot
 =
 escapeBuf
@@ -7488,7 +7488,7 @@ AppendLiteral
 }
 else
 {
-PRInt64
+int64_t
 size
 ;
 aIndex
@@ -7502,7 +7502,7 @@ size
 ;
 if
 (
-PRUint64
+uint64_t
 (
 size
 )
@@ -7896,7 +7896,7 @@ nsIndexedToHTML
 :
 FormatSizeString
 (
-PRInt64
+int64_t
 inSize
 nsString
 &
@@ -7913,7 +7913,7 @@ if
 (
 inSize
 >
-PRInt64
+int64_t
 (
 0
 )
@@ -7927,19 +7927,19 @@ to
 the
 nearest
 Kilobyte
-PRInt64
+int64_t
 upperSize
 =
 (
 inSize
 +
-PRInt64
+int64_t
 (
 1023
 )
 )
 /
-PRInt64
+int64_t
 (
 1024
 )

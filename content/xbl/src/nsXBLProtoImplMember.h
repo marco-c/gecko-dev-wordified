@@ -161,7 +161,7 @@ PRUnichar
 *
 mText
 ;
-PRUint32
+uint32_t
 mLineNumber
 ;
 nsXBLTextWithLineNumber
@@ -273,7 +273,7 @@ mText
 void
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -282,7 +282,7 @@ mLineNumber
 aLineNumber
 ;
 }
-PRUint32
+uint32_t
 GetLineNumber
 (
 )

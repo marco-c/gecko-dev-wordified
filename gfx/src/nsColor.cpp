@@ -340,7 +340,7 @@ table
 .
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1562,7 +1562,7 @@ gColorTable
 return
 false
 ;
-PRInt32
+int32_t
 id
 =
 gColorTable
@@ -1582,7 +1582,7 @@ id
 {
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 id
 )
@@ -2078,7 +2078,7 @@ float
 l
 )
 {
-PRUint8
+uint8_t
 r
 g
 b
@@ -2131,7 +2131,7 @@ m2
 ;
 r
 =
-PRUint8
+uint8_t
 (
 255
 *
@@ -2153,7 +2153,7 @@ h
 ;
 g
 =
-PRUint8
+uint8_t
 (
 255
 *
@@ -2167,7 +2167,7 @@ h
 ;
 b
 =
-PRUint8
+uint8_t
 (
 255
 *

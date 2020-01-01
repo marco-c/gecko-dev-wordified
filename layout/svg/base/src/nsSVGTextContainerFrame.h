@@ -257,7 +257,7 @@ aOldFrame
 NS_IMETHOD
 GetStartPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -268,7 +268,7 @@ _retval
 NS_IMETHOD
 GetEndPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -279,7 +279,7 @@ _retval
 NS_IMETHOD
 GetExtentOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGRect
 *
@@ -290,7 +290,7 @@ _retval
 NS_IMETHOD
 GetRotationOfChar
 (
-PRUint32
+uint32_t
 charnum
 float
 *
@@ -311,7 +311,7 @@ string
 *
 /
 virtual
-PRUint32
+uint32_t
 GetNumberOfChars
 (
 )
@@ -348,9 +348,9 @@ virtual
 float
 GetSubStringLength
 (
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 nchars
 )
 ;
@@ -367,7 +367,7 @@ position
 *
 /
 virtual
-PRInt32
+int32_t
 GetCharNumAtPosition
 (
 nsIDOMSVGPoint
@@ -481,7 +481,7 @@ float
 >
 &
 dstList
-PRUint32
+uint32_t
 aOffset
 )
 ;
@@ -504,16 +504,16 @@ float
 >
 &
 dstList
-PRUint32
+uint32_t
 aOffset
 )
 ;
-PRUint32
+uint32_t
 BuildPositionList
 (
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aDepth
 )
 ;
@@ -545,9 +545,9 @@ GetGlyphFrameAtCharNum
 nsISVGGlyphFragmentNode
 *
 node
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 *
 offset
 )

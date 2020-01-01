@@ -583,7 +583,7 @@ nsIDocument
 aDocument
 )
 {
-PRUint32
+uint32_t
 n
 =
 mAttributeCache
@@ -617,7 +617,7 @@ nsDOMAttributeMap
 :
 DropAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1893,7 +1893,7 @@ nsDOMAttributeMap
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -2037,7 +2037,7 @@ nsDOMAttributeMap
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -2071,7 +2071,7 @@ nsDOMAttributeMap
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -2180,7 +2180,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nameSpaceID
 =
 kNameSpaceID_None
@@ -2223,7 +2223,7 @@ NS_OK
 ;
 }
 }
-PRUint32
+uint32_t
 i
 count
 =
@@ -2262,7 +2262,7 @@ GetAttrNameAt
 i
 )
 ;
-PRInt32
+int32_t
 attrNS
 =
 name
@@ -2509,7 +2509,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsDOMAttributeMap
 :
 :
@@ -2526,7 +2526,7 @@ Count
 )
 ;
 }
-PRUint32
+uint32_t
 nsDOMAttributeMap
 :
 :

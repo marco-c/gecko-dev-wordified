@@ -1019,7 +1019,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 {
@@ -4561,7 +4561,7 @@ selected
 mSelectedType
 =
 (
-PRInt16
+int16_t
 )
 ofn
 .
@@ -5637,7 +5637,7 @@ filterIdxResult
 mSelectedType
 =
 (
-PRInt16
+int16_t
 )
 filterIdxResult
 ;
@@ -5974,7 +5974,7 @@ nsFilePicker
 :
 ShowW
 (
-PRInt16
+int16_t
 *
 aReturnVal
 )
@@ -6242,7 +6242,7 @@ RememberLastUsedDirectory
 (
 )
 ;
-PRInt16
+int16_t
 retValue
 =
 returnOK
@@ -6353,7 +6353,7 @@ nsFilePicker
 :
 Show
 (
-PRInt16
+int16_t
 *
 aReturnVal
 )
@@ -6557,10 +6557,10 @@ not
 too
 long
 .
-PRInt32
+int32_t
 nameLength
 ;
-PRInt32
+int32_t
 nameIndex
 =
 mDefaultFilePath
@@ -6617,7 +6617,7 @@ nameLength
 MAX_PATH
 )
 {
-PRInt32
+int32_t
 extIndex
 =
 mDefaultFilePath
@@ -6660,7 +6660,7 @@ the
 name
 part
 .
-PRInt32
+int32_t
 charsToRemove
 =
 nameLength
@@ -6807,7 +6807,7 @@ nsFilePicker
 :
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -6847,7 +6847,7 @@ nsFilePicker
 :
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 {
@@ -6892,7 +6892,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 {
@@ -7450,7 +7450,7 @@ IsDefaultPathHtml
 (
 )
 {
-PRInt32
+int32_t
 extIndex
 =
 mDefaultFilePath

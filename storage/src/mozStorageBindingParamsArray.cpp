@@ -555,7 +555,7 @@ BindingParamsArray
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 _length
 )

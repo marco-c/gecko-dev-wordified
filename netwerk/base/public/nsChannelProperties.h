@@ -156,7 +156,7 @@ called
 *
 Type
 :
-PRUint64
+uint64_t
 *
 /
 #

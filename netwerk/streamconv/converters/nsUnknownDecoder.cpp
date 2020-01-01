@@ -551,9 +551,9 @@ aCtxt
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -579,7 +579,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 count
 len
 ;
@@ -1108,10 +1108,10 @@ nsIRequest
 *
 aRequest
 const
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -1586,7 +1586,7 @@ SniffForXML
 )
 }
 ;
-PRUint32
+uint32_t
 nsUnknownDecoder
 :
 :
@@ -1665,7 +1665,7 @@ on
 /
 magic
 numbers
-PRUint32
+uint32_t
 i
 ;
 for
@@ -2253,7 +2253,7 @@ GetMIMETypeFromContent
 aRequest
 (
 const
-PRUint8
+uint8_t
 *
 )
 mBuffer
@@ -2477,7 +2477,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 bufSize
 =
 end
@@ -3433,7 +3433,7 @@ plain
 .
 /
 /
-PRUint32
+uint32_t
 i
 ;
 for
@@ -3772,7 +3772,7 @@ mBufferLen
 )
 )
 {
-PRUint32
+uint32_t
 len
 =
 0

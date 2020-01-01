@@ -1100,7 +1100,7 @@ combobox
 "
 }
 ;
-PRInt32
+int32_t
 nsXPLookAndFeel
 :
 :
@@ -1116,7 +1116,7 @@ eColorID_LAST_COLOR
 0
 }
 ;
-PRInt32
+int32_t
 nsXPLookAndFeel
 :
 :
@@ -1267,7 +1267,7 @@ data
 return
 ;
 }
-PRInt32
+int32_t
 intpref
 ;
 nsresult
@@ -1370,7 +1370,7 @@ data
 return
 ;
 }
-PRInt32
+int32_t
 intpref
 ;
 nsresult
@@ -1545,7 +1545,7 @@ thecolor
 )
 )
 {
-PRInt32
+int32_t
 id
 =
 NS_PTR_TO_INT32
@@ -1572,7 +1572,7 @@ thecolor
 )
 )
 {
-PRInt32
+int32_t
 id
 =
 NS_PTR_TO_INT32
@@ -1642,7 +1642,7 @@ color
 is
 next
 used
-PRInt32
+int32_t
 id
 =
 NS_PTR_TO_INT32
@@ -1668,7 +1668,7 @@ nsLookAndFeelIntPref
 aPref
 )
 {
-PRInt32
+int32_t
 intpref
 ;
 nsresult
@@ -1722,7 +1722,7 @@ nsLookAndFeelFloatPref
 aPref
 )
 {
-PRInt32
+int32_t
 intpref
 ;
 nsresult
@@ -1778,7 +1778,7 @@ nsXPLookAndFeel
 :
 InitColorFromPref
 (
-PRInt32
+int32_t
 i
 )
 {
@@ -3231,7 +3231,7 @@ if
 transform
 )
 {
-PRUint8
+uint8_t
 color
 [
 3
@@ -3317,7 +3317,7 @@ GetIntImpl
 (
 IntID
 aID
-PRInt32
+int32_t
 &
 aResult
 )
@@ -3583,7 +3583,7 @@ our
 color
 cache
 .
-PRUint32
+uint32_t
 i
 ;
 for
@@ -3676,7 +3676,7 @@ GetInt
 (
 IntID
 aID
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3820,7 +3820,7 @@ GetEchoPasswordImpl
 /
 /
 static
-PRUint32
+uint32_t
 LookAndFeel
 :
 :

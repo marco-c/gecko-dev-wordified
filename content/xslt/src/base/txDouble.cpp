@@ -225,7 +225,7 @@ const
 input_type
 *
 aSource
-PRUint32
+uint32_t
 aSourceLength
 )
 {
@@ -240,7 +240,7 @@ eIllegal
 return
 ;
 }
-PRUint32
+uint32_t
 i
 =
 0
@@ -851,7 +851,7 @@ buflen
 /
 compute
 length
-PRInt32
+int32_t
 length
 =
 endp
@@ -929,7 +929,7 @@ length
 grow
 the
 string
-PRUint32
+uint32_t
 oldlength
 =
 aDest
@@ -971,7 +971,7 @@ dest
 .
 advance
 (
-PRInt32
+int32_t
 (
 oldlength
 )

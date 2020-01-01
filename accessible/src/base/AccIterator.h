@@ -381,7 +381,7 @@ Accessible
 *
 mParent
 ;
-PRInt32
+int32_t
 mIndex
 ;
 IteratorState
@@ -580,7 +580,7 @@ nsIContent
 *
 mBindingParent
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 }

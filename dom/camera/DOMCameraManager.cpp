@@ -169,7 +169,7 @@ nsDOMCameraManager
 :
 nsDOMCameraManager
 (
-PRUint64
+uint64_t
 aWindowId
 )
 :
@@ -239,7 +239,7 @@ nsDOMCameraManager
 :
 OnNavigation
 (
-PRUint64
+uint64_t
 aWindowId
 )
 {
@@ -269,7 +269,7 @@ nsDOMCameraManager
 :
 Create
 (
-PRUint64
+uint64_t
 aWindowId
 )
 {
@@ -361,7 +361,7 @@ onSuccess
 NS_ERROR_INVALID_ARG
 )
 ;
-PRUint32
+uint32_t
 cameraId
 =
 0

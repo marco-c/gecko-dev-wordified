@@ -247,7 +247,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -413,7 +413,7 @@ nsHTMLFontElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -446,7 +446,7 @@ nsGkAtoms
 size
 )
 {
-PRInt32
+int32_t
 size
 =
 nsContentUtils
@@ -924,7 +924,7 @@ ValueForTextDecorationLine
 (
 )
 ;
-PRInt32
+int32_t
 newValue
 =
 NS_STYLE_TEXT_DECORATION_LINE_OVERRIDE_ALL

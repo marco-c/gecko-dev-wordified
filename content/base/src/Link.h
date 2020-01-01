@@ -780,7 +780,7 @@ IHistory
 >
 mHistory
 ;
-PRUint16
+uint16_t
 mLinkState
 ;
 bool

@@ -1297,7 +1297,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1535,7 +1535,7 @@ before
 informing
 hal
 .
-PRUint32
+uint32_t
 gracePeriodMS
 =
 Preferences

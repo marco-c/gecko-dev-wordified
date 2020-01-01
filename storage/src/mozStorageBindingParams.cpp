@@ -1459,7 +1459,7 @@ it
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1841,7 +1841,7 @@ store
 this
 at
 .
-PRUint32
+uint32_t
 index
 ;
 nsresult
@@ -2041,7 +2041,7 @@ const
 nsACString
 &
 aName
-PRInt32
+int32_t
 aValue
 )
 {
@@ -2082,7 +2082,7 @@ const
 nsACString
 &
 aName
-PRInt64
+int64_t
 aValue
 )
 {
@@ -2162,10 +2162,10 @@ nsACString
 &
 aName
 const
-PRUint8
+uint8_t
 *
 aValue
-PRUint32
+uint32_t
 aValueSize
 )
 {
@@ -2235,7 +2235,7 @@ BindingParams
 :
 BindByIndex
 (
-PRUint32
+uint32_t
 aIndex
 nsIVariant
 *
@@ -2285,7 +2285,7 @@ AsyncBindingParams
 :
 BindByIndex
 (
-PRUint32
+uint32_t
 aIndex
 nsIVariant
 *
@@ -2358,7 +2358,7 @@ BindingParams
 :
 BindUTF8StringByIndex
 (
-PRUint32
+uint32_t
 aIndex
 const
 nsACString
@@ -2399,7 +2399,7 @@ BindingParams
 :
 BindStringByIndex
 (
-PRUint32
+uint32_t
 aIndex
 const
 nsAString
@@ -2440,7 +2440,7 @@ BindingParams
 :
 BindDoubleByIndex
 (
-PRUint32
+uint32_t
 aIndex
 double
 aValue
@@ -2479,9 +2479,9 @@ BindingParams
 :
 BindInt32ByIndex
 (
-PRUint32
+uint32_t
 aIndex
-PRInt32
+int32_t
 aValue
 )
 {
@@ -2518,9 +2518,9 @@ BindingParams
 :
 BindInt64ByIndex
 (
-PRUint32
+uint32_t
 aIndex
-PRInt64
+int64_t
 aValue
 )
 {
@@ -2557,7 +2557,7 @@ BindingParams
 :
 BindNullByIndex
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2593,13 +2593,13 @@ BindingParams
 :
 BindBlobByIndex
 (
-PRUint32
+uint32_t
 aIndex
 const
-PRUint8
+uint8_t
 *
 aValue
-PRUint32
+uint32_t
 aValueSize
 )
 {

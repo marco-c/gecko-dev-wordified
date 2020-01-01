@@ -1025,7 +1025,7 @@ const
 nsSMILTimeValue
 &
 aSimpleDuration
-PRUint32
+uint32_t
 aRepeatIteration
 )
 {
@@ -1191,7 +1191,7 @@ nsSMILAnimationFunction
 :
 SampleLastValue
 (
-PRUint32
+uint32_t
 aRepeatIteration
 )
 {
@@ -1760,7 +1760,7 @@ returns
 .
 }
 }
-PRInt8
+int8_t
 nsSMILAnimationFunction
 :
 :
@@ -2775,11 +2775,11 @@ simpleProgress
 calcMode
 )
 ;
-PRUint32
+uint32_t
 index
 =
 (
-PRUint32
+uint32_t
 )
 floor
 (
@@ -3207,11 +3207,11 @@ keyTimes
 as
 well
 .
-PRUint32
+uint32_t
 index
 =
 (
-PRUint32
+uint32_t
 )
 floor
 (
@@ -3237,11 +3237,11 @@ aValues
 }
 else
 {
-PRUint32
+uint32_t
 index
 =
 (
-PRUint32
+uint32_t
 )
 floor
 (
@@ -3799,7 +3799,7 @@ excessive
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4240,7 +4240,7 @@ totalDistance
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4378,7 +4378,7 @@ keyTimes
 return
 aProgress
 ;
-PRUint32
+uint32_t
 numTimes
 =
 mKeyTimes
@@ -4396,7 +4396,7 @@ numTimes
 return
 aProgress
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -4627,7 +4627,7 @@ ScaleIntervalProgress
 (
 double
 aProgress
-PRUint32
+uint32_t
 aIntervalIndex
 )
 {
@@ -5517,7 +5517,7 @@ nsSMILAnimationFunction
 :
 CheckValueListDependentAttrs
 (
-PRUint32
+uint32_t
 aNumValues
 )
 {
@@ -5575,7 +5575,7 @@ nsSMILAnimationFunction
 :
 CheckKeyTimes
 (
-PRUint32
+uint32_t
 aNumValues
 )
 {
@@ -5624,7 +5624,7 @@ false
 return
 ;
 }
-PRUint32
+uint32_t
 numKeyTimes
 =
 mKeyTimes
@@ -5801,7 +5801,7 @@ nsSMILAnimationFunction
 :
 CheckKeySplines
 (
-PRUint32
+uint32_t
 aNumValues
 )
 {
@@ -5942,7 +5942,7 @@ no
 values
 -
 1
-PRUint32
+uint32_t
 splineSpecs
 =
 mKeySplines
@@ -6583,7 +6583,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

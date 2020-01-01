@@ -183,7 +183,7 @@ CreateFileObject
 LockedFile
 *
 aLockedFile
-PRUint32
+uint32_t
 aFileSize
 )
 ;

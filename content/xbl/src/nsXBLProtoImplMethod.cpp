@@ -432,7 +432,7 @@ nsXBLProtoImplMethod
 :
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -898,7 +898,7 @@ for
 our
 arguments
 .
-PRInt32
+int32_t
 paramCount
 =
 uncompiledMethod
@@ -949,7 +949,7 @@ our
 args
 array
 .
-PRInt32
+int32_t
 argPos
 =
 0
@@ -1055,7 +1055,7 @@ functionUri
 aClassStr
 )
 ;
-PRInt32
+int32_t
 hash
 =
 functionUri

@@ -191,7 +191,7 @@ mEntropyCache
 entropy_buffer_size
 ]
 ;
-PRInt32
+int32_t
 mBytesCollected
 ;
 unsigned

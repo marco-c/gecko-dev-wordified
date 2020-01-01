@@ -473,7 +473,7 @@ paramValue
 }
 /
 *
-PRInt32
+int32_t
 constructor
 *
 /
@@ -493,7 +493,7 @@ const
 nsDependentCString
 &
 paramName
-PRInt32
+int32_t
 paramValue
 )
 :
@@ -564,7 +564,7 @@ paramValue
 }
 /
 *
-PRUint32
+uint32_t
 constructor
 *
 /
@@ -584,7 +584,7 @@ const
 nsDependentCString
 &
 paramName
-PRUint32
+uint32_t
 paramValue
 )
 :
@@ -917,7 +917,7 @@ const
 nsDependentCString
 &
 paramName
-PRUint32
+uint32_t
 paramValue
 )
 {

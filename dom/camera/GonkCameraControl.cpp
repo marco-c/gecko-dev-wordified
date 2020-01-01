@@ -260,7 +260,7 @@ char
 *
 getKeyText
 (
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -637,7 +637,7 @@ nsGonkCameraControl
 :
 nsGonkCameraControl
 (
-PRUint32
+uint32_t
 aCameraId
 nsIThread
 *
@@ -1089,7 +1089,7 @@ nsGonkCameraControl
 :
 GetParameterConstChar
 (
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -1134,7 +1134,7 @@ nsGonkCameraControl
 :
 GetParameterDouble
 (
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -1427,7 +1427,7 @@ nsGonkCameraControl
 :
 GetParameter
 (
-PRUint32
+uint32_t
 aKey
 nsTArray
 <
@@ -1521,7 +1521,7 @@ p
 =
 value
 ;
-PRUint32
+uint32_t
 count
 =
 1
@@ -1581,7 +1581,7 @@ of
 the
 region
 sets
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1872,7 +1872,7 @@ nsGonkCameraControl
 :
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 const
 char
@@ -1926,13 +1926,13 @@ nsGonkCameraControl
 :
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 double
 aValue
 )
 {
-PRUint32
+uint32_t
 index
 ;
 const
@@ -2065,7 +2065,7 @@ nsGonkCameraControl
 :
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 const
 nsTArray
@@ -2095,7 +2095,7 @@ key
 return
 ;
 }
-PRUint32
+uint32_t
 length
 =
 aRegions
@@ -2151,7 +2151,7 @@ s
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2845,12 +2845,12 @@ steps
 of
 90
 .
-PRUint32
+uint32_t
 r
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aTakePicture
@@ -3386,10 +3386,10 @@ ReceiveImage
 nsGonkCameraControl
 *
 gc
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {

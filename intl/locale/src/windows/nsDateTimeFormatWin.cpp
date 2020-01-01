@@ -992,7 +992,7 @@ NSDATETIMEFORMAT_BUFFER_LEN
 >
 =
 (
-PRUint32
+uint32_t
 )
 (
 dateLen
@@ -1016,7 +1016,7 @@ NSDATETIMEFORMAT_BUFFER_LEN
 >
 =
 (
-PRUint32
+uint32_t
 )
 (
 timeLen

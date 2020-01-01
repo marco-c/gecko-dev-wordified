@@ -89,7 +89,7 @@ nsIContent
 >
 mHandles
 ;
-PRInt32
+int32_t
 mHandlesUsed
 ;
 nsTArray
@@ -443,9 +443,9 @@ const
 PRUnichar
 *
 aBuf
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aLength
 )
 {
@@ -538,7 +538,7 @@ SetDocumentCharset
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aCharsetSource
 )
 ;
@@ -554,9 +554,9 @@ const
 nsACString
 &
 aEncoding
-PRInt32
+int32_t
 aSource
-PRInt32
+int32_t
 aLineNumber
 )
 ;
@@ -569,7 +569,7 @@ char
 aMsgId
 bool
 aError
-PRInt32
+int32_t
 aLineNumber
 )
 ;
@@ -579,7 +579,7 @@ AddSnapshotToScript
 nsAHtml5TreeBuilderState
 *
 aSnapshot
-PRInt32
+int32_t
 aLine
 )
 ;
@@ -627,7 +627,7 @@ aName
 void
 errUnclosedElements
 (
-PRInt32
+int32_t
 aIndex
 nsIAtom
 *
@@ -637,7 +637,7 @@ aName
 void
 errUnclosedElementsImplied
 (
-PRInt32
+int32_t
 aIndex
 nsIAtom
 *
@@ -647,7 +647,7 @@ aName
 void
 errUnclosedElementsCell
 (
-PRInt32
+int32_t
 aIndex
 )
 ;

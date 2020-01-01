@@ -608,7 +608,7 @@ ParentOffset
 nsINode
 *
 aNode
-PRInt32
+int32_t
 *
 aChildOffset
 )
@@ -739,7 +739,7 @@ last
 drawn
 in
 .
-PRInt32
+int32_t
 mLastContentOffset
 ;
 /
@@ -1065,7 +1065,7 @@ NS_OK
 nsresult
 SetDelay
 (
-PRUint32
+uint32_t
 aDelay
 )
 {
@@ -1239,7 +1239,7 @@ nsIContent
 >
 mContent
 ;
-PRUint32
+uint32_t
 mDelay
 ;
 }
@@ -1284,7 +1284,7 @@ NS_OK
 ;
 }
 static
-PRInt8
+int8_t
 GetIndexFromSelectionType
 (
 SelectionType
@@ -1417,7 +1417,7 @@ static
 SelectionType
 GetSelectionTypeFromIndex
 (
-PRInt8
+int8_t
 aIndex
 )
 {
@@ -1946,7 +1946,7 @@ mIndex
 +
 +
 ;
-PRInt32
+int32_t
 cnt
 =
 mDomSelection
@@ -2133,7 +2133,7 @@ IsDone
 (
 )
 {
-PRInt32
+int32_t
 cnt
 =
 mDomSelection
@@ -2232,7 +2232,7 @@ nsFrameSelection
 (
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -2372,7 +2372,7 @@ if
 autoCopy
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -2467,7 +2467,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsFrameSelection
 )
-PRInt32
+int32_t
 i
 ;
 for
@@ -2596,7 +2596,7 @@ return
 NS_SUCCESS_INTERRUPTED_TRAVERSE
 ;
 }
-PRInt32
+int32_t
 i
 ;
 for
@@ -2755,7 +2755,7 @@ caret
 return
 NS_ERROR_NULL_POINTER
 ;
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -3103,12 +3103,12 @@ nsIDOMNode
 >
 anchorNode
 ;
-PRInt32
+int32_t
 anchorOffset
 =
 0
 ;
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -3717,7 +3717,7 @@ nsFrameSelection
 :
 SetCaretBidiLevel
 (
-PRUint8
+uint8_t
 aLevel
 )
 {
@@ -3796,7 +3796,7 @@ aLevel
 return
 ;
 }
-PRUint8
+uint8_t
 nsFrameSelection
 :
 :
@@ -3875,7 +3875,7 @@ GetEndParent
 (
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 aDomRange
@@ -3885,7 +3885,7 @@ StartOffset
 (
 )
 ;
-PRInt32
+int32_t
 endOffset
 =
 aDomRange
@@ -4022,7 +4022,7 @@ ParentOffset
 nsINode
 *
 aNode
-PRInt32
+int32_t
 *
 aChildOffset
 )
@@ -4214,7 +4214,7 @@ nsFrameSelection
 :
 MoveCaret
 (
-PRUint32
+uint32_t
 aKeycode
 bool
 aContinueSelection
@@ -4308,7 +4308,7 @@ nsFrameSelection
 :
 MoveCaret
 (
-PRUint32
+uint32_t
 aKeycode
 bool
 aContinueSelection
@@ -4405,7 +4405,7 @@ just
 UP
 /
 DOWN
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -4500,7 +4500,7 @@ desiredX
 )
 ;
 }
-PRInt32
+int32_t
 caretStyle
 =
 Preferences
@@ -4715,7 +4715,7 @@ nsIFrame
 *
 frame
 ;
-PRInt32
+int32_t
 offsetused
 =
 0
@@ -5045,7 +5045,7 @@ nsIFrame
 *
 theFrame
 ;
-PRInt32
+int32_t
 currentOffset
 frameStart
 frameEnd
@@ -5727,9 +5727,9 @@ const
 char
 *
 aFormatType
-PRUint32
+uint32_t
 aFlags
-PRInt32
+int32_t
 aWrapCol
 nsAString
 &
@@ -6050,7 +6050,7 @@ GetPrevNextBidiLevels
 nsIContent
 *
 aNode
-PRUint32
+uint32_t
 aContentOffset
 bool
 aJumpLines
@@ -6076,7 +6076,7 @@ GetPrevNextBidiLevels
 nsIContent
 *
 aNode
-PRUint32
+uint32_t
 aContentOffset
 HINT
 aHint
@@ -6100,10 +6100,10 @@ nsIFrame
 *
 currentFrame
 ;
-PRInt32
+int32_t
 currentOffset
 ;
-PRInt32
+int32_t
 frameStart
 frameEnd
 ;
@@ -6238,7 +6238,7 @@ nsIFrame
 *
 newFrame
 ;
-PRInt32
+int32_t
 offset
 ;
 bool
@@ -6275,7 +6275,7 @@ newFrame
 =
 nullptr
 ;
-PRUint8
+uint8_t
 baseLevel
 =
 NS_GET_BASE_LEVEL
@@ -6283,7 +6283,7 @@ NS_GET_BASE_LEVEL
 currentFrame
 )
 ;
-PRUint8
+uint8_t
 currentLevel
 =
 NS_GET_EMBEDDING_LEVEL
@@ -6291,7 +6291,7 @@ NS_GET_EMBEDDING_LEVEL
 currentFrame
 )
 ;
-PRUint8
+uint8_t
 newLevel
 =
 newFrame
@@ -6435,7 +6435,7 @@ nsIFrame
 aFrameIn
 nsDirection
 aDirection
-PRUint8
+uint8_t
 aBidiLevel
 nsIFrame
 *
@@ -6449,7 +6449,7 @@ NS_ENSURE_STATE
 mShell
 )
 ;
-PRUint8
+uint8_t
 foundLevel
 =
 0
@@ -6549,7 +6549,7 @@ nsSelectionAmount
 aAmount
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -6804,9 +6804,9 @@ aPresShell
 nsIContent
 *
 aNode
-PRUint32
+uint32_t
 aContentOffset
-PRUint32
+uint32_t
 aKeycode
 HINT
 aHint
@@ -7005,7 +7005,7 @@ BidiLevelFromClick
 nsIContent
 *
 aNode
-PRUint32
+uint32_t
 aContentOffset
 )
 {
@@ -7015,7 +7015,7 @@ clickInFrame
 =
 nullptr
 ;
-PRInt32
+int32_t
 OffsetNotUsed
 ;
 clickInFrame
@@ -7054,7 +7054,7 @@ AdjustForMaintainedSelection
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -7076,7 +7076,7 @@ return
 false
 ;
 }
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -7120,7 +7120,7 @@ GetEndParent
 (
 )
 ;
-PRInt32
+int32_t
 rangeStartOffset
 =
 mMaintainRange
@@ -7130,7 +7130,7 @@ StartOffset
 (
 )
 ;
-PRInt32
+int32_t
 rangeEndOffset
 =
 mMaintainRange
@@ -7140,7 +7140,7 @@ EndOffset
 (
 )
 ;
-PRInt32
+int32_t
 relToStart
 =
 nsContentUtils
@@ -7154,7 +7154,7 @@ aContent
 aOffset
 )
 ;
-PRInt32
+int32_t
 relToEnd
 =
 nsContentUtils
@@ -7370,9 +7370,9 @@ HandleClick
 nsIContent
 *
 aNewFocus
-PRUint32
+uint32_t
 aContentOffset
-PRUint32
+uint32_t
 aContentEndOffset
 bool
 aContinueSelection
@@ -7639,7 +7639,7 @@ GetStartParent
 (
 )
 ;
-PRInt32
+int32_t
 rangeOffset
 =
 mMaintainRange
@@ -7649,7 +7649,7 @@ StartOffset
 (
 )
 ;
-PRInt32
+int32_t
 relativePosition
 =
 nsContentUtils
@@ -7700,7 +7700,7 @@ amount
 =
 eSelectEndLine
 ;
-PRInt32
+int32_t
 offset
 ;
 nsIFrame
@@ -7890,11 +7890,11 @@ nsIFrame
 aFrame
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aDelay
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -7939,7 +7939,7 @@ StopAutoScrollTimer
 (
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -7997,9 +7997,9 @@ TakeFocus
 nsIContent
 *
 aNewFocus
-PRUint32
+uint32_t
 aContentOffset
-PRUint32
+uint32_t
 aContentEndOffset
 HINT
 aHint
@@ -8065,7 +8065,7 @@ mHint
 =
 aHint
 ;
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -8110,7 +8110,7 @@ click
 setting
 cursor
 down
-PRUint32
+uint32_t
 batching
 =
 mBatching
@@ -8363,7 +8363,7 @@ NS_ENSURE_STATE
 mShell
 )
 ;
-PRInt16
+int16_t
 displaySelection
 =
 mShell
@@ -8442,7 +8442,7 @@ aContinueSelection
 aNewFocus
 )
 {
-PRInt32
+int32_t
 offset
 ;
 nsINode
@@ -8792,9 +8792,9 @@ LookUpSelection
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aContentOffset
-PRInt32
+int32_t
 aContentLength
 bool
 aSlowCheck
@@ -8821,7 +8821,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -8950,7 +8950,7 @@ aType
 )
 const
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -8984,12 +8984,12 @@ SelectionType
 aType
 SelectionRegion
 aRegion
-PRInt16
+int16_t
 aFlags
 )
 const
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -9030,7 +9030,7 @@ ScrollAxis
 (
 )
 ;
-PRInt32
+int32_t
 flags
 =
 Selection
@@ -9165,7 +9165,7 @@ aType
 )
 const
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -9226,11 +9226,11 @@ GetFrameForNodeOffset
 nsIContent
 *
 aNode
-PRInt32
+int32_t
 aOffset
 HINT
 aHint
-PRInt32
+int32_t
 *
 aReturnOffset
 )
@@ -9284,12 +9284,12 @@ IsElement
 )
 )
 {
-PRInt32
+int32_t
 childIndex
 =
 0
 ;
-PRInt32
+int32_t
 numChildren
 =
 theNode
@@ -9468,7 +9468,7 @@ IsElement
 )
 )
 {
-PRInt32
+int32_t
 newOffset
 =
 0
@@ -9571,7 +9571,7 @@ aOffset
 childIndex
 )
 {
-PRUint32
+uint32_t
 textLength
 =
 0
@@ -9602,7 +9602,7 @@ nullptr
 aReturnOffset
 =
 (
-PRInt32
+int32_t
 )
 textLength
 ;
@@ -10356,7 +10356,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 numChildren
 =
 rootContent
@@ -10470,7 +10470,7 @@ SelectionType
 aType
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -10647,7 +10647,7 @@ ClearNormalSelection
 (
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -10784,9 +10784,9 @@ HandleTableSelection
 nsINode
 *
 aParentContent
-PRInt32
+int32_t
 aContentOffset
-PRInt32
+int32_t
 aTarget
 nsMouseEvent
 *
@@ -10897,7 +10897,7 @@ the
 /
 selected
 cell
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -10960,7 +10960,7 @@ index
 ]
 )
 ;
-PRInt32
+int32_t
 startRowIndex
 startColIndex
 curRowIndex
@@ -12087,7 +12087,7 @@ extending
 a
 block
 selection
-PRInt32
+int32_t
 rangeCount
 ;
 result
@@ -12377,7 +12377,7 @@ rangeCount
 endif
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -12458,7 +12458,7 @@ parent
 return
 NS_ERROR_NULL_POINTER
 ;
-PRInt32
+int32_t
 offset
 =
 range
@@ -12842,7 +12842,7 @@ location
 in
 the
 cellmap
-PRInt32
+int32_t
 startRowIndex
 startColIndex
 endRowIndex
@@ -12968,19 +12968,19 @@ UnselectCells
 nsIContent
 *
 aTableContent
-PRInt32
+int32_t
 aStartRowIndex
-PRInt32
+int32_t
 aStartColumnIndex
-PRInt32
+int32_t
 aEndRowIndex
-PRInt32
+int32_t
 aEndColumnIndex
 bool
 aRemoveOutsideOfCellRange
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -13019,7 +13019,7 @@ tableLayout
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 minRowIndex
 =
 NS_MIN
@@ -13028,7 +13028,7 @@ aStartRowIndex
 aEndRowIndex
 )
 ;
-PRInt32
+int32_t
 maxRowIndex
 =
 NS_MAX
@@ -13037,7 +13037,7 @@ aStartRowIndex
 aEndRowIndex
 )
 ;
-PRInt32
+int32_t
 minColIndex
 =
 NS_MIN
@@ -13046,7 +13046,7 @@ aStartColumnIndex
 aEndColumnIndex
 )
 ;
-PRInt32
+int32_t
 maxColIndex
 =
 NS_MAX
@@ -13102,7 +13102,7 @@ range
 "
 )
 ;
-PRInt32
+int32_t
 curRowIndex
 curColIndex
 ;
@@ -13251,7 +13251,7 @@ nsIDOMElement
 >
 cellElement
 ;
-PRInt32
+int32_t
 origRowIndex
 origColIndex
 rowSpan
@@ -13406,17 +13406,17 @@ AddCellsToSelection
 nsIContent
 *
 aTableContent
-PRInt32
+int32_t
 aStartRowIndex
-PRInt32
+int32_t
 aStartColumnIndex
-PRInt32
+int32_t
 aEndRowIndex
-PRInt32
+int32_t
 aEndColumnIndex
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -13499,7 +13499,7 @@ nsIDOMElement
 >
 cellElement
 ;
-PRInt32
+int32_t
 rowSpan
 colSpan
 actualRowSpan
@@ -13515,7 +13515,7 @@ result
 =
 NS_OK
 ;
-PRInt32
+int32_t
 row
 =
 aStartRowIndex
@@ -13525,7 +13525,7 @@ while
 true
 )
 {
-PRInt32
+int32_t
 col
 =
 aStartColumnIndex
@@ -13717,13 +13717,13 @@ RemoveCellsFromSelection
 nsIContent
 *
 aTable
-PRInt32
+int32_t
 aStartRowIndex
-PRInt32
+int32_t
 aStartColumnIndex
-PRInt32
+int32_t
 aEndRowIndex
-PRInt32
+int32_t
 aEndColumnIndex
 )
 {
@@ -13748,13 +13748,13 @@ RestrictCellsToSelection
 nsIContent
 *
 aTable
-PRInt32
+int32_t
 aStartRowIndex
-PRInt32
+int32_t
 aStartColumnIndex
-PRInt32
+int32_t
 aEndRowIndex
-PRInt32
+int32_t
 aEndColumnIndex
 )
 {
@@ -13779,7 +13779,7 @@ SelectRowOrColumn
 nsIContent
 *
 aCellContent
-PRUint32
+uint32_t
 aTarget
 )
 {
@@ -13882,7 +13882,7 @@ of
 target
 cell
 :
-PRInt32
+int32_t
 rowIndex
 colIndex
 curRowIndex
@@ -13981,7 +13981,7 @@ nsIDOMElement
 >
 lastCell
 ;
-PRInt32
+int32_t
 rowSpan
 colSpan
 actualRowSpan
@@ -14508,7 +14508,7 @@ startParent
 return
 nullptr
 ;
-PRInt32
+int32_t
 offset
 =
 aRange
@@ -14573,7 +14573,7 @@ GetFirstCellRange
 (
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -14646,7 +14646,7 @@ GetNextCellRange
 (
 )
 {
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -14737,10 +14737,10 @@ GetCellIndexes
 nsIContent
 *
 aCell
-PRInt32
+int32_t
 &
 aRowIndex
-PRInt32
+int32_t
 &
 aColIndex
 )
@@ -14988,7 +14988,7 @@ GetParent
 Get
 child
 offset
-PRInt32
+int32_t
 offset
 =
 parent
@@ -15016,13 +15016,13 @@ getTableCellLocationFromRange
 nsRange
 *
 aRange
-PRInt32
+int32_t
 *
 aSelectionType
-PRInt32
+int32_t
 *
 aRow
-PRInt32
+int32_t
 *
 aCol
 )
@@ -15304,7 +15304,7 @@ aRange
 bool
 *
 aDidAddRange
-PRInt32
+int32_t
 *
 aOutIndex
 )
@@ -15370,7 +15370,7 @@ cell
 if
 we
 are
-PRInt32
+int32_t
 newRow
 newCol
 tableMode
@@ -15538,7 +15538,7 @@ GetTableSelectionType
 nsIDOMRange
 *
 aDOMRange
-PRInt32
+int32_t
 *
 aTableSelectionType
 )
@@ -15651,7 +15651,7 @@ endNode
 return
 NS_OK
 ;
-PRInt32
+int32_t
 startOffset
 =
 range
@@ -15661,7 +15661,7 @@ StartOffset
 (
 )
 ;
-PRInt32
+int32_t
 endOffset
 =
 range
@@ -15894,7 +15894,7 @@ CreateAndAddRange
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -15971,7 +15971,7 @@ result
 return
 result
 ;
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -16035,7 +16035,7 @@ mAncestorLimiter
 =
 aLimiter
 ;
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -16147,7 +16147,7 @@ bug
 bool
 isCollapsed
 ;
-PRInt8
+int8_t
 index
 =
 GetIndexFromSelectionType
@@ -16483,7 +16483,7 @@ StopAutoScrollTimer
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -16619,7 +16619,7 @@ setAnchorFocusRange
 1
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mRanges
@@ -16630,7 +16630,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16762,7 +16762,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 Selection
 )
 {
-PRUint32
+uint32_t
 i
 count
 =
@@ -16976,7 +16976,7 @@ Selection
 :
 GetAnchorOffset
 (
-PRInt32
+int32_t
 *
 aAnchorOffset
 )
@@ -17096,7 +17096,7 @@ Selection
 :
 GetFocusOffset
 (
-PRInt32
+int32_t
 *
 aFocusOffset
 )
@@ -17118,7 +17118,7 @@ Selection
 :
 setAnchorFocusRange
 (
-PRInt32
+int32_t
 indx
 )
 {
@@ -17128,7 +17128,7 @@ indx
 >
 =
 (
-PRInt32
+int32_t
 )
 mRanges
 .
@@ -17167,7 +17167,7 @@ mRange
 ;
 }
 }
-PRInt32
+int32_t
 Selection
 :
 :
@@ -17211,7 +17211,7 @@ EndOffset
 )
 ;
 }
-PRInt32
+int32_t
 Selection
 :
 :
@@ -17262,12 +17262,12 @@ CompareToRangeStart
 nsINode
 *
 aCompareNode
-PRInt32
+int32_t
 aCompareOffset
 nsRange
 *
 aRange
-PRInt32
+int32_t
 *
 aCmp
 )
@@ -17387,12 +17387,12 @@ CompareToRangeEnd
 nsINode
 *
 aCompareNode
-PRInt32
+int32_t
 aCompareOffset
 nsRange
 *
 aRange
-PRInt32
+int32_t
 *
 aCmp
 )
@@ -17603,7 +17603,7 @@ aElementArray
 nsINode
 *
 aPointNode
-PRInt32
+int32_t
 aPointOffset
 nsresult
 (
@@ -17613,13 +17613,13 @@ aComparator
 (
 nsINode
 *
-PRInt32
+int32_t
 nsRange
 *
-PRInt32
+int32_t
 *
 )
-PRInt32
+int32_t
 *
 aPoint
 )
@@ -17629,12 +17629,12 @@ aPoint
 =
 0
 ;
-PRInt32
+int32_t
 beginSearch
 =
 0
 ;
-PRInt32
+int32_t
 endSearch
 =
 aElementArray
@@ -17656,7 +17656,7 @@ if
 endSearch
 )
 {
-PRInt32
+int32_t
 center
 =
 endSearch
@@ -17687,7 +17687,7 @@ center
 .
 mRange
 ;
-PRInt32
+int32_t
 cmp
 ;
 nsresult
@@ -17887,7 +17887,7 @@ to
 the
 range
 start
-PRInt32
+int32_t
 cmp
 ;
 nsresult
@@ -17928,7 +17928,7 @@ to
 the
 range
 end
-PRInt32
+int32_t
 cmp2
 ;
 rv
@@ -18313,7 +18313,7 @@ AddItem
 nsRange
 *
 aItem
-PRInt32
+int32_t
 *
 aOutIndex
 )
@@ -18410,7 +18410,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 startIndex
 endIndex
 ;
@@ -18826,7 +18826,7 @@ overlapping
 ranges
 for
 (
-PRInt32
+int32_t
 i
 =
 startIndex
@@ -18872,7 +18872,7 @@ temp
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 overlaps
@@ -18927,7 +18927,7 @@ our
 leftovers
 "
 array
-PRInt32
+int32_t
 insertionPoint
 ;
 rv
@@ -19001,7 +19001,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19117,13 +19117,13 @@ are
 so
 fast
 .
-PRInt32
+int32_t
 idx
 =
 -
 1
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -19161,7 +19161,7 @@ aItem
 idx
 =
 (
-PRInt32
+int32_t
 )
 i
 ;
@@ -19205,7 +19205,7 @@ RemoveCollapsedRanges
 (
 )
 {
-PRUint32
+uint32_t
 i
 =
 0
@@ -19287,7 +19287,7 @@ setAnchorFocusRange
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19409,7 +19409,7 @@ Selection
 :
 GetType
 (
-PRInt16
+int16_t
 *
 aType
 )
@@ -19469,7 +19469,7 @@ aRange
 nsINode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -19507,7 +19507,7 @@ aRange
 nsINode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -19562,14 +19562,14 @@ EqualsRangeAtPoint
 nsINode
 *
 aBeginNode
-PRInt32
+int32_t
 aBeginOffset
 nsINode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
-PRInt32
+int32_t
 aRangeIndex
 )
 {
@@ -19584,7 +19584,7 @@ aRangeIndex
 aRangeIndex
 <
 (
-PRInt32
+int32_t
 )
 mRanges
 .
@@ -19654,16 +19654,16 @@ GetRangesForInterval
 nsIDOMNode
 *
 aBeginNode
-PRInt32
+int32_t
 aBeginOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 bool
 aAllowAdjacent
-PRUint32
+uint32_t
 *
 aResultCount
 nsIDOMRange
@@ -19809,7 +19809,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20014,12 +20014,12 @@ GetRangesForIntervalArray
 nsINode
 *
 aBeginNode
-PRInt32
+int32_t
 aBeginOffset
 nsINode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 bool
 aAllowAdjacent
@@ -20039,7 +20039,7 @@ Clear
 (
 )
 ;
-PRInt32
+int32_t
 startIndex
 endIndex
 ;
@@ -20085,7 +20085,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 startIndex
@@ -20169,27 +20169,27 @@ GetIndicesForInterval
 nsINode
 *
 aBeginNode
-PRInt32
+int32_t
 aBeginOffset
 nsINode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 bool
 aAllowAdjacent
-PRInt32
+int32_t
 *
 aStartIndex
-PRInt32
+int32_t
 *
 aEndIndex
 )
 {
-PRInt32
+int32_t
 startIndex
 ;
-PRInt32
+int32_t
 endIndex
 ;
 if
@@ -20272,7 +20272,7 @@ interval
 can
 be
 discarded
-PRInt32
+int32_t
 endsBeforeIndex
 ;
 if
@@ -20455,7 +20455,7 @@ aEndIndex
 =
 endsBeforeIndex
 ;
-PRInt32
+int32_t
 beginsAfterIndex
 ;
 if
@@ -20486,7 +20486,7 @@ beginsAfterIndex
 =
 =
 (
-PRInt32
+int32_t
 )
 mRanges
 .
@@ -20633,7 +20633,7 @@ while
 endsBeforeIndex
 <
 (
-PRInt32
+int32_t
 )
 mRanges
 .
@@ -21003,7 +21003,7 @@ if
 endsBeforeIndex
 <
 (
-PRInt32
+int32_t
 )
 mRanges
 .
@@ -21103,7 +21103,7 @@ aReturnFrame
 return
 NS_ERROR_NULL_POINTER
 ;
-PRInt32
+int32_t
 frameOffset
 =
 0
@@ -21179,7 +21179,7 @@ nsIFrame
 *
 *
 aReturnFrame
-PRInt32
+int32_t
 *
 aOffsetUsed
 bool
@@ -21230,7 +21230,7 @@ GetShell
 (
 )
 ;
-PRInt32
+int32_t
 frameOffset
 =
 0
@@ -21289,7 +21289,7 @@ caret
 return
 NS_ERROR_FAILURE
 ;
-PRUint8
+uint8_t
 caretBidiLevel
 =
 mFrameSelection
@@ -21894,7 +21894,7 @@ nsTextFrame
 frame
 )
 ;
-PRUint32
+uint32_t
 startOffset
 =
 aRange
@@ -21904,7 +21904,7 @@ StartOffset
 (
 )
 ;
-PRUint32
+uint32_t
 endOffset
 ;
 if
@@ -22466,9 +22466,9 @@ LookUpSelection
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aContentOffset
-PRInt32
+int32_t
 aContentLength
 SelectionDetails
 *
@@ -22565,7 +22565,7 @@ NS_OK
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -22614,7 +22614,7 @@ GetEndParent
 (
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 range
@@ -22624,7 +22624,7 @@ StartOffset
 (
 )
 ;
-PRInt32
+int32_t
 endOffset
 =
 range
@@ -22634,7 +22634,7 @@ EndOffset
 (
 )
 ;
-PRInt32
+int32_t
 start
 =
 -
@@ -23005,11 +23005,11 @@ nsPresContext
 aPresContext
 )
 {
-PRInt32
+int32_t
 arrCount
 =
 (
-PRInt32
+int32_t
 )
 mRanges
 .
@@ -23026,7 +23026,7 @@ arrCount
 return
 NS_OK
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -23185,7 +23185,7 @@ GetCachedFrameOffset
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 inOffset
 nsPoint
 &
@@ -23416,7 +23416,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -23516,7 +23516,7 @@ aFrame
 nsPoint
 &
 aPoint
-PRUint32
+uint32_t
 aDelay
 )
 {
@@ -24087,7 +24087,7 @@ cell
 bool
 didAddRange
 ;
-PRInt32
+int32_t
 rangeIndex
 ;
 nsresult
@@ -24478,7 +24478,7 @@ select
 all
 of
 it
-PRInt32
+int32_t
 beginOffset
 endOffset
 ;
@@ -24663,7 +24663,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -24692,7 +24692,7 @@ true
 )
 ;
 }
-PRInt32
+int32_t
 cnt
 =
 mRanges
@@ -24868,7 +24868,7 @@ Collapse
 nsIDOMNode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -24900,7 +24900,7 @@ CollapseNative
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -24921,7 +24921,7 @@ Collapse
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -25225,7 +25225,7 @@ CollapseToStart
 (
 )
 {
-PRInt32
+int32_t
 cnt
 ;
 nsresult
@@ -25325,7 +25325,7 @@ CollapseToEnd
 (
 )
 {
-PRInt32
+int32_t
 cnt
 ;
 nsresult
@@ -25424,7 +25424,7 @@ IsCollapsed
 (
 )
 {
-PRUint32
+uint32_t
 cnt
 =
 mRanges
@@ -25524,7 +25524,7 @@ Selection
 :
 GetRangeCount
 (
-PRInt32
+int32_t
 *
 aRangeCount
 )
@@ -25533,7 +25533,7 @@ aRangeCount
 aRangeCount
 =
 (
-PRInt32
+int32_t
 )
 mRanges
 .
@@ -25551,7 +25551,7 @@ Selection
 :
 GetRangeAt
 (
-PRInt32
+int32_t
 aIndex
 nsIDOMRange
 *
@@ -25600,7 +25600,7 @@ Selection
 :
 GetRangeAt
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -25656,7 +25656,7 @@ res
 return
 res
 ;
-PRInt32
+int32_t
 aOutIndex
 =
 -
@@ -25991,7 +25991,7 @@ Extend
 nsIDOMNode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -26023,7 +26023,7 @@ ExtendNative
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -26044,7 +26044,7 @@ Extend
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -26131,14 +26131,14 @@ GetFocusNode
 (
 )
 ;
-PRInt32
+int32_t
 anchorOffset
 =
 GetAnchorOffset
 (
 )
 ;
-PRInt32
+int32_t
 focusOffset
 =
 GetFocusOffset
@@ -26180,7 +26180,7 @@ GetEndParent
 (
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 range
@@ -26190,7 +26190,7 @@ StartOffset
 (
 )
 ;
-PRInt32
+int32_t
 endOffset
 =
 range
@@ -26257,7 +26257,7 @@ disconnected
 =
 false
 ;
-PRInt32
+int32_t
 result1
 =
 nsContentUtils
@@ -26281,7 +26281,7 @@ cursor
 to
 new
 cursor
-PRInt32
+int32_t
 result2
 =
 nsContentUtils
@@ -26304,7 +26304,7 @@ anchor
 to
 new
 cursor
-PRInt32
+int32_t
 result3
 =
 nsContentUtils
@@ -27781,7 +27781,7 @@ in
 nsRange
 .
 cpp
-PRUint32
+uint32_t
 nodeLength
 ;
 bool
@@ -27960,7 +27960,7 @@ ranges
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -28455,7 +28455,7 @@ node
 =
 nullptr
 ;
-PRInt32
+int32_t
 nodeOffset
 =
 0
@@ -28546,7 +28546,7 @@ get
 nullptr
 )
 ;
-PRInt32
+int32_t
 frameOffset
 =
 0
@@ -28831,7 +28831,7 @@ NS_OK
 /
 event
 revoked
-PRInt32
+int32_t
 flags
 =
 Selection
@@ -29015,9 +29015,9 @@ SelectionRegion
 aRegion
 bool
 aIsSynchronous
-PRInt16
+int16_t
 aVPercent
-PRInt16
+int16_t
 aHPercent
 )
 {
@@ -29100,7 +29100,7 @@ nsIPresShell
 :
 ScrollAxis
 aHorizontal
-PRInt32
+int32_t
 aFlags
 )
 {
@@ -29567,7 +29567,7 @@ selectionListeners
 mSelectionListeners
 )
 ;
-PRInt32
+int32_t
 cnt
 =
 selectionListeners
@@ -29654,7 +29654,7 @@ PopReason
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -29974,7 +29974,7 @@ extend
 /
 /
 The
-PRUint32
+uint32_t
 casts
 below
 prevent
@@ -29986,7 +29986,7 @@ warning
 nsSelectionAmount
 amount
 ;
-PRUint32
+uint32_t
 keycode
 ;
 if
@@ -30010,7 +30010,7 @@ keycode
 forward
 ?
 (
-PRUint32
+uint32_t
 )
 nsIDOMKeyEvent
 :
@@ -30018,7 +30018,7 @@ nsIDOMKeyEvent
 DOM_VK_RIGHT
 :
 (
-PRUint32
+uint32_t
 )
 nsIDOMKeyEvent
 :
@@ -30048,7 +30048,7 @@ keycode
 forward
 ?
 (
-PRUint32
+uint32_t
 )
 nsIDOMKeyEvent
 :
@@ -30056,7 +30056,7 @@ nsIDOMKeyEvent
 DOM_VK_RIGHT
 :
 (
-PRUint32
+uint32_t
 )
 nsIDOMKeyEvent
 :
@@ -30086,7 +30086,7 @@ keycode
 forward
 ?
 (
-PRUint32
+uint32_t
 )
 nsIDOMKeyEvent
 :
@@ -30094,7 +30094,7 @@ nsIDOMKeyEvent
 DOM_VK_DOWN
 :
 (
-PRUint32
+uint32_t
 )
 nsIDOMKeyEvent
 :
@@ -30124,7 +30124,7 @@ keycode
 forward
 ?
 (
-PRUint32
+uint32_t
 )
 nsIDOMKeyEvent
 :
@@ -30132,7 +30132,7 @@ nsIDOMKeyEvent
 DOM_VK_END
 :
 (
-PRUint32
+uint32_t
 )
 nsIDOMKeyEvent
 :
@@ -30286,7 +30286,7 @@ focusNode
 NS_ERROR_UNEXPECTED
 )
 ;
-PRInt32
+int32_t
 focusOffset
 =
 GetFocusOffset
@@ -30329,7 +30329,7 @@ nsIFrame
 *
 frame
 ;
-PRInt32
+int32_t
 offset
 ;
 rv
@@ -30704,7 +30704,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 frameStart
 frameEnd
 ;
@@ -30723,7 +30723,7 @@ nsPresContext
 >
 context
 ;
-PRUint8
+uint8_t
 levelBefore
 levelAfter
 ;
@@ -30755,7 +30755,7 @@ result
 :
 NS_ERROR_FAILURE
 ;
-PRUint8
+uint8_t
 level
 =
 NS_GET_EMBEDDING_LEVEL
@@ -30763,7 +30763,7 @@ NS_GET_EMBEDDING_LEVEL
 focusFrame
 )
 ;
-PRInt32
+int32_t
 focusOffset
 =
 GetFocusOffset
@@ -31561,7 +31561,7 @@ aDoc
 nsISelection
 *
 aSel
-PRInt16
+int16_t
 aReason
 )
 {

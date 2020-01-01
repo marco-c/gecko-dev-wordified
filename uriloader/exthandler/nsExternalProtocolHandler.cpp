@@ -1088,7 +1088,7 @@ nsExtProtocolChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -1133,7 +1133,7 @@ nsExtProtocolChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -1154,7 +1154,7 @@ nsExtProtocolChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -1721,7 +1721,7 @@ nsExternalProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 aDefaultPort
 )
@@ -1741,7 +1741,7 @@ nsExternalProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char
@@ -1858,7 +1858,7 @@ nsExternalProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 aUritype
 )

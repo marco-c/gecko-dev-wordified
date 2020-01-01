@@ -1437,7 +1437,7 @@ const
 nsPoint
 &
 aRenderPt
-PRUint32
+uint32_t
 aBGPaintFlags
 )
 :
@@ -1555,7 +1555,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2031,7 +2031,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2621,7 +2621,7 @@ for
 column
 *
 /
-PRUint32
+uint32_t
 colIndex
 =
 col
@@ -2809,7 +2809,7 @@ cgData
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4075,7 +4075,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 colIndex
 ;
 aCell
@@ -4090,7 +4090,7 @@ NS_ASSERTION
 (
 colIndex
 <
-PRInt32
+int32_t
 (
 mNumCols
 )
@@ -4104,7 +4104,7 @@ violation
 ;
 if
 (
-PRInt32
+int32_t
 (
 mNumCols
 )

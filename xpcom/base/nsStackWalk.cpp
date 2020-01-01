@@ -543,13 +543,13 @@ define
 MAC_OS_X_VERSION_10_6_HEX
 0x00001060
 static
-PRInt32
+int32_t
 OSXVersion
 (
 )
 {
 static
-PRInt32
+int32_t
 gOSXVersion
 =
 0x0
@@ -1379,7 +1379,7 @@ EnsureImageHlpInitialized
 struct
 WalkStackData
 {
-PRUint32
+uint32_t
 skipFrames
 ;
 HANDLE
@@ -1402,10 +1402,10 @@ void
 *
 pcs
 ;
-PRUint32
+uint32_t
 pc_size
 ;
-PRUint32
+uint32_t
 pc_count
 ;
 void
@@ -1413,10 +1413,10 @@ void
 *
 sps
 ;
-PRUint32
+uint32_t
 sp_size
 ;
-PRUint32
+uint32_t
 sp_count
 ;
 }
@@ -2748,7 +2748,7 @@ NS_StackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *
@@ -3421,7 +3421,7 @@ myThread
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4665,7 +4665,7 @@ aDetails
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferSize
 )
 {
@@ -4733,7 +4733,7 @@ aBufferSize
 0
 '
 ;
-PRUint32
+uint32_t
 len
 =
 strlen
@@ -5376,7 +5376,7 @@ my_user_args
 NS_WalkStackCallback
 callback
 ;
-PRUint32
+uint32_t
 skipFrames
 ;
 void
@@ -5991,7 +5991,7 @@ NS_StackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *
@@ -6331,7 +6331,7 @@ aDetails
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferSize
 )
 {
@@ -6455,7 +6455,7 @@ FramePointerStackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *
@@ -6842,7 +6842,7 @@ NS_StackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *
@@ -7205,7 +7205,7 @@ NS_StackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *
@@ -7539,7 +7539,7 @@ aDetails
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferSize
 )
 {
@@ -7675,7 +7675,7 @@ NS_StackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *
@@ -7709,7 +7709,7 @@ FramePointerStackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *
@@ -7819,7 +7819,7 @@ aDetails
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferSize
 )
 {

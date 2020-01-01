@@ -832,7 +832,7 @@ const
 char
 *
 host
-PRUint16
+uint16_t
 portnum
 SEC_HTTP_SERVER_SESSION
 *
@@ -1012,7 +1012,7 @@ once
 is
 ready
 .
-PRUint32
+uint32_t
 maxBug404059Timeout
 =
 PR_TicksPerSecond
@@ -1139,7 +1139,7 @@ char
 *
 http_data
 const
-PRUint32
+uint32_t
 http_data_len
 const
 char
@@ -1288,7 +1288,7 @@ PRPollDesc
 *
 *
 pPollDesc
-PRUint16
+uint16_t
 *
 http_response_code
 const
@@ -1306,7 +1306,7 @@ char
 *
 *
 http_response_data
-PRUint32
+uint32_t
 *
 http_response_data_len
 )
@@ -1533,7 +1533,7 @@ Release
 (
 )
 {
-PRInt32
+int32_t
 newRefCount
 =
 NS_AtomicDecrementRefcnt
@@ -1565,7 +1565,7 @@ PRPollDesc
 *
 *
 pPollDesc
-PRUint16
+uint16_t
 *
 http_response_code
 const
@@ -1583,7 +1583,7 @@ char
 *
 *
 http_response_data
-PRUint32
+uint32_t
 *
 http_response_data_len
 )
@@ -1633,7 +1633,7 @@ http_response_data
 =
 0
 ;
-PRUint32
+uint32_t
 acceptableResultSize
 =
 0
@@ -2629,10 +2629,10 @@ nsISupports
 aContext
 nsresult
 aStatus
-PRUint32
+uint32_t
 stringLen
 const
-PRUint8
+uint8_t
 *
 string
 )
@@ -3548,7 +3548,7 @@ client_data
 nsNSSShutDownPreventionLock
 locker
 ;
-PRInt32
+int32_t
 sslStatus
 ;
 char
@@ -3563,13 +3563,13 @@ cipherName
 =
 nullptr
 ;
-PRInt32
+int32_t
 keyLength
 ;
 nsresult
 rv
 ;
-PRInt32
+int32_t
 encryptBits
 ;
 nsNSSSocketInfo
@@ -3669,7 +3669,7 @@ nullptr
 return
 ;
 }
-PRInt32
+int32_t
 secStatus
 ;
 if
@@ -5619,7 +5619,7 @@ i
 .
 issuerKeyID_base64
 (
-PRUint32
+uint32_t
 )
 PORT_Strlen
 (

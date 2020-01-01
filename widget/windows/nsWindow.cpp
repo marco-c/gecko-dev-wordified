@@ -1678,7 +1678,7 @@ sDropShadowEnabled
 =
 true
 ;
-PRUint32
+uint32_t
 nsWindow
 :
 :
@@ -2049,7 +2049,7 @@ Widget
 Event
 "
 ;
-PRUint32
+uint32_t
 nsWindow
 :
 :
@@ -2336,7 +2336,7 @@ border
 .
 static
 const
-PRInt32
+int32_t
 kGlassMarginAdjustment
 =
 2
@@ -2391,7 +2391,7 @@ content
 .
 static
 const
-PRInt32
+int32_t
 kResizableBorderMinSize
 =
 3
@@ -3662,13 +3662,13 @@ created
 or
 resized
 .
-PRInt32
+int32_t
 nsWindow
 :
 :
 GetHeight
 (
-PRInt32
+int32_t
 aProposedHeight
 )
 {
@@ -9577,7 +9577,7 @@ width
 =
 NS_MAX
 (
-PRInt32
+int32_t
 (
 :
 :
@@ -9601,7 +9601,7 @@ height
 =
 NS_MAX
 (
-PRInt32
+int32_t
 (
 :
 :
@@ -9638,9 +9638,9 @@ nsWindow
 :
 Move
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -10138,9 +10138,9 @@ nsWindow
 :
 Resize
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 bool
 aRepaint
@@ -10345,13 +10345,13 @@ nsWindow
 :
 Resize
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 bool
 aRepaint
@@ -10580,9 +10580,9 @@ BeginResizeDrag
 nsGUIEvent
 *
 aEvent
-PRInt32
+int32_t
 aHorizontal
-PRInt32
+int32_t
 aVertical
 )
 {
@@ -11242,7 +11242,7 @@ nsWindow
 :
 SetSizeMode
 (
-PRInt32
+int32_t
 aMode
 )
 {
@@ -11627,10 +11627,10 @@ ConstrainPosition
 (
 bool
 aAllowSlop
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
 )
@@ -11720,7 +11720,7 @@ nsIScreen
 >
 screen
 ;
-PRInt32
+int32_t
 left
 top
 width
@@ -14463,7 +14463,7 @@ nsWindow
 :
 UpdateNonClientMargins
 (
-PRInt32
+int32_t
 aSizeMode
 bool
 aReflowWindow
@@ -17343,9 +17343,9 @@ SetCursor
 imgIContainer
 *
 aCursor
-PRUint32
+uint32_t
 aHotspotX
-PRUint32
+uint32_t
 aHotspotY
 )
 {
@@ -17371,10 +17371,10 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 width
 ;
-PRInt32
+int32_t
 height
 ;
 nsresult
@@ -17775,7 +17775,7 @@ region
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -18095,7 +18095,7 @@ y
 =
 NS_MAX
 <
-PRUint32
+uint32_t
 >
 (
 largest
@@ -18912,7 +18912,7 @@ noname
 "
 )
 (
-PRInt32
+int32_t
 )
 mWnd
 )
@@ -19017,7 +19017,7 @@ noname
 "
 )
 (
-PRInt32
+int32_t
 )
 mWnd
 )
@@ -19490,7 +19490,7 @@ nsWindow
 :
 GetNativeData
 (
-PRUint32
+uint32_t
 aDataType
 )
 {
@@ -19694,7 +19694,7 @@ FreeNativeData
 void
 *
 data
-PRUint32
+uint32_t
 aDataType
 )
 {
@@ -21790,7 +21790,7 @@ nsWindow
 :
 GetAttention
 (
-PRInt32
+int32_t
 aCycleCount
 )
 {
@@ -23157,7 +23157,7 @@ info
 "
 )
 ;
-PRInt32
+int32_t
 status
 =
 nsIGfxInfo
@@ -23635,7 +23635,7 @@ else
 {
 #
 endif
-PRUint32
+uint32_t
 flags
 =
 gfxWindowsSurface
@@ -24088,11 +24088,11 @@ nsWindow
 :
 OverrideSystemMouseScrollSpeed
 (
-PRInt32
+int32_t
 aOriginalDelta
 bool
 aIsHorizontal
-PRInt32
+int32_t
 &
 aOverriddenDelta
 )
@@ -24122,12 +24122,12 @@ in
 MSDN
 .
 const
-PRUint32
+uint32_t
 kSystemDefaultScrollingSpeed
 =
 3
 ;
-PRInt32
+int32_t
 absOriginDelta
 =
 NS_ABS
@@ -24143,7 +24143,7 @@ simple
 overridden
 speed
 .
-PRInt32
+int32_t
 absComputedOverriddenDelta
 ;
 nsresult
@@ -24412,7 +24412,7 @@ speed
 /
 scrolling
 .
-PRInt32
+int32_t
 absDeltaLimit
 ;
 rv
@@ -25293,7 +25293,7 @@ something
 "
 )
 (
-PRInt32
+int32_t
 )
 mWnd
 )
@@ -25454,7 +25454,7 @@ nsWindow
 :
 DispatchStandardEvent
 (
-PRUint32
+uint32_t
 aMsg
 )
 {
@@ -25674,7 +25674,7 @@ nsWindow
 :
 DispatchCommandEvent
 (
-PRUint32
+uint32_t
 aEventCommand
 )
 {
@@ -26459,7 +26459,7 @@ nsWindow
 :
 DispatchMouseEvent
 (
-PRUint32
+uint32_t
 aEventType
 WPARAM
 wParam
@@ -26467,9 +26467,9 @@ LPARAM
 lParam
 bool
 aIsContextMenuKey
-PRInt16
+int16_t
 aButton
-PRUint16
+uint16_t
 aInputSource
 )
 {
@@ -29323,9 +29323,9 @@ nsSizeMode
 sizeMode
 bool
 isRtl
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 {
@@ -33387,7 +33387,7 @@ case
 WM_APPCOMMAND
 :
 {
-PRUint32
+uint32_t
 appCommand
 =
 GET_APPCOMMAND_LPARAM
@@ -33546,7 +33546,7 @@ if
 mWidgetListener
 )
 {
-PRInt32
+int32_t
 fActive
 =
 LOWORD
@@ -33861,7 +33861,7 @@ x
 NS_MIN
 (
 (
-PRInt32
+int32_t
 )
 mmi
 -
@@ -33872,7 +33872,7 @@ x
 NS_MAX
 (
 (
-PRInt32
+int32_t
 )
 mmi
 -
@@ -33898,7 +33898,7 @@ y
 NS_MIN
 (
 (
-PRInt32
+int32_t
 )
 mmi
 -
@@ -33909,7 +33909,7 @@ y
 NS_MAX
 (
 (
-PRInt32
+int32_t
 )
 mmi
 -
@@ -33935,7 +33935,7 @@ x
 NS_MIN
 (
 (
-PRInt32
+int32_t
 )
 mmi
 -
@@ -33960,7 +33960,7 @@ y
 NS_MIN
 (
 (
-PRInt32
+int32_t
 )
 mmi
 -
@@ -34562,7 +34562,7 @@ button
 should
 not
 .
-PRInt32
+int32_t
 action
 =
 LOWORD
@@ -34584,7 +34584,7 @@ action
 UIS_CLEAR
 )
 {
-PRInt32
+int32_t
 flags
 =
 HIWORD
@@ -35909,15 +35909,15 @@ events
 *
 *
 /
-PRInt32
+int32_t
 nsWindow
 :
 :
 ClientMarginHitTestPoint
 (
-PRInt32
+int32_t
 mx
-PRInt32
+int32_t
 my
 )
 {
@@ -36031,7 +36031,7 @@ HTMINBUTTON
 -
 minimize
 button
-PRInt32
+int32_t
 testResult
 =
 HTCLIENT
@@ -37765,11 +37765,11 @@ nsWindow
 :
 SynthesizeNativeKeyEvent
 (
-PRInt32
+int32_t
 aNativeKeyboardLayout
-PRInt32
+int32_t
 aNativeKeyCode
-PRUint32
+uint32_t
 aModifierFlags
 const
 nsAString
@@ -38000,7 +38000,7 @@ LoadLayout
 loadedLayout
 )
 ;
-PRUint8
+uint8_t
 argumentKeySpecific
 =
 0
@@ -38317,7 +38317,7 @@ real
 key
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -38335,7 +38335,7 @@ Length
 i
 )
 {
-PRUint8
+uint8_t
 key
 =
 keySequence
@@ -38345,7 +38345,7 @@ i
 .
 mGeneral
 ;
-PRUint8
+uint8_t
 keySpecific
 =
 keySequence
@@ -38611,7 +38611,7 @@ fakeMsg
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 1
@@ -38686,7 +38686,7 @@ nullptr
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 keySequence
@@ -38704,7 +38704,7 @@ i
 i
 )
 {
-PRUint8
+uint8_t
 key
 =
 keySequence
@@ -38716,7 +38716,7 @@ i
 .
 mGeneral
 ;
-PRUint8
+uint8_t
 keySpecific
 =
 keySequence
@@ -38903,7 +38903,7 @@ actually
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -38975,9 +38975,9 @@ SynthesizeNativeMouseEvent
 (
 nsIntPoint
 aPoint
-PRUint32
+uint32_t
 aNativeMessage
-PRUint32
+uint32_t
 aModifierFlags
 )
 {
@@ -39066,7 +39066,7 @@ SynthesizeNativeMouseScrollEvent
 (
 nsIntPoint
 aPoint
-PRUint32
+uint32_t
 aNativeMessage
 double
 aDeltaX
@@ -39074,9 +39074,9 @@ double
 aDeltaY
 double
 aDeltaZ
-PRUint32
+uint32_t
 aModifierFlags
-PRUint32
+uint32_t
 aAdditionalFlags
 )
 {
@@ -39104,7 +39104,7 @@ WM_VSCROLL
 ?
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 aDeltaY
@@ -39112,7 +39112,7 @@ aDeltaY
 :
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 aDeltaX
@@ -40115,7 +40115,7 @@ SWP_NOSIZE
 RECT
 r
 ;
-PRInt32
+int32_t
 newWidth
 newHeight
 ;
@@ -41200,7 +41200,7 @@ LPARAM
 lParam
 )
 {
-PRUint32
+uint32_t
 cInputs
 =
 LOWORD
@@ -41234,7 +41234,7 @@ pInputs
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -41248,7 +41248,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 msg
 ;
 if
@@ -41418,7 +41418,7 @@ true
 ;
 }
 static
-PRInt32
+int32_t
 RoundDown
 (
 double
@@ -41432,7 +41432,7 @@ aDouble
 ?
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 floor
@@ -41443,7 +41443,7 @@ aDouble
 :
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 ceil
@@ -42006,7 +42006,7 @@ and
 native
 processing
 .
-PRUint32
+uint32_t
 DOMKeyCode
 =
 nativeKey
@@ -42591,7 +42591,7 @@ virtualKeyCode
 aModKeyState
 )
 ;
-PRUint32
+uint32_t
 extraFlags
 =
 (
@@ -43469,12 +43469,12 @@ shiftedChars
 UniCharsAndModifiers
 unshiftedChars
 ;
-PRUint32
+uint32_t
 shiftedLatinChar
 =
 0
 ;
-PRUint32
+uint32_t
 unshiftedLatinChar
 =
 0
@@ -43910,7 +43910,7 @@ IsControl
 )
 )
 {
-PRUint32
+uint32_t
 ch
 =
 aModKeyState
@@ -43990,7 +43990,7 @@ unshiftedChars
 mLength
 )
 {
-PRUint32
+uint32_t
 num
 =
 NS_MAX
@@ -44009,7 +44009,7 @@ mLength
 )
 )
 ;
-PRUint32
+uint32_t
 skipUniChars
 =
 num
@@ -44018,7 +44018,7 @@ inputtingChars
 .
 mLength
 ;
-PRUint32
+uint32_t
 skipShiftedChars
 =
 num
@@ -44027,7 +44027,7 @@ shiftedChars
 .
 mLength
 ;
-PRUint32
+uint32_t
 skipUnshiftedChars
 =
 num
@@ -44050,7 +44050,7 @@ DOMKeyCode
 ;
 for
 (
-PRUint32
+uint32_t
 cnt
 =
 0
@@ -44064,7 +44064,7 @@ cnt
 +
 )
 {
-PRUint16
+uint16_t
 uniChar
 shiftedChar
 unshiftedChar
@@ -44740,7 +44740,7 @@ aModKeyState
 bool
 *
 aEventDispatched
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -44787,7 +44787,7 @@ return
 FALSE
 ;
 }
-PRUint32
+uint32_t
 charCode
 =
 aMsg
@@ -45425,13 +45425,13 @@ KeyPair
 >
 *
 aArray
-PRUint32
+uint32_t
 aModifiers
 )
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -45449,7 +45449,7 @@ i
 )
 {
 const
-PRUint32
+uint32_t
 *
 map
 =
@@ -45872,7 +45872,7 @@ need
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -46205,7 +46205,7 @@ nsIntRect
 aRects
 )
 {
-PRInt32
+int32_t
 size
 =
 sizeof
@@ -46226,7 +46226,7 @@ Length
 ;
 nsAutoTArray
 <
-PRUint8
+uint8_t
 100
 >
 buf
@@ -46319,7 +46319,7 @@ bounds
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -47405,9 +47405,9 @@ nsWindow
 :
 OnMove
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -47994,7 +47994,7 @@ if
 gfxInfo
 )
 {
-PRInt32
+int32_t
 status
 ;
 if
@@ -48848,7 +48848,7 @@ nsWindow
 :
 GetToggledKeyState
 (
-PRUint32
+uint32_t
 aKeyCode
 bool
 *
@@ -48958,11 +48958,11 @@ nsWindow
 :
 OnIMETextChange
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aOldEnd
-PRUint32
+uint32_t
 aNewEnd
 )
 {
@@ -49938,9 +49938,9 @@ nsWindow
 :
 ResizeTranslucentWindow
 (
-PRInt32
+int32_t
 aNewWidth
-PRInt32
+int32_t
 aNewHeight
 bool
 force
@@ -52969,7 +52969,7 @@ the
 current
 submenu
 .
-PRUint32
+uint32_t
 popupsToRollup
 =
 PR_UINT32_MAX
@@ -52992,7 +52992,7 @@ nsIWidget
 >
 widgetChain
 ;
-PRUint32
+uint32_t
 sameTypeCount
 =
 sRollupListener
@@ -53006,7 +53006,7 @@ widgetChain
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

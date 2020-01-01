@@ -416,7 +416,7 @@ slice
 }
 ;
 static
-PRUint16
+uint16_t
 GetAlignForString
 (
 const
@@ -427,7 +427,7 @@ aAlignString
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -483,7 +483,7 @@ GetAlignString
 nsAString
 &
 aAlignString
-PRUint16
+uint16_t
 aAlign
 )
 {
@@ -528,7 +528,7 @@ SVG_PRESERVEASPECTRATIO_NONE
 ;
 }
 static
-PRUint16
+uint16_t
 GetMeetOrSliceForString
 (
 const
@@ -539,7 +539,7 @@ aMeetOrSlice
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -595,7 +595,7 @@ GetMeetOrSliceString
 nsAString
 &
 aMeetOrSliceString
-PRUint16
+uint16_t
 aMeetOrSlice
 )
 {
@@ -1276,7 +1276,7 @@ AnimationNeedsResample
 }
 }
 static
-PRUint64
+uint64_t
 PackPreserveAspectRatio
 (
 const
@@ -1317,7 +1317,7 @@ as
 for
 SMIL
 .
-PRUint64
+uint64_t
 packed
 =
 0
@@ -1325,7 +1325,7 @@ packed
 packed
 |
 =
-PRUint64
+uint64_t
 (
 par
 .
@@ -1344,7 +1344,7 @@ GetDefer
 packed
 |
 =
-PRUint64
+uint64_t
 (
 par
 .
@@ -1359,7 +1359,7 @@ GetAlign
 packed
 |
 =
-PRUint64
+uint64_t
 (
 par
 .
@@ -1378,7 +1378,7 @@ SVGAnimatedPreserveAspectRatio
 :
 SetAnimValue
 (
-PRUint64
+uint64_t
 aPackedValue
 nsSVGElement
 *
@@ -1426,7 +1426,7 @@ mAnimVal
 .
 SetAlign
 (
-PRUint16
+uint16_t
 (
 (
 aPackedValue
@@ -1443,7 +1443,7 @@ mAnimVal
 .
 SetMeetOrSlice
 (
-PRUint16
+uint16_t
 (
 aPackedValue
 &

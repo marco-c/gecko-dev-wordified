@@ -113,7 +113,7 @@ char
 *
 *
 aArgv
-PRUint32
+uint32_t
 aRestartType
 =
 0

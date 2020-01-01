@@ -453,7 +453,7 @@ otherwise
 *
 /
 inline
-PRInt32
+int32_t
 PseudoCompareType
 (
 nsIFrame
@@ -640,7 +640,7 @@ nsIContent
 *
 content2
 ;
-PRInt32
+int32_t
 pseudoType1
 =
 PseudoCompareType
@@ -650,7 +650,7 @@ frame1
 content1
 )
 ;
-PRInt32
+int32_t
 pseudoType2
 =
 PseudoCompareType
@@ -794,7 +794,7 @@ version
 of
 DoCompareTreePosition
 ?
-PRInt32
+int32_t
 cmp
 =
 nsLayoutUtils
@@ -908,7 +908,7 @@ index
 mSize
 .
 )
-PRUint32
+uint32_t
 first
 =
 0
@@ -942,7 +942,7 @@ Prev
 mFirstNode
 )
 ;
-PRUint32
+uint32_t
 curIndex
 =
 mSize
@@ -957,7 +957,7 @@ first
 last
 )
 {
-PRUint32
+uint32_t
 test
 =
 (

@@ -331,7 +331,7 @@ bool
 aIsFirstVisiblePreferred
 bool
 aFindPrev
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -501,7 +501,7 @@ using
 backspace
 or
 delete
-PRUint32
+uint32_t
 mLastFindLength
 ;
 /

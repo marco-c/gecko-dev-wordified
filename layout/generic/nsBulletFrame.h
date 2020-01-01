@@ -438,10 +438,10 @@ aRenderingContext
 /
 /
 nsBulletFrame
-PRInt32
+int32_t
 SetListItemOrdinal
 (
-PRInt32
+int32_t
 aNextOrdinal
 bool
 *
@@ -526,9 +526,9 @@ static
 bool
 AppendCounterText
 (
-PRInt32
+int32_t
 aListStyleType
-PRInt32
+int32_t
 aOrdinal
 nsString
 &
@@ -672,7 +672,7 @@ mListener
 nsSize
 mIntrinsicSize
 ;
-PRInt32
+int32_t
 mOrdinal
 ;
 bool

@@ -179,14 +179,14 @@ nsDOMCameraManager
 >
 Create
 (
-PRUint64
+uint64_t
 aWindowId
 )
 ;
 void
 OnNavigation
 (
-PRUint64
+uint64_t
 aWindowId
 )
 ;
@@ -198,7 +198,7 @@ nsDOMCameraManager
 ;
 nsDOMCameraManager
 (
-PRUint64
+uint64_t
 aWindowId
 )
 ;
@@ -228,7 +228,7 @@ nsDOMCameraManager
 ;
 protected
 :
-PRUint64
+uint64_t
 mWindowId
 ;
 nsCOMPtr
@@ -249,7 +249,7 @@ public
 :
 GetCameraTask
 (
-PRUint32
+uint32_t
 aCameraId
 nsICameraGetCameraCallback
 *
@@ -287,7 +287,7 @@ Run
 ;
 protected
 :
-PRUint32
+uint32_t
 mCameraId
 ;
 nsCOMPtr

@@ -467,9 +467,9 @@ LeafAccessible
 :
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -903,7 +903,7 @@ TakeFocus
 )
 ;
 }
-PRUint64
+uint64_t
 LinkableAccessible
 :
 :
@@ -996,7 +996,7 @@ aValue
 )
 ;
 }
-PRUint8
+uint8_t
 LinkableAccessible
 :
 :
@@ -1023,7 +1023,7 @@ LinkableAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -1107,7 +1107,7 @@ LinkableAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -1375,7 +1375,7 @@ LinkableAccessible
 :
 AnchorURIAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 {
@@ -1520,7 +1520,7 @@ BindToParent
 Accessible
 *
 aParent
-PRUint32
+uint32_t
 aIndexInParent
 )
 {

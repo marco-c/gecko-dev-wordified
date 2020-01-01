@@ -1063,7 +1063,7 @@ WebSocketChannelChild
 *
 aChild
 const
-PRUint32
+uint32_t
 &
 aSize
 )
@@ -1098,7 +1098,7 @@ WebSocketChannelChild
 *
 mChild
 ;
-PRUint32
+uint32_t
 mSize
 ;
 }
@@ -1110,7 +1110,7 @@ WebSocketChannelChild
 RecvOnAcknowledge
 (
 const
-PRUint32
+uint32_t
 &
 aSize
 )
@@ -1156,7 +1156,7 @@ WebSocketChannelChild
 OnAcknowledge
 (
 const
-PRUint32
+uint32_t
 &
 aSize
 )
@@ -1217,7 +1217,7 @@ WebSocketChannelChild
 *
 aChild
 const
-PRUint16
+uint16_t
 aCode
 const
 nsCString
@@ -1260,7 +1260,7 @@ WebSocketChannelChild
 *
 mChild
 ;
-PRUint16
+uint16_t
 mCode
 ;
 nsCString
@@ -1275,7 +1275,7 @@ WebSocketChannelChild
 RecvOnServerClose
 (
 const
-PRUint16
+uint16_t
 &
 aCode
 const
@@ -1327,7 +1327,7 @@ WebSocketChannelChild
 OnServerClose
 (
 const
-PRUint16
+uint16_t
 &
 aCode
 const
@@ -1572,7 +1572,7 @@ WebSocketChannelChild
 :
 Close
 (
-PRUint16
+uint16_t
 code
 const
 nsACString
@@ -1737,7 +1737,7 @@ SendBinaryStream
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aLength
 )
 {

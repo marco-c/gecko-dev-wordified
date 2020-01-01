@@ -525,7 +525,7 @@ const
 nsAString
 &
 aText
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -632,7 +632,7 @@ do_GetService
 SMS_REQUEST_MANAGER_CONTRACTID
 )
 ;
-PRInt32
+int32_t
 requestId
 ;
 nsresult
@@ -1064,7 +1064,7 @@ SmsManager
 :
 GetMessageMoz
 (
-PRInt32
+int32_t
 aId
 nsIDOMMozSmsRequest
 *
@@ -1083,7 +1083,7 @@ do_GetService
 SMS_REQUEST_MANAGER_CONTRACTID
 )
 ;
-PRInt32
+int32_t
 requestId
 ;
 nsresult
@@ -1161,7 +1161,7 @@ SmsManager
 :
 Delete
 (
-PRInt32
+int32_t
 aId
 nsIDOMMozSmsRequest
 *
@@ -1180,7 +1180,7 @@ do_GetService
 SMS_REQUEST_MANAGER_CONTRACTID
 )
 ;
-PRInt32
+int32_t
 requestId
 ;
 nsresult
@@ -1360,7 +1360,7 @@ message
 NS_ERROR_INVALID_ARG
 )
 ;
-PRInt32
+int32_t
 id
 ;
 message
@@ -1430,7 +1430,7 @@ do_GetService
 SMS_REQUEST_MANAGER_CONTRACTID
 )
 ;
-PRInt32
+int32_t
 requestId
 ;
 nsresult
@@ -1509,7 +1509,7 @@ SmsManager
 :
 MarkMessageRead
 (
-PRInt32
+int32_t
 aId
 bool
 aValue
@@ -1530,7 +1530,7 @@ do_GetService
 SMS_REQUEST_MANAGER_CONTRACTID
 )
 ;
-PRInt32
+int32_t
 requestId
 ;
 nsresult

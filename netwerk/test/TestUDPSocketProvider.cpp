@@ -686,12 +686,12 @@ transport
 "
 )
 ;
-PRUint32
+uint32_t
 count
 read
 ;
 const
-PRUint32
+uint32_t
 data
 =
 0xFF0056A9
@@ -754,7 +754,7 @@ char
 data
 sizeof
 (
-PRUint32
+uint32_t
 )
 &
 count
@@ -778,7 +778,7 @@ count
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 "
 Did
@@ -813,7 +813,7 @@ serverFD
 read
 sizeof
 (
-PRUint32
+uint32_t
 )
 0
 &
@@ -828,7 +828,7 @@ count
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 "
 Did
@@ -881,7 +881,7 @@ serverFD
 data
 sizeof
 (
-PRUint32
+uint32_t
 )
 0
 &
@@ -897,7 +897,7 @@ count
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 ?
 PR_SUCCESS
@@ -973,7 +973,7 @@ char
 read
 sizeof
 (
-PRUint32
+uint32_t
 )
 &
 count
@@ -997,7 +997,7 @@ count
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 "
 Did

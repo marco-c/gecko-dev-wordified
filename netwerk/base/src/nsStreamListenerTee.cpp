@@ -313,9 +313,9 @@ context
 nsIInputStream
 *
 input
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {

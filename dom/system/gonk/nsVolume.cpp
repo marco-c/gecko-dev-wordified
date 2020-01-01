@@ -102,7 +102,7 @@ char
 *
 NS_VolumeStateStr
 (
-PRInt32
+int32_t
 aState
 )
 {
@@ -327,7 +327,7 @@ nsVolume
 :
 GetState
 (
-PRInt32
+int32_t
 *
 aState
 )

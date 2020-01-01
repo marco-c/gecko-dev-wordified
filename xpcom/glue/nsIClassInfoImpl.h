@@ -684,7 +684,7 @@ NS_CALLBACK
 GetInterfacesProc
 )
 (
-PRUint32
+uint32_t
 *
 countp
 nsIID
@@ -700,7 +700,7 @@ NS_CALLBACK
 GetLanguageHelperProc
 )
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -714,7 +714,7 @@ getinterfaces
 GetLanguageHelperProc
 getlanguagehelper
 ;
-PRUint32
+uint32_t
 flags
 ;
 nsCID
@@ -785,7 +785,7 @@ _class
 )
 \
 (
-PRUint32
+uint32_t
 *
 nsIID
 *
@@ -953,7 +953,7 @@ NS_CI_INTERFACE_GETTER_NAME
 _class
 )
 (
-PRUint32
+uint32_t
 *
 count
 nsIID

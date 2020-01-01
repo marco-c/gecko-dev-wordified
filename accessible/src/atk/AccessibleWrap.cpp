@@ -632,12 +632,12 @@ LAST_SIGNAL
 #
 ifdef
 MAI_LOGGING
-PRInt32
+int32_t
 sMaiAtkObjCreated
 =
 0
 ;
-PRInt32
+int32_t
 sMaiAtkObjDeleted
 =
 0
@@ -980,7 +980,7 @@ static
 GType
 GetMaiAtkType
 (
-PRUint16
+uint16_t
 interfacesBits
 )
 ;
@@ -990,7 +990,7 @@ char
 *
 GetUniqueMaiAtkTypeName
 (
-PRUint16
+uint16_t
 interfacesBits
 )
 ;
@@ -1120,7 +1120,7 @@ type
 #
 ifdef
 MAI_LOGGING
-PRInt32
+int32_t
 AccessibleWrap
 :
 :
@@ -1128,7 +1128,7 @@ mAccWrapCreated
 =
 0
 ;
-PRInt32
+int32_t
 AccessibleWrap
 :
 :
@@ -1769,7 +1769,7 @@ nullptr
 private
 *
 /
-PRUint16
+uint16_t
 AccessibleWrap
 :
 :
@@ -1778,7 +1778,7 @@ CreateMaiInterfaces
 void
 )
 {
-PRUint16
+uint16_t
 interfacesBits
 =
 0
@@ -2071,7 +2071,7 @@ static
 GType
 GetMaiAtkType
 (
-PRUint16
+uint16_t
 interfacesBits
 )
 {
@@ -2232,7 +2232,7 @@ to
 *
 /
 static
-PRUint16
+uint16_t
 typeRegCount
 =
 0
@@ -2267,7 +2267,7 @@ GTypeFlags
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2325,7 +2325,7 @@ char
 *
 GetUniqueMaiAtkTypeName
 (
-PRUint16
+uint16_t
 interfacesBits
 )
 {
@@ -2341,7 +2341,7 @@ MAI_ATK_TYPE_NAME_LEN
 +
 sizeof
 (
-PRUint16
+uint16_t
 )
 *
 8
@@ -4120,7 +4120,7 @@ static
 void
 TranslateStates
 (
-PRUint64
+uint64_t
 aState
 AtkStateSet
 *
@@ -4137,12 +4137,12 @@ an
 entry
 in
 AtkStateMap
-PRUint32
+uint32_t
 stateIndex
 =
 0
 ;
-PRUint64
+uint64_t
 bitMask
 =
 1
@@ -4358,7 +4358,7 @@ accWrap
 return
 relation_set
 ;
-PRUint32
+uint32_t
 relationTypes
 [
 ]
@@ -4408,7 +4408,7 @@ RELATION_DESCRIPTION_FOR
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4731,7 +4731,7 @@ accessible
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 type
 =
 aEvent
@@ -5310,7 +5310,7 @@ caretMoveEvent
 )
 break
 ;
-PRInt32
+int32_t
 caretOffset
 =
 caretMoveEvent
@@ -5460,7 +5460,7 @@ tableEvent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 rowIndex
 =
 tableEvent
@@ -5470,7 +5470,7 @@ GetIndex
 (
 )
 ;
-PRInt32
+int32_t
 numRows
 =
 tableEvent
@@ -5546,7 +5546,7 @@ tableEvent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 rowIndex
 =
 tableEvent
@@ -5556,7 +5556,7 @@ GetIndex
 (
 )
 ;
-PRInt32
+int32_t
 numRows
 =
 tableEvent
@@ -5666,7 +5666,7 @@ tableEvent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 colIndex
 =
 tableEvent
@@ -5676,7 +5676,7 @@ GetIndex
 (
 )
 ;
-PRInt32
+int32_t
 numCols
 =
 tableEvent
@@ -5752,7 +5752,7 @@ tableEvent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 colIndex
 =
 tableEvent
@@ -5762,7 +5762,7 @@ GetIndex
 (
 )
 ;
-PRInt32
+int32_t
 numCols
 =
 tableEvent
@@ -6492,7 +6492,7 @@ IsStateEnabled
 (
 )
 ;
-PRInt32
+int32_t
 stateIndex
 =
 AtkStateMap
@@ -6666,7 +6666,7 @@ event
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 start
 =
 event
@@ -6676,7 +6676,7 @@ GetStartOffset
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 event
@@ -6943,7 +6943,7 @@ n
 )
 ;
 }
-PRInt32
+int32_t
 indexInParent
 =
 getIndexInParentCB

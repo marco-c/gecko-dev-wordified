@@ -231,7 +231,7 @@ nsTableColGroupType
 aType
 )
 {
-PRUint32
+uint32_t
 type
 =
 aType
@@ -258,7 +258,7 @@ ResetColIndices
 nsIFrame
 *
 aFirstColGroup
-PRInt32
+int32_t
 aFirstColIndex
 nsIFrame
 *
@@ -275,7 +275,7 @@ nsTableColGroupFrame
 )
 aFirstColGroup
 ;
-PRInt32
+int32_t
 colIndex
 =
 aFirstColIndex
@@ -481,7 +481,7 @@ nsTableColGroupFrame
 :
 AddColsToTable
 (
-PRInt32
+int32_t
 aFirstColIndex
 bool
 aResetSubsequentColIndices
@@ -524,7 +524,7 @@ info
 to
 the
 table
-PRInt32
+int32_t
 colIndex
 =
 aFirstColIndex
@@ -1081,7 +1081,7 @@ GetStyleContext
 )
 )
 {
-PRInt32
+int32_t
 colCount
 =
 GetColCount
@@ -1603,7 +1603,7 @@ nsGkAtoms
 tableColFrame
 )
 ;
-PRInt32
+int32_t
 colIndex
 =
 (
@@ -1645,7 +1645,7 @@ nsTableColGroupFrame
 :
 InsertColsReflow
 (
-PRInt32
+int32_t
 aColIndex
 const
 nsFrameList
@@ -1697,7 +1697,7 @@ bool
 aResetSubsequentColIndices
 )
 {
-PRInt32
+int32_t
 colIndex
 =
 0
@@ -2098,7 +2098,7 @@ nextCol
 ;
 }
 }
-PRInt32
+int32_t
 colIndex
 =
 colFrame
@@ -2620,7 +2620,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 nsTableColGroupFrame
 :
 :
@@ -2643,7 +2643,7 @@ nsTableColGroupFrame
 :
 SetContinuousBCBorderWidth
 (
-PRUint8
+uint8_t
 aForSide
 BCPixelSize
 aPixelValue
@@ -2696,7 +2696,7 @@ nsMargin
 aBorder
 )
 {
-PRInt32
+int32_t
 aPixelsToTwips
 =
 nsPresContext
@@ -2857,7 +2857,7 @@ nsTableColGroupFrame
 :
 Dump
 (
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -2882,7 +2882,7 @@ return
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3016,7 +3016,7 @@ break
 verify
 the
 colindices
-PRInt32
+int32_t
 j
 =
 GetStartColumnIndex

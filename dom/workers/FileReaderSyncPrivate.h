@@ -210,7 +210,7 @@ ReadAsArrayBuffer
 nsIDOMBlob
 *
 aBlob
-PRUint32
+uint32_t
 aLength
 uint8
 *

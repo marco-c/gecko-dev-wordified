@@ -94,7 +94,7 @@ nsFontFace
 gfxFontEntry
 *
 aFontEntry
-PRUint8
+uint8_t
 aMatchInfo
 nsCSSFontFaceRule
 *
@@ -125,7 +125,7 @@ get
 void
 AddMatchType
 (
-PRUint8
+uint8_t
 aMatchType
 )
 {
@@ -149,7 +149,7 @@ nsCSSFontFaceRule
 >
 mRule
 ;
-PRUint8
+uint8_t
 mMatchType
 ;
 }

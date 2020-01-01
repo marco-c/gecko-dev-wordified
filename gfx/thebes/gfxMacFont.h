@@ -193,7 +193,7 @@ mMetrics
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetSpaceGlyph
 (
 )
@@ -229,9 +229,9 @@ Measure
 gfxTextRun
 *
 aTextRun
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
@@ -272,7 +272,7 @@ hb_blob_t
 *
 GetFontTable
 (
-PRUint32
+uint32_t
 aTag
 )
 ;
@@ -419,7 +419,7 @@ CFDataRef
 aCmap
 PRUnichar
 aUniChar
-PRUint32
+uint32_t
 *
 aGlyphID
 gfxFloat
@@ -471,7 +471,7 @@ mFontFace
 Metrics
 mMetrics
 ;
-PRUint32
+uint32_t
 mSpaceGlyph
 ;
 mozilla

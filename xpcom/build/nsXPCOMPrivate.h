@@ -385,8 +385,8 @@ nsStringContainer
 const
 PRUnichar
 *
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 )
 ;
 typedef
@@ -401,7 +401,7 @@ nsStringContainer
 )
 ;
 typedef
-PRUint32
+uint32_t
 (
 *
 StringGetDataFunc
@@ -419,7 +419,7 @@ bool
 )
 ;
 typedef
-PRUint32
+uint32_t
 (
 *
 StringGetMutableDataFunc
@@ -427,7 +427,7 @@ StringGetMutableDataFunc
 (
 nsAString
 &
-PRUint32
+uint32_t
 PRUnichar
 *
 *
@@ -458,7 +458,7 @@ nsAString
 const
 PRUnichar
 *
-PRUint32
+uint32_t
 )
 ;
 typedef
@@ -470,12 +470,12 @@ StringSetDataRangeFunc
 (
 nsAString
 &
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 const
 PRUnichar
 *
-PRUint32
+uint32_t
 )
 ;
 typedef
@@ -540,8 +540,8 @@ nsCStringContainer
 const
 char
 *
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 )
 ;
 typedef
@@ -556,7 +556,7 @@ nsCStringContainer
 )
 ;
 typedef
-PRUint32
+uint32_t
 (
 *
 CStringGetDataFunc
@@ -574,7 +574,7 @@ bool
 )
 ;
 typedef
-PRUint32
+uint32_t
 (
 *
 CStringGetMutableDataFunc
@@ -582,7 +582,7 @@ CStringGetMutableDataFunc
 (
 nsACString
 &
-PRUint32
+uint32_t
 char
 *
 *
@@ -613,7 +613,7 @@ nsACString
 const
 char
 *
-PRUint32
+uint32_t
 )
 ;
 typedef
@@ -625,12 +625,12 @@ CStringSetDataRangeFunc
 (
 nsACString
 &
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 const
 char
 *
-PRUint32
+uint32_t
 )
 ;
 typedef
@@ -748,7 +748,7 @@ void
 DebugBreakFunc
 )
 (
-PRUint32
+uint32_t
 aSeverity
 const
 char
@@ -762,7 +762,7 @@ const
 char
 *
 aFile
-PRInt32
+int32_t
 aLine
 )
 ;
@@ -788,7 +788,7 @@ nsrefcnt
 const
 char
 *
-PRUint32
+uint32_t
 )
 ;
 typedef
@@ -818,7 +818,7 @@ void
 const
 char
 *
-PRUint32
+uint32_t
 )
 ;
 typedef
@@ -869,8 +869,8 @@ InvokeByIndexFunc
 (
 nsISupports
 *
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 nsXPTCVariant
 *
 )
@@ -932,7 +932,7 @@ RegisterXPCOMExitRoutineFunc
 (
 XPCOMExitRoutine
 exitRoutine
-PRUint32
+uint32_t
 priority
 )
 ;
@@ -951,10 +951,10 @@ typedef
 struct
 XPCOMFunctions
 {
-PRUint32
+uint32_t
 version
 ;
-PRUint32
+uint32_t
 size
 ;
 InitFunc

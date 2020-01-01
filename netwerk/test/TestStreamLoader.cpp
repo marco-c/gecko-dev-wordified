@@ -113,10 +113,10 @@ nsISupports
 ctxt
 nsresult
 status
-PRUint32
+uint32_t
 resultLen
 const
-PRUint8
+uint8_t
 *
 result
 )

@@ -236,7 +236,7 @@ anArray
 PRUnichar
 *
 aReturn
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -264,7 +264,7 @@ anArray
 PRUnichar
 *
 aReturn
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -293,9 +293,9 @@ const
 PRUnichar
 *
 aRight
-PRUint32
+uint32_t
 aCount
-PRInt32
+int32_t
 *
 aResult
 )

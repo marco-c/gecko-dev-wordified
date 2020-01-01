@@ -984,13 +984,13 @@ _p1
 ifdef
 EXTENDED_DEBUG_PRINTING
 static
-PRUint32
+uint32_t
 gDumpFileNameCnt
 =
 0
 ;
 static
-PRUint32
+uint32_t
 gDumpLOFileNameCnt
 =
 0
@@ -2559,7 +2559,7 @@ nsIFrame
 *
 &
 aSeqFrame
-PRInt32
+int32_t
 &
 aCount
 )
@@ -2746,7 +2746,7 @@ nsIFrame
 *
 &
 aSeqFrame
-PRInt32
+int32_t
 &
 aCount
 )
@@ -3202,7 +3202,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -4941,7 +4941,7 @@ for
 PrintSettings
 and
 PrintSettings
-PRInt16
+int16_t
 printFrameTypeUsage
 =
 nsIPrintSettings
@@ -5002,7 +5002,7 @@ see
 what
 is
 preferred
-PRInt16
+int16_t
 printFrameType
 =
 nsIPrintSettings
@@ -5104,7 +5104,7 @@ us
 for
 Printing
 FrameSets
-PRInt16
+int16_t
 howToEnableFrameUI
 ;
 mPrt
@@ -5596,7 +5596,7 @@ NS_ENSURE_STATE
 docShell
 )
 ;
-PRUint32
+uint32_t
 busyFlags
 =
 nsIDocShell
@@ -6387,7 +6387,7 @@ nsPrintEngine
 :
 GetPrintPreviewNumPages
 (
-PRInt32
+int32_t
 *
 aPrintPreviewNumPages
 )
@@ -6536,7 +6536,7 @@ nsPrintEngine
 :
 EnumerateDocumentNames
 (
-PRUint32
+uint32_t
 *
 aCount
 PRUnichar
@@ -6566,7 +6566,7 @@ aResult
 =
 nullptr
 ;
-PRInt32
+int32_t
 numDocs
 =
 mPrt
@@ -6612,7 +6612,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -8490,7 +8490,7 @@ if
 selection
 )
 {
-PRInt32
+int32_t
 count
 ;
 selection
@@ -9073,7 +9073,7 @@ null
 "
 )
 ;
-PRInt32
+int32_t
 childWebshellCount
 ;
 aParentNode
@@ -9094,7 +9094,7 @@ childWebshellCount
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9915,7 +9915,7 @@ this
 PO
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10209,7 +10209,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10622,7 +10622,7 @@ po
 =
 nullptr
 ;
-PRInt32
+int32_t
 cnt
 =
 aPO
@@ -10636,7 +10636,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -11253,7 +11253,7 @@ aPrint
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -13351,7 +13351,7 @@ mShrinkRatio
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14177,12 +14177,12 @@ docURLStr
 eDocTitleDefURLDoc
 )
 ;
-PRInt32
+int32_t
 startPage
 =
 1
 ;
-PRInt32
+int32_t
 endPage
 =
 mPrt
@@ -14190,7 +14190,7 @@ mPrt
 >
 mNumPrintablePages
 ;
-PRInt16
+int16_t
 printRangeType
 =
 nsIPrintSettings
@@ -14941,7 +14941,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 cnt
 =
 aPO
@@ -14955,7 +14955,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -16140,7 +16140,7 @@ selection
 selectionPS
 )
 {
-PRInt32
+int32_t
 cnt
 ;
 selection
@@ -16152,7 +16152,7 @@ GetRangeCount
 cnt
 )
 ;
-PRInt32
+int32_t
 inx
 ;
 for
@@ -16885,7 +16885,7 @@ nsPrintEngine
 :
 CalcNumPrintablePages
 (
-PRInt32
+int32_t
 &
 aNumPages
 )
@@ -16909,7 +16909,7 @@ printable
 pages
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17505,7 +17505,7 @@ mHasBeenPrinted
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17641,7 +17641,7 @@ nullptr
 ;
 nsTArray
 <
-PRInt32
+int32_t
 >
 indexArray
 ;
@@ -17682,7 +17682,7 @@ parent
 break
 ;
 }
-PRInt32
+int32_t
 index
 =
 parent
@@ -17735,7 +17735,7 @@ aDoc
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 indexArray
@@ -17840,7 +17840,7 @@ nsIDOMNode
 startContainer
 endContainer
 ;
-PRInt32
+int32_t
 startOffset
 =
 -
@@ -18070,7 +18070,7 @@ origSelection
 selection
 )
 ;
-PRInt32
+int32_t
 rangeCount
 =
 0
@@ -18086,7 +18086,7 @@ rangeCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -18390,7 +18390,7 @@ mPrintProgressParams
 ;
 }
 {
-PRInt16
+int16_t
 printRangeType
 =
 nsIPrintSettings
@@ -18795,10 +18795,10 @@ nsIFrame
 *
 endFrame
 ;
-PRInt32
+int32_t
 startPageNum
 ;
-PRInt32
+int32_t
 endPageNum
 ;
 nsRect
@@ -19234,7 +19234,7 @@ totalMargin
 .
 bottom
 ;
-PRInt32
+int32_t
 totalPages
 =
 NSToIntCeil
@@ -19506,7 +19506,7 @@ return
 ;
 }
 const
-PRUint32
+uint32_t
 kTitleLength
 =
 64
@@ -19690,7 +19690,7 @@ PRUnichar
 &
 aStr
 const
-PRUint32
+uint32_t
 aLen
 bool
 aDoFront
@@ -20105,7 +20105,7 @@ isCancelled
 return
 true
 ;
-PRInt32
+int32_t
 pageNum
 numPages
 endPage
@@ -20148,10 +20148,10 @@ if
 isDoingPrintRange
 )
 {
-PRInt32
+int32_t
 fromPage
 ;
-PRInt32
+int32_t
 toPage
 ;
 mPageSeqFrame
@@ -21089,7 +21089,7 @@ nsIFrame
 *
 *
 aStartFrame
-PRInt32
+int32_t
 &
 aStartPageNum
 nsRect
@@ -21099,7 +21099,7 @@ nsIFrame
 *
 *
 aEndFrame
-PRInt32
+int32_t
 &
 aEndPageNum
 nsRect
@@ -21532,7 +21532,7 @@ and
 their
 pointers
 {
-PRInt32
+int32_t
 pageNum
 =
 1
@@ -21611,7 +21611,7 @@ are
 for
 each
 frame
-PRInt32
+int32_t
 pageNum
 =
 1
@@ -22391,14 +22391,14 @@ PRUnichar
 *
 &
 aArray
-PRInt32
+int32_t
 &
 aCount
 )
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 aCount
@@ -23385,7 +23385,7 @@ aAsIs
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -23602,7 +23602,7 @@ return
 aPO
 ;
 }
-PRInt32
+int32_t
 cnt
 =
 aPO
@@ -23616,7 +23616,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -23798,7 +23798,7 @@ mPrt
 mPrintFrameType
 )
 ;
-PRInt16
+int16_t
 printHowEnable
 =
 nsIPrintSettings
@@ -23818,7 +23818,7 @@ GetHowToEnableFrameUI
 printHowEnable
 )
 ;
-PRInt16
+int16_t
 printRangeType
 =
 nsIPrintSettings
@@ -24164,7 +24164,7 @@ Length
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -24634,7 +24634,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25349,7 +25349,7 @@ mPrintObject
 true
 )
 ;
-PRInt32
+int32_t
 cnt
 =
 mPrt
@@ -25363,7 +25363,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -25537,7 +25537,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25844,7 +25844,7 @@ document
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -27078,7 +27078,7 @@ time
 to
 press
 cancel
-PRInt32
+int32_t
 printPageDelay
 =
 50
@@ -28270,7 +28270,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -28412,7 +28412,7 @@ aRendContext
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aLevel
 )
 {
@@ -28481,7 +28481,7 @@ nullptr
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -28865,7 +28865,7 @@ of
 the
 sub
 documents
-PRInt32
+int32_t
 i
 n
 ;
@@ -29797,7 +29797,7 @@ n
 )
 )
 ;
-PRInt32
+int32_t
 cnt
 =
 aDocList
@@ -29809,7 +29809,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -30250,7 +30250,7 @@ n
 )
 ;
 }
-PRInt32
+int32_t
 cnt
 =
 aPO
@@ -30264,7 +30264,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -30308,7 +30308,7 @@ null
 ;
 for
 (
-PRInt32
+int32_t
 k
 =
 0
@@ -30935,7 +30935,7 @@ GetRootFrame
 }
 for
 (
-PRInt32
+int32_t
 k
 =
 0
@@ -31165,7 +31165,7 @@ n
 "
 )
 ;
-PRInt32
+int32_t
 cnt
 =
 aPO
@@ -31179,7 +31179,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

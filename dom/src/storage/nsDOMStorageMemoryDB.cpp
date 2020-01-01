@@ -725,11 +725,11 @@ nsAString
 aValue
 bool
 aSecure
-PRInt32
+int32_t
 aQuota
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 *
 aNewUsage
 )
@@ -756,7 +756,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 usage
 =
 0
@@ -1068,7 +1068,7 @@ nsAString
 aKey
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 aKeyUsage
 )
 {
@@ -1496,7 +1496,7 @@ RemoveAll
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1621,7 +1621,7 @@ DOMStorageImpl
 aStorage
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 *
 aUsage
 )
@@ -1654,7 +1654,7 @@ nsACString
 aDomain
 bool
 aIncludeSubDomains
-PRInt32
+int32_t
 *
 aUsage
 )
@@ -1696,10 +1696,10 @@ aUsage
 struct
 GetUsageEnumStruc
 {
-PRInt32
+int32_t
 mUsage
 ;
-PRInt32
+int32_t
 mExcludeOfflineFromUsage
 ;
 nsCString
@@ -1816,7 +1816,7 @@ nsACString
 aQuotaDomainDBKey
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 *
 aUsage
 )

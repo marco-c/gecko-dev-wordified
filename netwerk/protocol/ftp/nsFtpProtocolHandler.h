@@ -321,7 +321,7 @@ nsFtpControlConnection
 aConn
 )
 ;
-PRUint32
+uint32_t
 GetSessionId
 (
 )
@@ -330,7 +330,7 @@ return
 mSessionId
 ;
 }
-PRUint8
+uint8_t
 GetDataQoSBits
 (
 )
@@ -339,7 +339,7 @@ return
 mDataQoSBits
 ;
 }
-PRUint8
+uint8_t
 GetControlQoSBits
 (
 )
@@ -469,7 +469,7 @@ nsICacheSession
 >
 mCacheSession
 ;
-PRInt32
+int32_t
 mIdleTimeout
 ;
 /
@@ -536,13 +536,13 @@ was
 /
 performed
 .
-PRUint32
+uint32_t
 mSessionId
 ;
-PRUint8
+uint8_t
 mControlQoSBits
 ;
-PRUint8
+uint8_t
 mDataQoSBits
 ;
 }

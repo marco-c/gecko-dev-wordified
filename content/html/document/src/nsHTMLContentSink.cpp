@@ -1057,14 +1057,14 @@ void
 NS_IMETHOD
 BeginContext
 (
-PRInt32
+int32_t
 aID
 )
 ;
 NS_IMETHOD
 EndContext
 (
-PRInt32
+int32_t
 aID
 )
 ;
@@ -1076,7 +1076,7 @@ OpenHead
 NS_IMETHOD
 IsEnabled
 (
-PRInt32
+int32_t
 aTag
 bool
 *
@@ -1161,7 +1161,7 @@ DEBUG
 void
 SinkTraceNode
 (
-PRUint32
+uint32_t
 aBit
 const
 char
@@ -1170,7 +1170,7 @@ aMsg
 const
 nsHTMLTag
 aTag
-PRInt32
+int32_t
 aStackPos
 void
 *
@@ -1194,7 +1194,7 @@ of
 a
 text
 run
-PRInt32
+int32_t
 mMaxTextRun
 ;
 nsRefPtr
@@ -1290,17 +1290,17 @@ once
 bool
 mNotifiedRootInsertion
 ;
-PRUint8
+uint8_t
 mScriptEnabled
 :
 1
 ;
-PRUint8
+uint8_t
 mFramesEnabled
 :
 1
 ;
-PRUint8
+uint8_t
 unused
 :
 6
@@ -1383,7 +1383,7 @@ aContent
 nsIContent
 *
 aChildContent
-PRInt32
+int32_t
 aIndexInContainer
 )
 ;
@@ -1436,9 +1436,9 @@ aNodeType
 nsGenericHTMLElement
 *
 aRoot
-PRUint32
+uint32_t
 aNumFlushed
-PRInt32
+int32_t
 aInsertionPoint
 )
 ;
@@ -1605,7 +1605,7 @@ HTMLContentSink
 *
 mSink
 ;
-PRInt32
+int32_t
 mNotifyLevel
 ;
 nsCOMPtr
@@ -1614,7 +1614,7 @@ nsIContent
 >
 mLastTextNode
 ;
-PRInt32
+int32_t
 mLastTextNodeSize
 ;
 struct
@@ -1627,10 +1627,10 @@ nsGenericHTMLElement
 *
 mContent
 ;
-PRUint32
+uint32_t
 mNumFlushed
 ;
-PRInt32
+int32_t
 mInsertionPoint
 ;
 nsIContent
@@ -1648,20 +1648,20 @@ Node
 *
 mStack
 ;
-PRInt32
+int32_t
 mStackSize
 ;
-PRInt32
+int32_t
 mStackPos
 ;
 PRUnichar
 *
 mText
 ;
-PRInt32
+int32_t
 mTextLength
 ;
-PRInt32
+int32_t
 mTextSize
 ;
 private
@@ -1752,7 +1752,7 @@ HTMLContentSink
 :
 SinkTraceNode
 (
-PRUint32
+uint32_t
 aBit
 const
 char
@@ -1761,7 +1761,7 @@ aMsg
 const
 nsHTMLTag
 aTag
-PRInt32
+int32_t
 aStackPos
 void
 *
@@ -1870,7 +1870,7 @@ to
 the
 content
 attributes
-PRInt32
+int32_t
 ac
 =
 aNode
@@ -2154,7 +2154,7 @@ at
 that
 point
 .
-PRInt32
+int32_t
 i
 limit
 step
@@ -2814,7 +2814,7 @@ nsGenericHTMLElement
 >
 CreateHTMLElement
 (
-PRUint32
+uint32_t
 aNodeType
 already_AddRefed
 <
@@ -3042,7 +3042,7 @@ mStack
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3090,9 +3090,9 @@ aNodeType
 nsGenericHTMLElement
 *
 aRoot
-PRUint32
+uint32_t
 aNumFlushed
-PRInt32
+int32_t
 aInsertionPoint
 )
 {
@@ -3454,7 +3454,7 @@ mStackPos
 }
 #
 endif
-PRInt32
+int32_t
 childIndex
 =
 mStack
@@ -4838,7 +4838,7 @@ eToken_entity
 nsAutoString
 tmp
 ;
-PRInt32
+int32_t
 unicode
 =
 aNode
@@ -5025,7 +5025,7 @@ End
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5070,7 +5070,7 @@ GrowStack
 (
 )
 {
-PRInt32
+int32_t
 newSize
 =
 mStackSize
@@ -5223,7 +5223,7 @@ nsAString
 aText
 )
 {
-PRInt32
+int32_t
 addLen
 =
 aText
@@ -5300,7 +5300,7 @@ when
 it
 fills
 up
-PRInt32
+int32_t
 offset
 =
 0
@@ -5313,7 +5313,7 @@ addLen
 0
 )
 {
-PRInt32
+int32_t
 amount
 =
 mTextSize
@@ -5552,7 +5552,7 @@ mSink
 >
 mBeganUpdate
 ;
-PRUint32
+uint32_t
 oldUpdates
 =
 mSink
@@ -5708,7 +5708,7 @@ HTMLContentSink
 BeginContext
 )
 .
-PRInt32
+int32_t
 stackPos
 =
 0
@@ -5718,7 +5718,7 @@ flushed
 =
 false
 ;
-PRUint32
+uint32_t
 childCount
 ;
 nsGenericHTMLElement
@@ -5885,7 +5885,7 @@ its
 parent
 node
 .
-PRInt32
+int32_t
 childIndex
 =
 mStack
@@ -6156,7 +6156,7 @@ of
 html
 >
 .
-PRInt32
+int32_t
 stackPos
 =
 mStackPos
@@ -6692,7 +6692,7 @@ Cancel
 )
 ;
 }
-PRInt32
+int32_t
 numContexts
 =
 mContextStack
@@ -6739,7 +6739,7 @@ numContexts
 )
 ;
 }
-PRInt32
+int32_t
 i
 ;
 for
@@ -6823,7 +6823,7 @@ i
 =
 0
 ;
-PRUint32
+uint32_t
 (
 i
 )
@@ -6875,7 +6875,7 @@ mHead
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6931,7 +6931,7 @@ mHead
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8039,7 +8039,7 @@ HTMLContentSink
 :
 BeginContext
 (
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -8138,7 +8138,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 insertionPoint
 =
 -
@@ -8286,7 +8286,7 @@ HTMLContentSink
 :
 EndContext
 (
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -8305,7 +8305,7 @@ context
 "
 )
 ;
-PRUint32
+uint32_t
 n
 =
 mContextStack
@@ -8490,7 +8490,7 @@ mNumFlushed
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -8640,7 +8640,7 @@ mCurrentContext
 mHeadContext
 )
 {
-PRUint32
+uint32_t
 numContexts
 =
 mContextStack
@@ -8861,7 +8861,7 @@ mStackPos
 1
 )
 {
-PRInt32
+int32_t
 parentIndex
 =
 mCurrentContext
@@ -8885,7 +8885,7 @@ parentIndex
 .
 mContent
 ;
-PRInt32
+int32_t
 numFlushed
 =
 mCurrentContext
@@ -8898,7 +8898,7 @@ parentIndex
 .
 mNumFlushed
 ;
-PRInt32
+int32_t
 childCount
 =
 parent
@@ -8923,7 +8923,7 @@ body
 "
 )
 ;
-PRInt32
+int32_t
 insertionPoint
 =
 mCurrentContext
@@ -8974,7 +8974,7 @@ those
 cases
 too
 .
-PRUint32
+uint32_t
 oldUpdates
 =
 mUpdatesInNotification
@@ -9156,7 +9156,7 @@ HTMLContentSink
 :
 IsEnabled
 (
-PRInt32
+int32_t
 aTag
 bool
 *
@@ -9937,7 +9937,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 n
 =
 mContextStack
@@ -9999,7 +9999,7 @@ aContent
 nsIContent
 *
 aChildContent
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -10249,7 +10249,7 @@ mNotifiedRootInsertion
 =
 true
 ;
-PRInt32
+int32_t
 index
 =
 mDocument
@@ -10368,7 +10368,7 @@ UpdateChildCounts
 (
 )
 {
-PRUint32
+uint32_t
 numContexts
 =
 mContextStack
@@ -10379,7 +10379,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

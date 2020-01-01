@@ -354,7 +354,7 @@ nsClientRectList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -378,7 +378,7 @@ nsClientRectList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMClientRect
 *
@@ -411,7 +411,7 @@ nsClientRectList
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

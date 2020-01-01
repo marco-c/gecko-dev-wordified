@@ -233,7 +233,7 @@ NewObjectInputStreamFromBuffer
 char
 *
 buffer
-PRUint32
+uint32_t
 len
 nsIObjectInputStream
 *
@@ -288,7 +288,7 @@ char
 *
 *
 buffer
-PRUint32
+uint32_t
 *
 len
 )
@@ -548,7 +548,7 @@ char
 >
 outbuf
 ;
-PRUint32
+uint32_t
 len
 ;
 rv
@@ -705,7 +705,7 @@ outbuf
 =
 NULL
 ;
-PRUint32
+uint32_t
 len
 ;
 nsCOMPtr
@@ -1054,7 +1054,7 @@ Init
 (
 256
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -1195,7 +1195,7 @@ char
 >
 buf
 ;
-PRUint32
+uint32_t
 len
 ;
 NewBufferFromStorageStream
@@ -1277,7 +1277,7 @@ char
 >
 buf2
 ;
-PRUint32
+uint32_t
 len2
 ;
 nsCOMPtr
@@ -1546,7 +1546,7 @@ id
 id
 "
 ;
-PRUint32
+uint32_t
 len
 ;
 char

@@ -286,7 +286,7 @@ txList
 *
 *
 /
-PRInt32
+int32_t
 List
 :
 :

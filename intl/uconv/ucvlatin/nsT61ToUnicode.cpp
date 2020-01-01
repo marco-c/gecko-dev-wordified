@@ -190,7 +190,7 @@ declaration
 ]
 static
 const
-PRUint16
+uint16_t
 g_T61MappingTable
 [
 ]
@@ -207,7 +207,7 @@ ut
 ;
 static
 const
-PRInt16
+int16_t
 g_T61ShiftInTable
 [
 ]

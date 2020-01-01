@@ -219,7 +219,7 @@ aTree
 nsITreeView
 *
 aTreeView
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *

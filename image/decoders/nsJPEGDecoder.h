@@ -350,7 +350,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -386,7 +386,7 @@ suspend
 ;
 public
 :
-PRUint8
+uint8_t
 *
 mImageData
 ;
@@ -404,7 +404,7 @@ mErr
 jstate
 mState
 ;
-PRUint32
+uint32_t
 mBytesToSkip
 ;
 const
@@ -421,7 +421,7 @@ we
 are
 decoding
 from
-PRUint32
+uint32_t
 mSegmentLen
 ;
 /
@@ -435,7 +435,7 @@ JOCTET
 *
 mBackBuffer
 ;
-PRUint32
+uint32_t
 mBackBufferLen
 ;
 /
@@ -447,7 +447,7 @@ of
 active
 backtrack
 data
-PRUint32
+uint32_t
 mBackBufferSize
 ;
 /
@@ -460,7 +460,7 @@ mBackBuffer
 was
 created
 with
-PRUint32
+uint32_t
 mBackBufferUnreadLen
 ;
 /
@@ -475,7 +475,7 @@ JOCTET
 *
 mProfile
 ;
-PRUint32
+uint32_t
 mProfileLength
 ;
 qcms_profile
@@ -489,7 +489,7 @@ mTransform
 bool
 mReading
 ;
-PRUint32
+uint32_t
 mCMSMode
 ;
 }

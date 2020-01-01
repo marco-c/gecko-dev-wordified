@@ -209,7 +209,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -228,7 +228,7 @@ aInputStream
 nsresult
 GetSize
 (
-PRUint64
+uint64_t
 *
 aSize
 )

@@ -189,7 +189,7 @@ nsNoDataProtocolContentPolicy
 :
 ShouldLoad
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -210,7 +210,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-PRInt16
+int16_t
 *
 aDecision
 )
@@ -450,7 +450,7 @@ nsNoDataProtocolContentPolicy
 :
 ShouldProcess
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -471,7 +471,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-PRInt16
+int16_t
 *
 aDecision
 )

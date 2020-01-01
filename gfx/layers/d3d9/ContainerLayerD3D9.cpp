@@ -1263,7 +1263,7 @@ visibleRect
 .
 x
 +
-PRInt32
+int32_t
 (
 transform
 .
@@ -1273,7 +1273,7 @@ visibleRect
 .
 y
 +
-PRInt32
+int32_t
 (
 transform
 .
@@ -1614,7 +1614,7 @@ contents
 /
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

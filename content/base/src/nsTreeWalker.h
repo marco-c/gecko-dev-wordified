@@ -190,7 +190,7 @@ nsTreeWalker
 nsINode
 *
 aRoot
-PRUint32
+uint32_t
 aWhatToShow
 nsIDOMNodeFilter
 *

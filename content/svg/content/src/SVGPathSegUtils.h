@@ -643,7 +643,7 @@ runtime
 conversion
 by
 requiring
-PRUint32
+uint32_t
 and
 float
 to
@@ -660,7 +660,7 @@ simply
 do
 a
 bitwise
-PRUint32
+uint32_t
 <
 -
 >
@@ -673,7 +673,7 @@ static
 float
 EncodeType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -681,7 +681,7 @@ PR_STATIC_ASSERT
 (
 sizeof
 (
-PRUint32
+uint32_t
 )
 =
 =
@@ -721,7 +721,7 @@ aType
 ;
 }
 static
-PRUint32
+uint32_t
 DecodeType
 (
 float
@@ -732,7 +732,7 @@ PR_STATIC_ASSERT
 (
 sizeof
 (
-PRUint32
+uint32_t
 )
 =
 =
@@ -742,14 +742,14 @@ float
 )
 )
 ;
-PRUint32
+uint32_t
 type
 =
 *
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -780,7 +780,7 @@ static
 PRUnichar
 GetPathSegTypeAsLetter
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1067,10 +1067,10 @@ aType
 ;
 }
 static
-PRUint32
+uint32_t
 ArgCountForType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1090,7 +1090,7 @@ recognized
 ;
 static
 const
-PRUint8
+uint8_t
 table
 [
 ]
@@ -1282,7 +1282,7 @@ implicitly
 *
 /
 static
-PRUint32
+uint32_t
 ArgCountForType
 (
 float
@@ -1303,7 +1303,7 @@ static
 bool
 IsValidType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1324,7 +1324,7 @@ static
 bool
 IsCubicType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1369,7 +1369,7 @@ static
 bool
 IsQuadraticType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1414,7 +1414,7 @@ static
 bool
 IsArcType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1441,7 +1441,7 @@ static
 bool
 IsRelativeOrAbsoluteType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1505,7 +1505,7 @@ static
 bool
 IsRelativeType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1572,10 +1572,10 @@ aType
 ;
 }
 static
-PRUint32
+uint32_t
 RelativeVersionOfType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1642,12 +1642,12 @@ aType
 ;
 }
 static
-PRUint32
+uint32_t
 SameTypeModuloRelativeness
 (
-PRUint32
+uint32_t
 aType1
-PRUint32
+uint32_t
 aType2
 )
 {

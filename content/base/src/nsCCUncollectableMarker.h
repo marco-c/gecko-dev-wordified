@@ -171,7 +171,7 @@ static
 bool
 InGeneration
 (
-PRUint32
+uint32_t
 aGeneration
 )
 {
@@ -192,7 +192,7 @@ InGeneration
 nsCycleCollectionTraversalCallback
 &
 aCb
-PRUint32
+uint32_t
 aGeneration
 )
 {
@@ -212,7 +212,7 @@ WantAllTraces
 ;
 }
 static
-PRUint32
+uint32_t
 sGeneration
 ;
 private

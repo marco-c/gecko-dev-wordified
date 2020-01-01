@@ -1429,7 +1429,7 @@ permMgr
 NS_ERROR_UNEXPECTED
 )
 ;
-PRUint32
+uint32_t
 permission
 ;
 nsresult

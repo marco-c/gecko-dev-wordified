@@ -326,7 +326,7 @@ array
 .
 static
 const
-PRUint32
+uint32_t
 CSSPseudoElements_flags
 [
 ]
@@ -555,7 +555,7 @@ aAtom
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -678,7 +678,7 @@ mAtom
 static
 *
 /
-PRUint32
+uint32_t
 nsCSSPseudoElements
 :
 :
@@ -689,7 +689,7 @@ nsIAtom
 aAtom
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for

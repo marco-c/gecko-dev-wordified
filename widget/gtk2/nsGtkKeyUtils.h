@@ -257,7 +257,7 @@ keyval
 *
 /
 static
-PRUint32
+uint32_t
 ComputeDOMKeyCode
 (
 const
@@ -305,7 +305,7 @@ static
 guint
 GuessGDKKeyval
 (
-PRUint32
+uint32_t
 aDOMKeyCode
 )
 ;
@@ -401,7 +401,7 @@ Ctrl
 *
 /
 typedef
-PRUint32
+uint32_t
 Modifiers
 ;
 /
@@ -1149,7 +1149,7 @@ returns
 *
 /
 static
-PRUint32
+uint32_t
 GetCharCodeFor
 (
 const
@@ -1158,7 +1158,7 @@ GdkEventKey
 aGdkKeyEvent
 )
 ;
-PRUint32
+uint32_t
 GetCharCodeFor
 (
 const
@@ -1379,7 +1379,7 @@ static
 bool
 IsBasicLatinLetterOrNumeral
 (
-PRUint32
+uint32_t
 aCharCode
 )
 ;
@@ -1455,7 +1455,7 @@ table
 *
 /
 static
-PRUint32
+uint32_t
 GetDOMKeyCodeFromKeyPairs
 (
 guint

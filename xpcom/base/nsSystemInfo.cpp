@@ -450,7 +450,7 @@ version
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -618,7 +618,7 @@ PR_GetPhysicalMemorySize
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1321,7 +1321,7 @@ manufacturer
 str
 )
 ;
-PRInt32
+int32_t
 version
 ;
 if
@@ -1584,7 +1584,7 @@ nsAString
 &
 aPropertyName
 const
-PRInt32
+int32_t
 aValue
 )
 {
@@ -1650,7 +1650,7 @@ nsAString
 &
 aPropertyName
 const
-PRUint64
+uint64_t
 aValue
 )
 {

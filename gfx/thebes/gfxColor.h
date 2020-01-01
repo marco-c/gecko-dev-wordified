@@ -140,7 +140,7 @@ i
 (
 (
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -484,7 +484,7 @@ to
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 *
 *
@@ -526,7 +526,7 @@ to
 \
 PR_BEGIN_MACRO
 \
-PRUint32
+uint32_t
 m0
 =
 GFX_UINT32_FROM_BPTR
@@ -1244,7 +1244,7 @@ Packed
 /
 gfxRGBA
 (
-PRUint32
+uint32_t
 c
 PackedColorType
 colorType
@@ -1654,7 +1654,7 @@ strange
 with
 *
 (
-PRUint8
+uint8_t
 )
 (
 c
@@ -1686,7 +1686,7 @@ v
 =
 (
 (
-PRUint8
+uint8_t
 )
 d
 )
@@ -1696,7 +1696,7 @@ x
 .
 *
 /
-PRUint32
+uint32_t
 Packed
 (
 PackedColorType
@@ -1760,7 +1760,7 @@ PACKED_ABGR
 {
 return
 (
-PRUint8
+uint8_t
 (
 ab
 )
@@ -1770,7 +1770,7 @@ ab
 )
 |
 (
-PRUint8
+uint8_t
 (
 bb
 )
@@ -1780,7 +1780,7 @@ bb
 )
 |
 (
-PRUint8
+uint8_t
 (
 gb
 )
@@ -1790,7 +1790,7 @@ gb
 )
 |
 (
-PRUint8
+uint8_t
 (
 rb
 )
@@ -1816,7 +1816,7 @@ PACKED_XRGB
 {
 return
 (
-PRUint8
+uint8_t
 (
 ab
 )
@@ -1826,7 +1826,7 @@ ab
 )
 |
 (
-PRUint8
+uint8_t
 (
 rb
 )
@@ -1836,7 +1836,7 @@ rb
 )
 |
 (
-PRUint8
+uint8_t
 (
 gb
 )
@@ -1846,7 +1846,7 @@ gb
 )
 |
 (
-PRUint8
+uint8_t
 (
 bb
 )
@@ -1883,7 +1883,7 @@ return
 (
 (
 (
-PRUint8
+uint8_t
 )
 (
 ab
@@ -1895,7 +1895,7 @@ ab
 |
 (
 (
-PRUint8
+uint8_t
 )
 (
 bb
@@ -1907,7 +1907,7 @@ bb
 |
 (
 (
-PRUint8
+uint8_t
 )
 (
 gb
@@ -1919,7 +1919,7 @@ gb
 |
 (
 (
-PRUint8
+uint8_t
 )
 (
 rb
@@ -1943,7 +1943,7 @@ return
 (
 (
 (
-PRUint8
+uint8_t
 )
 (
 ab
@@ -1955,7 +1955,7 @@ ab
 |
 (
 (
-PRUint8
+uint8_t
 )
 (
 rb
@@ -1967,7 +1967,7 @@ rb
 |
 (
 (
-PRUint8
+uint8_t
 )
 (
 gb
@@ -1979,7 +1979,7 @@ gb
 |
 (
 (
-PRUint8
+uint8_t
 )
 (
 bb

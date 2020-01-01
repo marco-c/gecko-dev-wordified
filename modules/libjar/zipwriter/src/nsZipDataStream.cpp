@@ -215,7 +215,7 @@ aStream
 nsZipHeader
 *
 aHeader
-PRInt32
+int32_t
 aCompression
 )
 {
@@ -390,9 +390,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -651,7 +651,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 pos
 ;
 rv
@@ -716,9 +716,9 @@ aContext
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -870,12 +870,12 @@ buffer
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 read
 =
 0
 ;
-PRUint32
+uint32_t
 offset
 =
 0

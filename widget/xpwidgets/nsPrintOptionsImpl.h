@@ -211,7 +211,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 anOption
 )
 ;
@@ -222,7 +222,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 anOption
 )
 ;
@@ -233,10 +233,10 @@ const
 char
 *
 aPrefId
-PRInt16
+int16_t
 &
 aJust
-PRInt16
+int16_t
 aInitValue
 )
 ;
@@ -247,7 +247,7 @@ const
 char
 *
 aPrefId
-PRInt16
+int16_t
 aJust
 )
 ;
@@ -258,7 +258,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 &
 aTwips
 const
@@ -274,7 +274,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 aTwips
 )
 ;
@@ -285,7 +285,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 &
 aTwips
 const
@@ -301,7 +301,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 aTwips
 )
 ;
@@ -378,7 +378,7 @@ const
 nsAString
 &
 aPrinterName
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -432,7 +432,7 @@ const
 nsAString
 &
 aPrefName
-PRUint32
+uint32_t
 aFlags
 )
 ;

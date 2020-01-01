@@ -606,7 +606,7 @@ RgnRect
 *
 mFreeListHead
 ;
-PRUint32
+uint32_t
 mFreeEntries
 ;
 void
@@ -696,7 +696,7 @@ void
 *
 AllocChunk
 (
-PRUint32
+uint32_t
 aEntries
 void
 *
@@ -709,12 +709,12 @@ RgnRect
 aTailDest
 )
 {
-PRUint8
+uint8_t
 *
 pBuf
 =
 new
-PRUint8
+uint8_t
 [
 aEntries
 *
@@ -773,7 +773,7 @@ void
 ;
 for
 (
-PRUint32
+uint32_t
 cnt
 =
 0
@@ -830,7 +830,7 @@ delete
 [
 ]
 (
-PRUint8
+uint8_t
 *
 )
 aChunk
@@ -884,7 +884,7 @@ RgnRect
 (
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -903,7 +903,7 @@ public
 :
 RgnRectMemoryAllocator
 (
-PRUint32
+uint32_t
 aNumOfEntries
 )
 ;
@@ -939,7 +939,7 @@ RgnRectMemoryAllocator
 :
 RgnRectMemoryAllocator
 (
-PRUint32
+uint32_t
 aNumOfEntries
 )
 {
@@ -1646,7 +1646,7 @@ nsRegion
 :
 SetToElements
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1662,7 +1662,7 @@ Add
 missing
 rectangles
 {
-PRUint32
+uint32_t
 InsertCount
 =
 aCount
@@ -1747,7 +1747,7 @@ Remove
 unnecessary
 rectangles
 {
-PRUint32
+uint32_t
 RemoveCount
 =
 mRectCount
@@ -2848,7 +2848,7 @@ mRectListHead
 .
 next
 ;
-PRInt32
+int32_t
 xmost
 =
 mRectListHead
@@ -2860,7 +2860,7 @@ XMost
 (
 )
 ;
-PRInt32
+int32_t
 ymost
 =
 mRectListHead
@@ -8459,9 +8459,9 @@ nsRegion
 :
 ConvertAppUnitsRoundOut
 (
-PRInt32
+int32_t
 aFromAPP
-PRInt32
+int32_t
 aToAPP
 )
 const
@@ -8577,9 +8577,9 @@ nsRegion
 :
 ConvertAppUnitsRoundIn
 (
-PRInt32
+int32_t
 aFromAPP
-PRInt32
+int32_t
 aToAPP
 )
 const
@@ -10508,7 +10508,7 @@ nscoord
 c
 )
 {
-PRUint32
+uint32_t
 i
 ;
 if
@@ -10558,7 +10558,7 @@ in
 the
 partitioning
 .
-PRInt32
+int32_t
 IndexOf
 (
 nscoord
@@ -10606,7 +10606,7 @@ partitioning
 nscoord
 StopAt
 (
-PRInt32
+int32_t
 index
 )
 const
@@ -10663,7 +10663,7 @@ undefined
 nscoord
 StopSize
 (
-PRInt32
+int32_t
 index
 )
 const
@@ -10693,7 +10693,7 @@ in
 this
 partitioning
 .
-PRInt32
+int32_t
 GetNumStops
 (
 )
@@ -10718,7 +10718,7 @@ mStops
 }
 ;
 const
-PRInt64
+int64_t
 kVeryLargeNegativeNumber
 =
 0xffff000000000000ll
@@ -10726,10 +10726,10 @@ kVeryLargeNegativeNumber
 struct
 SizePair
 {
-PRInt64
+int64_t
 mSizeContainingRect
 ;
-PRInt64
+int64_t
 mSize
 ;
 SizePair
@@ -10984,12 +10984,12 @@ SizePair
 >
 &
 A
-PRInt32
+int32_t
 n
-PRInt32
+int32_t
 *
 minIdx
-PRInt32
+int32_t
 *
 maxIdx
 )
@@ -11012,7 +11012,7 @@ SizePair
 min
 max
 ;
-PRInt32
+int32_t
 currentMinIdx
 =
 0
@@ -11051,7 +11051,7 @@ is
 0
 for
 (
-PRInt32
+int32_t
 i
 =
 1
@@ -11339,7 +11339,7 @@ to
 be
 clever
 .
-PRInt32
+int32_t
 matrixHeight
 =
 yaxis
@@ -11350,7 +11350,7 @@ GetNumStops
 -
 1
 ;
-PRInt32
+int32_t
 matrixWidth
 =
 xaxis
@@ -11361,7 +11361,7 @@ GetNumStops
 -
 1
 ;
-PRInt32
+int32_t
 matrixSize
 =
 matrixHeight
@@ -11403,7 +11403,7 @@ Next
 )
 )
 {
-PRInt32
+int32_t
 xstart
 =
 xaxis
@@ -11416,7 +11416,7 @@ currentRect
 x
 )
 ;
-PRInt32
+int32_t
 xend
 =
 xaxis
@@ -11431,7 +11431,7 @@ XMost
 )
 )
 ;
-PRInt32
+int32_t
 y
 =
 yaxis
@@ -11444,7 +11444,7 @@ currentRect
 y
 )
 ;
-PRInt32
+int32_t
 yend
 =
 yaxis
@@ -11483,7 +11483,7 @@ y
 ;
 for
 (
-PRInt32
+int32_t
 x
 =
 xstart
@@ -11507,12 +11507,12 @@ StopSize
 x
 )
 ;
-PRInt64
+int64_t
 size
 =
 width
 *
-PRInt64
+int64_t
 (
 height
 )
@@ -11583,14 +11583,14 @@ the
 prefix
 sum
 array
-PRInt32
+int32_t
 m
 =
 matrixHeight
 +
 1
 ;
-PRInt32
+int32_t
 n
 =
 matrixWidth
@@ -11619,7 +11619,7 @@ n
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 1
@@ -11635,7 +11635,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 1
@@ -11760,7 +11760,7 @@ bestArea
 ;
 struct
 {
-PRInt32
+int32_t
 left
 top
 right
@@ -11778,7 +11778,7 @@ bestRectIndices
 ;
 for
 (
-PRInt32
+int32_t
 m1
 =
 0
@@ -11794,7 +11794,7 @@ m1
 {
 for
 (
-PRInt32
+int32_t
 m2
 =
 m1
@@ -11825,7 +11825,7 @@ n
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -11863,7 +11863,7 @@ i
 ]
 ;
 }
-PRInt32
+int32_t
 minIdx
 maxIdx
 ;
@@ -11981,7 +11981,7 @@ nsRegion
 :
 SimplifyOutward
 (
-PRUint32
+uint32_t
 aMaxRects
 )
 {
@@ -12230,7 +12230,7 @@ nsRegion
 :
 SimplifyInward
 (
-PRUint32
+uint32_t
 aMaxRects
 )
 {

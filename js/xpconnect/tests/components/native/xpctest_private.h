@@ -176,10 +176,10 @@ private
 bool
 boolProperty
 ;
-PRInt16
+int16_t
 shortProperty
 ;
-PRInt32
+int32_t
 longProperty
 ;
 float
@@ -218,10 +218,10 @@ private
 bool
 boolProperty
 ;
-PRInt16
+int16_t
 shortProperty
 ;
-PRInt32
+int32_t
 longProperty
 ;
 float

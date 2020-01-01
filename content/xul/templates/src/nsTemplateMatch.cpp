@@ -215,7 +215,7 @@ aQuerySet
 nsTemplateRule
 *
 aRule
-PRInt16
+int16_t
 aRuleIndex
 nsIXULTemplateResult
 *

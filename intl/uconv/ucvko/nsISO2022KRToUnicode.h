@@ -163,13 +163,13 @@ const
 char
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 PRUnichar
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -181,9 +181,9 @@ const
 char
 *
 aSrc
-PRInt32
+int32_t
 aSrcLength
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -234,7 +234,7 @@ mState_ERROR
 mState
 mLastLegalState
 ;
-PRUint8
+uint8_t
 mData
 ;
 /
@@ -245,7 +245,7 @@ non
 -
 ASCII
 run
-PRUint32
+uint32_t
 mRunLength
 ;
 nsIUnicodeDecoder

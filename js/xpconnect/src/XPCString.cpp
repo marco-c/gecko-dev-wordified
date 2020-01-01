@@ -287,7 +287,7 @@ sharedBuffer
 =
 nullptr
 ;
-PRUint32
+uint32_t
 length
 =
 readable

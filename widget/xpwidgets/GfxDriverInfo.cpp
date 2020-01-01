@@ -114,7 +114,7 @@ mozilla
 :
 widget
 ;
-PRInt32
+int32_t
 GfxDriverInfo
 :
 :
@@ -122,7 +122,7 @@ allFeatures
 =
 0
 ;
-PRUint64
+uint64_t
 GfxDriverInfo
 :
 :
@@ -130,7 +130,7 @@ allDriverVersions
 =
 ~
 (
-PRUint64
+uint64_t
 (
 0
 )
@@ -237,13 +237,13 @@ vendor
 GfxDeviceFamily
 *
 devices
-PRInt32
+int32_t
 feature
-PRInt32
+int32_t
 featureStatus
 VersionComparisonOp
 op
-PRUint64
+uint64_t
 driverVersion
 const
 char

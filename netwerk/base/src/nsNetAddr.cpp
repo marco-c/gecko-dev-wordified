@@ -150,7 +150,7 @@ nsNetAddr
 :
 GetFamily
 (
-PRUint16
+uint16_t
 *
 aFamily
 )
@@ -401,7 +401,7 @@ nsNetAddr
 :
 GetPort
 (
-PRUint16
+uint16_t
 *
 aPort
 )
@@ -493,7 +493,7 @@ nsNetAddr
 :
 GetFlow
 (
-PRUint32
+uint32_t
 *
 aFlow
 )
@@ -564,7 +564,7 @@ nsNetAddr
 :
 GetScope
 (
-PRUint32
+uint32_t
 *
 aScope
 )

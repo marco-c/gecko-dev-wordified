@@ -230,7 +230,7 @@ RandomUpdate
 void
 *
 new_entropy
-PRInt32
+int32_t
 bufLen
 )
 {
@@ -299,13 +299,13 @@ as
 we
 can
 store
-PRInt32
+int32_t
 bytes_wanted
 =
 NS_MIN
 (
 bufLen
-PRInt32
+int32_t
 (
 entropy_buffer_size
 )
@@ -328,7 +328,7 @@ mBytesCollected
 =
 NS_MIN
 (
-PRInt32
+int32_t
 (
 entropy_buffer_size
 )
@@ -377,7 +377,7 @@ cyclic
 buffer
 ?
 const
-PRInt32
+int32_t
 space_to_end
 =
 PastEndPointer
@@ -401,7 +401,7 @@ the
 buffer
 ?
 const
-PRInt32
+int32_t
 this_time
 =
 NS_MIN
@@ -424,7 +424,7 @@ cyclic
 buffer
 for
 (
-PRInt32
+int32_t
 i
 =
 0

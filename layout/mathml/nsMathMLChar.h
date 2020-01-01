@@ -316,10 +316,10 @@ code
 2
 ]
 ;
-PRInt32
+int32_t
 font
 ;
-PRInt32
+int32_t
 Length
 (
 )
@@ -547,7 +547,7 @@ const
 nsDisplayListSet
 &
 aLists
-PRUint32
+uint32_t
 aIndex
 const
 nsRect
@@ -631,7 +631,7 @@ aContainerSize
 nsBoundingMetrics
 &
 aDesiredStretchSize
-PRUint32
+uint32_t
 aStretchHint
 bool
 aRTL
@@ -661,7 +661,7 @@ aData
 mData
 ;
 }
-PRInt32
+int32_t
 Length
 (
 )
@@ -855,7 +855,7 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
-PRUint32
+uint32_t
 aStretchHint
 =
 NS_STRETCH_NORMAL
@@ -1209,7 +1209,7 @@ aContainerSize
 nsBoundingMetrics
 &
 aDesiredStretchSize
-PRUint32
+uint32_t
 aStretchHint
 float
 aMaxSize

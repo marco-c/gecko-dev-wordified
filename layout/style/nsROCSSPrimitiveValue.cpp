@@ -1292,7 +1292,7 @@ nsROCSSPrimitiveValue
 :
 GetCssValueType
 (
-PRUint16
+uint16_t
 *
 aValueType
 )
@@ -1323,7 +1323,7 @@ nsROCSSPrimitiveValue
 :
 GetPrimitiveType
 (
-PRUint16
+uint16_t
 *
 aPrimitiveType
 )
@@ -1348,7 +1348,7 @@ nsROCSSPrimitiveValue
 :
 SetFloatValue
 (
-PRUint16
+uint16_t
 aUnitType
 float
 aFloatValue
@@ -1364,7 +1364,7 @@ nsROCSSPrimitiveValue
 :
 GetFloatValue
 (
-PRUint16
+uint16_t
 aUnitType
 float
 *
@@ -1683,7 +1683,7 @@ nsROCSSPrimitiveValue
 :
 SetStringValue
 (
-PRUint16
+uint16_t
 aStringType
 const
 nsAString
@@ -1960,7 +1960,7 @@ nsROCSSPrimitiveValue
 :
 SetNumber
 (
-PRInt32
+int32_t
 aValue
 )
 {
@@ -1988,7 +1988,7 @@ nsROCSSPrimitiveValue
 :
 SetNumber
 (
-PRUint32
+uint32_t
 aValue
 )
 {
@@ -2155,7 +2155,7 @@ const
 nsACString
 &
 aString
-PRUint16
+uint16_t
 aType
 )
 {
@@ -2235,7 +2235,7 @@ const
 nsAString
 &
 aString
-PRUint16
+uint16_t
 aType
 )
 {

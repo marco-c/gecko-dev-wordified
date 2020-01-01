@@ -1631,7 +1631,7 @@ BrowserJavaVersion
 browserJavaVersion
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 0
@@ -1667,7 +1667,7 @@ version
 ?
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1718,12 +1718,12 @@ latest
 in
 its
 family
-PRUint32
+uint32_t
 numChars
 =
 0
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -2821,7 +2821,7 @@ than
 one
 version
 ?
-PRUint32
+uint32_t
 childCount
 =
 0
@@ -2837,7 +2837,7 @@ childCount
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3120,7 +3120,7 @@ nsPluginDirServiceProvider
 :
 GetPLIDDirectoriesWithRootKey
 (
-PRUint32
+uint32_t
 aKey
 nsCOMArray
 <
@@ -3189,7 +3189,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 0
@@ -3205,7 +3205,7 @@ childCount
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3452,7 +3452,7 @@ isFileThere
 isFileThere
 )
 {
-PRInt32
+int32_t
 c
 =
 aDirs
@@ -3463,7 +3463,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

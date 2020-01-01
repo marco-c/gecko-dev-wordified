@@ -646,11 +646,11 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -780,7 +780,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -833,7 +833,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -912,7 +912,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 {
@@ -1023,9 +1023,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1155,7 +1155,7 @@ nsISupports
 aContext
 )
 {
-PRInt32
+int32_t
 charsetSource
 =
 kCharsetFromDocTypeDefault
@@ -1972,7 +1972,7 @@ rv
 /
 Content
 Policy
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -2397,7 +2397,7 @@ get
 /
 Content
 Policy
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -2566,7 +2566,7 @@ AsElement
 (
 )
 ;
-PRUint32
+uint32_t
 attsCount
 =
 element
@@ -2603,7 +2603,7 @@ atts
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 counter
 ;
 for
@@ -3085,7 +3085,7 @@ rv
 /
 Content
 Policy
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy

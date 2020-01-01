@@ -203,7 +203,7 @@ nsCSSValue
 :
 nsCSSValue
 (
-PRInt32
+int32_t
 aValue
 nsCSSUnit
 aUnit
@@ -2013,7 +2013,7 @@ nsCSSValue
 :
 SetIntValue
 (
-PRInt32
+int32_t
 aValue
 nsCSSUnit
 aUnit
@@ -3601,7 +3601,7 @@ InitFunction
 (
 nsCSSKeyword
 aFunctionId
-PRUint32
+uint32_t
 aNumArgs
 )
 {
@@ -5018,7 +5018,7 @@ eCSSProperty_text_decoration_line
 aProperty
 )
 {
-PRInt32
+int32_t
 intValue
 =
 GetIntValue
@@ -5102,7 +5102,7 @@ eCSSProperty_marks
 aProperty
 )
 {
-PRInt32
+int32_t
 intValue
 =
 GetIntValue
@@ -5309,7 +5309,7 @@ transparent
 }
 else
 {
-PRUint8
+uint8_t
 a
 =
 NS_GET_A
@@ -5763,7 +5763,7 @@ shape
 "
 )
 ;
-PRInt32
+int32_t
 intValue
 =
 gradient
@@ -5871,7 +5871,7 @@ size
 "
 )
 ;
-PRInt32
+int32_t
 intValue
 =
 gradient
@@ -6544,7 +6544,7 @@ shape
 "
 )
 ;
-PRInt32
+int32_t
 intValue
 =
 gradient
@@ -6642,7 +6642,7 @@ size
 "
 )
 ;
-PRInt32
+int32_t
 intValue
 =
 gradient
@@ -6694,7 +6694,7 @@ AppendLiteral
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10911,7 +10911,7 @@ aMallocSizeOf
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

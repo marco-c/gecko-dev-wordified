@@ -146,7 +146,7 @@ _mm_setzero_si128
 0xffff
 ;
 }
-PRInt32
+int32_t
 FirstNon8Bit
 (
 const
@@ -160,7 +160,7 @@ end
 )
 {
 const
-PRUint32
+uint32_t
 numUnicharsPerVector
 =
 8
@@ -178,7 +178,7 @@ mask
 0xff00ff00
 ;
 const
-PRUint32
+uint32_t
 numUnicharsPerWord
 =
 2
@@ -196,7 +196,7 @@ mask
 0xff00ff00ff00ff00
 ;
 const
-PRUint32
+uint32_t
 numUnicharsPerWord
 =
 4
@@ -211,14 +211,14 @@ platform
 #
 endif
 const
-PRInt32
+int32_t
 len
 =
 end
 -
 str
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -247,13 +247,13 @@ e
 MOVDQA
 )
 .
-PRInt32
+int32_t
 alignLen
 =
 NS_MIN
 (
 len
-PRInt32
+int32_t
 (
 (
 (
@@ -314,7 +314,7 @@ a
 time
 .
 const
-PRInt32
+int32_t
 vectWalkEnd
 =
 (
@@ -393,7 +393,7 @@ a
 time
 .
 const
-PRInt32
+int32_t
 wordWalkEnd
 =
 (

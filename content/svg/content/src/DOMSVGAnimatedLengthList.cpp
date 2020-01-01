@@ -317,9 +317,9 @@ aList
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAttrEnum
-PRUint8
+uint8_t
 aAxis
 )
 {

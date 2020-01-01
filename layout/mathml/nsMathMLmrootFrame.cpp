@@ -1035,7 +1035,7 @@ rendContext
 /
 Reflow
 Children
-PRInt32
+int32_t
 count
 =
 0
@@ -2605,7 +2605,7 @@ nsMathMLmrootFrame
 :
 GetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -2640,7 +2640,7 @@ nsMathMLmrootFrame
 :
 SetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 nsStyleContext
 *

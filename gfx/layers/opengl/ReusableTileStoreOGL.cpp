@@ -99,7 +99,7 @@ MakeCurrent
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -455,7 +455,7 @@ MakeCurrent
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1774,7 +1774,7 @@ yet
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -507,7 +507,7 @@ MakeCurrent
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -527,7 +527,7 @@ i
 {
 for
 (
-PRUint32
+uint32_t
 type
 =
 MaskNone
@@ -756,7 +756,7 @@ aType
 {
 for
 (
-PRUint32
+uint32_t
 maskType
 =
 MaskNone
@@ -1145,7 +1145,7 @@ LOCAL_GL_NONE
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6334,17 +6334,17 @@ height
 if
 (
 (
-PRInt64
+int64_t
 (
 width
 )
 *
-PRInt64
+int64_t
 (
 height
 )
 *
-PRInt64
+int64_t
 (
 4
 )
@@ -6593,7 +6593,7 @@ i
 {
 for
 (
-PRUint32
+uint32_t
 mask
 =
 MaskNone

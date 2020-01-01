@@ -507,13 +507,13 @@ context
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
-PRUint32
+uint32_t
 amt
 size
 ;
@@ -685,7 +685,7 @@ if
 pHTTPCon
 )
 {
-PRUint32
+uint32_t
 httpStatus
 ;
 pHTTPCon
@@ -1257,7 +1257,7 @@ as
 an
 argument
 .
-PRInt32
+int32_t
 index
 =
 mConfigURL
@@ -2010,7 +2010,7 @@ thread
 )
 )
 ;
-PRInt32
+int32_t
 minutes
 ;
 rv
@@ -2497,10 +2497,10 @@ rv
 return
 rv
 ;
-PRInt64
+int64_t
 fileSize
 ;
-PRUint32
+uint32_t
 fs
 amt
 =
@@ -2627,7 +2627,7 @@ nsIOutputStream
 >
 outStr
 ;
-PRUint32
+uint32_t
 amt
 ;
 rv
@@ -2878,7 +2878,7 @@ PromptForEMailAddress
 emailAddr
 )
 ;
-PRInt32
+int32_t
 commandIndex
 =
 prefValue

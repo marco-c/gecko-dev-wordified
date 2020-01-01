@@ -747,7 +747,7 @@ surface
 return
 false
 ;
-PRUint32
+uint32_t
 bmWidth
 =
 dragRect
@@ -895,7 +895,7 @@ bV5Height
 =
 -
 (
-PRInt32
+int32_t
 )
 bmHeight
 ;
@@ -1070,7 +1070,7 @@ ptOffset
 x
 =
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -1091,7 +1091,7 @@ ptOffset
 y
 =
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -1107,7 +1107,7 @@ bmHeight
 }
 else
 {
-PRInt32
+int32_t
 sx
 =
 mScreenX
@@ -1257,7 +1257,7 @@ anArrayTransferables
 nsIScriptableRegion
 *
 aRegion
-PRUint32
+uint32_t
 aActionType
 )
 {
@@ -1328,7 +1328,7 @@ GetDocumentURI
 )
 ;
 }
-PRUint32
+uint32_t
 numItemsToDrag
 =
 0
@@ -1473,7 +1473,7 @@ dataObjCollection
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1840,7 +1840,7 @@ StartInvokingDragSession
 IDataObject
 *
 aDataObj
-PRUint32
+uint32_t
 aActionType
 )
 {
@@ -2094,7 +2094,7 @@ if
 mSentLocalDropEvent
 )
 {
-PRUint32
+uint32_t
 dropResult
 ;
 /
@@ -2533,7 +2533,7 @@ nsDragService
 :
 GetNumDropItems
 (
-PRUint32
+uint32_t
 *
 aNumItems
 )
@@ -2915,7 +2915,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRUint32
+uint32_t
 anItem
 )
 {
@@ -2997,7 +2997,7 @@ GetDataObjCollection
 mDataObject
 )
 ;
-PRUint32
+uint32_t
 cnt
 =
 dataObjCol
@@ -3629,7 +3629,7 @@ if
 dataObjCol
 )
 {
-PRUint32
+uint32_t
 cnt
 =
 dataObjCol
@@ -3641,7 +3641,7 @@ GetNumDataObjects
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

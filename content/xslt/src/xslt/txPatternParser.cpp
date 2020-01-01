@@ -1421,7 +1421,7 @@ nsIAtom
 prefix
 localName
 ;
-PRInt32
+int32_t
 namespaceID
 ;
 nsresult
@@ -1659,7 +1659,7 @@ nsIAtom
 prefix
 lName
 ;
-PRInt32
+int32_t
 nspace
 ;
 rv
@@ -1705,13 +1705,13 @@ return
 rv
 ;
 }
-PRUint16
+uint16_t
 nodeType
 =
 isAttr
 ?
 (
-PRUint16
+uint16_t
 )
 txXPathNodeType
 :
@@ -1719,7 +1719,7 @@ txXPathNodeType
 ATTRIBUTE_NODE
 :
 (
-PRUint16
+uint16_t
 )
 txXPathNodeType
 :

@@ -591,7 +591,7 @@ nsIFrame
 aFrame2
 )
 {
-PRInt32
+int32_t
 iterations
 =
 0
@@ -666,7 +666,7 @@ nsIFrame
 aFrame2
 )
 {
-PRInt32
+int32_t
 iterations
 =
 0
@@ -1250,7 +1250,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {

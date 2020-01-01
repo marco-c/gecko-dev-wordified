@@ -213,7 +213,7 @@ gfxShapedWord
 aShapedWord
 CTRunRef
 aCTRun
-PRInt32
+int32_t
 aStringOffset
 )
 ;

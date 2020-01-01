@@ -409,7 +409,7 @@ PLDHashOperator
 ReleaseTableFunc
 (
 const
-PRUint32
+uint32_t
 &
 /
 *
@@ -542,7 +542,7 @@ gfxGraphiteShaper
 :
 GetTable
 (
-PRUint32
+uint32_t
 aTag
 size_t
 *
@@ -714,14 +714,14 @@ glyphid
 }
 static
 inline
-PRUint32
+uint32_t
 MakeGraphiteLangTag
 (
-PRUint32
+uint32_t
 aTag
 )
 {
-PRUint32
+uint32_t
 grLangTag
 =
 aTag
@@ -737,7 +737,7 @@ with
 NULs
 for
 graphite
-PRUint32
+uint32_t
 mask
 =
 0x000000FF
@@ -790,10 +790,10 @@ PLDHashOperator
 AddFeature
 (
 const
-PRUint32
+uint32_t
 &
 aTag
-PRUint32
+uint32_t
 &
 aValue
 void
@@ -1002,7 +1002,7 @@ GetStyle
 (
 )
 ;
-PRUint32
+uint32_t
 grLang
 =
 0
@@ -1083,7 +1083,7 @@ grLang
 nsDataHashtable
 <
 nsUint32HashKey
-PRUint32
+uint32_t
 >
 mergedFeatures
 ;
@@ -1229,16 +1229,16 @@ length
 struct
 Cluster
 {
-PRUint32
+uint32_t
 baseChar
 ;
-PRUint32
+uint32_t
 baseGlyph
 ;
-PRUint32
+uint32_t
 nChars
 ;
-PRUint32
+uint32_t
 nGlyphs
 ;
 Cluster
@@ -1279,7 +1279,7 @@ gr_segment
 aSegment
 )
 {
-PRInt32
+int32_t
 dev2appUnits
 =
 aShapedWord
@@ -1299,7 +1299,7 @@ IsRightToLeft
 (
 )
 ;
-PRUint32
+uint32_t
 glyphCount
 =
 gr_seg_n_slots
@@ -1331,7 +1331,7 @@ clusters
 ;
 nsAutoTArray
 <
-PRUint16
+uint16_t
 SMALL_GLYPH_RUN
 >
 gids
@@ -1415,7 +1415,7 @@ each
 is
 associated
 with
-PRUint32
+uint32_t
 gIndex
 =
 0
@@ -1425,7 +1425,7 @@ gIndex
 glyph
 slot
 index
-PRUint32
+uint32_t
 cIndex
 =
 0
@@ -1463,7 +1463,7 @@ gIndex
 +
 )
 {
-PRUint32
+uint32_t
 before
 =
 gr_slot_before
@@ -1471,7 +1471,7 @@ gr_slot_before
 slot
 )
 ;
-PRUint32
+uint32_t
 after
 =
 gr_slot_after
@@ -1853,7 +1853,7 @@ a
 time
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2017,7 +2017,7 @@ and
 skip
 it
 .
-PRUint32
+uint32_t
 offs
 =
 gr_cinfo_base
@@ -2085,7 +2085,7 @@ offs
 continue
 ;
 }
-PRUint32
+uint32_t
 appAdvance
 =
 adv
@@ -2202,7 +2202,7 @@ clusterLoc
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 c
@@ -2363,7 +2363,7 @@ Elements
 }
 for
 (
-PRUint32
+uint32_t
 j
 =
 c
@@ -2493,7 +2493,7 @@ sLanguageTags
 static
 *
 /
-PRUint32
+uint32_t
 gfxGraphiteShaper
 :
 :
@@ -2546,7 +2546,7 @@ for
 the
 Graphite
 API
-PRUint32
+uint32_t
 grLang
 =
 0
@@ -2580,7 +2580,7 @@ i
 len
 )
 {
-PRUint8
+uint8_t
 ch
 =
 aLang
@@ -2715,7 +2715,7 @@ sLanguageTagList
 for
 (
 const
-PRUint32
+uint32_t
 *
 tag
 =

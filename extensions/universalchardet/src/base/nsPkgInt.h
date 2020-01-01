@@ -181,7 +181,7 @@ nsUnitMsk
 unitmsk
 ;
 const
-PRUint32
+uint32_t
 *
 const
 data
@@ -198,7 +198,7 @@ b
 )
 (
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -228,7 +228,7 @@ PCK16BITS
 (
 (
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -248,7 +248,7 @@ a
 \
 (
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -283,7 +283,7 @@ PCK8BITS
 (
 (
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -303,7 +303,7 @@ a
 \
 (
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -323,7 +323,7 @@ c
 \
 (
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -343,7 +343,7 @@ e
 \
 (
 (
-PRUint32
+uint32_t
 )
 (
 (

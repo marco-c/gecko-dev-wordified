@@ -237,7 +237,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -251,7 +251,7 @@ endif
 Rule
 methods
 virtual
-PRInt32
+int32_t
 GetType
 (
 )

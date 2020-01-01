@@ -164,7 +164,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 i
 len
 =
@@ -234,7 +234,7 @@ right
 position
 *
 /
-PRInt32
+int32_t
 index
 =
 0
@@ -456,7 +456,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 i
 len
 =
@@ -520,7 +520,7 @@ dest
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

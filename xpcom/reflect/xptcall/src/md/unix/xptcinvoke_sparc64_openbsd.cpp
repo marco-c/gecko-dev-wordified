@@ -142,13 +142,13 @@ extern
 "
 C
 "
-PRUint64
+uint64_t
 invoke_copy_to_stack
 (
-PRUint64
+uint64_t
 *
 d
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -193,7 +193,7 @@ populate
 .
 *
 /
-PRUint64
+uint64_t
 *
 l_d
 =
@@ -205,12 +205,12 @@ l_s
 =
 s
 ;
-PRUint64
+uint64_t
 l_paramCount
 =
 paramCount
 ;
-PRUint64
+uint64_t
 regCount
 =
 0
@@ -229,7 +229,7 @@ the
 stack
 for
 (
-PRUint64
+uint64_t
 i
 =
 0
@@ -273,7 +273,7 @@ IsPtrData
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -300,7 +300,7 @@ T_I8
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 l_d
@@ -324,7 +324,7 @@ T_I16
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 l_d
@@ -348,7 +348,7 @@ T_I32
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 l_d
@@ -372,7 +372,7 @@ T_I64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 l_d
@@ -396,7 +396,7 @@ T_U8
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 l_d
@@ -420,7 +420,7 @@ T_U16
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 l_d
@@ -444,7 +444,7 @@ T_U32
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 l_d
@@ -468,7 +468,7 @@ T_U64
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 l_d
@@ -604,7 +604,7 @@ T_BOOL
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 l_d
@@ -628,7 +628,7 @@ T_CHAR
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 l_d
@@ -652,7 +652,7 @@ T_WCHAR
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 l_d

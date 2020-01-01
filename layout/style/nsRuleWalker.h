@@ -368,7 +368,7 @@ mRoot
 void
 SetLevel
 (
-PRUint8
+uint8_t
 aLevel
 bool
 aImportance
@@ -415,7 +415,7 @@ mCheckForImportantRules
 aCheckForImportantRules
 ;
 }
-PRUint8
+uint8_t
 GetLevel
 (
 )
@@ -581,7 +581,7 @@ we
 re
 walking
 .
-PRUint8
+uint8_t
 mLevel
 ;
 /

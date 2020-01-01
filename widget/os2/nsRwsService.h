@@ -424,11 +424,11 @@ static
 nsresult
 RwsConvert
 (
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 value
-PRUint32
+uint32_t
 *
 result
 )
@@ -437,9 +437,9 @@ static
 nsresult
 RwsConvert
 (
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 value
 nsAString
 &

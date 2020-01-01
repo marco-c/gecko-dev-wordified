@@ -606,7 +606,7 @@ nsJARProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -635,7 +635,7 @@ nsJARProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -876,7 +876,7 @@ nsJARProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

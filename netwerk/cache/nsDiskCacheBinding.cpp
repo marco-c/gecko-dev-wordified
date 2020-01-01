@@ -1493,7 +1493,7 @@ nsDiskCacheBindery
 :
 FindActiveBinding
 (
-PRUint32
+uint32_t
 hashNumber
 )
 {
@@ -2271,7 +2271,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *

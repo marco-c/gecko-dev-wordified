@@ -305,7 +305,7 @@ nsIAtom
 >
 mAttributeName
 ;
-PRInt32
+int32_t
 mAttributeNamespaceID
 ;
 bool

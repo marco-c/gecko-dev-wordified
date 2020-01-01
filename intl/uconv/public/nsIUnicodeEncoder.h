@@ -294,7 +294,7 @@ aChar
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -373,7 +373,7 @@ l
 string
 length
 (
-PRInt32
+int32_t
 )
 /
 /
@@ -394,7 +394,7 @@ static
 buffer
 length
 (
-PRUint32
+uint32_t
 )
 /
 /
@@ -404,7 +404,7 @@ actual
 buffer
 length
 (
-PRInt32
+int32_t
 )
 /
 /
@@ -459,7 +459,7 @@ al
 )
 >
 (
-PRInt32
+int32_t
 )
 (
 sbl
@@ -1001,13 +1001,13 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -1103,7 +1103,7 @@ Finish
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -1222,9 +1222,9 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 aSrcLength
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -1301,7 +1301,7 @@ enum
 NS_IMETHOD
 SetOutputErrorBehavior
 (
-PRInt32
+int32_t
 aBehavior
 nsIUnicharEncoder
 *

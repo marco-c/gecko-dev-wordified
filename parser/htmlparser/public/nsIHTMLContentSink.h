@@ -684,7 +684,7 @@ begins
 NS_IMETHOD
 BeginContext
 (
-PRInt32
+int32_t
 aPosition
 )
 =
@@ -739,7 +739,7 @@ context
 NS_IMETHOD
 EndContext
 (
-PRInt32
+int32_t
 aPosition
 )
 =
@@ -774,7 +774,7 @@ not
 NS_IMETHOD
 IsEnabled
 (
-PRInt32
+int32_t
 aTag
 bool
 *

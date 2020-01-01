@@ -147,7 +147,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -167,11 +167,11 @@ const
 char
 *
 aStr
-PRUint32
+uint32_t
 aCharLen
 )
 {
-PRInt32
+int32_t
 order
 ;
 /
@@ -225,7 +225,7 @@ valid
 if
 (
 (
-PRUint32
+uint32_t
 )
 order
 <
@@ -377,7 +377,7 @@ one
 frequency
 table
 virtual
-PRInt32
+int32_t
 GetOrder
 (
 const
@@ -424,7 +424,7 @@ is
 less
 than
 512
-PRUint32
+uint32_t
 mFreqChars
 ;
 /
@@ -433,7 +433,7 @@ Total
 character
 encounted
 .
-PRUint32
+uint32_t
 mTotalChars
 ;
 /
@@ -448,7 +448,7 @@ needed
 to
 trigger
 detection
-PRUint32
+uint32_t
 mDataThreshold
 ;
 /
@@ -470,7 +470,7 @@ GetOrder
 )
 )
 const
-PRInt16
+int16_t
 *
 mCharToFreqOrder
 ;
@@ -480,7 +480,7 @@ Size
 of
 above
 table
-PRUint32
+uint32_t
 mTableSize
 ;
 /
@@ -572,7 +572,7 @@ machine
 has
 done
 that
-PRInt32
+int32_t
 GetOrder
 (
 const
@@ -696,7 +696,7 @@ machine
 has
 done
 that
-PRInt32
+int32_t
 GetOrder
 (
 const
@@ -818,7 +818,7 @@ machine
 has
 done
 that
-PRInt32
+int32_t
 GetOrder
 (
 const
@@ -961,7 +961,7 @@ machine
 has
 done
 that
-PRInt32
+int32_t
 GetOrder
 (
 const
@@ -1147,7 +1147,7 @@ machine
 has
 done
 that
-PRInt32
+int32_t
 GetOrder
 (
 const
@@ -1156,7 +1156,7 @@ char
 str
 )
 {
-PRInt32
+int32_t
 order
 ;
 if
@@ -1370,7 +1370,7 @@ machine
 has
 done
 that
-PRInt32
+int32_t
 GetOrder
 (
 const

@@ -192,7 +192,7 @@ xptiTypelibGuts
 :
 GetEntryAt
 (
-PRUint16
+uint16_t
 i
 )
 {

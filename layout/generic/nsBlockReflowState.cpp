@@ -6746,12 +6746,12 @@ ClearFloats
 (
 nscoord
 aY
-PRUint8
+uint8_t
 aBreakType
 nsIFrame
 *
 aReplacedBlock
-PRUint32
+uint32_t
 aFlags
 )
 {

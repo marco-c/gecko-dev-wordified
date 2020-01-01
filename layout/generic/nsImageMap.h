@@ -251,7 +251,7 @@ map
 .
 *
 /
-PRUint32
+uint32_t
 AreaCount
 (
 )
@@ -283,7 +283,7 @@ nsIContent
 *
 GetAreaAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const

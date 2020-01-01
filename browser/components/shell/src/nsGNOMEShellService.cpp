@@ -2190,7 +2190,7 @@ SetDesktopBackground
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -2886,7 +2886,7 @@ nsGNOMEShellService
 :
 GetDesktopBackgroundColor
 (
-PRUint32
+uint32_t
 *
 aColor
 )
@@ -3063,7 +3063,7 @@ static
 void
 ColorToCString
 (
-PRUint32
+uint32_t
 aColor
 nsCString
 &
@@ -3101,7 +3101,7 @@ buf
 )
 return
 ;
-PRUint16
+uint16_t
 red
 =
 COLOR_8_TO_16_BIT
@@ -3116,7 +3116,7 @@ aColor
 0xff
 )
 ;
-PRUint16
+uint16_t
 green
 =
 COLOR_8_TO_16_BIT
@@ -3131,7 +3131,7 @@ aColor
 0xff
 )
 ;
-PRUint16
+uint16_t
 blue
 =
 COLOR_8_TO_16_BIT
@@ -3166,7 +3166,7 @@ nsGNOMEShellService
 :
 SetDesktopBackgroundColor
 (
-PRUint32
+uint32_t
 aColor
 )
 {
@@ -3291,7 +3291,7 @@ nsGNOMEShellService
 :
 OpenApplication
 (
-PRInt32
+int32_t
 aApplication
 )
 {

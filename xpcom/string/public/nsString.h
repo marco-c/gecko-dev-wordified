@@ -403,7 +403,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -482,7 +482,7 @@ const
 char
 *
 aCString
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -581,7 +581,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -660,7 +660,7 @@ const
 char
 *
 aCString
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -797,12 +797,12 @@ plhash
 h
 "
 inline
-PRInt32
+int32_t
 MinInt
 (
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 {
@@ -815,12 +815,12 @@ y
 ;
 }
 inline
-PRInt32
+int32_t
 MaxInt
 (
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 {

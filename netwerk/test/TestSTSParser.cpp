@@ -442,7 +442,7 @@ true
 int
 main
 (
-PRInt32
+int32_t
 argc
 char
 *

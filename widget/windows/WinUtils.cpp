@@ -343,7 +343,7 @@ GetWindowsVersion
 )
 {
 static
-PRInt32
+int32_t
 version
 =
 0
@@ -1024,7 +1024,7 @@ aParam
 (
 *
 (
-PRInt32
+int32_t
 *
 )
 aParam
@@ -1041,7 +1041,7 @@ TRUE
 static
 *
 /
-PRInt32
+int32_t
 WinUtils
 :
 :
@@ -1049,7 +1049,7 @@ GetMonitorCount
 (
 )
 {
-PRInt32
+int32_t
 monitorCount
 =
 0
@@ -1722,7 +1722,7 @@ aInternalMessage
 static
 *
 /
-PRUint16
+uint16_t
 WinUtils
 :
 :
@@ -1730,7 +1730,7 @@ GetMouseInputSource
 (
 )
 {
-PRInt32
+int32_t
 inputSource
 =
 nsIDOMMouseEvent
@@ -1781,7 +1781,7 @@ MOZ_SOURCE_PEN
 return
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 inputSource
@@ -2378,10 +2378,10 @@ OnComplete
 nsIURI
 *
 aFaviconURI
-PRUint32
+uint32_t
 aDataLen
 const
-PRUint8
+uint8_t
 *
 aData
 const
@@ -2495,7 +2495,7 @@ fallible_t
 (
 )
 ;
-PRUint8
+uint8_t
 *
 data
 =
@@ -2503,7 +2503,7 @@ new
 (
 fallible
 )
-PRUint8
+uint8_t
 [
 aDataLen
 ]
@@ -2591,10 +2591,10 @@ const
 nsACString
 &
 aMimeTypeOfInputData
-PRUint8
+uint8_t
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferLength
 const
 bool
@@ -2845,7 +2845,7 @@ if
 mURLShortcut
 )
 {
-PRInt32
+int32_t
 systemIconWidth
 =
 GetSystemMetrics
@@ -2853,7 +2853,7 @@ GetSystemMetrics
 SM_CXSMICON
 )
 ;
-PRInt32
+int32_t
 systemIconHeight
 =
 GetSystemMetrics
@@ -3281,7 +3281,7 @@ re
 encoded
 ICO
 stream
-PRUint64
+uint64_t
 bufSize64
 ;
 rv
@@ -3310,11 +3310,11 @@ PR_UINT32_MAX
 NS_ERROR_FILE_TOO_BIG
 )
 ;
-PRUint32
+uint32_t
 bufSize
 =
 (
-PRUint32
+uint32_t
 )
 bufSize64
 ;
@@ -3381,7 +3381,7 @@ sure
 we
 wrote
 everything
-PRUint32
+uint32_t
 wrote
 ;
 rv
@@ -3866,7 +3866,7 @@ path
 )
 continue
 ;
-PRInt32
+int32_t
 len
 =
 path
@@ -4176,7 +4176,7 @@ modification
 date
 in
 seconds
-PRInt64
+int64_t
 fileModTime
 =
 LL_ZERO
@@ -4197,21 +4197,21 @@ fileModTime
 =
 PR_MSEC_PER_SEC
 ;
-PRInt32
+int32_t
 icoReCacheSecondsTimeout
 =
 GetICOCacheSecondsTimeout
 (
 )
 ;
-PRInt64
+int64_t
 nowTime
 =
 PR_Now
 (
 )
 /
-PRInt64
+int64_t
 (
 PR_USEC_PER_SEC
 )
@@ -4471,7 +4471,7 @@ Update
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -4966,7 +4966,7 @@ in
 seconds
 '
 pref
-PRInt32
+int32_t
 FaviconHelper
 :
 :
@@ -5043,7 +5043,7 @@ should
 suffice
 .
 const
-PRInt32
+int32_t
 kSecondsPerDay
 =
 86400
@@ -5055,7 +5055,7 @@ alreadyObtained
 false
 ;
 static
-PRInt32
+int32_t
 icoReCacheSecondsTimeout
 =
 kSecondsPerDay

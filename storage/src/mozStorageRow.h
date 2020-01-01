@@ -231,7 +231,7 @@ tuple
 .
 *
 /
-PRUint32
+uint32_t
 mNumCols
 ;
 /
@@ -271,7 +271,7 @@ index
 nsDataHashtable
 <
 nsCStringHashKey
-PRUint32
+uint32_t
 >
 mNameHashtable
 ;

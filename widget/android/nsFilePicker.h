@@ -130,14 +130,14 @@ const
 nsAString
 &
 title
-PRInt16
+int16_t
 mode
 )
 ;
 NS_IMETHOD
 AppendFilters
 (
-PRInt32
+int32_t
 aFilterMask
 )
 ;
@@ -226,7 +226,7 @@ aDisplayDirectory
 NS_IMETHOD
 Show
 (
-PRInt16
+int16_t
 *
 aReturn
 )
@@ -241,7 +241,7 @@ nsIWidget
 const
 nsAString
 &
-PRInt16
+int16_t
 )
 {
 }

@@ -373,7 +373,7 @@ hyperText
 1
 )
 ;
-PRInt32
+int32_t
 index
 =
 -

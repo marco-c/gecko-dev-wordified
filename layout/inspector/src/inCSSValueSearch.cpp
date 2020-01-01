@@ -448,7 +448,7 @@ inCSSValueSearch
 :
 GetResultCount
 (
-PRInt32
+int32_t
 *
 aResultCount
 )
@@ -580,7 +580,7 @@ rv
 NS_OK
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 sheets
@@ -594,7 +594,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -729,7 +729,7 @@ inCSSValueSearch
 :
 GetStringResultAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -791,9 +791,9 @@ inCSSValueSearch
 :
 GetIntResultAt
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 *
 _retval
 )
@@ -808,9 +808,9 @@ inCSSValueSearch
 :
 GetUIntResultAt
 (
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -1299,7 +1299,7 @@ inCSSValueSearch
 :
 KillSearch
 (
-PRInt16
+int16_t
 aResult
 )
 {
@@ -1423,7 +1423,7 @@ nsIURI
 aBaseURL
 )
 {
-PRUint32
+uint32_t
 length
 ;
 aRuleList
@@ -1437,7 +1437,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1469,7 +1469,7 @@ rule
 )
 )
 ;
-PRUint16
+uint16_t
 type
 ;
 rule
@@ -1712,7 +1712,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 decl
@@ -1730,7 +1730,7 @@ value
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1973,7 +1973,7 @@ false
 0
 )
 {
-PRUint32
+uint32_t
 len
 =
 aURL
@@ -2007,17 +2007,17 @@ get
 (
 )
 ;
-PRUint32
+uint32_t
 i
 =
 9
 ;
-PRUint32
+uint32_t
 milestone
 =
 0
 ;
-PRUint32
+uint32_t
 s
 =
 0

@@ -346,7 +346,7 @@ is
 happening
 .
 static
-PRInt32
+int32_t
 sIndexingMenuLevel
 ;
 NS_DECL_CHANGEOBSERVER
@@ -393,7 +393,7 @@ nsIContent
 aNode
 )
 ;
-PRUint32
+uint32_t
 GetItemCount
 (
 )
@@ -402,14 +402,14 @@ nsMenuObjectX
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aPos
 )
 ;
 nsresult
 GetVisibleItemCount
 (
-PRUint32
+uint32_t
 &
 aCount
 )
@@ -418,7 +418,7 @@ nsMenuObjectX
 *
 GetVisibleItemAt
 (
-PRUint32
+uint32_t
 aPos
 )
 ;
@@ -558,7 +558,7 @@ mMenuObjectsArray
 nsString
 mLabel
 ;
-PRUint32
+uint32_t
 mVisibleItemsCount
 ;
 /

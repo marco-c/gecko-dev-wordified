@@ -1325,7 +1325,7 @@ NS_OK
 NS_IMETHOD
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -1369,7 +1369,7 @@ NS_OK
 ;
 }
 static
-PRInt64
+int64_t
 GetImagesContentUsedUncompressed
 (
 )
@@ -1903,9 +1903,9 @@ request
 nsISupports
 *
 ctxt
-PRUint64
+uint64_t
 progress
-PRUint64
+uint64_t
 progressMax
 )
 {
@@ -2057,7 +2057,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *
@@ -2558,7 +2558,7 @@ imgRequest
 request
 bool
 forcePrincipalCheck
-PRInt32
+int32_t
 corsmode
 nsIPrincipal
 *
@@ -3136,7 +3136,7 @@ if
 p
 )
 {
-PRUint32
+uint32_t
 priority
 =
 nsISupportsPriority
@@ -3199,7 +3199,7 @@ NS_OK
 ;
 }
 static
-PRUint32
+uint32_t
 SecondsFromPRTime
 (
 PRTime
@@ -3207,14 +3207,14 @@ prTime
 )
 {
 return
-PRUint32
+uint32_t
 (
-PRInt64
+int64_t
 (
 prTime
 )
 /
-PRInt64
+int64_t
 (
 PR_USEC_PER_SEC
 )
@@ -3373,7 +3373,7 @@ imgCacheEntry
 :
 UpdateCache
 (
-PRInt32
+int32_t
 diff
 /
 *
@@ -3577,7 +3577,7 @@ imgCacheQueue
 :
 UpdateSize
 (
-PRInt32
+int32_t
 diff
 )
 {
@@ -3587,7 +3587,7 @@ mSize
 diff
 ;
 }
-PRUint32
+uint32_t
 imgCacheQueue
 :
 :
@@ -3875,7 +3875,7 @@ return
 mDirty
 ;
 }
-PRUint32
+uint32_t
 imgCacheQueue
 :
 :
@@ -4598,7 +4598,7 @@ imgLoader
 :
 sCacheTimeWeight
 ;
-PRUint32
+uint32_t
 imgLoader
 :
 :
@@ -4663,7 +4663,7 @@ gCacheTracker
 )
 return
 ;
-PRUint32
+uint32_t
 cachesize
 =
 sCache
@@ -4678,7 +4678,7 @@ Count
 (
 )
 ;
-PRUint32
+uint32_t
 queuesize
 =
 sCacheQueue
@@ -4693,7 +4693,7 @@ GetNumElements
 (
 )
 ;
-PRUint32
+uint32_t
 trackersize
 =
 0
@@ -4963,7 +4963,7 @@ Init
 (
 )
 ;
-PRInt32
+int32_t
 timeweight
 ;
 rv
@@ -5006,7 +5006,7 @@ sCacheTimeWeight
 .
 5
 ;
-PRInt32
+int32_t
 cachesize
 ;
 rv
@@ -6294,7 +6294,7 @@ CacheEntriesChanged
 nsIURI
 *
 uri
-PRInt32
+int32_t
 sizediff
 /
 *
@@ -6571,7 +6571,7 @@ aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
-PRInt32
+int32_t
 aCORSMode
 )
 {
@@ -7270,7 +7270,7 @@ aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
-PRInt32
+int32_t
 aCORSMode
 )
 {
@@ -7288,7 +7288,7 @@ ValidateEntry
 bool
 hasExpired
 ;
-PRUint32
+uint32_t
 expirationTime
 =
 aEntry
@@ -7358,7 +7358,7 @@ if
 fileUrl
 )
 {
-PRUint32
+uint32_t
 lastModTime
 =
 aEntry
@@ -7395,7 +7395,7 @@ rv
 )
 )
 {
-PRInt64
+int64_t
 fileLastMod
 ;
 rv
@@ -8433,7 +8433,7 @@ entries
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8565,7 +8565,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8974,7 +8974,7 @@ nsIRequest
 LOAD_BACKGROUND
 ;
 }
-PRInt32
+int32_t
 corsmode
 =
 imgIRequest
@@ -11321,10 +11321,10 @@ nsIRequest
 *
 aRequest
 const
-PRUint8
+uint8_t
 *
 aContents
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -11360,7 +11360,7 @@ const
 char
 *
 aContents
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -12401,9 +12401,9 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -12748,7 +12748,7 @@ isFromCache
 sameURI
 )
 {
-PRUint32
+uint32_t
 count
 =
 mProxies
@@ -12759,7 +12759,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 count
@@ -13012,7 +13012,7 @@ get
 ;
 #
 endif
-PRInt32
+int32_t
 corsmode
 =
 mRequest
@@ -13167,7 +13167,7 @@ originalURI
 mNewEntry
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mProxies
@@ -13178,7 +13178,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 count
@@ -13417,9 +13417,9 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -13435,7 +13435,7 @@ XXX
 see
 bug
 113959
-PRUint32
+uint32_t
 _retval
 ;
 inStr
@@ -13578,7 +13578,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *

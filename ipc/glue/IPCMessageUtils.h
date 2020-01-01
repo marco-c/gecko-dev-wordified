@@ -917,11 +917,11 @@ template
 struct
 ParamTraits
 <
-PRInt8
+int8_t
 >
 {
 typedef
-PRInt8
+int8_t
 paramType
 ;
 static
@@ -1020,11 +1020,11 @@ template
 struct
 ParamTraits
 <
-PRUint8
+uint8_t
 >
 {
 typedef
-PRUint8
+uint8_t
 paramType
 ;
 static
@@ -1282,7 +1282,7 @@ NULL
 pointer
 return
 ;
-PRUint32
+uint32_t
 length
 =
 aParam
@@ -1364,7 +1364,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 if
@@ -1526,7 +1526,7 @@ NULL
 pointer
 return
 ;
-PRUint32
+uint32_t
 length
 =
 aParam
@@ -1613,7 +1613,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 if
@@ -1742,7 +1742,7 @@ BeginReading
 ;
 #
 else
-PRUint32
+uint32_t
 length
 =
 aParam
@@ -1753,7 +1753,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1900,7 +1900,7 @@ paramType
 aParam
 )
 {
-PRUint32
+uint32_t
 length
 =
 aParam
@@ -1917,7 +1917,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1959,7 +1959,7 @@ paramType
 aResult
 )
 {
-PRUint32
+uint32_t
 length
 ;
 if
@@ -1988,7 +1988,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2056,7 +2056,7 @@ aLog
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

@@ -649,7 +649,7 @@ data
 return
 false
 ;
-PRUint32
+uint32_t
 length
 =
 data
@@ -663,7 +663,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 midx
 =
 0

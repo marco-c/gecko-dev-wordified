@@ -432,7 +432,7 @@ be
 .
 static
 const
-PRInt32
+int32_t
 kNumBuckets
 =
 sizeof
@@ -478,7 +478,7 @@ objects
 .
 static
 const
-PRInt32
+int32_t
 kInitialPoolSize
 =
 sizeof
@@ -865,11 +865,11 @@ const
 size_t
 *
 aBucketSizes
-PRInt32
+int32_t
 aNumBuckets
-PRInt32
+int32_t
 aInitialSize
-PRInt32
+int32_t
 aAlign
 =
 0

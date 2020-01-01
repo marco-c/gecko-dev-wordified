@@ -908,9 +908,9 @@ aCx
 const
 jsval
 aVal
-PRUint8
+uint8_t
 aTypeOffset
-PRUint16
+uint16_t
 aRecursionDepth
 )
 {
@@ -1285,12 +1285,12 @@ aEnd
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aTypeOffset
 jsval
 *
 aVal
-PRUint16
+uint16_t
 aRecursionDepth
 )
 {
@@ -1681,7 +1681,7 @@ const
 nsAString
 &
 aString
-PRUint8
+uint8_t
 aTypeOffset
 )
 {
@@ -1723,7 +1723,7 @@ byte
 chars
 below
 .
-PRUint32
+uint32_t
 size
 =
 aString
@@ -1804,7 +1804,7 @@ for
 the
 new
 size
-PRUint32
+uint32_t
 oldLen
 =
 mBuffer
@@ -1959,11 +1959,11 @@ c
 }
 else
 {
-PRUint32
+uint32_t
 c
 =
 (
-PRUint32
+uint32_t
 (
 *
 iter
@@ -2123,7 +2123,7 @@ string
 will
 be
 .
-PRUint32
+uint32_t
 size
 =
 0
@@ -2337,10 +2337,10 @@ TWO_BYTE_ADJUST
 }
 else
 {
-PRUint32
+uint32_t
 c
 =
-PRUint32
+uint32_t
 (
 *
 (
@@ -2367,7 +2367,7 @@ aEnd
 c
 |
 =
-PRUint32
+uint32_t
 (
 *
 (
@@ -2457,7 +2457,7 @@ Float64Union
 double
 d
 ;
-PRUint64
+uint64_t
 u
 ;
 }
@@ -2470,7 +2470,7 @@ EncodeNumber
 (
 double
 aFloat
-PRUint8
+uint8_t
 aType
 )
 {
@@ -2482,7 +2482,7 @@ for
 the
 new
 size
-PRUint32
+uint32_t
 oldLen
 =
 mBuffer
@@ -2541,7 +2541,7 @@ d
 =
 aFloat
 ;
-PRUint64
+uint64_t
 number
 =
 pun
@@ -2642,7 +2642,7 @@ me
 +
 aPos
 ;
-PRUint64
+uint64_t
 number
 =
 0

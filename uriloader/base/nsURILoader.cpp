@@ -630,7 +630,7 @@ nsDocumentOpenInfo
 nsIInterfaceRequestor
 *
 aWindowContext
-PRUint32
+uint32_t
 aFlags
 nsURILoader
 *
@@ -996,7 +996,7 @@ listeners
 .
 *
 /
-PRUint32
+uint32_t
 mFlags
 ;
 /
@@ -1104,7 +1104,7 @@ nsDocumentOpenInfo
 nsIInterfaceRequestor
 *
 aWindowContext
-PRUint32
+uint32_t
 aFlags
 nsURILoader
 *
@@ -1334,7 +1334,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 responseCode
 =
 0
@@ -1653,9 +1653,9 @@ aCtxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -2144,7 +2144,7 @@ forceExternalHandling
 =
 false
 ;
-PRUint32
+uint32_t
 disposition
 ;
 rv
@@ -2360,7 +2360,7 @@ type
 .
 /
 /
-PRInt32
+int32_t
 count
 =
 mURILoader
@@ -2380,7 +2380,7 @@ listener
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5122,7 +5122,7 @@ OpenChannel
 nsIChannel
 *
 channel
-PRUint32
+uint32_t
 aFlags
 nsIInterfaceRequestor
 *
@@ -5753,7 +5753,7 @@ OpenChannel
 nsIChannel
 *
 channel
-PRUint32
+uint32_t
 aFlags
 nsIInterfaceRequestor
 *

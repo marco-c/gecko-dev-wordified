@@ -865,9 +865,9 @@ nsMathMLFrame
 :
 UpdatePresentationData
 (
-PRUint32
+uint32_t
 aFlagsValues
-PRUint32
+uint32_t
 aWhichFlags
 )
 {
@@ -2294,7 +2294,7 @@ aString
 nscoord
 *
 aLengthValue
-PRUint32
+uint32_t
 aFlags
 nsPresContext
 *
@@ -2478,14 +2478,14 @@ soon
 /
 static
 const
-PRInt32
+int32_t
 kMathMLversion1
 =
 1
 ;
 static
 const
-PRInt32
+int32_t
 kMathMLversion2
 =
 2
@@ -2493,7 +2493,7 @@ kMathMLversion2
 struct
 nsCSSMapping
 {
-PRInt32
+int32_t
 compatibility
 ;
 const

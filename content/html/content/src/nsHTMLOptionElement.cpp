@@ -695,7 +695,7 @@ if
 selectInt
 )
 {
-PRInt32
+int32_t
 index
 ;
 GetIndex
@@ -787,7 +787,7 @@ nsHTMLOptionElement
 :
 GetIndex
 (
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -960,7 +960,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -1014,7 +1014,7 @@ nsHTMLOptionElement
 :
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1188,7 +1188,7 @@ mIsInSetDefaultSelected
 =
 true
 ;
-PRInt32
+int32_t
 index
 ;
 GetIndex
@@ -1758,7 +1758,7 @@ aContext
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 argc
 jsval
 *

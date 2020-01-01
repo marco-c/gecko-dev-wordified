@@ -220,7 +220,7 @@ nsSVGElement
 aElement
 bool
 aIsConditionalProcessingAttribute
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -388,7 +388,7 @@ DOMSVGStringList
 :
 GetNumberOfItems
 (
-PRUint32
+uint32_t
 *
 aNumberOfItems
 )
@@ -414,7 +414,7 @@ DOMSVGStringList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -530,7 +530,7 @@ DOMSVGStringList
 :
 GetItem
 (
-PRUint32
+uint32_t
 index
 nsAString
 &
@@ -578,7 +578,7 @@ const
 nsAString
 &
 newItem
-PRUint32
+uint32_t
 index
 nsAString
 &
@@ -710,7 +710,7 @@ const
 nsAString
 &
 newItem
-PRUint32
+uint32_t
 index
 nsAString
 &
@@ -806,7 +806,7 @@ DOMSVGStringList
 :
 RemoveItem
 (
-PRUint32
+uint32_t
 index
 nsAString
 &

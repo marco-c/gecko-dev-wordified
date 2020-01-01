@@ -277,7 +277,7 @@ state
 *
 /
 typedef
-PRUint32
+uint32_t
 nsCSSFrameType
 ;
 #
@@ -1015,7 +1015,7 @@ ComputeWidthValue
 (
 nscoord
 aContainingBlockWidth
-PRUint8
+uint8_t
 aBoxSizing
 const
 nsStyleCoord
@@ -1028,7 +1028,7 @@ ComputeHeightValue
 (
 nscoord
 aContainingBlockHeight
-PRUint8
+uint8_t
 aBoxSizing
 const
 nsStyleCoord
@@ -1858,7 +1858,7 @@ frame
 )
 ;
 }
-PRUint8
+uint8_t
 GetDisplay
 (
 )
@@ -1985,13 +1985,13 @@ the
 frame
 tree
 .
-PRInt16
+int16_t
 mReflowDepth
 ;
 struct
 ReflowStateFlags
 {
-PRUint16
+uint16_t
 mSpecialHeightReflow
 :
 1
@@ -2024,7 +2024,7 @@ not
 have
 computed
 heights
-PRUint16
+uint16_t
 mNextInFlowUntouched
 :
 1
@@ -2051,7 +2051,7 @@ descendants
 /
 is
 changing
-PRUint16
+uint16_t
 mIsTopOfPage
 :
 1
@@ -2098,7 +2098,7 @@ avoid
 infinite
 loops
 .
-PRUint16
+uint16_t
 mBlinks
 :
 1
@@ -2113,7 +2113,7 @@ text
 decoration
 :
 blink
-PRUint16
+uint16_t
 mHasClearance
 :
 1
@@ -2123,7 +2123,7 @@ mHasClearance
 Block
 has
 clearance
-PRUint16
+uint16_t
 mAssumingHScrollbar
 :
 1
@@ -2144,7 +2144,7 @@ assuming
 a
 horizontal
 scrollbar
-PRUint16
+uint16_t
 mAssumingVScrollbar
 :
 1
@@ -2165,7 +2165,7 @@ assuming
 a
 vertical
 scrollbar
-PRUint16
+uint16_t
 mHResize
 :
 1
@@ -2191,7 +2191,7 @@ width
 than
 before
 ?
-PRUint16
+uint16_t
 mVResize
 :
 1
@@ -2237,7 +2237,7 @@ different
 /
 basis
 ?
-PRUint16
+uint16_t
 mTableIsSplittable
 :
 1
@@ -2262,7 +2262,7 @@ insider
 a
 column
 frame
-PRUint16
+uint16_t
 mHeightDependsOnAncestorCell
 :
 1
@@ -2282,7 +2282,7 @@ table
 -
 cell
 ?
-PRUint16
+uint16_t
 mIsColumnBalancing
 :
 1
@@ -2293,7 +2293,7 @@ nsColumnSetFrame
 is
 balancing
 columns
-PRUint16
+uint16_t
 mDummyParentReflowState
 :
 1
@@ -2405,7 +2405,7 @@ const
 nsSize
 &
 aAvailableSpace
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -3166,7 +3166,7 @@ static
 void
 ComputeRelativeOffsets
 (
-PRUint8
+uint8_t
 aCBDirection
 nsIFrame
 *

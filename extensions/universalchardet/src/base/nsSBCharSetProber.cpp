@@ -115,7 +115,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -125,7 +125,7 @@ order
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -316,7 +316,7 @@ mLastOrder
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

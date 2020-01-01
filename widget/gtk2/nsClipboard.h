@@ -223,7 +223,7 @@ static
 GdkAtom
 GetSelectionAtom
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 ;
@@ -269,7 +269,7 @@ nsITransferable
 *
 GetTransferable
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 ;

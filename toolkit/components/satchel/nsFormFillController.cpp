@@ -543,7 +543,7 @@ from
 all
 cached
 docShells
-PRUint32
+uint32_t
 count
 ;
 mDocShells
@@ -557,7 +557,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -704,12 +704,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -748,7 +748,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -787,7 +787,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -826,7 +826,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -907,12 +907,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1200,7 +1200,7 @@ nsIDocShell
 aDocShell
 )
 {
-PRInt32
+int32_t
 index
 =
 GetIndexOfDocShell
@@ -1895,7 +1895,7 @@ nsFormFillController
 :
 GetMinResultsForPopup
 (
-PRUint32
+uint32_t
 *
 aMinResultsForPopup
 )
@@ -1915,7 +1915,7 @@ nsFormFillController
 :
 SetMinResultsForPopup
 (
-PRUint32
+uint32_t
 aMinResultsForPopup
 )
 {
@@ -1933,7 +1933,7 @@ nsFormFillController
 :
 GetMaxRows
 (
-PRUint32
+uint32_t
 *
 aMaxRows
 )
@@ -1953,7 +1953,7 @@ nsFormFillController
 :
 SetMaxRows
 (
-PRUint32
+uint32_t
 aMaxRows
 )
 {
@@ -2039,7 +2039,7 @@ nsFormFillController
 :
 GetTimeout
 (
-PRUint32
+uint32_t
 *
 aTimeout
 )
@@ -2059,7 +2059,7 @@ nsFormFillController
 :
 SetTimeout
 (
-PRUint32
+uint32_t
 aTimeout
 )
 {
@@ -2176,7 +2176,7 @@ nsFormFillController
 :
 GetSearchCount
 (
-PRUint32
+uint32_t
 *
 aSearchCount
 )
@@ -2196,7 +2196,7 @@ nsFormFillController
 :
 GetSearchAt
 (
-PRUint32
+uint32_t
 index
 nsACString
 &
@@ -2311,7 +2311,7 @@ nsFormFillController
 :
 GetSelectionStart
 (
-PRInt32
+int32_t
 *
 aSelectionStart
 )
@@ -2338,7 +2338,7 @@ nsFormFillController
 :
 GetSelectionEnd
 (
-PRInt32
+int32_t
 *
 aSelectionEnd
 )
@@ -2365,9 +2365,9 @@ nsFormFillController
 :
 SelectTextRange
 (
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aEndIndex
 )
 {
@@ -4070,7 +4070,7 @@ cancel
 =
 false
 ;
-PRUint32
+uint32_t
 k
 ;
 keyEvent
@@ -4410,7 +4410,7 @@ targetInput
 return
 NS_OK
 ;
-PRUint16
+uint16_t
 button
 ;
 mouseEvent
@@ -5236,7 +5236,7 @@ GetDocShellForInput
 aInput
 )
 ;
-PRInt32
+int32_t
 index
 =
 GetIndexOfDocShell
@@ -5657,7 +5657,7 @@ GetWindow
 )
 ;
 }
-PRInt32
+int32_t
 nsFormFillController
 :
 :
@@ -5689,7 +5689,7 @@ for
 the
 given
 docShell
-PRUint32
+uint32_t
 count
 ;
 mDocShells
@@ -5703,7 +5703,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

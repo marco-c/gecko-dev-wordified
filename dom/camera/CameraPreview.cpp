@@ -304,9 +304,9 @@ CameraPreview
 nsIThread
 *
 aCameraThread
-PRUint32
+uint32_t
 aWidth
-PRUint32
+uint32_t
 aHeight
 )
 :
@@ -426,7 +426,7 @@ CameraPreview
 :
 SetFrameRate
 (
-PRUint32
+uint32_t
 aFramesPerSecond
 )
 {

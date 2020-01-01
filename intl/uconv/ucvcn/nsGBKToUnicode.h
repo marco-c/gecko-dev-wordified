@@ -361,13 +361,13 @@ const
 char
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 PRUnichar
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )

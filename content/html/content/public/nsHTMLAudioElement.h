@@ -144,11 +144,11 @@ nsHTMLMediaElement
 h
 "
 typedef
-PRUint16
+uint16_t
 nsMediaNetworkState
 ;
 typedef
-PRUint16
+uint16_t
 nsMediaReadyState
 ;
 class
@@ -237,7 +237,7 @@ aContext
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 argc
 jsval
 *

@@ -569,7 +569,7 @@ result
 nsresult
 rv
 ;
-PRInt32
+int32_t
 len
 =
 str
@@ -578,7 +578,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 maxlen
 ;
 rv
@@ -620,7 +620,7 @@ buf
 ;
 if
 (
-PRUint32
+uint32_t
 (
 maxlen
 )
@@ -1249,7 +1249,7 @@ charset
 )
 {
 }
-PRInt32
+int32_t
 nsStandardURL
 :
 :
@@ -1266,7 +1266,7 @@ const
 URLSegment
 &
 seg
-PRInt16
+int16_t
 mask
 nsAFlatCString
 &
@@ -1274,7 +1274,7 @@ result
 bool
 &
 appended
-PRUint32
+uint32_t
 extraLen
 )
 {
@@ -1320,7 +1320,7 @@ str
 return
 0
 ;
-PRInt32
+int32_t
 len
 =
 0
@@ -1334,7 +1334,7 @@ mLen
 0
 )
 {
-PRUint32
+uint32_t
 pos
 =
 seg
@@ -1525,7 +1525,7 @@ and
 allowed
 by
 preferences
-PRInt16
+int16_t
 escapeFlags
 =
 (
@@ -1539,7 +1539,7 @@ mEncoder
 :
 esc_OnlyASCII
 ;
-PRUint32
+uint32_t
 initLen
 =
 result
@@ -1647,7 +1647,7 @@ const
 nsASingleFragmentCString
 &
 str
-PRInt16
+int16_t
 mask
 nsAFlatCString
 &
@@ -3072,7 +3072,7 @@ coalesceFlag
 path
 )
 ;
-PRInt32
+int32_t
 newLen
 =
 strlen
@@ -3089,7 +3089,7 @@ mPath
 mLen
 )
 {
-PRInt32
+int32_t
 diff
 =
 newLen
@@ -3125,7 +3125,7 @@ diff
 ;
 }
 }
-PRUint32
+uint32_t
 nsStandardURL
 :
 :
@@ -3134,7 +3134,7 @@ AppendSegmentToBuf
 char
 *
 buf
-PRUint32
+uint32_t
 i
 const
 char
@@ -3236,7 +3236,7 @@ return
 i
 ;
 }
-PRUint32
+uint32_t
 nsStandardURL
 :
 :
@@ -3245,13 +3245,13 @@ AppendToBuf
 char
 *
 buf
-PRUint32
+uint32_t
 i
 const
 char
 *
 str
-PRUint32
+uint32_t
 len
 )
 {
@@ -3443,7 +3443,7 @@ query_string
 #
 ref
 ]
-PRUint32
+uint32_t
 approxLen
 =
 0
@@ -4085,7 +4085,7 @@ BeginWriting
 buf
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -4442,7 +4442,7 @@ i
 }
 else
 {
-PRUint32
+uint32_t
 leadingSlash
 =
 0
@@ -5382,21 +5382,21 @@ mLen
 )
 ;
 }
-PRInt32
+int32_t
 nsStandardURL
 :
 :
 ReplaceSegment
 (
-PRUint32
+uint32_t
 pos
-PRUint32
+uint32_t
 len
 const
 char
 *
 val
-PRUint32
+uint32_t
 valLen
 )
 {
@@ -5461,21 +5461,21 @@ len
 ;
 return
 -
-PRInt32
+int32_t
 (
 len
 )
 ;
 }
-PRInt32
+int32_t
 nsStandardURL
 :
 :
 ReplaceSegment
 (
-PRUint32
+uint32_t
 pos
-PRUint32
+uint32_t
 len
 const
 nsACString
@@ -5528,7 +5528,7 @@ const
 char
 *
 spec
-PRInt32
+int32_t
 specLen
 )
 {
@@ -5784,9 +5784,9 @@ const
 char
 *
 spec
-PRUint32
+uint32_t
 pathPos
-PRInt32
+int32_t
 pathLen
 )
 {
@@ -5981,9 +5981,9 @@ nsStandardURL
 :
 AppendToSubstring
 (
-PRUint32
+uint32_t
 pos
-PRInt32
+int32_t
 len
 const
 char
@@ -6025,7 +6025,7 @@ NULL
 if
 (
 (
-PRUint32
+uint32_t
 )
 len
 >
@@ -6050,7 +6050,7 @@ tail
 return
 NULL
 ;
-PRUint32
+uint32_t
 tailLen
 =
 strlen
@@ -6076,7 +6076,7 @@ PR_UINT32_MAX
 -
 (
 (
-PRUint32
+uint32_t
 )
 len
 +
@@ -6197,7 +6197,7 @@ stream
 Read32
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -6267,7 +6267,7 @@ stream
 >
 Write32
 (
-PRUint32
+uint32_t
 (
 seg
 .
@@ -7361,7 +7361,7 @@ nsStandardURL
 :
 GetPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -7488,7 +7488,7 @@ Length
 +
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 32
@@ -7571,7 +7571,7 @@ hostA
 :
 port
 "
-PRUint32
+uint32_t
 pos
 =
 mHost
@@ -7844,7 +7844,7 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 specLength
 =
 flat
@@ -8459,7 +8459,7 @@ InvalidateCache
 (
 )
 ;
-PRInt32
+int32_t
 shift
 =
 ReplaceSegment
@@ -8773,11 +8773,11 @@ uninitialized
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 usernamePos
 passwordPos
 ;
-PRInt32
+int32_t
 usernameLen
 passwordLen
 ;
@@ -8928,7 +8928,7 @@ Append
 )
 ;
 }
-PRUint32
+uint32_t
 shift
 =
 0
@@ -8996,7 +8996,7 @@ existing
 user
 :
 pass
-PRUint32
+uint32_t
 userpassLen
 =
 mUsername
@@ -9237,7 +9237,7 @@ esc_Username
 buf
 )
 ;
-PRInt32
+int32_t
 shift
 ;
 if
@@ -9557,7 +9557,7 @@ esc_Password
 buf
 )
 ;
-PRInt32
+int32_t
 shift
 ;
 if
@@ -9939,7 +9939,7 @@ IPv6
 unescaped
 address
 literal
-PRInt32
+int32_t
 len
 ;
 nsCAutoString
@@ -10031,7 +10031,7 @@ mLen
 0
 ;
 }
-PRInt32
+int32_t
 shift
 =
 ReplaceSegment
@@ -10104,7 +10104,7 @@ nsStandardURL
 :
 SetPort
 (
-PRInt32
+int32_t
 port
 )
 {
@@ -10354,7 +10354,7 @@ from
 the
 URL
 spec
-PRUint32
+uint32_t
 start
 =
 mHost
@@ -10365,7 +10365,7 @@ mHost
 .
 mLen
 ;
-PRUint32
+uint32_t
 lengthToCut
 =
 mPath
@@ -10416,7 +10416,7 @@ AppendInt
 port
 )
 ;
-PRUint32
+uint32_t
 start
 =
 mHost
@@ -10429,7 +10429,7 @@ mLen
 +
 1
 ;
-PRUint32
+uint32_t
 length
 =
 mPath
@@ -11882,7 +11882,7 @@ necessary
 nsCAutoString
 buf
 ;
-PRInt32
+int32_t
 relpathLen
 ;
 if
@@ -12051,7 +12051,7 @@ relative
 =
 false
 ;
-PRUint32
+uint32_t
 offset
 =
 0
@@ -12519,7 +12519,7 @@ if
 relative
 )
 {
-PRUint32
+uint32_t
 len
 =
 0
@@ -13914,7 +13914,7 @@ from
 thisIndex
 to
 end
-PRUint32
+uint32_t
 startPos
 =
 stdurl2
@@ -14487,12 +14487,12 @@ filepath
 nsCAutoString
 spec
 ;
-PRUint32
+uint32_t
 dirPos
 basePos
 extPos
 ;
-PRInt32
+int32_t
 dirLen
 baseLen
 extLen
@@ -14713,7 +14713,7 @@ mLen
 0
 )
 {
-PRUint32
+uint32_t
 end
 =
 mFilepath
@@ -15027,7 +15027,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 queryLen
 =
 strlen
@@ -15195,7 +15195,7 @@ Length
 )
 ;
 }
-PRInt32
+int32_t
 shift
 =
 ReplaceSegment
@@ -15396,7 +15396,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 refLen
 =
 strlen
@@ -15530,7 +15530,7 @@ Length
 )
 ;
 }
-PRInt32
+int32_t
 shift
 =
 ReplaceSegment
@@ -15656,7 +15656,7 @@ SetPath
 flat
 )
 ;
-PRInt32
+int32_t
 shift
 =
 0
@@ -15824,7 +15824,7 @@ mLen
 0
 )
 {
-PRUint32
+uint32_t
 len
 =
 mBasename
@@ -15864,7 +15864,7 @@ len
 shift
 =
 -
-PRInt32
+int32_t
 (
 len
 )
@@ -16003,10 +16003,10 @@ else
 replace
 existing
 filename
-PRUint32
+uint32_t
 oldLen
 =
-PRUint32
+uint32_t
 (
 mBasename
 .
@@ -17140,9 +17140,9 @@ nsStandardURL
 :
 Init
 (
-PRUint32
+uint32_t
 urlType
-PRInt32
+int32_t
 defaultPort
 const
 nsACString
@@ -17396,7 +17396,7 @@ if
 baseURI
 )
 {
-PRUint32
+uint32_t
 start
 end
 ;
@@ -17818,7 +17818,7 @@ here
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 urlType
 ;
 rv
@@ -17906,7 +17906,7 @@ stream
 Read32
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -17931,7 +17931,7 @@ stream
 Read32
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -18342,7 +18342,7 @@ mSupportsFileURL
 =
 supportsFileURL
 ;
-PRUint32
+uint32_t
 hostEncoding
 ;
 rv
@@ -18576,7 +18576,7 @@ stream
 >
 Write32
 (
-PRUint32
+uint32_t
 (
 mPort
 )
@@ -18599,7 +18599,7 @@ stream
 >
 Write32
 (
-PRUint32
+uint32_t
 (
 mDefaultPort
 )
@@ -19272,7 +19272,7 @@ file
 "
 )
 ;
-PRUint32
+uint32_t
 urlType
 ;
 if
@@ -19345,7 +19345,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 hostEncoding
 ;
 bool
@@ -19922,7 +19922,7 @@ nsStandardURL
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -19952,7 +19952,7 @@ nsStandardURL
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -20064,7 +20064,7 @@ nsStandardURL
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -20087,7 +20087,7 @@ nsStandardURL
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )

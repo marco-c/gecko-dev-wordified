@@ -372,7 +372,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 bufLen
 )
 :
@@ -399,9 +399,9 @@ OnWriteSegment
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )
@@ -459,7 +459,7 @@ char
 *
 mBuf
 ;
-PRUint32
+uint32_t
 mBufLen
 ;
 }
@@ -799,7 +799,7 @@ AppendElement
 trans
 )
 ;
-PRUint32
+uint32_t
 qlen
 =
 PipelineDepth
@@ -918,7 +918,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsHttpPipeline
 :
 :
@@ -946,7 +946,7 @@ nsHttpPipeline
 :
 SetPipelinePosition
 (
-PRInt32
+int32_t
 position
 )
 {
@@ -976,7 +976,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsHttpPipeline
 :
 :
@@ -1690,7 +1690,7 @@ given
 "
 reason
 "
-PRInt32
+int32_t
 index
 ;
 bool
@@ -2074,7 +2074,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 length
 )
 {
@@ -2557,7 +2557,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 nsHttpPipeline
 :
 :
@@ -2621,7 +2621,7 @@ mRequestIsPartial
 return
 NS_ERROR_ALREADY_OPENED
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -3151,7 +3151,7 @@ nsITransport
 transport
 nsresult
 status
-PRUint64
+uint64_t
 progress
 )
 {
@@ -3204,7 +3204,7 @@ nsAHttpTransaction
 *
 trans
 ;
-PRInt32
+int32_t
 i
 count
 ;
@@ -3651,7 +3651,7 @@ done
 =
 true
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -3747,7 +3747,7 @@ return
 mStatus
 ;
 }
-PRUint8
+uint8_t
 nsHttpPipeline
 :
 :
@@ -3789,7 +3789,7 @@ Caps
 0
 ;
 }
-PRUint64
+uint64_t
 nsHttpPipeline
 :
 :
@@ -3797,12 +3797,12 @@ Available
 (
 )
 {
-PRUint64
+uint64_t
 result
 =
 0
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -3859,11 +3859,11 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -3902,9 +3902,9 @@ ReadSegments
 nsAHttpSegmentReader
 *
 reader
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -3966,7 +3966,7 @@ mStatus
 nsresult
 rv
 ;
-PRUint64
+uint64_t
 avail
 =
 0
@@ -4102,7 +4102,7 @@ under
 so
 casting
 to
-PRUint32
+uint32_t
 is
 safe
 rv
@@ -4115,7 +4115,7 @@ ReadSegments
 ReadFromPipe
 this
 (
-PRUint32
+uint32_t
 )
 avail
 countRead
@@ -4138,9 +4138,9 @@ WriteSegments
 nsAHttpSegmentWriter
 *
 writer
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )
@@ -4515,7 +4515,7 @@ mPushBackBuf
 mPushBackLen
 )
 ;
-PRUint32
+uint32_t
 len
 =
 mPushBackLen
@@ -4630,7 +4630,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 nsHttpPipeline
 :
 :
@@ -4640,7 +4640,7 @@ nsresult
 originalReason
 )
 {
-PRUint32
+uint32_t
 i
 reqLen
 respLen
@@ -4987,7 +4987,7 @@ ci
 )
 )
 ;
-PRUint32
+uint32_t
 numRescheduled
 =
 CancelPipeline
@@ -5199,9 +5199,9 @@ const
 char
 *
 segment
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -5310,10 +5310,10 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 n
 ;
-PRUint64
+uint64_t
 avail
 ;
 nsAHttpTransaction
@@ -5450,13 +5450,13 @@ ReadSegments
 (
 this
 (
-PRUint32
+uint32_t
 )
 NS_MIN
 (
 avail
 (
-PRUint64
+uint64_t
 )
 PR_UINT32_MAX
 )

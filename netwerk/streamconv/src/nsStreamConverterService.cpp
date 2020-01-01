@@ -1531,7 +1531,7 @@ ContractIDStr
 aContractID
 )
 ;
-PRInt32
+int32_t
 fromLoc
 =
 ContractIDStr
@@ -1544,7 +1544,7 @@ from
 "
 )
 ;
-PRInt32
+int32_t
 toLoc
 =
 ContractIDStr
@@ -2020,7 +2020,7 @@ the
 appropriate
 converter
 .
-PRInt32
+int32_t
 vertexCount
 =
 mAdjacencyList
@@ -2407,7 +2407,7 @@ headVertexState
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 edgeCount
 =
 edges
@@ -2419,7 +2419,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3596,10 +3596,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 edgeCount
 =
-PRInt32
+int32_t
 (
 converterChain
 -
@@ -3662,7 +3662,7 @@ convertedData
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 edgeCount
@@ -4139,10 +4139,10 @@ stream
 conversion
 traversal
 .
-PRInt32
+int32_t
 edgeCount
 =
-PRInt32
+int32_t
 (
 converterChain
 -

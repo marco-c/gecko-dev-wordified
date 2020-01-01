@@ -648,7 +648,7 @@ S_OK
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1200,7 +1200,7 @@ and
 the
 trailing
 null
-PRUint32
+uint32_t
 buffersize
 =
 sizeof
@@ -1213,7 +1213,7 @@ sizeof
 PRUnichar
 )
 ;
-PRUint32
+uint32_t
 alloclen
 =
 0
@@ -1235,7 +1235,7 @@ buffersize
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1667,12 +1667,12 @@ hGlobalMemory
 HRESULT
 hr
 ;
-PRUint32
+uint32_t
 buffersize
 =
 1
 ;
-PRUint32
+uint32_t
 alloclen
 =
 0
@@ -1701,7 +1701,7 @@ text
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1971,7 +1971,7 @@ text
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2258,7 +2258,7 @@ hGlobalMemory
 HRESULT
 hr
 ;
-PRUint32
+uint32_t
 buffersize
 =
 sizeof
@@ -2266,7 +2266,7 @@ sizeof
 FILEGROUPDESCRIPTOR
 )
 ;
-PRUint32
+uint32_t
 alloclen
 =
 sizeof
@@ -2284,7 +2284,7 @@ buffersize
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2630,7 +2630,7 @@ it
 along
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2744,7 +2744,7 @@ it
 along
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

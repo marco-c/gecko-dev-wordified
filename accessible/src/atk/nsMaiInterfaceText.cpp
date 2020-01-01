@@ -202,7 +202,7 @@ PASSWORD_TEXT
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -436,7 +436,7 @@ nullptr
 nsAutoString
 autoStr
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -580,7 +580,7 @@ nullptr
 nsAutoString
 autoStr
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -873,7 +873,7 @@ nullptr
 nsAutoString
 autoStr
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -1003,7 +1003,7 @@ accText
 0
 )
 ;
-PRInt32
+int32_t
 offset
 ;
 nsresult
@@ -1120,7 +1120,7 @@ nsIPersistentProperties
 >
 attributes
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -1353,7 +1353,7 @@ accText
 )
 return
 ;
-PRInt32
+int32_t
 extY
 =
 0
@@ -1361,7 +1361,7 @@ extX
 =
 0
 ;
-PRInt32
+int32_t
 extWidth
 =
 0
@@ -1369,7 +1369,7 @@ extHeight
 =
 0
 ;
-PRUint32
+uint32_t
 geckoCoordType
 ;
 if
@@ -1526,7 +1526,7 @@ accText
 )
 return
 ;
-PRInt32
+int32_t
 extY
 =
 0
@@ -1534,7 +1534,7 @@ extX
 =
 0
 ;
-PRInt32
+int32_t
 extWidth
 =
 0
@@ -1542,7 +1542,7 @@ extHeight
 =
 0
 ;
-PRUint32
+uint32_t
 geckoCoordType
 ;
 if
@@ -1767,12 +1767,12 @@ accText
 1
 )
 ;
-PRInt32
+int32_t
 offset
 =
 0
 ;
-PRUint32
+uint32_t
 geckoCoordType
 ;
 if
@@ -1875,7 +1875,7 @@ accText
 0
 )
 ;
-PRInt32
+int32_t
 selectionCount
 ;
 nsresult
@@ -1966,7 +1966,7 @@ accText
 nullptr
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 0

@@ -150,7 +150,7 @@ collation
 key
 .
 const
-PRUint32
+uint32_t
 kCacheSize
 =
 128
@@ -184,7 +184,7 @@ be
 safer
 .
 const
-PRUint32
+uint32_t
 kCollationValueSizeFactor
 =
 6
@@ -234,7 +234,7 @@ nsresult
 StrengthToOptions
 (
 const
-PRInt32
+int32_t
 aStrength
 UCCollateOptions
 *
@@ -245,7 +245,7 @@ nsresult
 EnsureCollator
 (
 const
-PRInt32
+int32_t
 newStrength
 )
 ;
@@ -260,7 +260,7 @@ mHasCollator
 LocaleRef
 mLocale
 ;
-PRInt32
+int32_t
 mLastStrength
 ;
 CollatorRef
@@ -278,7 +278,7 @@ to
 generate
 collation
 keys
-PRUint32
+uint32_t
 mBufferLen
 ;
 /

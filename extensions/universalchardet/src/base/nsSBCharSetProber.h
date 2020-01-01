@@ -175,7 +175,7 @@ char
 s
 order
 const
-PRUint8
+uint8_t
 *
 const
 precedenceMatrix
@@ -315,7 +315,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -480,16 +480,16 @@ unsigned
 char
 mLastOrder
 ;
-PRUint32
+uint32_t
 mTotalSeqs
 ;
-PRUint32
+uint32_t
 mSeqCounters
 [
 NUMBER_OF_SEQ_CAT
 ]
 ;
-PRUint32
+uint32_t
 mTotalChar
 ;
 /
@@ -501,7 +501,7 @@ in
 our
 sampling
 range
-PRUint32
+uint32_t
 mFreqChar
 ;
 /

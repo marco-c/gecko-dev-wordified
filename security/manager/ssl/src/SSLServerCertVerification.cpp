@@ -1809,7 +1809,7 @@ TransportSecurityInfo
 infoObject
 PRErrorCode
 defaultErrorCodeToReport
-PRUint32
+uint32_t
 collectedErrors
 PRErrorCode
 errorCodeTrust
@@ -1912,7 +1912,7 @@ PRErrorCode
 mDefaultErrorCodeToReport
 ;
 const
-PRUint32
+uint32_t
 mCollectedErrors
 ;
 const
@@ -1994,7 +1994,7 @@ mDefaultErrorCodeToReport
 )
 ;
 }
-PRInt32
+int32_t
 port
 ;
 mInfoObject
@@ -2037,7 +2037,7 @@ AppendInt
 port
 )
 ;
-PRUint32
+uint32_t
 remaining_display_errors
 =
 mCollectedErrors
@@ -2173,7 +2173,7 @@ continue
 without
 the
 nsICertOverrideService
-PRUint32
+uint32_t
 overrideBits
 =
 0
@@ -3113,7 +3113,7 @@ errorCodeExpired
 =
 0
 ;
-PRUint32
+uint32_t
 collected_errors
 =
 0

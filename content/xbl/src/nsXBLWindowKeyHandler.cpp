@@ -716,7 +716,7 @@ sXBLSpecialDocInfo
 =
 nullptr
 ;
-PRUint32
+uint32_t
 nsXBLWindowKeyHandler
 :
 :
@@ -1918,7 +1918,7 @@ inEventType
 nsIDOMKeyEvent
 *
 inEvent
-PRUint32
+uint32_t
 aCharCode
 bool
 aIgnoreShiftKey
@@ -2248,7 +2248,7 @@ NS_OK
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2313,7 +2313,7 @@ aEventType
 nsXBLPrototypeHandler
 *
 aHandler
-PRUint32
+uint32_t
 aCharCode
 bool
 aIgnoreShiftKey

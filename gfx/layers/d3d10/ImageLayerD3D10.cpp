@@ -1287,7 +1287,7 @@ srView
 return
 ;
 }
-PRUint8
+uint8_t
 shaderFlags
 =
 SHADER_PREMUL

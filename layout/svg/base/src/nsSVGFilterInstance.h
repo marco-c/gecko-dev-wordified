@@ -694,7 +694,7 @@ const
 nsIntRect
 &
 aPreFilterDirtyRect
-PRUint16
+uint16_t
 aPrimitiveUnits
 )
 :
@@ -923,7 +923,7 @@ return
 mFilterSpaceSize
 ;
 }
-PRUint32
+uint32_t
 GetFilterResX
 (
 )
@@ -935,7 +935,7 @@ mFilterSpaceSize
 width
 ;
 }
-PRUint32
+uint32_t
 GetFilterResY
 (
 )
@@ -1007,7 +1007,7 @@ return
 mSurfaceRect
 ;
 }
-PRInt32
+int32_t
 GetSurfaceWidth
 (
 )
@@ -1019,7 +1019,7 @@ mSurfaceRect
 width
 ;
 }
-PRInt32
+int32_t
 GetSurfaceHeight
 (
 )
@@ -1305,7 +1305,7 @@ aBBox
 float
 GetPrimitiveNumber
 (
-PRUint8
+uint8_t
 aCtxType
 const
 nsSVGNumber2
@@ -1330,7 +1330,7 @@ GetAnimValue
 float
 GetPrimitiveNumber
 (
-PRUint8
+uint8_t
 aCtxType
 const
 nsSVGNumberPair
@@ -1567,7 +1567,7 @@ return
 mFilterSpaceToFrameSpaceInCSSPxTransform
 ;
 }
-PRInt32
+int32_t
 AppUnitsPerCSSPixel
 (
 )
@@ -1966,7 +1966,7 @@ operation
 .
 *
 /
-PRInt32
+int32_t
 mImageUsers
 ;
 /
@@ -2647,7 +2647,7 @@ applied
 float
 GetPrimitiveNumber
 (
-PRUint8
+uint8_t
 aCtxType
 float
 aValue
@@ -2947,7 +2947,7 @@ userSpaceOnUse
 .
 *
 /
-PRUint16
+uint16_t
 mPrimitiveUnits
 ;
 PrimitiveInfo

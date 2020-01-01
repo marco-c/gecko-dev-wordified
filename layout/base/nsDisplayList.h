@@ -2384,7 +2384,7 @@ mSyncDecodeImages
 .
 *
 /
-PRUint32
+uint32_t
 GetBackgroundPaintFlags
 (
 )
@@ -2863,7 +2863,7 @@ widget
 void
 RegisterThemeGeometry
 (
-PRUint8
+uint8_t
 aWidgetType
 const
 nsIntRect
@@ -3557,7 +3557,7 @@ nsIFrame
 *
 mCaretFrame
 ;
-PRUint32
+uint32_t
 mFirstFrameMarkedForDisplay
 ;
 bool
@@ -4453,13 +4453,13 @@ only
 *
 /
 virtual
-PRUint32
+uint32_t
 GetPerFrameKey
 (
 )
 {
 return
-PRUint32
+uint32_t
 (
 GetType
 (
@@ -7413,7 +7413,7 @@ the
 list
 *
 /
-PRUint32
+uint32_t
 Count
 (
 )
@@ -8314,7 +8314,7 @@ aBuilder
 nsRenderingContext
 *
 aCtx
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -8358,7 +8358,7 @@ aCtx
 nsIFrame
 *
 aForFrame
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -9369,7 +9369,7 @@ aCommonAncestor
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9900,7 +9900,7 @@ const
 char
 *
 aFrameName
-PRUint32
+uint32_t
 aColor
 =
 0
@@ -11093,7 +11093,7 @@ GetInsideClipRegion
 nsPresContext
 *
 aPresContext
-PRUint8
+uint8_t
 aClip
 const
 nsRect
@@ -13832,7 +13832,7 @@ Clip
 TYPE_CLIP
 )
 virtual
-PRUint32
+uint32_t
 GetPerFrameKey
 (
 )
@@ -14244,9 +14244,9 @@ aFrame
 nsDisplayList
 *
 aList
-PRInt32
+int32_t
 aAPD
-PRInt32
+int32_t
 aParentAPD
 )
 ;
@@ -14369,7 +14369,7 @@ the
 child
 document
 .
-PRInt32
+int32_t
 GetChildAppUnitsPerDevPixel
 (
 )
@@ -14393,7 +14393,7 @@ the
 parent
 document
 .
-PRInt32
+int32_t
 GetParentAppUnitsPerDevPixel
 (
 )
@@ -14404,7 +14404,7 @@ mParentAPD
 }
 private
 :
-PRInt32
+int32_t
 mAPD
 mParentAPD
 ;
@@ -14795,7 +14795,7 @@ aFrame
 nsDisplayList
 *
 aList
-PRUint32
+uint32_t
 aIndex
 =
 0
@@ -14846,7 +14846,7 @@ aFrame
 nsDisplayItem
 *
 aItem
-PRUint32
+uint32_t
 aIndex
 =
 0
@@ -15083,7 +15083,7 @@ aItem
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetPerFrameKey
 (
 )
@@ -15838,7 +15838,7 @@ mTransform
 float
 mCachedAppUnitsPerPixel
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 }

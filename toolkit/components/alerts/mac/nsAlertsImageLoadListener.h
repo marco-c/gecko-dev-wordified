@@ -119,7 +119,7 @@ const
 nsAString
 &
 aAlertCookie
-PRUint32
+uint32_t
 aAlertListenerKey
 )
 ;
@@ -139,7 +139,7 @@ mAlertText
 nsString
 mAlertCookie
 ;
-PRUint32
+uint32_t
 mAlertListenerKey
 ;
 }

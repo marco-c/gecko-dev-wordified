@@ -274,7 +274,7 @@ ReadFromResource
 resource
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -359,7 +359,7 @@ CheckedUint32
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mMetadata
@@ -370,7 +370,7 @@ frameWidth
 *
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mMetadata
@@ -648,7 +648,7 @@ sizeof
 nsRawPacketHeader
 )
 ;
-PRInt64
+int64_t
 length
 =
 resource
@@ -792,10 +792,10 @@ ReadFromResource
 MediaResource
 *
 aResource
-PRUint8
+uint8_t
 *
 aBuf
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -806,7 +806,7 @@ aLength
 0
 )
 {
-PRUint32
+uint32_t
 bytesRead
 =
 0
@@ -876,7 +876,7 @@ DecodeVideoFrame
 bool
 &
 aKeyframeSkip
-PRInt64
+int64_t
 aTimeThreshold
 )
 {
@@ -923,7 +923,7 @@ stack
 based
 class
 .
-PRUint32
+uint32_t
 parsed
 =
 0
@@ -962,7 +962,7 @@ refuse
 to
 play
 .
-PRInt64
+int64_t
 currentFrameTime
 =
 USECS_PER_S
@@ -971,7 +971,7 @@ mCurrentFrame
 /
 mFrameRate
 ;
-PRUint32
+uint32_t
 length
 =
 mFrameSize
@@ -983,12 +983,12 @@ nsRawPacketHeader
 ;
 nsAutoArrayPtr
 <
-PRUint8
+uint8_t
 >
 buffer
 (
 new
-PRUint8
+uint8_t
 [
 length
 ]
@@ -1054,7 +1054,7 @@ ReadFromResource
 resource
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -1229,7 +1229,7 @@ mSkip
 =
 0
 ;
-PRUint32
+uint32_t
 cbcrStride
 =
 mMetadata
@@ -1499,13 +1499,13 @@ nsRawReader
 :
 Seek
 (
-PRInt64
+int64_t
 aTime
-PRInt64
+int64_t
 aStartTime
-PRInt64
+int64_t
 aEndTime
-PRInt64
+int64_t
 aCurrentTime
 )
 {
@@ -1550,7 +1550,7 @@ resource
 "
 )
 ;
-PRUint32
+uint32_t
 frame
 =
 mCurrentFrame
@@ -1767,7 +1767,7 @@ GetBuffered
 nsTimeRanges
 *
 aBuffered
-PRInt64
+int64_t
 aStartTime
 )
 {

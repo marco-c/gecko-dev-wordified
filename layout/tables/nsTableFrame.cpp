@@ -2252,7 +2252,7 @@ map
 and
 reinsert
 it
-PRInt32
+int32_t
 rowIndex
 colIndex
 ;
@@ -2378,7 +2378,7 @@ col
 count
 *
 /
-PRInt32
+int32_t
 nsTableFrame
 :
 :
@@ -2387,7 +2387,7 @@ GetEffectiveColCount
 )
 const
 {
-PRInt32
+int32_t
 colCount
 =
 GetColCount
@@ -2449,7 +2449,7 @@ originating
 cells
 for
 (
-PRInt32
+int32_t
 colX
 =
 colCount
@@ -2492,7 +2492,7 @@ return
 colCount
 ;
 }
-PRInt32
+int32_t
 nsTableFrame
 :
 :
@@ -2500,7 +2500,7 @@ GetIndexOfLastRealCol
 (
 )
 {
-PRInt32
+int32_t
 numCols
 =
 mColFrames
@@ -2518,7 +2518,7 @@ numCols
 {
 for
 (
-PRInt32
+int32_t
 colX
 =
 numCols
@@ -2581,7 +2581,7 @@ nsTableFrame
 :
 GetColFrame
 (
-PRInt32
+int32_t
 aColIndex
 )
 const
@@ -2602,7 +2602,7 @@ flow
 "
 )
 ;
-PRInt32
+int32_t
 numCols
 =
 mColFrames
@@ -2653,13 +2653,13 @@ nullptr
 ;
 }
 }
-PRInt32
+int32_t
 nsTableFrame
 :
 :
 GetEffectiveRowSpan
 (
-PRInt32
+int32_t
 aRowIndex
 const
 nsTableCellFrame
@@ -2693,7 +2693,7 @@ allocated
 "
 )
 ;
-PRInt32
+int32_t
 colIndex
 ;
 aCell
@@ -2714,7 +2714,7 @@ colIndex
 )
 ;
 }
-PRInt32
+int32_t
 nsTableFrame
 :
 :
@@ -2747,7 +2747,7 @@ ABORT1
 1
 )
 ;
-PRInt32
+int32_t
 colIndex
 rowIndex
 ;
@@ -2792,7 +2792,7 @@ colIndex
 )
 ;
 }
-PRInt32
+int32_t
 nsTableFrame
 :
 :
@@ -2826,7 +2826,7 @@ ABORT1
 1
 )
 ;
-PRInt32
+int32_t
 colIndex
 rowIndex
 ;
@@ -2882,7 +2882,7 @@ nsTableFrame
 :
 HasMoreThanOneCell
 (
-PRInt32
+int32_t
 aRowIndex
 )
 const
@@ -2921,9 +2921,9 @@ nsTableFrame
 :
 AdjustRowIndices
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aAdjustment
 )
 {
@@ -2961,7 +2961,7 @@ rowGroups
 ;
 for
 (
-PRUint32
+uint32_t
 rgX
 =
 0
@@ -3041,7 +3041,7 @@ OrderRowGroups
 rowGroups
 )
 ;
-PRInt32
+int32_t
 rowIndex
 =
 0
@@ -3107,7 +3107,7 @@ Next
 }
 for
 (
-PRUint32
+uint32_t
 rgX
 =
 0
@@ -3235,7 +3235,7 @@ nsTableFrame
 :
 InsertColGroups
 (
-PRInt32
+int32_t
 aStartColIndex
 const
 nsFrameList
@@ -3246,7 +3246,7 @@ Slice
 aColGroups
 )
 {
-PRInt32
+int32_t
 colIndex
 =
 aStartColIndex
@@ -3464,7 +3464,7 @@ PrincipalChildList
 )
 )
 ;
-PRInt32
+int32_t
 numCols
 =
 cgFrame
@@ -3533,7 +3533,7 @@ InsertCol
 nsTableColFrame
 &
 aColFrame
-PRInt32
+int32_t
 aColIndex
 )
 {
@@ -3555,7 +3555,7 @@ GetColType
 (
 )
 ;
-PRInt32
+int32_t
 numCacheCols
 =
 mColFrames
@@ -3577,7 +3577,7 @@ if
 cellMap
 )
 {
-PRInt32
+int32_t
 numMapCols
 =
 cellMap
@@ -3806,7 +3806,7 @@ RemoveCol
 nsTableColGroupFrame
 *
 aColGroupFrame
-PRInt32
+int32_t
 aColIndex
 bool
 aRemoveFromCache
@@ -4084,7 +4084,7 @@ nsTableFrame
 :
 AppendAnonymousColFrames
 (
-PRInt32
+int32_t
 aNumColsToAdd
 )
 {
@@ -4132,7 +4132,7 @@ eColGroupAnonymousCell
 )
 )
 {
-PRInt32
+int32_t
 colIndex
 =
 (
@@ -4239,7 +4239,7 @@ AppendAnonymousColFrames
 nsTableColGroupFrame
 *
 aColGroupFrame
-PRInt32
+int32_t
 aNumColsToAdd
 nsTableColType
 aColType
@@ -4293,7 +4293,7 @@ frame
 nsFrameList
 newColFrames
 ;
-PRInt32
+int32_t
 startIndex
 =
 mColFrames
@@ -4302,7 +4302,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 lastIndex
 =
 startIndex
@@ -4313,7 +4313,7 @@ aNumColsToAdd
 ;
 for
 (
-PRInt32
+int32_t
 childX
 =
 startIndex
@@ -4527,7 +4527,7 @@ index
 in
 the
 cache
-PRInt32
+int32_t
 startColIndex
 ;
 if
@@ -4589,14 +4589,14 @@ nsTableCellMap
 aCellMap
 )
 {
-PRInt32
+int32_t
 numColsInMap
 =
 GetColCount
 (
 )
 ;
-PRInt32
+int32_t
 numColsInCache
 =
 mColFrames
@@ -4605,7 +4605,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 numColsToAdd
 =
 numColsInMap
@@ -4646,7 +4646,7 @@ numColsToAdd
 0
 )
 {
-PRInt32
+int32_t
 numColsNotRemoved
 =
 DestroyAnonymousColFrames
@@ -4893,7 +4893,7 @@ AppendCell
 nsTableCellFrame
 &
 aCellFrame
-PRInt32
+int32_t
 aRowIndex
 )
 {
@@ -4963,9 +4963,9 @@ nsTableCellFrame
 >
 &
 aCellFrames
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aColIndexBefore
 )
 {
@@ -5039,13 +5039,13 @@ not
 the
 cell
 map
-PRInt32
+int32_t
 nsTableFrame
 :
 :
 DestroyAnonymousColFrames
 (
-PRInt32
+int32_t
 aNumFrames
 )
 {
@@ -5067,7 +5067,7 @@ at
 the
 end
 )
-PRInt32
+int32_t
 endIndex
 =
 mColFrames
@@ -5078,7 +5078,7 @@ Length
 -
 1
 ;
-PRInt32
+int32_t
 startIndex
 =
 (
@@ -5089,14 +5089,14 @@ aNumFrames
 +
 1
 ;
-PRInt32
+int32_t
 numColsRemoved
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 colX
 =
 endIndex
@@ -5223,7 +5223,7 @@ RemoveCell
 nsTableCellFrame
 *
 aCellFrame
-PRInt32
+int32_t
 aRowIndex
 )
 {
@@ -5279,7 +5279,7 @@ damageArea
 }
 }
 }
-PRInt32
+int32_t
 nsTableFrame
 :
 :
@@ -5298,14 +5298,14 @@ OrderRowGroups
 orderedRowGroups
 )
 ;
-PRInt32
+int32_t
 rowIndex
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 rgIndex
 =
 0
@@ -5343,7 +5343,7 @@ aRowGroupFrame
 break
 ;
 }
-PRInt32
+int32_t
 numRows
 =
 rgFrame
@@ -5382,7 +5382,7 @@ AppendRows
 nsTableRowGroupFrame
 *
 aRowGroupFrame
-PRInt32
+int32_t
 aRowIndex
 nsTArray
 <
@@ -5406,7 +5406,7 @@ if
 cellMap
 )
 {
-PRInt32
+int32_t
 absRowIndex
 =
 GetStartRowIndex
@@ -5436,7 +5436,7 @@ a
 single
 row
 group
-PRInt32
+int32_t
 nsTableFrame
 :
 :
@@ -5452,7 +5452,7 @@ nsTableRowFrame
 >
 &
 aRowFrames
-PRInt32
+int32_t
 aRowIndex
 bool
 aConsiderSpans
@@ -5487,7 +5487,7 @@ true
 ;
 #
 endif
-PRInt32
+int32_t
 numColsToAdd
 =
 0
@@ -5514,7 +5514,7 @@ damageArea
 0
 )
 ;
-PRInt32
+int32_t
 origNumRows
 =
 cellMap
@@ -5524,7 +5524,7 @@ GetRowCount
 (
 )
 ;
-PRInt32
+int32_t
 numNewRows
 =
 aRowFrames
@@ -5600,7 +5600,7 @@ index
 0
 for
 (
-PRInt32
+int32_t
 rowY
 =
 0
@@ -5697,7 +5697,7 @@ RemoveRows
 nsTableRowFrame
 &
 aFirstRowFrame
-PRInt32
+int32_t
 aNumRowsToRemove
 bool
 aConsiderSpans
@@ -5853,7 +5853,7 @@ t
 happen
 #
 endif
-PRInt32
+int32_t
 firstRowIndex
 =
 aFirstRowFrame
@@ -5988,7 +5988,7 @@ rows
 ancestors
 of
 aFrame
-PRInt32
+int32_t
 nsTableFrame
 :
 :
@@ -6015,7 +6015,7 @@ frame
 "
 )
 ;
-PRInt32
+int32_t
 numRows
 =
 0
@@ -6195,7 +6195,7 @@ rowgroups
 we
 have
 !
-PRUint32
+uint32_t
 rgIndex
 ;
 for
@@ -6426,7 +6426,7 @@ them
 to
 the
 table
-PRInt32
+int32_t
 numRows
 =
 CollectRows
@@ -6446,7 +6446,7 @@ numRows
 0
 )
 {
-PRInt32
+int32_t
 rowIndex
 =
 0
@@ -6456,7 +6456,7 @@ if
 priorRG
 )
 {
-PRInt32
+int32_t
 priorNumRows
 =
 priorRG
@@ -6962,7 +6962,7 @@ GetBackgroundPaintFlags
 ;
 }
 static
-PRInt32
+int32_t
 GetTablePartRank
 (
 nsDisplayItem
@@ -8321,7 +8321,7 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-PRUint32
+uint32_t
 aBGPaintFlags
 )
 {
@@ -8670,7 +8670,7 @@ mDirection
 =
 NS_STYLE_DIRECTION_LTR
 ;
-PRInt32
+int32_t
 colX
 =
 tableIsLTR
@@ -8687,7 +8687,7 @@ GetColCount
 1
 )
 ;
-PRInt32
+int32_t
 tableColIncr
 =
 tableIsLTR
@@ -9005,7 +9005,7 @@ inserted
 row
 for
 (
-PRUint32
+uint32_t
 rgX
 =
 0
@@ -9548,7 +9548,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -12992,7 +12992,7 @@ const
 RowGroupArray
 &
 aRowGroups
-PRInt32
+int32_t
 aPushFrom
 )
 {
@@ -13023,7 +13023,7 @@ list
 nsFrameList
 frames
 ;
-PRUint32
+uint32_t
 childX
 ;
 for
@@ -13389,7 +13389,7 @@ of
 children
 for
 (
-PRUint32
+uint32_t
 childX
 =
 0
@@ -13638,7 +13638,7 @@ GetStyleDisplay
 (
 )
 ;
-PRInt32
+int32_t
 colX
 =
 colFrame
@@ -13684,7 +13684,7 @@ colVis
 mVisible
 )
 ;
-PRInt32
+int32_t
 colWidth
 =
 GetColumnWidth
@@ -14037,7 +14037,7 @@ GetLastRealColGroup
 this
 )
 ;
-PRInt32
+int32_t
 startColIndex
 =
 (
@@ -14646,7 +14646,7 @@ GetStyleDisplay
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15064,7 +15064,7 @@ see
 bug
 411823
 .
-PRInt32
+int32_t
 newIndex
 =
 container
@@ -15146,7 +15146,7 @@ than
 all
 valid
 indices
-PRInt32
+int32_t
 lastIndex
 =
 -
@@ -15224,7 +15224,7 @@ GetFirstPrincipalChild
 )
 ;
 }
-PRInt32
+int32_t
 index
 =
 container
@@ -15330,7 +15330,7 @@ first
 new
 col
 group
-PRInt32
+int32_t
 startColIndex
 =
 0
@@ -15627,7 +15627,7 @@ nsTableColGroupFrame
 )
 aOldFrame
 ;
-PRInt32
+int32_t
 firstColIndex
 =
 colGroup
@@ -15637,7 +15637,7 @@ GetStartColumnIndex
 (
 )
 ;
-PRInt32
+int32_t
 lastColIndex
 =
 firstColIndex
@@ -15675,7 +15675,7 @@ cols
 from
 the
 table
-PRInt32
+int32_t
 colX
 ;
 for
@@ -15720,7 +15720,7 @@ false
 ;
 }
 }
-PRInt32
+int32_t
 numAnonymousColsToAdd
 =
 GetColCount
@@ -16293,7 +16293,7 @@ border
 0
 )
 ;
-PRInt32
+int32_t
 p2t
 =
 nsPresContext
@@ -16411,7 +16411,7 @@ border
 0
 )
 ;
-PRInt32
+int32_t
 p2t
 =
 nsPresContext
@@ -18234,7 +18234,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 childX
 =
 0
@@ -20047,7 +20047,7 @@ height
 return
 ;
 }
-PRInt32
+int32_t
 rowCount
 =
 cellMap
@@ -20057,7 +20057,7 @@ GetRowCount
 (
 )
 ;
-PRInt32
+int32_t
 colCount
 =
 cellMap
@@ -20097,7 +20097,7 @@ cellSpacingY
 ;
 for
 (
-PRUint32
+uint32_t
 rgX
 =
 0
@@ -20333,7 +20333,7 @@ SetOverflowAreasToDesiredBounds
 ;
 for
 (
-PRUint32
+uint32_t
 rgX
 =
 0
@@ -20608,7 +20608,7 @@ yEndRG
 =
 yOriginRG
 ;
-PRUint32
+uint32_t
 rgX
 ;
 for
@@ -21286,7 +21286,7 @@ divisor
 =
 0
 ;
-PRInt32
+int32_t
 eligibleRows
 =
 0
@@ -22173,13 +22173,13 @@ this
 )
 ;
 }
-PRInt32
+int32_t
 nsTableFrame
 :
 :
 GetColumnWidth
 (
-PRInt32
+int32_t
 aColIndex
 )
 {
@@ -22363,7 +22363,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 rgIndex
 =
 0
@@ -23126,7 +23126,7 @@ if
 cellFrame
 )
 {
-PRInt32
+int32_t
 colIndex
 ;
 cellFrame
@@ -23245,14 +23245,14 @@ mColWidths
 "
 )
 ;
-PRInt32
+int32_t
 numCols
 =
 GetColCount
 (
 )
 ;
-PRInt32
+int32_t
 colX
 ;
 for
@@ -23933,7 +23933,7 @@ return
 mLeftToRight
 ;
 }
-PRInt32
+int32_t
 nsTableIterator
 :
 :
@@ -24047,9 +24047,9 @@ nsTableFrame
 :
 GetCellDataAt
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aColIndex
 nsIDOMElement
 *
@@ -24059,22 +24059,22 @@ aCell
 /
 out
 params
-PRInt32
+int32_t
 &
 aStartRowIndex
-PRInt32
+int32_t
 &
 aStartColIndex
-PRInt32
+int32_t
 &
 aRowSpan
-PRInt32
+int32_t
 &
 aColSpan
-PRInt32
+int32_t
 &
 aActualRowSpan
-PRInt32
+int32_t
 &
 aActualColSpan
 bool
@@ -24132,7 +24132,7 @@ NS_ERROR_NOT_INITIALIZED
 bool
 originates
 ;
-PRInt32
+int32_t
 colSpan
 ;
 /
@@ -24355,10 +24355,10 @@ nsTableFrame
 :
 GetTableSize
 (
-PRInt32
+int32_t
 &
 aRowCount
-PRInt32
+int32_t
 &
 aColCount
 )
@@ -24422,11 +24422,11 @@ nsTableFrame
 :
 GetIndexByRowAndColumn
 (
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 aColumn
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -24491,12 +24491,12 @@ nsTableFrame
 :
 GetRowAndColumnByIndex
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 *
 aRow
-PRInt32
+int32_t
 *
 aColumn
 )
@@ -24601,7 +24601,7 @@ nsTableFrame
 :
 ColumnHasCellSpacingBefore
 (
-PRInt32
+int32_t
 aColIndex
 )
 const
@@ -25205,7 +25205,7 @@ case
 it
 shrunk
 .
-PRInt32
+int32_t
 cols
 =
 GetColCount
@@ -25277,7 +25277,7 @@ x
 ;
 }
 }
-PRInt32
+int32_t
 rows
 =
 GetRowCount
@@ -25598,9 +25598,9 @@ Reset
 void
 Reset
 (
-PRUint32
+uint32_t
 aRowIndex
-PRUint32
+uint32_t
 aRowSpan
 )
 ;
@@ -25625,7 +25625,7 @@ pixel
 coordinates
 !
 !
-PRUint8
+uint8_t
 style
 ;
 /
@@ -25700,7 +25700,7 @@ from
 the
 corresponding
 frame
-PRInt32
+int32_t
 rowIndex
 ;
 /
@@ -25718,7 +25718,7 @@ relative
 to
 the
 table
-PRInt32
+int32_t
 rowSpan
 ;
 /
@@ -25741,9 +25741,9 @@ BCCellBorder
 :
 Reset
 (
-PRUint32
+uint32_t
 aRowIndex
-PRUint32
+uint32_t
 aRowSpan
 )
 {
@@ -25975,7 +25975,7 @@ SetInfo
 nsTableRowFrame
 *
 aNewRow
-PRInt32
+int32_t
 aColIndex
 BCCellData
 *
@@ -26160,7 +26160,7 @@ aWidth
 void
 SetTableLeftBorderWidth
 (
-PRInt32
+int32_t
 aRowY
 BCPixelSize
 aWidth
@@ -26169,7 +26169,7 @@ aWidth
 void
 SetTableRightBorderWidth
 (
-PRInt32
+int32_t
 aRowY
 BCPixelSize
 aWidth
@@ -26309,7 +26309,7 @@ information
 void
 SetColumn
 (
-PRInt32
+int32_t
 aColX
 )
 ;
@@ -26346,13 +26346,13 @@ extent
 of
 the
 cell
-PRInt32
+int32_t
 GetCellEndRowIndex
 (
 )
 const
 ;
-PRInt32
+int32_t
 GetCellEndColIndex
 (
 )
@@ -26368,10 +26368,10 @@ nsTableFrame
 *
 mTableFrame
 ;
-PRInt32
+int32_t
 mNumTableRows
 ;
-PRInt32
+int32_t
 mNumTableCols
 ;
 BCPropertyData
@@ -26528,16 +26528,16 @@ nsBCTableCellFrame
 *
 mCell
 ;
-PRInt32
+int32_t
 mRowIndex
 ;
-PRInt32
+int32_t
 mRowSpan
 ;
-PRInt32
+int32_t
 mColIndex
 ;
-PRInt32
+int32_t
 mColSpan
 ;
 /
@@ -26751,7 +26751,7 @@ false
 ;
 }
 inline
-PRInt32
+int32_t
 BCMapCellInfo
 :
 :
@@ -26769,7 +26769,7 @@ mRowSpan
 ;
 }
 inline
-PRInt32
+int32_t
 BCMapCellInfo
 :
 :
@@ -26824,7 +26824,7 @@ PeekRight
 BCMapCellInfo
 &
 aRefInfo
-PRUint32
+uint32_t
 aRowIndex
 BCMapCellInfo
 &
@@ -26837,7 +26837,7 @@ PeekBottom
 BCMapCellInfo
 &
 aRefInfo
-PRUint32
+uint32_t
 aColIndex
 BCMapCellInfo
 &
@@ -26886,10 +26886,10 @@ return
 mRowGroup
 ;
 }
-PRInt32
+int32_t
 mRowGroupStart
 ;
-PRInt32
+int32_t
 mRowGroupEnd
 ;
 bool
@@ -26936,10 +26936,10 @@ nsTableRowGroupFrame
 *
 mRowGroup
 ;
-PRInt32
+int32_t
 mRowGroupIndex
 ;
-PRUint32
+uint32_t
 mNumTableRows
 ;
 nsTableRowFrame
@@ -26953,13 +26953,13 @@ mPrevRow
 bool
 mIsNewRow
 ;
-PRInt32
+int32_t
 mRowIndex
 ;
-PRUint32
+uint32_t
 mNumTableCols
 ;
-PRInt32
+int32_t
 mColIndex
 ;
 nsPoint
@@ -27131,7 +27131,7 @@ SetInfo
 nsTableRowFrame
 *
 aNewRow
-PRInt32
+int32_t
 aColIndex
 BCCellData
 *
@@ -27361,7 +27361,7 @@ mBottomRow
 {
 for
 (
-PRInt32
+int32_t
 spanY
 =
 2
@@ -27462,7 +27462,7 @@ if
 /
 /
 possible
-PRUint32
+uint32_t
 rgStart
 =
 aIter
@@ -27470,7 +27470,7 @@ aIter
 >
 mRowGroupStart
 ;
-PRUint32
+uint32_t
 rgEnd
 =
 aIter
@@ -27530,7 +27530,7 @@ GetRowCount
 1
 ;
 }
-PRUint32
+uint32_t
 rowIndex
 =
 mTopRow
@@ -27649,7 +27649,7 @@ GetParent
 )
 )
 ;
-PRInt32
+int32_t
 cgStart
 =
 mColGroup
@@ -27659,7 +27659,7 @@ GetStartColumnIndex
 (
 )
 ;
-PRInt32
+int32_t
 cgEnd
 =
 NS_MAX
@@ -27770,7 +27770,7 @@ with
 an
 originating
 cell
-PRInt32
+int32_t
 rgRowIndex
 =
 mRowIndex
@@ -27779,7 +27779,7 @@ mRowGroupStart
 ;
 if
 (
-PRUint32
+uint32_t
 (
 rgRowIndex
 )
@@ -27950,7 +27950,7 @@ mAtEnd
 =
 true
 ;
-PRInt32
+int32_t
 numRowGroups
 =
 mRowGroups
@@ -27985,7 +27985,7 @@ mRowGroups
 mRowGroupIndex
 ]
 ;
-PRInt32
+int32_t
 rowCount
 =
 mRowGroup
@@ -28101,7 +28101,7 @@ correct
 first
 damaged
 row
-PRInt32
+int32_t
 numRows
 =
 mAreaStart
@@ -28112,7 +28112,7 @@ mRowGroupStart
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -28403,7 +28403,7 @@ mColIndex
 +
 )
 {
-PRInt32
+int32_t
 rgRowIndex
 =
 mRowIndex
@@ -28562,7 +28562,7 @@ PeekRight
 BCMapCellInfo
 &
 aRefInfo
-PRUint32
+uint32_t
 aRowIndex
 BCMapCellInfo
 &
@@ -28575,7 +28575,7 @@ ResetCellInfo
 (
 )
 ;
-PRInt32
+int32_t
 colIndex
 =
 aRefInfo
@@ -28586,7 +28586,7 @@ aRefInfo
 .
 mColSpan
 ;
-PRUint32
+uint32_t
 rgRowIndex
 =
 aRowIndex
@@ -28759,7 +28759,7 @@ PeekBottom
 BCMapCellInfo
 &
 aRefInfo
-PRUint32
+uint32_t
 aColIndex
 BCMapCellInfo
 &
@@ -28772,7 +28772,7 @@ ResetCellInfo
 (
 )
 ;
-PRInt32
+int32_t
 rowIndex
 =
 aRefInfo
@@ -28783,7 +28783,7 @@ aRefInfo
 .
 mRowSpan
 ;
-PRInt32
+int32_t
 rgRowIndex
 =
 rowIndex
@@ -28815,7 +28815,7 @@ rowIndex
 mRowGroupEnd
 )
 {
-PRInt32
+int32_t
 nextRgIndex
 =
 mRowGroupIndex
@@ -28910,7 +28910,7 @@ mRow
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -29106,7 +29106,7 @@ of
 NS_STYLE_BORDER_STYLE_SOLID
 .
 static
-PRUint8
+uint8_t
 styleToPriority
 [
 13
@@ -29283,7 +29283,7 @@ css
 :
 Side
 aSide
-PRUint8
+uint8_t
 &
 aStyle
 nscolor
@@ -29490,7 +29490,7 @@ css
 :
 Side
 aSide
-PRUint8
+uint8_t
 &
 aStyle
 nscolor
@@ -29637,7 +29637,7 @@ css
 :
 Side
 aSide
-PRUint8
+uint8_t
 &
 aStyle
 nscolor
@@ -31183,7 +31183,7 @@ ownerColor
 color
 of
 borderOwner
-PRUint16
+uint16_t
 ownerWidth
 ;
 /
@@ -31192,7 +31192,7 @@ pixel
 width
 of
 borderOwner
-PRUint16
+uint16_t
 subWidth
 ;
 /
@@ -31211,7 +31211,7 @@ perpendicular
 /
 to
 ownerSide
-PRUint32
+uint32_t
 ownerSide
 :
 2
@@ -31245,7 +31245,7 @@ relative
 to
 the
 corner
-PRUint32
+uint32_t
 ownerElem
 :
 3
@@ -31266,7 +31266,7 @@ etc
 owning
 the
 corner
-PRUint32
+uint32_t
 ownerStyle
 :
 8
@@ -31277,7 +31277,7 @@ border
 style
 of
 ownerElem
-PRUint32
+uint32_t
 subSide
 :
 2
@@ -31293,7 +31293,7 @@ relative
 to
 the
 corner
-PRUint32
+uint32_t
 subElem
 :
 3
@@ -31314,7 +31314,7 @@ etc
 of
 sub
 owner
-PRUint32
+uint32_t
 subStyle
 :
 8
@@ -31325,7 +31325,7 @@ border
 style
 of
 subElem
-PRUint32
+uint32_t
 hasDashDot
 :
 1
@@ -31344,7 +31344,7 @@ they
 cannot
 be
 beveled
-PRUint32
+uint32_t
 numSegs
 :
 3
@@ -31356,7 +31356,7 @@ of
 segments
 entering
 corner
-PRUint32
+uint32_t
 bevel
 :
 1
@@ -31377,7 +31377,7 @@ together
 with
 subWidth
 )
-PRUint32
+uint32_t
 unused
 :
 1
@@ -31963,9 +31963,9 @@ BCCorners
 {
 BCCorners
 (
-PRInt32
+int32_t
 aNumCorners
-PRInt32
+int32_t
 aStartIndex
 )
 ;
@@ -31986,7 +31986,7 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 i
 )
 const
@@ -32027,10 +32027,10 @@ startIndex
 ]
 ;
 }
-PRInt32
+int32_t
 startIndex
 ;
-PRInt32
+int32_t
 endIndex
 ;
 BCCornerInfo
@@ -32044,9 +32044,9 @@ BCCorners
 :
 BCCorners
 (
-PRInt32
+int32_t
 aNumCorners
-PRInt32
+int32_t
 aStartIndex
 )
 {
@@ -32097,9 +32097,9 @@ BCCellBorders
 {
 BCCellBorders
 (
-PRInt32
+int32_t
 aNumBorders
-PRInt32
+int32_t
 aStartIndex
 )
 ;
@@ -32120,7 +32120,7 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 i
 )
 const
@@ -32161,10 +32161,10 @@ startIndex
 ]
 ;
 }
-PRInt32
+int32_t
 startIndex
 ;
-PRInt32
+int32_t
 endIndex
 ;
 BCCellBorder
@@ -32178,9 +32178,9 @@ BCCellBorders
 :
 BCCellBorders
 (
-PRInt32
+int32_t
 aNumBorders
-PRInt32
+int32_t
 aStartIndex
 )
 {
@@ -32546,28 +32546,28 @@ aRect
 )
 const
 {
-PRInt32
+int32_t
 numRows
 =
 GetRowCount
 (
 )
 ;
-PRInt32
+int32_t
 numCols
 =
 GetColCount
 (
 )
 ;
-PRInt32
+int32_t
 dStartX
 =
 aRect
 .
 x
 ;
-PRInt32
+int32_t
 dEndX
 =
 aRect
@@ -32578,14 +32578,14 @@ XMost
 -
 1
 ;
-PRInt32
+int32_t
 dStartY
 =
 aRect
 .
 y
 ;
-PRInt32
+int32_t
 dEndY
 =
 aRect
@@ -32846,7 +32846,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 rgX
 =
 0
@@ -32873,7 +32873,7 @@ rowGroups
 rgX
 ]
 ;
-PRInt32
+int32_t
 rgStartY
 =
 rgFrame
@@ -32883,7 +32883,7 @@ GetStartRowIndex
 (
 )
 ;
-PRInt32
+int32_t
 rgEndY
 =
 rgStartY
@@ -32961,7 +32961,7 @@ rgEndY
 {
 if
 (
-PRUint32
+uint32_t
 (
 dStartY
 -
@@ -33002,7 +33002,7 @@ rgStartY
 ;
 for
 (
-PRInt32
+int32_t
 x
 =
 dStartX
@@ -33060,7 +33060,7 @@ rgEndY
 {
 if
 (
-PRUint32
+uint32_t
 (
 dEndY
 +
@@ -33105,7 +33105,7 @@ rgStartY
 ;
 for
 (
-PRInt32
+int32_t
 x
 =
 dStartX
@@ -33166,13 +33166,13 @@ the
 left
 and
 right
-PRInt32
+int32_t
 iterStartY
 =
 -
 1
 ;
-PRInt32
+int32_t
 iterEndY
 =
 -
@@ -33314,7 +33314,7 @@ iterEndY
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 iterStartY
@@ -33331,7 +33331,7 @@ y
 {
 if
 (
-PRUint32
+uint32_t
 (
 y
 -
@@ -34312,7 +34312,7 @@ BCMapCellInfo
 :
 SetTableLeftBorderWidth
 (
-PRInt32
+int32_t
 aRowY
 BCPixelSize
 aWidth
@@ -34381,7 +34381,7 @@ BCMapCellInfo
 :
 SetTableRightBorderWidth
 (
-PRInt32
+int32_t
 aRowY
 BCPixelSize
 aWidth
@@ -34777,7 +34777,7 @@ BCMapCellInfo
 :
 SetColumn
 (
-PRInt32
+int32_t
 aColX
 )
 {
@@ -35782,14 +35782,14 @@ ABORT0
 (
 )
 ;
-PRInt32
+int32_t
 numRows
 =
 GetRowCount
 (
 )
 ;
-PRInt32
+int32_t
 numCols
 =
 GetColCount
@@ -35889,7 +35889,7 @@ tableBorderReset
 ;
 for
 (
-PRUint32
+uint32_t
 sideX
 =
 NS_SIDE_TOP
@@ -36336,7 +36336,7 @@ true
 }
 for
 (
-PRInt32
+int32_t
 colX
 =
 info
@@ -36763,7 +36763,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 rowY
 =
 info
@@ -37053,7 +37053,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 rowY
 =
 info
@@ -37361,7 +37361,7 @@ SetRowGroupRightContBCBorder
 }
 else
 {
-PRInt32
+int32_t
 segLength
 =
 0
@@ -37374,7 +37374,7 @@ this
 ;
 for
 (
-PRInt32
+int32_t
 rowY
 =
 info
@@ -37831,7 +37831,7 @@ aja
 cell
 for
 (
-PRInt32
+int32_t
 rX
 =
 rowY
@@ -37960,7 +37960,7 @@ ajaInfo
 }
 for
 (
-PRInt32
+int32_t
 colX
 =
 info
@@ -38067,7 +38067,7 @@ true
 }
 for
 (
-PRInt32
+int32_t
 colX
 =
 info
@@ -38465,14 +38465,14 @@ SetColGroupBottomContBCBorder
 }
 else
 {
-PRInt32
+int32_t
 segLength
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 colX
 =
 info
@@ -38633,7 +38633,7 @@ x
 )
 )
 {
-PRInt32
+int32_t
 prevRowIndex
 =
 lastBottomBorders
@@ -38828,7 +38828,7 @@ aja
 cell
 for
 (
-PRInt32
+int32_t
 cX
 =
 colX
@@ -39015,7 +39015,7 @@ mRowSpan
 ;
 for
 (
-PRInt32
+int32_t
 cX
 =
 colX
@@ -39651,7 +39651,7 @@ nsTableColFrame
 *
 mCol
 ;
-PRInt32
+int32_t
 mColWidth
 ;
 }
@@ -39785,7 +39785,7 @@ the
 /
 /
 segment
-PRUint8
+uint8_t
 mOwner
 ;
 /
@@ -39921,7 +39921,7 @@ aLeftSegWidth
 void
 AdvanceOffsetX
 (
-PRInt32
+int32_t
 aIncrement
 )
 ;
@@ -40093,7 +40093,7 @@ be
 /
 shifted
 .
-PRUint8
+uint8_t
 mOwner
 ;
 /
@@ -40321,7 +40321,7 @@ ResetVerInfo
 void
 StoreColumnWidth
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -40349,7 +40349,7 @@ mCellMap
 bool
 mTableIsLTR
 ;
-PRInt32
+int32_t
 mColInc
 ;
 /
@@ -40399,7 +40399,7 @@ group
 in
 the
 damagearea
-PRInt32
+int32_t
 mRgIndex
 ;
 /
@@ -40414,7 +40414,7 @@ the
 /
 mRowgroups
 array
-PRInt32
+int32_t
 mFifRgFirstRowIndex
 ;
 /
@@ -40433,7 +40433,7 @@ of
 the
 row
 group
-PRInt32
+int32_t
 mRgFirstRowIndex
 ;
 /
@@ -40450,7 +40450,7 @@ the
 /
 row
 group
-PRInt32
+int32_t
 mRgLastRowIndex
 ;
 /
@@ -40467,7 +40467,7 @@ row
 /
 /
 group
-PRInt32
+int32_t
 mNumTableRows
 ;
 /
@@ -40483,7 +40483,7 @@ all
 /
 /
 continuations
-PRInt32
+int32_t
 mNumTableCols
 ;
 /
@@ -40494,7 +40494,7 @@ columns
 in
 the
 table
-PRInt32
+int32_t
 mColIndex
 ;
 /
@@ -40504,7 +40504,7 @@ respect
 to
 the
 table
-PRInt32
+int32_t
 mRowIndex
 ;
 /
@@ -40514,7 +40514,7 @@ respect
 to
 the
 table
-PRInt32
+int32_t
 mRepeatedHeaderRowIndex
 ;
 /
@@ -40768,7 +40768,7 @@ x
 )
 ;
 }
-PRInt32
+int32_t
 GetRelativeColIndex
 (
 )
@@ -41033,9 +41033,9 @@ SetNewRowGroup
 void
 SetNewData
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aColIndex
 )
 ;
@@ -41223,7 +41223,7 @@ nsRect
 aDirtyRect
 )
 {
-PRUint32
+uint32_t
 startRowIndex
 endRowIndex
 startColIndex
@@ -41261,7 +41261,7 @@ mInitialOffsetY
 ;
 for
 (
-PRUint32
+uint32_t
 rgX
 =
 0
@@ -41635,7 +41635,7 @@ mNumTableCols
 return
 false
 ;
-PRInt32
+int32_t
 leftCol
 rightCol
 ;
@@ -41737,7 +41737,7 @@ x
 =
 0
 ;
-PRInt32
+int32_t
 colX
 ;
 for
@@ -41952,7 +41952,7 @@ if
 mTableIsLTR
 )
 {
-PRUint32
+uint32_t
 temp
 ;
 mInitialOffsetX
@@ -41984,7 +41984,7 @@ temp
 ;
 for
 (
-PRUint32
+uint32_t
 column
 =
 0
@@ -42059,7 +42059,7 @@ startRowIndex
 +
 NS_ABS
 (
-PRInt32
+int32_t
 (
 endColIndex
 -
@@ -42208,9 +42208,9 @@ BCPaintBorderIterator
 :
 SetNewData
 (
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aX
 )
 {
@@ -42332,7 +42332,7 @@ else
 {
 if
 (
-PRUint32
+uint32_t
 (
 mRowIndex
 -
@@ -42670,7 +42670,7 @@ bounds
 ;
 if
 (
-PRUint32
+uint32_t
 (
 mRgIndex
 )
@@ -42943,7 +42943,7 @@ mAtEnd
 =
 false
 ;
-PRUint32
+uint32_t
 numRowGroups
 =
 mRowGroups
@@ -42954,7 +42954,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 rgY
 =
 0
@@ -42977,7 +42977,7 @@ mRowGroups
 rgY
 ]
 ;
-PRInt32
+int32_t
 start
 =
 rowG
@@ -42987,7 +42987,7 @@ GetStartRowIndex
 (
 )
 ;
-PRInt32
+int32_t
 end
 =
 start
@@ -44075,7 +44075,7 @@ BCPaintBorderIterator
 aIter
 )
 {
-PRInt32
+int32_t
 relColIndex
 =
 aIter
@@ -44425,7 +44425,7 @@ NS_SIDE_RIGHT
 :
 NS_SIDE_LEFT
 ;
-PRInt32
+int32_t
 relColIndex
 =
 aIter
@@ -44466,7 +44466,7 @@ owner
 =
 nullptr
 ;
-PRUint8
+uint8_t
 style
 =
 NS_STYLE_BORDER_STYLE_SOLID
@@ -45117,7 +45117,7 @@ bevel
 :
 false
 ;
-PRInt32
+int32_t
 relColIndex
 =
 aIter
@@ -45369,7 +45369,7 @@ bevel
 :
 0
 ;
-PRInt32
+int32_t
 relColIndex
 =
 aIter
@@ -45564,7 +45564,7 @@ owner
 =
 nullptr
 ;
-PRUint8
+uint8_t
 style
 =
 NS_STYLE_BORDER_STYLE_SOLID
@@ -46033,7 +46033,7 @@ BCHorizontalSeg
 :
 AdvanceOffsetX
 (
-PRInt32
+int32_t
 aIncrement
 )
 {
@@ -46108,7 +46108,7 @@ BCPaintBorderIterator
 :
 StoreColumnWidth
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -46285,7 +46285,7 @@ nsRenderingContext
 aRenderingContext
 )
 {
-PRInt32
+int32_t
 relColIndex
 =
 GetRelativeColIndex
@@ -46642,7 +46642,7 @@ ignoreSegStart
 :
 0
 ;
-PRInt32
+int32_t
 relColIndex
 =
 GetRelativeColIndex
@@ -46859,7 +46859,7 @@ reinitialize
 properly
 for
 (
-PRInt32
+int32_t
 xIndex
 =
 0
@@ -47228,9 +47228,9 @@ nsTableFrame
 :
 RowHasSpanningCells
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aNumEffCols
 )
 {
@@ -47288,9 +47288,9 @@ nsTableFrame
 :
 RowIsSpannedInto
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aNumEffCols
 )
 {

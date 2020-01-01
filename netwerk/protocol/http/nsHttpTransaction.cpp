@@ -1294,7 +1294,7 @@ mClassification
 =
 CLASS_GENERAL
 ;
-PRInt32
+int32_t
 queryPos
 =
 mRequestHead
@@ -1390,7 +1390,7 @@ nsHttpTransaction
 :
 Init
 (
-PRUint8
+uint8_t
 caps
 nsHttpConnectionInfo
 *
@@ -2602,7 +2602,7 @@ return
 mRequestHead
 ;
 }
-PRUint32
+uint32_t
 nsHttpTransaction
 :
 :
@@ -2869,7 +2869,7 @@ nsITransport
 transport
 nsresult
 status
-PRUint64
+uint64_t
 progress
 )
 {
@@ -3125,7 +3125,7 @@ mChannel
 NS_HTTP_ACTIVITY_TYPE_SOCKET_TRANSPORT
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 status
@@ -3157,7 +3157,7 @@ NS_NET_STATUS_RECEIVING_FROM
 )
 return
 ;
-PRUint64
+uint64_t
 progressMax
 ;
 if
@@ -3211,7 +3211,7 @@ seekable
 "
 )
 ;
-PRInt64
+int64_t
 prog
 =
 0
@@ -3306,7 +3306,7 @@ return
 mStatus
 ;
 }
-PRUint8
+uint8_t
 nsHttpTransaction
 :
 :
@@ -3318,7 +3318,7 @@ return
 mCaps
 ;
 }
-PRUint64
+uint64_t
 nsHttpTransaction
 :
 :
@@ -3326,7 +3326,7 @@ Available
 (
 )
 {
-PRUint64
+uint64_t
 size
 ;
 if
@@ -3367,11 +3367,11 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -3485,9 +3485,9 @@ ReadSegments
 nsAHttpSegmentReader
 *
 reader
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -3688,11 +3688,11 @@ closure
 char
 *
 buf
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )
@@ -3963,9 +3963,9 @@ WriteSegments
 nsAHttpSegmentWriter
 *
 writer
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )
@@ -4214,7 +4214,7 @@ PR_Now
 )
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 mContentRead
@@ -4896,7 +4896,7 @@ data
 n
 '
 ;
-PRUint32
+uint32_t
 unused
 ;
 ParseHead
@@ -5173,7 +5173,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PRUint32
+uint32_t
 nsHttpTransaction
 :
 :
@@ -5197,7 +5197,7 @@ nsHttpTransaction
 :
 SetPipelinePosition
 (
-PRInt32
+int32_t
 position
 )
 {
@@ -5209,7 +5209,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsHttpTransaction
 :
 :
@@ -5968,7 +5968,7 @@ LocateHttpStart
 char
 *
 buf
-PRUint32
+uint32_t
 len
 bool
 aAllowPartialMatch
@@ -6006,7 +6006,7 @@ HTTP
 ;
 static
 const
-PRUint32
+uint32_t
 HTTPHeaderLen
 =
 sizeof
@@ -6033,7 +6033,7 @@ HTTP
 ;
 static
 const
-PRUint32
+uint32_t
 HTTP2HeaderLen
 =
 sizeof
@@ -6105,7 +6105,7 @@ ouch
 "
 )
 ;
-PRInt32
+int32_t
 checkChars
 =
 NS_MIN
@@ -6258,7 +6258,7 @@ buf
 HTTPHeader
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 len
@@ -6560,7 +6560,7 @@ ParseLineSegment
 char
 *
 segment
-PRUint32
+uint32_t
 len
 )
 {
@@ -6803,7 +6803,7 @@ other
 1xx
 status
 .
-PRUint16
+uint16_t
 status
 =
 mResponseHead
@@ -6891,9 +6891,9 @@ ParseHead
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -6901,7 +6901,7 @@ countRead
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 len
 ;
 char
@@ -7131,7 +7131,7 @@ LocateHttpStart
 buf
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 count
@@ -8270,7 +8270,7 @@ if
 mContentLength
 =
 =
-PRInt64
+int64_t
 (
 -
 1
@@ -8412,12 +8412,12 @@ HandleContent
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 contentRead
-PRUint32
+uint32_t
 *
 contentRemaining
 )
@@ -8580,7 +8580,7 @@ if
 mContentLength
 >
 =
-PRInt64
+int64_t
 (
 0
 )
@@ -8662,7 +8662,7 @@ mHttpVersion
 NS_HTTP_VERSION_1_1
 )
 {
-PRInt64
+int64_t
 remaining
 =
 mContentLength
@@ -8672,11 +8672,11 @@ mContentRead
 *
 contentRead
 =
-PRUint32
+uint32_t
 (
 NS_MIN
 <
-PRInt64
+int64_t
 >
 (
 count
@@ -8711,12 +8711,12 @@ increased
 .
 .
 .
-PRInt64
+int64_t
 position
 =
 mContentRead
 +
-PRInt64
+int64_t
 (
 count
 )
@@ -8780,7 +8780,7 @@ contentRead
 count
 ;
 }
-PRInt64
+int64_t
 toReadBeforeRestart
 =
 mRestartInProgressVerifier
@@ -8798,7 +8798,7 @@ toReadBeforeRestart
 contentRead
 )
 {
-PRUint32
+uint32_t
 ignore
 =
 PR_MIN
@@ -9133,7 +9133,7 @@ PR_Now
 )
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 mContentRead
@@ -9157,9 +9157,9 @@ ProcessData
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -9219,14 +9219,14 @@ if
 mHaveAllHeaders
 )
 {
-PRUint32
+uint32_t
 bytesConsumed
 =
 0
 ;
 do
 {
-PRUint32
+uint32_t
 localBytesConsumed
 =
 0
@@ -9239,7 +9239,7 @@ buf
 +
 bytesConsumed
 ;
-PRUint32
+uint32_t
 localCount
 =
 count
@@ -9428,7 +9428,7 @@ if
 mHaveAllHeaders
 )
 {
-PRUint32
+uint32_t
 countRemaining
 =
 0
@@ -9719,7 +9719,7 @@ nsHttpTransaction
 :
 CancelPipeline
 (
-PRUint32
+uint32_t
 reason
 )
 {
@@ -10939,7 +10939,7 @@ RestartVerifier
 :
 Verify
 (
-PRInt64
+int64_t
 contentLength
 nsHttpResponseHead
 *
@@ -11064,7 +11064,7 @@ RestartVerifier
 :
 Set
 (
-PRInt64
+int64_t
 contentLength
 nsHttpResponseHead
 *

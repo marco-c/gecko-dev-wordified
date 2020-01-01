@@ -1126,13 +1126,13 @@ defined
 __i386__
 )
 static
-PRInt32
+int32_t
 OSXVersion
 (
 )
 {
 static
-PRInt32
+int32_t
 gOSXVersion
 =
 0x0
@@ -1781,7 +1781,7 @@ get
 )
 )
 ;
-PRInt32
+int32_t
 slashPos
 =
 prefFile
@@ -1972,7 +1972,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 prefCount
 ;
 char
@@ -2022,7 +2022,7 @@ prefCount
 0
 )
 {
-PRUint32
+uint32_t
 prefixLength
 =
 prefGroupKey
@@ -2033,7 +2033,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 currentPref
 =
 0
@@ -5229,7 +5229,7 @@ return
 1
 ;
 }
-PRUint32
+uint32_t
 count
 =
 0
@@ -7370,7 +7370,7 @@ endif
 PR_ATOMIC_INCREMENT
 (
 (
-PRInt32
+int32_t
 *
 )
 &
@@ -7446,7 +7446,7 @@ refCnt
 PR_ATOMIC_DECREMENT
 (
 (
-PRInt32
+int32_t
 *
 )
 &
@@ -11493,7 +11493,7 @@ inst
 GetDrawingModel
 (
 (
-PRInt32
+int32_t
 *
 )
 &
@@ -13364,7 +13364,7 @@ return
 NPERR_GENERIC_ERROR
 ;
 }
-PRInt32
+int32_t
 streamtype
 =
 NP_NORMAL

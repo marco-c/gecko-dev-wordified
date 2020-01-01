@@ -328,13 +328,13 @@ aCursorImage
 hotSpotX
 :
 (
-PRUint32
+uint32_t
 )
 aHotspotX
 hotSpotY
 :
 (
-PRUint32
+uint32_t
 )
 aHotspotY
 ;

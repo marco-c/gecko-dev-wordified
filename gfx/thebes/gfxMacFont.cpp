@@ -817,9 +817,9 @@ Measure
 gfxTextRun
 *
 aTextRun
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
@@ -957,7 +957,7 @@ mMetrics
 )
 )
 ;
-PRUint32
+uint32_t
 upem
 =
 0
@@ -1034,7 +1034,7 @@ bug
 580863
 )
 const
-PRUint32
+uint32_t
 kHeadTableTag
 =
 TRUETYPE_TAG
@@ -1055,7 +1055,7 @@ d
 ;
 AutoFallibleTArray
 <
-PRUint8
+uint8_t
 sizeof
 (
 HeadTable
@@ -1743,7 +1743,7 @@ p
 )
 )
 ;
-PRUint32
+uint32_t
 glyphID
 ;
 if
@@ -2197,7 +2197,7 @@ CFDataRef
 aCmap
 PRUnichar
 aUniChar
-PRUint32
+uint32_t
 *
 aGlyphID
 gfxFloat
@@ -2316,7 +2316,7 @@ gfxMacFont
 :
 GetFontTable
 (
-PRUint32
+uint32_t
 aTag
 )
 {
@@ -2907,7 +2907,7 @@ Name
 get
 (
 )
-PRUint32
+uint32_t
 (
 err
 )

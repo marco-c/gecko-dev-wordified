@@ -281,7 +281,7 @@ stepFunc
 JSContext
 *
 aCtx
-PRUint32
+uint32_t
 jsval
 *
 _vp
@@ -639,7 +639,7 @@ rv
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 state
 ;
 (
@@ -824,7 +824,7 @@ rv
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 state
 ;
 (
@@ -1312,7 +1312,7 @@ JSObject
 aScopeObj
 jsid
 aId
-PRUint32
+uint32_t
 aFlags
 JSObject
 *

@@ -222,11 +222,11 @@ WinQueryCp
 HMQ_CURRENT
 )
 ;
-PRInt32
+int32_t
 acpint
 =
 (
-PRInt32
+int32_t
 )
 (
 acp
@@ -695,7 +695,7 @@ os2_key
 AppendInt
 (
 (
-PRUint32
+uint32_t
 )
 codepage
 )

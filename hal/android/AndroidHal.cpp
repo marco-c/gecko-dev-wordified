@@ -769,7 +769,7 @@ return
 nsIntRect
 rect
 ;
-PRInt32
+int32_t
 colorDepth
 pixelDepth
 ;

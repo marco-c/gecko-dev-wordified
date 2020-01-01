@@ -1518,7 +1518,7 @@ STATE_OK
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1587,7 +1587,7 @@ location
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

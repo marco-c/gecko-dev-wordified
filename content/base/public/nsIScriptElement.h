@@ -666,7 +666,7 @@ mParserCreated
 void
 SetScriptLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -675,7 +675,7 @@ mLineNumber
 aLineNumber
 ;
 }
-PRUint32
+uint32_t
 GetScriptLineNumber
 (
 )
@@ -1326,7 +1326,7 @@ script
 .
 *
 /
-PRUint32
+uint32_t
 mLineNumber
 ;
 /

@@ -174,7 +174,7 @@ this
 ;
 }
 }
-PRUint32
+uint32_t
 Image
 :
 :
@@ -223,7 +223,7 @@ NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 |
 .
 return
-PRUint32
+uint32_t
 (
 HeapSizeOfSourceWithComputedFallback
 (
@@ -660,7 +660,7 @@ Image
 :
 GetAnimationMode
 (
-PRUint16
+uint16_t
 *
 aAnimationMode
 )
@@ -781,7 +781,7 @@ Image
 :
 SetAnimationMode
 (
-PRUint16
+uint16_t
 aAnimationMode
 )
 {

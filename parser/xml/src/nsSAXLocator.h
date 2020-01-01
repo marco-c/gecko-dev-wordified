@@ -198,9 +198,9 @@ aPublicId
 nsString
 &
 aSystemId
-PRInt32
+int32_t
 aLineNumber
-PRInt32
+int32_t
 aColumnNumber
 )
 ;
@@ -212,10 +212,10 @@ mPublicId
 nsString
 mSystemId
 ;
-PRInt32
+int32_t
 mLineNumber
 ;
-PRInt32
+int32_t
 mColumnNumber
 ;
 }

@@ -886,7 +886,7 @@ kNameSpaceID_None
 .
 *
 /
-PRInt32
+int32_t
 NamespaceID
 (
 )
@@ -921,7 +921,7 @@ nsIDOMNode
 nodeType
 *
 /
-PRUint16
+uint16_t
 NodeType
 (
 )
@@ -1242,7 +1242,7 @@ Equals
 nsIAtom
 *
 aNameAtom
-PRInt32
+int32_t
 aNamespaceID
 )
 const
@@ -1279,7 +1279,7 @@ aNameAtom
 nsIAtom
 *
 aPrefixAtom
-PRInt32
+int32_t
 aNamespaceID
 )
 const
@@ -1320,7 +1320,7 @@ aNamespaceID
 bool
 NamespaceEquals
 (
-PRInt32
+int32_t
 aNamespaceID
 )
 const
@@ -1412,7 +1412,7 @@ const
 nsAString
 &
 aName
-PRInt32
+int32_t
 aNamespaceID
 )
 const
@@ -1448,7 +1448,7 @@ const
 nsAString
 &
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
 )
 const
@@ -1747,9 +1747,9 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
-PRUint16
+uint16_t
 aNodeType
 nsIAtom
 *
@@ -1791,9 +1791,9 @@ aTmpName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
-PRUint16
+uint16_t
 aNodeType
 )
 :
@@ -1832,10 +1832,10 @@ nsIAtom
 *
 mPrefix
 ;
-PRInt32
+int32_t
 mNamespaceID
 ;
-PRUint16
+uint16_t
 mNodeType
 ;
 /

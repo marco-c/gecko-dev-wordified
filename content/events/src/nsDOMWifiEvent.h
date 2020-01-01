@@ -255,13 +255,13 @@ nsIVariant
 >
 mNetwork
 ;
-PRInt16
+int16_t
 mSignalStrength
 ;
-PRInt16
+int16_t
 mRelSignalStrength
 ;
-PRInt32
+int32_t
 mLinkSpeed
 ;
 }

@@ -1410,7 +1410,7 @@ pool
 PLHashEntry
 *
 entry
-PRUintn
+unsigned
 flag
 )
 {
@@ -2020,7 +2020,7 @@ public
 :
 static
 const
-PRUint32
+uint32_t
 kDefaultNumBuckets
 ;
 /
@@ -2055,7 +2055,7 @@ checked
 /
 DeadlockDetector
 (
-PRUint32
+uint32_t
 aNumResourcesGuess
 =
 kDefaultNumBuckets
@@ -3492,7 +3492,7 @@ on
 average
 workload
 const
-PRUint32
+uint32_t
 DeadlockDetector
 <
 T

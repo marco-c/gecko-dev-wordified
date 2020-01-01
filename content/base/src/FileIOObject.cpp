@@ -167,10 +167,10 @@ namespace
 dom
 {
 const
-PRUint64
+uint64_t
 kUnknownSize
 =
-PRUint64
+uint64_t
 (
 -
 1
@@ -564,7 +564,7 @@ NS_ERROR_UNEXPECTED
 bool
 known
 ;
-PRUint64
+uint64_t
 size
 ;
 if
@@ -737,9 +737,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1085,7 +1085,7 @@ FileIOObject
 :
 GetReadyState
 (
-PRUint16
+uint16_t
 *
 aReadyState
 )

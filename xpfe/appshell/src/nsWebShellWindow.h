@@ -188,7 +188,7 @@ public
 :
 nsWebShellWindow
 (
-PRUint32
+uint32_t
 aChromeFlags
 )
 ;
@@ -219,9 +219,9 @@ aOpener
 nsIURI
 *
 aUrl
-PRInt32
+int32_t
 aInitialWidth
-PRInt32
+int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
@@ -275,9 +275,9 @@ WindowMoved
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 ;
@@ -288,9 +288,9 @@ WindowResized
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 ;
@@ -375,10 +375,10 @@ ExecuteCloseHandler
 void
 ConstrainToOpenerScreen
 (
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
 )
@@ -398,7 +398,7 @@ mSPTimerLock
 void
 SetPersistenceTimer
 (
-PRUint32
+uint32_t
 aDirtyFlags
 )
 ;

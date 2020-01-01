@@ -133,7 +133,7 @@ nsAString
 &
 aPropertyName
 const
-PRInt32
+int32_t
 aValue
 )
 ;
@@ -145,7 +145,7 @@ nsAString
 &
 aPropertyName
 const
-PRUint64
+uint64_t
 aValue
 )
 ;

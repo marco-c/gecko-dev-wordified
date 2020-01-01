@@ -185,7 +185,7 @@ virtual
 void
 GetOptionText
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -209,7 +209,7 @@ index
 *
 /
 virtual
-PRInt32
+int32_t
 GetSelectedIndex
 (
 )
@@ -332,7 +332,7 @@ listbox
 *
 /
 virtual
-PRInt32
+int32_t
 GetNumberOfOptions
 (
 )
@@ -454,7 +454,7 @@ virtual
 void
 ComboboxFinish
 (
-PRInt32
+int32_t
 aIndex
 )
 =

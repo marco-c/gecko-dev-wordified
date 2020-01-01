@@ -445,7 +445,7 @@ aValue
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mChanges
@@ -471,7 +471,7 @@ NS_ASSERTION
 i
 =
 =
-PRInt32
+int32_t
 (
 mChanges
 .
@@ -786,7 +786,7 @@ return
 mCurrent
 ;
 }
-PRInt32
+int32_t
 changesLength
 =
 mChanges
@@ -822,7 +822,7 @@ mValue
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -1067,7 +1067,7 @@ return
 mCurrent
 ;
 }
-PRInt32
+int32_t
 changesLength
 =
 mChanges
@@ -1133,7 +1133,7 @@ mValue
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -1253,7 +1253,7 @@ aTime
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1341,7 +1341,7 @@ aDelta
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1501,7 +1501,7 @@ mCurrent
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

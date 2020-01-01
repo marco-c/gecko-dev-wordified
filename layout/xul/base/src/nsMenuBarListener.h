@@ -232,7 +232,7 @@ static
 nsresult
 GetMenuAccessKey
 (
-PRInt32
+int32_t
 *
 aAccessKey
 )
@@ -256,7 +256,7 @@ InitAccessKey
 )
 ;
 static
-PRUint32
+uint32_t
 GetModifiers
 (
 nsIDOMKeyEvent
@@ -358,7 +358,7 @@ the
 menubar
 ?
 static
-PRInt32
+int32_t
 mAccessKey
 ;
 /
@@ -371,7 +371,7 @@ for
 sample
 values
 static
-PRUint32
+uint32_t
 mAccessKeyMask
 ;
 /

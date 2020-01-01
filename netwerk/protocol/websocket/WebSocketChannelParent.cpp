@@ -628,7 +628,7 @@ WebSocketChannelParent
 RecvClose
 (
 const
-PRUint16
+uint16_t
 &
 code
 const
@@ -811,7 +811,7 @@ InputStream
 &
 aStream
 const
-PRUint32
+uint32_t
 &
 aLength
 )
@@ -1283,7 +1283,7 @@ OnAcknowledge
 nsISupports
 *
 aContext
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -1336,7 +1336,7 @@ OnServerClose
 nsISupports
 *
 aContext
-PRUint16
+uint16_t
 code
 const
 nsACString

@@ -128,7 +128,7 @@ nsBaseScreen
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -167,7 +167,7 @@ nsBaseScreen
 :
 LockMinimumBrightness
 (
-PRUint32
+uint32_t
 aBrightness
 )
 {
@@ -226,7 +226,7 @@ nsBaseScreen
 :
 UnlockMinimumBrightness
 (
-PRUint32
+uint32_t
 aBrightness
 )
 {
@@ -290,7 +290,7 @@ CheckMinimumBrightness
 (
 )
 {
-PRUint32
+uint32_t
 brightness
 =
 nsIScreen
@@ -300,7 +300,7 @@ BRIGHTNESS_LEVELS
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

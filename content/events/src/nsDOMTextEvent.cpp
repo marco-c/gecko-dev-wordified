@@ -281,7 +281,7 @@ if
 mTextRange
 )
 {
-PRUint16
+uint16_t
 i
 ;
 for

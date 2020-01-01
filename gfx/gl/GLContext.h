@@ -1006,7 +1006,7 @@ GetTextureID
 0
 ;
 virtual
-PRUint32
+uint32_t
 GetTileCount
 (
 )
@@ -2150,7 +2150,7 @@ aSize
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetTileCount
 (
 )
@@ -8850,10 +8850,10 @@ mHasRobustness
 bool
 mContextLost
 ;
-PRInt32
+int32_t
 mVendor
 ;
-PRInt32
+int32_t
 mRenderer
 ;
 public
@@ -8881,11 +8881,11 @@ DebugAbortOnError
 }
 ;
 static
-PRUint32
+uint32_t
 sDebugMode
 ;
 static
-PRUint32
+uint32_t
 DebugMode
 (
 )
@@ -8990,7 +8990,7 @@ arbitrary
 thread
 .
 static
-PRUintn
+unsigned
 sCurrentGLContextTLS
 ;
 #
@@ -9541,7 +9541,7 @@ aSize
 )
 const
 {
-PRInt32
+int32_t
 biggerDimension
 =
 NS_MAX
@@ -9554,7 +9554,7 @@ aSize
 height
 )
 ;
-PRInt32
+int32_t
 maxAllowed
 =
 NS_MIN

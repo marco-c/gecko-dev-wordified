@@ -182,7 +182,7 @@ nsScriptableInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 _retval
 )
@@ -211,7 +211,7 @@ nsScriptableInputStream
 :
 Read
 (
-PRUint32
+uint32_t
 aCount
 char
 *
@@ -224,7 +224,7 @@ rv
 =
 NS_OK
 ;
-PRUint64
+uint64_t
 count64
 =
 0
@@ -276,17 +276,17 @@ doesn
 '
 t
 overflow
-PRUint32
+uint32_t
 count
 =
 NS_MIN
 (
 (
-PRUint32
+uint32_t
 )
 NS_MIN
 <
-PRUint64
+uint64_t
 >
 (
 count64
@@ -330,7 +330,7 @@ buffer
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 amtRead
 =
 0
@@ -393,7 +393,7 @@ nsScriptableInputStream
 :
 ReadBytes
 (
-PRUint32
+uint32_t
 aCount
 nsACString
 &
@@ -443,7 +443,7 @@ BeginWriting
 (
 )
 ;
-PRUint32
+uint32_t
 totalBytesRead
 =
 0
@@ -453,7 +453,7 @@ while
 1
 )
 {
-PRUint32
+uint32_t
 bytesRead
 ;
 nsresult

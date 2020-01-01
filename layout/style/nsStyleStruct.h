@@ -713,7 +713,7 @@ getComputedStyle
 for
 example
 .
-PRUint8
+uint8_t
 mGenericID
 ;
 /
@@ -746,7 +746,7 @@ h
 MathML
 scriptlevel
 support
-PRInt8
+int8_t
 mScriptLevel
 ;
 /
@@ -848,14 +848,14 @@ nsStyleGradient
 (
 )
 ;
-PRUint8
+uint8_t
 mShape
 ;
 /
 /
 NS_STYLE_GRADIENT_SHAPE_
 *
-PRUint8
+uint8_t
 mSize
 ;
 /
@@ -2463,7 +2463,7 @@ eLengthPercentage
 eDimensionType_COUNT
 }
 ;
-PRUint8
+uint8_t
 mWidthType
 mHeightType
 ;
@@ -2582,7 +2582,7 @@ Repeat
 struct
 Repeat
 {
-PRUint8
+uint8_t
 mXRepeat
 mYRepeat
 ;
@@ -2670,7 +2670,7 @@ Layer
 struct
 Layer
 {
-PRUint8
+uint8_t
 mAttachment
 ;
 /
@@ -2682,7 +2682,7 @@ See
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mClip
 ;
 /
@@ -2694,7 +2694,7 @@ See
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mOrigin
 ;
 /
@@ -2994,7 +2994,7 @@ lists
 are
 independent
 .
-PRUint32
+uint32_t
 mAttachmentCount
 mClipCount
 mOriginCount
@@ -3168,7 +3168,7 @@ stylebg_
 \
 for
 (
-PRUint32
+uint32_t
 var_
 =
 (
@@ -3232,7 +3232,7 @@ the
 background
 shorthand
 .
-PRUint8
+uint8_t
 mBackgroundInlinePolicy
 ;
 /
@@ -4019,7 +4019,7 @@ new
 (
 size_t
 aBaseSize
-PRUint32
+uint32_t
 aArrayLen
 )
 {
@@ -4107,7 +4107,7 @@ nsCSSShadowItem
 }
 nsCSSShadowArray
 (
-PRUint32
+uint32_t
 aArrayLen
 )
 :
@@ -4123,7 +4123,7 @@ nsCSSShadowArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -4191,7 +4191,7 @@ nsCSSShadowArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -4217,7 +4217,7 @@ nsCSSShadowItem
 ;
 }
 }
-PRUint32
+uint32_t
 Length
 (
 )
@@ -4231,7 +4231,7 @@ nsCSSShadowItem
 *
 ShadowAt
 (
-PRUint32
+uint32_t
 i
 )
 {
@@ -4268,7 +4268,7 @@ nsCSSShadowItem
 *
 ShadowAt
 (
-PRUint32
+uint32_t
 i
 )
 const
@@ -4310,7 +4310,7 @@ aInset
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4350,7 +4350,7 @@ nsCSSShadowArray
 )
 private
 :
-PRUint32
+uint32_t
 mLength
 ;
 nsCSSShadowItem
@@ -4587,7 +4587,7 @@ static
 bool
 IsVisibleBorderStyle
 (
-PRUint8
+uint8_t
 aStyle
 )
 {
@@ -4753,7 +4753,7 @@ mBorderColors
 )
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5126,7 +5126,7 @@ aSide
 )
 ;
 }
-PRUint8
+uint8_t
 GetBorderStyle
 (
 mozilla
@@ -5174,7 +5174,7 @@ css
 :
 Side
 aSide
-PRUint8
+uint8_t
 aStyle
 )
 {
@@ -5471,7 +5471,7 @@ inline
 void
 SetSubImage
 (
-PRUint8
+uint8_t
 aIndex
 imgIContainer
 *
@@ -5484,7 +5484,7 @@ imgIContainer
 *
 GetSubImage
 (
-PRUint8
+uint8_t
 aIndex
 )
 const
@@ -5492,7 +5492,7 @@ const
 void
 GetCompositeColors
 (
-PRInt32
+int32_t
 aIndex
 nsBorderColors
 *
@@ -5524,7 +5524,7 @@ aIndex
 void
 AppendBorderColor
 (
-PRInt32
+int32_t
 aIndex
 nscolor
 aColor
@@ -5761,7 +5761,7 @@ reset
 ]
 length
 factor
-PRUint8
+uint8_t
 mBorderImageFill
 ;
 /
@@ -5769,7 +5769,7 @@ mBorderImageFill
 [
 reset
 ]
-PRUint8
+uint8_t
 mBorderImageRepeatH
 ;
 /
@@ -5781,7 +5781,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mBorderImageRepeatV
 ;
 /
@@ -5789,7 +5789,7 @@ mBorderImageRepeatV
 [
 reset
 ]
-PRUint8
+uint8_t
 mFloatEdge
 ;
 /
@@ -6026,7 +6026,7 @@ pixel
 nsMargin
 mBorder
 ;
-PRUint8
+uint8_t
 mBorderStyle
 [
 4
@@ -6319,7 +6319,7 @@ return
 false
 ;
 }
-PRUint8
+uint8_t
 GetOutlineStyle
 (
 void
@@ -6337,7 +6337,7 @@ BORDER_STYLE_MASK
 void
 SetOutlineStyle
 (
-PRUint8
+uint8_t
 aStyle
 )
 {
@@ -6478,7 +6478,7 @@ reset
 bool
 mHasCachedOutline
 ;
-PRUint8
+uint8_t
 mOutlineStyle
 ;
 /
@@ -6646,7 +6646,7 @@ LockImage
 )
 ;
 }
-PRUint8
+uint8_t
 mListStyleType
 ;
 /
@@ -6658,7 +6658,7 @@ See
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mListStylePosition
 ;
 /
@@ -6921,7 +6921,7 @@ endif
 /
 /
 MOZ_FLEXBOX
-PRUint8
+uint8_t
 mBoxSizing
 ;
 /
@@ -6936,7 +6936,7 @@ h
 #
 ifdef
 MOZ_FLEXBOX
-PRUint8
+uint8_t
 mAlignItems
 ;
 /
@@ -6948,7 +6948,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mAlignSelf
 ;
 /
@@ -6960,7 +6960,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mFlexDirection
 ;
 /
@@ -6972,7 +6972,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mJustifyContent
 ;
 /
@@ -6984,7 +6984,7 @@ see
 nsStyleConsts
 .
 h
-PRInt32
+int32_t
 mOrder
 ;
 /
@@ -7337,7 +7337,7 @@ aOther
 nsString
 mString
 ;
-PRUint8
+uint8_t
 mType
 ;
 }
@@ -7424,7 +7424,7 @@ nsStyleTextOverflowSide
 &
 GetLeft
 (
-PRUint8
+uint8_t
 aDirection
 )
 const
@@ -7479,7 +7479,7 @@ nsStyleTextOverflowSide
 &
 GetRight
 (
-PRUint8
+uint8_t
 aDirection
 )
 const
@@ -7688,7 +7688,7 @@ this
 )
 ;
 }
-PRUint8
+uint8_t
 GetDecorationStyle
 (
 )
@@ -7705,7 +7705,7 @@ BORDER_STYLE_MASK
 void
 SetDecorationStyle
 (
-PRUint8
+uint8_t
 aStyle
 )
 {
@@ -7900,7 +7900,7 @@ reset
 ]
 enum
 string
-PRUint8
+uint8_t
 mTextBlink
 ;
 /
@@ -7912,7 +7912,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mTextDecorationLine
 ;
 /
@@ -7924,7 +7924,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mUnicodeBidi
 ;
 /
@@ -7938,7 +7938,7 @@ nsStyleConsts
 h
 protected
 :
-PRUint8
+uint8_t
 mTextDecorationStyle
 ;
 /
@@ -8077,7 +8077,7 @@ return
 false
 ;
 }
-PRUint8
+uint8_t
 mTextAlign
 ;
 /
@@ -8089,7 +8089,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mTextAlignLast
 ;
 /
@@ -8101,7 +8101,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mTextTransform
 ;
 /
@@ -8113,7 +8113,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mWhiteSpace
 ;
 /
@@ -8125,7 +8125,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mWordBreak
 ;
 /
@@ -8137,7 +8137,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mWordWrap
 ;
 /
@@ -8149,7 +8149,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mHyphens
 ;
 /
@@ -8161,7 +8161,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mTextSizeAdjust
 ;
 /
@@ -8173,7 +8173,7 @@ see
 nsStyleConsts
 .
 h
-PRInt32
+int32_t
 mTabSize
 ;
 /
@@ -8478,7 +8478,7 @@ return
 false
 ;
 }
-PRUint8
+uint8_t
 mDirection
 ;
 /
@@ -8492,7 +8492,7 @@ nsStyleConsts
 h
 NS_STYLE_DIRECTION_
 *
-PRUint8
+uint8_t
 mVisible
 ;
 /
@@ -8500,7 +8500,7 @@ mVisible
 [
 inherited
 ]
-PRUint8
+uint8_t
 mPointerEvents
 ;
 /
@@ -8568,7 +8568,7 @@ StepEnd
 explicit
 nsTimingFunction
 (
-PRInt32
+int32_t
 aTimingFunctionType
 =
 NS_STYLE_TRANSITION_TIMING_FUNCTION_EASE
@@ -8626,7 +8626,7 @@ nsTimingFunction
 (
 Type
 aType
-PRUint32
+uint32_t
 aSteps
 )
 :
@@ -8694,7 +8694,7 @@ mY2
 }
 mFunc
 ;
-PRUint32
+uint32_t
 mSteps
 ;
 }
@@ -8911,7 +8911,7 @@ private
 void
 AssignFromKeyword
 (
-PRInt32
+int32_t
 aTimingFunctionType
 )
 ;
@@ -9228,7 +9228,7 @@ return
 mName
 ;
 }
-PRUint8
+uint8_t
 GetDirection
 (
 )
@@ -9238,7 +9238,7 @@ return
 mDirection
 ;
 }
-PRUint8
+uint8_t
 GetFillMode
 (
 )
@@ -9248,7 +9248,7 @@ return
 mFillMode
 ;
 }
-PRUint8
+uint8_t
 GetPlayState
 (
 )
@@ -9323,7 +9323,7 @@ aName
 void
 SetDirection
 (
-PRUint8
+uint8_t
 aDirection
 )
 {
@@ -9335,7 +9335,7 @@ aDirection
 void
 SetFillMode
 (
-PRUint8
+uint8_t
 aFillMode
 )
 {
@@ -9347,7 +9347,7 @@ aFillMode
 void
 SetPlayState
 (
-PRUint8
+uint8_t
 aPlayState
 )
 {
@@ -9400,13 +9400,13 @@ for
 '
 none
 '
-PRUint8
+uint8_t
 mDirection
 ;
-PRUint8
+uint8_t
 mFillMode
 ;
-PRUint8
+uint8_t
 mPlayState
 ;
 float
@@ -9594,7 +9594,7 @@ mOpacity
 [
 reset
 ]
-PRUint8
+uint8_t
 mDisplay
 ;
 /
@@ -9608,7 +9608,7 @@ nsStyleConsts
 h
 NS_STYLE_DISPLAY_
 *
-PRUint8
+uint8_t
 mOriginalDisplay
 ;
 /
@@ -9639,7 +9639,7 @@ equal
 /
 to
 mDisplay
-PRUint8
+uint8_t
 mAppearance
 ;
 /
@@ -9647,7 +9647,7 @@ mAppearance
 [
 reset
 ]
-PRUint8
+uint8_t
 mPosition
 ;
 /
@@ -9659,7 +9659,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mFloats
 ;
 /
@@ -9673,7 +9673,7 @@ nsStyleConsts
 h
 NS_STYLE_FLOAT_
 *
-PRUint8
+uint8_t
 mOriginalFloats
 ;
 /
@@ -9696,7 +9696,7 @@ otherwise
 equal
 to
 mFloats
-PRUint8
+uint8_t
 mBreakType
 ;
 /
@@ -9726,7 +9726,7 @@ mBreakAfter
 [
 reset
 ]
-PRUint8
+uint8_t
 mOverflowX
 ;
 /
@@ -9738,7 +9738,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mOverflowY
 ;
 /
@@ -9750,7 +9750,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mResize
 ;
 /
@@ -9762,7 +9762,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mClipFlags
 ;
 /
@@ -9774,7 +9774,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mOrient
 ;
 /
@@ -9838,10 +9838,10 @@ the
 style
 rule
 )
-PRUint8
+uint8_t
 mBackfaceVisibility
 ;
-PRUint8
+uint8_t
 mTransformStyle
 ;
 const
@@ -9933,7 +9933,7 @@ property
 being
 longer
 .
-PRUint32
+uint32_t
 mTransitionTimingFunctionCount
 mTransitionDurationCount
 mTransitionDelayCount
@@ -9975,7 +9975,7 @@ property
 being
 longer
 .
-PRUint32
+uint32_t
 mAnimationTimingFunctionCount
 mAnimationDurationCount
 mAnimationDelayCount
@@ -10085,7 +10085,7 @@ static
 bool
 IsDisplayTypeInlineOutside
 (
-PRUint8
+uint8_t
 aDisplay
 )
 {
@@ -10386,7 +10386,7 @@ aFrame
 const
 ;
 inline
-PRUint8
+uint8_t
 GetDisplay
 (
 const
@@ -10547,7 +10547,7 @@ return
 false
 ;
 }
-PRUint8
+uint8_t
 mLayoutStrategy
 ;
 /
@@ -10561,7 +10561,7 @@ nsStyleConsts
 h
 NS_STYLE_TABLE_LAYOUT_
 *
-PRUint8
+uint8_t
 mFrame
 ;
 /
@@ -10575,7 +10575,7 @@ nsStyleConsts
 h
 NS_STYLE_TABLE_FRAME_
 *
-PRUint8
+uint8_t
 mRules
 ;
 /
@@ -10589,7 +10589,7 @@ nsStyleConsts
 h
 NS_STYLE_TABLE_RULES_
 *
-PRInt32
+int32_t
 mCols
 ;
 /
@@ -10608,7 +10608,7 @@ nsStyleConsts
 h
 NS_STYLE_TABLE_COLS_
 *
-PRInt32
+int32_t
 mSpan
 ;
 /
@@ -10751,7 +10751,7 @@ mBorderSpacingY
 [
 inherited
 ]
-PRUint8
+uint8_t
 mBorderCollapse
 ;
 /
@@ -10759,7 +10759,7 @@ mBorderCollapse
 [
 inherited
 ]
-PRUint8
+uint8_t
 mCaptionSide
 ;
 /
@@ -10767,7 +10767,7 @@ mCaptionSide
 [
 inherited
 ]
-PRUint8
+uint8_t
 mEmptyCells
 ;
 /
@@ -11013,7 +11013,7 @@ nsStyleCounterData
 nsString
 mCounter
 ;
-PRInt32
+int32_t
 mValue
 ;
 }
@@ -11156,7 +11156,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 QuotesCount
 (
 void
@@ -11177,7 +11177,7 @@ nsString
 *
 OpenQuoteAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -11209,7 +11209,7 @@ nsString
 *
 CloseQuoteAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -11241,7 +11241,7 @@ aIndex
 nsresult
 GetQuotesAt
 (
-PRUint32
+uint32_t
 aIndex
 nsString
 &
@@ -11291,7 +11291,7 @@ NS_ERROR_ILLEGAL_VALUE
 nsresult
 AllocateQuotes
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -11350,7 +11350,7 @@ NS_OK
 nsresult
 SetQuotesAt
 (
-PRUint32
+uint32_t
 aIndex
 const
 nsString
@@ -11400,7 +11400,7 @@ NS_ERROR_ILLEGAL_VALUE
 }
 protected
 :
-PRUint32
+uint32_t
 mQuotesCount
 ;
 nsString
@@ -11493,7 +11493,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 ContentCount
 (
 void
@@ -11514,7 +11514,7 @@ nsStyleContentData
 &
 ContentAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -11542,7 +11542,7 @@ nsStyleContentData
 &
 ContentAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -11568,11 +11568,11 @@ aIndex
 nsresult
 AllocateContents
 (
-PRUint32
+uint32_t
 aCount
 )
 ;
-PRUint32
+uint32_t
 CounterIncrementCount
 (
 void
@@ -11593,7 +11593,7 @@ nsStyleCounterData
 *
 GetCounterIncrementAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -11621,7 +11621,7 @@ aIndex
 nsresult
 AllocateCounterIncrements
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -11678,13 +11678,13 @@ NS_OK
 nsresult
 SetCounterIncrementAt
 (
-PRUint32
+uint32_t
 aIndex
 const
 nsString
 &
 aCounter
-PRInt32
+int32_t
 aIncrement
 )
 {
@@ -11721,7 +11721,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-PRUint32
+uint32_t
 CounterResetCount
 (
 void
@@ -11742,7 +11742,7 @@ nsStyleCounterData
 *
 GetCounterResetAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -11770,7 +11770,7 @@ aIndex
 nsresult
 AllocateCounterResets
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -11827,13 +11827,13 @@ NS_OK
 nsresult
 SetCounterResetAt
 (
-PRUint32
+uint32_t
 aIndex
 const
 nsString
 &
 aCounter
-PRInt32
+int32_t
 aValue
 )
 {
@@ -11894,13 +11894,13 @@ nsStyleCounterData
 *
 mResets
 ;
-PRUint32
+uint32_t
 mContentCount
 ;
-PRUint32
+uint32_t
 mIncrementCount
 ;
-PRUint32
+uint32_t
 mResetCount
 ;
 }
@@ -12010,7 +12010,7 @@ return
 false
 ;
 }
-PRUint8
+uint8_t
 mUserSelect
 ;
 /
@@ -12023,7 +12023,7 @@ selection
 -
 style
 )
-PRUint8
+uint8_t
 mForceBrokenImageIcon
 ;
 /
@@ -12039,7 +12039,7 @@ forcing
 otherwise
 forcing
 )
-PRUint8
+uint8_t
 mIMEMode
 ;
 /
@@ -12047,7 +12047,7 @@ mIMEMode
 [
 reset
 ]
-PRUint8
+uint8_t
 mWindowShadow
 ;
 /
@@ -12306,7 +12306,7 @@ return
 false
 ;
 }
-PRUint8
+uint8_t
 mUserInput
 ;
 /
@@ -12314,7 +12314,7 @@ mUserInput
 [
 inherited
 ]
-PRUint8
+uint8_t
 mUserModify
 ;
 /
@@ -12327,7 +12327,7 @@ modify
 -
 content
 )
-PRUint8
+uint8_t
 mUserFocus
 ;
 /
@@ -12340,7 +12340,7 @@ auto
 -
 select
 )
-PRUint8
+uint8_t
 mCursor
 ;
 /
@@ -12352,7 +12352,7 @@ See
 nsStyleConsts
 .
 h
-PRUint32
+uint32_t
 mCursorArrayLength
 ;
 nsCursorImage
@@ -12545,7 +12545,7 @@ see
 nsStyleConsts
 .
 h
-PRUint32
+uint32_t
 mBoxOrdinal
 ;
 /
@@ -12557,7 +12557,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mBoxAlign
 ;
 /
@@ -12569,7 +12569,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mBoxDirection
 ;
 /
@@ -12581,7 +12581,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mBoxOrient
 ;
 /
@@ -12593,7 +12593,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mBoxPack
 ;
 /
@@ -12725,7 +12725,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 mColumnCount
 ;
 /
@@ -12765,7 +12765,7 @@ mColumnRuleColor
 [
 reset
 ]
-PRUint8
+uint8_t
 mColumnRuleStyle
 ;
 /
@@ -12773,7 +12773,7 @@ mColumnRuleStyle
 [
 reset
 ]
-PRUint8
+uint8_t
 mColumnFill
 ;
 /
@@ -13195,10 +13195,10 @@ mStrokeOpacity
 [
 inherited
 ]
-PRUint32
+uint32_t
 mStrokeDasharrayLength
 ;
-PRUint8
+uint8_t
 mClipRule
 ;
 /
@@ -13206,7 +13206,7 @@ mClipRule
 [
 inherited
 ]
-PRUint8
+uint8_t
 mColorInterpolation
 ;
 /
@@ -13218,7 +13218,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mColorInterpolationFilters
 ;
 /
@@ -13230,7 +13230,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mFillRule
 ;
 /
@@ -13242,7 +13242,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mImageRendering
 ;
 /
@@ -13254,7 +13254,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mShapeRendering
 ;
 /
@@ -13266,7 +13266,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mStrokeLinecap
 ;
 /
@@ -13278,7 +13278,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mStrokeLinejoin
 ;
 /
@@ -13290,7 +13290,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mTextAnchor
 ;
 /
@@ -13302,7 +13302,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mTextRendering
 ;
 /
@@ -13492,7 +13492,7 @@ mFloodOpacity
 [
 reset
 ]
-PRUint8
+uint8_t
 mDominantBaseline
 ;
 /
@@ -13504,7 +13504,7 @@ see
 nsStyleConsts
 .
 h
-PRUint8
+uint8_t
 mVectorEffect
 ;
 /

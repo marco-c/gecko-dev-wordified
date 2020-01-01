@@ -296,7 +296,7 @@ char_type
 (
 start
 )
-PRUint32
+uint32_t
 (
 end
 -
@@ -316,7 +316,7 @@ const
 char_type
 *
 data
-PRUint32
+uint32_t
 length
 )
 :
@@ -358,7 +358,7 @@ char_type
 (
 data
 )
-PRUint32
+uint32_t
 (
 char_traits
 :
@@ -382,7 +382,7 @@ const
 string_type
 &
 str
-PRUint32
+uint32_t
 startPos
 )
 :
@@ -480,7 +480,7 @@ data
 Rebind
 (
 data
-PRUint32
+uint32_t
 (
 char_traits
 :
@@ -520,7 +520,7 @@ end
 Rebind
 (
 start
-PRUint32
+uint32_t
 (
 end
 -
@@ -535,7 +535,7 @@ Rebind
 const
 string_type
 &
-PRUint32
+uint32_t
 startPos
 )
 ;

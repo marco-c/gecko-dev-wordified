@@ -215,7 +215,7 @@ nsAudioStream
 owner
 nsCString
 data
-PRUint32
+uint32_t
 frames
 )
 {
@@ -292,7 +292,7 @@ mOwner
 nsCString
 mData
 ;
-PRUint32
+uint32_t
 mFrames
 ;
 }
@@ -423,7 +423,7 @@ AudioMinWriteSizeDone
 AudioParent
 *
 owner
-PRInt32
+int32_t
 minFrames
 )
 {
@@ -461,7 +461,7 @@ AudioParent
 >
 mOwner
 ;
-PRInt32
+int32_t
 mMinFrames
 ;
 }
@@ -498,7 +498,7 @@ Run
 (
 )
 {
-PRInt32
+int32_t
 minFrames
 =
 mOwner
@@ -712,7 +712,7 @@ initialized
 "
 )
 ;
-PRInt64
+int64_t
 position
 =
 mStream
@@ -748,7 +748,7 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 frames
 )
@@ -1102,7 +1102,7 @@ AudioParent
 :
 SendMinWriteSizeDone
 (
-PRInt32
+int32_t
 minFrames
 )
 {
@@ -1176,11 +1176,11 @@ AudioParent
 :
 AudioParent
 (
-PRInt32
+int32_t
 aNumChannels
-PRInt32
+int32_t
 aRate
-PRInt32
+int32_t
 aFormat
 )
 :

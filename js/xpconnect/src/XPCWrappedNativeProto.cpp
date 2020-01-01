@@ -120,7 +120,7 @@ defined
 (
 DEBUG
 )
-PRInt32
+int32_t
 XPCWrappedNativeProto
 :
 :
@@ -141,7 +141,7 @@ Scope
 nsIClassInfo
 *
 ClassInfo
-PRUint32
+uint32_t
 ClassInfoFlags
 XPCNativeSet
 *
@@ -1137,7 +1137,7 @@ XPCWrappedNativeProto
 :
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 {
@@ -1281,7 +1281,7 @@ of
 x
 "
 (
-PRUint32
+uint32_t
 )
 mScriptableInfo
 -

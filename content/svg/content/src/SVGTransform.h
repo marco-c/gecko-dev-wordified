@@ -345,7 +345,7 @@ aOriginY
 mOriginY
 ;
 }
-PRUint16
+uint16_t
 Type
 (
 )
@@ -504,7 +504,7 @@ mAngle
 mOriginX
 mOriginY
 ;
-PRUint16
+uint16_t
 mType
 ;
 }
@@ -806,7 +806,7 @@ type
 )
 static
 const
-PRUint32
+uint32_t
 NUM_SIMPLE_PARAMS
 =
 3
@@ -843,7 +843,7 @@ type
 .
 static
 const
-PRUint32
+uint32_t
 NUM_STORED_PARAMS
 =
 6
@@ -851,7 +851,7 @@ NUM_STORED_PARAMS
 explicit
 SVGTransformSMILData
 (
-PRUint16
+uint16_t
 aType
 )
 :
@@ -887,7 +887,7 @@ type
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -914,7 +914,7 @@ f
 }
 SVGTransformSMILData
 (
-PRUint16
+uint16_t
 aType
 float
 (
@@ -961,7 +961,7 @@ type
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -988,7 +988,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 NUM_SIMPLE_PARAMS
@@ -1064,7 +1064,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1126,7 +1126,7 @@ aOther
 )
 ;
 }
-PRUint16
+uint16_t
 mTransformType
 ;
 float

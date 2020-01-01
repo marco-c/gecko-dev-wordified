@@ -408,7 +408,7 @@ NS_StackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *
@@ -775,7 +775,7 @@ aDetails
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferSize
 )
 ;

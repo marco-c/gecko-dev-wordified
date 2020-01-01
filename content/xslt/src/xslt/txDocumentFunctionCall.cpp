@@ -206,7 +206,7 @@ aBaseUri
 absUrl
 )
 ;
-PRInt32
+int32_t
 hash
 =
 absUrl
@@ -221,7 +221,7 @@ PRUnichar
 )
 )
 ;
-PRUint32
+uint32_t
 urlEnd
 fragStart
 fragEnd
@@ -727,7 +727,7 @@ exprResult1
 )
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for

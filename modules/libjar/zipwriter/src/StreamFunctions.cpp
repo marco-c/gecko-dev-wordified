@@ -117,7 +117,7 @@ aStream
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -128,7 +128,7 @@ aCount
 0
 )
 {
-PRUint32
+uint32_t
 read
 ;
 nsresult
@@ -237,7 +237,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -248,7 +248,7 @@ aCount
 0
 )
 {
-PRUint32
+uint32_t
 written
 ;
 nsresult

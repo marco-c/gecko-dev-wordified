@@ -548,7 +548,7 @@ nsHTMLMenuElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -658,7 +658,7 @@ OpenContainer
 aLabel
 )
 ;
-PRInt8
+int8_t
 separator
 =
 ST_TRUE_INIT
@@ -809,7 +809,7 @@ aContent
 nsIMenuBuilder
 *
 aBuilder
-PRInt8
+int8_t
 &
 aSeparator
 )
@@ -1062,7 +1062,7 @@ AddSeparator
 nsIMenuBuilder
 *
 aBuilder
-PRInt8
+int8_t
 &
 aSeparator
 )

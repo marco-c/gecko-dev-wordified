@@ -469,7 +469,7 @@ eParserDocType
 aDocType
 eParserCommands
 aCommand
-PRUint32
+uint32_t
 aFlags
 )
 :
@@ -705,7 +705,7 @@ theDeallocator
 static
 *
 /
-PRUint32
+uint32_t
 nsHTMLTokenizer
 :
 :
@@ -717,7 +717,7 @@ nsIContentSink
 aSink
 )
 {
-PRUint32
+uint32_t
 flags
 =
 0
@@ -1405,7 +1405,7 @@ tokens
 .
 *
 /
-PRInt32
+int32_t
 nsHTMLTokenizer
 :
 :
@@ -1488,7 +1488,7 @@ nsHTMLTokenizer
 :
 GetTokenAt
 (
-PRInt32
+int32_t
 anIndex
 )
 {
@@ -1680,7 +1680,7 @@ nsDeque
 aDeque
 )
 {
-PRInt32
+int32_t
 aCount
 =
 aDeque
@@ -1691,7 +1691,7 @@ GetSize
 ;
 for
 (
-PRInt32
+int32_t
 anIndex
 =
 0
@@ -1895,7 +1895,7 @@ kNotFound
 *
 /
 static
-PRInt32
+int32_t
 FindLastIndexOfTag
 (
 eHTMLTags
@@ -1905,7 +1905,7 @@ nsDeque
 aTagStack
 )
 {
-PRInt32
+int32_t
 theCount
 =
 aTagStack
@@ -2217,7 +2217,7 @@ tempStack
 0
 )
 ;
-PRInt32
+int32_t
 theStackDepth
 =
 0
@@ -2236,7 +2236,7 @@ deep
 .
 static
 const
-PRInt32
+int32_t
 theMaxStackDepth
 =
 200
@@ -2357,7 +2357,7 @@ ShouldVerifyHierarchy
 )
 )
 {
-PRInt32
+int32_t
 earlyPos
 =
 FindLastIndexOfTag
@@ -4087,7 +4087,7 @@ result
 =
 NS_OK
 ;
-PRInt16
+int16_t
 theAttrCount
 =
 0
@@ -4250,7 +4250,7 @@ result
 )
 )
 {
-PRInt32
+int32_t
 newline
 =
 0
@@ -4538,7 +4538,7 @@ unwind
 .
 .
 .
-PRInt32
+int32_t
 theDequeSize
 =
 mTokenDeque
@@ -5886,7 +5886,7 @@ unwind
 .
 .
 .
-PRInt32
+int32_t
 theDequeSize
 =
 mTokenDeque
@@ -7178,7 +7178,7 @@ ToUpperCase
 theBufCopy
 )
 ;
-PRInt32
+int32_t
 theIndex
 =
 theBufCopy

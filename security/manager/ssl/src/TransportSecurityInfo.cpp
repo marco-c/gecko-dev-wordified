@@ -466,7 +466,7 @@ TransportSecurityInfo
 :
 SetPort
 (
-PRInt32
+int32_t
 aPort
 )
 {
@@ -484,7 +484,7 @@ TransportSecurityInfo
 :
 GetPort
 (
-PRInt32
+int32_t
 *
 aPort
 )
@@ -556,7 +556,7 @@ TransportSecurityInfo
 :
 GetSecurityState
 (
-PRUint32
+uint32_t
 *
 state
 )
@@ -576,7 +576,7 @@ TransportSecurityInfo
 :
 SetSecurityState
 (
-PRUint32
+uint32_t
 aState
 )
 {
@@ -603,7 +603,7 @@ TransportSecurityInfo
 :
 GetCountSubRequestsHighSecurity
 (
-PRInt32
+int32_t
 *
 aSubRequestsHighSecurity
 )
@@ -623,7 +623,7 @@ TransportSecurityInfo
 :
 SetCountSubRequestsHighSecurity
 (
-PRInt32
+int32_t
 aSubRequestsHighSecurity
 )
 {
@@ -650,7 +650,7 @@ TransportSecurityInfo
 :
 GetCountSubRequestsLowSecurity
 (
-PRInt32
+int32_t
 *
 aSubRequestsLowSecurity
 )
@@ -670,7 +670,7 @@ TransportSecurityInfo
 :
 SetCountSubRequestsLowSecurity
 (
-PRInt32
+int32_t
 aSubRequestsLowSecurity
 )
 {
@@ -697,7 +697,7 @@ TransportSecurityInfo
 :
 GetCountSubRequestsBrokenSecurity
 (
-PRInt32
+int32_t
 *
 aSubRequestsBrokenSecurity
 )
@@ -717,7 +717,7 @@ TransportSecurityInfo
 :
 SetCountSubRequestsBrokenSecurity
 (
-PRInt32
+int32_t
 aSubRequestsBrokenSecurity
 )
 {
@@ -744,7 +744,7 @@ TransportSecurityInfo
 :
 GetCountSubRequestsNoSecurity
 (
-PRInt32
+int32_t
 *
 aSubRequestsNoSecurity
 )
@@ -764,7 +764,7 @@ TransportSecurityInfo
 :
 SetCountSubRequestsNoSecurity
 (
-PRInt32
+int32_t
 aSubRequestsNoSecurity
 )
 {
@@ -955,7 +955,7 @@ nsXPIDLCString
 const
 &
 host
-PRInt32
+int32_t
 port
 PRErrorCode
 err
@@ -977,7 +977,7 @@ const
 nsXPIDLCString
 &
 host
-PRInt32
+int32_t
 port
 nsString
 &
@@ -1603,7 +1603,7 @@ assigned
 such
 value
 .
-PRUint32
+uint32_t
 version
 =
 3
@@ -1700,7 +1700,7 @@ stream
 Write32
 (
 (
-PRUint32
+uint32_t
 )
 mSubRequestsHighSecurity
 )
@@ -1711,7 +1711,7 @@ stream
 Write32
 (
 (
-PRUint32
+uint32_t
 )
 mSubRequestsLowSecurity
 )
@@ -1722,7 +1722,7 @@ stream
 Write32
 (
 (
-PRUint32
+uint32_t
 )
 mSubRequestsBrokenSecurity
 )
@@ -1733,7 +1733,7 @@ stream
 Write32
 (
 (
-PRUint32
+uint32_t
 )
 mSubRequestsNoSecurity
 )
@@ -1746,7 +1746,7 @@ static
 bool
 CheckUUIDEquals
 (
-PRUint32
+uint32_t
 m0
 nsIObjectInputStream
 *
@@ -1840,7 +1840,7 @@ stream
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 version
 ;
 bool
@@ -1856,7 +1856,7 @@ here
 .
 .
 .
-PRUint32
+uint32_t
 UUID_0
 ;
 stream
@@ -2349,7 +2349,7 @@ stream
 Read32
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -2362,7 +2362,7 @@ stream
 Read32
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -2375,7 +2375,7 @@ stream
 Read32
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -2388,7 +2388,7 @@ stream
 Read32
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -2425,7 +2425,7 @@ TransportSecurityInfo
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -2455,7 +2455,7 @@ TransportSecurityInfo
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -2567,7 +2567,7 @@ TransportSecurityInfo
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -2590,7 +2590,7 @@ TransportSecurityInfo
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -2730,7 +2730,7 @@ const
 nsXPIDLCString
 &
 host
-PRInt32
+int32_t
 port
 PRErrorCode
 err
@@ -3092,7 +3092,7 @@ chain
 )
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -3322,7 +3322,7 @@ component
 nsString
 &
 allNames
-PRUint32
+uint32_t
 &
 nameCount
 )
@@ -3908,7 +3908,7 @@ return
 nsString
 allNames
 ;
-PRUint32
+uint32_t
 nameCount
 =
 0
@@ -4777,7 +4777,7 @@ const
 nsXPIDLCString
 &
 host
-PRInt32
+int32_t
 port
 nsString
 &
@@ -5225,7 +5225,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 port
 ;
 rv
@@ -5580,7 +5580,7 @@ SetStatusErrorBits
 nsIX509Cert
 &
 cert
-PRUint32
+uint32_t
 collected_errors
 )
 {

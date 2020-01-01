@@ -201,10 +201,10 @@ mCert
 )
 return
 ;
-PRUint32
+uint32_t
 verified
 ;
-PRUint32
+uint32_t
 count
 ;
 PRUnichar
@@ -729,10 +729,10 @@ nsCertVerificationResult
 :
 GetUsagesArrayResult
 (
-PRUint32
+uint32_t
 *
 aVerified
-PRUint32
+uint32_t
 *
 aCount
 PRUnichar

@@ -682,7 +682,7 @@ NS_ENSURE_STATE
 nodes
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 nsresult
@@ -705,7 +705,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -855,7 +855,7 @@ children
 )
 return
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -871,7 +871,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -951,7 +951,7 @@ accessible
 ;
 }
 }
-PRUint64
+uint64_t
 nsXFormsAccessible
 :
 :
@@ -1047,7 +1047,7 @@ rv
 0
 )
 ;
-PRUint64
+uint64_t
 states
 =
 HyperTextAccessibleWrap
@@ -1667,7 +1667,7 @@ aDoc
 )
 {
 }
-PRUint64
+uint64_t
 nsXFormsEditableAccessible
 :
 :
@@ -1675,7 +1675,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsAccessible
@@ -1786,7 +1786,7 @@ editor
 state
 )
 ;
-PRUint32
+uint32_t
 flags
 ;
 editor
@@ -2276,7 +2276,7 @@ mDoc
 return
 nullptr
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -2292,7 +2292,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2388,7 +2388,7 @@ return
 items
 ;
 }
-PRUint32
+uint32_t
 nsXFormsSelectableAccessible
 :
 :
@@ -2484,7 +2484,7 @@ itemNodeList
 return
 0
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -2508,7 +2508,7 @@ nsXFormsSelectableAccessible
 :
 AddItemToSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2581,7 +2581,7 @@ nsXFormsSelectableAccessible
 :
 RemoveItemFromSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2684,7 +2684,7 @@ nsXFormsSelectableAccessible
 :
 GetSelectedItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2863,7 +2863,7 @@ nsXFormsSelectableAccessible
 :
 IsItemSelected
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -3044,7 +3044,7 @@ nsXFormsSelectableAccessible
 :
 GetItemByIndex
 (
-PRUint32
+uint32_t
 *
 aIndex
 Accessible
@@ -3062,7 +3062,7 @@ aAccessible
 :
 this
 ;
-PRUint32
+uint32_t
 childCount
 =
 accessible
@@ -3074,7 +3074,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -3420,7 +3420,7 @@ aValue
 )
 ;
 }
-PRUint8
+uint8_t
 nsXFormsSelectableItemAccessible
 :
 :
@@ -3438,7 +3438,7 @@ nsXFormsSelectableItemAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {

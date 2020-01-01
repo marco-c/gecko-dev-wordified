@@ -171,7 +171,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMOZSMSMESSAGE
 SmsMessage
 (
-PRInt32
+int32_t
 aId
 DeliveryState
 aDelivery
@@ -187,7 +187,7 @@ const
 nsString
 &
 aBody
-PRUint64
+uint64_t
 aTimestamp
 bool
 aRead
@@ -205,7 +205,7 @@ static
 nsresult
 Create
 (
-PRInt32
+int32_t
 aId
 const
 nsAString

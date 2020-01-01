@@ -267,7 +267,7 @@ attributeName
 )
 return
 ;
-PRUint32
+uint32_t
 attributeNameSize
 =
 strlen

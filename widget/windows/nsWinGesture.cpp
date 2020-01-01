@@ -1149,7 +1149,7 @@ GetTouchInputInfo
 (
 HTOUCHINPUT
 hTouchInput
-PRUint32
+uint32_t
 cInputs
 PTOUCHINPUT
 pInputs
@@ -2328,7 +2328,7 @@ else
 #
 ifdef
 DBG_jimm
-PRInt32
+int32_t
 deltaX
 =
 mPanIntermediate
@@ -2339,7 +2339,7 @@ coord
 .
 x
 ;
-PRInt32
+int32_t
 deltaY
 =
 mPanIntermediate
@@ -2475,9 +2475,9 @@ inline
 bool
 TestTransition
 (
-PRInt32
+int32_t
 a
-PRInt32
+int32_t
 b
 )
 {
@@ -2562,7 +2562,7 @@ UpdatePanFeedbackX
 (
 HWND
 hWnd
-PRInt32
+int32_t
 scrollOverflow
 bool
 &
@@ -2632,7 +2632,7 @@ if
 mXAxisFeedback
 )
 {
-PRInt32
+int32_t
 newOverflow
 =
 mPixelScrollOverflow
@@ -2727,7 +2727,7 @@ UpdatePanFeedbackY
 (
 HWND
 hWnd
-PRInt32
+int32_t
 scrollOverflow
 bool
 &
@@ -2797,7 +2797,7 @@ if
 mYAxisFeedback
 )
 {
-PRInt32
+int32_t
 newOverflow
 =
 mPixelScrollOverflow

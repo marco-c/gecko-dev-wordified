@@ -289,7 +289,7 @@ bool
 sShowTooltips
 ;
 static
-PRUint32
+uint32_t
 sTooltipListenerCount
 ;
 void
@@ -480,7 +480,7 @@ at
 this
 location
 .
-PRInt32
+int32_t
 mMouseScreenX
 mMouseScreenY
 ;
@@ -570,7 +570,7 @@ mIsSourceTree
 bool
 mNeedTitletip
 ;
-PRInt32
+int32_t
 mLastTreeRow
 ;
 nsCOMPtr

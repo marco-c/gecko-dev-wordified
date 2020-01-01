@@ -445,7 +445,7 @@ npp
 DrawMode
 drawMode
 ;
-PRUint32
+uint32_t
 drawColor
 ;
 /

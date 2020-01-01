@@ -650,7 +650,7 @@ virtual
 nsresult
 Which
 (
-PRUint32
+uint32_t
 *
 aWhich
 )
@@ -692,7 +692,7 @@ nsIDOMWindow
 >
 mView
 ;
-PRInt32
+int32_t
 mDetail
 ;
 nsIntPoint

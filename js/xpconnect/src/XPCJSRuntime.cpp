@@ -938,7 +938,7 @@ n
 "
 )
 ;
-PRUint16
+uint16_t
 count
 =
 set
@@ -950,7 +950,7 @@ GetInterfaceCount
 ;
 for
 (
-PRUint16
+uint16_t
 k
 =
 0
@@ -3426,7 +3426,7 @@ while
 1
 )
 {
-PRUint32
+uint32_t
 count
 =
 array
@@ -3642,7 +3642,7 @@ Now
 (
 )
 ;
-PRUint32
+uint32_t
 counter
 =
 0
@@ -3652,7 +3652,7 @@ while
 1
 )
 {
-PRUint32
+uint32_t
 count
 =
 items
@@ -4296,7 +4296,7 @@ extraGCCallbacks
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7824,7 +7824,7 @@ principal
 }
 }
 static
-PRInt64
+int64_t
 GetGCChunkTotalBytes
 (
 )
@@ -7846,7 +7846,7 @@ GetJSRuntime
 )
 ;
 return
-PRInt64
+int64_t
 (
 JS_GetGCParameter
 (
@@ -7935,7 +7935,7 @@ heap
 "
 )
 static
-PRInt64
+int64_t
 GetJSSystemCompartmentCount
 (
 )
@@ -7961,7 +7961,7 @@ GetJSRuntime
 ;
 }
 static
-PRInt64
+int64_t
 GetJSUserCompartmentCount
 (
 )
@@ -11526,7 +11526,7 @@ NS_OK
 NS_IMETHOD
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -13439,7 +13439,7 @@ JSMemoryMultiReporter
 :
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -15343,7 +15343,7 @@ DebugDump
 (
 *
 (
-PRInt16
+int16_t
 *
 )
 arg
@@ -15389,7 +15389,7 @@ DebugDump
 (
 *
 (
-PRInt16
+int16_t
 *
 )
 arg
@@ -15407,7 +15407,7 @@ XPCJSRuntime
 :
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 {

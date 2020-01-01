@@ -179,10 +179,10 @@ mDisplayName
 nsString
 mDisplayValue
 ;
-PRUint32
+uint32_t
 mType
 ;
-PRUint32
+uint32_t
 mTag
 ;
 bool
@@ -228,10 +228,10 @@ mDisplayName
 nsString
 mValue
 ;
-PRUint32
+uint32_t
 mType
 ;
-PRUint32
+uint32_t
 mTag
 ;
 unsigned
@@ -239,7 +239,7 @@ char
 *
 mData
 ;
-PRUint32
+uint32_t
 mLen
 ;
 }

@@ -246,7 +246,7 @@ nsString
 *
 aValues
 const
-PRUint32
+uint32_t
 aFlags
 )
 =

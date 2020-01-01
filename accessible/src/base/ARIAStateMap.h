@@ -252,7 +252,7 @@ dom
 Element
 *
 aElement
-PRUint64
+uint64_t
 *
 aState
 )

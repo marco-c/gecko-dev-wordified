@@ -384,7 +384,7 @@ false
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 entries

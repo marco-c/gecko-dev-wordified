@@ -513,7 +513,7 @@ nsSVGElement
 aElement
 bool
 aIsConditionalProcessingAttribute
-PRUint8
+uint8_t
 aAttrEnum
 )
 ;
@@ -548,7 +548,7 @@ nsSVGElement
 aElement
 bool
 aIsConditionalProcessingAttribute
-PRUint8
+uint8_t
 aAttrEnum
 )
 :
@@ -595,7 +595,7 @@ nsSVGElement
 >
 mElement
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
 bool

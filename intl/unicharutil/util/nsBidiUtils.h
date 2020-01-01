@@ -453,7 +453,7 @@ PRUnichar
 aChar
 bool
 aPrevCharArabic
-PRUint32
+uint32_t
 aNumFlag
 )
 ;
@@ -553,9 +553,9 @@ HandleNumbers
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aSize
-PRUint32
+uint32_t
 aNumFlag
 )
 ;
@@ -598,7 +598,7 @@ otherwise
 bool
 IsBidiControl
 (
-PRUint32
+uint32_t
 aChar
 )
 ;

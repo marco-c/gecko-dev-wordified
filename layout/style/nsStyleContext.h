@@ -1484,7 +1484,7 @@ void
 AddStyleBit
 (
 const
-PRUint32
+uint32_t
 &
 aBit
 )
@@ -2302,7 +2302,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -3051,7 +3051,7 @@ Cached
 inherited
 style
 data
-PRUint32
+uint32_t
 mBits
 ;
 /
@@ -3071,7 +3071,7 @@ owned
 by
 mRuleNode
 .
-PRUint32
+uint32_t
 mRefCnt
 ;
 }

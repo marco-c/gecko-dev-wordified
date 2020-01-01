@@ -435,7 +435,7 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
-PRUint32
+uint32_t
 aImageFlags
 =
 imgIContainer
@@ -611,7 +611,7 @@ and
 coordinates
 in
 the
-PRInt32
+int32_t
 range
 )
 then
@@ -828,7 +828,7 @@ unsigned
 char
 *
 aDestBuffer
-PRInt32
+int32_t
 aStride
 )
 ;

@@ -223,7 +223,7 @@ return
 mCurrentFileName
 ;
 }
-PRInt64
+int64_t
 RowId
 (
 )
@@ -261,7 +261,7 @@ mDirectoryPath
 nsString
 mCurrentFileName
 ;
-PRInt64
+int64_t
 mRowId
 ;
 }

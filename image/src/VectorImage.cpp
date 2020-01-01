@@ -547,7 +547,7 @@ const
 nsIntRect
 &
 aViewport
-PRUint32
+uint32_t
 aImageFlags
 )
 :
@@ -603,7 +603,7 @@ const
 nsIntRect
 mViewport
 ;
-PRUint32
+uint32_t
 mImageFlags
 ;
 }
@@ -857,7 +857,7 @@ height
 )
 )
 ;
-PRUint32
+uint32_t
 renderDocFlags
 =
 nsIPresShell
@@ -1182,7 +1182,7 @@ const
 char
 *
 aURIString
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1668,7 +1668,7 @@ methods
 *
 readonly
 attribute
-PRInt32
+int32_t
 width
 ;
 *
@@ -1679,7 +1679,7 @@ VectorImage
 :
 GetWidth
 (
-PRInt32
+int32_t
 *
 aWidth
 )
@@ -1941,7 +1941,7 @@ b666446
 *
 readonly
 attribute
-PRInt32
+int32_t
 height
 ;
 *
@@ -1952,7 +1952,7 @@ VectorImage
 :
 GetHeight
 (
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -2101,7 +2101,7 @@ VectorImage
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -2208,7 +2208,7 @@ NS_OK
 noscript
 notxpcom
 ]
-PRUint16
+uint16_t
 GetType
 (
 )
@@ -2217,7 +2217,7 @@ GetType
 /
 NS_IMETHODIMP_
 (
-PRUint16
+uint16_t
 )
 VectorImage
 :
@@ -2571,11 +2571,11 @@ gfxASurface
 getFrame
 (
 in
-PRUint32
+uint32_t
 aWhichFrame
 *
 in
-PRUint32
+uint32_t
 aFlags
 ;
 *
@@ -2586,9 +2586,9 @@ VectorImage
 :
 GetFrame
 (
-PRUint32
+uint32_t
 aWhichFrame
-PRUint32
+uint32_t
 aFlags
 gfxASurface
 *
@@ -2735,11 +2735,11 @@ gfxImageSurface
 copyFrame
 (
 in
-PRUint32
+uint32_t
 aWhichFrame
 *
 in
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -2751,9 +2751,9 @@ VectorImage
 :
 CopyFrame
 (
-PRUint32
+uint32_t
 aWhichFrame
-PRUint32
+uint32_t
 aFlags
 gfxImageSurface
 *
@@ -3256,7 +3256,7 @@ noscript
 imgIContainer
 extractFrame
 (
-PRUint32
+uint32_t
 aWhichFrame
 *
 [
@@ -3267,7 +3267,7 @@ nsIntRect
 aRegion
 *
 in
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -3279,13 +3279,13 @@ VectorImage
 :
 ExtractFrame
 (
-PRUint32
+uint32_t
 aWhichFrame
 const
 nsIntRect
 &
 aRegion
-PRUint32
+uint32_t
 aFlags
 imgIContainer
 *
@@ -3729,7 +3729,7 @@ nsIntSize
 aViewportSize
 *
 in
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -3765,7 +3765,7 @@ const
 nsIntSize
 &
 aViewportSize
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -5532,9 +5532,9 @@ aCtxt
 nsIInputStream
 *
 aInStr
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {

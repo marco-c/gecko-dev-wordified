@@ -334,7 +334,7 @@ NPVariant
 variant
 )
 ;
-PRUint32
+uint32_t
 parseHexColor
 (
 const

@@ -350,7 +350,7 @@ etc
 typedef
 union
 {
-PRInt32
+int32_t
 mInt
 ;
 /
@@ -358,7 +358,7 @@ mInt
 nscoord
 is
 a
-PRInt32
+int32_t
 for
 now
 float
@@ -638,7 +638,7 @@ CoordConstructorType
 ;
 nsStyleCoord
 (
-PRInt32
+int32_t
 aValue
 nsStyleUnit
 aUnit
@@ -914,7 +914,7 @@ GetCoordValue
 )
 const
 ;
-PRInt32
+int32_t
 GetIntValue
 (
 )
@@ -980,7 +980,7 @@ aValue
 void
 SetIntValue
 (
-PRInt32
+int32_t
 aValue
 nsStyleUnit
 aUnit
@@ -1287,7 +1287,7 @@ aCoord
 ;
 protected
 :
-PRUint8
+uint8_t
 mUnits
 [
 4
@@ -1432,7 +1432,7 @@ inline
 nsStyleUnit
 GetUnit
 (
-PRUint8
+uint8_t
 aHalfCorner
 )
 const
@@ -1441,7 +1441,7 @@ inline
 nsStyleCoord
 Get
 (
-PRUint8
+uint8_t
 aHalfCorner
 )
 const
@@ -1455,7 +1455,7 @@ inline
 void
 Set
 (
-PRUint8
+uint8_t
 aHalfCorner
 const
 nsStyleCoord
@@ -1465,7 +1465,7 @@ aCoord
 ;
 protected
 :
-PRUint8
+uint8_t
 mUnits
 [
 8
@@ -1764,7 +1764,7 @@ return
 ;
 }
 inline
-PRInt32
+int32_t
 nsStyleCoord
 :
 :
@@ -2491,7 +2491,7 @@ nsStyleCorners
 :
 GetUnit
 (
-PRUint8
+uint8_t
 aCorner
 )
 const
@@ -2513,7 +2513,7 @@ nsStyleCorners
 :
 Get
 (
-PRUint8
+uint8_t
 aCorner
 )
 const
@@ -2542,7 +2542,7 @@ nsStyleCorners
 :
 Set
 (
-PRUint8
+uint8_t
 aCorner
 const
 nsStyleCoord

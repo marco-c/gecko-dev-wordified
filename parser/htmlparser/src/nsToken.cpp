@@ -289,7 +289,7 @@ CToken
 :
 CToken
 (
-PRInt32
+int32_t
 aTag
 )
 {
@@ -531,7 +531,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aMode
 )
 {
@@ -688,7 +688,7 @@ ordinal
 value
 *
 /
-PRInt32
+int32_t
 CToken
 :
 :
@@ -730,7 +730,7 @@ attribute
 count
 *
 /
-PRInt16
+int16_t
 CToken
 :
 :
@@ -784,7 +784,7 @@ type
 .
 *
 /
-PRInt32
+int32_t
 CToken
 :
 :

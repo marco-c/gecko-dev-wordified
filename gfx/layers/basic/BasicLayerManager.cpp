@@ -1536,7 +1536,7 @@ aDirtyRect
 nsIntRegion
 &
 aOpaqueRegion
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1546,7 +1546,7 @@ newClipRect
 aClipRect
 )
 ;
-PRUint32
+uint32_t
 newFlags
 =
 aFlags
@@ -2235,13 +2235,13 @@ cr
 =
 nsIntPoint
 (
-PRInt32
+int32_t
 (
 tr
 .
 x0
 )
-PRInt32
+int32_t
 (
 tr
 .
@@ -5553,7 +5553,7 @@ children
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6249,7 +6249,7 @@ BasicShadowLayerManager
 )
 ;
 }
-PRInt32
+int32_t
 BasicShadowLayerManager
 :
 :

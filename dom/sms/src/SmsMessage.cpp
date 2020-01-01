@@ -191,7 +191,7 @@ SmsMessage
 :
 SmsMessage
 (
-PRInt32
+int32_t
 aId
 DeliveryState
 aDelivery
@@ -207,7 +207,7 @@ const
 nsString
 &
 aBody
-PRUint64
+uint64_t
 aTimestamp
 bool
 aRead
@@ -253,7 +253,7 @@ SmsMessage
 :
 Create
 (
-PRInt32
+int32_t
 aId
 const
 nsAString
@@ -499,7 +499,7 @@ if
 (
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 number
@@ -521,7 +521,7 @@ timestamp
 =
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 number
@@ -573,7 +573,7 @@ SmsMessage
 :
 GetId
 (
-PRInt32
+int32_t
 *
 aId
 )

@@ -135,7 +135,7 @@ static
 nsresult
 CreateStackFrameLocation
 (
-PRUint32
+uint32_t
 aLanguage
 const
 char
@@ -145,7 +145,7 @@ const
 char
 *
 aFunctionName
-PRInt32
+int32_t
 aLineNumber
 nsIStackFrame
 *
@@ -198,10 +198,10 @@ char
 *
 mFunname
 ;
-PRInt32
+int32_t
 mLineno
 ;
-PRUint32
+uint32_t
 mLanguage
 ;
 }
@@ -325,7 +325,7 @@ XPCJSStack
 :
 CreateStackFrameLocation
 (
-PRUint32
+uint32_t
 aLanguage
 const
 char
@@ -335,7 +335,7 @@ const
 char
 *
 aFunctionName
-PRInt32
+int32_t
 aLineNumber
 nsIStackFrame
 *
@@ -668,7 +668,7 @@ self
 mLineno
 =
 (
-PRInt32
+int32_t
 )
 JS_PCToLineNumber
 (
@@ -873,7 +873,7 @@ XPCJSStackFrame
 :
 CreateStackFrameLocation
 (
-PRUint32
+uint32_t
 aLanguage
 const
 char
@@ -883,7 +883,7 @@ const
 char
 *
 aFunctionName
-PRInt32
+int32_t
 aLineNumber
 nsIStackFrame
 *
@@ -1101,7 +1101,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 readonly
 attribute
-PRUint32
+uint32_t
 language
 ;
 *
@@ -1112,7 +1112,7 @@ XPCJSStackFrame
 :
 GetLanguage
 (
-PRUint32
+uint32_t
 *
 aLanguage
 )
@@ -1292,7 +1292,7 @@ mFunname
 *
 readonly
 attribute
-PRInt32
+int32_t
 lineNumber
 ;
 *
@@ -1303,7 +1303,7 @@ XPCJSStackFrame
 :
 GetLineNumber
 (
-PRInt32
+int32_t
 *
 aLineNumber
 )

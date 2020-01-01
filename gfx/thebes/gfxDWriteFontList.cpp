@@ -329,7 +329,7 @@ happen
 first
 static
 const
-PRUint32
+uint32_t
 kDelayBeforeLoadingFonts
 =
 120
@@ -344,7 +344,7 @@ after
 init
 static
 const
-PRUint32
+uint32_t
 kIntervalBetweenLoadingFonts
 =
 2000
@@ -1602,11 +1602,11 @@ gfxDWriteFontEntry
 :
 GetFontTable
 (
-PRUint32
+uint32_t
 aTableTag
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 &
 aBuffer
@@ -1734,7 +1734,7 @@ IsValid
 )
 )
 {
-PRUint32
+uint32_t
 tableSize
 =
 :
@@ -1846,11 +1846,11 @@ return
 rv
 ;
 }
-PRUint8
+uint8_t
 *
 tableData
 ;
-PRUint32
+uint32_t
 len
 ;
 void
@@ -2023,7 +2023,7 @@ UseGDIFontTableAccess
 )
 )
 {
-PRUint32
+uint32_t
 kCMAP
 =
 TRUETYPE_TAG
@@ -2044,7 +2044,7 @@ p
 ;
 AutoFallibleTArray
 <
-PRUint8
+uint8_t
 16384
 >
 cmap
@@ -2143,7 +2143,7 @@ rv
 )
 {
 const
-PRUint32
+uint32_t
 kCmapTag
 =
 DWRITE_MAKE_OPENTYPE_TAG
@@ -2162,11 +2162,11 @@ p
 '
 )
 ;
-PRUint8
+uint8_t
 *
 tableData
 ;
-PRUint32
+uint32_t
 len
 ;
 void
@@ -2864,7 +2864,7 @@ mIsCJK
 false
 ;
 const
-PRUint32
+uint32_t
 kOS2Tag
 =
 TRUETYPE_TAG
@@ -2885,7 +2885,7 @@ S
 ;
 AutoFallibleTArray
 <
-PRUint8
+uint8_t
 128
 >
 buffer
@@ -2938,7 +2938,7 @@ htm
 #
 cpr
 const
-PRUint32
+uint32_t
 CJK_CODEPAGE_BITS
 =
 (
@@ -3054,7 +3054,7 @@ Elements
 if
 (
 (
-PRUint32
+uint32_t
 (
 os2
 -
@@ -3584,10 +3584,10 @@ gfxProxyFontEntry
 *
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -3630,7 +3630,7 @@ nullptr
 }
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 newFontData
 ;
@@ -5038,7 +5038,7 @@ name
 localizations
 if
 present
-PRUint32
+uint32_t
 nameCount
 =
 names
@@ -5048,7 +5048,7 @@ GetCount
 (
 )
 ;
-PRUint32
+uint32_t
 nameIndex
 ;
 for
@@ -5434,7 +5434,7 @@ GetFontList
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 bool
@@ -6172,7 +6172,7 @@ nsAString
 aName
 )
 {
-PRInt32
+int32_t
 comma
 =
 aName
@@ -6579,7 +6579,7 @@ GetDirectWriteSubstitutes
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6992,7 +6992,7 @@ aMallocSizeOf
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7516,15 +7516,15 @@ gfxDWriteFontList
 GlobalFontFallback
 (
 const
-PRUint32
+uint32_t
 aCh
-PRInt32
+int32_t
 aRunScript
 const
 gfxFontStyle
 *
 aMatchStyle
-PRUint32
+uint32_t
 &
 aCmapCount
 )
@@ -7681,7 +7681,7 @@ str
 16
 ]
 ;
-PRUint32
+uint32_t
 strLen
 ;
 if

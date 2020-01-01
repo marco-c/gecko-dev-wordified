@@ -2198,7 +2198,7 @@ enum
 MyEnum
 MOZ_ENUM_TYPE
 (
-PRUint16
+uint16_t
 )
 *
 {
@@ -2225,7 +2225,7 @@ expand
 to
 "
 :
-PRUint16
+uint16_t
 "
 .
 The
@@ -2424,7 +2424,7 @@ example
 MOZ_BEGIN_ENUM_CLASS
 (
 Enum
-PRInt32
+int32_t
 )
 *
 A

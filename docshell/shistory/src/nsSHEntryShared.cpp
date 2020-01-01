@@ -159,7 +159,7 @@ dom
 ;
 namespace
 {
-PRUint64
+uint64_t
 gSHEntrySharedID
 =
 0
@@ -1405,7 +1405,7 @@ nsSHEntryShared
 :
 GetID
 (
-PRUint64
+uint64_t
 *
 aID
 )
@@ -1668,12 +1668,12 @@ dom
 Element
 *
 aContent
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1693,12 +1693,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1722,7 +1722,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 /
 *
 unused
@@ -1750,7 +1750,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 /
 *
 unused
@@ -1778,7 +1778,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *

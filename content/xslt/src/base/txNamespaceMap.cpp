@@ -189,7 +189,7 @@ nullptr
 :
 aPrefix
 ;
-PRInt32
+int32_t
 nsId
 ;
 if
@@ -209,7 +209,7 @@ IsEmpty
 Remove
 the
 mapping
-PRInt32
+int32_t
 index
 =
 mPrefixes
@@ -297,7 +297,7 @@ the
 mapping
 already
 exists
-PRInt32
+int32_t
 index
 =
 mPrefixes
@@ -381,7 +381,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 txNamespaceMap
 :
 :
@@ -423,7 +423,7 @@ _empty
 :
 aPrefix
 ;
-PRInt32
+int32_t
 index
 =
 mPrefixes
@@ -465,7 +465,7 @@ return
 kNameSpaceID_Unknown
 ;
 }
-PRInt32
+int32_t
 txNamespaceMap
 :
 :

@@ -314,7 +314,7 @@ preference
 in
 seconds
 .
-PRInt32
+int32_t
 gTimeout
 ;
 PRThread
@@ -403,7 +403,7 @@ seconds
 )
 static
 const
-PRInt32
+int32_t
 DEFAULT_CHROME_HANG_INTERVAL
 =
 5
@@ -421,7 +421,7 @@ the
 stack
 static
 const
-PRInt32
+int32_t
 MAX_CALL_STACK_PCS
 =
 400
@@ -441,7 +441,7 @@ void
 *
 )
 {
-PRInt32
+int32_t
 newval
 =
 Preferences
@@ -1006,10 +1006,10 @@ stack
 ;
 #
 else
-PRInt32
+int32_t
 delay
 =
-PRInt32
+int32_t
 (
 PR_IntervalToSeconds
 (
@@ -1055,7 +1055,7 @@ waitCount
 2
 )
 {
-PRUint32
+uint32_t
 hangDuration
 =
 PR_IntervalToSeconds
@@ -1563,7 +1563,7 @@ last
 UI
 message
 static
-PRUint32
+uint32_t
 cumulativeUILagMS
 =
 0
@@ -1716,7 +1716,7 @@ is
 50ms
 static
 const
-PRUint32
+uint32_t
 kUIResponsivenessThresholdMS
 =
 50

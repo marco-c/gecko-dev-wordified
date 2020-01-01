@@ -191,7 +191,7 @@ nsDOMStringList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -236,7 +236,7 @@ nsDOMStringList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )

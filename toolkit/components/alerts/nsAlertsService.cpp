@@ -896,7 +896,7 @@ scriptableOrigin
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 origin
 =
 LookAndFeel
@@ -1058,9 +1058,9 @@ const
 nsAString
 &
 aAlertName
-PRInt64
+int64_t
 aProgress
-PRInt64
+int64_t
 aProgressMax
 const
 nsAString

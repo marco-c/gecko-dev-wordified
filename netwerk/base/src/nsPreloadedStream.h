@@ -277,7 +277,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 datalen
 )
 ;
@@ -298,10 +298,10 @@ char
 *
 mBuf
 ;
-PRUint32
+uint32_t
 mOffset
 ;
-PRUint32
+uint32_t
 mLen
 ;
 }

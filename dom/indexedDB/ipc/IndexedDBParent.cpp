@@ -1468,7 +1468,7 @@ changeEvent
 NS_ERROR_FAILURE
 )
 ;
-PRUint64
+uint64_t
 oldVersion
 ;
 rv
@@ -1957,7 +1957,7 @@ changeEvent
 NS_ERROR_FAILURE
 )
 ;
-PRUint64
+uint64_t
 oldVersion
 ;
 rv
@@ -2179,7 +2179,7 @@ changeEvent
 NS_ERROR_FAILURE
 )
 ;
-PRUint64
+uint64_t
 oldVersion
 ;
 rv
@@ -9671,7 +9671,7 @@ MOZ_ASSERT
 event
 )
 ;
-PRUint64
+uint64_t
 currentVersion
 ;
 rv

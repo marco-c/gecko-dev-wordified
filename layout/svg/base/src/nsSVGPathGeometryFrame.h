@@ -253,12 +253,12 @@ interface
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -367,7 +367,7 @@ methods
 gfxMatrix
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 ;
@@ -421,7 +421,7 @@ virtual
 void
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -433,7 +433,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 ;

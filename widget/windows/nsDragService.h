@@ -178,7 +178,7 @@ anArrayTransferables
 nsIScriptableRegion
 *
 aRegion
-PRUint32
+uint32_t
 aActionType
 )
 ;
@@ -191,14 +191,14 @@ GetData
 nsITransferable
 *
 aTransferable
-PRUint32
+uint32_t
 anItem
 )
 ;
 NS_IMETHOD
 GetNumDropItems
 (
-PRUint32
+uint32_t
 *
 aNumItems
 )
@@ -241,7 +241,7 @@ StartInvokingDragSession
 IDataObject
 *
 aDataObj
-PRUint32
+uint32_t
 aActionType
 )
 ;

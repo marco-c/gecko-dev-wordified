@@ -1302,9 +1302,9 @@ DoRead
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aCountRead
 )
@@ -1355,7 +1355,7 @@ GFileInputStream
 *
 mStream
 ;
-PRUint64
+uint64_t
 mBytesRemaining
 ;
 nsresult
@@ -1372,7 +1372,7 @@ mDirListPtr
 nsCString
 mDirBuf
 ;
-PRUint32
+uint32_t
 mDirBufCursor
 ;
 bool
@@ -2661,9 +2661,9 @@ DoRead
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aCountRead
 )
@@ -2688,7 +2688,7 @@ error
 =
 NULL
 ;
-PRUint32
+uint32_t
 bytes_read
 =
 g_input_stream_read
@@ -2791,7 +2791,7 @@ out
 of
 our
 buffer
-PRUint32
+uint32_t
 bufLen
 =
 mDirBuf
@@ -2807,7 +2807,7 @@ if
 bufLen
 )
 {
-PRUint32
+uint32_t
 n
 =
 NS_MIN
@@ -3088,7 +3088,7 @@ mDirBuf
 .
 AppendInt
 (
-PRInt32
+int32_t
 (
 g_file_info_get_size
 (
@@ -3760,7 +3760,7 @@ nsGIOInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 aResult
 )
@@ -3838,9 +3838,9 @@ Read
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aCountRead
 )
@@ -3948,9 +3948,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -5706,7 +5706,7 @@ colon
 return
 false
 ;
-PRUint32
+uint32_t
 length
 =
 colon
@@ -5815,7 +5815,7 @@ nsGIOProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 aDefaultPort
 )
@@ -5836,7 +5836,7 @@ nsGIOProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 aProtocolFlags
 )
@@ -5946,7 +5946,7 @@ flatSpec
 return
 NS_ERROR_UNKNOWN_PROTOCOL
 ;
-PRInt32
+int32_t
 colon_location
 =
 flatSpec
@@ -6298,7 +6298,7 @@ nsGIOProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 aPort
 const
 char

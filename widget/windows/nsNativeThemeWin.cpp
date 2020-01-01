@@ -353,7 +353,7 @@ IsHTML
 ;
 }
 static
-PRInt32
+int32_t
 GetTopLevelWindowActiveState
 (
 nsIFrame
@@ -507,7 +507,7 @@ FS_INACTIVE
 ;
 }
 static
-PRInt32
+int32_t
 GetWindowFrameButtonState
 (
 nsIFrame
@@ -629,7 +629,7 @@ BS_NORMAL
 ;
 }
 static
-PRInt32
+int32_t
 GetClassicWindowFrameButtonState
 (
 nsEventStates
@@ -2122,7 +2122,7 @@ later
 .
 static
 const
-PRInt32
+int32_t
 kProgressHorizontalVistaOverlaySize
 =
 120
@@ -2146,7 +2146,7 @@ XP
 .
 static
 const
-PRInt32
+int32_t
 kProgressHorizontalXPOverlaySize
 =
 55
@@ -2173,7 +2173,7 @@ later
 .
 static
 const
-PRInt32
+int32_t
 kProgressVerticalOverlaySize
 =
 45
@@ -2200,7 +2200,7 @@ later
 .
 static
 const
-PRInt32
+int32_t
 kProgressVerticalIndeterminateOverlaySize
 =
 60
@@ -2226,7 +2226,7 @@ Classic
 .
 static
 const
-PRInt32
+int32_t
 kProgressClassicOverlaySize
 =
 40
@@ -2329,7 +2329,7 @@ cycles
 .
 static
 const
-PRInt32
+int32_t
 kProgressIndeterminateDelay
 =
 500
@@ -2354,7 +2354,7 @@ Vista
 .
 static
 const
-PRInt32
+int32_t
 kProgressDeterminedVistaDelay
 =
 1000
@@ -2624,7 +2624,7 @@ nsNativeThemeWin
 :
 GetTheme
 (
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -3134,7 +3134,7 @@ return
 NULL
 ;
 }
-PRInt32
+int32_t
 nsNativeThemeWin
 :
 :
@@ -3143,7 +3143,7 @@ StandardGetState
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 bool
 wantFocused
@@ -3212,7 +3212,7 @@ IsMenuActive
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -3362,12 +3362,12 @@ GetThemePartAndState
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
-PRInt32
+int32_t
 &
 aPart
-PRInt32
+int32_t
 &
 aState
 )
@@ -6769,7 +6769,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 const
 nsRect
@@ -6954,7 +6954,7 @@ break
 ;
 }
 }
-PRInt32
+int32_t
 part
 state
 ;
@@ -7578,7 +7578,7 @@ ve
 tried
 )
 .
-PRInt32
+int32_t
 edgeSize
 =
 2
@@ -7855,7 +7855,7 @@ aWidgetType
 NS_THEME_SCALE_HORIZONTAL
 )
 {
-PRInt32
+int32_t
 adjustment
 =
 (
@@ -7893,7 +7893,7 @@ adjustment
 }
 else
 {
-PRInt32
+int32_t
 adjustment
 =
 (
@@ -8674,7 +8674,7 @@ hPen
 =
 nullptr
 ;
-PRUint8
+uint8_t
 id
 =
 SaveDC
@@ -9775,7 +9775,7 @@ bars
 .
 *
 /
-PRInt32
+int32_t
 overlaySize
 ;
 if
@@ -9834,7 +9834,7 @@ kProgressIndeterminateSpeed
 kProgressDeterminedVistaSpeed
 ;
 const
-PRInt32
+int32_t
 delay
 =
 indeterminate
@@ -9844,7 +9844,7 @@ kProgressIndeterminateDelay
 kProgressDeterminedVistaDelay
 ;
 const
-PRInt32
+int32_t
 frameSize
 =
 vertical
@@ -9866,7 +9866,7 @@ widgetRect
 left
 ;
 const
-PRInt32
+int32_t
 animationSize
 =
 frameSize
@@ -9875,7 +9875,7 @@ overlaySize
 +
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 pixelsPerMillisecond
@@ -9989,12 +9989,12 @@ ratio
 ratio
 ;
 }
-PRInt32
+int32_t
 dx
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 animationSize
@@ -10052,7 +10052,7 @@ left
 overlaySize
 ;
 }
-PRInt32
+int32_t
 overlayPart
 ;
 if
@@ -10168,7 +10168,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -10367,7 +10367,7 @@ worry
 about
 it
 .
-PRInt32
+int32_t
 part
 state
 ;
@@ -10772,7 +10772,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -11354,7 +11354,7 @@ true
 ;
 }
 }
-PRInt32
+int32_t
 right
 left
 top
@@ -11556,7 +11556,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aOverflowRect
 nsRect
 *
@@ -11744,7 +11744,7 @@ NS_THEME_DROPDOWN
 )
 )
 {
-PRInt32
+int32_t
 p2a
 =
 aContext
@@ -11805,7 +11805,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntSize
 *
@@ -12911,7 +12911,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 part
 state
 ;
@@ -13067,7 +13067,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIAtom
 *
@@ -13607,7 +13607,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -13751,7 +13751,7 @@ nsNativeThemeWin
 :
 WidgetIsContainer
 (
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -13805,7 +13805,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -13837,7 +13837,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -13992,7 +13992,7 @@ return
 eUnknownTransparency
 ;
 }
-PRInt32
+int32_t
 part
 state
 ;
@@ -14093,7 +14093,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -14394,7 +14394,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -14783,7 +14783,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -14805,7 +14805,7 @@ case
 NS_THEME_RADIOMENUITEM
 :
 {
-PRInt32
+int32_t
 part
 state
 ;
@@ -15038,7 +15038,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntSize
 *
@@ -15921,12 +15921,12 @@ ClassicGetThemePartAndState
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
-PRInt32
+int32_t
 &
 aPart
-PRInt32
+int32_t
 &
 aState
 bool
@@ -17419,7 +17419,7 @@ const
 RECT
 &
 R
-PRInt32
+int32_t
 aPosition
 bool
 aSelected
@@ -17429,7 +17429,7 @@ bool
 aDrawRight
 )
 {
-PRInt32
+int32_t
 leftFlag
 topFlag
 rightFlag
@@ -17443,7 +17443,7 @@ bottomRect
 lightRect
 shadeRect
 ;
-PRInt32
+int32_t
 selectedOffset
 lOffset
 rOffset
@@ -18241,9 +18241,9 @@ const
 RECT
 &
 rc
-PRInt32
+int32_t
 aComponent
-PRUint32
+uint32_t
 aColor
 )
 {
@@ -18648,9 +18648,9 @@ const
 RECT
 &
 rc
-PRInt32
+int32_t
 fore
-PRInt32
+int32_t
 back
 HBRUSH
 defaultBack
@@ -18872,7 +18872,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 const
 nsRect
@@ -18884,7 +18884,7 @@ nsRect
 aDirtyRect
 )
 {
-PRInt32
+int32_t
 part
 state
 ;
@@ -19142,7 +19142,7 @@ case
 NS_THEME_RESIZER
 :
 {
-PRInt32
+int32_t
 oldTA
 ;
 /
@@ -19275,7 +19275,7 @@ top
 NULL
 )
 ;
-PRInt32
+int32_t
 oldColor
 ;
 oldColor
@@ -19945,7 +19945,7 @@ aWidgetType
 NS_THEME_SCALE_HORIZONTAL
 )
 {
-PRInt32
+int32_t
 adjustment
 =
 (
@@ -19979,7 +19979,7 @@ adjustment
 }
 else
 {
-PRInt32
+int32_t
 adjustment
 =
 (
@@ -20185,7 +20185,7 @@ stateFrame
 )
 ;
 const
-PRInt32
+int32_t
 overlaySize
 =
 kProgressClassicOverlaySize
@@ -20197,7 +20197,7 @@ pixelsPerMillisecond
 kProgressClassicIndeterminateSpeed
 ;
 const
-PRInt32
+int32_t
 frameSize
 =
 vertical
@@ -20265,7 +20265,7 @@ interval
 tempValue
 )
 ;
-PRInt32
+int32_t
 dx
 =
 0
@@ -20339,7 +20339,7 @@ dx
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 frameSize
@@ -20974,7 +20974,7 @@ case
 NS_THEME_MENUARROW
 :
 {
-PRUint32
+uint32_t
 color
 =
 COLOR_MENUTEXT
@@ -21203,7 +21203,7 @@ rect
 =
 widgetRect
 ;
-PRInt32
+int32_t
 offset
 =
 GetSystemMetrics
@@ -21739,7 +21739,7 @@ CAPTIONBUTTON_CLOSE
 )
 ;
 }
-PRInt32
+int32_t
 oldTA
 =
 SetTextAlign
@@ -21816,13 +21816,13 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 nsNativeThemeWin
 :
 :
 GetWidgetNativeDrawingFlags
 (
-PRUint8
+uint8_t
 aWidgetType
 )
 {

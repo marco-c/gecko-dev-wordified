@@ -585,7 +585,7 @@ triedToWrap
 PerformanceNavigation
 WebIDL
 methods
-PRUint16
+uint16_t
 GetType
 (
 )
@@ -602,7 +602,7 @@ GetType
 )
 ;
 }
-PRUint16
+uint16_t
 GetRedirectCount
 (
 )

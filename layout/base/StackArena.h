@@ -248,7 +248,7 @@ of
 the
 mark
 list
-PRUint32
+uint32_t
 mStackTop
 ;
 /
@@ -259,7 +259,7 @@ of
 the
 mark
 array
-PRUint32
+uint32_t
 mMarkLength
 ;
 }

@@ -379,7 +379,7 @@ nsHistory
 :
 GetLength
 (
-PRInt32
+int32_t
 *
 aLength
 )
@@ -448,7 +448,7 @@ IsCallerTrustedForRead
 return
 NS_ERROR_DOM_SECURITY_ERR
 ;
-PRInt32
+int32_t
 curIndex
 =
 0
@@ -612,7 +612,7 @@ IsCallerTrustedForRead
 return
 NS_ERROR_DOM_SECURITY_ERR
 ;
-PRInt32
+int32_t
 curIndex
 ;
 nsCAutoString
@@ -776,7 +776,7 @@ IsCallerTrustedForRead
 return
 NS_ERROR_DOM_SECURITY_ERR
 ;
-PRInt32
+int32_t
 curIndex
 ;
 nsCAutoString
@@ -1054,7 +1054,7 @@ nsHistory
 :
 Go
 (
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -1307,13 +1307,13 @@ webnav
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 curIndex
 =
 -
 1
 ;
-PRInt32
+int32_t
 len
 =
 0
@@ -1336,7 +1336,7 @@ GetCount
 len
 )
 ;
-PRInt32
+int32_t
 index
 =
 curIndex
@@ -1849,7 +1849,7 @@ nsHistory
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &

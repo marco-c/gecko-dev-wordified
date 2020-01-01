@@ -341,7 +341,7 @@ usually
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 pendingQ
@@ -725,17 +725,17 @@ nsHttpConnectionMgr
 :
 Init
 (
-PRUint16
+uint16_t
 maxConns
-PRUint16
+uint16_t
 maxPersistConnsPerHost
-PRUint16
+uint16_t
 maxPersistConnsPerProxy
-PRUint16
+uint16_t
 maxRequestDelay
-PRUint16
+uint16_t
 maxPipelinedRequests
-PRUint16
+uint16_t
 maxOptimisticPipelinedRequests
 )
 {
@@ -938,7 +938,7 @@ PostEvent
 (
 nsConnEventHandler
 handler
-PRInt32
+int32_t
 iparam
 void
 *
@@ -1082,7 +1082,7 @@ nsHttpConnectionMgr
 :
 PruneDeadConnectionsAfter
 (
-PRUint32
+uint32_t
 timeInSeconds
 )
 {
@@ -1751,7 +1751,7 @@ AddTransaction
 nsHttpTransaction
 *
 trans
-PRInt32
+int32_t
 priority
 )
 {
@@ -1823,7 +1823,7 @@ RescheduleTransaction
 nsHttpTransaction
 *
 trans
-PRInt32
+int32_t
 priority
 )
 {
@@ -1942,7 +1942,7 @@ nsHttpConnectionMgr
 OnMsgCancelTransaction
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 reason
@@ -2051,7 +2051,7 @@ get
 )
 )
 ;
-PRUint8
+uint8_t
 caps
 =
 ci
@@ -2398,15 +2398,15 @@ UpdateParam
 (
 nsParamName
 name
-PRUint16
+uint16_t
 value
 )
 {
-PRUint32
+uint32_t
 param
 =
 (
-PRUint32
+uint32_t
 (
 name
 )
@@ -2415,7 +2415,7 @@ name
 16
 )
 |
-PRUint32
+uint32_t
 (
 value
 )
@@ -3105,7 +3105,7 @@ mUsingSpdy
 =
 true
 ;
-PRUint32
+uint32_t
 ttl
 =
 conn
@@ -3115,7 +3115,7 @@ TimeToLive
 (
 )
 ;
-PRUint64
+uint64_t
 timeOfExpire
 =
 NowInSeconds
@@ -3976,7 +3976,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4974,12 +4974,12 @@ reusable
 /
 anymore
 .
-PRUint32
+uint32_t
 timeToNextExpire
 =
 PR_UINT32_MAX
 ;
-PRInt32
+int32_t
 count
 =
 ent
@@ -5000,7 +5000,7 @@ count
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 count
@@ -5099,7 +5099,7 @@ mUsingSpdy
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -5240,14 +5240,14 @@ timeToNextExpire
 PR_UINT32_MAX
 )
 {
-PRUint32
+uint32_t
 now
 =
 NowInSeconds
 (
 )
 ;
-PRUint64
+uint64_t
 timeOfNextExpire
 =
 now
@@ -5793,12 +5793,12 @@ tcp
 connections
 for
 (
-PRInt32
+int32_t
 i
 =
 (
 (
-PRInt32
+int32_t
 )
 ent
 -
@@ -5980,7 +5980,7 @@ ProcessSpdyPendingQ
 ent
 )
 ;
-PRUint32
+uint32_t
 count
 =
 ent
@@ -6031,7 +6031,7 @@ dispatch
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6124,7 +6124,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -6133,7 +6133,7 @@ j
 <
 (
 (
-PRInt32
+int32_t
 )
 ent
 -
@@ -6312,7 +6312,7 @@ count
 =
 (
 (
-PRInt32
+int32_t
 )
 ent
 -
@@ -6481,7 +6481,7 @@ info
 nsHttpConnection
 *
 conn
-PRUint32
+uint32_t
 data
 )
 :
@@ -6527,7 +6527,7 @@ nsHttpConnectionMgr
 PipelineFeedbackInfoType
 mInfo
 ;
-PRUint32
+uint32_t
 mData
 ;
 }
@@ -6546,7 +6546,7 @@ info
 nsHttpConnection
 *
 conn
-PRUint32
+uint32_t
 data
 )
 {
@@ -6675,7 +6675,7 @@ precondition
 nsCAutoString
 host
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -7036,7 +7036,7 @@ AtActiveConnectionLimit
 nsConnectionEntry
 *
 ent
-PRUint8
+uint8_t
 caps
 )
 {
@@ -7121,7 +7121,7 @@ max
 connections
 pref
 .
-PRUint32
+uint32_t
 maxSocketCount
 =
 gHttpHandler
@@ -7286,7 +7286,7 @@ ACK
 SYN
 reply
 .
-PRUint32
+uint32_t
 totalCount
 =
 ent
@@ -7305,7 +7305,7 @@ UnconnectedHalfOpens
 (
 )
 ;
-PRUint16
+uint16_t
 maxPersistConns
 ;
 if
@@ -7495,7 +7495,7 @@ conn
 )
 ;
 }
-PRInt32
+int32_t
 activeCount
 =
 ent
@@ -7509,7 +7509,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -7831,7 +7831,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -8025,7 +8025,7 @@ thread
 "
 )
 ;
-PRUint32
+uint32_t
 halfOpenLength
 =
 ent
@@ -8039,7 +8039,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8500,7 +8500,7 @@ nsHttpTransaction
 :
 Classifier
 classification
-PRUint16
+uint16_t
 depthLimit
 )
 {
@@ -8517,7 +8517,7 @@ CLASS_SOLO
 return
 false
 ;
-PRUint32
+uint32_t
 maxdepth
 =
 ent
@@ -8777,7 +8777,7 @@ bestConn
 =
 nullptr
 ;
-PRUint32
+uint32_t
 activeCount
 =
 ent
@@ -8789,17 +8789,17 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 bestConnLength
 =
 0
 ;
-PRUint32
+uint32_t
 connLength
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9198,7 +9198,7 @@ other
 transaction
 types
 .
-PRInt32
+int32_t
 currentConns
 =
 ent
@@ -9210,7 +9210,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 maxConns
 =
 (
@@ -9289,14 +9289,14 @@ prefer
 pipeline
 *
 /
-PRInt32
+int32_t
 sameClass
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9484,7 +9484,7 @@ HashKey
 get
 (
 )
-PRUint32
+uint32_t
 (
 trans
 -
@@ -9509,7 +9509,7 @@ Classification
 (
 )
 ;
-PRUint8
+uint8_t
 caps
 =
 trans
@@ -10333,7 +10333,7 @@ nsHttpConnection
 conn
 )
 {
-PRUint8
+uint8_t
 caps
 =
 trans
@@ -10343,7 +10343,7 @@ Caps
 (
 )
 ;
-PRInt32
+int32_t
 priority
 =
 trans
@@ -10633,12 +10633,12 @@ ent
 nsAHttpTransaction
 *
 aTrans
-PRUint8
+uint8_t
 caps
 nsHttpConnection
 *
 conn
-PRInt32
+int32_t
 priority
 )
 {
@@ -11573,7 +11573,7 @@ NS_ABORT_IF_FALSE
 (
 (
 (
-PRInt32
+int32_t
 )
 ent
 -
@@ -11854,7 +11854,7 @@ ent
 nsAHttpTransaction
 *
 trans
-PRUint8
+uint8_t
 caps
 bool
 speculative
@@ -12021,7 +12021,7 @@ return
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 ent
@@ -12347,7 +12347,7 @@ mUsingSpdy
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -12488,7 +12488,7 @@ nsHttpConnectionMgr
 :
 OnMsgShutdown
 (
-PRInt32
+int32_t
 void
 *
 )
@@ -12574,7 +12574,7 @@ nsHttpConnectionMgr
 :
 OnMsgNewTransaction
 (
-PRInt32
+int32_t
 priority
 void
 *
@@ -12661,7 +12661,7 @@ nsHttpConnectionMgr
 :
 OnMsgReschedTransaction
 (
-PRInt32
+int32_t
 priority
 void
 *
@@ -12742,7 +12742,7 @@ if
 ent
 )
 {
-PRInt32
+int32_t
 index
 =
 ent
@@ -12796,7 +12796,7 @@ nsHttpConnectionMgr
 :
 OnMsgCancelTransaction
 (
-PRInt32
+int32_t
 reason
 void
 *
@@ -12961,7 +12961,7 @@ if
 ent
 )
 {
-PRInt32
+int32_t
 index
 =
 ent
@@ -13036,7 +13036,7 @@ nsHttpConnectionMgr
 :
 OnMsgProcessPendingQ
 (
-PRInt32
+int32_t
 void
 *
 param
@@ -13192,7 +13192,7 @@ nsHttpConnectionMgr
 :
 OnMsgPruneDeadConnections
 (
-PRInt32
+int32_t
 void
 *
 )
@@ -13299,7 +13299,7 @@ nsHttpConnectionMgr
 :
 OnMsgClosePersistentConnections
 (
-PRInt32
+int32_t
 void
 *
 )
@@ -13333,7 +13333,7 @@ nsHttpConnectionMgr
 :
 OnMsgReclaimConnection
 (
-PRInt32
+int32_t
 void
 *
 param
@@ -13794,7 +13794,7 @@ e
 .
 6
 )
-PRUint32
+uint32_t
 idx
 ;
 for
@@ -13917,7 +13917,7 @@ be
 reused
 anymore
 .
-PRUint32
+uint32_t
 timeToLive
 =
 conn
@@ -14000,7 +14000,7 @@ nsHttpConnectionMgr
 :
 OnMsgCompleteUpgrade
 (
-PRInt32
+int32_t
 void
 *
 param
@@ -14150,13 +14150,13 @@ nsHttpConnectionMgr
 :
 OnMsgUpdateParam
 (
-PRInt32
+int32_t
 void
 *
 param
 )
 {
-PRUint16
+uint16_t
 name
 =
 (
@@ -14171,7 +14171,7 @@ param
 >
 16
 ;
-PRUint16
+uint16_t
 value
 =
 NS_PTR_TO_INT32
@@ -14299,7 +14299,7 @@ nsHttpConnectionMgr
 :
 OnMsgProcessFeedback
 (
-PRInt32
+int32_t
 void
 *
 param
@@ -14668,7 +14668,7 @@ PR_IntervalNow
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -14752,7 +14752,7 @@ milliseconds
 /
 for
 (
-PRUint32
+uint32_t
 index
 =
 ent
@@ -15292,7 +15292,7 @@ nsHttpConnectionMgr
 :
 OnMsgSpeculativeConnect
 (
-PRInt32
+int32_t
 void
 *
 param
@@ -15555,7 +15555,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 bufLen
 )
 {
@@ -15620,7 +15620,7 @@ ent
 nsAHttpTransaction
 *
 trans
-PRUint8
+uint8_t
 caps
 )
 :
@@ -15837,7 +15837,7 @@ DefaultSocketType
 (
 )
 ;
-PRUint32
+uint32_t
 typeCount
 =
 (
@@ -15928,7 +15928,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 tmpFlags
 =
 0
@@ -16497,7 +16497,7 @@ SetupBackupTimer
 (
 )
 {
-PRUint16
+uint16_t
 timeout
 =
 gHttpHandler
@@ -17116,7 +17116,7 @@ backup
 )
 )
 ;
-PRInt32
+int32_t
 index
 ;
 nsresult
@@ -18028,9 +18028,9 @@ nsITransport
 trans
 nsresult
 status
-PRUint64
+uint64_t
 progress
-PRUint64
+uint64_t
 progressMax
 )
 {
@@ -18679,7 +18679,7 @@ return
 conn
 ;
 }
-PRUint32
+uint32_t
 nsHttpConnectionMgr
 :
 :
@@ -18851,7 +18851,7 @@ mPipeliningClassPenalty
 0
 sizeof
 (
-PRInt16
+int16_t
 )
 *
 nsAHttpTransaction
@@ -18917,7 +18917,7 @@ info
 nsHttpConnection
 *
 conn
-PRUint32
+uint32_t
 data
 )
 {
@@ -18983,7 +18983,7 @@ info
 GoodCompletedOK
 )
 {
-PRInt32
+int32_t
 depth
 =
 data
@@ -19872,12 +19872,12 @@ now
 -
 mLastCreditTime
 ;
-PRUint32
+uint32_t
 creditsEarned
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 elapsedTime
@@ -19906,7 +19906,7 @@ mPipeliningPenalty
 =
 PR_MAX
 (
-PRInt32
+int32_t
 (
 mPipeliningPenalty
 -
@@ -19927,7 +19927,7 @@ true
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -19951,7 +19951,7 @@ i
 =
 PR_MAX
 (
-PRInt32
+int32_t
 (
 mPipeliningClassPenalty
 [
@@ -20116,7 +20116,7 @@ nullptr
 ;
 }
 }
-PRUint32
+uint32_t
 nsHttpConnectionMgr
 :
 :
@@ -20179,7 +20179,7 @@ return
 mGreenDepth
 ;
 }
-PRUint32
+uint32_t
 nsHttpConnectionMgr
 :
 :
@@ -20190,14 +20190,14 @@ UnconnectedHalfOpens
 (
 )
 {
-PRUint32
+uint32_t
 unconnectedHalfOpens
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

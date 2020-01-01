@@ -721,7 +721,7 @@ nameprep_map_
 VERSION
 )
 (
-PRUint32
+uint32_t
 v
 )
 {
@@ -850,7 +850,7 @@ nameprep_prohibited_
 VERSION
 )
 (
-PRUint32
+uint32_t
 v
 )
 {
@@ -958,7 +958,7 @@ nameprep_unassigned_
 VERSION
 )
 (
-PRUint32
+uint32_t
 v
 )
 {
@@ -1066,7 +1066,7 @@ nameprep_biditype_
 VERSION
 )
 (
-PRUint32
+uint32_t
 v
 )
 {

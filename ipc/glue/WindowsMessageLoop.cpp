@@ -769,7 +769,7 @@ gAppMessageWindowName
 0
 }
 ;
-PRInt32
+int32_t
 gAppMessageWindowNameLength
 =
 0
@@ -1093,7 +1093,7 @@ messages
 in
 order
 .
-PRUint32
+uint32_t
 count
 =
 messages
@@ -1105,7 +1105,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1878,7 +1878,7 @@ log
 AppendInt
 (
 (
-PRInt64
+int64_t
 )
 hwnd
 )
@@ -3190,7 +3190,7 @@ gNeuteredWindows
 )
 return
 ;
-PRUint32
+uint32_t
 count
 =
 gNeuteredWindows
@@ -3202,7 +3202,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

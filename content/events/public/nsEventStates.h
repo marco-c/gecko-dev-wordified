@@ -177,7 +177,7 @@ nsEventStates
 public
 :
 typedef
-PRUint64
+uint64_t
 InternalType
 ;
 nsEventStates

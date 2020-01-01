@@ -116,9 +116,9 @@ aPublicId
 nsString
 &
 aSystemId
-PRInt32
+int32_t
 aLineNumber
-PRInt32
+int32_t
 aColumnNumber
 )
 :
@@ -146,7 +146,7 @@ nsSAXLocator
 :
 GetColumnNumber
 (
-PRInt32
+int32_t
 *
 aColumnNumber
 )
@@ -166,7 +166,7 @@ nsSAXLocator
 :
 GetLineNumber
 (
-PRInt32
+int32_t
 *
 aLineNumber
 )

@@ -343,7 +343,7 @@ milliseconds
 /
 LazyIdleThread
 (
-PRUint32
+uint32_t
 aIdleTimeoutMS
 const
 nsCSubstring
@@ -979,7 +979,7 @@ dying
 *
 /
 const
-PRUint32
+uint32_t
 mIdleTimeoutMS
 ;
 /
@@ -1011,7 +1011,7 @@ up
 .
 *
 /
-PRUint32
+uint32_t
 mPendingEventCount
 ;
 /
@@ -1056,7 +1056,7 @@ way
 .
 *
 /
-PRUint32
+uint32_t
 mIdleNotificationCount
 ;
 /

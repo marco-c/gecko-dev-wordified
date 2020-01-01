@@ -166,7 +166,7 @@ public
 :
 nsXULControllerData
 (
-PRUint32
+uint32_t
 inControllerID
 nsIController
 *
@@ -189,7 +189,7 @@ nsXULControllerData
 )
 {
 }
-PRUint32
+uint32_t
 GetControllerID
 (
 )
@@ -219,7 +219,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 mControllerID
 ;
 nsCOMPtr
@@ -302,7 +302,7 @@ nsXULControllerData
 >
 mControllers
 ;
-PRUint32
+uint32_t
 mCurControllerID
 ;
 }

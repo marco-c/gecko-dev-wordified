@@ -5615,10 +5615,10 @@ mTag
 ;
 #
 endif
-PRUint32
+uint32_t
 mGroup
 ;
-PRUint32
+uint32_t
 mCanContainGroups
 ;
 bool
@@ -6853,9 +6853,9 @@ nsHTMLEditUtils
 :
 CanContain
 (
-PRInt32
+int32_t
 aParent
-PRInt32
+int32_t
 aChild
 )
 {
@@ -6918,7 +6918,7 @@ checked
 =
 true
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -7000,7 +7000,7 @@ eHTMLTag_select
 eHTMLTag_textarea
 }
 ;
-PRUint32
+uint32_t
 j
 ;
 for
@@ -7136,7 +7136,7 @@ nsHTMLEditUtils
 :
 IsContainer
 (
-PRInt32
+int32_t
 aTag
 )
 {

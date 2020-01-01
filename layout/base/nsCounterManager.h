@@ -225,7 +225,7 @@ value
 after
 this
 node
-PRInt32
+int32_t
 mValueAfter
 ;
 /
@@ -548,7 +548,7 @@ quotes
 )
 nsCounterNode
 (
-PRInt32
+int32_t
 aContentIndex
 Type
 aType
@@ -686,7 +686,7 @@ nsCSSValue
 Array
 *
 aCounterStyle
-PRUint32
+uint32_t
 aContentIndex
 bool
 aAllCounters
@@ -799,7 +799,7 @@ nsCounterChangeNode
 public
 nsCounterNode
 {
-PRInt32
+int32_t
 mChangeValue
 ;
 /
@@ -889,9 +889,9 @@ nsCounterNode
 :
 Type
 aChangeType
-PRInt32
+int32_t
 aChangeValue
-PRInt32
+int32_t
 aPropIndex
 )
 :
@@ -1306,7 +1306,7 @@ aNode
 ;
 }
 static
-PRInt32
+int32_t
 ValueBefore
 (
 nsCounterNode
@@ -1586,7 +1586,7 @@ AddResetOrIncrement
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aIndex
 const
 nsStyleCounterData

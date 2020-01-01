@@ -719,7 +719,7 @@ URI
 &
 aOriginal
 const
-PRUint32
+uint32_t
 &
 aLoadFlags
 const
@@ -923,7 +923,7 @@ WyciwygChannelParent
 RecvSetCharsetAndSource
 (
 const
-PRInt32
+int32_t
 &
 aCharsetSource
 const
@@ -1255,7 +1255,7 @@ GetStatus
 status
 )
 ;
-PRInt32
+int32_t
 contentLength
 =
 -
@@ -1270,7 +1270,7 @@ GetContentLength
 contentLength
 )
 ;
-PRInt32
+int32_t
 charsetSource
 =
 kCharsetUninitialized
@@ -1619,9 +1619,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {

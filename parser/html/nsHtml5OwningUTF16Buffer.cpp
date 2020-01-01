@@ -219,7 +219,7 @@ nsHtml5OwningUTF16Buffer
 :
 FalliblyCreate
 (
-PRInt32
+int32_t
 aLength
 )
 {
@@ -353,7 +353,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )

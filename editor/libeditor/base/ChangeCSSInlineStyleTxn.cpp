@@ -293,7 +293,7 @@ h
 /
 for
 PRUnichar
-PRUint32
+uint32_t
 class
 nsIEditor
 ;
@@ -1433,7 +1433,7 @@ an
 empty
 style
 attribute
-PRUint32
+uint32_t
 length
 ;
 result

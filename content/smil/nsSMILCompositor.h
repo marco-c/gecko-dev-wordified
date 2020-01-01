@@ -596,7 +596,7 @@ functions
 have
 changed
 .
-PRUint32
+uint32_t
 GetFirstFuncToAffectSandwich
 (
 )

@@ -255,7 +255,7 @@ for
 counters
 .
 const
-PRInt32
+int32_t
 mContentIndex
 ;
 /
@@ -303,7 +303,7 @@ mText
 ;
 nsGenConNode
 (
-PRInt32
+int32_t
 aContentIndex
 )
 :
@@ -480,7 +480,7 @@ NS_ASSERTION
 (
 mContentIndex
 <
-PRInt32
+int32_t
 (
 mPseudoFrame
 -
@@ -622,7 +622,7 @@ nsGenConNode
 *
 mFirstNode
 ;
-PRUint32
+uint32_t
 mSize
 ;
 public

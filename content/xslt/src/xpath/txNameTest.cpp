@@ -139,9 +139,9 @@ aPrefix
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNSID
-PRUint16
+uint16_t
 aNodeType
 )
 :

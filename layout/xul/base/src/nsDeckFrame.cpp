@@ -324,12 +324,12 @@ nsDeckFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -457,7 +457,7 @@ the
 index
 change
 ?
-PRInt32
+int32_t
 index
 =
 GetSelectedIndex
@@ -516,7 +516,7 @@ mIndex
 index
 ;
 }
-PRInt32
+int32_t
 nsDeckFrame
 :
 :
@@ -530,7 +530,7 @@ default
 index
 is
 0
-PRInt32
+int32_t
 index
 =
 0
@@ -827,7 +827,7 @@ will
 do
 that
 .
-PRUint32
+uint32_t
 oldFlags
 =
 aState

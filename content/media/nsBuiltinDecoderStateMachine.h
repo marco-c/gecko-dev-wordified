@@ -1073,7 +1073,7 @@ Shutdown
 )
 ;
 virtual
-PRInt64
+int64_t
 GetDuration
 (
 )
@@ -1082,14 +1082,14 @@ virtual
 void
 SetDuration
 (
-PRInt64
+int64_t
 aDuration
 )
 ;
 void
 SetEndTime
 (
-PRInt64
+int64_t
 aEndTime
 )
 ;
@@ -1155,7 +1155,7 @@ virtual
 void
 UpdatePlaybackPosition
 (
-PRInt64
+int64_t
 aTime
 )
 ;
@@ -1420,7 +1420,7 @@ nsTimeRanges
 aBuffered
 )
 ;
-PRInt64
+int64_t
 VideoQueueMemoryInUse
 (
 )
@@ -1443,7 +1443,7 @@ return
 0
 ;
 }
-PRInt64
+int64_t
 AudioQueueMemoryInUse
 (
 )
@@ -1473,13 +1473,13 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
-PRInt64
+int64_t
 aOffset
 )
 ;
-PRInt64
+int64_t
 GetEndMediaTime
 (
 )
@@ -1571,7 +1571,7 @@ virtual
 void
 SetFrameBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -1720,7 +1720,7 @@ discarded
 nsresult
 ScheduleStateMachine
 (
-PRInt64
+int64_t
 aUsecs
 )
 ;
@@ -1813,7 +1813,7 @@ microseconds
 void
 SetFragmentEndTime
 (
-PRInt64
+int64_t
 aEndTime
 )
 ;
@@ -1904,7 +1904,7 @@ FinishOutputStreams
 bool
 HaveEnoughDecodedAudio
 (
-PRInt64
+int64_t
 aAmpleAudioUSecs
 )
 ;
@@ -1946,7 +1946,7 @@ held
 bool
 HasLowDecodedData
 (
-PRInt64
+int64_t
 aAudioUsecs
 )
 const
@@ -2007,7 +2007,7 @@ must
 be
 held
 .
-PRInt64
+int64_t
 GetUndecodedData
 (
 )
@@ -2068,7 +2068,7 @@ must
 be
 held
 .
-PRInt64
+int64_t
 AudioDecodedUsecs
 (
 )
@@ -2247,7 +2247,7 @@ thread
 void
 Wait
 (
-PRInt64
+int64_t
 aUsecs
 )
 ;
@@ -2321,7 +2321,7 @@ state
 machine
 thread
 .
-PRInt64
+int64_t
 GetAudioClock
 (
 )
@@ -2446,7 +2446,7 @@ lock
 void
 UpdatePlaybackPositionInternal
 (
-PRInt64
+int64_t
 aTime
 )
 ;
@@ -2665,14 +2665,14 @@ the
 audio
 thread
 .
-PRUint32
+uint32_t
 PlaySilence
 (
-PRUint32
+uint32_t
 aFrames
-PRUint32
+uint32_t
 aChannels
-PRUint64
+uint64_t
 aFrameOffset
 )
 ;
@@ -2716,12 +2716,12 @@ the
 audio
 thread
 .
-PRUint32
+uint32_t
 PlayFromAudioQueue
 (
-PRUint64
+uint64_t
 aFrameOffset
-PRUint32
+uint32_t
 aChannels
 )
 ;
@@ -3156,7 +3156,7 @@ range
 duration
 ]
 .
-PRInt64
+int64_t
 GetMediaTime
 (
 )
@@ -3293,7 +3293,7 @@ the
 decode
 thread
 .
-PRInt64
+int64_t
 GetDecodedAudioDuration
 (
 )
@@ -4016,7 +4016,7 @@ state
 machine
 thread
 .
-PRInt64
+int64_t
 mPlayDuration
 ;
 /
@@ -4113,7 +4113,7 @@ by
 decoder
 monitor
 .
-PRInt64
+int64_t
 mStartTime
 ;
 /
@@ -4161,7 +4161,7 @@ by
 decoder
 monitor
 .
-PRInt64
+int64_t
 mEndTime
 ;
 /
@@ -4204,7 +4204,7 @@ and
 decode
 thread
 .
-PRInt64
+int64_t
 mSeekTime
 ;
 /
@@ -4222,7 +4222,7 @@ by
 decoder
 monitor
 .
-PRInt64
+int64_t
 mFragmentEndTime
 ;
 /
@@ -4395,7 +4395,7 @@ via
 decoder
 monitor
 .
-PRInt64
+int64_t
 mCurrentFrameTime
 ;
 /
@@ -4449,7 +4449,7 @@ by
 decoder
 monitor
 .
-PRInt64
+int64_t
 mAudioStartTime
 ;
 /
@@ -4498,7 +4498,7 @@ to
 the
 hardware
 .
-PRInt64
+int64_t
 mAudioEndTime
 ;
 /
@@ -4528,7 +4528,7 @@ state
 machine
 thread
 .
-PRInt64
+int64_t
 mVideoFrameEndTime
 ;
 /
@@ -4610,10 +4610,10 @@ on
 unbuffered
 data
 .
-PRUint32
+uint32_t
 mBufferingWait
 ;
-PRInt64
+int64_t
 mLowDataThresholdUsecs
 ;
 /

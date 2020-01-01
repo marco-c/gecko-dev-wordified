@@ -810,7 +810,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -820,7 +820,7 @@ newBuf1
 =
 0
 ;
-PRUint32
+uint32_t
 newLen1
 =
 0
@@ -861,7 +861,7 @@ freq
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -967,14 +967,14 @@ return
 float
 confidence
 ;
-PRUint32
+uint32_t
 total
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

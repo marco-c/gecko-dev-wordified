@@ -353,7 +353,7 @@ nsPrintObject
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -561,7 +561,7 @@ do_QueryInterface
 aDocShell
 )
 ;
-PRInt32
+int32_t
 itemType
 =
 0

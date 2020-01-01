@@ -172,10 +172,10 @@ how
 this
 is
 used
-PRUint32
+uint32_t
 keyCode
 ;
-PRUint32
+uint32_t
 charCode
 ;
 bool

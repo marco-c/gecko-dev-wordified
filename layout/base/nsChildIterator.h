@@ -263,7 +263,7 @@ iterating
 .
 union
 {
-PRUint32
+uint32_t
 mIndex
 ;
 nsIContent
@@ -694,7 +694,7 @@ XBLInvolved
 )
 )
 {
-PRInt32
+int32_t
 index
 =
 mNodes
@@ -991,7 +991,7 @@ aLast
 ;
 private
 :
-PRUint32
+uint32_t
 length
 (
 )
@@ -1010,7 +1010,7 @@ me
 "
 )
 ;
-PRUint32
+uint32_t
 l
 ;
 mNodes

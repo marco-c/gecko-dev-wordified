@@ -277,9 +277,9 @@ NotifyOfPivotChange
 Accessible
 *
 aOldAccessible
-PRInt32
+int32_t
 aOldStart
-PRInt32
+int32_t
 aOldEnd
 PivotMoveReason
 aReason
@@ -453,7 +453,7 @@ pivot
 .
 *
 /
-PRInt32
+int32_t
 mStartOffset
 ;
 /
@@ -468,7 +468,7 @@ pivot
 .
 *
 /
-PRInt32
+int32_t
 mEndOffset
 ;
 /

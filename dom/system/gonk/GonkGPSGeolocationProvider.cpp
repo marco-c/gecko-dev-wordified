@@ -1955,7 +1955,7 @@ MOZ_ASSERT
 mGpsInterface
 )
 ;
-PRInt32
+int32_t
 update
 =
 Preferences
@@ -2127,7 +2127,7 @@ supl_server
 "
 )
 ;
-PRInt32
+int32_t
 suplPort
 =
 Preferences
@@ -2484,7 +2484,7 @@ datacall
 =
 aDataCall
 ;
-PRUint32
+uint32_t
 callState
 ;
 nsresult
@@ -2680,7 +2680,7 @@ nsIRILDataCallInfo
 *
 *
 aDataCalls
-PRUint32
+uint32_t
 aLength
 )
 {

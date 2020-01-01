@@ -689,7 +689,7 @@ nsDelayedBlurOrFocusEvent
 {
 nsDelayedBlurOrFocusEvent
 (
-PRUint32
+uint32_t
 aType
 nsIPresShell
 *
@@ -754,7 +754,7 @@ mTarget
 )
 {
 }
-PRUint32
+uint32_t
 mType
 ;
 nsCOMPtr
@@ -1816,7 +1816,7 @@ nsFocusManager
 :
 GetFocusMoveActionCause
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2264,7 +2264,7 @@ GetLastFocusMethod
 nsIDOMWindow
 *
 aWindow
-PRUint32
+uint32_t
 *
 aLastFocusMethod
 )
@@ -2360,7 +2360,7 @@ SetFocus
 nsIDOMElement
 *
 aElement
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2429,7 +2429,7 @@ ElementIsFocusable
 nsIDOMElement
 *
 aElement
-PRUint32
+uint32_t
 aFlags
 bool
 *
@@ -2481,9 +2481,9 @@ aWindow
 nsIDOMElement
 *
 aStartElement
-PRUint32
+uint32_t
 aType
-PRUint32
+uint32_t
 aFlags
 nsIDOMElement
 *
@@ -3276,7 +3276,7 @@ nsIDOMWindow
 aWindow
 )
 {
-PRInt32
+int32_t
 itemType
 =
 nsIDocShellTreeItem
@@ -6089,7 +6089,7 @@ were
 added
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6129,7 +6129,7 @@ EventHandlingSuppressed
 )
 )
 {
-PRUint32
+uint32_t
 type
 =
 mDelayedBlurFocusEvents
@@ -6450,7 +6450,7 @@ SetFocusInner
 nsIContent
 *
 aNewContent
-PRInt32
+int32_t
 aFlags
 bool
 aFocusChanged
@@ -8001,7 +8001,7 @@ and
 method
 as
 needed
-PRUint32
+uint32_t
 focusMethod
 =
 aFocusChanged
@@ -8392,7 +8392,7 @@ while
 dsti2
 )
 ;
-PRUint32
+uint32_t
 pos1
 =
 parents1
@@ -8401,7 +8401,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 pos2
 =
 parents2
@@ -8416,7 +8416,7 @@ parent
 =
 nullptr
 ;
-PRUint32
+uint32_t
 len
 ;
 for
@@ -8978,7 +8978,7 @@ CheckIfFocusable
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -9437,7 +9437,7 @@ GetStyleUserInterface
 (
 )
 ;
-PRInt32
+int32_t
 tabIndex
 =
 (
@@ -10646,7 +10646,7 @@ aWindow
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aFlags
 bool
 aIsNewDocument
@@ -10813,7 +10813,7 @@ window
 focus
 events
 .
-PRUint32
+uint32_t
 focusMethod
 =
 aFocusChanged
@@ -12079,7 +12079,7 @@ FocusBlurEvent
 nsISupports
 *
 aTarget
-PRUint32
+uint32_t
 aType
 nsPresContext
 *
@@ -12162,7 +12162,7 @@ nsISupports
 >
 mTarget
 ;
-PRUint32
+uint32_t
 mType
 ;
 nsRefPtr
@@ -12185,7 +12185,7 @@ nsFocusManager
 :
 SendFocusOrBlurEvent
 (
-PRUint32
+uint32_t
 aType
 nsIPresShell
 *
@@ -12196,7 +12196,7 @@ aDocument
 nsISupports
 *
 aTarget
-PRUint32
+uint32_t
 aFocusMethod
 bool
 aWindowRaised
@@ -12339,7 +12339,7 @@ set
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mDelayedBlurFocusEvents
@@ -12531,7 +12531,7 @@ aPresShell
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -13037,7 +13037,7 @@ dsti
 )
 return
 ;
-PRInt32
+int32_t
 itemType
 ;
 dsti
@@ -14124,7 +14124,7 @@ nsIContent
 startContent
 endContent
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -14281,7 +14281,7 @@ IsElement
 )
 )
 {
-PRInt32
+int32_t
 endOffset
 =
 0
@@ -14471,7 +14471,7 @@ Length
 =
 =
 (
-PRUint32
+uint32_t
 )
 startOffset
 &
@@ -14848,7 +14848,7 @@ aWindow
 nsIContent
 *
 aStartContent
-PRInt32
+int32_t
 aType
 bool
 aNoParentTraversal
@@ -15265,7 +15265,7 @@ popupFrame
 =
 nullptr
 ;
-PRInt32
+int32_t
 tabIndex
 =
 forward
@@ -15734,7 +15734,7 @@ of
 the
 caret
 .
-PRInt32
+int32_t
 itemType
 ;
 nsCOMPtr
@@ -16927,7 +16927,7 @@ nsIContent
 aStartContent
 bool
 aForward
-PRInt32
+int32_t
 aCurrentTabIndex
 bool
 aIgnoreTabIndex
@@ -17414,7 +17414,7 @@ specified
 by
 this
 value
-PRInt32
+int32_t
 tabIndex
 ;
 frame
@@ -18489,7 +18489,7 @@ GetNextTabbableMapArea
 (
 bool
 aForward
-PRInt32
+int32_t
 aCurrentTabIndex
 nsIContent
 *
@@ -18555,7 +18555,7 @@ mapContent
 return
 nullptr
 ;
-PRUint32
+uint32_t
 count
 =
 mapContent
@@ -18578,7 +18578,7 @@ is
 in
 this
 map
-PRInt32
+int32_t
 index
 =
 mapContent
@@ -18589,7 +18589,7 @@ IndexOf
 aStartContent
 )
 ;
-PRInt32
+int32_t
 tabIndex
 ;
 if
@@ -18678,7 +18678,7 @@ aForward
 1
 :
 (
-PRInt32
+int32_t
 )
 count
 ;
@@ -18759,7 +18759,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsFocusManager
 :
 :
@@ -18768,13 +18768,13 @@ GetNextTabIndex
 nsIContent
 *
 aParent
-PRInt32
+int32_t
 aCurrentTabIndex
 bool
 aForward
 )
 {
-PRInt32
+int32_t
 tabIndex
 childTabIndex
 ;
@@ -18872,7 +18872,7 @@ tabIndexStr
 nsresult
 ec
 ;
-PRInt32
+int32_t
 val
 =
 tabIndexStr
@@ -19020,7 +19020,7 @@ tabIndexStr
 nsresult
 ec
 ;
-PRInt32
+int32_t
 val
 =
 tabIndexStr
@@ -19222,7 +19222,7 @@ nullptr
 }
 else
 {
-PRInt32
+int32_t
 itemType
 ;
 nsCOMPtr
@@ -19395,7 +19395,7 @@ while
 curItem
 )
 {
-PRInt32
+int32_t
 childCount
 =
 0
@@ -19465,7 +19465,7 @@ aResult
 =
 nullptr
 ;
-PRInt32
+int32_t
 childCount
 =
 0
@@ -19588,7 +19588,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -19733,7 +19733,7 @@ correct
 bug
 162283
 .
-PRInt32
+int32_t
 childCount
 =
 0
@@ -19756,7 +19756,7 @@ iterItem
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -19878,7 +19878,7 @@ GetVisiblePopups
 (
 )
 ;
-PRInt32
+int32_t
 i
 =
 aForward
@@ -19893,7 +19893,7 @@ Length
 -
 1
 ;
-PRInt32
+int32_t
 end
 =
 aForward

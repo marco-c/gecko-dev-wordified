@@ -1181,7 +1181,7 @@ mBidiNumeralOption
 =
 UNINITIALIZED_VALUE
 ;
-PRUint32
+uint32_t
 backendMask
 =
 (
@@ -4533,7 +4533,7 @@ gfxPlatform
 :
 UseHarfBuzzForScript
 (
-PRInt32
+int32_t
 aScriptCode
 )
 {
@@ -4557,7 +4557,7 @@ HARFBUZZ_SCRIPTS_DEFAULT
 )
 ;
 }
-PRInt32
+int32_t
 shapingType
 =
 mozilla
@@ -4594,10 +4594,10 @@ gfxProxyFontEntry
 *
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -4989,7 +4989,7 @@ eFontPrefLang
 aLangArray
 [
 ]
-PRUint32
+uint32_t
 aLangArrayLen
 PrefFontCallback
 aCallback
@@ -5009,7 +5009,7 @@ GetRootBranch
 false
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -5401,14 +5401,14 @@ eFontPrefLang_Others
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
 ;
 i
 <
-PRUint32
+uint32_t
 (
 eFontPrefLang_LangCount
 )
@@ -5496,12 +5496,12 @@ aLang
 {
 if
 (
-PRUint32
+uint32_t
 (
 aLang
 )
 <
-PRUint32
+uint32_t
 (
 eFontPrefLang_AllCount
 )
@@ -5509,7 +5509,7 @@ eFontPrefLang_AllCount
 return
 gPrefLangNames
 [
-PRUint32
+uint32_t
 (
 aLang
 )
@@ -5525,7 +5525,7 @@ gfxPlatform
 :
 GetFontPrefLangFor
 (
-PRUint8
+uint8_t
 aUnicodeRange
 )
 {
@@ -5768,7 +5768,7 @@ eFontPrefLang
 aPrefLangs
 [
 ]
-PRUint32
+uint32_t
 &
 aLen
 eFontPrefLang
@@ -5822,7 +5822,7 @@ eFontPrefLang
 aPrefLangs
 [
 ]
-PRUint32
+uint32_t
 &
 aLen
 eFontPrefLang
@@ -5901,7 +5901,7 @@ tempPrefLangs
 kMaxLenPrefLangList
 ]
 ;
-PRUint32
+uint32_t
 tempLen
 =
 0
@@ -6419,7 +6419,7 @@ into
 the
 cached
 array
-PRUint32
+uint32_t
 j
 ;
 for
@@ -6456,7 +6456,7 @@ in
 cached
 CJK
 langs
-PRUint32
+uint32_t
 i
 numCJKlangs
 =
@@ -6508,7 +6508,7 @@ eFontPrefLang
 aPrefLangs
 [
 ]
-PRUint32
+uint32_t
 &
 aLen
 eFontPrefLang
@@ -6528,7 +6528,7 @@ return
 /
 make
 sure
-PRUint32
+uint32_t
 i
 =
 0
@@ -6581,7 +6581,7 @@ gfxPlatform
 :
 InitCanvasBackend
 (
-PRUint32
+uint32_t
 aBackendBitmask
 )
 {
@@ -6651,7 +6651,7 @@ gfxPlatform
 :
 GetCanvasBackendPref
 (
-PRUint32
+uint32_t
 aBackendBitmask
 )
 {
@@ -6711,7 +6711,7 @@ gBackendList
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6895,7 +6895,7 @@ true
 nsresult
 rv
 ;
-PRInt32
+int32_t
 mode
 ;
 rv
@@ -7076,7 +7076,7 @@ intent
 .
 *
 /
-PRInt32
+int32_t
 pIntent
 ;
 if
@@ -7248,7 +7248,7 @@ little
 endian
 *
 /
-PRUint32
+uint32_t
 packed
 =
 in
@@ -7265,13 +7265,13 @@ qcms_transform_data
 (
 transform
 (
-PRUint8
+uint8_t
 *
 )
 &
 packed
 (
-PRUint8
+uint8_t
 *
 )
 &
@@ -7318,7 +7318,7 @@ big
 endian
 *
 /
-PRUint32
+uint32_t
 packed
 =
 in
@@ -7347,7 +7347,7 @@ qcms_transform_data
 (
 transform
 (
-PRUint8
+uint8_t
 *
 )
 &
@@ -7355,7 +7355,7 @@ packed
 +
 1
 (
-PRUint8
+uint8_t
 *
 )
 &
@@ -8121,7 +8121,7 @@ mode
 "
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 eCMSMode_All
@@ -8289,7 +8289,7 @@ GetLength
 )
 ;
 }
-PRInt32
+int32_t
 gfxPlatform
 :
 :

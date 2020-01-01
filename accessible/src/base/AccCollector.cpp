@@ -271,7 +271,7 @@ AccCollector
 )
 {
 }
-PRUint32
+uint32_t
 AccCollector
 :
 :
@@ -299,7 +299,7 @@ AccCollector
 :
 GetAccessibleAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -329,7 +329,7 @@ aIndex
 )
 ;
 }
-PRInt32
+int32_t
 AccCollector
 :
 :
@@ -340,7 +340,7 @@ Accessible
 aAccessible
 )
 {
-PRInt32
+int32_t
 index
 =
 mObjects
@@ -459,11 +459,11 @@ AccCollector
 :
 EnsureNGetObject
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
-PRUint32
+uint32_t
 childCount
 =
 mRoot
@@ -533,7 +533,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 AccCollector
 :
 :
@@ -544,7 +544,7 @@ Accessible
 aAccessible
 )
 {
-PRUint32
+uint32_t
 childCount
 =
 mRoot
@@ -794,7 +794,7 @@ EmbeddedObjCollector
 /
 /
 /
-PRInt32
+int32_t
 EmbeddedObjCollector
 :
 :

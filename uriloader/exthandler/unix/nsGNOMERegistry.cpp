@@ -622,7 +622,7 @@ the
 path
 and
 arguments
-PRInt32
+int32_t
 firstSpace
 =
 name
@@ -648,7 +648,7 @@ Truncate
 firstSpace
 )
 ;
-PRInt32
+int32_t
 lastSlash
 =
 name

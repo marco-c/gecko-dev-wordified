@@ -142,9 +142,9 @@ const
 PRUnichar
 *
 aText
-PRUint32
+uint32_t
 aLength
-PRUint8
+uint8_t
 *
 aBreakBefore
 )
@@ -270,7 +270,7 @@ outItems
 iItem
 )
 {
-PRUint32
+uint32_t
 endOffset
 =
 (
@@ -293,7 +293,7 @@ iItem
 iCharPos
 )
 ;
-PRUint32
+uint32_t
 startOffset
 =
 items
@@ -354,7 +354,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0

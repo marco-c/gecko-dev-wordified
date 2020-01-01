@@ -255,7 +255,7 @@ nsILDAPMessage
 aMessage
 )
 {
-PRInt32
+int32_t
 messageType
 ;
 /
@@ -761,7 +761,7 @@ nsILDAPMessage
 aMessage
 )
 {
-PRInt32
+int32_t
 errCode
 ;
 mOperation
@@ -917,7 +917,7 @@ them
 /
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -936,7 +936,7 @@ PRUnichar
 *
 vals
 ;
-PRUint32
+uint32_t
 valueCount
 ;
 /
@@ -1028,7 +1028,7 @@ mResults
 /
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1497,7 +1497,7 @@ the
 scope
 /
 /
-PRInt32
+int32_t
 scope
 ;
 rv
@@ -1964,7 +1964,7 @@ GetQueryResults
 nsILDAPURL
 *
 aServerURL
-PRUint32
+uint32_t
 aProtocolVersion
 PRUnichar
 *

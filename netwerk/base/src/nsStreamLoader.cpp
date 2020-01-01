@@ -275,7 +275,7 @@ nsStreamLoader
 :
 GetNumBytesRead
 (
-PRUint32
+uint32_t
 *
 aNumBytes
 )
@@ -353,7 +353,7 @@ if
 chan
 )
 {
-PRInt32
+int32_t
 contentLength
 =
 -
@@ -384,7 +384,7 @@ mData
 =
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -560,11 +560,11 @@ const
 char
 *
 fromSegment
-PRUint32
+uint32_t
 toOffset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -628,7 +628,7 @@ mData
 =
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -736,13 +736,13 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
-PRUint32
+uint32_t
 countRead
 ;
 return

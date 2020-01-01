@@ -913,7 +913,7 @@ aContext
 return
 ;
 }
-PRUint32
+uint32_t
 last
 =
 mRecycledTextures
@@ -4733,7 +4733,7 @@ the
 parent
 side
 .
-PRUint64
+uint64_t
 newID
 =
 aNewFront
@@ -5494,7 +5494,7 @@ GetCompositorID
 )
 )
 ;
-PRUint32
+uint32_t
 imgVersion
 =
 ImageContainerParent

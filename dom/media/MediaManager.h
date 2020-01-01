@@ -520,7 +520,7 @@ TrackRate
 aTrackRate
 TrackTicks
 aTrackOffset
-PRUint32
+uint32_t
 aTrackEvents
 const
 MediaSegment
@@ -664,7 +664,7 @@ onError
 void
 OnNavigation
 (
-PRUint64
+uint64_t
 aWindowID
 )
 ;

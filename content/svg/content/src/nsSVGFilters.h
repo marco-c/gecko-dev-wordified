@@ -533,7 +533,7 @@ GetInputColorModel
 nsSVGFilterInstance
 *
 aInstance
-PRInt32
+int32_t
 aInputIndex
 Image
 *
@@ -1207,7 +1207,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1285,7 +1285,7 @@ virtual
 bool
 OperatesOnPremultipledAlpha
 (
-PRInt32
+int32_t
 )
 {
 return
@@ -1341,7 +1341,7 @@ OperatesOnSRGB
 nsSVGFilterInstance
 *
 aInstance
-PRInt32
+int32_t
 aInputIndex
 Image
 *
@@ -1537,7 +1537,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1630,7 +1630,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1784,7 +1784,7 @@ OperatesOnSRGB
 (
 nsSVGFilterInstance
 *
-PRInt32
+int32_t
 Image
 *
 )
@@ -1881,7 +1881,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

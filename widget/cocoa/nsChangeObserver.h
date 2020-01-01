@@ -132,7 +132,7 @@ aDocument
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 ;
@@ -257,7 +257,7 @@ aDocument
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 =

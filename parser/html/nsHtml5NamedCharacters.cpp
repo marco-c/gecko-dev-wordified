@@ -424,7 +424,7 @@ arrays
 /
 static
 const
-PRInt8
+int8_t
 ALL_NAMES
 [
 ]
@@ -650,7 +650,7 @@ undef
 NAMED_CHARACTER_REFERENCE
 }
 ;
-PRInt32
+int32_t
 nsHtml5CharacterName
 :
 :
@@ -669,7 +669,7 @@ nsHtml5CharacterName
 :
 charAt
 (
-PRInt32
+int32_t
 index
 )
 const
@@ -708,7 +708,7 @@ PRUnichar
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

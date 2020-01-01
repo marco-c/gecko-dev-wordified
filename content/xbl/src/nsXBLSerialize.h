@@ -135,7 +135,7 @@ nsINameSpaceManager
 h
 "
 typedef
-PRUint8
+uint8_t
 XBLBindingSerializeDetails
 ;
 /

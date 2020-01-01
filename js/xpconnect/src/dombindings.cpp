@@ -1272,7 +1272,7 @@ NULL
 return
 false
 ;
-PRUint32
+uint32_t
 length
 ;
 getListObject
@@ -2884,7 +2884,7 @@ getListObject
 (
 proxy
 )
-PRUint32
+uint32_t
 (
 index
 )
@@ -3709,7 +3709,7 @@ AutoIdVector
 props
 )
 {
-PRUint32
+uint32_t
 length
 ;
 getListObject
@@ -4055,7 +4055,7 @@ getListObject
 (
 proxy
 )
-PRUint32
+uint32_t
 (
 index
 )
@@ -4854,7 +4854,7 @@ getListObject
 (
 proxy
 )
-PRUint32
+uint32_t
 (
 index
 )

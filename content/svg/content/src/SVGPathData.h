@@ -598,7 +598,7 @@ SVGPathSegUtils
 :
 EncodeType
 (
-PRUint32
+uint32_t
 )
 /
 *
@@ -883,7 +883,7 @@ have
 .
 *
 /
-PRUint32
+uint32_t
 CountItems
 (
 )
@@ -930,7 +930,7 @@ above
 )
 *
 /
-PRUint32
+uint32_t
 Length
 (
 )
@@ -951,7 +951,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -1075,7 +1075,7 @@ float
 bool
 SetCapacity
 (
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -1106,7 +1106,7 @@ GetPathLength
 )
 const
 ;
-PRUint32
+uint32_t
 GetPathSegAtLength
 (
 float
@@ -1377,7 +1377,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1424,7 +1424,7 @@ unmodified
 bool
 SetLength
 (
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1488,9 +1488,9 @@ implementing
 *
 InsertItem
 (
-PRUint32
+uint32_t
 aDataIndex
-PRUint32
+uint32_t
 aType
 const
 float
@@ -1503,9 +1503,9 @@ aArgs
 *
 ReplaceItem
 (
-PRUint32
+uint32_t
 aDataIndex
-PRUint32
+uint32_t
 aType
 const
 float
@@ -1518,7 +1518,7 @@ aArgs
 *
 RemoveItem
 (
-PRUint32
+uint32_t
 aDataIndex
 )
 ;
@@ -1528,7 +1528,7 @@ aDataIndex
 bool
 AppendItem
 (
-PRUint32
+uint32_t
 aType
 const
 float
@@ -1539,7 +1539,7 @@ aArgs
 nsresult
 AppendSeg
 (
-PRUint32
+uint32_t
 aType
 .
 .

@@ -383,7 +383,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *
@@ -1061,7 +1061,7 @@ CheckForOSAccessibility
 (
 )
 {
-PRInt32
+int32_t
 useAccessibilityTheme
 =
 LookAndFeel
@@ -1477,7 +1477,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 hyphen
 =
 prefString
@@ -2553,7 +2553,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *
@@ -2898,7 +2898,7 @@ const
 nsCString
 &
 aPackage
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -3171,7 +3171,7 @@ MatchType
 aType
 )
 {
-PRInt32
+int32_t
 i
 =
 mArray
@@ -3509,7 +3509,7 @@ nsCString
 a
 )
 {
-PRInt32
+int32_t
 i
 =
 mArray
@@ -3565,7 +3565,7 @@ Clear
 (
 )
 {
-PRInt32
+int32_t
 i
 =
 mArray
@@ -3622,7 +3622,7 @@ nsIURI
 aURI
 )
 {
-PRInt32
+int32_t
 i
 =
 mArray

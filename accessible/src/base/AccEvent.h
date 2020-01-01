@@ -359,7 +359,7 @@ an
 nsIAccessible
 AccEvent
 (
-PRUint32
+uint32_t
 aEventType
 Accessible
 *
@@ -382,7 +382,7 @@ an
 nsIDOMNode
 AccEvent
 (
-PRUint32
+uint32_t
 aEventType
 nsINode
 *
@@ -407,7 +407,7 @@ AccEvent
 /
 /
 AccEvent
-PRUint32
+uint32_t
 GetEventType
 (
 )
@@ -607,7 +607,7 @@ aIsFromUserInput
 bool
 mIsFromUserInput
 ;
-PRUint32
+uint32_t
 mEventType
 ;
 EEventRule
@@ -655,7 +655,7 @@ AccStateChangeEvent
 Accessible
 *
 aAccessible
-PRUint64
+uint64_t
 aState
 bool
 aIsEnabled
@@ -670,7 +670,7 @@ AccStateChangeEvent
 nsINode
 *
 aNode
-PRUint64
+uint64_t
 aState
 bool
 aIsEnabled
@@ -681,7 +681,7 @@ AccStateChangeEvent
 nsINode
 *
 aNode
-PRUint64
+uint64_t
 aState
 )
 ;
@@ -731,7 +731,7 @@ eStateChangeEvent
 /
 /
 AccStateChangeEvent
-PRUint64
+uint64_t
 GetState
 (
 )
@@ -753,7 +753,7 @@ mIsEnabled
 }
 private
 :
-PRUint64
+uint64_t
 mState
 ;
 bool
@@ -785,7 +785,7 @@ AccTextChangeEvent
 Accessible
 *
 aAccessible
-PRInt32
+int32_t
 aStart
 const
 nsAString
@@ -845,7 +845,7 @@ eTextChangeEvent
 /
 /
 AccTextChangeEvent
-PRInt32
+int32_t
 GetStartOffset
 (
 )
@@ -855,7 +855,7 @@ return
 mStart
 ;
 }
-PRUint32
+uint32_t
 GetLength
 (
 )
@@ -894,7 +894,7 @@ mModifiedText
 }
 private
 :
-PRInt32
+int32_t
 mStart
 ;
 bool
@@ -934,7 +934,7 @@ public
 :
 AccMutationEvent
 (
-PRUint32
+uint32_t
 aEventType
 Accessible
 *
@@ -1248,7 +1248,7 @@ AccCaretMoveEvent
 Accessible
 *
 aAccessible
-PRInt32
+int32_t
 aCaretOffset
 )
 ;
@@ -1305,7 +1305,7 @@ eCaretMoveEvent
 /
 /
 AccCaretMoveEvent
-PRInt32
+int32_t
 GetCaretOffset
 (
 )
@@ -1317,7 +1317,7 @@ mCaretOffset
 }
 private
 :
-PRInt32
+int32_t
 mCaretOffset
 ;
 }
@@ -1433,7 +1433,7 @@ mItem
 SelChangeType
 mSelChangeType
 ;
-PRUint32
+uint32_t
 mPreceedingCount
 ;
 AccSelChangeEvent
@@ -1470,11 +1470,11 @@ AccTableChangeEvent
 Accessible
 *
 aAccessible
-PRUint32
+uint32_t
 aEventType
-PRInt32
+int32_t
 aRowOrColIndex
-PRInt32
+int32_t
 aNumRowsOrCols
 )
 ;
@@ -1524,7 +1524,7 @@ eTableChangeEvent
 /
 /
 AccTableChangeEvent
-PRUint32
+uint32_t
 GetIndex
 (
 )
@@ -1534,7 +1534,7 @@ return
 mRowOrColIndex
 ;
 }
-PRUint32
+uint32_t
 GetCount
 (
 )
@@ -1546,7 +1546,7 @@ mNumRowsOrCols
 }
 private
 :
-PRUint32
+uint32_t
 mRowOrColIndex
 ;
 /
@@ -1565,7 +1565,7 @@ inserted
 /
 deleted
 .
-PRUint32
+uint32_t
 mNumRowsOrCols
 ;
 /
@@ -1609,11 +1609,11 @@ aAccessible
 nsIAccessible
 *
 aOldAccessible
-PRInt32
+int32_t
 aOldStart
-PRInt32
+int32_t
 aOldEnd
-PRInt16
+int16_t
 aReason
 )
 ;
@@ -1681,7 +1681,7 @@ return
 mOldAccessible
 ;
 }
-PRInt32
+int32_t
 OldStartOffset
 (
 )
@@ -1691,7 +1691,7 @@ return
 mOldStart
 ;
 }
-PRInt32
+int32_t
 OldEndOffset
 (
 )
@@ -1701,7 +1701,7 @@ return
 mOldEnd
 ;
 }
-PRInt32
+int32_t
 Reason
 (
 )
@@ -1719,13 +1719,13 @@ nsIAccessible
 >
 mOldAccessible
 ;
-PRInt32
+int32_t
 mOldStart
 ;
-PRInt32
+int32_t
 mOldEnd
 ;
-PRInt16
+int16_t
 mReason
 ;
 }

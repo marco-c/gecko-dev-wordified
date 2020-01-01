@@ -819,7 +819,7 @@ template
 with
 highest
 priority
-PRUint32
+uint32_t
 i
 len
 =
@@ -1282,7 +1282,7 @@ txIMatchContext
 aContext
 )
 {
-PRInt32
+int32_t
 frameCount
 =
 mStripSpaceTests
@@ -1385,7 +1385,7 @@ list
 against
 given
 Node
-PRInt32
+int32_t
 i
 ;
 for
@@ -2184,7 +2184,7 @@ nullptr
 )
 ;
 }
-PRUint32
+uint32_t
 unionPos
 =
 1
@@ -2244,7 +2244,7 @@ priority
 )
 ;
 }
-PRUint32
+uint32_t
 i
 len
 =
@@ -2561,7 +2561,7 @@ txStripSpaceTest
 aFrameStripSpaceTests
 )
 {
-PRInt32
+int32_t
 testCount
 =
 aStripSpaceItem
@@ -2609,7 +2609,7 @@ getDefaultPriority
 (
 )
 ;
-PRInt32
+int32_t
 i
 frameCount
 =

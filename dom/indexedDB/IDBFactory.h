@@ -420,7 +420,7 @@ aConnection
 nsIAtom
 *
 aDatabaseId
-PRUint64
+uint64_t
 *
 aVersion
 ObjectStoreInfoArray
@@ -435,7 +435,7 @@ SetDatabaseMetadata
 DatabaseInfo
 *
 aDatabaseInfo
-PRUint64
+uint64_t
 aVersion
 ObjectStoreInfoArray
 &
@@ -449,7 +449,7 @@ const
 nsAString
 &
 aName
-PRInt64
+int64_t
 aVersion
 bool
 aDeleting

@@ -176,7 +176,7 @@ public
 :
 nsUniversalDetector
 (
-PRUint32
+uint32_t
 aLanguageFilter
 )
 ;
@@ -194,7 +194,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -248,10 +248,10 @@ char
 *
 mDetectedCharset
 ;
-PRInt32
+int32_t
 mBestGuess
 ;
-PRUint32
+uint32_t
 mLanguageFilter
 ;
 nsCharSetProber

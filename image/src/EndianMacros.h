@@ -117,7 +117,7 @@ x
 (
 (
 (
-PRUint16
+uint16_t
 )
 x
 )
@@ -133,7 +133,7 @@ x
 (
 (
 (
-PRUint16
+uint16_t
 )
 x
 )
@@ -153,7 +153,7 @@ x
 (
 (
 (
-PRUint32
+uint32_t
 )
 x
 )
@@ -171,7 +171,7 @@ x
 (
 (
 (
-PRUint32
+uint32_t
 )
 x
 )
@@ -193,7 +193,7 @@ x
 (
 (
 (
-PRUint32
+uint32_t
 )
 x
 )
@@ -213,7 +213,7 @@ x
 (
 (
 (
-PRUint32
+uint32_t
 )
 x
 )

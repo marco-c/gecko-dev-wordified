@@ -359,7 +359,7 @@ mValues
 nsAutoString
 mSearchString
 ;
-PRUint16
+uint16_t
 mSearchResult
 ;
 }
@@ -403,7 +403,7 @@ RESULT_IGNORED
 ;
 else
 {
-PRInt32
+int32_t
 slashPos
 =
 mSearchString
@@ -701,7 +701,7 @@ nsFileResult
 :
 GetSearchResult
 (
-PRUint16
+uint16_t
 *
 aSearchResult
 )
@@ -726,7 +726,7 @@ nsFileResult
 :
 GetDefaultIndex
 (
-PRInt32
+int32_t
 *
 aDefaultIndex
 )
@@ -773,7 +773,7 @@ nsFileResult
 :
 GetMatchCount
 (
-PRUint32
+uint32_t
 *
 aMatchCount
 )
@@ -827,7 +827,7 @@ nsFileResult
 :
 GetValueAt
 (
-PRInt32
+int32_t
 index
 nsAString
 &
@@ -851,7 +851,7 @@ nsFileResult
 :
 GetLabelAt
 (
-PRInt32
+int32_t
 index
 nsAString
 &
@@ -872,7 +872,7 @@ nsFileResult
 :
 GetCommentAt
 (
-PRInt32
+int32_t
 index
 nsAString
 &
@@ -895,7 +895,7 @@ nsFileResult
 :
 GetStyleAt
 (
-PRInt32
+int32_t
 index
 nsAString
 &
@@ -918,7 +918,7 @@ nsFileResult
 :
 GetImageAt
 (
-PRInt32
+int32_t
 index
 nsAString
 &
@@ -941,7 +941,7 @@ nsFileResult
 :
 RemoveValueAt
 (
-PRInt32
+int32_t
 rowIndex
 bool
 removeFromDb
@@ -1167,10 +1167,10 @@ nsIDateTimeFormat
 >
 mDateFormatter
 ;
-PRInt16
+int16_t
 mSortType
 ;
-PRInt32
+int32_t
 mTotalRows
 ;
 nsTArray
@@ -1342,7 +1342,7 @@ nsFileView
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mCurrentFilters
@@ -1353,7 +1353,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1598,7 +1598,7 @@ mDirectoryFilter
 =
 aOnlyDirs
 ;
-PRUint32
+uint32_t
 dirCount
 ;
 mDirList
@@ -1615,7 +1615,7 @@ if
 mDirectoryFilter
 )
 {
-PRInt32
+int32_t
 rowDiff
 =
 mTotalRows
@@ -1726,7 +1726,7 @@ nsFileView
 :
 GetSortType
 (
-PRInt16
+int16_t
 *
 aSortType
 )
@@ -1766,7 +1766,7 @@ nsFileView
 :
 Sort
 (
-PRInt16
+int16_t
 aSortType
 bool
 aReverseSort
@@ -2108,7 +2108,7 @@ nsAString
 aFilterString
 )
 {
-PRUint32
+uint32_t
 filterCount
 =
 mCurrentFilters
@@ -2119,7 +2119,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2371,7 +2371,7 @@ BeginUpdateBatch
 (
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 mDirList
@@ -2460,7 +2460,7 @@ mSelection
 return
 NS_OK
 ;
-PRInt32
+int32_t
 numRanges
 ;
 mSelection
@@ -2472,7 +2472,7 @@ GetRangeCount
 numRanges
 )
 ;
-PRUint32
+uint32_t
 dirCount
 ;
 mDirList
@@ -2502,7 +2502,7 @@ fileArray
 ;
 for
 (
-PRInt32
+int32_t
 range
 =
 0
@@ -2516,7 +2516,7 @@ numRanges
 range
 )
 {
-PRInt32
+int32_t
 rangeBegin
 rangeEnd
 ;
@@ -2534,7 +2534,7 @@ rangeEnd
 ;
 for
 (
-PRInt32
+int32_t
 itemIndex
 =
 rangeBegin
@@ -2560,7 +2560,7 @@ if
 itemIndex
 <
 (
-PRInt32
+int32_t
 )
 dirCount
 )
@@ -2628,7 +2628,7 @@ nsFileView
 :
 GetRowCount
 (
-PRInt32
+int32_t
 *
 aRowCount
 )
@@ -2694,7 +2694,7 @@ nsFileView
 :
 GetRowProperties
 (
-PRInt32
+int32_t
 aIndex
 nsISupportsArray
 *
@@ -2711,7 +2711,7 @@ nsFileView
 :
 GetCellProperties
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -2721,7 +2721,7 @@ nsISupportsArray
 aProperties
 )
 {
-PRUint32
+uint32_t
 dirCount
 ;
 mDirList
@@ -2738,7 +2738,7 @@ if
 aRow
 <
 (
-PRInt32
+int32_t
 )
 dirCount
 )
@@ -2793,7 +2793,7 @@ nsFileView
 :
 IsContainer
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -2815,7 +2815,7 @@ nsFileView
 :
 IsContainerOpen
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -2837,7 +2837,7 @@ nsFileView
 :
 IsContainerEmpty
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -2859,7 +2859,7 @@ nsFileView
 :
 IsSeparator
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -2906,9 +2906,9 @@ nsFileView
 :
 CanDrop
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 aOrientation
 nsIDOMDataTransfer
 *
@@ -2933,9 +2933,9 @@ nsFileView
 :
 Drop
 (
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 aOrientation
 nsIDOMDataTransfer
 *
@@ -2952,9 +2952,9 @@ nsFileView
 :
 GetParentIndex
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 *
 aParentIndex
 )
@@ -2975,9 +2975,9 @@ nsFileView
 :
 HasNextSibling
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aAfterIndex
 bool
 *
@@ -3007,9 +3007,9 @@ nsFileView
 :
 GetLevel
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 *
 aLevel
 )
@@ -3029,7 +3029,7 @@ nsFileView
 :
 GetImageSrc
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3049,12 +3049,12 @@ nsFileView
 :
 GetProgressMode
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
 aCol
-PRInt32
+int32_t
 *
 aProgressMode
 )
@@ -3069,7 +3069,7 @@ nsFileView
 :
 GetCellValue
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3089,7 +3089,7 @@ nsFileView
 :
 GetCellText
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3099,7 +3099,7 @@ nsAString
 aCellText
 )
 {
-PRUint32
+uint32_t
 dirCount
 fileCount
 ;
@@ -3135,7 +3135,7 @@ if
 aRow
 <
 (
-PRInt32
+int32_t
 )
 dirCount
 )
@@ -3247,7 +3247,7 @@ colID
 )
 )
 {
-PRInt64
+int64_t
 lastModTime
 ;
 curFile
@@ -3309,7 +3309,7 @@ SetCapacity
 ;
 else
 {
-PRInt64
+int64_t
 fileSize
 ;
 curFile
@@ -3365,7 +3365,7 @@ nsFileView
 :
 ToggleOpenState
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -3406,7 +3406,7 @@ nsFileView
 :
 CycleCell
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3423,7 +3423,7 @@ nsFileView
 :
 IsEditable
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3448,7 +3448,7 @@ nsFileView
 :
 IsSelectable
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3473,7 +3473,7 @@ nsFileView
 :
 SetCellValue
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3494,7 +3494,7 @@ nsFileView
 :
 SetCellText
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3535,7 +3535,7 @@ const
 PRUnichar
 *
 aAction
-PRInt32
+int32_t
 aRow
 )
 {
@@ -3553,7 +3553,7 @@ const
 PRUnichar
 *
 aAction
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3576,7 +3576,7 @@ FilterFiles
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -3610,7 +3610,7 @@ Clear
 (
 )
 ;
-PRUint32
+uint32_t
 filterCount
 =
 mCurrentFilters
@@ -3627,7 +3627,7 @@ file
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3707,7 +3707,7 @@ isHidden
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -3824,7 +3824,7 @@ nsISupportsArray
 aArray
 )
 {
-PRUint32
+uint32_t
 count
 ;
 aArray
@@ -3838,7 +3838,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4042,7 +4042,7 @@ const
 aElement2
 )
 ;
-PRInt64
+int64_t
 size1
 size2
 ;
@@ -4140,7 +4140,7 @@ const
 aElement2
 )
 ;
-PRInt64
+int64_t
 time1
 time2
 ;
@@ -4274,7 +4274,7 @@ default
 return
 ;
 }
-PRUint32
+uint32_t
 count
 ;
 aArray
@@ -4315,7 +4315,7 @@ nsIFile
 count
 ]
 ;
-PRUint32
+uint32_t
 i
 ;
 for

@@ -417,7 +417,7 @@ ContinueHelper
 IDBCursor
 *
 aCursor
-PRInt32
+int32_t
 aCount
 )
 :
@@ -687,7 +687,7 @@ clear
 ;
 }
 }
-PRInt32
+int32_t
 mCount
 ;
 Key
@@ -714,7 +714,7 @@ ContinueObjectStoreHelper
 IDBCursor
 *
 aCursor
-PRUint32
+uint32_t
 aCount
 )
 :
@@ -758,7 +758,7 @@ ContinueIndexHelper
 IDBCursor
 *
 aCursor
-PRUint32
+uint32_t
 aCount
 )
 :
@@ -802,7 +802,7 @@ ContinueIndexObjectHelper
 IDBCursor
 *
 aCursor
-PRUint32
+uint32_t
 aCount
 )
 :
@@ -1843,7 +1843,7 @@ const
 Key
 &
 aKey
-PRInt32
+int32_t
 aCount
 )
 {
@@ -3438,7 +3438,7 @@ IDBCursor
 :
 Advance
 (
-PRInt64
+int64_t
 aCount
 )
 {
@@ -3477,7 +3477,7 @@ return
 ContinueInternal
 (
 key
-PRInt32
+int32_t
 (
 aCount
 )
@@ -3873,7 +3873,7 @@ hasResult
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0

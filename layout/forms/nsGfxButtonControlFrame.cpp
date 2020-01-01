@@ -361,7 +361,7 @@ nsGfxButtonControlFrame
 :
 IsFileBrowseButton
 (
-PRInt32
+int32_t
 type
 )
 {
@@ -591,7 +591,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 {
@@ -956,7 +956,7 @@ form
 NS_ERROR_UNEXPECTED
 )
 ;
-PRInt32
+int32_t
 type
 =
 form
@@ -1541,12 +1541,12 @@ nsGfxButtonControlFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {

@@ -877,7 +877,7 @@ with
 nsresult
 notifyError
 (
-PRInt32
+int32_t
 aErrorCode
 const
 char

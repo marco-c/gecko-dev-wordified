@@ -244,7 +244,7 @@ char
 aCharset
 =
 nullptr
-PRInt32
+int32_t
 aSource
 =
 kCharsetUninitialized
@@ -295,7 +295,7 @@ char
 aCharset
 =
 nullptr
-PRInt32
+int32_t
 aSource
 =
 kCharsetUninitialized

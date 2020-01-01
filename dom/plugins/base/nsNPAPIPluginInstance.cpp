@@ -1308,7 +1308,7 @@ outstanding
 timers
 for
 (
-PRUint32
+uint32_t
 i
 =
 mTimers
@@ -1580,7 +1580,7 @@ if
 MOZ_WIDGET_ANDROID
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1771,7 +1771,7 @@ nsNPAPIPluginInstance
 :
 GetAttributes
 (
-PRUint16
+uint16_t
 &
 n
 const
@@ -1833,7 +1833,7 @@ nsNPAPIPluginInstance
 :
 GetParameters
 (
-PRUint16
+uint16_t
 &
 n
 const
@@ -1895,7 +1895,7 @@ nsNPAPIPluginInstance
 :
 GetMode
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -1980,7 +1980,7 @@ guard
 this
 )
 ;
-PRUint16
+uint16_t
 count
 =
 0
@@ -2131,7 +2131,7 @@ tagtype
 nsPluginTagType_Embed
 )
 {
-PRUint16
+uint16_t
 pcount
 =
 0
@@ -2280,7 +2280,7 @@ params
 }
 }
 }
-PRInt32
+int32_t
 mode
 ;
 const
@@ -2551,7 +2551,7 @@ cachedDisableHack
 {
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -2992,7 +2992,7 @@ mimetype
 &
 mNPP
 (
-PRUint16
+uint16_t
 )
 mode
 count
@@ -3677,7 +3677,7 @@ platformPrint
 See
 bug
 113264
-PRUint16
+uint16_t
 sdkmajorversion
 =
 (
@@ -3692,7 +3692,7 @@ version
 >
 8
 ;
-PRUint16
+uint16_t
 sdkminorversion
 =
 pluginFunctions
@@ -4026,7 +4026,7 @@ HandleEvent
 void
 *
 event
-PRInt16
+int16_t
 *
 result
 )
@@ -4083,7 +4083,7 @@ PluginFuncs
 (
 )
 ;
-PRInt16
+int16_t
 tmpResult
 =
 kNPEventNotHandled
@@ -4702,7 +4702,7 @@ SendLifecycleEvent
 nsNPAPIPluginInstance
 *
 aInstance
-PRUint32
+uint32_t
 aAction
 )
 {
@@ -5102,7 +5102,7 @@ nsNPAPIPluginInstance
 :
 SetANPDrawingModel
 (
-PRUint32
+uint32_t
 aModel
 )
 {
@@ -5201,7 +5201,7 @@ nsNPAPIPluginInstance
 :
 SetFullScreenOrientation
 (
-PRUint32
+uint32_t
 orientation
 )
 {
@@ -5214,7 +5214,7 @@ orientation
 )
 return
 ;
-PRUint32
+uint32_t
 oldOrientation
 =
 mFullScreenOrientation
@@ -5973,7 +5973,7 @@ nsNPAPIPluginInstance
 :
 GetDrawingModel
 (
-PRInt32
+int32_t
 *
 aModel
 )
@@ -5988,7 +5988,7 @@ XP_MACOSX
 aModel
 =
 (
-PRInt32
+int32_t
 )
 mDrawingModel
 ;
@@ -6939,7 +6939,7 @@ PopPopupsEnabledState
 (
 )
 {
-PRInt32
+int32_t
 last
 =
 mPopupStates
@@ -7019,7 +7019,7 @@ nsNPAPIPluginInstance
 :
 GetPluginAPIVersion
 (
-PRUint16
+uint16_t
 *
 version
 )
@@ -7428,7 +7428,7 @@ one
 -
 shot
 timer
-PRUint32
+uint32_t
 timerType
 ;
 t
@@ -7471,12 +7471,12 @@ TimerWithID
 (
 uint32_t
 id
-PRUint32
+uint32_t
 *
 index
 )
 {
-PRUint32
+uint32_t
 len
 =
 mTimers
@@ -7487,7 +7487,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7761,7 +7761,7 @@ timer
 struct
 by
 ID
-PRUint32
+uint32_t
 index
 ;
 nsNPAPITimer
@@ -8403,7 +8403,7 @@ notifyData
 return
 ;
 }
-PRUint32
+uint32_t
 listenerCount
 =
 mStreamListeners
@@ -8414,7 +8414,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

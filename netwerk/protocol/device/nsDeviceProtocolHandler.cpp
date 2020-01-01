@@ -263,7 +263,7 @@ nsDeviceProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -292,7 +292,7 @@ nsDeviceProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -426,7 +426,7 @@ nsDeviceProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

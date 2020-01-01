@@ -611,10 +611,10 @@ nsProtocolInfo
 nsCAutoString
 scheme
 ;
-PRUint32
+uint32_t
 flags
 ;
-PRInt32
+int32_t
 defaultPort
 ;
 }
@@ -719,7 +719,7 @@ pps
 nsIURI
 *
 uri
-PRUint32
+uint32_t
 aResolveFlags
 nsIProtocolProxyCallback
 *
@@ -1180,7 +1180,7 @@ mPACString
 bool
 mDispatched
 ;
-PRUint32
+uint32_t
 mResolveFlags
 ;
 nsRefPtr
@@ -1360,7 +1360,7 @@ proxy_MaskIPv6Addr
 PRIPv6Addr
 &
 addr
-PRUint16
+uint16_t
 mask_len
 )
 {
@@ -1686,12 +1686,12 @@ const
 char
 *
 aPref
-PRInt32
+int32_t
 &
 aResult
 )
 {
-PRInt32
+int32_t
 temp
 ;
 nsresult
@@ -1854,14 +1854,14 @@ temp
 -
 static
 const
-PRInt32
+int32_t
 PROXYCONFIG_DIRECT4X
 =
 3
 ;
 static
 const
-PRInt32
+int32_t
 PROXYCONFIG_COUNT
 =
 6
@@ -2327,7 +2327,7 @@ type
 )
 )
 {
-PRInt32
+int32_t
 type
 =
 -
@@ -2790,7 +2790,7 @@ socks_version
 )
 )
 {
-PRInt32
+int32_t
 version
 ;
 proxy_GetIntPref
@@ -3232,7 +3232,7 @@ CanUseProxy
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 defaultPort
 )
 {
@@ -3250,7 +3250,7 @@ Length
 return
 true
 ;
-PRInt32
+int32_t
 port
 ;
 nsCAutoString
@@ -3519,7 +3519,7 @@ t
 allow
 proxying
 }
-PRInt32
+int32_t
 index
 =
 -
@@ -3531,7 +3531,7 @@ while
 +
 index
 <
-PRInt32
+int32_t
 (
 mHostFiltersArray
 .
@@ -3658,7 +3658,7 @@ disallowed
 }
 else
 {
-PRUint32
+uint32_t
 host_len
 =
 host
@@ -3667,7 +3667,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 filter_host_len
 =
 hinfo
@@ -3834,7 +3834,7 @@ const
 char
 *
 start
-PRUint32
+uint32_t
 aResolveFlags
 nsProxyInfo
 *
@@ -3847,7 +3847,7 @@ result
 =
 nullptr
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -3936,7 +3936,7 @@ t
 +
 sp
 ;
-PRUint32
+uint32_t
 len
 =
 sp
@@ -4097,7 +4097,7 @@ hostEnd
 =
 nullptr
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -4469,7 +4469,7 @@ mPort
 ;
 }
 }
-PRUint32
+uint32_t
 nsProtocolProxyService
 :
 :
@@ -4492,7 +4492,7 @@ elapsed
 since
 session
 start
-PRInt64
+int64_t
 diff
 ;
 LL_SUB
@@ -4531,7 +4531,7 @@ to
 32
 bit
 value
-PRUint32
+uint32_t
 dsec
 ;
 LL_L2UI
@@ -4592,7 +4592,7 @@ pi
 key
 )
 ;
-PRUint32
+uint32_t
 dsec
 =
 SecondsSinceSessionStart
@@ -4784,7 +4784,7 @@ pi
 key
 )
 ;
-PRUint32
+uint32_t
 val
 ;
 if
@@ -4802,7 +4802,7 @@ val
 return
 false
 ;
-PRUint32
+uint32_t
 dsec
 =
 SecondsSinceSessionStart
@@ -4951,7 +4951,7 @@ const
 nsCString
 &
 pacString
-PRUint32
+uint32_t
 aResolveFlags
 nsIProxyInfo
 *
@@ -5097,7 +5097,7 @@ prefs
 return
 NS_OK
 ;
-PRInt32
+int32_t
 type
 ;
 nsresult
@@ -5201,7 +5201,7 @@ Resolve
 nsIURI
 *
 uri
-PRUint32
+uint32_t
 flags
 nsIProxyInfo
 *
@@ -5462,7 +5462,7 @@ AsyncResolve
 nsIURI
 *
 uri
-PRUint32
+uint32_t
 flags
 nsIProtocolProxyCallback
 *
@@ -5645,11 +5645,11 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aFailoverTimeout
 nsIProxyInfo
 *
@@ -5715,7 +5715,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6052,7 +6052,7 @@ RegisterFilter
 nsIProtocolProxyFilter
 *
 filter
-PRUint32
+uint32_t
 position
 )
 {
@@ -6363,7 +6363,7 @@ nsProtocolProxyService
 :
 GetProxyConfigType
 (
-PRUint32
+uint32_t
 *
 aProxyConfigType
 )
@@ -7050,7 +7050,7 @@ mask_len
 }
 else
 {
-PRUint32
+uint32_t
 startIndex
 endIndex
 ;
@@ -7523,16 +7523,16 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aFailoverTimeout
 nsIProxyInfo
 *
 aFailoverProxy
-PRUint32
+uint32_t
 aResolveFlags
 nsIProxyInfo
 *
@@ -7665,7 +7665,7 @@ const
 nsProtocolInfo
 &
 info
-PRUint32
+uint32_t
 flags
 bool
 *
@@ -8015,13 +8015,13 @@ host
 =
 nullptr
 ;
-PRInt32
+int32_t
 port
 =
 -
 1
 ;
-PRUint32
+uint32_t
 proxyFlags
 =
 0

@@ -797,7 +797,7 @@ aCharset
 nsIURI
 *
 aBaseURI
-PRInt32
+int32_t
 aDefaultPort
 nsIURI
 *
@@ -2337,7 +2337,7 @@ AddStandardRequestHeaders
 nsHttpHeaderArray
 *
 request
-PRUint8
+uint8_t
 caps
 bool
 useProxy
@@ -3020,7 +3020,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsHttpHandler
 :
 :
@@ -3091,7 +3091,7 @@ RAND_MAX
 return
 (
 (
-PRUint16
+uint16_t
 )
 rand
 (
@@ -3104,7 +3104,7 @@ rand
 (
 (
 (
-PRUint16
+uint16_t
 )
 rand
 (
@@ -3119,7 +3119,7 @@ rand
 |
 (
 (
-PRUint16
+uint16_t
 )
 rand
 (
@@ -3136,7 +3136,7 @@ RAND_MAX
 return
 (
 (
-PRUint16
+uint16_t
 )
 rand
 (
@@ -3148,7 +3148,7 @@ rand
 |
 (
 (
-PRUint16
+uint16_t
 )
 rand
 (
@@ -3161,7 +3161,7 @@ rand
 else
 return
 (
-PRUint32
+uint32_t
 )
 rand
 (
@@ -3242,7 +3242,7 @@ oldChan
 nsIChannel
 *
 newChan
-PRUint32
+uint32_t
 flags
 )
 {
@@ -3298,7 +3298,7 @@ const
 nsCString
 &
 host
-PRInt32
+int32_t
 port
 nsCString
 &
@@ -4543,7 +4543,7 @@ void
 =
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 {
@@ -4733,7 +4733,7 @@ mUserAgentIsDirty
 true
 ;
 }
-PRUint32
+uint32_t
 nsHttpHandler
 :
 :
@@ -4789,7 +4789,7 @@ starve
 other
 users
 .
-PRUint32
+uint32_t
 maxCount
 =
 nsSocketTransportService
@@ -4838,7 +4838,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 val
 ;
 LOG
@@ -5133,7 +5133,7 @@ rv
 mMaxRequestAttempts
 =
 (
-PRUint16
+uint16_t
 )
 clamped
 (
@@ -5196,7 +5196,7 @@ rv
 mMaxRequestDelay
 =
 (
-PRUint16
+uint16_t
 )
 clamped
 (
@@ -5268,16 +5268,16 @@ rv
 mMaxConnections
 =
 (
-PRUint16
+uint16_t
 )
 clamped
 (
 (
-PRUint32
+uint32_t
 )
 val
 (
-PRUint32
+uint32_t
 )
 1
 MaxSocketCount
@@ -5360,7 +5360,7 @@ rv
 mMaxPersistentConnectionsPerServer
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -5444,7 +5444,7 @@ rv
 mMaxPersistentConnectionsPerProxy
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -5511,7 +5511,7 @@ rv
 mReferrerLevel
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -5565,7 +5565,7 @@ rv
 mRedirectionLimit
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -5623,7 +5623,7 @@ rv
 mIdleSynTimeout
 =
 (
-PRUint16
+uint16_t
 )
 clamped
 (
@@ -6147,7 +6147,7 @@ mMaxPipelineObjectSize
 =
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 clamped
@@ -6310,7 +6310,7 @@ mPipelineRescheduleTimeout
 PR_MillisecondsToInterval
 (
 (
-PRUint16
+uint16_t
 )
 clamped
 (
@@ -6399,7 +6399,7 @@ mPipelineReadTimeout
 PR_MillisecondsToInterval
 (
 (
-PRUint16
+uint16_t
 )
 clamped
 (
@@ -6557,7 +6557,7 @@ rv
 mQoSBits
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -7118,7 +7118,7 @@ rv
 mPhishyUserPassLength
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -7480,7 +7480,7 @@ rv
 mSpdySendingChunkSize
 =
 (
-PRUint32
+uint32_t
 )
 clamped
 (
@@ -7563,7 +7563,7 @@ mSpdyPingThreshold
 PR_SecondsToInterval
 (
 (
-PRUint16
+uint16_t
 )
 clamped
 (
@@ -7644,7 +7644,7 @@ mSpdyPingTimeout
 PR_SecondsToInterval
 (
 (
-PRUint16
+uint16_t
 )
 clamped
 (
@@ -8294,7 +8294,7 @@ i_AcceptLanguages
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 n
 size
 wrote
@@ -8320,7 +8320,7 @@ char
 *
 comma
 ;
-PRInt32
+int32_t
 available
 ;
 o_Accept
@@ -8582,7 +8582,7 @@ if
 not
 first
 item
-PRUint32
+uint32_t
 u
 =
 QVAL_TO_UINT
@@ -9147,7 +9147,7 @@ nsHttpHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -9167,7 +9167,7 @@ nsHttpHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -9379,7 +9379,7 @@ nsHttpHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char
@@ -9716,7 +9716,7 @@ use
 proxy
 settings
 .
-PRInt8
+int8_t
 caps
 ;
 if
@@ -10891,7 +10891,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -11186,7 +11186,7 @@ nsHttpsHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 aPort
 )
@@ -11206,7 +11206,7 @@ nsHttpsHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 aProtocolFlags
 )
@@ -11311,7 +11311,7 @@ nsHttpsHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 aPort
 const
 char

@@ -294,7 +294,7 @@ anArrayTransferables
 nsIScriptableRegion
 *
 aRegion
-PRUint32
+uint32_t
 aActionType
 )
 ;
@@ -331,7 +331,7 @@ aCanDrop
 NS_IMETHOD
 GetNumDropItems
 (
-PRUint32
+uint32_t
 *
 aNumItems
 )
@@ -342,7 +342,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRUint32
+uint32_t
 aItemIndex
 )
 ;
@@ -847,7 +847,7 @@ void
 *
 mTargetDragData
 ;
-PRUint32
+uint32_t
 mTargetDragDataLen
 ;
 /
@@ -993,9 +993,9 @@ aPixbuf
 GdkDragContext
 *
 aContext
-PRInt32
+int32_t
 aXOffset
-PRInt32
+int32_t
 aYOffset
 const
 nsIntRect

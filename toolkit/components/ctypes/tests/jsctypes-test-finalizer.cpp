@@ -336,11 +336,11 @@ failed
 ;
 }
 const
-PRInt32
+int32_t
 narrowed
 =
 (
-PRInt32
+int32_t
 )
 i
 ;

@@ -454,9 +454,9 @@ context
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -466,7 +466,7 @@ buf
 1025
 ]
 ;
-PRUint32
+uint32_t
 amt
 size
 ;
@@ -482,7 +482,7 @@ size
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 aLength

@@ -299,7 +299,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 const
 nsACString
@@ -487,7 +487,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 const
 nsACString

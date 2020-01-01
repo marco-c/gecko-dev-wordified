@@ -451,7 +451,7 @@ do_QueryInterface
 target
 )
 ;
-PRInt32
+int32_t
 clientX
 clientY
 ;
@@ -587,7 +587,7 @@ interface
 :
 -
 (
-PRUint16
+uint16_t
 buttonNumber
 ;
 nsresult
@@ -616,7 +616,7 @@ buttonNumber
 =
 2
 ;
-PRInt32
+int32_t
 clickCount
 ;
 res
@@ -787,7 +787,7 @@ parent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -841,7 +841,7 @@ Collapsed
 )
 )
 {
-PRInt32
+int32_t
 rangeCount
 ;
 res
@@ -863,7 +863,7 @@ res
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1289,7 +1289,7 @@ have
 to
 display
 resizers
-PRInt32
+int32_t
 clientX
 clientY
 ;

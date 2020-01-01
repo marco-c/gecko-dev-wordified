@@ -505,7 +505,7 @@ nsCacheEntryDescriptor
 :
 GetFetchCount
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -552,7 +552,7 @@ nsCacheEntryDescriptor
 :
 GetLastFetched
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -599,7 +599,7 @@ nsCacheEntryDescriptor
 :
 GetLastModified
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -646,7 +646,7 @@ nsCacheEntryDescriptor
 :
 GetExpirationTime
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -693,7 +693,7 @@ nsCacheEntryDescriptor
 :
 SetExpirationTime
 (
-PRUint32
+uint32_t
 expirationTime
 )
 {
@@ -786,7 +786,7 @@ nsCacheEntryDescriptor
 :
 GetPredictedDataSize
 (
-PRInt64
+int64_t
 *
 result
 )
@@ -833,7 +833,7 @@ nsCacheEntryDescriptor
 :
 SetPredictedDataSize
 (
-PRInt64
+int64_t
 predictedSize
 )
 {
@@ -872,7 +872,7 @@ nsCacheEntryDescriptor
 :
 GetDataSize
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -954,7 +954,7 @@ nsCacheEntryDescriptor
 :
 GetStorageDataSize
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -1001,7 +1001,7 @@ nsCacheEntryDescriptor
 :
 RequestDataSizeChange
 (
-PRInt32
+int32_t
 deltaSize
 )
 {
@@ -1054,7 +1054,7 @@ signed
 unsigned
 math
 errors
-PRUint32
+uint32_t
 newDataSize
 =
 mCacheEntry
@@ -1092,7 +1092,7 @@ nsCacheEntryDescriptor
 :
 SetDataSize
 (
-PRUint32
+uint32_t
 dataSize
 )
 {
@@ -1123,7 +1123,7 @@ signed
 unsigned
 math
 errors
-PRInt32
+int32_t
 deltaSize
 =
 dataSize
@@ -1183,7 +1183,7 @@ signed
 unsigned
 math
 errors
-PRUint32
+uint32_t
 newDataSize
 =
 mCacheEntry
@@ -1239,7 +1239,7 @@ nsCacheEntryDescriptor
 :
 OpenInputStream
 (
-PRUint32
+uint32_t
 offset
 nsIInputStream
 *
@@ -1382,7 +1382,7 @@ nsCacheEntryDescriptor
 :
 OpenOutputStream
 (
-PRUint32
+uint32_t
 offset
 nsIOutputStream
 *
@@ -1453,7 +1453,7 @@ cacheOutput
 =
 nullptr
 ;
-PRInt32
+int32_t
 compressionLevel
 =
 nsCacheService
@@ -2825,7 +2825,7 @@ nsInputStreamWrapper
 :
 Available
 (
-PRUint64
+uint64_t
 *
 avail
 )
@@ -2869,9 +2869,9 @@ Read
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -2960,9 +2960,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -3195,9 +3195,9 @@ Read
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -3323,14 +3323,14 @@ the
 input
 stream
 .
-PRUint32
+uint32_t
 newBufLen
 =
 NS_MAX
 (
 count
 (
-PRUint32
+uint32_t
 )
 kMinDecompressReadBufLen
 )
@@ -4157,7 +4157,7 @@ mStartOffset
 bytes
 inform
 device
-PRInt32
+int32_t
 size
 =
 cacheEntry
@@ -4286,7 +4286,7 @@ nsOutputStreamWrapper
 :
 OnWrite
 (
-PRUint32
+uint32_t
 count
 )
 {
@@ -4306,7 +4306,7 @@ mDescriptor
 RequestDataSizeChange
 (
 (
-PRInt32
+int32_t
 )
 count
 )
@@ -4399,9 +4399,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -4464,9 +4464,9 @@ WriteFrom
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -4489,9 +4489,9 @@ reader
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -4725,9 +4725,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -4821,7 +4821,7 @@ count
 *
 2
 (
-PRUint32
+uint32_t
 )
 kMinCompressWriteBufLen
 )
@@ -5152,7 +5152,7 @@ rv
 )
 )
 {
-PRInt32
+int32_t
 oldCount
 =
 uncompressedLenStr
@@ -5289,7 +5289,7 @@ many
 text
 streams
 .
-PRInt32
+int32_t
 compressionLevel
 =
 nsCacheService
@@ -5375,7 +5375,7 @@ WriteBuffer
 (
 )
 {
-PRUint32
+uint32_t
 bytesToWrite
 =
 mWriteBufferLen
@@ -5384,7 +5384,7 @@ mZstream
 .
 avail_out
 ;
-PRUint32
+uint32_t
 result
 =
 0

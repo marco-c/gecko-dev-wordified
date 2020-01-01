@@ -379,7 +379,7 @@ UTF8CharEnumerator
 public
 :
 static
-PRUint32
+uint32_t
 NextChar
 (
 const
@@ -468,13 +468,13 @@ return
 c
 ;
 }
-PRUint32
+uint32_t
 ucs4
 ;
-PRUint32
+uint32_t
 minUcs4
 ;
-PRInt32
+int32_t
 state
 =
 0
@@ -652,13 +652,13 @@ CalcState
 (
 char
 c
-PRUint32
+uint32_t
 &
 ucs4
-PRUint32
+uint32_t
 &
 minUcs4
-PRInt32
+int32_t
 &
 state
 )
@@ -677,7 +677,7 @@ c
 ucs4
 =
 (
-PRUint32
+uint32_t
 (
 c
 )
@@ -712,7 +712,7 @@ c
 ucs4
 =
 (
-PRUint32
+uint32_t
 (
 c
 )
@@ -747,7 +747,7 @@ c
 ucs4
 =
 (
-PRUint32
+uint32_t
 (
 c
 )
@@ -782,7 +782,7 @@ c
 ucs4
 =
 (
-PRUint32
+uint32_t
 (
 c
 )
@@ -817,7 +817,7 @@ c
 ucs4
 =
 (
-PRUint32
+uint32_t
 (
 c
 )
@@ -853,9 +853,9 @@ AddByte
 (
 char
 c
-PRInt32
+int32_t
 state
-PRUint32
+uint32_t
 &
 ucs4
 )
@@ -871,7 +871,7 @@ c
 )
 )
 {
-PRInt32
+int32_t
 shift
 =
 state
@@ -882,7 +882,7 @@ ucs4
 |
 =
 (
-PRUint32
+uint32_t
 (
 c
 )
@@ -963,7 +963,7 @@ UTF16CharEnumerator
 public
 :
 static
-PRUint32
+uint32_t
 NextChar
 (
 const
@@ -1228,7 +1228,7 @@ L
 -
 DC00
 )
-PRUint32
+uint32_t
 ucs4
 =
 SURROGATE_TO_UCS4
@@ -1609,7 +1609,7 @@ const
 value_type
 *
 start
-PRUint32
+uint32_t
 N
 )
 {
@@ -1677,7 +1677,7 @@ p
 bool
 err
 ;
-PRUint32
+uint32_t
 ucs4
 =
 UTF8CharEnumerator
@@ -1868,7 +1868,7 @@ const
 value_type
 *
 start
-PRUint32
+uint32_t
 N
 )
 {
@@ -2370,12 +2370,12 @@ p
 end
 )
 {
-PRUint32
+uint32_t
 c
 =
 (
 (
-PRUint32
+uint32_t
 )
 (
 p
@@ -2392,7 +2392,7 @@ p
 |
 (
 (
-PRUint32
+uint32_t
 )
 (
 p
@@ -2679,7 +2679,7 @@ const
 value_type
 *
 start
-PRUint32
+uint32_t
 N
 )
 {
@@ -3048,7 +3048,7 @@ L
 -
 DC00
 )
-PRUint32
+uint32_t
 ucs4
 =
 SURROGATE_TO_UCS4
@@ -3517,7 +3517,7 @@ const
 value_type
 *
 start
-PRUint32
+uint32_t
 N
 )
 {
@@ -4013,7 +4013,7 @@ const
 char
 *
 aSource
-PRUint32
+uint32_t
 aSourceLength
 )
 {
@@ -4083,7 +4083,7 @@ const
 char
 *
 aSource
-PRUint32
+uint32_t
 aSourceLength
 )
 ;
@@ -4172,7 +4172,7 @@ const
 PRUnichar
 *
 aSource
-PRUint32
+uint32_t
 aSourceLength
 )
 {
@@ -4241,7 +4241,7 @@ const
 PRUnichar
 *
 aSource
-PRUint32
+uint32_t
 aSourceLength
 )
 ;

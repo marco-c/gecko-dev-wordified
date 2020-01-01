@@ -405,7 +405,7 @@ OnStartFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -508,7 +508,7 @@ bool
 aIsLastPart
 )
 {
-PRUint32
+uint32_t
 imgStatus
 =
 imgIRequest
@@ -633,7 +633,7 @@ OnStopFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {

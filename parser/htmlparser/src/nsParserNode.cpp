@@ -640,7 +640,7 @@ tag
 type
 *
 /
-PRInt32
+int32_t
 nsCParserNode
 :
 :
@@ -697,7 +697,7 @@ param
 return
 *
 /
-PRInt32
+int32_t
 nsCParserNode
 :
 :
@@ -755,7 +755,7 @@ attribute
 count
 *
 /
-PRInt32
+int32_t
 nsCParserNode
 :
 :
@@ -826,7 +826,7 @@ nsCParserNode
 :
 GetKeyAt
 (
-PRUint32
+uint32_t
 anIndex
 )
 const
@@ -889,7 +889,7 @@ nsCParserNode
 :
 GetValueAt
 (
-PRUint32
+uint32_t
 anIndex
 )
 const
@@ -900,7 +900,7 @@ EmptyString
 )
 ;
 }
-PRInt32
+int32_t
 nsCParserNode
 :
 :
@@ -997,7 +997,7 @@ found
 on
 *
 /
-PRInt32
+int32_t
 nsCParserNode
 :
 :
@@ -1312,7 +1312,7 @@ aToken
 )
 ;
 }
-PRInt32
+int32_t
 nsCParserStartNode
 :
 :
@@ -1323,7 +1323,7 @@ askToken
 )
 const
 {
-PRInt32
+int32_t
 result
 =
 0
@@ -1370,7 +1370,7 @@ nsCParserStartNode
 :
 GetKeyAt
 (
-PRUint32
+uint32_t
 anIndex
 )
 const
@@ -1378,7 +1378,7 @@ const
 if
 (
 (
-PRInt32
+int32_t
 )
 anIndex
 <
@@ -1436,14 +1436,14 @@ nsCParserStartNode
 :
 GetValueAt
 (
-PRUint32
+uint32_t
 anIndex
 )
 const
 {
 if
 (
-PRInt32
+int32_t
 (
 anIndex
 )
@@ -1600,10 +1600,10 @@ theTagName
 )
 ;
 }
-PRInt32
+int32_t
 index
 ;
-PRInt32
+int32_t
 size
 =
 mAttributes

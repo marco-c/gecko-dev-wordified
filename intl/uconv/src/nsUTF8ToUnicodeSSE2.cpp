@@ -126,7 +126,7 @@ PRUnichar
 *
 &
 dst
-PRInt32
+int32_t
 len
 )
 {
@@ -151,7 +151,7 @@ outp2
 __m128i
 zeroes
 ;
-PRUint32
+uint32_t
 offset
 ;
 /

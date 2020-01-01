@@ -674,7 +674,7 @@ static
 void
 sendMouseEvent
 (
-PRUint32
+uint32_t
 msg
 uint64_t
 timeMs
@@ -865,7 +865,7 @@ UserInputData
 data
 )
 {
-PRUint32
+uint32_t
 msg
 ;
 int32_t
@@ -1019,13 +1019,13 @@ static
 nsEventStatus
 sendKeyEventWithMsg
 (
-PRUint32
+uint32_t
 keyCode
-PRUint32
+uint32_t
 msg
 uint64_t
 timeMs
-PRUint32
+uint32_t
 flags
 )
 {
@@ -1079,7 +1079,7 @@ static
 void
 sendKeyEvent
 (
-PRUint32
+uint32_t
 keyCode
 bool
 down
@@ -1782,7 +1782,7 @@ sendTouchEvent
 data
 )
 ;
-PRUint32
+uint32_t
 msg
 ;
 switch

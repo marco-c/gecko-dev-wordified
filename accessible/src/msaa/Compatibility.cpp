@@ -482,7 +482,7 @@ Compatibility
 /
 /
 /
-PRUint32
+uint32_t
 Compatibility
 :
 :
@@ -758,7 +758,7 @@ UNKNOWN
 /
 Gather
 telemetry
-PRUint32
+uint32_t
 temp
 =
 sConsumers

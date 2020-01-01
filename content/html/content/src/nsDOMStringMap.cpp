@@ -1019,7 +1019,7 @@ nsString
 aResult
 )
 {
-PRUint32
+uint32_t
 attrCount
 =
 mElement
@@ -1052,7 +1052,7 @@ array
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -276,7 +276,7 @@ static
 nsresult
 AppendIndexUpdateInfo
 (
-PRInt64
+int64_t
 aIndexID
 const
 KeyPath
@@ -306,7 +306,7 @@ UpdateIndexes
 IDBTransaction
 *
 aTransaction
-PRInt64
+int64_t
 aObjectStoreId
 const
 Key
@@ -314,7 +314,7 @@ Key
 aObjectStoreKey
 bool
 aOverwrite
-PRInt64
+int64_t
 aObjectDataId
 const
 nsTArray
@@ -332,9 +332,9 @@ GetStructuredCloneReadInfoFromStatement
 mozIStorageStatement
 *
 aStatement
-PRUint32
+uint32_t
 aDataIndex
-PRUint32
+uint32_t
 aFileIdsIndex
 IDBDatabase
 *
@@ -430,7 +430,7 @@ nsAString
 aFileIds
 nsTArray
 <
-PRInt64
+int64_t
 >
 &
 aResult
@@ -537,7 +537,7 @@ IsWriteAllowed
 )
 ;
 }
-PRInt64
+int64_t
 Id
 (
 )
@@ -783,7 +783,7 @@ GetAllInternal
 IDBKeyRange
 *
 aKeyRange
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
@@ -942,7 +942,7 @@ aKey
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 bool
 aOverwrite
@@ -960,7 +960,7 @@ IDBTransaction
 >
 mTransaction
 ;
-PRInt64
+int64_t
 mId
 ;
 nsString

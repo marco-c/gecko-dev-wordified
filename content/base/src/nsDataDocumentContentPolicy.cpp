@@ -229,7 +229,7 @@ HasFlags
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aURIFlags
 )
 {
@@ -263,7 +263,7 @@ nsDataDocumentContentPolicy
 :
 ShouldLoad
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -284,7 +284,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-PRInt16
+int16_t
 *
 aDecision
 )
@@ -828,7 +828,7 @@ nsDataDocumentContentPolicy
 :
 ShouldProcess
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -849,7 +849,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-PRInt16
+int16_t
 *
 aDecision
 )

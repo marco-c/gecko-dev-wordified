@@ -148,7 +148,7 @@ global
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

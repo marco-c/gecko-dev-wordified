@@ -969,7 +969,7 @@ min
 0
 )
 ;
-PRInt32
+int32_t
 desiredRows
 ;
 if
@@ -1256,7 +1256,7 @@ return
 ;
 for
 (
-PRInt32
+int32_t
 row
 =
 0
@@ -1917,7 +1917,7 @@ rowStr
 nsresult
 error
 ;
-PRInt32
+int32_t
 rowIndex
 =
 rowStr2
@@ -2176,7 +2176,7 @@ height
 mRowHeight
 ;
 }
-PRInt32
+int32_t
 lastPageTopRow
 =
 NS_MAX
@@ -2272,7 +2272,7 @@ if
 sel
 )
 {
-PRInt32
+int32_t
 currentIndex
 ;
 sel
@@ -2926,7 +2926,7 @@ nsTreeBodyFrame
 :
 GetRowHeight
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -2952,7 +2952,7 @@ nsTreeBodyFrame
 :
 GetRowWidth
 (
-PRInt32
+int32_t
 *
 aRowWidth
 )
@@ -2983,7 +2983,7 @@ nsTreeBodyFrame
 :
 GetFirstVisibleRow
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -3003,7 +3003,7 @@ nsTreeBodyFrame
 :
 GetLastVisibleRow
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -3025,7 +3025,7 @@ nsTreeBodyFrame
 :
 GetHorizontalPosition
 (
-PRInt32
+int32_t
 *
 aHorizontalPosition
 )
@@ -3051,7 +3051,7 @@ nsTreeBodyFrame
 :
 GetPageLength
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -3206,7 +3206,7 @@ the
 /
 drag
 region
-PRInt32
+int32_t
 x
 =
 nsPresContext
@@ -3219,7 +3219,7 @@ origin
 x
 )
 ;
-PRInt32
+int32_t
 y
 =
 nsPresContext
@@ -3232,19 +3232,19 @@ origin
 y
 )
 ;
-PRInt32
+int32_t
 top
 =
 y
 ;
-PRInt32
+int32_t
 end
 =
 GetLastVisibleRow
 (
 )
 ;
-PRInt32
+int32_t
 rowHeight
 =
 nsPresContext
@@ -3257,7 +3257,7 @@ mRowHeight
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mTopRowIndex
@@ -3497,7 +3497,7 @@ nsTreeBodyFrame
 :
 InvalidateRow
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -3586,7 +3586,7 @@ nsTreeBodyFrame
 :
 InvalidateCell
 (
-PRInt32
+int32_t
 aIndex
 nsITreeColumn
 *
@@ -3716,9 +3716,9 @@ nsTreeBodyFrame
 :
 InvalidateRange
 (
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aEnd
 )
 {
@@ -3742,7 +3742,7 @@ InvalidateRow
 aStart
 )
 ;
-PRInt32
+int32_t
 last
 =
 GetLastVisibleRow
@@ -3801,7 +3801,7 @@ IsAccessibilityActive
 )
 )
 {
-PRInt32
+int32_t
 end
 =
 mRowCount
@@ -3885,9 +3885,9 @@ nsTreeBodyFrame
 :
 InvalidateColumnRange
 (
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aEnd
 nsITreeColumn
 *
@@ -3934,7 +3934,7 @@ aStart
 col
 )
 ;
-PRInt32
+int32_t
 last
 =
 GetLastVisibleRow
@@ -3993,7 +3993,7 @@ IsAccessibilityActive
 )
 )
 {
-PRInt32
+int32_t
 end
 =
 mRowCount
@@ -4898,7 +4898,7 @@ AppUnitsToIntCSSPixels
 mRowHeight
 )
 ;
-PRInt32
+int32_t
 size
 =
 rowHeightAsPixels
@@ -5189,9 +5189,9 @@ nsTreeBodyFrame
 :
 AdjustClientCoordsToBoxCoordSpace
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -5286,11 +5286,11 @@ nsTreeBodyFrame
 :
 GetRowAt
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 *
 _retval
 )
@@ -5366,11 +5366,11 @@ nsTreeBodyFrame
 :
 GetCellAt
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 *
 aRow
 nsITreeColumn
@@ -5799,7 +5799,7 @@ nsTreeBodyFrame
 :
 GetCoordsForCellItem
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -5808,16 +5808,16 @@ const
 nsACString
 &
 aElement
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -6427,7 +6427,7 @@ by
 the
 level
 .
-PRInt32
+int32_t
 level
 ;
 mView
@@ -7163,15 +7163,15 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsTreeBodyFrame
 :
 :
 GetRowAt
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -7194,7 +7194,7 @@ top
 row
 index
 .
-PRInt32
+int32_t
 row
 =
 (
@@ -7336,7 +7336,7 @@ AdjustForCellText
 nsAutoString
 &
 aText
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -7758,7 +7758,7 @@ twidth
 =
 0
 ;
-PRUint32
+uint32_t
 length
 =
 aText
@@ -7767,7 +7767,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -7864,7 +7864,7 @@ twidth
 =
 0
 ;
-PRInt32
+int32_t
 length
 =
 aText
@@ -7873,7 +7873,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -7976,7 +7976,7 @@ twidth
 =
 0
 ;
-PRInt32
+int32_t
 length
 =
 aText
@@ -7985,7 +7985,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 rightPos
 =
 length
@@ -7994,7 +7994,7 @@ length
 ;
 for
 (
-PRInt32
+int32_t
 leftPos
 =
 0
@@ -8202,7 +8202,7 @@ const
 nsRect
 &
 aCellRect
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -8499,7 +8499,7 @@ and
 a
 twisty
 .
-PRInt32
+int32_t
 level
 ;
 mView
@@ -9239,7 +9239,7 @@ nscoord
 aX
 nscoord
 aY
-PRInt32
+int32_t
 *
 aRow
 nsTreeColumn
@@ -9463,7 +9463,7 @@ nsTreeBodyFrame
 :
 GetCellWidth
 (
-PRInt32
+int32_t
 aRow
 nsTreeColumn
 *
@@ -9543,7 +9543,7 @@ colWidth
 mRowHeight
 )
 ;
-PRInt32
+int32_t
 overflow
 =
 cellRect
@@ -9684,7 +9684,7 @@ by
 the
 level
 .
-PRInt32
+int32_t
 level
 ;
 mView
@@ -10028,7 +10028,7 @@ nsTreeBodyFrame
 :
 IsCellCropped
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -10238,7 +10238,7 @@ IntID
 aID
 nsTimerCallbackFunc
 aFunc
-PRInt32
+int32_t
 aType
 nsITimer
 *
@@ -10258,7 +10258,7 @@ and
 feel
 service
 .
-PRInt32
+int32_t
 delay
 =
 LookAndFeel
@@ -10359,9 +10359,9 @@ nsTreeBodyFrame
 :
 RowCountChanged
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 aCount
 )
 {
@@ -10456,7 +10456,7 @@ aCount
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 rowCount
 =
 mRowCount
@@ -10493,7 +10493,7 @@ caller
 ;
 #
 endif
-PRInt32
+int32_t
 count
 =
 NS_ABS
@@ -10501,7 +10501,7 @@ NS_ABS
 aCount
 )
 ;
-PRInt32
+int32_t
 last
 =
 GetLastVisibleRow
@@ -10782,7 +10782,7 @@ Invalidate
 (
 )
 ;
-PRInt32
+int32_t
 countBeforeUpdate
 =
 mRowCount
@@ -10846,7 +10846,7 @@ nsTreeBodyFrame
 :
 PrefillPropertyArray
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -11037,7 +11037,7 @@ selected
 /
 /
 current
-PRInt32
+int32_t
 currentIndex
 ;
 selection
@@ -11553,7 +11553,7 @@ aRowIndex
 1
 )
 {
-PRInt32
+int32_t
 state
 ;
 mView
@@ -11699,7 +11699,7 @@ nsTreeBodyFrame
 :
 GetTwistyRect
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -12078,7 +12078,7 @@ nsTreeBodyFrame
 :
 GetImage
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -12248,7 +12248,7 @@ image
 has
 loaded
 .
-PRUint32
+uint32_t
 status
 ;
 imgIRequest
@@ -12795,7 +12795,7 @@ nsTreeBodyFrame
 :
 GetImageSize
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -13067,7 +13067,7 @@ GetUnit
 eStyleUnit_Coord
 )
 {
-PRInt32
+int32_t
 val
 =
 myPosition
@@ -13134,7 +13134,7 @@ GetUnit
 eStyleUnit_Coord
 )
 {
-PRInt32
+int32_t
 val
 =
 myPosition
@@ -14196,7 +14196,7 @@ return
 r
 ;
 }
-PRInt32
+int32_t
 nsTreeBodyFrame
 :
 :
@@ -14454,7 +14454,7 @@ as
 any
 .
 }
-PRInt32
+int32_t
 nsTreeBodyFrame
 :
 :
@@ -14826,7 +14826,7 @@ dummy
 )
 )
 {
-PRInt32
+int32_t
 row
 ;
 nsTreeColumn
@@ -14919,7 +14919,7 @@ aCursor
 ;
 }
 static
-PRUint32
+uint32_t
 GetDropEffect
 (
 nsGUIEvent
@@ -14964,7 +14964,7 @@ SetDataTransferInEvent
 dragEvent
 )
 ;
-PRUint32
+uint32_t
 action
 =
 0
@@ -15041,7 +15041,7 @@ aEvent
 this
 )
 ;
-PRInt32
+int32_t
 xTwips
 =
 pt
@@ -15052,7 +15052,7 @@ mInnerBox
 .
 x
 ;
-PRInt32
+int32_t
 yTwips
 =
 pt
@@ -15063,7 +15063,7 @@ mInnerBox
 .
 y
 ;
-PRInt32
+int32_t
 newrow
 =
 GetRowAt
@@ -15417,7 +15417,7 @@ will
 need
 them
 .
-PRInt32
+int32_t
 lastDropRow
 =
 mSlots
@@ -15425,7 +15425,7 @@ mSlots
 >
 mDropRow
 ;
-PRInt16
+int16_t
 lastDropOrient
 =
 mSlots
@@ -15436,7 +15436,7 @@ mDropOrient
 #
 ifndef
 XP_MACOSX
-PRInt16
+int16_t
 lastScrollLines
 =
 mSlots
@@ -15454,7 +15454,7 @@ the
 current
 drag
 action
-PRUint32
+uint32_t
 lastDragAction
 =
 mSlots
@@ -16150,7 +16150,7 @@ from
 the
 array
 .
-PRInt32
+int32_t
 parentIndex
 ;
 nsresult
@@ -16508,7 +16508,7 @@ static
 nsLineStyle
 ConvertBorderStyleToLineStyle
 (
-PRUint8
+uint8_t
 aBorderStyle
 )
 {
@@ -16795,7 +16795,7 @@ mInnerBox
 aPt
 )
 ;
-PRInt32
+int32_t
 oldPageCount
 =
 mPageLength
@@ -16868,7 +16868,7 @@ NS_FRAME_IS_DIRTY
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 rowCount
 =
 mRowCount
@@ -17067,7 +17067,7 @@ rows
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 mTopRowIndex
@@ -17472,7 +17472,7 @@ nsTreeBodyFrame
 :
 PaintRow
 (
-PRInt32
+int32_t
 aRowIndex
 const
 nsRect
@@ -18178,7 +18178,7 @@ rowRect
 x
 ;
 }
-PRInt32
+int32_t
 level
 ;
 mView
@@ -18508,7 +18508,7 @@ nsTreeBodyFrame
 :
 PaintSeparator
 (
-PRInt32
+int32_t
 aRowIndex
 const
 nsRect
@@ -18835,7 +18835,7 @@ nsTreeBodyFrame
 :
 PaintCell
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -19169,7 +19169,7 @@ lines
 between
 siblings
 .
-PRInt32
+int32_t
 level
 ;
 mView
@@ -19428,7 +19428,7 @@ SetColor
 color
 )
 ;
-PRUint8
+uint8_t
 style
 ;
 style
@@ -19587,14 +19587,14 @@ mRowHeight
 )
 ;
 }
-PRInt32
+int32_t
 currentParent
 =
 aRowIndex
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 level
@@ -19688,7 +19688,7 @@ mRowHeight
 )
 ;
 }
-PRInt32
+int32_t
 parent
 ;
 if
@@ -19963,7 +19963,7 @@ nsITreeColumn
 :
 TYPE_PROGRESSMETER
 :
-PRInt32
+int32_t
 state
 ;
 mView
@@ -20045,7 +20045,7 @@ nsTreeBodyFrame
 :
 PaintTwisty
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -20663,7 +20663,7 @@ nsTreeBodyFrame
 :
 PaintImage
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -21839,7 +21839,7 @@ nsTreeBodyFrame
 :
 PaintText
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -22326,7 +22326,7 @@ mColor
 Draw
 decorations
 .
-PRUint8
+uint8_t
 decorations
 =
 textContext
@@ -22451,7 +22451,7 @@ size
 )
 ;
 }
-PRUint8
+uint8_t
 direction
 =
 aTextRTL
@@ -22557,7 +22557,7 @@ nsTreeBodyFrame
 :
 PaintCheckbox
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -22957,7 +22957,7 @@ nsTreeBodyFrame
 :
 PaintProgressMeter
 (
-PRInt32
+int32_t
 aRowIndex
 nsTreeColumn
 *
@@ -23128,7 +23128,7 @@ paint
 our
 progress
 .
-PRInt32
+int32_t
 state
 ;
 mView
@@ -23217,7 +23217,7 @@ value
 nsresult
 rv
 ;
-PRInt32
+int32_t
 intValue
 =
 value
@@ -23328,7 +23328,7 @@ if
 image
 )
 {
-PRInt32
+int32_t
 width
 height
 ;
@@ -23478,7 +23478,7 @@ if
 image
 )
 {
-PRInt32
+int32_t
 width
 height
 ;
@@ -23731,7 +23731,7 @@ IsVisibleOrCollapsed
 )
 )
 {
-PRInt32
+int32_t
 level
 ;
 mView
@@ -23791,7 +23791,7 @@ mDropRow
 0
 )
 {
-PRInt32
+int32_t
 previousLevel
 ;
 mView
@@ -23835,7 +23835,7 @@ mRowCount
 1
 )
 {
-PRInt32
+int32_t
 nextLevel
 ;
 mView
@@ -24258,7 +24258,7 @@ nsTreeBodyFrame
 :
 EnsureRowIsVisible
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -24303,7 +24303,7 @@ const
 ScrollParts
 &
 aParts
-PRInt32
+int32_t
 aRow
 )
 {
@@ -24359,7 +24359,7 @@ on
 -
 screen
 .
-PRInt32
+int32_t
 distance
 =
 aRow
@@ -24391,7 +24391,7 @@ nsTreeBodyFrame
 :
 EnsureCellIsVisible
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -24627,7 +24627,7 @@ nsTreeBodyFrame
 :
 ScrollToCell
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -24795,7 +24795,7 @@ nsTreeBodyFrame
 :
 ScrollToHorizontalPosition
 (
-PRInt32
+int32_t
 aHorizontalPosition
 )
 {
@@ -24806,7 +24806,7 @@ GetScrollParts
 (
 )
 ;
-PRInt32
+int32_t
 position
 =
 nsPresContext
@@ -24847,7 +24847,7 @@ nsTreeBodyFrame
 :
 ScrollToRow
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -24892,7 +24892,7 @@ const
 ScrollParts
 &
 aParts
-PRInt32
+int32_t
 aRow
 )
 {
@@ -24912,7 +24912,7 @@ nsTreeBodyFrame
 :
 ScrollByLines
 (
-PRInt32
+int32_t
 aNumLines
 )
 {
@@ -24924,7 +24924,7 @@ mView
 return
 NS_OK
 ;
-PRInt32
+int32_t
 newIndex
 =
 mTopRowIndex
@@ -24943,7 +24943,7 @@ newIndex
 ;
 else
 {
-PRInt32
+int32_t
 lastPageTopRow
 =
 mRowCount
@@ -24976,7 +24976,7 @@ nsTreeBodyFrame
 :
 ScrollByPages
 (
-PRInt32
+int32_t
 aNumPages
 )
 {
@@ -24988,7 +24988,7 @@ mView
 return
 NS_OK
 ;
-PRInt32
+int32_t
 newIndex
 =
 mTopRowIndex
@@ -25009,7 +25009,7 @@ newIndex
 ;
 else
 {
-PRInt32
+int32_t
 lastPageTopRow
 =
 mRowCount
@@ -25046,7 +25046,7 @@ const
 ScrollParts
 &
 aParts
-PRInt32
+int32_t
 aRow
 )
 {
@@ -25058,7 +25058,7 @@ mView
 return
 NS_OK
 ;
-PRInt32
+int32_t
 delta
 =
 aRow
@@ -25129,7 +25129,7 @@ const
 ScrollParts
 &
 aParts
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -25269,9 +25269,9 @@ ScrollbarButtonPressed
 nsScrollbarFrame
 *
 aScrollbar
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 aNewIndex
 )
 {
@@ -25349,9 +25349,9 @@ PositionChanged
 nsScrollbarFrame
 *
 aScrollbar
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 &
 aNewIndex
 )
@@ -25572,7 +25572,7 @@ while
 curr
 )
 {
-PRInt32
+int32_t
 index
 ;
 mScratchArray
@@ -25989,7 +25989,7 @@ nsTreeBodyFrame
 :
 CanAutoScroll
 (
-PRInt32
+int32_t
 aRowIndex
 )
 {
@@ -26228,13 +26228,13 @@ ComputeDropPosition
 nsGUIEvent
 *
 aEvent
-PRInt32
+int32_t
 *
 aRow
-PRInt16
+int16_t
 *
 aOrient
-PRInt16
+int16_t
 *
 aScrollLines
 )
@@ -26290,7 +26290,7 @@ aEvent
 this
 )
 ;
-PRInt32
+int32_t
 xTwips
 =
 pt
@@ -26301,7 +26301,7 @@ mInnerBox
 .
 x
 ;
-PRInt32
+int32_t
 yTwips
 =
 pt
@@ -26343,7 +26343,7 @@ row
 in
 question
 .
-PRInt32
+int32_t
 yOffset
 =
 yTwips
@@ -26507,7 +26507,7 @@ and
 feel
 service
 .
-PRInt32
+int32_t
 scrollLinesMax
 =
 LookAndFeel
@@ -26823,7 +26823,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 self
@@ -27312,9 +27312,9 @@ nsTreeBodyFrame
 :
 FireRowCountChangedEvent
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 aCount
 )
 {
@@ -27586,9 +27586,9 @@ nsTreeBodyFrame
 :
 FireInvalidateEvent
 (
-PRInt32
+int32_t
 aStartRowIdx
-PRInt32
+int32_t
 aEndRowIdx
 nsITreeColumn
 *
@@ -27891,7 +27891,7 @@ startColVariant
 )
 return
 ;
-PRInt32
+int32_t
 startColIdx
 =
 0
@@ -27981,7 +27981,7 @@ endColVariant
 )
 return
 ;
-PRInt32
+int32_t
 endColIdx
 =
 0

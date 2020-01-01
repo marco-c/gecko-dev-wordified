@@ -1262,7 +1262,7 @@ const
 gfxPoint
 *
 points
-PRUint32
+uint32_t
 numPoints
 )
 ;
@@ -3738,7 +3738,7 @@ FLAG_DISABLE_COPY_BACKGROUND
 void
 SetFlag
 (
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -3751,7 +3751,7 @@ aFlag
 void
 ClearFlag
 (
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -3762,7 +3762,7 @@ mFlags
 aFlag
 ;
 }
-PRInt32
+int32_t
 GetFlags
 (
 )
@@ -4345,7 +4345,7 @@ gfxASurface
 >
 mSurface
 ;
-PRInt32
+int32_t
 mFlags
 ;
 mozilla

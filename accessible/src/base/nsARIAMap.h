@@ -804,7 +804,7 @@ code
 *
 /
 const
-PRUint8
+uint8_t
 ATTR_BYPASSOBJ
 =
 0x0001
@@ -843,7 +843,7 @@ GetAttributes
 *
 /
 const
-PRUint8
+uint8_t
 ATTR_VALTOKEN
 =
 0x0010
@@ -872,7 +872,7 @@ nsIAtom
 attributeName
 ;
 const
-PRUint8
+uint8_t
 characteristics
 ;
 }
@@ -1285,7 +1285,7 @@ always
 include
 in
 nsIAccessibleStates
-PRUint64
+uint64_t
 state
 ;
 /
@@ -1594,7 +1594,7 @@ gWAIUnivAttrMap
 ]
 ;
 static
-PRUint32
+uint32_t
 gWAIUnivAttrMapLength
 ;
 }
@@ -1709,7 +1709,7 @@ element
 .
 *
 /
-PRUint64
+uint64_t
 UniversalStatesFor
 (
 mozilla
@@ -1820,10 +1820,10 @@ nsIContent
 *
 mContent
 ;
-PRUint32
+uint32_t
 mAttrIdx
 ;
-PRUint32
+uint32_t
 mAttrCount
 ;
 }

@@ -1087,7 +1087,7 @@ second
 no
 timer
 created
-PRInt32
+int32_t
 update
 =
 Preferences

@@ -1564,7 +1564,7 @@ chain
 *
 /
 static
-PRUintn
+unsigned
 sResourceAcqnChainFrontTPI
 ;
 /

@@ -408,7 +408,7 @@ char
 *
 keys
 ;
-PRUint32
+uint32_t
 next
 ;
 nsresult
@@ -503,7 +503,7 @@ nsProperties
 :
 GetKeys
 (
-PRUint32
+uint32_t
 *
 count
 char
@@ -523,7 +523,7 @@ NS_ENSURE_ARG
 keys
 )
 ;
-PRUint32
+uint32_t
 n
 =
 Count
@@ -611,7 +611,7 @@ em
 all
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

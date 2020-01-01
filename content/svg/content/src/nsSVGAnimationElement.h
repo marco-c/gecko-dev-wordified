@@ -229,7 +229,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -242,7 +242,7 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -255,7 +255,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -273,7 +273,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -358,7 +358,7 @@ virtual
 bool
 GetTargetAttributeName
 (
-PRInt32
+int32_t
 *
 aNamespaceID
 nsIAtom

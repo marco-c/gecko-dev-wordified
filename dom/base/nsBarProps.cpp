@@ -272,7 +272,7 @@ GetVisibleByFlag
 bool
 *
 aVisible
-PRUint32
+uint32_t
 aChromeFlag
 )
 {
@@ -297,7 +297,7 @@ browserChrome
 NS_OK
 )
 ;
-PRUint32
+uint32_t
 chromeFlags
 ;
 NS_ENSURE_SUCCESS
@@ -336,7 +336,7 @@ SetVisibleByFlag
 (
 bool
 aVisible
-PRUint32
+uint32_t
 aChromeFlag
 )
 {
@@ -397,7 +397,7 @@ enabled
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 chromeFlags
 ;
 NS_ENSURE_SUCCESS
@@ -1018,7 +1018,7 @@ if
 scroller
 )
 {
-PRInt32
+int32_t
 prefValue
 ;
 scroller
@@ -1252,7 +1252,7 @@ if
 scroller
 )
 {
-PRInt32
+int32_t
 prefValue
 ;
 if

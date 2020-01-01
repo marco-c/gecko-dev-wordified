@@ -290,7 +290,7 @@ sInited
 =
 0
 ;
-PRUint32
+uint32_t
 nsCCUncollectableMarker
 :
 :
@@ -650,7 +650,7 @@ MarkForCC
 (
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 0
@@ -666,7 +666,7 @@ childCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -714,7 +714,7 @@ MarkForCC
 (
 )
 ;
-PRUint32
+uint32_t
 tabChildCount
 =
 0
@@ -730,7 +730,7 @@ tabChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1189,7 +1189,7 @@ nsIDocShellTreeItem
 >
 child
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -1236,7 +1236,7 @@ do_QueryInterface
 aSHEntry
 )
 ;
-PRInt32
+int32_t
 count
 ;
 shCont
@@ -1379,7 +1379,7 @@ if
 history
 )
 {
-PRInt32
+int32_t
 i
 historyCount
 ;
@@ -1446,7 +1446,7 @@ aPrepareForCC
 ;
 }
 }
-PRInt32
+int32_t
 i
 childCount
 ;
@@ -2143,7 +2143,7 @@ PLDHashOperator
 TraceActiveWindowGlobal
 (
 const
-PRUint64
+uint64_t
 &
 aId
 nsGlobalWindow

@@ -2456,7 +2456,7 @@ if
 initialized
 DebugOnly
 <
-PRUint32
+uint32_t
 >
 count
 =
@@ -2865,7 +2865,7 @@ eUnit_px
 eUnit_pt
 }
 ;
-PRInt32
+int32_t
 unit
 =
 eUnit_px
@@ -3015,7 +3015,7 @@ size
 langGroup
 )
 ;
-PRInt32
+int32_t
 size
 =
 Preferences
@@ -3214,7 +3214,7 @@ generic_dot_langGroup
 ;
 for
 (
-PRUint32
+uint32_t
 eType
 =
 0
@@ -3894,7 +3894,7 @@ GetDocumentColorPreferences
 (
 )
 {
-PRInt32
+int32_t
 useAccessibilityTheme
 =
 0
@@ -3921,7 +3921,7 @@ if
 docShell
 )
 {
-PRInt32
+int32_t
 docShellType
 ;
 docShell
@@ -4682,14 +4682,14 @@ imgIContainer
 :
 kNormalAnimMode
 ;
-PRUint32
+uint32_t
 bidiOptions
 =
 GetBidi
 (
 )
 ;
-PRInt32
+int32_t
 prefInt
 =
 Preferences
@@ -4994,7 +4994,7 @@ devPixelsPerPx
 )
 )
 {
-PRInt32
+int32_t
 oldAppUnitsPerDevPixel
 =
 AppUnitsPerDevPixel
@@ -5418,7 +5418,7 @@ if
 docShell
 )
 {
-PRInt32
+int32_t
 docShellType
 ;
 docShell
@@ -7297,7 +7297,7 @@ SetImgAnimModeOnImgReq
 imgIRequest
 *
 aImgReq
-PRUint16
+uint16_t
 aMode
 )
 {
@@ -7398,7 +7398,7 @@ SetImgAnimations
 nsIContent
 *
 aParent
-PRUint16
+uint16_t
 aMode
 )
 {
@@ -7447,7 +7447,7 @@ aMode
 )
 ;
 }
-PRUint32
+uint32_t
 count
 =
 aParent
@@ -7459,7 +7459,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7496,9 +7496,9 @@ SetSMILAnimations
 nsIDocument
 *
 aDoc
-PRUint16
+uint16_t
 aNewMode
-PRUint16
+uint16_t
 aOldMode
 )
 {
@@ -7601,7 +7601,7 @@ nsPresContext
 :
 SetImageAnimationModeInternal
 (
-PRUint16
+uint16_t
 aMode
 )
 {
@@ -7765,7 +7765,7 @@ nsPresContext
 :
 SetImageAnimationModeExternal
 (
-PRUint16
+uint16_t
 aMode
 )
 {
@@ -7783,7 +7783,7 @@ nsPresContext
 :
 GetDefaultFont
 (
-PRUint8
+uint8_t
 aFontID
 nsIAtom
 *
@@ -8393,7 +8393,7 @@ nsPresContext
 :
 SetBidi
 (
-PRUint32
+uint32_t
 aSource
 bool
 aForceRestyle
@@ -8601,7 +8601,7 @@ ReconstructFrames
 ;
 }
 }
-PRUint32
+uint32_t
 nsPresContext
 :
 :
@@ -9644,7 +9644,7 @@ pusher
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10228,7 +10228,7 @@ result
 docShell
 )
 {
-PRInt32
+int32_t
 docShellType
 ;
 result
@@ -10302,7 +10302,7 @@ HasAuthorSpecifiedRules
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 ruleTypeMask
 )
 const
@@ -11406,7 +11406,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11962,7 +11962,7 @@ const
 nsRect
 &
 aRect
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -12394,7 +12394,7 @@ env
 var
 .
 static
-PRUint32
+uint32_t
 sInterruptSeed
 =
 1
@@ -12437,7 +12437,7 @@ env
 var
 .
 static
-PRUint32
+uint32_t
 sInterruptMaxCounter
 =
 10
@@ -12467,7 +12467,7 @@ to
 0
 .
 static
-PRUint32
+uint32_t
 sInterruptCounter
 ;
 /
@@ -12494,7 +12494,7 @@ env
 var
 .
 static
-PRUint32
+uint32_t
 sInterruptChecksToSkip
 =
 200
@@ -13593,7 +13593,7 @@ nsIFrame
 *
 mRootFrame
 ;
-PRInt32
+int32_t
 mRootAPD
 ;
 nsIFrame
@@ -13724,7 +13724,7 @@ closure
 mRootFrame
 )
 ;
-PRInt32
+int32_t
 APD
 =
 f
@@ -14381,7 +14381,7 @@ closure
 mRootFrame
 )
 ;
-PRInt32
+int32_t
 subtreeAPD
 =
 aChangedSubtree
@@ -14721,7 +14721,7 @@ aOffset2
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14741,7 +14741,7 @@ i
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -15031,7 +15031,7 @@ overlap
 any
 other
 window
-PRUint32
+uint32_t
 i
 ;
 for
@@ -15075,7 +15075,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -16014,7 +16014,7 @@ mWillPaintObservers
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

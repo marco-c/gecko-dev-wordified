@@ -418,7 +418,7 @@ nsHTMLIFrameElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -693,7 +693,7 @@ nsAttrValue
 eEnum
 )
 {
-PRInt32
+int32_t
 frameborder
 =
 value
@@ -1224,7 +1224,7 @@ nsHTMLIFrameElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1301,7 +1301,7 @@ if
 docshell
 )
 {
-PRUint32
+uint32_t
 newFlags
 =
 0

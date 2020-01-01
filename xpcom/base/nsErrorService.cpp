@@ -182,7 +182,7 @@ nsInt2StrHashtable
 :
 Put
 (
-PRUint32
+uint32_t
 key
 const
 char
@@ -252,7 +252,7 @@ nsInt2StrHashtable
 :
 Get
 (
-PRUint32
+uint32_t
 key
 )
 {
@@ -303,7 +303,7 @@ nsInt2StrHashtable
 :
 Remove
 (
-PRUint32
+uint32_t
 key
 )
 {
@@ -502,7 +502,7 @@ nsErrorService
 :
 RegisterErrorStringBundle
 (
-PRInt16
+int16_t
 errorModule
 const
 char
@@ -526,7 +526,7 @@ nsErrorService
 :
 UnregisterErrorStringBundle
 (
-PRInt16
+int16_t
 errorModule
 )
 {
@@ -545,7 +545,7 @@ nsErrorService
 :
 GetErrorStringBundle
 (
-PRInt16
+int16_t
 errorModule
 char
 *
@@ -604,7 +604,7 @@ Put
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 error
@@ -630,7 +630,7 @@ Remove
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 error
@@ -662,7 +662,7 @@ Get
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 error

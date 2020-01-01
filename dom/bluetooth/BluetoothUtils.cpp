@@ -312,7 +312,7 @@ valArray
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -610,7 +610,7 @@ valArray
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

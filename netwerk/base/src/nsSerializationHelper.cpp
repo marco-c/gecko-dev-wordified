@@ -350,7 +350,7 @@ integer
 division
 )
 .
-PRUint32
+uint32_t
 size
 =
 str

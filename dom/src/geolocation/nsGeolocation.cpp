@@ -807,7 +807,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMGEOPOSITIONERROR
 nsDOMGeoPositionError
 (
-PRInt16
+int16_t
 aCode
 )
 ;
@@ -826,7 +826,7 @@ nsDOMGeoPositionError
 (
 )
 ;
-PRInt16
+int16_t
 mCode
 ;
 }
@@ -867,7 +867,7 @@ nsDOMGeoPositionError
 :
 nsDOMGeoPositionError
 (
-PRInt16
+int16_t
 aCode
 )
 :
@@ -892,7 +892,7 @@ nsDOMGeoPositionError
 :
 GetCode
 (
-PRInt16
+int16_t
 *
 aCode
 )
@@ -1291,7 +1291,7 @@ nsGeolocationRequest
 :
 NotifyError
 (
-PRInt16
+int16_t
 errorCode
 )
 {
@@ -1738,7 +1738,7 @@ user
 <
 30s
 )
-PRUint32
+uint32_t
 maximumAge
 =
 30
@@ -1891,7 +1891,7 @@ mTimeoutTimer
 nullptr
 ;
 }
-PRInt32
+int32_t
 timeout
 ;
 if
@@ -2480,7 +2480,7 @@ sGeoIgnoreLocationFilter
 false
 ;
 static
-PRInt32
+int32_t
 sProviderTimeout
 =
 6000
@@ -3235,7 +3235,7 @@ things
 off
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3373,7 +3373,7 @@ changed
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3460,7 +3460,7 @@ service
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3540,7 +3540,7 @@ aSomewhere
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3718,7 +3718,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3865,7 +3865,7 @@ aEnable
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3907,7 +3907,7 @@ aEnable
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4030,7 +4030,7 @@ return
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4421,7 +4421,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 nsGeolocation
 )
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4709,7 +4709,7 @@ all
 callbacks
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4744,7 +4744,7 @@ Clear
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4810,7 +4810,7 @@ HasActiveCallbacks
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4973,7 +4973,7 @@ Shutdown
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 mPendingCallbacks
@@ -5027,7 +5027,7 @@ is
 watching
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5262,7 +5262,7 @@ options
 JSContext
 *
 cx
-PRInt32
+int32_t
 *
 _retval
 )
@@ -5497,11 +5497,11 @@ nsGeolocation
 :
 ClearWatch
 (
-PRInt32
+int32_t
 aWatchId
 )
 {
-PRUint32
+uint32_t
 count
 =
 mWatchingCallbacks
@@ -5523,7 +5523,7 @@ count
 0
 |
 |
-PRUint32
+uint32_t
 (
 aWatchId
 )

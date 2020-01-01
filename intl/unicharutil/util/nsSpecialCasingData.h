@@ -172,7 +172,7 @@ MultiCharMapping
 *
 SpecialUpper
 (
-PRUint32
+uint32_t
 aCh
 )
 ;
@@ -181,7 +181,7 @@ MultiCharMapping
 *
 SpecialLower
 (
-PRUint32
+uint32_t
 aCh
 )
 ;
@@ -190,7 +190,7 @@ MultiCharMapping
 *
 SpecialTitle
 (
-PRUint32
+uint32_t
 aCh
 )
 ;

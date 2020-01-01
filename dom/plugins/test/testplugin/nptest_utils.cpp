@@ -564,7 +564,7 @@ AARRGGBB
 .
 *
 /
-PRUint32
+uint32_t
 parseHexColor
 (
 const
@@ -575,7 +575,7 @@ int
 len
 )
 {
-PRUint8
+uint8_t
 bgra
 [
 4
@@ -690,7 +690,7 @@ i
 ]
 =
 (
-PRUint8
+uint8_t
 )
 (
 strtoul

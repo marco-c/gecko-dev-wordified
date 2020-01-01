@@ -1415,7 +1415,7 @@ IsPasswordTextControl
 )
 ;
 }
-PRInt32
+int32_t
 GetCols
 (
 )
@@ -1429,7 +1429,7 @@ GetCols
 )
 ;
 }
-PRInt32
+int32_t
 GetWrapCols
 (
 )
@@ -1443,7 +1443,7 @@ GetWrapCols
 )
 ;
 }
-PRInt32
+int32_t
 GetRows
 (
 )
@@ -1507,7 +1507,7 @@ defined
 bool
 GetMaxLength
 (
-PRInt32
+int32_t
 *
 aMaxLength
 )
@@ -1601,7 +1601,7 @@ nsITextControlFrame
 eForward
 ;
 }
-PRInt32
+int32_t
 mStart
 mEnd
 ;

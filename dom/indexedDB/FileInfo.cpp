@@ -132,7 +132,7 @@ Create
 FileManager
 *
 aFileManager
-PRInt64
+int64_t
 aId
 )
 {
@@ -197,13 +197,13 @@ FileInfo
 :
 GetReferences
 (
-PRInt32
+int32_t
 *
 aRefCnt
-PRInt32
+int32_t
 *
 aDBRefCnt
-PRInt32
+int32_t
 *
 aSliceRefCnt
 )
@@ -325,7 +325,7 @@ UpdateReferences
 nsAutoRefCnt
 &
 aRefCount
-PRInt32
+int32_t
 aDelta
 bool
 aClear

@@ -641,7 +641,7 @@ aChar8Ptr
 ;
 }
 static
-PRUint8
+uint8_t
 FcSlantToThebesStyle
 (
 int
@@ -649,7 +649,7 @@ aFcSlant
 )
 ;
 static
-PRUint8
+uint8_t
 GetThebesStyle
 (
 FcPattern
@@ -661,7 +661,7 @@ aPattern
 /
 slant
 static
-PRUint16
+uint16_t
 GetThebesWeight
 (
 FcPattern
@@ -670,7 +670,7 @@ aPattern
 )
 ;
 static
-PRInt16
+int16_t
 GetThebesStretch
 (
 FcPattern
@@ -713,7 +713,7 @@ static
 int
 FcWeightForBaseWeight
 (
-PRInt8
+int8_t
 aBaseWeight
 )
 ;
@@ -721,7 +721,7 @@ static
 int
 FcWidthForThebesStretch
 (
-PRInt16
+int16_t
 aStretch
 )
 ;
@@ -997,7 +997,7 @@ FcChar8
 aKey
 )
 {
-PRUint32
+uint32_t
 hash
 =
 0

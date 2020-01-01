@@ -1229,7 +1229,7 @@ GetRuleLine
 nsIDOMCSSStyleRule
 *
 aRule
-PRUint32
+uint32_t
 *
 _retval
 )

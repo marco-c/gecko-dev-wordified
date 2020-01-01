@@ -887,7 +887,7 @@ nsAutoCompleteResults
 :
 GetDefaultItemIndex
 (
-PRInt32
+int32_t
 *
 aDefaultItemIndex
 )
@@ -915,7 +915,7 @@ nsAutoCompleteResults
 :
 SetDefaultItemIndex
 (
-PRInt32
+int32_t
 aDefaultItemIndex
 )
 {

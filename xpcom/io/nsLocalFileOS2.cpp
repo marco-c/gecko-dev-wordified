@@ -535,17 +535,17 @@ static
 void
 myLL_L2II
 (
-PRInt64
+int64_t
 result
-PRInt32
+int32_t
 *
 hi
-PRInt32
+int32_t
 *
 lo
 )
 {
-PRInt64
+int64_t
 a64
 b64
 ;
@@ -561,7 +561,7 @@ with
 /
 only
 one
-PRInt64
+int64_t
 but
 these
 are
@@ -2299,10 +2299,10 @@ mDrives
 is
 shifted
 rightward
-PRUint32
+uint32_t
 mDrives
 ;
-PRUint8
+uint8_t
 mLetter
 ;
 }
@@ -2857,7 +2857,7 @@ char
 *
 GetNext
 (
-PRUint32
+uint32_t
 *
 lth
 )
@@ -3131,7 +3131,7 @@ TypeEaEnumerator
 :
 GetNext
 (
-PRUint32
+uint32_t
 *
 lth
 )
@@ -4526,7 +4526,7 @@ second
 char
 of
 DBCS
-PRInt32
+int32_t
 len
 =
 mWorkingPath
@@ -4581,9 +4581,9 @@ nsLocalFile
 :
 OpenNSPRFileDesc
 (
-PRInt32
+int32_t
 flags
-PRInt32
+int32_t
 mode
 PRFileDesc
 *
@@ -4729,9 +4729,9 @@ nsLocalFile
 :
 Create
 (
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 attributes
 )
 {
@@ -5830,7 +5830,7 @@ share
 "
 )
 .
-PRInt32
+int32_t
 rootIdx
 =
 2
@@ -6116,7 +6116,7 @@ rootIdx
 rootIdx
 <
 (
-PRInt32
+int32_t
 )
 path
 .
@@ -6174,7 +6174,7 @@ rootIdx
 =
 =
 (
-PRInt32
+int32_t
 )
 path
 .
@@ -6341,7 +6341,7 @@ is
 done
 here
 .
-PRInt32
+int32_t
 len
 begin
 end
@@ -6353,7 +6353,7 @@ while
 end
 <
 (
-PRInt32
+int32_t
 )
 path
 .
@@ -6557,7 +6557,7 @@ len
 2
 )
 {
-PRInt32
+int32_t
 prev
 =
 normal
@@ -6722,7 +6722,7 @@ dots
 and
 spaces
 .
-PRInt32
+int32_t
 filePathLen
 =
 normal
@@ -6949,11 +6949,11 @@ due
 to
 0x5c
 problem
-PRInt32
+int32_t
 offset
 =
 (
-PRInt32
+int32_t
 )
 (
 _mbsrchr
@@ -7465,10 +7465,10 @@ NS_ENSURE_STATE
 mutArray
 )
 ;
-PRInt32
+int32_t
 cnt
 ;
-PRUint32
+uint32_t
 lth
 ;
 char
@@ -7686,7 +7686,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 lth
 ;
 char
@@ -7992,7 +7992,7 @@ IsEmpty
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 cnt
 =
 CountCharInReadable
@@ -8002,7 +8002,7 @@ fileTypes
 '
 )
 ;
-PRUint32
+uint32_t
 lth
 =
 fileTypes
@@ -8022,7 +8022,7 @@ TYPEEA2
 )
 )
 ;
-PRUint32
+uint32_t
 size
 =
 sizeof
@@ -8633,7 +8633,7 @@ spec
 s
 trailing
 null
-PRUint32
+uint32_t
 lth
 =
 sizeof
@@ -10783,7 +10783,7 @@ nsLocalFile
 :
 GetLastModifiedTime
 (
-PRInt64
+int64_t
 *
 aLastModifiedTime
 )
@@ -10833,7 +10833,7 @@ microseconds
 -
 >
 milliseconds
-PRInt64
+int64_t
 usecPerMsec
 ;
 LL_I2L
@@ -10862,7 +10862,7 @@ nsLocalFile
 :
 GetLastModifiedTimeOfLink
 (
-PRInt64
+int64_t
 *
 aLastModifiedTime
 )
@@ -10877,7 +10877,7 @@ nsLocalFile
 :
 SetLastModifiedTime
 (
-PRInt64
+int64_t
 aLastModifiedTime
 )
 {
@@ -10909,7 +10909,7 @@ nsLocalFile
 :
 SetLastModifiedTimeOfLink
 (
-PRInt64
+int64_t
 aLastModifiedTime
 )
 {
@@ -10923,7 +10923,7 @@ nsLocalFile
 :
 SetModDate
 (
-PRInt64
+int64_t
 aLastModifiedTime
 )
 {
@@ -11169,7 +11169,7 @@ nsLocalFile
 :
 GetPermissions
 (
-PRUint32
+uint32_t
 *
 aPermissions
 )
@@ -11271,7 +11271,7 @@ nsLocalFile
 :
 GetPermissionsOfLink
 (
-PRUint32
+uint32_t
 *
 aPermissionsOfLink
 )
@@ -11347,7 +11347,7 @@ nsLocalFile
 :
 SetPermissions
 (
-PRUint32
+uint32_t
 aPermissions
 )
 {
@@ -11511,7 +11511,7 @@ nsLocalFile
 :
 SetPermissionsOfLink
 (
-PRUint32
+uint32_t
 aPermissions
 )
 {
@@ -11525,7 +11525,7 @@ nsLocalFile
 :
 GetFileSize
 (
-PRInt64
+int64_t
 *
 aFileSize
 )
@@ -11586,7 +11586,7 @@ nsLocalFile
 :
 GetFileSizeOfLink
 (
-PRInt64
+int64_t
 *
 aFileSize
 )
@@ -11601,7 +11601,7 @@ nsLocalFile
 :
 SetFileSize
 (
-PRInt64
+int64_t
 aFileSize
 )
 {
@@ -11680,7 +11680,7 @@ desired
 end
 of
 file
-PRInt32
+int32_t
 hi
 lo
 ;
@@ -11730,7 +11730,7 @@ nsLocalFile
 :
 GetDiskSpaceAvailable
 (
-PRInt64
+int64_t
 *
 aDiskSpaceAvailable
 )
@@ -11897,11 +11897,11 @@ due
 to
 0x5c
 problem
-PRInt32
+int32_t
 offset
 =
 (
-PRInt32
+int32_t
 )
 (
 _mbsrchr
@@ -13096,7 +13096,7 @@ GetNativePath
 myFilePath
 )
 ;
-PRInt32
+int32_t
 myFilePathLen
 =
 myFilePath
@@ -14466,7 +14466,7 @@ nsLocalFile
 :
 GetHashCode
 (
-PRUint32
+uint32_t
 *
 aResult
 )

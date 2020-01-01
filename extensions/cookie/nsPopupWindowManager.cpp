@@ -441,12 +441,12 @@ mPolicy
 permission
 ?
 (
-PRUint32
+uint32_t
 )
 DENY_POPUP
 :
 (
-PRUint32
+uint32_t
 )
 ALLOW_POPUP
 ;
@@ -641,7 +641,7 @@ TestPermission
 nsIPrincipal
 *
 aPrincipal
-PRUint32
+uint32_t
 *
 aPermission
 )
@@ -656,7 +656,7 @@ NS_ENSURE_ARG_POINTER
 aPermission
 )
 ;
-PRUint32
+uint32_t
 permit
 ;
 *
@@ -997,12 +997,12 @@ mPolicy
 permission
 ?
 (
-PRUint32
+uint32_t
 )
 DENY_POPUP
 :
 (
-PRUint32
+uint32_t
 )
 ALLOW_POPUP
 ;

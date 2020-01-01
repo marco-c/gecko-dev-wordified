@@ -365,7 +365,7 @@ nsCString
 path
 )
 {
-PRInt32
+int32_t
 index
 =
 path
@@ -646,7 +646,7 @@ const
 char
 *
 aData
-PRUint32
+uint32_t
 aDataLen
 )
 {
@@ -812,7 +812,7 @@ currLine
 mKeepRunning
 )
 {
-PRInt32
+int32_t
 eolLength
 =
 strcspn
@@ -821,7 +821,7 @@ currLine
 CRLF
 )
 ;
-PRInt32
+int32_t
 currLineLength
 =
 strlen
@@ -956,7 +956,7 @@ LF
 nsCAutoString
 line
 ;
-PRInt32
+int32_t
 crlfLength
 =
 0
@@ -4283,7 +4283,7 @@ respStr
 mResponseMsg
 )
 ;
-PRInt32
+int32_t
 pos
 =
 respStr
@@ -5696,7 +5696,7 @@ entityID
 .
 AppendInt
 (
-PRInt64
+int64_t
 (
 mFileSize
 )
@@ -6616,7 +6616,7 @@ REST
 /
 /
 The
-PRInt64
+int64_t
 cast
 is
 needed
@@ -6627,7 +6627,7 @@ restString
 .
 AppendInt
 (
-PRInt64
+int64_t
 (
 mChannel
 -
@@ -7300,7 +7300,7 @@ FTP_ERROR
 nsresult
 rv
 ;
-PRInt32
+int32_t
 port
 ;
 nsCAutoString
@@ -7562,7 +7562,7 @@ ppp
 without
 parens
 )
-PRInt32
+int32_t
 h0
 h1
 h2
@@ -7570,7 +7570,7 @@ h3
 p0
 p1
 ;
-PRUint32
+uint32_t
 fields
 =
 0
@@ -7814,7 +7814,7 @@ port
 =
 (
 (
-PRInt32
+int32_t
 )
 (
 p0
@@ -7871,7 +7871,7 @@ if
 strans
 )
 {
-PRInt32
+int32_t
 oldPort
 ;
 nsresult
@@ -8679,13 +8679,13 @@ methods
 :
 static
 inline
-PRUint32
+uint32_t
 NowInSeconds
 (
 )
 {
 return
-PRUint32
+uint32_t
 (
 PR_Now
 (
@@ -8695,7 +8695,7 @@ PR_USEC_PER_SEC
 )
 ;
 }
-PRUint32
+uint32_t
 nsFtpState
 :
 :
@@ -8986,7 +8986,7 @@ VALIDATE_ALWAYS
 return
 false
 ;
-PRUint32
+uint32_t
 time
 ;
 if
@@ -9636,7 +9636,7 @@ inline
 to
 resulting
 character
-PRInt32
+int32_t
 len
 =
 NS_UnescapeURL
@@ -9919,7 +9919,7 @@ the
 connection
 cache
 key
-PRInt32
+int32_t
 port
 ;
 rv
@@ -11892,9 +11892,9 @@ nsITransport
 transport
 nsresult
 status
-PRUint64
+uint64_t
 progress
-PRUint64
+uint64_t
 progressMax
 )
 {
@@ -12551,7 +12551,7 @@ nsFtpState
 :
 Available
 (
-PRUint64
+uint64_t
 *
 result
 )
@@ -12590,9 +12590,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -13437,7 +13437,7 @@ GetAsciiSpec
 key
 )
 ;
-PRInt32
+int32_t
 pos
 =
 key
@@ -13683,7 +13683,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 len
 =
 ucsPath
@@ -13692,7 +13692,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 maxlen
 ;
 rv
@@ -13730,7 +13730,7 @@ buf
 ;
 if
 (
-PRUint32
+uint32_t
 (
 maxlen
 )

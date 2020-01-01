@@ -399,14 +399,14 @@ typedef
 struct
 _binhex_header
 {
-PRUint32
+uint32_t
 type
 creator
 ;
-PRUint16
+uint16_t
 flags
 ;
-PRInt32
+int32_t
 dlen
 rlen
 ;
@@ -423,7 +423,7 @@ c
 4
 ]
 ;
-PRUint32
+uint32_t
 val
 ;
 }
@@ -517,10 +517,10 @@ nsBinHexDecoder
 (
 )
 ;
-PRInt16
+int16_t
 GetNextChar
 (
-PRUint32
+uint32_t
 numBytesInBuffer
 )
 ;
@@ -533,7 +533,7 @@ aRequest
 nsISupports
 *
 aContext
-PRUint32
+uint32_t
 numBytesInBuffer
 )
 ;
@@ -606,7 +606,7 @@ nsIInputStream
 >
 mInputStream
 ;
-PRInt16
+int16_t
 mState
 ;
 /
@@ -615,7 +615,7 @@ current
 state
 *
 /
-PRUint16
+uint16_t
 mCRC
 ;
 /
@@ -624,7 +624,7 @@ cumulative
 CRC
 *
 /
-PRUint16
+uint16_t
 mFileCRC
 ;
 /
@@ -649,7 +649,7 @@ bit
 values
 *
 /
-PRInt16
+int16_t
 mOctetin
 ;
 /
@@ -661,7 +661,7 @@ in
 octetbuf
 *
 /
-PRInt16
+int16_t
 mDonePos
 ;
 /
@@ -672,7 +672,7 @@ in
 octetbuf
 *
 /
-PRInt16
+int16_t
 mInCRC
 ;
 /
@@ -783,7 +783,7 @@ the
 incoming
 data
 .
-PRUint32
+uint32_t
 mPosInDataBuffer
 ;
 unsigned
@@ -801,7 +801,7 @@ encoding
 value
 *
 /
-PRUint32
+uint32_t
 mCount
 ;
 /
@@ -810,7 +810,7 @@ generic
 counter
 *
 /
-PRInt16
+int16_t
 mMarker
 ;
 /
@@ -820,7 +820,7 @@ indicating
 maker
 *
 /
-PRInt32
+int32_t
 mPosInbuff
 ;
 /
@@ -833,7 +833,7 @@ inbuff
 .
 *
 /
-PRInt32
+int32_t
 mPosOutputBuff
 ;
 /

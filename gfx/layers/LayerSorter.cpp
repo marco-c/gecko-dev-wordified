@@ -662,7 +662,7 @@ points
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -757,7 +757,7 @@ points
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -773,7 +773,7 @@ i
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -910,7 +910,7 @@ highest
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1112,7 +1112,7 @@ static
 void
 SetTextColor
 (
-PRUint32
+uint32_t
 aColor
 )
 {
@@ -1180,7 +1180,7 @@ aFile
 Layer
 *
 aLayer
-PRUint32
+uint32_t
 aColor
 )
 {
@@ -1251,7 +1251,7 @@ aFile
 Layer
 *
 aLayer
-PRUint32
+uint32_t
 aColor
 )
 {
@@ -1316,7 +1316,7 @@ aLayers
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1397,7 +1397,7 @@ GetEdgeList
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1516,7 +1516,7 @@ case
 define
 MAX_SORTABLE_LAYERS
 100
-PRUint32
+uint32_t
 gColorIndex
 =
 1
@@ -1533,7 +1533,7 @@ Layer
 aLayers
 )
 {
-PRUint32
+uint32_t
 nodeCount
 =
 aLayers
@@ -1569,7 +1569,7 @@ gDumpLayerSortList
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1667,7 +1667,7 @@ edges
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1683,7 +1683,7 @@ i
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 i
@@ -1868,7 +1868,7 @@ GetEdgeList
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1933,7 +1933,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 last
 =
 noIncoming
@@ -1992,7 +1992,7 @@ outgoing
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2124,7 +2124,7 @@ least
 incoming
 edges
 .
-PRUint32
+uint32_t
 minEdges
 =
 UINT_MAX
@@ -2137,7 +2137,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2155,7 +2155,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 edgeCount
 =
 graph

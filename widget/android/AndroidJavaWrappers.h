@@ -312,7 +312,7 @@ RefCountedJavaObject
 (
 )
 ;
-PRInt32
+int32_t
 AddRef
 (
 )
@@ -323,12 +323,12 @@ return
 mRefCnt
 ;
 }
-PRInt32
+int32_t
 Release
 (
 )
 {
-PRInt32
+int32_t
 refcnt
 =
 -
@@ -360,7 +360,7 @@ mObject
 }
 private
 :
-PRInt32
+int32_t
 mRefCnt
 ;
 jobject
@@ -2626,7 +2626,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRInt32
+int32_t
 count
 )
 ;
@@ -2644,7 +2644,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRInt32
+int32_t
 count
 )
 ;
@@ -2662,7 +2662,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRInt32
+int32_t
 count
 )
 ;

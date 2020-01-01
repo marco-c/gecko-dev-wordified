@@ -137,7 +137,7 @@ const
 nsHTMLReflowState
 *
 aOuterReflowState
-PRUint16
+uint16_t
 aReflowDepth
 )
 :

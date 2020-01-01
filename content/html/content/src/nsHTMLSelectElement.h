@@ -317,7 +317,7 @@ nsIContent
 *
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -368,7 +368,7 @@ InsertOptionAt
 nsHTMLOptionElement
 *
 aOption
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -403,7 +403,7 @@ remove
 void
 RemoveOptionAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -445,7 +445,7 @@ nsHTMLOptionElement
 *
 ItemAsOption
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -614,11 +614,11 @@ dom
 Element
 *
 aOption
-PRInt32
+int32_t
 aStartIndex
 bool
 aForward
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -758,7 +758,7 @@ NS_DECL_ISUPPORTS
 void
 PutOption
 (
-PRInt32
+int32_t
 aIndex
 const
 nsAString
@@ -814,7 +814,7 @@ aValue
 bool
 ContainsOption
 (
-PRInt32
+int32_t
 aIndex
 const
 nsAString
@@ -944,7 +944,7 @@ aParent
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -1248,7 +1248,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -1256,7 +1256,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 ;
@@ -1363,7 +1363,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -1375,7 +1375,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -1385,7 +1385,7 @@ virtual
 void
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -1398,7 +1398,7 @@ nsIFormControl
 methods
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetType
 (
@@ -1560,7 +1560,7 @@ aOptions
 nsIContent
 *
 aParent
-PRInt32
+int32_t
 aContentIndex
 bool
 aNotify
@@ -1646,7 +1646,7 @@ WillRemoveOptions
 nsIContent
 *
 aParent
-PRInt32
+int32_t
 aContentIndex
 bool
 aNotify
@@ -1696,7 +1696,7 @@ disabled
 NS_IMETHOD
 IsOptionDisabled
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -1871,9 +1871,9 @@ changed
 NS_IMETHOD
 SetOptionsSelectedByIndex
 (
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aEndIndex
 bool
 aIsSelected
@@ -1944,11 +1944,11 @@ GetOptionIndex
 nsIDOMHTMLOptionElement
 *
 aOption
-PRInt32
+int32_t
 aStartIndex
 bool
 aForward
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -1999,7 +1999,7 @@ virtual
 nsresult
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2016,7 +2016,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2033,7 +2033,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2064,7 +2064,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2093,7 +2093,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -2243,7 +2243,7 @@ selected
 bool
 IsOptionSelectedByIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -2283,7 +2283,7 @@ with
 void
 FindSelectedIndex
 (
-PRInt32
+int32_t
 aStartIndex
 bool
 aNotify
@@ -2457,7 +2457,7 @@ OnOptionSelected
 nsISelectControlFrame
 *
 aSelectFrame
-PRInt32
+int32_t
 aIndex
 bool
 aSelected
@@ -2572,9 +2572,9 @@ InsertOptionsIntoList
 nsIContent
 *
 aOptions
-PRInt32
+int32_t
 aListIndex
-PRInt32
+int32_t
 aDepth
 bool
 aNotify
@@ -2643,9 +2643,9 @@ RemoveOptionsFromList
 nsIContent
 *
 aOptions
-PRInt32
+int32_t
 aListIndex
-PRInt32
+int32_t
 aDepth
 bool
 aNotify
@@ -2719,10 +2719,10 @@ InsertOptionsIntoListRecurse
 nsIContent
 *
 aOptions
-PRInt32
+int32_t
 *
 aInsertIndex
-PRInt32
+int32_t
 aDepth
 )
 ;
@@ -2805,12 +2805,12 @@ RemoveOptionsFromListRecurse
 nsIContent
 *
 aOptions
-PRInt32
+int32_t
 aRemoveIndex
-PRInt32
+int32_t
 *
 aNumRemoved
-PRInt32
+int32_t
 aDepth
 )
 ;
@@ -2865,7 +2865,7 @@ the
 depth
 *
 /
-PRInt32
+int32_t
 GetContentDepth
 (
 nsIContent
@@ -2919,7 +2919,7 @@ first
 option
 *
 /
-PRInt32
+int32_t
 GetOptionIndexAt
 (
 nsIContent
@@ -2989,7 +2989,7 @@ the
 content
 *
 /
-PRInt32
+int32_t
 GetOptionIndexAfter
 (
 nsIContent
@@ -3034,7 +3034,7 @@ the
 content
 *
 /
-PRInt32
+int32_t
 GetFirstOptionIndex
 (
 nsIContent
@@ -3105,15 +3105,15 @@ the
 content
 *
 /
-PRInt32
+int32_t
 GetFirstChildOptionIndex
 (
 nsIContent
 *
 aOptions
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aEndIndex
 )
 ;
@@ -3179,7 +3179,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 size
 =
 1
@@ -3261,7 +3261,7 @@ endif
 nsresult
 SetSelectedIndexInternal
 (
-PRInt32
+int32_t
 aIndex
 bool
 aNotify
@@ -3621,7 +3621,7 @@ the
 select
 *
 /
-PRUint32
+uint32_t
 mNonOptionChildren
 ;
 /
@@ -3637,7 +3637,7 @@ the
 select
 *
 /
-PRUint32
+uint32_t
 mOptGroupCount
 ;
 /
@@ -3665,7 +3665,7 @@ selected
 )
 *
 /
-PRInt32
+int32_t
 mSelectedIndex
 ;
 /

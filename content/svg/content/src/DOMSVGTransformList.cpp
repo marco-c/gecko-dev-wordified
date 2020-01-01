@@ -169,11 +169,11 @@ DOMSVGTransform
 >
 &
 aItemsArray
-PRUint32
+uint32_t
 aStartingIndex
 )
 {
-PRUint32
+uint32_t
 length
 =
 aItemsArray
@@ -184,7 +184,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 aStartingIndex
@@ -527,7 +527,7 @@ DOMSVGTransformList
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -579,11 +579,11 @@ DOMSVGTransformList
 :
 InternalListLengthWillChange
 (
-PRUint32
+uint32_t
 aNewLength
 )
 {
-PRUint32
+uint32_t
 oldLength
 =
 mItems
@@ -704,7 +704,7 @@ removed
 :
 for
 (
-PRUint32
+uint32_t
 i
 =
 aNewLength
@@ -804,7 +804,7 @@ pointers
 :
 for
 (
-PRUint32
+uint32_t
 i
 =
 oldLength
@@ -966,7 +966,7 @@ DOMSVGTransformList
 :
 GetNumberOfItems
 (
-PRUint32
+uint32_t
 *
 aNumberOfItems
 )
@@ -1015,7 +1015,7 @@ DOMSVGTransformList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -1400,7 +1400,7 @@ DOMSVGTransformList
 :
 GetItem
 (
-PRUint32
+uint32_t
 index
 nsIDOMSVGTransform
 *
@@ -1463,7 +1463,7 @@ InsertItemBefore
 nsIDOMSVGTransform
 *
 newItem
-PRUint32
+uint32_t
 index
 nsIDOMSVGTransform
 *
@@ -1810,7 +1810,7 @@ ReplaceItem
 nsIDOMSVGTransform
 *
 newItem
-PRUint32
+uint32_t
 index
 nsIDOMSVGTransform
 *
@@ -2087,7 +2087,7 @@ DOMSVGTransformList
 :
 RemoveItem
 (
-PRUint32
+uint32_t
 index
 nsIDOMSVGTransform
 *
@@ -2678,7 +2678,7 @@ DOMSVGTransformList
 :
 EnsureItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2714,7 +2714,7 @@ DOMSVGTransformList
 :
 MaybeInsertNullInAnimValListAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2835,7 +2835,7 @@ DOMSVGTransformList
 :
 MaybeRemoveItemFromAnimValListAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

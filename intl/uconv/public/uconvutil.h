@@ -350,7 +350,7 @@ uShiftInCell
 typedef
 struct
 {
-PRInt16
+int16_t
 numOfItem
 ;
 uShiftInCell
@@ -400,7 +400,7 @@ uShiftOutCell
 typedef
 struct
 {
-PRInt16
+int16_t
 numOfItem
 ;
 uShiftOutCell
@@ -514,13 +514,13 @@ uRange
 *
 /
 typedef
-PRUint16
+uint16_t
 *
 uMappingTableMutable
 ;
 typedef
 const
-PRUint16
+uint16_t
 uMappingTable
 ;
 #

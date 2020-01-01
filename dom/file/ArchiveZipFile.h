@@ -164,7 +164,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 ZipCentral
 &
@@ -220,9 +220,9 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 ZipCentral
 &
@@ -307,9 +307,9 @@ nsIDOMBlob
 >
 CreateSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString

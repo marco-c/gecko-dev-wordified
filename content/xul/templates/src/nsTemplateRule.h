@@ -1444,7 +1444,7 @@ into
 a
 match
 .
-PRInt32
+int32_t
 mPriority
 ;
 public
@@ -1513,7 +1513,7 @@ mTag
 ;
 nsTemplateQuerySet
 (
-PRInt32
+int32_t
 aPriority
 )
 :
@@ -1539,7 +1539,7 @@ nsTemplateQuerySet
 )
 ;
 }
-PRInt32
+int32_t
 Priority
 (
 )
@@ -1658,7 +1658,7 @@ Elements
 )
 ;
 }
-PRInt16
+int16_t
 RuleCount
 (
 )
@@ -1676,13 +1676,13 @@ nsTemplateRule
 *
 GetRuleAt
 (
-PRInt16
+int16_t
 aIndex
 )
 {
 if
 (
-PRUint32
+uint32_t
 (
 aIndex
 )

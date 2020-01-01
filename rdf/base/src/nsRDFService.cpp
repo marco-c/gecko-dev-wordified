@@ -638,7 +638,7 @@ pool
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 {
@@ -1185,7 +1185,7 @@ nsIRDFInt
 *
 mInt
 ;
-PRInt32
+int32_t
 mKey
 ;
 static
@@ -1208,7 +1208,7 @@ PLDHashNumber
 static_cast
 <
 const
-PRInt32
+int32_t
 *
 >
 (
@@ -1254,7 +1254,7 @@ return
 static_cast
 <
 const
-PRInt32
+int32_t
 *
 >
 (
@@ -1427,7 +1427,7 @@ PRTime
 key
 )
 ;
-PRInt64
+int64_t
 h64
 l64
 ;
@@ -1453,7 +1453,7 @@ l64
 t
 )
 ;
-PRInt32
+int32_t
 h32
 l32
 ;
@@ -1564,10 +1564,10 @@ public
 struct
 Data
 {
-PRInt32
+int32_t
 mLength
 ;
-PRUint8
+uint8_t
 *
 mBytes
 ;
@@ -1576,10 +1576,10 @@ mBytes
 BlobImpl
 (
 const
-PRUint8
+uint8_t
 *
 aBytes
-PRInt32
+int32_t
 aLength
 )
 {
@@ -1594,7 +1594,7 @@ mData
 mBytes
 =
 new
-PRUint8
+uint8_t
 [
 aLength
 ]
@@ -1747,7 +1747,7 @@ if
 blob
 )
 {
-PRInt32
+int32_t
 length
 ;
 blob
@@ -1770,7 +1770,7 @@ mLength
 )
 {
 const
-PRUint8
+uint8_t
 *
 bytes
 ;
@@ -1825,7 +1825,7 @@ BlobImpl
 GetValue
 (
 const
-PRUint8
+uint8_t
 *
 *
 aResult
@@ -1848,7 +1848,7 @@ BlobImpl
 :
 GetLength
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3488,7 +3488,7 @@ public
 :
 IntImpl
 (
-PRInt32
+int32_t
 s
 )
 ;
@@ -3512,7 +3512,7 @@ nsIRDFInt
 NS_IMETHOD
 GetValue
 (
-PRInt32
+int32_t
 *
 value
 )
@@ -3530,7 +3530,7 @@ bool
 result
 )
 ;
-PRInt32
+int32_t
 mValue
 ;
 }
@@ -3540,7 +3540,7 @@ IntImpl
 :
 IntImpl
 (
-PRInt32
+int32_t
 s
 )
 :
@@ -3802,7 +3802,7 @@ IntImpl
 :
 GetValue
 (
-PRInt32
+int32_t
 *
 value
 )
@@ -3874,7 +3874,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-PRInt32
+int32_t
 p
 ;
 if
@@ -4476,7 +4476,7 @@ RFC2396
 .
 static
 const
-PRUint8
+uint8_t
 kLegalSchemeChars
 [
 ]
@@ -4694,7 +4694,7 @@ char
 aChar
 )
 {
-PRUint8
+uint8_t
 mask
 =
 kLegalSchemeChars
@@ -4705,7 +4705,7 @@ aChar
 3
 ]
 ;
-PRUint8
+uint8_t
 bit
 =
 PR_BIT
@@ -5468,7 +5468,7 @@ aResult
 )
 {
 static
-PRUint32
+uint32_t
 gCounter
 =
 0
@@ -5495,13 +5495,13 @@ MNOPQRSTUVWXYZ
 "
 ;
 static
-PRInt32
+int32_t
 kMask
 =
 0x003f
 ;
 static
-PRInt32
+int32_t
 kShift
 =
 6
@@ -5665,7 +5665,7 @@ rdf
 "
 )
 ;
-PRUint32
+uint32_t
 id
 =
 +
@@ -6037,7 +6037,7 @@ RDFServiceImpl
 :
 GetIntLiteral
 (
-PRInt32
+int32_t
 aInt
 nsIRDFInt
 *
@@ -6140,10 +6140,10 @@ RDFServiceImpl
 GetBlobLiteral
 (
 const
-PRUint8
+uint8_t
 *
 aBytes
-PRInt32
+int32_t
 aLength
 nsIRDFBlob
 *
@@ -6161,7 +6161,7 @@ key
 aLength
 const_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -7788,7 +7788,7 @@ for
 data
 source
 .
-PRInt32
+int32_t
 p
 =
 contractID
@@ -8455,7 +8455,7 @@ nsIRDFInt
 aInt
 )
 {
-PRInt32
+int32_t
 value
 ;
 aInt
@@ -8625,7 +8625,7 @@ nsIRDFInt
 aInt
 )
 {
-PRInt32
+int32_t
 value
 ;
 aInt

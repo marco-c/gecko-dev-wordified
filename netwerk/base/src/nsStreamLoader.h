@@ -186,9 +186,9 @@ void
 const
 char
 *
-PRUint32
-PRUint32
-PRUint32
+uint32_t
+uint32_t
+uint32_t
 *
 )
 ;
@@ -217,7 +217,7 @@ nsIRequest
 >
 mRequest
 ;
-PRUint8
+uint8_t
 *
 mData
 ;
@@ -228,7 +228,7 @@ to
 accumulate
 incoming
 data
-PRUint32
+uint32_t
 mAllocated
 ;
 /
@@ -248,7 +248,7 @@ contentSize
 is
 available
 )
-PRUint32
+uint32_t
 mLength
 ;
 /

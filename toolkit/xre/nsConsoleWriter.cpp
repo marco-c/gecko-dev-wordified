@@ -311,7 +311,7 @@ nsIConsoleMessage
 *
 messages
 ;
-PRUint32
+uint32_t
 mcount
 ;
 rv
@@ -455,7 +455,7 @@ nativemsg
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

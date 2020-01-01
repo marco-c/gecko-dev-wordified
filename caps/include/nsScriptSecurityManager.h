@@ -456,7 +456,7 @@ KeyTypePointer
 aKey
 )
 {
-PRUint32
+uint32_t
 hash
 ;
 const_cast
@@ -1299,21 +1299,21 @@ mWildcardPolicy
 ;
 private
 :
-PRUint32
+uint32_t
 mRefCount
 ;
-PRUint32
+uint32_t
 mGeneration
 ;
 static
-PRUint32
+uint32_t
 sGeneration
 ;
 #
 ifdef
 DEBUG_CAPS_DomainPolicyLifeCycle
 static
-PRUint32
+uint32_t
 sObjects
 ;
 static
@@ -1627,7 +1627,7 @@ aTargetURI
 )
 ;
 static
-PRUint32
+uint32_t
 SecurityHashURI
 (
 nsIURI
@@ -1667,7 +1667,7 @@ aObject
 )
 ;
 static
-PRUint32
+uint32_t
 HashPrincipalByOrigin
 (
 nsIPrincipal
@@ -1859,7 +1859,7 @@ rv
 nsresult
 CheckPropertyAccessImpl
 (
-PRUint32
+uint32_t
 aAction
 nsAXPCNativeCallContext
 *
@@ -1897,7 +1897,7 @@ aSubject
 nsIPrincipal
 *
 aObject
-PRUint32
+uint32_t
 aAction
 )
 ;
@@ -1912,7 +1912,7 @@ ClassInfoData
 aClassData
 jsid
 aProperty
-PRUint32
+uint32_t
 aAction
 ClassPolicy
 *
@@ -1929,7 +1929,7 @@ GetCodebasePrincipalInternal
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -1945,7 +1945,7 @@ CreateCodebasePrincipal
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -2769,7 +2769,7 @@ aDomainPolicy
 nsresult
 InitPrincipals
 (
-PRUint32
+uint32_t
 prefCount
 const
 char
@@ -2957,7 +2957,7 @@ GetExtendedOrigin
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppid
 bool
 aInMozBrowser

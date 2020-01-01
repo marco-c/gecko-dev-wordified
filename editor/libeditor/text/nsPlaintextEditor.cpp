@@ -693,7 +693,7 @@ aRoot
 nsISelectionController
 *
 aSelCon
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -798,7 +798,7 @@ res
 ;
 }
 static
-PRInt32
+int32_t
 sNewlineHandlingPref
 =
 -
@@ -936,10 +936,10 @@ nsPlaintextEditor
 :
 GetDefaultEditorPrefs
 (
-PRInt32
+int32_t
 &
 aNewlineHandling
-PRInt32
+int32_t
 &
 aCaretStyle
 )
@@ -1469,7 +1469,7 @@ metaList
 false
 )
 ;
-PRUint32
+uint32_t
 listLength
 =
 0
@@ -1485,7 +1485,7 @@ listLength
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2442,7 +2442,7 @@ nsIDOMNode
 >
 *
 aInOutParent
-PRInt32
+int32_t
 *
 aInOutOffset
 nsCOMPtr
@@ -2510,7 +2510,7 @@ node
 *
 aInOutParent
 ;
-PRInt32
+int32_t
 theOffset
 =
 *
@@ -2546,10 +2546,10 @@ if
 nodeAsText
 )
 {
-PRInt32
+int32_t
 offset
 ;
-PRUint32
+uint32_t
 len
 ;
 nodeAsText
@@ -2602,7 +2602,7 @@ theOffset
 =
 =
 (
-PRInt32
+int32_t
 )
 len
 )
@@ -2742,7 +2742,7 @@ eNone
 )
 )
 {
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -2878,7 +2878,7 @@ CreateBR
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -2898,7 +2898,7 @@ parent
 =
 aNode
 ;
-PRInt32
+int32_t
 offset
 =
 aOffset
@@ -3030,7 +3030,7 @@ nsIDOMNode
 >
 selNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 res
@@ -3381,7 +3381,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 result
@@ -4363,7 +4363,7 @@ nsIDOMNode
 >
 selNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 res
@@ -4566,7 +4566,7 @@ nsIDOMNode
 >
 endNode
 ;
-PRInt32
+int32_t
 endOffset
 ;
 res
@@ -5112,7 +5112,7 @@ nsPlaintextEditor
 :
 GetTextLength
 (
-PRInt32
+int32_t
 *
 aCount
 )
@@ -5225,7 +5225,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 totalLength
 =
 0
@@ -5295,7 +5295,7 @@ currentNode
 )
 )
 {
-PRUint32
+uint32_t
 length
 ;
 textNode
@@ -5329,7 +5329,7 @@ nsPlaintextEditor
 :
 SetMaxTextLength
 (
-PRInt32
+int32_t
 aMaxTextLength
 )
 {
@@ -5347,7 +5347,7 @@ nsPlaintextEditor
 :
 GetMaxTextLength
 (
-PRInt32
+int32_t
 *
 aMaxTextLength
 )
@@ -5383,7 +5383,7 @@ nsPlaintextEditor
 :
 GetWrapWidth
 (
-PRInt32
+int32_t
 *
 aWrapColumn
 )
@@ -5455,7 +5455,7 @@ current
 wrapping
 type
 :
-PRInt32
+int32_t
 styleStart
 =
 styleValue
@@ -5474,7 +5474,7 @@ styleStart
 0
 )
 {
-PRInt32
+int32_t
 styleEnd
 =
 styleValue
@@ -5546,7 +5546,7 @@ nsPlaintextEditor
 :
 SetWrapWidth
 (
-PRInt32
+int32_t
 aWrapColumn
 )
 {
@@ -6053,7 +6053,7 @@ nsPlaintextEditor
 :
 SetWrapColumn
 (
-PRInt32
+int32_t
 aWrapColumn
 )
 {
@@ -6084,7 +6084,7 @@ nsPlaintextEditor
 :
 GetNewlineHandling
 (
-PRInt32
+int32_t
 *
 aNewlineHandling
 )
@@ -6122,7 +6122,7 @@ nsPlaintextEditor
 :
 SetNewlineHandling
 (
-PRInt32
+int32_t
 aNewlineHandling
 )
 {
@@ -6140,7 +6140,7 @@ nsPlaintextEditor
 :
 Undo
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -6282,7 +6282,7 @@ nsPlaintextEditor
 :
 Redo
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -6464,7 +6464,7 @@ nsPlaintextEditor
 :
 FireClipboardEvent
 (
-PRInt32
+int32_t
 aType
 )
 {
@@ -6692,7 +6692,7 @@ const
 nsAString
 &
 aFormatType
-PRUint32
+uint32_t
 aFlags
 const
 nsACString
@@ -6814,7 +6814,7 @@ aCharset
 )
 ;
 }
-PRInt32
+int32_t
 wc
 ;
 (
@@ -7033,7 +7033,7 @@ const
 nsAString
 &
 aFormatType
-PRUint32
+uint32_t
 aFlags
 nsAString
 &
@@ -7255,7 +7255,7 @@ const
 nsACString
 &
 aCharset
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -7399,7 +7399,7 @@ nsPlaintextEditor
 :
 PasteAsQuotation
 (
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -7568,7 +7568,7 @@ nsISupports
 >
 genericDataObj
 ;
-PRUint32
+uint32_t
 len
 ;
 char
@@ -8022,7 +8022,7 @@ const
 nsAString
 &
 aCitation
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -8066,7 +8066,7 @@ nsPlaintextEditor
 :
 SharedOutputString
 (
-PRUint32
+uint32_t
 aFlags
 bool
 *
@@ -8172,7 +8172,7 @@ bool
 aRespectNewlines
 )
 {
-PRInt32
+int32_t
 wrapCol
 ;
 nsresult
@@ -8277,7 +8277,7 @@ rv
 nsString
 wrapped
 ;
-PRUint32
+uint32_t
 firstLineOffset
 =
 0
@@ -8796,7 +8796,7 @@ if
 we
 have
 one
-PRInt32
+int32_t
 selOffset
 ;
 nsCOMPtr
@@ -8852,7 +8852,7 @@ childNode
 )
 )
 {
-PRInt32
+int32_t
 parentOffset
 ;
 nsCOMPtr

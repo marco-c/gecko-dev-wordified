@@ -227,7 +227,7 @@ at
 0
 0
 const
-PRInt32
+int32_t
 checkPolygonX
 [
 ]
@@ -246,7 +246,7 @@ checkPolygonX
 }
 ;
 const
-PRInt32
+int32_t
 checkPolygonY
 [
 ]
@@ -264,7 +264,7 @@ checkPolygonY
 }
 ;
 const
-PRInt32
+int32_t
 checkNumPoints
 =
 sizeof
@@ -274,11 +274,11 @@ checkPolygonX
 /
 sizeof
 (
-PRInt32
+int32_t
 )
 ;
 const
-PRInt32
+int32_t
 checkSize
 =
 9
@@ -362,7 +362,7 @@ screen
 rendering
 for
 (
-PRInt32
+int32_t
 polyIndex
 =
 0

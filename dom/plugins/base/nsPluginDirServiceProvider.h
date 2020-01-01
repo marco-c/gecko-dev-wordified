@@ -380,7 +380,7 @@ static
 nsresult
 GetPLIDDirectoriesWithRootKey
 (
-PRUint32
+uint32_t
 aKey
 nsCOMArray
 <

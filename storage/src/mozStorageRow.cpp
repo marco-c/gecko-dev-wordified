@@ -285,7 +285,7 @@ over
 values
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -677,7 +677,7 @@ Row
 :
 GetResultByIndex
 (
-PRUint32
+uint32_t
 aIndex
 nsIVariant
 *
@@ -724,7 +724,7 @@ nsIVariant
 _result
 )
 {
-PRUint32
+uint32_t
 index
 ;
 NS_ENSURE_TRUE
@@ -839,7 +839,7 @@ Row
 :
 GetNumEntries
 (
-PRUint32
+uint32_t
 *
 _entries
 )
@@ -859,9 +859,9 @@ Row
 :
 GetTypeOfIndex
 (
-PRUint32
+uint32_t
 aIndex
-PRInt32
+int32_t
 *
 _type
 )
@@ -872,7 +872,7 @@ aIndex
 mNumCols
 )
 ;
-PRUint16
+uint16_t
 type
 ;
 (
@@ -990,9 +990,9 @@ Row
 :
 GetInt32
 (
-PRUint32
+uint32_t
 aIndex
-PRInt32
+int32_t
 *
 _value
 )
@@ -1024,9 +1024,9 @@ Row
 :
 GetInt64
 (
-PRUint32
+uint32_t
 aIndex
-PRInt64
+int64_t
 *
 _value
 )
@@ -1058,7 +1058,7 @@ Row
 :
 GetDouble
 (
-PRUint32
+uint32_t
 aIndex
 double
 *
@@ -1092,7 +1092,7 @@ Row
 :
 GetUTF8String
 (
-PRUint32
+uint32_t
 aIndex
 nsACString
 &
@@ -1126,7 +1126,7 @@ Row
 :
 GetString
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -1160,12 +1160,12 @@ Row
 :
 GetBlob
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _size
-PRUint8
+uint8_t
 *
 *
 _blob
@@ -1177,7 +1177,7 @@ aIndex
 mNumCols
 )
 ;
-PRUint16
+uint16_t
 type
 ;
 nsIID
@@ -1217,7 +1217,7 @@ Row
 :
 GetIsNull
 (
-PRUint32
+uint32_t
 aIndex
 bool
 *
@@ -1235,7 +1235,7 @@ NS_ENSURE_ARG_POINTER
 _isNull
 )
 ;
-PRUint16
+uint16_t
 type
 ;
 (
@@ -1276,8 +1276,8 @@ Row
 :
 GetSharedUTF8String
 (
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 *
 char
 const
@@ -1295,8 +1295,8 @@ Row
 :
 GetSharedString
 (
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 *
 const
 PRUnichar
@@ -1314,11 +1314,11 @@ Row
 :
 GetSharedBlob
 (
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 *
 const
-PRUint8
+uint8_t
 *
 *
 )

@@ -2346,7 +2346,7 @@ nsIDOMNode
 selStartNode
 selEndNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 res
@@ -2948,7 +2948,7 @@ nsIDOMNode
 rangeStartParent
 rangeEndParent
 ;
-PRInt32
+int32_t
 rangeStartOffset
 =
 0
@@ -4622,7 +4622,7 @@ nodes
 in
 selection
 .
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -4633,7 +4633,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 listCount
@@ -4979,7 +4979,7 @@ for
 nodes
 in
 selection
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -4990,7 +4990,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 listCount
@@ -5402,7 +5402,7 @@ rootElem
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 offset
 rootOffset
 ;
@@ -6434,7 +6434,7 @@ all
 of
 it
 .
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -6443,7 +6443,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 bool
@@ -6714,7 +6714,7 @@ nsISelection
 >
 selection
 ;
-PRInt32
+int32_t
 selOffset
 ;
 res
@@ -7064,7 +7064,7 @@ up
 and
 down
 .
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -7073,7 +7073,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -7207,7 +7207,7 @@ nsIDOMNode
 >
 selNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 nsCOMPtr
@@ -8178,7 +8178,7 @@ nsIDOMNode
 selNode
 priorNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 /
@@ -8486,7 +8486,7 @@ inString
 nsAString
 *
 outString
-PRInt32
+int32_t
 aMaxLength
 )
 {
@@ -8612,7 +8612,7 @@ nsIDOMNode
 >
 selNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 /
@@ -8954,7 +8954,7 @@ curNode
 =
 selNode
 ;
-PRInt32
+int32_t
 curOffset
 =
 selOffset
@@ -9099,7 +9099,7 @@ nsIDOMNode
 >
 unused
 ;
-PRInt32
+int32_t
 pos
 =
 0
@@ -9179,7 +9179,7 @@ pos
 pos
 <
 (
-PRInt32
+int32_t
 )
 (
 *
@@ -9192,12 +9192,12 @@ Length
 )
 )
 {
-PRInt32
+int32_t
 oldPos
 =
 pos
 ;
-PRInt32
+int32_t
 subStrLen
 ;
 pos
@@ -9403,7 +9403,7 @@ pos
 pos
 <
 (
-PRInt32
+int32_t
 )
 inString
 -
@@ -9414,12 +9414,12 @@ Length
 )
 )
 {
-PRInt32
+int32_t
 oldPos
 =
 pos
 ;
-PRInt32
+int32_t
 subStrLen
 ;
 pos
@@ -10052,7 +10052,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 res
@@ -10339,7 +10339,7 @@ if
 isEmpty
 )
 {
-PRUint32
+uint32_t
 blockLen
 ;
 res
@@ -10570,7 +10570,7 @@ StandardBreakImpl
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsISelection
 *
@@ -10659,7 +10659,7 @@ nsIDOMNode
 visNode
 linkNode
 ;
-PRInt32
+int32_t
 visOffset
 =
 0
@@ -10962,7 +10962,7 @@ nsIDOMNode
 >
 secondBR
 ;
-PRInt32
+int32_t
 visOffset
 =
 0
@@ -11081,7 +11081,7 @@ the
 line
 above
 .
-PRInt32
+int32_t
 brOffset
 ;
 nsCOMPtr
@@ -11366,7 +11366,7 @@ selNode
 leftCite
 rightCite
 ;
-PRInt32
+int32_t
 selOffset
 newOffset
 ;
@@ -11557,7 +11557,7 @@ nsIDOMNode
 >
 visNode
 ;
-PRInt32
+int32_t
 visOffset
 =
 0
@@ -11608,7 +11608,7 @@ inside
 the
 mailquote
 ?
-PRInt32
+int32_t
 unused
 ;
 if
@@ -11863,7 +11863,7 @@ nsIDOMNode
 >
 visNode
 ;
-PRInt32
+int32_t
 visOffset
 =
 0
@@ -12332,7 +12332,7 @@ nsIDOMNode
 startNode
 selNode
 ;
-PRInt32
+int32_t
 startOffset
 selOffset
 ;
@@ -12665,7 +12665,7 @@ nsIDOMNode
 >
 visNode
 ;
-PRInt32
+int32_t
 visOffset
 ;
 WSType
@@ -12841,12 +12841,12 @@ text
 to
 delete
 .
-PRInt32
+int32_t
 so
 =
 visOffset
 ;
-PRInt32
+int32_t
 eo
 =
 visOffset
@@ -13523,7 +13523,7 @@ nsIDOMNode
 >
 otherNode
 ;
-PRInt32
+int32_t
 otherOffset
 ;
 wsObj
@@ -13944,7 +13944,7 @@ nsIDOMNode
 >
 otherNode
 ;
-PRInt32
+int32_t
 otherOffset
 ;
 /
@@ -14176,7 +14176,7 @@ nsIDOMNode
 >
 newSelNode
 ;
-PRInt32
+int32_t
 newSelOffset
 ;
 res
@@ -14311,7 +14311,7 @@ selPointNode
 =
 startNode
 ;
-PRInt32
+int32_t
 selPointOffset
 =
 startOffset
@@ -14669,7 +14669,7 @@ selPointNode
 =
 startNode
 ;
-PRInt32
+int32_t
 selPointOffset
 =
 startOffset
@@ -14815,7 +14815,7 @@ nsIDOMNode
 >
 endNode
 ;
-PRInt32
+int32_t
 endOffset
 ;
 res
@@ -15681,7 +15681,7 @@ delete
 non
 table
 elements
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -15692,7 +15692,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -15945,7 +15945,7 @@ nsIDOMCharacterData
 >
 nodeAsText
 ;
-PRUint32
+uint32_t
 len
 ;
 nodeAsText
@@ -15969,7 +15969,7 @@ if
 len
 >
 (
-PRUint32
+uint32_t
 )
 startOffset
 )
@@ -16420,7 +16420,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 nsresult
@@ -16756,7 +16756,7 @@ desired
 sel
 node
 *
-PRInt32
+int32_t
 *
 outSelOffset
 desired
@@ -16784,7 +16784,7 @@ nsIDOMNode
 >
 *
 outSelNode
-PRInt32
+int32_t
 *
 outSelOffset
 )
@@ -16851,7 +16851,7 @@ nsIEditor
 ePrevious
 )
 {
-PRUint32
+uint32_t
 len
 ;
 res
@@ -16868,7 +16868,7 @@ len
 *
 outSelOffset
 =
-PRInt32
+int32_t
 (
 len
 )
@@ -17485,7 +17485,7 @@ nsGkAtoms
 :
 _empty
 ;
-PRInt32
+int32_t
 theOffset
 ;
 nsCOMPtr
@@ -17680,12 +17680,12 @@ res
 =
 NS_OK
 ;
-PRInt32
+int32_t
 rightOffset
 =
 0
 ;
-PRInt32
+int32_t
 leftOffset
 =
 -
@@ -18335,7 +18335,7 @@ nsIDOMNode
 >
 parent
 ;
-PRInt32
+int32_t
 offset
 ;
 res
@@ -18605,7 +18605,7 @@ provide
 moved
 content
 *
-PRInt32
+int32_t
 aLeftOffset
 offset
 in
@@ -18615,7 +18615,7 @@ move
 content
 to
 *
-PRInt32
+int32_t
 aRightOffset
 offset
 in
@@ -18638,9 +18638,9 @@ aLeftBlock
 nsIDOMNode
 *
 aRightBlock
-PRInt32
+int32_t
 aLeftOffset
-PRInt32
+int32_t
 aRightOffset
 )
 {
@@ -18695,7 +18695,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -18704,7 +18704,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -18972,7 +18972,7 @@ receive
 moved
 content
 *
-PRInt32
+int32_t
 *
 aOffset
 offset
@@ -18996,7 +18996,7 @@ aSource
 nsIDOMNode
 *
 aDest
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -19298,7 +19298,7 @@ receive
 moved
 content
 *
-PRInt32
+int32_t
 *
 aOffset
 offset
@@ -19322,7 +19322,7 @@ aSource
 nsIDOMNode
 *
 aDest
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -19473,7 +19473,7 @@ AsDOMNode
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 aNode
@@ -19560,7 +19560,7 @@ nsIDOMNode
 >
 startNode
 ;
-PRInt32
+int32_t
 startOffset
 ;
 nsresult
@@ -19674,7 +19674,7 @@ nsIDOMNode
 >
 brNode
 ;
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -20038,7 +20038,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -20069,7 +20069,7 @@ true
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -20178,7 +20178,7 @@ parent
 theList
 theListItem
 ;
-PRInt32
+int32_t
 offset
 ;
 /
@@ -20195,7 +20195,7 @@ bOnlyBreaks
 {
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -20203,7 +20203,7 @@ j
 j
 <
 (
-PRInt32
+int32_t
 )
 listCount
 ;
@@ -20513,7 +20513,7 @@ prevListItem
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -20557,7 +20557,7 @@ arrayOfNodes
 i
 ]
 ;
-PRInt32
+int32_t
 offset
 ;
 curParent
@@ -20982,7 +20982,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -21327,7 +21327,7 @@ prevListItem
 =
 nullptr
 ;
-PRInt32
+int32_t
 j
 =
 i
@@ -21863,7 +21863,7 @@ Leave
 them
 be
 .
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -21872,7 +21872,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -21991,7 +21991,7 @@ arrayOfNodes
 i
 ]
 ;
-PRInt32
+int32_t
 offset
 ;
 curParent
@@ -22336,7 +22336,7 @@ Leave
 them
 be
 .
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -22345,7 +22345,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -22429,7 +22429,7 @@ nsIDOMNode
 parent
 theBlock
 ;
-PRInt32
+int32_t
 offset
 ;
 /
@@ -22922,7 +22922,7 @@ of
 nodes
 for
 (
-PRInt32
+int32_t
 j
 =
 arrayOfNodes
@@ -23179,7 +23179,7 @@ nsIDOMNode
 >
 parent
 ;
-PRInt32
+int32_t
 offset
 ;
 nsresult
@@ -23433,7 +23433,7 @@ nsIDOMNode
 node
 block
 ;
-PRInt32
+int32_t
 offset
 ;
 nsresult
@@ -23613,7 +23613,7 @@ nsIDOMNode
 parent
 theBlock
 ;
-PRInt32
+int32_t
 offset
 ;
 nsAutoString
@@ -23738,7 +23738,7 @@ of
 nodes
 for
 (
-PRInt32
+int32_t
 j
 =
 arrayOfNodes
@@ -23861,7 +23861,7 @@ appropriate
 .
 Wohoo
 !
-PRInt32
+int32_t
 i
 ;
 nsCOMPtr
@@ -23888,7 +23888,7 @@ nsIDOMNode
 >
 sibling
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -23962,7 +23962,7 @@ curNode
 )
 continue
 ;
-PRInt32
+int32_t
 offset
 ;
 curParent
@@ -24430,7 +24430,7 @@ of
 the
 active
 list
-PRUint32
+uint32_t
 listLen
 ;
 res
@@ -24634,7 +24634,7 @@ of
 the
 active
 blockquote
-PRUint32
+uint32_t
 quoteLen
 ;
 res
@@ -24918,7 +24918,7 @@ nsIDOMNode
 parent
 theBlock
 ;
-PRInt32
+int32_t
 offset
 ;
 /
@@ -25025,7 +25025,7 @@ of
 nodes
 for
 (
-PRInt32
+int32_t
 j
 =
 arrayOfNodes
@@ -25148,7 +25148,7 @@ appropriate
 .
 Wohoo
 !
-PRInt32
+int32_t
 i
 ;
 nsCOMPtr
@@ -25161,7 +25161,7 @@ curList
 indentedLI
 sibling
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -25235,7 +25235,7 @@ curNode
 )
 continue
 ;
-PRInt32
+int32_t
 offset
 ;
 curParent
@@ -26498,7 +26498,7 @@ curBlockQuoteIsIndentedWithCSS
 =
 false
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -26507,7 +26507,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 nsCOMPtr
@@ -26555,7 +26555,7 @@ arrayOfNodes
 i
 ]
 ;
-PRInt32
+int32_t
 offset
 ;
 curParent
@@ -27829,7 +27829,7 @@ nsIDOMNode
 >
 sNode
 ;
-PRInt32
+int32_t
 sOffset
 ;
 mHTMLEditor
@@ -28254,7 +28254,7 @@ nsIDOMNode
 leftNode
 rightNode
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 offset
@@ -29156,7 +29156,7 @@ nsIDOMNode
 node
 tmp
 ;
-PRInt32
+int32_t
 offset
 ;
 nsresult
@@ -29214,7 +29214,7 @@ to
 /
 the
 TypeInState
-PRInt32
+int32_t
 length
 =
 mHTMLEditor
@@ -29228,7 +29228,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -29575,7 +29575,7 @@ process
 setting
 any
 styles
-PRInt32
+int32_t
 relFontSize
 =
 mHTMLEditor
@@ -29803,7 +29803,7 @@ bigger
 1
 =
 smaller
-PRInt32
+int32_t
 dir
 =
 relFontSize
@@ -29817,7 +29817,7 @@ relFontSize
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -30367,7 +30367,7 @@ emptyDiv
 =
 false
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -30675,7 +30675,7 @@ nsIDOMNode
 >
 parent
 ;
-PRInt32
+int32_t
 offset
 ;
 res
@@ -30725,7 +30725,7 @@ if
 emptyDiv
 )
 {
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -31186,7 +31186,7 @@ IsCSSEnabled
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -31250,7 +31250,7 @@ curNode
 )
 continue
 ;
-PRInt32
+int32_t
 offset
 ;
 curParent
@@ -31543,7 +31543,7 @@ align
 "
 )
 ;
-PRInt32
+int32_t
 count
 ;
 mHTMLEditor
@@ -32092,7 +32092,7 @@ their
 contents
 as
 requested
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -32101,7 +32101,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 j
 ;
 for
@@ -32956,7 +32956,7 @@ IsEditable
 )
 )
 {
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -33036,7 +33036,7 @@ if
 bIsFirst
 )
 {
-PRInt32
+int32_t
 listOffset
 ;
 nsCOMPtr
@@ -33239,7 +33239,7 @@ nsIDOMNode
 >
 *
 outBRNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -33263,7 +33263,7 @@ nsIDOMNode
 >
 testNode
 ;
-PRInt32
+int32_t
 testOffset
 =
 0
@@ -33306,7 +33306,7 @@ if
 rightmostNode
 )
 {
-PRInt32
+int32_t
 nodeOffset
 ;
 nsCOMPtr
@@ -33593,7 +33593,7 @@ nsIDOMNode
 >
 &
 outArrayOfNodes
-PRInt32
+int32_t
 *
 aIndex
 bool
@@ -33887,7 +33887,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 rangeCount
 ;
 nsresult
@@ -33986,7 +33986,7 @@ selStartNode
 selEndNode
 selCommon
 ;
-PRInt32
+int32_t
 selStartOffset
 selEndOffset
 ;
@@ -34130,7 +34130,7 @@ nsIDOMNode
 visNode
 firstBRParent
 ;
-PRInt32
+int32_t
 visOffset
 =
 0
@@ -35018,7 +35018,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 rangeCount
 ;
 nsresult
@@ -35108,7 +35108,7 @@ nsIDOMNode
 startNode
 endNode
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -35119,7 +35119,7 @@ nsIDOMNode
 newStartNode
 newEndNode
 ;
-PRInt32
+int32_t
 newStartOffset
 newEndOffset
 ;
@@ -35234,7 +35234,7 @@ nsIDOMNode
 >
 someNode
 ;
-PRInt32
+int32_t
 offset
 ;
 WSType
@@ -36028,7 +36028,7 @@ leave
 things
 alone
 .
-PRInt16
+int16_t
 comp
 ;
 comp
@@ -36228,7 +36228,7 @@ aWhere
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 EditAction
 actionID
@@ -36238,7 +36238,7 @@ nsIDOMNode
 >
 *
 outNode
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -36416,7 +36416,7 @@ while
 content
 )
 {
-PRInt32
+int32_t
 offset
 ;
 if
@@ -36508,7 +36508,7 @@ AsDOMNode
 return
 ;
 }
-PRInt32
+int32_t
 offset
 =
 aOffset
@@ -36927,7 +36927,7 @@ blockquote
 break
 ;
 }
-PRInt32
+int32_t
 parentOffset
 =
 node
@@ -37432,7 +37432,7 @@ GetNodeParent
 )
 )
 {
-PRInt32
+int32_t
 parentOffset
 =
 node
@@ -37703,7 +37703,7 @@ inSelection
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 rangeCount
 ;
 nsresult
@@ -37724,7 +37724,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 i
 ;
 nsCOMPtr
@@ -38014,7 +38014,7 @@ nsIDOMNode
 startNode
 endNode
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -38300,7 +38300,7 @@ if
 bIsEmptyNode
 )
 {
-PRUint32
+uint32_t
 numChildren
 ;
 nsEditor
@@ -38384,7 +38384,7 @@ nsIDOMNode
 >
 opEndNode
 ;
-PRInt32
+int32_t
 opStartOffset
 opEndOffset
 ;
@@ -38707,7 +38707,7 @@ bool
 aDontTouchContent
 )
 {
-PRInt32
+int32_t
 rangeCount
 =
 inArrayOfRanges
@@ -38716,7 +38716,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 nsCOMPtr
@@ -38787,7 +38787,7 @@ NS_ASSERTION
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 rangeCount
@@ -39258,7 +39258,7 @@ EditAction
 makeBasicBlock
 )
 {
-PRInt32
+int32_t
 listCount
 =
 outArrayOfNodes
@@ -39307,7 +39307,7 @@ node
 )
 )
 {
-PRInt32
+int32_t
 j
 =
 i
@@ -39397,7 +39397,7 @@ EditAction
 setAbsolutePosition
 )
 {
-PRInt32
+int32_t
 listCount
 =
 outArrayOfNodes
@@ -39446,7 +39446,7 @@ node
 )
 )
 {
-PRInt32
+int32_t
 j
 =
 i
@@ -39506,7 +39506,7 @@ IsCSSEnabled
 )
 )
 {
-PRInt32
+int32_t
 listCount
 =
 outArrayOfNodes
@@ -39555,7 +39555,7 @@ node
 )
 )
 {
-PRInt32
+int32_t
 j
 =
 i
@@ -39680,7 +39680,7 @@ EditAction
 outdent
 )
 {
-PRInt32
+int32_t
 listCount
 =
 outArrayOfNodes
@@ -40440,7 +40440,7 @@ nodes
 .
 .
 .
-PRInt32
+int32_t
 listCount
 =
 outArrayOfNodes
@@ -40449,7 +40449,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -40557,7 +40557,7 @@ testNode
 )
 )
 {
-PRInt32
+int32_t
 j
 =
 i
@@ -40762,7 +40762,7 @@ list
 or
 content
 .
-PRInt32
+int32_t
 listCount
 =
 aNodeArray
@@ -40875,7 +40875,7 @@ a
 list
 div
 blockquote
-PRUint32
+uint32_t
 numChildren
 =
 mHTMLEditor
@@ -41085,7 +41085,7 @@ blockquote
 )
 )
 {
-PRInt32
+int32_t
 j
 =
 0
@@ -41493,7 +41493,7 @@ nodes
 .
 .
 .
-PRInt32
+int32_t
 listCount
 =
 outArrayOfNodes
@@ -41502,7 +41502,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -41631,7 +41631,7 @@ testNode
 )
 )
 {
-PRInt32
+int32_t
 j
 =
 i
@@ -41830,7 +41830,7 @@ nsIDOMNode
 >
 resultEndNode
 ;
-PRInt32
+int32_t
 resultEndOffset
 ;
 endInline
@@ -41910,7 +41910,7 @@ nsIDOMNode
 >
 resultStartNode
 ;
-PRInt32
+int32_t
 resultStartOffset
 ;
 startInline
@@ -42156,7 +42156,7 @@ itself
 in
 the
 array
-PRInt32
+int32_t
 listCount
 =
 arrayOfBreaks
@@ -42238,7 +42238,7 @@ nsIDOMNode
 >
 splitParentNode
 ;
-PRInt32
+int32_t
 splitOffset
 resultOffset
 i
@@ -42690,7 +42690,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 point
@@ -43164,7 +43164,7 @@ bool
 inTransitionArray
 )
 {
-PRUint32
+uint32_t
 listCount
 =
 inArrayOfNodes
@@ -43180,7 +43180,7 @@ EnsureLengthAtLeast
 listCount
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 nsCOMPtr
@@ -43784,7 +43784,7 @@ aHeader
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -43807,7 +43807,7 @@ where
 the
 header
 is
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -43871,7 +43871,7 @@ res
 split
 the
 header
-PRInt32
+int32_t
 newOffset
 ;
 res
@@ -44372,7 +44372,7 @@ aPara
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 bool
 *
@@ -44421,7 +44421,7 @@ false
 nsresult
 res
 ;
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -44514,7 +44514,7 @@ do_QueryInterface
 aNode
 )
 ;
-PRUint32
+uint32_t
 strLength
 ;
 res
@@ -44608,7 +44608,7 @@ aOffset
 =
 =
 (
-PRInt32
+int32_t
 )
 strLength
 )
@@ -45074,7 +45074,7 @@ nsIDOMNode
 >
 *
 aSelNode
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -45110,7 +45110,7 @@ NS_OK
 /
 split
 para
-PRInt32
+int32_t
 newOffset
 ;
 /
@@ -45385,7 +45385,7 @@ child
 }
 else
 {
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -45524,7 +45524,7 @@ aListItem
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -45636,7 +45636,7 @@ do_QueryInterface
 rootContent
 )
 ;
-PRInt32
+int32_t
 itemOffset
 ;
 nsCOMPtr
@@ -45749,7 +45749,7 @@ eventually
 split
 the
 list
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -46106,7 +46106,7 @@ now
 split
 list
 item
-PRInt32
+int32_t
 newOffset
 ;
 res
@@ -46299,7 +46299,7 @@ nsEditProperty
 dt
 )
 {
-PRInt32
+int32_t
 itemOffset
 ;
 nsCOMPtr
@@ -46435,7 +46435,7 @@ if
 brNode
 )
 {
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -46482,7 +46482,7 @@ nsIDOMNode
 >
 visNode
 ;
-PRInt32
+int32_t
 visOffset
 =
 0
@@ -46535,7 +46535,7 @@ visNode
 )
 )
 {
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -46773,10 +46773,10 @@ curParent
 curBlock
 newBlock
 ;
-PRInt32
+int32_t
 offset
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -46791,7 +46791,7 @@ nsIDOMNode
 >
 prevParent
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -47273,7 +47273,7 @@ curBlock
 firstNode
 lastNode
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -47284,7 +47284,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -48062,10 +48062,10 @@ curParent
 curBlock
 newBlock
 ;
-PRInt32
+int32_t
 offset
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -48102,7 +48102,7 @@ Leave
 them
 be
 .
-PRInt32
+int32_t
 j
 ;
 for
@@ -48160,7 +48160,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -48496,7 +48496,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 childCount
 =
 childArray
@@ -49196,7 +49196,7 @@ nsIDOMNode
 >
 *
 inOutParent
-PRInt32
+int32_t
 *
 inOutOffset
 )
@@ -49588,7 +49588,7 @@ nsIDOMNode
 >
 *
 aOutMergeParent
-PRInt32
+int32_t
 *
 aOutMergeOffset
 )
@@ -49632,7 +49632,7 @@ node
 are
 same
 type
-PRInt32
+int32_t
 parOffset
 ;
 nsCOMPtr
@@ -49743,7 +49743,7 @@ aNodeLeft
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 aOutMergeOffset
@@ -50120,7 +50120,7 @@ IsCSSEnabled
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -50461,7 +50461,7 @@ NS_OK
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -50691,7 +50691,7 @@ bits
 in
 mCachedStyles
 array
-PRInt32
+int32_t
 j
 ;
 for
@@ -50757,7 +50757,7 @@ nsISupports
 >
 isupports
 ;
-PRInt32
+int32_t
 nodeCount
 j
 ;
@@ -50912,7 +50912,7 @@ in
 this
 node
 .
-PRUint32
+uint32_t
 len
 ;
 nsCOMPtr
@@ -50956,7 +50956,7 @@ CreateMozBR
 (
 theNode
 (
-PRInt32
+int32_t
 )
 len
 )
@@ -50994,7 +50994,7 @@ nsIDOMNode
 >
 selNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 nsresult
@@ -51091,7 +51091,7 @@ nsIDOMNode
 selNode
 temp
 ;
-PRInt32
+int32_t
 selOffset
 ;
 nsresult
@@ -51277,7 +51277,7 @@ tmp
 )
 )
 ;
-PRUint32
+uint32_t
 endPoint
 ;
 if
@@ -51329,7 +51329,7 @@ GetNodeLocation
 (
 tmp
 (
-PRInt32
+int32_t
 *
 )
 &
@@ -51357,7 +51357,7 @@ Collapse
 (
 tmp
 (
-PRInt32
+int32_t
 )
 endPoint
 )
@@ -51398,7 +51398,7 @@ tmp
 )
 )
 ;
-PRInt32
+int32_t
 offset
 ;
 if
@@ -51530,7 +51530,7 @@ nsIDOMNode
 selNode
 node
 ;
-PRInt32
+int32_t
 selOffset
 ;
 nsresult
@@ -51864,7 +51864,7 @@ nsIDOMNode
 selNode
 temp
 ;
-PRInt32
+int32_t
 selOffset
 ;
 nsresult
@@ -52818,7 +52818,7 @@ if
 textNode
 )
 {
-PRInt32
+int32_t
 offset
 =
 0
@@ -52847,7 +52847,7 @@ textNode
 GetLength
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -52940,7 +52940,7 @@ FindNearSelectableNode
 nsIDOMNode
 *
 aSelNode
-PRInt32
+int32_t
 aSelOffset
 nsIEditor
 :
@@ -53873,7 +53873,7 @@ GetNodeParent
 (
 )
 ;
-PRUint32
+uint32_t
 idx
 =
 skipList
@@ -54317,7 +54317,7 @@ delete
 the
 empty
 nodes
-PRInt32
+int32_t
 nodeCount
 =
 arrayOfEmptyNodes
@@ -54328,7 +54328,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -54432,7 +54432,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -54529,7 +54529,7 @@ nsIDOMNode
 parent
 brNode
 ;
-PRInt32
+int32_t
 offset
 ;
 parent
@@ -55101,7 +55101,7 @@ one
 single
 BR
 .
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -55122,7 +55122,7 @@ nsIDOMNode
 >
 somenode
 ;
-PRInt32
+int32_t
 j
 brCount
 =
@@ -55270,7 +55270,7 @@ aListItem
 )
 )
 ;
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -55328,7 +55328,7 @@ otherwise
 we
 do
 .
-PRInt32
+int32_t
 parOffset
 ;
 nsCOMPtr
@@ -55796,7 +55796,7 @@ selNode
 temp
 parent
 ;
-PRInt32
+int32_t
 selOffset
 ;
 res
@@ -56222,7 +56222,7 @@ get
 }
 else
 {
-PRInt16
+int16_t
 result
 ;
 /
@@ -56351,7 +56351,7 @@ after
 aRange
 start
 {
-PRInt32
+int32_t
 startOffset
 ;
 res
@@ -56441,7 +56441,7 @@ nsIDOMNode
 >
 endNode
 ;
-PRInt32
+int32_t
 endOffset
 ;
 res
@@ -56584,7 +56584,7 @@ aTag
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -56608,7 +56608,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 nsresult
 aResult
@@ -56673,7 +56673,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -56693,7 +56693,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 nsresult
 aResult
@@ -56812,7 +56812,7 @@ WillSplitNode
 nsIDOMNode
 *
 aExistingRightNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -56829,7 +56829,7 @@ DidSplitNode
 nsIDOMNode
 *
 aExistingRightNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -57035,7 +57035,7 @@ WillInsertText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 const
 nsAString
@@ -57056,7 +57056,7 @@ DidInsertText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 const
 nsAString
@@ -57076,7 +57076,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 length
 =
 aString
@@ -57153,9 +57153,9 @@ WillDeleteText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aLength
 )
 {
@@ -57172,9 +57172,9 @@ DidDeleteText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aLength
 nsresult
 aResult
@@ -57283,7 +57283,7 @@ nsIDOMNode
 >
 selNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 nsresult
@@ -58216,7 +58216,7 @@ if
 foundCR
 )
 {
-PRInt32
+int32_t
 offset
 =
 0
@@ -58562,7 +58562,7 @@ RelativeChangeIndentationOfElementNode
 nsIDOMNode
 *
 aNode
-PRInt8
+int8_t
 aRelativeChange
 )
 {
@@ -59374,7 +59374,7 @@ nsIDOMNode
 parent
 thePositionedDiv
 ;
-PRInt32
+int32_t
 offset
 ;
 /
@@ -59481,7 +59481,7 @@ of
 nodes
 for
 (
-PRInt32
+int32_t
 j
 =
 arrayOfNodes
@@ -59604,7 +59604,7 @@ appropriate
 .
 Wohoo
 !
-PRInt32
+int32_t
 i
 ;
 nsCOMPtr
@@ -59617,7 +59617,7 @@ curList
 indentedLI
 sibling
 ;
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -59691,7 +59691,7 @@ curNode
 )
 continue
 ;
-PRInt32
+int32_t
 offset
 ;
 curParent
@@ -59851,7 +59851,7 @@ if
 curPositionedDiv
 )
 {
-PRInt32
+int32_t
 parentOffset
 ;
 nsCOMPtr
@@ -60256,7 +60256,7 @@ if
 curPositionedDiv
 )
 {
-PRInt32
+int32_t
 parentOffset
 ;
 nsCOMPtr
@@ -60691,7 +60691,7 @@ WillRelativeChangeZIndex
 Selection
 *
 aSelection
-PRInt32
+int32_t
 aChange
 bool
 *
@@ -60800,7 +60800,7 @@ absPosHTMLEditor
 =
 mHTMLEditor
 ;
-PRInt32
+int32_t
 zIndex
 ;
 return

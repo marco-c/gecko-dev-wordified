@@ -363,7 +363,7 @@ comma
 field
 delimiter
 )
-PRInt32
+int32_t
 index
 ;
 if

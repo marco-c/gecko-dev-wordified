@@ -280,7 +280,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
 )
 ;

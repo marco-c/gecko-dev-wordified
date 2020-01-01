@@ -1041,7 +1041,7 @@ str
 =
 nullptr
 ;
-PRInt32
+int32_t
 srcLength
 =
 PL_strlen
@@ -1054,7 +1054,7 @@ if
 mDecoder
 )
 {
-PRInt32
+int32_t
 unicharLength
 =
 srcLength
@@ -1404,7 +1404,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 result
 ;
 rv

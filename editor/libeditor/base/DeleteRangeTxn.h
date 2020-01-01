@@ -276,9 +276,9 @@ CreateTxnsToDeleteBetween
 nsINode
 *
 aNode
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 )
 ;
@@ -293,7 +293,7 @@ CreateTxnsToDeleteContent
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 nsIEditor
 :

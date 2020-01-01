@@ -157,13 +157,13 @@ imgIRequest
 aKey
 )
 ;
-PRUint16
+uint16_t
 *
 mode
 =
 static_cast
 <
-PRUint16
+uint16_t
 *
 >
 (
@@ -554,7 +554,7 @@ not
 already
 there
 .
-PRUint32
+uint32_t
 i
 ;
 if
@@ -1097,7 +1097,7 @@ ImageLoader
 :
 SetAnimationMode
 (
-PRUint16
+uint16_t
 aMode
 )
 {
@@ -2011,7 +2011,7 @@ OnStopFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {

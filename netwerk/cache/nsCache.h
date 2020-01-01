@@ -318,7 +318,7 @@ item
 #
 endif
 extern
-PRUint32
+uint32_t
 SecondsFromPRTime
 (
 PRTime
@@ -329,7 +329,7 @@ extern
 PRTime
 PRTimeFromSeconds
 (
-PRUint32
+uint32_t
 seconds
 )
 ;

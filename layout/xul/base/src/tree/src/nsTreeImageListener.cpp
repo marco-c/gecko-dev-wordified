@@ -323,7 +323,7 @@ nsTreeImageListener
 :
 AddCell
 (
-PRInt32
+int32_t
 aIndex
 nsITreeColumn
 *
@@ -492,7 +492,7 @@ image
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 currArea
@@ -608,7 +608,7 @@ InvalidationArea
 :
 AddRow
 (
-PRInt32
+int32_t
 aIndex
 )
 {

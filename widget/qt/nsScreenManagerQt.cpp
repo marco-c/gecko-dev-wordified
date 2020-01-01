@@ -256,13 +256,13 @@ nsScreenManagerQt
 :
 ScreenForRect
 (
-PRInt32
+int32_t
 inLeft
-PRInt32
+int32_t
 inTop
-PRInt32
+int32_t
 inWidth
-PRInt32
+int32_t
 inHeight
 nsIScreen
 *
@@ -472,7 +472,7 @@ nsScreenManagerQt
 :
 GetNumberOfScreens
 (
-PRUint32
+uint32_t
 *
 aNumberOfScreens
 )

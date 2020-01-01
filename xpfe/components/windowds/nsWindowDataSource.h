@@ -237,11 +237,11 @@ nsSupportsHashtable
 mWindowResources
 ;
 static
-PRUint32
+uint32_t
 windowCount
 ;
 static
-PRUint32
+uint32_t
 gRefCnt
 ;
 nsCOMPtr

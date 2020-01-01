@@ -120,7 +120,7 @@ char
 *
 *
 aMessage
-PRUint16
+uint16_t
 *
 aCode
 =

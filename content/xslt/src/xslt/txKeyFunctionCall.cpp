@@ -488,7 +488,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -948,7 +948,7 @@ aResult
 =
 nullptr
 ;
-PRInt32
+int32_t
 identifier
 =
 txXPathNodeUtils
@@ -1814,7 +1814,7 @@ aEs
 nsAutoString
 val
 ;
-PRUint32
+uint32_t
 currKey
 numKeys
 =
@@ -1965,7 +1965,7 @@ exprResult
 )
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for

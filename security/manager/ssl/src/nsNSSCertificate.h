@@ -332,7 +332,7 @@ mCert
 bool
 mPermDelete
 ;
-PRUint32
+uint32_t
 mCertType
 ;
 nsCOMPtr

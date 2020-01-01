@@ -140,10 +140,10 @@ Run
 nsIEditor
 *
 aEditor
-PRInt32
+int32_t
 *
 outNumTests
-PRInt32
+int32_t
 *
 outNumTestsFailed
 )
@@ -176,10 +176,10 @@ InitDoc
 nsresult
 RunUnitTest
 (
-PRInt32
+int32_t
 *
 outNumTests
-PRInt32
+int32_t
 *
 outNumTestsFailed
 )

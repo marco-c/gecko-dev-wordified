@@ -974,7 +974,7 @@ nsGenericHTMLFrameElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1219,7 +1219,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -1429,7 +1429,7 @@ NS_ENSURE_STATE
 permMgr
 )
 ;
-PRUint32
+uint32_t
 permission
 =
 nsIPermissionManager

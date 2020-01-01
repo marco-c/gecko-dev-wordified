@@ -280,16 +280,16 @@ nsStringBuffer
 /
 template
 <
-PRUint32
+uint32_t
 size
 >
 struct
 nsFakeStringBuffer
 {
-PRInt32
+int32_t
 mRefCnt
 ;
-PRUint32
+uint32_t
 mSize
 ;
 nsStaticAtomStringType
@@ -314,7 +314,7 @@ atom
 table
 template
 <
-PRUint32
+uint32_t
 N
 >
 nsresult
@@ -338,7 +338,7 @@ RegisterStaticAtoms
 const
 nsStaticAtom
 *
-PRUint32
+uint32_t
 aAtomCount
 )
 ;

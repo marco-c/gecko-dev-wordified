@@ -266,7 +266,7 @@ TimeDuration
 aDuration
 double
 aIterationCount
-PRUint32
+uint32_t
 aDirection
 bool
 aIsForElement
@@ -632,7 +632,7 @@ positive
 "
 )
 ;
-PRUint32
+uint32_t
 whichIteration
 =
 int
@@ -893,7 +893,7 @@ thing
 to
 do
 .
-PRUint32
+uint32_t
 message
 =
 aAnimation
@@ -1099,7 +1099,7 @@ properties
 ;
 for
 (
-PRUint32
+uint32_t
 animIdx
 =
 mAnimations
@@ -1294,7 +1294,7 @@ in
 ;
 for
 (
-PRUint32
+uint32_t
 propIdx
 =
 0
@@ -1743,7 +1743,7 @@ const
 {
 for
 (
-PRUint32
+uint32_t
 propIdx
 =
 0
@@ -1800,7 +1800,7 @@ const
 {
 for
 (
-PRUint32
+uint32_t
 animIdx
 =
 mAnimations
@@ -1909,7 +1909,7 @@ MostRecentRefresh
 ;
 for
 (
-PRUint32
+uint32_t
 animIdx
 =
 mAnimations
@@ -1939,7 +1939,7 @@ animIdx
 ;
 for
 (
-PRUint32
+uint32_t
 propIdx
 =
 0
@@ -1997,7 +1997,7 @@ break
 }
 for
 (
-PRUint32
+uint32_t
 animIdx
 =
 mAnimations
@@ -2051,7 +2051,7 @@ continue
 }
 for
 (
-PRUint32
+uint32_t
 propIdx
 =
 0
@@ -3092,7 +3092,7 @@ IsEmpty
 {
 for
 (
-PRUint32
+uint32_t
 newIdx
 =
 0
@@ -3234,7 +3234,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 oldIdx
 =
 ea
@@ -3633,7 +3633,7 @@ PLDHashNumber
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 "
 this
@@ -3642,7 +3642,7 @@ function
 assumes
 PLDHashNumber
 is
-PRUint32
+uint32_t
 "
 )
 ;
@@ -3665,7 +3665,7 @@ function
 assumes
 PLDHashNumber
 is
-PRUint32
+uint32_t
 "
 )
 ;
@@ -3728,7 +3728,7 @@ KeyframeData
 float
 mKey
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 /
@@ -4158,7 +4158,7 @@ MostRecentRefresh
 ;
 for
 (
-PRUint32
+uint32_t
 animIdx
 =
 0
@@ -4437,7 +4437,7 @@ sortedKeyframes
 ;
 for
 (
-PRUint32
+uint32_t
 ruleIdx
 =
 0
@@ -4540,7 +4540,7 @@ GetKeys
 ;
 for
 (
-PRUint32
+uint32_t
 keyIdx
 =
 0
@@ -4722,7 +4722,7 @@ properties
 ;
 for
 (
-PRUint32
+uint32_t
 kfIdx
 =
 0
@@ -4765,7 +4765,7 @@ Declaration
 ;
 for
 (
-PRUint32
+uint32_t
 propIdx
 =
 0
@@ -4905,7 +4905,7 @@ property
 .
 AutoInfallibleTArray
 <
-PRUint32
+uint32_t
 16
 >
 keyframesWithProperty
@@ -4924,7 +4924,7 @@ invalid
 key
 for
 (
-PRUint32
+uint32_t
 kfIdx
 =
 0
@@ -5065,7 +5065,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 wpIdx
 =
 0
@@ -5087,7 +5087,7 @@ wpEnd
 wpIdx
 )
 {
-PRUint32
+uint32_t
 kfIdx
 =
 keyframesWithProperty
@@ -6088,7 +6088,7 @@ events
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6208,7 +6208,7 @@ Clear
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

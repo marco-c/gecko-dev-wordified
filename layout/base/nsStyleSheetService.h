@@ -276,13 +276,13 @@ aCategory
 nsISimpleEnumerator
 *
 aEnumerator
-PRUint32
+uint32_t
 aSheetType
 )
 ;
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 FindSheetByURI
 (
@@ -335,7 +335,7 @@ LoadAndRegisterSheetInternal
 nsIURI
 *
 aSheetURI
-PRUint32
+uint32_t
 aSheetType
 )
 ;

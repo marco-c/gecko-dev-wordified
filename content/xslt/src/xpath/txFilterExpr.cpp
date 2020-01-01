@@ -431,7 +431,7 @@ FilterExpr
 :
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -465,7 +465,7 @@ FilterExpr
 :
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *

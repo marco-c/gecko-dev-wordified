@@ -247,7 +247,7 @@ mozilla
 CondVar
 mCondVar
 ;
-PRUint32
+uint32_t
 mPromptResult
 ;
 bool

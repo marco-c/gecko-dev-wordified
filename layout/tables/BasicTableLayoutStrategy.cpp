@@ -1805,7 +1805,7 @@ without
 a
 colspan
 .
-PRInt32
+int32_t
 col
 col_end
 ;
@@ -2103,7 +2103,7 @@ cellMap
 col
 )
 ;
-PRInt32
+int32_t
 row
 colSpan
 ;
@@ -2483,7 +2483,7 @@ Item
 *
 item
 ;
-PRInt32
+int32_t
 colSpan
 ;
 while
@@ -2522,7 +2522,7 @@ sorter
 ;
 do
 {
-PRInt32
+int32_t
 row
 =
 item
@@ -3063,7 +3063,7 @@ from
 1
 .
 0f
-PRInt32
+int32_t
 colCount
 =
 cellMap
@@ -3108,7 +3108,7 @@ cell
 originates
 for
 (
-PRInt32
+int32_t
 col
 =
 0
@@ -3707,7 +3707,7 @@ GetCellMap
 (
 )
 ;
-PRInt32
+int32_t
 colCount
 =
 cellMap
@@ -3774,9 +3774,9 @@ DistributePctWidthToColumns
 (
 float
 aSpanPrefPct
-PRInt32
+int32_t
 aFirstCol
-PRInt32
+int32_t
 aColCount
 )
 {
@@ -3787,7 +3787,7 @@ loop
 to
 determine
 :
-PRInt32
+int32_t
 nonPctColCount
 =
 0
@@ -3827,7 +3827,7 @@ already
 have
 %
 width
-PRInt32
+int32_t
 scol
 scol_end
 ;
@@ -4330,9 +4330,9 @@ DistributeWidthToColumns
 (
 nscoord
 aWidth
-PRInt32
+int32_t
 aFirstCol
-PRInt32
+int32_t
 aColCount
 BtlsWidthType
 aWidthType
@@ -4464,7 +4464,7 @@ aFirstCol
 1
 for
 (
-PRInt32
+int32_t
 col
 =
 aFirstCol
@@ -5059,17 +5059,17 @@ to
 1
 .
 0f
-PRInt32
+int32_t
 numInfiniteWidthCols
 =
 0
 ;
-PRInt32
+int32_t
 numNonSpecZeroWidthCols
 =
 0
 ;
-PRInt32
+int32_t
 col
 ;
 nsTableCellMap

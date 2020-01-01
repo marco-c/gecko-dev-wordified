@@ -1027,7 +1027,7 @@ nsAccessibilityService
 :
 FireAccessibleEvent
 (
-PRUint32
+uint32_t
 aEvent
 Accessible
 *
@@ -3473,7 +3473,7 @@ nsAccessibilityService
 :
 GetStringRole
 (
-PRUint32
+uint32_t
 aRole
 nsAString
 &
@@ -3548,9 +3548,9 @@ nsAccessibilityService
 :
 GetStringStates
 (
-PRUint32
+uint32_t
 aState
-PRUint32
+uint32_t
 aExtraState
 nsIDOMDOMStringList
 *
@@ -3573,7 +3573,7 @@ stringStates
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint64
+uint64_t
 state
 =
 nsAccUtils
@@ -4632,7 +4632,7 @@ expandable
 /
 unknown
 states
-PRUint32
+uint32_t
 stringStatesLength
 =
 0
@@ -4690,7 +4690,7 @@ nsAccessibilityService
 :
 GetStringEventType
 (
-PRUint32
+uint32_t
 aEventType
 nsAString
 &
@@ -4772,7 +4772,7 @@ nsAccessibilityService
 :
 GetStringRelationType
 (
-PRUint32
+uint32_t
 aRelationType
 nsAString
 &
@@ -8379,7 +8379,7 @@ accessibleProvider
 return
 nullptr
 ;
-PRInt32
+int32_t
 type
 ;
 nsresult
@@ -11125,7 +11125,7 @@ treeColumns
 return
 nullptr
 ;
-PRInt32
+int32_t
 count
 =
 0

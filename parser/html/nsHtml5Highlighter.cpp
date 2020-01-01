@@ -707,7 +707,7 @@ of
 "
 prefix
 .
-PRUint32
+uint32_t
 length
 =
 aTitle
@@ -737,7 +737,7 @@ get
 )
 0
 (
-PRInt32
+int32_t
 )
 length
 )
@@ -869,17 +869,17 @@ eTreeOpStartLayout
 )
 ;
 }
-PRInt32
+int32_t
 nsHtml5Highlighter
 :
 :
 Transition
 (
-PRInt32
+int32_t
 aState
 bool
 aReconsume
-PRInt32
+int32_t
 aPos
 )
 {
@@ -2284,7 +2284,7 @@ nsHtml5Highlighter
 :
 DropBuffer
 (
-PRInt32
+int32_t
 aPos
 )
 {
@@ -2584,7 +2584,7 @@ getBuffer
 (
 )
 ;
-PRInt32
+int32_t
 i
 =
 mCStart
@@ -2724,7 +2724,7 @@ mCStart
 i
 )
 {
-PRInt32
+int32_t
 len
 =
 i
@@ -2813,7 +2813,7 @@ mCStart
 mPos
 )
 {
-PRInt32
+int32_t
 len
 =
 mPos
@@ -3297,9 +3297,9 @@ const
 PRUnichar
 *
 aBuffer
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aLength
 )
 {

@@ -2232,7 +2232,7 @@ aMIMEType
 false
 )
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -4612,7 +4612,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -5573,13 +5573,13 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aCurSelfProgress
-PRInt32
+int32_t
 aMaxSelfProgress
-PRInt32
+int32_t
 aCurTotalProgress
-PRInt32
+int32_t
 aMaxTotalProgress
 )
 {
@@ -5773,7 +5773,7 @@ aRequest
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -6287,7 +6287,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 state
 )
 {
@@ -6688,7 +6688,7 @@ nsEditingSession
 :
 GetEditorStatus
 (
-PRUint32
+uint32_t
 *
 aStatus
 )
@@ -9366,7 +9366,7 @@ aWindow
 nsISupports
 *
 aContext
-PRUint32
+uint32_t
 *
 aControllerId
 )
@@ -9859,7 +9859,7 @@ aControllers
 nsISupports
 *
 aContext
-PRUint32
+uint32_t
 aID
 )
 {

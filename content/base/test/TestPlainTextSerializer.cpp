@@ -397,7 +397,7 @@ body
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -480,7 +480,7 @@ result
 case
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -519,7 +519,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

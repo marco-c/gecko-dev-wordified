@@ -141,7 +141,7 @@ localeBaseURI
 SerializedURI
 skinBaseURI
 ;
-PRUint32
+uint32_t
 flags
 ;
 }
@@ -371,7 +371,7 @@ contentBaseURI
 localeBaseURI
 skinBaseURI
 ;
-PRUint32
+uint32_t
 flags
 ;
 if

@@ -402,7 +402,7 @@ Notify
 )
 ;
 }
-PRInt32
+int32_t
 mIncrement
 ;
 bool

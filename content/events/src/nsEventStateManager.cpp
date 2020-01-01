@@ -750,13 +750,13 @@ sKeyCausesActivation
 true
 ;
 static
-PRUint32
+uint32_t
 sESMInstanceCount
 =
 0
 ;
 static
-PRInt32
+int32_t
 sChromeAccessModifier
 =
 0
@@ -764,7 +764,7 @@ sContentAccessModifier
 =
 0
 ;
-PRInt32
+int32_t
 nsEventStateManager
 :
 :
@@ -894,7 +894,7 @@ sDragOverContent
 nullptr
 ;
 static
-PRUint32
+uint32_t
 gMouseOrKeyboardEventCounter
 =
 0
@@ -951,7 +951,7 @@ nullptr
 ;
 static
 inline
-PRInt32
+int32_t
 RoundDown
 (
 double
@@ -967,7 +967,7 @@ aDouble
 ?
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 floor
@@ -978,7 +978,7 @@ aDouble
 :
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 ceil
@@ -1056,7 +1056,7 @@ aLevel
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1075,7 +1075,7 @@ printf
 "
 )
 ;
-PRInt32
+int32_t
 childWebshellCount
 ;
 aParentItem
@@ -1099,7 +1099,7 @@ aParentItem
 )
 )
 ;
-PRInt32
+int32_t
 type
 ;
 aParentItem
@@ -1375,7 +1375,7 @@ childWebshellCount
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1502,7 +1502,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 private
 :
-PRUint32
+uint32_t
 mPreviousCount
 ;
 }
@@ -1741,14 +1741,14 @@ doc
 ;
 }
 static
-PRInt32
+int32_t
 GetAccessModifierMaskFromPref
 (
-PRInt32
+int32_t
 aItemType
 )
 {
-PRInt32
+int32_t
 accessKey
 =
 Preferences
@@ -2054,7 +2054,7 @@ Shutdown
 )
 ;
 static
-PRUint32
+uint32_t
 GetTimeoutTime
 (
 )
@@ -2116,19 +2116,19 @@ SetTimeout
 )
 ;
 static
-PRUint32
+uint32_t
 GetIgnoreMoveDelayTime
 (
 )
 ;
 static
-PRInt32
+int32_t
 GetAccelerationStart
 (
 )
 ;
 static
-PRInt32
+int32_t
 GetAccelerationFactor
 (
 )
@@ -2151,7 +2151,7 @@ ComputeAcceleratedWheelDelta
 (
 double
 aDelta
-PRInt32
+int32_t
 aFactor
 )
 ;
@@ -2160,7 +2160,7 @@ nsWeakFrame
 sTargetFrame
 ;
 static
-PRUint32
+uint32_t
 sTime
 ;
 /
@@ -2168,7 +2168,7 @@ sTime
 in
 milliseconds
 static
-PRUint32
+uint32_t
 sMouseMoved
 ;
 /
@@ -2181,7 +2181,7 @@ nsITimer
 sTimer
 ;
 static
-PRInt32
+int32_t
 sScrollSeriesCounter
 ;
 }
@@ -2195,7 +2195,7 @@ sTargetFrame
 nullptr
 )
 ;
-PRUint32
+uint32_t
 nsMouseWheelTransaction
 :
 :
@@ -2203,7 +2203,7 @@ sTime
 =
 0
 ;
-PRUint32
+uint32_t
 nsMouseWheelTransaction
 :
 :
@@ -2220,7 +2220,7 @@ sTimer
 =
 nullptr
 ;
-PRInt32
+int32_t
 nsMouseWheelTransaction
 :
 :
@@ -2232,13 +2232,13 @@ static
 bool
 OutOfTime
 (
-PRUint32
+uint32_t
 aBaseTime
-PRUint32
+uint32_t
 aThreshold
 )
 {
-PRUint32
+uint32_t
 now
 =
 PR_IntervalToMilliseconds
@@ -3422,7 +3422,7 @@ WidgetToScreenOffset
 )
 ;
 }
-PRUint32
+uint32_t
 nsMouseWheelTransaction
 :
 :
@@ -3447,7 +3447,7 @@ timeout
 )
 ;
 }
-PRUint32
+uint32_t
 nsMouseWheelTransaction
 :
 :
@@ -3549,7 +3549,7 @@ Accelerate
 by
 the
 sScrollSeriesCounter
-PRInt32
+int32_t
 start
 =
 GetAccelerationStart
@@ -3570,7 +3570,7 @@ sScrollSeriesCounter
 start
 )
 {
-PRInt32
+int32_t
 factor
 =
 GetAccelerationFactor
@@ -3622,7 +3622,7 @@ ComputeAcceleratedWheelDelta
 (
 double
 aDelta
-PRInt32
+int32_t
 aFactor
 )
 {
@@ -3655,7 +3655,7 @@ aFactor
 )
 ;
 }
-PRInt32
+int32_t
 nsMouseWheelTransaction
 :
 :
@@ -3681,7 +3681,7 @@ start
 )
 ;
 }
-PRInt32
+int32_t
 nsMouseWheelTransaction
 :
 :
@@ -3989,7 +3989,7 @@ widget
 result
 )
 ;
-PRInt32
+int32_t
 overriddenDeltaX
 =
 0
@@ -6363,7 +6363,7 @@ nsKeyEvent
 )
 aEvent
 ;
-PRInt32
+int32_t
 modifierMask
 =
 0
@@ -7315,7 +7315,7 @@ NS_OK
 ;
 }
 static
-PRInt32
+int32_t
 GetAccessModifierMask
 (
 nsISupports
@@ -7348,7 +7348,7 @@ return
 /
 invalid
 modifier
-PRInt32
+int32_t
 itemType
 ;
 treeItem
@@ -7674,7 +7674,7 @@ ExecuteAccessKey
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aAccessCharCodes
@@ -7682,7 +7682,7 @@ bool
 aIsTrustedEvent
 )
 {
-PRInt32
+int32_t
 count
 start
 =
@@ -7750,7 +7750,7 @@ nsIFrame
 *
 frame
 ;
-PRInt32
+int32_t
 length
 =
 mAccessKeys
@@ -7761,7 +7761,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7779,7 +7779,7 @@ Length
 i
 )
 {
-PRUint32
+uint32_t
 ch
 =
 aAccessCharCodes
@@ -8010,7 +8010,7 @@ GetContainer
 (
 )
 ;
-PRInt32
+int32_t
 modifier
 =
 GetAccessModifierMask
@@ -8172,7 +8172,7 @@ nsIDocShellTreeItem
 aBubbledFrom
 ProcessingAccessKeyState
 aAccessKeyState
-PRInt32
+int32_t
 aModifierMask
 )
 {
@@ -8247,7 +8247,7 @@ aEvent
 ;
 nsAutoTArray
 <
-PRUint32
+uint32_t
 10
 >
 accessCharCodes
@@ -8332,7 +8332,7 @@ presContext
 return
 ;
 }
-PRInt32
+int32_t
 childCount
 ;
 docShell
@@ -8346,7 +8346,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 counter
 =
 0
@@ -9512,7 +9512,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9719,7 +9719,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9788,7 +9788,7 @@ frameLoader
 continue
 ;
 }
-PRUint32
+uint32_t
 eventMode
 ;
 frameLoader
@@ -10004,7 +10004,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10275,7 +10275,7 @@ if
 mClickHoldTimer
 )
 {
-PRInt32
+int32_t
 clickHoldDelay
 =
 Preferences
@@ -11076,7 +11076,7 @@ to
 have
 context
 menus
-PRInt32
+int32_t
 type
 =
 formCtrl
@@ -12062,13 +12062,13 @@ return
 ;
 }
 static
-PRInt32
+int32_t
 pixelThresholdX
 =
 0
 ;
 static
-PRInt32
+int32_t
 pixelThresholdY
 =
 0
@@ -13593,7 +13593,7 @@ anything
 to
 drag
 .
-PRUint32
+uint32_t
 count
 =
 0
@@ -13750,7 +13750,7 @@ allow
 a
 drop
 .
-PRUint32
+uint32_t
 action
 ;
 aDataTransfer
@@ -13799,7 +13799,7 @@ image
 that
 was
 set
-PRInt32
+int32_t
 imageX
 imageY
 ;
@@ -14436,7 +14436,7 @@ nsEventStateManager
 :
 ChangeTextSize
 (
-PRInt32
+int32_t
 change
 )
 {
@@ -14572,7 +14572,7 @@ nsEventStateManager
 :
 ChangeFullZoom
 (
-PRInt32
+int32_t
 change
 )
 {
@@ -14708,7 +14708,7 @@ nsEventStateManager
 :
 DoScrollHistory
 (
-PRInt32
+int32_t
 direction
 )
 {
@@ -14794,7 +14794,7 @@ DoScrollZoom
 nsIFrame
 *
 aTargetFrame
-PRInt32
+int32_t
 adjustment
 )
 {
@@ -14860,7 +14860,7 @@ zoom
 negative
 to
 increase
-PRInt32
+int32_t
 change
 =
 (
@@ -15231,7 +15231,7 @@ and
 rare
 cases
 .
-PRInt32
+int32_t
 scrollDeltaX
 scrollDeltaY
 pixelDeltaX
@@ -15730,7 +15730,7 @@ aEvent
 nsEventStatus
 *
 aStatus
-PRInt32
+int32_t
 aDelta
 DeltaDirection
 aDeltaDirection
@@ -15930,7 +15930,7 @@ aEvent
 nsEventStatus
 *
 aStatus
-PRInt32
+int32_t
 aPixelDelta
 DeltaDirection
 aDeltaDirection
@@ -16876,7 +16876,7 @@ nsSize
 )
 )
 ;
-PRInt32
+int32_t
 fontHeight
 =
 fm
@@ -18046,7 +18046,7 @@ Not
 a
 XUL
 box
-PRUint32
+uint32_t
 scrollbarVisibility
 =
 scrollableFrame
@@ -18823,7 +18823,7 @@ nullptr
 break
 ;
 }
-PRInt32
+int32_t
 tabIndexUnused
 ;
 if
@@ -20136,7 +20136,7 @@ be
 /
 allowed
 .
-PRUint32
+uint32_t
 dropEffect
 =
 nsIDragService
@@ -20305,7 +20305,7 @@ dataTransfer
 =
 initialDataTransfer
 ;
-PRUint32
+uint32_t
 action
 ;
 dragSession
@@ -20390,7 +20390,7 @@ effects
 are
 allowed
 .
-PRUint32
+uint32_t
 effectAllowed
 =
 nsIDragService
@@ -20493,7 +20493,7 @@ not
 be
 allowed
 .
-PRUint32
+uint32_t
 action
 =
 nsIDragService
@@ -21096,7 +21096,7 @@ keyCode
 NS_VK_F6
 )
 ;
-PRUint32
+uint32_t
 dir
 =
 static_cast
@@ -21118,7 +21118,7 @@ isDocMove
 ?
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIFocusManager
@@ -21129,7 +21129,7 @@ MOVEFOCUS_BACKWARDDOC
 :
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIFocusManager
@@ -21144,7 +21144,7 @@ isDocMove
 ?
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIFocusManager
@@ -21155,7 +21155,7 @@ MOVEFOCUS_FORWARDDOC
 :
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIFocusManager
@@ -21651,7 +21651,7 @@ GetContent
 return
 ;
 }
-PRInt32
+int32_t
 cursor
 =
 NS_STYLE_CURSOR_DEFAULT
@@ -21859,7 +21859,7 @@ docShell
 )
 return
 ;
-PRUint32
+uint32_t
 busyFlags
 =
 nsIDocShell
@@ -21977,7 +21977,7 @@ nsEventStateManager
 :
 SetCursor
 (
-PRInt32
+int32_t
 aCursor
 imgIContainer
 *
@@ -22413,7 +22413,7 @@ if
 aContainer
 )
 {
-PRUint32
+uint32_t
 hotspotX
 hotspotY
 ;
@@ -22453,7 +22453,7 @@ if
 aHaveHotspot
 )
 {
-PRInt32
+int32_t
 imgWidth
 imgHeight
 ;
@@ -22495,7 +22495,7 @@ aHotspotX
 .
 0f
 ?
-PRUint32
+uint32_t
 (
 aHotspotX
 +
@@ -22504,7 +22504,7 @@ aHotspotX
 5f
 )
 :
-PRUint32
+uint32_t
 (
 0
 )
@@ -22514,7 +22514,7 @@ if
 hotspotX
 >
 =
-PRUint32
+uint32_t
 (
 imgWidth
 )
@@ -22533,7 +22533,7 @@ aHotspotY
 .
 0f
 ?
-PRUint32
+uint32_t
 (
 aHotspotY
 +
@@ -22542,7 +22542,7 @@ aHotspotY
 5f
 )
 :
-PRUint32
+uint32_t
 (
 0
 )
@@ -22552,7 +22552,7 @@ if
 hotspotY
 >
 =
-PRUint32
+uint32_t
 (
 imgHeight
 )
@@ -22793,7 +22793,7 @@ DispatchMouseEvent
 nsGUIEvent
 *
 aEvent
-PRUint32
+uint32_t
 aMessage
 nsIContent
 *
@@ -23202,7 +23202,7 @@ aRelatedTarget
 nsGUIEvent
 *
 aEvent
-PRUint32
+uint32_t
 aType
 )
 :
@@ -23376,7 +23376,7 @@ NS_MOUSEENTER
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mTargets
@@ -23417,7 +23417,7 @@ else
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -23472,7 +23472,7 @@ nsGUIEvent
 *
 mEvent
 ;
-PRUint32
+uint32_t
 mType
 ;
 }
@@ -24230,10 +24230,10 @@ GetMozInnerScreenX
 cssInnerX
 )
 ;
-PRInt32
+int32_t
 innerX
 =
-PRInt32
+int32_t
 (
 NS_round
 (
@@ -24263,10 +24263,10 @@ GetMozInnerScreenY
 cssInnerY
 )
 ;
-PRInt32
+int32_t
 innerY
 =
-PRInt32
+int32_t
 (
 NS_round
 (
@@ -24280,7 +24280,7 @@ cssInnerY
 )
 )
 ;
-PRInt32
+int32_t
 innerWidth
 =
 0
@@ -24294,7 +24294,7 @@ GetInnerWidth
 innerWidth
 )
 ;
-PRInt32
+int32_t
 innerHeight
 =
 0
@@ -25394,7 +25394,7 @@ aPresContext
 nsGUIEvent
 *
 aEvent
-PRUint32
+uint32_t
 aMsg
 nsIContent
 *
@@ -26185,7 +26185,7 @@ ret
 =
 NS_OK
 ;
-PRInt32
+int32_t
 flags
 =
 NS_EVENT_FLAG_NONE
@@ -26902,7 +26902,7 @@ again
 in
 pairs
 .
-PRInt32
+int32_t
 offset
 =
 0
@@ -28879,7 +28879,7 @@ RegisterAccessKey
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -28916,7 +28916,7 @@ UnregisterAccessKey
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -28932,7 +28932,7 @@ aContent
 )
 ;
 }
-PRUint32
+uint32_t
 nsEventStateManager
 :
 :
@@ -32178,7 +32178,7 @@ lineOrPageDeltaX
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 mMultiplierX
@@ -32195,7 +32195,7 @@ lineOrPageDeltaY
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 mMultiplierY

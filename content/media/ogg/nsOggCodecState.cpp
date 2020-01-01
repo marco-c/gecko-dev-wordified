@@ -233,7 +233,7 @@ at
 p
 .
 static
-PRUint32
+uint32_t
 LEUint32
 (
 const
@@ -294,7 +294,7 @@ at
 p
 .
 static
-PRInt64
+int64_t
 LEInt64
 (
 const
@@ -304,7 +304,7 @@ char
 p
 )
 {
-PRUint32
+uint32_t
 lo
 =
 LEUint32
@@ -312,7 +312,7 @@ LEUint32
 p
 )
 ;
-PRUint32
+uint32_t
 hi
 =
 LEUint32
@@ -325,7 +325,7 @@ p
 return
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 lo
@@ -334,7 +334,7 @@ lo
 (
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 hi
@@ -360,7 +360,7 @@ at
 p
 .
 static
-PRUint16
+uint16_t
 LEUint16
 (
 const
@@ -402,7 +402,7 @@ at
 p
 .
 static
-PRInt16
+int16_t
 LEInt16
 (
 const
@@ -415,7 +415,7 @@ p
 return
 static_cast
 <
-PRInt16
+int16_t
 >
 (
 LEUint16
@@ -801,7 +801,7 @@ ClearUnstamped
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1140,7 +1140,7 @@ NS_ASSERTION
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 ogg_page_serialno
@@ -1550,14 +1550,14 @@ mActive
 return
 false
 ;
-PRInt64
+int64_t
 n
 =
 mInfo
 .
 aspect_numerator
 ;
-PRInt64
+int64_t
 d
 =
 mInfo
@@ -2023,13 +2023,13 @@ return
 true
 ;
 }
-PRInt64
+int64_t
 nsTheoraState
 :
 :
 Time
 (
-PRInt64
+int64_t
 granulepos
 )
 {
@@ -2155,7 +2155,7 @@ _sub
 )
 )
 )
-PRInt64
+int64_t
 nsTheoraState
 :
 :
@@ -2164,7 +2164,7 @@ Time
 th_info
 *
 aInfo
-PRInt64
+int64_t
 aGranulepos
 )
 {
@@ -2237,7 +2237,7 @@ iframe
 shift
 )
 ;
-PRInt64
+int64_t
 frameno
 =
 iframe
@@ -2311,13 +2311,13 @@ value
 1
 ;
 }
-PRInt64
+int64_t
 nsTheoraState
 :
 :
 StartTime
 (
-PRInt64
+int64_t
 granulepos
 )
 {
@@ -2390,7 +2390,7 @@ mInfo
 fps_numerator
 ;
 }
-PRInt64
+int64_t
 nsTheoraState
 :
 :
@@ -2473,7 +2473,7 @@ granule_shift
 )
 frames
 .
-PRInt64
+int64_t
 frameDuration
 ;
 /
@@ -2488,7 +2488,7 @@ possibly
 be
 offset
 .
-PRInt64
+int64_t
 keyframeDiff
 =
 (
@@ -2568,7 +2568,7 @@ NS_ASSERTION
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 ogg_page_serialno
@@ -2672,7 +2672,7 @@ ReconstructTheoraGranulepos
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3187,7 +3187,7 @@ streams
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4263,13 +4263,13 @@ return
 true
 ;
 }
-PRInt64
+int64_t
 nsVorbisState
 :
 :
 Time
 (
-PRInt64
+int64_t
 granulepos
 )
 {
@@ -4296,7 +4296,7 @@ granulepos
 )
 ;
 }
-PRInt64
+int64_t
 nsVorbisState
 :
 :
@@ -4305,7 +4305,7 @@ Time
 vorbis_info
 *
 aInfo
-PRInt64
+int64_t
 aGranulepos
 )
 {
@@ -4517,7 +4517,7 @@ NS_ASSERTION
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 ogg_page_serialno
@@ -4621,7 +4621,7 @@ ReconstructVorbisGranulepos
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5140,7 +5140,7 @@ totalSamples
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mUnstamped
@@ -5328,7 +5328,7 @@ unknownGranulepos
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5424,7 +5424,7 @@ blockSize
 /
 4
 ;
-PRInt64
+int64_t
 start
 =
 first
@@ -5526,7 +5526,7 @@ s
 /
 samples
 .
-PRInt64
+int64_t
 pruned
 =
 mGranulepos
@@ -5535,7 +5535,7 @@ start
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6276,7 +6276,7 @@ mGain_Q16
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 NS_MIN
@@ -6698,7 +6698,7 @@ packet
 +
 8
 ;
-PRUint32
+uint32_t
 bytes
 =
 aPacket
@@ -6708,7 +6708,7 @@ bytes
 -
 8
 ;
-PRUint32
+uint32_t
 len
 ;
 /
@@ -6770,7 +6770,7 @@ bytes
 return
 false
 ;
-PRUint32
+uint32_t
 ncomments
 =
 LEUint32
@@ -6827,7 +6827,7 @@ bytes
 return
 false
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -6975,13 +6975,13 @@ granulepos
 .
 *
 /
-PRInt64
+int64_t
 nsOpusState
 :
 :
 Time
 (
-PRInt64
+int64_t
 aGranulepos
 )
 {
@@ -7002,7 +7002,7 @@ aGranulepos
 )
 ;
 }
-PRInt64
+int64_t
 nsOpusState
 :
 :
@@ -7010,7 +7010,7 @@ Time
 (
 int
 aPreSkip
-PRInt64
+int64_t
 aGranulepos
 )
 {
@@ -7143,7 +7143,7 @@ NS_ASSERTION
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 ogg_page_serialno
@@ -7223,7 +7223,7 @@ NS_ERROR_FAILURE
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7515,7 +7515,7 @@ granulepos
 "
 )
 ;
-PRInt64
+int64_t
 gp
 ;
 /
@@ -7612,7 +7612,7 @@ mPreSkip
 return
 false
 ;
-PRInt64
+int64_t
 last_gp
 =
 last
@@ -7657,7 +7657,7 @@ packet
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7796,7 +7796,7 @@ last_gp
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 i
@@ -7984,7 +7984,7 @@ packet
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 mUnstamped
@@ -8669,7 +8669,7 @@ unsigned
 char
 *
 aLimit
-PRInt64
+int64_t
 &
 n
 )
@@ -8679,7 +8679,7 @@ shift
 =
 0
 ;
-PRInt64
+int64_t
 byte
 =
 0
@@ -8714,7 +8714,7 @@ byte
 =
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 *
@@ -8790,7 +8790,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 serialno
 =
 LEUint32
@@ -8803,7 +8803,7 @@ packet
 INDEX_SERIALNO_OFFSET
 )
 ;
-PRInt64
+int64_t
 numKeyPoints
 =
 LEInt64
@@ -8816,7 +8816,7 @@ packet
 INDEX_NUM_KEYPOINTS_OFFSET
 )
 ;
-PRInt64
+int64_t
 endTime
 =
 0
@@ -8835,7 +8835,7 @@ aPacket
 >
 packet
 ;
-PRInt64
+int64_t
 timeDenom
 =
 LEInt64
@@ -9051,7 +9051,7 @@ false
 )
 ;
 }
-PRInt64
+int64_t
 sizeofIndex
 =
 aPacket
@@ -9061,7 +9061,7 @@ bytes
 -
 INDEX_KEYPOINT_OFFSET
 ;
-PRInt64
+int64_t
 maxNumKeyPoints
 =
 sizeofIndex
@@ -9255,7 +9255,7 @@ aPacket
 >
 bytes
 ;
-PRInt64
+int64_t
 numKeyPointsRead
 =
 0
@@ -9282,7 +9282,7 @@ numKeyPointsRead
 numKeyPoints
 )
 {
-PRInt64
+int64_t
 delta
 =
 0
@@ -9441,7 +9441,7 @@ numKeyPointsRead
 +
 ;
 }
-PRInt32
+int32_t
 keyPointsRead
 =
 keyPoints
@@ -9502,9 +9502,9 @@ nsSkeletonState
 :
 IndexedSeekTargetForTrack
 (
-PRUint32
+uint32_t
 aSerialno
-PRInt64
+int64_t
 aTarget
 nsKeyPoint
 &
@@ -9714,11 +9714,11 @@ nsSkeletonState
 :
 IndexedSeekTarget
 (
-PRInt64
+int64_t
 aTarget
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aTracks
@@ -9817,7 +9817,7 @@ r
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9938,11 +9938,11 @@ GetDuration
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aTracks
-PRInt64
+int64_t
 &
 aDuration
 )
@@ -9982,19 +9982,19 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt64
+int64_t
 endTime
 =
 INT64_MIN
 ;
-PRInt64
+int64_t
 startTime
 =
 INT64_MAX
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10172,7 +10172,7 @@ aPacket
 )
 )
 {
-PRUint16
+uint16_t
 verMajor
 =
 LEUint16
@@ -10185,7 +10185,7 @@ packet
 SKELETON_VERSION_MAJOR_OFFSET
 )
 ;
-PRUint16
+uint16_t
 verMinor
 =
 LEUint16
@@ -10223,7 +10223,7 @@ in
 all
 versions
 .
-PRInt64
+int64_t
 n
 =
 LEInt64
@@ -10236,7 +10236,7 @@ packet
 SKELETON_PRESENTATION_TIME_NUMERATOR_OFFSET
 )
 ;
-PRInt64
+int64_t
 d
 =
 LEInt64

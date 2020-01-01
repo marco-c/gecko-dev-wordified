@@ -4899,7 +4899,7 @@ static
 const
 struct
 {
-PRUint32
+uint32_t
 tbl
 [
 32
@@ -21215,7 +21215,7 @@ decompose_table
 ;
 static
 const
-PRUint32
+uint32_t
 decompose_seq
 [
 ]

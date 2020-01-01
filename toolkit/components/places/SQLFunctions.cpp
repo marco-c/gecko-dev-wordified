@@ -1446,7 +1446,7 @@ const
 nsCString
 &
 aURISpec
-PRInt32
+int32_t
 aMatchBehavior
 nsCString
 &
@@ -2030,7 +2030,7 @@ MatchAutoCompleteFunction
 :
 getSearchFunction
 (
-PRInt32
+int32_t
 aBehavior
 )
 {
@@ -2210,7 +2210,7 @@ on
 /
 searchBehavior
 .
-PRInt32
+int32_t
 searchBehavior
 =
 aArguments
@@ -2269,7 +2269,7 @@ kArgIndexURL
 url
 )
 ;
-PRInt32
+int32_t
 matchBehavior
 =
 aArguments
@@ -2374,7 +2374,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 visitCount
 =
 aArguments
@@ -2430,7 +2430,7 @@ kArgIndexTags
 tags
 )
 ;
-PRInt32
+int32_t
 openPageCount
 =
 aArguments
@@ -3137,7 +3137,7 @@ they
 were
 omitted
 .
-PRUint32
+uint32_t
 numEntries
 ;
 nsresult
@@ -3183,7 +3183,7 @@ PLACES_FRECENCY_CALC_TIME_MS
 >
 timer
 ;
-PRInt64
+int64_t
 pageId
 =
 aArguments
@@ -3194,7 +3194,7 @@ AsInt64
 0
 )
 ;
-PRInt32
+int32_t
 typed
 =
 numEntries
@@ -3211,7 +3211,7 @@ AsInt32
 :
 0
 ;
-PRInt32
+int32_t
 fullVisitCount
 =
 numEntries
@@ -3228,7 +3228,7 @@ AsInt32
 :
 0
 ;
-PRInt64
+int64_t
 bookmarkId
 =
 numEntries
@@ -3245,17 +3245,17 @@ AsInt64
 :
 0
 ;
-PRInt32
+int32_t
 visitCount
 =
 0
 ;
-PRInt32
+int32_t
 hidden
 =
 0
 ;
-PRInt32
+int32_t
 isQuery
 =
 0
@@ -3872,14 +3872,14 @@ of
 recent
 visits
 .
-PRInt32
+int32_t
 numSampledVisits
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 maxVisits
 =
 history
@@ -3914,7 +3914,7 @@ numSampledVisits
 +
 )
 {
-PRInt32
+int32_t
 visitType
 ;
 rv
@@ -3935,7 +3935,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 bonus
 =
 history
@@ -3998,7 +3998,7 @@ if
 bonus
 )
 {
-PRInt32
+int32_t
 ageInDays
 =
 getVisits
@@ -4009,7 +4009,7 @@ AsInt32
 0
 )
 ;
-PRInt32
+int32_t
 weight
 =
 history
@@ -4178,7 +4178,7 @@ new
 IntegerVariant
 (
 (
-PRInt32
+int32_t
 )
 ceilf
 (
@@ -4305,7 +4305,7 @@ figure
 it
 out
 .
-PRInt32
+int32_t
 bonus
 =
 0
@@ -4482,7 +4482,7 @@ new
 IntegerVariant
 (
 (
-PRInt32
+int32_t
 )
 ceilf
 (

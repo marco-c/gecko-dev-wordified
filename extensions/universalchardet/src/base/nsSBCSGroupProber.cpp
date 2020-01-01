@@ -415,7 +415,7 @@ all
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 11
@@ -511,7 +511,7 @@ nsSBCSGroupProber
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -617,7 +617,7 @@ mActiveNum
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -694,14 +694,14 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
 nsProbingState
 st
 ;
-PRUint32
+uint32_t
 i
 ;
 char
@@ -710,7 +710,7 @@ newBuf1
 =
 0
 ;
-PRUint32
+uint32_t
 newLen1
 =
 0
@@ -933,7 +933,7 @@ GetConfidence
 void
 )
 {
-PRUint32
+uint32_t
 i
 ;
 float
@@ -1051,7 +1051,7 @@ DumpStatus
 (
 )
 {
-PRUint32
+uint32_t
 i
 ;
 float

@@ -194,9 +194,9 @@ dispatched
 void
 Init
 (
-PRUint32
+uint32_t
 aChannels
-PRUint32
+uint32_t
 aRate
 )
 ;
@@ -222,7 +222,7 @@ thread
 void
 DispatchPendingEvents
 (
-PRUint64
+uint64_t
 aCurrentTime
 )
 ;
@@ -256,9 +256,9 @@ QueueWrittenAudioData
 AudioDataValue
 *
 aAudioData
-PRUint32
+uint32_t
 aAudioDataLength
-PRUint64
+uint64_t
 aEndTimeSampleOffset
 )
 ;
@@ -336,7 +336,7 @@ thread
 void
 Drain
 (
-PRUint64
+uint64_t
 aTime
 )
 ;
@@ -365,7 +365,7 @@ thread
 void
 SetSignalBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -504,7 +504,7 @@ to
 DOM
 calls
 .
-PRUint32
+uint32_t
 mSignalBufferLength
 ;
 /
@@ -523,7 +523,7 @@ to
 DOM
 calls
 .
-PRUint32
+uint32_t
 mNewSignalBufferLength
 ;
 /
@@ -537,7 +537,7 @@ available
 item
 in
 mSignalBuffer
-PRUint32
+uint32_t
 mSignalBufferPosition
 ;
 /

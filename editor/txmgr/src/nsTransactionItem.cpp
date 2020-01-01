@@ -494,7 +494,7 @@ nsTransactionItem
 :
 GetNumberOfChildren
 (
-PRInt32
+int32_t
 *
 aNumChildren
 )
@@ -513,12 +513,12 @@ aNumChildren
 =
 0
 ;
-PRInt32
+int32_t
 ui
 =
 0
 ;
-PRInt32
+int32_t
 ri
 =
 0
@@ -568,7 +568,7 @@ nsTransactionItem
 :
 GetChild
 (
-PRInt32
+int32_t
 aIndex
 nsTransactionItem
 *
@@ -587,7 +587,7 @@ aChild
 =
 0
 ;
-PRInt32
+int32_t
 numItems
 =
 0
@@ -934,7 +934,7 @@ result
 =
 NS_OK
 ;
-PRInt32
+int32_t
 sz
 =
 0
@@ -1246,7 +1246,7 @@ children
 !
 *
 /
-PRInt32
+int32_t
 sz
 =
 mRedoStack
@@ -1407,7 +1407,7 @@ nsTransactionItem
 :
 GetNumberOfUndoItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )
@@ -1458,7 +1458,7 @@ nsTransactionItem
 :
 GetNumberOfRedoItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )

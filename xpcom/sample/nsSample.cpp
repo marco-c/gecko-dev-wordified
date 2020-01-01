@@ -969,7 +969,7 @@ get
 (
 )
 ;
-PRUint32
+uint32_t
 l
 =
 foopy
@@ -1064,7 +1064,7 @@ get
 (
 )
 ;
-PRUint32
+uint32_t
 l2
 =
 foopy2

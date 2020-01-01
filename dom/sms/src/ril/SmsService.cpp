@@ -249,7 +249,7 @@ const
 nsAString
 &
 aText
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -296,9 +296,9 @@ const
 nsAString
 &
 aMessage
-PRInt32
+int32_t
 aRequestId
-PRUint64
+uint64_t
 aProcessId
 )
 {
@@ -333,7 +333,7 @@ SmsService
 :
 CreateSmsMessage
 (
-PRInt32
+int32_t
 aId
 const
 nsAString

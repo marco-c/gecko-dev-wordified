@@ -117,7 +117,7 @@ nsDocShellEnumerator
 :
 nsDocShellEnumerator
 (
-PRInt32
+int32_t
 inEnumerationDirection
 )
 :
@@ -396,7 +396,7 @@ nsDocShellEnumerator
 :
 GetEnumDocShellType
 (
-PRInt32
+int32_t
 *
 aEnumerationItemType
 )
@@ -421,7 +421,7 @@ nsDocShellEnumerator
 :
 SetEnumDocShellType
 (
-PRInt32
+int32_t
 aEnumerationItemType
 )
 {
@@ -598,7 +598,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 itemType
 ;
 /
@@ -662,7 +662,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRInt32
+int32_t
 numChildren
 ;
 rv
@@ -688,7 +688,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -798,7 +798,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 numChildren
 ;
 rv
@@ -824,7 +824,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 numChildren
@@ -890,7 +890,7 @@ return
 rv
 ;
 }
-PRInt32
+int32_t
 itemType
 ;
 /

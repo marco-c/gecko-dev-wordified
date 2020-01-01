@@ -725,7 +725,7 @@ IDBTransaction
 *
 mTransaction
 ;
-PRUint64
+uint64_t
 mOffsetToKeyProp
 ;
 }

@@ -1170,10 +1170,10 @@ NS_OK
 ;
 }
 inline
-PRInt32
+int32_t
 ConvertOverflow
 (
-PRUint8
+uint8_t
 aOverflow
 )
 {
@@ -1897,7 +1897,7 @@ GetPresContext
 nsDisplayList
 childItems
 ;
-PRInt32
+int32_t
 parentAPD
 =
 PresContext
@@ -1909,7 +1909,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 subdocAPD
 =
 presContext
@@ -2280,7 +2280,7 @@ contents
 if
 necessary
 .
-PRUint32
+uint32_t
 flags
 =
 nsIPresShell
@@ -3122,7 +3122,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3770,12 +3770,12 @@ nsSubDocumentFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -4244,7 +4244,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 parentType
 ;
 parentItem

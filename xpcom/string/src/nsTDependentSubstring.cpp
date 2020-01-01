@@ -122,9 +122,9 @@ const
 substring_type
 &
 str
-PRUint32
+uint32_t
 startPos
-PRUint32
+uint32_t
 length
 )
 {

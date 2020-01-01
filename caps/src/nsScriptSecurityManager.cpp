@@ -752,12 +752,12 @@ sInPrincipalDomainOrigin
 ;
 }
 static
-PRUint32
+uint32_t
 sInPrincipalDomainOrigin
 ;
 }
 ;
-PRUint32
+uint32_t
 nsAutoInPrincipalDomainOriginSetter
 :
 :
@@ -1117,7 +1117,7 @@ members
 #
 ifdef
 DEBUG_CAPS_DomainPolicyLifeCycle
-PRUint32
+uint32_t
 DomainPolicy
 :
 :
@@ -1159,7 +1159,7 @@ sObjects
 }
 #
 endif
-PRUint32
+uint32_t
 DomainPolicy
 :
 :
@@ -1253,7 +1253,7 @@ mName
 )
 ;
 }
-PRUint32
+uint32_t
 GetFlags
 (
 )
@@ -1399,7 +1399,7 @@ mClassInfo
 /
 /
 WEAK
-PRUint32
+uint32_t
 mFlags
 ;
 char
@@ -1607,7 +1607,7 @@ nsNetUtil
 .
 h
 .
-PRUint32
+uint32_t
 nsScriptSecurityManager
 :
 :
@@ -1744,7 +1744,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 appId
 =
 UNKNOWN_APP_ID
@@ -3298,7 +3298,7 @@ JSACC_WRITE
 )
 ?
 (
-PRInt32
+int32_t
 )
 nsIXPCSecurityManager
 :
@@ -3306,7 +3306,7 @@ nsIXPCSecurityManager
 ACCESS_SET_PROPERTY
 :
 (
-PRInt32
+int32_t
 )
 nsIXPCSecurityManager
 :
@@ -3359,7 +3359,7 @@ char
 aClassName
 jsid
 aProperty
-PRUint32
+uint32_t
 aAction
 )
 {
@@ -3688,7 +3688,7 @@ nsScriptSecurityManager
 :
 CheckPropertyAccessImpl
 (
-PRUint32
+uint32_t
 aAction
 nsAXPCNativeCallContext
 *
@@ -4887,7 +4887,7 @@ get
 )
 }
 ;
-PRUint32
+uint32_t
 length
 =
 ArrayLength
@@ -5576,7 +5576,7 @@ bug
 static
 *
 /
-PRUint32
+uint32_t
 nsScriptSecurityManager
 :
 :
@@ -5639,7 +5639,7 @@ aSubject
 nsIPrincipal
 *
 aObject
-PRUint32
+uint32_t
 aAction
 )
 {
@@ -5749,7 +5749,7 @@ ClassInfoData
 aClassData
 jsid
 aProperty
-PRUint32
+uint32_t
 aAction
 ClassPolicy
 *
@@ -5993,7 +5993,7 @@ slash
 )
 for
 (
-PRUint32
+uint32_t
 slashes
 =
 0
@@ -7086,7 +7086,7 @@ DenyAccessIfURIHasFlags
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aURIFlags
 )
 {
@@ -7146,7 +7146,7 @@ aPrincipal
 nsIURI
 *
 aTargetURI
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -8817,7 +8817,7 @@ const
 nsACString
 &
 aTargetURIStr
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -8930,7 +8930,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 flags
 [
 ]
@@ -8961,7 +8961,7 @@ FIXUP_FLAGS_MAKE_ALTERNATE_URI
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9731,7 +9731,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 flags
 ;
 rv
@@ -10785,7 +10785,7 @@ CreateCodebasePrincipal
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -11033,7 +11033,7 @@ GetAppCodebasePrincipal
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -11088,7 +11088,7 @@ MOZ_ASSERT
 aDocShell
 )
 ;
-PRUint32
+uint32_t
 appId
 ;
 bool
@@ -11131,7 +11131,7 @@ GetCodebasePrincipalInternal
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -13509,7 +13509,7 @@ look
 any
 further
 .
-PRInt16
+int16_t
 canEnable
 ;
 rv
@@ -13730,10 +13730,10 @@ capdesc
 "
 )
 ;
-PRInt32
+int32_t
 pos
 ;
-PRInt32
+int32_t
 index
 =
 kNotFound
@@ -13940,7 +13940,7 @@ const
 char
 *
 capability
-PRInt16
+int16_t
 *
 canEnable
 )
@@ -14366,7 +14366,7 @@ enabled
 return
 NS_OK
 ;
-PRInt16
+int16_t
 canEnable
 ;
 if
@@ -14943,7 +14943,7 @@ get
 )
 }
 ;
-PRUint32
+uint32_t
 length
 =
 ArrayLength
@@ -15406,7 +15406,7 @@ nsScriptSecurityManager
 :
 CanAccess
 (
-PRUint32
+uint32_t
 aAction
 nsAXPCNativeCallContext
 *
@@ -15869,7 +15869,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 redirFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -15937,7 +15937,7 @@ newOriginalURI
 )
 ;
 const
-PRUint32
+uint32_t
 flags
 =
 nsIScriptSecurityManager
@@ -18192,7 +18192,7 @@ NS_LITERAL_CSTRING
 )
 )
 ;
-PRUint32
+uint32_t
 prefixLength
 =
 policyPrefix
@@ -18210,7 +18210,7 @@ the
 '
 .
 '
-PRUint32
+uint32_t
 prefCount
 ;
 char
@@ -18288,7 +18288,7 @@ NS_OK
 Populate
 the
 policy
-PRUint32
+uint32_t
 currentPref
 =
 0
@@ -19001,7 +19001,7 @@ lastDot
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 prefLen
 =
 lastDot
@@ -19161,7 +19161,7 @@ nsScriptSecurityManager
 :
 InitPrincipals
 (
-PRUint32
+uint32_t
 aPrefCount
 const
 char
@@ -19323,7 +19323,7 @@ id
 ;
 for
 (
-PRUint32
+uint32_t
 c
 =
 0
@@ -19337,7 +19337,7 @@ c
 +
 )
 {
-PRInt32
+int32_t
 prefNameLen
 =
 PL_strlen
@@ -19939,7 +19939,7 @@ this
 kObservedPrefs
 )
 ;
-PRUint32
+uint32_t
 prefCount
 ;
 char
@@ -20024,7 +20024,7 @@ GetExtendedOrigin
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -20202,7 +20202,7 @@ GetExtendedOrigin
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -20354,7 +20354,7 @@ PLDHashEntryHdr
 hdr
 /
 /
-PRUint32
+uint32_t
 number
 void
 *
@@ -20371,7 +20371,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *
@@ -20410,7 +20410,7 @@ prop
 AppendInt
 (
 (
-PRUint32
+uint32_t
 )
 pp
 -
@@ -20553,7 +20553,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *

@@ -284,11 +284,11 @@ const
 aNames
 [
 ]
-PRInt32
+int32_t
 Count
 )
 ;
-PRInt32
+int32_t
 Lookup
 (
 const
@@ -297,7 +297,7 @@ nsACString
 aName
 )
 ;
-PRInt32
+int32_t
 Lookup
 (
 const
@@ -311,7 +311,7 @@ nsAFlatCString
 &
 GetStringValue
 (
-PRInt32
+int32_t
 index
 )
 ;

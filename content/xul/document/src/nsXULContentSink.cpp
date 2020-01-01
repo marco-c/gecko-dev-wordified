@@ -1806,13 +1806,13 @@ IsDataInBuffer
 PRUnichar
 *
 buffer
-PRInt32
+int32_t
 length
 )
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2316,7 +2316,7 @@ nsAttrName
 aName
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsCOMPtr
@@ -2478,11 +2478,11 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -2598,7 +2598,7 @@ FlushText
 )
 ;
 }
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsCOMPtr
@@ -2974,7 +2974,7 @@ get
 )
 )
 ;
-PRInt32
+int32_t
 count
 =
 children
@@ -3007,7 +3007,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3370,7 +3370,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -3427,7 +3427,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -3631,7 +3631,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 {
@@ -4046,7 +4046,7 @@ PRUnichar
 *
 aAttributes
 const
-PRUint32
+uint32_t
 aAttrLen
 nsINodeInfo
 *
@@ -4329,10 +4329,10 @@ PRUnichar
 *
 aAttributes
 const
-PRUint32
+uint32_t
 aAttrLen
 const
-PRUint32
+uint32_t
 aLineNumber
 nsINodeInfo
 *
@@ -4664,11 +4664,11 @@ PRUnichar
 *
 aAttributes
 const
-PRUint32
+uint32_t
 aLineNumber
 )
 {
-PRUint32
+uint32_t
 langID
 =
 nsIProgrammingLanguage
@@ -4676,7 +4676,7 @@ nsIProgrammingLanguage
 :
 JAVASCRIPT
 ;
-PRUint32
+uint32_t
 version
 =
 0
@@ -5761,7 +5761,7 @@ PRUnichar
 *
 aAttributes
 const
-PRUint32
+uint32_t
 aAttrLen
 nsXULPrototypeElement
 *
@@ -5838,7 +5838,7 @@ attributes
 into
 the
 prototype
-PRUint32
+uint32_t
 i
 ;
 for
@@ -5923,7 +5923,7 @@ PR_LOG_DEBUG
 nsAutoString
 extraWhiteSpace
 ;
-PRInt32
+int32_t
 cnt
 =
 mContextStack
@@ -6047,7 +6047,7 @@ const
 PRUnichar
 *
 aText
-PRInt32
+int32_t
 aLength
 )
 {
@@ -6117,7 +6117,7 @@ when
 it
 fills
 up
-PRInt32
+int32_t
 offset
 =
 0
@@ -6130,7 +6130,7 @@ while
 aLength
 )
 {
-PRInt32
+int32_t
 amount
 =
 mTextSize

@@ -556,12 +556,12 @@ nsSVGGradientFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -755,7 +755,7 @@ aModType
 -
 -
 -
-PRUint32
+uint32_t
 nsSVGGradientFrame
 :
 :
@@ -778,7 +778,7 @@ nsSVGGradientFrame
 :
 GetStopInformation
 (
-PRInt32
+int32_t
 aIndex
 float
 *
@@ -936,13 +936,13 @@ GetStyleSVGReset
 mStopOpacity
 ;
 }
-PRUint16
+uint16_t
 nsSVGGradientFrame
 :
 :
 GetEnumValue
 (
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -1030,7 +1030,7 @@ GetAnimValue
 )
 ;
 }
-PRUint16
+uint16_t
 nsSVGGradientFrame
 :
 :
@@ -1065,7 +1065,7 @@ GRADIENTUNITS
 )
 ;
 }
-PRUint16
+uint16_t
 nsSVGGradientFrame
 :
 :
@@ -1190,7 +1190,7 @@ aOverrideBounds
 gfxMatrix
 bboxMatrix
 ;
-PRUint16
+uint16_t
 gradientUnits
 =
 GetGradientUnits
@@ -1390,7 +1390,7 @@ nsSVGGradientFrame
 :
 GetLinearGradientWithLength
 (
-PRUint32
+uint32_t
 aIndex
 nsSVGLinearGradientElement
 *
@@ -1475,7 +1475,7 @@ nsSVGGradientFrame
 :
 GetRadialGradientWithLength
 (
-PRUint32
+uint32_t
 aIndex
 nsSVGRadialGradientElement
 *
@@ -1692,7 +1692,7 @@ IsSingular
 return
 nullptr
 ;
-PRUint32
+uint32_t
 nStops
 =
 GetStopCount
@@ -1833,7 +1833,7 @@ CairoStatus
 return
 nullptr
 ;
-PRUint16
+uint16_t
 aSpread
 =
 GetSpreadMethod
@@ -1926,7 +1926,7 @@ lastOffset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2354,13 +2354,13 @@ return
 referenced
 ;
 }
-PRInt32
+int32_t
 nsSVGGradientFrame
 :
 :
 GetStopFrame
 (
-PRInt32
+int32_t
 aIndex
 nsIFrame
 *
@@ -2368,7 +2368,7 @@ nsIFrame
 aStopFrame
 )
 {
-PRInt32
+int32_t
 stopCount
 =
 0
@@ -2760,12 +2760,12 @@ nsSVGLinearGradientFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -2914,7 +2914,7 @@ nsSVGLinearGradientFrame
 :
 GetLengthValue
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -3028,7 +3028,7 @@ routines
 Fixes
 323669
 .
-PRUint16
+uint16_t
 gradientUnits
 =
 GetGradientUnits
@@ -3097,7 +3097,7 @@ nsSVGLinearGradientFrame
 :
 GetLinearGradientWithLength
 (
-PRUint32
+uint32_t
 aIndex
 nsSVGLinearGradientElement
 *
@@ -3473,12 +3473,12 @@ nsSVGRadialGradientFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -3636,7 +3636,7 @@ nsSVGRadialGradientFrame
 :
 GetLengthValue
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -3713,7 +3713,7 @@ nsSVGRadialGradientFrame
 :
 GetLengthValue
 (
-PRUint32
+uint32_t
 aIndex
 float
 aDefaultValue
@@ -3748,7 +3748,7 @@ nsSVGRadialGradientFrame
 :
 GetLengthValueFromElement
 (
-PRUint32
+uint32_t
 aIndex
 nsSVGRadialGradientElement
 &
@@ -3806,7 +3806,7 @@ routines
 Fixes
 323669
 .
-PRUint16
+uint16_t
 gradientUnits
 =
 GetGradientUnits
@@ -3875,7 +3875,7 @@ nsSVGRadialGradientFrame
 :
 GetRadialGradientWithLength
 (
-PRUint32
+uint32_t
 aIndex
 nsSVGRadialGradientElement
 *

@@ -319,7 +319,7 @@ nsContentListMatchFunc
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -384,7 +384,7 @@ NS_DECL_NSIDOMNODELIST
 /
 nsINodeList
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent
@@ -392,7 +392,7 @@ nsIContent
 aContent
 )
 ;
-PRUint32
+uint32_t
 Length
 (
 )
@@ -497,7 +497,7 @@ InsertElementAt
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -553,7 +553,7 @@ Clear
 ;
 }
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent
@@ -767,7 +767,7 @@ nsContentListKey
 nsINode
 *
 aRootNode
-PRInt32
+int32_t
 aMatchNameSpaceId
 const
 nsAString
@@ -818,14 +818,14 @@ mTagname
 {
 }
 inline
-PRUint32
+uint32_t
 GetHash
 (
 void
 )
 const
 {
-PRUint32
+uint32_t
 hash
 =
 mozilla
@@ -858,7 +858,7 @@ mRootNode
 Weak
 ref
 const
-PRInt32
+int32_t
 mMatchNameSpaceId
 ;
 const
@@ -1179,7 +1179,7 @@ nsContentList
 nsINode
 *
 aRootNode
-PRInt32
+int32_t
 aMatchNameSpaceId
 nsIAtom
 *
@@ -1372,7 +1372,7 @@ nsIAtom
 aMatchAtom
 =
 nullptr
-PRInt32
+int32_t
 aMatchNameSpaceId
 =
 kNameSpaceID_None
@@ -1416,7 +1416,7 @@ NS_DECL_NSIDOMHTMLCOLLECTION
 nsBaseContentList
 overrides
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent
@@ -1427,7 +1427,7 @@ aDoFlush
 )
 ;
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent
@@ -1453,7 +1453,7 @@ public
 methods
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 Length
 (
@@ -1468,7 +1468,7 @@ nsIContent
 )
 Item
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aDoFlush
@@ -1874,7 +1874,7 @@ document
 void
 PopulateSelf
 (
-PRUint32
+uint32_t
 aNeededLength
 )
 ;
@@ -2106,7 +2106,7 @@ mRootNode
 /
 Weak
 ref
-PRInt32
+int32_t
 mMatchNameSpaceId
 ;
 nsCOMPtr
@@ -2200,7 +2200,7 @@ LIST_LAZY
 LIST_DIRTY
 *
 /
-PRUint8
+uint8_t
 mState
 ;
 /
@@ -2210,7 +2210,7 @@ booleans
 have
 to
 use
-PRUint8
+uint8_t
 to
 pack
 with
@@ -2271,7 +2271,7 @@ named
 "
 *
 /
-PRUint8
+uint8_t
 mMatchAll
 :
 1
@@ -2303,7 +2303,7 @@ mRootNode
 .
 *
 /
-PRUint8
+uint8_t
 mDeep
 :
 1
@@ -2329,7 +2329,7 @@ attributes
 .
 *
 /
-PRUint8
+uint8_t
 mFuncMayDependOnAttr
 :
 1
@@ -2352,7 +2352,7 @@ correct
 .
 *
 /
-PRUint8
+uint8_t
 mFlushesNeeded
 :
 1
@@ -2428,14 +2428,14 @@ aString
 )
 {
 }
-PRUint32
+uint32_t
 GetHash
 (
 void
 )
 const
 {
-PRUint32
+uint32_t
 hash
 =
 mozilla
@@ -2733,7 +2733,7 @@ NS_GetContentList
 nsINode
 *
 aRootNode
-PRInt32
+int32_t
 aMatchNameSpaceId
 const
 nsAString

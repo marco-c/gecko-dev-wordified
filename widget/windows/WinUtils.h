@@ -1059,7 +1059,7 @@ environment
 *
 /
 static
-PRInt32
+int32_t
 GetMonitorCount
 (
 )
@@ -1495,7 +1495,7 @@ handling
 *
 /
 static
-PRUint16
+uint16_t
 GetMouseInputSource
 (
 )
@@ -1801,10 +1801,10 @@ const
 nsACString
 &
 aMimeTypeOfInputData
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aDataLen
 const
 bool
@@ -1827,11 +1827,11 @@ mMimeTypeOfInputData
 ;
 nsAutoArrayPtr
 <
-PRUint8
+uint8_t
 >
 mBuffer
 ;
-PRUint32
+uint32_t
 mBufferLength
 ;
 }
@@ -1992,7 +1992,7 @@ aURLShortcut
 )
 ;
 static
-PRInt32
+int32_t
 GetICOCacheSecondsTimeout
 (
 )

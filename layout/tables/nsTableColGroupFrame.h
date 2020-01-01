@@ -915,7 +915,7 @@ error
 nsresult
 AddColsToTable
 (
-PRInt32
+int32_t
 aFirstColIndex
 bool
 aResetSubsequentColIndices
@@ -943,7 +943,7 @@ const
 void
 Dump
 (
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -990,7 +990,7 @@ attribute
 *
 /
 virtual
-PRInt32
+int32_t
 GetColCount
 (
 )
@@ -1071,7 +1071,7 @@ cache
 .
 *
 /
-PRInt32
+int32_t
 GetStartColumnIndex
 (
 )
@@ -1101,7 +1101,7 @@ cache
 void
 SetStartColumnIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -1120,7 +1120,7 @@ this
 colgroup
 *
 /
-PRInt32
+int32_t
 GetSpan
 (
 )
@@ -1228,7 +1228,7 @@ ResetColIndices
 nsIFrame
 *
 aFirstColGroup
-PRInt32
+int32_t
 aFirstColIndex
 nsIFrame
 *
@@ -1314,7 +1314,7 @@ bottom
 void
 SetContinuousBCBorderWidth
 (
-PRUint8
+uint8_t
 aForSide
 BCPixelSize
 aPixelValue
@@ -1332,7 +1332,7 @@ aContext
 void
 InsertColsReflow
 (
-PRInt32
+int32_t
 aColIndex
 const
 nsFrameList
@@ -1364,7 +1364,7 @@ const
 /
 data
 members
-PRInt32
+int32_t
 mColCount
 ;
 /
@@ -1384,7 +1384,7 @@ be
 =
 0
 .
-PRInt32
+int32_t
 mStartColIndex
 ;
 /
@@ -1432,7 +1432,7 @@ eColGroupContent
 ;
 }
 inline
-PRInt32
+int32_t
 nsTableColGroupFrame
 :
 :
@@ -1451,7 +1451,7 @@ nsTableColGroupFrame
 :
 SetStartColumnIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -1461,7 +1461,7 @@ aIndex
 ;
 }
 inline
-PRInt32
+int32_t
 nsTableColGroupFrame
 :
 :

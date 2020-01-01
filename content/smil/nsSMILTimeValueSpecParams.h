@@ -473,7 +473,7 @@ to
 respond
 to
 .
-PRUint32
+uint32_t
 mRepeatIterationOrAccessKey
 ;
 }

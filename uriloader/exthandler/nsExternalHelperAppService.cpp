@@ -1533,7 +1533,7 @@ handleExternally
 =
 false
 ;
-PRUint32
+uint32_t
 disp
 ;
 nsresult
@@ -1881,7 +1881,7 @@ fileNameStr
 aFileName
 )
 ;
-PRInt32
+int32_t
 idx
 =
 fileNameStr
@@ -3546,7 +3546,7 @@ nsExternalHelperAppService
 {
 }
 static
-PRInt64
+int64_t
 GetContentLengthAsInt64
 (
 nsIRequest
@@ -3554,7 +3554,7 @@ nsIRequest
 request
 )
 {
-PRInt64
+int64_t
 contentLength
 =
 -
@@ -3617,7 +3617,7 @@ if
 channel
 )
 {
-PRInt32
+int32_t
 smallLen
 ;
 channel
@@ -3669,7 +3669,7 @@ fileName
 nsCAutoString
 fileExtension
 ;
-PRUint32
+uint32_t
 reason
 =
 nsIHelperAppLauncherDialog
@@ -3725,7 +3725,7 @@ uri
 )
 )
 ;
-PRInt64
+int64_t
 contentLength
 =
 GetContentLengthAsInt64
@@ -4852,7 +4852,7 @@ aApplyDecoding
 =
 true
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -5394,7 +5394,7 @@ possibleHandlers
 )
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 possibleHandlers
@@ -6482,7 +6482,7 @@ nsIFile
 fileList
 )
 {
-PRInt32
+int32_t
 numEntries
 =
 fileList
@@ -6497,7 +6497,7 @@ localFile
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -7387,7 +7387,7 @@ const
 nsAString
 &
 aSuggestedFilename
-PRUint32
+uint32_t
 aReason
 bool
 aForceSave
@@ -7630,7 +7630,7 @@ Override
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7992,7 +7992,7 @@ nsExternalAppHandler
 :
 GetContentLength
 (
-PRInt64
+int64_t
 *
 aContentLength
 )
@@ -8592,7 +8592,7 @@ extension
 nsAutoString
 fileExt
 ;
-PRInt32
+int32_t
 pos
 =
 mSuggestedFileName
@@ -8817,18 +8817,18 @@ the
 end
 .
 const
-PRUint32
+uint32_t
 wantedFileNameLength
 =
 8
 ;
 const
-PRUint32
+uint32_t
 requiredBytesLength
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 (
@@ -8873,7 +8873,7 @@ rv
 rv
 )
 ;
-PRUint8
+uint8_t
 *
 buffer
 ;
@@ -10561,7 +10561,7 @@ false
 }
 }
 }
-PRInt32
+int32_t
 action
 =
 nsIMIMEInfo
@@ -11749,9 +11749,9 @@ aCtxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -11829,12 +11829,12 @@ count
 0
 )
 {
-PRUint32
+uint32_t
 numBytesRead
 =
 0
 ;
-PRUint32
+uint32_t
 numBytesWritten
 =
 0
@@ -13910,7 +13910,7 @@ else
 nsAutoString
 fileExt
 ;
-PRInt32
+int32_t
 pos
 =
 mSuggestedFileName
@@ -18145,7 +18145,7 @@ extension
 if
 any
 )
-PRInt32
+int32_t
 extLoc
 =
 specStr
@@ -18157,7 +18157,7 @@ RFindChar
 '
 )
 ;
-PRInt32
+int32_t
 specLength
 =
 specStr
@@ -18313,7 +18313,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 len
 =
 fileName
@@ -18324,7 +18324,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 len
@@ -18445,7 +18445,7 @@ ToLowerCase
 MIMEType
 )
 ;
-PRInt32
+int32_t
 numEntries
 =
 ArrayLength
@@ -18455,7 +18455,7 @@ extraMimeEntries
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -18628,7 +18628,7 @@ start
 end
 iter
 ;
-PRInt32
+int32_t
 numEntries
 =
 ArrayLength
@@ -18638,7 +18638,7 @@ extraMimeEntries
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0

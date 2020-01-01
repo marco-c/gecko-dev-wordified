@@ -154,7 +154,7 @@ goodPair16
 goodPairData
 )
 ;
-PRUint32
+uint32_t
 byteCount
 =
 0
@@ -411,7 +411,7 @@ backwardsPair16
 backwardsPairData
 )
 ;
-PRUint32
+uint32_t
 byteCount
 =
 0
@@ -676,7 +676,7 @@ highSurrogate16
 highSurrogateData
 )
 ;
-PRUint32
+uint32_t
 byteCount
 =
 0
@@ -940,7 +940,7 @@ lowSurrogate16
 lowSurrogateData
 )
 ;
-PRUint32
+uint32_t
 byteCount
 =
 0

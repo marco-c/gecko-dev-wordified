@@ -289,7 +289,7 @@ offsetY
 GdkRectangle
 *
 clipRects
-PRUint32
+uint32_t
 numClipRects
 )
 =
@@ -490,7 +490,7 @@ gfxContext
 ctx
 nsIntSize
 size
-PRUint32
+uint32_t
 flags
 GdkColormap
 *
@@ -521,7 +521,7 @@ offset
 nsIntRect
 *
 clipRects
-PRUint32
+uint32_t
 numClipRects
 )
 ;

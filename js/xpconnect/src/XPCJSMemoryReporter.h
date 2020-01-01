@@ -198,7 +198,7 @@ static
 nsresult
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 n
 )

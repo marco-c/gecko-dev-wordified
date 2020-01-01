@@ -113,7 +113,7 @@ aTextRange
 :
 mRangeStart
 (
-PRUint16
+uint16_t
 (
 aTextRange
 .
@@ -122,7 +122,7 @@ mStartOffset
 )
 mRangeEnd
 (
-PRUint16
+uint16_t
 (
 aTextRange
 .
@@ -131,7 +131,7 @@ mEndOffset
 )
 mRangeType
 (
-PRUint16
+uint16_t
 (
 aTextRange
 .
@@ -167,7 +167,7 @@ nsPrivateTextRange
 :
 GetRangeStart
 (
-PRUint16
+uint16_t
 *
 aRangeStart
 )
@@ -187,7 +187,7 @@ nsPrivateTextRange
 :
 GetRangeEnd
 (
-PRUint16
+uint16_t
 *
 aRangeEnd
 )
@@ -207,7 +207,7 @@ nsPrivateTextRange
 :
 GetRangeType
 (
-PRUint16
+uint16_t
 *
 aRangeType
 )
@@ -275,7 +275,7 @@ aRange
 }
 NS_METHOD_
 (
-PRUint16
+uint16_t
 )
 nsPrivateTextRangeList
 :
@@ -287,7 +287,7 @@ GetLength
 return
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 mList
@@ -310,7 +310,7 @@ nsPrivateTextRangeList
 :
 Item
 (
-PRUint16
+uint16_t
 aIndex
 )
 {

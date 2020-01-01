@@ -563,7 +563,7 @@ ParseNPTHH
 nsDependentSubstring
 &
 aString
-PRUint32
+uint32_t
 &
 aHour
 )
@@ -574,7 +574,7 @@ ParseNPTMM
 nsDependentSubstring
 &
 aString
-PRUint32
+uint32_t
 &
 aMinute
 )
@@ -585,7 +585,7 @@ ParseNPTSS
 nsDependentSubstring
 &
 aString
-PRUint32
+uint32_t
 &
 aSecond
 )

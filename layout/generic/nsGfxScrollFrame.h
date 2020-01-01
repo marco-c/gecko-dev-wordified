@@ -399,7 +399,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 ;
@@ -1411,7 +1411,7 @@ aScrollPortSize
 )
 const
 ;
-PRUint32
+uint32_t
 GetScrollbarVisibility
 (
 )
@@ -2559,7 +2559,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -2643,7 +2643,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 ;
@@ -2685,7 +2685,7 @@ GetScrollbarStylesFromFrame
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetScrollbarVisibility
 (
 )
@@ -3646,7 +3646,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -3732,7 +3732,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 ;
@@ -3965,7 +3965,7 @@ GetScrollbarStylesFromFrame
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetScrollbarVisibility
 (
 )
@@ -4433,7 +4433,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const

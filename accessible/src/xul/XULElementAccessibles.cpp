@@ -455,7 +455,7 @@ roles
 LABEL
 ;
 }
-PRUint64
+uint64_t
 XULLabelAccessible
 :
 :
@@ -500,7 +500,7 @@ XULLabelAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -786,7 +786,7 @@ aDoc
 )
 {
 }
-PRUint64
+uint64_t
 XULTooltipAccessible
 :
 :
@@ -1195,7 +1195,7 @@ roles
 LINK
 ;
 }
-PRUint64
+uint64_t
 XULLinkAccessible
 :
 :
@@ -1211,7 +1211,7 @@ states
 LINKED
 ;
 }
-PRUint8
+uint8_t
 XULLinkAccessible
 :
 :
@@ -1229,7 +1229,7 @@ XULLinkAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -1271,7 +1271,7 @@ XULLinkAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -1405,7 +1405,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 XULLinkAccessible
 :
 :
@@ -1487,7 +1487,7 @@ IndexInParent
 )
 ;
 }
-PRUint32
+uint32_t
 XULLinkAccessible
 :
 :
@@ -1529,7 +1529,7 @@ XULLinkAccessible
 :
 AnchorURIAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 {

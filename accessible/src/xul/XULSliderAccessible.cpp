@@ -345,7 +345,7 @@ roles
 SLIDER
 ;
 }
-PRUint64
+uint64_t
 XULSliderAccessible
 :
 :
@@ -465,7 +465,7 @@ aValue
 )
 ;
 }
-PRUint8
+uint8_t
 XULSliderAccessible
 :
 :
@@ -483,7 +483,7 @@ XULSliderAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -523,7 +523,7 @@ XULSliderAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {

@@ -411,7 +411,7 @@ aCancelable
 nsIDOMWindow
 *
 aView
-PRInt32
+int32_t
 aDetail
 bool
 aCtrlKey

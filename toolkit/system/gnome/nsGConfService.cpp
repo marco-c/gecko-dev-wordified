@@ -604,7 +604,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -842,7 +842,7 @@ const
 nsACString
 &
 aKey
-PRInt32
+int32_t
 *
 aResult
 )
@@ -1220,7 +1220,7 @@ const
 nsACString
 &
 aKey
-PRInt32
+int32_t
 aValue
 )
 {

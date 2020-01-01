@@ -382,7 +382,7 @@ LoadContext
 :
 IsAppOfType
 (
-PRUint32
+uint32_t
 bool
 *
 )
@@ -542,7 +542,7 @@ LoadContext
 :
 GetAppId
 (
-PRUint32
+uint32_t
 *
 aAppId
 )

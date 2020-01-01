@@ -184,7 +184,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -237,7 +237,7 @@ nsSubstring
 &
 aLocalName
 const
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -606,7 +606,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-PRInt32
+int32_t
 aNsID
 )
 {
@@ -799,7 +799,7 @@ nsSubstring
 &
 aLocalName
 const
-PRInt32
+int32_t
 aNsID
 )
 {
@@ -932,7 +932,7 @@ nsSubstring
 &
 aName
 const
-PRInt32
+int32_t
 aNsID
 )
 {

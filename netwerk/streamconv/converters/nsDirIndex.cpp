@@ -161,7 +161,7 @@ NS_IMPL_GETSET
 (
 nsDirIndex
 Type
-PRUint32
+uint32_t
 mType
 )
 /
@@ -343,13 +343,13 @@ NS_IMPL_GETSET
 (
 nsDirIndex
 Size
-PRInt64
+int64_t
 mSize
 )
 NS_IMPL_GETSET
 (
 nsDirIndex
 LastModified
-PRInt64
+int64_t
 mLastModified
 )

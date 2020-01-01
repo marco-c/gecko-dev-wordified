@@ -3985,7 +3985,7 @@ nsIFrame
 aNonSVGFrame
 )
 {
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 aNonSVGFrame
@@ -4285,7 +4285,7 @@ a
 translation
 transform
 .
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 mFrame
@@ -5010,7 +5010,7 @@ IsEmpty
 )
 return
 ;
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 aTarget

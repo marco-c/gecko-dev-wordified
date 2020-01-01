@@ -247,7 +247,7 @@ GetGrid
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 *
 aIndex
 nsGridRowLayout

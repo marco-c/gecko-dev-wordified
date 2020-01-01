@@ -149,7 +149,7 @@ const
 char
 *
 aCharset
-PRUint32
+uint32_t
 aBufferSize
 /
 *
@@ -238,7 +238,7 @@ mOutStream
 =
 aOutStream
 ;
-PRInt32
+int32_t
 behaviour
 =
 aReplacementChar
@@ -271,7 +271,7 @@ nsConverterOutputStream
 :
 Write
 (
-PRUint32
+uint32_t
 aCount
 const
 PRUnichar
@@ -321,12 +321,12 @@ closed
 "
 )
 ;
-PRInt32
+int32_t
 inLen
 =
 aCount
 ;
-PRInt32
+int32_t
 maxLen
 ;
 nsresult
@@ -369,14 +369,14 @@ Length
 !
 =
 (
-PRUint32
+uint32_t
 )
 maxLen
 )
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRInt32
+int32_t
 outLen
 =
 maxLen
@@ -433,7 +433,7 @@ NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 NS_ASSERTION
 (
 (
-PRUint32
+uint32_t
 )
 inLen
 =
@@ -452,7 +452,7 @@ data
 "
 )
 ;
-PRUint32
+uint32_t
 written
 ;
 rv
@@ -484,7 +484,7 @@ rv
 written
 =
 =
-PRUint32
+uint32_t
 (
 outLen
 )
@@ -508,7 +508,7 @@ bool
 aSuccess
 )
 {
-PRInt32
+int32_t
 inLen
 =
 aString
@@ -570,7 +570,7 @@ buf
 1024
 ]
 ;
-PRInt32
+int32_t
 size
 =
 sizeof
@@ -629,7 +629,7 @@ size
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 written
 ;
 rv
@@ -674,7 +674,7 @@ if
 written
 !
 =
-PRUint32
+uint32_t
 (
 size
 )

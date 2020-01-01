@@ -237,7 +237,7 @@ nsIParentChannel
 >
 mActiveChannel
 ;
-PRUint32
+uint32_t
 mRedirectChannelId
 ;
 }

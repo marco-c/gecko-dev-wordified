@@ -653,7 +653,7 @@ StyleInfo
 :
 FormatTextDecorationStyle
 (
-PRUint8
+uint8_t
 aValue
 nsAString
 &

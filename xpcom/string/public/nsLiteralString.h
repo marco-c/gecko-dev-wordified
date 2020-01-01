@@ -159,7 +159,7 @@ nsAString
 char_type
 *
 aPtr
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -204,7 +204,7 @@ nsACString
 char_type
 *
 aPtr
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -306,7 +306,7 @@ char_type
 (
 s
 )
-PRUint32
+uint32_t
 (
 (
 sizeof
@@ -341,7 +341,7 @@ char_type
 (
 s
 )
-PRUint32
+uint32_t
 (
 (
 sizeof
@@ -378,7 +378,7 @@ char_type
 (
 s
 )
-PRUint32
+uint32_t
 (
 (
 sizeof
@@ -414,7 +414,7 @@ s
 NS_ConvertASCIItoUTF16
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -434,7 +434,7 @@ s
 n
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -456,7 +456,7 @@ NS_ConvertASCIItoUTF16
 n
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -648,7 +648,7 @@ nsDependentCString
 nsDependentCString
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -669,7 +669,7 @@ s
 n
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -691,7 +691,7 @@ nsDependentCString
 n
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (

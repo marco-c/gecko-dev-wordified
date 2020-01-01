@@ -362,7 +362,7 @@ aGeckoArray
 return
 S_FALSE
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -437,7 +437,7 @@ aIA2Array
 return
 E_OUTOFMEMORY
 ;
-PRUint32
+uint32_t
 idx
 =
 0
@@ -533,7 +533,7 @@ rv
 {
 for
 (
-PRUint32
+uint32_t
 idx2
 =
 0

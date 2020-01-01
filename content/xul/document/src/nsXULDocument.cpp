@@ -1022,13 +1022,13 @@ eDone
 }
 ;
 const
-PRUint32
+uint32_t
 kMaxAttrNameLength
 =
 512
 ;
 const
-PRUint32
+uint32_t
 kMaxAttributeLength
 =
 4096
@@ -1112,7 +1112,7 @@ kMaxAttributeLength
 Statics
 /
 /
-PRInt32
+int32_t
 nsXULDocument
 :
 :
@@ -1310,7 +1310,7 @@ aElements
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2225,7 +2225,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR_AMBIGUOUS
 mCommandDispatcher
 nsIDOMXULCommandDispatcher
 )
-PRUint32
+uint32_t
 i
 count
 =
@@ -4320,7 +4320,7 @@ aEntry
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 entry
@@ -4399,7 +4399,7 @@ static
 bool
 CanBroadcast
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -4514,7 +4514,7 @@ nsAttrNameInfo
 {
 nsAttrNameInfo
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -4566,7 +4566,7 @@ mPrefix
 )
 {
 }
-PRInt32
+int32_t
 mNamespaceID
 ;
 nsCOMPtr
@@ -4676,7 +4676,7 @@ EqualsLiteral
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 broadcaster
@@ -4697,7 +4697,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4724,7 +4724,7 @@ GetAttrNameAt
 i
 )
 ;
-PRInt32
+int32_t
 nameSpaceID
 =
 attrName
@@ -4813,7 +4813,7 @@ count
 0
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 =
 attributes
@@ -5301,7 +5301,7 @@ bl
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 entry
@@ -5519,7 +5519,7 @@ aAttr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 entry
@@ -6005,12 +6005,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -6130,12 +6130,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -6320,7 +6320,7 @@ aAttribute
 value
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -6511,7 +6511,7 @@ attrSet
 needsAttrChange
 )
 ;
-PRUint32
+uint32_t
 index
 =
 mDelayedAttrChangeBroadcasts
@@ -6716,7 +6716,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -6814,7 +6814,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -6872,7 +6872,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -7262,7 +7262,7 @@ nsForwardReference
 eDone
 )
 {
-PRUint32
+uint32_t
 previous
 =
 0
@@ -7296,7 +7296,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7725,7 +7725,7 @@ attrValue
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRInt32
+int32_t
 nameSpaceId
 =
 kNameSpaceID_Wildcard
@@ -7885,7 +7885,7 @@ nsIAtom
 >
 tag
 ;
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsCOMPtr
@@ -8118,7 +8118,7 @@ Persist
 nsIContent
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -8819,10 +8819,10 @@ nsXULDocument
 :
 GetViewportSize
 (
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -8917,7 +8917,7 @@ nsXULDocument
 :
 GetWidth
 (
-PRInt32
+int32_t
 *
 aWidth
 )
@@ -8927,7 +8927,7 @@ NS_ENSURE_ARG_POINTER
 aWidth
 )
 ;
-PRInt32
+int32_t
 height
 ;
 return
@@ -8945,7 +8945,7 @@ nsXULDocument
 :
 GetHeight
 (
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -8955,7 +8955,7 @@ NS_ENSURE_ARG_POINTER
 aHeight
 )
 ;
-PRInt32
+int32_t
 width
 ;
 return
@@ -9290,7 +9290,7 @@ pm
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 offset
 ;
 pm
@@ -9371,7 +9371,7 @@ nsXULDocument
 :
 GetPopupRangeOffset
 (
-PRInt32
+int32_t
 *
 aRangeOffset
 )
@@ -9400,7 +9400,7 @@ pm
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -11192,7 +11192,7 @@ CloneNode
 (
 bool
 aDeep
-PRUint8
+uint8_t
 aOptionalArgc
 nsIDOMNode
 *
@@ -11829,7 +11829,7 @@ MatchAttribute
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -11925,7 +11925,7 @@ takes
 more
 work
 .
-PRUint32
+uint32_t
 count
 =
 aContent
@@ -11937,7 +11937,7 @@ GetAttrCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -13035,7 +13035,7 @@ wrapper
 value
 )
 ;
-PRUint32
+uint32_t
 cnt
 =
 aElements
@@ -13046,10 +13046,10 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 cnt
 )
@@ -13404,7 +13404,7 @@ nsIContent
 *
 *
 aElement
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -13462,7 +13462,7 @@ ContextStack
 :
 SetTopIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -13734,7 +13734,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 piInsertionPoint
 =
 0
@@ -13747,7 +13747,7 @@ mState
 eState_Master
 )
 {
-PRInt32
+int32_t
 indexOfRoot
 =
 IndexOf
@@ -13799,7 +13799,7 @@ GetProcessingInstructions
 (
 )
 ;
-PRUint32
+uint32_t
 total
 =
 processingInstructions
@@ -13810,7 +13810,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14177,7 +14177,7 @@ aProtoPI
 nsINode
 *
 aParent
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -14339,7 +14339,7 @@ aProtoPI
 nsINode
 *
 aParent
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -14576,7 +14576,7 @@ aProtoPI
 nsINode
 *
 aParent
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -16873,7 +16873,7 @@ nsIContent
 >
 element
 ;
-PRInt32
+int32_t
 indx
 ;
 /
@@ -16926,7 +16926,7 @@ indx
 >
 =
 (
-PRInt32
+int32_t
 )
 proto
 -
@@ -18259,7 +18259,7 @@ we
 re
 done
 .
-PRUint32
+uint32_t
 count
 =
 mUnloadedOverlays
@@ -18603,7 +18603,7 @@ chromehidden
 /
 attribute
 .
-PRUint32
+uint32_t
 count
 =
 mOverlaySheets
@@ -18614,7 +18614,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19594,7 +19594,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19735,7 +19735,7 @@ mHandlingDelayedAttrChange
 false
 ;
 }
-PRUint32
+uint32_t
 length
 =
 mDelayedBroadcasters
@@ -19773,7 +19773,7 @@ delayedBroadcasters
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20471,10 +20471,10 @@ nsISupports
 context
 nsresult
 aStatus
-PRUint32
+uint32_t
 stringLen
 const
-PRUint8
+uint8_t
 *
 string
 )
@@ -22407,7 +22407,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -22753,7 +22753,7 @@ document
 NS_OK
 )
 ;
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsIAtom
@@ -23133,7 +23133,7 @@ GetStyleSheetReferences
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -23974,7 +23974,7 @@ the
 actual
 document
 .
-PRUint32
+uint32_t
 i
 ;
 const
@@ -24174,7 +24174,7 @@ kNameSpaceID_XUL
 continue
 ;
 }
-PRInt32
+int32_t
 nameSpaceID
 =
 name
@@ -24432,7 +24432,7 @@ like
 any
 other
 .
-PRUint32
+uint32_t
 childCount
 =
 aOverlayNode
@@ -25512,7 +25512,7 @@ BroadcastAttributeChangeFromOverlay
 nsIContent
 *
 aNode
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -25611,7 +25611,7 @@ push
 the
 value
 .
-PRInt32
+int32_t
 i
 ;
 for
@@ -26819,7 +26819,7 @@ if
 content
 )
 {
-PRInt32
+int32_t
 pos
 =
 aParent
@@ -26919,7 +26919,7 @@ one
 -
 indexed
 .
-PRInt32
+int32_t
 pos
 =
 posStr
@@ -26997,7 +26997,7 @@ pos
 0
 &
 &
-PRUint32
+uint32_t
 (
 pos
 -
@@ -27120,7 +27120,7 @@ nsIContent
 aChild
 )
 {
-PRInt32
+int32_t
 nodeOffset
 =
 aParent
@@ -27355,9 +27355,9 @@ aContext
 nsIInputStream
 *
 aInStr
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {

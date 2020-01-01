@@ -200,7 +200,7 @@ CPMethod
 nsIContentPolicy
 ShouldProcess
 (
-PRUint32
+uint32_t
 nsIURI
 *
 nsIURI
@@ -214,7 +214,7 @@ nsISupports
 *
 nsIPrincipal
 *
-PRInt16
+int16_t
 *
 )
 )
@@ -242,7 +242,7 @@ CheckPolicy
 (
 CPMethod
 policyMethod
-PRUint32
+uint32_t
 contentType
 nsIURI
 *
@@ -263,7 +263,7 @@ extra
 nsIPrincipal
 *
 requestPrincipal
-PRInt16
+int16_t
 *
 decision
 )

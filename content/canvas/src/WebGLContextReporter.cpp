@@ -159,7 +159,7 @@ WebGLMemoryMultiReporter
 :
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 aAmount
 )

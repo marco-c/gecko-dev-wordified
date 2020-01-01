@@ -176,7 +176,7 @@ const
 string_type
 &
 str
-PRUint32
+uint32_t
 startPos
 )
 {

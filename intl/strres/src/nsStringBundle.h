@@ -209,7 +209,7 @@ called
 nsresult
 GetStringFromID
 (
-PRInt32
+int32_t
 aID
 nsAString
 &
@@ -278,7 +278,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aLength
 PRUnichar
 *

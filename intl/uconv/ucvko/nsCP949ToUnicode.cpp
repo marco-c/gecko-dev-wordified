@@ -293,7 +293,7 @@ to
 Unicode
 static
 const
-PRUint16
+uint16_t
 g_utCP949NoKSCHangulMapping
 [
 ]
@@ -371,7 +371,7 @@ at
 ;
 static
 const
-PRUint16
+uint16_t
 *
 g_CP949MappingTableSet
 [

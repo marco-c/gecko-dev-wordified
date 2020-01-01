@@ -139,7 +139,7 @@ nsWindowInfo
 nsIXULWindow
 *
 inWindow
-PRInt32
+int32_t
 inTimeStamp
 )
 ;
@@ -154,10 +154,10 @@ nsIXULWindow
 >
 mWindow
 ;
-PRInt32
+int32_t
 mTimeStamp
 ;
-PRUint32
+uint32_t
 mZLevel
 ;
 /

@@ -391,7 +391,7 @@ MODIFIER_OS
 }
 ;
 typedef
-PRUint16
+uint16_t
 Modifiers
 ;
 }

@@ -1805,7 +1805,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1937,7 +1937,7 @@ GetOffsetToCrossDoc
 this
 )
 ;
-PRInt32
+int32_t
 ourAPD
 =
 presContext
@@ -1947,7 +1947,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 parentAPD
 =
 parent

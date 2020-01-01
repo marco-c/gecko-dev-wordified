@@ -180,7 +180,7 @@ PR_Poll
 .
 /
 /
-PRUint16
+uint16_t
 mPollFlags
 ;
 /
@@ -268,7 +268,7 @@ reached
 )
 /
 /
-PRUint16
+uint16_t
 mPollTimeout
 ;
 /
@@ -330,7 +330,7 @@ OnSocketReady
 PRFileDesc
 *
 fd
-PRInt16
+int16_t
 outFlags
 )
 =

@@ -1952,9 +1952,9 @@ nsSVGSVGElement
 :
 SuspendRedraw
 (
-PRUint32
+uint32_t
 max_wait_milliseconds
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -2015,7 +2015,7 @@ nsSVGSVGElement
 :
 UnsuspendRedraw
 (
-PRUint32
+uint32_t
 suspend_handle_id
 )
 {
@@ -2507,7 +2507,7 @@ errors
 nsSMILTime
 lMilliseconds
 =
-PRInt64
+int64_t
 (
 NS_round
 (
@@ -4171,7 +4171,7 @@ nsSVGSVGElement
 :
 GetZoomAndPan
 (
-PRUint16
+uint16_t
 *
 aZoomAndPan
 )
@@ -4198,7 +4198,7 @@ nsSVGSVGElement
 :
 SetZoomAndPan
 (
-PRUint16
+uint16_t
 aZoomAndPan
 )
 {
@@ -6821,7 +6821,7 @@ nsSVGSVGElement
 :
 GetLength
 (
-PRUint8
+uint8_t
 aCtxType
 )
 {
@@ -7549,7 +7549,7 @@ Callback
 function
 for
 freeing
-PRUint64
+uint64_t
 values
 stored
 in
@@ -8145,7 +8145,7 @@ Callback
 function
 for
 freeing
-PRUint64
+uint64_t
 values
 stored
 in
@@ -8383,7 +8383,7 @@ nsSVGSVGElement
 :
 SetZoomAndPanProperty
 (
-PRUint16
+uint16_t
 aValue
 )
 {
@@ -8438,7 +8438,7 @@ rv
 )
 ;
 }
-PRUint16
+uint16_t
 nsSVGSVGElement
 :
 :

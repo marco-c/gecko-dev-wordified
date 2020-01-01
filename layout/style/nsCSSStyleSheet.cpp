@@ -430,7 +430,7 @@ interface
 NS_IMETHOD
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -438,7 +438,7 @@ aLength
 NS_IMETHOD
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMCSSRule
 *
@@ -451,7 +451,7 @@ nsIDOMCSSRule
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -575,7 +575,7 @@ CSSRuleListImpl
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -588,7 +588,7 @@ nullptr
 mStyleSheet
 )
 {
-PRInt32
+int32_t
 count
 =
 mStyleSheet
@@ -602,7 +602,7 @@ StyleRuleCount
 aLength
 =
 (
-PRUint32
+uint32_t
 )
 count
 ;
@@ -626,7 +626,7 @@ CSSRuleListImpl
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -761,7 +761,7 @@ CSSRuleListImpl
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMCSSRule
 *
@@ -815,7 +815,7 @@ template
 class
 Numeric
 >
-PRInt32
+int32_t
 DoCompare
 (
 Numeric
@@ -1016,7 +1016,7 @@ yikes
 "
 )
 ;
-PRInt32
+int32_t
 cmp
 ;
 /
@@ -1486,7 +1486,7 @@ value
 /
 Convert
 to
-PRInt64
+int64_t
 so
 we
 can
@@ -1552,7 +1552,7 @@ height
 iframe
 )
 .
-PRInt64
+int64_t
 actualNum
 =
 actual
@@ -2112,7 +2112,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2244,7 +2244,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2311,7 +2311,7 @@ ideas
 ?
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -2501,7 +2501,7 @@ mMediaType
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3288,7 +3288,7 @@ all
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3462,7 +3462,7 @@ Truncate
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3636,7 +3636,7 @@ aKey
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3779,7 +3779,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4052,7 +4052,7 @@ nsMediaList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -4081,14 +4081,14 @@ nsMediaList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
 aReturn
 )
 {
-PRInt32
+int32_t
 index
 =
 aIndex
@@ -4283,7 +4283,7 @@ NS_ERROR_DOM_NOT_FOUND_ERR
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4837,7 +4837,7 @@ void
 aBuilder
 )
 {
-PRInt32
+int32_t
 type
 =
 aRule
@@ -5599,7 +5599,7 @@ void
 aNameSpacePtr
 )
 {
-PRInt32
+int32_t
 type
 =
 aRule
@@ -7185,7 +7185,7 @@ aDocument
 }
 }
 }
-PRUint64
+uint64_t
 nsCSSStyleSheet
 :
 :
@@ -7194,7 +7194,7 @@ FindOwningWindowInnerID
 )
 const
 {
-PRUint64
+uint64_t
 windowID
 =
 0
@@ -7468,7 +7468,7 @@ InsertStyleSheetAt
 nsCSSStyleSheet
 *
 aSheet
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -7870,7 +7870,7 @@ WillDirty
 )
 )
 {
-PRInt32
+int32_t
 index
 =
 mInner
@@ -7991,7 +7991,7 @@ implemented
 ;
 }
 }
-PRInt32
+int32_t
 nsCSSStyleSheet
 :
 :
@@ -8017,7 +8017,7 @@ nsCSSStyleSheet
 :
 GetStyleRuleAt
 (
-PRInt32
+int32_t
 aIndex
 css
 :
@@ -8087,7 +8087,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-PRInt32
+int32_t
 nsCSSStyleSheet
 :
 :
@@ -8140,7 +8140,7 @@ in
 an
 array
 .
-PRInt32
+int32_t
 count
 =
 0
@@ -8412,13 +8412,13 @@ aRules
 FILE
 *
 aOut
-PRInt32
+int32_t
 aIndent
 )
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 aRules
@@ -8463,7 +8463,7 @@ ListEnumData
 FILE
 *
 aOut
-PRInt32
+int32_t
 aIndent
 )
 :
@@ -8481,7 +8481,7 @@ FILE
 *
 mOut
 ;
-PRInt32
+int32_t
 mIndent
 ;
 }
@@ -8500,12 +8500,12 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
-PRInt32
+int32_t
 index
 ;
 /
@@ -9520,9 +9520,9 @@ const
 nsAString
 &
 aRule
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 aReturn
 )
@@ -9669,9 +9669,9 @@ const
 nsAString
 &
 aRule
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 aReturn
 )
@@ -9743,7 +9743,7 @@ if
 (
 aIndex
 >
-PRUint32
+uint32_t
 (
 mInner
 -
@@ -9760,7 +9760,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 mInner
 -
@@ -9894,7 +9894,7 @@ result
 return
 result
 ;
-PRInt32
+int32_t
 rulecount
 =
 rules
@@ -9979,7 +9979,7 @@ if
 nextRule
 )
 {
-PRInt32
+int32_t
 nextType
 =
 nextRule
@@ -10030,7 +10030,7 @@ rulecount
 1
 )
 ;
-PRInt32
+int32_t
 lastType
 =
 lastRule
@@ -10158,7 +10158,7 @@ ObjectAt
 0
 )
 ;
-PRInt32
+int32_t
 firstType
 =
 firstRule
@@ -10221,7 +10221,7 @@ aIndex
 1
 )
 ;
-PRInt32
+int32_t
 prevType
 =
 prevRule
@@ -10354,7 +10354,7 @@ DidDirty
 ;
 for
 (
-PRInt32
+int32_t
 counter
 =
 0
@@ -10390,7 +10390,7 @@ SetStyleSheet
 this
 )
 ;
-PRInt32
+int32_t
 type
 =
 cssRule
@@ -10540,7 +10540,7 @@ nsCSSStyleSheet
 :
 DeleteRule
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -10646,7 +10646,7 @@ if
 aIndex
 >
 =
-PRUint32
+uint32_t
 (
 mInner
 -
@@ -10663,7 +10663,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 mInner
 -
@@ -10783,7 +10783,7 @@ css
 GroupRule
 *
 aGroup
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -10947,9 +10947,9 @@ css
 GroupRule
 *
 aGroup
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -11148,7 +11148,7 @@ result
 result
 )
 ;
-PRInt32
+int32_t
 rulecount
 =
 rules
@@ -11182,7 +11182,7 @@ return
 NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
-PRInt32
+int32_t
 counter
 ;
 css
@@ -11959,7 +11959,7 @@ mDocument
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 0

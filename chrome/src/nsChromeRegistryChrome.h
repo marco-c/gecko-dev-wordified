@@ -269,7 +269,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *
@@ -316,7 +316,7 @@ const
 nsCString
 &
 aPackage
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -618,7 +618,7 @@ nsIURI
 >
 baseURI
 ;
-PRUint32
+uint32_t
 flags
 ;
 nsProviderArray

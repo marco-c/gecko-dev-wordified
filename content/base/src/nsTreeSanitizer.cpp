@@ -6654,7 +6654,7 @@ nsTreeSanitizer
 :
 nsTreeSanitizer
 (
-PRUint32
+uint32_t
 aFlags
 )
 :
@@ -6781,7 +6781,7 @@ nsTreeSanitizer
 :
 MustFlatten
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -7077,7 +7077,7 @@ nsTreeSanitizer
 :
 MustPrune
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -7824,7 +7824,7 @@ in
 the
 CSS
 text
-PRInt32
+int32_t
 ruleCount
 =
 sheet
@@ -7836,7 +7836,7 @@ StyleRuleCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -8155,7 +8155,7 @@ bool
 aAllowDangerousSrc
 )
 {
-PRUint32
+uint32_t
 ac
 =
 aElement
@@ -8170,7 +8170,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 ac
@@ -8204,7 +8204,7 @@ GetAttrNameAt
 i
 )
 ;
-PRInt32
+int32_t
 attrNs
 =
 attrName
@@ -9171,7 +9171,7 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -9241,7 +9241,7 @@ GetSecurityManager
 (
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 nsIScriptSecurityManager
@@ -9898,7 +9898,7 @@ NameAtom
 (
 )
 ;
-PRInt32
+int32_t
 ns
 =
 nodeInfo
@@ -10530,7 +10530,7 @@ GetAttrNameAt
 )
 )
 {
-PRInt32
+int32_t
 attrNs
 =
 attrName
@@ -10609,7 +10609,7 @@ kElementsHTML
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10660,7 +10660,7 @@ kAttributesHTML
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10711,7 +10711,7 @@ kPresAttributesHTML
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10762,7 +10762,7 @@ kElementsSVG
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10813,7 +10813,7 @@ kAttributesSVG
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10864,7 +10864,7 @@ kElementsMathML
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10915,7 +10915,7 @@ kAttributesMathML
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

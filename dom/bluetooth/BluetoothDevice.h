@@ -313,7 +313,7 @@ mAddress
 nsString
 mName
 ;
-PRUint32
+uint32_t
 mClass
 ;
 bool

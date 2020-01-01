@@ -519,7 +519,7 @@ const
 nsAString
 &
 aString
-PRInt32
+int32_t
 aClipboardID
 nsIDOMDocument
 *

@@ -226,7 +226,7 @@ aContext
 NS_IMETHOD
 Close
 (
-PRUint16
+uint16_t
 code
 const
 nsACString
@@ -258,7 +258,7 @@ SendBinaryStream
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -327,7 +327,7 @@ bool
 RecvOnAcknowledge
 (
 const
-PRUint32
+uint32_t
 &
 aSize
 )
@@ -336,7 +336,7 @@ bool
 RecvOnServerClose
 (
 const
-PRUint16
+uint16_t
 &
 aCode
 const
@@ -394,7 +394,7 @@ void
 OnAcknowledge
 (
 const
-PRUint32
+uint32_t
 &
 aSize
 )
@@ -403,7 +403,7 @@ void
 OnServerClose
 (
 const
-PRUint16
+uint16_t
 &
 aCode
 const

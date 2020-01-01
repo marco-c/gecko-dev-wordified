@@ -376,7 +376,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -880,10 +880,10 @@ redrawing
 the
 border
 .
-PRInt32
+int32_t
 width
 ;
-PRInt32
+int32_t
 height
 ;
 mImage
@@ -1005,7 +1005,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1032,9 +1032,9 @@ Decoder
 :
 PostSize
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 {

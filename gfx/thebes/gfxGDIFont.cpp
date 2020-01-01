@@ -420,7 +420,7 @@ PRUnichar
 aString
 )
 {
-PRUint32
+uint32_t
 flags
 =
 aShapedWord
@@ -1079,7 +1079,7 @@ return
 mMetrics
 ;
 }
-PRUint32
+uint32_t
 gfxGDIFont
 :
 :
@@ -1192,9 +1192,9 @@ Measure
 gfxTextRun
 *
 aTextRun
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
@@ -3320,7 +3320,7 @@ GetFontEntry
 )
 )
 ;
-PRUint16
+uint16_t
 weight
 ;
 if
@@ -3482,7 +3482,7 @@ lfItalic
 ;
 }
 }
-PRInt32
+int32_t
 gfxGDIFont
 :
 :
@@ -3491,7 +3491,7 @@ GetGlyphWidth
 gfxContext
 *
 aCtx
-PRUint16
+uint16_t
 aGID
 )
 {
@@ -3513,7 +3513,7 @@ Init
 )
 ;
 }
-PRInt32
+int32_t
 width
 ;
 if

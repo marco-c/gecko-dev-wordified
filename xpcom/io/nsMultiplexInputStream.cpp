@@ -268,7 +268,7 @@ nsIInputStream
 *
 mThisStream
 ;
-PRUint32
+uint32_t
 mOffset
 ;
 nsWriteSegmentFun
@@ -297,11 +297,11 @@ const
 char
 *
 aFromRawSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -315,7 +315,7 @@ nsIInputStream
 >
 mStreams
 ;
-PRUint32
+uint32_t
 mCurrentStream
 ;
 bool
@@ -397,7 +397,7 @@ nsMultiplexInputStream
 :
 GetCount
 (
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -476,7 +476,7 @@ InsertStream
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -541,7 +541,7 @@ nsMultiplexInputStream
 :
 RemoveStream
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -597,7 +597,7 @@ nsMultiplexInputStream
 :
 GetStream
 (
-PRUint32
+uint32_t
 aIndex
 nsIInputStream
 *
@@ -659,7 +659,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 len
 =
 mStreams
@@ -670,7 +670,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -745,7 +745,7 @@ nsMultiplexInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 _retval
 )
@@ -763,12 +763,12 @@ mStatus
 nsresult
 rv
 ;
-PRUint64
+uint64_t
 avail
 =
 0
 ;
-PRUint32
+uint32_t
 len
 =
 mStreams
@@ -779,7 +779,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mCurrentStream
@@ -793,7 +793,7 @@ i
 +
 )
 {
-PRUint64
+uint64_t
 streamAvail
 ;
 rv
@@ -860,9 +860,9 @@ Read
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -938,7 +938,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 len
 =
 mStreams
@@ -957,7 +957,7 @@ len
 aCount
 )
 {
-PRUint32
+uint32_t
 read
 ;
 rv
@@ -1140,9 +1140,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -1221,7 +1221,7 @@ mDone
 =
 false
 ;
-PRUint32
+uint32_t
 len
 =
 mStreams
@@ -1240,7 +1240,7 @@ len
 aCount
 )
 {
-PRUint32
+uint32_t
 read
 ;
 rv
@@ -1453,11 +1453,11 @@ const
 char
 *
 aFromRawSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -1541,7 +1541,7 @@ bool
 aNonBlocking
 )
 {
-PRUint32
+uint32_t
 len
 =
 mStreams
@@ -1620,7 +1620,7 @@ NS_OK
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1720,10 +1720,10 @@ void
 seek
 (
 in
-PRInt32
+int32_t
 whence
 in
-PRInt32
+int32_t
 offset
 )
 ;
@@ -1735,9 +1735,9 @@ nsMultiplexInputStream
 :
 Seek
 (
-PRInt32
+int32_t
 aWhence
-PRInt64
+int64_t
 aOffset
 )
 {
@@ -1754,7 +1754,7 @@ mStatus
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 oldCurrentStream
 =
 mCurrentStream
@@ -1772,7 +1772,7 @@ aWhence
 NS_SEEK_SET
 )
 {
-PRInt64
+int64_t
 remaining
 =
 aOffset
@@ -1792,7 +1792,7 @@ mCurrentStream
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1903,7 +1903,7 @@ position
 in
 current
 stream
-PRInt64
+int64_t
 streamPos
 ;
 if
@@ -2041,7 +2041,7 @@ streamPos
 }
 else
 {
-PRUint64
+uint64_t
 avail
 ;
 rv
@@ -2064,7 +2064,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 newPos
 =
 streamPos
@@ -2072,7 +2072,7 @@ streamPos
 NS_MIN
 (
 (
-PRInt64
+int64_t
 )
 avail
 remaining
@@ -2147,14 +2147,14 @@ aOffset
 0
 )
 {
-PRInt64
+int64_t
 remaining
 =
 aOffset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mCurrentStream
@@ -2189,7 +2189,7 @@ i
 ]
 )
 ;
-PRUint64
+uint64_t
 avail
 ;
 rv
@@ -2212,13 +2212,13 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 seek
 =
 NS_MIN
 (
 (
-PRInt64
+int64_t
 )
 avail
 remaining
@@ -2272,7 +2272,7 @@ aOffset
 0
 )
 {
-PRInt64
+int64_t
 remaining
 =
 -
@@ -2280,7 +2280,7 @@ aOffset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mCurrentStream
@@ -2292,7 +2292,7 @@ i
 !
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -2316,7 +2316,7 @@ i
 ]
 )
 ;
-PRInt64
+int64_t
 pos
 ;
 rv
@@ -2336,7 +2336,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 seek
 =
 NS_MIN
@@ -2434,14 +2434,14 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-PRInt64
+int64_t
 remaining
 =
 aOffset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mStreams
@@ -2456,7 +2456,7 @@ i
 !
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -2539,7 +2539,7 @@ position
 in
 current
 stream
-PRInt64
+int64_t
 streamPos
 ;
 if
@@ -2556,7 +2556,7 @@ streamPos
 }
 else
 {
-PRUint64
+uint64_t
 avail
 ;
 rv
@@ -2690,7 +2690,7 @@ streamPos
 }
 else
 {
-PRInt64
+int64_t
 avail
 ;
 rv
@@ -2710,7 +2710,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 newPos
 =
 streamPos
@@ -2794,7 +2794,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 /
 *
-PRUint32
+uint32_t
 tell
 (
 )
@@ -2807,7 +2807,7 @@ nsMultiplexInputStream
 :
 Tell
 (
-PRInt64
+int64_t
 *
 _retval
 )
@@ -2825,12 +2825,12 @@ mStatus
 nsresult
 rv
 ;
-PRInt64
+int64_t
 ret64
 =
 0
 ;
-PRUint32
+uint32_t
 i
 last
 ;
@@ -2879,7 +2879,7 @@ stream
 NS_ERROR_NO_INTERFACE
 )
 ;
-PRInt64
+int64_t
 pos
 ;
 rv
@@ -3029,7 +3029,7 @@ IPC
 :
 ReadParam
 ;
-PRUint32
+uint32_t
 count
 ;
 if
@@ -3048,7 +3048,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3168,7 +3168,7 @@ IPC
 :
 WriteParam
 ;
-PRUint32
+uint32_t
 count
 =
 mStreams
@@ -3185,7 +3185,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3251,7 +3251,7 @@ aParams
 MultiplexInputStreamParams
 params
 ;
-PRUint32
+uint32_t
 streamCount
 =
 mStreams
@@ -3287,7 +3287,7 @@ streamCount
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3474,7 +3474,7 @@ streams
 (
 )
 ;
-PRUint32
+uint32_t
 streamCount
 =
 streams
@@ -3485,7 +3485,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

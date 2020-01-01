@@ -147,14 +147,14 @@ SetupDragSession
 nsISupportsArray
 *
 aTransferables
-PRUint32
+uint32_t
 aActionType
 )
 ;
 NS_IMETHODIMP
 SetDropActionType
 (
-PRUint32
+uint32_t
 aActionType
 )
 ;

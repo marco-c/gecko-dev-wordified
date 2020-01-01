@@ -524,7 +524,7 @@ STCategoryNode
 child
 )
 {
-PRUint32
+uint32_t
 i
 ;
 if
@@ -733,7 +733,7 @@ STGlobals
 g
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1442,7 +1442,7 @@ STCategoryNode
 *
 child
 ;
-PRUint32
+uint32_t
 i
 ;
 /
@@ -2410,7 +2410,7 @@ STCategoryRule
 aRule
 )
 {
-PRUint32
+uint32_t
 patnum
 =
 0
@@ -2657,12 +2657,12 @@ _gMatchTime
 =
 0
 ;
-PRUint32
+uint32_t
 _gMatchCount
 =
 0
 ;
-PRUint32
+uint32_t
 _gMatchRules
 =
 0
@@ -2722,7 +2722,7 @@ PR_IntervalNow
 ;
 #
 endif
-PRUint32
+uint32_t
 rulenum
 ;
 STCategoryNode
@@ -3492,7 +3492,7 @@ node
 runs
 )
 {
-PRUint32
+uint32_t
 loop
 =
 0
@@ -3818,7 +3818,7 @@ node1
 *
 node2
 ;
-PRUint32
+uint32_t
 a
 b
 ;
@@ -4300,7 +4300,7 @@ nodes
 *
 node
 ;
-PRUint32
+uint32_t
 begin
 end
 i
@@ -4553,7 +4553,7 @@ STCategoryRule
 rule
 )
 {
-PRUint32
+uint32_t
 i
 ;
 char
@@ -4639,7 +4639,7 @@ STGlobals
 g
 )
 {
-PRUint32
+uint32_t
 i
 ;
 /
@@ -4721,7 +4721,7 @@ STGlobals
 g
 )
 {
-PRUint32
+uint32_t
 i
 ;
 /
@@ -4870,7 +4870,7 @@ STGlobals
 g
 )
 {
-PRUint32
+uint32_t
 i
 ;
 #
@@ -5228,7 +5228,7 @@ STCategoryNode
 )
 clientData
 ;
-PRUint32
+uint32_t
 byteSize
 =
 0

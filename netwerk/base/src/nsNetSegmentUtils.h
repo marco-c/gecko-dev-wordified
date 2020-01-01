@@ -90,10 +90,10 @@ inline
 void
 net_ResolveSegmentParams
 (
-PRUint32
+uint32_t
 &
 segsize
-PRUint32
+uint32_t
 &
 segcount
 )

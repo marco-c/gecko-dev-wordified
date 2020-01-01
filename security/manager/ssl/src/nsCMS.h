@@ -297,7 +297,7 @@ unsigned
 char
 *
 aDigestData
-PRUint32
+uint32_t
 aDigestDataLen
 )
 ;
@@ -311,7 +311,7 @@ unsigned
 char
 *
 aDigestData
-PRUint32
+uint32_t
 aDigestDataLen
 )
 ;

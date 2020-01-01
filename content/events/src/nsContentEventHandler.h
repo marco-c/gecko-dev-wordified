@@ -482,9 +482,9 @@ aRootContent
 nsINode
 *
 aNode
-PRInt32
+int32_t
 aNodeOffset
-PRUint32
+uint32_t
 *
 aOffset
 )
@@ -499,7 +499,7 @@ aRootContent
 nsRange
 *
 aRange
-PRUint32
+uint32_t
 *
 aOffset
 )
@@ -550,9 +550,9 @@ SetRangeFromFlatTextOffset
 nsRange
 *
 aRange
-PRUint32
+uint32_t
 aNativeOffset
-PRUint32
+uint32_t
 aNativeLength
 bool
 aExpandToClusterBoundaries
@@ -588,7 +588,7 @@ nsIFrame
 *
 *
 aFrame
-PRInt32
+int32_t
 *
 aOffsetInFrame
 )
@@ -649,7 +649,7 @@ nsIContent
 aContent
 bool
 aForward
-PRUint32
+uint32_t
 *
 aXPOffset
 )

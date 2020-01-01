@@ -599,7 +599,7 @@ JSObject
 aScopeObj
 jsid
 aId
-PRUint32
+uint32_t
 aFlags
 JSObject
 *
@@ -662,7 +662,7 @@ aId
 )
 )
 {
-PRUint32
+uint32_t
 idx
 =
 JSID_TO_INT

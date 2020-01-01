@@ -4274,9 +4274,9 @@ err
 bool
 SetAlarm
 (
-PRInt32
+int32_t
 aSeconds
-PRInt32
+int32_t
 aNanoseconds
 )
 {
@@ -4495,7 +4495,7 @@ OomAdjust
 Nice
 }
 .
-PRInt32
+int32_t
 oomAdj
 =
 0
@@ -4591,7 +4591,7 @@ get
 )
 ;
 }
-PRInt32
+int32_t
 nice
 =
 0

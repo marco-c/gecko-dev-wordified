@@ -267,7 +267,7 @@ master
 state
 *
 /
-PRUint32
+uint32_t
 bytes_to_consume
 ;
 /
@@ -279,7 +279,7 @@ to
 accumulate
 *
 /
-PRUint32
+uint32_t
 bytes_in_hold
 ;
 /
@@ -298,7 +298,7 @@ state
 machine
 *
 /
-PRUint8
+uint8_t
 *
 stackp
 ;
@@ -335,7 +335,7 @@ dictionary
 int
 oldcode
 ;
-PRUint8
+uint8_t
 firstchar
 ;
 int
@@ -367,7 +367,7 @@ datum
 "
 *
 /
-PRInt32
+int32_t
 datum
 ;
 /
@@ -403,7 +403,7 @@ interlaced
 .
 *
 /
-PRUintn
+unsigned
 rows_remaining
 ;
 /
@@ -415,7 +415,7 @@ be
 output
 *
 /
-PRUintn
+unsigned
 irow
 ;
 /
@@ -428,7 +428,7 @@ at
 zero
 *
 /
-PRUint8
+uint8_t
 *
 rowp
 ;
@@ -450,7 +450,7 @@ being
 decoded
 *
 /
-PRUintn
+unsigned
 x_offset
 y_offset
 ;
@@ -465,7 +465,7 @@ screen
 origin
 *
 /
-PRUintn
+unsigned
 height
 width
 ;
@@ -480,7 +480,7 @@ transparent
 pixel
 *
 /
-PRInt32
+int32_t
 disposal_method
 ;
 /
@@ -495,7 +495,7 @@ etc
 .
 *
 /
-PRUint32
+uint32_t
 *
 local_colormap
 ;
@@ -520,7 +520,7 @@ array
 .
 *
 /
-PRUint32
+uint32_t
 delay_time
 ;
 /
@@ -566,7 +566,7 @@ for
 GIF87
 *
 /
-PRUintn
+unsigned
 screen_width
 ;
 /
@@ -578,10 +578,10 @@ width
 height
 *
 /
-PRUintn
+unsigned
 screen_height
 ;
-PRUint32
+uint32_t
 global_colormap_depth
 ;
 /
@@ -668,7 +668,7 @@ is
 valid
 *
 /
-PRUint16
+uint16_t
 prefix
 [
 MAX_BITS
@@ -681,7 +681,7 @@ decoding
 tables
 *
 /
-PRUint8
+uint8_t
 hold
 [
 MAX_HOLD_SIZE
@@ -693,7 +693,7 @@ Accumulation
 buffer
 *
 /
-PRUint32
+uint32_t
 global_colormap
 [
 MAX_COLORS
@@ -709,7 +709,7 @@ not
 supplied
 *
 /
-PRUint8
+uint8_t
 suffix
 [
 MAX_BITS
@@ -722,7 +722,7 @@ decoding
 tables
 *
 /
-PRUint8
+uint8_t
 stack
 [
 MAX_BITS

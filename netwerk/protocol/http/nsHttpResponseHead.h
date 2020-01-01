@@ -361,7 +361,7 @@ return
 mVersion
 ;
 }
-PRUint16
+uint16_t
 Status
 (
 )
@@ -383,7 +383,7 @@ return
 mStatusText
 ;
 }
-PRInt64
+int64_t
 ContentLength
 (
 )
@@ -480,7 +480,7 @@ entity
 .
 *
 /
-PRInt64
+int64_t
 TotalEntitySize
 (
 )
@@ -645,7 +645,7 @@ s
 void
 SetContentLength
 (
-PRInt64
+int64_t
 )
 ;
 /
@@ -782,7 +782,7 @@ methods
 nsresult
 ComputeFreshnessLifetime
 (
-PRUint32
+uint32_t
 *
 )
 const
@@ -790,11 +790,11 @@ const
 nsresult
 ComputeCurrentAge
 (
-PRUint32
+uint32_t
 now
-PRUint32
+uint32_t
 requestTime
-PRUint32
+uint32_t
 *
 result
 )
@@ -913,7 +913,7 @@ ParseDateHeader
 (
 nsHttpAtom
 header
-PRUint32
+uint32_t
 *
 result
 )
@@ -922,7 +922,7 @@ const
 nsresult
 GetAgeValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -931,7 +931,7 @@ const
 nsresult
 GetMaxAgeValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -940,7 +940,7 @@ const
 nsresult
 GetDateValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -960,7 +960,7 @@ result
 nsresult
 GetExpiresValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -969,7 +969,7 @@ const
 nsresult
 GetLastModifiedValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -1031,7 +1031,7 @@ mHeaders
 nsHttpVersion
 mVersion
 ;
-PRUint16
+uint16_t
 mStatus
 ;
 mozilla
@@ -1043,7 +1043,7 @@ net
 InfallableCopyCString
 mStatusText
 ;
-PRInt64
+int64_t
 mContentLength
 ;
 mozilla

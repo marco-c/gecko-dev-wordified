@@ -198,7 +198,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -219,7 +219,7 @@ codingState
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -269,7 +269,7 @@ codingState
 eStart
 )
 {
-PRUint32
+uint32_t
 charLen
 =
 mCodingSM

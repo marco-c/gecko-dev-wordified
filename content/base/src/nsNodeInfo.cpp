@@ -267,7 +267,7 @@ nsNodeInfo
 ;
 static
 const
-PRInt32
+int32_t
 kNodeInfoPoolInitialSize
 =
 sizeof
@@ -305,9 +305,9 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
-PRUint16
+uint16_t
 aNodeType
 nsIAtom
 *
@@ -470,9 +470,9 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
-PRUint16
+uint16_t
 aNodeType
 nsIAtom
 *
@@ -909,7 +909,7 @@ name
 72
 ]
 ;
-PRUint32
+uint32_t
 nsid
 =
 tmp
@@ -1126,7 +1126,7 @@ aNamespaceURI
 )
 const
 {
-PRInt32
+int32_t
 nsid
 =
 nsContentUtils

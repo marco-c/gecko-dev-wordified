@@ -393,7 +393,7 @@ char
 aNeedle
 )
 {
-PRInt32
+int32_t
 idx
 =
 aHaystack
@@ -444,7 +444,7 @@ nsACString
 aOut
 )
 {
-PRInt32
+int32_t
 idx
 =
 aPath
@@ -503,7 +503,7 @@ aOut
 nsCString
 out
 ;
-PRInt32
+int32_t
 idx
 =
 aPath
@@ -791,7 +791,7 @@ aClosure
 NS_IMETHOD
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 aAmount
 )
@@ -945,7 +945,7 @@ false
 )
 {
 const
-PRUint32
+uint32_t
 len
 =
 ArrayLength
@@ -962,7 +962,7 @@ len
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1562,7 +1562,7 @@ long
 =
 sizeof
 (
-PRInt64
+int64_t
 )
 "
 size
@@ -1576,7 +1576,7 @@ expected
 to
 match
 (
-PRInt64
+int64_t
 )
 "
 )
@@ -1591,7 +1591,7 @@ int
 =
 sizeof
 (
-PRInt32
+int32_t
 )
 "
 size
@@ -1604,7 +1604,7 @@ expected
 to
 match
 (
-PRInt32
+int32_t
 )
 "
 )
@@ -3006,7 +3006,7 @@ long
 =
 sizeof
 (
-PRInt64
+int64_t
 )
 "
 size
@@ -3020,7 +3020,7 @@ expected
 to
 match
 (
-PRInt64
+int64_t
 )
 "
 )
@@ -3283,7 +3283,7 @@ nsIMemoryReporter
 :
 :
 UNITS_BYTES
-PRInt64
+int64_t
 (
 size
 )

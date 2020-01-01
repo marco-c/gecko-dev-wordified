@@ -181,7 +181,7 @@ it
 *
 /
 static
-PRInt32
+int32_t
 EntityToUnicode
 (
 const
@@ -191,7 +191,7 @@ aEntity
 )
 ;
 static
-PRInt32
+int32_t
 EntityToUnicode
 (
 const
@@ -257,7 +257,7 @@ char
 *
 UnicodeToEntity
 (
-PRInt32
+int32_t
 aUnicode
 )
 ;

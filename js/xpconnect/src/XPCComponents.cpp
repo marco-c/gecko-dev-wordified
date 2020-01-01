@@ -960,7 +960,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -983,7 +983,7 @@ nsXPCComponents_Interfaces
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -994,7 +994,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 3
@@ -1044,7 +1044,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -1166,7 +1166,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -1178,7 +1178,7 @@ nsXPCComponents_Interfaces
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -1319,7 +1319,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -1330,7 +1330,7 @@ nsXPCComponents_Interfaces
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -1351,7 +1351,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -1362,7 +1362,7 @@ nsXPCComponents_Interfaces
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -1544,7 +1544,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 enum_op
 in
 JSValPtr
@@ -1571,7 +1571,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -1913,7 +1913,7 @@ in
 jsval
 id
 in
-PRUint32
+uint32_t
 flags
 out
 JSObjectPtr
@@ -1939,7 +1939,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -2757,7 +2757,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -2780,7 +2780,7 @@ nsXPCComponents_InterfacesByID
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -2791,7 +2791,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 3
@@ -2841,7 +2841,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -2963,7 +2963,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -2975,7 +2975,7 @@ nsXPCComponents_InterfacesByID
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -3116,7 +3116,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -3127,7 +3127,7 @@ nsXPCComponents_InterfacesByID
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -3148,7 +3148,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -3159,7 +3159,7 @@ nsXPCComponents_InterfacesByID
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -3341,7 +3341,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 enum_op
 in
 JSValPtr
@@ -3368,7 +3368,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -3721,7 +3721,7 @@ in
 jsval
 id
 in
-PRUint32
+uint32_t
 flags
 out
 JSObjectPtr
@@ -3747,7 +3747,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -4572,7 +4572,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -4595,7 +4595,7 @@ nsXPCComponents_Classes
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -4606,7 +4606,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 2
@@ -4656,7 +4656,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -4774,7 +4774,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -4786,7 +4786,7 @@ nsXPCComponents_Classes
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -4927,7 +4927,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -4938,7 +4938,7 @@ nsXPCComponents_Classes
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -4959,7 +4959,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -4970,7 +4970,7 @@ nsXPCComponents_Classes
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -5140,7 +5140,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 enum_op
 in
 JSValPtr
@@ -5167,7 +5167,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -5477,7 +5477,7 @@ in
 jsval
 id
 in
-PRUint32
+uint32_t
 flags
 out
 JSObjectPtr
@@ -5503,7 +5503,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -6062,7 +6062,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -6085,7 +6085,7 @@ nsXPCComponents_ClassesByID
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -6096,7 +6096,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 2
@@ -6146,7 +6146,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -6264,7 +6264,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -6276,7 +6276,7 @@ nsXPCComponents_ClassesByID
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -6417,7 +6417,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -6428,7 +6428,7 @@ nsXPCComponents_ClassesByID
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -6449,7 +6449,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -6460,7 +6460,7 @@ nsXPCComponents_ClassesByID
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -6630,7 +6630,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 enum_op
 in
 JSValPtr
@@ -6657,7 +6657,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -7044,7 +7044,7 @@ in
 jsval
 id
 in
-PRUint32
+uint32_t
 flags
 out
 JSObjectPtr
@@ -7070,7 +7070,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -7512,7 +7512,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -7535,7 +7535,7 @@ nsXPCComponents_Results
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -7546,7 +7546,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 2
@@ -7596,7 +7596,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -7714,7 +7714,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -7726,7 +7726,7 @@ nsXPCComponents_Results
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -7867,7 +7867,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -7878,7 +7878,7 @@ nsXPCComponents_Results
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -7899,7 +7899,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -7910,7 +7910,7 @@ nsXPCComponents_Results
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -8080,7 +8080,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 enum_op
 in
 JSValPtr
@@ -8107,7 +8107,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -8321,7 +8321,7 @@ in
 jsval
 id
 in
-PRUint32
+uint32_t
 flags
 out
 JSObjectPtr
@@ -8347,7 +8347,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -8614,7 +8614,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -8712,7 +8712,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -8735,7 +8735,7 @@ nsXPCComponents_ID
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -8746,7 +8746,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 2
@@ -8796,7 +8796,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -8914,7 +8914,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -8926,7 +8926,7 @@ nsXPCComponents_ID
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -9067,7 +9067,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -9078,7 +9078,7 @@ nsXPCComponents_ID
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -9099,7 +9099,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -9110,7 +9110,7 @@ nsXPCComponents_ID
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -9277,7 +9277,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -9304,7 +9304,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -9345,7 +9345,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -9372,7 +9372,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -9416,7 +9416,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -9882,7 +9882,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -9980,7 +9980,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -10003,7 +10003,7 @@ nsXPCComponents_Exception
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -10014,7 +10014,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 2
@@ -10064,7 +10064,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -10182,7 +10182,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -10194,7 +10194,7 @@ nsXPCComponents_Exception
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -10335,7 +10335,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -10346,7 +10346,7 @@ nsXPCComponents_Exception
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -10367,7 +10367,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -10378,7 +10378,7 @@ nsXPCComponents_Exception
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -10545,7 +10545,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -10572,7 +10572,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -10613,7 +10613,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -10640,7 +10640,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -11580,7 +11580,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -12185,7 +12185,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -12297,7 +12297,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -12320,7 +12320,7 @@ nsXPCConstructor
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -12331,7 +12331,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 2
@@ -12381,7 +12381,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -12499,7 +12499,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -12511,7 +12511,7 @@ nsXPCConstructor
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -12652,7 +12652,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -12663,7 +12663,7 @@ nsXPCConstructor
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -12684,7 +12684,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -12695,7 +12695,7 @@ nsXPCConstructor
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -13017,7 +13017,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -13044,7 +13044,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -13085,7 +13085,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -13112,7 +13112,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -13156,7 +13156,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -13646,7 +13646,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -13744,7 +13744,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -13767,7 +13767,7 @@ nsXPCComponents_Constructor
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -13778,7 +13778,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 2
@@ -13828,7 +13828,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -13946,7 +13946,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -13958,7 +13958,7 @@ nsXPCComponents_Constructor
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -14099,7 +14099,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -14110,7 +14110,7 @@ nsXPCComponents_Constructor
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -14131,7 +14131,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -14142,7 +14142,7 @@ nsXPCComponents_Constructor
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -14309,7 +14309,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -14336,7 +14336,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -14377,7 +14377,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -14404,7 +14404,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -14448,7 +14448,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -15708,7 +15708,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -16507,7 +16507,7 @@ cx
 )
 ;
 const
-PRUint64
+uint64_t
 innerWindowID
 =
 nsJSUtils
@@ -16554,7 +16554,7 @@ filename
 fileUni
 )
 ;
-PRUint32
+uint32_t
 column
 =
 err
@@ -16713,7 +16713,7 @@ frame
 nsXPIDLCString
 fileName
 ;
-PRInt32
+int32_t
 lineNo
 =
 0
@@ -19924,7 +19924,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -19951,7 +19951,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -19992,7 +19992,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -20019,7 +20019,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -21473,7 +21473,7 @@ frame
 nsCString
 location
 ;
-PRInt32
+int32_t
 lineNumber
 =
 0
@@ -21564,7 +21564,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 JS
 :
@@ -22315,12 +22315,12 @@ JS
 Value
 &
 filenameVal
-PRInt32
+int32_t
 lineNumber
 JSContext
 *
 cx
-PRUint8
+uint8_t
 optionalArgc
 JS
 :
@@ -22448,7 +22448,7 @@ number
 nsXPIDLCString
 filename
 ;
-PRInt32
+int32_t
 lineNo
 =
 (
@@ -22632,7 +22632,7 @@ const
 char
 *
 filename
-PRInt32
+int32_t
 lineNo
 JSVersion
 jsVersion
@@ -23542,7 +23542,7 @@ targetObj
 JSContext
 *
 cx
-PRUint8
+uint8_t
 optionalArgc
 JS
 :
@@ -25969,7 +25969,7 @@ nsXPCComponents_Utils
 :
 SetGCZeal
 (
-PRInt32
+int32_t
 aValue
 JSContext
 *
@@ -25982,7 +25982,7 @@ JS_GC_ZEAL
 JS_SetGCZeal
 (
 cx
-PRUint8
+uint8_t
 (
 aValue
 )
@@ -26380,7 +26380,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -26403,7 +26403,7 @@ nsXPCComponents
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -26414,7 +26414,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 3
@@ -26464,7 +26464,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -26586,7 +26586,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -26598,7 +26598,7 @@ nsXPCComponents
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -26751,7 +26751,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -26762,7 +26762,7 @@ nsXPCComponents
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -26783,7 +26783,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -26794,7 +26794,7 @@ nsXPCComponents
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -27446,7 +27446,7 @@ in
 jsval
 id
 in
-PRUint32
+uint32_t
 flags
 out
 JSObjectPtr
@@ -27472,7 +27472,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *

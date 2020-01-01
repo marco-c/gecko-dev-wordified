@@ -448,7 +448,7 @@ const
 nsACString
 &
 host
-PRInt32
+int32_t
 port
 nsIFile
 *
@@ -594,7 +594,7 @@ buf
 120
 ]
 ;
-PRUint32
+uint32_t
 nr
 nw
 ;
@@ -905,7 +905,7 @@ argv
 1
 ]
 ;
-PRInt32
+int32_t
 port
 =
 atoi

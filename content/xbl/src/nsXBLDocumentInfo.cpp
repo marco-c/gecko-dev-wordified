@@ -459,7 +459,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 accessType
 )
 ;
@@ -530,7 +530,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 accessType
 )
 {
@@ -759,7 +759,7 @@ jsval
 vp
 )
 {
-PRUint32
+uint32_t
 translated
 ;
 if
@@ -1148,7 +1148,7 @@ errorObject
 consoleService
 )
 {
-PRUint32
+uint32_t
 column
 =
 report
@@ -2544,7 +2544,7 @@ nsXBLDocumentInfo
 :
 MarkInCCGeneration
 (
-PRUint32
+uint32_t
 aGeneration
 )
 {
@@ -3180,7 +3180,7 @@ char
 >
 buf
 ;
-PRUint32
+uint32_t
 len
 ;
 rv
@@ -3304,7 +3304,7 @@ to
 be
 safe
 .
-PRUint32
+uint32_t
 version
 ;
 rv
@@ -3453,7 +3453,7 @@ while
 1
 )
 {
-PRUint8
+uint8_t
 flags
 ;
 nsresult
@@ -3710,7 +3710,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 len
 ;
 nsAutoArrayPtr

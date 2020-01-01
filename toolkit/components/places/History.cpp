@@ -775,7 +775,7 @@ nsINavHistoryService
 void
 SetTransitionType
 (
-PRUint32
+uint32_t
 aTransitionType
 )
 {
@@ -891,16 +891,16 @@ return
 true
 ;
 }
-PRInt64
+int64_t
 placeId
 ;
 nsCString
 guid
 ;
-PRInt64
+int64_t
 visitId
 ;
-PRInt64
+int64_t
 sessionId
 ;
 nsCString
@@ -915,13 +915,13 @@ hidden
 bool
 typed
 ;
-PRUint32
+uint32_t
 transitionType
 ;
 PRTime
 visitTime
 ;
-PRInt32
+int32_t
 frecency
 ;
 /
@@ -2187,7 +2187,7 @@ NS_OK
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -4533,7 +4533,7 @@ i
 0
 )
 {
-PRInt64
+int64_t
 newSessionId
 =
 navHistory
@@ -6134,7 +6134,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 transitionType
 =
 _place
@@ -8182,7 +8182,7 @@ links
 hashtable
 "
 )
-PRInt64
+int64_t
 GetHistoryObserversSize
 (
 )
@@ -8565,7 +8565,7 @@ cplist
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10001,7 +10001,7 @@ our
 data
 structure
 .
-PRInt32
+int32_t
 hidden
 ;
 rv
@@ -10068,7 +10068,7 @@ our
 data
 structure
 .
-PRInt32
+int32_t
 typed
 ;
 rv
@@ -10671,7 +10671,7 @@ aURI
 nsIURI
 *
 aLastVisitedURI
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -10966,7 +10966,7 @@ of
 a
 location
 .
-PRUint32
+uint32_t
 recentFlags
 =
 navHistory
@@ -11053,7 +11053,7 @@ stored
 on
 disk
 .
-PRUint32
+uint32_t
 transitionType
 =
 nsINavHistoryService
@@ -13399,7 +13399,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 transitionType
 =
 0

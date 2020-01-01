@@ -128,7 +128,7 @@ aStream
 nsZipHeader
 *
 aHeader
-PRInt32
+int32_t
 aCompression
 )
 ;
@@ -183,9 +183,9 @@ aContext
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 ;

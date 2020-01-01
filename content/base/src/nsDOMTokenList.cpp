@@ -240,7 +240,7 @@ nsDOMTokenList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -289,7 +289,7 @@ nsDOMTokenList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -316,7 +316,7 @@ aIndex
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 attr

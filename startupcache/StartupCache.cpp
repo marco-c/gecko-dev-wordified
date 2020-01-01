@@ -376,7 +376,7 @@ namespace
 scache
 {
 static
-PRInt64
+int64_t
 GetStartupCacheMappingSize
 (
 )
@@ -479,7 +479,7 @@ data
 "
 )
 static
-PRInt64
+int64_t
 GetStartupCacheDataSize
 (
 )
@@ -1503,7 +1503,7 @@ PR_Now
 (
 )
 ;
-PRInt64
+int64_t
 diff
 =
 current
@@ -1533,17 +1533,17 @@ TimeStamp
 from
 creationStamp
 .
-PRInt64
+int64_t
 usec_per_hour
 =
 PR_USEC_PER_SEC
 *
-PRInt64
+int64_t
 (
 3600
 )
 ;
-PRInt64
+int64_t
 hour_diff
 =
 (
@@ -1594,7 +1594,7 @@ char
 *
 *
 outbuf
-PRUint32
+uint32_t
 *
 length
 )
@@ -1699,7 +1699,7 @@ char
 *
 *
 outbuf
-PRUint32
+uint32_t
 *
 length
 )
@@ -1933,7 +1933,7 @@ const
 char
 *
 inbuf
-PRUint32
+uint32_t
 len
 )
 {
@@ -3350,7 +3350,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 flags
 ;
 rv
@@ -3717,9 +3717,9 @@ StartupCacheDebugOutputStream
 :
 GetBuffer
 (
-PRUint32
+uint32_t
 aLength
-PRUint32
+uint32_t
 aAlignMask
 )
 {
@@ -3743,7 +3743,7 @@ PutBuffer
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -3820,7 +3820,7 @@ char
 *
 *
 outbuf
-PRUint32
+uint32_t
 *
 length
 )
@@ -3872,7 +3872,7 @@ const
 char
 *
 inbuf
-PRUint32
+uint32_t
 length
 )
 {

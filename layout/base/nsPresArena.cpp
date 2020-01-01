@@ -1317,7 +1317,7 @@ nsPrintfCString
 .
 16llx
 "
-PRUint64
+uint64_t
 (
 rgnbase
 )
@@ -1341,7 +1341,7 @@ nsPrintfCString
 %
 lu
 "
-PRUint32
+uint32_t
 (
 rgnsize
 )
@@ -1396,7 +1396,7 @@ PLDHashEntryHdr
 public
 :
 typedef
-PRUint32
+uint32_t
 KeyType
 ;
 nsTArray
@@ -1566,7 +1566,7 @@ void
 *
 Allocate
 (
-PRUint32
+uint32_t
 aCode
 size_t
 aSize
@@ -1869,7 +1869,7 @@ result
 void
 Free
 (
-PRUint32
+uint32_t
 aCode
 void
 *
@@ -2655,7 +2655,7 @@ void
 *
 Allocate
 (
-PRUint32
+uint32_t
 /
 *
 unused
@@ -2675,7 +2675,7 @@ aSize
 void
 Free
 (
-PRUint32
+uint32_t
 /
 *
 unused
@@ -2763,12 +2763,12 @@ mState
 >
 Allocate
 (
-PRUint32
+uint32_t
 (
 aSize
 )
 |
-PRUint32
+uint32_t
 (
 NON_OBJECT_MARKER
 )
@@ -2794,12 +2794,12 @@ mState
 >
 Free
 (
-PRUint32
+uint32_t
 (
 aSize
 )
 |
-PRUint32
+uint32_t
 (
 NON_OBJECT_MARKER
 )

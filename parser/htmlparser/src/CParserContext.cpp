@@ -396,7 +396,7 @@ result
 =
 NS_OK
 ;
-PRInt32
+int32_t
 type
 =
 aDTD

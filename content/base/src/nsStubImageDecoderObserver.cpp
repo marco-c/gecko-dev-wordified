@@ -137,7 +137,7 @@ OnStartFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -175,7 +175,7 @@ OnStopFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {

@@ -225,7 +225,7 @@ x
 inline
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 NS_lround
 (
@@ -241,7 +241,7 @@ x
 .
 0
 ?
-PRInt32
+int32_t
 (
 x
 +
@@ -250,7 +250,7 @@ x
 5
 )
 :
-PRInt32
+int32_t
 (
 x
 -
@@ -300,7 +300,7 @@ __GNUC__
 inline
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 NS_lroundup30
 (
@@ -586,7 +586,7 @@ __GNUC__
 inline
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 NS_lroundf
 (
@@ -602,7 +602,7 @@ x
 .
 0f
 ?
-PRInt32
+int32_t
 (
 x
 +
@@ -611,7 +611,7 @@ x
 5f
 )
 :
-PRInt32
+int32_t
 (
 x
 -

@@ -166,9 +166,9 @@ const
 nsAString
 &
 aNumber
-PRUint16
+uint16_t
 aCallState
-PRUint32
+uint32_t
 aCallIndex
 )
 {
@@ -286,7 +286,7 @@ TelephonyCall
 :
 ChangeStateInternal
 (
-PRUint16
+uint16_t
 aCallState
 bool
 aFireEvents

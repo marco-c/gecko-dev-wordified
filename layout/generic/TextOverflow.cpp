@@ -955,7 +955,7 @@ const
 nsString
 &
 aString
-PRUint32
+uint32_t
 aIndex
 )
 :
@@ -1055,7 +1055,7 @@ aCtx
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetPerFrameKey
 (
 )
@@ -1128,7 +1128,7 @@ marker
 text
 in
 mRect
-PRUint32
+uint32_t
 mIndex
 ;
 }
@@ -1385,7 +1385,7 @@ GetScrollableFrameFor
 aBlockFrame
 )
 ;
-PRUint8
+uint8_t
 direction
 =
 aBlockFrame
@@ -2899,7 +2899,7 @@ foundVisibleTextOrAtomic
 =
 false
 ;
-PRInt32
+int32_t
 n
 =
 aLine
@@ -3753,7 +3753,7 @@ PositionedDescendants
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

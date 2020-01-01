@@ -225,9 +225,9 @@ nsXBLKeyEventHandler
 nsIAtom
 *
 aEventType
-PRUint8
+uint8_t
 aPhase
-PRUint8
+uint8_t
 aType
 )
 ;
@@ -261,9 +261,9 @@ Matches
 nsIAtom
 *
 aEventType
-PRUint8
+uint8_t
 aPhase
-PRUint8
+uint8_t
 aType
 )
 const
@@ -307,7 +307,7 @@ aString
 )
 ;
 }
-PRUint8
+uint8_t
 GetPhase
 (
 )
@@ -317,7 +317,7 @@ return
 mPhase
 ;
 }
-PRUint8
+uint8_t
 GetType
 (
 )
@@ -351,7 +351,7 @@ ExecuteMatchedHandlers
 nsIDOMKeyEvent
 *
 aEvent
-PRUint32
+uint32_t
 aCharCode
 bool
 aIgnoreShiftKey
@@ -370,10 +370,10 @@ nsIAtom
 >
 mEventType
 ;
-PRUint8
+uint8_t
 mPhase
 ;
-PRUint8
+uint8_t
 mType
 ;
 bool
@@ -402,9 +402,9 @@ NS_NewXBLKeyEventHandler
 nsIAtom
 *
 aEventType
-PRUint8
+uint8_t
 aPhase
-PRUint8
+uint8_t
 aType
 nsXBLKeyEventHandler
 *

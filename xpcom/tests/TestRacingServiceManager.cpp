@@ -336,12 +336,12 @@ factory
 ;
 1
 "
-PRInt32
+int32_t
 gComponent1Count
 =
 0
 ;
-PRInt32
+int32_t
 gComponent2Count
 =
 0
@@ -527,7 +527,7 @@ is
 ever
 created
 .
-PRInt32
+int32_t
 count
 =
 PR_AtomicIncrement
@@ -607,7 +607,7 @@ is
 ever
 created
 .
-PRInt32
+int32_t
 count
 =
 PR_AtomicIncrement

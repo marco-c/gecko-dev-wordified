@@ -140,7 +140,7 @@ nsAccessibleRelation
 :
 nsAccessibleRelation
 (
-PRUint32
+uint32_t
 aType
 Relation
 *
@@ -205,7 +205,7 @@ nsAccessibleRelation
 :
 GetRelationType
 (
-PRUint32
+uint32_t
 *
 aType
 )
@@ -230,7 +230,7 @@ nsAccessibleRelation
 :
 GetTargetsCount
 (
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -261,7 +261,7 @@ nsAccessibleRelation
 :
 GetTarget
 (
-PRUint32
+uint32_t
 aIndex
 nsIAccessible
 *

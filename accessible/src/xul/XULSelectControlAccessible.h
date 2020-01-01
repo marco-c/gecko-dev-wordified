@@ -207,7 +207,7 @@ SelectedItems
 )
 ;
 virtual
-PRUint32
+uint32_t
 SelectedItemCount
 (
 )
@@ -217,7 +217,7 @@ Accessible
 *
 GetSelectedItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -225,7 +225,7 @@ virtual
 bool
 IsItemSelected
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -233,7 +233,7 @@ virtual
 bool
 AddItemToSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -241,7 +241,7 @@ virtual
 bool
 RemoveItemFromSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;

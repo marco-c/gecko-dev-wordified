@@ -261,7 +261,7 @@ a
 PNG
 file
 const
-PRUint8
+uint8_t
 nsPNGDecoder
 :
 :
@@ -468,9 +468,9 @@ png_uint_32
 x_offset
 png_uint_32
 y_offset
-PRInt32
+int32_t
 width
-PRInt32
+int32_t
 height
 gfxASurface
 :
@@ -479,7 +479,7 @@ gfxImageFormat
 format
 )
 {
-PRUint32
+uint32_t
 imageDataLength
 ;
 nsresult
@@ -665,7 +665,7 @@ dispose_op
 png_byte
 blend_op
 ;
-PRInt32
+int32_t
 timeout
 ;
 /
@@ -777,7 +777,7 @@ timeout
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 static_cast
@@ -794,7 +794,7 @@ delay_den
 )
 ;
 }
-PRUint32
+uint32_t
 numFrames
 =
 mImage
@@ -943,7 +943,7 @@ mFrameIsHidden
 )
 return
 ;
-PRUint32
+uint32_t
 numFrames
 =
 1
@@ -1308,7 +1308,7 @@ IsSizeDecode
 mHeaderBuf
 =
 (
-PRUint8
+uint8_t
 *
 )
 moz_xmalloc
@@ -1614,7 +1614,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1630,12 +1630,12 @@ to
 declare
 variables
 here
-PRUint32
+uint32_t
 width
 =
 0
 ;
-PRUint32
+uint32_t
 height
 =
 0
@@ -1706,7 +1706,7 @@ into
 our
 header
 buffer
-PRUint32
+uint32_t
 bytesToRead
 =
 NS_MIN
@@ -2120,7 +2120,7 @@ color_type
 qcms_data_type
 *
 inType
-PRUint32
+uint32_t
 *
 intent
 )
@@ -2233,7 +2233,7 @@ if
 profile
 )
 {
-PRUint32
+uint32_t
 profileSpace
 =
 qcms_profile_get_color_space
@@ -2366,7 +2366,7 @@ info_ptr
 fileIntent
 )
 ;
-PRUint32
+uint32_t
 map
 [
 ]
@@ -2538,7 +2538,7 @@ if
 profile
 )
 {
-PRUint32
+uint32_t
 profileSpace
 =
 qcms_profile_get_color_space
@@ -3014,13 +3014,13 @@ png_ptr
 qcms_data_type
 inType
 ;
-PRUint32
+uint32_t
 intent
 =
 -
 1
 ;
-PRUint32
+uint32_t
 pIntent
 ;
 if
@@ -3083,7 +3083,7 @@ if
 intent
 =
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3469,7 +3469,7 @@ png_set_dims
 -
 *
 /
-PRInt32
+int32_t
 alpha_bits
 =
 1
@@ -3724,7 +3724,7 @@ PNG_INTERLACE_ADAM7
 )
 )
 {
-PRUint32
+uint32_t
 bpp
 [
 ]
@@ -3743,7 +3743,7 @@ decoder
 mCMSLine
 =
 (
-PRUint8
+uint8_t
 *
 )
 moz_malloc
@@ -3808,7 +3808,7 @@ decoder
 interlacebuf
 =
 (
-PRUint8
+uint8_t
 *
 )
 moz_malloc
@@ -4255,7 +4255,7 @@ if
 new_row
 )
 {
-PRInt32
+int32_t
 width
 =
 decoder
@@ -4265,7 +4265,7 @@ mFrameRect
 .
 width
 ;
-PRUint32
+uint32_t
 iwidth
 =
 decoder
@@ -4314,22 +4314,22 @@ new_row
 )
 ;
 }
-PRUint32
+uint32_t
 bpr
 =
 width
 *
 sizeof
 (
-PRUint32
+uint32_t
 )
 ;
-PRUint32
+uint32_t
 *
 cptr32
 =
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -4387,7 +4387,7 @@ alpha
 over
 *
 /
-PRUint32
+uint32_t
 channels
 =
 decoder
@@ -4411,7 +4411,7 @@ channels
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4495,7 +4495,7 @@ while
 )
 loops
 below
-PRUint32
+uint32_t
 idx
 =
 iwidth
@@ -4679,7 +4679,7 @@ mDisablePremultipliedAlpha
 {
 for
 (
-PRUint32
+uint32_t
 x
 =
 width
@@ -4743,7 +4743,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 x
 =
 width
@@ -4833,7 +4833,7 @@ mFrameHasNoAlpha
 =
 false
 ;
-PRUint32
+uint32_t
 numFrames
 =
 decoder
@@ -4928,7 +4928,7 @@ png_uint_32
 x_offset
 y_offset
 ;
-PRInt32
+int32_t
 width
 height
 ;
@@ -5209,7 +5209,7 @@ PNG_INFO_acTL
 )
 )
 {
-PRInt32
+int32_t
 num_plays
 =
 png_get_num_plays

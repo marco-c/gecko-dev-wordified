@@ -280,7 +280,7 @@ h
 /
 /
 for
-PRUint32
+uint32_t
 using
 namespace
 mozilla
@@ -807,7 +807,7 @@ newTitleNode
 =
 false
 ;
-PRUint32
+uint32_t
 newTitleIndex
 =
 0

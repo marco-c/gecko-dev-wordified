@@ -1019,7 +1019,7 @@ createInstanceByContractID
 n
 "
 (
-PRUint32
+uint32_t
 )
 argnum
 )

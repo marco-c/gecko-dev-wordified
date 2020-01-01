@@ -602,7 +602,7 @@ nsSVGTextContainerFrame
 :
 GetStartPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -647,7 +647,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 offset
 ;
 nsSVGGlyphFrame
@@ -691,7 +691,7 @@ nsSVGTextContainerFrame
 :
 GetEndPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -736,7 +736,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 offset
 ;
 nsSVGGlyphFrame
@@ -780,7 +780,7 @@ nsSVGTextContainerFrame
 :
 GetExtentOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGRect
 *
@@ -825,7 +825,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 offset
 ;
 nsSVGGlyphFrame
@@ -869,7 +869,7 @@ nsSVGTextContainerFrame
 :
 GetRotationOfChar
 (
-PRUint32
+uint32_t
 charnum
 float
 *
@@ -915,7 +915,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 offset
 ;
 nsSVGGlyphFrame
@@ -953,7 +953,7 @@ _retval
 )
 ;
 }
-PRUint32
+uint32_t
 nsSVGTextContainerFrame
 :
 :
@@ -961,7 +961,7 @@ GetNumberOfChars
 (
 )
 {
-PRUint32
+uint32_t
 nchars
 =
 0
@@ -1057,9 +1057,9 @@ nsSVGTextContainerFrame
 :
 GetSubStringLength
 (
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 nchars
 )
 {
@@ -1083,7 +1083,7 @@ while
 node
 )
 {
-PRUint32
+uint32_t
 count
 =
 node
@@ -1100,7 +1100,7 @@ count
 charnum
 )
 {
-PRUint32
+uint32_t
 fragmentChars
 =
 NS_MIN
@@ -1164,7 +1164,7 @@ return
 length
 ;
 }
-PRInt32
+int32_t
 nsSVGTextContainerFrame
 :
 :
@@ -1175,13 +1175,13 @@ nsIDOMSVGPoint
 point
 )
 {
-PRInt32
+int32_t
 index
 =
 -
 1
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -1199,7 +1199,7 @@ while
 node
 )
 {
-PRUint32
+uint32_t
 count
 =
 node
@@ -1216,7 +1216,7 @@ count
 0
 )
 {
-PRInt32
+int32_t
 charnum
 =
 node
@@ -1730,9 +1730,9 @@ GetGlyphFrameAtCharNum
 nsISVGGlyphFragmentNode
 *
 node
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 *
 offset
 )
@@ -1758,7 +1758,7 @@ while
 frame
 )
 {
-PRUint32
+uint32_t
 count
 =
 frame
@@ -1891,7 +1891,7 @@ float
 >
 &
 dstList
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -1901,14 +1901,14 @@ Clear
 (
 )
 ;
-PRUint32
+uint32_t
 strLength
 =
 GetNumberOfChars
 (
 )
 ;
-PRUint32
+uint32_t
 parentCount
 =
 0
@@ -1944,7 +1944,7 @@ strLength
 )
 ;
 }
-PRUint32
+uint32_t
 selfCount
 =
 NS_MIN
@@ -1958,7 +1958,7 @@ Length
 strLength
 )
 ;
-PRUint32
+uint32_t
 count
 =
 NS_MAX
@@ -1981,7 +1981,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2011,7 +2011,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 selfCount
@@ -2064,7 +2064,7 @@ float
 >
 &
 dstList
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -2074,14 +2074,14 @@ Clear
 (
 )
 ;
-PRUint32
+uint32_t
 strLength
 =
 GetNumberOfChars
 (
 )
 ;
-PRUint32
+uint32_t
 parentCount
 =
 0
@@ -2117,7 +2117,7 @@ strLength
 )
 ;
 }
-PRUint32
+uint32_t
 selfCount
 =
 NS_MIN
@@ -2135,7 +2135,7 @@ Length
 strLength
 )
 ;
-PRUint32
+uint32_t
 count
 =
 NS_MAX
@@ -2165,7 +2165,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2195,7 +2195,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 selfCount
@@ -2272,15 +2272,15 @@ Length
 ;
 }
 }
-PRUint32
+uint32_t
 nsSVGTextContainerFrame
 :
 :
 BuildPositionList
 (
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aDepth
 )
 {
@@ -2461,7 +2461,7 @@ mRotate
 aOffset
 )
 ;
-PRUint32
+uint32_t
 startIndex
 =
 0
@@ -2726,7 +2726,7 @@ _default
 nullptr
 }
 ;
-PRInt32
+int32_t
 index
 =
 frame

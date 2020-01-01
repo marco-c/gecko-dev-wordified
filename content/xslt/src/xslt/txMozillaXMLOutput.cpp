@@ -584,7 +584,7 @@ nsIAtom
 *
 aLowercaseLocalName
 const
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -664,7 +664,7 @@ nsSubstring
 &
 aLocalName
 const
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -814,7 +814,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -1388,7 +1388,7 @@ when
 parser
 -
 created
-PRInt32
+int32_t
 ns
 =
 element
@@ -1783,7 +1783,7 @@ step
 up
 the
 tree
-PRUint32
+uint32_t
 last
 =
 mCurrentNodeStack
@@ -1800,7 +1800,7 @@ last
 !
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -2247,7 +2247,7 @@ nsIAtom
 *
 aLowercaseLocalName
 const
-PRInt32
+int32_t
 aNsID
 )
 {
@@ -2350,11 +2350,11 @@ nsSubstring
 &
 aLocalName
 const
-PRInt32
+int32_t
 aNsID
 )
 {
-PRInt32
+int32_t
 nsId
 =
 aNsID
@@ -2506,7 +2506,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNsID
 )
 {
@@ -3120,7 +3120,7 @@ parent
 "
 )
 ;
-PRInt32
+int32_t
 namespaceID
 ;
 nsresult
@@ -3186,7 +3186,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 i
 j
 childCount
@@ -3223,7 +3223,7 @@ we
 can
 verify
 later
-PRUint32
+uint32_t
 rootLocation
 =
 0
@@ -3492,7 +3492,7 @@ peek
 ADDED_TBODY
 )
 {
-PRUint32
+uint32_t
 last
 =
 mCurrentNodeStack
@@ -3509,7 +3509,7 @@ last
 !
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -3945,7 +3945,7 @@ tbody
 "
 )
 ;
-PRUint32
+uint32_t
 last
 =
 mCurrentNodeStack
@@ -3962,7 +3962,7 @@ last
 !
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -4181,7 +4181,7 @@ const
 nsSubstring
 &
 aName
-PRInt32
+int32_t
 aNsID
 nsIDOMDocument
 *
@@ -4537,7 +4537,7 @@ mOmitXMLDeclaration
 eTrue
 )
 {
-PRInt32
+int32_t
 standalone
 ;
 if
@@ -5076,7 +5076,7 @@ aIsInline
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 aLineNo
 )
 {

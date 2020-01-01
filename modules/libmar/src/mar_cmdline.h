@@ -74,7 +74,7 @@ import
 the
 definition
 of
-PRUint32
+uint32_t
 *
 /
 #
@@ -254,16 +254,16 @@ path
 int
 *
 hasSignatureBlock
-PRUint32
+uint32_t
 *
 numSignatures
 int
 *
 hasAdditionalBlocks
-PRUint32
+uint32_t
 *
 offsetAdditionalBlocks
-PRUint32
+uint32_t
 *
 numAdditionalBlocks
 )
@@ -416,7 +416,7 @@ const
 char
 *
 certData
-PRUint32
+uint32_t
 sizeOfCertData
 const
 char

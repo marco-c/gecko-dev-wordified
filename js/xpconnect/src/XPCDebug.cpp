@@ -426,7 +426,7 @@ filename
 =
 nullptr
 ;
-PRInt32
+int32_t
 lineno
 =
 0
@@ -519,7 +519,7 @@ script
 lineno
 =
 (
-PRInt32
+int32_t
 )
 JS_PCToLineNumber
 (

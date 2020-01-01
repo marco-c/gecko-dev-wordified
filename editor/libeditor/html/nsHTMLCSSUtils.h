@@ -144,9 +144,9 @@ h
 /
 /
 for
-PRUint8
-PRInt32
-PRUint32
+uint8_t
+int32_t
+uint32_t
 class
 ChangeCSSInlineStyleTxn
 ;
@@ -604,7 +604,7 @@ aElement
 nsIAtom
 *
 aProperty
-PRInt32
+int32_t
 aIntValue
 bool
 aSuppressTxn
@@ -723,7 +723,7 @@ const
 nsAString
 &
 aProperty
-PRInt32
+int32_t
 aIntValue
 )
 ;
@@ -1498,7 +1498,7 @@ parameter
 .
 *
 /
-PRInt32
+int32_t
 SetCSSEquivalentToHTMLStyle
 (
 mozilla
@@ -1542,7 +1542,7 @@ const
 nsAString
 *
 aValue
-PRInt32
+int32_t
 *
 aCount
 bool
@@ -1990,7 +1990,7 @@ nsIDOMCSSStyleDeclaration
 *
 *
 aCssDecl
-PRUint32
+uint32_t
 *
 aLength
 )

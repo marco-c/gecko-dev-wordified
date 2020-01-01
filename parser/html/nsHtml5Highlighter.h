@@ -250,14 +250,14 @@ the
 buffer
 *
 /
-PRInt32
+int32_t
 Transition
 (
-PRInt32
+int32_t
 aState
 bool
 aReconsume
-PRInt32
+int32_t
 aPos
 )
 ;
@@ -334,7 +334,7 @@ flush
 void
 DropBuffer
 (
-PRInt32
+int32_t
 aPos
 )
 ;
@@ -1391,9 +1391,9 @@ const
 PRUnichar
 *
 aBuffer
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aLength
 )
 ;
@@ -1462,7 +1462,7 @@ from
 .
 *
 /
-PRInt32
+int32_t
 mState
 ;
 /
@@ -1492,7 +1492,7 @@ yet
 .
 *
 /
-PRInt32
+int32_t
 mCStart
 ;
 /
@@ -1516,7 +1516,7 @@ transition
 .
 *
 /
-PRInt32
+int32_t
 mPos
 ;
 /
@@ -1530,7 +1530,7 @@ number
 .
 *
 /
-PRInt32
+int32_t
 mLineNumber
 ;
 /
@@ -1561,7 +1561,7 @@ characters
 .
 *
 /
-PRInt32
+int32_t
 mInlinesOpen
 ;
 /
@@ -1765,7 +1765,7 @@ in
 mHandles
 *
 /
-PRInt32
+int32_t
 mHandlesUsed
 ;
 /

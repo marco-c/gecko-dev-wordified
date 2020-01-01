@@ -694,7 +694,7 @@ Clear
 )
 ;
 }
-PRUint32
+uint32_t
 timersCount
 =
 timers
@@ -705,7 +705,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -828,7 +828,7 @@ TimerThread
 :
 UpdateFilter
 (
-PRUint32
+uint32_t
 aDelay
 TimeStamp
 aTimeout
@@ -848,7 +848,7 @@ smoothSlack
 =
 0
 ;
-PRUint32
+uint32_t
 i
 filterLength
 ;
@@ -1010,7 +1010,7 @@ aDelay
 filterLength
 =
 (
-PRUint32
+uint32_t
 )
 (
 FILTER_DURATION
@@ -1208,7 +1208,7 @@ high
 )
 =
 1
-PRInt32
+int32_t
 low
 =
 0
@@ -1276,7 +1276,7 @@ low
 1
 )
 {
-PRInt32
+int32_t
 mid
 =
 (
@@ -1336,7 +1336,7 @@ our
 wait
 times
 later
-PRInt32
+int32_t
 halfMicrosecondsIntervalResolution
 =
 high
@@ -2138,7 +2138,7 @@ to
 our
 list
 .
-PRInt32
+int32_t
 i
 =
 AddTimerInternal
@@ -2227,7 +2227,7 @@ RemoveTimerInternal
 aTimer
 )
 ;
-PRInt32
+int32_t
 i
 =
 AddTimerInternal
@@ -2422,7 +2422,7 @@ from
 within
 a
 lock
-PRInt32
+int32_t
 TimerThread
 :
 :
@@ -2451,7 +2451,7 @@ Now
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mTimers
@@ -2460,7 +2460,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -2709,7 +2709,7 @@ sleep
 notification
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2750,7 +2750,7 @@ timeout
 to
 be
 recomputed
-PRUint32
+uint32_t
 delay
 ;
 timer

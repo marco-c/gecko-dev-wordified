@@ -567,11 +567,11 @@ Init
 nsIFile
 *
 file
-PRInt32
+int32_t
 ioFlags
-PRInt32
+int32_t
 perm
-PRInt32
+int32_t
 behaviorFlags
 )
 {
@@ -651,7 +651,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 written
 ;
 rv
@@ -726,9 +726,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )

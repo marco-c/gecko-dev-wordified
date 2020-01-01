@@ -165,7 +165,7 @@ aSel
 nsIDocument
 *
 aDoc
-PRInt16
+int16_t
 aClipboardID
 )
 ;
@@ -251,7 +251,7 @@ const
 nsACString
 &
 aMimeType
-PRUint32
+uint32_t
 aFlags
 nsISelection
 *
@@ -274,7 +274,7 @@ aImageElement
 nsILoadContext
 *
 aLoadContext
-PRInt32
+int32_t
 aCopyFlags
 )
 ;
@@ -655,7 +655,7 @@ static
 bool
 FireClipboardEvent
 (
-PRInt32
+int32_t
 aType
 nsIPresShell
 *

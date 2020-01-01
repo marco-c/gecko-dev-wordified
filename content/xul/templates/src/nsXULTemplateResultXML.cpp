@@ -143,7 +143,7 @@ nsXMLBinding
 h
 "
 static
-PRUint32
+uint32_t
 sTemplateId
 =
 0
@@ -596,7 +596,7 @@ nsXMLBinding
 *
 binding
 ;
-PRInt32
+int32_t
 idx
 =
 mRequiredValues
@@ -801,7 +801,7 @@ mNode
 }
 else
 {
-PRInt32
+int32_t
 idx
 =
 mRequiredValues

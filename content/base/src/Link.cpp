@@ -1159,7 +1159,7 @@ end
 nsresult
 rv
 ;
-PRInt32
+int32_t
 port
 =
 portStr
@@ -1476,7 +1476,7 @@ portStr
 aPort
 )
 ;
-PRInt32
+int32_t
 port
 =
 portStr
@@ -2147,7 +2147,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 port
 ;
 nsresult

@@ -1001,7 +1001,7 @@ nsMediaList
 aResult
 )
 ;
-PRInt32
+int32_t
 Count
 (
 )
@@ -1018,7 +1018,7 @@ nsMediaQuery
 *
 MediumAt
 (
-PRInt32
+int32_t
 aIndex
 )
 {

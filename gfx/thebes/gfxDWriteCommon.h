@@ -183,7 +183,7 @@ static
 DWRITE_FONT_STRETCH
 DWriteFontStretchFromStretch
 (
-PRInt16
+int16_t
 aStretch
 )
 {
@@ -254,7 +254,7 @@ DWRITE_FONT_STRETCH_UNDEFINED
 }
 }
 static
-PRInt16
+int16_t
 FontStretchFromDWriteStretch
 (
 DWRITE_FONT_STRETCH
@@ -332,7 +332,7 @@ ffReferenceKey
 {
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 *
 mArray
@@ -487,7 +487,7 @@ an
 *
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 .
 *
@@ -538,7 +538,7 @@ to
 an
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 .
 This
@@ -668,7 +668,7 @@ gfxDWriteFontFileStream
 (
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 *
 aData
@@ -771,7 +771,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -896,7 +896,7 @@ private
 :
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 mData
 ;

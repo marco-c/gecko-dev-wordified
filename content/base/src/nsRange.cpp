@@ -826,7 +826,7 @@ the
 dom
 point
 info
-PRInt32
+int32_t
 nodeStart
 nodeEnd
 ;
@@ -950,7 +950,7 @@ GetEndParent
 (
 )
 ;
-PRInt32
+int32_t
 rangeStartOffset
 =
 aRange
@@ -960,7 +960,7 @@ StartOffset
 (
 )
 ;
-PRInt32
+int32_t
 rangeEndOffset
 =
 aRange
@@ -1068,10 +1068,10 @@ nsRange
 *
 mResult
 ;
-PRUint32
+uint32_t
 mStartOffset
 ;
-PRUint32
+uint32_t
 mEndOffset
 ;
 }
@@ -1134,7 +1134,7 @@ FindSelectedRangeData
 userArg
 )
 ;
-PRInt32
+int32_t
 cmp
 =
 nsContentUtils
@@ -1294,9 +1294,9 @@ IsNodeSelected
 nsINode
 *
 aNode
-PRUint32
+uint32_t
 aStartOffset
-PRUint32
+uint32_t
 aEndOffset
 )
 {
@@ -1614,12 +1614,12 @@ CreateRange
 nsIDOMNode
 *
 aStartParent
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndParent
-PRInt32
+int32_t
 aEndOffset
 nsRange
 *
@@ -1708,12 +1708,12 @@ CreateRange
 nsIDOMNode
 *
 aStartParent
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndParent
-PRInt32
+int32_t
 aEndOffset
 nsIDOMRange
 *
@@ -2683,12 +2683,12 @@ newEndNode
 =
 nullptr
 ;
-PRUint32
+uint32_t
 newStartOffset
 =
 0
 ;
-PRUint32
+uint32_t
 newEndOffset
 =
 0
@@ -2736,7 +2736,7 @@ mChangeStart
 <
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mStartOffset
@@ -2802,7 +2802,7 @@ NS_ASSERTION
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mStartOffset
@@ -2831,7 +2831,7 @@ newStartOffset
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mStartOffset
@@ -2949,7 +2949,7 @@ mStartOffset
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mStartOffset
@@ -3049,7 +3049,7 @@ mChangeStart
 <
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mEndOffset
@@ -3128,7 +3128,7 @@ NS_ASSERTION
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mEndOffset
@@ -3157,7 +3157,7 @@ newEndOffset
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mEndOffset
@@ -3258,7 +3258,7 @@ mEndOffset
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mEndOffset
@@ -3367,7 +3367,7 @@ newStartOffset
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mStartOffset
@@ -3414,7 +3414,7 @@ newEndOffset
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mEndOffset
@@ -3538,7 +3538,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -3644,7 +3644,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -3767,7 +3767,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -4231,14 +4231,14 @@ IsPointInRange
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 bool
 *
 aResult
 )
 {
-PRInt16
+int16_t
 compareResult
 =
 0
@@ -4340,9 +4340,9 @@ ComparePoint
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
-PRInt16
+int16_t
 *
 aResult
 )
@@ -4426,7 +4426,7 @@ aOffset
 0
 |
 |
-PRUint32
+uint32_t
 (
 aOffset
 )
@@ -4443,7 +4443,7 @@ return
 NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 }
-PRInt32
+int32_t
 cmp
 ;
 if
@@ -4631,7 +4631,7 @@ NS_OK
 Step
 5
 .
-PRInt32
+int32_t
 nodeIndex
 =
 parent
@@ -4907,12 +4907,12 @@ DoSetRange
 nsINode
 *
 aStartN
-PRInt32
+int32_t
 aStartOffset
 nsINode
 *
 aEndN
-PRInt32
+int32_t
 aEndOffset
 nsINode
 *
@@ -5332,7 +5332,7 @@ aRoot
 ;
 }
 static
-PRInt32
+int32_t
 IndexOf
 (
 nsIDOMNode
@@ -5599,7 +5599,7 @@ nsRange
 :
 GetStartOffset
 (
-PRInt32
+int32_t
 *
 aStartOffset
 )
@@ -5655,7 +5655,7 @@ nsRange
 :
 GetEndOffset
 (
-PRInt32
+int32_t
 *
 aEndOffset
 )
@@ -6045,7 +6045,7 @@ SetStart
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -6093,7 +6093,7 @@ SetStart
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -6119,7 +6119,7 @@ aOffset
 0
 |
 |
-PRUint32
+uint32_t
 (
 aOffset
 )
@@ -6349,7 +6349,7 @@ SetEnd
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -6397,7 +6397,7 @@ SetEnd
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -6423,7 +6423,7 @@ aOffset
 0
 |
 |
-PRUint32
+uint32_t
 (
 aOffset
 )
@@ -6754,7 +6754,7 @@ newRoot
 NS_ERROR_DOM_INVALID_NODE_TYPE_ERR
 )
 ;
-PRInt32
+int32_t
 index
 =
 parent
@@ -7226,7 +7226,7 @@ node
 }
 else
 {
-PRInt32
+int32_t
 startIndex
 ;
 aRange
@@ -7259,7 +7259,7 @@ IsElement
 )
 &
 &
-PRInt32
+int32_t
 (
 iNode
 -
@@ -7360,7 +7360,7 @@ node
 }
 else
 {
-PRInt32
+int32_t
 endIndex
 ;
 aRange
@@ -8737,7 +8737,7 @@ SplitDataNode
 nsIDOMCharacterData
 *
 aStartNode
-PRUint32
+uint32_t
 aStartIndex
 nsIDOMCharacterData
 *
@@ -9195,7 +9195,7 @@ do_QueryInterface
 mStartParent
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 mStartOffset
@@ -9211,7 +9211,7 @@ do_QueryInterface
 mEndParent
 )
 ;
-PRInt32
+int32_t
 endOffset
 =
 mEndOffset
@@ -9641,7 +9641,7 @@ if
 charData
 )
 {
-PRUint32
+uint32_t
 dataLength
 =
 0
@@ -9842,7 +9842,7 @@ dataLength
 >
 =
 (
-PRUint32
+uint32_t
 )
 startOffset
 )
@@ -10077,7 +10077,7 @@ node
 startContainer
 &
 &
-PRInt32
+int32_t
 (
 iNode
 -
@@ -10178,7 +10178,7 @@ nodeToResult
 node
 ;
 }
-PRUint32
+uint32_t
 parentCount
 =
 0
@@ -10549,7 +10549,7 @@ nodeToResult
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 parentCount
@@ -10664,12 +10664,12 @@ nsRange
 :
 CompareBoundaryPoints
 (
-PRUint16
+uint16_t
 aHow
 nsIDOMRange
 *
 aOtherRange
-PRInt16
+int16_t
 *
 aCmpRet
 )
@@ -10716,7 +10716,7 @@ ourNode
 *
 otherNode
 ;
-PRInt32
+int32_t
 ourOffset
 otherOffset
 ;
@@ -11565,7 +11565,7 @@ mStartParent
 mStartOffset
 =
 =
-PRInt32
+int32_t
 (
 iNode
 -
@@ -11706,7 +11706,7 @@ data
 after
 it
 .
-PRUint32
+uint32_t
 dataLength
 =
 0
@@ -11737,7 +11737,7 @@ if
 dataLength
 >
 (
-PRUint32
+uint32_t
 )
 mEndOffset
 )
@@ -12339,7 +12339,7 @@ aNode
 nsresult
 res
 ;
-PRInt32
+int32_t
 tStartOffset
 ;
 this
@@ -12590,7 +12590,7 @@ bug
 765799
 )
 .
-PRInt32
+int32_t
 newOffset
 ;
 if
@@ -12608,7 +12608,7 @@ referenceNode
 }
 else
 {
-PRUint32
+uint32_t
 length
 ;
 res
@@ -12903,7 +12903,7 @@ Document
 DocumentType
 DocumentFragment
 )
-PRUint16
+uint16_t
 nodeType
 ;
 nsresult
@@ -13061,7 +13061,7 @@ children
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 numChildren
 =
 0
@@ -13643,7 +13643,7 @@ past
 start
 offset
 {
-PRUint32
+uint32_t
 strLength
 ;
 textNode
@@ -13871,7 +13871,7 @@ nsIFrame
 *
 aRelativeTo
 const
-PRInt32
+int32_t
 aOffset
 nsRect
 *
@@ -14030,9 +14030,9 @@ aCallback
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -14118,7 +14118,7 @@ GetNextContinuation
 )
 )
 {
-PRInt32
+int32_t
 fstart
 =
 f
@@ -14306,12 +14306,12 @@ aRange
 nsINode
 *
 aStartParent
-PRInt32
+int32_t
 aStartOffset
 nsINode
 *
 aEndParent
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -14528,7 +14528,7 @@ nsTextFrame
 frame
 )
 ;
-PRInt32
+int32_t
 outOffset
 ;
 nsIFrame
@@ -14674,7 +14674,7 @@ node
 startContainer
 )
 {
-PRInt32
+int32_t
 offset
 =
 startContainer
@@ -15214,7 +15214,7 @@ node
 startContainer
 )
 {
-PRInt32
+int32_t
 offset
 =
 startContainer

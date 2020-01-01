@@ -1192,7 +1192,7 @@ _result
 1
 ;
 const
-PRUint32
+uint32_t
 sLen
 =
 aStringS
@@ -1202,7 +1202,7 @@ Length
 )
 ;
 const
-PRUint32
+uint32_t
 tLen
 =
 aStringT
@@ -1568,7 +1568,7 @@ row
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1637,7 +1637,7 @@ row
 .
 for
 (
-PRUint32
+uint32_t
 ti
 =
 1
@@ -1728,7 +1728,7 @@ s
 .
 for
 (
-PRUint32
+uint32_t
 si
 =
 1

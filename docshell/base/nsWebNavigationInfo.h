@@ -226,7 +226,7 @@ const
 nsCString
 &
 aType
-PRUint32
+uint32_t
 *
 aIsSupported
 )

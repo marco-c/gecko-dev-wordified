@@ -4925,7 +4925,7 @@ all
 .
 *
 /
-PRUint64
+uint64_t
 fsz
 factor
 ;
@@ -12894,7 +12894,7 @@ ccc
 .
 *
 /
-PRUint32
+uint32_t
 fe_size
 =
 atoi

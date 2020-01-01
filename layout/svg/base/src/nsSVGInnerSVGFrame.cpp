@@ -736,7 +736,7 @@ nsSVGInnerSVGFrame
 :
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1122,12 +1122,12 @@ nsSVGInnerSVGFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1236,7 +1236,7 @@ TRANSFORM_CHANGED
 }
 else
 {
-PRUint32
+uint32_t
 flags
 =
 COORD_CONTEXT_CHANGED
@@ -1669,7 +1669,7 @@ nsSVGInnerSVGFrame
 :
 NotifyViewportOrTransformChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1846,7 +1846,7 @@ nsSVGInnerSVGFrame
 :
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {

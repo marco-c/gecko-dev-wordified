@@ -665,7 +665,7 @@ res
 )
 )
 {
-PRInt32
+int32_t
 hyphen
 =
 langStr

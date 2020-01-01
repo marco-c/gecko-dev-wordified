@@ -381,7 +381,7 @@ mAutoOrientationEnabled
 PRTime
 mLastUpdate
 ;
-PRUint32
+uint32_t
 mAllowedOrientations
 ;
 /
@@ -408,7 +408,7 @@ PR_USEC_PER_MSEC
 ;
 static
 const
-PRUint32
+uint32_t
 sDefaultOrientations
 =
 mozilla

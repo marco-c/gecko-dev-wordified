@@ -636,7 +636,7 @@ URI
 &
 aURI
 const
-PRUint64
+uint64_t
 &
 aStartPos
 const
@@ -911,7 +911,7 @@ FTPChannelParent
 RecvConnectChannel
 (
 const
-PRUint32
+uint32_t
 &
 channelId
 )
@@ -1296,7 +1296,7 @@ nsFtpChannel
 aRequest
 )
 ;
-PRInt32
+int32_t
 aContentLength
 ;
 chan
@@ -1613,9 +1613,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {

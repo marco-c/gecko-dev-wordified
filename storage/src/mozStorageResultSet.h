@@ -208,7 +208,7 @@ holds
 .
 *
 /
-PRInt32
+int32_t
 rows
 (
 )
@@ -240,7 +240,7 @@ set
 .
 *
 /
-PRInt32
+int32_t
 mCurrentIndex
 ;
 /

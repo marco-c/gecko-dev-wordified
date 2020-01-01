@@ -199,7 +199,7 @@ rdfIDataSource
 .
 h
 "
-PRInt32
+int32_t
 nsRDFXMLSerializer
 :
 :
@@ -1053,16 +1053,16 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 size
 )
 {
-PRUint32
+uint32_t
 written
 =
 0
 ;
-PRUint32
+uint32_t
 remaining
 =
 size
@@ -1077,7 +1077,7 @@ remaining
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 cb
 ;
 if
@@ -1501,7 +1501,7 @@ is
 very
 bogus
 .
-PRInt32
+int32_t
 i
 =
 uri
@@ -1882,7 +1882,7 @@ nsCString
 s
 )
 {
-PRUint32
+uint32_t
 newLength
 origLength
 ;
@@ -2235,7 +2235,7 @@ nsCString
 s
 )
 {
-PRInt32
+int32_t
 i
 =
 0
@@ -2760,7 +2760,7 @@ aValue
 nullptr
 )
 {
-PRInt32
+int32_t
 value
 ;
 number
@@ -3042,7 +3042,7 @@ nsIRDFResource
 aProperty
 bool
 aInline
-PRInt32
+int32_t
 *
 aSkipped
 )
@@ -3052,7 +3052,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 skipped
 =
 0
@@ -3750,7 +3750,7 @@ nsIRDFResource
 >
 visited
 ;
-PRInt32
+int32_t
 skipped
 =
 0
@@ -4775,7 +4775,7 @@ aMember
 nullptr
 )
 {
-PRInt32
+int32_t
 value
 ;
 number

@@ -201,7 +201,7 @@ Shift
 Table
 static
 const
-PRInt16
+int16_t
 g0201ShiftOutTable
 [
 ]
@@ -248,7 +248,7 @@ uMultibytesCharset
 ;
 static
 const
-PRInt16
+int16_t
 *
 gShiftTables
 [
@@ -263,7 +263,7 @@ g0201ShiftOutTable
 ;
 static
 const
-PRUint16
+uint16_t
 *
 gMappingTables
 [

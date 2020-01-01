@@ -88,7 +88,7 @@ aProperties
 [
 3
 ]
-PRInt32
+int32_t
 aNumberOfProperties
 const
 nsACString
@@ -113,12 +113,12 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 lo
 =
 0
 ;
-PRInt32
+int32_t
 hi
 =
 aNumberOfProperties
@@ -133,7 +133,7 @@ lo
 hi
 )
 {
-PRUint32
+uint32_t
 mid
 =
 (
@@ -144,7 +144,7 @@ hi
 /
 2
 ;
-PRInt32
+int32_t
 comp
 =
 nsCRT

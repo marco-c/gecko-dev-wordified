@@ -183,7 +183,7 @@ aDecoder
 float
 *
 aFrameBuffer
-PRUint32
+uint32_t
 aFrameBufferLength
 float
 aTime
@@ -247,7 +247,7 @@ NS_OK
 ;
 }
 const
-PRUint32
+uint32_t
 mFrameBufferLength
 ;
 /
@@ -352,9 +352,9 @@ nsAudioAvailableEventManager
 :
 Init
 (
-PRUint32
+uint32_t
 aChannels
-PRUint32
+uint32_t
 aRate
 )
 {
@@ -398,7 +398,7 @@ nsAudioAvailableEventManager
 :
 DispatchPendingEvents
 (
-PRUint64
+uint64_t
 aCurrentTime
 )
 {
@@ -495,9 +495,9 @@ QueueWrittenAudioData
 AudioDataValue
 *
 aAudioData
-PRUint32
+uint32_t
 aAudioDataLength
-PRUint64
+uint64_t
 aEndTimeSampleOffset
 )
 {
@@ -516,7 +516,7 @@ mHasListener
 return
 ;
 }
-PRUint32
+uint32_t
 currentBufferSize
 =
 mNewSignalBufferLength
@@ -608,12 +608,12 @@ audioData
 =
 aAudioData
 ;
-PRUint32
+uint32_t
 audioDataLength
 =
 aAudioDataLength
 ;
-PRUint32
+uint32_t
 signalBufferTail
 =
 mSignalBufferLength
@@ -690,7 +690,7 @@ Fill
 the
 signalBuffer
 .
-PRUint32
+uint32_t
 i
 ;
 float
@@ -1023,7 +1023,7 @@ to
 the
 signalBuffer
 .
-PRUint32
+uint32_t
 i
 ;
 float
@@ -1129,7 +1129,7 @@ nsAudioAvailableEventManager
 :
 Drain
 (
-PRUint64
+uint64_t
 aEndTime
 )
 {
@@ -1160,7 +1160,7 @@ now
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1336,7 +1336,7 @@ nsAudioAvailableEventManager
 :
 SetSignalBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 {

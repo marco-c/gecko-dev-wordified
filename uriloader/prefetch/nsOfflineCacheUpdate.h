@@ -322,7 +322,7 @@ aApplicationCache
 nsIApplicationCache
 *
 aPreviousApplicationCache
-PRUint32
+uint32_t
 aType
 )
 ;
@@ -359,7 +359,7 @@ mPreviousApplicationCache
 nsCString
 mCacheKey
 ;
-PRUint32
+uint32_t
 mItemType
 ;
 nsresult
@@ -412,12 +412,12 @@ nsIChannel
 >
 mChannel
 ;
-PRUint16
+uint16_t
 mState
 ;
 protected
 :
-PRInt32
+int32_t
 mBytesRead
 ;
 }
@@ -571,11 +571,11 @@ const
 char
 *
 aFromSegment
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aBytesConsumed
 )
@@ -583,7 +583,7 @@ aBytesConsumed
 nsresult
 AddNamespace
 (
-PRUint32
+uint32_t
 namespaceType
 const
 nsCString
@@ -950,7 +950,7 @@ nsOfflineCacheUpdateItem
 void
 OnByteProgress
 (
-PRUint64
+uint64_t
 byteIncrement
 )
 ;
@@ -970,7 +970,7 @@ AddURI
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aItemType
 )
 ;
@@ -1015,7 +1015,7 @@ added
 nsresult
 AddExistingItems
 (
-PRUint32
+uint32_t
 aType
 nsTArray
 <
@@ -1054,7 +1054,7 @@ aObservers
 nsresult
 NotifyState
 (
-PRUint32
+uint32_t
 state
 )
 ;
@@ -1165,7 +1165,7 @@ being
 updated
 *
 /
-PRUint32
+uint32_t
 mItemsInProgress
 ;
 nsTArray
@@ -1238,7 +1238,7 @@ increased
 .
 *
 /
-PRUint32
+uint32_t
 mRescheduleCount
 ;
 /
@@ -1260,7 +1260,7 @@ increaded
 .
 *
 /
-PRUint32
+uint32_t
 mPinnedEntryRetriesCount
 ;
 nsRefPtr
@@ -1272,7 +1272,7 @@ mImplicitUpdate
 bool
 mPinned
 ;
-PRUint64
+uint64_t
 mByteProgress
 ;
 }

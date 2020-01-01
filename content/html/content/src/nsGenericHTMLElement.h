@@ -565,7 +565,7 @@ aClassName
 nsresult
 GetOffsetTop
 (
-PRInt32
+int32_t
 *
 aOffsetTop
 )
@@ -573,7 +573,7 @@ aOffsetTop
 nsresult
 GetOffsetLeft
 (
-PRInt32
+int32_t
 *
 aOffsetLeft
 )
@@ -581,7 +581,7 @@ aOffsetLeft
 nsresult
 GetOffsetWidth
 (
-PRInt32
+int32_t
 *
 aOffsetWidth
 )
@@ -589,7 +589,7 @@ aOffsetWidth
 nsresult
 GetOffsetHeight
 (
-PRInt32
+int32_t
 *
 aOffsetHeight
 )
@@ -655,7 +655,7 @@ ScrollIntoView
 (
 bool
 aTop
-PRUint8
+uint8_t
 optional_argc
 )
 ;
@@ -725,7 +725,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -733,7 +733,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 ;
@@ -1119,7 +1119,7 @@ true
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1147,7 +1147,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1167,7 +1167,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1180,7 +1180,7 @@ virtual
 bool
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 =
@@ -1240,7 +1240,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -1382,7 +1382,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -3695,7 +3695,7 @@ aDoc
 nsIContent
 *
 aDest
-PRInt32
+int32_t
 aOldChildCount
 )
 ;
@@ -3753,7 +3753,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -4095,9 +4095,9 @@ GetIntAttr
 nsIAtom
 *
 aAttr
-PRInt32
+int32_t
 aDefault
-PRInt32
+int32_t
 *
 aValue
 )
@@ -4157,7 +4157,7 @@ SetIntAttr
 nsIAtom
 *
 aAttr
-PRInt32
+int32_t
 aValue
 )
 ;
@@ -4253,9 +4253,9 @@ GetUnsignedIntAttr
 nsIAtom
 *
 aAttr
-PRUint32
+uint32_t
 aDefault
-PRUint32
+uint32_t
 *
 aValue
 )
@@ -4316,7 +4316,7 @@ SetUnsignedIntAttr
 nsIAtom
 *
 aAttr
-PRUint32
+uint32_t
 aValue
 )
 ;
@@ -4902,7 +4902,7 @@ MayHaveContentEditableAttr
 return
 eInherit
 ;
-PRInt32
+int32_t
 value
 =
 FindAttrValueIn
@@ -5063,7 +5063,7 @@ private
 void
 ChangeEditableState
 (
-PRInt32
+int32_t
 aChange
 )
 ;
@@ -5128,7 +5128,7 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -5458,7 +5458,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -5476,7 +5476,7 @@ virtual
 nsresult
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -5493,7 +5493,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -5780,7 +5780,7 @@ virtual
 bool
 IsElementDisabledForEvents
 (
-PRUint32
+uint32_t
 aMessage
 nsIFrame
 *
@@ -6462,7 +6462,7 @@ Get
 #
 _method
 (
-PRInt32
+int32_t
 *
 aValue
 )
@@ -6493,7 +6493,7 @@ Set
 #
 _method
 (
-PRInt32
+int32_t
 aValue
 )
 \
@@ -6580,7 +6580,7 @@ Get
 #
 _method
 (
-PRUint32
+uint32_t
 *
 aValue
 )
@@ -6611,7 +6611,7 @@ Set
 #
 _method
 (
-PRUint32
+uint32_t
 aValue
 )
 \
@@ -6718,7 +6718,7 @@ Get
 #
 _method
 (
-PRUint32
+uint32_t
 *
 aValue
 )
@@ -6749,7 +6749,7 @@ Set
 #
 _method
 (
-PRUint32
+uint32_t
 aValue
 )
 \
@@ -7229,7 +7229,7 @@ Get
 #
 _method
 (
-PRInt32
+int32_t
 *
 aValue
 )
@@ -7260,7 +7260,7 @@ Set
 #
 _method
 (
-PRInt32
+int32_t
 aValue
 )
 \
@@ -9022,7 +9022,7 @@ ScrollIntoView
 (
 bool
 top
-PRUint8
+uint8_t
 _argc
 )
 {
@@ -9061,7 +9061,7 @@ aOffsetParent
 NS_IMETHOD
 GetOffsetTop
 (
-PRInt32
+int32_t
 *
 aOffsetTop
 )
@@ -9080,7 +9080,7 @@ aOffsetTop
 NS_IMETHOD
 GetOffsetLeft
 (
-PRInt32
+int32_t
 *
 aOffsetLeft
 )
@@ -9099,7 +9099,7 @@ aOffsetLeft
 NS_IMETHOD
 GetOffsetWidth
 (
-PRInt32
+int32_t
 *
 aOffsetWidth
 )
@@ -9118,7 +9118,7 @@ aOffsetWidth
 NS_IMETHOD
 GetOffsetHeight
 (
-PRInt32
+int32_t
 *
 aOffsetHeight
 )

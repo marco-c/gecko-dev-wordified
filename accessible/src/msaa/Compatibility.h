@@ -441,7 +441,7 @@ UIAUTOMATION
 private
 :
 static
-PRUint32
+uint32_t
 sConsumers
 ;
 }

@@ -838,7 +838,7 @@ do_QueryInterface
 tableNode
 )
 ;
-PRInt32
+int32_t
 rowCount
 colCount
 ;
@@ -1157,7 +1157,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-PRInt32
+int32_t
 xCell
 yCell
 wCell
@@ -1205,7 +1205,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 xHoriz
 =
 xCell
@@ -1214,7 +1214,7 @@ wCell
 /
 2
 ;
-PRInt32
+int32_t
 yVert
 =
 yCell
@@ -1245,7 +1245,7 @@ do_QueryInterface
 tableNode
 )
 ;
-PRInt32
+int32_t
 rowCount
 colCount
 ;

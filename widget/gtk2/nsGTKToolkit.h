@@ -331,7 +331,7 @@ cleared
 void
 SetFocusTimestamp
 (
-PRUint32
+uint32_t
 aTimestamp
 )
 {
@@ -340,7 +340,7 @@ mFocusTimestamp
 aTimestamp
 ;
 }
-PRUint32
+uint32_t
 GetFocusTimestamp
 (
 )
@@ -363,7 +363,7 @@ mSharedGC
 nsCString
 mDesktopStartupID
 ;
-PRUint32
+uint32_t
 mFocusTimestamp
 ;
 }

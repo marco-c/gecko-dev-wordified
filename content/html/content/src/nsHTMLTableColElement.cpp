@@ -258,7 +258,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -442,7 +442,7 @@ nsHTMLTableColElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -690,7 +690,7 @@ nsAttrValue
 eInteger
 )
 {
-PRInt32
+int32_t
 val
 =
 value

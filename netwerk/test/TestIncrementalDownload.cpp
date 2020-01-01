@@ -334,9 +334,9 @@ request
 nsISupports
 *
 context
-PRUint64
+uint64_t
 progress
-PRUint64
+uint64_t
 progressMax
 )
 {
@@ -531,9 +531,9 @@ const
 char
 *
 resultPath
-PRInt32
+int32_t
 chunkSize
-PRInt32
+int32_t
 interval
 )
 {
@@ -775,7 +775,7 @@ return
 -
 1
 ;
-PRInt32
+int32_t
 chunkSize
 =
 atoi
@@ -786,7 +786,7 @@ argv
 ]
 )
 ;
-PRInt32
+int32_t
 interval
 =
 atoi

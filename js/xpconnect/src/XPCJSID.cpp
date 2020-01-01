@@ -1339,7 +1339,7 @@ true
 NS_METHOD
 GetSharedScriptableHelperForJSIID
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -2096,7 +2096,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -2324,7 +2324,7 @@ iface
 return
 NS_OK
 ;
-PRUint16
+uint16_t
 count
 =
 iface
@@ -2336,7 +2336,7 @@ GetMemberCount
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -3743,7 +3743,7 @@ nsID
 *
 GetIIDArg
 (
-PRUint32
+uint32_t
 argc
 const
 JS
@@ -3939,7 +3939,7 @@ iidval
 JSContext
 *
 cx
-PRUint8
+uint8_t
 optionalArgc
 JS
 :
@@ -4247,7 +4247,7 @@ iidval
 JSContext
 *
 cx
-PRUint8
+uint8_t
 optionalArgc
 JS
 :
@@ -4574,7 +4574,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -4601,7 +4601,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *

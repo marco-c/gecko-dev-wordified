@@ -736,7 +736,7 @@ now
 .
 .
 .
-PRInt32
+int32_t
 pos
 =
 aFileExtension
@@ -2012,7 +2012,7 @@ cpl
 foo
 -
 bar
-PRInt32
+int32_t
 lastCommaPos
 =
 aPath
@@ -2049,7 +2049,7 @@ AppendLiteral
 /
 case
 insensitive
-PRUint32
+uint32_t
 index
 =
 aPath
@@ -2250,7 +2250,7 @@ rundll32
 /
 case
 insensitive
-PRInt32
+int32_t
 strLen
 =
 rundllSegment
@@ -2259,7 +2259,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 index
 =
 aCommandString
@@ -2305,7 +2305,7 @@ index
 kNotFound
 )
 {
-PRUint32
+uint32_t
 rundllSegmentLength
 =
 index
@@ -2568,7 +2568,7 @@ full
 path
 strings
 .
-PRUint32
+uint32_t
 bufLength
 =
 :

@@ -223,9 +223,9 @@ void
 aPtr
 size_t
 aSize
-PRUint32
+uint32_t
 start
-PRUint32
+uint32_t
 end
 tm_thread
 *
@@ -245,9 +245,9 @@ size_t
 aCount
 size_t
 aSize
-PRUint32
+uint32_t
 start
-PRUint32
+uint32_t
 end
 tm_thread
 *
@@ -268,9 +268,9 @@ void
 aPout
 size_t
 aSize
-PRUint32
+uint32_t
 start
-PRUint32
+uint32_t
 end
 tm_thread
 *
@@ -286,9 +286,9 @@ FreeCallback
 void
 *
 aPtr
-PRUint32
+uint32_t
 start
-PRUint32
+uint32_t
 end
 tm_thread
 *

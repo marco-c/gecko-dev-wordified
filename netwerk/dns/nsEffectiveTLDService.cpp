@@ -471,7 +471,7 @@ static
 array
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -729,7 +729,7 @@ GetBaseDomain
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAdditionalParts
 nsACString
 &
@@ -961,7 +961,7 @@ const
 nsACString
 &
 aHostname
-PRUint32
+uint32_t
 aAdditionalParts
 nsACString
 &
@@ -1116,7 +1116,7 @@ GetBaseDomainInternal
 nsCString
 &
 aHostname
-PRUint32
+uint32_t
 aAdditionalParts
 nsACString
 &

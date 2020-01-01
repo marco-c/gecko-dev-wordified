@@ -324,7 +324,7 @@ value
 /
 /
 (
-PRUint64
+uint64_t
 (
 Hash
 (
@@ -402,7 +402,7 @@ Truncate
 PRFileDesc
 *
 fd
-PRUint32
+uint32_t
 newEOF
 )
 ;

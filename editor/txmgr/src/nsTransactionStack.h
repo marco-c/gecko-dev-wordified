@@ -188,7 +188,7 @@ nsTransactionItem
 >
 GetItem
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -197,7 +197,7 @@ Clear
 (
 )
 ;
-PRInt32
+int32_t
 GetSize
 (
 )

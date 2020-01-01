@@ -742,7 +742,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -1032,7 +1032,7 @@ entries
 are
 long
 aligned
-PRUint16
+uint16_t
 mRefCnt
 ;
 bool
@@ -1350,7 +1350,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -1625,7 +1625,7 @@ nsIRDFObserver
 >
 mObservers
 ;
-PRUint32
+uint32_t
 mNumObservers
 ;
 /
@@ -1648,7 +1648,7 @@ mReadCount
 =
 =
 0
-PRUint32
+uint32_t
 mReadCount
 ;
 static
@@ -1661,7 +1661,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -1678,7 +1678,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -1825,7 +1825,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -3369,7 +3369,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -3551,7 +3551,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -3873,7 +3873,7 @@ if
 mHashArcs
 )
 {
-PRUint32
+uint32_t
 itemCount
 ;
 nsresult
@@ -4180,7 +4180,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mAlreadyReturned
@@ -4641,7 +4641,7 @@ InMemoryAssertionEnumeratorImpl
 ;
 static
 const
-PRInt32
+int32_t
 kNumBuckets
 =
 sizeof
@@ -4676,7 +4676,7 @@ org
 com
 static
 const
-PRInt32
+int32_t
 kInitialSize
 =
 1024
@@ -4947,7 +4947,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -7214,11 +7214,11 @@ notify
 observers
 for
 (
-PRInt32
+int32_t
 i
 =
 (
-PRInt32
+int32_t
 )
 mNumObservers
 -
@@ -8055,10 +8055,10 @@ the
 world
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 mNumObservers
 )
@@ -8339,10 +8339,10 @@ the
 world
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 mNumObservers
 )
@@ -8624,10 +8624,10 @@ the
 world
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 mNumObservers
 )
@@ -9229,7 +9229,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -9468,10 +9468,10 @@ BeginUpdateBatch
 {
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 mNumObservers
 )
@@ -9523,10 +9523,10 @@ EndUpdateBatch
 {
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 mNumObservers
 )
@@ -10644,10 +10644,10 @@ mHashEntry
 {
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 mNumObservers
 )
@@ -10792,7 +10792,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -11426,7 +11426,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -11634,7 +11634,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -11795,7 +11795,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *

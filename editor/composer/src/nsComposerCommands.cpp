@@ -341,7 +341,7 @@ h
 /
 /
 for
-PRInt32
+int32_t
 class
 nsISupports
 ;
@@ -5219,7 +5219,7 @@ if
 positionedElement
 )
 {
-PRInt32
+int32_t
 z
 ;
 nsresult

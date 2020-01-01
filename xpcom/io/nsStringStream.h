@@ -372,7 +372,7 @@ const
 char
 *
 aStringToRead
-PRInt32
+int32_t
 aLength
 =
 -

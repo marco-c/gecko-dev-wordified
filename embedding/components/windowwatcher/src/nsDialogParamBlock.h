@@ -190,9 +190,9 @@ kNumStrings
 nsresult
 InBounds
 (
-PRInt32
+int32_t
 inIndex
-PRInt32
+int32_t
 inMax
 )
 {
@@ -212,13 +212,13 @@ NS_OK
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-PRInt32
+int32_t
 mInt
 [
 kNumInts
 ]
 ;
-PRInt32
+int32_t
 mNumStrings
 ;
 nsString

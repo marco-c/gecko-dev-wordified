@@ -300,7 +300,7 @@ event
 .
 We
 use
-PRUint32
+uint32_t
 instead
 of
 /
@@ -337,7 +337,7 @@ is
 since
 startup
 .
-PRUint32
+uint32_t
 mTime
 ;
 INPUTDATA_AS_CHILD_TYPE
@@ -361,7 +361,7 @@ InputData
 (
 InputType
 aInputType
-PRUint32
+uint32_t
 aTime
 )
 :
@@ -548,7 +548,7 @@ public
 :
 SingleTouchData
 (
-PRInt32
+int32_t
 aIdentifier
 nsIntPoint
 aScreenPoint
@@ -613,7 +613,7 @@ move
 /
 end
 .
-PRInt32
+int32_t
 mIdentifier
 ;
 /
@@ -843,7 +843,7 @@ MultiTouchInput
 (
 MultiTouchType
 aType
-PRUint32
+uint32_t
 aTime
 )
 :
@@ -1022,7 +1022,7 @@ from
 weird
 interfaces
 .
-PRInt32
+int32_t
 identifier
 radiusX
 radiusY
@@ -1431,7 +1431,7 @@ PinchGestureInput
 (
 PinchGestureType
 aType
-PRUint32
+uint32_t
 aTime
 const
 nsIntPoint
@@ -1710,7 +1710,7 @@ TapGestureInput
 (
 TapGestureType
 aType
-PRUint32
+uint32_t
 aTime
 const
 nsIntPoint

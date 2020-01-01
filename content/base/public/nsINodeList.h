@@ -207,7 +207,7 @@ list
 *
 /
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent

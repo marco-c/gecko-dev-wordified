@@ -1936,7 +1936,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -2190,7 +2190,7 @@ nsDOMEvent
 :
 GetEventPhase
 (
-PRUint16
+uint16_t
 *
 aEventPhase
 )
@@ -2385,7 +2385,7 @@ nsDOMEvent
 :
 GetTimeStamp
 (
-PRUint64
+uint64_t
 *
 aTimeStamp
 )
@@ -3102,7 +3102,7 @@ newEvent
 =
 nullptr
 ;
-PRUint32
+uint32_t
 msg
 =
 mEvent
@@ -5554,7 +5554,7 @@ aEvent
 )
 )
 {
-PRUint32
+uint32_t
 key
 =
 static_cast
@@ -6702,7 +6702,7 @@ nsDOMEvent
 :
 GetEventName
 (
-PRUint32
+uint32_t
 aEventType
 )
 {

@@ -757,7 +757,7 @@ PRUnichar
 *
 *
 aFormatStrings
-PRUint32
+uint32_t
 aFormatStringsLen
 )
 {
@@ -994,7 +994,7 @@ nsWebSocket
 :
 CloseConnection
 (
-PRUint16
+uint16_t
 aReasonCode
 const
 nsACString
@@ -1384,7 +1384,7 @@ nsWebSocket
 :
 FailConnection
 (
-PRUint16
+uint16_t
 aReasonCode
 const
 nsACString
@@ -2400,7 +2400,7 @@ OnAcknowledge
 nsISupports
 *
 aContext
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -2445,7 +2445,7 @@ OnServerClose
 nsISupports
 *
 aContext
-PRUint16
+uint16_t
 aCode
 const
 nsACString
@@ -3829,7 +3829,7 @@ aContext
 JSObject
 *
 aObject
-PRUint32
+uint32_t
 aArgc
 JS
 :
@@ -4121,7 +4121,7 @@ len
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -5516,7 +5516,7 @@ jsval
 jsData
 )
 {
-PRUint32
+uint32_t
 blobLen
 =
 aData
@@ -5608,7 +5608,7 @@ CreateAndDispatchCloseEvent
 (
 bool
 aWasClean
-PRUint16
+uint16_t
 aCode
 const
 nsString
@@ -5945,7 +5945,7 @@ IsEmpty
 NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
-PRInt32
+int32_t
 port
 ;
 rv
@@ -6166,7 +6166,7 @@ query
 )
 ;
 }
-PRUint32
+uint32_t
 length
 =
 mResource
@@ -6175,7 +6175,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -6936,7 +6936,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 optional_argc
 )
 {
@@ -7236,7 +7236,7 @@ nsWebSocket
 :
 GetReadyState
 (
-PRUint16
+uint16_t
 *
 aReadyState
 )
@@ -7256,7 +7256,7 @@ nsWebSocket
 :
 GetBufferedAmount
 (
-PRUint32
+uint32_t
 *
 aBufferedAmount
 )
@@ -7531,7 +7531,7 @@ msgStream
 bool
 isBinary
 ;
-PRUint32
+uint32_t
 msgLen
 ;
 nsresult
@@ -7696,7 +7696,7 @@ aStreamOut
 bool
 &
 aIsBinary
-PRUint32
+uint32_t
 &
 aOutgoingLength
 JSContext
@@ -7716,7 +7716,7 @@ blob
 or
 string
 )
-PRUint16
+uint16_t
 dataType
 ;
 nsresult
@@ -7853,7 +7853,7 @@ aCx
 )
 )
 {
-PRInt32
+int32_t
 len
 =
 JS_GetArrayBufferByteLength
@@ -7956,7 +7956,7 @@ Available
 (
 )
 )
-PRUint64
+uint64_t
 blobLen
 ;
 rv
@@ -7991,7 +7991,7 @@ aOutgoingLength
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 blobLen
@@ -8043,7 +8043,7 @@ data
 =
 nullptr
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -8106,13 +8106,13 @@ nsWebSocket
 :
 Close
 (
-PRUint16
+uint16_t
 code
 const
 nsAString
 &
 reason
-PRUint8
+uint8_t
 argc
 )
 {
@@ -8147,7 +8147,7 @@ in
 a
 specific
 range
-PRUint16
+uint16_t
 closeCode
 =
 0
@@ -8793,7 +8793,7 @@ illegal
 values
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -8813,7 +8813,7 @@ index
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8909,7 +8909,7 @@ Check
 content
 policy
 .
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy

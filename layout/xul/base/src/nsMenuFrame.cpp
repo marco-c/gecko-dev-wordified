@@ -431,13 +431,13 @@ PopupListProperty
 AssertNotCalled
 )
 static
-PRInt32
+int32_t
 gEatMouseMove
 =
 false
 ;
 const
-PRInt32
+int32_t
 kBlinkDelay
 =
 67
@@ -2209,7 +2209,7 @@ nsKeyEvent
 )
 aEvent
 ;
-PRUint32
+uint32_t
 keyCode
 =
 keyEvent
@@ -3158,7 +3158,7 @@ IsMenuBar
 )
 )
 {
-PRInt32
+int32_t
 menuDelay
 =
 LookAndFeel
@@ -3812,12 +3812,12 @@ nsMenuFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -6227,7 +6227,7 @@ return
 }
 }
 static
-PRInt32
+int32_t
 accelKey
 =
 0
@@ -6800,7 +6800,7 @@ ShouldBlink
 (
 )
 {
-PRInt32
+int32_t
 shouldBlink
 =
 LookAndFeel

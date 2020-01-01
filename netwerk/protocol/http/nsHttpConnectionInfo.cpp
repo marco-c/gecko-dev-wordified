@@ -110,7 +110,7 @@ const
 nsACString
 &
 host
-PRInt32
+int32_t
 port
 )
 {
@@ -223,7 +223,7 @@ char
 *
 keyHost
 ;
-PRInt32
+int32_t
 keyPort
 ;
 if

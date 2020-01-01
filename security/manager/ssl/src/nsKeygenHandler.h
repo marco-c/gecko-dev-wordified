@@ -125,7 +125,7 @@ h
 nsresult
 GetSlotWithMechanism
 (
-PRUint32
+uint32_t
 mechanism
 nsIInterfaceRequestor
 *
@@ -253,7 +253,7 @@ aPqg
 nsresult
 GetSlot
 (
-PRUint32
+uint32_t
 aMechanism
 PK11SlotInfo
 *

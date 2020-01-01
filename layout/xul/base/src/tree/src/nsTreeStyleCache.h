@@ -138,12 +138,12 @@ nsHashKey
 {
 public
 :
-PRUint32
+uint32_t
 mStateID
 ;
 nsDFAState
 (
-PRUint32
+uint32_t
 aID
 )
 :
@@ -153,7 +153,7 @@ aID
 )
 {
 }
-PRUint32
+uint32_t
 GetStateID
 (
 )
@@ -162,7 +162,7 @@ return
 mStateID
 ;
 }
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -229,7 +229,7 @@ nsHashKey
 {
 public
 :
-PRUint32
+uint32_t
 mState
 ;
 nsCOMPtr
@@ -240,7 +240,7 @@ mInputSymbol
 ;
 nsTransitionKey
 (
-PRUint32
+uint32_t
 aState
 nsIAtom
 *
@@ -257,7 +257,7 @@ aSymbol
 )
 {
 }
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -288,7 +288,7 @@ the
 input
 symbol
 .
-PRInt32
+int32_t
 hb
 =
 mState
@@ -296,7 +296,7 @@ mState
 <
 16
 ;
-PRInt32
+int32_t
 lb
 =
 (
@@ -724,7 +724,7 @@ the
 /
 DFA
 .
-PRUint32
+uint32_t
 mNextState
 ;
 }

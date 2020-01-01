@@ -574,9 +574,9 @@ WindowMoved
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -625,9 +625,9 @@ WindowResized
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 {

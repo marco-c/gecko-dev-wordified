@@ -272,7 +272,7 @@ retrieved
 .
 static
 const
-PRUint32
+uint32_t
 BUFFERING_WAIT_S
 =
 30
@@ -343,7 +343,7 @@ decode
 .
 static
 const
-PRUint32
+uint32_t
 LOW_AUDIO_USECS
 =
 300000
@@ -409,7 +409,7 @@ audio
 threshold
 .
 const
-PRInt64
+int64_t
 AMPLE_AUDIO_USECS
 =
 1000000
@@ -489,7 +489,7 @@ of
 silence
 .
 const
-PRUint32
+uint32_t
 SILENCE_BYTES_CHUNK
 =
 32
@@ -542,7 +542,7 @@ position
 .
 static
 const
-PRUint32
+uint32_t
 LOW_VIDEO_FRAMES
 =
 1
@@ -591,7 +591,7 @@ thread
 .
 static
 const
-PRUint32
+uint32_t
 AMPLE_VIDEO_FRAMES
 =
 10
@@ -729,7 +729,7 @@ implementation
 .
 static
 const
-PRInt64
+int64_t
 LOW_DATA_THRESHOLD_USECS
 =
 5000000
@@ -793,7 +793,7 @@ calculation
 .
 static
 const
-PRUint32
+uint32_t
 EXHAUSTED_DATA_MARGIN_USECS
 =
 60000
@@ -944,7 +944,7 @@ normally
 .
 static
 const
-PRUint32
+uint32_t
 QUICK_BUFFER_THRESHOLD_USECS
 =
 2000000
@@ -979,7 +979,7 @@ available
 .
 static
 const
-PRUint32
+uint32_t
 QUICK_BUFFERING_LOW_DATA_USECS
 =
 1000000
@@ -1039,7 +1039,7 @@ static
 TimeDuration
 UsecsToDuration
 (
-PRInt64
+int64_t
 aUsecs
 )
 {
@@ -1062,7 +1062,7 @@ USECS_PER_MS
 ;
 }
 static
-PRInt64
+int64_t
 DurationToUsecs
 (
 TimeDuration
@@ -1072,7 +1072,7 @@ aDuration
 return
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 aDuration
@@ -1106,9 +1106,9 @@ nsAudioMetadataEventRunner
 nsBuiltinDecoder
 *
 aDecoder
-PRUint32
+uint32_t
 aChannels
-PRUint32
+uint32_t
 aRate
 bool
 aHasAudio
@@ -1163,11 +1163,11 @@ NS_OK
 ;
 }
 const
-PRUint32
+uint32_t
 mChannels
 ;
 const
-PRUint32
+uint32_t
 mRate
 ;
 const
@@ -1575,7 +1575,7 @@ fail
 .
 static
 const
-PRUint32
+uint32_t
 MAX_DECODE_THREADS
 =
 25
@@ -1617,7 +1617,7 @@ to
 avoid
 deadlock
 .
-PRUint32
+uint32_t
 GetDecodeThreadCount
 (
 )
@@ -1767,7 +1767,7 @@ main
 thread
 only
 .
-PRUint32
+uint32_t
 mStateMachineCount
 ;
 /
@@ -1802,7 +1802,7 @@ from
 any
 thread
 .
-PRUint32
+uint32_t
 mDecodeThreadCount
 ;
 /
@@ -2029,7 +2029,7 @@ mon
 mMonitor
 )
 ;
-PRInt32
+int32_t
 size
 =
 mPending
@@ -2327,7 +2327,7 @@ mDecodeThreadCount
 }
 }
 }
-PRUint32
+uint32_t
 StateMachineTracker
 :
 :
@@ -2362,7 +2362,7 @@ mon
 mMonitor
 )
 ;
-PRInt32
+int32_t
 size
 =
 mPending
@@ -2373,7 +2373,7 @@ GetSize
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3134,7 +3134,7 @@ GetSize
 )
 ;
 }
-PRInt64
+int64_t
 nsBuiltinDecoderStateMachine
 :
 :
@@ -3168,7 +3168,7 @@ AssertCurrentThreadIn
 (
 )
 ;
-PRInt64
+int64_t
 audioDecoded
 =
 mReader
@@ -3456,7 +3456,7 @@ GetChannels
 )
 =
 =
-PRInt32
+int32_t
 (
 aAudio
 -
@@ -3589,7 +3589,7 @@ mDecoder
 get
 (
 )
-PRInt32
+int32_t
 (
 frameOffset
 .
@@ -3656,7 +3656,7 @@ silence
 )
 ;
 }
-PRInt64
+int64_t
 offset
 ;
 if
@@ -3789,7 +3789,7 @@ aAudio
 -
 >
 mFrames
-PRInt32
+int32_t
 (
 offset
 )
@@ -3832,7 +3832,7 @@ aAudio
 >
 mFrames
 -
-PRInt32
+int32_t
 (
 offset
 )
@@ -3854,7 +3854,7 @@ aAudio
 >
 mFrames
 -
-PRInt32
+int32_t
 (
 offset
 )
@@ -3873,7 +3873,7 @@ layers
 Image
 *
 aImage
-PRInt64
+int64_t
 aDuration
 const
 gfxIntSize
@@ -3976,7 +3976,7 @@ OutputStreams
 (
 )
 ;
-PRInt64
+int64_t
 minLastAudioPacketTime
 =
 PR_INT64_MAX
@@ -4021,7 +4021,7 @@ IsFinished
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4224,7 +4224,7 @@ mAudioChannels
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4400,7 +4400,7 @@ output
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4827,7 +4827,7 @@ no
 longer
 needed
 .
-PRInt64
+int64_t
 audioPacketTimeToDiscard
 =
 NS_MIN
@@ -5047,7 +5047,7 @@ OutputStreams
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5203,7 +5203,7 @@ nsBuiltinDecoderStateMachine
 :
 HaveEnoughDecodedAudio
 (
-PRInt64
+int64_t
 aAmpleAudioUSecs
 )
 {
@@ -5270,7 +5270,7 @@ OutputStreams
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5357,7 +5357,7 @@ ScheduleStateMachineWithLockAndWakeDecoder
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5442,7 +5442,7 @@ if
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mReader
@@ -5491,7 +5491,7 @@ true
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5578,7 +5578,7 @@ ScheduleStateMachineWithLockAndWakeDecoder
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5915,7 +5915,7 @@ of
 audio
 underruns
 .
-PRInt64
+int64_t
 lowAudioThreshold
 =
 LOW_AUDIO_USECS
@@ -5965,7 +5965,7 @@ decoding
 !
 )
 .
-PRInt64
+int64_t
 ampleAudioThreshold
 =
 AMPLE_AUDIO_USECS
@@ -6084,7 +6084,7 @@ videoPump
 &
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 videoQueue
@@ -6314,7 +6314,7 @@ mDidThrottleVideoDecoding
 &
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 videoQueue
@@ -6451,7 +6451,7 @@ TimeDuration
 decodeTime
 ;
 {
-PRInt64
+int64_t
 currentTime
 =
 GetMediaTime
@@ -7043,11 +7043,11 @@ WriteSilence
 nsAudioStream
 *
 aStream
-PRUint32
+uint32_t
 aFrames
 )
 {
-PRUint32
+uint32_t
 numSamples
 =
 aFrames
@@ -7147,18 +7147,18 @@ get
 )
 )
 ;
-PRInt64
+int64_t
 audioDuration
 =
 0
 ;
-PRInt64
+int64_t
 audioStartTime
 =
 -
 1
 ;
-PRUint32
+uint32_t
 channels
 rate
 ;
@@ -7171,7 +7171,7 @@ volume
 bool
 setVolume
 ;
-PRInt32
+int32_t
 minWriteFrames
 =
 -
@@ -7960,7 +7960,7 @@ AudioLoop
 break
 ;
 }
-PRInt64
+int64_t
 framesWritten
 =
 0
@@ -8061,7 +8061,7 @@ mDecoder
 get
 (
 )
-PRInt32
+int32_t
 (
 missingFrames
 .
@@ -8078,7 +8078,7 @@ PlaySilence
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 missingFrames
@@ -8236,7 +8236,7 @@ seeking
 false
 ;
 {
-PRInt64
+int64_t
 unplayedFrames
 =
 audioDuration
@@ -8344,7 +8344,7 @@ that
 playback
 starts
 .
-PRInt64
+int64_t
 framesToWrite
 =
 minWriteFrames
@@ -8407,13 +8407,13 @@ framesToWrite
 ;
 }
 }
-PRInt64
+int64_t
 oldPosition
 =
 -
 1
 ;
-PRInt64
+int64_t
 position
 =
 GetMediaTime
@@ -8448,7 +8448,7 @@ DECODER_STATE_SHUTDOWN
 )
 {
 const
-PRInt64
+int64_t
 DRAIN_BLOCK_USECS
 =
 100000
@@ -8721,17 +8721,17 @@ get
 )
 ;
 }
-PRUint32
+uint32_t
 nsBuiltinDecoderStateMachine
 :
 :
 PlaySilence
 (
-PRUint32
+uint32_t
 aFrames
-PRUint32
+uint32_t
 aChannels
-PRUint64
+uint64_t
 aFrameOffset
 )
 {
@@ -8769,7 +8769,7 @@ paused
 "
 )
 ;
-PRUint32
+uint32_t
 maxFrames
 =
 SILENCE_BYTES_CHUNK
@@ -8781,7 +8781,7 @@ sizeof
 AudioDataValue
 )
 ;
-PRUint32
+uint32_t
 frames
 =
 NS_MIN
@@ -8830,15 +8830,15 @@ return
 frames
 ;
 }
-PRUint32
+uint32_t
 nsBuiltinDecoderStateMachine
 :
 :
 PlayFromAudioQueue
 (
-PRUint64
+uint64_t
 aFrameOffset
-PRUint32
+uint32_t
 aChannels
 )
 {
@@ -8965,13 +8965,13 @@ NotifyAll
 )
 ;
 }
-PRInt64
+int64_t
 offset
 =
 -
 1
 ;
-PRUint32
+uint32_t
 frames
 =
 0
@@ -9470,7 +9470,7 @@ nsBuiltinDecoderStateMachine
 :
 UpdatePlaybackPositionInternal
 (
-PRInt64
+int64_t
 aTime
 )
 {
@@ -9603,7 +9603,7 @@ nsBuiltinDecoderStateMachine
 :
 UpdatePlaybackPosition
 (
-PRInt64
+int64_t
 aTime
 )
 {
@@ -9948,7 +9948,7 @@ USECS_PER_S
 )
 ;
 }
-PRInt64
+int64_t
 nsBuiltinDecoderStateMachine
 :
 :
@@ -9998,7 +9998,7 @@ nsBuiltinDecoderStateMachine
 :
 SetDuration
 (
-PRInt64
+int64_t
 aDuration
 )
 {
@@ -10081,7 +10081,7 @@ nsBuiltinDecoderStateMachine
 :
 SetEndTime
 (
-PRInt64
+int64_t
 aEndTime
 )
 {
@@ -10121,7 +10121,7 @@ nsBuiltinDecoderStateMachine
 :
 SetFragmentEndTime
 (
-PRInt64
+int64_t
 aEndTime
 )
 {
@@ -10555,9 +10555,9 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
-PRInt64
+int64_t
 aOffset
 )
 {
@@ -10691,7 +10691,7 @@ buffered
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -10740,7 +10740,7 @@ mEndTime
 =
 NS_MAX
 <
-PRInt64
+int64_t
 >
 (
 mEndTime
@@ -10879,7 +10879,7 @@ mSeekTime
 =
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 t
@@ -11891,7 +11891,7 @@ return
 NS_OK
 ;
 }
-PRInt64
+int64_t
 nsBuiltinDecoderStateMachine
 :
 :
@@ -11962,7 +11962,7 @@ to
 the
 hardware
 .
-PRInt64
+int64_t
 pushed
 =
 (
@@ -12002,7 +12002,7 @@ nsBuiltinDecoderStateMachine
 :
 HasLowDecodedData
 (
-PRInt64
+int64_t
 aAudioUsecs
 )
 const
@@ -12135,7 +12135,7 @@ IsFinished
 &
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mReader
@@ -12170,7 +12170,7 @@ GetUndecodedData
 mLowDataThresholdUsecs
 ;
 }
-PRInt64
+int64_t
 nsBuiltinDecoderStateMachine
 :
 :
@@ -12251,7 +12251,7 @@ nsIDOMTimeRanges
 buffered
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -12275,7 +12275,7 @@ res
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -12346,7 +12346,7 @@ currentTime
 return
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 (
@@ -12370,7 +12370,7 @@ nsBuiltinDecoderStateMachine
 :
 SetFrameBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -12999,7 +12999,7 @@ SetFrameBufferLength
 (
 )
 .
-PRUint32
+uint32_t
 frameBufferLength
 =
 mInfo
@@ -13291,7 +13291,7 @@ have
 the
 lock
 .
-PRInt64
+int64_t
 seekTime
 =
 mSeekTime
@@ -13308,7 +13308,7 @@ currentTimeChanged
 =
 false
 ;
-PRInt64
+int64_t
 mediaTime
 =
 GetMediaTime
@@ -13615,7 +13615,7 @@ seek
 "
 )
 ;
-PRInt64
+int64_t
 startTime
 =
 (
@@ -15581,7 +15581,7 @@ nsBuiltinDecoder
 PLAY_STATE_PLAYING
 )
 {
-PRInt64
+int64_t
 videoTime
 =
 HasVideo
@@ -15592,7 +15592,7 @@ mVideoFrameEndTime
 :
 0
 ;
-PRInt64
+int64_t
 clockTime
 =
 NS_MAX
@@ -15779,7 +15779,7 @@ aTarget
 ;
 }
 }
-PRInt64
+int64_t
 nsBuiltinDecoderStateMachine
 :
 :
@@ -15929,7 +15929,7 @@ monitor
 held
 here
 .
-PRInt64
+int64_t
 t
 =
 mAudioStream
@@ -16088,7 +16088,7 @@ the
 system
 clock
 .
-PRInt64
+int64_t
 clock_time
 =
 -
@@ -16111,7 +16111,7 @@ mStartTime
 }
 else
 {
-PRInt64
+int64_t
 audio_time
 =
 GetAudioClock
@@ -16284,7 +16284,7 @@ the
 next
 frame
 .
-PRInt64
+int64_t
 remainingTime
 =
 AUDIO_DURATION_USECS
@@ -16505,7 +16505,7 @@ frame
 currentFrame
 )
 {
-PRInt64
+int64_t
 now
 =
 IsPlaying
@@ -16909,7 +16909,7 @@ NotifyPresentedFrame
 (
 )
 ;
-PRInt64
+int64_t
 now
 =
 DurationToUsecs
@@ -17176,7 +17176,7 @@ nsBuiltinDecoderStateMachine
 :
 Wait
 (
-PRInt64
+int64_t
 aUsecs
 )
 {
@@ -17220,7 +17220,7 @@ UsecsToDuration
 (
 NS_MAX
 <
-PRInt64
+int64_t
 >
 (
 USECS_PER_MS
@@ -17268,12 +17268,12 @@ IsPlaying
 )
 )
 {
-PRInt64
+int64_t
 ms
 =
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 NS_round
@@ -17321,7 +17321,7 @@ PR_MillisecondsToInterval
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 ms
@@ -17366,7 +17366,7 @@ AssertCurrentThreadIn
 (
 )
 ;
-PRInt64
+int64_t
 startTime
 =
 0
@@ -18586,7 +18586,7 @@ nsBuiltinDecoderStateMachine
 :
 ScheduleStateMachine
 (
-PRInt64
+int64_t
 aUsecs
 )
 {
@@ -18744,12 +18744,12 @@ Cancel
 ;
 }
 }
-PRUint32
+uint32_t
 ms
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 (

@@ -617,7 +617,7 @@ mListeners
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -900,7 +900,7 @@ permMgr
 nullptr
 )
 ;
-PRUint32
+uint32_t
 permission
 =
 nsIPermissionManager

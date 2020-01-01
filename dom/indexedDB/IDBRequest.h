@@ -405,7 +405,7 @@ mHaveResultOrErrorCode
 nsString
 mFilename
 ;
-PRUint32
+uint32_t
 mLineNo
 ;
 }

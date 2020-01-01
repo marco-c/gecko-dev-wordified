@@ -229,7 +229,7 @@ callbacks
 nsIEventTarget
 *
 target
-PRUint8
+uint8_t
 caps
 )
 ;
@@ -273,7 +273,7 @@ private
 nsresult
 mStatus
 ;
-PRUint8
+uint8_t
 mCaps
 ;
 nsRefPtr

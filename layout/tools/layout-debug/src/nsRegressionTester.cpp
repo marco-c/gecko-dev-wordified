@@ -302,9 +302,9 @@ aWindowToDump
 nsIFile
 *
 aDestFile
-PRUint32
+uint32_t
 aFlagsMask
-PRInt32
+int32_t
 *
 aResult
 )
@@ -337,7 +337,7 @@ rv
 =
 NS_ERROR_NOT_AVAILABLE
 ;
-PRUint32
+uint32_t
 busyFlags
 ;
 bool
@@ -593,7 +593,7 @@ aBaseFile
 nsIFile
 *
 aVerFile
-PRUint32
+uint32_t
 aFlags
 bool
 *
@@ -707,7 +707,7 @@ rv
 )
 )
 {
-PRInt32
+int32_t
 outputLevel
 =
 (

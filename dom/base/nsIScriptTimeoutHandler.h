@@ -293,7 +293,7 @@ char
 *
 *
 aFileName
-PRUint32
+uint32_t
 *
 aLineNo
 )

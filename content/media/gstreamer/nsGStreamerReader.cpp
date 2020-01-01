@@ -1178,7 +1178,7 @@ GetResource
 (
 )
 ;
-PRInt64
+int64_t
 len
 =
 resource
@@ -2341,7 +2341,7 @@ gst_app_sink_pull_buffer
 mAudioAppSink
 )
 ;
-PRInt64
+int64_t
 timestamp
 =
 GST_BUFFER_TIMESTAMP
@@ -2366,7 +2366,7 @@ GST_TIME_AS_USECONDS
 timestamp
 )
 ;
-PRInt64
+int64_t
 duration
 =
 0
@@ -2391,7 +2391,7 @@ buffer
 )
 )
 ;
-PRInt64
+int64_t
 offset
 =
 GST_BUFFER_OFFSET
@@ -2408,7 +2408,7 @@ GST_BUFFER_SIZE
 buffer
 )
 ;
-PRInt32
+int32_t
 frames
 =
 (
@@ -2546,7 +2546,7 @@ DecodeVideoFrame
 bool
 &
 aKeyFrameSkip
-PRInt64
+int64_t
 aTimeThreshold
 )
 {
@@ -2574,7 +2574,7 @@ buffer
 =
 NULL
 ;
-PRInt64
+int64_t
 timestamp
 nextTimestamp
 ;
@@ -2972,7 +2972,7 @@ XXX
 ?
 *
 /
-PRInt64
+int64_t
 offset
 =
 0
@@ -3059,13 +3059,13 @@ nsGStreamerReader
 :
 Seek
 (
-PRInt64
+int64_t
 aTarget
-PRInt64
+int64_t
 aStartTime
-PRInt64
+int64_t
 aEndTime
-PRInt64
+int64_t
 aCurrentTime
 )
 {
@@ -3178,7 +3178,7 @@ GetBuffered
 nsTimeRanges
 *
 aBuffered
-PRInt64
+int64_t
 aStartTime
 )
 {
@@ -3371,7 +3371,7 @@ NS_OK
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3389,7 +3389,7 @@ index
 +
 )
 {
-PRInt64
+int64_t
 startOffset
 =
 ranges
@@ -3399,7 +3399,7 @@ index
 .
 mStart
 ;
-PRInt64
+int64_t
 endOffset
 =
 ranges
@@ -3593,7 +3593,7 @@ GST_BUFFER_DATA
 buffer
 )
 ;
-PRUint32
+uint32_t
 size
 =
 0
@@ -3738,7 +3738,7 @@ buffer
 )
 ;
 }
-PRInt64
+int64_t
 nsGStreamerReader
 :
 :

@@ -221,7 +221,7 @@ AsImage
 (
 )
 ;
-PRUint32
+uint32_t
 geckoCoordType
 =
 (

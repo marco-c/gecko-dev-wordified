@@ -570,14 +570,14 @@ EStateMapEntryType
 stateMapEntryType
 ;
 static
-PRInt32
+int32_t
 GetStateIndexFor
 (
-PRUint64
+uint64_t
 aState
 )
 {
-PRInt32
+int32_t
 stateIndex
 =
 -

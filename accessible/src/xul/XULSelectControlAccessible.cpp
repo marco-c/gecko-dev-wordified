@@ -666,7 +666,7 @@ if
 xulMultiSelect
 )
 {
-PRInt32
+int32_t
 length
 =
 0
@@ -682,7 +682,7 @@ length
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -860,7 +860,7 @@ XULSelectControlAccessible
 :
 GetSelectedItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -945,7 +945,7 @@ itemNode
 nullptr
 ;
 }
-PRUint32
+uint32_t
 XULSelectControlAccessible
 :
 :
@@ -977,7 +977,7 @@ if
 multiSelectControl
 )
 {
-PRInt32
+int32_t
 count
 =
 0
@@ -1005,7 +1005,7 @@ select
 control
 /
 menulist
-PRInt32
+int32_t
 index
 ;
 mSelectControl
@@ -1036,7 +1036,7 @@ XULSelectControlAccessible
 :
 AddItemToSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1144,7 +1144,7 @@ XULSelectControlAccessible
 :
 RemoveItemFromSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1253,7 +1253,7 @@ XULSelectControlAccessible
 :
 IsItemSelected
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

@@ -136,7 +136,7 @@ nsXPTCStubBase
 self
 uint32
 methodIndex
-PRUint64
+uint64_t
 *
 args
 )
@@ -162,19 +162,19 @@ nsXPTCStubBase
 self
 uint32
 methodIndex
-PRUint64
+uint64_t
 *
 args
 )
 {
 const
-PRUint8
+uint8_t
 PARAM_BUFFER_COUNT
 =
 16
 ;
 const
-PRUint8
+uint8_t
 NUM_ARG_REGS
 =
 6
@@ -207,10 +207,10 @@ nsXPTMethodInfo
 *
 info
 ;
-PRUint8
+uint8_t
 paramCount
 ;
-PRUint8
+uint8_t
 i
 ;
 nsresult
@@ -235,7 +235,7 @@ mEntry
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -312,7 +312,7 @@ floating
 point
 register
 values
-PRUint64
+uint64_t
 *
 ap
 =
@@ -428,7 +428,7 @@ val
 i8
 =
 (
-PRInt8
+int8_t
 )
 *
 ap
@@ -449,7 +449,7 @@ val
 i16
 =
 (
-PRInt16
+int16_t
 )
 *
 ap
@@ -470,7 +470,7 @@ val
 i32
 =
 (
-PRInt32
+int32_t
 )
 *
 ap
@@ -491,7 +491,7 @@ val
 i64
 =
 (
-PRInt64
+int64_t
 )
 *
 ap
@@ -512,7 +512,7 @@ val
 u8
 =
 (
-PRUint8
+uint8_t
 )
 *
 ap
@@ -533,7 +533,7 @@ val
 u16
 =
 (
-PRUint16
+uint16_t
 )
 *
 ap
@@ -554,7 +554,7 @@ val
 u32
 =
 (
-PRUint32
+uint32_t
 )
 *
 ap
@@ -575,7 +575,7 @@ val
 u64
 =
 (
-PRUint64
+uint64_t
 )
 *
 ap
@@ -622,7 +622,7 @@ val
 u64
 =
 (
-PRUint64
+uint64_t
 )
 args
 [
@@ -662,7 +662,7 @@ val
 u32
 =
 (
-PRUint32
+uint32_t
 )
 *
 ap
@@ -804,7 +804,7 @@ mOuter
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 info

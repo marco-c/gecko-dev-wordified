@@ -152,7 +152,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 datalen
 )
 :
@@ -229,12 +229,12 @@ nsPreloadedStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 _retval
 )
 {
-PRUint64
+uint64_t
 avail
 =
 0
@@ -281,9 +281,9 @@ Read
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -304,7 +304,7 @@ aCount
 _retval
 )
 ;
-PRUint32
+uint32_t
 toRead
 =
 NS_MIN
@@ -352,9 +352,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 result
 )
@@ -393,7 +393,7 @@ aCount
 0
 )
 {
-PRUint32
+uint32_t
 toRead
 =
 NS_MIN
@@ -402,7 +402,7 @@ mLen
 aCount
 )
 ;
-PRUint32
+uint32_t
 didRead
 =
 0
@@ -584,9 +584,9 @@ AsyncWait
 nsIInputStreamCallback
 *
 aCallback
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aRequestedCount
 nsIEventTarget
 *

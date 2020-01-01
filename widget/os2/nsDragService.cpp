@@ -1184,7 +1184,7 @@ aTransferables
 nsIScriptableRegion
 *
 aRegion
-PRUint32
+uint32_t
 aActionType
 )
 {
@@ -1388,7 +1388,7 @@ nsISupports
 >
 genericData
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -2919,7 +2919,7 @@ nsDragService
 :
 GetNumDropItems
 (
-PRUint32
+uint32_t
 *
 aNumDropItems
 )
@@ -3031,7 +3031,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRUint32
+uint32_t
 aItemIndex
 )
 {
@@ -3127,7 +3127,7 @@ the
 number
 of
 flavors
-PRUint32
+uint32_t
 cnt
 ;
 flavorList
@@ -3247,7 +3247,7 @@ nsISupports
 >
 data
 ;
-PRUint32
+uint32_t
 tmpDataLen
 =
 0
@@ -3482,7 +3482,7 @@ _retval
 =
 false
 ;
-PRUint32
+uint32_t
 numDragItems
 =
 0
@@ -3522,7 +3522,7 @@ flavor
 /
 for
 (
-PRUint32
+uint32_t
 itemIndex
 =
 0
@@ -3565,7 +3565,7 @@ this
 flavor
 for
 (
-PRUint32
+uint32_t
 itemIndex
 =
 0
@@ -3643,7 +3643,7 @@ if
 flavorList
 )
 {
-PRUint32
+uint32_t
 numFlavors
 ;
 flavorList
@@ -3657,7 +3657,7 @@ numFlavors
 ;
 for
 (
-PRUint32
+uint32_t
 flavorIndex
 =
 0
@@ -4646,7 +4646,7 @@ no
 reason
 to
 continue
-PRInt32
+int32_t
 lineIndex
 =
 strData
@@ -4806,7 +4806,7 @@ Length
 )
 )
 {
-PRUint32
+uint32_t
 strLth
 =
 NS_MIN
@@ -5071,7 +5071,7 @@ GetSpec
 strTitle
 )
 ;
-PRInt32
+int32_t
 index
 =
 strTitle
@@ -5910,7 +5910,7 @@ pdinfo
 MRESULT
 &
 mr
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -6909,7 +6909,7 @@ usDrop
 =
 DOR_NODROP
 ;
-PRUint32
+uint32_t
 action
 ;
 USHORT
@@ -7094,7 +7094,7 @@ DragLeaveMsg
 (
 PDRAGINFO
 pdinfo
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -7253,7 +7253,7 @@ DropHelpMsg
 (
 PDRAGINFO
 pdinfo
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -7429,7 +7429,7 @@ nsDragService
 :
 ExitSession
 (
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -7639,7 +7639,7 @@ PDRAGINFO
 pdinfo
 HWND
 hwnd
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -8809,7 +8809,7 @@ PDRAGTRANSFER
 pdxfer
 USHORT
 usResult
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -9697,7 +9697,7 @@ rv
 }
 else
 {
-PRUint32
+uint32_t
 len
 ;
 nsCOMPtr
@@ -12983,7 +12983,7 @@ aResult
 nsAutoCharBuffer
 buffer
 ;
-PRInt32
+int32_t
 bufLength
 ;
 WideCharToMultiByte
@@ -13117,7 +13117,7 @@ aResult
 nsAutoChar16Buffer
 buffer
 ;
-PRInt32
+int32_t
 bufLength
 ;
 MultiByteToWideChar

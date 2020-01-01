@@ -301,7 +301,7 @@ ch
 void
 errAstralNonCharacter
 (
-PRInt32
+int32_t
 ch
 )
 ;

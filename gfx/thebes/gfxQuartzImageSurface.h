@@ -148,7 +148,7 @@ GetAsImageSurface
 )
 ;
 virtual
-PRInt32
+int32_t
 KnownMemoryUsed
 (
 )

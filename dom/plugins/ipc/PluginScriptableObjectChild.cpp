@@ -1939,7 +1939,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3676,7 +3676,7 @@ NPVariant
 >
 convertedArgs
 ;
-PRUint32
+uint32_t
 argCount
 =
 aArgs
@@ -3714,7 +3714,7 @@ true
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3785,7 +3785,7 @@ result
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4032,7 +4032,7 @@ NPVariant
 >
 convertedArgs
 ;
-PRUint32
+uint32_t
 argCount
 =
 aArgs
@@ -4070,7 +4070,7 @@ true
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4129,7 +4129,7 @@ result
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -5385,7 +5385,7 @@ NPVariant
 >
 convertedArgs
 ;
-PRUint32
+uint32_t
 argCount
 =
 aArgs
@@ -5423,7 +5423,7 @@ true
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -5482,7 +5482,7 @@ result
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

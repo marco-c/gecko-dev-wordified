@@ -135,7 +135,7 @@ nsIFrame
 aStart
 nsIteratorType
 aType
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -273,7 +273,7 @@ mLast
 aFrame
 ;
 }
-PRInt8
+int8_t
 getOffEdge
 (
 )
@@ -285,7 +285,7 @@ mOffEdge
 void
 setOffEdge
 (
-PRInt8
+int8_t
 aOffEdge
 )
 {
@@ -615,7 +615,7 @@ was
 in
 current
 ;
-PRInt8
+int8_t
 mOffEdge
 ;
 /

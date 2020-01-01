@@ -478,7 +478,7 @@ nsHttpChannelAuthProvider
 :
 ProcessAuthentication
 (
-PRUint32
+uint32_t
 httpStatus
 bool
 SSLConnectFailed
@@ -593,7 +593,7 @@ return
 NS_ERROR_NO_INTERFACE
 ;
 }
-PRUint32
+uint32_t
 loadFlags
 ;
 rv
@@ -1101,7 +1101,7 @@ return
 NS_ERROR_NO_INTERFACE
 ;
 }
-PRUint32
+uint32_t
 loadFlags
 ;
 rv
@@ -1691,7 +1691,7 @@ SetIdent
 nsHttpAuthIdentity
 &
 ident
-PRUint32
+uint32_t
 authFlags
 PRUnichar
 *
@@ -1778,7 +1778,7 @@ ifreq
 )
 return
 ;
-PRUint32
+uint32_t
 promptReason
 ;
 if
@@ -1877,7 +1877,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -1910,7 +1910,7 @@ result
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 authFlags
 ;
 rv
@@ -1986,7 +1986,7 @@ continuationState
 mAuthContinuationState
 ;
 }
-PRUint32
+uint32_t
 generateFlags
 ;
 rv
@@ -2446,7 +2446,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 precedingAuthFlags
 ;
 rv
@@ -2602,7 +2602,7 @@ module
 return
 false
 ;
-PRUint32
+uint32_t
 flags
 ;
 if
@@ -3478,7 +3478,7 @@ char
 *
 &
 host
-PRInt32
+int32_t
 &
 port
 nsCSubstring
@@ -3699,7 +3699,7 @@ AuthCache
 (
 )
 ;
-PRUint32
+uint32_t
 authFlags
 ;
 nsresult
@@ -3837,7 +3837,7 @@ char
 *
 host
 ;
-PRInt32
+int32_t
 port
 ;
 nsHttpAuthIdentity
@@ -4488,7 +4488,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 level
 =
 nsIAuthPrompt2
@@ -5050,7 +5050,7 @@ nsHttpChannelAuthProvider
 :
 GetIdentityFromURI
 (
-PRUint32
+uint32_t
 authFlags
 nsHttpAuthIdentity
 &
@@ -5449,7 +5449,7 @@ public
 :
 nsHTTPAuthInformation
 (
-PRUint32
+uint32_t
 aFlags
 const
 nsString
@@ -5472,7 +5472,7 @@ aAuthType
 void
 SetToHttpAuthIdentity
 (
-PRUint32
+uint32_t
 authFlags
 nsHttpAuthIdentity
 &
@@ -5487,7 +5487,7 @@ nsHTTPAuthInformation
 :
 SetToHttpAuthIdentity
 (
-PRUint32
+uint32_t
 authFlags
 nsHttpAuthIdentity
 &
@@ -5528,7 +5528,7 @@ nsHttpChannelAuthProvider
 :
 PromptForIdentity
 (
-PRUint32
+uint32_t
 level
 bool
 proxyAuth
@@ -5540,7 +5540,7 @@ const
 char
 *
 authType
-PRUint32
+uint32_t
 authFlags
 nsHttpAuthIdentity
 &
@@ -5727,7 +5727,7 @@ user
 .
 .
 .
-PRUint32
+uint32_t
 promptFlags
 =
 0
@@ -6043,7 +6043,7 @@ char
 *
 host
 ;
-PRInt32
+int32_t
 port
 ;
 nsHttpAuthIdentity
@@ -6760,7 +6760,7 @@ the
 phishy
 "
 threshold
-PRUint32
+uint32_t
 loadFlags
 ;
 nsresult
@@ -7144,7 +7144,7 @@ if
 doYesNoPrompt
 )
 {
-PRInt32
+int32_t
 choice
 ;
 /
@@ -7269,7 +7269,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char

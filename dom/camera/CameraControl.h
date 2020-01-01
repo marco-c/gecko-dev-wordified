@@ -261,7 +261,7 @@ char
 *
 GetParameterConstChar
 (
-PRUint32
+uint32_t
 aKey
 )
 =
@@ -271,7 +271,7 @@ virtual
 double
 GetParameterDouble
 (
-PRUint32
+uint32_t
 aKey
 )
 =
@@ -281,7 +281,7 @@ virtual
 void
 GetParameter
 (
-PRUint32
+uint32_t
 aKey
 nsTArray
 <
@@ -313,7 +313,7 @@ virtual
 void
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 const
 char
@@ -327,7 +327,7 @@ virtual
 void
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 double
 aValue
@@ -339,7 +339,7 @@ virtual
 void
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 const
 nsTArray
@@ -362,7 +362,7 @@ PushParameters
 ;
 nsCameraControl
 (
-PRUint32
+uint32_t
 aCameraId
 nsIThread
 *
@@ -429,10 +429,10 @@ nullptr
 void
 TakePictureComplete
 (
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -455,7 +455,7 @@ nsCameraControl
 nsresult
 SetHelper
 (
-PRUint32
+uint32_t
 aKey
 const
 nsAString
@@ -466,7 +466,7 @@ aValue
 nsresult
 GetHelper
 (
-PRUint32
+uint32_t
 aKey
 nsAString
 &
@@ -476,7 +476,7 @@ aValue
 nsresult
 SetHelper
 (
-PRUint32
+uint32_t
 aKey
 double
 aValue
@@ -485,7 +485,7 @@ aValue
 nsresult
 GetHelper
 (
-PRUint32
+uint32_t
 aKey
 double
 *
@@ -498,7 +498,7 @@ SetHelper
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aKey
 const
 JS
@@ -507,7 +507,7 @@ JS
 Value
 &
 aValue
-PRUint32
+uint32_t
 aLimit
 )
 ;
@@ -517,7 +517,7 @@ GetHelper
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aKey
 JS
 :
@@ -633,7 +633,7 @@ additional
 members
 *
 /
-PRUint32
+uint32_t
 mCameraId
 ;
 nsCOMPtr
@@ -648,10 +648,10 @@ nsICameraCapabilities
 >
 mCapabilities
 ;
-PRUint32
+uint32_t
 mPreviewWidth
 ;
-PRUint32
+uint32_t
 mPreviewHeight
 ;
 nsCOMPtr
@@ -663,10 +663,10 @@ mPreview
 nsString
 mFileFormat
 ;
-PRUint32
+uint32_t
 mMaxMeteringAreas
 ;
-PRUint32
+uint32_t
 mMaxFocusAreas
 ;
 nsCOMPtr
@@ -1275,7 +1275,7 @@ nsCameraControl
 aCameraControl
 CameraSize
 aSize
-PRInt32
+int32_t
 aRotation
 const
 nsAString
@@ -1415,7 +1415,7 @@ mCameraControl
 CameraSize
 mSize
 ;
-PRInt32
+int32_t
 mRotation
 ;
 nsString

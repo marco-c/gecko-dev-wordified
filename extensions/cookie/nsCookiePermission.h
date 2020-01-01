@@ -200,7 +200,7 @@ nsIPrivateBrowsingService
 >
 mPBService
 ;
-PRInt64
+int64_t
 mCookiesLifetimeSec
 ;
 /
@@ -210,7 +210,7 @@ limit
 specified
 in
 seconds
-PRUint8
+uint8_t
 mCookiesLifetimePolicy
 ;
 /

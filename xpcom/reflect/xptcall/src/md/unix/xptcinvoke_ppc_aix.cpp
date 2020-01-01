@@ -134,10 +134,10 @@ C
 void
 invoke_copy_to_stack
 (
-PRUint32
+uint32_t
 *
 d
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -185,7 +185,7 @@ populate
 .
 *
 /
-PRUint32
+uint32_t
 *
 l_d
 =
@@ -197,7 +197,7 @@ l_s
 =
 s
 ;
-PRUint32
+uint32_t
 l_paramCount
 =
 paramCount

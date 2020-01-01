@@ -149,7 +149,7 @@ given
 nsresult
 getVariable
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -354,7 +354,7 @@ return
 mNode
 ;
 }
-PRUint32
+uint32_t
 size
 (
 )
@@ -363,7 +363,7 @@ return
 1
 ;
 }
-PRUint32
+uint32_t
 position
 (
 )

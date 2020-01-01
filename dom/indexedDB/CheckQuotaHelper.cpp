@@ -259,7 +259,7 @@ MutexAutoLock
 namespace
 {
 inline
-PRUint32
+uint32_t
 GetQuotaPermissions
 (
 nsIDOMWindow
@@ -343,7 +343,7 @@ nsIPermissionManager
 DENY_ACTION
 )
 ;
-PRUint32
+uint32_t
 permission
 ;
 nsresult
@@ -968,7 +968,7 @@ nsIPermissionManager
 UNKNOWN_ACTION
 )
 {
-PRUint32
+uint32_t
 quota
 =
 IndexedDatabaseManager

@@ -222,7 +222,7 @@ gfx
 :
 BaseMargin
 <
-PRInt32
+int32_t
 nsIntMargin
 >
 {
@@ -235,7 +235,7 @@ gfx
 :
 BaseMargin
 <
-PRInt32
+int32_t
 nsIntMargin
 >
 Super
@@ -268,13 +268,13 @@ aMargin
 }
 nsIntMargin
 (
-PRInt32
+int32_t
 aLeft
-PRInt32
+int32_t
 aTop
-PRInt32
+int32_t
 aRight
-PRInt32
+int32_t
 aBottom
 )
 :

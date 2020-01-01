@@ -178,7 +178,7 @@ Equals
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 CaseInsensitiveCompare
 (
@@ -190,7 +190,7 @@ const
 char
 *
 b
-PRUint32
+uint32_t
 length
 )
 ;
@@ -208,11 +208,11 @@ nsAString
 self_type
 ;
 typedef
-PRUint32
+uint32_t
 size_type
 ;
 typedef
-PRUint32
+uint32_t
 index_type
 ;
 /
@@ -236,7 +236,7 @@ operation
 /
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 BeginReading
 (
@@ -283,7 +283,7 @@ char_type
 )
 CharAt
 (
-PRUint32
+uint32_t
 aPos
 )
 const
@@ -319,7 +319,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aPos
 )
 const
@@ -361,7 +361,7 @@ char_type
 *
 data
 ;
-PRUint32
+uint32_t
 dataLen
 =
 NS_StringGetData
@@ -442,7 +442,7 @@ failed
 /
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 BeginWriting
 (
@@ -456,7 +456,7 @@ char_type
 end
 =
 nullptr
-PRUint32
+uint32_t
 newSize
 =
 PR_UINT32_MAX
@@ -469,7 +469,7 @@ char_type
 )
 BeginWriting
 (
-PRUint32
+uint32_t
 =
 PR_UINT32_MAX
 )
@@ -489,7 +489,7 @@ bool
 )
 SetLength
 (
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -815,7 +815,7 @@ char_type
 *
 data
 ;
-PRUint32
+uint32_t
 dataLen
 =
 NS_StringGetData
@@ -1252,7 +1252,7 @@ equal
 *
 /
 typedef
-PRInt32
+int32_t
 (
 *
 ComparatorFunc
@@ -1266,14 +1266,14 @@ const
 char_type
 *
 b
-PRUint32
+uint32_t
 length
 )
 ;
 static
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 DefaultComparator
 (
@@ -1285,13 +1285,13 @@ const
 char_type
 *
 b
-PRUint32
+uint32_t
 length
 )
 ;
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Compare
 (
@@ -1308,7 +1308,7 @@ const
 ;
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Compare
 (
@@ -1734,7 +1734,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Find
 (
@@ -1792,7 +1792,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Find
 (
@@ -1800,7 +1800,7 @@ const
 self_type
 &
 aStr
-PRUint32
+uint32_t
 aOffset
 ComparatorFunc
 c
@@ -1839,7 +1839,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Find
 (
@@ -1865,7 +1865,7 @@ aIgnoreCase
 }
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Find
 (
@@ -1873,7 +1873,7 @@ const
 char
 *
 aStr
-PRUint32
+uint32_t
 aOffset
 bool
 aIgnoreCase
@@ -1921,7 +1921,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFind
 (
@@ -2015,7 +2015,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFind
 (
@@ -2023,7 +2023,7 @@ const
 self_type
 &
 aStr
-PRInt32
+int32_t
 aOffset
 ComparatorFunc
 c
@@ -2073,7 +2073,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFind
 (
@@ -2166,7 +2166,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFind
 (
@@ -2174,7 +2174,7 @@ const
 char
 *
 aStr
-PRInt32
+int32_t
 aOffset
 bool
 aIgnoreCase
@@ -2242,13 +2242,13 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 FindChar
 (
 char_type
 aChar
-PRUint32
+uint32_t
 aOffset
 =
 0
@@ -2301,7 +2301,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFindChar
 (
@@ -2332,7 +2332,7 @@ AppendInt
 (
 int
 aInt
-PRInt32
+int32_t
 aRadix
 =
 10
@@ -2374,14 +2374,14 @@ or
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 ToInteger
 (
 nsresult
 *
 aErrorCode
-PRUint32
+uint32_t
 aRadix
 =
 10
@@ -2427,11 +2427,11 @@ nsACString
 self_type
 ;
 typedef
-PRUint32
+uint32_t
 size_type
 ;
 typedef
-PRUint32
+uint32_t
 index_type
 ;
 /
@@ -2455,7 +2455,7 @@ operation
 /
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 BeginReading
 (
@@ -2502,7 +2502,7 @@ char_type
 )
 CharAt
 (
-PRUint32
+uint32_t
 aPos
 )
 const
@@ -2538,7 +2538,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aPos
 )
 const
@@ -2580,7 +2580,7 @@ char_type
 *
 data
 ;
-PRUint32
+uint32_t
 dataLen
 =
 NS_CStringGetData
@@ -2661,7 +2661,7 @@ failed
 /
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 BeginWriting
 (
@@ -2675,7 +2675,7 @@ char_type
 end
 =
 nullptr
-PRUint32
+uint32_t
 newSize
 =
 PR_UINT32_MAX
@@ -2688,7 +2688,7 @@ char_type
 )
 BeginWriting
 (
-PRUint32
+uint32_t
 aLen
 =
 PR_UINT32_MAX
@@ -2709,7 +2709,7 @@ bool
 )
 SetLength
 (
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -3041,7 +3041,7 @@ char_type
 *
 data
 ;
-PRUint32
+uint32_t
 dataLen
 =
 NS_CStringGetData
@@ -3484,7 +3484,7 @@ equal
 *
 /
 typedef
-PRInt32
+int32_t
 (
 *
 ComparatorFunc
@@ -3498,14 +3498,14 @@ const
 char_type
 *
 b
-PRUint32
+uint32_t
 length
 )
 ;
 static
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 DefaultComparator
 (
@@ -3517,13 +3517,13 @@ const
 char_type
 *
 b
-PRUint32
+uint32_t
 length
 )
 ;
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Compare
 (
@@ -3540,7 +3540,7 @@ const
 ;
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Compare
 (
@@ -3981,7 +3981,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Find
 (
@@ -4039,7 +4039,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Find
 (
@@ -4047,7 +4047,7 @@ const
 self_type
 &
 aStr
-PRUint32
+uint32_t
 aOffset
 ComparatorFunc
 c
@@ -4087,7 +4087,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Find
 (
@@ -4104,7 +4104,7 @@ const
 ;
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 Find
 (
@@ -4112,7 +4112,7 @@ const
 char_type
 *
 aStr
-PRUint32
+uint32_t
 aLen
 ComparatorFunc
 c
@@ -4161,7 +4161,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFind
 (
@@ -4255,7 +4255,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFind
 (
@@ -4263,7 +4263,7 @@ const
 self_type
 &
 aStr
-PRInt32
+int32_t
 aOffset
 ComparatorFunc
 c
@@ -4311,7 +4311,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFind
 (
@@ -4379,7 +4379,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFind
 (
@@ -4387,7 +4387,7 @@ const
 char_type
 *
 aStr
-PRInt32
+int32_t
 aLen
 ComparatorFunc
 c
@@ -4457,13 +4457,13 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 FindChar
 (
 char_type
 aChar
-PRUint32
+uint32_t
 aOffset
 =
 0
@@ -4516,7 +4516,7 @@ found
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 RFindChar
 (
@@ -4547,7 +4547,7 @@ AppendInt
 (
 int
 aInt
-PRInt32
+int32_t
 aRadix
 =
 10
@@ -4589,14 +4589,14 @@ or
 /
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 ToInteger
 (
 nsresult
 *
 aErrorCode
-PRUint32
+uint32_t
 aRadix
 =
 10
@@ -5113,7 +5113,7 @@ char_type
 aData
 size_type
 aLength
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -5376,7 +5376,7 @@ char_type
 aData
 size_type
 aLength
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -5706,7 +5706,7 @@ const
 char
 *
 aData
-PRUint32
+uint32_t
 aLength
 =
 PR_UINT32_MAX
@@ -5778,7 +5778,7 @@ const
 char
 *
 aData
-PRUint32
+uint32_t
 aLength
 =
 PR_UINT32_MAX
@@ -5850,7 +5850,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 =
 PR_UINT32_MAX
@@ -5922,7 +5922,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 =
 PR_UINT32_MAX
@@ -6114,7 +6114,7 @@ char_type
 (
 s
 )
-PRUint32
+uint32_t
 (
 (
 sizeof
@@ -6149,7 +6149,7 @@ char_type
 (
 s
 )
-PRUint32
+uint32_t
 (
 (
 sizeof
@@ -6186,7 +6186,7 @@ char_type
 (
 s
 )
-PRUint32
+uint32_t
 (
 (
 sizeof
@@ -6222,7 +6222,7 @@ s
 NS_ConvertASCIItoUTF16
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -6242,7 +6242,7 @@ s
 n
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -6264,7 +6264,7 @@ NS_ConvertASCIItoUTF16
 n
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -6488,7 +6488,7 @@ nsDependentCString
 nsDependentCString
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -6509,7 +6509,7 @@ s
 n
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -6531,7 +6531,7 @@ nsDependentCString
 n
 (
 s
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -6803,7 +6803,7 @@ const
 char_type
 *
 aStart
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -6825,7 +6825,7 @@ const
 abstract_string_type
 &
 aStr
-PRUint32
+uint32_t
 aStartPos
 )
 ;
@@ -6835,9 +6835,9 @@ const
 abstract_string_type
 &
 aStr
-PRUint32
+uint32_t
 aStartPos
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -6848,7 +6848,7 @@ const
 char_type
 *
 aStart
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -6932,7 +6932,7 @@ const
 char_type
 *
 aStart
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -6954,7 +6954,7 @@ const
 abstract_string_type
 &
 aStr
-PRUint32
+uint32_t
 aStartPos
 )
 ;
@@ -6964,9 +6964,9 @@ const
 abstract_string_type
 &
 aStr
-PRUint32
+uint32_t
 aStartPos
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -6977,7 +6977,7 @@ const
 char_type
 *
 aStart
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -7039,7 +7039,7 @@ const
 nsAString
 &
 str
-PRUint32
+uint32_t
 startPos
 )
 {
@@ -7060,9 +7060,9 @@ const
 nsAString
 &
 str
-PRUint32
+uint32_t
 startPos
-PRUint32
+uint32_t
 length
 )
 {
@@ -7092,7 +7092,7 @@ end
 {
 NS_ABORT_IF_FALSE
 (
-PRUint32
+uint32_t
 (
 end
 -
@@ -7117,7 +7117,7 @@ return
 nsDependentSubstring
 (
 start
-PRUint32
+uint32_t
 (
 end
 -
@@ -7135,7 +7135,7 @@ const
 PRUnichar
 *
 start
-PRUint32
+uint32_t
 length
 )
 {
@@ -7156,7 +7156,7 @@ const
 nsAString
 &
 str
-PRUint32
+uint32_t
 count
 )
 {
@@ -7178,7 +7178,7 @@ const
 nsAString
 &
 str
-PRUint32
+uint32_t
 count
 )
 {
@@ -7209,7 +7209,7 @@ const
 nsACString
 &
 str
-PRUint32
+uint32_t
 startPos
 )
 {
@@ -7230,9 +7230,9 @@ const
 nsACString
 &
 str
-PRUint32
+uint32_t
 startPos
-PRUint32
+uint32_t
 length
 )
 {
@@ -7262,7 +7262,7 @@ end
 {
 NS_ABORT_IF_FALSE
 (
-PRUint32
+uint32_t
 (
 end
 -
@@ -7287,7 +7287,7 @@ return
 nsDependentCSubstring
 (
 start
-PRUint32
+uint32_t
 (
 end
 -
@@ -7305,7 +7305,7 @@ const
 char
 *
 start
-PRUint32
+uint32_t
 length
 )
 {
@@ -7326,7 +7326,7 @@ const
 nsACString
 &
 str
-PRUint32
+uint32_t
 count
 )
 {
@@ -7348,7 +7348,7 @@ const
 nsACString
 &
 str
-PRUint32
+uint32_t
 count
 )
 {
@@ -7684,7 +7684,7 @@ length
 /
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 ToLowerCase
 (
@@ -7695,7 +7695,7 @@ aStr
 ;
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 ToUpperCase
 (
@@ -7706,7 +7706,7 @@ aStr
 ;
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 ToLowerCase
 (
@@ -7721,7 +7721,7 @@ aDest
 ;
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 ToUpperCase
 (

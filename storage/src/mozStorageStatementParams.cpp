@@ -619,7 +619,7 @@ aCtx
 JSObject
 *
 aScopeObj
-PRUint32
+uint32_t
 aEnumOp
 jsval
 *
@@ -718,12 +718,12 @@ in
 range
 first
 .
-PRUint32
+uint32_t
 index
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 JSVAL_TO_INT
@@ -923,7 +923,7 @@ JSObject
 aScopeObj
 jsid
 aId
-PRUint32
+uint32_t
 aFlags
 JSObject
 *
@@ -995,7 +995,7 @@ aId
 )
 )
 {
-PRUint32
+uint32_t
 idx
 =
 JSID_TO_INT
@@ -1133,7 +1133,7 @@ nameChars
 nameLength
 )
 ;
-PRUint32
+uint32_t
 idx
 ;
 nsresult

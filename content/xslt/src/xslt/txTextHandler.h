@@ -133,7 +133,7 @@ mValue
 ;
 private
 :
-PRUint32
+uint32_t
 mLevel
 ;
 bool

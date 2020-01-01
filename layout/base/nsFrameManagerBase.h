@@ -347,7 +347,7 @@ aRootFrame
 ;
 }
 static
-PRUint32
+uint32_t
 GetGlobalGenerationNumber
 (
 )
@@ -491,7 +491,7 @@ nsPresContext
 :
 GetDOMGeneration
 static
-PRUint32
+uint32_t
 sGlobalGenerationNumber
 ;
 }

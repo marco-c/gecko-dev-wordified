@@ -232,7 +232,7 @@ NS_DECL_ISUPPORTS_INHERITED
 bool
 PollIdleTime
 (
-PRUint32
+uint32_t
 *
 aIdleTime
 )

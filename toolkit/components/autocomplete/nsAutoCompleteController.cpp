@@ -431,7 +431,7 @@ nsAutoCompleteController
 :
 GetSearchStatus
 (
-PRUint16
+uint16_t
 *
 aSearchStatus
 )
@@ -451,7 +451,7 @@ nsAutoCompleteController
 :
 GetMatchCount
 (
-PRUint32
+uint32_t
 *
 aMatchCount
 )
@@ -676,7 +676,7 @@ list
 of
 search
 objects
-PRUint32
+uint32_t
 searchCount
 ;
 aInput
@@ -722,7 +722,7 @@ kAutoCompleteSearchCID
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -829,7 +829,7 @@ Count
 immediate
 searches
 .
-PRUint16
+uint16_t
 searchType
 =
 nsIAutoCompleteSearchDescriptor
@@ -1544,7 +1544,7 @@ if
 popup
 )
 {
-PRInt32
+int32_t
 selectedIndex
 ;
 popup
@@ -1900,7 +1900,7 @@ nsAutoCompleteController
 :
 HandleKeyNavigation
 (
-PRUint32
+uint32_t
 aKey
 bool
 *
@@ -2278,7 +2278,7 @@ if
 completeSelection
 )
 {
-PRInt32
+int32_t
 selectedIndex
 ;
 popup
@@ -2452,7 +2452,7 @@ field
 /
 otherwise
 .
-PRInt32
+int32_t
 start
 end
 ;
@@ -2555,7 +2555,7 @@ end
 end
 <
 (
-PRInt32
+int32_t
 )
 text
 .
@@ -2759,7 +2759,7 @@ if
 isOpen
 )
 {
-PRInt32
+int32_t
 selectedIndex
 ;
 popup
@@ -3148,7 +3148,7 @@ popup
 )
 )
 ;
-PRInt32
+int32_t
 index
 searchIndex
 rowIndex
@@ -3314,7 +3314,7 @@ index
 >
 =
 (
-PRInt32
+int32_t
 )
 mRowCount
 )
@@ -3459,18 +3459,18 @@ nsAutoCompleteController
 :
 GetResultAt
 (
-PRInt32
+int32_t
 aIndex
 nsIAutoCompleteResult
 *
 *
 aResult
-PRInt32
+int32_t
 *
 aRowIndex
 )
 {
-PRInt32
+int32_t
 searchIndex
 ;
 RowIndexToSearch
@@ -3522,7 +3522,7 @@ nsAutoCompleteController
 :
 GetValueAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -3546,7 +3546,7 @@ nsAutoCompleteController
 :
 GetLabelAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -3570,14 +3570,14 @@ nsAutoCompleteController
 :
 GetCommentAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
 _retval
 )
 {
-PRInt32
+int32_t
 rowIndex
 ;
 nsIAutoCompleteResult
@@ -3619,14 +3619,14 @@ nsAutoCompleteController
 :
 GetStyleAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
 _retval
 )
 {
-PRInt32
+int32_t
 rowIndex
 ;
 nsIAutoCompleteResult
@@ -3668,14 +3668,14 @@ nsAutoCompleteController
 :
 GetImageAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
 _retval
 )
 {
-PRInt32
+int32_t
 rowIndex
 ;
 nsIAutoCompleteResult
@@ -3879,7 +3879,7 @@ search
 which
 is
 returning
-PRUint32
+uint32_t
 count
 =
 mSearches
@@ -3890,7 +3890,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4163,7 +4163,7 @@ nsAutoCompleteController
 :
 GetRowCount
 (
-PRInt32
+int32_t
 *
 aRowCount
 )
@@ -4183,7 +4183,7 @@ nsAutoCompleteController
 :
 GetRowProperties
 (
-PRInt32
+int32_t
 index
 nsISupportsArray
 *
@@ -4200,7 +4200,7 @@ nsAutoCompleteController
 :
 GetCellProperties
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4287,7 +4287,7 @@ nsAutoCompleteController
 :
 GetImageSrc
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4342,12 +4342,12 @@ nsAutoCompleteController
 :
 GetProgressMode
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
 col
-PRInt32
+int32_t
 *
 _retval
 )
@@ -4373,7 +4373,7 @@ nsAutoCompleteController
 :
 GetCellValue
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4405,7 +4405,7 @@ nsAutoCompleteController
 :
 GetCellText
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4480,7 +4480,7 @@ nsAutoCompleteController
 :
 IsContainer
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -4502,7 +4502,7 @@ nsAutoCompleteController
 :
 IsContainerOpen
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -4528,7 +4528,7 @@ nsAutoCompleteController
 :
 IsContainerEmpty
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -4554,9 +4554,9 @@ nsAutoCompleteController
 :
 GetLevel
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 *
 _retval
 )
@@ -4576,9 +4576,9 @@ nsAutoCompleteController
 :
 GetParentIndex
 (
-PRInt32
+int32_t
 rowIndex
-PRInt32
+int32_t
 *
 _retval
 )
@@ -4599,9 +4599,9 @@ nsAutoCompleteController
 :
 HasNextSibling
 (
-PRInt32
+int32_t
 rowIndex
-PRInt32
+int32_t
 afterIndex
 bool
 *
@@ -4623,7 +4623,7 @@ nsAutoCompleteController
 :
 ToggleOpenState
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -4714,7 +4714,7 @@ nsAutoCompleteController
 :
 SetCellValue
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4735,7 +4735,7 @@ nsAutoCompleteController
 :
 SetCellText
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4771,7 +4771,7 @@ nsAutoCompleteController
 :
 CycleCell
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4788,7 +4788,7 @@ nsAutoCompleteController
 :
 IsEditable
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4813,7 +4813,7 @@ nsAutoCompleteController
 :
 IsSelectable
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4838,7 +4838,7 @@ nsAutoCompleteController
 :
 IsSeparator
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -4880,9 +4880,9 @@ nsAutoCompleteController
 :
 CanDrop
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 orientation
 nsIDOMDataTransfer
 *
@@ -4902,9 +4902,9 @@ nsAutoCompleteController
 :
 Drop
 (
-PRInt32
+int32_t
 row
-PRInt32
+int32_t
 orientation
 nsIDOMDataTransfer
 *
@@ -4941,7 +4941,7 @@ const
 PRUnichar
 *
 action
-PRInt32
+int32_t
 row
 )
 {
@@ -4959,7 +4959,7 @@ const
 PRUnichar
 *
 action
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -5055,7 +5055,7 @@ OpenPopup
 (
 )
 {
-PRUint32
+uint32_t
 minResults
 ;
 mInput
@@ -5298,7 +5298,7 @@ nsAutoCompleteController
 :
 StartSearch
 (
-PRUint16
+uint16_t
 aSearchType
 )
 {
@@ -5317,7 +5317,7 @@ mInput
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5371,7 +5371,7 @@ consider
 them
 delayed
 .
-PRUint16
+uint16_t
 searchType
 =
 nsIAutoCompleteSearchDescriptor
@@ -5428,7 +5428,7 @@ if
 result
 )
 {
-PRUint16
+uint16_t
 searchResult
 ;
 result
@@ -5700,7 +5700,7 @@ nsIAutoCompleteController
 STATUS_SEARCHING
 )
 {
-PRUint32
+uint32_t
 count
 =
 mSearches
@@ -5711,7 +5711,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5861,7 +5861,7 @@ for
 delayed
 searches
 .
-PRUint32
+uint32_t
 timeout
 ;
 mInput
@@ -5873,7 +5873,7 @@ GetTimeout
 timeout
 )
 ;
-PRUint32
+uint32_t
 immediateSearchesCount
 =
 mImmediateSearchesCount
@@ -6247,7 +6247,7 @@ GetCompleteSelectedIndex
 completeSelection
 )
 ;
-PRInt32
+int32_t
 selectedIndex
 ;
 popup
@@ -6465,7 +6465,7 @@ and
 enter
 it
 instead
-PRUint32
+uint32_t
 count
 =
 mResults
@@ -6476,7 +6476,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6504,7 +6504,7 @@ if
 result
 )
 {
-PRInt32
+int32_t
 defaultIndex
 ;
 result
@@ -6884,7 +6884,7 @@ nsAutoCompleteController
 :
 ProcessResult
 (
-PRInt32
+int32_t
 aSearchIndex
 nsIAutoCompleteResult
 *
@@ -6941,7 +6941,7 @@ mFirstSearchResult
 false
 ;
 }
-PRUint16
+uint16_t
 result
 =
 0
@@ -6996,12 +6996,12 @@ RESULT_NOMATCH_ONGOING
 mSearchesOngoing
 ;
 }
-PRUint32
+uint32_t
 oldMatchCount
 =
 0
 ;
-PRUint32
+uint32_t
 matchCount
 =
 0
@@ -7019,7 +7019,7 @@ GetMatchCount
 matchCount
 )
 ;
-PRInt32
+int32_t
 resultIndex
 =
 mResults
@@ -7111,7 +7111,7 @@ if
 isTypeAheadResult
 )
 {
-PRUint32
+uint32_t
 oldRowCount
 =
 mRowCount
@@ -7456,7 +7456,7 @@ input
 mInput
 )
 ;
-PRUint32
+uint32_t
 minResults
 ;
 mInput
@@ -7546,7 +7546,7 @@ ClearResults
 (
 )
 {
-PRInt32
+int32_t
 oldRowCount
 =
 mRowCount
@@ -7685,7 +7685,7 @@ nsAutoCompleteController
 :
 CompleteDefaultIndex
 (
-PRInt32
+int32_t
 aResultIndex
 )
 {
@@ -7713,7 +7713,7 @@ mInput
 return
 NS_OK
 ;
-PRInt32
+int32_t
 selectionStart
 ;
 mInput
@@ -7725,7 +7725,7 @@ GetSelectionStart
 selectionStart
 )
 ;
-PRInt32
+int32_t
 selectionEnd
 ;
 mInput
@@ -7783,7 +7783,7 @@ selectionEnd
 !
 =
 (
-PRInt32
+int32_t
 )
 mSearchString
 .
@@ -7848,13 +7848,13 @@ nsAutoCompleteController
 :
 GetDefaultCompleteResult
 (
-PRInt32
+int32_t
 aResultIndex
 nsIAutoCompleteResult
 *
 *
 _result
-PRInt32
+int32_t
 *
 _defaultIndex
 )
@@ -7865,7 +7865,7 @@ _defaultIndex
 -
 1
 ;
-PRInt32
+int32_t
 resultIndex
 =
 aResultIndex
@@ -7887,7 +7887,7 @@ result
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -8083,7 +8083,7 @@ an
 empty
 value
 .
-PRUint32
+uint32_t
 matchCount
 =
 0
@@ -8119,7 +8119,7 @@ unsigned
 if
 (
 (
-PRUint32
+uint32_t
 )
 (
 *
@@ -8144,7 +8144,7 @@ nsAutoCompleteController
 :
 GetDefaultCompleteValue
 (
-PRInt32
+int32_t
 aResultIndex
 bool
 aPreserveCasing
@@ -8157,7 +8157,7 @@ nsIAutoCompleteResult
 *
 result
 ;
-PRInt32
+int32_t
 defaultIndex
 =
 -
@@ -8391,7 +8391,7 @@ nsIAutoCompleteResult
 *
 result
 ;
-PRInt32
+int32_t
 defaultIndex
 =
 -
@@ -8634,7 +8634,7 @@ mSearchString
 /
 {
 const
-PRInt32
+int32_t
 mSearchStringLength
 =
 mSearchString
@@ -8643,7 +8643,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 endSelect
 =
 aValue
@@ -8831,7 +8831,7 @@ user
 expected
 .
 const
-PRInt32
+int32_t
 findIndex
 =
 7
@@ -9023,7 +9023,7 @@ nsAutoCompleteController
 :
 GetResultLabelAt
 (
-PRInt32
+int32_t
 aIndex
 bool
 aValueOnly
@@ -9048,7 +9048,7 @@ nsAutoCompleteController
 :
 GetResultValueAt
 (
-PRInt32
+int32_t
 aIndex
 bool
 aValueOnly
@@ -9073,7 +9073,7 @@ nsAutoCompleteController
 :
 GetResultValueLabelAt
 (
-PRInt32
+int32_t
 aIndex
 bool
 aValueOnly
@@ -9093,7 +9093,7 @@ aIndex
 &
 &
 (
-PRUint32
+uint32_t
 )
 aIndex
 <
@@ -9101,7 +9101,7 @@ mRowCount
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-PRInt32
+int32_t
 rowIndex
 ;
 nsIAutoCompleteResult
@@ -9126,7 +9126,7 @@ rv
 rv
 )
 ;
-PRUint16
+uint16_t
 searchResult
 ;
 result
@@ -9255,12 +9255,12 @@ nsAutoCompleteController
 :
 RowIndexToSearch
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 *
 aSearchIndex
-PRInt32
+int32_t
 *
 aItemIndex
 )
@@ -9277,7 +9277,7 @@ aItemIndex
 -
 1
 ;
-PRUint32
+uint32_t
 count
 =
 mSearches
@@ -9286,7 +9286,7 @@ Count
 (
 )
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -9312,7 +9312,7 @@ given
 row
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9344,7 +9344,7 @@ result
 )
 continue
 ;
-PRUint32
+uint32_t
 rowCount
 =
 0
@@ -9382,7 +9382,7 @@ if
 isTypeAheadResult
 )
 {
-PRUint16
+uint16_t
 searchResult
 ;
 result
@@ -9493,7 +9493,7 @@ rowCount
 >
 =
 (
-PRUint32
+uint32_t
 )
 aRowIndex
 )

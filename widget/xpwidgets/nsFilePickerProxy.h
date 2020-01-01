@@ -223,7 +223,7 @@ const
 nsAString
 &
 title
-PRInt16
+int16_t
 mode
 )
 ;
@@ -277,7 +277,7 @@ aDefaultExtension
 NS_IMETHODIMP
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -285,7 +285,7 @@ aFilterIndex
 NS_IMETHODIMP
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 ;
@@ -319,7 +319,7 @@ aFiles
 NS_IMETHODIMP
 Show
 (
-PRInt16
+int16_t
 *
 aReturn
 )
@@ -349,10 +349,10 @@ nsIFile
 >
 mFiles
 ;
-PRInt16
+int16_t
 mMode
 ;
-PRInt16
+int16_t
 mSelectedType
 ;
 nsString

@@ -205,7 +205,7 @@ is
 stored
 as
 a
-PRInt64
+int64_t
 in
 units
 of
@@ -900,7 +900,7 @@ static
 TimeDuration
 FromTicks
 (
-PRInt64
+int64_t
 aTicks
 )
 {
@@ -937,7 +937,7 @@ a
 =
 test
 because
-PRInt64
+int64_t
 (
 double
 (
@@ -1005,7 +1005,7 @@ TimeDuration
 :
 FromTicks
 (
-PRInt64
+int64_t
 (
 aTicks
 )
@@ -1018,7 +1018,7 @@ Duration
 in
 PRIntervalTime
 units
-PRInt64
+int64_t
 mValue
 ;
 }
@@ -1537,10 +1537,10 @@ LL_MAXINT
 LL_MININT
 )
 ;
-PRInt64
+int64_t
 ticks
 =
-PRInt64
+int64_t
 (
 mValue
 -
@@ -2179,7 +2179,7 @@ TimeStamp
 ;
 TimeStamp
 (
-PRUint64
+uint64_t
 aValue
 )
 :
@@ -2314,7 +2314,7 @@ dependent
 .
 *
 /
-PRUint64
+uint64_t
 mValue
 ;
 }

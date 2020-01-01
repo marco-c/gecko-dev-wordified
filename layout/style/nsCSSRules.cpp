@@ -646,7 +646,7 @@ nsIDOMCSSRule
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -765,7 +765,7 @@ GroupRuleRuleList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -779,7 +779,7 @@ mGroupRule
 aLength
 =
 (
-PRUint32
+uint32_t
 )
 mGroupRule
 -
@@ -808,7 +808,7 @@ GroupRuleRuleList
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -864,7 +864,7 @@ GroupRuleRuleList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMCSSRule
 *
@@ -1115,7 +1115,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -1125,7 +1125,7 @@ const
 Indent
 for
 (
-PRInt32
+int32_t
 indent
 =
 aIndent
@@ -1187,7 +1187,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 CharsetRule
 :
 :
@@ -1286,7 +1286,7 @@ CharsetRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -1757,7 +1757,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -1767,7 +1767,7 @@ const
 Indent
 for
 (
-PRInt32
+int32_t
 indent
 =
 aIndent
@@ -1860,7 +1860,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 ImportRule
 :
 :
@@ -2016,7 +2016,7 @@ ImportRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -2669,7 +2669,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -2686,7 +2686,7 @@ out
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -2726,7 +2726,7 @@ aIndent
 }
 for
 (
-PRInt32
+int32_t
 indent
 =
 aIndent
@@ -2814,7 +2814,7 @@ GroupRule
 :
 GetStyleRuleAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -2916,7 +2916,7 @@ GroupRule
 :
 DeleteStyleRuleAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2972,7 +2972,7 @@ GroupRule
 :
 InsertStyleRulesAt
 (
-PRUint32
+uint32_t
 aIndex
 nsCOMArray
 <
@@ -3032,7 +3032,7 @@ Rule
 aNew
 )
 {
-PRInt32
+int32_t
 index
 =
 mRules
@@ -3126,7 +3126,7 @@ the
 rules
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -3279,9 +3279,9 @@ const
 nsAString
 &
 aRule
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -3296,7 +3296,7 @@ if
 (
 aIndex
 >
-PRUint32
+uint32_t
 (
 mRules
 .
@@ -3310,7 +3310,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 mRules
 .
@@ -3349,7 +3349,7 @@ GroupRule
 :
 DeleteRule
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -3364,7 +3364,7 @@ if
 aIndex
 >
 =
-PRUint32
+uint32_t
 (
 mRules
 .
@@ -3378,7 +3378,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 mRules
 .
@@ -3732,14 +3732,14 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
 for
 (
-PRInt32
+int32_t
 indent
 =
 aIndent
@@ -3817,7 +3817,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 MediaRule
 :
 :
@@ -3912,7 +3912,7 @@ MediaRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -4114,9 +4114,9 @@ const
 nsAString
 &
 aRule
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -4139,7 +4139,7 @@ MediaRule
 :
 DeleteRule
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -4394,14 +4394,14 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
 for
 (
-PRInt32
+int32_t
 indent
 =
 aIndent
@@ -4626,7 +4626,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 DocumentRule
 :
 :
@@ -4690,7 +4690,7 @@ DocumentRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -4973,9 +4973,9 @@ const
 nsAString
 &
 aRule
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -4998,7 +4998,7 @@ DocumentRule
 :
 DeleteRule
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -5158,7 +5158,7 @@ GetHost
 host
 )
 ;
-PRInt32
+int32_t
 lenDiff
 =
 host
@@ -5598,14 +5598,14 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
 for
 (
-PRInt32
+int32_t
 indent
 =
 aIndent
@@ -5710,7 +5710,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 NameSpaceRule
 :
 :
@@ -5770,7 +5770,7 @@ NameSpaceRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -6497,7 +6497,7 @@ static
 void
 AppendSerializedUnicodePoint
 (
-PRUint32
+uint32_t
 aCode
 nsACString
 &
@@ -6693,7 +6693,7 @@ array
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6712,7 +6712,7 @@ i
 2
 )
 {
-PRUint32
+uint32_t
 min
 =
 sources
@@ -6724,7 +6724,7 @@ GetIntValue
 (
 )
 ;
-PRUint32
+uint32_t
 max
 =
 sources
@@ -7806,12 +7806,12 @@ nsCSSFontFaceStyleDecl
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
 {
-PRUint32
+uint32_t
 len
 =
 0
@@ -7894,14 +7894,14 @@ nsCSSFontFaceStyleDecl
 :
 Item
 (
-PRUint32
+uint32_t
 index
 nsAString
 &
 aResult
 )
 {
-PRInt32
+int32_t
 nset
 =
 -
@@ -7966,7 +7966,7 @@ if
 nset
 =
 =
-PRInt32
+int32_t
 (
 index
 )
@@ -8431,7 +8431,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -8442,7 +8442,7 @@ descInd
 ;
 for
 (
-PRInt32
+int32_t
 indent
 =
 aIndent
@@ -8669,7 +8669,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 nsCSSFontFaceRule
 :
 :
@@ -8691,7 +8691,7 @@ nsCSSFontFaceRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -9613,7 +9613,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -9632,7 +9632,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 nsCSSKeyframeRule
 :
 :
@@ -9654,7 +9654,7 @@ nsCSSKeyframeRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -9815,7 +9815,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -10362,7 +10362,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -10381,7 +10381,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 nsCSSKeyframesRule
 :
 :
@@ -10403,7 +10403,7 @@ nsCSSKeyframesRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -10463,7 +10463,7 @@ tmp
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10782,16 +10782,16 @@ NS_OK
 }
 static
 const
-PRUint32
+uint32_t
 RULE_NOT_FOUND
 =
-PRUint32
+uint32_t
 (
 -
 1
 )
 ;
-PRUint32
+uint32_t
 nsCSSKeyframesRule
 :
 :
@@ -10932,7 +10932,7 @@ style
 html
 for
 (
-PRUint32
+uint32_t
 i
 =
 mRules
@@ -10995,7 +10995,7 @@ nsAString
 aKey
 )
 {
-PRUint32
+uint32_t
 index
 =
 FindRuleIndexForKey
@@ -11052,7 +11052,7 @@ nsIDOMMozCSSKeyframeRule
 aResult
 )
 {
-PRUint32
+uint32_t
 index
 =
 FindRuleIndexForKey
@@ -11275,14 +11275,14 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
 for
 (
-PRInt32
+int32_t
 indent
 =
 aIndent
@@ -11346,7 +11346,7 @@ endif
 virtual
 *
 /
-PRInt32
+int32_t
 CSSSupportsRule
 :
 :
@@ -11490,7 +11490,7 @@ CSSSupportsRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -11700,9 +11700,9 @@ const
 nsAString
 &
 aRule
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -11728,7 +11728,7 @@ CSSSupportsRule
 :
 DeleteRule
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

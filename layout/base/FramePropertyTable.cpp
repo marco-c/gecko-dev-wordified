@@ -981,7 +981,7 @@ index
 .
 mValue
 ;
-PRUint32
+uint32_t
 last
 =
 array
@@ -1195,7 +1195,7 @@ ToArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

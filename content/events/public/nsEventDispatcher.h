@@ -502,7 +502,7 @@ bits
 *
 note
 Using
-PRUint16
+uint16_t
 because
 that
 is
@@ -513,7 +513,7 @@ nsEventTargetChainItem
 .
 *
 /
-PRUint16
+uint16_t
 mItemFlags
 ;
 /

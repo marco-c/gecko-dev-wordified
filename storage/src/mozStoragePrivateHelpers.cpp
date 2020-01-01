@@ -822,7 +822,7 @@ msecd
 .
 0
 ;
-PRInt64
+int64_t
 msec
 ;
 LL_D2L

@@ -2683,9 +2683,9 @@ aMask
 IDirect3DDevice9
 *
 aDevice
-PRUint32
+uint32_t
 aMaskQuadTexture
-PRUint32
+uint32_t
 aMaskTexRegister
 )
 {
@@ -2879,12 +2879,12 @@ genshaders
 sh
 )
 const
-PRUint32
+uint32_t
 maskQuadRegister
 =
 11
 ;
-PRUint32
+uint32_t
 maskTexRegister
 ;
 switch

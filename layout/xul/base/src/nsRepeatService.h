@@ -214,7 +214,7 @@ aCallback
 void
 *
 aData
-PRUint32
+uint32_t
 aInitialDelay
 =
 INITAL_REPEAT_DELAY

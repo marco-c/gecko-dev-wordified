@@ -180,7 +180,7 @@ overflow
 *
 /
 typedef
-PRInt32
+int32_t
 TrackRate
 ;
 const
@@ -241,7 +241,7 @@ allowed
 *
 /
 typedef
-PRInt32
+int32_t
 TrackID
 ;
 const
@@ -1942,7 +1942,7 @@ Track
 *
 mBuffer
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 MediaSegment

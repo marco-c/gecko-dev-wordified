@@ -124,7 +124,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -162,7 +162,7 @@ aChunkStr
 AppendInt
 (
 (
-PRInt32
+int32_t
 )
 mChunks
 [
@@ -170,12 +170,12 @@ i
 ]
 )
 ;
-PRUint32
+uint32_t
 first
 =
 i
 ;
-PRUint32
+uint32_t
 last
 =
 first
@@ -256,7 +256,7 @@ aChunkStr
 AppendInt
 (
 (
-PRInt32
+int32_t
 )
 mChunks
 [
@@ -276,11 +276,11 @@ ChunkSet
 :
 Set
 (
-PRUint32
+uint32_t
 aChunk
 )
 {
-PRUint32
+uint32_t
 idx
 =
 mChunks
@@ -322,7 +322,7 @@ ChunkSet
 :
 Unset
 (
-PRUint32
+uint32_t
 aChunk
 )
 {
@@ -343,7 +343,7 @@ ChunkSet
 :
 Has
 (
-PRUint32
+uint32_t
 aChunk
 )
 const

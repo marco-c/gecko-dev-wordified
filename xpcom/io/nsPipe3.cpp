@@ -712,7 +712,7 @@ mBlocking
 aNonBlocking
 ;
 }
-PRUint32
+uint32_t
 Available
 (
 )
@@ -724,7 +724,7 @@ mAvailable
 void
 ReduceAvailable
 (
-PRUint32
+uint32_t
 avail
 )
 {
@@ -781,7 +781,7 @@ any
 bool
 OnInputReadable
 (
-PRUint32
+uint32_t
 bytesWritten
 nsPipeEvents
 &
@@ -817,7 +817,7 @@ consumer
 nsrefcnt
 mReaderRefCnt
 ;
-PRInt64
+int64_t
 mLogicalOffset
 ;
 bool
@@ -841,7 +841,7 @@ monitor
 bool
 mBlocked
 ;
-PRUint32
+uint32_t
 mAvailable
 ;
 nsCOMPtr
@@ -850,7 +850,7 @@ nsIInputStreamCallback
 >
 mCallback
 ;
-PRUint32
+uint32_t
 mCallbackFlags
 ;
 }
@@ -1190,7 +1190,7 @@ producer
 nsrefcnt
 mWriterRefCnt
 ;
-PRInt64
+int64_t
 mLogicalOffset
 ;
 bool
@@ -1223,7 +1223,7 @@ nsIOutputStreamCallback
 >
 mCallback
 ;
-PRUint32
+uint32_t
 mCallbackFlags
 ;
 }
@@ -1366,7 +1366,7 @@ monitor
 void
 PeekSegment
 (
-PRUint32
+uint32_t
 n
 char
 *
@@ -1404,7 +1404,7 @@ char
 *
 &
 segment
-PRUint32
+uint32_t
 &
 segmentLen
 )
@@ -1412,7 +1412,7 @@ segmentLen
 void
 AdvanceReadCursor
 (
-PRUint32
+uint32_t
 count
 )
 ;
@@ -1423,7 +1423,7 @@ char
 *
 &
 segment
-PRUint32
+uint32_t
 &
 segmentLen
 )
@@ -1431,7 +1431,7 @@ segmentLen
 void
 AdvanceWriteCursor
 (
-PRUint32
+uint32_t
 count
 )
 ;
@@ -1504,7 +1504,7 @@ char
 *
 mReadLimit
 ;
-PRInt32
+int32_t
 mWriteSegment
 ;
 char
@@ -2343,9 +2343,9 @@ bool
 nonBlockingIn
 bool
 nonBlockingOut
-PRUint32
+uint32_t
 segmentSize
-PRUint32
+uint32_t
 segmentCount
 nsIMemory
 *
@@ -2383,10 +2383,10 @@ DEFAULT_SEGMENT_COUNT
 protect
 against
 overflow
-PRUint32
+uint32_t
 maxCount
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -2508,7 +2508,7 @@ nsPipe
 :
 PeekSegment
 (
-PRUint32
+uint32_t
 index
 char
 *
@@ -2556,7 +2556,7 @@ mReadLimit
 }
 else
 {
-PRUint32
+uint32_t
 numSegments
 =
 mBuffer
@@ -2595,7 +2595,7 @@ mWriteSegment
 =
 =
 (
-PRInt32
+int32_t
 )
 index
 )
@@ -2628,7 +2628,7 @@ char
 *
 &
 segment
-PRUint32
+uint32_t
 &
 segmentLen
 )
@@ -2676,7 +2676,7 @@ nsPipe
 :
 AdvanceReadCursor
 (
-PRUint32
+uint32_t
 bytesRead
 )
 {
@@ -3042,7 +3042,7 @@ char
 *
 &
 segment
-PRUint32
+uint32_t
 &
 segmentLen
 )
@@ -3290,7 +3290,7 @@ nsPipe
 :
 AdvanceWriteCursor
 (
-PRUint32
+uint32_t
 bytesWritten
 )
 {
@@ -4404,7 +4404,7 @@ nsPipeInputStream
 :
 OnInputReadable
 (
-PRUint32
+uint32_t
 bytesWritten
 nsPipeEvents
 &
@@ -4710,7 +4710,7 @@ nsPipeInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 result
 )
@@ -4763,7 +4763,7 @@ mStatus
 result
 =
 (
-PRUint64
+uint64_t
 )
 mAvailable
 ;
@@ -4782,9 +4782,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 readCount
 )
@@ -4823,7 +4823,7 @@ char
 *
 segment
 ;
-PRUint32
+uint32_t
 segmentLen
 ;
 *
@@ -4982,7 +4982,7 @@ segmentLen
 =
 count
 ;
-PRUint32
+uint32_t
 writeCount
 originalLen
 =
@@ -5129,9 +5129,9 @@ Read
 char
 *
 toBuf
-PRUint32
+uint32_t
 bufLen
-PRUint32
+uint32_t
 *
 readCount
 )
@@ -5176,9 +5176,9 @@ AsyncWait
 nsIInputStreamCallback
 *
 callback
-PRUint32
+uint32_t
 flags
-PRUint32
+uint32_t
 requestedCount
 nsIEventTarget
 *
@@ -5358,9 +5358,9 @@ nsPipeInputStream
 :
 Seek
 (
-PRInt32
+int32_t
 whence
-PRInt64
+int64_t
 offset
 )
 {
@@ -5384,7 +5384,7 @@ nsPipeInputStream
 :
 Tell
 (
-PRInt64
+int64_t
 *
 offset
 )
@@ -5487,7 +5487,7 @@ char
 )
 s2
 (
-PRUint32
+uint32_t
 )
 i
 )
@@ -5511,7 +5511,7 @@ char
 )
 s2
 (
-PRUint32
+uint32_t
 )
 i
 )
@@ -5531,7 +5531,7 @@ ignoreCase
 bool
 *
 found
-PRUint32
+uint32_t
 *
 offsetSearchedTo
 )
@@ -5575,7 +5575,7 @@ cursor1
 *
 limit1
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -5583,7 +5583,7 @@ offset
 =
 0
 ;
-PRUint32
+uint32_t
 strLen
 =
 strlen
@@ -5653,7 +5653,7 @@ while
 true
 )
 {
-PRUint32
+uint32_t
 i
 len1
 =
@@ -5762,7 +5762,7 @@ cursor2
 *
 limit2
 ;
-PRUint32
+uint32_t
 len2
 ;
 index
@@ -5853,7 +5853,7 @@ the
 next
 buffer
 segment
-PRUint32
+uint32_t
 lim
 =
 NS_MIN
@@ -5879,7 +5879,7 @@ lim
 i
 )
 {
-PRUint32
+uint32_t
 strPart1Len
 =
 strLen
@@ -5888,7 +5888,7 @@ i
 -
 1
 ;
-PRUint32
+uint32_t
 strPart2Len
 =
 strLen
@@ -5908,7 +5908,7 @@ strLen
 strPart2Len
 ]
 ;
-PRUint32
+uint32_t
 bufSeg1Offset
 =
 len1
@@ -6641,9 +6641,9 @@ reader
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -6681,7 +6681,7 @@ char
 *
 segment
 ;
-PRUint32
+uint32_t
 segmentLen
 ;
 *
@@ -6814,7 +6814,7 @@ segmentLen
 =
 count
 ;
-PRUint32
+uint32_t
 readCount
 originalLen
 =
@@ -6965,11 +6965,11 @@ closure
 char
 *
 toRawSegment
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 readCount
 )
@@ -7016,9 +7016,9 @@ const
 char
 *
 fromBuf
-PRUint32
+uint32_t
 bufLen
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -7068,11 +7068,11 @@ closure
 char
 *
 toRawSegment
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 readCount
 )
@@ -7108,9 +7108,9 @@ WriteFrom
 nsIInputStream
 *
 fromStream
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -7155,9 +7155,9 @@ AsyncWait
 nsIOutputStreamCallback
 *
 callback
-PRUint32
+uint32_t
 flags
-PRUint32
+uint32_t
 requestedCount
 nsIEventTarget
 *
@@ -7422,9 +7422,9 @@ nsIOutputStream
 *
 *
 pipeOut
-PRUint32
+uint32_t
 segmentSize
-PRUint32
+uint32_t
 maxSize
 bool
 nonBlockingInput
@@ -7456,7 +7456,7 @@ as
 a
 special
 case
-PRUint32
+uint32_t
 segmentCount
 ;
 if
@@ -7540,9 +7540,9 @@ bool
 nonBlockingInput
 bool
 nonBlockingOutput
-PRUint32
+uint32_t
 segmentSize
-PRUint32
+uint32_t
 segmentCount
 nsIMemory
 *

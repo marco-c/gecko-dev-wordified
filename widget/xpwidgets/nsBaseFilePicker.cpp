@@ -382,7 +382,7 @@ it
 s
 done
 .
-PRInt16
+int16_t
 result
 ;
 nsresult
@@ -496,7 +496,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 {
@@ -588,7 +588,7 @@ nsBaseFilePicker
 :
 AppendFilters
 (
-PRInt32
+int32_t
 aFilterMask
 )
 {
@@ -1213,7 +1213,7 @@ nsBaseFilePicker
 :
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -1233,7 +1233,7 @@ nsBaseFilePicker
 :
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 {

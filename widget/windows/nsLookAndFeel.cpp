@@ -175,11 +175,11 @@ GetColorFromTheme
 (
 nsUXThemeClass
 cls
-PRInt32
+int32_t
 aPart
-PRInt32
+int32_t
 aState
-PRInt32
+int32_t
 aPropId
 nscolor
 &
@@ -232,12 +232,12 @@ NS_ERROR_FAILURE
 ;
 }
 static
-PRInt32
+int32_t
 GetSystemParam
 (
 long
 flag
-PRInt32
+int32_t
 def
 )
 {
@@ -1126,7 +1126,7 @@ GetIntImpl
 (
 IntID
 aID
-PRInt32
+int32_t
 &
 aResult
 )
@@ -1168,7 +1168,7 @@ eIntID_CaretBlinkTime
 aResult
 =
 (
-PRInt32
+int32_t
 )
 :
 :
@@ -1538,7 +1538,7 @@ aResult
 =
 0
 ;
-PRInt32
+int32_t
 touchCapabilities
 ;
 touchCapabilities

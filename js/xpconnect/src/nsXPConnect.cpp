@@ -332,7 +332,7 @@ gOnceAliveNowDead
 =
 false
 ;
-PRUint32
+uint32_t
 nsXPConnect
 :
 :
@@ -2011,7 +2011,7 @@ nsXPConnect
 :
 Collect
 (
-PRUint32
+uint32_t
 reason
 )
 {
@@ -2539,7 +2539,7 @@ nsXPConnect
 :
 GarbageCollect
 (
-PRUint32
+uint32_t
 reason
 )
 {
@@ -4617,7 +4617,7 @@ xpc_MarkInCCGeneration
 nsISupports
 *
 aVariant
-PRUint32
+uint32_t
 aGeneration
 )
 {
@@ -7389,7 +7389,7 @@ aCOMObj
 nsIPrincipal
 *
 aPrincipal
-PRUint32
+uint32_t
 aFlags
 nsIXPConnectJSObjectHolder
 *
@@ -10546,7 +10546,7 @@ scope
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10604,7 +10604,7 @@ in
 nsIXPCSecurityManager
 aManager
 in
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -10622,7 +10622,7 @@ aJSContext
 nsIXPCSecurityManager
 *
 aManager
-PRUint16
+uint16_t
 flags
 )
 {
@@ -10720,7 +10720,7 @@ out
 nsIXPCSecurityManager
 aManager
 out
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -10739,7 +10739,7 @@ nsIXPCSecurityManager
 *
 *
 aManager
-PRUint16
+uint16_t
 *
 flags
 )
@@ -10847,7 +10847,7 @@ in
 nsIXPCSecurityManager
 aManager
 in
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -10862,7 +10862,7 @@ SetDefaultSecurityManager
 nsIXPCSecurityManager
 *
 aManager
-PRUint16
+uint16_t
 flags
 )
 {
@@ -10932,7 +10932,7 @@ out
 nsIXPCSecurityManager
 aManager
 out
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -10948,7 +10948,7 @@ nsIXPCSecurityManager
 *
 *
 aManager
-PRUint16
+uint16_t
 *
 flags
 )
@@ -10996,7 +10996,7 @@ nsIStackFrame
 createStackFrameLocation
 (
 in
-PRUint32
+uint32_t
 aLanguage
 in
 string
@@ -11005,7 +11005,7 @@ in
 string
 aFunctionName
 in
-PRInt32
+int32_t
 aLineNumber
 in
 nsIStackFrame
@@ -11020,7 +11020,7 @@ nsXPConnect
 :
 CreateStackFrameLocation
 (
-PRUint32
+uint32_t
 aLanguage
 const
 char
@@ -11030,7 +11030,7 @@ const
 char
 *
 aFunctionName
-PRInt32
+int32_t
 aLineNumber
 nsIStackFrame
 *
@@ -11160,7 +11160,7 @@ frames
 .
 .
 .
-PRUint32
+uint32_t
 language
 ;
 nsCOMPtr
@@ -12189,7 +12189,7 @@ nsXPConnect
 :
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 {
@@ -12380,7 +12380,7 @@ DebugDumpObject
 nsISupports
 *
 p
-PRInt16
+int16_t
 depth
 )
 {
@@ -12860,7 +12860,7 @@ void
 debugDumpEvalInJSStackFrame
 (
 in
-PRUint32
+uint32_t
 aFrameNumber
 in
 string
@@ -12875,7 +12875,7 @@ nsXPConnect
 :
 DebugDumpEvalInJSStackFrame
 (
-PRUint32
+uint32_t
 aFrameNumber
 const
 char
@@ -13213,7 +13213,7 @@ nsIThreadInternal
 aThread
 bool
 aMayWait
-PRUint32
+uint32_t
 aRecursionDepth
 )
 {
@@ -13271,7 +13271,7 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 aThread
-PRUint32
+uint32_t
 aRecursionDepth
 )
 {
@@ -13728,7 +13728,7 @@ implementations
 *
 readonly
 attribute
-PRInt32
+int32_t
 Count
 ;
 *
@@ -13739,7 +13739,7 @@ nsXPConnect
 :
 GetCount
 (
-PRInt32
+int32_t
 *
 aCount
 )
@@ -14360,7 +14360,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16298,13 +16298,13 @@ NS_OK
 ;
 }
 const
-PRUint8
+uint8_t
 HAS_PRINCIPALS_FLAG
 =
 1
 ;
 const
-PRUint8
+uint8_t
 HAS_ORIGIN_PRINCIPALS_FLAG
 =
 2
@@ -16394,7 +16394,7 @@ script
 )
 )
 ;
-PRUint8
+uint8_t
 flags
 =
 0
@@ -16682,7 +16682,7 @@ scriptp
 functionObjp
 )
 ;
-PRUint8
+uint8_t
 flags
 ;
 nsresult
@@ -16815,7 +16815,7 @@ readOriginPrincipal
 )
 ;
 }
-PRUint32
+uint32_t
 size
 ;
 rv
@@ -17201,7 +17201,7 @@ void
 )
 DumpJSEval
 (
-PRUint32
+uint32_t
 frameno
 const
 char

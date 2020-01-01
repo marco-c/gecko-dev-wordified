@@ -313,7 +313,7 @@ false
 static
 *
 /
-PRInt32
+int32_t
 nsRefreshDriver
 :
 :
@@ -348,7 +348,7 @@ in
 /
 /
 milliseconds
-PRInt32
+int32_t
 nsRefreshDriver
 :
 :
@@ -376,7 +376,7 @@ layout
 frame_rate
 "
 ;
-PRInt32
+int32_t
 rate
 =
 Preferences
@@ -430,7 +430,7 @@ here
 "
 )
 ;
-PRInt32
+int32_t
 interval
 =
 NSToIntRound
@@ -466,7 +466,7 @@ return
 interval
 ;
 }
-PRInt32
+int32_t
 nsRefreshDriver
 :
 :
@@ -615,7 +615,7 @@ nsRefreshDriver
 :
 AdvanceTimeAndRefresh
 (
-PRInt64
+int64_t
 aMilliseconds
 )
 {
@@ -738,7 +738,7 @@ return
 mMostRecentRefresh
 ;
 }
-PRInt64
+int64_t
 nsRefreshDriver
 :
 :
@@ -1077,7 +1077,7 @@ mTimer
 return
 ;
 }
-PRInt32
+int32_t
 timerType
 =
 GetRefreshTimerType
@@ -1154,7 +1154,7 @@ mTimer
 nullptr
 ;
 }
-PRUint32
+uint32_t
 nsRefreshDriver
 :
 :
@@ -1163,14 +1163,14 @@ ObserverCount
 )
 const
 {
-PRUint32
+uint32_t
 sum
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1282,7 +1282,7 @@ return
 sum
 ;
 }
-PRUint32
+uint32_t
 nsRefreshDriver
 :
 :
@@ -1736,7 +1736,7 @@ observers
 /
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1846,7 +1846,7 @@ frameRequestCallbacks
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1898,7 +1898,7 @@ Clear
 (
 )
 ;
-PRInt64
+int64_t
 eventTime
 =
 mMostRecentRefreshEpochTime
@@ -1907,7 +1907,7 @@ PR_USEC_PER_MSEC
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1978,7 +1978,7 @@ mStyleFlushObservers
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 observers
@@ -2134,7 +2134,7 @@ mLayoutFlushObservers
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 observers

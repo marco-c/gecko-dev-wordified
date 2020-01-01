@@ -173,7 +173,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 const
 nsRect
@@ -194,7 +194,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -210,7 +210,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntSize
 *
@@ -226,7 +226,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIAtom
 *
@@ -250,14 +250,14 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
 bool
 WidgetIsContainer
 (
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
@@ -274,7 +274,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -293,7 +293,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
@@ -327,7 +327,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 const
 nsRect
@@ -342,7 +342,7 @@ aClipRect
 void
 InitButtonStyle
 (
-PRUint8
+uint8_t
 widgetType
 nsIFrame
 *
@@ -357,7 +357,7 @@ opt
 void
 InitPlainStyle
 (
-PRUint8
+uint8_t
 aWidgetType
 nsIFrame
 *
@@ -382,7 +382,7 @@ State_None
 void
 InitComboStyle
 (
-PRUint8
+uint8_t
 aWidgetType
 nsIFrame
 *
@@ -396,7 +396,7 @@ opt
 ;
 private
 :
-PRInt32
+int32_t
 mFrameWidth
 ;
 QPalette

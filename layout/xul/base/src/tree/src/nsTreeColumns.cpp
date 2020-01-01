@@ -864,7 +864,7 @@ nsTreeColumn
 :
 GetX
 (
-PRInt32
+int32_t
 *
 aX
 )
@@ -911,7 +911,7 @@ nsTreeColumn
 :
 GetWidth
 (
-PRInt32
+int32_t
 *
 aWidth
 )
@@ -1031,7 +1031,7 @@ nsTreeColumn
 :
 GetIndex
 (
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -1141,7 +1141,7 @@ nsTreeColumn
 :
 GetType
 (
-PRInt16
+int16_t
 *
 aType
 )
@@ -1821,7 +1821,7 @@ nsTreeColumns
 :
 GetCount
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -1873,7 +1873,7 @@ nsTreeColumns
 :
 GetLength
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -2490,7 +2490,7 @@ nsTreeColumns
 :
 GetColumnAt
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -2546,7 +2546,7 @@ nsTreeColumns
 :
 GetColumnAt
 (
-PRInt32
+int32_t
 aIndex
 nsITreeColumn
 *
@@ -2707,7 +2707,7 @@ colsContent
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 numChildren
 =
 colsContent
@@ -2719,7 +2719,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

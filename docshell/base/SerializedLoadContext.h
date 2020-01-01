@@ -267,7 +267,7 @@ mUsePrivateBrowsing
 bool
 mIsInBrowserElement
 ;
-PRUint32
+uint32_t
 mAppId
 ;
 }

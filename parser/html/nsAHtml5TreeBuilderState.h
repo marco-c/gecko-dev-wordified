@@ -128,7 +128,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 getStack
 (
@@ -141,7 +141,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 getListOfActiveFormattingElements
 (
@@ -150,7 +150,7 @@ getListOfActiveFormattingElements
 0
 ;
 virtual
-PRInt32
+int32_t
 getStackLength
 (
 )
@@ -158,7 +158,7 @@ getStackLength
 0
 ;
 virtual
-PRInt32
+int32_t
 getListOfActiveFormattingElementsLength
 (
 )
@@ -196,7 +196,7 @@ getDeepTreeSurrogateParent
 0
 ;
 virtual
-PRInt32
+int32_t
 getMode
 (
 )
@@ -204,7 +204,7 @@ getMode
 0
 ;
 virtual
-PRInt32
+int32_t
 getOriginalMode
 (
 )

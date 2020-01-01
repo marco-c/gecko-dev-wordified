@@ -660,7 +660,7 @@ nsFontMetrics
 *
 fm
 ;
-PRInt32
+int32_t
 n
 =
 mFontMetrics
@@ -673,7 +673,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 n
@@ -1145,7 +1145,7 @@ the
 way
 for
 (
-PRInt32
+int32_t
 i
 =
 mFontMetrics
@@ -1287,7 +1287,7 @@ Flush
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mFontMetrics
@@ -1745,7 +1745,7 @@ GetDC
 (
 )
 ;
-PRInt32
+int32_t
 OSVal
 =
 GetDeviceCaps
@@ -1925,7 +1925,7 @@ of
 physical
 units
 .
-PRInt32
+int32_t
 prefDPI
 =
 Preferences
@@ -2308,7 +2308,7 @@ nsDeviceContext
 :
 GetDepth
 (
-PRUint32
+uint32_t
 &
 aDepth
 )
@@ -2345,7 +2345,7 @@ GetColorDepth
 (
 reinterpret_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -2613,9 +2613,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-PRInt32
+int32_t
 aStartPage
-PRInt32
+int32_t
 aEndPage
 )
 {
@@ -3032,7 +3032,7 @@ if
 screen
 )
 {
-PRInt32
+int32_t
 x
 y
 width
@@ -3213,7 +3213,7 @@ if
 screen
 )
 {
-PRInt32
+int32_t
 x
 y
 width
@@ -3681,7 +3681,7 @@ AppUnitsPerDevPixel
 mDepth
 =
 (
-PRUint32
+uint32_t
 )
 :
 :
@@ -4019,12 +4019,12 @@ CheckDPIChange
 (
 )
 {
-PRInt32
+int32_t
 oldDevPixels
 =
 mAppUnitsPerDevNotScaledPixel
 ;
-PRInt32
+int32_t
 oldInches
 =
 mAppUnitsPerPhysicalInch
@@ -4078,7 +4078,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 oldAppUnitsPerDevPixel
 =
 mAppUnitsPerDevPixel

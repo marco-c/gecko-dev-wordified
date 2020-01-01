@@ -646,7 +646,7 @@ nsresult
 (
 (
 (
-PRUint32
+uint32_t
 )
 (
 sev
@@ -659,7 +659,7 @@ sev
 \
 (
 (
-PRUint32
+uint32_t
 )
 (
 module
@@ -674,7 +674,7 @@ NS_ERROR_MODULE_BASE_OFFSET
 \
 (
 (
-PRUint32
+uint32_t
 )
 (
 code

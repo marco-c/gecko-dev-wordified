@@ -315,10 +315,10 @@ PRUnichar
 *
 mText
 ;
-PRInt32
+int32_t
 mTextLength
 ;
-PRInt32
+int32_t
 mTextSize
 ;
 bool
@@ -333,7 +333,7 @@ PRUnichar
 *
 aAttributes
 const
-PRUint32
+uint32_t
 aAttrLen
 nsXULPrototypeElement
 *
@@ -349,7 +349,7 @@ PRUnichar
 *
 aAttributes
 const
-PRUint32
+uint32_t
 aAttrLen
 nsINodeInfo
 *
@@ -365,10 +365,10 @@ PRUnichar
 *
 aAttributes
 const
-PRUint32
+uint32_t
 aAttrLen
 const
-PRUint32
+uint32_t
 aLineNumber
 nsINodeInfo
 *
@@ -462,7 +462,7 @@ PRUnichar
 *
 aAttributes
 const
-PRUint32
+uint32_t
 aLineNumber
 )
 ;
@@ -473,7 +473,7 @@ IsDataInBuffer
 PRUnichar
 *
 aBuffer
-PRInt32
+int32_t
 aLength
 )
 ;
@@ -497,7 +497,7 @@ const
 PRUnichar
 *
 aText
-PRInt32
+int32_t
 aLength
 )
 ;
@@ -604,7 +604,7 @@ Entry
 *
 mTop
 ;
-PRInt32
+int32_t
 mDepth
 ;
 public
@@ -618,7 +618,7 @@ ContextStack
 (
 )
 ;
-PRInt32
+int32_t
 Depth
 (
 )

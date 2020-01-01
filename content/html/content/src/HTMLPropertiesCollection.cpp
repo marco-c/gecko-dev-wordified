@@ -591,7 +591,7 @@ HTMLPropertiesCollection
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -619,7 +619,7 @@ HTMLPropertiesCollection
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -796,7 +796,7 @@ HTMLPropertiesCollection
 :
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -937,12 +937,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -966,7 +966,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -990,7 +990,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -1014,7 +1014,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -1219,7 +1219,7 @@ Create
 the
 names
 DOMStringList
-PRUint32
+uint32_t
 count
 =
 mProperties
@@ -1230,7 +1230,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1267,7 +1267,7 @@ itemprop
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1449,7 +1449,7 @@ attr
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1870,7 +1870,7 @@ PropertyNodeList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -1898,7 +1898,7 @@ PropertyNodeList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -1951,7 +1951,7 @@ PropertyNodeList
 :
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1968,7 +1968,7 @@ aIndex
 )
 ;
 }
-PRInt32
+int32_t
 PropertyNodeList
 :
 :
@@ -2213,7 +2213,7 @@ nsIVariant
 >
 values
 ;
-PRUint32
+uint32_t
 length
 =
 mElements
@@ -2242,7 +2242,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2318,7 +2318,7 @@ aValues
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2361,12 +2361,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -2390,7 +2390,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -2414,7 +2414,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -2438,7 +2438,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -2485,7 +2485,7 @@ Clear
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mCollection
@@ -2499,7 +2499,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2635,7 +2635,7 @@ PropertyStringList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -2666,7 +2666,7 @@ PropertyStringList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )

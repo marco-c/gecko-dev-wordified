@@ -546,7 +546,7 @@ p
 /
 /
 static
-PRUint32
+uint32_t
 nsXPCException
 :
 :
@@ -915,7 +915,7 @@ nullptr
 mLineNumber
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -1113,7 +1113,7 @@ mFilename
 *
 readonly
 attribute
-PRUint32
+uint32_t
 lineNumber
 ;
 *
@@ -1124,7 +1124,7 @@ nsXPCException
 :
 GetLineNumber
 (
-PRUint32
+uint32_t
 *
 aLineNumber
 )
@@ -1158,7 +1158,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 columnNumber
 ;
 *
@@ -1169,7 +1169,7 @@ nsXPCException
 :
 GetColumnNumber
 (
-PRUint32
+uint32_t
 *
 aColumnNumber
 )
@@ -2336,10 +2336,10 @@ while
 1
 )
 {
-PRUint32
+uint32_t
 language
 ;
-PRInt32
+int32_t
 lineNumber
 ;
 if

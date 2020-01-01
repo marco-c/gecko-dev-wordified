@@ -669,7 +669,7 @@ nsCSSKeyword
 aTransformFunction
 )
 {
-PRUint32
+uint32_t
 nargs
 ;
 switch
@@ -1517,12 +1517,12 @@ Greatest
 Common
 Divisor
 static
-PRUint32
+uint32_t
 gcd
 (
-PRUint32
+uint32_t
 a
-PRUint32
+uint32_t
 b
 )
 {
@@ -1622,12 +1622,12 @@ Least
 Common
 Multiple
 static
-PRUint32
+uint32_t
 lcm
 (
-PRUint32
+uint32_t
 a
-PRUint32
+uint32_t
 b
 )
 {
@@ -2489,7 +2489,7 @@ just
 like
 eUnit_Integer
 .
-PRInt32
+int32_t
 startInt
 =
 aStartValue
@@ -2498,7 +2498,7 @@ GetIntValue
 (
 )
 ;
-PRInt32
+int32_t
 endInt
 =
 aEndValue
@@ -2530,7 +2530,7 @@ case
 eUnit_Visibility
 :
 {
-PRInt32
+int32_t
 startVal
 =
 aStartValue
@@ -2542,7 +2542,7 @@ GetIntValue
 =
 NS_STYLE_VISIBILITY_VISIBLE
 ;
-PRInt32
+int32_t
 endVal
 =
 aEndValue
@@ -2571,7 +2571,7 @@ case
 eUnit_Integer
 :
 {
-PRInt32
+int32_t
 startInt
 =
 aStartValue
@@ -2580,7 +2580,7 @@ GetIntValue
 (
 )
 ;
-PRInt32
+int32_t
 endInt
 =
 aEndValue
@@ -3369,7 +3369,7 @@ mYValue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3763,7 +3763,7 @@ mZValue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4115,7 +4115,7 @@ squareDistance
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5651,7 +5651,7 @@ mYValue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5961,7 +5961,7 @@ define
 MAX_PACKED_COLOR_COMPONENT
 255
 inline
-PRUint8
+uint8_t
 ClampColor
 (
 double
@@ -6005,7 +6005,7 @@ T
 T
 RestrictValue
 (
-PRUint32
+uint32_t
 aRestrictions
 T
 aValue
@@ -6127,7 +6127,7 @@ aValue2
 nsCSSValue
 &
 aResult
-PRUint32
+uint32_t
 aValueRestrictions
 =
 0
@@ -6212,7 +6212,7 @@ aValue2
 nsCSSValue
 &
 aResult
-PRUint32
+uint32_t
 aValueRestrictions
 =
 0
@@ -6297,7 +6297,7 @@ aValue2
 nsCSSValue
 &
 aResult
-PRUint32
+uint32_t
 aValueRestrictions
 =
 0
@@ -6596,7 +6596,7 @@ bool
 AddCSSValuePixelPercentCalc
 (
 const
-PRUint32
+uint32_t
 aValueRestrictions
 const
 nsCSSUnit
@@ -12217,7 +12217,7 @@ just
 like
 eUnit_Integer
 .
-PRInt32
+int32_t
 result
 =
 floor
@@ -12292,7 +12292,7 @@ case
 eUnit_Visibility
 :
 {
-PRInt32
+int32_t
 val1
 =
 aValue1
@@ -12304,7 +12304,7 @@ GetIntValue
 =
 NS_STYLE_VISIBILITY_VISIBLE
 ;
-PRInt32
+int32_t
 val2
 =
 aValue2
@@ -12327,7 +12327,7 @@ aCoeff2
 *
 val2
 ;
-PRInt32
+int32_t
 result
 =
 interp
@@ -12390,7 +12390,7 @@ we
 should
 use
 floor
-PRInt32
+int32_t
 result
 =
 floor
@@ -12953,7 +12953,7 @@ factor
 /
 Aresf
 ;
-PRUint8
+uint8_t
 Ares
 =
 NSToIntRound
@@ -12965,7 +12965,7 @@ Aresf
 0
 )
 ;
-PRUint8
+uint8_t
 Rres
 =
 ClampColor
@@ -12983,7 +12983,7 @@ aCoeff2
 factor
 )
 ;
-PRUint8
+uint8_t
 Gres
 =
 ClampColor
@@ -13001,7 +13001,7 @@ aCoeff2
 factor
 )
 ;
-PRUint8
+uint8_t
 Bres
 =
 ClampColor
@@ -13405,7 +13405,7 @@ nsCSSValuePair
 mYValue
 }
 ;
-PRUint32
+uint32_t
 restrictions
 =
 nsCSSProps
@@ -13418,7 +13418,7 @@ aProperty
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -13681,7 +13681,7 @@ nsCSSValueTriplet
 mZValue
 }
 ;
-PRUint32
+uint32_t
 restrictions
 =
 nsCSSProps
@@ -13694,7 +13694,7 @@ aProperty
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -13939,7 +13939,7 @@ nsCSSRect
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14162,7 +14162,7 @@ GetCSSValueListValue
 (
 )
 ;
-PRUint32
+uint32_t
 len1
 =
 0
@@ -14360,7 +14360,7 @@ result
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15419,7 +15419,7 @@ bgPosRes
 eCSSUnit_Array
 )
 ;
-PRUint32
+uint32_t
 restrictions
 =
 nsCSSProps
@@ -15708,7 +15708,7 @@ nsCSSValuePairList
 mYValue
 }
 ;
-PRUint32
+uint32_t
 restrictions
 =
 nsCSSProps
@@ -15721,7 +15721,7 @@ aProperty
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -18721,7 +18721,7 @@ case
 eCSSProperty_text_decoration_style
 :
 {
-PRUint8
+uint8_t
 decorationStyle
 =
 static_cast
@@ -19116,7 +19116,7 @@ result
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19355,7 +19355,7 @@ case
 eCSSProperty_font_stretch
 :
 {
-PRInt16
+int16_t
 stretch
 =
 static_cast
@@ -19428,7 +19428,7 @@ case
 eCSSProperty_font_weight
 :
 {
-PRUint16
+uint16_t
 weight
 =
 static_cast
@@ -19846,7 +19846,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20217,7 +20217,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21119,7 +21119,7 @@ ssOffset
 )
 )
 ;
-PRUint8
+uint8_t
 fullCorner
 =
 animType
@@ -21255,7 +21255,7 @@ SetIntValue
 static_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -21698,7 +21698,7 @@ result
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21983,7 +21983,7 @@ Value
 :
 Value
 (
-PRInt32
+int32_t
 aInt
 Unit
 aUnit
@@ -22682,7 +22682,7 @@ Value
 :
 SetIntValue
 (
-PRInt32
+int32_t
 aInt
 Unit
 aUnit

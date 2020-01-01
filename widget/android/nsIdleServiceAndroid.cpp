@@ -134,7 +134,7 @@ nsIdleServiceAndroid
 :
 PollIdleTime
 (
-PRUint32
+uint32_t
 *
 aIdleTime
 )

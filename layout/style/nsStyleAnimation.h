@@ -358,7 +358,7 @@ const
 Value
 &
 aValueToAdd
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1577,7 +1577,7 @@ mUnit
 ;
 union
 {
-PRInt32
+int32_t
 mInt
 ;
 nscoord
@@ -1680,7 +1680,7 @@ mUnit
 eUnit_Null
 ;
 }
-PRInt32
+int32_t
 GetIntValue
 (
 )
@@ -2006,7 +2006,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 NS_strlen
@@ -2105,7 +2105,7 @@ IntegerConstructor
 ;
 Value
 (
-PRInt32
+int32_t
 aInt
 Unit
 aUnit
@@ -2192,7 +2192,7 @@ SetNoneValue
 void
 SetIntValue
 (
-PRInt32
+int32_t
 aInt
 Unit
 aUnit

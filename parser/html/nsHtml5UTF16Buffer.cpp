@@ -401,7 +401,7 @@ nsHtml5UTF16Buffer
 .
 h
 "
-PRInt32
+int32_t
 nsHtml5UTF16Buffer
 :
 :
@@ -419,7 +419,7 @@ nsHtml5UTF16Buffer
 :
 setStart
 (
-PRInt32
+int32_t
 start
 )
 {
@@ -444,7 +444,7 @@ return
 buffer
 ;
 }
-PRInt32
+int32_t
 nsHtml5UTF16Buffer
 :
 :
@@ -509,7 +509,7 @@ nsHtml5UTF16Buffer
 :
 setEnd
 (
-PRInt32
+int32_t
 end
 )
 {

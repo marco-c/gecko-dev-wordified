@@ -148,7 +148,7 @@ h
 "
 static
 const
-PRUint32
+uint32_t
 XPC_TABLE_DEFAULT_SIZE
 =
 40
@@ -206,7 +206,7 @@ xpcAccessibleTable
 :
 GetColumnCount
 (
-PRInt32
+int32_t
 *
 aColumnCount
 )
@@ -249,7 +249,7 @@ xpcAccessibleTable
 :
 GetRowCount
 (
-PRInt32
+int32_t
 *
 aRowCount
 )
@@ -292,9 +292,9 @@ xpcAccessibleTable
 :
 GetCellAt
 (
-PRInt32
+int32_t
 aRowIdx
-PRInt32
+int32_t
 aColIdx
 nsIAccessible
 *
@@ -329,7 +329,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx
@@ -351,7 +351,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -393,11 +393,11 @@ xpcAccessibleTable
 :
 GetCellIndexAt
 (
-PRInt32
+int32_t
 aRowIdx
-PRInt32
+int32_t
 aColIdx
-PRInt32
+int32_t
 *
 aCellIdx
 )
@@ -430,7 +430,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx
@@ -452,7 +452,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -491,11 +491,11 @@ xpcAccessibleTable
 :
 GetColumnExtentAt
 (
-PRInt32
+int32_t
 aRowIdx
-PRInt32
+int32_t
 aColIdx
-PRInt32
+int32_t
 *
 aColumnExtent
 )
@@ -528,7 +528,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx
@@ -550,7 +550,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -589,11 +589,11 @@ xpcAccessibleTable
 :
 GetRowExtentAt
 (
-PRInt32
+int32_t
 aRowIdx
-PRInt32
+int32_t
 aColIdx
-PRInt32
+int32_t
 *
 aRowExtent
 )
@@ -626,7 +626,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx
@@ -648,7 +648,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -687,7 +687,7 @@ xpcAccessibleTable
 :
 GetColumnDescription
 (
-PRInt32
+int32_t
 aColIdx
 nsAString
 &
@@ -711,7 +711,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -757,7 +757,7 @@ xpcAccessibleTable
 :
 GetRowDescription
 (
-PRInt32
+int32_t
 aRowIdx
 nsAString
 &
@@ -781,7 +781,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx
@@ -827,7 +827,7 @@ xpcAccessibleTable
 :
 IsColumnSelected
 (
-PRInt32
+int32_t
 aColIdx
 bool
 *
@@ -861,7 +861,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -899,7 +899,7 @@ xpcAccessibleTable
 :
 IsRowSelected
 (
-PRInt32
+int32_t
 aRowIdx
 bool
 *
@@ -933,7 +933,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx
@@ -971,9 +971,9 @@ xpcAccessibleTable
 :
 IsCellSelected
 (
-PRInt32
+int32_t
 aRowIdx
-PRInt32
+int32_t
 aColIdx
 bool
 *
@@ -1007,7 +1007,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx
@@ -1029,7 +1029,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -1068,7 +1068,7 @@ xpcAccessibleTable
 :
 GetSelectedCellCount
 (
-PRUint32
+uint32_t
 *
 aSelectedCellCount
 )
@@ -1111,7 +1111,7 @@ xpcAccessibleTable
 :
 GetSelectedColumnCount
 (
-PRUint32
+uint32_t
 *
 aSelectedColumnCount
 )
@@ -1154,7 +1154,7 @@ xpcAccessibleTable
 :
 GetSelectedRowCount
 (
-PRUint32
+uint32_t
 *
 aSelectedRowCount
 )
@@ -1262,7 +1262,7 @@ SelectedCells
 cellsArray
 )
 ;
-PRUint32
+uint32_t
 totalCount
 =
 cellsArray
@@ -1273,7 +1273,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -1333,10 +1333,10 @@ xpcAccessibleTable
 :
 GetSelectedCellIndices
 (
-PRUint32
+uint32_t
 *
 aCellsArraySize
-PRInt32
+int32_t
 *
 *
 aCellsArray
@@ -1372,7 +1372,7 @@ NS_ERROR_FAILURE
 ;
 nsAutoTArray
 <
-PRUint32
+uint32_t
 XPC_TABLE_DEFAULT_SIZE
 >
 cellsArray
@@ -1400,7 +1400,7 @@ aCellsArray
 =
 static_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -1411,7 +1411,7 @@ aCellsArraySize
 *
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 )
@@ -1430,7 +1430,7 @@ aCellsArraySize
 *
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 ;
@@ -1444,10 +1444,10 @@ xpcAccessibleTable
 :
 GetSelectedColumnIndices
 (
-PRUint32
+uint32_t
 *
 aColsArraySize
-PRInt32
+int32_t
 *
 *
 aColsArray
@@ -1483,7 +1483,7 @@ NS_ERROR_FAILURE
 ;
 nsAutoTArray
 <
-PRUint32
+uint32_t
 XPC_TABLE_DEFAULT_SIZE
 >
 colsArray
@@ -1511,7 +1511,7 @@ aColsArray
 =
 static_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -1522,7 +1522,7 @@ aColsArraySize
 *
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 )
@@ -1541,7 +1541,7 @@ aColsArraySize
 *
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 ;
@@ -1555,10 +1555,10 @@ xpcAccessibleTable
 :
 GetSelectedRowIndices
 (
-PRUint32
+uint32_t
 *
 aRowsArraySize
-PRInt32
+int32_t
 *
 *
 aRowsArray
@@ -1594,7 +1594,7 @@ NS_ERROR_FAILURE
 ;
 nsAutoTArray
 <
-PRUint32
+uint32_t
 XPC_TABLE_DEFAULT_SIZE
 >
 rowsArray
@@ -1622,7 +1622,7 @@ aRowsArray
 =
 static_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -1633,7 +1633,7 @@ aRowsArraySize
 *
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 )
@@ -1652,7 +1652,7 @@ aRowsArraySize
 *
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 ;
@@ -1666,9 +1666,9 @@ xpcAccessibleTable
 :
 GetColumnIndexAt
 (
-PRInt32
+int32_t
 aCellIdx
-PRInt32
+int32_t
 *
 aColIdx
 )
@@ -1701,7 +1701,7 @@ aCellIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aCellIdx
@@ -1746,9 +1746,9 @@ xpcAccessibleTable
 :
 GetRowIndexAt
 (
-PRInt32
+int32_t
 aCellIdx
-PRInt32
+int32_t
 *
 aRowIdx
 )
@@ -1781,7 +1781,7 @@ aCellIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aCellIdx
@@ -1826,12 +1826,12 @@ xpcAccessibleTable
 :
 GetRowAndColumnIndicesAt
 (
-PRInt32
+int32_t
 aCellIdx
-PRInt32
+int32_t
 *
 aRowIdx
-PRInt32
+int32_t
 *
 aColIdx
 )
@@ -1875,7 +1875,7 @@ aCellIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aCellIdx
@@ -2003,7 +2003,7 @@ xpcAccessibleTable
 :
 SelectColumn
 (
-PRInt32
+int32_t
 aColIdx
 )
 {
@@ -2024,7 +2024,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -2059,7 +2059,7 @@ xpcAccessibleTable
 :
 SelectRow
 (
-PRInt32
+int32_t
 aRowIdx
 )
 {
@@ -2080,7 +2080,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx
@@ -2115,7 +2115,7 @@ xpcAccessibleTable
 :
 UnselectColumn
 (
-PRInt32
+int32_t
 aColIdx
 )
 {
@@ -2136,7 +2136,7 @@ aColIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aColIdx
@@ -2171,7 +2171,7 @@ xpcAccessibleTable
 :
 UnselectRow
 (
-PRInt32
+int32_t
 aRowIdx
 )
 {
@@ -2192,7 +2192,7 @@ aRowIdx
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aRowIdx

@@ -160,7 +160,7 @@ public
 :
 nsMBCSGroupProber
 (
-PRUint32
+uint32_t
 aLanguageFilter
 )
 ;
@@ -177,7 +177,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -240,7 +240,7 @@ nsUniversalDetector
 :
 NumDetectors
 ]
-PRUint32
+uint32_t
 &
 offset
 )
@@ -265,13 +265,13 @@ mIsActive
 NUM_OF_PROBERS
 ]
 ;
-PRInt32
+int32_t
 mBestGuess
 ;
-PRUint32
+uint32_t
 mActiveNum
 ;
-PRUint32
+uint32_t
 mKeepNext
 ;
 }

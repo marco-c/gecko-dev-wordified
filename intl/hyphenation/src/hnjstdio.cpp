@@ -481,10 +481,10 @@ mBuffer
 BUFSIZE
 ]
 ;
-PRUint32
+uint32_t
 mCurPos
 ;
-PRUint32
+uint32_t
 mLimit
 ;
 }

@@ -71,9 +71,9 @@ nsHtml5Speculation
 nsHtml5OwningUTF16Buffer
 *
 aBuffer
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aStartLineNumber
 nsAHtml5TreeBuilderState
 *

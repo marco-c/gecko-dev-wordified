@@ -502,7 +502,7 @@ PR_Now
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -519,7 +519,7 @@ buf
 1000
 ]
 ;
-PRUint32
+uint32_t
 nb
 ;
 ec

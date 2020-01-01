@@ -322,12 +322,12 @@ asPrevInFlow
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -529,7 +529,7 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -620,7 +620,7 @@ imgIDecoderObserver
 >
 mListener
 ;
-PRInt32
+int32_t
 mLoadFlags
 ;
 bool

@@ -130,7 +130,7 @@ import
 the
 definition
 of
-PRUint32
+uint32_t
 *
 /
 #
@@ -192,7 +192,7 @@ private
 field
 *
 /
-PRUint32
+uint32_t
 offset
 ;
 /
@@ -202,7 +202,7 @@ into
 archive
 *
 /
-PRUint32
+uint32_t
 length
 ;
 /
@@ -214,7 +214,7 @@ in
 bytes
 *
 /
-PRUint32
+uint32_t
 flags
 ;
 /
@@ -1002,7 +1002,7 @@ const
 char
 *
 certData
-PRUint32
+uint32_t
 sizeOfCertData
 )
 ;

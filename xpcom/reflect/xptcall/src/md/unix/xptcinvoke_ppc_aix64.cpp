@@ -87,10 +87,10 @@ C
 void
 invoke_copy_to_stack
 (
-PRUint64
+uint64_t
 *
 d
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -138,7 +138,7 @@ populate
 .
 *
 /
-PRUint64
+uint64_t
 *
 l_d
 =
@@ -150,7 +150,7 @@ l_s
 =
 s
 ;
-PRUint32
+uint32_t
 l_paramCount
 =
 paramCount
@@ -166,7 +166,7 @@ fprData
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -200,7 +200,7 @@ IsPtrData
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -228,7 +228,7 @@ T_I8
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -249,7 +249,7 @@ T_I16
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -270,7 +270,7 @@ T_I32
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -291,7 +291,7 @@ T_I64
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -312,7 +312,7 @@ T_U8
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -333,7 +333,7 @@ T_U16
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -354,7 +354,7 @@ T_U32
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -375,7 +375,7 @@ T_U64
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -396,7 +396,7 @@ T_BOOL
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -417,7 +417,7 @@ T_CHAR
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -438,7 +438,7 @@ T_WCHAR
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -
@@ -552,7 +552,7 @@ types
 l_d
 =
 (
-PRUint64
+uint64_t
 )
 l_s
 -

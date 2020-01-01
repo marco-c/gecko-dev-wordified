@@ -243,7 +243,7 @@ GetURIFlags
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 *
 result
 )

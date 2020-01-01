@@ -405,7 +405,7 @@ convert
 bool
 *
 to
-PRInt32
+int32_t
 *
 so
 we
@@ -419,7 +419,7 @@ a
 bool
 .
 static
-PRInt32
+int32_t
 sMemoryPressurePending
 =
 0
@@ -634,7 +634,7 @@ nsThreadClassInfo
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -661,7 +661,7 @@ nsThreadClassInfo
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 lang
 nsISupports
 *
@@ -747,7 +747,7 @@ nsThreadClassInfo
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -770,7 +770,7 @@ nsThreadClassInfo
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -1981,7 +1981,7 @@ nsThread
 (
 MainThreadFlag
 aMainThread
-PRUint32
+uint32_t
 aStackSize
 )
 :
@@ -2413,7 +2413,7 @@ Dispatch
 nsIRunnable
 *
 event
-PRUint32
+uint32_t
 flags
 )
 {
@@ -4121,7 +4121,7 @@ nsThread
 :
 GetPriority
 (
-PRInt32
+int32_t
 *
 priority
 )
@@ -4141,7 +4141,7 @@ nsThread
 :
 SetPriority
 (
-PRInt32
+int32_t
 priority
 )
 {
@@ -4255,7 +4255,7 @@ nsThread
 :
 AdjustPriority
 (
-PRInt32
+int32_t
 delta
 )
 {
@@ -4421,7 +4421,7 @@ nsThread
 :
 GetRecursionDepth
 (
-PRUint32
+uint32_t
 *
 depth
 )

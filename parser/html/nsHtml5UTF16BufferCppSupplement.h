@@ -64,7 +64,7 @@ nsHtml5UTF16Buffer
 PRUnichar
 *
 aBuffer
-PRInt32
+int32_t
 aEnd
 )
 :
@@ -132,12 +132,12 @@ tempBuffer
 =
 buffer
 ;
-PRInt32
+int32_t
 tempStart
 =
 start
 ;
-PRInt32
+int32_t
 tempEnd
 =
 end

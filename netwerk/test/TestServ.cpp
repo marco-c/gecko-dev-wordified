@@ -246,7 +246,7 @@ trans
 nsCAutoString
 host
 ;
-PRInt32
+int32_t
 port
 ;
 trans
@@ -368,7 +368,7 @@ buf
 256
 ]
 ;
-PRUint32
+uint32_t
 n
 ;
 rv
@@ -534,7 +534,7 @@ static
 nsresult
 MakeServer
 (
-PRInt32
+int32_t
 port
 )
 {

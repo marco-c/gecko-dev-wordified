@@ -199,7 +199,7 @@ across
 processes
 .
 typedef
-PRUint64
+uint64_t
 ViewID
 ;
 static

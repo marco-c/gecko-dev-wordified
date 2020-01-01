@@ -344,7 +344,7 @@ Variant_base
 :
 GetDataType
 (
-PRUint16
+uint16_t
 *
 _type
 )
@@ -373,7 +373,7 @@ Variant_base
 :
 GetAsInt32
 (
-PRInt32
+int32_t
 *
 )
 {
@@ -388,7 +388,7 @@ Variant_base
 :
 GetAsInt64
 (
-PRInt64
+int64_t
 *
 )
 {
@@ -448,11 +448,11 @@ Variant_base
 :
 GetAsArray
 (
-PRUint16
+uint16_t
 *
 nsIID
 *
-PRUint32
+uint32_t
 *
 void
 *
@@ -470,7 +470,7 @@ Variant_base
 :
 GetAsInt8
 (
-PRUint8
+uint8_t
 *
 )
 {
@@ -485,7 +485,7 @@ Variant_base
 :
 GetAsInt16
 (
-PRInt16
+int16_t
 *
 )
 {
@@ -500,7 +500,7 @@ Variant_base
 :
 GetAsUint8
 (
-PRUint8
+uint8_t
 *
 )
 {
@@ -515,7 +515,7 @@ Variant_base
 :
 GetAsUint16
 (
-PRUint16
+uint16_t
 *
 )
 {
@@ -530,7 +530,7 @@ Variant_base
 :
 GetAsUint32
 (
-PRUint32
+uint32_t
 *
 )
 {
@@ -545,7 +545,7 @@ Variant_base
 :
 GetAsUint64
 (
-PRUint64
+uint64_t
 *
 )
 {
@@ -732,7 +732,7 @@ Variant_base
 :
 GetAsStringWithSize
 (
-PRUint32
+uint32_t
 *
 char
 *
@@ -750,7 +750,7 @@ Variant_base
 :
 GetAsWStringWithSize
 (
-PRUint32
+uint32_t
 *
 PRUnichar
 *

@@ -121,7 +121,7 @@ return
 mContextNode
 ;
 }
-PRUint32
+uint32_t
 txForwardContext
 :
 :
@@ -131,7 +131,7 @@ size
 {
 return
 (
-PRUint32
+uint32_t
 )
 mContextSet
 -
@@ -141,7 +141,7 @@ size
 )
 ;
 }
-PRUint32
+uint32_t
 txForwardContext
 :
 :
@@ -149,7 +149,7 @@ position
 (
 )
 {
-PRInt32
+int32_t
 pos
 =
 mContextSet
@@ -181,7 +181,7 @@ list
 ;
 return
 (
-PRUint32
+uint32_t
 )
 (
 pos
@@ -196,7 +196,7 @@ txForwardContext
 :
 getVariable
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *

@@ -548,7 +548,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -584,7 +584,7 @@ NS_NewAttributeContent
 nsNodeInfoManager
 *
 aNodeInfoManager
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -647,7 +647,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -872,7 +872,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aStateFlags
 )
 ;
@@ -1153,7 +1153,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 )
 ;

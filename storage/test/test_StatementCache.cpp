@@ -507,7 +507,7 @@ do_check_true
 stmt
 )
 ;
-PRInt32
+int32_t
 state
 ;
 do_check_success
@@ -668,7 +668,7 @@ at
 this
 point
 .
-PRInt32
+int32_t
 state
 ;
 do_check_success
@@ -784,7 +784,7 @@ do_check_true
 stmt
 )
 ;
-PRInt32
+int32_t
 state
 ;
 do_check_success
@@ -945,7 +945,7 @@ at
 this
 point
 .
-PRInt32
+int32_t
 state
 ;
 do_check_success

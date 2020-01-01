@@ -182,7 +182,7 @@ const
 nsACString
 &
 aDesktopStartupID
-PRUint32
+uint32_t
 aTimestamp
 )
 ;

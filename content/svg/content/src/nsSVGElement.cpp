@@ -628,7 +628,7 @@ GetLengthInfo
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1582,7 +1582,7 @@ nsSVGElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1848,7 +1848,7 @@ nsSVGElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1898,7 +1898,7 @@ GetLengthInfo
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -3699,7 +3699,7 @@ GetStringInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3830,7 +3830,7 @@ nsSVGElement
 :
 UnsetAttrInternal
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -3955,7 +3955,7 @@ GetLengthInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4025,7 +4025,7 @@ GetLengthListInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4095,7 +4095,7 @@ GetNumberListInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4269,7 +4269,7 @@ GetNumberInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4333,7 +4333,7 @@ GetNumberPairInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4402,7 +4402,7 @@ GetIntegerInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4466,7 +4466,7 @@ GetIntegerPairInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4535,7 +4535,7 @@ GetAngleInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4604,7 +4604,7 @@ GetBooleanInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4667,7 +4667,7 @@ GetEnumInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4937,7 +4937,7 @@ GetStringListInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5007,7 +5007,7 @@ GetStringInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5070,7 +5070,7 @@ nsSVGElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5108,7 +5108,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -5208,7 +5208,7 @@ nsSVGElement
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -7644,7 +7644,7 @@ rule
 "
 )
 ;
-PRUint32
+uint32_t
 attrCount
 =
 mAttrsAndChildren
@@ -7700,7 +7700,7 @@ NodePrincipal
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9224,14 +9224,14 @@ attrValue
 )
 ;
 }
-PRUint8
+uint8_t
 modType
 =
 attrValue
 ?
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 nsIDOMMutationEvent
@@ -9242,7 +9242,7 @@ MODIFICATION
 :
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 nsIDOMMutationEvent
@@ -9385,7 +9385,7 @@ NS_EVENT_BITS_MUTATION_ATTRMODIFIED
 this
 )
 ;
-PRUint8
+uint8_t
 modType
 =
 HasAttr
@@ -9396,7 +9396,7 @@ aName
 ?
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 nsIDOMMutationEvent
@@ -9407,7 +9407,7 @@ MODIFICATION
 :
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 nsIDOMMutationEvent
@@ -9852,7 +9852,7 @@ LengthAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -9909,7 +9909,7 @@ GetLengthInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9978,7 +9978,7 @@ nsSVGElement
 :
 WillChangeLength
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -10005,7 +10005,7 @@ nsSVGElement
 :
 DidChangeLength
 (
-PRUint8
+uint8_t
 aAttrEnum
 const
 nsAttrValue
@@ -10091,7 +10091,7 @@ nsSVGElement
 :
 DidAnimateLength
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -10160,7 +10160,7 @@ GetLengthInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10269,7 +10269,7 @@ f
 =
 aFirst
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -10295,7 +10295,7 @@ info
 mLengthCount
 )
 {
-PRUint8
+uint8_t
 type
 =
 info
@@ -10440,7 +10440,7 @@ LengthListAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -10465,7 +10465,7 @@ nsSVGElement
 :
 WillChangeLengthList
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -10492,7 +10492,7 @@ nsSVGElement
 :
 DidChangeLengthList
 (
-PRUint8
+uint8_t
 aAttrEnum
 const
 nsAttrValue
@@ -10583,7 +10583,7 @@ nsSVGElement
 :
 DidAnimateLengthList
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -10676,7 +10676,7 @@ list
 =
 aFirst
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -10758,7 +10758,7 @@ nsSVGElement
 :
 GetAnimatedLengthList
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -10831,7 +10831,7 @@ NumberListAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -10868,7 +10868,7 @@ nsSVGElement
 :
 WillChangeNumberList
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -10895,7 +10895,7 @@ nsSVGElement
 :
 DidChangeNumberList
 (
-PRUint8
+uint8_t
 aAttrEnum
 const
 nsAttrValue
@@ -10986,7 +10986,7 @@ nsSVGElement
 :
 DidAnimateNumberList
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -11055,7 +11055,7 @@ nsSVGElement
 :
 GetAnimatedNumberList
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -11121,7 +11121,7 @@ GetNumberListInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11494,7 +11494,7 @@ NumberAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -11521,7 +11521,7 @@ nsSVGElement
 :
 DidChangeNumber
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -11609,7 +11609,7 @@ nsSVGElement
 :
 DidAnimateNumber
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -11701,7 +11701,7 @@ f
 =
 aFirst
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -11788,7 +11788,7 @@ NumberPairAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -11821,7 +11821,7 @@ nsSVGElement
 :
 WillChangeNumberPair
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -11848,7 +11848,7 @@ nsSVGElement
 :
 DidChangeNumberPair
 (
-PRUint8
+uint8_t
 aAttrEnum
 const
 nsAttrValue
@@ -11935,7 +11935,7 @@ nsSVGElement
 :
 DidAnimateNumberPair
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12011,7 +12011,7 @@ IntegerAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12038,7 +12038,7 @@ nsSVGElement
 :
 DidChangeInteger
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12126,7 +12126,7 @@ nsSVGElement
 :
 DidAnimateInteger
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12179,7 +12179,7 @@ nsSVGElement
 :
 GetAnimatedIntegerValues
 (
-PRInt32
+int32_t
 *
 aFirst
 .
@@ -12212,13 +12212,13 @@ attribs
 "
 )
 ;
-PRInt32
+int32_t
 *
 n
 =
 aFirst
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -12265,7 +12265,7 @@ n
 va_arg
 (
 args
-PRInt32
+int32_t
 *
 )
 ;
@@ -12305,7 +12305,7 @@ IntegerPairAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12338,7 +12338,7 @@ nsSVGElement
 :
 WillChangeIntegerPair
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12365,7 +12365,7 @@ nsSVGElement
 :
 DidChangeIntegerPair
 (
-PRUint8
+uint8_t
 aAttrEnum
 const
 nsAttrValue
@@ -12452,7 +12452,7 @@ nsSVGElement
 :
 DidAnimateIntegerPair
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12528,7 +12528,7 @@ AngleAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12561,7 +12561,7 @@ nsSVGElement
 :
 WillChangeAngle
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12588,7 +12588,7 @@ nsSVGElement
 :
 DidChangeAngle
 (
-PRUint8
+uint8_t
 aAttrEnum
 const
 nsAttrValue
@@ -12674,7 +12674,7 @@ nsSVGElement
 :
 DidAnimateAngle
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12750,7 +12750,7 @@ BooleanAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12777,7 +12777,7 @@ nsSVGElement
 :
 DidChangeBoolean
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12860,7 +12860,7 @@ nsSVGElement
 :
 DidAnimateBoolean
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12936,7 +12936,7 @@ EnumAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -12963,7 +12963,7 @@ nsSVGElement
 :
 DidChangeEnum
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -13047,7 +13047,7 @@ nsSVGElement
 :
 DidAnimateEnum
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -13530,7 +13530,7 @@ StringAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -13551,7 +13551,7 @@ nsSVGElement
 :
 GetStringBaseValue
 (
-PRUint8
+uint8_t
 aAttrEnum
 nsAString
 &
@@ -13641,7 +13641,7 @@ nsSVGElement
 :
 SetStringBaseValue
 (
-PRUint8
+uint8_t
 aAttrEnum
 const
 nsAString
@@ -13722,7 +13722,7 @@ nsSVGElement
 :
 DidAnimateString
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -13804,7 +13804,7 @@ WillChangeStringList
 (
 bool
 aIsConditionalProcessingAttribute
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -13872,7 +13872,7 @@ DidChangeStringList
 (
 bool
 aIsConditionalProcessingAttribute
-PRUint8
+uint8_t
 aAttrEnum
 const
 nsAttrValue
@@ -14024,7 +14024,7 @@ StringListAttributesInfo
 :
 Reset
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -14117,7 +14117,7 @@ RecompileScriptEventListeners
 (
 )
 {
-PRInt32
+int32_t
 i
 count
 =
@@ -14231,7 +14231,7 @@ nsSVGElement
 :
 GetAnimatedAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -14486,7 +14486,7 @@ GetLengthInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14547,7 +14547,7 @@ GetNumberInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14610,7 +14610,7 @@ GetNumberPairInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14672,7 +14672,7 @@ GetIntegerInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14735,7 +14735,7 @@ GetIntegerPairInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14797,7 +14797,7 @@ GetEnumInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14859,7 +14859,7 @@ GetBooleanInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14921,7 +14921,7 @@ GetAngleInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15057,7 +15057,7 @@ GetNumberListInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15113,7 +15113,7 @@ i
 ToSMILAttr
 (
 this
-PRUint8
+uint8_t
 (
 i
 )
@@ -15136,7 +15136,7 @@ GetLengthListInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15192,7 +15192,7 @@ i
 ToSMILAttr
 (
 this
-PRUint8
+uint8_t
 (
 i
 )
@@ -15311,7 +15311,7 @@ GetStringInfo
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

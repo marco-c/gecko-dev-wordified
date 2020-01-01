@@ -46,7 +46,7 @@ nsHtml5NamedCharactersAccel
 h
 "
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_65
 [
@@ -108,7 +108,7 @@ HILO_ACCEL_65
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_66
 [
@@ -170,7 +170,7 @@ HILO_ACCEL_66
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_68
 [
@@ -232,7 +232,7 @@ HILO_ACCEL_68
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_69
 [
@@ -294,7 +294,7 @@ HILO_ACCEL_69
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_71
 [
@@ -356,7 +356,7 @@ HILO_ACCEL_71
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_72
 [
@@ -418,7 +418,7 @@ HILO_ACCEL_72
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_73
 [
@@ -480,7 +480,7 @@ HILO_ACCEL_73
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_74
 [
@@ -542,7 +542,7 @@ HILO_ACCEL_74
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_76
 [
@@ -604,7 +604,7 @@ HILO_ACCEL_76
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_77
 [
@@ -666,7 +666,7 @@ HILO_ACCEL_77
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_78
 [
@@ -728,7 +728,7 @@ HILO_ACCEL_78
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_79
 [
@@ -790,7 +790,7 @@ HILO_ACCEL_79
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_82
 [
@@ -852,7 +852,7 @@ HILO_ACCEL_82
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_83
 [
@@ -914,7 +914,7 @@ HILO_ACCEL_83
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_84
 [
@@ -976,7 +976,7 @@ HILO_ACCEL_84
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_85
 [
@@ -1038,7 +1038,7 @@ HILO_ACCEL_85
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_86
 [
@@ -1100,7 +1100,7 @@ HILO_ACCEL_86
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_90
 [
@@ -1162,7 +1162,7 @@ HILO_ACCEL_90
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_97
 [
@@ -1224,7 +1224,7 @@ HILO_ACCEL_97
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_98
 [
@@ -1286,7 +1286,7 @@ HILO_ACCEL_98
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_99
 [
@@ -1348,7 +1348,7 @@ HILO_ACCEL_99
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_100
 [
@@ -1410,7 +1410,7 @@ HILO_ACCEL_100
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_101
 [
@@ -1472,7 +1472,7 @@ HILO_ACCEL_101
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_102
 [
@@ -1534,7 +1534,7 @@ HILO_ACCEL_102
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_103
 [
@@ -1596,7 +1596,7 @@ HILO_ACCEL_103
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_104
 [
@@ -1658,7 +1658,7 @@ HILO_ACCEL_104
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_105
 [
@@ -1720,7 +1720,7 @@ HILO_ACCEL_105
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_106
 [
@@ -1782,7 +1782,7 @@ HILO_ACCEL_106
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_107
 [
@@ -1844,7 +1844,7 @@ HILO_ACCEL_107
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_108
 [
@@ -1906,7 +1906,7 @@ HILO_ACCEL_108
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_109
 [
@@ -1968,7 +1968,7 @@ HILO_ACCEL_109
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_110
 [
@@ -2030,7 +2030,7 @@ HILO_ACCEL_110
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_111
 [
@@ -2092,7 +2092,7 @@ HILO_ACCEL_111
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_112
 [
@@ -2154,7 +2154,7 @@ HILO_ACCEL_112
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_113
 [
@@ -2216,7 +2216,7 @@ HILO_ACCEL_113
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_114
 [
@@ -2278,7 +2278,7 @@ HILO_ACCEL_114
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_115
 [
@@ -2340,7 +2340,7 @@ HILO_ACCEL_115
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_116
 [
@@ -2402,7 +2402,7 @@ HILO_ACCEL_116
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_117
 [
@@ -2464,7 +2464,7 @@ HILO_ACCEL_117
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_118
 [
@@ -2526,7 +2526,7 @@ HILO_ACCEL_118
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_119
 [
@@ -2588,7 +2588,7 @@ HILO_ACCEL_119
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_120
 [
@@ -2650,7 +2650,7 @@ HILO_ACCEL_120
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_121
 [
@@ -2712,7 +2712,7 @@ HILO_ACCEL_121
 }
 ;
 static
-PRInt32
+int32_t
 const
 HILO_ACCEL_122
 [
@@ -2774,7 +2774,7 @@ HILO_ACCEL_122
 }
 ;
 const
-PRInt32
+int32_t
 *
 const
 nsHtml5NamedCharactersAccel

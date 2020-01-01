@@ -408,13 +408,13 @@ nsWindowsRegKey
 :
 Open
 (
-PRUint32
+uint32_t
 rootKey
 const
 nsAString
 &
 path
-PRUint32
+uint32_t
 mode
 )
 {
@@ -467,13 +467,13 @@ nsWindowsRegKey
 :
 Create
 (
-PRUint32
+uint32_t
 rootKey
 const
 nsAString
 &
 path
-PRUint32
+uint32_t
 mode
 )
 {
@@ -538,7 +538,7 @@ const
 nsAString
 &
 path
-PRUint32
+uint32_t
 mode
 nsIWindowsRegKey
 *
@@ -619,7 +619,7 @@ const
 nsAString
 &
 path
-PRUint32
+uint32_t
 mode
 nsIWindowsRegKey
 *
@@ -696,7 +696,7 @@ nsWindowsRegKey
 :
 GetChildCount
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -753,7 +753,7 @@ nsWindowsRegKey
 :
 GetChildName
 (
-PRUint32
+uint32_t
 index
 nsAString
 &
@@ -949,7 +949,7 @@ nsWindowsRegKey
 :
 GetValueCount
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -1006,7 +1006,7 @@ nsWindowsRegKey
 :
 GetValueName
 (
-PRUint32
+uint32_t
 index
 nsAString
 &
@@ -1250,7 +1250,7 @@ const
 nsAString
 &
 name
-PRUint32
+uint32_t
 *
 result
 )
@@ -1707,7 +1707,7 @@ const
 nsAString
 &
 name
-PRUint32
+uint32_t
 *
 result
 )
@@ -1774,7 +1774,7 @@ const
 nsAString
 &
 name
-PRUint64
+uint64_t
 *
 result
 )
@@ -2070,7 +2070,7 @@ const
 nsAString
 &
 name
-PRUint32
+uint32_t
 value
 )
 {
@@ -2132,7 +2132,7 @@ const
 nsAString
 &
 name
-PRUint64
+uint64_t
 value
 )
 {

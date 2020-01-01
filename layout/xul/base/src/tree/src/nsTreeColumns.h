@@ -411,7 +411,7 @@ return
 mAtom
 ;
 }
-PRInt32
+int32_t
 GetIndex
 (
 )
@@ -465,7 +465,7 @@ return
 mOverflow
 ;
 }
-PRInt16
+int16_t
 GetType
 (
 )
@@ -474,7 +474,7 @@ return
 mType
 ;
 }
-PRInt8
+int8_t
 GetCropStyle
 (
 )
@@ -483,7 +483,7 @@ return
 mCropStyle
 ;
 }
-PRInt32
+int32_t
 GetTextAlignment
 (
 )
@@ -590,7 +590,7 @@ nsIAtom
 >
 mAtom
 ;
-PRInt32
+int32_t
 mIndex
 ;
 bool
@@ -608,13 +608,13 @@ mIsSelectable
 bool
 mOverflow
 ;
-PRInt16
+int16_t
 mType
 ;
-PRInt8
+int8_t
 mCropStyle
 ;
-PRInt8
+int8_t
 mTextAlignment
 ;
 nsRefPtr
@@ -661,7 +661,7 @@ nsITreeColumn
 *
 GetColumnAt
 (
-PRInt32
+int32_t
 aIndex
 )
 ;

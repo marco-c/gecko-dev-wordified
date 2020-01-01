@@ -339,7 +339,7 @@ nsBidiKeyboard
 :
 SetLangFromBidiLevel
 (
-PRUint8
+uint8_t
 aLevel
 )
 {

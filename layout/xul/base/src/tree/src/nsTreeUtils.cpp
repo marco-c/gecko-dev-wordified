@@ -628,7 +628,7 @@ kNameSpaceID_XUL
 )
 )
 {
-PRUint32
+uint32_t
 i
 numChildren
 =
@@ -739,7 +739,7 @@ GetColumnIndex
 nsIContent
 *
 aColumn
-PRInt32
+int32_t
 *
 aResult
 )
@@ -778,7 +778,7 @@ kNameSpaceID_XUL
 )
 )
 {
-PRUint32
+uint32_t
 i
 numChildren
 =
@@ -789,7 +789,7 @@ GetChildCount
 (
 )
 ;
-PRInt32
+int32_t
 colIndex
 =
 0

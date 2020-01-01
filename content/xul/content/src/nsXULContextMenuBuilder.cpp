@@ -747,7 +747,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-PRUint32
+uint32_t
 count
 =
 mCurrentNode
@@ -924,7 +924,7 @@ aGeneratedItemId
 nsresult
 rv
 ;
-PRInt32
+int32_t
 idx
 =
 nsString

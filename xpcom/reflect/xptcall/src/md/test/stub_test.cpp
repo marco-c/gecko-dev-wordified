@@ -11,7 +11,7 @@ nsresult
 ;
 typedef
 unsigned
-PRUint32
+uint32_t
 ;
 typedef
 unsigned
@@ -441,12 +441,12 @@ PrepareAndDispatch
 baz
 *
 self
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 *
 args
-PRUint32
+uint32_t
 *
 stackBytesToPop
 )
@@ -817,7 +817,7 @@ n
 \
 {
 \
-PRUint32
+uint32_t
 *
 args
 stackBytesToPop
@@ -1055,9 +1055,9 @@ PrepareAndDispatch
 baz
 *
 self
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 *
 args
 )

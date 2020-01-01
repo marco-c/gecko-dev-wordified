@@ -241,7 +241,7 @@ the
 right
 state
 .
-PRInt32
+int32_t
 state
 =
 -
@@ -484,7 +484,7 @@ the
 right
 state
 .
-PRInt32
+int32_t
 state
 =
 -

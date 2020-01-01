@@ -466,7 +466,7 @@ pending
 timers
 for
 (
-PRInt32
+int32_t
 i
 =
 gInstance
@@ -685,7 +685,7 @@ gInstance
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -891,7 +891,7 @@ gInstance
 mLock
 )
 ;
-PRInt32
+int32_t
 idx
 =
 gInstance
@@ -1031,7 +1031,7 @@ autoLowPriority
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1102,7 +1102,7 @@ nsIFile
 dirIn
 bool
 moveToTrash
-PRUint32
+uint32_t
 delay
 )
 {
@@ -1257,7 +1257,7 @@ leaf
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2142,7 +2142,7 @@ PostTimer
 void
 *
 arg
-PRUint32
+uint32_t
 delay
 )
 {

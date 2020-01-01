@@ -386,7 +386,7 @@ nsGenericHTMLElement
 >
 CreateHTMLElement
 (
-PRUint32
+uint32_t
 aNodeType
 already_AddRefed
 <

@@ -251,7 +251,7 @@ nsSupportsIDImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -647,7 +647,7 @@ nsSupportsCStringImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -912,7 +912,7 @@ nsSupportsStringImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -1109,7 +1109,7 @@ nsSupportsPRBoolImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -1359,7 +1359,7 @@ nsSupportsPRUint8Impl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -1388,7 +1388,7 @@ nsSupportsPRUint8Impl
 :
 GetData
 (
-PRUint8
+uint8_t
 *
 aData
 )
@@ -1417,7 +1417,7 @@ nsSupportsPRUint8Impl
 :
 SetData
 (
-PRUint8
+uint8_t
 aData
 )
 {
@@ -1472,7 +1472,7 @@ size
 u
 "
 (
-PRUint16
+uint16_t
 )
 mData
 )
@@ -1621,7 +1621,7 @@ nsSupportsPRUint16Impl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -1650,7 +1650,7 @@ nsSupportsPRUint16Impl
 :
 GetData
 (
-PRUint16
+uint16_t
 *
 aData
 )
@@ -1679,7 +1679,7 @@ nsSupportsPRUint16Impl
 :
 SetData
 (
-PRUint16
+uint16_t
 aData
 )
 {
@@ -1883,7 +1883,7 @@ nsSupportsPRUint32Impl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -1912,7 +1912,7 @@ nsSupportsPRUint32Impl
 :
 GetData
 (
-PRUint32
+uint32_t
 *
 aData
 )
@@ -1941,7 +1941,7 @@ nsSupportsPRUint32Impl
 :
 SetData
 (
-PRUint32
+uint32_t
 aData
 )
 {
@@ -2142,7 +2142,7 @@ nsSupportsPRUint64Impl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -2171,7 +2171,7 @@ nsSupportsPRUint64Impl
 :
 GetData
 (
-PRUint64
+uint64_t
 *
 aData
 )
@@ -2200,7 +2200,7 @@ nsSupportsPRUint64Impl
 :
 SetData
 (
-PRUint64
+uint64_t
 aData
 )
 {
@@ -2401,7 +2401,7 @@ nsSupportsPRTimeImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -2660,7 +2660,7 @@ nsSupportsCharImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -2915,7 +2915,7 @@ nsSupportsPRInt16Impl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -2944,7 +2944,7 @@ nsSupportsPRInt16Impl
 :
 GetData
 (
-PRInt16
+int16_t
 *
 aData
 )
@@ -2973,7 +2973,7 @@ nsSupportsPRInt16Impl
 :
 SetData
 (
-PRInt16
+int16_t
 aData
 )
 {
@@ -3174,7 +3174,7 @@ nsSupportsPRInt32Impl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -3203,7 +3203,7 @@ nsSupportsPRInt32Impl
 :
 GetData
 (
-PRInt32
+int32_t
 *
 aData
 )
@@ -3232,7 +3232,7 @@ nsSupportsPRInt32Impl
 :
 SetData
 (
-PRInt32
+int32_t
 aData
 )
 {
@@ -3433,7 +3433,7 @@ nsSupportsPRInt64Impl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -3462,7 +3462,7 @@ nsSupportsPRInt64Impl
 :
 GetData
 (
-PRInt64
+int64_t
 *
 aData
 )
@@ -3491,7 +3491,7 @@ nsSupportsPRInt64Impl
 :
 SetData
 (
-PRInt64
+int64_t
 aData
 )
 {
@@ -3697,7 +3697,7 @@ nsSupportsFloatImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -3964,7 +3964,7 @@ nsSupportsDoubleImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -4223,7 +4223,7 @@ nsSupportsVoidImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -4488,7 +4488,7 @@ nsSupportsInterfacePointerImpl
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -4879,7 +4879,7 @@ nsSupportsDependentCString
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )

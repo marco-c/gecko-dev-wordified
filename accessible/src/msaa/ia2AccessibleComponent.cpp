@@ -291,7 +291,7 @@ is
 0
 )
 .
-PRUint64
+uint64_t
 state
 =
 acc
@@ -313,7 +313,7 @@ INVISIBLE
 return
 S_OK
 ;
-PRInt32
+int32_t
 x
 =
 0
@@ -447,7 +447,7 @@ s
 coordinate
 system
 .
-PRInt32
+int32_t
 parentx
 =
 0

@@ -121,7 +121,7 @@ pl
 /
 static
 const
-PRUint32
+uint32_t
 gLBClass00
 [
 32
@@ -452,7 +452,7 @@ U
 ;
 static
 const
-PRUint32
+uint32_t
 gLBClass20
 [
 32
@@ -783,7 +783,7 @@ U
 ;
 static
 const
-PRUint32
+uint32_t
 gLBClass21
 [
 32
@@ -1114,7 +1114,7 @@ U
 ;
 static
 const
-PRUint32
+uint32_t
 gLBClass30
 [
 32
@@ -1445,7 +1445,7 @@ U
 ;
 static
 const
-PRUint32
+uint32_t
 gLBClass0E
 [
 32

@@ -197,7 +197,7 @@ declaration
 ]
 static
 const
-PRUint16
+uint16_t
 *
 g_Big5MappingTable
 [

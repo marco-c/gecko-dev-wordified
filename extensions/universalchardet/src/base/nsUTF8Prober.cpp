@@ -133,7 +133,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -142,7 +142,7 @@ codingState
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -270,7 +270,7 @@ mNumOfMBChar
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

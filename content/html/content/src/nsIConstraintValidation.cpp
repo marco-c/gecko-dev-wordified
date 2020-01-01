@@ -141,7 +141,7 @@ nsContentUtils
 h
 "
 const
-PRUint16
+uint16_t
 nsIConstraintValidation
 :
 :

@@ -136,9 +136,9 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-PRUint64
+uint64_t
 methodIndex
-PRUint64
+uint64_t
 *
 args
 )
@@ -164,10 +164,10 @@ nsXPTMethodInfo
 *
 info
 ;
-PRUint8
+uint8_t
 paramCount
 ;
-PRUint8
+uint8_t
 i
 ;
 nsresult
@@ -192,7 +192,7 @@ mEntry
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -255,7 +255,7 @@ params
 "
 )
 ;
-PRUint64
+uint64_t
 *
 ap
 =
@@ -371,7 +371,7 @@ i8
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 ap
@@ -395,7 +395,7 @@ i16
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 ap
@@ -419,7 +419,7 @@ i32
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 ap
@@ -467,7 +467,7 @@ u64
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 ap
@@ -491,7 +491,7 @@ i64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 ap
@@ -515,7 +515,7 @@ u8
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 ap
@@ -539,7 +539,7 @@ u16
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 ap
@@ -563,7 +563,7 @@ u32
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 ap
@@ -613,7 +613,7 @@ b
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 ap
@@ -637,7 +637,7 @@ c
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 ap
@@ -661,7 +661,7 @@ wc
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 ap
@@ -694,7 +694,7 @@ mOuter
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 info

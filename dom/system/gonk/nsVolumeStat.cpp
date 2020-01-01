@@ -155,7 +155,7 @@ nsVolumeStat
 :
 GetTotalBytes
 (
-PRInt64
+int64_t
 *
 aTotalBytes
 )
@@ -191,7 +191,7 @@ nsVolumeStat
 :
 GetFreeBytes
 (
-PRInt64
+int64_t
 *
 aFreeBytes
 )

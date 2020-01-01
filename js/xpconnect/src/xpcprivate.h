@@ -4029,7 +4029,7 @@ return
 mDefaultSecurityManager
 ;
 }
-PRUint16
+uint16_t
 GetDefaultSecurityManagerFlags
 (
 )
@@ -4245,7 +4245,7 @@ virtual
 void
 Collect
 (
-PRUint32
+uint32_t
 reason
 )
 ;
@@ -4386,7 +4386,7 @@ nsIXPCSecurityManager
 *
 mDefaultSecurityManager
 ;
-PRUint16
+uint16_t
 mDefaultSecurityManagerFlags
 ;
 JSBool
@@ -4477,7 +4477,7 @@ the
 context
 stack
 .
-PRUint16
+uint16_t
 mEventDepth
 ;
 nsAutoPtr
@@ -4510,7 +4510,7 @@ nsIXPCScriptable
 mBackstagePass
 ;
 static
-PRUint32
+uint32_t
 gReportAllJSExceptions
 ;
 static
@@ -5474,7 +5474,7 @@ cb
 void
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 ;
@@ -6501,7 +6501,7 @@ mSecurityManager
 aSecurityManager
 ;
 }
-PRUint16
+uint16_t
 GetSecurityManagerFlags
 (
 )
@@ -6514,7 +6514,7 @@ mSecurityManagerFlags
 void
 SetSecurityManagerFlags
 (
-PRUint16
+uint16_t
 f
 )
 {
@@ -6527,7 +6527,7 @@ nsIXPCSecurityManager
 *
 GetAppropriateSecurityManager
 (
-PRUint16
+uint16_t
 flags
 )
 const
@@ -6624,7 +6624,7 @@ nullptr
 void
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 ;
@@ -6723,7 +6723,7 @@ mException
 LangType
 mCallingLangType
 ;
-PRUint16
+uint16_t
 mSecurityManagerFlags
 ;
 /
@@ -7173,7 +7173,7 @@ aResult
 NS_IMETHOD
 GetCalleeMethodIndex
 (
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -7199,7 +7199,7 @@ aResult
 NS_IMETHOD
 GetArgc
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -7243,7 +7243,7 @@ aResult
 NS_IMETHOD
 GetLanguage
 (
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -7629,7 +7629,7 @@ GetRetVal
 const
 ;
 inline
-PRUint16
+uint16_t
 GetMethodIndex
 (
 )
@@ -7639,7 +7639,7 @@ inline
 void
 SetMethodIndex
 (
-PRUint16
+uint16_t
 index
 )
 ;
@@ -7763,7 +7763,7 @@ const
 PRUnichar
 *
 str
-PRUint32
+uint32_t
 len
 )
 ;
@@ -8042,7 +8042,7 @@ jsval
 *
 mRetVal
 ;
-PRUint16
+uint16_t
 mMethodIndex
 ;
 #
@@ -10268,14 +10268,14 @@ static
 void
 DebugDumpAllScopes
 (
-PRInt16
+int16_t
 depth
 )
 ;
 void
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 ;
@@ -10882,7 +10882,7 @@ return
 mName
 ;
 }
-PRUint16
+uint16_t
 GetIndex
 (
 )
@@ -11056,7 +11056,7 @@ a
 void
 SetMethod
 (
-PRUint16
+uint16_t
 index
 )
 {
@@ -11072,7 +11072,7 @@ index
 void
 SetConstant
 (
-PRUint16
+uint16_t
 index
 )
 {
@@ -11088,7 +11088,7 @@ index
 void
 SetReadOnlyAttribute
 (
-PRUint16
+uint16_t
 index
 )
 {
@@ -11203,10 +11203,10 @@ data
 jsid
 mName
 ;
-PRUint16
+uint16_t
 mIndex
 ;
-PRUint16
+uint16_t
 mFlags
 ;
 }
@@ -11438,7 +11438,7 @@ iid
 )
 const
 ;
-PRUint16
+uint16_t
 GetMemberCount
 (
 )
@@ -11452,7 +11452,7 @@ XPCNativeMember
 *
 GetMemberAt
 (
-PRUint16
+uint16_t
 i
 )
 {
@@ -11478,7 +11478,7 @@ i
 void
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 ;
@@ -11487,7 +11487,7 @@ define
 XPC_NATIVE_IFACE_MARK_FLAG
 (
 (
-PRUint16
+uint16_t
 )
 JS_BIT
 (
@@ -11707,12 +11707,12 @@ mInfo
 jsid
 mName
 ;
-PRUint16
+uint16_t
 mMemberCount
 :
 15
 ;
-PRUint16
+uint16_t
 mMarked
 :
 1
@@ -11841,7 +11841,7 @@ XPCNativeInterface
 Addition
 =
 nullptr
-PRUint16
+uint16_t
 Position
 =
 0
@@ -11893,7 +11893,7 @@ return
 mAddition
 ;
 }
-PRUint16
+uint16_t
 GetPosition
 (
 )
@@ -12170,7 +12170,7 @@ data
 member
 is
 a
-PRUint16
+uint16_t
 .
 We
 are
@@ -12214,7 +12214,7 @@ shallow
 copy
 private
 :
-PRUint16
+uint16_t
 mIsAKey
 ;
 /
@@ -12224,7 +12224,7 @@ be
 first
 data
 member
-PRUint16
+uint16_t
 mPosition
 ;
 XPCNativeSet
@@ -12371,7 +12371,7 @@ otherSet
 XPCNativeInterface
 *
 newInterface
-PRUint16
+uint16_t
 position
 )
 ;
@@ -12497,7 +12497,7 @@ XPCNativeMember
 *
 *
 pMember
-PRUint16
+uint16_t
 *
 pInterfaceIndex
 )
@@ -12596,7 +12596,7 @@ name
 )
 const
 ;
-PRUint16
+uint16_t
 GetMemberCount
 (
 )
@@ -12606,7 +12606,7 @@ return
 mMemberCount
 ;
 }
-PRUint16
+uint16_t
 GetInterfaceCount
 (
 )
@@ -12631,7 +12631,7 @@ XPCNativeInterface
 *
 GetInterfaceAt
 (
-PRUint16
+uint16_t
 i
 )
 {
@@ -12672,7 +12672,7 @@ define
 XPC_NATIVE_SET_MARK_FLAG
 (
 (
-PRUint16
+uint16_t
 )
 JS_BIT
 (
@@ -12779,7 +12779,7 @@ endif
 void
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 ;
@@ -12813,7 +12813,7 @@ XPCNativeInterface
 *
 *
 array
-PRUint16
+uint16_t
 count
 )
 ;
@@ -12828,7 +12828,7 @@ otherSet
 XPCNativeInterface
 *
 newInterface
-PRUint16
+uint16_t
 position
 )
 ;
@@ -12884,15 +12884,15 @@ p
 }
 private
 :
-PRUint16
+uint16_t
 mMemberCount
 ;
-PRUint16
+uint16_t
 mInterfaceCount
 :
 15
 ;
-PRUint16
+uint16_t
 mMarked
 :
 1
@@ -13714,7 +13714,7 @@ js
 Class
 base
 ;
-PRUint32
+uint32_t
 interfacesBitmap
 ;
 }
@@ -13736,7 +13736,7 @@ return
 mFlags
 ;
 }
-PRUint32
+uint32_t
 GetInterfacesBitmap
 (
 )
@@ -13790,7 +13790,7 @@ aFlags
 char
 *
 aName
-PRUint32
+uint32_t
 interfacesBitmap
 )
 :
@@ -14104,7 +14104,7 @@ GetFlags
 )
 ;
 }
-PRUint32
+uint32_t
 GetInterfacesBitmap
 (
 )
@@ -14491,7 +14491,7 @@ nsIXPCScriptable
 callback
 XPCNativeScriptableFlags
 flags
-PRUint32
+uint32_t
 interfacesBitmap
 )
 :
@@ -14546,7 +14546,7 @@ return
 mFlags
 ;
 }
-PRUint32
+uint32_t
 GetInterfacesBitmap
 (
 )
@@ -14588,7 +14588,7 @@ flags
 void
 SetInterfacesBitmap
 (
-PRUint32
+uint32_t
 interfacesBitmap
 )
 {
@@ -14608,7 +14608,7 @@ mCallback
 XPCNativeScriptableFlags
 mFlags
 ;
-PRUint32
+uint32_t
 mInterfacesBitmap
 ;
 }
@@ -15118,7 +15118,7 @@ SystemIsBeingShutDown
 void
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 ;
@@ -15379,7 +15379,7 @@ Scope
 nsIClassInfo
 *
 ClassInfo
-PRUint32
+uint32_t
 ClassInfoFlags
 XPCNativeSet
 *
@@ -15418,7 +15418,7 @@ defined
 DEBUG
 )
 static
-PRInt32
+int32_t
 gDEBUG_LiveProtoCount
 ;
 #
@@ -15453,7 +15453,7 @@ nsIClassInfo
 >
 mClassInfo
 ;
-PRUint32
+uint32_t
 mClassInfoFlags
 ;
 XPCNativeSet
@@ -18801,7 +18801,7 @@ NS_IXPCONNECT_WRAPPED_JS_CLASS_IID
 NS_IMETHOD
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 =
@@ -18884,7 +18884,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 ;
@@ -19397,7 +19397,7 @@ nsXPCWrappedJS
 NS_IMETHOD
 CallMethod
 (
-PRUint16
+uint16_t
 methodIndex
 const
 XPTMethodDescriptor
@@ -20460,7 +20460,7 @@ const
 PRUnichar
 *
 aName
-PRUint32
+uint32_t
 aNameLen
 nsIVariant
 *
@@ -21877,7 +21877,7 @@ static
 nsresult
 CreateStackFrameLocation
 (
-PRUint32
+uint32_t
 aLanguage
 const
 char
@@ -21887,7 +21887,7 @@ const
 char
 *
 aFunctionName
-PRInt32
+int32_t
 aLineNumber
 nsIStackFrame
 *
@@ -22067,7 +22067,7 @@ iterp
 )
 ;
 static
-PRUint32
+uint32_t
 GetNSResultCount
 (
 )
@@ -23002,7 +23002,7 @@ XPCJSContextInfo
 *
 mStack
 ;
-PRUint32
+uint32_t
 mPosition
 ;
 }
@@ -23717,28 +23717,28 @@ mMessage
 nsString
 mSourceName
 ;
-PRUint32
+uint32_t
 mLineNumber
 ;
 nsString
 mSourceLine
 ;
-PRUint32
+uint32_t
 mColumnNumber
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 nsCString
 mCategory
 ;
-PRUint64
+uint64_t
 mOuterWindowID
 ;
-PRUint64
+uint64_t
 mInnerWindowID
 ;
-PRInt64
+int64_t
 mTimeStamp
 ;
 }
@@ -24949,7 +24949,7 @@ T
 *
 *
 ptr
-PRUint32
+uint32_t
 count
 bool
 clear
@@ -25081,7 +25081,7 @@ trc
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25136,7 +25136,7 @@ MarkAfterJSFinalize
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25176,7 +25176,7 @@ T
 *
 mPtr
 ;
-PRUint32
+uint32_t
 mCount
 ;
 }
@@ -25986,7 +25986,7 @@ RemovePurple
 void
 SetCCGeneration
 (
-PRUint32
+uint32_t
 aGen
 )
 {
@@ -25995,7 +25995,7 @@ mCCGeneration
 aGen
 ;
 }
-PRUint32
+uint32_t
 CCGeneration
 (
 )
@@ -26034,7 +26034,7 @@ mReturnRawObject
 :
 1
 ;
-PRUint32
+uint32_t
 mCCGeneration
 :
 31
@@ -26696,7 +26696,7 @@ const
 char
 *
 filename
-PRInt32
+int32_t
 lineNo
 JSVersion
 jsVersion

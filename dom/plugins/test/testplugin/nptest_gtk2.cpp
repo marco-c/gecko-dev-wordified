@@ -803,7 +803,7 @@ SetCairoRGBA
 cairo_t
 *
 cairoWindow
-PRUint32
+uint32_t
 rgba
 )
 {

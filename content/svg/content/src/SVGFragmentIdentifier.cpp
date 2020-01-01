@@ -555,7 +555,7 @@ nsSVGSVGElement
 root
 )
 {
-PRUint16
+uint16_t
 oldZoomAndPan
 =
 root
@@ -744,7 +744,7 @@ token
 is
 a
 SVGViewAttribute
-PRInt32
+int32_t
 bracketPos
 =
 aViewSpec

@@ -267,7 +267,7 @@ mozIThirdPartyUtil
 >
 mThirdPartyUtil
 ;
-PRUint8
+uint8_t
 mCookieBehavior
 ;
 bool

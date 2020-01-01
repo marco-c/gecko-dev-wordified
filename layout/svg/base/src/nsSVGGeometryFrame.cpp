@@ -362,7 +362,7 @@ rv
 -
 -
 -
-PRUint16
+uint16_t
 nsSVGGeometryFrame
 :
 :
@@ -379,7 +379,7 @@ GetStyleSVG
 mClipRule
 ;
 }
-PRUint16
+uint16_t
 nsSVGGeometryFrame
 :
 :

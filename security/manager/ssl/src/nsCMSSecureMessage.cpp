@@ -601,7 +601,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 length
 ;
 unsigned
@@ -799,7 +799,7 @@ certDER
 =
 0
 ;
-PRInt32
+int32_t
 derLen
 ;
 NSSCMSEnvelopedData
@@ -1639,7 +1639,7 @@ der
 =
 0
 ;
-PRInt32
+int32_t
 derLen
 ;
 NSSCMSMessage
@@ -1974,7 +1974,7 @@ unsigned
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 char
 *
@@ -2038,7 +2038,7 @@ char
 *
 *
 result
-PRInt32
+int32_t
 *
 _retval
 )
@@ -2064,7 +2064,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 len
 =
 PL_strlen

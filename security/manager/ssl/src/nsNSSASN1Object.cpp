@@ -403,7 +403,7 @@ lenght
 bytes
 >
 static
-PRInt32
+int32_t
 getDERItemLength
 (
 unsigned
@@ -432,7 +432,7 @@ data
 +
 +
 ;
-PRInt32
+int32_t
 length
 =
 -
@@ -700,10 +700,10 @@ bytesUsed
 bool
 indefinite
 ;
-PRInt32
+int32_t
 len
 ;
-PRUint32
+uint32_t
 type
 ;
 rv
@@ -1271,7 +1271,7 @@ nsNSSASN1Sequence
 :
 GetTag
 (
-PRUint32
+uint32_t
 *
 aTag
 )
@@ -1291,7 +1291,7 @@ nsNSSASN1Sequence
 :
 SetTag
 (
-PRUint32
+uint32_t
 aTag
 )
 {
@@ -1309,7 +1309,7 @@ nsNSSASN1Sequence
 :
 GetType
 (
-PRUint32
+uint32_t
 *
 aType
 )
@@ -1329,7 +1329,7 @@ nsNSSASN1Sequence
 :
 SetType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1625,7 +1625,7 @@ nsNSSASN1PrintableItem
 :
 GetTag
 (
-PRUint32
+uint32_t
 *
 aTag
 )
@@ -1645,7 +1645,7 @@ nsNSSASN1PrintableItem
 :
 SetTag
 (
-PRUint32
+uint32_t
 aTag
 )
 {
@@ -1663,7 +1663,7 @@ nsNSSASN1PrintableItem
 :
 GetType
 (
-PRUint32
+uint32_t
 *
 aType
 )
@@ -1683,7 +1683,7 @@ nsNSSASN1PrintableItem
 :
 SetType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1704,7 +1704,7 @@ SetData
 char
 *
 data
-PRUint32
+uint32_t
 len
 )
 {
@@ -1808,7 +1808,7 @@ char
 *
 *
 outData
-PRUint32
+uint32_t
 *
 outLen
 )

@@ -267,7 +267,7 @@ and
 terminology
 static
 const
-PRUint32
+uint32_t
 kMaxDNSNodeLen
 =
 63
@@ -1170,7 +1170,7 @@ normalizeFullStops
 ustr
 )
 ;
-PRUint32
+uint32_t
 len
 offset
 ;
@@ -1471,7 +1471,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 len
 =
 0
@@ -1697,7 +1697,7 @@ get
 (
 )
 ;
-PRUint32
+uint32_t
 dataLen
 =
 begin
@@ -1859,7 +1859,7 @@ nsAutoString
 outUTF16
 outLabel
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -2443,17 +2443,17 @@ const
 nsAString
 &
 in
-PRUint32
+uint32_t
 *
 out
-PRUint32
+uint32_t
 outBufLen
-PRUint32
+uint32_t
 *
 outLen
 )
 {
-PRUint32
+uint32_t
 i
 =
 0
@@ -2575,7 +2575,7 @@ outBufLen
 ]
 =
 (
-PRUint32
+uint32_t
 )
 '
 \
@@ -2599,7 +2599,7 @@ i
 ]
 =
 (
-PRUint32
+uint32_t
 )
 '
 \
@@ -2617,7 +2617,7 @@ void
 ucs4toUtf16
 (
 const
-PRUint32
+uint32_t
 *
 in
 nsAString
@@ -2705,7 +2705,7 @@ nsACString
 out
 )
 {
-PRUint32
+uint32_t
 ucs4Buf
 [
 kMaxDNSNodeLen
@@ -2713,7 +2713,7 @@ kMaxDNSNodeLen
 1
 ]
 ;
-PRUint32
+uint32_t
 ucs4Len
 ;
 utf16ToUcs4
@@ -2745,7 +2745,7 @@ null
 terminator
 )
 const
-PRUint32
+uint32_t
 kEncodedBufSize
 =
 kMaxDNSNodeLen
@@ -2865,7 +2865,7 @@ null
 terminator
 )
 const
-PRUint32
+uint32_t
 kEncodedBufSize
 =
 kMaxDNSNodeLen
@@ -2958,7 +2958,7 @@ end
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -3305,7 +3305,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 ucs4Buf
 [
 kMaxDNSNodeLen
@@ -3313,7 +3313,7 @@ kMaxDNSNodeLen
 1
 ]
 ;
-PRUint32
+uint32_t
 ucs4Len
 ;
 utf16ToUcs4
@@ -3331,7 +3331,7 @@ map
 idn_result_t
 idn_err
 ;
-PRUint32
+uint32_t
 namePrepBuf
 [
 kMaxDNSNodeLen
@@ -3353,12 +3353,12 @@ idn_nameprep_map
 mNamePrepHandle
 (
 const
-PRUint32
+uint32_t
 *
 )
 ucs4Buf
 (
-PRUint32
+uint32_t
 *
 )
 namePrepBuf
@@ -3434,7 +3434,7 @@ NS_ERROR_FAILURE
 /
 prohibit
 const
-PRUint32
+uint32_t
 *
 found
 =
@@ -3447,7 +3447,7 @@ idn_nameprep_isprohibited
 mNamePrepHandle
 (
 const
-PRUint32
+uint32_t
 *
 )
 ucs4Buf
@@ -3479,7 +3479,7 @@ idn_nameprep_isvalidbidi
 mNamePrepHandle
 (
 const
-PRUint32
+uint32_t
 *
 )
 ucs4Buf
@@ -3519,7 +3519,7 @@ idn_nameprep_isunassigned
 mNamePrepHandle
 (
 const
-PRUint32
+uint32_t
 *
 )
 ucs4Buf
@@ -3853,7 +3853,7 @@ EndReading
 end
 )
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -4232,7 +4232,7 @@ Trim
 "
 )
 ;
-PRInt32
+int32_t
 pos
 =
 tld

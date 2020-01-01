@@ -204,7 +204,7 @@ timeline
 *
 /
 typedef
-PRInt64
+int64_t
 GraphTime
 ;
 const
@@ -1168,7 +1168,7 @@ TrackRate
 aTrackRate
 TrackTicks
 aTrackOffset
-PRUint32
+uint32_t
 aTrackEvents
 const
 MediaSegment
@@ -2272,7 +2272,7 @@ data
 void
 ChangeExplicitBlockerCount
 (
-PRInt32
+int32_t
 aDelta
 )
 ;
@@ -2680,7 +2680,7 @@ ChangeExplicitBlockerCountImpl
 (
 StreamTime
 aTime
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -3065,7 +3065,7 @@ unblocked
 TimeVarying
 <
 GraphTime
-PRUint32
+uint32_t
 >
 mExplicitBlockerCount
 ;
@@ -3194,7 +3194,7 @@ time
 TimeVarying
 <
 GraphTime
-PRInt64
+int64_t
 >
 mGraphUpdateIndices
 ;
@@ -4143,7 +4143,7 @@ this
 is
 cleared
 .
-PRUint32
+uint32_t
 mCommands
 ;
 /
@@ -4197,7 +4197,7 @@ aID
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4593,7 +4593,7 @@ aSource
 ProcessedMediaStream
 *
 aDest
-PRUint32
+uint32_t
 aFlags
 )
 :
@@ -4812,7 +4812,7 @@ ProcessedMediaStream
 *
 mDest
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 }
@@ -4929,7 +4929,7 @@ AllocateInputPort
 MediaStream
 *
 aStream
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -5549,7 +5549,7 @@ state
 .
 *
 /
-PRInt64
+int64_t
 GetCurrentGraphUpdateIndex
 (
 )
@@ -5700,7 +5700,7 @@ a
 special
 value
 .
-PRInt64
+int64_t
 mGraphUpdatesSent
 ;
 }

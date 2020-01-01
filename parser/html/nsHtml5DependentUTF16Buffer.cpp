@@ -126,7 +126,7 @@ FalliblyCopyAsOwningBuffer
 (
 )
 {
-PRInt32
+int32_t
 newLength
 =
 getEnd

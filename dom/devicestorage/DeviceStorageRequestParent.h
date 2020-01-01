@@ -395,7 +395,7 @@ aParent
 DeviceStorageFile
 *
 aFile
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -416,7 +416,7 @@ CancelableRun
 ;
 private
 :
-PRUint32
+uint32_t
 mLength
 ;
 nsRefPtr
@@ -661,7 +661,7 @@ aParent
 DeviceStorageFile
 *
 aFile
-PRUint64
+uint64_t
 aSince
 )
 ;
@@ -685,7 +685,7 @@ DeviceStorageFile
 >
 mFile
 ;
-PRUint64
+uint64_t
 mSince
 ;
 }
@@ -747,9 +747,9 @@ PostStatResultEvent
 DeviceStorageRequestParent
 *
 aParent
-PRInt64
+int64_t
 aFreeBytes
-PRInt64
+int64_t
 aTotalBytes
 )
 ;
@@ -767,7 +767,7 @@ CancelableRun
 ;
 private
 :
-PRInt64
+int64_t
 mFreeBytes
 mTotalBytes
 ;

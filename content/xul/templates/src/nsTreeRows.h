@@ -395,7 +395,7 @@ this
 subtree
 *
 /
-PRInt32
+int32_t
 mCount
 ;
 /
@@ -409,7 +409,7 @@ the
 subtree
 *
 /
-PRInt32
+int32_t
 mCapacity
 ;
 /
@@ -432,7 +432,7 @@ subtrees
 .
 *
 /
-PRInt32
+int32_t
 mSubtreeSize
 ;
 /
@@ -518,7 +518,7 @@ the
 subtree
 *
 /
-PRInt32
+int32_t
 Count
 (
 )
@@ -552,7 +552,7 @@ contains
 .
 *
 /
-PRInt32
+int32_t
 GetSubtreeSize
 (
 )
@@ -585,7 +585,7 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -635,7 +635,7 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -705,7 +705,7 @@ InsertRowAt
 nsTemplateMatch
 *
 aMatch
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -728,7 +728,7 @@ index
 void
 RemoveRowAt
 (
-PRInt32
+int32_t
 aChildIndex
 )
 ;
@@ -765,7 +765,7 @@ Subtree
 *
 mParent
 ;
-PRInt32
+int32_t
 mChildIndex
 ;
 Link
@@ -851,7 +851,7 @@ return
 mParent
 ;
 }
-PRInt32
+int32_t
 GetChildIndex
 (
 )
@@ -922,7 +922,7 @@ iterator
 {
 protected
 :
-PRInt32
+int32_t
 mRowIndex
 ;
 nsAutoTArray
@@ -988,7 +988,7 @@ Append
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 ;
@@ -1014,7 +1014,7 @@ Push
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 ;
@@ -1043,7 +1043,7 @@ iterator
 void
 SetRowIndex
 (
-PRInt32
+int32_t
 aRowIndex
 )
 {
@@ -1390,7 +1390,7 @@ child
 index
 *
 /
-PRInt32
+int32_t
 GetChildIndex
 (
 )
@@ -1427,7 +1427,7 @@ tree
 .
 *
 /
-PRInt32
+int32_t
 GetDepth
 (
 )
@@ -1455,7 +1455,7 @@ the
 iterator
 *
 /
-PRInt32
+int32_t
 GetRowIndex
 (
 )
@@ -1603,7 +1603,7 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -1673,7 +1673,7 @@ EnsureSubtreeFor
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 ;
@@ -1769,9 +1769,9 @@ const
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
-PRInt32
+int32_t
 *
 aSubtreeSize
 =
@@ -1795,18 +1795,18 @@ parent
 .
 *
 /
-PRInt32
+int32_t
 GetSubtreeSizeFor
 (
 const
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 {
-PRInt32
+int32_t
 size
 ;
 GetSubtreeFor
@@ -1838,7 +1838,7 @@ parent
 .
 *
 /
-PRInt32
+int32_t
 GetSubtreeSizeFor
 (
 const
@@ -1847,7 +1847,7 @@ iterator
 aIterator
 )
 {
-PRInt32
+int32_t
 size
 ;
 GetSubtreeFor
@@ -1896,7 +1896,7 @@ RemoveSubtreeFor
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 ;
@@ -1956,7 +1956,7 @@ the
 view
 *
 /
-PRInt32
+int32_t
 RemoveRowAt
 (
 iterator
@@ -2028,7 +2028,7 @@ aMatch
 Subtree
 *
 aSubtree
-PRInt32
+int32_t
 aChildIndex
 )
 {
@@ -2115,7 +2115,7 @@ view
 .
 *
 /
-PRInt32
+int32_t
 Count
 (
 )

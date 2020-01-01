@@ -155,7 +155,7 @@ table
 PLDHashEntryHdr
 *
 heh
-PRUint32
+uint32_t
 i
 void
 *
@@ -171,7 +171,7 @@ table
 PLDHashEntryHdr
 *
 heh
-PRUint32
+uint32_t
 i
 void
 *

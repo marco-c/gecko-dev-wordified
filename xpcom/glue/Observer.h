@@ -387,7 +387,7 @@ aObserver
 )
 ;
 }
-PRUint32
+uint32_t
 Length
 (
 )
@@ -409,7 +409,7 @@ T
 aParam
 )
 {
-PRUint32
+uint32_t
 size
 =
 mObservers
@@ -420,7 +420,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

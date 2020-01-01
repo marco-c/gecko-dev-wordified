@@ -3672,7 +3672,7 @@ the
 UI
 thread
 .
-PRInt32
+int32_t
 mLastEventTime
 ;
 /

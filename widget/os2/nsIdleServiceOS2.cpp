@@ -255,7 +255,7 @@ nsIdleServiceOS2
 :
 PollIdleTime
 (
-PRUint32
+uint32_t
 *
 aIdleTime
 )

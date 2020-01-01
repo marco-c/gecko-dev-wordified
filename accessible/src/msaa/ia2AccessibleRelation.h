@@ -152,7 +152,7 @@ public
 :
 ia2AccessibleRelation
 (
-PRUint32
+uint32_t
 aType
 Relation
 *
@@ -408,7 +408,7 @@ ia2AccessibleRelation
 &
 )
 ;
-PRUint32
+uint32_t
 mType
 ;
 nsTArray

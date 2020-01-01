@@ -202,14 +202,14 @@ aValue
 void
 SetNumber
 (
-PRInt32
+int32_t
 aValue
 )
 ;
 void
 SetNumber
 (
-PRUint32
+uint32_t
 aValue
 )
 ;
@@ -266,7 +266,7 @@ const
 nsACString
 &
 aString
-PRUint16
+uint16_t
 aType
 =
 CSS_STRING
@@ -297,7 +297,7 @@ const
 nsAString
 &
 aString
-PRUint16
+uint16_t
 aType
 =
 CSS_STRING
@@ -341,7 +341,7 @@ Reset
 ;
 private
 :
-PRUint16
+uint16_t
 mType
 ;
 union

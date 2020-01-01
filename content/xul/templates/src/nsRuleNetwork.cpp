@@ -706,7 +706,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsAssignmentSet
 :
 :
@@ -715,7 +715,7 @@ Count
 )
 const
 {
-PRInt32
+int32_t
 count
 =
 0
@@ -2709,7 +2709,7 @@ mCount
 mCapacity
 )
 {
-PRInt32
+int32_t
 capacity
 =
 mCapacity
@@ -2738,7 +2738,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mCount

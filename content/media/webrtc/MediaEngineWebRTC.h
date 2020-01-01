@@ -471,7 +471,7 @@ virtual
 nsresult
 Snapshot
 (
-PRUint32
+uint32_t
 aDuration
 nsIDOMFile
 *
@@ -907,7 +907,7 @@ virtual
 nsresult
 Snapshot
 (
-PRUint32
+uint32_t
 aDuration
 nsIDOMFile
 *

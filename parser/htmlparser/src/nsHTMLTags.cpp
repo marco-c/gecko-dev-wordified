@@ -3762,7 +3762,7 @@ eHTMLTag_userdefined
 1
 ]
 ;
-PRInt32
+int32_t
 nsHTMLTags
 :
 :
@@ -4163,7 +4163,7 @@ in
 the
 table
 .
-PRInt32
+int32_t
 i
 ;
 for
@@ -4412,7 +4412,7 @@ that
 NS_HTMLTAG_NAME_MAX_LENGTH
 is
 correct
-PRUint32
+uint32_t
 maxTagNameLength
 =
 0
@@ -4432,7 +4432,7 @@ NS_HTML_TAG_MAX
 i
 )
 {
-PRUint32
+uint32_t
 len
 =
 NS_strlen
@@ -4553,7 +4553,7 @@ nsAString
 aTagName
 )
 {
-PRUint32
+uint32_t
 length
 =
 aTagName
@@ -4587,7 +4587,7 @@ nsAString
 const_iterator
 iter
 ;
-PRUint32
+uint32_t
 i
 =
 0

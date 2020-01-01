@@ -374,9 +374,9 @@ newLocalNameFromBuffer
 PRUnichar
 *
 buf
-PRInt32
+int32_t
 offset
-PRInt32
+int32_t
 length
 nsHtml5AtomTable
 *
@@ -391,9 +391,9 @@ newStringFromBuffer
 PRUnichar
 *
 buf
-PRInt32
+int32_t
 offset
-PRInt32
+int32_t
 length
 )
 ;
@@ -429,7 +429,7 @@ static
 jArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 newCharArrayFromLocal
 (
@@ -442,7 +442,7 @@ static
 jArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 newCharArrayFromString
 (
@@ -483,9 +483,9 @@ local
 PRUnichar
 *
 buf
-PRInt32
+int32_t
 offset
-PRInt32
+int32_t
 length
 )
 ;

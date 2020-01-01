@@ -805,7 +805,7 @@ nsIContent
 *
 *
 aContainer
-PRInt32
+int32_t
 *
 aNewIndexInContainer
 )
@@ -1316,7 +1316,7 @@ nsIContent
 *
 *
 aContainer
-PRInt32
+int32_t
 *
 aNewIndexInContainer
 )
@@ -1408,7 +1408,7 @@ EnsureElementHasGenericChild
 nsIContent
 *
 aParent
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1454,7 +1454,7 @@ aElements
 nsresult
 CreateElement
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1791,7 +1791,7 @@ aResult
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 *
 aSortOrder
 )
@@ -2139,7 +2139,7 @@ nsIContent
 *
 *
 aContainer
-PRInt32
+int32_t
 *
 aNewIndexInContainer
 )
@@ -2779,7 +2779,7 @@ GetNextSibling
 )
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 =
 tmplKid
@@ -3523,7 +3523,7 @@ NS_ADDREF
 aContainer
 )
 ;
-PRUint32
+uint32_t
 indx
 =
 aRealNode
@@ -4269,7 +4269,7 @@ NS_ADDREF
 aContainer
 )
 ;
-PRUint32
+uint32_t
 indx
 =
 aRealNode
@@ -4727,7 +4727,7 @@ to
 the
 new
 element
-PRUint32
+uint32_t
 numAttribs
 =
 aTemplateNode
@@ -4739,7 +4739,7 @@ GetAttrCount
 ;
 for
 (
-PRUint32
+uint32_t
 attr
 =
 0
@@ -4766,7 +4766,7 @@ GetAttrNameAt
 attr
 )
 ;
-PRInt32
+int32_t
 attribNameSpaceID
 =
 name
@@ -5091,7 +5091,7 @@ Truncate
 (
 )
 ;
-PRInt32
+int32_t
 offset
 =
 persist
@@ -5165,7 +5165,7 @@ nsIAtom
 >
 tag
 ;
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsCOMPtr
@@ -5437,7 +5437,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 count
 =
 aTemplateNode
@@ -5449,7 +5449,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 loop
 =
 0
@@ -5668,7 +5668,7 @@ if
 parent
 )
 {
-PRInt32
+int32_t
 pos
 =
 parent
@@ -6359,7 +6359,7 @@ SetTemplateGenerated
 )
 ;
 }
-PRInt32
+int32_t
 newIndexInContainer
 =
 -
@@ -6371,7 +6371,7 @@ container
 =
 nullptr
 ;
-PRInt32
+int32_t
 querySetCount
 =
 mQuerySets
@@ -6382,7 +6382,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 r
 =
 0
@@ -6513,7 +6513,7 @@ nsIContent
 *
 *
 aContainer
-PRInt32
+int32_t
 *
 aNewIndexInContainer
 )
@@ -6898,7 +6898,7 @@ should
 be
 inserted
 here
-PRInt32
+int32_t
 priority
 =
 existingmatch
@@ -7091,7 +7091,7 @@ need
 to
 be
 generated
-PRInt16
+int16_t
 ruleindex
 ;
 nsTemplateRule
@@ -7305,7 +7305,7 @@ EnsureElementHasGenericChild
 nsIContent
 *
 parent
-PRInt32
+int32_t
 nameSpaceID
 nsIAtom
 *
@@ -7642,7 +7642,7 @@ nullptr
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 count
 ;
 while
@@ -7674,7 +7674,7 @@ off
 the
 queue
 .
-PRUint32
+uint32_t
 last
 =
 count
@@ -7699,7 +7699,7 @@ RemoveElementAt
 last
 )
 ;
-PRUint32
+uint32_t
 i
 =
 element
@@ -8083,7 +8083,7 @@ nsXULContentBuilder
 :
 CreateElement
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -8702,7 +8702,7 @@ refID
 elements
 )
 ;
-PRUint32
+uint32_t
 cnt
 =
 elements
@@ -8713,10 +8713,10 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 cnt
 )
@@ -9022,12 +9022,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -9454,7 +9454,7 @@ ref
 aLocations
 )
 ;
-PRUint32
+uint32_t
 count
 =
 (
@@ -9474,7 +9474,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 t
 =
 0
@@ -9834,7 +9834,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 count
 =
 elements
@@ -9845,10 +9845,10 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 e
 =
-PRInt32
+int32_t
 (
 count
 )
@@ -9986,7 +9986,7 @@ aResult
 elements
 )
 ;
-PRUint32
+uint32_t
 cnt
 =
 elements
@@ -9997,10 +9997,10 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 cnt
 )
@@ -10521,7 +10521,7 @@ aResult
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 *
 aSortOrder
 )
@@ -10663,7 +10663,7 @@ not
 equal
 stop
 .
-PRInt32
+int32_t
 length
 =
 mSortState
@@ -10676,7 +10676,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 t
 =
 0
@@ -11013,7 +11013,7 @@ childAdded
 =
 false
 ;
-PRUint32
+uint32_t
 numChildren
 =
 aContainer
@@ -11054,7 +11054,7 @@ because
 numChildren
 gets
 modified
-PRInt32
+int32_t
 realNumChildren
 =
 numChildren
@@ -11081,7 +11081,7 @@ XUL
 /
 RDF
 begins
-PRInt32
+int32_t
 staticCount
 =
 0
@@ -11296,7 +11296,7 @@ if
 staticCount
 >
 (
-PRInt32
+int32_t
 )
 numChildren
 )
@@ -11338,7 +11338,7 @@ nsIContent
 *
 temp
 ;
-PRInt32
+int32_t
 direction
 ;
 /
@@ -11497,7 +11497,7 @@ lastWasLast
 false
 ;
 }
-PRInt32
+int32_t
 left
 =
 staticCount
@@ -11591,7 +11591,7 @@ left
 right
 )
 {
-PRInt32
+int32_t
 thePos
 =
 (

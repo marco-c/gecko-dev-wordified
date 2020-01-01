@@ -355,7 +355,7 @@ services
 namespace
 {
 inline
-PRUint32
+uint32_t
 GetIndexedDBPermissions
 (
 nsIDOMWindow
@@ -532,7 +532,7 @@ permissionManager
 PERMISSION_DENIED
 )
 ;
-PRUint32
+uint32_t
 permission
 ;
 nsresult
@@ -596,7 +596,7 @@ thread
 "
 )
 ;
-PRUint32
+uint32_t
 permission
 =
 mHasPrompted
@@ -1058,7 +1058,7 @@ true
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 promptResult
 =
 nsDependentString

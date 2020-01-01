@@ -1183,7 +1183,7 @@ marginTwips
 unwriteableTwips
 )
 ;
-PRInt16
+int16_t
 printType
 ;
 mPageData
@@ -1228,7 +1228,7 @@ inches
 are
 sometimes
 needed
-PRInt32
+int32_t
 inchInTwips
 =
 NS_INCHES_TO_INT_TWIPS
@@ -1487,7 +1487,7 @@ height
 /
 10
 ;
-PRInt32
+int32_t
 gapInTwips
 =
 Preferences
@@ -2034,7 +2034,7 @@ nsIFrame
 *
 page
 ;
-PRInt32
+int32_t
 pageTot
 =
 0
@@ -2072,7 +2072,7 @@ Set
 Page
 Number
 Info
-PRInt32
+int32_t
 pageNum
 =
 1
@@ -2571,7 +2571,7 @@ nsSimplePageSequenceFrame
 :
 GetCurrentPageNum
 (
-PRInt32
+int32_t
 *
 aPageNum
 )
@@ -2596,7 +2596,7 @@ nsSimplePageSequenceFrame
 :
 GetNumPages
 (
-PRInt32
+int32_t
 *
 aNumPages
 )
@@ -2646,10 +2646,10 @@ nsSimplePageSequenceFrame
 :
 GetPrintRange
 (
-PRInt32
+int32_t
 *
 aFromPage
-PRInt32
+int32_t
 *
 aToPage
 )
@@ -2959,7 +2959,7 @@ page
 number
 is
 valid
-PRInt32
+int32_t
 totalPages
 =
 mFrames
@@ -3069,7 +3069,7 @@ GetPageSize
 .
 height
 ;
-PRInt32
+int32_t
 pageNum
 =
 1
@@ -3518,7 +3518,7 @@ NS_OK
 }
 else
 {
-PRInt32
+int32_t
 length
 =
 mPageRanges
@@ -3556,7 +3556,7 @@ mPrintThisPage
 =
 false
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -3934,7 +3934,7 @@ SetSharedPageData
 mPageData
 )
 ;
-PRInt32
+int32_t
 printedPageNum
 =
 1

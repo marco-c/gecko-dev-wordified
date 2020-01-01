@@ -386,7 +386,7 @@ bool
 RecvOnStartRequest
 (
 const
-PRInt32
+int32_t
 &
 aContentLength
 const
@@ -419,11 +419,11 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 const
-PRUint32
+uint32_t
 &
 count
 )
@@ -459,7 +459,7 @@ void
 DoOnStartRequest
 (
 const
-PRInt32
+int32_t
 &
 aContentLength
 const
@@ -491,11 +491,11 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 const
-PRUint32
+uint32_t
 &
 count
 )
@@ -603,7 +603,7 @@ mEventQ
 bool
 mCanceled
 ;
-PRUint32
+uint32_t
 mSuspendCount
 ;
 bool
@@ -615,7 +615,7 @@ mWasOpened
 PRTime
 mLastModifiedTime
 ;
-PRUint64
+uint64_t
 mStartPos
 ;
 nsCString

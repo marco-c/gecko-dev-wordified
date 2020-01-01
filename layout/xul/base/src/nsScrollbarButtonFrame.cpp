@@ -482,7 +482,7 @@ LookAndFeel
 IntID
 tmpAction
 ;
-PRUint16
+uint16_t
 button
 =
 static_cast
@@ -575,7 +575,7 @@ pres
 .
 shell
 .
-PRInt32
+int32_t
 pressedButtonAction
 ;
 if
@@ -669,7 +669,7 @@ decrement
 nullptr
 }
 ;
-PRInt32
+int32_t
 index
 =
 mContent
@@ -686,7 +686,7 @@ strings
 eCaseMatters
 )
 ;
-PRInt32
+int32_t
 direction
 ;
 if
@@ -1177,7 +1177,7 @@ get
 the
 current
 pos
-PRInt32
+int32_t
 curpos
 =
 nsSliderFrame
@@ -1188,7 +1188,7 @@ GetCurrentPosition
 content
 )
 ;
-PRInt32
+int32_t
 oldpos
 =
 curpos
@@ -1199,7 +1199,7 @@ get
 the
 max
 pos
-PRInt32
+int32_t
 maxpos
 =
 nsSliderFrame

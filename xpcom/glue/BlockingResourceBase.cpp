@@ -210,14 +210,14 @@ BlockingResourceBase
 :
 sCallOnce
 ;
-PRUintn
+unsigned
 BlockingResourceBase
 :
 :
 sResourceAcqnChainFrontTPI
 =
 (
-PRUintn
+unsigned
 )
 -
 1
@@ -1851,7 +1851,7 @@ reset
 it
 to
 empty
-PRInt32
+int32_t
 savedEntryCount
 =
 mEntryCount

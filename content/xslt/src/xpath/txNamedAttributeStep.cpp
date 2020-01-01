@@ -133,7 +133,7 @@ txNamedAttributeStep
 :
 txNamedAttributeStep
 (
-PRInt32
+int32_t
 aNsID
 nsIAtom
 *

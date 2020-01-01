@@ -414,7 +414,7 @@ thread
 :
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -443,7 +443,7 @@ mFileList
 index
 ]
 ;
-PRInt32
+int32_t
 offset
 =
 item

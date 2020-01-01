@@ -113,9 +113,9 @@ nsSegmentedBuffer
 :
 Init
 (
-PRUint32
+uint32_t
 segmentSize
-PRUint32
+uint32_t
 maxSize
 nsIMemory
 *
@@ -230,7 +230,7 @@ mSegmentArray
 nullptr
 )
 {
-PRUint32
+uint32_t
 bytes
 =
 mSegmentArrayCount
@@ -281,14 +281,14 @@ IsFull
 )
 )
 {
-PRUint32
+uint32_t
 newArraySize
 =
 mSegmentArrayCount
 *
 2
 ;
-PRUint32
+uint32_t
 bytes
 =
 newArraySize
@@ -533,7 +533,7 @@ mFirstSegmentIndex
 =
 nullptr
 ;
-PRInt32
+int32_t
 last
 =
 ModSegArraySize
@@ -583,7 +583,7 @@ DeleteLastSegment
 (
 )
 {
-PRInt32
+int32_t
 last
 =
 ModSegArraySize
@@ -656,7 +656,7 @@ size_t
 newSize
 )
 {
-PRInt32
+int32_t
 last
 =
 ModSegArraySize
@@ -742,7 +742,7 @@ mSegmentArray
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -245,7 +245,7 @@ nsIKeyObject
 *
 KEY
 values
-PRUint32
+uint32_t
 mKeyType
 ;
 /

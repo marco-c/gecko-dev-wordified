@@ -175,7 +175,7 @@ nsAString
 aString
 )
 {
-PRUint32
+uint32_t
 len
 =
 aString
@@ -344,7 +344,7 @@ nsScannerBufferList
 :
 AllocBuffer
 (
-PRUint32
+uint32_t
 capacity
 )
 {
@@ -585,7 +585,7 @@ pointer
 "
 )
 ;
-PRUint32
+uint32_t
 splitOffset
 =
 pos
@@ -632,7 +632,7 @@ buffer
 "
 )
 ;
-PRUint32
+uint32_t
 len
 =
 bufferToSplit
@@ -965,7 +965,7 @@ release_ownership_of_buffer_list
 )
 ;
 }
-PRInt32
+int32_t
 nsScannerSubstring
 :
 :
@@ -1014,7 +1014,7 @@ iter
 ;
 )
 {
-PRInt32
+int32_t
 lengthToExamineInThisFragment
 =
 iter
@@ -2606,7 +2606,7 @@ first
 last
 )
 {
-PRUint32
+uint32_t
 distance
 =
 source_traits
@@ -2867,7 +2867,7 @@ nsAString
 iterator
 writer
 ;
-PRUint32
+uint32_t
 oldLength
 =
 aDest
@@ -2946,7 +2946,7 @@ aSearchStart
 aSearchEnd
 )
 {
-PRInt32
+int32_t
 fragmentLength
 ;
 if

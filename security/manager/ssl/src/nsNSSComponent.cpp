@@ -1523,7 +1523,7 @@ loading
 false
 ;
 static
-PRInt32
+int32_t
 haveLoaded
 =
 0
@@ -2580,7 +2580,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 frames
@@ -2592,7 +2592,7 @@ GetLength
 length
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -3016,7 +3016,7 @@ PRUnichar
 *
 *
 params
-PRUint32
+uint32_t
 numParams
 nsAString
 &
@@ -3176,7 +3176,7 @@ PRUnichar
 *
 *
 params
-PRUint32
+uint32_t
 numParams
 nsAString
 &
@@ -3995,7 +3995,7 @@ if
 RootsModule
 )
 {
-PRInt32
+int32_t
 modType
 ;
 SECMOD_DeleteModule
@@ -6436,7 +6436,7 @@ static
 void
 setNonPkixOcspEnabled
 (
-PRInt32
+int32_t
 ocspEnabled
 nsIPrefBranch
 *
@@ -6689,7 +6689,7 @@ crlDownloading
 =
 CRL_DOWNLOAD_DEFAULT
 ;
-PRInt32
+int32_t
 ocspEnabled
 ;
 rv
@@ -7080,7 +7080,7 @@ SkipOcspOff
 nsNSSShutDownPreventionLock
 locker
 ;
-PRInt32
+int32_t
 ocspEnabled
 ;
 if
@@ -7407,7 +7407,7 @@ char
 *
 allCrlsToBeUpdated
 ;
-PRUint32
+uint32_t
 noOfCrls
 ;
 PRTime
@@ -7488,7 +7488,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7726,7 +7726,7 @@ string
 parsed
 here
 as
-PRInt64
+int64_t
 rv
 =
 pref
@@ -8371,13 +8371,13 @@ PR_Now
 (
 )
 ;
-PRUint64
+uint64_t
 diff
 ;
-PRUint32
+uint32_t
 interval
 ;
-PRUint32
+uint32_t
 primaryDelay
 =
 CRL_AUTOUPDATE_DEFAULT_DELAY
@@ -10301,7 +10301,7 @@ libnssckbi
 so
 "
 .
-PRUint32
+uint32_t
 init_flags
 =
 NSS_INIT_NOROOTINIT
@@ -10760,7 +10760,7 @@ by
 default
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -10774,7 +10774,7 @@ SSL_NumImplementedCiphers
 i
 )
 {
-PRUint16
+uint16_t
 cipher_id
 =
 SSL_ImplementedCiphers
@@ -11758,7 +11758,7 @@ setTreatUnsafeNegotiationAsBroken
 enabled
 )
 ;
-PRInt32
+int32_t
 warnLevel
 =
 1
@@ -12038,15 +12038,15 @@ const
 char
 *
 aRSABuf
-PRUint32
+uint32_t
 aRSABufLen
 const
 char
 *
 aPlaintext
-PRUint32
+uint32_t
 aPlaintextLen
-PRInt32
+int32_t
 *
 aErrorCode
 nsIPrincipal
@@ -12201,7 +12201,7 @@ HASHContext
 *
 hash_ctxt
 ;
-PRUint32
+uint32_t
 hashLen
 =
 0
@@ -12634,7 +12634,7 @@ RandomUpdate
 void
 *
 entropy
-PRInt32
+int32_t
 bufLen
 )
 {
@@ -13690,7 +13690,7 @@ warn_missing_rfc5746
 )
 )
 {
-PRInt32
+int32_t
 warnLevel
 =
 1
@@ -15550,7 +15550,7 @@ nsCryptoHash
 :
 Init
 (
-PRUint32
+uint32_t
 algorithm
 )
 {
@@ -15804,10 +15804,10 @@ nsCryptoHash
 Update
 (
 const
-PRUint8
+uint8_t
 *
 data
-PRUint32
+uint32_t
 len
 )
 {
@@ -15842,7 +15842,7 @@ UpdateFromStream
 nsIInputStream
 *
 data
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -15862,7 +15862,7 @@ data
 return
 NS_ERROR_INVALID_ARG
 ;
-PRUint64
+uint64_t
 n
 ;
 nsresult
@@ -15903,7 +15903,7 @@ everything
 in
 the
 stream
-PRUint64
+uint64_t
 len
 =
 aLen
@@ -16004,7 +16004,7 @@ buffer
 NS_CRYPTO_HASH_BUFFER_SIZE
 ]
 ;
-PRUint32
+uint32_t
 read
 readLimit
 ;
@@ -16024,11 +16024,11 @@ len
 readLimit
 =
 (
-PRUint32
+uint32_t
 )
 NS_MIN
 <
-PRUint64
+uint64_t
 >
 (
 NS_CRYPTO_HASH_BUFFER_SIZE
@@ -16061,7 +16061,7 @@ Update
 (
 (
 const
-PRUint8
+uint8_t
 *
 )
 buffer
@@ -16102,7 +16102,7 @@ mInitialized
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-PRUint32
+uint32_t
 hashLen
 =
 0
@@ -16398,7 +16398,7 @@ nsCryptoHMAC
 :
 Init
 (
-PRUint32
+uint32_t
 aAlgorithm
 nsIKeyObject
 *
@@ -16518,7 +16518,7 @@ aKeyObject
 nsresult
 rv
 ;
-PRInt16
+int16_t
 keyType
 ;
 rv
@@ -16669,10 +16669,10 @@ nsCryptoHMAC
 Update
 (
 const
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -16743,7 +16743,7 @@ UpdateFromStream
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -16763,7 +16763,7 @@ aStream
 return
 NS_ERROR_INVALID_ARG
 ;
-PRUint64
+uint64_t
 n
 ;
 nsresult
@@ -16804,7 +16804,7 @@ everything
 in
 the
 stream
-PRUint64
+uint64_t
 len
 =
 aLen
@@ -16905,7 +16905,7 @@ buffer
 NS_CRYPTO_HASH_BUFFER_SIZE
 ]
 ;
-PRUint32
+uint32_t
 read
 readLimit
 ;
@@ -16925,11 +16925,11 @@ len
 readLimit
 =
 (
-PRUint32
+uint32_t
 )
 NS_MIN
 <
-PRUint64
+uint64_t
 >
 (
 NS_CRYPTO_HASH_BUFFER_SIZE
@@ -16972,7 +16972,7 @@ Update
 (
 (
 const
-PRUint8
+uint8_t
 *
 )
 buffer
@@ -17025,7 +17025,7 @@ mHMACContext
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-PRUint32
+uint32_t
 hashLen
 =
 0
@@ -17518,7 +17518,7 @@ PSMContentDownloader
 :
 PSMContentDownloader
 (
-PRUint32
+uint32_t
 type
 )
 :
@@ -17564,7 +17564,7 @@ nsIStreamListener
 nsIRequestObserver
 )
 const
-PRInt32
+int32_t
 kDefaultCertAllocLength
 =
 2048
@@ -17640,7 +17640,7 @@ mURI
 )
 )
 ;
-PRInt32
+int32_t
 contentLength
 ;
 rv
@@ -17724,9 +17724,9 @@ context
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -17738,7 +17738,7 @@ mByteData
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 amt
 ;
 nsresult
@@ -17765,7 +17765,7 @@ if
 mBufferOffset
 +
 (
-PRInt32
+int32_t
 )
 aLength
 )
@@ -18071,7 +18071,7 @@ certdb
 ImportCertificates
 (
 (
-PRUint8
+uint8_t
 *
 )
 mByteData
@@ -18093,7 +18093,7 @@ certdb
 ImportUserCertificate
 (
 (
-PRUint8
+uint8_t
 *
 )
 mByteData
@@ -18114,7 +18114,7 @@ certdb
 ImportEmailCertificate
 (
 (
-PRUint8
+uint8_t
 *
 )
 mByteData
@@ -18135,7 +18135,7 @@ crlManager
 ImportCrl
 (
 (
-PRUint8
+uint8_t
 *
 )
 mByteData
@@ -18284,7 +18284,7 @@ CRL_AUTOUPDATE_ERRDETAIL_PREF
 nsCString
 errMsg
 ;
-PRInt32
+int32_t
 errCnt
 ;
 nsCOMPtr
@@ -18601,7 +18601,7 @@ pre
 encrypted
 *
 /
-PRUint32
+uint32_t
 getPSMContentType
 (
 const
@@ -18962,7 +18962,7 @@ bool
 aCanHandleContent
 )
 {
-PRUint32
+uint32_t
 type
 ;
 type
@@ -19029,7 +19029,7 @@ PSMContentDownloader
 *
 downLoader
 ;
-PRUint32
+uint32_t
 type
 ;
 type

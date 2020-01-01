@@ -134,7 +134,7 @@ h
 /
 for
 |
-PRUint32
+uint32_t
 |
 .
 .
@@ -370,7 +370,7 @@ class
 T
 >
 inline
-PRUint32
+uint32_t
 NS_COUNT
 (
 InputIterator
@@ -386,7 +386,7 @@ T
 value
 )
 {
-PRUint32
+uint32_t
 result
 =
 0

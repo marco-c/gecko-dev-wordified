@@ -172,7 +172,7 @@ h
 /
 /
 for
-PRUint32
+uint32_t
 class
 nsEditor
 ;
@@ -413,7 +413,7 @@ children
 .
 *
 /
-PRUint32
+uint32_t
 mOffset
 ;
 /

@@ -278,7 +278,7 @@ JumpListItem
 :
 GetType
 (
-PRInt16
+int16_t
 *
 aType
 )
@@ -332,7 +332,7 @@ aResult
 =
 false
 ;
-PRInt16
+int16_t
 theType
 =
 nsIJumpListItem
@@ -697,7 +697,7 @@ aResult
 =
 false
 ;
-PRInt16
+int16_t
 theType
 =
 nsIJumpListItem
@@ -980,7 +980,7 @@ JumpListShortcut
 :
 GetIconIndex
 (
-PRInt32
+int32_t
 *
 aIconIndex
 )
@@ -1005,7 +1005,7 @@ JumpListShortcut
 :
 SetIconIndex
 (
-PRInt32
+int32_t
 aIconIndex
 )
 {
@@ -1106,7 +1106,7 @@ aResult
 =
 false
 ;
-PRInt16
+int16_t
 theType
 =
 nsIJumpListItem
@@ -1182,7 +1182,7 @@ icon
 index
 /
 /
-PRInt32
+int32_t
 idx
 ;
 /
@@ -1577,7 +1577,7 @@ VS
 )
 .
 aspx
-PRInt16
+int16_t
 type
 ;
 if
@@ -1705,7 +1705,7 @@ appTitle
 appDescription
 appArgs
 ;
-PRInt32
+int32_t
 appIconIndex
 =
 0
@@ -1751,7 +1751,7 @@ rv
 Command
 line
 parameters
-PRUint32
+uint32_t
 count
 =
 0
@@ -1767,7 +1767,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -2593,10 +2593,10 @@ LPWSTR
 *
 arglist
 ;
-PRInt32
+int32_t
 numArgs
 ;
-PRInt32
+int32_t
 idx
 ;
 arglist
@@ -2936,7 +2936,7 @@ nullptr
 nsresult
 rv
 ;
-PRInt16
+int16_t
 type
 ;
 if

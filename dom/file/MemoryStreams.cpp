@@ -138,7 +138,7 @@ MemoryOutputStream
 :
 Create
 (
-PRUint64
+uint64_t
 aSize
 )
 {
@@ -177,7 +177,7 @@ char
 *
 dummy
 ;
-PRUint32
+uint32_t
 length
 =
 stream
@@ -246,9 +246,9 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -288,9 +288,9 @@ WriteFrom
 nsIInputStream
 *
 aFromStream
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -310,9 +310,9 @@ aReader
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -335,7 +335,7 @@ state
 "
 )
 ;
-PRUint32
+uint32_t
 maxCount
 =
 mData

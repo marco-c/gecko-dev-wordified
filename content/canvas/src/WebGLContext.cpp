@@ -1765,9 +1765,9 @@ WebGLContext
 :
 SetDimensions
 (
-PRInt32
+int32_t
 width
-PRInt32
+int32_t
 height
 )
 {
@@ -2670,7 +2670,7 @@ force
 false
 )
 ;
-PRInt32
+int32_t
 status
 ;
 nsCOMPtr
@@ -2735,7 +2735,7 @@ FEATURE_NO_INFO
 forceMSAA
 )
 {
-PRUint32
+uint32_t
 msaaLevel
 =
 Preferences
@@ -3502,7 +3502,7 @@ gfxPattern
 :
 GraphicsFilter
 f
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -4455,7 +4455,7 @@ y
 flip
 gets
 applied
-PRUint32
+uint32_t
 flags
 =
 mOptions
@@ -4814,7 +4814,7 @@ value
 ;
 }
 static
-PRUint8
+uint8_t
 gWebGLLayerUserData
 ;
 namespace
@@ -5397,7 +5397,7 @@ Initialize
 data
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 gl
@@ -5769,7 +5769,7 @@ WebGLContext
 :
 MozGetUnderlyingParamString
 (
-PRUint32
+uint32_t
 pname
 nsAString
 &
@@ -6610,7 +6610,7 @@ WebGLContext
 :
 ForceClearFramebufferWithDefaultValues
 (
-PRUint32
+uint32_t
 mask
 const
 nsIntRect
@@ -9052,7 +9052,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

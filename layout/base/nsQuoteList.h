@@ -163,7 +163,7 @@ non
 -
 negative
 .
-PRInt32
+int32_t
 mDepthBefore
 ;
 nsQuoteNode
@@ -171,7 +171,7 @@ nsQuoteNode
 nsStyleContentType
 &
 aType
-PRUint32
+uint32_t
 aContentIndex
 )
 :
@@ -397,7 +397,7 @@ be
 rendered
 )
 .
-PRInt32
+int32_t
 Depth
 (
 )
@@ -420,7 +420,7 @@ always
 non
 -
 negative
-PRInt32
+int32_t
 DepthAfter
 (
 )

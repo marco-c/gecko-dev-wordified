@@ -133,7 +133,7 @@ nsresult
 HandleStartFn
 )
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -144,7 +144,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -182,7 +182,7 @@ aState
 struct
 txElementHandler
 {
-PRInt32
+int32_t
 mNamespaceID
 ;
 const
@@ -225,7 +225,7 @@ const
 txElementHandler
 *
 aHandlers
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -234,7 +234,7 @@ txElementHandler
 *
 find
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

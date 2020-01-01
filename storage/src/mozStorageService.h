@@ -337,7 +337,7 @@ const
 nsAString
 &
 aStr2
-PRInt32
+int32_t
 aComparisonStrength
 )
 ;
@@ -403,7 +403,7 @@ preference
 *
 /
 static
-PRInt32
+int32_t
 getSynchronousPref
 (
 )
@@ -877,7 +877,7 @@ nsIXPConnect
 sXPConnect
 ;
 static
-PRInt32
+int32_t
 sSynchronousPref
 ;
 friend

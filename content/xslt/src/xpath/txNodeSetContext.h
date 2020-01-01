@@ -200,7 +200,7 @@ mPosition
 void
 setPosition
 (
-PRUint32
+uint32_t
 aPosition
 )
 {
@@ -240,7 +240,7 @@ txNodeSet
 >
 mContextSet
 ;
-PRUint32
+uint32_t
 mPosition
 ;
 txIMatchContext

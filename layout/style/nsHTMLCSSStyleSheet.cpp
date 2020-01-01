@@ -1111,7 +1111,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -1121,7 +1121,7 @@ const
 Indent
 for
 (
-PRInt32
+int32_t
 index
 =
 aIndent

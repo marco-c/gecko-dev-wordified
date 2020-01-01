@@ -470,7 +470,7 @@ oldChan
 nsIChannel
 *
 newChan
-PRUint32
+uint32_t
 flags
 nsAsyncRedirectVerifyHelper
 *
@@ -592,11 +592,11 @@ nsIProtocolHandler
 *
 *
 hdlrResult
-PRUint32
+uint32_t
 start
 =
 0
-PRUint32
+uint32_t
 end
 =
 0
@@ -690,7 +690,7 @@ aURI
 nsIURI
 *
 aProxyURI
-PRUint32
+uint32_t
 aProxyFlags
 nsCString
 *
@@ -803,7 +803,7 @@ mContentSniffers
 ;
 nsTArray
 <
-PRInt32
+int32_t
 >
 mRestrictedPortList
 ;
@@ -825,11 +825,11 @@ necko
 allocates
 .
 static
-PRUint32
+uint32_t
 gDefaultSegmentSize
 ;
 static
-PRUint32
+uint32_t
 gDefaultSegmentCount
 ;
 }

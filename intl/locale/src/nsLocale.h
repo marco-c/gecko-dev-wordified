@@ -289,7 +289,7 @@ PLHashTable
 *
 fHashtable
 ;
-PRUint32
+uint32_t
 fCategoryCount
 ;
 }

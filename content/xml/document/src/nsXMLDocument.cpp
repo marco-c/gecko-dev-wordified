@@ -2147,7 +2147,7 @@ rv
 rv
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -3141,7 +3141,7 @@ scripts
 and
 styles
 }
-PRInt32
+int32_t
 charsetSource
 =
 kCharsetFromDocTypeDefault

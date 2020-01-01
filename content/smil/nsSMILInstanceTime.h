@@ -732,7 +732,7 @@ similar
 instance
 times
 .
-PRUint32
+uint32_t
 Serial
 (
 )
@@ -745,7 +745,7 @@ mSerial
 void
 SetSerial
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1046,7 +1046,7 @@ kWasDynamicEndpoint
 8
 }
 ;
-PRUint8
+uint8_t
 mFlags
 ;
 /
@@ -1196,17 +1196,17 @@ limited
 range
 of
 a
-PRUint16
+uint16_t
 should
 be
 more
 than
 adequate
 .
-PRUint16
+uint16_t
 mFixedEndpointRefCnt
 ;
-PRUint32
+uint32_t
 mSerial
 ;
 /

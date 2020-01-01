@@ -220,7 +220,7 @@ if
 mChildPID
 )
 {
-PRInt32
+int32_t
 exitCode
 ;
 PR_WaitProcess
@@ -500,7 +500,7 @@ nsACString
 aString
 )
 {
-PRInt32
+int32_t
 length
 =
 aString
@@ -759,7 +759,7 @@ kind
 *
 /
 static
-PRUint8
+uint8_t
 *
 ExtractMessage
 (
@@ -767,7 +767,7 @@ const
 nsACString
 &
 aLine
-PRUint32
+uint32_t
 *
 aLen
 )
@@ -797,7 +797,7 @@ the
 response
 line
 .
-PRInt32
+int32_t
 length
 =
 aLine
@@ -973,7 +973,7 @@ this
 in
 plbase64
 .
-PRInt32
+int32_t
 numEquals
 ;
 for
@@ -1026,7 +1026,7 @@ numEquals
 return
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -1265,7 +1265,7 @@ const
 char
 *
 serviceName
-PRUint32
+uint32_t
 serviceFlags
 const
 PRUnichar
@@ -1313,13 +1313,13 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -1506,7 +1506,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint8
+uint8_t
 *
 buf
 =
@@ -1611,13 +1611,13 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -1636,7 +1636,7 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 bool
 confidential
@@ -1644,7 +1644,7 @@ void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -1659,7 +1659,7 @@ nsAuthSambaNTLM
 :
 GetModuleProperties
 (
-PRUint32
+uint32_t
 *
 flags
 )

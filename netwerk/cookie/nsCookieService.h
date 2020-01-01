@@ -595,10 +595,10 @@ nsCookieEntry
 >
 hostTable
 ;
-PRUint32
+uint32_t
 cookieCount
 ;
-PRInt64
+int64_t
 cookieOldestTime
 ;
 nsCOMPtr
@@ -1366,7 +1366,7 @@ aStatus
 nsDependentCString
 &
 aCookieHeader
-PRInt64
+int64_t
 aServerTime
 bool
 aFromHttp
@@ -1382,7 +1382,7 @@ aBaseDomain
 nsCookie
 *
 aCookie
-PRInt64
+int64_t
 aCurrentTimeInUsec
 nsIURI
 *
@@ -1437,7 +1437,7 @@ UpdateCookieInList
 nsCookie
 *
 aCookie
-PRInt64
+int64_t
 aLastAccessed
 mozIStorageBindingParamsArray
 *
@@ -1544,9 +1544,9 @@ GetExpiry
 nsCookieAttributes
 &
 aCookie
-PRInt64
+int64_t
 aServerTime
-PRInt64
+int64_t
 aCurrentTime
 )
 ;
@@ -1561,7 +1561,7 @@ nsIArray
 >
 PurgeCookies
 (
-PRInt64
+int64_t
 aCurrentTimeInUsec
 )
 ;
@@ -1596,7 +1596,7 @@ FindStaleCookie
 nsCookieEntry
 *
 aEntry
-PRInt64
+int64_t
 aCurrentTime
 nsListIter
 &
@@ -1782,7 +1782,7 @@ mPrivateDBState
 /
 cached
 prefs
-PRUint8
+uint8_t
 mCookieBehavior
 ;
 /
@@ -1796,13 +1796,13 @@ REJECT
 bool
 mThirdPartySession
 ;
-PRUint16
+uint16_t
 mMaxNumberOfCookies
 ;
-PRUint16
+uint16_t
 mMaxCookiesPerHost
 ;
-PRInt64
+int64_t
 mCookiePurgeAge
 ;
 /

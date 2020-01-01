@@ -294,7 +294,7 @@ buf
 aStr
 )
 ;
-PRInt32
+int32_t
 n
 =
 buf
@@ -460,7 +460,7 @@ blah
 "
 )
 ;
-PRInt32
+int32_t
 i
 =
 src
@@ -539,7 +539,7 @@ src
 text
 )
 ;
-PRInt32
+int32_t
 i
 ;
 i
@@ -754,7 +754,7 @@ src
 text
 )
 ;
-PRInt32
+int32_t
 i
 =
 src
@@ -828,7 +828,7 @@ value
 text
 )
 ;
-PRInt32
+int32_t
 i
 =
 value
@@ -882,7 +882,7 @@ msf
 "
 )
 ;
-PRInt32
+int32_t
 i
 =
 value
@@ -3738,7 +3738,7 @@ false
 ;
 /
 *
-PRInt32
+int32_t
 index
 =
 a
@@ -4172,16 +4172,16 @@ str
 nsCString
 cstr
 ;
-PRInt32
+int32_t
 L
 ;
-PRUint32
+uint32_t
 UL
 ;
-PRInt64
+int64_t
 LL
 ;
-PRUint64
+uint64_t
 ULL
 ;
 test_appends
@@ -4312,7 +4312,7 @@ test_appendint64
 nsCString
 str
 ;
-PRInt64
+int64_t
 max
 =
 LL_MaxInt
@@ -4330,7 +4330,7 @@ max_expected
 9223372036854775807
 "
 ;
-PRInt64
+int64_t
 min
 =
 LL_MinInt
@@ -4360,7 +4360,7 @@ min_expected_oct
 1000000000000000000000
 "
 ;
-PRInt64
+int64_t
 maxint_plus1
 =
 LL_INIT
@@ -4851,7 +4851,7 @@ you
 "
 )
 ;
-PRInt32
+int32_t
 index
 =
 buf
@@ -4915,7 +4915,7 @@ index
 !
 =
 (
-PRInt32
+int32_t
 )
 buf
 .
@@ -4949,7 +4949,7 @@ you
 "
 )
 ;
-PRInt32
+int32_t
 index
 =
 buf
@@ -5690,10 +5690,10 @@ char
 *
 str
 ;
-PRUint32
+uint32_t
 radix
 ;
-PRInt32
+int32_t
 result
 ;
 nsresult
@@ -5746,7 +5746,7 @@ test_string_tointeger
 (
 )
 {
-PRInt32
+int32_t
 i
 ;
 nsresult
@@ -5771,7 +5771,7 @@ str
 t
 )
 {
-PRInt32
+int32_t
 result
 =
 nsCAutoString
@@ -6197,7 +6197,7 @@ const
 nsAString
 &
 result
-PRUint32
+uint32_t
 offset
 =
 0
@@ -7491,7 +7491,7 @@ bool
 aSuccess
 )
 {
-PRInt32
+int32_t
 result
 ;
 return
@@ -7733,7 +7733,7 @@ bool
 aSuccess
 )
 {
-PRInt32
+int32_t
 result
 ;
 return

@@ -307,7 +307,7 @@ MODIFIER_OS
 /
 /
 /
-PRInt32
+int32_t
 nsMenuBarListener
 :
 :
@@ -316,7 +316,7 @@ mAccessKey
 -
 1
 ;
-PRUint32
+uint32_t
 nsMenuBarListener
 :
 :
@@ -443,7 +443,7 @@ nsMenuBarListener
 :
 GetMenuAccessKey
 (
-PRInt32
+int32_t
 *
 aAccessKey
 )
@@ -935,7 +935,7 @@ ascii
 key
 code
 .
-PRUint32
+uint32_t
 theChar
 ;
 keyEvent
@@ -961,7 +961,7 @@ mAccessKeyDownCanceled
 &
 &
 (
-PRInt32
+int32_t
 )
 theChar
 =
@@ -1296,7 +1296,7 @@ do_QueryInterface
 aKeyEvent
 )
 ;
-PRUint32
+uint32_t
 keyCode
 charCode
 ;
@@ -1364,7 +1364,7 @@ nativeKeyEvent
 {
 nsAutoTArray
 <
-PRUint32
+uint32_t
 10
 >
 keys
@@ -1410,7 +1410,7 @@ keyCode
 !
 =
 (
-PRUint32
+uint32_t
 )
 mAccessKey
 )
@@ -1717,7 +1717,7 @@ except
 for
 Shift
 .
-PRUint32
+uint32_t
 modifiers
 =
 GetModifiers
@@ -1756,7 +1756,7 @@ MODIFIER_SHIFT
 )
 ;
 }
-PRUint32
+uint32_t
 nsMenuBarListener
 :
 :
@@ -1767,7 +1767,7 @@ nsIDOMKeyEvent
 aKeyEvent
 )
 {
-PRUint32
+uint32_t
 modifiers
 =
 0
@@ -2041,7 +2041,7 @@ do_QueryInterface
 aKeyEvent
 )
 ;
-PRUint32
+uint32_t
 theChar
 ;
 keyEvent
@@ -2107,7 +2107,7 @@ theChar
 =
 =
 (
-PRUint32
+uint32_t
 )
 mAccessKey
 )
@@ -2569,7 +2569,7 @@ mAccessKeyDownCanceled
 true
 ;
 }
-PRUint16
+uint16_t
 phase
 =
 0

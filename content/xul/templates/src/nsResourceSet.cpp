@@ -325,7 +325,7 @@ mCount
 mCapacity
 )
 {
-PRInt32
+int32_t
 capacity
 =
 mCapacity
@@ -354,7 +354,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mCount
@@ -516,7 +516,7 @@ const
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mCount

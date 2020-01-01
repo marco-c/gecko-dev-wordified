@@ -359,7 +359,7 @@ char
 *
 key
 ;
-PRUint32
+uint32_t
 flag
 ;
 }
@@ -375,7 +375,7 @@ const
 ReadFlag
 *
 reads
-PRUint32
+uint32_t
 *
 buffer
 )

@@ -3181,7 +3181,7 @@ sequence
 of
 bytes
 .
-PRUint32
+uint32_t
 i
 ;
 char
@@ -10788,7 +10788,7 @@ SetDisplayName
 text
 )
 ;
-PRInt32
+int32_t
 i
 ;
 nsresult
@@ -12407,7 +12407,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 getCertType
 (
 CERTCertificate

@@ -139,7 +139,7 @@ mCollation
 XP
 collation
 class
-PRUint32
+uint32_t
 mLCID
 ;
 /

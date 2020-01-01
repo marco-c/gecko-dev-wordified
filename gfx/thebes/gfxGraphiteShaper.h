@@ -175,7 +175,7 @@ void
 *
 GetTable
 (
-PRUint32
+uint32_t
 aTag
 size_t
 *
@@ -217,7 +217,7 @@ void
 *
 mData
 ;
-PRUint32
+uint32_t
 mLength
 ;
 }
@@ -290,7 +290,7 @@ Graphite
 language
 code
 static
-PRUint32
+uint32_t
 GetGraphiteTagForLang
 (
 const

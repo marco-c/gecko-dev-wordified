@@ -314,7 +314,7 @@ Release
 (
 )
 {
-PRUint32
+uint32_t
 refReturn
 ;
 refReturn
@@ -456,7 +456,7 @@ Length
 return
 S_FALSE
 ;
-PRUint32
+uint32_t
 left
 =
 mFormatList
@@ -475,14 +475,14 @@ aMaxToFetch
 return
 S_FALSE
 ;
-PRUint32
+uint32_t
 count
 =
 NS_MIN
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aMaxToFetch
@@ -490,7 +490,7 @@ aMaxToFetch
 left
 )
 ;
-PRUint32
+uint32_t
 idx
 =
 0
@@ -760,7 +760,7 @@ CEnumFormatEtc
 :
 SetIndex
 (
-PRUint32
+uint32_t
 aIdx
 )
 {

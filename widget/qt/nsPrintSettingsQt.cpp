@@ -320,7 +320,7 @@ nsPrintSettingsQt
 :
 GetPrintRange
 (
-PRInt16
+int16_t
 *
 aPrintRange
 )
@@ -396,7 +396,7 @@ nsPrintSettingsQt
 :
 SetPrintRange
 (
-PRInt16
+int16_t
 aPrintRange
 )
 {
@@ -465,7 +465,7 @@ nsPrintSettingsQt
 :
 GetStartPageRange
 (
-PRInt32
+int32_t
 *
 aStartPageRange
 )
@@ -475,7 +475,7 @@ NS_ENSURE_ARG_POINTER
 aStartPageRange
 )
 ;
-PRInt32
+int32_t
 start
 =
 mQPrinter
@@ -500,11 +500,11 @@ nsPrintSettingsQt
 :
 SetStartPageRange
 (
-PRInt32
+int32_t
 aStartPageRange
 )
 {
-PRInt32
+int32_t
 endRange
 =
 mQPrinter
@@ -533,7 +533,7 @@ nsPrintSettingsQt
 :
 GetEndPageRange
 (
-PRInt32
+int32_t
 *
 aEndPageRange
 )
@@ -543,7 +543,7 @@ NS_ENSURE_ARG_POINTER
 aEndPageRange
 )
 ;
-PRInt32
+int32_t
 end
 =
 mQPrinter
@@ -568,11 +568,11 @@ nsPrintSettingsQt
 :
 SetEndPageRange
 (
-PRInt32
+int32_t
 aEndPageRange
 )
 {
-PRInt32
+int32_t
 startRange
 =
 mQPrinter
@@ -791,7 +791,7 @@ nsPrintSettingsQt
 :
 GetOrientation
 (
-PRInt32
+int32_t
 *
 aOrientation
 )
@@ -849,7 +849,7 @@ nsPrintSettingsQt
 :
 SetOrientation
 (
-PRInt32
+int32_t
 aOrientation
 )
 {
@@ -1101,7 +1101,7 @@ nsPrintSettingsQt
 :
 GetNumCopies
 (
-PRInt32
+int32_t
 *
 aNumCopies
 )
@@ -1131,7 +1131,7 @@ nsPrintSettingsQt
 :
 SetNumCopies
 (
-PRInt32
+int32_t
 aNumCopies
 )
 {
@@ -1599,7 +1599,7 @@ aPaperName
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1656,7 +1656,7 @@ QPrinter
 Unit
 GetQtUnit
 (
-PRInt16
+int16_t
 aGeckoUnit
 )
 {
@@ -2034,7 +2034,7 @@ nsPrintSettingsQt
 :
 SetPaperSizeUnit
 (
-PRInt16
+int16_t
 aPaperSizeUnit
 )
 {

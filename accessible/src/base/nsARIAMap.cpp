@@ -1927,7 +1927,7 @@ ATTR_BYPASSOBJ
 }
 }
 ;
-PRUint32
+uint32_t
 nsARIAMap
 :
 :
@@ -2066,12 +2066,12 @@ nextToken
 (
 )
 ;
-PRUint32
+uint32_t
 low
 =
 0
 ;
-PRUint32
+uint32_t
 high
 =
 ArrayLength
@@ -2086,7 +2086,7 @@ low
 high
 )
 {
-PRUint32
+uint32_t
 idx
 =
 (
@@ -2097,7 +2097,7 @@ high
 /
 2
 ;
-PRInt32
+int32_t
 compare
 =
 Compare
@@ -2173,7 +2173,7 @@ return
 sLandmarkRoleMap
 ;
 }
-PRUint64
+uint64_t
 aria
 :
 :
@@ -2190,12 +2190,12 @@ Element
 aElement
 )
 {
-PRUint64
+uint64_t
 state
 =
 0
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -2392,7 +2392,7 @@ continue
 /
 Not
 ARIA
-PRUint8
+uint8_t
 attrFlags
 =
 nsAccUtils

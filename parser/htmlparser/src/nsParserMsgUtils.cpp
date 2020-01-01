@@ -328,7 +328,7 @@ const
 char
 *
 aPropFileName
-PRUint32
+uint32_t
 aID
 nsString
 &

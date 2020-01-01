@@ -208,7 +208,7 @@ char
 *
 *
 aFilename
-PRUint32
+uint32_t
 *
 aLineno
 )
@@ -296,7 +296,7 @@ ID
 *
 *
 returns
-PRUint64
+uint64_t
 the
 inner
 window
@@ -305,7 +305,7 @@ ID
 *
 /
 static
-PRUint64
+uint64_t
 GetCurrentlyRunningCodeInnerWindowID
 (
 JSContext

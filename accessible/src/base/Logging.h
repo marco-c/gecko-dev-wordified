@@ -272,7 +272,7 @@ logged
 bool
 IsEnabled
 (
-PRUint32
+uint32_t
 aModules
 )
 ;
@@ -301,7 +301,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 )
 ;

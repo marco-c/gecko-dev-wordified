@@ -168,7 +168,7 @@ ASpdySession
 :
 NewSpdySession
 (
-PRUint32
+uint32_t
 version
 nsAHttpTransaction
 *
@@ -176,7 +176,7 @@ aTransaction
 nsISocketTransport
 *
 aTransport
-PRInt32
+int32_t
 aPriority
 )
 {
@@ -425,7 +425,7 @@ SpdyInformation
 :
 ProtocolEnabled
 (
-PRUint32
+uint32_t
 index
 )
 {
@@ -484,7 +484,7 @@ const
 nsACString
 &
 npnString
-PRUint8
+uint8_t
 *
 result
 )
@@ -559,7 +559,7 @@ const
 char
 *
 val
-PRUint8
+uint8_t
 *
 result
 )

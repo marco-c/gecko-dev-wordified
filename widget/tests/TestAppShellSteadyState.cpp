@@ -1070,7 +1070,7 @@ false
 )
 ;
 }
-PRInt32
+int32_t
 layout
 =
 0x409
@@ -1078,7 +1078,7 @@ layout
 /
 /
 US
-PRInt32
+int32_t
 keyCode
 =
 0x41
@@ -1872,7 +1872,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 flags
 =
 nsIWebBrowserChrome

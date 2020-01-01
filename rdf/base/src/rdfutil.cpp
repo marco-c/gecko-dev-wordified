@@ -405,7 +405,7 @@ ll
 just
 bail
 .
-PRUint32
+uint32_t
 prefixLen
 =
 aBaseURI
@@ -584,7 +584,7 @@ Append
 "
 )
 ;
-PRInt32
+int32_t
 usec
 =
 t
@@ -593,7 +593,7 @@ tm_usec
 ;
 for
 (
-PRInt32
+int32_t
 digit
 =
 100000
@@ -674,7 +674,7 @@ true
 t
 )
 ;
-PRInt32
+int32_t
 usec
 =
 0

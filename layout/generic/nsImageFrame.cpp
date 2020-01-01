@@ -587,7 +587,7 @@ value
 #
 define
 ALIGN_UNSET
-PRUint8
+uint8_t
 (
 -
 1
@@ -2432,7 +2432,7 @@ content
 "
 )
 ;
-PRInt32
+int32_t
 requestType
 =
 nsIImageLoadingContent
@@ -4005,7 +4005,7 @@ us
 "
 )
 ;
-PRInt32
+int32_t
 loadType
 =
 nsIImageLoadingContent
@@ -4562,7 +4562,7 @@ currentRequest
 )
 )
 ;
-PRUint32
+uint32_t
 status
 =
 0
@@ -4811,7 +4811,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -5497,7 +5497,7 @@ than
 our
 available
 height
-PRUint32
+uint32_t
 loadStatus
 =
 imgIRequest
@@ -5909,11 +5909,11 @@ const
 PRUnichar
 *
 aString
-PRInt32
+int32_t
 aLength
 nscoord
 aMaxWidth
-PRUint32
+uint32_t
 &
 aMaxFit
 nsRenderingContext
@@ -5965,7 +5965,7 @@ we
 can
 line
 break
-PRUint32
+uint32_t
 len
 =
 aLength
@@ -5977,7 +5977,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6426,7 +6426,7 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 strLen
 =
 aAltText
@@ -6527,7 +6527,7 @@ display
 on
 this
 line
-PRUint32
+uint32_t
 maxFit
 ;
 /
@@ -7196,7 +7196,7 @@ and
 decoded
 draw
 it
-PRUint32
+uint32_t
 imageStatus
 =
 0
@@ -7471,7 +7471,7 @@ ICON_PADDING
 pixels
 for
 padding
-PRInt32
+int32_t
 iconWidth
 =
 nsPresContext
@@ -7810,7 +7810,7 @@ ShouldSyncDecodeImages
 )
 ?
 (
-PRUint32
+uint32_t
 )
 imgIContainer
 :
@@ -7818,7 +7818,7 @@ imgIContainer
 FLAG_SYNC_DECODE
 :
 (
-PRUint32
+uint32_t
 )
 imgIContainer
 :
@@ -7880,7 +7880,7 @@ GetDestRect
 (
 )
 {
-PRInt32
+int32_t
 factor
 =
 mFrame
@@ -8009,10 +8009,10 @@ return
 LAYER_NONE
 ;
 }
-PRInt32
+int32_t
 imageWidth
 ;
-PRInt32
+int32_t
 imageHeight
 ;
 mImage
@@ -8294,10 +8294,10 @@ mFrame
 )
 )
 ;
-PRInt32
+int32_t
 imageWidth
 ;
-PRInt32
+int32_t
 imageHeight
 ;
 mImage
@@ -8427,7 +8427,7 @@ aDirtyRect
 imgIContainer
 *
 aImage
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -8873,7 +8873,7 @@ haveSize
 =
 false
 ;
-PRUint32
+uint32_t
 imageStatus
 =
 0
@@ -9183,7 +9183,7 @@ PresContext
 (
 )
 ;
-PRInt16
+int16_t
 displaySelection
 =
 presContext
@@ -9341,7 +9341,7 @@ result
 selection
 )
 {
-PRInt32
+int32_t
 rangeCount
 ;
 selection
@@ -9393,7 +9393,7 @@ if
 parentContent
 )
 {
-PRInt32
+int32_t
 thisOffset
 =
 parentContent
@@ -9421,7 +9421,7 @@ nsIDOMNode
 >
 rangeNode
 ;
-PRInt32
+int32_t
 rangeOffset
 ;
 nsCOMPtr
@@ -10868,12 +10868,12 @@ nsImageFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -10992,7 +10992,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -12155,7 +12155,7 @@ prefs
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -12325,7 +12325,7 @@ OnStartFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -12369,7 +12369,7 @@ OnStopFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {

@@ -435,7 +435,7 @@ ms
 >
 Init
 (
-PRInt64
+int64_t
 (
 mCurrentTime
 *
@@ -1307,7 +1307,7 @@ nsBuiltinDecoder
 :
 RequestFrameBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1618,12 +1618,12 @@ nsTimeRanges
 aRanges
 double
 aValue
-PRInt32
+int32_t
 &
 aIntervalIndex
 )
 {
-PRUint32
+uint32_t
 length
 ;
 aRanges
@@ -1636,7 +1636,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1772,7 +1772,7 @@ seekable
 nsresult
 res
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -1898,7 +1898,7 @@ element
 html
 #
 seeking
-PRInt32
+int32_t
 range
 =
 0
@@ -1953,7 +1953,7 @@ is
 .
 if
 (
-PRUint32
+uint32_t
 (
 range
 +
@@ -2350,7 +2350,7 @@ AudioAvailable
 float
 *
 aFrameBuffer
-PRUint32
+uint32_t
 aFrameBufferLength
 float
 aTime
@@ -2456,9 +2456,9 @@ nsBuiltinDecoder
 :
 MetadataLoaded
 (
-PRUint32
+uint32_t
 aChannels
-PRUint32
+uint32_t
 aRate
 bool
 aHasAudio
@@ -3527,7 +3527,7 @@ thread
 "
 )
 ;
-PRInt64
+int64_t
 length
 =
 mResource
@@ -3633,10 +3633,10 @@ return
 bool
 reliable
 ;
-PRUint32
+uint32_t
 rate
 =
-PRUint32
+uint32_t
 (
 ComputePlaybackRate
 (
@@ -3982,7 +3982,7 @@ nsBuiltinDecoder
 :
 NotifyBytesConsumed
 (
-PRInt64
+int64_t
 aBytes
 )
 {
@@ -5042,7 +5042,7 @@ mon
 mReentrantMonitor
 )
 ;
-PRInt64
+int64_t
 oldDuration
 =
 mDuration
@@ -5155,7 +5155,7 @@ mDuration
 =
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 NS_round
@@ -5466,7 +5466,7 @@ SetFragmentEndTime
 (
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 aTime
@@ -5755,7 +5755,7 @@ nsBuiltinDecoder
 :
 UpdatePlaybackOffset
 (
-PRInt64
+int64_t
 aOffset
 )
 {
@@ -5870,7 +5870,7 @@ OutputMediaStream
 :
 Init
 (
-PRInt64
+int64_t
 aInitialTime
 SourceMediaStream
 *

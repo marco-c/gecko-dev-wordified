@@ -474,7 +474,7 @@ PeekOffsetNoAmount
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -485,7 +485,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -503,7 +503,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -926,7 +926,7 @@ const
 nsRect
 &
 aVisualOverflowArea
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -1046,7 +1046,7 @@ aStyleContext
 nsIView
 *
 aView
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -1339,7 +1339,7 @@ nscoord
 aX
 nscoord
 aY
-PRUint32
+uint32_t
 aFlags
 nsReflowStatus
 &
@@ -1539,7 +1539,7 @@ nscoord
 aX
 nscoord
 aY
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -2248,7 +2248,7 @@ aReflowState
 nsOverflowAreas
 &
 aOverflowRects
-PRUint32
+uint32_t
 aFlags
 nsReflowStatus
 &
@@ -2785,7 +2785,7 @@ const
 nsDisplayListSet
 &
 aLists
-PRUint32
+uint32_t
 aFlags
 =
 0

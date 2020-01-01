@@ -230,7 +230,7 @@ up
 *
 *
 return
-PRInt32
+int32_t
 The
 nsHTMLTag
 enum
@@ -263,7 +263,7 @@ values
 *
 /
 virtual
-PRInt32
+int32_t
 HTMLAtomTagToId
 (
 nsIAtom
@@ -304,7 +304,7 @@ up
 *
 *
 return
-PRInt32
+int32_t
 The
 nsHTMLTag
 enum
@@ -337,7 +337,7 @@ values
 *
 /
 virtual
-PRInt32
+int32_t
 HTMLCaseSensitiveAtomTagToId
 (
 nsIAtom
@@ -385,7 +385,7 @@ up
 *
 *
 return
-PRInt32
+int32_t
 The
 nsHTMLTag
 enum
@@ -418,7 +418,7 @@ values
 *
 /
 virtual
-PRInt32
+int32_t
 HTMLStringTagToId
 (
 const
@@ -516,7 +516,7 @@ PRUnichar
 *
 HTMLIdToStringTag
 (
-PRInt32
+int32_t
 aId
 )
 const
@@ -607,7 +607,7 @@ nsIAtom
 *
 HTMLIdToAtomTag
 (
-PRInt32
+int32_t
 aId
 )
 const
@@ -621,7 +621,7 @@ const
 nsAString
 &
 aEntity
-PRInt32
+int32_t
 *
 aUnicode
 )
@@ -632,7 +632,7 @@ const
 NS_IMETHOD
 HTMLConvertUnicodeToEntity
 (
-PRInt32
+int32_t
 aUnicode
 nsCString
 &
@@ -645,7 +645,7 @@ const
 NS_IMETHOD
 IsContainer
 (
-PRInt32
+int32_t
 aId
 bool
 &
@@ -658,7 +658,7 @@ const
 NS_IMETHOD
 IsBlock
 (
-PRInt32
+int32_t
 aId
 bool
 &

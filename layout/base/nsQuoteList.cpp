@@ -316,7 +316,7 @@ GetStyleQuotes
 (
 )
 ;
-PRInt32
+int32_t
 quotesCount
 =
 styleQuotes
@@ -335,7 +335,7 @@ quotes
 :
 none
 '
-PRInt32
+int32_t
 quoteDepth
 =
 Depth
@@ -562,7 +562,7 @@ return
 ;
 do
 {
-PRInt32
+int32_t
 oldDepth
 =
 node

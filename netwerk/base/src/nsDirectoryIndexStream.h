@@ -162,13 +162,13 @@ private
 nsCString
 mBuf
 ;
-PRInt32
+int32_t
 mOffset
 ;
 nsresult
 mStatus
 ;
-PRInt32
+int32_t
 mPos
 ;
 /

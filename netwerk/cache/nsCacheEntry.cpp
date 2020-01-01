@@ -1568,7 +1568,7 @@ nsCacheEntryInfo
 :
 GetFetchCount
 (
-PRInt32
+int32_t
 *
 fetchCount
 )
@@ -1606,7 +1606,7 @@ nsCacheEntryInfo
 :
 GetLastFetched
 (
-PRUint32
+uint32_t
 *
 lastFetched
 )
@@ -1644,7 +1644,7 @@ nsCacheEntryInfo
 :
 GetLastModified
 (
-PRUint32
+uint32_t
 *
 lastModified
 )
@@ -1682,7 +1682,7 @@ nsCacheEntryInfo
 :
 GetExpirationTime
 (
-PRUint32
+uint32_t
 *
 expirationTime
 )
@@ -1720,7 +1720,7 @@ nsCacheEntryInfo
 :
 GetDataSize
 (
-PRUint32
+uint32_t
 *
 dataSize
 )

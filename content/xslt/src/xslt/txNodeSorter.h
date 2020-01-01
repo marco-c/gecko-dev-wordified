@@ -270,7 +270,7 @@ aKey
 SortData
 *
 aSortData
-PRUint32
+uint32_t
 aNodeIndex
 )
 ;

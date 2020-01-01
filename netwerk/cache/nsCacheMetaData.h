@@ -178,7 +178,7 @@ char
 value
 )
 ;
-PRUint32
+uint32_t
 Size
 (
 void
@@ -194,7 +194,7 @@ FlattenMetaData
 char
 *
 buffer
-PRUint32
+uint32_t
 bufSize
 )
 ;
@@ -205,7 +205,7 @@ const
 char
 *
 buffer
-PRUint32
+uint32_t
 bufSize
 )
 ;
@@ -222,7 +222,7 @@ private
 nsresult
 EnsureBuffer
 (
-PRUint32
+uint32_t
 size
 )
 ;
@@ -230,10 +230,10 @@ char
 *
 mBuffer
 ;
-PRUint32
+uint32_t
 mBufferSize
 ;
-PRUint32
+uint32_t
 mMetaSize
 ;
 }

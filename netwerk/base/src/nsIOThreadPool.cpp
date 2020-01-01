@@ -559,7 +559,7 @@ when
 a
 thread
 exits
-PRUint32
+uint32_t
 mNumThreads
 ;
 /
@@ -570,7 +570,7 @@ active
 +
 idle
 threads
-PRUint32
+uint32_t
 mNumIdleThreads
 ;
 /

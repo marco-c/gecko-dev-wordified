@@ -472,9 +472,9 @@ virtual
 nsresult
 Init
 (
-PRInt32
+int32_t
 aNumChannels
-PRInt32
+int32_t
 aRate
 )
 =
@@ -595,7 +595,7 @@ const
 void
 *
 aBuf
-PRUint32
+uint32_t
 aFrames
 )
 =
@@ -617,7 +617,7 @@ without
 blocking
 .
 virtual
-PRUint32
+uint32_t
 Available
 (
 )
@@ -768,7 +768,7 @@ Thread
 safe
 .
 virtual
-PRInt64
+int64_t
 GetPosition
 (
 )
@@ -802,7 +802,7 @@ Thread
 safe
 .
 virtual
-PRInt64
+int64_t
 GetPositionInFrames
 (
 )
@@ -884,7 +884,7 @@ held
 monitor
 .
 virtual
-PRInt32
+int32_t
 GetMinWriteSize
 (
 )

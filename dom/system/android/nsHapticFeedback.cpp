@@ -131,7 +131,7 @@ nsHapticFeedback
 :
 PerformSimpleAction
 (
-PRInt32
+int32_t
 aType
 )
 {

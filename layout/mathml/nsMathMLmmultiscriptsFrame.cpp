@@ -324,7 +324,7 @@ flag
 in
 them
 .
-PRInt32
+int32_t
 count
 =
 0
@@ -449,7 +449,7 @@ GetNextSibling
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 subScriptFrames
@@ -1655,7 +1655,7 @@ maxSupScriptShift
 =
 supScriptShift
 ;
-PRInt32
+int32_t
 count
 =
 0

@@ -148,7 +148,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 {
@@ -177,7 +177,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 {
@@ -300,7 +300,7 @@ nsFilePickerProxy
 :
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -320,7 +320,7 @@ nsFilePickerProxy
 :
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 {
@@ -542,7 +542,7 @@ nsFilePickerProxy
 :
 Show
 (
-PRInt16
+int16_t
 *
 aReturn
 )
@@ -617,7 +617,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 count
 =
 filePaths
@@ -639,7 +639,7 @@ modeOpenMultiple
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

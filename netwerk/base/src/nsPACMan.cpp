@@ -532,7 +532,7 @@ this
 nsresult
 Start
 (
-PRUint32
+uint32_t
 flags
 )
 ;
@@ -597,7 +597,7 @@ PendingPACQuery
 :
 Start
 (
-PRUint32
+uint32_t
 flags
 )
 {
@@ -1809,7 +1809,7 @@ OnLoadFailure
 (
 )
 {
-PRInt32
+int32_t
 minInterval
 =
 5
@@ -1818,7 +1818,7 @@ minInterval
 /
 5
 seconds
-PRInt32
+int32_t
 maxInterval
 =
 300
@@ -1876,7 +1876,7 @@ maxInterval
 )
 ;
 }
-PRInt32
+int32_t
 interval
 =
 minInterval
@@ -1933,7 +1933,7 @@ PR_Now
 (
 )
 +
-PRInt64
+int64_t
 (
 interval
 )
@@ -2174,10 +2174,10 @@ nsISupports
 context
 nsresult
 status
-PRUint32
+uint32_t
 dataLen
 const
-PRUint8
+uint8_t
 *
 data
 )
@@ -2708,7 +2708,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *

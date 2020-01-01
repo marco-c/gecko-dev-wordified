@@ -1941,7 +1941,7 @@ sequences
 %
 static
 const
-PRUint8
+uint8_t
 RussianLangModel
 [
 ]

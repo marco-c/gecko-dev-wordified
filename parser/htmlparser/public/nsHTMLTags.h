@@ -260,7 +260,7 @@ tags
 #
 define
 NS_HTML_TAG_MAX
-PRInt32
+int32_t
 (
 eHTMLTag_text
 -
@@ -522,7 +522,7 @@ sTagUnicodeTable
 ]
 ;
 static
-PRInt32
+int32_t
 gTableRefCount
 ;
 static

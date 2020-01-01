@@ -921,7 +921,7 @@ fout
 stdout
 ;
 }
-PRInt32
+int32_t
 insize
 medsize
 outsize

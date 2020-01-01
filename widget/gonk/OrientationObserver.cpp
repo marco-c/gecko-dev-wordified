@@ -261,7 +261,7 @@ namespace
 struct
 OrientationMapping
 {
-PRUint32
+uint32_t
 mScreenRotation
 ;
 ScreenOrientation
@@ -335,7 +335,7 @@ sDefaultPortrait
 0
 ;
 static
-PRUint32
+uint32_t
 sOrientationOffset
 =
 0
@@ -426,7 +426,7 @@ screen
 return
 ;
 }
-PRInt32
+int32_t
 left
 top
 width
@@ -456,7 +456,7 @@ height
 return
 ;
 }
-PRUint32
+uint32_t
 rotation
 ;
 if
@@ -628,7 +628,7 @@ ConvertToScreenRotation
 (
 ScreenOrientation
 aOrientation
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -789,7 +789,7 @@ failure
 nsresult
 ConvertToDomOrientation
 (
-PRUint32
+uint32_t
 aRotation
 ScreenOrientation
 *
@@ -1153,7 +1153,7 @@ values
 2
 ]
 ;
-PRUint32
+uint32_t
 rotation
 ;
 if
@@ -1262,7 +1262,7 @@ screen
 return
 ;
 }
-PRUint32
+uint32_t
 currRotation
 ;
 if
@@ -1603,7 +1603,7 @@ screen
 false
 )
 ;
-PRUint32
+uint32_t
 currRotation
 ;
 nsresult
@@ -1683,7 +1683,7 @@ invalid
 orientation
 value
 .
-PRUint32
+uint32_t
 rotation
 ;
 rv

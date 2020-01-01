@@ -222,12 +222,12 @@ camera_module_t
 *
 module
 ;
-PRUint32
+uint32_t
 index
 =
 0
 ;
-PRUint32
+uint32_t
 count
 ;
 if
@@ -439,7 +439,7 @@ getCamera
 .
 {
 static
-PRUint32
+uint32_t
 extraIndex
 =
 2

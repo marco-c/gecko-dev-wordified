@@ -409,11 +409,11 @@ const
 aFormatNames
 =
 sFormatNames
-PRInt32
+int32_t
 aWidth
 =
 0
-PRInt32
+int32_t
 aHeight
 =
 0

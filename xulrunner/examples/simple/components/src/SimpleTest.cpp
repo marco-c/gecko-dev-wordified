@@ -121,11 +121,11 @@ SimpleTest
 :
 Add
 (
-PRInt32
+int32_t
 a
-PRInt32
+int32_t
 b
-PRInt32
+int32_t
 *
 r
 )

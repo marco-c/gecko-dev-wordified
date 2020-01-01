@@ -185,9 +185,9 @@ Create
 (
 HDC
 adc
-PRUint32
+uint32_t
 aWidth
-PRUint32
+uint32_t
 aHeight
 bool
 aTransparent
@@ -214,9 +214,9 @@ Attach
 (
 Handle
 aHandle
-PRUint32
+uint32_t
 aWidth
-PRUint32
+uint32_t
 aHeight
 bool
 aTransparent
@@ -311,9 +311,9 @@ mSharedDIB
 void
 InitSurface
 (
-PRUint32
+uint32_t
 aWidth
-PRUint32
+uint32_t
 aHeight
 bool
 aTransparent

@@ -220,7 +220,7 @@ nsIURI
 >
 mOriginalURI
 ;
-PRInt32
+int32_t
 mContentLength
 ;
 nsCOMPtr
@@ -271,7 +271,7 @@ nsIFile
 *
 *
 aLocalFile
-PRUint32
+uint32_t
 *
 aDesiredImageSize
 nsACString

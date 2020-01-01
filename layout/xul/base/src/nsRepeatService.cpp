@@ -244,7 +244,7 @@ aCallback
 void
 *
 aCallbackData
-PRUint32
+uint32_t
 aInitialDelay
 )
 {

@@ -1291,10 +1291,10 @@ DataObj
 as
 supported
 flavors
-PRUint32
+uint32_t
 i
 ;
-PRUint32
+uint32_t
 cnt
 ;
 dfList
@@ -2172,7 +2172,7 @@ nsClipboard
 :
 SetNativeClipboardData
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -2361,7 +2361,7 @@ void
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aLen
 )
@@ -2733,7 +2733,7 @@ void
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aLen
 )
@@ -3418,7 +3418,7 @@ void
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aLen
 )
@@ -3695,7 +3695,7 @@ t
 use
 that
 .
-PRUint32
+uint32_t
 allocLen
 =
 0
@@ -3839,7 +3839,7 @@ t
 use
 that
 .
-PRUint32
+uint32_t
 allocLen
 =
 0
@@ -3894,7 +3894,7 @@ if
 aMIMEImageFormat
 )
 {
-PRUint32
+uint32_t
 allocLen
 =
 0
@@ -4396,7 +4396,7 @@ assumption
 Stay
 tuned
 .
-PRUint32
+uint32_t
 allocLen
 =
 0
@@ -4876,10 +4876,10 @@ on
 the
 native
 clipboard
-PRUint32
+uint32_t
 i
 ;
-PRUint32
+uint32_t
 cnt
 ;
 flavorList
@@ -4992,7 +4992,7 @@ data
 =
 nullptr
 ;
-PRUint32
+uint32_t
 dataLen
 =
 0
@@ -5522,12 +5522,12 @@ DOM
 line
 endings
 .
-PRInt32
+int32_t
 signedLen
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 dataLen
@@ -5669,7 +5669,7 @@ void
 *
 *
 outData
-PRUint32
+uint32_t
 *
 outDataLen
 )
@@ -5820,12 +5820,12 @@ version
 0
 }
 ;
-PRInt32
+int32_t
 startOfData
 =
 0
 ;
-PRInt32
+int32_t
 endOfData
 =
 0
@@ -6081,7 +6081,7 @@ void
 *
 *
 outData
-PRUint32
+uint32_t
 *
 outDataLen
 )
@@ -6177,7 +6177,7 @@ convertedText
 =
 nullptr
 ;
-PRInt32
+int32_t
 convertedTextLen
 =
 0
@@ -6351,7 +6351,7 @@ void
 *
 *
 outData
-PRUint32
+uint32_t
 *
 outDataLen
 )
@@ -6809,7 +6809,7 @@ void
 *
 *
 outData
-PRUint32
+uint32_t
 *
 outDataLen
 )
@@ -6825,7 +6825,7 @@ tempOutData
 =
 nullptr
 ;
-PRUint32
+uint32_t
 tempDataLen
 =
 0
@@ -7405,7 +7405,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -7604,9 +7604,9 @@ char
 *
 *
 aFlavorList
-PRUint32
+uint32_t
 aLength
-PRInt32
+int32_t
 aWhichClipboard
 bool
 *
@@ -7634,7 +7634,7 @@ NS_OK
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -93,7 +93,7 @@ public
 :
 static
 const
-PRInt32
+int32_t
 *
 const
 HILO_ACCEL

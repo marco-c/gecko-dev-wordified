@@ -798,7 +798,7 @@ sizes
 in
 KB
 const
-PRInt32
+int32_t
 DEFAULT_CACHE_SIZE
 =
 250
@@ -810,7 +810,7 @@ DEFAULT_CACHE_SIZE
 250
 MB
 const
-PRInt32
+int32_t
 MIN_CACHE_SIZE
 =
 50
@@ -825,7 +825,7 @@ MB
 ifdef
 ANDROID
 const
-PRInt32
+int32_t
 MAX_CACHE_SIZE
 =
 200
@@ -837,7 +837,7 @@ MAX_CACHE_SIZE
 200
 MB
 const
-PRInt32
+int32_t
 OLD_MAX_CACHE_SIZE
 =
 200
@@ -851,7 +851,7 @@ MB
 #
 else
 const
-PRInt32
+int32_t
 MAX_CACHE_SIZE
 =
 350
@@ -863,7 +863,7 @@ MAX_CACHE_SIZE
 350
 MB
 const
-PRInt32
+int32_t
 OLD_MAX_CACHE_SIZE
 =
 1024
@@ -892,7 +892,7 @@ FF
 4
 :
 const
-PRInt32
+int32_t
 PRE_GECKO_2_0_DEFAULT_CACHE_SIZE
 =
 50
@@ -1022,7 +1022,7 @@ DiskCacheEnabled
 (
 )
 ;
-PRInt32
+int32_t
 DiskCacheCapacity
 (
 )
@@ -1034,10 +1034,10 @@ mDiskCacheCapacity
 void
 SetDiskCacheCapacity
 (
-PRInt32
+int32_t
 )
 ;
-PRInt32
+int32_t
 DiskCacheMaxEntrySize
 (
 )
@@ -1089,7 +1089,7 @@ OfflineCacheEnabled
 (
 )
 ;
-PRInt32
+int32_t
 OfflineCacheCapacity
 (
 )
@@ -1113,12 +1113,12 @@ MemoryCacheEnabled
 (
 )
 ;
-PRInt32
+int32_t
 MemoryCacheCapacity
 (
 )
 ;
-PRInt32
+int32_t
 MemoryCacheMaxEntrySize
 (
 )
@@ -1127,7 +1127,7 @@ return
 mMemoryCacheMaxEntrySize
 ;
 }
-PRInt32
+int32_t
 CacheCompressionLevel
 (
 )
@@ -1145,14 +1145,14 @@ mClearCacheOnShutdown
 ;
 }
 static
-PRUint32
+uint32_t
 GetSmartCacheSize
 (
 const
 nsAString
 &
 cachePath
-PRUint32
+uint32_t
 currentSize
 bool
 useOldMaxSmartSize
@@ -1175,14 +1175,14 @@ mHaveProfile
 bool
 mDiskCacheEnabled
 ;
-PRInt32
+int32_t
 mDiskCacheCapacity
 ;
 /
 /
 in
 kilobytes
-PRInt32
+int32_t
 mDiskCacheMaxEntrySize
 ;
 /
@@ -1204,7 +1204,7 @@ mUseOldMaxSmartSize
 bool
 mOfflineCacheEnabled
 ;
-PRInt32
+int32_t
 mOfflineCacheCapacity
 ;
 /
@@ -1220,21 +1220,21 @@ mOfflineCacheParentDirectory
 bool
 mMemoryCacheEnabled
 ;
-PRInt32
+int32_t
 mMemoryCacheCapacity
 ;
 /
 /
 in
 kilobytes
-PRInt32
+int32_t
 mMemoryCacheMaxEntrySize
 ;
 /
 /
 in
 kilobytes
-PRInt32
+int32_t
 mCacheCompressionLevel
 ;
 bool
@@ -1355,7 +1355,7 @@ public
 :
 nsSetSmartSizeEvent
 (
-PRInt32
+int32_t
 smartSize
 )
 :
@@ -1540,7 +1540,7 @@ NS_OK
 }
 private
 :
-PRInt32
+int32_t
 mSmartSize
 ;
 }
@@ -1569,7 +1569,7 @@ const
 nsAString
 &
 cachePath
-PRUint32
+uint32_t
 currentSize
 bool
 useOldMaxSmartSize
@@ -1619,7 +1619,7 @@ Run
 (
 )
 {
-PRUint32
+uint32_t
 size
 ;
 size
@@ -1652,7 +1652,7 @@ private
 nsString
 mCachePath
 ;
-PRUint32
+uint32_t
 mCurrentSize
 ;
 bool
@@ -2140,7 +2140,7 @@ nsCacheProfilePrefObserver
 :
 SetDiskCacheCapacity
 (
-PRInt32
+int32_t
 capacity
 )
 {
@@ -2473,7 +2473,7 @@ get
 )
 )
 {
-PRInt32
+int32_t
 capacity
 =
 0
@@ -2581,7 +2581,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 newCapacity
 =
 0
@@ -2705,7 +2705,7 @@ get
 )
 )
 {
-PRInt32
+int32_t
 newMaxSize
 ;
 rv
@@ -2894,7 +2894,7 @@ get
 )
 )
 {
-PRInt32
+int32_t
 capacity
 =
 0
@@ -3117,7 +3117,7 @@ get
 )
 )
 {
-PRInt32
+int32_t
 newMaxSize
 ;
 rv
@@ -3365,17 +3365,17 @@ in
 KB
 )
 static
-PRUint32
+uint32_t
 SmartCacheSize
 (
 const
-PRUint32
+uint32_t
 availKB
 bool
 useOldMaxSmartSize
 )
 {
-PRUint32
+uint32_t
 maxSize
 =
 useOldMaxSmartSize
@@ -3457,12 +3457,12 @@ startup
 benchmarks
 )
 .
-PRUint32
+uint32_t
 sz10MBs
 =
 0
 ;
-PRUint32
+uint32_t
 avail10MBs
 =
 availKB
@@ -3642,7 +3642,7 @@ sz10MBs
 =
 NS_MAX
 <
-PRUint32
+uint32_t
 >
 (
 1
@@ -3674,7 +3674,7 @@ sz10MBs
 =
 NS_MAX
 <
-PRUint32
+uint32_t
 >
 (
 5
@@ -3689,7 +3689,7 @@ endif
 return
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 maxSize
@@ -3830,7 +3830,7 @@ kBytes
 .
 *
 /
-PRUint32
+uint32_t
 nsCacheProfilePrefObserver
 :
 :
@@ -3840,7 +3840,7 @@ const
 nsAString
 &
 cachePath
-PRUint32
+uint32_t
 currentSize
 bool
 useOldMaxSmartSize
@@ -3909,7 +3909,7 @@ rv
 return
 DEFAULT_CACHE_SIZE
 ;
-PRInt64
+int64_t
 bytesAvailable
 ;
 rv
@@ -4053,7 +4053,7 @@ if
 userSet
 )
 {
-PRInt32
+int32_t
 oldCapacity
 ;
 /
@@ -4150,7 +4150,7 @@ bug
 comment
 65
 )
-PRInt32
+int32_t
 maxSize
 =
 mUseOldMaxSmartSize
@@ -5564,7 +5564,7 @@ C
 32
 *
 /
-PRInt32
+int32_t
 nsCacheProfilePrefObserver
 :
 :
@@ -5572,7 +5572,7 @@ MemoryCacheCapacity
 (
 )
 {
-PRInt32
+int32_t
 capacity
 =
 mMemoryCacheCapacity
@@ -5608,7 +5608,7 @@ capacity
 ;
 }
 static
-PRUint64
+uint64_t
 bytes
 =
 PR_GetPhysicalMemorySize
@@ -5733,7 +5733,7 @@ bytes
 =
 LL_MAXINT
 ;
-PRUint64
+uint64_t
 kbytes
 ;
 LL_SHR
@@ -5750,7 +5750,7 @@ LL_L2D
 (
 kBytesD
 (
-PRInt64
+int64_t
 )
 kbytes
 )
@@ -5782,7 +5782,7 @@ x
 capacity
 =
 (
-PRInt32
+int32_t
 )
 (
 x
@@ -5840,7 +5840,7 @@ return
 capacity
 ;
 }
-PRInt32
+int32_t
 nsCacheProfilePrefObserver
 :
 :
@@ -9775,7 +9775,7 @@ GetCustomOfflineDevice
 nsIFile
 *
 aProfileDir
-PRInt32
+int32_t
 aQuota
 nsOfflineCacheDevice
 *
@@ -9931,7 +9931,7 @@ CreateCustomOfflineDevice
 nsIFile
 *
 aProfileDir
-PRInt32
+int32_t
 aQuota
 nsOfflineCacheDevice
 *
@@ -10162,7 +10162,7 @@ NS_ERROR_OUT_OF_MEMORY
 /
 set
 preference
-PRInt32
+int32_t
 capacity
 =
 mObserver
@@ -12831,7 +12831,7 @@ IsDoomed
 return
 device
 ;
-PRInt64
+int64_t
 predictedDataSize
 =
 entry
@@ -13330,7 +13330,7 @@ return
 device
 ;
 }
-PRInt64
+int64_t
 nsCacheService
 :
 :
@@ -14248,7 +14248,7 @@ to
 the
 right
 value
-PRInt32
+int32_t
 capacity
 =
 gService
@@ -14386,7 +14386,7 @@ nsCacheService
 :
 SetDiskCacheCapacity
 (
-PRInt32
+int32_t
 capacity
 )
 {
@@ -14455,7 +14455,7 @@ nsCacheService
 :
 SetDiskCacheMaxEntrySize
 (
-PRInt32
+int32_t
 maxSize
 )
 {
@@ -14502,7 +14502,7 @@ nsCacheService
 :
 SetMemoryCacheMaxEntrySize
 (
-PRInt32
+int32_t
 maxSize
 )
 {
@@ -14583,7 +14583,7 @@ nsCacheService
 :
 SetOfflineCacheCapacity
 (
-PRInt32
+int32_t
 capacity
 )
 {
@@ -14706,7 +14706,7 @@ gService
 mMemoryDevice
 )
 {
-PRInt32
+int32_t
 capacity
 =
 gService
@@ -15127,7 +15127,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIInputStream
 *
@@ -15179,7 +15179,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIOutputStream
 *
@@ -15229,7 +15229,7 @@ OnDataSizeChange
 nsCacheEntry
 *
 entry
-PRInt32
+int32_t
 deltaSize
 )
 {
@@ -15489,7 +15489,7 @@ Unlock
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15696,7 +15696,7 @@ return
 rv
 ;
 }
-PRInt32
+int32_t
 nsCacheService
 :
 :
@@ -15704,7 +15704,7 @@ CacheCompressionLevel
 (
 )
 {
-PRInt32
+int32_t
 level
 =
 gService
@@ -17108,7 +17108,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -17272,7 +17272,7 @@ RemoveActiveEntry
 args
 )
 ;
-PRUint32
+uint32_t
 count
 =
 array
@@ -17283,7 +17283,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17318,7 +17318,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -17457,11 +17457,11 @@ LogCacheStatistics
 (
 )
 {
-PRUint32
+uint32_t
 hitPercentage
 =
 (
-PRUint32
+uint32_t
 )
 (
 (

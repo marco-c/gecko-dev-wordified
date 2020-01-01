@@ -512,7 +512,7 @@ helpers
 -
 static
 inline
-PRUint32
+uint32_t
 PRTimeToSeconds
 (
 PRTime
@@ -522,7 +522,7 @@ t_usec
 PRTime
 usec_per_sec
 ;
-PRUint32
+uint32_t
 t_sec
 ;
 LL_I2L
@@ -2582,7 +2582,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 expTime
 ;
 if
@@ -2662,13 +2662,13 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
-PRUint32
+uint32_t
 bytesRead
 =
 0
@@ -3257,7 +3257,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -6291,7 +6291,7 @@ nsPrefetchNode
 :
 GetTotalSize
 (
-PRInt32
+int32_t
 *
 aTotalSize
 )
@@ -6327,7 +6327,7 @@ nsPrefetchNode
 :
 GetLoadedSize
 (
-PRInt32
+int32_t
 *
 aLoadedSize
 )
@@ -6347,7 +6347,7 @@ nsPrefetchNode
 :
 GetReadyState
 (
-PRUint16
+uint16_t
 *
 aReadyState
 )
@@ -6367,7 +6367,7 @@ nsPrefetchNode
 :
 GetStatus
 (
-PRUint16
+uint16_t
 *
 aStatus
 )
@@ -6409,7 +6409,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 httpStatus
 ;
 rv
@@ -6524,7 +6524,7 @@ rv
 *
 aStatus
 =
-PRUint16
+uint16_t
 (
 httpStatus
 )
@@ -6709,13 +6709,13 @@ aProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 curSelfProgress
-PRInt32
+int32_t
 maxSelfProgress
-PRInt32
+int32_t
 curTotalProgress
-PRInt32
+int32_t
 maxTotalProgress
 )
 {
@@ -6750,7 +6750,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 progressStateFlags
 nsresult
 aStatus
@@ -6804,7 +6804,7 @@ aRequest
 nsIURI
 *
 location
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -6878,7 +6878,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 state
 )
 {

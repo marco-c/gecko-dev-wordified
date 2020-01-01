@@ -391,7 +391,7 @@ mValueType
 eEnumerated
 :
 const
-PRInt32
+int32_t
 *
 :
 keyword
@@ -410,7 +410,7 @@ in
 nsCSSProps
 .
 const
-PRInt32
+int32_t
 *
 mKeywordTable
 ;

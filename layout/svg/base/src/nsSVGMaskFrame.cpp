@@ -353,7 +353,7 @@ nsSVGMaskElement
 mContent
 )
 ;
-PRUint16
+uint16_t
 units
 =
 mask
@@ -839,7 +839,7 @@ kid
 )
 ;
 }
-PRUint8
+uint8_t
 *
 data
 =
@@ -850,7 +850,7 @@ Data
 (
 )
 ;
-PRInt32
+int32_t
 stride
 =
 image
@@ -909,7 +909,7 @@ rect
 }
 for
 (
-PRInt32
+int32_t
 y
 =
 0
@@ -926,7 +926,7 @@ y
 )
 for
 (
-PRInt32
+int32_t
 x
 =
 0
@@ -942,7 +942,7 @@ x
 +
 )
 {
-PRUint8
+uint8_t
 *
 pixel
 =
@@ -964,12 +964,12 @@ linearRGB
 intensity
 *
 /
-PRUint8
+uint8_t
 alpha
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 (
@@ -1089,12 +1089,12 @@ nsSVGMaskFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1269,7 +1269,7 @@ nsSVGMaskFrame
 :
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {

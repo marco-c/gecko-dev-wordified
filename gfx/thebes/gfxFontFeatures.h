@@ -118,7 +118,7 @@ pair
 struct
 gfxFontFeature
 {
-PRUint32
+uint32_t
 mTag
 ;
 /
@@ -141,7 +141,7 @@ otspec
 featuretags
 .
 htm
-PRUint32
+uint32_t
 mValue
 ;
 /

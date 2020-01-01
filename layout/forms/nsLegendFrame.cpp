@@ -405,7 +405,7 @@ honour
 our
 visibility
 setting
-PRInt32
+int32_t
 nsLegendFrame
 :
 :
@@ -413,7 +413,7 @@ GetAlign
 (
 )
 {
-PRInt32
+int32_t
 intValue
 =
 NS_STYLE_TEXT_ALIGN_LEFT

@@ -146,7 +146,7 @@ public
 :
 nsMediaError
 (
-PRUint16
+uint16_t
 aCode
 )
 ;
@@ -164,7 +164,7 @@ private
 /
 Error
 code
-PRUint16
+uint16_t
 mCode
 ;
 }

@@ -168,7 +168,7 @@ the
 icon
 directory
 entry
-PRUint32
+uint32_t
 GetRealWidth
 (
 )
@@ -199,7 +199,7 @@ the
 icon
 directory
 entry
-PRUint32
+uint32_t
 GetRealHeight
 (
 )
@@ -228,7 +228,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -269,7 +269,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -324,7 +324,7 @@ successful
 bool
 FillBitmapFileHeaderBuffer
 (
-PRInt8
+int8_t
 *
 bfh
 )
@@ -380,7 +380,7 @@ within
 bool
 FixBitmapHeight
 (
-PRInt8
+int8_t
 *
 bih
 )
@@ -412,7 +412,7 @@ within
 bool
 FixBitmapWidth
 (
-PRInt8
+int8_t
 *
 bih
 )
@@ -429,10 +429,10 @@ from
 BMP
 information
 header
-PRInt32
+int32_t
 ExtractBIHSizeFromBitmap
 (
-PRInt8
+int8_t
 *
 bih
 )
@@ -446,10 +446,10 @@ from
 BMP
 information
 header
-PRInt32
+int32_t
 ExtractBPPFromBitmap
 (
-PRInt8
+int8_t
 *
 bih
 )
@@ -467,7 +467,7 @@ the
 AND
 mask
 table
-PRUint32
+uint32_t
 CalcAlphaRowSize
 (
 )
@@ -487,12 +487,12 @@ must
 be
 filled
 in
-PRUint16
+uint16_t
 GetNumColors
 (
 )
 ;
-PRUint16
+uint16_t
 mBPP
 ;
 /
@@ -501,7 +501,7 @@ Stores
 the
 images
 BPP
-PRUint32
+uint32_t
 mPos
 ;
 /
@@ -516,7 +516,7 @@ have
 decoded
 up
 until
-PRUint16
+uint16_t
 mNumIcons
 ;
 /
@@ -530,7 +530,7 @@ in
 the
 ICO
 file
-PRUint16
+uint16_t
 mCurrIcon
 ;
 /
@@ -544,7 +544,7 @@ index
 we
 are
 processing
-PRUint32
+uint32_t
 mImageOffset
 ;
 /
@@ -558,7 +558,7 @@ image
 data
 we
 want
-PRUint8
+uint8_t
 *
 mRow
 ;
@@ -571,7 +571,7 @@ line
 of
 the
 image
-PRInt32
+int32_t
 mCurLine
 ;
 /
@@ -587,7 +587,7 @@ s
 currently
 being
 decoded
-PRUint32
+uint32_t
 mRowBytes
 ;
 /
@@ -601,7 +601,7 @@ row
 were
 already
 received
-PRInt32
+int32_t
 mOldLine
 ;
 /

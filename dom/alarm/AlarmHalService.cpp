@@ -204,9 +204,9 @@ AlarmHalService
 :
 SetAlarm
 (
-PRInt32
+int32_t
 aSeconds
-PRInt32
+int32_t
 aNanoseconds
 bool
 *
@@ -323,7 +323,7 @@ OnAlarmFired
 ;
 }
 }
-PRInt32
+int32_t
 AlarmHalService
 :
 :
@@ -346,7 +346,7 @@ PR_LocalTimeParameters
 prTime
 )
 ;
-PRInt32
+int32_t
 offset
 =
 prTime

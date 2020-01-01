@@ -177,7 +177,7 @@ IDs
 FrameChildListIDs
 ids
 ;
-PRUint32
+uint32_t
 count
 =
 mLists
@@ -188,7 +188,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

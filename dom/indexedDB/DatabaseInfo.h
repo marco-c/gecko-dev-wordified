@@ -306,13 +306,13 @@ name
 nsCString
 origin
 ;
-PRUint64
+uint64_t
 version
 ;
-PRInt64
+int64_t
 nextObjectStoreId
 ;
-PRInt64
+int64_t
 nextIndexId
 ;
 }
@@ -595,7 +595,7 @@ here
 nsString
 name
 ;
-PRInt64
+int64_t
 id
 ;
 KeyPath
@@ -695,7 +695,7 @@ thread
 nsString
 name
 ;
-PRInt64
+int64_t
 id
 ;
 KeyPath
@@ -821,10 +821,10 @@ the
 database
 thread
 .
-PRInt64
+int64_t
 nextAutoIncrementId
 ;
-PRInt64
+int64_t
 comittedAutoIncrementId
 ;
 /
@@ -976,7 +976,7 @@ changing
 members
 here
 !
-PRInt64
+int64_t
 indexId
 ;
 bool

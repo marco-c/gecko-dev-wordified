@@ -190,7 +190,7 @@ char
 *
 mSavedState
 ;
-PRUint8
+uint8_t
 mRBytes
 ;
 #

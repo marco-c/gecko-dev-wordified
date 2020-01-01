@@ -372,12 +372,12 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-PRUint64
+uint64_t
 methodIndex
-PRUint64
+uint64_t
 *
 args
-PRUint64
+uint64_t
 *
 gprData
 double
@@ -402,10 +402,10 @@ nsXPTMethodInfo
 *
 info
 ;
-PRUint32
+uint32_t
 paramCount
 ;
-PRUint32
+uint32_t
 i
 ;
 nsresult
@@ -430,7 +430,7 @@ mEntry
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -509,13 +509,13 @@ dispatchParams
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint64
+uint64_t
 *
 ap
 =
 args
 ;
-PRUint64
+uint64_t
 tempu64
 ;
 for
@@ -775,7 +775,7 @@ val
 i8
 =
 (
-PRInt8
+int8_t
 )
 tempu64
 ;
@@ -798,7 +798,7 @@ val
 i16
 =
 (
-PRInt16
+int16_t
 )
 tempu64
 ;
@@ -821,7 +821,7 @@ val
 i32
 =
 (
-PRInt32
+int32_t
 )
 tempu64
 ;
@@ -844,7 +844,7 @@ val
 i64
 =
 (
-PRInt64
+int64_t
 )
 tempu64
 ;
@@ -867,7 +867,7 @@ val
 u8
 =
 (
-PRUint8
+uint8_t
 )
 tempu64
 ;
@@ -890,7 +890,7 @@ val
 u16
 =
 (
-PRUint16
+uint16_t
 )
 tempu64
 ;
@@ -913,7 +913,7 @@ val
 u32
 =
 (
-PRUint32
+uint32_t
 )
 tempu64
 ;
@@ -936,7 +936,7 @@ val
 u64
 =
 (
-PRUint64
+uint64_t
 )
 tempu64
 ;
@@ -1042,7 +1042,7 @@ mOuter
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 info

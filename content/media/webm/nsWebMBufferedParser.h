@@ -196,9 +196,9 @@ nsWebMTimeDataOffset
 {
 nsWebMTimeDataOffset
 (
-PRInt64
+int64_t
 aOffset
-PRUint64
+uint64_t
 aTimecode
 )
 :
@@ -217,7 +217,7 @@ operator
 =
 =
 (
-PRInt64
+int64_t
 aOffset
 )
 const
@@ -233,7 +233,7 @@ bool
 operator
 <
 (
-PRInt64
+int64_t
 aOffset
 )
 const
@@ -244,10 +244,10 @@ mOffset
 aOffset
 ;
 }
-PRInt64
+int64_t
 mOffset
 ;
-PRUint64
+uint64_t
 mTimecode
 ;
 }
@@ -338,7 +338,7 @@ nsWebMBufferedParser
 {
 nsWebMBufferedParser
 (
-PRInt64
+int64_t
 aOffset
 )
 :
@@ -399,7 +399,7 @@ unsigned
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 nsTArray
 <
@@ -417,7 +417,7 @@ operator
 =
 =
 (
-PRInt64
+int64_t
 aOffset
 )
 const
@@ -433,7 +433,7 @@ bool
 operator
 <
 (
-PRInt64
+int64_t
 aOffset
 )
 const
@@ -478,7 +478,7 @@ parser
 s
 mStartOffset
 .
-PRInt64
+int64_t
 mStartOffset
 ;
 /
@@ -501,7 +501,7 @@ consumes
 /
 data
 .
-PRInt64
+int64_t
 mCurrentOffset
 ;
 private
@@ -1028,7 +1028,7 @@ arbitrary
 /
 data
 .
-PRUint32
+uint32_t
 mClusterIDPos
 ;
 /
@@ -1040,7 +1040,7 @@ read
 from
 data
 .
-PRUint64
+uint64_t
 mVInt
 ;
 /
@@ -1067,7 +1067,7 @@ mVInt
 s
 value
 .
-PRUint32
+uint32_t
 mVIntLength
 ;
 /
@@ -1091,7 +1091,7 @@ this
 reaches
 0
 .
-PRUint32
+uint32_t
 mVIntLeft
 ;
 /
@@ -1122,7 +1122,7 @@ has
 been
 parsed
 .
-PRUint64
+uint64_t
 mBlockSize
 ;
 /
@@ -1132,7 +1132,7 @@ Cluster
 level
 timecode
 .
-PRUint64
+uint64_t
 mClusterTimecode
 ;
 /
@@ -1171,7 +1171,7 @@ been
 /
 parsed
 .
-PRInt64
+int64_t
 mBlockOffset
 ;
 /
@@ -1202,7 +1202,7 @@ to
 time
 mapping
 .
-PRInt16
+int16_t
 mBlockTimecode
 ;
 /
@@ -1216,7 +1216,7 @@ left
 to
 read
 .
-PRUint32
+uint32_t
 mBlockTimecodeLength
 ;
 /
@@ -1248,7 +1248,7 @@ a
 block
 timecode
 .
-PRUint32
+uint32_t
 mSkipBytes
 ;
 }
@@ -1297,23 +1297,23 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
-PRInt64
+int64_t
 aOffset
 )
 ;
 bool
 CalculateBufferedForRange
 (
-PRInt64
+int64_t
 aStartOffset
-PRInt64
+int64_t
 aEndOffset
-PRUint64
+uint64_t
 *
 aStartTime
-PRUint64
+uint64_t
 *
 aEndTime
 )

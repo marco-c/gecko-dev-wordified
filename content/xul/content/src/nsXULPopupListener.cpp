@@ -610,7 +610,7 @@ mIsContext
 return
 NS_OK
 ;
-PRUint16
+uint16_t
 button
 ;
 nsCOMPtr
@@ -910,7 +910,7 @@ do_QueryInterface
 targetNode
 )
 ;
-PRUint32
+uint32_t
 type
 ;
 if
@@ -1543,7 +1543,7 @@ while
 currFrame
 )
 {
-PRInt32
+int32_t
 tabIndexUnused
 ;
 if
@@ -2348,7 +2348,7 @@ if
 list
 )
 {
-PRUint32
+uint32_t
 ctr
 listLength
 ;
@@ -2761,7 +2761,7 @@ aEvent
 }
 else
 {
-PRInt32
+int32_t
 xPos
 =
 0

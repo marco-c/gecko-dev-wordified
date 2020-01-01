@@ -549,7 +549,7 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
 JSVersion
 aVersion
@@ -581,9 +581,9 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
-PRUint32
+uint32_t
 aVersion
 JS
 :
@@ -726,7 +726,7 @@ const
 PRUnichar
 *
 aText
-PRInt32
+int32_t
 aTextLength
 nsIPrincipal
 *
@@ -735,9 +735,9 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
-PRUint32
+uint32_t
 aVersion
 nsScriptObjectHolder
 <
@@ -1147,7 +1147,7 @@ CompileEventHandler
 nsIAtom
 *
 aName
-PRUint32
+uint32_t
 aArgCount
 const
 char
@@ -1162,9 +1162,9 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
-PRUint32
+uint32_t
 aVersion
 nsScriptObjectHolder
 <
@@ -1571,7 +1571,7 @@ const
 nsACString
 &
 aName
-PRUint32
+uint32_t
 aArgCount
 const
 char
@@ -1586,9 +1586,9 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
-PRUint32
+uint32_t
 aVersion
 bool
 aShared

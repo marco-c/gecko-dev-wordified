@@ -180,7 +180,7 @@ Element
 ;
 RestyleTracker
 (
-PRUint32
+uint32_t
 aRestyleBits
 nsCSSFrameConstructor
 *
@@ -323,7 +323,7 @@ Init
 )
 ;
 }
-PRUint32
+uint32_t
 Count
 (
 )
@@ -450,7 +450,7 @@ ANIMATION_
 )
 RESTYLE
 bit
-PRUint32
+uint32_t
 RestyleBit
 (
 )
@@ -472,7 +472,7 @@ ANIMATION_
 )
 RESTYLE_ROOT
 bit
-PRUint32
+uint32_t
 RootBit
 (
 )
@@ -764,7 +764,7 @@ not
 in
 ELEMENT_PENDING_RESTYLE_FLAGS
 .
-PRUint32
+uint32_t
 mRestyleBits
 ;
 nsCSSFrameConstructor

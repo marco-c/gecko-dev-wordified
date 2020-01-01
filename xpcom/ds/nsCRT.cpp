@@ -495,7 +495,7 @@ delimTable
 DELIM_TABLE_SIZE
 ]
 ;
-PRUint32
+uint32_t
 i
 ;
 char
@@ -553,7 +553,7 @@ SET_DELIM
 delimTable
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 delims
@@ -599,7 +599,7 @@ IS_DELIM
 delimTable
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 *
@@ -639,7 +639,7 @@ IS_DELIM
 delimTable
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 *
@@ -836,7 +836,7 @@ s1
 s2
 *
 /
-PRInt32
+int32_t
 nsCRT
 :
 :
@@ -1044,7 +1044,7 @@ s1
 s2
 *
 /
-PRInt32
+int32_t
 nsCRT
 :
 :
@@ -1058,7 +1058,7 @@ const
 PRUnichar
 *
 s2
-PRUint32
+uint32_t
 n
 )
 {
@@ -1147,13 +1147,13 @@ const
 char
 *
 haystack
-PRUint32
+uint32_t
 haystackLen
 const
 char
 *
 needle
-PRUint32
+uint32_t
 needleLen
 )
 {
@@ -1256,7 +1256,7 @@ jsstr
 cpp
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1309,7 +1309,7 @@ PRUnichar
 str
 )
 {
-PRUint32
+uint32_t
 len
 =
 NS_strlen
@@ -1336,7 +1336,7 @@ const
 PRUnichar
 *
 str
-PRUint32
+uint32_t
 len
 )
 {
@@ -1435,7 +1435,7 @@ then
 .
 .
 .
-PRInt64
+int64_t
 nsCRT
 :
 :
@@ -1457,7 +1457,7 @@ LL_Zero
 (
 )
 ;
-PRInt64
+int64_t
 ll
 =
 LL_Zero

@@ -137,7 +137,7 @@ NULL
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -178,7 +178,7 @@ nsDialogParamBlock
 :
 SetNumberStrings
 (
-PRInt32
+int32_t
 inNumStrings
 )
 {
@@ -222,9 +222,9 @@ nsDialogParamBlock
 :
 GetInt
 (
-PRInt32
+int32_t
 inIndex
-PRInt32
+int32_t
 *
 _retval
 )
@@ -263,9 +263,9 @@ nsDialogParamBlock
 :
 SetInt
 (
-PRInt32
+int32_t
 inIndex
-PRInt32
+int32_t
 inInt
 )
 {
@@ -302,7 +302,7 @@ nsDialogParamBlock
 :
 GetString
 (
-PRInt32
+int32_t
 inIndex
 PRUnichar
 *
@@ -359,7 +359,7 @@ nsDialogParamBlock
 :
 SetString
 (
-PRInt32
+int32_t
 inIndex
 const
 PRUnichar

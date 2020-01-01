@@ -443,7 +443,7 @@ nsStringInputStream
 )
 {
 }
-PRUint32
+uint32_t
 Length
 (
 )
@@ -457,7 +457,7 @@ Length
 )
 ;
 }
-PRUint32
+uint32_t
 LengthRemaining
 (
 )
@@ -500,7 +500,7 @@ IsVoid
 nsDependentCSubstring
 mData
 ;
-PRUint32
+uint32_t
 mOffset
 ;
 }
@@ -596,7 +596,7 @@ nsStringInputStream
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 type
 )
@@ -784,7 +784,7 @@ const
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 )
 {
@@ -818,7 +818,7 @@ AdoptData
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 )
 {
@@ -853,7 +853,7 @@ const
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 )
 {
@@ -935,7 +935,7 @@ nsStringInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 aLength
 )
@@ -978,9 +978,9 @@ Read
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aReadCount
 )
@@ -1015,9 +1015,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 result
 )
@@ -1066,7 +1066,7 @@ end
 of
 -
 file
-PRUint32
+uint32_t
 maxCount
 =
 LengthRemaining
@@ -1218,9 +1218,9 @@ nsStringInputStream
 :
 Seek
 (
-PRInt32
+int32_t
 whence
-PRInt64
+int64_t
 offset
 )
 {
@@ -1249,7 +1249,7 @@ a
 negative
 value
 .
-PRInt64
+int64_t
 newPos
 =
 offset
@@ -1321,7 +1321,7 @@ Length
 mOffset
 =
 (
-PRUint32
+uint32_t
 )
 newPos
 ;
@@ -1335,7 +1335,7 @@ nsStringInputStream
 :
 Tell
 (
-PRInt64
+int64_t
 *
 outWhere
 )
@@ -1638,7 +1638,7 @@ const
 char
 *
 aStringToRead
-PRInt32
+int32_t
 aLength
 nsAssignmentType
 aAssignment

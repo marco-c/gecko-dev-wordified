@@ -942,7 +942,7 @@ year
 determination
 *
 /
-PRInt32
+int32_t
 lstyle
 ;
 /
@@ -951,7 +951,7 @@ LISTing
 style
 *
 /
-PRInt32
+int32_t
 parsed_one
 ;
 /
@@ -975,7 +975,7 @@ VMS
 multiline
 *
 /
-PRUint32
+uint32_t
 carry_buf_len
 ;
 /
@@ -987,7 +987,7 @@ in
 carry_buf
 *
 /
-PRUint32
+uint32_t
 numlines
 ;
 /
@@ -1003,7 +1003,7 @@ seen
 struct
 list_result
 {
-PRInt32
+int32_t
 fe_type
 ;
 /
@@ -1042,7 +1042,7 @@ to
 filename
 *
 /
-PRUint32
+uint32_t
 fe_fnlen
 ;
 /
@@ -1065,7 +1065,7 @@ symlink
 name
 *
 /
-PRUint32
+uint32_t
 fe_lnlen
 ;
 /
@@ -1113,7 +1113,7 @@ modified
 time
 *
 /
-PRInt32
+int32_t
 fe_cinfs
 ;
 /

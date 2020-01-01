@@ -338,7 +338,7 @@ const
 PRUnichar
 *
 aText
-PRUint32
+uint32_t
 aLength
 gfxFontGroup
 *
@@ -350,7 +350,7 @@ gfxFontGroup
 Parameters
 *
 aParams
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -739,7 +739,7 @@ nullptr
 60
 }
 ;
-PRUint32
+uint32_t
 flags
 =
 gfxTextRunFactory

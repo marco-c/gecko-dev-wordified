@@ -126,7 +126,7 @@ tools
 /
 static
 const
-PRUint8
+uint8_t
 KOI8Map
 [
 128
@@ -265,7 +265,7 @@ KOI8Map
 ;
 static
 const
-PRUint8
+uint8_t
 CP1251Map
 [
 128
@@ -404,7 +404,7 @@ CP1251Map
 ;
 static
 const
-PRUint8
+uint8_t
 IBM866Map
 [
 128
@@ -543,7 +543,7 @@ IBM866Map
 ;
 static
 const
-PRUint8
+uint8_t
 ISO88595Map
 [
 128
@@ -682,7 +682,7 @@ ISO88595Map
 ;
 static
 const
-PRUint8
+uint8_t
 MacCyrillicMap
 [
 128

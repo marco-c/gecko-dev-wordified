@@ -281,7 +281,7 @@ return
 1
 ;
 }
-PRUint32
+uint32_t
 cycles
 =
 atoi
@@ -418,7 +418,7 @@ char
 *
 absURLString
 ;
-PRUint32
+uint32_t
 i
 =
 0

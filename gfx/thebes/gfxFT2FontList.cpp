@@ -877,10 +877,10 @@ gfxProxyFontEntry
 &
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1091,7 +1091,7 @@ FTUserFontData
 FT_Face
 aFace
 const
-PRUint8
+uint8_t
 *
 aData
 )
@@ -1138,7 +1138,7 @@ FT_Face
 mFace
 ;
 const
-PRUint8
+uint8_t
 *
 mFontData
 ;
@@ -1279,14 +1279,14 @@ const
 char
 *
 aFilename
-PRUint8
+uint8_t
 aIndex
 const
 nsAString
 &
 aName
 const
-PRUint8
+uint8_t
 *
 aFontData
 )
@@ -1412,7 +1412,7 @@ ft_sfnt_os2
 )
 )
 ;
-PRUint16
+uint16_t
 os2weight
 =
 0
@@ -1645,7 +1645,7 @@ const
 char
 *
 aFilename
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -1933,7 +1933,7 @@ gfxCharacterMap
 ;
 AutoFallibleTArray
 <
-PRUint8
+uint8_t
 16384
 >
 buffer
@@ -2049,11 +2049,11 @@ FT2FontEntry
 :
 GetFontTable
 (
-PRUint32
+uint32_t
 aTableTag
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 &
 aBuffer
@@ -2128,7 +2128,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint8
+uint8_t
 *
 buf
 =
@@ -2662,7 +2662,7 @@ mCache
 return
 ;
 }
-PRUint32
+uint32_t
 size
 ;
 char
@@ -2807,7 +2807,7 @@ beginning
 break
 ;
 }
-PRUint32
+uint32_t
 timestamp
 =
 strtoul
@@ -2842,7 +2842,7 @@ beginning
 break
 ;
 }
-PRUint32
+uint32_t
 filesize
 =
 strtoul
@@ -2997,10 +2997,10 @@ aFileName
 nsCString
 &
 aFaceList
-PRUint32
+uint32_t
 *
 aTimestamp
-PRUint32
+uint32_t
 *
 aFilesize
 )
@@ -3151,9 +3151,9 @@ aFileName
 nsCString
 &
 aFaceList
-PRUint32
+uint32_t
 aTimestamp
-PRUint32
+uint32_t
 aFilesize
 )
 {
@@ -3274,7 +3274,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -3431,10 +3431,10 @@ public
 nsCString
 mFilename
 ;
-PRUint32
+uint32_t
 mTimestamp
 ;
-PRUint32
+uint32_t
 mFilesize
 ;
 nsCString
@@ -3856,7 +3856,7 @@ beginning
 break
 ;
 }
-PRUint32
+uint32_t
 index
 =
 strtoul
@@ -3927,7 +3927,7 @@ beginning
 break
 ;
 }
-PRUint32
+uint32_t
 weight
 =
 strtoul
@@ -3961,7 +3961,7 @@ beginning
 break
 ;
 }
-PRInt32
+int32_t
 stretch
 =
 strtol
@@ -4376,7 +4376,7 @@ aCache
 nsCString
 faceList
 ;
-PRUint32
+uint32_t
 filesize
 =
 0
@@ -5212,7 +5212,7 @@ results
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5243,7 +5243,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -5481,7 +5481,7 @@ fonts
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6828,10 +6828,10 @@ gfxProxyFontEntry
 *
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 {

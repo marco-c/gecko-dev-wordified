@@ -537,7 +537,7 @@ CompositorParent
 *
 GetCompositor
 (
-PRUint64
+uint64_t
 id
 )
 ;
@@ -1273,7 +1273,7 @@ AddCompositor
 CompositorParent
 *
 compositor
-PRUint64
+uint64_t
 *
 id
 )
@@ -1298,7 +1298,7 @@ CompositorParent
 *
 RemoveCompositor
 (
-PRUint64
+uint64_t
 id
 )
 ;
@@ -1611,7 +1611,7 @@ mozilla
 Monitor
 mResumeCompositionMonitor
 ;
-PRUint64
+uint64_t
 mCompositorID
 ;
 DISALLOW_EVIL_CONSTRUCTORS

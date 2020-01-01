@@ -639,7 +639,7 @@ TestTargetedTimers
 }
 ;
 static
-PRUint32
+uint32_t
 testCount
 =
 sizeof
@@ -657,7 +657,7 @@ testsToRun
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

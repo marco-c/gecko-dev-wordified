@@ -477,7 +477,7 @@ inFlasher
 :
 GetThickness
 (
-PRUint16
+uint16_t
 *
 aThickness
 )
@@ -506,7 +506,7 @@ inFlasher
 :
 SetThickness
 (
-PRUint16
+uint16_t
 aThickness
 )
 {

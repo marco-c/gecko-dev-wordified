@@ -376,7 +376,7 @@ sign
 /
 static
 const
-PRUint8
+uint8_t
 UnicharToTSCII
 [
 ]
@@ -610,7 +610,7 @@ UnicharToTSCII
 ;
 static
 const
-PRUint8
+uint8_t
 consonant_with_u
 [
 ]
@@ -638,7 +638,7 @@ consonant_with_u
 ;
 static
 const
-PRUint8
+uint8_t
 consonant_with_uu
 [
 ]
@@ -666,7 +666,7 @@ consonant_with_uu
 ;
 static
 const
-PRUint8
+uint8_t
 consonant_with_virama
 [
 18
@@ -741,13 +741,13 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -824,7 +824,7 @@ with
 this
 one
 .
-PRUint32
+uint32_t
 last
 =
 mBuffer
@@ -1675,7 +1675,7 @@ ch
 )
 )
 {
-PRUint8
+uint8_t
 t
 =
 UnicharToTSCII
@@ -1703,7 +1703,7 @@ t
 mBuffer
 =
 (
-PRUint32
+uint32_t
 )
 t
 ;
@@ -2018,7 +2018,7 @@ Finish
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -2251,9 +2251,9 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 aSrcLength
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -2289,7 +2289,7 @@ nsUnicodeToTSCII
 :
 SetOutputErrorBehavior
 (
-PRInt32
+int32_t
 aBehavior
 nsIUnicharEncoder
 *
@@ -2461,18 +2461,18 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
 {
-PRInt32
+int32_t
 medLen
 destLen
 ;
@@ -2609,7 +2609,7 @@ return
 rv
 ;
 }
-PRInt32
+int32_t
 i
 j
 ;
@@ -2693,7 +2693,7 @@ i
 0x7f
 ]
 :
-PRUint8
+uint8_t
 (
 med
 [
@@ -2751,7 +2751,7 @@ j
 +
 ]
 =
-PRUint8
+uint8_t
 (
 (
 ucs2
@@ -2770,7 +2770,7 @@ j
 +
 ]
 =
-PRUint8
+uint8_t
 (
 ucs2
 &
@@ -2812,9 +2812,9 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 aSrcLength
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -2875,7 +2875,7 @@ nsUnicodeToTamilTTF
 :
 SetOutputErrorBehavior
 (
-PRInt32
+int32_t
 aBehavior
 nsIUnicharEncoder
 *

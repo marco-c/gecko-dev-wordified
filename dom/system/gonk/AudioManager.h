@@ -258,7 +258,7 @@ aRoutes
 ;
 protected
 :
-PRInt32
+int32_t
 mPhoneState
 ;
 private

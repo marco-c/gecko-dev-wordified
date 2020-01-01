@@ -1316,7 +1316,7 @@ eAllowPluginSkipChannel
 *
 /
 virtual
-PRUint32
+uint32_t
 GetCapabilities
 (
 )
@@ -1883,7 +1883,7 @@ aContentPolicy
 bool
 CheckLoadPolicy
 (
-PRInt16
+int16_t
 *
 aContentPolicy
 )
@@ -1943,7 +1943,7 @@ aContentPolicy
 bool
 CheckProcessPolicy
 (
-PRInt16
+int16_t
 *
 aContentPolicy
 )

@@ -126,11 +126,11 @@ AndroidDirectTexture
 :
 AndroidDirectTexture
 (
-PRUint32
+uint32_t
 width
-PRUint32
+uint32_t
 height
-PRUint32
+uint32_t
 usage
 gfxImageFormat
 format
@@ -316,7 +316,7 @@ AndroidDirectTexture
 :
 Lock
 (
-PRUint32
+uint32_t
 aUsage
 unsigned
 char
@@ -349,7 +349,7 @@ AndroidDirectTexture
 :
 Lock
 (
-PRUint32
+uint32_t
 aUsage
 const
 nsIntRect
@@ -458,9 +458,9 @@ AndroidDirectTexture
 :
 Reallocate
 (
-PRUint32
+uint32_t
 aWidth
-PRUint32
+uint32_t
 aHeight
 )
 {
@@ -479,9 +479,9 @@ AndroidDirectTexture
 :
 Reallocate
 (
-PRUint32
+uint32_t
 aWidth
-PRUint32
+uint32_t
 aHeight
 gfxASurface
 :

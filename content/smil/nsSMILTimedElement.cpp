@@ -613,7 +613,7 @@ numbers
 "
 )
 ;
-PRInt8
+int8_t
 cmp
 =
 aElem1
@@ -752,10 +752,10 @@ nsIContent
 >
 mTarget
 ;
-PRUint32
+uint32_t
 mMsg
 ;
-PRInt32
+int32_t
 mDetail
 ;
 public
@@ -765,9 +765,9 @@ AsyncTimeEventRunner
 nsIContent
 *
 aTarget
-PRUint32
+uint32_t
 aMsg
-PRInt32
+int32_t
 aDetail
 )
 :
@@ -1220,7 +1220,7 @@ newArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1611,7 +1611,7 @@ and
 FilterInstanceTimes
 .
 const
-PRUint8
+uint8_t
 nsSMILTimedElement
 :
 :
@@ -1620,7 +1620,7 @@ sMaxNumIntervals
 20
 ;
 const
-PRUint8
+uint8_t
 nsSMILTimedElement
 :
 :
@@ -1646,7 +1646,7 @@ dependency
 /
 relationship
 const
-PRUint8
+uint8_t
 nsSMILTimedElement
 :
 :
@@ -1839,7 +1839,7 @@ dependent
 intervals
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1876,7 +1876,7 @@ Clear
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3399,7 +3399,7 @@ operator
 nsSMILInstanceTime
 *
 aInstanceTime
-PRUint32
+uint32_t
 /
 *
 aIndex
@@ -4868,7 +4868,7 @@ seek
 state
 .
 )
-PRUint32
+uint32_t
 prevRepeatIteration
 =
 mCurrentRepeatIteration
@@ -4905,7 +4905,7 @@ FireTimeEventAsync
 NS_SMIL_REPEAT
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 mCurrentRepeatIteration
@@ -6988,7 +6988,7 @@ nsAString
 aFillModeSpec
 )
 {
-PRUint16
+uint16_t
 previousFillMode
 =
 mFillMode
@@ -7130,7 +7130,7 @@ UnsetFillMode
 (
 )
 {
-PRUint16
+uint16_t
 previousFillMode
 =
 mFillMode
@@ -7524,7 +7524,7 @@ parts
 of
 the
 tree
-PRUint32
+uint32_t
 count
 =
 mBeginSpecs
@@ -7535,7 +7535,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7571,7 +7571,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -7621,7 +7621,7 @@ updateBatcher
 this
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mBeginSpecs
@@ -7632,7 +7632,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7668,7 +7668,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -7706,7 +7706,7 @@ nsCycleCollectionTraversalCallback
 aCallback
 )
 {
-PRUint32
+uint32_t
 count
 =
 mBeginSpecs
@@ -7717,7 +7717,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7773,7 +7773,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -7842,7 +7842,7 @@ dependencies
 on
 other
 elements
-PRUint32
+uint32_t
 count
 =
 mBeginSpecs
@@ -7853,7 +7853,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7908,7 +7908,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -8305,7 +8305,7 @@ operator
 nsSMILInstanceTime
 *
 aInstanceTime
-PRUint32
+uint32_t
 /
 *
 aIndex
@@ -8356,7 +8356,7 @@ this
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8440,7 +8440,7 @@ old
 intervals
 for
 (
-PRInt32
+int32_t
 i
 =
 mOldIntervals
@@ -8699,7 +8699,7 @@ operator
 nsSMILInstanceTime
 *
 aInstanceTime
-PRUint32
+uint32_t
 /
 *
 aIndex
@@ -9193,7 +9193,7 @@ Begin
 :
 nullptr
 ;
-PRUint32
+uint32_t
 count
 =
 aList
@@ -9204,7 +9204,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9629,7 +9629,7 @@ beyond
 that
 threshold
 .
-PRUint32
+uint32_t
 threshold
 =
 mOldIntervals
@@ -9655,7 +9655,7 @@ filteredList
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9811,7 +9811,7 @@ operator
 nsSMILInstanceTime
 *
 aInstanceTime
-PRUint32
+uint32_t
 /
 *
 aIndex
@@ -9926,7 +9926,7 @@ public
 :
 RemoveBelowThreshold
 (
-PRUint32
+uint32_t
 aThreshold
 nsTArray
 <
@@ -9956,7 +9956,7 @@ operator
 nsSMILInstanceTime
 *
 aInstanceTime
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -9977,7 +9977,7 @@ aInstanceTime
 }
 private
 :
-PRUint32
+uint32_t
 mThreshold
 ;
 nsTArray
@@ -10139,7 +10139,7 @@ Length
 sMaxNumInstanceTimes
 )
 {
-PRUint32
+uint32_t
 threshold
 =
 aList
@@ -10603,7 +10603,7 @@ nsSMILTimeValue
 }
 else
 {
-PRInt32
+int32_t
 beginPos
 =
 0
@@ -10808,7 +10808,7 @@ Calculate
 end
 time
 {
-PRInt32
+int32_t
 endPos
 =
 0
@@ -11614,7 +11614,7 @@ const
 nsSMILTimeValue
 &
 aBase
-PRInt32
+int32_t
 &
 aPosition
 )
@@ -11671,7 +11671,7 @@ const
 nsSMILTimeValue
 &
 aBase
-PRInt32
+int32_t
 &
 aPosition
 )
@@ -11683,7 +11683,7 @@ result
 =
 nullptr
 ;
-PRInt32
+int32_t
 count
 =
 aList
@@ -12212,7 +12212,7 @@ ActiveTimeToSimpleTime
 (
 nsSMILTime
 aActiveTime
-PRUint32
+uint32_t
 &
 aRepeatIteration
 )
@@ -12319,7 +12319,7 @@ GetMillis
 aRepeatIteration
 =
 (
-PRUint32
+uint32_t
 )
 (
 aActiveTime
@@ -12525,7 +12525,7 @@ RESTART_ALWAYS
 return
 nullptr
 ;
-PRInt32
+int32_t
 position
 =
 0
@@ -12986,7 +12986,7 @@ stack
 .
 AutoRestore
 <
-PRUint8
+uint8_t
 >
 depthRestorer
 (
@@ -13388,7 +13388,7 @@ STATE_WAITING
 {
 AutoRestore
 <
-PRUint8
+uint8_t
 >
 deleteCountRestorer
 (
@@ -13425,7 +13425,7 @@ if
 mClient
 )
 {
-PRUint32
+uint32_t
 repeatIteration
 ;
 nsSMILTime
@@ -13585,7 +13585,7 @@ GetMillis
 (
 )
 ;
-PRUint32
+uint32_t
 repeatIteration
 ;
 nsSMILTime
@@ -13685,7 +13685,7 @@ timeVal
 (
 aCurrentTime
 +
-PRInt64
+int64_t
 (
 NS_round
 (
@@ -14458,7 +14458,7 @@ times
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14497,9 +14497,9 @@ nsSMILTimedElement
 :
 FireTimeEventAsync
 (
-PRUint32
+uint32_t
 aMsg
-PRInt32
+int32_t
 aDetail
 )
 {
@@ -14657,7 +14657,7 @@ const
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14721,7 +14721,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -529,7 +529,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIInputStream
 *
@@ -546,7 +546,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIOutputStream
 *
@@ -561,7 +561,7 @@ OnDataSizeChange
 nsCacheEntry
 *
 entry
-PRInt32
+int32_t
 deltaSize
 )
 ;
@@ -587,7 +587,7 @@ entry
 )
 ;
 static
-PRInt32
+int32_t
 CacheCompressionLevel
 (
 )
@@ -616,7 +616,7 @@ gService
 ;
 }
 static
-PRInt64
+int64_t
 MemoryDeviceSize
 (
 )
@@ -728,7 +728,7 @@ GetCustomOfflineDevice
 nsIFile
 *
 aProfileDir
-PRInt32
+int32_t
 aQuota
 nsOfflineCacheDevice
 *
@@ -926,7 +926,7 @@ static
 void
 SetDiskCacheCapacity
 (
-PRInt32
+int32_t
 capacity
 )
 ;
@@ -965,7 +965,7 @@ static
 void
 SetDiskCacheMaxEntrySize
 (
-PRInt32
+int32_t
 maxSize
 )
 ;
@@ -1003,7 +1003,7 @@ static
 void
 SetMemoryCacheMaxEntrySize
 (
-PRInt32
+int32_t
 maxSize
 )
 ;
@@ -1030,7 +1030,7 @@ static
 void
 SetOfflineCacheCapacity
 (
-PRInt32
+int32_t
 capacity
 )
 ;
@@ -1044,7 +1044,7 @@ static
 void
 SetCacheCompressionLevel
 (
-PRInt32
+int32_t
 level
 )
 ;
@@ -1199,7 +1199,7 @@ CreateCustomOfflineDevice
 nsIFile
 *
 aProfileDir
-PRInt32
+int32_t
 aQuota
 nsOfflineCacheDevice
 *
@@ -1422,7 +1422,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -1439,7 +1439,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -1584,22 +1584,22 @@ mDoomedEntries
 /
 /
 stats
-PRUint32
+uint32_t
 mTotalEntries
 ;
-PRUint32
+uint32_t
 mCacheHits
 ;
-PRUint32
+uint32_t
 mCacheMisses
 ;
-PRUint32
+uint32_t
 mMaxKeyLength
 ;
-PRUint32
+uint32_t
 mMaxDataSize
 ;
-PRUint32
+uint32_t
 mMaxMetaSize
 ;
 /
@@ -1607,10 +1607,10 @@ mMaxMetaSize
 Unexpected
 error
 totals
-PRUint32
+uint32_t
 mDeactivateFailures
 ;
-PRUint32
+uint32_t
 mDeactivatedUnboundEntries
 ;
 }

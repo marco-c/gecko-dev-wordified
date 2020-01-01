@@ -276,7 +276,7 @@ nsDOMWindowList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -385,7 +385,7 @@ if
 mDocShellNode
 )
 {
-PRInt32
+int32_t
 length
 ;
 rv
@@ -415,7 +415,7 @@ nsDOMWindowList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMWindow
 *

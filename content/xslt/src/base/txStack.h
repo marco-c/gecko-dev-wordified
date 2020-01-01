@@ -328,7 +328,7 @@ isEmpty
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 Length
@@ -423,7 +423,7 @@ Stack
 *
 /
 inline
-PRInt32
+int32_t
 size
 (
 )
@@ -592,7 +592,7 @@ txStack
 *
 mStack
 ;
-PRUint32
+uint32_t
 mPosition
 ;
 }

@@ -176,7 +176,7 @@ nsPKIParamBlock
 :
 SetNumberStrings
 (
-PRInt32
+int32_t
 inNumStrings
 )
 {
@@ -196,9 +196,9 @@ nsPKIParamBlock
 :
 SetInt
 (
-PRInt32
+int32_t
 inIndex
-PRInt32
+int32_t
 inInt
 )
 {
@@ -219,9 +219,9 @@ nsPKIParamBlock
 :
 GetInt
 (
-PRInt32
+int32_t
 inIndex
-PRInt32
+int32_t
 *
 outInt
 )
@@ -243,7 +243,7 @@ nsPKIParamBlock
 :
 GetString
 (
-PRInt32
+int32_t
 inIndex
 PRUnichar
 *
@@ -268,7 +268,7 @@ nsPKIParamBlock
 :
 SetString
 (
-PRInt32
+int32_t
 inIndex
 const
 PRUnichar
@@ -336,7 +336,7 @@ void
 setISupportAtIndex
 (
 in
-PRInt32
+int32_t
 index
 in
 nsISupports
@@ -351,7 +351,7 @@ nsPKIParamBlock
 :
 SetISupportAtIndex
 (
-PRInt32
+int32_t
 index
 nsISupports
 *
@@ -417,7 +417,7 @@ nsISupports
 getISupportAtIndex
 (
 in
-PRInt32
+int32_t
 index
 )
 ;
@@ -429,7 +429,7 @@ nsPKIParamBlock
 :
 GetISupportAtIndex
 (
-PRInt32
+int32_t
 index
 nsISupports
 *

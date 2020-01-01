@@ -314,7 +314,7 @@ context
 *
 /
 static
-PRInt32
+int32_t
 AppUnitsPerCSSPixel
 (
 )
@@ -358,7 +358,7 @@ guaranteed
 .
 *
 /
-PRUint32
+uint32_t
 AppUnitsPerDevPixel
 (
 )
@@ -483,7 +483,7 @@ AppUnitsPerDevPixel
 .
 *
 /
-PRInt32
+int32_t
 AppUnitsPerPhysicalInch
 (
 )
@@ -518,7 +518,7 @@ AppUnitsPerCSSPixel
 *
 /
 static
-PRInt32
+int32_t
 AppUnitsPerCSSInch
 (
 )
@@ -560,7 +560,7 @@ unscaled
 pixels
 *
 /
-PRInt32
+int32_t
 UnscaledAppUnitsPerDevPixel
 (
 )
@@ -728,7 +728,7 @@ device
 nsresult
 GetDepth
 (
-PRUint32
+uint32_t
 &
 aDepth
 )
@@ -1094,9 +1094,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-PRInt32
+int32_t
 aStartPage
-PRInt32
+int32_t
 aEndPage
 )
 ;
@@ -1464,16 +1464,16 @@ mWidth
 nscoord
 mHeight
 ;
-PRUint32
+uint32_t
 mDepth
 ;
-PRUint32
+uint32_t
 mAppUnitsPerDevPixel
 ;
-PRInt32
+int32_t
 mAppUnitsPerDevNotScaledPixel
 ;
-PRInt32
+int32_t
 mAppUnitsPerPhysicalInch
 ;
 float

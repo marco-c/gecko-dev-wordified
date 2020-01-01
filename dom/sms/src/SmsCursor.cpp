@@ -222,7 +222,7 @@ SmsCursor
 :
 SmsCursor
 (
-PRInt32
+int32_t
 aListId
 nsIDOMMozSmsRequest
 *
@@ -437,7 +437,7 @@ do_GetService
 SMS_REQUEST_MANAGER_CONTRACTID
 )
 ;
-PRInt32
+int32_t
 requestId
 ;
 nsresult

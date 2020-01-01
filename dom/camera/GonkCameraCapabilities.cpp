@@ -253,7 +253,7 @@ aCx
 JSObject
 *
 aArray
-PRUint32
+uint32_t
 aIndex
 const
 char
@@ -345,7 +345,7 @@ aCx
 JSObject
 *
 aArray
-PRUint32
+uint32_t
 aIndex
 const
 char
@@ -440,7 +440,7 @@ aCx
 JSObject
 *
 aArray
-PRUint32
+uint32_t
 aIndex
 const
 char
@@ -614,7 +614,7 @@ JSObject
 *
 *
 aArray
-PRUint32
+uint32_t
 aKey
 ParseItemAndAddFunc
 aParseItemAndAdd
@@ -691,7 +691,7 @@ p
 =
 value
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -800,7 +800,7 @@ JS
 Value
 *
 aArray
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -853,7 +853,7 @@ JS
 Value
 *
 aArray
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -1215,7 +1215,7 @@ GetMaxFocusAreas
 JSContext
 *
 cx
-PRInt32
+int32_t
 *
 aMaxFocusAreas
 )
@@ -1539,7 +1539,7 @@ GetMaxMeteringAreas
 JSContext
 *
 cx
-PRInt32
+int32_t
 *
 aMaxMeteringAreas
 )

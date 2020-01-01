@@ -622,7 +622,7 @@ virtual
 void
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 =

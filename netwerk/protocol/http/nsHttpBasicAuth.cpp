@@ -747,7 +747,7 @@ nsISupports
 *
 *
 continuationState
-PRUint32
+uint32_t
 *
 aFlags
 char
@@ -973,7 +973,7 @@ nsHttpBasicAuth
 :
 GetAuthFlags
 (
-PRUint32
+uint32_t
 *
 flags
 )

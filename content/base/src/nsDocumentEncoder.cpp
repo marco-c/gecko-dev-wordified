@@ -507,9 +507,9 @@ SerializeNodeStart
 nsINode
 *
 aNode
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -588,7 +588,7 @@ aNode
 nsAString
 &
 aString
-PRInt32
+int32_t
 aDepth
 )
 ;
@@ -625,7 +625,7 @@ aString
 )
 ;
 virtual
-PRInt32
+int32_t
 GetImmediateContextCount
 (
 const
@@ -870,22 +870,22 @@ mMimeType
 nsCString
 mCharset
 ;
-PRUint32
+uint32_t
 mFlags
 ;
-PRUint32
+uint32_t
 mWrapColumn
 ;
-PRUint32
+uint32_t
 mStartDepth
 ;
-PRUint32
+uint32_t
 mEndDepth
 ;
-PRInt32
+int32_t
 mStartRootIndex
 ;
-PRInt32
+int32_t
 mEndRootIndex
 ;
 nsAutoTArray
@@ -906,7 +906,7 @@ mStartNodes
 ;
 nsAutoTArray
 <
-PRInt32
+int32_t
 8
 >
 mStartOffsets
@@ -921,7 +921,7 @@ mEndNodes
 ;
 nsAutoTArray
 <
-PRInt32
+int32_t
 8
 >
 mEndOffsets
@@ -1171,7 +1171,7 @@ const
 nsAString
 &
 aMimeType
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1222,7 +1222,7 @@ const
 nsAString
 &
 aMimeType
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1271,7 +1271,7 @@ nsDocumentEncoder
 :
 SetWrapColumn
 (
-PRUint32
+uint32_t
 aWC
 )
 {
@@ -1708,9 +1708,9 @@ SerializeNodeStart
 nsINode
 *
 aNode
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -2631,7 +2631,7 @@ aEncoder
 nsresult
 rv
 ;
-PRInt32
+int32_t
 charLength
 startCharLength
 ;
@@ -2656,7 +2656,7 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 unicodeLength
 =
 aString
@@ -2665,7 +2665,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 startLength
 =
 unicodeLength
@@ -2782,7 +2782,7 @@ charLength
 0
 '
 ;
-PRUint32
+uint32_t
 written
 ;
 rv
@@ -3214,7 +3214,7 @@ ChildAt
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aIndex
 nsIDOMNode
 *
@@ -3273,7 +3273,7 @@ NS_OK
 ;
 }
 static
-PRInt32
+int32_t
 IndexOf
 (
 nsIDOMNode
@@ -3329,18 +3329,18 @@ child
 }
 static
 inline
-PRInt32
+int32_t
 GetIndex
 (
 nsTArray
 <
-PRInt32
+int32_t
 >
 &
 aIndexArray
 )
 {
-PRInt32
+int32_t
 count
 =
 aIndexArray
@@ -3378,7 +3378,7 @@ nsIDOMNode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 &
 aIndexArray
@@ -3491,7 +3491,7 @@ parent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 count
 =
 aIndexArray
@@ -3505,7 +3505,7 @@ if
 count
 )
 {
-PRInt32
+int32_t
 indx
 =
 aIndexArray
@@ -3556,7 +3556,7 @@ count
 }
 else
 {
-PRInt32
+int32_t
 indx
 =
 IndexOf
@@ -3670,7 +3670,7 @@ aNode
 nsAString
 &
 aString
-PRInt32
+int32_t
 aDepth
 )
 {
@@ -3726,7 +3726,7 @@ startNode
 endNode
 ;
 {
-PRInt32
+int32_t
 start
 =
 mStartRootIndex
@@ -3742,7 +3742,7 @@ start
 &
 &
 (
-PRUint32
+uint32_t
 )
 start
 <
@@ -3760,7 +3760,7 @@ mStartNodes
 start
 ]
 ;
-PRInt32
+int32_t
 end
 =
 mEndRootIndex
@@ -3776,7 +3776,7 @@ end
 &
 &
 (
-PRUint32
+uint32_t
 )
 end
 <
@@ -3904,7 +3904,7 @@ startNode
 content
 )
 {
-PRInt32
+int32_t
 startOffset
 =
 aRange
@@ -3934,7 +3934,7 @@ rv
 }
 else
 {
-PRInt32
+int32_t
 endOffset
 =
 aRange
@@ -4096,7 +4096,7 @@ childAsNode
 =
 nullptr
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -4164,10 +4164,10 @@ to
 be
 returned
 .
-PRInt32
+int32_t
 j
 ;
-PRUint32
+uint32_t
 childCount
 =
 content
@@ -4462,7 +4462,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 i
 =
 aAncestorArray
@@ -4601,13 +4601,13 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 i
 =
 0
 j
 ;
-PRInt32
+int32_t
 count
 =
 aAncestorArray
@@ -4776,7 +4776,7 @@ startParent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 aRange
@@ -4803,7 +4803,7 @@ endParent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 endOffset
 =
 aRange
@@ -5359,7 +5359,7 @@ nsIDOMRange
 >
 range
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -6443,7 +6443,7 @@ const
 nsAString
 &
 aMimeType
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -6501,10 +6501,10 @@ nsIDOMNode
 >
 *
 ioNode
-PRInt32
+int32_t
 *
 ioStartOffset
-PRInt32
+int32_t
 *
 ioEndOffset
 )
@@ -6517,7 +6517,7 @@ aWhere
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -6525,7 +6525,7 @@ nsIDOMNode
 >
 *
 outNode
-PRInt32
+int32_t
 *
 outOffset
 nsIDOMNode
@@ -6542,7 +6542,7 @@ GetChildAt
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -6566,7 +6566,7 @@ nsIDOMNode
 >
 *
 outParent
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -6613,7 +6613,7 @@ aNode
 )
 ;
 virtual
-PRInt32
+int32_t
 GetImmediateContextCount
 (
 const
@@ -6665,7 +6665,7 @@ const
 nsAString
 &
 aMimeType
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -6929,7 +6929,7 @@ nsIDOMNode
 >
 commonParent
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -7777,7 +7777,7 @@ so
 discard
 it
 .
-PRInt32
+int32_t
 count
 =
 mCommonAncestors
@@ -7786,7 +7786,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 nsCOMPtr
@@ -8319,7 +8319,7 @@ startNode
 endNode
 common
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -8426,7 +8426,7 @@ nsIDOMNode
 >
 opEndNode
 ;
-PRInt32
+int32_t
 opStartOffset
 opEndOffset
 ;
@@ -8664,10 +8664,10 @@ nsIDOMNode
 >
 *
 ioNode
-PRInt32
+int32_t
 *
 ioStartOffset
-PRInt32
+int32_t
 *
 ioEndOffset
 )
@@ -8706,7 +8706,7 @@ frontNode
 endNode
 parent
 ;
-PRInt32
+int32_t
 frontOffset
 endOffset
 ;
@@ -8999,7 +8999,7 @@ aWhere
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -9007,7 +9007,7 @@ nsIDOMNode
 >
 *
 outNode
-PRInt32
+int32_t
 *
 outOffset
 nsIDOMNode
@@ -9036,7 +9036,7 @@ parent
 =
 aNode
 ;
-PRInt32
+int32_t
 offset
 =
 aOffset
@@ -9590,7 +9590,7 @@ node
 we
 are
 done
-PRUint32
+uint32_t
 len
 =
 n
@@ -9605,7 +9605,7 @@ if
 offset
 <
 (
-PRInt32
+int32_t
 )
 len
 )
@@ -10079,7 +10079,7 @@ GetChildAt
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -10217,7 +10217,7 @@ nsIDOMNode
 >
 *
 outParent
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -10434,7 +10434,7 @@ nsIDOMNode
 >
 parent
 ;
-PRInt32
+int32_t
 offset
 j
 =
@@ -10672,7 +10672,7 @@ nsIDOMNode
 >
 parent
 ;
-PRInt32
+int32_t
 offset
 j
 ;
@@ -10732,7 +10732,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 numChildren
 =
 parentNode
@@ -10750,7 +10750,7 @@ offset
 =
 =
 (
-PRInt32
+int32_t
 )
 numChildren
 )
@@ -10833,7 +10833,7 @@ nodes
 j
 =
 (
-PRInt32
+int32_t
 )
 numChildren
 -
@@ -11028,7 +11028,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsHTMLCopyEncoder
 :
 :
@@ -11044,7 +11044,7 @@ nsINode
 aAncestorArray
 )
 {
-PRInt32
+int32_t
 i
 =
 aAncestorArray

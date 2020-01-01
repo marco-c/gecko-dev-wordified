@@ -334,7 +334,7 @@ const
 nsACString
 &
 host
-PRInt32
+int32_t
 port
 nsProxyInfo
 *
@@ -416,7 +416,7 @@ SSL
 always
 uses
 CONNECT
-PRUint32
+uint32_t
 resolveFlags
 =
 0
@@ -564,7 +564,7 @@ const
 nsACString
 &
 host
-PRInt32
+int32_t
 port
 )
 ;
@@ -575,7 +575,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 )
 {
@@ -631,7 +631,7 @@ get
 nullptr
 ;
 }
-PRInt32
+int32_t
 ProxyPort
 (
 )
@@ -799,7 +799,7 @@ get
 )
 ;
 }
-PRInt32
+int32_t
 Port
 (
 )
@@ -849,7 +849,7 @@ return
 mUsingConnect
 ;
 }
-PRInt32
+int32_t
 DefaultPort
 (
 )
@@ -973,7 +973,7 @@ mHashKey
 nsCString
 mHost
 ;
-PRInt32
+int32_t
 mPort
 ;
 nsCOMPtr

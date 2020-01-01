@@ -446,12 +446,12 @@ nsSVGTextFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -683,7 +683,7 @@ aLists
 /
 /
 nsSVGTextContainerFrame
-PRUint32
+uint32_t
 nsSVGTextFrame
 :
 :
@@ -733,9 +733,9 @@ nsSVGTextFrame
 :
 GetSubStringLength
 (
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 nchars
 )
 {
@@ -755,7 +755,7 @@ nchars
 )
 ;
 }
-PRInt32
+int32_t
 nsSVGTextFrame
 :
 :
@@ -787,7 +787,7 @@ nsSVGTextFrame
 :
 GetStartPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -817,7 +817,7 @@ nsSVGTextFrame
 :
 GetEndPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -847,7 +847,7 @@ nsSVGTextFrame
 :
 GetExtentOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGRect
 *
@@ -877,7 +877,7 @@ nsSVGTextFrame
 :
 GetRotationOfChar
 (
-PRUint32
+uint32_t
 charnum
 float
 *
@@ -982,7 +982,7 @@ nsSVGTextFrame
 :
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1687,7 +1687,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1790,7 +1790,7 @@ nsSVGTextFrame
 :
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {
@@ -2661,7 +2661,7 @@ based
 on
 text_anchor
 :
-PRUint8
+uint8_t
 anchor
 =
 firstFrame

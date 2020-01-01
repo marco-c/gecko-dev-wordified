@@ -1127,7 +1127,7 @@ NS_DispatchToMainThread
 iocomplete
 )
 ;
-PRUint64
+uint64_t
 bufSize
 =
 0
@@ -1203,7 +1203,7 @@ while
 bufSize
 )
 {
-PRUint32
+uint32_t
 wrote
 ;
 rv
@@ -1216,12 +1216,12 @@ WriteFrom
 aInputStream
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 NS_MIN
 <
-PRUint64
+uint64_t
 >
 (
 bufSize
@@ -1303,7 +1303,7 @@ Write
 (
 InfallibleTArray
 <
-PRUint8
+uint8_t
 >
 &
 aBits
@@ -1381,7 +1381,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 wrote
 ;
 outputStream
@@ -1505,7 +1505,7 @@ DeviceStorageFile
 >
 &
 aFiles
-PRUint64
+uint64_t
 aSince
 )
 {
@@ -1558,7 +1558,7 @@ DeviceStorageFile
 >
 &
 aFiles
-PRUint64
+uint64_t
 aSince
 nsAString
 &
@@ -1628,7 +1628,7 @@ f
 f
 )
 {
-PRInt64
+int64_t
 msecs
 ;
 f
@@ -1822,7 +1822,7 @@ dsf
 }
 }
 }
-PRUint64
+uint64_t
 DeviceStorageFile
 :
 :
@@ -1831,7 +1831,7 @@ DirectoryDiskUsage
 nsIFile
 *
 aFile
-PRUint64
+uint64_t
 aSoFar
 )
 {
@@ -2054,7 +2054,7 @@ if
 isFile
 )
 {
-PRInt64
+int64_t
 size
 ;
 rv
@@ -2157,7 +2157,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 state
 ;
 nsresult
@@ -3933,7 +3933,7 @@ aPrincipal
 DeviceStorageFile
 *
 aFile
-PRUint64
+uint64_t
 aSince
 )
 :
@@ -4409,9 +4409,9 @@ DOMRequest
 >
 &
 aRequest
-PRInt64
+int64_t
 aFreeBytes
-PRInt64
+int64_t
 aTotalBytes
 )
 :
@@ -4558,7 +4558,7 @@ NS_OK
 }
 private
 :
-PRInt64
+int64_t
 mFreeBytes
 mTotalBytes
 ;
@@ -5271,7 +5271,7 @@ nsIRunnable
 >
 r
 ;
-PRUint64
+uint64_t
 diskUsage
 =
 DeviceStorageFile
@@ -5285,7 +5285,7 @@ mFile
 mFile
 )
 ;
-PRInt64
+int64_t
 freeSpace
 ;
 nsresult
@@ -6248,7 +6248,7 @@ Release
 }
 private
 :
-PRInt32
+int32_t
 mRequestType
 ;
 nsCOMPtr
@@ -7454,7 +7454,7 @@ aOptions
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 nsIDOMDeviceStorageCursor
 *
@@ -7497,7 +7497,7 @@ aOptions
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 nsIDOMDeviceStorageCursor
 *
@@ -7671,7 +7671,7 @@ aOptions
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 bool
 aEditable
@@ -8216,9 +8216,9 @@ nsDOMDeviceStorageStat
 :
 nsDOMDeviceStorageStat
 (
-PRUint64
+uint64_t
 aFreeBytes
-PRUint64
+uint64_t
 aTotalBytes
 nsAString
 &
@@ -8254,7 +8254,7 @@ nsDOMDeviceStorageStat
 :
 GetTotalBytes
 (
-PRUint64
+uint64_t
 *
 aTotalBytes
 )
@@ -8274,7 +8274,7 @@ nsDOMDeviceStorageStat
 :
 GetFreeBytes
 (
-PRUint64
+uint64_t
 *
 aFreeBytes
 )
@@ -8449,7 +8449,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 state
 ;
 nsresult
@@ -8866,7 +8866,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 aArgc
 )
 {
@@ -8971,7 +8971,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 aArgc
 )
 {

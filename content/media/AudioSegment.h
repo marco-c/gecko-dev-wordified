@@ -186,7 +186,7 @@ mBuffer
 mOffset
 +
 =
-PRInt32
+int32_t
 (
 aStart
 )
@@ -348,7 +348,7 @@ data
 is
 all
 zeroes
-PRInt32
+int32_t
 mBufferLength
 ;
 /
@@ -384,7 +384,7 @@ mBuffer
 is
 nonnull
 )
-PRInt32
+int32_t
 mOffset
 ;
 /
@@ -560,7 +560,7 @@ mChannels
 void
 Init
 (
-PRInt32
+int32_t
 aChannels
 )
 {
@@ -594,7 +594,7 @@ mChannels
 aChannels
 ;
 }
-PRInt32
+int32_t
 GetChannels
 (
 )
@@ -698,11 +698,11 @@ already_AddRefed
 SharedBuffer
 >
 aBuffer
-PRInt32
+int32_t
 aBufferLength
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aEnd
 SampleFormat
 aFormat
@@ -883,7 +883,7 @@ AUDIO
 }
 protected
 :
-PRInt32
+int32_t
 mChannels
 ;
 }

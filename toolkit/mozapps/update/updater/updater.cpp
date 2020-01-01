@@ -7586,7 +7586,7 @@ READ_ERROR
 }
 if
 (
-PRUint32
+uint32_t
 (
 os
 .
@@ -7620,7 +7620,7 @@ d
 \
 n
 "
-PRUint32
+uint32_t
 (
 os
 .

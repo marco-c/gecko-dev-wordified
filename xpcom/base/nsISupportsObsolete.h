@@ -245,7 +245,7 @@ this
 should
 be
 a
-PRInt32
+int32_t
 .
 Note
 that

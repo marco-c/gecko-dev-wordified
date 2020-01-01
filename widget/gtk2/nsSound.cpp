@@ -1288,10 +1288,10 @@ nsISupports
 context
 nsresult
 aStatus
-PRUint32
+uint32_t
 dataLen
 const
-PRUint8
+uint8_t
 *
 data
 )
@@ -1558,7 +1558,7 @@ on
 another
 thread
 ?
-PRUint32
+uint32_t
 length
 =
 dataLen
@@ -1570,7 +1570,7 @@ length
 0
 )
 {
-PRInt32
+int32_t
 amount
 =
 PR_Write
@@ -1917,7 +1917,7 @@ nsSound
 :
 PlayEventSound
 (
-PRUint32
+uint32_t
 aEventId
 )
 {
@@ -2196,7 +2196,7 @@ instead
 "
 )
 ;
-PRUint32
+uint32_t
 eventId
 ;
 if

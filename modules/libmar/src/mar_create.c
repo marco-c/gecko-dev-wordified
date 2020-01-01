@@ -209,13 +209,13 @@ void
 *
 head
 ;
-PRUint32
+uint32_t
 size_used
 ;
-PRUint32
+uint32_t
 size_allocated
 ;
-PRUint32
+uint32_t
 last_offset
 ;
 }
@@ -254,9 +254,9 @@ struct
 MarItemStack
 *
 stack
-PRUint32
+uint32_t
 length
-PRUint32
+uint32_t
 flags
 const
 char
@@ -267,12 +267,12 @@ name
 int
 namelen
 ;
-PRUint32
+uint32_t
 n_offset
 n_length
 n_flags
 ;
-PRUint32
+uint32_t
 size
 ;
 char
@@ -682,7 +682,7 @@ PIB_MAX_MAR_CHANNEL_ID_SIZE
 PIB_MAX_PRODUCT_VERSION_SIZE
 ]
 ;
-PRUint32
+uint32_t
 additionalBlockID
 =
 1
@@ -1226,7 +1226,7 @@ fp
 int
 rv
 ;
-PRUint32
+uint32_t
 numSignatures
 additionalBlockSize
 additionalBlockID
@@ -1238,7 +1238,7 @@ int
 additionalBlocks
 hasSignatureBlock
 ;
-PRInt64
+int64_t
 oldPos
 ;
 rv
@@ -1821,7 +1821,7 @@ struct
 MarItemStack
 stack
 ;
-PRUint32
+uint32_t
 offset_to_index
 =
 0
@@ -1829,7 +1829,7 @@ size_of_index
 numSignatures
 numAdditionalSections
 ;
-PRUint64
+uint64_t
 sizeOfEntireMAR
 =
 0
@@ -1925,7 +1925,7 @@ fwrite
 offset_to_index
 sizeof
 (
-PRUint32
+uint32_t
 )
 1
 fp
@@ -2391,7 +2391,7 @@ sizeOfEntireMAR
 =
 (
 (
-PRUint64
+uint64_t
 )
 stack
 .

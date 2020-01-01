@@ -522,7 +522,7 @@ status
 NS_IMETHOD
 Available
 (
-PRUint64
+uint64_t
 *
 result
 )
@@ -535,9 +535,9 @@ fun
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -555,7 +555,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 dataLen
 )
 ;
@@ -1380,7 +1380,7 @@ thread
 event
 loop
 boolean
-PRInt32
+int32_t
 mResponseCode
 ;
 /
@@ -1455,7 +1455,7 @@ and
 it
 failed
 ?
-PRUint64
+uint64_t
 mFileSize
 ;
 nsCString
@@ -1505,7 +1505,7 @@ mProxyInfo
 connection
 cache
 vars
-PRInt32
+int32_t
 mServerType
 ;
 /
@@ -1617,7 +1617,7 @@ mCacheConnection
 *
 URI
 vars
-PRInt32
+int32_t
 mPort
 ;
 /
@@ -1690,7 +1690,7 @@ bool
 mServerIsIPv6
 ;
 static
-PRUint32
+uint32_t
 mSessionStartTime
 ;
 PRNetAddr

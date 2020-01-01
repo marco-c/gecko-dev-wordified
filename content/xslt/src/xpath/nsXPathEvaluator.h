@@ -275,7 +275,7 @@ nsIDOMXPathNSResolver
 aResolver
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aNamespaceIDs

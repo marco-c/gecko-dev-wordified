@@ -884,10 +884,10 @@ nsIChannel
 *
 aChannel
 const
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLength
 const
 nsAString
@@ -1135,7 +1135,7 @@ not
 .
 *
 /
-PRUint32
+uint32_t
 HasPendingOrCurrentScripts
 (
 )
@@ -1577,10 +1577,10 @@ nsIStreamLoader
 aLoader
 nsresult
 aStatus
-PRUint32
+uint32_t
 aStringLen
 const
-PRUint8
+uint8_t
 *
 aString
 )
@@ -1763,7 +1763,7 @@ nsScriptLoader
 >
 mPendingChildLoaders
 ;
-PRUint32
+uint32_t
 mBlockerCount
 ;
 bool

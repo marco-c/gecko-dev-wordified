@@ -432,7 +432,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint32
+uint32_t
 geckoCoordType
 =
 (
@@ -452,7 +452,7 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_PARENT_RELATIVE
 ;
-PRInt32
+int32_t
 x
 =
 0
@@ -576,7 +576,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRInt32
+int32_t
 width
 =
 0

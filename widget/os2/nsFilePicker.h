@@ -243,7 +243,7 @@ aDefaultExtension
 NS_IMETHOD
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -251,7 +251,7 @@ aFilterIndex
 NS_IMETHOD
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 ;
@@ -285,7 +285,7 @@ aFiles
 NS_IMETHOD
 Show
 (
-PRInt16
+int16_t
 *
 _retval
 )
@@ -323,7 +323,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 ;
@@ -370,7 +370,7 @@ mWnd
 nsString
 mTitle
 ;
-PRInt16
+int16_t
 mMode
 ;
 nsCString
@@ -402,7 +402,7 @@ nsIUnicodeDecoder
 *
 mUnicodeDecoder
 ;
-PRInt16
+int16_t
 mSelectedType
 ;
 nsCOMArray

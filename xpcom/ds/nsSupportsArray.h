@@ -123,7 +123,7 @@ h
 "
 static
 const
-PRUint32
+uint32_t
 kAutoArraySize
 =
 8
@@ -182,7 +182,7 @@ methods
 NS_IMETHOD
 Count
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -199,7 +199,7 @@ NS_OK
 NS_IMETHOD
 GetElementAt
 (
-PRUint32
+uint32_t
 aIndex
 nsISupports
 *
@@ -222,7 +222,7 @@ NS_OK
 NS_IMETHOD
 QueryElementAt
 (
-PRUint32
+uint32_t
 aIndex
 const
 nsIID
@@ -275,7 +275,7 @@ NS_ERROR_FAILURE
 NS_IMETHOD
 SetElementAt
 (
-PRUint32
+uint32_t
 aIndex
 nsISupports
 *
@@ -391,9 +391,9 @@ bool
 )
 MoveElement
 (
-PRInt32
+int32_t
 aFrom
-PRInt32
+int32_t
 aTo
 )
 ;
@@ -436,13 +436,13 @@ nsISupports
 )
 ElementAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 IndexOf
 (
@@ -454,7 +454,7 @@ aPossibleElement
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 IndexOfStartingAt
 (
@@ -462,7 +462,7 @@ const
 nsISupports
 *
 aPossibleElement
-PRUint32
+uint32_t
 aStartIndex
 =
 0
@@ -470,7 +470,7 @@ aStartIndex
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 LastIndexOf
 (
@@ -486,7 +486,7 @@ GetIndexOf
 nsISupports
 *
 aPossibleElement
-PRInt32
+int32_t
 *
 _retval
 )
@@ -509,9 +509,9 @@ GetIndexOfStartingAt
 nsISupports
 *
 aPossibleElement
-PRUint32
+uint32_t
 aStartIndex
-PRInt32
+int32_t
 *
 _retval
 )
@@ -535,7 +535,7 @@ GetLastIndexOf
 nsISupports
 *
 aPossibleElement
-PRInt32
+int32_t
 *
 _retval
 )
@@ -561,7 +561,7 @@ InsertElementAt
 nsISupports
 *
 aElement
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -574,7 +574,7 @@ ReplaceElementAt
 nsISupports
 *
 aElement
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -584,7 +584,7 @@ bool
 )
 RemoveElementAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -606,7 +606,7 @@ const
 nsISupports
 *
 aElement
-PRUint32
+uint32_t
 aStartIndex
 =
 0
@@ -648,7 +648,7 @@ NS_ERROR_FAILURE
 NS_IMETHOD
 DeleteElementAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -734,7 +734,7 @@ InsertElementsAt
 nsISupportsArray
 *
 aOther
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -744,9 +744,9 @@ bool
 )
 RemoveElementsAt
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -756,7 +756,7 @@ bool
 )
 SizeTo
 (
-PRInt32
+int32_t
 aSize
 )
 ;
@@ -774,7 +774,7 @@ void
 )
 GrowArrayBy
 (
-PRInt32
+int32_t
 aGrowBy
 )
 ;
@@ -783,10 +783,10 @@ nsISupports
 *
 mArray
 ;
-PRUint32
+uint32_t
 mArraySize
 ;
-PRUint32
+uint32_t
 mCount
 ;
 nsISupports
@@ -799,10 +799,10 @@ kAutoArraySize
 #
 if
 DEBUG_SUPPORTSARRAY
-PRUint32
+uint32_t
 mMaxCount
 ;
-PRUint32
+uint32_t
 mMaxSize
 ;
 #

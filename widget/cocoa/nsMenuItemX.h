@@ -339,7 +339,7 @@ SetupIcon
 )
 ;
 static
-PRUint32
+uint32_t
 ConvertGeckoToMacKeyCode
 (
 nsAString

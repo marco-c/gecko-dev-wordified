@@ -675,7 +675,7 @@ GetScriptGlobalObject
 void
 MarkInCCGeneration
 (
-PRUint32
+uint32_t
 aCCGeneration
 )
 {
@@ -742,7 +742,7 @@ nsNodeInfoManager
 >
 mNodeInfoManager
 ;
-PRUint32
+uint32_t
 mCCGeneration
 ;
 nsXULPrototypeDocument
@@ -787,7 +787,7 @@ nsXULPDGlobalObject
 gSystemGlobal
 ;
 static
-PRUint32
+uint32_t
 gRefCnt
 ;
 friend

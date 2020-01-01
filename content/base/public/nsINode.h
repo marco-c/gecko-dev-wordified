@@ -1355,7 +1355,7 @@ mutations
 bool
 Mutated
 (
-PRUint8
+uint8_t
 aIgnoreCount
 )
 {
@@ -1364,7 +1364,7 @@ sMutationCount
 <
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 eMaxMutations
@@ -1474,7 +1474,7 @@ the
 guard
 dies
 .
-PRUint32
+uint32_t
 mDelta
 ;
 /
@@ -1550,7 +1550,7 @@ and
 inclusive
 .
 static
-PRUint32
+uint32_t
 sMutationCount
 ;
 }
@@ -2331,7 +2331,7 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -2523,7 +2523,7 @@ children
 *
 /
 virtual
-PRUint32
+uint32_t
 GetChildCount
 (
 )
@@ -2568,7 +2568,7 @@ nsIContent
 *
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -2686,7 +2686,7 @@ const
 *
 GetChildArray
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
@@ -2758,7 +2758,7 @@ aPossibleChild
 *
 /
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsINode
@@ -3000,7 +3000,7 @@ nsIDOMNode
 nodeType
 *
 /
-PRUint16
+uint16_t
 NodeType
 (
 )
@@ -3396,7 +3396,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -3666,7 +3666,7 @@ virtual
 void
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -3884,7 +3884,7 @@ void
 *
 GetProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsIAtom
 *
@@ -4201,7 +4201,7 @@ virtual
 nsresult
 SetProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsIAtom
 *
@@ -4333,7 +4333,7 @@ virtual
 void
 DeleteProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsIAtom
 *
@@ -4603,7 +4603,7 @@ void
 *
 UnsetProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsIAtom
 *
@@ -5791,7 +5791,7 @@ aFlag
 )
 ;
 }
-PRUint32
+uint32_t
 GetFlags
 (
 )
@@ -5804,7 +5804,7 @@ mFlags
 void
 SetFlags
 (
-PRUint32
+uint32_t
 aFlagsToSet
 )
 {
@@ -5853,7 +5853,7 @@ aFlagsToSet
 void
 UnsetFlags
 (
-PRUint32
+uint32_t
 aFlagsToUnset
 )
 {
@@ -6284,7 +6284,7 @@ GetLastChild
 )
 const
 {
-PRUint32
+uint32_t
 count
 ;
 nsIContent
@@ -6918,7 +6918,7 @@ see
 nsIDOMNode
 *
 /
-PRUint16
+uint16_t
 CompareDocPosition
 (
 nsINode
@@ -6932,7 +6932,7 @@ CompareDocPosition
 nsINode
 *
 aOtherNode
-PRUint16
+uint16_t
 *
 aReturn
 )
@@ -6960,7 +6960,7 @@ CompareDocumentPosition
 nsIDOMNode
 *
 aOther
-PRUint16
+uint16_t
 *
 aReturn
 )
@@ -8974,7 +8974,7 @@ length
 >
 *
 /
-PRUint32
+uint32_t
 Length
 (
 )
@@ -9456,7 +9456,7 @@ removal
 void
 doRemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -9551,7 +9551,7 @@ doInsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -9737,7 +9737,7 @@ nsINode
 *
 mParent
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 private
@@ -9747,7 +9747,7 @@ private
 Boolean
 flags
 .
-PRUint32
+uint32_t
 mBoolFlags
 ;
 protected

@@ -1887,7 +1887,7 @@ IsVoid
 )
 )
 {
-PRUint32
+uint32_t
 len
 ;
 jschar
@@ -3195,7 +3195,7 @@ isNewString
 =
 false
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -3268,7 +3268,7 @@ false
 length
 =
 (
-PRUint32
+uint32_t
 )
 JS_GetStringLength
 (
@@ -3655,7 +3655,7 @@ jschar
 *
 t
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -3974,7 +3974,7 @@ jschar
 *
 chars
 ;
-PRUint32
+uint32_t
 length
 ;
 JSString
@@ -4436,7 +4436,7 @@ rs
 >
 SetLength
 (
-PRUint32
+uint32_t
 (
 length
 )
@@ -4452,7 +4452,7 @@ Length
 )
 !
 =
-PRUint32
+uint32_t
 (
 length
 )
@@ -4643,7 +4643,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 length
 =
 JS_GetStringLength
@@ -9627,7 +9627,7 @@ const
 nsXPTType
 &
 type
-PRUint8
+uint8_t
 requiredType
 size_t
 typeSize
@@ -11257,7 +11257,7 @@ array
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11310,7 +11310,7 @@ array
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11837,7 +11837,7 @@ false
 }
 len
 =
-PRUint32
+uint32_t
 (
 length
 )

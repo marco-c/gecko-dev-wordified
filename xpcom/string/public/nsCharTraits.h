@@ -480,7 +480,7 @@ pairs
 #
 define
 PLANE1_BASE
-PRUint32
+uint32_t
 (
 0x00010000
 )
@@ -504,7 +504,7 @@ u
 )
 (
 (
-PRUint32
+uint32_t
 (
 u
 )
@@ -535,7 +535,7 @@ u
 )
 (
 (
-PRUint32
+uint32_t
 (
 u
 )
@@ -563,7 +563,7 @@ u
 )
 (
 (
-PRUint32
+uint32_t
 (
 u
 )
@@ -643,7 +643,7 @@ l
 (
 (
 (
-PRUint32
+uint32_t
 (
 h
 )
@@ -657,7 +657,7 @@ h
 +
 \
 (
-PRUint32
+uint32_t
 (
 l
 )
@@ -747,7 +747,7 @@ PRUnichar
 (
 PRUnichar
 (
-PRUint32
+uint32_t
 (
 c
 )
@@ -836,12 +836,12 @@ PRUnichar
 (
 PRUnichar
 (
-PRUint32
+uint32_t
 (
 c
 )
 &
-PRUint32
+uint32_t
 (
 0x03FF
 )
@@ -860,7 +860,7 @@ IS_IN_BMP
 ucs
 )
 (
-PRUint32
+uint32_t
 (
 ucs
 )
@@ -877,7 +877,7 @@ PRUnichar
 #
 define
 UCS_END
-PRUint32
+uint32_t
 (
 0x00110000
 )
@@ -889,7 +889,7 @@ c
 )
 (
 (
-PRUint32
+uint32_t
 (
 c
 )
@@ -946,7 +946,7 @@ PRUnichar
 char_type
 ;
 typedef
-PRUint16
+uint16_t
 unsigned_char_type
 ;
 typedef
@@ -3304,7 +3304,7 @@ difference_type
 difference_type
 ;
 static
-PRUint32
+uint32_t
 readable_distance
 (
 const
@@ -3323,7 +3323,7 @@ assumes
 single
 fragment
 return
-PRUint32
+uint32_t
 (
 last
 .
@@ -3404,7 +3404,7 @@ ptrdiff_t
 difference_type
 ;
 static
-PRUint32
+uint32_t
 readable_distance
 (
 CharT
@@ -3413,7 +3413,7 @@ s
 )
 {
 return
-PRUint32
+uint32_t
 (
 nsCharTraits
 <
@@ -3432,7 +3432,7 @@ s
 return
 numeric_limits
 <
-PRUint32
+uint32_t
 >
 :
 :
@@ -3442,7 +3442,7 @@ max
 ;
 }
 static
-PRUint32
+uint32_t
 readable_distance
 (
 CharT
@@ -3454,7 +3454,7 @@ last
 )
 {
 return
-PRUint32
+uint32_t
 (
 last
 -
@@ -3515,7 +3515,7 @@ ptrdiff_t
 difference_type
 ;
 static
-PRUint32
+uint32_t
 readable_distance
 (
 const
@@ -3525,7 +3525,7 @@ s
 )
 {
 return
-PRUint32
+uint32_t
 (
 nsCharTraits
 <
@@ -3544,7 +3544,7 @@ s
 return
 numeric_limits
 <
-PRUint32
+uint32_t
 >
 :
 :
@@ -3554,7 +3554,7 @@ max
 ;
 }
 static
-PRUint32
+uint32_t
 readable_distance
 (
 const
@@ -3568,7 +3568,7 @@ last
 )
 {
 return
-PRUint32
+uint32_t
 (
 last
 -
@@ -3629,7 +3629,7 @@ ptrdiff_t
 difference_type
 ;
 static
-PRUint32
+uint32_t
 readable_distance
 (
 const
@@ -3639,7 +3639,7 @@ s
 )
 {
 return
-PRUint32
+uint32_t
 (
 nsCharTraits
 <
@@ -3658,7 +3658,7 @@ s
 return
 numeric_limits
 <
-PRUint32
+uint32_t
 >
 :
 :
@@ -3668,7 +3668,7 @@ max
 ;
 }
 static
-PRUint32
+uint32_t
 readable_distance
 (
 const
@@ -3682,7 +3682,7 @@ last
 )
 {
 return
-PRUint32
+uint32_t
 (
 last
 -
@@ -3752,7 +3752,7 @@ OutputIterator
 value_type
 *
 s
-PRUint32
+uint32_t
 n
 )
 {
@@ -3794,7 +3794,7 @@ const
 CharT
 *
 s
-PRUint32
+uint32_t
 n
 )
 {
@@ -3843,7 +3843,7 @@ const
 char
 *
 s
-PRUint32
+uint32_t
 n
 )
 {
@@ -3890,7 +3890,7 @@ const
 PRUnichar
 *
 s
-PRUint32
+uint32_t
 n
 )
 {

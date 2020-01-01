@@ -186,7 +186,7 @@ txNodeSetAdaptor
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -204,7 +204,7 @@ if
 aIndex
 >
 (
-PRUint32
+uint32_t
 )
 NodeSet
 (
@@ -245,7 +245,7 @@ txNodeSetAdaptor
 :
 ItemAsNumber
 (
-PRUint32
+uint32_t
 aIndex
 double
 *
@@ -257,7 +257,7 @@ if
 aIndex
 >
 (
-PRUint32
+uint32_t
 )
 NodeSet
 (
@@ -314,7 +314,7 @@ txNodeSetAdaptor
 :
 ItemAsString
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -326,7 +326,7 @@ if
 aIndex
 >
 (
-PRUint32
+uint32_t
 )
 NodeSet
 (
@@ -369,7 +369,7 @@ txNodeSetAdaptor
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -378,7 +378,7 @@ aLength
 aLength
 =
 (
-PRUint32
+uint32_t
 )
 NodeSet
 (

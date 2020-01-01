@@ -516,7 +516,7 @@ actually
 care
 about
 .
-PRUint32
+uint32_t
 firstFuncToCompose
 =
 GetFirstFuncToAffectSandwich
@@ -580,7 +580,7 @@ FIFTH
 Compose
 animation
 functions
-PRUint32
+uint32_t
 length
 =
 mAnimationFunctions
@@ -591,7 +591,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 firstFuncToCompose
@@ -866,7 +866,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 nsSMILCompositor
 :
 :
@@ -874,7 +874,7 @@ GetFirstFuncToAffectSandwich
 (
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1094,7 +1094,7 @@ mForceCompositing
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 i

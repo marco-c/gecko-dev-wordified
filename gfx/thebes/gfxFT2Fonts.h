@@ -250,7 +250,7 @@ glyphIndex
 }
 CachedGlyphData
 (
-PRUint32
+uint32_t
 gid
 )
 :
@@ -260,16 +260,16 @@ gid
 )
 {
 }
-PRUint32
+uint32_t
 glyphIndex
 ;
-PRInt32
+int32_t
 lsbDelta
 ;
-PRInt32
+int32_t
 rsbDelta
 ;
-PRInt32
+int32_t
 xAdvance
 ;
 }
@@ -279,7 +279,7 @@ CachedGlyphData
 *
 GetGlyphDataForChar
 (
-PRUint32
+uint32_t
 ch
 )
 {
@@ -392,7 +392,7 @@ false
 void
 FillGlyphDataForChar
 (
-PRUint32
+uint32_t
 ch
 CachedGlyphData
 *
@@ -592,7 +592,7 @@ gfxFontEntry
 >
 &
 aFontEntryList
-PRUint32
+uint32_t
 aCh
 )
 ;
@@ -602,7 +602,7 @@ gfxFont
 >
 WhichPrefFontSupportsChar
 (
-PRUint32
+uint32_t
 aCh
 )
 ;
@@ -612,9 +612,9 @@ gfxFont
 >
 WhichSystemFontSupportsChar
 (
-PRUint32
+uint32_t
 aCh
-PRInt32
+int32_t
 aRunScript
 )
 ;

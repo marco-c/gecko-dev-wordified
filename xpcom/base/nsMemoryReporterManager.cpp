@@ -230,7 +230,7 @@ static
 nsresult
 GetHardPageFaults
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -276,7 +276,7 @@ static
 nsresult
 GetSoftPageFaults
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -342,7 +342,7 @@ GetProcSelfStatmField
 (
 int
 field
-PRInt64
+int64_t
 *
 n
 )
@@ -483,7 +483,7 @@ static
 nsresult
 GetVsize
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -500,7 +500,7 @@ static
 nsresult
 GetResident
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -544,10 +544,10 @@ static
 void
 XMappingIter
 (
-PRInt64
+int64_t
 &
 vsize
-PRInt64
+int64_t
 &
 resident
 )
@@ -831,12 +831,12 @@ static
 nsresult
 GetVsize
 (
-PRInt64
+int64_t
 *
 n
 )
 {
-PRInt64
+int64_t
 vsize
 resident
 ;
@@ -872,12 +872,12 @@ static
 nsresult
 GetResident
 (
-PRInt64
+int64_t
 *
 n
 )
 {
-PRInt64
+int64_t
 vsize
 resident
 ;
@@ -1030,7 +1030,7 @@ static
 nsresult
 GetVsize
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -1065,7 +1065,7 @@ static
 nsresult
 GetResident
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -1249,7 +1249,7 @@ static
 nsresult
 GetVsize
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -1299,7 +1299,7 @@ static
 nsresult
 GetResident
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -1355,7 +1355,7 @@ static
 nsresult
 GetPrivate
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -2067,7 +2067,7 @@ define
 HAVE_HEAP_ALLOCATED_REPORTERS
 1
 static
-PRInt64
+int64_t
 GetHeapUnused
 (
 )
@@ -2083,7 +2083,7 @@ stats
 ;
 return
 (
-PRInt64
+int64_t
 )
 (
 stats
@@ -2097,7 +2097,7 @@ allocated
 ;
 }
 static
-PRInt64
+int64_t
 GetHeapAllocated
 (
 )
@@ -2113,7 +2113,7 @@ stats
 ;
 return
 (
-PRInt64
+int64_t
 )
 stats
 .
@@ -2121,7 +2121,7 @@ allocated
 ;
 }
 static
-PRInt64
+int64_t
 GetHeapCommitted
 (
 )
@@ -2137,7 +2137,7 @@ stats
 ;
 return
 (
-PRInt64
+int64_t
 )
 stats
 .
@@ -2145,7 +2145,7 @@ committed
 ;
 }
 static
-PRInt64
+int64_t
 GetHeapCommittedUnused
 (
 )
@@ -2170,7 +2170,7 @@ allocated
 ;
 }
 static
-PRInt64
+int64_t
 GetHeapCommittedUnusedRatio
 (
 )
@@ -2186,7 +2186,7 @@ stats
 ;
 return
 (
-PRInt64
+int64_t
 )
 10000
 *
@@ -2211,7 +2211,7 @@ allocated
 ;
 }
 static
-PRInt64
+int64_t
 GetHeapDirty
 (
 )
@@ -2227,7 +2227,7 @@ stats
 ;
 return
 (
-PRInt64
+int64_t
 )
 stats
 .
@@ -2568,7 +2568,7 @@ define
 HAVE_HEAP_ALLOCATED_REPORTERS
 1
 static
-PRInt64
+int64_t
 GetHeapUnused
 (
 )
@@ -2592,7 +2592,7 @@ bytes_used
 ;
 }
 static
-PRInt64
+int64_t
 GetHeapAllocated
 (
 )
@@ -2659,7 +2659,7 @@ define
 HAVE_HEAP_ZONE0_REPORTERS
 1
 static
-PRInt64
+int64_t
 GetHeapZone0Committed
 (
 )
@@ -2683,7 +2683,7 @@ size_in_use
 ;
 }
 static
-PRInt64
+int64_t
 GetHeapZone0Used
 (
 )
@@ -2944,7 +2944,7 @@ static
 nsresult
 GetExplicit
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -3053,7 +3053,7 @@ table
 "
 )
 static
-PRInt64
+int64_t
 GetAtomTableSize
 (
 )
@@ -3609,7 +3609,7 @@ nsMemoryReporterManager
 :
 GetResident
 (
-PRInt64
+int64_t
 *
 aResident
 )
@@ -3647,7 +3647,7 @@ const
 nsACString
 &
 path
-PRInt64
+int64_t
 amount
 )
 :
@@ -3708,7 +3708,7 @@ const
 nsCString
 path
 ;
-PRInt64
+int64_t
 amount
 ;
 }
@@ -3724,7 +3724,7 @@ just
 a
 wrapper
 for
-PRInt64
+int64_t
 that
 implements
 nsISupports
@@ -3761,7 +3761,7 @@ mValue
 )
 {
 }
-PRInt64
+int64_t
 mValue
 ;
 }
@@ -3791,11 +3791,11 @@ const
 nsACString
 &
 aPath
-PRInt32
+int32_t
 aKind
-PRInt32
+int32_t
 aUnits
-PRInt64
+int64_t
 aAmount
 const
 nsACString
@@ -3836,7 +3836,7 @@ explicit
 aAmount
 !
 =
-PRInt64
+int64_t
 (
 -
 1
@@ -3884,7 +3884,7 @@ nsMemoryReporterManager
 :
 GetExplicit
 (
-PRInt64
+int64_t
 *
 aExplicit
 )
@@ -3944,16 +3944,16 @@ explicit
 "
 reporters
 .
-PRInt64
+int64_t
 heapAllocated
 =
-PRInt64
+int64_t
 (
 -
 1
 )
 ;
-PRInt64
+int64_t
 explicitNonHeapNormalSize
 =
 0
@@ -4007,7 +4007,7 @@ r
 )
 )
 ;
-PRInt32
+int32_t
 kind
 ;
 rv
@@ -4115,7 +4115,7 @@ most
 important
 one
 .
-PRInt64
+int64_t
 amount
 ;
 rv
@@ -4314,7 +4314,7 @@ have
 bugs
 .
 )
-PRInt64
+int64_t
 explicitNonHeapMultiSize
 =
 0
@@ -4368,7 +4368,7 @@ r
 )
 )
 ;
-PRInt64
+int64_t
 n
 ;
 rv
@@ -4478,7 +4478,7 @@ wrappedExplicitNonHeapMultiSize2
 )
 ;
 }
-PRInt64
+int64_t
 explicitNonHeapMultiSize2
 =
 wrappedExplicitNonHeapMultiSize2
@@ -4670,11 +4670,11 @@ process
 nsACString
 &
 path
-PRInt32
+int32_t
 kind
-PRInt32
+int32_t
 units
-PRInt64
+int64_t
 amount
 nsACString
 &
@@ -4766,7 +4766,7 @@ nsMemoryReporter
 :
 GetKind
 (
-PRInt32
+int32_t
 *
 aKind
 )
@@ -4786,7 +4786,7 @@ nsMemoryReporter
 :
 GetUnits
 (
-PRInt32
+int32_t
 *
 aUnits
 )
@@ -4806,7 +4806,7 @@ nsMemoryReporter
 :
 GetAmount
 (
-PRInt64
+int64_t
 *
 aAmount
 )
@@ -5072,11 +5072,11 @@ const
 nsACString
 &
 aPath
-PRInt32
+int32_t
 aKind
-PRInt32
+int32_t
 aUnits
-PRInt64
+int64_t
 aAmount
 const
 nsACString
@@ -5216,7 +5216,7 @@ report
 to
 DMD
 .
-PRInt64
+int64_t
 amount
 ;
 (

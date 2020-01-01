@@ -272,7 +272,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -312,7 +312,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -1318,7 +1318,7 @@ aElement
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 bool
 aAttrHasChanged
@@ -1578,7 +1578,7 @@ bool
 aStyleDisabled
 )
 ;
-PRInt32
+int32_t
 SheetCount
 (
 sheetType
@@ -1603,7 +1603,7 @@ StyleSheetAt
 (
 sheetType
 aType
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -2501,7 +2501,7 @@ look
 up
 properties
 .
-PRUint16
+uint16_t
 mBatching
 ;
 unsigned
@@ -2534,7 +2534,7 @@ used
 per
 sheet
 type
-PRUint32
+uint32_t
 mUnusedRuleNodeCount
 ;
 /

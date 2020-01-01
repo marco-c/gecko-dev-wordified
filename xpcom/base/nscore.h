@@ -2055,7 +2055,7 @@ type
 *
 /
 typedef
-PRUint32
+uint32_t
 nsresult
 ;
 /
@@ -2130,7 +2130,7 @@ nsrefcnt
 #
 else
 typedef
-PRUint32
+uint32_t
 nsrefcnt
 ;
 #
@@ -2423,7 +2423,7 @@ PRUnichar
 #
 else
 typedef
-PRUint16
+uint16_t
 PRUnichar
 ;
 #
@@ -2453,7 +2453,7 @@ x
 )
 (
 (
-PRInt32
+int32_t
 )
 (
 intptr_t
@@ -2470,7 +2470,7 @@ x
 )
 (
 (
-PRUint32
+uint32_t
 )
 (
 intptr_t

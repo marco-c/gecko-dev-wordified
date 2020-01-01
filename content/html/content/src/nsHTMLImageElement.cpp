@@ -776,7 +776,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 status
 ;
 mCurrentRequest
@@ -923,7 +923,7 @@ nsHTMLImageElement
 :
 GetX
 (
-PRInt32
+int32_t
 *
 aX
 )
@@ -947,7 +947,7 @@ nsHTMLImageElement
 :
 GetY
 (
-PRInt32
+int32_t
 *
 aY
 )
@@ -971,7 +971,7 @@ nsHTMLImageElement
 :
 GetHeight
 (
-PRUint32
+uint32_t
 *
 aHeight
 )
@@ -996,7 +996,7 @@ nsHTMLImageElement
 :
 SetHeight
 (
-PRUint32
+uint32_t
 aHeight
 )
 {
@@ -1020,7 +1020,7 @@ nsHTMLImageElement
 :
 GetWidth
 (
-PRUint32
+uint32_t
 *
 aWidth
 )
@@ -1045,7 +1045,7 @@ nsHTMLImageElement
 :
 SetWidth
 (
-PRUint32
+uint32_t
 aWidth
 )
 {
@@ -1069,7 +1069,7 @@ nsHTMLImageElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1228,7 +1228,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -1489,12 +1489,12 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
 {
-PRInt32
+int32_t
 tabIndex
 ;
 GetTabIndex
@@ -1723,7 +1723,7 @@ nsHTMLImageElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1986,7 +1986,7 @@ nsHTMLImageElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2348,7 +2348,7 @@ aContext
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -2430,7 +2430,7 @@ nsGkAtoms
 width
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 width
@@ -2498,7 +2498,7 @@ nsGkAtoms
 height
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 height
@@ -2516,7 +2516,7 @@ nsHTMLImageElement
 :
 GetNaturalHeight
 (
-PRUint32
+uint32_t
 *
 aNaturalHeight
 )
@@ -2568,7 +2568,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 height
 ;
 if
@@ -2602,7 +2602,7 @@ nsHTMLImageElement
 :
 GetNaturalWidth
 (
-PRUint32
+uint32_t
 *
 aNaturalWidth
 )
@@ -2654,7 +2654,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 width
 ;
 if

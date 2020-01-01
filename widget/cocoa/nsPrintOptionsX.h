@@ -145,7 +145,7 @@ const
 nsAString
 &
 aPrinterName
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -159,7 +159,7 @@ const
 nsAString
 &
 aPrinterName
-PRUint32
+uint32_t
 aFlags
 )
 ;

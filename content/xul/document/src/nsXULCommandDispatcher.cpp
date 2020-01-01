@@ -2135,7 +2135,7 @@ content
 }
 for
 (
-PRInt32
+int32_t
 u
 =
 0
@@ -2366,7 +2366,7 @@ true
 match
 _everything_
 !
-PRInt32
+int32_t
 indx
 =
 aList

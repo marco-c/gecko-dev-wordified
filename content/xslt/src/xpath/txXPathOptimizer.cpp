@@ -169,7 +169,7 @@ txIEvalContext
 nsresult
 getVariable
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -322,7 +322,7 @@ nullptr
 )
 ;
 }
-PRUint32
+uint32_t
 size
 (
 )
@@ -344,7 +344,7 @@ return
 1
 ;
 }
-PRUint32
+uint32_t
 position
 (
 )
@@ -565,7 +565,7 @@ Then
 optimize
 sub
 expressions
-PRUint32
+uint32_t
 i
 =
 0
@@ -985,7 +985,7 @@ PathExpr
 aInExpr
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 Expr
@@ -1524,7 +1524,7 @@ bar
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 current
 ;
 Expr
@@ -1634,7 +1634,7 @@ merge
 them
 with
 currentStep
-PRUint32
+uint32_t
 i
 ;
 for

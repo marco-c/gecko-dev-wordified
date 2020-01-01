@@ -1116,7 +1116,7 @@ criterion
 .
 *
 /
-PRUint32
+uint32_t
 GetGhostTimeout
 (
 )

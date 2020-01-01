@@ -348,7 +348,7 @@ Accessible
 *
 mCurAcc
 ;
-PRUint32
+uint32_t
 mCurIndex
 ;
 }

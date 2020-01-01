@@ -173,7 +173,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -182,7 +182,7 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aRelationType
 )
 ;
@@ -231,7 +231,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -263,7 +263,7 @@ nsIAccessible
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -273,7 +273,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 ;
@@ -308,7 +308,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeLinkState
 (
 )
@@ -318,7 +318,7 @@ const
 /
 ActionAccessible
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )
@@ -333,13 +333,13 @@ IsLink
 )
 ;
 virtual
-PRUint32
+uint32_t
 StartOffset
 (
 )
 ;
 virtual
-PRUint32
+uint32_t
 EndOffset
 (
 )
@@ -351,7 +351,7 @@ nsIURI
 >
 AnchorURIAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 ;

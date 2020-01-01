@@ -308,7 +308,7 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
-PRUint32
+uint32_t
 aFlags
 =
 RenderFlagPremultAlpha

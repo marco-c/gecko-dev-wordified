@@ -306,9 +306,9 @@ OpenInputStream
 (
 bool
 aWholeFile
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 nsIInputStream
 *
@@ -384,10 +384,10 @@ mMode
 RequestMode
 mRequestMode
 ;
-PRUint64
+uint64_t
 mLocation
 ;
-PRUint32
+uint32_t
 mPendingRequests
 ;
 NS_DECL_EVENT_HANDLER

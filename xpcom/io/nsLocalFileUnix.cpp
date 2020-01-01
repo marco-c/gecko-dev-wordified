@@ -1546,7 +1546,7 @@ nsLocalFile
 :
 CreateAllAncestors
 (
-PRUint32
+uint32_t
 permissions
 )
 {
@@ -1994,9 +1994,9 @@ nsLocalFile
 :
 OpenNSPRFileDesc
 (
-PRInt32
+int32_t
 flags
-PRInt32
+int32_t
 mode
 PRFileDesc
 *
@@ -2201,11 +2201,11 @@ nsLocalFile
 :
 CreateAndKeepOpen
 (
-PRUint32
+uint32_t
 type
 int
 flags
-PRUint32
+uint32_t
 permissions
 PRFileDesc
 *
@@ -2506,9 +2506,9 @@ nsLocalFile
 :
 Create
 (
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 permissions
 )
 {
@@ -3298,7 +3298,7 @@ bool
 dirCheck
 isSymlink
 ;
-PRUint32
+uint32_t
 oldPerms
 ;
 if
@@ -4195,7 +4195,7 @@ get
 the
 old
 permissions
-PRUint32
+uint32_t
 myPerms
 ;
 GetPermissions
@@ -4434,12 +4434,12 @@ rv
 #
 ifdef
 DEBUG_blizzard
-PRInt32
+int32_t
 totalRead
 =
 0
 ;
-PRInt32
+int32_t
 totalWritten
 =
 0
@@ -4452,7 +4452,7 @@ buf
 BUFSIZ
 ]
 ;
-PRInt32
+int32_t
 bytesRead
 ;
 while
@@ -4491,7 +4491,7 @@ do
 a
 short
 write
-PRInt32
+int32_t
 bytesWritten
 =
 PR_Write
@@ -5069,7 +5069,7 @@ nsLocalFile
 :
 GetLastModifiedTime
 (
-PRInt64
+int64_t
 *
 aLastModTime
 )
@@ -5107,10 +5107,10 @@ NSRESULT_FOR_ERRNO
 (
 )
 ;
-PRInt64
+int64_t
 modTime
 =
-PRInt64
+int64_t
 (
 info
 .
@@ -5135,7 +5135,7 @@ aLastModTime
 =
 modTime
 /
-PRInt64
+int64_t
 (
 PR_USEC_PER_MSEC
 )
@@ -5150,7 +5150,7 @@ nsLocalFile
 :
 SetLastModifiedTime
 (
-PRInt64
+int64_t
 aLastModTime
 )
 {
@@ -5253,7 +5253,7 @@ nsLocalFile
 :
 GetLastModifiedTimeOfLink
 (
-PRInt64
+int64_t
 *
 aLastModTimeOfLink
 )
@@ -5296,14 +5296,14 @@ NSRESULT_FOR_ERRNO
 *
 aLastModTimeOfLink
 =
-PRInt64
+int64_t
 (
 sbuf
 .
 st_mtime
 )
 *
-PRInt64
+int64_t
 (
 PR_MSEC_PER_SEC
 )
@@ -5335,7 +5335,7 @@ nsLocalFile
 :
 SetLastModifiedTimeOfLink
 (
-PRInt64
+int64_t
 aLastModTimeOfLink
 )
 {
@@ -5400,7 +5400,7 @@ nsLocalFile
 :
 GetPermissions
 (
-PRUint32
+uint32_t
 *
 aPermissions
 )
@@ -5434,7 +5434,7 @@ nsLocalFile
 :
 GetPermissionsOfLink
 (
-PRUint32
+uint32_t
 *
 aPermissionsOfLink
 )
@@ -5494,7 +5494,7 @@ nsLocalFile
 :
 SetPermissions
 (
-PRUint32
+uint32_t
 aPermissions
 )
 {
@@ -5658,7 +5658,7 @@ nsLocalFile
 :
 SetPermissionsOfLink
 (
-PRUint32
+uint32_t
 aPermissions
 )
 {
@@ -5702,7 +5702,7 @@ nsLocalFile
 :
 GetFileSize
 (
-PRInt64
+int64_t
 *
 aFileSize
 )
@@ -5786,7 +5786,7 @@ st_mode
 aFileSize
 =
 (
-PRInt64
+int64_t
 )
 mCachedStat
 .
@@ -5803,7 +5803,7 @@ nsLocalFile
 :
 SetFileSize
 (
-PRInt64
+int64_t
 aFileSize
 )
 {
@@ -5954,7 +5954,7 @@ nsLocalFile
 :
 GetFileSizeOfLink
 (
-PRInt64
+int64_t
 *
 aFileSize
 )
@@ -5998,7 +5998,7 @@ NSRESULT_FOR_ERRNO
 aFileSize
 =
 (
-PRInt64
+int64_t
 )
 sbuf
 .
@@ -6295,7 +6295,7 @@ nsLocalFile
 :
 GetDiskSpaceAvailable
 (
-PRInt64
+int64_t
 *
 aDiskSpaceAvailable
 )
@@ -6536,7 +6536,7 @@ f_frsize
 aDiskSpaceAvailable
 =
 (
-PRInt64
+int64_t
 )
 fs_buf
 .
@@ -6556,7 +6556,7 @@ else
 aDiskSpaceAvailable
 =
 (
-PRInt64
+int64_t
 )
 fs_buf
 .
@@ -6677,7 +6677,7 @@ dq
 dqb_bhardlimit
 )
 {
-PRInt64
+int64_t
 QuotaSpaceAvailable
 =
 0
@@ -6694,7 +6694,7 @@ dqb_curspace
 )
 QuotaSpaceAvailable
 =
-PRInt64
+int64_t
 (
 fs_buf
 .
@@ -7370,7 +7370,7 @@ GetPath
 path
 )
 ;
-PRInt32
+int32_t
 dotIdx
 =
 path
@@ -8430,11 +8430,11 @@ st_mode
 return
 NS_ERROR_FILE_INVALID_PATH
 ;
-PRInt32
+int32_t
 size
 =
 (
-PRInt32
+int32_t
 )
 symStat
 .
@@ -8523,7 +8523,7 @@ self
 this
 )
 ;
-PRInt32
+int32_t
 maxLinks
 =
 40
@@ -8718,11 +8718,11 @@ st_mode
 )
 break
 ;
-PRInt32
+int32_t
 newSize
 =
 (
-PRInt32
+int32_t
 )
 symStat
 .
@@ -8776,7 +8776,7 @@ size
 newSize
 ;
 }
-PRInt32
+int32_t
 linkLen
 =
 readlink
@@ -9147,7 +9147,7 @@ InitWithNativePath
 aPersistentDescriptor
 )
 ;
-PRUint32
+uint32_t
 dataSize
 =
 aPersistentDescriptor
@@ -9214,7 +9214,7 @@ AliasPtr
 )
 decodedData
 ;
-PRInt32
+int32_t
 aliasSize
 =
 :
@@ -9231,7 +9231,7 @@ aliasSize
 >
 (
 (
-PRInt32
+int32_t
 )
 dataSize
 *
@@ -9641,7 +9641,7 @@ MOZ_PLATFORM_MAEMO
 5
 )
 const
-PRInt32
+int32_t
 kHILDON_SUCCESS
 =
 1
@@ -10678,7 +10678,7 @@ nsLocalFile
 :
 GetHashCode
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -11499,7 +11499,7 @@ nsLocalFile
 :
 GetFileSizeWithResFork
 (
-PRInt64
+int64_t
 *
 aFileSizeWithResFork
 )
@@ -12357,7 +12357,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 length
 =
 name
@@ -12513,7 +12513,7 @@ nsLocalFile
 :
 GetBundleContentsLastModifiedTime
 (
-PRInt64
+int64_t
 *
 aLastModTime
 )
@@ -12607,10 +12607,10 @@ aLastModTime
 )
 ;
 }
-PRInt64
+int64_t
 modTime
 =
-PRInt64
+int64_t
 (
 info
 .
@@ -12638,7 +12638,7 @@ aLastModTime
 =
 modTime
 /
-PRInt64
+int64_t
 (
 PR_USEC_PER_MSEC
 )

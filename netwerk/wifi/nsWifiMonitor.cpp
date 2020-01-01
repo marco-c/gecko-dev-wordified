@@ -463,7 +463,7 @@ mReentrantMonitor
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -620,7 +620,7 @@ n
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -739,7 +739,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -921,7 +921,7 @@ n
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1027,7 +1027,7 @@ mReentrantMonitor
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1096,7 +1096,7 @@ Count
 0
 )
 {
-PRUint32
+uint32_t
 resultCount
 =
 aAccessPoints
@@ -1136,7 +1136,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

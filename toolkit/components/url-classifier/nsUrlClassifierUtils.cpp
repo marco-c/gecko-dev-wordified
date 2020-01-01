@@ -130,7 +130,7 @@ static
 char
 int_to_hex_digit
 (
-PRInt32
+int32_t
 i
 )
 {
@@ -207,7 +207,7 @@ num
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -315,7 +315,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 2
@@ -398,7 +398,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -698,7 +698,7 @@ rv
 strip
 out
 anchors
-PRInt32
+int32_t
 ref
 =
 path
@@ -1546,7 +1546,7 @@ allowOctal
 =
 true
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1593,7 +1593,7 @@ part
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 1
@@ -1797,7 +1797,7 @@ const
 nsACString
 &
 num
-PRUint32
+uint32_t
 bytes
 bool
 allowOctal
@@ -1826,7 +1826,7 @@ Length
 return
 ;
 }
-PRUint32
+uint32_t
 val
 ;
 if
@@ -2445,7 +2445,7 @@ the
 length
 ourselves
 .
-PRUint32
+uint32_t
 destLength
 ;
 destLength

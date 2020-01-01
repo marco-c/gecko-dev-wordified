@@ -727,7 +727,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 numUpdates
 ;
 rv
@@ -749,7 +749,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1070,7 +1070,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 char
@@ -1103,7 +1103,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1224,7 +1224,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 types
 ;
 rv
@@ -1289,7 +1289,7 @@ nsDOMOfflineResourceList
 :
 GetMozLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -1358,7 +1358,7 @@ nsDOMOfflineResourceList
 :
 MozItem
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -1598,7 +1598,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 rv
@@ -1615,7 +1615,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 maxEntries
 =
 Preferences
@@ -1924,7 +1924,7 @@ nsDOMOfflineResourceList
 :
 GetStatus
 (
-PRUint16
+uint16_t
 *
 aStatus
 )
@@ -2770,7 +2770,7 @@ FirePendingEvents
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3142,7 +3142,7 @@ UpdateStateChanged
 nsIOfflineCacheUpdate
 *
 aUpdate
-PRUint32
+uint32_t
 event
 )
 {

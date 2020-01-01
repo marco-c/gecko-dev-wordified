@@ -305,7 +305,7 @@ priority
 NS_IMETHOD
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -313,7 +313,7 @@ aLength
 NS_IMETHOD
 Item
 (
-PRUint32
+uint32_t
 index
 nsAString
 &

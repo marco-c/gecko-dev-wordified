@@ -190,7 +190,7 @@ nsCameraControl
 :
 SetHelper
 (
-PRUint32
+uint32_t
 aKey
 const
 nsAString
@@ -221,7 +221,7 @@ nsCameraControl
 :
 GetHelper
 (
-PRUint32
+uint32_t
 aKey
 nsAString
 &
@@ -271,7 +271,7 @@ nsCameraControl
 :
 SetHelper
 (
-PRUint32
+uint32_t
 aKey
 double
 aValue
@@ -293,7 +293,7 @@ nsCameraControl
 :
 GetHelper
 (
-PRUint32
+uint32_t
 aKey
 double
 *
@@ -333,7 +333,7 @@ SetHelper
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aKey
 const
 JS
@@ -342,7 +342,7 @@ JS
 Value
 &
 aValue
-PRUint32
+uint32_t
 aLimit
 )
 {
@@ -481,7 +481,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -687,7 +687,7 @@ GetHelper
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aKey
 JS
 :
@@ -730,7 +730,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 length
 =
 regionArray
@@ -762,7 +762,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2566,19 +2566,19 @@ nsCameraControl
 :
 TakePictureComplete
 (
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
-PRUint8
+uint8_t
 *
 data
 =
 new
-PRUint8
+uint8_t
 [
 aLength
 ]
@@ -2638,7 +2638,7 @@ data
 )
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 aLength

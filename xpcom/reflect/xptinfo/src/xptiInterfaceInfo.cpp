@@ -575,7 +575,7 @@ get
 from
 it
 .
-PRUint16
+uint16_t
 parent_index
 =
 mDescriptor
@@ -1384,7 +1384,7 @@ xptiInterfaceEntry
 :
 GetEntryForParam
 (
-PRUint16
+uint16_t
 methodIndex
 const
 nsXPTParamInfo
@@ -1728,7 +1728,7 @@ xptiInterfaceEntry
 :
 GetIIDForParamNoAlloc
 (
-PRUint16
+uint16_t
 methodIndex
 const
 nsXPTParamInfo

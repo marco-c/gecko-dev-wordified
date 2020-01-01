@@ -210,7 +210,7 @@ URI
 &
 uri
 const
-PRUint64
+uint64_t
 &
 startPos
 const
@@ -239,7 +239,7 @@ bool
 RecvConnectChannel
 (
 const
-PRUint32
+uint32_t
 &
 channelId
 )

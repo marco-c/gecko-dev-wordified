@@ -164,7 +164,7 @@ mozilla
 FileLocation
 &
 aFile
-PRUint32
+uint32_t
 aLineNumber
 const
 char

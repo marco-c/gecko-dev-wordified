@@ -147,7 +147,7 @@ C
 uint32
 invoke_count_words
 (
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -182,14 +182,14 @@ of
 register
 pairs
 .
-PRUint32
+uint32_t
 result
 =
 1
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -277,7 +277,7 @@ result
 &
 ~
 (
-PRUint32
+uint32_t
 )
 1
 ;
@@ -289,10 +289,10 @@ C
 void
 invoke_copy_to_stack
 (
-PRUint32
+uint32_t
 *
 d
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -321,7 +321,7 @@ d
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -387,7 +387,7 @@ T_I8
 d
 =
 (
-PRUint32
+uint32_t
 )
 s
 -
@@ -408,7 +408,7 @@ T_I16
 d
 =
 (
-PRUint32
+uint32_t
 )
 s
 -
@@ -429,7 +429,7 @@ T_I32
 d
 =
 (
-PRUint32
+uint32_t
 )
 s
 -
@@ -462,7 +462,7 @@ d
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 d
@@ -491,7 +491,7 @@ T_U8
 d
 =
 (
-PRUint32
+uint32_t
 )
 s
 -
@@ -512,7 +512,7 @@ T_U16
 d
 =
 (
-PRUint32
+uint32_t
 )
 s
 -
@@ -533,7 +533,7 @@ T_U32
 d
 =
 (
-PRUint32
+uint32_t
 )
 s
 -
@@ -566,7 +566,7 @@ d
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 d
@@ -747,9 +747,9 @@ _NS_InvokeByIndex_P
 nsISupports
 *
 that
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -765,9 +765,9 @@ NS_InvokeByIndex_P
 nsISupports
 *
 that
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *

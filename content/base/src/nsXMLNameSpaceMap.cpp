@@ -186,7 +186,7 @@ class
 nsDefaultComparator
 <
 nsNameSpaceEntry
-PRInt32
+int32_t
 >
 {
 public
@@ -199,7 +199,7 @@ nsNameSpaceEntry
 &
 aEntry
 const
-PRInt32
+int32_t
 &
 aNameSpace
 )
@@ -331,7 +331,7 @@ AddPrefix
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNameSpaceID
 )
 {
@@ -391,7 +391,7 @@ nsString
 aURI
 )
 {
-PRInt32
+int32_t
 id
 ;
 nsresult
@@ -425,7 +425,7 @@ id
 )
 ;
 }
-PRInt32
+int32_t
 nsXMLNameSpaceMap
 :
 :
@@ -437,7 +437,7 @@ aPrefix
 )
 const
 {
-PRUint32
+uint32_t
 index
 =
 mNameSpaces
@@ -515,12 +515,12 @@ nsXMLNameSpaceMap
 :
 FindPrefix
 (
-PRInt32
+int32_t
 aNameSpaceID
 )
 const
 {
-PRUint32
+uint32_t
 index
 =
 mNameSpaces

@@ -452,7 +452,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aSource
 )
 {
@@ -622,7 +622,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aSource
 )
 :
@@ -794,7 +794,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aSource
 )
 {
@@ -1226,7 +1226,7 @@ param
 return
 *
 /
-PRInt32
+int32_t
 nsScanner
 :
 :
@@ -1234,7 +1234,7 @@ Mark
 (
 )
 {
-PRInt32
+int32_t
 distance
 =
 0
@@ -1378,7 +1378,7 @@ EndReading
 mEndPosition
 )
 ;
-PRUint32
+uint32_t
 length
 =
 aBuffer
@@ -1494,7 +1494,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLen
 nsIRequest
 *
@@ -1511,7 +1511,7 @@ if
 mUnicodeDecoder
 )
 {
-PRInt32
+int32_t
 unicharBufLen
 =
 0
@@ -1561,17 +1561,17 @@ DataStart
 (
 )
 ;
-PRInt32
+int32_t
 totalChars
 =
 0
 ;
-PRInt32
+int32_t
 unicharLength
 =
 unicharBufLen
 ;
-PRInt32
+int32_t
 errorPos
 =
 -
@@ -1579,7 +1579,7 @@ errorPos
 ;
 do
 {
-PRInt32
+int32_t
 srcLength
 =
 aLen
@@ -1779,7 +1779,7 @@ if
 (
 (
 (
-PRUint32
+uint32_t
 )
 (
 srcLength
@@ -2029,7 +2029,7 @@ Peek
 PRUnichar
 &
 aChar
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -2109,9 +2109,9 @@ Peek
 nsAString
 &
 aStr
-PRInt32
+int32_t
 aNumChars
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -2142,7 +2142,7 @@ mCurrentPosition
 if
 (
 (
-PRInt32
+int32_t
 )
 mCountRemaining
 <
@@ -2173,7 +2173,7 @@ if
 (
 mCountRemaining
 <
-PRUint32
+uint32_t
 (
 aNumChars
 +
@@ -2244,7 +2244,7 @@ nsScanner
 :
 SkipWhitespace
 (
-PRInt32
+int32_t
 &
 aNewlinesSkipped
 )
@@ -2606,7 +2606,7 @@ nsString
 aString
 )
 {
-PRInt32
+int32_t
 pos
 =
 aString
@@ -2648,7 +2648,7 @@ nsCString
 aString
 )
 {
-PRInt32
+int32_t
 pos
 =
 aString
@@ -3260,7 +3260,7 @@ ReadNumber
 nsString
 &
 aString
-PRInt32
+int32_t
 aBase
 )
 {
@@ -3518,7 +3518,7 @@ ReadWhitespace
 nsScannerSharedSubstring
 &
 aString
-PRInt32
+int32_t
 &
 aNewlinesSkipped
 bool
@@ -3919,7 +3919,7 @@ aStart
 nsScannerIterator
 &
 aEnd
-PRInt32
+int32_t
 &
 aNewlinesSkipped
 )
@@ -5272,7 +5272,7 @@ mSlidingBuffer
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 origRemaining
 =
 mCountRemaining
@@ -5431,11 +5431,11 @@ aBuf
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aErrorPos
 )
 {
-PRUint32
+uint32_t
 countRemaining
 =
 mCountRemaining

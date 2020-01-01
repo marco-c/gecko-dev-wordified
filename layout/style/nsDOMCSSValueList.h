@@ -163,7 +163,7 @@ nsIDOMCSSValue
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

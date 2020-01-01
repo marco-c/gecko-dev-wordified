@@ -416,7 +416,7 @@ summed
 length
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -515,7 +515,7 @@ summed
 length
 for
 (
-PRInt32
+int32_t
 i
 =
 0

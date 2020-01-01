@@ -1281,7 +1281,7 @@ struct
 ProductInformationBlock
 infoBlock
 ;
-PRUint32
+uint32_t
 numSignatures
 numAdditionalBlocks
 ;

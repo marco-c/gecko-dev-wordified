@@ -1082,7 +1082,7 @@ const
 char
 *
 aLhs
-PRUint32
+uint32_t
 aRule
 const
 char
@@ -1226,7 +1226,7 @@ bool
 aResult
 [
 ]
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -1250,7 +1250,7 @@ tests
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1503,7 +1503,7 @@ rv
 int
 main
 (
-PRInt32
+int32_t
 argc
 char
 *
@@ -8551,7 +8551,7 @@ enumerator
 )
 )
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -8803,7 +8803,7 @@ check
 CountCookiesFromHost
 (
 )
-PRUint32
+uint32_t
 hostCookies
 =
 0
@@ -9307,7 +9307,7 @@ expected
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

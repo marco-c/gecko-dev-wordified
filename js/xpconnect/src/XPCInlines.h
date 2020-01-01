@@ -1176,7 +1176,7 @@ w
 ;
 }
 inline
-PRUint16
+uint16_t
 XPCCallContext
 :
 :
@@ -1201,7 +1201,7 @@ XPCCallContext
 :
 SetMethodIndex
 (
-PRUint16
+uint16_t
 index
 )
 {
@@ -1592,7 +1592,7 @@ XPCNativeMember
 *
 *
 pMember
-PRUint16
+uint16_t
 *
 pInterfaceIndex
 )
@@ -1676,7 +1676,7 @@ pInterfaceIndex
 pInterfaceIndex
 =
 (
-PRUint16
+uint16_t
 )
 i
 ;
@@ -1749,7 +1749,7 @@ pInterfaceIndex
 pInterfaceIndex
 =
 (
-PRUint16
+uint16_t
 )
 i
 ;
@@ -1782,7 +1782,7 @@ pInterface
 )
 const
 {
-PRUint16
+uint16_t
 index
 ;
 if
@@ -1914,7 +1914,7 @@ name
 &
 protoMember
 (
-PRUint16
+uint16_t
 *
 )
 nullptr

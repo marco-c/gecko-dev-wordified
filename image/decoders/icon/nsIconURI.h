@@ -182,7 +182,7 @@ want
 the
 icon
 for
-PRUint32
+uint32_t
 mSize
 ;
 /
@@ -248,7 +248,7 @@ extension
 nsCString
 mStockIcon
 ;
-PRInt32
+int32_t
 mIconSize
 ;
 /
@@ -262,7 +262,7 @@ otherwise
 index
 into
 kSizeStrings
-PRInt32
+int32_t
 mIconState
 ;
 /

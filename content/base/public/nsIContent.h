@@ -1169,7 +1169,7 @@ nsINodeList
 >
 GetChildren
 (
-PRUint32
+uint32_t
 aFilter
 )
 =
@@ -1700,7 +1700,7 @@ namespace
 *
 /
 inline
-PRInt32
+int32_t
 GetNameSpaceID
 (
 )
@@ -1749,7 +1749,7 @@ inline
 bool
 IsInNamespace
 (
-PRInt32
+int32_t
 aNamespace
 )
 const
@@ -2134,7 +2134,7 @@ change
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2266,7 +2266,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2371,7 +2371,7 @@ virtual
 bool
 GetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2430,7 +2430,7 @@ virtual
 bool
 HasAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2534,7 +2534,7 @@ virtual
 bool
 AttrValueIs
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2651,7 +2651,7 @@ virtual
 bool
 AttrValueIs
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2857,10 +2857,10 @@ const
 AttrValuesArray
 ;
 virtual
-PRInt32
+int32_t
 FindAttrValueIn
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2936,7 +2936,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -3060,7 +3060,7 @@ nsAttrName
 *
 GetAttrNameAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -3089,7 +3089,7 @@ attributes
 *
 /
 virtual
-PRUint32
+uint32_t
 GetAttrCount
 (
 )
@@ -3177,7 +3177,7 @@ elements
 *
 /
 virtual
-PRUint32
+uint32_t
 TextLength
 (
 )
@@ -3233,7 +3233,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -3290,7 +3290,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -3686,7 +3686,7 @@ virtual
 bool
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 =
@@ -4490,7 +4490,7 @@ then
 add
 a
 *
-PRUint32
+uint32_t
 aFromParser
 to
 the
@@ -5908,7 +5908,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -5958,7 +5958,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -6054,7 +6054,7 @@ bit
 field
 :
 static
-PRInt32
+int32_t
 sTabFocusModel
 ;
 /

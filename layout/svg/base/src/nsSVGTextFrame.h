@@ -194,12 +194,12 @@ endif
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -284,7 +284,7 @@ virtual
 void
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -347,7 +347,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -360,7 +360,7 @@ virtual
 gfxMatrix
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 ;
@@ -370,7 +370,7 @@ nsSVGTextContainerFrame
 methods
 :
 virtual
-PRUint32
+uint32_t
 GetNumberOfChars
 (
 )
@@ -385,14 +385,14 @@ virtual
 float
 GetSubStringLength
 (
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 nchars
 )
 ;
 virtual
-PRInt32
+int32_t
 GetCharNumAtPosition
 (
 nsIDOMSVGPoint
@@ -403,7 +403,7 @@ point
 NS_IMETHOD
 GetStartPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -414,7 +414,7 @@ _retval
 NS_IMETHOD
 GetEndPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -425,7 +425,7 @@ _retval
 NS_IMETHOD
 GetExtentOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGRect
 *
@@ -436,7 +436,7 @@ _retval
 NS_IMETHOD
 GetRotationOfChar
 (
-PRUint32
+uint32_t
 charnum
 float
 *

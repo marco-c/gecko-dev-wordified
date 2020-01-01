@@ -251,7 +251,7 @@ OpenChannel
 nsIChannel
 *
 channel
-PRUint32
+uint32_t
 aFlags
 nsIInterfaceRequestor
 *

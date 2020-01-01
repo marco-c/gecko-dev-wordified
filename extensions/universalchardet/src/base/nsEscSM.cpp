@@ -100,7 +100,7 @@ h
 "
 static
 const
-PRUint32
+uint32_t
 HZ_cls
 [
 256
@@ -625,7 +625,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 HZ_st
 [
 6
@@ -732,7 +732,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 HZCharLenTable
 [
 ]
@@ -778,7 +778,7 @@ GB
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022CN_cls
 [
 256
@@ -1303,7 +1303,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022CN_st
 [
 8
@@ -1442,7 +1442,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022CNCharLenTable
 [
 ]
@@ -1491,7 +1491,7 @@ CN
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022JP_cls
 [
 256
@@ -2016,7 +2016,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022JP_st
 [
 9
@@ -2171,7 +2171,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022JPCharLenTable
 [
 ]
@@ -2219,7 +2219,7 @@ JP
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022KR_cls
 [
 256
@@ -2744,7 +2744,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022KR_st
 [
 5
@@ -2835,7 +2835,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 ISO2022KRCharLenTable
 [
 ]

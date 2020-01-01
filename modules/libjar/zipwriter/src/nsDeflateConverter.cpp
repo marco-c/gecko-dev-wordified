@@ -193,7 +193,7 @@ opaque
 =
 Z_NULL
 ;
-PRInt32
+int32_t
 window
 =
 MAX_WBITS
@@ -514,9 +514,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -846,7 +846,7 @@ nsISupports
 aContext
 )
 {
-PRUint32
+uint32_t
 bytesToWrite
 =
 sizeof

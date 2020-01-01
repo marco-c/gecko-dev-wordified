@@ -250,7 +250,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -456,7 +456,7 @@ well
 .
 *
 /
-PRInt32
+int32_t
 index
 =
 0
@@ -497,7 +497,7 @@ IsHorizontal
 aBox
 )
 ;
-PRInt32
+int32_t
 extraColumns
 =
 grid
@@ -508,7 +508,7 @@ GetExtraColumnCount
 isHorizontal
 )
 ;
-PRInt32
+int32_t
 start
 =
 grid
@@ -529,7 +529,7 @@ isHorizontal
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -601,7 +601,7 @@ aBox
 aState
 )
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -642,7 +642,7 @@ IsHorizontal
 aBox
 )
 ;
-PRInt32
+int32_t
 extraColumns
 =
 grid
@@ -653,7 +653,7 @@ GetExtraColumnCount
 isHorizontal
 )
 ;
-PRInt32
+int32_t
 start
 =
 grid
@@ -674,7 +674,7 @@ isHorizontal
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -746,7 +746,7 @@ aBox
 aState
 )
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -787,7 +787,7 @@ IsHorizontal
 aBox
 )
 ;
-PRInt32
+int32_t
 extraColumns
 =
 grid
@@ -798,7 +798,7 @@ GetExtraColumnCount
 isHorizontal
 )
 ;
-PRInt32
+int32_t
 start
 =
 grid
@@ -819,7 +819,7 @@ isHorizontal
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1029,10 +1029,10 @@ CountRowsColumns
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 &
 aRowCount
-PRInt32
+int32_t
 &
 aComputedColumnCount
 )
@@ -1042,7 +1042,7 @@ if
 aBox
 )
 {
-PRInt32
+int32_t
 startCount
 =
 aRowCount
@@ -1191,7 +1191,7 @@ structure
 recursively
 *
 /
-PRInt32
+int32_t
 nsGridRowGroupLayout
 :
 :
@@ -1205,7 +1205,7 @@ nsGridRow
 aRows
 )
 {
-PRInt32
+int32_t
 rowCount
 =
 0

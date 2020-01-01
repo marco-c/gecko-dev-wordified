@@ -231,7 +231,7 @@ message
 nsresult
 Delete
 (
-PRInt32
+int32_t
 aId
 nsIDOMMozSmsRequest
 *

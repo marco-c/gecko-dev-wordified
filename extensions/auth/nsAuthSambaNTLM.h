@@ -315,7 +315,7 @@ Shutdown
 (
 )
 ;
-PRUint8
+uint8_t
 *
 mInitialMessage
 ;
@@ -328,7 +328,7 @@ free
 )
 *
 /
-PRUint32
+uint32_t
 mInitialMessageLen
 ;
 PRProcess

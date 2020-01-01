@@ -4716,7 +4716,7 @@ XPCWrappedNativeScope
 :
 DebugDumpAllScopes
 (
-PRInt16
+int16_t
 depth
 )
 {
@@ -4867,7 +4867,7 @@ DebugDump
 (
 *
 (
-PRInt16
+int16_t
 *
 )
 arg
@@ -4913,7 +4913,7 @@ DebugDump
 (
 *
 (
-PRInt16
+int16_t
 *
 )
 arg
@@ -4931,7 +4931,7 @@ XPCWrappedNativeScope
 :
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 {

@@ -101,7 +101,7 @@ aCx
 JSObject
 *
 aArray
-PRUint32
+uint32_t
 aIndex
 const
 char
@@ -141,7 +141,7 @@ JSObject
 *
 *
 aArray
-PRUint32
+uint32_t
 aKey
 ParseItemAndAddFunc
 aParseItemAndAdd
@@ -159,7 +159,7 @@ JS
 Value
 *
 aArray
-PRUint32
+uint32_t
 aKey
 )
 ;
@@ -175,7 +175,7 @@ JS
 Value
 *
 aArray
-PRUint32
+uint32_t
 aKey
 )
 ;

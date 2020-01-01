@@ -471,7 +471,7 @@ IsDefunct
 )
 return
 ;
-PRInt32
+int32_t
 x
 =
 0

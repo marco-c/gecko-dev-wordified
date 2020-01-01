@@ -488,7 +488,7 @@ ResultStruct
 nsresult
 mNSResult
 ;
-PRUint16
+uint16_t
 mCode
 ;
 const
@@ -552,7 +552,7 @@ char
 *
 *
 aMessage
-PRUint16
+uint16_t
 *
 aCode
 )
@@ -666,7 +666,7 @@ char
 *
 *
 aMessage
-PRUint16
+uint16_t
 *
 aCode
 )
@@ -685,7 +685,7 @@ message
 =
 nullptr
 ;
-PRUint16
+uint16_t
 code
 =
 0
@@ -775,7 +775,7 @@ const
 char
 *
 aMessage
-PRUint16
+uint16_t
 aCode
 nsIException
 *
@@ -804,7 +804,7 @@ mInner
 nsresult
 mResult
 ;
-PRUint16
+uint16_t
 mCode
 ;
 }
@@ -868,7 +868,7 @@ char
 *
 message
 ;
-PRUint16
+uint16_t
 code
 ;
 NSResultToNameAndMessage
@@ -924,7 +924,7 @@ nsDOMException
 :
 GetCode
 (
-PRUint16
+uint16_t
 *
 aCode
 )
@@ -1170,7 +1170,7 @@ nsDOMException
 :
 GetLineNumber
 (
-PRUint32
+uint32_t
 *
 aLineNumber
 )
@@ -1210,7 +1210,7 @@ nsDOMException
 :
 GetColumnNumber
 (
-PRUint32
+uint32_t
 *
 aColumnNumber
 )
@@ -1492,7 +1492,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 line_nr
 =
 0
@@ -1626,7 +1626,7 @@ const
 char
 *
 aMessage
-PRUint16
+uint16_t
 aCode
 nsIException
 *

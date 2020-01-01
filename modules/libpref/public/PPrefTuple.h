@@ -147,7 +147,7 @@ WriteParam
 (
 aMsg
 (
-PRUint32
+uint32_t
 )
 aParam
 .
@@ -237,7 +237,7 @@ paramType
 aResult
 )
 {
-PRUint32
+uint32_t
 type
 ;
 if

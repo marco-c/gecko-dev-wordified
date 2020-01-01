@@ -484,7 +484,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *
@@ -592,7 +592,7 @@ nsHashtable
 :
 nsHashtable
 (
-PRUint32
+uint32_t
 aInitSize
 bool
 threadSafe
@@ -1271,7 +1271,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *
@@ -1443,7 +1443,7 @@ PLDHashTable
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *
@@ -1675,7 +1675,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 count
 ;
 rv
@@ -1735,7 +1735,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1978,7 +1978,7 @@ pairs
 to
 read
 .
-PRUint32
+uint32_t
 count
 =
 mHashtable
@@ -2329,7 +2329,7 @@ mOwnership
 NEVER_OWN
 )
 {
-PRUint32
+uint32_t
 len
 =
 mStrLen
@@ -2567,7 +2567,7 @@ const
 char
 *
 str
-PRInt32
+int32_t
 strLen
 Ownership
 own
@@ -2605,7 +2605,7 @@ if
 mStrLen
 =
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -2663,7 +2663,7 @@ nsCStringKey
 )
 ;
 }
-PRUint32
+uint32_t
 nsCStringKey
 :
 :
@@ -2727,7 +2727,7 @@ NS_ASSERTION
 mStrLen
 !
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -2747,7 +2747,7 @@ other
 mStrLen
 !
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -2855,7 +2855,7 @@ was
 so
 terminated
 .
-PRUint32
+uint32_t
 len
 =
 mStrLen
@@ -3173,7 +3173,7 @@ mOwnership
 NEVER_OWN
 )
 {
-PRUint32
+uint32_t
 len
 =
 mStrLen
@@ -3408,7 +3408,7 @@ const
 PRUnichar
 *
 str
-PRInt32
+int32_t
 strLen
 Ownership
 own
@@ -3446,7 +3446,7 @@ if
 mStrLen
 =
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3504,7 +3504,7 @@ nsStringKey
 )
 ;
 }
-PRUint32
+uint32_t
 nsStringKey
 :
 :
@@ -3568,7 +3568,7 @@ NS_ASSERTION
 mStrLen
 !
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3588,7 +3588,7 @@ other
 mStrLen
 !
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3659,7 +3659,7 @@ mStrLen
 NEVER_OWN
 )
 ;
-PRUint32
+uint32_t
 len
 =
 (
@@ -3925,7 +3925,7 @@ destroyElementFun
 void
 *
 destroyElementClosure
-PRUint32
+uint32_t
 aSize
 bool
 threadSafe
@@ -3979,7 +3979,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *
@@ -4579,7 +4579,7 @@ PLDHashTable
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *

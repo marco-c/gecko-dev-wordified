@@ -1052,7 +1052,7 @@ nsISMILAttr
 *
 GetAnimatedAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1286,7 +1286,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const

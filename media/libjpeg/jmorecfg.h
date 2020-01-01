@@ -933,7 +933,7 @@ values
 *
 /
 typedef
-PRUint8
+uint8_t
 UINT8
 ;
 /
@@ -953,7 +953,7 @@ values
 *
 /
 typedef
-PRUint16
+uint16_t
 UINT16
 ;
 /
@@ -974,7 +974,7 @@ values
 *
 /
 typedef
-PRInt16
+int16_t
 INT16
 ;
 /
@@ -993,7 +993,7 @@ values
 *
 /
 typedef
-PRInt32
+int32_t
 INT32
 ;
 /

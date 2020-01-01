@@ -176,7 +176,7 @@ nsAString
 &
 aDeviceAddress
 const
-PRUint32
+uint32_t
 &
 aPasskey
 )
@@ -322,7 +322,7 @@ BluetoothPairingEvent
 )
 {
 }
-PRUint32
+uint32_t
 mPasskey
 ;
 nsString

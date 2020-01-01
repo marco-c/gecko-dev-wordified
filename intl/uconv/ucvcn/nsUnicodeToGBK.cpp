@@ -484,7 +484,7 @@ nsUnicodeToGB18030Uniq2Bytes
 -
 static
 const
-PRUint16
+uint16_t
 g_uf_gb18030_2bytes
 [
 ]
@@ -686,7 +686,7 @@ nsUnicodeTo4BytesGB18030
 -
 static
 const
-PRUint16
+uint16_t
 g_uf_gb18030_4bytes
 [
 ]
@@ -888,7 +888,7 @@ nsUnicodeToGBKUniq2Bytes
 -
 static
 const
-PRUint16
+uint16_t
 g_uf_gbk_2bytes
 [
 ]
@@ -1152,7 +1152,7 @@ not
 include
 the
 0x10000
-PRUint32
+uint32_t
 idx
 =
 (
@@ -1376,7 +1376,7 @@ nsUnicodeToGBK
 :
 nsUnicodeToGBK
 (
-PRUint32
+uint32_t
 aMaxLength
 )
 :
@@ -1444,7 +1444,7 @@ aChar
 char
 *
 aOut
-PRInt32
+int32_t
 *
 aOutLen
 )
@@ -1488,7 +1488,7 @@ if
 mExtensionEncoder
 )
 {
-PRInt32
+int32_t
 len
 =
 1
@@ -1547,7 +1547,7 @@ aChar
 char
 *
 aOut
-PRInt32
+int32_t
 *
 aOutLen
 )
@@ -1591,7 +1591,7 @@ if
 m4BytesEncoder
 )
 {
-PRInt32
+int32_t
 len
 =
 1
@@ -1712,23 +1712,23 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
 {
-PRInt32
+int32_t
 iSrcLength
 =
 0
 ;
-PRInt32
+int32_t
 iDestLength
 =
 0
@@ -1892,7 +1892,7 @@ iDestLength
 }
 else
 {
-PRInt32
+int32_t
 aOutLen
 =
 2

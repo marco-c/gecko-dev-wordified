@@ -172,7 +172,7 @@ h
 /
 /
 for
-PRInt32
+int32_t
 class
 nsIEditor
 ;
@@ -240,7 +240,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 nsIEditor
 *
@@ -323,7 +323,7 @@ new
 node
 *
 /
-PRInt32
+int32_t
 mOffset
 ;
 }

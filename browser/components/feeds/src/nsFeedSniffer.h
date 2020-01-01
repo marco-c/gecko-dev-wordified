@@ -151,11 +151,11 @@ const
 char
 *
 rawSegment
-PRUint32
+uint32_t
 toOffset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -169,10 +169,10 @@ nsIRequest
 *
 request
 const
-PRUint8
+uint8_t
 *
 data
-PRUint32
+uint32_t
 length
 )
 ;

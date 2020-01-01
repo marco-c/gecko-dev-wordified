@@ -179,7 +179,7 @@ aFile1
 FILE
 *
 aFile2
-PRInt32
+int32_t
 aRegressionOutput
 =
 0
@@ -295,7 +295,7 @@ char
 *
 type
 ;
-PRUint32
+uint32_t
 state
 ;
 nsRect
@@ -390,10 +390,10 @@ char
 *
 attributes
 ;
-PRInt32
+int32_t
 num
 ;
-PRInt32
+int32_t
 size
 ;
 char
@@ -424,7 +424,7 @@ aNode
 FILE
 *
 aOutputFile
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -438,7 +438,7 @@ aNode
 FILE
 *
 aOutputFile
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -880,7 +880,7 @@ next
 }
 }
 static
-PRInt32
+int32_t
 GetInt
 (
 nsFrameUtil
@@ -917,7 +917,7 @@ value
 )
 {
 return
-PRInt32
+int32_t
 (
 atoi
 (
@@ -1794,7 +1794,7 @@ Tag
 (
 )
 {
-PRInt32
+int32_t
 i
 n
 =
@@ -1869,7 +1869,7 @@ num
 size
 )
 {
-PRInt32
+int32_t
 newSize
 =
 size
@@ -1994,7 +1994,7 @@ char
 aAttr
 )
 {
-PRInt32
+int32_t
 i
 n
 =
@@ -2832,7 +2832,7 @@ if
 num
 )
 {
-PRInt32
+int32_t
 i
 n
 =
@@ -3113,7 +3113,7 @@ aNode
 FILE
 *
 aOutputFile
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -3203,7 +3203,7 @@ aNode
 FILE
 *
 aOutputFile
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -4179,7 +4179,7 @@ aFile1
 FILE
 *
 aFile2
-PRInt32
+int32_t
 aRegressionOutput
 )
 {

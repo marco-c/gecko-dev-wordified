@@ -280,13 +280,13 @@ Constants
 namespace
 {
 const
-PRUint32
+uint32_t
 MSEC_PER_SEC
 =
 1000
 ;
 const
-PRUint32
+uint32_t
 MSEC_PER_MIN
 =
 1000
@@ -294,7 +294,7 @@ MSEC_PER_MIN
 60
 ;
 const
-PRUint32
+uint32_t
 MSEC_PER_HOUR
 =
 1000
@@ -304,7 +304,7 @@ MSEC_PER_HOUR
 60
 ;
 const
-PRInt32
+int32_t
 DECIMAL_BASE
 =
 10
@@ -593,7 +593,7 @@ const
 nsAString
 &
 aStr
-PRUint32
+uint32_t
 &
 aResult
 )
@@ -619,7 +619,7 @@ char
 *
 rest
 ;
-PRInt32
+int32_t
 value
 =
 strtol
@@ -649,7 +649,7 @@ aResult
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 value
@@ -668,7 +668,7 @@ const
 nsAString
 &
 aStr
-PRUint32
+uint32_t
 &
 aResult
 )
@@ -1137,7 +1137,7 @@ const
 char
 *
 aEnd
-PRInt32
+int32_t
 &
 multiplicand
 )
@@ -1508,7 +1508,7 @@ start
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 c
 =
 *
@@ -1554,7 +1554,7 @@ surrogate
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 lo
 =
 *
@@ -3792,7 +3792,7 @@ aSpec
 nsSMILTimeValue
 *
 aResult
-PRUint32
+uint32_t
 aFlags
 /
 /
@@ -3819,12 +3819,12 @@ component
 .
 0
 ;
-PRInt8
+int8_t
 sign
 =
 0
 ;
-PRUint8
+uint8_t
 colonCount
 =
 0
@@ -3872,7 +3872,7 @@ started
 =
 false
 ;
-PRInt32
+int32_t
 metricMultiplicand
 =
 MSEC_PER_SEC
@@ -4726,7 +4726,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsSMILParserUtils
 :
 :
@@ -4738,7 +4738,7 @@ nsAString
 aStr
 )
 {
-PRInt32
+int32_t
 absValLocation
 =
 -

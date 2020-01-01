@@ -133,7 +133,7 @@ nsQueryArrayElementAt
 nsIArray
 *
 aArray
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -184,7 +184,7 @@ nsIArray
 *
 mArray
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 nsresult
@@ -201,7 +201,7 @@ do_QueryElementAt
 nsIArray
 *
 aArray
-PRUint32
+uint32_t
 aIndex
 nsresult
 *

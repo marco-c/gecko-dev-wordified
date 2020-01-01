@@ -171,7 +171,7 @@ public
 void
 Init
 (
-PRUint8
+uint8_t
 aAttrEnum
 =
 0xff
@@ -299,7 +299,7 @@ mBaseVal
 bool
 mIsAnimated
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
 /

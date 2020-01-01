@@ -357,7 +357,7 @@ AutoConfigSecMan
 :
 CanAccess
 (
-PRUint32
+uint32_t
 aAction
 nsAXPCNativeCallContext
 *

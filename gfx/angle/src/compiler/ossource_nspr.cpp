@@ -83,7 +83,7 @@ OS_AllocTLSIndex
 (
 )
 {
-PRUintn
+unsigned
 index
 ;
 PRStatus

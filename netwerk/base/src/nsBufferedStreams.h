@@ -268,7 +268,7 @@ Init
 nsISupports
 *
 stream
-PRUint32
+uint32_t
 bufferSize
 )
 ;
@@ -286,7 +286,7 @@ Flush
 =
 0
 ;
-PRUint32
+uint32_t
 mBufferSize
 ;
 char
@@ -306,7 +306,7 @@ start
 of
 mStream
 .
-PRInt64
+int64_t
 mBufferStartOffset
 ;
 /
@@ -333,7 +333,7 @@ relative
 to
 mBufferStartOffset
 .
-PRUint32
+uint32_t
 mCursor
 ;
 /
@@ -370,7 +370,7 @@ relative
 to
 mBufferStartOffset
 .
-PRUint32
+uint32_t
 mFillPoint
 ;
 nsISupports
@@ -397,7 +397,7 @@ mStream
 is
 at
 EOF
-PRUint8
+uint8_t
 mGetBufferCount
 ;
 }

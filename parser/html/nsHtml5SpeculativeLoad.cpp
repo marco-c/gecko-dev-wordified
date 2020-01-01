@@ -238,11 +238,11 @@ string
 "
 )
 ;
-PRInt32
+int32_t
 intSource
 =
 (
-PRInt32
+int32_t
 )
 mTypeOrCharsetSource
 .

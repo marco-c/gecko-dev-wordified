@@ -430,7 +430,7 @@ IOThreadAutoTimer
 (
 )
 {
-PRUint32
+uint32_t
 mainThread
 =
 NS_IsMainThread

@@ -195,7 +195,7 @@ nsHttpConnectionMgr
 :
 OnMsgPrintDiagnostics
 (
-PRInt32
+int32_t
 void
 *
 )
@@ -406,7 +406,7 @@ nsHttpConnectionMgr
 closure
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 self

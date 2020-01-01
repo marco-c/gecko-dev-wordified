@@ -645,7 +645,7 @@ AudioManager
 :
 GetPhoneState
 (
-PRInt32
+int32_t
 *
 aState
 )
@@ -665,7 +665,7 @@ AudioManager
 :
 SetPhoneState
 (
-PRInt32
+int32_t
 aState
 )
 {
@@ -777,9 +777,9 @@ AudioManager
 :
 SetForceForUse
 (
-PRInt32
+int32_t
 aUsage
-PRInt32
+int32_t
 aForce
 )
 {
@@ -909,9 +909,9 @@ AudioManager
 :
 GetForceForUse
 (
-PRInt32
+int32_t
 aUsage
-PRInt32
+int32_t
 *
 aForce
 )

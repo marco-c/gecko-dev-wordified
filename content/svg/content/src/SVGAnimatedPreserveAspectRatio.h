@@ -180,9 +180,9 @@ public
 :
 SVGPreserveAspectRatio
 (
-PRUint16
+uint16_t
 aAlign
-PRUint16
+uint16_t
 aMeetOrSlice
 bool
 aDefer
@@ -237,7 +237,7 @@ const
 nsresult
 SetAlign
 (
-PRUint16
+uint16_t
 aAlign
 )
 {
@@ -265,7 +265,7 @@ mAlign
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 aAlign
@@ -275,7 +275,7 @@ return
 NS_OK
 ;
 }
-PRUint16
+uint16_t
 GetAlign
 (
 )
@@ -288,7 +288,7 @@ mAlign
 nsresult
 SetMeetOrSlice
 (
-PRUint16
+uint16_t
 aMeetOrSlice
 )
 {
@@ -316,7 +316,7 @@ mMeetOrSlice
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 aMeetOrSlice
@@ -326,7 +326,7 @@ return
 NS_OK
 ;
 }
-PRUint16
+uint16_t
 GetMeetOrSlice
 (
 )
@@ -360,10 +360,10 @@ mDefer
 }
 private
 :
-PRUint8
+uint8_t
 mAlign
 ;
-PRUint8
+uint8_t
 mMeetOrSlice
 ;
 bool
@@ -454,7 +454,7 @@ aSVGElement
 nsresult
 SetBaseAlign
 (
-PRUint16
+uint16_t
 aAlign
 nsSVGElement
 *
@@ -509,7 +509,7 @@ NS_OK
 nsresult
 SetBaseMeetOrSlice
 (
-PRUint16
+uint16_t
 aMeetOrSlice
 nsSVGElement
 *
@@ -564,7 +564,7 @@ NS_OK
 void
 SetAnimValue
 (
-PRUint64
+uint64_t
 aPackedValue
 nsSVGElement
 *
@@ -745,7 +745,7 @@ mSVGElement
 NS_IMETHOD
 GetAlign
 (
-PRUint16
+uint16_t
 *
 aAlign
 )
@@ -771,7 +771,7 @@ NS_OK
 NS_IMETHOD
 SetAlign
 (
-PRUint16
+uint16_t
 aAlign
 )
 {
@@ -789,7 +789,7 @@ mSVGElement
 NS_IMETHOD
 GetMeetOrSlice
 (
-PRUint16
+uint16_t
 *
 aMeetOrSlice
 )
@@ -815,7 +815,7 @@ NS_OK
 NS_IMETHOD
 SetMeetOrSlice
 (
-PRUint16
+uint16_t
 aMeetOrSlice
 )
 {
@@ -913,7 +913,7 @@ modifications
 NS_IMETHOD
 GetAlign
 (
-PRUint16
+uint16_t
 *
 aAlign
 )
@@ -946,7 +946,7 @@ NS_OK
 NS_IMETHOD
 SetAlign
 (
-PRUint16
+uint16_t
 aAlign
 )
 {
@@ -957,7 +957,7 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 NS_IMETHOD
 GetMeetOrSlice
 (
-PRUint16
+uint16_t
 *
 aMeetOrSlice
 )
@@ -990,7 +990,7 @@ NS_OK
 NS_IMETHOD
 SetMeetOrSlice
 (
-PRUint16
+uint16_t
 aValue
 )
 {

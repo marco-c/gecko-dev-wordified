@@ -310,7 +310,7 @@ nsAccessKeyInfo
 {
 public
 :
-PRInt32
+int32_t
 mAccesskeyIndex
 ;
 nscoord
@@ -387,12 +387,12 @@ nsTextBoxFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1833,13 +1833,13 @@ underColor
 nscolor
 strikeColor
 ;
-PRUint8
+uint8_t
 overStyle
 ;
-PRUint8
+uint8_t
 underStyle
 ;
-PRUint8
+uint8_t
 strikeStyle
 ;
 /
@@ -1848,7 +1848,7 @@ Begin
 with
 no
 decorations
-PRUint8
+uint8_t
 decorations
 =
 NS_STYLE_TEXT_DECORATION_LINE_NONE
@@ -1862,7 +1862,7 @@ all
 possible
 decorations
 .
-PRUint8
+uint8_t
 decorMask
 =
 NS_STYLE_TEXT_DECORATION_LINE_LINES_MASK
@@ -1979,7 +1979,7 @@ eCSSProperty_color
 ;
 }
 }
-PRUint8
+uint8_t
 style
 =
 styleText
@@ -4119,7 +4119,7 @@ formatAccessKey
 )
 *
 /
-PRInt32
+int32_t
 menuAccessKey
 ;
 nsMenuBarListener
@@ -4219,7 +4219,7 @@ GetLocalizedEllipsis
 (
 )
 ;
-PRUint32
+uint32_t
 offset
 =
 mTitle
@@ -4396,7 +4396,7 @@ UpdateAccessIndex
 (
 )
 {
-PRInt32
+int32_t
 menuAccessKey
 ;
 nsMenuBarListener
@@ -5882,7 +5882,7 @@ EventStateManager
 (
 )
 ;
-PRUint32
+uint32_t
 key
 =
 accessKey

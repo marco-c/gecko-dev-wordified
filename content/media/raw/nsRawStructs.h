@@ -68,7 +68,7 @@ define
 nsRawStructs_h_
 static
 const
-PRUint32
+uint32_t
 RAW_ID
 =
 0x595556
@@ -77,7 +77,7 @@ struct
 nsRawVideo_PRUint24
 {
 operator
-PRUint32
+uint32_t
 (
 )
 const
@@ -111,7 +111,7 @@ operator
 =
 (
 const
-PRUint32
+uint32_t
 &
 rhs
 )
@@ -162,7 +162,7 @@ this
 }
 private
 :
-PRUint8
+uint8_t
 value
 [
 3
@@ -177,7 +177,7 @@ typedef
 nsRawVideo_PRUint24
 PRUint24
 ;
-PRUint8
+uint8_t
 packetID
 ;
 PRUint24
@@ -208,7 +208,7 @@ typedef
 nsRawVideo_PRUint24
 PRUint24
 ;
-PRUint8
+uint8_t
 headerPacketID
 ;
 /
@@ -233,7 +233,7 @@ always
 YUV
 "
 )
-PRUint8
+uint8_t
 majorVersion
 ;
 /
@@ -245,7 +245,7 @@ breaks
 backwards
 compat
 )
-PRUint8
+uint8_t
 minorVersion
 ;
 /
@@ -257,7 +257,7 @@ preserves
 backwards
 compat
 )
-PRUint16
+uint16_t
 options
 ;
 /
@@ -378,16 +378,16 @@ options
 (
 undefined
 )
-PRUint8
+uint8_t
 alphaChannelBpp
 ;
-PRUint8
+uint8_t
 lumaChannelBpp
 ;
-PRUint8
+uint8_t
 chromaChannelBpp
 ;
-PRUint8
+uint8_t
 colorspace
 ;
 PRUint24
@@ -402,10 +402,10 @@ aspectNumerator
 PRUint24
 aspectDenominator
 ;
-PRUint32
+uint32_t
 framerateNumerator
 ;
-PRUint32
+uint32_t
 framerateDenominator
 ;
 }

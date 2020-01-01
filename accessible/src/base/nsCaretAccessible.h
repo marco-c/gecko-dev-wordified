@@ -919,7 +919,7 @@ HyperTextAccessible
 >
 mLastTextAccessible
 ;
-PRInt32
+int32_t
 mLastCaretOffset
 ;
 mozilla

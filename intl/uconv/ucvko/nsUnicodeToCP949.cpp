@@ -214,7 +214,7 @@ of
 them
 static
 const
-PRUint16
+uint16_t
 g_ufCP949NoKSCHangulMapping
 [
 ]
@@ -231,7 +231,7 @@ uf
 ;
 static
 const
-PRUint16
+uint16_t
 *
 g_CP949MappingTable
 [

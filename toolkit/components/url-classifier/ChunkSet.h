@@ -185,14 +185,14 @@ aStr
 nsresult
 Set
 (
-PRUint32
+uint32_t
 aChunk
 )
 ;
 nsresult
 Unset
 (
-PRUint32
+uint32_t
 aChunk
 )
 ;
@@ -222,7 +222,7 @@ aOther
 bool
 Has
 (
-PRUint32
+uint32_t
 chunk
 )
 const
@@ -263,7 +263,7 @@ Read
 nsIInputStream
 *
 aIn
-PRUint32
+uint32_t
 aNumElements
 )
 {

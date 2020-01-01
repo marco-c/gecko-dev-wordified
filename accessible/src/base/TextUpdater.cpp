@@ -174,7 +174,7 @@ Text
 (
 )
 ;
-PRUint32
+uint32_t
 oldLen
 =
 oldText
@@ -190,7 +190,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 minLen
 =
 NS_MIN
@@ -206,7 +206,7 @@ coinciding
 begin
 substrings
 .
-PRUint32
+uint32_t
 skipStart
 =
 0
@@ -295,7 +295,7 @@ const
 nsAString
 &
 aOldText
-PRUint32
+uint32_t
 aSkipStart
 )
 {
@@ -395,7 +395,7 @@ text
 "
 )
 ;
-PRUint32
+uint32_t
 oldLen
 =
 aOldText
@@ -411,7 +411,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 minLen
 =
 NS_MIN
@@ -429,7 +429,7 @@ from
 the
 end
 .
-PRUint32
+uint32_t
 skipEnd
 =
 0
@@ -468,7 +468,7 @@ skipEnd
 +
 ;
 }
-PRUint32
+uint32_t
 strLen1
 =
 oldLen
@@ -477,7 +477,7 @@ aSkipStart
 -
 skipEnd
 ;
-PRUint32
+uint32_t
 strLen2
 =
 newLen
@@ -755,7 +755,7 @@ compute
 the
 difference
 .
-PRUint32
+uint32_t
 len1
 =
 strLen1
@@ -767,12 +767,12 @@ strLen2
 +
 1
 ;
-PRUint32
+uint32_t
 *
 entries
 =
 new
-PRUint32
+uint32_t
 [
 len1
 *
@@ -781,7 +781,7 @@ len2
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -801,7 +801,7 @@ colIdx
 =
 colIdx
 ;
-PRUint32
+uint32_t
 *
 row
 =
@@ -809,7 +809,7 @@ entries
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 1
@@ -823,7 +823,7 @@ rowIdx
 +
 )
 {
-PRUint32
+uint32_t
 *
 prevRow
 =
@@ -843,7 +843,7 @@ rowIdx
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 1
@@ -875,7 +875,7 @@ rowIdx
 ]
 )
 {
-PRUint32
+uint32_t
 left
 =
 row
@@ -885,7 +885,7 @@ colIdx
 1
 ]
 ;
-PRUint32
+uint32_t
 up
 =
 prevRow
@@ -893,7 +893,7 @@ prevRow
 colIdx
 ]
 ;
-PRUint32
+uint32_t
 upleft
 =
 prevRow
@@ -976,7 +976,7 @@ events
 .
 for
 (
-PRInt32
+int32_t
 idx
 =
 events
@@ -1044,7 +1044,7 @@ const
 nsAString
 &
 aStr2
-PRUint32
+uint32_t
 *
 aEntries
 nsTArray
@@ -1058,7 +1058,7 @@ AccEvent
 aEvents
 )
 {
-PRInt32
+int32_t
 colIdx
 =
 aStr1
@@ -1083,24 +1083,24 @@ strings
 last
 matched
 .
-PRInt32
+int32_t
 colEnd
 =
 colIdx
 ;
-PRInt32
+int32_t
 rowEnd
 =
 rowIdx
 ;
-PRInt32
+int32_t
 colLen
 =
 colEnd
 +
 1
 ;
-PRUint32
+uint32_t
 *
 row
 =
@@ -1110,7 +1110,7 @@ rowIdx
 *
 colLen
 ;
-PRUint32
+uint32_t
 dist
 =
 row

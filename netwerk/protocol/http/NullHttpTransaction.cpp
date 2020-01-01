@@ -163,7 +163,7 @@ callbacks
 nsIEventTarget
 *
 target
-PRUint8
+uint8_t
 caps
 )
 :
@@ -343,7 +343,7 @@ nsITransport
 transport
 nsresult
 status
-PRUint64
+uint64_t
 progress
 )
 {
@@ -372,7 +372,7 @@ return
 mStatus
 ;
 }
-PRUint8
+uint8_t
 NullHttpTransaction
 :
 :
@@ -384,7 +384,7 @@ return
 mCaps
 ;
 }
-PRUint64
+uint64_t
 NullHttpTransaction
 :
 :
@@ -405,9 +405,9 @@ ReadSegments
 nsAHttpSegmentReader
 *
 reader
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -434,9 +434,9 @@ WriteSegments
 nsAHttpSegmentWriter
 *
 writer
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )
@@ -450,7 +450,7 @@ return
 NS_BASE_STREAM_CLOSED
 ;
 }
-PRUint32
+uint32_t
 NullHttpTransaction
 :
 :
@@ -688,7 +688,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PRUint32
+uint32_t
 NullHttpTransaction
 :
 :
@@ -706,7 +706,7 @@ NullHttpTransaction
 :
 SetPipelinePosition
 (
-PRInt32
+int32_t
 position
 )
 {
@@ -714,7 +714,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 NullHttpTransaction
 :
 :

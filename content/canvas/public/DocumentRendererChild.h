@@ -132,7 +132,7 @@ const
 nsString
 &
 bgcolor
-PRUint32
+uint32_t
 renderFlags
 bool
 flushLayout

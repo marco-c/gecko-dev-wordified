@@ -151,7 +151,7 @@ CryptoX_ProviderHandle
 provider
 CryptoX_PublicKey
 key
-PRUint32
+uint32_t
 signatureCount
 char
 *
@@ -274,7 +274,7 @@ fp
 void
 *
 buffer
-PRUint32
+uint32_t
 size
 CryptoX_SignatureHandle
 *
@@ -559,7 +559,7 @@ const
 char
 *
 certData
-PRUint32
+uint32_t
 sizeOfCertData
 const
 char
@@ -857,7 +857,7 @@ const
 char
 *
 certData
-PRUint32
+uint32_t
 sizeOfCertData
 )
 {
@@ -1126,7 +1126,7 @@ buf
 0
 }
 ;
-PRUint32
+uint32_t
 signatureAlgorithmID
 signatureCount
 signatureLen
@@ -1140,14 +1140,14 @@ rv
 -
 1
 ;
-PRInt64
+int64_t
 curPos
 ;
 char
 *
 extractedSignature
 ;
-PRUint32
+uint32_t
 i
 ;
 if
@@ -1476,7 +1476,7 @@ fread
 signatureAlgorithmID
 sizeof
 (
-PRUint32
+uint32_t
 )
 1
 fp
@@ -1523,7 +1523,7 @@ fread
 signatureLen
 sizeof
 (
-PRUint32
+uint32_t
 )
 1
 fp
@@ -1921,7 +1921,7 @@ CryptoX_ProviderHandle
 provider
 CryptoX_PublicKey
 key
-PRUint32
+uint32_t
 signatureCount
 char
 *
@@ -1937,10 +1937,10 @@ buf
 BLOCKSIZE
 ]
 ;
-PRUint32
+uint32_t
 signatureLen
 ;
-PRUint32
+uint32_t
 i
 ;
 if
@@ -2125,7 +2125,7 @@ SIGNATURE_BLOCK_OFFSET
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 &
 signatureHandle
@@ -2176,7 +2176,7 @@ fp
 buf
 sizeof
 (
-PRUint32
+uint32_t
 )
 &
 signatureHandle
@@ -2204,7 +2204,7 @@ fp
 signatureLen
 sizeof
 (
-PRUint32
+uint32_t
 )
 &
 signatureHandle

@@ -1146,7 +1146,7 @@ addons
 for
 consistency
 .
-PRInt32
+int32_t
 itemType
 ;
 root
@@ -1741,7 +1741,7 @@ node
 )
 )
 ;
-PRUint16
+uint16_t
 nodeType
 =
 0
@@ -2041,7 +2041,7 @@ IsDocumentNode
 return
 E_FAIL
 ;
-PRUint32
+uint32_t
 numAttribs
 =
 mContent
@@ -2075,7 +2075,7 @@ numAttribs
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2330,7 +2330,7 @@ do_GetService
 NS_NAMESPACEMANAGER_CONTRACTID
 )
 ;
-PRInt32
+int32_t
 index
 ;
 for
@@ -2610,7 +2610,7 @@ cssDecl
 E_FAIL
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 cssDecl
@@ -2622,7 +2622,7 @@ GetLength
 length
 )
 ;
-PRUint32
+uint32_t
 index
 realIndex
 ;
@@ -2878,7 +2878,7 @@ cssDecl
 E_FAIL
 )
 ;
-PRUint32
+uint32_t
 index
 ;
 for
@@ -2990,7 +2990,7 @@ aScrollTopLeft
 {
 __try
 {
-PRUint32
+uint32_t
 scrollType
 =
 aScrollTopLeft

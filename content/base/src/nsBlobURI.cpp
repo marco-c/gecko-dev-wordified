@@ -692,7 +692,7 @@ nsBlobURI
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -722,7 +722,7 @@ nsBlobURI
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -872,7 +872,7 @@ nsBlobURI
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -895,7 +895,7 @@ nsBlobURI
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )

@@ -209,7 +209,7 @@ char
 (
 const_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -225,7 +225,7 @@ _string
 \
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -395,7 +395,7 @@ PR_TRUE
 )
 ;
 }
-PRInt64
+int64_t
 id
 ;
 nsCString
@@ -414,7 +414,7 @@ enum
 AsyncFaviconFetchMode
 fetchMode
 ;
-PRUint16
+uint16_t
 status
 ;
 /
@@ -475,7 +475,7 @@ true
 )
 ;
 }
-PRInt64
+int64_t
 id
 ;
 nsCString
@@ -500,7 +500,7 @@ and
 unsupported
 schemas
 .
-PRInt64
+int64_t
 iconId
 ;
 nsCString

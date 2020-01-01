@@ -136,7 +136,7 @@ stream
 BIG5
 static
 const
-PRUint32
+uint32_t
 BIG5_cls
 [
 256
@@ -686,7 +686,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 BIG5_st
 [
 3
@@ -745,7 +745,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 Big5CharLenTable
 [
 ]
@@ -786,7 +786,7 @@ Big5
 ;
 static
 const
-PRUint32
+uint32_t
 EUCJP_cls
 [
 256
@@ -1329,7 +1329,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 EUCJP_st
 [
 5
@@ -1420,7 +1420,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 EUCJPCharLenTable
 [
 ]
@@ -1464,7 +1464,7 @@ JP
 ;
 static
 const
-PRUint32
+uint32_t
 EUCKR_cls
 [
 256
@@ -2007,7 +2007,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 EUCKR_st
 [
 2
@@ -2050,7 +2050,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 EUCKRCharLenTable
 [
 ]
@@ -2092,7 +2092,7 @@ KR
 ;
 static
 const
-PRUint32
+uint32_t
 EUCTW_cls
 [
 256
@@ -2635,7 +2635,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 EUCTW_st
 [
 6
@@ -2742,7 +2742,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 EUCTWCharLenTable
 [
 ]
@@ -2794,7 +2794,7 @@ GB2312
 by
 gb18030
 static
-PRUint32
+uint32_t
 GB2312_cls
 [
 256
@@ -3336,7 +3336,7 @@ ff
 }
 ;
 static
-PRUint32
+uint32_t
 GB2312_st
 [
 2
@@ -3379,7 +3379,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 GB2312CharLenTable
 [
 ]
@@ -3451,7 +3451,7 @@ detector
 .
 static
 const
-PRUint32
+uint32_t
 GB18030_cls
 [
 256
@@ -3976,7 +3976,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 GB18030_st
 [
 6
@@ -4149,7 +4149,7 @@ here
 .
 static
 const
-PRUint32
+uint32_t
 GB18030CharLenTable
 [
 ]
@@ -4195,7 +4195,7 @@ GB18030
 sjis
 static
 const
-PRUint32
+uint32_t
 SJIS_cls
 [
 256
@@ -4764,7 +4764,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 SJIS_st
 [
 3
@@ -4823,7 +4823,7 @@ eStart
 ;
 static
 const
-PRUint32
+uint32_t
 SJISCharLenTable
 [
 ]
@@ -4865,7 +4865,7 @@ Shift_JIS
 ;
 static
 const
-PRUint32
+uint32_t
 UTF8_cls
 [
 256
@@ -5416,7 +5416,7 @@ ff
 ;
 static
 const
-PRUint32
+uint32_t
 UTF8_st
 [
 26
@@ -5843,7 +5843,7 @@ cf
 ;
 static
 const
-PRUint32
+uint32_t
 UTF8CharLenTable
 [
 ]

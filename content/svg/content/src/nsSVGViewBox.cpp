@@ -591,7 +591,7 @@ vals
 NUM_VIEWBOX_COMPONENTS
 ]
 ;
-PRUint32
+uint32_t
 i
 ;
 for

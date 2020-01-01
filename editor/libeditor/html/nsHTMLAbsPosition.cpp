@@ -796,9 +796,9 @@ RelativeChangeElementZIndex
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 aChange
-PRInt32
+int32_t
 *
 aReturn
 )
@@ -828,7 +828,7 @@ change
 return
 NS_OK
 ;
-PRInt32
+int32_t
 zIndex
 ;
 nsresult
@@ -881,7 +881,7 @@ SetElementZIndex
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 aZindex
 )
 {
@@ -924,7 +924,7 @@ nsHTMLEditor
 :
 RelativeChangeZIndex
 (
-PRInt32
+int32_t
 aChange
 )
 {
@@ -1071,7 +1071,7 @@ GetElementZIndex
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 *
 aZindex
 )
@@ -1958,10 +1958,10 @@ nsHTMLEditor
 :
 SnapToGrid
 (
-PRInt32
+int32_t
 &
 newX
-PRInt32
+int32_t
 &
 newY
 )
@@ -1977,7 +1977,7 @@ mGridSize
 newX
 =
 (
-PRInt32
+int32_t
 )
 floor
 (
@@ -2003,7 +2003,7 @@ mGridSize
 newY
 =
 (
-PRInt32
+int32_t
 )
 floor
 (
@@ -2326,9 +2326,9 @@ nsHTMLEditor
 :
 SetFinalPosition
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -2387,7 +2387,7 @@ a
 normal
 HTML
 layout
-PRInt32
+int32_t
 newX
 =
 mPositionedObjectX
@@ -2402,7 +2402,7 @@ mPositionedObjectBorderLeft
 mPositionedObjectMarginLeft
 )
 ;
-PRInt32
+int32_t
 newY
 =
 mPositionedObjectY
@@ -2517,10 +2517,10 @@ nsHTMLEditor
 :
 AddPositioningOffset
 (
-PRInt32
+int32_t
 &
 aX
-PRInt32
+int32_t
 &
 aY
 )
@@ -2531,7 +2531,7 @@ Get
 the
 positioning
 offset
-PRInt32
+int32_t
 positioningOffset
 =
 Preferences
@@ -2644,7 +2644,7 @@ if
 aEnabled
 )
 {
-PRInt32
+int32_t
 x
 y
 ;
@@ -3037,7 +3037,7 @@ nsHTMLEditor
 :
 SetGridSize
 (
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -3055,7 +3055,7 @@ nsHTMLEditor
 :
 GetGridSize
 (
-PRUint32
+uint32_t
 *
 aSize
 )
@@ -3083,9 +3083,9 @@ SetElementPosition
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -3448,7 +3448,7 @@ res
 res
 )
 ;
-PRUint16
+uint16_t
 type
 ;
 res

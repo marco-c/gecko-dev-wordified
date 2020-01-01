@@ -814,7 +814,7 @@ ThebesLayer
 aLayer
 ContentType
 aContentType
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -886,7 +886,7 @@ const
 nsIntSize
 &
 aSize
-PRUint32
+uint32_t
 aFlags
 )
 =

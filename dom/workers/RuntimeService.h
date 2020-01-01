@@ -247,7 +247,7 @@ WorkerPrivate
 >
 mQueuedWorkers
 ;
-PRUint32
+uint32_t
 mChildWorkerCount
 ;
 WorkerDomainInfo
@@ -264,7 +264,7 @@ mChildWorkerCount
 )
 {
 }
-PRUint32
+uint32_t
 ActiveWorkerCount
 (
 )
@@ -375,22 +375,22 @@ nsCString
 mSystemCharset
 ;
 static
-PRUint32
+uint32_t
 sDefaultJSContextOptions
 ;
 static
-PRUint32
+uint32_t
 sDefaultJSRuntimeHeapSize
 ;
 static
-PRInt32
+int32_t
 sCloseHandlerTimeoutSeconds
 ;
 #
 ifdef
 JS_GC_ZEAL
 static
-PRUint8
+uint8_t
 sDefaultGCZeal
 ;
 #
@@ -560,7 +560,7 @@ aThread
 )
 ;
 static
-PRUint32
+uint32_t
 GetDefaultJSContextOptions
 (
 )
@@ -577,7 +577,7 @@ static
 void
 SetDefaultJSContextOptions
 (
-PRUint32
+uint32_t
 aOptions
 )
 {
@@ -596,7 +596,7 @@ UpdateAllWorkerJSContextOptions
 )
 ;
 static
-PRUint32
+uint32_t
 GetDefaultJSRuntimeHeapSize
 (
 )
@@ -613,7 +613,7 @@ static
 void
 SetDefaultJSRuntimeHeapSize
 (
-PRUint32
+uint32_t
 aMaxBytes
 )
 {
@@ -632,7 +632,7 @@ UpdateAllWorkerJSRuntimeHeapSize
 )
 ;
 static
-PRUint32
+uint32_t
 GetCloseHandlerTimeoutSeconds
 (
 )
@@ -651,7 +651,7 @@ sCloseHandlerTimeoutSeconds
 ifdef
 JS_GC_ZEAL
 static
-PRUint8
+uint8_t
 GetDefaultGCZeal
 (
 )
@@ -668,7 +668,7 @@ static
 void
 SetDefaultGCZeal
 (
-PRUint8
+uint8_t
 aGCZeal
 )
 {

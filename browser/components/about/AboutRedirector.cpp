@@ -150,7 +150,7 @@ char
 *
 url
 ;
-PRUint32
+uint32_t
 flags
 ;
 /
@@ -698,7 +698,7 @@ GetPath
 path
 )
 ;
-PRInt32
+int32_t
 f
 =
 path
@@ -1003,7 +1003,7 @@ GetURIFlags
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 *
 result
 )

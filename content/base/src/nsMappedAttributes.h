@@ -197,7 +197,7 @@ new
 (
 size_t
 size
-PRUint32
+uint32_t
 aAttrCount
 =
 1
@@ -247,7 +247,7 @@ aAttrName
 )
 const
 ;
-PRUint32
+uint32_t
 Count
 (
 )
@@ -267,7 +267,7 @@ aAttributes
 )
 const
 ;
-PRUint32
+uint32_t
 HashValue
 (
 )
@@ -306,7 +306,7 @@ nsAttrName
 *
 NameAt
 (
-PRUint32
+uint32_t
 aPos
 )
 const
@@ -342,7 +342,7 @@ nsAttrValue
 *
 AttrAt
 (
-PRUint32
+uint32_t
 aPos
 )
 const
@@ -407,7 +407,7 @@ destroyed
 void
 RemoveAttrAt
 (
-PRUint32
+uint32_t
 aPos
 nsAttrValue
 &
@@ -426,7 +426,7 @@ aName
 )
 const
 ;
-PRInt32
+int32_t
 IndexOfAttr
 (
 nsIAtom
@@ -459,7 +459,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -600,13 +600,13 @@ mAttrs
 )
 ;
 }
-PRUint16
+uint16_t
 mAttrCount
 ;
 #
 ifdef
 DEBUG
-PRUint16
+uint16_t
 mBufferSize
 ;
 #

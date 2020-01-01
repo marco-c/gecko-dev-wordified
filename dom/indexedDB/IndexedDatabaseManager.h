@@ -684,7 +684,7 @@ aWindow
 ;
 }
 static
-PRUint32
+uint32_t
 GetIndexedDBQuotaMB
 (
 )
@@ -890,7 +890,7 @@ AsyncDeleteFile
 FileManager
 *
 aFileManager
-PRInt64
+int64_t
 aFileId
 )
 ;
@@ -1693,7 +1693,7 @@ GetUsageForDirectory
 nsIFile
 *
 aDirectory
-PRUint64
+uint64_t
 *
 aUsage
 )
@@ -1713,13 +1713,13 @@ nsIIndexedDatabaseUsageCallback
 >
 mCallback
 ;
-PRUint64
+uint64_t
 mUsage
 ;
-PRUint64
+uint64_t
 mFileUsage
 ;
-PRInt32
+int32_t
 mCanceled
 ;
 CallbackState
@@ -1923,7 +1923,7 @@ WaitForTransactionsToFinishRunnable
 SynchronizedOp
 *
 aOp
-PRUint32
+uint32_t
 aCountdown
 )
 :
@@ -2028,7 +2028,7 @@ SynchronizedOp
 *
 mOp
 ;
-PRUint32
+uint32_t
 mCountdown
 ;
 }
@@ -2130,7 +2130,7 @@ aId
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2252,7 +2252,7 @@ thread
 '
 s
 window
-PRUintn
+unsigned
 mCurrentWindowIndex
 ;
 /

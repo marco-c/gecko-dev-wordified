@@ -341,7 +341,7 @@ Version
 namespace
 mozilla
 {
-PRInt32
+int32_t
 NS_COM_GLUE
 CompareVersions
 (
@@ -358,7 +358,7 @@ B
 #
 ifdef
 XP_WIN
-PRInt32
+int32_t
 NS_COM_GLUE
 CompareVersions
 (

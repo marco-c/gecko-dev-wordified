@@ -354,7 +354,7 @@ from
 this
 byte
 offset
-PRUint64
+uint64_t
 StartPos
 (
 )
@@ -527,7 +527,7 @@ nsIInputStream
 >
 mUploadStream
 ;
-PRUint64
+uint64_t
 mStartPos
 ;
 nsCString

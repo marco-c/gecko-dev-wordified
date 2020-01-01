@@ -654,7 +654,7 @@ void
 *
 mem
 ;
-PRUint32
+uint32_t
 len
 =
 strlen
@@ -944,7 +944,7 @@ PrefValue
 value
 PrefType
 type
-PRUint32
+uint32_t
 flags
 )
 ;
@@ -1488,7 +1488,7 @@ const
 char
 *
 pref_name
-PRInt32
+int32_t
 value
 bool
 set_default
@@ -1663,7 +1663,7 @@ table
 PLDHashEntryHdr
 *
 heh
-PRUint32
+uint32_t
 i
 void
 *
@@ -1995,7 +1995,7 @@ table
 PLDHashEntryHdr
 *
 heh
-PRUint32
+uint32_t
 i
 void
 *
@@ -2445,7 +2445,7 @@ const
 char
 *
 pref_name
-PRInt32
+int32_t
 *
 return_int
 bool
@@ -2509,7 +2509,7 @@ pref
 )
 )
 {
-PRInt32
+int32_t
 tempInt
 =
 pref
@@ -2741,7 +2741,7 @@ table
 PLDHashEntryHdr
 *
 heh
-PRUint32
+uint32_t
 i
 void
 *
@@ -2837,7 +2837,7 @@ he
 key
 to_delete
 (
-PRUint32
+uint32_t
 )
 len
 )
@@ -2872,7 +2872,7 @@ he
 key
 to_delete
 (
-PRUint32
+uint32_t
 )
 (
 len
@@ -3148,7 +3148,7 @@ table
 PLDHashEntryHdr
 *
 he
-PRUint32
+uint32_t
 void
 *
 arg
@@ -3585,7 +3585,7 @@ PrefValue
 value
 PrefType
 type
-PRUint32
+uint32_t
 flags
 )
 {

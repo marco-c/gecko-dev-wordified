@@ -1522,7 +1522,7 @@ nsIStyleSheet
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -1636,7 +1636,7 @@ list
 }
 protected
 :
-PRInt32
+int32_t
 mLength
 ;
 nsIDocument
@@ -3113,7 +3113,7 @@ last
 *
 /
 virtual
-PRInt32
+int32_t
 GetNumberOfStyleSheets
 (
 )
@@ -3124,13 +3124,13 @@ nsIStyleSheet
 *
 GetStyleSheetAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
 ;
 virtual
-PRInt32
+int32_t
 GetIndexOfStyleSheet
 (
 nsIStyleSheet
@@ -3200,7 +3200,7 @@ InsertStyleSheetAt
 nsIStyleSheet
 *
 aSheet
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -3216,7 +3216,7 @@ aApplicable
 )
 ;
 virtual
-PRInt32
+int32_t
 GetNumberOfCatalogStyleSheets
 (
 )
@@ -3227,7 +3227,7 @@ nsIStyleSheet
 *
 GetCatalogStyleSheetAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -3679,7 +3679,7 @@ PRUnichar
 *
 aEncoding
 const
-PRInt32
+int32_t
 aStandalone
 )
 ;
@@ -3751,7 +3751,7 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -3761,7 +3761,7 @@ nsIContent
 *
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -3773,14 +3773,14 @@ const
 *
 GetChildArray
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
 const
 ;
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsINode
@@ -3790,7 +3790,7 @@ aPossibleChild
 const
 ;
 virtual
-PRUint32
+uint32_t
 GetChildCount
 (
 )
@@ -3803,7 +3803,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -3824,7 +3824,7 @@ virtual
 void
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -3935,7 +3935,7 @@ aRadio
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetRequiredRadioCount
 (
 const
@@ -4115,7 +4115,7 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
 nsIContent
 *
@@ -4555,7 +4555,7 @@ virtual
 void
 SuppressEventHandling
 (
-PRUint32
+uint32_t
 aIncrease
 )
 ;
@@ -5759,7 +5759,7 @@ TryChannelCharset
 nsIChannel
 *
 aChannel
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -5888,7 +5888,7 @@ nsIContent
 *
 GetTitleContent
 (
-PRUint32
+uint32_t
 aNodeType
 )
 ;
@@ -5934,7 +5934,7 @@ element
 void
 GetTitleFromElement
 (
-PRUint32
+uint32_t
 aNodeType
 nsAString
 &
@@ -7047,7 +7047,7 @@ mIsApprovedForFullscreen
 :
 1
 ;
-PRUint8
+uint8_t
 mXMLDeclarationBits
 ;
 nsInterfaceHashtable
@@ -7098,7 +7098,7 @@ Our
 update
 nesting
 level
-PRUint32
+uint32_t
 mUpdateNestLevel
 ;
 /
@@ -7600,7 +7600,7 @@ Currently
 active
 onload
 blockers
-PRUint32
+uint32_t
 mOnloadBlockCount
 ;
 /
@@ -7614,7 +7614,7 @@ t
 been
 activated
 yet
-PRUint32
+uint32_t
 mAsyncOnloadBlockCount
 ;
 nsCOMPtr
@@ -7780,12 +7780,12 @@ mImageMaps
 nsCString
 mScrollToRef
 ;
-PRUint8
+uint8_t
 mScrolledToRefAlready
 :
 1
 ;
-PRUint8
+uint8_t
 mChangeScrollPosWhenScrollingToRef
 :
 1
@@ -7805,7 +7805,7 @@ nsPtrHashKey
 <
 imgIRequest
 >
-PRUint32
+uint32_t
 >
 mImageTracker
 ;

@@ -371,7 +371,7 @@ mLock
 nsAsyncCopyMode
 mMode
 ;
-PRUint32
+uint32_t
 mChunkSize
 ;
 nsresult

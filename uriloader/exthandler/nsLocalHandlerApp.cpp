@@ -554,7 +554,7 @@ line
 parameter
 list
 lengths
-PRUint32
+uint32_t
 len
 ;
 localHandlerApp
@@ -590,7 +590,7 @@ params
 lists
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -926,7 +926,7 @@ nsLocalHandlerApp
 :
 GetParameterCount
 (
-PRUint32
+uint32_t
 *
 aParameterCount
 )
@@ -1025,7 +1025,7 @@ nsLocalHandlerApp
 :
 GetParameter
 (
-PRUint32
+uint32_t
 parameterIndex
 nsAString
 &

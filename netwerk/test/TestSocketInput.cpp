@@ -270,9 +270,9 @@ context
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -362,9 +362,9 @@ context
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -381,7 +381,7 @@ aLength
 0
 )
 {
-PRUint32
+uint32_t
 amt
 ;
 aIStream

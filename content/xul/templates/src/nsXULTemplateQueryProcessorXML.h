@@ -506,7 +506,7 @@ the
 list
 of
 results
-PRUint32
+uint32_t
 mPosition
 ;
 public
