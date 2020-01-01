@@ -210,8 +210,9 @@ the
 Original
 Code
 is
-example
-Inc
+*
+Mozilla
+Foundation
 .
 *
 Portions
