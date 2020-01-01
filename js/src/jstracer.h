@@ -1118,6 +1118,16 @@ op
 )
 ;
 bool
+bbinary
+(
+nanojit
+:
+:
+LOpcode
+op
+)
+;
+bool
 map_is_native
 (
 JSObjectMap
