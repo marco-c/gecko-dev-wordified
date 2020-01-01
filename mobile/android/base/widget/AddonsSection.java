@@ -1521,13 +1521,7 @@ loadFavicon
 (
 pageUrl
 iconUrl
-Favicons
-.
-FLAG_PERSIST
-|
-Favicons
-.
-FLAG_SCALE
+true
 new
 Favicons
 .
