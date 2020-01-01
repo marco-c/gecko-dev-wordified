@@ -7967,7 +7967,7 @@ mOwningNode
 {
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
 node
 =
@@ -7976,11 +7976,6 @@ do_QueryInterface
 mOwningNode
 )
 ;
-if
-(
-node
-)
-{
 windowID
 =
 node
@@ -7995,7 +7990,6 @@ InnerWindowID
 (
 )
 ;
-}
 }
 if
 (
