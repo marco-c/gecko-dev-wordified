@@ -3508,6 +3508,16 @@ for
 ;
 )
 {
+if
+(
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+{
 /
 /
 Call
@@ -3685,6 +3695,7 @@ default
 :
 break
 ;
+}
 }
 }
 pc
