@@ -106,6 +106,13 @@ h
 #
 include
 "
+nsIDOMDesktopNotification
+.
+h
+"
+#
+include
+"
 TabChild
 .
 h
