@@ -596,7 +596,8 @@ effectChain
 LayerManagerComposite
 :
 :
-AddMaskEffect
+AutoAddMaskEffect
+autoMaskEffect
 (
 mMaskLayer
 effectChain
@@ -666,14 +667,6 @@ ToFilter
 filter
 )
 clipRect
-)
-;
-LayerManagerComposite
-:
-:
-RemoveMaskEffect
-(
-mMaskLayer
 )
 ;
 }

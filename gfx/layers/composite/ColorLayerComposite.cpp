@@ -349,7 +349,8 @@ GetBounds
 LayerManagerComposite
 :
 :
-AddMaskEffect
+AutoAddMaskEffect
+autoMaskEffect
 (
 GetMaskLayer
 (
@@ -462,16 +463,6 @@ x
 aOffset
 .
 y
-)
-)
-;
-LayerManagerComposite
-:
-:
-RemoveMaskEffect
-(
-GetMaskLayer
-(
 )
 )
 ;
