@@ -780,7 +780,7 @@ stream
 decoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -947,7 +947,7 @@ stream
 decoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -1030,7 +1030,7 @@ stream
 decoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -3372,7 +3372,7 @@ offset
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 -
@@ -4740,10 +4740,14 @@ to
 seek
 to
 %
-lldms
+fs
 "
 mDecoder
 aTarget
+/
+1000000
+.
+0
 )
 )
 ;
@@ -4821,7 +4825,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -4915,7 +4919,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;

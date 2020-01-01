@@ -525,7 +525,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -615,7 +615,7 @@ v
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -665,7 +665,7 @@ v
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -750,7 +750,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 obj

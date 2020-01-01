@@ -914,9 +914,9 @@ obj
 xpc_DumpJSStack
 (
 cx
-JS_FALSE
-JS_FALSE
-JS_FALSE
+false
+false
+false
 )
 ;
 }
@@ -1030,9 +1030,9 @@ cx
 xpc_DumpJSStack
 (
 cx
-JS_FALSE
-JS_FALSE
-JS_FALSE
+false
+false
+false
 )
 ;
 }

@@ -3190,7 +3190,7 @@ InitJavaProperties
 virtual
 NS_HIDDEN_
 (
-void
+JSObject
 *
 )
 GetCachedXBLPrototypeHandler
@@ -4143,11 +4143,6 @@ aIsInterval
 PRInt32
 *
 aReturn
-)
-;
-nsresult
-ClearTimeoutOrInterval
-(
 )
 ;
 nsresult
@@ -5977,7 +5972,7 @@ mApplicationCache
 nsDataHashtable
 <
 nsVoidPtrHashKey
-void
+JSObject
 *
 >
 mCachedXBLPrototypeHandlers

@@ -836,16 +836,6 @@ Length
 )
 =
 =
-const_cast
-<
-DOMSVGLengthList
-*
->
-(
-this
-)
--
->
 InternalList
 (
 )
@@ -913,6 +903,7 @@ nsSVGElement
 Element
 (
 )
+const
 {
 return
 mAList
@@ -1077,6 +1068,7 @@ SVGLengthList
 InternalList
 (
 )
+const
 ;
 /
 /

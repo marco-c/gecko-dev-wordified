@@ -4225,7 +4225,7 @@ pn2
 >
 isKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
 )
 returnsExpr

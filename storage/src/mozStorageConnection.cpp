@@ -3482,7 +3482,6 @@ stmt
 )
 )
 {
-PRInt64
 pageSize
 =
 :

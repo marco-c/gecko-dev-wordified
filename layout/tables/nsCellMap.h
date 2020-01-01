@@ -2199,6 +2199,8 @@ PRInt32
 aRowIndex
 bool
 aRebuildIfNecessary
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2357,6 +2359,8 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndexBefore
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2373,6 +2377,8 @@ nsTableCellFrame
 aCellFrame
 PRInt32
 aRowIndex
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2395,6 +2401,8 @@ PRInt32
 aFirstRowIndex
 bool
 aConsiderSpans
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2412,6 +2420,8 @@ PRInt32
 aNumRowsToRemove
 bool
 aConsiderSpans
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2824,6 +2834,8 @@ nsTableRowFrame
 aRowFrames
 PRInt32
 aStartRowIndex
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2850,6 +2862,8 @@ PRInt32
 aRowSpan
 bool
 aRowSpanIsZero
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2865,6 +2879,8 @@ PRInt32
 aFirstRowIndex
 PRInt32
 aNumRowsToRemove
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2883,6 +2899,8 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
+PRInt32
+aRgFirstRowIndex
 nsRect
 &
 aDamageArea
@@ -2978,9 +2996,6 @@ nsTableRowFrame
 aRowsToInsert
 PRInt32
 aNumRowsToRemove
-nsRect
-&
-aDamageArea
 )
 ;
 void
@@ -3004,9 +3019,6 @@ PRInt32
 aColIndex
 bool
 aInsert
-nsRect
-&
-aDamageArea
 )
 ;
 bool

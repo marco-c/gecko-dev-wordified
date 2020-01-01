@@ -1083,7 +1083,7 @@ a
 cx
 and
 return
-JS_FALSE
+false
 .
 *
 /
@@ -1449,7 +1449,7 @@ i
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -1491,7 +1491,7 @@ u
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -2202,7 +2202,7 @@ eEmpty
 ;
 mValid
 =
-JS_TRUE
+true
 ;
 return
 nsnull
@@ -2224,7 +2224,7 @@ s
 {
 mValid
 =
-JS_FALSE
+false
 ;
 return
 nsnull
@@ -2289,7 +2289,7 @@ IsValid
 )
 *
 return
-JS_FALSE
+false
 ;
 *
 *
@@ -2629,7 +2629,7 @@ to
 char
 *
 returning
-JS_TRUE
+true
 on
 success
 .
@@ -2723,7 +2723,7 @@ nsString
 to
 jsval
 returning
-JS_TRUE
+true
 on
 success
 .
@@ -2783,7 +2783,7 @@ nsString
 to
 JSString
 returning
-JS_TRUE
+true
 on
 success
 .
@@ -2932,7 +2932,7 @@ ppThis
 and
 return
 *
-JS_TRUE
+true
 .
 Otherwise
 raise
@@ -2943,7 +2943,7 @@ a
 cx
 and
 return
-JS_FALSE
+false
 .
 *
 *
@@ -3131,7 +3131,7 @@ ppThis
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -3751,7 +3751,7 @@ to
 jsval
 .
 Return
-JS_TRUE
+true
 on
 success
 .
@@ -3810,7 +3810,7 @@ to
 jsval
 .
 Return
-JS_TRUE
+true
 on
 success
 .
@@ -3841,7 +3841,7 @@ to
 PRInt64
 .
 Return
-JS_TRUE
+true
 on
 success
 .
@@ -3884,7 +3884,7 @@ intval
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -3915,7 +3915,7 @@ doubleval
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -3930,7 +3930,7 @@ doubleval
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -4015,7 +4015,7 @@ to
 PRUint64
 .
 Return
-JS_TRUE
+true
 on
 success
 .
@@ -4058,7 +4058,7 @@ intval
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -4089,7 +4089,7 @@ doubleval
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -4101,7 +4101,7 @@ doubleval
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 #

@@ -643,7 +643,7 @@ memberVal
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -753,7 +753,7 @@ constant
 )
 )
 return
-JS_FALSE
+false
 ;
 const
 nsXPTCMiniVariant
@@ -838,7 +838,7 @@ nsnull
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -846,7 +846,7 @@ vp
 resultVal
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -911,7 +911,7 @@ info
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -1002,7 +1002,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -1019,7 +1019,7 @@ if
 funobj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1049,7 +1049,7 @@ this
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -1060,7 +1060,7 @@ funobj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -1710,7 +1710,7 @@ i
 JSBool
 failed
 =
-JS_FALSE
+false
 ;
 PRUint16
 constCount
@@ -2067,7 +2067,7 @@ info
 {
 failed
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2140,7 +2140,7 @@ name
 ;
 failed
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2382,7 +2382,7 @@ constant
 {
 failed
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2417,7 +2417,7 @@ name
 ;
 failed
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2531,7 +2531,7 @@ bytes
 {
 failed
 =
-JS_TRUE
+true
 ;
 }
 interfaceName

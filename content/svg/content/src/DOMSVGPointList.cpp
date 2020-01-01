@@ -1145,16 +1145,6 @@ AttrIsAnimating
 const
 {
 return
-const_cast
-<
-DOMSVGPointList
-*
->
-(
-this
-)
--
->
 InternalAList
 (
 )
@@ -1172,6 +1162,7 @@ DOMSVGPointList
 InternalList
 (
 )
+const
 {
 SVGAnimatedPointList
 *
@@ -1215,6 +1206,7 @@ DOMSVGPointList
 InternalAList
 (
 )
+const
 {
 NS_ABORT_IF_FALSE
 (

@@ -23928,9 +23928,6 @@ postData
 submission
 .
 postData
-inBackground
-:
-false
 relatedToCurrent
 :
 true
@@ -27545,6 +27542,16 @@ mozCancelFullScreen
 return
 ;
 }
+if
+(
+gFindBarInitialized
+)
+gFindBar
+.
+close
+(
+)
+;
 this
 .
 showWarning

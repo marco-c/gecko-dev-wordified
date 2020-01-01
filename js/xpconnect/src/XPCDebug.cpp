@@ -629,7 +629,7 @@ nsnull
 JSBool
 gotThisVal
 =
-JS_FALSE
+false
 ;
 jsval
 thisVal
@@ -2003,7 +2003,7 @@ buf
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 char
@@ -2256,7 +2256,7 @@ xpc_DumpEvalInJSStackFrame
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 printf
@@ -2325,7 +2325,7 @@ number
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSAutoRequest
@@ -2444,7 +2444,7 @@ exceptionState
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -2655,9 +2655,9 @@ stack
 xpc_DumpJSStack
 (
 cx
-JS_TRUE
-JS_TRUE
-JS_FALSE
+true
+true
+false
 )
 ;
 puts
@@ -3298,6 +3298,6 @@ null
 )
 ;
 return
-JS_TRUE
+true
 ;
 }

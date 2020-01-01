@@ -693,6 +693,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsRange
 .
 h
@@ -14974,7 +14981,10 @@ return
 NS_OK
 ;
 }
-PRUint32
+nsIContent
+:
+:
+IMEState
 nsGenericHTMLFormElement
 :
 :
@@ -15044,7 +15054,7 @@ GetDesiredIMEState
 (
 )
 ;
-PRUint32
+IMEState
 state
 ;
 rv

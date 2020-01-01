@@ -4690,7 +4690,7 @@ gNumCacheHits
 ;
 aHandler
 .
-set
+setObject
 (
 attr
 -
@@ -5222,11 +5222,11 @@ attr
 >
 mEventHandler
 =
-(
-void
-*
-)
 aHandler
+.
+getObject
+(
+)
 ;
 }
 return
@@ -15425,7 +15425,7 @@ mNumAttributes
 i
 )
 {
-void
+JSObject
 *
 handler
 =
