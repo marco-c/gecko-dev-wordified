@@ -11965,7 +11965,7 @@ called
 from
 the
 current
-scope
+frame
 .
 If
 the
@@ -11974,6 +11974,7 @@ tree
 (
 this
 trace
+)
 is
 currently
 inside
