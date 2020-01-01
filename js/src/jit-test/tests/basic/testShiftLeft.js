@@ -5,12 +5,6 @@ jit
 -
 test
 |
-TMFLAGS
-:
-full
-fragprofile
-treevis
-;
 valgrind
 /
 *

@@ -35,7 +35,7 @@ to
 match
 the
 current
-HOTLOOP
+8
 setting
 of
 2

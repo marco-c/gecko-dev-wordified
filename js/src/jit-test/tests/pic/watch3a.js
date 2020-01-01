@@ -76,11 +76,7 @@ i
 ;
 i
 <
-HOTLOOP
-+
-5
-+
-1
+14
 ;
 i
 +
@@ -97,7 +93,7 @@ a
 (
 i
 >
-HOTLOOP
+8
 )
 ]
 counter

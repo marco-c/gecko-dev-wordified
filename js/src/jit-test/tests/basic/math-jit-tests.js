@@ -427,7 +427,7 @@ i
 ;
 i
 <
-RUNLOOP
+9
 ;
 i
 +
@@ -482,7 +482,7 @@ dummy_list
 }
 dummies_and_input
 [
-RUNLOOP
+9
 ]
 =
 arg_value_list
@@ -514,7 +514,7 @@ dummies_and_input
 return
 dummies_and_input
 [
-RUNLOOP
+9
 ]
 ;
 }

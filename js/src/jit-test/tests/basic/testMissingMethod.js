@@ -28,9 +28,7 @@ o
 ;
 a
 [
-RECORDLOOP
--
-1
+7
 ]
 =
 {
@@ -86,7 +84,5 @@ when
 i
 =
 =
-RECORDLOOP
--
-1
+7
 }

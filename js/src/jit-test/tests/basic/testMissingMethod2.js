@@ -36,9 +36,7 @@ y
 ;
 a
 [
-RECORDLOOP
--
-1
+7
 ]
 =
 0
@@ -93,7 +91,5 @@ when
 i
 =
 =
-RECORDLOOP
--
-1
+7
 }

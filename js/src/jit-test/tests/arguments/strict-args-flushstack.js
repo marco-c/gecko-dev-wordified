@@ -63,7 +63,7 @@ i
 ;
 i
 <
-RUNLOOP
+9
 ;
 i
 +
@@ -103,7 +103,7 @@ assertEq
 a
 .
 length
-RUNLOOP
+9
 )
 ;
 var
@@ -137,7 +137,7 @@ args
 assertEq
 (
 count
-RUNLOOP
+9
 )
 ;
 assertEq

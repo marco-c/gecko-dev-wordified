@@ -51,9 +51,7 @@ i
 ;
 i
 <
-HOTLOOP
-+
-2
+10
 ;
 i
 +
@@ -75,8 +73,6 @@ x
 assertEq
 (
 hits
-HOTLOOP
-+
-2
+10
 )
 ;

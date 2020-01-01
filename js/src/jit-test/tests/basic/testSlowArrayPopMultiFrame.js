@@ -41,7 +41,7 @@ i
 ;
 i
 <
-RUNLOOP
+9
 ;
 i
 +
@@ -58,9 +58,7 @@ i
 ;
 a
 [
-RUNLOOP
--
-1
+8
 ]
 .
 __defineGetter__
@@ -144,7 +142,7 @@ i
 ;
 i
 <
-RUNLOOP
+9
 ;
 i
 +

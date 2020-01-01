@@ -57,7 +57,7 @@ i
 ;
 i
 <
-RUNLOOP
+9
 ;
 i
 +
@@ -101,7 +101,7 @@ i
 assertEq
 (
 i
-RUNLOOP
+9
 )
 ;
 assertEq

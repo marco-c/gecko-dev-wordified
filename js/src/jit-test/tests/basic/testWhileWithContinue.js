@@ -36,9 +36,7 @@ while
 (
 i
 <
-HOTLOOP
-+
-4
+12
 )
 {
 +
@@ -51,8 +49,6 @@ continue
 assertEq
 (
 i
-HOTLOOP
-+
-4
+12
 )
 ;
