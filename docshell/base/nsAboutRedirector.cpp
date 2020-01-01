@@ -491,15 +491,6 @@ nsIAboutModule
 :
 HIDE_FROM_ABOUTABOUT
 }
-/
-/
-aboutMemory
-.
-xhtml
-implements
-about
-:
-compartments
 {
 "
 compartments
@@ -513,7 +504,7 @@ global
 /
 content
 /
-aboutMemory
+aboutCompartments
 .
 xhtml
 "
