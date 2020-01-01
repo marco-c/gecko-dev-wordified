@@ -484,6 +484,13 @@ h
 #
 include
 <
+signal
+.
+h
+>
+#
+include
+<
 locale
 .
 h
