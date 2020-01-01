@@ -1332,7 +1332,7 @@ return
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_BASELINE
 )

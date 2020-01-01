@@ -3689,7 +3689,7 @@ if
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_VAROBJFIX
 )
@@ -4188,11 +4188,8 @@ if
 ToPrimitive
 (
 cx
+&
 lvalue
-.
-address
-(
-)
 )
 )
 return
@@ -4204,11 +4201,8 @@ if
 ToPrimitive
 (
 cx
+&
 rvalue
-.
-address
-(
-)
 )
 )
 return
