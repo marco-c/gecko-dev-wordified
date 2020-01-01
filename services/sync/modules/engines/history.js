@@ -420,7 +420,7 @@ const
 GUID_ANNO
 =
 "
-weave
+sync
 /
 guid
 "
