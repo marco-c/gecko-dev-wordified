@@ -162,6 +162,9 @@ debuggerSocketConnect
 "
 LongStringClient
 "
+"
+GripClient
+"
 ]
 ;
 Cu
@@ -1173,13 +1176,6 @@ fileActivity
 :
 "
 fileActivity
-"
-"
-locationChange
-"
-:
-"
-locationChange
 "
 "
 networkEvent
@@ -3097,8 +3093,6 @@ Cu
 reportError
 (
 ex
-.
-message
 +
 "
 \
