@@ -4435,6 +4435,11 @@ return
 thread
 ;
 }
+bool
+onBackgroundThread
+(
+)
+;
 /
 *
 *
