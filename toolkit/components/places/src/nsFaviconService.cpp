@@ -1987,7 +1987,7 @@ GetHistoryService
 NS_ENSURE_TRUE
 (
 historyService
-NS_ERROR_NO_INTERFACE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 PRInt64
