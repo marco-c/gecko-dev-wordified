@@ -814,7 +814,7 @@ window
 setTimeout
 (
 aFunc
-150
+0
 )
 ;
 }
