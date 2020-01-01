@@ -2440,9 +2440,14 @@ when
 you
 call
 NS_ShutdownXPCOM
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 NS_ShutdownXPCOM
 (
 NULL
