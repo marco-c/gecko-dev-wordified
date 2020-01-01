@@ -1084,6 +1084,16 @@ nsIChannel
 >
 mChannel
 ;
+/
+/
+mReadRequest
+is
+different
+from
+mChannel
+for
+multipart
+requests
 nsCOMPtr
 <
 nsIRequest
