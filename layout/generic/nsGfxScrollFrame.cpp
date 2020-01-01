@@ -9895,8 +9895,6 @@ nsGfxScrollFrameInner
 :
 ScrollVisual
 (
-nsIntPoint
-aPixDelta
 )
 {
 nsRootPresContext
@@ -10543,9 +10541,6 @@ move
 visually
 ScrollVisual
 (
-curPosDevPx
--
-ptDevPx
 )
 ;
 presContext
