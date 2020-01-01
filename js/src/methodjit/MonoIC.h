@@ -929,12 +929,12 @@ funGuard
 uint32
 hotCallOffset
 :
-8
+16
 ;
 uint32
 joinPointOffset
 :
-8
+16
 ;
 /
 *
@@ -949,7 +949,7 @@ call
 uint32
 oolCallOffset
 :
-8
+16
 ;
 /
 *
@@ -970,7 +970,7 @@ calls
 uint32
 oolJumpOffset
 :
-8
+16
 ;
 /
 *
@@ -989,7 +989,7 @@ at
 uint32
 hotPathOffset
 :
-8
+16
 ;
 /
 *
@@ -1006,7 +1006,7 @@ paths
 uint32
 slowJoinOffset
 :
-9
+16
 ;
 RegisterID
 funObjReg
