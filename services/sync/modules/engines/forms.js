@@ -1645,7 +1645,7 @@ this
 "
 earlyformsubmit
 "
-false
+true
 )
 ;
 }
@@ -1672,6 +1672,9 @@ nsIFormSubmitObserver
 Ci
 .
 nsIObserver
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 trackEntry
