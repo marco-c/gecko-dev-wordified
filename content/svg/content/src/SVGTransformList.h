@@ -226,7 +226,7 @@ SVGTransformList
 {
 friend
 class
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 ;
 friend
 class
