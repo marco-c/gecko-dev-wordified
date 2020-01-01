@@ -1816,14 +1816,6 @@ if
 (
 !
 canAddToHistory
-|
-|
-history
--
->
-IsHistoryDisabled
-(
-)
 )
 {
 /
