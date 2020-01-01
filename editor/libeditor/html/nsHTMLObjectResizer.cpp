@@ -4246,14 +4246,6 @@ EndMoving
 (
 )
 ;
-mGrabberClicked
-=
-PR_FALSE
-;
-mIsMoving
-=
-PR_FALSE
-;
 }
 }
 return
