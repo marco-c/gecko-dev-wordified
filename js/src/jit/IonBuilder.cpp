@@ -22067,9 +22067,8 @@ not
 yet
 supported
 .
-JS_ASSERT
+if
 (
-!
 script
 (
 )
@@ -22083,6 +22082,16 @@ analysis
 hasTryFinally
 (
 )
+)
+return
+abort
+(
+"
+Has
+try
+-
+finally
+"
 )
 ;
 graph
