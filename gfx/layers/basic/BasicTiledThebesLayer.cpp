@@ -1876,7 +1876,7 @@ than
 speed
 .
 bool
-forceProgressive
+drawingLowPrecision
 =
 aTiledBuffer
 .
@@ -1995,6 +1995,8 @@ IsEmpty
 viewport
 scaleX
 scaleY
+!
+drawingLowPrecision
 )
 )
 {
@@ -2520,7 +2522,7 @@ transactions
 if
 (
 !
-forceProgressive
+drawingLowPrecision
 &
 &
 paintVisible
