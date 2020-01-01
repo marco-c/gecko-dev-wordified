@@ -619,7 +619,7 @@ IccManager
 :
 SendStkMenuSelection
 (
-PRUint16
+uint16_t
 aItemIdentifier
 bool
 aHelpRequested

@@ -1797,7 +1797,7 @@ from
 "
 ;
 const
-PRUint32
+uint32_t
 allowFromLen
 =
 ArrayLength

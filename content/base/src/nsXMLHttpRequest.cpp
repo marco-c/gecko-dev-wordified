@@ -7150,7 +7150,7 @@ n
 )
 ;
 }
-PRInt32
+int32_t
 length
 ;
 if
@@ -7487,7 +7487,7 @@ length
 )
 )
 {
-PRInt32
+int32_t
 length
 ;
 if
