@@ -768,6 +768,16 @@ PluginCrashed
 ;
 #
 endif
+void
+SetIsDefaultPlugin
+(
+)
+;
+PRBool
+IsDefaultPlugin
+(
+)
+;
 protected
 :
 /
@@ -843,6 +853,9 @@ calls
 static
 NPNetscapeFuncs
 CALLBACKS
+;
+PRBool
+mIsDefaultPlugin
 ;
 }
 ;
