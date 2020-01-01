@@ -232,6 +232,12 @@ gBrowser
 selectedTab
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 gDevTools
 .
 closeToolbox
@@ -241,6 +247,9 @@ target
 ;
 finishUp
 (
+)
+;
+}
 )
 ;
 }

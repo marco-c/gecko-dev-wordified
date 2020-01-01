@@ -61,7 +61,7 @@ modules
 /
 devtools
 /
-CmdAddon
+BuiltinCommands
 .
 jsm
 "
@@ -582,7 +582,7 @@ if
 (
 imported
 .
-Flags
+CmdAddonFlags
 .
 addonsLoaded
 )

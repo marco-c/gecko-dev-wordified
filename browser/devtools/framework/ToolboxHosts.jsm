@@ -180,7 +180,7 @@ functions
 :
 *
 *
-open
+create
 (
 )
 -
@@ -310,10 +310,10 @@ tab
 .
 *
 /
-open
+create
 :
 function
-BH_open
+BH_create
 (
 )
 {
@@ -394,7 +394,7 @@ this
 .
 frame
 .
-id
+className
 =
 "
 devtools
@@ -719,10 +719,10 @@ tab
 .
 *
 /
-open
+create
 :
 function
-RH_open
+SH_create
 (
 )
 {
@@ -803,7 +803,7 @@ this
 .
 frame
 .
-id
+className
 =
 "
 devtools
@@ -972,7 +972,7 @@ sidebar
 destroy
 :
 function
-RH_destroy
+SH_destroy
 (
 )
 {
@@ -1127,10 +1127,10 @@ toolbox
 .
 *
 /
-open
+create
 :
 function
-WH_open
+WH_create
 (
 )
 {
