@@ -131,15 +131,6 @@ BluetoothReplyRunnable
 .
 h
 "
-#
-include
-"
-mozilla
-/
-RefPtr
-.
-h
-"
 class
 nsIDOMDOMRequest
 ;
