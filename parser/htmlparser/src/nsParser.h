@@ -449,13 +449,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsIContentSink
 .
 h
@@ -489,9 +482,6 @@ nsIDTD
 ;
 class
 nsScanner
-;
-class
-nsIThreadPool
 ;
 #
 ifdef
