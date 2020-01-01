@@ -961,6 +961,14 @@ mLastUseIndex
 =
 0
 ;
+mMinInUseAttribArrayLengthCached
+=
+false
+;
+mMinInUseAttribArrayLength
+=
+0
+;
 }
 WebGLContext
 :

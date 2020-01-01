@@ -7430,7 +7430,10 @@ of
 ValidateBuffers
 )
 .
-int32_t
+bool
+mMinInUseAttribArrayLengthCached
+;
+uint32_t
 mMinInUseAttribArrayLength
 ;
 inline
@@ -7439,10 +7442,13 @@ InvalidateCachedMinInUseAttribArrayLength
 (
 )
 {
+mMinInUseAttribArrayLengthCached
+=
+false
+;
 mMinInUseAttribArrayLength
 =
--
-1
+0
 ;
 }
 /
@@ -7704,7 +7710,7 @@ InitAndValidateGL
 bool
 ValidateBuffers
 (
-int32_t
+uint32_t
 *
 maxAllowedCount
 const
