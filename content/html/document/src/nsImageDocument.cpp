@@ -937,7 +937,7 @@ GetRatio
 )
 {
 return
-PR_MIN
+NS_MIN
 (
 (
 float
@@ -2497,7 +2497,7 @@ image
 >
 SetWidth
 (
-PR_MAX
+NS_MAX
 (
 1
 NSToCoordFloor
@@ -2516,7 +2516,7 @@ image
 >
 SetHeight
 (
-PR_MAX
+NS_MAX
 (
 1
 NSToCoordFloor

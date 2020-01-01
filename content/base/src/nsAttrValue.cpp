@@ -4977,7 +4977,7 @@ PR_FALSE
 PRInt32
 val
 =
-PR_MAX
+NS_MAX
 (
 originalVal
 0
@@ -5138,7 +5138,7 @@ PR_FALSE
 PRInt32
 val
 =
-PR_MAX
+NS_MAX
 (
 originalVal
 aMin
@@ -5146,7 +5146,7 @@ aMin
 ;
 val
 =
-PR_MIN
+NS_MIN
 (
 val
 aMax

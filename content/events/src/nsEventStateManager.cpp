@@ -20460,7 +20460,7 @@ imgHeight
 /
 /
 XXX
-PR_MAX
+NS_MAX
 (
 NS_lround
 (

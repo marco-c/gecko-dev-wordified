@@ -6019,7 +6019,7 @@ node
 *
 aOffset
 =
-PR_MAX
+NS_MAX
 (
 offset
 0

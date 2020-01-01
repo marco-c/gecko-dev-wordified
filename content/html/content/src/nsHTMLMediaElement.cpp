@@ -4554,9 +4554,11 @@ spec
 float
 clampedTime
 =
-PR_MAX
+NS_MAX
 (
 0
+.
+0f
 aCurrentTime
 )
 ;
@@ -4580,7 +4582,7 @@ duration
 {
 clampedTime
 =
-PR_MIN
+NS_MIN
 (
 clampedTime
 duration
