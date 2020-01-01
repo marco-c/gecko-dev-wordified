@@ -482,13 +482,6 @@ h
 #
 include
 "
-nsIUnicharInputStream
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

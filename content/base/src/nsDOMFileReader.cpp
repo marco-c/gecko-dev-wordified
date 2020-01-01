@@ -527,13 +527,6 @@ h
 #
 include
 "
-nsIUnicharInputStream
-.
-h
-"
-#
-include
-"
 nsIUnicodeDecoder
 .
 h
