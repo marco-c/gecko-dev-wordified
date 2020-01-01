@@ -3948,8 +3948,8 @@ with
 locals
 .
 Due
-*
 to
+*
 incremental
 code
 generation
@@ -3961,8 +3961,8 @@ the
 bytecode
 to
 adjust
-*
 the
+*
 local
 references
 to
@@ -4078,12 +4078,14 @@ op
 ;
 len
 =
+(
 cs
 -
 >
 length
 >
 0
+)
 ?
 (
 uintN

@@ -44,7 +44,7 @@ ts
 et
 tw
 =
-78
+99
 :
 *
 *
@@ -33059,7 +33059,7 @@ JSScript
 script
 jsbytecode
 *
-pc
+target
 jsbytecode
 *
 *
@@ -33073,7 +33073,7 @@ ndefs
 ;
 jsbytecode
 *
-begin
+pc
 ;
 JSOp
 op
@@ -33170,10 +33170,10 @@ script
 main
 <
 =
-pc
+target
 &
 &
-pc
+target
 <
 script
 -
@@ -33190,10 +33190,6 @@ pcdepth
 =
 0
 ;
-begin
-=
-pc
-;
 for
 (
 pc
@@ -33205,7 +33201,7 @@ main
 ;
 pc
 <
-begin
+target
 ;
 pc
 +
@@ -33351,7 +33347,7 @@ either
 T
 (
 if
-begin
+target
 is
 in
 *
@@ -33364,7 +33360,7 @@ and
 E
 (
 if
-begin
+target
 is
 after
 the
@@ -33453,7 +33449,7 @@ pc
 +
 jmpoff
 <
-begin
+target
 )
 {
 pc
@@ -33519,7 +33515,7 @@ pc
 +
 jmplen
 <
-begin
+target
 )
 {
 oplen
@@ -33536,7 +33532,7 @@ continue
 *
 *
 Ok
-begin
+target
 lies
 in
 E
@@ -34150,7 +34146,7 @@ LOCAL_ASSERT
 pc
 =
 =
-begin
+target
 )
 ;
 return
