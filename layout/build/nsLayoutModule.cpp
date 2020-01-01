@@ -443,7 +443,7 @@ h
 #
 include
 "
-xpcmodule
+XPCModule
 .
 h
 "

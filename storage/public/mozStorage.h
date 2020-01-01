@@ -487,8 +487,6 @@ to
 *
 js
 /
-src
-/
 xpconnect
 /
 src
