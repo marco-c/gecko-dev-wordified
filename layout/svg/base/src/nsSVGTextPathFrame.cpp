@@ -1244,7 +1244,7 @@ GetLength
 return
 val
 *
-GetPathScale
+GetOffsetScale
 (
 )
 ;
@@ -1253,7 +1253,7 @@ gfxFloat
 nsSVGTextPathFrame
 :
 :
-GetPathScale
+GetOffsetScale
 (
 )
 {
@@ -1291,7 +1291,7 @@ GetContent
 )
 -
 >
-GetScale
+GetPathLengthScale
 (
 )
 ;
