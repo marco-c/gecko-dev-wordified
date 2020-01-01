@@ -1846,6 +1846,7 @@ n
 type
 !
 =
+=
 FUNCTION
 )
 n
@@ -1856,6 +1857,7 @@ type
 n
 .
 value
+=
 =
 =
 "
@@ -3031,6 +3033,7 @@ token
 type
 =
 =
+=
 PLUS
 )
 t
@@ -3049,6 +3052,7 @@ t
 token
 .
 type
+=
 =
 =
 MINUS
@@ -4151,6 +4155,7 @@ i
 i
 !
 =
+=
 '
 type
 '
@@ -4158,6 +4163,7 @@ type
 &
 i
 !
+=
 =
 '
 target
@@ -4643,6 +4649,7 @@ true
 )
 !
 =
+=
 RIGHT_CURLY
 )
 b
@@ -5066,6 +5073,7 @@ get
 )
 !
 =
+=
 RIGHT_CURLY
 )
 {
@@ -5153,17 +5161,20 @@ true
 )
 !
 =
+=
 CASE
 &
 &
 tt
 !
 =
+=
 DEFAULT
 &
 &
 tt
 !
+=
 =
 RIGHT_CURLY
 )
@@ -5247,17 +5258,20 @@ true
 )
 !
 =
+=
 CASE
 &
 &
 tt
 !
 =
+=
 DEFAULT
 &
 &
 tt
 !
+=
 =
 RIGHT_CURLY
 )
@@ -5358,6 +5372,7 @@ token
 value
 =
 =
+=
 "
 each
 "
@@ -5390,6 +5405,7 @@ peek
 )
 !
 =
+=
 SEMICOLON
 )
 {
@@ -5404,10 +5420,12 @@ if
 tt
 =
 =
+=
 VAR
 |
 |
 tt
+=
 =
 =
 CONST
@@ -5434,6 +5452,7 @@ if
 tt
 =
 =
+=
 LET
 )
 {
@@ -5450,6 +5469,7 @@ t
 peek
 (
 )
+=
 =
 =
 LEFT_PAREN
@@ -5587,12 +5607,14 @@ n2
 type
 =
 =
+=
 VAR
 |
 |
 n2
 .
 type
+=
 =
 =
 LET
@@ -5604,6 +5626,7 @@ n2
 .
 length
 !
+=
 =
 1
 )
@@ -5716,6 +5739,7 @@ peek
 )
 =
 =
+=
 SEMICOLON
 )
 ?
@@ -5747,6 +5771,7 @@ t
 peek
 (
 )
+=
 =
 =
 RIGHT_PAREN
@@ -6002,6 +6027,7 @@ n
 tt
 =
 =
+=
 BREAK
 ?
 b
@@ -6029,6 +6055,7 @@ peekOnSameLine
 )
 =
 =
+=
 IDENTIFIER
 )
 {
@@ -6041,6 +6068,7 @@ get
 if
 (
 tt
+=
 =
 =
 BREAK
@@ -6129,6 +6157,7 @@ i
 label
 !
 =
+=
 label
 )
 ;
@@ -6214,6 +6243,7 @@ i
 type
 =
 =
+=
 LABEL
 )
 i
@@ -6248,6 +6278,7 @@ else
 if
 (
 tt
+=
 =
 =
 CONTINUE
@@ -6291,6 +6322,7 @@ Invalid
 tt
 =
 =
+=
 BREAK
 )
 ?
@@ -6322,6 +6354,7 @@ isLoop
 tt
 =
 =
+=
 BREAK
 &
 &
@@ -6333,6 +6366,7 @@ i
 type
 =
 =
+=
 SWITCH
 )
 )
@@ -6341,6 +6375,7 @@ SWITCH
 if
 (
 tt
+=
 =
 =
 BREAK
@@ -6869,6 +6904,7 @@ peek
 )
 =
 =
+=
 LEFT_PAREN
 )
 n
@@ -6949,6 +6985,7 @@ if
 tt
 =
 =
+=
 IDENTIFIER
 )
 {
@@ -6968,6 +7005,7 @@ statement
 if
 (
 tt
+=
 =
 =
 COLON
@@ -7015,6 +7053,7 @@ i
 ]
 .
 label
+=
 =
 =
 label
@@ -7178,6 +7217,7 @@ t
 lineno
 =
 =
+=
 t
 .
 token
@@ -7198,11 +7238,13 @@ if
 tt
 !
 =
+=
 END
 &
 &
 tt
 !
+=
 =
 NEWLINE
 &
@@ -7210,11 +7252,13 @@ NEWLINE
 tt
 !
 =
+=
 SEMICOLON
 &
 &
 tt
 !
+=
 =
 RIGHT_CURLY
 )
@@ -7268,6 +7312,7 @@ if
 tt
 =
 =
+=
 RETURN
 )
 {
@@ -7307,6 +7352,7 @@ else
 *
 (
 tt
+=
 =
 =
 YIELD
@@ -7365,11 +7411,13 @@ if
 tt2
 !
 =
+=
 END
 &
 &
 tt2
 !
+=
 =
 NEWLINE
 &
@@ -7377,11 +7425,13 @@ NEWLINE
 tt2
 !
 =
+=
 SEMICOLON
 &
 &
 tt2
 !
+=
 =
 RIGHT_CURLY
 &
@@ -7390,6 +7440,7 @@ RIGHT_CURLY
 tt
 !
 =
+=
 YIELD
 |
 |
@@ -7397,11 +7448,13 @@ YIELD
 tt2
 !
 =
+=
 tt
 &
 &
 tt2
 !
+=
 =
 RIGHT_BRACKET
 &
@@ -7409,17 +7462,20 @@ RIGHT_BRACKET
 tt2
 !
 =
+=
 RIGHT_PAREN
 &
 &
 tt2
 !
 =
+=
 COLON
 &
 &
 tt2
 !
+=
 =
 COMMA
 )
@@ -7429,6 +7485,7 @@ COMMA
 if
 (
 tt
+=
 =
 =
 RETURN
@@ -7477,6 +7534,7 @@ if
 tt
 =
 =
+=
 RETURN
 )
 {
@@ -7523,6 +7581,7 @@ value
 if
 (
 tt
+=
 =
 =
 RETURN
@@ -7781,6 +7840,7 @@ if
 tt
 !
 =
+=
 LEFT_CURLY
 )
 t
@@ -7853,6 +7913,7 @@ if
 (
 tt
 !
+=
 =
 LEFT_CURLY
 )
@@ -8431,6 +8492,7 @@ if
 tt
 =
 =
+=
 LEFT_CURLY
 )
 t
@@ -8459,6 +8521,7 @@ functionForm
 if
 (
 functionForm
+=
 =
 =
 DECLARED_FORM
@@ -8709,6 +8772,7 @@ if
 i
 =
 =
+=
 0
 )
 {
@@ -8828,10 +8892,12 @@ if
 tt
 =
 =
+=
 LEFT_BRACKET
 |
 |
 tt
+=
 =
 =
 LEFT_CURLY
@@ -8910,6 +8976,7 @@ t
 peek
 (
 )
+=
 =
 =
 IN
@@ -9057,6 +9124,7 @@ if
 tt
 !
 =
+=
 IDENTIFIER
 )
 throw
@@ -9093,6 +9161,7 @@ n2
 n
 .
 type
+=
 =
 =
 CONST
@@ -9397,6 +9466,7 @@ peek
 )
 !
 =
+=
 LEFT_CURLY
 )
 {
@@ -9544,6 +9614,7 @@ n
 type
 =
 =
+=
 ARRAY_COMP
 )
 throw
@@ -9569,6 +9640,7 @@ n
 type
 !
 =
+=
 ARRAY_INIT
 &
 &
@@ -9576,6 +9648,7 @@ n
 .
 type
 !
+=
 =
 OBJECT_INIT
 )
@@ -9633,6 +9706,7 @@ nn
 type
 =
 =
+=
 PROPERTY_INIT
 )
 lhs
@@ -9667,12 +9741,14 @@ rhs
 type
 =
 =
+=
 ARRAY_INIT
 |
 |
 rhs
 .
 type
+=
 =
 =
 OBJECT_INIT
@@ -9710,6 +9786,7 @@ lhs
 .
 type
 !
+=
 =
 IDENTIFIER
 )
@@ -9994,6 +10071,7 @@ t
 token
 .
 value
+=
 =
 =
 "
@@ -10380,6 +10458,7 @@ n
 type
 =
 =
+=
 YIELD
 &
 &
@@ -10405,6 +10484,7 @@ if
 n
 .
 type
+=
 =
 =
 COMMA
@@ -10551,6 +10631,7 @@ if
 n2
 .
 type
+=
 =
 =
 YIELD
@@ -11632,6 +11713,7 @@ GT
 oldLoopInit
 =
 =
+=
 false
 &
 &
@@ -12178,6 +12260,7 @@ lookahead
 lineno
 =
 =
+=
 t
 .
 lineno
@@ -12375,6 +12458,7 @@ get
 )
 )
 !
+=
 =
 END
 )
@@ -12620,6 +12704,7 @@ n2
 type
 =
 =
+=
 YIELD
 &
 &
@@ -12634,6 +12719,7 @@ t
 peek
 (
 )
+=
 =
 =
 COMMA
@@ -12684,6 +12770,7 @@ peek
 (
 true
 )
+=
 =
 =
 COMMA
@@ -12813,12 +12900,14 @@ peek
 )
 !
 =
+=
 RIGHT_BRACKET
 )
 {
 if
 (
 tt
+=
 =
 =
 COMMA
@@ -12860,6 +12949,7 @@ if
 tt
 !
 =
+=
 COMMA
 &
 &
@@ -12899,6 +12989,7 @@ if
 n
 .
 length
+=
 =
 =
 1
@@ -13018,6 +13109,7 @@ token
 value
 =
 =
+=
 "
 get
 "
@@ -13028,6 +13120,7 @@ t
 token
 .
 value
+=
 =
 =
 "
@@ -13041,6 +13134,7 @@ t
 peek
 (
 )
+=
 =
 =
 IDENTIFIER
@@ -13311,6 +13405,7 @@ peek
 )
 !
 =
+=
 COMMA
 &
 &
@@ -13320,6 +13415,7 @@ peek
 (
 )
 !
+=
 =
 RIGHT_CURLY
 )

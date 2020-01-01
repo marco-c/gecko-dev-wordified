@@ -693,6 +693,7 @@ true
 )
 =
 =
+=
 END
 ;
 }
@@ -727,6 +728,7 @@ get
 (
 scanOperand
 )
+=
 =
 =
 tt
@@ -830,6 +832,7 @@ next
 .
 lineno
 !
+=
 =
 this
 .
@@ -2842,6 +2845,7 @@ token
 type
 !
 =
+=
 NEWLINE
 |
 |
@@ -3261,6 +3265,7 @@ if
 this
 .
 lookahead
+=
 =
 =
 4
