@@ -10284,13 +10284,13 @@ else
 nullBehavior
 =
 "
-eDefaultNullBehavior
+eStringify
 "
             
 undefinedBehavior
 =
 "
-eDefaultUndefinedBehavior
+eStringify
 "
         
 return
