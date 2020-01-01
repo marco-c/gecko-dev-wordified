@@ -850,7 +850,7 @@ true
 )
 rangeAnalysis
 (
-false
+true
 )
 parallelCompilation
 (
