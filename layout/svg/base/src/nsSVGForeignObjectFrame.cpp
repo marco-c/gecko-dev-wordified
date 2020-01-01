@@ -2766,9 +2766,9 @@ s
 no
 need
 .
-if
-(
-!
+PRBool
+reflowing
+;
 PresContext
 (
 )
@@ -2781,7 +2781,14 @@ PresShell
 >
 IsReflowLocked
 (
+&
+reflowing
 )
+;
+if
+(
+!
+reflowing
 )
 {
 UpdateGraphic

@@ -9056,12 +9056,16 @@ nsRefPtr
 nsCaret
 >
 caretP
-=
+;
 ps
 -
 >
 GetCaret
 (
+getter_AddRefs
+(
+caretP
+)
 )
 ;
 /
