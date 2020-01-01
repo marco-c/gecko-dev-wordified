@@ -3294,7 +3294,9 @@ OS
 .
 File
 .
-curDir
+getCurrentDirectory
+(
+)
 ;
 ok
 (
@@ -5486,7 +5488,9 @@ OS
 .
 File
 .
-curDir
+getCurrentDirectory
+(
+)
 )
 ;
 ok
