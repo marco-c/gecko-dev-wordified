@@ -7521,6 +7521,7 @@ newLengthInChars
 if
 (
 !
+*
 aStuffToPaste
 )
 {
