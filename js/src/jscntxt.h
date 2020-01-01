@@ -1068,6 +1068,9 @@ vmfragments
 FRAGMENT_TABLE_SIZE
 ]
 ;
+JSDHashTable
+recordAttempts
+;
 /
 *
 *
