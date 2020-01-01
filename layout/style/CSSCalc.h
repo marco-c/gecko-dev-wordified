@@ -1613,9 +1613,6 @@ aOps
 Append
 (
 "
--
-moz
--
 calc
 (
 "

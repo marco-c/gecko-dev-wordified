@@ -7396,9 +7396,6 @@ result
 AppendLiteral
 (
 "
--
-moz
--
 calc
 (
 "
