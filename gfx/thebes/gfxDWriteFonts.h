@@ -703,6 +703,17 @@ aSizes
 )
 const
 ;
+virtual
+FontType
+GetType
+(
+)
+const
+{
+return
+FONT_TYPE_DWRITE
+;
+}
 protected
 :
 friend

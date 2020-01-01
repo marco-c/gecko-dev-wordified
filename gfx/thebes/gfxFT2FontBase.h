@@ -638,6 +638,17 @@ gfxContext
 aContext
 )
 ;
+virtual
+FontType
+GetType
+(
+)
+const
+{
+return
+FONT_TYPE_FT2
+;
+}
 protected
 :
 PRUint32
