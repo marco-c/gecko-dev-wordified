@@ -6850,7 +6850,7 @@ lineno
 PRInt32
 buttonPressed
 =
-1
+0
 ;
 /
 /
@@ -6870,6 +6870,11 @@ PR_FALSE
 PRUint32
 buttonFlags
 =
+nsIPrompt
+:
+:
+BUTTON_POS_1_DEFAULT
++
 (
 nsIPrompt
 :
@@ -6956,8 +6961,8 @@ ConfirmEx
 title
 msg
 buttonFlags
-stopButton
 waitButton
+stopButton
 debugButton
 neverShowDlg
 &
@@ -6986,7 +6991,7 @@ rv
 buttonPressed
 =
 =
-1
+0
 )
 )
 {
