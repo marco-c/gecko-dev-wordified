@@ -6187,9 +6187,6 @@ ToNearestPixels
 appUnitsPerDevPixel
 )
 ;
-bool
-snap
-;
 nsRegion
 visibleRegion
 ;
@@ -6199,11 +6196,9 @@ And
 (
 *
 aVisibleRegion
-GetBounds
+GetClippedBounds
 (
 aBuilder
-&
-snap
 )
 )
 ;
