@@ -27626,6 +27626,13 @@ aType
 Flush_OnlyReflow
 )
 {
+mFrameConstructor
+-
+>
+RecalcQuotesAndCounters
+(
+)
+;
 ProcessReflowCommands
 (
 PR_FALSE

@@ -865,6 +865,11 @@ EndUpdate
 )
 ;
 void
+RecalcQuotesAndCounters
+(
+)
+;
+void
 WillDestroyFrameTree
 (
 )
