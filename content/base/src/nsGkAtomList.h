@@ -5149,6 +5149,13 @@ ontext
 )
 GK_ATOM
 (
+ontransitionend
+"
+ontransitionend
+"
+)
+GK_ATOM
+(
 onunderflow
 "
 onunderflow
