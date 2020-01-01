@@ -273,10 +273,6 @@ aUseDB
 const
 bool
 &
-aCanUseChromePersist
-const
-bool
-&
 aSessionOnly
 const
 bool
@@ -290,10 +286,6 @@ const
 nsCString
 &
 aScopeDBKey
-const
-nsCString
-&
-aQuotaDomainDBKey
 const
 nsCString
 &
@@ -310,12 +302,10 @@ mStorage
 InitFromChild
 (
 aUseDB
-aCanUseChromePersist
 aSessionOnly
 aPrivate
 aDomain
 aScopeDBKey
-aQuotaDomainDBKey
 aQuotaETLDplus1DomainDBKey
 aStorageType
 )

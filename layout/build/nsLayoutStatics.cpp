@@ -444,6 +444,13 @@ Navigator
 h
 "
 #
+include
+"
+nsDOMStorageBaseDB
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1349,6 +1356,13 @@ nsPermissionManager
 :
 :
 AppUninstallObserverInit
+(
+)
+;
+nsDOMStorageBaseDB
+:
+:
+Init
 (
 )
 ;
