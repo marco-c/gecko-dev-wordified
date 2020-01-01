@@ -525,7 +525,7 @@ time
 )
 |
 |
-abs
+fabs
 (
 time
 )
