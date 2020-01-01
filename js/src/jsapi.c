@@ -6021,6 +6021,14 @@ JSVERSION_1_7
 "
 }
 {
+JSVERSION_1_8
+"
+1
+.
+8
+"
+}
+{
 JSVERSION_DEFAULT
 js_default_str
 }

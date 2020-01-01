@@ -19566,6 +19566,17 @@ JSVERSION_1_7
 ;
 break
 ;
+case
+'
+8
+'
+:
+jsVersion
+=
+JSVERSION_1_8
+;
+break
+;
 default
 :
 jsVersion
