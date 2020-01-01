@@ -7821,6 +7821,10 @@ loading
 as
 data
 }
+mMayStartLayout
+=
+PR_FALSE
+;
 if
 (
 aReset
