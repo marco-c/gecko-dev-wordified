@@ -5712,6 +5712,16 @@ GetRect
 (
 )
 ;
+nsRect
+origOverflowRect
+=
+firstKid
+-
+>
+GetOverflowRect
+(
+)
+;
 PRBool
 firstReflow
 =
@@ -5908,6 +5918,7 @@ InvalidateFrame
 (
 firstKid
 origRect
+origOverflowRect
 firstReflow
 )
 ;
