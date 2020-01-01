@@ -1203,10 +1203,7 @@ aDevicePath
 0
 ;
 virtual
-nsTArray
-<
-uint32_t
->
+bool
 AddReservedServicesInternal
 (
 const
@@ -1220,6 +1217,12 @@ uint32_t
 >
 &
 aServices
+nsTArray
+<
+uint32_t
+>
+&
+aServiceHandlesContainer
 )
 =
 0
