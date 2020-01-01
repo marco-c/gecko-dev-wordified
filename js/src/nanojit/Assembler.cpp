@@ -4552,6 +4552,9 @@ Assembler
 :
 beginAssembly
 (
+Fragment
+*
+frag
 RegAllocMap
 *
 branchStateMap
@@ -4578,6 +4581,10 @@ highwatermark
 _activation
 .
 tos
+;
+_thisfrag
+=
+frag
 ;
 counter_reset
 (
