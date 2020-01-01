@@ -940,6 +940,12 @@ int
 height
 )
 ;
+static
+float
+ComputeRenderIntegrity
+(
+)
+;
 virtual
 bool
 WidgetPaintsBackground
