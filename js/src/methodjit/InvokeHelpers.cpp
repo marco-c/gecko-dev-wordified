@@ -3182,7 +3182,7 @@ ucr
 fun
 -
 >
-isInterpreted
+isInterpretedConstructor
 (
 )
 )
