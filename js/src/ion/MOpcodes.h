@@ -850,6 +850,11 @@ StoreElementHole
 \
 _
 (
+ArrayPopShift
+)
+\
+_
+(
 LoadTypedArrayElement
 )
 \

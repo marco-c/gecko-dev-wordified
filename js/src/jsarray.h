@@ -1297,6 +1297,15 @@ vp
 )
 ;
 extern
+void
+ArrayShiftMoveElements
+(
+JSObject
+*
+obj
+)
+;
+extern
 JSBool
 array_shift
 (
