@@ -532,6 +532,12 @@ optional_argc
 )
 ;
 }
+using
+nsDOMEventTargetHelper
+:
+:
+AddEventListener
+;
 virtual
 nsIScriptObjectPrincipal
 *
