@@ -689,6 +689,14 @@ lir
 )
 ;
 bool
+visitPostWriteBarrierAllSlots
+(
+LPostWriteBarrierAllSlots
+*
+lir
+)
+;
+bool
 visitOutOfLineCallPostWriteBarrier
 (
 OutOfLineCallPostWriteBarrier
