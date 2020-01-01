@@ -9047,11 +9047,15 @@ cx
 fp
 -
 >
-script
+maybeScript
+(
+)
 fp
 -
 >
-fun
+maybeFunction
+(
+)
 fp
 -
 >

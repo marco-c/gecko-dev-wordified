@@ -660,7 +660,9 @@ f
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 mics
@@ -677,7 +679,9 @@ f
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 getAtom
@@ -1022,7 +1026,9 @@ f
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 getAtom
@@ -1147,7 +1153,9 @@ f
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 mics
@@ -1164,7 +1172,9 @@ f
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 getAtom

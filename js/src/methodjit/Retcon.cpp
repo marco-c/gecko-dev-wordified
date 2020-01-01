@@ -955,7 +955,9 @@ fp
 )
 -
 >
-script
+maybeScript
+(
+)
 =
 =
 script
@@ -1202,7 +1204,9 @@ script
 firstFrame
 -
 >
-fun
+getFunction
+(
+)
 firstFrame
 -
 >

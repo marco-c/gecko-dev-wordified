@@ -792,7 +792,9 @@ fp
 )
 -
 >
-script
+maybeScript
+(
+)
 =
 =
 script

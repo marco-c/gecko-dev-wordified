@@ -815,8 +815,6 @@ call
 pc
 *
 /
-public
-:
 JSScript
 *
 script
@@ -993,6 +991,8 @@ or
 null
 *
 /
+public
+:
 uintN
 argc
 ;
@@ -1019,6 +1019,8 @@ stack
 slots
 *
 /
+private
+:
 js
 :
 :
@@ -1032,8 +1034,6 @@ return
 value
 *
 /
-private
-:
 void
 *
 annotation
@@ -2474,6 +2474,20 @@ v
 thisv
 =
 v
+;
+}
+static
+size_t
+offsetThisValue
+(
+)
+{
+return
+offsetof
+(
+JSStackFrame
+thisv
+)
 ;
 }
 /
