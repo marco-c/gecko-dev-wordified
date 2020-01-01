@@ -8915,18 +8915,6 @@ appUnitsPerPixel
 )
 )
 ;
-dirtyRectGfx
-.
-Round
-(
-)
-;
-dirtyRectGfx
-.
-Condition
-(
-)
-;
 if
 (
 dirtyRectGfx
@@ -9210,6 +9198,7 @@ ctx
 Rectangle
 (
 dirtyRectGfx
+PR_TRUE
 )
 ;
 ctx
@@ -9322,6 +9311,7 @@ ctx
 Rectangle
 (
 dirtyRectGfx
+PR_TRUE
 )
 ;
 ctx
@@ -10018,6 +10008,7 @@ ctx
 Rectangle
 (
 dirtyRectGfx
+PR_TRUE
 )
 ;
 ctx
