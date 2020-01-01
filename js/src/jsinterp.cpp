@@ -10333,6 +10333,10 @@ js_Interpret
 cx
 )
 ;
+if
+(
+result
+)
 *
 result
 =
