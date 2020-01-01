@@ -109,6 +109,16 @@ not
 implemented
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+/
+/
 testGet
 (
 )

@@ -185,6 +185,16 @@ correct
 exception
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+/
+/
 buildComprehension
 (
 )

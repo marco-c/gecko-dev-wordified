@@ -263,6 +263,14 @@ argument
 types
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScatterThrows
 (
 )

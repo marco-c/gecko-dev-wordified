@@ -112,6 +112,16 @@ internal
 properties
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+/
+/
 buildWithHoles
 (
 )

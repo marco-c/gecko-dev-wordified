@@ -67,6 +67,14 @@ r
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testReduceOne
 (
 )

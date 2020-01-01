@@ -112,6 +112,14 @@ a
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testCopyBigArray
 (
 )

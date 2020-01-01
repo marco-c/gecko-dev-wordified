@@ -210,6 +210,14 @@ bail
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 buildSimple
 (
 )

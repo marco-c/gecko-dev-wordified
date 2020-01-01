@@ -17,6 +17,14 @@ not
 enforced
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 assertEq
 (
 Object

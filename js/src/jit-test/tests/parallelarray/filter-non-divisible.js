@@ -49,6 +49,14 @@ divisible
 by
 32
 :
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testFilter
 (
 range

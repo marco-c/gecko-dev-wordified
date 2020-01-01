@@ -375,6 +375,14 @@ b
 =
 1
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testClosureCreationAndInvocation
 (
 )

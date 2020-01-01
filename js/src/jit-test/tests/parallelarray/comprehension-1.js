@@ -64,6 +64,14 @@ a
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 buildComprehension
 (
 )

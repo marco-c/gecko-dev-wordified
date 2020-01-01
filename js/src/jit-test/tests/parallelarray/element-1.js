@@ -98,6 +98,14 @@ undefined
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testElement
 (
 )

@@ -89,6 +89,14 @@ true
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScan
 (
 )

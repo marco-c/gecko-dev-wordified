@@ -87,6 +87,14 @@ disqualified
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testMap
 (
 )

@@ -192,6 +192,17 @@ of
 this
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
+/
+/
 test
 (
 ParallelArray
@@ -234,3 +245,6 @@ test
 undefined
 )
 ;
+/
+/
+}

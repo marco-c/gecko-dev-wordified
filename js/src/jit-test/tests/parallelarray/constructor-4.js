@@ -119,6 +119,16 @@ internal
 properties
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+/
+/
 buildPA
 (
 )

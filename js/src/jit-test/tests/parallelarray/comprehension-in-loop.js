@@ -108,6 +108,14 @@ pa2
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 buildComprehension
 (
 )

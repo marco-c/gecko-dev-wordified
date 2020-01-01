@@ -135,6 +135,14 @@ not
 implemented
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testEquals
 (
 )

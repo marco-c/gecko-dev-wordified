@@ -68,6 +68,14 @@ timeout
 1
 )
 ;
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 new
 ParallelArray
 (
@@ -75,5 +83,11 @@ ParallelArray
 2048
 ]
 iterate
+)
+;
+else
+while
+(
+true
 )
 ;

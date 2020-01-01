@@ -399,6 +399,14 @@ expect
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testDivideScatterVector
 (
 )

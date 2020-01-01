@@ -433,6 +433,14 @@ internal
 properties
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 test
 (
 )

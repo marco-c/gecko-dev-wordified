@@ -105,6 +105,14 @@ argument
 types
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScanThrows
 (
 )

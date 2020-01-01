@@ -127,6 +127,10 @@ not
 implemented
 /
 /
+if
+(
+parallelEnabled
+)
 testInfer
 (
 )

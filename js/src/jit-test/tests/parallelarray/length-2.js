@@ -80,6 +80,14 @@ shape
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testLength
 (
 )

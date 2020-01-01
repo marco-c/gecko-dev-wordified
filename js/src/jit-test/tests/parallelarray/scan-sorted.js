@@ -251,6 +251,14 @@ scanned2
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 test
 (
 )

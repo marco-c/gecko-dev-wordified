@@ -62,6 +62,16 @@ internal
 properties
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+/
+/
 testEnumerate
 (
 )

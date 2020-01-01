@@ -86,6 +86,14 @@ e
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 buildArrayLike
 (
 )

@@ -217,6 +217,14 @@ ParallelArray
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testElement
 (
 )

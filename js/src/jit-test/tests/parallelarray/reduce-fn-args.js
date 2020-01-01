@@ -108,6 +108,14 @@ true
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testReduce
 (
 )

@@ -410,6 +410,14 @@ v
 =
 21
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testClosureCreationAndInvocation
 (
 )

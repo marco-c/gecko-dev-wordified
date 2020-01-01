@@ -84,6 +84,14 @@ not
 enforced
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testShape
 (
 )

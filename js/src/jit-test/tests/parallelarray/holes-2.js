@@ -201,6 +201,16 @@ internal
 properties
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+/
+/
 testElement
 (
 )

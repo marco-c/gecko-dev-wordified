@@ -256,6 +256,16 @@ not
 implemented
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+/
+/
 testFlatten
 (
 )

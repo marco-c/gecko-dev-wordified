@@ -100,6 +100,14 @@ length
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScatter
 (
 )

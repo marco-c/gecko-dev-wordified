@@ -195,6 +195,14 @@ seqResult
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testReduce
 (
 )

@@ -332,6 +332,14 @@ we
 get
 correct
 result
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 assertParallelArrayModesEq
 (
 [

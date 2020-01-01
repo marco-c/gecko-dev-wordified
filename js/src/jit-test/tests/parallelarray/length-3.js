@@ -59,6 +59,16 @@ not
 enforced
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+/
+/
 testLength
 (
 )

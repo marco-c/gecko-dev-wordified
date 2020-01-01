@@ -100,6 +100,14 @@ disqualified
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 test
 (
 )

@@ -148,6 +148,14 @@ i
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScan
 (
 )
