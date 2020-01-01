@@ -2576,7 +2576,6 @@ nsRect
 aRange
 )
 ;
-static
 nsRect
 ExpandRect
 (
@@ -2585,6 +2584,7 @@ nsRect
 &
 aRect
 )
+const
 ;
 static
 void
