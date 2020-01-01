@@ -615,6 +615,10 @@ mEverUsedSpdy
 (
 false
 )
+mLastHttpResponseVersion
+(
+NS_HTTP_VERSION_1_1
+)
 mTransactionCaps
 (
 0
@@ -6071,6 +6075,15 @@ upgradeResp
 ;
 }
 }
+mLastHttpResponseVersion
+=
+responseHead
+-
+>
+Version
+(
+)
+;
 return
 NS_OK
 ;
