@@ -6862,6 +6862,10 @@ IsDefunct
 nsnull
 :
 mParent
+.
+get
+(
+)
 ;
 }
 /
