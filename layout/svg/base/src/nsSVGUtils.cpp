@@ -4847,7 +4847,7 @@ only
 be
 called
 under
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 which
 /
