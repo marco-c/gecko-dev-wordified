@@ -98,7 +98,7 @@ gDebugger
 =
 gPane
 .
-panelWin
+contentWindow
 ;
 testEvalCallResume
 (

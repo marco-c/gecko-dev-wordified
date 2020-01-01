@@ -112,7 +112,7 @@ gDebugger
 =
 gPane
 .
-panelWin
+contentWindow
 ;
 testSimpleCall
 (

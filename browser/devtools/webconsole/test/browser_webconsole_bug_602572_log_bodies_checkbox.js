@@ -409,6 +409,13 @@ hudReferences
 hudId2
 ]
 ;
+HUDService
+.
+disableAnimation
+(
+hudId2
+)
+;
 if
 (
 runCount
@@ -892,6 +899,13 @@ hudReferences
 [
 hudId1
 ]
+;
+HUDService
+.
+disableAnimation
+(
+hudId1
+)
 ;
 info
 (
