@@ -653,6 +653,14 @@ null
 )
 )
 ;
+GeckoApp
+.
+mAppContext
+.
+handleClearHistory
+(
+)
+;
 }
 }
 )
