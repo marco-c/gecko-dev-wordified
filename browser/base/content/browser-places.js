@@ -1550,6 +1550,17 @@ starIcon
 )
 )
 {
+var
+dockTo
+=
+starIcon
+.
+parentNode
+;
+/
+/
+urlbar
+endcap
 this
 .
 bookmarkPage
@@ -1561,7 +1572,7 @@ getBrowser
 selectedBrowser
 aParent
 aShowEditUI
-starIcon
+dockTo
 "
 after_start
 "
