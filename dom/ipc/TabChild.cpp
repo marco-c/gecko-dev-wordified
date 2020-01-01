@@ -825,7 +825,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -2502,7 +2502,7 @@ DestroyCx
 )
 ;
 }
-nsIEventListenerManager
+nsEventListenerManager
 *
 elm
 =
@@ -3834,7 +3834,7 @@ ReceiveMessage
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -4341,7 +4341,7 @@ scopeSupports
 =
 NS_ISUPPORTS_CAST
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 scope
 )

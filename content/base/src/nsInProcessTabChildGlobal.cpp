@@ -1746,7 +1746,7 @@ scopeSupports
 =
 NS_ISUPPORTS_CAST
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 this
 )
