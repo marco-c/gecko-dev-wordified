@@ -1066,6 +1066,9 @@ public
 void
 markGlobalSlotUndemotable
 (
+JSScript
+*
+script
 unsigned
 slot
 )
@@ -1073,6 +1076,9 @@ slot
 bool
 isGlobalSlotUndemotable
 (
+JSScript
+*
+script
 unsigned
 slot
 )
