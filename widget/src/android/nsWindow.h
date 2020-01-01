@@ -1116,6 +1116,12 @@ OnIMESelectionChange
 void
 )
 ;
+virtual
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+;
 LayerManager
 *
 GetLayerManager
