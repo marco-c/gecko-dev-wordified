@@ -2155,15 +2155,9 @@ forward
 =
 wantGetter
 ?
-Jsvalify
-(
 js_obj_defineGetter
-)
 :
-Jsvalify
-(
 js_obj_defineSetter
-)
 ;
 jsval
 idval

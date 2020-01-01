@@ -16759,9 +16759,10 @@ n
 long
 long
 )
-JSVAL_BITS
-(
 val
+.
+asRawBits
+(
 )
 )
 ;

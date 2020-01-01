@@ -1107,7 +1107,10 @@ Variant_base
 :
 GetAsJSVal
 (
-jsval
+JS
+:
+:
+Value
 *
 )
 {

@@ -7135,12 +7135,10 @@ key
 uint64
 bits
 =
-JSVAL_BITS
-(
-Jsvalify
-(
 key
-)
+.
+asRawBits
+(
 )
 ;
 return

@@ -453,6 +453,13 @@ String_h_
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jscell
 .
 h

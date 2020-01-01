@@ -462,6 +462,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 /
 *
 *
