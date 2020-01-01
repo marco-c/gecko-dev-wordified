@@ -5032,8 +5032,6 @@ GetHrefURIForAnchors
 )
 const
 ;
-private
-:
 /
 *
 *
@@ -5138,6 +5136,8 @@ IsEditableRoot
 )
 const
 ;
+private
+:
 void
 ChangeEditableState
 (
