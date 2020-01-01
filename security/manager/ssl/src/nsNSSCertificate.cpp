@@ -608,6 +608,13 @@ h
 #
 include
 "
+nsTime
+.
+h
+"
+#
+include
+"
 nsIProxyObjectManager
 .
 h
