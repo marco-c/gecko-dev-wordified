@@ -2603,9 +2603,7 @@ title
 :
 aBrowser
 .
-contentDocument
-.
-title
+contentTitle
 }
 ;
 aBrowser

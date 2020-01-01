@@ -1904,9 +1904,7 @@ Browser
 .
 selectedBrowser
 .
-contentDocument
-.
-title
+contentTitle
 |
 |
 url
