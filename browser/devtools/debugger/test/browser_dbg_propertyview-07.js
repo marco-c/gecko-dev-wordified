@@ -318,10 +318,7 @@ value
 "
 )
 "
-[
-object
 Window
-]
 "
 "
 Should
@@ -360,10 +357,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 Should
@@ -638,10 +632,7 @@ value
 "
 )
 "
-[
-object
 Arguments
-]
 "
 "
 Should
@@ -680,10 +671,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 Should
@@ -722,10 +710,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 Should

@@ -403,10 +403,7 @@ Test
 b
 "
 "
-[
-object
 Object
-]
 "
 )
 ;
@@ -419,10 +416,7 @@ a
 }
 "
 "
-[
-object
 Object
-]
 "
 )
 ;

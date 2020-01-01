@@ -352,10 +352,7 @@ value
 "
 )
 "
-[
-object
 Window
-]
 "
 "
 The

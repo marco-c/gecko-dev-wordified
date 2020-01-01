@@ -200,10 +200,7 @@ querySelectorAll
 value
 :
 "
-[
-object
 Function
-]
 "
 }
 {
@@ -215,10 +212,7 @@ location
 value
 :
 "
-[
-object
 Location
-]
 "
 }
 {
@@ -232,10 +226,7 @@ write
 value
 :
 "
-[
-object
 Function
-]
 "
 }
 ]

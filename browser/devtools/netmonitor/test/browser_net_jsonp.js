@@ -814,10 +814,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 The

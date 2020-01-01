@@ -1355,10 +1355,7 @@ value
 "
 )
 "
-[
-object
 Window
-]
 "
 "
 The
@@ -1397,10 +1394,7 @@ value
 "
 )
 "
-[
-object
 HTMLDocument
-]
 "
 "
 The
@@ -1638,10 +1632,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 The
@@ -1921,10 +1912,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 The
@@ -2347,10 +2335,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 The

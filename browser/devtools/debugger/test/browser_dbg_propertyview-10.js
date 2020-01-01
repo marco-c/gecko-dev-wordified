@@ -592,10 +592,7 @@ value
 "
 )
 "
-[
-object
 HTMLDocument
-]
 "
 "
 Should
@@ -682,10 +679,7 @@ value
 "
 )
 "
-[
-object
 Window
-]
 "
 "
 Should

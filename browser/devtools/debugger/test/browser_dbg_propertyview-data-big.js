@@ -437,10 +437,7 @@ value
 "
 )
 "
-[
-object
 ArrayBuffer
-]
 "
 "
 Should
@@ -518,10 +515,7 @@ value
 "
 )
 "
-[
-object
 Int8Array
-]
 "
 "
 Should
