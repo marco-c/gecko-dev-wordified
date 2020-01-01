@@ -1849,11 +1849,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-*
-aWindowIsNew
-=
-PR_TRUE
-;
 nsCOMPtr
 <
 nsIDOMWindow
