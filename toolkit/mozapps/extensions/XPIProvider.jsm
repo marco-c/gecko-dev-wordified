@@ -14173,7 +14173,7 @@ id
 aAddon
 .
 type
-true
+needsRestart
 )
 ;
 }
