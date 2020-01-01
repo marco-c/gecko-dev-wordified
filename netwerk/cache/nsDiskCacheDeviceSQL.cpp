@@ -9316,6 +9316,11 @@ nsnull
 ;
 NS_ENSURE_TRUE
 (
+!
+offset
+|
+|
+(
 offset
 <
 entry
@@ -9323,6 +9328,7 @@ entry
 >
 DataSize
 (
+)
 )
 NS_ERROR_INVALID_ARG
 )
