@@ -45254,7 +45254,10 @@ global
 >
 getReservedSlot
 (
+JS_GLOBAL_CTOR_SLOT
+(
 JSProto_AnyName
+)
 )
 ;
 if
@@ -45354,7 +45357,10 @@ js_SetReservedSlot
 (
 cx
 global
+JS_GLOBAL_CTOR_SLOT
+(
 JSProto_AnyName
+)
 v
 )
 )
