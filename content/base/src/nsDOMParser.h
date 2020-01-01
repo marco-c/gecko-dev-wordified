@@ -627,6 +627,12 @@ mPrincipal
 ;
 nsCOMPtr
 <
+nsIPrincipal
+>
+mOriginalPrincipal
+;
+nsCOMPtr
+<
 nsIURI
 >
 mDocumentURI
