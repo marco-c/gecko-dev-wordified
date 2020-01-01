@@ -1879,6 +1879,15 @@ true
 ;
 }
 get
+isPlatformCompatible
+(
+)
+{
+return
+true
+;
+}
+get
 providesUpdatesSecurely
 (
 )
