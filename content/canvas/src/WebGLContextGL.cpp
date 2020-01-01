@@ -20718,6 +20718,9 @@ ErrorInvalidValue
 VertexAttribPointer
 :
 negative
+or
+too
+large
 stride
 "
 )
@@ -20747,7 +20750,7 @@ requiredAlignmentMask
 )
 {
 return
-ErrorInvalidValue
+ErrorInvalidOperation
 (
 "
 VertexAttribPointer
@@ -20777,7 +20780,7 @@ requiredAlignmentMask
 )
 {
 return
-ErrorInvalidValue
+ErrorInvalidOperation
 (
 "
 VertexAttribPointer
