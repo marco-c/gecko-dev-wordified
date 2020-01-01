@@ -515,9 +515,6 @@ class
 nsIAtom
 ;
 class
-nsICSSImportRule
-;
-class
 nsICSSLoaderObserver
 ;
 class
@@ -833,6 +830,9 @@ css
 {
 class
 SheetLoadData
+;
+class
+ImportRule
 ;
 /
 *
@@ -1718,7 +1718,7 @@ aURL
 nsMediaList
 *
 aMedia
-nsICSSImportRule
+ImportRule
 *
 aRule
 )
@@ -2979,7 +2979,7 @@ aSheet
 nsCSSStyleSheet
 *
 aParentSheet
-nsICSSImportRule
+ImportRule
 *
 aParentRule
 )

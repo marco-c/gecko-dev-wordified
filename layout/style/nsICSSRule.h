@@ -474,6 +474,9 @@ T
 struct
 already_AddRefed
 ;
+class
+nsIStyleSheet
+;
 /
 /
 IID

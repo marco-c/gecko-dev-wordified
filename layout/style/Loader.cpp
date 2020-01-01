@@ -755,7 +755,11 @@ h
 #
 include
 "
-nsICSSImportRule
+mozilla
+/
+css
+/
+ImportRule
 .
 h
 "
@@ -810,13 +814,6 @@ h
 include
 "
 nsIDOMCSSStyleSheet
-.
-h
-"
-#
-include
-"
-nsIDOMCSSImportRule
 .
 h
 "
@@ -8812,7 +8809,7 @@ aSheet
 nsCSSStyleSheet
 *
 aParentSheet
-nsICSSImportRule
+ImportRule
 *
 aParentRule
 )
@@ -13154,7 +13151,7 @@ aURL
 nsMediaList
 *
 aMedia
-nsICSSImportRule
+ImportRule
 *
 aParentRule
 )
