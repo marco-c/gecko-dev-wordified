@@ -1,5 +1,3 @@
-import
-WebIDL
 def
 WebIDLTest
 (
@@ -247,9 +245,9 @@ parser
     
 parser
 =
-WebIDL
+parser
 .
-Parser
+reset
 (
 )
     
@@ -331,9 +329,9 @@ again
     
 parser
 =
-WebIDL
+parser
 .
-Parser
+reset
 (
 )
     
@@ -440,9 +438,9 @@ reset
     
 parser
 =
-WebIDL
+parser
 .
-Parser
+reset
 (
 )
     
@@ -525,9 +523,9 @@ reset
     
 parser
 =
-WebIDL
+parser
 .
-Parser
+reset
 (
 )
     
