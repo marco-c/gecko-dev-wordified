@@ -771,11 +771,6 @@ Updated
 (
 )
 {
-if
-(
-mNeedsUpdate
-)
-{
 mForwarder
 -
 >
@@ -791,11 +786,6 @@ GetDescriptor
 )
 )
 ;
-mNeedsUpdate
-=
-false
-;
-}
 }
 DeprecatedCanvasClientSurfaceStream
 :
@@ -813,10 +803,6 @@ CanvasClient
 (
 aFwd
 aFlags
-)
-mNeedsUpdate
-(
-false
 )
 {
 mTextureInfo
@@ -1090,10 +1076,6 @@ false
 ;
 #
 endif
-mNeedsUpdate
-=
-true
-;
 }
 else
 {
@@ -1198,10 +1180,6 @@ mGLContext
 AddRef
 (
 )
-;
-mNeedsUpdate
-=
-true
 ;
 }
 }

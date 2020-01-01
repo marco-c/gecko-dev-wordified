@@ -599,9 +599,6 @@ DeprecatedTextureClient
 >
 mDeprecatedTextureClient
 ;
-bool
-mNeedsUpdate
-;
 }
 ;
 }
