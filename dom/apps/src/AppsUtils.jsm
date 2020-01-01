@@ -1492,7 +1492,7 @@ chrome
 getSelectedLocale
 (
 "
-browser
+global
 "
 )
 .
