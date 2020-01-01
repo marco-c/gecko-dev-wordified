@@ -3484,6 +3484,8 @@ public
 String
 showFilePicker
 (
+String
+aMimeType
 )
 {
 Intent
@@ -3510,11 +3512,7 @@ intent
 .
 setType
 (
-"
-*
-/
-*
-"
+aMimeType
 )
 ;
 GeckoApp
