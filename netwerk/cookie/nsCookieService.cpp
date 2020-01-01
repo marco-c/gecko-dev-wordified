@@ -4065,9 +4065,6 @@ mozIStorageResultSet
 aResult
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 mozIStorageRow
@@ -4079,6 +4076,10 @@ while
 1
 )
 {
+DebugOnly
+<
+nsresult
+>
 rv
 =
 aResult
@@ -10837,7 +10838,10 @@ t
 try
 again
 .
+DebugOnly
+<
 nsresult
+>
 rv
 =
 stmt
@@ -14485,7 +14489,10 @@ value
 host
 path
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 aRow
@@ -15121,9 +15128,6 @@ Cancel
 (
 )
 ;
-mozilla
-:
-:
 DebugOnly
 <
 nsresult
@@ -19225,7 +19229,10 @@ if
 length
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 stmt
@@ -27173,7 +27180,10 @@ if
 length
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 stmt
@@ -29924,7 +29934,10 @@ if
 aParamsArray
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 stmt
@@ -30076,7 +30089,10 @@ Bind
 our
 parameters
 .
+DebugOnly
+<
 nsresult
+>
 rv
 =
 params
