@@ -13045,7 +13045,7 @@ i
 ;
 if
 (
-this
+aPopup
 .
 _endMarker
 >
@@ -13053,7 +13053,7 @@ _endMarker
 )
 -
 -
-this
+aPopup
 .
 _endMarker
 ;
