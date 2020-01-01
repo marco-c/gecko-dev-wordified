@@ -1063,6 +1063,8 @@ PR_FALSE
 ;
 PRBool
 bIsCollapsed
+=
+PR_FALSE
 ;
 range
 -
