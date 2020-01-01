@@ -5906,7 +5906,7 @@ focused
 .
 scrollIntoView
 (
-true
+false
 )
 ;
 /
