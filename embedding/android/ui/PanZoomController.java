@@ -1807,6 +1807,10 @@ displace
 (
 )
 ;
+updatePosition
+(
+)
+;
 if
 (
 mFlingTimer
