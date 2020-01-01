@@ -874,6 +874,7 @@ mousedown
 contentWindow
 )
 ;
+let
 event
 =
 contentWindow

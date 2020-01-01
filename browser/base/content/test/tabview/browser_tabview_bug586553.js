@@ -614,6 +614,7 @@ onTabMove
 false
 )
 ;
+let
 groupItem
 =
 contentWindow
