@@ -2064,10 +2064,12 @@ if
 (
 prop
 )
-OBJ_DROP_PROPERTY
+obj2
+-
+>
+dropProperty
 (
 cx
-obj2
 prop
 )
 ;

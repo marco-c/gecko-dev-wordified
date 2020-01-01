@@ -5717,7 +5717,10 @@ extra
 root
 for
 *
-OBJ_DEFAULT_VALUE
+obj
+-
+>
+defaultValue
 result
 when
 calling
@@ -5737,10 +5740,12 @@ tvr
 if
 (
 !
-OBJ_DEFAULT_VALUE
+obj
+-
+>
+defaultValue
 (
 cx
-obj
 JSTYPE_NUMBER
 &
 tvr
