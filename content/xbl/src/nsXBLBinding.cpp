@@ -7473,11 +7473,8 @@ mJSClass
 -
 >
 name
+&
 classObject
-.
-address
-(
-)
 )
 )
 {
