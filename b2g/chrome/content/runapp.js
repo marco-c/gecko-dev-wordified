@@ -238,6 +238,11 @@ function
 (
 )
 {
+if
+(
+runAppObj
+)
+{
 Services
 .
 obs
@@ -256,6 +261,7 @@ complete
 '
 )
 ;
+}
 }
 )
 ;
