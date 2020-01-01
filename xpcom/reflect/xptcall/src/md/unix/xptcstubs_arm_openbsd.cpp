@@ -1433,6 +1433,17 @@ __asm__
 \
 n
 \
+.
+text
+\
+n
+\
+.
+align
+2
+\
+n
+\
 SharedStub
 :
 \
