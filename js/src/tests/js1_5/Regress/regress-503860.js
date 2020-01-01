@@ -249,11 +249,10 @@ bug
 497789
 fix
 for
-each
 (
 var
 obj
-in
+of
 arr
 )
 obj

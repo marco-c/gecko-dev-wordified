@@ -78,10 +78,9 @@ function
 ;
 }
 for
-each
 (
 y
-in
+of
 [
 0
 ]
