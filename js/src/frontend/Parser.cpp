@@ -36942,7 +36942,7 @@ pn
 pn_xflags
 |
 =
-PNX_HOLEY
+PNX_SPECIALARRAYINIT
 |
 PNX_NONCONST
 ;
@@ -37047,6 +37047,14 @@ if
 spreadNode
 )
 {
+pn
+-
+>
+pn_xflags
+|
+=
+PNX_SPECIALARRAYINIT
+;
 spreadNode
 -
 >
