@@ -8914,6 +8914,7 @@ characters
 .
 *
 *
+pre
 aPrincipal
 /
 aOrigin
@@ -8921,6 +8922,18 @@ must
 not
 be
 null
+.
+*
+*
+note
+this
+should
+be
+used
+for
+HTML5
+origin
+determination
 .
 *
 /
