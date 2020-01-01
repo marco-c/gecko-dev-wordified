@@ -6003,7 +6003,7 @@ else
 mWidget
 -
 >
-GetBounds
+GetClientBounds
 (
 rect
 )
@@ -7369,7 +7369,7 @@ else
 mWidget
 -
 >
-GetBounds
+GetClientBounds
 (
 rect
 )
