@@ -599,6 +599,8 @@ mode
 if
 (
 inPrivateBrowsingMode
+(
+)
 &
 &
 !
