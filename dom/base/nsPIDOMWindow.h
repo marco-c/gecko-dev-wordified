@@ -2449,13 +2449,12 @@ on
 outer
 windows
 .
+nsCOMPtr
+<
 nsIDOMElement
-*
+>
 mFrameElement
 ;
-/
-/
-weak
 nsIDocShell
 *
 mDocShell
