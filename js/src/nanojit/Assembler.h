@@ -1064,6 +1064,17 @@ always
 unused
 *
 /
+#
+ifdef
+_DEBUG
+static
+LIns
+*
+const
+BAD_ENTRY
+;
+#
+endif
 bool
 isEmptyRange
 (
@@ -1126,6 +1137,11 @@ entry
 #
 ifdef
 _DEBUG
+void
+validate
+(
+)
+;
 bool
 isValidEntry
 (
@@ -3244,8 +3260,7 @@ in
 4byte
 chunks
 return
-stack_direction
-(
+-
 4
 *
 int32_t
@@ -3255,7 +3270,6 @@ ins
 >
 getArIndex
 (
-)
 )
 )
 ;
