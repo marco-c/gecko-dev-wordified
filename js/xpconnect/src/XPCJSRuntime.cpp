@@ -7730,6 +7730,13 @@ ShutDown
 }
 namespace
 {
+NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
+(
+JsMallocSizeOf
+"
+js
+"
+)
 void
 CompartmentCallback
 (
@@ -7865,7 +7872,7 @@ curr
 -
 >
 typeInferenceMemory
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 curr
@@ -7879,7 +7886,7 @@ js
 GetCompartmentShapeTableSize
 (
 compartment
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 }
@@ -8233,7 +8240,7 @@ js
 GetObjectDynamicSlotSize
 (
 obj
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 break
@@ -8275,7 +8282,7 @@ str
 >
 charsHeapSize
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 break
@@ -8333,7 +8340,7 @@ shape
 >
 sizeOfPropertyTable
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 }
@@ -8358,7 +8365,7 @@ shape
 >
 sizeOfPropertyTable
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 curr
@@ -8372,7 +8379,7 @@ shape
 >
 sizeOfKids
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 }
@@ -8430,7 +8437,7 @@ script
 >
 dataSize
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 #
@@ -8447,7 +8454,7 @@ script
 >
 jitDataSize
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 #
@@ -8500,7 +8507,7 @@ curr
 -
 >
 typeInferenceMemory
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 break
@@ -9810,7 +9817,7 @@ data
 >
 runtimeObject
 =
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 (
 rt
 sizeof
@@ -9859,7 +9866,7 @@ atoms
 .
 sizeOfExcludingThis
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 {
@@ -9944,7 +9951,7 @@ acx
 >
 sizeOfIncludingThis
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 }
@@ -10005,7 +10012,7 @@ thread
 >
 sizeOfIncludingThis
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 &
 normal
 &
@@ -10072,7 +10079,7 @@ xpcrt
 >
 SizeOfIncludingThis
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 data
@@ -10086,7 +10093,7 @@ XPCWrappedNativeScope
 :
 SizeOfAllScopesIncludingThis
 (
-MemoryReporterMallocSizeOf
+JsMallocSizeOf
 )
 ;
 }
