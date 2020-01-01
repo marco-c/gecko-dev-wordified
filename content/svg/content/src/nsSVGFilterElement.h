@@ -457,6 +457,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsSVGLength2
 .
 h
@@ -493,6 +500,8 @@ public
 nsSVGFilterElementBase
 public
 nsIDOMSVGFilterElement
+public
+DOMSVGTests
 public
 nsIDOMSVGURIReference
 public

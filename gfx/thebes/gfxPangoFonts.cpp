@@ -832,7 +832,7 @@ gfx
 .
 printing
 "
-class
+struct
 gfxPangoFcFont
 ;
 /

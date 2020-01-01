@@ -477,13 +477,6 @@ h
 #
 include
 "
-nsSVGFeatures
-.
-h
-"
-#
-include
-"
 gfxMatrix
 .
 h

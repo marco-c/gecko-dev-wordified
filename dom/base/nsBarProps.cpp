@@ -721,7 +721,7 @@ securityManager
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 enabled
@@ -1459,7 +1459,7 @@ securityManager
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 enabled

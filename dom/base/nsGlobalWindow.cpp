@@ -14736,11 +14736,8 @@ IsNull
 nsContentUtils
 :
 :
-IsCallerTrustedForCapability
+CallerHasUniversalXPConnect
 (
-"
-UniversalXPConnect
-"
 )
 )
 {

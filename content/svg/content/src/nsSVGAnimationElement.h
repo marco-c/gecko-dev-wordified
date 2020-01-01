@@ -479,6 +479,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsIDOMElementTimeControl
 .
 h
@@ -506,6 +513,8 @@ nsSVGAnimationElement
 :
 public
 nsSVGAnimationElementBase
+public
+DOMSVGTests
 public
 nsISMILAnimationElement
 public

@@ -454,6 +454,13 @@ nsIDOMSVGSwitchElement
 .
 h
 "
+#
+include
+"
+DOMSVGTests
+.
+h
+"
 typedef
 nsSVGGraphicElement
 nsSVGSwitchElementBase
@@ -465,6 +472,8 @@ public
 nsSVGSwitchElementBase
 public
 nsIDOMSVGSwitchElement
+public
+DOMSVGTests
 {
 friend
 class

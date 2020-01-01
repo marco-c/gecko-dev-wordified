@@ -10342,7 +10342,7 @@ from
 JS
 check
 if
-UniversalBrowserWrite
+UniversalXPConnect
 is
 /
 /
@@ -10361,7 +10361,7 @@ securityManager
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 ubwEnabled
@@ -46553,7 +46553,7 @@ securityManager
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 ubwEnabled
