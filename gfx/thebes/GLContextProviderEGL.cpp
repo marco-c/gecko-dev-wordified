@@ -4193,6 +4193,8 @@ aContext
 GLContextEGL
 *
 aImpl
+PRBool
+aIsRGB
 )
 :
 TextureImage
@@ -4200,6 +4202,7 @@ TextureImage
 aTexture
 aSize
 aContentType
+aIsRGB
 )
 mGLContext
 (
@@ -4504,6 +4507,18 @@ gfxASurface
 :
 ImageFormatARGB32
 ;
+PRBool
+isRGB
+=
+PR_TRUE
+;
+/
+/
+^
+this
+is
+always
+RGB
 nsRefPtr
 <
 gfxASurface
@@ -4658,6 +4673,7 @@ get
 (
 )
 )
+isRGB
 )
 ;
 return
