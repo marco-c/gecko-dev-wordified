@@ -100,10 +100,6 @@ removeUpdateDirsAndFiles
 (
 )
 ;
-setUpdateChannel
-(
-)
-;
 Services
 .
 prefs

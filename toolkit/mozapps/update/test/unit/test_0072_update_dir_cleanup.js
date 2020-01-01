@@ -58,10 +58,6 @@ removeUpdateDirsAndFiles
 (
 )
 ;
-setUpdateChannel
-(
-)
-;
 writeUpdatesToXMLFile
 (
 getLocalUpdatesXMLString

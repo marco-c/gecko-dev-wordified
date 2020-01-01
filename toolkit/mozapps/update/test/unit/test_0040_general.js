@@ -932,6 +932,9 @@ url
 ;
 setUpdateChannel
 (
+"
+test_channel
+"
 )
 ;
 gUpdateChecker

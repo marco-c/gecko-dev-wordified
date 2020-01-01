@@ -96,6 +96,9 @@ setUpdateURLOverride
 ;
 setUpdateChannel
 (
+"
+test_channel
+"
 )
 ;
 /
