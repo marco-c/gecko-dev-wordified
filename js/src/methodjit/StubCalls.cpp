@@ -1499,6 +1499,11 @@ f
 .
 cx
 obj
+MutableHandleValue
+:
+:
+fromMarkedLocation
+(
 &
 f
 .
@@ -1508,6 +1513,7 @@ sp
 [
 0
 ]
+)
 )
 )
 THROW
@@ -7164,7 +7170,7 @@ VMFrame
 f
 JSObject
 *
-regex
+regexArg
 )
 {
 /
@@ -7190,6 +7196,15 @@ pc
 .
 *
 /
+RootedObject
+regex
+(
+f
+.
+cx
+regexArg
+)
+;
 RootedObject
 proto
 (

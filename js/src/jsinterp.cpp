@@ -3203,7 +3203,7 @@ HandleScript
 script
 JSObject
 &
-scopeChain
+scopeChainArg
 const
 Value
 &
@@ -3217,6 +3217,14 @@ Value
 result
 )
 {
+RootedObject
+scopeChain
+(
+cx
+&
+scopeChainArg
+)
+;
 JS_ASSERT_IF
 (
 evalInFrame
@@ -3234,7 +3242,8 @@ type
 EXECUTE_GLOBAL
 !
 scopeChain
-.
+-
+>
 isScope
 (
 )
@@ -15343,8 +15352,11 @@ scope
 goto
 error
 ;
-Value
+RootedValue
+&
 v
+=
+rootValue0
 ;
 if
 (
