@@ -1047,6 +1047,17 @@ aObject
 ;
 /
 /
+Remove
+plugin
+from
+protochain
+void
+TeardownProtoChain
+(
+)
+;
+/
+/
 Helper
 for
 WebIDL

@@ -183,6 +183,10 @@ mNpp
 ;
 }
 ;
+extern
+JSClass
+sNPObjectJSWrapperClass
+;
 class
 nsJSObjWrapper
 :
