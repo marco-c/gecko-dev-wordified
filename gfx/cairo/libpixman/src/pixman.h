@@ -764,6 +764,11 @@ defined
 (
 _MSC_VER
 )
+&
+&
+_MSC_VER
+<
+1600
 typedef
 __int8
 int8_t
