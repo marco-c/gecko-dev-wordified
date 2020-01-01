@@ -69,7 +69,7 @@ extensions
 .
 getAddons
 .
-get
+getWithPerformance
 .
 url
 "

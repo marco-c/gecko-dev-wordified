@@ -4713,11 +4713,11 @@ scope
 .
 AddonRepository
 .
-repopulateCache
+backgroundUpdateCheck
 (
 ids
 function
-BUC_repopulateCacheCallback
+BUC_backgroundUpdateCheckCallback
 (
 )
 {
