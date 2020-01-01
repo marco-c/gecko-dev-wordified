@@ -135,6 +135,13 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+jsutil
+.
+h
+"
 /
 *
 *

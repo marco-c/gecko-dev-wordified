@@ -117,13 +117,6 @@ frontend_FoldConstants_h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 frontend
 /
 SyntaxParseHandler

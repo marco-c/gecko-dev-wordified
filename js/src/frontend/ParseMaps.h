@@ -178,6 +178,9 @@ h
 namespace
 js
 {
+class
+LifoAlloc
+;
 namespace
 frontend
 {

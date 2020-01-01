@@ -1302,6 +1302,14 @@ template
 XDRMode
 mode
 >
+class
+XDRState
+;
+template
+<
+XDRMode
+mode
+>
 bool
 XDRAtom
 (

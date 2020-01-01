@@ -188,6 +188,9 @@ h
 namespace
 js
 {
+class
+Breakpoint
+;
 /
 *
 *

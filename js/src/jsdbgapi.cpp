@@ -176,13 +176,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jsscript
 .
 h

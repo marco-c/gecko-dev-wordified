@@ -136,6 +136,9 @@ js
 class
 AbstractFramePtr
 ;
+class
+ScriptFrameIter
+;
 namespace
 ion
 {

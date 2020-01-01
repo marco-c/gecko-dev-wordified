@@ -165,6 +165,12 @@ ParseContext
 class
 FullParseHandler
 ;
+class
+FunctionBox
+;
+class
+ObjectBox
+;
 /
 *
 *
