@@ -982,6 +982,11 @@ InitializeSocketTransportService
 (
 )
 ;
+nsresult
+InitializeNetworkLinkService
+(
+)
+;
 private
 :
 PRPackedBool
@@ -1048,6 +1053,9 @@ nsCOMPtr
 nsINetworkLinkService
 >
 mNetworkLinkService
+;
+PRPackedBool
+mNetworkLinkServiceInitialized
 ;
 /
 /
