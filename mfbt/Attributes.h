@@ -293,16 +293,6 @@ so
 if
 defined
 (
-DEBUG
-)
-#
-define
-MOZ_ALWAYS_INLINE
-MOZ_INLINE
-#
-elif
-defined
-(
 _MSC_VER
 )
 #

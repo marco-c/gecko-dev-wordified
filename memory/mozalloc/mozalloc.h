@@ -186,6 +186,15 @@ h
 #
 endif
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 MOZALLOC_HAVE_XMALLOC
 #
