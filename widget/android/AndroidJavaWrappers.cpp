@@ -2869,7 +2869,7 @@ progressiveUpdateCallback
 "
 "
 (
-ZFFFFF
+ZFFFFFZ
 )
 Lorg
 /
@@ -5419,6 +5419,8 @@ Rect
 aDisplayPort
 float
 aDisplayResolution
+bool
+aDrawingCritical
 gfx
 :
 :
@@ -5489,6 +5491,8 @@ aDisplayPort
 .
 height
 aDisplayResolution
+!
+aDrawingCritical
 )
 )
 ;

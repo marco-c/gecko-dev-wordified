@@ -8329,6 +8329,8 @@ aScaleX
 float
 &
 aScaleY
+bool
+aDrawingCritical
 )
 {
 #
@@ -8432,6 +8434,11 @@ Rect
 &
 metricsDisplayPort
 =
+(
+aDrawingCritical
+&
+&
+!
 metrics
 .
 mCriticalDisplayPort
@@ -8439,14 +8446,15 @@ mCriticalDisplayPort
 IsEmpty
 (
 )
+)
 ?
 metrics
 .
-mDisplayPort
+mCriticalDisplayPort
 :
 metrics
 .
-mCriticalDisplayPort
+mDisplayPort
 ;
 gfx
 :
@@ -8506,6 +8514,7 @@ ProgressiveUpdateCallback
 aHasPendingNewThebesContent
 displayPort
 devPixelRatioX
+aDrawingCritical
 aViewport
 aScaleX
 aScaleY
