@@ -17508,6 +17508,17 @@ select
 text
 if
 (
+!
+offsets
+.
+content
+-
+>
+IsEditable
+(
+)
+&
+&
 Preferences
 :
 :
