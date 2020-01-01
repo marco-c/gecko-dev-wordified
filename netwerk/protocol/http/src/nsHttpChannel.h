@@ -1235,6 +1235,8 @@ nsIChannel
 *
 PRBool
 preserveMethod
+PRBool
+forProxy
 )
 ;
 /
