@@ -58,13 +58,6 @@ MPL
 /
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 jscntxt
 .
