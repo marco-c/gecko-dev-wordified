@@ -1530,6 +1530,9 @@ PRPackedBool
 mIsReused
 ;
 PRPackedBool
+mIsActivated
+;
+PRPackedBool
 mCompletedProxyConnect
 ;
 PRPackedBool
