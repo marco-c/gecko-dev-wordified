@@ -1081,9 +1081,7 @@ CreateEventA
 NULL
 FALSE
 FALSE
-"
-ReadbackShutdownEvent
-"
+NULL
 )
 ;
 mTaskSemaphore
@@ -1095,9 +1093,7 @@ CreateSemaphoreA
 NULL
 0
 1000000
-"
-ReadbackTaskSemaphore
-"
+NULL
 )
 ;
 mTaskThread
