@@ -435,6 +435,13 @@ BLOCK
 #
 include
 "
+prprf
+.
+h
+"
+#
+include
+"
 nsIDOMNodeList
 .
 h
