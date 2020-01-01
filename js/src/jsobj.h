@@ -7023,6 +7023,7 @@ Value
 extra
 )
 ;
+inline
 JSWrapper
 *
 getWrapperHandler

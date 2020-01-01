@@ -20901,7 +20901,7 @@ Debugger
 .
 Objects
 in
-decs
+desc
 to
 debuggee
 values

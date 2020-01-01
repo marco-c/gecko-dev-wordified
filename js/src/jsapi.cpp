@@ -19201,7 +19201,7 @@ JS_ASSERT
 (
 !
 (
-flags
+attrs
 &
 (
 JSPROP_GETTER
@@ -19211,7 +19211,7 @@ JSPROP_SETTER
 )
 )
 ;
-flags
+attrs
 &
 =
 ~

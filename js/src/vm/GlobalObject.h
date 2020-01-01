@@ -1387,7 +1387,7 @@ DebuggerVector
 The
 collection
 of
-Debug
+Debugger
 objects
 debugging
 this
@@ -1396,9 +1396,9 @@ global
 If
 this
 global
+/
+/
 is
-/
-/
 not
 a
 debuggee
