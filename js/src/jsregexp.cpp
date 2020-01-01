@@ -2762,6 +2762,7 @@ ch
 )
 ;
 return
+(
 upcase
 (
 lch
@@ -2769,6 +2770,7 @@ lch
 =
 =
 ch
+)
 ?
 lch
 :
