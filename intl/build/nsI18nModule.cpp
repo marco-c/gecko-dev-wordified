@@ -557,6 +557,16 @@ nsCaseConversionImp2Constructor
 }
 {
 "
+Unichar
+Category
+Table
+"
+NS_UNICHARCATEGORY_CID
+NS_UNICHARCATEGORY_CONTRACTID
+nsCategoryImpConstructor
+}
+{
+"
 Unicode
 To
 Entity
