@@ -39798,7 +39798,7 @@ but
 OK
 .
 return
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

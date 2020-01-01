@@ -21942,7 +21942,7 @@ aContext
 const
 {
 return
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -22023,7 +22023,7 @@ that
 s
 OK
 return
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
