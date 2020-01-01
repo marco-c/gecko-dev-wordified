@@ -3384,12 +3384,6 @@ picker
 1
 |
 |
-isQuery
-|
-|
-isLivemark
-|
-|
 this
 .
 _action
