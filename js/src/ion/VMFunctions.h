@@ -2959,7 +2959,7 @@ thingSize
 )
 ;
 bool
-ReportOverRecursed
+CheckOverRecursed
 (
 JSContext
 *

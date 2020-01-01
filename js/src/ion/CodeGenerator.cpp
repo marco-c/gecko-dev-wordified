@@ -8855,14 +8855,14 @@ JSContext
 static
 const
 VMFunction
-ReportOverRecursedInfo
+CheckOverRecursedInfo
 =
 FunctionInfo
 <
 pf
 >
 (
-ReportOverRecursed
+CheckOverRecursed
 )
 ;
 /
@@ -8886,7 +8886,7 @@ to
 avoid
 crashes
 if
-ReportOverRecursed
+CheckOverRecursed
 triggers
 /
 /
@@ -8908,7 +8908,7 @@ if
 !
 callVM
 (
-ReportOverRecursedInfo
+CheckOverRecursedInfo
 ool
 -
 >
