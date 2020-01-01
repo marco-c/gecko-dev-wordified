@@ -305,7 +305,7 @@ SendPeriodic
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 protected
 :
@@ -318,7 +318,7 @@ to_send_
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 SendPeriodic
 nsITimerCallback

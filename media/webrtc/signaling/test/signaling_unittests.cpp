@@ -1184,7 +1184,7 @@ return
 streams
 ;
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_IPEERCONNECTIONOBSERVER
 ResponseState
 state
@@ -1238,7 +1238,7 @@ streams
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 TestObserver
 IPeerConnectionObserver
