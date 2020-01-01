@@ -217,6 +217,7 @@ AsmJSModule
 :
 :
 Global
+&
 global
 HandleValue
 importVal
@@ -438,6 +439,7 @@ AsmJSModule
 :
 :
 Global
+&
 global
 HandleValue
 importVal
@@ -549,6 +551,7 @@ AsmJSModule
 :
 :
 Global
+&
 global
 HandleValue
 globalVal
@@ -628,6 +631,7 @@ AsmJSModule
 :
 :
 Global
+&
 global
 HandleValue
 globalVal
@@ -874,6 +878,7 @@ AsmJSModule
 :
 :
 Global
+&
 global
 HandleValue
 globalVal
@@ -1511,6 +1516,7 @@ AsmJSModule
 :
 :
 Global
+&
 global
 =
 module
