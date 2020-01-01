@@ -2003,6 +2003,13 @@ mWritePosition
 requiredSpace
 >
 mBufferSize
+|
+|
+mWritePosition
++
+requiredSpace
+<
+mWritePosition
 )
 /
 /
