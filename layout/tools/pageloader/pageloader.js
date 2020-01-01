@@ -1926,6 +1926,12 @@ split
 "
 )
 ;
+if
+(
+!
+renderReport
+)
+{
 for
 each
 (
@@ -1944,10 +1950,8 @@ fmt
 )
 )
 ;
-if
-(
-renderReport
-)
+}
+else
 {
 dumpLine
 (
