@@ -695,17 +695,12 @@ nsMimeTypes
 h
 "
 #
-ifdef
-MOZ_VIEW_SOURCE
-#
 include
 "
 nsViewSourceHTML
 .
 h
 "
-#
-endif
 #
 define
 NS_PARSER_FLAG_PARSER_ENABLED
@@ -11860,9 +11855,6 @@ mAutoDetectStatus
 =
 ePrimaryDetect
 ;
-#
-ifdef
-MOZ_VIEW_SOURCE
 /
 /
 Quick
@@ -11888,8 +11880,6 @@ CViewSourceHTML
 )
 ;
 }
-#
-endif
 /
 /
 Now
