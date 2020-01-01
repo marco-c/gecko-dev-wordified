@@ -655,13 +655,6 @@ nsCookieService
 .
 h
 "
-#
-include
-"
-nsApplicationCacheService
-.
-h
-"
 extern
 void
 NS_ShutdownChainItemPool
@@ -1377,13 +1370,6 @@ nsCookieService
 :
 :
 AppUninstallObserverInit
-(
-)
-;
-nsApplicationCacheService
-:
-:
-AppClearDataObserverInit
 (
 )
 ;
