@@ -2702,12 +2702,6 @@ CreatePlaceholderFrameFor
 nsIPresShell
 *
 aPresShell
-nsPresContext
-*
-aPresContext
-nsFrameManager
-*
-aFrameManager
 nsIContent
 *
 aContent
@@ -2720,6 +2714,9 @@ aStyleContext
 nsIFrame
 *
 aParentFrame
+nsIFrame
+*
+aPrevInFlow
 nsIFrame
 *
 *
