@@ -5440,6 +5440,9 @@ name
 frozenSpec
 .
 request
+|
+|
+undefined
 )
 )
 ;
@@ -5452,6 +5455,9 @@ Response
 frozenSpec
 .
 response
+|
+|
+undefined
 )
 ;
 spec

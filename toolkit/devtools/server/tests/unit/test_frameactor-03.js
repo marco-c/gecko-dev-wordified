@@ -253,9 +253,6 @@ stopMe
 ;
 debugger
 ;
-"
-)
-"
 }
 +
 "

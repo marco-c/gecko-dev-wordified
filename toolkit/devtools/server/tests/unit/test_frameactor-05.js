@@ -544,9 +544,6 @@ depth1
 ;
 debugger
 ;
-"
-)
-"
 }
 +
 "
