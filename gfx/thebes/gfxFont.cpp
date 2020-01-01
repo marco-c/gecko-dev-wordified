@@ -11633,6 +11633,7 @@ details
 -
 >
 mGlyphID
+appUnitsPerDevUnit
 )
 ;
 }
@@ -12894,6 +12895,7 @@ details
 -
 >
 mGlyphID
+appUnitsPerDevUnit
 )
 ;
 }
@@ -28438,6 +28440,7 @@ gfxFontMissingGlyphs
 GetDesiredMinWidth
 (
 aChar
+mAppUnitsPerDevUnit
 )
 )
 ;
