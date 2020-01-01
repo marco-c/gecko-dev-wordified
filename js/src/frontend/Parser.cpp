@@ -36542,7 +36542,7 @@ js_arguments_str
 )
 ;
 return
-false
+NULL
 ;
 }
 if
