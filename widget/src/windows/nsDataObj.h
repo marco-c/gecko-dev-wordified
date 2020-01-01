@@ -505,13 +505,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

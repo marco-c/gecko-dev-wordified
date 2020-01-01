@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsTWeakRef
 .
 h

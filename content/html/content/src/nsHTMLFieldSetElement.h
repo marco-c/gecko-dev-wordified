@@ -449,13 +449,6 @@ nsIConstraintValidation
 .
 h
 "
-#
-include
-"
-nsTPtrArray
-.
-h
-"
 class
 nsHTMLFieldSetElement
 :
@@ -769,9 +762,10 @@ first
 fieldset
 ancestor
 .
-nsTPtrArray
+nsTArray
 <
 nsGenericHTMLFormElement
+*
 >
 mDependentElements
 ;

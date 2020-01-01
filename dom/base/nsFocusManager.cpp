@@ -467,13 +467,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -8195,9 +8188,10 @@ dsti2
 nsnull
 )
 ;
-nsAutoTPtrArray
+nsAutoTArray
 <
 nsIDocShellTreeItem
+*
 30
 >
 parents1

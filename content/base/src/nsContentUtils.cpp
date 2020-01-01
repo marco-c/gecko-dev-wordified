@@ -1107,13 +1107,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h
@@ -8257,9 +8250,10 @@ the
 chain
 of
 parents
-nsAutoTPtrArray
+nsAutoTArray
 <
 nsINode
+*
 30
 >
 parents1

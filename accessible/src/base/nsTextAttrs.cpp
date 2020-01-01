@@ -1282,9 +1282,10 @@ GetPrimaryFrame
 )
 ;
 }
-nsTPtrArray
+nsTArray
 <
 nsITextAttr
+*
 >
 textAttrArray
 (
@@ -1736,9 +1737,10 @@ nsTextAttrsMgr
 GetRange
 (
 const
-nsTPtrArray
+nsTArray
 <
 nsITextAttr
+*
 >
 &
 aTextAttrArray

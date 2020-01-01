@@ -438,13 +438,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsHTMLContainerFrame
 .
 h
@@ -3771,9 +3764,10 @@ GetFirstBodyRowGroupFrame
 public
 :
 typedef
-nsAutoTPtrArray
+nsAutoTArray
 <
 nsTableRowGroupFrame
+*
 8
 >
 RowGroupArray
@@ -4835,9 +4829,10 @@ endif
 /
 DATA
 MEMBERS
-nsAutoTPtrArray
+nsAutoTArray
 <
 nsTableColFrame
+*
 8
 >
 mColFrames

@@ -501,13 +501,6 @@ nsString
 .
 h
 "
-#
-include
-"
-nsTPtrArray
-.
-h
-"
 class
 nsITextAttr
 ;
@@ -875,9 +868,10 @@ nsresult
 GetRange
 (
 const
-nsTPtrArray
+nsTArray
 <
 nsITextAttr
+*
 >
 &
 aTextAttrArray

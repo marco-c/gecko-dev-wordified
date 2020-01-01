@@ -1118,13 +1118,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 prprf
 .
 h
@@ -4336,9 +4329,10 @@ return
 0
 ;
 }
-nsAutoTPtrArray
+nsAutoTArray
 <
 nsINode
+*
 32
 >
 parents1

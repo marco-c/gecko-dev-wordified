@@ -463,13 +463,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsWeakPtr
 .
 h
@@ -645,9 +638,10 @@ DeleteControllers
 (
 )
 ;
-nsTPtrArray
+nsTArray
 <
 nsXULControllerData
+*
 >
 mControllers
 ;
