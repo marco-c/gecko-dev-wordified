@@ -760,7 +760,7 @@ JSObject
 *
 name
 ;
-uint16
+uint32
 xml_class
 ;
 /
@@ -770,7 +770,7 @@ u
 below
 *
 /
-uint16
+uint32
 xml_flags
 ;
 /
@@ -780,9 +780,6 @@ see
 below
 *
 /
-uint32
-align
-;
 union
 {
 JSXMLListVar
