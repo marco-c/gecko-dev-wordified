@@ -3673,9 +3673,6 @@ opcode
 case
 LIR_ldf
 :
-case
-LIR_ldfc
-:
 if
 (
 rmask
@@ -3717,9 +3714,6 @@ break
 ;
 case
 LIR_ld32f
-:
-case
-LIR_ldc32f
 :
 if
 (
@@ -3816,9 +3810,6 @@ opcode
 case
 LIR_ldf
 :
-case
-LIR_ldfc
-:
 /
 /
 Don
@@ -3848,9 +3839,6 @@ break
 ;
 case
 LIR_ld32f
-:
-case
-LIR_ldc32f
 :
 /
 /
@@ -4091,15 +4079,6 @@ value
 isop
 (
 LIR_ldf
-)
-|
-|
-value
--
->
-isop
-(
-LIR_ldfc
 )
 )
 {
@@ -7399,9 +7378,6 @@ op
 case
 LIR_ldzb
 :
-case
-LIR_ldcb
-:
 LD8Zdm
 (
 rr
@@ -7412,9 +7388,6 @@ break
 ;
 case
 LIR_ldsb
-:
-case
-LIR_ldcsb
 :
 LD8Sdm
 (
@@ -7427,9 +7400,6 @@ break
 case
 LIR_ldzs
 :
-case
-LIR_ldcs
-:
 LD16Zdm
 (
 rr
@@ -7441,9 +7411,6 @@ break
 case
 LIR_ldss
 :
-case
-LIR_ldcss
-:
 LD16Sdm
 (
 rr
@@ -7454,9 +7421,6 @@ break
 ;
 case
 LIR_ld
-:
-case
-LIR_ldc
 :
 LDdm
 (
@@ -7900,9 +7864,6 @@ op
 case
 LIR_ldzb
 :
-case
-LIR_ldcb
-:
 LD8Zsib
 (
 rr
@@ -7916,9 +7877,6 @@ break
 ;
 case
 LIR_ldsb
-:
-case
-LIR_ldcsb
 :
 LD8Ssib
 (
@@ -7934,9 +7892,6 @@ break
 case
 LIR_ldzs
 :
-case
-LIR_ldcs
-:
 LD16Zsib
 (
 rr
@@ -7951,9 +7906,6 @@ break
 case
 LIR_ldss
 :
-case
-LIR_ldcss
-:
 LD16Ssib
 (
 rr
@@ -7967,9 +7919,6 @@ break
 ;
 case
 LIR_ld
-:
-case
-LIR_ldc
 :
 LDsib
 (
@@ -8080,9 +8029,6 @@ op
 case
 LIR_ldzb
 :
-case
-LIR_ldcb
-:
 LD8Z
 (
 rr
@@ -8094,9 +8040,6 @@ break
 ;
 case
 LIR_ldsb
-:
-case
-LIR_ldcsb
 :
 LD8S
 (
@@ -8110,9 +8053,6 @@ break
 case
 LIR_ldzs
 :
-case
-LIR_ldcs
-:
 LD16Z
 (
 rr
@@ -8125,9 +8065,6 @@ break
 case
 LIR_ldss
 :
-case
-LIR_ldcss
-:
 LD16S
 (
 rr
@@ -8139,9 +8076,6 @@ break
 ;
 case
 LIR_ld
-:
-case
-LIR_ldc
 :
 LD
 (
