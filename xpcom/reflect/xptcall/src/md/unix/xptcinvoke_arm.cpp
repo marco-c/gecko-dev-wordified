@@ -3101,7 +3101,7 @@ gnu
 org
 /
 PR46164
-uint32_t
+nsresult
 result
 ;
 asm
