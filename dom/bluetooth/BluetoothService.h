@@ -1116,6 +1116,9 @@ const
 nsAString
 &
 aPinCode
+BluetoothReplyRunnable
+*
+aRunnable
 )
 =
 0
@@ -1130,6 +1133,9 @@ nsAString
 aDeviceAddress
 uint32_t
 aPasskey
+BluetoothReplyRunnable
+*
+aRunnable
 )
 =
 0
@@ -1144,6 +1150,9 @@ nsAString
 aDeviceAddress
 bool
 aConfirm
+BluetoothReplyRunnable
+*
+aRunnable
 )
 =
 0
@@ -1158,6 +1167,9 @@ nsAString
 aDeviceAddress
 bool
 aAllow
+BluetoothReplyRunnable
+*
+aRunnable
 )
 =
 0
