@@ -685,7 +685,7 @@ h
 #
 define
 NS_STYLE_INHERIT_MASK
-0x00ffffff
+0x007fffff
 /
 /
 Additional
@@ -706,7 +706,7 @@ HasTextDecorationLines
 #
 define
 NS_STYLE_HAS_TEXT_DECORATION_LINES
-0x01000000
+0x00800000
 /
 /
 See
@@ -718,7 +718,7 @@ HasPseudoElementData
 #
 define
 NS_STYLE_HAS_PSEUDO_ELEMENT_DATA
-0x02000000
+0x01000000
 /
 /
 See
@@ -729,7 +729,7 @@ RelevantLinkIsVisited
 #
 define
 NS_STYLE_RELEVANT_LINK_VISITED
-0x04000000
+0x02000000
 /
 /
 See
@@ -740,7 +740,7 @@ IsStyleIfVisited
 #
 define
 NS_STYLE_IS_STYLE_IF_VISITED
-0x08000000
+0x04000000
 /
 /
 See
@@ -751,11 +751,11 @@ GetPseudoEnum
 #
 define
 NS_STYLE_CONTEXT_TYPE_MASK
-0xf0000000
+0xf8000000
 #
 define
 NS_STYLE_CONTEXT_TYPE_SHIFT
-28
+27
 /
 /
 Additional
