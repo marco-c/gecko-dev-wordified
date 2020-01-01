@@ -657,13 +657,6 @@ h
 #
 include
 "
-nsIEditorDocShell
-.
-h
-"
-#
-include
-"
 nsEventDispatcher
 .
 h

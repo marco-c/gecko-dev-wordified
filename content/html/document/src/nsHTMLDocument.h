@@ -245,9 +245,6 @@ class
 nsIEditor
 ;
 class
-nsIEditorDocShell
-;
-class
 nsIParser
 ;
 class

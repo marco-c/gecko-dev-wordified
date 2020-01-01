@@ -310,13 +310,6 @@ h
 #
 include
 "
-nsIEditorDocShell
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h

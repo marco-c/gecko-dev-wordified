@@ -343,13 +343,6 @@ h
 #
 include
 "
-nsIEditorDocShell
-.
-h
-"
-#
-include
-"
 nsEventStateManager
 .
 h

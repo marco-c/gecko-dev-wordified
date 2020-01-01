@@ -227,13 +227,6 @@ h
 #
 include
 "
-nsIEditorDocShell
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -1034,8 +1027,6 @@ nsIRefreshURI
 public
 nsIWebProgressListener
 public
-nsIEditorDocShell
-public
 nsIWebPageDescriptor
 public
 nsIAuthPromptProvider
@@ -1085,7 +1076,6 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIREFRESHURI
 NS_DECL_NSICONTENTVIEWERCONTAINER
-NS_DECL_NSIEDITORDOCSHELL
 NS_DECL_NSIWEBPAGEDESCRIPTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSIOBSERVER
