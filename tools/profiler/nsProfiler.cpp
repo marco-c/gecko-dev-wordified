@@ -184,16 +184,16 @@ nsProfiler
 :
 StartProfiler
 (
-uint32_t
+PRUint32
 aEntries
-uint32_t
+PRUint32
 aInterval
 const
 char
 *
 *
 aFeatures
-uint32_t
+PRUint32
 aFeatureCount
 )
 {
@@ -262,7 +262,7 @@ if
 profile
 )
 {
-uint32_t
+PRUint32
 len
 =
 strlen
@@ -334,7 +334,6 @@ std
 ostream
 &
 aStream
-const
 SharedLibrary
 &
 aLib
@@ -735,7 +734,7 @@ nsProfiler
 :
 GetResponsivenessTimes
 (
-uint32_t
+PRUint32
 *
 aCount
 double
@@ -773,7 +772,7 @@ aCount
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -824,7 +823,7 @@ nsProfiler
 :
 GetFeatures
 (
-uint32_t
+PRUint32
 *
 aCount
 char
@@ -834,7 +833,7 @@ char
 aFeatures
 )
 {
-uint32_t
+PRUint32
 len
 =
 0
@@ -863,7 +862,7 @@ aCount
 *
 aFeatures
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -925,7 +924,7 @@ i
 +
 )
 {
-uint32_t
+PRUint32
 strLen
 =
 strlen
