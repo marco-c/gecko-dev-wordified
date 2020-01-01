@@ -356,15 +356,6 @@ nsCycleCollector_forgetJSRuntime
 (
 )
 ;
-mozilla
-:
-:
-CycleCollectedJSRuntime
-*
-nsCycleCollector_currentJSRuntime
-(
-)
-;
 #
 define
 NS_CYCLE_COLLECTOR_LOGGER_CID

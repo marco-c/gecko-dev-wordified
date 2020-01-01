@@ -202,6 +202,17 @@ mozilla
 /
 dom
 /
+DOMException
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMExceptionBinding
 .
 h
@@ -1754,7 +1765,7 @@ mozilla
 :
 dom
 ;
-nsXPCException
+Exception
 *
 e
 =

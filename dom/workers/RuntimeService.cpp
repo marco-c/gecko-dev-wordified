@@ -5598,7 +5598,10 @@ CycleCollectedJSRuntime
 *
 ccrt
 =
-nsCycleCollector_currentJSRuntime
+CycleCollectedJSRuntime
+:
+:
+Get
 (
 )
 ;

@@ -130,9 +130,6 @@ class
 XPCJSThrower
 ;
 class
-XPCJSStack
-;
-class
 nsXPCWrappedJS
 ;
 class

@@ -121,14 +121,6 @@ DOMCI_CLASS
 (
 DOMConstructor
 )
-/
-/
-Core
-classes
-DOMCI_CLASS
-(
-DOMException
-)
 DOMCI_CLASS
 (
 DeviceAcceleration
