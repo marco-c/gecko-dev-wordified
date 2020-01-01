@@ -878,9 +878,6 @@ gfxContext
 h
 "
 #
-ifdef
-MOZ_MEDIA
-#
 include
 "
 mozilla
@@ -891,8 +888,6 @@ HTMLMediaElement
 .
 h
 "
-#
-endif
 #
 include
 "

@@ -454,9 +454,6 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_MEDIA
-#
 include
 "
 mozilla
@@ -467,8 +464,6 @@ HTMLVideoElement
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -29647,9 +29642,6 @@ aSurfaceFlags
 )
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 /
 /
 Maybe
@@ -29683,8 +29675,6 @@ aSurfaceFlags
 )
 ;
 }
-#
-endif
 /
 /
 Finally

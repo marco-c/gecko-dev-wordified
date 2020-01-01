@@ -344,9 +344,6 @@ kSVGDocumentCID
 NS_SVGDOCUMENT_CID
 )
 ;
-#
-ifdef
-MOZ_MEDIA
 static
 NS_DEFINE_IID
 (
@@ -354,8 +351,6 @@ kVideoDocumentCID
 NS_VIDEODOCUMENT_CID
 )
 ;
-#
-endif
 static
 NS_DEFINE_IID
 (
@@ -1300,9 +1295,6 @@ aDocViewer
 ;
 }
 }
-#
-ifdef
-MOZ_MEDIA
 if
 (
 mozilla
@@ -1330,8 +1322,6 @@ aDocViewer
 )
 ;
 }
-#
-endif
 /
 /
 Try
