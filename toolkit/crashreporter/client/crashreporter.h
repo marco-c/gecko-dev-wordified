@@ -170,7 +170,7 @@ CrashReporterErrorText
 define
 ST_CRASHREPORTERPRODUCTERROR
 "
-CrashReporterProductError
+CrashReporterProductErrorText2
 "
 #
 define
@@ -182,7 +182,7 @@ CrashReporterSorry
 define
 ST_CRASHREPORTERDESCRIPTION
 "
-CrashReporterDescriptionText
+CrashReporterDescriptionText2
 "
 #
 define
