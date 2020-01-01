@@ -5278,7 +5278,6 @@ if
 !
 shape
 )
-{
 shape
 =
 obj
@@ -5288,9 +5287,7 @@ lastProperty
 (
 )
 ;
-}
 else
-{
 shape
 =
 shape
@@ -5326,7 +5323,6 @@ shape
 =
 NULL
 ;
-}
 }
 return
 *
