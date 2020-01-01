@@ -4836,6 +4836,8 @@ executable
 !
 helperApp
 .
+executable
+.
 exists
 (
 )
