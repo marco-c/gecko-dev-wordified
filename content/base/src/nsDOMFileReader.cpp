@@ -2383,6 +2383,11 @@ mError
 =
 nsnull
 ;
+SetDOMStringToNull
+(
+mResult
+)
+;
 /
 /
 Obtain
