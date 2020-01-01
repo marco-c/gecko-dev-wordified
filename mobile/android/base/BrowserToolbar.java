@@ -1453,7 +1453,8 @@ edge
 s
 image
 at
-half
+60
+%
 of
 its
 width
@@ -1487,7 +1488,7 @@ getDrawable
 .
 setLevel
 (
-5000
+6000
 )
 ;
 }
