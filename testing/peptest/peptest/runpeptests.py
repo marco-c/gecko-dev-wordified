@@ -676,6 +676,27 @@ options
 testPath
 )
             
+testObj
+[
+'
+here
+'
+]
+=
+os
+.
+path
+.
+dirname
+(
+testObj
+[
+'
+path
+'
+]
+)
+            
 tests
 .
 append
