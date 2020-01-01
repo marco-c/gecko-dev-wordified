@@ -4833,8 +4833,6 @@ resetScore
 (
 )
 ;
-yield
-;
 }
 catch
 (
