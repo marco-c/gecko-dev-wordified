@@ -1294,7 +1294,7 @@ alpha
 {
 if
 (
-alpha
+mAlpha
 =
 =
 alpha
