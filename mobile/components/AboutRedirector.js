@@ -557,7 +557,7 @@ chrome
 :
 /
 /
-global
+browser
 /
 content
 /
