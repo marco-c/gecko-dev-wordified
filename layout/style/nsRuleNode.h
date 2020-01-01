@@ -4539,14 +4539,6 @@ mPresContext
 }
 NS_HIDDEN_
 (
-nsresult
-)
-ClearStyleData
-(
-)
-;
-NS_HIDDEN_
-(
 const
 nsStyleStruct
 *

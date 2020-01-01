@@ -893,6 +893,11 @@ nsDisplayListSet
 aLists
 )
 ;
+NS_IMETHOD
+DidSetStyleContext
+(
+)
+;
 friend
 nsIFrame
 *
