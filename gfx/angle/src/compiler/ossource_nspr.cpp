@@ -54,7 +54,7 @@ This
 file
 contains
 the
-posix
+nspr
 specific
 functions
 /

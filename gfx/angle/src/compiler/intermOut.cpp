@@ -2869,13 +2869,15 @@ condition
 ;
 if
 (
-!
 node
 -
 >
-testFirst
+getType
 (
 )
+=
+=
+ELoopDoWhile
 )
 out
 <
@@ -2910,7 +2912,7 @@ if
 node
 -
 >
-getTest
+getCondition
 (
 )
 )
@@ -2928,7 +2930,7 @@ n
 node
 -
 >
-getTest
+getCondition
 (
 )
 -
@@ -3009,7 +3011,7 @@ if
 node
 -
 >
-getTerminal
+getExpression
 (
 )
 )
@@ -3035,7 +3037,7 @@ n
 node
 -
 >
-getTerminal
+getExpression
 (
 )
 -

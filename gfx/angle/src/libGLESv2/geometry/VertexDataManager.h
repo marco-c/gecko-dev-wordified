@@ -182,7 +182,7 @@ getActiveAttribs
 )
 const
 ;
-void
+GLenum
 processNonArrayAttributes
 (
 const

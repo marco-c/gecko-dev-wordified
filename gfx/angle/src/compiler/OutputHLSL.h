@@ -600,14 +600,13 @@ int
 mScopeDepth
 ;
 int
-mArgumentIndex
+mUniqueIndex
 ;
 /
 /
 For
 creating
 unique
-argument
 names
 }
 ;
