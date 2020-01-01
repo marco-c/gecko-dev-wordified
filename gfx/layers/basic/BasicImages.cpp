@@ -1245,6 +1245,10 @@ gfx
 :
 :
 ROTATE_0
+gfx
+:
+:
+FILTER_BILINEAR
 )
 ;
 }
