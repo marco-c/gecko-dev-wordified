@@ -148,13 +148,13 @@ h
 >
 #
 include
-"
-libcameraservice
+<
+camera
 /
-CameraHardwareInterface
+Camera
 .
 h
-"
+>
 namespace
 android
 {
