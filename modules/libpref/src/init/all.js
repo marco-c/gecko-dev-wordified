@@ -13553,6 +13553,8 @@ STIXNonUnicode
 STIXSizeOneSym
 STIXSize1
 STIXGeneral
+Asana
+Math
 Standard
 Symbols
 L
@@ -22396,6 +22398,8 @@ STIXNonUnicode
 STIXSizeOneSym
 STIXSize1
 STIXGeneral
+Asana
+Math
 Symbol
 DejaVu
 Sans
@@ -29526,6 +29530,8 @@ STIXNonUnicode
 STIXSizeOneSym
 STIXSize1
 STIXGeneral
+Asana
+Math
 Symbol
 DejaVu
 Sans
@@ -30035,6 +30041,8 @@ STIXNonUnicode
 STIXSizeOneSym
 STIXSize1
 STIXGeneral
+Asana
+Math
 DejaVu
 Sans
 "
