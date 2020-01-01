@@ -2457,8 +2457,7 @@ static
 void
 DEBUG_CheckUnwrapSafety
 (
-JSObject
-*
+HandleObject
 obj
 js
 :

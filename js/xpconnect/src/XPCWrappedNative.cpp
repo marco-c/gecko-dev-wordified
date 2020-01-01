@@ -14043,12 +14043,13 @@ GetFlatJSObject
 )
 )
 ;
-JSObject
-*
+RootedObject
 wrapper
-=
+(
+cx
 GetWrapper
 (
+)
 )
 ;
 /
