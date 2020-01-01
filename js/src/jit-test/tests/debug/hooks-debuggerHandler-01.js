@@ -1,11 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-debug
 var
 g
 =

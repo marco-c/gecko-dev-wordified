@@ -1,11 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-debug
 load
 (
 libdir

@@ -1,13 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-debug
-/
-/
 var
 statements
 in

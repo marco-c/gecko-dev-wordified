@@ -3030,7 +3030,7 @@ debugging
 .
 *
 /
-JSBool
+bool
 debugMode
 ;
 #

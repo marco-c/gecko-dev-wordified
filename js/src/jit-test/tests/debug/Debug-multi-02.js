@@ -1,13 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-debug
-/
-/
 Test
 adding
 hooks
