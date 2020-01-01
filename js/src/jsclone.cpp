@@ -4021,7 +4021,10 @@ if
 obj
 -
 >
-isDate
+is
+<
+DateObject
+>
 (
 )
 )

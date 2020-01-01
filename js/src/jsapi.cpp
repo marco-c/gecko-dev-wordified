@@ -518,6 +518,15 @@ include
 "
 vm
 /
+DateObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Debugger
 .
 h
@@ -9764,7 +9773,7 @@ Boolean
 }
 {
 js_InitDateClass
-EAGER_ATOM_AND_CLASP
+EAGER_ATOM_AND_OCLASP
 (
 Date
 )
