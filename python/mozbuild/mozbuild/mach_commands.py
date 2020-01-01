@@ -437,6 +437,39 @@ dependencies
 '
 )
     
+CommandArgument
+(
+'
+-
+v
+'
+'
+-
+-
+verbose
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Verbose
+output
+for
+what
+commands
+the
+build
+is
+running
+.
+'
+)
+    
 def
 build
 (
@@ -450,6 +483,9 @@ None
 jobs
 =
 0
+verbose
+=
+False
 )
 :
         
@@ -977,6 +1013,10 @@ False
 num_jobs
 =
 jobs
+silent
+=
+not
+verbose
 )
                 
 if
@@ -1027,6 +1067,11 @@ False
 num_jobs
 =
 jobs
+                
+silent
+=
+not
+verbose
 )
             
 self
