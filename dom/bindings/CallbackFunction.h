@@ -232,8 +232,14 @@ aCallable
 )
 ;
 }
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 Callable
 (
 )
