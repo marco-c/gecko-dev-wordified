@@ -1676,8 +1676,6 @@ mLastData
 /
 The
 start
-and
-length
 of
 the
 current
@@ -1688,9 +1686,6 @@ ACP
 offsets
 LONG
 mStart
-;
-LONG
-mLength
 ;
 bool
 IsComposing
@@ -1708,7 +1703,7 @@ nullptr
 ;
 }
 LONG
-StringEndOffset
+EndOffset
 (
 )
 const
@@ -1727,18 +1722,6 @@ Length
 (
 )
 )
-;
-}
-LONG
-EndOffset
-(
-)
-const
-{
-return
-mStart
-+
-mLength
 ;
 }
 /
