@@ -1556,11 +1556,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
-(
-aService
-)
-;
 /
 /
 Bail
