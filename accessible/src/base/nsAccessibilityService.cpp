@@ -1778,6 +1778,13 @@ MsgEnd
 (
 )
 ;
+logging
+:
+:
+Stack
+(
+)
+;
 }
 #
 endif
@@ -1879,6 +1886,13 @@ logging
 :
 :
 MsgEnd
+(
+)
+;
+logging
+:
+:
+Stack
 (
 )
 ;

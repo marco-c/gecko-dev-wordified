@@ -154,6 +154,7 @@ enableLogging
 (
 "
 tree
+stack
 "
 )
 ;
