@@ -459,7 +459,7 @@ h
 #
 include
 "
-nsISupportsArray
+nsCOMArray
 .
 h
 "
@@ -702,9 +702,9 @@ mFilterList
 PRInt16
 mSelectedType
 ;
-nsCOMPtr
+nsCOMArray
 <
-nsISupportsArray
+nsILocalFile
 >
 mFiles
 ;

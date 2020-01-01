@@ -487,13 +487,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

@@ -443,7 +443,7 @@ h
 #
 include
 "
-nsISupportsArray
+nsCOMArray
 .
 h
 "
@@ -727,9 +727,9 @@ mUnicodeDecoder
 PRInt16
 mSelectedType
 ;
-nsCOMPtr
+nsCOMArray
 <
-nsISupportsArray
+nsILocalFile
 >
 mFiles
 ;

@@ -570,13 +570,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsHashtable
 .
 h
