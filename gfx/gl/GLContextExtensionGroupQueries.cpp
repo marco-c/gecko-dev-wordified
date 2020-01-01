@@ -196,7 +196,7 @@ sFeatureInfoArr
 {
 {
 "
-XXX_bind_buffer_offset
+bind_buffer_offset
 "
 0
 /
@@ -226,7 +226,7 @@ Extensions_End
 }
 {
 "
-XXX_depth_texture
+depth_texture
 "
 200
 /
@@ -256,7 +256,7 @@ Extensions_End
 }
 {
 "
-XXX_draw_buffers
+draw_buffers
 "
 200
 /
@@ -286,7 +286,7 @@ Extensions_End
 }
 {
 "
-XXX_draw_instanced
+draw_instanced
 "
 310
 /
@@ -324,7 +324,7 @@ Extensions_End
 }
 {
 "
-XXX_element_index_uint
+element_index_uint
 "
 200
 /
@@ -350,7 +350,7 @@ Extensions_End
 }
 {
 "
-XXX_ES2_compatibility
+ES2_compatibility
 "
 kGLCoreVersionForES2Compat
 200
@@ -372,7 +372,7 @@ Extensions_End
 }
 {
 "
-XXX_ES3_compatibility
+ES3_compatibility
 "
 kGLCoreVersionForES3Compat
 300
@@ -394,7 +394,7 @@ Extensions_End
 }
 {
 "
-XXX_framebuffer_blit
+framebuffer_blit
 "
 300
 /
@@ -424,7 +424,7 @@ Extensions_End
 }
 {
 "
-XXX_framebuffer_multisample
+framebuffer_multisample
 "
 300
 /
@@ -454,7 +454,7 @@ Extensions_End
 }
 {
 "
-XXX_framebuffer_object
+framebuffer_object
 "
 300
 /
@@ -484,7 +484,7 @@ Extensions_End
 }
 {
 "
-XXX_get_query_object_iv
+get_query_object_iv
 "
 200
 /
@@ -528,7 +528,7 @@ OpenGL
 }
 {
 "
-XXX_instanced_arrays
+instanced_arrays
 "
 330
 /
@@ -562,7 +562,7 @@ Extensions_End
 }
 {
 "
-XXX_occlusion_query
+occlusion_query
 "
 200
 /
@@ -598,7 +598,7 @@ OpenGL
 }
 {
 "
-XXX_occlusion_query_boolean
+occlusion_query_boolean
 "
 kGLCoreVersionForES3Compat
 300
@@ -664,7 +664,7 @@ ES
 }
 {
 "
-XXX_occlusion_query2
+occlusion_query2
 "
 330
 /
@@ -737,7 +737,7 @@ ARB_ES3_compatibility
 }
 {
 "
-XXX_packed_depth_stencil
+packed_depth_stencil
 "
 300
 /
@@ -767,7 +767,7 @@ Extensions_End
 }
 {
 "
-XXX_query_objects
+query_objects
 "
 200
 /
@@ -828,7 +828,7 @@ ES
 }
 {
 "
-XXX_robustness
+robustness
 "
 0
 /
@@ -858,7 +858,7 @@ Extensions_End
 }
 {
 "
-XXX_standard_derivatives
+standard_derivatives
 "
 200
 /
@@ -884,7 +884,7 @@ Extensions_End
 }
 {
 "
-XXX_texture_float
+texture_float
 "
 310
 /
@@ -914,7 +914,7 @@ Extensions_End
 }
 {
 "
-XXX_texture_float_linear
+texture_float_linear
 "
 310
 /
@@ -944,7 +944,7 @@ Extensions_End
 }
 {
 "
-XXX_texture_non_power_of_two
+texture_non_power_of_two
 "
 200
 /
@@ -974,7 +974,7 @@ Extensions_End
 }
 {
 "
-XXX_transform_feedback
+transform_feedback
 "
 300
 /
@@ -1004,7 +1004,7 @@ Extensions_End
 }
 {
 "
-XXX_vertex_array_object
+vertex_array_object
 "
 300
 /
