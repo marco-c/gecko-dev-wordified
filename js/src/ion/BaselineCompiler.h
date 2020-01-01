@@ -893,6 +893,11 @@ JSOP_ARGUMENTS
 \
 _
 (
+JSOP_RUNONCE
+)
+\
+_
+(
 JSOP_REST
 )
 \
