@@ -3342,6 +3342,14 @@ variable
 .
 if
 (
+worker
+-
+>
+IsSuspended
+(
+)
+&
+&
 !
 worker
 -
