@@ -9333,13 +9333,15 @@ _lmStatusMenuItem
 aPopup
 .
 childNodes
-[
+.
+item
+(
 aPopup
 .
 _startMarker
 +
 1
-]
+)
 )
 ;
 aPopup
