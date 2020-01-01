@@ -38069,8 +38069,7 @@ ValueToNumber
 JSContext
 *
 cx
-Value
-*
+MutableHandleValue
 val
 )
 {
@@ -38084,9 +38083,6 @@ ToNumber
 (
 cx
 val
-[
-0
-]
 &
 dbl
 )
@@ -38095,13 +38091,13 @@ return
 false
 ;
 val
-[
-0
-]
-=
+.
+set
+(
 DoubleValue
 (
 dbl
+)
 )
 ;
 return

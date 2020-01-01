@@ -5951,10 +5951,14 @@ isString
 if
 (
 !
-ToNumber
+StringToNumber
 (
 cx
 v
+.
+toString
+(
+)
 &
 d
 )

@@ -507,16 +507,13 @@ d
 if
 (
 !
-ToNumber
+StringToNumber
 (
 cx
-StringValue
-(
 pn
 -
 >
 pn_atom
-)
 &
 d
 )

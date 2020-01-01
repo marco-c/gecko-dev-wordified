@@ -18558,9 +18558,7 @@ WebIDLCast
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 value
 NativeType
 *
@@ -18649,9 +18647,7 @@ float
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 value
 float
 *
@@ -18703,9 +18699,7 @@ double
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 value
 double
 *
@@ -18825,9 +18819,11 @@ WebIDLCast
 (
 cx
 args
-[
+.
+handleAt
+(
 1
-]
+)
 &
 value
 )
