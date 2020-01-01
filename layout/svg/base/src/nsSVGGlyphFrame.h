@@ -1434,15 +1434,6 @@ NotifyGlyphMetricsChange
 )
 ;
 PRBool
-ContainsPoint
-(
-const
-nsPoint
-&
-aPoint
-)
-;
-PRBool
 GetGlobalTransform
 (
 gfxMatrix
