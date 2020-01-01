@@ -1622,11 +1622,6 @@ NS_FAILED
 (
 rv
 )
-|
-|
-chunkSize
-<
-1
 )
 {
 chunkSize
