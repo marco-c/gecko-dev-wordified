@@ -4812,7 +4812,7 @@ this
 _resultObservers
 =
 new
-WeakMap
+Map
 (
 )
 ;
@@ -4830,7 +4830,7 @@ as
 keys
 in
 the
-weakmap
+map
 since
 /
 /
@@ -4907,7 +4907,7 @@ this
 _nodes
 =
 new
-WeakMap
+Map
 (
 )
 ;
