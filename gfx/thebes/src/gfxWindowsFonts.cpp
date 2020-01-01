@@ -1610,6 +1610,16 @@ k
 }
 }
 }
+fe
+-
+>
+mIsBadUnderlineFont
+=
+ff
+-
+>
+mIsBadUnderlineFont
+;
 /
 /
 read
