@@ -3754,6 +3754,9 @@ mHorizontalOverflow
 bool
 mReflowCallbackPosted
 ;
+bool
+mCheckingOverflow
+;
 /
 /
 Hash
