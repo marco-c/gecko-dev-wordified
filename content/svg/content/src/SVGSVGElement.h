@@ -1437,6 +1437,11 @@ float
 seconds
 )
 ;
+void
+DeselectAll
+(
+)
+;
 already_AddRefed
 <
 nsIDOMSVGNumber
