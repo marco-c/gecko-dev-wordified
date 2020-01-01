@@ -3334,7 +3334,7 @@ CMozillaBrowser
 :
 sBrowserList
 .
-Count
+Length
 (
 )
 >
@@ -3342,10 +3342,6 @@ Count
 )
 {
 return
-(
-CMozillaBrowser
-*
-)
 CMozillaBrowser
 :
 :
@@ -3373,7 +3369,7 @@ matching
 the
 one
 provided
-PRInt32
+PRUint32
 i
 ;
 for
@@ -3389,7 +3385,7 @@ CMozillaBrowser
 :
 sBrowserList
 .
-Count
+Length
 (
 )
 ;
@@ -3402,10 +3398,6 @@ CMozillaBrowser
 *
 p
 =
-(
-CMozillaBrowser
-*
-)
 CMozillaBrowser
 :
 :
