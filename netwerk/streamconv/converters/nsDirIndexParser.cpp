@@ -1158,6 +1158,7 @@ pos
 =
 aFormatStr
 ;
+unsigned
 int
 num
 =
