@@ -325,10 +325,9 @@ const
 nsCString
 &
 aMimeType
-const
-nsCString
-&
-aURIString
+nsIURI
+*
+aURI
 uint32_t
 aImageFlags
 uint32_t
@@ -352,10 +351,9 @@ const
 nsCString
 &
 aMimeType
-const
-nsCString
-&
-aURIString
+nsIURI
+*
+aURI
 uint32_t
 aImageFlags
 uint32_t

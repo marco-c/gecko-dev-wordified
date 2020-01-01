@@ -307,6 +307,9 @@ so
 nsresult
 Init
 (
+imgRequest
+*
+aOwner
 imgStatusTracker
 *
 aStatusTracker
@@ -719,6 +722,11 @@ imgIDecoderObserver
 methods
 *
 /
+void
+OnStartDecode
+(
+)
+;
 void
 OnStartContainer
 (

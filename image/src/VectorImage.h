@@ -207,10 +207,6 @@ const
 char
 *
 aMimeType
-const
-char
-*
-aURIString
 uint32_t
 aFlags
 )
@@ -316,6 +312,11 @@ VectorImage
 imgStatusTracker
 *
 aStatusTracker
+=
+nullptr
+nsIURI
+*
+aURI
 =
 nullptr
 )

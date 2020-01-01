@@ -1219,7 +1219,7 @@ when
 it
 gets
 instantiated
-nsAutoPtr
+nsRefPtr
 <
 imgStatusTracker
 >
