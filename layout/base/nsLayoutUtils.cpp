@@ -9898,6 +9898,15 @@ true
 #
 ifdef
 MOZ_DUMP_PAINTING
+FILE
+*
+savedDumpFile
+=
+gfxUtils
+:
+:
+sDumpPaintFile
+;
 if
 (
 gfxUtils
@@ -10670,7 +10679,7 @@ gfxUtils
 :
 sDumpPaintFile
 =
-NULL
+savedDumpFile
 ;
 gPaintCount
 +
