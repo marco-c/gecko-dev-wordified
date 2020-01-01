@@ -633,13 +633,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIDOM3DocumentEvent
 .
 h
@@ -2850,8 +2843,6 @@ nsIDOMDocument
 public
 nsIDOMNSDocument
 public
-nsIDOMDocumentEvent
-public
 nsIDOM3DocumentEvent
 public
 nsIDOMNSDocumentStyle
@@ -4522,10 +4513,6 @@ NS_DECL_NSIDOMXMLDOCUMENT
 /
 nsIDOMNSDocument
 NS_DECL_NSIDOMNSDOCUMENT
-/
-/
-nsIDOMDocumentEvent
-NS_DECL_NSIDOMDOCUMENTEVENT
 /
 /
 nsIDOM3DocumentEvent
@@ -6845,13 +6832,6 @@ NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
 (
 _class
 nsIDOMNSDocument
-nsDocument
-)
-\
-NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
-(
-_class
-nsIDOMDocumentEvent
 nsDocument
 )
 \

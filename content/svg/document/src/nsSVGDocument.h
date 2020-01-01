@@ -501,12 +501,6 @@ nsXMLDocument
 :
 :
 )
-NS_FORWARD_NSIDOMDOCUMENTEVENT
-(
-nsXMLDocument
-:
-:
-)
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult

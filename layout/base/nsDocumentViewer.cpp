@@ -570,13 +570,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMEvent
 .
 h
@@ -6775,9 +6768,9 @@ unload
 .
 nsCOMPtr
 <
-nsIDOMDocumentEvent
+nsIDOMDocument
 >
-docEvent
+domDoc
 =
 do_QueryInterface
 (
@@ -6790,7 +6783,7 @@ nsIDOMEvent
 >
 event
 ;
-docEvent
+domDoc
 -
 >
 CreateEvent

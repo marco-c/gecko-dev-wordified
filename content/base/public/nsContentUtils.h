@@ -5575,7 +5575,7 @@ created
 by
 calling
 *
-nsIDOMDocumentEvent
+nsIDOMDocument
 :
 :
 CreateEvent
@@ -5719,7 +5719,7 @@ created
 by
 calling
 *
-nsIDOMDocumentEvent
+nsIDOMDocument
 :
 :
 CreateEvent

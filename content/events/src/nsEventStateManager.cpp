@@ -982,13 +982,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIDOMMouseScrollEvent
 .
 h

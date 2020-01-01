@@ -575,13 +575,6 @@ nsIDOMNSDocument
 .
 h
 "
-#
-include
-"
-nsIDOMDocumentEvent
-.
-h
-"
 /
 /
 Notify

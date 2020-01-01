@@ -21717,9 +21717,9 @@ do
 {
 nsCOMPtr
 <
-nsIDOMDocumentEvent
+nsIDOMDocument
 >
-document_event
+domDoc
 =
 do_QueryInterface
 (
@@ -21740,10 +21740,10 @@ privateEvent
 ;
 if
 (
-document_event
+domDoc
 )
 {
-document_event
+domDoc
 -
 >
 CreateEvent
