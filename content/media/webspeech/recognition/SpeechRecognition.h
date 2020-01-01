@@ -162,7 +162,14 @@ h
 #
 include
 "
-MediaManager
+nsIDOMNavigatorUserMedia
+.
+h
+"
+#
+include
+"
+nsITimer
 .
 h
 "
