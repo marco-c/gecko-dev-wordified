@@ -177,11 +177,6 @@ opus
 .
 h
 >
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -191,7 +186,6 @@ opus_multistream
 .
 h
 "
-}
 /
 /
 For
