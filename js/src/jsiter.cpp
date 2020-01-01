@@ -597,9 +597,6 @@ JSContext
 cx
 JSObject
 *
-obj
-JSObject
-*
 pobj
 jsid
 id
@@ -615,17 +612,6 @@ AutoIdVector
 props
 )
 {
-JS_ASSERT_IF
-(
-flags
-&
-JSITER_OWNONLY
-obj
-=
-=
-pobj
-)
-;
 /
 *
 *
@@ -944,9 +930,6 @@ JSContext
 cx
 JSObject
 *
-obj_
-JSObject
-*
 pobj_
 unsigned
 flags
@@ -959,11 +942,6 @@ props
 )
 {
 RootedObject
-obj
-(
-cx
-obj_
-)
 pobj
 (
 cx
@@ -1071,7 +1049,6 @@ propid
 Enumerate
 (
 cx
-obj
 pobj
 shape
 .
@@ -1127,9 +1104,6 @@ JSContext
 cx
 JSObject
 *
-obj
-JSObject
-*
 pobj
 unsigned
 flags
@@ -1147,7 +1121,6 @@ if
 Enumerate
 (
 cx
-obj
 pobj
 NameToId
 (
@@ -1260,7 +1233,6 @@ if
 Enumerate
 (
 cx
-obj
 pobj
 INT_TO_JSID
 (
@@ -1422,7 +1394,7 @@ JSContext
 *
 cx
 RawObject
-obj_
+pobj_
 unsigned
 flags
 AutoIdVector
@@ -1450,19 +1422,11 @@ return
 false
 ;
 RootedObject
-obj
-(
-cx
-obj_
-)
 pobj
 (
 cx
+pobj_
 )
-;
-pobj
-=
-obj
 ;
 do
 {
@@ -1531,7 +1495,6 @@ if
 EnumerateNativeProperties
 (
 cx
-obj
 pobj
 flags
 ht
@@ -1559,7 +1522,6 @@ if
 EnumerateDenseArrayProperties
 (
 cx
-obj
 pobj
 flags
 ht
@@ -1739,7 +1701,6 @@ if
 Enumerate
 (
 cx
-obj
 pobj
 proxyProps
 [
@@ -1837,7 +1798,6 @@ if
 EnumerateNativeProperties
 (
 cx
-obj
 pobj
 flags
 ht
@@ -1897,7 +1857,6 @@ if
 Enumerate
 (
 cx
-obj
 pobj
 id
 true
