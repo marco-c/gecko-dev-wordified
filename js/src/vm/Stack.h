@@ -6657,7 +6657,7 @@ ret
 ;
 }
 inline
-JSObject
+CallObject
 &
 callObj
 (
@@ -6677,7 +6677,7 @@ inline
 void
 setScopeChainWithOwnCallObj
 (
-JSObject
+CallObject
 &
 obj
 )

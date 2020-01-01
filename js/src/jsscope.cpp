@@ -1259,9 +1259,9 @@ Shape
 :
 hashify
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 JS_ASSERT
@@ -1271,6 +1271,15 @@ hasTable
 (
 )
 )
+;
+JSRuntime
+*
+rt
+=
+cx
+-
+>
+runtime
 ;
 PropertyTable
 *
@@ -2445,9 +2454,6 @@ newShape
 hashify
 (
 cx
--
->
-runtime
 )
 ;
 }
@@ -3223,9 +3229,6 @@ root
 hashify
 (
 cx
--
->
-runtime
 )
 ;
 return
@@ -4152,6 +4155,7 @@ spp
 =
 nativeSearch
 (
+cx
 id
 true
 )
@@ -4270,6 +4274,7 @@ spp
 =
 nativeSearch
 (
+cx
 id
 true
 )
@@ -4817,6 +4822,7 @@ spp
 =
 nativeSearch
 (
+cx
 id
 true
 )
@@ -5147,6 +5153,7 @@ spp
 =
 nativeSearch
 (
+cx
 shape
 -
 >
@@ -5928,6 +5935,7 @@ JS_ASSERT
 (
 nativeContains
 (
+cx
 *
 shape
 )
@@ -6458,6 +6466,7 @@ spp
 =
 nativeSearch
 (
+cx
 shape
 -
 >
@@ -6624,6 +6633,7 @@ spp
 =
 nativeSearch
 (
+cx
 id
 )
 ;
@@ -6753,6 +6763,7 @@ spp
 =
 nativeSearch
 (
+cx
 shape
 -
 >
@@ -6970,6 +6981,7 @@ aprop
 shape
 nativeContains
 (
+cx
 *
 aprop
 )

@@ -2482,6 +2482,7 @@ if
 !
 HasDataProperty
 (
+cx
 obj
 methodid
 &
@@ -2520,6 +2521,7 @@ clasp
 !
 HasDataProperty
 (
+cx
 proto
 methodid
 &
@@ -3578,7 +3580,7 @@ slots
 namespace
 js
 {
-JSObject
+CallObject
 *
 CreateFunCallObject
 (
@@ -3590,7 +3592,7 @@ StackFrame
 fp
 )
 ;
-JSObject
+CallObject
 *
 CreateEvalCallObject
 (

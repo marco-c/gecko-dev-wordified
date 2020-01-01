@@ -1057,6 +1057,9 @@ struct
 PropertyCacheEntry
 ;
 struct
+PropertyDescriptor
+;
+struct
 Shape
 ;
 struct
