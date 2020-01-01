@@ -2573,13 +2573,6 @@ function
 resp
 )
 {
-alert
-(
-"
-yay
-"
-)
-;
 }
 ;
 var
