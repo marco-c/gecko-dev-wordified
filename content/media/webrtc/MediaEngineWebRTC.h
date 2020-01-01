@@ -212,6 +212,8 @@ Engine
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -223,6 +225,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -234,6 +238,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -245,6 +251,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -256,6 +264,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -267,6 +277,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -278,6 +290,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -289,6 +303,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -304,6 +320,8 @@ Engine
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -315,6 +333,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -326,6 +346,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -337,6 +359,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -348,6 +372,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -1721,26 +1747,21 @@ VoEMediaProcess
 void
 Process
 (
-const
 int
 channel
-const
 webrtc
 :
 :
 ProcessingTypes
 type
-WebRtc_Word16
+int16_t
 audio10ms
 [
 ]
-const
 int
 length
-const
 int
 samplingFreq
-const
 bool
 isStereo
 )

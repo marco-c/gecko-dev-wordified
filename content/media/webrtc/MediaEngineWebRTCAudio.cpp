@@ -1749,7 +1749,7 @@ false
 ;
 }
 typedef
-WebRtc_Word16
+int16_t
 sample
 ;
 void
@@ -1758,10 +1758,8 @@ MediaEngineWebRTCAudioSource
 :
 Process
 (
-const
 int
 channel
-const
 webrtc
 :
 :
@@ -1770,13 +1768,10 @@ type
 sample
 *
 audio10ms
-const
 int
 length
-const
 int
 samplingFreq
-const
 bool
 isStereo
 )

@@ -147,6 +147,12 @@ WEBRTC_LINUX
 |
 defined
 (
+WEBRTC_BSD
+)
+|
+|
+defined
+(
 WEBRTC_MAC
 )
 #
@@ -252,6 +258,12 @@ elif
 defined
 (
 WEBRTC_LINUX
+)
+|
+|
+defined
+(
+WEBRTC_BSD
 )
 |
 |

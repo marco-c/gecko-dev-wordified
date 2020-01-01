@@ -86,6 +86,8 @@ Includes
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -93,6 +95,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -104,6 +108,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -115,6 +121,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -126,6 +134,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -137,6 +147,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -148,6 +160,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -159,6 +173,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
