@@ -440,7 +440,6 @@ resource
 :
 /
 /
-app
 /
 modules
 /
