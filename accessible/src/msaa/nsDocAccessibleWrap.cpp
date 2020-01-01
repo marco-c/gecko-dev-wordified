@@ -1588,7 +1588,6 @@ GetURL
 (
 URL
 )
-)
 ;
 if
 (
@@ -1694,7 +1693,6 @@ rv
 GetTitle
 (
 title
-)
 )
 ;
 if
@@ -1802,7 +1800,6 @@ GetMimeType
 (
 mimeType
 )
-)
 ;
 if
 (
@@ -1908,7 +1905,6 @@ rv
 GetDocType
 (
 docType
-)
 )
 ;
 if
@@ -2040,7 +2036,6 @@ GetNameSpaceURIForID
 (
 aNameSpaceID
 nameSpaceURI
-)
 )
 ;
 if
