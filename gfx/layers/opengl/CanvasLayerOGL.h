@@ -589,12 +589,6 @@ const
 nsIntPoint
 &
 aOffset
-float
-aOpacity
-const
-gfx3DMatrix
-&
-aMatrix
 )
 ;
 protected
@@ -618,9 +612,6 @@ MakeTexture
 ;
 GLuint
 mTexture
-;
-nsIntRect
-mBounds
 ;
 nsIntRect
 mUpdatedRect
@@ -781,12 +772,6 @@ const
 nsIntPoint
 &
 aOffset
-float
-aOpacity
-const
-gfx3DMatrix
-&
-aMatrix
 )
 ;
 private

@@ -520,12 +520,6 @@ virtual
 void
 RenderLayer
 (
-float
-aOpacity
-const
-gfx3DMatrix
-&
-aTransform
 )
 ;
 virtual

@@ -493,10 +493,6 @@ LayerD3D10
 (
 aManager
 )
-mTexture
-(
-0
-)
 mDataIsPremultiplied
 (
 PR_FALSE
@@ -562,12 +558,6 @@ virtual
 void
 RenderLayer
 (
-float
-aOpacity
-const
-gfx3DMatrix
-&
-aTransform
 )
 ;
 private
@@ -594,9 +584,6 @@ GLContext
 >
 mGLContext
 ;
-PRUint32
-mCanvasFramebuffer
-;
 nsRefPtr
 <
 ID3D10Texture2D
@@ -609,8 +596,8 @@ ID3D10ShaderResourceView
 >
 mSRView
 ;
-nsIntRect
-mBounds
+PRUint32
+mCanvasFramebuffer
 ;
 PRPackedBool
 mDataIsPremultiplied
