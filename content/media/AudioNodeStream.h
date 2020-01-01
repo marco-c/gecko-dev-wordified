@@ -482,6 +482,12 @@ GetCurrentPosition
 (
 )
 ;
+bool
+AllInputsFinished
+(
+)
+const
+;
 /
 /
 Any

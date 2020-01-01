@@ -211,6 +211,10 @@ AudioNode
 aNode
 )
 ;
+friend
+class
+DelayNodeEngine
+;
 private
 :
 nsRefPtr
@@ -218,6 +222,12 @@ nsRefPtr
 AudioParam
 >
 mDelay
+;
+SelfReference
+<
+DelayNode
+>
+mPlayingRef
 ;
 }
 ;
