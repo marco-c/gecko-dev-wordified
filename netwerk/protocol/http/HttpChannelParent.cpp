@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsIBadCertListener2
-.
-h
-"
-#
-include
-"
 nsICacheEntryDescriptor
 .
 h
