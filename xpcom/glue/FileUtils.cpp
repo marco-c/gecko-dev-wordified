@@ -2781,7 +2781,7 @@ cpu_mach_header
 )
 ]
 ;
-off_t
+uint32_t
 end
 =
 0
