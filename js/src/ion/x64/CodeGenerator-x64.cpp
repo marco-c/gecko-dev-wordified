@@ -624,7 +624,7 @@ output
 ;
 masm
 .
-loadDouble
+loadConstantDouble
 (
 ins
 -

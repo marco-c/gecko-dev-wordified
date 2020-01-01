@@ -2727,7 +2727,7 @@ rax
 ;
 masm
 .
-movzxh
+movzwl
 (
 Operand
 (
