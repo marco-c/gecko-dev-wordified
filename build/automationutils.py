@@ -3094,17 +3094,16 @@ leaks
 !
 "
 )
-  
-else
-:
     
+return
+  
 if
 totalBytesLeaked
 =
 =
 0
 :
-      
+    
 log
 .
 info
@@ -3127,9 +3126,8 @@ detected
 processString
 )
     
-else
-:
-      
+return
+  
 #
 Only
 fail
@@ -3148,13 +3146,13 @@ defaults
 to
 0
 )
-      
+  
 if
 totalBytesLeaked
 >
 leakThreshold
 :
-        
+    
 prefix
 =
 "
@@ -3164,16 +3162,16 @@ UNEXPECTED
 -
 FAIL
 "
-      
+  
 else
 :
-        
+    
 prefix
 =
 "
 WARNING
 "
-      
+  
 #
 Create
 a
@@ -3187,7 +3185,7 @@ N
 leaked
 objects
 found
-      
+  
 #
 to
 aid
@@ -3197,11 +3195,11 @@ summary
 matching
 in
 TBPL
-      
+  
 maxSummaryObjects
 =
 5
-      
+  
 leakedObjectSummary
 =
 '
@@ -3215,7 +3213,7 @@ leakedObjectNames
 maxSummaryObjects
 ]
 )
-      
+  
 #
 The
 leaked
@@ -3227,7 +3225,7 @@ the
 maxSummaryObjects
 threshold
 has
-      
+  
 #
 been
 exceeded
@@ -3243,7 +3241,7 @@ alphabetically
 )
 so
 we
-      
+  
 #
 add
 a
@@ -3257,7 +3255,7 @@ there
 are
 others
 .
-      
+  
 if
 len
 (
@@ -3266,7 +3264,7 @@ leakedObjectNames
 >
 maxSummaryObjects
 :
-        
+    
 leakedObjectSummary
 +
 =
@@ -3275,7 +3273,7 @@ leakedObjectSummary
 .
 .
 '
-      
+  
 log
 .
 info
@@ -3297,7 +3295,7 @@ leaked
 s
 )
 "
-               
+           
 %
 (
 prefix
