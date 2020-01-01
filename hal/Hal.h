@@ -1628,7 +1628,7 @@ clock
 void
 AdjustSystemClock
 (
-int32_t
+int64_t
 aDeltaMilliseconds
 )
 ;

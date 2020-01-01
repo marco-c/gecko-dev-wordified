@@ -304,12 +304,9 @@ hal
 :
 AdjustSystemClock
 (
-JS_DoubleToInt32
-(
 dateMSec
 -
 nowMSec
-)
 )
 ;
 return
