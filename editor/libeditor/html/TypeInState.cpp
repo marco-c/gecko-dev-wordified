@@ -2351,10 +2351,6 @@ aAttr
 PRInt32
 index
 ;
-PropItem
-*
-item
-;
 if
 (
 !
