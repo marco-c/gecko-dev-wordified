@@ -7208,9 +7208,6 @@ break
 #
 endif
 case
-NS_DRAGDROP_DROP
-:
-case
 NS_DRAGDROP_OVER
 :
 /
@@ -22075,9 +22072,6 @@ mCurrentTarget
 }
 break
 ;
-case
-NS_DRAGDROP_DROP
-:
 case
 NS_DRAGDROP_EXIT
 :
