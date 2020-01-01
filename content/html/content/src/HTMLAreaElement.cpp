@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-MemoryReporting
+Attributes
 .
 h
 "
@@ -148,9 +148,9 @@ h
 #
 include
 "
-base
+mozilla
 /
-compiler_specific
+MemoryReporting
 .
 h
 "
@@ -180,11 +180,10 @@ nsGenericHTMLElement
 (
 aNodeInfo
 )
-ALLOW_THIS_IN_INITIALIZER_LIST
-(
 Link
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
 )
 )
 {
