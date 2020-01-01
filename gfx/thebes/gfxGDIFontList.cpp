@@ -1499,7 +1499,7 @@ p
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 16384
@@ -1727,7 +1727,7 @@ GetFontTable
 (
 PRUint32
 aTableTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -5470,7 +5470,7 @@ glyphs
 use
 EOT
 library
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 2048
@@ -5720,7 +5720,7 @@ name
 table
 load
 directly
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

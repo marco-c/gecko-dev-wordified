@@ -872,7 +872,7 @@ gfxSkipChars
 private
 :
 typedef
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 256

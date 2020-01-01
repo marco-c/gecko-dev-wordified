@@ -2238,7 +2238,7 @@ B
 )
 :
 {
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -2454,7 +2454,7 @@ len
 0
 )
 {
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

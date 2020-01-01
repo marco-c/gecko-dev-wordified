@@ -8519,7 +8519,7 @@ PRUint8
 aFontData
 PRUint32
 aFontDataLength
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -9536,7 +9536,7 @@ gfxFontUtils
 :
 ReadNames
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -9571,7 +9571,7 @@ gfxFontUtils
 :
 ReadCanonicalName
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -11153,7 +11153,7 @@ gfxFontUtils
 :
 ReadNames
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -12660,7 +12660,7 @@ PRUint8
 aFontData
 PRUint32
 aFontDataLength
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

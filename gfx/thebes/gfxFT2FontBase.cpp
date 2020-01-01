@@ -1527,7 +1527,7 @@ blob
 return
 blob
 ;
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

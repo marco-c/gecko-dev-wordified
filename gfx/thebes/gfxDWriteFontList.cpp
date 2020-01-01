@@ -1506,7 +1506,7 @@ GetFontTable
 (
 PRUint32
 aTableTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -2311,7 +2311,7 @@ return
 nsnull
 ;
 }
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

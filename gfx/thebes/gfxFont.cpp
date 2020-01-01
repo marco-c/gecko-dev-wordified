@@ -839,7 +839,7 @@ p
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 16384
@@ -1215,7 +1215,7 @@ deleted
 .
 FontTableBlobData
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1414,7 +1414,7 @@ owned
 via
 adoption
 )
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1479,7 +1479,7 @@ FontTableHashEntry
 :
 SaveTable
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1540,7 +1540,7 @@ FontTableHashEntry
 :
 ShareTableAndGetBlob
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1913,7 +1913,7 @@ ShareFontTableAndGetBlob
 (
 PRUint32
 aTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -2038,7 +2038,7 @@ PreloadFontTable
 (
 PRUint32
 aTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -4828,7 +4828,7 @@ ReadOtherFamilyNamesForFace
 gfxPlatformFontList
 *
 aPlatformFontList
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -5235,7 +5235,7 @@ e
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 8192
@@ -5509,7 +5509,7 @@ e
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 8192
@@ -6816,7 +6816,7 @@ blob
 return
 blob
 ;
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -10425,7 +10425,7 @@ don
 t
 know
 unitsPerEm
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof
@@ -10540,7 +10540,7 @@ to
 get
 vertical
 extents
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof
@@ -10695,7 +10695,7 @@ required
 for
 underline
 metrics
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof
@@ -10832,7 +10832,7 @@ aveCharWidth
 by
 measuring
 glyphs
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof

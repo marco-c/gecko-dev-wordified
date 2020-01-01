@@ -1549,7 +1549,7 @@ int
 ConstructorType
 ;
 typedef
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1564,10 +1564,7 @@ ConstructorType
 aBlob
 )
 {
-nsTArray
-<
-PRUint8
->
+StorageType
 data
 (
 aBlob
@@ -1620,7 +1617,7 @@ inline
 nsresult
 asArray
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

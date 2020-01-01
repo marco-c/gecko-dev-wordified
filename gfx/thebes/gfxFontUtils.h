@@ -4396,7 +4396,7 @@ PRUint8
 aFontData
 PRUint32
 aFontDataLength
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -4537,7 +4537,7 @@ PRUint8
 aFontData
 PRUint32
 aFontDataLength
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -4560,7 +4560,7 @@ static
 nsresult
 ReadNames
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -4600,7 +4600,7 @@ static
 nsresult
 ReadCanonicalName
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -5037,7 +5037,7 @@ static
 nsresult
 ReadNames
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

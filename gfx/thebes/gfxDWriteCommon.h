@@ -671,7 +671,7 @@ NS_FONT_STRETCH_NORMAL
 struct
 ffReferenceKey
 {
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -826,7 +826,7 @@ pointer
 to
 an
 *
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -877,14 +877,14 @@ a
 pointer
 to
 an
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
 .
 This
-array
 *
+array
 will
 be
 empty
@@ -1007,7 +1007,7 @@ data
 /
 gfxDWriteFontFileStream
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1235,7 +1235,7 @@ lastWriteTime
 ;
 private
 :
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
