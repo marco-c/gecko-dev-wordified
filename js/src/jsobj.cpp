@@ -18393,9 +18393,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-scope
 )
 {
 JSObject
@@ -18424,7 +18421,6 @@ proto
 thisObject
 (
 cx
-scope
 )
 ;
 }

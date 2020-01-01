@@ -15306,13 +15306,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-/
-*
-scope
-*
-/
 )
 {
 OBJ_TO_OUTER_OBJECT
