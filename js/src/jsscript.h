@@ -1184,7 +1184,7 @@ length
 ;
 }
 ;
-class
+struct
 Shape
 ;
 enum

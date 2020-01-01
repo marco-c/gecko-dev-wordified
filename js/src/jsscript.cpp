@@ -2940,9 +2940,12 @@ ARGUMENT
 (
 i
 <
+uintN
+(
 nargs
 +
 nvars
+)
 )
 ?
 (
