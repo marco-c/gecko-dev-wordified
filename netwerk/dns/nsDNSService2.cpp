@@ -1506,7 +1506,14 @@ host
 )
 mListener
 (
+new
+nsMainThreadPtrHolder
+<
+nsIDNSListener
+>
+(
 listener
+)
 )
 mFlags
 (
@@ -1592,7 +1599,7 @@ we
 '
 re
 resolving
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIDNSListener
 >
@@ -1723,10 +1730,6 @@ this
 rec
 status
 )
-;
-mListener
-=
-nullptr
 ;
 /
 /
