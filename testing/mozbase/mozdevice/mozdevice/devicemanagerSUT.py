@@ -101,14 +101,6 @@ debug
 =
 2
     
-tempRoot
-=
-os
-.
-getcwd
-(
-)
-    
 base_prompt
 =
 '
@@ -5232,9 +5224,6 @@ getFile
 self
 remoteFile
 localFile
-=
-'
-'
 )
 :
         
@@ -5258,32 +5247,6 @@ localFile
 "
 "
 "
-        
-if
-localFile
-=
-=
-'
-'
-:
-            
-localFile
-=
-os
-.
-path
-.
-join
-(
-self
-.
-tempRoot
-"
-temp
-.
-txt
-"
-)
         
 data
 =
