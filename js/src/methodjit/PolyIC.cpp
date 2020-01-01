@@ -17688,7 +17688,7 @@ Lookup_Cacheable
 #
 if
 defined
-JS_POLYIC_TYPED_ARRAY
+JS_METHODJIT_TYPED_ARRAY
 LookupStatus
 GetElementIC
 :
@@ -18343,7 +18343,7 @@ Lookup_Cacheable
 endif
 /
 *
-JS_POLYIC_TYPED_ARRAY
+JS_METHODJIT_TYPED_ARRAY
 *
 /
 LookupStatus
@@ -18394,7 +18394,7 @@ vp
 #
 if
 defined
-JS_POLYIC_TYPED_ARRAY
+JS_METHODJIT_TYPED_ARRAY
 /
 *
 *
@@ -20510,7 +20510,7 @@ Lookup_Cacheable
 #
 if
 defined
-JS_POLYIC_TYPED_ARRAY
+JS_METHODJIT_TYPED_ARRAY
 LookupStatus
 SetElementIC
 :
@@ -21128,7 +21128,7 @@ Lookup_Cacheable
 endif
 /
 *
-JS_POLYIC_TYPED_ARRAY
+JS_METHODJIT_TYPED_ARRAY
 *
 /
 LookupStatus
@@ -21230,7 +21230,7 @@ key
 #
 if
 defined
-JS_POLYIC_TYPED_ARRAY
+JS_METHODJIT_TYPED_ARRAY
 /
 *
 Not

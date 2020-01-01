@@ -6068,6 +6068,9 @@ dataReg
 )
 ;
 }
+#
+ifdef
+JS_METHODJIT_TYPED_ARRAY
 /
 /
 Load
@@ -7848,6 +7851,13 @@ this
 )
 ;
 }
+#
+endif
+/
+*
+JS_METHODJIT_TYPED_ARRAY
+*
+/
 Address
 objPropAddress
 (
