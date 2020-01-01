@@ -1327,6 +1327,8 @@ MOZ_ASSERT
 constructed
 )
 ;
+:
+:
 new
 (
 storage
@@ -1364,6 +1366,8 @@ MOZ_ASSERT
 constructed
 )
 ;
+:
+:
 new
 (
 storage
@@ -1408,6 +1412,8 @@ MOZ_ASSERT
 constructed
 )
 ;
+:
+:
 new
 (
 storage
@@ -1459,6 +1465,8 @@ MOZ_ASSERT
 constructed
 )
 ;
+:
+:
 new
 (
 storage
@@ -1517,6 +1525,8 @@ MOZ_ASSERT
 constructed
 )
 ;
+:
+:
 new
 (
 storage
