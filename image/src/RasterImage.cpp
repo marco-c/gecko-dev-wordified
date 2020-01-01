@@ -2231,7 +2231,7 @@ nullptr
 #
 ifndef
 DEBUG
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 RasterImage
 imgIContainer
@@ -2239,7 +2239,7 @@ nsIProperties
 )
 #
 else
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 RasterImage
 imgIContainer
@@ -19374,7 +19374,7 @@ return
 rv
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 RasterImage
 :
