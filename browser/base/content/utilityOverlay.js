@@ -194,12 +194,6 @@ window
 gPrivateBrowsingUI
 .
 privateWindow
-&
-&
-!
-gPrivateBrowsingUI
-.
-autoStarted
 )
 return
 "
