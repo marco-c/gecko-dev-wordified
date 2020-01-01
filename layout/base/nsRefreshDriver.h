@@ -807,11 +807,6 @@ imgIRequest
 aRequest
 )
 ;
-void
-ClearAllImageRequests
-(
-)
-;
 /
 *
 *
