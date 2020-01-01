@@ -10739,6 +10739,10 @@ DestroyPresContext
 (
 )
 ;
+mWindow
+=
+nsnull
+;
 InitInternal
 (
 mParentWidget
