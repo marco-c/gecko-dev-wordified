@@ -572,7 +572,7 @@ gfx
 /
 idl
 /
-gfxtypes
+gfxidltypes
 .
 idl
 .
