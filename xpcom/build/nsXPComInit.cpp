@@ -877,7 +877,7 @@ ifdef
 XP_WIN
 extern
 nsresult
-ScheduleMediaCacheRemover
+ScheduleAnonTempFileRemover
 (
 )
 ;
@@ -2515,7 +2515,7 @@ NS_XPCOM_STARTUP_OBSERVER_ID
 #
 ifdef
 XP_WIN
-ScheduleMediaCacheRemover
+ScheduleAnonTempFileRemover
 (
 )
 ;
