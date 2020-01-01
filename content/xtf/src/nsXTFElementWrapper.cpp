@@ -5315,7 +5315,7 @@ nsXTFElementWrapper
 :
 SetIntrinsicState
 (
-PRInt32
+PRUint64
 aNewState
 )
 {
@@ -5327,7 +5327,7 @@ GetCurrentDoc
 (
 )
 ;
-PRInt32
+PRUint64
 bits
 =
 mIntrinsicState
@@ -5398,6 +5398,9 @@ ContentStatesChanged
 (
 this
 nsnull
+(
+PRInt32
+)
 bits
 )
 ;

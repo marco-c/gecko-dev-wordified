@@ -1113,7 +1113,7 @@ IntrinsicState
 )
 *
 /
-PRInt32
+PRUint64
 mIntrinsicState
 ;
 /

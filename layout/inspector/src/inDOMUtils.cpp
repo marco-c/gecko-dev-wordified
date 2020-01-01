@@ -1596,7 +1596,7 @@ SetContentState
 nsIDOMElement
 *
 aElement
-PRInt32
+PRUint64
 aState
 )
 {
@@ -1644,6 +1644,9 @@ esm
 SetContentState
 (
 content
+(
+PRInt32
+)
 aState
 )
 ;
@@ -1661,7 +1664,7 @@ GetContentState
 nsIDOMElement
 *
 aElement
-PRInt32
+PRUint64
 *
 aState
 )
