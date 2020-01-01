@@ -4412,7 +4412,7 @@ cell
 {
 if
 (
-GetDocAccessible
+Document
 (
 )
 -
