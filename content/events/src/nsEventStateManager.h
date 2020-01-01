@@ -234,6 +234,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsIFrame
+.
+h
+"
 class
 nsIPresShell
 ;

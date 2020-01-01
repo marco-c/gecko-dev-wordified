@@ -690,9 +690,6 @@ ClearStyleAndImageCaches
 (
 )
 ;
-/
-/
-nsIBox
 virtual
 nsSize
 GetMinSize

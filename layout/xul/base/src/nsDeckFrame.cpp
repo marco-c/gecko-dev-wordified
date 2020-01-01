@@ -428,7 +428,7 @@ nsDeckFrame
 :
 HideBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -487,7 +487,7 @@ the
 currently
 showing
 box
-nsIBox
+nsIFrame
 *
 currentBox
 =
@@ -730,7 +730,7 @@ paint
 the
 selected
 box
-nsIBox
+nsIFrame
 *
 box
 =
@@ -875,7 +875,7 @@ but
 the
 selected
 one
-nsIBox
+nsIFrame
 *
 box
 =

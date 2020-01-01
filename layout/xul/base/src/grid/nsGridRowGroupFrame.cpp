@@ -337,7 +337,7 @@ totalFlex
 =
 0
 ;
-nsIBox
+nsIFrame
 *
 child
 =

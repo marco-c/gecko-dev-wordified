@@ -149,7 +149,7 @@ nsBoxLayout
 :
 AddBorderAndPadding
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -173,7 +173,7 @@ nsBoxLayout
 :
 AddMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -222,7 +222,7 @@ nsBoxLayout
 :
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -253,7 +253,7 @@ nsBoxLayout
 :
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -284,7 +284,7 @@ nsBoxLayout
 :
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -325,7 +325,7 @@ nsBoxLayout
 :
 GetAscent
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -343,7 +343,7 @@ nsBoxLayout
 :
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState

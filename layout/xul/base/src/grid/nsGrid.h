@@ -463,7 +463,7 @@ true
 void
 DirtyRows
 (
-nsIBox
+nsIFrame
 *
 aRowBox
 nsBoxLayoutState
@@ -505,7 +505,7 @@ accessors
 void
 SetBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -515,7 +515,7 @@ mBox
 aBox
 ;
 }
-nsIBox
+nsIFrame
 *
 GetBox
 (
@@ -525,7 +525,7 @@ return
 mBox
 ;
 }
-nsIBox
+nsIFrame
 *
 GetRowsBox
 (
@@ -535,7 +535,7 @@ return
 mRowsBox
 ;
 }
-nsIBox
+nsIFrame
 *
 GetColumnsBox
 (
@@ -564,21 +564,21 @@ true
 )
 ;
 static
-nsIBox
+nsIFrame
 *
 GetScrolledBox
 (
-nsIBox
+nsIFrame
 *
 aChild
 )
 ;
 static
-nsIBox
+nsIFrame
 *
 GetScrollBox
 (
-nsIBox
+nsIFrame
 *
 aChild
 )
@@ -588,7 +588,7 @@ nsIGridPart
 *
 GetPartFromBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -622,7 +622,7 @@ private
 nsMargin
 GetBoxTotalMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool
@@ -639,11 +639,11 @@ FreeMap
 void
 FindRowsAndColumns
 (
-nsIBox
+nsIFrame
 *
 *
 aRows
-nsIBox
+nsIFrame
 *
 *
 aColumns
@@ -652,7 +652,7 @@ aColumns
 void
 BuildRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -699,7 +699,7 @@ true
 void
 CountRowsColumns
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -741,7 +741,7 @@ true
 bool
 IsGrid
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -757,7 +757,7 @@ the
 grid
 >
 tag
-nsIBox
+nsIFrame
 *
 mBox
 ;
@@ -801,7 +801,7 @@ rows
 >
 tag
 .
-nsIBox
+nsIFrame
 *
 mRowsBox
 ;
@@ -822,7 +822,7 @@ columns
 >
 tag
 .
-nsIBox
+nsIFrame
 *
 mColumnsBox
 ;

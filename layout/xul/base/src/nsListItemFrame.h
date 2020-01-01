@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsGridRowLeafFrame
 .
 h
@@ -184,9 +177,6 @@ nsDisplayListSet
 aLists
 )
 ;
-/
-/
-nsIBox
 virtual
 nsSize
 GetPrefSize

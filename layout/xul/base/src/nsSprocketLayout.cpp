@@ -304,7 +304,7 @@ nsSprocketLayout
 :
 IsHorizontal
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -331,7 +331,7 @@ nsSprocketLayout
 :
 GetFrameState
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsFrameState
@@ -353,7 +353,7 @@ static
 PRUint8
 GetFrameDirection
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -374,7 +374,7 @@ static
 void
 HandleBoxPack
 (
-nsIBox
+nsIFrame
 *
 aBox
 const
@@ -720,7 +720,7 @@ pack
 alignment
 information
 .
-nsIBox
+nsIFrame
 :
 :
 Halignment
@@ -733,7 +733,7 @@ GetHAlign
 (
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 Valignment
@@ -1121,7 +1121,7 @@ nsSprocketLayout
 :
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -1170,7 +1170,7 @@ IsCollapsed
 )
 )
 {
-nsIBox
+nsIFrame
 *
 child
 =
@@ -2172,7 +2172,7 @@ childBoxSize
 =
 boxSizes
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -4459,7 +4459,7 @@ y
 origY
 )
 {
-nsIBox
+nsIFrame
 *
 child
 =
@@ -4624,7 +4624,7 @@ nsSprocketLayout
 :
 PopulateBoxSizes
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -4830,7 +4830,7 @@ way
 /
 set
 flexes
-nsIBox
+nsIFrame
 *
 child
 =
@@ -5853,7 +5853,7 @@ nsSprocketLayout
 :
 ComputeChildsNextPosition
 (
-nsIBox
+nsIFrame
 *
 aBox
 const
@@ -5994,7 +5994,7 @@ nsSprocketLayout
 :
 AlignChildren
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -6068,13 +6068,13 @@ only
 calculated
 if
 needed
-nsIBox
+nsIFrame
 :
 :
 Halignment
 halign
 ;
-nsIBox
+nsIFrame
 :
 :
 Valignment
@@ -6145,7 +6145,7 @@ GetHAlign
 )
 ;
 }
-nsIBox
+nsIFrame
 *
 child
 =
@@ -6514,13 +6514,13 @@ nsSprocketLayout
 :
 ChildResized
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 nsBoxSize
@@ -7305,7 +7305,7 @@ nsSprocketLayout
 :
 ComputeChildSizes
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -8146,7 +8146,7 @@ nsSprocketLayout
 :
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -8198,7 +8198,7 @@ size
 of
 the
 box
-nsIBox
+nsIFrame
 *
 child
 =
@@ -8390,7 +8390,7 @@ nsSprocketLayout
 :
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -8442,7 +8442,7 @@ size
 of
 the
 box
-nsIBox
+nsIFrame
 *
 child
 =
@@ -8706,7 +8706,7 @@ nsSprocketLayout
 :
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -8758,7 +8758,7 @@ size
 of
 the
 box
-nsIBox
+nsIFrame
 *
 child
 =
@@ -9016,7 +9016,7 @@ nsSprocketLayout
 :
 GetAscent
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -9061,7 +9061,7 @@ size
 of
 the
 box
-nsIBox
+nsIFrame
 *
 child
 =

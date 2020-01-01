@@ -119,11 +119,6 @@ nsSize
 class
 nsIFrame
 ;
-typedef
-class
-nsIFrame
-nsIBox
-;
 /
 *
 *
@@ -248,7 +243,7 @@ IsCollapsed
 /
 /
 accessors
-nsIBox
+nsIFrame
 *
 GetBoxInColumn
 (
@@ -258,7 +253,7 @@ return
 mBoxInColumn
 ;
 }
-nsIBox
+nsIFrame
 *
 GetBoxInRow
 (
@@ -271,7 +266,7 @@ mBoxInRow
 void
 SetBoxInRow
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -284,7 +279,7 @@ aBox
 void
 SetBoxInColumn
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -296,11 +291,11 @@ aBox
 }
 private
 :
-nsIBox
+nsIFrame
 *
 mBoxInColumn
 ;
-nsIBox
+nsIFrame
 *
 mBoxInRow
 ;

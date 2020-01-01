@@ -2015,7 +2015,7 @@ GetScrollbarMetrics
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -7866,7 +7866,7 @@ bool
 widthSet
 heightSet
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSPrefSize
@@ -8062,7 +8062,7 @@ bool
 widthSet
 heightSet
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMinSize
@@ -8115,7 +8115,7 @@ bool
 widthSet
 heightSet
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMaxSize
@@ -25278,7 +25278,7 @@ nsGfxScrollFrameInner
 :
 SetScrollbarVisibility
 (
-nsIBox
+nsIFrame
 *
 aScrollbar
 bool
@@ -25351,7 +25351,7 @@ nsGfxScrollFrameInner
 :
 GetCoordAttribute
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsIAtom

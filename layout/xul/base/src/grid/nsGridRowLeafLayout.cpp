@@ -224,7 +224,7 @@ nsGridRowLeafLayout
 :
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -336,7 +336,7 @@ nsGridRowLeafLayout
 :
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -415,7 +415,7 @@ nsGridRowLeafLayout
 :
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -511,7 +511,7 @@ nsGridRowLeafLayout
 :
 ChildAddedOrRemoved
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -564,7 +564,7 @@ nsGridRowLeafLayout
 :
 PopulateBoxSizes
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -699,7 +699,7 @@ current
 =
 nullptr
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -859,7 +859,7 @@ isHorizontal
 /
 /
 GetColumnOffsets
-nsIBox
+nsIFrame
 *
 box
 =
@@ -1338,7 +1338,7 @@ nsGridRowLeafLayout
 :
 ComputeChildSizes
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -1424,7 +1424,7 @@ diff
 =
 0
 ;
-nsIBox
+nsIFrame
 *
 parentBox
 ;
@@ -1443,7 +1443,7 @@ while
 parentBox
 )
 {
-nsIBox
+nsIFrame
 *
 scrollbox
 =
@@ -1688,7 +1688,7 @@ nsGridRowLeafLayout
 :
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -1713,7 +1713,7 @@ nsGridRowLeafLayout
 :
 DirtyRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -1779,7 +1779,7 @@ nsGridRowLeafLayout
 :
 CountRowsColumns
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -1795,7 +1795,7 @@ if
 aBox
 )
 {
-nsIBox
+nsIFrame
 *
 child
 =
@@ -1869,7 +1869,7 @@ nsGridRowLeafLayout
 :
 BuildRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsGridRow

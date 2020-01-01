@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsCoord
 .
 h
 "
@@ -127,6 +127,9 @@ nsGrid
 .
 h
 "
+class
+nsIPresContext
+;
 class
 nsGridRowGroupLayout
 ;
@@ -182,7 +185,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -194,7 +197,7 @@ virtual
 void
 IntrinsicWidthsDirty
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -229,7 +232,7 @@ nsGrid
 *
 GetGrid
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -247,10 +250,10 @@ nsIGridPart
 *
 GetParentGridPart
 (
-nsIBox
+nsIFrame
 *
 aBox
-nsIBox
+nsIFrame
 *
 *
 aParentBox
@@ -274,7 +277,7 @@ virtual
 nsSize
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -286,7 +289,7 @@ virtual
 nsSize
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -298,7 +301,7 @@ virtual
 nsSize
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -310,7 +313,7 @@ virtual
 void
 CountRowsColumns
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -330,7 +333,7 @@ virtual
 void
 DirtyRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -343,7 +346,7 @@ virtual
 PRInt32
 BuildRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsGridRow
@@ -355,7 +358,7 @@ virtual
 nsMargin
 GetTotalMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool
@@ -376,13 +379,13 @@ virtual
 void
 ChildrenInserted
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aPrevBox
 const
@@ -398,7 +401,7 @@ virtual
 void
 ChildrenAppended
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -417,13 +420,13 @@ virtual
 void
 ChildrenRemoved
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChildList
 )
@@ -432,13 +435,13 @@ virtual
 void
 ChildrenSet
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChildList
 )
@@ -461,7 +464,7 @@ AddOffset
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 nsSize

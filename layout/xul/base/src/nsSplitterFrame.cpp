@@ -575,7 +575,7 @@ SetPreferredSize
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChildBox
 nscoord
@@ -600,7 +600,7 @@ mDragStart
 nscoord
 mCurrentPos
 ;
-nsIBox
+nsIFrame
 *
 mParentBox
 ;
@@ -1626,7 +1626,7 @@ bool
 aIsHorizontal
 )
 {
-nsIBox
+nsIFrame
 *
 box
 =
@@ -3437,7 +3437,7 @@ mChildInfosAfterCount
 =
 0
 ;
-nsIBox
+nsIFrame
 *
 childBox
 =
@@ -4982,11 +4982,11 @@ Flush_Display
 ;
 }
 static
-nsIBox
+nsIFrame
 *
 GetChildBoxForContent
 (
-nsIBox
+nsIFrame
 *
 aParentBox
 nsIContent
@@ -4994,7 +4994,7 @@ nsIContent
 aContent
 )
 {
-nsIBox
+nsIFrame
 *
 childBox
 =
@@ -5112,7 +5112,7 @@ all
 the
 widths
 .
-nsIBox
+nsIFrame
 *
 child
 =
@@ -5181,7 +5181,7 @@ i
 .
 changed
 ;
-nsIBox
+nsIFrame
 *
 childBox
 =
@@ -5223,7 +5223,7 @@ SetPreferredSize
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChildBox
 nscoord

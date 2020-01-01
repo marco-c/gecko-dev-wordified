@@ -212,9 +212,6 @@ nsFrameList
 aChildList
 )
 ;
-/
-/
-nsIBox
 NS_IMETHOD
 DoLayout
 (

@@ -281,9 +281,6 @@ aResult
 }
 #
 endif
-/
-/
-nsIBox
 virtual
 nsSize
 GetPrefSize
@@ -600,7 +597,7 @@ GetScrollToClick
 (
 )
 ;
-nsIBox
+nsIFrame
 *
 GetScrollbar
 (

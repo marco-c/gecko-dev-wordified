@@ -697,7 +697,7 @@ aSize
 nscoord
 GetCoordAttribute
 (
-nsIBox
+nsIFrame
 *
 aFrame
 nsIAtom
@@ -1136,7 +1136,7 @@ return
 mScrolledFrame
 ;
 }
-nsIBox
+nsIFrame
 *
 GetScrollbarBox
 (
@@ -1189,7 +1189,7 @@ static
 void
 SetScrollbarVisibility
 (
-nsIBox
+nsIFrame
 *
 aScrollbar
 bool
@@ -1688,11 +1688,11 @@ ScrolledAreaEvent
 >
 mScrolledAreaEvent
 ;
-nsIBox
+nsIFrame
 *
 mHScrollbarBox
 ;
-nsIBox
+nsIFrame
 *
 mVScrollbarBox
 ;
@@ -1700,11 +1700,11 @@ nsIFrame
 *
 mScrolledFrame
 ;
-nsIBox
+nsIFrame
 *
 mScrollCornerBox
 ;
-nsIBox
+nsIFrame
 *
 mResizerBox
 ;
@@ -2967,7 +2967,7 @@ aListener
 ;
 }
 virtual
-nsIBox
+nsIFrame
 *
 GetScrollbarBox
 (
@@ -4233,7 +4233,7 @@ aListener
 ;
 }
 virtual
-nsIBox
+nsIFrame
 *
 GetScrollbarBox
 (
