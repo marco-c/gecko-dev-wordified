@@ -1288,11 +1288,9 @@ stmt
 row
 .
 page_size
-Ci
+conn
 .
-mozIStorageConnection
-.
-DEFAULT_PAGE_SIZE
+defaultPageSize
 )
 ;
 }
