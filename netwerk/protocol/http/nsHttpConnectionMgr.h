@@ -1863,6 +1863,9 @@ seconds
 PRUint16
 mMaxPipelinedRequests
 ;
+PRPackedBool
+mIsShuttingDown
+;
 /
 /
 -
@@ -2133,6 +2136,11 @@ ProcessNewTransaction
 (
 nsHttpTransaction
 *
+)
+;
+nsresult
+EnsureSocketThreadTargetIfOnline
+(
 )
 ;
 /
