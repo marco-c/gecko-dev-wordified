@@ -220,7 +220,8 @@ jsm
 "
 )
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -2529,7 +2530,8 @@ aRPId
 }
 }
 ;
-let
+this
+.
 RelyingParty
 =
 new

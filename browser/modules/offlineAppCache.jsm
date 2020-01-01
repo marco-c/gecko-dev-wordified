@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -79,7 +80,8 @@ Components
 .
 interfaces
 ;
-let
+this
+.
 OfflineAppCacheHelper
 =
 {

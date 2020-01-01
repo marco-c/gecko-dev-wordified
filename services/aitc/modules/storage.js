@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -347,6 +348,10 @@ disk
 *
 *
 /
+this
+.
+AitcQueue
+=
 function
 AitcQueue
 (

@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -272,7 +273,8 @@ nsIFactory
 )
 }
 ;
-var
+this
+.
 MockFilePicker
 =
 {

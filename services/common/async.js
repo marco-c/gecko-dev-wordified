@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -147,7 +148,8 @@ operations
 .
 *
 /
-let
+this
+.
 Async
 =
 {

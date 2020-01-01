@@ -171,7 +171,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -872,7 +873,8 @@ message
 }
 }
 ;
-var
+this
+.
 LogManager
 =
 {

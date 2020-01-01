@@ -521,7 +521,8 @@ jsm
 "
 )
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -930,6 +931,10 @@ function
 .
 *
 /
+this
+.
+AddonsEngine
+=
 function
 AddonsEngine
 (

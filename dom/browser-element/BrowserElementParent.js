@@ -4305,7 +4305,8 @@ break
 }
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

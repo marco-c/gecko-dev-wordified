@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -65,6 +66,10 @@ Queue
 "
 ]
 ;
+this
+.
+Queue
+=
 function
 Queue
 (

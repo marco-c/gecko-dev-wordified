@@ -150,7 +150,8 @@ jsm
 '
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -720,6 +721,10 @@ position
 .
 *
 /
+this
+.
+VisualPresenter
+=
 function
 VisualPresenter
 (
@@ -1011,6 +1016,10 @@ events
 .
 *
 /
+this
+.
+AndroidPresenter
+=
 function
 AndroidPresenter
 (
@@ -1696,6 +1705,10 @@ TTS
 output
 *
 /
+this
+.
+SpeechPresenter
+=
 function
 SpeechPresenter
 (
@@ -1904,6 +1917,10 @@ accessible
 .
 *
 /
+this
+.
+PresenterContext
+=
 function
 PresenterContext
 (

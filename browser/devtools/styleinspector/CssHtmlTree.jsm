@@ -280,7 +280,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -871,6 +872,10 @@ CssHtmlTree
 constructor
 *
 /
+this
+.
+CssHtmlTree
+=
 function
 CssHtmlTree
 (
@@ -4751,6 +4756,10 @@ rules
 .
 *
 /
+this
+.
+PropertyView
+=
 function
 PropertyView
 (
@@ -6058,7 +6067,7 @@ this
 .
 valueNode
 .
-textContent
+innerHTML
 =
 "
 "
@@ -6077,7 +6086,7 @@ this
 .
 matchedSelectorsContainer
 .
-textContent
+innerHTML
 =
 "
 "
@@ -6108,7 +6117,7 @@ this
 .
 valueNode
 .
-textContent
+innerHTML
 =
 this
 .

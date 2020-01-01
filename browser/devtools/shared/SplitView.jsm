@@ -79,7 +79,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -205,6 +206,10 @@ see
 appendItem
 *
 /
+this
+.
+SplitView
+=
 function
 SplitView
 (

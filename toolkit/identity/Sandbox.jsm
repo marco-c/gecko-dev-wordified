@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -274,6 +275,10 @@ ready
 .
 *
 /
+this
+.
+Sandbox
+=
 function
 Sandbox
 (

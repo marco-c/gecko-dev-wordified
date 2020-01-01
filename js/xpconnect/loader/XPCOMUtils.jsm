@@ -851,7 +851,8 @@ entry
 point
 :
 *
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils
@@ -863,7 +864,8 @@ components
 ;
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -900,7 +902,8 @@ Components
 .
 utils
 ;
-var
+this
+.
 XPCOMUtils
 =
 {

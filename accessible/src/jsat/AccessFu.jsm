@@ -89,7 +89,8 @@ Components
 .
 results
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -193,7 +194,8 @@ ACCESSFU_AUTO
 =
 2
 ;
-var
+this
+.
 AccessFu
 =
 {

@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -76,6 +77,10 @@ MAX_UNDO_STACK_DEPTH
 =
 1
 ;
+this
+.
+InlineSpellChecker
+=
 function
 InlineSpellChecker
 (

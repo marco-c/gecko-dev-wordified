@@ -451,7 +451,8 @@ cancel
 }
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

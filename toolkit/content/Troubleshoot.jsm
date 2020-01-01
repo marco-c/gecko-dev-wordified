@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -491,7 +492,8 @@ print_to_filename
 /
 ]
 ;
-let
+this
+.
 Troubleshoot
 =
 {

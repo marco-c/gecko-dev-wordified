@@ -160,7 +160,8 @@ loads
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -263,6 +264,10 @@ module
 params
 *
 /
+this
+.
+define
+=
 function
 define
 (
@@ -1303,7 +1308,8 @@ use
 .
 *
 /
-const
+this
+.
 require
 =
 define

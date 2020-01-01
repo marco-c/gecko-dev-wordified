@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -231,6 +232,10 @@ object
 .
 *
 /
+this
+.
+Dict
+=
 function
 Dict
 (

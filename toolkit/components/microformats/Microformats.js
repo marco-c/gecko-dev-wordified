@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -80,7 +81,8 @@ geo
 "
 ]
 ;
-var
+this
+.
 Microformats
 =
 {
@@ -10016,6 +10018,10 @@ BEGIN
 HERE
 *
 /
+this
+.
+adr
+=
 function
 adr
 (
@@ -10778,6 +10784,10 @@ adr
 adr_definition
 )
 ;
+this
+.
+hCard
+=
 function
 hCard
 (
@@ -12000,6 +12010,10 @@ hCard
 hCard_definition
 )
 ;
+this
+.
+hCalendar
+=
 function
 hCalendar
 (
@@ -13059,6 +13073,10 @@ hCalendar
 hCalendar_definition
 )
 ;
+this
+.
+geo
+=
 function
 geo
 (
@@ -13887,6 +13905,10 @@ geo
 geo_definition
 )
 ;
+this
+.
+tag
+=
 function
 tag
 (

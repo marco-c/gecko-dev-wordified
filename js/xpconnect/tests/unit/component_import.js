@@ -524,7 +524,8 @@ FooComponent
 BarComponent
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

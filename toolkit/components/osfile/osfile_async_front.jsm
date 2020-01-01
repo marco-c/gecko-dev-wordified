@@ -185,7 +185,8 @@ B
 reason
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -215,6 +216,7 @@ osfile_shared_allthreads
 .
 jsm
 "
+this
 )
 ;
 let

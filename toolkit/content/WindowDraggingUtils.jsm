@@ -70,7 +70,8 @@ define
 USE_HITTEST
 #
 endif
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -79,6 +80,10 @@ WindowDraggingElement
 "
 ]
 ;
+this
+.
+WindowDraggingElement
+=
 function
 WindowDraggingElement
 (
@@ -143,6 +148,7 @@ false
 )
 ;
 }
+;
 WindowDraggingElement
 .
 prototype

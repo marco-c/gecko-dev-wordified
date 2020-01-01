@@ -237,7 +237,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -615,6 +616,10 @@ null
 ;
 *
 /
+this
+.
+BasicStorageObject
+=
 function
 BasicStorageObject
 (
@@ -1827,6 +1832,10 @@ server
 .
 *
 /
+this
+.
+StorageServiceRequestError
+=
 function
 StorageServiceRequestError
 (
@@ -9937,6 +9946,10 @@ requests
 .
 *
 /
+this
+.
+StorageServiceClient
+=
 function
 StorageServiceClient
 (

@@ -203,7 +203,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -229,7 +230,8 @@ functions
 .
 *
 /
-let
+this
+.
 TiltGL
 =
 {

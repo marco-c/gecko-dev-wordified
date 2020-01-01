@@ -71,6 +71,9 @@ DEBUG
 =
 0
 ;
+let
+debug
+;
 if
 (
 DEBUG
@@ -1323,7 +1326,8 @@ nsISettingsService
 ]
 )
 }
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

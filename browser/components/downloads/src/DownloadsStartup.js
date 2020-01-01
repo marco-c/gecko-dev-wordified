@@ -2393,7 +2393,8 @@ _recoverAllDownloads
 /
 /
 Module
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

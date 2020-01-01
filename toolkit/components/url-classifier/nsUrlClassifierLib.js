@@ -305,7 +305,8 @@ generateQI
 ]
 )
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

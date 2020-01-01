@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -322,6 +323,10 @@ string
 bundle
 *
 /
+this
+.
+StringBundle
+=
 function
 StringBundle
 (

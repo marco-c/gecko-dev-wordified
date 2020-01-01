@@ -1,4 +1,15 @@
-var
+/
+/
+XXXkhuey
+this
+should
+have
+a
+license
+header
+.
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -7,6 +18,10 @@ EventEmitter
 "
 ]
 ;
+this
+.
+EventEmitter
+=
 function
 EventEmitter
 (

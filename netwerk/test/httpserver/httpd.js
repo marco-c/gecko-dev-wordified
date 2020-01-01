@@ -32883,7 +32883,8 @@ WritablePropertyBag
 /
 XPCOM
 trappings
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

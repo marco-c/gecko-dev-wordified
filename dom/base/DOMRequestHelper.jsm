@@ -105,7 +105,8 @@ Components
 .
 interfaces
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -174,6 +175,10 @@ nsIMessageListenerManager
 "
 )
 ;
+this
+.
+DOMRequestIpcHelper
+=
 function
 DOMRequestIpcHelper
 (

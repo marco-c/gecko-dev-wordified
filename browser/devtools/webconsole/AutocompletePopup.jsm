@@ -220,7 +220,8 @@ HUD_STRINGS_URI
 }
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -257,6 +258,10 @@ to
 .
 *
 /
+this
+.
+AutocompletePopup
+=
 function
 AutocompletePopup
 (

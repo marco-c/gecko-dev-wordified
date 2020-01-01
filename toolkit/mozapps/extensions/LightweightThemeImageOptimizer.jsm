@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -159,7 +160,8 @@ ORIGIN_BOTTOM_LEFT
 =
 2
 ;
-let
+this
+.
 LightweightThemeImageOptimizer
 =
 {

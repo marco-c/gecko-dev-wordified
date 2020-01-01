@@ -498,7 +498,8 @@ nsIRunnable
 ]
 )
 }
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

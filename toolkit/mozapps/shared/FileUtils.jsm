@@ -93,6 +93,8 @@ MPL
 .
 *
 /
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -167,7 +169,8 @@ nsIProperties
 "
 )
 ;
-var
+this
+.
 FileUtils
 =
 {

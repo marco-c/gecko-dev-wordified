@@ -837,7 +837,8 @@ buttons
 /
 module
 initialization
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

@@ -98,6 +98,8 @@ MPL
 /
 #
 endif
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -304,6 +306,10 @@ values
 .
 *
 /
+this
+.
+readCertPrefs
+=
 function
 readCertPrefs
 (
@@ -558,6 +564,10 @@ array
 .
 *
 /
+this
+.
+validateCert
+=
 function
 validateCert
 (
@@ -1050,6 +1060,10 @@ in
 .
 *
 /
+this
+.
+checkCert
+=
 function
 checkCert
 (
@@ -1356,6 +1370,10 @@ certificate
 .
 *
 /
+this
+.
+BadCertHandler
+=
 function
 BadCertHandler
 (

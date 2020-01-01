@@ -672,7 +672,8 @@ components
 MessageWakeupService
 ]
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

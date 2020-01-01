@@ -621,7 +621,8 @@ component
 InputListAutoComplete
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

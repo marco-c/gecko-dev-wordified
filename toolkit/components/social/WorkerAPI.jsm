@@ -213,7 +213,8 @@ jsm
 "
 )
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -222,6 +223,10 @@ WorkerAPI
 "
 ]
 ;
+this
+.
+WorkerAPI
+=
 function
 WorkerAPI
 (

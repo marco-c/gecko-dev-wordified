@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -415,6 +416,10 @@ response
 .
 *
 /
+this
+.
+AsyncResource
+=
 function
 AsyncResource
 (
@@ -2675,6 +2680,10 @@ instead
 .
 *
 /
+this
+.
+Resource
+=
 function
 Resource
 (

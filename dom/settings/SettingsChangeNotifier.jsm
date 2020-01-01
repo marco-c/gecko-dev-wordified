@@ -108,7 +108,8 @@ Components
 .
 interfaces
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -202,7 +203,8 @@ nsIMessageBroadcaster
 "
 )
 ;
-let
+this
+.
 SettingsChangeNotifier
 =
 {

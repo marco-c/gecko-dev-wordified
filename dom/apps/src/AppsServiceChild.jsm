@@ -111,7 +111,8 @@ the
 AppsService
 component
 .
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -187,7 +188,8 @@ n
 )
 ;
 }
-let
+this
+.
 DOMApplicationRegistry
 =
 {

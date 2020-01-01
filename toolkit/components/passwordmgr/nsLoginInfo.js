@@ -623,7 +623,8 @@ end
 of
 nsLoginInfo
 implementation
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

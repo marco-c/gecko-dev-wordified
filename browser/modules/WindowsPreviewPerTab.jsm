@@ -558,7 +558,8 @@ crossed
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -4518,7 +4519,8 @@ prefs
 .
 *
 /
-var
+this
+.
 AeroPeek
 =
 {

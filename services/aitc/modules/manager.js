@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -404,6 +405,10 @@ available
 .
 *
 /
+this
+.
+AitcManager
+=
 function
 AitcManager
 (

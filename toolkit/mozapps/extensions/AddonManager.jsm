@@ -456,7 +456,8 @@ certUtils
 }
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -11780,7 +11781,8 @@ time
 .
 *
 /
-var
+this
+.
 AddonManagerPrivate
 =
 {
@@ -12018,7 +12020,8 @@ AddonManagerInternal
 .
 *
 /
-var
+this
+.
 AddonManager
 =
 {

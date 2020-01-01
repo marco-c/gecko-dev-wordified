@@ -1163,7 +1163,8 @@ nsIObserver
 )
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils
