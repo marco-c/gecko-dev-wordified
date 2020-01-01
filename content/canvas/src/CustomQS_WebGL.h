@@ -816,10 +816,7 @@ wa
 =
 0
 ;
-js
-:
-:
-ArrayBuffer
+JSObject
 *
 wb
 =
@@ -922,7 +919,7 @@ js
 ArrayBuffer
 :
 :
-fromJSObject
+getArrayBuffer
 (
 arg2
 )
@@ -1213,10 +1210,7 @@ wa
 =
 0
 ;
-js
-:
-:
-ArrayBuffer
+JSObject
 *
 wb
 =
@@ -1325,7 +1319,7 @@ js
 ArrayBuffer
 :
 :
-fromJSObject
+getArrayBuffer
 (
 arg3
 )
@@ -1686,7 +1680,7 @@ js
 ArrayBuffer
 :
 :
-fromJSObject
+getArrayBuffer
 (
 argv6
 )
@@ -2420,7 +2414,7 @@ js
 ArrayBuffer
 :
 :
-fromJSObject
+getArrayBuffer
 (
 argv8
 )
@@ -3110,7 +3104,7 @@ js
 ArrayBuffer
 :
 :
-fromJSObject
+getArrayBuffer
 (
 argv8
 )
