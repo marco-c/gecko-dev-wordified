@@ -1236,8 +1236,6 @@ NS_ENABLE_TSF
 return
 nsIMEUpdatePreference
 (
-false
-false
 )
 ;
 }
