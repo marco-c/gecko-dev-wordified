@@ -851,7 +851,7 @@ url
 )
 {
 }
-streamCompleted
+streamFinished
 :
 function
 (
