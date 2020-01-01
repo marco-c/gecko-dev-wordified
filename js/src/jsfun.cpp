@@ -19590,6 +19590,8 @@ getType
 -
 >
 unknownProperties
+(
+)
 )
 {
 if
