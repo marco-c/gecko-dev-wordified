@@ -1341,6 +1341,17 @@ include
 "
 vm
 /
+ObjectImpl
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 -
 inl
