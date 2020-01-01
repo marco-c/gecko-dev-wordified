@@ -670,6 +670,15 @@ VMFrame
 f
 )
 ;
+JSBool
+JS_FASTCALL
+ValueToBoolean
+(
+VMFrame
+&
+f
+)
+;
 }
 }
 }
