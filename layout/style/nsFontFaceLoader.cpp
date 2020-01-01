@@ -1834,6 +1834,12 @@ DestroyIterator
 nullptr
 )
 ;
+mRules
+.
+Clear
+(
+)
+;
 }
 void
 nsUserFontSet
