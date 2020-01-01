@@ -2394,9 +2394,9 @@ Darwin
 :
             
 debugger_prefix
-+
-=
-[
+.
+append
+(
 '
 -
 -
@@ -2404,7 +2404,7 @@ dsymutil
 =
 yes
 '
-]
+)
         
 if
 OPTIONS
@@ -2413,11 +2413,13 @@ valgrind_args
 :
             
 debugger_prefix
-+
-=
-[
+.
+append
+(
+OPTIONS
+.
 valgrind_args
-]
+)
         
 #
 Running
