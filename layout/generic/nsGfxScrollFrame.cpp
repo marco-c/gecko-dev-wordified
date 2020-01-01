@@ -14482,7 +14482,7 @@ if
 we
 added
 a
-horizonal
+horizontal
 scrollbar
 and
 we
@@ -14501,7 +14501,7 @@ that
 by
 adding
 the
-horizonal
+horizontal
 scrollbar
 we
 will
