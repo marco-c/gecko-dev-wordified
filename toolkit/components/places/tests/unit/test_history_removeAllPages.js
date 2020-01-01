@@ -845,9 +845,8 @@ WHERE
 h
 .
 frecency
-=
--
-2
+<
+0
 "
 +
 "
