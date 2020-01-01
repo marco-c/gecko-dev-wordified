@@ -407,6 +407,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
+const
 nsInterfaceHashtable
 <
 K
