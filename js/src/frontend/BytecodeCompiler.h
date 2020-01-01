@@ -149,6 +149,8 @@ bool
 compileAndGo
 bool
 noScriptRval
+bool
+needScriptGlobal
 const
 jschar
 *

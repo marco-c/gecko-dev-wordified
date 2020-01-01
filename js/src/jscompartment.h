@@ -896,6 +896,13 @@ JSScript
 global
 (
 )
+and
+JSContext
+:
+:
+global
+(
+)
 /
 /
 js

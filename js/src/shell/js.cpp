@@ -8084,11 +8084,9 @@ jsval
 vp
 )
 {
-RootedScript
+JSScript
+*
 script
-(
-cx
-)
 ;
 int32_t
 lineArg

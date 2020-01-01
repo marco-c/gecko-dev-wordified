@@ -9850,7 +9850,6 @@ otherwise
 define
 STRICT_VARIANT
 (
-script
 f
 )
 \
