@@ -121,7 +121,7 @@ assertEq
 (
 s
 [
-0
+j
 ]
 .
 shape
