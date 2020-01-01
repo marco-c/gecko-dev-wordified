@@ -1067,7 +1067,7 @@ mEventSink
 OnTransportStatus
 (
 this
-STATUS_READING
+NS_NET_STATUS_READING
 mOffset
 mLimit
 )
@@ -2015,7 +2015,7 @@ mEventSink
 OnTransportStatus
 (
 this
-STATUS_WRITING
+NS_NET_STATUS_WRITING
 mOffset
 mLimit
 )

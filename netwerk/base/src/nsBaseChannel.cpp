@@ -4078,10 +4078,7 @@ ContentLength64
 OnTransportStatus
 (
 nullptr
-nsITransport
-:
-:
-STATUS_READING
+NS_NET_STATUS_READING
 prog
 progMax
 )
