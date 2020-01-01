@@ -561,7 +561,7 @@ finished
 sending
 the
 report
-bool
+void
 SendCompleted
 (
 bool
