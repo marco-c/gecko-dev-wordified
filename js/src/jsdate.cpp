@@ -13578,8 +13578,15 @@ JS_FALSE
 ;
 numStr
 =
-JS_dtostr
+js_dtostr
 (
+JS_THREAD_DATA
+(
+cx
+)
+-
+>
+dtoaState
 buf
 sizeof
 buf
