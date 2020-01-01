@@ -31964,7 +31964,6 @@ buffer
 .
 adopt
 (
-cx
 mMessage
 mMessageLen
 )
@@ -32393,9 +32392,9 @@ buffer
 .
 read
 (
+cx
 &
 messageData
-cx
 nsnull
 )
 )

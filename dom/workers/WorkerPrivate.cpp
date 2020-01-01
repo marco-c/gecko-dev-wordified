@@ -2470,7 +2470,6 @@ buffer
 .
 adopt
 (
-aCx
 mData
 mDataByteCount
 )
