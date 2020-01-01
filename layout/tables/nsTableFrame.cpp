@@ -4100,7 +4100,6 @@ lastCol
 PR_FALSE
 )
 ;
-}
 /
 /
 remove
@@ -4135,6 +4134,7 @@ nsIFrame
 lastColGroup
 )
 ;
+}
 }
 removedFromCache
 =
