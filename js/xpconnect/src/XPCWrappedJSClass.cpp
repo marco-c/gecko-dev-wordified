@@ -7736,13 +7736,6 @@ cx
 obj
 )
 ;
-ccx
-.
-SetScopeForNewJSObjects
-(
-obj
-)
-;
 AutoValueVector
 args
 (

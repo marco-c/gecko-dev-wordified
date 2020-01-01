@@ -239,10 +239,6 @@ mCallerLanguage
 (
 callerLanguage
 )
-mScopeForNewJSObjects
-(
-cx
-)
 mFlattenedJSObject
 (
 cx
@@ -341,10 +337,6 @@ false
 mCallerLanguage
 (
 callerLanguage
-)
-mScopeForNewJSObjects
-(
-cx
 )
 mFlattenedJSObject
 (
@@ -821,14 +813,6 @@ if
 obj
 )
 return
-;
-mScopeForNewJSObjects
-=
-obj
-;
-mState
-=
-HAVE_SCOPE
 ;
 mMethodIndex
 =
