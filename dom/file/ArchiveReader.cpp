@@ -919,7 +919,7 @@ status
 }
 already_AddRefed
 <
-nsIDOMArchiveRequest
+ArchiveRequest
 >
 ArchiveReader
 :
@@ -955,7 +955,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMArchiveRequest
+ArchiveRequest
 >
 ArchiveReader
 :
@@ -996,7 +996,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMArchiveRequest
+ArchiveRequest
 >
 ArchiveReader
 :

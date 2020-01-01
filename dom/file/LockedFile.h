@@ -356,7 +356,7 @@ aValue
 JSContext
 *
 aCx
-nsIDOMFileRequest
+nsISupports
 *
 *
 _retval

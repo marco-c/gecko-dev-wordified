@@ -161,9 +161,6 @@ Attributes
 .
 h
 "
-class
-nsIDOMArchiveRequest
-;
 namespace
 mozilla
 {
@@ -281,7 +278,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIDOMArchiveRequest
+ArchiveRequest
 >
 GetFilenames
 (
@@ -289,7 +286,7 @@ GetFilenames
 ;
 already_AddRefed
 <
-nsIDOMArchiveRequest
+ArchiveRequest
 >
 GetFile
 (
@@ -301,7 +298,7 @@ filename
 ;
 already_AddRefed
 <
-nsIDOMArchiveRequest
+ArchiveRequest
 >
 GetFiles
 (
