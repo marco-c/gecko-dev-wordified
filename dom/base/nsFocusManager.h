@@ -1711,6 +1711,18 @@ non
 zero
 .
 *
+*
+aWindowRaised
+should
+only
+be
+true
+if
+called
+from
+WindowRaised
+.
+*
 /
 void
 SendFocusOrBlurEvent
@@ -1728,6 +1740,8 @@ nsISupports
 aTarget
 PRUint32
 aFocusMethod
+PRBool
+aWindowRaised
 )
 ;
 /
