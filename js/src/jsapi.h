@@ -4575,6 +4575,9 @@ data
 *
 *
 /
+#
+ifndef
+__GNUC__
 /
 *
 *
@@ -4720,6 +4723,8 @@ asRawBits
 )
 ;
 }
+#
+endif
 }
 /
 *
