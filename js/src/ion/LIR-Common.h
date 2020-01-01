@@ -1203,6 +1203,15 @@ right
 )
 ;
 }
+JSOp
+bitop
+(
+)
+{
+return
+op_
+;
+}
 }
 ;
 /

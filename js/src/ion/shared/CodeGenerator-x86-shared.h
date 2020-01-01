@@ -749,6 +749,15 @@ LAddI
 ins
 )
 ;
+virtual
+bool
+visitBitOp
+(
+LBitOp
+*
+ins
+)
+;
 }
 ;
 }
