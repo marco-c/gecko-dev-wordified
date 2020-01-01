@@ -528,13 +528,6 @@ h
 #
 include
 "
-nsIDOMNSDocumentStyle
-.
-h
-"
-#
-include
-"
 nsStubDocumentObserver
 .
 h
@@ -2836,8 +2829,6 @@ nsIDOMDocument
 public
 nsIDOMNSDocument
 public
-nsIDOMNSDocumentStyle
-public
 nsIDOMDocumentXBL
 public
 nsSupportsWeakReference
@@ -4500,14 +4491,6 @@ NS_DECL_NSIDOMXMLDOCUMENT
 /
 nsIDOMNSDocument
 NS_DECL_NSIDOMNSDOCUMENT
-/
-/
-nsIDOMDocumentStyle
-NS_DECL_NSIDOMDOCUMENTSTYLE
-/
-/
-nsIDOMNSDocumentStyle
-NS_DECL_NSIDOMNSDOCUMENTSTYLE
 /
 /
 nsIDOMDocumentXBL

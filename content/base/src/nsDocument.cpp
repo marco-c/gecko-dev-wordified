@@ -8923,16 +8923,6 @@ nsIDocument
 NS_INTERFACE_TABLE_ENTRY
 (
 nsDocument
-nsIDOMDocumentStyle
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsDocument
-nsIDOMNSDocumentStyle
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsDocument
 nsIDOMDocumentXBL
 )
 NS_INTERFACE_TABLE_ENTRY
