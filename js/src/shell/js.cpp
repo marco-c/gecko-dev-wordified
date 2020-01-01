@@ -3149,6 +3149,10 @@ buffer
 while
 (
 !
+hitEOF
+&
+&
+!
 gQuitting
 )
 ;
