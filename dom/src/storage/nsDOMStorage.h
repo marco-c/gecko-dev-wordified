@@ -827,12 +827,6 @@ Shutdown
 (
 )
 ;
-static
-void
-ShutdownDB
-(
-)
-;
 /
 *
 *
