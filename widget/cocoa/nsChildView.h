@@ -2328,7 +2328,7 @@ anEvent
 scrollOverflow
 :
 (
-PRInt32
+double
 )
 overflow
 ;
