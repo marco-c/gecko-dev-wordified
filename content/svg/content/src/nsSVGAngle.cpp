@@ -1742,7 +1742,7 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+SVGAnimationElement
 *
 /
 *

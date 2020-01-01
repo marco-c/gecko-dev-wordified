@@ -481,10 +481,6 @@ SVGAnimateElement
 -
 -
 -
-/
-/
-nsISMILAnimationElement
-methods
 nsSMILAnimationFunction
 &
 SVGAnimateElement

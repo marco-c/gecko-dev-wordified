@@ -227,7 +227,7 @@ const
 ;
 /
 /
-nsISMILAnimationElement
+SVGAnimationElement
 virtual
 nsSMILAnimationFunction
 &

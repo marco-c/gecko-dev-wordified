@@ -151,9 +151,6 @@ Attributes
 h
 "
 class
-nsISMILAnimationElement
-;
-class
 nsSMILValue
 ;
 namespace
@@ -164,6 +161,9 @@ dom
 {
 class
 DOMSVGAnimatedPreserveAspectRatio
+;
+class
+SVGAnimationElement
 ;
 }
 class
@@ -550,7 +550,10 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

@@ -249,7 +249,7 @@ aResult
 ;
 /
 /
-nsISMILAnimationElement
+SVGAnimationElement
 virtual
 nsSMILAnimationFunction
 &

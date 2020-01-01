@@ -632,10 +632,6 @@ SVGAnimateTransformElement
 -
 -
 -
-/
-/
-nsISMILAnimationElement
-methods
 nsSMILAnimationFunction
 &
 SVGAnimateTransformElement

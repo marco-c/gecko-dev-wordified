@@ -149,7 +149,11 @@ h
 #
 include
 "
-nsISMILAnimationElement
+mozilla
+/
+dom
+/
+SVGAnimationElement
 .
 h
 "
@@ -1390,7 +1394,7 @@ nsSMILAnimationController
 :
 RegisterAnimationElement
 (
-nsISMILAnimationElement
+SVGAnimationElement
 *
 aAnimationElement
 )
@@ -1507,7 +1511,7 @@ nsSMILAnimationController
 :
 UnregisterAnimationElement
 (
-nsISMILAnimationElement
+SVGAnimationElement
 *
 aAnimationElement
 )
@@ -2780,7 +2784,7 @@ from
 the
 /
 /
-nsISMILAnimationElements
+SVGAnimationElements
 )
 which
 determine
@@ -3539,7 +3543,7 @@ void
 aData
 )
 {
-nsISMILAnimationElement
+SVGAnimationElement
 *
 animElem
 =
@@ -4108,7 +4112,7 @@ length
 i
 )
 {
-nsISMILAnimationElement
+SVGAnimationElement
 *
 elem
 =
@@ -4713,7 +4717,7 @@ aData
 PL_DHASH_NEXT
 )
 ;
-nsISMILAnimationElement
+SVGAnimationElement
 *
 animElem
 =
@@ -4781,7 +4785,7 @@ nsSMILAnimationController
 :
 SampleTimedElement
 (
-nsISMILAnimationElement
+SVGAnimationElement
 *
 aElement
 TimeContainerHashtable
@@ -4999,7 +5003,7 @@ nsSMILAnimationController
 :
 AddAnimationToCompositorTable
 (
-nsISMILAnimationElement
+SVGAnimationElement
 *
 aElement
 nsSMILCompositorTable
@@ -5381,7 +5385,7 @@ function
 that
 given
 a
-nsISMILAnimationElement
+SVGAnimationElement
 looks
 up
 its
@@ -5413,7 +5417,7 @@ nsSMILAnimationController
 :
 GetTargetIdentifierForAnimation
 (
-nsISMILAnimationElement
+SVGAnimationElement
 *
 aAnimElem
 nsSMILTargetIdentifier
@@ -5557,15 +5561,15 @@ attributeName
 )
 !
 =
+(
 aAnimElem
 -
 >
-AsElement
+Tag
 (
 )
-.
-IsSVG
-(
+=
+=
 nsGkAtoms
 :
 :

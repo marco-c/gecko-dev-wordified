@@ -173,9 +173,6 @@ class
 nsIFrame
 ;
 class
-nsISMILAnimationElement
-;
-class
 nsSMILValue
 ;
 namespace
@@ -186,6 +183,9 @@ dom
 {
 class
 SVGAnimatedLength
+;
+class
+SVGAnimationElement
 ;
 class
 SVGSVGElement
@@ -1564,7 +1564,13 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+mozilla
+:
+:
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

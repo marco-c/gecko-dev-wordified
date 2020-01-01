@@ -191,6 +191,13 @@ nsCharSeparatedTokenizer
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 -
@@ -3060,7 +3067,7 @@ public
 SMILValueParser
 (
 const
-nsISMILAnimationElement
+SVGAnimationElement
 *
 aSrcElement
 const
@@ -3172,7 +3179,7 @@ NS_OK
 protected
 :
 const
-nsISMILAnimationElement
+SVGAnimationElement
 *
 mSrcElement
 ;
@@ -3205,7 +3212,7 @@ nsAString
 &
 aSpec
 const
-nsISMILAnimationElement
+SVGAnimationElement
 *
 aSrcElement
 const

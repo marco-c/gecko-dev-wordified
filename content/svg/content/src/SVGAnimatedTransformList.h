@@ -143,9 +143,6 @@ class
 nsIAtom
 ;
 class
-nsISMILAnimationElement
-;
-class
 nsSMILValue
 ;
 class
@@ -154,6 +151,13 @@ nsSVGElement
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGAnimationElement
+;
+}
 /
 *
 *
@@ -584,7 +588,10 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

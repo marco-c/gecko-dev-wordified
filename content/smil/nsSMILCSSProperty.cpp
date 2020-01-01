@@ -929,7 +929,7 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

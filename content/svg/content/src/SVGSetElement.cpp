@@ -481,10 +481,6 @@ SVGSetElement
 -
 -
 -
-/
-/
-nsISMILAnimationElement
-methods
 nsSMILAnimationFunction
 &
 SVGSetElement
