@@ -629,12 +629,6 @@ foo
 1024
 ]
 ;
-__attribute__
-(
-(
-constructor
-)
-)
 void
 end_test
 (
@@ -672,12 +666,6 @@ ret
 0
 ;
 }
-__attribute__
-(
-(
-constructor
-)
-)
 void
 test
 (
