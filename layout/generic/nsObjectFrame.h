@@ -528,6 +528,9 @@ nsDisplayPlugin
 class
 nsIDOMElement
 ;
+class
+nsIOSurface
+;
 #
 define
 nsObjectFrameSuper
