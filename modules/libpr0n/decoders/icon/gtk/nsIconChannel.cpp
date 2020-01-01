@@ -2493,6 +2493,16 @@ GetFileExtension
 fileExt
 )
 ;
+if
+(
+!
+fileExt
+.
+IsEmpty
+(
+)
+)
+{
 ms
 -
 >
@@ -2502,6 +2512,7 @@ fileExt
 type
 )
 ;
+}
 }
 }
 /
