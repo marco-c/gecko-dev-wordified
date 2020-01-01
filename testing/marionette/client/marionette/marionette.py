@@ -2115,7 +2115,7 @@ return
 response
     
 def
-close_window
+close
 (
 self
 window_id
