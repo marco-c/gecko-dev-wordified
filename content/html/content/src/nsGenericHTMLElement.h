@@ -550,6 +550,9 @@ nsRect
 struct
 nsSize
 ;
+class
+nsHTMLFormElement
+;
 typedef
 nsMappedAttributeElement
 nsGenericHTMLElementBase
@@ -3293,13 +3296,11 @@ of
 .
 *
 /
-already_AddRefed
-<
-nsIDOMHTMLFormElement
->
+nsHTMLFormElement
+*
 FindForm
 (
-nsIForm
+nsHTMLFormElement
 *
 aCurrentForm
 =
@@ -5539,7 +5540,7 @@ this
 control
 *
 /
-nsIForm
+nsHTMLFormElement
 *
 mForm
 ;
