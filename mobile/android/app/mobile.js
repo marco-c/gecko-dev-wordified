@@ -308,8 +308,9 @@ time
 based
 /
 /
-zombification
+expiration
 (
+but
 low
 -
 memory
@@ -331,10 +332,9 @@ browser
 .
 tabs
 .
-zombieTime
+expireTime
 "
--
-1
+3600
 )
 ;
 /
