@@ -2601,6 +2601,10 @@ PRBool
 did_resolve
 )
 ;
+static
+PRBool
+sResolving
+;
 public
 :
 NS_IMETHOD
