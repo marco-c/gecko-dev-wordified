@@ -2627,9 +2627,14 @@ XP_MACOSX
 NP_CGContext
 mCGPluginPortCopy
 ;
+#
+ifndef
+NP_NO_QUICKDRAW
 NP_Port
 mQDPluginPortCopy
 ;
+#
+endif
 PRInt32
 mInCGPaintLevel
 ;
@@ -14899,6 +14904,9 @@ NP_CGContext
 )
 )
 ;
+#
+ifndef
+NP_NO_QUICKDRAW
 memset
 (
 &
@@ -14910,6 +14918,8 @@ NP_Port
 )
 )
 ;
+#
+endif
 mInCGPaintLevel
 =
 0
