@@ -2358,8 +2358,6 @@ layers
 ;
 GeckoApp
 .
-mAppContext
-.
 mAutoCompletePopup
 .
 hide

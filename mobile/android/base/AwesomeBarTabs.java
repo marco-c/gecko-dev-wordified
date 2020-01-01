@@ -1993,6 +1993,9 @@ auto
 -
 requery
 Class
+<
+?
+>
 cls
 =
 Class
