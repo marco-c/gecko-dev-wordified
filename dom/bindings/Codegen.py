@@ -71556,13 +71556,14 @@ descriptors
 )
         
 def
-descriptorHasChromeOnlyMembers
+descriptorHasChromeOnly
 (
 desc
 )
 :
             
 return
+(
 any
 (
 isChromeOnly
@@ -71578,12 +71579,28 @@ interface
 .
 members
 )
+or
+                    
+desc
+.
+interface
+.
+getExtendedAttribute
+(
+"
+ChromeOnly
+"
+)
+is
+not
+None
+)
         
-hasChromeOnlyMembers
+hasChromeOnly
 =
 any
 (
-descriptorHasChromeOnlyMembers
+descriptorHasChromeOnly
 (
 d
 )
@@ -72609,7 +72626,7 @@ h
 '
 ]
 if
-hasChromeOnlyMembers
+hasChromeOnly
 else
 [
 ]
