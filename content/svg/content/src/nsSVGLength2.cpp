@@ -1759,6 +1759,10 @@ mBaseVal
 =
 aValue
 ;
+mIsBaseSet
+=
+PR_TRUE
+;
 if
 (
 !
@@ -1882,6 +1886,10 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 mBaseVal
 =
 valueInSpecifiedUnits
+;
+mIsBaseSet
+=
+PR_TRUE
 ;
 mSpecifiedUnitType
 =
@@ -2165,6 +2173,10 @@ mBaseVal
 =
 value
 ;
+mIsBaseSet
+=
+PR_TRUE
+;
 mSpecifiedUnitType
 =
 PRUint8
@@ -2300,6 +2312,10 @@ GetUnitScaleFactor
 aSVGElement
 mSpecifiedUnitType
 )
+;
+mIsBaseSet
+=
+PR_TRUE
 ;
 if
 (
