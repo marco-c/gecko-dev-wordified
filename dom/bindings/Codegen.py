@@ -12837,7 +12837,13 @@ s
 ;
   
 return
-true
+JS_WrapValue
+(
+cx
+{
+jsvalPtr
+}
+)
 ;
 "
 "
@@ -12876,7 +12882,13 @@ s
 n
   
 return
-true
+JS_WrapValue
+(
+cx
+{
+jsvalPtr
+}
+)
 ;
 "
 "
