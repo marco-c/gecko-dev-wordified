@@ -1154,7 +1154,9 @@ class
 :
 Weave
 .
-Clients
+Service
+.
+clientsEngine
 .
 isMobile
 (
@@ -1486,7 +1488,9 @@ if
 (
 Weave
 .
-Clients
+Service
+.
+clientsEngine
 .
 lastSync
 =
@@ -1495,7 +1499,9 @@ lastSync
 )
 Weave
 .
-Clients
+Service
+.
+clientsEngine
 .
 sync
 (
