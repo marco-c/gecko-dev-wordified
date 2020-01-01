@@ -621,6 +621,9 @@ js
 "
 SyncScheduler
 "
+"
+ErrorHandler
+"
 ]
 "
 resource
