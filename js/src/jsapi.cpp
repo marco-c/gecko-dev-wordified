@@ -10504,9 +10504,11 @@ obj
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 atom
+-
+>
+asPropertyName
+(
 )
 UndefinedValue
 (
@@ -10920,10 +10922,6 @@ JSRuntime
 *
 rt
 ;
-JSAtom
-*
-atom
-;
 uintN
 i
 ;
@@ -10982,7 +10980,9 @@ deleted
 .
 *
 /
-atom
+PropertyName
+*
+name
 =
 rt
 -
@@ -11005,7 +11005,7 @@ nativeContains
 cx
 ATOM_TO_JSID
 (
-atom
+name
 )
 )
 &
@@ -11017,10 +11017,7 @@ obj
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
-atom
-)
+name
 UndefinedValue
 (
 )
@@ -19458,7 +19455,7 @@ return
 obj
 -
 >
-defineProperty
+defineGeneric
 (
 cx
 id
@@ -27429,7 +27426,7 @@ funAtom
 obj
 -
 >
-defineProperty
+defineGeneric
 (
 cx
 ATOM_TO_JSID

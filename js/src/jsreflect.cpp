@@ -2880,9 +2880,11 @@ obj
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 atom
+-
+>
+asPropertyName
+(
 )
 val
 )

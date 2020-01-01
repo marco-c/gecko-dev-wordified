@@ -32109,7 +32109,7 @@ if
 obj
 -
 >
-defineProperty
+defineGeneric
 (
 cx
 INT_TO_JSID
@@ -32334,7 +32334,7 @@ if
 obj
 -
 >
-defineProperty
+defineGeneric
 (
 cx
 id

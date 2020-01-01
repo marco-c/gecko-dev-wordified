@@ -2111,15 +2111,12 @@ if
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 state
 .
 typeAtoms
 [
 JSTYPE_VOID
 ]
-)
 UndefinedValue
 (
 )
@@ -2902,8 +2899,6 @@ ctor
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -2913,7 +2908,6 @@ runtime
 atomState
 .
 classPrototypeAtom
-)
 ObjectValue
 (
 *
@@ -2933,8 +2927,6 @@ proto
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -2944,7 +2936,6 @@ runtime
 atomState
 .
 constructorAtom
-)
 ObjectValue
 (
 *

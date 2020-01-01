@@ -9568,8 +9568,6 @@ obj
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -9579,7 +9577,6 @@ runtime
 atomState
 .
 classPrototypeAtom
-)
 ObjectValue
 (
 *
@@ -9598,8 +9595,6 @@ proto
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -9609,7 +9604,6 @@ runtime
 atomState
 .
 constructorAtom
-)
 ObjectValue
 (
 *
@@ -16867,7 +16861,7 @@ if
 obj
 -
 >
-defineProperty
+defineGeneric
 (
 cx
 id

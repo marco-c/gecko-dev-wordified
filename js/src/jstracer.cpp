@@ -91786,7 +91786,7 @@ id
 obj
 -
 >
-defineProperty
+defineGeneric
 (
 cx
 id
@@ -92160,7 +92160,7 @@ addr
 obj
 -
 >
-defineProperty
+defineGeneric
 (
 cx
 idr

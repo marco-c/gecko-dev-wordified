@@ -5433,7 +5433,7 @@ v
 obj
 -
 >
-defineProperty
+defineGeneric
 (
 context
 (
