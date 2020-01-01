@@ -7015,6 +7015,8 @@ NS_ASSERTION
 pseudoClass
 -
 >
+u
+.
 mString
 "
 Must
@@ -7118,6 +7120,8 @@ nsDependentString
 pseudoClass
 -
 >
+u
+.
 mString
 )
 )
@@ -7171,6 +7175,8 @@ NS_ASSERTION
 pseudoClass
 -
 >
+u
+.
 mString
 "
 Must
@@ -7191,6 +7197,8 @@ do_GetAtom
 pseudoClass
 -
 >
+u
+.
 mString
 )
 ;
@@ -7452,6 +7460,8 @@ nsnull
 pseudoClass
 -
 >
+u
+.
 mString
 "
 null
@@ -7469,6 +7479,8 @@ if
 pseudoClass
 -
 >
+u
+.
 mString
 &
 &
@@ -7476,6 +7488,8 @@ mString
 pseudoClass
 -
 >
+u
+.
 mString
 )
 {
@@ -7584,6 +7598,8 @@ nsDependentString
 pseudoClass
 -
 >
+u
+.
 mString
 )
 nsCaseInsensitiveStringComparator
@@ -7677,6 +7693,8 @@ langString
 pseudoClass
 -
 >
+u
+.
 mString
 )
 ;
