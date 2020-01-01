@@ -2273,10 +2273,10 @@ our
 ancestors
 .
 nscoord
-leftSpace
+leadingSpace
 ;
 nscoord
-rightSpace
+trailingSpace
 ;
 nsEmbellishData
 (
@@ -2294,11 +2294,11 @@ direction
 =
 NS_STRETCH_DIRECTION_UNSUPPORTED
 ;
-leftSpace
+leadingSpace
 =
 0
 ;
-rightSpace
+trailingSpace
 =
 0
 ;
