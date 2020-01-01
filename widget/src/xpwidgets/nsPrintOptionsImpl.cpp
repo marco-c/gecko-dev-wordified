@@ -517,7 +517,7 @@ h
 #
 include
 "
-nsSupportsArray
+nsISupportsArray
 .
 h
 "

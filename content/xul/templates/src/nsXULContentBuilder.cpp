@@ -603,13 +603,6 @@ h
 #
 include
 "
-nsSupportsArray
-.
-h
-"
-#
-include
-"
 nsNodeInfoManager
 .
 h
