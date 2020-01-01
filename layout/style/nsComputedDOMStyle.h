@@ -240,7 +240,7 @@ aRv
 MOZ_OVERRIDE
 ;
 using
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 :
 :
 GetPropertyCSSValue
