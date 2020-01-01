@@ -693,8 +693,8 @@ mFileInfo
 ;
 }
 ;
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 AutoRemoveObjectStore
 {
 public

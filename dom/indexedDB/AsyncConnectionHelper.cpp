@@ -258,6 +258,7 @@ kProgressHandlerGranularity
 1000
 ;
 class
+MOZ_STACK_CLASS
 TransactionPoolEventTarget
 :
 public

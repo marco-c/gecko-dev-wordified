@@ -1662,7 +1662,7 @@ state
 *
 /
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AsyncCallbackAutoLock
 {
 AsyncCallbackAutoLock
@@ -1796,6 +1796,7 @@ an
 NPPAutoPusher
 .
 class
+MOZ_STACK_CLASS
 NPPAutoPusher
 :
 public

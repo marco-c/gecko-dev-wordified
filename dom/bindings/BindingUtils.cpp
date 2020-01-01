@@ -8128,8 +8128,8 @@ reserved
 slot
 .
 class
+MOZ_STACK_CLASS
 AutoCloneDOMObjectSlotGuard
-NS_STACK_CLASS
 {
 public
 :
