@@ -549,8 +549,6 @@ _valid_subexp
 -
 -
 -
--
--
 *
 /
 static
