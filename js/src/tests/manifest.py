@@ -104,6 +104,12 @@ self
 isdebug
 =
 isdebug
+        
+self
+.
+browserIsRemote
+=
+False
     
 def
 as_js
@@ -141,6 +147,7 @@ properly
 "
         
 return
+(
 '
 var
 xulRuntime
@@ -163,6 +170,10 @@ shell
 true
 }
 ;
+'
++
+                
+'
 var
 isDebugBuild
 =
@@ -175,7 +186,13 @@ Android
 %
 s
 ;
+var
+browserIsRemote
+=
+%
+s
 '
+)
 %
 (
             
@@ -208,6 +225,17 @@ os
 "
 Android
 "
+)
+.
+lower
+(
+)
+            
+str
+(
+self
+.
+browserIsRemote
 )
 .
 lower
