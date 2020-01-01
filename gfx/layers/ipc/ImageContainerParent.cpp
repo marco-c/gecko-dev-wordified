@@ -270,13 +270,6 @@ if
 img
 )
 {
-DeallocSharedImageData
-(
-this
-*
-img
-)
-;
 delete
 img
 ;
