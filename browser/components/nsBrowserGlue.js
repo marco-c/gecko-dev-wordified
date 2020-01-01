@@ -3032,9 +3032,6 @@ Ci
 nsIObserver
 Ci
 .
-nsISupports
-Ci
-.
 nsISupportsWeakReference
 Ci
 .
