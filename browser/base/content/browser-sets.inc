@@ -1428,7 +1428,7 @@ oncommand
 "
 StyleEditor
 .
-toggle
+openChrome
 (
 )
 ;
