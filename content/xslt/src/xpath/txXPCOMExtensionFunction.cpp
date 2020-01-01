@@ -1649,6 +1649,9 @@ eOBJECT
 ;
 }
 }
+/
+/
+FALLTHROUGH
 default
 :
 {
