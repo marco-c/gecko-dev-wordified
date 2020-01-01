@@ -97,7 +97,7 @@ BASE_DEBUG_UTIL_H_
 #
 include
 <
-iostream
+ostream
 >
 #
 include
