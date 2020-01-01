@@ -1603,7 +1603,7 @@ mantissa
 int
 firstlen
 =
-NS_MIN
+PR_MIN
 (
 intDigits
 endp

@@ -3924,7 +3924,7 @@ parents
 PRInt32
 lastIndex
 =
-NS_MIN
+PR_MIN
 (
 total
 otherTotal
