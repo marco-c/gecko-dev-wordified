@@ -66,6 +66,11 @@ SYSTEM_PROPERTY_VALUE_MAX
 =
 92
 ;
+const
+DEBUG
+=
+false
+;
 /
 *
 *
@@ -139,6 +144,11 @@ Firefox
 with
 MOZ_B2G_RIL
 .
+if
+(
+DEBUG
+)
+{
 dump
 (
 "
@@ -158,6 +168,7 @@ n
 "
 )
 ;
+}
 let
 fake_propdb
 =
@@ -548,6 +559,11 @@ catch
 ex
 )
 {
+if
+(
+DEBUG
+)
+{
 dump
 (
 "
@@ -563,6 +579,7 @@ n
 "
 )
 ;
+}
 /
 /
 For

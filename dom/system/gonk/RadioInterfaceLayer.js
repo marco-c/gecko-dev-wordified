@@ -1987,11 +1987,6 @@ is
 actually
 set
 .
-if
-(
-DEBUG
-)
-{
 debug
 (
 "
@@ -2032,7 +2027,6 @@ message
 localTimeStampInMS
 )
 ;
-}
 break
 ;
 case
