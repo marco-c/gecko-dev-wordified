@@ -766,6 +766,7 @@ to
 the
 font
 list
+virtual
 gfxFontFamily
 *
 FindFamily
