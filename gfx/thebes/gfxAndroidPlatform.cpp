@@ -1126,6 +1126,10 @@ if
 mMap
 .
 ops
+|
+|
+!
+mCache
 )
 return
 ;
