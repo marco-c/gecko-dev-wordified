@@ -2448,7 +2448,6 @@ js_NativeSet
 (
 cx
 obj
-obj
 shape
 false
 strict
@@ -2567,7 +2566,6 @@ SetPropertyHelper
 (
 cx
 obj
-obj
 id
 defineHow
 rref
@@ -2593,7 +2591,6 @@ obj
 setGeneric
 (
 cx
-obj
 id
 rref
 .
@@ -5261,11 +5258,8 @@ SetObjectElementOperation
 JSContext
 *
 cx
-Handle
-<
 JSObject
 *
->
 obj
 HandleId
 id
@@ -5476,7 +5470,6 @@ obj
 setGeneric
 (
 cx
-obj
 id
 tmp
 .

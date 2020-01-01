@@ -2006,6 +2006,8 @@ t
 care
 about
 assignments
+or
+declarations
 bail
 now
 .
@@ -2013,7 +2015,11 @@ if
 (
 aFlags
 &
+(
 JSRESOLVE_ASSIGNING
+|
+JSRESOLVE_DECLARING
+)
 )
 {
 *

@@ -1775,8 +1775,6 @@ JSContext
 cx
 HandleObject
 obj
-HandleObject
-receiver
 bool
 strict
 Value
@@ -1813,7 +1811,7 @@ return
 InvokeGetterOrSetter
 (
 cx
-receiver
+obj
 fval
 1
 vp
