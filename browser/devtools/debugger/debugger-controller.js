@@ -922,7 +922,7 @@ remoteHost
 =
 prompt
 .
-uri
+remote
 .
 host
 ;
@@ -932,7 +932,7 @@ remotePort
 =
 prompt
 .
-uri
+remote
 .
 port
 ;
