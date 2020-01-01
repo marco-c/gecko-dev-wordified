@@ -996,7 +996,6 @@ new
 ChromeInputModule
 (
 this
-browserCanvas
 )
 )
 ;
@@ -4494,6 +4493,8 @@ sX
 sY
 )
 ;
+/
+/
 Browser
 .
 canvasBrowser
