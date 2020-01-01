@@ -2129,6 +2129,22 @@ output_file
 OPTIONS
 )
         
+for
+t
+in
+skipped_list
+:
+            
+results
+.
+push
+(
+NullTestOutput
+(
+t
+)
+)
+        
 run_tests
 (
 test_list
@@ -2143,22 +2159,6 @@ os
 chdir
 (
 curdir
-)
-    
-for
-t
-in
-skipped_list
-:
-        
-results
-.
-push
-(
-NullTestOutput
-(
-t
-)
 )
     
 if
