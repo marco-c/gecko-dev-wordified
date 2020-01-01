@@ -6623,6 +6623,17 @@ e
 getParameter
 :
 {
+/
+/
+FIXME
+disabled
+because
+crashes
+see
+bug
+576620
+/
+/
 generate
 :
 function
@@ -6639,6 +6650,8 @@ random
 ]
 ;
 }
+/
+/
 checkArgValidity
 :
 function
