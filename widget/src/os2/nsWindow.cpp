@@ -6195,6 +6195,7 @@ gRollupListener
 >
 Rollup
 (
+PR_UINT32_MAX
 nsnull
 )
 ;
@@ -7591,10 +7592,7 @@ mContext
 >
 Init
 (
-(
-nsNativeWidget
-)
-mWnd
+this
 )
 ;
 #
@@ -8824,6 +8822,7 @@ gRollupListener
 >
 Rollup
 (
+PR_UINT32_MAX
 nsnull
 )
 ;
