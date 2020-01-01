@@ -5,7 +5,7 @@
 -
 Mode
 :
-c
+C
 +
 +
 ;
@@ -21,7 +21,7 @@ tab
 -
 width
 :
-40
+4
 ;
 indent
 -
@@ -42,7 +42,7 @@ vim
 set
 ts
 =
-40
+4
 sw
 =
 4

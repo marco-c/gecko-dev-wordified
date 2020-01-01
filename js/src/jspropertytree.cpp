@@ -5,7 +5,7 @@
 -
 Mode
 :
-c
+C
 +
 +
 ;
@@ -21,7 +21,7 @@ tab
 -
 width
 :
-40
+4
 ;
 indent
 -
@@ -42,7 +42,7 @@ vim
 set
 ts
 =
-40
+4
 sw
 =
 4
@@ -294,7 +294,10 @@ KidsHash
 *
 hash
 =
-js_new
+OffTheBooks
+:
+:
+new_
 <
 KidsHash
 >
@@ -317,7 +320,10 @@ init
 )
 )
 {
-js_delete
+Foreground
+:
+:
+delete_
 (
 hash
 )
@@ -810,7 +816,13 @@ setShape
 otherChild
 )
 ;
-js_delete
+js
+:
+:
+UnwantedForeground
+:
+:
+delete_
 (
 hash
 )
