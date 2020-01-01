@@ -3704,8 +3704,14 @@ getDef
 )
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 LAllocation
 *
+>
 lhs
 =
 ins

@@ -11242,6 +11242,8 @@ types
 ;
 ExecutionMode
 executionMode
+=
+SequentialExecution
 ;
 switch
 (
@@ -11272,10 +11274,6 @@ CompilerOutput
 :
 Ion
 :
-executionMode
-=
-SequentialExecution
-;
 break
 ;
 case
