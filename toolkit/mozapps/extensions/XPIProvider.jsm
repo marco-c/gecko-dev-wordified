@@ -33851,6 +33851,10 @@ callListener
 function
 (
 aMethod
+.
+.
+.
+aArgs
 )
 {
 if
@@ -33866,17 +33870,6 @@ listener
 )
 return
 ;
-let
-args
-=
-Array
-.
-slice
-(
-arguments
-1
-)
-;
 try
 {
 this
@@ -33891,7 +33884,7 @@ apply
 this
 .
 listener
-args
+aArgs
 )
 ;
 }
