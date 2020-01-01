@@ -20909,7 +20909,7 @@ NS_OK
 =
 =
 =
-nsIMouseListener
+nsIDOMMouseListener
 =
 =
 =
