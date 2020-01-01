@@ -7928,6 +7928,13 @@ data
 aData
 ;
 }
+compositionEvent
+.
+flags
+|
+=
+NS_EVENT_FLAG_SYNTHETIC_TEST_EVENT
+;
 nsEventStatus
 status
 ;
@@ -8341,6 +8348,13 @@ textRanges
 Elements
 (
 )
+;
+textEvent
+.
+flags
+|
+=
+NS_EVENT_FLAG_SYNTHETIC_TEST_EVENT
 ;
 nsEventStatus
 status

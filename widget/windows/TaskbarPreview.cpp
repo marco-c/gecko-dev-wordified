@@ -1389,7 +1389,7 @@ win
 win
 -
 >
-HasDestroyStarted
+Destroyed
 (
 )
 )

@@ -676,10 +676,6 @@ mBorderStyle
 (
 eBorderStyle_none
 )
-mOnDestroyCalled
-(
-false
-)
 mUseAcceleratedRendering
 (
 false
