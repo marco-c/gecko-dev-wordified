@@ -2754,6 +2754,7 @@ snapshot
 bool
 emitAssertRangeI
 (
+const
 Range
 *
 r
@@ -2764,6 +2765,7 @@ input
 bool
 emitAssertRangeD
 (
+const
 Range
 *
 r

@@ -52411,6 +52411,7 @@ CodeGenerator
 :
 emitAssertRangeI
 (
+const
 Range
 *
 r
@@ -52598,6 +52599,7 @@ CodeGenerator
 :
 emitAssertRangeD
 (
+const
 Range
 *
 r
@@ -52992,6 +52994,7 @@ input
 )
 )
 ;
+const
 Range
 *
 r
@@ -53048,6 +53051,7 @@ temp
 )
 )
 ;
+const
 Range
 *
 r
@@ -53105,6 +53109,7 @@ temp
 )
 )
 ;
+const
 Range
 *
 r
@@ -53157,6 +53162,7 @@ LAssertRangeV
 ins
 )
 {
+const
 Range
 *
 r
