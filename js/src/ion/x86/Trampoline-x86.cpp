@@ -4107,7 +4107,7 @@ JSCReturnOperand
 }
 masm
 .
-finalizeABICall
+finishABICall
 (
 )
 ;
