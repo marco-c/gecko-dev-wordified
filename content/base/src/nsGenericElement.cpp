@@ -13081,11 +13081,16 @@ NODE_IS_IN_ANONYMOUS_SUBTREE
 )
 |
 |
-aBindingParent
+(
+aParent
+&
+&
+aParent
 -
 >
 IsInNativeAnonymousSubtree
 (
+)
 )
 "
 Trying
