@@ -6071,6 +6071,17 @@ aNode
 )
 ;
 }
+containerStateChanged
+:
+function
+PTV_containerStateChanged
+(
+aNode
+aOldState
+aNewState
+)
+{
+}
 invalidateContainer
 :
 function
