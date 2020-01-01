@@ -570,7 +570,7 @@ return
 true
 ;
 }
-PIFrameEmbeddingProtocolChild
+PIFrameEmbeddingChild
 *
 ContentProcessChild
 :
@@ -583,7 +583,7 @@ MagicWindowHandle
 hwnd
 )
 {
-PIFrameEmbeddingProtocolChild
+PIFrameEmbeddingChild
 *
 iframe
 =
@@ -623,7 +623,7 @@ ContentProcessChild
 :
 PIFrameEmbeddingDestructor
 (
-PIFrameEmbeddingProtocolChild
+PIFrameEmbeddingChild
 *
 iframe
 )
@@ -639,7 +639,7 @@ return
 NS_OK
 ;
 }
-PTestShellProtocolChild
+PTestShellChild
 *
 ContentProcessChild
 :
@@ -648,7 +648,7 @@ PTestShellConstructor
 (
 )
 {
-PTestShellProtocolChild
+PTestShellChild
 *
 testshell
 =
@@ -687,7 +687,7 @@ ContentProcessChild
 :
 PTestShellDestructor
 (
-PTestShellProtocolChild
+PTestShellChild
 *
 shell
 )

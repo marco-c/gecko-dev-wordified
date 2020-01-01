@@ -428,9 +428,9 @@ mozilla
 ipc
 :
 :
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 ;
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 *
 TestShellParent
 :
@@ -456,7 +456,7 @@ TestShellParent
 :
 PTestShellCommandDestructor
 (
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 *
 aActor
 const
@@ -483,7 +483,7 @@ TestShellParent
 :
 RecvPTestShellCommandDestructor
 (
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 *
 aActor
 const

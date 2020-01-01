@@ -1938,7 +1938,7 @@ endif
 /
 /
 OS_WIN
-PPluginScriptableObjectProtocolChild
+PPluginScriptableObjectChild
 *
 PluginInstanceChild
 :
@@ -1970,7 +1970,7 @@ PluginInstanceChild
 :
 PPluginScriptableObjectDestructor
 (
-PPluginScriptableObjectProtocolChild
+PPluginScriptableObjectChild
 *
 aObject
 NPError
@@ -1992,7 +1992,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PBrowserStreamProtocolChild
+PBrowserStreamChild
 *
 PluginInstanceChild
 :
@@ -2053,7 +2053,7 @@ PluginInstanceChild
 :
 PBrowserStreamDestructor
 (
-PBrowserStreamProtocolChild
+PBrowserStreamChild
 *
 stream
 const

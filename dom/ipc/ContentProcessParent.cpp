@@ -926,7 +926,7 @@ Notify
 )
 ;
 }
-PIFrameEmbeddingProtocolParent
+PIFrameEmbeddingParent
 *
 ContentProcessParent
 :
@@ -952,7 +952,7 @@ ContentProcessParent
 :
 PIFrameEmbeddingDestructor
 (
-PIFrameEmbeddingProtocolParent
+PIFrameEmbeddingParent
 *
 frame
 )
@@ -964,7 +964,7 @@ return
 NS_OK
 ;
 }
-PTestShellProtocolParent
+PTestShellParent
 *
 ContentProcessParent
 :
@@ -986,7 +986,7 @@ ContentProcessParent
 :
 PTestShellDestructor
 (
-PTestShellProtocolParent
+PTestShellParent
 *
 shell
 )

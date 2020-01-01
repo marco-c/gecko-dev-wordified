@@ -403,7 +403,7 @@ mozilla
 /
 ipc
 /
-PTestShellProtocolParent
+PTestShellParent
 .
 h
 "
@@ -414,7 +414,7 @@ mozilla
 /
 ipc
 /
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 .
 h
 "
@@ -449,7 +449,7 @@ class
 TestShellCommandParent
 :
 public
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 {
 public
 :
@@ -502,11 +502,11 @@ class
 TestShellParent
 :
 public
-PTestShellProtocolParent
+PTestShellParent
 {
 public
 :
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 *
 PTestShellCommandConstructor
 (
@@ -519,7 +519,7 @@ aCommand
 nsresult
 PTestShellCommandDestructor
 (
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 *
 aActor
 const
@@ -531,7 +531,7 @@ aResponse
 nsresult
 RecvPTestShellCommandDestructor
 (
-PTestShellCommandProtocolParent
+PTestShellCommandParent
 *
 aActor
 const

@@ -456,7 +456,7 @@ mozilla
 /
 dom
 /
-PContentProcessProtocolParent
+PContentProcessParent
 .
 h
 "
@@ -507,7 +507,7 @@ class
 ContentProcessParent
 :
 private
-PContentProcessProtocolParent
+PContentProcessParent
 public
 base
 :
@@ -624,13 +624,13 @@ using
 them
 .
 using
-PContentProcessProtocolParent
+PContentProcessParent
 :
 :
 SendPIFrameEmbeddingConstructor
 ;
 using
-PContentProcessProtocolParent
+PContentProcessParent
 :
 :
 SendPTestShellConstructor
@@ -646,7 +646,7 @@ ContentProcessParent
 )
 ;
 virtual
-PIFrameEmbeddingProtocolParent
+PIFrameEmbeddingParent
 *
 PIFrameEmbeddingConstructor
 (
@@ -660,13 +660,13 @@ virtual
 nsresult
 PIFrameEmbeddingDestructor
 (
-PIFrameEmbeddingProtocolParent
+PIFrameEmbeddingParent
 *
 frame
 )
 ;
 virtual
-PTestShellProtocolParent
+PTestShellParent
 *
 PTestShellConstructor
 (
@@ -676,7 +676,7 @@ virtual
 nsresult
 PTestShellDestructor
 (
-PTestShellProtocolParent
+PTestShellParent
 *
 shell
 )

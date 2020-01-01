@@ -438,7 +438,7 @@ mozilla
 /
 plugins
 /
-PBrowserStreamProtocolChild
+PBrowserStreamChild
 .
 h
 "
@@ -455,7 +455,7 @@ class
 BrowserStreamChild
 :
 public
-PBrowserStreamProtocolChild
+PBrowserStreamChild
 {
 public
 :

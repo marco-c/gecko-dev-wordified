@@ -447,7 +447,7 @@ mozilla
 /
 dom
 /
-PContentProcessProtocolChild
+PContentProcessChild
 .
 h
 "
@@ -475,7 +475,7 @@ class
 ContentProcessChild
 :
 public
-PContentProcessProtocolChild
+PContentProcessChild
 {
 public
 :
@@ -524,7 +524,7 @@ sSingleton
 ;
 }
 virtual
-PIFrameEmbeddingProtocolChild
+PIFrameEmbeddingChild
 *
 PIFrameEmbeddingConstructor
 (
@@ -538,12 +538,12 @@ virtual
 nsresult
 PIFrameEmbeddingDestructor
 (
-PIFrameEmbeddingProtocolChild
+PIFrameEmbeddingChild
 *
 )
 ;
 virtual
-PTestShellProtocolChild
+PTestShellChild
 *
 PTestShellConstructor
 (
@@ -553,7 +553,7 @@ virtual
 nsresult
 PTestShellDestructor
 (
-PTestShellProtocolChild
+PTestShellChild
 *
 )
 ;
@@ -579,7 +579,7 @@ nsTArray
 <
 nsAutoPtr
 <
-PIFrameEmbeddingProtocolChild
+PIFrameEmbeddingChild
 >
 >
 mIFrames
@@ -588,7 +588,7 @@ nsTArray
 <
 nsAutoPtr
 <
-PTestShellProtocolChild
+PTestShellChild
 >
 >
 mTestShells

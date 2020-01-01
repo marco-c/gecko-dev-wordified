@@ -403,7 +403,7 @@ mozilla
 /
 ipc
 /
-PTestShellProtocolChild
+PTestShellChild
 .
 h
 "
@@ -414,7 +414,7 @@ mozilla
 /
 ipc
 /
-PTestShellCommandProtocolChild
+PTestShellCommandChild
 .
 h
 "
@@ -449,7 +449,7 @@ class
 TestShellChild
 :
 public
-PTestShellProtocolChild
+PTestShellChild
 {
 public
 :
@@ -466,7 +466,7 @@ nsString
 aCommand
 )
 ;
-PTestShellCommandProtocolChild
+PTestShellCommandChild
 *
 PTestShellCommandConstructor
 (
@@ -479,7 +479,7 @@ aCommand
 nsresult
 RecvPTestShellCommandConstructor
 (
-PTestShellCommandProtocolChild
+PTestShellCommandChild
 *
 aActor
 const
@@ -491,7 +491,7 @@ aCommand
 nsresult
 PTestShellCommandDestructor
 (
-PTestShellCommandProtocolChild
+PTestShellCommandChild
 *
 aCommand
 const

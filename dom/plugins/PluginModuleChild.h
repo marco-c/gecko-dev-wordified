@@ -516,7 +516,7 @@ mozilla
 /
 plugins
 /
-PPluginModuleProtocolChild
+PPluginModuleChild
 .
 h
 "
@@ -833,7 +833,7 @@ class
 PluginModuleChild
 :
 public
-PPluginModuleProtocolChild
+PPluginModuleChild
 {
 protected
 :
@@ -841,7 +841,7 @@ protected
 /
 Implement
 the
-PPluginModuleProtocolChild
+PPluginModuleChild
 interface
 virtual
 nsresult
@@ -853,7 +853,7 @@ rv
 )
 ;
 virtual
-PPluginInstanceProtocolChild
+PPluginInstanceChild
 *
 PPluginInstanceConstructor
 (
@@ -888,7 +888,7 @@ virtual
 nsresult
 PPluginInstanceDestructor
 (
-PPluginInstanceProtocolChild
+PPluginInstanceChild
 *
 actor
 NPError
