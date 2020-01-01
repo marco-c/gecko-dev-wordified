@@ -549,6 +549,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -6525,7 +6532,7 @@ aOtherIsOnLeft
 {
 mAscent
 =
-PR_MAX
+NS_MAX
 (
 mAscent
 aOther
@@ -6535,7 +6542,7 @@ mAscent
 ;
 mDescent
 =
-PR_MAX
+NS_MAX
 (
 mDescent
 aOther
@@ -8001,7 +8008,7 @@ aDestMax
 *
 aDestMin
 =
-PR_MIN
+NS_MIN
 (
 *
 aDestMin
@@ -8011,7 +8018,7 @@ aX
 *
 aDestMax
 =
-PR_MAX
+NS_MAX
 (
 *
 aDestMax
@@ -10964,7 +10971,7 @@ sxHeight
 ;
 /
 /
-PR_ABS
+NS_ABS
 because
 of
 negative
@@ -10980,7 +10987,7 @@ aMetrics
 .
 xHeight
 =
-PR_ABS
+NS_ABS
 (
 aMetrics
 .
@@ -11651,7 +11658,7 @@ aMetrics
 >
 underlineSize
 =
-PR_MAX
+NS_MAX
 (
 1
 .
@@ -11667,7 +11674,7 @@ aMetrics
 >
 strikeoutSize
 =
-PR_MAX
+NS_MAX
 (
 1
 .
@@ -11683,7 +11690,7 @@ aMetrics
 >
 underlineOffset
 =
-PR_MIN
+NS_MIN
 (
 aMetrics
 -
@@ -11905,7 +11912,7 @@ aMetrics
 >
 underlineOffset
 =
-PR_MIN
+NS_MIN
 (
 aMetrics
 -
@@ -11956,7 +11963,7 @@ aMetrics
 >
 underlineOffset
 =
-PR_MIN
+NS_MIN
 (
 aMetrics
 -
@@ -11977,7 +11984,7 @@ aMetrics
 >
 underlineOffset
 =
-PR_MIN
+NS_MIN
 (
 aMetrics
 -
@@ -12058,7 +12065,7 @@ aMetrics
 >
 underlineSize
 =
-PR_MAX
+NS_MAX
 (
 aMetrics
 -
@@ -12200,7 +12207,7 @@ aMetrics
 >
 strikeoutSize
 =
-PR_MAX
+NS_MAX
 (
 aMetrics
 -
@@ -12250,7 +12257,7 @@ aMetrics
 >
 strikeoutOffset
 =
-PR_MAX
+NS_MAX
 (
 halfOfStrikeoutSize
 ascent
@@ -13750,7 +13757,7 @@ underlineOffset
 ;
 mUnderlineOffset
 =
-PR_MIN
+NS_MIN
 (
 first
 bad
@@ -19479,7 +19486,7 @@ PR_FALSE
 ;
 mStringStart
 =
-PR_MAX
+NS_MAX
 (
 mStartOffset
 mGlyphRun
@@ -19523,7 +19530,7 @@ mCharacterCount
 ;
 mStringEnd
 =
-PR_MIN
+NS_MIN
 (
 mEndOffset
 last
@@ -19745,7 +19752,7 @@ aSign
 ;
 gTextRunStorageHighWaterMark
 =
-PR_MAX
+NS_MAX
 (
 gTextRunStorageHighWaterMark
 gTextRunStorage
@@ -21916,7 +21923,7 @@ IsRightToLeft
 *
 aRight
 =
-PR_MIN
+NS_MIN
 (
 *
 aRight
@@ -21929,7 +21936,7 @@ else
 *
 aLeft
 =
-PR_MAX
+NS_MAX
 (
 *
 aLeft
@@ -21976,7 +21983,7 @@ IsRightToLeft
 *
 aLeft
 =
-PR_MAX
+NS_MAX
 (
 *
 aLeft
@@ -21989,7 +21996,7 @@ else
 *
 aRight
 =
-PR_MIN
+NS_MIN
 (
 *
 aRight
@@ -24230,7 +24237,7 @@ aBreakPriority
 {
 aMaxLength
 =
-PR_MIN
+NS_MIN
 (
 aMaxLength
 mCharacterCount
@@ -24262,7 +24269,10 @@ aStart
 PRUint32
 bufferLength
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 aMaxLength
 MEASUREMENT_BUFFER_SIZE
@@ -24514,7 +24524,7 @@ i
 ;
 bufferLength
 =
-PR_MIN
+NS_MIN
 (
 aStart
 +
@@ -26707,7 +26717,7 @@ else
 gfxFloat
 width
 =
-PR_MAX
+NS_MAX
 (
 glyphRun
 -

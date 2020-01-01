@@ -2609,7 +2609,7 @@ chunkSize
 PRUint32
 size
 =
-PR_MIN
+NS_MIN
 (
 chunkSize
 MAX_CHUNK_SIZE
@@ -3664,7 +3664,10 @@ streamLength
 PRInt64
 dataLength
 =
-PR_MAX
+NS_MAX
+<
+PRInt64
+>
 (
 0
 streamLength
@@ -3674,7 +3677,7 @@ mWavePCMOffset
 ;
 length
 =
-PR_MIN
+NS_MIN
 (
 dataLength
 length

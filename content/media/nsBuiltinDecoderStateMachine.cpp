@@ -11133,7 +11133,10 @@ Now
 +
 UsecsToDuration
 (
-PR_MAX
+NS_MAX
+<
+PRInt64
+>
 (
 USECS_PER_MS
 aUsecs

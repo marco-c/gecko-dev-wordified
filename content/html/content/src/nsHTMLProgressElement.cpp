@@ -1049,7 +1049,7 @@ max
 *
 aValue
 =
-PR_MIN
+NS_MIN
 (
 *
 aValue

@@ -7620,7 +7620,7 @@ Deflate
 gfxMargin
 (
 0
-PR_MAX
+NS_MAX
 (
 borderRadii
 [
@@ -7636,7 +7636,7 @@ C_TR
 height
 )
 0
-PR_MAX
+NS_MAX
 (
 borderRadii
 [
@@ -9344,7 +9344,7 @@ Deflate
 gfxMargin
 (
 0
-PR_MAX
+NS_MAX
 (
 clipRectRadii
 [
@@ -9360,7 +9360,7 @@ C_TR
 height
 )
 0
-PR_MAX
+NS_MAX
 (
 clipRectRadii
 [

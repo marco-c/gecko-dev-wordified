@@ -1602,7 +1602,10 @@ value
 ;
 gVolumeScale
 =
-PR_MAX
+NS_MAX
+<
+double
+>
 (
 0
 PR_strtod

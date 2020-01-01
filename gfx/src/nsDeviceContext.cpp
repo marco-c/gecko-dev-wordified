@@ -2447,7 +2447,7 @@ prefDPI
 {
 dpi
 =
-PR_MAX
+NS_MAX
 (
 96
 .
@@ -2599,7 +2599,7 @@ devPixelsPerCSSPixel
 }
 mAppUnitsPerDevNotScaledPixel
 =
-PR_MAX
+NS_MAX
 (
 1
 NS_lround
@@ -4829,7 +4829,7 @@ UpdateScaledAppUnits
 {
 mAppUnitsPerDevPixel
 =
-PR_MAX
+NS_MAX
 (
 1
 NSToIntRound

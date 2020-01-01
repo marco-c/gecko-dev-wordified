@@ -18035,7 +18035,10 @@ largest
 .
 y
 =
-PR_MAX
+NS_MAX
+<
+PRUint32
+>
 (
 largest
 .
@@ -24095,7 +24098,7 @@ kSystemDefaultScrollingSpeed
 PRInt32
 absOriginDelta
 =
-PR_ABS
+NS_ABS
 (
 aOriginalDelta
 )
@@ -24437,7 +24440,7 @@ NS_OK
 }
 absComputedOverriddenDelta
 =
-PR_MIN
+NS_MIN
 (
 absComputedOverriddenDelta
 absDeltaLimit
@@ -46392,10 +46395,10 @@ numOfUnshiftedChars
 PRUint32
 num
 =
-PR_MAX
+NS_MAX
 (
 numOfUniChars
-PR_MAX
+NS_MAX
 (
 numOfShiftedChars
 numOfUnshiftedChars

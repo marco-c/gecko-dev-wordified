@@ -5048,7 +5048,10 @@ BLOCK_SIZE
 ;
 maxBlocks
 =
-PR_MAX
+NS_MAX
+<
+PRInt64
+>
 (
 maxBlocks
 1
@@ -5057,7 +5060,10 @@ maxBlocks
 return
 PRInt32
 (
-PR_MIN
+NS_MIN
+<
+PRInt64
+>
 (
 maxBlocks
 PR_INT32_MAX

@@ -4303,7 +4303,10 @@ mozilla
 fallocate
 (
 mFD
-PR_MIN
+NS_MIN
+<
+PRInt64
+>
 (
 dataSize
 kPreallocateLimit

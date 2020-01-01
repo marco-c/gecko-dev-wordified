@@ -1281,7 +1281,7 @@ size
 )
 ;
 return
-PR_MAX
+NS_MAX
 (
 minDescent
 aMetrics
@@ -1595,7 +1595,7 @@ x
 )
 ;
 return
-PR_MAX
+NS_MAX
 (
 1
 len

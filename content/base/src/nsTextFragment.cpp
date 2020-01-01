@@ -1164,7 +1164,7 @@ boundary
 PRInt32
 alignLen
 =
-PR_MIN
+NS_MIN
 (
 len
 PRInt32
@@ -1172,7 +1172,7 @@ PRInt32
 (
 (
 -
-NS_PTR_TO_UINT32
+NS_PTR_TO_INT32
 (
 str
 )

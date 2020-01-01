@@ -8652,7 +8652,7 @@ i
 PRUint32
 len
 =
-PR_MIN
+NS_MIN
 (
 mClauseArray
 [
@@ -8715,7 +8715,10 @@ mClauseArray
 .
 SetLength
 (
-PR_MAX
+NS_MAX
+<
+long
+>
 (
 0
 clauseArrayLength
@@ -8984,7 +8987,10 @@ mAttributeArray
 .
 SetLength
 (
-PR_MAX
+NS_MAX
+<
+long
+>
 (
 0
 attrArrayLength
