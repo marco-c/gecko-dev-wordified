@@ -256,13 +256,6 @@ h
 #
 include
 "
-nsCycleCollector
-.
-h
-"
-#
-include
-"
 nsDocument
 .
 h

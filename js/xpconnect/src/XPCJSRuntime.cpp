@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsCycleCollectorUtils
+.
+h
+"
+#
+include
+"
 nsScriptLoader
 .
 h
@@ -2815,7 +2822,7 @@ IsWrapperExpired
 )
 return
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

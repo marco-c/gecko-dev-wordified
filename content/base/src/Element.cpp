@@ -832,13 +832,6 @@ h
 #
 include
 "
-nsCycleCollector
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h
