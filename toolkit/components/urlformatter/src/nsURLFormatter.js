@@ -1043,7 +1043,7 @@ null
 ;
 try
 {
-distibution
+distribution
 .
 id
 =
@@ -1063,7 +1063,7 @@ e
 }
 try
 {
-distibution
+distribution
 .
 version
 =
