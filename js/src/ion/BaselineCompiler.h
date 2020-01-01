@@ -1064,6 +1064,16 @@ emitDebugTrap
 )
 ;
 bool
+emitSPSPush
+(
+)
+;
+void
+emitSPSPop
+(
+)
+;
+bool
 initScopeChain
 (
 )

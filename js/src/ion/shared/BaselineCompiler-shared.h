@@ -151,6 +151,15 @@ include
 "
 ion
 /
+IonInstrumentation
+.
+h
+"
+#
+include
+"
+ion
+/
 IonMacroAssembler
 .
 h
@@ -385,6 +394,9 @@ DebugOnly
 bool
 >
 inCall_
+;
+CodeOffsetLabel
+spsPushToggleOffset_
 ;
 BaselineCompilerShared
 (
