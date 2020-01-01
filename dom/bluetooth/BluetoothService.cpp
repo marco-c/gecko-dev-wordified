@@ -3513,7 +3513,7 @@ InfallibleTArray
 BluetoothNamedValue
 >
 arr
-=
+(
 aData
 .
 value
@@ -3522,6 +3522,7 @@ value
 .
 get_ArrayOfBluetoothNamedValue
 (
+)
 )
 ;
 nsString
