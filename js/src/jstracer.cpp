@@ -47344,11 +47344,6 @@ recorder
 NULL
 )
 ;
-AUDIT
-(
-recorderAborted
-)
-;
 /
 *
 Abort
@@ -47446,6 +47441,11 @@ cx
 return
 ;
 }
+AUDIT
+(
+recorderAborted
+)
+;
 JS_ASSERT
 (
 !
