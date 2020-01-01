@@ -953,6 +953,9 @@ GetCompositableHost
 if
 (
 mBuffer
+&
+&
+mBuffer
 -
 >
 IsAttached

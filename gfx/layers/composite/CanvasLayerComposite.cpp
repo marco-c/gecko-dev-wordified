@@ -682,6 +682,9 @@ GetCompositableHost
 if
 (
 mImageHost
+&
+&
+mImageHost
 -
 >
 IsAttached
