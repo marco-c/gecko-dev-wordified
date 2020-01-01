@@ -388,7 +388,7 @@ endif
 endif
 #
 if
-WTF_OS_IOS
+WTF_PLATFORM_IPHONE
 #
 include
 <
@@ -411,7 +411,7 @@ h
 endif
 #
 if
-WTF_OS_SYMBIAN
+WTF_PLATFORM_SYMBIAN
 #
 include
 <
@@ -426,7 +426,7 @@ if
 WTF_CPU_MIPS
 &
 &
-WTF_OS_LINUX
+WTF_PLATFORM_LINUX
 #
 include
 <
@@ -530,7 +530,7 @@ size
 ;
 #
 if
-WTF_OS_SYMBIAN
+WTF_PLATFORM_SYMBIAN
 RChunk
 *
 chunk
@@ -1601,8 +1601,6 @@ return
 pool
 ;
 }
-public
-:
 ExecutablePool
 *
 poolForSize
@@ -2044,6 +2042,8 @@ return
 pool
 ;
 }
+public
+:
 #
 if
 ENABLE_ASSEMBLER_WX_EXCLUSIVE
@@ -2407,7 +2407,7 @@ elif
 WTF_CPU_ARM_THUMB2
 &
 &
-WTF_OS_IOS
+WTF_PLATFORM_IPHONE
 static
 void
 cacheFlush
@@ -2437,7 +2437,7 @@ elif
 WTF_CPU_ARM_THUMB2
 &
 &
-WTF_IOS
+WTF_PLATFORM_LINUX
 static
 void
 cacheFlush
@@ -2552,7 +2552,7 @@ r2
 }
 #
 elif
-WTF_OS_SYMBIAN
+WTF_PLATFORM_SYMBIAN
 static
 void
 cacheFlush
@@ -2588,7 +2588,7 @@ elif
 WTF_CPU_ARM_TRADITIONAL
 &
 &
-WTF_OS_LINUX
+WTF_PLATFORM_LINUX
 &
 &
 WTF_COMPILER_RVCT
@@ -2610,10 +2610,10 @@ WTF_CPU_ARM_TRADITIONAL
 &
 &
 (
-WTF_OS_LINUX
+WTF_PLATFORM_LINUX
 |
 |
-WTF_OS_ANDROID
+WTF_PLATFORM_ANDROID
 )
 &
 &
