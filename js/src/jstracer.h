@@ -1059,6 +1059,7 @@ p
 uint8
 &
 t
+const
 char
 *
 prefix
