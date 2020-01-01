@@ -553,6 +553,12 @@ rv
 rv
 )
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 if
 (
 JSVAL_IS_NULL
