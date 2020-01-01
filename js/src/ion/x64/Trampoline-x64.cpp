@@ -584,7 +584,7 @@ fp
 =
 Operand
 (
-rbp
+rsp
 16
 +
 ShadowStackSpace
@@ -768,7 +768,7 @@ token
 Operand
 (
 rbp
-8
+16
 +
 ShadowStackSpace
 )
