@@ -716,14 +716,12 @@ shouldDrag
 aEvent
 )
 )
-{
 aEvent
 .
 preventDefault
 (
 )
 ;
-}
 #
 else
 switch
