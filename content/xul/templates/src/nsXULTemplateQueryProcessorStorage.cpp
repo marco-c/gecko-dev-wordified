@@ -2226,7 +2226,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 index
 valInt32
@@ -2268,7 +2268,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 index
 valInt64
@@ -2284,7 +2284,7 @@ rv
 statement
 -
 >
-BindNullParameter
+BindNullByIndex
 (
 index
 )
@@ -2325,7 +2325,7 @@ rv
 statement
 -
 >
-BindDoubleParameter
+BindDoubleByIndex
 (
 index
 valFloat
@@ -2347,7 +2347,7 @@ rv
 statement
 -
 >
-BindStringParameter
+BindStringByIndex
 (
 index
 value
