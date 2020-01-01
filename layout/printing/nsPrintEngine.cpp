@@ -1783,10 +1783,6 @@ mProgressDialogIsShown
 (
 PR_FALSE
 )
-mDocViewerPrint
-(
-nsnull
-)
 mContainer
 (
 nsnull
@@ -2013,6 +2009,10 @@ nsnull
 }
 #
 endif
+mDocViewerPrint
+=
+nsnull
+;
 }
 /
 /
@@ -2383,10 +2383,6 @@ mDocViewerPrint
 =
 aDocViewerPrint
 ;
-/
-/
-weak
-reference
 mContainer
 =
 aContainer
