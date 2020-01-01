@@ -1487,16 +1487,6 @@ WantsSmallTiles
 (
 )
 ;
-virtual
-bool
-HasLockSurface
-(
-)
-{
-return
-false
-;
-}
 /
 *
 *
