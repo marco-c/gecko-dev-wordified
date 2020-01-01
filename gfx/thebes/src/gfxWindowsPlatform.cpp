@@ -3917,7 +3917,8 @@ aFont
 )
 matchRank
 (
-0
+-
+1
 )
 {
 }
