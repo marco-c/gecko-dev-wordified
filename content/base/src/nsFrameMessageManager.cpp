@@ -7323,12 +7323,6 @@ MM_PROCESSMANAGER
 MM_BROADCASTER
 )
 ;
-NS_ENSURE_TRUE
-(
-mm
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsFrameMessageManager
 :
 :
@@ -7549,12 +7543,6 @@ nullptr
 MM_PROCESSMANAGER
 |
 MM_OWNSCALLBACK
-)
-;
-NS_ENSURE_TRUE
-(
-mm
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 nsFrameMessageManager
