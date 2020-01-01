@@ -803,9 +803,6 @@ OnNavigation
 (
 )
 ;
-#
-ifdef
-MOZ_SYS_MSG
 /
 /
 Helper
@@ -818,8 +815,6 @@ EnsureMessagesManager
 (
 )
 ;
-#
-endif
 NS_DECL_NSIDOMNAVIGATORCAMERA
 private
 :
