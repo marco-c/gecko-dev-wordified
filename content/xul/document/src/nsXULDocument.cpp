@@ -1856,7 +1856,7 @@ if
 mBroadcasterMap
 )
 {
-NS_ASSERTION
+NS_WARN_IF_FALSE
 (
 mBroadcasterMap
 -
