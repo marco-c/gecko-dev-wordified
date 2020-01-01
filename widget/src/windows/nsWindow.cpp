@@ -52370,6 +52370,9 @@ return
 TRUE
 ;
 }
+#
+ifndef
+WINCE
 /
 /
 if
@@ -52437,6 +52440,8 @@ return
 TRUE
 ;
 }
+#
+endif
 }
 }
 /
