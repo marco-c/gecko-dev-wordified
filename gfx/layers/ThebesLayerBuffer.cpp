@@ -2286,10 +2286,10 @@ below
 bool
 isClear
 =
-mBuffer
-=
-=
-nullptr
+!
+HaveBuffer
+(
+)
 ;
 if
 (
