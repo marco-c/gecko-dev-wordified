@@ -17966,7 +17966,7 @@ alien
 TypeError
 )
 ;
-checkThrowTODO
+checkThrow
 (
 function
 (

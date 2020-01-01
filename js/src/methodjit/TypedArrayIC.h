@@ -673,7 +673,7 @@ i32
 TypedArray
 :
 :
-type
+getType
 (
 tarray
 )
@@ -730,7 +730,7 @@ if
 TypedArray
 :
 :
-type
+getType
 (
 tarray
 )
@@ -1118,7 +1118,7 @@ if
 TypedArray
 :
 :
-type
+getType
 (
 tarray
 )
@@ -1246,7 +1246,7 @@ if
 TypedArray
 :
 :
-type
+getType
 (
 tarray
 )
@@ -1947,7 +1947,7 @@ if
 TypedArray
 :
 :
-type
+getType
 (
 tarray
 )
@@ -2009,7 +2009,7 @@ type
 TypedArray
 :
 :
-type
+getType
 (
 tarray
 )

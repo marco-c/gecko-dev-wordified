@@ -17331,7 +17331,7 @@ supportsFloatingPoint
 TypedArray
 :
 :
-type
+getType
 (
 obj
 )
@@ -17346,7 +17346,7 @@ TYPE_FLOAT32
 TypedArray
 :
 :
-type
+getType
 (
 obj
 )
@@ -17361,7 +17361,7 @@ TYPE_FLOAT64
 TypedArray
 :
 :
-type
+getType
 (
 obj
 )
@@ -17396,7 +17396,7 @@ loadFromTypedArray
 TypedArray
 :
 :
-type
+getType
 (
 obj
 )
@@ -19592,7 +19592,7 @@ supportsFloatingPoint
 TypedArray
 :
 :
-type
+getType
 (
 obj
 )
@@ -19607,7 +19607,7 @@ TYPE_FLOAT32
 TypedArray
 :
 :
-type
+getType
 (
 obj
 )

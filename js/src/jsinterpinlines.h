@@ -1466,7 +1466,7 @@ Int32Value
 TypedArray
 :
 :
-length
+getLength
 (
 obj
 )
