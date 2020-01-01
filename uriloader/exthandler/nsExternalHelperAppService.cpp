@@ -8569,7 +8569,6 @@ not
 supposed
 to
 warn
-or
 we
 are
 not
@@ -8605,8 +8604,8 @@ if
 (
 !
 warn
-|
-|
+&
+&
 !
 alwaysAsk
 &
