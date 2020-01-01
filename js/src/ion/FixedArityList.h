@@ -735,7 +735,6 @@ length
 sizeof
 (
 T
-*
 )
 )
 ;

@@ -23218,8 +23218,6 @@ New
 (
 obj
 atom
-script
-pc
 )
 ;
 if

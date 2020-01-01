@@ -655,7 +655,7 @@ MBasicBlock
 NewSplitEdge
 (
 graph
-gen
+block
 -
 >
 info
