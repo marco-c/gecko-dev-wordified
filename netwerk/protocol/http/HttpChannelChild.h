@@ -846,6 +846,10 @@ PRBool
 &
 useResponseHead
 const
+RequestHeaderTuples
+&
+requestHeaders
+const
 PRBool
 &
 isFromCache
@@ -1170,6 +1174,10 @@ const
 PRBool
 &
 useResponseHead
+const
+RequestHeaderTuples
+&
+requestHeaders
 const
 PRBool
 &
