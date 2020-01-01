@@ -1925,7 +1925,7 @@ float
 (
 PL_DHASH_MIN_SIZE
 -
-NS_MAX
+PR_MAX
 (
 PL_DHASH_MIN_SIZE
 /
@@ -2019,7 +2019,7 @@ size
 *
 maxAlpha
 -
-NS_MAX
+PR_MAX
 (
 size
 /
