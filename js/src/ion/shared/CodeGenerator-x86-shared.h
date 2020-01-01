@@ -727,6 +727,14 @@ Label
 fail
 )
 ;
+enum
+NaNCond
+{
+NaN_Unexpected
+NaN_IsTrue
+NaN_IsFalse
+}
+;
 /
 /
 Emits
@@ -746,6 +754,10 @@ const
 Register
 &
 dest
+NaNCond
+ifNaN
+=
+NaN_Unexpected
 )
 ;
 /
@@ -794,6 +806,10 @@ ifTrue
 MBasicBlock
 *
 ifFalse
+NaNCond
+ifNaN
+=
+NaN_Unexpected
 )
 ;
 public
