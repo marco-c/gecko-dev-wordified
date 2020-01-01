@@ -1311,6 +1311,14 @@ JSAtom
 atom
 )
 ;
+bool
+jsop_callprop_generic
+(
+JSAtom
+*
+atom
+)
+;
 void
 jsop_instanceof
 (

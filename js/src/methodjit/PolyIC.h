@@ -565,6 +565,16 @@ SET
 ;
 union
 {
+/
+/
+This
+struct
+comes
+out
+to
+60
+bits
+.
 struct
 {
 RegisterID
@@ -607,6 +617,8 @@ path
 .
 uint8
 typeCheckOffset
+:
+8
 ;
 /
 /
