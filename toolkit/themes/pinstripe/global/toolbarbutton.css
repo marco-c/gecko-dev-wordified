@@ -512,6 +512,14 @@ rgba
 ;
 }
 toolbarbutton
+[
+open
+=
+"
+true
+"
+]
+toolbarbutton
 :
 not
 (
@@ -1033,6 +1041,12 @@ orient
 :
 vertical
 ;
+text
+-
+shadow
+:
+inherit
+;
 }
 /
 *
@@ -1078,8 +1092,6 @@ important
 border
 :
 none
-!
-important
 ;
 background
 -
