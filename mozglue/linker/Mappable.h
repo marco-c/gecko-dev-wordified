@@ -1619,7 +1619,13 @@ decompressed
 .
 *
 /
+mozilla
+:
+:
+Atomic
+<
 size_t
+>
 chunkAvailNum
 ;
 /
