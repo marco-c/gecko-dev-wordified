@@ -546,6 +546,8 @@ mSearchListener
 onSearch
 (
 mSearchEngine
+.
+name
 suggestion
 )
 ;

@@ -178,7 +178,6 @@ suggestions
 .
 *
 /
-public
 class
 SuggestClient
 {

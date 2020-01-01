@@ -233,7 +233,6 @@ cursorloader
 .
 *
 /
-public
 class
 FaviconsLoader
 {

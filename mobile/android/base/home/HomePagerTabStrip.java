@@ -164,7 +164,6 @@ methods
 .
 *
 /
-public
 class
 HomePagerTabStrip
 extends

@@ -336,7 +336,6 @@ views
 .
 *
 /
-public
 class
 HomeFragment
 extends
