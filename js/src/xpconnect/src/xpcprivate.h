@@ -23728,6 +23728,8 @@ nsScriptError
 :
 public
 nsIScriptError
+public
+nsIScriptError2
 {
 public
 :
@@ -23758,6 +23760,7 @@ babies
 NS_DECL_ISUPPORTS
 NS_DECL_NSICONSOLEMESSAGE
 NS_DECL_NSISCRIPTERROR
+NS_DECL_NSISCRIPTERROR2
 private
 :
 nsString
@@ -23780,6 +23783,9 @@ mFlags
 ;
 nsCString
 mCategory
+;
+PRUint64
+mWindowID
 ;
 }
 ;

@@ -11025,7 +11025,14 @@ get
 )
 ifaceName
 methodName
+static_cast
+<
+nsIScriptError
+*
+>
+(
 data
+)
 exceptn
 nsnull
 nsnull
