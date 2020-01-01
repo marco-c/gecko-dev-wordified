@@ -105,13 +105,6 @@ nsICacheEntryDescriptor
 .
 h
 "
-#
-include
-"
-prmem
-.
-h
-"
 const
 char
 *
@@ -909,7 +902,7 @@ buf
 char
 *
 )
-PR_REALLOC
+moz_realloc
 (
 mBuffer
 bufSize
