@@ -588,6 +588,11 @@ ActorDestroy
 ActorDestroyReason
 )
 ;
+void
+EnteringErrorState
+(
+)
+;
 nsRefPtr
 <
 nsAudioStream
