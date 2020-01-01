@@ -871,6 +871,9 @@ patternRect
 nsIDOMSVGRect
 *
 bbox
+nsIDOMSVGMatrix
+*
+callerCTM
 nsSVGElement
 *
 content
@@ -900,6 +903,9 @@ ctm
 nsIDOMSVGRect
 *
 callerBBox
+nsIDOMSVGMatrix
+*
+callerCTM
 )
 ;
 nsresult
