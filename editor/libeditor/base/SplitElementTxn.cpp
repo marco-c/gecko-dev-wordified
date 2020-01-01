@@ -1138,9 +1138,6 @@ DEBUG
 }
 #
 endif
-nsresult
-result
-;
 /
 /
 first
@@ -1173,6 +1170,7 @@ if
 rightNodeAsText
 )
 {
+nsresult
 result
 =
 rightNodeAsText
@@ -1182,6 +1180,12 @@ DeleteData
 (
 0
 mOffset
+)
+;
+NS_ENSURE_SUCCESS
+(
+result
+result
 )
 ;
 #
