@@ -441,7 +441,6 @@ h
 int
 w2a_buffer
 (
-const
 unsigned
 short
 *
@@ -570,7 +569,6 @@ char
 *
 w2a_malloc
 (
-const
 unsigned
 short
 *

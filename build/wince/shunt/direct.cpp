@@ -459,10 +459,9 @@ char
 inDirname
 )
 {
-MOZCE_PRECHECK
 #
 ifdef
-DEBUG
+API_LOGGING
 mozce_printf
 (
 "
@@ -553,10 +552,9 @@ char
 inDirname
 )
 {
-MOZCE_PRECHECK
 #
 ifdef
-DEBUG
+API_LOGGING
 mozce_printf
 (
 "
