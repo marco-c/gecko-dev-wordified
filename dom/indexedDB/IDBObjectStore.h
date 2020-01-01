@@ -181,6 +181,9 @@ class
 IDBKeyRange
 ;
 class
+IDBRequest
+;
+class
 IndexedDBObjectStoreChild
 ;
 class

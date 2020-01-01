@@ -897,6 +897,14 @@ IndexUpdateInfo
 (
 )
 ;
+IndexUpdateInfo
+(
+const
+IndexUpdateInfo
+&
+aOther
+)
+;
 ~
 IndexUpdateInfo
 (

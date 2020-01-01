@@ -456,13 +456,13 @@ db
 .
 onversionchange
 =
-errorHandler
+unexpectedSuccessHandler
 ;
 db2
 .
 onversionchange
 =
-errorHandler
+unexpectedSuccessHandler
 ;
 }
 ;

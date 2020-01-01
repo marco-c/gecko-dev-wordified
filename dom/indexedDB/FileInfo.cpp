@@ -114,13 +114,6 @@ MPL
 #
 include
 "
-IndexedDatabaseManager
-.
-h
-"
-#
-include
-"
 FileInfo
 .
 h
