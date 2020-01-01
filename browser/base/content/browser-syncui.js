@@ -1191,17 +1191,6 @@ popup
 /
 binding
 .
-This
-also
-makes
-sure
-the
-statusbar
-updates
-with
-the
-URL
-.
 menuitem
 .
 tab
