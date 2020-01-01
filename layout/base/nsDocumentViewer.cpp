@@ -5912,6 +5912,16 @@ nsJSContext
 :
 LoadEnd
 (
+mDocument
+?
+mDocument
+-
+>
+GetScriptGlobalObject
+(
+)
+:
+nsnull
 )
 ;
 #
