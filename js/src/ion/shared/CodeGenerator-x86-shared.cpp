@@ -588,7 +588,7 @@ the
 table
 for
 (
-uint
+size_t
 j
 =
 0
