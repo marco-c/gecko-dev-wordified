@@ -340,7 +340,12 @@ with
 the
 dropdown
 .
+SpecialPowers
+.
+wrap
+(
 document
+)
 .
 getAnonymousNodes
 (
