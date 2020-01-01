@@ -188,6 +188,13 @@ h
 #
 include
 "
+HTMLSelectAccessible
+.
+h
+"
+#
+include
+"
 HyperTextAccessibleWrap
 .
 h
@@ -224,13 +231,6 @@ h
 include
 "
 nsHTMLCanvasAccessible
-.
-h
-"
-#
-include
-"
-nsHTMLSelectAccessible
 .
 h
 "
@@ -1541,7 +1541,7 @@ Accessible
 accessible
 =
 new
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 (
 aContent
 GetDocAccessible
@@ -1781,7 +1781,7 @@ Accessible
 accessible
 =
 new
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 (
 aContent
 GetDocAccessible
@@ -9945,7 +9945,7 @@ Accessible
 accessible
 =
 new
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 (
 aContent
 aDoc
@@ -9976,7 +9976,7 @@ Accessible
 accessible
 =
 new
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 (
 aContent
 aDoc
