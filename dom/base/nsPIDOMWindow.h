@@ -2125,7 +2125,8 @@ parent
 *
 /
 virtual
-void
+nsIDOMWindow
+*
 EnterModalState
 (
 )
@@ -2136,6 +2137,8 @@ virtual
 void
 LeaveModalState
 (
+nsIDOMWindow
+*
 )
 =
 0

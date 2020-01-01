@@ -727,6 +727,7 @@ window
 >
 LeaveModalState
 (
+nsnull
 )
 ;
 }
