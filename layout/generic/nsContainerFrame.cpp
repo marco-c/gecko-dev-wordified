@@ -3309,12 +3309,8 @@ rootContent
 rootContent
 -
 >
-IsNodeOfType
+IsXUL
 (
-nsINode
-:
-:
-eXUL
 )
 )
 {

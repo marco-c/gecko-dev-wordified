@@ -13171,8 +13171,6 @@ aFlags
 eCONTENT
 |
 eELEMENT
-|
-eXUL
 )
 )
 ;

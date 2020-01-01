@@ -4968,12 +4968,8 @@ if
 startContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {

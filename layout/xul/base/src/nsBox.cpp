@@ -3469,12 +3469,8 @@ content
 content
 -
 >
-IsNodeOfType
+IsXUL
 (
-nsINode
-:
-:
-eXUL
 )
 )
 {

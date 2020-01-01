@@ -2415,12 +2415,8 @@ source
 child
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {
@@ -8398,8 +8394,6 @@ eCONTENT
 |
 eELEMENT
 |
-eHTML
-|
 eMEDIA
 )
 )
@@ -8719,12 +8713,8 @@ source
 child
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {
