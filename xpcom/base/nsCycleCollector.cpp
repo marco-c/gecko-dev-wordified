@@ -2524,7 +2524,7 @@ enum
 {
 BlockSize
 =
-64
+16
 *
 1024
 }
@@ -3150,8 +3150,9 @@ may
 expect
 /
 /
-a
-million
+hundreds
+of
+thousands
 of
 them
 to
@@ -3159,10 +3160,10 @@ be
 allocated
 and
 touched
+/
+/
 repeatedly
 during
-/
-/
 each
 cycle
 collection
@@ -3547,7 +3548,7 @@ enum
 {
 BlockSize
 =
-32
+8
 *
 1024
 }
