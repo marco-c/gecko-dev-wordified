@@ -150,6 +150,10 @@ MessagePumpForUI
 (
 )
 :
+state_
+(
+NULL
+)
 qt_pump
 (
 *
