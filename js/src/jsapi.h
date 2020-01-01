@@ -10282,10 +10282,10 @@ The
 default
 quota
 is
-32MB
+128MB
 which
 is
-quite
+very
 generous
 .
 *
@@ -10342,7 +10342,7 @@ JS_DEFAULT_SCRIPT_STACK_QUOTA
 (
 size_t
 )
-0x2000000
+0x8000000
 )
 /
 *
@@ -15620,8 +15620,6 @@ fh
 JSPrincipals
 *
 principals
-JSVersion
-version
 )
 ;
 /
