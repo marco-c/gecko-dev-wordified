@@ -159,12 +159,6 @@ end
 "
 )
 ;
-const
-noOptions
-=
-{
-}
-;
 /
 *
 *
@@ -598,7 +592,8 @@ readTo
 buffer
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -839,7 +834,8 @@ write
 buffer
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -2534,7 +2530,8 @@ path
 buffer
 options
 =
-noOptions
+{
+}
 )
 {
 /
