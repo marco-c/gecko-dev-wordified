@@ -2090,14 +2090,6 @@ SelectionType
 aSelectionType
 )
 ;
-virtual
-nscolor
-GetCaretColorAt
-(
-PRInt32
-aOffset
-)
-;
 PRInt16
 GetSelectionStatus
 (
