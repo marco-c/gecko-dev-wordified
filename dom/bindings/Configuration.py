@@ -1042,6 +1042,28 @@ isExternal
 (
 )
             
+elif
+key
+=
+=
+'
+isJSImplemented
+'
+:
+                
+getter
+=
+lambda
+x
+:
+x
+.
+interface
+.
+isJSImplemented
+(
+)
+            
 else
 :
                 
@@ -1819,6 +1841,14 @@ self
 interface
 .
 isCallback
+(
+)
+or
+self
+.
+interface
+.
+isJSImplemented
 (
 )
 :

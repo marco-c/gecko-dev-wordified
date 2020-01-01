@@ -5339,6 +5339,12 @@ self
 isCallback
 (
 )
+or
+self
+.
+isJSImplemented
+(
+)
         
 return
 (
