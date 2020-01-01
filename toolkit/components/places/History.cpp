@@ -1351,6 +1351,7 @@ GetKey
 {
 MOZ_ASSERT
 (
+false
 "
 Do
 not

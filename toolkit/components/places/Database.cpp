@@ -1053,6 +1053,7 @@ default
 :
 MOZ_ASSERT
 (
+false
 "
 Trying
 to
