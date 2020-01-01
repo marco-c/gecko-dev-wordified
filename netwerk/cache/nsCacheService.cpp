@@ -5841,13 +5841,9 @@ bytes
 ;
 double
 kBytesD
-;
-LL_L2D
+=
+double
 (
-kBytesD
-(
-int64_t
-)
 kbytes
 )
 ;

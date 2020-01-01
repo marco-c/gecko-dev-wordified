@@ -618,14 +618,15 @@ need
 to
 return
 NS_SUCCESS_LOSS_OF_INSIGNIFICANT_DATA
-LL_L2D
-(
 outData
 -
 >
 u
 .
 mDoubleValue
+=
+double
+(
 inData
 .
 u

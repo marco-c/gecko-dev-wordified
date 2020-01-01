@@ -2649,10 +2649,9 @@ aName
 {
 double
 fpTime
-;
-LL_L2D
+=
+double
 (
-fpTime
 PR_Now
 (
 )
