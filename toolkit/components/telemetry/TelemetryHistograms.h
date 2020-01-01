@@ -696,17 +696,6 @@ KB
 )
 "
 )
-/
-/
-XXX
-:
-bug
-660731
-will
-enable
-this
-/
-/
 HISTOGRAM
 (
 MEMORY_EXPLICIT
