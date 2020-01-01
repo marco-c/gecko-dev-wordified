@@ -708,7 +708,7 @@ NULL
 }
 reinterpret_cast
 <
-void
+JSThread
 *
 >
 (

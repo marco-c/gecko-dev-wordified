@@ -634,6 +634,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwapHelper
 (
+volatile
 jsword
 *
 w
@@ -665,6 +666,7 @@ JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1613,6 +1615,7 @@ JS_HAS_NATIVE_COMPARE_AND_SWAP
 JSBool
 js_CompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1786,6 +1789,7 @@ nv
 void
 js_AtomicClearMask
 (
+volatile
 jsword
 *
 w
