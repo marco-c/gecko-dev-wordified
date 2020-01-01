@@ -4378,9 +4378,6 @@ XPCWrappedNativeScope
 :
 ClearAllWrappedNativeSecurityPolicies
 (
-XPCCallContext
-&
-ccx
 )
 {
 /
@@ -4393,9 +4390,10 @@ throughout
 XPCAutoLock
 lock
 (
-ccx
-.
-GetRuntime
+XPCJSRuntime
+:
+:
+Get
 (
 )
 -

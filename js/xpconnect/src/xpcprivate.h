@@ -9918,9 +9918,6 @@ static
 nsresult
 ClearAllWrappedNativeSecurityPolicies
 (
-XPCCallContext
-&
-ccx
 )
 ;
 #
