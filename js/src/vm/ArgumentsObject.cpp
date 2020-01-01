@@ -125,7 +125,9 @@ h
 #
 include
 "
-jsinterp
+vm
+/
+GlobalObject
 .
 h
 "
@@ -134,7 +136,7 @@ include
 "
 vm
 /
-GlobalObject
+Interpreter
 .
 h
 "
