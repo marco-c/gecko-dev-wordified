@@ -365,6 +365,10 @@ agc_enabled_
 (
 false
 )
+rec_thread_
+(
+NULL
+)
 rec_timer_
 (
 *
@@ -6548,7 +6552,7 @@ AudioDeviceAndroidOpenSLES
 CheckErr
 (
 %
-d
+lu
 )
 "
 res
