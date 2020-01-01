@@ -668,6 +668,15 @@ DF_SYMBOLIC
 0x00000002
 #
 endif
+#
+ifndef
+DF_TEXTREL
+#
+define
+DF_TEXTREL
+0x00000004
+#
+endif
 namespace
 Elf
 {
