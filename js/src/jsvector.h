@@ -1379,6 +1379,16 @@ v
 heapBegin
 (
 )
+v
+.
+heapCapacity
+(
+)
+*
+sizeof
+(
+T
+)
 bytes
 )
 )
