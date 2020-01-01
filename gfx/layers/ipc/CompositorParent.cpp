@@ -3661,8 +3661,7 @@ mFunctions
 [
 segmentIndex
 ]
--
->
+.
 GetValue
 (
 positionInSegment
