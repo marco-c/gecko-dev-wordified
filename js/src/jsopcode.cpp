@@ -2976,10 +2976,10 @@ runtime
 gcRunning
 |
 |
+JS_THREAD_DATA
+(
 cx
--
->
-runtime
+)
 -
 >
 noGCOrAllocationCheck

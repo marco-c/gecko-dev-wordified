@@ -2317,6 +2317,16 @@ tokenStream
 )
 ;
 static
+RegExpPrivateCache
+*
+getOrCreateCache
+(
+JSContext
+*
+cx
+)
+;
+static
 bool
 cacheLookup
 (

@@ -689,10 +689,10 @@ cx
 {
 return
 &
+JS_THREAD_DATA
+(
 cx
--
->
-runtime
+)
 -
 >
 gsnCache

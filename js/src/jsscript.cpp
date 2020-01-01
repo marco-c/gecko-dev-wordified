@@ -5303,10 +5303,10 @@ for
 (
 frames
 =
+JS_THREAD_DATA
+(
 cx
--
->
-runtime
+)
 -
 >
 interpreterFrames
@@ -11796,10 +11796,10 @@ for
 (
 frames
 =
+JS_THREAD_DATA
+(
 cx
--
->
-runtime
+)
 -
 >
 interpreterFrames
