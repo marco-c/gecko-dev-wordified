@@ -6441,10 +6441,12 @@ event
 after
 activation
 .
-rootAcc
+FocusMgr
+(
+)
 -
 >
-FireCurrentFocusEvent
+ForceFocusEvent
 (
 )
 ;

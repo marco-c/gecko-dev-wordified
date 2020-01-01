@@ -917,6 +917,15 @@ GetSelectedIndex
 (
 )
 ;
+virtual
+already_AddRefed
+<
+nsIContent
+>
+GetCurrentOption
+(
+)
+;
 /
 *
 *

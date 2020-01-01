@@ -688,15 +688,6 @@ gStringBundle
 =
 0
 ;
-nsINode
-*
-nsAccessNode
-:
-:
-gLastFocusedNode
-=
-nsnull
-;
 PRBool
 nsAccessNode
 :
@@ -1546,11 +1537,6 @@ program
 NS_IF_RELEASE
 (
 gStringBundle
-)
-;
-NS_IF_RELEASE
-(
-gLastFocusedNode
 )
 ;
 /
