@@ -2545,7 +2545,7 @@ IsInitialDocument
 aDocument
 -
 >
-IsVisible
+IsVisibleConsideringAncestors
 (
 )
 |
