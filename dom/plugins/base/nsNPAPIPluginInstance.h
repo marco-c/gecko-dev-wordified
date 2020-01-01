@@ -357,6 +357,9 @@ timerID
 bool
 inCallback
 ;
+bool
+needUnschedule
+;
 }
 ;
 class
