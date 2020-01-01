@@ -4445,12 +4445,12 @@ aFrame
 ;
 mToReferenceFrame
 =
-aFrame
+aBuilder
 -
 >
-GetOffsetToCrossDoc
+ToReferenceFrame
 (
-mReferenceFrame
+aFrame
 )
 ;
 }
