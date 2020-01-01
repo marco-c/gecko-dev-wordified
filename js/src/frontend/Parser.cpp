@@ -2538,6 +2538,7 @@ length
 thisForCtor
 (
 )
+keepAtoms
 )
 traceListHead
 (
@@ -13697,6 +13698,9 @@ TokenStream
 :
 Position
 start
+(
+keepAtoms
+)
 ;
 tokenStream
 .
@@ -13823,6 +13827,9 @@ TokenStream
 :
 Position
 start
+(
+keepAtoms
+)
 ;
 tokenStream
 .
@@ -31333,6 +31340,9 @@ TokenStream
 :
 Position
 start
+(
+keepAtoms
+)
 ;
 tokenStream
 .
@@ -40953,6 +40963,9 @@ TokenStream
 :
 Position
 start
+(
+keepAtoms
+)
 ;
 tokenStream
 .

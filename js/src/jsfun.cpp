@@ -3816,6 +3816,15 @@ getVersion
 )
 )
 ;
+AutoKeepAtoms
+keepAtoms
+(
+cx
+-
+>
+runtime
+)
+;
 TokenStream
 ts
 (
@@ -3828,6 +3837,7 @@ get
 )
 length
 NULL
+keepAtoms
 )
 ;
 int
@@ -9424,6 +9434,7 @@ strictModeGetter
 *
 /
 NULL
+keepAtoms
 )
 ;
 /

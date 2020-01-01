@@ -2549,6 +2549,11 @@ TokenStream
 :
 Position
 start
+(
+parser
+.
+keepAtoms
+)
 ;
 parser
 .
