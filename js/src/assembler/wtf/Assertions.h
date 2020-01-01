@@ -348,6 +348,13 @@ ASSERT_NOT_REACHED
 )
 MOZ_ASSUME_UNREACHABLE
 (
+"
+wtf
+/
+Assertions
+.
+h
+"
 )
 #
 define

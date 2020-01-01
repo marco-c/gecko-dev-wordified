@@ -19888,6 +19888,11 @@ false
 }
 MOZ_ASSUME_UNREACHABLE
 (
+"
+Invalid
+scope
+chain
+"
 )
 ;
 }

@@ -260,6 +260,15 @@ ASSERT_NOT_REACHED
 )
 MOZ_ASSUME_UNREACHABLE
 (
+"
+moz
+-
+decimal
+-
+utils
+.
+h
+"
 )
 #
 define
