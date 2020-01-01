@@ -4258,6 +4258,10 @@ JS_DECLARE_CALLINFO
 (
 js_NewInstance
 )
+JS_DECLARE_CALLINFO
+(
+js_NonEmptyObject
+)
 /
 *
 Defined
