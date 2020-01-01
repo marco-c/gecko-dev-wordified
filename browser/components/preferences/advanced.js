@@ -1462,9 +1462,8 @@ row
 =
 document
 .
-createElementNS
+createElement
 (
-kXULNS
 "
 listitem
 "
