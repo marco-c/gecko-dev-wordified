@@ -657,6 +657,9 @@ mIsMesa
 mIsNVIDIA
 mIsFGLRX
 ;
+bool
+mHasTextureFromPixmap
+;
 int
 mMajorVersion
 mMinorVersion
