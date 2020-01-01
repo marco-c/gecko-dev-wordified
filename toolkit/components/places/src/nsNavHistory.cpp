@@ -24960,7 +24960,6 @@ Put
 NS_LITERAL_CSTRING
 (
 "
-:
 localhost
 "
 )
@@ -40495,7 +40494,6 @@ index
 For
 (
 "
-:
 begin_time
 "
 )
@@ -40562,7 +40560,6 @@ index
 For
 (
 "
-:
 end_time
 "
 )
@@ -40618,7 +40615,6 @@ index
 For
 (
 "
-:
 min_visits
 "
 )
@@ -40661,7 +40657,6 @@ index
 For
 (
 "
-:
 max_visits
 "
 )
@@ -40746,7 +40741,6 @@ index
 For
 (
 "
-:
 domain_lower
 "
 )
@@ -40857,7 +40851,6 @@ index
 For
 (
 "
-:
 domain_lower
 "
 )
@@ -40907,7 +40900,6 @@ index
 For
 (
 "
-:
 domain_upper
 "
 )
@@ -40950,7 +40942,6 @@ index
 For
 (
 "
-:
 uri
 "
 )
@@ -40995,7 +40986,6 @@ index
 For
 (
 "
-:
 anno
 "
 )
@@ -41067,7 +41057,6 @@ nsPrintfCString
 param
 (
 "
-:
 tag
 %
 d_
@@ -41130,7 +41119,6 @@ index
 For
 (
 "
-:
 tags_folder
 "
 )
@@ -41166,7 +41154,6 @@ index
 For
 (
 "
-:
 tag_count
 "
 )
@@ -41232,7 +41219,6 @@ index
 For
 (
 "
-:
 parent
 "
 )
