@@ -779,6 +779,9 @@ cx
 &
 userbuf
 )
+sourceMap
+(
+)
 listenerTSData
 (
 )
@@ -877,10 +880,6 @@ linebase
 base
 ;
 prevLinebase
-=
-NULL
-;
-sourceMap
 =
 NULL
 ;
