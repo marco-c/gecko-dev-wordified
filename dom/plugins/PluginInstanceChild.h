@@ -1022,6 +1022,16 @@ uint32_t
 id
 )
 ;
+void
+AsyncCall
+(
+PluginThreadCallback
+aFunc
+void
+*
+aUserData
+)
+;
 private
 :
 friend
@@ -1414,6 +1424,9 @@ endif
 friend
 class
 ChildAsyncCall
+;
+Mutex
+mAsyncCallMutex
 ;
 nsTArray
 <
