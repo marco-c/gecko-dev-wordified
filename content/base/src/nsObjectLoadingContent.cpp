@@ -986,6 +986,7 @@ mContent
 >
 GetFrame
 (
+PR_FALSE
 )
 =
 =
@@ -2847,6 +2848,7 @@ frame
 =
 GetFrame
 (
+PR_TRUE
 )
 ;
 if
@@ -3438,6 +3440,7 @@ frame
 =
 GetFrame
 (
+PR_FALSE
 )
 ;
 if
@@ -3658,6 +3661,7 @@ frame
 =
 GetFrame
 (
+PR_FALSE
 )
 ;
 if
@@ -8091,6 +8095,8 @@ nsObjectLoadingContent
 :
 GetFrame
 (
+PRBool
+aFlushLayout
 )
 {
 nsCOMPtr
@@ -8249,12 +8255,21 @@ might
 run
 script
 .
+mozFlushType
+flushType
+=
+aFlushLayout
+?
+Flush_Layout
+:
+Flush_ContentAndNotify
+;
 doc
 -
 >
 FlushPendingNotifications
 (
-Flush_ContentAndNotify
+flushType
 )
 ;
 flushed
@@ -8303,6 +8318,7 @@ frame
 =
 GetFrame
 (
+PR_FALSE
 )
 ;
 if
