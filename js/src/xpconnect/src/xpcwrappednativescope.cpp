@@ -2897,6 +2897,16 @@ cur
 >
 mNext
 ;
+JSAutoEnterCompartment
+ac
+(
+cx
+cur
+-
+>
+mGlobalJSObject
+)
+;
 if
 (
 cur
