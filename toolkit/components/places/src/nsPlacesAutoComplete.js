@@ -4007,13 +4007,6 @@ _result
 =
 result
 ;
-this
-.
-_notifyResults
-(
-true
-)
-;
 /
 /
 If
