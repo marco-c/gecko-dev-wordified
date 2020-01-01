@@ -1771,7 +1771,7 @@ nsDocument
 :
 Reset
 and
-nsXULDocument
+XULDocument
 :
 :
 StartDocumentLoad

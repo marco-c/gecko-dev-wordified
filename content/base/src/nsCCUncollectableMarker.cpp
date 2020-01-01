@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsXULDocument
+XULDocument
 .
 h
 "
@@ -2558,13 +2558,13 @@ IsXUL
 )
 )
 {
-nsXULDocument
+XULDocument
 *
 xulDoc
 =
 static_cast
 <
-nsXULDocument
+XULDocument
 *
 >
 (

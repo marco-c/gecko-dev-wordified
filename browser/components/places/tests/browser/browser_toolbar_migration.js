@@ -172,7 +172,7 @@ there
 /
 /
 See
-nsXULDocument
+XULDocument
 :
 :
 Persist

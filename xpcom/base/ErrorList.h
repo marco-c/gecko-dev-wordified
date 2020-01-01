@@ -8037,7 +8037,7 @@ codes
 for
 FindBroadcaster
 in
-nsXULDocument
+XULDocument
 .
 cpp
 *

@@ -515,7 +515,7 @@ h
 #
 include
 "
-nsXULDocument
+XULDocument
 .
 h
 "
@@ -770,6 +770,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 /
 /
@@ -2835,7 +2842,7 @@ new
 nsContentList
 (
 this
-nsXULDocument
+XULDocument
 :
 :
 MatchAttribute
@@ -3013,7 +3020,7 @@ new
 nsContentList
 (
 this
-nsXULDocument
+XULDocument
 :
 :
 MatchAttribute
@@ -14924,7 +14931,7 @@ script
 /
 Note
 that
-nsXULDocument
+XULDocument
 :
 :
 LoadScript
@@ -15679,7 +15686,7 @@ stuff
 in
 /
 /
-nsXULDocument
+XULDocument
 :
 :
 OnStreamComplete

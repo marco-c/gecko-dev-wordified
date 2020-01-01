@@ -10903,7 +10903,7 @@ is
 mostly
 borrowed
 from
-nsXULDocument
+XULDocument
 :
 :
 Persist

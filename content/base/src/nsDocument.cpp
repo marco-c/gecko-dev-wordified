@@ -10341,7 +10341,7 @@ code
 is
 duplicated
 in
-nsXULDocument
+XULDocument
 :
 :
 StartDocumentLoad
