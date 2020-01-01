@@ -3184,6 +3184,18 @@ tempfile
 .
 mkdtemp
 (
+'
+-
+fastmode
+'
+'
+tmp
+'
+os
+.
+getcwd
+(
+)
 )
         
 print
