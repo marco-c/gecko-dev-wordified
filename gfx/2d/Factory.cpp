@@ -1038,6 +1038,9 @@ rsi
 endif
 #
 endif
+#
+ifdef
+USE_SSE2
 static
 bool
 HasCPUIDBit
@@ -1123,6 +1126,8 @@ bit
 )
 ;
 }
+#
+endif
 #
 endif
 namespace
