@@ -822,9 +822,9 @@ virtual
 PRBool
 SetupCairoFont
 (
-cairo_t
+gfxContext
 *
-aCR
+aContext
 )
 ;
 }
