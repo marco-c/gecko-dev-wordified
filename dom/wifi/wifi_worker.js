@@ -116,12 +116,12 @@ strict
 importScripts
 (
 "
-libhardware_legacy
+systemlibs
 .
 js
 "
 "
-systemlibs
+libhardware_legacy
 .
 js
 "
