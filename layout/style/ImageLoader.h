@@ -84,6 +84,12 @@ tree
 )
 .
 #
+ifndef
+mozilla_css_ImageLoader_h___
+#
+define
+mozilla_css_ImageLoader_h___
+#
 include
 "
 nsClassHashtable
@@ -651,3 +657,10 @@ css
 /
 namespace
 mozilla
+#
+endif
+/
+*
+mozilla_css_ImageLoader_h___
+*
+/
