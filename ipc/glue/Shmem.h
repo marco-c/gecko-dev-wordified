@@ -1548,6 +1548,8 @@ aNBytes
 SharedMemoryType
 aType
 bool
+aUnsafe
+bool
 aProtect
 =
 false
