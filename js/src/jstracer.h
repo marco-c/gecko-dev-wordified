@@ -711,9 +711,6 @@ p
 const
 ;
 bool
-TraceRecorder
-:
-:
 onFrame
 (
 void
