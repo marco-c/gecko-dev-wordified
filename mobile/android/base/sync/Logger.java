@@ -319,6 +319,7 @@ levels
 *
 /
 public
+static
 synchronized
 void
 refreshLogLevels
