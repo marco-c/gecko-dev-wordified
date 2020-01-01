@@ -422,10 +422,12 @@ MoveEmitter
 }
 /
 /
+namespace
 ion
 }
 /
 /
+namespace
 js
 #
 endif

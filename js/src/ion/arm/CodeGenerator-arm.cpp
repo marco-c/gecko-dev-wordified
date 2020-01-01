@@ -2572,7 +2572,6 @@ isConstant
 (
 )
 )
-{
 masm
 .
 ma_add
@@ -2595,9 +2594,7 @@ dest
 SetCond
 )
 ;
-}
 else
-{
 masm
 .
 ma_add
@@ -2617,7 +2614,6 @@ dest
 SetCond
 )
 ;
-}
 if
 (
 ins
@@ -2709,7 +2705,6 @@ isConstant
 (
 )
 )
-{
 masm
 .
 ma_sub
@@ -2732,9 +2727,7 @@ dest
 SetCond
 )
 ;
-}
 else
-{
 masm
 .
 ma_sub
@@ -2754,7 +2747,6 @@ dest
 SetCond
 )
 ;
-}
 if
 (
 ins
@@ -3494,7 +3486,6 @@ canOverflow
 (
 )
 )
-{
 c
 =
 masm
@@ -3519,9 +3510,7 @@ dest
 c
 )
 ;
-}
 else
-{
 masm
 .
 ma_mul
@@ -3543,7 +3532,6 @@ dest
 )
 )
 ;
-}
 }
 }
 }
@@ -5123,11 +5111,9 @@ snapshot
 )
 )
 )
-{
 return
 false
 ;
-}
 masm
 .
 bind
@@ -5225,11 +5211,9 @@ snapshot
 )
 )
 )
-{
 return
 false
 ;
-}
 return
 true
 ;
@@ -5417,7 +5401,6 @@ isConstant
 (
 )
 )
-{
 masm
 .
 ma_orr
@@ -5439,9 +5422,7 @@ dest
 )
 )
 ;
-}
 else
-{
 masm
 .
 ma_orr
@@ -5460,7 +5441,6 @@ dest
 )
 )
 ;
-}
 break
 ;
 case
@@ -5475,7 +5455,6 @@ isConstant
 (
 )
 )
-{
 masm
 .
 ma_eor
@@ -5497,9 +5476,7 @@ dest
 )
 )
 ;
-}
 else
-{
 masm
 .
 ma_eor
@@ -5518,7 +5495,6 @@ dest
 )
 )
 ;
-}
 break
 ;
 case
@@ -5533,7 +5509,6 @@ isConstant
 (
 )
 )
-{
 masm
 .
 ma_and
@@ -5555,9 +5530,7 @@ dest
 )
 )
 ;
-}
 else
-{
 masm
 .
 ma_and
@@ -5576,7 +5549,6 @@ dest
 )
 )
 ;
-}
 break
 ;
 default
@@ -6606,11 +6578,9 @@ to
 kind
 )
 )
-{
 return
 false
 ;
-}
 }
 if
 (
@@ -10517,11 +10487,8 @@ isConstant
 )
 )
 {
-masm
-.
-loadInt32OrDouble
-(
 Address
+source
 (
 base
 ToInt32
@@ -10539,6 +10506,12 @@ sizeof
 Value
 )
 )
+;
+masm
+.
+loadInt32OrDouble
+(
+source
 ToFloatRegister
 (
 load
@@ -10597,11 +10570,8 @@ isConstant
 )
 )
 {
-masm
-.
-load32
-(
 Address
+source
 (
 base
 ToInt32
@@ -10619,6 +10589,12 @@ sizeof
 Value
 )
 )
+;
+masm
+.
+load32
+(
+source
 ToRegister
 (
 load
