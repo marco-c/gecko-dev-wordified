@@ -3805,6 +3805,12 @@ defined
 (
 NANOJIT_MIPS
 )
+|
+|
+defined
+(
+NANOJIT_SPARC
+)
 if
 (
 (
