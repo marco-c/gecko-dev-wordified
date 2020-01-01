@@ -7900,6 +7900,167 @@ ChromeOnly
 "
 )
 class
+MemberCondition
+:
+    
+"
+"
+"
+    
+An
+object
+representing
+the
+condition
+for
+a
+member
+to
+actually
+be
+    
+exposed
+.
+Either
+pref
+or
+func
+or
+both
+can
+be
+None
+.
+If
+not
+None
+    
+they
+should
+be
+strings
+that
+have
+the
+pref
+name
+or
+function
+name
+.
+    
+"
+"
+"
+    
+def
+__init__
+(
+self
+pref
+func
+)
+:
+        
+assert
+pref
+is
+None
+or
+isinstance
+(
+pref
+str
+)
+        
+assert
+func
+is
+None
+or
+isinstance
+(
+func
+str
+)
+        
+self
+.
+pref
+=
+pref
+        
+if
+func
+is
+None
+:
+            
+self
+.
+func
+=
+"
+nullptr
+"
+        
+else
+:
+            
+self
+.
+func
+=
+"
+&
+"
++
+func
+    
+def
+__eq__
+(
+self
+other
+)
+:
+        
+return
+self
+.
+pref
+=
+=
+other
+.
+pref
+and
+self
+.
+func
+=
+=
+other
+.
+func
+    
+def
+__ne__
+(
+self
+other
+)
+:
+        
+return
+not
+self
+.
+__eq__
+(
+other
+)
+class
 PropertyDefiner
 :
     
@@ -8238,25 +8399,24 @@ str
 staticmethod
     
 def
-getControllingPref
+getStringAttr
 (
-interfaceMember
+member
+name
 )
 :
         
-prefName
+attr
 =
-interfaceMember
+member
 .
 getExtendedAttribute
 (
-"
-Pref
-"
+name
 )
         
 if
-prefName
+attr
 is
 None
 :
@@ -8277,7 +8437,7 @@ assert
 (
 len
 (
-prefName
+attr
 )
 is
 1
@@ -8285,7 +8445,7 @@ is
         
 assert
 (
-prefName
+attr
 [
 0
 ]
@@ -8295,10 +8455,45 @@ None
 )
         
 return
-prefName
+attr
 [
 0
 ]
+    
+staticmethod
+    
+def
+getControllingCondition
+(
+interfaceMember
+)
+:
+        
+return
+MemberCondition
+(
+PropertyDefiner
+.
+getStringAttr
+(
+interfaceMember
+                                                             
+"
+Pref
+"
+)
+                               
+PropertyDefiner
+.
+getStringAttr
+(
+interfaceMember
+                                                             
+"
+Func
+"
+)
+)
     
 def
 generatePrefableArray
@@ -8310,7 +8505,7 @@ specTemplate
 specTerminator
                               
 specType
-getPref
+getCondition
 getDataTuple
 doIdArrays
 )
@@ -8396,7 +8591,7 @@ of
 our
 spec
         
-getPref
+getCondition
 is
 a
 callback
@@ -8407,12 +8602,11 @@ an
 array
 entry
 and
-returns
           
+returns
 the
 corresponding
-pref
-value
+MemberCondition
 .
         
 getDataTuple
@@ -8534,9 +8728,9 @@ not
 0
 )
         
-lastPref
+lastCondition
 =
-getPref
+getCondition
 (
 array
 [
@@ -8552,7 +8746,7 @@ t
 put
 a
 specTerminator
-                                     
+                                               
 #
 at
 the
@@ -8578,7 +8772,8 @@ prefableTemplate
 '
 {
 true
-nullptr
+%
+s
 &
 %
 s
@@ -8604,10 +8799,10 @@ enabled
 '
         
 def
-switchToPref
+switchToCondition
 (
 props
-pref
+condition
 )
 :
             
@@ -8628,6 +8823,8 @@ live
 .
             
 if
+condition
+.
 pref
 is
 not
@@ -8642,7 +8839,10 @@ append
 (
                     
 (
+condition
+.
 pref
+                     
 prefCacheTemplate
 %
 (
@@ -8677,6 +8877,9 @@ prefableTemplate
 %
                                  
 (
+condition
+.
+func
 name
 +
 "
@@ -8689,10 +8892,10 @@ specs
 )
 )
         
-switchToPref
+switchToCondition
 (
 self
-lastPref
+lastCondition
 )
         
 for
@@ -8701,18 +8904,18 @@ in
 array
 :
             
-curPref
+curCondition
 =
-getPref
+getCondition
 (
 member
 )
             
 if
-lastPref
+lastCondition
 !
 =
-curPref
+curCondition
 :
                 
 #
@@ -8735,15 +8938,15 @@ our
 new
 pref
                 
-switchToPref
+switchToCondition
 (
 self
-curPref
+curCondition
 )
                 
-lastPref
+lastCondition
 =
-curPref
+curCondition
             
 #
 And
@@ -9231,12 +9434,12 @@ JSPROP_ENUMERATE
 "
                        
 "
-pref
+condition
 "
 :
 PropertyDefiner
 .
-getControllingPref
+getControllingCondition
 (
 m
 )
@@ -9348,10 +9551,14 @@ JSPROP_ENUMERATE
 "
                                  
 "
-pref
+condition
 "
 :
+MemberCondition
+(
 None
+None
+)
 }
 )
         
@@ -9424,10 +9631,14 @@ flags
 "
                                 
 "
-pref
+condition
 "
 :
+MemberCondition
+(
 None
+None
+)
 }
 )
         
@@ -9487,12 +9698,12 @@ JSPROP_ENUMERATE
 "
                                  
 "
-pref
+condition
 "
 :
 PropertyDefiner
 .
-getControllingPref
+getControllingCondition
 (
 stringifier
 )
@@ -9631,7 +9842,7 @@ return
 "
         
 def
-pref
+condition
 (
 m
 )
@@ -9641,7 +9852,7 @@ return
 m
 [
 "
-pref
+condition
 "
 ]
         
@@ -9767,7 +9978,7 @@ JS_FS_END
 JSFunctionSpec
 '
             
-pref
+condition
 specData
 doIdArrays
 )
@@ -10405,7 +10616,7 @@ JSPropertySpec
             
 PropertyDefiner
 .
-getControllingPref
+getControllingCondition
 specData
 doIdArrays
 )
@@ -10593,7 +10804,7 @@ ConstantSpec
             
 PropertyDefiner
 .
-getControllingPref
+getControllingCondition
 specData
 doIdArrays
 )
