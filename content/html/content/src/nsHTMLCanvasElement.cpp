@@ -2081,9 +2081,6 @@ imgData
 imgSize
 aName
 type
-GetDocument
-(
-)
 )
 ;
 return
