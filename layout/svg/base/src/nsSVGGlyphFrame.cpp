@@ -10437,9 +10437,6 @@ sizeAdjust
 font
 .
 systemFont
-font
-.
-familyNameQuirks
 printerFont
 font
 .
