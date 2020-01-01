@@ -396,6 +396,17 @@ SVGFEPointLightElement
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+SVGFESpotLightElement
+.
+h
+"
+#
 if
 defined
 (
@@ -15536,7 +15547,7 @@ spotLight
 >
 mNumberAttributes
 [
-nsSVGFESpotLightElement
+SVGFESpotLightElement
 :
 :
 LIMITING_CONE_ANGLE
