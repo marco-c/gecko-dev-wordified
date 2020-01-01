@@ -628,6 +628,15 @@ functions
 *
 /
 nsresult
+NS_GetJSRuntime
+(
+nsIScriptRuntime
+*
+*
+aLanguage
+)
+;
+nsresult
 NS_GetScriptRuntime
 (
 const

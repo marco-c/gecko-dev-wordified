@@ -3267,9 +3267,8 @@ runtime
 ;
 rv
 =
-NS_GetScriptRuntime
+NS_GetJSRuntime
 (
-mimeType
 getter_AddRefs
 (
 runtime
@@ -3406,9 +3405,8 @@ runtime
 ;
 rv
 =
-NS_GetScriptRuntimeByID
+NS_GetJSRuntime
 (
-typeID
 getter_AddRefs
 (
 runtime

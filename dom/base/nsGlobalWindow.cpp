@@ -8922,12 +8922,8 @@ scriptRuntime
 nsresult
 rv
 =
-NS_GetScriptRuntimeByID
+NS_GetJSRuntime
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 getter_AddRefs
 (
 scriptRuntime
