@@ -1098,9 +1098,6 @@ mNv3DVUtils
 }
 static
 void
-LayerManagerD3D10
-:
-:
 ReportFailure
 (
 const
