@@ -21472,7 +21472,7 @@ NS_OK
 mDoc
 -
 >
-ScheduleBeforePaintEvent
+ScheduleFrameRequestCallback
 (
 aCallback
 )
