@@ -3643,7 +3643,7 @@ wrapper
 FilteringWrapper
 <
 CrossCompartmentSecurityWrapper
-CrossOriginAccessiblePropertiesOnly
+Opaque
 >
 :
 :
