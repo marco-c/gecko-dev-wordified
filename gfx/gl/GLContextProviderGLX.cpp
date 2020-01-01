@@ -554,6 +554,13 @@ h
 #
 include
 "
+GLLibraryLoader
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -928,7 +935,7 @@ mDebug
 true
 ;
 }
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1108,7 +1115,7 @@ NULL
 }
 }
 ;
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1251,7 +1258,7 @@ NULL
 }
 }
 ;
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1392,7 +1399,7 @@ NULL
 }
 }
 ;
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1434,7 +1441,7 @@ NULL
 }
 }
 ;
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1483,7 +1490,7 @@ NULL
 }
 }
 ;
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1528,7 +1535,7 @@ NULL
 }
 }
 ;
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1562,7 +1569,7 @@ NULL
 if
 (
 !
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 LoadSymbols
@@ -1706,7 +1713,7 @@ display
 screen
 )
 ;
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1782,7 +1789,7 @@ symbols13
 if
 (
 !
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 LoadSymbols
@@ -1813,7 +1820,7 @@ return
 false
 ;
 }
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 SymLoadStruct
@@ -1889,7 +1896,7 @@ symbols14
 if
 (
 !
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 LoadSymbols
@@ -1931,7 +1938,7 @@ GLX_EXT_texture_from_pixmap
 )
 &
 &
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 LoadSymbols
@@ -1939,7 +1946,7 @@ LoadSymbols
 mOGLLibrary
 symbols_texturefrompixmap
 (
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 PlatformLookupFunction
@@ -1978,7 +1985,7 @@ GLX_ARB_create_context_robustness
 )
 &
 &
-LibrarySymbolLoader
+GLLibraryLoader
 :
 :
 LoadSymbols
@@ -3782,13 +3789,25 @@ return
 false
 ;
 }
-return
+if
+(
+!
 IsExtensionSupported
 (
 "
 GL_EXT_framebuffer_object
 "
 )
+)
+return
+false
+;
+InitFramebuffers
+(
+)
+;
+return
+true
 ;
 }
 bool
