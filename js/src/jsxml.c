@@ -35758,7 +35758,7 @@ n
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 i
@@ -38353,7 +38353,7 @@ else
 if
 (
 !
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 xml

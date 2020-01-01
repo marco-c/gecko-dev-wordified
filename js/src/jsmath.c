@@ -804,7 +804,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -863,7 +863,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -922,7 +922,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -981,7 +981,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -1168,7 +1168,7 @@ z
 3
 ;
 return
-js_NewDoubleValue
+js_NewDoubleInRootedValue
 (
 cx
 z
@@ -1187,7 +1187,7 @@ y
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -1246,7 +1246,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -1305,7 +1305,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -1436,7 +1436,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -1495,7 +1495,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -1554,7 +1554,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -1739,7 +1739,7 @@ z
 ;
 }
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -1924,7 +1924,7 @@ z
 ;
 }
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -2129,7 +2129,7 @@ y
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -2581,7 +2581,7 @@ rt
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -2736,7 +2736,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -2795,7 +2795,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -2854,7 +2854,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
@@ -2913,7 +2913,7 @@ x
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 z
