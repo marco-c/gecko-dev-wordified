@@ -136,6 +136,13 @@ jsalloc
 h
 "
 #
+include
+"
+jspubtd
+.
+h
+"
+#
 ifdef
 JS_THREADSAFE
 #

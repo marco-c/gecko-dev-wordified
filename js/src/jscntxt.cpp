@@ -2282,14 +2282,10 @@ if
 !
 JS_CHECK_STACK_SIZE
 (
-cx
--
->
-mainThread
+GetNativeStackLimit
 (
+cx
 )
-.
-nativeStackLimit
 &
 stackDummy
 )

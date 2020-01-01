@@ -326,6 +326,12 @@ using
 mozilla
 :
 :
+PodArrayZero
+;
+using
+mozilla
+:
+:
 ThreadLocal
 ;
 /
@@ -680,10 +686,6 @@ selfHostedClasses_
 NULL
 )
 nativeStackBase
-(
-0
-)
-nativeStackQuota
 (
 0
 )
@@ -1336,6 +1338,11 @@ PodZero
 (
 &
 atomState
+)
+;
+PodArrayZero
+(
+nativeStackQuota
 )
 ;
 #
