@@ -2555,6 +2555,12 @@ mLayerRendererInitialized
 {
 mLayerRenderer
 .
+checkMonitoringEnabled
+(
+)
+;
+mLayerRenderer
+.
 createProgram
 (
 )
