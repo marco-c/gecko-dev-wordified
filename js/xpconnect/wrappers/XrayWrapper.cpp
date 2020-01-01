@@ -5742,7 +5742,7 @@ nsGlobalWindow
 (
 As
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 (
 wrapper
@@ -8924,7 +8924,7 @@ nsGlobalWindow
 (
 As
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 (
 wrapper
