@@ -443,7 +443,6 @@ jsnum
 .
 h
 "
-JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -733,7 +732,6 @@ id
 )
 ;
 }
-JS_END_EXTERN_C
 #
 endif
 /
