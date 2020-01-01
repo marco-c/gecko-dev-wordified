@@ -437,6 +437,10 @@ AvmCore
 core
 )
 :
+_pageList
+(
+NULL
+)
 _allocList
 (
 core
