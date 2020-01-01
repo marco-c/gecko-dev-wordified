@@ -17702,7 +17702,7 @@ d
 n
 "
 (
-SideExit
+void
 *
 )
 e
@@ -28497,6 +28497,7 @@ if
 outer
 |
 |
+(
 hits
 +
 +
@@ -28511,6 +28512,7 @@ hits
 HOTEXIT
 +
 MAXEXIT
+)
 )
 {
 /
