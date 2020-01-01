@@ -602,11 +602,6 @@ nsIFrame
 :
 :
 eSVG
-|
-nsIFrame
-:
-:
-eSVGContainer
 )
 )
 ;
