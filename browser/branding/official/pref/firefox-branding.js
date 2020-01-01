@@ -78,9 +78,7 @@ com
 LOCALE
 %
 /
-%
-APP
-%
+firefox
 /
 %
 VERSION
@@ -119,9 +117,7 @@ com
 LOCALE
 %
 /
-%
-APP
-%
+firefox
 /
 %
 VERSION
@@ -331,9 +327,7 @@ com
 LOCALE
 %
 /
-%
-APP
-%
+firefox
 /
 releases
 /
@@ -369,9 +363,7 @@ com
 LOCALE
 %
 /
-%
-APP
-%
+firefox
 /
 %
 VERSION
@@ -404,9 +396,7 @@ com
 LOCALE
 %
 /
-%
-APP
-%
+firefox
 /
 "
 )
