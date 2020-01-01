@@ -196,6 +196,29 @@ args
   
 }
   
+"
+lldb
+"
+:
+{
+    
+"
+interactive
+"
+:
+True
+    
+"
+args
+"
+:
+"
+-
+-
+"
+  
+}
+  
 #
 valgrind
 doesn
