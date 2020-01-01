@@ -5178,9 +5178,11 @@ res
 new
 Resource
 (
-Utils
+Svc
 .
-getURLPref
+Prefs
+.
+get
 (
 "
 pwChangeURL
