@@ -120,7 +120,7 @@ SURROUND_SR
 ;
 static
 const
-int
+uint32_t
 CUSTOM_CHANNEL_LAYOUTS
 =
 6
