@@ -5259,7 +5259,7 @@ remoteVersion
 >
 "
 +
-WEAVE_VERSION
+STORAGE_VERSION
 +
 "
 )
@@ -5277,7 +5277,7 @@ Version
 compare
 (
 remoteVersion
-WEAVE_VERSION
+STORAGE_VERSION
 )
 >
 0
