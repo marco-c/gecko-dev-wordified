@@ -200,13 +200,6 @@ h
 #
 include
 "
-dombindings
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
