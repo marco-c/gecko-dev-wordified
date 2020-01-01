@@ -1708,16 +1708,6 @@ DecodeError
 (
 )
 ;
-void
-RegisterShutdownObserver
-(
-)
-;
-void
-UnregisterShutdownObserver
-(
-)
-;
 /
 /
 Volume
