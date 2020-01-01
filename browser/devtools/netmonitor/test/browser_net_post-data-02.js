@@ -663,7 +663,7 @@ finish
 ;
 aDebuggee
 .
-performRequest
+performRequests
 (
 )
 ;
