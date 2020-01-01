@@ -8264,7 +8264,7 @@ Rect
 should
 be
 in
-viewport
+browser
 coordinates
 .
 *
@@ -8303,12 +8303,6 @@ bv
 .
 clampZoomLevel
 (
-bv
-.
-getZoomLevel
-(
-)
-*
 vis
 .
 width
