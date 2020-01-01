@@ -2379,7 +2379,7 @@ GetIntValue
 ;
 aDistance
 =
-DeprecatedAbs
+Abs
 (
 endInt
 -
@@ -2488,11 +2488,17 @@ GetIntValue
 ;
 aDistance
 =
-DeprecatedAbs
+Abs
+(
+double
 (
 endInt
+)
 -
+double
+(
 startInt
+)
 )
 ;
 return
