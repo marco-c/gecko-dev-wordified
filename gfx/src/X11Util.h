@@ -1057,6 +1057,8 @@ class
 NS_GFX
 ScopedXErrorHandler
 {
+public
+:
 /
 /
 trivial
@@ -1093,6 +1095,8 @@ ErrorEvent
 }
 }
 ;
+private
+:
 /
 /
 this
