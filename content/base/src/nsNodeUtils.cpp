@@ -3555,6 +3555,14 @@ nsINode
 :
 PARENT_BIT_INDOCUMENT
 ;
+clone
+-
+>
+SetFlags
+(
+NODE_HAS_FAKED_INDOC
+)
+;
 }
 }
 #
