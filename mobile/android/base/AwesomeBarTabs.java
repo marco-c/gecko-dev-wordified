@@ -188,6 +188,15 @@ ViewGroup
 import
 android
 .
+view
+.
+inputmethod
+.
+InputMethodManager
+;
+import
+android
+.
 widget
 .
 TabHost
