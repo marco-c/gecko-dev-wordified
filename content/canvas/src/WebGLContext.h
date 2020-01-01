@@ -563,6 +563,9 @@ dom
 struct
 WebGLContextAttributes
 ;
+struct
+WebGLContextAttributesInitializer
+;
 }
 enum
 FakeBlackStatus
@@ -2258,7 +2261,13 @@ GetContextAttributes
 dom
 :
 :
-WebGLContextAttributes
+Nullable
+<
+dom
+:
+:
+WebGLContextAttributesInitializer
+>
 &
 retval
 )
