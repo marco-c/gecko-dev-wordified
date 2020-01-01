@@ -5319,7 +5319,7 @@ frame
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 nsHTMLReflowState
 >

@@ -3071,7 +3071,7 @@ thingKind
 #
 ifdef
 JS_THREADSAFE
-LazilyConstructed
+Maybe
 <
 AutoLock
 >
@@ -3266,7 +3266,7 @@ runtime
 #
 ifdef
 JS_THREADSAFE
-LazilyConstructed
+Maybe
 <
 AutoLock
 >
@@ -8151,7 +8151,7 @@ lastditch
 #
 ifdef
 JS_THREADSAFE
-LazilyConstructed
+Maybe
 <
 AutoUnlockAtomsCompartment
 >
