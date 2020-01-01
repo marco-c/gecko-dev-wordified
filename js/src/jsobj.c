@@ -6284,7 +6284,10 @@ setter
 "
 *
 /
-vchars
+const
+jschar
+*
+tmp
 =
 js_strchr_limit
 (
@@ -6293,6 +6296,14 @@ vchars
 '
 end
 )
+;
+if
+(
+tmp
+)
+vchars
+=
+tmp
 +
 1
 ;
