@@ -2877,11 +2877,9 @@ ac
 ;
 if
 (
-js
-:
-:
-GetObjectGlobal
+JS_GetGlobalForObject
 (
+cx
 parent
 )
 !

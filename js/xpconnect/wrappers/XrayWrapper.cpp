@@ -2906,10 +2906,6 @@ vp
 if
 (
 !
-wrapper
-|
-|
-!
 IsWrapper
 (
 wrapper
@@ -6866,11 +6862,9 @@ JS_NewObjectWithGivenProto
 cx
 nsnull
 nsnull
-js
-:
-:
-GetObjectGlobal
+JS_GetGlobalForObject
 (
+cx
 wrapper
 )
 )
