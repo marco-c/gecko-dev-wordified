@@ -77,12 +77,13 @@ tempfile
 from
 automationutils
 import
-*
+replaceBackSlashes
 from
 mozdevice
 import
 devicemanagerADB
 devicemanagerSUT
+DMError
 here
 =
 os
