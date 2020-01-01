@@ -467,9 +467,6 @@ h
 #
 endif
 #
-ifndef
-SUITE_USING_XPFE_DM
-#
 ifdef
 MOZ_RDF
 #
@@ -486,8 +483,6 @@ nsDownloadProxy
 .
 h
 "
-#
-endif
 #
 endif
 #
@@ -664,9 +659,6 @@ nsAlertsService
 #
 endif
 #
-ifndef
-SUITE_USING_XPFE_DM
-#
 ifdef
 MOZ_RDF
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
@@ -681,8 +673,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDownloadProxy
 )
-#
-endif
 #
 endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -944,9 +934,6 @@ nsParentalControlsServiceWinConstructor
 #
 endif
 #
-ifndef
-SUITE_USING_XPFE_DM
-#
 ifdef
 MOZ_RDF
 {
@@ -966,8 +953,6 @@ NS_DOWNLOAD_CID
 NS_TRANSFER_CONTRACTID
 nsDownloadProxyConstructor
 }
-#
-endif
 #
 endif
 {
