@@ -1360,6 +1360,8 @@ aType
 nsILocalFile
 *
 aLocation
+bool
+aChromeOnly
 )
 ;
 /
@@ -1407,6 +1409,8 @@ nsILocalFile
 >
 &
 aManifests
+bool
+aChromeOnly
 )
 ;
 void
@@ -1423,6 +1427,8 @@ nsILocalFile
 >
 &
 aManifests
+bool
+aChromeOnly
 )
 ;
 void
@@ -1433,6 +1439,8 @@ aType
 nsILocalFile
 *
 aFile
+bool
+aChromeOnly
 )
 ;
 struct

@@ -2195,6 +2195,8 @@ aFile
 char
 *
 buf
+bool
+aChromeOnly
 )
 {
 nsresult
@@ -3137,6 +3139,11 @@ contentAccessible
 ;
 }
 else
+if
+(
+!
+aChromeOnly
+)
 (
 nsComponentManagerImpl
 :

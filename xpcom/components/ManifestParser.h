@@ -464,6 +464,8 @@ file
 char
 *
 buf
+bool
+aChromeOnly
 )
 ;
 #
