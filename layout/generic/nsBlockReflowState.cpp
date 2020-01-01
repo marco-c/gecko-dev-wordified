@@ -251,10 +251,6 @@ aPresContext
 nsBlockFrame
 *
 aFrame
-const
-nsHTMLReflowMetrics
-&
-aMetrics
 bool
 aTopMarginRoot
 bool
@@ -462,10 +458,6 @@ popped
 mReflowStatus
 =
 NS_FRAME_COMPLETE
-;
-mPresContext
-=
-aPresContext
 ;
 mNextInFlow
 =
