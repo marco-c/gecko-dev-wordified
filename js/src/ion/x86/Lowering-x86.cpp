@@ -569,7 +569,7 @@ LUse
 mir
 -
 >
-id
+virtualRegister
 (
 )
 policy
@@ -957,7 +957,7 @@ LDefinition
 inner
 -
 >
-id
+virtualRegister
 (
 )
 LDefinition
@@ -974,7 +974,7 @@ REDEFINED
 box
 -
 >
-setId
+setVirtualRegister
 (
 vreg
 )
@@ -1229,7 +1229,7 @@ REDEFINED
 unbox
 -
 >
-setId
+setVirtualRegister
 (
 VirtualRegisterOfPayload
 (
@@ -1364,17 +1364,6 @@ snapshot
 return
 false
 ;
-MSnapshot
-*
-mir
-=
-snapshot
--
->
-mir
-(
-)
-;
 for
 (
 size_t
@@ -1384,7 +1373,7 @@ i
 ;
 i
 <
-mir
+last_snapshot_
 -
 >
 numOperands
@@ -1400,7 +1389,7 @@ MDefinition
 *
 ins
 =
-mir
+last_snapshot_
 -
 >
 getOperand
@@ -1928,7 +1917,7 @@ false
 phi
 -
 >
-setId
+setVirtualRegister
 (
 typeVreg
 )
@@ -2074,7 +2063,7 @@ LUse
 operand
 -
 >
-id
+virtualRegister
 (
 )
 +

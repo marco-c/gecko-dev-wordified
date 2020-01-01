@@ -558,7 +558,7 @@ LUse
 mir
 -
 >
-id
+virtualRegister
 (
 )
 policy
@@ -1155,17 +1155,6 @@ snapshot
 return
 false
 ;
-MSnapshot
-*
-mir
-=
-snapshot
--
->
-mir
-(
-)
-;
 for
 (
 size_t
@@ -1175,7 +1164,7 @@ i
 ;
 i
 <
-mir
+last_snapshot_
 -
 >
 numOperands
@@ -1191,7 +1180,7 @@ MDefinition
 *
 def
 =
-mir
+last_snapshot_
 -
 >
 getOperand

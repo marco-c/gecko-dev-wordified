@@ -500,7 +500,7 @@ setEmittedAtUses
 mir
 -
 >
-setId
+setVirtualRegister
 (
 0
 )
@@ -577,7 +577,7 @@ setVirtualRegister
 mir
 -
 >
-id
+virtualRegister
 (
 )
 )
@@ -689,7 +689,7 @@ vreg
 mir
 -
 >
-setId
+setVirtualRegister
 (
 vreg
 )
@@ -934,7 +934,7 @@ endif
 mir
 -
 >
-setId
+setVirtualRegister
 (
 vreg
 )
@@ -1106,12 +1106,12 @@ false
 def
 -
 >
-setId
+setVirtualRegister
 (
 as
 -
 >
-id
+virtualRegister
 (
 )
 )
@@ -1165,7 +1165,7 @@ JS_ASSERT
 mir
 -
 >
-id
+isLowered
 (
 )
 )

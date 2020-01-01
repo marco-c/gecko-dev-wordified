@@ -701,7 +701,7 @@ false
 phi
 -
 >
-setId
+setVirtualRegister
 (
 vreg
 )
@@ -790,7 +790,7 @@ LUse
 operand
 -
 >
-id
+virtualRegister
 (
 )
 LUse
