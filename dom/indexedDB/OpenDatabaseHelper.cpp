@@ -4722,6 +4722,7 @@ NS_OK
 }
 class
 CompressDataBlobsFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -6036,6 +6037,7 @@ NS_OK
 }
 class
 EncodeKeysFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction

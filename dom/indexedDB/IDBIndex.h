@@ -497,6 +497,7 @@ IndexInfo
 ;
 class
 IDBIndex
+MOZ_FINAL
 :
 public
 nsIIDBIndex

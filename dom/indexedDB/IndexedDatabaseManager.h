@@ -605,6 +605,7 @@ CheckQuotaHelper
 ;
 class
 IndexedDatabaseManager
+MOZ_FINAL
 :
 public
 nsIIndexedDatabaseManager
@@ -1518,6 +1519,7 @@ completed
 .
 class
 OriginClearRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -1694,6 +1696,7 @@ completed
 .
 class
 AsyncUsageRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -1984,6 +1987,7 @@ etc
 .
 class
 WaitForTransactionsToFinishRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -2082,6 +2086,7 @@ mOp
 ;
 class
 AsyncDeleteFileRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
