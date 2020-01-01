@@ -7479,6 +7479,9 @@ gcreason
 :
 :
 PAGE_HIDE
+NS_GC_DELAY
+*
+2
 )
 ;
 /

@@ -13736,13 +13736,13 @@ nsnull
 }
 /
 /
-DefineStaticDictionaryJSVals
+InternStaticDictionaryJSVals
 is
 automatically
 generated
 .
 bool
-DefineStaticDictionaryJSVals
+InternStaticDictionaryJSVals
 (
 JSContext
 *
@@ -13941,7 +13941,7 @@ false
 ;
 ok
 =
-DefineStaticDictionaryJSVals
+InternStaticDictionaryJSVals
 (
 cx
 )

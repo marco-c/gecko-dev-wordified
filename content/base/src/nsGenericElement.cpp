@@ -12539,6 +12539,7 @@ rectList
 new
 nsClientRectList
 (
+this
 )
 ;
 nsIFrame
