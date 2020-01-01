@@ -1370,7 +1370,7 @@ method
 calls
 .
 }
-nsIAccessible
+nsAccessible
 *
 nsApplicationAccessible
 :

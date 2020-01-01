@@ -2233,7 +2233,7 @@ offset
 *
 /
 virtual
-nsIAccessible
+nsAccessible
 *
 GetSiblingAtOffset
 (

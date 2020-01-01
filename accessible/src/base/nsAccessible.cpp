@@ -17812,7 +17812,7 @@ return
 PR_FALSE
 ;
 }
-nsIAccessible
+nsAccessible
 *
 nsAccessible
 :
