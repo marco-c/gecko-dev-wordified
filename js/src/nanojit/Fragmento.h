@@ -1244,6 +1244,11 @@ _hits
 ;
 }
 void
+resetHits
+(
+)
+;
+void
 blacklist
 (
 )
@@ -1480,6 +1485,9 @@ guardCount
 ;
 uint32_t
 xjumpCount
+;
+uint32_t
+recordAttempts
 ;
 int32_t
 blacklistLevel
