@@ -2340,9 +2340,6 @@ InliningStatus_Inlined
 bool
 jsop_call_inline
 (
-JSFunction
-*
-callee
 uint32
 argc
 IonBuilder
