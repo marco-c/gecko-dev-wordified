@@ -383,6 +383,8 @@ BLOCK
 import
 devicemanager
 import
+devicemanagerUtils
+import
 sys
 import
 os
@@ -534,9 +536,9 @@ exit
     
 dm
 =
-devicemanager
+devicemanagerUtils
 .
-DeviceManager
+getDeviceManager
 (
 ip_addr
 int
