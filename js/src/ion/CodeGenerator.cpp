@@ -30681,6 +30681,10 @@ link
 (
 )
 {
+AssertCanGC
+(
+)
+;
 JSContext
 *
 cx
@@ -32551,6 +32555,10 @@ CallsiteCloneIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 LInstruction
 *
 lir
@@ -32784,6 +32792,10 @@ NameIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 LInstruction
 *
 lir
@@ -33154,6 +33166,10 @@ GetPropertyIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 LInstruction
 *
 lir
@@ -33480,6 +33496,10 @@ GetElementIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 LInstruction
 *
 lir
@@ -33705,6 +33725,10 @@ BindNameIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 LInstruction
 *
 lir
@@ -34437,6 +34461,10 @@ SetPropertyIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 LInstruction
 *
 lir
@@ -39382,6 +39410,10 @@ LFunctionBoundary
 lir
 )
 {
+AssertCanGC
+(
+)
+;
 Register
 temp
 =

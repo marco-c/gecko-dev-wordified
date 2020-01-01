@@ -41689,6 +41689,10 @@ cx
 fun_
 )
 ;
+AssertCanGC
+(
+)
+;
 if
 (
 proto

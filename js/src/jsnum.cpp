@@ -8369,6 +8369,10 @@ double
 out
 )
 {
+AssertCanGC
+(
+)
+;
 #
 ifdef
 DEBUG

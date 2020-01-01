@@ -6264,6 +6264,10 @@ generateStringPropertyStub
 (
 )
 {
+AssertCanGC
+(
+)
+;
 if
 (
 !
@@ -9116,6 +9120,10 @@ HandleShape
 shape
 )
 {
+AssertCanGC
+(
+)
+;
 Vector
 <
 Jump

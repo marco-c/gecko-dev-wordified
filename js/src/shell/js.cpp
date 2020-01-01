@@ -11525,6 +11525,10 @@ dumpFile
 bool
 ok
 ;
+AssertCanGC
+(
+)
+;
 const
 char
 *

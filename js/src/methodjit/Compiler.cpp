@@ -46246,6 +46246,10 @@ uint32_t
 index
 )
 {
+AssertCanGC
+(
+)
+;
 /
 *
 Optimize
@@ -56779,6 +56783,10 @@ bool
 testUndefined
 )
 {
+AssertCanGC
+(
+)
+;
 if
 (
 !

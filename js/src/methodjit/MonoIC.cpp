@@ -485,6 +485,10 @@ GetGlobalNameIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 RootedObject
 obj
 (
@@ -774,6 +778,10 @@ SetGlobalNameIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 RootedPropertyName
 name
 (
@@ -1119,6 +1127,10 @@ SetGlobalNameIC
 ic
 )
 {
+AssertCanGC
+(
+)
+;
 RootedObject
 obj
 (

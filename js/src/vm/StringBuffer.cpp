@@ -444,6 +444,10 @@ finishAtom
 (
 )
 {
+AssertCanGC
+(
+)
+;
 JSContext
 *
 cx

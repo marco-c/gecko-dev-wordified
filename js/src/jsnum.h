@@ -870,6 +870,10 @@ Value
 vp
 )
 {
+AssertCanGC
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -1390,6 +1394,10 @@ double
 dp
 )
 {
+AssertCanGC
+(
+)
+;
 #
 ifdef
 DEBUG

@@ -1175,6 +1175,10 @@ JSContext
 cx
 )
 {
+AssertCanGC
+(
+)
+;
 FrameRegs
 &
 regs
@@ -5917,6 +5921,10 @@ MutableHandleValue
 res
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 op

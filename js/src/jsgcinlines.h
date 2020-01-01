@@ -2415,6 +2415,14 @@ InitialHeap
 heap
 )
 {
+if
+(
+allowGC
+)
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 thingSize

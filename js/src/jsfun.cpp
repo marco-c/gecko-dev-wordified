@@ -3204,6 +3204,10 @@ HandleFunction
 srcFun
 )
 {
+AssertCanGC
+(
+)
+;
 /
 *
 NB
@@ -4183,6 +4187,10 @@ bool
 lambdaParen
 )
 {
+AssertCanGC
+(
+)
+;
 StringBuffer
 out
 (
@@ -10051,6 +10059,10 @@ AllocKind
 allocKind
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 parent

@@ -4118,6 +4118,10 @@ RawFunction
 target
 )
 {
+AssertCanGC
+(
+)
+;
 RootedScript
 targetScript
 (

@@ -2795,6 +2795,10 @@ void
 userRef
 )
 {
+AssertCanGC
+(
+)
+;
 /
 *
 *

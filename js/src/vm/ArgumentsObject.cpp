@@ -797,6 +797,10 @@ CopyArgs
 copy
 )
 {
+AssertCanGC
+(
+)
+;
 RootedObject
 proto
 (

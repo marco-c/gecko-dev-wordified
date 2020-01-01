@@ -13043,6 +13043,10 @@ HandleFunction
 fun
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 !
@@ -14722,6 +14726,10 @@ HandleScript
 src
 )
 {
+AssertCanGC
+(
+)
+;
 /
 *
 NB
@@ -18290,6 +18298,10 @@ HandleScript
 script
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 script
