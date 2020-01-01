@@ -2375,7 +2375,7 @@ new
 Node
 (
 t
-VAR
+CONST
 )
 ;
 }
