@@ -195,7 +195,7 @@ aFramesPerSecond
 30
 )
 ;
-void
+bool
 ReceiveFrame
 (
 void

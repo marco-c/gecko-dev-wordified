@@ -856,7 +856,7 @@ TRACK_VIDEO
 )
 ;
 }
-void
+bool
 DOMCameraPreview
 :
 :
@@ -903,6 +903,7 @@ aBuilder
 )
 {
 return
+false
 ;
 }
 if
@@ -914,6 +915,7 @@ STARTED
 )
 {
 return
+false
 ;
 }
 ImageFormat
@@ -982,6 +984,9 @@ TRACK_VIDEO
 &
 mVideoSegment
 )
+;
+return
+true
 ;
 }
 void

@@ -1301,7 +1301,7 @@ NS_DISPATCH_NORMAL
 )
 ;
 }
-void
+bool
 CameraControlImpl
 :
 :
@@ -1318,9 +1318,15 @@ aBuilder
 {
 if
 (
+!
 mDOMPreview
 )
 {
+return
+false
+;
+}
+return
 mDOMPreview
 -
 >
@@ -1331,7 +1337,6 @@ aFormat
 aBuilder
 )
 ;
-}
 }
 NS_IMETHODIMP
 GetPreviewStreamResult
