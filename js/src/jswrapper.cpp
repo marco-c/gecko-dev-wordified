@@ -4338,7 +4338,7 @@ if
 !
 keys
 .
-resize
+reserve
 (
 length
 )
@@ -4398,11 +4398,11 @@ id
 )
 ;
 keys
-[
-i
-]
-=
+.
+infallibleAppend
+(
 id
+)
 ;
 if
 (
