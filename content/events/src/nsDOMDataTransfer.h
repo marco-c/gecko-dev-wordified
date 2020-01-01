@@ -774,6 +774,8 @@ const
 PRUint32
 aEffectAllowed
 PRBool
+aCursorState
+PRBool
 aIsExternal
 PRBool
 aUserCancelled
