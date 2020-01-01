@@ -452,6 +452,9 @@ we
 link
 with
 #
+define
+ZLIB_INTERNAL
+#
 include
 "
 zlib
