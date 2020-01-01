@@ -1479,6 +1479,11 @@ kReceivedIdentityAssertion
 "
 +
 uuid
+requestId
+:
+aRpOptions
+.
+id
 }
 ;
 log
@@ -2020,6 +2025,11 @@ kOpenIdentityDialog
 "
 +
 uuid
+requestId
+:
+aRpOptions
+.
+id
 }
 ;
 GaiaInterface
