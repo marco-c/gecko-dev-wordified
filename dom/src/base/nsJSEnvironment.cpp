@@ -21850,11 +21850,16 @@ return
 gNameSpaceManager
 ;
 }
+/
+*
+static
+*
+/
 void
 nsJSRuntime
 :
 :
-ShutDown
+Shutdown
 (
 )
 {
