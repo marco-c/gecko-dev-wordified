@@ -5940,6 +5940,13 @@ removeelement
 )
 GK_ATOM
 (
+renderingobserverlist
+"
+renderingobserverlist
+"
+)
+GK_ATOM
+(
 repeat
 "
 repeat
