@@ -480,7 +480,7 @@ SnapshotErrorStack
 void
 SaveCrashData
 (
-uint64
+uint64_t
 tag
 void
 *

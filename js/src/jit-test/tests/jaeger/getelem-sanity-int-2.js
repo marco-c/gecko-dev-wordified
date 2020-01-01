@@ -103,7 +103,7 @@ break
 }
 /
 *
-int32
+int32_t
 getelem
 for
 dense

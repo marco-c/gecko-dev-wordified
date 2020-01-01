@@ -471,7 +471,7 @@ h
 "
 JS_BEGIN_EXTERN_C
 typedef
-uint32
+uint32_t
 JSHashNumber
 ;
 typedef
@@ -752,7 +752,7 @@ hash
 buckets
 *
 /
-uint32
+uint32_t
 nentries
 ;
 /
@@ -764,7 +764,7 @@ in
 table
 *
 /
-uint32
+uint32_t
 shift
 ;
 /
@@ -828,7 +828,7 @@ data
 #
 ifdef
 JS_HASHMETER
-uint32
+uint32_t
 nlookups
 ;
 /
@@ -839,7 +839,7 @@ of
 lookups
 *
 /
-uint32
+uint32_t
 nsteps
 ;
 /
@@ -851,7 +851,7 @@ chains
 traversed
 *
 /
-uint32
+uint32_t
 ngrows
 ;
 /
@@ -862,7 +862,7 @@ table
 expansions
 *
 /
-uint32
+uint32_t
 nshrinks
 ;
 /
@@ -913,7 +913,7 @@ JSHashTable
 )
 JS_NewHashTable
 (
-uint32
+uint32_t
 n
 JSHashFunction
 keyHash

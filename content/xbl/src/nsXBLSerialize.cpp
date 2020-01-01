@@ -535,7 +535,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-uint32
+uint32_t
 size
 ;
 const
@@ -758,7 +758,7 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-uint32
+uint32_t
 junk
 ;
 data

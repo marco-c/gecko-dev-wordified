@@ -1831,13 +1831,13 @@ cx
 JSObject
 *
 proto
-JSUint64
+uint64_t
 data
 bool
 isUnsigned
 )
 ;
-JSUint64
+uint64_t
 GetInt
 (
 JSContext
@@ -5237,7 +5237,7 @@ manner
 )
 for
 (
-JSUint32
+uint32_t
 i
 =
 0
@@ -7503,13 +7503,13 @@ template
 struct
 ConvertImpl
 <
-JSUint64
+uint64_t
 jsdouble
 >
 {
 static
 JS_ALWAYS_INLINE
-JSUint64
+uint64_t
 Convert
 (
 jsdouble
@@ -7521,7 +7521,7 @@ d
 >
 0x7fffffffffffffffui64
 ?
-JSUint64
+uint64_t
 (
 d
 -
@@ -7530,7 +7530,7 @@ d
 +
 0x8000000000000000ui64
 :
-JSUint64
+uint64_t
 (
 d
 )
@@ -7579,7 +7579,7 @@ of
 /
 values
 a
-uint64
+uint64_t
 and
 a
 double
@@ -7618,13 +7618,13 @@ template
 struct
 ConvertImpl
 <
-JSUint64
+uint64_t
 jsdouble
 >
 {
 static
 JS_ALWAYS_INLINE
-JSUint64
+uint64_t
 Convert
 (
 jsdouble
@@ -7639,7 +7639,7 @@ d
 ?
 0x8000000000000000
 :
-JSUint64
+uint64_t
 (
 d
 )
@@ -7653,13 +7653,13 @@ template
 struct
 ConvertImpl
 <
-JSInt64
+int64_t
 jsdouble
 >
 {
 static
 JS_ALWAYS_INLINE
-JSInt64
+int64_t
 Convert
 (
 jsdouble
@@ -7674,7 +7674,7 @@ d
 ?
 0x8000000000000000
 :
-JSInt64
+int64_t
 (
 d
 )
@@ -8985,7 +8985,7 @@ fits
 in
 IntegerType
 .
-JSInt64
+int64_t
 i
 =
 Int64Base
@@ -9027,7 +9027,7 @@ fits
 in
 IntegerType
 .
-JSUint64
+uint64_t
 i
 =
 Int64Base
@@ -10248,7 +10248,7 @@ fits
 in
 IntegerType
 .
-JSUint64
+uint64_t
 i
 =
 Int64Base
@@ -10290,7 +10290,7 @@ fits
 in
 IntegerType
 .
-JSInt64
+int64_t
 i
 =
 Int64Base
@@ -10649,7 +10649,7 @@ fits
 in
 IntegerType
 .
-JSUint64
+uint64_t
 i
 =
 Int64Base
@@ -10691,7 +10691,7 @@ fits
 in
 IntegerType
 .
-JSInt64
+int64_t
 i
 =
 Int64Base
@@ -11019,7 +11019,7 @@ obj
 )
 )
 {
-JSInt64
+int64_t
 i
 =
 Int64Base
@@ -11055,7 +11055,7 @@ obj
 )
 )
 {
-JSUint64
+uint64_t
 i
 =
 Int64Base
@@ -11326,7 +11326,7 @@ obj
 )
 )
 {
-JSInt64
+int64_t
 i
 =
 Int64Base
@@ -11360,7 +11360,7 @@ precision
 .
 if
 (
-JSInt64
+int64_t
 (
 p
 )
@@ -11395,7 +11395,7 @@ obj
 )
 )
 {
-JSUint64
+uint64_t
 i
 =
 Int64Base
@@ -11428,7 +11428,7 @@ i
 )
 ;
 return
-JSUint64
+uint64_t
 (
 *
 result
@@ -12105,7 +12105,7 @@ number
 *
 /
 \
-JSUint64
+uint64_t
 value
 ;
 \
@@ -12177,7 +12177,7 @@ else
 \
 value
 =
-JSInt64
+int64_t
 (
 *
 static_cast
@@ -34479,7 +34479,7 @@ false
 ;
 for
 (
-JSUint32
+uint32_t
 i
 =
 0
@@ -35926,7 +35926,7 @@ cx
 typeObj
 )
 ;
-JSUint32
+uint32_t
 argcFixed
 =
 fninfo
@@ -36229,7 +36229,7 @@ suffer
 .
 for
 (
-JSUint32
+uint32_t
 i
 =
 argcFixed
@@ -39097,7 +39097,7 @@ begin
 ;
 for
 (
-JSUint32
+uint32_t
 i
 =
 0
@@ -42939,7 +42939,7 @@ cx
 JSObject
 *
 proto
-JSUint64
+uint64_t
 data
 bool
 isUnsigned
@@ -42999,7 +42999,7 @@ Int64
 '
 s
 data
-JSUint64
+uint64_t
 *
 buffer
 =
@@ -43008,7 +43008,7 @@ cx
 >
 new_
 <
-JSUint64
+uint64_t
 >
 (
 data
@@ -43116,7 +43116,7 @@ delete_
 (
 static_cast
 <
-JSUint64
+uint64_t
 *
 >
 (
@@ -43128,7 +43128,7 @@ slot
 )
 ;
 }
-JSUint64
+uint64_t
 Int64Base
 :
 :
@@ -43183,7 +43183,7 @@ return
 *
 static_cast
 <
-JSUint64
+uint64_t
 *
 >
 (
@@ -43345,7 +43345,7 @@ IntegerToString
 (
 static_cast
 <
-JSInt64
+int64_t
 >
 (
 GetInt
@@ -43499,7 +43499,7 @@ IntegerToString
 (
 static_cast
 <
-JSInt64
+int64_t
 >
 (
 GetInt
@@ -43614,7 +43614,7 @@ cx
 vp
 )
 ;
-JSInt64
+int64_t
 i
 =
 0
@@ -44042,7 +44042,7 @@ argv
 ]
 )
 ;
-JSInt64
+int64_t
 i1
 =
 Int64Base
@@ -44054,7 +44054,7 @@ cx
 obj1
 )
 ;
-JSInt64
+int64_t
 i2
 =
 Int64Base
@@ -44121,7 +44121,7 @@ define
 LO_MASK
 (
 (
-JSUint64
+uint64_t
 (
 1
 )
@@ -44247,7 +44247,7 @@ argv
 ]
 )
 ;
-JSInt64
+int64_t
 u
 =
 Int64Base
@@ -44262,7 +44262,7 @@ obj
 jsdouble
 d
 =
-JSUint32
+uint32_t
 (
 INT64_LO
 (
@@ -44386,7 +44386,7 @@ argv
 ]
 )
 ;
-JSInt64
+int64_t
 u
 =
 Int64Base
@@ -44401,7 +44401,7 @@ obj
 jsdouble
 d
 =
-JSInt32
+int32_t
 (
 INT64_HI
 (
@@ -44486,10 +44486,10 @@ cx
 vp
 )
 ;
-JSInt32
+int32_t
 hi
 ;
-JSUint32
+uint32_t
 lo
 ;
 if
@@ -44546,11 +44546,11 @@ argv
 ]
 )
 ;
-JSInt64
+int64_t
 i
 =
 (
-JSInt64
+int64_t
 (
 hi
 )
@@ -44559,7 +44559,7 @@ hi
 32
 )
 +
-JSInt64
+int64_t
 (
 lo
 )
@@ -44721,7 +44721,7 @@ cx
 vp
 )
 ;
-JSUint64
+uint64_t
 u
 =
 0
@@ -45149,7 +45149,7 @@ argv
 ]
 )
 ;
-JSUint64
+uint64_t
 u1
 =
 Int64Base
@@ -45161,7 +45161,7 @@ cx
 obj1
 )
 ;
-JSUint64
+uint64_t
 u2
 =
 Int64Base
@@ -45311,7 +45311,7 @@ argv
 ]
 )
 ;
-JSUint64
+uint64_t
 u
 =
 Int64Base
@@ -45326,7 +45326,7 @@ obj
 jsdouble
 d
 =
-JSUint32
+uint32_t
 (
 INT64_LO
 (
@@ -45450,7 +45450,7 @@ argv
 ]
 )
 ;
-JSUint64
+uint64_t
 u
 =
 Int64Base
@@ -45465,7 +45465,7 @@ obj
 jsdouble
 d
 =
-JSUint32
+uint32_t
 (
 INT64_HI
 (
@@ -45550,10 +45550,10 @@ cx
 vp
 )
 ;
-JSUint32
+uint32_t
 hi
 ;
-JSUint32
+uint32_t
 lo
 ;
 if
@@ -45610,11 +45610,11 @@ argv
 ]
 )
 ;
-JSUint64
+uint64_t
 u
 =
 (
-JSUint64
+uint64_t
 (
 hi
 )
@@ -45623,7 +45623,7 @@ hi
 32
 )
 +
-JSUint64
+uint64_t
 (
 lo
 )

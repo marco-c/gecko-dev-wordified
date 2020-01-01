@@ -505,7 +505,7 @@ ImmPtr
 {
 Imm64
 (
-uint64
+uint64_t
 u
 )
 :
@@ -601,7 +601,7 @@ Imm64
 {
 ImmPayload
 (
-uint64
+uint64_t
 payload
 )
 :
@@ -624,7 +624,7 @@ MacroAssembler
 {
 static
 const
-uint32
+uint32_t
 PAYLOAD_OFFSET
 =
 0
@@ -687,7 +687,7 @@ loadInlineSlot
 (
 RegisterID
 objReg
-uint32
+uint32_t
 slot
 RegisterID
 typeReg
@@ -1846,7 +1846,7 @@ RegisterID
 base
 RegisterID
 to
-uint32
+uint32_t
 nfixed
 )
 {

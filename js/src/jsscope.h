@@ -2516,7 +2516,7 @@ object
 /
 static
 const
-uint32
+uint32_t
 SHAPE_INVALID_SLOT
 =
 JS_BIT
@@ -2528,7 +2528,7 @@ JS_BIT
 ;
 static
 const
-uint32
+uint32_t
 SHAPE_MAXIMUM_SLOT
 =
 JS_BIT
@@ -2566,21 +2566,21 @@ PropertyTable
 {
 static
 const
-uint32
+uint32_t
 MIN_ENTRIES
 =
 7
 ;
 static
 const
-uint32
+uint32_t
 MIN_SIZE_LOG2
 =
 4
 ;
 static
 const
-uint32
+uint32_t
 MIN_SIZE
 =
 JS_BIT
@@ -2598,7 +2598,7 @@ hash
 shift
 *
 /
-uint32
+uint32_t
 entryCount
 ;
 /
@@ -2610,7 +2610,7 @@ in
 table
 *
 /
-uint32
+uint32_t
 removedCount
 ;
 /
@@ -2622,7 +2622,7 @@ in
 table
 *
 /
-uint32
+uint32_t
 freelist
 ;
 /
@@ -2662,7 +2662,7 @@ nodes
 /
 PropertyTable
 (
-uint32
+uint32_t
 nentries
 )
 :
@@ -2734,7 +2734,7 @@ capacity
 .
 *
 /
-uint32
+uint32_t
 capacity
 (
 )
@@ -2871,7 +2871,7 @@ needsToGrow
 )
 const
 {
-uint32
+uint32_t
 size
 =
 capacity
@@ -3646,7 +3646,7 @@ object
 .
 *
 /
-uint32
+uint32_t
 flags
 ;
 /
@@ -3658,7 +3658,7 @@ flags
 .
 *
 /
-uint32
+uint32_t
 slotSpan_
 ;
 /
@@ -3819,7 +3819,7 @@ clasp
 JSObject
 *
 parent
-uint32
+uint32_t
 objectFlags
 )
 ;
@@ -3832,9 +3832,9 @@ clasp
 JSObject
 *
 parent
-uint32
+uint32_t
 objectFlags
-uint8
+uint8_t
 attrs
 PropertyOp
 rawGetter
@@ -4061,7 +4061,7 @@ table_
 table
 ;
 }
-uint32
+uint32_t
 slotSpan
 (
 )
@@ -4081,7 +4081,7 @@ slotSpan_
 void
 setSlotSpan
 (
-uint32
+uint32_t
 slotSpan
 )
 {
@@ -4524,7 +4524,7 @@ propid_
 JS_ENUM_HEADER
 (
 SlotInfo
-uint32
+uint32_t
 )
 {
 /
@@ -4549,7 +4549,7 @@ FIXED_SLOTS_SHIFT
 27
 FIXED_SLOTS_MASK
 =
-uint32
+uint32_t
 (
 FIXED_SLOTS_MAX
 <
@@ -4688,7 +4688,7 @@ JS_ENUM_FOOTER
 SlotInfo
 )
 ;
-uint32
+uint32_t
 slotInfo
 ;
 /
@@ -4699,7 +4699,7 @@ above
 info
 *
 /
-uint8
+uint8_t
 attrs
 ;
 /
@@ -4713,7 +4713,7 @@ JSPROP_
 *
 *
 /
-uint8
+uint8_t
 flags
 ;
 /
@@ -4725,7 +4725,7 @@ for
 defines
 *
 /
-int16
+int16_t
 shortid_
 ;
 /
@@ -5349,7 +5349,7 @@ HeapPtrShape
 listp
 )
 ;
-uint32
+uint32_t
 getObjectFlags
 (
 )
@@ -5500,9 +5500,9 @@ UnownedBaseShape
 base
 jsid
 id
-uint32
+uint32_t
 slot
-uint32
+uint32_t
 nfixed
 uintN
 attrs
@@ -5556,7 +5556,7 @@ Shape
 UnownedBaseShape
 *
 base
-uint32
+uint32_t
 nfixed
 )
 ;
@@ -6364,7 +6364,7 @@ js
 :
 StrictPropertyOp
 setter
-uint8
+uint8_t
 attrs
 )
 ;
@@ -6396,7 +6396,7 @@ matchesParamsAfterId
 BaseShape
 *
 base
-uint32
+uint32_t
 aslot
 uintN
 aattrs
@@ -6479,7 +6479,7 @@ JSPROP_SHARED
 0
 ;
 }
-uint32
+uint32_t
 slot
 (
 )
@@ -6504,7 +6504,7 @@ maybeSlot
 )
 ;
 }
-uint32
+uint32_t
 maybeSlot
 (
 )
@@ -6540,7 +6540,7 @@ propid_
 )
 ;
 }
-uint32
+uint32_t
 slotSpan
 (
 )
@@ -6554,7 +6554,7 @@ inDictionary
 )
 )
 ;
-uint32
+uint32_t
 free
 =
 JSSLOT_FREE
@@ -6585,7 +6585,7 @@ maybeSlot
 void
 setSlot
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -6611,7 +6611,7 @@ slotInfo
 slot
 ;
 }
-uint32
+uint32_t
 numFixedSlots
 (
 )
@@ -6629,7 +6629,7 @@ FIXED_SLOTS_SHIFT
 void
 setNumFixedSlots
 (
-uint32
+uint32_t
 nfixed
 )
 {
@@ -6659,7 +6659,7 @@ FIXED_SLOTS_SHIFT
 )
 ;
 }
-uint32
+uint32_t
 numLinearSearches
 (
 )
@@ -6681,7 +6681,7 @@ incrementNumLinearSearches
 (
 )
 {
-uint32
+uint32_t
 count
 =
 numLinearSearches
@@ -6757,7 +6757,7 @@ return
 propid_
 ;
 }
-int16
+int16_t
 shortid
 (
 )
@@ -6776,7 +6776,7 @@ maybeShortid
 )
 ;
 }
-int16
+int16_t
 maybeShortid
 (
 )
@@ -6842,7 +6842,7 @@ propid
 )
 ;
 }
-uint8
+uint8_t
 attributes
 (
 )
@@ -7580,7 +7580,7 @@ EXTENSIBLE_PARENTS
 )
 ;
 }
-uint32
+uint32_t
 entryCount
 (
 )
@@ -7609,7 +7609,7 @@ shape
 =
 this
 ;
-uint32
+uint32_t
 count
 =
 0
@@ -7677,7 +7677,7 @@ shape
 =
 this
 ;
-uint32
+uint32_t
 count
 =
 0
@@ -7970,7 +7970,7 @@ EmptyShape
 UnownedBaseShape
 *
 base
-uint32
+uint32_t
 nfixed
 )
 ;
@@ -8019,7 +8019,7 @@ gc
 :
 AllocKind
 kind
-uint32
+uint32_t
 objectFlags
 =
 0
@@ -8220,10 +8220,10 @@ JSObject
 *
 parent
 ;
-uint32
+uint32_t
 nfixed
 ;
-uint32
+uint32_t
 baseFlags
 ;
 Lookup
@@ -8237,9 +8237,9 @@ proto
 JSObject
 *
 parent
-uint32
+uint32_t
 nfixed
-uint32
+uint32_t
 baseFlags
 )
 :

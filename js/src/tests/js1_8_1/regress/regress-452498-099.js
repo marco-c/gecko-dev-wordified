@@ -767,7 +767,7 @@ Assertion
 failure
 :
 (
-uint32
+uint32_t
 )
 (
 index_

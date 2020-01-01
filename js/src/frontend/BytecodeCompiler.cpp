@@ -1155,7 +1155,7 @@ globals
 (
 )
 ;
-uint32
+uint32_t
 nGlobalUses
 =
 globalUses
@@ -1165,7 +1165,7 @@ length
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1179,7 +1179,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 index
 =
 globalUses
@@ -1252,7 +1252,7 @@ principals
 JSPrincipals
 *
 originPrincipals
-uint32
+uint32_t
 tcflags
 const
 jschar
@@ -1879,7 +1879,7 @@ Statements
 .
 *
 /
-uint32
+uint32_t
 bodyid
 ;
 if

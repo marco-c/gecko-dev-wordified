@@ -2374,7 +2374,7 @@ name
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2438,7 +2438,7 @@ name
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -5050,7 +5050,7 @@ isNative
 )
 )
 {
-uint32
+uint32_t
 nslots
 =
 obj
@@ -5062,7 +5062,7 @@ slotSpan
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

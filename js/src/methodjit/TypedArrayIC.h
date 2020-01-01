@@ -979,7 +979,7 @@ d
 )
 ;
 }
-int32
+int32_t
 i32
 =
 0
@@ -1219,7 +1219,7 @@ const
 ValueRemat
 &
 vr
-uint32
+uint32_t
 saveMask
 )
 {
@@ -1423,7 +1423,7 @@ vp
 )
 ;
 typedef
-int32
+int32_t
 (
 JS_FASTCALL
 *
@@ -1684,7 +1684,7 @@ ValueRemat
 vr
 FPRegisterID
 destReg
-uint32
+uint32_t
 saveMask
 )
 {
@@ -1892,7 +1892,7 @@ not
 known
 to
 be
-int32
+int32_t
 or
 double
 .
@@ -2320,7 +2320,7 @@ const
 ValueRemat
 &
 vrIn
-uint32
+uint32_t
 saveMask
 )
 {
@@ -2329,7 +2329,7 @@ vr
 =
 vrIn
 ;
-uint32
+uint32_t
 type
 =
 TypedArray
@@ -2814,7 +2814,7 @@ live
 volatile
 registers
 .
-uint32
+uint32_t
 allowMask
 =
 Registers
@@ -2846,7 +2846,7 @@ absolutely
 cannot
 clobber
 .
-uint32
+uint32_t
 pinned
 =
 Assembler
@@ -3046,7 +3046,7 @@ during
 the
 store
 .
-uint32
+uint32_t
 vrRegs
 =
 Registers
@@ -3066,7 +3066,7 @@ typeReg
 )
 )
 ;
-uint32
+uint32_t
 lhsMask
 =
 vrRegs
@@ -3106,7 +3106,7 @@ lhsMask
 |
 above
 .
-uint32
+uint32_t
 rhsMask
 =
 vrRegs

@@ -432,7 +432,7 @@ cursor
 =
 =
 (
-uint8
+uint8_t
 *
 )
 copy

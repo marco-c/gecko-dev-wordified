@@ -567,14 +567,14 @@ callsite
 /
 static
 const
-uint32
+uint32_t
 MAX_PIC_STUBS
 =
 16
 ;
 static
 const
-uint32
+uint32_t
 MAX_GETELEM_IC_STUBS
 =
 17
@@ -686,7 +686,7 @@ the
 last
 stub
 .
-int32
+int32_t
 secondShapeGuard
 ;
 /
@@ -760,7 +760,7 @@ of
 stubs
 generated
 .
-uint32
+uint32_t
 stubsGenerated
 :
 5
@@ -2019,7 +2019,7 @@ guard
 per
 type
 .
-int32
+int32_t
 atomGuard
 :
 8
@@ -2032,7 +2032,7 @@ non
 zero
 if
 present
-int32
+int32_t
 firstShapeGuard
 :
 11
@@ -2041,7 +2041,7 @@ firstShapeGuard
 /
 always
 set
-int32
+int32_t
 secondShapeGuard
 :
 11
@@ -2462,7 +2462,7 @@ rematerialize
 objReg
 |
 .
-int32
+int32_t
 objRemat
 :
 MIN_STATE_REMAT_BITS
@@ -2587,7 +2587,7 @@ inside
 the
 IC
 .
-uint32
+uint32_t
 volatileMask
 ;
 /
@@ -2628,7 +2628,7 @@ union
 RegisterID
 keyReg
 ;
-int32
+int32_t
 keyValue
 ;
 }
@@ -2724,7 +2724,7 @@ f
 JSObject
 *
 obj
-int32
+int32_t
 key
 )
 ;
@@ -2737,7 +2737,7 @@ f
 JSObject
 *
 obj
-int32
+int32_t
 key
 )
 ;
@@ -2898,7 +2898,7 @@ check
 slow
 path
 .
-int32
+int32_t
 typeCheckOffset
 ;
 }
@@ -3264,7 +3264,7 @@ initial
 shape
 guard
 .
-uint32
+uint32_t
 shapeGuard
 ;
 /

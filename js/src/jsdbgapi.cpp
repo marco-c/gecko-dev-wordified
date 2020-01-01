@@ -5484,7 +5484,7 @@ return
 JS_TRUE
 ;
 }
-uint32
+uint32_t
 n
 =
 obj
@@ -5526,7 +5526,7 @@ pd
 return
 JS_FALSE
 ;
-uint32
+uint32_t
 i
 =
 0
@@ -5752,7 +5752,7 @@ JSPropertyDesc
 *
 pd
 ;
-uint32
+uint32_t
 i
 ;
 pd

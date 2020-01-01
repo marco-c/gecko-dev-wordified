@@ -1025,7 +1025,7 @@ addr
 '
 *
 /
-int32
+int32_t
 dslotsLoadOffset
 :
 8
@@ -1043,7 +1043,7 @@ comparison
 .
 *
 /
-int32
+int32_t
 inlineShapeOffset
 :
 8
@@ -1061,7 +1061,7 @@ load
 .
 *
 /
-int32
+int32_t
 inlineValueLoadOffset
 :
 8
@@ -1106,7 +1106,7 @@ always
 .
 *
 /
-int32
+int32_t
 stubShapeJumpOffset
 :
 8
@@ -1127,7 +1127,7 @@ jump
 .
 *
 /
-int32
+int32_t
 inlineShapeJumpOffset
 :
 8
@@ -1147,7 +1147,7 @@ jump
 .
 *
 /
-int32
+int32_t
 inlineTypeJumpOffset
 :
 8
@@ -1596,7 +1596,7 @@ addr
 .
 *
 /
-int32
+int32_t
 dslotsLoadOffset
 :
 8
@@ -1614,7 +1614,7 @@ comparison
 .
 *
 /
-int32
+int32_t
 inlineShapeDataOffset
 :
 8
@@ -1659,12 +1659,12 @@ always
 .
 *
 /
-int32
+int32_t
 stubShapeJumpOffset
 :
 8
 ;
-int32
+int32_t
 inlineValueStoreOffset
 :
 8
@@ -1684,7 +1684,7 @@ jump
 .
 *
 /
-int32
+int32_t
 inlineShapeJumpOffset
 :
 8
@@ -1874,7 +1874,7 @@ jump
 .
 *
 /
-int32
+int32_t
 inlineJumpOffset
 :
 8
@@ -1893,7 +1893,7 @@ jump
 .
 *
 /
-int32
+int32_t
 stubJumpOffset
 :
 8
@@ -2083,7 +2083,7 @@ jump
 .
 *
 /
-int32
+int32_t
 inlineJumpOffset
 :
 8
@@ -2102,7 +2102,7 @@ jump
 .
 *
 /
-int32
+int32_t
 stubJumpOffset
 :
 8

@@ -466,7 +466,7 @@ GlobalObject
 :
 setFlags
 (
-int32
+int32_t
 flags
 )
 {
@@ -487,7 +487,7 @@ GlobalObject
 :
 initFlags
 (
-int32
+int32_t
 flags
 )
 {

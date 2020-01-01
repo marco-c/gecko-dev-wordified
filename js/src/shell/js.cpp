@@ -2451,7 +2451,7 @@ FILE
 *
 file
 ;
-uint32
+uint32_t
 oldopts
 ;
 if
@@ -2684,7 +2684,7 @@ ch
 file
 )
 ;
-int64
+int64_t
 t1
 =
 PRMJ_Now
@@ -2744,7 +2744,7 @@ script
 NULL
 )
 ;
-int64
+int64_t
 t2
 =
 PRMJ_Now
@@ -3533,7 +3533,7 @@ char
 *
 name
 ;
-uint32
+uint32_t
 flag
 ;
 }
@@ -3593,7 +3593,7 @@ JSOPTION_XML
 }
 ;
 static
-uint32
+uint32_t
 MapContextOptionNameToFlag
 (
 JSContext
@@ -3873,7 +3873,7 @@ JS_SetGCZeal
 (
 cx
 (
-uint8
+uint8_t
 )
 zeal
 freq
@@ -3954,7 +3954,7 @@ version
 .
 *
 /
-int32
+int32_t
 v
 =
 -
@@ -4007,7 +4007,7 @@ argv
 ;
 if
 (
-int32
+int32_t
 (
 fv
 )
@@ -4017,7 +4017,7 @@ fv
 )
 v
 =
-int32
+int32_t
 (
 fv
 )
@@ -4114,7 +4114,7 @@ jsval
 vp
 )
 {
-uint32
+uint32_t
 optset
 flag
 ;
@@ -4484,7 +4484,7 @@ errno
 =
 0
 ;
-uint32
+uint32_t
 oldopts
 =
 JS_GetOptions
@@ -5534,7 +5534,7 @@ a_str
 str
 )
 ;
-uint32
+uint32_t
 oldopts
 =
 JS_GetOptions
@@ -5552,7 +5552,7 @@ JSOPTION_COMPILE_N_GO
 JSOPTION_NO_SCRIPT_RVAL
 )
 ;
-int64
+int64_t
 startClock
 =
 PRMJ_Now
@@ -5601,7 +5601,7 @@ NULL
 return
 false
 ;
-int64
+int64_t
 endClock
 =
 PRMJ_Now
@@ -7278,7 +7278,7 @@ argc
 1
 )
 {
-uint32
+uint32_t
 value
 =
 JS_GetGCParameter
@@ -7343,7 +7343,7 @@ return
 JS_FALSE
 ;
 }
-uint32
+uint32_t
 value
 ;
 if
@@ -7372,7 +7372,7 @@ must
 be
 convertable
 to
-uint32
+uint32_t
 "
 "
 with
@@ -7546,7 +7546,7 @@ jsval
 vp
 )
 {
-uint32
+uint32_t
 zeal
 frequency
 =
@@ -7647,7 +7647,7 @@ JS_SetGCZeal
 (
 cx
 (
-uint8
+uint8_t
 )
 zeal
 frequency
@@ -7677,7 +7677,7 @@ jsval
 vp
 )
 {
-uint32
+uint32_t
 count
 ;
 bool
@@ -8037,7 +8037,7 @@ char
 *
 name
 ;
-int32
+int32_t
 kind
 ;
 }
@@ -8102,7 +8102,7 @@ startTraceKind
 jsval
 v
 ;
-int32
+int32_t
 traceKind
 ;
 JSString
@@ -9060,7 +9060,7 @@ JSScript
 *
 *
 scriptp
-int32
+int32_t
 *
 ip
 )
@@ -9178,7 +9178,7 @@ JS_FALSE
 if
 (
 (
-uint32
+uint32_t
 )
 *
 ip
@@ -9349,7 +9349,7 @@ JSScript
 *
 script
 ;
-int32
+int32_t
 i
 ;
 jsval
@@ -9434,7 +9434,7 @@ JS_FALSE
 ;
 if
 (
-uint32
+uint32_t
 (
 i
 )
@@ -9502,7 +9502,7 @@ JSScript
 *
 script
 ;
-int32
+int32_t
 i
 ;
 if
@@ -9778,12 +9778,12 @@ JSScript
 *
 script
 ;
-int32
+int32_t
 lineArg
 =
 0
 ;
-uint32
+uint32_t
 lineno
 ;
 jsbytecode
@@ -9954,7 +9954,7 @@ JSScript
 *
 script
 ;
-int32
+int32_t
 i
 ;
 uintN
@@ -10711,7 +10711,7 @@ case
 SRC_CONT2LABEL
 :
 {
-uint32
+uint32_t
 index
 =
 js_GetSrcNoteOffset
@@ -10805,7 +10805,7 @@ case
 SRC_FUNCDEF
 :
 {
-uint32
+uint32_t
 index
 =
 js_GetSrcNoteOffset
@@ -11445,7 +11445,7 @@ flags
 )
 )
 {
-uint16
+uint16_t
 flags
 =
 fun
@@ -11628,7 +11628,7 @@ countArgsAndVars
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -12703,7 +12703,7 @@ filename
 return
 JS_FALSE
 ;
-uint32
+uint32_t
 oldopts
 =
 JS_GetOptions
@@ -14038,7 +14038,7 @@ v
 )
 )
 {
-uint32
+uint32_t
 depth
 ;
 if
@@ -14444,7 +14444,7 @@ DumpStack
 +
 iter
 ;
-uint32
+uint32_t
 index
 =
 0
@@ -15129,7 +15129,7 @@ c
 =
 0
 ;
-int32
+int32_t
 i
 =
 0
@@ -15137,7 +15137,7 @@ j
 =
 0
 ;
-uint32
+uint32_t
 u
 =
 0
@@ -16177,7 +16177,7 @@ array
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -16445,7 +16445,7 @@ jsval
 vp
 )
 {
-int32
+int32_t
 i
 ;
 if
@@ -16593,7 +16593,7 @@ jsval
 vp
 )
 {
-int32
+int32_t
 mode
 =
 1
@@ -17627,7 +17627,7 @@ return
 JS_FALSE
 ;
 }
-uint32
+uint32_t
 upCount
 =
 JSVAL_TO_INT
@@ -17701,7 +17701,7 @@ cx
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -18810,7 +18810,7 @@ t2
 )
 {
 return
-int32
+int32_t
 (
 t1
 -
@@ -21432,7 +21432,7 @@ vp
 :
 JSVAL_VOID
 ;
-uint64
+uint64_t
 *
 datap
 ;
@@ -21710,7 +21710,7 @@ JS_ReadStructuredClone
 (
 cx
 (
-uint64
+uint64_t
 *
 )
 TypedArray

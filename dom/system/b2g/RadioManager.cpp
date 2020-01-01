@@ -842,7 +842,7 @@ return
 false
 ;
 }
-JSUint32
+uint32_t
 type
 =
 JS_GetTypedArrayType

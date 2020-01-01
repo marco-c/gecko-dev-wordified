@@ -538,7 +538,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISTRUCTUREDCLONECONTAINER
 private
 :
-PRUint64
+uint64_t
 *
 mData
 ;
@@ -565,7 +565,7 @@ API
 size_t
 mSize
 ;
-PRUint32
+uint32_t
 mVersion
 ;
 }

@@ -535,7 +535,7 @@ Map
 Ptr
 p
 ;
-uint32
+uint32_t
 gen
 ;
 WatchKey

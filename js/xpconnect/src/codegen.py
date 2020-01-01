@@ -840,7 +840,7 @@ octet
 :
         
 "
-uint32
+uint32_t
 {
 name
 }
@@ -880,18 +880,18 @@ n
 "
         
 "
-uint8
+uint8_t
 {
 name
 }
 =
+uint8_t
 (
-uint8
-)
 {
 name
 }
 _u32
+)
 ;
 \
 n
@@ -903,7 +903,7 @@ short
 :
         
 "
-int32
+int32_t
 {
 name
 }
@@ -943,18 +943,18 @@ n
 "
         
 "
-int16
+int16_t
 {
 name
 }
 =
+int16_t
 (
-int16
-)
 {
 name
 }
 _i32
+)
 ;
 \
 n
@@ -967,7 +967,7 @@ short
 :
         
 "
-uint32
+uint32_t
 {
 name
 }
@@ -1007,18 +1007,18 @@ n
 "
         
 "
-uint16
+uint16_t
 {
 name
 }
 =
+uint16_t
 (
-uint16
-)
 {
 name
 }
 _u32
+)
 ;
 \
 n
@@ -1030,7 +1030,7 @@ long
 :
         
 "
-int32
+int32_t
 {
 name
 }
@@ -1074,7 +1074,7 @@ long
 :
         
 "
-uint32
+uint32_t
 {
 name
 }
@@ -3118,10 +3118,10 @@ jsvalRef
 =
 INT_TO_JSVAL
 (
+int32_t
 (
-int32
-)
 result
+)
 )
 ;
 \
@@ -3148,10 +3148,10 @@ jsvalRef
 =
 INT_TO_JSVAL
 (
+int32_t
 (
-int32
-)
 result
+)
 )
 ;
 \
@@ -3219,10 +3219,10 @@ jsvalRef
 =
 INT_TO_JSVAL
 (
+int32_t
 (
-int32
-)
 result
+)
 )
 ;
 \

@@ -3185,7 +3185,7 @@ stripPrefix
 =
 true
 ;
-int32
+int32_t
 radix
 =
 0
@@ -3812,11 +3812,11 @@ js_IntToString
 JSContext
 *
 cx
-int32
+int32_t
 si
 )
 {
-uint32
+uint32_t
 ui
 ;
 if
@@ -3860,7 +3860,7 @@ else
 {
 ui
 =
-uint32
+uint32_t
 (
 -
 si
@@ -3875,7 +3875,7 @@ INT32_MIN
 ui
 =
 =
-uint32
+uint32_t
 (
 INT32_MAX
 )
@@ -4322,7 +4322,7 @@ ok
 return
 ok
 ;
-int32
+int32_t
 base
 =
 10
@@ -4396,7 +4396,7 @@ false
 }
 base
 =
-int32
+int32_t
 (
 d2
 )
@@ -7606,7 +7606,7 @@ IndexToString
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 )
 {
@@ -8273,14 +8273,14 @@ namespace
 js
 *
 /
-uint32
+uint32_t
 js_DoubleToECMAUint32
 (
 jsdouble
 d
 )
 {
-int32
+int32_t
 i
 ;
 JSBool
@@ -8355,7 +8355,7 @@ double
 i
 =
 (
-int32
+int32_t
 )
 d
 ;
@@ -8371,7 +8371,7 @@ d
 )
 return
 (
-int32
+int32_t
 )
 i
 ;
@@ -8420,7 +8420,7 @@ two32
 ;
 return
 (
-uint32
+uint32_t
 )
 (
 d
@@ -8544,7 +8544,7 @@ false
 out
 =
 (
-int32
+int32_t
 )
 floor
 (
@@ -8653,11 +8653,11 @@ return
 true
 ;
 }
-uint16
+uint16_t
 u
 =
 (
-uint16
+uint16_t
 )
 d
 ;

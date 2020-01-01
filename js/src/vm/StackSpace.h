@@ -1832,7 +1832,7 @@ StackFrame
 Flags
 *
 /
-uint32
+uint32_t
 *
 pflags
 )

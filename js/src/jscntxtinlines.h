@@ -737,7 +737,7 @@ context
 )
 ;
 }
-uint32
+uint32_t
 length
 (
 )

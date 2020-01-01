@@ -829,11 +829,11 @@ JSD_SetContextFlags
 JSDContext
 *
 jsdc
-uint32
+uint32_t
 flags
 )
 {
-uint32
+uint32_t
 oldFlags
 =
 jsdc
@@ -895,7 +895,7 @@ jsdc
 }
 JSD_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JSD_GetContextFlags
 (
@@ -1093,7 +1093,7 @@ iterp
 }
 JSD_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JSD_GetScriptFlags
 (
@@ -1130,7 +1130,7 @@ jsdc
 JSDScript
 *
 script
-uint32
+uint32_t
 flags
 )
 {
@@ -5105,7 +5105,7 @@ jsdval
 }
 JSD_PUBLIC_API
 (
-int32
+int32_t
 )
 JSD_GetValueInt
 (

@@ -522,7 +522,7 @@ must
 be
 a
 a
-uint32
+uint32_t
 (
 unsigned
 32

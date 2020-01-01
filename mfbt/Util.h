@@ -1646,7 +1646,7 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
-uint8
+uint8_t
 elem
 1
 )
@@ -1664,7 +1664,7 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
-uint8
+uint8_t
 elem
 2
 )
@@ -1682,7 +1682,7 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
-uint8
+uint8_t
 elem
 4
 )
@@ -1700,7 +1700,7 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
-uint8
+uint8_t
 elem
 8
 )
@@ -1718,7 +1718,7 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
-uint8
+uint8_t
 elem
 16
 )
@@ -1745,7 +1745,7 @@ utility
 simply
 assumes
 that
-uint64
+uint64_t
 is
 enough
 alignment
@@ -1834,7 +1834,7 @@ bytes
 nbytes
 ]
 ;
-uint64
+uint64_t
 _
 ;
 }
@@ -1888,7 +1888,7 @@ T
 )
 ]
 ;
-uint64
+uint64_t
 _
 ;
 }

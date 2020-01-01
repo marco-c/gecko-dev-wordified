@@ -3084,7 +3084,7 @@ ParseNode
 {
 private
 :
-uint32
+uint32_t
 pn_type
 :
 16
@@ -3693,7 +3693,7 @@ for
 bits
 *
 /
-int32
+int32_t
 pn_offset
 ;
 /
@@ -3792,7 +3792,7 @@ in
 list
 *
 /
-uint32
+uint32_t
 count
 ;
 /
@@ -3804,7 +3804,7 @@ in
 list
 *
 /
-uint32
+uint32_t
 xflags
 :
 12
@@ -4093,7 +4093,7 @@ current
 frame
 *
 /
-uint32
+uint32_t
 dflags
 :
 12
@@ -9227,7 +9227,7 @@ this
 function
 *
 /
-uint32
+uint32_t
 queued
 :
 1
@@ -9248,7 +9248,7 @@ level
 :
 JSFB_LEVEL_BITS
 ;
-uint32
+uint32_t
 tcflags
 ;
 JSFunction
@@ -9400,7 +9400,7 @@ lengthMask
 bool
 init
 (
-uint32
+uint32_t
 count
 )
 {

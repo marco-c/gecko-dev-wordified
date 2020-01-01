@@ -26,7 +26,7 @@ x
 ;
 /
 *
-int32
+int32_t
 getelem
 on
 object

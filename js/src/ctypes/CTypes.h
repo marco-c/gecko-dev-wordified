@@ -2199,7 +2199,7 @@ Key
 Lookup
 ;
 static
-uint32
+uint32_t
 hash
 (
 const
@@ -2230,7 +2230,7 @@ length
 (
 )
 ;
-uint32
+uint32_t
 hash
 =
 0

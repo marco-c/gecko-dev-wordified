@@ -686,7 +686,7 @@ typedefs
 *
 /
 typedef
-uint32
+uint32_t
 JSDHashNumber
 ;
 typedef
@@ -1881,7 +1881,7 @@ specific
 data
 *
 /
-int16
+int16_t
 hashShift
 ;
 /
@@ -1891,7 +1891,7 @@ hash
 shift
 *
 /
-uint8
+uint8_t
 maxAlphaFrac
 ;
 /
@@ -1905,7 +1905,7 @@ max
 alpha
 *
 /
-uint8
+uint8_t
 minAlphaFrac
 ;
 /
@@ -1919,7 +1919,7 @@ min
 alpha
 *
 /
-uint32
+uint32_t
 entrySize
 ;
 /
@@ -1932,7 +1932,7 @@ an
 entry
 *
 /
-uint32
+uint32_t
 entryCount
 ;
 /
@@ -1944,7 +1944,7 @@ in
 table
 *
 /
-uint32
+uint32_t
 removedCount
 ;
 /
@@ -1956,7 +1956,7 @@ in
 table
 *
 /
-uint32
+uint32_t
 generation
 ;
 /
@@ -1983,7 +1983,7 @@ JS_DHASHMETER
 struct
 JSDHashStats
 {
-uint32
+uint32_t
 searches
 ;
 /
@@ -1995,7 +1995,7 @@ table
 searches
 *
 /
-uint32
+uint32_t
 steps
 ;
 /
@@ -2006,7 +2006,7 @@ links
 traversed
 *
 /
-uint32
+uint32_t
 hits
 ;
 /
@@ -2017,7 +2017,7 @@ found
 key
 *
 /
-uint32
+uint32_t
 misses
 ;
 /
@@ -2031,7 +2031,7 @@ find
 key
 *
 /
-uint32
+uint32_t
 lookups
 ;
 /
@@ -2041,7 +2041,7 @@ of
 JS_DHASH_LOOKUPs
 *
 /
-uint32
+uint32_t
 addMisses
 ;
 /
@@ -2054,7 +2054,7 @@ do
 work
 *
 /
-uint32
+uint32_t
 addOverRemoved
 ;
 /
@@ -2067,7 +2067,7 @@ removed
 entry
 *
 /
-uint32
+uint32_t
 addHits
 ;
 /
@@ -2080,7 +2080,7 @@ existing
 entry
 *
 /
-uint32
+uint32_t
 addFailures
 ;
 /
@@ -2095,7 +2095,7 @@ add
 growth
 *
 /
-uint32
+uint32_t
 removeHits
 ;
 /
@@ -2108,7 +2108,7 @@ do
 work
 *
 /
-uint32
+uint32_t
 removeMisses
 ;
 /
@@ -2119,7 +2119,7 @@ that
 miss
 *
 /
-uint32
+uint32_t
 removeFrees
 ;
 /
@@ -2131,7 +2131,7 @@ entry
 directly
 *
 /
-uint32
+uint32_t
 removeEnums
 ;
 /
@@ -2142,7 +2142,7 @@ by
 Enumerate
 *
 /
-uint32
+uint32_t
 grows
 ;
 /
@@ -2151,7 +2151,7 @@ table
 expansions
 *
 /
-uint32
+uint32_t
 shrinks
 ;
 /
@@ -2160,7 +2160,7 @@ table
 contractions
 *
 /
-uint32
+uint32_t
 compresses
 ;
 /
@@ -2169,7 +2169,7 @@ table
 compressions
 *
 /
-uint32
+uint32_t
 enumShrinks
 ;
 /
@@ -2305,7 +2305,7 @@ JSDHashAllocTable
 JSDHashTable
 *
 table
-uint32
+uint32_t
 nbytes
 )
 ;
@@ -3054,7 +3054,7 @@ JS_DHashAllocTable
 JSDHashTable
 *
 table
-uint32
+uint32_t
 nbytes
 )
 ;
@@ -3355,9 +3355,9 @@ ops
 void
 *
 data
-uint32
+uint32_t
 entrySize
-uint32
+uint32_t
 capacity
 )
 ;
@@ -3487,9 +3487,9 @@ ops
 void
 *
 data
-uint32
+uint32_t
 entrySize
-uint32
+uint32_t
 capacity
 )
 ;
@@ -3827,7 +3827,7 @@ maxAlpha
 \
 (
 (
-uint32
+uint32_t
 )
 (
 (
@@ -3868,7 +3868,7 @@ maxAlpha
 )
 *
 (
-uint8
+uint8_t
 )
 (
 0x100
@@ -4880,7 +4880,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -4890,7 +4890,7 @@ arg
 extern
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_DHashTableEnumerate
 (

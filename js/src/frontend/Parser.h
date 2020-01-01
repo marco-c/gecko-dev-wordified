@@ -656,7 +656,7 @@ varObj
 ParseNodeAllocator
 allocator
 ;
-uint32
+uint32_t
 functionCount
 ;
 /

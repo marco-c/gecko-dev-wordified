@@ -1277,7 +1277,7 @@ contain
 an
 index
 (
-uint32
+uint32_t
 )
 *
 *
@@ -3370,7 +3370,7 @@ string
 bool
 isIndex
 (
-uint32
+uint32_t
 *
 indexp
 )
@@ -4592,7 +4592,7 @@ inline
 bool
 hasUint
 (
-uint32
+uint32_t
 u
 )
 ;
@@ -4601,7 +4601,7 @@ JSAtom
 *
 getUint
 (
-uint32
+uint32_t
 u
 )
 ;
@@ -4610,7 +4610,7 @@ inline
 bool
 hasInt
 (
-int32
+int32_t
 i
 )
 ;
@@ -4715,7 +4715,7 @@ length
 private
 :
 typedef
-uint8
+uint8_t
 SmallChar
 ;
 static
@@ -4756,8 +4756,8 @@ JSAtom
 *
 getLength2
 (
-uint32
-i
+uint32_t
+u
 )
 ;
 }
@@ -4842,7 +4842,7 @@ follows
 *
 *
 -
-uint32
+uint32_t
 indexes
 *
 -
@@ -4853,7 +4853,7 @@ don
 '
 t
 encode
-uint32
+uint32_t
 indexes
 and
 *
@@ -5203,7 +5203,7 @@ asPropertyName
 #
 ifdef
 DEBUG
-uint32
+uint32_t
 dummy
 ;
 JS_ASSERT

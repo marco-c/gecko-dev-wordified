@@ -647,11 +647,11 @@ typedefs
 *
 /
 typedef
-uint8
+uint8_t
 jsbytecode
 ;
 typedef
-uint8
+uint8_t
 jssrcnote
 ;
 typedef

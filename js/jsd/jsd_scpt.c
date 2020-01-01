@@ -2118,7 +2118,7 @@ script
 profileData
 ;
 }
-uint32
+uint32_t
 jsd_GetScriptFlags
 (
 JSDContext
@@ -2145,7 +2145,7 @@ jsdc
 JSDScript
 *
 script
-uint32
+uint32_t
 flags
 )
 {

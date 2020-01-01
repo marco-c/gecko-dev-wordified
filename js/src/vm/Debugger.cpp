@@ -6959,7 +6959,7 @@ tests
 *
 /
 {
-uint32
+uint32_t
 stepperCount
 =
 0
@@ -14234,7 +14234,7 @@ objects
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 script
@@ -18218,12 +18218,9 @@ argc
 vp
 )
 ;
-int32
+int32_t
 i
 =
-(
-int32
-)
 args
 .
 callee
@@ -18674,10 +18671,10 @@ numActualArgs
 0x7fffffff
 )
 ;
-int32
+int32_t
 fargc
 =
-int32
+int32_t
 (
 fp
 -
@@ -18726,7 +18723,7 @@ false
 }
 for
 (
-int32
+int32_t
 i
 =
 0

@@ -512,7 +512,7 @@ LoggingChecked
 false
 ;
 static
-uint32
+uint32_t
 LoggingBits
 =
 0
@@ -820,7 +820,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_Abort
 )
@@ -843,7 +843,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_Scripts
 )
@@ -866,7 +866,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_Prof
 )
@@ -892,7 +892,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_JSOps
 )
@@ -917,7 +917,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_Insns
 )
@@ -926,7 +926,7 @@ JSpew_Insns
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_JSOps
 )
@@ -950,7 +950,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_VMFrame
 )
@@ -973,7 +973,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_PICs
 )
@@ -996,7 +996,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_SlowCalls
 )
@@ -1019,7 +1019,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_Analysis
 )
@@ -1042,7 +1042,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_Regalloc
 )
@@ -1065,7 +1065,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_Recompile
 )
@@ -1088,7 +1088,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 JSpew_Inlining
 )
@@ -1185,7 +1185,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 channel
 )
@@ -1225,7 +1225,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 channel
 )

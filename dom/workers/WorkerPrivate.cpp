@@ -1167,7 +1167,7 @@ address
 21
 ]
 ;
-JSUint32
+uint32_t
 addressSize
 =
 JS_snprintf
@@ -1190,7 +1190,7 @@ if
 addressSize
 !
 =
-JSUint32
+uint32_t
 (
 -
 1
@@ -1489,9 +1489,9 @@ aCx
 JSStructuredCloneReader
 *
 aReader
-uint32
+uint32_t
 aTag
-uint32
+uint32_t
 aData
 void
 *
@@ -2037,7 +2037,7 @@ Error
 JSContext
 *
 aCx
-uint32
+uint32_t
 /
 *
 aErrorId
@@ -2086,9 +2086,9 @@ aCx
 JSStructuredCloneReader
 *
 aReader
-uint32
+uint32_t
 aTag
-uint32
+uint32_t
 aData
 void
 *
@@ -2881,7 +2881,7 @@ Error
 JSContext
 *
 aCx
-uint32
+uint32_t
 aErrorId
 )
 {
@@ -2930,9 +2930,9 @@ aCx
 JSStructuredCloneReader
 *
 aReader
-uint32
+uint32_t
 aTag
-uint32
+uint32_t
 aData
 void
 *
@@ -2991,7 +2991,7 @@ Error
 JSContext
 *
 aCx
-uint32
+uint32_t
 aErrorId
 )
 {
@@ -3040,9 +3040,9 @@ aCx
 JSStructuredCloneReader
 *
 aReader
-uint32
+uint32_t
 aTag
-uint32
+uint32_t
 aData
 void
 *
@@ -3189,7 +3189,7 @@ Error
 JSContext
 *
 aCx
-uint32
+uint32_t
 aErrorId
 )
 {

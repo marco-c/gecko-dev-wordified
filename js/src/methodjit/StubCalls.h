@@ -503,7 +503,7 @@ NewInitArray
 VMFrame
 &
 f
-uint32
+uint32_t
 count
 )
 ;
@@ -526,7 +526,7 @@ Trap
 VMFrame
 &
 f
-uint32
+uint32_t
 trapTypes
 )
 ;
@@ -570,7 +570,7 @@ InitElem
 VMFrame
 &
 f
-uint32
+uint32_t
 last
 )
 ;
@@ -615,7 +615,7 @@ FixupArity
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 )
 ;
@@ -627,7 +627,7 @@ CompileFunction
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 )
 ;
@@ -638,7 +638,7 @@ SlowNew
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 )
 ;
@@ -649,7 +649,7 @@ SlowCall
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 )
 ;
@@ -661,7 +661,7 @@ UncachedNew
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 )
 ;
@@ -673,7 +673,7 @@ UncachedCall
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 )
 ;
@@ -685,7 +685,7 @@ UncachedLoweredCall
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 )
 ;
@@ -696,7 +696,7 @@ Eval
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 )
 ;
@@ -911,7 +911,7 @@ UncachedCallHelper
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 bool
 lowered
@@ -926,7 +926,7 @@ UncachedNewHelper
 VMFrame
 &
 f
-uint32
+uint32_t
 argc
 UncachedCallResult
 *
@@ -1175,7 +1175,7 @@ GetUpvar
 VMFrame
 &
 f
-uint32
+uint32_t
 index
 )
 ;
@@ -1656,7 +1656,7 @@ Iter
 VMFrame
 &
 f
-uint32
+uint32_t
 flags
 )
 ;
@@ -1667,7 +1667,7 @@ IterNext
 VMFrame
 &
 f
-int32
+int32_t
 offset
 )
 ;
@@ -1757,7 +1757,7 @@ TypeBarrierHelper
 VMFrame
 &
 f
-uint32
+uint32_t
 which
 )
 ;
@@ -1789,7 +1789,7 @@ StubTypeHelper
 VMFrame
 &
 f
-int32
+int32_t
 which
 )
 ;
@@ -1852,7 +1852,7 @@ template
 bool
 strict
 >
-int32
+int32_t
 JS_FASTCALL
 ConvertToTypedInt
 (
@@ -1920,7 +1920,7 @@ NewDenseUnallocatedArray
 VMFrame
 &
 f
-uint32
+uint32_t
 length
 )
 ;

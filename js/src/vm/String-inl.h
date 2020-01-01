@@ -1023,7 +1023,7 @@ cx
 #
 ifdef
 DEBUG
-uint32
+uint32_t
 dummy
 ;
 JS_ASSERT
@@ -1736,7 +1736,7 @@ StaticStrings
 :
 hasUint
 (
-uint32
+uint32_t
 u
 )
 {
@@ -1757,7 +1757,7 @@ StaticStrings
 :
 getUint
 (
-uint32
+uint32_t
 u
 )
 {
@@ -1786,12 +1786,12 @@ StaticStrings
 :
 hasInt
 (
-int32
+int32_t
 i
 )
 {
 return
-uint32
+uint32_t
 (
 i
 )
@@ -1825,7 +1825,7 @@ i
 return
 getUint
 (
-uint32
+uint32_t
 (
 i
 )
@@ -1990,7 +1990,7 @@ StaticStrings
 :
 getLength2
 (
-uint32
+uint32_t
 i
 )
 {

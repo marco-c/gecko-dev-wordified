@@ -504,7 +504,7 @@ d
 ;
 struct
 {
-uint32
+uint32_t
 one
 two
 ;
@@ -518,7 +518,7 @@ u
 x
 }
 ;
-uint32
+uint32_t
 hash32
 =
 u
@@ -533,12 +533,10 @@ s
 .
 two
 ;
-uint16
+uint16_t
 hash16
 =
-(
-uint16
-)
+uint16_t
 (
 hash32
 ^

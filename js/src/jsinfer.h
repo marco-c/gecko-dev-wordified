@@ -1877,7 +1877,7 @@ TYPE_FLAG_DEFINITE_SHIFT
 }
 ;
 typedef
-uint32
+uint32_t
 TypeFlags
 ;
 /
@@ -2039,7 +2039,7 @@ not
 fit
 in
 an
-int32
+int32_t
 .
 *
 /
@@ -2244,7 +2244,7 @@ OBJECT_FLAG_SETS_MARKED_UNKNOWN
 }
 ;
 typedef
-uint32
+uint32_t
 TypeObjectFlags
 ;
 /
@@ -3538,7 +3538,7 @@ id
 ;
 private
 :
-uint32
+uint32_t
 baseObjectCount
 (
 )
@@ -3559,7 +3559,7 @@ inline
 void
 setBaseObjectCount
 (
-uint32
+uint32_t
 count
 )
 ;
@@ -3627,7 +3627,7 @@ reanalyzed
 struct
 TypeResult
 {
-uint32
+uint32_t
 offset
 ;
 Type
@@ -3639,7 +3639,7 @@ next
 ;
 TypeResult
 (
-uint32
+uint32_t
 offset
 Type
 type
@@ -4496,7 +4496,7 @@ o
 )
 ;
 static
-uint32
+uint32_t
 keyBits
 (
 jsid
@@ -4504,12 +4504,12 @@ id
 )
 {
 return
+uint32_t
 (
-uint32
-)
 JSID_BITS
 (
 id
+)
 )
 ;
 }
@@ -4795,14 +4795,14 @@ DONE
 }
 kind
 ;
-uint32
+uint32_t
 offset
 ;
 Initializer
 (
 Kind
 kind
-uint32
+uint32_t
 offset
 )
 :
@@ -5378,12 +5378,12 @@ be
 .
 *
 /
-uint32
+uint32_t
 contribution
 ;
 static
 const
-uint32
+uint32_t
 CONTRIBUTION_LIMIT
 =
 2000
@@ -6348,7 +6348,7 @@ type
 private
 :
 inline
-uint32
+uint32_t
 basePropertyCount
 (
 )
@@ -6358,7 +6358,7 @@ inline
 void
 setBasePropertyCount
 (
-uint32
+uint32_t
 count
 )
 ;
@@ -7325,7 +7325,7 @@ stack
 .
 *
 /
-uint32
+uint32_t
 activeFrames
 ;
 TypeScriptNesting
@@ -8917,7 +8917,7 @@ cx
 JSScript
 *
 script
-uint32
+uint32_t
 offset
 bool
 returnOnly

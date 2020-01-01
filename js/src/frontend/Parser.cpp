@@ -8675,7 +8675,7 @@ destructured
 .
 *
 /
-uint16
+uint16_t
 slot
 ;
 if
@@ -9054,7 +9054,7 @@ report_dup_and_destructuring
 }
 #
 endif
-uint16
+uint16_t
 slot
 ;
 if
@@ -13198,7 +13198,7 @@ tc
 -
 >
 staticLevel
-uint16
+uint16_t
 (
 n
 )
@@ -32268,10 +32268,10 @@ TreeContext
 *
 tc
 ;
-uint32
+uint32_t
 startYieldCount
 ;
-uint32
+uint32_t
 startArgumentsCount
 ;
 public

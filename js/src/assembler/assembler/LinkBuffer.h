@@ -676,7 +676,7 @@ endif
 }
 LinkBuffer
 (
-uint8
+uint8_t
 *
 ncode
 size_t

@@ -626,7 +626,7 @@ readability
 .
 *
 /
-uint32
+uint32_t
 generation
 ;
 bool
@@ -656,7 +656,7 @@ type
 void
 reset
 (
-uint32
+uint32_t
 gen
 )
 {
@@ -708,7 +708,7 @@ const
 FrameState
 &
 frame
-uint32
+uint32_t
 nentries
 )
 ;
@@ -851,7 +851,7 @@ FrameState
 *
 frame
 ;
-uint32
+uint32_t
 nentries
 ;
 Registers
@@ -879,7 +879,7 @@ FrameEntry
 *
 bottom
 ;
-uint32
+uint32_t
 generation
 ;
 }

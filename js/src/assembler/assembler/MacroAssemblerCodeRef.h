@@ -1049,7 +1049,7 @@ m_value
 return
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1058,7 +1058,7 @@ m_value
 -
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (

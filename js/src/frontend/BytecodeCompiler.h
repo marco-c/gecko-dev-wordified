@@ -515,7 +515,7 @@ principals
 JSPrincipals
 *
 originPrincipals
-uint32
+uint32_t
 tcflags
 const
 jschar

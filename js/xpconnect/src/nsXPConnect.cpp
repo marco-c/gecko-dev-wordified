@@ -3670,7 +3670,7 @@ runtime
 "
 )
 ;
-uint32
+uint32_t
 gcNumber
 =
 JS_GetGCParameter
@@ -10415,7 +10415,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *

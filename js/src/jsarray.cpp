@@ -1527,7 +1527,7 @@ toInt32
 jsuint
 cast
 does
-ToUint32
+ToUint32_t
 *
 /
 return
@@ -1794,7 +1794,7 @@ chars
 (
 )
 ;
-uint32
+uint32_t
 length
 =
 str
@@ -1845,7 +1845,7 @@ s
 return
 false
 ;
-uint32
+uint32_t
 c
 =
 0
@@ -1853,7 +1853,7 @@ previous
 =
 0
 ;
-uint32
+uint32_t
 index
 =
 JS7_UNDEC
@@ -2602,7 +2602,7 @@ vp
 =
 getDenseArrayElement
 (
-uint32
+uint32_t
 (
 i
 )
@@ -2914,7 +2914,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSBool
 *
@@ -3031,7 +3031,7 @@ obj
 >
 getDenseArrayElement
 (
-uint32
+uint32_t
 (
 index
 )
@@ -3075,7 +3075,7 @@ asArguments
 >
 getElement
 (
-uint32
+uint32_t
 (
 index
 )
@@ -3117,7 +3117,7 @@ cx
 JSObject
 *
 aobj
-uint32
+uint32_t
 length
 Value
 *
@@ -3126,7 +3126,7 @@ vp
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -4282,7 +4282,7 @@ JSPROP_ENUMERATE
 )
 ;
 }
-uint32
+uint32_t
 newlen
 ;
 if
@@ -4338,7 +4338,7 @@ return
 false
 ;
 }
-uint32
+uint32_t
 oldlen
 =
 obj
@@ -4819,7 +4819,7 @@ IsDenseArrayIndex
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 )
 {
@@ -4913,7 +4913,7 @@ isDenseArray
 )
 )
 ;
-uint32
+uint32_t
 i
 ;
 return
@@ -5120,7 +5120,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSObject
 *
@@ -5290,7 +5290,7 @@ isDenseArray
 )
 )
 ;
-uint32
+uint32_t
 i
 ;
 if
@@ -5373,7 +5373,7 @@ Value
 vp
 )
 {
-uint32
+uint32_t
 i
 ;
 if
@@ -5647,7 +5647,7 @@ obj
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -5890,7 +5890,7 @@ JSBool
 strict
 )
 {
-uint32
+uint32_t
 i
 ;
 if
@@ -6130,7 +6130,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -6584,7 +6584,7 @@ attrs
 ;
 do
 {
-uint32
+uint32_t
 i
 =
 0
@@ -6811,7 +6811,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 const
 Value
@@ -7169,7 +7169,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -7280,7 +7280,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -7347,7 +7347,7 @@ JSBool
 strict
 )
 {
-uint32
+uint32_t
 i
 ;
 if
@@ -7527,7 +7527,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -7674,7 +7674,7 @@ isDenseArray
 )
 )
 ;
-uint32
+uint32_t
 initLength
 =
 obj
@@ -8242,14 +8242,14 @@ OBJECT_FLAG_NON_PACKED_ARRAY
 OBJECT_FLAG_NON_DENSE_ARRAY
 )
 ;
-uint32
+uint32_t
 arrayCapacity
 =
 getDenseArrayCapacity
 (
 )
 ;
-uint32
+uint32_t
 arrayInitialized
 =
 getDenseArrayInitializedLength
@@ -8578,14 +8578,14 @@ objects
 .
 *
 /
-uint32
+uint32_t
 next
 =
 0
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -9389,7 +9389,7 @@ JSObject
 *
 obj
 ;
-uint32
+uint32_t
 genBefore
 ;
 BusyArraysSet
@@ -10514,9 +10514,9 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 start
-uint32
+uint32_t
 count
 const
 Value
@@ -11603,7 +11603,7 @@ len
 0
 )
 ;
-uint32
+uint32_t
 lo
 =
 0
@@ -11949,7 +11949,7 @@ toString
 (
 )
 ;
-int32
+int32_t
 result
 ;
 if
@@ -13815,7 +13815,7 @@ length
 1
 )
 ;
-uint32
+uint32_t
 length
 =
 obj
@@ -13968,7 +13968,7 @@ isMagic
 )
 )
 ;
-uint32
+uint32_t
 length
 =
 obj
@@ -14635,7 +14635,7 @@ themselves
 .
 *
 /
-uint32
+uint32_t
 initlen
 =
 obj
@@ -15238,7 +15238,7 @@ length
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -15665,9 +15665,9 @@ CanOptimizeForDenseStorage
 JSObject
 *
 arr
-uint32
+uint32_t
 startingIndex
-uint32
+uint32_t
 count
 JSContext
 *
@@ -15947,12 +15947,12 @@ cx
 JSObject
 *
 source
-uint32
+uint32_t
 sourceIndex
 JSObject
 *
 target
-uint32
+uint32_t
 targetIndex
 )
 {
@@ -16071,7 +16071,7 @@ Steps
 .
 *
 /
-uint32
+uint32_t
 len
 ;
 if
@@ -16131,7 +16131,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 actualStart
 ;
 if
@@ -16166,7 +16166,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 actualDeleteCount
 ;
 if
@@ -16355,7 +16355,7 @@ arr
 ;
 for
 (
-uint32
+uint32_t
 k
 =
 0
@@ -16430,7 +16430,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 itemCount
 =
 (
@@ -16468,21 +16468,21 @@ shrunk
 .
 *
 /
-uint32
+uint32_t
 sourceIndex
 =
 actualStart
 +
 actualDeleteCount
 ;
-uint32
+uint32_t
 targetIndex
 =
 actualStart
 +
 itemCount
 ;
-uint32
+uint32_t
 finalLength
 =
 len
@@ -16688,7 +16688,7 @@ b
 /
 for
 (
-uint32
+uint32_t
 from
 =
 sourceIndex
@@ -16768,7 +16768,7 @@ d
 /
 for
 (
-uint32
+uint32_t
 k
 =
 len
@@ -17097,7 +17097,7 @@ Steps
 /
 for
 (
-uint32
+uint32_t
 k
 =
 actualStart
@@ -17291,7 +17291,7 @@ isDenseArray
 )
 )
 ;
-uint32
+uint32_t
 initlen1
 =
 obj1
@@ -17314,7 +17314,7 @@ getArrayLength
 )
 )
 ;
-uint32
+uint32_t
 initlen2
 =
 obj2
@@ -17349,7 +17349,7 @@ limit
 .
 *
 /
-uint32
+uint32_t
 len
 =
 initlen1
@@ -17786,7 +17786,7 @@ false
 ;
 for
 (
-uint32
+uint32_t
 slot
 =
 0
@@ -19033,7 +19033,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 len
 ;
 if
@@ -19142,7 +19142,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 k
 =
 0
@@ -19589,7 +19589,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 len
 ;
 if
@@ -19749,7 +19749,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 k
 =
 0
@@ -20049,7 +20049,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 len
 ;
 if
@@ -20209,7 +20209,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 k
 =
 0
@@ -20221,7 +20221,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 to
 =
 0
@@ -20489,15 +20489,15 @@ static
 void
 initialize
 (
-uint32
+uint32_t
 len
-uint32
+uint32_t
 *
 start
-uint32
+uint32_t
 *
 end
-int32
+int32_t
 *
 step
 )
@@ -20529,15 +20529,15 @@ static
 void
 initialize
 (
-uint32
+uint32_t
 len
-uint32
+uint32_t
 *
 start
-uint32
+uint32_t
 *
 end
-int32
+int32_t
 *
 step
 )
@@ -20589,11 +20589,7 @@ including
 *
 end
 =
-(
-uint32
-)
--
-1
+UINT32_MAX
 ;
 }
 }
@@ -20655,7 +20651,7 @@ Step
 .
 *
 /
-uint32
+uint32_t
 len
 ;
 if
@@ -20772,11 +20768,11 @@ Step
 .
 *
 /
-uint32
+uint32_t
 k
 end
 ;
-int32
+int32_t
 step
 ;
 Behavior
@@ -21676,7 +21672,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 length
 ;
 if
@@ -21691,7 +21687,7 @@ isInt32
 )
 )
 {
-int32
+int32_t
 i
 =
 args
@@ -21724,7 +21720,7 @@ false
 }
 length
 =
-uint32
+uint32_t
 (
 i
 )
@@ -22141,7 +22137,7 @@ waste
 /
 DebugOnly
 <
-uint32
+uint32_t
 >
 cap
 =
@@ -22197,7 +22193,7 @@ NewArray
 JSContext
 *
 cx
-jsuint
+uint32_t
 length
 JSObject
 *
@@ -22560,7 +22556,7 @@ NewDenseAllocatedArray
 JSContext
 *
 cx
-uint32
+uint32_t
 length
 JSObject
 *
@@ -22587,7 +22583,7 @@ NewDenseAllocatedEmptyArray
 JSContext
 *
 cx
-uint
+uint32_t
 length
 JSObject
 *
@@ -22614,7 +22610,7 @@ NewDenseUnallocatedArray
 JSContext
 *
 cx
-uint32
+uint32_t
 length
 JSObject
 *
@@ -22650,7 +22646,7 @@ NewDenseUnallocatedArray
 VMFrame
 &
 f
-uint32
+uint32_t
 length
 )
 {
@@ -22714,7 +22710,7 @@ NewDenseCopiedArray
 JSContext
 *
 cx
-uint32
+uint32_t
 length
 const
 Value

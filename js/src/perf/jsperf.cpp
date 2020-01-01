@@ -565,7 +565,7 @@ jsval
 vp
 )
 {
-uint32
+uint32_t
 mask
 ;
 if
@@ -1032,7 +1032,7 @@ JS_TRUE
 ;
 }
 const
-uint8
+uint8_t
 PM_FATTRS
 =
 JSPROP_READONLY
@@ -1088,7 +1088,7 @@ JS_FS_END
 }
 ;
 const
-uint8
+uint8_t
 PM_PATTRS
 =
 JSPROP_ENUMERATE
@@ -1202,7 +1202,7 @@ const
 members
 .
 const
-uint8
+uint8_t
 PM_CATTRS
 =
 JSPROP_ENUMERATE

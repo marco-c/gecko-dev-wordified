@@ -1179,7 +1179,7 @@ return
 false
 ;
 }
-JSUint32
+uint32_t
 bufferLength
 =
 JS_GetArrayBufferByteLength
@@ -1187,7 +1187,7 @@ JS_GetArrayBufferByteLength
 jsArrayBuffer
 )
 ;
-uint8
+uint8_t
 *
 arrayBuffer
 =

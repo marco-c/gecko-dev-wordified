@@ -2229,7 +2229,7 @@ write
 (
 '
 const
-uint16
+uint16_t
 '
 +
 name

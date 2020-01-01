@@ -2112,9 +2112,9 @@ BytecodeEmitter
 bce
 JSOp
 op
-uint16
+uint16_t
 op1
-uint16
+uint16_t
 op2
 )
 {
@@ -5673,7 +5673,7 @@ done
 JSOp
 op
 ;
-uint32
+uint32_t
 type
 ;
 jssrcnote
@@ -9173,7 +9173,7 @@ GenerateBlockId
 TreeContext
 *
 tc
-uint32
+uint32_t
 &
 blockid
 )
@@ -10053,7 +10053,7 @@ bytecode
 followed
 by
 a
-uint16
+uint16_t
 immediate
 operand
 stored
@@ -13360,7 +13360,7 @@ pn_cookie
 level
 (
 )
-uint16
+uint16_t
 (
 dn
 -
@@ -15615,7 +15615,7 @@ return
 JS_TRUE
 ;
 }
-uint16
+uint16_t
 level
 =
 cookie
@@ -16967,7 +16967,7 @@ addGlobalUse
 JSAtom
 *
 atom
-uint32
+uint32_t
 slot
 UpvarCookie
 *
@@ -17037,7 +17037,7 @@ encoding
 indexes
 >
 =
-uint16
+uint16_t
 *
 /
 if
@@ -21479,7 +21479,7 @@ bce
 int32_t
 ival
 ;
-uint32
+uint32_t
 u
 ;
 ptrdiff_t
@@ -21541,7 +21541,7 @@ if
 jsint
 )
 (
-int8
+int8_t
 )
 ival
 =
@@ -21558,7 +21558,7 @@ JSOP_INT8
 jsbytecode
 )
 (
-int8
+int8_t
 )
 ival
 )
@@ -21569,7 +21569,7 @@ ival
 u
 =
 (
-uint32
+uint32_t
 )
 ival
 ;
@@ -22235,7 +22235,7 @@ pn3
 *
 pn4
 ;
-uint32
+uint32_t
 caseCount
 tableLength
 ;
@@ -22829,7 +22829,7 @@ intmap
 =
 NULL
 ;
-int32
+int32_t
 intmap_bitlen
 =
 0
@@ -23519,7 +23519,7 @@ JSOP_TABLESWITCH
 tableLength
 =
 (
-uint32
+uint32_t
 )
 (
 high
@@ -24518,7 +24518,7 @@ low
 JS_ASSERT
 (
 (
-uint32
+uint32_t
 )
 i
 <
@@ -31372,7 +31372,7 @@ cx
 BytecodeEmitter
 *
 bce
-uint32
+uint32_t
 count
 )
 {
@@ -35619,7 +35619,7 @@ JSOP_ADD
 return
 false
 ;
-uint32
+uint32_t
 i
 ;
 for
@@ -37045,7 +37045,7 @@ cx
 bce
 JSOP_ITER
 (
-uint8
+uint8_t
 )
 pn
 -
@@ -43058,7 +43058,7 @@ off
 return
 false
 ;
-uint32
+uint32_t
 argc
 =
 pn
@@ -45858,7 +45858,7 @@ EMIT_UINT16_IN_PLACE
 (
 offset
 JSOP_NEWOBJECT
-uint16
+uint16_t
 (
 index
 )
@@ -46056,7 +46056,7 @@ bce
 arrayCompDepth
 =
 (
-uint32
+uint32_t
 )
 (
 bce
@@ -51063,7 +51063,7 @@ define
 NBINS
 10
 static
-uint32
+uint32_t
 hist
 [
 NBINS
@@ -51727,7 +51727,7 @@ JS_ASSERT
 uintN
 )
 (
-uint16
+uint16_t
 )
 stackDepth
 =
@@ -51749,7 +51749,7 @@ JS_ASSERT
 size_t
 )
 (
-uint32
+uint32_t
 )
 start
 =
@@ -51763,7 +51763,7 @@ JS_ASSERT
 size_t
 )
 (
-uint32
+uint32_t
 )
 end
 =
@@ -51821,7 +51821,7 @@ note
 stackDepth
 =
 (
-uint16
+uint16_t
 )
 stackDepth
 ;
@@ -51833,7 +51833,7 @@ note
 start
 =
 (
-uint32
+uint32_t
 )
 start
 ;
@@ -51845,7 +51845,7 @@ note
 length
 =
 (
-uint32
+uint32_t
 )
 (
 end
@@ -53096,7 +53096,7 @@ ptrdiff_t
 (
 (
 (
-uint32
+uint32_t
 )
 (
 sn

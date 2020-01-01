@@ -719,7 +719,7 @@ JSObject
 :
 privateRef
 (
-uint32
+uint32_t
 nfixed
 )
 const
@@ -1177,7 +1177,7 @@ setElement
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 js
 :
@@ -1359,7 +1359,7 @@ setElementAttributes
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 uintN
 *
@@ -1751,7 +1751,7 @@ deleteElement
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 js
 :
@@ -2420,7 +2420,7 @@ triggered
 .
 *
 /
-uint32
+uint32_t
 slot
 =
 shape
@@ -3322,7 +3322,7 @@ HeapValue
 ;
 }
 inline
-uint32
+uint32_t
 JSObject
 :
 :
@@ -3357,7 +3357,7 @@ setArrayLength
 JSContext
 *
 cx
-uint32
+uint32_t
 length
 )
 {
@@ -3485,7 +3485,7 @@ JSObject
 :
 setDenseArrayLength
 (
-uint32
+uint32_t
 length
 )
 {
@@ -3534,7 +3534,7 @@ length
 ;
 }
 inline
-uint32
+uint32_t
 JSObject
 :
 :
@@ -3565,7 +3565,7 @@ JSObject
 :
 setDenseArrayInitializedLength
 (
-uint32
+uint32_t
 length
 )
 {
@@ -3608,7 +3608,7 @@ length
 ;
 }
 inline
-uint32
+uint32_t
 JSObject
 :
 :
@@ -3642,7 +3642,7 @@ ensureElements
 JSContext
 *
 cx
-uint32
+uint32_t
 capacity
 )
 {
@@ -6809,7 +6809,7 @@ types
 TypeObject
 *
 type
-uint32
+uint32_t
 length
 )
 {
@@ -6930,7 +6930,7 @@ ObjectElements
 VALUES_PER_HEADER
 )
 ;
-uint32
+uint32_t
 capacity
 =
 js
@@ -7214,7 +7214,7 @@ NULL
 ;
 }
 inline
-uint32
+uint32_t
 JSObject
 :
 :
@@ -7262,7 +7262,7 @@ JSObject
 :
 containsSlot
 (
-uint32
+uint32_t
 slot
 )
 const
@@ -7772,7 +7772,7 @@ inDictionary
 ;
 }
 inline
-uint32
+uint32_t
 JSObject
 :
 :
@@ -8206,7 +8206,7 @@ defineElement
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 const
 js
@@ -8347,7 +8347,7 @@ lookupElement
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 JSObject
 *
@@ -8440,7 +8440,7 @@ cx
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 js
 :
@@ -8517,7 +8517,7 @@ getElement
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 js
 :
@@ -8550,7 +8550,7 @@ cx
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 js
 :
@@ -8841,7 +8841,7 @@ getElementAttributes
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 uintN
 *

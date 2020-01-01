@@ -1796,7 +1796,7 @@ endif
 class
 AutoAtomicIncrement
 {
-int32
+int32_t
 *
 p
 ;
@@ -1805,7 +1805,7 @@ public
 :
 AutoAtomicIncrement
 (
-int32
+int32_t
 *
 p
 JS_GUARD_OBJECT_NOTIFIER_PARAM

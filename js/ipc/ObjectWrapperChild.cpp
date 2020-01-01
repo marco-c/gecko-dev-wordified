@@ -2541,7 +2541,7 @@ proto
 ;
 for
 (
-uint
+size_t
 i
 =
 0
@@ -2619,7 +2619,7 @@ length
 ;
 for
 (
-uint
+size_t
 i
 =
 0

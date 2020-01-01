@@ -2035,7 +2035,7 @@ obj
 )
 reinterpret_cast
 <
-JSUint64
+uint64_t_t
 >
 (
 obj
@@ -2076,7 +2076,7 @@ obj
 )
 reinterpret_cast
 <
-JSUint64
+uint64_t_t
 >
 (
 obj
@@ -2133,7 +2133,7 @@ obj
 )
 reinterpret_cast
 <
-JSUint64
+uint64_t_t
 >
 (
 obj
@@ -2186,7 +2186,7 @@ script_filename
 lineno
 reinterpret_cast
 <
-JSUint64
+uint64_t_t
 >
 (
 string
@@ -2214,7 +2214,7 @@ EventWriteEvtStringFinalize
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 string
@@ -2422,7 +2422,7 @@ EventWriteEvtMemoryAcquire
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 cx
@@ -2432,7 +2432,7 @@ compartment
 )
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 address
@@ -2465,7 +2465,7 @@ EventWriteEvtMemoryRelease
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 cx
@@ -2475,7 +2475,7 @@ compartment
 )
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 address
@@ -2503,7 +2503,7 @@ EventWriteEvtGCStart
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 compartment
@@ -2530,7 +2530,7 @@ EventWriteEvtGCEnd
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 compartment
@@ -2557,7 +2557,7 @@ EventWriteEvtGCStartMarkPhase
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 compartment
@@ -2584,7 +2584,7 @@ EventWriteEvtGCEndMarkPhase
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 compartment
@@ -2611,7 +2611,7 @@ EventWriteEvtGCStartSweepPhase
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 compartment
@@ -2638,7 +2638,7 @@ EventWriteEvtGCEndSweepPhase
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 compartment
@@ -2831,7 +2831,7 @@ EventWriteEvtHeapResize
 (
 reinterpret_cast
 <
-JSUint64
+uint64_t
 >
 (
 compartment

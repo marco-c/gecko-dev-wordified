@@ -511,7 +511,7 @@ Uses
 explicit
 Uses
 (
-uint32
+uint32_t
 nuses
 )
 :
@@ -521,7 +521,7 @@ nuses
 )
 {
 }
-uint32
+uint32_t
 nuses
 ;
 }
@@ -532,7 +532,7 @@ Changes
 explicit
 Changes
 (
-uint32
+uint32_t
 nchanges
 )
 :
@@ -542,7 +542,7 @@ nchanges
 )
 {
 }
-uint32
+uint32_t
 nchanges
 ;
 }
@@ -1063,7 +1063,7 @@ ImmPtr
 ;
 static
 const
-uint32
+uint32_t
 InvalidIndex
 =
 0xFFFFFFFF
@@ -1119,7 +1119,7 @@ operator
 [
 ]
 (
-uint32
+uint32_t
 n
 )
 const
@@ -1143,7 +1143,7 @@ FrameEntry
 *
 entries
 ;
-uint32
+uint32_t
 nentries
 ;
 }
@@ -1939,7 +1939,7 @@ inline
 FPRegisterID
 storeRegs
 (
-int32
+int32_t
 depth
 RegisterID
 type
@@ -2343,7 +2343,7 @@ guarded
 to
 be
 an
-int32
+int32_t
 originally
 .
 *
@@ -2372,7 +2372,7 @@ pushing
 a
 maybe
 -
-int32
+int32_t
 does
 not
 need
@@ -2400,7 +2400,7 @@ false
 *
 Pushes
 an
-int32
+int32_t
 onto
 the
 operation
@@ -2424,7 +2424,7 @@ that
 a
 )
 an
-int32
+int32_t
 is
 to
 be
@@ -2515,7 +2515,7 @@ inline
 void
 popn
 (
-uint32
+uint32_t
 n
 )
 ;
@@ -2596,7 +2596,7 @@ inline
 void
 enterBlock
 (
-uint32
+uint32_t
 n
 )
 ;
@@ -2604,7 +2604,7 @@ inline
 void
 leaveBlock
 (
-uint32
+uint32_t
 n
 )
 ;
@@ -2635,14 +2635,14 @@ stack
 void
 pushLocal
 (
-uint32
+uint32_t
 n
 )
 ;
 void
 pushArg
 (
-uint32
+uint32_t
 n
 )
 ;
@@ -2693,7 +2693,7 @@ FrameEntry
 *
 getStack
 (
-uint32
+uint32_t
 slot
 )
 ;
@@ -2702,7 +2702,7 @@ FrameEntry
 *
 getLocal
 (
-uint32
+uint32_t
 slot
 )
 ;
@@ -2711,7 +2711,7 @@ FrameEntry
 *
 getArg
 (
-uint32
+uint32_t
 slot
 )
 ;
@@ -2720,7 +2720,7 @@ FrameEntry
 *
 getSlotEntry
 (
-uint32
+uint32_t
 slot
 )
 ;
@@ -2954,7 +2954,7 @@ tempRegInMaskForData
 FrameEntry
 *
 fe
-uint32
+uint32_t
 mask
 )
 ;
@@ -4164,7 +4164,7 @@ inline
 AnyRegisterID
 allocReg
 (
-uint32
+uint32_t
 mask
 )
 ;
@@ -4215,7 +4215,7 @@ FrameEntry
 *
 peek
 (
-int32
+int32_t
 depth
 )
 ;
@@ -4331,7 +4331,7 @@ slot
 void
 storeLocal
 (
-uint32
+uint32_t
 n
 bool
 popGuaranteed
@@ -4342,7 +4342,7 @@ false
 void
 storeArg
 (
-uint32
+uint32_t
 n
 bool
 popGuaranteed
@@ -4747,7 +4747,7 @@ RegisterAllocation
 *
 &
 alloc
-uint32
+uint32_t
 stackDepth
 )
 ;
@@ -5037,7 +5037,7 @@ StackEntryExtra
 &
 extra
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -5614,7 +5614,7 @@ inline
 void
 dupAt
 (
-int32
+int32_t
 n
 )
 ;
@@ -5637,7 +5637,7 @@ inline
 void
 syncAt
 (
-int32
+int32_t
 n
 )
 ;
@@ -5678,7 +5678,7 @@ FrameEntry
 fe
 )
 ;
-uint32
+uint32_t
 stackDepth
 (
 )
@@ -5734,7 +5734,7 @@ sp
 .
 *
 /
-uint32
+uint32_t
 totalDepth
 (
 )
@@ -5793,14 +5793,14 @@ currently
 pushed
 stack
 slots
-uint32
+uint32_t
 frameSlots
 (
 )
 const
 {
 return
-uint32
+uint32_t
 (
 a
 -
@@ -5896,7 +5896,7 @@ const
 Address
 addressOf
 (
-uint32
+uint32_t
 slot
 )
 const
@@ -6140,7 +6140,7 @@ eviscerated
 void
 shimmy
 (
-uint32
+uint32_t
 n
 )
 ;
@@ -6195,7 +6195,7 @@ shift
 void
 shift
 (
-int32
+int32_t
 n
 )
 ;
@@ -6239,7 +6239,7 @@ inTryBlock
 ;
 }
 inline
-uint32
+uint32_t
 regsInUse
 (
 )
@@ -6300,7 +6300,7 @@ pushActiveFrame
 JSScript
 *
 script
-uint32
+uint32_t
 argc
 )
 ;
@@ -6309,7 +6309,7 @@ popActiveFrame
 (
 )
 ;
-uint32
+uint32_t
 entrySlot
 (
 const
@@ -6327,7 +6327,7 @@ fe
 )
 ;
 }
-uint32
+uint32_t
 outerSlot
 (
 const
@@ -6475,7 +6475,7 @@ char
 *
 entryName
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -6504,12 +6504,12 @@ track
 /
 static
 const
-uint32
+uint32_t
 TEMPORARY_LIMIT
 =
 10
 ;
-uint32
+uint32_t
 allocTemporary
 (
 )
@@ -6534,7 +6534,7 @@ FrameEntry
 *
 getTemporary
 (
-uint32
+uint32_t
 which
 )
 ;
@@ -6691,7 +6691,7 @@ reg
 AnyRegisterID
 evictSomeReg
 (
-uint32
+uint32_t
 mask
 )
 ;
@@ -6861,7 +6861,7 @@ FrameEntry
 *
 getOrTrack
 (
-uint32
+uint32_t
 index
 )
 ;
@@ -7194,7 +7194,7 @@ reg_
 AnyRegisterID
 bestEvictReg
 (
-uint32
+uint32_t
 mask
 bool
 includePinned
@@ -7394,7 +7394,7 @@ fe
 temporaries
 ;
 }
-int32
+int32_t
 frameOffset
 (
 const
@@ -7420,7 +7420,7 @@ a
 )
 const
 ;
-uint32
+uint32_t
 frameSlot
 (
 ActiveFrame
@@ -7533,7 +7533,7 @@ frame
 .
 *
 /
-uint32
+uint32_t
 depth
 ;
 JSScript
@@ -7611,7 +7611,7 @@ FrameEntry
 *
 entries
 ;
-uint32
+uint32_t
 nentries
 ;
 /
@@ -7996,14 +7996,10 @@ point
 /
 static
 const
-uint32
+uint32_t
 UNASSIGNED_REGISTER
 =
-uint32
-(
--
-1
-)
+UINT32_MAX
 ;
 /
 *
@@ -8083,10 +8079,10 @@ body
 /
 static
 const
-uint32
+uint32_t
 LOOP_REGISTER
 =
-uint32
+uint32_t
 (
 -
 2
@@ -8134,7 +8130,7 @@ slots
 .
 *
 /
-uint32
+uint32_t
 regstate_
 [
 Registers
@@ -8160,12 +8156,12 @@ synced
 /
 static
 const
-uint32
+uint32_t
 SYNCED
 =
 0x80000000
 ;
-uint32
+uint32_t
 &
 regstate
 (
@@ -8202,18 +8198,18 @@ bool
 forLoop
 )
 {
-uint32
+uint32_t
 entry
 =
 forLoop
 ?
 (
-uint32
+uint32_t
 )
 LOOP_REGISTER
 :
 (
-uint32
+uint32_t
 )
 UNASSIGNED_REGISTER
 ;
@@ -8343,7 +8339,7 @@ reg
 SYNCED
 ;
 }
-uint32
+uint32_t
 index
 (
 AnyRegisterID
@@ -8373,7 +8369,7 @@ set
 (
 AnyRegisterID
 reg
-uint32
+uint32_t
 index
 bool
 synced
@@ -8521,7 +8517,7 @@ reg
 bool
 hasAnyReg
 (
-uint32
+uint32_t
 n
 )
 {

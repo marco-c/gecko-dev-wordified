@@ -1190,7 +1190,7 @@ val
 )
 ;
 }
-int32
+int32_t
 jsd_GetValueInt
 (
 JSDContext

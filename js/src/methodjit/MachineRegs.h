@@ -754,7 +754,7 @@ registers
 /
 static
 const
-uint32
+uint32_t
 TotalRegisters
 =
 JSC
@@ -1261,7 +1261,7 @@ stackPointerRegister
 ;
 static
 inline
-uint32
+uint32_t
 maskReg
 (
 RegisterID
@@ -1279,7 +1279,7 @@ reg
 }
 static
 inline
-uint32
+uint32_t
 mask2Regs
 (
 RegisterID
@@ -1302,7 +1302,7 @@ reg2
 }
 static
 inline
-uint32
+uint32_t
 mask3Regs
 (
 RegisterID
@@ -1344,7 +1344,7 @@ JS_CPU_X64
 )
 static
 const
-uint32
+uint32_t
 TempRegs
 =
 (
@@ -1484,7 +1484,7 @@ JS_CPU_X64
 )
 static
 const
-uint32
+uint32_t
 SavedRegs
 =
 /
@@ -1573,7 +1573,7 @@ endif
 else
 static
 const
-uint32
+uint32_t
 SavedRegs
 =
 (
@@ -1612,7 +1612,7 @@ JS_CPU_X86
 )
 static
 const
-uint32
+uint32_t
 SingleByteRegs
 =
 (
@@ -1684,7 +1684,7 @@ JS_CPU_X64
 )
 static
 const
-uint32
+uint32_t
 SingleByteRegs
 =
 TempRegs
@@ -1701,7 +1701,7 @@ JS_CPU_ARM
 )
 static
 const
-uint32
+uint32_t
 TempRegs
 =
 (
@@ -1770,7 +1770,7 @@ calls
 .
 static
 const
-uint32
+uint32_t
 SavedRegs
 =
 (
@@ -1899,7 +1899,7 @@ counter
 .
 static
 const
-uint32
+uint32_t
 SingleByteRegs
 =
 TempRegs
@@ -1914,7 +1914,7 @@ JS_CPU_SPARC
 )
 static
 const
-uint32
+uint32_t
 TempRegs
 =
 (
@@ -1997,7 +1997,7 @@ o5
 ;
 static
 const
-uint32
+uint32_t
 SavedRegs
 =
 (
@@ -2080,7 +2080,7 @@ l7
 ;
 static
 const
-uint32
+uint32_t
 SingleByteRegs
 =
 TempRegs
@@ -2099,7 +2099,7 @@ platform
 endif
 static
 const
-uint32
+uint32_t
 AvailRegs
 =
 SavedRegs
@@ -2114,7 +2114,7 @@ RegisterID
 reg
 )
 {
-uint32
+uint32_t
 mask
 =
 maskReg
@@ -2139,7 +2139,7 @@ RegisterID
 reg
 )
 {
-uint32
+uint32_t
 mask
 =
 maskReg
@@ -2165,7 +2165,7 @@ SavedRegs
 }
 static
 inline
-uint32
+uint32_t
 numArgRegs
 (
 CallConvention
@@ -2250,7 +2250,7 @@ regForArg
 (
 CallConvention
 conv
-uint32
+uint32_t
 i
 RegisterID
 *
@@ -2609,7 +2609,7 @@ ABI
 /
 static
 const
-uint32
+uint32_t
 TotalFPRegisters
 =
 5
@@ -2631,7 +2631,7 @@ xmm5
 else
 static
 const
-uint32
+uint32_t
 TotalFPRegisters
 =
 7
@@ -2653,7 +2653,7 @@ xmm7
 endif
 static
 const
-uint32
+uint32_t
 TempFPRegs
 =
 (
@@ -2765,14 +2765,14 @@ JS_CPU_ARM
 )
 static
 const
-uint32
+uint32_t
 TotalFPRegisters
 =
 3
 ;
 static
 const
-uint32
+uint32_t
 TempFPRegs
 =
 (
@@ -2840,18 +2840,18 @@ JS_CPU_SPARC
 )
 static
 const
-uint32
+uint32_t
 TotalFPRegisters
 =
 8
 ;
 static
 const
-uint32
+uint32_t
 TempFPRegs
 =
 (
-uint32
+uint32_t
 )
 (
 (
@@ -3020,14 +3020,14 @@ l1
 endif
 static
 const
-uint32
+uint32_t
 AvailFPRegs
 =
 TempFPRegs
 ;
 static
 inline
-uint32
+uint32_t
 maskReg
 (
 FPRegisterID
@@ -3055,7 +3055,7 @@ code
 /
 static
 const
-uint32
+uint32_t
 TotalAnyRegisters
 =
 TotalRegisters
@@ -3064,7 +3064,7 @@ TotalFPRegisters
 ;
 static
 const
-uint32
+uint32_t
 TempAnyRegs
 =
 TempRegs
@@ -3073,7 +3073,7 @@ TempFPRegs
 ;
 static
 const
-uint32
+uint32_t
 AvailAnyRegs
 =
 AvailRegs
@@ -3082,7 +3082,7 @@ AvailFPRegs
 ;
 static
 inline
-uint32
+uint32_t
 maskReg
 (
 AnyRegisterID
@@ -3248,7 +3248,7 @@ regs
 }
 Registers
 (
-uint32
+uint32_t
 freeMask
 )
 :
@@ -3299,7 +3299,7 @@ this
 bool
 empty
 (
-uint32
+uint32_t
 mask
 )
 const
@@ -3327,7 +3327,7 @@ freeMask
 AnyRegisterID
 peekReg
 (
-uint32
+uint32_t
 mask
 )
 {
@@ -3376,7 +3376,7 @@ freeMask
 AnyRegisterID
 takeAnyReg
 (
-uint32
+uint32_t
 mask
 )
 {
@@ -3437,7 +3437,7 @@ reg_
 bool
 hasRegInMask
 (
-uint32
+uint32_t
 mask
 )
 const
@@ -3455,7 +3455,7 @@ mask
 bool
 hasAllRegs
 (
-uint32
+uint32_t
 mask
 )
 const
@@ -3575,7 +3575,7 @@ other
 freeMask
 ;
 }
-uint32
+uint32_t
 freeMask
 ;
 }

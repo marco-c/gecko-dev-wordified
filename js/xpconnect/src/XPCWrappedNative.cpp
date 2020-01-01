@@ -6065,7 +6065,7 @@ classInfoHelper
 )
 )
 ;
-JSUint32
+uint32_t
 flags
 ;
 nsresult
@@ -6176,7 +6176,7 @@ if
 helper
 )
 {
-JSUint32
+uint32_t
 flags
 ;
 rv
@@ -6326,7 +6326,7 @@ if
 helper
 )
 {
-JSUint32
+uint32_t
 flags
 ;
 nsresult
@@ -13789,7 +13789,7 @@ GetArraySizeFromParam
 (
 uint8
 paramIndex
-JSUint32
+uint32_t
 *
 result
 )
@@ -14786,7 +14786,7 @@ destroy
 the
 array
 .
-JSUint32
+uint32_t
 array_count
 =
 0
@@ -14891,7 +14891,7 @@ helper
 .
 for
 (
-JSUint32
+uint32_t
 k
 =
 0
@@ -14995,7 +14995,7 @@ GetArraySizeFromParam
 (
 uint8
 paramIndex
-JSUint32
+uint32_t
 *
 result
 )
@@ -15532,7 +15532,7 @@ mCallContext
 v
 )
 ;
-JSUint32
+uint32_t
 array_count
 =
 0
@@ -17422,7 +17422,7 @@ GetType
 nsXPTType
 datum_type
 ;
-JSUint32
+uint32_t
 array_count
 =
 0
@@ -23660,7 +23660,7 @@ GetXPCClassInfo
 (
 )
 ;
-JSUint32
+uint32_t
 flagsInt
 ;
 nsresult

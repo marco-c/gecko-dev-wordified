@@ -784,7 +784,7 @@ by
 :
 JS_XDRDestroy
 .
-uint32
+uint32_t
 length
 ;
 data
@@ -1078,7 +1078,7 @@ write
 to
 aStream
 .
-uint32
+uint32_t
 size
 ;
 const

@@ -4414,7 +4414,7 @@ side
 .
 *
 /
-int32
+int32_t
 value
 =
 0
@@ -5498,7 +5498,7 @@ op
 JSOP_SUB
 )
 ;
-int32
+int32_t
 fixValue
 =
 (
@@ -7255,7 +7255,7 @@ temp
 RegisterID
 rhsReg
 ;
-uint32
+uint32_t
 mask
 =
 Registers
@@ -9579,7 +9579,7 @@ double
 LHS
 and
 possibly
-int32
+int32_t
 or
 number
 RHS
@@ -11375,7 +11375,7 @@ cmpOp
 =
 op
 ;
-int32
+int32_t
 value
 =
 0

@@ -468,7 +468,7 @@ jsobj
 h
 "
 inline
-uint32
+uint32_t
 JSObject
 :
 :
@@ -493,7 +493,7 @@ length
 ;
 }
 inline
-uint8
+uint8_t
 *
 JSObject
 :
@@ -504,7 +504,7 @@ arrayBufferDataOffset
 {
 return
 (
-uint8
+uint8_t
 *
 )
 elements
@@ -515,10 +515,10 @@ js
 {
 static
 inline
-int32
+int32_t
 ClampIntForUint8Array
 (
-int32
+int32_t
 x
 )
 {
@@ -545,7 +545,7 @@ x
 ;
 }
 inline
-JSUint32
+uint32_t
 TypedArray
 :
 :
@@ -571,7 +571,7 @@ toInt32
 ;
 }
 inline
-JSUint32
+uint32_t
 TypedArray
 :
 :
@@ -597,7 +597,7 @@ toInt32
 ;
 }
 inline
-JSUint32
+uint32_t
 TypedArray
 :
 :
@@ -623,7 +623,7 @@ toInt32
 ;
 }
 inline
-JSUint32
+uint32_t
 TypedArray
 :
 :

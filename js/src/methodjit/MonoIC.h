@@ -526,12 +526,12 @@ mjit
 class
 FrameSize
 {
-uint32
+uint32_t
 frameDepth_
 :
 16
 ;
-uint32
+uint32_t
 argc_
 ;
 public
@@ -539,9 +539,9 @@ public
 void
 initStatic
 (
-uint32
+uint32_t
 frameDepth
-uint32
+uint32_t
 argc
 )
 {
@@ -607,7 +607,7 @@ frameDepth_
 0
 ;
 }
-uint32
+uint32_t
 staticLocalSlots
 (
 )
@@ -624,7 +624,7 @@ return
 frameDepth_
 ;
 }
-uint32
+uint32_t
 staticArgc
 (
 )
@@ -641,7 +641,7 @@ return
 argc_
 ;
 }
-uint32
+uint32_t
 getArgc
 (
 VMFrame
@@ -909,12 +909,12 @@ code
 .
 *
 /
-int32
+int32_t
 loadStoreOffset
 :
 15
 ;
-int32
+int32_t
 shapeOffset
 :
 15
@@ -984,7 +984,7 @@ path
 .
 *
 /
-int32
+int32_t
 inlineShapeJump
 :
 10
@@ -1001,7 +1001,7 @@ jump
 .
 *
 /
-int32
+int32_t
 extraShapeGuard
 :
 6
@@ -1079,7 +1079,7 @@ preset
 .
 *
 /
-int32
+int32_t
 fastRejoinOffset
 :
 16
@@ -1094,7 +1094,7 @@ rejoin
 .
 *
 /
-int32
+int32_t
 extraStoreOffset
 :
 16
@@ -1446,12 +1446,12 @@ funGuard
 .
 *
 /
-uint32
+uint32_t
 hotJumpOffset
 :
 16
 ;
-uint32
+uint32_t
 joinPointOffset
 :
 16
@@ -1466,7 +1466,7 @@ call
 .
 *
 /
-uint32
+uint32_t
 oolCallOffset
 :
 16
@@ -1487,7 +1487,7 @@ calls
 .
 *
 /
-uint32
+uint32_t
 oolJumpOffset
 :
 16
@@ -1508,7 +1508,7 @@ function
 .
 *
 /
-uint32
+uint32_t
 icCallOffset
 :
 16
@@ -1527,7 +1527,7 @@ at
 .
 *
 /
-uint32
+uint32_t
 hotPathOffset
 :
 16
@@ -1544,7 +1544,7 @@ paths
 .
 *
 /
-uint32
+uint32_t
 slowJoinOffset
 :
 16

@@ -383,7 +383,7 @@ slot
 )
 <
 (
-uint32
+uint32_t
 )
 (
 obj

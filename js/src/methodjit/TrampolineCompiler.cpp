@@ -827,12 +827,12 @@ finalize
 buffer
 )
 ;
-uint8
+uint8_t
 *
 result
 =
 (
-uint8
+uint8_t
 *
 )
 buffer

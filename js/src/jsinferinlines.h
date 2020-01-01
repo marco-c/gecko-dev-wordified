@@ -3756,7 +3756,7 @@ JSScript
 *
 script
 ;
-uint32
+uint32_t
 offset
 :
 24
@@ -3768,7 +3768,7 @@ kind
 ;
 static
 const
-uint32
+uint32_t
 OFFSET_LIMIT
 =
 (
@@ -3794,7 +3794,7 @@ Lookup
 ;
 static
 inline
-uint32
+uint32_t
 hash
 (
 AllocationSiteKey
@@ -3802,9 +3802,8 @@ key
 )
 {
 return
+uint32_t
 (
-uint32
-)
 size_t
 (
 key
@@ -3817,6 +3816,7 @@ code
 key
 .
 offset
+)
 )
 ^
 key
@@ -3924,7 +3924,7 @@ front
 ?
 *
 /
-uint32
+uint32_t
 offset
 =
 pc
@@ -4379,7 +4379,7 @@ properties
 .
 *
 /
-uint32
+uint32_t
 i
 ;
 if
@@ -5751,14 +5751,14 @@ KEY
 >
 static
 inline
-uint32
+uint32_t
 HashKey
 (
 T
 v
 )
 {
-uint32
+uint32_t
 nv
 =
 KEY
@@ -5769,7 +5769,7 @@ keyBits
 v
 )
 ;
-uint32
+uint32_t
 hash
 =
 84696351
@@ -6834,7 +6834,7 @@ TypeSet
 :
 setBaseObjectCount
 (
-uint32
+uint32_t
 count
 )
 {
@@ -7030,7 +7030,7 @@ isAnyObject
 goto
 unknownObject
 ;
-uint32
+uint32_t
 objectCount
 =
 baseObjectCount
@@ -7444,7 +7444,7 @@ unknownObject
 )
 )
 ;
-uint32
+uint32_t
 count
 =
 baseObjectCount
@@ -8033,7 +8033,7 @@ this
 ;
 }
 inline
-uint32
+uint32_t
 TypeObject
 :
 :
@@ -8060,7 +8060,7 @@ TypeObject
 :
 setBasePropertyCount
 (
-uint32
+uint32_t
 count
 )
 {
@@ -8162,7 +8162,7 @@ unknownProperties
 )
 )
 ;
-uint32
+uint32_t
 propertyCount
 =
 basePropertyCount
@@ -8414,7 +8414,7 @@ getPropertyCount
 (
 )
 {
-uint32
+uint32_t
 count
 =
 basePropertyCount
@@ -9262,9 +9262,9 @@ addPushedType
 JSContext
 *
 cx
-uint32
+uint32_t
 offset
-uint32
+uint32_t
 which
 js
 :

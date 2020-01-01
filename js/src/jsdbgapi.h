@@ -2948,7 +2948,7 @@ property
 value
 *
 /
-uint8
+uint8_t
 flags
 ;
 /
@@ -2958,7 +2958,7 @@ see
 below
 *
 /
-uint8
+uint8_t
 spare
 ;
 /
@@ -2966,7 +2966,7 @@ spare
 unused
 *
 /
-uint16
+uint16_t
 slot
 ;
 /
@@ -3109,7 +3109,7 @@ typedef
 struct
 JSPropertyDescArray
 {
-uint32
+uint32_t
 length
 ;
 /

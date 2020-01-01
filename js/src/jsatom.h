@@ -1115,7 +1115,7 @@ length
 *
 /
 inline
-uint32
+uint32_t
 HashChars
 (
 const
@@ -1126,7 +1126,7 @@ size_t
 length
 )
 {
-uint32
+uint32_t
 h
 =
 0

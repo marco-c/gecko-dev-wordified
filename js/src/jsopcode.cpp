@@ -734,7 +734,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-uint32
+uint32_t
 )
 *
 JS_BITS_PER_BYTE
@@ -1132,7 +1132,7 @@ jsbytecode
 pc2
 )
 {
-uint32
+uint32_t
 type
 ;
 type
@@ -2823,7 +2823,7 @@ sp
 JSString
 *
 str
-uint32
+uint32_t
 quote
 )
 ;
@@ -3474,7 +3474,7 @@ op
 ;
 switch
 (
-uint32
+uint32_t
 type
 =
 JOF_TYPE
@@ -3550,7 +3550,7 @@ trynotes
 (
 )
 ;
-uint32
+uint32_t
 i
 ;
 for
@@ -4125,7 +4125,7 @@ while
 npairs
 )
 {
-uint16
+uint16_t
 constIndex
 =
 GET_INDEX
@@ -5471,7 +5471,7 @@ sp
 JSString
 *
 str
-uint32
+uint32_t
 quote
 )
 {
@@ -8347,7 +8347,7 @@ PopOffPrec
 SprintStack
 *
 ss
-uint8
+uint8_t
 prec
 )
 {
@@ -8528,7 +8528,7 @@ PopStrPrec
 SprintStack
 *
 ss
-uint8
+uint8_t
 prec
 )
 {
@@ -15463,7 +15463,7 @@ expression
 .
 *
 /
-uint32
+uint32_t
 format
 =
 cs
@@ -15583,7 +15583,7 @@ JOF_VARPROP
 )
 )
 {
-uint32
+uint32_t
 mode
 =
 JOF_MODE
@@ -15636,7 +15636,7 @@ JSOP_NAME
 .
 *
 /
-uint32
+uint32_t
 type
 =
 JOF_TYPE
@@ -29162,7 +29162,7 @@ label
 NULL
 ;
 }
-uint16
+uint16_t
 constIndex
 =
 GET_INDEX

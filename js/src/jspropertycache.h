@@ -625,7 +625,7 @@ accessed
 property
 *
 /
-uint16
+uint16_t
 vindex
 ;
 /
@@ -848,7 +848,7 @@ based
 test
 *
 /
-uint32
+uint32_t
 fills
 ;
 /
@@ -860,7 +860,7 @@ entry
 fills
 *
 /
-uint32
+uint32_t
 nofills
 ;
 /
@@ -879,7 +879,7 @@ get
 )
 *
 /
-uint32
+uint32_t
 rofills
 ;
 /
@@ -896,7 +896,7 @@ t
 fill
 *
 /
-uint32
+uint32_t
 disfills
 ;
 /
@@ -908,7 +908,7 @@ disabled
 cache
 *
 /
-uint32
+uint32_t
 oddfills
 ;
 /
@@ -920,7 +920,7 @@ setter
 deleted
 *
 /
-uint32
+uint32_t
 add2dictfills
 ;
 /
@@ -932,7 +932,7 @@ dictionary
 object
 *
 /
-uint32
+uint32_t
 modfills
 ;
 /
@@ -946,7 +946,7 @@ new
 entry
 *
 /
-uint32
+uint32_t
 brandfills
 ;
 /
@@ -960,7 +960,7 @@ method
 fills
 *
 /
-uint32
+uint32_t
 noprotos
 ;
 /
@@ -974,7 +974,7 @@ proto
 pobj
 *
 /
-uint32
+uint32_t
 longchains
 ;
 /
@@ -988,7 +988,7 @@ proto
 chain
 *
 /
-uint32
+uint32_t
 recycles
 ;
 /
@@ -1000,7 +1000,7 @@ by
 fills
 *
 /
-uint32
+uint32_t
 tests
 ;
 /
@@ -1009,7 +1009,7 @@ cache
 probes
 *
 /
-uint32
+uint32_t
 pchits
 ;
 /
@@ -1022,7 +1022,7 @@ op
 hits
 *
 /
-uint32
+uint32_t
 protopchits
 ;
 /
@@ -1033,7 +1033,7 @@ immediate
 prototype
 *
 /
-uint32
+uint32_t
 initests
 ;
 /
@@ -1044,7 +1044,7 @@ from
 JSOP_INITPROP
 *
 /
-uint32
+uint32_t
 inipchits
 ;
 /
@@ -1058,7 +1058,7 @@ pchit
 case
 *
 /
-uint32
+uint32_t
 inipcmisses
 ;
 /
@@ -1072,7 +1072,7 @@ pc
 misses
 *
 /
-uint32
+uint32_t
 settests
 ;
 /
@@ -1084,7 +1084,7 @@ JOF_SET
 opcodes
 *
 /
-uint32
+uint32_t
 addpchits
 ;
 /
@@ -1096,7 +1096,7 @@ pchit
 case
 *
 /
-uint32
+uint32_t
 setpchits
 ;
 /
@@ -1107,7 +1107,7 @@ property
 pchit
 *
 /
-uint32
+uint32_t
 setpcmisses
 ;
 /
@@ -1120,7 +1120,7 @@ pc
 misses
 *
 /
-uint32
+uint32_t
 setmisses
 ;
 /
@@ -1134,7 +1134,7 @@ total
 misses
 *
 /
-uint32
+uint32_t
 kpcmisses
 ;
 /
@@ -1150,7 +1150,7 @@ atom
 misses
 *
 /
-uint32
+uint32_t
 kshapemisses
 ;
 /
@@ -1163,7 +1163,7 @@ object
 misses
 *
 /
-uint32
+uint32_t
 vcapmisses
 ;
 /
@@ -1173,7 +1173,7 @@ capability
 misses
 *
 /
-uint32
+uint32_t
 misses
 ;
 /
@@ -1182,7 +1182,7 @@ cache
 misses
 *
 /
-uint32
+uint32_t
 flushes
 ;
 /
@@ -1191,7 +1191,7 @@ cache
 flushes
 *
 /
-uint32
+uint32_t
 pcpurges
 ;
 /
@@ -1296,7 +1296,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 shape
 )
 ;

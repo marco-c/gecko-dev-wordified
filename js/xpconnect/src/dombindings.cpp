@@ -3070,7 +3070,7 @@ toObjectOrNull
 ;
 }
 static
-int32
+int32_t
 IdToInt32
 (
 JSContext
@@ -3092,7 +3092,7 @@ idval
 jsdouble
 array_index
 ;
-jsint
+int32_t
 i
 ;
 if
@@ -3143,7 +3143,7 @@ i
 }
 static
 inline
-int32
+int32_t
 GetArrayIndexFromId
 (
 JSContext
@@ -3381,7 +3381,7 @@ if
 hasIndexSetter
 )
 {
-int32
+int32_t
 index
 =
 GetArrayIndexFromId
@@ -3442,7 +3442,7 @@ if
 hasIndexGetter
 )
 {
-int32
+int32_t
 index
 =
 GetArrayIndexFromId
@@ -4038,7 +4038,7 @@ if
 hasIndexSetter
 )
 {
-int32
+int32_t
 index
 =
 GetArrayIndexFromId
@@ -4612,7 +4612,7 @@ if
 hasIndexGetter
 )
 {
-int32
+int32_t
 index
 =
 GetArrayIndexFromId
@@ -6082,7 +6082,7 @@ if
 hasIndexGetter
 )
 {
-int32
+int32_t
 index
 =
 GetArrayIndexFromId

@@ -606,10 +606,10 @@ char
 *
 base
 ;
-uint32
+uint32_t
 count
 ;
-uint32
+uint32_t
 limit
 ;
 }
@@ -786,7 +786,7 @@ xdr
 )
 {
 \
-uint32
+uint32_t
 limit_
 =
 JS_ROUNDUP
@@ -917,7 +917,7 @@ mem_get32
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 *
 lp
 )
@@ -933,7 +933,7 @@ lp
 =
 *
 (
-uint32
+uint32_t
 *
 )
 MEM_DATA
@@ -958,7 +958,7 @@ mem_set32
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 *
 lp
 )
@@ -971,7 +971,7 @@ xdr
 ;
 *
 (
-uint32
+uint32_t
 *
 )
 MEM_DATA
@@ -1002,7 +1002,7 @@ xdr
 char
 *
 bytes
-uint32
+uint32_t
 len
 )
 {
@@ -1042,7 +1042,7 @@ xdr
 char
 *
 bytes
-uint32
+uint32_t
 len
 )
 {
@@ -1080,7 +1080,7 @@ mem_raw
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 len
 )
 {
@@ -1149,7 +1149,7 @@ mem_seek
 JSXDRState
 *
 xdr
-int32
+int32_t
 offset
 JSXDRWhence
 whence
@@ -1166,7 +1166,7 @@ JSXDR_SEEK_CUR
 if
 (
 (
-int32
+int32_t
 )
 MEM_COUNT
 (
@@ -1255,7 +1255,7 @@ JSXDR_ENCODE
 if
 (
 (
-uint32
+uint32_t
 )
 offset
 >
@@ -1288,7 +1288,7 @@ else
 if
 (
 (
-uint32
+uint32_t
 )
 offset
 >
@@ -1345,7 +1345,7 @@ JSXDR_ENCODE
 |
 |
 (
-int32
+int32_t
 )
 MEM_LIMIT
 (
@@ -1427,7 +1427,7 @@ JS_FALSE
 }
 }
 static
-uint32
+uint32_t
 mem_tell
 (
 JSXDRState
@@ -1714,7 +1714,7 @@ JS_XDRMemGetData
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 *
 lp
 )
@@ -1760,7 +1760,7 @@ xdr
 void
 *
 data
-uint32
+uint32_t
 len
 )
 {
@@ -1805,7 +1805,7 @@ xdr
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_XDRMemDataLeft
 (
@@ -1960,12 +1960,12 @@ JS_XDRUint8
 JSXDRState
 *
 xdr
-uint8
+uint8_t
 *
 b
 )
 {
-uint32
+uint32_t
 l
 =
 *
@@ -1988,7 +1988,7 @@ JS_FALSE
 b
 =
 (
-uint8
+uint8_t
 )
 l
 ;
@@ -2005,12 +2005,12 @@ JS_XDRUint16
 JSXDRState
 *
 xdr
-uint16
+uint16_t
 *
 s
 )
 {
-uint32
+uint32_t
 l
 =
 *
@@ -2033,7 +2033,7 @@ JS_FALSE
 s
 =
 (
-uint16
+uint16_t
 )
 l
 ;
@@ -2050,7 +2050,7 @@ JS_XDRUint32
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 *
 lp
 )
@@ -2071,7 +2071,7 @@ mode
 JSXDR_ENCODE
 )
 {
-uint32
+uint32_t
 xl
 =
 JSXDR_SWAB32
@@ -2148,11 +2148,11 @@ xdr
 char
 *
 bytes
-uint32
+uint32_t
 len
 )
 {
-uint32
+uint32_t
 padlen
 ;
 static
@@ -2358,7 +2358,7 @@ char
 sp
 )
 {
-uint32
+uint32_t
 len
 ;
 if
@@ -2508,7 +2508,7 @@ char
 sp
 )
 {
-uint32
+uint32_t
 null
 =
 (
@@ -2564,11 +2564,11 @@ xdr
 jschar
 *
 chars
-uint32
+uint32_t
 nchars
 )
 {
-uint32
+uint32_t
 i
 padlen
 nbytes
@@ -2772,7 +2772,7 @@ JSString
 strp
 )
 {
-uint32
+uint32_t
 nchars
 ;
 jschar
@@ -2981,7 +2981,7 @@ JSString
 strp
 )
 {
-uint32
+uint32_t
 null
 =
 (
@@ -3293,7 +3293,7 @@ XDRValueBody
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 type
 jsval
 *
@@ -3506,7 +3506,7 @@ case
 XDRTAG_SPECIAL
 :
 {
-uint32
+uint32_t
 b
 ;
 if
@@ -3522,7 +3522,7 @@ JSXDR_ENCODE
 b
 =
 (
-uint32
+uint32_t
 )
 JSVAL_TO_BOOLEAN
 (
@@ -3569,7 +3569,7 @@ break
 default
 :
 {
-uint32
+uint32_t
 i
 ;
 JS_ASSERT
@@ -3593,7 +3593,7 @@ JSXDR_ENCODE
 i
 =
 (
-uint32
+uint32_t
 )
 JSVAL_TO_INT
 (
@@ -3630,7 +3630,7 @@ vp
 INT_TO_JSVAL
 (
 (
-int32
+int32_t
 )
 i
 )
@@ -3657,7 +3657,7 @@ jsval
 vp
 )
 {
-uint32
+uint32_t
 type
 ;
 if
@@ -3712,7 +3712,7 @@ JSString
 *
 str
 ;
-uint32
+uint32_t
 nchars
 ;
 JSAtom
@@ -4122,10 +4122,10 @@ JSScript
 *
 script
 ;
-uint32
+uint32_t
 magic
 ;
-uint32
+uint32_t
 bytecodeVer
 ;
 if
@@ -4411,7 +4411,7 @@ char
 *
 name
 ;
-uint32
+uint32_t
 index
 ;
 }
@@ -4429,7 +4429,7 @@ xdr
 JSClass
 *
 clasp
-uint32
+uint32_t
 *
 idp
 )
@@ -4651,7 +4651,7 @@ JS_TRUE
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_XDRFindClassIdByName
 (
@@ -4951,7 +4951,7 @@ JS_XDRFindClassById
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 id
 )
 {

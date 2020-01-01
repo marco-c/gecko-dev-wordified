@@ -503,7 +503,7 @@ functions
 *
 /
 typedef
-uint32
+uint32_t
 HashNumber
 ;
 /
@@ -1408,7 +1408,7 @@ keyHash
 #
 ifdef
 DEBUG
-uint64
+uint64_t
 mutationCount
 ;
 AddPtr
@@ -1418,7 +1418,7 @@ Entry
 entry
 HashNumber
 hn
-uint64
+uint64_t
 mutationCount
 )
 :
@@ -2035,7 +2035,7 @@ false
 ;
 private
 :
-uint32
+uint32_t
 hashShift
 ;
 /
@@ -2045,7 +2045,7 @@ hash
 shift
 *
 /
-uint32
+uint32_t
 entryCount
 ;
 /
@@ -2057,7 +2057,7 @@ in
 table
 *
 /
-uint32
+uint32_t
 gen
 ;
 /
@@ -2068,7 +2068,7 @@ generation
 number
 *
 /
-uint32
+uint32_t
 removedCount
 ;
 /
@@ -2111,7 +2111,7 @@ mutable
 struct
 Stats
 {
-uint32
+uint32_t
 searches
 ;
 /
@@ -2123,7 +2123,7 @@ table
 searches
 *
 /
-uint32
+uint32_t
 steps
 ;
 /
@@ -2134,7 +2134,7 @@ links
 traversed
 *
 /
-uint32
+uint32_t
 hits
 ;
 /
@@ -2145,7 +2145,7 @@ found
 key
 *
 /
-uint32
+uint32_t
 misses
 ;
 /
@@ -2159,7 +2159,7 @@ find
 key
 *
 /
-uint32
+uint32_t
 addOverRemoved
 ;
 /
@@ -2172,7 +2172,7 @@ removed
 entry
 *
 /
-uint32
+uint32_t
 removes
 ;
 /
@@ -2182,7 +2182,7 @@ to
 remove
 *
 /
-uint32
+uint32_t
 removeFrees
 ;
 /
@@ -2196,7 +2196,7 @@ the
 entry
 *
 /
-uint32
+uint32_t
 grows
 ;
 /
@@ -2205,7 +2205,7 @@ table
 expansions
 *
 /
-uint32
+uint32_t
 shrinks
 ;
 /
@@ -2214,7 +2214,7 @@ table
 contractions
 *
 /
-uint32
+uint32_t
 compresses
 ;
 /
@@ -2257,7 +2257,7 @@ mutable
 bool
 entered
 ;
-uint64
+uint64_t
 mutationCount
 ;
 #
@@ -2358,7 +2358,7 @@ result
 ;
 static
 const
-uint8
+uint8_t
 sMinAlphaFrac
 =
 64
@@ -2380,7 +2380,7 @@ h
 /
 static
 const
-uint8
+uint8_t
 sMaxAlphaFrac
 =
 192
@@ -2402,7 +2402,7 @@ h
 /
 static
 const
-uint8
+uint8_t
 sInvMaxAlpha
 =
 171
@@ -2625,7 +2625,7 @@ createTable
 AllocPolicy
 &
 alloc
-uint32
+uint32_t
 capacity
 )
 {
@@ -2702,7 +2702,7 @@ alloc
 Entry
 *
 oldTable
-uint32
+uint32_t
 capacity
 )
 {
@@ -2795,7 +2795,7 @@ endif
 bool
 init
 (
-uint32
+uint32_t
 length
 )
 {
@@ -2862,7 +2862,7 @@ return
 false
 ;
 }
-uint32
+uint32_t
 capacity
 =
 (
@@ -2901,7 +2901,7 @@ bug
 .
 *
 /
-uint32
+uint32_t
 roundUp
 =
 sMinSize
@@ -3019,7 +3019,7 @@ hash1
 (
 HashNumber
 hash0
-uint32
+uint32_t
 shift
 )
 {
@@ -3036,9 +3036,9 @@ hash2
 (
 HashNumber
 hash0
-uint32
+uint32_t
 log2
-uint32
+uint32_t
 shift
 )
 {
@@ -3088,7 +3088,7 @@ underloaded
 (
 )
 {
-uint32
+uint32_t
 tableCapacity
 =
 capacity
@@ -3845,14 +3845,14 @@ oldTable
 =
 table
 ;
-uint32
+uint32_t
 oldCap
 =
 capacity
 (
 )
 ;
-uint32
+uint32_t
 newLog2
 =
 sHashBits
@@ -3861,7 +3861,7 @@ hashShift
 +
 deltaLog2
 ;
-uint32
+uint32_t
 newCapacity
 =
 JS_BIT
@@ -4164,7 +4164,7 @@ capacity
 }
 else
 {
-uint32
+uint32_t
 tableCapacity
 =
 capacity
@@ -4306,7 +4306,7 @@ return
 entryCount
 ;
 }
-uint32
+uint32_t
 count
 (
 )
@@ -4316,7 +4316,7 @@ return
 entryCount
 ;
 }
-uint32
+uint32_t
 capacity
 (
 )
@@ -4331,7 +4331,7 @@ hashShift
 )
 ;
 }
-uint32
+uint32_t
 generation
 (
 )
@@ -6580,7 +6580,7 @@ a
 bool
 init
 (
-uint32
+uint32_t
 len
 =
 Impl
@@ -8494,7 +8494,7 @@ a
 bool
 init
 (
-uint32
+uint32_t
 len
 =
 Impl

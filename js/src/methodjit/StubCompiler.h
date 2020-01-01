@@ -570,7 +570,7 @@ from
 jsbytecode
 *
 pc
-uint32
+uint32_t
 inlineIndex
 )
 :
@@ -595,7 +595,7 @@ jsbytecode
 *
 pc
 ;
-uint32
+uint32_t
 inlineIndex
 ;
 }
@@ -619,10 +619,10 @@ masm
 ;
 private
 :
-uint32
+uint32_t
 generation
 ;
-uint32
+uint32_t
 lastGeneration
 ;
 Vector
@@ -697,7 +697,7 @@ size
 )
 ;
 }
-uint8
+uint8_t
 *
 buffer
 (
@@ -847,7 +847,7 @@ leave
 void
 leaveWithDepth
 (
-uint32
+uint32_t
 depth
 )
 ;
@@ -914,7 +914,7 @@ patching
 void
 fixCrossJumps
 (
-uint8
+uint8_t
 *
 ncode
 size_t
@@ -964,7 +964,7 @@ RejoinState
 rejoin
 Uses
 uses
-int32
+int32_t
 slots
 )
 ;

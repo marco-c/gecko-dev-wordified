@@ -651,7 +651,7 @@ unprotect
 /
 static
 const
-uint32
+uint32_t
 INLINE_PATH_LENGTH
 =
 64
@@ -828,7 +828,7 @@ void
 *
 stub
 ;
-uint32
+uint32_t
 gcNumber
 ;
 public
@@ -1678,7 +1678,7 @@ setPropLabels
 (
 )
 ;
-int32
+int32_t
 offset
 ;
 if
@@ -1771,10 +1771,10 @@ below
 .
 /
 /
-int32
+int32_t
 diff
 =
-int32
+int32_t
 (
 JSObject
 :
@@ -1785,7 +1785,7 @@ getFixedSlotOffset
 )
 )
 -
-int32
+int32_t
 (
 JSObject
 :
@@ -1806,7 +1806,7 @@ diff
 offset
 =
 (
-int32
+int32_t
 (
 shape
 -
@@ -3107,10 +3107,10 @@ getCalleeFunction
 (
 )
 ;
-uint16
+uint16_t
 slot
 =
-uint16
+uint16_t
 (
 shape
 -
@@ -4282,7 +4282,7 @@ hook
 "
 )
 ;
-uint32
+uint32_t
 index
 ;
 if
@@ -4383,7 +4383,7 @@ lastProperty
 (
 )
 ;
-uint32
+uint32_t
 slots
 =
 obj
@@ -5207,10 +5207,10 @@ script
 (
 )
 ;
-uint16
+uint16_t
 slot
 =
-uint16
+uint16_t
 (
 shape
 -
@@ -7592,10 +7592,10 @@ PICInfo
 ?
 *
 /
-uint32
+uint32_t
 thisvOffset
 =
-uint32
+uint32_t
 (
 f
 .
@@ -8359,7 +8359,7 @@ getPropLabels
 (
 )
 ;
-int32
+int32_t
 offset
 ;
 if
@@ -8447,10 +8447,10 @@ below
 .
 /
 /
-int32
+int32_t
 diff
 =
-int32
+int32_t
 (
 JSObject
 :
@@ -8461,7 +8461,7 @@ getFixedSlotOffset
 )
 )
 -
-int32
+int32_t
 (
 JSObject
 :
@@ -8482,7 +8482,7 @@ diff
 offset
 =
 (
-int32
+int32_t
 (
 shape
 -
@@ -8855,7 +8855,7 @@ values
 .
 *
 /
-int32
+int32_t
 vpOffset
 =
 (
@@ -8936,7 +8936,7 @@ vpOffset
 )
 ;
 }
-int32
+int32_t
 initialFrameDepth
 =
 f
@@ -12076,10 +12076,10 @@ getCalleeFunction
 (
 )
 ;
-uint16
+uint16_t
 slot
 =
-uint16
+uint16_t
 (
 shape
 -
@@ -16534,7 +16534,7 @@ frame
 *
 /
 inline
-uint32
+uint32_t
 frameCountersOffset
 (
 JSContext
@@ -16542,7 +16542,7 @@ JSContext
 cx
 )
 {
-uint32
+uint32_t
 offset
 =
 0
@@ -16579,7 +16579,7 @@ script
 >
 length
 ;
-uint32
+uint32_t
 index
 =
 cx
@@ -16726,7 +16726,7 @@ jit
 pcLengths
 )
 {
-uint32
+uint32_t
 offset
 =
 frameCountersOffset
@@ -16815,7 +16815,7 @@ jit
 pcLengths
 )
 {
-uint32
+uint32_t
 offset
 =
 frameCountersOffset
@@ -21690,7 +21690,7 @@ f
 JSObject
 *
 obj
-int32
+int32_t
 keyval
 )
 {
@@ -22477,7 +22477,7 @@ f
 JSObject
 *
 obj
-int32
+int32_t
 key
 )
 {
@@ -23145,7 +23145,7 @@ cx
 "
 non
 -
-int32
+int32_t
 key
 "
 )
@@ -23161,7 +23161,7 @@ toObject
 (
 )
 ;
-int32
+int32_t
 key
 =
 idval

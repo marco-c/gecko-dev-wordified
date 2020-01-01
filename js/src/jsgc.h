@@ -754,7 +754,7 @@ OS
 /
 const
 static
-uint32
+uint32_t
 MaxFreeCommittedArenas
 =
 (
@@ -2993,7 +2993,7 @@ fit
 the
 allockind
 into
-uint8
+uint8_t
 .
 *
 /
@@ -3611,7 +3611,7 @@ static
 JS_FRIEND_DATA
 (
 const
-uint32
+uint32_t
 )
 ThingSizes
 [
@@ -3621,7 +3621,7 @@ static
 JS_FRIEND_DATA
 (
 const
-uint32
+uint32_t
 )
 FirstThingOffsets
 [
@@ -3939,7 +3939,7 @@ allocate
 .
 *
 /
-uint32
+uint32_t
 lastDecommittedArenaOffset
 ;
 /
@@ -3955,7 +3955,7 @@ decommitted
 .
 *
 /
-uint32
+uint32_t
 numArenasFree
 ;
 /
@@ -3968,7 +3968,7 @@ arenas
 .
 *
 /
-uint32
+uint32_t
 numArenasFreeCommitted
 ;
 /
@@ -3984,7 +3984,7 @@ survived
 .
 *
 /
-uint32
+uint32_t
 age
 ;
 }
@@ -4400,7 +4400,7 @@ const
 Cell
 *
 cell
-uint32
+uint32_t
 color
 uintptr_t
 *
@@ -4419,7 +4419,7 @@ const
 Cell
 *
 cell
-uint32
+uint32_t
 color
 )
 {
@@ -4453,7 +4453,7 @@ const
 Cell
 *
 cell
-uint32
+uint32_t
 color
 )
 {
@@ -4562,7 +4562,7 @@ const
 Cell
 *
 cell
-uint32
+uint32_t
 color
 )
 {
@@ -4828,7 +4828,7 @@ ChunkInfo
 .
 *
 /
-uint8
+uint8_t
 padding
 [
 ChunkPadSize
@@ -5251,7 +5251,7 @@ taken
 /
 JS_FRIEND_API
 (
-int64
+int64_t
 )
 countDecommittedArenas
 (
@@ -5679,7 +5679,7 @@ const
 Cell
 *
 cell
-uint32
+uint32_t
 color
 uintptr_t
 *
@@ -5780,7 +5780,7 @@ const
 void
 *
 thing
-uint32
+uint32_t
 color
 )
 {
@@ -5840,7 +5840,7 @@ Cell
 :
 isMarked
 (
-uint32
+uint32_t
 color
 )
 const
@@ -5872,7 +5872,7 @@ Cell
 :
 markIfUnmarked
 (
-uint32
+uint32_t
 color
 )
 const
@@ -5904,7 +5904,7 @@ Cell
 :
 unmark
 (
-uint32
+uint32_t
 color
 )
 const
@@ -6043,7 +6043,7 @@ called
 /
 static
 const
-int64
+int64_t
 GC_IDLE_FULL_SPAN
 =
 20
@@ -7872,7 +7872,7 @@ HashMap
 <
 void
 *
-uint32
+uint32_t
 GCPtrHasher
 SystemAllocPolicy
 >
@@ -7978,7 +7978,7 @@ Value
 key
 )
 {
-uint64
+uint64_t
 bits
 =
 key
@@ -7988,14 +7988,12 @@ asRawBits
 )
 ;
 return
+uint32_t
 (
-uint32
-)
 bits
-^
-(
-uint32
 )
+^
+uint32_t
 (
 bits
 >
@@ -8083,7 +8081,7 @@ js_InitGC
 JSRuntime
 *
 rt
-uint32
+uint32_t
 maxbytes
 )
 ;
@@ -8169,7 +8167,7 @@ data
 #
 endif
 extern
-uint32
+uint32_t
 js_MapGCRoots
 (
 JSRuntime
@@ -9875,7 +9873,7 @@ xml
 .
 *
 /
-uint32
+uint32_t
 color
 ;
 public
@@ -9983,7 +9981,7 @@ GCMarker
 (
 )
 ;
-uint32
+uint32_t
 getMarkColor
 (
 )

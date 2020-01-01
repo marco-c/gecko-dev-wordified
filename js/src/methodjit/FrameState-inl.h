@@ -510,7 +510,7 @@ FrameState
 :
 peek
 (
-int32
+int32_t
 depth
 )
 {
@@ -583,13 +583,13 @@ FrameState
 :
 popn
 (
-uint32
+uint32_t
 n
 )
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -673,7 +673,7 @@ FrameState
 :
 getTemporary
 (
-uint32
+uint32_t
 which
 )
 {
@@ -702,7 +702,7 @@ temporariesTop
 return
 getOrTrack
 (
-uint32
+uint32_t
 (
 fe
 -
@@ -718,7 +718,7 @@ FrameState
 :
 allocReg
 (
-uint32
+uint32_t
 mask
 )
 {
@@ -848,13 +848,13 @@ type
 AnyRegisterID
 reg
 ;
-uint32
+uint32_t
 mask
 =
 fp
 ?
 (
-uint32
+uint32_t
 )
 Registers
 :
@@ -862,7 +862,7 @@ Registers
 AvailFPRegs
 :
 (
-uint32
+uint32_t
 )
 Registers
 :
@@ -2296,7 +2296,7 @@ FrameState
 :
 storeRegs
 (
-int32
+int32_t
 depth
 RegisterID
 type
@@ -4006,7 +4006,7 @@ tempRegInMaskForData
 FrameEntry
 *
 fe
-uint32
+uint32_t
 mask
 )
 {
@@ -6947,7 +6947,7 @@ unsync
 ;
 }
 inline
-int32
+int32_t
 FrameState
 :
 :
@@ -7081,7 +7081,7 @@ StackFrame
 :
 offsetOfFixed
 (
-uint32
+uint32_t
 (
 fe
 -
@@ -7117,7 +7117,7 @@ script
 function
 (
 )
-uint32
+uint32_t
 (
 fe
 -
@@ -7288,7 +7288,7 @@ na
 >
 parent
 ;
-int32
+int32_t
 offset
 =
 frameOffset
@@ -7318,7 +7318,7 @@ Value
 ;
 }
 inline
-uint32
+uint32_t
 FrameState
 :
 :
@@ -8215,7 +8215,7 @@ FrameState
 :
 getOrTrack
 (
-uint32
+uint32_t
 index
 )
 {
@@ -8265,7 +8265,7 @@ FrameState
 :
 getStack
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -8274,7 +8274,7 @@ if
 slot
 >
 =
-uint32
+uint32_t
 (
 a
 -
@@ -8293,7 +8293,7 @@ NULL
 return
 getOrTrack
 (
-uint32
+uint32_t
 (
 a
 -
@@ -8315,7 +8315,7 @@ FrameState
 :
 getLocal
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -8335,7 +8335,7 @@ nslots
 return
 getOrTrack
 (
-uint32
+uint32_t
 (
 a
 -
@@ -8357,7 +8357,7 @@ FrameState
 :
 getArg
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -8382,7 +8382,7 @@ nargs
 return
 getOrTrack
 (
-uint32
+uint32_t
 (
 a
 -
@@ -8409,7 +8409,7 @@ getThis
 return
 getOrTrack
 (
-uint32
+uint32_t
 (
 a
 -
@@ -8429,7 +8429,7 @@ FrameState
 :
 getSlotEntry
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -8452,7 +8452,7 @@ script
 return
 getOrTrack
 (
-uint32
+uint32_t
 (
 a
 -
@@ -8688,7 +8688,7 @@ FrameEntry
 rhs
 )
 {
-uint32
+uint32_t
 li
 =
 lhs
@@ -8698,7 +8698,7 @@ trackerIndex
 (
 )
 ;
-uint32
+uint32_t
 ri
 =
 rhs
@@ -8826,7 +8826,7 @@ FrameState
 :
 dupAt
 (
-int32
+int32_t
 n
 )
 {
@@ -8859,7 +8859,7 @@ FrameState
 :
 syncAt
 (
-int32
+int32_t
 n
 )
 {
@@ -8892,7 +8892,7 @@ FrameState
 :
 pushLocal
 (
-uint32
+uint32_t
 n
 )
 {
@@ -9049,7 +9049,7 @@ FrameState
 :
 pushArg
 (
-uint32
+uint32_t
 n
 )
 {
@@ -9383,7 +9383,7 @@ FrameState
 :
 leaveBlock
 (
-uint32
+uint32_t
 n
 )
 {
@@ -9400,7 +9400,7 @@ FrameState
 :
 enterBlock
 (
-uint32
+uint32_t
 n
 )
 {
@@ -9427,7 +9427,7 @@ nentries
 ;
 JS_ASSERT
 (
-uint32
+uint32_t
 (
 a
 -

@@ -624,11 +624,7 @@ such
 cases
 we
 store
-uint16
-(
--
-1
-)
+UINT16_MAX
 in
 maxScopeDepth
 .

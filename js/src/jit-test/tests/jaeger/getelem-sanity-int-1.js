@@ -63,7 +63,7 @@ arr
 /
 *
 Multiple
-int32
+int32_t
 getelem
 for
 dense

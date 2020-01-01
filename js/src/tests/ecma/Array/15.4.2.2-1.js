@@ -617,7 +617,7 @@ be
 updated
 since
 the
-ToUint32
+ToUint32_t
 description
 has
 changed

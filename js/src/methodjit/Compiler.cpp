@@ -1606,9 +1606,9 @@ addInlineFrame
 JSScript
 *
 script
-uint32
+uint32_t
 depth
-uint32
+uint32_t
 parent
 jsbytecode
 *
@@ -1656,7 +1656,7 @@ parentpc
 return
 Compile_Error
 ;
-uint32
+uint32_t
 index
 =
 ssa
@@ -1691,9 +1691,9 @@ Compiler
 :
 scanInlineCalls
 (
-uint32
+uint32_t
 index
-uint32
+uint32_t
 depth
 )
 {
@@ -1715,7 +1715,7 @@ site
 /
 static
 const
-uint32
+uint32_t
 INLINE_SITE_LIMIT
 =
 5
@@ -1875,7 +1875,7 @@ return
 Compile_Okay
 ;
 }
-uint32
+uint32_t
 nextOffset
 =
 0
@@ -1890,7 +1890,7 @@ script
 length
 )
 {
-uint32
+uint32_t
 offset
 =
 nextOffset
@@ -2006,7 +2006,7 @@ NULL
 )
 continue
 ;
-uint32
+uint32_t
 argc
 =
 GET_ARGC
@@ -2114,7 +2114,7 @@ barriers
 .
 *
 /
-uint32
+uint32_t
 stackLimit
 =
 outerScript
@@ -2151,7 +2151,7 @@ site
 .
 *
 /
-uint32
+uint32_t
 nextDepth
 =
 depth
@@ -2499,7 +2499,7 @@ yet
 .
 *
 /
-uint32
+uint32_t
 nindex
 =
 index
@@ -2920,7 +2920,7 @@ pushActiveFrame
 JSScript
 *
 script
-uint32
+uint32_t
 argc
 )
 {
@@ -3004,7 +3004,7 @@ newa
 >
 inlineIndex
 =
-uint32
+uint32_t
 (
 inlineFrames
 .
@@ -3139,7 +3139,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 slot
 =
 ArgSlot
@@ -3204,7 +3204,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 slot
 =
 LocalSlot
@@ -3323,7 +3323,7 @@ ifdef
 DEBUG
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3910,11 +3910,7 @@ NULL
 )
 inlineIndex
 (
-uint32
-(
--
-1
-)
+UINT32_MAX
 )
 varTypes
 (
@@ -4397,7 +4393,7 @@ Compile_Error
 ;
 for
 (
-uint32
+uint32_t
 slot
 =
 ArgSlot
@@ -5238,7 +5234,7 @@ stack
 .
 *
 /
-uint32
+uint32_t
 nvals
 =
 VALUES_PER_STACK_FRAME
@@ -6364,7 +6360,7 @@ doubles
 /
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -6394,7 +6390,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 slot
 =
 ArgSlot
@@ -6451,7 +6447,7 @@ markUndefinedLocals
 (
 )
 {
-uint32
+uint32_t
 depth
 =
 ssa
@@ -6497,7 +6493,7 @@ used
 /
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -6514,7 +6510,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 slot
 =
 LocalSlot
@@ -6945,12 +6941,12 @@ ExecutablePool
 *
 execPool
 ;
-uint8
+uint8_t
 *
 result
 =
 (
-uint8
+uint8_t
 *
 )
 script
@@ -7292,12 +7288,12 @@ length
 endif
 0
 ;
-uint8
+uint8_t
 *
 cursor
 =
 (
-uint8
+uint8_t
 *
 )
 cx
@@ -7668,7 +7664,7 @@ ix
 ncode
 =
 (
-uint8
+uint8_t
 *
 )
 (
@@ -7807,7 +7803,7 @@ j
 ncode
 =
 (
-uint8
+uint8_t
 *
 )
 stubCode
@@ -8128,11 +8124,7 @@ from
 inlineIndex
 !
 =
-uint32
-(
--
-1
-)
+UINT32_MAX
 )
 {
 if
@@ -8175,11 +8167,7 @@ from
 inlineIndex
 =
 =
-uint32
-(
--
-1
-)
+UINT32_MAX
 )
 ?
 outerScript
@@ -8194,7 +8182,7 @@ inlineIndex
 >
 script
 ;
-uint32
+uint32_t
 codeOffset
 =
 from
@@ -8911,7 +8899,7 @@ offset
 .
 *
 /
-uint32
+uint32_t
 offset
 =
 fullCode
@@ -9493,10 +9481,10 @@ trampolineStart
 }
 else
 {
-uint32
+uint32_t
 offs
 =
-uint32
+uint32_t
 (
 equalityICs
 [
@@ -10665,7 +10653,7 @@ i
 hasTypeCheck
 )
 {
-int32
+int32_t
 distance
 =
 stubcc
@@ -10746,7 +10734,7 @@ size_t
 cursor
 -
 (
-uint8
+uint8_t
 *
 )
 jit
@@ -10929,7 +10917,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 offset
 =
 jumpTableOffsets
@@ -11205,7 +11193,7 @@ current
 JSOp
 *
 /
-uint32
+uint32_t
 lineno
 ;
 /
@@ -11269,7 +11257,7 @@ SrcNoteLineScanner
 jssrcnote
 *
 sn
-uint32
+uint32_t
 lineno
 )
 :
@@ -11617,7 +11605,7 @@ return
 lineHeader
 ;
 }
-uint32
+uint32_t
 getLine
 (
 )
@@ -12403,7 +12391,7 @@ distanceOf
 start
 )
 ;
-uint32
+uint32_t
 offset
 =
 ssa
@@ -12554,7 +12542,7 @@ a
 >
 jumpMap
 [
-uint32
+uint32_t
 (
 PC
 -
@@ -13919,7 +13907,7 @@ BEGIN_CASE
 JSOP_PICK
 )
 {
-int32
+int32_t
 amt
 =
 GET_INT8
@@ -14039,7 +14027,7 @@ shift
 )
 for
 (
-int32
+int32_t
 i
 =
 -
@@ -15200,7 +15188,7 @@ BEGIN_CASE
 JSOP_DELNAME
 )
 {
-uint32
+uint32_t
 index
 =
 fullAtomIndex
@@ -15266,7 +15254,7 @@ BEGIN_CASE
 JSOP_DELPROP
 )
 {
-uint32
+uint32_t
 index
 =
 fullAtomIndex
@@ -16000,7 +15988,7 @@ BEGIN_CASE
 JSOP_DOUBLE
 )
 {
-uint32
+uint32_t
 index
 =
 fullAtomIndex
@@ -16779,7 +16767,7 @@ restoreVarType
 (
 )
 ;
-uint32
+uint32_t
 arg
 =
 GET_SLOTNO
@@ -16808,7 +16796,7 @@ restoreVarType
 (
 )
 ;
-uint32
+uint32_t
 arg
 =
 GET_SLOTNO
@@ -17033,7 +17021,7 @@ restoreVarType
 (
 )
 ;
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -17136,7 +17124,7 @@ BEGIN_CASE
 JSOP_SETLOCALPOP
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -18031,7 +18019,7 @@ BEGIN_CASE
 JSOP_DEFFUN
 )
 {
-uint32
+uint32_t
 index
 =
 fullAtomIndex
@@ -18099,7 +18087,7 @@ BEGIN_CASE
 JSOP_DEFCONST
 )
 {
-uint32
+uint32_t
 index
 =
 fullAtomIndex
@@ -18160,7 +18148,7 @@ BEGIN_CASE
 JSOP_SETCONST
 )
 {
-uint32
+uint32_t
 index
 =
 fullAtomIndex
@@ -18221,7 +18209,7 @@ BEGIN_CASE
 JSOP_DEFLOCALFUN_FC
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -18355,7 +18343,7 @@ stubs
 :
 Lambda
 ;
-uint32
+uint32_t
 uses
 =
 0
@@ -18771,7 +18759,7 @@ BEGIN_CASE
 JSOP_DEFLOCALFUN
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -18899,7 +18887,7 @@ BEGIN_CASE
 JSOP_CALLGNAME
 )
 {
-uint32
+uint32_t
 index
 =
 fullAtomIndex
@@ -19278,7 +19266,7 @@ restoreVarType
 (
 )
 ;
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -20075,7 +20063,7 @@ op
 .
 *
 /
-uint32
+uint32_t
 offset
 =
 ssa
@@ -20146,7 +20134,7 @@ distanceOf
 codeStart
 )
 ;
-uint32
+uint32_t
 offset
 =
 ssa
@@ -20267,7 +20255,7 @@ op
 .
 *
 /
-uint32
+uint32_t
 offset
 =
 ssa
@@ -22162,7 +22150,7 @@ labelOf
 jsbytecode
 *
 pc
-uint32
+uint32_t
 inlineIndex
 )
 {
@@ -22174,11 +22162,7 @@ a
 inlineIndex
 =
 =
-uint32
-(
--
-1
-)
+UINT32_MAX
 )
 ?
 outer
@@ -22190,7 +22174,7 @@ inlineIndex
 ;
 JS_ASSERT
 (
-uint32
+uint32_t
 (
 pc
 -
@@ -22212,10 +22196,10 @@ script
 length
 )
 ;
-uint32
+uint32_t
 offs
 =
-uint32
+uint32_t
 (
 pc
 -
@@ -22253,7 +22237,7 @@ offs
 ]
 ;
 }
-uint32
+uint32_t
 mjit
 :
 :
@@ -22355,7 +22339,7 @@ script
 code
 &
 &
-uint32
+uint32_t
 (
 pc
 -
@@ -22387,7 +22371,7 @@ a
 >
 jumpMap
 [
-uint32
+uint32_t
 (
 pc
 -
@@ -25414,7 +25398,7 @@ Compiler
 :
 emitUncachedCall
 (
-uint32
+uint32_t
 argc
 bool
 callingNew
@@ -25732,9 +25716,9 @@ Compiler
 :
 checkCallApplySpeculation
 (
-uint32
+uint32_t
 callImmArgc
-uint32
+uint32_t
 speculatedArgc
 FrameEntry
 *
@@ -26061,7 +26045,7 @@ label
 )
 )
 ;
-int32
+int32_t
 frameDepthAdjust
 ;
 if
@@ -26497,7 +26481,7 @@ Compiler
 :
 inlineCallHelper
 (
-uint32
+uint32_t
 callImmArgc
 bool
 callingNew
@@ -26506,7 +26490,7 @@ FrameSize
 callFrameSize
 )
 {
-int32
+int32_t
 speculatedArgc
 ;
 if
@@ -28690,7 +28674,7 @@ label
 (
 )
 ;
-uint32
+uint32_t
 flags
 =
 0
@@ -29134,7 +29118,7 @@ Compiler
 :
 callArrayBuiltin
 (
-uint32
+uint32_t
 argc
 bool
 callingNew
@@ -29411,7 +29395,7 @@ argc
 )
 )
 ;
-int32
+int32_t
 knownSize
 =
 0
@@ -29747,7 +29731,7 @@ site
 /
 static
 const
-uint32
+uint32_t
 INLINE_SITE_LIMIT
 =
 5
@@ -29761,7 +29745,7 @@ Compiler
 :
 inlineScriptedFunction
 (
-uint32
+uint32_t
 argc
 bool
 callingNew
@@ -31091,7 +31075,7 @@ isString
 )
 )
 {
-int32
+int32_t
 cmp
 ;
 CompareStrings
@@ -32226,7 +32210,7 @@ v
 .
 setNumber
 (
-uint32
+uint32_t
 (
 str
 -
@@ -33378,7 +33362,7 @@ addFreeze
 cx
 )
 ;
-uint32
+uint32_t
 slot
 =
 propertyTypes
@@ -34754,7 +34738,7 @@ call
 .
 *
 /
-uint32
+uint32_t
 thisvSlot
 =
 frame
@@ -37106,7 +37090,7 @@ property
 .
 *
 /
-uint32
+uint32_t
 last
 =
 0
@@ -38791,7 +38775,7 @@ addFreeze
 cx
 )
 ;
-uint32
+uint32_t
 slot
 =
 propertyTypes
@@ -44381,7 +44365,7 @@ Compiler
 :
 jsop_getgname_slow
 (
-uint32
+uint32_t
 index
 )
 {
@@ -44517,7 +44501,7 @@ Compiler
 :
 jsop_getgname
 (
-uint32
+uint32_t
 index
 )
 {
@@ -45243,7 +45227,7 @@ value
 .
 *
 /
-uint32
+uint32_t
 slot
 =
 1
@@ -47035,7 +47019,7 @@ value
 .
 *
 /
-uint32
+uint32_t
 slot
 =
 1
@@ -48072,7 +48056,7 @@ Compiler
 :
 emitEval
 (
-uint32
+uint32_t
 argc
 )
 {
@@ -48962,7 +48946,7 @@ asRegExp
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 origFlags
 =
@@ -48975,7 +48959,7 @@ getFlags
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 staticsFlags
 =
@@ -49147,7 +49131,7 @@ uses
 >
 offset
 ;
-uint32
+uint32_t
 which
 =
 uses
@@ -49272,7 +49256,7 @@ which
 0
 )
 {
-uint32
+uint32_t
 argc
 =
 GET_ARGC
@@ -49845,7 +49829,7 @@ headOffset
 )
 =
 =
-uint32
+uint32_t
 (
 head
 -
@@ -50343,7 +50327,7 @@ cases
 /
 for
 (
-uint32
+uint32_t
 slot
 =
 ArgSlot
@@ -50984,7 +50968,7 @@ opcode
 .
 *
 /
-uint32
+uint32_t
 offset
 =
 ssa
@@ -51158,7 +51142,7 @@ Registers
 ArgReg1
 )
 ;
-uint32
+uint32_t
 n
 =
 js_GetEnterBlockStackDefs
@@ -51225,7 +51209,7 @@ PutBlockObject
 .
 *
 /
-uint32
+uint32_t
 n
 =
 js_GetVariableStackUses
@@ -52053,7 +52037,7 @@ op
 JSOP_TABLESWITCHX
 )
 ;
-uint32
+uint32_t
 defaultTarget
 =
 GetJumpOffset
@@ -52428,7 +52412,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 target
 =
 GetJumpOffset
@@ -52446,7 +52430,7 @@ target
 =
 defaultTarget
 ;
-uint32
+uint32_t
 offset
 =
 (
@@ -53140,7 +53124,7 @@ phiOffset
 )
 !
 =
-uint32
+uint32_t
 (
 target
 -
@@ -53534,7 +53518,7 @@ pushedTypeSet
 0
 )
 ;
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -53840,7 +53824,7 @@ typeInferenceEnabled
 )
 return
 ;
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -54007,7 +53991,7 @@ Compiler
 :
 knownPushedType
 (
-uint32
+uint32_t
 pushed
 )
 {
@@ -54059,7 +54043,7 @@ Compiler
 :
 mayPushUndefined
 (
-uint32
+uint32_t
 pushed
 )
 {
@@ -54178,7 +54162,7 @@ Compiler
 :
 pushedTypeSet
 (
-uint32
+uint32_t
 pushed
 )
 {
@@ -54295,7 +54279,7 @@ Compiler
 :
 pushSyncedEntry
 (
-uint32
+uint32_t
 pushed
 )
 {
@@ -55955,7 +55939,7 @@ BarrierState
 barrier
 RejoinState
 rejoin
-uint32
+uint32_t
 which
 )
 {

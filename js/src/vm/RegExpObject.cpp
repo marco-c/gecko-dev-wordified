@@ -2007,7 +2007,7 @@ source
 =
 0
 ;
-uint32
+uint32_t
 flagsword
 =
 0

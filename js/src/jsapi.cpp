@@ -1342,7 +1342,7 @@ jschar
 ;
 JS_PUBLIC_API
 (
-int64
+int64_t
 )
 JS_Now
 (
@@ -1900,7 +1900,7 @@ sp
 va_arg
 (
 ap
-uint16
+uint16_t
 *
 )
 )
@@ -1926,7 +1926,7 @@ sp
 va_arg
 (
 ap
-int32
+int32_t
 *
 )
 )
@@ -1952,7 +1952,7 @@ sp
 va_arg
 (
 ap
-uint32
+uint32_t
 *
 )
 )
@@ -1978,7 +1978,7 @@ sp
 va_arg
 (
 ap
-int32
+int32_t
 *
 )
 )
@@ -3086,7 +3086,7 @@ ip
 }
 JS_PUBLIC_API
 (
-int32
+int32_t
 )
 JS_DoubleToInt32
 (
@@ -3103,7 +3103,7 @@ d
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_DoubleToUint32
 (
@@ -3129,7 +3129,7 @@ JSContext
 cx
 jsval
 v
-int32
+int32_t
 *
 ip
 )
@@ -3180,7 +3180,7 @@ JSContext
 cx
 jsval
 v
-uint32
+uint32_t
 *
 ip
 )
@@ -3231,7 +3231,7 @@ JSContext
 cx
 jsval
 v
-int32
+int32_t
 *
 ip
 )
@@ -3282,7 +3282,7 @@ JSContext
 cx
 jsval
 v
-uint16
+uint16_t
 *
 ip
 )
@@ -4115,7 +4115,7 @@ JSRuntime
 :
 init
 (
-uint32
+uint32_t
 maxbytes
 )
 {
@@ -4621,7 +4621,7 @@ JSRuntime
 )
 JS_NewRuntime
 (
-uint32
+uint32_t
 maxbytes
 )
 {
@@ -6442,7 +6442,7 @@ JSVERSION_UNKNOWN
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_GetOptions
 (
@@ -6574,14 +6574,14 @@ oldopts
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_SetOptions
 (
 JSContext
 *
 cx
-uint32
+uint32_t
 options
 )
 {
@@ -6604,14 +6604,14 @@ options
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_ToggleOptions
 (
 JSContext
 *
 cx
-uint32
+uint32_t
 options
 )
 {
@@ -12817,7 +12817,7 @@ DEBUG
 /
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_MapGCRoots
 (
@@ -15486,7 +15486,7 @@ JSRuntime
 rt
 JSGCParamKey
 key
-uint32
+uint32_t
 value
 )
 {
@@ -15578,7 +15578,7 @@ return
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_GetGCParameter
 (
@@ -15634,7 +15634,7 @@ case
 JSGC_MODE
 :
 return
-uint32
+uint32_t
 (
 rt
 -
@@ -15646,7 +15646,7 @@ case
 JSGC_UNUSED_CHUNKS
 :
 return
-uint32
+uint32_t
 (
 rt
 -
@@ -15662,7 +15662,7 @@ case
 JSGC_TOTAL_CHUNKS
 :
 return
-uint32
+uint32_t
 (
 rt
 -
@@ -15712,7 +15712,7 @@ JSContext
 cx
 JSGCParamKey
 key
-uint32
+uint32_t
 value
 )
 {
@@ -15727,7 +15727,7 @@ JSGC_MAX_CODE_CACHE_BYTES
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_GetGCParameterForThread
 (
@@ -17987,7 +17987,7 @@ it
 /
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -18645,7 +18645,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 jsval
 *
@@ -19011,7 +19011,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSBool
 *
@@ -19269,7 +19269,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSBool
 *
@@ -19673,7 +19673,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 jsval
 value
@@ -20015,7 +20015,7 @@ const
 char
 *
 name
-int8
+int8_t
 tinyid
 jsval
 value
@@ -20175,7 +20175,7 @@ jschar
 name
 size_t
 namelen
-int8
+int8_t
 tinyid
 jsval
 value
@@ -21659,7 +21659,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 jsval
 *
@@ -21689,7 +21689,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSObject
 *
@@ -21742,7 +21742,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSObject
 *
@@ -22147,7 +22147,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 jsval
 *
@@ -22355,7 +22355,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 jsval
 *
@@ -22541,7 +22541,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 )
 {
@@ -22875,7 +22875,7 @@ JS_Enumerating
 *
 /
 const
-uint32
+uint32_t
 JSSLOT_ITER_INDEX
 =
 0
@@ -23734,7 +23734,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 jsval
 *
@@ -23774,7 +23774,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 jsval
 v
@@ -24834,7 +24834,7 @@ upvars
 (
 )
 ;
-uint32
+uint32_t
 i
 =
 uva
@@ -25047,7 +25047,7 @@ flags
 }
 JS_PUBLIC_API
 (
-uint16
+uint16_t
 )
 JS_GetFunctionArity
 (
@@ -25953,7 +25953,7 @@ JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 ;
 inline
 static
-uint32
+uint32_t
 JS_OPTIONS_TO_TCFLAGS
 (
 JSContext
@@ -26056,7 +26056,7 @@ lfc
 cx
 )
 ;
-uint32
+uint32_t
 tcflags
 =
 JS_OPTIONS_TO_TCFLAGS
@@ -27083,7 +27083,7 @@ len
 =
 i
 ;
-uint32
+uint32_t
 tcflags
 =
 JS_OPTIONS_TO_TCFLAGS
@@ -27616,7 +27616,7 @@ i
 +
 )
 {
-uint16
+uint16_t
 dummy
 ;
 JSAtom
@@ -28571,7 +28571,7 @@ runtime
 atomsCompartment
 )
 ;
-uint32
+uint32_t
 flags
 =
 TCF_COMPILE_N_GO
@@ -30860,7 +30860,7 @@ str1
 JSString
 *
 str2
-int32
+int32_t
 *
 result
 )
@@ -31816,7 +31816,7 @@ const
 jschar
 *
 chars
-uint32
+uint32_t
 len
 jsval
 *
@@ -31854,7 +31854,7 @@ const
 jschar
 *
 chars
-uint32
+uint32_t
 len
 jsval
 reviver
@@ -31889,12 +31889,12 @@ JSContext
 *
 cx
 const
-uint64
+uint64_t
 *
 buf
 size_t
 nbytes
-uint32
+uint32_t
 version
 jsval
 *
@@ -31972,7 +31972,7 @@ JSContext
 cx
 jsval
 v
-uint64
+uint64_t
 *
 *
 bufp
@@ -32139,12 +32139,12 @@ JSAutoStructuredCloneBuffer
 :
 adopt
 (
-JSUint64
+uint64_t
 *
 data
 size_t
 nbytes
-JSUint32
+uint32_t
 version
 )
 {
@@ -32172,22 +32172,22 @@ JSAutoStructuredCloneBuffer
 copy
 (
 const
-JSUint64
+uint64_t
 *
 srcData
 size_t
 nbytes
-JSUint32
+uint32_t
 version
 )
 {
-JSUint64
+uint64_t
 *
 newData
 =
 static_cast
 <
-JSUint64
+uint64_t
 *
 >
 (
@@ -32241,14 +32241,14 @@ JSAutoStructuredCloneBuffer
 :
 steal
 (
-JSUint64
+uint64_t
 *
 *
 datap
 size_t
 *
 nbytesp
-JSUint32
+uint32_t
 *
 versionp
 )
@@ -32407,7 +32407,7 @@ JSAutoStructuredCloneBuffer
 other
 )
 {
-JSUint64
+uint64_t
 *
 data
 =
@@ -32422,7 +32422,7 @@ other
 .
 nbytes_
 ;
-JSUint32
+uint32_t
 version
 =
 other
@@ -32510,10 +32510,10 @@ JS_ReadUint32Pair
 JSStructuredCloneReader
 *
 r
-uint32
+uint32_t
 *
 p1
-uint32
+uint32_t
 *
 p2
 )
@@ -32581,9 +32581,9 @@ JS_WriteUint32Pair
 JSStructuredCloneWriter
 *
 w
-uint32
+uint32_t
 tag
-uint32
+uint32_t
 data
 )
 {
@@ -35295,9 +35295,9 @@ JS_SetGCZeal
 JSContext
 *
 cx
-uint8
+uint8_t
 zeal
-uint32
+uint32_t
 frequency
 JSBool
 compartment
@@ -35384,7 +35384,7 @@ JS_ScheduleGC
 JSContext
 *
 cx
-uint32
+uint32_t
 count
 JSBool
 compartment
@@ -35621,7 +35621,7 @@ rt
 gcRunning
 )
 ;
-uint32
+uint32_t
 kind
 =
 GetGCThingTraceKind
@@ -36000,7 +36000,7 @@ JS_IndexToId
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 jsid
 *

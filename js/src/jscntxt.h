@@ -653,7 +653,7 @@ JSSharpObjectMap
 jsrefcount
 depth
 ;
-uint32
+uint32_t
 sharpgen
 ;
 JSHashTable
@@ -861,7 +861,7 @@ interruptCounter
 *
 /
 volatile
-int32
+int32_t
 interruptFlags
 ;
 #
@@ -2249,10 +2249,10 @@ gcLocksHash
 jsrefcount
 gcKeepAtoms
 ;
-uint32
+uint32_t
 gcBytes
 ;
-uint32
+uint32_t
 gcTriggerBytes
 ;
 size_t
@@ -2264,7 +2264,7 @@ gcMaxBytes
 size_t
 gcMaxMallocBytes
 ;
-uint32
+uint32_t
 gcEmptyArenaPoolLifespan
 ;
 /
@@ -2286,10 +2286,10 @@ correctness
 *
 /
 volatile
-uint32
+uint32_t
 gcNumFreeArenas
 ;
-uint32
+uint32_t
 gcNumber
 ;
 js
@@ -2306,10 +2306,10 @@ gcVerifyData
 bool
 gcChunkAllocationSinceLastGC
 ;
-int64
+int64_t
 gcNextFullGCTime
 ;
-int64
+int64_t
 gcJitReleaseTime
 ;
 JSGCMode
@@ -3137,7 +3137,7 @@ PRCondVar
 *
 requestDone
 ;
-uint32
+uint32_t
 requestCount
 ;
 JSThread
@@ -3248,7 +3248,7 @@ endif
 JS_THREADSAFE
 *
 /
-uint32
+uint32_t
 debuggerMutations
 ;
 /
@@ -3357,7 +3357,7 @@ cpp
 .
 *
 /
-int32
+int32_t
 propertyRemovals
 ;
 /
@@ -3494,7 +3494,7 @@ interrupts
 *
 /
 volatile
-int32
+int32_t
 interruptCounter
 ;
 #
@@ -3651,7 +3651,7 @@ it
 .
 *
 /
-int32
+int32_t
 inOOMReport
 ;
 JSRuntime
@@ -3666,7 +3666,7 @@ JSRuntime
 bool
 init
 (
-uint32
+uint32_t
 maxbytes
 )
 ;
@@ -3692,7 +3692,7 @@ gckind
 void
 reduceGCTriggerBytes
 (
-uint32
+uint32_t
 amount
 )
 ;
@@ -4529,7 +4529,7 @@ inline
 bool
 OptionsHasXML
 (
-uint32
+uint32_t
 options
 )
 {
@@ -4548,15 +4548,15 @@ inline
 bool
 OptionsSameVersionFlags
 (
-uint32
+uint32_t
 self
-uint32
+uint32_t
 other
 )
 {
 static
 const
-uint32
+uint32_t
 mask
 =
 JSOPTION_XML
@@ -4719,7 +4719,7 @@ version
 return
 JSVersion
 (
-uint32
+uint32_t
 (
 version
 )
@@ -4816,7 +4816,7 @@ version
 =
 JSVersion
 (
-uint32
+uint32_t
 (
 *
 version
@@ -4834,7 +4834,7 @@ version
 =
 JSVersion
 (
-uint32
+uint32_t
 (
 *
 version
@@ -4860,7 +4860,7 @@ version
 return
 JSVersion
 (
-uint32
+uint32_t
 (
 version
 )
@@ -5169,7 +5169,7 @@ JSOPTION_
 /
 public
 :
-int32
+int32_t
 reportGranularity
 ;
 /
@@ -6240,7 +6240,7 @@ cpp
 .
 *
 /
-int64
+int64_t
 rngSeed
 ;
 /

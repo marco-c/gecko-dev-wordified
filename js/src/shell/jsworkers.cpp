@@ -1852,7 +1852,7 @@ Worker
 *
 child
 ;
-uint64
+uint64_t
 *
 data
 ;
@@ -1990,7 +1990,7 @@ jsval
 v
 )
 {
-uint64
+uint64_t
 *
 data
 ;

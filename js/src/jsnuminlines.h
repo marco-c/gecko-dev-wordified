@@ -464,12 +464,12 @@ template
 struct
 NumberTraits
 <
-int32
+int32_t
 >
 {
 static
 JS_ALWAYS_INLINE
-int32
+int32_t
 NaN
 (
 )
@@ -480,10 +480,10 @@ return
 }
 static
 JS_ALWAYS_INLINE
-int32
+int32_t
 toSelfType
 (
-int32
+int32_t
 i
 )
 {
@@ -493,7 +493,7 @@ i
 }
 static
 JS_ALWAYS_INLINE
-int32
+int32_t
 toSelfType
 (
 jsdouble
@@ -534,7 +534,7 @@ JS_ALWAYS_INLINE
 jsdouble
 toSelfType
 (
-int32
+int32_t
 i
 )
 {

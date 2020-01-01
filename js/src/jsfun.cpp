@@ -925,7 +925,7 @@ create
 JSContext
 *
 cx
-uint32
+uint32_t
 argc
 JSObject
 &
@@ -1165,7 +1165,7 @@ JS_ASSERT
 UINT32_MAX
 >
 (
-uint64
+uint64_t
 (
 argc
 )
@@ -2520,10 +2520,10 @@ id
 )
 )
 {
-uint32
+uint32_t
 arg
 =
-uint32
+uint32_t
 (
 JSID_TO_INT
 (
@@ -3253,10 +3253,10 @@ id
 )
 )
 {
-uint32
+uint32_t
 arg
 =
-uint32
+uint32_t
 (
 JSID_TO_INT
 (
@@ -3582,7 +3582,7 @@ false
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -4926,7 +4926,7 @@ n
 0
 )
 {
-uint32
+uint32_t
 nvars
 =
 bindings
@@ -4935,7 +4935,7 @@ countVars
 (
 )
 ;
-uint32
+uint32_t
 nargs
 =
 bindings
@@ -5081,7 +5081,7 @@ undefined
 .
 *
 /
-uint32
+uint32_t
 nclosed
 =
 script
@@ -5091,7 +5091,7 @@ nClosedArgs
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -5105,7 +5105,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 e
 =
 script
@@ -5161,7 +5161,7 @@ nClosedVars
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -5175,7 +5175,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 e
 =
 script
@@ -5567,7 +5567,7 @@ asCall
 JS_ASSERT
 (
 (
-int16
+int16_t
 )
 JSID_TO_INT
 (
@@ -5585,7 +5585,7 @@ uintN
 i
 =
 (
-uint16
+uint16_t
 )
 JSID_TO_INT
 (
@@ -5662,7 +5662,7 @@ asCall
 JS_ASSERT
 (
 (
-int16
+int16_t
 )
 JSID_TO_INT
 (
@@ -5680,7 +5680,7 @@ uintN
 i
 =
 (
-uint16
+uint16_t
 )
 JSID_TO_INT
 (
@@ -5801,7 +5801,7 @@ asCall
 JS_ASSERT
 (
 (
-int16
+int16_t
 )
 JSID_TO_INT
 (
@@ -5819,7 +5819,7 @@ uintN
 i
 =
 (
-uint16
+uint16_t
 )
 JSID_TO_INT
 (
@@ -5882,7 +5882,7 @@ asCall
 JS_ASSERT
 (
 (
-int16
+int16_t
 )
 JSID_TO_INT
 (
@@ -5900,7 +5900,7 @@ uintN
 i
 =
 (
-uint16
+uint16_t
 )
 JSID_TO_INT
 (
@@ -5960,7 +5960,7 @@ asCall
 JS_ASSERT
 (
 (
-int16
+int16_t
 )
 JSID_TO_INT
 (
@@ -5978,7 +5978,7 @@ uintN
 i
 =
 (
-uint16
+uint16_t
 )
 JSID_TO_INT
 (
@@ -6055,7 +6055,7 @@ asCall
 JS_ASSERT
 (
 (
-int16
+int16_t
 )
 JSID_TO_INT
 (
@@ -6073,7 +6073,7 @@ uintN
 i
 =
 (
-uint16
+uint16_t
 )
 JSID_TO_INT
 (
@@ -8024,7 +8024,7 @@ mode
 /
 static
 const
-uint16
+uint16_t
 poisonPillProps
 [
 ]
@@ -8199,7 +8199,7 @@ i
 )
 {
 const
-uint16
+uint16_t
 offset
 =
 poisonPillProps
@@ -8926,7 +8926,7 @@ i
 )
 {
 const
-uint16
+uint16_t
 offset
 =
 poisonPillProps
@@ -9109,7 +9109,7 @@ JSFunction
 *
 fun
 ;
-uint32
+uint32_t
 firstword
 ;
 /
@@ -9152,7 +9152,7 @@ future
 use
 *
 /
-uint32
+uint32_t
 flagsword
 ;
 /
@@ -9445,7 +9445,7 @@ fun
 >
 flags
 =
-uint16
+uint16_t
 (
 flagsword
 )
@@ -11059,21 +11059,21 @@ vp
 }
 static
 const
-uint32
+uint32_t
 JSSLOT_BOUND_FUNCTION_THIS
 =
 0
 ;
 static
 const
-uint32
+uint32_t
 JSSLOT_BOUND_FUNCTION_ARGS_COUNT
 =
 1
 ;
 static
 const
-uint32
+uint32_t
 BOUND_FUNCTION_RESERVED_SLOTS
 =
 2
@@ -13245,7 +13245,7 @@ false
 ;
 }
 }
-uint16
+uint16_t
 dummy
 ;
 if
@@ -13975,7 +13975,7 @@ fun
 >
 nargs
 =
-uint16
+uint16_t
 (
 nargs
 )
@@ -14755,7 +14755,7 @@ closure
 return
 closure
 ;
-uint32
+uint32_t
 nslots
 =
 fun
@@ -14972,7 +14972,7 @@ upvars
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

@@ -1132,7 +1132,7 @@ boxNonDoubleFrom
 (
 JSValueType
 type
-uint64
+uint64_t
 *
 out
 )

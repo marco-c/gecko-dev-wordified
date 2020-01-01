@@ -3313,7 +3313,7 @@ width
 of
 the
 image
-uint32
+uint32_t
 width
 ;
 JSBool
@@ -3383,7 +3383,7 @@ height
 of
 the
 image
-uint32
+uint32_t
 height
 ;
 ret

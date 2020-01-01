@@ -1306,7 +1306,7 @@ const
 jschar
 *
 buf
-uint32
+uint32_t
 len
 void
 *

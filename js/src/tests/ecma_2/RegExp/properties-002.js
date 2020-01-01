@@ -881,7 +881,7 @@ double
 instead
 of
 a
-uint32
+uint32_t
 (
 unsigned
 integer

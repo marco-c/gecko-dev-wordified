@@ -670,7 +670,7 @@ table_
 (
 *
 (
-uint32
+uint32_t
 *
 )
 (
@@ -755,13 +755,7 @@ value
 #
 define
 IMMUTABLE_RECURSION_LEVEL
-(
-(
-uint32
-)
--
-1
-)
+UINT32_MAX
 #
 define
 RECURSION_LEVEL_SAFE_TO_FINISH
@@ -793,7 +787,7 @@ define
 ENTRY_STORE_EXTRA
 sizeof
 (
-uint32
+uint32_t
 )
 #
 define
@@ -909,7 +903,7 @@ JS_DHashAllocTable
 JSDHashTable
 *
 table
-uint32
+uint32_t
 nbytes
 )
 {
@@ -1337,9 +1331,9 @@ ops
 void
 *
 data
-uint32
+uint32_t
 entrySize
-uint32
+uint32_t
 capacity
 )
 {
@@ -1441,16 +1435,16 @@ ops
 void
 *
 data
-uint32
+uint32_t
 entrySize
-uint32
+uint32_t
 capacity
 )
 {
 int
 log2
 ;
-uint32
+uint32_t
 nbytes
 ;
 #
@@ -1597,7 +1591,7 @@ table
 maxAlphaFrac
 =
 (
-uint8
+uint8_t
 )
 (
 0x100
@@ -1611,7 +1605,7 @@ table
 minAlphaFrac
 =
 (
-uint8
+uint8_t
 )
 (
 0x100
@@ -1808,7 +1802,7 @@ float
 minAlpha
 )
 {
-uint32
+uint32_t
 size
 ;
 /
@@ -2063,7 +2057,7 @@ table
 maxAlphaFrac
 =
 (
-uint8
+uint8_t
 )
 (
 maxAlpha
@@ -2077,7 +2071,7 @@ table
 minAlphaFrac
 =
 (
-uint8
+uint8_t
 )
 (
 minAlpha
@@ -2495,7 +2489,7 @@ entryAddr
 *
 entryLimit
 ;
-uint32
+uint32_t
 entrySize
 ;
 JSDHashEntryHdr
@@ -2763,7 +2757,7 @@ firstRemoved
 JSDHashMatchEntry
 matchEntry
 ;
-uint32
+uint32_t
 sizeMask
 ;
 METER
@@ -3234,7 +3228,7 @@ JSDHashEntryHdr
 *
 entry
 ;
-uint32
+uint32_t
 sizeMask
 ;
 METER
@@ -3465,7 +3459,7 @@ int
 oldLog2
 newLog2
 ;
-uint32
+uint32_t
 oldCapacity
 newCapacity
 ;
@@ -3477,7 +3471,7 @@ oldEntryStore
 *
 oldEntryAddr
 ;
-uint32
+uint32_t
 entrySize
 i
 nbytes
@@ -3494,7 +3488,7 @@ moveEntry
 #
 ifdef
 DEBUG
-uint32
+uint32_t
 recursionLevel
 ;
 #
@@ -3845,7 +3839,7 @@ JSDHashEntryHdr
 *
 entry
 ;
-uint32
+uint32_t
 size
 ;
 int
@@ -4658,7 +4652,7 @@ entryCount
 }
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_DHashTableEnumerate
 (
@@ -4678,7 +4672,7 @@ entryAddr
 *
 entryLimit
 ;
-uint32
+uint32_t
 i
 capacity
 entrySize
@@ -5041,7 +5035,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -5254,7 +5248,7 @@ char
 *
 entryAddr
 ;
-uint32
+uint32_t
 entrySize
 entryCount
 ;
@@ -5262,7 +5256,7 @@ int
 hashShift
 sizeLog2
 ;
-uint32
+uint32_t
 i
 tableSize
 sizeMask

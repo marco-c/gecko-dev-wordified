@@ -587,12 +587,12 @@ above
 .
 *
 /
-uint64
+uint64_t
 id
 ;
 CrashHeader
 (
-uint64
+uint64_t
 id
 )
 :
@@ -614,7 +614,7 @@ crash_cookie_len
 struct
 CrashRegisters
 {
-uint64
+uint64_t
 ip
 sp
 bp
@@ -635,7 +635,7 @@ CrashStack
 {
 CrashStack
 (
-uint64
+uint64_t
 id
 )
 :
@@ -648,7 +648,7 @@ id
 CrashHeader
 header
 ;
-uint64
+uint64_t
 snaptime
 ;
 /
@@ -676,7 +676,7 @@ snapshot
 .
 *
 /
-uint64
+uint64_t
 stack_base
 ;
 /
@@ -693,7 +693,7 @@ snapshot
 .
 *
 /
-uint64
+uint64_t
 stack_len
 ;
 /
@@ -727,7 +727,7 @@ CrashRing
 {
 CrashRing
 (
-uint64
+uint64_t
 id
 )
 :
@@ -754,7 +754,7 @@ buffer
 CrashHeader
 header
 ;
-uint64
+uint64_t
 offset
 ;
 /

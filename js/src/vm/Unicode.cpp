@@ -1112,7 +1112,7 @@ js_charinfo
 }
 ;
 const
-uint16
+uint16_t
 index1
 [
 ]
@@ -2145,7 +2145,7 @@ index1
 }
 ;
 const
-uint16
+uint16_t
 index2
 [
 ]
