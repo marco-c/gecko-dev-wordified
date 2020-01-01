@@ -1944,10 +1944,9 @@ aResult
 return
 nsnull
 ;
-if
-(
-NS_FAILED
-(
+*
+aResult
+=
 process
 -
 >
@@ -1955,6 +1954,13 @@ Init
 (
 aApp
 )
+;
+if
+(
+NS_FAILED
+(
+*
+aResult
 )
 )
 return
