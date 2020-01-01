@@ -65,7 +65,9 @@ mozilla_PaintTracker_h
 #
 include
 "
-nscore
+mozilla
+/
+Attributes
 .
 h
 "

@@ -151,14 +151,7 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
-nsWeakPtr
+nsIWeakReferenceUtils
 .
 h
 "
@@ -174,6 +167,9 @@ nsRenderingContext
 ;
 class
 nsDisplayListBuilder
+;
+class
+nsITimer
 ;
 /
 /

@@ -66,9 +66,14 @@ h
 #
 include
 "
-mozilla
-/
-MemoryReporting
+nsAlgorithm
+.
+h
+"
+#
+include
+"
+nsDebug
 .
 h
 "

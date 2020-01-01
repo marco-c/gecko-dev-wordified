@@ -319,6 +319,13 @@ h
 #
 include
 "
+nsBindingManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

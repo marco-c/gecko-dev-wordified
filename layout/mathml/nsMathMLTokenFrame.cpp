@@ -158,6 +158,13 @@ h
 "
 #
 include
+"
+RestyleManager
+.
+h
+"
+#
+include
 <
 algorithm
 >

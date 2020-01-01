@@ -165,13 +165,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsTObserverArray
 .
 h
@@ -180,13 +173,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsAutoPtr
 .
 h
 "

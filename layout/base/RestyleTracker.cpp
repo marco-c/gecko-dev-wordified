@@ -133,14 +133,14 @@ h
 #
 include
 "
-nsCSSFrameConstructor
+nsStyleChangeList
 .
 h
 "
 #
 include
 "
-nsStyleChangeList
+RestyleManager
 .
 h
 "

@@ -257,13 +257,6 @@ h
 #
 include
 "
-nsPresArena
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

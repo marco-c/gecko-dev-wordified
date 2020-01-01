@@ -157,13 +157,6 @@ h
 #
 include
 "
-nsTPriorityQueue
-.
-h
-"
-#
-include
-"
 mozilla
 /
 SplayTree
