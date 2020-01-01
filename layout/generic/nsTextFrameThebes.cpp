@@ -33898,6 +33898,16 @@ nscoord
 aLeftSideOffset
 )
 {
+SAMPLE_LABEL
+(
+"
+nsTextFrame
+"
+"
+PaintOneShadow
+"
+)
+;
 gfxPoint
 shadowOffset
 (
