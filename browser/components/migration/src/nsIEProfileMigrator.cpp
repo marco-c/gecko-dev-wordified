@@ -6655,8 +6655,9 @@ pstoreDLL
 =
 :
 :
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 pstorec
 .
@@ -9275,8 +9276,9 @@ pstoreDLL
 =
 :
 :
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 pstorec
 .
@@ -10852,7 +10854,7 @@ aOutURL
 HRESULT
 result
 ;
-IUniformResourceLocator
+IUniformResourceLocatorW
 *
 urlLink
 =
@@ -10867,7 +10869,7 @@ CoCreateInstance
 CLSID_InternetShortcut
 NULL
 CLSCTX_INPROC_SERVER
-IID_IUniformResourceLocator
+IID_IUniformResourceLocatorW
 (
 void
 *
@@ -10945,7 +10947,7 @@ result
 )
 )
 {
-LPSTR
+LPWSTR
 lpTemp
 =
 nsnull
@@ -10975,9 +10977,16 @@ lpTemp
 *
 aOutURL
 =
-PL_strdup
+(
+char
+*
+)
+ToNewUTF8String
+(
+nsDependentString
 (
 lpTemp
+)
 )
 ;
 /
