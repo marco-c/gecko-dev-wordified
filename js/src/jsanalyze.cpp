@@ -5855,6 +5855,7 @@ targetOffset
 =
 FollowBranch
 (
+cx
 script
 offset
 )
@@ -10381,6 +10382,7 @@ targetOffset
 =
 FollowBranch
 (
+cx
 script
 offset
 )
