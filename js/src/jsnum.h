@@ -1677,9 +1677,6 @@ extern
 JSBool
 js_DoubleToECMAInt32
 (
-JSContext
-*
-cx
 jsdouble
 d
 int32
@@ -1728,9 +1725,6 @@ extern
 JSBool
 js_DoubleToECMAUint32
 (
-JSContext
-*
-cx
 jsdouble
 d
 uint32
