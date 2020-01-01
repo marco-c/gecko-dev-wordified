@@ -828,14 +828,10 @@ inner
 if
 (
 !
-define
+defineReuseInput
 (
 lir
 unbox
-LDefinition
-:
-:
-CAN_REUSE_INPUT
 )
 )
 return
@@ -944,7 +940,7 @@ phi
 uint32
 first_vreg
 =
-nextVirtualRegister
+getVirtualRegister
 (
 )
 ;
@@ -982,7 +978,7 @@ MIRType_Value
 uint32
 payload_vreg
 =
-nextVirtualRegister
+getVirtualRegister
 (
 )
 ;

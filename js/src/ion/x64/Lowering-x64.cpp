@@ -848,10 +848,6 @@ LDefinition
 :
 :
 POINTER
-LDefinition
-:
-:
-CAN_REUSE_INPUT
 )
 ;
 LUnboxObject
@@ -1020,7 +1016,7 @@ phi
 uint32
 vreg
 =
-nextVirtualRegister
+getVirtualRegister
 (
 )
 ;

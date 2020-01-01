@@ -486,12 +486,16 @@ gen
 MIRGraph
 &
 graph
+LIRGraph
+&
+lirGraph
 )
 :
 LIRGenerator
 (
 gen
 graph
+lirGraph
 )
 {
 }
