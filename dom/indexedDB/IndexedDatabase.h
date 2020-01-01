@@ -473,6 +473,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
