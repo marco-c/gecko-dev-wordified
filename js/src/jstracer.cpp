@@ -13221,14 +13221,12 @@ tm
 >
 fcache
 [
+jsuword
 (
-(
-long
-)
 pc
 )
-%
-JS_FRAGMENT_CACHE_SIZE
+&
+JS_FRAGMENT_CACHE_MASK
 ]
 ;
 if
@@ -13241,6 +13239,7 @@ pc
 =
 pc
 )
+{
 f
 =
 cacheEntry
@@ -13248,6 +13247,7 @@ cacheEntry
 >
 fragment
 ;
+}
 else
 {
 f
