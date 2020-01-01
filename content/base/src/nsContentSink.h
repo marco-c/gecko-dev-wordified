@@ -980,11 +980,6 @@ UpdateChildCounts
 =
 0
 ;
-PRBool
-IsTimeToNotify
-(
-)
-;
 protected
 :
 nsContentSink
@@ -1637,8 +1632,6 @@ CacheSelectionAction
 aAction
 )
 ;
-public
-:
 /
 /
 Searches
@@ -1693,8 +1686,6 @@ nsIContent
 aElement
 )
 ;
-protected
-:
 /
 /
 Tries
@@ -1777,8 +1768,6 @@ all
 done
 loading
 .
-public
-:
 void
 StartLayout
 (
@@ -1786,8 +1775,11 @@ PRBool
 aIgnorePendingSheets
 )
 ;
-protected
-:
+PRBool
+IsTimeToNotify
+(
+)
+;
 void
 FavorPerformanceHint
 (

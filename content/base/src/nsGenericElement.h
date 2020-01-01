@@ -1716,10 +1716,6 @@ PRUint32
 aIndex
 PRBool
 aNotify
-PRBool
-aMutationEvent
-=
-PR_TRUE
 )
 ;
 virtual
@@ -3785,8 +3781,6 @@ aDocument
 nsAttrAndChildArray
 &
 aChildArray
-PRBool
-aMutationEvent
 )
 ;
 /
