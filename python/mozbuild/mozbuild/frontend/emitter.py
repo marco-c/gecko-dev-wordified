@@ -871,6 +871,12 @@ LIBS
 LIBS
 '
             
+LIBXUL_LIBRARY
+=
+'
+LIBXUL_LIBRARY
+'
+            
 MODULE
 =
 '
