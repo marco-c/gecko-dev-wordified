@@ -454,6 +454,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 nsRelUtils
 .
 h

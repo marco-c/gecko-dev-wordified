@@ -7466,10 +7466,10 @@ mCachedTextEquiv
 textEquiv
 )
 {
-nsAccUtils
+nsEventShell
 :
 :
-FireAccEvent
+FireEvent
 (
 nsIAccessibleEvent
 :
