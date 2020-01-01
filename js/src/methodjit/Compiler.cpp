@@ -18928,11 +18928,13 @@ label
 (
 )
 ;
+frame
+.
+sync
+(
 stubcc
 .
-linkExit
-(
-j
+masm
 Uses
 (
 0
