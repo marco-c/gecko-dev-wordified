@@ -5741,9 +5741,8 @@ return
 JS_TRUE
 ;
 }
-static
 JSBool
-str_charCodeAt
+js_str_charCodeAt
 (
 JSContext
 *
@@ -13938,7 +13937,7 @@ JS_FN
 "
 charCodeAt
 "
-str_charCodeAt
+js_str_charCodeAt
 1
 1
 GENERIC_PRIMITIVE
@@ -14357,9 +14356,8 @@ return
 JS_TRUE
 ;
 }
-static
 JSBool
-str_fromCharCode
+js_str_fromCharCode
 (
 JSContext
 *
@@ -14546,7 +14544,7 @@ JS_FN
 "
 fromCharCode
 "
-str_fromCharCode
+js_str_fromCharCode
 0
 1
 0
