@@ -10238,6 +10238,11 @@ get
 }
 }
 ;
+extern
+const
+JSSecurityCallbacks
+NullSecurityCallbacks
+;
 }
 /
 *
