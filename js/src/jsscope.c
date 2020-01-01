@@ -2555,7 +2555,7 @@ SPROP_FLAGS_NOT_MATCHED
 (
 SPROP_MARK
 |
-SPROP_IS_DUPLICATE
+SPROP_ALLOW_DUPLICATE
 )
 JS_STATIC_DLL_CALLBACK
 (
@@ -5897,7 +5897,7 @@ sprop
 >
 flags
 &
-SPROP_IS_DUPLICATE
+SPROP_ALLOW_DUPLICATE
 )
 )
 ;
@@ -6589,11 +6589,11 @@ old
 one
 .
 The
-SPROP_IS_DUPLICATE
+SPROP_ALLOW_DUPLICATE
 flag
 helps
-us
 *
+us
 cope
 with
 the
@@ -6603,8 +6603,8 @@ between
 ancestor
 line
 height
-and
 *
+and
 scope
 -
 >
@@ -6616,7 +6616,7 @@ if
 (
 flags
 &
-SPROP_IS_DUPLICATE
+SPROP_ALLOW_DUPLICATE
 )
 {
 sprop
@@ -6625,7 +6625,7 @@ sprop
 flags
 |
 =
-SPROP_IS_DUPLICATE
+SPROP_ALLOW_DUPLICATE
 ;
 }
 else
@@ -7105,7 +7105,7 @@ ids
 (
 unless
 flagged
-SPROP_IS_DUPLICATE
+SPROP_ALLOW_DUPLICATE
 )
 .
 *
@@ -8063,6 +8063,9 @@ child
 flags
 =
 flags
+&
+~
+SPROP_ALLOW_DUPLICATE
 ;
 child
 .

@@ -10069,11 +10069,7 @@ obj
 ;
 fun
 =
-(
-JSFunction
-*
-)
-OBJ_GET_PRIVATE
+GET_FUNCTION_PRIVATE
 (
 cx
 obj
