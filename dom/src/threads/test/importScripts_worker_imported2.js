@@ -40,14 +40,4 @@ importedScriptFunction2
 (
 )
 {
-dump
-(
-"
-running
-importedScriptFunction2
-\
-n
-"
-)
-;
 }
