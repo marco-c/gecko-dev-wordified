@@ -2198,9 +2198,7 @@ document
 and
 all
 of
-it
-'
-s
+its
 subframes
 if
 any

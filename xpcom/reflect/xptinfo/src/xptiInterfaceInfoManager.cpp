@@ -1467,9 +1467,7 @@ a
 valid
 nsIFile
 via
-it
-'
-s
+its
 directory
 service
 provider

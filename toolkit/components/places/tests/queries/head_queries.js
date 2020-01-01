@@ -1969,9 +1969,7 @@ resulting
 query
 .
 *
-It
-'
-s
+Its
 parameter
 is
 an

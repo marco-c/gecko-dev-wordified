@@ -3509,9 +3509,7 @@ make
 sure
 none
 of
-it
-'
-s
+its
 children
 point
 to
@@ -12469,9 +12467,7 @@ contain
 children
 that
 define
-it
-'
-s
+its
 text
 -
 -
@@ -17030,7 +17026,7 @@ if
 it
 '
 s
-an
+a
 simple
 xlink
 .
@@ -17629,7 +17625,7 @@ if
 it
 '
 s
-an
+a
 simple
 xlink
 .
@@ -17750,6 +17746,7 @@ if
 it
 '
 s
+a
 simple
 xlink
 .
@@ -17950,6 +17947,7 @@ if
 it
 '
 s
+a
 simple
 xlink
 .
@@ -21298,6 +21296,7 @@ if
 it
 '
 s
+a
 simple
 xlink
 .

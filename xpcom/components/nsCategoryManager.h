@@ -633,9 +633,7 @@ keeps
 a
 hashtable
 of
-it
-'
-s
+its
 entries
 .
 *

@@ -4162,9 +4162,7 @@ token
 /
 /
 destroy
-it
-'
-s
+its
 old
 representation
 token

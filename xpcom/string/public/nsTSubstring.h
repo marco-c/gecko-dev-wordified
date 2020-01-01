@@ -3300,9 +3300,7 @@ of
 *
 any
 of
-it
-'
-s
+its
 member
 variables
 .

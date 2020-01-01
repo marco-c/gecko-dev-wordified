@@ -5791,9 +5791,7 @@ Now
 initialize
 it
 with
-it
-'
-s
+its
 URI
 .
 At

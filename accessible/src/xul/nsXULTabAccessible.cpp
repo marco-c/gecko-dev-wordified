@@ -602,9 +602,7 @@ the
 tab
 to
 do
-it
-'
-s
+its
 action
 *
 /

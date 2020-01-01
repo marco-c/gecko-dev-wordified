@@ -426,9 +426,7 @@ fully
 equivalent
 .
 #
-It
-'
-s
+Its
 major
 use
 is

@@ -2812,9 +2812,7 @@ that
 may
 adversely
 affect
-it
-'
-s
+its
 *
 appearance
 in
@@ -3068,9 +3066,7 @@ that
 may
 adversely
 affect
-it
-'
-s
+its
 *
 appearance
 in
@@ -5501,9 +5497,7 @@ Remove
 the
 item
 from
-it
-'
-s
+its
 place
 in
 the

@@ -430,9 +430,7 @@ return
 the
 browser
 to
-it
-'
-s
+its
 current
 state
 .
@@ -4244,9 +4242,7 @@ a
 tab
 closes
 collect
-it
-'
-s
+its
 properties
 *
 param

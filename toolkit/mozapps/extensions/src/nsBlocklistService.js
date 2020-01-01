@@ -1457,9 +1457,7 @@ must
 appear
 in
 *
-it
-'
-s
+its
 comma
 separated
 list

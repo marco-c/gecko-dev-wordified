@@ -2207,9 +2207,7 @@ beginning
 regardless
 *
 of
-it
-'
-s
+its
 placement
 *
 /
@@ -3367,9 +3365,7 @@ s
 ]
 refers
 to
-it
-'
-s
+its
 own
 parameter
 "
@@ -3715,9 +3711,7 @@ beginning
 regardless
 *
 of
-it
-'
-s
+its
 placement
 *
 /

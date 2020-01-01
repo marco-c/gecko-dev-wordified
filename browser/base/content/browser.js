@@ -29534,9 +29534,7 @@ be
 opened
 regardless
 of
-it
-'
-s
+its
 current
 state
 (

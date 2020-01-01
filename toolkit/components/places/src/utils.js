@@ -8992,9 +8992,7 @@ node
 (
 and
 all
-it
-'
-s
+its
 descendents
 )
 as

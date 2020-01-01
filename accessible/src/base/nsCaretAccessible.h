@@ -1175,9 +1175,7 @@ on
 a
 control
 then
-it
-'
-s
+its
 control
 '
 s

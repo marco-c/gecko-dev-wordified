@@ -10585,9 +10585,7 @@ we
 re
 also
 dropping
-it
-'
-s
+its
 indexes
 and
 later

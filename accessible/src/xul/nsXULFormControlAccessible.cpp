@@ -722,9 +722,7 @@ the
 button
 to
 do
-it
-'
-s
+its
 action
 *
 /
@@ -1659,9 +1657,7 @@ the
 Dropmarker
 to
 do
-it
-'
-s
+its
 action
 *
 /
@@ -4616,9 +4612,7 @@ the
 button
 to
 do
-it
-'
-s
+its
 action
 *
 /

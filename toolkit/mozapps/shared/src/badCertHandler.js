@@ -588,9 +588,7 @@ class
 implements
 nsIBadCertListener
 .
-It
-'
-s
+Its
 job
 is
 to

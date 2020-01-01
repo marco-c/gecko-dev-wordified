@@ -5919,9 +5919,7 @@ to
 delete
 .
 If
-it
-'
-s
+its
 value
 is
 -

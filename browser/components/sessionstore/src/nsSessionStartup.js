@@ -541,9 +541,7 @@ and
 #
 *
 if
-it
-'
-s
+its
 value
 is
 "

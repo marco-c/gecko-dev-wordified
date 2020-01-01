@@ -761,9 +761,7 @@ Reset
 the
 pref
 to
-it
-'
-s
+its
 default
 value
 Cc

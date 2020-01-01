@@ -988,9 +988,7 @@ idl
 specifies
 all
 of
-it
-'
-s
+its
 string
 types
 as

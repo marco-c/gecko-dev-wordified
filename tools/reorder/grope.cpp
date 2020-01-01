@@ -2883,9 +2883,7 @@ it
 out
 and
 emit
-it
-'
-s
+its
 sink
 .
 arc_count_index_t

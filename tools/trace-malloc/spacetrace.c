@@ -4621,9 +4621,7 @@ callsite
 data
 only
 if
-it
-'
-s
+its
 stamp
 is
 set
@@ -8787,9 +8785,7 @@ a
 new
 event
 to
-it
-'
-s
+its
 lifetime
 .
 *
@@ -16448,9 +16444,7 @@ the
 last
 event
 of
-it
-'
-s
+its
 life
 must
 *

@@ -1660,9 +1660,7 @@ an
 Array
 to
 hold
-it
-'
-s
+its
 logins
 .
 var

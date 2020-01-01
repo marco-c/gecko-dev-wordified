@@ -4295,9 +4295,7 @@ to
 be
 redrawn
 because
-it
-'
-s
+its
 session
 border
 /
@@ -4593,9 +4591,7 @@ out
 the
 removee
 with
-it
-'
-s
+its
 collapsing
 partner
 )

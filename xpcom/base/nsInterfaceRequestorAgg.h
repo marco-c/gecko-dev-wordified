@@ -417,9 +417,7 @@ two
 nsIInterfaceRequestor
 instances
 .
-It
-'
-s
+Its
 GetInterface
 method
 queries

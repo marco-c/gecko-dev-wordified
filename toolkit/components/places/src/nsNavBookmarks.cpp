@@ -12935,9 +12935,7 @@ we
 need
 to
 count
-it
-'
-s
+its
 index
 so
 do

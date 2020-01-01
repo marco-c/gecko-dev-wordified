@@ -1096,9 +1096,7 @@ pref
 service
 to
 reload
-it
-'
-s
+its
 default
 prefs
 .

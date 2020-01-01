@@ -1360,9 +1360,7 @@ a
 native
 window
 use
-it
-'
-s
+its
 handle
 instead
 nsCOMPtr
@@ -1567,9 +1565,7 @@ a
 native
 window
 use
-it
-'
-s
+its
 handle
 instead
 nsCOMPtr

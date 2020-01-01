@@ -3519,9 +3519,7 @@ is
 /
 /
 that
-it
-'
-s
+its
 operation
 be
 reversable
