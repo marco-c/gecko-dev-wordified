@@ -441,8 +441,9 @@ exit
 }
 else
 {
-printf
+fprintf
 (
+stderr
 "
 TEST
 -

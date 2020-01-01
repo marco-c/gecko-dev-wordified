@@ -1726,8 +1726,9 @@ shutdown
 #
 ifdef
 OS_LINUX
-printf
+fprintf
 (
+stderr
 "
 TEST
 -
