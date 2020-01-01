@@ -1995,6 +1995,9 @@ nsISupports
 *
 *
 continuationState
+PRUint32
+*
+aFlags
 char
 *
 *
@@ -2026,6 +2029,11 @@ NS_ENSURE_ARG_POINTER
 (
 creds
 )
+;
+*
+aFlags
+=
+0
 ;
 PRBool
 isDigestAuth

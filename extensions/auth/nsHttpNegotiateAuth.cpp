@@ -1692,6 +1692,9 @@ nsISupports
 *
 *
 continuationState
+PRUint32
+*
+flags
 char
 *
 *
@@ -1723,6 +1726,11 @@ NS_ENSURE_TRUE
 module
 NS_ERROR_NOT_INITIALIZED
 )
+;
+*
+flags
+=
+USING_INTERNAL_IDENTITY
 ;
 LOG
 (
