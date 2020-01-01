@@ -10876,6 +10876,7 @@ mFrame
 >
 AreLayersMarkedActive
 (
+nsChangeHint_UpdateOpacityLayer
 )
 )
 return
@@ -14854,6 +14855,7 @@ mFrame
 >
 AreLayersMarkedActive
 (
+nsChangeHint_UpdateTransformLayer
 )
 )
 return

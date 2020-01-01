@@ -49340,6 +49340,7 @@ aFrame
 >
 MarkLayersActive
 (
+nsChangeHint_UpdateOpacityLayer
 )
 ;
 aFrame
@@ -49372,6 +49373,7 @@ aFrame
 >
 MarkLayersActive
 (
+nsChangeHint_UpdateTransformLayer
 )
 ;
 /
