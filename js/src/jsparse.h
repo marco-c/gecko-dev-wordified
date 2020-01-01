@@ -9026,12 +9026,11 @@ JSParseNode
 *
 parenExpr
 (
-JSParseNode
-*
-pn1
 JSBool
 *
 genexp
+=
+NULL
 )
 ;
 /
@@ -9131,9 +9130,6 @@ JSParseNode
 *
 generatorExpr
 (
-JSParseNode
-*
-pn
 JSParseNode
 *
 kid
