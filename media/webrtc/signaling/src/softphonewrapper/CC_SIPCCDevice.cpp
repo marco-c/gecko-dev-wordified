@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-CSFLogStream
+CSFLog
 .
 h
 "
