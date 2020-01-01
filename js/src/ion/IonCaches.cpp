@@ -1005,15 +1005,6 @@ Value
 vp
 )
 {
-printf
-(
-"
-STUB
-\
-n
-"
-)
-;
 IonScript
 *
 ion

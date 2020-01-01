@@ -5015,7 +5015,7 @@ object
 if
 (
 !
-assignSafepoint
+defineBox
 (
 lir
 ins
@@ -5025,7 +5025,7 @@ return
 false
 ;
 return
-defineBox
+assignSafepoint
 (
 lir
 ins
@@ -5053,7 +5053,7 @@ object
 if
 (
 !
-assignSafepoint
+define
 (
 lir
 ins
@@ -5063,7 +5063,7 @@ return
 false
 ;
 return
-define
+assignSafepoint
 (
 lir
 ins
