@@ -268,13 +268,6 @@ h
 #
 include
 "
-nsNodeInfoManager
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -436,6 +429,9 @@ nsIXPConnect
 ;
 class
 nsIXPConnectJSObjectHolder
+;
+class
+nsNodeInfoManager
 ;
 class
 nsPIDOMWindow
