@@ -878,6 +878,16 @@ connect
 to
 .
 *
+param
+aDelayMs
+Time
+delay
+in
+milli
+-
+seconds
+.
+*
 *
 return
 true
@@ -900,6 +910,10 @@ const
 char
 *
 aAddress
+int
+aDelayMs
+=
+0
 )
 ;
 /
