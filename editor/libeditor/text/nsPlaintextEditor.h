@@ -727,14 +727,6 @@ nsTextEventReply
 aReply
 )
 ;
-NS_IMETHOD
-GetReconversionString
-(
-nsReconversionEventReply
-*
-aReply
-)
-;
 /
 *
 -

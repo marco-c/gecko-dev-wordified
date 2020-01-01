@@ -2569,15 +2569,6 @@ static
 long
 sIMECursorPosition
 ;
-static
-PRUnichar
-*
-sIMEReconvertUnicode
-;
-/
-/
-reconvert
-string
 /
 /
 For
@@ -2588,10 +2579,6 @@ static
 RECT
 *
 sIMECompCharPos
-;
-static
-PRInt32
-sIMECaretHeight
 ;
 static
 PRBool
