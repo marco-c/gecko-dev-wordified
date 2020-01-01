@@ -1545,7 +1545,9 @@ function
 {
 (
 [
+(
 yield
+)
 ]
 for
 (
