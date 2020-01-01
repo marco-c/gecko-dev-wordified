@@ -689,6 +689,7 @@ promiseNewDownload
 (
 )
 ;
+yield
 list
 .
 add
@@ -731,6 +732,7 @@ promiseNewDownload
 (
 )
 ;
+yield
 list
 .
 add
@@ -827,6 +829,7 @@ promiseNewList
 (
 )
 ;
+yield
 list
 .
 add
@@ -837,6 +840,7 @@ promiseNewDownload
 )
 )
 ;
+yield
 list
 .
 add
@@ -857,6 +861,7 @@ getAll
 (
 )
 ;
+yield
 list
 .
 remove
@@ -882,6 +887,7 @@ raise
 an
 error
 .
+yield
 list
 .
 remove
@@ -1039,6 +1045,7 @@ path
 }
 )
 ;
+yield
 publicList
 .
 add
@@ -1046,6 +1053,7 @@ add
 publicDownload
 )
 ;
+yield
 privateList
 .
 add
@@ -1068,6 +1076,7 @@ length
 2
 )
 ;
+yield
 combinedList
 .
 remove
@@ -1075,6 +1084,7 @@ remove
 publicDownload
 )
 ;
+yield
 combinedList
 .
 remove
@@ -1097,6 +1107,7 @@ length
 0
 )
 ;
+yield
 combinedList
 .
 add
@@ -1104,6 +1115,7 @@ add
 publicDownload
 )
 ;
+yield
 combinedList
 .
 add
@@ -1156,6 +1168,7 @@ length
 2
 )
 ;
+yield
 publicList
 .
 remove
@@ -1163,6 +1176,7 @@ remove
 publicDownload
 )
 ;
+yield
 privateList
 .
 remove
@@ -1328,6 +1342,7 @@ path
 }
 )
 ;
+yield
 list
 .
 add
@@ -1335,6 +1350,7 @@ add
 downloadOne
 )
 ;
+yield
 list
 .
 add
@@ -1424,6 +1440,7 @@ addNotifications
 }
 }
 ;
+yield
 list
 .
 addView
@@ -1449,6 +1466,7 @@ for
 new
 elements
 .
+yield
 list
 .
 add
@@ -1503,6 +1521,7 @@ removeNotifications
 }
 }
 ;
+yield
 list
 .
 addView
@@ -1510,6 +1529,7 @@ addView
 viewTwo
 )
 ;
+yield
 list
 .
 remove
@@ -1537,6 +1557,7 @@ view
 is
 removed
 .
+yield
 list
 .
 removeView
@@ -1544,6 +1565,7 @@ removeView
 viewTwo
 )
 ;
+yield
 list
 .
 remove
@@ -1571,6 +1593,7 @@ view
 is
 removed
 .
+yield
 list
 .
 removeView
@@ -1578,6 +1601,7 @@ removeView
 viewOne
 )
 ;
+yield
 list
 .
 add
@@ -1726,6 +1750,7 @@ path
 }
 )
 ;
+yield
 list
 .
 add
@@ -1733,6 +1758,7 @@ add
 downloadOne
 )
 ;
+yield
 list
 .
 add
@@ -1754,6 +1780,7 @@ receivedOnDownloadChanged
 =
 false
 ;
+yield
 list
 .
 addView
@@ -1810,6 +1837,7 @@ receivedOnDownloadChanged
 =
 false
 ;
+yield
 list
 .
 remove
@@ -1965,6 +1993,7 @@ true
 }
 }
 ;
+yield
 list
 .
 addView
@@ -1980,6 +2009,7 @@ promiseNewDownload
 (
 )
 ;
+yield
 list
 .
 add
@@ -1994,6 +2024,7 @@ start
 (
 )
 ;
+yield
 list
 .
 remove
@@ -2190,6 +2221,7 @@ resolve
 }
 }
 ;
+yield
 list
 .
 addView
@@ -2298,6 +2330,7 @@ to
 the
 list
 .
+yield
 list
 .
 add
@@ -2305,6 +2338,7 @@ add
 downloadOne
 )
 ;
+yield
 list
 .
 add
@@ -2430,6 +2464,7 @@ promiseNewDownload
 (
 )
 ;
+yield
 list
 .
 add
@@ -2437,6 +2472,7 @@ add
 downloadOne
 )
 ;
+yield
 list
 .
 add
@@ -2489,6 +2525,7 @@ resolve
 }
 }
 ;
+yield
 list
 .
 addView
@@ -2603,6 +2640,7 @@ promiseNewDownload
 (
 )
 ;
+yield
 list
 .
 add
@@ -2610,6 +2648,7 @@ add
 downloadOne
 )
 ;
+yield
 list
 .
 add
@@ -2617,6 +2656,7 @@ add
 downloadTwo
 )
 ;
+yield
 list
 .
 add
@@ -2624,6 +2664,7 @@ add
 downloadThree
 )
 ;
+yield
 list
 .
 add
@@ -2703,6 +2744,7 @@ resolve
 }
 }
 ;
+yield
 list
 .
 addView
@@ -2918,6 +2960,7 @@ start
 (
 )
 ;
+yield
 publicList
 .
 add
@@ -2972,6 +3015,7 @@ cancel
 (
 )
 ;
+yield
 publicList
 .
 add
@@ -3018,6 +3062,7 @@ promiseDownloadMidway
 inProgressPublicDownload
 )
 ;
+yield
 publicList
 .
 add
@@ -3085,6 +3130,7 @@ promiseDownloadMidway
 inProgressPrivateDownload
 )
 ;
+yield
 privateList
 .
 add
@@ -3537,6 +3583,7 @@ promiseNewDownload
 (
 )
 ;
+yield
 list
 .
 add
@@ -3558,6 +3605,7 @@ receivedOnSummaryChanged
 =
 false
 ;
+yield
 summary
 .
 addView
