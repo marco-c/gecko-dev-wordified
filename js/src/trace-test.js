@@ -2909,12 +2909,8 @@ undefined
 false
 NaN
 0
-/
-*
 "
 "
-*
-/
 ]
 ;
 var
@@ -2933,13 +2929,9 @@ true
 1
 /
 0
-/
-*
 "
 blah
 "
-*
-/
 ]
 ;
 var
