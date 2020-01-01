@@ -772,8 +772,10 @@ NS_MEMORY_REPORTER_IMPLEMENT
 (
 WebGLBufferCacheMemoryUsed
 "
+explicit
+/
 webgl
--
+/
 buffer
 -
 cache
@@ -950,8 +952,10 @@ NS_MEMORY_REPORTER_IMPLEMENT
 (
 WebGLShaderSourcesSize
 "
+explicit
+/
 webgl
--
+/
 shader
 -
 sources
@@ -1003,8 +1007,10 @@ NS_MEMORY_REPORTER_IMPLEMENT
 (
 WebGLShaderTranslationLogsSize
 "
+explicit
+/
 webgl
--
+/
 shader
 -
 translationlogs
