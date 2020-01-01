@@ -732,6 +732,9 @@ service
 mozIAsyncLivemarks
 "
 [
+"
+reloadLivemarks
+"
 ]
 ]
 [
