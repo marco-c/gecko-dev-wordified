@@ -488,8 +488,10 @@ js
 :
 ion
 ;
-static
 void
+MDefinition
+:
+:
 PrintOpcodeName
 (
 FILE
