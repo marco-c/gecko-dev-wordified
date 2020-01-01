@@ -252,7 +252,7 @@ is
 result
 "
 abort
-UnknownError
+QuotaExceededError
 "
 "
 Got
@@ -718,7 +718,7 @@ is
 lastResult
 "
 abort
-UnknownError
+QuotaExceededError
 "
 "
 Aborted
