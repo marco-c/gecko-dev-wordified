@@ -126,9 +126,6 @@ class
 nsIDOMHTMLTableElement
 ;
 class
-nsIDOMHTMLTableSectionElement
-;
-class
 nsContentList
 ;
 namespace
@@ -137,6 +134,9 @@ mozilla
 namespace
 dom
 {
+class
+HTMLTableSectionElement
+;
 class
 HTMLTableRowElement
 MOZ_FINAL
@@ -529,10 +529,8 @@ aScope
 )
 MOZ_OVERRIDE
 ;
-already_AddRefed
-<
-nsIDOMHTMLTableSectionElement
->
+HTMLTableSectionElement
+*
 GetSection
 (
 )
