@@ -467,6 +467,12 @@ extern
 NSString
 *
 const
+kCorePboardType_urld
+;
+extern
+NSString
+*
+const
 kCorePboardType_urln
 ;
 class
