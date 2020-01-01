@@ -5176,6 +5176,11 @@ GetActiveRollupListener
 (
 )
 ;
+if
+(
+rollupListener
+)
+{
 nsCOMPtr
 <
 nsIWidget
@@ -5189,11 +5194,6 @@ GetRollupWidget
 (
 )
 ;
-if
-(
-rollupListener
-)
-{
 if
 (
 msg

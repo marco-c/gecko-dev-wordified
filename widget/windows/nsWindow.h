@@ -2598,7 +2598,7 @@ UnregisterSpecialDropdownHooks
 )
 ;
 static
-BOOL
+bool
 DealWithPopups
 (
 HWND
