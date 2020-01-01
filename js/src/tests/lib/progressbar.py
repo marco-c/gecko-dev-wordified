@@ -80,6 +80,14 @@ True
 pass
     
 def
+beginline
+(
+self
+)
+:
+pass
+    
+def
 message
 (
 self
@@ -144,6 +152,12 @@ self
 prior
 =
 None
+        
+self
+.
+atLineStart
+=
+True
         
 self
 .
@@ -325,6 +339,12 @@ prior
 current
 data
 )
+        
+self
+.
+atLineStart
+=
+False
         
 #
 Build
@@ -680,13 +700,19 @@ n
 )
     
 def
-message
+beginline
 (
 self
-msg
 )
 :
         
+if
+not
+self
+.
+atLineStart
+:
+            
 sys
 .
 stdout
@@ -697,6 +723,26 @@ write
 \
 n
 '
+)
+            
+self
+.
+atLineStart
+=
+True
+    
+def
+message
+(
+self
+msg
+)
+:
+        
+self
+.
+beginline
+(
 )
         
 sys
