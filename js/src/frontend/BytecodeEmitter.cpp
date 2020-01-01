@@ -5131,7 +5131,7 @@ parser
 -
 >
 context
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -5516,7 +5516,7 @@ obj
 nativeLookup
 (
 cx
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -26603,7 +26603,7 @@ else
 if
 (
 !
-js_InternNonIntElementId
+InternNonIntElementId
 (
 cx
 obj
@@ -26679,7 +26679,7 @@ protoAtom
 jsid
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 pnid
 -
@@ -40669,7 +40669,7 @@ DefineNativeProperty
 (
 cx
 obj
-ATOM_TO_JSID
+AtomToId
 (
 pn3
 -

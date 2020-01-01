@@ -2416,13 +2416,6 @@ id
 return
 false
 ;
-id
-=
-js_CheckForStringIndex
-(
-id
-)
-;
 if
 (
 JSID_IS_INT
@@ -2481,7 +2474,7 @@ if
 id
 =
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2517,7 +2510,7 @@ if
 id
 =
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2672,7 +2665,7 @@ i
 2
 )
 ?
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -2693,7 +2686,7 @@ i
 1
 )
 ?
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -3426,7 +3419,7 @@ js_LookupProperty
 (
 cx
 argsobj
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -3457,7 +3450,7 @@ js_LookupProperty
 (
 cx
 argsobj
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -3488,7 +3481,7 @@ js_LookupProperty
 (
 cx
 argsobj
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

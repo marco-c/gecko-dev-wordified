@@ -758,7 +758,7 @@ search
 (
 cx
 lastBinding
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -1081,7 +1081,7 @@ else
 {
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 name
 )

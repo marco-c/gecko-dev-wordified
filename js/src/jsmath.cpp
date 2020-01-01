@@ -3845,7 +3845,7 @@ vp
 >
 setString
 (
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Math

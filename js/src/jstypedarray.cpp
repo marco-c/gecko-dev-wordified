@@ -2500,7 +2500,7 @@ obj_lookupGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -2854,7 +2854,7 @@ obj_defineGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -3258,7 +3258,7 @@ js_GetProperty
 cx
 delegate
 receiver
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -3855,7 +3855,7 @@ obj_setGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -4072,7 +4072,7 @@ obj_getGenericAttributes
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -4281,7 +4281,7 @@ obj_setGenericAttributes
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -5265,7 +5265,7 @@ obj_lookupGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -7578,7 +7578,7 @@ obj_setGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -7837,7 +7837,7 @@ obj_defineGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -8245,7 +8245,7 @@ isTrue
 *
 idp
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -17939,7 +17939,7 @@ ArrayBufferObject
 :
 :
 class_constructor
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 ArrayBuffer
@@ -18472,7 +18472,7 @@ DataViewObject
 :
 :
 class_constructor
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 DataView

@@ -1261,7 +1261,7 @@ js_Object
 1
 JSFUN_CONSTRUCTOR
 self
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Object
@@ -1371,7 +1371,7 @@ Function
 1
 JSFUN_CONSTRUCTOR
 self
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Function
@@ -1539,9 +1539,9 @@ now
 jsid
 objectId
 =
-ATOM_TO_JSID
+NameToId
 (
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Object
@@ -1572,9 +1572,9 @@ NULL
 jsid
 functionId
 =
-ATOM_TO_JSID
+NameToId
 (
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Function
@@ -1630,7 +1630,7 @@ ES5
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

@@ -4425,13 +4425,6 @@ id
 return
 false
 ;
-id
-=
-js_CheckForStringIndex
-(
-id
-)
-;
 keys
 .
 infallibleAppend

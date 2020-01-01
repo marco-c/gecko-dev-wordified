@@ -3235,7 +3235,7 @@ StringClass
 RootedVarId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -11925,7 +11925,10 @@ HasDataProperty
 (
 cx
 base
+AtomToId
+(
 atom
+)
 &
 v
 )
@@ -20300,7 +20303,7 @@ return
 addDataProperty
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -20431,7 +20434,7 @@ createConstructor
 (
 cx
 js_String
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 String
@@ -21725,7 +21728,7 @@ fval
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

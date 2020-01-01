@@ -34492,7 +34492,7 @@ PC
 testSingletonPropertyTypes
 (
 top
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -34698,7 +34698,7 @@ loop
 invariantProperty
 (
 topv
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -34845,7 +34845,7 @@ IC
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -36701,7 +36701,7 @@ false
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -37850,7 +37850,7 @@ analysis
 resolveNameAccess
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -38113,7 +38113,7 @@ slot
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -39487,7 +39487,7 @@ analysis
 resolveNameAccess
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -39981,7 +39981,7 @@ analysis
 resolveNameAccess
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -40493,7 +40493,7 @@ analysis
 resolveNameAccess
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -43983,7 +43983,7 @@ PC
 testSingletonProperty
 (
 globalObj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -44007,7 +44007,7 @@ return
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -44150,7 +44150,7 @@ globalObj
 nativeLookup
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -44853,7 +44853,7 @@ return
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -45005,7 +45005,7 @@ globalObj
 nativeLookup
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -50177,7 +50177,7 @@ break
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

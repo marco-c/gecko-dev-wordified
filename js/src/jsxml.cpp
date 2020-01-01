@@ -18328,7 +18328,7 @@ cx
 *
 funidp
 =
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -18619,7 +18619,7 @@ if
 (
 js_IdIsIndex
 (
-ATOM_TO_JSID
+AtomToId
 (
 atomizedName
 )
@@ -18736,7 +18736,7 @@ localName
 cx
 )
 ?
-ATOM_TO_JSID
+AtomToId
 (
 localName
 )
@@ -26918,7 +26918,7 @@ bad
 ;
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -30561,7 +30561,7 @@ xml_lookupGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -30858,7 +30858,7 @@ xml_defineGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -31039,7 +31039,7 @@ xml_getGeneric
 cx
 obj
 receiver
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -31184,7 +31184,7 @@ xml_setGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -31347,7 +31347,7 @@ xml_getGenericAttributes
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -31511,7 +31511,7 @@ xml_setGenericAttributes
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -31916,7 +31916,7 @@ xml_deleteGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -34959,7 +34959,7 @@ else
 if
 (
 !
-js_ValueToStringId
+ValueToId
 (
 cx
 v
@@ -35013,7 +35013,7 @@ addr
 (
 )
 =
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -35742,7 +35742,7 @@ false
 jsid
 name
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -40999,7 +40999,7 @@ PutProperty
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -45371,7 +45371,7 @@ createConstructor
 (
 cx
 Namespace
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Namespace
@@ -45543,7 +45543,7 @@ createConstructor
 (
 cx
 QName
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 QName
@@ -45762,7 +45762,7 @@ createConstructor
 (
 cx
 XML
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 XML
@@ -47370,7 +47370,7 @@ name
 cx
 )
 ?
-ATOM_TO_JSID
+AtomToId
 (
 name
 )

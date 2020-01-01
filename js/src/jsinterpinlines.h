@@ -1901,7 +1901,7 @@ RootedVarId
 id
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -2503,7 +2503,7 @@ obj
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -2797,7 +2797,7 @@ true
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -4779,7 +4779,7 @@ true
 return
 !
 !
-js_InternNonIntElementId
+InternNonIntElementId
 (
 cx
 obj
@@ -4853,7 +4853,7 @@ dummy
 if
 (
 !
-js_InternNonIntElementId
+InternNonIntElementId
 (
 cx
 obj
