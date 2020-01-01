@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bindings_DOMJSClass_h
+mozilla_dom_DOMJSClass_h
 #
 define
-mozilla_dom_bindings_DOMJSClass_h
+mozilla_dom_DOMJSClass_h
 #
 include
 "
@@ -119,8 +119,6 @@ include
 mozilla
 /
 dom
-/
-bindings
 /
 PrototypeList
 .
@@ -225,9 +223,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-bindings
 {
 typedef
 bool
@@ -676,11 +671,6 @@ toPrivate
 /
 /
 namespace
-bindings
-}
-/
-/
-namespace
 dom
 }
 /
@@ -691,6 +681,6 @@ mozilla
 endif
 /
 *
-mozilla_dom_bindings_DOMJSClass_h
+mozilla_dom_DOMJSClass_h
 *
 /

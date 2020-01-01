@@ -583,9 +583,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -1037,9 +1035,6 @@ JSCLASS_IS_DOMJSCLASS
 )
 &
 &
-bindings
-:
-:
 DOMJSClass
 :
 :
@@ -1055,9 +1050,6 @@ mDOMObjectIsISupports
 *
 iface
 =
-bindings
-:
-:
 UnwrapDOMObject
 <
 nsISupports

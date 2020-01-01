@@ -121,8 +121,6 @@ mozilla
 /
 dom
 /
-bindings
-/
 DOMJSClass
 .
 h

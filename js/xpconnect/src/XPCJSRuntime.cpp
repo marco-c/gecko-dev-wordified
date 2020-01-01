@@ -576,8 +576,6 @@ mozilla
 /
 dom
 /
-bindings
-/
 DOMJSClass
 .
 h
@@ -3191,9 +3189,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 :
 :
 DOMJSClass

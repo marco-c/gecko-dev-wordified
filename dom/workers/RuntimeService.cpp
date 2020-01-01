@@ -552,8 +552,6 @@ mozilla
 /
 dom
 /
-bindings
-/
 EventTargetBinding
 .
 h
@@ -661,12 +659,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
-:
-:
-prototypes
 ;
 USING_WORKERS_NAMESPACE
 using
@@ -2632,7 +2624,7 @@ JSObject
 *
 eventTarget
 =
-EventTarget_workers
+EventTargetBinding_workers
 :
 :
 GetProtoObject

@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-Utils
+BindingUtils
 .
 h
 "
@@ -123,9 +123,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-bindings
 {
 static
 bool
@@ -1296,11 +1293,6 @@ return
 true
 ;
 }
-}
-/
-/
-namespace
-bindings
 }
 /
 /

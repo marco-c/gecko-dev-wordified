@@ -489,8 +489,6 @@ mozilla
 /
 dom
 /
-bindings
-/
 DOMJSClass
 .
 h
@@ -501,8 +499,6 @@ include
 mozilla
 /
 dom
-/
-bindings
 /
 EventTargetBinding
 .
@@ -515,9 +511,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -527,8 +521,6 @@ include
 mozilla
 /
 dom
-/
-bindings
 /
 XMLHttpRequestBinding
 .
@@ -540,8 +532,6 @@ include
 mozilla
 /
 dom
-/
-bindings
 /
 XMLHttpRequestUploadBinding
 .
@@ -704,16 +694,6 @@ JSPROP_ENUMERATE
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-bindings
 ;
 USING_WORKERS_NAMESPACE
 namespace
@@ -3632,13 +3612,7 @@ Class
 )
 )
 ;
-mozilla
-:
-:
 dom
-:
-:
-bindings
 :
 :
 AllocateProtoOrIfaceCache
@@ -4714,12 +4688,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
-:
-:
-prototypes
 ;
 WorkerPrivate
 *
@@ -4847,7 +4815,7 @@ JSObject
 *
 eventTargetProto
 =
-EventTarget_workers
+EventTargetBinding_workers
 :
 :
 GetProtoObject
@@ -5096,7 +5064,7 @@ bindings
 if
 (
 !
-XMLHttpRequest_workers
+XMLHttpRequestBinding_workers
 :
 :
 CreateInterfaceObjects
@@ -5108,7 +5076,7 @@ global
 |
 |
 !
-XMLHttpRequestUpload_workers
+XMLHttpRequestUploadBinding_workers
 :
 :
 CreateInterfaceObjects
