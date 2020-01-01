@@ -273,6 +273,14 @@ ChildCount
 )
 const
 ;
+virtual
+Relation
+RelationByType
+(
+uint32_t
+aType
+)
+;
 /
 /
 SelectAccessible
