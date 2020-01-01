@@ -473,9 +473,6 @@ iframe1
 let
 iframe2
 ;
-let
-highlighterFrame
-;
 function
 createDocument
 (
@@ -773,14 +770,6 @@ INSPECTOR_NOTIFICATIONS
 HIGHLIGHTING
 false
 )
-;
-highlighterFrame
-=
-InspectorUI
-.
-highlighter
-.
-iframe
 ;
 executeSoon
 (
