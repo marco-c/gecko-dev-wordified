@@ -2115,10 +2115,10 @@ invalidate
 /
 ourself
 .
-nsSVGUtils
+nsSVGEffects
 :
 :
-InvalidateBounds
+InvalidateRenderingObservers
 (
 this
 )
