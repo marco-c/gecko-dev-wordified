@@ -1881,6 +1881,15 @@ nsScriptLoadRequest
 >
 mDeferRequests
 ;
+nsTArray
+<
+nsRefPtr
+<
+nsScriptLoadRequest
+>
+>
+mXSLTRequests
+;
 nsRefPtr
 <
 nsScriptLoadRequest
