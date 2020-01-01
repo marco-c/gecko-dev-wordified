@@ -16058,8 +16058,15 @@ return
 PR_TRUE
 ;
 }
+/
+*
 static
+*
+/
 PRBool
+nsCSSRuleProcessor
+:
+:
 CascadeSheetRulesInto
 (
 nsICSSStyleSheet
