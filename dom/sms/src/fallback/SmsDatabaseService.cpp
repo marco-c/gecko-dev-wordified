@@ -128,6 +128,10 @@ const
 nsAString
 &
 aBody
+const
+nsAString
+&
+aMessageClass
 uint64_t
 aDate
 int32_t

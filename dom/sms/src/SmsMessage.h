@@ -189,6 +189,8 @@ const
 nsString
 &
 aBody
+MessageClass
+aMessageClass
 uint64_t
 aTimestamp
 bool
@@ -229,6 +231,10 @@ const
 nsAString
 &
 aBody
+const
+nsAString
+&
+aMessageClass
 const
 JS
 :
