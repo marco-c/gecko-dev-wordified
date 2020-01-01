@@ -2190,7 +2190,7 @@ while
 ptr
 !
 =
-nullptr
+0
 &
 &
 (
