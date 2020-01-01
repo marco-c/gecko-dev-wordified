@@ -2750,7 +2750,7 @@ getRecommendedURL
 {
 initiallyUndefined
 :
-true
+false
 preference
 :
 PREF_GETADDONS_BROWSESEARCHRESULTS
