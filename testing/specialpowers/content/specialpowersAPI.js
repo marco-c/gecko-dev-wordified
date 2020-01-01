@@ -8118,6 +8118,7 @@ aDeep
 childTargetWindow
 )
 {
+return
 this
 .
 focusManager
