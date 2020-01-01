@@ -538,7 +538,7 @@ graph
 {
 }
 bool
-addBetaNobes
+addBetaNodes
 (
 )
 ;
@@ -553,7 +553,7 @@ addRangeAssertions
 )
 ;
 bool
-removeBetaNobes
+removeBetaNodes
 (
 )
 ;

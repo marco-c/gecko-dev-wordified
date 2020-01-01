@@ -7716,7 +7716,7 @@ if
 !
 r
 .
-addBetaNobes
+addBetaNodes
 (
 )
 )
@@ -7805,7 +7805,7 @@ if
 !
 r
 .
-removeBetaNobes
+removeBetaNodes
 (
 )
 )
