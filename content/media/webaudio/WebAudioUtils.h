@@ -311,7 +311,7 @@ ConvertDestinationStreamTimeToSourceStreamTime
 (
 double
 aTime
-MediaStream
+AudioNodeStream
 *
 aSource
 MediaStream
