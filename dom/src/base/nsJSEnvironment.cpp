@@ -19312,6 +19312,7 @@ nsIXPConnectWrappedNative
 aWrapper
 )
 {
+return
 nsDOMClassInfo
 :
 :
@@ -19319,9 +19320,6 @@ PreserveNodeWrapper
 (
 aWrapper
 )
-;
-return
-NS_OK
 ;
 }
 /
