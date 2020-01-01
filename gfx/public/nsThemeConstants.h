@@ -168,12 +168,11 @@ dropdown
 portion
 of
 a
-dual
 toolbar
 button
 #
 define
-NS_THEME_TOOLBAR_DUAL_BUTTON_DROPDOWN
+NS_THEME_TOOLBAR_BUTTON_DROPDOWN
 15
 /
 /

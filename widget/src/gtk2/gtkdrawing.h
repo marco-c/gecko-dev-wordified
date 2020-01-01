@@ -1293,6 +1293,17 @@ MOZ_GTK_MENUARROW
 /
 *
 Paints
+an
+arrow
+that
+points
+down
+*
+/
+MOZ_GTK_TOOLBARBUTTON_ARROW
+/
+*
+Paints
 items
 of
 menubar
