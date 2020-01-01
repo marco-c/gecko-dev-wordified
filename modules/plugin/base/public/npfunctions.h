@@ -689,7 +689,7 @@ NPPVariable
 variable
 void
 *
-ret_alue
+ret_value
 )
 ;
 typedef
@@ -705,7 +705,7 @@ NPNVariable
 variable
 void
 *
-ret_alue
+ret_value
 )
 ;
 typedef
@@ -721,7 +721,7 @@ NPNVariable
 variable
 void
 *
-ret_alue
+ret_value
 )
 ;
 typedef
@@ -737,7 +737,7 @@ NPPVariable
 variable
 void
 *
-ret_alue
+ret_value
 )
 ;
 typedef
