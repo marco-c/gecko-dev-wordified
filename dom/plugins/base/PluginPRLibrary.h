@@ -658,7 +658,7 @@ aSize
 ;
 virtual
 bool
-UseAsyncPainting
+IsOOP
 (
 )
 MOZ_OVERRIDE

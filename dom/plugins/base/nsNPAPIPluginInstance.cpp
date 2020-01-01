@@ -6629,7 +6629,7 @@ aIsAsync
 library
 -
 >
-UseAsyncPainting
+IsOOP
 (
 )
 ;
