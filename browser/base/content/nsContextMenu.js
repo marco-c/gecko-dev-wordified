@@ -6693,6 +6693,7 @@ xhtml
 "
 "
 chrome
+centerscreen
 dialog
 =
 no
