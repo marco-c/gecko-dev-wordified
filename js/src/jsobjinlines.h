@@ -1938,6 +1938,13 @@ this
 #
 ifdef
 DEBUG
+JS_ASSERT
+(
+isTenured
+(
+)
+)
+;
 if
 (
 !
