@@ -1044,16 +1044,6 @@ must
 not
 be
 null
-and
-this
-method
-/
-/
-handles
-calling
-RemovedAsPrimaryFrame
-on
-aPrimaryFrame
 .
 NS_HIDDEN_
 (

@@ -578,12 +578,6 @@ nsTextControlFrame
 ;
 virtual
 void
-RemovedAsPrimaryFrame
-(
-)
-;
-virtual
-void
 Destroy
 (
 )
