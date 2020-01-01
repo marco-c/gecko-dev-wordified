@@ -433,9 +433,9 @@ Voidifier
 (
 )
 &
-ChromiumLogger
+LOG
 (
-LOG_FATAL
+FATAL
 )
 #
 define
