@@ -380,13 +380,6 @@ dirtocreate
 =
 dest
     
-os
-.
-makedirs
-(
-d
-)
-    
 subdirs
 mochitests
 supportfiles
@@ -427,6 +420,13 @@ s
 (
 dest
 d
+)
+    
+os
+.
+makedirs
+(
+destdir
 )
     
 for
@@ -1148,7 +1148,7 @@ directories
 print
 "
 hg
-adding
+addremoving
 .
 .
 .
@@ -1169,7 +1169,7 @@ check_call
 hg
 "
 "
-add
+addremove
 "
 "
 %
@@ -1467,7 +1467,7 @@ sys
 .
 argv
 )
-=
+!
 =
 2
 :
