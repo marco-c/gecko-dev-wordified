@@ -1980,7 +1980,7 @@ logfile
 define
 STARTUP_TMBUFSIZE
 (
-64
+16
 *
 1024
 )
