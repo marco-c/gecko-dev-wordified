@@ -1613,6 +1613,11 @@ int
 height
 )
 ;
+gfxRect
+GetPluginRect
+(
+)
+;
 bool
 AddPluginView
 (
