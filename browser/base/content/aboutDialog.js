@@ -704,7 +704,7 @@ version
 "
 )
 .
-value
+textContent
 +
 =
 "
