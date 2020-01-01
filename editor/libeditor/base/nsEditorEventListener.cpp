@@ -1619,12 +1619,16 @@ compositionend
 "
 )
 )
-return
+{
 HandleEndComposition
 (
 aEvent
 )
 ;
+return
+NS_OK
+;
+}
 return
 NS_OK
 ;
@@ -4611,7 +4615,7 @@ BeginIMEComposition
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsEditorEventListener
 :
 :
@@ -4622,10 +4626,9 @@ nsIDOMEvent
 aCompositionEvent
 )
 {
-NS_ENSURE_TRUE
+MOZ_ASSERT
 (
 mEditor
-NS_ERROR_NOT_AVAILABLE
 )
 ;
 if
@@ -4641,7 +4644,6 @@ aCompositionEvent
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -4678,7 +4680,6 @@ mEditor
 NSEvent
 )
 ;
-return
 mEditor
 -
 >
