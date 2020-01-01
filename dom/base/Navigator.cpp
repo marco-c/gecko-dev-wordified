@@ -7169,6 +7169,7 @@ bluetooth
 :
 BluetoothAdapter
 (
+window
 )
 ;
 bluetooth
