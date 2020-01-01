@@ -3985,6 +3985,9 @@ Set_Cookie
 bool
 rewriteToGET
 =
+nsHttp
+:
+:
 ShouldRewriteRedirectToGET
 (
 mResponseHead
