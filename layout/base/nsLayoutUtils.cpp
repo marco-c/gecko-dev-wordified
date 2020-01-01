@@ -6986,12 +6986,13 @@ nsIFrame
 *
 >
 popups
-=
+;
 pm
 -
 >
 GetVisiblePopups
 (
+popups
 )
 ;
 uint32_t
