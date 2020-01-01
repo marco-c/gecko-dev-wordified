@@ -9738,9 +9738,6 @@ NS_ERROR_UNEXPECTED
 }
 if
 (
-host
-&
-&
 strlen
 (
 host
@@ -9802,13 +9799,8 @@ eEncoding_ASCII
 if
 (
 !
-(
-host
-&
-&
 *
 host
-)
 )
 {
 /
