@@ -19149,6 +19149,12 @@ if
 mJSContext
 )
 {
+JSAutoRequest
+ar
+(
+mJSContext
+)
+;
 JS_SetOptions
 (
 mJSContext
