@@ -40281,6 +40281,8 @@ element
 NewlineProperty
 *
 cachedNewlineOffset
+=
+nsnull
 ;
 if
 (
