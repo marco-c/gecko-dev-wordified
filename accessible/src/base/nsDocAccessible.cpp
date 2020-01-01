@@ -13481,6 +13481,10 @@ isUnconditionalEvent
 aChild
 ?
 childNode
+.
+get
+(
+)
 :
 nsnull
 )
