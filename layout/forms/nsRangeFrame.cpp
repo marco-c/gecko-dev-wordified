@@ -1507,8 +1507,6 @@ GetTheme
 >
 ThemeDrawsFocusForWidget
 (
-presContext
-this
 disp
 -
 >
