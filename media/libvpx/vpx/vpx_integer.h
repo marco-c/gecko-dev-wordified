@@ -109,6 +109,13 @@ h
 >
 #
 if
+!
+defined
+(
+VPX_DONT_DEFINE_STDINT_TYPES
+)
+#
+if
 (
 defined
 (
@@ -262,6 +269,8 @@ stdint
 .
 h
 >
+#
+endif
 #
 endif
 /
