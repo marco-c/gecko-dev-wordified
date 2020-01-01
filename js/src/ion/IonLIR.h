@@ -669,14 +669,10 @@ const
 uintptr_t
 TAG_MASK
 =
-(
 1
 <
 <
-TAG_BIT
-)
--
-1
+TAG_SHIFT
 ;
 static
 const
@@ -723,6 +719,8 @@ uint32
 )
 -
 KIND_BITS
+-
+TAG_BIT
 ;
 static
 const
