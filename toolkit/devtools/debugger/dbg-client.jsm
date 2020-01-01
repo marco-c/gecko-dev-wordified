@@ -1110,6 +1110,13 @@ tabNavigated
 "
 tabNavigated
 "
+"
+profilerStateChanged
+"
+:
+"
+profilerStateChanged
+"
 }
 ;
 /
