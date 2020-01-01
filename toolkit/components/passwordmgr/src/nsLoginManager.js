@@ -7369,6 +7369,10 @@ username
 usernameField
 .
 value
+.
+toLowerCase
+(
+)
 ;
 var
 matchingLogin
@@ -7394,6 +7398,10 @@ return
 l
 .
 username
+.
+toLowerCase
+(
+)
 =
 =
 username
