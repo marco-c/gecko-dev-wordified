@@ -849,8 +849,7 @@ Type
 :
 ObjectType
 (
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -2838,8 +2837,7 @@ TypeMonitorCallSlow
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 callee
 const
 CallArgs
@@ -2948,8 +2946,7 @@ TrackPropertyTypes
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 jsid
 id
@@ -3042,8 +3039,7 @@ AddTypePropertyId
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 jsid
 id
@@ -3100,8 +3096,7 @@ AddTypePropertyId
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 jsid
 id
@@ -3271,8 +3266,7 @@ MarkTypeObjectFlags
 JSContext
 *
 cx
-JSObject
-*
+RawObject
 obj
 TypeObjectFlags
 flags
@@ -3494,8 +3488,7 @@ MarkTypePropertyConfigured
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 jsid
 id
@@ -3562,8 +3555,7 @@ MarkObjectStateChange
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -3653,8 +3645,7 @@ FixArrayType
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -3689,8 +3680,7 @@ FixObjectType
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -5744,8 +5734,7 @@ MonitorAssign
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 jsid
 id
@@ -8176,8 +8165,7 @@ data
 ;
 }
 inline
-JSObject
-*
+RawObject
 Type
 :
 :
@@ -9091,8 +9079,7 @@ i
 ;
 }
 inline
-JSObject
-*
+RawObject
 TypeSet
 :
 :
@@ -9546,8 +9533,7 @@ TypeObject
 :
 TypeObject
 (
-JSObject
-*
+RawObject
 proto
 bool
 function

@@ -1678,8 +1678,10 @@ getLazyType
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 proto
 )
 ;
