@@ -180,7 +180,7 @@ Original
 Code
 is
 Mozilla
-Airbag
+Breakpad
 integration
 *
 *
@@ -427,10 +427,10 @@ BLOCK
 /
 #
 ifndef
-nsAirbagExceptionHandler_h__
+nsExceptionHandler_h__
 #
 define
-nsAirbagExceptionHandler_h__
+nsExceptionHandler_h__
 #
 include
 "
@@ -522,6 +522,6 @@ aBuildID
 endif
 /
 *
-nsAirbagExceptionHandler_h__
+nsExceptionHandler_h__
 *
 /

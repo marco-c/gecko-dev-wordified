@@ -505,7 +505,7 @@ h
 #
 include
 "
-nsAirbagExceptionHandler
+nsExceptionHandler
 .
 h
 "

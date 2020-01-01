@@ -180,7 +180,7 @@ Original
 Code
 is
 Mozilla
-Airbag
+Breakpad
 integration
 *
 *
@@ -428,7 +428,7 @@ BLOCK
 #
 include
 "
-nsAirbagExceptionHandler
+nsExceptionHandler
 .
 h
 "
@@ -611,7 +611,7 @@ should
 -
 disable
 -
-airbag
+crashreporter
 .
 "
 #
