@@ -663,4 +663,14 @@ Ci
 nsIThreadManager
 )
 ;
+checkService
+(
+"
+strings
+"
+Ci
+.
+nsIStringBundleService
+)
+;
 }
