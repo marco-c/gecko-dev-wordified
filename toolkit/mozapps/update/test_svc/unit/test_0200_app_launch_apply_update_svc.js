@@ -77,6 +77,13 @@ manifest
 .
 *
 /
+const
+TEST_ID
+=
+"
+0200_svc
+"
+;
 /
 /
 Backup
