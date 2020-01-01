@@ -25720,7 +25720,7 @@ parent
 obj
 -
 >
-scopeChain
+getStaticBlockScopeChain
 (
 )
 ;
@@ -25919,15 +25919,11 @@ work
 if
 (
 parentId
-=
+!
 =
 NO_PARENT_INDEX
 )
-parent
-=
-NULL
-;
-else
+{
 parent
 =
 xdr
@@ -25949,6 +25945,7 @@ setScopeChain
 parent
 )
 ;
+}
 }
 AutoObjectRooter
 tvr

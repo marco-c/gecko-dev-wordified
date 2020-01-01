@@ -13168,6 +13168,14 @@ context
 return
 NULL
 ;
+fun
+-
+>
+setCallScope
+(
+NULL
+)
+;
 }
 return
 fun
