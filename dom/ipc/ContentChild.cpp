@@ -2053,7 +2053,11 @@ aChromeFlags
 const
 bool
 &
-aIsBrowserFrame
+aIsBrowserElement
+const
+PRUint32
+&
+aAppId
 )
 {
 nsRefPtr
@@ -2066,7 +2070,8 @@ new
 TabChild
 (
 aChromeFlags
-aIsBrowserFrame
+aIsBrowserElement
+aAppId
 )
 ;
 return
