@@ -8455,7 +8455,7 @@ ifdef
 MOZ_WEBSPEECH
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 )
 #
 endif
@@ -9370,7 +9370,7 @@ ifdef
 MOZ_WEBSPEECH
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 )
 #
 endif
@@ -9875,7 +9875,7 @@ ifdef
 MOZ_WEBSPEECH
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 )
 #
 endif

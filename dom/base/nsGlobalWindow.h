@@ -525,7 +525,7 @@ MOZ_WEBSPEECH
 #
 include
 "
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 .
 h
 "
@@ -1575,7 +1575,7 @@ MOZ_B2G
 ifdef
 MOZ_WEBSPEECH
 public
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 #
 endif
 /
@@ -1793,8 +1793,8 @@ ifdef
 MOZ_WEBSPEECH
 /
 /
-nsIDOMSpeechSynthesisGetter
-NS_DECL_NSIDOMSPEECHSYNTHESISGETTER
+nsISpeechSynthesisGetter
+NS_DECL_NSISPEECHSYNTHESISGETTER
 #
 endif
 /

@@ -9001,7 +9001,7 @@ ifdef
 MOZ_WEBSPEECH
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 )
 #
 endif
@@ -19297,7 +19297,7 @@ timedChannel
 }
 /
 /
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 #
 ifdef
 MOZ_WEBSPEECH
