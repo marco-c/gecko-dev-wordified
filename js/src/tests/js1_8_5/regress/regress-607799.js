@@ -1,3 +1,17 @@
+/
+/
+|
+reftest
+|
+fails
+-
+if
+(
+!
+xulRuntime
+.
+shell
+)
 reportCompare
 (
 typeof

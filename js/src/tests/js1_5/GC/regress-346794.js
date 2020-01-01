@@ -1,4 +1,14 @@
 /
+/
+|
+reftest
+|
+skip
+-
+-
+slow
+killed
+/
 *
 -
 *

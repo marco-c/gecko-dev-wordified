@@ -1,4 +1,15 @@
 /
+/
+|
+reftest
+|
+fails
+-
+if
+(
+browserIsRemote
+)
+/
 *
 -
 *
