@@ -1985,10 +1985,7 @@ i
 ;
 i
 <
-cinfo
--
->
-num_components
+MAX_COMPS_IN_SCAN
 ;
 i
 +
@@ -2053,6 +2050,11 @@ cinfo
 -
 >
 num_components
+&
+&
+ci
+<
+MAX_COMPS_IN_SCAN
 ;
 ci
 +
