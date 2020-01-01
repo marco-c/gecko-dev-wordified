@@ -907,15 +907,11 @@ observe
 (
 null
 "
-profile
+addons
 -
-after
--
-change
-"
-"
 startup
 "
+null
 )
 ;
 let
