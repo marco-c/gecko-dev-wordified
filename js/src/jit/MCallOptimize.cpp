@@ -9891,7 +9891,7 @@ arg2Clasp
 =
 arg2Types
 ?
-arg1Types
+arg2Types
 -
 >
 getKnownClass
