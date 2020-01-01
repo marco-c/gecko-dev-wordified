@@ -161,6 +161,15 @@ recvVisibilityChanged
 msg
 )
 {
+msg
+=
+SpecialPowers
+.
+wrap
+(
+msg
+)
+;
 numEvents
 +
 +

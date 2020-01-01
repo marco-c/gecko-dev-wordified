@@ -1059,6 +1059,15 @@ ctxCallbackRecieved
 msg
 )
 {
+msg
+=
+SpecialPowers
+.
+wrap
+(
+msg
+)
+;
 ctxCallbackEvents
 +
 +
