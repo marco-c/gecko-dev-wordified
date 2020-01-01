@@ -911,9 +911,6 @@ hover
 :
 active
 state
-PRInt32
-buttonState
-;
 const
 PRInt32
 activeHover
@@ -933,13 +930,15 @@ EventStateManager
 (
 )
 ;
+PRInt32
+buttonState
+=
 esm
 -
 >
 GetContentState
 (
 mContent
-buttonState
 )
 ;
 if

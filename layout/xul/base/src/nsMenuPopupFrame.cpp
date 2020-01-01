@@ -4679,14 +4679,13 @@ EventStateManager
 ;
 PRInt32
 state
-;
+=
 esm
 -
 >
 GetContentState
 (
 mContent
-state
 )
 ;
 if
