@@ -1526,6 +1526,11 @@ argc
 )
 ;
 void
+interruptCheckHelper
+(
+)
+;
+void
 inlineCallHelper
 (
 uint32
