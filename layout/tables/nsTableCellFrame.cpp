@@ -3430,15 +3430,6 @@ nscoord
 aMaxAscent
 )
 {
-const
-nsStyleTextReset
-*
-textStyle
-=
-GetStyleTextReset
-(
-)
-;
 /
 *
 It
