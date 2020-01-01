@@ -395,7 +395,7 @@ parseInt
 aData
 )
 ;
-VKBstateHasChanged
+VKBStateHasChanged
 =
 true
 ;
