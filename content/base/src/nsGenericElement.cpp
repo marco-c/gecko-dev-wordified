@@ -9597,7 +9597,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsIContent
+Element
 (
 aNodeInfo
 )

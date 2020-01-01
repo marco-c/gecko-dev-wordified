@@ -480,7 +480,7 @@ h
 #
 include
 "
-nsIContent
+Element
 .
 h
 "
@@ -1595,7 +1595,13 @@ class
 nsGenericElement
 :
 public
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 {
 public
 :
