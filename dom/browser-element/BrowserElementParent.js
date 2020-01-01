@@ -1095,6 +1095,16 @@ _fireEventFromMsg
 addMessageListener
 (
 "
+scroll
+"
+this
+.
+_fireEventFromMsg
+)
+;
+addMessageListener
+(
+"
 get
 -
 mozapp
