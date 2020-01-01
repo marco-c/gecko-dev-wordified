@@ -2859,7 +2859,7 @@ functions
 /
 onLoadRegistry
 .
-map
+forEach
 (
 function
 (
@@ -3024,7 +3024,7 @@ functions
 /
 onResetRegistry
 .
-map
+forEach
 (
 function
 (
@@ -3127,7 +3127,7 @@ functions
 /
 onUnloadRegistry
 .
-map
+forEach
 (
 function
 (
@@ -4081,7 +4081,7 @@ gFrameList
 ;
 onProcessFrame
 .
-map
+forEach
 (
 function
 (
@@ -4128,7 +4128,7 @@ iterator
 else
 onFinished
 .
-map
+forEach
 (
 function
 (
@@ -4963,7 +4963,7 @@ false
 ;
 onProcessElement
 .
-map
+forEach
 (
 function
 (
