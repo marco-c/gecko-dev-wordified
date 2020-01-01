@@ -1212,6 +1212,16 @@ input
 |
 /
 /
+preserve_graphite_tables
+:
+whether
+to
+preserve
+Graphite
+Layout
+tables
+/
+/
 -
 -
 -
@@ -1301,6 +1311,10 @@ uint8_t
 input
 size_t
 length
+bool
+preserve_graphite_tables
+=
+false
 )
 ;
 /
