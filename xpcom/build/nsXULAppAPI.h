@@ -2983,9 +2983,6 @@ XRE_API
 void
 XRE_ShutdownChildProcess
 (
-MessageLoop
-*
-aUILoop
 )
 )
 XRE_API

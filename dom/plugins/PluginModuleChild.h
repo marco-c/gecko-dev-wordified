@@ -867,6 +867,14 @@ NPError
 rv
 )
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+;
 public
 :
 PluginModuleChild

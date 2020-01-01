@@ -574,7 +574,7 @@ help
 "
 "
 "
-Director
+Directory
 into
 which
 C
@@ -657,7 +657,7 @@ help
 "
 "
 "
-Director
+Directory
 into
 which
 C
@@ -789,8 +789,7 @@ sources
 will
 be
 generated
-relative
-to
+in
 "
 %
 s
