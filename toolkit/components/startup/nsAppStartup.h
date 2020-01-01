@@ -363,12 +363,6 @@ tracking
 has
 already
 ended
-bool
-mCachedShutdownTime
-;
-uint32_t
-mLastShutdownTime
-;
 #
 if
 defined
