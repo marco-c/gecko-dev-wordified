@@ -14433,6 +14433,9 @@ uintN
 argc
 ;
 Value
+lval
+;
+Value
 *
 vp
 ;
@@ -14777,9 +14780,6 @@ BEGIN_CASE
 JSOP_APPLY
 )
 {
-Value
-lval
-;
 argc
 =
 GET_ARGC
