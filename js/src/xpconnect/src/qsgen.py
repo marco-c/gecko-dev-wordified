@@ -1826,6 +1826,11 @@ kind
 '
 method
 '
+and
+not
+member
+.
+implicit_jscontext
 :
         
 #
@@ -2280,8 +2285,12 @@ readonly
 '
 optional_argc
 '
+                                              
 '
 traceable
+'
+'
+implicit_jscontext
 '
 )
 :
@@ -8231,6 +8240,21 @@ params
 if
 member
 .
+implicit_jscontext
+:
+                
+argv
+.
+append
+(
+'
+cx
+'
+)
+            
+if
+member
+.
 optional_argc
 :
                 
@@ -8316,6 +8340,20 @@ args
 "
 arg0
 "
+            
+if
+member
+.
+implicit_jscontext
+:
+                
+args
+=
+"
+cx
+"
++
+args
         
 f
 .
