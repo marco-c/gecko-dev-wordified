@@ -9305,6 +9305,9 @@ Open
 dataFile
 )
 ;
+#
+ifdef
+MOZ_VERIFY_MAR_SIGNATURE
 if
 (
 rv
@@ -9322,6 +9325,8 @@ VerifySignature
 )
 ;
 }
+#
+endif
 if
 (
 rv
