@@ -1225,7 +1225,7 @@ POST_DATA_ANNO
 NS_LITERAL_CSTRING
 (
 "
-URIProperties
+bookmarkProperties
 /
 POSTData
 "
@@ -6914,11 +6914,11 @@ IsEmpty
 mAnnotationService
 -
 >
-SetPageAnnotationString
+SetItemAnnotationString
 (
 frame
 .
-mPreviousLink
+mPreviousId
 POST_DATA_ANNO
 postData
 0
@@ -12835,9 +12835,9 @@ rv
 mAnnotationService
 -
 >
-PageHasAnnotation
+ItemHasAnnotation
 (
-pageURI
+itemId
 POST_DATA_ANNO
 &
 hasPostData
@@ -12862,9 +12862,9 @@ rv
 mAnnotationService
 -
 >
-GetPageAnnotationString
+GetItemAnnotationString
 (
-pageURI
+itemId
 POST_DATA_ANNO
 postData
 )
