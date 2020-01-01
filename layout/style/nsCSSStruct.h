@@ -1318,6 +1318,9 @@ void
 )
 ;
 nsCSSValue
+mSystemFont
+;
+nsCSSValue
 mFamily
 ;
 nsCSSValue
