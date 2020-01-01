@@ -2632,6 +2632,9 @@ case
 LIR_qiadd
 :
 case
+LIR_qjoin
+:
+case
 LIR_qcmov
 :
 case
