@@ -8468,6 +8468,9 @@ double
 out
 )
 {
+AutoAssertCanGC
+cangc
+;
 #
 ifdef
 DEBUG

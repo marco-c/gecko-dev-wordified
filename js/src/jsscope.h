@@ -7133,6 +7133,9 @@ bool
 adding
 )
 {
+AutoAssertCanGC
+cangc
+;
 #
 ifdef
 DEBUG

@@ -29052,6 +29052,9 @@ Reason
 reason
 )
 {
+AutoAssertCanGC
+cangc
+;
 Collect
 (
 rt
@@ -29082,6 +29085,9 @@ int64_t
 millis
 )
 {
+AutoAssertCanGC
+cangc
+;
 int64_t
 sliceBudget
 ;
@@ -29155,6 +29161,9 @@ Reason
 reason
 )
 {
+AutoAssertCanGC
+cangc
+;
 Collect
 (
 rt
@@ -29180,6 +29189,9 @@ int64_t
 objCount
 )
 {
+AutoAssertCanGC
+cangc
+;
 int64_t
 budget
 =
