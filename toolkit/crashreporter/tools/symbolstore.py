@@ -644,10 +644,6 @@ root
             
 self
 .
-clean_root
-            
-self
-.
 revision
             
 self
@@ -817,36 +813,6 @@ name
 =
 =
 "
-clean_root
-"
-:
-            
-clean_root
-=
-self
-.
-GetCleanRoot
-(
-)
-            
-if
-clean_root
-:
-                
-self
-.
-clean_root
-=
-clean_root
-            
-return
-clean_root
-        
-elif
-name
-=
-=
-"
 revision
 "
 :
@@ -920,41 +886,6 @@ method
 should
 return
 the
-unmodified
-root
-for
-the
-file
-or
-'
-None
-'
-            
-on
-failure
-.
-"
-"
-"
-        
-raise
-NotImplementedError
-    
-def
-GetCleanRoot
-(
-self
-)
-:
-        
-"
-"
-"
-This
-method
-should
-return
-the
 repository
 root
 for
@@ -973,7 +904,7 @@ failure
 "
         
 raise
-NotImplementedErrors
+NotImplementedError
     
 def
 GetRevision
@@ -1184,52 +1115,14 @@ close
 (
 )
         
-if
-root_name
-:
-            
-return
-root_name
-        
-print
->
->
-sys
-.
-stderr
-"
-Failed
-to
-get
-CVS
-Root
-for
-%
-s
-"
-%
-filename
-        
-return
-None
-    
-def
-GetCleanRoot
-(
-self
-)
-:
-        
 parts
 =
-self
-.
-root
+root_name
 .
 split
 (
-'
-'
+"
+"
 )
         
 if
@@ -1435,7 +1328,7 @@ revision
 and
 self
 .
-clean_root
+root
 :
             
 if
@@ -1594,7 +1487,7 @@ s
 (
 self
 .
-clean_root
+root
 file
 self
 .
@@ -2008,34 +1901,6 @@ file
 return
 None
     
-#
-File
-bug
-to
-get
-this
-teased
-out
-from
-the
-current
-GetRoot
-this
-is
-temporary
-    
-def
-GetCleanRoot
-(
-self
-)
-:
-        
-return
-self
-.
-root
-    
 def
 GetRevision
 (
@@ -2276,12 +2141,6 @@ and
 return
     
 a
-tuple
-containing
-    
-1
-)
-a
 specially
 formatted
 filename
@@ -2338,16 +2197,6 @@ cpp
 1
 .
 36
-    
-2
-)
-the
-unmodified
-root
-information
-if
-it
-exists
 "
 "
 "
@@ -2386,11 +2235,6 @@ file
 fileInfo
 =
 None
-    
-root
-=
-'
-'
     
 if
 file
@@ -2445,16 +2289,6 @@ CVSFileInfo
 file
 srcdir
 )
-            
-if
-fileInfo
-:
-               
-root
-=
-fileInfo
-.
-root
         
 elif
 os
@@ -2534,7 +2368,6 @@ win32
 paths
     
 return
-(
 file
 .
 replace
@@ -2546,8 +2379,6 @@ replace
 "
 /
 "
-)
-root
 )
 def
 GetPlatformSpecificDumper
@@ -2632,7 +2463,6 @@ SourceIndex
 (
 fileStream
 outputPath
-cvs_root
 )
 :
     
@@ -2891,36 +2721,8 @@ nCVS_WORKING_DIR
 targ
 %
 \
-r
-\
-nMYSERVER
-=
-'
-'
-'
-)
-    
-pdbStreamFile
-.
-write
-(
-cvs_root
-)
-    
-pdbStreamFile
-.
-write
-(
-'
-'
-'
-\
-r
-\
-nSRCSRVTRG
-=
 %
-targ
+var2
 %
 \
 %
@@ -2931,6 +2733,22 @@ fnbksl
 var3
 %
 )
+\
+r
+\
+nMYSERVER
+=
+%
+CVSROOT
+%
+\
+r
+\
+nSRCSRVTRG
+=
+%
+CVS_WORKING_DIR
+%
 \
 r
 \
@@ -3552,7 +3370,6 @@ self
 debug_file
 guid
 sourceFileStream
-cvs_root
 )
 :
         
@@ -3793,11 +3610,6 @@ result
 False
         
 sourceFileStream
-=
-'
-'
-        
-cvs_root
 =
 '
 '
@@ -4125,10 +3937,7 @@ self
 vcsinfo
 :
                                 
-(
 filename
-rootname
-)
 =
 GetVCSFilename
 (
@@ -4137,31 +3946,6 @@ self
 .
 srcdir
 )
-                                
-#
-sets
-cvs_root
-in
-case
-the
-loop
-through
-files
-were
-to
-end
-on
-an
-empty
-rootname
-                                
-if
-rootname
-:
-                                   
-cvs_root
-=
-rootname
                             
 #
 gather
@@ -4332,7 +4116,6 @@ SourceServerIndexing
 debug_file
 guid
 sourceFileStream
-cvs_root
 )
                     
 result
@@ -4755,7 +4538,6 @@ self
 debug_file
 guid
 sourceFileStream
-cvs_root
 )
 :
         
@@ -4824,7 +4606,6 @@ SourceIndex
 (
 sourceFileStream
 stream_output_path
-cvs_root
 )
         
 if
