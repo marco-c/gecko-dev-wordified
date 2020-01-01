@@ -738,6 +738,16 @@ return
 rtp_packets_received_
 ;
 }
+MediaSessionConduit
+*
+Conduit
+(
+)
+{
+return
+conduit_
+;
+}
 /
 /
 Thread
