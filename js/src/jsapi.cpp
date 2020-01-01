@@ -16312,7 +16312,7 @@ SCOPE_SET_SEALED
 scope
 )
 ;
-SCOPE_MAKE_UNIQUE_SHAPE
+js_MakeScopeShapeUnique
 (
 cx
 scope

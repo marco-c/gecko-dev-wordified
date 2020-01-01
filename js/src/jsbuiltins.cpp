@@ -1735,7 +1735,7 @@ exit_trace
 ;
 }
 }
-SCOPE_EXTEND_SHAPE
+js_ExtendScopeShape
 (
 cx
 scope

@@ -20868,7 +20868,7 @@ OBJ_SCOPE
 oldproto
 )
 ;
-SCOPE_MAKE_UNIQUE_SHAPE
+js_MakeScopeShapeUnique
 (
 cx
 scope
