@@ -4428,6 +4428,17 @@ JSProperty
 propp
 )
 ;
+#
+ifdef
+__cplusplus
+/
+*
+LiveConnect
+you
+suck
+.
+*
+/
 extern
 JSBool
 js_DefineNativeProperty
@@ -4464,6 +4475,8 @@ entryp
 NULL
 )
 ;
+#
+endif
 /
 *
 *
