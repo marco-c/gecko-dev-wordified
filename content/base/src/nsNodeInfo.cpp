@@ -755,11 +755,6 @@ this
 ;
 NS_RELEASE
 (
-mOwnerManager
-)
-;
-NS_RELEASE
-(
 mInner
 .
 mName
@@ -777,6 +772,11 @@ NS_IF_RELEASE
 mInner
 .
 mExtraName
+)
+;
+NS_RELEASE
+(
+mOwnerManager
 )
 ;
 }

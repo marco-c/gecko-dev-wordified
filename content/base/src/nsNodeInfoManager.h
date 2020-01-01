@@ -953,6 +953,9 @@ mDocument
 /
 /
 WEAK
+PRUint32
+mNonDocumentNodeInfos
+;
 nsIPrincipal
 *
 mPrincipal
