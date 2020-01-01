@@ -76,8 +76,7 @@ Firefox
 '
 :
 '
->
-24
+*
 '
 }
 }
@@ -233,7 +232,6 @@ url
 ;
 const
 {
-BLANK_IMG
 BUILTIN_SIDEBAR_MENUITEMS
 isSidebarShowing
 getSidebarMenuitems
@@ -241,7 +239,6 @@ getExtraSidebarMenuitems
 makeID
 simulateCommand
 simulateClick
-getWidget
 isChecked
 }
 =
@@ -301,9 +298,6 @@ testName
 title
 :
 testName
-icon
-:
-BLANK_IMG
 url
 :
 '
@@ -533,9 +527,6 @@ testName
 title
 :
 testName
-icon
-:
-BLANK_IMG
 url
 :
 '
@@ -849,9 +840,6 @@ testName
 title
 :
 testName
-icon
-:
-BLANK_IMG
 url
 :
 '
@@ -1116,9 +1104,6 @@ testName
 title
 :
 testName
-icon
-:
-BLANK_IMG
 url
 :
 '
@@ -1168,11 +1153,10 @@ getSidebarMenuitems
 )
 ;
 for
-each
 (
 let
 mi
-in
+of
 sidebarMI
 )
 {
@@ -1377,9 +1361,6 @@ testName
 title
 :
 testName
-icon
-:
-BLANK_IMG
 url
 :
 url
