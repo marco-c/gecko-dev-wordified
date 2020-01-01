@@ -502,9 +502,6 @@ PropertyPanel
 "
 PropertyTreeView
 "
-"
-namesAndValuesOf
-"
 ]
 ;
 /
