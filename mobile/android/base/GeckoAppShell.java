@@ -3380,6 +3380,16 @@ MotionEvent
 event
 )
 {
+if
+(
+event
+=
+=
+null
+)
+return
+true
+;
 float
 origX
 =

@@ -627,7 +627,7 @@ asIntBuffer
 Override
 public
 ByteBuffer
-lockBuffer
+getBuffer
 (
 )
 {
