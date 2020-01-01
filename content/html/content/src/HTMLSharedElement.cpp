@@ -1777,9 +1777,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 if
@@ -1805,7 +1802,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -1832,7 +1828,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -1859,7 +1854,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -1898,7 +1892,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -1925,7 +1918,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -1952,7 +1944,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }

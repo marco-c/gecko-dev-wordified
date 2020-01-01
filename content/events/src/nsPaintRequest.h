@@ -201,9 +201,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 MOZ_OVERRIDE
 ;
@@ -329,10 +326,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 ;
 nsISupports
 *

@@ -280,10 +280,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 ;
 double
 CurrentTime
@@ -692,10 +690,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

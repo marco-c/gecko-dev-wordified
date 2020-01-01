@@ -373,9 +373,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 MOZ_OVERRIDE
 ;

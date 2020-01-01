@@ -553,10 +553,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 {
 return
 mozilla
@@ -573,7 +571,6 @@ Wrap
 cx
 scope
 this
-triedToWrap
 )
 ;
 }
@@ -686,10 +683,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 {
 return
 mozilla
@@ -706,7 +701,6 @@ Wrap
 cx
 scope
 this
-triedToWrap
 )
 ;
 }

@@ -264,9 +264,6 @@ cx
 JSObject
 *
 scope
-bool
-*
-tried
 )
 MOZ_OVERRIDE
 MOZ_FINAL

@@ -193,9 +193,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -207,7 +204,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -345,9 +341,6 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
 {
 return
@@ -365,7 +358,6 @@ Wrap
 cx
 scope
 this
-triedToWrap
 )
 ;
 }

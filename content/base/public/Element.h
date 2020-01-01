@@ -5243,11 +5243,9 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 /
 *

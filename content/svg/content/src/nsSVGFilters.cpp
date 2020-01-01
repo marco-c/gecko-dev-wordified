@@ -13064,9 +13064,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -13078,7 +13075,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -13134,9 +13130,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -13148,7 +13141,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -13204,9 +13196,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -13218,7 +13207,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -13274,9 +13262,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -13288,7 +13273,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }

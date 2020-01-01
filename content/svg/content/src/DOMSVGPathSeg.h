@@ -482,10 +482,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -507,7 +505,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 \
@@ -1231,10 +1228,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 =
 0
 ;

@@ -319,10 +319,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 {
 return
 mozilla
@@ -339,7 +337,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -1783,10 +1780,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 {
 return
 mozilla
@@ -1803,7 +1798,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }

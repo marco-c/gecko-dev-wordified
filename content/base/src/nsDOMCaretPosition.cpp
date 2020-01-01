@@ -143,9 +143,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTried
 )
 {
 return
@@ -163,7 +160,6 @@ Wrap
 aCx
 aScope
 this
-aTried
 )
 ;
 }

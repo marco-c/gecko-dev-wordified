@@ -340,10 +340,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 ;
 static
 already_AddRefed
