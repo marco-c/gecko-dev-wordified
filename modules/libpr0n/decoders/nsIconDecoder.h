@@ -939,9 +939,6 @@ iconStateReadPixels
 iconStateFinished
 =
 3
-iconStateError
-=
-4
 }
 ;
 }

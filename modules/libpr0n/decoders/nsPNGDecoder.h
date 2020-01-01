@@ -624,9 +624,6 @@ PRUint8
 mChannels
 ;
 PRPackedBool
-mError
-;
-PRPackedBool
 mFrameHasNoAlpha
 ;
 PRPackedBool
