@@ -10650,6 +10650,9 @@ line1
 +
 +
 )
+(
+void
+)
 fgets
 (
 linebuf
@@ -10657,6 +10660,14 @@ LINE_BUF_LEN
 file
 )
 ;
+/
+*
+Intentionally
+unused
+result
+.
+*
+/
 bupline
 =
 0

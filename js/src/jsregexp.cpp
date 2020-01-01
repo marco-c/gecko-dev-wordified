@@ -39170,6 +39170,7 @@ cx
 JSTokenStream
 *
 ts
+const
 jschar
 *
 chars
