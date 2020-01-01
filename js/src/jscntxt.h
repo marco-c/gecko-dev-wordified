@@ -7589,6 +7589,9 @@ endif
 bool
 jitHardening
 ;
+bool
+jitSupportsFloatingPoint
+;
 /
 /
 Used
