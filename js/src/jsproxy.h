@@ -690,6 +690,8 @@ cx
 HandleObject
 proxy
 )
+=
+0
 ;
 virtual
 bool
@@ -921,6 +923,8 @@ JSObject
 *
 proxy
 )
+=
+0
 ;
 virtual
 bool
