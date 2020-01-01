@@ -799,8 +799,10 @@ interface
 :
 virtual
 void
-NotifyViewportChange
+NotifyViewportOrTransformChanged
 (
+PRUint32
+aFlags
 )
 ;
 /
