@@ -3557,6 +3557,17 @@ aResetInput
 {
 if
 (
+!
+this
+.
+isAutoCompleteOpen
+(
+)
+)
+return
+;
+if
+(
 aResetInput
 )
 this
