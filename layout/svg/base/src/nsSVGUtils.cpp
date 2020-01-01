@@ -5887,7 +5887,7 @@ aFlags
 {
 nsIFrame
 *
-aKid
+kid
 =
 aFrame
 -
@@ -5899,7 +5899,7 @@ nsnull
 ;
 while
 (
-aKid
+kid
 )
 {
 nsISVGChildFrame
@@ -5908,7 +5908,7 @@ SVGFrame
 =
 do_QueryFrame
 (
-aKid
+kid
 )
 ;
 if
@@ -5929,7 +5929,7 @@ else
 {
 NS_ASSERTION
 (
-aKid
+kid
 -
 >
 IsFrameOfType
@@ -5981,14 +5981,14 @@ nsSVGUtils
 :
 NotifyChildrenOfSVGChange
 (
-aKid
+kid
 aFlags
 )
 ;
 }
-aKid
+kid
 =
-aKid
+kid
 -
 >
 GetNextSibling
