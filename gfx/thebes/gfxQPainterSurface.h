@@ -444,6 +444,18 @@ gfxImageSurface
 .
 h
 "
+#
+include
+"
+cairo
+-
+features
+.
+h
+"
+#
+ifdef
+CAIRO_HAS_QT_SURFACE
 class
 QPainter
 ;
@@ -531,6 +543,8 @@ mPainter
 ;
 }
 ;
+#
+endif
 #
 endif
 /

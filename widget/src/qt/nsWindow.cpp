@@ -5548,6 +5548,9 @@ targetSurface
 =
 gBufferSurface
 ;
+#
+ifdef
+CAIRO_HAS_QT_SURFACE
 }
 else
 if
@@ -5569,6 +5572,8 @@ gfxQPainterSurface
 aPainter
 )
 ;
+#
+endif
 }
 if
 (
@@ -14624,6 +14629,9 @@ GetRenderMode
 (
 )
 ;
+#
+ifdef
+CAIRO_HAS_QT_SURFACE
 if
 (
 renderMode
@@ -14652,6 +14660,8 @@ CONTENT_COLOR
 )
 ;
 }
+#
+endif
 if
 (
 !

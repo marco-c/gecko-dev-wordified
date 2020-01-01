@@ -439,6 +439,9 @@ gfxQPainterSurface
 h
 "
 #
+ifdef
+CAIRO_HAS_QT_SURFACE
+#
 include
 "
 gfxImageSurface
@@ -699,3 +702,5 @@ forget
 )
 ;
 }
+#
+endif

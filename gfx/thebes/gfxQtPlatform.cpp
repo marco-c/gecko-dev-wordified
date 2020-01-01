@@ -1245,6 +1245,9 @@ gfxASurface
 :
 ImageFormatRGB16_565
 ;
+#
+ifdef
+CAIRO_HAS_QT_SURFACE
 if
 (
 mRenderMode
@@ -1270,6 +1273,8 @@ forget
 )
 ;
 }
+#
+endif
 if
 (
 mRenderMode
