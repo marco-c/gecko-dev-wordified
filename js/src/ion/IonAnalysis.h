@@ -478,17 +478,6 @@ MIRGraph
 graph
 )
 ;
-bool
-Lower
-(
-MIRGenerator
-*
-gen
-MIRGraph
-&
-graph
-)
-;
 }
 /
 /
