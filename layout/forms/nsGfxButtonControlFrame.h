@@ -685,6 +685,16 @@ button
 of
 file
 input
+virtual
+PRBool
+IsInput
+(
+)
+{
+return
+PR_TRUE
+;
+}
 private
 :
 nsSize
