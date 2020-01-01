@@ -19181,9 +19181,6 @@ static
 nsresult
 GetNewOrUsed
 (
-JSContext
-*
-cx
 JSObject
 *
 aJSObj

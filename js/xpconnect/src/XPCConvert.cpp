@@ -6839,7 +6839,6 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
-cx
 src
 *
 iid
@@ -7937,7 +7936,6 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
-cx
 obj
 NS_GET_IID
 (

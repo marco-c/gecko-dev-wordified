@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsAtomicRefcnt
 .
 h
@@ -141,6 +148,10 @@ nsTextFormatter
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 NOTE
@@ -1777,9 +1788,6 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
-JSContext
-*
-cx
 JSObject
 *
 aJSObj
@@ -1794,6 +1802,9 @@ nsXPCWrappedJS
 wrapperResult
 )
 {
+AutoJSContext
+cx
+;
 JS
 :
 :

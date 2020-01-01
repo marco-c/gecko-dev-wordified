@@ -4383,7 +4383,6 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
-ccx
 src
 iid
 nullptr

@@ -4875,7 +4875,6 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
-ccx
 jsobj
 aIID
 nullptr
