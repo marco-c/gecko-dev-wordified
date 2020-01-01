@@ -1501,7 +1501,6 @@ zero
 -
 duration
 intervals
-and
 /
 /
 c
@@ -1518,6 +1517,13 @@ current
 /
 /
 interval
+and
+/
+/
+d
+)
+trimmed
+intervals
 /
 /
 Hence
