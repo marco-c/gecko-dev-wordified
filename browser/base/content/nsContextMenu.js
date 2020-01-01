@@ -8897,7 +8897,7 @@ title
 var
 description
 =
-PlacesUtils
+PlacesUIUtils
 .
 getDescriptionFromDocument
 (
@@ -8919,7 +8919,7 @@ description
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -8938,7 +8938,7 @@ descAnno
 ]
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
