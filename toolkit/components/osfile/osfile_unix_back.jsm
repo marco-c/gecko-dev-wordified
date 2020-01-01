@@ -681,49 +681,6 @@ negativeone_or_ssize_t
 *
 *
 *
-A
-C
-string
-*
-/
-Types
-.
-null_or_string
-=
-Types
-.
-char
-.
-in_ptr
-.
-withName
-(
-"
-null_or_string
-"
-)
-;
-Types
-.
-string
-=
-Types
-.
-char
-.
-in_ptr
-.
-withName
-(
-"
-string
-"
-)
-;
-/
-*
-*
-*
 Various
 libc
 integer
@@ -1604,7 +1561,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 mode
@@ -1642,7 +1599,7 @@ path
 /
 Types
 .
-string
+path
 )
 ;
 UnixFile
@@ -1672,7 +1629,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 mode
@@ -1710,7 +1667,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 uid
@@ -1756,7 +1713,7 @@ source
 /
 Types
 .
-string
+path
 /
 *
 dest
@@ -1764,7 +1721,7 @@ dest
 /
 Types
 .
-string
+path
 /
 *
 state
@@ -1846,7 +1803,7 @@ path
 /
 Types
 .
-string
+path
 )
 ;
 UnixFile
@@ -1974,7 +1931,7 @@ return
 /
 Types
 .
-null_or_string
+out_path
 /
 *
 buf
@@ -1982,9 +1939,7 @@ buf
 /
 Types
 .
-char
-.
-out_ptr
+out_path
 /
 *
 size
@@ -2014,7 +1969,7 @@ return
 /
 Types
 .
-null_or_string
+out_path
 /
 *
 buf
@@ -2022,9 +1977,7 @@ buf
 /
 Types
 .
-char
-.
-out_ptr
+out_path
 )
 ;
 /
@@ -2068,7 +2021,7 @@ return
 /
 Types
 .
-null_or_string
+out_path
 .
 releaseWith
 (
@@ -2112,7 +2065,7 @@ return
 /
 Types
 .
-null_or_string
+out_path
 .
 releaseWith
 (
@@ -2129,7 +2082,7 @@ Types
 .
 void_t
 .
-in_ptr
+out_ptr
 )
 ;
 UnixFile
@@ -2332,7 +2285,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 uid_t
@@ -2378,7 +2331,7 @@ source
 /
 Types
 .
-string
+path
 /
 *
 dest
@@ -2386,7 +2339,7 @@ dest
 /
 Types
 .
-string
+path
 )
 ;
 UnixFile
@@ -2462,7 +2415,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 mode
@@ -2492,7 +2445,7 @@ return
 /
 Types
 .
-null_or_string
+out_path
 /
 *
 template
@@ -2500,7 +2453,7 @@ template
 /
 Types
 .
-string
+out_path
 )
 ;
 UnixFile
@@ -2530,7 +2483,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 oflags
@@ -2576,7 +2529,7 @@ path
 /
 Types
 .
-string
+path
 )
 ;
 UnixFile
@@ -2614,7 +2567,7 @@ buf
 /
 Types
 .
-char
+void_t
 .
 out_ptr
 /
@@ -2670,7 +2623,7 @@ buf
 /
 Types
 .
-char
+void_t
 .
 in_ptr
 /
@@ -2726,7 +2679,7 @@ buf
 /
 Types
 .
-char
+void_t
 .
 out_ptr
 /
@@ -2901,7 +2854,7 @@ old
 /
 Types
 .
-string
+path
 /
 *
 new
@@ -2909,7 +2862,7 @@ new
 /
 Types
 .
-string
+path
 )
 ;
 UnixFile
@@ -2939,7 +2892,7 @@ path
 /
 Types
 .
-string
+path
 )
 ;
 UnixFile
@@ -3050,7 +3003,7 @@ source
 /
 Types
 .
-string
+path
 /
 *
 dest
@@ -3058,7 +3011,7 @@ dest
 /
 Types
 .
-string
+path
 )
 ;
 UnixFile
@@ -3088,7 +3041,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 length
@@ -3126,7 +3079,7 @@ path
 /
 Types
 .
-string
+path
 )
 ;
 UnixFile
@@ -3164,7 +3117,7 @@ buf
 /
 Types
 .
-char
+void_t
 .
 in_ptr
 /
@@ -3263,7 +3216,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 buf
@@ -3304,7 +3257,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 buf
@@ -3424,7 +3377,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 buf
@@ -3471,7 +3424,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 buf
@@ -3634,7 +3587,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 buf
@@ -3674,7 +3627,7 @@ path
 /
 Types
 .
-string
+path
 /
 *
 buf
