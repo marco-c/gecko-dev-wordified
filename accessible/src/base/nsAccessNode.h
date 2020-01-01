@@ -525,13 +525,6 @@ h
 #
 include
 "
-nsRefPtrHashtable
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
