@@ -4310,9 +4310,16 @@ NS_FAILED
 rv
 )
 )
+{
+NS_RELEASE
+(
+mTransaction
+)
+;
 return
 rv
 ;
+}
 rv
 =
 nsInputStreamPump
