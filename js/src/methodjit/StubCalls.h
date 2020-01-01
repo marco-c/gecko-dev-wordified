@@ -962,6 +962,15 @@ f
 ;
 void
 JS_FASTCALL
+Not
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 Iter
 (
 VMFrame
