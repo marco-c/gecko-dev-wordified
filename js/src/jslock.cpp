@@ -2876,7 +2876,10 @@ be
 modified
 by
 js_ConcatStrings
-js_UndependString
+JSString
+:
+:
+undepend
 or
 *
 MinimizeDependentStrings

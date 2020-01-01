@@ -13131,10 +13131,12 @@ state
 .
 cp
 =
-js_UndependString
+str
+-
+>
+undepend
 (
 cx
-str
 )
 ;
 if

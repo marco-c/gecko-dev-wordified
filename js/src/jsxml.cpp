@@ -44352,7 +44352,7 @@ chars
 str
 -
 >
-flatChars
+chars
 (
 )
 ;
