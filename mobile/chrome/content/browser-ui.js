@@ -4223,8 +4223,15 @@ handleEscape
 :
 function
 (
+aEvent
 )
 {
+aEvent
+.
+stopPropagation
+(
+)
+;
 /
 /
 Check
@@ -4545,6 +4552,7 @@ this
 .
 handleEscape
 (
+aEvent
 )
 ;
 break
