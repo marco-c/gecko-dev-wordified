@@ -1457,10 +1457,12 @@ NS_RGB
 ;
 break
 ;
-/
-/
-CSS3
-candidates
+case
+eColor__moz_eventreerow
+:
+case
+eColor__moz_oddtreerow
+:
 case
 eColor__moz_field
 :
