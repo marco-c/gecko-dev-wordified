@@ -1223,13 +1223,6 @@ PRInt32
 aRequestId
 )
 {
-/
-/
-TODO
-:
-use
-Filter
-!
 SmsRequest
 *
 request
@@ -1263,7 +1256,6 @@ cursor
 new
 SmsCursor
 (
-nsnull
 )
 ;
 }
@@ -1314,13 +1306,6 @@ nsIDOMMozSmsMessage
 aMessage
 )
 {
-/
-/
-TODO
-:
-use
-Filter
-!
 SmsRequest
 *
 request
@@ -1340,7 +1325,6 @@ new
 SmsCursor
 (
 aListId
-nsnull
 request
 )
 ;
