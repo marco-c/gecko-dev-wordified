@@ -8772,7 +8772,7 @@ type
 0x02
 WSP
 .
-ConstrainedEncoding
+TypeValue
 )
 ;
 return
