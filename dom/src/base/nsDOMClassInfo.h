@@ -615,7 +615,7 @@ than
 31
 bits
 !
-PRBool
+PRUint32
 mHasClassInterface
 :
 1
