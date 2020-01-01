@@ -3801,9 +3801,6 @@ public
 :
 nsDisplayMathMLSlash
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -3817,7 +3814,6 @@ aThickness
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mRect
@@ -3921,8 +3917,12 @@ AppUnitsToGfxUnits
 (
 mRect
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -4123,7 +4123,6 @@ aBuilder
 )
 nsDisplayMathMLSlash
 (
-aBuilder
 aFrame
 aRect
 aThickness

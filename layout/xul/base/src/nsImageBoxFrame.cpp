@@ -1852,9 +1852,6 @@ public
 :
 nsDisplayXULImage
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsImageBoxFrame
 *
 aFrame
@@ -1862,7 +1859,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -1957,8 +1953,12 @@ PaintImage
 *
 aCtx
 mVisibleRect
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 aBuilder
 -
@@ -2108,7 +2108,6 @@ aBuilder
 )
 nsDisplayXULImage
 (
-aBuilder
 this
 )
 )

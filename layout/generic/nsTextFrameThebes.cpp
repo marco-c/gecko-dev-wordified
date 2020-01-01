@@ -25988,9 +25988,6 @@ public
 :
 nsDisplayText
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsTextFrame
 *
 aFrame
@@ -25998,7 +25995,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -26042,8 +26038,12 @@ GetOverflowRect
 (
 )
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 }
@@ -26074,8 +26074,12 @@ if
 (
 nsRect
 (
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 mFrame
 -
@@ -26219,8 +26223,12 @@ mFrame
 PaintText
 (
 aCtx
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 extraVisible
 )
@@ -26322,7 +26330,6 @@ aBuilder
 )
 nsDisplayText
 (
-aBuilder
 this
 )
 )

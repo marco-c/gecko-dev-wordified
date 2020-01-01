@@ -9098,9 +9098,6 @@ public
 :
 nsDisplayComboboxFocus
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsComboboxControlFrame
 *
 aFrame
@@ -9108,7 +9105,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -9184,8 +9180,12 @@ PaintFocus
 (
 *
 aCtx
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -9478,7 +9478,6 @@ aBuilder
 )
 nsDisplayComboboxFocus
 (
-aBuilder
 this
 )
 )

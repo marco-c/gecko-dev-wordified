@@ -682,9 +682,6 @@ public
 :
 nsDisplayTextDecoration
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsHTMLContainerFrame
 *
 aFrame
@@ -699,7 +696,6 @@ aLine
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mLine
@@ -1060,8 +1056,12 @@ maxAscent
 nsPoint
 pt
 =
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 nsHTMLContainerFrame
@@ -1199,8 +1199,12 @@ GetOverflowRect
 (
 )
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 }
@@ -1214,9 +1218,6 @@ public
 :
 nsDisplayTextShadow
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsHTMLContainerFrame
 *
 aFrame
@@ -1230,7 +1231,6 @@ aLine
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mLine
@@ -1958,8 +1958,12 @@ mColor
 nsPoint
 pt
 =
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 +
 nsPoint
@@ -2281,8 +2285,12 @@ GetOverflowRect
 (
 )
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 }
@@ -2479,7 +2487,6 @@ aBuilder
 )
 nsDisplayTextShadow
 (
-aBuilder
 this
 decorations
 aLine
@@ -2514,7 +2521,6 @@ aBuilder
 )
 nsDisplayTextDecoration
 (
-aBuilder
 this
 NS_STYLE_TEXT_DECORATION_UNDERLINE
 underColor
@@ -2550,7 +2556,6 @@ aBuilder
 )
 nsDisplayTextDecoration
 (
-aBuilder
 this
 NS_STYLE_TEXT_DECORATION_OVERLINE
 overColor
@@ -2586,7 +2591,6 @@ aBuilder
 )
 nsDisplayTextDecoration
 (
-aBuilder
 this
 NS_STYLE_TEXT_DECORATION_LINE_THROUGH
 strikeColor

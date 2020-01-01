@@ -8640,10 +8640,10 @@ float
 b
 )
 -
-nsPresContext
-:
-:
-CSSPointsToAppUnits
+aPresContext
+-
+>
+PointsToAppUnits
 (
 NS_MATHML_DELIMITER_SHORTFALL_POINTS
 )
@@ -14674,9 +14674,6 @@ public
 :
 nsDisplayMathMLSelectionRect
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -14688,7 +14685,6 @@ aRect
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mRect
@@ -14820,8 +14816,12 @@ FillRect
 (
 mRect
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -14836,9 +14836,6 @@ public
 :
 nsDisplayMathMLCharBackground
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -14853,7 +14850,6 @@ aStyleContext
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mStyleContext
@@ -14949,8 +14945,12 @@ rect
 (
 mRect
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -14992,9 +14992,6 @@ public
 :
 nsDisplayMathMLCharForeground
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -15007,7 +15004,6 @@ aIsSelected
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mChar
@@ -15065,8 +15061,12 @@ rect
 nsPoint
 offset
 =
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 +
 rect
@@ -15141,8 +15141,12 @@ PresContext
 )
 *
 aCtx
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 mIsSelected
 )
@@ -15179,9 +15183,6 @@ public
 :
 nsDisplayMathMLCharDebug
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -15193,7 +15194,6 @@ aRect
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mRect
@@ -15301,8 +15301,12 @@ rect
 =
 mRect
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 nsCSSRendering
@@ -15526,7 +15530,6 @@ aBuilder
 )
 nsDisplayMathMLSelectionRect
 (
-aBuilder
 aForFrame
 *
 aSelectedRect
@@ -15601,7 +15604,6 @@ aBuilder
 )
 nsDisplayMathMLCharBackground
 (
-aBuilder
 aForFrame
 mRect
 styleContext
@@ -15664,7 +15666,6 @@ aBuilder
 )
 nsDisplayMathMLCharDebug
 (
-aBuilder
 aForFrame
 mRect
 )
@@ -15695,7 +15696,6 @@ aBuilder
 )
 nsDisplayMathMLCharForeground
 (
-aBuilder
 aForFrame
 this
 aSelectedRect

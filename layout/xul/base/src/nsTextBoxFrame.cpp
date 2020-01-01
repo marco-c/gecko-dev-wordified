@@ -1802,9 +1802,6 @@ public
 :
 nsDisplayXULTextBox
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsTextBoxFrame
 *
 aFrame
@@ -1812,7 +1809,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -1898,8 +1894,12 @@ PaintTitle
 *
 aCtx
 mVisibleRect
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -1923,8 +1923,12 @@ GetOverflowRect
 (
 )
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 }
@@ -1993,7 +1997,6 @@ aBuilder
 )
 nsDisplayXULTextBox
 (
-aBuilder
 this
 )
 )

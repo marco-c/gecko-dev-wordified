@@ -7235,9 +7235,6 @@ public
 :
 nsDisplayXULDebug
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -7245,7 +7242,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -7331,8 +7327,12 @@ DisplayDebugInfoFor
 this
 rectCenter
 -
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -7394,8 +7394,12 @@ PaintXULDebugOverlay
 (
 *
 aCtx
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -7505,7 +7509,6 @@ aBuilder
 )
 nsDisplayGeneric
 (
-aBuilder
 this
 PaintXULDebugBackground
 "
@@ -7537,7 +7540,6 @@ aBuilder
 )
 nsDisplayXULDebug
 (
-aBuilder
 this
 )
 )
@@ -12496,9 +12498,6 @@ public
 :
 nsDisplayXULEventRedirector
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -12512,7 +12511,6 @@ aTargetFrame
 :
 nsDisplayWrapList
 (
-aBuilder
 aFrame
 aItem
 )
@@ -12524,9 +12522,6 @@ aTargetFrame
 }
 nsDisplayXULEventRedirector
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -12540,7 +12535,6 @@ aTargetFrame
 :
 nsDisplayWrapList
 (
-aBuilder
 aFrame
 aList
 )
@@ -12886,7 +12880,6 @@ aBuilder
 )
 nsDisplayXULEventRedirector
 (
-aBuilder
 aFrame
 aList
 mTargetFrame
@@ -12913,7 +12906,6 @@ aBuilder
 )
 nsDisplayXULEventRedirector
 (
-aBuilder
 aItem
 -
 >

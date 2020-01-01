@@ -474,13 +474,6 @@ plstr
 h
 "
 #
-include
-"
-nsCoord
-.
-h
-"
-#
 define
 COUNTOF
 (
@@ -532,7 +525,9 @@ x
 x
 )
 *
-MM_PER_INCH_FLOAT
+25
+.
+4
 )
 {
 "

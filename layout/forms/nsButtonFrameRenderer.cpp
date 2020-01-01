@@ -680,9 +680,6 @@ public
 :
 nsDisplayButtonBoxShadowOuter
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsButtonFrameRenderer
 *
 aRenderer
@@ -690,7 +687,6 @@ aRenderer
 :
 nsDisplayItem
 (
-aBuilder
 aRenderer
 -
 >
@@ -781,8 +777,12 @@ GetOverflowRect
 (
 )
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 }
@@ -805,8 +805,12 @@ frameRect
 =
 nsRect
 (
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 mFrame
 -
@@ -857,9 +861,6 @@ public
 :
 nsDisplayButtonBorderBackground
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsButtonFrameRenderer
 *
 aRenderer
@@ -867,7 +868,6 @@ aRenderer
 :
 nsDisplayItem
 (
-aBuilder
 aRenderer
 -
 >
@@ -972,9 +972,6 @@ public
 :
 nsDisplayButtonForeground
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsButtonFrameRenderer
 *
 aRenderer
@@ -982,7 +979,6 @@ aRenderer
 :
 nsDisplayItem
 (
-aBuilder
 aRenderer
 -
 >
@@ -1085,8 +1081,12 @@ r
 =
 nsRect
 (
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 mFrame
 -
@@ -1210,8 +1210,12 @@ r
 =
 nsRect
 (
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 mFrame
 -
@@ -1279,7 +1283,6 @@ aBuilder
 )
 nsDisplayButtonBoxShadowOuter
 (
-aBuilder
 this
 )
 )
@@ -1305,7 +1308,6 @@ aBuilder
 )
 nsDisplayButtonBorderBackground
 (
-aBuilder
 this
 )
 )
@@ -1328,7 +1330,6 @@ aBuilder
 )
 nsDisplayButtonForeground
 (
-aBuilder
 this
 )
 )

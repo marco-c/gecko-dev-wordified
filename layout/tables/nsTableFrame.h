@@ -599,9 +599,6 @@ public
 :
 nsDisplayTableItem
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -609,7 +606,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mPartHasFixedBackground

@@ -1571,7 +1571,6 @@ aBuilder
 )
 nsDisplayGeneric
 (
-aBuilder
 this
 PaintDebugPlaceholder
 "

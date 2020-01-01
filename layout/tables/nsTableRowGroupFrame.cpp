@@ -1228,9 +1228,6 @@ public
 :
 nsDisplayTableRowGroupBackground
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsTableRowGroupFrame
 *
 aFrame
@@ -1238,7 +1235,6 @@ aFrame
 :
 nsDisplayTableItem
 (
-aBuilder
 aFrame
 )
 {
@@ -1312,6 +1308,17 @@ GetTableFrame
 mFrame
 )
 ;
+nsPoint
+pt
+=
+aBuilder
+-
+>
+ToReferenceFrame
+(
+mFrame
+)
+;
 TableBackgroundPainter
 painter
 (
@@ -1329,9 +1336,7 @@ PresContext
 *
 aCtx
 mVisibleRect
-ToReferenceFrame
-(
-)
+pt
 aBuilder
 -
 >
@@ -1786,7 +1791,6 @@ aBuilder
 )
 nsDisplayTableRowGroupBackground
 (
-aBuilder
 this
 )
 ;

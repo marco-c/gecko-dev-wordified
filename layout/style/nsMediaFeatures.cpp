@@ -1522,7 +1522,7 @@ float
 dx
 -
 >
-AppUnitsPerPhysicalInch
+AppUnitsPerInch
 (
 )
 )

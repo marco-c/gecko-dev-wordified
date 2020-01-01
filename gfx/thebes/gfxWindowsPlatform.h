@@ -1373,6 +1373,11 @@ GetFTLibrary
 endif
 protected
 :
+void
+InitDisplayCaps
+(
+)
+;
 RenderMode
 mRenderMode
 ;

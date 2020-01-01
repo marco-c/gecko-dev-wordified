@@ -31942,7 +31942,6 @@ aBuilder
 )
 nsDisplayClip
 (
-aBuilder
 frame
 frame
 i
@@ -34290,8 +34289,6 @@ aBuilder
 )
 nsDisplaySolidColor
 (
-&
-aBuilder
 aFrame
 aBounds
 NS_RGB
@@ -34727,8 +34724,6 @@ aBuilder
 )
 nsDisplaySolidColor
 (
-&
-aBuilder
 aFrame
 aBounds
 bgcolor

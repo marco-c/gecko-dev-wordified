@@ -4507,9 +4507,6 @@ public
 :
 nsDisplayNotation
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -4525,7 +4522,6 @@ aType
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 mRect
@@ -4636,8 +4632,12 @@ AppUnitsToGfxUnits
 (
 mRect
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -4941,7 +4941,6 @@ aBuilder
 )
 nsDisplayNotation
 (
-aBuilder
 aFrame
 aRect
 aThickness
