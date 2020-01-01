@@ -5852,11 +5852,11 @@ false
 if
 (
 mState
-=
+!
 =
 PanZoomState
 .
-ANIMATED_ZOOM
+PINCHING
 )
 return
 false
