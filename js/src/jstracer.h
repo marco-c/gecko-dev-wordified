@@ -469,6 +469,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 jslock
 .
 h
@@ -798,7 +805,7 @@ entryNativeFrameSlots
 unsigned
 maxNativeFrameSlots
 ;
-size_t
+ptrdiff_t
 nativeStackBase
 ;
 unsigned
@@ -1045,7 +1052,7 @@ exit
 bool
 recompileFlag
 ;
-size_t
+ptrdiff_t
 nativeFrameOffset
 (
 jsval
