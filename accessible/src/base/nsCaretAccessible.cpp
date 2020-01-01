@@ -706,6 +706,12 @@ nsIDOMNode
 aCurrentNode
 )
 {
+NS_ENSURE_TRUE
+(
+mRootAccessible
+NS_ERROR_FAILURE
+)
+;
 mCurrentControl
 =
 aCurrentNode
@@ -1699,6 +1705,12 @@ caretRect
 aOutWidget
 =
 nsnull
+;
+NS_ENSURE_TRUE
+(
+mRootAccessible
+caretRect
+)
 ;
 if
 (
