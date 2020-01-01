@@ -274,6 +274,12 @@ using
 namespace
 mozilla
 ;
+using
+mozilla
+:
+:
+MutexAutoLock
+;
 nsTArray
 <
 GfxDriverInfo
@@ -511,7 +517,7 @@ using
 namespace
 mozilla
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_THREADSAFE_ISUPPORTS3
 (
 GfxInfoBase
 nsIGfxInfo
@@ -3030,6 +3036,12 @@ mFailureCount
 (
 0
 )
+mMutex
+(
+"
+GfxInfoBase
+"
+)
 {
 }
 GfxInfoBase
@@ -4766,6 +4778,12 @@ nsACString
 failure
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 /
 *
 We
