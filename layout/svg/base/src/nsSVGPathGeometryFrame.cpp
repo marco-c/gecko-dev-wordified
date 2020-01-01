@@ -3342,14 +3342,6 @@ RemovePathProperties
 (
 )
 {
-nsSVGUtils
-:
-:
-StyleEffects
-(
-this
-)
-;
 if
 (
 GetStateBits

@@ -7636,7 +7636,7 @@ void
 nsSVGUtils
 :
 :
-StyleEffects
+UpdateEffects
 (
 nsIFrame
 *

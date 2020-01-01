@@ -683,12 +683,6 @@ public
 /
 nsIFrame
 :
-virtual
-void
-Destroy
-(
-)
-;
 NS_IMETHOD
 InsertFrames
 (

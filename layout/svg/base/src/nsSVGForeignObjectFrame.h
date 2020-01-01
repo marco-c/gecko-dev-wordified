@@ -620,11 +620,6 @@ GetContentInsertionFrame
 ;
 }
 NS_IMETHOD
-DidSetStyleContext
-(
-)
-;
-NS_IMETHOD
 Reflow
 (
 nsPresContext
