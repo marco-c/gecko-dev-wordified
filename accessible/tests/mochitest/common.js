@@ -600,6 +600,13 @@ nsIAccessibleStates
 STATE_UNAVAILABLE
 ;
 const
+EXT_STATE_ACTIVE
+=
+nsIAccessibleStates
+.
+EXT_STATE_ACTIVE
+;
+const
 EXT_STATE_EDITABLE
 =
 nsIAccessibleStates
@@ -1798,6 +1805,9 @@ aAccOrElmOrID
 aAccOrElmOrID
 :
 document
+[
+nsIAccessNode
+]
 )
 ;
 return
