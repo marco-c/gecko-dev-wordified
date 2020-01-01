@@ -12863,6 +12863,8 @@ nsINodeInfo
 >
 nodeInfo
 ;
+nodeInfo
+=
 mDocument
 -
 >
@@ -12879,10 +12881,6 @@ nsGkAtoms
 mozgeneratedcontentimage
 nsnull
 kNameSpaceID_XHTML
-getter_AddRefs
-(
-nodeInfo
-)
 )
 ;
 nsCOMPtr
@@ -13844,6 +13842,8 @@ nsGkAtoms
 :
 mozgeneratedcontentafter
 ;
+nodeInfo
+=
 mDocument
 -
 >
@@ -13857,10 +13857,6 @@ GetNodeInfo
 elemName
 nsnull
 kNameSpaceID_None
-getter_AddRefs
-(
-nodeInfo
-)
 )
 ;
 nsIContent

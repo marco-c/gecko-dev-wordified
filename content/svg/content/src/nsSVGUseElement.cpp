@@ -2348,6 +2348,8 @@ nsINodeInfo
 >
 nodeInfo
 ;
+nodeInfo
+=
 nodeInfoManager
 -
 >
@@ -2359,10 +2361,6 @@ nsGkAtoms
 svg
 nsnull
 kNameSpaceID_SVG
-getter_AddRefs
-(
-nodeInfo
-)
 )
 ;
 if

@@ -1024,9 +1024,6 @@ list
 .
 *
 /
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsINodeInfo
@@ -1064,7 +1061,7 @@ doc
 nsnull
 )
 ;
-rv
+nodeInfo
 =
 doc
 -
@@ -1082,15 +1079,11 @@ nsGkAtoms
 option
 nsnull
 kNameSpaceID_None
-getter_AddRefs
-(
-nodeInfo
-)
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
-rv
+nodeInfo
 nsnull
 )
 ;

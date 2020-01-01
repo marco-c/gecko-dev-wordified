@@ -3171,6 +3171,8 @@ HandledByInner
 nameAtom
 )
 )
+nodeInfo
+=
 mNodeInfo
 -
 >
@@ -3184,8 +3186,10 @@ GetNodeInfo
 nameAtom
 nsnull
 kNameSpaceID_None
-&
-nodeInfo
+)
+.
+get
+(
 )
 ;
 }

@@ -2027,6 +2027,8 @@ an
 html
 html
 element
+htmlNodeInfo
+=
 nim
 -
 >
@@ -2038,10 +2040,6 @@ nsGkAtoms
 html
 0
 kNameSpaceID_None
-getter_AddRefs
-(
-htmlNodeInfo
-)
 )
 ;
 nsCOMPtr
@@ -2062,6 +2060,8 @@ an
 html
 head
 element
+htmlNodeInfo
+=
 nim
 -
 >
@@ -2073,10 +2073,6 @@ nsGkAtoms
 head
 0
 kNameSpaceID_None
-getter_AddRefs
-(
-htmlNodeInfo
-)
 )
 ;
 nsCOMPtr
@@ -2097,6 +2093,8 @@ an
 html
 body
 element
+htmlNodeInfo
+=
 nim
 -
 >
@@ -2108,10 +2106,6 @@ nsGkAtoms
 body
 0
 kNameSpaceID_None
-getter_AddRefs
-(
-htmlNodeInfo
-)
 )
 ;
 nsCOMPtr

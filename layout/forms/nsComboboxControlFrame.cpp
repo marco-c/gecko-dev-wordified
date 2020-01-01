@@ -7727,6 +7727,8 @@ nsINodeInfo
 >
 nodeInfo
 ;
+nodeInfo
+=
 nimgr
 -
 >
@@ -7738,10 +7740,6 @@ nsGkAtoms
 input
 nsnull
 kNameSpaceID_None
-getter_AddRefs
-(
-nodeInfo
-)
 )
 ;
 /

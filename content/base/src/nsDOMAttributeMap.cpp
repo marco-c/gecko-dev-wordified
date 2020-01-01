@@ -2354,6 +2354,8 @@ nsINodeInfo
 >
 ni
 ;
+ni
+=
 mContent
 -
 >
@@ -2386,10 +2388,6 @@ name
 >
 NamespaceID
 (
-)
-getter_AddRefs
-(
-ni
 )
 )
 ;
@@ -2663,6 +2661,8 @@ nsINodeInfo
 >
 ni
 ;
+ni
+=
 mContent
 -
 >
@@ -2686,10 +2686,6 @@ GetPrefix
 (
 )
 nameSpaceID
-getter_AddRefs
-(
-ni
-)
 )
 ;
 NS_ENSURE_TRUE
