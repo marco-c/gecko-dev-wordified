@@ -643,6 +643,9 @@ str
 )
 ;
 }
+namespace
+moz_decimal_utils
+{
 class
 StringBuilder
 {
@@ -733,5 +736,14 @@ mStr
 ;
 }
 ;
+}
+/
+/
+namespace
+moz
+-
+decimal
+-
+utils
 #
 endif
