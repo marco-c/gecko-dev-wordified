@@ -4187,6 +4187,11 @@ animated
 ;
 if
 (
+!
+mImage
+|
+|
+(
 NS_SUCCEEDED
 (
 mImage
@@ -4202,6 +4207,7 @@ animated
 &
 !
 animated
+)
 )
 {
 /
@@ -4656,8 +4662,7 @@ aImage
 {
 NS_ABORT_IF_FALSE
 (
-!
-mImage
+aImage
 "
 Setting
 null
