@@ -288,9 +288,6 @@ if
 gAudioChannelServiceChild
 )
 {
-delete
-gAudioChannelServiceChild
-;
 gAudioChannelServiceChild
 =
 nullptr

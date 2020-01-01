@@ -345,9 +345,6 @@ if
 gAudioChannelService
 )
 {
-delete
-gAudioChannelService
-;
 gAudioChannelService
 =
 nullptr
