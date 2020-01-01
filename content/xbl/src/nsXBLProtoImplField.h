@@ -223,8 +223,14 @@ InstallField
 nsIScriptContext
 *
 aContext
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aBoundNode
 nsIURI
 *
