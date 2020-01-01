@@ -549,7 +549,7 @@ keyword
 URL
 "
 "
-http
+https
 :
 /
 /

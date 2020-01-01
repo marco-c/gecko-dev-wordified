@@ -1620,7 +1620,7 @@ keyword
 URL
 "
 "
-http
+https
 :
 /
 /
