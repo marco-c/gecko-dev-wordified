@@ -779,6 +779,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsIMIMEService
+.
+h
+"
 /
 /
 Drag
@@ -7965,7 +7972,7 @@ mime
 NS_ERROR_FAILURE
 )
 ;
-nsAutoCString
+nsCString
 contentType
 ;
 rv
