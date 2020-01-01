@@ -181,6 +181,15 @@ win
 some
 )
 {
+let
+lh
+=
+new
+LayoutHelpers
+(
+win
+)
+;
 some
 .
 style
@@ -257,7 +266,7 @@ Above
 the
 viewport
 .
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
@@ -316,7 +325,7 @@ the
 top
 edge
 .
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
@@ -362,7 +371,7 @@ below
 the
 viewport
 .
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
@@ -417,7 +426,7 @@ the
 bottom
 edge
 .
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
@@ -464,7 +473,7 @@ Above
 the
 viewport
 .
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
@@ -522,7 +531,7 @@ the
 top
 edge
 .
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
@@ -575,7 +584,7 @@ Below
 the
 viewport
 .
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
@@ -627,7 +636,7 @@ the
 bottom
 edge
 .
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
@@ -750,7 +759,7 @@ some
 '
 )
 ;
-LayoutHelpers
+lh
 .
 scrollIntoViewIfNeeded
 (
