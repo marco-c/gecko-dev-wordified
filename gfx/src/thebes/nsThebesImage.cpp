@@ -2624,6 +2624,7 @@ gfxMatrix
 .
 Translate
 (
+-
 gfxPoint
 (
 aPadding
