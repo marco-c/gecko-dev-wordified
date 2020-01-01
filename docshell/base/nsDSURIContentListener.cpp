@@ -2776,16 +2776,9 @@ nsIWebNavigation
 >
 webNav
 (
-do_QueryInterface
-(
-static_cast
-<
-nsIDocShell
-*
->
+do_QueryObject
 (
 mDocShell
-)
 )
 )
 ;

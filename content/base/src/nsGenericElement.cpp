@@ -27398,16 +27398,9 @@ nsIDOMEventTarget
 >
 node
 =
-do_QueryInterface
-(
-static_cast
-<
-nsIContent
-*
->
+do_QueryObject
 (
 this
-)
 )
 ;
 nsMutationEvent

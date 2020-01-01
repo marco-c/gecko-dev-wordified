@@ -2784,16 +2784,9 @@ mChrome
 {
 defaultThisValue
 =
-do_QueryInterface
-(
-static_cast
-<
-nsIContentFrameMessageManager
-*
->
+do_QueryObject
 (
 this
-)
 )
 ;
 }

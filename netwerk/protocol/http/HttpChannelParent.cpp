@@ -685,13 +685,7 @@ handler
 ;
 mTabParent
 =
-do_QueryInterface
-(
-static_cast
-<
-nsITabParent
-*
->
+do_QueryObject
 (
 static_cast
 <
@@ -700,7 +694,6 @@ TabParent
 >
 (
 iframeEmbedding
-)
 )
 )
 ;

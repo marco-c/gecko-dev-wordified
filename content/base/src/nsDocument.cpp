@@ -14593,16 +14593,9 @@ nsIDOMHTMLDocument
 >
 htmlDoc
 =
-do_QueryInterface
-(
-static_cast
-<
-nsIDocument
-*
->
+do_QueryObject
 (
 this
-)
 )
 ;
 if

@@ -12148,16 +12148,9 @@ nsIBaseWindow
 >
 ourBase
 =
-do_QueryInterface
-(
-static_cast
-<
-nsIXULWindow
-*
->
+do_QueryObject
 (
 this
-)
 )
 ;
 if
