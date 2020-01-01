@@ -262,6 +262,8 @@ PATH_MAX
 ;
 uint64_t
 prof_interval
+=
+0
 ;
 bool
 prof_promote
@@ -6952,10 +6954,6 @@ opt_prof_gdump
 =
 false
 ;
-prof_interval
-=
-0
-;
 }
 else
 if
@@ -6986,11 +6984,6 @@ opt_lg_prof_interval
 )
 ;
 }
-else
-prof_interval
-=
-0
-;
 }
 prof_promote
 =
