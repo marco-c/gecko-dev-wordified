@@ -7316,7 +7316,7 @@ PRBool
 nsDisplayBackground
 :
 :
-IsFixedAndCoveringViewport
+ShouldFixToViewport
 (
 nsDisplayListBuilder
 *
