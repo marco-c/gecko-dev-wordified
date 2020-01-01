@@ -734,7 +734,7 @@ is
 (
 RequestsMenu
 .
-allItems
+orderedItems
 .
 length
 aVisibility

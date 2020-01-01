@@ -899,7 +899,7 @@ is
 (
 RequestsMenu
 .
-allItems
+orderedItems
 .
 length
 aOrder
@@ -978,7 +978,7 @@ i
 )
 RequestsMenu
 .
-allItems
+orderedItems
 [
 i
 ]
