@@ -3270,8 +3270,15 @@ id
 )
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+OBJ_SCOPE
+(
+pobj
+)
+-
+>
+object
 OBJ_SCOPE
 (
 pobj
