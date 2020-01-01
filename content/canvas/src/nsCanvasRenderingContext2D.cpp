@@ -14046,6 +14046,16 @@ x
 *
 4
 ;
+PRUint8
+*
+src
+=
+imageBuffer
+.
+get
+(
+)
+;
 for
 (
 int32
@@ -14055,7 +14065,7 @@ i
 ;
 i
 <
-y
+h
 ;
 i
 +
@@ -14065,7 +14075,7 @@ i
 memcpy
 (
 dest
-imgPtr
+src
 +
 (
 w
