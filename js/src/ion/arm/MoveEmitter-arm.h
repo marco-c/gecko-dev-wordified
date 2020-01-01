@@ -652,6 +652,8 @@ const
 MoveOperand
 &
 operand
+bool
+isFloat
 )
 const
 ;

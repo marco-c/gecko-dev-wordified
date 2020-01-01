@@ -974,7 +974,7 @@ REDEFINED
 box
 -
 >
-setId
+setVirtualRegister
 (
 vreg
 )
@@ -1155,7 +1155,7 @@ inner
 LUse
 :
 :
-ANY
+REGISTER
 )
 )
 ;
@@ -1229,7 +1229,7 @@ REDEFINED
 unbox
 -
 >
-setId
+setVirtualRegister
 (
 VirtualRegisterOfPayload
 (
@@ -1956,7 +1956,7 @@ false
 phi
 -
 >
-setId
+setVirtualRegister
 (
 typeVreg
 )
