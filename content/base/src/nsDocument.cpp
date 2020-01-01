@@ -9251,7 +9251,7 @@ aReturn
 return
 GetElementsByClassNameHelper
 (
-mRootContent
+this
 aClasses
 aReturn
 )
@@ -9268,9 +9268,9 @@ nsDocument
 :
 GetElementsByClassNameHelper
 (
-nsIContent
+nsINode
 *
-aContent
+aRootNode
 const
 nsAString
 &
@@ -9281,6 +9281,17 @@ nsIDOMNodeList
 aReturn
 )
 {
+NS_PRECONDITION
+(
+aRootNode
+"
+Must
+have
+root
+node
+"
+)
+;
 nsAttrValue
 attrValue
 ;
@@ -9396,9 +9407,6 @@ Count
 )
 >
 0
-&
-&
-aContent
 )
 {
 elements
@@ -9406,7 +9414,7 @@ elements
 new
 nsContentList
 (
-aContent
+aRootNode
 MatchClassNames
 DestroyClassNameArray
 classes
