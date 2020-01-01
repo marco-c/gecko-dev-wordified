@@ -13927,6 +13927,9 @@ false
 }
 #
 ifdef
+MOZ_X11
+#
+ifdef
 MOZ_PLATFORM_MAEMO
 /
 /
@@ -13953,9 +13956,6 @@ false
 ;
 #
 endif
-#
-ifdef
-MOZ_X11
 Screen
 *
 screen
