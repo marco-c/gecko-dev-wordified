@@ -602,6 +602,9 @@ _dav
 POST
 (
 "
+/
+api
+/
 share
 /
 "
