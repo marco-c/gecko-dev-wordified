@@ -1006,6 +1006,12 @@ InputHandler
 (
 )
 ;
+BrowserUI
+.
+init
+(
+)
+;
 /
 /
 Create
@@ -1307,12 +1313,6 @@ memory
 pressure
 "
 false
-)
-;
-BrowserUI
-.
-init
-(
 )
 ;
 window
