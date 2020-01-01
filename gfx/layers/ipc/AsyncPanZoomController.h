@@ -212,6 +212,9 @@ GestureEventListener
 class
 ContainerLayer
 ;
+class
+ViewTransform
+;
 /
 *
 *
@@ -1457,9 +1460,9 @@ aSampleTime
 ContainerLayer
 *
 aLayer
-gfx3DMatrix
+ViewTransform
 *
-aNewTransform
+aTransform
 )
 ;
 /
