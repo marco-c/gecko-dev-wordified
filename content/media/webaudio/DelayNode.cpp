@@ -1418,13 +1418,6 @@ SendDelayToStream
 0
 .
 0f
-0
-.
-0f
-float
-(
-aMaxDelay
-)
 )
 )
 {
