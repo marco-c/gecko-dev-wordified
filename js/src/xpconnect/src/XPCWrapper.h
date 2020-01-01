@@ -596,11 +596,6 @@ aGlobalObject
 /
 namespace
 XPCNativeWrapper
-extern
-nsIScriptSecurityManager
-*
-gScriptSecurityManager
-;
 /
 /
 This
@@ -687,6 +682,7 @@ GetSecurityManager
 )
 {
 return
+nsXPConnect
 :
 :
 gScriptSecurityManager

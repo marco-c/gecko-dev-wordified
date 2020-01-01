@@ -14926,9 +14926,7 @@ get
 )
 :
 aPrincipal
-EmptyCString
-(
-)
+nsnull
 flags
 getter_AddRefs
 (

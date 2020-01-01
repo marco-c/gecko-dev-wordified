@@ -4171,9 +4171,7 @@ scope
 GetPrincipal
 (
 )
-EmptyCString
-(
-)
+nsnull
 flags
 getter_AddRefs
 (

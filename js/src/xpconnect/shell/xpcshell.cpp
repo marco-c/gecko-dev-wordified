@@ -11118,9 +11118,7 @@ NS_GET_IID
 nsISupports
 )
 systemprincipal
-EmptyCString
-(
-)
+nsnull
 nsIXPConnect
 :
 :

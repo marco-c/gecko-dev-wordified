@@ -5405,9 +5405,7 @@ NS_GET_IID
 nsISupports
 )
 mSystemPrincipal
-EmptyCString
-(
-)
+nsnull
 nsIXPConnect
 :
 :

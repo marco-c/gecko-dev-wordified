@@ -4294,6 +4294,8 @@ NS_GET_IID
 (
 nsISupports
 )
+mPrincipal
+nsnull
 PR_TRUE
 getter_AddRefs
 (

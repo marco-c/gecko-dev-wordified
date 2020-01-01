@@ -4080,9 +4080,6 @@ GetPrincipal
 (
 )
 ;
-nsCString
-origin
-;
 JSObject
 *
 newGlob
@@ -4091,17 +4088,6 @@ JSCompartment
 *
 compartment
 ;
-principal
--
->
-GetOrigin
-(
-getter_Copies
-(
-origin
-)
-)
-;
 rv
 =
 xpc_CreateGlobalObject
@@ -4109,8 +4095,8 @@ xpc_CreateGlobalObject
 cx
 &
 gSharedGlobalClass
-origin
 principal
+nsnull
 false
 &
 newGlob

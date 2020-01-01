@@ -1778,9 +1778,7 @@ nsISupports
 GetPrincipal
 (
 )
-EmptyCString
-(
-)
+nsnull
 flags
 getter_AddRefs
 (
