@@ -584,7 +584,7 @@ _prefBranch
 null
 _debug
 :
-false
+true
 /
 /
 mirrors
@@ -1116,6 +1116,12 @@ shutdown
 self
 .
 _dbStmts
+=
+null
+;
+self
+.
+__formHistory
 =
 null
 ;
