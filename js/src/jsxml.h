@@ -445,9 +445,7 @@ h
 #
 include
 "
-gc
-/
-Barrier
+jscell
 .
 h
 "
@@ -456,7 +454,7 @@ include
 "
 gc
 /
-Heap
+Barrier
 .
 h
 "

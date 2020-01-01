@@ -580,9 +580,7 @@ h
 #
 include
 "
-gc
-/
-Barrier
+jscell
 .
 h
 "
@@ -591,7 +589,7 @@ include
 "
 gc
 /
-Heap
+Barrier
 .
 h
 "
@@ -2495,7 +2493,7 @@ const
 ;
 inline
 bool
-hasShapeTable
+hasPropertyTable
 (
 )
 const

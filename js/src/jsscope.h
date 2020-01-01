@@ -1098,7 +1098,7 @@ table
 -
 -
 the
-ShapeTable
+PropertyTable
 -
 -
 that
@@ -1109,7 +1109,7 @@ lookup
 *
 Furthermore
 a
-ShapeTable
+PropertyTable
 is
 always
 created
@@ -1130,7 +1130,7 @@ in
 the
 lineage
 .
-Shape
+Property
 tables
 for
 *
@@ -1140,7 +1140,7 @@ Shapes
 never
 change
 but
-shape
+property
 tables
 for
 dictionary
@@ -1292,7 +1292,7 @@ footprint
 *
 /
 struct
-ShapeTable
+PropertyTable
 {
 static
 const
@@ -1406,7 +1406,7 @@ tree
 nodes
 *
 /
-ShapeTable
+PropertyTable
 (
 uint32_t
 nentries
@@ -1449,7 +1449,7 @@ called
 /
 }
 ~
-ShapeTable
+PropertyTable
 (
 )
 {
@@ -1535,7 +1535,7 @@ Shape
 This
 counts
 the
-ShapeTable
+PropertyTable
 object
 itself
 (
@@ -1911,7 +1911,7 @@ for
 shapes
 which
 have
-shape
+property
 tables
 including
 *
@@ -2071,7 +2071,7 @@ tree
 which
 has
 a
-shape
+property
 table
 .
 *
@@ -2093,7 +2093,7 @@ does
 not
 have
 a
-shape
+property
 table
 .
 *
@@ -2529,12 +2529,12 @@ the
 shape
 '
 s
-shape
+property
 table
 .
 *
 /
-ShapeTable
+PropertyTable
 *
 table_
 ;
@@ -2777,7 +2777,7 @@ table_
 NULL
 ;
 }
-ShapeTable
+PropertyTable
 &
 table
 (
@@ -2802,7 +2802,7 @@ table_
 void
 setTable
 (
-ShapeTable
+PropertyTable
 *
 table
 )
@@ -3984,7 +3984,7 @@ hasTable
 js
 :
 :
-ShapeTable
+PropertyTable
 &
 table
 (
@@ -6356,7 +6356,7 @@ count
 ;
 }
 bool
-isBigEnoughForAShapeTable
+isBigEnoughForAPropertyTable
 (
 )
 const
@@ -6425,7 +6425,7 @@ if
 count
 >
 =
-ShapeTable
+PropertyTable
 :
 :
 MIN_ENTRIES
@@ -7802,7 +7802,7 @@ if
 start
 -
 >
-isBigEnoughForAShapeTable
+isBigEnoughForAPropertyTable
 (
 )
 )

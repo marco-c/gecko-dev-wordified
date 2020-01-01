@@ -559,6 +559,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jsinterp
 .
 h
@@ -708,15 +715,6 @@ include
 frontend
 /
 Parser
-.
-h
-"
-#
-include
-"
-gc
-/
-Marking
 .
 h
 "
@@ -28465,7 +28463,7 @@ slot
 from
 the
 *
-shape
+property
 table
 '
 s
@@ -28483,7 +28481,7 @@ inDictionaryMode
 )
 )
 {
-ShapeTable
+PropertyTable
 &
 table
 =
@@ -40202,7 +40200,7 @@ if
 obj
 -
 >
-hasShapeTable
+hasPropertyTable
 (
 )
 )
@@ -40210,7 +40208,7 @@ fprintf
 (
 stderr
 "
-hasShapeTable
+hasPropertyTable
 "
 )
 ;
