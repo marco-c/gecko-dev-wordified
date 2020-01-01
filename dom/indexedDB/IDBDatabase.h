@@ -745,9 +745,6 @@ nsString
 mName
 ;
 nsString
-mDescription
-;
-nsString
 mFilePath
 ;
 nsCString
