@@ -9547,13 +9547,6 @@ registerActiveContext
 id
 )
 ;
-HUDService
-.
-windowInitializer
-(
-window
-)
-;
 this
 .
 windowInitializer
