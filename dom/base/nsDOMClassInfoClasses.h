@@ -1922,6 +1922,14 @@ DOMCI_CLASS
 (
 BluetoothAdapter
 )
+DOMCI_CLASS
+(
+BluetoothDevice
+)
+DOMCI_CLASS
+(
+BluetoothDeviceEvent
+)
 #
 endif
 DOMCI_CLASS
