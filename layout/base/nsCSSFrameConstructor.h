@@ -11853,7 +11853,7 @@ line
 frames
 )
 .
-nsresult
+void
 WrapFramesInFirstLineFrame
 (
 nsFrameConstructorState
@@ -11900,7 +11900,7 @@ as
 needed
 )
 .
-nsresult
+void
 AppendFirstLineFrames
 (
 nsFrameConstructorState
