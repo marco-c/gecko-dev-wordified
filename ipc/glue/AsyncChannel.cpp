@@ -658,7 +658,7 @@ assumption
 !
 mChannelState
 =
-ChannelIdle
+ChannelConnected
 ;
 }
 mIOLoop
@@ -753,13 +753,7 @@ msg
 {
 NS_ASSERTION
 (
-ChannelIdle
-=
-=
-mChannelState
-|
-|
-ChannelWaiting
+ChannelConnected
 =
 =
 mChannelState
@@ -1010,7 +1004,7 @@ peer_pid
 {
 mChannelState
 =
-ChannelIdle
+ChannelConnected
 ;
 }
 void
