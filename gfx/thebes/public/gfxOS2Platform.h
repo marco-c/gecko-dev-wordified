@@ -548,17 +548,6 @@ gfxFontconfigUtils
 *
 sFontconfigUtils
 ;
-private
-:
-HDC
-mDC
-;
-HPS
-mPS
-;
-HBITMAP
-mBitmap
-;
 }
 ;
 #
