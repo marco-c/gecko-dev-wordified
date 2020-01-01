@@ -514,6 +514,13 @@ nsINavHistoryService
 h
 "
 #
+include
+"
+nsPIPlacesDatabase
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -923,6 +930,8 @@ public
 nsIDownloadHistory
 public
 nsICharsetResolver
+public
+nsPIPlacesDatabase
 #
 ifdef
 MOZ_XUL
@@ -958,6 +967,7 @@ NS_DECL_NSIGLOBALHISTORY3
 NS_DECL_NSIDOWNLOADHISTORY
 NS_DECL_NSIBROWSERHISTORY
 NS_DECL_NSIOBSERVER
+NS_DECL_NSPIPLACESDATABASE
 #
 ifdef
 MOZ_XUL
