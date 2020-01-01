@@ -8165,6 +8165,7 @@ and
 discard
 if
 (
+(
 isDomain
 &
 &
@@ -8186,6 +8187,7 @@ First
 '
 .
 '
+)
 |
 |
 host
