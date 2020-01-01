@@ -783,9 +783,8 @@ shell
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -3033,9 +3032,8 @@ shell
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

@@ -3534,9 +3534,8 @@ GetDocument
 )
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 nsCOMPtr

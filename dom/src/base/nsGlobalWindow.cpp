@@ -29887,9 +29887,8 @@ shell
 mDoc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 nsCOMPtr
@@ -42352,9 +42351,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

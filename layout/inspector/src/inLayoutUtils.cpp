@@ -882,9 +882,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 NS_ASSERTION

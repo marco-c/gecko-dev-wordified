@@ -3677,9 +3677,8 @@ presShell
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

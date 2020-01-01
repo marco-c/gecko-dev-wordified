@@ -3878,9 +3878,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -7340,9 +7339,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -12621,9 +12619,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 /
@@ -12724,9 +12721,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 /
@@ -14298,9 +14294,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

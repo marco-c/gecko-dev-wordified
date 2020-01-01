@@ -3905,9 +3905,8 @@ GetRootBox
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 )
 ;
@@ -4134,9 +4133,8 @@ GetRootBox
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 )
 ;
@@ -4269,9 +4267,8 @@ doc
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 :
 nsnull

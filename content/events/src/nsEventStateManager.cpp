@@ -5389,9 +5389,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -6636,9 +6635,8 @@ shell
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 NS_ASSERTION
@@ -7023,9 +7021,8 @@ shell
 gLastFocusedDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -11338,9 +11335,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -16721,9 +16717,8 @@ parentShell
 parentDoc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -25564,9 +25559,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -27146,9 +27140,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

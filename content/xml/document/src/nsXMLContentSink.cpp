@@ -6256,9 +6256,8 @@ presShell
 mDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

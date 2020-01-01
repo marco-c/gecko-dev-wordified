@@ -2692,9 +2692,8 @@ shell
 targetDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

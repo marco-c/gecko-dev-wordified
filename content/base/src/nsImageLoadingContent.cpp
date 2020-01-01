@@ -4493,9 +4493,8 @@ shell
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 nsPresContext

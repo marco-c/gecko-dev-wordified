@@ -1860,9 +1860,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -2032,9 +2031,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -6142,9 +6140,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 NS_ASSERTION
@@ -6289,9 +6286,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 NS_ASSERTION
@@ -7063,9 +7059,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 NS_ASSERTION
@@ -8070,9 +8065,8 @@ presShell
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -8212,9 +8206,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

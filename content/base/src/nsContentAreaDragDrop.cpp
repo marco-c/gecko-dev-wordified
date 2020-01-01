@@ -4506,9 +4506,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

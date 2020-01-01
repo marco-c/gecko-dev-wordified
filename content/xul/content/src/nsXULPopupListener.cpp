@@ -2279,9 +2279,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -3860,9 +3859,8 @@ doc
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 :
 nsnull

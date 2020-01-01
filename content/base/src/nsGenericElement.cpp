@@ -12999,9 +12999,8 @@ presShell
 aDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

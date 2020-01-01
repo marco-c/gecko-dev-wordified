@@ -720,9 +720,8 @@ shell
 mDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -1589,9 +1588,8 @@ nsIPresShell
 *
 shell
 =
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

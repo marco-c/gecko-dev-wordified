@@ -1049,9 +1049,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 }

@@ -1400,9 +1400,8 @@ presShell
 focusedDoc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 nsCOMPtr

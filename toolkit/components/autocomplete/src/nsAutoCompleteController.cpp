@@ -7855,9 +7855,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 NS_ENSURE_TRUE

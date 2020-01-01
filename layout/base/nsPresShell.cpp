@@ -35156,9 +35156,8 @@ shell
 aDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -35337,9 +35336,8 @@ shell
 aDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
