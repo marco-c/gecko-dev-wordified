@@ -1147,6 +1147,12 @@ PRUint32
 aRole
 )
 ;
+protected
+:
+/
+/
+nsAccessible
+virtual
 void
 CacheChildren
 (
@@ -1215,6 +1221,12 @@ PRUint32
 aRole
 )
 ;
+protected
+:
+/
+/
+nsAccessible
+virtual
 void
 CacheChildren
 (
