@@ -296,7 +296,7 @@ public
 void
 onSearch
 (
-String
+SearchEngine
 engine
 String
 text
