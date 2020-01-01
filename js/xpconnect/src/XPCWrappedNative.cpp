@@ -424,7 +424,7 @@ XPCWrappedNative
 )
 :
 :
-Unlink
+UnlinkImpl
 (
 void
 *
@@ -462,8 +462,14 @@ XPCWrappedNative
 )
 :
 :
-Traverse
+TraverseImpl
 (
+NS_CYCLE_COLLECTION_CLASSNAME
+(
+XPCWrappedNative
+)
+*
+that
 void
 *
 p
