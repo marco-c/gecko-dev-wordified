@@ -839,6 +839,10 @@ putActivationObjects
 (
 )
 ;
+markActivationObjectsAsPut
+(
+)
+;
 if
 (
 flags_
