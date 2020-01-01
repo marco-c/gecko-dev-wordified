@@ -154,10 +154,10 @@ const
 SkPath
 &
 src
-SkScalar
+SkStrokeRec
 *
-width
 )
+SK_OVERRIDE
 ;
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
 (

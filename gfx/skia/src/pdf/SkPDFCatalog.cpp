@@ -197,7 +197,7 @@ setFileOffset
 SkPDFObject
 *
 obj
-size_t
+off_t
 offset
 )
 {

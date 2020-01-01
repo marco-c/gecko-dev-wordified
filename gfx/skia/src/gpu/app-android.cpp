@@ -1658,8 +1658,10 @@ gState
 {
 gState
 =
-new
+SkNEW
+(
 State
+)
 ;
 }
 return

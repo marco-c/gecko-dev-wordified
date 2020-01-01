@@ -40,6 +40,13 @@ stdlib
 .
 h
 >
+#
+include
+"
+GrTypes
+.
+h
+"
 void
 *
 GrMalloc

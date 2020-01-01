@@ -76,11 +76,6 @@ SkPathEffect
 {
 public
 :
-/
-/
-override
-from
-SkPathEffect
 virtual
 bool
 filterPath
@@ -92,10 +87,10 @@ const
 SkPath
 &
 src
-SkScalar
+SkStrokeRec
 *
-width
 )
+SK_OVERRIDE
 ;
 protected
 :
@@ -316,11 +311,6 @@ phase
 Style
 )
 ;
-/
-/
-override
-from
-SkPathEffect
 virtual
 bool
 filterPath
@@ -330,9 +320,8 @@ SkPath
 const
 SkPath
 &
-SkScalar
+SkStrokeRec
 *
-width
 )
 SK_OVERRIDE
 ;

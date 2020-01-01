@@ -128,6 +128,7 @@ SkAnimateMaker
 SkDisplayable
 *
 )
+SK_OVERRIDE
 ;
 virtual
 SkPathEffect
@@ -289,6 +290,7 @@ SkAnimateMaker
 SkDisplayable
 *
 )
+SK_OVERRIDE
 ;
 virtual
 SkPathEffect

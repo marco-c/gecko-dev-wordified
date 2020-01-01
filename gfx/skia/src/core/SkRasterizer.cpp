@@ -63,6 +63,10 @@ SkPath
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+SkRasterizer
+)
 bool
 SkRasterizer
 :

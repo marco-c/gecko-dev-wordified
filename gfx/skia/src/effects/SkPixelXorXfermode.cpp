@@ -47,6 +47,13 @@ SkColorPriv
 .
 h
 "
+#
+include
+"
+SkFlattenableBuffers
+.
+h
+"
 /
 /
 we
@@ -147,7 +154,7 @@ wb
 ;
 wb
 .
-write32
+writeColor
 (
 fOpColor
 )
@@ -172,7 +179,7 @@ fOpColor
 =
 rb
 .
-readU32
+readColor
 (
 )
 ;

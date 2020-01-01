@@ -2151,8 +2151,10 @@ Node
 *
 x
 =
-new
+SkNEW
+(
 Node
+)
 ;
 x
 -

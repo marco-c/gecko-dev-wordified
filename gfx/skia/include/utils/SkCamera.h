@@ -562,7 +562,7 @@ fZ
 }
 /
 /
-depreicated
+deprecated
 but
 still
 here

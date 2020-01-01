@@ -40,6 +40,17 @@ SkUnitMappers
 .
 h
 "
+#
+include
+"
+SkFlattenableBuffers
+.
+h
+"
+SK_DEFINE_INST_COUNT
+(
+SkUnitMapper
+)
 SkDiscreteMapper
 :
 :
@@ -167,7 +178,7 @@ fSegments
 =
 rb
 .
-readU32
+readInt
 (
 )
 ;
@@ -175,7 +186,7 @@ fScale
 =
 rb
 .
-readU32
+read32
 (
 )
 ;
@@ -205,7 +216,7 @@ wb
 ;
 wb
 .
-write32
+writeInt
 (
 fSegments
 )
@@ -428,3 +439,11 @@ rb
 )
 {
 }
+SK_DEFINE_FLATTENABLE_REGISTRAR
+(
+SkDiscreteMapper
+)
+SK_DEFINE_FLATTENABLE_REGISTRAR
+(
+SkCosineMapper
+)

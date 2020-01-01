@@ -75,7 +75,7 @@ index
 buffer
 (
 using
-kTriangles_PrimitiveType
+kTriangles_GrPrimitiveType
 )
 .
 *

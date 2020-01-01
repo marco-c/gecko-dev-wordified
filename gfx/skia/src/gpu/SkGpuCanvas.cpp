@@ -167,11 +167,13 @@ this
 >
 setDevice
 (
-new
+SkNEW_ARGS
+(
 SkGpuDevice
 (
 context
 renderTarget
+)
 )
 )
 -

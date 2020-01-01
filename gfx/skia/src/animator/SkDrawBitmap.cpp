@@ -625,7 +625,7 @@ true
 ;
 }
 enum
-SkImage_Properties
+SkImageBaseBitmap_Properties
 {
 SK_PROPERTY
 (
@@ -645,7 +645,7 @@ SK_USE_CONDENSED_INFO
 0
 const
 SkMemberInfo
-SkImage
+SkImageBaseBitmap
 :
 :
 fInfo
@@ -680,13 +680,13 @@ Int
 endif
 DEFINE_GET_MEMBER
 (
-SkImage
+SkImageBaseBitmap
 )
 ;
-SkImage
+SkImageBaseBitmap
 :
 :
-SkImage
+SkImageBaseBitmap
 (
 )
 :
@@ -712,11 +712,11 @@ fLength
 0
 ;
 }
-SkImage
+SkImageBaseBitmap
 :
 :
 ~
-SkImage
+SkImageBaseBitmap
 (
 )
 {
@@ -730,7 +730,7 @@ fData
 }
 SkDisplayable
 *
-SkImage
+SkImageBaseBitmap
 :
 :
 deepCopy
@@ -754,7 +754,7 @@ maker
 ;
 (
 (
-SkImage
+SkImageBaseBitmap
 *
 )
 copy
@@ -765,7 +765,7 @@ fUriBase
 =
 (
 (
-SkImage
+SkImageBaseBitmap
 *
 )
 this
@@ -779,7 +779,7 @@ copy
 ;
 }
 void
-SkImage
+SkImageBaseBitmap
 :
 :
 dirty
@@ -792,7 +792,7 @@ true
 ;
 }
 bool
-SkImage
+SkImageBaseBitmap
 :
 :
 draw
@@ -821,7 +821,7 @@ maker
 ;
 }
 bool
-SkImage
+SkImageBaseBitmap
 :
 :
 getProperty
@@ -912,7 +912,7 @@ true
 ;
 }
 void
-SkImage
+SkImageBaseBitmap
 :
 :
 onEndElement
@@ -934,7 +934,7 @@ c_str
 ;
 }
 void
-SkImage
+SkImageBaseBitmap
 :
 :
 resolve

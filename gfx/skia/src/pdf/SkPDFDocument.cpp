@@ -108,6 +108,7 @@ really
 nice
 here
 .
+static
 void
 addResourcesToCatalog
 (
@@ -984,6 +985,9 @@ fCatalog
 .
 get
 (
+)
+(
+size_t
 )
 fileOffset
 )

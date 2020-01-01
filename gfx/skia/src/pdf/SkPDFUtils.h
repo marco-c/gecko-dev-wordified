@@ -65,6 +65,9 @@ SkPDFArray
 struct
 SkRect
 ;
+class
+SkWStream
+;
 #
 if
 0

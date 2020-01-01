@@ -593,6 +593,13 @@ PurgeFontCache
 (
 )
 ;
+SkPaint
+:
+:
+Term
+(
+)
+;
 }
 /
 /

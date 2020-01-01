@@ -73,6 +73,10 @@ const
 SkIRect
 &
 bounds
+bool
+skipRejectTest
+=
+false
 )
 ;
 SkBlitter

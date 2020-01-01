@@ -40,6 +40,10 @@ SkBoundaryPatch
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+SkBoundary
+)
 SkBoundaryPatch
 :
 :

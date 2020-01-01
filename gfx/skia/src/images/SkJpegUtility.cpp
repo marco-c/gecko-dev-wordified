@@ -583,6 +583,12 @@ cinfo
 )
 {
 }
+#
+if
+0
+/
+/
+UNUSED
 static
 void
 skmem_init_source
@@ -763,6 +769,8 @@ cinfo
 )
 {
 }
+#
+endif
 /
 /
 /
@@ -866,6 +874,8 @@ fDecoder
 =
 decoder
 ;
+/
+/
 const
 void
 *

@@ -300,9 +300,6 @@ xy
 [
 2
 ]
-SkScalar
-*
-twoPointRadialParams
 )
 const
 SK_OVERRIDE

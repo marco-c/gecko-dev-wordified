@@ -169,6 +169,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+Dumper
+)
 virtual
 void
 dump
@@ -190,6 +194,12 @@ SkPaint
 )
 =
 0
+;
+private
+:
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

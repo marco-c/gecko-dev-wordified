@@ -122,6 +122,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkBounder
+)
 SkBounder
 (
 )
@@ -523,6 +527,10 @@ Draw1Glyph
 friend
 class
 SkMaskFilter
+;
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

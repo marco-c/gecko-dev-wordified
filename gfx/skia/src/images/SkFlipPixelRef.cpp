@@ -43,7 +43,7 @@ h
 #
 include
 "
-SkFlattenable
+SkFlattenableBuffers
 .
 h
 "
@@ -420,13 +420,6 @@ flatten
 buffer
 )
 ;
-buffer
-.
-write32
-(
-fSize
-)
-;
 /
 /
 only
@@ -436,7 +429,7 @@ write
 page0
 buffer
 .
-writePad
+writeByteArray
 (
 fPage0
 fSize
@@ -463,7 +456,7 @@ fSize
 =
 buffer
 .
-readU32
+getArrayCount
 (
 )
 ;
@@ -493,10 +486,9 @@ fSize
 ;
 buffer
 .
-read
+readByteArray
 (
 fPage0
-fSize
 )
 ;
 }

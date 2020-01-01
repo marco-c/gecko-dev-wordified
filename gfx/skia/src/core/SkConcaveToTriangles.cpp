@@ -484,6 +484,13 @@ else
 #
 include
 "
+SkConcaveToTriangles
+.
+h
+"
+#
+include
+"
 SkTDArray
 .
 h
@@ -531,6 +538,9 @@ robust
 define
 kMaxCount
 1000
+#
+define
+DEBUG
 #
 ifdef
 DEBUG
@@ -4053,6 +4063,7 @@ vt
 ;
 }
 ;
+static
 bool
 operator
 <
@@ -4170,6 +4181,13 @@ return
 false
 ;
 }
+#
+if
+0
+/
+/
+UNUSED
+static
 bool
 operator
 >
@@ -4287,6 +4305,8 @@ return
 false
 ;
 }
+#
+endif
 static
 void
 SetVertexPoints
@@ -6270,6 +6290,7 @@ polygon
 with
 trapezoids
 .
+static
 bool
 ConvertPointsToVertices
 (
@@ -7540,6 +7561,7 @@ return
 count
 ;
 }
+static
 bool
 operator
 <
@@ -7710,6 +7732,7 @@ an
 unimonotone
 chain
 .
+static
 bool
 TriangulateMonotone
 (
@@ -8192,6 +8215,7 @@ them
 into
 triangles
 .
+static
 bool
 Triangulate
 (

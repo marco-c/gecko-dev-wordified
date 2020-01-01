@@ -57,7 +57,7 @@ h
 #
 include
 "
-SkFlattenable
+SkFlattenableBuffers
 .
 h
 "
@@ -66,6 +66,10 @@ include
 <
 new
 >
+SK_DEFINE_INST_COUNT
+(
+SkPathHeap
+)
 #
 define
 kPathCount
@@ -108,12 +112,13 @@ SkPath
 )
 )
 {
+const
 int
 count
 =
 buffer
 .
-readS32
+readInt
 (
 )
 ;
@@ -343,7 +348,7 @@ count
 ;
 buffer
 .
-write32
+writeInt
 (
 count
 )

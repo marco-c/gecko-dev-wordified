@@ -167,9 +167,6 @@ SkMatrix
 *
 TileMode
 *
-SkScalar
-*
-twoPointRadialParams
 )
 const
 ;

@@ -61,6 +61,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkBoundary
+)
 /
 /
 These
@@ -118,6 +122,12 @@ unitInterval
 )
 =
 0
+;
+private
+:
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

@@ -289,6 +289,7 @@ BMPImageDecoder
 /
 /
 /
+static
 SkImageDecoder
 *
 sk_libbmp_dfactory

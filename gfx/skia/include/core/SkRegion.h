@@ -2426,7 +2426,7 @@ bytes
 *
 /
 uint32_t
-flatten
+writeToMemory
 (
 void
 *
@@ -2456,7 +2456,7 @@ read
 *
 /
 uint32_t
-unflatten
+readFromMemory
 (
 const
 void

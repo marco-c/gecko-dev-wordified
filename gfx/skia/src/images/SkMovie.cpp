@@ -54,6 +54,10 @@ SkPaint
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+SkMovie
+)
 /
 /
 We

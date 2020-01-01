@@ -59,13 +59,6 @@ h
 #
 include
 "
-SkBuffer
-.
-h
-"
-#
-include
-"
 SkDraw
 .
 h
@@ -77,6 +70,10 @@ SkRasterClip
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+SkMaskFilter
+)
 bool
 SkMaskFilter
 :

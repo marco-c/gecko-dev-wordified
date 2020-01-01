@@ -103,6 +103,12 @@ Mode
 ;
 }
 ;
+#
+if
+0
+/
+/
+UNUSED
 SkImageDecoder
 *
 SkCreateICOImageDecoder
@@ -114,6 +120,8 @@ new
 SkICOImageDecoder
 ;
 }
+#
+endif
 /
 /
 /
@@ -3587,6 +3595,7 @@ SkTRegistry
 .
 h
 "
+static
 SkImageDecoder
 *
 sk_libico_dfactory

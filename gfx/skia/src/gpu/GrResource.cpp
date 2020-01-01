@@ -47,6 +47,10 @@ GrGpu
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+GrResource
+)
 GrResource
 :
 :
@@ -61,11 +65,7 @@ fGpu
 =
 gpu
 ;
-fNext
-=
-NULL
-;
-fPrevious
+fCacheEntry
 =
 NULL
 ;

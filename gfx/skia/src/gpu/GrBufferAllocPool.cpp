@@ -1826,7 +1826,9 @@ getCaps
 (
 )
 .
-fBufferLockSupport
+bufferLockSupport
+(
+)
 &
 &
 size
@@ -2067,7 +2069,9 @@ getCaps
 (
 )
 .
-fBufferLockSupport
+bufferLockSupport
+(
+)
 &
 &
 flushSize

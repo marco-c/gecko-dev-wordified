@@ -96,8 +96,10 @@ gGpu
 {
 gGpu
 =
-new
+SkNEW
+(
 SkGpuGLShaders
+)
 ;
 }
 SkGLCanvas

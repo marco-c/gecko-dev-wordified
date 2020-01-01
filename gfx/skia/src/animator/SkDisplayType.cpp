@@ -753,7 +753,7 @@ HitTest
 ;
 CASE_NEW
 (
-Image
+ImageBaseBitmap
 )
 ;
 CASE_NEW
@@ -788,7 +788,7 @@ LineTo
 ;
 CASE_NEW
 (
-LinearGradient
+DrawLinearGradient
 )
 ;
 CASE_DRAW_NEW
@@ -911,7 +911,7 @@ RQuadTo
 ;
 CASE_NEW
 (
-RadialGradient
+DrawRadialGradient
 )
 ;
 CASE_DISPLAY_NEW
@@ -1516,7 +1516,7 @@ frompathmode
 full
 CASE_GET_INFO
 (
-Gradient
+DrawGradient
 )
 ;
 CASE_GET_INFO
@@ -1536,7 +1536,7 @@ HitTest
 ;
 CASE_GET_INFO
 (
-Image
+ImageBaseBitmap
 )
 ;
 CASE_GET_INFO
@@ -1569,7 +1569,7 @@ LineTo
 ;
 CASE_GET_INFO
 (
-LinearGradient
+DrawLinearGradient
 )
 ;
 /
@@ -1711,7 +1711,7 @@ RQuadTo
 ;
 CASE_GET_INFO
 (
-RadialGradient
+DrawRadialGradient
 )
 ;
 CASE_GET_DISPLAY_INFO
@@ -2415,7 +2415,7 @@ INIT_BOOL_FIELDS
 "
 image
 "
-SkType_Image
+SkType_ImageBaseBitmap
 INIT_BOOL_FIELDS
 }
 {
@@ -2460,7 +2460,7 @@ INIT_BOOL_FIELDS
 "
 linearGradient
 "
-SkType_LinearGradient
+SkType_DrawLinearGradient
 INIT_BOOL_FIELDS
 }
 {
@@ -2621,7 +2621,7 @@ INIT_BOOL_FIELDS
 "
 radialGradient
 "
-SkType_RadialGradient
+SkType_DrawRadialGradient
 INIT_BOOL_FIELDS
 }
 DISPLAY_NAME
@@ -3489,7 +3489,7 @@ case
 SkType_Group
 :
 case
-SkType_Image
+SkType_ImageBaseBitmap
 :
 case
 SkType_Input
@@ -3501,7 +3501,7 @@ case
 SkType_LineTo
 :
 case
-SkType_LinearGradient
+SkType_DrawLinearGradient
 :
 case
 SkType_Matrix
@@ -3552,7 +3552,7 @@ case
 SkType_RQuadTo
 :
 case
-SkType_RadialGradient
+SkType_DrawRadialGradient
 :
 case
 SkType_Random

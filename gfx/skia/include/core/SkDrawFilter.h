@@ -125,6 +125,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkDrawFilter
+)
 enum
 Type
 {
@@ -178,6 +182,12 @@ Type
 )
 =
 0
+;
+private
+:
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

@@ -70,6 +70,10 @@ SkTime
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+SkEventSink
+)
 class
 SkEventSink_Globals
 {

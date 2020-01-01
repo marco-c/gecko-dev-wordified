@@ -78,6 +78,8 @@ catalog
 )
 {
 return
+SkToBool
+(
 catalog
 -
 >
@@ -88,7 +90,8 @@ getDocumentFlags
 SkPDFDocument
 :
 :
-kNoCompression_Flag
+kNoCompression_Flags
+)
 ;
 }
 SkPDFStream

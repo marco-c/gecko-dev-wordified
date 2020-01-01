@@ -359,9 +359,6 @@ SkStrAppendScalar
 SkStrAppendFixed
 #
 endif
-#
-ifdef
-SK_CAN_USE_FLOAT
 char
 *
 SkStrAppendFloat
@@ -373,8 +370,6 @@ buffer
 float
 )
 ;
-#
-endif
 char
 *
 SkStrAppendFixed
@@ -1303,6 +1298,11 @@ format
 .
 .
 )
+SK_PRINTF_LIKE
+(
+2
+3
+)
 ;
 void
 appendf
@@ -1316,6 +1316,11 @@ format
 .
 .
 )
+SK_PRINTF_LIKE
+(
+2
+3
+)
 ;
 void
 prependf
@@ -1328,6 +1333,11 @@ format
 .
 .
 .
+)
+SK_PRINTF_LIKE
+(
+2
+3
 )
 ;
 void

@@ -1344,7 +1344,7 @@ getType
 )
 =
 =
-SkType_LinearGradient
+SkType_DrawLinearGradient
 |
 |
 parent
@@ -1355,7 +1355,7 @@ getType
 )
 =
 =
-SkType_RadialGradient
+SkType_DrawRadialGradient
 )
 return
 false

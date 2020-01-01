@@ -66,6 +66,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkMovie
+)
 /
 *
 *
@@ -407,6 +411,10 @@ void
 ensureInfo
 (
 )
+;
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

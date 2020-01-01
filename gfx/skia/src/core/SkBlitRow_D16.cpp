@@ -54,6 +54,13 @@ SkDither
 .
 h
 "
+#
+include
+"
+SkMathPriv
+.
+h
+"
 /
 /
 /

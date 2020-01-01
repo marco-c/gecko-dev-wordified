@@ -127,6 +127,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkAdvancedTypefaceMetrics
+)
 SkString
 fFontName
 ;
@@ -668,6 +672,12 @@ SkTDArray
 SkUnichar
 >
 fGlyphToUnicode
+;
+private
+:
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

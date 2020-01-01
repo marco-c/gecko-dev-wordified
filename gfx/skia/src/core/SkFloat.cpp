@@ -45,7 +45,7 @@ h
 #
 include
 "
-SkMath
+SkMathPriv
 .
 h
 "
@@ -1640,17 +1640,12 @@ SkRandom
 h
 "
 #
-ifdef
-SK_CAN_USE_FLOAT
-#
 include
 "
 SkFloatingPoint
 .
 h
 "
-#
-endif
 void
 SkFloat
 :
@@ -1785,9 +1780,6 @@ getInt
 SkRandom
 rand
 ;
-#
-ifdef
-SK_CAN_USE_FLOAT
 int
 i
 ;
@@ -2486,8 +2478,6 @@ assertEquals
 #
 endif
 }
-#
-endif
 #
 endif
 }

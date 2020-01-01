@@ -77,6 +77,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkPathHeap
+)
 SkPathHeap
 (
 )
@@ -226,6 +230,10 @@ SkPath
 *
 >
 fPaths
+;
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

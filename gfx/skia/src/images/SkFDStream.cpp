@@ -341,6 +341,9 @@ return
 ;
 }
 return
+(
+size_t
+)
 size
 ;
 }
@@ -459,9 +462,14 @@ amount
 we
 skipped
 return
+(
+size_t
+)
+(
 newCurr
 -
 oldCurr
+)
 ;
 }
 else

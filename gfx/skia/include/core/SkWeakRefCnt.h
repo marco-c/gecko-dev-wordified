@@ -439,6 +439,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkWeakRefCnt
+)
 /
 *
 *
@@ -1093,6 +1097,10 @@ fRefCnt
 mutable
 int32_t
 fWeakCnt
+;
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

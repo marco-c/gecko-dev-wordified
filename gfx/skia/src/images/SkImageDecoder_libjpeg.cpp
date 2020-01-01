@@ -5070,6 +5070,7 @@ SkTRegistry
 .
 h
 "
+static
 SkImageDecoder
 *
 sk_libjpeg_dfactory
