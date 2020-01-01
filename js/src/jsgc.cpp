@@ -14388,12 +14388,6 @@ acx
 sharpObjectMap
 )
 ;
-js_TraceRegExpStatics
-(
-trc
-acx
-)
-;
 MarkValue
 (
 trc
