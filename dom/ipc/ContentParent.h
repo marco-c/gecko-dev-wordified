@@ -275,6 +275,11 @@ process
 shutdown
 "
 )
+#
+define
+CONTENT_PARENT_UNKNOWN_CHILD_ID
+-
+1
 class
 mozIApplication
 ;
@@ -737,6 +742,15 @@ KillHard
 (
 )
 ;
+uint64_t
+ChildID
+(
+)
+{
+return
+mChildID
+;
+}
 protected
 :
 void
