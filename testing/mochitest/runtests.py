@@ -2720,7 +2720,11 @@ you
 executing
 objdir
 /
-_mochitest
+_tests
+/
+testing
+/
+mochitest
 /
 runtests
 .
