@@ -4279,8 +4279,6 @@ when
 necessary
 rv
 =
-NS_SUCCEEDED
-(
 csp
 -
 >
@@ -4288,7 +4286,6 @@ GetAllowsInlineScript
 (
 &
 inlineOK
-)
 )
 ;
 NS_ENSURE_SUCCESS
