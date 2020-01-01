@@ -1578,7 +1578,10 @@ mRootAccessible
 FireDelayedAccessibleEvent
 (
 event
-PR_FALSE
+nsDocAccessible
+:
+:
+eRemoveDupes
 )
 ;
 }
