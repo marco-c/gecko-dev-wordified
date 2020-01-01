@@ -961,7 +961,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsGkAtoms
+nsAccessibilityAtoms
 :
 :
 multiple
@@ -1136,7 +1136,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsGkAtoms
+nsAccessibilityAtoms
 :
 :
 multiple
@@ -1167,7 +1167,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsGkAtoms
+nsAccessibilityAtoms
 :
 :
 multiple
