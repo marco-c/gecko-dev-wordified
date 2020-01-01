@@ -1997,6 +1997,7 @@ MatchElementId
 nsIContent
 *
 aContent
+const
 nsIAtom
 *
 aId
@@ -3111,6 +3112,7 @@ GenerateStateKey
 nsIContent
 *
 aContent
+const
 nsIDocument
 *
 aDocument
@@ -3429,6 +3431,7 @@ static
 nsresult
 SplitQName
 (
+const
 nsIContent
 *
 aNamespaceResolver
@@ -3443,22 +3446,6 @@ nsIAtom
 *
 *
 aLocalName
-)
-;
-static
-nsresult
-LookupNamespaceURI
-(
-nsIContent
-*
-aNamespaceResolver
-const
-nsAString
-&
-aNamespacePrefix
-nsAString
-&
-aNamespaceURI
 )
 ;
 static
@@ -3798,6 +3785,7 @@ static
 PRBool
 HasNonEmptyAttr
 (
+const
 nsIContent
 *
 aContent
@@ -3858,6 +3846,7 @@ nsPresContext
 *
 GetContextForContent
 (
+const
 nsIContent
 *
 aContent
@@ -4424,6 +4413,7 @@ static
 PRBool
 IsDraggableLink
 (
+const
 nsIContent
 *
 aContent
@@ -4803,9 +4793,11 @@ static
 PRBool
 IsInSameAnonymousTree
 (
+const
 nsINode
 *
 aNode
+const
 nsIContent
 *
 aContent
@@ -10218,6 +10210,7 @@ static
 PRBool
 IsFocusedContent
 (
+const
 nsIContent
 *
 aContent
