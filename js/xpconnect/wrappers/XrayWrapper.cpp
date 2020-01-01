@@ -7738,13 +7738,7 @@ wrapper
 )
 {
 return
-WrapperFactory
-:
-:
-HasWaiveXrayFlag
-(
-wrapper
-)
+false
 ;
 }
 JSObject
