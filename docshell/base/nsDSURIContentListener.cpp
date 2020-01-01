@@ -2437,10 +2437,10 @@ getter_AddRefs
 parentDocShellItem
 )
 )
+)
 &
 &
 parentDocShellItem
-)
 )
 {
 PRBool
