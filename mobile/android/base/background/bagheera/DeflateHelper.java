@@ -313,8 +313,6 @@ code
 can
 use
 *
-{
-link
 TestDeflation
 #
 deflateTrimmed
@@ -323,7 +321,6 @@ byte
 [
 ]
 )
-}
 .
 )
 *
@@ -407,12 +404,6 @@ entity
 .
 *
 /
-SuppressWarnings
-(
-"
-javadoc
-"
-)
 public
 static
 HttpEntity

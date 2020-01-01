@@ -697,8 +697,12 @@ stream
 *
 *
 param
-jsonString
+in
 input
+{
+link
+Reader
+}
 .
 *
 throws
