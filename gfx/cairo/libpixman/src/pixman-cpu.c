@@ -1159,6 +1159,12 @@ defined
 (
 __linux__
 )
+|
+|
+defined
+(
+ANDROID
+)
 /
 *
 linux
