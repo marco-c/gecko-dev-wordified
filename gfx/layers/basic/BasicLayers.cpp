@@ -2857,6 +2857,14 @@ gfxPattern
 mSurface
 )
 ;
+pat
+-
+>
+SetFilter
+(
+mFilter
+)
+;
 gfxRect
 r
 (
