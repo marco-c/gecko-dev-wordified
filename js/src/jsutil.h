@@ -585,7 +585,7 @@ time
 assert
 .
 "
-condition
+cond
 "
 must
 be
@@ -674,7 +674,7 @@ __SUNPRO_CC
 define
 JS_STATIC_ASSERT
 (
-condition
+cond
 )
 #
 else
@@ -744,7 +744,7 @@ int
 arg
 [
 (
-condition
+cond
 )
 ?
 1
