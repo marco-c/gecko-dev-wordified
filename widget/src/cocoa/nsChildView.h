@@ -701,9 +701,6 @@ implementation
 NSRange
 mMarkedRange
 ;
-NSRange
-mSelectedRange
-;
 BOOL
 mIgnoreDoCommand
 ;
@@ -1689,6 +1686,12 @@ nsIWidget
 GetParent
 (
 void
+)
+;
+nsIWidget
+*
+GetTopLevelWidget
+(
 )
 ;
 NS_IMETHOD
