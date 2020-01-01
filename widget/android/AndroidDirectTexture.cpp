@@ -854,6 +854,14 @@ mPendingReallocBuffer
 =
 mFrontBuffer
 ;
+mWidth
+=
+aWidth
+;
+mHeight
+=
+aHeight
+;
 }
 return
 result

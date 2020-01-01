@@ -693,17 +693,6 @@ DestroyBuffer
 bool
 EnsureBufferCreated
 (
-PRUint32
-aWidth
-PRUint32
-aHeight
-PRUint32
-aUsage
-gfxASurface
-:
-:
-gfxImageFormat
-aFormat
 )
 ;
 PRUint32
