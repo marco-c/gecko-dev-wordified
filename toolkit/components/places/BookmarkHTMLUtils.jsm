@@ -7869,9 +7869,8 @@ try
 let
 lastCharset
 =
+yield
 PlacesUtils
-.
-history
 .
 getCharsetForURI
 (
