@@ -234,6 +234,8 @@ devtools
 .
 hud
 .
+loglimit
+.
 "
 )
 ;
@@ -242,7 +244,7 @@ prefBranch
 setIntPref
 (
 "
-loglimit
+console
 "
 20
 )
@@ -353,7 +355,7 @@ prefBranch
 setIntPref
 (
 "
-loglimit
+console
 "
 30
 )
@@ -429,7 +431,7 @@ prefBranch
 setIntPref
 (
 "
-loglimit
+console
 "
 0
 )
@@ -477,7 +479,7 @@ prefBranch
 clearUserPref
 (
 "
-loglimit
+console
 "
 )
 ;

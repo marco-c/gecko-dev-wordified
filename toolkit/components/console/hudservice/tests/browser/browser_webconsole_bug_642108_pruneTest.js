@@ -294,6 +294,8 @@ devtools
 .
 hud
 .
+loglimit
+.
 "
 )
 ;
@@ -302,7 +304,7 @@ prefBranch
 setIntPref
 (
 "
-loglimit
+cssparser
 "
 LOG_LIMIT
 )
