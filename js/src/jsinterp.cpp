@@ -728,6 +728,13 @@ h
 #
 include
 "
+jspropcacheinlines
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h

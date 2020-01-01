@@ -707,6 +707,13 @@ h
 #
 include
 "
+jspropcacheinlines
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h
@@ -60233,7 +60240,12 @@ object
 }
 entry
 =
-js_FillPropertyCache
+JS_PROPERTY_CACHE
+(
+cx
+)
+.
+fill
 (
 cx
 aobj

@@ -593,6 +593,13 @@ jsatominlines
 .
 h
 "
+#
+include
+"
+jspropcacheinlines
+.
+h
+"
 using
 namespace
 avmplus
