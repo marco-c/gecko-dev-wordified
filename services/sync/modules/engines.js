@@ -1377,7 +1377,7 @@ reset
 -
 server
 :
-end
+success
 "
 "
 "
@@ -1603,7 +1603,7 @@ reset
 -
 client
 :
-end
+success
 "
 "
 "
@@ -3617,7 +3617,7 @@ _osPrefix
 "
 sync
 :
-end
+success
 "
 "
 "
