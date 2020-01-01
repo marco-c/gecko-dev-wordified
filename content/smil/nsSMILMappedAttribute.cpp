@@ -618,7 +618,6 @@ ValueFromString
 mPropID
 mElement
 aStr
-PR_TRUE
 aValue
 )
 ;
@@ -722,7 +721,6 @@ ValueFromString
 mPropID
 mElement
 baseStringValue
-PR_TRUE
 baseValue
 )
 ;

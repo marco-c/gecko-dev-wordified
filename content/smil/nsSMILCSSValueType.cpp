@@ -2370,8 +2370,6 @@ const
 nsAString
 &
 aString
-PRBool
-aUseSVGMode
 nsStyleAnimation
 :
 :
@@ -2515,7 +2513,7 @@ ComputeValue
 aPropID
 aTargetElement
 subString
-aUseSVGMode
+PR_TRUE
 aStyleAnimValue
 )
 )
@@ -2625,8 +2623,6 @@ const
 nsAString
 &
 aString
-PRBool
-aUseSVGMode
 nsSMILValue
 &
 aValue
@@ -2704,7 +2700,6 @@ aPropID
 aTargetElement
 presContext
 aString
-aUseSVGMode
 parsedValue
 )
 )
