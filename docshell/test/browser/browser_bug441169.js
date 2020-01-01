@@ -264,6 +264,17 @@ checkPage
 (
 )
 {
+window
+.
+removeEventListener
+(
+"
+DOMContentLoaded
+"
+checkPage
+false
+)
+;
 is
 (
 newBrowser
