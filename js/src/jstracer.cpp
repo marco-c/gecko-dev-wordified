@@ -7417,7 +7417,7 @@ bool
 TraceRecorder
 :
 :
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 unsigned
 slot
@@ -20798,7 +20798,7 @@ false
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
@@ -22060,7 +22060,7 @@ false
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
@@ -22932,7 +22932,7 @@ slotval
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
@@ -23046,7 +23046,7 @@ slotval
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
@@ -23161,7 +23161,7 @@ slotval
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
@@ -23269,7 +23269,7 @@ slotval
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
@@ -23378,7 +23378,7 @@ slotval
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
@@ -23487,7 +23487,7 @@ slotval
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
@@ -24519,7 +24519,7 @@ false
 if
 (
 !
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 slot
 )
