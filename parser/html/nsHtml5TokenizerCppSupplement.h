@@ -980,7 +980,7 @@ mViewSource
 AddErrorToCurrentNode
 (
 "
-errAstralNonCharacter
+errNcrNonCharacter
 "
 )
 ;
