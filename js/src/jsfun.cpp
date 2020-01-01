@@ -2112,6 +2112,8 @@ fp
 -
 >
 argc
+JSVAL_TO_OBJECT
+(
 fp
 -
 >
@@ -2120,6 +2122,7 @@ argv
 -
 2
 ]
+)
 )
 ;
 if
