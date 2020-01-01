@@ -16565,6 +16565,17 @@ AndroidBridge
 :
 SendAsyncScrollDOMEvent
 (
+mozilla
+:
+:
+layers
+:
+:
+FrameMetrics
+:
+:
+ViewID
+aScrollId
 const
 CSSRect
 &

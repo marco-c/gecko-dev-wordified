@@ -3910,6 +3910,11 @@ virtual
 void
 SendAsyncScrollDOMEvent
 (
+FrameMetrics
+:
+:
+ViewID
+aScrollId
 const
 CSSRect
 &
@@ -3948,6 +3953,7 @@ RemoteContentController
 :
 :
 SendAsyncScrollDOMEvent
+aScrollId
 aContentRect
 aContentSize
 )
@@ -3959,6 +3965,15 @@ return
 if
 (
 mRenderFrame
+&
+&
+aScrollId
+=
+=
+FrameMetrics
+:
+:
+ROOT_SCROLL_ID
 )
 {
 TabParent
