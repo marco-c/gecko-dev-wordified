@@ -833,7 +833,7 @@ NS_LITERAL_STRING
 serif
 "
 )
-eCSSUnit_String
+eCSSUnit_Families
 )
 ;
 }

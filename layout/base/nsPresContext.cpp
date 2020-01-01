@@ -9289,16 +9289,6 @@ GetStringValue
 fontfamily
 )
 ;
-fontfamily
-.
-Trim
-(
-"
-\
-"
-"
-)
-;
 }
 else
 {

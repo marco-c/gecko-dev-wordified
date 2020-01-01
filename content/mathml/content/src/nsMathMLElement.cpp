@@ -2820,7 +2820,7 @@ value
 GetStringValue
 (
 )
-eCSSUnit_String
+eCSSUnit_Families
 )
 ;
 aData

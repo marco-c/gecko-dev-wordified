@@ -827,7 +827,7 @@ VARIANT_COLOR
 /
 C
 eCSSUnit_Color
-eCSSUnit_String
+eCSSUnit_Ident
 (
 e
 .
@@ -6588,7 +6588,7 @@ GetUnit
 )
 =
 =
-eCSSUnit_String
+eCSSUnit_Ident
 )
 {
 nscolor
@@ -20049,7 +20049,7 @@ tk
 -
 >
 mIdent
-eCSSUnit_String
+eCSSUnit_Ident
 )
 ;
 return
@@ -25407,27 +25407,7 @@ Append
 tk
 -
 >
-mSymbol
-)
-;
-buffer
-.
-Append
-(
-tk
--
->
 mIdent
-)
-;
-buffer
-.
-Append
-(
-tk
--
->
-mSymbol
 )
 ;
 aValue
@@ -25475,7 +25455,7 @@ tk
 -
 >
 mIdent
-eCSSUnit_String
+eCSSUnit_Ident
 )
 ;
 return
@@ -25725,7 +25705,7 @@ SetStringValue
 mToken
 .
 mIdent
-eCSSUnit_String
+eCSSUnit_Ident
 )
 ;
 if
@@ -31995,7 +31975,7 @@ GetUnit
 )
 !
 =
-eCSSUnit_String
+eCSSUnit_Families
 )
 return
 PR_FALSE
@@ -38027,7 +38007,7 @@ SetStringValue
 mToken
 .
 mIdent
-eCSSUnit_String
+eCSSUnit_Ident
 )
 ;
 if
@@ -40297,7 +40277,7 @@ Item
 SetStringValue
 (
 functionName
-eCSSUnit_String
+eCSSUnit_Ident
 )
 ;
 for
@@ -41968,7 +41948,7 @@ aValue
 SetStringValue
 (
 family
-eCSSUnit_String
+eCSSUnit_Families
 )
 ;
 return
@@ -44569,7 +44549,7 @@ NS_ASSERTION
 unit
 =
 =
-eCSSUnit_String
+eCSSUnit_Ident
 |
 |
 unit

@@ -9274,7 +9274,7 @@ value
 GetStringValue
 (
 )
-eCSSUnit_String
+eCSSUnit_Ident
 )
 ;
 }
