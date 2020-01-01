@@ -347,7 +347,6 @@ struct
 gfxTextRunDrawCallbacks
 ;
 struct
-THEBES_API
 gfxFontStyle
 {
 gfxFontStyle
@@ -5720,7 +5719,6 @@ caches
 }
 ;
 class
-THEBES_API
 gfxFontCache
 MOZ_FINAL
 :
@@ -6393,7 +6391,6 @@ mWordCacheExpirationTimer
 }
 ;
 class
-THEBES_API
 gfxTextRunFactory
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -7206,7 +7203,6 @@ zero
 *
 /
 class
-THEBES_API
 gfxGlyphExtents
 {
 public
@@ -8166,7 +8162,6 @@ family
 *
 /
 class
-THEBES_API
 gfxFont
 {
 public
@@ -9357,7 +9352,6 @@ string
 *
 /
 struct
-THEBES_API
 RunMetrics
 {
 RunMetrics
@@ -17000,7 +16994,6 @@ test
 *
 /
 class
-THEBES_API
 gfxTextRun
 :
 public
@@ -19475,7 +19468,6 @@ mMatchType
 }
 ;
 class
-THEBES_API
 GlyphRunIterator
 {
 public
@@ -21530,7 +21522,6 @@ again
 }
 ;
 class
-THEBES_API
 gfxFontGroup
 :
 public

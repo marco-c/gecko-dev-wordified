@@ -195,7 +195,6 @@ details
 *
 /
 class
-THEBES_API
 nsSurfaceTexture
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

@@ -133,7 +133,6 @@ gfxContext
 h
 "
 class
-THEBES_API
 gfxPSSurface
 :
 public

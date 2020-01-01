@@ -332,7 +332,6 @@ initialized
 *
 /
 class
-THEBES_API
 nsDoubleBufferCARenderer
 {
 public

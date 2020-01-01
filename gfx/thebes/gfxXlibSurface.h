@@ -139,7 +139,6 @@ h
 #
 endif
 class
-THEBES_API
 gfxXlibSurface
 :
 public

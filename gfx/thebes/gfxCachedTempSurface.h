@@ -198,7 +198,6 @@ timer
 *
 /
 class
-THEBES_API
 gfxCachedTempSurface
 {
 public

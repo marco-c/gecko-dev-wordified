@@ -153,7 +153,6 @@ loop
 *
 /
 class
-THEBES_API
 ReadbackSink
 {
 public
@@ -551,7 +550,6 @@ else
 *
 /
 class
-THEBES_API
 ReadbackLayer
 :
 public

@@ -363,7 +363,6 @@ string
 *
 /
 class
-THEBES_API
 gfxSkipCharsBuilder
 {
 public
@@ -668,7 +667,6 @@ kept
 *
 /
 class
-THEBES_API
 gfxSkipChars
 {
 public
@@ -1195,7 +1193,6 @@ character
 *
 /
 class
-THEBES_API
 gfxSkipCharsIterator
 {
 public

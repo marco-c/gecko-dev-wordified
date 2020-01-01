@@ -312,7 +312,6 @@ mask
 *
 /
 class
-THEBES_API
 gfxAlphaBoxBlur
 {
 public

@@ -176,7 +176,6 @@ repeatedly
 *
 /
 class
-THEBES_API
 gfxDrawable
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -332,7 +331,6 @@ surfaces
 *
 /
 class
-THEBES_API
 gfxSurfaceDrawable
 :
 public
@@ -422,7 +420,6 @@ functor
 *
 /
 class
-THEBES_API
 gfxDrawingCallback
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -547,7 +544,6 @@ callbacks
 *
 /
 class
-THEBES_API
 gfxCallbackDrawable
 :
 public
@@ -654,7 +650,6 @@ patterns
 *
 /
 class
-THEBES_API
 gfxPatternDrawable
 :
 public

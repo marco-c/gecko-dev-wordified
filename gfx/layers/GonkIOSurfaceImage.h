@@ -269,7 +269,6 @@ mSurfaceDescriptor
 }
 ;
 class
-THEBES_API
 GonkIOSurfaceImage
 :
 public

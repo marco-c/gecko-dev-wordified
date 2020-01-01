@@ -105,7 +105,6 @@ os2
 h
 >
 class
-THEBES_API
 gfxOS2Surface
 :
 public

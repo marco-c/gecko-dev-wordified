@@ -127,7 +127,6 @@ include
 algorithm
 >
 struct
-THEBES_API
 gfxQuaternion
 :
 public

@@ -196,7 +196,6 @@ etc
 *
 /
 class
-THEBES_API
 gfxQtNativeRenderer
 {
 public

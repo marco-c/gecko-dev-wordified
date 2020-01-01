@@ -148,7 +148,6 @@ DrawTarget
 }
 }
 class
-THEBES_API
 gfxPlatformMac
 :
 public

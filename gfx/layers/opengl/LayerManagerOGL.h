@@ -262,7 +262,6 @@ thread
 *
 /
 class
-THEBES_API
 LayerManagerOGL
 :
 public

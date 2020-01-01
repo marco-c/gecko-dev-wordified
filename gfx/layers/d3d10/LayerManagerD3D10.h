@@ -325,7 +325,6 @@ transactions
 *
 /
 class
-THEBES_API
 LayerManagerD3D10
 :
 public

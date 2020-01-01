@@ -159,7 +159,6 @@ FT_Library
 #
 endif
 class
-THEBES_API
 gfxPlatformGtk
 :
 public

@@ -115,7 +115,6 @@ gfxTypes
 h
 "
 struct
-THEBES_API
 gfxPoint3D
 :
 public

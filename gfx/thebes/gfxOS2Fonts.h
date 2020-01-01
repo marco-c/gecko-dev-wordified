@@ -326,7 +326,6 @@ mAntialias
 }
 ;
 class
-THEBES_API
 gfxOS2FontGroup
 :
 public

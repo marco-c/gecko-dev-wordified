@@ -120,7 +120,6 @@ gfxQuartzSurface
 h
 "
 class
-THEBES_API
 gfxQuartzNativeDrawing
 {
 public

@@ -225,7 +225,6 @@ class
 TiledLayerComposer
 ;
 class
-THEBES_API
 LayerManagerComposite
 :
 public

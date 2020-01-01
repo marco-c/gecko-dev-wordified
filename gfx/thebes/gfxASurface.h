@@ -203,7 +203,6 @@ surface
 *
 /
 class
-THEBES_API
 gfxASurface
 {
 public
@@ -1944,7 +1943,6 @@ cairo
 *
 /
 class
-THEBES_API
 gfxUnknownSurface
 :
 public

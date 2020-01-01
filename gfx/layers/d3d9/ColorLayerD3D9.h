@@ -110,7 +110,6 @@ namespace
 layers
 {
 class
-THEBES_API
 ColorLayerD3D9
 :
 public

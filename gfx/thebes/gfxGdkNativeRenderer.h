@@ -191,7 +191,6 @@ etc
 *
 /
 class
-THEBES_API
 gfxGdkNativeRenderer
 #
 ifdef

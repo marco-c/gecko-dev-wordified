@@ -831,7 +831,6 @@ last
 ;
 }
 struct
-THEBES_API
 ImageOGLBackendData
 :
 public

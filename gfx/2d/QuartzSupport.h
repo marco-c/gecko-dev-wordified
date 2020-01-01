@@ -173,7 +173,6 @@ color
 space
 .
 CGColorSpaceRef
-THEBES_API
 CreateSystemColorSpace
 (
 )

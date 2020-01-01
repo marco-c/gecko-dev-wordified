@@ -128,7 +128,6 @@ struct
 ID3D10Texture2D
 ;
 class
-THEBES_API
 gfxD2DSurface
 :
 public

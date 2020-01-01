@@ -594,7 +594,6 @@ mRecycledTextureSizes
 }
 ;
 class
-THEBES_API
 ImageLayerOGL
 :
 public
@@ -700,7 +699,6 @@ mTextureRecycleBin
 }
 ;
 struct
-THEBES_API
 PlanarYCbCrOGLBackendData
 :
 public

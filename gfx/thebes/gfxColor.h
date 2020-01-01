@@ -934,7 +934,6 @@ cairo
 *
 /
 struct
-THEBES_API
 gfxRGBA
 {
 gfxFloat

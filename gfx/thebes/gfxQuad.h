@@ -116,7 +116,6 @@ include
 algorithm
 >
 struct
-THEBES_API
 gfxQuad
 {
 gfxQuad

@@ -356,7 +356,6 @@ mode
 *
 /
 class
-THEBES_API
 Image
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -1000,7 +999,6 @@ wrapper
 *
 /
 class
-THEBES_API
 ImageFactory
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -1634,7 +1632,6 @@ modes
 *
 /
 class
-THEBES_API
 ImageContainer
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -4399,7 +4396,6 @@ mYSkip
 *
 /
 class
-THEBES_API
 PlanarYCbCrImage
 :
 public
@@ -5039,7 +5035,6 @@ image
 *
 /
 class
-THEBES_API
 CairoImage
 :
 public

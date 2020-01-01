@@ -408,7 +408,6 @@ thread
 *
 /
 class
-THEBES_API
 LayerManagerD3D9
 :
 public

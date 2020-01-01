@@ -232,7 +232,6 @@ typename
 Sub
 >
 class
-THEBES_API
 gfxBaseSharedMemorySurface
 :
 public

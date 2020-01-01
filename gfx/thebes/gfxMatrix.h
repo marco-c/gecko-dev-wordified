@@ -284,7 +284,6 @@ ty
 *
 /
 struct
-THEBES_API
 gfxMatrix
 {
 double

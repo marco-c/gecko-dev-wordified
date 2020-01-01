@@ -254,7 +254,6 @@ layers
 *
 /
 class
-THEBES_API
 BasicLayerManager
 :
 public

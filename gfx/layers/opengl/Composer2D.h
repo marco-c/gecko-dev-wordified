@@ -261,7 +261,6 @@ class
 Layer
 ;
 class
-THEBES_API
 Composer2D
 {
 NS_INLINE_DECL_REFCOUNTING

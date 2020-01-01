@@ -149,7 +149,6 @@ namespace
 layers
 {
 class
-THEBES_API
 SharedTextureImage
 :
 public

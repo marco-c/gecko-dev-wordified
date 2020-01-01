@@ -143,7 +143,6 @@ functions
 *
 /
 class
-THEBES_API
 gfxFontMissingGlyphs
 {
 public

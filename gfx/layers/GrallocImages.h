@@ -269,7 +269,6 @@ mCbCrSize
 *
 /
 class
-THEBES_API
 GrallocPlanarYCbCrImage
 :
 public

@@ -454,7 +454,6 @@ standard
 gfxFontGroup
 directly
 class
-THEBES_API
 gfxFT2FontGroup
 :
 public

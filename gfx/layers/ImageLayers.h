@@ -147,7 +147,6 @@ Image
 *
 /
 class
-THEBES_API
 ImageLayer
 :
 public

@@ -131,7 +131,6 @@ namespace
 layers
 {
 class
-THEBES_API
 ImageLayerD3D9
 :
 public
@@ -216,7 +215,6 @@ aHasAlpha
 }
 ;
 class
-THEBES_API
 ImageD3D9
 {
 public

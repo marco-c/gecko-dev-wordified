@@ -3885,7 +3885,6 @@ GFX_USERFONT_WOFF
 }
 ;
 class
-THEBES_API
 gfxFontUtils
 {
 public

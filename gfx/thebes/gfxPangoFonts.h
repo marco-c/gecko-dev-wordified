@@ -167,7 +167,6 @@ FT_LibraryRec_
 FT_Library
 ;
 class
-THEBES_API
 gfxPangoFontGroup
 :
 public

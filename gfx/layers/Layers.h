@@ -394,7 +394,6 @@ managers
 *
 /
 class
-THEBES_API
 LayerUserData
 {
 public
@@ -923,7 +922,6 @@ children
 *
 /
 class
-THEBES_API
 LayerManager
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -3835,7 +3833,6 @@ surface
 *
 /
 class
-THEBES_API
 Layer
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -8608,7 +8605,6 @@ space
 *
 /
 class
-THEBES_API
 ThebesLayer
 :
 public
@@ -9276,7 +9272,6 @@ children
 *
 /
 class
-THEBES_API
 ContainerLayer
 :
 public
@@ -10275,7 +10270,6 @@ layer
 *
 /
 class
-THEBES_API
 ColorLayer
 :
 public
@@ -10566,7 +10560,6 @@ transaction
 *
 /
 class
-THEBES_API
 CanvasLayer
 :
 public
@@ -11443,7 +11436,6 @@ subtrees
 *
 /
 class
-THEBES_API
 RefLayer
 :
 public

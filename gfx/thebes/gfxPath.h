@@ -146,7 +146,6 @@ gfxContext
 *
 /
 class
-THEBES_API
 gfxPath
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -211,7 +210,6 @@ gfxContext
 *
 /
 class
-THEBES_API
 gfxFlattenedPath
 :
 public
