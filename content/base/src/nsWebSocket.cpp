@@ -18374,7 +18374,7 @@ NS_IMETHODIMP
 nsWebSocket
 :
 :
-GetURL
+GetUrl
 (
 nsAString
 &
