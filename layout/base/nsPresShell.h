@@ -1176,16 +1176,12 @@ virtual
 void
 WillPaint
 (
-bool
-aWillSendDidPaint
 )
 ;
 virtual
 void
 WillPaintWindow
 (
-bool
-aWillSendDidPaint
 )
 ;
 virtual

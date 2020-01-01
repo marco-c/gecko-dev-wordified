@@ -2053,11 +2053,6 @@ nsIPresShell
 :
 :
 PAINT_COMPOSITE
-|
-nsIPresShell
-:
-:
-PAINT_WILL_SEND_DID_PAINT
 )
 ;
 #
@@ -2515,11 +2510,6 @@ nsIPresShell
 :
 :
 PAINT_LAYERS
-|
-nsIPresShell
-:
-:
-PAINT_WILL_SEND_DID_PAINT
 )
 ;
 #
@@ -3954,7 +3944,6 @@ shell
 >
 WillPaintWindow
 (
-true
 )
 ;
 }
@@ -7325,7 +7314,6 @@ shell
 >
 WillPaint
 (
-true
 )
 ;
 }
