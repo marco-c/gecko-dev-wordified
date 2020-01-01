@@ -846,6 +846,16 @@ aPref
 ;
 virtual
 bool
+RecvClearUserPreference
+(
+const
+nsCString
+&
+aPrefName
+)
+;
+virtual
+bool
 RecvNotifyAlertsObserver
 (
 const
