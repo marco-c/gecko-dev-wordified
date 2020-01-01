@@ -10946,6 +10946,8 @@ tvr
 ;
 JSBool
 hole
+;
+bool
 ok
 ;
 size_t

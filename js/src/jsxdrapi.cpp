@@ -3455,9 +3455,8 @@ vp
 =
 BOOLEAN_TO_JSVAL
 (
-(
-JSBool
-)
+!
+!
 b
 )
 ;
