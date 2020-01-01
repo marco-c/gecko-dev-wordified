@@ -83,12 +83,6 @@ checkUpdateSecurity
 false
 )
 ;
-AddonManager
-.
-checkCompatibility
-=
-false
-;
 var
 ADDONS
 =
@@ -198,6 +192,12 @@ start
 startupManager
 (
 )
+;
+AddonManager
+.
+checkCompatibility
+=
+false
 ;
 installAllFiles
 (

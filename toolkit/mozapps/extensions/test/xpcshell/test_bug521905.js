@@ -102,12 +102,6 @@ checkUpdateSecurity
 false
 )
 ;
-AddonManager
-.
-checkCompatibility
-=
-false
-;
 function
 run_test
 (
@@ -174,6 +168,12 @@ XPCShell
 startupManager
 (
 )
+;
+AddonManager
+.
+checkCompatibility
+=
+false
 ;
 installAllFiles
 (
