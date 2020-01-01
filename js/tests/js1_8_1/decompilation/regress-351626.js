@@ -772,9 +772,6 @@ g
 \
 n
 }
-\
-n
-}
 '
 ;
 compareSource

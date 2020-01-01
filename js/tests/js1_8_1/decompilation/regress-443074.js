@@ -769,15 +769,7 @@ for
 x
 |
 |
-1
-for
-each
-(
-y
-in
-[
-]
-)
+true
 ;
 )
 {
