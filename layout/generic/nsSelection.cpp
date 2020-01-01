@@ -7085,7 +7085,10 @@ text
 /
 plain
 "
-0
+nsIDocumentEncoder
+:
+:
+SkipInvisibleContent
 0
 aReturn
 )
