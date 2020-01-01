@@ -4157,6 +4157,16 @@ jsbytecode
 prevpc
 )
 ;
+inline
+JSObject
+*
+createRestParameter
+(
+JSContext
+*
+cx
+)
+;
 /
 *
 *
