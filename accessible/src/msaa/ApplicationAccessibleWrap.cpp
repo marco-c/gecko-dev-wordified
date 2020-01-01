@@ -454,7 +454,7 @@ BLOCK
 #
 include
 "
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 .
 h
 "
@@ -571,11 +571,11 @@ h
 nsISupports
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-nsApplicationAccessibleWrap
-nsApplicationAccessible
+ApplicationAccessibleWrap
+ApplicationAccessible
 )
 NS_IMETHODIMP
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 :
 :
 GetAttributes
@@ -781,7 +781,7 @@ NS_OK
 /
 IUnknown
 STDMETHODIMP
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 :
 :
 QueryInterface
@@ -935,7 +935,7 @@ ppv
 /
 IAccessibleApplication
 STDMETHODIMP
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 :
 :
 get_appName
@@ -1045,7 +1045,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 :
 :
 get_appVersion
@@ -1155,7 +1155,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 :
 :
 get_toolkitName
@@ -1260,7 +1260,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 :
 :
 get_toolkitVersion
@@ -1451,11 +1451,11 @@ E_FAIL
 /
 /
 /
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 public
 static
 void
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 :
 :
 PreCreate
@@ -1464,7 +1464,7 @@ PreCreate
 {
 }
 void
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 :
 :
 Unload

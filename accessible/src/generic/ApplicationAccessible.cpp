@@ -472,7 +472,7 @@ BLOCK
 #
 include
 "
-nsApplicationAccessible
+ApplicationAccessible
 .
 h
 "
@@ -562,10 +562,10 @@ mozilla
 :
 a11y
 ;
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
-nsApplicationAccessible
+ApplicationAccessible
 (
 )
 :
@@ -666,7 +666,7 @@ eApplicationAccessible
 nsISupports
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsApplicationAccessible
+ApplicationAccessible
 nsAccessible
 nsIAccessibleApplication
 )
@@ -754,7 +754,7 @@ nsIAccessibleApplication
 /
 nsIAccessible
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetParent
@@ -780,7 +780,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetNextSibling
@@ -806,7 +806,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetPreviousSibling
@@ -832,7 +832,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetName
@@ -1000,7 +1000,7 @@ NS_OK
 ;
 }
 void
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 Description
@@ -1018,7 +1018,7 @@ Truncate
 ;
 }
 void
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 Value
@@ -1036,7 +1036,7 @@ Truncate
 ;
 }
 PRUint64
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 State
@@ -1057,7 +1057,7 @@ DEFUNCT
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetAttributes
@@ -1083,7 +1083,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GroupPosition
@@ -1135,7 +1135,7 @@ NS_OK
 }
 nsAccessible
 *
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 ChildAtPoint
@@ -1154,7 +1154,7 @@ nsnull
 }
 nsAccessible
 *
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 FocusedChild
@@ -1197,7 +1197,7 @@ nsnull
 ;
 }
 Relation
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 RelationByType
@@ -1213,7 +1213,7 @@ Relation
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetBounds
@@ -1277,7 +1277,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 SetSelected
@@ -1291,7 +1291,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 TakeSelection
@@ -1303,7 +1303,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 TakeFocus
@@ -1315,7 +1315,7 @@ NS_OK
 ;
 }
 PRUint8
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 ActionCount
@@ -1327,7 +1327,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetActionName
@@ -1350,7 +1350,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetActionDescription
@@ -1373,7 +1373,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 DoAction
@@ -1470,7 +1470,7 @@ NS_OK
 /
 nsIAccessibleApplication
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetAppName
@@ -1525,7 +1525,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetAppVersion
@@ -1580,7 +1580,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetPlatformName
@@ -1604,7 +1604,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetPlatformVersion
@@ -1744,7 +1744,7 @@ nsAccessNode
 public
 methods
 bool
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 Init
@@ -1775,7 +1775,7 @@ true
 ;
 }
 void
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 Shutdown
@@ -1788,7 +1788,7 @@ nsnull
 ;
 }
 bool
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 IsPrimaryForNode
@@ -1886,7 +1886,7 @@ nsAccessible
 public
 methods
 void
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 ApplyARIAState
@@ -1898,7 +1898,7 @@ aState
 {
 }
 role
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 NativeRole
@@ -1913,7 +1913,7 @@ APP_ROOT
 ;
 }
 PRUint64
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 NativeState
@@ -1925,7 +1925,7 @@ return
 ;
 }
 void
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 InvalidateChildren
@@ -1957,7 +1957,7 @@ calls
 .
 }
 KeyBinding
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 AccessKey
@@ -2057,7 +2057,7 @@ nsAccessible
 protected
 methods
 void
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 CacheChildren
@@ -2307,7 +2307,7 @@ hasMore
 }
 nsAccessible
 *
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetSiblingAtOffset
@@ -2421,7 +2421,7 @@ nsnull
 /
 nsIAccessible
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetDOMNode
@@ -2447,7 +2447,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetDocument
@@ -2473,7 +2473,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetRootDocument
@@ -2499,7 +2499,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 ScrollTo
@@ -2513,7 +2513,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 ScrollToPoint
@@ -2531,7 +2531,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsApplicationAccessible
+ApplicationAccessible
 :
 :
 GetLanguage

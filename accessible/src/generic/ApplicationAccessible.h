@@ -471,10 +471,10 @@ BLOCK
 /
 #
 ifndef
-__NS_APPLICATION_ACCESSIBLE_H__
+MOZILLA_A11Y_APPLICATION_ACCESSIBLE_H__
 #
 define
-__NS_APPLICATION_ACCESSIBLE_H__
+MOZILLA_A11Y_APPLICATION_ACCESSIBLE_H__
 #
 include
 "
@@ -507,7 +507,7 @@ h
 *
 *
 *
-nsApplicationAccessible
+ApplicationAccessible
 is
 for
 the
@@ -521,7 +521,7 @@ Only
 one
 instance
 of
-nsApplicationAccessible
+ApplicationAccessible
 exists
 for
 one
@@ -568,13 +568,13 @@ children
 of
 *
 the
-nsApplicationAccessible
+ApplicationAccessible
 instance
 .
 *
 /
 class
-nsApplicationAccessible
+ApplicationAccessible
 :
 public
 nsAccessibleWrap
@@ -583,7 +583,7 @@ nsIAccessibleApplication
 {
 public
 :
-nsApplicationAccessible
+ApplicationAccessible
 (
 )
 ;

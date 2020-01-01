@@ -459,13 +459,6 @@ nsAccessNodeWrap
 .
 h
 "
-#
-include
-"
-nsApplicationAccessibleWrap
-.
-h
-"
 /
 *
 For

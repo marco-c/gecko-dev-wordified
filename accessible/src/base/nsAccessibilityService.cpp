@@ -456,6 +456,13 @@ h
 #
 include
 "
+ApplicationAccessibleWrap
+.
+h
+"
+#
+include
+"
 ARIAGridAccessibleWrap
 .
 h
@@ -497,13 +504,6 @@ h
 include
 "
 nsARIAMap
-.
-h
-"
-#
-include
-"
-nsApplicationAccessibleWrap
 .
 h
 "
@@ -10901,7 +10901,7 @@ aAtkAccessible
 #
 ifdef
 MOZ_ACCESSIBILITY_ATK
-nsApplicationAccessible
+ApplicationAccessible
 *
 applicationAcc
 =
@@ -10977,7 +10977,7 @@ aAccessible
 #
 ifdef
 MOZ_ACCESSIBILITY_ATK
-nsApplicationAccessible
+ApplicationAccessible
 *
 applicationAcc
 =

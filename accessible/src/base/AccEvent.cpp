@@ -456,6 +456,13 @@ h
 #
 include
 "
+ApplicationAccessibleWrap
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h
@@ -464,13 +471,6 @@ h
 include
 "
 nsAccUtils
-.
-h
-"
-#
-include
-"
-nsApplicationAccessibleWrap
 .
 h
 "
@@ -1399,7 +1399,7 @@ bug
 506206
 )
 .
-nsApplicationAccessible
+ApplicationAccessible
 *
 applicationAcc
 =

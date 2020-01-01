@@ -539,7 +539,7 @@ the
 next
 defined
 in
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 .
 cpp
 *

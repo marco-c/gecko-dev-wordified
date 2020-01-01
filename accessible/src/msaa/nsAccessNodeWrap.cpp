@@ -451,6 +451,13 @@ h
 #
 include
 "
+ApplicationAccessibleWrap
+.
+h
+"
+#
+include
+"
 ISimpleDOMNode_i
 .
 c
@@ -466,13 +473,6 @@ h
 include
 "
 nsAccessibilityService
-.
-h
-"
-#
-include
-"
-nsApplicationAccessibleWrap
 .
 h
 "
@@ -1668,7 +1668,7 @@ iid
 IID_IAccessibleApplication
 )
 {
-nsApplicationAccessible
+ApplicationAccessible
 *
 applicationAcc
 =

@@ -523,10 +523,10 @@ nsWeakReference
 h
 "
 class
-nsAccessNode
+ApplicationAccessible
 ;
 class
-nsApplicationAccessible
+nsAccessNode
 ;
 class
 nsDocAccessible
@@ -638,7 +638,7 @@ accessible
 *
 /
 static
-nsApplicationAccessible
+ApplicationAccessible
 *
 GetApplicationAccessible
 (
@@ -1131,7 +1131,7 @@ nsAccessNode
 MOZ_DELETE
 ;
 static
-nsApplicationAccessible
+ApplicationAccessible
 *
 gApplicationAccessible
 ;
