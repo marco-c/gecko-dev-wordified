@@ -6795,6 +6795,7 @@ mTagStackIndex
 0
 &
 &
+(
 mTagStack
 [
 mTagStackIndex
@@ -6804,6 +6805,18 @@ mTagStackIndex
 =
 =
 eHTMLTag_script
+|
+|
+mTagStack
+[
+mTagStackIndex
+-
+1
+]
+=
+=
+eHTMLTag_style
+)
 )
 {
 /
@@ -6817,6 +6830,10 @@ contents
 of
 <
 script
+>
+or
+<
+style
 >
 tags
 ;
