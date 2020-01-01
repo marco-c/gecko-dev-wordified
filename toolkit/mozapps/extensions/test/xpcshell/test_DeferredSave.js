@@ -251,7 +251,7 @@ flush
 ;
 }
 get
-lastError
+error
 (
 )
 {
@@ -260,7 +260,7 @@ tester
 .
 saver
 .
-lastError
+error
 ;
 }
 }
@@ -1068,7 +1068,7 @@ do_check_eq
 testError
 tester
 .
-lastError
+error
 )
 ;
 /
@@ -1097,7 +1097,7 @@ do_check_eq
 null
 tester
 .
-lastError
+error
 )
 ;
 /

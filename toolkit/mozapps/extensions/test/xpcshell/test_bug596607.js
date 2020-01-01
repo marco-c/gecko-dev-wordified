@@ -918,9 +918,8 @@ a3
 null
 )
 ;
-do_execute_soon
-(
 do_test_finished
+(
 )
 ;
 }

@@ -634,8 +634,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 a1
@@ -802,7 +800,6 @@ run_test_2
 )
 ;
 }
-)
 )
 ;
 }
@@ -1063,8 +1060,6 @@ mozilla
 org
 "
 ]
-callback_soon
-(
 function
 (
 [
@@ -1207,7 +1202,6 @@ run_test_3
 )
 ;
 }
-)
 )
 ;
 }
@@ -1427,8 +1421,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 a1
@@ -1631,8 +1623,6 @@ mozilla
 org
 "
 ]
-callback_soon
-(
 function
 (
 [
@@ -1745,10 +1735,8 @@ run_test_4
 ;
 }
 )
-)
 ;
 }
-)
 )
 ;
 }
@@ -1963,8 +1951,6 @@ mozilla
 org
 "
 ]
-callback_soon
-(
 function
 (
 [
@@ -2121,7 +2107,6 @@ run_test_5
 ;
 }
 )
-)
 ;
 }
 /
@@ -2236,8 +2221,6 @@ mozilla
 org
 "
 ]
-callback_soon
-(
 function
 (
 [
@@ -2356,7 +2339,6 @@ run_test_6
 ;
 }
 )
-)
 ;
 }
 /
@@ -2474,8 +2456,6 @@ mozilla
 org
 "
 ]
-callback_soon
-(
 function
 (
 [
@@ -2628,7 +2608,6 @@ end_test
 )
 ;
 }
-)
 )
 ;
 }

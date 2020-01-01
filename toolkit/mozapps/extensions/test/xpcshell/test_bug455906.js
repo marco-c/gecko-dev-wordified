@@ -2450,8 +2450,6 @@ in
 ADDONS
 )
 ]
-callback_soon
-(
 function
 (
 addons
@@ -2722,7 +2720,6 @@ xml
 ;
 }
 )
-)
 ;
 }
 function
@@ -2949,8 +2946,6 @@ in
 ADDONS
 )
 ]
-callback_soon
-(
 function
 (
 addons
@@ -3261,7 +3256,6 @@ xml
 )
 ;
 }
-)
 )
 ;
 }
@@ -4096,8 +4090,6 @@ ADDONS
 ]
 .
 id
-callback_soon
-(
 function
 (
 addon
@@ -4153,7 +4145,6 @@ xml
 )
 ;
 }
-)
 )
 ;
 }

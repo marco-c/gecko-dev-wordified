@@ -287,9 +287,8 @@ permissions
 0100
 )
 ;
-do_execute_soon
-(
 do_test_finished
+(
 )
 ;
 }
