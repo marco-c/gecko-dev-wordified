@@ -4884,7 +4884,7 @@ dw
 dh
 dw
 dh
-GeckoAppShell
+ScreenshotHandler
 .
 SCREENSHOT_THUMBNAIL
 tab
