@@ -559,6 +559,7 @@ window
 .
 show
 (
+null
 window
 .
 gBrowser
