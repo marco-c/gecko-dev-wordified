@@ -407,6 +407,7 @@ JSContext
 *
 (
 )
+const
 ;
 protected
 :
