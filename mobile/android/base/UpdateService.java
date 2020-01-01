@@ -762,6 +762,7 @@ false
 )
 ;
 }
+else
 if
 (
 UpdateServiceHelper
