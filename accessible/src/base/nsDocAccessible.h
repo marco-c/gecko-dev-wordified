@@ -453,14 +453,14 @@ aRoleMapEntry
 ;
 #
 ifdef
-DEBUG_ACCDOCMGR
+DEBUG
 virtual
 nsresult
 HandleAccEvent
 (
 AccEvent
 *
-aAccEvent
+aEvent
 )
 ;
 #
