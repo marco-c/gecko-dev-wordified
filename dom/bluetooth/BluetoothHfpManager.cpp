@@ -4289,8 +4289,6 @@ get
 )
 )
 ;
-return
-;
 }
 else
 if
