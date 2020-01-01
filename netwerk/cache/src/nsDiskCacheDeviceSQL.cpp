@@ -6698,7 +6698,7 @@ mStatement_FindNamespaceEntry
 SELECT
 ns
 .
-ClientID
+NameSpace
 ns
 .
 Data

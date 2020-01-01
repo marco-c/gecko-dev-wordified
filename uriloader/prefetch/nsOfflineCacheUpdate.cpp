@@ -4279,15 +4279,7 @@ ns
 >
 Init
 (
-nsIApplicationCacheNamespace
-:
-:
-NAMESPACE_FALLBACK
-|
-nsIApplicationCacheNamespace
-:
-:
-NAMESPACE_OPPORTUNISTIC
+namespaceType
 namespaceSpec
 data
 )
