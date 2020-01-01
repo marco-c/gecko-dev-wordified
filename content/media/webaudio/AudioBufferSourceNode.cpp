@@ -761,6 +761,11 @@ end
 -
 start
 )
+*
+sizeof
+(
+float
+)
 )
 ;
 }
