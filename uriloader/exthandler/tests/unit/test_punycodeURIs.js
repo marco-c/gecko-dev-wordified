@@ -156,8 +156,10 @@ Original
 Code
 is
 *
+the
 Mozilla
-Messaging
+Foundation
+.
 *
 Portions
 created
