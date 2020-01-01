@@ -176,9 +176,9 @@ The
 Original
 Code
 is
-Mozilla
+NVIDIA
 Corporation
-code
+Code
 .
 *
 *
@@ -190,8 +190,8 @@ the
 Original
 Code
 is
-Mozilla
-Foundation
+NVIDIA
+Corporation
 .
 *
 Portions
@@ -205,7 +205,7 @@ Copyright
 (
 C
 )
-2009
+2010
 *
 the
 Initial
