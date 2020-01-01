@@ -13128,10 +13128,17 @@ true
 endif
 /
 /
-Disable
+Enable
 the
 Error
 Console
+(
+for
+now
+see
+bug
+601201
+)
 pref
 (
 "
@@ -13141,7 +13148,7 @@ errorconsole
 .
 enabled
 "
-false
+true
 )
 ;
 /
