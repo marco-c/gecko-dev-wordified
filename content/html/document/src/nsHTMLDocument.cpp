@@ -12717,6 +12717,17 @@ return
 aContent
 -
 >
+GetNameSpaceID
+(
+)
+=
+=
+kNameSpaceID_XHTML
+&
+&
+aContent
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None
