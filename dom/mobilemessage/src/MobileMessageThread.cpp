@@ -156,6 +156,12 @@ nsTArrayToJSArray
 #
 include
 "
+mozilla
+/
+dom
+/
+mobilemessage
+/
 Constants
 .
 h
