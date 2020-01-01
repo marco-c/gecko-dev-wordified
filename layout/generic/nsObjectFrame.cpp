@@ -2246,7 +2246,7 @@ nsObjectFrame
 aOwner
 )
 {
-mOwner
+mObjectFrame
 =
 aOwner
 ;
@@ -2418,8 +2418,12 @@ mInstance
 ;
 nsObjectFrame
 *
-mOwner
+mObjectFrame
 ;
+/
+/
+owns
+nsPluginInstanceOwner
 nsCOMPtr
 <
 nsIContent
@@ -14067,7 +14071,7 @@ mPluginWindow
 =
 nsnull
 ;
-mOwner
+mObjectFrame
 =
 nsnull
 ;
@@ -14229,7 +14233,7 @@ CancelTimer
 (
 )
 ;
-mOwner
+mObjectFrame
 =
 nsnull
 ;
@@ -14853,7 +14857,7 @@ isFile
 {
 NS_ENSURE_TRUE
 (
-mOwner
+mObjectFrame
 NS_ERROR_NULL_POINTER
 )
 ;
@@ -14891,7 +14895,7 @@ nsISupports
 >
 container
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -15244,7 +15248,7 @@ NS_ERROR_FAILURE
 if
 (
 !
-mOwner
+mObjectFrame
 )
 {
 return
@@ -15257,7 +15261,7 @@ nsISupports
 >
 cont
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -15467,7 +15471,7 @@ invalidRect
 if
 (
 !
-mOwner
+mObjectFrame
 |
 |
 !
@@ -15556,7 +15560,7 @@ nsPresContext
 *
 presContext
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -15618,14 +15622,14 @@ top
 )
 )
 ;
-mOwner
+mObjectFrame
 -
 >
 Invalidate
 (
 rect
 +
-mOwner
+mObjectFrame
 -
 >
 GetUsedBorderAndPadding
@@ -15665,7 +15669,7 @@ ForceRedraw
 {
 NS_ENSURE_TRUE
 (
-mOwner
+mObjectFrame
 NS_ERROR_NULL_POINTER
 )
 ;
@@ -15673,7 +15677,7 @@ nsIView
 *
 view
 =
-mOwner
+mObjectFrame
 -
 >
 GetView
@@ -15717,7 +15721,7 @@ value
 if
 (
 !
-mOwner
+mObjectFrame
 )
 {
 NS_WARNING
@@ -15770,7 +15774,7 @@ nsIViewManager
 *
 vm
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -16200,7 +16204,7 @@ nsIWidget
 *
 win
 =
-mOwner
+mObjectFrame
 -
 >
 GetWindow
@@ -16420,7 +16424,7 @@ nsIWidget
 *
 win
 =
-mOwner
+mObjectFrame
 -
 >
 GetWindow
@@ -17210,7 +17214,7 @@ IsEmpty
 if
 (
 !
-mOwner
+mObjectFrame
 )
 {
 *
@@ -18473,7 +18477,7 @@ result
 =
 NS_PTR_TO_INT32
 (
-mOwner
+mObjectFrame
 )
 ;
 return
@@ -18610,7 +18614,7 @@ instead
 ;
 NS_ENSURE_TRUE
 (
-mOwner
+mObjectFrame
 NS_ERROR_NULL_POINTER
 )
 ;
@@ -19271,7 +19275,7 @@ frame
 .
 NS_ENSURE_TRUE
 (
-mOwner
+mObjectFrame
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
@@ -22636,7 +22640,7 @@ key
 events
 if
 (
-mOwner
+mObjectFrame
 &
 &
 mPluginWindow
@@ -23662,7 +23666,7 @@ mInstance
 |
 |
 !
-mOwner
+mObjectFrame
 )
 /
 /
@@ -23756,7 +23760,7 @@ nsPresContext
 *
 presContext
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -23773,10 +23777,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-mOwner
+mObjectFrame
 )
 -
-mOwner
+mObjectFrame
 -
 >
 GetUsedBorderAndPadding
@@ -25155,7 +25159,7 @@ mInstance
 |
 |
 !
-mOwner
+mObjectFrame
 )
 /
 /
@@ -25287,10 +25291,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-mOwner
+mObjectFrame
 )
 -
-mOwner
+mObjectFrame
 -
 >
 GetUsedBorderAndPadding
@@ -25305,7 +25309,7 @@ nsPresContext
 *
 presContext
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -26315,10 +26319,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-mOwner
+mObjectFrame
 )
 -
-mOwner
+mObjectFrame
 -
 >
 GetUsedBorderAndPadding
@@ -26333,7 +26337,7 @@ nsPresContext
 *
 presContext
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -26368,7 +26372,7 @@ widgetPtPx
 =
 ptPx
 +
-mOwner
+mObjectFrame
 -
 >
 GetWindowOriginInPixels
@@ -26576,7 +26580,7 @@ nsPresContext
 *
 presContext
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -26593,10 +26597,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-mOwner
+mObjectFrame
 )
 -
-mOwner
+mObjectFrame
 -
 >
 GetUsedBorderAndPadding
@@ -28093,7 +28097,7 @@ nsIFrame
 *
 parentWithView
 =
-mOwner
+mObjectFrame
 -
 >
 GetAncestorWithView
@@ -28194,7 +28198,7 @@ mInstance
 |
 |
 !
-mOwner
+mObjectFrame
 )
 return
 ;
@@ -28445,7 +28449,7 @@ mInstance
 |
 |
 !
-mOwner
+mObjectFrame
 )
 return
 ;
@@ -28520,7 +28524,7 @@ mInstance
 |
 |
 !
-mOwner
+mObjectFrame
 )
 return
 ;
@@ -28540,7 +28544,7 @@ aDirtyRect
 .
 ToOutsidePixels
 (
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -28720,7 +28724,7 @@ mInstance
 |
 |
 !
-mOwner
+mObjectFrame
 )
 return
 ;
@@ -31935,7 +31939,7 @@ aFrame
 )
 )
 ;
-mOwner
+mObjectFrame
 =
 aFrame
 ;
@@ -32408,7 +32412,7 @@ nsIFrame
 *
 parentWithView
 =
-mOwner
+mObjectFrame
 -
 >
 GetAncestorWithView
@@ -32661,7 +32665,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-mOwner
+mObjectFrame
 )
 {
 /
@@ -32672,7 +32676,7 @@ if
 necessary
 view
 =
-mOwner
+mObjectFrame
 -
 >
 GetView
@@ -32716,7 +32720,7 @@ nsPresContext
 *
 context
 =
-mOwner
+mObjectFrame
 -
 >
 PresContext
@@ -32725,7 +32729,7 @@ PresContext
 ;
 rv
 =
-mOwner
+mObjectFrame
 -
 >
 CreateWidget
@@ -32763,7 +32767,7 @@ rv
 {
 mWidget
 =
-mOwner
+mObjectFrame
 -
 >
 GetWidget
@@ -32855,7 +32859,7 @@ nsIWidget
 *
 win
 =
-mOwner
+mObjectFrame
 -
 >
 GetWindow
@@ -33094,7 +33098,7 @@ mInstance
 |
 |
 !
-mOwner
+mObjectFrame
 )
 return
 PR_FALSE
@@ -33112,7 +33116,7 @@ style
 PRBool
 isVisible
 =
-mOwner
+mObjectFrame
 -
 >
 GetView
@@ -33242,7 +33246,7 @@ mInstance
 |
 |
 !
-mOwner
+mObjectFrame
 )
 return
 nsnull
