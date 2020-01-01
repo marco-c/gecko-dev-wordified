@@ -23784,6 +23784,10 @@ corruptedContentError
 ;
 break
 ;
+default
+:
+break
+;
 }
 }
 /
