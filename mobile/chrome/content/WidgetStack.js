@@ -3019,6 +3019,7 @@ dy
 0
 )
 return
+false
 ;
 let
 needsDragWrap
@@ -3040,6 +3041,9 @@ dragStart
 0
 )
 ;
+let
+panned
+=
 this
 .
 _panBy
@@ -3058,6 +3062,9 @@ this
 dragStop
 (
 )
+;
+return
+panned
 ;
 }
 /
@@ -3091,6 +3098,7 @@ stack
 panTo
 :
 function
+panTo
 (
 x
 y
@@ -4482,6 +4490,7 @@ clientY
 dragStart
 :
 function
+dragStart
 (
 clientX
 clientY
@@ -4684,6 +4693,7 @@ progress
 dragStop
 :
 function
+dragStop
 (
 )
 {
@@ -4753,7 +4763,7 @@ drag
 dragMove
 :
 function
-dragStop
+dragMove
 (
 clientX
 clientY
@@ -4767,17 +4777,7 @@ this
 _dragging
 )
 return
-;
-log
-(
-"
-(
-dragMove
-)
-"
-clientX
-clientY
-)
+false
 ;
 this
 .
@@ -4787,6 +4787,9 @@ clientX
 clientY
 )
 ;
+let
+panned
+=
 this
 .
 _dragUpdate
@@ -4849,6 +4852,9 @@ _viewportUpdateInterval
 )
 ;
 }
+return
+panned
+;
 }
 /
 /
@@ -7374,6 +7380,7 @@ dy
 0
 )
 return
+false
 ;
 /
 /
@@ -7570,10 +7577,14 @@ dy
 ]
 )
 ;
+return
+true
+;
 }
 _dragUpdate
 :
 function
+_dragUpdate
 (
 )
 {
@@ -7631,6 +7642,7 @@ _dragState
 .
 outerDY
 ;
+return
 this
 .
 panBy
