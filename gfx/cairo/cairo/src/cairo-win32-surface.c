@@ -8449,7 +8449,7 @@ red_short
 color
 -
 >
-blue_short
+green_short
 >
 >
 8
@@ -8463,7 +8463,7 @@ blue_short
 color
 -
 >
-green_short
+blue_short
 >
 >
 8
