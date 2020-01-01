@@ -2048,6 +2048,7 @@ eventTypeToString
 aEventType
 )
 {
+return
 gAccRetrieval
 .
 getStringEventType
