@@ -475,12 +475,13 @@ oggplay_buffer_release_next
 /
 trash
 =
-malloc
+calloc
 (
 sizeof
 (
 OggPlaySeekTrash
 )
+1
 )
 ;
 /
