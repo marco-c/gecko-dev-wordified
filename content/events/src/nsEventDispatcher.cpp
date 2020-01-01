@@ -4616,9 +4616,6 @@ aEvent
 )
 )
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 case
 NS_ANIMATION_EVENT
 :
@@ -4637,8 +4634,6 @@ aEvent
 )
 )
 ;
-#
-endif
 }
 /
 /
@@ -5354,9 +5349,6 @@ aPresContext
 nsnull
 )
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 if
 (
 aEventType
@@ -5376,8 +5368,6 @@ aPresContext
 nsnull
 )
 ;
-#
-endif
 if
 (
 aEventType

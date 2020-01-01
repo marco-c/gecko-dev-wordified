@@ -8616,9 +8616,6 @@ aDescID
 ]
 ;
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 /
 /
 -
@@ -10635,5 +10632,3 @@ return
 PR_FALSE
 ;
 }
-#
-endif

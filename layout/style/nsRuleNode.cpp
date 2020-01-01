@@ -23922,9 +23922,6 @@ mTransitionTimingFunctionCount
 }
 }
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 /
 /
 Each
@@ -24025,8 +24022,6 @@ mAnimationIterationCountCount
 }
 }
 ;
-#
-endif
 /
 /
 Information
@@ -26306,9 +26301,6 @@ GetListValue
 }
 }
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 /
 /
 Each
@@ -28291,8 +28283,6 @@ GetListValue
 }
 }
 }
-#
-endif
 /
 /
 opacity

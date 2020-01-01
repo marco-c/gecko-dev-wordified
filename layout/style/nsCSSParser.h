@@ -495,14 +495,9 @@ nsCSSSelectorList
 class
 nsMediaList
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 class
 nsCSSKeyframeRule
 ;
-#
-endif
 namespace
 mozilla
 {
@@ -1313,9 +1308,6 @@ nsCSSSelectorList
 aSelectorList
 )
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 /
 *
 *
@@ -1401,8 +1393,6 @@ float
 aSelectorList
 )
 ;
-#
-endif
 protected
 :
 /

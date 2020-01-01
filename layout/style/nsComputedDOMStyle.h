@@ -2188,9 +2188,6 @@ DoGetTransitionTimingFunction
 (
 )
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 /
 *
 CSS
@@ -2245,8 +2242,6 @@ DoGetAnimationPlayState
 (
 )
 ;
-#
-endif
 /
 *
 SVG

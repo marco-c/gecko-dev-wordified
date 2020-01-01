@@ -2033,15 +2033,10 @@ DOMCI_CLASS
 (
 TransitionEvent
 )
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 DOMCI_CLASS
 (
 AnimationEvent
 )
-#
-endif
 DOMCI_CLASS
 (
 ContentFrameMessageManager
@@ -2133,9 +2128,6 @@ DOMCI_CLASS
 (
 TouchEvent
 )
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 DOMCI_CLASS
 (
 MozCSSKeyframeRule
@@ -2144,8 +2136,6 @@ DOMCI_CLASS
 (
 MozCSSKeyframesRule
 )
-#
-endif
 DOMCI_CLASS
 (
 MediaQueryList

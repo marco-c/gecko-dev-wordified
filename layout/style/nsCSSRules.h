@@ -518,9 +518,6 @@ nsIDOMCSSFontFaceRule
 h
 "
 #
-ifdef
-MOZ_CSS_ANIMATIONS
-#
 include
 "
 nsIDOMMozCSSKeyframeRule
@@ -534,8 +531,6 @@ nsIDOMMozCSSKeyframesRule
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1537,9 +1532,6 @@ css
 /
 namespace
 mozilla
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 class
 nsCSSKeyframeRule
 ;
@@ -2086,8 +2078,6 @@ mName
 ;
 }
 ;
-#
-endif
 #
 endif
 /

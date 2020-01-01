@@ -573,14 +573,9 @@ nsIURI
 class
 nsCSSFontFaceRule
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 class
 nsCSSKeyframesRule
 ;
-#
-endif
 class
 nsRuleWalker
 ;
@@ -1316,9 +1311,6 @@ nsFontFaceRuleContainer
 aArray
 )
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 /
 /
 Append
@@ -1358,8 +1350,6 @@ nsCSSKeyframesRule
 aArray
 )
 ;
-#
-endif
 /
 /
 Begin
@@ -1749,12 +1739,7 @@ eOverrideSheet
 /
 /
 CSS
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 eAnimationSheet
-#
-endif
 eTransitionSheet
 eSheetTypeCount
 /
