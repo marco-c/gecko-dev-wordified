@@ -18739,7 +18739,7 @@ around
 with
 the
 class
-heirarchy
+hierarchy
 here
 in
 order

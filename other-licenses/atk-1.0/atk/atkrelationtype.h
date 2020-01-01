@@ -385,7 +385,7 @@ connection
 in
 the
 UI
-heirarchy
+hierarchy
 to
 that
 component

@@ -7350,7 +7350,7 @@ item
 in
 the
 parent
-heirarchy
+hierarchy
 .
 /
 /
@@ -7765,7 +7765,7 @@ look
 up
 "
 the
-heirarchy
+hierarchy
 /
 /
 to
@@ -28804,7 +28804,7 @@ keep
 looking
 up
 the
-heirarchy
+hierarchy
 as
 long
 as
@@ -31627,7 +31627,7 @@ style
 on
 this
 new
-heirarchy
+hierarchy
 PRInt32
 newSelOffset
 =
@@ -31642,7 +31642,7 @@ point
 at
 the
 new
-heirarchy
+hierarchy
 .
 /
 /

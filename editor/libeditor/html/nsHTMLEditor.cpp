@@ -12717,7 +12717,7 @@ parent
 in
 the
 parent
-heirarchy
+hierarchy
 of
 *
 ioParent
