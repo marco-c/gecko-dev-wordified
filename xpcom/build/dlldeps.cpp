@@ -1517,10 +1517,7 @@ nsnull
 url_XAlphas
 )
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 array
 ;
 NS_NewStringEnumerator
