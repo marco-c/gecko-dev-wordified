@@ -9262,6 +9262,9 @@ nsHttp
 :
 Range
 )
+|
+|
+mResuming
 )
 {
 /
