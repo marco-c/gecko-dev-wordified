@@ -5024,7 +5024,7 @@ if
 aFind
 )
 {
-PR_FREEIF
+PL_strfree
 (
 pattern
 )
@@ -10352,7 +10352,7 @@ nsZipFind
 (
 )
 {
-PR_FREEIF
+PL_strfree
 (
 mPattern
 )

@@ -1174,9 +1174,8 @@ char
 aInBuf
 PRUint32
 aInBufLen
-char
-*
-*
+nsCString
+&
 digest
 )
 ;

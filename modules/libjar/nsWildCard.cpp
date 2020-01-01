@@ -2218,7 +2218,7 @@ case_insensitive
 MATCH
 )
 {
-PR_Free
+PL_strfree
 (
 expr
 )
@@ -2229,7 +2229,7 @@ return
 }
 punt
 :
-PR_Free
+PL_strfree
 (
 expr
 )
