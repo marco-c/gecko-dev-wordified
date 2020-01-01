@@ -254,6 +254,9 @@ workerThreadState
 =
 NULL
 ;
+return
+false
+;
 }
 }
 WorkerThreadState
