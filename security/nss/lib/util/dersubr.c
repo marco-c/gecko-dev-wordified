@@ -1028,6 +1028,7 @@ max
 long
 DER_GetInteger
 (
+const
 SECItem
 *
 it

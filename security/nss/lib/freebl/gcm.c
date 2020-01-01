@@ -1756,7 +1756,7 @@ SECFailure
 gcm_reverse
 (
 T
-X
+tmp_buf
 blocksize
 )
 ;
@@ -3204,6 +3204,14 @@ ghash
 bufLen
 )
 ;
+if
+(
+needed
+!
+=
+0
+)
+{
 PORT_Memcpy
 (
 ghash
@@ -3219,6 +3227,7 @@ buf
 needed
 )
 ;
+}
 buf
 +
 =
@@ -5494,7 +5503,7 @@ tagBytes
 {
 PORT_SetError
 (
-SEC_ERROR_INVALID_ARGS
+SEC_ERROR_INPUT_LEN
 )
 ;
 return

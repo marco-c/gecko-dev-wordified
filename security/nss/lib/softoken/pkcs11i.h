@@ -4681,6 +4681,8 @@ SFTKObject
 key
 CK_KEY_TYPE
 key_type
+HASH_HashType
+hash_alg
 )
 ;
 SEC_END_PROTOS

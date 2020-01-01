@@ -266,6 +266,7 @@ publickey
 SECStatus
 CERT_VerifySignedDataWithPublicKey
 (
+const
 CERTSignedData
 *
 sd

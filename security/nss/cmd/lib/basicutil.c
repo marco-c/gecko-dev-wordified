@@ -183,6 +183,7 @@ extern
 long
 DER_GetInteger
 (
+const
 SECItem
 *
 src
@@ -1141,6 +1142,7 @@ SECU_PrintAsHex
 FILE
 *
 out
+const
 SECItem
 *
 data
@@ -2304,9 +2306,11 @@ SECU_PrintInteger
 FILE
 *
 out
+const
 SECItem
 *
 i
+const
 char
 *
 m

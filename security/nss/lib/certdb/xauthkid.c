@@ -416,6 +416,7 @@ CERT_DecodeAuthKeyID
 PRArenaPool
 *
 arena
+const
 SECItem
 *
 encodedValue
