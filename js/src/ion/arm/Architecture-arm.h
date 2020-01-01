@@ -1064,9 +1064,7 @@ r4
 /
 /
 =
-Invalidation
-saved
-PC
+outReg
 (
 1
 <

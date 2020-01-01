@@ -3851,7 +3851,7 @@ regs
 .
 take
 (
-r10
+argsBase
 )
 ;
 masm
