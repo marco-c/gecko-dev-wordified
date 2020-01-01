@@ -14823,9 +14823,6 @@ Telemetry
 ID
 generalID
 ;
-bool
-on
-;
 if
 (
 NS_IsMainThread
