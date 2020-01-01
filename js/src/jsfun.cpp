@@ -703,7 +703,7 @@ record
 .
 *
 /
-NonBuiltinScriptFrameIter
+StackIter
 iter
 (
 cx
