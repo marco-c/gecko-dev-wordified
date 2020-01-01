@@ -8743,7 +8743,7 @@ JSObject
 *
 scope
 =
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 cx
 )
@@ -8767,14 +8767,6 @@ return
 nsnull
 ;
 }
-scope
-=
-JS_GetGlobalForObject
-(
-cx
-scope
-)
-;
 XPCPerThreadData
 *
 threadData
