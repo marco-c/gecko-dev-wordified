@@ -18530,9 +18530,6 @@ shell
 new
 PresShell
 ;
-nsresult
-rv
-=
 shell
 -
 >
@@ -18543,12 +18540,6 @@ aContext
 aViewManager
 aStyleSet
 aCompatMode
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /

@@ -391,14 +391,7 @@ NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 /
 nsISupports
 NS_DECL_ISUPPORTS
-/
-/
-nsIPresShell
-virtual
-NS_HIDDEN_
-(
-nsresult
-)
+void
 Init
 (
 nsIDocument
