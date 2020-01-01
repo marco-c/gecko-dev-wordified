@@ -9867,6 +9867,14 @@ just
 fail
 here
 }
+this
+.
+_authProvider
+.
+_authFailed
+=
+false
+;
 let
 request
 =
@@ -9915,7 +9923,7 @@ event
 {
 /
 /
-notice
+dump
 (
 "
 logged
