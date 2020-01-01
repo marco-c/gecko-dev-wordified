@@ -15098,16 +15098,6 @@ argv
 :
 false
 ;
-JS_ASSERT
-(
-cx
--
->
-hasfp
-(
-)
-)
-;
 /
 *
 This

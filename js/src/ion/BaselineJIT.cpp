@@ -928,6 +928,8 @@ nfixed
 cx
 -
 >
+stack
+.
 regs
 (
 )
@@ -1002,19 +1004,6 @@ clearRunningInJit
 )
 ;
 }
-JS_ASSERT
-(
-fp
-=
-=
-cx
--
->
-fp
-(
-)
-)
-;
 JS_ASSERT
 (
 !
@@ -1785,6 +1774,8 @@ JSOp
 cx
 -
 >
+stack
+.
 regs
 (
 )

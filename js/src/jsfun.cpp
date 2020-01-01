@@ -6227,10 +6227,6 @@ if
 cx
 -
 >
-mainThread
-(
-)
-.
 currentlyRunningInJit
 (
 )
@@ -6511,7 +6507,7 @@ fp
 cx
 -
 >
-fp
+interpreterFrame
 (
 )
 ;

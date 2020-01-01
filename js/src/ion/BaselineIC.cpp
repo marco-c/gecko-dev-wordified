@@ -5098,10 +5098,6 @@ JS_ASSERT
 cx
 -
 >
-mainThread
-(
-)
-.
 currentlyRunningInJit
 (
 )

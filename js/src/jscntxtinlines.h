@@ -958,6 +958,8 @@ prevContextRegs
 cx
 -
 >
+stack
+.
 maybeRegs
 (
 )
@@ -993,6 +995,8 @@ JS_ASSERT
 cx
 -
 >
+stack
+.
 maybeRegs
 (
 )
@@ -2947,9 +2951,7 @@ const
 {
 return
 !
-stack
-.
-hasfp
+currentlyRunning
 (
 )
 &
@@ -3214,7 +3216,7 @@ compartment
 JS_ASSERT
 (
 !
-hasfp
+currentlyRunning
 (
 )
 )
