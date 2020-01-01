@@ -418,6 +418,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

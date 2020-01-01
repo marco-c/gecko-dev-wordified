@@ -480,6 +480,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 nsCSSStyleSheet
 ;
