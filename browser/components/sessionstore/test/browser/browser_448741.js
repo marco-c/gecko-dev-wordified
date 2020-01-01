@@ -458,13 +458,6 @@ Ci
 nsIObserverService
 )
 ;
-let
-tabbrowser
-=
-getBrowser
-(
-)
-;
 waitForExplicitFinish
 (
 )
@@ -508,7 +501,7 @@ tab
 var
 tab
 =
-tabbrowser
+gBrowser
 .
 addTab
 (
@@ -808,7 +801,7 @@ value
 /
 clean
 up
-tabbrowser
+gBrowser
 .
 removeTab
 (

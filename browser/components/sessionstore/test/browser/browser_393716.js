@@ -72,9 +72,7 @@ available
 let
 tabbrowser
 =
-getBrowser
-(
-)
+gBrowser
 ;
 waitForExplicitFinish
 (

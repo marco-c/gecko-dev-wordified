@@ -913,9 +913,7 @@ setup
 let
 tabbrowser
 =
-getBrowser
-(
-)
+gBrowser
 ;
 waitForExplicitFinish
 (
