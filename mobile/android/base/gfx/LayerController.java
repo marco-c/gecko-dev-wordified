@@ -2640,6 +2640,9 @@ public
 void
 abortPanZoomAnimation
 (
+final
+boolean
+notifyLayerClient
 )
 {
 if
@@ -2671,6 +2674,16 @@ abortAnimation
 (
 )
 ;
+if
+(
+notifyLayerClient
+)
+{
+notifyLayerClientOfGeometryChange
+(
+)
+;
+}
 }
 }
 )
