@@ -913,12 +913,10 @@ aPrefix
 =
 NS_NewAtom
 (
-NS_ConvertUTF16toUTF8
+Substring
 (
 prefixStart
 pos
--
-prefixStart
 )
 )
 ;
@@ -973,12 +971,10 @@ aLocalName
 =
 NS_NewAtom
 (
-NS_ConvertUTF16toUTF8
+Substring
 (
 nameStart
 nameEnd
--
-nameStart
 )
 )
 ;

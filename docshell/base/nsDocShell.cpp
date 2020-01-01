@@ -2640,9 +2640,9 @@ if
 nameAtom
 -
 >
-EqualsUTF8
+Equals
 (
-NS_LITERAL_CSTRING
+NS_LITERAL_STRING
 (
 "
 a
@@ -2655,9 +2655,9 @@ a
 nameAtom
 -
 >
-EqualsUTF8
+Equals
 (
-NS_LITERAL_CSTRING
+NS_LITERAL_STRING
 (
 "
 area

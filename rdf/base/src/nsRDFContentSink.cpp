@@ -8494,12 +8494,10 @@ aLocalName
 =
 NS_NewAtom
 (
-NS_ConvertUTF16toUTF8
+Substring
 (
 nameStart
 pos
--
-nameStart
 )
 )
 ;
