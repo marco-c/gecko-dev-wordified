@@ -235,6 +235,13 @@ nsPresState
 struct
 ScrollReflowState
 ;
+namespace
+mozilla
+{
+class
+ScrollbarActivity
+;
+}
 /
 /
 When
@@ -645,7 +652,6 @@ mInner
 ;
 }
 ;
-static
 void
 FinishReflowForScrollbar
 (
@@ -675,7 +681,6 @@ nscoord
 aMaxPos
 )
 ;
-static
 void
 SetCoordAttribute
 (
@@ -1712,6 +1717,15 @@ nsRefPtr
 AsyncScroll
 >
 mAsyncScroll
+;
+nsAutoPtr
+<
+mozilla
+:
+:
+ScrollbarActivity
+>
+mScrollbarActivity
 ;
 nsTArray
 <
