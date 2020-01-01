@@ -6175,7 +6175,7 @@ childContext
 childContext
 -
 >
-SetUsePrivateBrowsing
+SetPrivateBrowsing
 (
 isPrivateBrowsingWindow
 )

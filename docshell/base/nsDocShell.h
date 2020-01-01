@@ -1349,6 +1349,12 @@ SetUsePrivateBrowsing
 bool
 )
 ;
+NS_IMETHOD
+SetPrivateBrowsing
+(
+bool
+)
+;
 /
 /
 Restores
