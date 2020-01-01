@@ -29903,10 +29903,12 @@ f
 *
 argp
 =
-get
+INS_CONSTPTR
 (
-&
+JSVAL_TO_OBJECT
+(
 fval
+)
 )
 ;
 \
