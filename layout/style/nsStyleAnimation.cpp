@@ -16049,19 +16049,6 @@ CSSLoader
 )
 )
 ;
-if
-(
-aUseSVGMode
-)
-{
-parser
-.
-SetSVGMode
-(
-true
-)
-;
-}
 nsCSSProperty
 propertyToCheck
 =
@@ -16144,6 +16131,7 @@ declaration
 &
 changed
 false
+aUseSVGMode
 )
 )
 |
