@@ -3399,6 +3399,8 @@ newInfo
 type
 !
 =
+RIL
+.
 GECKO_MOBILE_CONNECTION_STATE_UNKNOWN
 ;
 if
