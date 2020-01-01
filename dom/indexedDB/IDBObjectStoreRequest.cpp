@@ -1286,7 +1286,7 @@ mObjectStore
 /
 Remove
 once
-nsIVariant
+XPIDL
 can
 handle
 jsvals
