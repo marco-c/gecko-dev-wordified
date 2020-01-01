@@ -2439,6 +2439,10 @@ num_widgets
 int
 cnumber
 ;
+GSource
+*
+gs
+;
 /
 *
 Set
@@ -2495,8 +2499,6 @@ been
 called
 *
 /
-GSource
-*
 gs
 =
 g_source_new
