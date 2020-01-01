@@ -875,6 +875,12 @@ nsRefPtr
 <
 nsDOMEventListenerWrapper
 >
+mOnAbortListener
+;
+nsRefPtr
+<
+nsDOMEventListenerWrapper
+>
 mOnErrorListener
 ;
 nsRefPtr
