@@ -1471,6 +1471,10 @@ mSelection
 =
 selection
 ;
+TransmitAutomaticData
+(
+)
+;
 return
 mSelectedFrame
 ;
