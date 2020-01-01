@@ -2277,8 +2277,6 @@ createLocationEvent
 (
 Location
 l
-Address
-a
 )
 {
 GeckoEvent
@@ -2295,12 +2293,6 @@ event
 mLocation
 =
 l
-;
-event
-.
-mAddress
-=
-a
 ;
 return
 event
