@@ -2014,7 +2014,7 @@ iter
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -11149,7 +11149,7 @@ rtStats
 .
 gcHeapChunkTotal
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 gcTotal
 =
@@ -13755,7 +13755,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IS_WRAPPER_CLASS
 (

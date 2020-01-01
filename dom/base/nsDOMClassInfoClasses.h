@@ -1452,10 +1452,6 @@ MozURLProperty
 )
 DOMCI_CLASS
 (
-MozBlobBuilder
-)
-DOMCI_CLASS
-(
 DOMStringMap
 )
 /
@@ -1687,10 +1683,6 @@ MathMLElement
 /
 /
 WebGL
-DOMCI_CLASS
-(
-WebGLRenderingContext
-)
 DOMCI_CLASS
 (
 WebGLBuffer
