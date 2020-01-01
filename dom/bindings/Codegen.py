@@ -15096,14 +15096,6 @@ argv
 :
 argv
             
-"
-defaultValue
-"
-:
-"
-JSVAL_VOID
-"
-            
 }
         
 self
@@ -15148,14 +15140,12 @@ if
 argument
 .
 optional
-:
-            
-if
+and
 argument
 .
 defaultValue
 :
-                
+            
 replacer
 [
 "
