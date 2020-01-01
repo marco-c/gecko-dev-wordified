@@ -17456,8 +17456,8 @@ Resize
 (
 double
 aWidth
-int32_t
 double
+aHeight
 bool
 aRepaint
 )
