@@ -747,6 +747,13 @@ in
 nsParser
 .
 cpp
+and
+/
+/
+nsHTMLDocument
+:
+:
+StartDocumentLoad
 accordingly
 .
 static
