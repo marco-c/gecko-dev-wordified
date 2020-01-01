@@ -2311,7 +2311,7 @@ A11y
 .
 /
 /
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 GetStateInternal

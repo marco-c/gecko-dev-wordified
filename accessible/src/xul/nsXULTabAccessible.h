@@ -108,7 +108,7 @@ ordered
 #
 include
 "
-nsXULMenuAccessible
+XULMenuAccessible
 .
 h
 "

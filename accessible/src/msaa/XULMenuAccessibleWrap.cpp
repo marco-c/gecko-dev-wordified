@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsXULMenuAccessibleWrap
+XULMenuAccessibleWrap
 .
 h
 "
@@ -196,7 +196,7 @@ a11y
 /
 /
 /
-nsXULMenuAccessibleWrap
+XULMenuAccessibleWrap
 /
 /
 /
@@ -277,10 +277,10 @@ nsXULMenuAccessibleWrap
 /
 /
 /
-nsXULMenuitemAccessibleWrap
+XULMenuitemAccessibleWrap
 :
 :
-nsXULMenuitemAccessibleWrap
+XULMenuitemAccessibleWrap
 (
 nsIContent
 *
@@ -290,7 +290,7 @@ DocAccessible
 aDoc
 )
 :
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 (
 aContent
 aDoc
@@ -298,7 +298,7 @@ aDoc
 {
 }
 ENameValueFlag
-nsXULMenuitemAccessibleWrap
+XULMenuitemAccessibleWrap
 :
 :
 Name
@@ -337,7 +337,7 @@ results
 on
 all
 platforms
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 Name

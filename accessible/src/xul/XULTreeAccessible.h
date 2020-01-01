@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsXULListboxAccessible
+XULListboxAccessible
 .
 h
 "
@@ -1252,7 +1252,7 @@ class
 XULTreeColumAccessible
 :
 public
-nsXULColumAccessible
+XULColumAccessible
 {
 public
 :

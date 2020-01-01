@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsXULListboxAccessible
+XULListboxAccessible
 .
 h
 "
@@ -289,7 +289,7 @@ a11y
 /
 /
 /
-nsXULColumAccessible
+XULColumAccessible
 /
 /
 /
@@ -370,10 +370,10 @@ nsXULColumAccessible
 /
 /
 /
-nsXULColumAccessible
+XULColumAccessible
 :
 :
-nsXULColumAccessible
+XULColumAccessible
 (
 nsIContent
 *
@@ -391,7 +391,7 @@ aDoc
 {
 }
 role
-nsXULColumAccessible
+XULColumAccessible
 :
 :
 NativeRole
@@ -406,7 +406,7 @@ LIST
 ;
 }
 PRUint64
-nsXULColumAccessible
+XULColumAccessible
 :
 :
 NativeState
@@ -502,7 +502,7 @@ READONLY
 /
 /
 /
-nsXULColumnItemAccessible
+XULColumnItemAccessible
 /
 /
 /
@@ -583,10 +583,10 @@ nsXULColumnItemAccessible
 /
 /
 /
-nsXULColumnItemAccessible
+XULColumnItemAccessible
 :
 :
-nsXULColumnItemAccessible
+XULColumnItemAccessible
 (
 nsIContent
 *
@@ -604,7 +604,7 @@ aDoc
 {
 }
 role
-nsXULColumnItemAccessible
+XULColumnItemAccessible
 :
 :
 NativeRole
@@ -619,7 +619,7 @@ COLUMNHEADER
 ;
 }
 PRUint64
-nsXULColumnItemAccessible
+XULColumnItemAccessible
 :
 :
 NativeState
@@ -634,7 +634,7 @@ READONLY
 ;
 }
 PRUint8
-nsXULColumnItemAccessible
+XULColumnItemAccessible
 :
 :
 ActionCount
@@ -646,7 +646,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsXULColumnItemAccessible
+XULColumnItemAccessible
 :
 :
 GetActionName
@@ -682,7 +682,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULColumnItemAccessible
+XULColumnItemAccessible
 :
 :
 DoAction
@@ -791,7 +791,7 @@ NS_OK
 /
 /
 /
-nsXULListboxAccessible
+XULListboxAccessible
 /
 /
 /
@@ -872,10 +872,10 @@ nsXULListboxAccessible
 /
 /
 /
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
-nsXULListboxAccessible
+XULListboxAccessible
 (
 nsIContent
 *
@@ -935,16 +935,16 @@ eAutoCompletePopupAccessible
 }
 NS_IMPL_ADDREF_INHERITED
 (
-nsXULListboxAccessible
+XULListboxAccessible
 XULSelectControlAccessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsXULListboxAccessible
+XULListboxAccessible
 XULSelectControlAccessible
 )
 nsresult
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 QueryInterface
@@ -1103,7 +1103,7 @@ NS_ERROR_NO_INTERFACE
 /
 nsAccessNode
 void
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 Shutdown
@@ -1123,7 +1123,7 @@ Shutdown
 ;
 }
 bool
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 IsMulticolumn
@@ -1242,11 +1242,11 @@ numColumns
 /
 /
 /
-nsXULListboxAccessible
+XULListboxAccessible
 .
 nsIAccessible
 PRUint64
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 NativeState
@@ -1257,7 +1257,7 @@ NativeState
 /
 As
 a
-nsXULListboxAccessible
+XULListboxAccessible
 we
 can
 have
@@ -1360,7 +1360,7 @@ child
 *
 /
 void
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 Value
@@ -1425,7 +1425,7 @@ aValue
 }
 }
 role
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 NativeRole
@@ -1579,11 +1579,11 @@ LISTBOX
 /
 /
 /
-nsXULListboxAccessible
+XULListboxAccessible
 .
 nsIAccessibleTable
 PRUint32
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 ColCount
@@ -1716,7 +1716,7 @@ columnCount
 ;
 }
 PRUint32
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 RowCount
@@ -1759,7 +1759,7 @@ itemCount
 }
 Accessible
 *
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 CellAt
@@ -1862,7 +1862,7 @@ aColumnIndex
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetColumnIndexAt
@@ -1917,7 +1917,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetRowIndexAt
@@ -1972,7 +1972,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetRowAndColumnIndicesAt
@@ -2057,7 +2057,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetColumnDescription
@@ -2080,7 +2080,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetRowDescription
@@ -2103,7 +2103,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 IsColumnSelected
@@ -2215,7 +2215,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 IsRowSelected
@@ -2305,7 +2305,7 @@ aIsSelected
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 IsCellSelected
@@ -2328,7 +2328,7 @@ aIsSelected
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetSelectedCellCount
@@ -2459,7 +2459,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetSelectedColumnCount
@@ -2593,7 +2593,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetSelectedRowCount
@@ -2679,7 +2679,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetSelectedCells
@@ -2956,7 +2956,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetSelectedCellIndices
@@ -3255,7 +3255,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetSelectedColumnIndices
@@ -3396,7 +3396,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 GetSelectedRowIndices
@@ -3650,7 +3650,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 SelectRow
@@ -3727,7 +3727,7 @@ item
 ;
 }
 NS_IMETHODIMP
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 SelectColumn
@@ -3755,7 +3755,7 @@ NS_OK
 ;
 }
 void
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 UnselectRow
@@ -3903,11 +3903,11 @@ item
 /
 /
 /
-nsXULListboxAccessible
+XULListboxAccessible
 :
 Widgets
 bool
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 IsWidget
@@ -3920,7 +3920,7 @@ true
 ;
 }
 bool
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 IsActiveWidget
@@ -3988,7 +3988,7 @@ mContent
 ;
 }
 bool
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 AreItemsOperable
@@ -4049,7 +4049,7 @@ true
 }
 Accessible
 *
-nsXULListboxAccessible
+XULListboxAccessible
 :
 :
 ContainerWidget
@@ -4291,7 +4291,7 @@ nsnull
 /
 /
 /
-nsXULListitemAccessible
+XULListitemAccessible
 /
 /
 /
@@ -4372,10 +4372,10 @@ nsXULListitemAccessible
 /
 /
 /
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
-nsXULListitemAccessible
+XULListitemAccessible
 (
 nsIContent
 *
@@ -4385,7 +4385,7 @@ DocAccessible
 aDoc
 )
 :
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 (
 aContent
 aDoc
@@ -4413,12 +4413,12 @@ eCaseMatters
 }
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-nsXULListitemAccessible
+XULListitemAccessible
 Accessible
 )
 Accessible
 *
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 GetListAccessible
@@ -4582,10 +4582,10 @@ listContent
 /
 /
 /
-nsXULListitemAccessible
+XULListitemAccessible
 Accessible
 void
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 Description
@@ -4686,7 +4686,7 @@ aDesc
 /
 /
 /
-nsXULListitemAccessible
+XULListitemAccessible
 .
 nsIAccessible
 /
@@ -4719,7 +4719,7 @@ GetXULName
 *
 /
 nsresult
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 GetNameInternal
@@ -4791,7 +4791,7 @@ aName
 ;
 }
 role
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 NativeRole
@@ -4895,7 +4895,7 @@ RICH_OPTION
 ;
 }
 PRUint64
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 NativeState
@@ -4907,7 +4907,7 @@ if
 mIsCheckbox
 )
 return
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 NativeState
@@ -4987,7 +4987,7 @@ states
 ;
 }
 PRUint64
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 NativeInteractiveState
@@ -5030,7 +5030,7 @@ SELECTABLE
 ;
 }
 NS_IMETHODIMP
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 GetActionName
@@ -5102,7 +5102,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 bool
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 CanHaveAnonChildren
@@ -5206,12 +5206,12 @@ true
 /
 /
 /
-nsXULListitemAccessible
+XULListitemAccessible
 :
 Widgets
 Accessible
 *
-nsXULListitemAccessible
+XULListitemAccessible
 :
 :
 ContainerWidget
@@ -5307,7 +5307,7 @@ Parent
 /
 /
 /
-nsXULListCellAccessible
+XULListCellAccessible
 /
 /
 /
@@ -5388,10 +5388,10 @@ nsXULListCellAccessible
 /
 /
 /
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
-nsXULListCellAccessible
+XULListCellAccessible
 (
 nsIContent
 *
@@ -5493,7 +5493,7 @@ aDoc
 nsISupports
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsXULListCellAccessible
+XULListCellAccessible
 HyperTextAccessible
 nsIAccessibleTableCell
 )
@@ -5579,12 +5579,12 @@ nsIAccessibleTableCell
 /
 /
 /
-nsXULListCellAccessible
+XULListCellAccessible
 :
 nsIAccessibleTableCell
 implementation
 NS_IMETHODIMP
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 GetTable
@@ -5688,7 +5688,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 GetColumnIndex
@@ -5837,7 +5837,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 GetRowIndex
@@ -5971,7 +5971,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 GetColumnExtent
@@ -6010,7 +6010,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 GetRowExtent
@@ -6049,7 +6049,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 GetColumnHeaderCells
@@ -6314,7 +6314,7 @@ aHeaderCells
 ;
 }
 NS_IMETHODIMP
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 GetRowHeaderCells
@@ -6402,7 +6402,7 @@ aHeaderCells
 ;
 }
 NS_IMETHODIMP
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 IsSelected
@@ -6567,12 +6567,12 @@ aIsSelected
 /
 /
 /
-nsXULListCellAccessible
+XULListCellAccessible
 .
 Accessible
 implementation
 role
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 NativeRole
@@ -6587,7 +6587,7 @@ CELL
 ;
 }
 nsresult
-nsXULListCellAccessible
+XULListCellAccessible
 :
 :
 GetAttributesInternal
