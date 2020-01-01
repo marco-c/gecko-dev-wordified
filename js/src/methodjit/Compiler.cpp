@@ -10406,6 +10406,10 @@ UINT32_MAX
 )
 ?
 outerScript
+.
+get
+(
+)
 :
 inlineFrames
 [
