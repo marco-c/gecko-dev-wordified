@@ -11349,6 +11349,8 @@ ICCompare_NumberWithUndefined
 IonCode
 *
 stubCode
+bool
+lhsIsUndefined
 )
 :
 ICStub
@@ -11360,6 +11362,10 @@ Compare_NumberWithUndefined
 stubCode
 )
 {
+extra_
+=
+lhsIsUndefined
+;
 }
 public
 :
@@ -11375,6 +11381,8 @@ space
 IonCode
 *
 code
+bool
+lhsIsUndefined
 )
 {
 if
@@ -11395,7 +11403,17 @@ ICCompare_NumberWithUndefined
 >
 (
 code
+lhsIsUndefined
 )
+;
+}
+bool
+lhsIsUndefined
+(
+)
+{
+return
+extra_
 ;
 }
 class
@@ -11507,6 +11525,7 @@ space
 getStubCode
 (
 )
+lhsIsUndefined
 )
 ;
 }
@@ -12084,7 +12103,7 @@ space
 )
 {
 return
-ICCompare_NumberWithUndefined
+ICCompare_ObjectWithUndefined
 :
 :
 New
