@@ -490,6 +490,13 @@ h
 #
 include
 "
+nsDOMLists
+.
+h
+"
+#
+include
+"
 nsEventDispatcher
 .
 h
@@ -881,6 +888,9 @@ const
 nsACString
 &
 aASCIIOrigin
+FileManager
+*
+aFileManager
 )
 {
 NS_ASSERTION
@@ -1001,6 +1011,13 @@ db
 mASCIIOrigin
 =
 aASCIIOrigin
+;
+db
+-
+>
+mFileManager
+=
+aFileManager
 ;
 IndexedDatabaseManager
 *

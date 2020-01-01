@@ -609,9 +609,9 @@ const
 Key
 &
 aKey
-JSAutoStructuredCloneBuffer
+StructuredCloneReadInfo
 &
-aCloneBuffer
+aCloneReadInfo
 )
 ;
 /
@@ -704,9 +704,9 @@ const
 Key
 &
 aObjectKey
-JSAutoStructuredCloneBuffer
+StructuredCloneReadInfo
 &
-aCloneBuffer
+aCloneReadInfo
 )
 ;
 enum
@@ -857,8 +857,8 @@ mKey
 Key
 mObjectKey
 ;
-JSAutoStructuredCloneBuffer
-mCloneBuffer
+StructuredCloneReadInfo
+mCloneReadInfo
 ;
 Key
 mContinueToKey

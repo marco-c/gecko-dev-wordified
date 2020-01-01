@@ -655,7 +655,7 @@ aDatabase
 /
 Returns
 true
-iff
+if
 there
 are
 running
