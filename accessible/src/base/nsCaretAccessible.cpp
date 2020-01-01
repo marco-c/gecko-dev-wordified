@@ -712,6 +712,10 @@ mRootAccessible
 NS_ERROR_FAILURE
 )
 ;
+ClearControlSelectionListener
+(
+)
+;
 mCurrentControl
 =
 aCurrentNode
@@ -923,10 +927,6 @@ domSel
 )
 )
 ;
-ClearControlSelectionListener
-(
-)
-;
 nsCOMPtr
 <
 nsISelectionPrivate
@@ -973,6 +973,12 @@ nsIDOMDocument
 aDoc
 )
 {
+NS_ENSURE_TRUE
+(
+mRootAccessible
+NS_ERROR_FAILURE
+)
+;
 nsCOMPtr
 <
 nsIDocument
