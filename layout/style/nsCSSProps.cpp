@@ -2042,6 +2042,8 @@ gFontDescTable
 nsnull
 ;
 delete
+[
+]
 gShorthandsContainingPool
 ;
 gShorthandsContainingPool
