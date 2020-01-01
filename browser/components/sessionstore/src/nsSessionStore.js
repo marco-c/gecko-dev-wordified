@@ -11226,11 +11226,11 @@ RegExp
 ]
 &
 &
-this
+_this
 .
 _checkPrivacyLevel
 (
-this
+_this
 .
 _getURIFromString
 (
@@ -11316,6 +11316,11 @@ extractHosts
 ;
 }
 }
+var
+_this
+=
+this
+;
 this
 .
 _windows
@@ -11341,11 +11346,9 @@ entries
 forEach
 (
 extractHosts
-this
 )
 ;
 }
-this
 )
 ;
 }
@@ -11546,6 +11549,11 @@ jscookies
 {
 }
 ;
+var
+_this
+=
+this
+;
 /
 /
 MAX_EXPIRY
@@ -11636,7 +11644,7 @@ cookie
 isSession
 &
 &
-this
+_this
 .
 _checkPrivacyLevel
 (
@@ -11870,7 +11878,6 @@ name
 }
 }
 }
-this
 )
 ;
 /
