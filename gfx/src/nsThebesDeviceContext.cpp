@@ -453,13 +453,6 @@ h
 #
 include
 "
-nsIThebesFontMetrics
-.
-h
-"
-#
-include
-"
 nsILanguageAtomService
 .
 h

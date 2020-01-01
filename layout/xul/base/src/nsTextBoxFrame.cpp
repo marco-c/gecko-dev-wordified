@@ -504,13 +504,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -659,13 +652,6 @@ h
 include
 "
 nsBoxFrame
-.
-h
-"
-#
-include
-"
-nsIThebesFontMetrics
 .
 h
 "

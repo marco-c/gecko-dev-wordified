@@ -475,13 +475,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsMathMLmspaceFrame
 .
 h

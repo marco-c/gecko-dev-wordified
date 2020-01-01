@@ -620,13 +620,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsHTMLParts
 .
 h

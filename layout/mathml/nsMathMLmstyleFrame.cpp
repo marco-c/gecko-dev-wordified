@@ -492,13 +492,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsMathMLmstyleFrame
 .
 h

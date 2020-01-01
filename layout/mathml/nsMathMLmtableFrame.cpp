@@ -496,13 +496,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

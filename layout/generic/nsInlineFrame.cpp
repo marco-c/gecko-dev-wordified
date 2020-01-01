@@ -507,13 +507,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsAbsoluteContainingBlock
 .
 h

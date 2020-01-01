@@ -733,13 +733,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIDeviceContext
 .
 h

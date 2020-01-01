@@ -516,13 +516,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h

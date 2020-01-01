@@ -676,13 +676,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsRenderingContext
 .
 h
@@ -955,13 +948,6 @@ h
 include
 "
 nsBidiUtils
-.
-h
-"
-#
-include
-"
-nsIThebesFontMetrics
 .
 h
 "

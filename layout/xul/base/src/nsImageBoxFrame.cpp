@@ -461,13 +461,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -595,13 +588,6 @@ h
 include
 "
 prprf
-.
-h
-"
-#
-include
-"
-nsIFontMetrics
 .
 h
 "

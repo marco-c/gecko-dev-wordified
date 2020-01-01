@@ -519,13 +519,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsMathMLmfencedFrame
 .
 h

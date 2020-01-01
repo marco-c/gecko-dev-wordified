@@ -559,13 +559,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIDOMText
 .
 h

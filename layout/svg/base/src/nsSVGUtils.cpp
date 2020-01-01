@@ -739,13 +739,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIDOMSVGUnitTypes
 .
 h

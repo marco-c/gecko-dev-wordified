@@ -530,13 +530,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

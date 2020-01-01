@@ -537,13 +537,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIPrefBranch
 .
 h

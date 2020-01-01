@@ -471,13 +471,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

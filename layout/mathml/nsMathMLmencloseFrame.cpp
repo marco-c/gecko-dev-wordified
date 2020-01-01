@@ -556,13 +556,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsWhitespaceTokenizer
 .
 h

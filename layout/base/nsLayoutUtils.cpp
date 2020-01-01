@@ -474,13 +474,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIFormControlFrame
 .
 h

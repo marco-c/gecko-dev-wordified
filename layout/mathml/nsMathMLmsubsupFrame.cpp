@@ -516,13 +516,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsMathMLmsubsupFrame
 .
 h

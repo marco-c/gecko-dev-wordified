@@ -591,13 +591,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIDOMCSSStyleSheet
 .
 h
