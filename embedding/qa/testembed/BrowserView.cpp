@@ -716,17 +716,6 @@ PrintSetupDialog
 .
 h
 "
-/
-/
-Mozilla
-Includes
-#
-include
-"
-nsIWidget
-.
-h
-"
 #
 ifdef
 _DEBUG

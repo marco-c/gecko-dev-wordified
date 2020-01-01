@@ -466,13 +466,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIRollupListener
 .
 h

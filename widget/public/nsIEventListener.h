@@ -434,9 +434,13 @@ nsISupports
 .
 h
 "
-class
-nsGUIEvent
-;
+#
+include
+"
+nsEvent
+.
+h
+"
 /
 *
 *

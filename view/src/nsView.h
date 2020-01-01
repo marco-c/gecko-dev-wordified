@@ -438,13 +438,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h

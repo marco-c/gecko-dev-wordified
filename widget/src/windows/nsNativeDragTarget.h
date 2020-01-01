@@ -430,13 +430,6 @@ _nsNativeDragTarget_h_
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

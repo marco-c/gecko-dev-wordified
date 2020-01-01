@@ -500,6 +500,13 @@ h
 "
 #
 include
+"
+nsIWidget
+.
+h
+"
+#
+include
 <
 qfile
 .

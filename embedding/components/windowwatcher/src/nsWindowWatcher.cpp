@@ -790,6 +790,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsIPrefBranch
 .
 h

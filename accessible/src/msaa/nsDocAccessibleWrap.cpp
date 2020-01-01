@@ -525,13 +525,6 @@ nsIWebNavigation
 .
 h
 "
-#
-include
-"
-nsIWidget
-.
-h
-"
 /
 *
 For

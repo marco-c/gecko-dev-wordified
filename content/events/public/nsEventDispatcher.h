@@ -440,7 +440,14 @@ nsEventDispatcher_h___
 #
 include
 "
-nsGUIEvent
+nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsEvent
 .
 h
 "
@@ -452,6 +459,9 @@ nsIDocument
 ;
 class
 nsPresContext
+;
+class
+nsIDOMEvent
 ;
 class
 nsPIDOMEventTarget

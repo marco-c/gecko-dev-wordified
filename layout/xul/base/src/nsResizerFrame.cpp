@@ -495,13 +495,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

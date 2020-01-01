@@ -533,13 +533,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIWindowMediator
 .
 h

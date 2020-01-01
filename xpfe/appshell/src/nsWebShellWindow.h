@@ -431,7 +431,7 @@ nsWebShellWindow_h__
 #
 include
 "
-nsGUIEvent
+nsEvent
 .
 h
 "

@@ -516,13 +516,6 @@ nsMenuParent
 .
 h
 "
-#
-include
-"
-nsIWidget
-.
-h
-"
 class
 nsIContent
 ;

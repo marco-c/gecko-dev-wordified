@@ -422,13 +422,6 @@ BLOCK
 *
 *
 /
-#
-include
-"
-nsIWidget
-.
-h
-"
 extern
 nsresult
 CoverageTest

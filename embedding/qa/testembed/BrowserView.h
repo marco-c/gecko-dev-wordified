@@ -887,11 +887,6 @@ nsIWebNavigation
 >
 mWebNav
 ;
-typedef
-void
-*
-nsNativeWidget
-;
 /
 /
 nsCOMPtr

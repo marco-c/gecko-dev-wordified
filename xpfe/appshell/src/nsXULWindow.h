@@ -540,13 +540,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIXULWindow
 .
 h

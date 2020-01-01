@@ -570,6 +570,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsILookAndFeel
 .
 h

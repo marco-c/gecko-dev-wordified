@@ -556,6 +556,13 @@ h
 #
 include
 "
+nsGUIEvent
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

@@ -474,6 +474,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsIView
 .
 h

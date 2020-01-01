@@ -469,13 +469,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIRenderingContext
 .
 h
@@ -500,6 +493,13 @@ directly
 include
 "
 gfxPoint
+.
+h
+"
+#
+include
+"
+nsNativeWidget
 .
 h
 "

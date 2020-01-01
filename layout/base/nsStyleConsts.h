@@ -460,13 +460,6 @@ nsFont
 .
 h
 "
-#
-include
-"
-nsIWidget
-.
-h
-"
 /
 /
 cairo

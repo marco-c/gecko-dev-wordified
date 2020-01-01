@@ -530,13 +530,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIEventListener
 .
 h

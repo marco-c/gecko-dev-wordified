@@ -452,13 +452,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

@@ -445,13 +445,6 @@ nscore
 .
 h
 "
-#
-include
-"
-nsGUIEvent
-.
-h
-"
 class
 nsIContent
 ;

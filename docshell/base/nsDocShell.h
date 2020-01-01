@@ -866,6 +866,13 @@ nsILoadContext
 .
 h
 "
+#
+include
+"
+nsIWidget
+.
+h
+"
 class
 nsIScrollableView
 ;

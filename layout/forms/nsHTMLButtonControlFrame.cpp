@@ -544,13 +544,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h

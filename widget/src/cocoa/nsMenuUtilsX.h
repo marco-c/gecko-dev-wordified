@@ -445,7 +445,7 @@ h
 #
 include
 "
-nsGUIEvent
+nsEvent
 .
 h
 "

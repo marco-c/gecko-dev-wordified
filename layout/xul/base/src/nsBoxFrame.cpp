@@ -944,13 +944,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIEventStateManager
 .
 h

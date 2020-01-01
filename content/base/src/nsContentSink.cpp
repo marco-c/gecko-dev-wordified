@@ -806,6 +806,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsWidgetsCID
 .
 h

@@ -444,6 +444,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
