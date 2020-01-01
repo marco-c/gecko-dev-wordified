@@ -1714,6 +1714,9 @@ mOfflineCacheEntry
 nsCacheAccessMode
 mOfflineCacheAccess
 ;
+nsCString
+mOfflineCacheClientID
+;
 /
 /
 auth

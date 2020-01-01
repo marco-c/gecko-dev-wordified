@@ -544,8 +544,6 @@ nsIDOMEventTarget
 public
 nsIObserver
 public
-nsIOfflineCacheUpdateObserver
-public
 nsSupportsWeakReference
 {
 public
@@ -554,7 +552,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMLOADSTATUSLIST
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSIOBSERVER
-NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER
 nsDOMOfflineLoadStatusList
 (
 nsIURI
@@ -576,7 +573,15 @@ Init
 private
 :
 nsresult
-WatchUpdate
+UpdateAdded
+(
+nsIOfflineCacheUpdate
+*
+aUpdate
+)
+;
+nsresult
+UpdateCompleted
 (
 nsIOfflineCacheUpdate
 *
@@ -664,6 +669,12 @@ nsCOMArray
 nsIDOMEventListener
 >
 mLoadCompletedEventListeners
+;
+nsCOMArray
+<
+nsIDOMEventListener
+>
+mUpdateCompletedEventListeners
 ;
 }
 ;
