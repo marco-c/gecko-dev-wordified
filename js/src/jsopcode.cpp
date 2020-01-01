@@ -2030,13 +2030,7 @@ d
 "
 loc
 +
-(
-intN
-)
 off
-(
-intN
-)
 off
 )
 ;
@@ -2268,9 +2262,6 @@ high
 %
 d
 "
-(
-intN
-)
 off
 low
 high
@@ -2315,9 +2306,6 @@ d
 d
 "
 i
-(
-intN
-)
 off
 )
 ;
@@ -2405,9 +2393,6 @@ npairs
 %
 u
 "
-(
-intN
-)
 off
 (
 uintN
@@ -2482,9 +2467,6 @@ s
 d
 "
 bytes
-(
-intN
-)
 off
 )
 ;

@@ -4438,16 +4438,6 @@ watchPointList
 if
 (
 !
-js_InitDtoa
-(
-)
-)
-goto
-bad
-;
-if
-(
-!
 js_InitGC
 (
 rt

@@ -6755,9 +6755,6 @@ gOutFile
 -
 8s
 "
-(
-uintN
-)
 PTRDIFF
 (
 sn
