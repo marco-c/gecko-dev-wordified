@@ -1834,7 +1834,7 @@ self
 .
 _dm
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
@@ -1869,7 +1869,7 @@ self
 .
 _dm
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
@@ -1968,7 +1968,7 @@ self
 .
 _dm
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
@@ -3349,7 +3349,7 @@ self
 .
 _dm
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
