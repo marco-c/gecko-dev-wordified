@@ -2777,7 +2777,10 @@ nsRenderingContext
 aRenderingContext
 )
 {
+DebugOnly
+<
 nscoord
+>
 result
 =
 0

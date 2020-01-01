@@ -7276,6 +7276,7 @@ if
 container
 &
 &
+(
 container
 -
 >
@@ -7306,6 +7307,7 @@ window
 -
 >
 height
+)
 )
 )
 {

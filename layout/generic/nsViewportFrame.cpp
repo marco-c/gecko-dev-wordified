@@ -1429,9 +1429,14 @@ reflowState
 aReflowState
 )
 ;
+#
+ifdef
+DEBUG
 nsPoint
 offset
 =
+#
+endif
 AdjustReflowStateForScrollbars
 (
 &

@@ -12405,9 +12405,6 @@ mText
 int32_t
 mLength
 ;
-nsBidiDirection
-mDirection
-;
 }
 ;
 nsresult

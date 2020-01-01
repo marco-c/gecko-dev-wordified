@@ -6046,7 +6046,10 @@ floatY
 )
 ;
 }
+DebugOnly
+<
 nsresult
+>
 rv
 =
 mFloatManager

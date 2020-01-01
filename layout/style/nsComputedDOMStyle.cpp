@@ -6876,11 +6876,6 @@ val
 >
 SetNumber
 (
-font
--
->
-mFont
-.
 weight
 )
 ;
