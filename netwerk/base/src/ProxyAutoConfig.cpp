@@ -4268,6 +4268,10 @@ get
 if
 (
 !
+script
+|
+|
+!
 JS_ExecuteScript
 (
 mJSRuntime
