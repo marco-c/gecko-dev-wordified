@@ -11593,6 +11593,7 @@ if
 (
 GetLayerManager
 (
+nsnull
 )
 -
 >
@@ -11619,6 +11620,7 @@ LayerManagerOGL
 (
 GetLayerManager
 (
+nsnull
 )
 )
 ;

@@ -22530,6 +22530,8 @@ nsWindow
 :
 GetLayerManager
 (
+LayerManagerPersistence
+aPersistence
 bool
 *
 aAllowRetaining

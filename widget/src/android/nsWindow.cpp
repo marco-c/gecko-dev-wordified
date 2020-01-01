@@ -3593,6 +3593,7 @@ nsWindow
 :
 GetLayerManager
 (
+LayerManagerPersistence
 bool
 *
 aAllowRetaining
@@ -4776,6 +4777,7 @@ switch
 (
 GetLayerManager
 (
+nsnull
 )
 -
 >
@@ -4933,6 +4935,7 @@ LayerManagerOGL
 (
 GetLayerManager
 (
+nsnull
 )
 )
 -
@@ -5339,6 +5342,7 @@ if
 (
 GetLayerManager
 (
+nsnull
 )
 -
 >

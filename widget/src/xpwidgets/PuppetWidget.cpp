@@ -1710,6 +1710,7 @@ PuppetWidget
 :
 GetLayerManager
 (
+LayerManagerPersistence
 bool
 *
 aAllowRetaining
