@@ -2360,6 +2360,14 @@ nsContentCommandEvent
 aEvent
 )
 ;
+nsresult
+DoContentCommandScrollEvent
+(
+nsContentCommandEvent
+*
+aEvent
+)
+;
 PRInt32
 mLockCursor
 ;
