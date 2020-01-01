@@ -2030,9 +2030,7 @@ HashString
 MOZ_WARN_UNUSED_RESULT
 extern
 MFBT_API
-(
 uint32_t
-)
 HashBytes
 (
 const

@@ -1108,11 +1108,9 @@ specification
 .
 static
 MFBT_API
-(
 const
 DoubleToStringConverter
 &
-)
 EcmaScriptConverter
 (
 )
@@ -1785,9 +1783,7 @@ point
 )
 .
 MFBT_API
-(
 bool
-)
 ToFixed
 (
 double
@@ -2123,9 +2119,7 @@ digits
 )
 .
 MFBT_API
-(
 bool
-)
 ToExponential
 (
 double
@@ -2520,9 +2514,7 @@ digits
 )
 .
 MFBT_API
-(
 bool
-)
 ToPrecision
 (
 double
@@ -2724,9 +2716,7 @@ long
 static
 const
 MFBT_DATA
-(
 int
-)
 kBase10MaximalLength
 =
 17
@@ -3288,9 +3278,7 @@ enough
 .
 static
 MFBT_API
-(
 void
-)
 DoubleToAscii
 (
 double
@@ -3326,9 +3314,7 @@ and
 ToShortestSingle
 .
 MFBT_API
-(
 bool
-)
 ToShortestIeeeNumber
 (
 double
@@ -3393,9 +3379,7 @@ returns
 false
 .
 MFBT_API
-(
 bool
-)
 HandleSpecialValues
 (
 double
@@ -3438,9 +3422,7 @@ decimal
 digit
 .
 MFBT_API
-(
 void
-)
 CreateExponentialRepresentation
 (
 const
@@ -3473,9 +3455,7 @@ e
 )
 .
 MFBT_API
-(
 void
-)
 CreateDecimalRepresentation
 (
 const
