@@ -158,7 +158,6 @@ token
 length
 nuses
 ndefs
-prec
 format
 )
 \

@@ -175,7 +175,6 @@ token
 length
 nuses
 ndefs
-prec
 format
 )
 \
@@ -1966,15 +1965,6 @@ number
 of
 stack
 results
-*
-/
-uint8_t
-prec
-;
-/
-*
-operator
-precedence
 *
 /
 uint32_t
