@@ -7166,7 +7166,7 @@ ok
 }
 static
 void
-CloseIteratorStates
+CloseNativeIterators
 (
 JSContext
 *
@@ -7255,7 +7255,7 @@ cx
 obj
 )
 )
-js_CloseIteratorState
+js_CloseNativeIterator
 (
 cx
 obj
@@ -9230,10 +9230,13 @@ continue
 }
 ok
 =
-js_CloseGeneratorObject
+js_CloseGenerator
 (
 cx
 gen
+-
+>
+obj
 )
 ;
 /
@@ -18787,7 +18790,7 @@ over
 .
 *
 /
-CloseIteratorStates
+CloseNativeIterators
 (
 cx
 )
