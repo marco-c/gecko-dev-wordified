@@ -15620,6 +15620,8 @@ fh
 JSPrincipals
 *
 principals
+JSVersion
+version
 )
 ;
 /
