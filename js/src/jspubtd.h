@@ -6,8 +6,6 @@
 Mode
 :
 C
-+
-+
 ;
 tab
 -
@@ -1390,6 +1388,11 @@ struct
 JSTracer
 JSTracer
 ;
+typedef
+struct
+JSXDRState
+JSXDRState
+;
 #
 ifdef
 __cplusplus
@@ -1413,12 +1416,6 @@ JSString
 ;
 #
 endif
-/
-*
-!
-__cplusplus
-*
-/
 #
 ifdef
 JS_THREADSAFE

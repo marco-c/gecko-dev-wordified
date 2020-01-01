@@ -57,6 +57,13 @@ tests
 .
 h
 "
+#
+include
+"
+jsxdrapi
+.
+h
+"
 /
 *
 Do
