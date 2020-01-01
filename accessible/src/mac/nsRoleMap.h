@@ -1209,6 +1209,10 @@ NSAccessibilityGroupRole
 /
 /
 ROLE_GRID_CELL
+NSAccessibilityGroupRole
+/
+/
+ROLE_EMBEDDED_OBJECT
 "
 ROLE_LAST_ENTRY
 "

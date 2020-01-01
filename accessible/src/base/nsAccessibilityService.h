@@ -1865,6 +1865,13 @@ gridcell
 /
 /
 ROLE_GRID_CELL
+"
+embedded
+object
+"
+/
+/
+ROLE_EMBEDDED_OBJECT
 }
 ;
 /

@@ -1479,6 +1479,14 @@ nsIAccessibleRole
 :
 ROLE_GRID_CELL
 121
+ATK_ROLE_PANEL
+/
+/
+nsIAccessibleRole
+:
+:
+ROLE_EMBEDDED_OBJECT
+122
 kROLE_ATK_LAST_ENTRY
 /
 /

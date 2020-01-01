@@ -160,6 +160,13 @@ nsIAccessibleRole
 ROLE_DOCUMENT
 ;
 const
+ROLE_EMBEDDED_OBJECT
+=
+nsIAccessibleRole
+.
+ROLE_EMBEDDED_OBJECT
+;
+const
 ROLE_ENTRY
 =
 nsIAccessibleRole
