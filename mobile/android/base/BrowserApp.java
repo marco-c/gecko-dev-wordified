@@ -7998,12 +7998,6 @@ VERSION
 SDK_INT
 <
 14
-|
-|
-!
-isTouchDevice
-(
-)
 )
 ;
 if
