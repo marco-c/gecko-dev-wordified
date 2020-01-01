@@ -1222,7 +1222,16 @@ name
 aName
 value
 :
+this
+.
+_settingsService
+.
+_settingsDB
+.
+prepareValue
+(
 aValue
+)
 message
 :
 aMessage
