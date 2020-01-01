@@ -3519,6 +3519,9 @@ nchars
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 chars
