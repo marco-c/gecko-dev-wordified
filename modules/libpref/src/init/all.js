@@ -2197,6 +2197,16 @@ accesskeycausesactivation
 true
 )
 ;
+pref
+(
+"
+accessibility
+.
+mouse_focuses_formcontrol
+"
+false
+)
+;
 /
 /
 Type
