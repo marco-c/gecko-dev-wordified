@@ -8887,6 +8887,9 @@ Label
 failures
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 scopeObj
@@ -8955,8 +8958,7 @@ isForEval
 )
 )
 {
-JSFunction
-*
+RawFunction
 fun
 =
 &
@@ -8967,8 +8969,7 @@ callee
 (
 )
 ;
-JSScript
-*
+RawScript
 script
 =
 fun

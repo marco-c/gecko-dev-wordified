@@ -2434,6 +2434,10 @@ Register
 dynStack
 )
 {
+AssertCanGC
+(
+)
+;
 #
 ifdef
 DEBUG

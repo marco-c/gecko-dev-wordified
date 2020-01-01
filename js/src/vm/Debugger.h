@@ -1534,8 +1534,7 @@ slowPathOnNewScript
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 GlobalObject
 *
@@ -2086,8 +2085,7 @@ onNewScript
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 GlobalObject
 *
@@ -4047,8 +4045,7 @@ onNewScript
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 GlobalObject
 *

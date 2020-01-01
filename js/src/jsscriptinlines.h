@@ -326,6 +326,9 @@ opt
 CALLED_FROM_JSOP_EVAL
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 JSOp
@@ -365,8 +368,7 @@ JSOP_EVAL_LENGTH
 JSOP_LINENO
 )
 ;
-JSScript
-*
+RawScript
 script
 =
 cx

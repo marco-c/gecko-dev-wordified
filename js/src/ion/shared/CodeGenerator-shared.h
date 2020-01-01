@@ -3019,6 +3019,10 @@ StoreOutputTo
 ool
 )
 {
+AssertCanGC
+(
+)
+;
 LInstruction
 *
 lir

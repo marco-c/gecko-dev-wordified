@@ -1993,6 +1993,10 @@ size_t
 index
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 index

@@ -15365,6 +15365,9 @@ JSObject
 lambda
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !
@@ -15400,8 +15403,7 @@ isInterpreted
 return
 NULL
 ;
-JSScript
-*
+RawScript
 script
 =
 fun

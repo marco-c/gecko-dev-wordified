@@ -214,6 +214,10 @@ IonCompartment
 comp
 )
 {
+AssertCanGC
+(
+)
+;
 #
 ifndef
 JS_CPU_ARM
