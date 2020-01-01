@@ -696,7 +696,6 @@ tables
 /
 /
 int
-__fastcall
 ShFinalize
 (
 )
