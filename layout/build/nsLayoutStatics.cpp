@@ -923,6 +923,13 @@ h
 #
 include
 "
+nsEditorSpellCheck
+.
+h
+"
+#
+include
+"
 nsDOMMemoryReporter
 .
 h
@@ -2011,6 +2018,13 @@ nsHyphenationManager
 :
 :
 Shutdown
+(
+)
+;
+nsEditorSpellCheck
+:
+:
+ShutDown
 (
 )
 ;

@@ -1958,12 +1958,6 @@ index
 ]
 )
 ;
-spellchecker
-.
-saveDefaultDictionary
-(
-)
-;
 this
 .
 mInlineSpellChecker
