@@ -1194,6 +1194,10 @@ StringList
 *
 _outputCache
 ;
+LabelMap
+*
+_labelMap
+;
 /
 /
 Log
