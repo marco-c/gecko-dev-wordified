@@ -336,6 +336,16 @@ End
 (
 )
 ;
+void
+SendAudioImpl
+(
+int16_t
+*
+aData
+uint32_t
+aDataLen
+)
+;
 nsRefPtr
 <
 SourceMediaStream
