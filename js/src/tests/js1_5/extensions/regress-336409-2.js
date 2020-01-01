@@ -46,7 +46,6 @@ x86_64
 )
 )
 )
-silentfail
 slow
 -
 -
@@ -276,6 +275,10 @@ InternalError
 allocation
 size
 overflow
+|
+out
+of
+memory
 )
 /
 ;

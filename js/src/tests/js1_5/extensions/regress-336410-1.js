@@ -15,7 +15,6 @@ shell
 |
 Android
 )
-silentfail
 slow
 -
 -
@@ -398,11 +397,19 @@ ex
 expect
 =
 '
+\
+(
 InternalError
 :
 allocation
 size
 overflow
+|
+out
+of
+memory
+\
+)
 '
 ;
 actual
