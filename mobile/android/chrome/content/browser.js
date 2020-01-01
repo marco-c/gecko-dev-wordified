@@ -2313,7 +2313,7 @@ home
 "
 ;
 let
-restoreSession
+forceRestore
 =
 false
 ;
@@ -2353,7 +2353,7 @@ arguments
 1
 ]
 )
-restoreSession
+forceRestore
 =
 window
 .
@@ -2504,7 +2504,7 @@ nsISessionStore
 ;
 if
 (
-restoreSession
+forceRestore
 |
 |
 ss
@@ -2582,6 +2582,7 @@ restoreToFront
 =
 true
 ;
+}
 /
 /
 Be
@@ -2638,6 +2639,16 @@ aData
 fail
 "
 )
+{
+let
+params
+=
+{
+selected
+:
+restoreToFront
+}
+;
 BrowserApp
 .
 addTab
@@ -2649,6 +2660,7 @@ home
 "
 )
 ;
+}
 }
 }
 ;
@@ -2669,7 +2681,6 @@ restored
 false
 )
 ;
-}
 /
 /
 Start
@@ -2680,6 +2691,7 @@ ss
 restoreLastSession
 (
 restoreToFront
+forceRestore
 )
 ;
 }
