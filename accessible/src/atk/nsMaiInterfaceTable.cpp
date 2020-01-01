@@ -1705,7 +1705,7 @@ implemented
 /
 /
 by
-nsXULTreeColumnitemAccessible
+nsXULTreeColumnItemAccessible
 .
 /
 /
