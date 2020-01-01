@@ -981,6 +981,14 @@ nsXBLProtoImplMember
 aMember
 )
 ;
+void
+AddField
+(
+nsXBLProtoImplField
+*
+aField
+)
+;
 XBLPrimaryState
 mState
 ;
@@ -1026,6 +1034,10 @@ mImplementation
 nsXBLProtoImplMember
 *
 mImplMember
+;
+nsXBLProtoImplField
+*
+mImplField
 ;
 nsXBLProtoImplProperty
 *
