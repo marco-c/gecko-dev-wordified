@@ -454,6 +454,13 @@ BLOCK
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 application
 .
 ini

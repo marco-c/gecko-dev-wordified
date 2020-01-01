@@ -658,7 +658,7 @@ print
 #
 include
 "
-nsXULAppAPI
+nsXREAppData
 .
 h
 "
