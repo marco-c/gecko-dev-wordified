@@ -1680,13 +1680,6 @@ DOMCI_CLASS
 (
 MathMLElement
 )
-/
-/
-WebGL
-DOMCI_CLASS
-(
-WebGLActiveInfo
-)
 DOMCI_CLASS
 (
 PaintRequest
