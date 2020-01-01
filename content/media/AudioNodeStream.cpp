@@ -361,7 +361,7 @@ graphTime
 TrackTicks
 ticks
 =
-TimeToTicksRoundDown
+TimeToTicksRoundUp
 (
 IdealAudioRate
 (
