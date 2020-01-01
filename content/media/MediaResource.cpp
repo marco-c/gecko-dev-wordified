@@ -460,6 +460,10 @@ mByteRangeFirstOpen
 (
 true
 )
+mIsTransportSeekable
+(
+true
+)
 mSeekOffsetMonitor
 (
 "
@@ -472,10 +476,6 @@ mSeekOffset
 (
 -
 1
-)
-mIsTransportSeekable
-(
-true
 )
 {
 #
