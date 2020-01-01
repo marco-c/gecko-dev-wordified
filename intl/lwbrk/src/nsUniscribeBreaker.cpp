@@ -702,7 +702,11 @@ if
 ScriptBreak
 (
 aText
-aLength
++
+startOffset
+endOffset
+-
+startOffset
 &
 items
 [
