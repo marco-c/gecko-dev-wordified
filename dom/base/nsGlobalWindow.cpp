@@ -6777,7 +6777,7 @@ idbManager
 idbManager
 -
 >
-CloseDatabasesForWindow
+AbortCloseDatabasesForWindow
 (
 this
 )
