@@ -4000,9 +4000,12 @@ GetRuntimeInstance
 ;
 if
 (
+!
 self
 )
-{
+return
+JS_TRUE
+;
 switch
 (
 status
@@ -5841,7 +5844,6 @@ default
 :
 break
 ;
-}
 }
 nsTArray
 <
