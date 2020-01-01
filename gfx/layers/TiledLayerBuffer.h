@@ -1782,6 +1782,17 @@ the
 tile
 buffer
 .
+volatile
+float
+resolution
+=
+mResolution
+;
+/
+/
+bug
+881018
+investigation
 int
 firstTileX
 =

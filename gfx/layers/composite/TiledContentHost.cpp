@@ -1383,6 +1383,7 @@ compositor
 return
 ;
 }
+volatile
 float
 resolution
 =
@@ -1392,6 +1393,11 @@ GetResolution
 (
 )
 ;
+/
+/
+bug
+881018
+investigation
 gfxSize
 layerScale
 (
