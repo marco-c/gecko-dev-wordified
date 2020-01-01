@@ -1492,7 +1492,7 @@ mWindowType
 }
 virtual
 bool
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 ;

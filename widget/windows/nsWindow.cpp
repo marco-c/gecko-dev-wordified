@@ -22904,7 +22904,7 @@ bool
 nsWindow
 :
 :
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 {
@@ -23550,7 +23550,7 @@ if
 possible
 if
 (
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 )

@@ -1687,7 +1687,7 @@ aModifiers
 ;
 virtual
 bool
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 ;

@@ -3579,7 +3579,7 @@ all
 windows
 if
 (
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 )
@@ -3659,7 +3659,7 @@ mUseLayersAcceleration
 ;
 if
 (
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 )

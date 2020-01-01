@@ -469,10 +469,6 @@ mPainting
 =
 true
 ;
-UpdateForWindowSizeChange
-(
-)
-;
 gfxWindowsPlatform
 :
 :

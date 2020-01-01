@@ -8322,7 +8322,7 @@ bool
 nsBaseWidget
 :
 :
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 {
@@ -8404,7 +8404,7 @@ if
 possible
 if
 (
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 )
