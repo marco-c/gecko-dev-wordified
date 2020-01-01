@@ -2947,6 +2947,8 @@ NS_ERROR_FAILURE
 #
 ifndef
 MOZ_ENABLE_POSTSCRIPT
+rv
+=
 nsPrintJobFactoryGTK
 :
 :
