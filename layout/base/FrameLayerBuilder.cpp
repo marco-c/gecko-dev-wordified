@@ -11785,9 +11785,10 @@ CheckDOMModified
 {
 if
 (
+!
 mRootPresContext
-&
-&
+|
+|
 mInitialDOMGeneration
 =
 =
