@@ -714,6 +714,17 @@ DeviceManagerD3D9
 :
 :
 RGBALAYER
+mLayer
+-
+>
+GetLayer
+(
+)
+-
+>
+GetMaskLayer
+(
+)
 )
 ;
 mLayer

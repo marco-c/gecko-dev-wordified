@@ -700,6 +700,12 @@ DeviceManagerD3D9
 :
 :
 SOLIDCOLORLAYER
+aLayer
+-
+>
+GetMaskLayer
+(
+)
 )
 ;
 aManager

@@ -2925,6 +2925,9 @@ DeviceManagerD3D9
 :
 :
 YCBCRLAYER
+GetMaskLayer
+(
+)
 )
 ;
 /
@@ -3801,6 +3804,9 @@ DeviceManagerD3D9
 :
 :
 YCBCRLAYER
+GetMaskLayer
+(
+)
 )
 ;
 /
