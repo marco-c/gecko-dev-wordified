@@ -1762,7 +1762,7 @@ extensions
 .
 hideUpdateButton
 "
-true
+false
 )
 ;
 pref
