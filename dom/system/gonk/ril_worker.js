@@ -14415,11 +14415,11 @@ action
 CALL_FORWARD_ACTION_QUERY_STATUS
 )
 {
-_sendMMIError
+this
+.
+queryCallForwardStatus
 (
-"
-CF_QUERY_STATUS_NOT_SUPPORTED
-"
+options
 )
 ;
 return
