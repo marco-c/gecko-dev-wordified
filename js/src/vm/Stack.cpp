@@ -7549,7 +7549,7 @@ in
 crash
 -
 stats
-JS_Assert
+MOZ_Assert
 (
 "
 About

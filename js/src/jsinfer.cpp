@@ -2450,7 +2450,7 @@ release
 builds
 *
 /
-JS_Assert
+MOZ_Assert
 (
 msgbuf
 __FILE__

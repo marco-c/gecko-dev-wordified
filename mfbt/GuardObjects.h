@@ -942,7 +942,7 @@ Using_RAII_classes_in_Mozilla
 *
 /
 class
-MFBT_API
+MOZ_EXPORT_API
 (
 GuardObjectNotifier
 )
@@ -992,7 +992,7 @@ statementIsDone
 }
 ;
 class
-MFBT_API
+MOZ_EXPORT_API
 (
 GuardObjectNotificationReceiver
 )

@@ -2145,7 +2145,7 @@ void
 )
 0
 :
-JS_Assert
+MOZ_Assert
 (
 #
 expr
@@ -2179,7 +2179,7 @@ void
 )
 0
 :
-JS_Assert
+MOZ_Assert
 (
 #
 expr

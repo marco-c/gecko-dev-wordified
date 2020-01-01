@@ -644,6 +644,12 @@ X86Assembler
 ConditionBE
 }
 ;
+static
+void
+staticAsserts
+(
+)
+{
 COMPILE_ASSERT
 (
 !
@@ -685,6 +691,7 @@ DoubleConditionBits
 DoubleConditionBits_should_not_interfere_with_X86Assembler_Condition_codes
 )
 ;
+}
 static
 const
 RegisterID
