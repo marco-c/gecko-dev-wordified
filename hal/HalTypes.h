@@ -102,6 +102,8 @@ mozilla_hal_Types_h
 #
 include
 "
+ipc
+/
 IPCMessageUtils
 .
 h
@@ -109,6 +111,8 @@ h
 #
 include
 "
+mozilla
+/
 Observer
 .
 h
