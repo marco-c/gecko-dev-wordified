@@ -273,9 +273,9 @@ cookie
 /
 test
 /
-image1
+damonbowling
 .
-png
+jpg
 "
 )
 ;
