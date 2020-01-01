@@ -1818,6 +1818,14 @@ JS_ASSERT
 tarray
 )
 ;
+obj
+-
+>
+traceProtoAndParent
+(
+trc
+)
+;
 JS_CALL_OBJECT_TRACER
 (
 trc

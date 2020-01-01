@@ -5569,10 +5569,9 @@ return
 JS_TRUE
 ;
 }
-static
 JSObject
 *
-CheckScopeChainValidity
+js_CheckScopeChainValidity
 (
 JSContext
 *
@@ -6781,7 +6780,7 @@ JSObject
 *
 result
 =
-CheckScopeChainValidity
+js_CheckScopeChainValidity
 (
 cx
 scopeobj
@@ -37147,6 +37146,14 @@ marked
 true
 ;
 }
+obj
+-
+>
+traceProtoAndParent
+(
+trc
+)
+;
 /
 *
 *
