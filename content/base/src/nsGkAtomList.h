@@ -4828,6 +4828,13 @@ onabort
 )
 GK_ATOM
 (
+onafterprint
+"
+onafterprint
+"
+)
+GK_ATOM
+(
 onafterscriptexecute
 "
 onafterscriptexecute
@@ -4878,6 +4885,13 @@ GK_ATOM
 onbeforepaste
 "
 onbeforepaste
+"
+)
+GK_ATOM
+(
+onbeforeprint
+"
+onbeforeprint
 "
 )
 GK_ATOM
