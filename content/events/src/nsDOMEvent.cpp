@@ -5449,15 +5449,6 @@ openControlled
 ;
 break
 ;
-case
-NS_XUL_COMMAND
-:
-abuse
-=
-openControlled
-;
-break
-;
 }
 }
 break
