@@ -623,7 +623,7 @@ GetHashValue
 )
 ;
 const
-nsNodeInfo
+nsINodeInfo
 :
 :
 nsNodeInfoInner
@@ -633,7 +633,7 @@ node
 reinterpret_cast
 <
 const
-nsNodeInfo
+nsINodeInfo
 :
 :
 nsNodeInfoInner
@@ -771,7 +771,7 @@ NodeInfoInnerKeyCompare
 )
 ;
 const
-nsNodeInfo
+nsINodeInfo
 :
 :
 nsNodeInfoInner
@@ -781,7 +781,7 @@ node1
 reinterpret_cast
 <
 const
-nsNodeInfo
+nsINodeInfo
 :
 :
 nsNodeInfoInner
@@ -792,7 +792,7 @@ key1
 )
 ;
 const
-nsNodeInfo
+nsINodeInfo
 :
 :
 nsNodeInfoInner
@@ -802,7 +802,7 @@ node2
 reinterpret_cast
 <
 const
-nsNodeInfo
+nsINodeInfo
 :
 :
 nsNodeInfoInner
@@ -1351,7 +1351,7 @@ arg
 {
 static_cast
 <
-nsNodeInfo
+nsINodeInfo
 *
 >
 (
@@ -1431,7 +1431,7 @@ nsnull
 }
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 nsNodeInfoManager
 :
@@ -1467,7 +1467,7 @@ aNamespaceID
 aExtraName
 )
 ;
-nsNodeInfo
+nsINodeInfo
 :
 :
 nsNodeInfoInner
@@ -1496,13 +1496,13 @@ if
 node
 )
 {
-nsNodeInfo
+nsINodeInfo
 *
 nodeInfo
 =
 static_cast
 <
-nsNodeInfo
+nsINodeInfo
 *
 >
 (
@@ -1588,7 +1588,7 @@ cast
 to
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 +
 +
@@ -1642,7 +1642,7 @@ PRInt32
 aNamespaceID
 PRUint16
 aNodeType
-nsNodeInfo
+nsINodeInfo
 *
 *
 aNodeInfo
@@ -1674,7 +1674,7 @@ nsnull
 }
 #
 endif
-nsNodeInfo
+nsINodeInfo
 :
 :
 nsNodeInfoInner
@@ -1702,13 +1702,13 @@ if
 node
 )
 {
-nsNodeInfo
+nsINodeInfo
 *
 nodeInfo
 =
 static_cast
 <
-nsNodeInfo
+nsINodeInfo
 *
 >
 (
@@ -1840,7 +1840,7 @@ nsAString
 aNamespaceURI
 PRUint16
 aNodeType
-nsNodeInfo
+nsINodeInfo
 *
 *
 aNodeInfo
@@ -1898,7 +1898,7 @@ aNodeInfo
 }
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 nsNodeInfoManager
 :
@@ -1949,7 +1949,7 @@ mTextNodeInfo
 }
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 nsNodeInfoManager
 :
@@ -2000,7 +2000,7 @@ mCommentNodeInfo
 }
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 nsNodeInfoManager
 :
@@ -2286,7 +2286,7 @@ Can
 '
 t
 find
-nsNodeInfo
+nsINodeInfo
 to
 remove
 !

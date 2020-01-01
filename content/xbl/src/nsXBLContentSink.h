@@ -791,7 +791,7 @@ PRUnichar
 aAtts
 PRUint32
 aAttsCount
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 PRUint32

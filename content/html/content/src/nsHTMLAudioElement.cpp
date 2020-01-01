@@ -652,7 +652,7 @@ NS_NewHTMLAudioElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser
@@ -670,7 +670,7 @@ be
 created
 without
 a
-nsNodeInfo
+nsINodeInfo
 passed
 in
 *
@@ -698,7 +698,7 @@ that
 we
 request
 the
-nsNodeInfo
+nsINodeInfo
 from
 the
 document
@@ -709,9 +709,9 @@ list
 .
 *
 /
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 (
@@ -835,7 +835,7 @@ nsHTMLAudioElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

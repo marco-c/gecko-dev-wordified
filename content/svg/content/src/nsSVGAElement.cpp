@@ -743,7 +743,7 @@ nsSVGAElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

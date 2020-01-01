@@ -447,7 +447,7 @@ nsHTMLFrameSetElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

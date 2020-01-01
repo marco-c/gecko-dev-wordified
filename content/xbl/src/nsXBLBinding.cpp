@@ -4234,7 +4234,7 @@ do_QueryInterface
 node
 )
 ;
-nsNodeInfo
+nsINodeInfo
 *
 ni
 =
@@ -4781,7 +4781,7 @@ template
 and
 observes
 .
-nsNodeInfo
+nsINodeInfo
 *
 ni
 =

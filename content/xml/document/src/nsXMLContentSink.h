@@ -512,7 +512,7 @@ class
 nsIContent
 ;
 class
-nsNodeInfo
+nsINodeInfo
 ;
 class
 nsIParser
@@ -912,7 +912,7 @@ PRUnichar
 aAtts
 PRUint32
 aAttsCount
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 PRUint32
@@ -1091,7 +1091,7 @@ MaybePrettyPrint
 bool
 IsMonolithicContainer
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 )

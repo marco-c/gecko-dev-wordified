@@ -627,7 +627,7 @@ h
 #
 include
 "
-nsNodeInfo
+nsINodeInfo
 .
 h
 "
@@ -3398,9 +3398,9 @@ handle
 a
 null
 nodeinfo
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 ;
@@ -3493,9 +3493,9 @@ handle
 a
 null
 nodeinfo
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 ;
@@ -3591,9 +3591,9 @@ handle
 a
 null
 nodeinfo
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 ;

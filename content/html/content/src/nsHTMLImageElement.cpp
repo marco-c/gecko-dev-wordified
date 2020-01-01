@@ -705,7 +705,7 @@ nsHTMLImageElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -1082,7 +1082,7 @@ virtual
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -1128,7 +1128,7 @@ NS_NewHTMLImageElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser
@@ -1146,7 +1146,7 @@ be
 created
 without
 a
-nsNodeInfo
+nsINodeInfo
 passed
 in
 *
@@ -1174,7 +1174,7 @@ that
 we
 request
 the
-nsNodeInfo
+nsINodeInfo
 from
 the
 document
@@ -1185,9 +1185,9 @@ list
 .
 *
 /
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 (
@@ -1272,7 +1272,7 @@ nsHTMLImageElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

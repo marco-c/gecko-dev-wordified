@@ -827,9 +827,9 @@ NS_ERROR_FAILURE
 /
 make
 content
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

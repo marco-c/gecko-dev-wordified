@@ -855,7 +855,7 @@ nsSVGGradientElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -1736,7 +1736,7 @@ nsSVGLinearGradientElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -2517,7 +2517,7 @@ nsSVGRadialGradientElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

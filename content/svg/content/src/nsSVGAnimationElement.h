@@ -519,7 +519,7 @@ nsSVGAnimationElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

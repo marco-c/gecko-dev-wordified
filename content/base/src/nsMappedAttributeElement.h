@@ -528,7 +528,7 @@ nsMappedAttributeElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

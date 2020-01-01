@@ -655,7 +655,7 @@ class
 nsIURI
 ;
 class
-nsNodeInfo
+nsINodeInfo
 ;
 class
 nsIControllers
@@ -1134,7 +1134,7 @@ nsGenericElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -1342,7 +1342,7 @@ const
 virtual
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 GetExistingAttrNameFromQName
 (
@@ -3483,7 +3483,7 @@ virtual
 void
 NodeInfoChanged
 (
-nsNodeInfo
+nsINodeInfo
 *
 aOldNodeInfo
 )
@@ -5839,7 +5839,7 @@ _elementName
 :
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -5857,9 +5857,9 @@ aResult
 nsnull
 ;
 \
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 =
@@ -5953,7 +5953,7 @@ _elementName
 :
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -5971,9 +5971,9 @@ aResult
 nsnull
 ;
 \
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 =

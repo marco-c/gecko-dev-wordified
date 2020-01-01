@@ -3340,9 +3340,9 @@ head
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

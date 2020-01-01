@@ -1434,7 +1434,7 @@ NS_NewHTMLFormElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser
@@ -1487,7 +1487,7 @@ nsHTMLFormElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

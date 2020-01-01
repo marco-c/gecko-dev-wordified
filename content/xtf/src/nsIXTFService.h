@@ -450,7 +450,7 @@ class
 nsIContent
 ;
 class
-nsNodeInfo
+nsINodeInfo
 ;
 /
 /
@@ -518,7 +518,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

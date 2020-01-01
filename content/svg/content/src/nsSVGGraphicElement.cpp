@@ -741,7 +741,7 @@ nsSVGGraphicElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

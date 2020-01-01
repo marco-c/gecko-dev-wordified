@@ -789,7 +789,7 @@ nsHTMLVideoElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

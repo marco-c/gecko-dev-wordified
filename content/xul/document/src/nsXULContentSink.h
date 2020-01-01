@@ -718,7 +718,7 @@ aAttributes
 const
 PRUint32
 aAttrLen
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 )
@@ -737,7 +737,7 @@ aAttrLen
 const
 PRUint32
 aLineNumber
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 )
@@ -905,7 +905,7 @@ aName
 nsresult
 CreateElement
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsXULPrototypeElement

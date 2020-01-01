@@ -507,6 +507,13 @@ h
 #
 include
 "
+nsINodeInfo
+.
+h
+"
+#
+include
+"
 nsContentCreatorFunctions
 .
 h
@@ -717,9 +724,9 @@ GetDocument
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

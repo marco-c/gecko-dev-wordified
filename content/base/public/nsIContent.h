@@ -675,7 +675,7 @@ nsIContent
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -690,7 +690,7 @@ NS_ASSERTION
 mNodeInfo
 "
 No
-nsNodeInfo
+nsINodeInfo
 passed
 to
 nsIContent
@@ -2126,7 +2126,7 @@ node
 info
 *
 /
-nsNodeInfo
+nsINodeInfo
 *
 NodeInfo
 (
@@ -2414,7 +2414,7 @@ nsnull
 virtual
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 GetExistingAttrNameFromQName
 (

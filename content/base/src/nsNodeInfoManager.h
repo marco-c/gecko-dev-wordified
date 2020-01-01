@@ -479,6 +479,9 @@ class
 nsIDocument
 ;
 class
+nsINodeInfo
+;
+class
 nsNodeInfo
 ;
 class
@@ -602,7 +605,7 @@ strings
 /
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 GetNodeInfo
 (
@@ -637,7 +640,7 @@ PRInt32
 aNamespaceID
 PRUint16
 aNodeType
-nsNodeInfo
+nsINodeInfo
 *
 *
 aNodeInfo
@@ -659,7 +662,7 @@ nsAString
 aNamespaceURI
 PRUint16
 aNodeType
-nsNodeInfo
+nsINodeInfo
 *
 *
 aNodeInfo
@@ -686,7 +689,7 @@ OOM
 /
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 GetTextNodeInfo
 (
@@ -713,7 +716,7 @@ OOM
 /
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 GetCommentNodeInfo
 (
@@ -741,7 +744,7 @@ OOM
 /
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 GetDocumentNodeInfo
 (
@@ -998,7 +1001,7 @@ Init
 (
 )
 succeeds
-nsNodeInfo
+nsINodeInfo
 *
 mTextNodeInfo
 ;
@@ -1009,7 +1012,7 @@ to
 avoid
 circular
 ownership
-nsNodeInfo
+nsINodeInfo
 *
 mCommentNodeInfo
 ;
@@ -1020,7 +1023,7 @@ to
 avoid
 circular
 ownership
-nsNodeInfo
+nsINodeInfo
 *
 mDocumentNodeInfo
 ;

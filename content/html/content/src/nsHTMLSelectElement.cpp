@@ -1083,7 +1083,7 @@ nsHTMLSelectElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser
@@ -4332,9 +4332,9 @@ this
 for
 backwards
 compatibility
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

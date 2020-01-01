@@ -2409,7 +2409,7 @@ GetNextSibling
 )
 )
 {
-nsNodeInfo
+nsINodeInfo
 *
 ni
 =

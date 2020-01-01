@@ -617,6 +617,13 @@ h
 #
 include
 "
+nsINodeInfo
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

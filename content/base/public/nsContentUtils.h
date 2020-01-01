@@ -579,7 +579,7 @@ h
 #
 include
 "
-nsNodeInfo
+nsINodeInfo
 .
 h
 "
@@ -3682,7 +3682,7 @@ nsNodeInfoManager
 aNodeInfoManager
 PRUint16
 aNodeType
-nsNodeInfo
+nsINodeInfo
 *
 *
 aNodeInfo
@@ -4520,13 +4520,13 @@ static
 nsresult
 NameChanged
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsIAtom
 *
 aName
-nsNodeInfo
+nsINodeInfo
 *
 *
 aResult

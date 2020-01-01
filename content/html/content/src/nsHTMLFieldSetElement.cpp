@@ -489,7 +489,7 @@ nsHTMLFieldSetElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

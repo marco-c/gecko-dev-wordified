@@ -723,7 +723,7 @@ content
 *
 iter
 ;
-nsNodeInfo
+nsINodeInfo
 *
 ni
 =

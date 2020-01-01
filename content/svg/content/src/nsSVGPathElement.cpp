@@ -762,7 +762,7 @@ nsSVGPathElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
