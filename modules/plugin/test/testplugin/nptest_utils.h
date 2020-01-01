@@ -337,9 +337,12 @@ variant
 PRUint32
 parseHexColor
 (
+const
 char
 *
 color
+int
+len
 )
 ;
 #
