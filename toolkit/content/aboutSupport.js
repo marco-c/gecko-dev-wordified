@@ -691,6 +691,10 @@ privacy
 security
 .
 "
+"
+webgl
+.
+"
 ]
 ;
 /
