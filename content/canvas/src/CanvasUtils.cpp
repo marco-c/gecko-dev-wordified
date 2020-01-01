@@ -405,7 +405,10 @@ SetWriteOnly
 bool
 CoerceDouble
 (
-jsval
+JS
+:
+:
+Value
 v
 double
 *

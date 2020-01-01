@@ -5849,7 +5849,10 @@ ErrorResult
 error
 )
 {
-jsval
+JS
+:
+:
+Value
 elts
 [
 ]
@@ -6045,7 +6048,10 @@ i
 i
 )
 {
-jsval
+JS
+:
+:
+Value
 elt
 ;
 double

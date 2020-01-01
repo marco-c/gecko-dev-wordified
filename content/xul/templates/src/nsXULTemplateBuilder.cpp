@@ -8253,7 +8253,10 @@ ar
 jscontext
 )
 ;
-jsval
+JS
+:
+:
+Value
 v
 ;
 nsCOMPtr
@@ -8304,7 +8307,10 @@ mDB
 /
 /
 database
-jsval
+JS
+:
+:
+Value
 jsdatabase
 ;
 rv
@@ -8377,7 +8383,10 @@ NS_ERROR_FAILURE
 /
 /
 builder
-jsval
+JS
+:
+:
+Value
 jsbuilder
 ;
 nsCOMPtr
