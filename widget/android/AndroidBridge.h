@@ -874,7 +874,7 @@ displayPort
 )
 ;
 bool
-ShouldAbortProgressiveUpdate
+ProgressiveUpdateCallback
 (
 bool
 aHasPendingNewThebesContent
@@ -887,6 +887,18 @@ Rect
 aDisplayPort
 float
 aDisplayResolution
+gfx
+:
+:
+Rect
+&
+aViewport
+float
+&
+aScaleX
+float
+&
+aScaleY
 )
 ;
 static
