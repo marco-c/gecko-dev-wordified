@@ -4037,6 +4037,10 @@ pn
 JSTreeContext
 *
 tc
+bool
+inCond
+=
+false
 )
 ;
 #
