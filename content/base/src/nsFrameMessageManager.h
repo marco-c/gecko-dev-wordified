@@ -973,11 +973,6 @@ nsString
 >
 *
 aJSONRetVal
-JSContext
-*
-aContext
-=
-nullptr
 )
 ;
 void
