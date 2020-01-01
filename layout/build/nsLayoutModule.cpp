@@ -3616,7 +3616,7 @@ NS_GEOLOCATION_CID
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsGeolocation
+Geolocation
 Init
 )
 #
@@ -5979,7 +5979,7 @@ nsGeolocationServiceConstructor
 kNS_GEOLOCATION_CID
 false
 NULL
-nsGeolocationConstructor
+GeolocationConstructor
 }
 {
 &

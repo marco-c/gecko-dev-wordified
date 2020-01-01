@@ -5953,7 +5953,7 @@ NS_ERROR_FAILURE
 mGeolocation
 =
 new
-nsGeolocation
+Geolocation
 (
 )
 ;
@@ -10255,7 +10255,7 @@ SizeOfIncludingThis
 (
 )
 to
-nsGeolocation
+Geolocation
 bug
 674115
 .

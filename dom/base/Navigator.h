@@ -265,7 +265,7 @@ namespace
 dom
 {
 class
-nsGeolocation
+Geolocation
 ;
 }
 }
@@ -846,7 +846,7 @@ mPlugins
 ;
 nsRefPtr
 <
-nsGeolocation
+Geolocation
 >
 mGeolocation
 ;

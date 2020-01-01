@@ -913,7 +913,7 @@ aCachePosition
 nsGeolocationRequest
 *
 aRequest
-nsGeolocation
+Geolocation
 *
 aLocator
 )
@@ -987,7 +987,7 @@ mRequest
 ;
 nsRefPtr
 <
-nsGeolocation
+Geolocation
 >
 mLocator
 ;
@@ -1189,7 +1189,7 @@ PositionError
 :
 PositionError
 (
-nsGeolocation
+Geolocation
 *
 aParent
 int16_t
@@ -1246,7 +1246,7 @@ return
 NS_OK
 ;
 }
-nsGeolocation
+Geolocation
 *
 PositionError
 :
@@ -1559,7 +1559,7 @@ nsGeolocationRequest
 :
 nsGeolocationRequest
 (
-nsGeolocation
+Geolocation
 *
 aLocator
 const
@@ -5782,7 +5782,7 @@ nsGeolocationService
 :
 AddLocator
 (
-nsGeolocation
+Geolocation
 *
 aLocator
 )
@@ -5801,7 +5801,7 @@ nsGeolocationService
 :
 RemoveLocator
 (
-nsGeolocation
+Geolocation
 *
 aLocator
 )
@@ -5868,7 +5868,7 @@ aLocator
 /
 /
 /
-nsGeolocation
+Geolocation
 /
 /
 /
@@ -5924,11 +5924,11 @@ nsGeolocation
 DOMCI_DATA
 (
 GeoGeolocation
-nsGeolocation
+Geolocation
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-nsGeolocation
+Geolocation
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
@@ -5947,15 +5947,15 @@ GeoGeolocation
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-nsGeolocation
+Geolocation
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-nsGeolocation
+Geolocation
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
-nsGeolocation
+Geolocation
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -5982,7 +5982,7 @@ mWatchingCallbacks
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
-nsGeolocation
+Geolocation
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -6031,12 +6031,12 @@ mWatchingCallbacks
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
 (
-nsGeolocation
+Geolocation
 )
-nsGeolocation
+Geolocation
 :
 :
-nsGeolocation
+Geolocation
 (
 )
 :
@@ -6050,11 +6050,11 @@ SetIsDOMBinding
 )
 ;
 }
-nsGeolocation
+Geolocation
 :
 :
 ~
-nsGeolocation
+Geolocation
 (
 )
 {
@@ -6070,7 +6070,7 @@ Shutdown
 }
 }
 nsresult
-nsGeolocation
+Geolocation
 :
 :
 Init
@@ -6252,7 +6252,7 @@ NS_OK
 ;
 }
 void
-nsGeolocation
+Geolocation
 :
 :
 Shutdown
@@ -6361,7 +6361,7 @@ nullptr
 }
 nsIDOMWindow
 *
-nsGeolocation
+Geolocation
 :
 :
 GetParentObject
@@ -6389,7 +6389,7 @@ get
 ;
 }
 bool
-nsGeolocation
+Geolocation
 :
 :
 HasActiveCallbacks
@@ -6446,7 +6446,7 @@ Length
 ;
 }
 bool
-nsGeolocation
+Geolocation
 :
 :
 HighAccuracyRequested
@@ -6556,7 +6556,7 @@ false
 ;
 }
 void
-nsGeolocation
+Geolocation
 :
 :
 RemoveRequest
@@ -6645,7 +6645,7 @@ MarkCleared
 ;
 }
 void
-nsGeolocation
+Geolocation
 :
 :
 Update
@@ -6761,7 +6761,7 @@ aIsBetter
 }
 }
 void
-nsGeolocation
+Geolocation
 :
 :
 SetCachedPosition
@@ -6778,7 +6778,7 @@ aPosition
 }
 Position
 *
-nsGeolocation
+Geolocation
 :
 :
 GetCachedPosition
@@ -6790,7 +6790,7 @@ mCachedPosition
 ;
 }
 void
-nsGeolocation
+Geolocation
 :
 :
 GetCurrentPosition
@@ -6856,7 +6856,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsGeolocation
+Geolocation
 :
 :
 GetCurrentPosition
@@ -6905,7 +6905,7 @@ aOptions
 ;
 }
 nsresult
-nsGeolocation
+Geolocation
 :
 :
 GetCurrentPosition
@@ -7047,7 +7047,7 @@ request
 ;
 }
 nsresult
-nsGeolocation
+Geolocation
 :
 :
 GetCurrentPositionReady
@@ -7117,7 +7117,7 @@ NS_OK
 ;
 }
 int32_t
-nsGeolocation
+Geolocation
 :
 :
 WatchPosition
@@ -7189,7 +7189,7 @@ ret
 ;
 }
 NS_IMETHODIMP
-nsGeolocation
+Geolocation
 :
 :
 WatchPosition
@@ -7242,7 +7242,7 @@ aRv
 ;
 }
 nsresult
-nsGeolocation
+Geolocation
 :
 :
 WatchPosition
@@ -7420,7 +7420,7 @@ request
 ;
 }
 nsresult
-nsGeolocation
+Geolocation
 :
 :
 WatchPositionReady
@@ -7477,7 +7477,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGeolocation
+Geolocation
 :
 :
 ClearWatch
@@ -7555,7 +7555,7 @@ NS_OK
 ;
 }
 void
-nsGeolocation
+Geolocation
 :
 :
 ServiceReady
@@ -7639,7 +7639,7 @@ RemoveElementAt
 }
 }
 bool
-nsGeolocation
+Geolocation
 :
 :
 WindowOwnerStillExists
@@ -7654,7 +7654,7 @@ was
 never
 set
 when
-nsGeolocation
+Geolocation
 /
 /
 was
@@ -7762,7 +7762,7 @@ true
 ;
 }
 bool
-nsGeolocation
+Geolocation
 :
 :
 RegisterRequestWithPrompt
@@ -8001,7 +8001,7 @@ true
 }
 JSObject
 *
-nsGeolocation
+Geolocation
 :
 :
 WrapObject
