@@ -170,12 +170,6 @@ viewport
 ;
 public
 void
-notifyLayerClientOfGeometryChange
-(
-)
-;
-public
-void
 setForceRedraw
 (
 )
