@@ -551,6 +551,7 @@ this
 mNeedsRestart
 =
 false
+;
 /
 /
 arguments
