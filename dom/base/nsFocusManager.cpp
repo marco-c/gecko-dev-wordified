@@ -499,14 +499,10 @@ mozilla
 :
 widget
 ;
-/
-/
 #
 define
 DEBUG_FOCUS
 1
-/
-/
 #
 define
 DEBUG_FOCUS_NAVIGATION
