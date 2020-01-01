@@ -438,8 +438,6 @@ org
 svg
 )
 ;
-svg
-{
 /
 *
 XXX
@@ -455,6 +453,7 @@ applying
 xbl
 binding
 to
+*
 either
 '
 svg
@@ -471,15 +470,6 @@ root
 '
 *
 /
-font
--
-family
-:
-sans
--
-serif
-;
-}
 style
 script
 symbol
