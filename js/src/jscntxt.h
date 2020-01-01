@@ -10761,10 +10761,7 @@ taken
 .
 *
 /
-JS_FRIEND_API
-(
 void
-)
 TriggerOperationCallback
 (
 JSContext
