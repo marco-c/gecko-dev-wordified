@@ -873,6 +873,13 @@ nsIContent
 h
 "
 #
+include
+"
+nsFrameMessageManager
+.
+h
+"
+#
 define
 DEFAULT_HOME_PAGE
 "
@@ -5101,6 +5108,12 @@ nsCOMPtr
 nsIBrowserDOMWindow
 >
 mBrowserDOMWindow
+;
+nsCOMPtr
+<
+nsIChromeFrameMessageManager
+>
+mMessageManager
 ;
 }
 ;
