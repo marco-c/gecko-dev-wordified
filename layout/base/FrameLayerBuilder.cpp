@@ -737,8 +737,9 @@ nsIFrame
 4
 >
 copy
-=
+(
 mFrameList
+)
 ;
 if
 (
