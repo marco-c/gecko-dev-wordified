@@ -12545,10 +12545,15 @@ receiveMessage
 aMessage
 )
 {
-if
-(
+let
+json
+=
 aMessage
 .
+json
+;
+if
+(
 json
 .
 messageId
@@ -12589,8 +12594,6 @@ aMessage
 name
 json
 :
-aMessage
-.
 json
 target
 :
@@ -12659,7 +12662,9 @@ this
 .
 contentMightCaptureMouse
 =
-true
+json
+.
+contentMightCaptureMouse
 ;
 if
 (
@@ -12684,8 +12689,6 @@ null
 }
 if
 (
-aMessage
-.
 json
 .
 click
@@ -12710,8 +12713,6 @@ customDragger
 .
 contentMouseCapture
 =
-aMessage
-.
 json
 .
 panning
@@ -12731,8 +12732,6 @@ ContentTouchHandler
 .
 contentMightCaptureMouse
 =
-aMessage
-.
 json
 .
 contentMightCaptureMouse
@@ -13453,6 +13452,12 @@ aX
 aY
 )
 {
+if
+(
+this
+.
+contentMightCaptureMouse
+)
 this
 .
 _dispatchMouseEvent
