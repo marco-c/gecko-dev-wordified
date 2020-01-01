@@ -8250,11 +8250,10 @@ js_NewWithObject
 (
 cx
 scopeobj
-scopeobj
--
->
-getParent
+JS_GetGlobalForObject
 (
+cx
+scopeobj
 )
 0
 )
