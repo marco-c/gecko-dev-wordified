@@ -1488,13 +1488,6 @@ object
 ;
 masm
 .
-Push
-(
-slotsReg
-)
-;
-masm
-.
 loadPtr
 (
 Address
@@ -1543,13 +1536,6 @@ value
 (
 )
 addr
-)
-;
-masm
-.
-Pop
-(
-slotsReg
 )
 ;
 }
