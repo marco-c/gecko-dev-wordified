@@ -3203,10 +3203,6 @@ cx
 (
 cx
 )
-statics
-(
-cx
-)
 tvr
 (
 cx
