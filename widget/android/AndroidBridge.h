@@ -2280,6 +2280,16 @@ ScheduleComposite
 )
 ;
 void
+SchedulePauseComposition
+(
+)
+;
+void
+ScheduleResumeComposition
+(
+)
+;
+void
 SetViewTransformGetter
 (
 AndroidViewTransformGetter
