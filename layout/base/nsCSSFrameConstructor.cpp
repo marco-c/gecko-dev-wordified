@@ -23158,6 +23158,11 @@ NS_NewTextControlFrame
 )
 SIMPLE_INT_CREATE
 (
+NS_FORM_INPUT_URL
+NS_NewTextControlFrame
+)
+SIMPLE_INT_CREATE
+(
 NS_FORM_INPUT_PASSWORD
 NS_NewTextControlFrame
 )
