@@ -505,7 +505,7 @@ re
 not
 subclassed
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

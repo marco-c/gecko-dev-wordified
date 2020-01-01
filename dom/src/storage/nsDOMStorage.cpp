@@ -2950,7 +2950,7 @@ NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 StorageObsolete
 )
 NS_INTERFACE_MAP_END
-NS_IMETHODIMP
+nsresult
 NS_NewDOMStorage
 (
 nsISupports
@@ -2992,7 +2992,7 @@ aResult
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 NS_NewDOMStorage2
 (
 nsISupports

@@ -517,7 +517,7 @@ for
 the
 nsPipe
 class
-NS_METHOD
+nsresult
 NS_HIDDEN
 nsPipeConstructor
 (

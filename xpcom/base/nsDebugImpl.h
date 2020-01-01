@@ -410,7 +410,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDEBUG
 NS_DECL_NSIDEBUG2
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

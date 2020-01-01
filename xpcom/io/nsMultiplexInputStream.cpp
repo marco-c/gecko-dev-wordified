@@ -2180,7 +2180,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_METHOD
+nsresult
 nsMultiplexInputStreamConstructor
 (
 nsISupports

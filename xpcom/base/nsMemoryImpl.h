@@ -557,7 +557,7 @@ return
 }
 NS_DECL_NSIMEMORY
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

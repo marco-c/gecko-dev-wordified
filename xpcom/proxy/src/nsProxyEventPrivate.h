@@ -1739,7 +1739,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPROXYOBJECTMANAGER
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

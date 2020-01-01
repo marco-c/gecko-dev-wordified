@@ -2224,7 +2224,7 @@ _InstanceClass
 )
 \
 static
-NS_METHOD
+nsresult
 \
 _InstanceClass
 #
@@ -2341,7 +2341,7 @@ _InitMethod
 )
 \
 static
-NS_METHOD
+nsresult
 \
 _InstanceClass
 #

@@ -450,7 +450,7 @@ void
 ;
 NS_DECL_ISUPPORTS
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

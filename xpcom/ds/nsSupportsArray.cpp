@@ -1552,7 +1552,7 @@ return
 PR_TRUE
 ;
 }
-NS_METHOD
+nsresult
 nsSupportsArray
 :
 :

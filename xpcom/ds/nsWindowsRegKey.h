@@ -739,7 +739,7 @@ NS_WINDOWSREGKEY_CID
 }
 }
 extern
-NS_METHOD
+nsresult
 nsWindowsRegKeyConstructor
 (
 nsISupports

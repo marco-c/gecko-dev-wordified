@@ -1062,7 +1062,7 @@ gInstance
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsProxyObjectManager
 :
 :

@@ -511,13 +511,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsIJSContextStack
 .
 h

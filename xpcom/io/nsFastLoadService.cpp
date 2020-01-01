@@ -635,7 +635,7 @@ mLock
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFastLoadService
 :
 :

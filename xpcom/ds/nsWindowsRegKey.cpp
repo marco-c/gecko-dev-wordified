@@ -915,7 +915,7 @@ child
 Open
 (
 (
-uintptr_t
+PRUint32
 )
 mKey
 path
@@ -996,7 +996,7 @@ child
 Create
 (
 (
-uintptr_t
+PRUint32
 )
 mKey
 path
@@ -2909,7 +2909,7 @@ NS_OK
 -
 -
 -
-NS_METHOD
+nsresult
 nsWindowsRegKeyConstructor
 (
 nsISupports
