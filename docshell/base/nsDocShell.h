@@ -5267,6 +5267,9 @@ mAllowKeywordFixup
 PRPackedBool
 mIsOffScreenBrowser
 ;
+PRPackedBool
+mIsActive
+;
 /
 /
 This
