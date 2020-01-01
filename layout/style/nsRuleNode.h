@@ -4846,6 +4846,8 @@ nsStyleContext
 aStyleContext
 PRUint32
 ruleTypeMask
+PRBool
+aAuthorColorsAllowed
 )
 ;
 /
