@@ -1364,10 +1364,14 @@ intrinsicstate
 =
 [
 %
-08x
+11x
 ]
 "
 IntrinsicState
+(
+)
+.
+GetInternalValue
 (
 )
 )
