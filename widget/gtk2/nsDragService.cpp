@@ -1491,9 +1491,6 @@ sGrabWidget
 )
 return
 ;
-GdkModifierType
-state
-;
 if
 (
 event
