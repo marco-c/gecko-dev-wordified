@@ -865,7 +865,7 @@ zoomToPage
 )
 ;
 }
-1000
+2000
 this
 )
 ;
