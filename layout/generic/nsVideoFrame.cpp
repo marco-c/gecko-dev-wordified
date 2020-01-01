@@ -3486,7 +3486,7 @@ imgsize
 if
 (
 !
-HasVideoData
+HasVideoElement
 (
 )
 )
