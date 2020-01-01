@@ -838,13 +838,6 @@ MOZILLA_DOMSVGMATRIX_H__
 #
 include
 "
-nsIDOMSVGMatrix
-.
-h
-"
-#
-include
-"
 DOMSVGTransform
 .
 h
@@ -867,6 +860,13 @@ h
 include
 "
 nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
+nsIDOMSVGMatrix
 .
 h
 "

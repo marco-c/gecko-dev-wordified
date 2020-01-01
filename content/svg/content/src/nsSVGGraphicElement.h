@@ -449,7 +449,7 @@ __NS_SVGGRAPHICELEMENT_H__
 #
 include
 "
-nsSVGStylableElement
+gfxMatrix
 .
 h
 "
@@ -470,14 +470,14 @@ h
 #
 include
 "
-SVGAnimatedTransformList
+nsSVGStylableElement
 .
 h
 "
 #
 include
 "
-gfxMatrix
+SVGAnimatedTransformList
 .
 h
 "

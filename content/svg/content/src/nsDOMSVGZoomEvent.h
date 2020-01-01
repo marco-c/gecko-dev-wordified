@@ -445,7 +445,7 @@ __NS_SVGZOOMEVENT_H__
 #
 include
 "
-nsIDOMSVGZoomEvent
+nsAutoPtr
 .
 h
 "
@@ -459,10 +459,16 @@ h
 #
 include
 "
-nsIDOMSVGSVGElement
+nsIDOMSVGZoomEvent
 .
 h
 "
+class
+nsGUIEvent
+;
+class
+nsPresContext
+;
 namespace
 mozilla
 {

@@ -442,14 +442,14 @@ h
 #
 include
 "
-SVGAnimatedNumberList
+SVGAnimatedLengthList
 .
 h
 "
 #
 include
 "
-SVGAnimatedLengthList
+SVGAnimatedNumberList
 .
 h
 "

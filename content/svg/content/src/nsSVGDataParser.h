@@ -429,10 +429,13 @@ __NS_SVGDATAPARSER_H__
 #
 include
 "
-nsCOMPtr
+nsError
 .
 h
 "
+class
+nsAString
+;
 /
 /
 -

@@ -429,6 +429,13 @@ __NS_SVGSTRING_H__
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsIDOMSVGAnimatedString
 .
 h
@@ -437,13 +444,6 @@ h
 include
 "
 nsSVGElement
-.
-h
-"
-#
-include
-"
-nsDOMError
 .
 h
 "

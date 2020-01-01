@@ -429,13 +429,6 @@ MOZILLA_DOMSVGPATHSEG_H__
 #
 include
 "
-nsIDOMSVGPathSeg
-.
-h
-"
-#
-include
-"
 DOMSVGPathSegList
 .
 h
@@ -443,7 +436,7 @@ h
 #
 include
 "
-SVGPathSegUtils
+nsAutoPtr
 .
 h
 "
@@ -457,7 +450,7 @@ h
 #
 include
 "
-nsAutoPtr
+nsIDOMSVGPathSeg
 .
 h
 "

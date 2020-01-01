@@ -464,6 +464,13 @@ h
 #
 include
 "
+nsDebug
+.
+h
+"
+#
+include
+"
 nsIDOMSVGTransform
 .
 h

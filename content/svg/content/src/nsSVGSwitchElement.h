@@ -443,7 +443,7 @@ __NS_SVGSWITCHELEMENT_H__
 #
 include
 "
-nsSVGGraphicElement
+DOMSVGTests
 .
 h
 "
@@ -457,7 +457,7 @@ h
 #
 include
 "
-DOMSVGTests
+nsSVGGraphicElement
 .
 h
 "

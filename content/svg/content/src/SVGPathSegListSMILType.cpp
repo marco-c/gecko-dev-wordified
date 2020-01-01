@@ -438,6 +438,13 @@ h
 #
 include
 "
+SVGPathSegUtils
+.
+h
+"
+#
+include
+"
 SVGPathData
 .
 h
