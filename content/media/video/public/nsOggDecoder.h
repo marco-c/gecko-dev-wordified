@@ -2581,12 +2581,6 @@ Pause
 )
 ;
 virtual
-float
-GetVolume
-(
-)
-;
-virtual
 void
 SetVolume
 (
