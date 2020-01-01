@@ -5764,6 +5764,9 @@ bugs
 bool
 gcStrictCompartmentChecking
 ;
+#
+ifdef
+DEBUG
 /
 *
 *
@@ -5816,6 +5819,13 @@ creation
 uintptr_t
 gcDisableStrictProxyCheckingCount
 ;
+#
+else
+uintptr_t
+unused1
+;
+#
+endif
 /
 *
 *

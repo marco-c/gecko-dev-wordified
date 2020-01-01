@@ -5520,6 +5520,15 @@ compartment
 (
 )
 ;
+AutoDisableProxyCheck
+adpc
+(
+cx
+-
+>
+runtime
+)
+;
 /
 /
 If
