@@ -1555,7 +1555,7 @@ dismissTabs
 ;
 ContextUI
 .
-dismissAppbar
+dismissContextAppbar
 (
 )
 ;
