@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsIDOMCSS2Properties
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

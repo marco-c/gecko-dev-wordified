@@ -591,10 +591,6 @@ CSSStyleSheet
 )
 DOMCI_CLASS
 (
-CSSStyleDeclaration
-)
-DOMCI_CLASS
-(
 ROCSSPrimitiveValue
 )
 /
@@ -1588,10 +1584,6 @@ CSS
 DOMCI_CLASS
 (
 CSSFontFaceRule
-)
-DOMCI_CLASS
-(
-CSSFontFaceStyleDecl
 )
 #
 if
