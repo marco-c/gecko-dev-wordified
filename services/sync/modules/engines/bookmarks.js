@@ -1533,8 +1533,6 @@ this
 .
 _getItemIdForGUID
 (
-record
-.
 id
 )
 >
