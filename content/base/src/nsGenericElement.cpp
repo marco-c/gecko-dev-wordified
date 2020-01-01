@@ -8823,7 +8823,7 @@ xpc
 dom
 :
 :
-NodeList
+NodeListBase
 :
 :
 create
