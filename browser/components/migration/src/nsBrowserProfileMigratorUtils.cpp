@@ -1725,6 +1725,8 @@ rv
 nsString
 sourceName
 ;
+rv
+=
 bundle
 -
 >
@@ -1735,6 +1737,12 @@ getter_Copies
 (
 sourceName
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 const
@@ -1755,6 +1763,8 @@ get
 nsString
 importedBookmarksTitle
 ;
+rv
+=
 bundle
 -
 >
@@ -1776,6 +1786,12 @@ getter_Copies
 (
 importedBookmarksTitle
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 /
@@ -1851,8 +1867,10 @@ NS_ConvertUTF16toUTF8
 (
 importedBookmarksTitle
 )
--
-1
+nsINavBookmarksService
+:
+:
+DEFAULT_INDEX
 &
 folder
 )
