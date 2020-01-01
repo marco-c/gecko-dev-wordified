@@ -462,6 +462,13 @@ h
 #
 include
 "
+Image
+.
+h
+"
+#
+include
+"
 ImageLogging
 .
 h
