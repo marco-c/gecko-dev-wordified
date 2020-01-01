@@ -448,7 +448,6 @@ silent
 ]
 get
 length
-getLength
 (
 )
 {
