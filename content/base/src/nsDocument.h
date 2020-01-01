@@ -633,13 +633,6 @@ h
 #
 include
 "
-nsIDOM3DocumentEvent
-.
-h
-"
-#
-include
-"
 nsHashtable
 .
 h
@@ -2843,8 +2836,6 @@ nsIDOMDocument
 public
 nsIDOMNSDocument
 public
-nsIDOM3DocumentEvent
-public
 nsIDOMNSDocumentStyle
 public
 nsIDOMDocumentXBL
@@ -4513,10 +4504,6 @@ NS_DECL_NSIDOMXMLDOCUMENT
 /
 nsIDOMNSDocument
 NS_DECL_NSIDOMNSDOCUMENT
-/
-/
-nsIDOM3DocumentEvent
-NS_DECL_NSIDOM3DOCUMENTEVENT
 /
 /
 nsIDOMDocumentStyle
