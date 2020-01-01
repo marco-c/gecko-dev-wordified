@@ -326,14 +326,14 @@ element
 *
 /
 class
-XULDeckAccessible
+XULTabpanelsAccessible
 :
 public
 AccessibleWrap
 {
 public
 :
-XULDeckAccessible
+XULTabpanelsAccessible
 (
 nsIContent
 *
@@ -351,7 +351,7 @@ aDoc
 {
 mType
 =
-eXULDeckType
+eXULTabpanelsType
 ;
 }
 /

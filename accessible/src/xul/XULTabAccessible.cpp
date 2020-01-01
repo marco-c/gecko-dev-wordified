@@ -1284,7 +1284,7 @@ eNameOK
 /
 /
 /
-XULDeckAccessible
+XULTabpanelsAccessible
 /
 /
 /
@@ -1366,7 +1366,7 @@ XULDeckAccessible
 /
 /
 role
-XULDeckAccessible
+XULTabpanelsAccessible
 :
 :
 NativeRole

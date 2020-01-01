@@ -3115,7 +3115,7 @@ AsTextLeaf
 )
 ;
 bool
-IsXULDeck
+IsXULTabpanels
 (
 )
 const
@@ -3124,7 +3124,7 @@ return
 mType
 =
 =
-eXULDeckType
+eXULTabpanelsType
 ;
 }
 bool

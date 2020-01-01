@@ -214,7 +214,7 @@ eImageMapType
 eMenuPopupType
 eProgressType
 eRootType
-eXULDeckType
+eXULTabpanelsType
 eXULTreeType
 eLastAccType
 =
