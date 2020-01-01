@@ -253,6 +253,15 @@ TOutputGLSL
 outputGLSL
 (
 sink
+getHashFunction
+(
+)
+getNameMap
+(
+)
+getSymbolTable
+(
+)
 )
 ;
 root

@@ -57,8 +57,6 @@ compiler
 /
 preprocessor
 /
-new
-/
 Diagnostics
 .
 h

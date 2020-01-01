@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2010
+2012
 The
 ANGLE
 Project
@@ -114,6 +114,10 @@ currentTLS
 =
 TLS_OUT_OF_INDEXES
 ;
+extern
+"
+C
+"
 BOOL
 WINAPI
 DllMain

@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2010
+2012
 The
 ANGLE
 Project
@@ -85,8 +85,6 @@ include
 compiler
 /
 preprocessor
-/
-new
 /
 Preprocessor
 .
@@ -858,6 +856,8 @@ identifier
 TPublicType
 &
 type
+bool
+array
 )
 ;
 bool

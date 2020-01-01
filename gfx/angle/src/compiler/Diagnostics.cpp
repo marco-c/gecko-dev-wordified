@@ -58,7 +58,7 @@ include
 "
 compiler
 /
-compilerdebug
+compiler_debug
 .
 h
 "
@@ -77,8 +77,6 @@ include
 compiler
 /
 preprocessor
-/
-new
 /
 SourceLocation
 .

@@ -756,10 +756,12 @@ i
 return
 false
 ;
-}
+default
+:
 return
 true
 ;
+}
 }
 bool
 UnfoldShortCircuit

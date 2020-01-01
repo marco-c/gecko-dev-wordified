@@ -87,6 +87,10 @@ currentTLS
 =
 TLS_OUT_OF_INDEXES
 ;
+extern
+"
+C
+"
 BOOL
 WINAPI
 DllMain
