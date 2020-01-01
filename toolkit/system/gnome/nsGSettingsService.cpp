@@ -601,6 +601,11 @@ g
 "
 )
 #
+endif
+#
+ifndef
+G_VARIANT_TYPE_STRING_ARRAY
+#
 define
 G_VARIANT_TYPE_STRING_ARRAY
 (
