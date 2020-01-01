@@ -2467,14 +2467,10 @@ meta
 uri
 )
 ;
-yield
 res
 .
 put
 (
-self
-.
-cb
 meta
 .
 serialize
