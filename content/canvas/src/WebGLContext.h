@@ -1394,6 +1394,10 @@ gfxImageSurface
 *
 *
 imageOut
+bool
+flipY
+bool
+premultiplyAlpha
 )
 ;
 GLuint
