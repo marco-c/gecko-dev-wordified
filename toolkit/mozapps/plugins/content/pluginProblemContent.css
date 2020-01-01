@@ -753,11 +753,7 @@ block
 .
 installStatus
 [
-status
-=
-"
-ready
-"
+installable
 ]
 .
 msgInstallPlugin
