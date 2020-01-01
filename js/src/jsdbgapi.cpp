@@ -4103,7 +4103,7 @@ semantics
 .
 *
 /
-bool
+JSBool
 js_TraceWatchPoints
 (
 JSTracer
