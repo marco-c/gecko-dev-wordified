@@ -25517,7 +25517,9 @@ sendMessageToJava
 type
 :
 "
-DOMWindowClose
+Tab
+:
+Close
 "
 tabID
 :
