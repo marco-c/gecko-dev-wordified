@@ -1716,7 +1716,7 @@ viewportHandler
 function
 (
 bounds
-oldBounds
+boundsSizeChanged
 )
 {
 let
@@ -1952,7 +1952,8 @@ actually
 changed
 if
 (
-oldBounds
+!
+boundsSizeChanged
 )
 this
 .
@@ -2012,16 +2013,11 @@ y
 ;
 if
 (
-!
-oldBounds
+boundsSizeChanged
 )
 {
 /
 /
-no
-old
-bounds
-means
 we
 resized
 the
