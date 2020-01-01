@@ -1865,7 +1865,7 @@ global
 /
 locale
 /
-prompts
+commonDialogs
 .
 properties
 "
