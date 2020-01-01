@@ -917,6 +917,11 @@ nsPlacesModule
 #
 else
 #
+define
+PLACES_MODULES
+#
+endif
+#
 if
 (
 defined
@@ -932,7 +937,7 @@ MOZ_XUL
 )
 #
 define
-PLACES_MODULES
+MORK_MODULES
 \
 MODULE
 (
@@ -942,9 +947,7 @@ nsMorkModule
 else
 #
 define
-PLACES_MODULES
-#
-endif
+MORK_MODULES
 #
 endif
 #
@@ -1231,6 +1234,8 @@ FILEVIEW_MODULE
 STORAGE_MODULE
 \
 PLACES_MODULES
+\
+MORK_MODULES
 \
 XULENABLED_MODULES
 \
