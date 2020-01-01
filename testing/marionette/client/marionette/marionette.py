@@ -477,7 +477,7 @@ id
 )
     
 def
-displayed
+is_displayed
 (
 self
 )
