@@ -462,13 +462,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
