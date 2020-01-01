@@ -2805,15 +2805,6 @@ Error
 handling
 public
 :
-/
-/
-TODO
-:
-this
-function
-should
-be
-a
 static
 const
 char
@@ -2823,7 +2814,6 @@ GLErrorToString
 GLenum
 aError
 )
-const
 {
 switch
 (
