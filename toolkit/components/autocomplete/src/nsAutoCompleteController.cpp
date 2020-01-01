@@ -6500,6 +6500,10 @@ matchCount
 =
 0
 ;
+if
+(
+aResult
+)
 aResult
 -
 >
