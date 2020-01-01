@@ -677,7 +677,7 @@ public
 class
 LayerView
 extends
-GLSurfaceView
+FlexibleGLSurfaceView
 implements
 AbstractLayerView
 GeckoEventListener
@@ -817,11 +817,6 @@ setRenderer
 mRenderer
 )
 ;
-setRenderMode
-(
-RENDERMODE_WHEN_DIRTY
-)
-;
 mGestureDetector
 =
 new
@@ -922,6 +917,10 @@ GeckoAppShell
 sendEventToGecko
 (
 event
+)
+;
+createGLThread
+(
 )
 ;
 }
