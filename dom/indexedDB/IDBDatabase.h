@@ -844,12 +844,6 @@ nsDOMEventListenerWrapper
 >
 mOnVersionChangeListener
 ;
-nsRefPtr
-<
-nsDOMEventListenerWrapper
->
-mOnBlockedListener
-;
 }
 ;
 END_INDEXEDDB_NAMESPACE
