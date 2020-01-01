@@ -12305,7 +12305,7 @@ anyway
 .
 if
 (
-abs
+fabs
 (
 scale
 .
@@ -12317,7 +12317,7 @@ width
 8
 |
 |
-abs
+fabs
 (
 scale
 .
