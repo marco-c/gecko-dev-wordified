@@ -32453,14 +32453,7 @@ values
 .
 resize
 (
-fninfo
--
->
-mArgTypes
-.
-length
-(
-)
+argc
 )
 )
 {
