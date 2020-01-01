@@ -2388,6 +2388,10 @@ SetDOMStringToNull
 mResult
 )
 ;
+mReadTransferred
+=
+0
+;
 /
 /
 Obtain
