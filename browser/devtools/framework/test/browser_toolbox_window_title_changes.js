@@ -135,7 +135,6 @@ const
 LABEL_1
 =
 "
-Web
 Console
 "
 ;
