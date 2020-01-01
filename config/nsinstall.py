@@ -1023,8 +1023,11 @@ options
 m
 )
       
-return
-0
+sys
+.
+exit
+(
+)
     
 if
 options
