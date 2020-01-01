@@ -580,11 +580,11 @@ Release
 and
 cycle
 collection
-NS_IMPL_ADDREF
+NS_IMPL_CYCLE_COLLECTING_NATIVE_ADDREF
 (
 NotificationController
 )
-NS_IMPL_RELEASE
+NS_IMPL_CYCLE_COLLECTING_NATIVE_RELEASE
 (
 NotificationController
 )

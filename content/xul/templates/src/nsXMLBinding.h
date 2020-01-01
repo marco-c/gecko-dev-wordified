@@ -273,7 +273,7 @@ their
 /
 nsXMLBindingValues
 fields
-nsAutoRefCnt
+nsCycleCollectingAutoRefCnt
 mRefCnt
 ;
 /
@@ -295,7 +295,7 @@ mFirst
 ;
 public
 :
-NS_IMETHOD_
+NS_METHOD_
 (
 nsrefcnt
 )
@@ -303,7 +303,7 @@ AddRef
 (
 )
 ;
-NS_IMETHOD_
+NS_METHOD_
 (
 nsrefcnt
 )
