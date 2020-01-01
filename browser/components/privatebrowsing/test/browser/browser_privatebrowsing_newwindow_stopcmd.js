@@ -510,7 +510,7 @@ finished
 )
 ;
 var
-win
+notifiedWin
 =
 subject
 .
@@ -519,6 +519,16 @@ QueryInterface
 Ci
 .
 nsIDOMWindow
+)
+;
+is
+(
+win
+notifiedWin
+"
+sanity
+check
+"
 )
 ;
 let
