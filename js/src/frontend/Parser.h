@@ -2908,8 +2908,6 @@ Node
 pn
 HandleFunction
 fun
-HandlePropertyName
-funName
 FunctionType
 type
 FunctionSyntaxKind
@@ -3327,8 +3325,6 @@ Node
 pn
 HandleFunction
 fun
-HandlePropertyName
-funName
 size_t
 startOffset
 FunctionType
@@ -3581,7 +3577,8 @@ flavor
 bool
 checkStrictBinding
 (
-HandlePropertyName
+PropertyName
+*
 name
 Node
 pn
@@ -3885,8 +3882,6 @@ leaveFunction
 (
 Node
 fn
-HandlePropertyName
-funName
 ParseContext
 <
 ParseHandler
