@@ -9011,7 +9011,7 @@ this
 .
 _getZoomRectForPoint
 (
-cY
+cX
 cY
 bv
 .
