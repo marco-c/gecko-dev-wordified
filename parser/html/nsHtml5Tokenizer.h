@@ -1206,6 +1206,16 @@ pos
 )
 ;
 void
+emitPlaintextReplacementCharacter
+(
+PRUnichar
+*
+buf
+PRInt32
+pos
+)
+;
+void
 setAdditionalAndRememberAmpersandLocation
 (
 PRUnichar
