@@ -1699,7 +1699,7 @@ function
 (
 )
 {
-var
+let
 groupItem
 =
 drag
