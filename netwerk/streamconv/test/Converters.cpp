@@ -33,6 +33,11 @@ stdio
 .
 h
 >
+#
+include
+<
+algorithm
+>
 /
 /
 /
@@ -542,7 +547,10 @@ return
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 aValue
 (

@@ -171,6 +171,11 @@ prprf
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifndef
 USE_CREATE_INSTANCE
 #
@@ -544,7 +549,10 @@ count
 uint32_t
 amount
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

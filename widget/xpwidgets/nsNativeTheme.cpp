@@ -230,6 +230,11 @@ Element
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsNativeTheme
 :
 :
@@ -3038,7 +3043,10 @@ aMinimumFrameRate
 ;
 timeout
 =
-NS_MIN
+std
+:
+:
+min
 (
 mAnimatedContentTimeout
 timeout

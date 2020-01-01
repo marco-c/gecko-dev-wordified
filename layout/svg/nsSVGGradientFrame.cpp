@@ -106,6 +106,11 @@ nsSVGGradientFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 Keep
@@ -4523,7 +4528,10 @@ fractions
 double
 dMax
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 .

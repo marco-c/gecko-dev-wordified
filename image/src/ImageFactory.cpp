@@ -151,6 +151,11 @@ ImageFactory
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -954,7 +959,10 @@ len
 ;
 sizeHint
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

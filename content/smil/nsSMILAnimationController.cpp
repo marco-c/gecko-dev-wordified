@@ -167,6 +167,11 @@ nsSMILTimedElement
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -985,7 +990,10 @@ here
 .
 aTime
 =
-NS_MAX
+std
+:
+:
+max
 (
 mCurrentSampleTime
 aTime
@@ -4074,7 +4082,10 @@ resolved
 .
 sampleTime
 =
-NS_MAX
+std
+:
+:
+max
 (
 nextMilestone
 .
@@ -4204,7 +4215,10 @@ values
 nsSMILTime
 containerTime
 =
-NS_MAX
+std
+:
+:
+max
 <
 nsSMILTime
 >

@@ -378,6 +378,11 @@ nsIStringBundle
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 Microsoft
@@ -2393,7 +2398,10 @@ static_cast
 uint32_t
 >
 (
-NS_MIN
+std
+:
+:
+min
 <
 uint64_t
 >

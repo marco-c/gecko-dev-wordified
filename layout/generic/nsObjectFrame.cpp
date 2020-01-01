@@ -556,6 +556,11 @@ sampler
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 headers
@@ -3055,7 +3060,10 @@ aMetrics
 .
 height
 =
-NS_MIN
+std
+:
+:
+min
 (
 aPresContext
 -
@@ -3073,7 +3081,10 @@ aMetrics
 .
 width
 =
-NS_MIN
+std
+:
+:
+min
 (
 aPresContext
 -

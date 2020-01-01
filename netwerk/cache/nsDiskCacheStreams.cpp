@@ -160,6 +160,11 @@ TimeStamp
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 we
@@ -4080,7 +4085,10 @@ mozilla
 fallocate
 (
 mFD
-NS_MIN
+std
+:
+:
+min
 <
 int64_t
 >

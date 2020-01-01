@@ -185,6 +185,11 @@ nsIScriptError
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -595,7 +600,10 @@ l
 uint64_t
 upperBound
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint64_t
 >
@@ -809,7 +817,10 @@ blob
 length
 -
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint64_t
 >

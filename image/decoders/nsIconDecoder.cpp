@@ -133,6 +133,11 @@ nsError
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -515,7 +520,10 @@ reading
 ?
 bytesToRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 aCount
 mPixBytesTotal

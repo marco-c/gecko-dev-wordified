@@ -135,6 +135,11 @@ basictypes
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
@@ -5772,7 +5777,10 @@ scaleDiff
 .
 width
 =
-NS_MIN
+std
+:
+:
+min
 (
 1
 .
@@ -5865,7 +5873,10 @@ scaleDiff
 .
 height
 =
-NS_MIN
+std
+:
+:
+min
 (
 1
 .

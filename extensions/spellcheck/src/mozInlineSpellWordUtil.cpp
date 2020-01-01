@@ -230,6 +230,11 @@ nsIFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -2443,7 +2448,10 @@ for
 int32_t
 i
 =
-NS_MIN
+std
+:
+:
+min
 (
 aBeforeOffset
 int32_t

@@ -156,6 +156,11 @@ nsTextFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsIFrame
 *
 NS_NewMathMLTokenFrame
@@ -1188,7 +1193,10 @@ aDesiredSize
 .
 ascent
 =
-NS_MAX
+std
+:
+:
+max
 (
 mBoundingMetrics
 .
@@ -1204,7 +1212,10 @@ aDesiredSize
 .
 ascent
 +
-NS_MAX
+std
+:
+:
+max
 (
 mBoundingMetrics
 .

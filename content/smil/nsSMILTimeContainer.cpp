@@ -114,6 +114,11 @@ nsSMILTimedElement
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsSMILTimeContainer
 :
 :
@@ -650,7 +655,10 @@ to
 .
 aSeekTo
 =
-NS_MAX
+std
+:
+:
+max
 <
 nsSMILTime
 >

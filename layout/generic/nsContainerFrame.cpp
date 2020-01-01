@@ -337,6 +337,11 @@ Element
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 DEBUG
 #
@@ -5485,7 +5490,10 @@ calc
 )
 to
 0
-NS_MAX
+std
+:
+:
+max
 (
 GetCoord
 (
@@ -5821,7 +5829,10 @@ calc
 )
 to
 0
-NS_MAX
+std
+:
+:
+max
 (
 GetCoord
 (

@@ -459,6 +459,11 @@ nsRuleData
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 input
@@ -8264,7 +8269,10 @@ min
 {
 value
 =
-NS_MAX
+std
+:
+:
+max
 (
 value
 min
@@ -8300,7 +8308,10 @@ max
 {
 value
 =
-NS_MIN
+std
+:
+:
+min
 (
 value
 max

@@ -212,6 +212,11 @@ nsCRT
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
@@ -1881,7 +1886,10 @@ aIsMinimum
 {
 aValue
 =
-NS_MAX
+std
+:
+:
+max
 (
 aValue
 int32_t
@@ -6891,7 +6899,10 @@ NO_GLYPH
 {
 glyphEnd
 =
-NS_MAX
+std
+:
+:
+max
 (
 glyphEnd
 charToGlyph
@@ -7272,7 +7283,10 @@ s
 text
 endCharIndex
 =
-NS_MIN
+std
+:
+:
+min
 <
 int32_t
 >

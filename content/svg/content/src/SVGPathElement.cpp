@@ -162,6 +162,11 @@ gfxContext
 .
 h
 "
+#
+include
+<
+algorithm
+>
 DOMCI_NODE_DATA
 (
 SVGPathElement
@@ -753,7 +758,10 @@ pathLength
 }
 distance
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 .
@@ -763,7 +771,10 @@ distance
 ;
 distance
 =
-NS_MIN
+std
+:
+:
+min
 (
 totalLength
 distance

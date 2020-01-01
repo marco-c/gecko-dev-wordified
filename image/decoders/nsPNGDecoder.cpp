@@ -168,6 +168,11 @@ gfxPlatform
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -1736,7 +1741,10 @@ buffer
 uint32_t
 bytesToRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 aCount
 BYTES_NEEDED_FOR_DIMENSIONS

@@ -373,6 +373,11 @@ Preferences
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 AUTOMATIC_IMAGE_RESIZING_PREF
 "
@@ -626,7 +631,10 @@ GetRatio
 )
 {
 return
-NS_MIN
+std
+:
+:
+min
 (
 (
 float
@@ -2050,7 +2058,10 @@ image
 >
 SetWidth
 (
-NS_MAX
+std
+:
+:
+max
 (
 1
 NSToCoordFloor
@@ -2069,7 +2080,10 @@ image
 >
 SetHeight
 (
-NS_MAX
+std
+:
+:
+max
 (
 1
 NSToCoordFloor

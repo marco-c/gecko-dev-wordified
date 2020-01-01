@@ -63,6 +63,11 @@ nsViewportInfo
 .
 h
 "
+#
+include
+<
+algorithm
+>
 void
 nsViewportInfo
 :
@@ -130,7 +135,10 @@ section
 2
 mMaxZoom
 =
-NS_MAX
+std
+:
+:
+max
 (
 mMinZoom
 mMaxZoom
@@ -138,7 +146,10 @@ mMaxZoom
 ;
 mDefaultZoom
 =
-NS_MIN
+std
+:
+:
+min
 (
 mDefaultZoom
 mMaxZoom
@@ -146,7 +157,10 @@ mMaxZoom
 ;
 mDefaultZoom
 =
-NS_MAX
+std
+:
+:
+max
 (
 mDefaultZoom
 mMinZoom

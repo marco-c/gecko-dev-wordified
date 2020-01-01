@@ -368,6 +368,11 @@ nsIScriptSecurityManager
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 ACCESSIBILITY
 #
@@ -5461,7 +5466,10 @@ aMetrics
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 aMetrics
@@ -5647,7 +5655,10 @@ aMetrics
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 nsPresContext
 :

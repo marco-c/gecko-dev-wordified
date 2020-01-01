@@ -100,6 +100,11 @@ StreamBuffer
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -159,7 +164,10 @@ IsEnded
 {
 t
 =
-NS_MIN
+std
+:
+:
+min
 (
 t
 track
@@ -381,7 +389,10 @@ continue
 TrackTicks
 forgetTo
 =
-NS_MIN
+std
+:
+:
+min
 (
 track
 -

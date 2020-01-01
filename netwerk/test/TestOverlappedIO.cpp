@@ -108,6 +108,11 @@ signal
 h
 >
 #
+include
+<
+algorithm
+>
+#
 ifdef
 WIN32
 #
@@ -1128,7 +1133,10 @@ amount
 ;
 amount
 =
-NS_MIN
+std
+:
+:
+min
 (
 count
 mDataLen

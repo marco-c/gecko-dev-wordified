@@ -189,6 +189,11 @@ prlog
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 /
@@ -595,7 +600,10 @@ uint32_t
 n
 amt
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

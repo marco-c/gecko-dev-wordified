@@ -111,6 +111,11 @@ PLayers
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 *
 This
@@ -905,7 +910,10 @@ numFramesDrawnInWindow
 ;
 earliestFrameInWindow
 =
-NS_MIN
+std
+:
+:
+min
 (
 earliestFrameInWindow
 frame

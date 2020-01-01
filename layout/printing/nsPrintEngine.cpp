@@ -193,6 +193,11 @@ nsAsyncDOMEvent
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 Print
@@ -20151,7 +20156,10 @@ startRect
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 startRect
@@ -20200,7 +20208,10 @@ endRect
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 endRect

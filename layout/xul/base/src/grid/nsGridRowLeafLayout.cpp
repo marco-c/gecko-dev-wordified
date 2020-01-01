@@ -171,6 +171,11 @@ nsGridLayout2
 .
 h
 "
+#
+include
+<
+algorithm
+>
 already_AddRefed
 <
 nsBoxLayout
@@ -1172,7 +1177,10 @@ size
 here
 max
 =
-NS_MAX
+std
+:
+:
+max
 (
 min
 max

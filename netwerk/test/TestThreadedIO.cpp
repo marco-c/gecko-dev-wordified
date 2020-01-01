@@ -142,6 +142,11 @@ nsNetUtil
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 #
@@ -926,7 +931,10 @@ aStream
 Read
 (
 buffer
-NS_MIN
+std
+:
+:
+min
 (
 sizeof
 (

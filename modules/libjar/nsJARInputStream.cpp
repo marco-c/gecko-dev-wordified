@@ -154,6 +154,11 @@ nsDebug
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
@@ -1359,7 +1364,10 @@ mFd
 uint32_t
 count
 =
-NS_MIN
+std
+:
+:
+min
 (
 aCount
 mOutSize
@@ -1655,7 +1663,10 @@ mZs
 .
 avail_out
 =
-NS_MIN
+std
+:
+:
+min
 (
 aCount
 (
@@ -2332,7 +2343,10 @@ const
 uint32_t
 writeLength
 =
-NS_MIN
+std
+:
+:
+min
 (
 aCount
 mBuffer

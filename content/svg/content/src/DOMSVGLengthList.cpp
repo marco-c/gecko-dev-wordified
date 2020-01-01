@@ -153,6 +153,11 @@ SVGLengthListBinding
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 See
@@ -1289,7 +1294,10 @@ nullptr
 }
 index
 =
-NS_MIN
+std
+:
+:
+min
 (
 index
 LengthNoFlush

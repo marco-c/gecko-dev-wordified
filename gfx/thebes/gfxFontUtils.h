@@ -203,6 +203,11 @@ zlib
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 *
 Bug
@@ -816,7 +821,10 @@ aStart
 ;
 end
 =
-NS_MIN
+std
+:
+:
+min
 (
 aEnd
 (
@@ -1413,7 +1421,10 @@ const
 uint32_t
 end
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >
@@ -1740,7 +1751,10 @@ const
 uint32_t
 end
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

@@ -302,6 +302,11 @@ sampler
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -15000,7 +15005,10 @@ it
 int32_t
 width
 =
-NS_MIN
+std
+:
+:
+min
 (
 aSrcRect
 .
@@ -15017,7 +15025,10 @@ x
 int32_t
 height
 =
-NS_MIN
+std
+:
+:
+min
 (
 aSrcRect
 .
@@ -21180,7 +21191,10 @@ data
 uint32_t
 bytesToDecode
 =
-NS_MIN
+std
+:
+:
+min
 (
 aMaxBytes
 mSourceData

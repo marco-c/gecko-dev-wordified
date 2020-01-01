@@ -231,6 +231,11 @@ nsChangeHint
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 This
@@ -2911,7 +2916,10 @@ aLanguage
 )
 ;
 return
-NS_MAX
+std
+:
+:
+max
 (
 mMinFontSize
 prefs

@@ -199,6 +199,11 @@ nsIPrivateBrowsingChannel
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 !
 (
@@ -2130,7 +2135,10 @@ PR_Now
 (
 )
 +
-NS_MIN
+std
+:
+:
+min
 (
 (
 PRTime

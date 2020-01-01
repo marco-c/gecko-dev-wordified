@@ -124,6 +124,11 @@ Attributes
 .
 h
 "
+#
+include
+<
+algorithm
+>
 class
 nsDOMMultipartFile
 :
@@ -716,7 +721,10 @@ forever
 CheckedUint32
 bufferLen
 =
-NS_MAX
+std
+:
+:
+max
 <
 uint32_t
 >

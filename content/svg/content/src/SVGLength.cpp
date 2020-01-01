@@ -167,6 +167,11 @@ include
 <
 limits
 >
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -1302,7 +1307,10 @@ viewportElement
 )
 {
 return
-NS_MAX
+std
+:
+:
+max
 (
 viewportElement
 -

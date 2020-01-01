@@ -163,6 +163,11 @@ nsIFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 class
 nsLineBox
 ;
@@ -1868,7 +1873,10 @@ mHasHashedFrames
 uint32_t
 minSize
 =
-NS_MAX
+std
+:
+:
+max
 (
 kMinChildCountForHashtable
 uint32_t
@@ -1882,7 +1890,10 @@ mFrames
 >
 Init
 (
-NS_MAX
+std
+:
+:
+max
 (
 count
 minSize

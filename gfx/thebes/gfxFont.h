@@ -251,6 +251,11 @@ Attributes
 .
 h
 "
+#
+include
+<
+algorithm
+>
 typedef
 struct
 _cairo_scaled_font
@@ -817,7 +822,10 @@ sizeAdjust
 gfxFloat
 adjustedSize
 =
-NS_MAX
+std
+:
+:
+max
 (
 NS_round
 (
@@ -835,7 +843,10 @@ aspect
 )
 ;
 return
-NS_MIN
+std
+:
+:
+min
 (
 adjustedSize
 FONT_MAX_SIZE

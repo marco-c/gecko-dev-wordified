@@ -129,6 +129,11 @@ SVGRectElementBinding
 .
 h
 "
+#
+include
+<
+algorithm
+>
 DOMCI_NODE_DATA
 (
 SVGRectElement
@@ -1313,7 +1318,10 @@ return
 ;
 rx
 =
-NS_MAX
+std
+:
+:
+max
 (
 rx
 0
@@ -1323,7 +1331,10 @@ rx
 ;
 ry
 =
-NS_MAX
+std
+:
+:
+max
 (
 ry
 0

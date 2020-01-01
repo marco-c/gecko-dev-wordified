@@ -135,6 +135,11 @@ nsMathMLmspaceFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 /
@@ -614,7 +619,10 @@ mBoundingMetrics
 .
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 mWidth
@@ -734,7 +742,10 @@ mBoundingMetrics
 .
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 mWidth

@@ -166,6 +166,11 @@ nsIClassInfoImpl
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 The
@@ -761,7 +766,10 @@ const
 uint32_t
 clampedLength
 =
-NS_MIN
+std
+:
+:
+min
 (
 aLength
 MAX_BYTES_SNIFFED

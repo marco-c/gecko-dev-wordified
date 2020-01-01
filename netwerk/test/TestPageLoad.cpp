@@ -191,6 +191,11 @@ nsIComponentRegistrar
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 TestPageLoad
 {
@@ -1322,7 +1327,10 @@ count
 uint32_t
 amount
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

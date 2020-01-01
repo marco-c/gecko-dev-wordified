@@ -162,6 +162,11 @@ xpcpublic
 .
 h
 "
+#
+include
+<
+algorithm
+>
 USING_INDEXEDDB_NAMESPACE
 /
 *
@@ -2650,7 +2655,10 @@ memcpy
 &
 number
 aPos
-NS_MIN
+std
+:
+:
+min
 <
 size_t
 >

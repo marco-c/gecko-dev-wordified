@@ -178,6 +178,11 @@ nsCRT
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
@@ -290,7 +295,10 @@ avail
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 avail64
 (

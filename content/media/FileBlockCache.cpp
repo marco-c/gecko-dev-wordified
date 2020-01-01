@@ -135,6 +135,11 @@ VideoUtils
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -1508,7 +1513,10 @@ BLOCK_SIZE
 int32_t
 amount
 =
-NS_MIN
+std
+:
+:
+min
 (
 BLOCK_SIZE
 -
@@ -1891,7 +1899,10 @@ mBlockChanges
 .
 EnsureLengthAtLeast
 (
-NS_MAX
+std
+:
+:
+max
 (
 aSourceBlockIndex
 aDestBlockIndex

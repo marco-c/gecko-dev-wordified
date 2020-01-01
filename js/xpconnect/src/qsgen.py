@@ -8394,7 +8394,10 @@ argv
 append
 (
 '
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >
@@ -11011,6 +11014,11 @@ nsWrapperCacheInlines
 .
 h
 "
+#
+include
+<
+algorithm
+>
 '
 '
 '

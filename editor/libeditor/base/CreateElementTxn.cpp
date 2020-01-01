@@ -217,6 +217,11 @@ nsAString
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 DEBUG
 static
@@ -617,7 +622,10 @@ ErrorCode
 }
 mOffsetInParent
 =
-NS_MIN
+std
+:
+:
+min
 (
 mOffsetInParent
 mParent

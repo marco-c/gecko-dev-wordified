@@ -231,6 +231,11 @@ Likely
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 xpc
@@ -18123,7 +18128,10 @@ val
 .
 u8
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

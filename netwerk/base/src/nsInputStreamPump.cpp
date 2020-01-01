@@ -196,6 +196,11 @@ sampler
 .
 h
 "
+#
+include
+<
+algorithm
+>
 static
 NS_DEFINE_CID
 (
@@ -759,7 +764,10 @@ dummy
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 dummy64
 (

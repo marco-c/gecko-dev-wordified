@@ -107,6 +107,11 @@ nsHttp
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 -
@@ -539,7 +544,10 @@ mChunkRemaining
 uint32_t
 amt
 =
-NS_MIN
+std
+:
+:
+min
 (
 mChunkRemaining
 count

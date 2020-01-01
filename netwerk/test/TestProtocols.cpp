@@ -161,6 +161,11 @@ TestCommon
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 FORCE_PR_LOG
 #
@@ -3736,7 +3741,10 @@ aLength
 {
 size
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

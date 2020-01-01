@@ -265,6 +265,11 @@ gfxSkipChars
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -1321,7 +1326,10 @@ startContentOffset
 int32_t
 frameSubStringLength
 =
-NS_MIN
+std
+:
+:
+min
 (
 frameTotalTextLength
 -

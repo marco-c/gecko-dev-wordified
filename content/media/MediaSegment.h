@@ -106,6 +106,11 @@ nsTArray
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -1009,7 +1014,10 @@ IsNull
 TrackTicks
 extraToForget
 =
-NS_MIN
+std
+:
+:
+min
 (
 aDuration
 mDuration
@@ -1649,7 +1657,10 @@ i
 TrackTicks
 start
 =
-NS_MAX
+std
+:
+:
+max
 (
 aStart
 offset
@@ -1669,7 +1680,10 @@ GetDuration
 TrackTicks
 end
 =
-NS_MIN
+std
+:
+:
+min
 (
 aEnd
 nextOffset

@@ -142,6 +142,11 @@ nsMathMLmfencedFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 /
@@ -1948,7 +1953,10 @@ axis
 nscoord
 delta
 =
-NS_MAX
+std
+:
+:
+max
 (
 containerSize
 .

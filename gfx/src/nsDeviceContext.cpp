@@ -191,6 +191,11 @@ gfxImageSurface
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 !
 XP_MACOSX
@@ -1994,7 +1999,10 @@ prefDPI
 {
 dpi
 =
-NS_MAX
+std
+:
+:
+max
 (
 96
 .
@@ -2031,7 +2039,10 @@ GetDefaultScale
 ;
 mAppUnitsPerDevNotScaledPixel
 =
-NS_MAX
+std
+:
+:
+max
 (
 1
 NS_lround
@@ -4007,7 +4018,10 @@ UpdateScaledAppUnits
 {
 mAppUnitsPerDevPixel
 =
-NS_MAX
+std
+:
+:
+max
 (
 1
 NSToIntRound

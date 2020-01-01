@@ -225,6 +225,11 @@ nsStyledElement
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -6895,7 +6900,10 @@ false
 int32_t
 val
 =
-NS_MAX
+std
+:
+:
+max
 (
 originalVal
 0
@@ -7026,7 +7034,10 @@ false
 int32_t
 val
 =
-NS_MAX
+std
+:
+:
+max
 (
 originalVal
 aMin
@@ -7034,7 +7045,10 @@ aMin
 ;
 val
 =
-NS_MIN
+std
+:
+:
+min
 (
 val
 aMax

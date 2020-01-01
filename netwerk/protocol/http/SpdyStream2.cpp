@@ -184,6 +184,11 @@ nsHttpHandler
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 DEBUG
 /
@@ -5434,7 +5439,10 @@ GENERATING_REQUEST_BODY
 :
 dataLength
 =
-NS_MIN
+std
+:
+:
+min
 (
 count
 mChunkSize

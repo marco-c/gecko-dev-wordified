@@ -146,6 +146,11 @@ nsStyleStruct
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 XXX
@@ -1674,7 +1679,10 @@ length
 ;
 mRunLength
 =
-NS_MIN
+std
+:
+:
+min
 (
 length
 mRemainingLength

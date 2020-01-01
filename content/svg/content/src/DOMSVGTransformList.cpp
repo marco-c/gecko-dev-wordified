@@ -157,6 +157,11 @@ nsError
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 local
@@ -1324,7 +1329,10 @@ nullptr
 }
 index
 =
-NS_MIN
+std
+:
+:
+min
 (
 index
 LengthNoFlush

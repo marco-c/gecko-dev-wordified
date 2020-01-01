@@ -189,6 +189,11 @@ AudioChannelCommon
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -959,7 +964,10 @@ blocking
 uint32_t
 writeLen
 =
-NS_MIN
+std
+:
+:
+min
 (
 mAudioStream
 -

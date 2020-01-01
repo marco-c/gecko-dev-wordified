@@ -430,6 +430,11 @@ LookAndFeel
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -6743,7 +6748,10 @@ aSize
 ;
 }
 return
-NS_MIN
+std
+:
+:
+min
 (
 popupSize
 aScreenEnd
@@ -9013,7 +9021,10 @@ pixels
 int32_t
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 1
 nsPresContext
@@ -9030,7 +9041,10 @@ width
 int32_t
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 1
 nsPresContext

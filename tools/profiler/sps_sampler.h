@@ -155,6 +155,11 @@ nsAlgorithm
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 *
 QT
@@ -2528,7 +2533,10 @@ stackSize
 const
 {
 return
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

@@ -206,6 +206,11 @@ nsDisplayList
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 /
@@ -1691,7 +1696,10 @@ computedSize
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 computedSize

@@ -260,6 +260,11 @@ Preferences
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -4765,7 +4770,10 @@ avoids
 overflow
 age
 =
-NS_MIN
+std
+:
+:
+min
 (
 age
 86400U

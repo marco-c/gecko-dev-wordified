@@ -181,6 +181,11 @@ nsISelection
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 -
@@ -4840,7 +4845,10 @@ Length
 uint32_t
 strLth
 =
-NS_MIN
+std
+:
+:
+min
 (
 (
 int

@@ -160,6 +160,11 @@ SVGPointListBinding
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 See
@@ -1562,7 +1567,10 @@ nullptr
 }
 aIndex
 =
-NS_MIN
+std
+:
+:
+min
 (
 aIndex
 LengthNoFlush

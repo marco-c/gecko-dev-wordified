@@ -583,6 +583,11 @@ float
 double
 )
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_OGG
 #
@@ -7938,7 +7943,10 @@ spec
 double
 clampedTime
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 .
@@ -7966,7 +7974,10 @@ duration
 {
 clampedTime
 =
-NS_MIN
+std
+:
+:
+min
 (
 clampedTime
 duration

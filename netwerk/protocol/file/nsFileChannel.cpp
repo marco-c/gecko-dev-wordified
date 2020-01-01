@@ -217,6 +217,11 @@ nsIMIMEService
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 -
@@ -658,7 +663,10 @@ break
 int32_t
 num
 =
-NS_MIN
+std
+:
+:
+min
 (
 (
 int32_t

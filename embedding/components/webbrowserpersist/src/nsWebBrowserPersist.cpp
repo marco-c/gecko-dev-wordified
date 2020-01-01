@@ -120,6 +120,11 @@ Necko
 file
 streams
 #
+include
+<
+algorithm
+>
+#
 ifdef
 XP_OS2
 #
@@ -5094,7 +5099,10 @@ aIStream
 Read
 (
 buffer
-NS_MIN
+std
+:
+:
+min
 (
 uint32_t
 (

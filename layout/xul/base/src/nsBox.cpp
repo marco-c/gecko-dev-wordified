@@ -212,6 +212,11 @@ FrameLayerBuilder
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -4978,7 +4983,10 @@ aMaxSize
 return
 nsSize
 (
-NS_MAX
+std
+:
+:
+max
 (
 aMaxSize
 .
@@ -4987,7 +4995,10 @@ aMinSize
 .
 width
 )
-NS_MAX
+std
+:
+:
+max
 (
 aMaxSize
 .

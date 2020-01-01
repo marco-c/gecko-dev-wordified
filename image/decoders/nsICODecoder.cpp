@@ -159,6 +159,11 @@ nsISupportsPrimitives
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -3452,7 +3457,10 @@ aCount
 uint32_t
 toCopy
 =
-NS_MIN
+std
+:
+:
+min
 (
 rowSize
 -

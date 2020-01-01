@@ -444,6 +444,11 @@ Preferences
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_XUL
 #
@@ -8295,7 +8300,10 @@ for
 (
 len
 =
-NS_MIN
+std
+:
+:
+min
 (
 pos1
 pos2

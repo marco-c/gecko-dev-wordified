@@ -197,6 +197,11 @@ nsReadLine
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 /
@@ -1217,7 +1222,10 @@ aSize
 )
 {
 return
-NS_MIN
+std
+:
+:
+min
 <
 uint64_t
 >

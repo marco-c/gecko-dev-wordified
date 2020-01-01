@@ -374,6 +374,11 @@ zlib
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 rather
@@ -980,7 +985,10 @@ gradual
 .
 mNextDelay
 =
-NS_MIN
+std
+:
+:
+min
 <
 double
 >
@@ -20001,7 +20009,10 @@ NS_BASE_STREAM_CLOSED
 ;
 maxRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 2048U
 aCount
@@ -20144,7 +20155,10 @@ NS_BASE_STREAM_CLOSED
 ;
 maxRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 2048U
 aCount

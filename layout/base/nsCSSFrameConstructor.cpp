@@ -730,6 +730,11 @@ nsTransitionManager
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_XUL
 #
@@ -83102,7 +83107,10 @@ parentReflowState
 .
 SetComputedWidth
 (
-NS_MAX
+std
+:
+:
+max
 (
 parentSize
 .
@@ -83115,7 +83123,10 @@ parentReflowState
 .
 SetComputedHeight
 (
-NS_MAX
+std
+:
+:
+max
 (
 parentSize
 .

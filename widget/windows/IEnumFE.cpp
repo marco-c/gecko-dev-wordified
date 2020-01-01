@@ -107,6 +107,11 @@ nsAlgorithm
 .
 h
 "
+#
+include
+<
+algorithm
+>
 CEnumFormatEtc
 :
 :
@@ -478,7 +483,10 @@ S_FALSE
 uint32_t
 count
 =
-NS_MIN
+std
+:
+:
+min
 (
 static_cast
 <

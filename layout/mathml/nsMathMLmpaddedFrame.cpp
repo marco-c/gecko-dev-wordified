@@ -147,6 +147,11 @@ nsMathMLmpaddedFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 /
@@ -2492,7 +2497,10 @@ width
 ;
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 width
@@ -2540,7 +2548,10 @@ height
 ;
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 height
@@ -2588,7 +2599,10 @@ depth
 ;
 depth
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 depth

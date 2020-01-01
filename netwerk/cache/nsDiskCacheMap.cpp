@@ -191,6 +191,11 @@ Telemetry
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -7399,7 +7404,10 @@ nsDiskCacheRecord
 int32_t
 maxRecordCount
 =
-NS_MIN
+std
+:
+:
+min
 (
 int32_t
 (

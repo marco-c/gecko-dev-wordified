@@ -252,6 +252,11 @@ nsIComponentManager
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 ACCESSIBILITY
 #
@@ -7512,7 +7517,10 @@ MaxAscent
 ;
 bulletSize
 =
-NS_MAX
+std
+:
+:
+max
 (
 nsPresContext
 :
@@ -8875,7 +8883,10 @@ ascent
 ;
 ascent
 =
-NS_MAX
+std
+:
+:
+max
 (
 nsPresContext
 :

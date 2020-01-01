@@ -376,6 +376,11 @@ Services
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -8003,7 +8008,10 @@ tmpSize
 .
 width
 +
-NS_MAX
+std
+:
+:
+max
 (
 borderPadding
 .

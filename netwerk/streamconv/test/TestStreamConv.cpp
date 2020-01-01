@@ -196,6 +196,11 @@ nspr
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 ASYNC_TEST
 /
@@ -727,7 +732,10 @@ len
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 len64
 (
@@ -1051,7 +1059,10 @@ return
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 aValue
 (

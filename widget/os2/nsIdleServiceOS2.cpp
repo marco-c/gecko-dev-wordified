@@ -116,6 +116,11 @@ nsIdleServiceOS2
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 prototype
@@ -312,7 +317,10 @@ timers
 *
 aIdleTime
 =
-NS_MIN
+std
+:
+:
+min
 (
 mouse
 keyboard

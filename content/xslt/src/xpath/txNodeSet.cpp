@@ -121,6 +121,11 @@ txXPathTreeWalker
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 *
 *
@@ -2715,7 +2720,10 @@ ok
 int32_t
 newLength
 =
-NS_MAX
+std
+:
+:
+max
 (
 oldLength
 kTxNodeSetMinSize

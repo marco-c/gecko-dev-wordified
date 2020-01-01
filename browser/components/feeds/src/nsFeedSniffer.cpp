@@ -206,6 +206,11 @@ nsMimeTypes
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 TYPE_ATOM
 "
@@ -1911,7 +1916,10 @@ data
 ;
 length
 =
-NS_MIN
+std
+:
+:
+min
 (
 length
 MAX_BYTES
@@ -1930,7 +1938,10 @@ get
 ;
 length
 =
-NS_MIN
+std
+:
+:
+min
 (
 mDecodedData
 .

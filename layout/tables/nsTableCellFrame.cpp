@@ -275,6 +275,11 @@ FrameLayerBuilder
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 TABLECELL
@@ -1429,7 +1434,10 @@ rowIndex
 GetColSpan
 (
 )
-NS_MIN
+std
+:
+:
+min
 (
 GetRowSpan
 (
@@ -3512,7 +3520,10 @@ from
 top
 kidYTop
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 kidYTop

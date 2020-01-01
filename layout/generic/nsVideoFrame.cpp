@@ -297,6 +297,11 @@ nsContentList
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -942,7 +947,10 @@ aRect
 gfxFloat
 scale
 =
-NS_MIN
+std
+:
+:
+min
 (
 aRect
 .
@@ -1896,7 +1904,10 @@ posterWidth
 gfxFloat
 scale
 =
-NS_MIN
+std
+:
+:
+min
 (
 static_cast
 <

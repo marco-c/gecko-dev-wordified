@@ -356,6 +356,11 @@ SVGAngle
 .
 h
 "
+#
+include
+<
+algorithm
+>
 DOMCI_NODE_DATA
 (
 SVGSVGElement
@@ -7157,7 +7162,10 @@ mViewportHeight
 }
 w
 =
-NS_MAX
+std
+:
+:
+max
 (
 w
 0
@@ -7167,7 +7175,10 @@ w
 ;
 h
 =
-NS_MAX
+std
+:
+:
+max
 (
 h
 0

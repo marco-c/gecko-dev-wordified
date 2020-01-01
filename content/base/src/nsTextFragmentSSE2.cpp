@@ -122,6 +122,11 @@ nsTextFragmentImpl
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -244,7 +249,10 @@ MOVDQA
 int32_t
 alignLen
 =
-NS_MIN
+std
+:
+:
+min
 (
 len
 int32_t

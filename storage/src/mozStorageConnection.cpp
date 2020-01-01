@@ -338,6 +338,11 @@ prprf
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 MIN_AVAILABLE_BYTES_PER_CHUNKED_GROWTH
 524288000
@@ -3473,7 +3478,10 @@ cacheSizeQuery
 .
 AppendInt
 (
-NS_MIN
+std
+:
+:
+min
 (
 DEFAULT_CACHE_SIZE_PAGES
 int32_t

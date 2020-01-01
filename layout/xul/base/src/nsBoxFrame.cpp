@@ -647,6 +647,11 @@ Preferences
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 Needed
@@ -3428,7 +3433,10 @@ LeftRight
 ;
 result
 =
-NS_MAX
+std
+:
+:
+max
 (
 result
 0
@@ -3551,7 +3559,10 @@ LeftRight
 ;
 result
 =
-NS_MAX
+std
+:
+:
+max
 (
 result
 0

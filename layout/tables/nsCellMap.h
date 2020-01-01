@@ -156,6 +156,11 @@ nsAutoPtr
 h
 "
 #
+include
+<
+algorithm
+>
+#
 undef
 DEBUG_TABLE_CELLMAP
 class
@@ -3230,7 +3235,10 @@ Length
 ;
 mCurMapRelevantRowCount
 =
-NS_MIN
+std
+:
+:
+min
 (
 mCurMapContentRowCount
 rowArrayLength

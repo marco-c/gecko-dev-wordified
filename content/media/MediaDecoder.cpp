@@ -259,6 +259,11 @@ float
 double
 )
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_WMF
 #
@@ -5036,7 +5041,10 @@ zero
 rate
 rate
 =
-NS_MAX
+std
+:
+:
+max
 (
 rate
 1u
@@ -5073,7 +5081,10 @@ good
 data
 rate
 =
-NS_MAX
+std
+:
+:
+max
 (
 rate
 10000u
@@ -7132,7 +7143,10 @@ GetReentrantMonitor
 ;
 mPlaybackPosition
 =
-NS_MAX
+std
+:
+:
+max
 (
 aOffset
 mPlaybackPosition

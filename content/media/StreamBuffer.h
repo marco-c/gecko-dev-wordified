@@ -122,6 +122,11 @@ nsAutoPtr
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -1292,7 +1297,10 @@ ifdef
 DEBUG
 mForgottenUpTo
 =
-NS_MAX
+std
+:
+:
+max
 <
 TrackTicks
 >

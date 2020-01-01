@@ -220,6 +220,11 @@ ParseFTPList
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
@@ -577,7 +582,10 @@ streamLen
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 streamLen64
 uint64_t

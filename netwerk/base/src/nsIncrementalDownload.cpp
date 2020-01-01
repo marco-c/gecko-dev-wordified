@@ -247,6 +247,11 @@ prprf
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 Default
@@ -3522,7 +3527,10 @@ uint32_t
 n
 len
 =
-NS_MIN
+std
+:
+:
+min
 (
 space
 count

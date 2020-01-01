@@ -326,6 +326,11 @@ nsEventListenerManager
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_CRASHREPORTER
 #
@@ -2783,7 +2788,10 @@ bodyDOMElement
 {
 pageWidth
 =
-NS_MAX
+std
+:
+:
+max
 (
 htmlWidth
 bodyWidth
@@ -2791,7 +2799,10 @@ bodyWidth
 ;
 pageHeight
 =
-NS_MAX
+std
+:
+:
+max
 (
 htmlHeight
 bodyHeight
@@ -2894,7 +2905,10 @@ by
 )
 viewportH
 =
-NS_MAX
+std
+:
+:
+max
 (
 viewportH
 screenH

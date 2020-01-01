@@ -350,6 +350,11 @@ nsIFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -3338,7 +3343,10 @@ document
 .
 rootLocation
 =
-NS_MAX
+std
+:
+:
+max
 (
 rootLocation
 j

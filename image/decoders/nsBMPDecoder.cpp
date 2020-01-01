@@ -170,6 +170,11 @@ RasterImage
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -3777,7 +3782,10 @@ eRLEStateInitial
 uint32_t
 pixelsNeeded
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >
@@ -4187,7 +4195,10 @@ eRLEStateInitial
 mCurLine
 -
 =
-NS_MIN
+std
+:
+:
+min
 <
 int32_t
 >

@@ -213,6 +213,11 @@ prnetdb
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -7070,7 +7075,10 @@ ENSURE_CALLED_BEFORE_CONNECT
 ;
 mRedirectionLimit
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

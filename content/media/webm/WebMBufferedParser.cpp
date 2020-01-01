@@ -140,6 +140,11 @@ nsThreadUtils
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -939,7 +944,10 @@ aBuffer
 ;
 left
 =
-NS_MIN
+std
+:
+:
+min
 (
 left
 mSkipBytes

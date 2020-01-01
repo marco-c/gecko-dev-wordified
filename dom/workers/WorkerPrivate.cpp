@@ -384,6 +384,11 @@ Likely
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 ANDROID
 #
@@ -19040,7 +19045,10 @@ const
 TimeStamp
 now
 =
-NS_MAX
+std
+:
+:
+max
 (
 TimeStamp
 :
@@ -19815,7 +19823,10 @@ delta
 >
 0
 ?
-NS_MIN
+std
+:
+:
+min
 (
 delta
 double

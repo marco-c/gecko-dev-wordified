@@ -191,6 +191,11 @@ nsMimeTypes
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 sadly
@@ -1290,7 +1295,10 @@ aStream
 Read
 (
 mDataBuffer
-NS_MIN
+std
+:
+:
+min
 (
 aCount
 nsIOService

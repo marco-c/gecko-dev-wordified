@@ -154,6 +154,11 @@ nsCRT
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 -
@@ -1661,7 +1666,10 @@ ageValue
 *
 result
 =
-NS_MAX
+std
+:
+:
+max
 (
 *
 result

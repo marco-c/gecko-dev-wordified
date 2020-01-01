@@ -2174,7 +2174,10 @@ here
 int
 max_color_channel
 =
-NS_MAX
+std
+:
+:
+max
 (
 out_row
 [
@@ -2182,7 +2185,10 @@ byte_offset
 +
 R_OFFSET_IDX
 ]
-NS_MAX
+std
+:
+:
+max
 (
 out_row
 [
@@ -6609,7 +6615,10 @@ instance
 ;
 max_filter_
 =
-NS_MAX
+std
+:
+:
+max
 (
 max_filter_
 filter_length

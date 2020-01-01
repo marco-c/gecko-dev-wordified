@@ -201,6 +201,11 @@ winuser
 h
 >
 #
+include
+<
+algorithm
+>
+#
 ifndef
 WINABLEAPI
 #
@@ -1265,7 +1270,10 @@ aOther
 uint32_t
 copyCount
 =
-NS_MIN
+std
+:
+:
+min
 (
 aOther
 .

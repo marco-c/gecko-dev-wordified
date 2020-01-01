@@ -205,6 +205,11 @@ nsMathMLmtableFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -5270,7 +5275,10 @@ rowspan
 ;
 rowspan
 =
-NS_MIN
+std
+:
+:
+min
 (
 rowspan
 MAX_ROWSPAN

@@ -121,6 +121,11 @@ stdlib
 .
 h
 >
+#
+include
+<
+algorithm
+>
 static
 gboolean
 ref_printer
@@ -1669,7 +1674,10 @@ ii
 {
 start
 =
-NS_MIN
+std
+:
+:
+min
 (
 lstRanges
 [
@@ -1825,7 +1833,10 @@ ii
 {
 end
 =
-NS_MAX
+std
+:
+:
+max
 (
 lstRanges
 [

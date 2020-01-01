@@ -230,6 +230,11 @@ nsIScriptSecurityManager
 .
 h
 "
+#
+include
+<
+algorithm
+>
 static
 const
 char
@@ -3147,7 +3152,10 @@ aStream
 Read
 (
 buffer
-NS_MIN
+std
+:
+:
+min
 (
 (
 unsigned

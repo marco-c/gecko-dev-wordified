@@ -464,6 +464,11 @@ TabChild
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -3437,7 +3442,10 @@ mReply
 .
 mOffset
 =
-NS_MIN
+std
+:
+:
+min
 (
 mIMESelectionAnchor
 mIMESelectionFocus
@@ -3668,7 +3676,10 @@ NS_COMPOSITION_END
 ;
 mIMECompositionStart
 =
-NS_MIN
+std
+:
+:
+min
 (
 mIMESelectionAnchor
 mIMESelectionFocus
@@ -3812,7 +3823,10 @@ mIMEComposing
 {
 mIMECompositionStart
 =
-NS_MIN
+std
+:
+:
+min
 (
 mIMESelectionAnchor
 mIMESelectionFocus

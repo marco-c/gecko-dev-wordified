@@ -128,6 +128,11 @@ nsSVGAttrTearoffTable
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 See
@@ -608,7 +613,10 @@ NS_ERROR_DOM_SYNTAX_ERR
 }
 index
 =
-NS_MIN
+std
+:
+:
+min
 (
 index
 InternalList

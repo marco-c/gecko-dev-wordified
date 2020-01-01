@@ -296,6 +296,11 @@ nsUXThemeConstants
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -1194,7 +1199,10 @@ itemSize
 int
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 itemSize
 .
@@ -1211,7 +1219,10 @@ cx
 int
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 itemSize
 .

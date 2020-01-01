@@ -152,6 +152,11 @@ nsRuleProcessorData
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 PL_ARENA_CONST_ALIGN_MASK
 7
@@ -3911,7 +3916,10 @@ mEnumList
 ;
 mEnumListSize
 =
-NS_MAX
+std
+:
+:
+max
 (
 testCount
 MIN_ENUM_LIST_SIZE

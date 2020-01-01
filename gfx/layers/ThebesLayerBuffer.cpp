@@ -157,6 +157,11 @@ sampler
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -1196,7 +1201,10 @@ rect
 .
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 aRequestedRect
 .

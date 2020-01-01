@@ -114,6 +114,11 @@ nsRegion
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 XXXTodo
@@ -437,7 +442,10 @@ clusters
 or
 RTL
 return
-NS_MIN
+std
+:
+:
+min
 (
 aLength
 aMaxChunkLength
@@ -2569,7 +2577,10 @@ return
 1
 ;
 return
-NS_MIN
+std
+:
+:
+min
 (
 mFontMetrics
 -

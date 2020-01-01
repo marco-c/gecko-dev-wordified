@@ -141,6 +141,11 @@ nsIFile
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_TOOLKIT_SEARCH
 #
@@ -5340,7 +5345,10 @@ FindChar
 uint32_t
 quoteLoc
 =
-NS_MIN
+std
+:
+:
+min
 (
 uint32_t
 (

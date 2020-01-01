@@ -180,6 +180,11 @@ SpanningCellSorter
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -1089,7 +1094,10 @@ w
 }
 prefCoord
 =
-NS_MAX
+std
+:
+:
+max
 (
 w
 minCoord

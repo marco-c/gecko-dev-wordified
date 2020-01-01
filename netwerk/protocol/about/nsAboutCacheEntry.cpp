@@ -157,6 +157,11 @@ nsEscape
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 HEXDUMP_MAX_ROWS
 16
@@ -238,7 +243,10 @@ int32_t
 i
 row_max
 =
-NS_MIN
+std
+:
+:
+min
 (
 HEXDUMP_MAX_ROWS
 n

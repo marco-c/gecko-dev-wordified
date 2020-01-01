@@ -138,6 +138,11 @@ stdlib
 h
 >
 #
+include
+<
+algorithm
+>
+#
 ifdef
 WIN32
 #
@@ -1066,7 +1071,10 @@ mantissa
 int
 firstlen
 =
-NS_MIN
+std
+:
+:
+min
 <
 size_t
 >

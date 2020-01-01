@@ -156,6 +156,11 @@ nsCSSAnonBoxes
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -304,7 +309,10 @@ dimension
 nscoord
 paintScale
 =
-NS_MIN
+std
+:
+:
+min
 (
 rect
 .

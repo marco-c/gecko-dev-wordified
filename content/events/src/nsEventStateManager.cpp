@@ -340,6 +340,11 @@ nsIContentViewer
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_XUL
 #
@@ -23370,7 +23375,10 @@ imgHeight
 /
 /
 XXX
-NS_MAX
+std
+:
+:
+max
 (
 NS_lround
 (

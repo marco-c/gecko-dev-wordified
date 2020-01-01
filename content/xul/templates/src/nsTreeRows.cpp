@@ -107,6 +107,11 @@ nsTreeRows
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsTreeRows
 :
 :
@@ -1355,7 +1360,10 @@ mCapacity
 int32_t
 newCapacity
 =
-NS_MAX
+std
+:
+:
+max
 (
 mCapacity
 *

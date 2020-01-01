@@ -682,6 +682,11 @@ Attributes
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 The
@@ -5475,7 +5480,10 @@ treeRows
 {
 newCurrentIndex
 =
-NS_MIN
+std
+:
+:
+min
 (
 (
 treeRows

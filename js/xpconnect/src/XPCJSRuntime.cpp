@@ -289,6 +289,11 @@ nsJSPrincipals
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_CRASHREPORTER
 #
@@ -3425,7 +3430,10 @@ data
 ;
 slice
 =
-NS_MIN
+std
+:
+:
+min
 (
 slice
 items

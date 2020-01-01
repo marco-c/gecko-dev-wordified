@@ -186,6 +186,11 @@ Telemetry
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 The
@@ -2237,7 +2242,10 @@ DataSize
 (
 )
 /
-NS_MAX
+std
+:
+:
+max
 (
 1
 entry
@@ -2398,7 +2406,10 @@ DataSize
 int32_t
 fetchCount
 =
-NS_MAX
+std
+:
+:
+max
 (
 1
 entry
@@ -2410,7 +2421,10 @@ FetchCount
 )
 ;
 return
-NS_MIN
+std
+:
+:
+min
 (
 PR_FloorLog2
 (

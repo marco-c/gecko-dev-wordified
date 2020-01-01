@@ -129,6 +129,11 @@ nsAutoPtr
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 TOKEN_DELIMITERS
 NS_LITERAL_STRING
@@ -1056,7 +1061,10 @@ mBuffer
 Left
 (
 pushBuffer
-NS_MAX
+std
+:
+:
+max
 (
 cursor
 end
@@ -1068,7 +1076,10 @@ mBuffer
 Cut
 (
 0
-NS_MAX
+std
+:
+:
+max
 (
 cursor
 end

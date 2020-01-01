@@ -231,6 +231,11 @@ nsCrossSiteListenerProxy
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 *
 *
@@ -1626,7 +1631,10 @@ chunkSize
 }
 chunkSize
 =
-NS_MIN
+std
+:
+:
+min
 (
 int64_t
 (
@@ -1766,7 +1774,10 @@ aIn
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 sourceOffset
 (

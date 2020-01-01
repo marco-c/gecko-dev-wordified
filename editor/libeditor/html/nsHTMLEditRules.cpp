@@ -507,6 +507,11 @@ float
 /
 double
 )
+#
+include
+<
+algorithm
+>
 class
 nsISupports
 ;
@@ -13138,7 +13143,10 @@ mHTMLEditor
 DeleteText
 (
 nodeAsText
-NS_MIN
+std
+:
+:
+min
 (
 so
 eo

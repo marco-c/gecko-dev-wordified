@@ -408,6 +408,11 @@ IndexedDatabaseInlines
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 The
@@ -5151,7 +5156,10 @@ GetIndexedDBQuotaMB
 return
 uint32_t
 (
-NS_MAX
+std
+:
+:
+max
 (
 gIndexedDBQuotaMB
 0

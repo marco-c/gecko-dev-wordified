@@ -184,6 +184,11 @@ nsIStreamConverterService
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 /
 /
@@ -2998,7 +3003,10 @@ LF
 )
 bufAmt
 =
-NS_MIN
+std
+:
+:
+min
 (
 mTokenLen
 -
