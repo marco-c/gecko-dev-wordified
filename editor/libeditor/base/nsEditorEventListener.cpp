@@ -2947,7 +2947,7 @@ return
 mEditor
 -
 >
-SetCompositionString
+UpdateIMEComposition
 (
 composedText
 textRangeList
@@ -4415,7 +4415,7 @@ return
 mEditor
 -
 >
-BeginComposition
+BeginIMEComposition
 (
 )
 ;
@@ -4441,7 +4441,7 @@ return
 mEditor
 -
 >
-EndComposition
+EndIMEComposition
 (
 )
 ;
