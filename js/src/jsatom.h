@@ -299,13 +299,6 @@ l
 }
 }
 ;
-}
-/
-*
-namespace
-js
-*
-/
 /
 *
 *
@@ -342,9 +335,9 @@ extern
 const
 char
 *
-js_AtomToPrintableString
+AtomToPrintableString
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSAtom
@@ -355,9 +348,6 @@ JSAutoByteString
 bytes
 )
 ;
-namespace
-js
-{
 /
 *
 Compute
@@ -1256,7 +1246,7 @@ JSAtom
 *
 Atomize
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -1287,7 +1277,7 @@ JSAtom
 *
 AtomizeChars
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -1318,7 +1308,7 @@ JSAtom
 *
 AtomizeString
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSString
@@ -1346,7 +1336,7 @@ JSAtom
 *
 ToAtom
 (
-JSContext
+ExclusiveContext
 *
 cx
 typename

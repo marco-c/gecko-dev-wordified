@@ -809,7 +809,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 jschar
 *
 chars
@@ -864,7 +864,10 @@ JSFlatString
 *
 js_NewStringCopyN
 (
-JSContext
+js
+:
+:
+ExclusiveContext
 *
 cx
 const
@@ -893,7 +896,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -932,7 +935,10 @@ JSFlatString
 *
 js_NewStringCopyZ
 (
-JSContext
+js
+:
+:
+ExclusiveContext
 *
 cx
 const
@@ -959,7 +965,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -1045,7 +1051,7 @@ JSString
 *
 ToStringSlow
 (
-JSContext
+ExclusiveContext
 *
 cx
 typename
@@ -1831,7 +1837,7 @@ InflateStringToBuffer
 (
 JSContext
 *
-cx
+maybecx
 const
 char
 *

@@ -224,7 +224,7 @@ Module
 :
 create
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleAtom

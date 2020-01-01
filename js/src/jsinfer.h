@@ -9523,7 +9523,7 @@ TypeObject
 *
 newTypeObject
 (
-JSContext
+ExclusiveContext
 *
 cx
 Class

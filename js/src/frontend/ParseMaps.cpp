@@ -520,9 +520,12 @@ DefinitionList
 :
 allocNode
 (
-JSContext
+ExclusiveContext
 *
 cx
+LifoAlloc
+&
+alloc
 uintptr_t
 head
 Node
@@ -534,12 +537,7 @@ Node
 *
 result
 =
-cx
--
->
-tempLifoAlloc
-(
-)
+alloc
 .
 new_
 <
@@ -893,6 +891,7 @@ ParseHandler
 >
 (
 cx
+alloc
 defn
 )
 ;
@@ -903,9 +902,6 @@ frontend
 :
 InitAtomMap
 (
-JSContext
-*
-cx
 frontend
 :
 :

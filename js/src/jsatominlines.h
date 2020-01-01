@@ -697,7 +697,7 @@ allowGC
 bool
 IndexToIdSlow
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -718,7 +718,7 @@ inline
 bool
 IndexToId
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -1154,7 +1154,7 @@ ClassName
 (
 JSProtoKey
 key
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -1205,12 +1205,9 @@ return
 cx
 -
 >
-runtime
+names
 (
 )
--
->
-atomState
 .
 Null
 )

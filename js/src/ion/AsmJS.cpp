@@ -9179,7 +9179,7 @@ name
 if
 (
 !
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx_
 func

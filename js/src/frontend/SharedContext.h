@@ -1264,7 +1264,7 @@ SharedContext
 {
 public
 :
-JSContext
+ExclusiveContext
 *
 const
 context
@@ -1274,6 +1274,9 @@ anyCxFlags
 ;
 bool
 strict
+;
+bool
+extraWarnings
 ;
 /
 /
@@ -1310,11 +1313,13 @@ NULL
 .
 SharedContext
 (
-JSContext
+ExclusiveContext
 *
 cx
 bool
 strict
+bool
+extraWarnings
 )
 :
 context
@@ -1327,6 +1332,10 @@ anyCxFlags
 strict
 (
 strict
+)
+extraWarnings
+(
+extraWarnings
 )
 {
 }
@@ -1534,7 +1543,7 @@ public
 :
 GlobalSharedContext
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -1542,12 +1551,15 @@ JSObject
 scopeChain
 bool
 strict
+bool
+extraWarnings
 )
 :
 SharedContext
 (
 cx
 strict
+extraWarnings
 )
 scopeChain_
 (
@@ -1622,7 +1634,7 @@ bindings
 ;
 ModuleBox
 (
-JSContext
+ExclusiveContext
 *
 cx
 ObjectBox
@@ -1637,6 +1649,8 @@ FullParseHandler
 >
 *
 pc
+bool
+extraWarnings
 )
 ;
 ObjectBox
@@ -1869,7 +1883,7 @@ ParseHandler
 >
 FunctionBox
 (
-JSContext
+ExclusiveContext
 *
 cx
 ObjectBox
@@ -1886,6 +1900,8 @@ ParseHandler
 pc
 bool
 strict
+bool
+extraWarnings
 )
 ;
 ObjectBox
@@ -2811,7 +2827,7 @@ object
 /
 StmtInfoBase
 (
-JSContext
+ExclusiveContext
 *
 cx
 )

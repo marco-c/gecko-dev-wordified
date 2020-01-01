@@ -327,7 +327,7 @@ ArrayObject
 JS_FASTCALL
 NewDenseAllocatedArray
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -385,7 +385,7 @@ ArrayObject
 JS_FASTCALL
 NewDenseUnallocatedArray
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -533,7 +533,7 @@ extern
 bool
 WouldDefinePastNonwritableLength
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObject

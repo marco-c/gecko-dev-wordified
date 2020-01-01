@@ -352,6 +352,13 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+jsstrinlines
+.
+h
+"
 using
 namespace
 js

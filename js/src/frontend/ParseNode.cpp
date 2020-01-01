@@ -135,6 +135,13 @@ Parser
 .
 h
 "
+#
+include
+"
+jscntxtinlines
+.
+h
+"
 using
 namespace
 js
@@ -1666,12 +1673,7 @@ void
 *
 p
 =
-cx
--
->
-tempLifoAlloc
-(
-)
+alloc
 .
 alloc
 (

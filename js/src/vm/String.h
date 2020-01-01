@@ -1972,7 +1972,7 @@ js
 :
 ThreadSafeContext
 *
-maybetcx
+maybecx
 size_t
 length
 )
@@ -3125,7 +3125,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 typename
 js
 :
@@ -3464,7 +3464,10 @@ JSLinearString
 *
 new_
 (
-JSContext
+js
+:
+:
+ExclusiveContext
 *
 cx
 JSLinearString
@@ -4463,7 +4466,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 ;
 inline
@@ -4675,7 +4678,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 )
 ;
 static

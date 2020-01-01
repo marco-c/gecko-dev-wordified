@@ -2625,7 +2625,10 @@ static
 bool
 setTypeForScriptedFunction
 (
-JSContext
+js
+:
+:
+ExclusiveContext
 *
 cx
 js
@@ -2766,7 +2769,7 @@ JSFunction
 *
 NewFunction
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObject

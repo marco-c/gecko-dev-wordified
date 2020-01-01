@@ -10622,7 +10622,7 @@ js
 :
 NewFunction
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObject

@@ -272,7 +272,7 @@ false
 bool
 FoldConstants
 (
-JSContext
+ExclusiveContext
 *
 cx
 ParseNode
@@ -291,7 +291,7 @@ inline
 bool
 FoldConstants
 (
-JSContext
+ExclusiveContext
 *
 cx
 SyntaxParseHandler

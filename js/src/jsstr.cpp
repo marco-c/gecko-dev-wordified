@@ -23643,7 +23643,7 @@ js_NewString
 (
 ThreadSafeContext
 *
-tcx
+cx
 jschar
 *
 chars
@@ -23660,7 +23660,7 @@ new_
 allowGC
 >
 (
-tcx
+cx
 chars
 length
 )
@@ -23676,7 +23676,7 @@ CanGC
 (
 ThreadSafeContext
 *
-tcx
+cx
 jschar
 *
 chars
@@ -23694,7 +23694,7 @@ NoGC
 (
 ThreadSafeContext
 *
-tcx
+cx
 jschar
 *
 chars
@@ -23729,12 +23729,9 @@ return
 cx
 -
 >
-runtime
+emptyString
 (
 )
--
->
-emptyString
 ;
 JSLinearString
 *
@@ -23838,7 +23835,7 @@ JSFlatString
 *
 js_NewStringCopyN
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -23948,7 +23945,7 @@ js_NewStringCopyN
 CanGC
 >
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -23967,7 +23964,7 @@ js_NewStringCopyN
 NoGC
 >
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -23989,7 +23986,7 @@ js_NewStringCopyN
 (
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -24014,7 +24011,7 @@ NewShortString
 allowGC
 >
 (
-tcx
+cx
 JS
 :
 :
@@ -24031,7 +24028,7 @@ chars
 =
 InflateString
 (
-tcx
+cx
 s
 &
 n
@@ -24054,7 +24051,7 @@ js_NewString
 allowGC
 >
 (
-tcx
+cx
 chars
 n
 )
@@ -24083,7 +24080,7 @@ CanGC
 (
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -24102,7 +24099,7 @@ NoGC
 (
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -24120,7 +24117,7 @@ JSFlatString
 *
 js_NewStringCopyZ
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -24242,7 +24239,7 @@ js_NewStringCopyZ
 CanGC
 >
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -24259,7 +24256,7 @@ js_NewStringCopyZ
 NoGC
 >
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -24279,7 +24276,7 @@ js_NewStringCopyZ
 (
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -24292,7 +24289,7 @@ js_NewStringCopyN
 allowGC
 >
 (
-tcx
+cx
 s
 strlen
 (
@@ -24311,7 +24308,7 @@ CanGC
 (
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -24328,7 +24325,7 @@ NoGC
 (
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -24437,7 +24434,7 @@ js
 :
 ToStringSlow
 (
-JSContext
+ExclusiveContext
 *
 cx
 typename
@@ -24518,6 +24515,11 @@ if
 ToPrimitive
 (
 cx
+-
+>
+asJSContext
+(
+)
 JSTYPE_STRING
 &
 v2
@@ -24679,7 +24681,7 @@ ToStringSlow
 CanGC
 >
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleValue
@@ -24697,7 +24699,7 @@ ToStringSlow
 NoGC
 >
 (
-JSContext
+ExclusiveContext
 *
 cx
 Value
@@ -25663,7 +25665,7 @@ InflateString
 (
 ThreadSafeContext
 *
-tcx
+cx
 const
 char
 *
@@ -25692,7 +25694,7 @@ nbytes
 ;
 chars
 =
-tcx
+cx
 -
 >
 pod_malloc

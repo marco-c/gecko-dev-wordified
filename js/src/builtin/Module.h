@@ -137,7 +137,7 @@ Module
 *
 create
 (
-JSContext
+ExclusiveContext
 *
 cx
 js

@@ -222,7 +222,7 @@ RegExpObject
 :
 getShared
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpGuard
@@ -269,7 +269,7 @@ RegExpObject
 :
 setShared
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpShared
@@ -565,7 +565,7 @@ RegExpShared
 :
 prepareForUse
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -575,12 +575,9 @@ gcNumberWhenUsed
 cx
 -
 >
-runtime
+gcNumber
 (
 )
--
->
-gcNumber
 ;
 }
 RegExpGuard
@@ -588,7 +585,7 @@ RegExpGuard
 :
 RegExpGuard
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -608,7 +605,7 @@ RegExpGuard
 :
 RegExpGuard
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpShared
