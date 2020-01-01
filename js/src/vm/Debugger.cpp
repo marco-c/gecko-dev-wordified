@@ -14109,7 +14109,7 @@ rval
 .
 setNumber
 (
-jsdouble
+double
 (
 maxLine
 )
@@ -15410,7 +15410,7 @@ JSOP_LOOKUPSWITCH
 pc
 +
 =
-INDEX_LEN
+UINT32_INDEX_LEN
 ;
 size_t
 target
@@ -15885,7 +15885,7 @@ isNumber
 )
 )
 {
-jsdouble
+double
 d
 =
 args

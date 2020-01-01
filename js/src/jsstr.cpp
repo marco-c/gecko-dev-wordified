@@ -7784,7 +7784,7 @@ start
 }
 else
 {
-jsdouble
+double
 d
 ;
 if
@@ -16971,7 +16971,7 @@ isUndefined
 )
 )
 {
-jsdouble
+double
 d
 ;
 if

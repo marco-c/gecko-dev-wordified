@@ -477,13 +477,6 @@ h
 #
 include
 "
-nsHashSets
-.
-h
-"
-#
-include
-"
 nsBlockDebugFlags
 .
 h
@@ -2680,7 +2673,13 @@ html
 crashes
 .
 )
-nsVoidHashSet
+nsTHashtable
+<
+nsPtrHashKey
+<
+nsIFrame
+>
+>
 frameSet
 ;
 frameSet
@@ -2712,7 +2711,7 @@ GetNextSibling
 {
 frameSet
 .
-Put
+PutEntry
 (
 f
 )

@@ -1998,7 +1998,7 @@ value
 )
 )
 ;
-jsdouble
+double
 num
 ;
 rc

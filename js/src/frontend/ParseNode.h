@@ -4154,7 +4154,7 @@ uses
 }
 nameset
 ;
-jsdouble
+double
 dval
 ;
 /

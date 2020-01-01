@@ -449,7 +449,7 @@ h
 #
 include
 "
-nsHashSets
+nsTHashtable
 .
 h
 "
@@ -1501,7 +1501,10 @@ problems
 nsString
 mReplacementCharFallbackFamily
 ;
-nsStringHashSet
+nsTHashtable
+<
+nsStringHashKey
+>
 mBadUnderlineFamilyNames
 ;
 /

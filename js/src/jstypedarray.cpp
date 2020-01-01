@@ -779,7 +779,7 @@ isDouble
 )
 )
 {
-jsdouble
+double
 d
 =
 v
@@ -811,7 +811,7 @@ if
 d
 !
 =
-jsdouble
+double
 (
 length
 )
@@ -5445,7 +5445,7 @@ x
 return
 255
 ;
-jsdouble
+double
 toTruncate
 =
 x
@@ -5701,7 +5701,7 @@ x
 }
 uint8_clamped
 (
-jsdouble
+double
 x
 )
 {
@@ -5933,7 +5933,7 @@ operator
 =
 (
 const
-jsdouble
+double
 x
 )
 {
@@ -7121,7 +7121,7 @@ return
 true
 ;
 }
-jsdouble
+double
 d
 ;
 if
@@ -10760,7 +10760,7 @@ isUndefined
 )
 )
 {
-jsdouble
+double
 dval
 ;
 JS_ALWAYS_TRUE

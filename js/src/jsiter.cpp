@@ -7070,9 +7070,6 @@ JSFlatString
 :
 ~
 HeapPtr
-<
-JSFlatString
->
 (
 )
 ;

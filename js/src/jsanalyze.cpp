@@ -1209,11 +1209,9 @@ script
 >
 getAtom
 (
-js_GetIndexFromBytecode
+GET_UINT32_INDEX
 (
-script
 pc
-0
 )
 )
 ;
@@ -2951,7 +2949,7 @@ npairs
 pc2
 +
 =
-INDEX_LEN
+UINT32_INDEX_LEN
 ;
 unsigned
 targetOffset
@@ -10316,7 +10314,7 @@ npairs
 pc2
 +
 =
-INDEX_LEN
+UINT32_INDEX_LEN
 ;
 unsigned
 targetOffset

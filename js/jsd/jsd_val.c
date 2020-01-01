@@ -1227,7 +1227,7 @@ val
 )
 ;
 }
-jsdouble
+double
 jsd_GetValueDouble
 (
 JSDContext

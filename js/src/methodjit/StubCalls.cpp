@@ -7889,7 +7889,7 @@ script
 >
 getAtom
 (
-GET_SLOTNO
+GET_UINT32_INDEX
 (
 nextpc
 )
@@ -7995,7 +7995,7 @@ script
 >
 getAtom
 (
-GET_SLOTNO
+GET_UINT32_INDEX
 (
 nextpc
 )
@@ -10730,7 +10730,7 @@ script
 >
 getConst
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 pc
 )
@@ -10739,7 +10739,7 @@ pc
 pc
 +
 =
-INDEX_LEN
+UINT32_INDEX_LEN
 ;
 if
 (
@@ -10844,7 +10844,7 @@ script
 >
 getConst
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 pc
 )
@@ -10853,7 +10853,7 @@ pc
 pc
 +
 =
-INDEX_LEN
+UINT32_INDEX_LEN
 ;
 if
 (
@@ -10919,7 +10919,7 @@ script
 >
 getConst
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 pc
 )
@@ -10928,7 +10928,7 @@ pc
 pc
 +
 =
-INDEX_LEN
+UINT32_INDEX_LEN
 ;
 if
 (
@@ -11053,7 +11053,7 @@ sp
 1
 ]
 ;
-jsint
+int32_t
 tableIdx
 ;
 if
@@ -11126,10 +11126,6 @@ if
 JSDOUBLE_IS_INT32
 (
 d
-(
-int32_t
-*
-)
 &
 tableIdx
 )

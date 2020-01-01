@@ -1059,7 +1059,7 @@ int
 *
 /
 static
-jsdouble
+double
 MAX_TIMEOUT_INTERVAL
 =
 1800
@@ -1067,7 +1067,7 @@ MAX_TIMEOUT_INTERVAL
 0
 ;
 static
-jsdouble
+double
 gTimeoutInterval
 =
 -
@@ -1113,7 +1113,7 @@ SetTimeoutValue
 JSContext
 *
 cx
-jsdouble
+double
 t
 )
 ;
@@ -1139,7 +1139,7 @@ ScheduleWatchdog
 JSRuntime
 *
 rt
-jsdouble
+double
 t
 )
 ;
@@ -3971,7 +3971,7 @@ argv
 )
 )
 {
-jsdouble
+double
 fv
 =
 JSVAL_TO_DOUBLE
@@ -6406,7 +6406,7 @@ jsval
 vp
 )
 {
-jsdouble
+double
 now
 =
 PRMJ_Now
@@ -7368,6 +7368,12 @@ JSGC_NUMBER
 sliceTimeBudget
 "
 JSGC_SLICE_TIME_BUDGET
+}
+{
+"
+markStackLimit
+"
+JSGC_MARK_STACK_LIMIT
 }
 }
 ;
@@ -9015,7 +9021,7 @@ JS_NewNumberValue
 (
 cx
 (
-jsdouble
+double
 )
 counter
 vp
@@ -10572,7 +10578,7 @@ jmplen
 ;
 n
 =
-GET_INDEX
+GET_UINT16
 (
 pc
 )
@@ -10580,7 +10586,7 @@ pc
 pc
 +
 =
-INDEX_LEN
+UINT16_LEN
 ;
 jmplen
 +
@@ -15177,7 +15183,7 @@ vp
 va_list
 ap
 ;
-jsdouble
+double
 re
 im
 ;
@@ -15242,7 +15248,7 @@ JS_FALSE
 va_arg
 (
 ap
-jsdouble
+double
 *
 )
 =
@@ -15252,7 +15258,7 @@ re
 va_arg
 (
 ap
-jsdouble
+double
 *
 )
 =
@@ -15266,7 +15272,7 @@ re
 va_arg
 (
 ap
-jsdouble
+double
 )
 ;
 im
@@ -15274,7 +15280,7 @@ im
 va_arg
 (
 ap
-jsdouble
+double
 )
 ;
 if
@@ -15373,7 +15379,7 @@ u
 =
 0
 ;
-jsdouble
+double
 d
 =
 0
@@ -19051,7 +19057,7 @@ t_ticks
 }
 else
 {
-jsdouble
+double
 t_secs
 ;
 if
@@ -19536,7 +19542,7 @@ ScheduleWatchdog
 JSRuntime
 *
 rt
-jsdouble
+double
 t
 )
 {
@@ -19766,7 +19772,7 @@ ScheduleWatchdog
 JSRuntime
 *
 rt
-jsdouble
+double
 t
 )
 {
@@ -20059,7 +20065,7 @@ SetTimeoutValue
 JSContext
 *
 cx
-jsdouble
+double
 t
 )
 {
@@ -20190,7 +20196,7 @@ return
 JS_FALSE
 ;
 }
-jsdouble
+double
 t
 ;
 if
@@ -22114,7 +22120,7 @@ return
 JS_FALSE
 ;
 }
-jsdouble
+double
 t
 ;
 if

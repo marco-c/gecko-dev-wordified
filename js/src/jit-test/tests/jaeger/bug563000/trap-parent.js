@@ -33,7 +33,7 @@ parent
 trap
 (
 parent
-19
+27
 "
 success
 (
@@ -70,6 +70,11 @@ success
 "
 ;
 }
+dis
+(
+parent
+)
+;
 parent
 (
 )

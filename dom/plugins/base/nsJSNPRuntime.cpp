@@ -2480,7 +2480,7 @@ val
 )
 )
 {
-jsdouble
+double
 d
 =
 JSVAL_TO_DOUBLE

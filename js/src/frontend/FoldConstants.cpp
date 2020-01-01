@@ -839,7 +839,7 @@ PNK_STRING
 )
 )
 {
-jsdouble
+double
 d
 ;
 if
@@ -1044,7 +1044,7 @@ TreeContext
 tc
 )
 {
-jsdouble
+double
 d
 d2
 ;
@@ -5411,7 +5411,7 @@ PNK_NUMBER
 )
 )
 {
-jsdouble
+double
 d
 ;
 /

@@ -5113,7 +5113,7 @@ cx
 )
 )
 {
-jsdouble
+double
 d
 ;
 if
@@ -5198,7 +5198,7 @@ Step
 .
 *
 /
-jsdouble
+double
 d
 ;
 JS_ALWAYS_TRUE

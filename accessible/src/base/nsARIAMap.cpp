@@ -739,7 +739,7 @@ roles
 :
 COMBOBOX
 kUseMapRole
-eHasValueMinMax
+eNoValue
 eOpenCloseAction
 eNoLiveAttr
 states

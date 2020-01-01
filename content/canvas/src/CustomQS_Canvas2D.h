@@ -1776,7 +1776,7 @@ vp
 )
 ;
 }
-jsdouble
+double
 width
 height
 ;
@@ -1993,7 +1993,7 @@ cx
 vp
 )
 ;
-jsdouble
+double
 xd
 yd
 width
