@@ -546,6 +546,11 @@ gStartTime2
 var
 gCurrentTime
 ;
+var
+gSetupComplete
+=
+false
+;
 function
 process_future_calls
 (
@@ -4308,10 +4313,8 @@ original
 order
 if
 (
-gCurrentTime
-=
-=
-gStartTime2
+!
+gSetupComplete
 )
 {
 /
@@ -6390,6 +6393,10 @@ check_pseudo_element_tests
 ;
 }
 )
+;
+gSetupComplete
+=
+true
 ;
 <
 /
