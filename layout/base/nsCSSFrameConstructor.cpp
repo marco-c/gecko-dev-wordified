@@ -55271,11 +55271,14 @@ nsIFrame
 *
 nextSibling
 =
+FindNextNonWhitespaceSibling
+(
 inFlowFrame
 -
 >
-GetNextSibling
+GetLastContinuation
 (
+)
 )
 ;
 NS_ASSERTION
