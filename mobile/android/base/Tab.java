@@ -740,16 +740,6 @@ mUrl
 }
 public
 String
-getTitle
-(
-)
-{
-return
-mTitle
-;
-}
-public
-String
 getDisplayTitle
 (
 )
@@ -2085,9 +2075,7 @@ BrowserDB
 addBookmark
 (
 mContentResolver
-getTitle
-(
-)
+mTitle
 url
 )
 ;
