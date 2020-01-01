@@ -10203,7 +10203,6 @@ GeckoThread
 (
 intent
 mLastUri
-mLastTitle
 )
 ;
 if
@@ -10354,6 +10353,13 @@ browser_toolbar
 )
 ;
 }
+mBrowserToolbar
+.
+setTitle
+(
+mLastTitle
+)
+;
 mFavicons
 =
 new
