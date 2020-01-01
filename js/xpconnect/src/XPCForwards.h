@@ -552,9 +552,6 @@ class
 XPCWrappedNativeProtoMap
 ;
 class
-XPCNativeWrapperMap
-;
-class
 WrappedNative2WrapperMap
 ;
 class
