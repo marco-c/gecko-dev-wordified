@@ -1042,6 +1042,8 @@ Ci
 nsIAutoCompleteSearch
 )
 ;
+return
+;
 }
 /
 /
@@ -1186,6 +1188,8 @@ e
 )
 ;
 }
+return
+;
 }
 /
 /
