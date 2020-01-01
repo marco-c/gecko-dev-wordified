@@ -4625,7 +4625,7 @@ guess
 ;
 }
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 displacement
@@ -4694,7 +4694,7 @@ return
 it
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Failed
@@ -6856,7 +6856,7 @@ break
 }
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -12035,7 +12035,7 @@ IonFrame_Unwound_OptimizedJS
 case
 IonFrame_Unwound_BaselineStub
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 invalid
@@ -14360,7 +14360,7 @@ ION_DISABLED_SCRIPT
 return
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No

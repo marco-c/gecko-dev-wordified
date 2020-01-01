@@ -1035,7 +1035,7 @@ return
 true
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 fun_getProperty
@@ -12178,7 +12178,7 @@ return
 true
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Should

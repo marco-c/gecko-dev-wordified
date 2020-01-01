@@ -818,7 +818,7 @@ Wrapper
 baseInstance
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Call
@@ -856,7 +856,7 @@ Wrapper
 baseInstance
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Call

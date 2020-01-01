@@ -365,7 +365,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -673,7 +673,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -897,7 +897,7 @@ break
 }
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -1175,7 +1175,7 @@ true
 }
 else
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid

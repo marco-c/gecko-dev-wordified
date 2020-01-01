@@ -1254,7 +1254,7 @@ val
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -3689,7 +3689,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3764,7 +3764,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -6524,7 +6524,7 @@ DoubleGreaterThanOrEqual
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6677,7 +6677,7 @@ GreaterThanOrEqual
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unrecognized
@@ -6757,7 +6757,7 @@ AboveOrEqual
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unrecognized

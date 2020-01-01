@@ -5775,7 +5775,7 @@ comp
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unrecognized
@@ -9719,7 +9719,7 @@ handle
 them
 yet
 .
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -9952,7 +9952,7 @@ false
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -10106,7 +10106,7 @@ handle
 them
 yet
 .
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -10157,7 +10157,7 @@ MIRType_Undefined
 case
 MIRType_Boolean
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -10257,7 +10257,7 @@ effectful
 see
 ToPrimitive
 )
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -10891,7 +10891,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 typed
@@ -12517,7 +12517,7 @@ ins
 }
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -12993,7 +12993,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 typed
@@ -13703,7 +13703,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 typed
@@ -14328,7 +14328,7 @@ ins
 }
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -18136,7 +18136,7 @@ ReturnReg
 )
 ;
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected

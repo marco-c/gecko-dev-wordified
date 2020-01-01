@@ -2205,7 +2205,7 @@ maybeHookData
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2264,7 +2264,7 @@ data
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2317,7 +2317,7 @@ returnValue
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2377,7 +2377,7 @@ rval
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2430,7 +2430,7 @@ scopeChain
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2488,7 +2488,7 @@ scope
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2541,7 +2541,7 @@ callObj
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2597,7 +2597,7 @@ cx
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2671,7 +2671,7 @@ numActualArgs
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2723,7 +2723,7 @@ numFormalArgs
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2783,7 +2783,7 @@ checkAliasing
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2843,7 +2843,7 @@ checkAliasing
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2903,7 +2903,7 @@ checkAliasing
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2963,7 +2963,7 @@ checkAliasing
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3051,7 +3051,7 @@ maybeBlockChain
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3103,7 +3103,7 @@ hasCallObj
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3245,7 +3245,7 @@ isFunctionFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3297,7 +3297,7 @@ isGlobalFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3349,7 +3349,7 @@ isEvalFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3422,7 +3422,7 @@ isDebuggerFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3475,7 +3475,7 @@ script
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3528,7 +3528,7 @@ fun
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3581,7 +3581,7 @@ maybeFun
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3635,7 +3635,7 @@ callee
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3687,7 +3687,7 @@ calleev
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3739,7 +3739,7 @@ isNonEvalFunctionFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3791,7 +3791,7 @@ isNonStrictDirectEvalFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3843,7 +3843,7 @@ isStrictEvalFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3896,7 +3896,7 @@ argv
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -3948,7 +3948,7 @@ hasArgsObj
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4001,7 +4001,7 @@ argsObj
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4060,7 +4060,7 @@ argsobj
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4117,7 +4117,7 @@ vec
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4169,7 +4169,7 @@ prevUpToDate
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4223,7 +4223,7 @@ setPrevUpToDate
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4276,7 +4276,7 @@ thisValue
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4335,7 +4335,7 @@ cx
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4376,7 +4376,7 @@ cx
 )
 ;
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid

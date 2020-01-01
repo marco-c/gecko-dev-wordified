@@ -1162,7 +1162,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -1259,7 +1259,7 @@ MStoreTypedArrayElementStatic
 ins
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI

@@ -163,7 +163,7 @@ hasParallelIonScript
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -215,7 +215,7 @@ maybeParallelIonScript
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -273,7 +273,7 @@ ionScript
 return
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -321,7 +321,7 @@ offsetOfParallelIonScript
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -372,7 +372,7 @@ canParallelIonCompile
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -459,7 +459,7 @@ isParallelIonCompilingOffThread
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -509,7 +509,7 @@ isParallelIonCompilingOffThread
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -565,7 +565,7 @@ CompilerOutput
 ParallelIon
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No

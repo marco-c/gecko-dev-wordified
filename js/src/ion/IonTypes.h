@@ -385,7 +385,7 @@ Bailout_CachedShapeGuard
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -561,7 +561,7 @@ MIRType_Value
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -792,7 +792,7 @@ ForkJoinSlice
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown

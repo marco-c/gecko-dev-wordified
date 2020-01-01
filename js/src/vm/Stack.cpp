@@ -4589,7 +4589,7 @@ state_
 case
 DONE
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -4717,7 +4717,7 @@ popJitFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4788,7 +4788,7 @@ break
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -4918,7 +4918,7 @@ compartment
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5011,7 +5011,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5115,7 +5115,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5211,7 +5211,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5277,7 +5277,7 @@ isFunctionFrame
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5327,7 +5327,7 @@ return
 false
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5420,7 +5420,7 @@ isConstructing
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5498,7 +5498,7 @@ interpFrame
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5824,7 +5824,7 @@ endif
 break
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5926,7 +5926,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -5998,7 +5998,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6098,7 +6098,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6187,7 +6187,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6275,7 +6275,7 @@ scopeChain
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6420,7 +6420,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6509,7 +6509,7 @@ argsObj
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6648,7 +6648,7 @@ thisValue
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6727,7 +6727,7 @@ returnValue
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6814,7 +6814,7 @@ v
 return
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6965,7 +6965,7 @@ base
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -7101,7 +7101,7 @@ index
 ]
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -7314,7 +7314,7 @@ hasPushedSPSFrame
 ;
 #
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid

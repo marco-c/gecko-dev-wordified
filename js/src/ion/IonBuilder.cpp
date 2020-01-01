@@ -7632,7 +7632,7 @@ an
 error
 later
 .
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unknown
@@ -7689,7 +7689,7 @@ closing
 the
 loop
 .
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 we
@@ -9030,7 +9030,7 @@ the
 loop
 header
 .
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 JSOP_LOOPHEAD
@@ -9991,7 +9991,7 @@ state
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unknown
@@ -14250,7 +14250,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -14710,7 +14710,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -14891,7 +14891,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 JSOP_LOOPHEAD
@@ -20387,7 +20387,7 @@ break
 }
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -20507,7 +20507,7 @@ def
 =
 NULL
 ;
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unknown
@@ -20948,7 +20948,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -21278,7 +21278,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -41312,7 +41312,7 @@ types
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -45115,7 +45115,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown
@@ -45420,7 +45420,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown

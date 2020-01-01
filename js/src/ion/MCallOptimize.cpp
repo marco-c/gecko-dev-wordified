@@ -6701,7 +6701,7 @@ InliningStatus_Error
 continue
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Element
@@ -7133,7 +7133,7 @@ return
 InliningStatus_Inlined
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -8343,7 +8343,7 @@ callInfo
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unknown

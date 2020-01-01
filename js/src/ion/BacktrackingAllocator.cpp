@@ -8793,7 +8793,7 @@ break
 endif
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -11114,7 +11114,7 @@ appear
 in
 UsePositionIterator
 .
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad

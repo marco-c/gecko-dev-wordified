@@ -4665,7 +4665,7 @@ Condition
 c
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Feature
@@ -4831,7 +4831,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 trying
@@ -5194,7 +5194,7 @@ return
 NotEqual
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Condition
@@ -5285,7 +5285,7 @@ return
 NotEqual
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Condition
@@ -6122,7 +6122,7 @@ Condition
 cc
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Feature
@@ -8468,7 +8468,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Other
@@ -17485,7 +17485,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bogus
@@ -17933,7 +17933,7 @@ dest
 return
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 why
@@ -18262,7 +18262,7 @@ dest
 return
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 why

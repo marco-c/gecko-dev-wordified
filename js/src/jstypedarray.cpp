@@ -15600,7 +15600,7 @@ break
 }
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 copyFrom
@@ -16185,7 +16185,7 @@ break
 }
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 copyFromWithOverlap
@@ -24184,7 +24184,7 @@ class_constructor
 )
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -25014,7 +25014,7 @@ ArrayBufferView
 :
 TYPE_DATAVIEW
 ;
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 invalid

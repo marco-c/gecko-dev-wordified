@@ -14355,7 +14355,7 @@ break
 case
 TYPE_function
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 cannot
@@ -17401,7 +17401,7 @@ TYPE_void_t
 case
 TYPE_function
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 invalid
@@ -17922,7 +17922,7 @@ TYPE_void_t
 case
 TYPE_function
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 invalid
@@ -19235,7 +19235,7 @@ break
 case
 INVALID_ABI
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 invalid
@@ -21037,7 +21037,7 @@ break
 case
 TYPE_void_t
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 invalid
@@ -24243,7 +24243,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 simple
@@ -37522,7 +37522,7 @@ break
 case
 INVALID_ABI
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 invalid
@@ -46794,7 +46794,7 @@ address
 )
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Could
@@ -48160,7 +48160,7 @@ sizeBestArg
 )
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 object

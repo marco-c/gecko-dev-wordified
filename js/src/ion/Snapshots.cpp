@@ -1940,7 +1940,7 @@ slot
 endif
 }
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 huh
@@ -2526,7 +2526,7 @@ magic
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 no

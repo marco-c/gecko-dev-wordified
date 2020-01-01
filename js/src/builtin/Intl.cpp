@@ -588,7 +588,7 @@ UChar
 s
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 u_strlen
@@ -615,7 +615,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 uenum_count
@@ -644,7 +644,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 uenum_next
@@ -665,7 +665,7 @@ UEnumeration
 en
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 uenum_close
@@ -746,7 +746,7 @@ ucol_countAvailable
 void
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucol_countAvailable
@@ -768,7 +768,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucol_getAvailable
@@ -794,7 +794,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucol_open
@@ -822,7 +822,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucol_setAttribute
@@ -856,7 +856,7 @@ int32_t
 targetLength
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucol_strcoll
@@ -877,7 +877,7 @@ UCollator
 coll
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucol_close
@@ -909,7 +909,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucol_getKeywordValuesForLocale
@@ -976,7 +976,7 @@ unum_countAvailable
 void
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unum_countAvailable
@@ -998,7 +998,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unum_getAvailable
@@ -1035,7 +1035,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unum_open
@@ -1060,7 +1060,7 @@ int32_t
 newValue
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unum_setAttribute
@@ -1095,7 +1095,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unum_formatDouble
@@ -1116,7 +1116,7 @@ UNumberFormat
 fmt
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unum_close
@@ -1148,7 +1148,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unum_setTextAttribute
@@ -1216,7 +1216,7 @@ char
 keywordsAndValues
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Locale
@@ -1275,7 +1275,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NumberingSystem
@@ -1300,7 +1300,7 @@ getName
 (
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NumberingSystem
@@ -1352,7 +1352,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucal_open
@@ -1379,7 +1379,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucal_getType
@@ -1411,7 +1411,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucal_getKeywordValuesForLocale
@@ -1432,7 +1432,7 @@ UCalendar
 cal
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucal_close
@@ -1463,7 +1463,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udatpg_open
@@ -1498,7 +1498,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udatpg_getBestPattern
@@ -1519,7 +1519,7 @@ UDateTimePatternGenerator
 dtpg
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udatpg_close
@@ -1560,7 +1560,7 @@ udat_countAvailable
 void
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udat_countAvailable
@@ -1582,7 +1582,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udat_getAvailable
@@ -1624,7 +1624,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udat_open
@@ -1648,7 +1648,7 @@ UDateFormat
 fmt
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udat_getCalendar
@@ -1674,7 +1674,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ucal_setGregorianChange
@@ -1709,7 +1709,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udat_format
@@ -1730,7 +1730,7 @@ UDateFormat
 format
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 udat_close
