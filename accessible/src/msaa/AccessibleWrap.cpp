@@ -2465,8 +2465,10 @@ _geckoRole
 stringRole
 atkRole
 macRole
+\
 _msaaRole
 ia2Role
+nameRule
 )
 \
 case
@@ -6468,8 +6470,10 @@ _geckoRole
 stringRole
 atkRole
 macRole
+\
 msaaRole
 ia2Role
+nameRule
 )
 \
 case
