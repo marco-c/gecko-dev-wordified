@@ -1419,7 +1419,7 @@ bool
 aValue
 )
 {
-NS_ASSERTION
+NS_PRECONDITION
 (
 NS_IsMainThread
 (
