@@ -2171,7 +2171,7 @@ Type
 '
 application
 /
-xml
+json
 '
 )
 ;
