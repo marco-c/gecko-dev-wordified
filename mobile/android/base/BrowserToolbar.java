@@ -7398,7 +7398,7 @@ setUrlEditContainerVisibility
 (
 final
 boolean
-visible
+showEditContainer
 PropertyAnimator
 animator
 )
@@ -7408,7 +7408,7 @@ View
 viewToShow
 =
 (
-visible
+showEditContainer
 ?
 mUrlEditContainer
 :
@@ -7420,7 +7420,7 @@ View
 viewToHide
 =
 (
-visible
+showEditContainer
 ?
 mUrlDisplayContainer
 :
@@ -7455,7 +7455,7 @@ VISIBLE
 ;
 if
 (
-visible
+showEditContainer
 )
 {
 mUrlEditText
@@ -7541,7 +7541,7 @@ VISIBLE
 ;
 if
 (
-visible
+showEditContainer
 )
 {
 ViewHelper
@@ -7590,7 +7590,7 @@ GONE
 ;
 if
 (
-visible
+showEditContainer
 )
 {
 ViewHelper
