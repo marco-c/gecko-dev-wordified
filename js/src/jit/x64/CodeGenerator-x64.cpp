@@ -531,7 +531,7 @@ result
 else
 masm
 .
-movqsd
+movq
 (
 ToFloatRegister
 (
