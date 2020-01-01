@@ -3758,6 +3758,8 @@ search
 (
 js
 |
+jsm
+|
 java
 )
 (
