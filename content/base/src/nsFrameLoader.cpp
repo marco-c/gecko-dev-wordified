@@ -8245,6 +8245,11 @@ do_QueryInterface
 container
 )
 ;
+NS_ENSURE_STATE
+(
+parentAsWebNav
+)
+;
 /
 /
 Create
@@ -8629,6 +8634,11 @@ getter_AddRefs
 (
 parentTreeOwner
 )
+)
+;
+NS_ENSURE_STATE
+(
+parentTreeOwner
 )
 ;
 mIsTopLevelContent
