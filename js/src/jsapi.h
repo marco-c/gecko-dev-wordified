@@ -19986,10 +19986,10 @@ obj
 }
 ;
 struct
-NonFunObjOrNull
+NonFunObjOrNullTag
 {
 explicit
-NonFunObjOrNull
+NonFunObjOrNullTag
 (
 JSObject
 *
@@ -20664,6 +20664,7 @@ arg
 {
 JS_ASSERT
 (
+!
 JS_ObjectIsFunction
 (
 NULL
@@ -20690,7 +20691,7 @@ obj
 }
 Value
 (
-NonFunObjOrNull
+NonFunObjOrNullTag
 arg
 )
 {

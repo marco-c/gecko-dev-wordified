@@ -1351,7 +1351,11 @@ NonFunObjTag
 *
 proto
 )
+NonFunObjTag
+(
+*
 parent
+)
 NullTag
 (
 )
@@ -15317,7 +15321,10 @@ funobj
 >
 setParent
 (
+ObjectOrNullTag
+(
 parent
+)
 )
 ;
 }

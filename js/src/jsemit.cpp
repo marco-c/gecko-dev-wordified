@@ -8841,10 +8841,13 @@ blockObj
 >
 setParent
 (
+NonFunObjOrNullTag
+(
 tc
 -
 >
 blockChain
+)
 )
 ;
 stmt
