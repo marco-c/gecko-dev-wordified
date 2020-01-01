@@ -231,14 +231,6 @@ resulting
 in
 a
 failure
-historyService
-.
-removeObserver
-(
-historyObserver
-false
-)
-;
 finish
 (
 )
