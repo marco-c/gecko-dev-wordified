@@ -3293,6 +3293,12 @@ ACCSET_OBJ_FLAGS
 :
 ok
 =
+false
+;
+/
+/
+ok
+=
 OK_OBJ_FIELD
 (
 LIR_ldi

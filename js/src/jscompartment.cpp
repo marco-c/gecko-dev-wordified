@@ -3403,6 +3403,13 @@ cx
 sweepNewTypeObjectTable
 (
 cx
+newTypeObjects
+)
+;
+sweepNewTypeObjectTable
+(
+cx
+lazyTypeObjects
 )
 ;
 if

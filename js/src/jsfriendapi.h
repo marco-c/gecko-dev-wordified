@@ -1172,12 +1172,6 @@ TypeObject
 *
 type
 ;
-uint32
-_1
-;
-uint32
-_2
-;
 js
 :
 :
@@ -1190,7 +1184,7 @@ js
 :
 Value
 *
-_3
+_1
 ;
 size_t
 numFixedSlots
