@@ -800,6 +800,7 @@ aFilePickerTitleKey
 aShouldBypassCache
 aSkipPrompt
 aReferrer
+aDoc
 )
 {
 var
@@ -834,7 +835,7 @@ org
 /
 image
 /
-cache
+tools
 ;
 1
 "
@@ -842,7 +843,16 @@ cache
 .
 getService
 (
-imgICache
+Components
+.
+interfaces
+.
+imgITools
+)
+.
+getImgCacheForDocument
+(
+aDoc
 )
 ;
 var
