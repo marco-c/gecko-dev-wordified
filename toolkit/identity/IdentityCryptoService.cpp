@@ -165,6 +165,13 @@ h
 #
 include
 "
+nsProxyRelease
+.
+h
+"
+#
+include
+"
 nsStringGlue
 .
 h
@@ -740,7 +747,7 @@ mKeyType
 /
 /
 in
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIIdentityKeyGenCallback
 >
@@ -1618,7 +1625,14 @@ keyType
 )
 mCallback
 (
+new
+nsMainThreadPtrHolder
+<
+nsIIdentityKeyGenCallback
+>
+(
 callback
+)
 )
 mRv
 (
