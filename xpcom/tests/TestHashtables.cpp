@@ -1495,7 +1495,7 @@ was
 copied
 wholesale
 from
-TestCOMPTr
+TestCOMPtr
 .
 cpp
 /
@@ -1532,8 +1532,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IFOO_IID
 )
-public
-:
 IFoo
 (
 )
