@@ -3941,12 +3941,9 @@ GeckoProcessType_Default
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsRefPtr
-<
-ContentParent
->
 unused
-=
+<
+<
 ContentParent
 :
 :

@@ -2182,10 +2182,8 @@ false
 static
 *
 /
-already_AddRefed
-<
 ContentParent
->
+*
 ContentParent
 :
 :
@@ -2347,10 +2345,6 @@ p
 ;
 return
 p
-.
-forget
-(
-)
 ;
 }
 namespace
@@ -2740,10 +2734,8 @@ HasOwnApp
 {
 if
 (
-nsRefPtr
-<
 ContentParent
->
+*
 cp
 =
 GetNewOrUsed

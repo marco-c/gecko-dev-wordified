@@ -516,10 +516,8 @@ JoinAllSubprocesses
 )
 ;
 static
-already_AddRefed
-<
 ContentParent
->
+*
 GetNewOrUsed
 (
 bool
