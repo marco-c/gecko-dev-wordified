@@ -1874,6 +1874,9 @@ variable
 BindingKind
 lookup
 (
+JSContext
+*
+cx
 JSAtom
 *
 name
@@ -1901,6 +1904,9 @@ name
 bool
 hasBinding
 (
+JSContext
+*
+cx
 JSAtom
 *
 name
@@ -1910,6 +1916,7 @@ const
 return
 lookup
 (
+cx
 name
 NULL
 )

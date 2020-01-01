@@ -11079,6 +11079,7 @@ bindings
 .
 hasBinding
 (
+cx
 atom
 )
 )
@@ -13182,6 +13183,7 @@ bindings
 .
 lookup
 (
+cx
 atom
 &
 index
@@ -31617,6 +31619,7 @@ bindings
 .
 lookup
 (
+cx
 fun
 -
 >

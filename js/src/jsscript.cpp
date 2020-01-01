@@ -651,6 +651,9 @@ Bindings
 :
 lookup
 (
+JSContext
+*
+cx
 JSAtom
 *
 name
@@ -676,6 +679,10 @@ Shape
 :
 search
 (
+cx
+-
+>
+runtime
 const_cast
 <
 Shape
@@ -1810,6 +1817,7 @@ kind
 endif
 lookup
 (
+cx
 name
 &
 index

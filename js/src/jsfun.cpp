@@ -8874,6 +8874,7 @@ bindings
 .
 hasBinding
 (
+cx
 JSID_TO_ATOM
 (
 id
@@ -16539,6 +16540,7 @@ bindings
 .
 hasBinding
 (
+cx
 atom
 )
 )
