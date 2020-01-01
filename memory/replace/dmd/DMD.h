@@ -167,10 +167,6 @@ const
 void
 *
 aPtr
-const
-char
-*
-aReporterName
 )
 ;
 /
@@ -193,10 +189,6 @@ const
 void
 *
 aPtr
-const
-char
-*
-aReporterName
 )
 ;
 class
