@@ -9986,11 +9986,6 @@ SetThemeRegion
 )
 ;
 }
-NotifyRollupGeometryChange
-(
-sRollupListener
-)
-;
 return
 NS_OK
 ;
@@ -10185,11 +10180,6 @@ Invalidate
 (
 )
 ;
-NotifyRollupGeometryChange
-(
-sRollupListener
-)
-;
 return
 NS_OK
 ;
@@ -10412,11 +10402,6 @@ aRepaint
 )
 Invalidate
 (
-)
-;
-NotifyRollupGeometryChange
-(
-sRollupListener
 )
 ;
 return
