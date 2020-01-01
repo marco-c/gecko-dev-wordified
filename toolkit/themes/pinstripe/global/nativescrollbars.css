@@ -716,7 +716,7 @@ appearance
 :
 scrollbartrack
 -
-vertical
+horizontal
 ;
 }
 slider
@@ -724,7 +724,7 @@ slider
 orient
 =
 "
-horizontal
+vertical
 "
 ]
 {
@@ -735,7 +735,7 @@ appearance
 :
 scrollbartrack
 -
-horizontal
+vertical
 ;
 }
 /
@@ -762,7 +762,7 @@ appearance
 :
 scrollbarthumb
 -
-vertical
+horizontal
 ;
 }
 thumb
@@ -770,7 +770,7 @@ thumb
 orient
 =
 "
-horizontal
+vertical
 "
 ]
 {
@@ -781,7 +781,7 @@ appearance
 :
 scrollbarthumb
 -
-horizontal
+vertical
 ;
 }
 /
