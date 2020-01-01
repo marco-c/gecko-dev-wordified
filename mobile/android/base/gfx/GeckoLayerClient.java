@@ -586,7 +586,7 @@ class
 GeckoLayerClient
 implements
 GeckoEventResponder
-FlexibleGLSurfaceView
+LayerView
 .
 Listener
 {
@@ -3288,7 +3288,7 @@ deactivateDefaultProgram
 *
 Implementation
 of
-FlexibleGLSurfaceView
+LayerView
 .
 Listener
 *
@@ -3311,7 +3311,7 @@ scheduleComposite
 *
 Implementation
 of
-FlexibleGLSurfaceView
+LayerView
 .
 Listener
 *
@@ -3367,7 +3367,7 @@ createCompositorPauseEvent
 *
 Implementation
 of
-FlexibleGLSurfaceView
+LayerView
 .
 Listener
 *
@@ -3467,7 +3467,7 @@ createCompositorResumeEvent
 *
 Implementation
 of
-FlexibleGLSurfaceView
+LayerView
 .
 Listener
 *
