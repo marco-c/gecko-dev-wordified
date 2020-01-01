@@ -580,6 +580,11 @@ Ursh
 \
 _
 (
+Abs
+)
+\
+_
+(
 Add
 )
 \
@@ -811,6 +816,11 @@ GenericSetProperty
 _
 (
 StringLength
+)
+\
+_
+(
+Round
 )
 /
 /
