@@ -3180,7 +3180,7 @@ return
 LayoutDeviceIntPoint
 :
 :
-FromAppUnits
+FromAppUnitsRounded
 (
 CSSPoint
 :
