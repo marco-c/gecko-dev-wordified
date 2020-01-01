@@ -2217,6 +2217,15 @@ nsIFrame
 aStart
 )
 ;
+nsIScrollableFrame
+*
+GetScrollFrame
+(
+nsIFrame
+*
+aStart
+)
+;
 /
 /
 same

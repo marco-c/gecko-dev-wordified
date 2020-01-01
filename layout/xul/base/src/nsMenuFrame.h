@@ -1046,6 +1046,13 @@ PRBool
 aActivateFlag
 )
 ;
+virtual
+nsIScrollableFrame
+*
+GetScrollTargetFrame
+(
+)
+;
 /
 *
 *
