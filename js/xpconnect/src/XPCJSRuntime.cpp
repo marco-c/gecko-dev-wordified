@@ -2154,6 +2154,9 @@ Release
 ;
 }
 }
+#
+ifdef
+DEBUG
 bool
 XPCJSRuntime
 :
@@ -2175,6 +2178,8 @@ nullptr
 )
 ;
 }
+#
+endif
 /
 /
 static
