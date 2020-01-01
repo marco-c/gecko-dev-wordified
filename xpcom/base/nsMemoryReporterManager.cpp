@@ -3401,7 +3401,7 @@ aKind
 nsIMemoryReporter
 :
 :
-KIND_MAPPED
+KIND_NONHEAP
 &
 &
 aAmount
@@ -3586,7 +3586,7 @@ InfallibleTArray
 <
 MemoryReport
 >
-mapped
+nonheap
 ;
 PRInt64
 heapUsed
@@ -3608,7 +3608,7 @@ allocated
 and
 all
 the
-KIND_MAPPED
+KIND_NONHEAP
 measurements
 from
 vanilla
@@ -3697,7 +3697,7 @@ kind
 nsIMemoryReporter
 :
 :
-KIND_MAPPED
+KIND_NONHEAP
 )
 {
 nsCString
@@ -3744,7 +3744,7 @@ rv
 Just
 skip
 any
-MAPPED
+NONHEAP
 reporters
 that
 fail
@@ -3781,7 +3781,7 @@ path
 amount
 )
 ;
-mapped
+nonheap
 .
 AppendElement
 (
@@ -3895,7 +3895,7 @@ NS_OK
 /
 /
 Get
-KIND_MAPPED
+KIND_NONHEAP
 measurements
 from
 multi
@@ -3927,7 +3927,7 @@ new
 MemoryReportsWrapper
 (
 &
-mapped
+nonheap
 )
 ;
 nsRefPtr
@@ -4038,7 +4038,7 @@ in
 the
 number
 of
-MAPPED
+NONHEAP
 reporters
 but
 there
@@ -4059,7 +4059,7 @@ i
 ;
 i
 <
-mapped
+nonheap
 .
 Length
 (
@@ -4075,7 +4075,7 @@ nsCString
 &
 iPath
 =
-mapped
+nonheap
 [
 i
 ]
@@ -4093,7 +4093,7 @@ i
 ;
 j
 <
-mapped
+nonheap
 .
 Length
 (
@@ -4109,7 +4109,7 @@ nsCString
 &
 jPath
 =
-mapped
+nonheap
 [
 j
 ]
@@ -4125,7 +4125,7 @@ jPath
 )
 )
 {
-mapped
+nonheap
 [
 j
 ]
@@ -4145,7 +4145,7 @@ iPath
 )
 )
 {
-mapped
+nonheap
 [
 i
 ]
@@ -4162,7 +4162,7 @@ amount
 Sum
 all
 the
-mapped
+nonheap
 reporters
 and
 heapUsed
@@ -4181,7 +4181,7 @@ i
 ;
 i
 <
-mapped
+nonheap
 .
 Length
 (
@@ -4196,7 +4196,7 @@ i
 aExplicit
 +
 =
-mapped
+nonheap
 [
 i
 ]
