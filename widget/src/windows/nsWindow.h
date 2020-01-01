@@ -2993,6 +2993,15 @@ ClearCachedResources
 (
 )
 ;
+nsPopupType
+PopupType
+(
+)
+{
+return
+mPopupType
+;
+}
 protected
 :
 nsCOMPtr
