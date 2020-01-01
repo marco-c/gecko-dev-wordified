@@ -5238,6 +5238,9 @@ PRPackedBool
 mAllowDNSPrefetch
 ;
 PRPackedBool
+mAllowWindowControl
+;
+PRPackedBool
 mCreatingDocument
 ;
 /
