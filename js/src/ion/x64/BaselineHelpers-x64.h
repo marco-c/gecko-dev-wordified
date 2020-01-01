@@ -541,7 +541,7 @@ rdx
 ;
 masm
 .
-storePtr
+store32
 (
 rdx
 Address
@@ -796,7 +796,7 @@ ScratchReg
 ;
 masm
 .
-storePtr
+store32
 (
 ScratchReg
 Address

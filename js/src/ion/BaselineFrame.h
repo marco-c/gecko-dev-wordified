@@ -470,7 +470,7 @@ value
 uint32_t
 hiReturnValue_
 ;
-size_t
+uint32_t
 frameSize_
 ;
 JSObject
@@ -600,7 +600,7 @@ void
 *
 )
 ;
-size_t
+uint32_t
 frameSize
 (
 )
@@ -613,7 +613,7 @@ frameSize_
 void
 setFrameSize
 (
-size_t
+uint32_t
 frameSize
 )
 {
@@ -623,7 +623,7 @@ frameSize
 ;
 }
 inline
-size_t
+uint32_t
 *
 addressOfFrameSize
 (
@@ -1088,6 +1088,8 @@ unsigned
 i
 MaybeCheckAliasing
 checkAliasing
+=
+CHECK_ALIASING
 )
 const
 {

@@ -636,7 +636,7 @@ r1
 ;
 masm
 .
-storePtr
+store32
 (
 r1
 Address
@@ -947,7 +947,7 @@ scratch
 ;
 masm
 .
-storePtr
+store32
 (
 scratch
 Address
