@@ -2647,6 +2647,8 @@ const
 nsACString
 &
 aString
+PRBool
+aRejectNonChar
 )
 {
 nsReadingIterator
@@ -3063,6 +3065,18 @@ UTF
 8
 string
 }
+if
+(
+nonchar
+&
+&
+!
+aRejectNonChar
+)
+nonchar
+=
+PR_FALSE
+;
 while
 (
 ptr
