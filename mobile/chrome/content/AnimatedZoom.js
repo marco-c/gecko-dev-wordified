@@ -1014,6 +1014,12 @@ dispatchEvent
 event
 )
 ;
+browser
+.
+_updateCSSViewport
+(
+)
+;
 }
 isZooming
 :
