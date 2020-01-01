@@ -578,6 +578,13 @@ WinUtils
 .
 h
 "
+#
+include
+"
+nsPIDOMWindow
+.
+h
+"
 using
 namespace
 mozilla
