@@ -1219,6 +1219,11 @@ mFiringDepth
 ;
 /
 /
+PRUint32
+mNestingLevel
+;
+/
+/
 The
 popup
 state
