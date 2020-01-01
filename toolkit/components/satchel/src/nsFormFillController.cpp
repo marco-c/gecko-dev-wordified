@@ -1721,7 +1721,7 @@ mFocusedInput
 mFocusedPopup
 -
 >
-OpenPopup
+OpenAutocompletePopup
 (
 this
 popupRect
