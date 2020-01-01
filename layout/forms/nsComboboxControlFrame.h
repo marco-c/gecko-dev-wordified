@@ -1264,6 +1264,8 @@ this
 NS_IMETHOD
 Rollup
 (
+PRUint32
+aCount
 nsIContent
 *
 *
