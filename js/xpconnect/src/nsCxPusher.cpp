@@ -700,17 +700,6 @@ JSContext
 cx
 )
 {
-nsXPConnect
-*
-xpc
-=
-nsXPConnect
-:
-:
-XPConnect
-(
-)
-;
 /
 /
 NB
