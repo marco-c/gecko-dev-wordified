@@ -873,10 +873,7 @@ deferred_entry
 PRUint16
 mFlags
 ;
-nsRefPtr
-<
-nsGenericHTMLElement
->
+nsWeakPtr
 mElement
 ;
 }
