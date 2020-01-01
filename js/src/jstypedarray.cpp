@@ -5987,9 +5987,11 @@ isDenseArray
 )
 &
 &
-js_DenseArrayCapacity
-(
 ar
+-
+>
+getDenseArrayCapacity
+(
 )
 >
 =
@@ -6016,7 +6018,9 @@ src
 ar
 -
 >
-dslots
+getDenseArrayElements
+(
+)
 ;
 for
 (
