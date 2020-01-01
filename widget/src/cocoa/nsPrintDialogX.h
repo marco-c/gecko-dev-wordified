@@ -506,6 +506,9 @@ aParent
 nsIPrintSettings
 *
 aSettings
+nsIWebBrowserPrint
+*
+aWebBrowserPrint
 )
 ;
 NS_IMETHODIMP

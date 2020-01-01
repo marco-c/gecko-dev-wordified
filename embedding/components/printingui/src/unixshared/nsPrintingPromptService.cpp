@@ -1151,6 +1151,7 @@ Show
 (
 parent
 printSettings
+webBrowserPrint
 )
 ;
 /
