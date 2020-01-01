@@ -38749,10 +38749,10 @@ cx
 regs
 .
 pc
+(
+JSProtoKey
+)
 i
-=
-=
-JSProto_Array
 )
 ;
 if
@@ -38861,7 +38861,7 @@ cx
 regs
 .
 pc
-true
+JSProto_Array
 )
 ;
 if
@@ -38925,7 +38925,7 @@ cx
 regs
 .
 pc
-false
+JSProto_Object
 )
 ;
 if

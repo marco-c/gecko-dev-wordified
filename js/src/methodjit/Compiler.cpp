@@ -43981,6 +43981,10 @@ initObject
 cx
 PC
 isArray
+?
+JSProto_Array
+:
+JSProto_Object
 )
 ;
 if

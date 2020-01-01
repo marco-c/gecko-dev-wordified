@@ -18431,7 +18431,7 @@ newtype
 GetTypeCallerInitObject
 (
 cx
-true
+JSProto_Array
 )
 ;
 if
@@ -19555,7 +19555,7 @@ type
 GetTypeCallerInitObject
 (
 cx
-true
+JSProto_Array
 )
 ;
 if

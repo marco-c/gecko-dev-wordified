@@ -6559,8 +6559,7 @@ NULL
 js_JSON_str
 "
 "
-false
-false
+JSProto_Object
 JSON
 -
 >

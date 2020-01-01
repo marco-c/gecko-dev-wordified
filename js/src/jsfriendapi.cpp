@@ -795,8 +795,7 @@ Unique
 "
 "
 "
-false
-false
+JSProto_Object
 proto
 )
 ;

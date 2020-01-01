@@ -12178,8 +12178,7 @@ name
 "
 prototype
 "
-false
-false
+JSProto_Object
 objProto
 )
 ;
@@ -18418,8 +18417,7 @@ NULL
 name
 "
 "
-true
-false
+JSProto_Function
 funobj
 -
 >
@@ -19218,8 +19216,7 @@ ClonedFunction
 "
 "
 "
-true
-false
+JSProto_Function
 clone
 -
 >

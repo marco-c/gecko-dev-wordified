@@ -9223,8 +9223,7 @@ js_ProxyClass
 name
 "
 "
-false
-false
+JSProto_Object
 module
 -
 >
