@@ -491,6 +491,17 @@ nsCOMPtr
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+DOMError
+.
+h
+"
+#
 define
 NS_PROGRESS_EVENT_INTERVAL
 50
@@ -552,7 +563,7 @@ aReadyState
 NS_METHOD
 GetError
 (
-nsIDOMFileError
+nsIDOMDOMError
 *
 *
 aError
@@ -733,7 +744,7 @@ mTimerIsActive
 ;
 nsCOMPtr
 <
-nsIDOMFileError
+nsIDOMDOMError
 >
 mError
 ;

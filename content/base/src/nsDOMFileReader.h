@@ -533,13 +533,6 @@ h
 #
 include
 "
-nsIDOMFileError
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h

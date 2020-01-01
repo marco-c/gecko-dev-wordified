@@ -1775,10 +1775,6 @@ FileException
 )
 DOMCI_CLASS
 (
-FileError
-)
-DOMCI_CLASS
-(
 FileReader
 )
 DOMCI_CLASS

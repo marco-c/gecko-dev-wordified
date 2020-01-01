@@ -1394,7 +1394,7 @@ nsDOMFileReader
 :
 GetError
 (
-nsIDOMFileError
+nsIDOMDOMError
 *
 *
 aError
