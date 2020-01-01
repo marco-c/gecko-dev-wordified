@@ -3258,7 +3258,7 @@ f
 void
 enterFakeExitFrame
 (
-void
+IonCode
 *
 codeVal
 =
