@@ -2594,6 +2594,19 @@ def
 )
 ;
 }
+if
+(
+def
+-
+>
+numOperands
+(
+)
+=
+=
+2
+)
+{
 /
 /
 Unbox
@@ -2622,6 +2635,7 @@ staticAdjustInputs
 def
 )
 ;
+}
 return
 true
 ;

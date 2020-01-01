@@ -727,6 +727,11 @@ In
 \
 _
 (
+InstanceOfTyped
+)
+\
+_
+(
 InstanceOf
 )
 \

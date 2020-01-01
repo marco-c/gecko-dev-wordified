@@ -948,7 +948,7 @@ will
 be
 boxed
 to
-an
+a
 Value
 (
 except
@@ -960,6 +960,10 @@ object
 /
 Second
 operand
+(
+if
+specified
+)
 will
 forcefully
 be
