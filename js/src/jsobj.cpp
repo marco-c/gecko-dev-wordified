@@ -16309,13 +16309,6 @@ map
 obj
 )
 ;
-obj
--
->
-map
-=
-NULL
-;
 FreeSlots
 (
 cx
