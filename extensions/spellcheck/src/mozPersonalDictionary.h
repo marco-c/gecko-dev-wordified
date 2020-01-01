@@ -492,6 +492,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -739,7 +746,10 @@ Init
 ;
 protected
 :
-nsStringArray
+nsTArray
+<
+nsString
+>
 mDictionary
 ;
 /

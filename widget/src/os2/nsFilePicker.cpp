@@ -1652,7 +1652,7 @@ pfnDlgProc
 =
 FileDialogProc
 ;
-int
+PRUint32
 i
 ;
 PSZ
@@ -1669,7 +1669,7 @@ malloc
 (
 mTitles
 .
-Count
+Length
 (
 )
 *
@@ -1691,7 +1691,7 @@ i
 <
 mTitles
 .
-Count
+Length
 (
 )
 ;
@@ -1705,7 +1705,6 @@ nsString
 &
 typeWide
 =
-*
 mTitles
 [
 i
@@ -1782,7 +1781,7 @@ malloc
 (
 mFilters
 .
-Count
+Length
 (
 )
 *
@@ -1804,7 +1803,7 @@ i
 <
 mFilters
 .
-Count
+Length
 (
 )
 ;
@@ -1818,7 +1817,6 @@ nsString
 &
 filterWide
 =
-*
 mFilters
 [
 i
@@ -2557,7 +2555,7 @@ i
 <
 mTitles
 .
-Count
+Length
 (
 )
 ;
@@ -2600,7 +2598,7 @@ i
 <
 mFilters
 .
-Count
+Length
 (
 )
 ;
@@ -4924,7 +4922,7 @@ apps
 )
 mFilters
 .
-AppendString
+AppendElement
 (
 NS_LITERAL_STRING
 (
@@ -4951,14 +4949,14 @@ bat
 else
 mFilters
 .
-AppendString
+AppendElement
 (
 aFilter
 )
 ;
 mTitles
 .
-AppendString
+AppendElement
 (
 aTitle
 )

@@ -459,6 +459,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 gfxFontconfigUtils
 .
 h
@@ -975,7 +982,10 @@ const
 nsACString
 &
 aGenericFamily
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aListOfFonts
 )
@@ -1374,7 +1384,10 @@ known
 to
 the
 system
-nsStringArray
+nsTArray
+<
+nsString
+>
 fontList
 ;
 nsCAutoString
@@ -1419,7 +1432,7 @@ generic
 entries
 for
 (
-int
+PRUint32
 i
 =
 3
@@ -1428,7 +1441,7 @@ i
 <
 fontList
 .
-Count
+Length
 (
 )
 ;
@@ -1460,7 +1473,6 @@ n
 i
 NS_LossyConvertUTF16toASCII
 (
-*
 fontList
 [
 i
@@ -1485,7 +1497,6 @@ gfxOS2Font
 :
 GetOrMakeFont
 (
-*
 fontList
 [
 i

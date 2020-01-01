@@ -746,7 +746,10 @@ nsresult
 RemoveOwners
 (
 const
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aOwners
 PRBool

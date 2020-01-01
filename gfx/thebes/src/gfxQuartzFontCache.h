@@ -508,6 +508,13 @@ nsVoidArray
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 /
 /
 used
@@ -1402,7 +1409,10 @@ const
 nsACString
 &
 aGenericFamily
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aListOfFonts
 )

@@ -582,6 +582,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsHTMLObjectResizer
 .
 h
@@ -1167,7 +1174,10 @@ aInputString
 NS_IMETHOD
 GetParentBlockTags
 (
-nsStringArray
+nsTArray
+<
+nsString
+>
 *
 aTagList
 PRBool
@@ -5506,7 +5516,10 @@ and
 their
 urls
 .
-nsStringArray
+nsTArray
+<
+nsString
+>
 mStyleSheetURLs
 ;
 nsCOMArray
