@@ -4639,6 +4639,8 @@ Class
 aclasp
 )
 ;
+public
+:
 bool
 marked
 (
@@ -4656,6 +4658,8 @@ MARK
 0
 ;
 }
+protected
+:
 void
 mark
 (

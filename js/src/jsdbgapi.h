@@ -1345,15 +1345,12 @@ included
 *
 /
 extern
-void
+bool
 js_TraceWatchPoints
 (
 JSTracer
 *
 trc
-JSObject
-*
-obj
 )
 ;
 extern
