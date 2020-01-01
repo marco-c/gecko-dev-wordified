@@ -3466,6 +3466,10 @@ cx
 >
 stack
 .
+space
+(
+)
+.
 containsSlow
 (
 fp
@@ -3564,6 +3568,10 @@ cx
 -
 >
 stack
+.
+space
+(
+)
 .
 containsSlow
 (
