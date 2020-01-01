@@ -3607,10 +3607,8 @@ PresContext
 (
 )
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 presShell
 =
 presContext

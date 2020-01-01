@@ -1274,10 +1274,8 @@ IsHTML
 continue
 ;
 }
-nsCOMPtr
-<
 nsIAtom
->
+*
 tag
 =
 childContent
