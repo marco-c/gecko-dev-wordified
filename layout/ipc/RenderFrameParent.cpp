@@ -233,6 +233,13 @@ h
 #
 include
 "
+nsView
+.
+h
+"
+#
+include
+"
 nsViewportFrame
 .
 h

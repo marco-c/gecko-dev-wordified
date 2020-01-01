@@ -169,13 +169,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -258,6 +251,9 @@ nsBlockFrame
 ;
 class
 gfxDrawable
+;
+class
+nsView
 ;
 namespace
 mozilla
