@@ -5032,6 +5032,9 @@ private
 PRBool
 mIsRegisteredFolderObserver
 ;
+PRBool
+mBatchInProgress
+;
 }
 ;
 /
