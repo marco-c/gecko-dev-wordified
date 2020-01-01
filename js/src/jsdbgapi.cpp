@@ -3605,7 +3605,6 @@ FindWatchPoint
 JSRuntime
 *
 rt
-const
 JSScope
 *
 scope
@@ -3701,7 +3700,6 @@ js_FindWatchPoint
 JSRuntime
 *
 rt
-const
 JSScope
 *
 scope
