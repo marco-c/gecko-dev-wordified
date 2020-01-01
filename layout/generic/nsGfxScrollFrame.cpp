@@ -19664,7 +19664,6 @@ widgetRect
 )
 return
 ;
-nsRect
 resizerRect
 =
 nsRect
