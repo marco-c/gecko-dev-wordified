@@ -7508,6 +7508,13 @@ header
 !
 aName
 ;
+child
+.
+_wasToggled
+=
+!
+aName
+;
 return
 child
 ;
