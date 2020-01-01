@@ -2439,10 +2439,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-ArrayBufferObject
-:
-:
-protoClass
+ArrayBufferClass
 )
 )
 ;
@@ -2481,10 +2478,7 @@ getClass
 =
 =
 &
-ArrayBufferObject
-:
-:
-protoClass
+ArrayBufferClass
 )
 ;
 js
@@ -9137,6 +9131,12 @@ proto
 getNewType
 (
 cx
+obj
+-
+>
+getClass
+(
+)
 )
 ;
 if

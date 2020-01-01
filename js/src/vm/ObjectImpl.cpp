@@ -1899,12 +1899,10 @@ Class
 *
 clasp
 =
-shape_
+type_
 -
 >
-getObjectClass
-(
-)
+clasp
 ;
 JSObject
 *

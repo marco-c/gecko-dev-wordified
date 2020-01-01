@@ -17979,6 +17979,7 @@ JSObject
 setNewTypeUnknown
 (
 cx
+clasp
 protoObj
 )
 )

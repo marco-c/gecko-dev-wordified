@@ -8477,6 +8477,7 @@ proto
 getNewType
 (
 cx
+clasp
 )
 )
 ;

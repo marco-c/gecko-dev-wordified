@@ -10921,6 +10921,8 @@ getProto
 >
 hasNewType
 (
+&
+ArrayClass
 nobj
 -
 >
@@ -15575,6 +15577,8 @@ proto
 getNewType
 (
 cx
+&
+ArrayClass
 )
 )
 ;
@@ -15764,6 +15768,8 @@ JSObject
 setNewTypeUnknown
 (
 cx
+&
+ArrayClass
 arrayProto
 )
 )
@@ -16121,6 +16127,8 @@ proto
 getNewType
 (
 cx
+&
+ArrayClass
 )
 )
 ;

@@ -1726,6 +1726,10 @@ shadow
 struct
 TypeObject
 {
+Class
+*
+clasp
+;
 JSObject
 *
 proto
@@ -2098,10 +2102,7 @@ obj
 )
 -
 >
-shape
--
->
-base
+type
 -
 >
 clasp

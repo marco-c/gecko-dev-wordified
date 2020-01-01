@@ -2780,6 +2780,11 @@ compartment
 getNewType
 (
 cx
+&
+PropertyIteratorObject
+:
+:
+class_
 NULL
 )
 )
