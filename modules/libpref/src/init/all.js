@@ -7215,7 +7215,7 @@ dom
 .
 new_bindings
 "
-false
+true
 )
 ;
 /
