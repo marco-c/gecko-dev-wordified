@@ -35,7 +35,7 @@ success
 The
 JSOP_STOP
 in
-main
+a
 .
 *
 /

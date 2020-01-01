@@ -47,10 +47,6 @@ code
 obj
 )
 {
-assertJit
-(
-)
-;
 eval
 (
 code

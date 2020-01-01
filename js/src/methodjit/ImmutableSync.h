@@ -691,13 +691,6 @@ public
 :
 ImmutableSync
 (
-JSContext
-*
-cx
-const
-FrameState
-&
-frame
 )
 ;
 ~
@@ -708,6 +701,13 @@ ImmutableSync
 bool
 init
 (
+JSContext
+*
+cx
+const
+FrameState
+&
+frame
 uint32
 nentries
 )
@@ -825,7 +825,7 @@ entries
 ;
 const
 FrameState
-&
+*
 frame
 ;
 uint32

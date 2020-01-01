@@ -3298,6 +3298,27 @@ immediate
 op
 )
                             
+if
+'
+JOF_TYPESET
+'
+in
+op
+.
+info
+.
+flags
+:
+                                
+operand
+=
+operand
++
+"
+0
+0
+"
+                            
 write
 (
 "

@@ -1291,7 +1291,7 @@ const
 int32
 INLINE_TYPE_JUMP
 =
-9
+12
 ;
 #
 elif
@@ -1558,6 +1558,16 @@ ValueRemat
 rhs
 )
 {
+JS_ASSERT
+(
+!
+rhs
+.
+isFPRegister
+(
+)
+)
+;
 int
 offset
 =
