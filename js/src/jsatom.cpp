@@ -1488,6 +1488,14 @@ finalized
 /
 JS_ASSERT_IF
 (
+rt
+-
+>
+hasContexts
+(
+)
+&
+&
 entry
 .
 isTagged
