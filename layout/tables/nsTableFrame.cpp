@@ -1511,7 +1511,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -1578,7 +1578,7 @@ nsITableLayout
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 NS_IMETHODIMP
 nsTableFrame
@@ -1611,7 +1611,7 @@ its
 processing
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 Init
@@ -1861,7 +1861,7 @@ DestroyFramesFrom
 aDestructRoot
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 DestroyFrom
@@ -6975,7 +6975,7 @@ mColGroups
 ;
 }
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 GetChildList
@@ -6999,7 +6999,7 @@ aLists
 )
 const
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 GetChildLists
@@ -9659,7 +9659,7 @@ XXXldb
 Call
 SetBCDamageArea
 ?
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 MarkIntrinsicWidthsDirty
@@ -9776,7 +9776,7 @@ aRenderingContext
 IntrinsicWidthOffsetData
 result
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 IntrinsicWidthOffsets
@@ -9868,7 +9868,7 @@ aShrinkWrap
 nsSize
 result
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ComputeSize
@@ -15824,7 +15824,7 @@ IsBorderCollapse
 )
 )
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 GetUsedBorder
@@ -15859,7 +15859,7 @@ IsBorderCollapse
 )
 )
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 GetUsedPadding

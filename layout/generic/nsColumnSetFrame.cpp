@@ -448,7 +448,7 @@ layout
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -544,7 +544,7 @@ class
 nsColumnSetFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 {
 public
 :
@@ -1227,7 +1227,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -1257,7 +1257,7 @@ DestroyAbsoluteFrames
 aDestructRoot
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 DestroyFrom
@@ -1917,7 +1917,7 @@ the
 content
 frame
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 SetInitialChildList

@@ -454,6 +454,15 @@ define
 RegExpObject_h__
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -1412,6 +1421,7 @@ cx
 RegExpObject
 (
 )
+MOZ_DELETE
 ;
 RegExpObject
 &
@@ -1423,6 +1433,7 @@ RegExpObject
 &
 reo
 )
+MOZ_DELETE
 ;
 }
 ;

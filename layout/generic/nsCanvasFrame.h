@@ -446,7 +446,7 @@ nsCanvasFrame_h___
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -527,7 +527,7 @@ class
 nsCanvasFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 public
 nsIScrollPositionListener
 {
@@ -540,7 +540,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -658,7 +658,7 @@ aFlags
 const
 {
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 IsFrameOfType

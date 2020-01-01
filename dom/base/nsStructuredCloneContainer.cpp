@@ -494,10 +494,16 @@ h
 #
 include
 "
-xpcprivate
+mozilla
+/
+Base64
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ADDREF
 (
 nsStructuredCloneContainer
@@ -846,9 +852,6 @@ binaryData
 nsresult
 rv
 =
-nsXPConnect
-:
-:
 Base64Decode
 (
 data
@@ -1095,9 +1098,6 @@ base64Data
 nsresult
 rv
 =
-nsXPConnect
-:
-:
 Base64Encode
 (
 binaryData

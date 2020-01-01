@@ -564,7 +564,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -7152,13 +7152,13 @@ executing
 pullup
 code
 )
-nsHTMLContainerFrame
+nsContainerFrame
 *
 parent
 =
 static_cast
 <
-nsHTMLContainerFrame
+nsContainerFrame
 *
 >
 (

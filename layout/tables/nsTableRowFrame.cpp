@@ -1010,7 +1010,7 @@ nsTableRowFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 nsTableRowFrame
 :
@@ -1022,7 +1022,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -1083,7 +1083,7 @@ its
 initialization
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 Init

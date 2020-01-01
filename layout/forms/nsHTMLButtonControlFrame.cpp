@@ -439,7 +439,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -653,7 +653,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -700,7 +700,7 @@ DestroyAbsoluteFrames
 aDestructRoot
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 DestroyFrom
@@ -729,7 +729,7 @@ aPrevInFlow
 nsresult
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 Init
@@ -772,7 +772,7 @@ nsIFormControlFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 #
 ifdef

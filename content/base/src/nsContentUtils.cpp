@@ -1498,6 +1498,9 @@ xpcprivate
 .
 h
 "
+/
+/
+nsXPConnect
 #
 include
 "
@@ -1570,6 +1573,15 @@ h
 include
 "
 nsIObjectLoadingContent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Base64
 .
 h
 "
@@ -3857,9 +3869,6 @@ NS_ERROR_DOM_INVALID_CHARACTER_ERR
 ;
 }
 return
-nsXPConnect
-:
-:
 Base64Encode
 (
 aBinaryData
@@ -3904,9 +3913,6 @@ NS_ERROR_DOM_INVALID_CHARACTER_ERR
 nsresult
 rv
 =
-nsXPConnect
-:
-:
 Base64Decode
 (
 aAsciiBase64String

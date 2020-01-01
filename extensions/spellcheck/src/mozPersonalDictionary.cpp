@@ -1275,7 +1275,7 @@ static
 PLDHashOperator
 AddHostToStringArray
 (
-nsUniCharEntry
+nsUnicharPtrHashKey
 *
 aEntry
 void

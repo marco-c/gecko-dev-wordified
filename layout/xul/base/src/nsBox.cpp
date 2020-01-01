@@ -488,7 +488,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -3263,7 +3263,7 @@ things
 like
 opacity
 correct
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 SyncFrameViewAfterReflow

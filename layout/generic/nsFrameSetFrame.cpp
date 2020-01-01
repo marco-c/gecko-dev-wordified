@@ -465,7 +465,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -1798,7 +1798,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -1985,7 +1985,7 @@ nsHTMLFramesetFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 /
 /
@@ -2163,7 +2163,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 Init
@@ -3491,7 +3491,7 @@ NS_OK
 ;
 }
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 SetInitialChildList
@@ -5563,10 +5563,7 @@ aLists
 nsresult
 rv
 =
-nsHTMLContainerFrame
-:
-:
-BuildDisplayList
+BuildDisplayListForInline
 (
 aBuilder
 aDirtyRect
