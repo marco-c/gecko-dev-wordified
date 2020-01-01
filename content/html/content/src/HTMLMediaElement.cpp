@@ -115,7 +115,11 @@ MPL
 #
 include
 "
-nsHTMLMediaElement
+mozilla
+/
+dom
+/
+HTMLMediaElement
 .
 h
 "
@@ -645,17 +649,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
-using
-namespace
-mozilla
 :
 :
 layers
@@ -669,6 +662,12 @@ net
 :
 nsMediaFragmentURIParser
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 /
 /
 Number
@@ -1354,7 +1353,7 @@ public
 :
 nsMediaEvent
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aElement
 )
@@ -1408,7 +1407,7 @@ mLoadID
 }
 nsRefPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 >
 mElement
 ;
@@ -1436,7 +1435,7 @@ const
 nsAString
 &
 aName
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aElement
 )
@@ -1506,7 +1505,7 @@ public
 :
 nsSourceErrorEventRunner
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aElement
 nsIContent
@@ -1616,7 +1615,7 @@ a
 reference
 to
 the
-nsHTMLMediaElement
+HTMLMediaElement
 which
 holds
 a
@@ -1648,7 +1647,7 @@ mElement
 *
 /
 class
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MediaLoadListener
@@ -1673,7 +1672,7 @@ public
 :
 MediaLoadListener
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aElement
 )
@@ -1711,7 +1710,7 @@ private
 :
 nsRefPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 >
 mElement
 ;
@@ -1728,7 +1727,7 @@ mLoadID
 ;
 NS_IMPL_ISUPPORTS5
 (
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MediaLoadListener
@@ -1739,7 +1738,7 @@ nsIInterfaceRequestor
 nsIObserver
 )
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MediaLoadListener
@@ -1792,7 +1791,7 @@ NS_OK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ReportLoadError
@@ -1836,7 +1835,7 @@ aParamCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MediaLoadListener
@@ -1916,7 +1915,7 @@ here
 .
 nsRefPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 >
 element
 ;
@@ -2330,7 +2329,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MediaLoadListener
@@ -2370,7 +2369,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MediaLoadListener
@@ -2436,7 +2435,7 @@ aCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MediaLoadListener
@@ -2525,7 +2524,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MediaLoadListener
@@ -2553,17 +2552,17 @@ aResult
 }
 NS_IMPL_ADDREF_INHERITED
 (
-nsHTMLMediaElement
+HTMLMediaElement
 nsGenericHTMLElement
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsHTMLMediaElement
+HTMLMediaElement
 nsGenericHTMLElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsHTMLMediaElement
+HTMLMediaElement
 nsGenericHTMLElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -2627,7 +2626,7 @@ mStream
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsHTMLMediaElement
+HTMLMediaElement
 nsGenericHTMLElement
 )
 if
@@ -2721,7 +2720,7 @@ mStream
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
-nsHTMLMediaElement
+HTMLMediaElement
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -2740,50 +2739,50 @@ nsGenericHTMLElement
 nsIDOMHTMLMediaElement
 NS_IMPL_URI_ATTR
 (
-nsHTMLMediaElement
+HTMLMediaElement
 Src
 src
 )
 NS_IMPL_STRING_ATTR
 (
-nsHTMLMediaElement
+HTMLMediaElement
 Crossorigin
 crossorigin
 )
 NS_IMPL_BOOL_ATTR
 (
-nsHTMLMediaElement
+HTMLMediaElement
 Controls
 controls
 )
 NS_IMPL_BOOL_ATTR
 (
-nsHTMLMediaElement
+HTMLMediaElement
 Autoplay
 autoplay
 )
 NS_IMPL_BOOL_ATTR
 (
-nsHTMLMediaElement
+HTMLMediaElement
 Loop
 loop
 )
 NS_IMPL_BOOL_ATTR
 (
-nsHTMLMediaElement
+HTMLMediaElement
 DefaultMuted
 muted
 )
 NS_IMPL_ENUM_ATTR_DEFAULT_VALUE
 (
-nsHTMLMediaElement
+HTMLMediaElement
 Preload
 preload
 NULL
 )
 NS_IMPL_ENUM_ATTR_DEFAULT_VALUE
 (
-nsHTMLMediaElement
+HTMLMediaElement
 MozAudioChannelType
 mozaudiochannel
 "
@@ -2791,7 +2790,7 @@ normal
 "
 )
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMozSrcObject
@@ -2845,7 +2844,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetMozSrcObject
@@ -2884,7 +2883,7 @@ mozAutoplayEnabled
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMozAutoplayEnabled
@@ -2913,7 +2912,7 @@ error
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetError
@@ -2946,7 +2945,7 @@ ended
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetEnded
@@ -3005,7 +3004,7 @@ currentSrc
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetCurrentSrc
@@ -3045,7 +3044,7 @@ networkState
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetNetworkState
@@ -3065,7 +3064,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 OnChannelRedirect
@@ -3214,7 +3213,7 @@ NS_OK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ShutdownDecoder
@@ -3251,7 +3250,7 @@ nullptr
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 AbortExistingLoads
@@ -3606,7 +3605,7 @@ false
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NoSupportedMediaSourceError
@@ -3676,7 +3675,7 @@ false
 typedef
 void
 (
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 *
@@ -3760,7 +3759,7 @@ public
 :
 nsSyncSection
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aElement
 SyncSectionFn
@@ -3877,7 +3876,7 @@ loop
 void
 AsyncAwaitStableState
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aElement
 SyncSectionFn
@@ -3918,7 +3917,7 @@ event
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 QueueLoadFromSourceTask
@@ -3941,7 +3940,7 @@ AsyncAwaitStableState
 (
 this
 &
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 LoadFromSourceChildren
@@ -3949,7 +3948,7 @@ LoadFromSourceChildren
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 QueueSelectResourceTask
@@ -3992,7 +3991,7 @@ AsyncAwaitStableState
 (
 this
 &
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SelectResourceWrapper
@@ -4009,7 +4008,7 @@ load
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 Load
@@ -4058,7 +4057,7 @@ NS_OK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ResetState
@@ -4155,7 +4154,7 @@ false
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SelectResourceWrapper
@@ -4176,7 +4175,7 @@ false
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SelectResource
@@ -4460,7 +4459,7 @@ if
 mPreloadAction
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_NONE
@@ -4568,7 +4567,7 @@ LoadFromSourceChildren
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NotifyLoadError
@@ -4638,7 +4637,7 @@ from
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NotifyAudioAvailable
@@ -4793,7 +4792,7 @@ aTime
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 LoadFromSourceChildren
@@ -5313,7 +5312,7 @@ if
 mPreloadAction
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_NONE
@@ -5394,7 +5393,7 @@ here
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SuspendLoad
@@ -5429,7 +5428,7 @@ false
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ResumeLoad
@@ -5590,7 +5589,7 @@ enabled
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 UpdatePreloadAction
@@ -5654,7 +5653,7 @@ mPaused
 {
 nextAction
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ENOUGH
@@ -5706,7 +5705,7 @@ preload
 .
 default
 "
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_METADATA
@@ -5727,7 +5726,7 @@ preload
 .
 auto
 "
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ENOUGH
@@ -5818,7 +5817,7 @@ if
 attr
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_EMPTY
@@ -5827,7 +5826,7 @@ PRELOAD_ATTR_EMPTY
 attr
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_AUTO
@@ -5850,7 +5849,7 @@ if
 attr
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_METADATA
@@ -5858,7 +5857,7 @@ PRELOAD_ATTR_METADATA
 {
 nextAction
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_METADATA
@@ -5870,7 +5869,7 @@ if
 attr
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_NONE
@@ -5878,7 +5877,7 @@ PRELOAD_ATTR_NONE
 {
 nextAction
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_NONE
@@ -6001,7 +6000,7 @@ if
 nextAction
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ENOUGH
@@ -6094,7 +6093,7 @@ if
 nextAction
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_METADATA
@@ -6184,7 +6183,7 @@ PRELOAD_METADATA
 }
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 LoadResource
@@ -6329,7 +6328,7 @@ crossorigin
 )
 )
 ;
-nsHTMLMediaElement
+HTMLMediaElement
 *
 other
 =
@@ -6995,7 +6994,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 LoadWithChannel
@@ -7127,7 +7126,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MozLoadFrom
@@ -7186,13 +7185,13 @@ do_QueryInterface
 aOther
 )
 ;
-nsHTMLMediaElement
+HTMLMediaElement
 *
 other
 =
 static_cast
 <
-nsHTMLMediaElement
+HTMLMediaElement
 *
 >
 (
@@ -7288,7 +7287,7 @@ readyState
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetReadyState
@@ -7317,7 +7316,7 @@ seeking
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetSeeking
@@ -7353,7 +7352,7 @@ currentTime
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetCurrentTime
@@ -7416,7 +7415,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetCurrentTime
@@ -7830,7 +7829,7 @@ duration
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetDuration
@@ -7912,7 +7911,7 @@ seekable
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetSeekable
@@ -7977,7 +7976,7 @@ paused
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetPaused
@@ -8006,7 +8005,7 @@ played
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetPlayed
@@ -8161,7 +8160,7 @@ pause
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 Pause
@@ -8301,7 +8300,7 @@ volume
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetVolume
@@ -8321,7 +8320,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetVolume
@@ -8439,7 +8438,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMozChannels
@@ -8473,7 +8472,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMozSampleRate
@@ -8535,7 +8534,7 @@ error
 MetadataIterCx
 ;
 PLDHashOperator
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 BuildObjectFromTags
@@ -8681,7 +8680,7 @@ PL_DHASH_NEXT
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MozGetMetadata
@@ -8802,7 +8801,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMozFrameBufferLength
@@ -8859,7 +8858,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetMozFrameBufferLength
@@ -8895,7 +8894,7 @@ muted
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMuted
@@ -8915,7 +8914,7 @@ NS_OK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetMutedInternal
@@ -8987,7 +8986,7 @@ effectiveVolume
 }
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetMuted
@@ -9033,7 +9032,7 @@ already_AddRefed
 <
 DOMMediaStream
 >
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 CaptureStreamInternal
@@ -9221,7 +9220,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MozCaptureStream
@@ -9260,7 +9259,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MozCaptureStreamUntilEnded
@@ -9299,7 +9298,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMozAudioCaptured
@@ -9362,7 +9361,7 @@ mElements
 }
 nsTArray
 <
-nsHTMLMediaElement
+HTMLMediaElement
 *
 >
 mElements
@@ -9480,7 +9479,7 @@ static
 unsigned
 MediaElementTableCount
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aElement
 nsIURI
@@ -9556,7 +9555,7 @@ Length
 i
 )
 {
-nsHTMLMediaElement
+HTMLMediaElement
 *
 elem
 =
@@ -9589,7 +9588,7 @@ count
 #
 endif
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 AddMediaElementToURITable
@@ -9714,7 +9713,7 @@ addition
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 RemoveMediaElementFromURITable
@@ -9881,9 +9880,9 @@ table
 )
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 *
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 LookupMediaElementURITable
@@ -9944,7 +9943,7 @@ Length
 i
 )
 {
-nsHTMLMediaElement
+HTMLMediaElement
 *
 elem
 =
@@ -10080,10 +10079,10 @@ return
 nullptr
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
-nsHTMLMediaElement
+HTMLMediaElement
 (
 already_AddRefed
 <
@@ -10364,11 +10363,11 @@ NotifyOwnerDocumentActivityChanged
 )
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ~
-nsHTMLMediaElement
+HTMLMediaElement
 (
 )
 {
@@ -10485,7 +10484,7 @@ Shutdown
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetItemValueText
@@ -10522,7 +10521,7 @@ aValue
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetItemValueText
@@ -10561,7 +10560,7 @@ true
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 StopSuspendingAfterFirstFrame
@@ -10599,7 +10598,7 @@ true
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetPlayedOrSeeked
@@ -10680,7 +10679,7 @@ NS_FRAME_IS_DIRTY
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 Play
@@ -11003,12 +11002,12 @@ return
 NS_OK
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 WakeLockBoolWrapper
 &
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 WakeLockBoolWrapper
@@ -11123,7 +11122,7 @@ this
 ;
 }
 bool
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ParseAttribute
@@ -11169,7 +11168,7 @@ kPreloadTable
 {
 "
 "
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_EMPTY
@@ -11178,7 +11177,7 @@ PRELOAD_ATTR_EMPTY
 "
 none
 "
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_NONE
@@ -11187,7 +11186,7 @@ PRELOAD_ATTR_NONE
 "
 metadata
 "
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_METADATA
@@ -11196,7 +11195,7 @@ PRELOAD_ATTR_METADATA
 "
 auto
 "
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_ATTR_AUTO
@@ -11437,7 +11436,7 @@ aResult
 ;
 }
 bool
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 CheckAudioChannelPermissions
@@ -11560,7 +11559,7 @@ true
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DoneCreatingElement
@@ -11584,7 +11583,7 @@ true
 ;
 }
 bool
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 IsHTMLFocusable
@@ -11626,7 +11625,7 @@ false
 ;
 }
 int32_t
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 TabIndexDefault
@@ -11638,7 +11637,7 @@ return
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetAttr
@@ -11787,7 +11786,7 @@ rv
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 UnsetAttr
@@ -11885,7 +11884,7 @@ rv
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 BindToTree
@@ -12033,7 +12032,7 @@ rv
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 UnbindFromTree
@@ -12078,7 +12077,7 @@ static
 *
 /
 CanPlayStatus
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetCanPlay
@@ -12159,7 +12158,7 @@ codecs
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 CanPlayType
@@ -12268,7 +12267,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 InitializeDecoderAsClone
@@ -12522,7 +12521,7 @@ aOriginal
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 InitializeDecoderForChannel
@@ -12744,7 +12743,7 @@ nullptr
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 FinishDecoderSetup
@@ -13122,7 +13121,7 @@ rv
 ;
 }
 class
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 StreamListener
@@ -13134,7 +13133,7 @@ public
 :
 StreamListener
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aElement
 )
@@ -13154,7 +13153,7 @@ false
 mMutex
 (
 "
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 StreamListener
@@ -13629,7 +13628,7 @@ on
 the
 main
 thread
-nsHTMLMediaElement
+HTMLMediaElement
 *
 mElement
 ;
@@ -13666,7 +13665,7 @@ mDidHaveCurrentData
 }
 ;
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetupSrcMediaStreamPlayback
@@ -13916,7 +13915,7 @@ state
 .
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 EndSrcMediaStreamPlayback
@@ -14033,7 +14032,7 @@ nullptr
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NewURIFromString
@@ -14216,7 +14215,7 @@ NS_OK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ProcessMediaFragmentURI
@@ -14279,7 +14278,7 @@ GetStartTime
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MetadataLoaded
@@ -14427,7 +14426,7 @@ nullptr
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 FirstFrameLoaded
@@ -14498,7 +14497,7 @@ autoplay
 mPreloadAction
 =
 =
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PRELOAD_METADATA
@@ -14665,7 +14664,7 @@ return
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ResourceLoaded
@@ -14808,7 +14807,7 @@ suspend
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NetworkError
@@ -14825,7 +14824,7 @@ MEDIA_ERR_NETWORK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DecodeError
@@ -14937,7 +14936,7 @@ MEDIA_ERR_DECODE
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 LoadAborted
@@ -14954,7 +14953,7 @@ MEDIA_ERR_ABORTED
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 Error
@@ -15072,7 +15071,7 @@ false
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 PlaybackEnded
@@ -15260,7 +15259,7 @@ ended
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SeekStarted
@@ -15292,7 +15291,7 @@ false
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SeekCompleted
@@ -15338,7 +15337,7 @@ AddRemoveSelfReference
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NotifySuspendedByCache
@@ -15353,7 +15352,7 @@ aIsSuspended
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DownloadSuspended
@@ -15399,7 +15398,7 @@ suspend
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DownloadResumed
@@ -15430,7 +15429,7 @@ AddRemoveSelfReference
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DownloadStalled
@@ -15461,7 +15460,7 @@ stalled
 }
 }
 bool
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ShouldCheckAllowOrigin
@@ -15476,7 +15475,7 @@ CORS_NONE
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 UpdateReadyStateForData
@@ -15956,7 +15955,7 @@ HAVE_ENOUGH_DATA
 #
 endif
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ChangeReadyState
@@ -16232,7 +16231,7 @@ canplaythrough
 }
 }
 bool
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 CanActivateAutoplay
@@ -16266,7 +16265,7 @@ IsEditable
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NotifyAutoplayDataReady
@@ -16370,7 +16369,7 @@ play
 }
 VideoFrameContainer
 *
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetVideoFrameContainer
@@ -16531,7 +16530,7 @@ mVideoFrameContainer
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DispatchAudioAvailableEvent
@@ -16737,7 +16736,7 @@ dummy
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DispatchEvent
@@ -16838,7 +16837,7 @@ false
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DispatchAsyncEvent
@@ -16897,7 +16896,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DispatchPendingMediaEvents
@@ -16967,7 +16966,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 IsPotentiallyPlaying
@@ -17031,7 +17030,7 @@ IsPlaybackEnded
 ;
 }
 bool
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 IsPlaybackEnded
@@ -17092,7 +17091,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetCurrentPrincipal
@@ -17144,7 +17143,7 @@ nullptr
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NotifyDecoderPrincipalChanged
@@ -17205,7 +17204,7 @@ principal
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 UpdateMediaSize
@@ -17220,7 +17219,7 @@ size
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SuspendOrResumeElement
@@ -17365,7 +17364,7 @@ DispatchPendingMediaEvents
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NotifyOwnerDocumentActivityChanged
@@ -17487,7 +17486,7 @@ AddRemoveSelfReference
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 AddRemoveSelfReference
@@ -17783,7 +17782,7 @@ NS_NewRunnableMethod
 (
 this
 &
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DoRemoveSelfReference
@@ -17802,7 +17801,7 @@ UpdateAudioChannelPlayingState
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DoRemoveSelfReference
@@ -17849,7 +17848,7 @@ this
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 Observe
@@ -17904,7 +17903,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 IsNodeOfType
@@ -17929,7 +17928,7 @@ eMEDIA
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 DispatchAsyncSourceError
@@ -17977,7 +17976,7 @@ NS_DISPATCH_NORMAL
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NotifyAddedSource
@@ -18102,7 +18101,7 @@ QueueLoadFromSourceTask
 }
 nsIContent
 *
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetNextSource
@@ -18394,7 +18393,7 @@ nullptr
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ChangeDelayLoadStatus
@@ -18553,7 +18552,7 @@ already_AddRefed
 <
 nsILoadGroup
 >
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetDocumentLoadGroup
@@ -18602,7 +18601,7 @@ GetDocumentLoadGroup
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 CopyInnerTo
@@ -18644,13 +18643,13 @@ IsStaticDocument
 )
 )
 {
-nsHTMLMediaElement
+HTMLMediaElement
 *
 dest
 =
 static_cast
 <
-nsHTMLMediaElement
+HTMLMediaElement
 *
 >
 (
@@ -18763,7 +18762,7 @@ element
 =
 const_cast
 <
-nsHTMLMediaElement
+HTMLMediaElement
 *
 >
 (
@@ -18824,7 +18823,7 @@ rv
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetBuffered
@@ -18905,7 +18904,7 @@ NS_OK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetRequestHeaders
@@ -19101,7 +19100,7 @@ GetDocumentURI
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 FireTimeUpdate
@@ -19306,7 +19305,7 @@ mFragmentEnd
 }
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetCurrentSpec
@@ -19349,7 +19348,7 @@ initialTime
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetInitialTime
@@ -19449,7 +19448,7 @@ mozFragmentEnd
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMozFragmentEnd
@@ -19529,7 +19528,7 @@ NS_OK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 NotifyAudioAvailableListener
@@ -19627,7 +19626,7 @@ defaultPlaybackRate
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetDefaultPlaybackRate
@@ -19647,7 +19646,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetDefaultPlaybackRate
@@ -19697,7 +19696,7 @@ playbackRate
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetPlaybackRate
@@ -19717,7 +19716,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetPlaybackRate
@@ -19855,7 +19854,7 @@ mozPreservesPitch
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetMozPreservesPitch
@@ -19875,7 +19874,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 SetMozPreservesPitch
@@ -19908,7 +19907,7 @@ NS_OK
 }
 ImageContainer
 *
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 GetImageContainer
@@ -19937,7 +19936,7 @@ nullptr
 ;
 }
 nsresult
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 UpdateChannelMuteState
@@ -19954,7 +19953,7 @@ B2G
 we
 mute
 the
-nsHTMLMediaElement
+HTMLMediaElement
 following
 the
 rules
@@ -20037,7 +20036,7 @@ NS_OK
 ;
 }
 void
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 UpdateAudioChannelPlayingState
@@ -20047,7 +20046,7 @@ UpdateAudioChannelPlayingState
 /
 /
 The
-nsHTMLMediaElement
+HTMLMediaElement
 is
 registered
 to
@@ -20245,7 +20244,7 @@ canPlay
 *
 /
 NS_IMETHODIMP
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 CanPlayChanged
@@ -20274,3 +20273,13 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+dom
+}
+/
+/
+namespace
+mozilla

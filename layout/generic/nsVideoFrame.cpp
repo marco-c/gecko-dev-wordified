@@ -2820,13 +2820,13 @@ return
 LAYER_ACTIVE
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 *
 elem
 =
 static_cast
 <
-nsHTMLMediaElement
+HTMLMediaElement
 *
 >
 (

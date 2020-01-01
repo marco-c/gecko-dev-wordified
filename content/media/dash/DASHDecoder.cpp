@@ -156,7 +156,7 @@ HTTP
 Interaction
 with
 MediaDecoderStateMachine
-nsHTMLMediaElement
+HTMLMediaElement
 *
 ChannelMediaResource
 and
@@ -171,7 +171,7 @@ WebMDecoder
 *
 *
 MediaDecoderStateMachine
-nsHTMLMediaElement
+HTMLMediaElement
 *
 1
 /
@@ -761,7 +761,7 @@ and
 communicate
 to
 |
-nsHTMLMediaElement
+HTMLMediaElement
 |
 .
 *
@@ -3805,7 +3805,7 @@ mOwner
 NS_ERROR_NULL_POINTER
 )
 ;
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =

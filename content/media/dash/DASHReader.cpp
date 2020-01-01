@@ -1214,7 +1214,7 @@ leak
 .
 nsAutoPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MetadataTags

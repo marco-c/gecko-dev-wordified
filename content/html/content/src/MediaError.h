@@ -128,7 +128,11 @@ h
 #
 include
 "
-nsHTMLMediaElement
+mozilla
+/
+dom
+/
+HTMLMediaElement
 .
 h
 "
@@ -174,7 +178,7 @@ public
 :
 MediaError
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aParent
 uint16_t
@@ -193,7 +197,7 @@ MediaError
 /
 nsIDOMMediaError
 NS_DECL_NSIDOMMEDIAERROR
-nsHTMLMediaElement
+HTMLMediaElement
 *
 GetParentObject
 (
@@ -232,7 +236,7 @@ private
 :
 nsRefPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 >
 mParent
 ;

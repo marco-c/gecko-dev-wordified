@@ -122,7 +122,11 @@ h
 #
 include
 "
-nsHTMLMediaElement
+mozilla
+/
+dom
+/
+HTMLMediaElement
 .
 h
 "
@@ -169,7 +173,10 @@ VideoFrameContainer
 :
 VideoFrameContainer
 (
-nsHTMLMediaElement
+dom
+:
+:
+HTMLMediaElement
 *
 aElement
 already_AddRefed

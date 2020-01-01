@@ -850,7 +850,7 @@ NS_ERROR_FAILURE
 }
 nsAutoPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MetadataTags
@@ -3330,7 +3330,7 @@ uint32_t
 aChunkSize
 nsAutoPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MetadataTags
@@ -3552,7 +3552,7 @@ aChunkSize
 aTags
 =
 new
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MetadataTags
@@ -3778,7 +3778,7 @@ LoadAllChunks
 (
 nsAutoPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MetadataTags

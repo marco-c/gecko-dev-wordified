@@ -1677,7 +1677,7 @@ consider
 /
 /
 updating
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 CreateDecoder

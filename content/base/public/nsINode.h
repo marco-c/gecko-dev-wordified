@@ -2052,7 +2052,7 @@ mAreas
 /
 /
 -
-nsHTMLMediaElement
+HTMLMediaElement
 :
 many
 !
@@ -2521,7 +2521,7 @@ eDATA_NODE
 /
 *
 *
-nsHTMLMediaElement
+HTMLMediaElement
 *
 /
 eMEDIA

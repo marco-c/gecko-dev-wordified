@@ -330,7 +330,10 @@ uint32_t
 aChunkSize
 nsAutoPtr
 <
-nsHTMLMediaElement
+dom
+:
+:
+HTMLMediaElement
 :
 :
 MetadataTags
@@ -344,7 +347,10 @@ LoadAllChunks
 (
 nsAutoPtr
 <
-nsHTMLMediaElement
+dom
+:
+:
+HTMLMediaElement
 :
 :
 MetadataTags

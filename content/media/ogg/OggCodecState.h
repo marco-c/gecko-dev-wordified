@@ -194,7 +194,11 @@ MOZ_SAMPLE_TYPE_
 #
 include
 "
-nsHTMLMediaElement
+mozilla
+/
+dom
+/
+HTMLMediaElement
 .
 h
 "
