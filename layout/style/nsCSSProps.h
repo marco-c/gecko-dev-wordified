@@ -2443,6 +2443,13 @@ MOZ_FLEXBOX
 static
 const
 PRInt32
+kFlexDirectionKTable
+[
+]
+;
+static
+const
+PRInt32
 kJustifyContentKTable
 [
 ]
