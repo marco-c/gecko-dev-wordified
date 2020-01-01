@@ -21258,6 +21258,10 @@ obj
 /
 *
 *
+FIXME
+bug
+535629
+:
 If
 one
 adds
@@ -21268,12 +21272,12 @@ props
 adds
 more
 the
+*
 last
 added
 won
 '
 t
-*
 recycle
 the
 deleted
@@ -21281,10 +21285,6 @@ props
 '
 slots
 .
-FIXME
-:
-bug
-NNNNNN
 *
 /
 JSBool
