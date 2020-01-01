@@ -33982,15 +33982,6 @@ cx
 )
 ;
 }
-js_LeaveTraceIfGlobalObject
-(
-cx
-scope
--
->
-object
-)
-;
 scope
 -
 >
