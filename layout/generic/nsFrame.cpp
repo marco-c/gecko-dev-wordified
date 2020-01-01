@@ -22124,8 +22124,8 @@ GetContentOffsetsFromPoint
 (
 nsPoint
 aPoint
-bool
-aIgnoreSelectionStyle
+PRUint32
+aFlags
 )
 {
 nsIFrame
@@ -22134,7 +22134,9 @@ adjustedFrame
 ;
 if
 (
-aIgnoreSelectionStyle
+aFlags
+&
+IGNORE_SELECTION_STYLE
 )
 {
 adjustedFrame

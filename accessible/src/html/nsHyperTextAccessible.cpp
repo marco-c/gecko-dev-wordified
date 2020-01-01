@@ -8287,7 +8287,10 @@ frame
 GetContentOffsetsFromPointExternal
 (
 pointInFrame
-true
+nsIFrame
+:
+:
+IGNORE_SELECTION_STYLE
 )
 ;
 if
