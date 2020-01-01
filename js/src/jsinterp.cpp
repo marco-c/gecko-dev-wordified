@@ -17393,6 +17393,7 @@ OP
 \
 trace_stop
 (
+cx
 #
 OP
 )
@@ -17526,6 +17527,7 @@ OP
 \
 trace_stop
 (
+cx
 #
 OP
 )
@@ -42924,6 +42926,7 @@ handler
 \
 trace_stop
 (
+cx
 #
 handler
 )
