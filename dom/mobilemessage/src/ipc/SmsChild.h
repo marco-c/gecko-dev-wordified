@@ -214,7 +214,7 @@ bool
 RecvNotifyReceivedMessage
 (
 const
-SmsMessageData
+MobileMessageData
 &
 aMessage
 )
@@ -225,7 +225,7 @@ bool
 RecvNotifySendingMessage
 (
 const
-SmsMessageData
+MobileMessageData
 &
 aMessage
 )
@@ -236,7 +236,7 @@ bool
 RecvNotifySentMessage
 (
 const
-SmsMessageData
+MobileMessageData
 &
 aMessage
 )
@@ -247,7 +247,7 @@ bool
 RecvNotifyFailedMessage
 (
 const
-SmsMessageData
+MobileMessageData
 &
 aMessage
 )
@@ -258,7 +258,7 @@ bool
 RecvNotifyDeliverySuccessMessage
 (
 const
-SmsMessageData
+MobileMessageData
 &
 aMessage
 )
@@ -269,7 +269,7 @@ bool
 RecvNotifyDeliveryErrorMessage
 (
 const
-SmsMessageData
+MobileMessageData
 &
 aMessage
 )
