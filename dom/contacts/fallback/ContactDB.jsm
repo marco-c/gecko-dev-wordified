@@ -407,9 +407,7 @@ db
 .
 createObjectStore
 (
-this
-.
-dbStoreName
+STORE_NAME
 {
 keyPath
 :
@@ -3136,6 +3134,7 @@ newTxn
 "
 readwrite
 "
+STORE_NAME
 function
 (
 txn
@@ -3398,6 +3397,7 @@ newTxn
 "
 readwrite
 "
+STORE_NAME
 function
 (
 txn
@@ -3448,6 +3448,7 @@ newTxn
 "
 readwrite
 "
+STORE_NAME
 function
 (
 txn
@@ -3606,6 +3607,7 @@ newTxn
 "
 readonly
 "
+STORE_NAME
 function
 (
 txn
@@ -4472,7 +4474,9 @@ initDBHelper
 (
 DB_NAME
 DB_VERSION
+[
 STORE_NAME
+]
 aGlobal
 )
 ;

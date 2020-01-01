@@ -309,7 +309,9 @@ initDBHelper
 (
 DB_NAME
 DB_VERSION
+[
 STORE_NAME
+]
 idbGlobal
 )
 ;
@@ -634,6 +636,7 @@ newTxn
 "
 readwrite
 "
+STORE_NAME
 function
 (
 txn
@@ -757,6 +760,7 @@ newTxn
 "
 readwrite
 "
+STORE_NAME
 function
 (
 txn
@@ -871,6 +875,7 @@ newTxn
 "
 readonly
 "
+STORE_NAME
 function
 (
 txn
