@@ -1916,6 +1916,10 @@ s
 const
 jschar
 *
+send
+const
+jschar
+*
 *
 ep
 jsdouble
@@ -2029,6 +2033,10 @@ const
 jschar
 *
 s
+const
+jschar
+*
+send
 const
 jschar
 *
