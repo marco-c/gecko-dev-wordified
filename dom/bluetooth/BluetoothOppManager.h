@@ -182,6 +182,9 @@ nsIOutputStream
 class
 nsIInputStream
 ;
+class
+nsIVolumeMountLock
+;
 BEGIN_BLUETOOTH_NAMESPACE
 class
 BluetoothReplyRunnable
@@ -746,6 +749,11 @@ NotifyAboutFileChange
 (
 )
 ;
+bool
+AcquireSdcardMountLock
+(
+)
+;
 /
 *
 *
@@ -1091,6 +1099,12 @@ nsCOMPtr
 nsIInputStream
 >
 mInputStream
+;
+nsCOMPtr
+<
+nsIVolumeMountLock
+>
+mMountLock
 ;
 nsRefPtr
 <
