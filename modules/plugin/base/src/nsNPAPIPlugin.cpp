@@ -752,9 +752,6 @@ are
 exported
 to
 the
-4
-.
-x
 plugin
 as
 entry
@@ -3844,13 +3841,6 @@ aResult
 =
 NULL
 ;
-/
-/
-XXX
-This
-is
-suspicuous
-!
 nsRefPtr
 <
 nsNPAPIPluginInstance
