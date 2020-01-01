@@ -1136,7 +1136,7 @@ message
 +
 msg
 .
-name
+type
 +
 errorMsg
 )
