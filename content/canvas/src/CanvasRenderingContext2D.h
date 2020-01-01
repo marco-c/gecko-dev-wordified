@@ -100,7 +100,11 @@ h
 #
 include
 "
-nsHTMLCanvasElement
+mozilla
+/
+dom
+/
+HTMLCanvasElement
 .
 h
 "
@@ -582,7 +586,7 @@ bool
 triedToWrap
 )
 ;
-nsHTMLCanvasElement
+HTMLCanvasElement
 *
 GetCanvas
 (

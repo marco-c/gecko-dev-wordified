@@ -235,7 +235,11 @@ h
 #
 include
 "
-nsHTMLCanvasElement
+mozilla
+/
+dom
+/
+HTMLCanvasElement
 .
 h
 "
@@ -1961,7 +1965,10 @@ false
 WebIDL
 WebGLRenderingContext
 API
-nsHTMLCanvasElement
+dom
+:
+:
+HTMLCanvasElement
 *
 GetCanvas
 (
