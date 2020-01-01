@@ -635,6 +635,14 @@ Close
 (
 )
 ;
+bool
+GetSize
+(
+nsIntSize
+*
+aScreenSize
+)
+;
 /
 /
 Return
