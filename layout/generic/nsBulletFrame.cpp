@@ -1442,6 +1442,13 @@ DrawSingleImage
 &
 aRenderingContext
 imageCon
+nsLayoutUtils
+:
+:
+GetGraphicsFilterForFrame
+(
+this
+)
 dest
 +
 aPt

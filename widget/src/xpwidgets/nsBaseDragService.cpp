@@ -4250,6 +4250,10 @@ img
 Draw
 (
 ctx
+gfxPattern
+:
+:
+FILTER_GOOD
 scale
 outRect
 nsIntMargin
