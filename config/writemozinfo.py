@@ -346,6 +346,32 @@ MOZ_WIDGET_TOOLKIT
 ]
     
 #
+Application
+name
+    
+if
+'
+MOZ_APP_NAME
+'
+in
+env
+:
+      
+d
+[
+"
+appname
+"
+]
+=
+env
+[
+"
+MOZ_APP_NAME
+"
+]
+    
+#
 processor
     
 p
