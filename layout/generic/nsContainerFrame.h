@@ -3077,7 +3077,7 @@ list
 .
 *
 /
-nsresult
+void
 SetOverflowFrames
 (
 nsPresContext
