@@ -601,6 +601,7 @@ nullptr
 ;
 class
 nsGSettingsCollection
+MOZ_FINAL
 :
 public
 nsIGSettingsCollection

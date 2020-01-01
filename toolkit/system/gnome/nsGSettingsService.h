@@ -127,6 +127,7 @@ NS_GSETTINGSSERVICE_CID
 }
 class
 nsGSettingsService
+MOZ_FINAL
 :
 public
 nsIGSettingsService

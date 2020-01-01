@@ -1058,6 +1058,7 @@ user_data
 -
 class
 nsGIOInputStream
+MOZ_FINAL
 :
 public
 nsIInputStream
@@ -5414,6 +5415,7 @@ G_MOUNT_OPERATION_HANDLED
 -
 class
 nsGIOProtocolHandler
+MOZ_FINAL
 :
 public
 nsIProtocolHandler
