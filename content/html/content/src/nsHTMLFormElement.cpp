@@ -8071,7 +8071,7 @@ IndexOf
 aChild
 )
 ;
-NS_ASSERTION
+NS_ENSURE_STATE
 (
 index
 !
@@ -8079,12 +8079,6 @@ index
 controls
 .
 NoIndex
-"
-Child
-not
-in
-controls
-"
 )
 ;
 controls
