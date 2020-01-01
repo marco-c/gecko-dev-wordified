@@ -2762,7 +2762,7 @@ debugging
 .
 *
 /
-bool
+JSBool
 debugMode
 ;
 #

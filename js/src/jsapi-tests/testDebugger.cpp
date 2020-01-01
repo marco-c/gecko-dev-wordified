@@ -1076,10 +1076,7 @@ v
 CHECK_SAME
 (
 v
-INT_TO_JSVAL
-(
-4
-)
+JSVAL_ONE
 )
 ;
 return

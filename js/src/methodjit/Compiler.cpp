@@ -1024,8 +1024,6 @@ compartment
 -
 >
 debugMode
-(
-)
 )
 #
 if
