@@ -1053,7 +1053,7 @@ kids
 aParent
 -
 >
-GetDocument
+GetOwnerDoc
 (
 )
 -
