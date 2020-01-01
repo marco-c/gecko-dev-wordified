@@ -182,6 +182,17 @@ request
 .
 result
 ;
+is
+(
+Array
+.
+isArray
+(
+simContacts
+)
+true
+)
+;
 /
 /
 These
