@@ -33980,11 +33980,6 @@ return
 NS_OK
 ;
 }
-PRBool
-stop
-=
-PR_FALSE
-;
 for
 (
 int
@@ -34008,6 +34003,9 @@ i
 +
 )
 {
+if
+(
+!
 aVisitor
 -
 >
@@ -34020,13 +34018,7 @@ mRadioButtons
 [
 i
 ]
-&
-stop
 )
-;
-if
-(
-stop
 )
 {
 return
