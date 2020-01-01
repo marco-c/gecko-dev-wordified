@@ -982,6 +982,8 @@ SQLITE_VERSION
 6
 .
 23
+.
+1
 "
 #
 define
@@ -995,13 +997,13 @@ SQLITE_SOURCE_ID
 -
 03
 -
-09
-19
+26
+22
 :
-31
+28
 :
-43
-4ae453ea7be69018d8c16eb8dabe05617397dc4d
+06
+b078b588d617e07886ad156e9f54ade6d823568e
 "
 /
 *
