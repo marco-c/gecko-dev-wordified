@@ -12444,9 +12444,9 @@ GetFloatAttr
 nsIAtom
 *
 aAttr
-float
+double
 aDefault
-float
+double
 *
 aResult
 )
@@ -12514,7 +12514,7 @@ SetFloatAttr
 nsIAtom
 *
 aAttr
-float
+double
 aValue
 )
 {

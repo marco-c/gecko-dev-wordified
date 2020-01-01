@@ -1162,7 +1162,7 @@ const
 #
 endif
 inline
-float
+double
 GetFloatValue
 (
 )
@@ -2134,7 +2134,12 @@ string
 value
 into
 a
-float
+double
+-
+precision
+floating
+point
+value
 .
 *
 *
@@ -2381,7 +2386,7 @@ mSVGValue
 ;
 #
 endif
-float
+double
 mFloatValue
 ;
 nsIntMargin
@@ -2997,7 +3002,7 @@ mSVGValue
 #
 endif
 inline
-float
+double
 nsAttrValue
 :
 :
