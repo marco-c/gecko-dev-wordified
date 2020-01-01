@@ -2282,7 +2282,7 @@ NPERR_NO_ERROR
 ;
 }
 case
-NPNVSupportsCompositingCoreAnimationPluginsBool
+NPNVsupportsCompositingCoreAnimationPluginsBool
 :
 {
 *
