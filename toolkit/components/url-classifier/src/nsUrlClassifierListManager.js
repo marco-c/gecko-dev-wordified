@@ -542,11 +542,11 @@ PROT_XMLFetcher
 ;
 modScope
 .
-PROT_UrlCrypto
+PROT_UrlCryptoKeyManager
 =
 jslib
 .
-PROT_UrlCrypto
+PROT_UrlCryptoKeyManager
 ;
 modScope
 .

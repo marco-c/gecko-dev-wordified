@@ -613,6 +613,10 @@ const
 nsACString
 &
 aTable
+const
+nsACString
+&
+aServerMAC
 )
 ;
 nsresult
@@ -630,6 +634,10 @@ const
 nsACString
 &
 aTable
+const
+nsACString
+&
+aServerMAC
 )
 ;
 PRBool
@@ -646,6 +654,9 @@ mUpdateUrl
 ;
 nsCString
 mStreamTable
+;
+nsCString
+mServerMAC
 ;
 nsCOMPtr
 <
@@ -667,6 +678,9 @@ mUrl
 ;
 nsCString
 mTable
+;
+nsCString
+mServerMAC
 ;
 }
 ;
