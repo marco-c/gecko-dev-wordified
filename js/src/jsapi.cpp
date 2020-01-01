@@ -4508,6 +4508,10 @@ ionActivation
 (
 NULL
 )
+ionPcScriptCache
+(
+NULL
+)
 ionReturnOverride_
 (
 MagicValue
@@ -5190,6 +5194,15 @@ jaegerRuntime_
 .
 *
 /
+if
+(
+ionPcScriptCache
+)
+js_delete
+(
+ionPcScriptCache
+)
+;
 }
 #
 ifdef
