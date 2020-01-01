@@ -1269,6 +1269,9 @@ IsDOMClass
 )
 {
 return
+!
+!
+(
 GetFlags
 (
 )
@@ -1277,6 +1280,7 @@ nsIClassInfo
 :
 :
 DOM_OBJECT
+)
 ;
 }
 PRBool
@@ -1285,6 +1289,9 @@ IsContentNode
 )
 {
 return
+!
+!
+(
 GetFlags
 (
 )
@@ -1293,6 +1300,7 @@ nsIClassInfo
 :
 :
 CONTENT_NODE
+)
 ;
 }
 const
@@ -2050,9 +2058,10 @@ targetPort
 )
 )
 {
-NS_ENSURE_STATE
+NS_ENSURE_TRUE
 (
 sIOService
+PR_FALSE
 )
 ;
 PRInt32
