@@ -318,7 +318,7 @@ mSurface
 &
 SHAREDDIB_KEY
 this
-NULL
+nullptr
 )
 ;
 }
