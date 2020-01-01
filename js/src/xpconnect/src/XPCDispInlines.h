@@ -2726,10 +2726,11 @@ void
 XPCDispIDArray
 :
 :
-MarkBeforeJSFinalize
+TraceJS
 (
-JSContext
+JSTracer
 *
+trc
 )
 {
 }
