@@ -7396,7 +7396,7 @@ requestFocusFromTouch
 (
 )
 {
-mLayout
+mAwesomeBar
 .
 requestFocusFromTouch
 (
