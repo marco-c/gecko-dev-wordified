@@ -1050,7 +1050,7 @@ element
 *
 /
 PRBool
-EmbeddedByReference
+IsRootOfReplacedElementSubDoc
 (
 nsIFrame
 *
