@@ -840,6 +840,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+nsLocation
+.
+h
+"
 /
 /
 Window
