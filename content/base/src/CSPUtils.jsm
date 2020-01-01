@@ -727,11 +727,6 @@ aMsg
 n
 "
 ;
-dump
-(
-textMessage
-)
-;
 var
 consoleMsg
 =
@@ -838,11 +833,6 @@ aMsg
 \
 n
 "
-;
-dump
-(
-textMessage
-)
 ;
 var
 consoleMsg
@@ -958,11 +948,6 @@ aMsg
 \
 n
 "
-;
-dump
-(
-aMsg
-)
 ;
 Components
 .
