@@ -530,9 +530,6 @@ const
 nsRect
 &
 aLayoutRect
-nsPresContext
-*
-aPresContext
 )
 ;
 protected

@@ -23662,14 +23662,6 @@ PRUint32
 aFlags
 )
 {
-if
-(
-aFlags
-&
-INVALIDATE_NOTIFY_ONLY
-)
-return
-;
 PRUint32
 flags
 =

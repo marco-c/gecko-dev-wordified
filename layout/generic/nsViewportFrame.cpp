@@ -2137,14 +2137,7 @@ PresContext
 NotifyInvalidation
 (
 r
-(
 aFlags
-&
-INVALIDATE_CROSS_DOC
-)
-!
-=
-0
 )
 ;
 nsIFrame
