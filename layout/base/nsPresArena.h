@@ -675,10 +675,13 @@ void
 aPtr
 )
 ;
-PRUint32
-Size
+size_t
+SizeOfExcludingThis
 (
+nsMallocSizeOfFun
+aMallocSizeOf
 )
+const
 ;
 /
 *

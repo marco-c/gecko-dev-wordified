@@ -5087,6 +5087,7 @@ size_t
 )
 JS_DHashTableSizeOfExcludingThis
 (
+const
 JSDHashTable
 *
 table
@@ -5139,7 +5140,14 @@ mallocSizeOf
 ;
 JS_DHashTableEnumerate
 (
+const_cast
+<
+JSDHashTable
+*
+>
+(
 table
+)
 SizeOfEntryEnumerator
 &
 arg
@@ -5164,6 +5172,7 @@ size_t
 )
 JS_DHashTableSizeOfIncludingThis
 (
+const
 JSDHashTable
 *
 table
