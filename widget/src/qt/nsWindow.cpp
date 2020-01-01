@@ -873,6 +873,8 @@ utility
 functions
 *
 /
+/
+*
 static
 PRBool
 is_mouse_in_window
@@ -886,6 +888,8 @@ double
 aMouseY
 )
 ;
+*
+/
 /
 /
 initialization
@@ -929,6 +933,8 @@ gGlobalsInitialized
 =
 PR_FALSE
 ;
+/
+/
 static
 nsWindow
 *
@@ -2882,6 +2888,8 @@ cgi
 id
 =
 347375
+/
+*
 static
 void
 SetUserTimeAndStartupIDForActivatedWindow
@@ -3058,6 +3066,8 @@ EmptyCString
 )
 ;
 }
+*
+/
 NS_IMETHODIMP
 nsWindow
 :
@@ -3385,6 +3395,8 @@ return
 NS_OK
 ;
 }
+/
+*
 static
 PRUint8
 *
@@ -3516,13 +3528,6 @@ imageRow
 +
 +
 ;
-/
-*
-a
-=
-*
-*
-/
 imageRow
 +
 +
@@ -3614,6 +3619,8 @@ return
 outData
 ;
 }
+*
+/
 NS_IMETHODIMP
 nsWindow
 :
@@ -14929,6 +14936,8 @@ NS_OK
 static
 *
 /
+/
+*
 PRBool
 is_mouse_in_window
 (
@@ -15108,11 +15117,15 @@ return
 PR_FALSE
 ;
 }
+*
+/
 /
 *
 static
 *
 /
+/
+*
 nsWindow
 *
 get_window_for_qt_widget
@@ -15144,6 +15157,8 @@ getReciever
 )
 ;
 }
+*
+/
 /
 /
 /
@@ -15590,6 +15605,8 @@ clickCount
 1
 ;
 }
+/
+*
 static
 PRBool
 gdk_keyboard_get_modmap_masks
@@ -15699,7 +15716,7 @@ PR_FALSE
 ;
 }
 /
-*
+/
 The
 modifiermap
 member
@@ -15710,6 +15727,8 @@ structure
 contains
 8
 sets
+/
+/
 of
 max_keypermod
 KeyCodes
@@ -15721,6 +15740,8 @@ in
 the
 order
 Shift
+/
+/
 Lock
 Control
 Mod1
@@ -15730,6 +15751,8 @@ Mod4
 and
 Mod5
 .
+/
+/
 Only
 nonzero
 KeyCodes
@@ -15744,8 +15767,6 @@ KeyCodes
 are
 ignored
 .
-*
-/
 const
 unsigned
 int
@@ -15918,6 +15939,8 @@ return
 PR_TRUE
 ;
 }
+*
+/
 /
 /
 nsChildWindow
