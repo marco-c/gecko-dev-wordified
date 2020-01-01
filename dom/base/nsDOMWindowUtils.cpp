@@ -11704,16 +11704,6 @@ nsIDOMBlob
 aResult
 )
 {
-nsAutoString
-name
-;
-name
-.
-SetIsVoid
-(
-true
-)
-;
 nsCOMPtr
 <
 nsISupports
@@ -11725,7 +11715,9 @@ rv
 =
 GetFileOrBlob
 (
-name
+NullString
+(
+)
 aBlobParts
 aParameters
 aCx
