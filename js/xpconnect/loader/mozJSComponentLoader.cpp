@@ -109,9 +109,7 @@ endif
 #
 include
 <
-stdarg
-.
-h
+cstdarg
 >
 #
 include
