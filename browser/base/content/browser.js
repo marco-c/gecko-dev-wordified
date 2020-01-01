@@ -38580,6 +38580,8 @@ behavior
 stripsurroundingwhitespace
 )
 clipboard
+=
+clipboard
 .
 replace
 (
