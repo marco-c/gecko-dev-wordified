@@ -455,7 +455,7 @@ document
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -1282,7 +1282,7 @@ aAtom
 *
 aAtom
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 document

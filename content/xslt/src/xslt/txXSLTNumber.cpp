@@ -439,7 +439,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -1186,7 +1186,7 @@ new
 txNameTest
 (
 0
-txXPathAtoms
+nsGkAtoms
 :
 :
 _asterix

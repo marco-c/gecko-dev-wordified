@@ -619,7 +619,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "

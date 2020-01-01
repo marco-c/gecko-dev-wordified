@@ -464,7 +464,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -677,7 +677,7 @@ if
 TX_StringEqualsAtom
 (
 attrValue
-txXSLTAtoms
+nsGkAtoms
 :
 :
 descending
@@ -696,7 +696,7 @@ if
 TX_StringEqualsAtom
 (
 attrValue
-txXSLTAtoms
+nsGkAtoms
 :
 :
 ascending
@@ -760,7 +760,7 @@ aDataTypeExpr
 TX_StringEqualsAtom
 (
 dataType
-txXSLTAtoms
+nsGkAtoms
 :
 :
 text
@@ -840,7 +840,7 @@ if
 TX_StringEqualsAtom
 (
 attrValue
-txXSLTAtoms
+nsGkAtoms
 :
 :
 upperFirst
@@ -859,7 +859,7 @@ if
 TX_StringEqualsAtom
 (
 attrValue
-txXSLTAtoms
+nsGkAtoms
 :
 :
 lowerFirst
@@ -912,7 +912,7 @@ if
 TX_StringEqualsAtom
 (
 dataType
-txXSLTAtoms
+nsGkAtoms
 :
 :
 number

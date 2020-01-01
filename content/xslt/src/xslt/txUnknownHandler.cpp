@@ -463,7 +463,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -1051,7 +1051,7 @@ aPrefix
 aLowercaseLocalName
 =
 =
-txHTMLAtoms
+nsGkAtoms
 :
 :
 html

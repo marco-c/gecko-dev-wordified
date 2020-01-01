@@ -533,7 +533,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -3750,7 +3750,7 @@ if
 atom
 !
 =
-txHTMLAtoms
+nsGkAtoms
 :
 :
 tr
@@ -3829,7 +3829,7 @@ if
 atom
 =
 =
-txHTMLAtoms
+nsGkAtoms
 :
 :
 table
@@ -3849,7 +3849,7 @@ if
 atom
 =
 =
-txHTMLAtoms
+nsGkAtoms
 :
 :
 tr
@@ -3958,7 +3958,7 @@ if
 atom
 =
 =
-txHTMLAtoms
+nsGkAtoms
 :
 :
 head
@@ -4209,7 +4209,7 @@ NS_ASSERTION
 atom
 =
 =
-txHTMLAtoms
+nsGkAtoms
 :
 :
 tbody
@@ -4300,7 +4300,7 @@ mCreatingNewDocument
 atom
 =
 =
-txHTMLAtoms
+nsGkAtoms
 :
 :
 meta
@@ -4322,7 +4322,7 @@ aElement
 GetAttr
 (
 kNameSpaceID_None
-txHTMLAtoms
+nsGkAtoms
 :
 :
 httpEquiv
@@ -4348,7 +4348,7 @@ aElement
 GetAttr
 (
 kNameSpaceID_None
-txHTMLAtoms
+nsGkAtoms
 :
 :
 content
@@ -4438,7 +4438,7 @@ if
 aHeader
 =
 =
-txHTMLAtoms
+nsGkAtoms
 :
 :
 refresh

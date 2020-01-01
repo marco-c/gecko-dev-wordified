@@ -446,7 +446,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -826,7 +826,7 @@ attr
 mLocalName
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 xmlns
@@ -1075,7 +1075,7 @@ i
 mPrefix
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 xmlns
@@ -1107,7 +1107,7 @@ kNameSpaceID_XMLNS
 {
 prefixToBind
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -1377,7 +1377,7 @@ attr
 mLocalName
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 space
@@ -1403,7 +1403,7 @@ attr
 -
 >
 mValue
-txXMLAtoms
+nsGkAtoms
 :
 :
 preserve
@@ -1427,7 +1427,7 @@ attr
 -
 >
 mValue
-txXMLAtoms
+nsGkAtoms
 :
 :
 _default
@@ -1471,7 +1471,7 @@ attr
 mLocalName
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 base
@@ -1552,7 +1552,7 @@ attr
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 extensionElementPrefixes
@@ -1581,7 +1581,7 @@ attr
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 extensionElementPrefixes
@@ -1597,7 +1597,7 @@ kNameSpaceID_XSLT
 aLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 stylesheet
@@ -1606,7 +1606,7 @@ stylesheet
 aLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 transform
@@ -1720,7 +1720,7 @@ attr
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 version
@@ -1749,7 +1749,7 @@ attr
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 version
@@ -1765,7 +1765,7 @@ kNameSpaceID_XSLT
 aLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 stylesheet
@@ -1774,7 +1774,7 @@ stylesheet
 aLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 transform
@@ -4430,7 +4430,7 @@ aPrefix
 aPrefix
 !
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -4695,7 +4695,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 document
@@ -4723,7 +4723,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 key
@@ -4751,7 +4751,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 formatNumber
@@ -4783,7 +4783,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 current
@@ -4804,7 +4804,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 unparsedEntityUri
@@ -4820,7 +4820,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 generateId
@@ -4841,7 +4841,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 systemProperty
@@ -4873,7 +4873,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 elementAvailable
@@ -4905,7 +4905,7 @@ if
 aName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 functionAvailable

@@ -460,7 +460,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -839,7 +839,7 @@ aInXSLTNS
 kNameSpaceID_XSLT
 :
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 useAttributeSets
@@ -971,7 +971,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 aNamespaceID
-txXSLTAtoms
+nsGkAtoms
 :
 :
 excludeResultPrefixes
@@ -1773,7 +1773,7 @@ if
 atom
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 yes
@@ -1790,7 +1790,7 @@ if
 atom
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 no
@@ -2274,7 +2274,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 id
@@ -2311,7 +2311,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 version
@@ -2420,7 +2420,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_XSLT
-txXSLTAtoms
+nsGkAtoms
 :
 :
 version
@@ -2661,7 +2661,7 @@ kNameSpaceID_XSLT
 aLocalName
 !
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 stylesheet
@@ -2670,7 +2670,7 @@ stylesheet
 aLocalName
 !
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 transform
@@ -2863,7 +2863,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -3052,7 +3052,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -3089,7 +3089,7 @@ getCharAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 decimalSeparator
@@ -3113,7 +3113,7 @@ getCharAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 groupingSeparator
@@ -3144,7 +3144,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 infinity
@@ -3181,7 +3181,7 @@ getCharAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 minusSign
@@ -3206,7 +3206,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 NaN
@@ -3243,7 +3243,7 @@ getCharAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 percent
@@ -3267,7 +3267,7 @@ getCharAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 perMille
@@ -3291,7 +3291,7 @@ getCharAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 zeroDigit
@@ -3315,7 +3315,7 @@ getCharAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 digit
@@ -3339,7 +3339,7 @@ getCharAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 patternSeparator
@@ -3506,7 +3506,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 href
@@ -3630,7 +3630,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 href
@@ -3750,7 +3750,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -3777,7 +3777,7 @@ getPatternAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 match
@@ -3804,7 +3804,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 use
@@ -3910,7 +3910,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 stylesheetPrefix
@@ -3932,7 +3932,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 resultPrefix
@@ -4040,7 +4040,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 method
@@ -4112,7 +4112,7 @@ methodExpName
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 html
@@ -4136,7 +4136,7 @@ methodExpName
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 text
@@ -4160,7 +4160,7 @@ methodExpName
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 xml
@@ -4194,7 +4194,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 version
@@ -4226,7 +4226,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 encoding
@@ -4259,7 +4259,7 @@ getYesNoAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 omitXmlDeclaration
@@ -4285,7 +4285,7 @@ getYesNoAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 standalone
@@ -4310,7 +4310,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 doctypePublic
@@ -4342,7 +4342,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 doctypeSystem
@@ -4374,7 +4374,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 cdataSectionElements
@@ -4485,7 +4485,7 @@ getYesNoAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 indent
@@ -4510,7 +4510,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 mediaType
@@ -4635,7 +4635,7 @@ getStyleAttr
 aAttributes
 aAttrCount
 kNameSpaceID_None
-txXSLTAtoms
+nsGkAtoms
 :
 :
 elements
@@ -4656,7 +4656,7 @@ strip
 aLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 stripSpace
@@ -4919,7 +4919,7 @@ localName
 }
 localName
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 _asterix
@@ -5090,7 +5090,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -5114,7 +5114,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 mode
@@ -5143,7 +5143,7 @@ getNumberAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 priority
@@ -5170,7 +5170,7 @@ getPatternAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 match
@@ -5351,7 +5351,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -5378,7 +5378,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select
@@ -5407,7 +5407,7 @@ select
 aLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 param
@@ -5927,7 +5927,7 @@ attr
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 version
@@ -6362,7 +6362,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 mode
@@ -6424,7 +6424,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select
@@ -6819,7 +6819,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -6846,7 +6846,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 _namespace
@@ -7070,7 +7070,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -7792,7 +7792,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select
@@ -7931,7 +7931,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -7958,7 +7958,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 _namespace
@@ -8241,7 +8241,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select
@@ -8605,7 +8605,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 test
@@ -8804,7 +8804,7 @@ getYesNoAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 terminate
@@ -8957,7 +8957,7 @@ getAtomAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 level
@@ -8991,7 +8991,7 @@ if
 levelAtom
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 multiple
@@ -9011,7 +9011,7 @@ if
 levelAtom
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 any
@@ -9034,7 +9034,7 @@ levelAtom
 levelAtom
 !
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 single
@@ -9064,7 +9064,7 @@ getPatternAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 count
@@ -9091,7 +9091,7 @@ getPatternAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 from
@@ -9118,7 +9118,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 value
@@ -9145,7 +9145,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 format
@@ -9172,7 +9172,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 lang
@@ -9199,7 +9199,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 letterValue
@@ -9226,7 +9226,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 groupingSeparator
@@ -9253,7 +9253,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 groupingSize
@@ -9479,7 +9479,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -9568,7 +9568,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select
@@ -9941,7 +9941,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -10094,7 +10094,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select
@@ -10174,7 +10174,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 lang
@@ -10201,7 +10201,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 dataType
@@ -10228,7 +10228,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 order
@@ -10255,7 +10255,7 @@ getAVTAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 caseOrder
@@ -10390,7 +10390,7 @@ getYesNoAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 disableOutputEscaping
@@ -10549,7 +10549,7 @@ getYesNoAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 disableOutputEscaping
@@ -10576,7 +10576,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select
@@ -10715,7 +10715,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -10742,7 +10742,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select
@@ -11181,7 +11181,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 test
@@ -11446,7 +11446,7 @@ getQNameAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 name
@@ -11473,7 +11473,7 @@ getExprAttr
 (
 aAttributes
 aAttrCount
-txXSLTAtoms
+nsGkAtoms
 :
 :
 select

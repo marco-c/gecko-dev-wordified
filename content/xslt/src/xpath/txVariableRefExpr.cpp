@@ -458,7 +458,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -579,7 +579,7 @@ if
 mPrefix
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 _empty

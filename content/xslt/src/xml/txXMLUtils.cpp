@@ -474,7 +474,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -1455,7 +1455,7 @@ walker
 .
 getAttr
 (
-txXMLAtoms
+nsGkAtoms
 :
 :
 space
@@ -1469,7 +1469,7 @@ if
 TX_StringEqualsAtom
 (
 value
-txXMLAtoms
+nsGkAtoms
 :
 :
 preserve
@@ -1485,7 +1485,7 @@ if
 TX_StringEqualsAtom
 (
 value
-txXMLAtoms
+nsGkAtoms
 :
 :
 _default

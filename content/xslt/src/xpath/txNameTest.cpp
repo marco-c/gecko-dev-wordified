@@ -451,7 +451,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -508,7 +508,7 @@ if
 aPrefix
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -662,7 +662,7 @@ if
 mLocalName
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 _asterix
@@ -722,7 +722,7 @@ if
 mLocalName
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 _asterix
@@ -772,7 +772,7 @@ if
 mLocalName
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 _asterix
