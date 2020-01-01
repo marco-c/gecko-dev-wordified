@@ -5072,7 +5072,7 @@ case
 NS_VK_COLON
 :
 return
-GDK_comma
+GDK_colon
 ;
 case
 NS_VK_SEMICOLON
