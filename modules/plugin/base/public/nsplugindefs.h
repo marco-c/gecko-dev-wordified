@@ -2603,14 +2603,6 @@ type
 handler
 )
 class
-nsIEventHandler
-;
-/
-/
-event
-handler
-interface
-class
 nsIPluginInstance
 ;
 /
