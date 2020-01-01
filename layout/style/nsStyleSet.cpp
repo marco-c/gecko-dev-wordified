@@ -1245,6 +1245,10 @@ new
 nsCSSRuleProcessor
 (
 cssSheets
+PRUint8
+(
+aType
+)
 )
 ;
 }
@@ -4776,10 +4780,7 @@ nsPresContext
 aPresContext
 nsTArray
 <
-nsRefPtr
-<
-nsCSSFontFaceRule
->
+nsFontFaceRuleContainer
 >
 &
 aArray

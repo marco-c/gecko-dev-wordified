@@ -2141,12 +2141,8 @@ mLoaderContext
 mLoaderProc
 (
 aProxyEntry
+&
 currSrc
-.
-mURI
-currSrc
-.
-mReferrer
 mLoaderContext
 )
 ;

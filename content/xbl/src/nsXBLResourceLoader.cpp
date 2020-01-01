@@ -590,6 +590,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsStyleSet
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsXBLResourceLoader
@@ -1257,6 +1264,10 @@ mResources
 -
 >
 mStyleSheetList
+nsStyleSet
+:
+:
+eDocSheet
 )
 ;
 /

@@ -534,6 +534,13 @@ nsCSSRuleProcessor
 .
 h
 "
+#
+include
+"
+nsStyleSet
+.
+h
+"
 static
 NS_DEFINE_CID
 (
@@ -962,6 +969,10 @@ new
 nsCSSRuleProcessor
 (
 mStyleSheetList
+nsStyleSet
+:
+:
+eDocSheet
 )
 ;
 return
