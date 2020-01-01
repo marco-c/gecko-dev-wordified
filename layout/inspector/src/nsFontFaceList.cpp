@@ -57,9 +57,6 @@ MPL
 *
 /
 #
-define
-_IMPL_NS_LAYOUT
-#
 include
 "
 nsFontFaceList
