@@ -26961,7 +26961,7 @@ arguments
 to
 /
 or
-&
+%
 %
 must
 both
@@ -26970,6 +26970,7 @@ double
 signed
 or
 unsigned
+;
 "
 "
 %
@@ -27298,6 +27299,7 @@ signed
 unsigned
 or
 doubles
+;
 "
 "
 %
