@@ -4220,6 +4220,19 @@ than
 /
 Touch
 radius
+(
+area
+around
+the
+touch
+location
+to
+look
+for
+target
+elements
+)
+:
 pref
 (
 "
@@ -4259,7 +4272,7 @@ touch
 .
 top
 "
-4
+12
 )
 ;
 pref
@@ -4273,7 +4286,7 @@ touch
 .
 bottom
 "
-12
+4
 )
 ;
 pref
