@@ -969,6 +969,14 @@ void
 aData
 )
 ;
+NS_IMETHOD
+GetContentText
+(
+nsAString
+&
+aText
+)
+;
 protected
 :
 /

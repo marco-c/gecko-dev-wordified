@@ -498,6 +498,9 @@ nsIWeakReference
 aShell
 )
 ;
+/
+/
+nsIAccessible
 NS_IMETHOD
 GetRole
 (
@@ -530,6 +533,17 @@ GetChildCount
 PRInt32
 *
 _retval
+)
+;
+/
+/
+nsPIAccessible
+NS_IMETHOD
+GetContentText
+(
+nsAString
+&
+aText
 )
 ;
 }
