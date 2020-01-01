@@ -779,6 +779,13 @@ nscolor
 aColor
 )
 ;
+void
+SetIgnoreUserModify
+(
+PRBool
+aIgnoreUserModify
+)
+;
 /
 /
 nsISelectionListener
@@ -1180,6 +1187,9 @@ also
 /
 mLastBidiLevel
 below
+PRPackedBool
+mIgnoreUserModify
+;
 #
 ifdef
 IBMBIDI
