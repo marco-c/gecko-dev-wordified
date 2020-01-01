@@ -717,6 +717,17 @@ LInstruction
 ins
 )
 ;
+bool
+assignSafepoint
+(
+MInstruction
+*
+mir
+LInstruction
+*
+ins
+)
+;
 void
 lowerUntypedPhiInput
 (

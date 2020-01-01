@@ -833,9 +833,9 @@ const
 VMFunction
 *
 f
-LSnapshot
+LInstruction
 *
-snapshot
+ins
 )
 ;
 public
