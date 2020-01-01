@@ -606,6 +606,10 @@ endif
 #
 ifdef
 JS_WORKER_THREADS
+workerThreadState
+(
+NULL
+)
 exclusiveAccessLock
 (
 NULL
@@ -1138,15 +1142,6 @@ signalHandlersInstalled_
 (
 false
 )
-#
-ifdef
-JS_WORKER_THREADS
-workerThreadState
-(
-NULL
-)
-#
-endif
 defaultFreeOp_
 (
 thisFromCtor
