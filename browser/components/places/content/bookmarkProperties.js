@@ -5511,8 +5511,11 @@ transactions
 .
 push
 (
-new
-PlacesEditItemDescriptionTransaction
+PlacesUtils
+.
+ptm
+.
+editItemDescription
 (
 itemId
 description
