@@ -1329,10 +1329,6 @@ mConnInfo
 /
 hard
 ref
-PRLock
-*
-mLock
-;
 PRUint32
 mLastReadTime
 ;
