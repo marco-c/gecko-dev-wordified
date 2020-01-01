@@ -972,7 +972,7 @@ zoomToPage
 (
 )
 ;
-this
+self
 .
 _maybeZoomToPage
 =
