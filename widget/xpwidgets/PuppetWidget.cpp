@@ -2089,7 +2089,7 @@ no
 other
 updates
 return
-NS_SUCCESS_IME_NO_UPDATES
+NS_ERROR_NOT_IMPLEMENTED
 ;
 OnIMESelectionChange
 (
