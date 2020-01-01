@@ -220,9 +220,6 @@ nsDASHReader
 .
 h
 "
-class
-nsDASHRepDecoder
-;
 namespace
 mozilla
 {
@@ -242,10 +239,9 @@ Representation
 /
 /
 net
-}
-/
-/
-mozilla
+class
+nsDASHRepDecoder
+;
 class
 nsDASHDecoder
 :
@@ -1109,5 +1105,10 @@ mVideoRepDecoders
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

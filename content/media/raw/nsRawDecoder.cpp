@@ -77,6 +77,9 @@ nsRawDecoder
 .
 h
 "
+namespace
+mozilla
+{
 nsBuiltinDecoderStateMachine
 *
 nsRawDecoder
@@ -100,3 +103,8 @@ true
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

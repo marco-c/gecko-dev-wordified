@@ -136,6 +136,9 @@ nsMediaPluginDecoder
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsMediaPluginDecoder
 :
@@ -197,5 +200,10 @@ CreateStateMachine
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

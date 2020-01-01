@@ -129,6 +129,9 @@ nsBuiltinDecoder
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsOggDecoder
 :
@@ -172,5 +175,10 @@ CreateStateMachine
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

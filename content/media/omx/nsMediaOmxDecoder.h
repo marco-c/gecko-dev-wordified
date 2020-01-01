@@ -138,6 +138,9 @@ nsBuiltinDecoder
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsMediaOmxDecoder
 :
@@ -171,5 +174,10 @@ CreateStateMachine
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

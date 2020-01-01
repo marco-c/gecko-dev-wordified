@@ -130,10 +130,13 @@ nsBuiltinDecoderReader
 h
 "
 class
-nsBuiltinDecoder
-;
-class
 nsTimeRanges
+;
+namespace
+mozilla
+{
+class
+nsBuiltinDecoder
 ;
 class
 nsWaveReader
@@ -623,5 +626,10 @@ mWavePCMOffset
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

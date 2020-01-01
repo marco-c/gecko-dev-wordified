@@ -208,10 +208,9 @@ VorbisUtils
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 /
 /
 On
@@ -12438,3 +12437,8 @@ return
 false
 ;
 }
+}
+/
+/
+namespace
+mozilla

@@ -133,6 +133,9 @@ VideoUtils
 .
 h
 "
+namespace
+mozilla
+{
 static
 const
 nsTArray
@@ -148,10 +151,6 @@ size_type
 MAX_PENDING_EVENTS
 =
 100
-;
-using
-namespace
-mozilla
 ;
 class
 nsAudioAvailableEventRunner
@@ -1370,3 +1369,8 @@ mHasListener
 true
 ;
 }
+}
+/
+/
+namespace
+mozilla

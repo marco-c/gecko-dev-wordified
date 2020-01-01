@@ -150,6 +150,9 @@ MPAPI
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsMediaPluginReader
 :
@@ -304,5 +307,10 @@ true
 }
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

@@ -854,6 +854,10 @@ aScale
 }
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

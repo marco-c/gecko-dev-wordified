@@ -133,6 +133,9 @@ nsMediaPluginReader
 .
 h
 "
+namespace
+mozilla
+{
 nsMediaPluginDecoder
 :
 :
@@ -172,3 +175,8 @@ this
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

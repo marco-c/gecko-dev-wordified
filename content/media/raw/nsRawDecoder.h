@@ -73,6 +73,9 @@ nsBuiltinDecoder
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsRawDecoder
 :
@@ -116,5 +119,10 @@ CreateStateMachine
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

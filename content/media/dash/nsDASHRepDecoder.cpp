@@ -217,12 +217,9 @@ nsDASHRepDecoder
 .
 h
 "
-using
+namespace
 mozilla
-:
-:
-ReentrantMonitor
-;
+{
 #
 ifdef
 PR_LOGGING
@@ -2471,3 +2468,8 @@ ReleaseStateMachine
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

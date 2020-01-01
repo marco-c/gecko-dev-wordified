@@ -127,12 +127,12 @@ SharedBuffer
 .
 h
 "
-class
-nsAudioStream
-;
 namespace
 mozilla
 {
+class
+nsAudioStream
+;
 struct
 AudioChunk
 {

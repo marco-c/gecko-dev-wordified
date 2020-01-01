@@ -140,12 +140,9 @@ nsThreadUtils
 .
 h
 "
-using
+namespace
 mozilla
-:
-:
-ReentrantMonitorAutoEnter
-;
+{
 static
 const
 double
@@ -1665,3 +1662,8 @@ i
 }
 }
 }
+}
+/
+/
+namespace
+mozilla

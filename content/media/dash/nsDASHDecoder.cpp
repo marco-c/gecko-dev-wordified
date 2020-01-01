@@ -1156,12 +1156,9 @@ nsDASHDecoder
 .
 h
 "
-using
+namespace
 mozilla
-:
-:
-ReentrantMonitorAutoEnter
-;
+{
 #
 ifdef
 PR_LOGGING
@@ -4760,3 +4757,8 @@ rv
 }
 }
 }
+}
+/
+/
+namespace
+mozilla

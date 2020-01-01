@@ -182,10 +182,9 @@ h
 /
 /
 DebugOnly
-using
 namespace
 mozilla
-;
+{
 #
 ifdef
 PR_LOGGING
@@ -10995,3 +10994,8 @@ return
 false
 ;
 }
+}
+/
+/
+namespace
+mozilla

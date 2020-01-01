@@ -220,6 +220,9 @@ nsBuiltinDecoder
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsDASHDecoder
 ;
@@ -1269,6 +1272,11 @@ mReader
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

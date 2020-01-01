@@ -233,6 +233,9 @@ format
 *
 *
 /
+namespace
+mozilla
+{
 class
 nsWaveDecoder
 :
@@ -276,5 +279,10 @@ CreateStateMachine
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

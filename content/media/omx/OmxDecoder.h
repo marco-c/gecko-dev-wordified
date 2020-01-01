@@ -158,6 +158,13 @@ mozilla
 MediaResource
 MediaResource
 ;
+typedef
+mozilla
+:
+:
+nsBuiltinDecoder
+nsBuiltinDecoder
+;
 MediaResource
 *
 mResource
@@ -325,6 +332,13 @@ mozilla
 :
 MediaResource
 MediaResource
+;
+typedef
+mozilla
+:
+:
+nsBuiltinDecoder
+nsBuiltinDecoder
 ;
 enum
 {

@@ -170,10 +170,9 @@ nsBuiltinDecoderStateMachine
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 nsMediaPluginReader
 :
 :
@@ -2047,3 +2046,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla

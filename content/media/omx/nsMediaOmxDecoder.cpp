@@ -133,6 +133,9 @@ nsBuiltinDecoderStateMachine
 .
 h
 "
+namespace
+mozilla
+{
 nsMediaOmxDecoder
 :
 :
@@ -192,3 +195,8 @@ nsMediaOmxDecoder
 )
 {
 }
+}
+/
+/
+namespace
+mozilla

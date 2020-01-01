@@ -187,10 +187,13 @@ VideoUtils
 h
 "
 class
-nsBuiltinDecoder
-;
-class
 nsTimeRanges
+;
+namespace
+mozilla
+{
+class
+nsBuiltinDecoder
 ;
 class
 nsOggReader
@@ -2144,5 +2147,10 @@ mPicture
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

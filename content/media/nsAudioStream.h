@@ -157,6 +157,9 @@ AudioSampleFormat
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 Access
@@ -890,5 +893,10 @@ mChannels
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

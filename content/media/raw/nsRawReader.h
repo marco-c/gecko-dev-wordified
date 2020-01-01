@@ -117,6 +117,9 @@ nsRawStructs
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsRawReader
 :
@@ -285,5 +288,10 @@ mPicture
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

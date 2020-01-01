@@ -143,6 +143,9 @@ MPAPI
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsMediaPluginReader
 ;
@@ -252,5 +255,10 @@ GetMediaPluginHost
 (
 )
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

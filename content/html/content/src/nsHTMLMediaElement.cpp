@@ -336,6 +336,13 @@ h
 #
 include
 "
+nsBuiltinDecoder
+.
+h
+"
+#
+include
+"
 nsICategoryManager
 .
 h

@@ -148,12 +148,9 @@ h
 class
 nsTimeRanges
 ;
-using
+namespace
 mozilla
-:
-:
-ReentrantMonitor
-;
+{
 /
 /
 Stores
@@ -1391,5 +1388,10 @@ mRangeParsers
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif

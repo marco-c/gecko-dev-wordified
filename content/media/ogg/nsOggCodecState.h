@@ -295,6 +295,9 @@ map
 >
 #
 endif
+namespace
+mozilla
+{
 /
 /
 Deallocates
@@ -3552,6 +3555,11 @@ mIndex
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 /
 /
 This
@@ -3600,6 +3608,9 @@ ogg_packet
 aPacket
 )
 {
+mozilla
+:
+:
 nsOggCodecState
 :
 :

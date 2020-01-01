@@ -218,10 +218,9 @@ nsAnonymousTemporaryFile
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 #
 ifdef
 PR_LOGGING
@@ -15558,3 +15557,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla

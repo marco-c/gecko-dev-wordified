@@ -167,10 +167,9 @@ using
 namespace
 android
 ;
-using
 namespace
 mozilla
-;
+{
 nsMediaOmxReader
 :
 :
@@ -2352,3 +2351,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla

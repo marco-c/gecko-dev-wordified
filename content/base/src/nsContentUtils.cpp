@@ -36862,6 +36862,9 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
+mozilla
+:
+:
 nsBuiltinDecoder
 :
 :

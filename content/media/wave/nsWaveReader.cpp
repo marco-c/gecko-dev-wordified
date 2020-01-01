@@ -170,10 +170,9 @@ StandardInteger
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 /
 /
 Un
@@ -3423,3 +3422,8 @@ Tell
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

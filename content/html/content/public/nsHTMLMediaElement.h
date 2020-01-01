@@ -278,7 +278,6 @@ mozilla
 class
 MediaResource
 ;
-}
 class
 nsBuiltinDecoder
 ;
@@ -290,6 +289,7 @@ nsDASHDecoder
 ;
 #
 endif
+}
 class
 nsHTMLMediaElement
 :
@@ -356,6 +356,20 @@ mozilla
 :
 MetadataTags
 MetadataTags
+;
+typedef
+mozilla
+:
+:
+nsAudioStream
+nsAudioStream
+;
+typedef
+mozilla
+:
+:
+nsBuiltinDecoder
+nsBuiltinDecoder
 ;
 #
 ifdef
@@ -696,6 +710,9 @@ aRate
 bool
 aHasAudio
 const
+mozilla
+:
+:
 MetadataTags
 *
 aTags
@@ -4837,6 +4854,9 @@ aUserArg
 nsAutoPtr
 <
 const
+mozilla
+:
+:
 MetadataTags
 >
 mTags
