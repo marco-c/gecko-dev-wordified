@@ -12238,9 +12238,9 @@ gcIsNeeded
 =
 true
 ;
-JS_TriggerOperationCallback
+JS_TriggerAllOperationCallbacks
 (
-this
+runtime
 )
 ;
 }
