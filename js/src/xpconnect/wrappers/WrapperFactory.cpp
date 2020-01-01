@@ -626,7 +626,7 @@ get
 off
 it
 .
-JSCrossCompartmentWrapper
+CrossOriginWrapper
 XrayWrapperWaivedWrapper
 (
 WrapperFactory
@@ -1216,10 +1216,7 @@ wrapper
 &
 FilteringWrapper
 <
-XrayWrapper
-<
-CrossOriginWrapper
->
+Xray
 CrossOriginAccessiblePropertiesOnly
 >
 :
