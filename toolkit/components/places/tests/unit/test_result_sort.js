@@ -1137,7 +1137,7 @@ bookmark
 nodes
 annosvc
 .
-setItemAnnotationString
+setItemAnnotation
 (
 id1
 "
@@ -1152,7 +1152,7 @@ a
 ;
 annosvc
 .
-setItemAnnotationString
+setItemAnnotation
 (
 id3
 "
@@ -1219,7 +1219,7 @@ live
 update
 annosvc
 .
-setItemAnnotationString
+setItemAnnotation
 (
 id1
 "

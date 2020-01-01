@@ -7259,7 +7259,7 @@ DESCRIPTION_ANNO
 return
 annos
 .
-getItemAnnotationString
+getItemAnnotation
 (
 node
 .

@@ -14372,7 +14372,7 @@ _oldDescription
 =
 annos
 .
-getItemAnnotationString
+getItemAnnotation
 (
 this
 .
@@ -14392,7 +14392,7 @@ _newDescription
 {
 annos
 .
-setItemAnnotationString
+setItemAnnotation
 (
 this
 .
@@ -14457,7 +14457,7 @@ _oldDescription
 {
 annos
 .
-setItemAnnotationString
+setItemAnnotation
 (
 this
 .

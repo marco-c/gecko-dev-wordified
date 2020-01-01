@@ -2112,7 +2112,7 @@ comment
 "
 annosvc
 .
-getItemAnnotationString
+getItemAnnotation
 (
 testFolder
 .
@@ -2318,7 +2318,7 @@ text1
 "
 annosvc
 .
-getPageAnnotationString
+getPageAnnotation
 (
 pageURI
 POST_DATA_ANNO
@@ -2351,7 +2351,7 @@ ISO
 "
 annosvc
 .
-getPageAnnotationString
+getPageAnnotation
 (
 pageURI
 LAST_CHARSET_ANNO
@@ -2382,7 +2382,7 @@ description
 "
 annosvc
 .
-getItemAnnotationString
+getItemAnnotation
 (
 testBookmark1
 .
