@@ -544,6 +544,10 @@ MResumePoint
 *
 lastResumePoint_
 ;
+LSnapshot
+*
+postSnapshot_
+;
 public
 :
 LIRGeneratorShared
@@ -572,6 +576,10 @@ lirGraph_
 lirGraph
 )
 lastResumePoint_
+(
+NULL
+)
+postSnapshot_
 (
 NULL
 )

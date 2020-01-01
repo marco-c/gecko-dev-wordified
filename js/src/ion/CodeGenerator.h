@@ -560,6 +560,15 @@ generate
 ;
 virtual
 bool
+visitCaptureAllocations
+(
+LCaptureAllocations
+*
+lir
+)
+;
+virtual
+bool
 visitParameter
 (
 LParameter
