@@ -12732,7 +12732,7 @@ Pending
 "
 GSM_REQ_PENDING_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 if
@@ -24893,7 +24893,7 @@ Onhook
 "
 GSM_ERROR_ONHOOK_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 if
@@ -26921,7 +26921,7 @@ Onhook
 "
 GSM_ERROR_ONHOOK_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 if
@@ -50321,7 +50321,7 @@ Delay
 "
 GSM_RINGBACK_DELAY_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 if
@@ -50384,7 +50384,7 @@ Answer
 "
 GSM_AUTOANSWER_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 if
@@ -50453,7 +50453,7 @@ Reversion
 "
 GSM_REVERSION_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 dcb
