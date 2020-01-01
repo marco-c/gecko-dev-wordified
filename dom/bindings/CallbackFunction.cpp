@@ -697,7 +697,9 @@ nsJSContext
 :
 :
 CallEventHandler
-works
+used
+to
+work
 but
 is
 it
