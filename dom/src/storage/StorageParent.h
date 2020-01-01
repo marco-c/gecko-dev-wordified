@@ -386,10 +386,6 @@ aPrivate
 const
 nsCString
 &
-aDomain
-const
-nsCString
-&
 aScopeDBKey
 const
 nsCString
