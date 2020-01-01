@@ -22824,6 +22824,7 @@ cookies
 and
 %
 lld
+oldest
 age
 "
 mDBState
@@ -23200,8 +23201,6 @@ COOKIE_LOGEVICTED
 cookie
 "
 Cookie
-expired
-or
 too
 old
 "
@@ -23373,12 +23372,12 @@ age
 initialCookieCount
 -
 postExpiryCookieCount
+postExpiryCookieCount
+-
 mDBState
 -
 >
 cookieCount
--
-postExpiryCookieCount
 mDBState
 -
 >
