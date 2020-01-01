@@ -10745,13 +10745,14 @@ JSObject
 obj
 jsuint
 length
+const
 jsval
 *
 vector
-JSBool
+bool
 holey
 =
-JS_FALSE
+false
 )
 {
 JS_ASSERT
@@ -20590,6 +20591,7 @@ rval
 jsuint
 length
 ;
+const
 jsval
 *
 vector
@@ -21177,10 +21179,11 @@ JSContext
 cx
 jsuint
 length
+const
 jsval
 *
 vector
-JSBool
+bool
 holey
 )
 {
