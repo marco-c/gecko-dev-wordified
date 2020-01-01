@@ -529,7 +529,7 @@ objectStoreHash
 typedef
 nsClassHashtable
 <
-nsUint32HashKey
+nsISupportsHashKey
 DatabaseInfoHash
 >
 DatabaseHash
@@ -618,10 +618,6 @@ DatabaseInfo
 (
 )
 :
-id
-(
-0
-)
 nextObjectStoreId
 (
 1
@@ -778,7 +774,8 @@ DatabaseInfo
 :
 Get
 (
-PRUint32
+nsIAtom
+*
 aId
 DatabaseInfo
 *
@@ -1034,7 +1031,8 @@ DatabaseInfo
 :
 Remove
 (
-PRUint32
+nsIAtom
+*
 aId
 )
 {
@@ -1310,7 +1308,8 @@ ObjectStoreInfo
 :
 Get
 (
-PRUint32
+nsIAtom
+*
 aDatabaseId
 const
 nsAString
@@ -1621,7 +1620,8 @@ ObjectStoreInfo
 :
 Remove
 (
-PRUint32
+nsIAtom
+*
 aDatabaseId
 const
 nsAString

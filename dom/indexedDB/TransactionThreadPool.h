@@ -948,7 +948,7 @@ mThreadPool
 ;
 nsClassHashtable
 <
-nsUint32HashKey
+nsISupportsHashKey
 DatabaseTransactionInfo
 >
 mTransactionsInProgress

@@ -586,7 +586,8 @@ nsEventChainPostVisitor
 aVisitor
 )
 ;
-PRUint32
+nsIAtom
+*
 Id
 (
 )
@@ -812,7 +813,10 @@ OnUnlink
 (
 )
 ;
-PRUint32
+nsCOMPtr
+<
+nsIAtom
+>
 mDatabaseId
 ;
 nsString

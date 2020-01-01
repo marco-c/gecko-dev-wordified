@@ -1258,8 +1258,8 @@ transaction
 aTransaction
 )
 ;
-const
-PRUint32
+nsIAtom
+*
 databaseId
 =
 aTransaction
@@ -1839,8 +1839,8 @@ pointer
 "
 )
 ;
-const
-PRUint32
+nsIAtom
+*
 databaseId
 =
 aTransaction
@@ -2335,8 +2335,8 @@ return
 NS_OK
 ;
 }
-const
-PRUint32
+nsIAtom
+*
 databaseId
 =
 aTransaction

@@ -498,6 +498,9 @@ h
 class
 nsPIDOMWindow
 ;
+class
+nsIAtom
+;
 BEGIN_INDEXEDDB_NAMESPACE
 struct
 DatabaseInfo
@@ -648,7 +651,8 @@ LoadDatabaseInformation
 mozIStorageConnection
 *
 aConnection
-PRUint32
+nsIAtom
+*
 aDatabaseId
 PRUint64
 *
