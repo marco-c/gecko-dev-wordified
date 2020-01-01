@@ -45,7 +45,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -451,7 +451,7 @@ database
 from
 domain
 2
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (

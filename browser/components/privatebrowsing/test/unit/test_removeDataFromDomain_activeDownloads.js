@@ -170,7 +170,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -1042,7 +1042,7 @@ Dispatch
 the
 remove
 call
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (

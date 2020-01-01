@@ -71,7 +71,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -631,7 +631,7 @@ correctly
 for
 closed
 windows
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (

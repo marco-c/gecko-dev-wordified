@@ -129,7 +129,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -1550,7 +1550,7 @@ uri
 .
 host
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (

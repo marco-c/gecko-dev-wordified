@@ -82,7 +82,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-ClearRecentHistory
+ForgetAboutSite
 "
 ]
 ;
@@ -335,7 +335,7 @@ Components
 utils
 ;
 var
-ClearRecentHistory
+ForgetAboutSite
 =
 {
 removeDataFromDomain

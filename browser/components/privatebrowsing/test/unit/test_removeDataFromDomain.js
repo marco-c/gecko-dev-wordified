@@ -270,7 +270,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -2129,7 +2129,7 @@ add_visit
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2177,7 +2177,7 @@ add_visit
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2223,7 +2223,7 @@ add_visit
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2285,7 +2285,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2324,7 +2324,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2361,7 +2361,7 @@ add_cookie
 TEST_DOMAIN
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2409,7 +2409,7 @@ TEST_URI
 false
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2455,7 +2455,7 @@ TEST_URI
 false
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2516,7 +2516,7 @@ TEST_URI
 true
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2609,7 +2609,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2652,7 +2652,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2693,7 +2693,7 @@ add_disabled_host
 TEST_HOST
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2777,7 +2777,7 @@ add_login
 TEST_HOST
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2820,7 +2820,7 @@ add_login
 TEST_HOST
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2861,7 +2861,7 @@ add_login
 TEST_HOST
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2946,7 +2946,7 @@ add_permission
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -2992,7 +2992,7 @@ add_permission
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -3036,7 +3036,7 @@ add_permission
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -3123,7 +3123,7 @@ add_preference
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -3169,7 +3169,7 @@ add_preference
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -3213,7 +3213,7 @@ add_preference
 TEST_URI
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -3454,7 +3454,7 @@ cache
 false
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -3677,7 +3677,7 @@ i
 )
 ;
 }
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (

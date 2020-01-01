@@ -45,7 +45,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -455,7 +455,7 @@ and
 its
 subdomains
 .
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -562,7 +562,7 @@ using
 a
 subdomain
 .
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -613,7 +613,7 @@ for
 1
 "
 .
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -668,7 +668,7 @@ for
 localhost
 "
 .
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
