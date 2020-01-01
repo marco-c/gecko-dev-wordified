@@ -360,7 +360,7 @@ R
 .
 drawable
 .
-icon
+ic_status_logo
 ;
 /
 /
