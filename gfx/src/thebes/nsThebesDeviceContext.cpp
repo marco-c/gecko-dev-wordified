@@ -6665,7 +6665,7 @@ mAppUnitsPerDevPixel
 PR_MAX
 (
 1
-PRInt32
+NSToIntRound
 (
 float
 (
