@@ -1407,7 +1407,7 @@ GetSubmissionFromForm
 nsGenericHTMLElement
 *
 aForm
-nsIContent
+nsGenericHTMLElement
 *
 aOriginatingElement
 nsFormSubmission
