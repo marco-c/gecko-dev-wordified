@@ -439,9 +439,11 @@ services
 sync
 "
 "
-embedding
+mobile
 /
 android
+/
+base
 "
                  
 "

@@ -683,6 +683,12 @@ LayerController
 .
 java
 in
+mobile
+/
+android
+/
+base
+and
 embedding
 /
 android
