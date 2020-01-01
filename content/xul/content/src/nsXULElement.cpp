@@ -19166,7 +19166,14 @@ mScriptObject
 .
 mObject
 =
+static_cast
+<
+JSScript
+*
+>
+(
 aObject
+)
 ;
 }
 }
