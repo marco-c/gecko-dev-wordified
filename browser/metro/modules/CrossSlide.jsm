@@ -868,6 +868,7 @@ cancel
 :
 function
 (
+aEvent
 )
 {
 this
@@ -1088,6 +1089,7 @@ this
 .
 cancel
 (
+aEvent
 )
 ;
 }
@@ -1228,6 +1230,7 @@ this
 .
 cancel
 (
+aEvent
 )
 ;
 }
@@ -1306,6 +1309,7 @@ this
 .
 cancel
 (
+aEvent
 )
 ;
 }
@@ -1394,6 +1398,7 @@ this
 .
 cancel
 (
+aEvent
 )
 ;
 }
