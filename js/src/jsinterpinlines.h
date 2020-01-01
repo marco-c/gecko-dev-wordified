@@ -1101,7 +1101,7 @@ i
 }
 static
 inline
-void
+bool
 PRIMITIVE
 (
 call_ValueToECMAUint32
@@ -1124,6 +1124,13 @@ js_ValueToECMAUint32
 (
 cx
 &
+v
+)
+;
+return
+!
+JSVAL_IS_NULL
+(
 v
 )
 ;
