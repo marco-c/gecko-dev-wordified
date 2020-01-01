@@ -697,6 +697,7 @@ AdaptationSetType
 GetAdaptationSetType
 (
 uint32_t
+const
 aAdaptSetIdx
 )
 const
