@@ -701,7 +701,7 @@ js
 "
 )
 "
-w
+a
 "
 )
     
@@ -1340,7 +1340,7 @@ mkdtemp
       
 self
 .
-createReftestProfile
+copyExtraFilesToProfile
 (
 options
 profileDir
@@ -1348,7 +1348,7 @@ profileDir
       
 self
 .
-copyExtraFilesToProfile
+createReftestProfile
 (
 options
 profileDir
