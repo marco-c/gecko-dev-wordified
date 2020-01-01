@@ -351,7 +351,6 @@ mnt
 /
 sdcard
 /
-/
 baz
 "
 "
@@ -367,7 +366,6 @@ mnt
 /
 sdcard
 /
-/
 baz
 "
 "
@@ -382,7 +380,6 @@ push
 mnt
 /
 sdcard
-/
 /
 baz
 /
@@ -443,7 +440,6 @@ mnt
 /
 sdcard
 /
-/
 baz
 "
 "
@@ -459,7 +455,6 @@ mnt
 /
 sdcard
 /
-/
 baz
 "
 "
@@ -474,7 +469,6 @@ push
 mnt
 /
 sdcard
-/
 /
 baz
 /
@@ -536,7 +530,6 @@ isdir
 mnt
 /
 sdcard
-/
 /
 baz
 "

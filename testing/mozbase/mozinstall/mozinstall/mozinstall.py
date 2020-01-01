@@ -332,7 +332,8 @@ plist
 %
 path
         
-assert
+if
+not
 os
 .
 path
@@ -341,19 +342,26 @@ isfile
 (
 plist
 )
+:
+            
+raise
+InvalidBinary
+(
 '
-"
 %
 s
-"
-has
-not
-been
-found
+/
+Contents
+/
+Info
 .
+plist
+not
+found
 '
 %
-plist
+path
+)
         
 binary
 =
@@ -1407,7 +1415,7 @@ explicitely
 remove
 .
     
-shutil
+mozfile
 .
 rmtree
 (

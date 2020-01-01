@@ -90,9 +90,16 @@ getLogger
 "
 mozcrash
 "
+handler
+=
+mozlog
+.
+FileHandler
+(
 os
 .
 devnull
+)
 )
 def
 popen_factory
