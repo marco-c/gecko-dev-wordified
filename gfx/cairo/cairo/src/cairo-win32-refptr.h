@@ -510,6 +510,11 @@ Release
 ;
 }
 }
+template
+<
+typename
+U
+>
 RefPtr
 <
 T
@@ -521,7 +526,7 @@ operator
 const
 RefPtr
 <
-T
+U
 >
 aPtr
 )
@@ -529,8 +534,6 @@ aPtr
 assignPtr
 (
 aPtr
-.
-mPtr
 )
 ;
 return
@@ -710,6 +713,7 @@ T
 *
 (
 )
+const
 {
 return
 mPtr

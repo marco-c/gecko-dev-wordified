@@ -489,7 +489,7 @@ it
 *
 /
 struct
-d2d_clip
+d2d_clip_t
 ;
 #
 define
@@ -836,7 +836,7 @@ format
 cairo_clip_t
 clip
 ;
-d2d_clip
+d2d_clip_t
 *
 d2d_clip
 ;
@@ -1118,18 +1118,14 @@ WINAPI
 D2D1CreateFactoryFunc
 )
 (
-__in
 D2D1_FACTORY_TYPE
 factoryType
-__in
 REFIID
 iid
-__in_opt
 CONST
 D2D1_FACTORY_OPTIONS
 *
 pFactoryOptions
-__out
 void
 *
 *
