@@ -17352,10 +17352,8 @@ new
 title
 should
 be
-nsCAutoString
-newTitle
-=
 NS_ConvertUTF16toUTF8
+newTitle
 (
 aPageTitle
 )
@@ -17814,10 +17812,8 @@ nsINavHistoryObserver
 ATTRIBUTE_FAVICON
 :
 {
-nsCString
-newFavicon
-=
 NS_ConvertUTF16toUTF8
+newFavicon
 (
 aValue
 )
