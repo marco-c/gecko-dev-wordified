@@ -2890,16 +2890,7 @@ getProfile
 .
 readSessionFile
 (
-GeckoApp
-.
-checkLaunchState
-(
-GeckoApp
-.
-LaunchState
-.
-GeckoRunning
-)
+true
 )
 ;
 if
