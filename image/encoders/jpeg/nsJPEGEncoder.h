@@ -109,6 +109,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -204,6 +213,7 @@ options
 .
 class
 nsJPEGEncoder
+MOZ_FINAL
 :
 public
 imgIEncoder
