@@ -1272,6 +1272,16 @@ stackTypeMap
 unsigned
 mismatchCount
 ;
+Queue
+<
+nanojit
+:
+:
+Fragment
+*
+>
+dependentTrees
+;
 TreeInfo
 (
 nanojit
@@ -1449,6 +1459,9 @@ nanojit
 :
 SideExit
 exit
+;
+bool
+trashTree
 ;
 bool
 isGlobal
