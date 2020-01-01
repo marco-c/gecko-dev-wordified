@@ -881,9 +881,6 @@ new
 nsDOMMultipartFile
 (
 aName
-EmptyString
-(
-)
 )
 )
 ;
@@ -926,9 +923,6 @@ do_QueryObject
 new
 nsDOMMultipartFile
 (
-EmptyString
-(
-)
 )
 )
 ;
