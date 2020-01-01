@@ -709,7 +709,6 @@ m_enumFE
 new
 CEnumFormatEtc
 (
-32
 )
 ;
 m_enumFE
@@ -3594,7 +3593,7 @@ aDataFlavor
 m_enumFE
 -
 >
-AddFE
+AddFormatEtc
 (
 aFE
 )

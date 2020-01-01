@@ -3696,7 +3696,6 @@ m_enumFE
 new
 CEnumFormatEtc
 (
-32
 )
 ;
 m_enumFE
@@ -6387,7 +6386,7 @@ STGMEDIUM
 m_enumFE
 -
 >
-AddFE
+AddFormatEtc
 (
 pfe
 )
@@ -13368,7 +13367,7 @@ aDataFlavor
 m_enumFE
 -
 >
-AddFE
+AddFormatEtc
 (
 aFE
 )
