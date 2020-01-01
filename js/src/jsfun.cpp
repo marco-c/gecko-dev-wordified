@@ -2343,6 +2343,14 @@ argc
 callee
 )
 ;
+if
+(
+!
+argsobj
+)
+return
+NULL
+;
 apn
 -
 >
