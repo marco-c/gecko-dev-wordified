@@ -15861,6 +15861,13 @@ str_toString
 0
 JSFUN_THISP_STRING
 )
+JS_FN
+(
+js_toJSON_str
+str_toString
+0
+JSFUN_THISP_STRING
+)
 JS_TN
 (
 "
