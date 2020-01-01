@@ -6144,6 +6144,14 @@ this
 .
 highlighter
 .
+updateInfobar
+(
+)
+;
+this
+.
+highlighter
+.
 invalidateSize
 (
 )
