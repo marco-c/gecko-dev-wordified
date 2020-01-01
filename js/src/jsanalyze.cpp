@@ -2562,9 +2562,6 @@ JSOP_EXCEPTION
 case
 JSOP_DEBUGGER
 :
-case
-JSOP_FUNCALL
-:
 isIonInlineable
 =
 false
@@ -2589,6 +2586,9 @@ inline
 /
 case
 JSOP_ARGUMENTS
+:
+case
+JSOP_FUNCALL
 :
 case
 JSOP_FUNAPPLY
