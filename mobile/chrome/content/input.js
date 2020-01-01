@@ -1373,6 +1373,12 @@ null
 ;
 this
 .
+_inputField
+=
+null
+;
+this
+.
 _cleanClickBuffer
 (
 )
