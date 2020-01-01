@@ -1052,6 +1052,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLCanvasElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLCanvasElement
+nsHTMLCanvasElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLCanvasElement

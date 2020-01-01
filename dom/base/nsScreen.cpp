@@ -528,6 +528,11 @@ nsScreen
 )
 {
 }
+DOMCI_DATA
+(
+Screen
+nsScreen
+)
 /
 /
 QueryInterface

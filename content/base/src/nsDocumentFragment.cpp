@@ -1304,6 +1304,11 @@ eDOCUMENT_FRAGMENT
 )
 ;
 }
+DOMCI_DATA
+(
+DocumentFragment
+nsDocumentFragment
+)
 /
 /
 QueryInterface

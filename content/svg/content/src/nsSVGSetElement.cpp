@@ -651,6 +651,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGSetElement
 nsSVGSetElementBase
 )
+DOMCI_DATA
+(
+SVGSetElement
+nsSVGSetElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGSetElement

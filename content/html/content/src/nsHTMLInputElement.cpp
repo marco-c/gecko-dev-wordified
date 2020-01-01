@@ -2731,6 +2731,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLInputElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLInputElement
+nsHTMLInputElement
+)
 /
 /
 QueryInterface

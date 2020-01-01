@@ -536,6 +536,11 @@ nsDOMSerializer
 )
 {
 }
+DOMCI_DATA
+(
+XMLSerializer
+nsDOMSerializer
+)
 /
 /
 QueryInterface

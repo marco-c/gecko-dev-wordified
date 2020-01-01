@@ -634,6 +634,8 @@ attribute
 PRPackedBool
 mIsAnimated
 ;
+public
+:
 struct
 DOMAnimatedNumber
 :

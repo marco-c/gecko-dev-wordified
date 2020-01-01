@@ -680,6 +680,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGSymbolElement
 nsSVGSymbolElementBase
 )
+DOMCI_DATA
+(
+SVGSymbolElement
+nsSVGSymbolElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGSymbolElement

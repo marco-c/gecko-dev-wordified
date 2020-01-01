@@ -6573,6 +6573,11 @@ DOMCSSStyleRuleImpl
 )
 {
 }
+DOMCI_DATA
+(
+CSSStyleRule
+DOMCSSStyleRuleImpl
+)
 NS_INTERFACE_MAP_BEGIN
 (
 DOMCSSStyleRuleImpl

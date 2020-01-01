@@ -570,6 +570,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMKeyboardEvent
 nsDOMUIEvent
 )
+DOMCI_DATA
+(
+KeyboardEvent
+nsDOMKeyboardEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMKeyboardEvent

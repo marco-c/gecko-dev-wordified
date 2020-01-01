@@ -508,6 +508,11 @@ nsDOMStringList
 )
 {
 }
+DOMCI_DATA
+(
+DOMStringList
+nsDOMStringList
+)
 NS_IMPL_ADDREF
 (
 nsDOMStringList
@@ -651,6 +656,11 @@ nsNameList
 )
 {
 }
+DOMCI_DATA
+(
+NameList
+nsNameList
+)
 NS_IMPL_ADDREF
 (
 nsNameList

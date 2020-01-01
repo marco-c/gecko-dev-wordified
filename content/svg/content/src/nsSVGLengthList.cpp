@@ -988,6 +988,11 @@ NS_IMPL_RELEASE
 (
 nsSVGLengthList
 )
+DOMCI_DATA
+(
+SVGLengthList
+nsSVGLengthList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGLengthList

@@ -558,6 +558,11 @@ nsDOMCSSDeclaration
 )
 {
 }
+DOMCI_DATA
+(
+CSSStyleDeclaration
+nsDOMCSSDeclaration
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsDOMCSSDeclaration

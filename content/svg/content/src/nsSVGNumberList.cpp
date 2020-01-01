@@ -920,6 +920,11 @@ NS_IMPL_RELEASE
 (
 nsSVGNumberList
 )
+DOMCI_DATA
+(
+SVGNumberList
+nsSVGNumberList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGNumberList

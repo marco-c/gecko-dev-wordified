@@ -504,6 +504,11 @@ nsDOMTokenList
 )
 {
 }
+DOMCI_DATA
+(
+DOMTokenList
+nsDOMTokenList
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsDOMTokenList

@@ -522,6 +522,11 @@ void
 )
 {
 }
+DOMCI_DATA
+(
+CSSRect
+nsDOMCSSRect
+)
 /
 /
 QueryInterface

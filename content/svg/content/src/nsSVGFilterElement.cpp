@@ -712,6 +712,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGFilterElement
 nsSVGFilterElementBase
 )
+DOMCI_DATA
+(
+SVGFilterElement
+nsSVGFilterElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGFilterElement

@@ -543,6 +543,11 @@ NS_IMPL_RELEASE
 (
 nsROCSSPrimitiveValue
 )
+DOMCI_DATA
+(
+ROCSSPrimitiveValue
+nsROCSSPrimitiveValue
+)
 /
 /
 QueryInterface

@@ -633,6 +633,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGMetadataElement
 nsSVGMetadataElementBase
 )
+DOMCI_DATA
+(
+SVGMetadataElement
+nsSVGMetadataElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGMetadataElement

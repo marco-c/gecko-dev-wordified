@@ -543,6 +543,11 @@ nsBarProp
 )
 {
 }
+DOMCI_DATA
+(
+BarProp
+nsBarProp
+)
 /
 /
 QueryInterface

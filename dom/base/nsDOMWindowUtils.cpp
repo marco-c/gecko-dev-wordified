@@ -684,6 +684,11 @@ return
 hasCap
 ;
 }
+DOMCI_DATA
+(
+WindowUtils
+nsDOMWindowUtils
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMWindowUtils

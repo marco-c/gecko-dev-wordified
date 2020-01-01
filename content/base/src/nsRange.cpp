@@ -2204,6 +2204,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsRange
 )
+DOMCI_DATA
+(
+Range
+nsRange
+)
 /
 /
 QueryInterface

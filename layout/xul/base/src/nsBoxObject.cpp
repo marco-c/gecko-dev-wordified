@@ -668,6 +668,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsBoxObject
 )
+DOMCI_DATA
+(
+BoxObject
+nsBoxObject
+)
 /
 /
 QueryInterface

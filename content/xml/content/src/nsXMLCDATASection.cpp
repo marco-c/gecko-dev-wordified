@@ -676,6 +676,11 @@ nsXMLCDATASection
 )
 {
 }
+DOMCI_DATA
+(
+CDATASection
+nsXMLCDATASection
+)
 /
 /
 QueryInterface

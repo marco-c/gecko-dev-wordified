@@ -606,6 +606,8 @@ attribute
 PRPackedBool
 mIsAnimated
 ;
+public
+:
 struct
 DOMAnimatedInteger
 :

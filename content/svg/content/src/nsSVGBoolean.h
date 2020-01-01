@@ -604,6 +604,8 @@ specified
 tracking
 for
 attribute
+public
+:
 struct
 DOMAnimatedBoolean
 :

@@ -664,6 +664,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsTreeColumn
 )
+DOMCI_DATA
+(
+TreeColumn
+nsTreeColumn
+)
 /
 /
 QueryInterface
@@ -2082,6 +2087,11 @@ InvalidateColumns
 )
 ;
 }
+DOMCI_DATA
+(
+TreeColumns
+nsTreeColumns
+)
 /
 /
 QueryInterface

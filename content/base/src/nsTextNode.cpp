@@ -919,6 +919,11 @@ NS_IMPL_RELEASE_INHERITED
 nsTextNode
 nsGenericDOMDataNode
 )
+DOMCI_DATA
+(
+Text
+nsTextNode
+)
 /
 /
 QueryInterface

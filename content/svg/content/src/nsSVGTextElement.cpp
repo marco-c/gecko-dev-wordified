@@ -804,6 +804,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGTextElement
 nsSVGTextElementBase
 )
+DOMCI_DATA
+(
+SVGTextElement
+nsSVGTextElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGTextElement

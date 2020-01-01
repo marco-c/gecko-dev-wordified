@@ -547,6 +547,8 @@ specified
 tracking
 for
 attribute
+public
+:
 struct
 DOMAnimatedString
 :

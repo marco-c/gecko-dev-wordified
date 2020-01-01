@@ -689,6 +689,11 @@ mSpeed
 ;
 }
 ;
+DOMCI_DATA
+(
+GeoPositionCoords
+nsGeoPositionCoords
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsGeoPositionCoords
@@ -1045,6 +1050,11 @@ mCoords
 ;
 }
 ;
+DOMCI_DATA
+(
+GeoPosition
+nsGeoPosition
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsGeoPosition

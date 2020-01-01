@@ -606,6 +606,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLSpanElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLSpanElement
+nsHTMLSpanElement
+)
 /
 /
 QueryInterface
@@ -863,6 +868,11 @@ const
 ;
 }
 ;
+DOMCI_DATA
+(
+HTMLUnknownElement
+nsHTMLUnknownElement
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsHTMLUnknownElement

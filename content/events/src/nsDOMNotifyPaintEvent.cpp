@@ -520,6 +520,11 @@ mRequests
 ;
 }
 }
+DOMCI_DATA
+(
+NotifyPaintEvent
+nsDOMNotifyPaintEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMNotifyPaintEvent

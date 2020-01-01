@@ -538,6 +538,11 @@ Clear
 )
 ;
 }
+DOMCI_DATA
+(
+MimeTypeArray
+nsMimeTypeArray
+)
 /
 /
 QueryInterface
@@ -1642,6 +1647,11 @@ nsMimeType
 )
 {
 }
+DOMCI_DATA
+(
+MimeType
+nsMimeType
+)
 /
 /
 QueryInterface

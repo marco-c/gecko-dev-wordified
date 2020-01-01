@@ -534,6 +534,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMDataContainerEvent
 nsDOMEvent
 )
+DOMCI_DATA
+(
+DataContainerEvent
+nsDOMDataContainerEvent
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 nsDOMDataContainerEvent

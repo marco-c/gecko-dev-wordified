@@ -649,6 +649,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLMapElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLMapElement
+nsHTMLMapElement
+)
 /
 /
 QueryInterface

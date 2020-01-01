@@ -1567,6 +1567,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 txMozillaXSLTProcessor
 )
+DOMCI_DATA
+(
+XSLTProcessor
+txMozillaXSLTProcessor
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 txMozillaXSLTProcessor

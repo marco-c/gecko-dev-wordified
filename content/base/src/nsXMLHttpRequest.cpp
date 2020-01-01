@@ -3407,6 +3407,11 @@ Disconnect
 ;
 }
 }
+DOMCI_DATA
+(
+XMLHttpRequestUpload
+nsXMLHttpRequestUpload
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsXMLHttpRequestUpload
@@ -5382,6 +5387,11 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 mUpload
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
+DOMCI_DATA
+(
+XMLHttpRequest
+nsXMLHttpRequest
+)
 /
 /
 QueryInterface
@@ -17751,6 +17761,11 @@ nsXMLHttpProgressEvent
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
+nsXMLHttpProgressEvent
+)
+DOMCI_DATA
+(
+XMLHttpProgressEvent
 nsXMLHttpProgressEvent
 )
 /

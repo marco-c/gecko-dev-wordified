@@ -1008,6 +1008,11 @@ NS_IMPL_RELEASE
 (
 nsSVGPointList
 )
+DOMCI_DATA
+(
+SVGPointList
+nsSVGPointList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGPointList

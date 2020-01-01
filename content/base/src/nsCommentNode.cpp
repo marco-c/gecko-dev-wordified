@@ -668,6 +668,11 @@ nsCommentNode
 )
 {
 }
+DOMCI_DATA
+(
+Comment
+nsCommentNode
+)
 /
 /
 QueryInterface

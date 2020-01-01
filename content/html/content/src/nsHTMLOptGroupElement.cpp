@@ -730,6 +730,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLOptGroupElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLOptGroupElement
+nsHTMLOptGroupElement
+)
 /
 /
 QueryInterface

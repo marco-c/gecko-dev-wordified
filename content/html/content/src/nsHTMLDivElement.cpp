@@ -622,6 +622,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLDivElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLDivElement
+nsHTMLDivElement
+)
 /
 /
 QueryInterface

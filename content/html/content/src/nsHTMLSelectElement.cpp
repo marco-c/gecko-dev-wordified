@@ -1235,6 +1235,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLSelectElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLSelectElement
+nsHTMLSelectElement
+)
 /
 /
 QueryInterface
@@ -9453,6 +9458,11 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 /
 /
 nsISupports
+DOMCI_DATA
+(
+HTMLOptionsCollection
+nsHTMLOptionCollection
+)
 /
 /
 QueryInterface

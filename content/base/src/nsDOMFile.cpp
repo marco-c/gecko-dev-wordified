@@ -614,6 +614,11 @@ h
 /
 nsDOMFile
 implementation
+DOMCI_DATA
+(
+File
+nsDOMFile
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMFile
@@ -2513,6 +2518,11 @@ rv
 /
 nsDOMFileList
 implementation
+DOMCI_DATA
+(
+FileList
+nsDOMFileList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMFileList
@@ -2596,6 +2606,11 @@ NS_OK
 /
 nsDOMFileError
 implementation
+DOMCI_DATA
+(
+FileError
+nsDOMFileError
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMFileError

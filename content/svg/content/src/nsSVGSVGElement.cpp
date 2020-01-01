@@ -1273,6 +1273,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGSVGElement
 nsSVGSVGElementBase
 )
+DOMCI_DATA
+(
+SVGSVGElement
+nsSVGSVGElement
+)
 #
 ifdef
 MOZ_SMIL

@@ -632,6 +632,11 @@ NS_INTERFACE_TABLE_ENTRY
 _class
 nsIDOMNodeList
 )
+DOMCI_DATA
+(
+NodeList
+nsBaseContentList
+)
 /
 /
 QueryInterface
@@ -2044,6 +2049,11 @@ mData
 ;
 }
 }
+DOMCI_DATA
+(
+ContentList
+nsContentList
+)
 /
 /
 QueryInterface

@@ -486,6 +486,11 @@ NS_IMPL_RELEASE
 (
 nsDOMCSSValueList
 )
+DOMCI_DATA
+(
+CSSValueList
+nsDOMCSSValueList
+)
 /
 /
 QueryInterface

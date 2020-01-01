@@ -1014,6 +1014,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLObjectElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLObjectElement
+nsHTMLObjectElement
+)
 NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLObjectElement

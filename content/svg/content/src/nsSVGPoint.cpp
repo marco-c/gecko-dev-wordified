@@ -805,6 +805,11 @@ NS_IMPL_RELEASE
 (
 nsSVGPoint
 )
+DOMCI_DATA
+(
+SVGPoint
+nsSVGPoint
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGPoint

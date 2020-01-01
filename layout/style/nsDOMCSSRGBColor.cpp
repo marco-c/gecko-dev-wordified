@@ -539,6 +539,11 @@ void
 )
 {
 }
+DOMCI_DATA
+(
+CSSRGBColor
+nsDOMCSSRGBColor
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMCSSRGBColor

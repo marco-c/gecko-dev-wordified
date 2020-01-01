@@ -630,6 +630,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFieldSetElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLFieldSetElement
+nsHTMLFieldSetElement
+)
 /
 /
 QueryInterface

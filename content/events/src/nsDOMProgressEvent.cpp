@@ -464,6 +464,11 @@ nsContentUtils
 .
 h
 "
+DOMCI_DATA
+(
+ProgressEvent
+nsDOMProgressEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMProgressEvent

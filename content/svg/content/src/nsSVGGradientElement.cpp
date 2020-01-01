@@ -1706,6 +1706,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGLinearGradientElement
 nsSVGLinearGradientElementBase
 )
+DOMCI_DATA
+(
+SVGLinearGradientElement
+nsSVGLinearGradientElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGLinearGradientElement
@@ -2451,6 +2456,11 @@ NS_IMPL_RELEASE_INHERITED
 (
 nsSVGRadialGradientElement
 nsSVGRadialGradientElementBase
+)
+DOMCI_DATA
+(
+SVGRadialGradientElement
+nsSVGRadialGradientElement
 )
 NS_INTERFACE_TABLE_HEAD
 (

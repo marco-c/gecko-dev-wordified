@@ -1728,6 +1728,11 @@ NS_IMPL_RELEASE_INHERITED
 nsImageDocument
 nsMediaDocument
 )
+DOMCI_DATA
+(
+ImageDocument
+nsImageDocument
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsImageDocument

@@ -654,6 +654,11 @@ nsHistory
 )
 {
 }
+DOMCI_DATA
+(
+History
+nsHistory
+)
 /
 /
 QueryInterface

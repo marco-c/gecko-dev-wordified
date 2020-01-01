@@ -1837,6 +1837,11 @@ mLoopingForSyncLoad
 PR_FALSE
 ;
 }
+DOMCI_DATA
+(
+XMLDocument
+nsXMLDocument
+)
 /
 /
 QueryInterface

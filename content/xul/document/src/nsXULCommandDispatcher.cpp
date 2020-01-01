@@ -802,6 +802,11 @@ QueryInterface
 implementation
 for
 nsXULCommandDispatcher
+DOMCI_DATA
+(
+XULCommandDispatcher
+nsXULCommandDispatcher
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsXULCommandDispatcher

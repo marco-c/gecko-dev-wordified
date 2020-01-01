@@ -2870,6 +2870,11 @@ this
 ;
 }
 }
+DOMCI_DATA
+(
+StyleSheetList
+nsDOMStyleSheetList
+)
 /
 /
 XXX
@@ -6760,6 +6765,11 @@ nsDOMImplementation
 )
 {
 }
+DOMCI_DATA
+(
+DOMImplementation
+nsDOMImplementation
+)
 /
 /
 QueryInterface

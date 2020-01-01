@@ -859,6 +859,11 @@ cb
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
+DOMCI_DATA
+(
+NamedNodeMap
+nsDOMAttributeMap
+)
 /
 /
 QueryInterface

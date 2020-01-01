@@ -1878,6 +1878,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLDocument
 nsDocument
 )
+DOMCI_DATA
+(
+HTMLDocument
+nsHTMLDocument
+)
 /
 /
 QueryInterface

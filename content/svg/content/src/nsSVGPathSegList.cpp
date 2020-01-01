@@ -971,6 +971,11 @@ NS_IMPL_RELEASE
 (
 nsSVGPathSegList
 )
+DOMCI_DATA
+(
+SVGPathSegList
+nsSVGPathSegList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGPathSegList

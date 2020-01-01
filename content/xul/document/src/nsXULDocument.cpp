@@ -2659,6 +2659,11 @@ NS_IMPL_RELEASE_INHERITED
 nsXULDocument
 nsXMLDocument
 )
+DOMCI_DATA
+(
+XULDocument
+nsXULDocument
+)
 /
 /
 QueryInterface

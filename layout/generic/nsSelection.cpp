@@ -18229,6 +18229,11 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMARRAY
 mSelectionListeners
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
+DOMCI_DATA
+(
+Selection
+nsTypedSelection
+)
 /
 /
 QueryInterface

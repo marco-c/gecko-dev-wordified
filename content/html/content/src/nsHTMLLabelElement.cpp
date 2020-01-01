@@ -862,6 +862,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLabelElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLLabelElement
+nsHTMLLabelElement
+)
 /
 /
 QueryInterface

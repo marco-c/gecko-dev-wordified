@@ -1183,6 +1183,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLImageElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLImageElement
+nsHTMLImageElement
+)
 /
 /
 QueryInterface

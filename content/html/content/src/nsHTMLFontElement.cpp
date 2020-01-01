@@ -657,6 +657,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFontElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLFontElement
+nsHTMLFontElement
+)
 /
 /
 QueryInterface

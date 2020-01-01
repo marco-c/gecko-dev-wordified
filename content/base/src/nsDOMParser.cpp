@@ -740,6 +740,11 @@ mLoopingForSyncLoad
 PR_FALSE
 ;
 }
+DOMCI_DATA
+(
+DOMParser
+nsDOMParser
+)
 /
 /
 QueryInterface

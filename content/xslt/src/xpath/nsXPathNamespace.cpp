@@ -454,6 +454,11 @@ NS_IMPL_RELEASE
 (
 nsXPathNamespace
 )
+DOMCI_DATA
+(
+XPathNamespace
+nsXPathNamespace
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsXPathNamespace

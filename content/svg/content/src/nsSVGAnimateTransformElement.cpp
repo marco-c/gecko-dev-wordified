@@ -717,6 +717,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGAnimateTransformElement
 nsSVGAnimateTransformElementBase
 )
+DOMCI_DATA
+(
+SVGAnimateTransformElement
+nsSVGAnimateTransformElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGAnimateTransformElement

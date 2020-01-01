@@ -816,6 +816,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLegendElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLLegendElement
+nsHTMLLegendElement
+)
 /
 /
 QueryInterface

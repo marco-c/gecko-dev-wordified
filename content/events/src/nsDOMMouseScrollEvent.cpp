@@ -644,6 +644,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMMouseScrollEvent
 nsDOMMouseEvent
 )
+DOMCI_DATA
+(
+MouseScrollEvent
+nsDOMMouseScrollEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMMouseScrollEvent

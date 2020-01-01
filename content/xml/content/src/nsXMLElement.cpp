@@ -482,6 +482,11 @@ return
 NS_OK
 ;
 }
+DOMCI_DATA
+(
+Element
+nsXMLElement
+)
 /
 /
 QueryInterface

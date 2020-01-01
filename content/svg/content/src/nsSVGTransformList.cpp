@@ -1063,6 +1063,11 @@ NS_IMPL_RELEASE
 (
 nsSVGTransformList
 )
+DOMCI_DATA
+(
+SVGTransformList
+nsSVGTransformList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGTransformList

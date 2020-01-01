@@ -777,6 +777,11 @@ nsDOMDocumentType
 )
 {
 }
+DOMCI_DATA
+(
+DocumentType
+nsDOMDocumentType
+)
 /
 /
 QueryInterface

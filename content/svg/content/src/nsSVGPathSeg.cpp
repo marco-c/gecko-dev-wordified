@@ -730,6 +730,16 @@ basename
 )
 \
 \
+DOMCI_DATA
+(
+basename
+ns
+#
+#
+basename
+)
+\
+\
 NS_INTERFACE_MAP_BEGIN
 (
 ns

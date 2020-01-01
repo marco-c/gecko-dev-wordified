@@ -667,6 +667,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTableColElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLTableColElement
+nsHTMLTableColElement
+)
 /
 /
 QueryInterface

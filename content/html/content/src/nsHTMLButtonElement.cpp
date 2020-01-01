@@ -1000,6 +1000,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLButtonElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLButtonElement
+nsHTMLButtonElement
+)
 /
 /
 QueryInterface

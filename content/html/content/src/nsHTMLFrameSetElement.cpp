@@ -877,6 +877,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFrameSetElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLFrameSetElement
+nsHTMLFrameSetElement
+)
 /
 /
 QueryInterface

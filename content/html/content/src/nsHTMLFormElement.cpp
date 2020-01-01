@@ -1632,6 +1632,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFormElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLFormElement
+nsHTMLFormElement
+)
 /
 /
 QueryInterface
@@ -9972,6 +9977,11 @@ cb
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
+DOMCI_DATA
+(
+HTMLCollection
+nsFormControlList
+)
 /
 /
 XPConnect

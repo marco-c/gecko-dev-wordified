@@ -575,6 +575,11 @@ mFilter
 mCurrentNode
 mRoot
 )
+DOMCI_DATA
+(
+TreeWalker
+nsTreeWalker
+)
 /
 /
 QueryInterface

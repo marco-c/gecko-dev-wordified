@@ -1555,6 +1555,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTextAreaElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLTextAreaElement
+nsHTMLTextAreaElement
+)
 /
 /
 QueryInterface

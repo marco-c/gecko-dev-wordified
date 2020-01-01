@@ -617,6 +617,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMDragEvent
 nsDOMMouseEvent
 )
+DOMCI_DATA
+(
+DragEvent
+nsDOMDragEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMDragEvent

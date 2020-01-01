@@ -456,6 +456,11 @@ nsIFrame
 .
 h
 "
+DOMCI_DATA
+(
+PaintRequest
+nsPaintRequest
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsPaintRequest
@@ -605,6 +610,11 @@ return
 NS_OK
 ;
 }
+DOMCI_DATA
+(
+PaintRequestList
+nsPaintRequestList
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsPaintRequestList

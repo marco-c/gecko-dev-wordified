@@ -904,6 +904,11 @@ CSSRuleListImpl
 )
 {
 }
+DOMCI_DATA
+(
+CSSRuleList
+CSSRuleListImpl
+)
 /
 /
 QueryInterface
@@ -3451,6 +3456,11 @@ match
 mNegated
 ;
 }
+DOMCI_DATA
+(
+MediaList
+nsMediaList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsMediaList
@@ -6212,6 +6222,11 @@ here
 anyway
 }
 }
+DOMCI_DATA
+(
+CSSStyleSheet
+nsCSSStyleSheet
+)
 /
 /
 QueryInterface

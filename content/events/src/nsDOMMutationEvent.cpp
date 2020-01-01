@@ -526,6 +526,11 @@ nsnull
 ;
 }
 }
+DOMCI_DATA
+(
+MutationEvent
+nsDOMMutationEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMMutationEvent

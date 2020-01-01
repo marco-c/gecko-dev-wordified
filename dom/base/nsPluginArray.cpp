@@ -619,6 +619,11 @@ mPluginArray
 ;
 }
 }
+DOMCI_DATA
+(
+PluginArray
+nsPluginArray
+)
 /
 /
 QueryInterface
@@ -1600,6 +1605,11 @@ mMimeTypeArray
 ;
 }
 }
+DOMCI_DATA
+(
+Plugin
+nsPluginElement
+)
 /
 /
 QueryInterface

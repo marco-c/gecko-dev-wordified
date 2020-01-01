@@ -1027,6 +1027,11 @@ nsLocation
 )
 {
 }
+DOMCI_DATA
+(
+Location
+nsLocation
+)
 /
 /
 QueryInterface

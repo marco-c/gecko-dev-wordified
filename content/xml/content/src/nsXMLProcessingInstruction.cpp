@@ -652,6 +652,11 @@ nsXMLProcessingInstruction
 )
 {
 }
+DOMCI_DATA
+(
+ProcessingInstruction
+nsXMLProcessingInstruction
+)
 /
 /
 QueryInterface
