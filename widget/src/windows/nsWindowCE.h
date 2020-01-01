@@ -705,6 +705,10 @@ static
 HWND
 sMainWindowHandle
 ;
+static
+PRBool
+sMenuBarShown
+;
 #
 endif
 }
