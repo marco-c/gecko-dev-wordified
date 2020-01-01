@@ -645,13 +645,6 @@ h
 #
 include
 "
-mozAutoDocUpdate
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h

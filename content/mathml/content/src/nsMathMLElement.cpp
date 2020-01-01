@@ -553,13 +553,6 @@ nsDOMClassInfoID
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 /
 /
 -

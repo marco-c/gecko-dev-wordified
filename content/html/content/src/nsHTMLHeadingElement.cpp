@@ -478,13 +478,6 @@ nsRuleData
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 class
 nsHTMLHeadingElement
 :

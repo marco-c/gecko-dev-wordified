@@ -680,13 +680,6 @@ nsContentCreatorFunctions
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 /
 *
 *

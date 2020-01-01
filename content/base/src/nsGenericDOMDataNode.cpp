@@ -600,13 +600,6 @@ h
 #
 include
 "
-mozAutoDocUpdate
-.
-h
-"
-#
-include
-"
 pldhash
 .
 h

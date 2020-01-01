@@ -831,13 +831,6 @@ nsPIDOMWindow
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 PRLogModuleInfo
 *
 gContentSinkLogModuleInfo

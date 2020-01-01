@@ -1198,13 +1198,6 @@ nsPresShellIterator
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 /
 *
 *

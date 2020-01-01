@@ -615,13 +615,6 @@ nsXTFWeakTearoff
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 nsXTFElementWrapper
 :
 :

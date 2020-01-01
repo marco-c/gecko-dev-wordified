@@ -911,13 +911,6 @@ nsIDOMWindowInternal
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 /
 /
 XXX

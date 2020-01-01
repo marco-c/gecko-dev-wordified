@@ -1270,13 +1270,6 @@ nsIConsoleService
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 const
 char
 kLoadAsData
