@@ -2546,7 +2546,7 @@ line_
 )
 \
 return
-JS_FALSE
+false
 ;
 \
 }
@@ -2569,7 +2569,7 @@ SRC_NEWLINE
 )
 \
 return
-JS_FALSE
+false
 ;
 \
 }
@@ -2629,7 +2629,7 @@ line
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -3033,7 +3033,7 @@ i
 )
 \
 return
-JS_FALSE
+false
 ;
 \
 CheckTypeSet
@@ -3078,7 +3078,7 @@ off_
 )
 \
 return
-JS_FALSE
+false
 ;
 \
 jsbytecode
@@ -3314,7 +3314,7 @@ SRC_HIDDEN
 0
 )
 return
-JS_FALSE
+false
 ;
 EMIT_UINT16_IMM_OP
 (
@@ -3329,7 +3329,7 @@ npops
 0
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -3497,7 +3497,7 @@ npops
 )
 )
 return
-JS_FALSE
+false
 for
 (
 StmtInfoBCE
@@ -3549,7 +3549,7 @@ SRC_HIDDEN
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3569,7 +3569,7 @@ stmt
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -3611,7 +3611,7 @@ SRC_HIDDEN
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3625,7 +3625,7 @@ JSOP_LEAVEWITH
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -3646,7 +3646,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -3813,7 +3813,7 @@ JSOP_LEAVEFORLETIN
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3825,7 +3825,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3839,7 +3839,7 @@ SRC_HIDDEN
 0
 )
 return
-JS_FALSE
+false
 ;
 EMIT_UINT16_IMM_OP
 (
@@ -3879,7 +3879,7 @@ SRC_HIDDEN
 0
 )
 return
-JS_FALSE
+false
 ;
 EMIT_UINT16_IMM_OP
 (
@@ -3902,7 +3902,7 @@ stackDepth
 depth
 ;
 return
-JS_TRUE
+true
 ;
 #
 undef
@@ -4110,7 +4110,7 @@ delta
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -4414,11 +4414,11 @@ pn_dval
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -9518,7 +9518,7 @@ pn2
 ;
 ok
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -9622,7 +9622,7 @@ drafts
 *
 answer
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -9862,7 +9862,7 @@ pn_op
 *
 answer
 =
-JS_TRUE
+true
 ;
 }
 break
@@ -10012,7 +10012,7 @@ PNK_NAME
 *
 answer
 =
-JS_TRUE
+true
 ;
 }
 else
@@ -10028,7 +10028,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -10045,7 +10045,7 @@ answer
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -10077,7 +10077,7 @@ isConst
 *
 answer
 =
-JS_TRUE
+true
 ;
 }
 }
@@ -10207,7 +10207,7 @@ method
 *
 answer
 =
-JS_TRUE
+true
 ;
 }
 }
@@ -10260,7 +10260,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -10275,7 +10275,7 @@ isConst
 *
 answer
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -10348,7 +10348,7 @@ too
 *
 answer
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -10481,7 +10481,7 @@ method
 *
 answer
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -10558,7 +10558,7 @@ pn
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -10617,7 +10617,7 @@ effects
 *
 answer
 =
-JS_TRUE
+true
 ;
 }
 }
@@ -10648,7 +10648,7 @@ getters
 *
 answer
 =
-JS_TRUE
+true
 ;
 }
 ok
@@ -10702,7 +10702,7 @@ PNK_DEBUGGER
 *
 answer
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -11121,7 +11121,7 @@ pn
 )
 )
 return
-JS_FALSE
+false
 ;
 op
 =
@@ -11342,7 +11342,7 @@ false
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -13888,7 +13888,7 @@ off
 0
 )
 return
-JS_FALSE
+false
 ;
 pc
 =
@@ -13926,7 +13926,7 @@ off
 0
 )
 return
-JS_FALSE
+false
 ;
 pc
 =
@@ -13946,7 +13946,7 @@ ival
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -13966,7 +13966,7 @@ dval
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 EmitIndex32
@@ -14271,11 +14271,11 @@ JSOP_TABLESWITCH
 ;
 ok
 =
-JS_TRUE
+true
 ;
 hasDefault
 =
-JS_FALSE
+false
 ;
 defaultOffset
 =
@@ -14388,7 +14388,7 @@ JSOP_UNDEFINED
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -14416,7 +14416,7 @@ pn_left
 )
 )
 return
-JS_FALSE
+false
 ;
 #
 if
@@ -14471,7 +14471,7 @@ JSOP_ENTERLET1
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -14728,7 +14728,7 @@ PNK_DEFAULT
 {
 hasDefault
 =
-JS_TRUE
+true
 ;
 caseCount
 -
@@ -14914,7 +14914,7 @@ pn_pval
 {
 ok
 =
-JS_FALSE
+false
 ;
 goto
 release
@@ -15180,7 +15180,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -15244,7 +15244,7 @@ if
 ok
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -15427,7 +15427,7 @@ noteIndex
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -15585,7 +15585,7 @@ switchSize
 0
 )
 return
-JS_FALSE
+false
 ;
 off
 =
@@ -15609,7 +15609,7 @@ caseNoteIndex
 JSBool
 beforeCases
 =
-JS_TRUE
+true
 ;
 /
 *
@@ -15666,7 +15666,7 @@ pn4
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -15713,7 +15713,7 @@ off
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -15753,7 +15753,7 @@ caseNoteIndex
 0
 )
 return
-JS_FALSE
+false
 ;
 off
 =
@@ -15772,7 +15772,7 @@ off
 0
 )
 return
-JS_FALSE
+false
 ;
 pn3
 -
@@ -15832,7 +15832,7 @@ top
 )
 )
 return
-JS_FALSE
+false
 ;
 noteCountDelta
 =
@@ -15859,7 +15859,7 @@ noteCountDelta
 ;
 beforeCases
 =
-JS_FALSE
+false
 ;
 }
 }
@@ -15947,7 +15947,7 @@ off
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -15980,7 +15980,7 @@ defaultOffset
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -16129,7 +16129,7 @@ if
 table
 )
 return
-JS_FALSE
+false
 ;
 memset
 (
@@ -16868,7 +16868,7 @@ bad
 :
 ok
 =
-JS_FALSE
+false
 ;
 goto
 out
@@ -17766,7 +17766,7 @@ pn
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ASSERT
 (
@@ -17887,7 +17887,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -17956,12 +17956,12 @@ pn3
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -18213,7 +18213,7 @@ emitOption
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18262,7 +18262,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -18331,7 +18331,7 @@ PND_BOUND
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -18371,7 +18371,7 @@ pn
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18469,7 +18469,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -18488,7 +18488,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -18515,7 +18515,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18529,7 +18529,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -18559,7 +18559,7 @@ pn
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18581,7 +18581,7 @@ top
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18594,7 +18594,7 @@ JSOP_ENUMELEM
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -18610,7 +18610,7 @@ JS_ASSERT
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -18869,7 +18869,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 index
@@ -18947,7 +18947,7 @@ SRC_CONTINUE
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18961,7 +18961,7 @@ JSOP_DUP
 0
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -19025,7 +19025,7 @@ position
 /
 doElemOp
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -19049,7 +19049,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 pn3
 =
@@ -19142,7 +19142,7 @@ SRC_INITPROP
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -19158,7 +19158,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -19195,11 +19195,11 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 doElemOp
 =
-JS_FALSE
+false
 ;
 }
 pn3
@@ -19265,7 +19265,7 @@ JSOP_GETELEM
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ASSERT
 (
@@ -19347,7 +19347,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -19372,7 +19372,7 @@ emitOption
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -19553,7 +19553,7 @@ JSMSG_TOO_MANY_LOCALS
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -19637,11 +19637,11 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -20249,7 +20249,7 @@ index
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -20267,7 +20267,7 @@ declType
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -20391,7 +20391,7 @@ JSMSG_ARRAY_INIT_TOO_BIG
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -20443,7 +20443,7 @@ pn
 )
 )
 return
-JS_FALSE
+false
 ;
 +
 +
@@ -20466,7 +20466,7 @@ prologOp
 0
 )
 return
-JS_FALSE
+false
 ;
 i
 =
@@ -20535,7 +20535,7 @@ slot
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -20549,7 +20549,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -20583,7 +20583,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -20600,7 +20600,7 @@ InitializeVars
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -20627,7 +20627,7 @@ unsigned
 depth
 ;
 return
-JS_TRUE
+true
 ;
 }
 enum
@@ -20852,7 +20852,7 @@ JSOP_NOP
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -21456,7 +21456,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -21782,7 +21782,7 @@ op
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -21807,7 +21807,7 @@ op
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -21863,7 +21863,7 @@ pn3
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -21879,7 +21879,7 @@ pn_right
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -21936,7 +21936,7 @@ letNotes
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 ptrdiff_t
@@ -21997,7 +21997,7 @@ JSOP_UNDEFINED
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -22107,7 +22107,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 JSOp
 op
@@ -22174,7 +22174,7 @@ atomIndex
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -22269,7 +22269,7 @@ pn3
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 bool
@@ -22298,7 +22298,7 @@ pn3
 )
 )
 return
-JS_FALSE
+false
 ;
 bce
 -
@@ -22341,7 +22341,7 @@ JSOP_UNDEFINED
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -22432,7 +22432,7 @@ SRC_DECL_LET
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -22523,7 +22523,7 @@ off
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -22564,7 +22564,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -22589,11 +22589,11 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -24003,7 +24003,7 @@ sn
 )
 )
 return
-JS_TRUE
+true
 ;
 offset
 +
@@ -24015,7 +24015,7 @@ sn
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -27275,7 +27275,7 @@ pn_kid1
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 top
@@ -27431,7 +27431,7 @@ beq
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -27448,7 +27448,7 @@ beq
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -27497,7 +27497,7 @@ noteIndex
 0
 )
 return
-JS_FALSE
+false
 ;
 beq
 =
@@ -27516,7 +27516,7 @@ beq
 0
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -27546,7 +27546,7 @@ pn_kid2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -27644,7 +27644,7 @@ jmp
 0
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -27700,7 +27700,7 @@ pn3
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -27784,7 +27784,7 @@ beq
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -30106,7 +30106,7 @@ pn_kid3
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -34642,7 +34642,7 @@ false
 JSBool
 useful
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -40088,7 +40088,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-JS_FALSE
+false
 )
 ;
 EmitLevelManager
@@ -40730,7 +40730,7 @@ rest
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -40861,7 +40861,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -40900,7 +40900,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -41265,7 +41265,7 @@ InitializeVars
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -41324,7 +41324,7 @@ pn_kid
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -41341,7 +41341,7 @@ JSOP_UNDEFINED
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -41362,7 +41362,7 @@ SRC_HIDDEN
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -41376,7 +41376,7 @@ JSOP_YIELD
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -41413,7 +41413,7 @@ pn_kid
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -41432,7 +41432,7 @@ getOp
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -41577,7 +41577,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 tmp
@@ -41615,7 +41615,7 @@ off
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -41660,7 +41660,7 @@ JSOP_POP
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -41876,7 +41876,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 JSOp
 op
@@ -41914,7 +41914,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -41928,7 +41928,7 @@ op
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -41980,7 +41980,7 @@ expr
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -41999,7 +41999,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -42091,7 +42091,7 @@ pn_left
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -42107,7 +42107,7 @@ pn_right
 )
 )
 return
-JS_FALSE
+false
 ;
 #
 if
@@ -42138,7 +42138,7 @@ getOp
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 break
@@ -42392,7 +42392,7 @@ pn_left
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 jmp
@@ -42412,7 +42412,7 @@ jmp
 0
 )
 return
-JS_FALSE
+false
 ;
 top
 =
@@ -42433,7 +42433,7 @@ top
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -42449,7 +42449,7 @@ pn_right
 )
 )
 return
-JS_FALSE
+false
 ;
 SetJumpOffsetAt
 (
@@ -42490,7 +42490,7 @@ offset
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -42554,7 +42554,7 @@ getOp
 (
 )
 bce
-JS_FALSE
+false
 )
 ;
 break
@@ -42812,7 +42812,7 @@ pn_kid
 )
 )
 return
-JS_FALSE
+false
 ;
 slot
 =
@@ -42833,7 +42833,7 @@ slot
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -42958,11 +42958,11 @@ EmitNameOp
 cx
 bce
 pn
-JS_FALSE
+false
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -43116,7 +43116,7 @@ getOp
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -43135,7 +43135,7 @@ JSOP_DEBUGGER
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -43238,7 +43238,7 @@ JSOP_STARTXML
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 for
@@ -43283,7 +43283,7 @@ JSOP_STARTXMLEXPR
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -43296,7 +43296,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -43319,7 +43319,7 @@ JSOP_ADD
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -43385,7 +43385,7 @@ index
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -43419,7 +43419,7 @@ getOp
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -43546,7 +43546,7 @@ JSOP_STARTXMLEXPR
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -43559,7 +43559,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -43582,7 +43582,7 @@ JSOP_ADD
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -43734,7 +43734,7 @@ lineno
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -44451,7 +44451,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 bce
@@ -44475,7 +44475,7 @@ noteLimit
 newlength
 ;
 return
-JS_TRUE
+true
 ;
 }
 jssrcnote
@@ -44747,7 +44747,7 @@ topStmt
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -45032,7 +45032,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 sn
 =
@@ -45145,7 +45145,7 @@ jssrcnote
 offset
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -45896,7 +45896,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 tryNode
@@ -45973,7 +45973,7 @@ ntrynotes
 +
 ;
 return
-JS_TRUE
+true
 ;
 }
 void
