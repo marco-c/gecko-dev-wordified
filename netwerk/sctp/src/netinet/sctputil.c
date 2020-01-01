@@ -30868,7 +30868,7 @@ return
 }
 so
 =
-inp
+stcb
 -
 >
 sctp_socket
