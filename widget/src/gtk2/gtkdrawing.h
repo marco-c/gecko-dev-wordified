@@ -2254,7 +2254,7 @@ otherwise
 *
 /
 gint
-moz_gtk_button_get_default_border
+moz_gtk_button_get_default_overflow
 (
 gint
 *
