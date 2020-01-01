@@ -432,6 +432,9 @@ SCO
 L2CAP
 =
 3
+EL2CAP
+=
+4
 }
 ;
 class

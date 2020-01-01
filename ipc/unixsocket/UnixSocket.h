@@ -179,6 +179,15 @@ include
 <
 bluetooth
 /
+l2cap
+.
+h
+>
+#
+include
+<
+bluetooth
+/
 rfcomm
 .
 h
@@ -250,6 +259,9 @@ sco
 ;
 sockaddr_rc
 rc
+;
+sockaddr_l2
+l2
 ;
 #
 endif
