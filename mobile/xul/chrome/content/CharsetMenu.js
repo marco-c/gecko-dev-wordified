@@ -513,7 +513,7 @@ getBrowser
 (
 )
 .
-documentCharsetInfo
+docShell
 .
 forcedCharset
 ;
@@ -806,7 +806,7 @@ getBrowser
 (
 )
 .
-documentCharsetInfo
+docShell
 .
 forcedCharset
 ;

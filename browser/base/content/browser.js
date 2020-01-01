@@ -41833,7 +41833,7 @@ doReload
 {
 gBrowser
 .
-documentCharsetInfo
+docShell
 .
 forcedDetector
 =
