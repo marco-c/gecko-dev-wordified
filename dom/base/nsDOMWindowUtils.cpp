@@ -2518,9 +2518,9 @@ aButton
 aClickCount
 aModifiers
 aIgnoreRootScrollFrame
-false
 aPressure
 aInputSourceArg
+false
 )
 ;
 }
@@ -2573,9 +2573,9 @@ aButton
 aClickCount
 aModifiers
 aIgnoreRootScrollFrame
-true
 aPressure
 aInputSourceArg
+true
 )
 ;
 }
