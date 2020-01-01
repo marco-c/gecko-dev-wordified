@@ -17642,10 +17642,6 @@ localeToUnicode
 cx
 buf
 rval
-.
-address
-(
-)
 )
 ;
 RawString
