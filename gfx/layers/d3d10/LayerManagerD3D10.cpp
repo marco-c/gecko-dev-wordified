@@ -572,7 +572,8 @@ Destroy
 )
 ;
 }
-_inline
+static
+inline
 void
 SetHRESULT
 (
