@@ -14379,10 +14379,10 @@ if
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 )
 {
-ScriptOpcodeCountsVector
+ScriptAndCountsVector
 &
 vec
 =
@@ -14390,7 +14390,7 @@ vec
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 ;
 for
 (
@@ -14422,7 +14422,7 @@ i
 .
 script
 "
-scriptPCCounters
+scriptAndCountsVector
 "
 )
 ;
@@ -14557,7 +14557,7 @@ not
 discard
 scripts
 with
-counters
+counts
 while
 profiling
 .
@@ -14612,7 +14612,7 @@ if
 script
 -
 >
-pcCounters
+scriptCounts
 )
 {
 MarkScriptRoot
@@ -27315,7 +27315,7 @@ nor
 the
 runtime
 have
-counter
+count
 information
 .
 *
@@ -27326,7 +27326,7 @@ Profile
 Active
 scripts
 have
-counter
+count
 information
 the
 runtime
@@ -27342,7 +27342,7 @@ Scripts
 do
 not
 have
-counter
+count
 information
 the
 runtime
@@ -27367,7 +27367,7 @@ discarded
 and
 recompiled
 with
-counters
+counts
 as
 necessary
 .
@@ -27475,7 +27475,7 @@ None
 /
 static
 void
-ReleaseScriptPCCounters
+ReleaseScriptCounts
 (
 JSContext
 *
@@ -27496,10 +27496,10 @@ JS_ASSERT
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 )
 ;
-ScriptOpcodeCountsVector
+ScriptAndCountsVector
 &
 vec
 =
@@ -27507,7 +27507,7 @@ vec
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 ;
 for
 (
@@ -27533,7 +27533,7 @@ vec
 i
 ]
 .
-counters
+scriptCounts
 .
 destroy
 (
@@ -27548,13 +27548,13 @@ delete_
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 )
 ;
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 =
 NULL
 ;
@@ -27593,9 +27593,9 @@ if
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 )
-ReleaseScriptPCCounters
+ReleaseScriptCounts
 (
 cx
 )
@@ -27649,7 +27649,7 @@ JS_ASSERT
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 )
 ;
 ReleaseAllJITCode
@@ -27657,7 +27657,7 @@ ReleaseAllJITCode
 cx
 )
 ;
-ScriptOpcodeCountsVector
+ScriptAndCountsVector
 *
 vec
 =
@@ -27666,7 +27666,7 @@ cx
 >
 new_
 <
-ScriptOpcodeCountsVector
+ScriptAndCountsVector
 >
 (
 SystemAllocPolicy
@@ -27744,7 +27744,7 @@ if
 script
 -
 >
-pcCounters
+scriptCounts
 &
 &
 script
@@ -27753,7 +27753,7 @@ script
 types
 )
 {
-ScriptOpcodeCountsPair
+ScriptAndCounts
 info
 ;
 info
@@ -27764,14 +27764,14 @@ script
 ;
 info
 .
-counters
+scriptCounts
 .
 steal
 (
 script
 -
 >
-pcCounters
+scriptCounts
 )
 ;
 if
@@ -27787,7 +27787,7 @@ info
 )
 info
 .
-counters
+scriptCounts
 .
 destroy
 (
@@ -27807,7 +27807,7 @@ false
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 =
 vec
 ;
@@ -27838,7 +27838,7 @@ if
 rt
 -
 >
-scriptPCCounters
+scriptAndCountsVector
 )
 return
 ;
@@ -27851,7 +27851,7 @@ rt
 profilingScripts
 )
 ;
-ReleaseScriptPCCounters
+ReleaseScriptCounts
 (
 cx
 )

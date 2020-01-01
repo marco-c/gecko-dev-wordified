@@ -3008,7 +3008,7 @@ popActiveFrame
 )
 ;
 void
-updatePCCounters
+updatePCCounts
 (
 jsbytecode
 *
@@ -3033,7 +3033,7 @@ fe
 )
 ;
 void
-updateArithCounters
+updateArithCounts
 (
 jsbytecode
 *
@@ -3048,7 +3048,7 @@ secondUseType
 )
 ;
 void
-updateElemCounters
+updateElemCounts
 (
 jsbytecode
 *
@@ -3062,13 +3062,13 @@ id
 )
 ;
 void
-bumpPropCounter
+bumpPropCount
 (
 jsbytecode
 *
 pc
 int
-counter
+count
 )
 ;
 /

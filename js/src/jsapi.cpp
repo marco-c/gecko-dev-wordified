@@ -4300,7 +4300,7 @@ autoGCRooters
 (
 NULL
 )
-scriptPCCounters
+scriptAndCountsVector
 (
 NULL
 )

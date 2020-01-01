@@ -8003,7 +8003,7 @@ reg
 ;
 masm
 .
-bumpStubCounter
+bumpStubCount
 (
 f
 .

@@ -9385,7 +9385,7 @@ JS_ASSERT
 script
 -
 >
-pcCounters
+scriptCounts
 )
 ;
 Sprinter
@@ -9680,7 +9680,7 @@ if
 script
 -
 >
-pcCounters
+scriptCounts
 )
 JS_DumpPCCounts
 (
