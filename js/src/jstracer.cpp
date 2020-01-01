@@ -700,7 +700,7 @@ tree
 #
 define
 HOTEXIT
-0
+1
 /
 *
 Max
