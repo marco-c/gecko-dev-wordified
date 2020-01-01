@@ -44878,6 +44878,12 @@ rv
 =
 =
 NS_ERROR_FACTORY_NOT_REGISTERED
+|
+|
+rv
+=
+=
+NS_ERROR_NOT_AVAILABLE
 )
 {
 /
@@ -44885,8 +44891,10 @@ NS_ERROR_FACTORY_NOT_REGISTERED
 no
 URI
 classifier
-ignore
-this
+=
+>
+ignored
+cases
 return
 NS_OK
 ;

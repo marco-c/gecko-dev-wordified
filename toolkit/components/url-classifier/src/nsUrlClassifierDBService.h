@@ -550,6 +550,9 @@ nsUrlClassifierDBService
 *
 GetInstance
 (
+nsresult
+*
+result
 )
 ;
 #
