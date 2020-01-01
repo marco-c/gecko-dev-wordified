@@ -10379,12 +10379,8 @@ if
 aContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {
@@ -10500,12 +10496,8 @@ if
 child
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 &
 &

@@ -2549,12 +2549,8 @@ if
 childContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {
@@ -5214,12 +5210,8 @@ option
 aPossibleOption
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {

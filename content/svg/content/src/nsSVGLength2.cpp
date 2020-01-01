@@ -1705,12 +1705,8 @@ if
 content
 -
 >
-IsNodeOfType
+IsSVG
 (
-nsINode
-:
-:
-eSVG
 )
 )
 return

@@ -1318,12 +1318,8 @@ if
 aContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {

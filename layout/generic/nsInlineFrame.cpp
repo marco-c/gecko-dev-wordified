@@ -6324,12 +6324,8 @@ label
 mContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {

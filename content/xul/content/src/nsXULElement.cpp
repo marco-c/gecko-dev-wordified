@@ -13198,8 +13198,6 @@ aFlags
 eCONTENT
 |
 eELEMENT
-|
-eXUL
 )
 )
 ;

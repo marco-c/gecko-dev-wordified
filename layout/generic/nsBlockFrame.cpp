@@ -45749,12 +45749,8 @@ content
 content
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 return
