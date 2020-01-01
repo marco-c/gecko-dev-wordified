@@ -3229,7 +3229,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -16150,7 +16150,7 @@ addr
 (
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 0
 )
 )

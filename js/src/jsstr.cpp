@@ -4953,7 +4953,7 @@ StringValue
 str1
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 STRING_ELEMENT_ATTRS
 )
 )
@@ -5152,7 +5152,7 @@ delProperty
 *
 /
 str_getProperty
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty

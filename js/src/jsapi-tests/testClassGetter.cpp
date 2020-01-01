@@ -164,7 +164,7 @@ test_prop_get
 /
 /
 get
-JS_PropertyStub
+JS_StrictPropertyStub
 /
 /
 set

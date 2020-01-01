@@ -1013,6 +1013,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -1114,7 +1116,7 @@ desc
 setter
 !
 =
-PropertyStub
+StrictPropertyStub
 )
 )
 {
@@ -1135,6 +1137,7 @@ attrs
 desc
 .
 shortid
+strict
 vp
 )
 )
@@ -1177,7 +1180,7 @@ desc
 .
 setter
 =
-PropertyStub
+StrictPropertyStub
 ;
 desc
 .
@@ -1253,7 +1256,7 @@ desc
 setter
 !
 =
-PropertyStub
+StrictPropertyStub
 )
 )
 {
@@ -1274,6 +1277,7 @@ attrs
 desc
 .
 shortid
+strict
 vp
 )
 )
@@ -1316,7 +1320,7 @@ desc
 .
 setter
 =
-PropertyStub
+StrictPropertyStub
 ;
 return
 defineProperty
@@ -1358,10 +1362,6 @@ desc
 .
 getter
 =
-desc
-.
-setter
-=
 NULL
 ;
 /
@@ -1374,6 +1374,12 @@ getter
 /
 setter
 .
+desc
+.
+setter
+=
+NULL
+;
 return
 defineProperty
 (
@@ -3143,6 +3149,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -4347,6 +4355,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -4461,6 +4471,7 @@ cx
 proxy
 receiver
 id
+strict
 vp
 )
 ;
@@ -5516,6 +5527,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -5550,6 +5563,7 @@ cx
 proxy
 receiver
 id
+strict
 vp
 )
 ;
@@ -6094,7 +6108,7 @@ Value
 value
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uintN
 attrs
@@ -6217,18 +6231,6 @@ JSBool
 strict
 )
 {
-/
-/
-FIXME
-(
-bug
-596351
-)
-:
-throwing
-away
-strict
-.
 return
 JSProxy
 :
@@ -6239,6 +6241,7 @@ cx
 obj
 obj
 id
+strict
 vp
 )
 ;
@@ -6743,7 +6746,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -6875,7 +6878,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -7153,7 +7156,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -8599,7 +8602,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -9011,7 +9014,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -9079,7 +9082,7 @@ OBJECT_TO_JSVAL
 module
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 )

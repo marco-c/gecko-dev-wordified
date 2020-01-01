@@ -149,7 +149,7 @@ getProperty
 js
 :
 :
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty

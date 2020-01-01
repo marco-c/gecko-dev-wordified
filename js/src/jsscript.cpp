@@ -846,6 +846,8 @@ indexp
 ;
 PropertyOp
 getter
+;
+StrictPropertyOp
 setter
 ;
 uint32
@@ -5100,7 +5102,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty

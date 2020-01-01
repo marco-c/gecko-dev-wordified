@@ -780,7 +780,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -7035,7 +7035,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -7369,7 +7369,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty

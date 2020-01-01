@@ -744,7 +744,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -6918,7 +6918,7 @@ StringValue
 atom
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
@@ -6934,7 +6934,7 @@ proto
 messageId
 empty
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
@@ -6950,7 +6950,7 @@ proto
 fileNameId
 empty
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
@@ -6969,7 +6969,7 @@ Valueify
 JSVAL_ZERO
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0

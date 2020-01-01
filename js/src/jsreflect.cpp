@@ -17921,7 +17921,7 @@ JSProto_Reflect
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -18644,7 +18644,7 @@ OBJECT_TO_JSVAL
 Reflect
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 )

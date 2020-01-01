@@ -3864,7 +3864,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -21937,6 +21937,7 @@ cx
 obj
 shape
 entry
+strict
 vp
 )
 \
@@ -22025,6 +22026,7 @@ cx
 obj
 shape
 false
+strict
 vp
 )
 )
@@ -22366,7 +22368,7 @@ atom
 )
 ref
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
@@ -22441,7 +22443,7 @@ cx
 id
 ref
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
@@ -29394,6 +29396,10 @@ cx
 obj
 shape
 entry
+script
+-
+>
+strictModeCode
 &
 rval
 )
@@ -35136,7 +35142,7 @@ UndefinedValue
 (
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 0
 0
@@ -35666,7 +35672,7 @@ cx
 id
 rval
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 )
 )
@@ -35738,7 +35744,7 @@ cx
 id
 rval
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 )
 )
@@ -36061,7 +36067,7 @@ cx
 id
 rval
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 )
 )
@@ -37875,6 +37881,8 @@ error
 ;
 PropertyOp
 getter
+;
+StrictPropertyOp
 setter
 ;
 if
@@ -37899,7 +37907,7 @@ toObject
 ;
 setter
 =
-PropertyStub
+StrictPropertyStub
 ;
 attrs
 =
@@ -37914,7 +37922,7 @@ PropertyStub
 ;
 setter
 =
-CastAsPropertyOp
+CastAsStrictPropertyOp
 (
 &
 rval

@@ -3799,7 +3799,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -7106,7 +7106,7 @@ rt
 NaNValue
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -7145,7 +7145,7 @@ rt
 positiveInfinityValue
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY

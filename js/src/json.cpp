@@ -783,7 +783,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -7889,7 +7889,7 @@ OBJECT_TO_JSVAL
 JSON
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 )

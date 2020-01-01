@@ -1234,6 +1234,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 js
 :
 :

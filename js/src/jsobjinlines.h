@@ -4692,10 +4692,15 @@ attrs
 ;
 getter
 =
+(
+PropertyOp
+)
+NULL
+;
 setter
 =
 (
-PropertyOp
+StrictPropertyOp
 )
 NULL
 ;

@@ -861,7 +861,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -929,6 +929,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -1043,6 +1045,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -10236,7 +10240,7 @@ UndefinedValue
 (
 )
 getter
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_GETTER
@@ -10318,10 +10322,10 @@ return
 JS_FALSE
 ;
 }
-PropertyOp
+StrictPropertyOp
 setter
 =
-CastAsPropertyOp
+CastAsStrictPropertyOp
 (
 &
 vp
@@ -11001,7 +11005,7 @@ getAtom
 )
 getter
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 )
 |
@@ -11021,7 +11025,7 @@ setAtom
 )
 setter
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 )
 )
@@ -11050,7 +11054,7 @@ valueAtom
 )
 value
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 )
 |
@@ -11080,7 +11084,7 @@ JSPROP_READONLY
 0
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 )
 )
@@ -11115,7 +11119,7 @@ JSPROP_ENUMERATE
 0
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 )
 &
@@ -11144,7 +11148,7 @@ JSPROP_PERMANENT
 0
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 )
 ;
@@ -13204,7 +13208,7 @@ desc
 .
 value
 PropertyStub
-PropertyStub
+StrictPropertyStub
 desc
 .
 attrs
@@ -14721,6 +14725,8 @@ attrs
 ;
 PropertyOp
 getter
+;
+StrictPropertyOp
 setter
 ;
 if
@@ -14807,9 +14813,11 @@ JSPROP_SETTER
 ;
 getter
 =
+PropertyStub
+;
 setter
 =
-PropertyStub
+StrictPropertyStub
 ;
 }
 else
@@ -14921,9 +14929,11 @@ unchanged
 ;
 getter
 =
+PropertyStub
+;
 setter
 =
-PropertyStub
+StrictPropertyStub
 ;
 }
 else
@@ -15184,7 +15194,7 @@ hasSetterValue
 )
 )
 ?
-PropertyStub
+StrictPropertyStub
 :
 shape
 -
@@ -20676,7 +20686,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -21666,6 +21676,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -22147,7 +22159,7 @@ getter
 return
 false
 ;
-PropertyOp
+StrictPropertyOp
 setter
 =
 shape
@@ -24257,7 +24269,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -24542,7 +24554,7 @@ addProperty
 cx
 id
 PropertyStub
-PropertyStub
+StrictPropertyStub
 slot
 attrs
 0
@@ -24572,7 +24584,7 @@ cx
 id
 v
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 )
 ;
@@ -29561,7 +29573,7 @@ jsid
 id
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uint32
 slot
@@ -29707,7 +29719,7 @@ uintN
 mask
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 )
 {
@@ -29757,7 +29769,7 @@ Value
 value
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uintN
 attrs
@@ -29956,7 +29968,7 @@ Value
 value
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uintN
 attrs
@@ -33817,6 +33829,8 @@ Shape
 shape
 bool
 added
+bool
+strict
 Value
 *
 vp
@@ -34068,6 +34082,7 @@ set
 (
 cx
 obj
+strict
 vp
 )
 )
@@ -35467,6 +35482,8 @@ clasp
 ;
 PropertyOp
 getter
+;
+StrictPropertyOp
 setter
 ;
 bool
@@ -35621,6 +35638,7 @@ attrs
 pd
 .
 shortid
+strict
 vp
 )
 ;
@@ -36067,6 +36085,7 @@ set
 (
 cx
 obj
+strict
 vp
 )
 ;
@@ -36579,6 +36598,7 @@ cx
 obj
 shape
 false
+strict
 vp
 )
 ;
@@ -37011,6 +37031,7 @@ cx
 obj
 shape
 added
+strict
 vp
 )
 ;
@@ -39735,7 +39756,7 @@ ObjectOrNullValue
 proto
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 )
 )
@@ -39798,7 +39819,7 @@ ObjectOrNullValue
 ctor
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 0
 )
 ;
@@ -42173,6 +42194,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp

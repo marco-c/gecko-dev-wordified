@@ -12302,7 +12302,7 @@ delProperty
 JSPropertyOp
 getProperty
 ;
-JSPropertyOp
+JSStrictPropertyOp
 setProperty
 ;
 JSEnumerateOp
@@ -13271,6 +13271,28 @@ JS_PUBLIC_API
 (
 JSBool
 )
+JS_StrictPropertyStub
+(
+JSContext
+*
+cx
+JSObject
+*
+obj
+jsid
+id
+JSBool
+strict
+jsval
+*
+vp
+)
+;
+extern
+JS_PUBLIC_API
+(
+JSBool
+)
 JS_EnumerateStub
 (
 JSContext
@@ -13415,7 +13437,7 @@ flags
 JSPropertyOp
 getter
 ;
-JSPropertyOp
+JSStrictPropertyOp
 setter
 ;
 }
@@ -14271,7 +14293,7 @@ jsval
 value
 JSPropertyOp
 getter
-JSPropertyOp
+JSStrictPropertyOp
 setter
 uintN
 attrs
@@ -14296,7 +14318,7 @@ jsval
 value
 JSPropertyOp
 getter
-JSPropertyOp
+JSStrictPropertyOp
 setter
 uintN
 attrs
@@ -14464,7 +14486,7 @@ foundp
 JSPropertyOp
 *
 getterp
-JSPropertyOp
+JSStrictPropertyOp
 *
 setterp
 )
@@ -14493,7 +14515,7 @@ foundp
 JSPropertyOp
 *
 getterp
-JSPropertyOp
+JSStrictPropertyOp
 *
 setterp
 )
@@ -14586,7 +14608,7 @@ jsval
 value
 JSPropertyOp
 getter
-JSPropertyOp
+JSStrictPropertyOp
 setter
 uintN
 attrs
@@ -14804,7 +14826,7 @@ attrs
 JSPropertyOp
 getter
 ;
-JSPropertyOp
+JSStrictPropertyOp
 setter
 ;
 jsval
@@ -15183,7 +15205,7 @@ jsval
 value
 JSPropertyOp
 getter
-JSPropertyOp
+JSStrictPropertyOp
 setter
 uintN
 attrs
@@ -15333,7 +15355,7 @@ foundp
 JSPropertyOp
 *
 getterp
-JSPropertyOp
+JSStrictPropertyOp
 *
 setterp
 )
@@ -15430,7 +15452,7 @@ jsval
 value
 JSPropertyOp
 getter
-JSPropertyOp
+JSStrictPropertyOp
 setter
 uintN
 attrs
@@ -15685,7 +15707,7 @@ jsval
 value
 JSPropertyOp
 getter
-JSPropertyOp
+JSStrictPropertyOp
 setter
 uintN
 attrs

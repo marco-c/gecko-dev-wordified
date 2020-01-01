@@ -1313,7 +1313,7 @@ JSCLASS_HAS_PRIVATE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -1570,7 +1570,7 @@ c
 value
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 PM_CATTRS
 )
 )

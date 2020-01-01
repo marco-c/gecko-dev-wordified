@@ -3958,7 +3958,7 @@ Value
 v
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uintN
 attrs
@@ -8763,7 +8763,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -8805,7 +8805,7 @@ ArrayBuffer
 :
 prop_getByteLength
 )
-JS_PropertyStub
+JS_StrictPropertyStub
 }
 {
 0
@@ -8848,7 +8848,7 @@ TypedArray
 :
 prop_getLength
 )
-JS_PropertyStub
+JS_StrictPropertyStub
 }
 {
 "
@@ -8868,7 +8868,7 @@ TypedArray
 :
 prop_getByteLength
 )
-JS_PropertyStub
+JS_StrictPropertyStub
 }
 {
 "
@@ -8888,7 +8888,7 @@ TypedArray
 :
 prop_getByteOffset
 )
-JS_PropertyStub
+JS_StrictPropertyStub
 }
 {
 "
@@ -8908,7 +8908,7 @@ TypedArray
 :
 prop_getBuffer
 )
-JS_PropertyStub
+JS_StrictPropertyStub
 }
 {
 0
@@ -9018,7 +9018,7 @@ getProperty
 *
 /
 \
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -9074,7 +9074,7 @@ getProperty
 *
 /
 \
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -9313,7 +9313,7 @@ ThisType
 )
 \
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 \
 JSPROP_PERMANENT
 |
@@ -9343,7 +9343,7 @@ ThisType
 )
 \
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 \
 JSPROP_PERMANENT
 |

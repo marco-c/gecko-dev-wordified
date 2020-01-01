@@ -3812,6 +3812,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 js
 :
 :
@@ -3832,6 +3834,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 js
 :
 :
@@ -3852,6 +3856,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 js
 :
 :

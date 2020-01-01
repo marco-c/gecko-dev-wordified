@@ -845,7 +845,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -5052,7 +5052,7 @@ OBJECT_TO_JSVAL
 Math
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 )

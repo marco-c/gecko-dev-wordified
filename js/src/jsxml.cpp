@@ -1540,7 +1540,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -2143,7 +2143,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -2311,7 +2311,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -2362,7 +2362,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -24174,6 +24174,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp
@@ -25729,6 +25731,7 @@ PutProperty
 cx
 parentobj
 id
+strict
 vp
 )
 ;
@@ -26584,6 +26587,7 @@ PutProperty
 cx
 kidobj
 id
+strict
 vp
 )
 ;
@@ -28967,6 +28971,7 @@ base
 >
 object
 id
+false
 &
 tv
 )
@@ -30203,7 +30208,7 @@ Value
 v
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uintN
 attrs
@@ -30275,6 +30280,7 @@ PutProperty
 cx
 obj
 id
+false
 &
 tmp
 )
@@ -30357,6 +30363,7 @@ PutProperty
 cx
 obj
 id
+strict
 Jsvalify
 (
 vp
@@ -32331,7 +32338,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty
@@ -33057,6 +33064,7 @@ JSVAL_TO_OBJECT
 v
 )
 name
+false
 vp
 )
 )
@@ -39531,6 +39539,7 @@ atomState
 .
 starAtom
 )
+false
 vp
 )
 )
@@ -44626,7 +44635,7 @@ Valueify
 v
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_PERMANENT
 )
 )
@@ -44744,7 +44753,7 @@ ObjectValue
 ns
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_PERMANENT
 )
 )
@@ -46411,7 +46420,7 @@ PropertyStub
 getProperty
 *
 /
-PropertyStub
+StrictPropertyStub
 /
 *
 setProperty

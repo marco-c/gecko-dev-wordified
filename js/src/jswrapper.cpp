@@ -1493,6 +1493,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -3229,6 +3231,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -3296,6 +3300,7 @@ cx
 wrapper
 receiver
 id
+strict
 tvr
 .
 addr
