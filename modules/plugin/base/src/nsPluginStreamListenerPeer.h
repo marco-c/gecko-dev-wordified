@@ -450,6 +450,12 @@ BLOCK
 *
 /
 #
+ifndef
+nsPluginStreamListenerPeer_h_
+#
+define
+nsPluginStreamListenerPeer_h_
+#
 include
 "
 nscore
@@ -851,9 +857,9 @@ nsIPluginInstanceOwner
 >
 mOwner
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 >
 mPStreamListener
 ;
@@ -1036,3 +1042,8 @@ mWeakPtrChannelLoadGroup
 ;
 }
 ;
+#
+endif
+/
+/
+nsPluginStreamListenerPeer_h_

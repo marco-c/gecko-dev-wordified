@@ -1125,6 +1125,16 @@ GetQuirks
 (
 )
 ;
+void
+NPN_URLRedirectResponse
+(
+void
+*
+notifyData
+NPBool
+allow
+)
+;
 private
 :
 friend
