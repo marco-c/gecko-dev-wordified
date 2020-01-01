@@ -84,13 +84,6 @@ Components
 .
 results
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 do_check_throws
 (
