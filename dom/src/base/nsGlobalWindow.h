@@ -2563,6 +2563,12 @@ PRBool
 aClearScope
 )
 ;
+nsGlobalWindow
+*
+CallerInnerWindow
+(
+)
+;
 nsresult
 SetNewDocument
 (
