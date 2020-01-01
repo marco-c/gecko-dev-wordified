@@ -3323,15 +3323,6 @@ case
 cmd_shortcuts
 "
 :
-dump
-(
-"
-bar
-\
-n
-"
-)
-;
 this
 .
 _showMode
