@@ -1045,6 +1045,12 @@ if
 SelectionHelperUI
 .
 isActive
+&
+&
+!
+FindHelperUI
+.
+isActive
 )
 {
 setTimeout
