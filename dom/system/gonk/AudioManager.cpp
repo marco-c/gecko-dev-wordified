@@ -391,8 +391,6 @@ attached
 static
 int
 sHeadsetState
-=
-SWITCH_STATE_OFF
 ;
 static
 int
