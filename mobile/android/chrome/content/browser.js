@@ -20936,6 +20936,12 @@ browser
 =
 null
 ;
+this
+.
+savedArticle
+=
+null
+;
 }
 /
 /
