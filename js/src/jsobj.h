@@ -6078,6 +6078,9 @@ key
 JSObject
 *
 cobj
+JSObject
+*
+prototype
 )
 ;
 /

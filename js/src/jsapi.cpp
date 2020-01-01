@@ -8384,7 +8384,7 @@ v
 if
 (
 !
-JS_GetReservedSlot
+js_GetReservedSlot
 (
 cx
 obj
@@ -20341,6 +20341,8 @@ JSProto_Null
 key
 <
 JSProto_LIMIT
+*
+3
 ;
 key
 +
@@ -22619,7 +22621,7 @@ native
 if
 (
 !
-JS_GetReservedSlot
+js_GetReservedSlot
 (
 cx
 JSVAL_TO_OBJECT
@@ -22969,7 +22971,7 @@ tmp
 if
 (
 !
-JS_GetReservedSlot
+js_GetReservedSlot
 (
 cx
 JSVAL_TO_OBJECT
