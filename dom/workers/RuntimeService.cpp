@@ -570,11 +570,11 @@ h
 "
 #
 include
-"
-nsGlobalWindow
+<
+Navigator
 .
 h
-"
+>
 #
 include
 "
