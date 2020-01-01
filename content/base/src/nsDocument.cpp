@@ -27073,6 +27073,17 @@ param
 ElementRegistrationOptions
 options
 ;
+DictionaryRooter
+<
+ElementRegistrationOptions
+>
+optionsRooter
+(
+aCx
+&
+options
+)
+;
 if
 (
 aOptionalArgc
