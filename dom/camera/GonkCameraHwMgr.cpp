@@ -1236,6 +1236,14 @@ clear
 (
 )
 ;
+if
+(
+mClosing
+)
+{
+return
+;
+}
 /
 *
 *
