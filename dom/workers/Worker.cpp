@@ -217,6 +217,12 @@ true
 bool
 WorkerEnumerateProperties
 (
+JSContext
+*
+cx
+JSObject
+*
+wrapper
 JS
 :
 :
@@ -243,6 +249,8 @@ sNativePropertyHooks
 =
 {
 WorkerResolveProperty
+WorkerResolveProperty
+WorkerEnumerateProperties
 WorkerEnumerateProperties
 NULL
 }
