@@ -7522,6 +7522,7 @@ EventTarget
 :
 FromJSObject
 (
+aCx
 mUploadJSObject
 )
 ;
@@ -7786,6 +7787,7 @@ EventTarget
 :
 FromJSObject
 (
+aCx
 mUploadJSObject
 )
 ;

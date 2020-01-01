@@ -4383,6 +4383,7 @@ p
 >
 FlatJSObjectFinalized
 (
+cx
 )
 ;
 }
@@ -6619,6 +6620,7 @@ wrapper
 >
 FlatJSObjectFinalized
 (
+cx
 )
 ;
 }

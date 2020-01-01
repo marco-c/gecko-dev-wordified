@@ -875,6 +875,7 @@ nsISupports
 :
 JS_GetPrivate
 (
+aContext
 glob
 )
 )

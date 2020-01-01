@@ -1160,8 +1160,12 @@ libraryObj
 initialize
 the
 library
+if
+(
+!
 JS_SetReservedSlot
 (
+cx
 libraryObj
 SLOT_LIBRARY
 PRIVATE_TO_JSVAL
@@ -1169,6 +1173,9 @@ PRIVATE_TO_JSVAL
 NULL
 )
 )
+)
+return
+NULL
 ;
 /
 /
@@ -1545,8 +1552,12 @@ NULL
 stash
 the
 library
+if
+(
+!
 JS_SetReservedSlot
 (
+cx
 libraryObj
 SLOT_LIBRARY
 PRIVATE_TO_JSVAL
@@ -1554,6 +1565,9 @@ PRIVATE_TO_JSVAL
 library
 )
 )
+)
+return
+NULL
 ;
 return
 libraryObj
@@ -1588,6 +1602,9 @@ Library
 :
 GetLibrary
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -1603,11 +1620,14 @@ obj
 ;
 jsval
 slot
-=
+;
 JS_GetReservedSlot
 (
+cx
 obj
 SLOT_LIBRARY
+&
+slot
 )
 ;
 return
@@ -1649,6 +1669,7 @@ library
 =
 GetLibrary
 (
+cx
 obj
 )
 ;
@@ -1770,6 +1791,7 @@ vp
 ]
 GetCallbacks
 (
+cx
 ctypesObj
 )
 )
@@ -1889,6 +1911,7 @@ obj
 ;
 JS_SetReservedSlot
 (
+cx
 obj
 SLOT_LIBRARY
 PRIVATE_TO_JSVAL
@@ -1967,6 +1990,7 @@ library
 =
 GetLibrary
 (
+cx
 obj
 )
 ;
@@ -2348,6 +2372,7 @@ CType
 :
 IsSizeDefined
 (
+cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -2395,6 +2420,7 @@ CType
 :
 GetTypeCode
 (
+cx
 typeObj
 )
 =
@@ -2409,6 +2435,7 @@ PointerType
 :
 GetBaseType
 (
+cx
 typeObj
 )
 ;
@@ -2422,6 +2449,7 @@ CType
 :
 GetTypeCode
 (
+cx
 fnObj
 )
 =
@@ -2472,6 +2500,7 @@ FunctionType
 :
 BuildSymbolName
 (
+cx
 nameStr
 fnObj
 symbol

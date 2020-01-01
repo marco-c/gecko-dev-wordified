@@ -1128,6 +1128,11 @@ if
 cx
 )
 {
+JS_BeginRequest
+(
+cx
+)
+;
 /
 /
 XXX
@@ -1144,6 +1149,7 @@ XPCWrappedNativeScope
 :
 SystemIsBeingShutDown
 (
+cx
 )
 ;
 mRuntime
@@ -1151,6 +1157,12 @@ mRuntime
 >
 SystemIsBeingShutDown
 (
+cx
+)
+;
+JS_EndRequest
+(
+cx
 )
 ;
 JS_DestroyContext

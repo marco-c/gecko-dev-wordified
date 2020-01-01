@@ -716,6 +716,7 @@ GetJSPrivateSafeish
 WorkerPrivate
 >
 (
+aCx
 aObj
 )
 ;
@@ -803,6 +804,7 @@ aCx
 }
 SetJSPrivateSafeish
 (
+aCx
 aObj
 NULL
 )
@@ -1060,6 +1062,7 @@ object
 .
 SetJSPrivateSafeish
 (
+aCx
 obj
 worker
 )
@@ -1391,6 +1394,7 @@ GetJSPrivateSafeish
 WorkerPrivate
 >
 (
+aCx
 aObj
 )
 ;
@@ -1443,6 +1447,10 @@ GetJSPrivateSafeish
 WorkerPrivate
 >
 (
+aTrc
+-
+>
+context
 aObj
 )
 ;
@@ -2021,6 +2029,7 @@ GetJSPrivateSafeish
 WorkerPrivate
 >
 (
+aCx
 aObj
 )
 ;
@@ -2095,6 +2104,7 @@ GetJSPrivateSafeish
 WorkerPrivate
 >
 (
+aCx
 aObj
 )
 ;
@@ -2147,6 +2157,10 @@ GetJSPrivateSafeish
 WorkerPrivate
 >
 (
+aTrc
+-
+>
+context
 aObj
 )
 ;
@@ -2250,6 +2264,7 @@ GetJSPrivateSafeish
 WorkerPrivate
 >
 (
+aCx
 aObj
 )
 ;

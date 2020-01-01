@@ -572,6 +572,10 @@ CPOW_FLAG_RESOLVING
 class
 AutoResolveFlag
 {
+JSContext
+*
+mContext
+;
 JSObject
 *
 mObj
@@ -584,6 +588,9 @@ static
 uintN
 GetFlags
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -591,11 +598,34 @@ obj
 {
 jsval
 v
+;
+#
+ifdef
+DEBUG
+JSBool
+ok
 =
+#
+endif
 JS_GetReservedSlot
 (
+cx
 obj
 sFlagsSlot
+&
+v
+)
+;
+NS_ASSERTION
+(
+ok
+"
+Failed
+to
+get
+CPOW
+flags
+"
 )
 ;
 return
@@ -609,6 +639,9 @@ static
 uintN
 SetFlags
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -621,6 +654,7 @@ oldFlags
 =
 GetFlags
 (
+cx
 obj
 )
 ;
@@ -633,6 +667,7 @@ flags
 )
 JS_SetReservedSlot
 (
+cx
 obj
 sFlagsSlot
 INT_TO_JSVAL
@@ -649,12 +684,19 @@ public
 :
 AutoResolveFlag
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
 JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
+mContext
+(
+cx
+)
 mObj
 (
 obj
@@ -663,9 +705,11 @@ mOldFlags
 (
 SetFlags
 (
+cx
 obj
 GetFlags
 (
+cx
 obj
 )
 |
@@ -683,6 +727,7 @@ AutoResolveFlag
 {
 SetFlags
 (
+mContext
 mObj
 mOldFlags
 )
@@ -692,6 +737,9 @@ static
 JSBool
 IsSet
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -700,6 +748,7 @@ obj
 return
 GetFlags
 (
+cx
 obj
 )
 &
@@ -1101,6 +1150,7 @@ mObj
 {
 JS_SetPrivate
 (
+NULL
 mObj
 NULL
 )
@@ -1155,12 +1205,6 @@ cx
 )
 const
 {
-if
-(
-!
-mObj
-)
-{
 js
 :
 :
@@ -1184,6 +1228,13 @@ ObjectWrapperParent
 sCPOW_JSClass
 )
 ;
+if
+(
+!
+mObj
+&
+&
+(
 mObj
 =
 JS_NewObject
@@ -1199,14 +1250,12 @@ clasp
 NULL
 NULL
 )
-;
-if
-(
-mObj
+)
 )
 {
 JS_SetPrivate
 (
+cx
 mObj
 (
 void
@@ -1217,12 +1266,12 @@ this
 ;
 JS_SetReservedSlot
 (
+cx
 mObj
 sFlagsSlot
 JSVAL_ZERO
 )
 ;
-}
 }
 return
 mObj
@@ -1233,6 +1282,9 @@ ObjectWrapperParent
 *
 Unwrap
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -1285,6 +1337,7 @@ ObjectWrapperParent
 (
 JS_GetPrivate
 (
+cx
 obj
 )
 )
@@ -1298,8 +1351,9 @@ self
 self
 -
 >
-GetJSObjectOrNull
+GetJSObject
 (
+cx
 )
 =
 =
@@ -1426,6 +1480,7 @@ if
 !
 JSObject_to_PObjectWrapperParent
 (
+cx
 JSVAL_TO_OBJECT
 (
 from
@@ -1769,6 +1824,9 @@ ObjectWrapperParent
 :
 JSObject_to_PObjectWrapperParent
 (
+JSContext
+*
+cx
 JSObject
 *
 from
@@ -1799,6 +1857,7 @@ owp
 =
 Unwrap
 (
+cx
 from
 )
 ;
@@ -2138,6 +2197,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -2166,6 +2226,7 @@ AutoResolveFlag
 :
 IsSet
 (
+cx
 obj
 )
 )
@@ -2285,6 +2346,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -2437,6 +2499,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -2605,6 +2668,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -2876,6 +2940,7 @@ cx
 AutoResolveFlag
 arf
 (
+cx
 obj
 )
 ;
@@ -2987,6 +3052,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -3141,6 +3207,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -3252,6 +3319,7 @@ objp
 AutoResolveFlag
 arf
 (
+cx
 *
 objp
 )
@@ -3326,6 +3394,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -3397,6 +3466,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -3483,6 +3553,7 @@ function
 =
 Unwrap
 (
+cx
 JSVAL_TO_OBJECT
 (
 JS_CALLEE
@@ -3525,6 +3596,7 @@ receiver
 =
 Unwrap
 (
+cx
 thisobj
 )
 ;
@@ -3732,6 +3804,7 @@ constructor
 =
 Unwrap
 (
+cx
 JSVAL_TO_OBJECT
 (
 JS_CALLEE
@@ -3924,6 +3997,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -4058,6 +4132,7 @@ self
 =
 Unwrap
 (
+cx
 obj
 )
 ;
@@ -4096,6 +4171,7 @@ other
 =
 Unwrap
 (
+cx
 JSVAL_TO_OBJECT
 (
 *
