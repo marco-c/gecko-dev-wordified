@@ -942,10 +942,10 @@ IsSubjectToFinalization
 )
 )
 {
-js
+JS
 :
 :
-SwitchToCompartment
+AutoSwitchCompartment
 sc
 (
 data
@@ -5781,7 +5781,7 @@ above
 Do
 any
 deferred
-releases
+released
 of
 native
 objects
