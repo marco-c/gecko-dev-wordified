@@ -819,6 +819,9 @@ mHeaderTheme
 BOOL
 mFlatMenus
 ;
+OSVERSIONINFO
+mOsVersion
+;
 }
 ;
 /
