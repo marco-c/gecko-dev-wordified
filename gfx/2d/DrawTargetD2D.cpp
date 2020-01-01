@@ -16970,7 +16970,7 @@ left
 =
 rect
 .
-left
+top
 =
 INT32_MIN
 ;
@@ -16980,7 +16980,7 @@ right
 =
 rect
 .
-top
+bottom
 =
 INT32_MAX
 ;
