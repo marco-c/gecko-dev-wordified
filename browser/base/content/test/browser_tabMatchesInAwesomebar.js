@@ -938,11 +938,11 @@ linkedBrowser
 .
 loadURI
 (
-'
+"
 about
 :
-robots
-'
+mozilla
+"
 )
 ;
 }

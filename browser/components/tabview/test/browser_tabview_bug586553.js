@@ -140,7 +140,7 @@ addTab
 "
 about
 :
-robots
+rights
 "
 )
 gBrowser
@@ -191,7 +191,7 @@ newTabs
 _tPos
 1
 "
-Robots
+Rights
 is
 in
 position
@@ -416,7 +416,7 @@ newTabs
 _tPos
 2
 "
-Robots
+Rights
 is
 in
 position
