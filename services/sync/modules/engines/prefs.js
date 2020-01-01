@@ -1245,7 +1245,7 @@ LightweightThemeManager
 .
 currentTheme
 =
-ltm
+LightweightThemeManager
 .
 usedThemes
 [
