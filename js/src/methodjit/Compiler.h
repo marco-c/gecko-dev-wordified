@@ -3523,7 +3523,7 @@ FrameEntry
 fe
 )
 ;
-void
+bool
 jsop_getgname
 (
 uint32_t
@@ -3537,7 +3537,7 @@ uint32_t
 index
 )
 ;
-void
+bool
 jsop_setgname
 (
 PropertyName

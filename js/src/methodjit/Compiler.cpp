@@ -21520,10 +21520,16 @@ GET_UINT32_INDEX
 PC
 )
 ;
+if
+(
+!
 jsop_getgname
 (
 index
 )
+)
+return
+Compile_Error
 ;
 frame
 .
@@ -21590,6 +21596,9 @@ jumpTarget
 next
 )
 ;
+if
+(
+!
 jsop_setgname
 (
 script
@@ -21604,6 +21613,9 @@ PC
 )
 pop
 )
+)
+return
+Compile_Error
 ;
 }
 END_CASE
@@ -43758,7 +43770,7 @@ ReturnReg
 )
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -43822,6 +43834,7 @@ UndefinedValue
 )
 ;
 return
+true
 ;
 }
 if
@@ -43854,6 +43867,7 @@ NaNValue
 )
 ;
 return
+true
 ;
 }
 if
@@ -43886,6 +43900,7 @@ positiveInfinityValue
 )
 ;
 return
+true
 ;
 }
 /
@@ -43946,6 +43961,7 @@ obj
 )
 ;
 return
+true
 ;
 }
 jsid
@@ -44039,6 +44055,7 @@ if
 propertyTypes
 )
 return
+false
 ;
 /
 *
@@ -44213,6 +44230,7 @@ REJOIN_GETTER
 )
 ;
 return
+true
 ;
 }
 }
@@ -44684,6 +44702,9 @@ index
 ;
 #
 endif
+return
+true
+;
 }
 void
 mjit
@@ -44746,7 +44767,7 @@ pushSyncedEntry
 )
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -44792,6 +44813,7 @@ name
 )
 ;
 return
+true
 ;
 }
 jsid
@@ -44934,6 +44956,7 @@ if
 types
 )
 return
+false
 ;
 const
 js
@@ -45168,6 +45191,7 @@ reg
 )
 ;
 return
+true
 ;
 }
 }
@@ -45200,6 +45224,7 @@ name
 )
 ;
 return
+true
 ;
 }
 #
@@ -45742,6 +45767,9 @@ name
 ;
 #
 endif
+return
+true
+;
 }
 void
 mjit
