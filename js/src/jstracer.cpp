@@ -103104,16 +103104,7 @@ JS_FALSE
 if
 (
 !
-ctor
--
->
-map
--
->
-ops
--
->
-hasInstance
+js_HasInstance
 (
 cx
 ctor
