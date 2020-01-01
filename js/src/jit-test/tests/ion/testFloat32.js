@@ -224,11 +224,14 @@ function
 {
 if
 (
+typeof
 ParallelArray
 !
 =
 =
+"
 undefined
+"
 )
 ParallelArray
 (
