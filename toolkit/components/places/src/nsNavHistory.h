@@ -977,16 +977,6 @@ init
 -
 complete
 "
-#
-define
-PLACES_DB_LOCKED_EVENT_TOPIC
-"
-places
--
-database
--
-locked
-"
 struct
 AutoCompleteIntermediateResult
 ;
