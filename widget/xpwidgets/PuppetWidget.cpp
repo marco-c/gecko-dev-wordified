@@ -1455,7 +1455,10 @@ MOZ_ENABLE_D3D10_LAYER
 )
 if
 (
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_D3D10
@@ -2390,7 +2393,10 @@ nsnull
 endif
 if
 (
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_D3D10

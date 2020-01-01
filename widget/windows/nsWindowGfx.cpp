@@ -2857,9 +2857,6 @@ GetBackendType
 )
 {
 case
-LayerManager
-:
-:
 LAYERS_BASIC
 :
 {
@@ -4357,9 +4354,6 @@ SRCCOPY
 break
 ;
 case
-LayerManager
-:
-:
 LAYERS_OPENGL
 :
 static_cast
@@ -4402,9 +4396,6 @@ break
 ifdef
 MOZ_ENABLE_D3D9_LAYER
 case
-LayerManager
-:
-:
 LAYERS_D3D9
 :
 {
@@ -4518,9 +4509,6 @@ endif
 ifdef
 MOZ_ENABLE_D3D10_LAYER
 case
-LayerManager
-:
-:
 LAYERS_D3D10
 :
 {

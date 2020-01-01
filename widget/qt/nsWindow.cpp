@@ -5551,7 +5551,10 @@ GetBackendType
 )
 =
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_OPENGL
@@ -19089,7 +19092,10 @@ GetBackendType
 )
 =
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_OPENGL

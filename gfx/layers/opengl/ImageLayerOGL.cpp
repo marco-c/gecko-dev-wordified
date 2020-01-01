@@ -153,6 +153,13 @@ GLContextProvider
 h
 "
 #
+include
+"
+LayersBackend
+.
+h
+"
+#
 if
 defined
 (
@@ -960,9 +967,6 @@ aIOImage
 >
 SetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 backendData
 .
@@ -1031,9 +1035,6 @@ aIOImage
 >
 SetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 backendData
 .
@@ -1227,9 +1228,6 @@ yuvImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -1286,9 +1284,6 @@ yuvImage
 >
 SetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 nsnull
 )
@@ -1318,9 +1313,6 @@ yuvImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -1746,9 +1738,6 @@ cairoImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -1804,9 +1793,6 @@ cairoImage
 >
 SetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 nsnull
 )
@@ -1836,9 +1822,6 @@ cairoImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -2319,9 +2302,6 @@ ioImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -2350,9 +2330,6 @@ ioImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -2637,9 +2614,6 @@ ioImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -2668,9 +2642,6 @@ ioImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -3380,9 +3351,6 @@ aImage
 >
 SetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 backendData
 .
@@ -3564,9 +3532,6 @@ aImage
 >
 SetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 backendData
 .
@@ -3620,9 +3585,6 @@ aImage
 >
 SetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 backendData
 .
@@ -3866,9 +3828,6 @@ cairoImage
 >
 GetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 )
@@ -4058,9 +4017,6 @@ cairoImage
 >
 SetBackendData
 (
-LayerManager
-:
-:
 LAYERS_OPENGL
 data
 )

@@ -130,7 +130,7 @@ h
 #
 include
 "
-Layers
+gfx3DMatrix
 .
 h
 "
@@ -140,6 +140,9 @@ mozilla
 namespace
 layers
 {
+class
+Layer
+;
 /
 /
 The

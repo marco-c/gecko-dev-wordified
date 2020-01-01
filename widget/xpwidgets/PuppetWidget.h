@@ -214,6 +214,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+LayersBackend
+.
+h
+"
 class
 gfxASurface
 ;
@@ -778,7 +785,10 @@ nsnull
 LayersBackend
 aBackendHint
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_NONE

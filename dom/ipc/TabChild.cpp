@@ -4952,9 +4952,6 @@ nsnull
 nsDeviceContext
 )
 ;
-LayerManager
-:
-:
 LayersBackend
 be
 ;

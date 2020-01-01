@@ -156,6 +156,16 @@ nsRootPresContext
 namespace
 mozilla
 {
+namespace
+layers
+{
+class
+ContainerLayer
+;
+class
+ThebesLayer
+;
+}
 class
 FrameLayerBuilder
 ;

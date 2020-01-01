@@ -3645,7 +3645,10 @@ if
 aBackendHint
 =
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_OPENGL
@@ -3778,7 +3781,10 @@ if
 aBackendHint
 =
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_BASIC

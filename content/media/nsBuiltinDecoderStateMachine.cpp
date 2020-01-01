@@ -3843,6 +3843,12 @@ static
 void
 WriteVideoToMediaStream
 (
+mozilla
+:
+:
+layers
+:
+:
 Image
 *
 aImage
@@ -3859,6 +3865,12 @@ aOutput
 {
 nsRefPtr
 <
+mozilla
+:
+:
+layers
+:
+:
 Image
 >
 image
