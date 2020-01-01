@@ -500,10 +500,6 @@ if
 (
 !
 result
-|
-|
-!
-result
 -
 >
 init
