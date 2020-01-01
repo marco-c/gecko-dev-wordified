@@ -399,6 +399,14 @@ js
 :
 frontend
 ;
+typedef
+Rooted
+<
+GlobalObject
+*
+>
+RootedGlobalObject
+;
 /
 *
 static
@@ -15642,10 +15650,10 @@ setFunction
 clone
 )
 ;
-GlobalObject
-*
+RootedGlobalObject
 global
-=
+(
+cx
 script
 -
 >
@@ -15660,6 +15668,7 @@ global
 )
 :
 NULL
+)
 ;
 script
 =
