@@ -2320,11 +2320,14 @@ nsXMLContentSink
 :
 ReadyToCallDidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 return
 ReadyToCallDidBuildModelImpl
 (
+aTerminated
 )
 ;
 }
