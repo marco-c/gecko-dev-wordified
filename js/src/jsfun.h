@@ -1388,7 +1388,7 @@ fp
 ;
 extern
 JSBool
-js_GetCallVariable
+js_GetCallArg
 (
 JSContext
 *
@@ -1396,7 +1396,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1405,7 +1405,7 @@ vp
 ;
 extern
 JSBool
-js_SetCallVariable
+js_GetCallVar
 (
 JSContext
 *
