@@ -192,6 +192,7 @@ DOMIfaceAndProtoJSClass
 sProtoClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -1677,6 +1678,7 @@ _ID_Count
 0
 }
 ;
+const
 JSPropertySpec
 Worker
 :

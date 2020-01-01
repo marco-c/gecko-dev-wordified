@@ -2427,6 +2427,7 @@ vp
 )
 ;
 static
+const
 JSPropertySpec
 properties
 [

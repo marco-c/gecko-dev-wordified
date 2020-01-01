@@ -23763,6 +23763,7 @@ vp
 )
 ;
 static
+const
 JSPropertySpec
 its_props
 [
@@ -26903,6 +26904,7 @@ getters
 }
 ;
 static
+const
 JSPropertySpec
 dom_props
 [

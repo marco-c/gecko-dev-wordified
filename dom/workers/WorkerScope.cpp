@@ -431,6 +431,7 @@ JSClass
 sClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -3036,6 +3037,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
+const
 JSPropertySpec
 WorkerGlobalScope
 :
@@ -3260,6 +3262,7 @@ DOMIfaceAndProtoJSClass
 sProtoClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -4472,6 +4475,7 @@ _ID_Count
 0
 }
 ;
+const
 JSPropertySpec
 DedicatedWorkerGlobalScope
 :

@@ -247,6 +247,7 @@ JSClass
 sClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -1010,6 +1011,7 @@ JS_ConvertStub
 Finalize
 }
 ;
+const
 JSPropertySpec
 Blob
 :
@@ -1107,6 +1109,7 @@ JSClass
 sClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -1747,6 +1750,7 @@ JS_ConvertStub
 Finalize
 }
 ;
+const
 JSPropertySpec
 File
 :

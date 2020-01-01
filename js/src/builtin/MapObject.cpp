@@ -7664,6 +7664,7 @@ hasInstance
 mark
 }
 ;
+const
 JSPropertySpec
 MapObject
 :
@@ -11111,6 +11112,7 @@ hasInstance
 mark
 }
 ;
+const
 JSPropertySpec
 SetObject
 :

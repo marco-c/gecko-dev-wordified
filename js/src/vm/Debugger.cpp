@@ -18089,6 +18089,7 @@ return
 true
 ;
 }
+const
 JSPropertySpec
 Debugger
 :
@@ -23444,6 +23445,7 @@ false
 ;
 }
 static
+const
 JSPropertySpec
 DebuggerScript_properties
 [
@@ -27647,6 +27649,7 @@ false
 ;
 }
 static
+const
 JSPropertySpec
 DebuggerFrame_properties
 [
@@ -32704,6 +32707,7 @@ rval
 ;
 }
 static
+const
 JSPropertySpec
 DebuggerObject_properties
 [
@@ -34894,6 +34898,7 @@ true
 ;
 }
 static
+const
 JSPropertySpec
 DebuggerEnv_properties
 [

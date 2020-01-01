@@ -546,6 +546,7 @@ class_
 private
 :
 static
+const
 JSPropertySpec
 properties
 [
@@ -899,6 +900,7 @@ class_
 private
 :
 static
+const
 JSPropertySpec
 properties
 [
