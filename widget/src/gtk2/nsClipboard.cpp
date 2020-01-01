@@ -4422,10 +4422,9 @@ find
 charset
 "
 info
+const
 nsDependentCString
 htmlStr
-=
-nsDependentCString
 (
 (
 const

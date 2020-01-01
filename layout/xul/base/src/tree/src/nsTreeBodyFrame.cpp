@@ -7882,6 +7882,7 @@ completely
 .
 const
 nsDependentString
+&
 kEllipsis
 =
 nsContentUtils
