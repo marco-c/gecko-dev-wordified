@@ -1373,6 +1373,17 @@ IsScriptExecuting
 (
 )
 ;
+virtual
+void
+ScrollToRef
+(
+)
+{
+ScrollToRefImpl
+(
+)
+;
+}
 /
 /
 nsIHTMLContentSink

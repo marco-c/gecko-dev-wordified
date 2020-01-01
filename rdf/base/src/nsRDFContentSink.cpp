@@ -1348,6 +1348,13 @@ return
 nsnull
 ;
 }
+virtual
+void
+ScrollToRef
+(
+)
+{
+}
 /
 /
 nsIRDFContentSink

@@ -890,6 +890,13 @@ return
 nsnull
 ;
 }
+virtual
+void
+ScrollToRef
+(
+)
+{
+}
 /
 /
 nsIHTMLContentSink
