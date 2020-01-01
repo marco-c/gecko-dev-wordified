@@ -824,11 +824,6 @@ gfxQPainterSurface
 /
 1
 -
-gfxXlibSurface
-/
-/
-2
--
 gfxImageSurface
 nsCOMPtr
 <
@@ -921,15 +916,6 @@ break
 ;
 case
 1
-:
-mRenderMode
-=
-RENDER_XLIB
-;
-break
-;
-case
-2
 :
 mRenderMode
 =
