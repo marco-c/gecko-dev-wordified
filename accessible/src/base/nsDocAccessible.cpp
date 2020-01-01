@@ -6335,6 +6335,7 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION_WITHIN
 multiSelectDOMNode
+nsnull
 eAllowDupes
 )
 ;
@@ -6385,6 +6386,7 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION_REMOVE
 targetNode
+nsnull
 )
 ;
 return
@@ -6397,6 +6399,7 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION_ADD
 targetNode
+nsnull
 )
 ;
 }
@@ -7023,6 +7026,7 @@ nsIAccessibleEvent
 :
 EVENT_VALUE_CHANGE
 targetNode
+nsnull
 )
 ;
 return
@@ -8314,6 +8318,9 @@ aEvent
 nsIDOMNode
 *
 aDOMNode
+void
+*
+aData
 EDupeEventRule
 aAllowDupes
 PRBool
@@ -8331,6 +8338,7 @@ nsAccEvent
 (
 aEvent
 aDOMNode
+aData
 PR_TRUE
 )
 ;
@@ -11990,6 +11998,7 @@ FireDelayedToolkitEvent
 (
 additionEvent
 childNode
+nsnull
 eCoalesceFromSameSubtree
 isAsynch
 )
@@ -12048,6 +12057,7 @@ nsIAccessibleEvent
 :
 EVENT_MENUPOPUP_START
 childNode
+nsnull
 eAllowDupes
 isAsynch
 )
@@ -12118,6 +12128,7 @@ nsIAccessibleEvent
 :
 EVENT_ALERT
 alertNode
+nsnull
 eRemoveDupes
 isAsynch
 )
@@ -12236,6 +12247,7 @@ nsIAccessibleEvent
 :
 EVENT_REORDER
 containerAccessible
+nsnull
 PR_TRUE
 )
 ;
@@ -12636,6 +12648,7 @@ nsAccEvent
 (
 aEventType
 accessible
+nsnull
 isAsynch
 )
 ;

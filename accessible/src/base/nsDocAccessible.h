@@ -803,6 +803,16 @@ fired
 for
 *
 param
+aData
+-
+any
+additional
+data
+for
+the
+event
+*
+param
 aAllowDupes
 -
 eAllowDupes
@@ -890,6 +900,9 @@ aEvent
 nsIDOMNode
 *
 aDOMNode
+void
+*
+aData
 EDupeEventRule
 aAllowDupes
 =
