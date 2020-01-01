@@ -817,7 +817,7 @@ a
 page
 into
 a
-recording
+meta
 -
 surface
 .
@@ -911,7 +911,7 @@ CAIRO_PAGINATED_MODE_ANALYZE
 .
 Replays
 the
-recording
+meta
 -
 surface
 to
@@ -997,7 +997,7 @@ a
 subset
 of
 the
-recording
+meta
 -
 surface
 operations
@@ -1262,6 +1262,10 @@ cairo_surface_t
 target
 cairo_content_t
 content
+int
+width
+int
+height
 const
 cairo_paginated_surface_backend_t
 *

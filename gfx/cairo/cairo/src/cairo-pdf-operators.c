@@ -468,6 +468,13 @@ private
 .
 h
 "
+#
+include
+<
+ctype
+.
+h
+>
 static
 cairo_status_t
 _cairo_pdf_operators_end_text
@@ -1116,7 +1123,7 @@ if
 (
 !
 (
-_cairo_isspace
+isspace
 (
 *
 s
@@ -1398,7 +1405,7 @@ column
 else
 if
 (
-_cairo_isspace
+isspace
 (
 *
 data

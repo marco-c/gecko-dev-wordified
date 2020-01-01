@@ -1738,17 +1738,6 @@ this
 )
 )
 ;
-thebesPattern
--
->
-SetExtend
-(
-gfxPattern
-:
-:
-EXTEND_PAD_EDGE
-)
-;
 gfxContext
 *
 gfx

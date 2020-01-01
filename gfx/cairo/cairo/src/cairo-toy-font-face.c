@@ -2674,13 +2674,6 @@ CAIRO_MUTEX_UNLOCK
 _cairo_toy_font_face_mutex
 )
 ;
-if
-(
-hash_table
-!
-=
-NULL
-)
 _cairo_hash_table_destroy
 (
 hash_table
