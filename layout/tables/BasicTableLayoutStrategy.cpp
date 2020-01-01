@@ -1826,6 +1826,12 @@ GetCellMap
 (
 )
 ;
+mozilla
+:
+:
+AutoStackArena
+arena
+;
 SpanningCellSorter
 spanningCells
 (

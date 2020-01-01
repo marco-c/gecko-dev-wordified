@@ -483,6 +483,13 @@ nsDebug
 .
 h
 "
+#
+include
+"
+StackArena
+.
+h
+"
 class
 nsIPresShell
 ;
@@ -540,6 +547,7 @@ reverses
 *
 /
 class
+NS_STACK_CLASS
 SpanningCellSorter
 {
 public
