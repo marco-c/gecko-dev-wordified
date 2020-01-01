@@ -703,8 +703,10 @@ nsPresContext
 *
 mPresContext
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 mPresShell
 ;
 nsCOMPtr
