@@ -248,6 +248,15 @@ CleanUp
 )
 MOZ_OVERRIDE
 ;
+void
+SetAppDir
+(
+const
+nsACString
+&
+aPath
+)
+;
 private
 :
 ContentChild
