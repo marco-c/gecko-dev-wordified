@@ -6205,12 +6205,6 @@ if
 sprop
 )
 {
-JS_COUNT_OPERATION
-(
-cx
-JSOW_NEW_PROPERTY
-)
-;
 /
 *
 Check

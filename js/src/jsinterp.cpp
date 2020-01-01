@@ -555,6 +555,13 @@ h
 #
 include
 "
+jsdate
+.
+h
+"
+#
+include
+"
 jsversion
 .
 h
@@ -17461,7 +17468,6 @@ if
 JS_CHECK_OPERATION_LIMIT
 (
 cx
-JSOW_SCRIPT_JUMP
 )
 )
 \
