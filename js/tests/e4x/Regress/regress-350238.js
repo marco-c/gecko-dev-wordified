@@ -526,9 +526,7 @@ body
 .
 appendChild
 (
-'
 iframe
-'
 )
 ;
 iframe
