@@ -6250,6 +6250,14 @@ return
 NULL
 ;
 }
+child
+.
+flags
+&
+=
+~
+SPROP_IN_DICTIONARY
+;
 JSScopeProperty
 *
 sprop
