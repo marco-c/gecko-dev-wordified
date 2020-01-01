@@ -8643,7 +8643,7 @@ plugins
 .
 enabled
 "
-false
+true
 )
 ;
 /
