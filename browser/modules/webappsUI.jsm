@@ -909,17 +909,6 @@ notification
 icon
 "
 mainAction
-null
-{
-popupIconURL
-:
-manifest
-.
-iconURLForSize
-(
-64
-)
-}
 )
 ;
 }
