@@ -524,13 +524,6 @@ h
 #
 include
 "
-SimpleBuffer
-.
-h
-"
-#
-include
-"
 jstypedarray
 .
 h
@@ -12685,9 +12678,8 @@ GLES2
 GL_MAX_TEXTURE_UNITS
 is
 still
-correc
+correct
 .
-t
 gl
 -
 >
