@@ -8972,12 +8972,6 @@ init
 (
 )
 ;
-DownloadsButton
-.
-initializePlaceholder
-(
-)
-;
 retrieveToolbarIconsizesFromTheme
 (
 )
