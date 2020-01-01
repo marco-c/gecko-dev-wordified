@@ -27210,13 +27210,13 @@ true
 /
 below
 a
-certian
+certain
 pixel
 size
 anti
 -
 aliased
-bitmat
+bitmap
 scaled
 fonts
 /
