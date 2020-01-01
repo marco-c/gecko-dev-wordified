@@ -1349,13 +1349,6 @@ be
 shown
 on
 startup
-/
-/
-Global
-override
-for
-tinderbox
-machines
 var
 prefBranch
 =
