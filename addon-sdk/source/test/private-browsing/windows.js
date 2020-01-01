@@ -282,7 +282,7 @@ windows
 open
 (
 {
-private
+isPrivate
 :
 true
 onOpen
@@ -300,7 +300,7 @@ isPrivate
 (
 window
 )
-true
+false
 '
 isPrivate
 for
@@ -328,7 +328,7 @@ tabs
 0
 ]
 )
-true
+false
 '
 isPrivate
 for
