@@ -3626,7 +3626,7 @@ STATE_ENDED
 ;
 }
 PRInt64
-available
+availableOffset
 =
 mStream
 -
@@ -3635,8 +3635,6 @@ GetCachedDataEnd
 (
 mPlaybackPosition
 )
--
-mPlaybackPosition
 ;
 /
 /
@@ -3692,8 +3690,10 @@ mState
 STATE_ENDED
 &
 &
-available
+availableOffset
 <
+mPlaybackPosition
++
 len
 &
 &
@@ -3721,6 +3721,16 @@ mBufferingWait
 ToSeconds
 (
 )
+)
+;
+mBufferingEndOffset
+=
+PR_MAX
+(
+mPlaybackPosition
++
+len
+mBufferingEndOffset
 )
 ;
 mNextState
