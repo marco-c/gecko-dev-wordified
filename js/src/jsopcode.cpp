@@ -34849,6 +34849,8 @@ pcstack
 {
 size_t
 nbytes
+=
+0
 ;
 jsbytecode
 *
