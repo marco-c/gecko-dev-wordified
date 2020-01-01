@@ -1753,6 +1753,17 @@ activeAnalysis
 )
 return
 ;
+if
+(
+rt
+-
+>
+mainThread
+.
+suppressGC
+)
+return
+;
 /
 /
 Can
