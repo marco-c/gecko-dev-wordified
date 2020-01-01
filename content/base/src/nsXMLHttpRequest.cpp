@@ -2544,7 +2544,7 @@ void
 nsXMLHttpRequest
 :
 :
-RootResultArrayBuffer
+RootJSResultObjects
 (
 )
 {
@@ -4761,7 +4761,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RootResultArrayBuffer
+RootJSResultObjects
 (
 )
 ;
@@ -5887,7 +5887,7 @@ if
 mResultArrayBuffer
 )
 {
-RootResultArrayBuffer
+RootJSResultObjects
 (
 )
 ;
