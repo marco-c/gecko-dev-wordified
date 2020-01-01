@@ -21274,7 +21274,10 @@ cx
 >
 weakRoots
 .
-newbornObject
+finalizableNewborns
+[
+FINALIZE_OBJECT
+]
 =
 obj
 ;
