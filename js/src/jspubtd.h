@@ -2824,7 +2824,7 @@ method
 )
 *
 macro
-bellow
+below
 to
 convert
 JSTraceOp
@@ -2868,6 +2868,11 @@ __GNUC__
 >
 =
 4
+&
+&
+!
+defined
+__cplusplus
 #
 define
 JS_CLASS_TRACE
@@ -2882,7 +2887,9 @@ JSTraceOp
 __typeof
 (
 &
+(
 method
+)
 )
 )
 \
@@ -2895,11 +2902,11 @@ method
 )
 \
 :
-JS_WrongTypeForClassTacer
+js_WrongTypeForClassTracer
 )
 extern
 JSMarkOp
-JS_WrongTypeForClassTacer
+js_WrongTypeForClassTracer
 ;
 #
 else

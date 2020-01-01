@@ -6791,7 +6791,7 @@ reference
 using
 the
 macros
-bellow
+below
 .
 *
 /
@@ -8604,7 +8604,7 @@ JSCLASS_HIGH_FLAGS_SHIFT
 )
 /
 *
-Idicates
+Indicates
 that
 JSClass
 .
