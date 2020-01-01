@@ -152,13 +152,13 @@ update
 .
 interval
 "
-3600
+7200
 )
 ;
 /
 /
-1
-hour
+2
+hours
 /
 /
 The
@@ -211,8 +211,8 @@ UI
 .
 default
 =
-1
-hour
+12
+hours
 pref
 (
 "
@@ -222,7 +222,7 @@ update
 .
 promptWaitTime
 "
-3600
+43200
 )
 ;
 /
