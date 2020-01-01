@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsgc_root_h__
+js_RootingAPI_h
 #
 define
-jsgc_root_h__
+js_RootingAPI_h
 #
 include
 "
@@ -6236,6 +6236,6 @@ js
 endif
 /
 *
-jsgc_root_h___
+js_RootingAPI_h
 *
 /

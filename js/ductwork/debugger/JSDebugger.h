@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-COMPONENTS_JSDEBUGGER_H
+JSDebugger_h
 #
 define
-COMPONENTS_JSDEBUGGER_H
+JSDebugger_h
 #
 include
 "
@@ -150,3 +150,8 @@ JSDebugger
 }
 #
 endif
+/
+*
+JSDebugger_h
+*
+/

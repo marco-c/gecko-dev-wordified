@@ -2390,5 +2390,7 @@ JS
 #
 endif
 /
-/
+*
 js_MemoryMetrics_h
+*
+/

@@ -120,10 +120,10 @@ implementation
 /
 #
 ifndef
-js_PropertyKey_h___
+js_PropertyKey_h
 #
 define
-js_PropertyKey_h___
+js_PropertyKey_h
 #
 include
 "
@@ -628,6 +628,6 @@ JS
 endif
 /
 *
-js_PropertyKey_h___
+js_PropertyKey_h
 *
 /

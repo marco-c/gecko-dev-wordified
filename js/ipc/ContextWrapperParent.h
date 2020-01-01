@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-mozilla_jsipc_ContextWrapperParent_h__
+mozilla_jsipc_ContextWrapperParent_h
 #
 define
-mozilla_jsipc_ContextWrapperParent_h__
+mozilla_jsipc_ContextWrapperParent_h
 #
 include
 "
@@ -399,3 +399,8 @@ true
 }
 #
 endif
+/
+*
+mozilla_jsipc_ContextWrapperParent_h
+*
+/

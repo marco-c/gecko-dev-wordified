@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_HashTable_h__
+js_HashTable_h
 #
 define
-js_HashTable_h__
+js_HashTable_h
 #
 include
 "
@@ -10507,5 +10507,7 @@ js
 #
 endif
 /
+*
+js_HashTable_h
+*
 /
-js_HashTable_h__

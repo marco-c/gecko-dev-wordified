@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsvector_h_
+js_Vector_h
 #
 define
-jsvector_h_
+js_Vector_h
 #
 include
 "
@@ -7144,6 +7144,6 @@ endif
 endif
 /
 *
-jsvector_h_
+js_Vector_h
 *
 /

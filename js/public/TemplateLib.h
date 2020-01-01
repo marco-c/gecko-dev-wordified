@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_template_lib_h__
+js_TemplateLib_h
 #
 define
-js_template_lib_h__
+js_TemplateLib_h
 #
 include
 "
@@ -1071,6 +1071,6 @@ js
 endif
 /
 *
-js_template_lib_h__
+js_TemplateLib_h
 *
 /

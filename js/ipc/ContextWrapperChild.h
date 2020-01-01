@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-mozilla_jsipc_ContextWrapperChild_h__
+mozilla_jsipc_ContextWrapperChild_h
 #
 define
-mozilla_jsipc_ContextWrapperChild_h__
+mozilla_jsipc_ContextWrapperChild_h
 #
 include
 "
@@ -409,3 +409,8 @@ mResidentObjectTable
 }
 #
 endif
+/
+*
+mozilla_jsipc_ContextWrapperChild_h
+*
+/

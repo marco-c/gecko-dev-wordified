@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_CharacterEncoding_h___
+js_CharacterEncoding_h
 #
 define
-js_CharacterEncoding_h___
+js_CharacterEncoding_h
 #
 include
 "
@@ -1157,5 +1157,7 @@ get
 #
 endif
 /
+*
+js_CharacterEncoding_h
+*
 /
-js_CharacterEncoding_h___

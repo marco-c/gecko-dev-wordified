@@ -284,10 +284,10 @@ necessary
 /
 #
 ifndef
-PROTYPES_H
+js_LegacyIntTypes_h
 #
 define
-PROTYPES_H
+js_LegacyIntTypes_h
 #
 include
 "
@@ -475,10 +475,6 @@ JSInt64
 endif
 /
 *
-!
-defined
-(
-PROTYPES_H
-)
+js_LegacyIntTypes_h
 *
 /

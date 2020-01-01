@@ -153,10 +153,10 @@ correctly
 /
 #
 ifndef
-js_RequiredDefines_h___
+js_RequiredDefines_h
 #
 define
-js_RequiredDefines_h___
+js_RequiredDefines_h
 /
 *
 *
@@ -206,6 +206,6 @@ __STDC_LIMIT_MACROS
 endif
 /
 *
-js_RequiredDefines_h___
+js_RequiredDefines_h
 *
 /
