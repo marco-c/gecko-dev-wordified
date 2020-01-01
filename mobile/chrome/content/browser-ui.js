@@ -1648,13 +1648,10 @@ close
 )
 ;
 else
-CommandUpdater
+window
 .
-doCommand
+close
 (
-"
-cmd_quit
-"
 )
 ;
 }
