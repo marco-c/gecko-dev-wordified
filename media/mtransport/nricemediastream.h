@@ -787,7 +787,9 @@ in
 priority
 order
 .
-outPairs
+|
+out_pairs
+|
 is
 cleared
 before
@@ -805,7 +807,7 @@ vector
 NrIceCandidatePair
 >
 *
-outPairs
+out_pairs
 )
 const
 ;
