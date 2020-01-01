@@ -2416,6 +2416,27 @@ re
 MULTILINE
 )
 )
+or
+\
+              
+(
+stdout
+and
+re
+.
+search
+(
+"
+:
+SyntaxError
+:
+"
+stdout
+re
+.
+MULTILINE
+)
+)
 :
             
 print
