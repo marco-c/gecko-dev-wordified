@@ -1039,6 +1039,7 @@ this
 ;
 nsCAutoString
 protocol
+extensions
 ;
 if
 (
@@ -1053,6 +1054,14 @@ GetProtocol
 protocol
 )
 ;
+mChannel
+-
+>
+GetExtensions
+(
+extensions
+)
+;
 }
 if
 (
@@ -1064,6 +1073,7 @@ mIPCOpen
 SendOnStart
 (
 protocol
+extensions
 )
 )
 {

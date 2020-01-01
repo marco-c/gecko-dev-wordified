@@ -1004,6 +1004,9 @@ mRequestedProtocolList
 nsCString
 mEstablishedProtocol
 ;
+nsCString
+mEstablishedExtensions
+;
 PRUint16
 mReadyState
 ;
