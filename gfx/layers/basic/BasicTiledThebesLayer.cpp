@@ -653,9 +653,7 @@ mCallback
 mThebesLayer
 ctxt
 aPaintRegion
-nsIntRegion
-(
-)
+aPaintRegion
 mCallbackData
 )
 ;
