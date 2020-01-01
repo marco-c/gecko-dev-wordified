@@ -1267,7 +1267,7 @@ loadURI
 "
 about
 :
-firstrun
+home
 "
 )
 ;
