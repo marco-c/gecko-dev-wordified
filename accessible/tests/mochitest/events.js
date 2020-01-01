@@ -82,6 +82,13 @@
 /
 Constants
 const
+EVENT_ALERT
+=
+nsIAccessibleEvent
+.
+EVENT_ALERT
+;
+const
 EVENT_DOCUMENT_LOAD_COMPLETE
 =
 nsIAccessibleEvent
