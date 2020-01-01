@@ -285,12 +285,17 @@ nscore
 h
 "
 #
+ifdef
+MOZ_OMX_DECODER
+#
 include
 "
 MediaResourceManagerService
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3175,6 +3180,9 @@ InitGonkMemoryPressureMonitoring
 (
 )
 ;
+#
+ifdef
+MOZ_OMX_DECODER
 if
 (
 XRE_GetProcessType
@@ -3196,6 +3204,8 @@ instantiate
 )
 ;
 }
+#
+endif
 nsCOMPtr
 <
 nsIObserverService
