@@ -611,6 +611,9 @@ mousemove
 '
 mouseup
 '
+'
+click
+'
 ]
 ;
 }
