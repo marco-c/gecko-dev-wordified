@@ -4851,6 +4851,9 @@ fp
 isConstructing
 (
 )
+&
+&
+ok
 )
 {
 if
