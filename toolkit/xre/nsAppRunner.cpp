@@ -13008,18 +13008,6 @@ return
 #
 ifdef
 MOZ_AIRBAG
-/
-/
-XXX
-:
-remove
-me
-when
-this
-is
-on
-by
-default
 const
 char
 *
@@ -13028,7 +13016,7 @@ airbagEnv
 PR_GetEnv
 (
 "
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 "
 )
 ;
