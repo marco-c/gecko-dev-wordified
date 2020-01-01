@@ -572,6 +572,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jstypedarray
 .
 h
@@ -585,7 +592,6 @@ h
 "
 /
 /
-AutoValueRooter
 cx
 -
 >
@@ -8630,7 +8636,7 @@ JSContext
 const
 mContext
 ;
-js
+JS
 :
 :
 AutoValueRooter

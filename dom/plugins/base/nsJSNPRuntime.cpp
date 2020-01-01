@@ -439,6 +439,13 @@ basictypes
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 /
 /
 FIXME
@@ -4346,7 +4353,7 @@ cx
 value
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter

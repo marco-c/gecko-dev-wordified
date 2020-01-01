@@ -8584,15 +8584,6 @@ js
 {
 extern
 void
-MarkRuntime
-(
-JSTracer
-*
-trc
-)
-;
-extern
-void
 TraceRuntime
 (
 JSTracer
