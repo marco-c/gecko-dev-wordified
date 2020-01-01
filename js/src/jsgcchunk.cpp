@@ -1242,8 +1242,7 @@ p
 mmap
 (
 (
-void
-*
+caddr_t
 )
 alignment
 size
@@ -1427,6 +1426,9 @@ JS_ALWAYS_TRUE
 (
 munmap
 (
+(
+caddr_t
+)
 addr
 size
 )
@@ -1495,7 +1497,7 @@ void
 p
 ;
 #
-if
+ifdef
 JS_GC_HAS_MAP_ALIGN
 p
 =
