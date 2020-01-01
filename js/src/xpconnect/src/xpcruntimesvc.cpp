@@ -770,11 +770,6 @@ nsIID
 aArray
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 PRUint32
 count
 =
