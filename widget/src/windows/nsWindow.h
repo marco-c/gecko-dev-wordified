@@ -3358,7 +3358,11 @@ sDefaultMainWindowClass
 ;
 static
 PRBool
-sUseElantechGestureHacks
+sUseElantechSwipeHack
+;
+static
+PRBool
+sUseElantechPinchHack
 ;
 static
 bool
