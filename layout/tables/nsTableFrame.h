@@ -616,14 +616,11 @@ PR_FALSE
 }
 virtual
 PRBool
-IsVaryingRelativeToFrame
+IsVaryingRelativeToMovingFrame
 (
 nsDisplayListBuilder
 *
 aBuilder
-nsIFrame
-*
-aAncestorFrame
 )
 ;
 /
