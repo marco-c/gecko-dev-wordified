@@ -6267,15 +6267,13 @@ aData
 ;
 nsReStyleHint
 hint
-;
+=
 aProcessor
 -
 >
 HasAttributeDependentStyle
 (
 data
-&
-hint
 )
 ;
 data
