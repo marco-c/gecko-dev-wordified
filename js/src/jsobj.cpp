@@ -17833,7 +17833,7 @@ JS_FN
 js_toString_str
 obj_toString
 0
-JSFUN_PRIMITIVE_THIS
+0
 )
 JS_FN
 (

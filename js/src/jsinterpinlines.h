@@ -496,6 +496,13 @@ MethodJIT
 .
 h
 "
+#
+include
+"
+jsfuninlines
+.
+h
+"
 inline
 void
 JSStackFrame
@@ -2489,7 +2496,7 @@ fun
 )
 -
 >
-acceptsPrimitiveThis
+inStrictMode
 (
 )
 )
