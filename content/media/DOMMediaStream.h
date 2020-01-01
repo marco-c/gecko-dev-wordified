@@ -634,6 +634,11 @@ aTrackID
 protected
 :
 void
+Destroy
+(
+)
+;
+void
 InitSourceStream
 (
 nsIDOMWindow
