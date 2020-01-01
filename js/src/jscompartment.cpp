@@ -505,6 +505,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 dateTimeInfo
@@ -638,6 +640,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 atomsCompartment
@@ -652,6 +656,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 atomsCompartment
@@ -664,6 +670,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 atomsCompartment
@@ -715,6 +723,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 getIonRuntime
@@ -813,6 +823,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 obj
@@ -830,6 +842,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sameCompartmentWrapObjectCallback
@@ -855,6 +869,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sameCompartmentWrapObjectCallback
@@ -1011,6 +1027,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 this
@@ -1031,6 +1049,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 ;
 JS_ASSERT_IF
@@ -1190,6 +1210,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 atomsCompartment
@@ -1416,6 +1438,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 preWrapObjectCallback
@@ -1427,6 +1451,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 preWrapObjectCallback
@@ -1939,6 +1965,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 wrapObjectCallback
@@ -4069,6 +4097,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -4137,6 +4167,8 @@ acx
 -
 >
 compartment
+(
+)
 =
 =
 this
@@ -4365,6 +4397,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 return
@@ -4440,6 +4474,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp

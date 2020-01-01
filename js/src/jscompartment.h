@@ -2677,6 +2677,8 @@ const
 {
 return
 compartment
+(
+)
 -
 >
 zone
@@ -2785,6 +2787,8 @@ GlobalObject
 fromMarkedLocation
 (
 compartment
+(
+)
 -
 >
 global_
@@ -2821,6 +2825,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
@@ -2837,6 +2843,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 oldCompartment

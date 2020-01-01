@@ -6489,6 +6489,8 @@ cx
 -
 >
 runtime
+(
+)
 rp
 name
 rootType
@@ -9245,6 +9247,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 /
 *
@@ -11771,6 +11775,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 rt
 -
@@ -29099,6 +29105,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 JS_AbortIfWrongThread
 (
@@ -29337,6 +29345,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 if
 (
@@ -29355,6 +29365,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 int
@@ -29600,6 +29612,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -29665,6 +29679,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 rt
 -
@@ -29697,6 +29713,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 rt
 -
@@ -29727,6 +29745,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 rt
 -
@@ -30294,6 +30314,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 if
 (
@@ -30361,6 +30383,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 if
 (
@@ -30575,6 +30599,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 if
 (
@@ -31032,6 +31058,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 markCount
 (
@@ -31192,6 +31220,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 mainThread

@@ -484,6 +484,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -495,6 +497,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -552,6 +556,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -937,6 +943,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -995,6 +1003,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 hasIonReturnOverride
@@ -1095,6 +1105,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 getIonRuntime
@@ -1285,6 +1297,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -1414,6 +1428,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 ionRuntime
@@ -1663,6 +1679,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ensureIonCompartmentExists

@@ -841,6 +841,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 ShapeTable
 *
@@ -2421,6 +2423,8 @@ cx
 -
 >
 compartment
+(
+)
 so
 make
 sure
@@ -2442,6 +2446,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 ;
 uint32_t
@@ -4926,6 +4932,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 propertyRemovals
@@ -5747,6 +5755,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 propertyRemovals
@@ -6322,6 +6332,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 propertyRemovals
@@ -6480,6 +6492,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 oldShape
@@ -8308,6 +8322,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 baseShapes
@@ -8895,6 +8911,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 proto
@@ -8916,6 +8934,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 parent
@@ -8934,6 +8954,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 initialShapes
@@ -9027,6 +9049,8 @@ cx
 -
 >
 compartment
+(
+)
 clasp
 parent
 metadata
@@ -9423,6 +9447,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 initialShapes
@@ -9612,6 +9638,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 newObjectCache

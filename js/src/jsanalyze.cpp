@@ -880,6 +880,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -1234,6 +1236,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -1280,6 +1284,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -3388,6 +3394,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -6721,6 +6729,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -11530,6 +11540,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -11954,6 +11966,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode

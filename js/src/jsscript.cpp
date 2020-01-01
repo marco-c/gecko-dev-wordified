@@ -831,6 +831,8 @@ cx
 -
 >
 compartment
+(
+)
 &
 CallClass
 cx
@@ -5675,6 +5677,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 interpreterFrames
@@ -7164,6 +7168,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 updateMallocCounter
@@ -7437,6 +7443,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sourceHook
@@ -7474,6 +7482,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sourceHook
@@ -7740,6 +7750,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sourceCompressorThread
@@ -7766,6 +7778,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sourceDataCache
@@ -7897,6 +7911,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sourceDataCache
@@ -8067,6 +8083,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 useHelperThreads
@@ -8092,6 +8110,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sourceCompressorThread
@@ -8212,6 +8232,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sourceCompressorThread
@@ -8272,6 +8294,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 sourceCompressorThread
@@ -9240,6 +9264,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 ScriptBytecodeHasher
 :
@@ -10706,6 +10732,8 @@ cx
 -
 >
 compartment
+(
+)
 ;
 /
 *
@@ -10736,6 +10764,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 principals
@@ -12973,6 +13003,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -12987,6 +13019,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 hook
@@ -13008,6 +13042,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -13325,6 +13361,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gsnCache
@@ -15347,6 +15385,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 principals
@@ -16186,6 +16226,8 @@ cx
 -
 >
 compartment
+(
+)
 !
 script
 -
@@ -16773,6 +16815,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 interpreterFrames
@@ -16903,6 +16947,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -17024,6 +17070,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -17165,6 +17213,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 new_
@@ -18717,6 +18767,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 !

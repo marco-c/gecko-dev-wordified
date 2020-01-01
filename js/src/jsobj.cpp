@@ -8100,6 +8100,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 maybeGlobal
@@ -8271,6 +8273,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcIncrementalEnabled
@@ -8363,6 +8367,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 newObjectCache
@@ -8396,6 +8402,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 objectMetadataCallback
@@ -8490,6 +8498,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -8798,6 +8808,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 newObjectCache
@@ -8838,6 +8850,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 objectMetadataCallback
@@ -9087,6 +9101,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 newObjectCache
@@ -9127,6 +9143,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 objectMetadataCallback
@@ -10765,6 +10783,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 watchpointMap
@@ -10874,6 +10894,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 watchpointMap
@@ -11300,6 +11322,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -11326,6 +11350,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -11371,6 +11397,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -11587,6 +11615,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -13280,6 +13310,8 @@ cx
 -
 >
 runtime
+(
+)
 a
 HeapSlot
 :
@@ -13297,6 +13329,8 @@ cx
 -
 >
 runtime
+(
+)
 b
 HeapSlot
 :
@@ -16423,6 +16457,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNursery
@@ -16479,6 +16515,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNursery
@@ -17005,6 +17043,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNursery
@@ -18383,6 +18423,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNursery
@@ -18496,6 +18538,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNursery
@@ -19741,6 +19785,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -25415,6 +25461,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 propertyRemovals
@@ -25480,6 +25528,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 propertyRemovals
@@ -27898,6 +27948,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 watchpointMap
@@ -29721,6 +29773,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 if
@@ -31426,6 +31480,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 securityCallbacks

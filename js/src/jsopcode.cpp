@@ -2970,6 +2970,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 isHeapBusy
@@ -2981,6 +2983,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 noGCOrAllocationCheck
@@ -3943,6 +3947,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -12935,6 +12941,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 if
 (
@@ -13133,6 +13141,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 if
 (
@@ -14965,6 +14975,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 if
 (

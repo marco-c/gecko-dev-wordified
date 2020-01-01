@@ -1531,6 +1531,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 regExps
@@ -3059,6 +3061,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 getExecAlloc
@@ -3163,6 +3167,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 getBumpPointerAllocator
@@ -4212,6 +4218,8 @@ cx
 -
 >
 runtime
+(
+)
 source
 flags
 )

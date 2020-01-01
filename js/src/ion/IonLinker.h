@@ -505,6 +505,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment

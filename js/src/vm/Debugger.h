@@ -3357,6 +3357,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -3616,6 +3618,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -4867,6 +4871,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getDebuggees
@@ -4907,6 +4913,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getDebuggees
@@ -4945,6 +4953,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getDebuggees
@@ -5054,6 +5064,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 onNewGlobalObjectWatchers

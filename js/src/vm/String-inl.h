@@ -2223,14 +2223,13 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 updateMallocCounter
 (
 cx
--
->
-compartment
 -
 >
 zone

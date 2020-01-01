@@ -982,6 +982,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2044,6 +2046,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -2053,6 +2057,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 ;
 }
@@ -2298,6 +2304,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2315,6 +2323,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -2480,6 +2490,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2675,6 +2687,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -4026,6 +4040,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -4246,6 +4262,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -4281,6 +4299,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -6027,6 +6047,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -6038,6 +6060,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -6058,6 +6082,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -6085,6 +6111,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -7417,6 +7445,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -7429,6 +7459,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 isHeapBusy
@@ -7535,6 +7567,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9276,6 +9310,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -9416,6 +9452,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 analysisLifoAlloc
@@ -9473,6 +9511,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9702,6 +9742,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9726,6 +9768,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -10034,6 +10078,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -10090,6 +10136,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -10656,6 +10704,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -10745,6 +10795,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types

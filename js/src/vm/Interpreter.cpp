@@ -2063,6 +2063,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 #
@@ -2332,6 +2334,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -6112,6 +6116,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 interpreterFrames
@@ -6120,6 +6126,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 interpreterFrames
@@ -6140,6 +6148,8 @@ context
 -
 >
 runtime
+(
+)
 -
 >
 interpreterFrames
@@ -6213,6 +6223,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNumber
@@ -6295,6 +6307,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNumber
@@ -6706,6 +6720,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -7065,6 +7081,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 interrupt
@@ -7274,6 +7292,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 RootedScript
 script
@@ -7688,6 +7708,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -7891,6 +7913,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -8010,6 +8034,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 profilingScripts
@@ -8081,6 +8107,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -8133,6 +8161,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -9195,6 +9225,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -13711,6 +13743,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 spsProfiler
@@ -14339,6 +14373,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -18009,6 +18045,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -18033,6 +18071,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -18923,6 +18963,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -19496,6 +19538,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -20832,6 +20876,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 interrupt

@@ -1094,7 +1094,7 @@ cx
 )
 -
 >
-runtime
+runtime_
 ;
 }
 inline
@@ -1118,7 +1118,7 @@ cx
 )
 -
 >
-compartment
+compartment_
 ;
 }
 inline

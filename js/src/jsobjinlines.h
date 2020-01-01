@@ -5153,6 +5153,8 @@ cx
 -
 >
 runtime
+(
+)
 obj
 .
 get
@@ -5188,6 +5190,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getLazyType
@@ -5251,6 +5255,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 compartment
@@ -5281,6 +5287,8 @@ cx
 -
 >
 compartment
+(
+)
 !
 =
 compartment
@@ -5355,6 +5363,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 obj
@@ -5379,6 +5389,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -7186,6 +7198,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNursery
@@ -12602,6 +12616,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 objectMetadataCallback
@@ -12613,6 +12629,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -12632,6 +12650,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 objectMetadataCallback

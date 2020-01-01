@@ -359,6 +359,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -387,6 +389,8 @@ cx
 -
 >
 compartment
+(
+)
 debug
 )
 ;
@@ -517,6 +521,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -545,6 +551,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -565,6 +573,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -593,6 +603,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -789,6 +801,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -825,6 +839,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -885,6 +901,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -899,6 +917,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -910,6 +930,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getDebuggees
@@ -970,6 +992,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -1004,6 +1028,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -1103,6 +1129,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 for
@@ -1114,6 +1142,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 !
@@ -1195,6 +1225,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 return
@@ -1409,6 +1441,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -1469,6 +1503,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -1524,6 +1560,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -1547,6 +1585,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 clearTraps
@@ -1555,6 +1595,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -2059,6 +2101,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 watchpointMap
@@ -2075,6 +2119,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 new_
@@ -2112,6 +2158,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 watchpointMap
@@ -2173,6 +2221,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 watchpointMap
@@ -2222,6 +2272,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 watchpointMap
@@ -2259,6 +2311,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 {
 if
@@ -4817,6 +4871,8 @@ cx
 -
 >
 runtime
+(
+)
 &
 pd
 [
@@ -4832,6 +4888,8 @@ cx
 -
 >
 runtime
+(
+)
 &
 pd
 [
@@ -4858,6 +4916,8 @@ cx
 -
 >
 runtime
+(
+)
 &
 pd
 [
@@ -5722,10 +5782,14 @@ cx
 -
 >
 runtime
+(
+)
 cx
 -
 >
 compartment
+(
+)
 &
 scripts
 DumpBytecodeScriptCallback
@@ -5843,6 +5907,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 continue
 ;
@@ -5954,6 +6020,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 continue
 ;
