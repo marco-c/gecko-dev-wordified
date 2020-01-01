@@ -1064,11 +1064,6 @@ nsSimpleNestedURI
 innerClone
 )
 ;
-if
-(
-url
-)
-{
 url
 -
 >
@@ -1077,7 +1072,6 @@ SetMutable
 PR_FALSE
 )
 ;
-}
 return
 url
 ;

@@ -641,6 +641,8 @@ nsSimpleURI
 *
 StartClone
 (
+RefHandlingEnum
+aRefHandlingMode
 )
 ;
 NS_IMETHOD
