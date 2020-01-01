@@ -444,6 +444,13 @@ gfxPoint
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 struct
 THEBES_API
 gfxCorner
