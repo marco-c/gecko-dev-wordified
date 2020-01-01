@@ -2627,6 +2627,14 @@ nsIntRect
 aRect
 )
 ;
+NS_IMETHOD
+GetScreenBounds
+(
+nsIntRect
+&
+aRect
+)
+;
 /
 /
 Returns
