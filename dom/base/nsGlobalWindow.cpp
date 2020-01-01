@@ -3478,6 +3478,10 @@ mMayHaveTouchEventListener
 (
 PR_FALSE
 )
+mMayHaveAudioAvailableEventListener
+(
+PR_FALSE
+)
 mIsModalContentWindow
 (
 PR_FALSE
