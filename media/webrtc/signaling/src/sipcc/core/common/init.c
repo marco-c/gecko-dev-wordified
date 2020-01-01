@@ -1972,6 +1972,10 @@ platInit
 (
 )
 ;
+strlib_init
+(
+)
+;
 /
 *
 *
