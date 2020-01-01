@@ -8686,8 +8686,11 @@ id_
 method_
 flags_
 datastruct_
+\
 member_
+parsevariant_
 kwtable_
+\
 stylestructoffset_
 animtype_
 )
@@ -13204,8 +13207,9 @@ minimumFontSize
 mPresContext
 -
 >
-MinFontSize
+GetCachedIntPref
 (
+kPresContext_MinimumFontSize
 )
 ;
 if
@@ -21264,8 +21268,9 @@ minimumFontSize
 mPresContext
 -
 >
-MinFontSize
+GetCachedIntPref
 (
+kPresContext_MinimumFontSize
 )
 ;
 if
@@ -22790,8 +22795,9 @@ minimumFontSize
 mPresContext
 -
 >
-MinFontSize
+GetCachedIntPref
 (
+kPresContext_MinimumFontSize
 )
 ;
 if

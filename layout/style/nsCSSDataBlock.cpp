@@ -2404,9 +2404,11 @@ flags_
 datastruct_
 member_
 \
+parsevariant_
 kwtable_
 stylestruct_
 stylestructoffset_
+\
 animtype_
 )
 \
