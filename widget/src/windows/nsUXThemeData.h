@@ -906,7 +906,7 @@ WINAPI
 GetThemeSysColorPtr
 )
 (
-HTHEME
+HANDLE
 hTheme
 int
 iColorID
