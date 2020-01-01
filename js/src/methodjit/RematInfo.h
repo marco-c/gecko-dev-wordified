@@ -797,7 +797,7 @@ arguments
 #
 define
 MIN_STATE_REMAT_BITS
-17
+21
 bool
 isConstant
 (

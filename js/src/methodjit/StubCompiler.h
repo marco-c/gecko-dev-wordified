@@ -716,15 +716,6 @@ buffer
 )
 ;
 }
-Call
-vpInc
-(
-JSOp
-op
-uint32
-depth
-)
-;
 /
 *
 *
