@@ -2453,6 +2453,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 {
 for
@@ -2547,6 +2549,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 {
 for
@@ -2718,6 +2722,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 usesRval
 =
@@ -2790,6 +2796,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 {
 isInlineable

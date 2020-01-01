@@ -1103,6 +1103,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 #
 if
@@ -1886,6 +1888,9 @@ nextOffset
 =
 offset
 +
+analyze
+:
+:
 GetBytecodeLength
 (
 pc
@@ -6283,10 +6288,18 @@ lu
 \
 n
 "
+(
+unsigned
+long
+)
 masm
 .
 size
 (
+)
+(
+unsigned
+long
 )
 stubcc
 .
@@ -18550,7 +18563,7 @@ INLINE_STUBCALL
 stubs
 :
 :
-Debugger
+DebuggerStatement
 REJOIN_FALLTHROUGH
 )
 ;
@@ -18755,6 +18768,9 @@ PC
 =
 lastPC
 +
+analyze
+:
+:
 GetBytecodeLength
 (
 lastPC
