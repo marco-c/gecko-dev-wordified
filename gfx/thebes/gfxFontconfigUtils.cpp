@@ -1697,6 +1697,9 @@ g
 {
 if
 (
+0
+=
+=
 FcStrCmpIgnoreCase
 (
 ToFcChar8
