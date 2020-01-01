@@ -472,6 +472,12 @@ define
 NANOJIT_PPC
 #
 elif
+AVMPLUS_SPARC
+#
+define
+NANOJIT_SPARC
+#
+elif
 AVMPLUS_AMD64
 #
 define
