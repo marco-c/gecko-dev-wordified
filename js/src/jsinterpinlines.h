@@ -3823,13 +3823,13 @@ formals_
 =
 savedThis_
 ;
+#
+ifdef
+JS_METHODJIT
 void
 *
 code
 ;
-#
-ifdef
-JS_METHODJIT
 if
 (
 !
