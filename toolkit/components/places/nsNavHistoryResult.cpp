@@ -3931,7 +3931,7 @@ timeChanged
 )
 )
 {
-uint32_t
+int32_t
 ourIndex
 =
 mParent
@@ -3967,7 +3967,13 @@ ourIndex
 )
 EnsureItemPosition
 (
+static_cast
+<
+uint32_t
+>
+(
 ourIndex
+)
 )
 ;
 }
@@ -23840,13 +23846,6 @@ aNewIndex
 /
 adjust
 position
-if
-(
-index
->
-=
-0
-)
 EnsureItemPosition
 (
 index
