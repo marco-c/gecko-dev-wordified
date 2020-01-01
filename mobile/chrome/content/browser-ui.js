@@ -490,9 +490,11 @@ skin
 /
 images
 /
+favicon
+-
 default
 -
-favicon
+30
 .
 png
 "

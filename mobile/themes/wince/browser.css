@@ -748,8 +748,6 @@ images
 /
 go
 -
-default
--
 30
 .
 png
@@ -783,8 +781,6 @@ images
 /
 reload
 -
-default
--
 30
 .
 png
@@ -817,8 +813,6 @@ skin
 images
 /
 stop
--
-default
 -
 30
 .
@@ -3080,6 +3074,8 @@ skin
 images
 /
 folder
+-
+30
 .
 png
 "
@@ -3288,7 +3284,9 @@ skin
 /
 images
 /
-folder_close
+close
+-
+30
 .
 png
 "
@@ -3319,9 +3317,13 @@ skin
 /
 images
 /
-navigation_magnifier
+navigation
+-
+magnifier
+-
+30
 .
-gif
+png
 "
 )
 ;
@@ -3528,8 +3530,6 @@ images
 /
 star
 -
-default
--
 30
 .
 png
@@ -3566,8 +3566,6 @@ skin
 images
 /
 tag
--
-default
 -
 30
 .
@@ -3903,9 +3901,9 @@ skin
 /
 images
 /
-tab
--
 close
+-
+30
 .
 png
 "
@@ -4105,9 +4103,9 @@ skin
 /
 images
 /
-tab
--
 close
+-
+30
 .
 png
 "
@@ -5517,8 +5515,6 @@ skin
 images
 /
 check
--
-default
 -
 30
 .
