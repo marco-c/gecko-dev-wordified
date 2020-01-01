@@ -169,7 +169,8 @@ nsIMessageBroadcaster
 "
 )
 ;
-let
+this
+.
 Keyboard
 =
 {
@@ -1824,6 +1825,8 @@ layouts
 }
 }
 ;
+this
+.
 Keyboard
 .
 init
