@@ -8053,7 +8053,7 @@ XP_WIN
 bool
 TakeMinidumpForChild
 (
-PRUint32
+ProcessHandle
 childPid
 nsIFile
 *
@@ -8070,6 +8070,14 @@ GetEnabled
 )
 return
 false
+;
+PRUint32
+key
+=
+PRUint32
+(
+childPid
+)
 ;
 MutexAutoLock
 lock
@@ -8092,7 +8100,7 @@ pidToMinidump
 >
 Get
 (
-childPid
+key
 getter_AddRefs
 (
 d
@@ -8108,7 +8116,7 @@ pidToMinidump
 >
 Remove
 (
-childPid
+key
 )
 ;
 *
