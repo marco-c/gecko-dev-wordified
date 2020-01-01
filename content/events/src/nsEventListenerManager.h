@@ -573,6 +573,9 @@ mFlags
 bool
 mHandlerIsString
 ;
+bool
+mWrappedJS
+;
 nsIJSEventListener
 *
 GetJSListener
@@ -1402,6 +1405,11 @@ SizeOf
 (
 )
 const
+;
+void
+UnmarkGrayJSListeners
+(
+)
 ;
 protected
 :
