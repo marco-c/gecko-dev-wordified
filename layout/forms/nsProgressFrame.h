@@ -490,6 +490,17 @@ nsProgressFrame
 (
 )
 ;
+NS_IMETHOD
+SetInitialChildList
+(
+nsIAtom
+*
+aListName
+nsFrameList
+&
+aChildList
+)
+;
 virtual
 void
 DestroyFrom
