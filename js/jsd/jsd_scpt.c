@@ -1603,6 +1603,9 @@ return
 (
 JSHashNumber
 )
+(
+ptrdiff_t
+)
 key
 )
 >
@@ -1792,9 +1795,8 @@ jsdc
 )
 ;
 return
-(
-JSBool
-)
+!
+!
 jsdc
 -
 >
