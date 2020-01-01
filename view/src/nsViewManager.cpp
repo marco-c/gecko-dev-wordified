@@ -5987,7 +5987,8 @@ aEvent
 /
 /
 Ignore
-moves
+mouse
+events
 that
 we
 synthesize
