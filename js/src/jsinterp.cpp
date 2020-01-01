@@ -13515,10 +13515,14 @@ fprintf
 tracefp
 "
 %
-d
+u
 \
 n
 "
+(
+uintN
+)
+(
 regs
 -
 >
@@ -13527,6 +13531,7 @@ sp
 StackBase
 (
 fp
+)
 )
 )
 ;
@@ -13770,10 +13775,14 @@ fprintf
 tracefp
 "
 %
-d
+u
 \
 n
 "
+(
+uintN
+)
+(
 regs
 -
 >
@@ -13782,6 +13791,7 @@ sp
 StackBase
 (
 fp
+)
 )
 )
 ;
