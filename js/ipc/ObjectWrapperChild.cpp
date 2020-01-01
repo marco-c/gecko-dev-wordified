@@ -628,6 +628,12 @@ mObj
 obj
 )
 {
+AutoContextPusher
+acp
+(
+cx
+)
+;
 JSAutoRequest
 request
 (
@@ -685,6 +691,12 @@ Manager
 >
 GetContext
 (
+)
+;
+AutoContextPusher
+acp
+(
+cx
 )
 ;
 JSAutoRequest
