@@ -519,7 +519,7 @@ h
 typedef
 PRLock
 *
-lock_t
+moz_lock_t
 ;
 #
 define
@@ -576,7 +576,7 @@ mozilla
 :
 Mutex
 *
-lock_t
+moz_lock_t
 ;
 #
 define
@@ -739,7 +739,7 @@ i
 )
 return
 ;
-lock_t
+moz_lock_t
 lock
 =
 NEWLOCK
@@ -935,7 +935,7 @@ int
 K
 )
 {
-lock_t
+moz_lock_t
 lock
 =
 NEWLOCK
@@ -951,12 +951,12 @@ master
 "
 )
 ;
-lock_t
+moz_lock_t
 *
 locks
 =
 new
-lock_t
+moz_lock_t
 [
 N
 ]
@@ -1298,12 +1298,12 @@ int
 K
 )
 {
-lock_t
+moz_lock_t
 *
 locks
 =
 new
-lock_t
+moz_lock_t
 [
 N
 ]
