@@ -1386,7 +1386,7 @@ supported
 ;
 mFrames
 .
-RemoveFrame
+DestroyFrame
 (
 aOldFrame
 )
