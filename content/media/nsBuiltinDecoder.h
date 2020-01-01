@@ -2101,6 +2101,7 @@ PRBool
 OnDecodeThread
 (
 )
+const
 =
 0
 ;
@@ -2214,6 +2215,7 @@ double
 GetCurrentTime
 (
 )
+const
 =
 0
 ;
@@ -3100,6 +3102,7 @@ PRBool
 OnDecodeThread
 (
 )
+const
 {
 return
 mDecoderStateMachine
