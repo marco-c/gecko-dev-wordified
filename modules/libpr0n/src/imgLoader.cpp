@@ -3054,9 +3054,6 @@ caches
 PR_FALSE
 )
 ;
-#
-if
-0
 gCacheTracker
 =
 new
@@ -3072,14 +3069,6 @@ gCacheTracker
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-#
-else
-gCacheTracker
-=
-nsnull
-;
-#
-endif
 if
 (
 !
