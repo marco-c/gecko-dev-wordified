@@ -1168,9 +1168,9 @@ canInline
 oracle
 -
 >
-canEnterInlinedScript
+canEnterInlinedFunction
 (
-inlineScript
+target
 )
 ;
 if
