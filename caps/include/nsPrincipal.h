@@ -928,6 +928,12 @@ mSecurityPolicy
 ;
 nsCOMPtr
 <
+IContentSecurityPolicy
+>
+mCSP
+;
+nsCOMPtr
+<
 nsIURI
 >
 mCodebase

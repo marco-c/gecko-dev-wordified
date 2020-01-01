@@ -6608,6 +6608,11 @@ DoUnblockOnload
 (
 )
 ;
+nsresult
+InitCSP
+(
+)
+;
 /
 *
 *
