@@ -9524,6 +9524,9 @@ fi
 ngslots
 =
 =
+(
+unsigned
+)
 internableGlobals
 )
 ;
