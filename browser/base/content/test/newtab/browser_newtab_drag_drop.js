@@ -96,6 +96,11 @@ runTests
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 test
