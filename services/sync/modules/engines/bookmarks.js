@@ -3650,13 +3650,6 @@ id
 places
 guid
 )
-/
-/
-FIXME
-:
-set
-id
-here
 createRecord
 :
 function
@@ -4047,6 +4040,12 @@ placeId
 )
 ;
 }
+record
+.
+id
+=
+guid
+;
 record
 .
 parentid
@@ -5398,7 +5397,7 @@ getItemGUID
 (
 itemId
 )
-!
+=
 =
 this
 .

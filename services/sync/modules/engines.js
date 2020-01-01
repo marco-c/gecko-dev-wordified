@@ -1684,17 +1684,6 @@ id
 ;
 record
 .
-id
-=
-id
-;
-/
-/
-XXX
-not
-needed
-record
-.
 encryption
 =
 this
