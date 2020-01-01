@@ -1313,6 +1313,9 @@ JSContext
 *
 ionJSContext
 ;
+jsuword
+ionStackLimit
+;
 /
 /
 This
