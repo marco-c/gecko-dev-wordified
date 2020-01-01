@@ -4064,6 +4064,10 @@ derived
 from
 nsISupports
 "
+%
+self
+.
+name
                                              
 self
 .
