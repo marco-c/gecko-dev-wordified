@@ -455,6 +455,10 @@ xptiprivate
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 static
@@ -625,6 +629,16 @@ GetWorkingSet
 (
 )
 ;
+{
+MonitorAutoEnter
+monitor
+(
+set
+-
+>
+mTableMonitor
+)
+;
 if
 (
 iface
@@ -668,6 +682,7 @@ iface
 iid
 )
 ;
+}
 if
 (
 r
