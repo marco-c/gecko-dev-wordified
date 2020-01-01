@@ -2205,7 +2205,7 @@ of
 Theora
 /
 /
-verion
+version
 (
 maj
 min
