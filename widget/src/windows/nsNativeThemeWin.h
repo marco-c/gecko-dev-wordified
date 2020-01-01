@@ -548,7 +548,7 @@ PRUint8
 aWidgetType
 nsRect
 *
-aResult
+aOverflowRect
 )
 ;
 NS_IMETHOD
