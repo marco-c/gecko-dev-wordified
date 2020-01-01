@@ -799,6 +799,9 @@ char
 aIDStr
 )
 ;
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 /
 *
 *
@@ -918,6 +921,11 @@ NSID_LENGTH
 )
 const
 ;
+#
+endif
+/
+/
+XPCOM_GLUE_AVOID_NSPR
 /
 /
 }

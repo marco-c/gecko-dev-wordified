@@ -1035,6 +1035,9 @@ aIDStr
 PR_TRUE
 ;
 }
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 /
 *
 *
@@ -1287,3 +1290,8 @@ m3
 )
 ;
 }
+#
+endif
+/
+/
+XPCOM_GLUE_AVOID_NSPR
