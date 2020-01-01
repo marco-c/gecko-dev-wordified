@@ -1965,6 +1965,13 @@ nsWidgetInitData
 aInitData
 )
 ;
+void
+SetSoftwareKeyboardState
+(
+PRBool
+aOpen
+)
+;
 MozQWidget
 *
 mWidget
