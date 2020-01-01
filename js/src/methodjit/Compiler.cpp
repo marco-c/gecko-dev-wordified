@@ -1550,6 +1550,13 @@ analysis
 (
 )
 ;
+analysis
+-
+>
+assertMatchingDebugMode
+(
+)
+;
 if
 (
 analysis
