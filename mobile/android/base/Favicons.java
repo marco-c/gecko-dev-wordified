@@ -733,11 +733,6 @@ LoadFaviconTask
 (
 GeckoAppShell
 .
-getMainHandler
-(
-)
-GeckoAppShell
-.
 getHandler
 (
 )
@@ -1247,8 +1242,6 @@ public
 LoadFaviconTask
 (
 Handler
-uiHandler
-Handler
 backgroundThreadHandler
 String
 pageUrl
@@ -1262,7 +1255,6 @@ listener
 {
 super
 (
-uiHandler
 backgroundThreadHandler
 )
 ;

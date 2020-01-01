@@ -397,8 +397,6 @@ context
 final
 OnQueryTabsCompleteListener
 listener
-Handler
-uiHandler
 )
 {
 getTabs
@@ -406,7 +404,6 @@ getTabs
 context
 0
 listener
-uiHandler
 )
 ;
 }
@@ -449,8 +446,6 @@ limit
 final
 OnQueryTabsCompleteListener
 listener
-Handler
-uiHandler
 )
 {
 /
@@ -487,7 +482,6 @@ RemoteTab
 >
 >
 (
-uiHandler
 GeckoAppShell
 .
 getHandler

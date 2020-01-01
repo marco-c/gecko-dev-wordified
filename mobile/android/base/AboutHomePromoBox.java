@@ -1254,9 +1254,6 @@ Type
 >
 >
 (
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler
