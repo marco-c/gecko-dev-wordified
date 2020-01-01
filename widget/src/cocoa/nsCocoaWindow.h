@@ -1399,6 +1399,13 @@ aShouldHide
 )
 ;
 NS_IMETHOD
+MakeFullScreen
+(
+PRBool
+aFullScreen
+)
+;
+NS_IMETHOD
 Resize
 (
 PRInt32
@@ -2009,6 +2016,9 @@ sibling
 sheet
 contention
 only
+PRPackedBool
+mFullScreen
+;
 PRPackedBool
 mModal
 ;
