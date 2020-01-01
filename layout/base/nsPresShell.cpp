@@ -36310,6 +36310,15 @@ NS_IS_IME_EVENT
 (
 aEvent
 )
+|
+|
+aEvent
+-
+>
+message
+=
+=
+NS_PLUGIN_ACTIVATE
 )
 )
 {
