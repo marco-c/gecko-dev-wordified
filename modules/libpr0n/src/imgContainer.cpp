@@ -3590,6 +3590,9 @@ mAnim
 -
 >
 currentAnimationFrameIndex
+=
+=
+0
 )
 return
 NS_OK
