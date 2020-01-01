@@ -16266,8 +16266,6 @@ return
 JS_FALSE
 ;
 }
-if
-(
 JSObject
 *
 proto
@@ -16277,10 +16275,12 @@ v
 toObjectOrNull
 (
 )
-)
-{
+;
 if
 (
+proto
+&
+&
 proto
 -
 >
@@ -16300,7 +16300,6 @@ JSMSG_XML_PROTO_FORBIDDEN
 return
 false
 ;
-}
 }
 /
 *
@@ -16353,11 +16352,7 @@ Given
 cx
 &
 js_ObjectClass
-v
-.
-toObjectOrNull
-(
-)
+proto
 vp
 -
 >
