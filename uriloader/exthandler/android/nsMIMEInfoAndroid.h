@@ -549,7 +549,7 @@ nsIMutableArray
 mHandlerApps
 ;
 nsCString
-mMimeType
+mType
 ;
 nsTArray
 <
