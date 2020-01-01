@@ -1455,7 +1455,7 @@ mEGLImage
 ;
 mEGLImage
 =
-nullptr
+NULL
 ;
 }
 }
@@ -1463,7 +1463,7 @@ nullptr
 endif
 mEGLImage
 =
-nullptr
+NULL
 ;
 if
 (
@@ -1494,7 +1494,7 @@ mHandle
 ;
 mHandle
 =
-nullptr
+NULL
 ;
 }
 }
@@ -2031,12 +2031,10 @@ eglImgAttrs
 )
 ;
 return
-(
 mEGLImage
 !
 =
-nullptr
-)
+NULL
 ;
 }
 bool
@@ -2212,7 +2210,7 @@ t839
 Samsung
 Sidekick
 4G
-nullptr
+NULL
 }
 ;
 bool

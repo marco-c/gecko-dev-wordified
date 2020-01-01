@@ -328,6 +328,7 @@ const
 gSurfaceFunctions
 ;
 static
+inline
 void
 *
 getSurface
@@ -350,7 +351,7 @@ view
 )
 {
 return
-nullptr
+NULL
 ;
 }
 if
@@ -590,7 +591,7 @@ pointer
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 env
@@ -627,7 +628,7 @@ gSurfaceJavaGlue
 surfacePointer
 !
 =
-nullptr
+NULL
 )
 ;
 }
@@ -1160,7 +1161,7 @@ void
 *
 region
 =
-nullptr
+NULL
 ;
 if
 (
@@ -1452,7 +1453,7 @@ bitmap
 >
 baseAddr
 =
-nullptr
+NULL
 ;
 return
 false
