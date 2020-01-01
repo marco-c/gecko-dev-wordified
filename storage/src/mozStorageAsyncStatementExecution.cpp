@@ -2653,12 +2653,13 @@ nsCOMPtr
 mozIStorageError
 >
 errorObj
-=
+(
 new
-mozStorageError
+Error
 (
 aErrorCode
 aMessage
+)
 )
 ;
 NS_ENSURE_TRUE
