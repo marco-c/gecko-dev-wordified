@@ -511,7 +511,7 @@ later
 .
 As
 a
-bonux
+bonus
 this
 makes
 the

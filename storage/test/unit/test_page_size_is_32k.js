@@ -196,8 +196,6 @@ new_file
 (
 "
 shared32k
-.
-sqlite
 "
 )
 )
@@ -215,8 +213,6 @@ new_file
 (
 "
 unshared32k
-.
-sqlite
 "
 )
 )
