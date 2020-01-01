@@ -583,7 +583,7 @@ lengthAndFlags
 buildLengthAndFlags
 (
 length
-ROPE_BIT
+ROPE_FLAGS
 )
 ;
 d
@@ -1345,7 +1345,7 @@ buildLengthAndFlags
 length
 (
 )
-ATOM_FLAGS
+ATOM_BIT
 )
 ;
 return

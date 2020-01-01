@@ -2108,7 +2108,7 @@ void
 JSString
 :
 :
-ROPE_BIT
+FLAGS_MASK
 )
 reg1
 )
@@ -2123,7 +2123,7 @@ branchTestPtr
 Assembler
 :
 :
-NonZero
+Zero
 reg1
 )
 ;
