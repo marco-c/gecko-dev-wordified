@@ -2010,7 +2010,7 @@ asBits
 ;
 #
 ifndef
-_MSC_VER
+_WIN64
 /
 *
 MSVC
