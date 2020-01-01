@@ -711,17 +711,3 @@ test
 "
 )
 ;
-test
-(
-"
-newGlobal
-(
-'
-same
--
-compartment
-'
-)
-"
-)
-;
