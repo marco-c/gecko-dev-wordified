@@ -200,6 +200,11 @@ aApp
 {
 return
 {
+name
+:
+aApp
+.
+name
 installOrigin
 :
 aApp
