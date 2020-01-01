@@ -682,11 +682,6 @@ aCh
 }
 protected
 :
-void
-InitDisplayCaps
-(
-)
-;
 static
 gfxFontconfigUtils
 *
