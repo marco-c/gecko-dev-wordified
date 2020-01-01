@@ -455,6 +455,8 @@ script
 -
 >
 filename
+(
+)
 PCToLineNumber
 (
 script
@@ -515,6 +517,8 @@ script
 -
 >
 filename
+(
+)
 PCToLineNumber
 (
 script
@@ -1618,6 +1622,8 @@ script
 -
 >
 filename
+(
+)
 script
 (
 )
@@ -2599,6 +2605,8 @@ script
 -
 >
 filename
+(
+)
 script
 (
 )

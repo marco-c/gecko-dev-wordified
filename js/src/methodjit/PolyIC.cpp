@@ -774,6 +774,8 @@ script
 -
 >
 filename
+(
+)
 CurrentLine
 (
 cx
@@ -15752,6 +15754,8 @@ script
 -
 >
 filename
+(
+)
 CurrentLine
 (
 f
@@ -17356,6 +17360,8 @@ script
 -
 >
 filename
+(
+)
 CurrentLine
 (
 cx

@@ -3407,6 +3407,8 @@ script
 -
 >
 filename
+(
+)
 ;
 }
 JS_PUBLIC_API
@@ -5443,6 +5445,8 @@ script
 -
 >
 filename
+(
+)
 )
 nbytes
 +
@@ -5453,6 +5457,8 @@ script
 -
 >
 filename
+(
+)
 )
 +
 1
@@ -5999,6 +6005,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -6048,6 +6056,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -6137,6 +6147,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -6185,6 +6197,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -7041,6 +7055,8 @@ script
 -
 >
 filename
+(
+)
 ;
 unsigned
 lineno

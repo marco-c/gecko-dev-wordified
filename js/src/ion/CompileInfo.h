@@ -387,6 +387,8 @@ script_
 -
 >
 filename
+(
+)
 ;
 }
 unsigned

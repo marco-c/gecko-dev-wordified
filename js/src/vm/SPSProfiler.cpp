@@ -1424,6 +1424,8 @@ script
 -
 >
 filename
+(
+)
 )
 {
 if
@@ -1437,12 +1439,16 @@ script
 -
 >
 filename
+(
+)
 strlen
 (
 script
 -
 >
 filename
+(
+)
 )
 )
 )

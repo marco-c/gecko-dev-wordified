@@ -2378,11 +2378,15 @@ script
 -
 >
 filename
+(
+)
 ?
 script
 -
 >
 filename
+(
+)
 :
 "
 "
