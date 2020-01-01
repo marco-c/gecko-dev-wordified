@@ -649,7 +649,7 @@ class
 nsIDOMNamedNodeMap
 ;
 class
-nsDOMCSSDeclaration
+nsICSSDeclaration
 ;
 class
 nsIDOMCSSStyleDeclaration
@@ -5314,9 +5314,9 @@ nsGenericHTMLElement
 GetStyle
 *
 /
-nsRefPtr
+nsCOMPtr
 <
-nsDOMCSSDeclaration
+nsICSSDeclaration
 >
 mStyle
 ;
@@ -5344,9 +5344,9 @@ nsIContent
 GetSMILOverrideStyle
 *
 /
-nsRefPtr
+nsCOMPtr
 <
-nsDOMCSSDeclaration
+nsICSSDeclaration
 >
 mSMILOverrideStyle
 ;
