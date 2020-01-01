@@ -341,6 +341,8 @@ close
 (
 )
 ;
+/
+/
 clearAllDatabases
 (
 function
