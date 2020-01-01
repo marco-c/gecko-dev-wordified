@@ -778,6 +778,9 @@ DWORD
 pEffect
 )
 ;
+PRBool
+mDragCancelled
+;
 protected
 :
 void

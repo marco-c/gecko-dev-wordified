@@ -22714,6 +22714,13 @@ rv
 NS_OK
 ;
 }
+mNativeDragTarget
+-
+>
+mDragCancelled
+=
+PR_TRUE
+;
 NS_RELEASE
 (
 mNativeDragTarget
