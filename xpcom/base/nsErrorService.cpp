@@ -565,10 +565,7 @@ if
 (
 oldValue
 )
-nsCRT
-:
-:
-free
+NS_Free
 (
 oldValue
 )
@@ -665,10 +662,7 @@ if
 (
 oldValue
 )
-nsCRT
-:
-:
-free
+NS_Free
 (
 oldValue
 )
