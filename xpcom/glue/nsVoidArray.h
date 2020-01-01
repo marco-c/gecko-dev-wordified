@@ -1836,7 +1836,7 @@ strtok
 (
 )
 .
-void
+PRBool
 ParseString
 (
 const
