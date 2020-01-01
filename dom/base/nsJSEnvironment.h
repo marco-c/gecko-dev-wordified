@@ -1127,6 +1127,10 @@ CC
 nsICycleCollectorListener
 *
 aListener
+PRBool
+aForceGC
+=
+PR_FALSE
 )
 ;
 /
@@ -1313,6 +1317,10 @@ static
 PRBool
 IntervalCC
 (
+PRBool
+aForceGC
+=
+PR_FALSE
 )
 ;
 /
@@ -1320,12 +1328,15 @@ IntervalCC
 Calls
 IntervalCC
 (
+PR_TRUE
 )
 if
 user
 is
 currently
 inactive
+/
+/
 otherwise
 MaybeCC
 (
