@@ -2090,6 +2090,8 @@ const
 CallStack
 *
 stack
+bool
+stack_scan_allowed
 )
 {
 if
@@ -2279,6 +2281,9 @@ scanning
 .
 if
 (
+stack_scan_allowed
+&
+&
 !
 frame
 .

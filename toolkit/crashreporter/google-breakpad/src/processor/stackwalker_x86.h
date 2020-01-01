@@ -601,6 +601,8 @@ const
 CallStack
 *
 stack
+bool
+stack_scan_allowed
 )
 ;
 /
@@ -661,6 +663,8 @@ frames
 WindowsFrameInfo
 *
 windows_frame_info
+bool
+stack_scan_allowed
 )
 ;
 /
@@ -807,6 +811,8 @@ StackFrame
 >
 &
 frames
+bool
+stack_scan_allowed
 )
 ;
 /

@@ -1076,6 +1076,8 @@ frames
 WindowsFrameInfo
 *
 last_frame_info
+bool
+stack_scan_allowed
 )
 {
 StackFrame
@@ -3314,6 +3316,10 @@ eip
 if
 (
 !
+stack_scan_allowed
+|
+|
+!
 ScanForReturnAddress
 (
 location_start
@@ -3753,6 +3759,9 @@ location
 ;
 if
 (
+stack_scan_allowed
+&
+&
 ScanForReturnAddress
 (
 location_start
@@ -4616,6 +4625,8 @@ StackFrame
 >
 &
 frames
+bool
+stack_scan_allowed
 )
 {
 StackFrame
@@ -5061,6 +5072,10 @@ pointer
 if
 (
 !
+stack_scan_allowed
+|
+|
+!
 ScanForReturnAddress
 (
 last_esp
@@ -5259,6 +5274,8 @@ const
 CallStack
 *
 stack
+bool
+stack_scan_allowed
 )
 {
 if
@@ -5371,6 +5388,7 @@ GetCallerByWindowsFrameInfo
 (
 frames
 windows_frame_info
+stack_scan_allowed
 )
 )
 ;
@@ -5454,6 +5472,7 @@ reset
 GetCallerByEBPAtBase
 (
 frames
+stack_scan_allowed
 )
 )
 ;

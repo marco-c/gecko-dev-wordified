@@ -565,6 +565,8 @@ const
 CallStack
 *
 stack
+bool
+stack_scan_allowed
 )
 ;
 /
