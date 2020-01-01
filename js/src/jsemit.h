@@ -717,6 +717,7 @@ loop
 statement
 *
 /
+STMT_LIMIT
 }
 JSStmtType
 ;
