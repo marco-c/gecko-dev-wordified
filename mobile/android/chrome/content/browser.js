@@ -4813,9 +4813,6 @@ ownerDocument
 }
 )
 ;
-#
-ifdef
-MOZ_ANDROID_WALLPAPER
 NativeWindow
 .
 contextmenus
@@ -4831,7 +4828,7 @@ GetStringFromName
 "
 contextmenu
 .
-setWallpaper
+setImageAs
 "
 )
 NativeWindow
@@ -4870,8 +4867,6 @@ src
 }
 )
 ;
-#
-endif
 NativeWindow
 .
 contextmenus
