@@ -445,6 +445,13 @@ h
 #
 include
 "
+prprf
+.
+h
+"
+#
+include
+"
 nsPluginDefs
 .
 h
@@ -1427,7 +1434,7 @@ NS_INFO_ProductName
 ;
 info
 .
-fFileVersion
+fVersion
 =
 LoadRCDATAVersion
 (
