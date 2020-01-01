@@ -7552,6 +7552,10 @@ vec
 ;
 vec
 =
+(
+jsval
+*
+)
 JS_realloc
 (
 cx
