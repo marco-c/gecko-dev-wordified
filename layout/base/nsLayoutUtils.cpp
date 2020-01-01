@@ -10997,6 +10997,8 @@ aStartInx
 +
 aBaseInx
 ;
+aTextWidth
+=
 aRendContext
 -
 >
@@ -11004,7 +11006,6 @@ GetWidth
 (
 aText
 aIndex
-aTextWidth
 )
 ;
 return
@@ -11054,8 +11055,6 @@ inx
 PRInt32
 textWidth
 =
-0
-;
 aRendContext
 -
 >
@@ -11063,7 +11062,6 @@ GetWidth
 (
 aText
 inx
-textWidth
 )
 ;
 PRInt32
@@ -18086,9 +18084,7 @@ SetTextRunRTL
 PR_FALSE
 )
 ;
-nscoord
-width
-;
+return
 aContext
 -
 >
@@ -18096,11 +18092,7 @@ GetWidth
 (
 aString
 aLength
-width
 )
-;
-return
-width
 ;
 }
 /

@@ -6096,9 +6096,6 @@ totalWidth
 =
 0
 ;
-nscoord
-spaceWidth
-;
 aContext
 .
 SetTextRunRTL
@@ -6106,13 +6103,15 @@ SetTextRunRTL
 PR_FALSE
 )
 ;
+nscoord
+spaceWidth
+=
 aContext
 .
 GetWidth
 (
 '
 '
-spaceWidth
 )
 ;
 aMaxFit

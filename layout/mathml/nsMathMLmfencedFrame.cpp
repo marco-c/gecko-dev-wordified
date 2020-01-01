@@ -3157,7 +3157,7 @@ data
 ;
 nsBoundingMetrics
 metrics
-;
+=
 aRenderingContext
 .
 GetBoundingMetrics
@@ -3172,7 +3172,6 @@ data
 Length
 (
 )
-metrics
 )
 ;
 charSize
