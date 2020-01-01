@@ -1762,7 +1762,7 @@ number
 *
 /
 static
-double
+nsresult
 evaluateToNumber
 (
 Expr
@@ -1771,6 +1771,9 @@ aExpr
 txIEvalContext
 *
 aContext
+double
+*
+aResult
 )
 ;
 /
