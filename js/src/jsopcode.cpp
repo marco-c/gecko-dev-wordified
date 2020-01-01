@@ -13686,9 +13686,6 @@ JSOP_GETELEM
 ;
 break
 ;
-#
-if
-JS_HAS_LVALUE_RETURN
 case
 JSOP_SETCALL
 :
@@ -13698,8 +13695,6 @@ JSOP_CALL
 ;
 break
 ;
-#
-endif
 case
 JSOP_GETTHISPROP
 :
@@ -23417,14 +23412,9 @@ JSOP_EVAL
 case
 JSOP_APPLY
 :
-#
-if
-JS_HAS_LVALUE_RETURN
 case
 JSOP_SETCALL
 :
-#
-endif
 argc
 =
 GET_ARGC
@@ -23889,9 +23879,6 @@ ok
 return
 NULL
 ;
-#
-if
-JS_HAS_LVALUE_RETURN
 if
 (
 op
@@ -23927,8 +23914,6 @@ sprinter
 )
 ;
 }
-#
-endif
 break
 ;
 case

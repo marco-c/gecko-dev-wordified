@@ -22212,9 +22212,6 @@ JSOP_SETNAME
 ;
 break
 ;
-#
-if
-JS_HAS_LVALUE_RETURN
 case
 TOK_LP
 :
@@ -22234,8 +22231,6 @@ JS_FALSE
 ;
 break
 ;
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT
@@ -29618,9 +29613,6 @@ TOK_RC
 &
 #
 endif
-#
-if
-JS_HAS_LVALUE_RETURN
 pn1
 -
 >
@@ -29630,8 +29622,6 @@ pn_type
 TOK_LP
 &
 &
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT
@@ -30283,9 +30273,6 @@ pn2
 =
 pn1
 ;
-#
-if
-JS_HAS_LVALUE_RETURN
 if
 (
 pn2
@@ -30311,8 +30298,6 @@ return
 NULL
 ;
 }
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT
@@ -37308,9 +37293,6 @@ pn_type
 TOK_DOT
 &
 &
-#
-if
-JS_HAS_LVALUE_RETURN
 (
 kid
 -
@@ -37351,8 +37333,6 @@ JSOP_APPLY
 )
 &
 &
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT
@@ -37559,9 +37539,6 @@ JSOP_PROPDEC
 ;
 break
 ;
-#
-if
-JS_HAS_LVALUE_RETURN
 case
 TOK_LP
 :
@@ -37585,8 +37562,6 @@ FALL
 THROUGH
 *
 /
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT

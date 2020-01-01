@@ -86662,7 +86662,7 @@ n
 )
 \
 JS_REQUIRES_STACK
-bool
+JSRecordingStatus
 \
 TraceRecorder
 :
@@ -86686,7 +86686,7 @@ n
 ;
 \
 return
-false
+JSRS_STOP
 ;
 \
 }
