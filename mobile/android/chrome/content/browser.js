@@ -18987,6 +18987,8 @@ BrowserApp
 getTabForWindow
 (
 aSubject
+.
+top
 )
 ;
 if
