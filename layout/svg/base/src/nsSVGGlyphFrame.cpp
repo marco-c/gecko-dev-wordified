@@ -3952,7 +3952,7 @@ SetInitialMatrix
 tmpCtx
 )
 ;
-AddCharactersToPath
+AddBoundingBoxesToPath
 (
 &
 iter
