@@ -2301,6 +2301,7 @@ PlacesUIUtils
 openContainerNodeInTabs
 (
 selectedNode
+aEvent
 )
 ;
 }
