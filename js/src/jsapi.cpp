@@ -24785,7 +24785,6 @@ native
 call
 ;
 }
-static
 JSBool
 js_generic_native_method_dispatcher
 (
