@@ -1245,7 +1245,7 @@ data
 >
 mStringArray
 .
-AppendString
+AppendElement
 (
 aFontFamily
 -
