@@ -1500,6 +1500,9 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsISupportsWeakReference
 )
+#
+ifdef
+MOZ_XUL
 NS_INTERFACE_MAP_ENTRY
 (
 nsIAutoCompleteSearch
@@ -1508,6 +1511,8 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIAutoCompleteSimpleResultListener
 )
+#
+endif
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
@@ -2393,6 +2398,9 @@ rv
 ;
 #
 endif
+#
+ifdef
+MOZ_XUL
 rv
 =
 InitAutoComplete
@@ -2405,6 +2413,8 @@ rv
 rv
 )
 ;
+#
+endif
 /
 /
 extract
@@ -9621,6 +9631,9 @@ mExpireSites
 =
 EXPIRATION_CAP_SITES
 ;
+#
+ifdef
+MOZ_XUL
 PRBool
 oldCompleteOnlyTyped
 =
@@ -9670,6 +9683,8 @@ rv
 )
 ;
 }
+#
+endif
 return
 NS_OK
 ;

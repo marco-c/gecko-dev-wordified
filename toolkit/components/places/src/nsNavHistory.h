@@ -501,6 +501,9 @@ nsINavHistoryService
 h
 "
 #
+ifdef
+MOZ_XUL
+#
 include
 "
 nsIAutoCompleteSearch
@@ -521,6 +524,8 @@ nsIAutoCompleteSimpleResult
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -613,6 +618,9 @@ nsITimer
 h
 "
 #
+ifdef
+MOZ_XUL
+#
 include
 "
 nsITreeSelection
@@ -626,6 +634,8 @@ nsITreeView
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -852,10 +862,15 @@ public
 nsIGlobalHistory3
 public
 nsIDownloadHistory
+#
+ifdef
+MOZ_XUL
 public
 nsIAutoCompleteSearch
 public
 nsIAutoCompleteSimpleResultListener
+#
+endif
 {
 friend
 class
@@ -878,8 +893,13 @@ NS_DECL_NSIGLOBALHISTORY3
 NS_DECL_NSIDOWNLOADHISTORY
 NS_DECL_NSIBROWSERHISTORY
 NS_DECL_NSIOBSERVER
+#
+ifdef
+MOZ_XUL
 NS_DECL_NSIAUTOCOMPLETESEARCH
 NS_DECL_NSIAUTOCOMPLETESIMPLERESULTLISTENER
+#
+endif
 nsresult
 Init
 (
@@ -3452,6 +3472,9 @@ mAutoCompleteTimer
 nsString
 mCurrentSearchString
 ;
+#
+ifdef
+MOZ_XUL
 nsCOMPtr
 <
 nsIAutoCompleteObserver
@@ -3464,6 +3487,8 @@ nsIAutoCompleteSimpleResult
 >
 mCurrentResult
 ;
+#
+endif
 nsDataHashtable
 <
 nsStringHashKey
