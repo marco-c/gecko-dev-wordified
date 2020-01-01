@@ -7381,7 +7381,7 @@ ascent
 ;
 bulletSize
 =
-PR_MAX
+NS_MAX
 (
 nsPresContext
 :

@@ -2209,7 +2209,7 @@ aType
 ;
 }
 return
-PR_MAX
+NS_MAX
 (
 legendWidth
 contentWidth
@@ -3074,7 +3074,7 @@ kidReflowState
 .
 SetComputedHeight
 (
-PR_MAX
+NS_MAX
 (
 0
 aReflowState
@@ -3092,7 +3092,7 @@ kidReflowState
 .
 mComputedMinHeight
 =
-PR_MAX
+NS_MAX
 (
 0
 aReflowState
@@ -3116,7 +3116,7 @@ kidReflowState
 .
 mComputedMaxHeight
 =
-PR_MAX
+NS_MAX
 (
 0
 aReflowState

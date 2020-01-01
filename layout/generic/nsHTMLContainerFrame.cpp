@@ -1360,7 +1360,7 @@ aDirtyRect
 {
 mBlurRadius
 =
-PR_MAX
+NS_MAX
 (
 mBlurRadius
 0

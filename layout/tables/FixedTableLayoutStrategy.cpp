@@ -2540,7 +2540,7 @@ tableWidth
 nscoord
 reduce
 =
-PR_MIN
+NS_MIN
 (
 pctUsed
 -

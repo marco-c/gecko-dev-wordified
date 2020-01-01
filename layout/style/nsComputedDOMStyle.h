@@ -2826,7 +2826,7 @@ passed
 in
 will
 be
-PR_MAX
+NS_MAX
 of
 the
 value
@@ -2834,7 +2834,7 @@ in
 aMinAppUnits
 and
 the
-PR_MIN
+NS_MIN
 of
 *
 the

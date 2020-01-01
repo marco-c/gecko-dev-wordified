@@ -12401,7 +12401,7 @@ mFont
 .
 size
 =
-PR_MAX
+NS_MAX
 (
 fontData
 -
@@ -15808,7 +15808,7 @@ aUnconstrainedSize
 =
 NSToCoordRound
 (
-PR_MIN
+NS_MIN
 (
 aParentFont
 -
@@ -15816,7 +15816,10 @@ aParentFont
 mScriptUnconstrainedSize
 *
 scriptLevelScale
+double
+(
 nscoord_MAX
+)
 )
 )
 ;
@@ -15836,7 +15839,7 @@ scriptLevelSize
 =
 NSToCoordRound
 (
-PR_MIN
+NS_MIN
 (
 aParentFont
 -
@@ -15844,7 +15847,10 @@ aParentFont
 mSize
 *
 scriptLevelScale
+double
+(
 nscoord_MAX
+)
 )
 )
 ;
@@ -15923,7 +15929,7 @@ constraint
 #
 1
 return
-PR_MAX
+NS_MAX
 (
 minScriptSize
 scriptLevelSize
@@ -15968,10 +15974,10 @@ constraint
 #
 2
 return
-PR_MIN
+NS_MIN
 (
 scriptLevelSize
-PR_MAX
+NS_MAX
 (
 *
 aUnconstrainedSize
@@ -17420,7 +17426,7 @@ systemFont
 .
 size
 =
-PR_MAX
+NS_MAX
 (
 defaultVariableFont
 -
@@ -37009,13 +37015,13 @@ column
 >
 mColumnCount
 =
-PR_MIN
+NS_MIN
 (
 column
 -
 >
 mColumnCount
-1000
+1000U
 )
 ;
 }

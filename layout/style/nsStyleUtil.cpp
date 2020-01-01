@@ -2688,7 +2688,7 @@ by
 1px
 smallerSize
 =
-PR_MAX
+NS_MAX
 (
 aFontSize
 -

@@ -1611,7 +1611,7 @@ kMinBidiIndicatorPixels
 ;
 bidiIndicatorSize
 =
-PR_MAX
+NS_MAX
 (
 caretWidth
 bidiIndicatorSize
@@ -5943,10 +5943,10 @@ levelBefore
 {
 aBidiLevel
 =
-PR_MAX
+NS_MAX
 (
 aBidiLevel
-PR_MIN
+NS_MIN
 (
 levelBefore
 levelAfter
@@ -5959,10 +5959,10 @@ rule
 c3
 aBidiLevel
 =
-PR_MIN
+NS_MIN
 (
 aBidiLevel
-PR_MAX
+NS_MAX
 (
 levelBefore
 levelAfter

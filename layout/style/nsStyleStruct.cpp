@@ -7601,10 +7601,13 @@ parsing
 ;
 pixelValue
 =
-PR_MIN
+NS_MIN
 (
 pixelValue
+double
+(
 PR_INT32_MAX
+)
 )
 ;
 /
@@ -8545,7 +8548,7 @@ memory
 ;
 mAttachmentCount
 =
-PR_MAX
+NS_MAX
 (
 mAttachmentCount
 count
@@ -8553,7 +8556,7 @@ count
 ;
 mClipCount
 =
-PR_MAX
+NS_MAX
 (
 mClipCount
 count
@@ -8561,7 +8564,7 @@ count
 ;
 mOriginCount
 =
-PR_MAX
+NS_MAX
 (
 mOriginCount
 count
@@ -8569,7 +8572,7 @@ count
 ;
 mRepeatCount
 =
-PR_MAX
+NS_MAX
 (
 mRepeatCount
 count
@@ -8577,7 +8580,7 @@ count
 ;
 mPositionCount
 =
-PR_MAX
+NS_MAX
 (
 mPositionCount
 count
@@ -8585,7 +8588,7 @@ count
 ;
 mImageCount
 =
-PR_MAX
+NS_MAX
 (
 mImageCount
 count
@@ -8593,7 +8596,7 @@ count
 ;
 mSizeCount
 =
-PR_MAX
+NS_MAX
 (
 mSizeCount
 count

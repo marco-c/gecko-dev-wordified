@@ -3442,7 +3442,7 @@ kidReflowState
 .
 SetComputedWidth
 (
-PR_MAX
+NS_MAX
 (
 kidReflowState
 .
@@ -4493,7 +4493,7 @@ nscoord_MAX
 ;
 displayWidth
 =
-PR_MAX
+NS_MAX
 (
 dropdownContentWidth
 displayWidth

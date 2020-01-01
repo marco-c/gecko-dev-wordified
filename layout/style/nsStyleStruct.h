@@ -631,6 +631,13 @@ nsStyleTransformMatrix
 .
 h
 "
+#
+include
+"
+nsAlgorithm
+.
+h
+"
 class
 nsIFrame
 ;
@@ -4123,7 +4130,7 @@ l
 ?
 0
 :
-PR_MAX
+NS_MAX
 (
 (
 tpp
@@ -4211,7 +4218,7 @@ l
 0
 )
 ?
-PR_MAX
+NS_MAX
 (
 (
 tpp
@@ -4240,7 +4247,7 @@ tpp
 )
 :
 \
-PR_MIN
+NS_MIN
 (
 -
 (

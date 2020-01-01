@@ -18978,10 +18978,10 @@ aValue
 >
 SetAppUnits
 (
-PR_MAX
+NS_MAX
 (
 aMinAppUnits
-PR_MIN
+NS_MIN
 (
 val
 aMaxAppUnits
@@ -19043,10 +19043,10 @@ aValue
 >
 SetAppUnits
 (
-PR_MAX
+NS_MAX
 (
 aMinAppUnits
-PR_MIN
+NS_MIN
 (
 val
 aMaxAppUnits

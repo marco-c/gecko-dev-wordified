@@ -1506,7 +1506,7 @@ size
 here
 max
 =
-PR_MAX
+NS_MAX
 (
 min
 max

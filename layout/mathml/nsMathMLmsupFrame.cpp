@@ -929,7 +929,7 @@ CSSPixelsToAppUnits
 ;
 aScriptSpace
 =
-PR_MAX
+NS_MAX
 (
 onePixel
 aScriptSpace
@@ -1358,7 +1358,7 @@ supScriptShift1
 ;
 supScriptShift1
 =
-PR_MAX
+NS_MAX
 (
 supScriptShift1
 aUserSupScriptShift
@@ -1529,10 +1529,10 @@ TeXbook
 nscoord
 actualSupScriptShift
 =
-PR_MAX
+NS_MAX
 (
 minSupScriptShift
-PR_MAX
+NS_MAX
 (
 supScriptShift
 minShiftFromXHeight
@@ -1550,7 +1550,7 @@ boundingMetrics
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -1568,7 +1568,7 @@ boundingMetrics
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -1694,7 +1694,7 @@ aDesiredSize
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 baseSize
 .
@@ -1716,7 +1716,7 @@ aDesiredSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 baseSize
 .

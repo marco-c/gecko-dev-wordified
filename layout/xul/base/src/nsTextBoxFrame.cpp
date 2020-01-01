@@ -3229,7 +3229,7 @@ mYOffset
 nscoord
 blurRadius
 =
-PR_MAX
+NS_MAX
 (
 aShadowDetails
 -

@@ -3244,7 +3244,7 @@ iwt
 ;
 maxWidth
 =
-PR_MAX
+NS_MAX
 (
 maxWidth
 capPref
@@ -3939,7 +3939,7 @@ NS_STYLE_CAPTION_SIDE_LEFT
 :
 aWidth
 =
-PR_MAX
+NS_MAX
 (
 aInnerMargin
 .
@@ -3968,7 +3968,7 @@ NS_STYLE_CAPTION_SIDE_RIGHT
 :
 aWidth
 =
-PR_MAX
+NS_MAX
 (
 aInnerMargin
 .
@@ -4008,7 +4008,7 @@ right
 ;
 aWidth
 =
-PR_MAX
+NS_MAX
 (
 aWidth
 captionRect
@@ -4045,7 +4045,7 @@ aCaptionSide
 {
 aHeight
 =
-PR_MAX
+NS_MAX
 (
 aHeight
 captionRect
@@ -4064,7 +4064,7 @@ else
 {
 aHeight
 =
-PR_MAX
+NS_MAX
 (
 aHeight
 captionRect
@@ -5080,7 +5080,7 @@ aOrigin
 .
 y
 =
-PR_MAX
+NS_MAX
 (
 0
 aInnerMargin
@@ -5111,7 +5111,7 @@ aOrigin
 .
 y
 =
-PR_MAX
+NS_MAX
 (
 0
 aInnerMargin
@@ -5536,7 +5536,7 @@ aInnerMargin
 .
 right
 =
-PR_MAX
+NS_MAX
 (
 0
 aInnerMargin
@@ -5676,7 +5676,7 @@ aOrigin
 .
 y
 =
-PR_MAX
+NS_MAX
 (
 aInnerMargin
 .
@@ -5703,7 +5703,7 @@ aOrigin
 .
 y
 =
-PR_MAX
+NS_MAX
 (
 aInnerMargin
 .

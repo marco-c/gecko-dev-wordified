@@ -3883,7 +3883,7 @@ aRoundedRect
 nscoord
 xDiff
 =
-PR_MAX
+NS_MAX
 (
 aRadii
 [
@@ -3907,7 +3907,7 @@ rectFullHeight
 width
 -
 =
-PR_MAX
+NS_MAX
 (
 aRadii
 [
@@ -3941,7 +3941,7 @@ aRoundedRect
 nscoord
 yDiff
 =
-PR_MAX
+NS_MAX
 (
 aRadii
 [
@@ -3965,7 +3965,7 @@ rectFullWidth
 height
 -
 =
-PR_MAX
+NS_MAX
 (
 aRadii
 [

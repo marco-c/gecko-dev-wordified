@@ -1710,7 +1710,7 @@ length
 ;
 mRunLength
 =
-PR_MIN
+NS_MIN
 (
 length
 mRemainingLength

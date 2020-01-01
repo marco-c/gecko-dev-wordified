@@ -995,7 +995,7 @@ w
 }
 prefCoord
 =
-PR_MAX
+NS_MAX
 (
 w
 minCoord

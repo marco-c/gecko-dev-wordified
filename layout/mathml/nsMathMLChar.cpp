@@ -8718,7 +8718,7 @@ NS_STRETCH_LARGEOP
 float
 c
 =
-PR_MAX
+NS_MAX
 (
 float
 (
@@ -14166,7 +14166,7 @@ NS_STRETCH_MAXWIDTH
 )
 ;
 return
-PR_MAX
+NS_MAX
 (
 bm
 .
@@ -14176,7 +14176,7 @@ bm
 rightBearing
 )
 -
-PR_MIN
+NS_MIN
 (
 0
 bm
@@ -18330,7 +18330,7 @@ character
 nscoord
 dy
 =
-PR_MAX
+NS_MAX
 (
 end
 [
@@ -18344,7 +18344,7 @@ y
 nscoord
 fillEnd
 =
-PR_MIN
+NS_MIN
 (
 start
 [
@@ -18421,7 +18421,7 @@ clipRect
 .
 height
 =
-PR_MIN
+NS_MIN
 (
 bm
 .
@@ -20164,7 +20164,7 @@ character
 nscoord
 dx
 =
-PR_MAX
+NS_MAX
 (
 end
 [
@@ -20178,7 +20178,7 @@ x
 nscoord
 fillEnd
 =
-PR_MIN
+NS_MIN
 (
 start
 [
@@ -20260,7 +20260,7 @@ clipRect
 .
 width
 =
-PR_MIN
+NS_MIN
 (
 bm
 .

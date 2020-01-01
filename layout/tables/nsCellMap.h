@@ -471,6 +471,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsAlgorithm
+.
+h
+"
+#
 undef
 DEBUG_TABLE_CELLMAP
 class
@@ -3554,7 +3561,7 @@ Length
 ;
 mCurMapRelevantRowCount
 =
-PR_MIN
+NS_MIN
 (
 mCurMapContentRowCount
 rowArrayLength

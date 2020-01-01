@@ -3445,7 +3445,7 @@ height
 height
 +
 =
-PR_MAX
+NS_MAX
 (
 0
 totalHeight
@@ -12838,7 +12838,7 @@ mNumDisplayRows
 ;
 extraHeight
 =
-PR_MAX
+NS_MAX
 (
 aHeightOfARow
 labelHeight

@@ -3974,7 +3974,7 @@ isPaginated
 {
 nonPctHeight
 =
-PR_MAX
+NS_MAX
 (
 nonPctHeight
 rowFrame
@@ -4050,7 +4050,7 @@ HasStyleHeight
 ;
 nonPctHeight
 =
-PR_MAX
+NS_MAX
 (
 nonPctHeight
 rowFrame
@@ -4937,7 +4937,7 @@ percent
 ;
 extraForRow
 =
-PR_MIN
+NS_MIN
 (
 extraForRow
 extra
@@ -5151,7 +5151,7 @@ percent
 ;
 extraForRow
 =
-PR_MIN
+NS_MIN
 (
 extraForRow
 extra
@@ -5361,7 +5361,7 @@ height
 ;
 rowExtra
 =
-PR_MIN
+NS_MIN
 (
 rowExtra
 extra
@@ -5609,7 +5609,7 @@ percent
 ;
 extraForRow
 =
-PR_MIN
+NS_MIN
 (
 extraForRow
 extraComputedHeight
@@ -6862,7 +6862,7 @@ status
 ;
 aDesiredHeight
 =
-PR_MAX
+NS_MAX
 (
 aDesiredHeight
 rowPos
@@ -7730,7 +7730,7 @@ nsSize
 availSize
 (
 availWidth
-PR_MAX
+NS_MAX
 (
 availHeight
 -
@@ -7760,7 +7760,7 @@ availSize
 .
 height
 =
-PR_MIN
+NS_MIN
 (
 availSize
 .
@@ -8920,7 +8920,7 @@ aDesiredSize
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 aDesiredSize
 .
@@ -10630,7 +10630,7 @@ NS_UNCONSTRAINEDSIZE
 nscoord
 cellSpacing
 =
-PR_MAX
+NS_MAX
 (
 0
 GetRowCount
@@ -10736,7 +10736,7 @@ NS_UNCONSTRAINEDSIZE
 nscoord
 cellSpacing
 =
-PR_MAX
+NS_MAX
 (
 0
 tableFrame
@@ -12737,7 +12737,7 @@ height
 ;
 mOverflowAbove
 =
-PR_MAX
+NS_MAX
 (
 mOverflowAbove
 overflowAbove
@@ -12745,7 +12745,7 @@ overflowAbove
 ;
 mOverflowBelow
 =
-PR_MAX
+NS_MAX
 (
 mOverflowBelow
 overflowBelow

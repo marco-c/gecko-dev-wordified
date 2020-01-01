@@ -576,6 +576,13 @@ nsFrameList
 .
 h
 "
+#
+include
+"
+nsAlgorithm
+.
+h
+"
 /
 *
 *
@@ -8071,7 +8078,7 @@ StartOffset
 )
 {
 return
-PR_MIN
+NS_MIN
 (
 offset
 secondaryOffset
@@ -8084,7 +8091,7 @@ EndOffset
 )
 {
 return
-PR_MAX
+NS_MAX
 (
 offset
 secondaryOffset

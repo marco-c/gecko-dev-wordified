@@ -2025,7 +2025,7 @@ relevant
 padding
 extraleft
 =
-PR_MIN
+NS_MIN
 (
 extraleft
 aReflowState
@@ -2037,7 +2037,7 @@ left
 ;
 extraright
 =
-PR_MIN
+NS_MIN
 (
 extraright
 aReflowState
@@ -2066,7 +2066,7 @@ availSize
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 availSize
 .
@@ -2144,7 +2144,7 @@ TopBottom
 ;
 minInternalHeight
 =
-PR_MAX
+NS_MAX
 (
 minInternalHeight
 0

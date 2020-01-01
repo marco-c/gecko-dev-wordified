@@ -13596,7 +13596,7 @@ mPrt
 >
 mShrinkRatio
 =
-PR_MAX
+NS_MAX
 (
 mPrt
 -
@@ -18868,7 +18868,7 @@ startRect
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 startRect
@@ -18917,7 +18917,7 @@ endRect
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 endRect

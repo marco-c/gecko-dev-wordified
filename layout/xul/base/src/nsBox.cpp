@@ -5227,7 +5227,7 @@ aMaxSize
 return
 nsSize
 (
-PR_MAX
+NS_MAX
 (
 aMaxSize
 .
@@ -5236,7 +5236,7 @@ aMinSize
 .
 width
 )
-PR_MAX
+NS_MAX
 (
 aMaxSize
 .

@@ -5374,7 +5374,7 @@ rowspan
 ;
 rowspan
 =
-PR_MIN
+NS_MIN
 (
 rowspan
 MAX_ROWSPAN

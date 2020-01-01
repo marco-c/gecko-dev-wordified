@@ -2730,7 +2730,7 @@ bmBase
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 bmOne
 .
@@ -2744,7 +2744,7 @@ bmBase
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 0
 bmBase
@@ -2950,7 +2950,7 @@ width
 ;
 dx_left
 =
-PR_MAX
+NS_MAX
 (
 dx_left
 padding2
@@ -2958,7 +2958,7 @@ padding2
 ;
 dx_right
 =
-PR_MAX
+NS_MAX
 (
 dx_right
 padding2
@@ -2987,7 +2987,7 @@ mBoundingMetrics
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3003,7 +3003,7 @@ mBoundingMetrics
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3072,7 +3072,7 @@ horizontal
 parameters
 dx_left
 =
-PR_MAX
+NS_MAX
 (
 dx_left
 longdiv_width
@@ -3176,7 +3176,7 @@ horizontal
 parameters
 dx_left
 =
-PR_MAX
+NS_MAX
 (
 dx_left
 bmLongdivChar
@@ -3201,7 +3201,7 @@ mRuleThickness
 ;
 longdivDescent
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -3223,7 +3223,7 @@ mBoundingMetrics
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3235,7 +3235,7 @@ mBoundingMetrics
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3301,7 +3301,7 @@ horizontal
 parameters
 dx_left
 =
-PR_MAX
+NS_MAX
 (
 dx_left
 radical_width
@@ -3406,7 +3406,7 @@ horizontal
 parameters
 dx_left
 =
-PR_MAX
+NS_MAX
 (
 dx_left
 bmRadicalChar
@@ -3431,7 +3431,7 @@ mRuleThickness
 ;
 radicalDescent
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -3453,7 +3453,7 @@ mBoundingMetrics
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3465,7 +3465,7 @@ mBoundingMetrics
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3535,7 +3535,7 @@ dx_left
 =
 dx_right
 =
-PR_MAX
+NS_MAX
 (
 dx_left
 dx_right
@@ -3586,7 +3586,7 @@ mBoundingMetrics
 .
 leftBearing
 =
-PR_MIN
+NS_MIN
 (
 0
 dx_left
@@ -3600,7 +3600,7 @@ mBoundingMetrics
 .
 rightBearing
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3624,7 +3624,7 @@ aDesiredSize
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3642,7 +3642,7 @@ aDesiredSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3744,7 +3744,7 @@ NOTATION_LONGDIV
 {
 desiredSizeAscent
 =
-PR_MAX
+NS_MAX
 (
 desiredSizeAscent
 longdivAscent
@@ -3754,7 +3754,7 @@ leading
 ;
 desiredSizeDescent
 =
-PR_MAX
+NS_MAX
 (
 desiredSizeDescent
 longdivDescent
@@ -3773,7 +3773,7 @@ NOTATION_RADICAL
 {
 desiredSizeAscent
 =
-PR_MAX
+NS_MAX
 (
 desiredSizeAscent
 radicalAscent
@@ -3783,7 +3783,7 @@ leading
 ;
 desiredSizeDescent
 =
-PR_MAX
+NS_MAX
 (
 desiredSizeDescent
 radicalDescent
@@ -3849,7 +3849,7 @@ vertically
 nscoord
 dy
 =
-PR_MAX
+NS_MAX
 (
 aDesiredSize
 .

@@ -470,6 +470,13 @@ h
 "
 #
 include
+"
+nsAlgorithm
+.
+h
+"
+#
+include
 NEW_H
 nsIntervalSet
 :
@@ -741,7 +748,7 @@ newInterval
 >
 mBegin
 =
-PR_MIN
+NS_MIN
 (
 newInterval
 -
@@ -758,7 +765,7 @@ newInterval
 >
 mEnd
 =
-PR_MAX
+NS_MAX
 (
 newInterval
 -

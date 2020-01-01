@@ -1571,7 +1571,7 @@ charnum
 PRUint32
 fragmentChars
 =
-PR_MIN
+NS_MIN
 (
 nchars
 count
@@ -1612,7 +1612,7 @@ break
 charnum
 -
 =
-PR_MIN
+NS_MIN
 (
 charnum
 count

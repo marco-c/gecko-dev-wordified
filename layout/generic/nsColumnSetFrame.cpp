@@ -1952,7 +1952,7 @@ mComputedBorderPadding
 right
 ;
 return
-PR_MAX
+NS_MAX
 (
 0
 aReflowState
@@ -2003,7 +2003,7 @@ mComputedBorderPadding
 bottom
 ;
 return
-PR_MAX
+NS_MAX
 (
 0
 aReflowState
@@ -2349,10 +2349,10 @@ colWidth
 ;
 numColumns
 =
-PR_MAX
+NS_MAX
 (
 1
-PR_MIN
+NS_MIN
 (
 numColumns
 maxColumns
@@ -2427,10 +2427,10 @@ too
 wide
 colWidth
 =
-PR_MAX
+NS_MAX
 (
 1
-PR_MIN
+NS_MIN
 (
 colWidth
 availContentWidth
@@ -2567,7 +2567,7 @@ columns
 nscoord
 extraSpace
 =
-PR_MAX
+NS_MAX
 (
 0
 availContentWidth
@@ -2699,7 +2699,7 @@ numColumns
 }
 colHeight
 =
-PR_MIN
+NS_MIN
 (
 mLastBalanceHeight
 GetAvailableContentHeight
@@ -3066,7 +3066,7 @@ width
 .
 width
 =
-PR_MIN
+NS_MIN
 (
 width
 colWidth
@@ -3161,7 +3161,7 @@ overflow
 /
 so
 use
-PR_MAX
+NS_MAX
 to
 protect
 against
@@ -3169,7 +3169,7 @@ that
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 width
 colWidth
@@ -3423,7 +3423,7 @@ overflow
 /
 so
 use
-PR_MAX
+NS_MAX
 to
 protect
 against
@@ -3431,7 +3431,7 @@ that
 .
 result
 =
-PR_MAX
+NS_MAX
 (
 width
 colWidth
@@ -4864,7 +4864,7 @@ aColData
 .
 mMaxOverflowingHeight
 =
-PR_MAX
+NS_MAX
 (
 childContentBottom
 aColData
@@ -4895,7 +4895,7 @@ child
 ;
 contentBottom
 =
-PR_MAX
+NS_MAX
 (
 contentBottom
 childContentBottom
@@ -5838,7 +5838,7 @@ contentRect
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 contentRect
 .
@@ -5943,7 +5943,7 @@ contentSize
 .
 height
 =
-PR_MIN
+NS_MIN
 (
 aReflowState
 .
@@ -5968,7 +5968,7 @@ contentSize
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 aReflowState
 .
@@ -6019,7 +6019,7 @@ contentSize
 .
 width
 =
-PR_MIN
+NS_MIN
 (
 aReflowState
 .
@@ -6044,7 +6044,7 @@ contentSize
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 aReflowState
 .
@@ -6782,7 +6782,7 @@ feasible
 .
 knownFeasibleHeight
 =
-PR_MIN
+NS_MIN
 (
 knownFeasibleHeight
 colData
@@ -6792,7 +6792,7 @@ mMaxHeight
 ;
 knownFeasibleHeight
 =
-PR_MIN
+NS_MIN
 (
 knownFeasibleHeight
 mLastBalanceHeight
@@ -6873,7 +6873,7 @@ mBalanceColCount
 {
 knownInfeasibleHeight
 =
-PR_MAX
+NS_MAX
 (
 knownInfeasibleHeight
 colData
@@ -6889,7 +6889,7 @@ else
 {
 knownInfeasibleHeight
 =
-PR_MAX
+NS_MAX
 (
 knownInfeasibleHeight
 mLastBalanceHeight
@@ -6938,7 +6938,7 @@ feasible
 .
 knownInfeasibleHeight
 =
-PR_MAX
+NS_MAX
 (
 knownInfeasibleHeight
 colData
@@ -6975,7 +6975,7 @@ feasible
 .
 knownFeasibleHeight
 =
-PR_MIN
+NS_MIN
 (
 knownFeasibleHeight
 colData
@@ -7249,9 +7249,9 @@ Sanitize
 it
 nextGuess
 =
-PR_MIN
+NS_MIN
 (
-PR_MAX
+NS_MAX
 (
 nextGuess
 knownInfeasibleHeight
@@ -7343,7 +7343,7 @@ constraint
 .
 nextGuess
 =
-PR_MIN
+NS_MIN
 (
 availableContentHeight
 nextGuess

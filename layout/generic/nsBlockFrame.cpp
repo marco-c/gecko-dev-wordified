@@ -5841,7 +5841,7 @@ cbSize
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 0
 aLastRS
@@ -5885,7 +5885,7 @@ cbSize
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 aLastRS
@@ -8870,7 +8870,7 @@ height
 .
 bottomEdgeOfChildren
 =
-PR_MIN
+NS_MIN
 (
 bottomEdgeOfChildren
 +
@@ -8945,7 +8945,7 @@ NS_STYLE_CLEAR_LEFT_AND_RIGHT
 ;
 bottomEdgeOfChildren
 =
-PR_MAX
+NS_MAX
 (
 bottomEdgeOfChildren
 floatHeight
@@ -9115,7 +9115,7 @@ well
 .
 computedHeightLeftOver
 =
-PR_MAX
+NS_MAX
 (
 0
 computedHeightLeftOver
@@ -9311,7 +9311,7 @@ aMetrics
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 aReflowState
 .
@@ -9404,7 +9404,7 @@ aMetrics
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 aReflowState
 .
@@ -9436,7 +9436,7 @@ aMetrics
 .
 height
 =
-PR_MIN
+NS_MIN
 (
 aMetrics
 .
@@ -9670,7 +9670,7 @@ aMetrics
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 aState
 .
@@ -9798,7 +9798,7 @@ aMetrics
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 aMetrics
@@ -10293,7 +10293,7 @@ area
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 area
 .
@@ -16837,7 +16837,7 @@ aState
 mY
 +
 =
-PR_MAX
+NS_MAX
 (
 minAscent
 metrics
@@ -16845,7 +16845,7 @@ metrics
 ascent
 )
 +
-PR_MAX
+NS_MAX
 (
 minDescent
 metrics
@@ -29799,7 +29799,7 @@ checking
 .
 aAvailableSpaceHeight
 =
-PR_MAX
+NS_MAX
 (
 aAvailableSpaceHeight
 aLine
@@ -39829,7 +39829,7 @@ height
 ?
 NS_UNCONSTRAINEDSIZE
 :
-PR_MAX
+NS_MAX
 (
 0
 aState
@@ -46726,7 +46726,7 @@ other
 out
 and
 the
-PR_MAX
+NS_MAX
 (
 )
 /
@@ -46833,7 +46833,7 @@ position
 .
 x
 =
-PR_MIN
+NS_MIN
 (
 rs
 .
@@ -48431,7 +48431,7 @@ result
 .
 marginLeft
 =
-PR_MIN
+NS_MIN
 (
 tableMargin
 .
@@ -48445,7 +48445,7 @@ result
 .
 marginRight
 =
-PR_MIN
+NS_MIN
 (
 tableMargin
 .

@@ -2568,7 +2568,7 @@ bigOpSpacing5
 ;
 underDelta1
 =
-PR_MAX
+NS_MAX
 (
 bigOpSpacing2
 (
@@ -2719,7 +2719,7 @@ bigOpSpacing5
 ;
 overDelta1
 =
-PR_MAX
+NS_MAX
 (
 bigOpSpacing1
 (
@@ -2795,7 +2795,7 @@ descent
 )
 overDelta1
 =
-PR_MAX
+NS_MAX
 (
 bigOpSpacing1
 (
@@ -3033,7 +3033,7 @@ mBoundingMetrics
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -3113,7 +3113,7 @@ mBoundingMetrics
 .
 leftBearing
 =
-PR_MIN
+NS_MIN
 (
 dxBase
 +
@@ -3131,7 +3131,7 @@ mBoundingMetrics
 .
 rightBearing
 =
-PR_MAX
+NS_MAX
 (
 dxBase
 +
@@ -3238,7 +3238,7 @@ mBoundingMetrics
 nscoord
 ascentAnonymousBase
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3317,7 +3317,7 @@ leftBearing
 nscoord
 maxWidth
 =
-PR_MAX
+NS_MAX
 (
 bmAnonymousBase
 .
@@ -3419,7 +3419,7 @@ mBoundingMetrics
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 dxAnonymousBase
 +
@@ -3437,7 +3437,7 @@ mBoundingMetrics
 .
 leftBearing
 =
-PR_MIN
+NS_MIN
 (
 dxAnonymousBase
 +
@@ -3455,7 +3455,7 @@ mBoundingMetrics
 .
 rightBearing
 =
-PR_MAX
+NS_MAX
 (
 dxAnonymousBase
 +
@@ -3483,7 +3483,7 @@ aDesiredSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .

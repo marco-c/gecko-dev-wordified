@@ -31163,7 +31163,7 @@ hilightStart
 =
 atStart
 ?
-PR_MAX
+NS_MAX
 (
 aRange
 -
@@ -31181,7 +31181,7 @@ hilightEnd
 =
 atEnd
 ?
-PR_MIN
+NS_MIN
 (
 aRange
 -
@@ -31314,7 +31314,7 @@ GetSize
 nscoord
 x
 =
-PR_MIN
+NS_MIN
 (
 startPoint
 .
@@ -31335,7 +31335,7 @@ textRect
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 startPoint
 .
@@ -32339,7 +32339,7 @@ maxWidth
 )
 scale
 =
-PR_MIN
+NS_MIN
 (
 scale
 float
@@ -32362,7 +32362,7 @@ maxHeight
 )
 scale
 =
-PR_MIN
+NS_MIN
 (
 scale
 float
@@ -43274,7 +43274,7 @@ TopBottom
 ;
 computedHeight
 =
-PR_MAX
+NS_MAX
 (
 computedHeight
 0

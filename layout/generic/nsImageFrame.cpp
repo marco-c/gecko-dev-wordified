@@ -5206,7 +5206,7 @@ aMetrics
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 aMetrics
@@ -5392,7 +5392,7 @@ aMetrics
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 nsPresContext
 :

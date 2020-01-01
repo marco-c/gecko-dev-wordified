@@ -2224,7 +2224,7 @@ mBoundingMetrics
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -2272,7 +2272,7 @@ bmSqr
 .
 width
 +
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -2308,7 +2308,7 @@ aDesiredSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 baseSize
 .
@@ -2699,7 +2699,7 @@ mBoundingMetrics
 .
 leftBearing
 =
-PR_MIN
+NS_MIN
 (
 dxIndex
 +
@@ -2719,7 +2719,7 @@ rightBearing
 =
 dx
 +
-PR_MAX
+NS_MAX
 (
 bmBase
 .

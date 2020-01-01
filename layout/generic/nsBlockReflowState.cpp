@@ -1004,7 +1004,7 @@ mContentArea
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 mBottomEdge
@@ -1541,7 +1541,7 @@ x
 ;
 leftOffset
 =
-PR_MAX
+NS_MAX
 (
 leftFloatXOffset
 os
@@ -1568,7 +1568,7 @@ left
 ;
 leftOffset
 =
-PR_MAX
+NS_MAX
 (
 leftOffset
 0
@@ -1596,7 +1596,7 @@ XMost
 ;
 rightOffset
 =
-PR_MAX
+NS_MAX
 (
 rightFloatXOffset
 os
@@ -1623,7 +1623,7 @@ right
 ;
 rightOffset
 =
-PR_MAX
+NS_MAX
 (
 rightOffset
 0
@@ -1746,7 +1746,7 @@ BRS_UNCONSTRAINEDHEIGHT
 ?
 NS_UNCONSTRAINEDSIZE
 :
-PR_MAX
+NS_MAX
 (
 0
 mReflowState
@@ -6897,7 +6897,7 @@ region
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 region
 .
@@ -7771,7 +7771,7 @@ floatAvailableSpace
 mHasFloats
 |
 |
-PR_MAX
+NS_MAX
 (
 floatAvailableSpace
 .
@@ -7787,13 +7787,13 @@ replacedWidth
 .
 borderBoxWidth
 +
-PR_MAX
+NS_MAX
 (
 mContentArea
 .
 width
 -
-PR_MIN
+NS_MIN
 (
 mContentArea
 .

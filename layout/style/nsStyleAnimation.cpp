@@ -3935,7 +3935,7 @@ mFont
 .
 size
 =
-PR_MAX
+NS_MAX
 (
 font
 -

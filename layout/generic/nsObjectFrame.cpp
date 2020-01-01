@@ -4506,9 +4506,9 @@ aMetrics
 .
 width
 =
-PR_MIN
+NS_MIN
 (
-PR_MAX
+NS_MAX
 (
 nsPresContext
 :
@@ -4541,9 +4541,9 @@ aMetrics
 .
 height
 =
-PR_MIN
+NS_MIN
 (
-PR_MAX
+NS_MAX
 (
 nsPresContext
 :
@@ -4624,7 +4624,7 @@ aMetrics
 .
 height
 =
-PR_MIN
+NS_MIN
 (
 aPresContext
 -
@@ -4642,7 +4642,7 @@ aMetrics
 .
 width
 =
-PR_MIN
+NS_MIN
 (
 aPresContext
 -

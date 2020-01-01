@@ -3818,7 +3818,7 @@ from
 top
 kidYTop
 =
-PR_MAX
+NS_MAX
 (
 0
 kidYTop

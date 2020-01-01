@@ -20647,9 +20647,9 @@ defaultWindowBackgroundColor
 ;
 mSufficientContrast
 =
-PR_MIN
+NS_MIN
 (
-PR_MIN
+NS_MIN
 (
 NS_SUFFICIENT_LUMINOSITY_DIFFERENCE
 NS_LUMINOSITY_DIFFERENCE
@@ -27114,7 +27114,7 @@ size
 gfxFloat
 fontSize
 =
-PR_MIN
+NS_MIN
 (
 gfxFloat
 (
@@ -27127,7 +27127,7 @@ emHeight
 ;
 fontSize
 =
-PR_MAX
+NS_MAX
 (
 fontSize
 1
@@ -28867,7 +28867,7 @@ mYOffset
 nscoord
 blurRadius
 =
-PR_MAX
+NS_MAX
 (
 aShadowDetails
 -
@@ -29414,7 +29414,7 @@ sdptr
 PRInt32
 start
 =
-PR_MAX
+NS_MAX
 (
 0
 sdptr
@@ -29428,7 +29428,7 @@ contentOffset
 PRInt32
 end
 =
-PR_MIN
+NS_MIN
 (
 contentLength
 sdptr
@@ -30001,7 +30001,7 @@ aSelectionType
 PRInt32
 start
 =
-PR_MAX
+NS_MAX
 (
 0
 sdptr
@@ -30015,7 +30015,7 @@ contentOffset
 PRInt32
 end
 =
-PR_MIN
+NS_MIN
 (
 contentLength
 sdptr
@@ -32424,7 +32424,7 @@ mType
 ;
 relativeSize
 =
-PR_MAX
+NS_MAX
 (
 relativeSize
 1
@@ -33212,7 +33212,7 @@ GetOriginalLength
 ;
 inOffset
 =
-PR_MAX
+NS_MAX
 (
 inOffset
 trimmedOffset
@@ -33220,7 +33220,7 @@ trimmedOffset
 ;
 inOffset
 =
-PR_MIN
+NS_MIN
 (
 inOffset
 trimmedEnd
@@ -34123,7 +34123,7 @@ for
 (
 i
 =
-PR_MIN
+NS_MIN
 (
 trimmed
 .
@@ -39834,7 +39834,7 @@ letter
 .
 firstLetterLength
 =
-PR_MIN
+NS_MIN
 (
 firstLetterLength
 length
@@ -41750,9 +41750,14 @@ textMetrics
 .
 mAscent
 =
-PR_MAX
+NS_MAX
+(
+gfxFloat
 (
 0
+.
+0
+)
 -
 textMetrics
 .
@@ -41767,9 +41772,14 @@ textMetrics
 .
 mDescent
 =
-PR_MAX
+NS_MAX
+(
+gfxFloat
 (
 0
+.
+0
+)
 textMetrics
 .
 mBoundingBox
@@ -41797,9 +41807,14 @@ width
 =
 NSToCoordCeil
 (
-PR_MAX
+NS_MAX
+(
+gfxFloat
 (
 0
+.
+0
+)
 textMetrics
 .
 mAdvanceWidth
@@ -41952,7 +41967,7 @@ aMetrics
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 NSToCoordCeil
 (
@@ -41966,7 +41981,7 @@ fontAscent
 nscoord
 descent
 =
-PR_MAX
+NS_MAX
 (
 NSToCoordCeil
 (
@@ -45668,7 +45683,7 @@ GetContentOffset
 ;
 aStart
 =
-PR_MAX
+NS_MAX
 (
 aStart
 prevOffset
@@ -45676,7 +45691,7 @@ prevOffset
 ;
 aEnd
 =
-PR_MAX
+NS_MAX
 (
 aEnd
 prevOffset

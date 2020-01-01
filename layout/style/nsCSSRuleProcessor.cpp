@@ -3301,7 +3301,7 @@ mEnumList
 ;
 mEnumListSize
 =
-PR_MAX
+NS_MAX
 (
 testCount
 MIN_ENUM_LIST_SIZE
