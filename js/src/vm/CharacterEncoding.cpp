@@ -989,6 +989,16 @@ len
 1
 )
 ;
+if
+(
+!
+utf8
+)
+return
+UTF8CharsZ
+(
+)
+;
 /
 *
 Encode
