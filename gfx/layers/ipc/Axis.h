@@ -1106,7 +1106,7 @@ relative
 Overscroll
 ScaleWillOverscroll
 (
-float
+ScreenToScreenScale
 aScale
 float
 aFocus
@@ -1190,7 +1190,7 @@ relative
 float
 ScaleWillOverscrollAmount
 (
-float
+ScreenToScreenScale
 aScale
 float
 aFocus
@@ -1251,7 +1251,7 @@ ScaleWillOverscroll
 bool
 ScaleWillOverscrollBothSides
 (
-float
+ScreenToScreenScale
 aScale
 )
 ;

@@ -1733,7 +1733,7 @@ Axis
 :
 ScaleWillOverscroll
 (
-float
+ScreenToScreenScale
 aScale
 float
 aFocus
@@ -1751,6 +1751,8 @@ aFocus
 )
 *
 aScale
+.
+scale
 -
 aFocus
 ;
@@ -1772,6 +1774,8 @@ GetPageStart
 )
 *
 aScale
+.
+scale
 ;
 bool
 plus
@@ -1789,6 +1793,8 @@ GetPageEnd
 )
 *
 aScale
+.
+scale
 ;
 if
 (
@@ -1835,7 +1841,7 @@ Axis
 :
 ScaleWillOverscrollAmount
 (
-float
+ScreenToScreenScale
 aScale
 float
 aFocus
@@ -1853,6 +1859,8 @@ aFocus
 )
 *
 aScale
+.
+scale
 -
 aFocus
 ;
@@ -1876,6 +1884,8 @@ GetPageStart
 )
 *
 aScale
+.
+scale
 ;
 case
 OVERSCROLL_PLUS
@@ -1896,6 +1906,8 @@ GetPageEnd
 )
 *
 aScale
+.
+scale
 )
 ;
 /
@@ -2122,7 +2134,7 @@ Axis
 :
 ScaleWillOverscrollBothSides
 (
-float
+ScreenToScreenScale
 aScale
 )
 {
@@ -2147,17 +2159,12 @@ mScrollableRect
 ;
 CSSToScreenScale
 scale
-(
+=
 metrics
 .
-CalculateResolution
-(
-)
-.
-scale
+mZoom
 *
 aScale
-)
 ;
 CSSIntRect
 cssCompositionBounds

@@ -1511,9 +1511,13 @@ ScrollableLayerGuid
 aGuid
 bool
 aAllowZoom
-float
+const
+CSSToScreenScale
+&
 aMinScale
-float
+const
+CSSToScreenScale
+&
 aMaxScale
 )
 ;
