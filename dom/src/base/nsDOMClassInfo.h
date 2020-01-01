@@ -1776,9 +1776,6 @@ static
 jsval
 sOnpaste_id
 ;
-#
-ifdef
-OJI
 static
 jsval
 sJava_id
@@ -1787,6 +1784,9 @@ static
 jsval
 sPackages_id
 ;
+#
+ifdef
+OJI
 static
 jsval
 sNetscape_id

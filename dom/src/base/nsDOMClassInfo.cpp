@@ -6582,9 +6582,6 @@ sOnpaste_id
 =
 JSVAL_VOID
 ;
-#
-ifdef
-OJI
 jsval
 nsDOMClassInfo
 :
@@ -6601,6 +6598,9 @@ sPackages_id
 =
 JSVAL_VOID
 ;
+#
+ifdef
+OJI
 jsval
 nsDOMClassInfo
 :
@@ -7813,9 +7813,6 @@ onpaste
 "
 )
 ;
-#
-ifdef
-OJI
 SET_JSVAL_TO_STRING
 (
 sJava_id
@@ -7834,6 +7831,9 @@ Packages
 "
 )
 ;
+#
+ifdef
+OJI
 SET_JSVAL_TO_STRING
 (
 sNetscape_id
@@ -16882,9 +16882,6 @@ sOnpaste_id
 =
 JSVAL_VOID
 ;
-#
-ifdef
-OJI
 sJava_id
 =
 JSVAL_VOID
@@ -16893,6 +16890,9 @@ sPackages_id
 =
 JSVAL_VOID
 ;
+#
+ifdef
+OJI
 sNetscape_id
 =
 JSVAL_VOID
@@ -28839,9 +28839,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-OJI
 if
 (
 id
@@ -28854,6 +28851,9 @@ id
 =
 =
 sPackages_id
+#
+ifdef
+OJI
 |
 |
 id
@@ -28890,6 +28890,8 @@ id
 =
 =
 sJavaMember_id
+#
+endif
 )
 {
 static
@@ -29016,8 +29018,6 @@ NS_OK
 }
 }
 }
-#
-endif
 }
 JSObject
 *
