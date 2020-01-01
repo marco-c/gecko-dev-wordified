@@ -9021,7 +9021,7 @@ LIR_orq
 )
 CASE64
 (
-LIR_qxor
+LIR_xorq
 :
 )
 CASESF
@@ -12246,7 +12246,7 @@ LIR_xori
 :
 CASE64
 (
-LIR_qxor
+LIR_xorq
 :
 )
 case
@@ -20755,7 +20755,7 @@ case
 LIR_orq
 :
 case
-LIR_qxor
+LIR_xorq
 :
 case
 LIR_addq
