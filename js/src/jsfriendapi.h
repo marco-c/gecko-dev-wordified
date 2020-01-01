@@ -10098,8 +10098,7 @@ id
 #
 endif
 typedef
-JSObject
-*
+bool
 (
 *
 ObjectMetadataCallback
@@ -10108,6 +10107,10 @@ ObjectMetadataCallback
 JSContext
 *
 cx
+JSObject
+*
+*
+pmetadata
 )
 ;
 /
