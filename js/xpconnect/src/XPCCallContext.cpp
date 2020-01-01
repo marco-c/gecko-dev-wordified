@@ -1887,7 +1887,7 @@ GetJSContextStack
 )
 -
 >
-DEBUG_StackHasJSContext
+HasJSContext
 (
 mJSContext
 )
