@@ -2647,6 +2647,8 @@ self
 :
         
 raise
+Exception
+(
 '
 "
 pure
@@ -2654,6 +2656,7 @@ virtual
 "
 method
 '
+)
     
 def
 mutuallyRecursiveWith
