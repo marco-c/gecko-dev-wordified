@@ -187,6 +187,7 @@ mtransport_test_utils
 h
 "
 MtransportTestUtils
+*
 test_utils
 ;
 static
@@ -1292,7 +1293,8 @@ nsresult
 ret
 ;
 test_utils
-.
+-
+>
 sts_target
 (
 )
@@ -2627,7 +2629,8 @@ nsresult
 ret
 ;
 test_utils
-.
+-
+>
 sts_target
 (
 )
@@ -5640,8 +5643,9 @@ argv
 )
 {
 test_utils
-.
-InitServices
+=
+new
+MtransportTestUtils
 (
 )
 ;
@@ -5724,6 +5728,9 @@ result
 RUN_ALL_TESTS
 (
 )
+;
+delete
+test_utils
 ;
 return
 result
