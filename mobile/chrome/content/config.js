@@ -1653,6 +1653,7 @@ aIndex
 +
 1
 ]
+;
 /
 /
 add
@@ -2567,6 +2568,7 @@ high
 /
 2
 )
+;
 element
 =
 prefs

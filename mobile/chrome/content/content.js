@@ -1160,6 +1160,7 @@ x
 scroll
 .
 x
+;
 y
 =
 y
@@ -2312,6 +2313,7 @@ this
 flush
 (
 )
+;
 }
 dirty
 :
@@ -2415,6 +2417,7 @@ this
 flush
 (
 )
+;
 }
 }
 flush

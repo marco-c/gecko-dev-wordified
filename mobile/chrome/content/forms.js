@@ -1917,6 +1917,7 @@ type
 hidden
 "
 )
+;
 return
 false
 ;
@@ -3354,6 +3355,7 @@ wrapper
 )
 return
 null
+;
 let
 optionIndex
 =
@@ -3978,6 +3980,7 @@ result
 control
 .
 selectedIndex
+;
 return
 (
 (
@@ -4107,6 +4110,7 @@ aChild
 {
 return
 false
+;
 }
 select
 :

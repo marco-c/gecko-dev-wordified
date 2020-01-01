@@ -8942,6 +8942,7 @@ bv
 allowZoom
 )
 return
+null
 ;
 let
 zoomRect
@@ -11440,6 +11441,7 @@ engine
 }
 }
 }
+;
 /
 *
 *
@@ -19227,6 +19229,7 @@ png
 }
 }
 }
+;
 /
 /
 Helper
@@ -19430,6 +19433,7 @@ browser
 contentWindow
 ;
 }
+;
 wrapper
 .
 drawContent
