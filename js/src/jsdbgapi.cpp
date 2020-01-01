@@ -8552,15 +8552,6 @@ cx
 JSObject
 *
 scobj
-;
-JSScript
-*
-script
-;
-JSBool
-ok
-;
-scobj
 =
 JS_GetFrameScopeChain
 (
@@ -8574,7 +8565,7 @@ if
 scobj
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -8632,6 +8623,8 @@ frame
 .
 *
 /
+JSScript
+*
 script
 =
 Compiler
@@ -8657,7 +8650,7 @@ NULL
 UpvarCookie
 :
 :
-MAX_LEVEL
+UPVAR_LEVEL_LIMIT
 )
 ;
 if
@@ -8666,10 +8659,13 @@ if
 script
 )
 return
-JS_FALSE
+false
 ;
+bool
 ok
 =
+!
+!
 Execute
 (
 cx
