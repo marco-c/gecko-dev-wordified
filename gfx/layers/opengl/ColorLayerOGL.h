@@ -154,7 +154,7 @@ aManager
 ColorLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerOGL
 (

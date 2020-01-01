@@ -1646,7 +1646,7 @@ NPOT
 0
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 /
@@ -2869,7 +2869,7 @@ nullptr
 }
 mTarget
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -5863,7 +5863,7 @@ aHeight
 0
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 mGLContext
@@ -6709,7 +6709,7 @@ height
 0
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 }

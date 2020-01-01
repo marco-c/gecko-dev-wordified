@@ -2066,7 +2066,7 @@ GLchar
 )
 &
 aShaderSource
-NULL
+nullptr
 )
 ;
 mGL

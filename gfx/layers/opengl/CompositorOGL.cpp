@@ -3063,7 +3063,7 @@ NPOT
 0
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 /
@@ -6187,7 +6187,7 @@ height
 0
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 }

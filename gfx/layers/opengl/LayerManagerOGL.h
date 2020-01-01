@@ -149,7 +149,7 @@ i
 char
 *
 )
-NULL
+nullptr
 +
 (
 i
@@ -1712,7 +1712,7 @@ mSurfaceSize
 *
 Context
 target
-NULL
+nullptr
 when
 drawing
 directly
