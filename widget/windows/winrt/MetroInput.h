@@ -1358,6 +1358,12 @@ mTouchMoveDefaultPrevented
 bool
 mIsFirstTouchMove
 ;
+bool
+mCancelable
+;
+bool
+mTouchCancelSent
+;
 /
 /
 In
@@ -1994,6 +2000,11 @@ DispatchEventIgnoreStatus
 nsGUIEvent
 *
 aEvent
+)
+;
+void
+DispatchTouchCancel
+(
 )
 ;
 nsDeque
