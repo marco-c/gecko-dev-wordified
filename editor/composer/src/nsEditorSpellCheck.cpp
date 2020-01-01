@@ -1364,7 +1364,7 @@ GetSelectedLocale
 NS_LITERAL_CSTRING
 (
 "
-editor
+global
 "
 )
 utf8DictName
