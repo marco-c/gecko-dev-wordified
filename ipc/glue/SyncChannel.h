@@ -792,6 +792,7 @@ bool
 ProcessingSyncMessage
 (
 )
+const
 {
 return
 mProcessingSyncMessage
@@ -999,6 +1000,7 @@ bool
 AwaitingSyncReply
 (
 )
+const
 {
 mMutex
 .

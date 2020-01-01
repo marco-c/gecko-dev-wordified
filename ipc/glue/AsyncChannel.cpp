@@ -1644,6 +1644,7 @@ Message
 *
 msg
 )
+const
 {
 AssertWorkerThread
 (
@@ -1665,6 +1666,7 @@ Message
 *
 msg
 )
+const
 {
 AssertWorkerThread
 (
@@ -2227,6 +2229,7 @@ char
 *
 channelName
 )
+const
 {
 const
 char

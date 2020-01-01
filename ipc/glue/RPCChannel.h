@@ -1297,6 +1297,7 @@ bool
 ShouldDeferNotifyMaybeError
 (
 )
+const
 {
 return
 IsOnCxxStack
@@ -1308,6 +1309,7 @@ bool
 EventOccurred
 (
 )
+const
 ;
 void
 MaybeProcessDeferredIncall
@@ -1756,6 +1758,7 @@ size_t
 StackDepth
 (
 )
+const
 {
 mMutex
 .
@@ -1801,6 +1804,7 @@ reply
 =
 false
 )
+const
 ;
 /
 /
@@ -1850,6 +1854,7 @@ pfx
 "
 "
 )
+const
 ;
 /
 /
@@ -2309,6 +2314,7 @@ us
 .
 /
 /
+typedef
 std
 :
 :
@@ -2316,6 +2322,9 @@ queue
 <
 Message
 >
+MessageQueue
+;
+MessageQueue
 mPending
 ;
 /
