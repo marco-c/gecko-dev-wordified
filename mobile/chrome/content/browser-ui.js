@@ -1860,6 +1860,7 @@ _dialogs
 .
 length
 )
+{
 this
 .
 _dialogs
@@ -1868,6 +1869,13 @@ pop
 (
 )
 ;
+this
+.
+unlockToolbar
+(
+)
+;
+}
 /
 /
 If
@@ -1907,12 +1915,6 @@ removeAttribute
 "
 dialog
 "
-)
-;
-this
-.
-unlockToolbar
-(
 )
 ;
 }
