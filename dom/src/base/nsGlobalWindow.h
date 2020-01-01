@@ -623,6 +623,13 @@ h
 #
 include
 "
+nsIDOMNavigatorGeolocator
+.
+h
+"
+#
+include
+"
 nsIDOMNSLocation
 .
 h
@@ -930,6 +937,9 @@ nsDOMOfflineResourceList
 ;
 class
 nsDOMOfflineLoadStatusList
+;
+class
+nsGeolocator
 ;
 /
 /
@@ -4875,6 +4885,8 @@ public
 nsIDOMJSNavigator
 public
 nsIDOMClientInformation
+public
+nsIDOMNavigatorGeolocator
 {
 public
 :
@@ -4895,6 +4907,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMNAVIGATOR
 NS_DECL_NSIDOMJSNAVIGATOR
 NS_DECL_NSIDOMCLIENTINFORMATION
+NS_DECL_NSIDOMNAVIGATORGEOLOCATOR
 void
 SetDocShell
 (
@@ -4936,6 +4949,12 @@ nsRefPtr
 nsPluginArray
 >
 mPlugins
+;
+nsRefPtr
+<
+nsGeolocator
+>
+mGeolocator
 ;
 nsIDocShell
 *
