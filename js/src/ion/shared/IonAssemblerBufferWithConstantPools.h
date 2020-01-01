@@ -5826,6 +5826,9 @@ PoolInfo
 *
 >
 (
+this
+-
+>
 realloc_
 (
 poolInfo
