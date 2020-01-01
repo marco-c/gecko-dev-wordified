@@ -6006,8 +6006,8 @@ false
 /
 /
 Force
-a
-full
+an
+orphans
 expiration
 step
 .
@@ -6025,8 +6025,7 @@ start
 -
 expiration
 "
--
-1
+0
 )
 ;
 }
