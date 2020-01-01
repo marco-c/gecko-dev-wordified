@@ -179,11 +179,7 @@ http
 :
 /
 /
-mochi
-.
 test
-:
-8888
 /
 webapprtChrome
 /
