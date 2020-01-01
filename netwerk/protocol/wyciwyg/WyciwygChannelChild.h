@@ -222,7 +222,7 @@ nsresult
 &
 statusCode
 const
-int32_t
+int64_t
 &
 contentLength
 const
@@ -278,7 +278,7 @@ nsresult
 &
 statusCode
 const
-int32_t
+int64_t
 &
 contentLength
 const
@@ -347,7 +347,7 @@ mCanceled
 uint32_t
 mLoadFlags
 ;
-int32_t
+int64_t
 mContentLength
 ;
 int32_t

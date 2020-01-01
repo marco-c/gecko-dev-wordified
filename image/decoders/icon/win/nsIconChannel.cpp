@@ -3752,7 +3752,7 @@ nsIconChannel
 :
 GetContentLength
 (
-int32_t
+int64_t
 *
 aContentLength
 )
@@ -3772,7 +3772,7 @@ nsIconChannel
 :
 SetContentLength
 (
-int32_t
+int64_t
 aContentLength
 )
 {

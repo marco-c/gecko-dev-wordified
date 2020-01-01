@@ -439,7 +439,7 @@ empty
 uint32_t
 mContentDisposition
 ;
-int32_t
+int64_t
 mContentLength
 ;
 uint32_t

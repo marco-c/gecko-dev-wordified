@@ -233,7 +233,7 @@ nsIURI
 >
 mOriginalURI
 ;
-int32_t
+int64_t
 mContentLength
 ;
 nsCOMPtr

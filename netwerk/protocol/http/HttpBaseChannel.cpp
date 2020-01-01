@@ -2230,7 +2230,7 @@ HttpBaseChannel
 :
 GetContentLength
 (
-int32_t
+int64_t
 *
 aContentLength
 )
@@ -2248,13 +2248,6 @@ mResponseHead
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-/
-/
-XXX
-truncates
-to
-32
-bit
 *
 aContentLength
 =
@@ -2275,7 +2268,7 @@ HttpBaseChannel
 :
 SetContentLength
 (
-int32_t
+int64_t
 value
 )
 {

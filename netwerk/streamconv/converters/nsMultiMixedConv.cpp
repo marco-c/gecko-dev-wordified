@@ -1285,7 +1285,7 @@ nsPartChannel
 :
 GetContentLength
 (
-int32_t
+int64_t
 *
 aContentLength
 )
@@ -1295,14 +1295,6 @@ aContentLength
 =
 mContentLength
 ;
-/
-/
-XXX
-truncates
-64
--
-bit
-value
 return
 NS_OK
 ;
@@ -1313,7 +1305,7 @@ nsPartChannel
 :
 SetContentLength
 (
-int32_t
+int64_t
 aContentLength
 )
 {
@@ -4085,14 +4077,6 @@ SetContentLength
 mContentLength
 )
 ;
-/
-/
-XXX
-Truncates
-64
--
-bit
-!
 if
 (
 NS_FAILED
