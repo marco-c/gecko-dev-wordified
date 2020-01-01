@@ -1042,6 +1042,12 @@ aParent
 aPrevInFlow
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 /
 /
 Set
@@ -1135,6 +1141,8 @@ mMenuCanOverlapOSBar
 =
 tempBool
 ;
+rv
+=
 CreateViewForFrame
 (
 presContext
@@ -1143,6 +1151,12 @@ GetStyleContext
 (
 )
 PR_TRUE
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 /
