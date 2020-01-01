@@ -4407,6 +4407,8 @@ height
 ;
 template
 <
+class
+T
 >
 struct
 ParamTraits
@@ -4417,7 +4419,10 @@ mozilla
 gfx
 :
 :
-Point
+PointTyped
+<
+T
+>
 >
 {
 typedef
@@ -4427,7 +4432,10 @@ mozilla
 gfx
 :
 :
-Point
+PointTyped
+<
+T
+>
 paramType
 ;
 static

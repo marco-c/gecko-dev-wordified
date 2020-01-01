@@ -350,6 +350,11 @@ sfx
 "
 )
 ;
+template
+<
+class
+T
+>
 nsACString
 &
 AppendToString
@@ -364,7 +369,10 @@ mozilla
 gfx
 :
 :
-Point
+PointTyped
+<
+T
+>
 &
 p
 const

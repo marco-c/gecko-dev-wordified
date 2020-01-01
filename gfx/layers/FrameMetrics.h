@@ -128,6 +128,13 @@ Rect
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 namespace
 mozilla
 {
@@ -1683,10 +1690,10 @@ of
 parent
 transforms
 .
-gfx
+mozilla
 :
 :
-Point
+CSSPoint
 mScrollOffset
 ;
 /

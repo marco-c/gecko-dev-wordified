@@ -1860,10 +1860,7 @@ Rect
 &
 aViewport
 const
-gfx
-:
-:
-Point
+CSSPoint
 &
 aScrollOffset
 const

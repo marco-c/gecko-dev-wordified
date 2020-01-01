@@ -137,10 +137,7 @@ mPaintData
 .
 mLastScrollOffset
 =
-gfx
-:
-:
-Point
+CSSPoint
 (
 0
 0

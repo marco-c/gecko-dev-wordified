@@ -2222,10 +2222,7 @@ mLastMetrics
 .
 mScrollOffset
 =
-gfx
-:
-:
-Point
+CSSPoint
 (
 0
 0
@@ -8310,13 +8307,7 @@ nsIDOMWindow
 *
 aWindow
 const
-mozilla
-:
-:
-gfx
-:
-:
-Point
+CSSPoint
 &
 aPoint
 )

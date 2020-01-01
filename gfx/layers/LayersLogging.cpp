@@ -723,6 +723,11 @@ s
 sfx
 ;
 }
+template
+<
+class
+T
+>
 nsACString
 &
 AppendToString
@@ -731,7 +736,10 @@ nsACString
 &
 s
 const
-Point
+PointTyped
+<
+T
+>
 &
 p
 const
