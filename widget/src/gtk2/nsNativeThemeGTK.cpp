@@ -940,6 +940,7 @@ aWidgetType
 )
 {
 return
+(
 aDisabledVector
 [
 aWidgetType
@@ -958,6 +959,10 @@ aWidgetType
 7
 )
 )
+)
+!
+=
+0
 ;
 }
 static
@@ -1074,6 +1079,7 @@ aWidgetState
 )
 ;
 return
+(
 aSafeVector
 [
 key
@@ -1092,6 +1098,10 @@ key
 7
 )
 )
+)
+!
+=
+0
 ;
 }
 static
