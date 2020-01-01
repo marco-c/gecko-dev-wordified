@@ -1534,7 +1534,7 @@ JSSLOT_PRIVATE
 =
 1
 ;
-class
+struct
 JSFunction
 ;
 /
@@ -3614,7 +3614,7 @@ setters
 private
 :
 friend
-class
+struct
 JSFunction
 ;
 static
