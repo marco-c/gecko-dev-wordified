@@ -1932,7 +1932,7 @@ xmlhttprequest
 "
 ]
 .
-getService
+createInstance
 (
 Ci
 .
