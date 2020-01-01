@@ -1538,6 +1538,11 @@ SHELL_WRAPPER1
 cameraCallbackBridge
 jbyteArray
 )
+SHELL_WRAPPER1
+(
+notifyUriVisited
+jstring
+)
 static
 void
 *
@@ -4210,6 +4215,11 @@ executeNextRunnable
 GETFUNC
 (
 cameraCallbackBridge
+)
+;
+GETFUNC
+(
+notifyUriVisited
 )
 ;
 #
