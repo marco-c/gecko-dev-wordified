@@ -903,10 +903,11 @@ SetContentCharset
 contentCharset
 )
 ;
-SetContentLength64
+ContentLength
 (
-contentLen
 )
+=
+contentLen
 ;
 NS_ADDREF
 (

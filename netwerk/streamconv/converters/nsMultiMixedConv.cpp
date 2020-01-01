@@ -512,6 +512,13 @@ nsIStreamConverterService
 .
 h
 "
+#
+include
+"
+prprf
+.
+h
+"
 /
 /
 /

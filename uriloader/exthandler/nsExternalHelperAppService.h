@@ -496,13 +496,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsIExternalHelperAppService
 .
 h
@@ -2202,10 +2195,10 @@ mTempFileIsExecutable
 PRTime
 mTimeDownloadStarted
 ;
-nsInt64
+PRInt64
 mContentLength
 ;
-nsInt64
+PRInt64
 mProgress
 ;
 /
@@ -2326,9 +2319,6 @@ valid
 nsresult
 SetUpTempFile
 (
-nsIChannel
-*
-aChannel
 )
 ;
 /

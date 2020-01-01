@@ -908,7 +908,7 @@ the
 plugin
 stream
 listener
-PRUint32
+PRUint64
 mLength
 ;
 PRInt32

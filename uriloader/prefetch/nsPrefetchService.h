@@ -1107,7 +1107,7 @@ mChannel
 PRUint16
 mState
 ;
-PRInt32
+PRInt64
 mBytesRead
 ;
 }

@@ -2264,7 +2264,7 @@ aIn
 )
 )
 {
-PRInt32
+PRInt64
 chunkSize
 ;
 rv
@@ -2295,7 +2295,7 @@ chunkSize
 =
 NS_MIN
 (
-PRInt32
+PRInt64
 (
 PR_UINT16_MAX
 )

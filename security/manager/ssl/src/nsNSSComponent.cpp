@@ -17666,7 +17666,7 @@ nsIStreamListener
 nsIRequestObserver
 )
 const
-PRInt32
+PRInt64
 kDefaultCertAllocLength
 =
 2048
@@ -17742,7 +17742,7 @@ mURI
 )
 )
 ;
-PRInt32
+PRInt64
 contentLength
 ;
 rv
@@ -17772,6 +17772,15 @@ contentLength
 contentLength
 =
 kDefaultCertAllocLength
+;
+if
+(
+contentLength
+>
+PR_INT32_MAX
+)
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
 mBufferOffset
 =

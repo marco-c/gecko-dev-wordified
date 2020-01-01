@@ -2880,7 +2880,7 @@ do_GetWeakReference
 loadGroup
 )
 ;
-PRInt32
+PRInt64
 length
 ;
 rv
