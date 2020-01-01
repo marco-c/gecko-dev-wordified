@@ -662,7 +662,7 @@ initWithPath
 "
 )
 ;
-const
+var
 Ci
 =
 Components
