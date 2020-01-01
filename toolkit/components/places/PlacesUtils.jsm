@@ -12564,9 +12564,9 @@ bookmarksBackupDir
 .
 append
 (
-"
-bookmarkbackups
-"
+this
+.
+profileRelativeFolderPath
 )
 ;
 if
@@ -12626,6 +12626,13 @@ folder
 bookmarksBackupDir
 ;
 }
+get
+profileRelativeFolderPath
+(
+)
+"
+bookmarkbackups
+"
 /
 *
 *
