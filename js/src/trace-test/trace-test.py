@@ -2498,6 +2498,23 @@ args
 :
 ]
     
+JS
+=
+os
+.
+path
+.
+realpath
+(
+JS
+)
+#
+Burst
+through
+the
+symlinks
+!
+    
 if
 OPTIONS
 .
