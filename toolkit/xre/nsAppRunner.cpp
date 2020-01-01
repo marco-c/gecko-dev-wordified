@@ -4997,9 +4997,7 @@ NS_LogInit
 /
 NS_LogTerm
 in
-it
-'
-s
+its
 scope
 .
 *
