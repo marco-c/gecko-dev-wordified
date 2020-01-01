@@ -1467,6 +1467,12 @@ IsOnlyMsaaCompatibleJawsPresent
 ;
 static
 void
+TurnOffNewTabSwitchingForJawsAndWE
+(
+)
+;
+static
+void
 DoATSpecificProcessing
 (
 )
