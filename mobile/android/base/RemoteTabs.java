@@ -539,14 +539,8 @@ size
 =
 0
 )
-{
-autoHidePanel
-(
-)
-;
 return
 ;
-}
 ArrayList
 <
 HashMap
