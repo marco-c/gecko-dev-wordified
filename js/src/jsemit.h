@@ -4386,7 +4386,7 @@ pn
 Emit
 function
 code
-into
+using
 cg
 for
 the
@@ -4399,7 +4399,7 @@ body
 /
 extern
 JSBool
-js_EmitFunctionBytecode
+js_EmitFunctionScript
 (
 JSContext
 *
