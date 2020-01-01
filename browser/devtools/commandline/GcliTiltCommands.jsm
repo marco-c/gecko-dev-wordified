@@ -60,9 +60,6 @@ let
 EXPORTED_SYMBOLS
 =
 [
-"
-GcliCommands
-"
 ]
 ;
 Components
