@@ -3038,6 +3038,7 @@ js_NewDouble
 (
 cx
 d
+0
 )
 ;
 ok
@@ -10075,6 +10076,7 @@ js_NewDouble
 (
 cx
 d
+0
 )
 ;
 }
@@ -10498,12 +10500,9 @@ cx
 ;
 ok
 =
-js_LockGCThingRT
+js_LockGCThing
 (
 cx
--
->
-runtime
 thing
 )
 ;
@@ -10512,9 +10511,12 @@ if
 !
 ok
 )
-JS_ReportOutOfMemory
+JS_ReportErrorNumber
 (
 cx
+js_GetErrorMessage
+NULL
+JSMSG_CANT_LOCK
 )
 ;
 return
