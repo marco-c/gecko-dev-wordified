@@ -2372,7 +2372,6 @@ references
 in
 the
 header
-it
 .
 /
 /
