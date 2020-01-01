@@ -790,14 +790,7 @@ h
 #
 include
 "
-nsIAccelerometer
-.
-h
-"
-#
-include
-"
-nsWidgetsCID
+nsAccelerometer
 .
 h
 "
@@ -1655,7 +1648,7 @@ dom
 /
 indexedDB
 /
-IndexedDatabaseRequest
+IDBFactory
 .
 h
 "
@@ -28954,7 +28947,7 @@ targetWindow
 mDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -35616,7 +35609,7 @@ shell
 mDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -39076,7 +39069,7 @@ shell
 mDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -40916,7 +40909,7 @@ nsGlobalWindow
 :
 GetMoz_indexedDB
 (
-nsIIndexedDatabaseRequest
+nsIIDBFactory
 *
 *
 _retval
@@ -40939,7 +40932,7 @@ dom
 indexedDB
 :
 :
-IndexedDatabaseRequest
+IDBFactory
 :
 :
 Create
@@ -40955,7 +40948,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIIndexedDatabaseRequest
+nsIIDBFactory
 >
 request
 (

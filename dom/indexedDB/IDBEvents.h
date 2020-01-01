@@ -498,7 +498,7 @@ h
 #
 include
 "
-nsIIDBTransactionRequest
+nsIIDBTransaction
 .
 h
 "
@@ -519,13 +519,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsDOMEvent
 .
 h
@@ -539,7 +532,7 @@ dom
 /
 indexedDB
 /
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "
@@ -578,7 +571,7 @@ class
 IDBRequest
 ;
 class
-IDBTransactionRequest
+IDBTransaction
 ;
 class
 IDBEvent
@@ -755,7 +748,7 @@ aRequest
 nsIVariant
 *
 aResult
-nsIIDBTransactionRequest
+nsIIDBTransaction
 *
 aTransaction
 )
@@ -773,7 +766,7 @@ aRequest
 nsIVariant
 *
 aResult
-nsIIDBTransactionRequest
+nsIIDBTransaction
 *
 aTransaction
 )
@@ -793,7 +786,7 @@ mResult
 ;
 nsCOMPtr
 <
-nsIIDBTransactionRequest
+nsIIDBTransaction
 >
 mTransaction
 ;
@@ -851,8 +844,10 @@ mCachedValue
 NS_IMETHOD
 GetResult
 (
-nsIVariant
+JSContext
 *
+aCx
+jsval
 *
 aResult
 )
@@ -863,7 +858,7 @@ Init
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
@@ -936,8 +931,10 @@ elements
 NS_IMETHOD
 GetResult
 (
-nsIVariant
+JSContext
 *
+aCx
+jsval
 *
 aResult
 )
@@ -1004,8 +1001,10 @@ elements
 NS_IMETHOD
 GetResult
 (
-nsIVariant
+JSContext
 *
+aCx
+jsval
 *
 aResult
 )

@@ -2480,6 +2480,10 @@ Queue
 TraceType
 >
 {
+Oracle
+*
+oracle
+;
 public
 :
 TypeMap
@@ -2533,6 +2537,8 @@ SlotList
 slots
 unsigned
 callDepth
+bool
+speculate
 )
 ;
 JS_REQUIRES_STACK
@@ -2550,6 +2556,8 @@ SlotList
 slots
 unsigned
 stackSlots
+bool
+speculate
 )
 ;
 bool
@@ -4584,6 +4592,8 @@ cx
 SlotList
 *
 globalSlots
+bool
+speculate
 )
 ;
 UnstableExit
@@ -9980,6 +9990,8 @@ uint32
 outerArgc
 RecordReason
 reason
+bool
+speculate
 )
 ;
 /
@@ -10119,6 +10131,8 @@ uint32
 outerArgc
 RecordReason
 reason
+bool
+speculate
 )
 ;
 /
@@ -10162,6 +10176,17 @@ traceMonitor
 outOfMemory
 (
 )
+;
+}
+Oracle
+*
+getOracle
+(
+)
+const
+{
+return
+oracle
 ;
 }
 /

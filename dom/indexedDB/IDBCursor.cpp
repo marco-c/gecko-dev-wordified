@@ -1491,7 +1491,7 @@ if
 mJSRuntime
 )
 {
-JS_RemoveRootRT
+js_RemoveRoot
 (
 mJSRuntime
 &
@@ -1925,7 +1925,7 @@ aCx
 JSBool
 ok
 =
-JS_AddNamedRootRT
+js_AddRootRT
 (
 rt
 &
