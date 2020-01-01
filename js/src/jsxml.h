@@ -1042,11 +1042,9 @@ below
 /
 union
 {
-struct
 JSXMLListVar
 list
 ;
-struct
 JSXMLElemVar
 elem
 ;
