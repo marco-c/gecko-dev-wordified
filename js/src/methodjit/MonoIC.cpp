@@ -5019,7 +5019,9 @@ pc
 Registers
 :
 :
-ReturnReg
+tempCallReg
+(
+)
 )
 ;
 /
@@ -6756,7 +6758,9 @@ pc
 Registers
 :
 :
-ReturnReg
+tempCallReg
+(
+)
 )
 ;
 masm
