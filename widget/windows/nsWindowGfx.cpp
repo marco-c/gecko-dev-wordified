@@ -4856,6 +4856,12 @@ uint8_t
 *
 data
 ;
+nsRefPtr
+<
+gfxImageSurface
+>
+dest
+;
 if
 (
 (
@@ -4958,10 +4964,6 @@ to
 a
 temporary
 surface
-nsRefPtr
-<
-gfxImageSurface
->
 dest
 =
 new
