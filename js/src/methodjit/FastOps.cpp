@@ -10339,11 +10339,7 @@ getKnownType
 =
 JSVAL_TYPE_INT32
 #
-if
-0
-&
-&
-defined
+ifdef
 JS_POLYIC
 |
 |
@@ -10544,11 +10540,7 @@ tmpReg
 )
 ;
 #
-if
-0
-&
-&
-defined
+ifdef
 JS_POLYIC
 return
 jsop_getelem_with_pic
