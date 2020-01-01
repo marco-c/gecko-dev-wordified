@@ -812,11 +812,6 @@ Element
 aElement
 )
 ;
-bool
-IsWhitelistedEvent
-(
-)
-;
 void
 RegisterEventListener
 (
