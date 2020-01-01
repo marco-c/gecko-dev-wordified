@@ -6501,12 +6501,8 @@ data
 /
 data
 /
-org
-.
-mozilla
-.
 "
-MOZ_APP_NAME
+ANDROID_PACKAGE_NAME
 ;
 rv
 =
