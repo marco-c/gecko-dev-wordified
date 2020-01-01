@@ -1761,7 +1761,7 @@ JS_APPEND_LINK
 cx
 -
 >
-links
+link
 &
 rt
 -
@@ -2443,7 +2443,7 @@ JS_REMOVE_LINK
 cx
 -
 >
-links
+link
 )
 ;
 last
@@ -3292,7 +3292,7 @@ cl
 cx
 -
 >
-links
+link
 )
 return
 JS_TRUE
@@ -3341,17 +3341,14 @@ rt
 ;
 cx
 =
-(
-JSContext
-*
-)
+js_ContextFromLinkField
 (
 cx
 ?
 cx
 -
 >
-links
+link
 .
 next
 :
@@ -3369,7 +3366,7 @@ if
 cx
 -
 >
-links
+link
 =
 =
 &
