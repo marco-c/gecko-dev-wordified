@@ -5081,10 +5081,7 @@ selfClosing
 PR_FALSE
 ;
 delete
-formAttrs
-;
-delete
-inputAttributes
+attributes
 ;
 attributes
 =
