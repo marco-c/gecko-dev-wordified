@@ -355,6 +355,8 @@ scoped_ptr
 .
 h
 "
+namespace
+{
 using
 google_airbag
 :
@@ -655,6 +657,7 @@ something
 else
 happened
 .
+static
 bool
 StoreTest
 (
@@ -847,6 +850,7 @@ by
 one
 errors
 .
+static
 bool
 RetrieveTest
 (
@@ -1683,6 +1687,7 @@ of
 test
 sets
 .
+static
 bool
 RunTests
 (
@@ -3029,6 +3034,10 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
 int
 main
 (

@@ -422,6 +422,8 @@ e1
 e2
 )
 )
+namespace
+{
 using
 google_airbag
 :
@@ -1531,6 +1533,10 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
 int
 main
 (

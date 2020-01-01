@@ -298,6 +298,13 @@ OF
 SUCH
 DAMAGE
 .
+/
+/
+Disable
+exception
+handler
+warnings
+.
 #
 pragma
 warning

@@ -389,6 +389,8 @@ ASSERT_TRUE
 condition
 )
 )
+namespace
+{
 using
 google_airbag
 :
@@ -1798,6 +1800,10 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
 int
 main
 (
