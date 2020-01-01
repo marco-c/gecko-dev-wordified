@@ -871,9 +871,11 @@ CanGC
 (
 cx
 args
-[
+.
+handleAt
+(
 0
-]
+)
 )
 ;
 if
