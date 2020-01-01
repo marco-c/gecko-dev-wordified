@@ -2406,7 +2406,7 @@ result
 =
 Cr
 .
-NS_ERROR_MALFORMED_URI
+NS_ERROR_FAILURE
 )
 {
 /
