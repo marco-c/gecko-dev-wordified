@@ -5615,6 +5615,12 @@ JS
 array
 if
 (
+argc
+=
+=
+0
+|
+|
 !
 argv
 [
