@@ -828,17 +828,6 @@ aspectDenominator
 ;
 mInfo
 .
-mDataOffset
-=
-sizeof
-(
-nsRawVideoHeader
-)
-+
-1
-;
-mInfo
-.
 mHasAudio
 =
 PR_FALSE
