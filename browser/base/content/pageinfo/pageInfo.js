@@ -4110,7 +4110,7 @@ shift
 setTimeout
 (
 doGrab
-16
+10
 iterator
 )
 ;
@@ -4155,7 +4155,7 @@ i
 ;
 i
 <
-50
+500
 ;
 +
 +
@@ -4181,7 +4181,7 @@ return
 setTimeout
 (
 doGrab
-16
+10
 iterator
 )
 ;
