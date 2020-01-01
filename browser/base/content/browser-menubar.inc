@@ -4528,10 +4528,10 @@ event
 )
 ;
 "
-disabled
+observes
 =
 "
-true
+singleFeedMenuitemState
 "
 /
 >
@@ -4551,10 +4551,10 @@ subscribeToPageMenupopup
 label
 ;
 "
-hidden
+observes
 =
 "
-true
+multipleFeedsMenuState
 "
 >
 <
