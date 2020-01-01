@@ -3171,6 +3171,16 @@ oldKeyEvent
 >
 isChar
 ;
+keyEvent
+-
+>
+mKeyNameIndex
+=
+oldKeyEvent
+-
+>
+mKeyNameIndex
+;
 newEvent
 =
 keyEvent
