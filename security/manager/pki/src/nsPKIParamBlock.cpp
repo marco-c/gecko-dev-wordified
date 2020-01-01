@@ -149,12 +149,8 @@ NS_DIALOGPARAMBLOCK_CONTRACTID
 )
 ;
 return
-(
+!
 mDialogParamBlock
-=
-=
-nullptr
-)
 ?
 NS_ERROR_OUT_OF_MEMORY
 :
@@ -373,10 +369,8 @@ NS_SUPPORTSARRAY_CONTRACTID
 ;
 if
 (
+!
 mSupports
-=
-=
-nullptr
 )
 {
 return

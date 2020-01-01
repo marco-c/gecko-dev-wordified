@@ -727,10 +727,8 @@ rv
 )
 |
 |
+!
 parentObjects
-=
-=
-nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -1134,11 +1132,9 @@ asn1Obj
 ;
 if
 (
+!
 *
 retval
-=
-=
-nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -1217,10 +1213,8 @@ aASN1Objects
 {
 if
 (
+!
 mASN1Objects
-=
-=
-nullptr
 )
 {
 mASN1Objects
