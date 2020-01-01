@@ -2787,7 +2787,8 @@ npevent
 type
 )
 {
-printf
+PLUGIN_LOG_DEBUG
+(
 (
 "
 schlepping
@@ -2807,6 +2808,7 @@ npevent
 xgraphicsexpose
 .
 drawable
+)
 )
 ;
 /
