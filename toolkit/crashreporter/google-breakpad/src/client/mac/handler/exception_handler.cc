@@ -3419,9 +3419,6 @@ return
 false
 ;
 }
-#
-if
-TARGET_OS_IPHONE
 if
 (
 !
@@ -3559,8 +3556,6 @@ PROT_READ
 #
 endif
 }
-#
-endif
 try
 {
 #
