@@ -7507,14 +7507,6 @@ IsValid
 const
 ;
 inline
-nsXPConnect
-*
-GetXPConnect
-(
-)
-const
-;
-inline
 XPCJSRuntime
 *
 GetRuntime
