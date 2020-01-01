@@ -7026,7 +7026,7 @@ transparent
 #
 endif
 }
-NS_IMETHODIMP
+void
 nsObjectFrame
 :
 :
@@ -7065,7 +7065,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 DisplayBorderBackgroundOutline
 (
@@ -7114,7 +7113,6 @@ nsPresContext
 eContext_PrintPreview
 )
 return
-NS_OK
 ;
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
@@ -7152,7 +7150,6 @@ a
 transform
 .
 return
-NS_OK
 ;
 }
 #
@@ -7487,9 +7484,6 @@ aBuilder
 replacedContent
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 #

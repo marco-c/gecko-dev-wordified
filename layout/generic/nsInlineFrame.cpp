@@ -1098,7 +1098,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+void
 nsInlineFrame
 :
 :
@@ -1202,9 +1202,6 @@ Content
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 /

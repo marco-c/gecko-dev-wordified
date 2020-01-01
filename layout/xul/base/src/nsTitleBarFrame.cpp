@@ -274,7 +274,7 @@ UpdateMouseThrough
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsTitleBarFrame
 :
 :
@@ -337,10 +337,8 @@ eCaseMatters
 )
 )
 return
-NS_OK
 ;
 }
-return
 nsBoxFrame
 :
 :

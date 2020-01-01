@@ -426,7 +426,8 @@ nsEventStatus
 aEventStatus
 )
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder

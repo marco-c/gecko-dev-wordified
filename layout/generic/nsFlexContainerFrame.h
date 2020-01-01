@@ -213,7 +213,8 @@ public
 /
 nsIFrame
 overrides
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder

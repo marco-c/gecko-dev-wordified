@@ -334,7 +334,8 @@ aOpacity
 nsIFrame
 methods
 :
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -349,10 +350,8 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 {
-return
-NS_OK
-;
 }
 virtual
 bool

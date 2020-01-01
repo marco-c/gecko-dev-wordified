@@ -247,7 +247,7 @@ aPrevInFlow
 ;
 #
 endif
-NS_IMETHOD
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -262,10 +262,8 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 {
-return
-NS_OK
-;
 }
 virtual
 void

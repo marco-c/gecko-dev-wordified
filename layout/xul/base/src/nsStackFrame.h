@@ -204,7 +204,8 @@ aResult
 }
 #
 endif
-NS_IMETHOD
+virtual
+void
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder

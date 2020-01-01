@@ -2609,7 +2609,7 @@ LAYER_INACTIVE
 }
 }
 ;
-NS_IMETHODIMP
+void
 nsVideoFrame
 :
 :
@@ -2637,7 +2637,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
@@ -2826,9 +2825,6 @@ aBuilder
 replacedContent
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 nsIAtom

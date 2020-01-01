@@ -1088,7 +1088,7 @@ defined
 MOZ_REFLOW_PERF
 )
 )
-NS_IMETHODIMP
+void
 nsPlaceholderFrame
 :
 :
@@ -1124,7 +1124,6 @@ GetShowFrameBorders
 )
 )
 {
-return
 aLists
 .
 Outlines
@@ -1156,9 +1155,6 @@ TYPE_DEBUG_PLACEHOLDER
 }
 #
 endif
-return
-NS_OK
-;
 }
 #
 endif

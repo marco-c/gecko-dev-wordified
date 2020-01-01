@@ -443,7 +443,7 @@ ShouldBuildLayer
 )
 const
 ;
-nsresult
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -2336,7 +2336,8 @@ aChildList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -2351,8 +2352,8 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 {
-return
 mInner
 .
 BuildDisplayList
@@ -3602,7 +3603,8 @@ nsFrameList
 aChildList
 )
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -3619,7 +3621,6 @@ aLists
 )
 MOZ_OVERRIDE
 {
-return
 mInner
 .
 BuildDisplayList

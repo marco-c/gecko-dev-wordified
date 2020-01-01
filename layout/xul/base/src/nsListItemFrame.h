@@ -170,7 +170,8 @@ specified
 on
 the
 listitem
-NS_IMETHOD
+virtual
+void
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder
@@ -185,6 +186,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
