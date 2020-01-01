@@ -3659,7 +3659,7 @@ ReleaseScriptCode
 (
 cx
 script
-true
+false
 )
 ;
 }
@@ -3683,7 +3683,7 @@ ReleaseScriptCode
 (
 cx
 script
-false
+true
 )
 ;
 }
