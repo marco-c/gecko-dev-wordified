@@ -456,6 +456,13 @@ endif
 #
 include
 "
+nsPluginInstanceOwner
+.
+h
+"
+#
+include
+"
 nsIObjectFrame
 .
 h
@@ -511,9 +518,6 @@ nsIAccessible
 #
 endif
 class
-nsPluginInstanceOwner
-;
-class
 nsPluginHost
 ;
 class
@@ -521,9 +525,6 @@ nsPresContext
 ;
 class
 nsDisplayPlugin
-;
-class
-nsIDOMElement
 ;
 class
 nsIOSurface
