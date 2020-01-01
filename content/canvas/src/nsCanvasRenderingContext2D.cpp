@@ -1252,8 +1252,6 @@ static
 PRInt64
 GetCanvasMemoryUsed
 (
-void
-*
 )
 {
 return
@@ -1264,7 +1262,7 @@ gCanvasMemoryUsed
 /
 This
 is
-MR_OTHER
+KIND_OTHER
 because
 it
 '
@@ -1317,7 +1315,9 @@ pixel
 -
 bytes
 "
-MR_OTHER
+KIND_OTHER
+UNITS_BYTES
+GetCanvasMemoryUsed
 "
 Memory
 used
@@ -1340,8 +1340,6 @@ height
 bytes
 .
 "
-GetCanvasMemoryUsed
-NULL
 )
 static
 void

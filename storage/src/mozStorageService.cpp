@@ -1044,8 +1044,6 @@ static
 PRInt64
 GetStorageSQLiteMemoryUsed
 (
-void
-*
 )
 {
 return
@@ -1066,7 +1064,9 @@ storage
 /
 sqlite
 "
-MR_HEAP
+KIND_HEAP
+UNITS_BYTES
+GetStorageSQLiteMemoryUsed
 "
 Memory
 used
@@ -1074,8 +1074,6 @@ by
 SQLite
 .
 "
-GetStorageSQLiteMemoryUsed
-nsnull
 )
 /
 /

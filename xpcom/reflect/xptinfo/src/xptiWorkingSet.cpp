@@ -477,8 +477,6 @@ static
 PRInt64
 GetXPTArenaSize
 (
-void
-*
 )
 {
 return
@@ -500,7 +498,9 @@ working
 -
 set
 "
-MR_HEAP
+KIND_HEAP
+UNITS_BYTES
+GetXPTArenaSize
 "
 Memory
 used
@@ -511,8 +511,6 @@ typelib
 system
 .
 "
-GetXPTArenaSize
-nsnull
 )
 #
 define

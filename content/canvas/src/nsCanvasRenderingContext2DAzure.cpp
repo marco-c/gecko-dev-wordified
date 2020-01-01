@@ -1271,8 +1271,6 @@ static
 PRInt64
 GetCanvasAzureMemoryUsed
 (
-void
-*
 )
 {
 return
@@ -1283,7 +1281,7 @@ gCanvasAzureMemoryUsed
 /
 This
 is
-MR_OTHER
+KIND_OTHER
 because
 it
 '
@@ -1296,9 +1294,9 @@ in
 memory
 the
 pixels
+/
+/
 of
-/
-/
 a
 canvas
 are
@@ -1336,7 +1334,9 @@ pixel
 -
 bytes
 "
-MR_OTHER
+KIND_OTHER
+UNITS_BYTES
+GetCanvasAzureMemoryUsed
 "
 Memory
 used
@@ -1359,8 +1359,6 @@ height
 bytes
 .
 "
-GetCanvasAzureMemoryUsed
-nsnull
 )
 /
 *
