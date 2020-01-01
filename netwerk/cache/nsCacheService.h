@@ -1051,15 +1051,6 @@ target
 nsnull
 )
 ;
-static
-nsresult
-DispatchToCacheIOThread
-(
-nsIRunnable
-*
-event
-)
-;
 /
 *
 *
