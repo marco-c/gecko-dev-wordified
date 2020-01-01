@@ -2453,7 +2453,7 @@ bindingHeaders
 add
 (
 "
-jsfriendapi
+jstypedarray
 .
 h
 "
@@ -7497,7 +7497,7 @@ if
 s
 -
 >
-ParisBindingsEnabled
+ExperimentalBindingsEnabled
 (
 )
 )
@@ -9806,7 +9806,6 @@ argVal
 toObject
 (
 )
-cx
 )
 )
 {
@@ -16338,7 +16337,6 @@ s
 toObject
 (
 )
-cx
 )
 "
 %
