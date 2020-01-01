@@ -2702,7 +2702,7 @@ R
 .
 layout
 .
-bookmark_item_row
+home_item_row
 null
 )
 ;
