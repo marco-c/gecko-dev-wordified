@@ -444,13 +444,6 @@ h
 #
 include
 "
-nsIPluginInstancePeer
-.
-h
-"
-#
-include
-"
 prlink
 .
 h
