@@ -746,6 +746,13 @@ nsISecureBrowserUI
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 using
 namespace
 mozilla
@@ -5205,6 +5212,8 @@ aValue
 )
 ;
 }
+break
+;
 case
 nsIWebBrowserSetup
 :
@@ -7918,6 +7927,16 @@ mInitInfo
 sessionHistory
 )
 ;
+if
+(
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
+)
+{
 /
 /
 Hook
@@ -7958,6 +7977,7 @@ failed
 "
 )
 ;
+}
 NS_ENSURE_SUCCESS
 (
 mDocShellAsWin
