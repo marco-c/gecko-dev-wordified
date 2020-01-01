@@ -154,13 +154,6 @@ h
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

@@ -185,13 +185,6 @@ h
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 prthread
 .
 h

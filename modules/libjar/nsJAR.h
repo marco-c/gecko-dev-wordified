@@ -107,13 +107,6 @@ h
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 prio
 .
 h
