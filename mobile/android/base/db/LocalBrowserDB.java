@@ -2762,10 +2762,7 @@ LOGTAG
 NullPointerException
 in
 isBookmark
-for
 "
-+
-uri
 )
 ;
 }
