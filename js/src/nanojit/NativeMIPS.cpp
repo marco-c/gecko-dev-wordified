@@ -3089,7 +3089,7 @@ p
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 ADDIU
@@ -3376,7 +3376,7 @@ arg
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 ADDIU
@@ -3544,7 +3544,7 @@ arg
 >
 isop
 (
-LIR_qjoin
+LIR_ii2d
 )
 )
 ;
@@ -3855,7 +3855,7 @@ rbase
 break
 ;
 case
-LIR_sts
+LIR_sti2s
 :
 asm_ldst
 (
@@ -3868,7 +3868,7 @@ rbase
 break
 ;
 case
-LIR_stb
+LIR_sti2c
 :
 asm_ldst
 (
@@ -4367,7 +4367,7 @@ op
 )
 {
 case
-LIR_fadd
+LIR_addd
 :
 ADD_D
 (
@@ -4379,7 +4379,7 @@ rb
 break
 ;
 case
-LIR_fsub
+LIR_subd
 :
 SUB_D
 (
@@ -4391,7 +4391,7 @@ rb
 break
 ;
 case
-LIR_fmul
+LIR_muld
 :
 MUL_D
 (
@@ -4403,7 +4403,7 @@ rb
 break
 ;
 case
-LIR_fdiv
+LIR_divd
 :
 DIV_D
 (
@@ -5598,7 +5598,7 @@ if
 op
 =
 =
-LIR_not
+LIR_noti
 )
 NOT
 (
@@ -5764,7 +5764,7 @@ opcode
 )
 =
 =
-LIR_cmov
+LIR_cmovi
 &
 &
 iftrue
@@ -6252,7 +6252,7 @@ ins
 >
 isop
 (
-LIR_ret
+LIR_reti
 )
 )
 {
@@ -6272,7 +6272,7 @@ ins
 >
 isop
 (
-LIR_fret
+LIR_retd
 )
 )
 ;
@@ -6286,7 +6286,7 @@ value
 >
 isop
 (
-LIR_qjoin
+LIR_ii2d
 )
 )
 ;
@@ -6424,7 +6424,7 @@ op
 )
 {
 case
-LIR_ldzb
+LIR_lduc2ui
 :
 /
 /
@@ -6451,7 +6451,7 @@ rbase
 break
 ;
 case
-LIR_ldzs
+LIR_ldus2ui
 :
 /
 /
@@ -6478,7 +6478,7 @@ rbase
 break
 ;
 case
-LIR_ldsb
+LIR_ldc2i
 :
 /
 /
@@ -6505,7 +6505,7 @@ rbase
 break
 ;
 case
-LIR_ldss
+LIR_lds2i
 :
 /
 /
@@ -6532,7 +6532,7 @@ rbase
 break
 ;
 case
-LIR_ld
+LIR_ldi
 :
 /
 /
@@ -6982,7 +6982,7 @@ op
 )
 {
 case
-LIR_addxov
+LIR_addxovi
 :
 SLT
 (
@@ -7002,7 +7002,7 @@ goto
 done
 ;
 case
-LIR_add
+LIR_addi
 :
 ADDIU
 (
@@ -7015,7 +7015,7 @@ goto
 done
 ;
 case
-LIR_subxov
+LIR_subxovi
 :
 if
 (
@@ -7048,7 +7048,7 @@ done
 break
 ;
 case
-LIR_sub
+LIR_subi
 :
 if
 (
@@ -7074,10 +7074,10 @@ done
 break
 ;
 case
-LIR_mulxov
+LIR_mulxovi
 :
 case
-LIR_mul
+LIR_muli
 :
 /
 /
@@ -7159,7 +7159,7 @@ op
 )
 {
 case
-LIR_or
+LIR_ori
 :
 ORI
 (
@@ -7172,7 +7172,7 @@ goto
 done
 ;
 case
-LIR_and
+LIR_andi
 :
 ANDI
 (
@@ -7185,7 +7185,7 @@ goto
 done
 ;
 case
-LIR_xor
+LIR_xori
 :
 XORI
 (
@@ -7221,7 +7221,7 @@ op
 )
 {
 case
-LIR_lsh
+LIR_lshi
 :
 SLL
 (
@@ -7236,7 +7236,7 @@ goto
 done
 ;
 case
-LIR_ush
+LIR_rshui
 :
 SRL
 (
@@ -7251,7 +7251,7 @@ goto
 done
 ;
 case
-LIR_rsh
+LIR_rshi
 :
 SRA
 (
@@ -7319,7 +7319,7 @@ op
 )
 {
 case
-LIR_addxov
+LIR_addxovi
 :
 SLT
 (
@@ -7338,7 +7338,7 @@ rb
 break
 ;
 case
-LIR_add
+LIR_addi
 :
 ADDU
 (
@@ -7350,7 +7350,7 @@ rb
 break
 ;
 case
-LIR_and
+LIR_andi
 :
 AND
 (
@@ -7362,7 +7362,7 @@ rb
 break
 ;
 case
-LIR_or
+LIR_ori
 :
 OR
 (
@@ -7374,7 +7374,7 @@ rb
 break
 ;
 case
-LIR_xor
+LIR_xori
 :
 XOR
 (
@@ -7386,7 +7386,7 @@ rb
 break
 ;
 case
-LIR_subxov
+LIR_subxovi
 :
 SLT
 (
@@ -7405,7 +7405,7 @@ rb
 break
 ;
 case
-LIR_sub
+LIR_subi
 :
 SUBU
 (
@@ -7417,7 +7417,7 @@ rb
 break
 ;
 case
-LIR_lsh
+LIR_lshi
 :
 SLLV
 (
@@ -7436,7 +7436,7 @@ rb
 break
 ;
 case
-LIR_rsh
+LIR_rshi
 :
 SRAV
 (
@@ -7455,7 +7455,7 @@ rb
 break
 ;
 case
-LIR_ush
+LIR_rshui
 :
 SRLV
 (
@@ -7474,7 +7474,7 @@ rb
 break
 ;
 case
-LIR_mulxov
+LIR_mulxovi
 :
 t
 =
@@ -7587,7 +7587,7 @@ rb
 break
 ;
 case
-LIR_mul
+LIR_muli
 :
 MUL
 (
@@ -7676,19 +7676,19 @@ NanoAssert
 op
 =
 =
-LIR_stqi
+LIR_stq
 |
 |
 op
 =
 =
-LIR_st32f
+LIR_std2f
 |
 |
 op
 =
 =
-LIR_stfi
+LIR_std
 )
 ;
 #
@@ -7698,13 +7698,13 @@ NanoAssert
 op
 =
 =
-LIR_st32f
+LIR_std2f
 |
 |
 op
 =
 =
-LIR_stfi
+LIR_std
 )
 ;
 #
@@ -7715,7 +7715,7 @@ op
 )
 {
 case
-LIR_stfi
+LIR_std
 :
 if
 (
@@ -7882,7 +7882,7 @@ FP
 break
 ;
 case
-LIR_st32f
+LIR_std2f
 :
 NanoAssertMsg
 (
@@ -7986,7 +7986,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 ;
 }
@@ -8013,7 +8013,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -8237,7 +8237,7 @@ condop
 )
 {
 case
-LIR_eq
+LIR_eqi
 :
 SLTIU
 (
@@ -8256,7 +8256,7 @@ rb
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 SLT
 (
@@ -8268,7 +8268,7 @@ rb
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 SLT
 (
@@ -8280,7 +8280,7 @@ ra
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 XORI
 (
@@ -8299,7 +8299,7 @@ ra
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 XORI
 (
@@ -8318,7 +8318,7 @@ rb
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 SLTU
 (
@@ -8330,7 +8330,7 @@ rb
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 SLTU
 (
@@ -8342,26 +8342,7 @@ ra
 break
 ;
 case
-LIR_ule
-:
-XORI
-(
-cr
-cr
-1
-)
-;
-SLTU
-(
-cr
-rb
-ra
-)
-;
-break
-;
-case
-LIR_uge
+LIR_leui
 :
 XORI
 (
@@ -8373,6 +8354,25 @@ cr
 SLTU
 (
 cr
+rb
+ra
+)
+;
+break
+;
+case
+LIR_geui
+:
+XORI
+(
+cr
+cr
+1
+)
+;
+SLTU
+(
+cr
 ra
 rb
 )
@@ -8380,7 +8380,7 @@ rb
 break
 ;
 case
-LIR_feq
+LIR_eqd
 :
 C_EQ_D
 (
@@ -8391,7 +8391,7 @@ rb
 break
 ;
 case
-LIR_flt
+LIR_ltd
 :
 C_LT_D
 (
@@ -8402,7 +8402,7 @@ rb
 break
 ;
 case
-LIR_fgt
+LIR_gtd
 :
 C_LT_D
 (
@@ -8413,7 +8413,7 @@ ra
 break
 ;
 case
-LIR_fle
+LIR_led
 :
 C_LE_D
 (
@@ -8424,7 +8424,7 @@ rb
 break
 ;
 case
-LIR_fge
+LIR_ged
 :
 C_LE_D
 (
@@ -9059,7 +9059,7 @@ condop
 )
 {
 case
-LIR_feq
+LIR_eqd
 :
 if
 (
@@ -9097,7 +9097,7 @@ rb
 break
 ;
 case
-LIR_flt
+LIR_ltd
 :
 if
 (
@@ -9135,7 +9135,7 @@ rb
 break
 ;
 case
-LIR_fgt
+LIR_gtd
 :
 if
 (
@@ -9173,7 +9173,7 @@ ra
 break
 ;
 case
-LIR_fle
+LIR_led
 :
 if
 (
@@ -9211,7 +9211,7 @@ rb
 break
 ;
 case
-LIR_fge
+LIR_ged
 :
 if
 (
@@ -9298,7 +9298,7 @@ condop
 )
 {
 case
-LIR_eq
+LIR_eqi
 :
 /
 /
@@ -9356,7 +9356,7 @@ _nIns
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 if
 (
@@ -9391,7 +9391,7 @@ rb
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 if
 (
@@ -9426,7 +9426,7 @@ ra
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 if
 (
@@ -9461,7 +9461,7 @@ ra
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 if
 (
@@ -9496,7 +9496,7 @@ rb
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 if
 (
@@ -9531,7 +9531,7 @@ rb
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 if
 (
@@ -9566,7 +9566,7 @@ ra
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 if
 (
@@ -9601,7 +9601,7 @@ ra
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 if
 (
@@ -9723,7 +9723,7 @@ void
 asm_bxx
 (
 true
-LIR_eq
+LIR_eqi
 AT
 ZERO
 target
@@ -9901,7 +9901,7 @@ void
 asm_bxx
 (
 false
-LIR_eq
+LIR_eqi
 ZERO
 ZERO
 targ
@@ -10449,7 +10449,7 @@ op
 )
 {
 case
-LIR_fcall
+LIR_calld
 :
 NanoAssert
 (
@@ -10463,7 +10463,7 @@ FV0
 break
 ;
 case
-LIR_icall
+LIR_calli
 :
 rr
 =
@@ -12308,7 +12308,7 @@ if
 op
 =
 =
-LIR_icall
+LIR_calli
 )
 prefer
 =
@@ -12326,7 +12326,7 @@ if
 op
 =
 =
-LIR_callh
+LIR_hcalli
 )
 prefer
 =
@@ -12343,7 +12343,7 @@ if
 op
 =
 =
-LIR_fcall
+LIR_calld
 )
 prefer
 =
@@ -12358,7 +12358,7 @@ if
 op
 =
 =
-LIR_param
+LIR_paramp
 )
 {
 /
