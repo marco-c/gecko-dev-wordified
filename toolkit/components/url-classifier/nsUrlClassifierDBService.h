@@ -235,6 +235,9 @@ nsUrlClassifierDBServiceWorker
 class
 nsIThread
 ;
+class
+nsIURI
+;
 /
 /
 This
