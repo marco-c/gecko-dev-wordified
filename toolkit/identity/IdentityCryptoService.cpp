@@ -1776,13 +1776,13 @@ slot
 mechanism
 params
 publicKey
-PR_FALSE
+false
 /
 *
 isPerm
 *
 /
-PR_TRUE
+true
 /
 *
 isSensitive

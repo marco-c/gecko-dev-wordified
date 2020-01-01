@@ -1913,7 +1913,7 @@ value
 .
 non_blocking
 =
-PR_TRUE
+true
 ;
 status
 =

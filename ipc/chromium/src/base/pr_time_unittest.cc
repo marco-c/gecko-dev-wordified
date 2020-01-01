@@ -449,7 +449,7 @@ result
 PR_ParseTimeString
 (
 time_buf
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -495,7 +495,7 @@ Oct
 00
 GMT
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -539,7 +539,7 @@ Oct
 :
 00
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -582,7 +582,7 @@ Oct
 45
 GMT
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -626,7 +626,7 @@ Oct
 PDT
 2007
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -670,7 +670,7 @@ Oct
 45
 PM
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -717,7 +717,7 @@ PR_ParseTimeString
 00
 PM
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -761,7 +761,7 @@ OCT
 :
 45pm
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -808,7 +808,7 @@ JST
 Tuesday
 )
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -1742,7 +1742,7 @@ Jan
 00
 3001
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -1782,7 +1782,7 @@ Oct
 PDT
 2007
 "
-PR_FALSE
+false
 &
 parsed_time
 )
@@ -1826,7 +1826,7 @@ Oct
 PDT
 2007
 "
-PR_FALSE
+false
 &
 parsed_time
 )

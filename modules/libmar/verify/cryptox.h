@@ -227,7 +227,7 @@ SignatureHandle
 VFY_DestroyContext
 (
 SignatureHandle
-PR_TRUE
+true
 )
 #
 define

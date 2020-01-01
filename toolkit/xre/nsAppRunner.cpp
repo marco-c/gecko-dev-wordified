@@ -15282,7 +15282,7 @@ NS_VISIBILITY_DEFAULT
 PRBool
 nspr_use_zone_allocator
 =
-PR_FALSE
+false
 ;
 #
 ifdef

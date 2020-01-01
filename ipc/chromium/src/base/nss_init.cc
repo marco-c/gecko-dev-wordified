@@ -235,7 +235,7 @@ SECMOD_LoadUserModule
 (
 modparams
 NULL
-PR_FALSE
+false
 )
 ;
 if
@@ -478,7 +478,7 @@ SSL
 SSL_OptionSetDefault
 (
 SSL_SECURITY
-PR_TRUE
+true
 )
 ;
 /

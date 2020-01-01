@@ -3565,7 +3565,7 @@ pwd
 {
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 cpr_free
@@ -6902,7 +6902,7 @@ never
 happen
 PR_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -7105,7 +7105,7 @@ ret
 {
 PR_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -7296,7 +7296,7 @@ ret
 {
 PR_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -13607,7 +13607,7 @@ Implemented
 ;
 PR_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -13631,7 +13631,7 @@ error
 ;
 PR_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -13780,7 +13780,7 @@ error
 ;
 PR_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return

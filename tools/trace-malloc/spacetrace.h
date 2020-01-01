@@ -3013,7 +3013,7 @@ cache
 *
 mInUse
 Mainly
-PR_FALSE
+false
 only
 at
 the

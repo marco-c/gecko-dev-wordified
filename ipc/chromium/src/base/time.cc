@@ -700,7 +700,7 @@ ascii_time_string
 c_str
 (
 )
-PR_FALSE
+false
 &
 result_time
 )
