@@ -9662,10 +9662,8 @@ SetCoordValue
 )
 ;
 mWordSpacing
-.
-SetNormalValue
-(
-)
+=
+0
 ;
 mTextShadow
 =

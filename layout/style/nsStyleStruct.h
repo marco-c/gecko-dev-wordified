@@ -5074,7 +5074,7 @@ inherited
 ]
 coord
 percent
-nsStyleCoord
+nscoord
 mWordSpacing
 ;
 /
@@ -5082,8 +5082,6 @@ mWordSpacing
 [
 inherited
 ]
-coord
-normal
 nsRefPtr
 <
 nsCSSShadowArray
