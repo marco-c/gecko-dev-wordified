@@ -1410,6 +1410,13 @@ NS_OK
 ;
 if
 (
+!
+dl
+-
+>
+mPrivate
+&
+&
 dl
 -
 >
@@ -14655,12 +14662,6 @@ a
 blank
 one
 .
-PauseAllDownloads
-(
-mCurrentPrivateDownloads
-true
-)
-;
 RemoveAllDownloads
 (
 mCurrentPrivateDownloads
