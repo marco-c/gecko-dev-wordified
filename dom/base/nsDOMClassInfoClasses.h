@@ -2047,6 +2047,10 @@ WebGLExtensionStandardDerivatives
 )
 DOMCI_CLASS
 (
+WebGLExtensionTextureFilterAnisotropic
+)
+DOMCI_CLASS
+(
 WebGLExtensionLoseContext
 )
 DOMCI_CLASS
@@ -2213,4 +2217,8 @@ endif
 DOMCI_CLASS
 (
 DOMError
+)
+DOMCI_CLASS
+(
+DOMRequest
 )

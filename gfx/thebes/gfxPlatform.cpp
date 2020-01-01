@@ -581,7 +581,7 @@ h
 #
 include
 "
-gfxUnicodeProperties
+nsUnicodeProperties
 .
 h
 "
@@ -626,13 +626,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsIUGenCategory
 .
 h
 "
@@ -1013,7 +1006,10 @@ scripts
 #
 define
 HARFBUZZ_SCRIPTS_DEFAULT
-gfxUnicodeProperties
+mozilla
+:
+:
+unicode
 :
 :
 SHAPING_DEFAULT
@@ -4087,7 +4083,10 @@ HARFBUZZ_SCRIPTS_DEFAULT
 PRInt32
 shapingType
 =
-gfxUnicodeProperties
+mozilla
+:
+:
+unicode
 :
 :
 ScriptShapingType

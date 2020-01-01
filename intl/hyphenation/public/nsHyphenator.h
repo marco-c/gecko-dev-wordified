@@ -422,9 +422,6 @@ class
 nsIURI
 ;
 class
-nsIUGenCategory
-;
-class
 nsHyphenator
 {
 public
@@ -472,12 +469,6 @@ protected
 void
 *
 mDict
-;
-nsCOMPtr
-<
-nsIUGenCategory
->
-mCategories
 ;
 }
 ;

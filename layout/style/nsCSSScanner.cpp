@@ -1117,7 +1117,7 @@ SI
 SI
 }
 ;
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 NS_ARRAY_LENGTH
 (
@@ -1126,6 +1126,18 @@ gLexTable
 =
 =
 256
+"
+gLexTable
+expected
+to
+cover
+all
+2
+^
+8
+possible
+PRUint8s
+"
 )
 ;
 #

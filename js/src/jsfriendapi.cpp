@@ -3149,6 +3149,13 @@ finish
 (
 )
 ;
+fflush
+(
+dtrc
+.
+output
+)
+;
 }
 #
 endif

@@ -505,13 +505,6 @@ h
 #
 include
 "
-gfxUnicodeProperties
-.
-h
-"
-#
-include
-"
 gfxFontUtils
 .
 h

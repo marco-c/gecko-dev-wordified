@@ -994,6 +994,14 @@ cx
 b
 )
 ;
+if
+(
+!
+obj
+)
+return
+false
+;
 args
 .
 rval

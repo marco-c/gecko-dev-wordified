@@ -818,7 +818,7 @@ h
 #
 include
 "
-gfxUnicodeScriptCodes
+nsUnicodeScriptCodes
 .
 h
 "

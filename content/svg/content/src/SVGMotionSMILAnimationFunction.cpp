@@ -3036,7 +3036,7 @@ UnsetKeyPoints
 (
 )
 {
-mKeyTimes
+mKeyPoints
 .
 Clear
 (

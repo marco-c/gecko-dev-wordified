@@ -9617,6 +9617,7 @@ charData
 CloneNode
 (
 false
+1
 getter_AddRefs
 (
 clone
@@ -9934,6 +9935,7 @@ node
 CloneNode
 (
 false
+1
 getter_AddRefs
 (
 clone
@@ -10787,6 +10789,7 @@ parent
 CloneNode
 (
 false
+1
 getter_AddRefs
 (
 clone
@@ -11379,6 +11382,7 @@ node
 CloneNode
 (
 deepClone
+1
 getter_AddRefs
 (
 clone

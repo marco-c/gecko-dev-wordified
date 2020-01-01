@@ -3235,11 +3235,12 @@ space
 on
 the
 stack
-unless
+if
 it
 '
 s
-very
+not
+too
 large
 .
 Sounds
@@ -3300,7 +3301,7 @@ heap
 nsAutoTArray
 <
 PRUint8
-8192
+64
 Alloc
 >
 temp

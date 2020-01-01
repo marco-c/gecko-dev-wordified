@@ -523,13 +523,6 @@ h
 #
 include
 "
-gfxUnicodeProperties
-.
-h
-"
-#
-include
-"
 cairo
 -
 win32
