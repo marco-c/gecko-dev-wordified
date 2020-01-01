@@ -2119,9 +2119,6 @@ if
 element
 )
 {
-nsresult
-rv
-;
 size
 =
 element
