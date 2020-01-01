@@ -1385,6 +1385,14 @@ gLexTable
 }
 protected
 :
+PRBool
+EnsureData
+(
+nsresult
+&
+aErrorCode
+)
+;
 PRInt32
 Read
 (
@@ -1599,9 +1607,6 @@ mPushbackCount
 ;
 PRInt32
 mPushbackSize
-;
-PRInt32
-mLastRead
 ;
 PRUnichar
 mLocalPushback
