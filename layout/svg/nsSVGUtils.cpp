@@ -10992,7 +10992,7 @@ void
 nsSVGUtils
 :
 :
-SetupCairoStrokeHitGeometry
+SetupCairoStrokeGeometry
 (
 nsIFrame
 *
@@ -11401,7 +11401,7 @@ return
 false
 ;
 }
-SetupCairoStrokeHitGeometry
+SetupCairoStrokeGeometry
 (
 aFrame
 aContext

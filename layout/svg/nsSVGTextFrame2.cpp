@@ -32786,7 +32786,7 @@ IdentityMatrix
 nsSVGUtils
 :
 :
-SetupCairoStrokeHitGeometry
+SetupCairoStrokeGeometry
 (
 aFrame
 aContext
