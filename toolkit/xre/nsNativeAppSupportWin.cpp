@@ -2610,9 +2610,9 @@ HSZ
 hsz2
 HDDEDATA
 hdata
-ULONG
+ULONG_PTR
 dwData1
-ULONG
+ULONG_PTR
 dwData2
 )
 ;
@@ -4063,7 +4063,7 @@ Window
 proc
 .
 static
-long
+LRESULT
 CALLBACK
 WindowProc
 (
@@ -5950,7 +5950,7 @@ a
 global
 memory
 object
-ULONG
+ULONG_PTR
 dwData1
 /
 /
@@ -5958,7 +5958,7 @@ transaction
 -
 specific
 data
-ULONG
+ULONG_PTR
 dwData2
 )
 {
