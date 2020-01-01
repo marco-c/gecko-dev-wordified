@@ -2914,7 +2914,12 @@ seenItems
 winId
 ]
 =
+Cu
+.
+getWeakReference
+(
 win
+)
 ;
 }
 }
@@ -14230,7 +14235,12 @@ reg
 id
 ]
 =
+Cu
+.
+getWeakReference
+(
 listenerWindow
+)
 ;
 /
 /
