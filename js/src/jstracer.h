@@ -4844,9 +4844,6 @@ profileLoopEdge
 JSContext
 *
 cx
-uintN
-&
-inlineCallCount
 )
 ;
 /
@@ -10855,9 +10852,6 @@ attemptTreeCall
 TreeFragment
 *
 inner
-uintN
-&
-inlineCallCount
 )
 ;
 static
@@ -10871,9 +10865,6 @@ cx
 TraceRecorder
 *
 r
-uintN
-&
-inlineCallCount
 )
 ;
 /
@@ -11334,8 +11325,6 @@ JSContext
 *
 TraceMonitor
 *
-uintN
-&
 )
 ;
 friend
@@ -11346,9 +11335,6 @@ JSContext
 *
 TraceMonitor
 *
-uintN
-&
-inlineCallCount
 bool
 *
 blacklist
@@ -12009,9 +11995,6 @@ MonitorLoopEdge
 JSContext
 *
 cx
-uintN
-&
-inlineCallCount
 InterpMode
 interpMode
 )
@@ -12023,9 +12006,6 @@ RecordTracePoint
 (
 JSContext
 *
-uintN
-&
-inlineCallCount
 bool
 *
 blacklist
@@ -12038,9 +12018,6 @@ MonitorTracePoint
 (
 JSContext
 *
-uintN
-&
-inlineCallCount
 bool
 *
 blacklist

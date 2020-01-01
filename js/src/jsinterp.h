@@ -1934,10 +1934,6 @@ cx
 StackFrame
 *
 stopFp
-uintN
-inlineCallCount
-=
-0
 InterpMode
 mode
 =
