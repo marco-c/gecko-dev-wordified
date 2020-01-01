@@ -7421,7 +7421,9 @@ keyhole
 -
 forward
 -
-mask
+clip
+-
+path
 to
 be
 used
@@ -8195,7 +8197,9 @@ regresses
 twinopen
 *
 /
-mask
+clip
+-
+path
 :
 url
 (
@@ -8217,7 +8221,9 @@ keyhole
 -
 forward
 -
-mask
+clip
+-
+path
 )
 ;
 -
@@ -10770,7 +10776,9 @@ urlbar
 -
 container
 {
-mask
+clip
+-
+path
 :
 url
 (
@@ -10795,7 +10803,9 @@ back
 -
 button
 -
-mask
+clip
+-
+path
 "
 )
 ;
