@@ -517,14 +517,6 @@ bool
 aIsDefaultBrowser
 )
 ;
-bool
-GetMailAccountKey
-(
-HKEY
-*
-aResult
-)
-;
 private
 :
 bool
