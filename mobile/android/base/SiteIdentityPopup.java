@@ -525,8 +525,6 @@ public
 void
 show
 (
-View
-v
 int
 leftMargin
 )
@@ -1068,7 +1066,11 @@ vertical
 position
 showAsDropDown
 (
-v
+GeckoApp
+.
+mBrowserToolbar
+.
+mSiteSecurity
 )
 ;
 }
