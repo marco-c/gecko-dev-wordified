@@ -861,9 +861,6 @@ Value
 vp
 )
 {
-AutoAssertCanGC
-cangc
-;
 #
 ifdef
 DEBUG
@@ -1384,9 +1381,6 @@ double
 dp
 )
 {
-AutoAssertCanGC
-cangc
-;
 #
 ifdef
 DEBUG

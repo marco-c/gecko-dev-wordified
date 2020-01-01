@@ -1661,9 +1661,6 @@ idp
 )
 const
 {
-AutoAssertCanGC
-cangc
-;
 const
 Shape
 *
