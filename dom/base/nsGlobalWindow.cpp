@@ -3754,7 +3754,7 @@ cx
 "
 [
 object
-WindowProxy
+Window
 ]
 "
 )
