@@ -484,13 +484,6 @@ MOZ_B2G_BT
 #
 include
 "
-nsIDOMBluetoothManager
-.
-h
-"
-#
-include
-"
 BluetoothManager
 .
 h
@@ -6387,7 +6380,10 @@ MOZ_B2G_RIL
 #
 ifdef
 MOZ_B2G_BT
-nsIDOMBluetoothManager
+bluetooth
+:
+:
+BluetoothManager
 *
 Navigator
 :
