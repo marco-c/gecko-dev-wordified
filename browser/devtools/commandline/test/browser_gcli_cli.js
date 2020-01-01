@@ -3328,10 +3328,6 @@ error
 :
 '
 '
-predictions
-:
-[
-]
 unassigned
 :
 [

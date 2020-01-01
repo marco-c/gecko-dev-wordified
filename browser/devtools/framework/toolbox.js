@@ -389,6 +389,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -398,7 +399,8 @@ gcli
 .
 jsm
 "
-scope
+{
+}
 )
 ;
 let
