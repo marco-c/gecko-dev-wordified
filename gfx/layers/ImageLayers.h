@@ -1541,6 +1541,15 @@ aContainer
 {
 NS_ASSERTION
 (
+!
+aContainer
+-
+>
+Manager
+(
+)
+|
+|
 aContainer
 -
 >
