@@ -1834,6 +1834,17 @@ Condition
 cond
 )
 {
+return
+Condition
+(
+0x80000000
+^
+cond
+)
+;
+#
+if
+0
 switch
 (
 cond
@@ -1931,6 +1942,8 @@ return
 Equal
 ;
 }
+#
+endif
 }
 Imm8
 :
@@ -8669,7 +8682,10 @@ that
 into
 target
 .
+DebugOnly
+<
 uint32
+>
 prev
 =
 target

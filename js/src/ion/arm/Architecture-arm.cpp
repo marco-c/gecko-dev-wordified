@@ -22,6 +22,15 @@ return
 true
 ;
 }
+bool
+has32DR
+(
+)
+{
+return
+true
+;
+}
 }
 /
 /
