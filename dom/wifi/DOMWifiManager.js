@@ -1929,7 +1929,7 @@ _currentNetwork
 ;
 }
 get
-connectionInfo
+connectionInformation
 (
 )
 {
@@ -1955,9 +1955,12 @@ NS_ERROR_FAILURE
 )
 ;
 return
+exposeReadOnly
+(
 this
 .
 _lastConnectionInfo
+)
 ;
 }
 set
