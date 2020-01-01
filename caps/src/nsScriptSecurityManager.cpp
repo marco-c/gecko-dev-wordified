@@ -848,6 +848,14 @@ sRuntime
 =
 0
 ;
+PRInt32
+nsScriptSecurityManager
+:
+:
+sFileURIOriginPolicy
+=
+FILEURI_SOP_SELF
+;
 /
 /
 Info
@@ -1740,6 +1748,11 @@ return
 cx
 ;
 }
+/
+*
+static
+*
+/
 PRBool
 nsScriptSecurityManager
 :
@@ -2370,7 +2383,7 @@ same
 origin
 if
 (
-mFileURIOriginPolicy
+sFileURIOriginPolicy
 =
 =
 FILEURI_SOP_TRADITIONAL
@@ -2435,7 +2448,7 @@ if
 filesAreEqual
 |
 |
-mFileURIOriginPolicy
+sFileURIOriginPolicy
 =
 =
 FILEURI_SOP_SELF
@@ -2529,7 +2542,7 @@ re
 done
 if
 (
-mFileURIOriginPolicy
+sFileURIOriginPolicy
 =
 =
 FILEURI_SOP_ANYFILE
@@ -2626,7 +2639,7 @@ remaining
 policies
 if
 (
-mFileURIOriginPolicy
+sFileURIOriginPolicy
 =
 =
 FILEURI_SOP_SAMEDIR
@@ -2695,7 +2708,7 @@ sameParent
 }
 if
 (
-mFileURIOriginPolicy
+sFileURIOriginPolicy
 =
 =
 FILEURI_SOP_SUBDIR
@@ -18583,10 +18596,6 @@ PR_FALSE
 )
 #
 endif
-mFileURIOriginPolicy
-(
-FILEURI_SOP_SELF
-)
 {
 NS_ASSERTION
 (
@@ -22097,7 +22106,7 @@ sFileOriginPolicyPrefName
 policy
 )
 ;
-mFileURIOriginPolicy
+sFileURIOriginPolicy
 =
 NS_SUCCEEDED
 (
