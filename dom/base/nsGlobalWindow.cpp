@@ -61160,9 +61160,15 @@ contentDOMWindow
 )
 )
 )
+{
+mGeolocation
+=
+nsnull
+;
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_ADDREF
 (
 *
