@@ -467,6 +467,9 @@ be
 void
 .
 #
+ifndef
+__LP64__
+#
 import
 <
 Carbon
@@ -475,6 +478,8 @@ Carbon
 .
 h
 >
+#
+endif
 #
 include
 "
@@ -514,6 +519,9 @@ cross
 platform
 code
 .
+#
+ifndef
+__LP64__
 /
 /
 Get
@@ -541,6 +549,8 @@ nsRect
 outRect
 )
 ;
+#
+endif
 /
 /
 Get
