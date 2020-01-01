@@ -5302,10 +5302,6 @@ HandleScript
 script
 Node
 fn
-FunctionBox
-*
-*
-funbox
 bool
 strict
 bool
@@ -5322,6 +5318,7 @@ becameStrict
 =
 false
 ;
+FunctionBox
 *
 funbox
 =
@@ -5353,7 +5350,6 @@ handler
 setFunctionBox
 (
 fn
-*
 funbox
 )
 ;
@@ -5365,7 +5361,6 @@ funpc
 (
 this
 pc
-*
 funbox
 /
 *
@@ -5586,10 +5581,7 @@ Bindings
 fromMarkedLocation
 (
 &
-(
-*
 funbox
-)
 -
 >
 bindings
