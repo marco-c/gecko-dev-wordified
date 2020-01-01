@@ -1863,9 +1863,6 @@ nsCString
 mOscpu
 ;
 nsCString
-mDeviceType
-;
-nsCString
 mLanguage
 ;
 nsCString
