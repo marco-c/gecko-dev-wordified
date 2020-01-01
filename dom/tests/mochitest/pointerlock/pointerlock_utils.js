@@ -483,6 +483,18 @@ function
 (
 )
 {
+if
+(
+typeof
+start
+!
+=
+=
+'
+undefined
+'
+)
+{
 SimpleTest
 .
 waitForFocus
@@ -490,6 +502,7 @@ waitForFocus
 start
 )
 ;
+}
 }
 )
 ;
