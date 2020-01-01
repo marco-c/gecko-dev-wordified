@@ -31122,7 +31122,6 @@ CGGeneric
     
 return
 result
-;
 def
 convertConstIDLValueToJSVal
 (
@@ -36623,20 +36622,6 @@ nativeType
 )
         
 if
-resultAlreadyAddRefed
-:
-            
-result
-=
-CGTemplatedType
-(
-"
-nsRefPtr
-"
-result
-)
-        
-elif
 descriptorProvider
 .
 getDescriptor
@@ -36669,6 +36654,20 @@ CGTemplatedType
 (
 "
 nsAutoPtr
+"
+result
+)
+        
+elif
+resultAlreadyAddRefed
+:
+            
+result
+=
+CGTemplatedType
+(
+"
+nsRefPtr
 "
 result
 )
