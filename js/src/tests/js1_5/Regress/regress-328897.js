@@ -292,7 +292,7 @@ set
 call
 window
 .
-alert
+showModalDialog
 (
 )
 without
@@ -303,7 +303,7 @@ throw
 .
 window
 .
-alert
+showModalDialog
 (
 )
 ;
