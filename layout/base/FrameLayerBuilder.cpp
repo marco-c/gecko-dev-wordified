@@ -16367,6 +16367,7 @@ UpdateContents
 aLayer
 aState
 mContainerLayerGeneration
+aItem
 )
 ;
 }
