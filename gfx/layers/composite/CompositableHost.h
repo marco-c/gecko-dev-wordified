@@ -1264,7 +1264,7 @@ we
 have
 created
 with
-PLayers
+PLayerTransaction
 .
 So
 the
@@ -1322,7 +1322,7 @@ have
 a
 compositor
 /
-PLayers
+PLayerTransaction
 protocol
 /
 etc

@@ -137,9 +137,6 @@ class
 LayerManager
 ;
 class
-ShadowLayersParent
-;
-class
 ShadowLayerParent
 :
 public

@@ -455,7 +455,7 @@ mozilla
 /
 layers
 /
-ShadowLayersParent
+LayerTransactionParent
 .
 h
 "
@@ -3560,7 +3560,7 @@ nsWindow
 :
 GetLayerManager
 (
-PLayersChild
+PLayerTransactionChild
 *
 LayersBackend
 LayerManagerPersistence
@@ -14106,7 +14106,7 @@ mozilla
 layers
 :
 :
-ShadowLayersParent
+LayerTransactionParent
 *
 aLayerTree
 const
