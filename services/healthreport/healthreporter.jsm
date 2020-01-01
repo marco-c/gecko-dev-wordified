@@ -7780,8 +7780,11 @@ HealthReporter
 .
 *
 /
-function
+this
+.
 HealthReporter
+=
+function
 (
 branch
 policy
@@ -7876,6 +7879,8 @@ this
 )
 ;
 }
+this
+.
 HealthReporter
 .
 prototype
