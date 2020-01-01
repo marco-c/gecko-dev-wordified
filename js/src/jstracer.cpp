@@ -8957,7 +8957,7 @@ false
 #
 define
 HOTLOOP
-10
+2
 #
 define
 HOTEXIT
