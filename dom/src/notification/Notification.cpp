@@ -1863,13 +1863,10 @@ WasPassed
 {
 permissionCallback
 =
+&
 aCallback
 .
 Value
-(
-)
-.
-get
 (
 )
 ;

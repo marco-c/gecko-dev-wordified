@@ -1847,13 +1847,10 @@ WasPassed
 {
 failureCallback
 =
+&
 aFailureCallback
 .
 Value
-(
-)
-.
-get
 (
 )
 ;
