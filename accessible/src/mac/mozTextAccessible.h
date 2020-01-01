@@ -117,3 +117,10 @@ mGeckoEditableTextAccessible
 strong
 }
 end
+interface
+mozTextLeafAccessible
+:
+mozAccessible
+{
+}
+end
