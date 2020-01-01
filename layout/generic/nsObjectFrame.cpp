@@ -35205,6 +35205,17 @@ CGContextRef
 cgContext
 )
 {
+if
+(
+!
+mInstance
+|
+|
+!
+mObjectFrame
+)
+return
+;
 /
 /
 The
