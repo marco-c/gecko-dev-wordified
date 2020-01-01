@@ -13,6 +13,8 @@ Copyright
 c
 )
 2009
+Jay
+Loden
 Giampaolo
 Rodola
 '
@@ -87,7 +89,18 @@ PY3
 from
 test_psutil
 import
-*
+DEVNULL
+from
+test_psutil
+import
+(
+reap_children
+get_test_subprocess
+sh
+which
+                         
+skipUnless
+)
 PAGESIZE
 =
 os
@@ -98,6 +111,14 @@ sysconf
 SC_PAGE_SIZE
 "
 )
+TOLERANCE
+=
+200
+*
+1024
+#
+200
+KB
 MUSE_AVAILABLE
 =
 which
@@ -303,6 +324,69 @@ self
         
 reap_children
 (
+)
+    
+def
+assert_eq_w_tol
+(
+self
+first
+second
+tolerance
+)
+:
+        
+difference
+=
+abs
+(
+first
+-
+second
+)
+        
+if
+difference
+<
+=
+tolerance
+:
+            
+return
+        
+msg
+=
+'
+%
+r
+!
+=
+%
+r
+within
+%
+r
+delta
+(
+%
+r
+difference
+)
+'
+\
+              
+%
+(
+first
+second
+tolerance
+difference
+)
+        
+raise
+AssertionError
+(
+msg
 )
     
 def
@@ -1010,10 +1094,6 @@ total
 syst
 )
     
-retry_before_failing
-(
-)
-    
 def
 test_vmem_active
 (
@@ -1040,7 +1120,7 @@ PAGESIZE
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1050,14 +1130,7 @@ virtual_memory
 .
 active
 syst
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1086,7 +1159,7 @@ PAGESIZE
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1096,14 +1169,7 @@ virtual_memory
 .
 inactive
 syst
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1132,7 +1198,7 @@ PAGESIZE
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1142,14 +1208,7 @@ virtual_memory
 .
 wired
 syst
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1178,7 +1237,7 @@ PAGESIZE
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1188,14 +1247,7 @@ virtual_memory
 .
 cached
 syst
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1224,7 +1276,7 @@ PAGESIZE
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1234,14 +1286,7 @@ virtual_memory
 .
 free
 syst
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1264,7 +1309,7 @@ bufspace
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1274,9 +1319,6 @@ virtual_memory
 .
 buffers
 syst
-                               
-delta
-=
 TOLERANCE
 )
     
@@ -1292,19 +1334,9 @@ tests
 against
 muse
     
-unittest
-.
 skipUnless
 (
 MUSE_AVAILABLE
-"
-muse
-cmdline
-tool
-is
-not
-available
-"
 )
     
 def
@@ -1337,23 +1369,9 @@ total
 num
 )
     
-unittest
-.
 skipUnless
 (
 MUSE_AVAILABLE
-"
-muse
-cmdline
-tool
-is
-not
-available
-"
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1374,7 +1392,7 @@ Active
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1384,29 +1402,12 @@ virtual_memory
 .
 active
 num
-                               
-delta
-=
 TOLERANCE
 )
     
-unittest
-.
 skipUnless
 (
 MUSE_AVAILABLE
-"
-muse
-cmdline
-tool
-is
-not
-available
-"
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1427,7 +1428,7 @@ Inactive
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1437,29 +1438,12 @@ virtual_memory
 .
 inactive
 num
-                               
-delta
-=
 TOLERANCE
 )
     
-unittest
-.
 skipUnless
 (
 MUSE_AVAILABLE
-"
-muse
-cmdline
-tool
-is
-not
-available
-"
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1480,7 +1464,7 @@ Wired
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1490,29 +1474,12 @@ virtual_memory
 .
 wired
 num
-                               
-delta
-=
 TOLERANCE
 )
     
-unittest
-.
 skipUnless
 (
 MUSE_AVAILABLE
-"
-muse
-cmdline
-tool
-is
-not
-available
-"
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1533,7 +1500,7 @@ Cache
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1543,29 +1510,12 @@ virtual_memory
 .
 cached
 num
-                               
-delta
-=
 TOLERANCE
 )
     
-unittest
-.
 skipUnless
 (
 MUSE_AVAILABLE
-"
-muse
-cmdline
-tool
-is
-not
-available
-"
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1586,7 +1536,7 @@ Free
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1596,29 +1546,12 @@ virtual_memory
 .
 free
 num
-                               
-delta
-=
 TOLERANCE
 )
     
-unittest
-.
 skipUnless
 (
 MUSE_AVAILABLE
-"
-muse
-cmdline
-tool
-is
-not
-available
-"
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1639,7 +1572,7 @@ Buffer
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -1649,15 +1582,15 @@ virtual_memory
 .
 buffers
 num
-                               
-delta
-=
 TOLERANCE
 )
-def
-test_main
-(
-)
+if
+__name__
+=
+=
+'
+__main__
+'
 :
     
 test_suite
@@ -1680,8 +1613,6 @@ BSDSpecificTestCase
 )
 )
     
-result
-=
 unittest
 .
 TextTestRunner
@@ -1694,33 +1625,4 @@ verbosity
 run
 (
 test_suite
-)
-    
-return
-result
-.
-wasSuccessful
-(
-)
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
-if
-not
-test_main
-(
-)
-:
-        
-sys
-.
-exit
-(
-1
 )

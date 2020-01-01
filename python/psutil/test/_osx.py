@@ -13,6 +13,8 @@ Copyright
 c
 )
 2009
+Jay
+Loden
 Giampaolo
 Rodola
 '
@@ -87,7 +89,9 @@ PY3
 from
 test_psutil
 import
-*
+reap_children
+get_test_subprocess
+sh
 PAGESIZE
 =
 os
@@ -98,6 +102,14 @@ sysconf
 SC_PAGE_SIZE
 "
 )
+TOLERANCE
+=
+500
+*
+1024
+#
+500
+KB
 def
 sysctl
 (
@@ -325,6 +337,70 @@ self
         
 reap_children
 (
+)
+    
+def
+assert_eq_w_tol
+(
+self
+first
+second
+tolerance
+)
+:
+        
+difference
+=
+abs
+(
+first
+-
+second
+)
+        
+if
+difference
+<
+=
+tolerance
+:
+            
+return
+        
+msg
+=
+'
+%
+r
+!
+=
+%
+r
+(
+tolerance
+=
+%
+r
+difference
+=
+%
+s
+)
+'
+\
+              
+%
+(
+first
+second
+tolerance
+difference
+)
+        
+raise
+AssertionError
+(
+msg
 )
     
 def
@@ -786,10 +862,6 @@ psutil
 TOTAL_PHYMEM
 )
     
-retry_before_failing
-(
-)
-    
 def
 test_vmem_free
 (
@@ -808,7 +880,7 @@ free
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -818,14 +890,7 @@ virtual_memory
 .
 free
 num
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -846,7 +911,7 @@ active
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -856,14 +921,7 @@ virtual_memory
 .
 active
 num
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -884,7 +942,7 @@ inactive
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -894,14 +952,7 @@ virtual_memory
 .
 inactive
 num
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -922,7 +973,7 @@ wired
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 psutil
 .
@@ -932,9 +983,6 @@ virtual_memory
 .
 wired
 num
-                               
-delta
-=
 TOLERANCE
 )
     
@@ -1115,10 +1163,13 @@ assertEqual
 tot1
 tot2
 )
-def
-test_main
-(
-)
+if
+__name__
+=
+=
+'
+__main__
+'
 :
     
 test_suite
@@ -1141,8 +1192,6 @@ OSXSpecificTestCase
 )
 )
     
-result
-=
 unittest
 .
 TextTestRunner
@@ -1155,33 +1204,4 @@ verbosity
 run
 (
 test_suite
-)
-    
-return
-result
-.
-wasSuccessful
-(
-)
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
-if
-not
-test_main
-(
-)
-:
-        
-sys
-.
-exit
-(
-1
 )

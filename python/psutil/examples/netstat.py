@@ -13,6 +13,8 @@ Copyright
 c
 )
 2009
+Jay
+Loden
 Giampaolo
 Rodola
 '
@@ -248,14 +250,6 @@ name
 )
 )
         
-except
-psutil
-.
-NoSuchProcess
-:
-            
-continue
-        
 else
 :
             
@@ -283,13 +277,13 @@ s
 (
 c
 .
-laddr
+local_address
 )
                 
 if
 c
 .
-raddr
+remote_address
 :
                     
 raddr
@@ -305,7 +299,7 @@ s
 (
 c
 .
-raddr
+remote_address
 )
                 
 print_

@@ -6,6 +6,8 @@ Copyright
 c
 )
 2009
+Jay
+Loden
 Giampaolo
 Rodola
 '
@@ -470,7 +472,7 @@ args
 static
 PyObject
 *
-get_net_io_counters
+get_network_io_counters
 (
 PyObject
 *

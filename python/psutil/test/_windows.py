@@ -13,6 +13,8 @@ Copyright
 c
 )
 2009
+Jay
+Loden
 Giampaolo
 Rodola
 '
@@ -75,6 +77,10 @@ signal
 import
 time
 import
+warnings
+import
+atexit
+import
 sys
 import
 subprocess
@@ -97,7 +103,10 @@ long
 from
 test_psutil
 import
-*
+reap_children
+get_test_subprocess
+wait_for_pid
+warn
 try
 :
     
@@ -118,8 +127,11 @@ exc_info
 1
 ]
     
-register_warning
+atexit
+.
+register
 (
+warn
 "
 Couldn
 '
@@ -164,8 +176,11 @@ exc_info
 1
 ]
     
-register_warning
+atexit
+.
+register
 (
+warn
 "
 Couldn
 '
@@ -490,7 +505,7 @@ nics
 =
 psutil
 .
-net_io_counters
+network_io_counters
 (
 pernic
 =
@@ -1199,28 +1214,6 @@ functions
 and
 constants
 tests
-        
-unittest
-.
-skipUnless
-(
-hasattr
-(
-os
-'
-NUMBER_OF_PROCESSORS
-'
-)
-                             
-'
-NUMBER_OF_PROCESSORS
-env
-var
-is
-not
-available
-'
-)
         
 def
 test_NUM_CPUS
@@ -2438,13 +2431,12 @@ in
 obj
 :
                     
-self
-.
-assertGreaterEqual
-(
+assert
 value
+>
+=
 0
-)
+value
             
 elif
 isinstance
@@ -2458,13 +2450,12 @@ float
 )
 :
                 
-self
-.
-assertGreaterEqual
-(
+assert
 obj
+>
+=
 0
-)
+obj
             
 else
 :
@@ -2523,13 +2514,12 @@ ret1
 ret2
 )
                     
-self
-.
-assertLessEqual
-(
+assert
 diff
+<
+=
 tolerance
-)
+diff
                 
 elif
 isinstance
@@ -2559,13 +2549,12 @@ a
 b
 )
                         
-self
-.
-assertLessEqual
-(
+assert
 diff
+<
+=
 tolerance
-)
+diff
         
 failures
 =
@@ -2616,28 +2605,6 @@ process_iter
 (
 )
 :
-                
-if
-name
-=
-=
-'
-get_process_memory_info
-'
-and
-p
-.
-pid
-=
-=
-os
-.
-getpid
-(
-)
-:
-                    
-continue
                 
 #
                 
@@ -2909,10 +2876,13 @@ NoSuchProcess
 meth
 ZOMBIE_PID
 )
-def
-test_main
-(
-)
+if
+__name__
+=
+=
+'
+__main__
+'
 :
     
 test_suite
@@ -2947,8 +2917,6 @@ TestDualProcessImplementation
 )
 )
     
-result
-=
 unittest
 .
 TextTestRunner
@@ -2961,33 +2929,4 @@ verbosity
 run
 (
 test_suite
-)
-    
-return
-result
-.
-wasSuccessful
-(
-)
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
-if
-not
-test_main
-(
-)
-:
-        
-sys
-.
-exit
-(
-1
 )
