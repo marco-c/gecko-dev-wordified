@@ -1483,11 +1483,6 @@ nsCookieAttributes
 aCookie
 )
 ;
-bool
-RequireThirdPartyCheck
-(
-)
-;
 CookieStatus
 CheckPrefs
 (

@@ -275,7 +275,7 @@ nsIHttpChannelInternal
 var
 httpchannel2
 =
-channel1
+channel2
 .
 QueryInterface
 (
