@@ -6287,6 +6287,9 @@ FlatJSObjectFinalized
 JSContext
 *
 cx
+JSObject
+*
+obj
 )
 {
 if
