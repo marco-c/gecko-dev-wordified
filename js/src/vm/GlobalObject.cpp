@@ -1063,7 +1063,6 @@ cx
 0
 0
 0
-0
 JSVERSION_DEFAULT
 )
 ;
