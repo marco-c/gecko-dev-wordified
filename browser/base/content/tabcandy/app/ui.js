@@ -825,7 +825,7 @@ An
 array
 of
 <
-Tab
+BrowserTab
 >
 objects
 .
@@ -2567,11 +2567,9 @@ visibleTabCount
 =
 Tabbar
 .
-getVisibleTabs
+getVisibleTabCount
 (
 )
-.
-length
 ;
 if
 (
