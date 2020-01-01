@@ -3452,6 +3452,11 @@ DO_STRUCT_DIFFERENCE
 Border
 )
 ;
+DO_STRUCT_DIFFERENCE
+(
+TextReset
+)
+;
 /
 /
 Changes
@@ -3547,11 +3552,6 @@ Margin
 DO_STRUCT_DIFFERENCE
 (
 Padding
-)
-;
-DO_STRUCT_DIFFERENCE
-(
-TextReset
 )
 ;
 /
