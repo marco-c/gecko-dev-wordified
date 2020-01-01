@@ -7712,7 +7712,6 @@ OBJECT_TO_JSVAL
 js_ComputeThis
 (
 cx
-JS_TRUE
 fp
 -
 >

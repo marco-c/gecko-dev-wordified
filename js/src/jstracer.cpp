@@ -66252,7 +66252,7 @@ thisObj
 RETURN_ERROR
 (
 "
-js_ComputeThisForName
+js_ComputeThisForFrame
 failed
 "
 )
@@ -75899,7 +75899,6 @@ thisObj
 js_ComputeThis
 (
 cx
-JS_FALSE
 vp
 +
 2
