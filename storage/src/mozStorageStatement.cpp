@@ -874,7 +874,6 @@ NS_IMPL_QUERY_INTERFACE1
 mozStorageStatementClassInfo
 nsIClassInfo
 )
-;
 static
 mozStorageStatementClassInfo
 sStatementClassInfo
