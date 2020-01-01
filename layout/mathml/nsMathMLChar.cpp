@@ -6300,14 +6300,14 @@ aChar
 1
 )
 ;
-key
+alternateKey
 .
 Append
 (
 tmp
 )
 ;
-key
+alternateKey
 .
 Append
 (
