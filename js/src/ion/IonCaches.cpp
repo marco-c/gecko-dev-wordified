@@ -233,8 +233,10 @@ masm
 {
 JS_ASSERT
 (
-!
-absolute_
+state_
+=
+=
+Relative
 )
 ;
 size_t
@@ -365,8 +367,10 @@ masm
 {
 JS_ASSERT
 (
-!
-absolute_
+state_
+=
+=
+Relative
 )
 ;
 size_t

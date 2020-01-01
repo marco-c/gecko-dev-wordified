@@ -1648,6 +1648,9 @@ char
 attachKind
 )
 ;
+#
+ifdef
+DEBUG
 bool
 isAllocated
 (
@@ -1661,6 +1664,8 @@ isSet
 )
 ;
 }
+#
+endif
 bool
 pure
 (
