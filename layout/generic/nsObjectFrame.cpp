@@ -9478,6 +9478,9 @@ EndNativeDrawing
 return
 ;
 }
+#
+ifndef
+NP_NO_CARBON
 /
 /
 In
@@ -9644,6 +9647,8 @@ PR_TRUE
 )
 ;
 }
+#
+endif
 mInstanceOwner
 -
 >
@@ -20973,6 +20978,9 @@ NPDrawingModelCoreGraphics
 #
 endif
 {
+#
+ifndef
+NP_NO_CARBON
 if
 (
 GetEventModel
@@ -21051,6 +21059,8 @@ PR_TRUE
 ;
 }
 }
+#
+endif
 }
 return
 mPluginWindow
@@ -28351,6 +28361,9 @@ StartDrawPlugin
 )
 )
 {
+#
+ifndef
+NP_NO_CARBON
 void
 *
 window
@@ -28360,9 +28373,6 @@ FixUpPluginWindow
 ePluginPaintEnable
 )
 ;
-#
-ifndef
-NP_NO_CARBON
 if
 (
 GetEventModel
@@ -33387,13 +33397,6 @@ GetDrawingModel
 (
 )
 ;
-NPEventModel
-eventModel
-=
-GetEventModel
-(
-)
-;
 nsCOMPtr
 <
 nsIPluginWidget
@@ -33682,7 +33685,9 @@ ifndef
 NP_NO_CARBON
 if
 (
-eventModel
+GetEventModel
+(
+)
 =
 =
 NPEventModelCarbon
