@@ -1795,6 +1795,14 @@ RegisterClassW
 &
 wc
 )
+|
+|
+GetLastError
+(
+)
+=
+=
+ERROR_CLASS_ALREADY_EXISTS
 )
 ;
 /
