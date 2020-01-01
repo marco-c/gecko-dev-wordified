@@ -6455,6 +6455,9 @@ nsJSContext
 JSRuntime
 *
 aRuntime
+nsIScriptGlobalObject
+*
+aGlobalObject
 )
 :
 mActive
@@ -6468,6 +6471,10 @@ true
 mExecuteDepth
 (
 0
+)
+mGlobalObjectRef
+(
+aGlobalObject
 )
 {
 mNext
@@ -19820,6 +19827,9 @@ nsJSRuntime
 :
 CreateContext
 (
+nsIScriptGlobalObject
+*
+aGlobalObject
 )
 {
 nsCOMPtr
@@ -19832,6 +19842,7 @@ new
 nsJSContext
 (
 sRuntime
+aGlobalObject
 )
 ;
 return
