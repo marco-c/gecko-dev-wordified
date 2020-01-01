@@ -9796,6 +9796,8 @@ rt
 -
 >
 scriptDataTable
+(
+)
 ;
 bool
 keepAtoms
@@ -9922,6 +9924,8 @@ rt
 -
 >
 scriptDataTable
+(
+)
 ;
 if
 (

@@ -7793,9 +7793,12 @@ last
 cx
 -
 >
-propertyTree
+compartment
 (
 )
+-
+>
+propertyTree
 .
 getChild
 (

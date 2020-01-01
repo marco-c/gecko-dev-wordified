@@ -1543,9 +1543,12 @@ if
 cx
 -
 >
-regExps
+compartment
 (
 )
+-
+>
+regExps
 .
 get
 (
