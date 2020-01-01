@@ -24252,7 +24252,8 @@ IDBRequest
 ;
 }
 else
-if
+{
+MOZ_ASSERT
 (
 aIID
 -
@@ -24265,7 +24266,7 @@ nsIIDBTransaction
 )
 )
 )
-{
+;
 interface
 =
 IDBConstant
@@ -40644,10 +40645,14 @@ obj
 nsISupports
 *
 result
+=
+nsnull
 ;
 nsWrapperCache
 *
 cache
+=
+nsnull
 ;
 nsresult
 rv

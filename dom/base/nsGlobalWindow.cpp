@@ -50771,6 +50771,8 @@ mIsInterval
 ;
 PRUint32
 nestingLevel
+=
+0
 ;
 if
 (
@@ -55288,7 +55290,7 @@ ac
 {
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -55305,6 +55307,7 @@ i
 +
 +
 )
+{
 ac
 -
 >
@@ -55317,6 +55320,7 @@ i
 this
 )
 ;
+}
 }
 /
 /
@@ -55865,7 +55869,7 @@ ac
 {
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -55882,6 +55886,7 @@ i
 +
 +
 )
+{
 ac
 -
 >
@@ -55894,6 +55899,7 @@ i
 this
 )
 ;
+}
 }
 /
 /
@@ -56565,7 +56571,7 @@ false
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -56650,7 +56656,7 @@ PRUint32
 aType
 )
 {
-PRUint32
+PRInt32
 doomedElement
 =
 -
@@ -56658,7 +56664,7 @@ doomedElement
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
