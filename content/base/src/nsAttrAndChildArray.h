@@ -526,7 +526,7 @@ ATTRCHILD_ARRAY_MAX_CHILD_COUNT
 \
 (
 ~
-PtrBits
+PRUint32
 (
 0
 )
