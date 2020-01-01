@@ -3092,9 +3092,9 @@ mSrcURI
 script
 -
 >
-mScriptObject
-.
-mObject
+GetScriptObject
+(
+)
 )
 {
 nsCOMPtr
