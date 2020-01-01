@@ -1030,12 +1030,8 @@ bug
 nsrefcnt
 count
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
-(
-PRInt32
-*
-)
 &
 mJSPrincipals
 .
@@ -1088,12 +1084,8 @@ release
 nsrefcnt
 count
 =
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
-(
-PRInt32
-*
-)
 &
 mJSPrincipals
 .

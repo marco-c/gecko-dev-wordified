@@ -1197,13 +1197,8 @@ release
 ;
 count
 =
-PR_AtomicDecrement
+NS_AtomicDecrementRefcnt
 (
-(
-PRInt32
-*
-)
-&
 mRefCnt
 )
 ;

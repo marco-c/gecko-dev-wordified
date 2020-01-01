@@ -1564,7 +1564,7 @@ synchronous
 ;
 :
 :
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 mSynchronousPrefValPtr
 synchronous

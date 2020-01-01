@@ -2405,7 +2405,7 @@ loopCount
 ;
 while
 (
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 mSuspendSpinlock
@@ -2499,7 +2499,7 @@ suspended
 =
 #
 endif
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 mSuspendSpinlock
