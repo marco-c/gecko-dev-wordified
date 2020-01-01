@@ -1402,10 +1402,7 @@ jschar
 *
 >
 (
-PromiseFlatString
-(
 json
-)
 .
 get
 (
@@ -2786,12 +2783,9 @@ jschar
 *
 >
 (
-PromiseFlatString
-(
 aMessage
-)
 .
-get
+BeginReading
 (
 )
 )

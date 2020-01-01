@@ -22598,10 +22598,7 @@ mAppData
 -
 >
 name
-PromiseFlatCString
-(
 mProfileName
-)
 .
 get
 (
