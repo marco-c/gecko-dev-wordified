@@ -89,6 +89,12 @@ MPL
 .
 *
 /
+#
+ifndef
+jsversion_h___
+#
+define
+jsversion_h___
 /
 *
 *
@@ -1726,3 +1732,10 @@ representation
 )
 #
 endif
+#
+endif
+/
+*
+jsversion_h___
+*
+/
