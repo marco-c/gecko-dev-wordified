@@ -699,6 +699,14 @@ Cancel
 (
 )
 ;
+nsresult
+GetRequestSucceeded
+(
+PRBool
+*
+succeeded
+)
+;
 private
 :
 nsOfflineCacheUpdate
