@@ -621,17 +621,6 @@ getClipBounds
 (
 &
 bounds
-antialias
-?
-SkCanvas
-:
-:
-kAA_EdgeType
-:
-SkCanvas
-:
-:
-kBW_EdgeType
 )
 )
 {
