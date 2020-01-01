@@ -12188,6 +12188,11 @@ GetPrefBranch
 (
 )
 ;
+if
+(
+prefBranch
+)
+{
 /
 /
 register
@@ -12223,6 +12228,7 @@ this
 PR_FALSE
 )
 ;
+}
 GetPrefs
 (
 )

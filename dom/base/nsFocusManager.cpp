@@ -1274,6 +1274,11 @@ GetPrefBranch
 (
 )
 ;
+if
+(
+prefBranch
+)
+{
 prefBranch
 -
 >
@@ -1316,6 +1321,7 @@ fm
 PR_TRUE
 )
 ;
+}
 nsCOMPtr
 <
 nsIObserverService
