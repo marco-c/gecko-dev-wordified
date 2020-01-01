@@ -4556,7 +4556,7 @@ this
 .
 _cps
 .
-grouper
+_grouper
 .
 group
 (
@@ -4607,7 +4607,7 @@ this
 .
 _cps
 .
-addObserver
+_addObserver
 (
 name
 observer
@@ -4627,7 +4627,7 @@ this
 .
 _cps
 .
-removeObserver
+_removeObserver
 (
 name
 observer
