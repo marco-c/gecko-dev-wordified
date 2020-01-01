@@ -3430,9 +3430,6 @@ compiler
 {
 return
 (
-js
-:
-:
 Compiler
 *
 )

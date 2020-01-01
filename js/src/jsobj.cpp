@@ -3996,7 +3996,7 @@ quoted
 bool
 idIsLexicalIdentifier
 =
-js_IsIdentifier
+IsIdentifier
 (
 idstr
 )

@@ -11971,7 +11971,7 @@ ss
 >
 sprinter
 atom
-js_IsIdentifier
+IsIdentifier
 (
 atom
 )
@@ -11987,11 +11987,9 @@ jschar
 '
 )
 )
-{
 return
 NULL
 ;
-}
 if
 (
 SprintPut
@@ -13752,16 +13750,6 @@ JSOP_IFEQ
 :
 JSOP_NOP
 )
-#
-define
-ATOM_IS_IDENTIFIER
-(
-atom
-)
-js_IsIdentifier
-(
-atom
-)
 /
 *
 *
@@ -13819,7 +13807,7 @@ quote_
 if
 (
 !
-ATOM_IS_IDENTIFIER
+IsIdentifier
 (
 atom
 )
@@ -30355,7 +30343,7 @@ sprinter
 atom
 jschar
 (
-ATOM_IS_IDENTIFIER
+IsIdentifier
 (
 atom
 )
@@ -31889,9 +31877,6 @@ POP_STR_PREC
 #
 undef
 LOCAL_ASSERT
-#
-undef
-ATOM_IS_IDENTIFIER
 #
 undef
 GET_QUOTE_AND_FMT
