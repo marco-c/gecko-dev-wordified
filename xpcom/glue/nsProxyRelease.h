@@ -911,6 +911,7 @@ on
 any
 thread
 .
+virtual
 ~
 nsMainThreadPtrHolder
 (
