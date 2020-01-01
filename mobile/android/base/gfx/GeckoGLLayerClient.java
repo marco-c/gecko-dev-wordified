@@ -1541,10 +1541,8 @@ mLayerRendererInitialized
 {
 mLayerRenderer
 .
-onSurfaceCreated
+createProgram
 (
-null
-null
 )
 ;
 mLayerRendererInitialized
