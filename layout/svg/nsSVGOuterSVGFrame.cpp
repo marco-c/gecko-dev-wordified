@@ -3508,15 +3508,7 @@ if
 svgElem
 -
 >
-HasViewBoxRect
-(
-)
-|
-|
-svgElem
--
->
-ShouldSynthesizeViewBox
+HasViewBoxOrSyntheticViewBox
 (
 )
 )
