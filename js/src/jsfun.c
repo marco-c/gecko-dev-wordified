@@ -10260,8 +10260,8 @@ ok
 js_InvokeConstructor
 (
 cx
-invokevp
 length
+invokevp
 )
 ;
 *
