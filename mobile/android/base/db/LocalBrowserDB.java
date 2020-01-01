@@ -4672,7 +4672,7 @@ put
 History
 .
 VISITS
-1
+visits
 )
 ;
 values
