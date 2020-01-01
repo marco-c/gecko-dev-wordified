@@ -964,6 +964,8 @@ strlen
 (
 aStr
 )
++
+1
 )
 ;
 ExitOnFailure
