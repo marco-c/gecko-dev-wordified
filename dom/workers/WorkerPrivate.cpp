@@ -4958,7 +4958,6 @@ nsJSUtils
 :
 GetStaticScriptGlobal
 (
-aCx
 aTarget
 )
 )
@@ -11903,7 +11902,6 @@ nsJSUtils
 :
 GetStaticScriptGlobal
 (
-aCx
 JS_GetGlobalForScopeChain
 (
 aCx

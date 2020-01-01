@@ -218,9 +218,6 @@ nsIScriptGlobalObject
 *
 GetStaticScriptGlobal
 (
-JSContext
-*
-aContext
 JSObject
 *
 aObj
@@ -231,9 +228,6 @@ nsIScriptContext
 *
 GetStaticScriptContext
 (
-JSContext
-*
-aContext
 JSObject
 *
 aObj
