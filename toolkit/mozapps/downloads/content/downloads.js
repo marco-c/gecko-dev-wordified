@@ -8016,6 +8016,12 @@ stepListBuilder
 1
 )
 ;
+gDownloadsView
+.
+selectedIndex
+=
+0
+;
 /
 /
 We
