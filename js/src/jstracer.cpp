@@ -1548,7 +1548,7 @@ typeChar
 ]
 =
 "
-OIDXSNBF
+OIDXSNBUF
 "
 ;
 static
