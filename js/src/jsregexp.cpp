@@ -18885,7 +18885,7 @@ intervalMatchBr
 lir
 -
 >
-ins2
+insBranch
 (
 LIR_j
 NULL
@@ -19031,7 +19031,7 @@ belowMissBr
 lir
 -
 >
-ins2
+insBranch
 (
 LIR_j
 NULL
@@ -19245,7 +19245,7 @@ aboveMissBr
 lir
 -
 >
-ins2
+insBranch
 (
 LIR_j
 NULL
@@ -19368,7 +19368,7 @@ missBr
 lir
 -
 >
-ins2
+insBranch
 (
 LIR_j
 NULL
@@ -19517,7 +19517,7 @@ matchBr
 lir
 -
 >
-ins2
+insBranch
 (
 LIR_j
 NULL
@@ -19999,7 +19999,7 @@ leftSuccess
 lir
 -
 >
-ins2
+insBranch
 (
 LIR_j
 NULL
@@ -20842,7 +20842,7 @@ stateStack
 lir
 -
 >
-ins2
+insBranch
 (
 LIR_j
 NULL
