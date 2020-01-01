@@ -955,6 +955,7 @@ NS_CSS_STYLE_SHEET_IMPL_CID
 }
 }
 class
+NS_FINAL_CLASS
 nsCSSStyleSheet
 :
 public
@@ -1028,7 +1029,7 @@ const
 ;
 virtual
 PRBool
-GetApplicable
+IsApplicable
 (
 )
 const
@@ -1043,7 +1044,7 @@ aEnabled
 ;
 virtual
 PRBool
-GetComplete
+IsComplete
 (
 )
 const
@@ -1446,6 +1447,7 @@ nsICSSImportRule
 GetOwnerRule
 (
 )
+const
 ;
 nsXMLNameSpaceMap
 *

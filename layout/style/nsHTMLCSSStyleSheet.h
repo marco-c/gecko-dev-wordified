@@ -542,7 +542,7 @@ const
 ;
 virtual
 PRBool
-GetApplicable
+IsApplicable
 (
 )
 const
@@ -557,7 +557,7 @@ aEnabled
 ;
 virtual
 PRBool
-GetComplete
+IsComplete
 (
 )
 const

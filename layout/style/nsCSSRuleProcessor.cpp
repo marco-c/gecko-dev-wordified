@@ -17132,7 +17132,7 @@ if
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 &
