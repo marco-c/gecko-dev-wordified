@@ -631,6 +631,7 @@ listener
 .
 getResponse
 (
+json
 )
 ;
 if

@@ -128,6 +128,13 @@ gecko
 .
 util
 ;
+import
+org
+.
+json
+.
+JSONObject
+;
 public
 interface
 GeckoEventResponder
@@ -137,6 +144,8 @@ GeckoEventListener
 String
 getResponse
 (
+JSONObject
+response
 )
 ;
 }
