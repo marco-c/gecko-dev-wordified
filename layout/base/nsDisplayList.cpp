@@ -2496,7 +2496,6 @@ layerManager
 new
 BasicLayerManager
 (
-nsnull
 )
 ;
 if

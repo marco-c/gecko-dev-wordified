@@ -6736,7 +6736,6 @@ tempManager
 new
 BasicLayerManager
 (
-nsnull
 )
 ;
 tempManager
