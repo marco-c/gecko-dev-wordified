@@ -30211,11 +30211,9 @@ if
 newfun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 -
 >
 isEmpty
