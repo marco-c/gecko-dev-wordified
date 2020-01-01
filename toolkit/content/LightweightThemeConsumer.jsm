@@ -424,6 +424,19 @@ function
 (
 )
 {
+if
+(
+!
+PrivateBrowsingUtils
+.
+isWindowPrivate
+(
+this
+.
+_win
+)
+)
+{
 Components
 .
 classes
@@ -476,6 +489,7 @@ resize
 this
 )
 ;
+}
 this
 .
 _win
