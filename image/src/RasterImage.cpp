@@ -4128,7 +4128,7 @@ downloading
 if
 (
 !
-frameAdvanced
+didAdvance
 &
 &
 (
