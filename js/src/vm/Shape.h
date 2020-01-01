@@ -6908,8 +6908,6 @@ StackShape
 (
 Shape
 *
-const
-&
 shape
 )
 :
