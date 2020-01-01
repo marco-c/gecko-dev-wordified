@@ -3262,7 +3262,7 @@ delta
 {
 this
 .
-_appendDeltas
+_appendDelta
 .
 async
 (
