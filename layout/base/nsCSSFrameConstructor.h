@@ -4670,14 +4670,6 @@ PRBool
 aKidsAllInline
 )
 ;
-PRBool
-AreAllKidsInline
-(
-nsIFrame
-*
-aFrameList
-)
-;
 /
 /
 Determine
