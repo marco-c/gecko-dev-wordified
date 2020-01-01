@@ -1329,6 +1329,14 @@ aEvent
 )
 ;
 void
+OnContainerUnrealize
+(
+GtkWidget
+*
+aWidget
+)
+;
+void
 OnSizeAllocate
 (
 GtkWidget
