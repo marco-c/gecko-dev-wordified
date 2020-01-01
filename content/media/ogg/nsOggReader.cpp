@@ -746,6 +746,8 @@ VideoData
 Create
 (
 PRInt64
+aOffset
+PRInt64
 aTime
 th_ycbcr_buffer
 aBuffer
@@ -764,6 +766,7 @@ v
 new
 VideoData
 (
+aOffset
 aTime
 aKeyframe
 aGranulepos
@@ -1471,6 +1474,7 @@ s
 new
 SoundData
 (
+mPageOffset
 startTime
 duration
 samples
@@ -2593,6 +2597,7 @@ VideoData
 :
 CreateDuplicate
 (
+mPageOffset
 time
 aPacket
 -
@@ -2657,6 +2662,7 @@ VideoData
 :
 Create
 (
+mPageOffset
 time
 buffer
 isKeyframe
