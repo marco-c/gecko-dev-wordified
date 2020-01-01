@@ -581,6 +581,7 @@ env
 {
 }
         
+return
 self
 .
 _run_make
@@ -596,6 +597,10 @@ target
 append_env
 =
 env
+            
+ensure_exit_code
+=
+False
 )
 CommandProvider
 class
@@ -655,6 +660,7 @@ test_file
 )
 :
         
+return
 self
 .
 run_mochitest
@@ -715,6 +721,7 @@ test_file
 )
 :
         
+return
 self
 .
 run_mochitest
@@ -777,6 +784,7 @@ test_file
 )
 :
         
+return
 self
 .
 run_mochitest
@@ -837,6 +845,7 @@ test_file
 )
 :
         
+return
 self
 .
 run_mochitest
@@ -874,6 +883,7 @@ _spawn
 MochitestRunner
 )
         
+return
 mochitest
 .
 run_mochitest_test
