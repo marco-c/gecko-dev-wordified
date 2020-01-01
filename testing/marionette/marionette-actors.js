@@ -2347,14 +2347,6 @@ null
 {
 if
 (
-appName
-!
-=
-"
-B2G
-"
-&
-&
 this
 .
 context
