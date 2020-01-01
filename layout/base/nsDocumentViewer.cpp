@@ -9641,6 +9641,14 @@ mPresContext
 nsnull
 ;
 }
+mWindow
+=
+nsnull
+;
+mViewManager
+=
+nsnull
+;
 mContainer
 =
 nsnull
