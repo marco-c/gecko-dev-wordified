@@ -483,6 +483,13 @@ jsprvtd
 .
 h
 "
+#
+include
+"
+jsstdint
+.
+h
+"
 /
 *
 *
