@@ -499,6 +499,10 @@ define
 UNEXPECTED_ERROR
 8
 #
+define
+ELEVATION_CANCELED
+9
+#
 endif
 /
 /
