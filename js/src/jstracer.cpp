@@ -7832,12 +7832,13 @@ Box
 the
 given
 native
-global
+stack
 frame
 into
 the
-global
-object
+virtual
+machine
+stack
 .
 This
 only
