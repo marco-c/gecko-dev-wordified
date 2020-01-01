@@ -435,6 +435,13 @@ nsCoord
 .
 h
 "
+#
+include
+"
+nsNativeWidget
+.
+h
+"
 class
 nsIView
 ;

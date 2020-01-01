@@ -2778,12 +2778,6 @@ deviceContext
 Init
 (
 gWindow
--
->
-GetNativeData
-(
-NS_NATIVE_WIDGET
-)
 )
 ;
 NS_ADDREF
