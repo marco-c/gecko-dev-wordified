@@ -8644,6 +8644,9 @@ thingKind
 #
 endif
 }
+#
+ifdef
+JS_THREADSAFE
 /
 *
 static
@@ -8960,6 +8963,13 @@ BFS_DONE
 ;
 }
 }
+#
+endif
+/
+*
+JS_THREADSAFE
+*
+/
 void
 ArenaLists
 :

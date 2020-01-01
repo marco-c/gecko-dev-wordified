@@ -6775,6 +6775,8 @@ ArenaHeader
 listHead
 )
 ;
+#
+endif
 private
 :
 inline
@@ -6811,8 +6813,6 @@ AllocKind
 thingKind
 )
 ;
-#
-endif
 }
 ;
 /
