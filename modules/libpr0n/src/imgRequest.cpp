@@ -6086,7 +6086,10 @@ newChannel
 >
 GetOriginalURI
 (
+getter_AddRefs
+(
 mKeyURI
+)
 )
 ;
 /
@@ -6113,7 +6116,7 @@ cache
 .
 if
 (
-uri
+mKeyURI
 &
 &
 mCacheEntry
