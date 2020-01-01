@@ -463,6 +463,12 @@ paths
         
 self
 .
+prepare_match_test
+(
+)
+        
+self
+.
 do_match_test
 (
 )
