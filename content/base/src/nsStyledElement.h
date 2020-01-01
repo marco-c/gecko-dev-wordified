@@ -689,12 +689,6 @@ PRBool
 aForceInDataDoc
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 protected
 :
 virtual
