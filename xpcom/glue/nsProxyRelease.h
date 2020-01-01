@@ -930,6 +930,10 @@ mRawPtr
 ;
 }
 else
+if
+(
+mRawPtr
+)
 {
 nsCOMPtr
 <
