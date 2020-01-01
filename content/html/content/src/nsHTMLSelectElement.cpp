@@ -5139,9 +5139,6 @@ aChangedSomething
 PR_FALSE
 ;
 }
-nsresult
-rv
-;
 /
 /
 Don
