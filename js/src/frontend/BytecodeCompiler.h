@@ -515,8 +515,12 @@ principals
 JSPrincipals
 *
 originPrincipals
-uint32_t
-tcflags
+bool
+compileAndGo
+bool
+noScriptRval
+bool
+needScriptGlobal
 const
 jschar
 *
