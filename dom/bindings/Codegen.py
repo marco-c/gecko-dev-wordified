@@ -14561,10 +14561,8 @@ descriptorProvider
 workers
 )
             
-declType
+actualTypeName
 =
-CGGeneric
-(
 "
 Nullable
 <
@@ -14574,19 +14572,28 @@ s
 "
 %
 typeName
-)
             
 selfRef
 =
 "
+const_cast
+<
+%
+s
+&
+>
+(
 {
 declName
 }
+)
 .
-Value
+SetValue
 (
 )
 "
+%
+actualTypeName
         
 else
 :
@@ -14606,12 +14613,9 @@ descriptorProvider
 workers
 )
             
-declType
+actualTypeName
 =
-CGGeneric
-(
 typeName
-)
             
 selfRef
 =
@@ -14620,6 +14624,13 @@ selfRef
 declName
 }
 "
+        
+declType
+=
+CGGeneric
+(
+actualTypeName
+)
         
 #
 If
@@ -14646,10 +14657,6 @@ or
 our
 container
 .
-        
-mutableTypeName
-=
-declType
         
 if
 not
@@ -14757,11 +14764,7 @@ SetNull
 "
 %
                                        
-mutableTypeName
-.
-define
-(
-)
+actualTypeName
 )
                                       
 descriptorProvider
