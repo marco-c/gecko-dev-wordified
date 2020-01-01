@@ -2011,13 +2011,6 @@ ShutDown
 (
 )
 ;
-nsTextControlFrame
-:
-:
-ShutDown
-(
-)
-;
 nsListControlFrame
 :
 :

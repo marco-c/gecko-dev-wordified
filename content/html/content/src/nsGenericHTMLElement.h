@@ -5487,6 +5487,16 @@ UpdateEditableFormControlState
 (
 )
 ;
+PRBool
+IsSingleLineTextControlInternal
+(
+PRBool
+aExcludePassword
+PRInt32
+mType
+)
+const
+;
 /
 /
 The

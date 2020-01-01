@@ -3899,8 +3899,10 @@ reference
 to
 the
 nsISelectionController
+nsCOMPtr
+<
 nsIViewManager
-*
+>
 mViewManager
 ;
 PRInt32
