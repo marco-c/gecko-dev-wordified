@@ -5341,7 +5341,7 @@ feedPrincipal
 =
 secMan
 .
-getCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 this
 .
@@ -7469,7 +7469,7 @@ feedPrincipal
 =
 secMan
 .
-getCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 this
 .

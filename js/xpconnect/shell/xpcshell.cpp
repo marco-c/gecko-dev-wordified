@@ -8010,7 +8010,7 @@ NS_ERROR_FAILURE
 noscript
 ]
 nsIPrincipal
-getCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 in
 nsIURI
@@ -8023,7 +8023,7 @@ NS_IMETHODIMP
 FullTrustSecMan
 :
 :
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 nsIURI
 *
@@ -8082,7 +8082,7 @@ _retval
 )
 {
 return
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 aURI
 _retval
@@ -8129,7 +8129,7 @@ _retval
 )
 {
 return
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 aURI
 _retval
@@ -8172,7 +8172,7 @@ _retval
 )
 {
 return
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 aURI
 _retval

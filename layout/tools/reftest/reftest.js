@@ -6071,7 +6071,7 @@ principal
 =
 secMan
 .
-getCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 aURL
 )

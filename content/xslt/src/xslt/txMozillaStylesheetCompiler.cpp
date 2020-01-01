@@ -1953,7 +1953,7 @@ GetSecurityManager
 )
 -
 >
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 referrerUri
 getter_AddRefs
@@ -3066,7 +3066,7 @@ GetSecurityManager
 )
 -
 >
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 referrerUri
 getter_AddRefs

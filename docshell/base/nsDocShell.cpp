@@ -48641,7 +48641,7 @@ rv
 secMan
 -
 >
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 aReferrer
 getter_AddRefs
