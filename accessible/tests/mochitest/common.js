@@ -492,6 +492,13 @@ nsIAccessibleRole
 ROLE_GRID_CELL
 ;
 const
+ROLE_GROUPING
+=
+nsIAccessibleRole
+.
+ROLE_GROUPING
+;
+const
 ROLE_HEADING
 =
 nsIAccessibleRole
@@ -783,6 +790,13 @@ STATE_TRAVERSED
 nsIAccessibleStates
 .
 STATE_TRAVERSED
+;
+const
+STATE_UNAVAILABLE
+=
+nsIAccessibleStates
+.
+STATE_UNAVAILABLE
 ;
 const
 EXT_STATE_EDITABLE
