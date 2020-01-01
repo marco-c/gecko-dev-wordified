@@ -238,6 +238,8 @@ endif
 void
 nsCycleCollector_collect
 (
+bool
+aMergeCompartments
 nsCycleCollectorResults
 *
 aResults
