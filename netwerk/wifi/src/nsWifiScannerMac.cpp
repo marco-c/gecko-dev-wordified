@@ -539,7 +539,7 @@ it
 lives
 in
 a
-seperate
+separate
 file
 so
 that

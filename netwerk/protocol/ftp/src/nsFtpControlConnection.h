@@ -558,7 +558,7 @@ null
 if
 an
 error
-occured
+occurred
 .
 *
 param

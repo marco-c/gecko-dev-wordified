@@ -17185,7 +17185,7 @@ a
 series
 of
 chunks
-seperated
+separated
 with
 control
 data

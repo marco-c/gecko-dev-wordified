@@ -921,7 +921,7 @@ fail
 "
 No
 reference
-ouput
+output
 file
 or
 error

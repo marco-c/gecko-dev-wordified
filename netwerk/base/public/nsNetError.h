@@ -630,7 +630,7 @@ g
 an
 HTTP
 redirect
-occured
+occurred
 )
 .
 *

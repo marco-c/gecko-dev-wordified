@@ -7617,7 +7617,7 @@ extra
 decoding
 causes
 a
-noticable
+noticeable
 speed
 hit
 when

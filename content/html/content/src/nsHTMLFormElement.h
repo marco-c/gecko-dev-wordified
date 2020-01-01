@@ -1176,7 +1176,7 @@ from
 the
 lookup
 table
-mainted
+maintained
 by
 the
 form
@@ -1339,7 +1339,7 @@ to
 the
 lookup
 table
-mainted
+maintained
 by
 the
 form

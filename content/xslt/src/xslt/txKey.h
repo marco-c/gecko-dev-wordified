@@ -782,7 +782,7 @@ PR_FALSE
 if
 an
 error
-occured
+occurred
 PR_TRUE
 otherwise
 *

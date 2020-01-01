@@ -3997,9 +3997,7 @@ Length
 NS_ERROR
 (
 "
-Non
--
-existant
+Nonexistent
 font
 referenced
 in

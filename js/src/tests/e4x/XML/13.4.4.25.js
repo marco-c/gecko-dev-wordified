@@ -534,9 +534,7 @@ nodeKind
 ;
 /
 /
-Non
--
-existant
+Nonexistent
 node
 type
 is

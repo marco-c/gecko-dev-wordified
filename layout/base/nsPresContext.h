@@ -6495,7 +6495,7 @@ mPostedFlushUserFontSet
 resize
 reflow
 is
-supressed
+suppressed
 when
 the
 only

@@ -1077,7 +1077,7 @@ mViewManager
 /
 These
 are
-superceded
+superseded
 by
 a
 better

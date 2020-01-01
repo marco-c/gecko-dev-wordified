@@ -957,7 +957,7 @@ field
 /
 error
 "
-nonexistant
+nonexistent
 field
 should
 throw

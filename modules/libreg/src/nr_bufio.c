@@ -4426,7 +4426,7 @@ or
 1
 if
 error
-occured
+occurred
 *
 /
 int

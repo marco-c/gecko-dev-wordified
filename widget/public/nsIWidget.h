@@ -5734,7 +5734,7 @@ located
 using
 the
 integers
-preceeding
+preceding
 it
 .
 *

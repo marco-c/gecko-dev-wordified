@@ -2744,7 +2744,7 @@ are
 also
 nsIXPCScriptable
 helper
-implmentations
+implementations
 but
 the
 helper

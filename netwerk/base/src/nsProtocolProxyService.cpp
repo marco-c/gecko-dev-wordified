@@ -4916,7 +4916,7 @@ time
 a
 subsequent
 failure
-occured
+occurred
 .
 /
 /

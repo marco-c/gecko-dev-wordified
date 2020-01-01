@@ -617,7 +617,7 @@ HTML
 document
 (
 that
-preceeds
+precedes
 the
 HTML
 tag

@@ -12765,7 +12765,7 @@ case
 nsIAccessibleProvider
 :
 :
-XFormsOuput
+XFormsOutput
 :
 accessible
 =

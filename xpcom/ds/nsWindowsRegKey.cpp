@@ -1205,7 +1205,7 @@ NS_ERROR_NOT_INITIALIZED
 Check
 for
 the
-existance
+existence
 of
 a
 child

@@ -4511,7 +4511,7 @@ encounters
 a
 non
 -
-catestrophic
+catastrophic
 failure
 it
 will

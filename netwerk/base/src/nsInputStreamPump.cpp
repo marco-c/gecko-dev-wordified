@@ -4094,7 +4094,7 @@ mStatus
 if
 an
 error
-occured
+occurred
 we
 must
 be

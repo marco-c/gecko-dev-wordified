@@ -701,7 +701,7 @@ if
 a
 non
 -
-existant
+existent
 uri
 is
 visited

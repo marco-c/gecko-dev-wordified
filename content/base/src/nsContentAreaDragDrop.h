@@ -640,7 +640,7 @@ if
 the
 *
 drag
-occured
+occurred
 on
 another
 element

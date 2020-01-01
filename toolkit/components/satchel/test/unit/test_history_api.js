@@ -751,7 +751,7 @@ looking
 for
 non
 -
-existant
+existent
 /
 bogus
 data

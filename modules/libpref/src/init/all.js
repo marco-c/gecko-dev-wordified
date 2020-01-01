@@ -34400,7 +34400,7 @@ delete
 *
 Print
 module
-independant
+independent
 *
 /
 pref

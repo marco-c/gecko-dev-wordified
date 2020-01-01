@@ -8665,7 +8665,7 @@ cx
 "
 An
 error
-occured
+occurred
 throwing
 an
 exception

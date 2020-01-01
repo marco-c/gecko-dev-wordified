@@ -498,7 +498,7 @@ a
 function
 ;
 any
-preceeding
+preceding
 arguments
 sepcify
 formal

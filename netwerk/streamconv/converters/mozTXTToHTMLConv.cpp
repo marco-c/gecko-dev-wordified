@@ -4765,7 +4765,7 @@ is
 only
 inserted
 if
-existance
+existence
 of
 a
 pair

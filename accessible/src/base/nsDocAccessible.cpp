@@ -13099,7 +13099,7 @@ Check
 to
 see
 change
-occured
+occurred
 in
 an
 ARIA
@@ -13165,7 +13165,7 @@ to
 see
 if
 change
-occured
+occurred
 inside
 an
 alert

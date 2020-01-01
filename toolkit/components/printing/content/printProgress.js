@@ -533,7 +533,7 @@ switchUI
 true
 ;
 function
-elipseString
+ellipseString
 (
 aStr
 doFront
@@ -1195,7 +1195,7 @@ progressParams
 var
 docTitleStr
 =
-elipseString
+ellipseString
 (
 progressParams
 .
@@ -1266,7 +1266,7 @@ title
 .
 value
 =
-elipseString
+ellipseString
 (
 docURLStr
 true
@@ -1801,7 +1801,7 @@ progressParams
 {
 docTitle
 =
-elipseString
+ellipseString
 (
 progressParams
 .
@@ -1811,7 +1811,7 @@ false
 ;
 docURL
 =
-elipseString
+ellipseString
 (
 progressParams
 .

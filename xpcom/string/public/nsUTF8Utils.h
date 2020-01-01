@@ -1781,7 +1781,7 @@ w
 /
 o
 a
-preceeding
+preceding
 high
 surrogate
 .

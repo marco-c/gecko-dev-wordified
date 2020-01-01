@@ -1017,7 +1017,7 @@ position
 where
 drag
 gesture
-occured
+occurred
 used
 for
 positioning

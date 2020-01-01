@@ -10484,7 +10484,7 @@ IAccessible
 /
 the
 event
-occured
+occurred
 on
 .
 void

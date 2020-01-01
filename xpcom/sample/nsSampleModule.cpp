@@ -529,7 +529,7 @@ h
 NOTE
 this
 file
-supercedes
+supersedes
 nsSampleFactory
 .
 cpp

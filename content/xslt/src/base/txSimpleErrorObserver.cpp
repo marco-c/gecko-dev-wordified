@@ -636,10 +636,10 @@ void
 SimpleErrorObserver
 :
 :
-supressWarnings
+suppressWarnings
 (
 MBool
-supress
+suppress
 )
 {
 this
@@ -647,11 +647,11 @@ this
 >
 hideWarnings
 =
-supress
+suppress
 ;
 }
 /
 /
 -
 -
-supressWarnings
+suppressWarnings

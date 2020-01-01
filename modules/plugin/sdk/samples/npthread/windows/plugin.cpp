@@ -1005,7 +1005,7 @@ don
 '
 t
 enter
-untill
+until
 thread
 is
 ready
@@ -1061,7 +1061,7 @@ don
 '
 t
 return
-untill
+until
 thread
 is
 ready

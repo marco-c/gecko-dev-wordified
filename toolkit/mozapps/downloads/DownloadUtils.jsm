@@ -1542,7 +1542,7 @@ and
 max
 will
 be
-supressed
+suppressed
 for
 the
 former

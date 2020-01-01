@@ -1151,7 +1151,7 @@ output
 space
 a
 partial
-ouput
+output
 must
 be
 done

@@ -3249,7 +3249,7 @@ too
 heavily
 on
 the
-existance
+existence
 of
 DebugGetHeader
 to

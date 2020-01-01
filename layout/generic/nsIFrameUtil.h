@@ -587,7 +587,7 @@ FILE
 *
 aFile2
 PRInt32
-aRegressionOuput
+aRegressionOutput
 )
 =
 0

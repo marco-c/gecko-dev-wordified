@@ -587,7 +587,7 @@ length
 ^
 2
 )
-bahaviour
+behaviour
 in
 the
 current

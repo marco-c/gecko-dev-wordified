@@ -577,7 +577,7 @@ aActionType
 /
 A
 drop
-occured
+occurred
 within
 the
 application

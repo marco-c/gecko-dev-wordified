@@ -525,7 +525,7 @@ var
 summary
 =
 '
-Implmenting
+Implementing
 __iterator__
 as
 generator

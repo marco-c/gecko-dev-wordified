@@ -559,7 +559,7 @@ eXBL_Error
 An
 error
 has
-occured
+occurred
 .
 Suspend
 binding

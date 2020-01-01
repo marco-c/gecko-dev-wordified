@@ -871,7 +871,7 @@ GetBBox
 call
 *
 that
-occured
+occurred
 either
 on
 this

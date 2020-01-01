@@ -6552,7 +6552,7 @@ lines
 if
 the
 offset
-occured
+occurred
 on
 whitespace
 boundary

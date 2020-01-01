@@ -1293,13 +1293,13 @@ where
 *
 the
 token
-occured
+occurred
 .
 Lines
 are
 interpreted
 as
-occuring
+occurring
 between
 \
 n

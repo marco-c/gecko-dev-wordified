@@ -663,7 +663,7 @@ or
 if
 a
 timeout
-occured
+occurred
 /
 /
 virtual

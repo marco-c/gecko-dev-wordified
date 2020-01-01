@@ -1789,7 +1789,7 @@ ff0000
 /
 error
 was
-recieved
+received
 var
 error
 =

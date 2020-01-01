@@ -4922,7 +4922,7 @@ window
 The
 checking
 for
-existance
+existence
 of
 the
 message

@@ -1588,7 +1588,7 @@ ConfigObjError
     
 An
 error
-occured
+occurred
 whilst
 parsing
 a
@@ -11878,7 +11878,7 @@ The
 error
 will
 have
-occured
+occurred
 at
 cur_index
         

@@ -635,7 +635,7 @@ number
 value
 as
 the
-preceeding
+preceding
 three
 expressions
 .

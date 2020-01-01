@@ -2646,7 +2646,7 @@ combinator
 not
 allowed
 without
-preceeding
+preceding
 expression
 "
 ;
@@ -2703,7 +2703,7 @@ combinator
 not
 allowed
 without
-preceeding
+preceding
 expression
 "
 ;
@@ -2748,7 +2748,7 @@ combinator
 not
 allowed
 without
-preceeding
+preceding
 expression
 "
 ;

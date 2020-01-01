@@ -529,7 +529,7 @@ h
 /
 /
 /
-Ouput
+Output
 format
 from
 NPP_GetMIMEDescription

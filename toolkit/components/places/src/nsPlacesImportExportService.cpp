@@ -1766,7 +1766,7 @@ the
 description
 for
 the
-preceeding
+preceding
 /
 /
 <

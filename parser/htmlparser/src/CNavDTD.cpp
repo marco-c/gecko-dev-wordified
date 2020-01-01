@@ -2354,7 +2354,7 @@ here
 then
 an
 error
-occured
+occurred
 but
 we
 still
@@ -7305,7 +7305,7 @@ well
 ERROR
 if
 error
-occured
+occurred
 *
 /
 nsresult
@@ -9517,7 +9517,7 @@ well
 PR_FALSE
 if
 error
-occured
+occurred
 *
 /
 nsresult
@@ -11478,7 +11478,7 @@ well
 PR_FALSE
 if
 error
-occured
+occurred
 *
 /
 nsresult
@@ -11790,7 +11790,7 @@ well
 PR_FALSE
 if
 error
-occured
+occurred
 *
 /
 nsresult
@@ -11933,7 +11933,7 @@ well
 PR_FALSE
 if
 error
-occured
+occurred
 *
 /
 nsresult
@@ -12023,7 +12023,7 @@ well
 PR_FALSE
 if
 error
-occured
+occurred
 *
 /
 nsresult
@@ -12144,7 +12144,7 @@ well
 PR_FALSE
 if
 error
-occured
+occurred
 *
 /
 nsresult

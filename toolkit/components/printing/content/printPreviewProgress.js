@@ -501,7 +501,7 @@ progressParams
 null
 ;
 function
-elipseString
+ellipseString
 (
 aStr
 doFront
@@ -681,7 +681,7 @@ return
 var
 docTitleStr
 =
-elipseString
+ellipseString
 (
 progressParams
 .
@@ -713,7 +713,7 @@ docTitle
 var
 docURLStr
 =
-elipseString
+ellipseString
 (
 progressParams
 .
@@ -904,7 +904,7 @@ progressParams
 {
 docTitle
 =
-elipseString
+ellipseString
 (
 progressParams
 .
@@ -914,7 +914,7 @@ false
 ;
 docURL
 =
-elipseString
+ellipseString
 (
 progressParams
 .

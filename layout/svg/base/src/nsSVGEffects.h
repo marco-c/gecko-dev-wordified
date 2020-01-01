@@ -2012,7 +2012,7 @@ in
 parentheses
 in
 the
-preceeding
+preceding
 sentence
 this
 method

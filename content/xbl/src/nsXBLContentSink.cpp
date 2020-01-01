@@ -2001,7 +2001,7 @@ tag
 before
 the
 error
-occured
+occurred
 .
 if
 (

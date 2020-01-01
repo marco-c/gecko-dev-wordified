@@ -2091,8 +2091,7 @@ an
 annotation
 with
 a
-not
-existant
+nonexisting
 attribute
 stmt
 =
@@ -2587,8 +2586,7 @@ an
 annotation
 to
 a
-not
-existant
+nonexisting
 page
 stmt
 .
@@ -2761,11 +2759,11 @@ finalize
 /
 Check
 that
+an
 annotation
 to
 a
-not
-existant
+nonexisting
 page
 has
 been
@@ -5347,8 +5345,7 @@ a
 bookmark
 using
 a
-not
-existant
+nonexisting
 keyword
 this
 .
@@ -8809,8 +8806,7 @@ an
 annotation
 with
 a
-not
-existant
+nonexisting
 attribute
 stmt
 =
@@ -9326,8 +9322,7 @@ an
 annotation
 to
 a
-not
-existant
+nonexisting
 item
 stmt
 .
@@ -9502,11 +9497,11 @@ finalize
 /
 Check
 that
+an
 annotation
 to
 a
-not
-existant
+nonexisting
 page
 has
 been
@@ -10134,8 +10129,7 @@ a
 place
 using
 a
-not
-existant
+nonexisting
 favicon
 entry
 this

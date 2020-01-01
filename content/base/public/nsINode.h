@@ -1401,7 +1401,7 @@ unexpected
 mutations
 *
 have
-occured
+occurred
 .
 *
 *
@@ -1470,7 +1470,7 @@ then
 one
 mutation
 has
-occured
+occurred
 .
 *
 *
@@ -1640,7 +1640,7 @@ any
 unexpected
 mutations
 have
-occured
+occurred
 .
 You
 can

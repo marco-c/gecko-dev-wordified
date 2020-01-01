@@ -1008,7 +1008,7 @@ the
 presShell
 where
 changes
-occured
+occurred
 *
 param
 aContent

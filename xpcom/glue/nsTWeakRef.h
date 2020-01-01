@@ -1034,7 +1034,7 @@ of
 -
 memory
 error
-occured
+occurred
 at
 assignment
 .

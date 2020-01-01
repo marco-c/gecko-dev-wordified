@@ -4538,7 +4538,7 @@ if
 tab
 navigation
 has
-occured
+occurred
 for
 this
 window
@@ -4552,7 +4552,7 @@ be
 displayed
 .
 PRPackedBool
-mFocusByKeyOccured
+mFocusByKeyOccurred
 :
 1
 ;

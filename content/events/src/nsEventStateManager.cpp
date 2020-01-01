@@ -12700,7 +12700,7 @@ the
 drag
 /
 /
-occured
+occurred
 and
 aSelectionTarget
 is

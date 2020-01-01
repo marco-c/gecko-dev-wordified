@@ -1886,7 +1886,7 @@ This
 handler
 has
 been
-superceded
+superseded
 by
 the
 EntityDeclHandler

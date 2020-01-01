@@ -30936,7 +30936,7 @@ if
 the
 mouse
 event
-occured
+occurred
 within
 a
 /
@@ -30951,7 +30951,7 @@ If
 the
 mouse
 event
-occured
+occurred
 /
 /
 in

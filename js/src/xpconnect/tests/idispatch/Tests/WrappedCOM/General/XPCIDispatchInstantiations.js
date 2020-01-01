@@ -714,9 +714,7 @@ scriptable
 /
 Test
 a
-non
--
-existant
+nonexistent
 COM
 object
 var
@@ -729,7 +727,7 @@ obj
 COMObject
 (
 "
-dwbnonexistantobject
+dwbnonexistentobject
 "
 )
 ;
@@ -742,7 +740,7 @@ obj
 COMObject
 (
 '
-dwbnonexistantobject
+dwbnonexistentobject
 '
 )
 ;
@@ -768,7 +766,7 @@ obj
 COMObject
 (
 "
-dwbnonexistantobject
+dwbnonexistentobject
 "
 )
 ;
@@ -780,7 +778,7 @@ obj
 COMObject
 (
 '
-dwbnonexistantobject
+dwbnonexistentobject
 '
 )
 ;
@@ -869,7 +867,7 @@ reportFailure
 "
 Unhandled
 exception
-occured
+occurred
 :
 "
 +

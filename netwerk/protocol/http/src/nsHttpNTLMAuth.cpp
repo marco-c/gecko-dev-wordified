@@ -1647,7 +1647,7 @@ Instead
 we
 use
 its
-existance
+existence
 as
 a
 flag

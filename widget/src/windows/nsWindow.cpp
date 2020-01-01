@@ -48556,7 +48556,7 @@ if
 the
 mouse
 event
-occured
+occurred
 within
 a
 menu
@@ -48571,7 +48571,7 @@ If
 the
 mouse
 event
-occured
+occurred
 in
 a
 menu
