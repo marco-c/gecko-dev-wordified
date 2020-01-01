@@ -13292,6 +13292,11 @@ exit
 re_chars
 re_chars
 re_length
+*
+sizeof
+(
+jschar
+)
 )
 )
 {
