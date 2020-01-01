@@ -231,10 +231,10 @@ class
 PLayerChild
 ;
 class
-PLayerTransactionChild
+PLayersChild
 ;
 class
-PLayerTransactionParent
+PLayersParent
 ;
 class
 ShadowableLayer
@@ -1711,7 +1711,7 @@ are
 properly
 supported
 *
-LayerTransactionParent
+ShadowLayersParent
 :
 :
 UpdateMask
@@ -1857,7 +1857,7 @@ side
 void
 AttachAsyncCompositable
 (
-PLayerTransactionChild
+PLayersChild
 *
 aLayer
 uint64_t
@@ -2042,7 +2042,7 @@ pushed
 void
 SetShadowManager
 (
-PLayerTransactionChild
+PLayersChild
 *
 aShadowManager
 )
@@ -2079,7 +2079,7 @@ return
 mShadowManager
 ;
 }
-PLayerTransactionChild
+PLayersChild
 *
 GetShadowManager
 (
@@ -2536,7 +2536,7 @@ ShadowLayerForwarder
 (
 )
 ;
-PLayerTransactionChild
+PLayersChild
 *
 mShadowManager
 ;

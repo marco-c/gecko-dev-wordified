@@ -164,7 +164,7 @@ mozilla
 /
 layers
 /
-PLayerTransactionChild
+PLayersChild
 .
 h
 "
@@ -175,7 +175,7 @@ mozilla
 /
 layers
 /
-PLayerTransactionParent
+PLayersParent
 .
 h
 "
