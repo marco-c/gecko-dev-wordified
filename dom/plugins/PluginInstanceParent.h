@@ -870,16 +870,7 @@ void
 *
 event
 )
-{
-_MOZ_LOG
-(
-__FUNCTION__
-)
 ;
-return
-0
-;
-}
 void
 NPP_URLNotify
 (
