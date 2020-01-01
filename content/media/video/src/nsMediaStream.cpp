@@ -1750,10 +1750,6 @@ suspended
 "
 )
 ;
-mChannel
-=
-nsnull
-;
 return
 NS_OK
 ;
