@@ -42758,6 +42758,13 @@ nsEventStatus_eConsumeNoDefault
 =
 =
 tmpStatus
+|
+|
+newEvent
+.
+mFlags
+.
+mMultipleActionsPrevented
 )
 {
 preventDefault
