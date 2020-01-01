@@ -827,7 +827,7 @@ mContextLostErrorSet
 =
 false
 ;
-mAlreadyGeneratedWarnings
+mAlreadyReportedMessages
 =
 0
 ;
