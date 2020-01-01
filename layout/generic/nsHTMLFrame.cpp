@@ -848,6 +848,16 @@ nscoord
 aY
 )
 ;
+virtual
+void
+ViewPositionDidChange
+(
+nsIScrollableView
+*
+aScrollable
+)
+{
+}
 NS_IMETHOD
 ScrollPositionDidChange
 (
