@@ -8691,6 +8691,9 @@ LIns
 *
 &
 v_ins
+Value
+&
+v_out
 jsint
 incr
 bool
@@ -8714,13 +8717,16 @@ LIns
 *
 &
 v_ins
+Value
+&
+v_after
 nanojit
 :
 :
 LIns
 *
 &
-v_after
+v_ins_after
 jsint
 incr
 )
