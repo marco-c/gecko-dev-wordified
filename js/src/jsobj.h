@@ -3589,14 +3589,6 @@ it
 ;
 public
 :
-bool
-preventExtensions
-(
-JSContext
-*
-cx
-)
-;
 /
 *
 ES5

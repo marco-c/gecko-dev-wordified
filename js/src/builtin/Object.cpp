@@ -5862,12 +5862,13 @@ return
 true
 ;
 return
-obj
--
->
+JSObject
+:
+:
 preventExtensions
 (
 cx
+obj
 )
 ;
 }
