@@ -7957,6 +7957,7 @@ later
 .
 if
 (
+(
 isMul
 (
 )
@@ -7965,6 +7966,19 @@ isMul
 isDiv
 (
 )
+)
+&
+&
+lhs
+=
+=
+MIRType_Int32
+&
+&
+rhs
+=
+=
+MIRType_Int32
 )
 {
 bool
