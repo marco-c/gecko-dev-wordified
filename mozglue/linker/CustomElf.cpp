@@ -625,6 +625,15 @@ mappable
 )
 {
 }
+private
+:
+friend
+class
+GenericMappedPtr
+<
+Mappable1stPagePtr
+>
+;
 void
 munmap
 (
@@ -645,8 +654,6 @@ length
 )
 ;
 }
-private
-:
 Mappable
 *
 mappable

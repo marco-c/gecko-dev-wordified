@@ -1439,6 +1439,15 @@ MappedPtr
 )
 {
 }
+private
+:
+friend
+class
+GenericMappedPtr
+<
+MappedPtr
+>
+;
 void
 munmap
 (
