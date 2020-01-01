@@ -822,6 +822,10 @@ Show
 (
 nsnull
 id
+nsIDownloadManagerUI
+:
+:
+REASON_NEW_DOWNLOAD
 )
 ;
 }

@@ -11536,6 +11536,10 @@ Show
 (
 nsnull
 0
+nsIDownloadManagerUI
+:
+:
+REASON_USER_INTERACTED
 )
 ;
 }

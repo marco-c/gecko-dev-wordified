@@ -730,11 +730,6 @@ Ci
 nsIDownloadManagerUI
 )
 ;
-/
-/
-TODO
-bug
-397935
 ok
 (
 dmui
