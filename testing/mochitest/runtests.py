@@ -3501,6 +3501,8 @@ path
 .
 abspath
 (
+options
+.
 testingModulesDir
 )
       
