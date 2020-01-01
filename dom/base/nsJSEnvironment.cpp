@@ -21720,9 +21720,7 @@ PR_FALSE
 ;
 sPreviousCCTime
 =
-PR_Now
-(
-)
+0
 ;
 sCollectedObjectsCounts
 =
