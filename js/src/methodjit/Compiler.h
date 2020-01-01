@@ -1163,6 +1163,11 @@ STUB_CALL_TYPE
 VoidStubJSObj
 )
 ;
+STUB_CALL_TYPE
+(
+VoidPtrStubPC
+)
+;
 #
 undef
 STUB_CALL_TYPE
