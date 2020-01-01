@@ -137,6 +137,9 @@ md5
 .
 h
 "
+namespace
+google_breakpad
+{
 #
 ifndef
 WORDS_BIGENDIAN
@@ -2379,3 +2382,8 @@ buf
 d
 ;
 }
+}
+/
+/
+namespace
+google_breakpad
