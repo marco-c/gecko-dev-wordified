@@ -3181,7 +3181,7 @@ plugins
 .
 enabled
 "
-false
+true
 )
 ;
 #
