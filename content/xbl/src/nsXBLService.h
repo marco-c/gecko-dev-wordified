@@ -239,13 +239,6 @@ JSCList
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -905,9 +898,6 @@ for
 /
 testing
 .
-nsFixedSizeAllocator
-mPool
-;
 }
 ;
 class
