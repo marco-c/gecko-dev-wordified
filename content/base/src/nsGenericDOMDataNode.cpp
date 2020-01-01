@@ -789,8 +789,10 @@ bool
 aReturn
 )
 {
-return
-nsGenericElement
+*
+aReturn
+=
+nsContentUtils
 :
 :
 InternalIsSupported
@@ -805,8 +807,10 @@ this
 )
 aFeature
 aVersion
-aReturn
 )
+;
+return
+NS_OK
 ;
 }
 /

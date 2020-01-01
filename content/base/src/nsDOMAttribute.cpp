@@ -2074,8 +2074,10 @@ nsIDocument
 eIsSupported
 )
 ;
-return
-nsGenericElement
+*
+aReturn
+=
+nsContentUtils
 :
 :
 InternalIsSupported
@@ -2090,8 +2092,10 @@ this
 )
 aFeature
 aVersion
-aReturn
 )
+;
+return
+NS_OK
 ;
 }
 already_AddRefed
