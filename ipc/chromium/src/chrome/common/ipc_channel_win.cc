@@ -610,6 +610,9 @@ pipe_
 INVALID_HANDLE_VALUE
 ;
 }
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 /
 /
 Make
@@ -635,6 +638,8 @@ Now
 (
 )
 ;
+#
+endif
 while
 (
 input_state_
@@ -662,6 +667,9 @@ this
 )
 ;
 }
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 if
 (
 waited
@@ -704,6 +712,8 @@ start
 )
 ;
 }
+#
+endif
 while
 (
 !
