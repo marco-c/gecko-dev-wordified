@@ -1846,6 +1846,12 @@ aText
 fromIndex
 :
 aStart
+removedCount
+:
+0
+addedCount
+:
+0
 }
 ;
 if
