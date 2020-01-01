@@ -773,12 +773,14 @@ nsGkAtoms
 inlineFrame
 ;
 }
+static
 inline
 PRBool
 IsPaddingZero
 (
 nsStyleUnit
 aUnit
+const
 nsStyleCoord
 &
 aCoord
@@ -825,12 +827,14 @@ GetPercentValue
 )
 ;
 }
+static
 inline
 PRBool
 IsMarginZero
 (
 nsStyleUnit
 aUnit
+const
 nsStyleCoord
 &
 aCoord
@@ -975,9 +979,6 @@ GetStylePadding
 (
 )
 ;
-nsStyleCoord
-coord
-;
 /
 /
 XXX
@@ -1064,7 +1065,6 @@ mPadding
 .
 GetRight
 (
-coord
 )
 )
 |
@@ -1087,7 +1087,6 @@ mPadding
 .
 GetLeft
 (
-coord
 )
 )
 |
@@ -1110,7 +1109,6 @@ mMargin
 .
 GetRight
 (
-coord
 )
 )
 |
@@ -1133,7 +1131,6 @@ mMargin
 .
 GetLeft
 (
-coord
 )
 )
 )

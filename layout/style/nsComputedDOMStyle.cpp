@@ -7586,9 +7586,6 @@ val
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsStyleCoord
-coord
-;
 SetValueToCoord
 (
 val
@@ -7602,7 +7599,6 @@ mOutlineRadius
 Get
 (
 aSide
-coord
 )
 &
 nsComputedDOMStyle
@@ -13163,14 +13159,14 @@ GetStylePosition
 (
 )
 ;
-nsStyleCoord
-coord
-;
 PRInt32
 sign
 =
 1
 ;
+nsStyleCoord
+coord
+=
 positionData
 -
 >
@@ -13179,7 +13175,6 @@ mOffset
 Get
 (
 aSide
-coord
 )
 ;
 NS_ASSERTION
@@ -13240,6 +13235,8 @@ GetUnit
 eStyleUnit_Auto
 )
 {
+coord
+=
 positionData
 -
 >
@@ -13251,7 +13248,6 @@ NS_OPPOSITE_SIDE
 (
 aSide
 )
-coord
 )
 ;
 sign
@@ -13348,9 +13344,6 @@ val
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsStyleCoord
-coord
-;
 SetValueToCoord
 (
 val
@@ -13364,7 +13357,6 @@ mOffset
 Get
 (
 aSide
-coord
 )
 )
 ;
@@ -13460,9 +13452,6 @@ if
 mInnerFrame
 )
 {
-nsStyleCoord
-c
-;
 SetValueToCoord
 (
 val
@@ -13476,7 +13465,6 @@ mPadding
 Get
 (
 aSide
-c
 )
 )
 ;
@@ -13947,9 +13935,6 @@ val
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsStyleCoord
-coord
-;
 SetValueToCoord
 (
 val
@@ -13963,7 +13948,6 @@ mBorderRadius
 Get
 (
 aSide
-coord
 )
 &
 nsComputedDOMStyle
@@ -14229,9 +14213,6 @@ if
 mInnerFrame
 )
 {
-nsStyleCoord
-c
-;
 SetValueToCoord
 (
 val
@@ -14245,7 +14226,6 @@ mMargin
 Get
 (
 aSide
-c
 )
 )
 ;
