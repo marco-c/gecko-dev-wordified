@@ -945,7 +945,7 @@ aPinCode
 )
 ;
 return
-NS_OK
+true
 ;
 }
 bool
@@ -979,7 +979,7 @@ aPasskey
 )
 ;
 return
-NS_OK
+true
 ;
 }
 bool
@@ -1033,7 +1033,7 @@ aDeviceAddress
 ;
 }
 return
-NS_OK
+true
 ;
 }
 bool
@@ -1087,7 +1087,7 @@ aDeviceAddress
 ;
 }
 return
-NS_OK
+true
 ;
 }
 nsresult
