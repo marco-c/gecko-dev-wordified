@@ -42822,10 +42822,6 @@ n
 }
 #
 endif
-WillDoReflow
-(
-)
-;
 /
 /
 If
@@ -42871,6 +42867,10 @@ point
 {
 nsAutoScriptBlocker
 scriptBlocker
+;
+WillDoReflow
+(
+)
 ;
 AUTO_LAYOUT_PHASE_ENTRY_POINT
 (
