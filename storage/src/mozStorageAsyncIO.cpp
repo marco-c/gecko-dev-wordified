@@ -4441,15 +4441,6 @@ FlushAsyncIO
 (
 )
 {
-AsyncMessage
-*
-message
-=
-0
-;
-int
-rc
-;
 /
 /
 single
@@ -4512,6 +4503,7 @@ PR_Lock
 flushLock
 )
 ;
+int
 rc
 =
 AsyncBarrier
