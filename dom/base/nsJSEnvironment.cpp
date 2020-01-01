@@ -13078,10 +13078,6 @@ InitClassesWithNewWrappedGlobal
 (
 mContext
 aNewInner
-NS_GET_IID
-(
-nsISupports
-)
 aIsChrome
 ?
 systemPrincipal

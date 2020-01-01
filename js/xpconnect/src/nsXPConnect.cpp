@@ -7979,10 +7979,6 @@ aJSContext
 nsISupports
 *
 aCOMObj
-const
-nsIID
-&
-aIID
 nsIPrincipal
 *
 aPrincipal
@@ -8294,7 +8290,10 @@ holder
 )
 helper
 &
-aIID
+NS_GET_IID
+(
+nsISupports
+)
 nsnull
 false
 OBJ_IS_GLOBAL

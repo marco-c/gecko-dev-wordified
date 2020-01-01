@@ -11285,10 +11285,6 @@ InitClassesWithNewWrappedGlobal
 (
 cx
 backstagePass
-NS_GET_IID
-(
-nsISupports
-)
 systemprincipal
 nsnull
 nsIXPConnect
