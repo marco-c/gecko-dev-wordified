@@ -528,6 +528,10 @@ virtual
 bool
 RecvDrainDone
 (
+const
+nsresult
+&
+status
 )
 ;
 virtual
@@ -547,7 +551,7 @@ sampleCount
 )
 ;
 virtual
-void
+nsresult
 WaitForDrain
 (
 )

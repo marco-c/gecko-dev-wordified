@@ -561,6 +561,8 @@ virtual
 bool
 SendDrainDone
 (
+nsresult
+status
 )
 ;
 AudioParent
