@@ -434,9 +434,6 @@ Element
 .
 h
 "
-/
-/
-DOMCI_NODE_DATA
 #
 include
 "

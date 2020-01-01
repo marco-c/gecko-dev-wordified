@@ -200,14 +200,6 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 nsIDOMNode
 *
 AsDOMNode
