@@ -1919,6 +1919,12 @@ DoGetWordWrap
 ;
 nsIDOMCSSValue
 *
+DoGetHyphens
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetMozTabSize
 (
 )

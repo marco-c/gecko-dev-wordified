@@ -3075,6 +3075,13 @@ kWordwrapKTable
 [
 ]
 ;
+static
+const
+PRInt32
+kHyphensKTable
+[
+]
+;
 }
 ;
 #
