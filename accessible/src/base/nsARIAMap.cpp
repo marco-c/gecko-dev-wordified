@@ -672,7 +672,10 @@ nsIAccessibleRole
 ROLE_DOCUMENT
 eNoValue
 eNoAction
-kNoReqStates
+nsIAccessibleStates
+:
+:
+STATE_READONLY
 kEndEntry
 }
 {
@@ -888,7 +891,10 @@ nsIAccessibleRole
 ROLE_DOCUMENT
 eNoValue
 eNoAction
-kNoReqStates
+nsIAccessibleStates
+:
+:
+STATE_READONLY
 kEndEntry
 }
 {
