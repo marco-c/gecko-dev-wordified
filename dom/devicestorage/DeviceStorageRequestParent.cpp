@@ -1798,14 +1798,14 @@ mime
 )
 ;
 nsString
-compositePath
+fullPath
 ;
 mFile
 -
 >
-GetCompositePath
+GetFullPath
 (
-compositePath
+fullPath
 )
 ;
 nsCOMPtr
@@ -1817,7 +1817,7 @@ blob
 new
 nsDOMFileFile
 (
-compositePath
+fullPath
 mime
 mLength
 mFile

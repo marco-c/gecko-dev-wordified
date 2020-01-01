@@ -273,14 +273,14 @@ TSuccessResponse
 :
 {
 nsString
-compositePath
+fullPath
 ;
 mFile
 -
 >
-GetCompositePath
+GetFullPath
 (
-compositePath
+fullPath
 )
 ;
 AutoJSContext
@@ -307,7 +307,7 @@ mRequest
 GetOwner
 (
 )
-compositePath
+fullPath
 )
 )
 ;
