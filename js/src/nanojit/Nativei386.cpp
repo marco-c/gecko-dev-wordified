@@ -1978,12 +1978,6 @@ clear
 ;
 a
 .
-used
-=
-0
-;
-a
-.
 free
 =
 SavedRegs
