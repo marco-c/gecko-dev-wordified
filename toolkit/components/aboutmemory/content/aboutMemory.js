@@ -2588,12 +2588,18 @@ createElement
 aTagName
 )
 ;
+if
+(
+aClassName
+)
+{
 e
 .
 className
 =
 aClassName
 ;
+}
 aP
 .
 appendChild
@@ -3071,8 +3077,6 @@ content
 "
 div
 "
-"
-"
 )
 ;
 var
@@ -3153,8 +3157,6 @@ appendElement
 content
 "
 div
-"
-"
 "
 )
 ;
@@ -5810,8 +5812,6 @@ aP
 "
 div
 "
-"
-"
 )
 ;
 appendElementWithText
@@ -5854,8 +5854,6 @@ appendElement
 div
 "
 ul
-"
-"
 "
 )
 ;
@@ -6309,14 +6307,10 @@ of
 a
 tree
 .
-var
-otherText
-=
 appendOtherElements
 (
 aP
 aReporters
-aProcess
 )
 ;
 /
@@ -6360,9 +6354,6 @@ a
 text
 buffer
 .
-var
-warningElements
-=
 appendWarningElements
 (
 warningsDiv
@@ -9695,7 +9686,6 @@ appendOtherElements
 (
 aP
 aReportersByProcess
-aProcess
 )
 {
 appendSectionHeader
