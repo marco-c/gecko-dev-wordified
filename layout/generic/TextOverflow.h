@@ -1415,7 +1415,7 @@ void
 Init
 (
 const
-nsStyleTextOverflow
+nsStyleTextOverflowSide
 &
 aStyle
 )
@@ -1512,7 +1512,7 @@ this
 side
 .
 const
-nsStyleTextOverflow
+nsStyleTextOverflowSide
 *
 mStyle
 ;
