@@ -5061,6 +5061,9 @@ width
 2
 )
 ;
+var
+dragAfter
+;
 if
 (
 direction
