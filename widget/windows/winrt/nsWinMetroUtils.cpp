@@ -2312,6 +2312,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+return
+NS_OK
+;
 }
 NS_IMETHODIMP
 nsWinMetroUtils
