@@ -4575,9 +4575,6 @@ aEvent
 )
 )
 ;
-#
-ifdef
-MOZ_SMIL
 case
 NS_SMIL_TIME_EVENT
 :
@@ -4589,11 +4586,6 @@ aPresContext
 aEvent
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 case
 NS_COMMAND_EVENT
 :
@@ -5100,9 +5092,6 @@ aPresContext
 nsnull
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 aEventType
@@ -5132,11 +5121,6 @@ aPresContext
 nsnull
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 if
 (
 aEventType

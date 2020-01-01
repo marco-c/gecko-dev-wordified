@@ -449,9 +449,6 @@ nsSVGAttrTearoffTable
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -465,11 +462,6 @@ SVGPointListSMILType
 .
 h
 "
-#
-endif
-/
-/
-MOZ_SMIL
 /
 /
 See
@@ -1392,9 +1384,6 @@ DidAnimatePointList
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedPointList
@@ -1753,11 +1742,6 @@ mElement
 ;
 }
 }
-#
-endif
-/
-/
-MOZ_SMIL
 }
 /
 /

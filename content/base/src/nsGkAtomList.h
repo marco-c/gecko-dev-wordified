@@ -10136,9 +10136,6 @@ zoomAndPan
 zoomAndPan
 "
 )
-#
-ifdef
-MOZ_SMIL
 GK_ATOM
 (
 accumulate
@@ -10323,8 +10320,6 @@ XML
 XML
 "
 )
-#
-endif
 /
 /
 internal

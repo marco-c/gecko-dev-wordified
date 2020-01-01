@@ -1325,9 +1325,6 @@ nsINodeInfo
 aNodeInfo
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsresult
 NS_NewSVGAnimateElement
 (
@@ -1398,11 +1395,6 @@ nsINodeInfo
 aNodeInfo
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 nsresult
 NS_NewSVGElement
 (
@@ -2467,9 +2459,6 @@ aResult
 aNodeInfo
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 NS_SMILEnabled
@@ -2563,11 +2552,6 @@ aNodeInfo
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_SMIL
 /
 /
 if

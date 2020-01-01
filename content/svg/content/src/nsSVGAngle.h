@@ -651,9 +651,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 /
 /
 Returns
@@ -675,11 +672,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 static
 float
 GetDegreesPerUnit
@@ -1292,9 +1284,6 @@ mSVGElement
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 /
 /
 We
@@ -1496,11 +1485,6 @@ aValue
 ;
 }
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 }
 ;
 nsresult

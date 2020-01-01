@@ -1154,9 +1154,6 @@ DOMCI_CLASS
 (
 SVGAltGlyphElement
 )
-#
-ifdef
-MOZ_SMIL
 DOMCI_CLASS
 (
 SVGAnimateElement
@@ -1181,11 +1178,6 @@ DOMCI_CLASS
 (
 TimeEvent
 )
-#
-endif
-/
-/
-MOZ_SMIL
 DOMCI_CLASS
 (
 SVGCircleElement

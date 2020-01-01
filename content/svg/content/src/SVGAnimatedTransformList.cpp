@@ -435,9 +435,6 @@ DOMSVGAnimatedTransformList
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -472,11 +469,6 @@ prdtoa
 .
 h
 "
-#
-endif
-/
-/
-MOZ_SMIL
 namespace
 mozilla
 {
@@ -1385,9 +1377,6 @@ IsEmpty
 mAnimVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedTransformList
@@ -2375,11 +2364,6 @@ mElement
 ;
 }
 }
-#
-endif
-/
-/
-MOZ_SMIL
 }
 /
 /

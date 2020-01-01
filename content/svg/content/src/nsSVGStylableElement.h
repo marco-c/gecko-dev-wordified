@@ -549,9 +549,6 @@ bool
 aNotify
 )
 ;
-#
-ifdef
-MOZ_SMIL
 virtual
 nsISMILAttr
 *
@@ -564,8 +561,6 @@ nsIAtom
 aName
 )
 ;
-#
-endif
 void
 DidAnimateClass
 (

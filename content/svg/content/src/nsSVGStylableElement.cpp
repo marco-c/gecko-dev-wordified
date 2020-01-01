@@ -1253,9 +1253,6 @@ eRestyle_Self
 ;
 }
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGStylableElement
@@ -1307,8 +1304,3 @@ aName
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_SMIL

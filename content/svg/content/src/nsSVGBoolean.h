@@ -552,9 +552,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 /
 /
 Returns
@@ -576,11 +573,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 private
 :
 bool
@@ -731,9 +723,6 @@ bool
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -741,8 +730,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aResult
 =
@@ -759,9 +746,6 @@ NS_OK
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILBool
 :
@@ -883,11 +867,6 @@ aValue
 ;
 }
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 }
 ;
 #

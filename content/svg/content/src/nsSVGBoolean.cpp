@@ -427,9 +427,6 @@ nsSVGBoolean
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -443,11 +440,6 @@ SMILBoolType
 .
 h
 "
-#
-endif
-/
-/
-MOZ_SMIL
 using
 namespace
 mozilla
@@ -621,9 +613,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -634,8 +623,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 /
 /
 We
@@ -767,9 +754,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -780,8 +764,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -867,9 +849,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGBoolean
@@ -1125,8 +1104,3 @@ return
 NS_OK
 ;
 }
-#
-endif
-/
-/
-MOZ_SMIL

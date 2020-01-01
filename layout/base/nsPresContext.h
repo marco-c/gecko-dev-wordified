@@ -5755,9 +5755,6 @@ PRUint16
 aMode
 )
 ;
-#
-ifdef
-MOZ_SMIL
 NS_HIDDEN_
 (
 void
@@ -5773,11 +5770,6 @@ PRUint16
 aOldMode
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 NS_HIDDEN_
 (
 void

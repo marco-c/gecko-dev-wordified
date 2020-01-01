@@ -479,9 +479,6 @@ nsMathUtils
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -495,11 +492,6 @@ SVGViewBoxSMILType
 .
 h
 "
-#
-endif
-/
-/
-MOZ_SMIL
 #
 define
 NUM_VIEWBOX_COMPONENTS
@@ -882,9 +874,6 @@ DidChangeViewBox
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mAnimVal
@@ -898,8 +887,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 }
 static
 nsresult
@@ -1207,9 +1194,6 @@ mHasBaseVal
 =
 true
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mAnimVal
@@ -1223,8 +1207,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 /
 /
 We
@@ -1696,9 +1678,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGViewBox
@@ -1990,8 +1969,3 @@ return
 NS_OK
 ;
 }
-#
-endif
-/
-/
-MOZ_SMIL

@@ -4837,9 +4837,6 @@ nsCString
 >
 mFileDataUris
 ;
-#
-ifdef
-MOZ_SMIL
 /
 /
 Returns
@@ -4873,11 +4870,6 @@ GetAnimationController
 (
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 void
 SetImagesNeedAnimating
 (

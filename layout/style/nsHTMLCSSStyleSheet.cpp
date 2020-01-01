@@ -679,9 +679,6 @@ rule
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 rule
 =
 element
@@ -831,11 +828,6 @@ rule
 ;
 }
 }
-#
-endif
-/
-/
-MOZ_SMIL
 }
 /
 *
