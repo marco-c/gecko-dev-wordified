@@ -3546,9 +3546,6 @@ NS_ASSERTION
 (
 !
 (
-aParams
--
->
 mFlags
 &
 TEXT_NEED_BOUNDING_BOX
@@ -3787,9 +3784,6 @@ isComplex
 &
 &
 (
-aParams
--
->
 mFlags
 &
 TEXT_IS_ASCII
