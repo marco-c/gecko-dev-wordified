@@ -7482,6 +7482,16 @@ initialized_setLcdFilter
 =
 1
 ;
+#
+ifdef
+HAVE_FT_LIBRARY_SETLCDFILTER
+setLcdFilter
+=
+&
+FT_Library_SetLcdFilter
+;
+#
+else
 setLcdFilter
 =
 (
@@ -7495,6 +7505,8 @@ FT_Library_SetLcdFilter
 "
 )
 ;
+#
+endif
 }
 if
 (
