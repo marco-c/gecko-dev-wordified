@@ -1154,7 +1154,7 @@ PRInt32
 aRangeIndex
 )
 ;
-void
+nsresult
 GetIndicesForInterval
 (
 nsINode
