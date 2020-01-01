@@ -864,6 +864,9 @@ class
 JaegerCompartment
 ;
 }
+class
+WeakMapBase
+;
 /
 *
 *
@@ -2372,7 +2375,10 @@ volatile
 bool
 gcIsNeeded
 ;
-JSObject
+js
+:
+:
+WeakMapBase
 *
 gcWeakMapList
 ;

@@ -9354,10 +9354,10 @@ EAGER_CLASS_ATOM
 WeakMap
 )
 &
-WeakMap
+js
 :
 :
-jsclass
+WeakMapClass
 }
 {
 NULL
