@@ -41867,7 +41867,10 @@ JS_ASSERT
 obj
 -
 >
-isObject
+is
+<
+JSObject
+>
 (
 )
 )

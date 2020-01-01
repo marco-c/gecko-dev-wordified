@@ -19629,7 +19629,10 @@ of
 being
 /
 /
-ObjectClass
+JSObject
+:
+:
+class_
 '
 d
 )

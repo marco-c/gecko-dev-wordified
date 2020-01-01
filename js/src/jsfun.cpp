@@ -1478,7 +1478,10 @@ NewObjectWithGivenProto
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 objProto
 NULL
 SingletonObject

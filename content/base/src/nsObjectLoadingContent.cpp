@@ -19838,11 +19838,10 @@ pi_proto
 )
 !
 =
-&
 js
 :
 :
-ObjectClass
+ObjectClassPtr
 )
 {
 /

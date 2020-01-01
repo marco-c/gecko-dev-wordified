@@ -2380,7 +2380,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 )
 ;
@@ -4598,7 +4601,10 @@ NewObjectWithGivenProto
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 proto
 &
 args

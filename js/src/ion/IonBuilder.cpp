@@ -29680,7 +29680,10 @@ cx
 getNewType
 (
 &
-ObjectClass
+JSObject
+:
+:
+class_
 proto
 .
 get
@@ -35443,7 +35446,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 allocKind
 newKind
 )

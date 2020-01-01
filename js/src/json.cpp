@@ -4573,7 +4573,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 )
 ;
@@ -5368,7 +5371,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 )
 ;

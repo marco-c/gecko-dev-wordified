@@ -18467,7 +18467,10 @@ regs
 .
 pc
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 ;
 obj
@@ -18476,7 +18479,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 allocKind
 newKind
 )
@@ -18885,7 +18891,10 @@ JS_ASSERT
 obj
 -
 >
-isObject
+is
+<
+JSObject
+>
 (
 )
 )

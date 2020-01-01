@@ -2000,7 +2000,10 @@ NewObjectWithGivenProto
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 NULL
 NULL
 )

@@ -4135,7 +4135,10 @@ if
 obj
 -
 >
-isObject
+is
+<
+JSObject
+>
 (
 )
 |
@@ -6570,7 +6573,10 @@ context
 (
 )
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 ;
 if
