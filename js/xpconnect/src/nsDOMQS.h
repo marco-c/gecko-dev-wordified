@@ -142,7 +142,7 @@ template
 <
 >
 \
-inline
+MOZ_ALWAYS_INLINE
 JSBool
 \
 xpc_qsUnwrapThis
