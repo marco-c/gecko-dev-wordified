@@ -189,6 +189,12 @@ self
 perfdata
 =
 None
+        
+self
+.
+duration
+=
+0
     
 classmethod
     
@@ -586,6 +592,16 @@ collection
         
 self
 .
+start_time
+=
+time
+.
+time
+(
+)
+        
+self
+.
 marionette
 =
 self
@@ -618,6 +634,20 @@ tearDown
 self
 )
 :
+        
+self
+.
+duration
+=
+time
+.
+time
+(
+)
+-
+self
+.
+start_time
         
 if
 self
@@ -894,16 +924,6 @@ self
         
 self
 .
-start_time
-=
-time
-.
-time
-(
-)
-        
-self
-.
 marionette
 .
 test_name
@@ -966,20 +986,6 @@ tearDown
 self
 )
 :
-        
-self
-.
-duration
-=
-time
-.
-time
-(
-)
--
-self
-.
-start_time
         
 self
 .
