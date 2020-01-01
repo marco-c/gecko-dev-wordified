@@ -553,7 +553,7 @@ public
 explicit
 Repatcher
 (
-JITScript
+JITChunk
 *
 js
 )
