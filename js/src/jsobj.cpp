@@ -15838,6 +15838,12 @@ rval
 ;
 }
 }
+/
+*
+namespace
+js
+*
+/
 JSBool
 js_DefineOwnProperty
 (
