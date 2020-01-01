@@ -9109,7 +9109,7 @@ op
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 -

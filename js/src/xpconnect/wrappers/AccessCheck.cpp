@@ -1816,7 +1816,7 @@ if
 id
 =
 =
-JSVID_VOID
+JSID_VOID
 )
 {
 JS_ReportError
@@ -2002,7 +2002,7 @@ if
 id
 =
 =
-JSVAL_VOID
+JSID_VOID
 )
 {
 /
