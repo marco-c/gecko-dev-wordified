@@ -617,15 +617,6 @@ color
 )
 const
 ;
-JS_ALWAYS_INLINE
-void
-unmark
-(
-uint32
-color
-)
-const
-;
 inline
 JSCompartment
 *

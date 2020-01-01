@@ -783,13 +783,6 @@ h
 #
 include
 "
-xpcpublic
-.
-h
-"
-#
-include
-"
 jsdbgapi
 .
 h

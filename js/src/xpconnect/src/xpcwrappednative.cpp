@@ -1064,13 +1064,27 @@ JSObject
 *
 obj
 =
+nsnull
+;
+nsresult
+rv
+=
 tmp
 -
 >
-GetFlatJSObjectPreserveColor
+GetJSObject
 (
+&
+obj
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
 cb
 .
 NoteScriptChild
@@ -2146,7 +2160,7 @@ cache
 cache
 -
 >
-GetWrapperPreserveColor
+GetWrapper
 (
 )
 "
@@ -2553,7 +2567,7 @@ if
 cache
 -
 >
-GetWrapperPreserveColor
+GetWrapper
 (
 )
 )
@@ -4144,7 +4158,7 @@ flat
 wrapper
 -
 >
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 ;
@@ -4158,7 +4172,7 @@ cache
 cache
 -
 >
-GetWrapperPreserveColor
+GetWrapper
 (
 )
 |
@@ -4169,7 +4183,7 @@ flat
 cache
 -
 >
-GetWrapperPreserveColor
+GetWrapper
 (
 )
 "
@@ -4206,7 +4220,7 @@ cache
 cache
 -
 >
-GetWrapperPreserveColor
+GetWrapper
 (
 )
 )
@@ -9398,7 +9412,7 @@ flat
 wrapper
 -
 >
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 ;
@@ -18161,7 +18175,7 @@ aJSObject
 *
 aJSObject
 =
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 ;
@@ -18259,7 +18273,7 @@ GetJSProtoObject
 (
 )
 :
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 ;
@@ -18663,7 +18677,7 @@ ac
 enter
 (
 ccx
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 )
@@ -18808,7 +18822,7 @@ if
 JS_SetPrototype
 (
 ccx
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 newProto
