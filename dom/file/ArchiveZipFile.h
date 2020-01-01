@@ -146,6 +146,15 @@ zipstruct
 h
 "
 BEGIN_FILE_NAMESPACE
+/
+*
+*
+*
+ZipFile
+to
+DOMFileCC
+*
+/
 class
 ArchiveZipFile
 :

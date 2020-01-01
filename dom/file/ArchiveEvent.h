@@ -154,7 +154,9 @@ h
 "
 BEGIN_FILE_NAMESPACE
 /
-/
+*
+*
+*
 This
 class
 contains
@@ -166,8 +168,7 @@ for
 a
 single
 item
-/
-/
+*
 It
 must
 contain
@@ -180,6 +181,8 @@ File
 )
 method
 .
+*
+/
 class
 ArchiveItem
 :
@@ -207,13 +210,11 @@ Setter
 for
 the
 type
-virtual
 nsCString
 GetType
 (
 )
 ;
-virtual
 void
 SetType
 (
@@ -230,9 +231,12 @@ for
 the
 filename
 virtual
-nsCString
+nsresult
 GetFilename
 (
+nsString
+&
+aFilename
 )
 =
 0
@@ -262,7 +266,9 @@ mType
 }
 ;
 /
-/
+*
+*
+*
 This
 class
 must
@@ -276,8 +282,7 @@ supported
 by
 ArchiveReader
 API
-/
-/
+*
 This
 class
 runs
@@ -296,8 +301,7 @@ exec
 '
 method
 .
-/
-/
+*
 The
 exec
 (
@@ -315,6 +319,8 @@ RunShare
 (
 )
 ;
+*
+/
 class
 ArchiveReaderEvent
 :
