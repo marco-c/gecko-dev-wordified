@@ -1259,6 +1259,10 @@ mBaseURI
 mOriginalPrincipal
 scriptHandlingObject
 svg
+?
+DocumentFlavorSVG
+:
+DocumentFlavorLegacyGuess
 getter_AddRefs
 (
 domDocument
