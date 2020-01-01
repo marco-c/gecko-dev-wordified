@@ -669,6 +669,14 @@ String
 map
 )
 ;
+public
+static
+native
+void
+onResume
+(
+)
+;
 /
 /
 java
