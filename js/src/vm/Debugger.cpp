@@ -22738,7 +22738,7 @@ GetDebugScopeForFrame
 cx
 iter
 .
-interpFrame
+taggedFramePtr
 (
 )
 )
@@ -25682,7 +25682,7 @@ cx
 iter
 -
 >
-interpFrame
+taggedFramePtr
 (
 )
 )
