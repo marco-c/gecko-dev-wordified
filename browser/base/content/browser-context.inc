@@ -538,7 +538,7 @@ accesskey
 &
 social
 .
-marklink
+marklinkMenu
 .
 accesskey
 ;
@@ -2603,7 +2603,7 @@ accesskey
 &
 social
 .
-markpage
+markpageMenu
 .
 accesskey
 ;
