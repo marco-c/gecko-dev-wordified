@@ -375,6 +375,14 @@ rhs
 )
 ;
 bool
+lowerTruncateDToInt32
+(
+MTruncateToInt32
+*
+ins
+)
+;
+bool
 lowerConstantDouble
 (
 double
