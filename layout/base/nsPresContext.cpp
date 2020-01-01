@@ -10749,13 +10749,6 @@ s
 /
 ok
 .
-#
-ifdef
-DEBUG
-{
-PRBool
-inReflow
-;
 NS_ASSERTION
 (
 !
@@ -10779,9 +10772,6 @@ first
 "
 )
 ;
-}
-#
-endif
 FlushUserFontSet
 (
 )
