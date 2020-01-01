@@ -628,7 +628,7 @@ docAccessNode
 ;
 NS_ENSURE_TRUE
 (
-accDocument
+docAccessNode
 nsnull
 )
 ;
@@ -640,10 +640,7 @@ docAccessNode
 >
 GetLanguage
 (
-getter_AddRefs
-(
 locale
-)
 )
 ;
 if
