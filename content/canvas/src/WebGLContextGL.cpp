@@ -2933,7 +2933,6 @@ WebGLContext
 BufferSubData
 (
 PRInt32
-dummy
 )
 {
 return
@@ -14634,9 +14633,7 @@ WebGLContext
 Hint
 (
 WebGLenum
-target
 WebGLenum
-mode
 )
 {
 return
@@ -15478,7 +15475,6 @@ WebGLContext
 ReadPixels
 (
 PRInt32
-dummy
 )
 {
 return
@@ -20061,7 +20057,6 @@ WebGLContext
 name
 (
 PRInt32
-dummy
 )
 {
 \
@@ -20243,7 +20238,6 @@ WebGLContext
 name
 (
 PRInt32
-dummy
 )
 {
 \
@@ -21201,7 +21195,6 @@ WebGLContext
 name
 (
 PRInt32
-dummy
 )
 {
 \
@@ -23291,7 +23284,6 @@ WebGLContext
 TexImage2D
 (
 PRInt32
-dummy
 )
 {
 return
@@ -24507,7 +24499,6 @@ WebGLContext
 TexSubImage2D
 (
 PRInt32
-dummy
 )
 {
 return
