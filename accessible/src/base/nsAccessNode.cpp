@@ -493,13 +493,6 @@ h
 #
 include
 "
-nsIAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
