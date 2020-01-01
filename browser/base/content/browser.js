@@ -1133,14 +1133,6 @@ info
 bar
 .
 js
-let
-gDataNotificationInfoBar
-=
-new
-DataNotificationInfoBar
-(
-)
-;
 #
 endif
 #
