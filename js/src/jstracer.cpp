@@ -50681,7 +50681,11 @@ if
 flags
 =
 =
+(
+JSITER_ENUMERATE
+|
 JSITER_FOREACH
+)
 )
 return
 call_imacro
