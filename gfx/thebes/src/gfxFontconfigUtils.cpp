@@ -1753,9 +1753,14 @@ nsCString
 >
 fonts
 ;
-nsCString
+nsCAutoString
 langGroupStr
 ;
+if
+(
+aLangGroup
+)
+{
 aLangGroup
 -
 >
@@ -1764,6 +1769,7 @@ ToUTF8String
 langGroupStr
 )
 ;
+}
 nsresult
 rv
 =
