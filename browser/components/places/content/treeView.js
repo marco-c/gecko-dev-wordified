@@ -2425,7 +2425,7 @@ didn
 t
 change
 the
-viewIndexs
+viewIndexes
 also
 /
 /
@@ -5553,7 +5553,7 @@ containerOpen
 isContainerEmpty
 :
 function
-PTV_isContainerOpen
+PTV_isContainerEmpty
 (
 aRow
 )
