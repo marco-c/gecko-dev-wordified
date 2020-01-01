@@ -830,7 +830,12 @@ GetFormControls
 /
 nsIDOMDocument
 interface
-NS_DECL_NSIDOMDOCUMENT
+NS_FORWARD_NSIDOMDOCUMENT
+(
+nsDocument
+:
+:
+)
 /
 /
 nsIDOMNode
