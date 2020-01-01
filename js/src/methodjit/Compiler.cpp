@@ -39201,8 +39201,6 @@ isn
 t
 clobbered
 by
-sync
-or
 the
 stub
 call
@@ -39605,6 +39603,13 @@ lhs
 #
 ifdef
 JSGC_INCREMENTAL_MJ
+frame
+.
+pinReg
+(
+reg
+)
+;
 if
 (
 cx
@@ -39634,13 +39639,6 @@ barrier
 .
 *
 /
-frame
-.
-pinReg
-(
-reg
-)
-;
 Jump
 j
 =
@@ -39720,6 +39718,7 @@ Changes
 )
 )
 ;
+}
 frame
 .
 unpinReg
@@ -39727,7 +39726,6 @@ unpinReg
 reg
 )
 ;
-}
 #
 endif
 if
