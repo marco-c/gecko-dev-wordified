@@ -3603,7 +3603,7 @@ menuitem
 id
 =
 "
-menu_fullScreen
+fullScreenItem
 "
 accesskey
 =
@@ -3627,11 +3627,6 @@ key
 =
 "
 key_fullScreen
-"
-id
-=
-"
-fullScreenItem
 "
 type
 =
