@@ -1728,6 +1728,7 @@ skipToIndex
 ;
 for
 (
+let
 len
 =
 mods
@@ -3871,6 +3872,7 @@ input
 modules
 *
 /
+function
 DragData
 (
 owner
