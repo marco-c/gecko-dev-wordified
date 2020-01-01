@@ -103,10 +103,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 HTMLUnknownElement
 .
 h
@@ -313,7 +309,7 @@ QueryInterface
 implementation
 for
 HTMLUnknownElement
-NS_INTERFACE_MAP_BEGIN
+NS_INTERFACE_TABLE_HEAD
 (
 HTMLUnknownElement
 )
@@ -321,6 +317,12 @@ NS_HTML_CONTENT_INTERFACES
 (
 nsGenericHTMLElement
 )
+NS_INTERFACE_TABLE_INHERITED1
+(
+HTMLUnknownElement
+nsIDOMHTMLUnknownElement
+)
+NS_INTERFACE_TABLE_TO_MAP_SEGUE
 NS_ELEMENT_INTERFACE_MAP_END
 NS_IMPL_ELEMENT_CLONE
 (

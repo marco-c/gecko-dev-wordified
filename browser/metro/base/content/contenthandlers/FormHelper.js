@@ -179,6 +179,13 @@ Ci
 nsIDOMHTMLBodyElement
 ;
 let
+HTMLLabelElement
+=
+Ci
+.
+nsIDOMHTMLLabelElement
+;
+let
 HTMLButtonElement
 =
 Ci
