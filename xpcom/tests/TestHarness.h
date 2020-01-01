@@ -545,6 +545,10 @@ printf
 prepending
 *
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 "
 for
@@ -555,6 +559,7 @@ the
 test
 harness
 and
+*
 appending
 "
 \
@@ -562,7 +567,6 @@ n
 "
 to
 eliminate
-*
 having
 to
 type
@@ -592,7 +596,12 @@ ap
 printf
 (
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
+|
 "
 )
 ;
