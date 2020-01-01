@@ -10256,11 +10256,6 @@ gUpdates
 .
 update
 ;
-const
-NS_BINDING_ABORTED
-=
-0x804b0002
-;
 switch
 (
 status
@@ -10433,6 +10428,10 @@ return
 break
 ;
 case
+Components
+.
+results
+.
 NS_BINDING_ABORTED
 :
 LOG
