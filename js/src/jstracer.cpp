@@ -12486,14 +12486,6 @@ n
 )
 ;
 )
-/
-/
-js_TrashTree
-(
-cx
-f
-)
-;
 return
 NULL
 ;
