@@ -27354,7 +27354,7 @@ reason
 }
 else
 {
-this
+XPIProvider
 .
 unloadBootstrapScope
 (
