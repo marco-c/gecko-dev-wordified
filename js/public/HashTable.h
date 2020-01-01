@@ -4261,11 +4261,14 @@ checkOverloaded
 {
 if
 (
+!
 overloaded
 (
 )
 )
-{
+return
+false
+;
 /
 *
 Compress
@@ -4335,10 +4338,6 @@ changeTableSize
 (
 deltaLog2
 )
-;
-}
-return
-false
 ;
 }
 void
