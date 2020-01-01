@@ -267,8 +267,11 @@ in
 the
 future
 .
-function
+this
+.
 ProfileCreationTimeAccessor
+=
+function
 (
 profile
 log
@@ -341,6 +344,8 @@ n
 }
 ;
 }
+this
+.
 ProfileCreationTimeAccessor
 .
 prototype
@@ -1389,8 +1394,11 @@ time
 .
 *
 /
-function
+this
+.
 ProfileMetadataProvider
+=
+function
 (
 )
 {
@@ -1404,6 +1412,8 @@ this
 )
 ;
 }
+this
+.
 ProfileMetadataProvider
 .
 prototype
