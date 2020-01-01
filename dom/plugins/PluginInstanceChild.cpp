@@ -7795,6 +7795,11 @@ have
 to
 match
 .
+UpdatePaintClipRect
+(
+pRect
+)
+;
 :
 :
 FillRect
@@ -7812,11 +7817,6 @@ GetStockObject
 (
 WHITE_BRUSH
 )
-)
-;
-UpdatePaintClipRect
-(
-pRect
 )
 ;
 evcopy
@@ -8014,6 +8014,11 @@ our
 cached
 surface
 back
+UpdatePaintClipRect
+(
+pRect
+)
+;
 :
 :
 BitBlt
