@@ -1567,13 +1567,6 @@ void
 ;
 NS_SCRIPTABLE
 NS_IMETHOD
-RequestDiscard
-(
-void
-)
-;
-NS_SCRIPTABLE
-NS_IMETHOD
 ResetAnimation
 (
 void
@@ -4408,10 +4401,7 @@ members
 PRUint32
 mLockCount
 ;
-DiscardTracker
-:
-:
-Node
+DiscardTrackerNode
 mDiscardTrackerNode
 ;
 /

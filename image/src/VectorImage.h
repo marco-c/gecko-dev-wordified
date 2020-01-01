@@ -723,13 +723,6 @@ void
 ;
 NS_SCRIPTABLE
 NS_IMETHOD
-RequestDiscard
-(
-void
-)
-;
-NS_SCRIPTABLE
-NS_IMETHOD
 ResetAnimation
 (
 void
