@@ -361,6 +361,7 @@ handler
 function
 setUp
 (
+server
 )
 {
 setBasicCredentials
@@ -380,13 +381,25 @@ Service
 .
 serverURL
 =
-TEST_SERVER_URL
+server
+.
+baseURI
++
+"
+/
+"
 ;
 Service
 .
 clusterURL
 =
-TEST_CLUSTER_URL
+server
+.
+baseURI
++
+"
+/
+"
 ;
 generateNewKeys
 (
@@ -568,6 +581,7 @@ sync_httpd_setup
 ;
 setUp
 (
+server
 )
 ;
 /
@@ -1393,6 +1407,7 @@ sync_httpd_setup
 ;
 setUp
 (
+server
 )
 ;
 /
@@ -2133,6 +2148,7 @@ sync_httpd_setup
 ;
 setUp
 (
+server
 )
 ;
 /
@@ -2352,6 +2368,7 @@ sync_httpd_setup
 ;
 setUp
 (
+server
 )
 ;
 let
@@ -2628,6 +2645,7 @@ sync_httpd_setup
 ;
 setUp
 (
+server
 )
 ;
 let
