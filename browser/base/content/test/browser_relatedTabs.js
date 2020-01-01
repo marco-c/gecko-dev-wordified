@@ -478,7 +478,11 @@ gBrowser
 addTab
 (
 aURL
+{
+referrerURI
+:
 aReferrer
+}
 )
 )
 ;
