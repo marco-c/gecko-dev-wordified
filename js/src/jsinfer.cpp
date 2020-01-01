@@ -16219,6 +16219,10 @@ endif
 JS_METHODJIT
 *
 /
+pendingNukeTypes
+=
+false
+;
 }
 void
 TypeCompartment
