@@ -2577,8 +2577,10 @@ index
 ]
 )
 ;
+(
 *
 aIdentifiers
+)
 [
 index
 ]
