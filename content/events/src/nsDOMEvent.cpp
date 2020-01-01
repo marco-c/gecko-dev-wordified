@@ -838,6 +838,9 @@ open
 message
 "
 "
+show
+"
+"
 SVGLoad
 "
 "
@@ -6765,6 +6768,15 @@ return
 sEventNames
 [
 eDOMEvents_message
+]
+;
+case
+NS_SHOW_EVENT
+:
+return
+sEventNames
+[
+eDOMEvents_show
 ]
 ;
 case

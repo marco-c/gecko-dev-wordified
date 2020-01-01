@@ -4075,6 +4075,15 @@ nsHtml5Atoms
 :
 :
 button
+|
+|
+aName
+=
+=
+nsHtml5Atoms
+:
+:
+menuitem
 )
 {
 if

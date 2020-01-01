@@ -1926,6 +1926,15 @@ nsGkAtoms
 :
 :
 button
+|
+|
+localName
+=
+=
+nsGkAtoms
+:
+:
+menuitem
 )
 )
 {
