@@ -4122,10 +4122,7 @@ nsIScriptContext
 >
 mContext
 ;
-nsCOMPtr
-<
-nsIDOMWindowInternal
->
+nsWeakPtr
 mOpener
 ;
 nsCOMPtr
