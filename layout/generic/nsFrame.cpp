@@ -31417,7 +31417,7 @@ Document
 )
 -
 >
-IsResourceDoc
+GetDisplayDocument
 (
 )
 )
