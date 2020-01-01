@@ -1253,9 +1253,6 @@ char
 *
 *
 aMessage
-PRUint16
-*
-aCode
 )
 {
 const
@@ -1306,17 +1303,6 @@ aMessage
 =
 message
 ;
-if
-(
-aCode
-)
-{
-*
-aCode
-=
-code
-;
-}
 return
 NS_OK
 ;

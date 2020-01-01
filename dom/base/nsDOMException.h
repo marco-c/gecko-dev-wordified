@@ -540,11 +540,6 @@ char
 *
 *
 aMessage
-PRUint16
-*
-aCode
-=
-nsnull
 )
 ;
 #
