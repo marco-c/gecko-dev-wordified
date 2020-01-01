@@ -1772,9 +1772,8 @@ rv
 if
 (
 !
-HasFlag
+MayHaveStyle
 (
-NODE_MAY_HAVE_STYLE
 )
 )
 {
