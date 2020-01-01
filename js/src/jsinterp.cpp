@@ -32955,8 +32955,8 @@ slot
 rval
 )
 )
-return
-JS_FALSE
+goto
+error
 ;
 if
 (
@@ -33397,8 +33397,8 @@ slot
 rval
 )
 )
-return
-JS_FALSE
+goto
+error
 ;
 }
 else
