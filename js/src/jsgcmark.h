@@ -471,9 +471,6 @@ TemplateLib
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 ion
@@ -482,13 +479,6 @@ IonCode
 .
 h
 "
-#
-endif
-/
-*
-JS_ION
-*
-/
 namespace
 js
 {
