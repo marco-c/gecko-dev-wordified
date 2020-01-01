@@ -1046,9 +1046,12 @@ isDenseArray
 )
 )
 ;
-return
+JS_ASSERT
+(
 dslots
-?
+)
+;
+return
 dslots
 [
 -
@@ -1058,8 +1061,6 @@ dslots
 toPrivateUint32
 (
 )
-:
-0
 ;
 }
 inline
