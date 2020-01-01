@@ -38530,8 +38530,12 @@ scrollFrame
 mContent
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 &
 &

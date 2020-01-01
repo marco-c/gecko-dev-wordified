@@ -1067,8 +1067,12 @@ return
 content
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 &
 &

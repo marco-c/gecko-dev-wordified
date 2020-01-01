@@ -8523,8 +8523,12 @@ root
 aContent
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 )
 {
@@ -22014,8 +22018,12 @@ a
 content
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 {

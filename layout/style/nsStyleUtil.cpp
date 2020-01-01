@@ -3749,8 +3749,12 @@ NS_ASSERTION
 aContent
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 "
 Only

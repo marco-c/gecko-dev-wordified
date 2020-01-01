@@ -850,8 +850,9 @@ if
 section
 -
 >
-IsHTML
+IsNodeOfType
 (
+eHTML
 )
 &
 &

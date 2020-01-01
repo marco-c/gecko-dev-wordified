@@ -3084,6 +3084,8 @@ aFlags
 eCONTENT
 |
 eELEMENT
+|
+eMATHML
 )
 )
 ;

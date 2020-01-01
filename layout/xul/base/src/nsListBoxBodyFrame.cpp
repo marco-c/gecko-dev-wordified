@@ -6594,8 +6594,12 @@ if
 nextContent
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 |
 |

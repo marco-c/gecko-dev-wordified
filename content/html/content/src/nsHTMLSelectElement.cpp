@@ -2013,8 +2013,12 @@ optgroup
 aContent
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 ;

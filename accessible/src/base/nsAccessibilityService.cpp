@@ -8829,8 +8829,12 @@ isHTML
 content
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 ;
 if

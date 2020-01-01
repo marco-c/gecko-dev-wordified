@@ -8628,8 +8628,12 @@ root
 root
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 |
 |
@@ -15204,8 +15208,12 @@ e
 e
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 {

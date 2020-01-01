@@ -1156,8 +1156,12 @@ if
 content
 -
 >
-IsSVG
+IsNodeOfType
 (
+nsINode
+:
+:
+eSVG
 )
 )
 {

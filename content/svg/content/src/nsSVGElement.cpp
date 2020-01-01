@@ -4502,6 +4502,8 @@ aFlags
 eCONTENT
 |
 eELEMENT
+|
+eSVG
 )
 )
 ;

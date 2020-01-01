@@ -5393,8 +5393,12 @@ if
 aContent
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 )
 return

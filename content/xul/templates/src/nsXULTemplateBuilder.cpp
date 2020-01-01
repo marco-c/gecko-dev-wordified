@@ -7625,8 +7625,12 @@ if
 mRoot
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 )
 {
