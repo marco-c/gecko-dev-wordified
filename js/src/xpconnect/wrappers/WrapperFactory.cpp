@@ -1892,7 +1892,7 @@ else
 wrapper
 =
 &
-JSCrossCompartmentWrapper
+CrossOriginWrapper
 :
 :
 singleton
