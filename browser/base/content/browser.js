@@ -24880,16 +24880,6 @@ function
 /
 unsupported
 }
-setJSDefaultStatus
-:
-function
-(
-)
-{
-/
-/
-unsupported
-}
 setDefaultStatus
 :
 function
