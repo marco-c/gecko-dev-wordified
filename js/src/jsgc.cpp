@@ -24595,13 +24595,13 @@ slot
 =
 GrayLinkSlot
 (
-o
+obj
 )
 ;
 RawObject
 next
 =
-o
+obj
 -
 >
 getReservedSlot
