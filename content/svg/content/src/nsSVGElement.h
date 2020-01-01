@@ -1077,6 +1077,14 @@ aAttrEnum
 ;
 virtual
 void
+DidAnimateBoolean
+(
+PRUint8
+aAttrEnum
+)
+;
+virtual
+void
 DidAnimateEnum
 (
 PRUint8
