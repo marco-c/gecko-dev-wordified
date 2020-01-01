@@ -2588,11 +2588,6 @@ case
 _blank
 "
 :
-case
-"
-_new
-"
-:
 var
 where
 =
