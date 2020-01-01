@@ -79,6 +79,8 @@ preprocess_manifest
     
 preprocess
     
+Component
+    
 SimpleManifestSink
 )
 from
@@ -2526,8 +2528,11 @@ sink
 .
 add
 (
+Component
+(
 '
 '
+)
 '
 bin
 /
