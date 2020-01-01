@@ -31499,11 +31499,6 @@ letStatement
 ;
 #
 endif
-/
-*
-JS_HAS_BLOCK_SCOPE
-*
-/
 case
 TOK_SEMI
 :
