@@ -457,7 +457,7 @@ BLOCK
 #
 include
 "
-nsString
+nsStringGlue
 .
 h
 "

@@ -477,6 +477,13 @@ nsIComponentManager
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 /
 /
 for
