@@ -102,6 +102,12 @@ htons
 /
 ntohs
 #
+undef
+min
+#
+undef
+max
+#
 else
 #
 include
