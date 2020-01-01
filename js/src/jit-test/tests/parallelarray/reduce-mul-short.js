@@ -90,7 +90,9 @@ array
 range
 (
 1
-513
+minItemsTestingThreshold
++
+1
 )
 .
 map

@@ -62,7 +62,7 @@ ParallelArray
 range
 (
 0
-2048
+minItemsTestingThreshold
 )
 )
 ;
