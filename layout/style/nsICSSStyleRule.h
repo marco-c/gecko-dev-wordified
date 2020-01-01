@@ -2475,13 +2475,12 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsICSSStyleRule
 NS_ICSS_STYLE_RULE_IID
 )
-nsresult
+already_AddRefed
+<
+nsICSSStyleRule
+>
 NS_NewCSSStyleRule
 (
-nsICSSStyleRule
-*
-*
-aInstancePtrResult
 nsCSSSelectorList
 *
 aSelector

@@ -753,7 +753,7 @@ Declaration
 )
 ;
 }
-nsresult
+void
 Declaration
 :
 :
@@ -807,11 +807,8 @@ AppendElement
 aProperty
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 Declaration
 :
 :
@@ -906,9 +903,6 @@ CompressFrom
 &
 data
 )
-;
-return
-NS_OK
 ;
 }
 PRBool
@@ -1115,7 +1109,7 @@ return
 PR_TRUE
 ;
 }
-nsresult
+void
 Declaration
 :
 :
@@ -1162,7 +1156,6 @@ aValue
 )
 ;
 return
-NS_OK
 ;
 }
 /
@@ -1577,7 +1570,6 @@ not
 specified
 .
 return
-NS_OK
 ;
 }
 nsCSSUnit
@@ -1842,7 +1834,6 @@ consistent
 importance
 .
 return
-NS_OK
 ;
 }
 if
@@ -1877,7 +1868,6 @@ aValue
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -1912,7 +1902,6 @@ aValue
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -1942,7 +1931,6 @@ or
 inherit
 .
 return
-NS_OK
 ;
 }
 nsCSSCompressedDataBlock
@@ -3737,7 +3725,6 @@ Truncate
 )
 ;
 return
-NS_OK
 ;
 }
 image
@@ -4008,7 +3995,6 @@ Truncate
 )
 ;
 return
-NS_OK
 ;
 }
 aValue
@@ -4130,7 +4116,6 @@ Truncate
 )
 ;
 return
-NS_OK
 ;
 }
 break
@@ -4183,7 +4168,6 @@ Truncate
 )
 ;
 return
-NS_OK
 ;
 }
 aValue
@@ -4598,7 +4582,6 @@ a
 shorthand
 .
 return
-NS_OK
 ;
 }
 systemFont
@@ -4721,7 +4704,6 @@ eCSSUnit_Normal
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -5473,9 +5455,6 @@ shorthands
 break
 ;
 }
-return
-NS_OK
-;
 }
 PRBool
 Declaration
@@ -5786,7 +5765,7 @@ AppendLiteral
 )
 ;
 }
-nsresult
+void
 Declaration
 :
 :
@@ -6459,9 +6438,6 @@ Length
 )
 ;
 }
-return
-NS_OK
-;
 }
 #
 ifdef
@@ -6542,7 +6518,7 @@ out
 }
 #
 endif
-nsresult
+void
 Declaration
 :
 :
@@ -6603,9 +6579,6 @@ aReturn
 ;
 }
 }
-return
-NS_OK
-;
 }
 Declaration
 *
@@ -6626,7 +6599,7 @@ this
 )
 ;
 }
-PRBool
+void
 Declaration
 :
 :
@@ -6656,12 +6629,6 @@ nsCSSCompressedDataBlock
 CreateEmptyBlock
 (
 )
-;
-return
-mData
-!
-=
-nsnull
 ;
 }
 PRBool

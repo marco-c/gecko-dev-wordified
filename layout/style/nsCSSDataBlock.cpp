@@ -3680,14 +3680,6 @@ nsCSSCompressedDataBlock
 (
 )
 ;
-if
-(
-!
-result
-)
-return
-nsnull
-;
 result
 -
 >
