@@ -2389,6 +2389,9 @@ return
 break
 ;
 case
+WM_MOUSELEAVE
+:
+case
 WM_MOUSEMOVE
 :
 case

@@ -812,6 +812,9 @@ case
 WM_UNDO
 :
 case
+WM_MOUSELEAVE
+:
+case
 WM_MOUSEMOVE
 :
 case
