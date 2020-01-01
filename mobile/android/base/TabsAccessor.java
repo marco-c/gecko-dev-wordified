@@ -1210,7 +1210,12 @@ has
 a
 null
 URL
-.
+or
+is
+in
+private
+browsing
+mode
 String
 url
 =
@@ -1226,6 +1231,13 @@ url
 =
 =
 null
+|
+|
+tab
+.
+isPrivate
+(
+)
 )
 continue
 ;
