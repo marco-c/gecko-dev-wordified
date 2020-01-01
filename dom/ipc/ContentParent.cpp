@@ -13210,6 +13210,11 @@ GetGeolocationService
 (
 )
 ;
+if
+(
+geoSvc
+)
+{
 geoSvc
 -
 >
@@ -13218,6 +13223,7 @@ SetHigherAccuracy
 aEnable
 )
 ;
+}
 return
 true
 ;
