@@ -26204,7 +26204,7 @@ case
 eCSSProperty__moz_column_width
 :
 return
-ParseVariant
+ParsePositiveVariant
 (
 aErrorCode
 aValue
@@ -26216,7 +26216,7 @@ case
 eCSSProperty__moz_column_gap
 :
 return
-ParseVariant
+ParsePositiveVariant
 (
 aErrorCode
 aValue
