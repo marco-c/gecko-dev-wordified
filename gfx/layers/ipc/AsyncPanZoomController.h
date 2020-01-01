@@ -2011,7 +2011,7 @@ ignored
 *
 /
 static
-gfxSize
+CSSToScreenScale
 CalculateResolution
 (
 const
