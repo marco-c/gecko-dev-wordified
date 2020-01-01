@@ -21985,10 +21985,7 @@ isInterpreted
 ;
 JS_ASSERT
 (
-types
-:
-:
-IsInlinableCall
+IsIonInlinablePC
 (
 pc
 )
@@ -26939,10 +26936,7 @@ inlining
 .
 JS_ASSERT
 (
-types
-:
-:
-IsInlinableCall
+IsIonInlinablePC
 (
 pc
 )

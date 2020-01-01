@@ -8722,16 +8722,7 @@ values
 .
 JS_ASSERT
 (
-isCall
-|
-|
-IsGetterPC
-(
-pc
-)
-|
-|
-IsSetterPC
+IsIonInlinablePC
 (
 pc
 )
