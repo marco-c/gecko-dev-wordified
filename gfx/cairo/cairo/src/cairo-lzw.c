@@ -568,6 +568,8 @@ size
 ;
 if
 (
+unlikely
+(
 buf
 -
 >
@@ -575,6 +577,7 @@ data
 =
 =
 NULL
+)
 )
 {
 buf
@@ -691,10 +694,13 @@ new_size
 ;
 if
 (
+unlikely
+(
 new_data
 =
 =
 NULL
+)
 )
 {
 free
@@ -917,7 +923,10 @@ buf
 ;
 if
 (
+unlikely
+(
 status
+)
 )
 return
 ;
@@ -1072,7 +1081,10 @@ buf
 ;
 if
 (
+unlikely
+(
 status
+)
 )
 return
 ;

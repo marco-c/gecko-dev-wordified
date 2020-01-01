@@ -548,6 +548,9 @@ void
 use_font_subset_closure
 ;
 cairo_bool_t
+use_actual_text
+;
+cairo_bool_t
 in_text_object
 ;
 /
@@ -751,6 +754,17 @@ pdf_operators
 cairo_matrix_t
 *
 cairo_to_pdf
+)
+;
+cairo_private
+void
+_cairo_pdf_operators_enable_actual_text
+(
+cairo_pdf_operators_t
+*
+pdf_operators
+cairo_bool_t
+enable
 )
 ;
 cairo_private

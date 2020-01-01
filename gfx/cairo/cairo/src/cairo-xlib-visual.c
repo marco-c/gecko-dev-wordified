@@ -709,10 +709,13 @@ cairo_xlib_visual_info_t
 ;
 if
 (
+unlikely
+(
 info
 =
 =
 NULL
+)
 )
 return
 _cairo_error

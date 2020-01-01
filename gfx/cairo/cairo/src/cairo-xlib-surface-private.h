@@ -577,10 +577,13 @@ clip_dirty
 cairo_bool_t
 have_clip_rects
 ;
+cairo_bool_t
+gc_has_clip_rects
+;
 XRectangle
 embedded_clip_rects
 [
-4
+8
 ]
 ;
 XRectangle
