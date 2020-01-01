@@ -871,6 +871,15 @@ PRLibrary
 aLibrary
 )
 ;
+virtual
+bool
+AnswerNPN_UserAgent
+(
+nsCString
+*
+userAgent
+)
+;
 /
 /
 NPRemoteIdentifier
