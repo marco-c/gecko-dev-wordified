@@ -6014,6 +6014,7 @@ Address
 addressForInlineReturn
 (
 )
+const
 ;
 inline
 StateRemat
