@@ -38825,6 +38825,8 @@ aCallback
 void
 *
 aArg
+PRBool
+aIsSynch
 )
 {
 nsCOMPtr
@@ -38843,6 +38845,15 @@ aArg
 )
 ;
 return
+aIsSynch
+?
+event
+-
+>
+Run
+(
+)
+:
 NS_DispatchToCurrentThread
 (
 event
