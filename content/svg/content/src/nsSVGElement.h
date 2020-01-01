@@ -879,12 +879,6 @@ implementation
 inherited
 from
 nsSupportsWeakReference
-nsIContent
-*
-GetParentElement
-(
-)
-;
 /
 /
 Gets
@@ -916,6 +910,12 @@ Returns
 /
 /
 nsnull
+for
+outer
+<
+svg
+>
+or
 SVG
 without
 an
@@ -928,7 +928,6 @@ invalid
 SVG
 )
 .
-virtual
 nsSVGSVGElement
 *
 GetCtx

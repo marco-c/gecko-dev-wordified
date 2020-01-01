@@ -670,6 +670,16 @@ GetTimeContainer
 ;
 protected
 :
+/
+/
+Implementation
+helpers
+nsIContent
+*
+GetParentElement
+(
+)
+;
 nsSMILTimedElement
 mTimedElement
 ;
