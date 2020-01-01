@@ -594,13 +594,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxXlibSurface
 .
 h
@@ -711,6 +704,13 @@ recognized
 "
 #
 endif
+#
+include
+"
+gfxASurface
+.
+h
+"
 #
 include
 "
