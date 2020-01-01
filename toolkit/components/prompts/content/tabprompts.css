@@ -59,10 +59,6 @@ width
 :
 45em
 ;
-}
-.
-infoContainer
-{
 -
 moz
 -
@@ -95,6 +91,10 @@ pre
 -
 wrap
 ;
+}
+.
+infoContainer
+{
 max
 -
 height
