@@ -2098,7 +2098,7 @@ InstallEventListeners
 )
 ;
 virtual
-nsresult
+void
 CreateEventListeners
 (
 )

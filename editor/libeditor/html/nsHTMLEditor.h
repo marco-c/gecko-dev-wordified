@@ -3222,7 +3222,7 @@ editor
 to
 install
 virtual
-nsresult
+void
 CreateEventListeners
 (
 )

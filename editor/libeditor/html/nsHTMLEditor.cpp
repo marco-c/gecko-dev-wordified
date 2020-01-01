@@ -2466,7 +2466,12 @@ forget
 )
 ;
 }
-nsresult
+/
+*
+virtual
+*
+/
+void
 nsHTMLEditor
 :
 :
@@ -2497,9 +2502,6 @@ nsHTMLEditorEventListener
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 nsHTMLEditor
