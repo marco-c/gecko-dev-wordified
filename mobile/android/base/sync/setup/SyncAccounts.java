@@ -491,7 +491,8 @@ weave
 (
 Mozilla
 Services
-Password
+Encryption
+Passphrase
 )
 "
 public
@@ -514,8 +515,7 @@ weave
 (
 Mozilla
 Services
-Encryption
-Passphrase
+Password
 )
 "
 public
