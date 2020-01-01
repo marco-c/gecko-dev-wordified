@@ -287,13 +287,7 @@ ReverbInputBuffer_h
 #
 include
 "
-core
-/
-platform
-/
-audio
-/
-AudioArray
+nsTArray
 .
 h
 "
@@ -498,7 +492,10 @@ reset
 ;
 private
 :
-AudioFloatArray
+nsTArray
+<
+float
+>
 m_buffer
 ;
 size_t

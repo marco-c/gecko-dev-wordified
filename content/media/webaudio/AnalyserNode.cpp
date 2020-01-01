@@ -1799,7 +1799,7 @@ channelCount
 1
 )
 {
-AudioBlockInPlaceScale
+AudioBufferInPlaceScale
 (
 mBuffer
 .
