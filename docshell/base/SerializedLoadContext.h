@@ -135,13 +135,9 @@ IPCMessageUtils
 .
 h
 "
-#
-include
-"
+class
 nsILoadContext
-.
-h
-"
+;
 /
 *
 *

@@ -135,6 +135,13 @@ nsAboutRedirector
 .
 h
 "
+#
+include
+"
+nsCDefaultURIFixup
+.
+h
+"
 /
 /
 uriloader
