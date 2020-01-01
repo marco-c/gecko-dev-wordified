@@ -460,7 +460,7 @@ h
 #
 include
 "
-nsIChangeManager
+nsChangeObserver
 .
 h
 "
@@ -553,7 +553,7 @@ nsMenuX
 public
 nsIMenu
 public
-nsIChangeObserver
+nsChangeObserver
 {
 public
 :
@@ -568,7 +568,7 @@ nsMenuX
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICHANGEOBSERVER
+NS_DECL_CHANGEOBSERVER
 id
 GetNativeMenuItem
 (
@@ -592,9 +592,9 @@ const
 nsAString
 &
 aAccessKey
-nsIChangeManager
+nsMenuBarX
 *
-aManager
+aMenuBar
 nsIContent
 *
 aNode
@@ -996,9 +996,9 @@ my
 parent
 owns
 me
-nsIChangeManager
+nsMenuBarX
 *
-mManager
+mMenuBar
 ;
 /
 /
@@ -1008,9 +1008,6 @@ it
 will
 outlive
 us
-[
-menubar
-]
 nsCOMPtr
 <
 nsIContent
