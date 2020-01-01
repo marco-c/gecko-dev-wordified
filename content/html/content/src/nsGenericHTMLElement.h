@@ -5785,13 +5785,6 @@ bool
 aNotify
 )
 ;
-void
-UpdateEditableFormControlState
-(
-bool
-aNotify
-)
-;
 /
 *
 *
