@@ -9656,7 +9656,7 @@ nsnull
 }
 nsDataHashtable
 <
-nsIDHashKey
+nsDepCharHashKey
 JSObject
 *
 >
@@ -9985,7 +9985,7 @@ mScriptObjectPrincipal
 ;
 nsDataHashtable
 <
-nsIDHashKey
+nsDepCharHashKey
 JSObject
 *
 >
