@@ -365,7 +365,7 @@ SetNativeFoo
 *
 of
 |
-nsILocalFile
+nsIFile
 |
 )
 is
@@ -403,7 +403,7 @@ UTF
 8
 out
 of
-nsILocalFile
+nsIFile
 we
 can
 just

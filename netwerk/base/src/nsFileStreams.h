@@ -444,7 +444,7 @@ OpenParams
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -519,7 +519,7 @@ DoPendingOpen
 nsresult
 MaybeOpen
 (
-nsILocalFile
+nsIFile
 *
 aFile
 PRInt32

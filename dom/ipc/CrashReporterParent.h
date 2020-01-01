@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -639,13 +639,13 @@ OtherProcess
 endif
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 childDump
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 parentDump
 ;
@@ -722,7 +722,7 @@ processNotes
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 crashDump
 ;

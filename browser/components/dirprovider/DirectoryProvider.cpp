@@ -344,16 +344,6 @@ NS_NewNativeLocalFile
 (
 path
 true
-(
-nsILocalFile
-*
-*
-)
-(
-nsIFile
-*
-*
-)
 getter_AddRefs
 (
 file

@@ -209,13 +209,13 @@ class
 ArgumentsObject
 ;
 class
-ScopeCoordinate
-;
-class
 ScopeObject
 ;
 class
 StaticBlockObject
+;
+struct
+ScopeCoordinate
 ;
 #
 ifdef
@@ -3792,7 +3792,7 @@ mjit
 GetPropCompiler
 ;
 friend
-class
+struct
 mjit
 :
 :

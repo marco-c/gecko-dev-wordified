@@ -578,7 +578,7 @@ NS_OK
 *
 readonly
 attribute
-nsILocalFile
+nsIFile
 file
 ;
 *
@@ -589,7 +589,7 @@ nsFilePicker
 :
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -620,7 +620,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -689,7 +689,7 @@ aFileURL
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -1335,7 +1335,7 @@ modeSave
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

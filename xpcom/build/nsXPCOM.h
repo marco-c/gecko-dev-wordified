@@ -555,7 +555,7 @@ see
 NS_NewLocalFile
 *
 see
-nsILocalFile
+nsIFile
 *
 see
 nsIDirectoryServiceProvider
@@ -927,7 +927,7 @@ an
 instance
 of
 a
-nsILocalFile
+nsIFile
 .
 This
 function
@@ -1038,7 +1038,7 @@ new
 instance
 of
 an
-nsILocalFile
+nsIFile
 *
 *
 return
@@ -1071,7 +1071,7 @@ nsAString
 path
 bool
 followLinks
-nsILocalFile
+nsIFile
 *
 *
 result
@@ -1089,7 +1089,7 @@ nsACString
 path
 bool
 followLinks
-nsILocalFile
+nsIFile
 *
 *
 result

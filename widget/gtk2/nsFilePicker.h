@@ -140,7 +140,7 @@ class
 nsIWidget
 ;
 class
-nsILocalFile
+nsIFile
 ;
 class
 nsFilePicker
@@ -244,7 +244,7 @@ aFilterIndex
 NS_IMETHODIMP
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -315,7 +315,7 @@ mParentWidget
 ;
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 mFiles
 ;
@@ -355,7 +355,7 @@ mFilterNames
 private
 :
 static
-nsILocalFile
+nsIFile
 *
 mPrevDisplayDirectory
 ;

@@ -128,7 +128,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -370,7 +370,7 @@ mInfo
 policy
 ;
 }
-nsILocalFile
+nsIFile
 *
 ProfileDir
 (
@@ -390,7 +390,7 @@ mInfo
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mProfileDir
 ;

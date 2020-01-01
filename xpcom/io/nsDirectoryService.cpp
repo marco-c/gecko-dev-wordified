@@ -476,7 +476,7 @@ nsDirectoryService
 :
 GetCurrentProcessDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -642,7 +642,7 @@ dirService
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 aLocalFile
 ;
@@ -654,7 +654,7 @@ Get
 NS_XPCOM_INIT_CURRENT_PROCESS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -3094,7 +3094,7 @@ _retval
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;

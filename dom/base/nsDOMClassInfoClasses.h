@@ -448,6 +448,10 @@ HTMLMetaElement
 )
 DOMCI_CLASS
 (
+HTMLMeterElement
+)
+DOMCI_CLASS
+(
 HTMLModElement
 )
 DOMCI_CLASS

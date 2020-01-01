@@ -2709,13 +2709,6 @@ nsISupports
 >
 (
 obj
-js
-:
-:
-GetObjectJSClass
-(
-obj
-)
 )
 ;
 }

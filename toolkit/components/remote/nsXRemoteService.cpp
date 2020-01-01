@@ -177,7 +177,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1864,7 +1864,7 @@ PRInt32
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 ;

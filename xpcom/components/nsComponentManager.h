@@ -139,7 +139,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -237,13 +237,6 @@ h
 include
 "
 nsWeakReference
-.
-h
-"
-#
-include
-"
-nsIFile
 .
 h
 "
@@ -569,7 +562,7 @@ const
 nsCString
 &
 aLocation
-nsILocalFile
+nsIFile
 *
 *
 aSpec

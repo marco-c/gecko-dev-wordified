@@ -438,7 +438,7 @@ GetKnownFolder
 GUID
 *
 guid
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -597,7 +597,7 @@ GetWindowsFolder
 (
 int
 folder
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -850,7 +850,7 @@ GetRegWindowsAppDataFolder
 (
 bool
 aLocal
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -1113,7 +1113,7 @@ static
 nsresult
 GetUnixHomeDir
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -2183,7 +2183,7 @@ GetUnixXDGUserDirectory
 (
 SystemDirectories
 aSystemDirectory
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -2210,7 +2210,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -2514,7 +2514,7 @@ GetSpecialSystemDirectory
 (
 SystemDirectories
 aSystemSystemDirectory
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -4460,7 +4460,7 @@ short
 aDomain
 OSType
 aFolderType
-nsILocalFile
+nsIFile
 *
 *
 localFile

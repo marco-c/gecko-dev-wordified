@@ -257,7 +257,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -3430,7 +3430,7 @@ aJob
 ;
 (
 (
-nsILocalFile
+nsIFile
 *
 )
 aData
@@ -3451,12 +3451,12 @@ gpointer
 aData
 )
 {
-nsILocalFile
+nsIFile
 *
 spoolFile
 =
 (
-nsILocalFile
+nsIFile
 *
 )
 aData
@@ -3607,7 +3607,7 @@ targetPath
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 destFile
 ;

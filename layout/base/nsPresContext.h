@@ -6866,6 +6866,15 @@ eDefaultFont_Fantasy
 eDefaultFont_COUNT
 }
 ;
+nscolor
+MakeColorPref
+(
+const
+nsString
+&
+aColor
+)
+;
 #
 ifdef
 DEBUG

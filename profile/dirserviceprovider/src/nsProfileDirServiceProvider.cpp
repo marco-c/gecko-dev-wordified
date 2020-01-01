@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -662,7 +662,7 @@ not
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 dirToLock
 ;
@@ -672,18 +672,12 @@ mSharingEnabled
 )
 dirToLock
 =
-do_QueryInterface
-(
 mNonSharedProfileDir
-)
 ;
 else
 dirToLock
 =
-do_QueryInterface
-(
 mProfileDir
-)
 ;
 rv
 =

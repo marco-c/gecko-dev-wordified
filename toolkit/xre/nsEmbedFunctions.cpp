@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -700,7 +700,7 @@ endif
 nsresult
 XRE_LockProfileDirectory
 (
-nsILocalFile
+nsIFile
 *
 aDirectory
 nsISupports
@@ -755,10 +755,10 @@ sInitCounter
 nsresult
 XRE_InitEmbedding2
 (
-nsILocalFile
+nsIFile
 *
 aLibXULDirectory
-nsILocalFile
+nsIFile
 *
 aAppDirectory
 nsIDirectoryServiceProvider
@@ -1204,7 +1204,7 @@ XRE_TakeMinidumpForChild
 (
 PRUint32
 aChildPid
-nsILocalFile
+nsIFile
 *
 *
 aDump

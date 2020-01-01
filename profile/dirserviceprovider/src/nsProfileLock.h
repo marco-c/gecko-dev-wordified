@@ -102,7 +102,7 @@ __nsProfileLock_h___
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -274,7 +274,7 @@ locked
 nsresult
 Lock
 (
-nsILocalFile
+nsIFile
 *
 aProfileDir
 nsIProfileUnlocker
@@ -445,7 +445,7 @@ mPidLockList
 nsresult
 LockWithFcntl
 (
-nsILocalFile
+nsIFile
 *
 aLockFile
 )
@@ -487,7 +487,7 @@ Firefoxes
 nsresult
 LockWithSymlink
 (
-nsILocalFile
+nsIFile
 *
 aLockFile
 bool

@@ -152,7 +152,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1229,7 +1229,7 @@ private
 :
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mFile
 ;

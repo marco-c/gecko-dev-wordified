@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -209,7 +209,7 @@ Initialize
 nsIFile
 *
 aXULAppDir
-nsILocalFile
+nsIFile
 *
 aGREDir
 nsIDirectoryServiceProvider
@@ -356,7 +356,7 @@ static
 nsresult
 GetUserAppDataDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -377,7 +377,7 @@ static
 nsresult
 GetUserLocalDataDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -423,7 +423,7 @@ static
 nsresult
 GetUserDataDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -656,7 +656,7 @@ static
 nsresult
 GetUserDataDirectoryHome
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -668,7 +668,7 @@ static
 nsresult
 GetSysUserExtensionsDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -690,7 +690,7 @@ static
 nsresult
 GetSystemExtensionsDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -852,7 +852,7 @@ mAppProvider
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mGREDir
 ;

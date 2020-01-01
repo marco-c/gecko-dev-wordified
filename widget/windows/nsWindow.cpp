@@ -782,13 +782,6 @@ h
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsFontMetrics
 .
 h
@@ -19648,7 +19641,7 @@ file
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iconFile
 ;

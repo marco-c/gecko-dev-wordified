@@ -4687,7 +4687,7 @@ current
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =
@@ -4858,7 +4858,7 @@ fileBuffer
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =
@@ -5676,7 +5676,7 @@ continue
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =
@@ -6033,7 +6033,7 @@ exists
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -6130,7 +6130,7 @@ nsFilePicker
 :
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -6159,7 +6159,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -6224,7 +6224,7 @@ nsnull
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -6946,7 +6946,7 @@ RememberLastUsedDirectory
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (

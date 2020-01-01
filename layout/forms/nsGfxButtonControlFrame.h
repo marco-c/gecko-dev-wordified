@@ -368,9 +368,6 @@ true
 }
 private
 :
-nsSize
-mSuggestedSize
-;
 nsCOMPtr
 <
 nsIContent

@@ -264,7 +264,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -320,7 +320,7 @@ DumpFrameModel
 nsIDOMWindow
 *
 aWindowToDump
-nsILocalFile
+nsIFile
 *
 aDestFile
 PRUint32
@@ -608,10 +608,10 @@ nsRegressionTester
 :
 CompareFrameModels
 (
-nsILocalFile
+nsIFile
 *
 aBaseFile
-nsILocalFile
+nsIFile
 *
 aVerFile
 PRUint32

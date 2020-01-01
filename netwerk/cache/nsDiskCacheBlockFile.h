@@ -120,7 +120,7 @@ _nsDiskCacheBlockFile_h_
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -378,7 +378,7 @@ true
 nsresult
 Open
 (
-nsILocalFile
+nsIFile
 *
 blockFile
 PRUint32

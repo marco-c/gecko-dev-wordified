@@ -3202,7 +3202,7 @@ though
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 ;

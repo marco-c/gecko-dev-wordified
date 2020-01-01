@@ -208,7 +208,7 @@ BASEFILEPICKER_HAS_DISPLAYDIRECTORY
 NS_IMETHOD
 GetDisplayDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aDisplayDirectory
@@ -217,7 +217,7 @@ aDisplayDirectory
 NS_IMETHOD
 SetDisplayDirectory
 (
-nsILocalFile
+nsIFile
 *
 aDisplayDirectory
 )
@@ -266,7 +266,7 @@ ifdef
 BASEFILEPICKER_HAS_DISPLAYDIRECTORY
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mDisplayDirectory
 ;

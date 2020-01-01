@@ -1401,7 +1401,7 @@ td
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 cacheDir
 ;
@@ -7242,7 +7242,7 @@ nsDiskCacheDevice
 :
 SetCacheParentDirectory
 (
-nsILocalFile
+nsIFile
 *
 parentDir
 )
@@ -7412,7 +7412,7 @@ nsDiskCacheDevice
 :
 getCacheDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 result

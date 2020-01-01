@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -971,7 +971,7 @@ path
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 dbFile
 (

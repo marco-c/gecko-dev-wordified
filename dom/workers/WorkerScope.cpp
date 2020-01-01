@@ -3304,7 +3304,7 @@ js
 SetReservedSlot
 (
 aObj
-DOM_GLOBAL_OBJECT_SLOT
+DOM_OBJECT_SLOT
 PRIVATE_TO_JSVAL
 (
 scope
@@ -3742,7 +3742,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-classPtr
 )
 ;
 }
@@ -3892,9 +3891,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 if
@@ -3952,9 +3948,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 if
@@ -4184,7 +4177,7 @@ _ID_Count
 -
 1
 false
-DOM_GLOBAL_OBJECT_SLOT
+NULL
 }
 ;
 JSPropertySpec
@@ -4329,7 +4322,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-classPtr
 )
 ;
 }

@@ -202,7 +202,7 @@ endif
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -840,7 +840,7 @@ c_str
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;

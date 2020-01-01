@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -411,7 +411,7 @@ RESULT_FAILURE
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 directory
 ;
@@ -584,7 +584,7 @@ nextItem
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 nextFile
 (

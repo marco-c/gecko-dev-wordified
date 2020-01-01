@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -733,7 +733,7 @@ public
 :
 AutoAppData
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 )
@@ -2337,7 +2337,7 @@ and
 AutoAppData
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iniFile
 ;

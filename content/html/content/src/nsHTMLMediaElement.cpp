@@ -7748,7 +7748,12 @@ to
 .
 mCurrentPlayRangeStart
 =
-clampedTime
+mDecoder
+-
+>
+GetCurrentTime
+(
+)
 ;
 /
 /

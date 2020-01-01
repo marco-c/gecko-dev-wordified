@@ -12527,4 +12527,16 @@ id
 )
 {
 }
+public
+static
+void
+notifyWakeLockChanged
+(
+String
+topic
+String
+state
+)
+{
+}
 }

@@ -358,7 +358,7 @@ XP_WIN
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -9218,7 +9218,7 @@ ContextFlags
 {
 #
 ifdef
-ANDROID
+MOZ_JAVA_COMPOSITOR
 return
 nsnull
 ;

@@ -175,7 +175,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1325,7 +1325,7 @@ version
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -1731,7 +1731,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -5300,7 +5300,7 @@ false
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -9876,7 +9876,7 @@ prefString
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 application
 ;

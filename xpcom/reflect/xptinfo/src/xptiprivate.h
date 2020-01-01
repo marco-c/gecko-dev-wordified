@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1087,7 +1087,7 @@ GetCloneOfDirectoryAt
 (
 PRUint32
 i
-nsILocalFile
+nsIFile
 *
 *
 dir
@@ -1098,7 +1098,7 @@ GetDirectoryAt
 (
 PRUint32
 i
-nsILocalFile
+nsIFile
 *
 *
 dir
@@ -1107,7 +1107,7 @@ dir
 bool
 FindDirectory
 (
-nsILocalFile
+nsIFile
 *
 dir
 PRUint32
@@ -1118,7 +1118,7 @@ index
 bool
 FindDirectoryOfFile
 (
-nsILocalFile
+nsIFile
 *
 file
 PRUint32

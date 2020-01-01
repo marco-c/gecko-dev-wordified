@@ -246,7 +246,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -261,13 +261,6 @@ h
 include
 "
 nsIDirectoryService
-.
-h
-"
-#
-include
-"
-nsILocalFile
 .
 h
 "
@@ -569,7 +562,7 @@ nsnull
 void
 SetAppFile
 (
-nsILocalFile
+nsIFile
 *
 appFile
 )
@@ -588,13 +581,13 @@ private
 :
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mGREDir
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mAppFile
 ;
@@ -1136,7 +1129,7 @@ filename
 endif
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 location
 ;
@@ -1286,7 +1279,7 @@ obj
 location
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -9568,7 +9561,7 @@ NS_LogInit
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appFile
 ;
@@ -9775,7 +9768,7 @@ usage
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 dir
 ;
@@ -9883,7 +9876,7 @@ usage
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 ;
@@ -9970,13 +9963,13 @@ greomni
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 greOmni
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appOmni
 ;
@@ -11337,7 +11330,7 @@ XPCShellDirProvider
 :
 SetAppFile
 (
-nsILocalFile
+nsIFile
 *
 appFile
 )
@@ -11725,7 +11718,7 @@ path
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;

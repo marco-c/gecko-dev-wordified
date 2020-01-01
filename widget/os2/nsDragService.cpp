@@ -114,7 +114,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -566,7 +566,7 @@ outText
 void
 SaveTypeAndSource
 (
-nsILocalFile
+nsIFile
 *
 file
 nsIDOMDocument
@@ -3909,7 +3909,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -4120,7 +4120,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -4344,7 +4344,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -6656,7 +6656,7 @@ someText
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -8401,7 +8401,7 @@ true
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -10623,7 +10623,7 @@ else
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -12576,7 +12576,7 @@ reported
 void
 SaveTypeAndSource
 (
-nsILocalFile
+nsIFile
 *
 file
 nsIDOMDocument

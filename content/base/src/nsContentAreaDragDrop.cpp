@@ -993,7 +993,7 @@ the
 transferable
 with
 an
-nsILocalFile
+nsIFile
 for
 the
 directory
@@ -1263,7 +1263,7 @@ dataSize
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 destDirectory
 =
@@ -1326,7 +1326,7 @@ file
 send
 back
 an
-nsILocalFile
+nsIFile
 if
 (
 NS_SUCCEEDED

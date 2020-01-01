@@ -716,6 +716,7 @@ PNK_FORIN
 PNK_FORHEAD
 PNK_ARGSBODY
 PNK_UPVARS
+PNK_SPREAD
 /
 *
 *
@@ -1059,6 +1060,14 @@ PNK_ARGSBODY
 or
 PNK_STATEMENTLIST
 node
+*
+PNK_SPREAD
+unary
+pn_kid
+:
+expression
+being
+spread
 *
 *
 <

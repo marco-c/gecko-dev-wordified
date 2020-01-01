@@ -1146,7 +1146,7 @@ be
 to
 QI
 to
-nsILocalFile
+nsIFile
 and
 get
 a

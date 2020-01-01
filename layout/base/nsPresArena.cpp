@@ -2264,10 +2264,7 @@ aSize
 |
 PRUint32
 (
-nsQueryFrame
-:
-:
-NON_FRAME_MARKER
+NON_OBJECT_MARKER
 )
 aSize
 )
@@ -2298,10 +2295,7 @@ aSize
 |
 PRUint32
 (
-nsQueryFrame
-:
-:
-NON_FRAME_MARKER
+NON_OBJECT_MARKER
 )
 aPtr
 )

@@ -11448,8 +11448,7 @@ CloneScript
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 src
 )
 {
@@ -11635,6 +11634,17 @@ Bindings
 bindings
 (
 cx
+)
+;
+Bindings
+:
+:
+AutoRooter
+bindingsRoot
+(
+cx
+&
+bindings
 )
 ;
 BindingNames

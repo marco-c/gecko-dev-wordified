@@ -171,7 +171,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1012,7 +1012,7 @@ aFiles
 ;
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 files
 ;
@@ -1050,7 +1050,7 @@ it
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -1108,7 +1108,7 @@ nsBaseFilePicker
 :
 SetDisplayDirectory
 (
-nsILocalFile
+nsIFile
 *
 aDirectory
 )
@@ -1182,7 +1182,7 @@ nsBaseFilePicker
 :
 GetDisplayDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aDirectory

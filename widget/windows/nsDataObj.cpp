@@ -7107,7 +7107,7 @@ suited
 to
 being
 in
-nsILocalFile
+nsIFile
 .
 /
 /
@@ -7375,7 +7375,7 @@ suited
 to
 being
 in
-nsILocalFile
+nsIFile
 .
 /
 /

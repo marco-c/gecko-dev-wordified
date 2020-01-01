@@ -2388,7 +2388,7 @@ on
 disk
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

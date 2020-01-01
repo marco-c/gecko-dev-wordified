@@ -851,7 +851,7 @@ mCondVar
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mProfileDir
 ;

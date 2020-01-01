@@ -5816,13 +5816,9 @@ identity
 else
 if
 (
+IsDOMClass
 (
 clazz
--
->
-flags
-&
-JSCLASS_IS_DOMJSCLASS
 )
 &
 &
@@ -5859,7 +5855,6 @@ nsISupports
 >
 (
 obj
-clazz
 )
 ;
 cb

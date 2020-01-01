@@ -189,6 +189,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 retrieve
@@ -743,7 +747,10 @@ element
 factory
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 newContent
 ;

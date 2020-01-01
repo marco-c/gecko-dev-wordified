@@ -3180,7 +3180,7 @@ return
 false
 ;
 }
-PRInt32
+PRUint32
 size
 =
 1
