@@ -569,6 +569,13 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IHTML_CONTENT_SINK_IID
 )
+enum
+ElementType
+{
+eHTML
+eBody
+}
+;
 /
 *
 *
@@ -600,7 +607,7 @@ gess
 NS_IMETHOD
 OpenContainer
 (
-nsHTMLTag
+ElementType
 aNodeType
 )
 =
@@ -648,8 +655,7 @@ closed
 NS_IMETHOD
 CloseContainer
 (
-const
-nsHTMLTag
+ElementType
 aTag
 )
 =
