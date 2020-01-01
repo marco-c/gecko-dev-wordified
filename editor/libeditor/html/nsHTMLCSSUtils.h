@@ -457,13 +457,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsIDOMViewCSS
 .
 h
@@ -2456,10 +2449,7 @@ BuildCSSDeclarations
 nsVoidArray
 &
 aPropertyArray
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 cssValueArray
 const
@@ -2617,10 +2607,7 @@ aValue
 nsVoidArray
 &
 aPropertyArray
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aValueArray
 PRBool

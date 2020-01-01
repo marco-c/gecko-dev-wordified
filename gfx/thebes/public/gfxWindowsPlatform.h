@@ -479,13 +479,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h
@@ -566,10 +559,7 @@ const
 nsACString
 &
 aGenericFamily
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aListOfFonts
 )
@@ -1128,10 +1118,7 @@ mFontAliases
 FontTable
 mFontSubstitutes
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 mNonExistingFonts
 ;
 /

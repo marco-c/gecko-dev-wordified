@@ -453,13 +453,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 txExprParser
 .
 h
@@ -924,10 +917,7 @@ nsAutoString
 exprOrig
 expr
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 exprHead
 exprTail
 ;
@@ -938,7 +928,7 @@ dropEnd
 ;
 exprHead
 .
-AppendElement
+AppendString
 (
 NS_ConvertASCIItoUTF16
 (
@@ -951,7 +941,7 @@ kTokens
 ;
 exprTail
 .
-AppendiElement
+AppendString
 (
 NS_ConvertASCIItoUTF16
 (
@@ -981,8 +971,9 @@ i
 {
 exprHead
 .
-AppendElement
+AppendString
 (
+*
 exprHead
 [
 i
@@ -1003,7 +994,7 @@ i
 ;
 exprTail
 .
-AppendElement
+AppendString
 (
 NS_ConvertASCIItoUTF16
 (
@@ -1015,6 +1006,7 @@ i
 ]
 )
 +
+*
 exprTail
 [
 i
@@ -1034,6 +1026,7 @@ kTokens
 ]
 )
 +
+*
 exprTail
 [
 kCount
@@ -1078,6 +1071,7 @@ dropStart
 {
 doTest
 (
+*
 exprTail
 [
 kCount
@@ -1109,11 +1103,13 @@ dropEnd
 {
 expr
 =
+*
 exprHead
 [
 dropStart
 ]
 +
+*
 exprTail
 [
 dropEnd
@@ -1127,6 +1123,7 @@ expr
 }
 doTest
 (
+*
 exprHead
 [
 dropStart
@@ -1136,6 +1133,7 @@ dropStart
 }
 doTest
 (
+*
 exprHead
 [
 kCount

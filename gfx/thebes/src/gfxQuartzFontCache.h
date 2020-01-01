@@ -508,13 +508,6 @@ nsVoidArray
 .
 h
 "
-#
-include
-"
-nsTArray
-.
-h
-"
 /
 /
 used
@@ -1409,10 +1402,7 @@ const
 nsACString
 &
 aGenericFamily
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aListOfFonts
 )

@@ -418,13 +418,6 @@ gfxPlatform
 .
 h
 "
-#
-include
-"
-gfxTArray
-.
-h
-"
 class
 gfxFontconfigUtils
 ;
@@ -495,10 +488,7 @@ const
 nsACString
 &
 aGenericFamily
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aListOfFonts
 )

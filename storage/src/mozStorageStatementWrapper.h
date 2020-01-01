@@ -466,13 +466,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 sqlite3
 .
 h
@@ -554,10 +547,7 @@ mParamCount
 PRUint32
 mResultColumnCount
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 mColumnNames
 ;
 nsCOMPtr

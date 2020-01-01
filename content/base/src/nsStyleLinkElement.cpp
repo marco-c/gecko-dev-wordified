@@ -948,10 +948,7 @@ const
 nsAString
 &
 aTypes
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aResult
 )
@@ -1048,7 +1045,7 @@ subString
 ;
 aResult
 .
-AppendElement
+AppendString
 (
 subString
 )
@@ -1099,7 +1096,7 @@ subString
 ;
 aResult
 .
-AppendElement
+AppendString
 (
 subString
 )

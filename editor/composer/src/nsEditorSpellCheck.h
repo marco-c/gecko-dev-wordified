@@ -550,10 +550,7 @@ nsISpellChecker
 >
 mSpellChecker
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 mSuggestedWordList
 ;
 PRInt32
@@ -580,10 +577,7 @@ to
 load
 them
 .
-nsTArray
-<
-nsString
->
+nsStringArray
 mDictionaryList
 ;
 PRInt32
