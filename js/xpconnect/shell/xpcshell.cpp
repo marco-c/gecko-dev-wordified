@@ -11605,6 +11605,11 @@ this
 scopes
 the
 JSAutoCrossCompartmentCall
+JS_EndRequest
+(
+cx
+)
+;
 JS_DestroyContext
 (
 cx
