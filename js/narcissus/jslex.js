@@ -426,7 +426,7 @@ scanner
 /
 Narcissus
 .
-jslex
+lexer
 =
 (
 function
@@ -434,11 +434,11 @@ function
 )
 {
 var
-jsdefs
+definitions
 =
 Narcissus
 .
-jsdefs
+definitions
 ;
 /
 /
@@ -451,7 +451,7 @@ scope
 .
 eval
 (
-jsdefs
+definitions
 .
 consts
 )
@@ -477,7 +477,7 @@ for
 var
 op
 in
-jsdefs
+definitions
 .
 opTypeNames
 )
@@ -2486,7 +2486,7 @@ op
 ;
 if
 (
-jsdefs
+definitions
 .
 assignOps
 [
@@ -2524,11 +2524,11 @@ token
 .
 assignOp
 =
-jsdefs
+definitions
 .
 tokenIds
 [
-jsdefs
+definitions
 .
 opTypeNames
 [
@@ -2550,11 +2550,11 @@ token
 .
 type
 =
-jsdefs
+definitions
 .
 tokenIds
 [
-jsdefs
+definitions
 .
 opTypeNames
 [
@@ -2730,7 +2730,7 @@ token
 .
 type
 =
-jsdefs
+definitions
 .
 keywords
 [
@@ -3441,9 +3441,7 @@ lineno
 ;
 return
 {
-"
 Tokenizer
-"
 :
 Tokenizer
 }

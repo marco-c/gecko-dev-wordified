@@ -500,7 +500,7 @@ delegation
 /
 Narcissus
 .
-jsexec
+interpreter
 =
 (
 function
@@ -508,18 +508,18 @@ function
 )
 {
 var
-jsparse
+parser
 =
 Narcissus
 .
-jsparse
+parser
 ;
 var
-jsdefs
+definitions
 =
 Narcissus
 .
-jsdefs
+definitions
 ;
 /
 /
@@ -532,7 +532,7 @@ scope
 .
 eval
 (
-jsdefs
+definitions
 .
 consts
 )
@@ -663,12 +663,12 @@ try
 {
 execute
 (
-jsparse
+parser
 .
 parse
 (
 new
-jsparse
+parser
 .
 VanillaBuilder
 s
@@ -993,7 +993,7 @@ var
 t
 =
 new
-jsparse
+parser
 .
 Tokenizer
 (
@@ -1049,7 +1049,7 @@ x
 builder
 :
 new
-jsparse
+parser
 .
 VanillaBuilder
 }
@@ -1057,14 +1057,14 @@ VanillaBuilder
 var
 f
 =
-jsparse
+parser
 .
 FunctionDefinition
 (
 t
 x
 false
-jsparse
+parser
 .
 STATEMENT_FORM
 )
@@ -1381,7 +1381,7 @@ global
 name
 ]
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -1395,7 +1395,7 @@ true
 true
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -2075,7 +2075,7 @@ n
 functionForm
 !
 =
-jsparse
+parser
 .
 DECLARED_FORM
 )
@@ -2093,7 +2093,7 @@ n
 functionForm
 =
 =
-jsparse
+parser
 .
 STATEMENT_FORM
 )
@@ -2113,11 +2113,11 @@ n
 functionForm
 =
 =
-jsparse
+parser
 .
 STATEMENT_FORM
 )
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -2166,7 +2166,7 @@ n
 x
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -2254,7 +2254,7 @@ i
 x
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -2358,7 +2358,7 @@ s
 )
 )
 {
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -3220,7 +3220,7 @@ x
 scope
 }
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -3515,7 +3515,7 @@ type
 =
 CONST
 )
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -3555,7 +3555,7 @@ NYI
 :
 "
 +
-jsdefs
+definitions
 .
 tokens
 [
@@ -5079,7 +5079,7 @@ x
 )
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -5092,7 +5092,7 @@ true
 )
 ;
 }
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -5261,7 +5261,7 @@ a
 {
 }
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -5705,7 +5705,7 @@ i
 +
 +
 )
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -5723,7 +5723,7 @@ i
 true
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -5817,7 +5817,7 @@ scope
 =
 scope
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -5841,7 +5841,7 @@ proto
 {
 }
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -5853,7 +5853,7 @@ proto
 true
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -6434,7 +6434,7 @@ callee
 =
 this
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -6834,7 +6834,7 @@ a
 {
 }
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -6883,7 +6883,7 @@ i
 +
 +
 )
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -6898,7 +6898,7 @@ false
 true
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -7092,7 +7092,7 @@ Fp
 )
 )
 {
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -7146,7 +7146,7 @@ true
 true
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -7195,7 +7195,7 @@ true
 true
 )
 ;
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -7401,7 +7401,7 @@ native
 Function
 constructor
 .
-jsdefs
+definitions
 .
 defineProperty
 (
@@ -7505,12 +7505,12 @@ try
 {
 execute
 (
-jsparse
+parser
 .
 parse
 (
 new
-jsparse
+parser
 .
 VanillaBuilder
 s
@@ -7787,7 +7787,7 @@ var
 b
 =
 new
-jsparse
+parser
 .
 VanillaBuilder
 ;
@@ -7839,7 +7839,7 @@ try
 {
 execute
 (
-jsparse
+parser
 .
 parse
 (
@@ -7945,14 +7945,10 @@ e
 }
 return
 {
-"
 evaluate
-"
 :
 evaluate
-"
 repl
-"
 :
 repl
 }
