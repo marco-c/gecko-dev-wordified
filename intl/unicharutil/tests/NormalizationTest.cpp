@@ -1895,7 +1895,7 @@ return
 }
 normalizer
 =
-NULL
+nullptr
 ;
 nsresult
 res
@@ -1917,12 +1917,8 @@ res
 )
 |
 |
-(
+!
 normalizer
-=
-=
-NULL
-)
 )
 {
 printf

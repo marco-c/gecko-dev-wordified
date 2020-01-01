@@ -199,7 +199,7 @@ UniChar
 *
 pString
 =
-NULL
+nullptr
 ;
 LocaleObject
 locObj

@@ -168,7 +168,7 @@ character
 /
 /
 returns
-NULL
+nullptr
 if
 no
 such

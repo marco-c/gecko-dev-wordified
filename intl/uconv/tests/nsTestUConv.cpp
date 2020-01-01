@@ -397,7 +397,7 @@ nsICharsetConverterManager
 *
 ccMan
 =
-NULL
+nullptr
 ;
 /
 *
@@ -2980,10 +2980,8 @@ rb
 ;
 if
 (
+!
 f
-=
-=
-NULL
 )
 {
 printf
@@ -5219,7 +5217,7 @@ enc
 -
 >
 kOnError_Replace
-NULL
+nullptr
 0x00cc
 )
 ;
@@ -5441,7 +5439,7 @@ enc
 -
 >
 kOnError_Replace
-NULL
+nullptr
 0x00cc
 )
 ;
@@ -5777,7 +5775,7 @@ enc
 -
 >
 kOnError_Replace
-NULL
+nullptr
 0x00cc
 )
 ;
@@ -5999,7 +5997,7 @@ enc
 -
 >
 kOnError_Replace
-NULL
+nullptr
 0x00cc
 )
 ;
@@ -6255,7 +6253,7 @@ enc
 -
 >
 kOnError_Replace
-NULL
+nullptr
 0x00cc
 )
 ;
@@ -6496,7 +6494,7 @@ enc
 -
 >
 kOnError_Replace
-NULL
+nullptr
 0x00cc
 )
 ;

@@ -1124,7 +1124,7 @@ assert
 v
 !
 =
-NULL
+nullptr
 &
 &
 vlen
@@ -1136,7 +1136,7 @@ vlen
 decomp_lenp
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -1635,7 +1635,7 @@ assert
 compp
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -2999,7 +2999,7 @@ assert
 wb
 !
 =
-NULL
+nullptr
 )
 ;
 i
@@ -3147,7 +3147,7 @@ assert
 wb
 !
 =
-NULL
+nullptr
 &
 &
 wb
@@ -3714,7 +3714,7 @@ wb
 >
 ucs
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3907,7 +3907,7 @@ assert
 wb
 !
 =
-NULL
+nullptr
 &
 &
 wb

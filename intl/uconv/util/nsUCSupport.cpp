@@ -3518,10 +3518,8 @@ aBehavior
 kOnError_CallBack
 &
 &
+!
 aEncoder
-=
-=
-nullptr
 )
 return
 NS_ERROR_NULL_POINTER

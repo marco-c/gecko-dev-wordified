@@ -139,11 +139,6 @@ public
 nsEntityVersionList
 (
 )
-:
-mEntities
-(
-NULL
-)
 {
 }
 uint32_t

@@ -809,9 +809,7 @@ rb
 ;
 if
 (
-NULL
-=
-=
+!
 infile
 )
 {

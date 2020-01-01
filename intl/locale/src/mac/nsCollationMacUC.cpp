@@ -156,7 +156,7 @@ NULL
 )
 mBuffer
 (
-NULL
+nullptr
 )
 mBufferLen
 (

@@ -226,9 +226,7 @@ stored
 locale
 if
 (
-NULL
-=
-=
+!
 locale
 )
 {
@@ -351,9 +349,7 @@ locale
 specified
 if
 (
-NULL
-=
-=
+!
 locale
 )
 {
@@ -662,7 +658,7 @@ time
 (
 time_t
 )
-NULL
+0
 )
 ;
 tmc
@@ -1294,7 +1290,7 @@ old_locale
 setlocale
 (
 LC_TIME
-NULL
+nullptr
 )
 ;
 (

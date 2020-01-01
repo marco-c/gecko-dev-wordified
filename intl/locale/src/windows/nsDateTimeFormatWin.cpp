@@ -212,9 +212,7 @@ stored
 locale
 if
 (
-NULL
-=
-=
+!
 locale
 )
 {
@@ -332,9 +330,7 @@ locale
 specified
 if
 (
-NULL
-=
-=
+!
 locale
 )
 {
