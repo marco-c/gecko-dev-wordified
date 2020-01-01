@@ -777,8 +777,6 @@ itemWarnIntroMultiple
 "
 [
 numItemsToInstall
-/
-4
 ]
 )
 ;
