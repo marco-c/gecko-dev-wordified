@@ -652,8 +652,6 @@ public
 nsILocalFile
 public
 nsIHashable
-public
-nsIClassInfo
 {
 public
 :
@@ -698,10 +696,6 @@ NS_DECL_NSILOCALFILE
 /
 nsIHashable
 NS_DECL_NSIHASHABLE
-/
-/
-nsIClassInfo
-NS_DECL_NSICLASSINFO
 public
 :
 static
