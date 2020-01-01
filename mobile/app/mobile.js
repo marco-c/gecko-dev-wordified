@@ -4041,7 +4041,7 @@ zoom
 .
 pageFitGranularity
 "
-10
+9
 )
 ;
 /
@@ -4057,8 +4057,7 @@ less
 than
 1
 /
-10
-.
+9
 pref
 (
 "
