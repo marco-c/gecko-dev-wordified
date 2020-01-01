@@ -4841,6 +4841,9 @@ CssSheet
 prototype
 =
 {
+_passId
+:
+null
 /
 *
 *
@@ -6128,6 +6131,9 @@ CssRule
 prototype
 =
 {
+_passId
+:
+null
 /
 *
 *
@@ -6886,6 +6892,9 @@ CssSelector
 prototype
 =
 {
+_matchId
+:
+null
 /
 *
 *
