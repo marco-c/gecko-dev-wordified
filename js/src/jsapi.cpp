@@ -30300,7 +30300,7 @@ else
 str
 -
 >
-flatClearMutable
+flatClearExtensible
 (
 )
 ;
