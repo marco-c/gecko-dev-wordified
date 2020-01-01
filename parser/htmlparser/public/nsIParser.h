@@ -2133,6 +2133,10 @@ virtual
 void
 MarkAsNotScriptCreated
 (
+const
+char
+*
+aCommand
 )
 =
 0

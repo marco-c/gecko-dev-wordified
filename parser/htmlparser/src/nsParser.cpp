@@ -14214,6 +14214,10 @@ nsParser
 :
 MarkAsNotScriptCreated
 (
+const
+char
+*
+aCommand
 )
 {
 }
