@@ -1892,7 +1892,7 @@ StackDepth
 )
 const
 {
-mMutex
+mMonitor
 .
 AssertCurrentThreadOwns
 (
@@ -2974,7 +2974,7 @@ is
 not
 protected
 by
-mMutex
+mMonitor
 .
 It
 is
