@@ -2785,7 +2785,10 @@ fval
 {
 success
 =
-js_Invoke
+js
+:
+:
+InvokeFriendAPI
 (
 cx
 args

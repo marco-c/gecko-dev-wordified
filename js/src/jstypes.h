@@ -2809,7 +2809,8 @@ configuration
 #
 endif
 /
-/
+*
+*
 Define
 JS_64BIT
 iff
@@ -2823,10 +2824,11 @@ with
 64
 -
 bit
-/
-/
+*
 addresses
 .
+*
+/
 #
 ifdef
 _MSC_VER
