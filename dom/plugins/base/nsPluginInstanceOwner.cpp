@@ -17739,14 +17739,12 @@ return
 ;
 PRInt32
 model
-;
+=
 mInstance
 -
 >
-GetDrawingModel
+GetANPDrawingModel
 (
-&
-model
 )
 ;
 if
