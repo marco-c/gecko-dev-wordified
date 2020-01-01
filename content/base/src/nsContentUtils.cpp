@@ -32086,7 +32086,7 @@ return
 mService
 -
 >
-GetParameter
+GetParameterHTTP
 (
 mString
 aParameterName
