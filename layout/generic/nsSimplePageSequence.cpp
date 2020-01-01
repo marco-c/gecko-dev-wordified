@@ -1498,7 +1498,7 @@ needed
 PRInt32
 inchInTwips
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 3
 .
