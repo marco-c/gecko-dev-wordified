@@ -744,6 +744,13 @@ char
 value
 )
 {
+if
+(
+!
+value
+)
+return
+;
 unlink
 (
 value

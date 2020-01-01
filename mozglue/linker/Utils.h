@@ -525,6 +525,14 @@ int
 fd
 )
 {
+if
+(
+fd
+!
+=
+-
+1
+)
 close
 (
 fd
@@ -585,6 +593,10 @@ FILE
 f
 )
 {
+if
+(
+f
+)
 fclose
 (
 f
