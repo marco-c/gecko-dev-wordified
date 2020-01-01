@@ -3722,7 +3722,7 @@ opn2
 >
 isKind
 (
-PNK_COMMA
+PNK_ELISION
 )
 )
 ;
