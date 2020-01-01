@@ -6968,6 +6968,7 @@ js_DestroyScript
 (
 cx
 script
+6
 )
 ;
 return
