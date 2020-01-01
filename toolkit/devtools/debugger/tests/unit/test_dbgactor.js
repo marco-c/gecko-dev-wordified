@@ -284,6 +284,14 @@ function
 aResponse
 )
 {
+do_check_true
+(
+!
+aResponse
+.
+error
+)
+;
 do_check_eq
 (
 aResponse

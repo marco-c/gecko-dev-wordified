@@ -798,6 +798,11 @@ aContext
 .
 actor
 aCallback
+{
+useSourceMaps
+:
+true
+}
 )
 ;
 }
@@ -980,6 +985,11 @@ aThreadClient
 }
 )
 ;
+}
+{
+useSourceMaps
+:
+true
 }
 )
 ;
