@@ -1322,6 +1322,11 @@ ContinueInterruptedParsingAsync
 )
 ;
 void
+ContinueInterruptedParsingIfEnabled
+(
+)
+;
+void
 ContinueInterruptedParsing
 (
 )
