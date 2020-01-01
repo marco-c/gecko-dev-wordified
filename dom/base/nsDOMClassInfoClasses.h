@@ -1942,6 +1942,14 @@ DOMCI_CLASS
 (
 TimeRanges
 )
+/
+/
+Media
+streams
+DOMCI_CLASS
+(
+MediaStream
+)
 #
 endif
 DOMCI_CLASS
