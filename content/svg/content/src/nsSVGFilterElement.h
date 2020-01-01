@@ -641,6 +641,14 @@ PRUint8
 aAttrEnum
 )
 ;
+virtual
+void
+DidAnimateEnum
+(
+PRUint8
+aAttrEnum
+)
+;
 enum
 {
 X
