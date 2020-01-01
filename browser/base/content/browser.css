@@ -2791,7 +2791,9 @@ browser
 /
 content
 /
-syncNotification
+sync
+/
+notification
 .
 xml
 #
@@ -2830,7 +2832,9 @@ browser
 /
 content
 /
-syncNotification
+sync
+/
+notification
 .
 xml
 #

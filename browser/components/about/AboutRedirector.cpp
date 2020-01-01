@@ -866,7 +866,9 @@ browser
 /
 content
 /
-syncProgress
+sync
+/
+progress
 .
 xhtml
 "
@@ -889,6 +891,8 @@ chrome
 browser
 /
 content
+/
+sync
 /
 aboutSyncTabs
 .
