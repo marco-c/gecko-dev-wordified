@@ -399,15 +399,7 @@ parentStyleContext
 {
 newSC
 =
-mStyleContext
--
->
-RuleNode
-(
-)
--
->
-GetPresContext
+PresContext
 (
 )
 -

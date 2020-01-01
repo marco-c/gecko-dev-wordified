@@ -1740,6 +1740,7 @@ private
 :
 nsPresContext
 *
+const
 mPresContext
 ;
 /
@@ -1750,6 +1751,7 @@ context
 .
 nsRuleNode
 *
+const
 mParent
 ;
 /
@@ -1805,6 +1807,7 @@ properties
 .
 nsIStyleRule
 *
+const
 mRule
 ;
 /
@@ -3865,6 +3868,12 @@ not
 AddRef
 |
 .
+Null
+only
+for
+the
+root
+.
 nsIStyleRule
 *
 GetRule
@@ -3886,9 +3895,12 @@ not
 AddRef
 |
 .
+Never
+null
+.
 nsPresContext
 *
-GetPresContext
+PresContext
 (
 )
 const

@@ -288,13 +288,13 @@ egcs
 .
 2
 not
-inliningg
+inlining
 /
 /
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 which
@@ -319,7 +319,7 @@ RuleNode
 )
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

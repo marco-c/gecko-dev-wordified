@@ -2514,7 +2514,7 @@ return
 mRuleTree
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

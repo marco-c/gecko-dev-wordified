@@ -4836,7 +4836,7 @@ RuleNode
 )
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

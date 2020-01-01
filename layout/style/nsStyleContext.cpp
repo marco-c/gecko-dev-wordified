@@ -619,7 +619,7 @@ presContext
 mRuleNode
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -1881,7 +1881,7 @@ new
 mRuleNode
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -5200,7 +5200,7 @@ presContext
 mRuleNode
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -5295,7 +5295,7 @@ new
 aRuleNode
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
