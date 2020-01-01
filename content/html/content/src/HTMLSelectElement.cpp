@@ -8290,16 +8290,8 @@ nsPresState
 *
 presState
 =
-nullptr
-;
-nsresult
-rv
-=
 GetPrimaryPresState
 (
-this
-&
-presState
 )
 ;
 if
@@ -8357,7 +8349,7 @@ disabled
 }
 }
 return
-rv
+NS_OK
 ;
 }
 bool
