@@ -1480,6 +1480,16 @@ Length
 !
 =
 0
+|
+|
+mTextHash
+.
+Count
+(
+)
+!
+=
+0
 ;
 }
 /
