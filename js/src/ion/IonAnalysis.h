@@ -506,6 +506,14 @@ MIRGraph
 graph
 )
 ;
+void
+EliminateCopies
+(
+MIRGraph
+&
+graph
+)
+;
 bool
 EliminateDeadCode
 (
