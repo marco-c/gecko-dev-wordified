@@ -2650,11 +2650,16 @@ stderr
 Unknown
 event
 type
+0x
 %
-c
+x
 \
 n
 "
+(
+unsigned
+int
+)
 event
 -
 >
