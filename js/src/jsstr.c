@@ -17645,6 +17645,7 @@ size
 =
 js_GetDeflatedStringLength
 (
+cx
 chars
 length
 )
@@ -18438,6 +18439,10 @@ v
 =
 Utf8ToOneUcs4Char
 (
+(
+uint8
+*
+)
 src
 n
 )
