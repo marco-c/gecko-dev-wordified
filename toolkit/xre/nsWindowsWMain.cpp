@@ -81,12 +81,6 @@ defined
 (
 XRE_WANT_DLL_BLOCKLIST
 )
-\
-!
-defined
-(
-MOZ_ENABLE_LIBXUL
-)
 #
 include
 "
