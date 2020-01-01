@@ -641,13 +641,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsStyleCoord
 .
 h
