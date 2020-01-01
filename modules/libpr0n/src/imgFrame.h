@@ -893,13 +893,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 if
 (
 mWinSurface
@@ -1078,13 +1071,6 @@ if
 defined
 (
 XP_WIN
-)
-&
-&
-!
-defined
-(
-WINCE
 )
 nsRefPtr
 <
