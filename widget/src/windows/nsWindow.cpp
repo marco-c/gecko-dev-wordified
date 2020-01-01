@@ -1470,12 +1470,17 @@ h
 ifndef
 WINCE
 #
+ifdef
+MOZ_ENABLE_D3D9_LAYER
+#
 include
 "
 LayerManagerD3D9
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -21132,8 +21137,12 @@ if
 allowAcceleration
 )
 {
+#
+ifdef
+MOZ_ENABLE_D3D9_LAYER
 if
 (
+!
 preferOpenGL
 )
 {
@@ -21145,7 +21154,7 @@ mozilla
 layers
 :
 :
-LayerManagerOGL
+LayerManagerD3D9
 >
 layerManager
 =
@@ -21156,7 +21165,7 @@ mozilla
 layers
 :
 :
-LayerManagerOGL
+LayerManagerD3D9
 (
 this
 )
@@ -21177,6 +21186,8 @@ layerManager
 ;
 }
 }
+#
+endif
 if
 (
 !
@@ -21191,7 +21202,7 @@ mozilla
 layers
 :
 :
-LayerManagerD3D9
+LayerManagerOGL
 >
 layerManager
 =
@@ -21202,7 +21213,7 @@ mozilla
 layers
 :
 :
-LayerManagerD3D9
+LayerManagerOGL
 (
 this
 )
