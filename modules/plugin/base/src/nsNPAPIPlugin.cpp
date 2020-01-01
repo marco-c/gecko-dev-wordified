@@ -4604,6 +4604,11 @@ AsyncCallbackAutoLock
 (
 )
 {
+if
+(
+sPluginThreadAsyncCallLock
+)
+{
 sPluginThreadAsyncCallLock
 -
 >
@@ -4611,6 +4616,7 @@ Lock
 (
 )
 ;
+}
 }
 AsyncCallbackAutoLock
 :
@@ -4620,6 +4626,11 @@ AsyncCallbackAutoLock
 (
 )
 {
+if
+(
+sPluginThreadAsyncCallLock
+)
+{
 sPluginThreadAsyncCallLock
 -
 >
@@ -4627,6 +4638,7 @@ Unlock
 (
 )
 ;
+}
 }
 NPP
 NPPStack
