@@ -613,7 +613,7 @@ addreffed
 static
 Preferences
 *
-GetInstance
+GetInstanceForService
 (
 )
 ;
@@ -1681,6 +1681,10 @@ static
 PRBool
 InitStaticMembers
 (
+PRBool
+aForService
+=
+PR_FALSE
 )
 ;
 }

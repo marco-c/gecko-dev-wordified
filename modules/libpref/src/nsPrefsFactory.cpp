@@ -472,7 +472,7 @@ Preferences
 Preferences
 :
 :
-GetInstance
+GetInstanceForService
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
