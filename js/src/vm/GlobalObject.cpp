@@ -3221,7 +3221,7 @@ global
 &
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 js_InitIntlClass
 (
 cx

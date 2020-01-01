@@ -1190,7 +1190,7 @@ propertyRemovals
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 thousandsSeparator
 (
 0
@@ -2002,7 +2002,7 @@ endif
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 FinishRuntimeNumberState
 (
 this

@@ -17628,7 +17628,7 @@ true
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 static
 bool
 ToLocaleStringHelper
@@ -18113,6 +18113,12 @@ args
 }
 #
 endif
+/
+*
+!
+EXPOSE_INTL_API
+*
+/
 JS_ALWAYS_INLINE
 bool
 date_toLocaleFormat_impl
@@ -19241,7 +19247,7 @@ date_toLocaleFormat
 )
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 {
 js_toLocaleString_str
 {

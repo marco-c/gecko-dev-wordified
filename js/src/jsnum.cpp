@@ -4347,7 +4347,7 @@ args
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 JS_ALWAYS_INLINE
 bool
 num_toLocaleString_impl
@@ -5248,6 +5248,12 @@ args
 }
 #
 endif
+/
+*
+!
+EXPOSE_INTL_API
+*
+/
 JS_ALWAYS_INLINE
 bool
 num_valueOf_impl
@@ -6021,7 +6027,7 @@ js_num_toString
 )
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 {
 js_toLocaleString_str
 {
@@ -7090,7 +7096,7 @@ MinDoubleValue
 /
 XXX
 If
-ENABLE_INTL_API
+EXPOSE_INTL_API
 becomes
 true
 all
@@ -7122,7 +7128,7 @@ type
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 /
 *
 Copy
@@ -7375,6 +7381,12 @@ grouping
 ;
 #
 endif
+/
+*
+!
+EXPOSE_INTL_API
+*
+/
 return
 true
 ;
@@ -7382,7 +7394,7 @@ true
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 void
 js
 :

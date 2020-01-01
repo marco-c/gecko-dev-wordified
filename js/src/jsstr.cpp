@@ -4997,7 +4997,7 @@ args
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 static
 bool
 str_localeCompare
@@ -22933,7 +22933,7 @@ JSFUN_GENERIC_NATIVE
 )
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 {
 "
 localeCompare
@@ -23664,7 +23664,7 @@ code
 .
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 {
 "
 localeCompare

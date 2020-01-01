@@ -4016,7 +4016,7 @@ false
 ;
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 UErrorCode
 err
 =
@@ -4042,7 +4042,7 @@ false
 endif
 /
 /
-ENABLE_INTL_API
+EXPOSE_INTL_API
 jsInitState
 =
 Running
@@ -4158,7 +4158,7 @@ PRMJ_NowShutdown
 ;
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 u_cleanup
 (
 )
@@ -4167,7 +4167,7 @@ u_cleanup
 endif
 /
 /
-ENABLE_INTL_API
+EXPOSE_INTL_API
 jsInitState
 =
 ShutDown
@@ -4359,7 +4359,7 @@ JS_Init
 ;
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 UErrorCode
 status
 =
@@ -8168,7 +8168,7 @@ ObjectProxy
 }
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 {
 js_InitIntlClass
 EAGER_ATOM_AND_CLASP
