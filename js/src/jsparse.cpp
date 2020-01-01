@@ -39417,7 +39417,6 @@ js_NewString
 cx
 chars
 length
-0
 )
 ;
 if
@@ -39492,6 +39491,8 @@ chars
 str2
 -
 >
+u
+.
 chars
 length2
 )

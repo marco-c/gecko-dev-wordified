@@ -9192,8 +9192,15 @@ nbytes
 nbytes
 =
 sizeof
+(
+JSAtom
 *
-atom
+)
++
+sizeof
+(
+JSDHashEntryStub
+)
 ;
 if
 (
