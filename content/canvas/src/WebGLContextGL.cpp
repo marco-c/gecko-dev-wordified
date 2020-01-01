@@ -14852,6 +14852,7 @@ break
 ;
 default
 :
+return
 ErrorInvalidEnumInfo
 (
 "
