@@ -801,6 +801,9 @@ mIntrinsicSize
 nsSize
 mComputedSize
 ;
+PRBool
+mTextIsRTL
+;
 }
 ;
 #
