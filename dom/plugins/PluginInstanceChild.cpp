@@ -2226,7 +2226,8 @@ event
 .
 type
 )
-printf
+PLUGIN_LOG_DEBUG
+(
 (
 "
 received
@@ -2244,6 +2245,7 @@ event
 xgraphicsexpose
 .
 drawable
+)
 )
 ;
 #
