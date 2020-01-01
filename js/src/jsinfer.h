@@ -4458,7 +4458,7 @@ isArray
 ;
 inline
 bool
-compileAndGo
+hasGlobal
 (
 )
 ;

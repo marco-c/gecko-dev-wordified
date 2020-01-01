@@ -4122,7 +4122,10 @@ compileAndGo
 .
 *
 /
-JSObject
+js
+:
+:
+GlobalObject
 *
 global
 ;

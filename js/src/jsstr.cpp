@@ -21555,7 +21555,7 @@ if
 site
 -
 >
-compileAndGo
+hasGlobal
 (
 )
 )
