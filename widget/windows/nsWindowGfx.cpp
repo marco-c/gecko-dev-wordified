@@ -2447,9 +2447,9 @@ nsIWidgetListener
 *
 listener
 =
-mViewWrapperPtr
+mAttachedWidgetListener
 ?
-mViewWrapperPtr
+mAttachedWidgetListener
 :
 mWidgetListener
 ;
