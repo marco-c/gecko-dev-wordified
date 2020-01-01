@@ -644,9 +644,6 @@ stroke
 PRBool
 HasStroke
 (
-gfxContext
-*
-aContext
 )
 ;
 /

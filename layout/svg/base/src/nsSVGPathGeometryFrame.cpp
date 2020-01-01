@@ -2021,8 +2021,6 @@ if
 (
 HasStroke
 (
-&
-context
 )
 )
 {

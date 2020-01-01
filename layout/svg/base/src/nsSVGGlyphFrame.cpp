@@ -3036,7 +3036,6 @@ hasStroke
 =
 HasStroke
 (
-tmpCtx
 )
 ;
 if
