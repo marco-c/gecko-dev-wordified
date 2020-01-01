@@ -1511,6 +1511,9 @@ case
 eMetric_MacGraphiteTheme
 :
 case
+eMetric_MacLionTheme
+:
+case
 eMetric_MaemoClassic
 :
 aMetric

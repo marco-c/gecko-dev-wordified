@@ -2980,6 +2980,9 @@ break
 case
 eMetric_MacGraphiteTheme
 :
+case
+eMetric_MacLionTheme
+:
 aMetric
 =
 0
