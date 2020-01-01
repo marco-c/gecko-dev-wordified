@@ -1503,6 +1503,14 @@ DOMCI_CLASS
 (
 MessageEvent
 )
+DOMCI_CLASS
+(
+DeviceStorage
+)
+DOMCI_CLASS
+(
+DeviceStorageCursor
+)
 /
 /
 Geolocation
