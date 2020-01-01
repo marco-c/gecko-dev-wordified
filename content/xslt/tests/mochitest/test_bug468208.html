@@ -208,6 +208,7 @@ Bug
 var
 xslt
 =
+'
 <
 xsl
 :
@@ -241,6 +242,9 @@ XSL
 Transform
 "
 >
+\
+n
+\
 <
 xsl
 :
@@ -254,12 +258,16 @@ color
 "
 /
 >
+\
+n
+\
 <
 /
 xsl
 :
 stylesheet
 >
+'
 ;
 var
 xsltdoc
@@ -271,10 +279,7 @@ DOMParser
 .
 parseFromString
 (
-String
-(
 xslt
-)
 "
 text
 /

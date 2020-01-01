@@ -3,6 +3,17 @@
 |
 reftest
 |
+pref
+(
+javascript
+.
+options
+.
+xml
+.
+content
+true
+)
 skip
 -
 -
