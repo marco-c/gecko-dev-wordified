@@ -5638,13 +5638,12 @@ AccEvent
 event
 =
 new
-AccEvent
+AccVCChangeEvent
 (
-nsIAccessibleEvent
-:
-:
-EVENT_VIRTUALCURSOR_CHANGED
 this
+aOldAccessible
+aOldStart
+aOldEnd
 )
 ;
 nsEventShell
