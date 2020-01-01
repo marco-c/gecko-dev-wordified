@@ -177,6 +177,13 @@ h
 /
 for
 DebugOnly
+#
+include
+"
+SerializedLoadContext
+.
+h
+"
 namespace
 IPC
 {
