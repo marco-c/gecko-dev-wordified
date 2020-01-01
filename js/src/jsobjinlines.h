@@ -1040,6 +1040,15 @@ JS_ASSERT_IF
 hasSingletonType
 (
 )
+&
+&
+nativeContains
+(
+js_CheckForStringIndex
+(
+id
+)
+)
 js
 :
 :
