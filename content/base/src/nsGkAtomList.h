@@ -4873,6 +4873,13 @@ oncardstatechange
 )
 GK_ATOM
 (
+oncfstatechange
+"
+oncfstatechange
+"
+)
+GK_ATOM
+(
 onchange
 "
 onchange
@@ -6741,6 +6748,13 @@ GK_ATOM
 role
 "
 role
+"
+)
+GK_ATOM
+(
+rolluponmousewheel
+"
+rolluponmousewheel
 "
 )
 GK_ATOM
