@@ -33143,7 +33143,8 @@ lParam
 /
 will
 be
-maxlong
+-
+1
 .
 LPARAM
 pos
@@ -33158,7 +33159,8 @@ if
 lParam
 =
 =
-0xFFFFFFFF
+-
+1
 )
 {
 contextMenukey
