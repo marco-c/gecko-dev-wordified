@@ -1058,6 +1058,16 @@ return
 true
 ;
 }
+virtual
+bool
+ShouldConsumeOnMouseWheelEvent
+(
+)
+{
+return
+false
+;
+}
 /
 *
 *
