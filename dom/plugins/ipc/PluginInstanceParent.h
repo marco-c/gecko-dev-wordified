@@ -240,6 +240,15 @@ endif
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h
