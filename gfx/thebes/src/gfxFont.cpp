@@ -4408,6 +4408,7 @@ mStyle
 .
 langGroup
 PR_TRUE
+PR_TRUE
 fc
 closure
 )
@@ -4440,6 +4441,7 @@ ForEachFontInternal
 aFamilies
 aLangGroup
 PR_FALSE
+PR_TRUE
 fc
 closure
 )
@@ -4508,6 +4510,8 @@ nsACString
 aLangGroup
 PRBool
 aResolveGeneric
+PRBool
+aResolveFontName
 FontCreationCallback
 fc
 void
@@ -5052,6 +5056,11 @@ gf
 genericFamily
 )
 ;
+if
+(
+aResolveFontName
+)
+{
 ResolveData
 data
 (
@@ -5105,6 +5114,23 @@ aborted
 return
 PR_FALSE
 ;
+}
+else
+{
+if
+(
+!
+fc
+(
+family
+gf
+closure
+)
+)
+return
+PR_FALSE
+;
+}
 }
 if
 (
@@ -5185,6 +5211,7 @@ ForEachFontInternal
 value
 lang
 PR_FALSE
+aResolveFontName
 fc
 closure
 )
@@ -5260,6 +5287,8 @@ gfxFontGroup
 :
 FindGenericFontFromStyle
 (
+PRBool
+aResolveFontName
 FontCreationCallback
 fc
 void
@@ -5428,6 +5457,7 @@ mStyle
 .
 langGroup
 PR_FALSE
+aResolveFontName
 fc
 closure
 )
@@ -5508,6 +5538,7 @@ mStyle
 .
 langGroup
 PR_FALSE
+aResolveFontName
 fc
 closure
 )

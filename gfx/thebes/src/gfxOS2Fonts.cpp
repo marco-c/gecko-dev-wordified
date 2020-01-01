@@ -3785,6 +3785,7 @@ familyArray
 ;
 FindGenericFontFromStyle
 (
+PR_TRUE
 FontCallback
 &
 familyArray
