@@ -1739,7 +1739,7 @@ haveDefaultHandlersVersion
 )
 do_check_eq
 (
-1
+2
 protoInfo
 .
 possibleApplicationHandlers
@@ -1808,7 +1808,7 @@ haveDefaultHandlersVersion
 {
 do_check_eq
 (
-1
+2
 protoInfo
 .
 possibleApplicationHandlers
@@ -1983,7 +1983,7 @@ mailto
 ;
 do_check_eq
 (
-1
+2
 protoInfo
 .
 possibleApplicationHandlers
