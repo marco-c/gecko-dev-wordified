@@ -478,13 +478,6 @@ h
 #
 include
 "
-Key
-.
-h
-"
-#
-include
-"
 IDBObjectStore
 .
 h
