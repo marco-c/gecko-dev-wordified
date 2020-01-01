@@ -470,6 +470,7 @@ jsproxy
 .
 h
 "
+JS_BEGIN_EXTERN_C
 /
 *
 No
@@ -1550,5 +1551,6 @@ flags
 )
 ;
 }
+JS_END_EXTERN_C
 #
 endif
