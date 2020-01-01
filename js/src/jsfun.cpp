@@ -8681,6 +8681,9 @@ getToken
 }
 }
 }
+#
+ifdef
+DEBUG
 for
 (
 unsigned
@@ -8731,6 +8734,8 @@ i
 )
 ;
 }
+#
+endif
 JS
 :
 :

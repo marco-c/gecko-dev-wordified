@@ -883,16 +883,10 @@ toObject
 {
 if
 (
-ObjectValueMap
-:
-:
-Ptr
-ptr
-=
 map
 -
 >
-lookup
+has
 (
 key
 )

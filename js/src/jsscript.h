@@ -6918,10 +6918,6 @@ SHUTDOWN
 }
 state
 ;
-JSRuntime
-*
-rt
-;
 SourceCompressionToken
 *
 tok
@@ -7060,10 +7056,6 @@ rt
 state
 (
 IDLE
-)
-rt
-(
-rt
 )
 tok
 (

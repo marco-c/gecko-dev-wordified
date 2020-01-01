@@ -3411,7 +3411,7 @@ if
 ss
 )
 return
-NULL
+false
 ;
 }
 else

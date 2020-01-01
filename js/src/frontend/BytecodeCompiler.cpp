@@ -1750,7 +1750,7 @@ length
 )
 )
 return
-NULL
+false
 ;
 ScriptSource
 *
@@ -1772,7 +1772,7 @@ if
 ss
 )
 return
-NULL
+false
 ;
 ScriptSourceHolder
 ssh
@@ -1833,7 +1833,7 @@ sct
 )
 )
 return
-NULL
+false
 ;
 }
 options

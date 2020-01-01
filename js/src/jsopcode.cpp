@@ -39237,7 +39237,7 @@ pc
 )
 )
 return
-NULL
+false
 ;
 JSOp
 op
