@@ -17393,7 +17393,6 @@ OP
 \
 trace_stop
 (
-cx
 #
 OP
 )
@@ -17527,7 +17526,6 @@ OP
 \
 trace_stop
 (
-cx
 #
 OP
 )
@@ -19087,7 +19085,12 @@ JSOP_HEADER
 {
 slot
 =
-GET_UINT24
+script
+-
+>
+loopBase
++
+GET_UINT8
 (
 regs
 .
@@ -19253,14 +19256,6 @@ one
 .
 *
 /
-trace_start
-(
-cx
-regs
-.
-pc
-)
-;
 obj
 =
 js_NewObject
@@ -42999,7 +42994,6 @@ handler
 \
 trace_stop
 (
-cx
 #
 handler
 )
