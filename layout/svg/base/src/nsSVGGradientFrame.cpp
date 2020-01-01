@@ -709,6 +709,9 @@ nsSVGGradientFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsSVGEffects
@@ -724,6 +727,7 @@ nsSVGGradientFrameBase
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 }

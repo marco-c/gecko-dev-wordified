@@ -629,6 +629,9 @@ virtual
 void
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 ;
 NS_IMETHOD

@@ -800,6 +800,9 @@ nsSVGPatternFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsSVGEffects
@@ -815,6 +818,7 @@ nsSVGPatternFrameBase
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 }

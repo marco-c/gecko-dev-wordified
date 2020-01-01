@@ -527,6 +527,9 @@ virtual
 void
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 ;
 }
@@ -565,6 +568,9 @@ nsSVGLeafFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsFrame
@@ -572,6 +578,7 @@ nsFrame
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 nsSVGEffects

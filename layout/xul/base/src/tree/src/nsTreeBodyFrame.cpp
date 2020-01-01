@@ -26061,6 +26061,9 @@ nsTreeBodyFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsLeafBoxFrame
@@ -26068,6 +26071,7 @@ nsLeafBoxFrame
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 /

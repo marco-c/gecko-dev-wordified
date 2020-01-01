@@ -564,6 +564,9 @@ virtual
 void
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 ;
 NS_IMETHOD
@@ -831,6 +834,9 @@ nsSVGStopFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsSVGStopFrameBase
@@ -838,6 +844,7 @@ nsSVGStopFrameBase
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 nsSVGEffects

@@ -1837,6 +1837,9 @@ nsSVGGlyphFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsSVGGlyphFrameBase
@@ -1844,6 +1847,7 @@ nsSVGGlyphFrameBase
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 if

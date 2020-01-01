@@ -854,6 +854,9 @@ nsSVGPathGeometryFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsSVGPathGeometryFrameBase
@@ -861,6 +864,7 @@ nsSVGPathGeometryFrameBase
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 nsSVGOuterSVGFrame

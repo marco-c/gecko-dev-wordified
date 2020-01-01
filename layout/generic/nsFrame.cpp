@@ -2601,6 +2601,7 @@ NS_FRAME_MAY_BE_TRANSFORMED_OR_HAVE_RENDERING_OBSERVERS
 }
 DidSetStyleContext
 (
+nsnull
 )
 ;
 if
@@ -3117,6 +3118,9 @@ nsFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 /

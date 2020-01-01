@@ -1356,6 +1356,9 @@ nsBoxFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsContainerFrame
@@ -1363,6 +1366,7 @@ nsContainerFrame
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 /
