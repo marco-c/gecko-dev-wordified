@@ -4449,7 +4449,7 @@ the
 failure
 modes
 for
-GetTextExtentPoint32
+GetExtentPoint32
 are
 -
 /
@@ -4473,7 +4473,7 @@ no
 ?
 if
 (
-GetTextExtentPoint32
+GetExtentPoint32
 (
 dc
 "
