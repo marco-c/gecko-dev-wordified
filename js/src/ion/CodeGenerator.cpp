@@ -11583,15 +11583,14 @@ input
 ;
 if
 (
-!
 ins
 -
 >
 snapshot
 (
 )
-|
-|
+&
+&
 !
 bailoutIf
 (
