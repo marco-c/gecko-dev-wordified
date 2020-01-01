@@ -1041,6 +1041,7 @@ inexpensive
 *
 /
 class
+NS_STACK_CLASS
 mozStorageStatementScoper
 {
 public
