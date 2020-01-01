@@ -617,6 +617,13 @@ service
 ]
 .
 getService
+[
+Ci
+.
+mozIAsyncLivemarks
+]
+.
+QueryInterface
 (
 Ci
 .
