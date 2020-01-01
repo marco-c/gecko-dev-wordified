@@ -2333,7 +2333,7 @@ treeTransform
 .
 mScale
 .
-width
+scale
 metrics
 .
 mScrollableRect
@@ -2529,9 +2529,19 @@ mTranslation
 .
 y
 )
+gfxSize
+(
 treeTransform
 .
 mScale
+.
+scale
+treeTransform
+.
+mScale
+.
+scale
+)
 fixedLayerMargins
 )
 ;
@@ -3019,7 +3029,7 @@ ViewTransform
 (
 -
 scrollCompensation
-gfxSize
+CSSToScreenScale
 (
 scaleX
 scaleY
