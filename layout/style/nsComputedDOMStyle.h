@@ -1728,15 +1728,6 @@ aValue
 )
 ;
 nsresult
-GetTextShadow
-(
-nsIDOMCSSValue
-*
-*
-aValue
-)
-;
-nsresult
 GetLetterSpacing
 (
 nsIDOMCSSValue

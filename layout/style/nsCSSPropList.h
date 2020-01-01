@@ -5085,7 +5085,7 @@ mTextIndent
 eCSSType_Value
 nsnull
 )
-CSS_PROP_TEXT
+CSS_PROP_BACKENDONLY
 (
 text
 -
