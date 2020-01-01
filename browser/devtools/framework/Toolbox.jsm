@@ -3518,6 +3518,14 @@ forceOwnRefreshDriver
 "
 )
 ;
+iframe
+.
+tooltip
+=
+"
+aHTMLTooltip
+"
+;
 let
 vbox
 =
