@@ -1274,9 +1274,6 @@ NS_FORM_FIELDSET
 case
 NS_FORM_OBJECT
 :
-case
-NS_FORM_OUTPUT
-:
 return
 PR_TRUE
 ;
