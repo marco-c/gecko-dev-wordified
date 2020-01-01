@@ -13719,7 +13719,8 @@ rv
 rv
 )
 ;
-return
+rv
+=
 hasTagsStatement
 -
 >
@@ -13727,6 +13728,15 @@ ExecuteStep
 (
 aHasChildren
 )
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
+return
+NS_OK
 ;
 }
 /
