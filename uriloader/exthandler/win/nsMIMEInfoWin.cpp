@@ -612,7 +612,7 @@ seinfo
 .
 fMask
 =
-NULL
+0
 ;
 seinfo
 .
@@ -3646,7 +3646,6 @@ HKEY_CLASSES_ROOT
 ext
 \
 OpenWithList
-\
 workingRegistryPath
 =
 fileExtToUse
@@ -4004,9 +4003,9 @@ Microsoft
 Windows
 \
 CurrentVersion
+/
+/
 \
-/
-/
 Explorer
 \
 FileExts
@@ -4258,9 +4257,9 @@ Microsoft
 Windows
 \
 CurrentVersion
+/
+/
 \
-/
-/
 Explorer
 \
 FileExts
@@ -4724,7 +4723,6 @@ HKEY_CLASSES_ROOT
 *
 \
 OpenWithList
-\
 /
 /
 Listing
