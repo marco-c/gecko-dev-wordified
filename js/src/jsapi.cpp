@@ -25998,7 +25998,6 @@ obj
 return
 ObjectClassIs
 (
-*
 obj
 ESClass_Array
 cx

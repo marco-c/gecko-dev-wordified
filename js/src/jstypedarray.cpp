@@ -11694,7 +11694,6 @@ if
 !
 ObjectClassIs
 (
-*
 bufobj
 ESClass_ArrayBuffer
 cx
