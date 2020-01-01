@@ -4166,7 +4166,7 @@ obj
 )
 -
 >
-branded
+brandedOrHasMethodBarrier
 (
 )
 )

@@ -77998,7 +77998,7 @@ if
 scope
 -
 >
-branded
+brandedOrHasMethodBarrier
 (
 )
 &
