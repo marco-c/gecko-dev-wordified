@@ -780,6 +780,11 @@ Init
 surf
 )
 ;
+if
+(
+mSurfaceValid
+)
+{
 /
 /
 DDBs
@@ -830,6 +835,7 @@ gfxWindowsSurface
 )
 )
 ;
+}
 if
 (
 CairoStatus
