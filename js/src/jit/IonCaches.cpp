@@ -10423,12 +10423,6 @@ NormalArgumentsObject
 :
 class_
 ;
-Label
-fail
-;
-Label
-pass
-;
 masm
 .
 branchTestObjClass
@@ -19684,12 +19678,6 @@ NormalArgumentsObject
 :
 :
 class_
-;
-Label
-fail
-;
-Label
-pass
 ;
 masm
 .
