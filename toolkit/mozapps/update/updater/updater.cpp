@@ -8168,6 +8168,7 @@ WAIT_OBJECT_0
 return
 1
 ;
+}
 /
 /
 The
@@ -8206,7 +8207,6 @@ Sleep
 50
 )
 ;
-}
 #
 else
 int
