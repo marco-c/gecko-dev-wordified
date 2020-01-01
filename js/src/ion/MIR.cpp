@@ -9979,12 +9979,6 @@ treated
 as
 UInt32
 .
-MDefinition
-*
-newlhs
-*
-newrhs
-;
 if
 (
 tryUseUnsignedOperands
