@@ -1053,7 +1053,7 @@ mParseError
 false
 )
 {
-mFragmentMode
+mRunsToCompletion
 =
 true
 ;

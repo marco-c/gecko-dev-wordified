@@ -3690,7 +3690,7 @@ ssle
 >
 UpdateStyleSheet
 (
-mFragmentMode
+mRunsToCompletion
 ?
 nsnull
 :
@@ -3717,7 +3717,7 @@ isAlternate
 &
 &
 !
-mFragmentMode
+mRunsToCompletion
 )
 {
 +
@@ -7381,7 +7381,7 @@ ssle
 >
 UpdateStyleSheet
 (
-mFragmentMode
+mRunsToCompletion
 ?
 nsnull
 :
@@ -7417,7 +7417,7 @@ isAlternate
 &
 &
 !
-mFragmentMode
+mRunsToCompletion
 )
 {
 +

@@ -2411,7 +2411,7 @@ FROM_PARSER_NETWORK
 aBuilder
 -
 >
-IsFragmentMode
+BelongsToStringParser
 (
 )
 ?
@@ -2673,7 +2673,7 @@ FROM_PARSER_NETWORK
 aBuilder
 -
 >
-IsFragmentMode
+BelongsToStringParser
 (
 )
 ?
