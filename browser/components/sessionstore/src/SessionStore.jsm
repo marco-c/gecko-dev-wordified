@@ -26680,6 +26680,9 @@ selectedWindow
 }
 }
 }
+#
+ifndef
+XP_MACOSX
 /
 /
 Don
@@ -26733,6 +26736,8 @@ FX_SESSION_RESTORE_COLLECT_DATA_LONGEST_OP_MS
 return
 ;
 }
+#
+endif
 for
 (
 let
