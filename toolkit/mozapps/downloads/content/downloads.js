@@ -2514,6 +2514,13 @@ button
 =
 =
 0
+&
+&
+aEvent
+.
+target
+.
+selected
 )
 doDefaultForSelected
 (
