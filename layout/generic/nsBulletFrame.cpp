@@ -614,7 +614,7 @@ mRequestRegistered
 mImageRequest
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
@@ -697,7 +697,7 @@ mRequestRegistered
 mImageRequest
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
