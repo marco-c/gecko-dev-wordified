@@ -589,13 +589,6 @@ DrawOptions
 (
 )
 )
-{
-MOZ_ASSERT
-(
-0
-)
-;
-}
 ;
 virtual
 void
