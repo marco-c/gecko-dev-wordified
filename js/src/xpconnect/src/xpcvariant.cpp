@@ -2521,11 +2521,6 @@ val
 len
 len
 type
-type
-.
-IsPointer
-(
-)
 &
 id
 nsnull
