@@ -951,6 +951,14 @@ aEventTarget
 if
 (
 !
+aCallback
+)
+return
+NS_OK
+;
+if
+(
+!
 aEventTarget
 )
 return
