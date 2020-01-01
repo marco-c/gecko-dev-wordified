@@ -509,13 +509,6 @@ h
 #
 include
 "
-nsIView
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h
@@ -1044,8 +1037,10 @@ send
 the
 event
 to
+nsCOMPtr
+<
 nsIWidget
-*
+>
 widget
 =
 GetWidget
