@@ -2346,7 +2346,7 @@ T
 This
 signature
 exists
-soley
+solely
 to
 _stop_
 you
@@ -2427,7 +2427,7 @@ nsresult
 This
 signature
 exists
-soley
+solely
 to
 _stop_
 you
