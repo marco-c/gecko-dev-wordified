@@ -3526,6 +3526,16 @@ type
 node
 .
 RESULT_TYPE_SEPARATOR
+|
+|
+node
+.
+type
+=
+=
+node
+.
+RESULT_TYPE_QUERY
 )
 {
 do_check_true

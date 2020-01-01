@@ -2866,6 +2866,7 @@ expand
 queries
 if
 (
+!
 options
 -
 >
@@ -2887,7 +2888,7 @@ NS_LITERAL_CSTRING
 QUERYKEY_EXPAND_QUERIES
 "
 =
-1
+0
 "
 )
 ;
