@@ -570,7 +570,7 @@ h
 #
 include
 "
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 .
 h
 "
@@ -1493,7 +1493,7 @@ static
 PRBool
 CanUseDefaultCredentials
 (
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 *
 channel
 PRBool
@@ -1760,7 +1760,7 @@ nsHttpNTLMAuth
 :
 ChallengeReceived
 (
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 *
 channel
 const
@@ -2470,9 +2470,9 @@ nsHttpNTLMAuth
 :
 GenerateCredentials
 (
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 *
-httpChannel
+authChannel
 const
 char
 *
@@ -2660,7 +2660,7 @@ uri
 ;
 rv
 =
-httpChannel
+authChannel
 -
 >
 GetURI

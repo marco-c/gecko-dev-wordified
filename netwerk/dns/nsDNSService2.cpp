@@ -515,7 +515,7 @@ h
 #
 include
 "
-nsProtocolProxyService
+nsIProtocolProxyService
 .
 h
 "
@@ -2173,10 +2173,10 @@ PR_FALSE
 int
 proxyType
 =
-nsProtocolProxyService
+nsIProtocolProxyService
 :
 :
-eProxyConfig_Direct
+PROXYCONFIG_DIRECT
 ;
 nsAdoptingCString
 ipv4OnlyDomains
@@ -2609,10 +2609,10 @@ disablePrefetch
 proxyType
 =
 =
-nsProtocolProxyService
+nsIProtocolProxyService
 :
 :
-eProxyConfig_Manual
+PROXYCONFIG_MANUAL
 )
 ;
 }

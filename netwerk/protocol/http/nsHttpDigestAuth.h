@@ -850,7 +850,7 @@ len
 nsresult
 GetMethodAndPath
 (
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 *
 PRBool
 nsCString
