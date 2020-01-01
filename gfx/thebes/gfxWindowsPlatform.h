@@ -567,6 +567,13 @@ windows
 .
 h
 >
+#
+include
+<
+objbase
+.
+h
+>
 /
 /
 Utility
