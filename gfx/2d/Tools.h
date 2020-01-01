@@ -563,6 +563,12 @@ mStorage
 mStorage
 =
 new
+(
+std
+:
+:
+nothrow
+)
 T
 [
 aSize
