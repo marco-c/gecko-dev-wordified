@@ -10056,6 +10056,12 @@ ownerDocument
 .
 defaultView
 ;
+let
+oScroll
+;
+let
+oAuto
+;
 for
 (
 ;
@@ -10130,7 +10136,6 @@ getBoundingClientRect
 (
 )
 ;
-let
 oScroll
 =
 (
@@ -10162,7 +10167,6 @@ scroll
 "
 )
 ;
-let
 oAuto
 =
 (
@@ -13501,9 +13505,11 @@ rgba
 let
 rect
 ;
+let
+i
+;
 for
 (
-let
 i
 =
 rects
@@ -23611,6 +23617,8 @@ QueryInterface
 nsIObjectLoadingContent
 )
 ;
+try
+{
 oprivate
 .
 setAbsoluteScreenPosition
@@ -23621,6 +23629,14 @@ contentScrollbox
 dest
 clip
 )
+;
+}
+catch
+(
+e
+)
+{
+}
 ;
 }
 }

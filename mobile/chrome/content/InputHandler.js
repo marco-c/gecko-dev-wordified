@@ -8284,6 +8284,9 @@ based
 on
 recorded
 input
+let
+me
+;
 for
 (
 let
@@ -8300,7 +8303,6 @@ i
 +
 )
 {
-let
 me
 =
 mb
