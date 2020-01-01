@@ -2389,6 +2389,16 @@ frameElement
 null
 &
 &
+getChromeWindow
+(
+this
+.
+domWindow
+)
+.
+gFindBar
+&
+&
 '
 updateControlState
 '
