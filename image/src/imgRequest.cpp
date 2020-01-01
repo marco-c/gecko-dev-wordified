@@ -3111,6 +3111,9 @@ void
 frameChanged
 (
 in
+imgIRequest
+request
+in
 imgIContainer
 container
 in
@@ -3126,6 +3129,9 @@ imgRequest
 :
 FrameChanged
 (
+imgIRequest
+*
+request
 imgIContainer
 *
 container

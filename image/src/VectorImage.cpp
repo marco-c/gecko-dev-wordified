@@ -5506,6 +5506,7 @@ observer
 >
 FrameChanged
 (
+nsnull
 this
 &
 nsIntRect
@@ -5846,6 +5847,7 @@ containerObs
 >
 FrameChanged
 (
+nsnull
 this
 &
 nsIntRect

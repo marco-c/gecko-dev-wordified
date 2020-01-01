@@ -647,6 +647,9 @@ nsTreeImageListener
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
