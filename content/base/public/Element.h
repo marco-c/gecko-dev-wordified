@@ -2730,7 +2730,6 @@ bool
 aNotify
 )
 ;
-virtual
 nsresult
 SetParsedAttr
 (
