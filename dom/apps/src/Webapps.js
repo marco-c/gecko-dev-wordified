@@ -4262,6 +4262,11 @@ origin
 aApp
 .
 origin
+manifestURL
+:
+aApp
+.
+manifestURL
 oid
 :
 this
