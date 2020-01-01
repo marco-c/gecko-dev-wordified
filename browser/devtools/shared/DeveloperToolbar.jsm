@@ -280,7 +280,7 @@ defineLazyModuleGetter
 (
 this
 "
-PageErrorListener
+ConsoleServiceListener
 "
 "
 resource
@@ -2914,11 +2914,11 @@ let
 listener
 =
 new
-PageErrorListener
+ConsoleServiceListener
 (
 window
 {
-onPageError
+onConsoleServiceMessage
 :
 this
 .
