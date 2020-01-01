@@ -253,7 +253,7 @@ graph
 )
 ;
 bool
-EliminateRedundantBoundsChecks
+EliminateRedundantChecks
 (
 MIRGraph
 &
