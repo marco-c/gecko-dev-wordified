@@ -4670,7 +4670,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_SCROLLINGEND
+EVENT_SCROLLING_END
 docAcc
 nsnull
 )
@@ -6912,7 +6912,7 @@ eventType
 nsIAccessibleEvent
 :
 :
-EVENT_ATK_TEXT_CARET_MOVE
+EVENT_TEXT_CARET_MOVED
 )
 {
 nsCOMPtr
@@ -6952,7 +6952,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_ATK_TEXT_CARET_MOVE
+EVENT_TEXT_CARET_MOVED
 accessible
 &
 caretOffset
@@ -6993,7 +6993,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_ATK_TEXT_SELECTION_CHANGE
+EVENT_TEXT_SELECTION_CHANGED
 accessible
 nsnull
 )
@@ -7300,7 +7300,7 @@ event
 nsIAccessibleEvent
 :
 :
-EVENT_MENUPOPUPEND
+EVENT_MENUPOPUP_END
 ;
 }
 }
@@ -7923,7 +7923,7 @@ EVENT_HIDE
 Fire
 EVENT_HIDE
 or
-EVENT_MENUPOPUPEND
+EVENT_MENUPOPUP_END
 if
 previous
 accessible
@@ -8391,7 +8391,7 @@ aChild
 /
 Fire
 EVENT_SHOW
-EVENT_MENUPOPUPSTART
+EVENT_MENUPOPUP_START
 for
 newly
 visible
@@ -8499,7 +8499,7 @@ FireDelayedToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_MENUPOPUPSTART
+EVENT_MENUPOPUP_START
 childNode
 nsnull
 )

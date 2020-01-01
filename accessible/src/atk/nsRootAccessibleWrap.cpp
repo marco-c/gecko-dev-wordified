@@ -1304,7 +1304,7 @@ use
 EVENT_FOCUS
 instead
 of
-EVENT_ATK_SELECTION_CHANGE
+EVENT_SELECTION_CHANGED
 privAcc
 =
 do_QueryInterface
@@ -1957,7 +1957,7 @@ the
 nsIAccessibleEvent
 :
 :
-EVENT_MENUPOPUPSTART
+EVENT_MENUPOPUP_START
 /
 /
 we

@@ -3422,7 +3422,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_MENUSTART
+EVENT_MENU_START
 this
 nsnull
 )
@@ -3448,7 +3448,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_MENUEND
+EVENT_MENU_END
 this
 nsnull
 )
@@ -4160,7 +4160,7 @@ event
 nsIAccessibleEvent
 :
 :
-EVENT_MENUPOPUPSTART
+EVENT_MENUPOPUP_START
 ;
 nsCOMPtr
 <
@@ -5373,7 +5373,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_MENUPOPUPEND
+EVENT_MENUPOPUP_END
 accessible
 nsnull
 )
@@ -5535,7 +5535,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_MENUSTART
+EVENT_MENU_START
 accessible
 nsnull
 )
@@ -5562,7 +5562,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_MENUEND
+EVENT_MENU_END
 accessible
 nsnull
 )

@@ -8122,7 +8122,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_ATK_TEXT_CHANGE
+EVENT_TEXT_CHANGED
 accessible
 aTextData
 )
