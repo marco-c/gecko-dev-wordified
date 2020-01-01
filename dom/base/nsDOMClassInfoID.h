@@ -446,7 +446,7 @@ _extra
 \
 DOMCI_CASTABLE_INTERFACE
 (
-nsSVGElement
+nsSVGStylableElement
 nsIContent
 9
 _extra

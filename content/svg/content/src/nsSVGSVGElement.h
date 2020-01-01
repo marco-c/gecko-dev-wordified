@@ -169,7 +169,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -220,7 +220,7 @@ SVGFragmentIdentifier
 ;
 }
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGSVGElementBase
 ;
 class

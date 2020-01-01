@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -190,7 +190,7 @@ Masks
 -
 -
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGMaskElementBase
 ;
 class

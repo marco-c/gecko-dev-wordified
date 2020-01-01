@@ -158,7 +158,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -232,7 +232,7 @@ Patterns
 -
 -
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGPatternElementBase
 ;
 class
