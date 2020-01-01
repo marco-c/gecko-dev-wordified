@@ -2591,6 +2591,15 @@ NS_HIDDEN_
 (
 void
 )
+RemoveOrientationEventListener
+(
+)
+;
+virtual
+NS_HIDDEN_
+(
+void
+)
 MaybeUpdateTouchState
 (
 )

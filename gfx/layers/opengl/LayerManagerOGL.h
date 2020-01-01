@@ -2937,16 +2937,6 @@ gl
 )
 ;
 }
-void
-ApplyFilter
-(
-gfxPattern
-:
-:
-GraphicsFilter
-aFilter
-)
-;
 protected
 :
 LayerManagerOGL

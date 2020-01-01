@@ -3408,7 +3408,7 @@ surface
 )
 ;
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 /
@@ -3515,7 +3515,7 @@ RenderMode
 )
 ;
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 nsRefPtr

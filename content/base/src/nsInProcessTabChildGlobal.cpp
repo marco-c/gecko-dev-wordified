@@ -998,7 +998,7 @@ nsInProcessTabChildGlobal
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 nsInProcessTabChildGlobal
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -1012,7 +1012,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsInProcessTabChildGlobal
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
@@ -1062,7 +1062,7 @@ ContentFrameMessageManager
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 )
 NS_IMPL_ADDREF_INHERITED
 (

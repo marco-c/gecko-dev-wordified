@@ -794,8 +794,6 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 PRInt32
@@ -1007,8 +1005,6 @@ aPairIndex
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 PRUint32
@@ -1071,7 +1067,7 @@ aSVGElement
 DidChangeIntegerPair
 (
 mAttrEnum
-aDoSetAttr
+true
 )
 ;
 }
@@ -1088,8 +1084,6 @@ aValue2
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 mBaseVal
@@ -1152,7 +1146,7 @@ aSVGElement
 DidChangeIntegerPair
 (
 mAttrEnum
-aDoSetAttr
+true
 )
 ;
 }

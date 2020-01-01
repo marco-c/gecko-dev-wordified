@@ -445,10 +445,6 @@ Location
 )
 DOMCI_CLASS
 (
-CaretPosition
-)
-DOMCI_CLASS
-(
 Navigator
 )
 DOMCI_CLASS
@@ -2115,10 +2111,6 @@ IDBVersionChangeRequest
 DOMCI_CLASS
 (
 IDBDatabaseException
-)
-DOMCI_CLASS
-(
-EventException
 )
 DOMCI_CLASS
 (

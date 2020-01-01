@@ -2445,7 +2445,7 @@ u
 .
 i
 .
-script
+script_
 )
 )
 eax

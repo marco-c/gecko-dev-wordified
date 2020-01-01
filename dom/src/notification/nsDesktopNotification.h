@@ -407,7 +407,14 @@ h
 #
 include
 "
-nsDOMClassInfo
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
+nsIPrincipal
 .
 h
 "

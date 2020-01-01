@@ -5117,7 +5117,9 @@ js_InitializerObject
 *
 Defined
 in
-jsregexp
+vm
+/
+RegExpObject
 .
 cpp
 .

@@ -566,6 +566,15 @@ h
 #
 include
 "
+builtin
+/
+RegExp
+.
+h
+"
+#
+include
+"
 jsinterpinlines
 .
 h
@@ -5543,7 +5552,7 @@ U
 :
 :
 Scripted
-script
+script_
 )
 )
 ;
@@ -8002,7 +8011,7 @@ if
 native
 =
 =
-js_regexp_exec
+regexp_exec
 &
 &
 !
@@ -8017,7 +8026,7 @@ pc
 )
 native
 =
-js_regexp_test
+regexp_test
 ;
 masm
 .

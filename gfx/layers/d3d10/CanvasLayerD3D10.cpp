@@ -1250,6 +1250,13 @@ map
 pData
 ;
 }
+mGLContext
+-
+>
+MakeCurrent
+(
+)
+;
 /
 /
 We

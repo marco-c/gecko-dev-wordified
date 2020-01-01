@@ -3630,7 +3630,6 @@ SetBaseValues
 stdDeviationX
 stdDeviationY
 this
-PR_TRUE
 )
 ;
 return
@@ -10790,7 +10789,6 @@ SetBaseValue
 (
 k1
 this
-PR_TRUE
 )
 ;
 mNumberAttributes
@@ -10802,7 +10800,6 @@ SetBaseValue
 (
 k2
 this
-PR_TRUE
 )
 ;
 mNumberAttributes
@@ -10814,7 +10811,6 @@ SetBaseValue
 (
 k3
 this
-PR_TRUE
 )
 ;
 mNumberAttributes
@@ -10826,7 +10822,6 @@ SetBaseValue
 (
 k4
 this
-PR_TRUE
 )
 ;
 return
@@ -24513,7 +24508,6 @@ SetBaseValues
 rx
 ry
 this
-PR_TRUE
 )
 ;
 return

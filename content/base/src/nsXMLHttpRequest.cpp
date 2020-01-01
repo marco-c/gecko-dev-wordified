@@ -606,7 +606,7 @@ h
 #
 include
 "
-nsIDOMClassInfo
+nsDOMClassInfoID
 .
 h
 "
@@ -705,13 +705,6 @@ h
 include
 "
 nsCOMArray
-.
-h
-"
-#
-include
-"
-nsDOMClassInfo
 .
 h
 "
@@ -4332,7 +4325,6 @@ GetDocumentCharacterSet
 )
 {
 mResponseCharset
-=
 =
 document
 -

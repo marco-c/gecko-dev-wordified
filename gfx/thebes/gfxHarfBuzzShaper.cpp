@@ -5440,14 +5440,9 @@ buffer
 )
 ;
 }
-#
-ifdef
-DEBUG
 nsresult
 rv
 =
-#
-endif
 SetGlyphsFromRun
 (
 aContext
@@ -5484,7 +5479,10 @@ font
 )
 ;
 return
-PR_TRUE
+NS_SUCCEEDED
+(
+rv
+)
 ;
 }
 /

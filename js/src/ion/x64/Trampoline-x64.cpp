@@ -2277,7 +2277,7 @@ u
 .
 i
 .
-script
+script_
 )
 )
 rax

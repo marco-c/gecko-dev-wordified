@@ -3919,7 +3919,10 @@ cx
 if
 (
 !
-CheckStringLength
+JSString
+:
+:
+validateLength
 (
 cx
 length
@@ -4174,7 +4177,10 @@ cx
 if
 (
 !
-CheckStringLength
+JSString
+:
+:
+validateLength
 (
 cx
 length

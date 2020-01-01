@@ -562,13 +562,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLOptionCollectn
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
