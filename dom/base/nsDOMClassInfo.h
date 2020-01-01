@@ -1257,16 +1257,6 @@ static
 jsid
 sOnerror_id
 ;
-protected
-:
-static
-JSPropertyOp
-sXPCNativeWrapperGetPropertyOp
-;
-static
-JSPropertyOp
-sXrayWrapperPropertyHolderGetPropertyOp
-;
 }
 ;
 /
