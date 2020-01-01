@@ -2544,12 +2544,6 @@ SHELL_WRAPPER0
 bindWidgetTexture
 )
 ;
-SHELL_WRAPPER0_WITH_RETURN
-(
-testDirectTexture
-bool
-)
-;
 SHELL_WRAPPER3_WITH_RETURN
 (
 saveMessageInSentbox
@@ -5023,11 +5017,6 @@ notifySmsReceived
 GETFUNC
 (
 bindWidgetTexture
-)
-;
-GETFUNC
-(
-testDirectTexture
 )
 ;
 GETFUNC
