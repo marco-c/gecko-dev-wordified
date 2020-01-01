@@ -47218,7 +47218,6 @@ throw
 .
 if
 (
-!
 ObjectIsNativeWrapper
 (
 cx
