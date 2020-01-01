@@ -1346,6 +1346,10 @@ nsIDocShellTreeItem
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIDocShellTreeNode
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIInterfaceRequestor
 )
 NS_INTERFACE_MAP_ENTRY
