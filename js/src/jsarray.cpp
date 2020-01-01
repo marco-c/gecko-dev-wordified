@@ -6296,7 +6296,16 @@ attrs
 {
 uint32
 i
+=
+0
 ;
+/
+/
+init
+to
+shut
+GCC
+up
 JSBool
 isIndex
 ;
