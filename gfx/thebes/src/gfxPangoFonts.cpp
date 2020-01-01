@@ -22151,6 +22151,7 @@ extern
 C
 "
 {
+NS_VISIBILITY_DEFAULT
 void
 cairo_ft_font_options_substitute
 (
