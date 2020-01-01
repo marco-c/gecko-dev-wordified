@@ -3461,10 +3461,7 @@ NodePrincipal
 (
 )
 scriptURI
-nsIScriptSecurityManager
-:
-:
-ALLOW_CHROME
+0
 )
 ;
 NS_ENSURE_SUCCESS
