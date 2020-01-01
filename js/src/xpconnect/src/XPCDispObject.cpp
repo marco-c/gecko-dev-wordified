@@ -1581,7 +1581,7 @@ the
 error
 if
 one
-occured
+occurred
 ccx
 .
 GetXPCContext

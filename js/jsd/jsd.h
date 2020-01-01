@@ -529,7 +529,7 @@ client
 but
 perhaps
 done
-differnetly
+differently
 *
 in
 other

@@ -1804,11 +1804,14 @@ too
 /
 See
 also
-js_GetWrappedObject
+JSObject
+:
+:
+wrappedObject
 in
 jsobj
 .
-h
+cpp
 .
 /
 /
@@ -1935,9 +1938,7 @@ Get
 the
 (
 possibly
-non
--
-existant
+nonexistent
 )
 COW
 off

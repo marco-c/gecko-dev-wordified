@@ -1984,7 +1984,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 PRUint32
@@ -3825,7 +3825,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 PRUint32
@@ -5599,7 +5599,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 PRUint32
@@ -7171,7 +7171,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 PRUint32
@@ -8452,7 +8452,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 PRUint32
@@ -9834,7 +9834,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 val
 out
 PRBool
@@ -11487,7 +11487,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 val
 out
 PRBool
@@ -15089,7 +15089,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 val
 out
 PRBool
@@ -15605,7 +15605,6 @@ CreateExplicitWrapper
 (
 cx
 wn
-JS_TRUE
 rval
 )
 ;
@@ -18266,13 +18265,11 @@ JSObject
 *
 sandbox
 =
-JS_NewObjectWithGivenProto
+JS_NewGlobalObject
 (
 cx
 &
 SandboxClass
-nsnull
-nsnull
 )
 ;
 if
@@ -22933,7 +22930,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 PRUint32
@@ -23111,7 +23108,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 JSValPtr
@@ -23297,7 +23294,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 JSValPtr

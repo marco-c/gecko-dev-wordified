@@ -5285,7 +5285,7 @@ JSString
 Lookup
 ;
 static
-uint32
+HashNumber
 hash
 (
 JSString
@@ -5397,7 +5397,7 @@ ptr
 )
 ;
 return
-uint32
+HashNumber
 (
 key
 )

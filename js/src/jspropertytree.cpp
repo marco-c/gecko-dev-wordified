@@ -516,6 +516,13 @@ h
 #
 include
 "
+jsnum
+.
+h
+"
+#
+include
+"
 jsscopeinlines
 .
 h

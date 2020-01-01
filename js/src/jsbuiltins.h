@@ -5025,6 +5025,10 @@ js_AddProperty
 )
 JS_DECLARE_CALLINFO
 (
+js_AddAtomProperty
+)
+JS_DECLARE_CALLINFO
+(
 js_HasNamedProperty
 )
 JS_DECLARE_CALLINFO
