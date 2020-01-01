@@ -1331,6 +1331,8 @@ GetDOMWindow
 nsresult
 PrivateModeStateChanged
 (
+bool
+aEnabled
 )
 ;
 nsresult

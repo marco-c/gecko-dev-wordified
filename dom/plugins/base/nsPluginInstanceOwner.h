@@ -573,6 +573,13 @@ h
 #
 include
 "
+nsIPrivacyTransitionObserver
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h
@@ -595,6 +602,13 @@ h
 include
 "
 nsPluginNativeWindow
+.
+h
+"
+#
+include
+"
+nsWeakReference
 .
 h
 "
@@ -741,6 +755,10 @@ public
 nsIDOMEventListener
 public
 nsIScrollPositionListener
+public
+nsIPrivacyTransitionObserver
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -756,6 +774,7 @@ nsPluginInstanceOwner
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPLUGININSTANCEOWNER
+NS_DECL_NSIPRIVACYTRANSITIONOBSERVER
 NS_IMETHOD
 GetURL
 (
