@@ -1607,11 +1607,6 @@ const
 char
 *
 tail
-PRInt32
-tailLen
-=
--
-1
 )
 ;
 /
