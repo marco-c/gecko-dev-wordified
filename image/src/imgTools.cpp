@@ -1376,14 +1376,6 @@ gfxASurface
 ImageFormatARGB32
 )
 ;
-if
-(
-!
-dest
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 gfxContext
 ctx
 (

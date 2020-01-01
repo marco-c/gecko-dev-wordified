@@ -3184,14 +3184,6 @@ imgFrame
 )
 )
 ;
-if
-(
-!
-subImage
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 /
 /
 The
