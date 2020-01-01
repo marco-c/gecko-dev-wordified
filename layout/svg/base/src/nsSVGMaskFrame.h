@@ -608,13 +608,10 @@ GetCanvasTM
 ;
 }
 ;
-nsresult
-NS_GetSVGMaskFrame
-(
 nsSVGMaskFrame
 *
-*
-aResult
+NS_GetSVGMaskFrame
+(
 nsIURI
 *
 aURI

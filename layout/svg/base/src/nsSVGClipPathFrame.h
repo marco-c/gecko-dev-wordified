@@ -659,13 +659,10 @@ mInUse
 ;
 }
 ;
-nsresult
-NS_GetSVGClipPathFrame
-(
 nsSVGClipPathFrame
 *
-*
-aResult
+NS_GetSVGClipPathFrame
+(
 nsIURI
 *
 aURI

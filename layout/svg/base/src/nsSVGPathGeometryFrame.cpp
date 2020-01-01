@@ -867,9 +867,11 @@ aMarkerFrame
 )
 return
 ;
+*
+aMarkerFrame
+=
 NS_GetSVGMarkerFrame
 (
-aMarkerFrame
 aURI
 mFrame
 -

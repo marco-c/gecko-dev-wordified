@@ -555,13 +555,10 @@ aTarget
 ;
 }
 ;
-nsresult
-NS_GetSVGFilterFrame
-(
 nsSVGFilterFrame
 *
-*
-aResult
+NS_GetSVGFilterFrame
+(
 nsIURI
 *
 aURI
