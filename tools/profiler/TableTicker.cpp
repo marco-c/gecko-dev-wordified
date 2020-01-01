@@ -2993,7 +2993,7 @@ file
 path
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 nsCString
 tmpPath
 ;
