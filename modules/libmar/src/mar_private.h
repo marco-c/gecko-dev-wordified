@@ -437,13 +437,6 @@ PIB_MAX_MAR_CHANNEL_ID_SIZE
 define
 PIB_MAX_PRODUCT_VERSION_SIZE
 31
-#
-include
-<
-stdio
-.
-h
->
 /
 *
 The
@@ -527,6 +520,13 @@ h
 >
 #
 endif
+#
+include
+<
+stdio
+.
+h
+>
 #
 define
 HOST_TO_NETWORK64
