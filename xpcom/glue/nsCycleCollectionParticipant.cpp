@@ -502,7 +502,7 @@ nsresult
 nsXPCOMCycleCollectionParticipant
 :
 :
-Root
+RootAndUnlinkJSObjects
 (
 void
 *
