@@ -5583,6 +5583,8 @@ hasInstance
 XPC_WN_Shared_Trace
 /
 /
+mark
+/
 trace
 /
 /
@@ -5654,6 +5656,10 @@ NewEnumerateOp
 XPC_WN_JSOp_Enumerate
 )
 XPC_WN_JSOp_TypeOf_Object
+nsnull
+/
+/
+trace
 nsnull
 /
 /
@@ -10872,6 +10878,8 @@ hasInstance
 ;
 XPC_WN_Shared_Proto_Trace
 /
+/
+mark
 /
 trace
 ;

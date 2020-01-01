@@ -20689,7 +20689,7 @@ hasInstance
 NULL
 /
 *
-trace
+mark
 *
 /
 JS_NULL_CLASS_EXT
@@ -20708,6 +20708,12 @@ with_SetAttributes
 with_DeleteProperty
 with_Enumerate
 with_TypeOf
+NULL
+/
+*
+trace
+*
+/
 NULL
 /
 *

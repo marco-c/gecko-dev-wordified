@@ -6509,10 +6509,10 @@ NULL
 hasInstance
 *
 /
-array_trace
+NULL
 /
 *
-trace
+mark
 *
 /
 JS_NULL_CLASS_EXT
@@ -6531,6 +6531,7 @@ enumerate
 *
 /
 array_typeOf
+array_trace
 array_fix
 NULL
 /
