@@ -3085,6 +3085,7 @@ nsnull
 .
 *
 /
+static
 void
 DidReflowChildren
 (
