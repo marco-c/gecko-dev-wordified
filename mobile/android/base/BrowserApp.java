@@ -7256,7 +7256,7 @@ sTabsInterpolator
 ;
 mMainLayoutAnimator
 .
-setPropertyAnimationListener
+addPropertyAnimationListener
 (
 this
 )
