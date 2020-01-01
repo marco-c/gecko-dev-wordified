@@ -127,58 +127,10 @@ accumulator
 "
 "
     
-pb
-=
-None
-    
-if
-not
-options
-.
-hide_progress
-:
-        
-try
-:
-            
-from
-lib
-.
-progressbar
-import
-ProgressBar
-            
-pb
-=
-ProgressBar
-(
-'
-'
-len
-(
-tests
-)
-16
-)
-        
-except
-ImportError
-:
-            
-pass
-    
-results
-.
-pb
-=
-pb
-    
 try
 :
         
-results
-.
-finished
+completed
 =
 run_all_tests
 (
@@ -191,33 +143,15 @@ except
 KeyboardInterrupt
 :
         
-results
-.
-finished
+completed
 =
 False
     
-if
-pb
-:
-        
-pb
+results
 .
 finish
 (
-)
-    
-if
-not
-options
-.
-tinderbox
-:
-        
-results
-.
-list
-(
+completed
 )
 def
 parse_args
@@ -1200,6 +1134,8 @@ command
 line
 .
     
+options
+.
 js_shell
 =
 None
@@ -1219,6 +1155,8 @@ args
 0
 :
         
+options
+.
 js_shell
 =
 os
@@ -1263,6 +1201,8 @@ mode
 .
     
 if
+options
+.
 js_shell
 is
 None
@@ -1409,6 +1349,8 @@ TestCase
 .
 set_js_cmd_prefix
 (
+options
+.
 js_shell
 options
 .
@@ -1597,7 +1539,9 @@ and
 relevant
 .
     
-output_file
+options
+.
+output_fp
 =
 sys
 .
@@ -1619,7 +1563,12 @@ show_output
 )
 :
         
-output_file
+try
+:
+            
+options
+.
+output_fp
 =
 open
 (
@@ -1630,12 +1579,29 @@ output_file
 w
 '
 )
-    
-ResultsSink
-.
-output_file
-=
-output_file
+        
+except
+IOError
+ex
+:
+            
+raise
+SystemExit
+(
+"
+Failed
+to
+open
+output
+file
+:
+"
++
+str
+(
+ex
+)
+)
     
 #
 Hide
@@ -1654,7 +1620,10 @@ other
 output
 .
     
-if
+options
+.
+hide_progress
+=
 (
 (
 options
@@ -1666,8 +1635,10 @@ options
 show_output
 )
 and
-        
-output_file
+                             
+options
+.
+output_fp
 =
 =
 sys
@@ -1678,18 +1649,10 @@ options
 .
 tinderbox
 )
-:
-        
-options
-.
-hide_progress
-=
-True
     
 return
 (
 options
-js_shell
 requested_paths
 excluded_paths
 )
@@ -1697,7 +1660,6 @@ def
 load_tests
 (
 options
-js_shell
 requested_paths
 excluded_paths
 )
@@ -1758,6 +1720,8 @@ as
 manifest
     
 if
+options
+.
 js_shell
 is
 None
@@ -1790,6 +1754,8 @@ XULInfo
 .
 create
 (
+options
+.
 js_shell
 )
         
@@ -1842,6 +1808,8 @@ manifest
 XULInfoTester
 (
 xul_info
+options
+.
 js_shell
 )
     
@@ -2191,7 +2159,6 @@ main
 :
     
 options
-js_shell
 requested_paths
 excluded_paths
 =
@@ -2205,7 +2172,6 @@ test_list
 load_tests
 (
 options
-js_shell
 requested_paths
 excluded_paths
 )
@@ -2389,10 +2355,16 @@ results
 =
 ResultsSink
 (
-ResultsSink
-.
-output_file
 options
+len
+(
+skip_list
+)
++
+len
+(
+test_list
+)
 )
         
 for
@@ -2426,25 +2398,6 @@ os
 chdir
 (
 curdir
-)
-    
-if
-ResultsSink
-.
-output_file
-!
-=
-sys
-.
-stdout
-:
-        
-ResultsSink
-.
-output_file
-.
-close
-(
 )
     
 if

@@ -4,6 +4,10 @@ from
 subprocess
 import
 list2cmdline
+from
+progressbar
+import
+ProgressBar
 class
 TestOutput
 :
@@ -586,22 +590,24 @@ def
 __init__
 (
 self
-output_file
 options
+testcount
 )
 :
         
 self
 .
-output_file
+options
 =
-output_file
+options
         
 self
 .
-options
+fp
 =
 options
+.
+output_fp
         
 self
 .
@@ -628,15 +634,28 @@ n
         
 self
 .
-finished
+pb
 =
-False
+None
         
+if
+not
+options
+.
+hide_progress
+:
+            
 self
 .
 pb
 =
-None
+ProgressBar
+(
+'
+'
+testcount
+16
+)
     
 def
 push
@@ -721,7 +740,7 @@ print
 >
 self
 .
-output_file
+fp
 list2cmdline
 (
 output
@@ -742,7 +761,7 @@ print
 >
 self
 .
-output_file
+fp
 '
 rc
 =
@@ -766,7 +785,7 @@ dt
                 
 self
 .
-output_file
+fp
 .
 write
 (
@@ -777,7 +796,7 @@ out
                 
 self
 .
-output_file
+fp
 .
 write
 (
@@ -1111,6 +1130,45 @@ self
 n
 )
     
+def
+finish
+(
+self
+completed
+)
+:
+        
+if
+self
+.
+pb
+:
+            
+self
+.
+pb
+.
+finish
+(
+completed
+)
+        
+if
+not
+self
+.
+options
+.
+tinderbox
+:
+            
+self
+.
+list
+(
+completed
+)
+    
 #
 Conceptually
 this
@@ -1413,6 +1471,7 @@ def
 list
 (
 self
+completed
 )
 :
         
@@ -1558,9 +1617,7 @@ suffix
 '
 '
 if
-self
-.
-finished
+completed
 else
 '
 (
