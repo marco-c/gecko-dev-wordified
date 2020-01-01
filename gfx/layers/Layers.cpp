@@ -3003,6 +3003,7 @@ ContainerLayer
 GetAsyncPanZoomController
 (
 )
+const
 {
 #
 ifdef
@@ -4255,6 +4256,7 @@ Layer
 GetTransform
 (
 )
+const
 {
 gfx3DMatrix
 transform
@@ -4263,6 +4265,7 @@ mTransform
 ;
 if
 (
+const
 ContainerLayer
 *
 c
