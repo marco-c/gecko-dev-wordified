@@ -2115,9 +2115,6 @@ ImageContainer
 >
 GetContainer
 (
-LayerManager
-*
-aManager
 )
 ;
 /

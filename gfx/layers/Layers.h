@@ -512,6 +512,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -2824,9 +2831,13 @@ Can
 be
 called
 anytime
+from
+any
+thread
+.
 *
 /
-virtual
+static
 already_AddRefed
 <
 ImageContainer
@@ -2834,8 +2845,6 @@ ImageContainer
 CreateImageContainer
 (
 )
-=
-0
 ;
 /
 *
