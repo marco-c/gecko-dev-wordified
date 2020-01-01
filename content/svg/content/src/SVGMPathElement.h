@@ -102,13 +102,6 @@ mozilla_dom_SVGMPathElement_h
 #
 include
 "
-nsIDOMSVGMpathElement
-.
-h
-"
-#
-include
-"
 nsIDOMSVGURIReference
 .
 h
@@ -175,7 +168,7 @@ MOZ_FINAL
 public
 SVGMPathElementBase
 public
-nsIDOMSVGMpathElement
+nsIDOMSVGElement
 public
 nsIDOMSVGURIReference
 public
@@ -240,7 +233,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGMPATHELEMENT
 NS_DECL_NSIDOMSVGURIREFERENCE
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -384,13 +376,6 @@ nullptr
 SVGPathElement
 *
 GetReferencedPath
-(
-)
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
 (
 )
 ;
