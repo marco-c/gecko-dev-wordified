@@ -10366,6 +10366,14 @@ rv
 &
 &
 calledFromOpenCacheEntry
+&
+&
+request
+-
+>
+IsBlocking
+(
+)
 )
 return
 rv
