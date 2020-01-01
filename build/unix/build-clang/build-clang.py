@@ -600,6 +600,14 @@ optimized
 "
 -
 -
+disable
+-
+assertions
+"
+                      
+"
+-
+-
 prefix
 =
 %
