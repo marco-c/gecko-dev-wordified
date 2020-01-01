@@ -316,6 +316,16 @@ A
 new
 OggzTable
 *
+\
+retval
+NULL
+Could
+not
+allocate
+memory
+for
+table
+*
 /
 OggzTable
 *
