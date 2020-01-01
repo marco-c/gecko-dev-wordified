@@ -735,6 +735,11 @@ Cancel
 "
 )
 ;
+if
+(
+mDocument
+)
+{
 mDocument
 -
 >
@@ -747,6 +752,7 @@ mDocument
 =
 nullptr
 ;
+}
 }
 private
 :
@@ -1082,6 +1088,11 @@ Cancel
 "
 )
 ;
+if
+(
+mDocument
+)
+{
 mDocument
 -
 >
@@ -1131,6 +1142,7 @@ mDocument
 =
 nullptr
 ;
+}
 }
 private
 :
