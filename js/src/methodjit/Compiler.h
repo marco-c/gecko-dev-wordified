@@ -1106,6 +1106,9 @@ holeGuard
 Int32Key
 key
 ;
+uint32
+volatileMask
+;
 }
 ;
 struct
@@ -2847,6 +2850,8 @@ jsop_initelem
 bool
 jsop_setelem
 (
+bool
+popGuaranteed
 )
 ;
 bool
