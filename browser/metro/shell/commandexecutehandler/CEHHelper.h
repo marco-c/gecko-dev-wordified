@@ -174,7 +174,6 @@ defined
 (
 SHOW_CONSOLE
 )
-static
 void
 SetupConsole
 (
