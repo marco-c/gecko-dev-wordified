@@ -7296,17 +7296,3 @@ return
 PR_FALSE
 ;
 }
-nsTransparencyMode
-nsNativeThemeGTK
-:
-:
-GetWidgetTransparency
-(
-PRUint8
-aWidgetType
-)
-{
-return
-eTransparencyOpaque
-;
-}

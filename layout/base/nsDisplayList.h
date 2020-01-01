@@ -8835,6 +8835,8 @@ mFrame
 >
 IsThemed
 (
+&
+mThemeTransparency
 )
 ;
 MOZ_COUNT_CTOR
@@ -8974,6 +8976,12 @@ call
 /
 PRPackedBool
 mIsThemed
+;
+nsITheme
+:
+:
+Transparency
+mThemeTransparency
 ;
 }
 ;
