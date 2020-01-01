@@ -258,44 +258,6 @@ argv
 ]
 )
 #
-Ignore
-detritus
-left
-lying
-around
-by
-editing
-tools
-.
-ignored_patterns
-=
-[
-'
-*
-~
-'
-'
-.
-#
-*
-'
-'
-#
-*
-#
-'
-'
-*
-.
-orig
-'
-'
-*
-.
-rej
-'
-]
-#
 Return
 the
 contents
@@ -544,7 +506,6 @@ check
 (
 copy
 original
-ignore
 )
 :
     
@@ -596,9 +557,9 @@ dirnames
 :
             
 if
+fnmatch_any
 (
 dirname
-in
 exceptions
 )
 :
@@ -619,16 +580,10 @@ filenames
 :
             
 if
-(
-filename
-in
-exceptions
-)
-or
 fnmatch_any
 (
 filename
-ignore
+exceptions
 )
 :
                 
@@ -850,7 +805,6 @@ check
 (
 copy
 original
-ignored_patterns
 )
 if
 differences_found
