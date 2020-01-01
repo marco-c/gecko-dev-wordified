@@ -128,13 +128,11 @@ h
 "
 #
 include
-"
-mozilla
-/
-Types
+<
+stddef
 .
 h
-"
+>
 #
 include
 <
