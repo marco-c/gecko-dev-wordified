@@ -129,6 +129,13 @@ String
 sProcessName
 )
 {
+super
+(
+"
+FindProcThread
+"
+)
+;
 this
 .
 contextWrapper
