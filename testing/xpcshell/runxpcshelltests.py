@@ -4617,9 +4617,7 @@ True
 )
           
 if
-self
-.
-logfiles
+True
 and
 stdout
 :
