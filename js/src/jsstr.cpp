@@ -7541,8 +7541,8 @@ false
 /
 Step
 6
-text
-+
+uint32_t
+delta
 =
 uint32_t
 (
@@ -7561,6 +7561,16 @@ posDouble
 )
 )
 )
+;
+text
++
+=
+delta
+;
+textlen
+-
+=
+delta
 ;
 }
 /
