@@ -29492,7 +29492,6 @@ ContentAppended
 (
 aContainer
 aFirstNewContent
-aNewIndexInContainer
 PR_TRUE
 )
 ;
