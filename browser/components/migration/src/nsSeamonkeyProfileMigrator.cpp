@@ -2321,8 +2321,10 @@ Set
 setmethod
 )
 PR_FALSE
+{
 -
 1
+}
 }
 #
 define
@@ -2350,8 +2352,10 @@ Set
 method
 )
 PR_FALSE
+{
 -
 1
+}
 }
 static
 nsSeamonkeyProfileMigrator
@@ -4721,9 +4725,6 @@ InitWithFile
 signonsFile
 nsnull
 )
-;
-nsresult
-rv
 ;
 PRUint32
 count
