@@ -5967,6 +5967,16 @@ aResult
 converted
 ;
 }
+else
+{
+*
+aResult
+=
+void_t
+(
+)
+;
+}
 return
 true
 ;
