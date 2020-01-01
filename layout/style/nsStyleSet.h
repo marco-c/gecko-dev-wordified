@@ -212,13 +212,6 @@ h
 #
 include
 "
-nsCSSAnonBoxes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

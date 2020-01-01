@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
@@ -178,13 +185,6 @@ h
 include
 "
 nsStyleContext
-.
-h
-"
-#
-include
-"
-prlog
 .
 h
 "

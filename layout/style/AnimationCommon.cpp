@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsAnimationManager
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

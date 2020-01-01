@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsISupports
+nsISupportsImpl
 .
 h
 "

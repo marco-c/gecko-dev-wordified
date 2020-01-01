@@ -160,13 +160,7 @@ nsCSSValue
 h
 "
 class
-nsPresContext
-;
-class
 nsStyleContext
-;
-struct
-nsCSSRect
 ;
 class
 gfx3DMatrix

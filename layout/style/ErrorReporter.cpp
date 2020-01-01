@@ -189,14 +189,14 @@ h
 #
 include
 "
-nsIServiceManager
+nsIStringBundle
 .
 h
 "
 #
 include
 "
-nsIStringBundle
+nsServiceManagerUtils
 .
 h
 "

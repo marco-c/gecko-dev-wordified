@@ -617,9 +617,6 @@ Sheet
 class
 CSSRuleListImpl
 ;
-struct
-ChildSheetListBuilder
-;
 /
 /
 CID

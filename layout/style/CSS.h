@@ -123,15 +123,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -139,6 +130,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

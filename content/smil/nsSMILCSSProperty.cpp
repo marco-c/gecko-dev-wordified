@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsCSSProps
+.
+h
+"
+#
+include
+"
 nsStyleAnimation
 .
 h

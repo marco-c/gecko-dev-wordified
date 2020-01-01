@@ -86,13 +86,6 @@ tree
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
@@ -101,13 +94,6 @@ h
 include
 "
 nsHashKeys
-.
-h
-"
-#
-include
-"
-nsInterfaceHashtable
 .
 h
 "

@@ -128,6 +128,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h

@@ -93,7 +93,7 @@ nsMediaFeatures_h_
 #
 include
 "
-nscore
+nsError
 .
 h
 "

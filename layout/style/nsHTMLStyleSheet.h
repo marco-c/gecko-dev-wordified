@@ -118,15 +118,6 @@ nsHTMLStyleSheet_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIStyleSheet
 .
 h
