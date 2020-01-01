@@ -5634,7 +5634,7 @@ friend
 class
 ValueOperations
 <
-Handle
+MutableHandle
 <
 Value
 >
@@ -5672,7 +5672,7 @@ friend
 class
 MutableValueOperations
 <
-Handle
+MutableHandle
 <
 Value
 >
