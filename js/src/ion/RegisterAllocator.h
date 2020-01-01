@@ -1945,6 +1945,7 @@ outputOf
 uint32_t
 pos
 )
+const
 {
 return
 CodePosition
@@ -1960,10 +1961,12 @@ OUTPUT
 CodePosition
 outputOf
 (
+const
 LInstruction
 *
 ins
 )
+const
 {
 return
 CodePosition
@@ -1987,6 +1990,7 @@ inputOf
 uint32_t
 pos
 )
+const
 {
 return
 CodePosition
@@ -2002,10 +2006,12 @@ INPUT
 CodePosition
 inputOf
 (
+const
 LInstruction
 *
 ins
 )
+const
 {
 return
 CodePosition
@@ -2083,6 +2089,7 @@ findFirstNonCallSafepoint
 CodePosition
 from
 )
+const
 {
 size_t
 i
@@ -2105,6 +2112,7 @@ i
 +
 )
 {
+const
 LInstruction
 *
 ins

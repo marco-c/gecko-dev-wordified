@@ -8225,6 +8225,7 @@ JS_USE_JSID_STRUCT_TYPES
 extern
 JS_PUBLIC_DATA
 (
+const
 jsid
 )
 JSID_VOID
@@ -8232,6 +8233,7 @@ JSID_VOID
 extern
 JS_PUBLIC_DATA
 (
+const
 jsid
 )
 JSID_EMPTY
@@ -19761,6 +19763,7 @@ cx
 JSObject
 *
 obj
+const
 JSConstDoubleSpec
 *
 cds

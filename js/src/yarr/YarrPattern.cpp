@@ -681,6 +681,7 @@ matches
 if
 necessary
 .
+const
 UCS2CanonicalizationRange
 *
 info
@@ -719,6 +720,7 @@ putUnicodeIgnoreCase
 (
 UChar
 ch
+const
 UCS2CanonicalizationRange
 *
 info
@@ -780,6 +782,7 @@ CanonicalizeSet
 {
 for
 (
+const
 uint16_t
 *
 set
@@ -1050,6 +1053,7 @@ m_isCaseInsensitive
 )
 return
 ;
+const
 UCS2CanonicalizationRange
 *
 info
@@ -1125,6 +1129,7 @@ ch
 ;
 for
 (
+const
 uint16_t
 *
 set
@@ -2304,6 +2309,7 @@ ch
 return
 ;
 }
+const
 UCS2CanonicalizationRange
 *
 info

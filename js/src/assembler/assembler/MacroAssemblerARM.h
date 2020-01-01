@@ -6829,6 +6829,7 @@ S0
 void
 load32
 (
+const
 void
 *
 address

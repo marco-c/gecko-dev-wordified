@@ -220,6 +220,7 @@ static
 const
 char
 *
+const
 ChannelNames
 [
 ]

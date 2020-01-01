@@ -5816,6 +5816,7 @@ name
 *
 /
 static
+const
 struct
 exnname
 {

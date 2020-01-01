@@ -918,6 +918,7 @@ static
 const
 char
 *
+const
 fmt
 [
 4

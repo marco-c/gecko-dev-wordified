@@ -499,13 +499,16 @@ size_t
 UCS2_CANONICALIZATION_RANGES
 ;
 extern
+const
 uint16_t
 *
+const
 characterSetInfo
 [
 ]
 ;
 extern
+const
 UCS2CanonicalizationRange
 rangeInfo
 [
@@ -622,6 +625,7 @@ size_t
 LATIN_CANONICALIZATION_RANGES
 ;
 extern
+const
 LatinCanonicalizationRange
 latinRangeInfo
 [
@@ -647,6 +651,7 @@ in
 compares
 .
 inline
+const
 UCS2CanonicalizationRange
 *
 rangeInfoFor
@@ -655,6 +660,7 @@ UChar
 ch
 )
 {
+const
 UCS2CanonicalizationRange
 *
 info
@@ -679,6 +685,7 @@ entries
 >
 1
 ;
+const
 UCS2CanonicalizationRange
 *
 candidateInfo
@@ -753,6 +760,7 @@ inline
 UChar
 getCanonicalPair
 (
+const
 UCS2CanonicalizationRange
 *
 info
@@ -907,6 +915,7 @@ UChar
 b
 )
 {
+const
 UCS2CanonicalizationRange
 *
 info
@@ -939,6 +948,7 @@ CanonicalizeSet
 {
 for
 (
+const
 uint16_t
 *
 set

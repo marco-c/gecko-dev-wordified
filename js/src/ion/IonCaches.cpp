@@ -516,6 +516,7 @@ static
 const
 char
 *
+const
 names
 [
 ]

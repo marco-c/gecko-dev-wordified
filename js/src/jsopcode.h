@@ -2000,6 +2000,7 @@ js_CodeSpec
 ]
 ;
 extern
+const
 unsigned
 js_NumCodeSpecs
 ;
@@ -2007,6 +2008,7 @@ extern
 const
 char
 *
+const
 js_CodeName
 [
 ]
@@ -4253,6 +4255,7 @@ double
 rawCounts
 (
 )
+const
 {
 return
 counts

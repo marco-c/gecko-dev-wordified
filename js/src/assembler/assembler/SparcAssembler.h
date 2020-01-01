@@ -7442,6 +7442,7 @@ static
 char
 const
 *
+const
 names
 [
 ]
@@ -7614,6 +7615,7 @@ static
 char
 const
 *
+const
 names
 [
 ]
@@ -7791,6 +7793,7 @@ static
 char
 const
 *
+const
 inames
 [
 ]
@@ -7886,6 +7889,7 @@ static
 char
 const
 *
+const
 fnames
 [
 ]

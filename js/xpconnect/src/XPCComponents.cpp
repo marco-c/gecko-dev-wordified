@@ -643,6 +643,7 @@ wideName
 const
 char
 *
+const
 list
 [
 ]
@@ -665,6 +666,7 @@ for
 const
 char
 *
+const
 *
 p
 =
@@ -7961,6 +7963,7 @@ bool
 _retval
 )
 {
+const
 void
 *
 *
@@ -8044,6 +8047,7 @@ name
 iter
 =
 (
+const
 void
 *
 *
@@ -8115,6 +8119,7 @@ default
 iter
 =
 (
+const
 void
 *
 *
@@ -8241,6 +8246,7 @@ char
 *
 rv_name
 ;
+const
 void
 *
 iter
@@ -26477,6 +26483,7 @@ static
 const
 char
 *
+const
 allowed
 [
 ]
@@ -29590,6 +29597,7 @@ static
 const
 char
 *
+const
 allowed
 [
 ]
@@ -29695,6 +29703,7 @@ static
 const
 char
 *
+const
 allowed
 [
 ]

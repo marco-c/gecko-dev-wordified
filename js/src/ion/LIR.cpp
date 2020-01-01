@@ -1021,6 +1021,7 @@ static
 const
 char
 *
+const
 names
 [
 ]
@@ -1117,6 +1118,7 @@ static
 const
 char
 *
+const
 TypeChars
 [
 ]

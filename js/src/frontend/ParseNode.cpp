@@ -2599,6 +2599,7 @@ static
 const
 char
 *
+const
 table
 [
 ]
@@ -3976,6 +3977,7 @@ static
 const
 char
 *
+const
 parseNodeNames
 [
 ]

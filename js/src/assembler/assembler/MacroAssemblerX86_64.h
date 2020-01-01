@@ -585,6 +585,7 @@ scratchRegister
 void
 load32
 (
+const
 void
 *
 address
@@ -680,6 +681,7 @@ Imm32
 *
 static_cast
 <
+const
 int32_t
 *
 >
@@ -1605,6 +1607,7 @@ dest
 void
 loadPtr
 (
+const
 void
 *
 address

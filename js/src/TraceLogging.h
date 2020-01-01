@@ -279,10 +279,11 @@ FILE
 *
 out
 ;
-const
 static
+const
 char
 *
+const
 type_name
 [
 ]

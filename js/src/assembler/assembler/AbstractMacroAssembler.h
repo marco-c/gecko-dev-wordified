@@ -854,6 +854,7 @@ AbsoluteAddress
 explicit
 AbsoluteAddress
 (
+const
 void
 *
 ptr
@@ -865,6 +866,7 @@ ptr
 )
 {
 }
+const
 void
 *
 m_ptr
@@ -1958,6 +1960,7 @@ AssemblerType
 *
 masm
 )
+const
 {
 masm
 -
@@ -1990,6 +1993,7 @@ AssemblerType
 *
 masm
 )
+const
 {
 masm
 -

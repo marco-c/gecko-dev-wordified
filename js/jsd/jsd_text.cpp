@@ -1010,6 +1010,7 @@ tmp
 }
 }
 static
+const
 char
 file_url_prefix
 [

@@ -256,6 +256,7 @@ DebugOnly
 char
 const
 *
+const
 js
 :
 :
@@ -380,6 +381,7 @@ AOP_BITAND
 char
 const
 *
+const
 js
 :
 :
@@ -573,6 +575,7 @@ BINOP_INSTANCEOF
 char
 const
 *
+const
 js
 :
 :
@@ -642,6 +645,7 @@ UNOP_VOID
 char
 const
 *
+const
 js
 :
 :
@@ -676,6 +680,7 @@ static
 char
 const
 *
+const
 callbackNames
 [
 ]

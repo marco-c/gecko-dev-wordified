@@ -334,6 +334,7 @@ extern
 char
 const
 *
+const
 aopNames
 [
 ]
@@ -342,6 +343,7 @@ extern
 char
 const
 *
+const
 binopNames
 [
 ]
@@ -350,6 +352,7 @@ extern
 char
 const
 *
+const
 unopNames
 [
 ]
@@ -358,6 +361,7 @@ extern
 char
 const
 *
+const
 nodeTypeNames
 [
 ]

@@ -3254,6 +3254,7 @@ static
 const
 char
 *
+const
 allowed
 [
 ]
@@ -3320,6 +3321,7 @@ static
 const
 char
 *
+const
 allowed
 [
 ]

@@ -789,6 +789,7 @@ GCC
 .
 *
 /
+const
 AllocKind
 gc
 :
@@ -1347,6 +1348,7 @@ static
 const
 AllocKind
 *
+const
 FinalizePhases
 [
 ]
@@ -1494,6 +1496,7 @@ static
 const
 AllocKind
 *
+const
 BackgroundPhases
 [
 ]

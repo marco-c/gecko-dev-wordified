@@ -21790,6 +21790,7 @@ static
 const
 char
 *
+const
 skipClasses
 [
 ]

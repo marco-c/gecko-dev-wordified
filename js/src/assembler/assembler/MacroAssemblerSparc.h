@@ -6700,6 +6700,7 @@ m_ptr
 void
 load32
 (
+const
 void
 *
 address

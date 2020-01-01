@@ -2049,6 +2049,7 @@ uint32_t
 id
 (
 )
+const
 {
 return
 id_
@@ -3652,12 +3653,14 @@ interval
 size_t
 findFirstSafepoint
 (
+const
 LiveInterval
 *
 interval
 size_t
 startFrom
 )
+const
 {
 size_t
 i

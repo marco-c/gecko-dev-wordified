@@ -420,6 +420,7 @@ endif
 const
 char
 *
+const
 TraceLogging
 :
 :

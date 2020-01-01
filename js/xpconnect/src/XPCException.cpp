@@ -260,6 +260,7 @@ runtime
 *
 /
 static
+const
 struct
 ResultMap
 {
@@ -369,6 +370,7 @@ format
 {
 for
 (
+const
 ResultMap
 *
 p
@@ -432,6 +434,7 @@ false
 /
 /
 static
+const
 void
 *
 nsXPCException
@@ -452,17 +455,20 @@ char
 *
 *
 format
+const
 void
 *
 *
 iterp
 )
 {
+const
 ResultMap
 *
 p
 =
 (
+const
 ResultMap
 *
 )

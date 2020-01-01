@@ -315,6 +315,7 @@ static
 const
 char
 *
+const
 CALL_CODES
 [
 ]

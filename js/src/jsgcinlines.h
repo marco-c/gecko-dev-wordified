@@ -319,6 +319,7 @@ SLOTS_TO_THING_KIND_LIMIT
 17
 ;
 extern
+const
 AllocKind
 slotsToThingKind
 [
@@ -444,12 +445,6 @@ size_t
 numSlots
 )
 {
-extern
-AllocKind
-slotsToThingKind
-[
-]
-;
 /
 *
 *
@@ -548,12 +543,6 @@ size_t
 numFixedSlots
 )
 {
-extern
-AllocKind
-slotsToThingKind
-[
-]
-;
 JS_ASSERT
 (
 numFixedSlots

@@ -5140,6 +5140,7 @@ endif
 void
 load32
 (
+const
 void
 *
 address

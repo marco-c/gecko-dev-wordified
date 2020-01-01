@@ -1119,6 +1119,7 @@ extern
 const
 char
 *
+const
 TypeStrings
 [
 ]
