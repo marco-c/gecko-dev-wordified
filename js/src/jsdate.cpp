@@ -951,7 +951,7 @@ inline
 int
 DaysInFebruary
 (
-int
+double
 year
 )
 {
@@ -1236,6 +1236,17 @@ double
 t
 )
 {
+if
+(
+!
+MOZ_DOUBLE_IS_FINITE
+(
+t
+)
+)
+return
+js_NaN
+;
 double
 year
 =
