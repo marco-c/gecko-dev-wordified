@@ -1902,7 +1902,7 @@ JSID_VOID
 ;
 CHECKED
 (
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 call
@@ -1964,7 +1964,7 @@ JSID_VOID
 ;
 CHECKED
 (
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 construct
@@ -2024,7 +2024,7 @@ toObject
 ;
 CHECKED
 (
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 nativeCall
@@ -2080,7 +2080,7 @@ JSID_VOID
 ;
 GET
 (
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 hasInstance
@@ -2165,7 +2165,7 @@ JSString
 *
 str
 =
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 obj_toString
@@ -2283,7 +2283,7 @@ JSString
 *
 str
 =
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 fun_toString
@@ -4785,7 +4785,7 @@ cx
 wrapper
 GET
 NOTHING
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 iteratorNext

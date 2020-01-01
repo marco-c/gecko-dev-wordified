@@ -2181,24 +2181,8 @@ return
 true
 ;
 }
-IndirectProxyHandler
-:
-:
-IndirectProxyHandler
-(
-void
-*
-family
-)
-:
-BaseProxyHandler
-(
-family
-)
-{
-}
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 getPropertyDescriptor
@@ -2348,7 +2332,7 @@ true
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 getOwnPropertyDescriptor
@@ -2390,7 +2374,7 @@ desc
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 defineProperty
@@ -2485,7 +2469,7 @@ attrs
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 getOwnPropertyNames
@@ -2525,7 +2509,7 @@ props
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 delete_
@@ -2600,7 +2584,7 @@ true
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 enumerate
@@ -2638,7 +2622,7 @@ props
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 nativeCall
@@ -2710,7 +2694,7 @@ args
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 hasInstance
@@ -2767,7 +2751,7 @@ true
 ;
 }
 JSType
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 typeOf
@@ -2796,7 +2780,7 @@ proxy
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 objectClassIs
@@ -2826,7 +2810,7 @@ cx
 }
 JSString
 *
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 obj_toString
@@ -2852,7 +2836,7 @@ proxy
 }
 JSString
 *
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 fun_toString
@@ -2887,7 +2871,7 @@ indent
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 regexp_toShared
@@ -2917,7 +2901,7 @@ g
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 defaultValue
@@ -2971,7 +2955,7 @@ vp
 ;
 }
 bool
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 iteratorNext
@@ -3071,7 +3055,7 @@ true
 }
 JSObject
 *
-IndirectProxyHandler
+DirectProxyHandler
 :
 :
 weakmapKeyDelegate
@@ -3098,7 +3082,7 @@ void
 family
 )
 :
-IndirectProxyHandler
+BaseProxyHandler
 (
 family
 )
