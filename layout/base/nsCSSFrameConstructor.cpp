@@ -1276,9 +1276,6 @@ nsStyleContext
 aContext
 )
 ;
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 nsIFrame
 *
 NS_NewSVGForeignObjectFrame
@@ -1294,8 +1291,6 @@ nsStyleContext
 aContext
 )
 ;
-#
-endif
 nsIFrame
 *
 NS_NewSVGAFrame
@@ -43383,15 +43378,6 @@ GetContent
 parentNSID
 )
 ;
-parentIsSVG
-=
-parentNSID
-=
-=
-kNameSpaceID_SVG
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 /
 /
 It
@@ -43459,6 +43445,12 @@ non
 SVG
 parent
 .
+parentIsSVG
+=
+parentNSID
+=
+=
+kNameSpaceID_SVG
 &
 &
 parentTag
@@ -43468,8 +43460,6 @@ nsGkAtoms
 :
 :
 foreignObject
-#
-endif
 ;
 }
 if
@@ -44020,9 +44010,6 @@ aStyleContext
 )
 ;
 }
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 else
 if
 (
@@ -44045,8 +44032,6 @@ aStyleContext
 )
 ;
 }
-#
-endif
 else
 if
 (
@@ -44963,9 +44948,6 @@ rv
 nsFrameItems
 childItems
 ;
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 if
 (
 aTag
@@ -45133,11 +45115,6 @@ PR_TRUE
 ;
 }
 else
-#
-endif
-/
-/
-MOZ_SVG_FOREIGNOBJECT
 {
 /
 /
@@ -46209,9 +46186,6 @@ nsIFrame
 :
 eSVG
 )
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 &
 &
 !
@@ -46225,8 +46199,6 @@ nsIFrame
 :
 eSVGForeignObject
 )
-#
-endif
 )
 {
 return

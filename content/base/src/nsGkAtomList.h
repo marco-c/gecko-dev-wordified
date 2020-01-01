@@ -8074,9 +8074,6 @@ font
 variant
 "
 )
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 GK_ATOM
 (
 foreignObject
@@ -8084,8 +8081,6 @@ foreignObject
 foreignObject
 "
 )
-#
-endif
 GK_ATOM
 (
 fractalNoise
@@ -11353,9 +11348,6 @@ svgFilterFrame
 SVGFilterFrame
 "
 )
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 GK_ATOM
 (
 svgForeignObjectFrame
@@ -11363,8 +11355,6 @@ svgForeignObjectFrame
 SVGForeignObjectFrame
 "
 )
-#
-endif
 GK_ATOM
 (
 svgGenericContainerFrame

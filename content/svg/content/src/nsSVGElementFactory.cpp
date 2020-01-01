@@ -611,9 +611,6 @@ nsINodeInfo
 aNodeInfo
 )
 ;
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 nsresult
 NS_NewSVGForeignObjectElement
 (
@@ -626,8 +623,6 @@ nsINodeInfo
 aNodeInfo
 )
 ;
-#
-endif
 nsresult
 NS_NewSVGPathElement
 (

@@ -741,11 +741,6 @@ nsSVGUtils
 h
 "
 #
-endif
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
-#
 include
 "
 nsSVGForeignObjectFrame
@@ -3975,7 +3970,7 @@ f
 {
 #
 ifdef
-MOZ_SVG_FOREIGNOBJECT
+MOZ_SVG
 if
 (
 f
