@@ -893,6 +893,11 @@ block
 )
 ;
 void
+unmarkBlocks
+(
+)
+;
+void
 clearBlockList
 (
 )
