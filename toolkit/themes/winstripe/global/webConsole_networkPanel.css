@@ -448,6 +448,10 @@ x
 :
 auto
 ;
+display
+:
+block
+;
 }
 h1
 {
@@ -594,6 +598,10 @@ height
 overflow
 :
 auto
+;
+display
+:
+block
 ;
 }
 .
