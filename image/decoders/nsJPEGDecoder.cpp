@@ -3610,7 +3610,7 @@ imageRow
 +
 +
 =
-gfxPackedPixel
+GFX_PACKED_PIXEL
 (
 0xFF
 sampleRow
@@ -3706,7 +3706,7 @@ imageRow
 +
 +
 =
-gfxPackedPixel
+GFX_PACKED_PIXEL
 (
 0xFF
 sampleRow
