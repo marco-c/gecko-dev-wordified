@@ -495,6 +495,13 @@ h
 #
 include
 "
+jslibmath
+.
+h
+"
+#
+include
+"
 TypeOracle
 .
 h
