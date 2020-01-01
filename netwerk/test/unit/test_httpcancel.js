@@ -69,11 +69,6 @@ js
 "
 )
 ;
-const
-NS_BINDING_ABORTED
-=
-0x804b0002
-;
 var
 observer
 =
@@ -148,6 +143,10 @@ subject
 .
 cancel
 (
+Components
+.
+results
+.
 NS_BINDING_ABORTED
 )
 ;
@@ -225,6 +224,10 @@ do_check_eq
 request
 .
 status
+Components
+.
+results
+.
 NS_BINDING_ABORTED
 )
 ;
