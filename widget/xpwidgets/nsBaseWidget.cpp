@@ -8422,6 +8422,9 @@ GetPreferredCompositorBackend
 (
 )
 ;
+bool
+success
+;
 shadowManager
 =
 mCompositorChild
@@ -8433,11 +8436,13 @@ backendHint
 0
 &
 textureFactoryIdentifier
+&
+success
 )
 ;
 if
 (
-shadowManager
+success
 )
 {
 ShadowLayerForwarder

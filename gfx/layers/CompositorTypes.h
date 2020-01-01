@@ -833,6 +833,16 @@ TEXTURE_STREAM_GL
 WebGL
 streaming
 buffer
+TEXTURE_FALLBACK
+/
+/
+A
+fallback
+path
+appropriate
+for
+the
+platform
 }
 ;
 /

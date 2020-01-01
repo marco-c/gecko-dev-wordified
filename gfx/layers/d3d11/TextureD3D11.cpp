@@ -402,7 +402,7 @@ ClearDT
 )
 ;
 }
-void
+bool
 DeprecatedTextureClientD3D11
 :
 :
@@ -460,6 +460,7 @@ height
 )
 {
 return
+true
 ;
 }
 mTexture
@@ -556,6 +557,7 @@ client
 )
 ;
 return
+false
 ;
 }
 RefPtr
@@ -636,6 +638,9 @@ CONTENT_COLOR_ALPHA
 mContentType
 =
 aType
+;
+return
+true
 ;
 }
 gfxASurface

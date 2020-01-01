@@ -545,6 +545,11 @@ mCompositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 }
 LayerManagerComposite
 :
