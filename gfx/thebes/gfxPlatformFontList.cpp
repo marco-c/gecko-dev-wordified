@@ -4098,7 +4098,7 @@ cmaps
 familyEntry
 -
 >
-ReadCMAP
+ReadAllCMAPs
 (
 )
 ;
