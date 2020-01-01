@@ -4647,14 +4647,6 @@ iterator
 (
 )
 ;
-StringBuffer
-envstr
-=
-new
-StringBuffer
-(
-)
-;
 int
 c
 =
