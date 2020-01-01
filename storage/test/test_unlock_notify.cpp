@@ -652,9 +652,6 @@ mozIStorageConnection
 >
 mConnection
 ;
-State
-mState
-;
 }
 ;
 /
