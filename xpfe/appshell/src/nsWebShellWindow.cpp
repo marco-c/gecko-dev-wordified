@@ -966,12 +966,6 @@ dimensions
 nullptr
 /
 /
-Event
-handler
-function
-nullptr
-/
-/
 Device
 context
 &
