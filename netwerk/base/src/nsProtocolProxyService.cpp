@@ -1076,6 +1076,7 @@ IsEmpty
 (
 )
 )
+{
 mPPS
 -
 >
@@ -1095,14 +1096,6 @@ Now
 apply
 proxy
 filters
-if
-(
-NS_SUCCEEDED
-(
-mStatus
-)
-)
-{
 nsProtocolInfo
 info
 ;
