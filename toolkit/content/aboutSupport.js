@@ -680,6 +680,14 @@ places
 .
 "
 "
+plugin
+.
+"
+"
+plugins
+.
+"
+"
 print
 .
 "
