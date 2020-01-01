@@ -6479,11 +6479,6 @@ mUnderlineLinks
 1
 ;
 unsigned
-mSendAfterPaintToContent
-:
-1
-;
-unsigned
 mUseFocusColors
 :
 1
