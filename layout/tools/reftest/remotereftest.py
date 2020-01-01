@@ -4094,6 +4094,8 @@ recordLogcat
 (
 )
         
+retVal
+=
 reftest
 .
 runTests
