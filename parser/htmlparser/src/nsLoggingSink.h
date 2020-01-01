@@ -558,15 +558,6 @@ nsIParserNode
 aNode
 )
 ;
-NS_IMETHOD
-AddComment
-(
-const
-nsIParserNode
-&
-aNode
-)
-;
 virtual
 void
 FlushPendingNotifications
