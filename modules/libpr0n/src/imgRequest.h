@@ -598,6 +598,12 @@ PR_BIT
 (
 2
 )
+stateDecodeStopped
+=
+PR_BIT
+(
+3
+)
 stateRequestStopped
 =
 PR_BIT
