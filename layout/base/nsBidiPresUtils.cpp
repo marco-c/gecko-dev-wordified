@@ -1136,7 +1136,7 @@ inline
 ancestors
 .
 static
-nsresult
+void
 JoinInlineAncestors
 (
 nsIFrame
