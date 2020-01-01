@@ -4332,10 +4332,7 @@ captureGlobalTypes
 JSContext
 *
 cx
-Queue
-<
-uint16
->
+SlotList
 &
 slots
 )

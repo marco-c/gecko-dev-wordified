@@ -1107,6 +1107,13 @@ const
 ;
 }
 ;
+typedef
+Queue
+<
+uint16
+>
+SlotList
+;
 class
 TypeMap
 :
@@ -1124,10 +1131,7 @@ captureGlobalTypes
 JSContext
 *
 cx
-Queue
-<
-uint16
->
+SlotList
 &
 slots
 )
@@ -1179,10 +1183,7 @@ maxCallDepth
 uint32
 globalShape
 ;
-Queue
-<
-uint16
->
+SlotList
 globalSlots
 ;
 TypeMap
