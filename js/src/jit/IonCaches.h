@@ -4883,6 +4883,9 @@ value_
 bool
 strict_
 ;
+bool
+needsTypeBarrier_
+;
 public
 :
 SetPropertyIC
@@ -4898,6 +4901,8 @@ ConstantOrRegister
 value
 bool
 strict
+bool
+needsTypeBarrier
 )
 :
 liveRegs_
@@ -4919,6 +4924,10 @@ value
 strict_
 (
 strict
+)
+needsTypeBarrier_
+(
+needsTypeBarrier
 )
 {
 }
@@ -4965,6 +4974,16 @@ const
 {
 return
 strict_
+;
+}
+bool
+needsTypeBarrier
+(
+)
+const
+{
+return
+needsTypeBarrier_
 ;
 }
 bool

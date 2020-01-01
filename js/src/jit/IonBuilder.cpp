@@ -58164,13 +58164,6 @@ emitted
 false
 )
 ;
-if
-(
-barrier
-)
-return
-true
-;
 /
 /
 Emit
@@ -58194,6 +58187,7 @@ script
 -
 >
 strict
+barrier
 )
 ;
 RootedId

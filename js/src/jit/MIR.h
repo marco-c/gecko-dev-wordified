@@ -29999,6 +29999,9 @@ MSetPropertyInstruction
 public
 SingleObjectPolicy
 {
+bool
+needsTypeBarrier_
+;
 MSetPropertyCache
 (
 MDefinition
@@ -30011,6 +30014,8 @@ HandlePropertyName
 name
 bool
 strict
+bool
+typeBarrier
 )
 :
 MSetPropertyInstruction
@@ -30019,6 +30024,10 @@ obj
 value
 name
 strict
+)
+needsTypeBarrier_
+(
+typeBarrier
 )
 {
 }
@@ -30043,6 +30052,8 @@ HandlePropertyName
 name
 bool
 strict
+bool
+typeBarrier
 )
 {
 return
@@ -30053,6 +30064,7 @@ obj
 value
 name
 strict
+typeBarrier
 )
 ;
 }
@@ -30064,6 +30076,16 @@ typePolicy
 {
 return
 this
+;
+}
+bool
+needsTypeBarrier
+(
+)
+const
+{
+return
+needsTypeBarrier_
 ;
 }
 }
