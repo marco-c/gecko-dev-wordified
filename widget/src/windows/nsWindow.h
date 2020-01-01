@@ -2671,12 +2671,6 @@ nsContentType
 mContentType
 ;
 PRInt32
-mPreferredWidth
-;
-PRInt32
-mPreferredHeight
-;
-PRInt32
 mMenuCmdId
 ;
 HDWP

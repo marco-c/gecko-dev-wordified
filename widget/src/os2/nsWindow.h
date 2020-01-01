@@ -1900,12 +1900,6 @@ mPrevWndProc
 nglayout
 data
 members
-PRInt32
-mPreferredHeight
-;
-PRInt32
-mPreferredWidth
-;
 nsToolkit
 *
 mOS2Toolkit

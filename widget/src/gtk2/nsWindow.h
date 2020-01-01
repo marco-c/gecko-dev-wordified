@@ -2710,16 +2710,6 @@ show
 PRPackedBool
 mPlaced
 ;
-/
-/
-Preferred
-sizes
-PRUint32
-mPreferredWidth
-;
-PRUint32
-mPreferredHeight
-;
 private
 :
 void

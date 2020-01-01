@@ -1390,16 +1390,6 @@ PRBool
 mPlaced
 ;
 /
-/
-Preferred
-sizes
-PRUint32
-mPreferredWidth
-;
-PRUint32
-mPreferredHeight
-;
-/
 *
 *
 *
