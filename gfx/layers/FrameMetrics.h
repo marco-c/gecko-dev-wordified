@@ -1520,10 +1520,7 @@ meaningless
 and
 invalid
 .
-gfx
-:
-:
-Rect
+CSSRect
 mViewport
 ;
 /

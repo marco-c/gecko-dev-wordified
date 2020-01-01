@@ -2121,10 +2121,10 @@ it
 void
 SetCSSViewport
 (
-float
-aX
-float
-aY
+const
+CSSSize
+&
+aSize
 )
 ;
 /
