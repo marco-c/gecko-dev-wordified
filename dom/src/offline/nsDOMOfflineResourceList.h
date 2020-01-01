@@ -591,8 +591,6 @@ nsIDOMOfflineResourceList
 )
 nsDOMOfflineResourceList
 (
-PRBool
-aToplevel
 nsIURI
 *
 aManifestURI
@@ -731,9 +729,6 @@ ClearCachedKeys
 ;
 PRBool
 mInitialized
-;
-PRBool
-mToplevel
 ;
 nsCOMPtr
 <
