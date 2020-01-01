@@ -273,11 +273,16 @@ image
 var
 img
 =
+SpecialPowers
+.
+wrap
+(
 document
 .
 getElementById
 (
 id
+)
 )
 ;
 /
