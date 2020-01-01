@@ -2113,6 +2113,8 @@ isPrimitive
 )
 )
 ;
+/
+/
 JS_ASSERT
 (
 fun
