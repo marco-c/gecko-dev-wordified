@@ -771,7 +771,7 @@ h
 #
 include
 "
-nsIWebProgressListener
+nsIWebProgressListener2
 .
 h
 "
@@ -1748,6 +1748,12 @@ to
 update
 the
 UI
+without
+/
+/
+updating
+security
+info
 .
 void
 FireDummyOnLocationChange
@@ -1759,6 +1765,10 @@ FireOnLocationChange
 this
 nsnull
 mCurrentURI
+nsIWebProgressListener2
+:
+:
+LOCATION_CHANGE_SAME_DOCUMENT
 )
 ;
 }
@@ -3823,6 +3833,8 @@ nsIRequest
 aRequest
 PRBool
 aFireOnLocationChange
+PRUint32
+aLocationFlags
 )
 ;
 /
