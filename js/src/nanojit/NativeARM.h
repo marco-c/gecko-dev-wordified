@@ -1470,6 +1470,11 @@ _nSlot
 \
 int
 *
+_startingSlot
+;
+\
+int
+*
 _nExitSlot
 ;
 /

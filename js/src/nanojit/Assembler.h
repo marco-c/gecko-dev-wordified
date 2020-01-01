@@ -1692,6 +1692,16 @@ RegisterMask
 allow
 )
 ;
+void
+resetInstructionPointer
+(
+)
+;
+void
+recordStartingInstructionPointer
+(
+)
+;
 NIns
 *
 pageAlloc
