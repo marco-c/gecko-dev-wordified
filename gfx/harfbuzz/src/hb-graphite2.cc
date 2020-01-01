@@ -1065,8 +1065,6 @@ char
 *
 lang_end
 =
-lang
-?
 strchr
 (
 lang
@@ -1074,8 +1072,6 @@ lang
 -
 '
 )
-:
-NULL
 ;
 int
 lang_len

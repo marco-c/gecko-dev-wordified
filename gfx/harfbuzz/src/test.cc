@@ -633,11 +633,6 @@ x95
 1
 )
 ;
-hb_buffer_guess_segment_properties
-(
-buffer
-)
-;
 hb_shape
 (
 font
