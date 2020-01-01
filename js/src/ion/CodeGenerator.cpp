@@ -3607,7 +3607,7 @@ bool
 (
 JSContext
 *
-uintN
+unsigned
 Value
 *
 vp
@@ -5943,7 +5943,7 @@ JSContext
 *
 PropertyName
 *
-uintN
+unsigned
 JSObject
 *
 )
@@ -6011,7 +6011,7 @@ attrs
 ;
 /
 /
-uintN
+unsigned
 pushArg
 (
 nameTemp

@@ -3054,7 +3054,7 @@ OsiIndex
 ;
 for
 (
-int
+unsigned
 i
 =
 0

@@ -459,7 +459,7 @@ namespace
 ion
 {
 inline
-uintN
+unsigned
 CountArgSlots
 (
 JSFunction
@@ -678,7 +678,7 @@ script_
 filename
 ;
 }
-uintN
+unsigned
 lineno
 (
 )
@@ -691,7 +691,7 @@ script_
 lineno
 ;
 }
-uintN
+unsigned
 lineno
 (
 JSContext
@@ -704,9 +704,8 @@ pc
 const
 {
 return
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 script_
 pc
 )
@@ -895,7 +894,7 @@ locals
 and
 stack
 .
-uintN
+unsigned
 nslots
 (
 )
@@ -905,7 +904,7 @@ return
 nslots_
 ;
 }
-uintN
+unsigned
 nargs
 (
 )
@@ -920,7 +919,7 @@ fun
 nargs
 ;
 }
-uintN
+unsigned
 nlocals
 (
 )
@@ -935,7 +934,7 @@ script
 nfixed
 ;
 }
-uintN
+unsigned
 ninvoke
 (
 )
@@ -1087,7 +1086,7 @@ JSFunction
 *
 fun_
 ;
-uintN
+unsigned
 nslots_
 ;
 jsbytecode

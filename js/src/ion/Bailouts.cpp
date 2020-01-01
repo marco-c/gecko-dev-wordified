@@ -1724,7 +1724,7 @@ sp
 v
 ;
 }
-uintN
+unsigned
 pcOff
 =
 iter
@@ -1799,9 +1799,8 @@ fp
 script
 (
 )
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 fp
 -
 >
@@ -3639,7 +3638,7 @@ fp
 (
 )
 ;
-uintN
+unsigned
 nargs
 =
 fp
@@ -3702,7 +3701,7 @@ thisValue
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0

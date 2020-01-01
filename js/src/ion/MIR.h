@@ -10275,7 +10275,7 @@ to
 be
 defined
 .
-uintN
+unsigned
 attrs_
 ;
 /
@@ -10292,7 +10292,7 @@ MDefVar
 PropertyName
 *
 name
-uintN
+unsigned
 attrs
 MDefinition
 *
@@ -10328,7 +10328,7 @@ New
 PropertyName
 *
 name
-uintN
+unsigned
 attrs
 MDefinition
 *
@@ -10356,7 +10356,7 @@ return
 name_
 ;
 }
-uintN
+unsigned
 attrs
 (
 )

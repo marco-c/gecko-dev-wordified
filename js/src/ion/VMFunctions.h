@@ -2304,7 +2304,7 @@ cx
 PropertyName
 *
 dn
-uintN
+unsigned
 attrs
 JSObject
 *

@@ -658,9 +658,8 @@ script
 -
 >
 filename
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 script
 pc
 )
@@ -24700,7 +24699,7 @@ Bake
 in
 attrs
 .
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
