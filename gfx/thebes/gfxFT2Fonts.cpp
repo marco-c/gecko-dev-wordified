@@ -2990,6 +2990,8 @@ WhichSystemFontSupportsChar
 (
 PRUint32
 aCh
+PRInt32
+aRunScript
 )
 {
 #
@@ -3022,13 +3024,12 @@ PlatformFontList
 )
 -
 >
-FindFontForChar
+SystemFindFontForChar
 (
 aCh
-GetFontAt
-(
-0
-)
+aRunScript
+&
+mStyle
 )
 )
 ;

@@ -935,6 +935,8 @@ WhichSystemFontSupportsChar
 (
 PRUint32
 aCh
+PRInt32
+aRunScript
 )
 ;
 nsTArray
