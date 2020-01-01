@@ -6667,7 +6667,7 @@ condop
 =
 LIR_fle
 )
-FBG
+FBUG
 (
 0
 tt
@@ -6681,7 +6681,7 @@ condop
 =
 LIR_flt
 )
-FBGE
+FBUGE
 (
 0
 tt
@@ -6695,7 +6695,7 @@ condop
 =
 LIR_fge
 )
-FBL
+FBUL
 (
 0
 tt
@@ -6711,7 +6711,7 @@ condop
 =
 LIR_fgt
 )
-FBLE
+FBULE
 (
 0
 tt
