@@ -1220,7 +1220,7 @@ PRUint32
 aFlags
 )
 ;
-nsresult
+void
 GetCurrentFrameRect
 (
 nsIntRect

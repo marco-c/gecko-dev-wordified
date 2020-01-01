@@ -3208,7 +3208,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 RasterImage
 :
 :
@@ -3219,13 +3219,6 @@ nsIntRect
 aRect
 )
 {
-if
-(
-mError
-)
-return
-NS_ERROR_FAILURE
-;
 /
 /
 Get
@@ -3254,6 +3247,7 @@ if
 (
 curframe
 )
+{
 aRect
 =
 curframe
@@ -3263,6 +3257,9 @@ GetRect
 (
 )
 ;
+}
+else
+{
 /
 /
 If
@@ -3304,7 +3301,7 @@ of
 this
 method
 is
-imgRequest
+imgStatusTracker
 (
 when
 it
@@ -3312,9 +3309,9 @@ wants
 to
 figure
 out
+/
+/
 dirty
-/
-/
 rectangles
 to
 send
@@ -3326,10 +3323,10 @@ updates
 .
 This
 should
+/
+/
 probably
 be
-/
-/
 revisited
 when
 we
@@ -3337,8 +3334,6 @@ fix
 bug
 503973
 .
-else
-{
 aRect
 .
 MoveTo
@@ -3356,9 +3351,6 @@ SizeTo
 )
 ;
 }
-return
-NS_OK
-;
 }
 PRUint32
 RasterImage
