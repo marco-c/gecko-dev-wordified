@@ -20,11 +20,11 @@ libpng
 .
 4
 .
-1
+8
 [
-February
-25
-2010
+July
+7
+2011
 ]
 *
 Copyright
@@ -33,7 +33,7 @@ c
 )
 1998
 -
-2010
+2011
 Glenn
 Randers
 -
@@ -4787,8 +4787,6 @@ row
 a
 filter
 byte
-and
-possible
 *
 and
 possibly
