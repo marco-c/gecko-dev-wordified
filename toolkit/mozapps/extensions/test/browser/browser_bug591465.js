@@ -2098,11 +2098,9 @@ SEARCH_QUERY
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 searchBox
-2
-2
 {
 }
 gManagerWindow
@@ -2147,11 +2145,9 @@ remote
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 filter
-2
-2
 {
 }
 gManagerWindow

@@ -472,11 +472,9 @@ win
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 prefsBtn
-2
-2
 {
 }
 aWindow

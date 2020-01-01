@@ -572,11 +572,9 @@ date
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 nameSorter
-2
-2
 {
 }
 gManagerWindow
@@ -692,11 +690,9 @@ name
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 nameSorter
-2
-2
 {
 }
 gManagerWindow

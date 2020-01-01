@@ -543,11 +543,9 @@ gSearchCount
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 searchBox
-2
-2
 {
 }
 gManagerWindow
@@ -591,11 +589,9 @@ remote
 )
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 remote
-2
-2
 {
 }
 gManagerWindow
@@ -649,7 +645,7 @@ status
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -660,8 +656,6 @@ install
 remote
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -971,7 +965,7 @@ correct
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -980,8 +974,6 @@ item
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -1157,7 +1149,7 @@ correct
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -1166,8 +1158,6 @@ item
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
