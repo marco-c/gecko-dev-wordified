@@ -3907,7 +3907,7 @@ mRemoteFrame
 {
 contentType
 =
-eContentTypeUI
+eContentTypeContent
 ;
 }
 else
