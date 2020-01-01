@@ -13340,10 +13340,7 @@ node
 JSHeapDumpNode
 *
 )
-cx
--
->
-malloc
+js_malloc
 (
 offsetof
 (
@@ -14265,10 +14262,7 @@ node
 >
 parent
 ;
-cx
--
->
-free
+js_free
 (
 node
 )
