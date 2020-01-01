@@ -2718,7 +2718,7 @@ deint_buf_cap
 u32
 max_rcmd_nalu_size
 ;
-tinybool
+u16
 parameter_add
 ;
 tinybool
@@ -7666,7 +7666,7 @@ u8
 cap_num
 u16
 inst_num
-tinybool
+u16
 parameter_add
 )
 ;
