@@ -169,7 +169,10 @@ db
 new
 CookieDatabaseConnection
 (
+do_get_cookie_file
+(
 profile
+)
 4
 )
 ;

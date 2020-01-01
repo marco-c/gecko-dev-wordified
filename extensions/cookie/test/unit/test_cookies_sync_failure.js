@@ -791,6 +791,12 @@ length
 ;
 ostream
 .
+flush
+(
+)
+;
+ostream
+.
 close
 (
 )
@@ -1249,7 +1255,10 @@ schema2db
 new
 CookieDatabaseConnection
 (
+do_get_cookie_file
+(
 profile
+)
 2
 )
 ;
@@ -1405,7 +1414,10 @@ db
 new
 CookieDatabaseConnection
 (
+do_get_cookie_file
+(
 profile
+)
 schema
 )
 ;
@@ -1586,7 +1598,10 @@ db
 new
 CookieDatabaseConnection
 (
+do_get_cookie_file
+(
 profile
+)
 2
 )
 ;

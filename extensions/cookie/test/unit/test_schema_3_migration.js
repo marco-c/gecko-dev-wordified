@@ -140,7 +140,10 @@ schema3db
 new
 CookieDatabaseConnection
 (
+do_get_cookie_file
+(
 profile
+)
 3
 )
 ;
@@ -767,7 +770,10 @@ schema3db
 new
 CookieDatabaseConnection
 (
+do_get_cookie_file
+(
 profile
+)
 3
 )
 ;
