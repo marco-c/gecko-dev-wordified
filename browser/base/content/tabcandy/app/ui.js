@@ -470,6 +470,12 @@ lastTab
 =
 this
 ;
+Toolbar
+.
+unread
+=
+0
+;
 }
 )
 ;
