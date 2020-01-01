@@ -1471,6 +1471,7 @@ typename
 T
 >
 class
+MOZ_STACK_CLASS
 Handle
 :
 public
@@ -2157,6 +2158,7 @@ typename
 T
 >
 class
+MOZ_STACK_CLASS
 MutableHandle
 :
 public
@@ -3208,6 +3210,7 @@ typename
 T
 >
 class
+MOZ_STACK_CLASS
 Rooted
 :
 public
