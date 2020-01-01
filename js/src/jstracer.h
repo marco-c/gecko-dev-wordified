@@ -2165,14 +2165,6 @@ startTime
 ;
 #
 endif
-#
-ifdef
-DEBUG
-bool
-jsframe_pop_blocks_set_on_entry
-;
-#
-endif
 /
 *
 *
