@@ -478,14 +478,6 @@ CanvasLayerD3D9
 if
 (
 mD3DManager
-&
-&
-mD3DManager
--
->
-deviceManager
-(
-)
 )
 {
 mD3DManager
