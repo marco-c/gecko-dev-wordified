@@ -2857,6 +2857,16 @@ comp
 ;
 static
 inline
+void
+readBarrier
+(
+JSString
+*
+str
+)
+;
+static
+inline
 js
 :
 :

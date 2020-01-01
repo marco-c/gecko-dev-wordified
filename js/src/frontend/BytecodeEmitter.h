@@ -515,13 +515,6 @@ ParseMaps
 .
 h
 "
-#
-include
-"
-jsatominlines
-.
-h
-"
 namespace
 js
 {
