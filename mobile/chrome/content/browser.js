@@ -3084,9 +3084,7 @@ focus
 /
 update
 the
-tab
-canvas
-image
+viewport
 this
 .
 _tabbrowser
@@ -3099,7 +3097,9 @@ updateCanvasState
 /
 update
 the
-viewport
+tab
+canvas
+image
 this
 .
 _tabbrowser
