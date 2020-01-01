@@ -656,7 +656,7 @@ table
 .
 for
 (
-PRInt32
+PRUint32
 index
 =
 0
