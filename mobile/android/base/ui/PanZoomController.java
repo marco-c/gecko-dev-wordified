@@ -3961,6 +3961,14 @@ PanZoomState
 .
 NOTHING
 ;
+GeckoApp
+.
+mAppContext
+.
+showPluginViews
+(
+)
+;
 }
 /
 *

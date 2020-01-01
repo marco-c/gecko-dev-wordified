@@ -7372,8 +7372,10 @@ aFactor
 )
 ;
 }
-static
 gfx3DMatrix
+nsLayoutUtils
+:
+:
 GetTransformToAncestor
 (
 nsIFrame
@@ -7450,6 +7452,9 @@ aAncestor
 gfx3DMatrix
 ctm
 =
+nsLayoutUtils
+:
+:
 GetTransformToAncestor
 (
 aFrame
@@ -7488,6 +7493,9 @@ aAncestor
 gfx3DMatrix
 ctm
 =
+nsLayoutUtils
+:
+:
 GetTransformToAncestor
 (
 aFrame
@@ -7526,6 +7534,9 @@ aAncestor
 gfx3DMatrix
 ctm
 =
+nsLayoutUtils
+:
+:
 GetTransformToAncestor
 (
 aFrame
