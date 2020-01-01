@@ -3225,7 +3225,7 @@ SetData
 &
 kDrawTarget
 drawTarget
-NULL
+nullptr
 )
 ;
 return
@@ -3503,8 +3503,8 @@ SetData
 (
 &
 kSourceSurface
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -3538,8 +3538,8 @@ SetData
 (
 &
 kSourceSurface
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -4359,7 +4359,7 @@ nullSurf
 &
 kSourceSurface
 imgSurface
-NULL
+nullptr
 )
 ;
 cairo_surface_attach_snapshot
@@ -5086,7 +5086,7 @@ CairoStatus
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

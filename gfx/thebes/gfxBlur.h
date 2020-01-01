@@ -426,10 +426,10 @@ measured
 in
 device
 units
+*
 if
 available
 .
-*
 This
 will
 be
@@ -441,11 +441,12 @@ blur
 operation
 .
 It
+*
 is
 safe
 to
 pass
-NULL
+nullptr
 here
 .
 *
@@ -462,10 +463,10 @@ in
 device
 units
 that
+*
 represents
 an
 area
-*
 where
 blurring
 is
@@ -476,6 +477,7 @@ shouldn
 t
 be
 done
+*
 for
 speed
 reasons
@@ -484,9 +486,8 @@ It
 is
 safe
 to
-*
 pass
-NULL
+nullptr
 here
 .
 *

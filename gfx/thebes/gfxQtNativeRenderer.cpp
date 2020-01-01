@@ -286,7 +286,7 @@ nsIntPoint
 0
 0
 )
-NULL
+nullptr
 0
 )
 ;

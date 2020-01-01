@@ -1285,7 +1285,7 @@ mOffsets
 Elements
 (
 )
-NULL
+nullptr
 )
 ;
 if
@@ -1366,7 +1366,7 @@ rv
 =
 ScriptGetFontProperties
 (
-NULL
+nullptr
 mShaper
 -
 >

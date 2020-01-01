@@ -1706,14 +1706,14 @@ COM
 /
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 mScreenDC
 =
 GetDC
 (
-NULL
+nullptr
 )
 ;
 #
@@ -1795,7 +1795,7 @@ mGPUAdapterMultiReporter
 :
 ReleaseDC
 (
-NULL
+nullptr
 mScreenDC
 )
 ;
@@ -2518,7 +2518,7 @@ createD3DDevice
 (
 adapter1
 D3D10_DRIVER_TYPE_HARDWARE
-NULL
+nullptr
 D3D10_CREATE_DEVICE_BGRA_SUPPORT
 |
 D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS
@@ -3802,7 +3802,7 @@ do
 this
 .
 return
-NULL
+nullptr
 ;
 }
 RefPtr
@@ -3888,7 +3888,7 @@ SetData
 &
 kDrawTarget
 aTarget
-NULL
+nullptr
 )
 ;
 return
@@ -5885,7 +5885,7 @@ versInfoSize
 GetFileVersionInfoSizeW
 (
 aDLLPath
-NULL
+nullptr
 )
 ;
 nsAutoTArray
@@ -6232,10 +6232,10 @@ i
 displayName
 &
 size
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -6339,7 +6339,7 @@ L
 "
 GammaLevel
 "
-NULL
+nullptr
 &
 type
 (
@@ -6392,7 +6392,7 @@ L
 "
 PixelStructure
 "
-NULL
+nullptr
 &
 type
 (
@@ -6479,7 +6479,7 @@ L
 "
 ClearTypeLevel
 "
-NULL
+nullptr
 &
 type
 (
@@ -6532,7 +6532,7 @@ L
 "
 EnhancedContrastLevel
 "
-NULL
+nullptr
 &
 type
 (
@@ -7535,7 +7535,7 @@ d3d11CreateDevice
 (
 adapter
 D3D_DRIVER_TYPE_UNKNOWN
-NULL
+nullptr
 D3D11_CREATE_DEVICE_BGRA_SUPPORT
 featureLevels
 .

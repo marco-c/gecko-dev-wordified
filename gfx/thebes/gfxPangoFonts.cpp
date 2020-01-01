@@ -453,7 +453,7 @@ FcCharSet
 *
 charset
 =
-NULL
+nullptr
 ;
 FcPatternGetCharSet
 (
@@ -1066,7 +1066,7 @@ mFontFace
 &
 sFontEntryKey
 this
-NULL
+nullptr
 )
 ;
 mPatterns
@@ -1144,8 +1144,8 @@ cairo_font_face_set_user_data
 mFontFace
 &
 sFontEntryKey
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 cairo_font_face_destroy
@@ -2632,7 +2632,7 @@ NS_PRECONDITION
 aFace
 !
 =
-NULL
+nullptr
 "
 aFace
 is
@@ -3153,7 +3153,7 @@ file
 argument
 cannot
 be
-NULL
+nullptr
 (
 in
 fontconfig
@@ -3164,11 +3164,11 @@ fontconfig
 .
 0
 at
+/
+/
 least
 )
 .
-/
-/
 The
 dummy
 file
@@ -3190,11 +3190,11 @@ system
 fonts
 FcConfigGetBlanks
 (
-NULL
+nullptr
 )
+/
+/
 is
-/
-/
 passed
 as
 the
@@ -3217,13 +3217,13 @@ Here
 however
 we
 pass
-NULL
+nullptr
 for
+/
+/
 "
 blanks
 "
-/
-/
 effectively
 assuming
 that
@@ -3234,10 +3234,10 @@ has
 a
 blank
 glyph
+/
+/
 then
 the
-/
-/
 author
 intends
 any
@@ -3246,6 +3246,8 @@ character
 to
 be
 rendered
+/
+/
 blank
 .
 pattern
@@ -3265,7 +3267,7 @@ ToFcChar8
 "
 )
 0
-NULL
+nullptr
 )
 ;
 if
@@ -3392,7 +3394,7 @@ charset
 FcFreeTypeCharSet
 (
 mFace
-NULL
+nullptr
 )
 )
 ;
@@ -4200,7 +4202,7 @@ if
 fontPattern
 )
 return
-NULL
+nullptr
 ;
 mFonts
 [
@@ -4555,7 +4557,7 @@ so
 that
 mFcFontSet
 is
-NULL
+nullptr
 )
 .
 bool
@@ -6359,7 +6361,7 @@ FcPattern
 *
 truncateMarker
 =
-NULL
+nullptr
 ;
 for
 (
@@ -6733,7 +6735,7 @@ FcFontSetSort
 when
 FcConfig
 is
-NULL
+nullptr
 /
 /
 Solaris
@@ -6760,7 +6762,7 @@ sets
 1
 mSortPattern
 FcFalse
-NULL
+nullptr
 &
 result
 )
@@ -6774,12 +6776,12 @@ own
 (
 FcFontSetSort
 (
-NULL
+nullptr
 sets
 1
 mSortPattern
 FcFalse
-NULL
+nullptr
 &
 result
 )
@@ -6792,7 +6794,7 @@ if
 truncateMarker
 !
 =
-NULL
+nullptr
 &
 &
 fontSet
@@ -6986,10 +6988,10 @@ FcFontSet
 (
 FcFontSort
 (
-NULL
+nullptr
 mSortPattern
 FcFalse
-NULL
+nullptr
 &
 result
 )
@@ -7072,7 +7074,7 @@ mFcFontSet
 is
 non
 -
-NULL
+nullptr
 .
 }
 while
@@ -7201,7 +7203,7 @@ FcCharSet
 *
 newChars
 =
-NULL
+nullptr
 ;
 FcPatternGetCharSet
 (
@@ -7360,7 +7362,7 @@ aIsPrinterFont
 {
 FcConfigSubstitute
 (
-NULL
+nullptr
 aPattern
 FcMatchPattern
 )
@@ -9578,7 +9580,7 @@ FcPattern
 *
 basePattern
 =
-NULL
+nullptr
 ;
 if
 (
@@ -9957,7 +9959,7 @@ mScaledFont
 &
 sGfxFontKey
 this
-NULL
+nullptr
 )
 ;
 }
@@ -9974,8 +9976,8 @@ cairo_scaled_font_set_user_data
 mScaledFont
 &
 sGfxFontKey
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -10182,7 +10184,7 @@ cairo_debug_reset_static_data
 .
 gFTLibrary
 =
-NULL
+nullptr
 ;
 }
 /
@@ -10421,7 +10423,7 @@ fullname
 ;
 FcConfigSubstitute
 (
-NULL
+nullptr
 pattern
 FcMatchPattern
 )
@@ -10659,7 +10661,7 @@ if
 font
 )
 return
-NULL
+nullptr
 ;
 gfxFT2LockedFace
 face
@@ -10677,7 +10679,7 @@ get
 )
 )
 return
-NULL
+nullptr
 ;
 gFTLibrary
 =
@@ -10774,7 +10776,7 @@ FT_New_Memory_Face
 checks
 for
 a
-NULL
+nullptr
 FT_Library
 .
 FT_Face
@@ -11026,7 +11028,7 @@ renderPattern
 (
 FcFontRenderPrepare
 (
-NULL
+nullptr
 aRequestedPattern
 aFontPattern
 )
@@ -13094,7 +13096,7 @@ if
 aLanguage
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -13140,7 +13142,7 @@ IsEmpty
 )
 )
 return
-NULL
+nullptr
 ;
 return
 pango_language_from_string

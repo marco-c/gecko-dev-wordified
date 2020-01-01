@@ -221,7 +221,7 @@ static
 FT_Library
 gPlatformFTLibrary
 =
-NULL
+nullptr
 ;
 static
 int64_t
@@ -603,7 +603,7 @@ gPlatformFTLibrary
 ;
 gPlatformFTLibrary
 =
-NULL
+nullptr
 ;
 }
 already_AddRefed

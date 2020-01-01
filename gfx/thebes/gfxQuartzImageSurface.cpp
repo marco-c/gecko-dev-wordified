@@ -137,7 +137,7 @@ CairoSurface
 )
 =
 =
-NULL
+nullptr
 )
 return
 ;

@@ -162,7 +162,7 @@ mDC
 :
 GetDC
 (
-NULL
+nullptr
 )
 ;
 }
@@ -175,7 +175,7 @@ AutoDC
 :
 ReleaseDC
 (
-NULL
+nullptr
 mDC
 )
 ;
@@ -268,7 +268,7 @@ else
 {
 mOldFont
 =
-NULL
+nullptr
 ;
 }
 }
@@ -350,7 +350,7 @@ return
 mFont
 !
 =
-NULL
+nullptr
 ;
 }
 HFONT

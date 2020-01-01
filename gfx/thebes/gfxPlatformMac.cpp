@@ -277,7 +277,7 @@ CFBundleGetMainBundle
 CFStringRef
 mainBundleID
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2654,7 +2654,7 @@ err
 NCMGetProfileLocation
 (
 cmProfile
-NULL
+nullptr
 &
 locationSize
 )

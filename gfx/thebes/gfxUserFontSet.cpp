@@ -1591,7 +1591,7 @@ newly
 allocated
 block
 or
-NULL
+nullptr
 in
 case
 of

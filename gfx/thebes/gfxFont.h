@@ -2331,7 +2331,7 @@ specific
 font
 table
 or
-NULL
+nullptr
 if
 /
 /
@@ -2367,7 +2367,7 @@ blob
 if
 non
 -
-NULL
+nullptr
 )
 when
 no
@@ -2379,9 +2379,9 @@ transient
 access
 to
 a
+/
+/
 table
-/
-/
 use
 of
 AutoTable
@@ -2663,7 +2663,7 @@ entry
 /
 /
 Pass
-NULL
+nullptr
 for
 aBuffer
 to
@@ -2677,14 +2677,14 @@ present
 and
 /
 /
-NULL
+nullptr
 will
 be
 returned
 .
 Also
 returns
-NULL
+nullptr
 on
 OOM
 .
@@ -9895,7 +9895,7 @@ pattern
 .
 Can
 be
-NULL
+nullptr
 if
 we
 are

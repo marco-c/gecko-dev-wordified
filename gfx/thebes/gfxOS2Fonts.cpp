@@ -3075,7 +3075,7 @@ fcMatch
 =
 FcFontMatch
 (
-NULL
+nullptr
 fcPattern
 &
 fcRes
@@ -3229,7 +3229,7 @@ fcMatch
 =
 FcFontMatch
 (
-NULL
+nullptr
 fcPattern
 &
 fcRes
@@ -3734,7 +3734,7 @@ mScaledFont
 is
 created
 if
-NULL
+nullptr
 cairo_scaled_font_t
 *
 scaledFont

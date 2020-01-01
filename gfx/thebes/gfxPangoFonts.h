@@ -333,13 +333,15 @@ font
 /
 selection
 or
-NULL
+nullptr
 for
 the
 language
 guessed
 from
 the
+/
+/
 gfxFontStyle
 .
 /
@@ -361,7 +363,7 @@ PangoLanguage
 *
 aLang
 =
-NULL
+nullptr
 )
 ;
 class
@@ -462,7 +464,7 @@ font
 /
 resolution
 or
-NULL
+nullptr
 to
 guess
 a
@@ -481,7 +483,7 @@ out
 if
 non
 -
-NULL
+nullptr
 will
 return
 the
@@ -506,7 +508,7 @@ FcPattern
 *
 aMatchPattern
 =
-NULL
+nullptr
 )
 ;
 gfxFcFontSet

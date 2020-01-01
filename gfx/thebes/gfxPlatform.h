@@ -3168,7 +3168,7 @@ in
 if
 transform
 is
-NULL
+nullptr
 .
 *
 /

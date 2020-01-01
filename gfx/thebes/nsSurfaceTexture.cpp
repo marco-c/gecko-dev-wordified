@@ -354,7 +354,7 @@ EnsureInitialized
 )
 )
 return
-NULL
+nullptr
 ;
 JNIEnv
 *
@@ -370,7 +370,7 @@ if
 env
 )
 return
-NULL
+nullptr
 ;
 AutoLocalJNIFrame
 jniFrame
@@ -531,7 +531,7 @@ env
 GetFloatArrayElements
 (
 jarray
-NULL
+nullptr
 )
 ;
 aMatrix
@@ -755,7 +755,7 @@ NS_IsMainThread
 )
 )
 return
-NULL
+nullptr
 ;
 nsSurfaceTexture
 *
@@ -793,7 +793,7 @@ st
 ;
 st
 =
-NULL
+nullptr
 ;
 }
 return
@@ -846,7 +846,7 @@ end
 )
 )
 return
-NULL
+nullptr
 ;
 return
 it
@@ -980,11 +980,11 @@ nsSurfaceTexture
 :
 mSurfaceTexture
 (
-NULL
+nullptr
 )
 mNativeWindow
 (
-NULL
+nullptr
 )
 {
 }
@@ -1005,7 +1005,7 @@ mID
 ;
 mFrameAvailableCallback
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1027,7 +1027,7 @@ mSurfaceTexture
 ;
 mNativeWindow
 =
-NULL
+nullptr
 ;
 }
 JNIEnv
@@ -1076,7 +1076,7 @@ mSurfaceTexture
 ;
 mSurfaceTexture
 =
-NULL
+nullptr
 ;
 }
 }

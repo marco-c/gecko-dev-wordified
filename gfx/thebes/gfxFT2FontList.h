@@ -321,7 +321,7 @@ aFontData
 if
 non
 -
-NULL
+nullptr
 )
 is
 NS_Malloc

@@ -257,7 +257,7 @@ aContext
 )
 mPattern
 (
-NULL
+nullptr
 )
 {
 }
@@ -494,7 +494,7 @@ surface
 :
 mRefCairo
 (
-NULL
+nullptr
 )
 mSurface
 (
@@ -610,15 +610,15 @@ false
 )
 mCairo
 (
-NULL
+nullptr
 )
 mRefCairo
 (
-NULL
+nullptr
 )
 mSurface
 (
-NULL
+nullptr
 )
 mFlags
 (
@@ -1201,11 +1201,11 @@ else
 {
 mPath
 =
-NULL
+nullptr
 ;
 mPathBuilder
 =
-NULL
+nullptr
 ;
 mPathIsRect
 =
@@ -5291,7 +5291,7 @@ Elements
 (
 )
 :
-NULL
+nullptr
 ;
 }
 }
@@ -5483,7 +5483,7 @@ offset
 cairo_get_dash
 (
 mCairo
-NULL
+nullptr
 &
 offset
 )
@@ -6103,7 +6103,7 @@ PushedClip
 clip
 =
 {
-NULL
+nullptr
 ToRect
 (
 rect
@@ -6178,7 +6178,7 @@ PushedClip
 clip
 =
 {
-NULL
+nullptr
 mRect
 mTransform
 }
@@ -7051,7 +7051,7 @@ CurrentState
 .
 pattern
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -7059,7 +7059,7 @@ CurrentState
 .
 sourceSurfCairo
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -7067,7 +7067,7 @@ CurrentState
 .
 sourceSurface
 =
-NULL
+nullptr
 ;
 if
 (
@@ -7199,7 +7199,7 @@ CurrentState
 .
 pattern
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -7207,7 +7207,7 @@ CurrentState
 .
 sourceSurfCairo
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -7215,7 +7215,7 @@ CurrentState
 .
 sourceSurface
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -7429,7 +7429,7 @@ CurrentState
 .
 pattern
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -7521,7 +7521,7 @@ CurrentState
 .
 sourceSurfCairo
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -7529,7 +7529,7 @@ CurrentState
 .
 sourceSurface
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -9338,7 +9338,7 @@ CurrentState
 .
 sourceSurfCairo
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -9354,7 +9354,7 @@ CurrentState
 .
 pattern
 =
-NULL
+nullptr
 ;
 CurrentState
 (
@@ -11865,7 +11865,7 @@ Finish
 ;
 mPathBuilder
 =
-NULL
+nullptr
 ;
 }
 if
@@ -11921,7 +11921,7 @@ Finish
 ;
 mPathBuilder
 =
-NULL
+nullptr
 ;
 mTransformChanged
 =
@@ -11973,7 +11973,7 @@ Finish
 ;
 mPathBuilder
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -11993,7 +11993,7 @@ Finish
 ;
 mPathBuilder
 =
-NULL
+nullptr
 ;
 }
 void
@@ -12043,7 +12043,7 @@ fillRule
 ;
 mPath
 =
-NULL
+nullptr
 ;
 }
 else
@@ -12203,20 +12203,20 @@ when
 /
 mPathBuilder
 is
-NULL
+nullptr
 and
 mPath
 is
-NULL
+nullptr
 .
 But
 this
 way
 we
 can
+/
+/
 assert
-/
-/
 if
 all
 the

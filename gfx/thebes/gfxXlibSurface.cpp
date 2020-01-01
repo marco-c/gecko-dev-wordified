@@ -2713,7 +2713,7 @@ ImageFormatA1
 default
 :
 return
-NULL
+nullptr
 ;
 }
 for
@@ -2832,7 +2832,7 @@ visual
 }
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2927,7 +2927,7 @@ if
 visual
 )
 return
-NULL
+nullptr
 ;
 return
 XRenderFindVisualFormat
@@ -2963,11 +2963,7 @@ break
 ;
 }
 return
-(
-XRenderPictFormat
-*
-)
-NULL
+nullptr
 ;
 }
 Screen

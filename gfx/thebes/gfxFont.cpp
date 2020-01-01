@@ -4054,7 +4054,7 @@ the
 entries
 may
 be
-NULL
+nullptr
 .
 /
 /
@@ -5345,7 +5345,8 @@ the
 mAvailableFonts
 entries
 for
-NULL
+nullptr
+.
 gfxFontEntry
 *
 fe
@@ -15137,7 +15138,7 @@ GetTransform
 /
 This
 is
-NULL
+nullptr
 when
 we
 have
@@ -15148,9 +15149,9 @@ glyphs
 and
 we
 need
+/
+/
 to
-/
-/
 transform
 the
 Brush

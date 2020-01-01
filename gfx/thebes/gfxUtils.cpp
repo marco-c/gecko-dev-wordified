@@ -5952,7 +5952,7 @@ gfxUtils
 :
 sDumpPaintFile
 =
-NULL
+nullptr
 ;
 #
 endif

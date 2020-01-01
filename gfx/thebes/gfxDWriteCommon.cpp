@@ -104,7 +104,7 @@ gfxDWriteFontFileLoader
 :
 mInstance
 =
-NULL
+nullptr
 ;
 HRESULT
 STDMETHODCALLTYPE
@@ -332,7 +332,7 @@ fileOffset
 *
 fragmentContext
 =
-NULL
+nullptr
 ;
 return
 S_OK

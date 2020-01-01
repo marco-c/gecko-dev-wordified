@@ -261,7 +261,7 @@ anAAOption
 )
 mFont
 (
-NULL
+nullptr
 )
 mFontFace
 (
@@ -3522,7 +3522,7 @@ GetCharWidthI
 dc
 aGID
 1
-NULL
+nullptr
 &
 devWidth
 )

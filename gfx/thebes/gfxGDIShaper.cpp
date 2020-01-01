@@ -427,7 +427,7 @@ dc
 glyphs
 length
 INT_MAX
-NULL
+nullptr
 partialWidthArray
 .
 Elements

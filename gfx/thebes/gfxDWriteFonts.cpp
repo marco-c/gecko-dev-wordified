@@ -2995,7 +2995,7 @@ return
 mFontFace
 !
 =
-NULL
+nullptr
 ;
 }
 IDWriteFontFace

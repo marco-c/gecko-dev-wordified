@@ -1050,7 +1050,7 @@ int
 mDeviceOffset
 .
 y
-NULL
+nullptr
 )
 ;
 return
@@ -1467,7 +1467,7 @@ x
 mOrigViewportOrigin
 .
 y
-NULL
+nullptr
 )
 ;
 if

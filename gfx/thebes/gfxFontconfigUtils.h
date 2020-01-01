@@ -1158,7 +1158,7 @@ is
 left
 /
 /
-NULL
+nullptr
 .
 The
 caller
@@ -1171,11 +1171,11 @@ fill
 in
 mKey
 when
-NULL
+nullptr
 .
+/
+/
 This
-/
-/
 provides
 a
 mechanism
@@ -1205,7 +1205,7 @@ aName
 :
 mKey
 (
-NULL
+nullptr
 )
 {
 }
@@ -1630,7 +1630,7 @@ is
 left
 /
 /
-NULL
+nullptr
 .
 The
 caller

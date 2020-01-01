@@ -237,7 +237,7 @@ surface
 dc
 may
 be
-NULL
+nullptr
 to
 use
 the

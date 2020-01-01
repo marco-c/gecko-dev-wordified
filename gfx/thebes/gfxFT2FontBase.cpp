@@ -607,7 +607,7 @@ NS_PRECONDITION
 aExtents
 !
 =
-NULL
+nullptr
 "
 aExtents
 must

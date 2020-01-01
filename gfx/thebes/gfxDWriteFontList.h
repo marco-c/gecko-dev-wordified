@@ -1440,7 +1440,7 @@ else
 *
 ppvObject
 =
-NULL
+nullptr
 ;
 return
 E_FAIL

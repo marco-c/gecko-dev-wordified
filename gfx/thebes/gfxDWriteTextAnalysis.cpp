@@ -134,7 +134,7 @@ readingDirection
 )
 mCurrentRun
 (
-NULL
+nullptr
 )
 {
 }
@@ -286,7 +286,7 @@ mRunHead
 .
 nextRun
 =
-NULL
+nullptr
 ;
 mCurrentRun
 =
@@ -463,7 +463,7 @@ though
 *
 textString
 =
-NULL
+nullptr
 ;
 *
 textLength
@@ -558,7 +558,7 @@ thouh
 *
 textString
 =
-NULL
+nullptr
 ;
 *
 textLength
@@ -688,7 +688,7 @@ substitution
 *
 numberSubstitution
 =
-NULL
+nullptr
 ;
 *
 textLength

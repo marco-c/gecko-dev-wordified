@@ -439,7 +439,7 @@ cairo_d2d_release_dc
 CairoSurface
 (
 )
-NULL
+nullptr
 )
 ;
 }

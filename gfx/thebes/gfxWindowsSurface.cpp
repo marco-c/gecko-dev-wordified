@@ -1328,7 +1328,7 @@ docinfo
 .
 lpszDatatype
 =
-NULL
+nullptr
 ;
 docinfo
 .

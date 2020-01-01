@@ -2148,7 +2148,7 @@ ctype
 setlocale
 (
 LC_CTYPE
-NULL
+nullptr
 )
 ;
 if

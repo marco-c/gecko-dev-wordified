@@ -1481,7 +1481,7 @@ mBitmap
 GpiSetBitmap
 (
 mPS
-NULL
+nullptr
 )
 ;
 GpiDeleteBitmap

@@ -2144,13 +2144,13 @@ Visual
 *
 target_visual
 =
-NULL
+nullptr
 ;
 XRenderPictFormat
 *
 target_format
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -2711,7 +2711,7 @@ DrawWithXlib
 (
 tempXlibSurface
 offset
-NULL
+nullptr
 0
 )
 ;
@@ -2835,7 +2835,7 @@ result
 >
 mSurface
 =
-NULL
+nullptr
 ;
 result
 -
@@ -3382,7 +3382,7 @@ result
 .
 result
 =
-NULL
+nullptr
 ;
 }
 nsRefPtr

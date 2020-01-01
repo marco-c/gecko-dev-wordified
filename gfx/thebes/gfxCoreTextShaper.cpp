@@ -241,7 +241,7 @@ gfxCoreTextShaper
 :
 sDefaultFeaturesDescriptor
 =
-NULL
+nullptr
 ;
 CTFontDescriptorRef
 gfxCoreTextShaper
@@ -249,7 +249,7 @@ gfxCoreTextShaper
 :
 sDisableLigaturesDescriptor
 =
-NULL
+nullptr
 ;
 gfxCoreTextShaper
 :
@@ -289,7 +289,7 @@ aFont
 GetAdjustedSize
 (
 )
-NULL
+nullptr
 GetDefaultFeaturesDescriptor
 (
 )
@@ -1404,21 +1404,21 @@ CGGlyph
 *
 glyphs
 =
-NULL
+nullptr
 ;
 const
 CGPoint
 *
 positions
 =
-NULL
+nullptr
 ;
 const
 CFIndex
 *
 glyphToChar
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1765,9 +1765,9 @@ CFRangeMake
 0
 0
 )
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 nsAutoTArray
@@ -3862,7 +3862,7 @@ if
 sDefaultFeaturesDescriptor
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -4187,7 +4187,7 @@ if
 sDisableLigaturesDescriptor
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -4423,7 +4423,7 @@ GetCGFontRef
 (
 )
 aSize
-NULL
+nullptr
 sDisableLigaturesDescriptor
 )
 ;
@@ -4446,7 +4446,7 @@ if
 sDisableLigaturesDescriptor
 !
 =
-NULL
+nullptr
 )
 {
 :
@@ -4458,7 +4458,7 @@ sDisableLigaturesDescriptor
 ;
 sDisableLigaturesDescriptor
 =
-NULL
+nullptr
 ;
 }
 if
@@ -4466,7 +4466,7 @@ if
 sDefaultFeaturesDescriptor
 !
 =
-NULL
+nullptr
 )
 {
 :
@@ -4478,7 +4478,7 @@ sDefaultFeaturesDescriptor
 ;
 sDefaultFeaturesDescriptor
 =
-NULL
+nullptr
 ;
 }
 }

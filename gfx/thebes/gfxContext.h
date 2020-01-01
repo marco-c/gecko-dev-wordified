@@ -471,8 +471,8 @@ CurrentSurface
 return
 CurrentSurface
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -2733,7 +2733,7 @@ offset
 |
 can
 be
-NULL
+nullptr
 to
 mean
 /

@@ -358,7 +358,7 @@ set
 When
 this
 is
-NULL
+nullptr
 it
 is
 assumed
