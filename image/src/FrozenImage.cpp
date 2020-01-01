@@ -196,6 +196,9 @@ bool
 aAnimated
 )
 {
+bool
+dummy
+;
 nsresult
 rv
 =
@@ -206,7 +209,8 @@ InnerImage
 >
 GetAnimated
 (
-aAnimated
+&
+dummy
 )
 ;
 if
