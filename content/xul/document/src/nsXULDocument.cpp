@@ -21572,8 +21572,6 @@ ExecuteScript
 (
 aScriptObject
 global
-nullptr
-nullptr
 )
 ;
 }
