@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedLength
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
