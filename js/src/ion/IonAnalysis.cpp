@@ -2406,6 +2406,10 @@ specializePhis
 (
 )
 {
+phisHaveBeenAnalyzed_
+=
+true
+;
 while
 (
 !
@@ -2430,10 +2434,6 @@ phi
 )
 ;
 }
-phisHaveBeenAnalyzed_
-=
-true
-;
 }
 /
 /
