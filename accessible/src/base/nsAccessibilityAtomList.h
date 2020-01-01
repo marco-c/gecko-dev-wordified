@@ -1624,6 +1624,13 @@ title
 )
 ACCESSIBILITY_ATOM
 (
+toolbarname
+"
+toolbarname
+"
+)
+ACCESSIBILITY_ATOM
+(
 tooltiptext
 "
 tooltiptext

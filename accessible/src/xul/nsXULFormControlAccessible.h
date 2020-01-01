@@ -1122,6 +1122,15 @@ PRUint32
 aRole
 )
 ;
+virtual
+nsresult
+GetNameInternal
+(
+nsAString
+&
+aName
+)
+;
 }
 ;
 class

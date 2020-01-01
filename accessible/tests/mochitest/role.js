@@ -482,6 +482,13 @@ nsIAccessibleRole
 ROLE_TOGGLE_BUTTON
 ;
 const
+ROLE_TOOLBAR
+=
+nsIAccessibleRole
+.
+ROLE_TOOLBAR
+;
+const
 ROLE_TOOLTIP
 =
 nsIAccessibleRole
