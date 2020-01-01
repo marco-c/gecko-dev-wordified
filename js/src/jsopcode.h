@@ -4598,6 +4598,15 @@ format
 .
 )
 ;
+extern
+bool
+CallResultEscapes
+(
+jsbytecode
+*
+pc
+)
+;
 }
 #
 endif
