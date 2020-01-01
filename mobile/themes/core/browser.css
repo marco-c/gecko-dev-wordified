@@ -5895,8 +5895,8 @@ background
 -
 size
 :
-24px
-24px
+26px
+26px
 ;
 }
 .
@@ -6014,11 +6014,11 @@ skin
 /
 images
 /
+autocomplete
+-
 search
 -
-glass
--
-30
+hdpi
 .
 png
 "
@@ -6245,7 +6245,7 @@ margin
 -
 end
 :
-24px
+26px
 ;
 }
 .
