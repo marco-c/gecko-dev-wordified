@@ -3002,7 +3002,14 @@ fph
 .
 getURLSpecFromFile
 (
-desk
+this
+.
+_getDownloadsFolder
+(
+"
+Desktop
+"
+)
 )
 ;
 }
