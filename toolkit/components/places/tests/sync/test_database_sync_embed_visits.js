@@ -476,6 +476,16 @@ at
 session
 close
 *
+*
+We
+instead
+sync
+to
+disk
+FRAMED_LINK
+visits
+.
+*
 /
 var
 hs
@@ -688,6 +698,9 @@ TRANSITION_BOOKMARK
 hs
 .
 TRANSITION_EMBED
+hs
+.
+TRANSITION_FRAMED_LINK
 hs
 .
 TRANSITION_REDIRECT_PERMANENT
