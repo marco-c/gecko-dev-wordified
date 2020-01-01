@@ -135,6 +135,10 @@ related
 options
 .
 from
+__future__
+import
+print_function
+from
 optparse
 import
 OptionParser
@@ -417,11 +421,15 @@ option
 not
 supported
 :
-%
-s
+{
+0
+}
 '
-%
+.
+format
+(
 opt
+)
 )
   
 p
@@ -573,13 +581,9 @@ write
 '
 nsinstall
 :
-'
-+
-options
-.
-m
-+
-'
+{
+0
+}
 is
 not
 a
@@ -588,6 +592,14 @@ mode
 \
 n
 '
+                       
+.
+format
+(
+options
+.
+m
+)
 )
       
 return
@@ -644,24 +656,28 @@ dir
 :
         
 print
->
->
-sys
-.
-stderr
 (
 '
 nsinstall
 :
-%
-s
+{
+0
+}
 is
 not
 a
 directory
 '
-%
+.
+format
+(
 dir
+)
+file
+=
+sys
+.
+stderr
 )
         
 return
@@ -709,6 +725,7 @@ dir
     
 except
 Exception
+as
 e
 :
       
@@ -747,11 +764,6 @@ False
 )
       
 print
->
->
-sys
-.
-stderr
 (
 "
 nsinstall
@@ -760,13 +772,16 @@ failed
 to
 create
 directory
-%
-s
+{
+0
+}
 :
-%
-s
+{
+1
+}
 "
-%
+.
+format
 (
 dir
 e

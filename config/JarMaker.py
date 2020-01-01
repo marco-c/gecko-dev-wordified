@@ -1461,9 +1461,12 @@ jarPath
 manifest
 '
 chromebasepath
-%
+.
+format
+(
 '
 '
+)
                           
 register
 )
@@ -1476,12 +1479,15 @@ chromeManifest
 manifest
 chrome
 /
-%
-s
+{
+0
+}
 .
 manifest
 '
-%
+                                            
+.
+format
 (
 os
 .
@@ -1507,11 +1513,14 @@ updateManifest
 (
 chromeManifest
 chromebasepath
-%
+.
+format
+(
 '
 chrome
 /
 '
+)
                           
 register
 )
@@ -2497,8 +2506,9 @@ registration
 manifests
     
 #
-%
-s
+{
+0
+}
 is
 getting
 replaced
@@ -2524,8 +2534,9 @@ manifest
 chromebasepath
 =
 '
-%
-s
+{
+0
+}
 '
 +
 os
@@ -2628,6 +2639,7 @@ jarfilepath
       
 except
 OSError
+as
 error
 :
         
@@ -3236,16 +3248,20 @@ RuntimeError
 '
 File
 "
-%
-s
+{
+0
+}
 "
 not
 found
 in
-%
-s
+{
+1
+}
 '
-%
+                           
+.
+format
 (
 src
 '
@@ -3673,6 +3689,7 @@ out
       
 except
 OSError
+as
 e
 :
         
@@ -3755,6 +3772,7 @@ outdir
         
 except
 OSError
+as
 error
 :
           
@@ -3844,6 +3862,7 @@ out
       
 except
 OSError
+as
 e
 :
         

@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
 import
 os
 re
@@ -176,7 +180,9 @@ this
         
 raise
 NotImplementedError
+(
 compiler
+)
 def
 is_comment
 (
@@ -376,11 +382,7 @@ argv
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -388,8 +390,9 @@ Usage
 :
   
 python
-%
-s
+{
+0
+}
 OUT_DIR
 (
 '
@@ -405,7 +408,8 @@ HEADER_LIST_FILE
 "
 "
 "
-%
+.
+format
 (
 sys
 .
@@ -413,6 +417,12 @@ argv
 [
 0
 ]
+)
+file
+=
+sys
+.
+stderr
 )
         
 sys

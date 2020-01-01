@@ -95,6 +95,10 @@ entry
 '
 '
 '
+from
+__future__
+import
+print_function
 import
 sys
 import
@@ -184,7 +188,6 @@ existing
 =
 set
 (
-[
 x
 .
 strip
@@ -198,7 +201,6 @@ f
 readlines
 (
 )
-]
 )
       
 f
@@ -244,13 +246,17 @@ f
 write
 (
 "
-%
-s
+{
+0
+}
 \
 n
 "
-%
+.
+format
+(
 e
+)
 )
         
 existing
@@ -293,11 +299,7 @@ argv
 :
     
 print
->
->
-sys
-.
-stderr
+(
 "
 Usage
 :
@@ -320,6 +322,13 @@ entry
 .
 ]
 "
+          
+file
+=
+sys
+.
+stderr
+)
     
 sys
 .

@@ -1,4 +1,9 @@
 #
+>
+>
+sys
+.
+stderr
 This
 Source
 Code
@@ -164,6 +169,7 @@ break
       
 except
 OSError
+as
 e
 :
         
@@ -327,10 +333,12 @@ break
     
 except
 OSError
+as
 e
 :
       
 if
+(
 e
 .
 errno
@@ -340,8 +348,7 @@ errno
 .
 EEXIST
 or
-\
-         
+          
 (
 sys
 .
@@ -360,6 +367,7 @@ errno
 errno
 .
 EACCES
+)
 )
 :
         
@@ -424,6 +432,7 @@ lockfile
     
 except
 EnvironmentError
+as
 e
 :
       
@@ -479,8 +488,9 @@ sys
 exit
 (
 "
-%
-s
+{
+0
+}
 exists
 but
 stat
@@ -488,11 +498,13 @@ stat
 )
 failed
 :
-%
-s
+{
+1
+}
 "
-%
                
+.
+format
 (
 lockfile
 e
@@ -562,8 +574,9 @@ sys
 exit
 (
 "
-%
-s
+{
+0
+}
 has
 been
 locked
@@ -571,23 +584,24 @@ for
 more
 than
 "
-\
                
 "
-%
-d
+{
+1
+}
 seconds
 (
 PID
-%
-s
+{
+2
+}
 )
 "
-%
+.
+format
 (
 lockfile
 max_wait
-                                        
 pid
 )
 )
@@ -669,16 +683,20 @@ f
 write
 (
 "
-%
-d
+{
+0
+}
 \
 n
 "
-%
+.
+format
+(
 os
 .
 getpid
 (
+)
 )
 )
   
@@ -736,7 +754,7 @@ item
 to
 get
 the
-givem
+given
 item
 as
 next

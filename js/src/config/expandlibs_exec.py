@@ -271,7 +271,7 @@ targets
 from
 __future__
 import
-with_statement
+print_function
 import
 sys
 import
@@ -279,11 +279,14 @@ os
 from
 expandlibs
 import
+(
 ExpandArgs
 relativize
 isObject
 ensureParentDir
+                        
 ExpandLibsDeps
+)
 import
 expandlibs_config
 as
@@ -857,15 +860,19 @@ content
 INPUT
 (
 "
-%
-s
+{
+0
+}
 "
 )
 \
 n
 '
-%
+.
+format
+(
 obj
+)
 for
 obj
 in
@@ -891,13 +898,17 @@ content
 =
 [
 "
-%
-s
+{
+0
+}
 \
 n
 "
-%
+.
+format
+(
 obj
+)
 for
 obj
 in
@@ -1352,15 +1363,16 @@ order
 '
         
 if
-not
 conf
 .
 EXPAND_LIBS_ORDER_STYLE
+not
 in
 [
 '
 linkerscript
 '
+                                                
 '
 section
 -
@@ -1377,17 +1389,22 @@ Exception
 '
 EXPAND_LIBS_ORDER_STYLE
 "
-%
-s
+{
+0
+}
 "
 is
 not
 supported
 '
-%
+                            
+.
+format
+(
 conf
 .
 EXPAND_LIBS_ORDER_STYLE
+)
 )
         
 finder
@@ -1400,12 +1417,14 @@ for
 arg
 in
 self
+                                
 if
 isObject
 (
 arg
 )
 or
+                                
 os
 .
 path
@@ -1748,8 +1767,9 @@ section
 ordering
 -
 file
-%
-s
+{
+0
+}
 '
             
 content
@@ -1777,13 +1797,17 @@ content
 append
 (
 '
-%
-s
+{
+0
+}
 .
 *
 '
-%
+.
+format
+(
 linked_section
+)
 )
                 
 content
@@ -1811,8 +1835,9 @@ option
 Wl
 -
 T
-%
-s
+{
+0
+}
 '
             
 section_insert_before
@@ -1835,6 +1860,7 @@ append
 '
 SECTIONS
 {
+{
 '
 )
                 
@@ -1843,13 +1869,18 @@ content
 append
 (
 '
-%
-s
+{
+0
+}
 :
 {
+{
 '
-%
+.
+format
+(
 linked_section
+)
 )
                 
 content
@@ -1859,11 +1890,15 @@ extend
 '
 *
 (
-%
-s
+{
+0
+}
 )
 '
-%
+                               
+.
+format
+(
 s
 for
 s
@@ -1873,12 +1908,14 @@ split_sections
 linked_section
 ]
 )
+)
                 
 content
 .
 append
 (
 '
+}
 }
 '
 )
@@ -1888,6 +1925,7 @@ content
 append
 (
 '
+}
 }
 '
 )
@@ -1899,14 +1937,19 @@ append
 '
 INSERT
 BEFORE
-%
-s
+{
+0
+}
 '
-%
+                               
+.
+format
+(
 section_insert_before
 [
 linked_section
 ]
+)
 )
         
 else
@@ -1918,17 +1961,22 @@ Exception
 '
 EXPAND_LIBS_ORDER_STYLE
 "
-%
-s
+{
+0
+}
 "
 is
 not
 supported
 '
-%
+                            
+.
+format
+(
 conf
 .
 EXPAND_LIBS_ORDER_STYLE
+)
 )
         
 fd
@@ -1997,8 +2045,11 @@ self
 append
 (
 option
-%
+.
+format
+(
 tmp
+)
 )
 class
 SectionFinder
@@ -2081,17 +2132,22 @@ Exception
 '
 EXPAND_LIBS_ORDER_STYLE
 "
-%
-s
+{
+0
+}
 "
 is
 not
 supported
 '
-%
+                            
+.
+format
+(
 conf
 .
 EXPAND_LIBS_ORDER_STYLE
+)
 )
         
 self
@@ -2136,8 +2192,9 @@ raise
 Exception
 (
 '
-%
-s
+{
+0
+}
 is
 not
 an
@@ -2147,8 +2204,12 @@ a
 static
 library
 '
-%
+                                
+.
+format
+(
 obj
+)
 )
             
 for
@@ -2181,8 +2242,8 @@ mapping
 :
                     
 if
-not
 section
+not
 in
 self
 .
@@ -2720,9 +2781,7 @@ args
 :
     
 print
->
->
-out
+(
 "
 Executing
 :
@@ -2734,6 +2793,10 @@ Executing
 join
 (
 args
+)
+file
+=
+out
 )
     
 for
@@ -2760,14 +2823,16 @@ f
 :
         
 print
->
->
-out
+(
 tmp
 +
 "
 :
 "
+file
+=
+out
+)
         
 with
 open
@@ -2779,9 +2844,7 @@ file
 :
             
 print
->
->
-out
+(
 "
 "
 .
@@ -2801,6 +2864,10 @@ readlines
 (
 )
 ]
+)
+file
+=
+out
 )
     
 out
@@ -3304,15 +3371,19 @@ depfile
 write
 (
 "
-%
-s
+{
+0
+}
 :
-%
-s
+{
+1
+}
 \
 n
 "
-%
+                      
+.
+format
 (
 options
 .
@@ -3327,6 +3398,7 @@ for
 dep
 in
 deps
+                                                       
 if
 os
 .
@@ -3337,6 +3409,7 @@ isfile
 dep
 )
 and
+                                                       
 dep
 !
 =
