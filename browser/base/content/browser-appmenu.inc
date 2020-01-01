@@ -1737,7 +1737,7 @@ label
 =
 "
 &
-showAllBookmarks
+showAllBookmarks2
 .
 label
 ;
@@ -2633,7 +2633,7 @@ label
 =
 "
 &
-preferencesCmd
+preferencesCmd2
 .
 label
 ;
@@ -2679,7 +2679,7 @@ label
 =
 "
 &
-preferencesCmd
+preferencesCmd2
 .
 label
 ;
@@ -2737,7 +2737,7 @@ label
 =
 "
 &
-preferencesCmd
+preferencesCmd2
 .
 label
 ;
