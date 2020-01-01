@@ -1549,7 +1549,7 @@ v
 ;
 }
 bool
-append
+appendAll
 (
 const
 AutoVectorRooter
@@ -1563,7 +1563,7 @@ other
 return
 vector
 .
-append
+appendAll
 (
 other
 .

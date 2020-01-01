@@ -1898,6 +1898,9 @@ void
 setInputWindows
 (
 const
+android
+:
+:
 Vector
 <
 sp
@@ -2875,6 +2878,9 @@ GeckoInputDispatcher
 setInputWindows
 (
 const
+android
+:
+:
 Vector
 <
 sp
