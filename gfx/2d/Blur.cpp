@@ -4590,7 +4590,7 @@ boxSize
 return
 ;
 }
-uint32_t
+int32_t
 stride32bit
 =
 aIntegralImageStride
