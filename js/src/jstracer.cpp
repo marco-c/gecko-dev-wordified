@@ -59049,7 +59049,7 @@ lir
 >
 ins2
 (
-LIR_qeq
+LIR_peq
 v_ins
 INS_CONSTWORD
 (
