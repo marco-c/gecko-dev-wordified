@@ -619,6 +619,17 @@ flags
 =
 NS_MATHML_STRETCH_ALL_CHILDREN_VERTICALLY
 ;
+RemoveFencesAndSeparators
+(
+)
+;
+CreateFencesAndSeparators
+(
+PresContext
+(
+)
+)
+;
 return
 NS_OK
 ;
