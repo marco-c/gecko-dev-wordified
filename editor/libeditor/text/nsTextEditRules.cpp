@@ -1380,7 +1380,7 @@ nsTextEditRules
 :
 WillDoAction
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 nsRulesInfo

@@ -3657,7 +3657,7 @@ nsHTMLEditRules
 :
 WillDoAction
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 nsRulesInfo
