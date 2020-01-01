@@ -1182,11 +1182,7 @@ duration
 c
 .
 mVolume
-channelData
-.
-Length
-(
-)
+outputChannels
 buf
 .
 Elements
