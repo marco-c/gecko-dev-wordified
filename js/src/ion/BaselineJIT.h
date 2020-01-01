@@ -350,6 +350,15 @@ CodeOffsetLabel
 returnOffset
 )
 ;
+ICEntry
+&
+icEntryFromReturnAddress
+(
+uint8_t
+*
+returnAddr
+)
+;
 size_t
 numICEntries
 (
