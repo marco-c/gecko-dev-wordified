@@ -1392,10 +1392,6 @@ INT_CONSTANT
 (
 DT_SOCK
 )
-INT_CONSTANT
-(
-DT_WHT
-)
 #
 endif
 /
