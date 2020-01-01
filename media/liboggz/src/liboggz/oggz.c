@@ -1064,15 +1064,13 @@ oggz
 streams
 )
 ;
-assert
-(
-oggz_dlist_is_empty
+oggz_dlist_deliter
 (
 oggz
 -
 >
 packet_buffer
-)
+oggz_read_free_pbuffers
 )
 ;
 oggz_dlist_delete
