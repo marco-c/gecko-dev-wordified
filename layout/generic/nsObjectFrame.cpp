@@ -25560,6 +25560,7 @@ IsRemoteDrawingCoreAnimation
 {
 if
 (
+!
 mInstance
 )
 return
