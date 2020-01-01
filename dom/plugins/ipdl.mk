@@ -403,6 +403,10 @@ PBrowserStream
 .
 ipdl
 \
+PPluginStream
+.
+ipdl
+\
 PStreamNotify
 .
 ipdl
