@@ -1828,7 +1828,7 @@ nsSVGFilterFrame
 :
 FilterPaint
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -1909,7 +1909,7 @@ CompositeSurfaceMatrix
 aContext
 -
 >
-GetGfxContext
+ThebesContext
 (
 )
 result

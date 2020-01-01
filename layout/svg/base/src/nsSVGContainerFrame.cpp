@@ -1084,7 +1084,7 @@ nsSVGDisplayContainerFrame
 :
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

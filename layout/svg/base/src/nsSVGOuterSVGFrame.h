@@ -791,8 +791,8 @@ nsDisplayListBuilder
 *
 aBuilder
 nsRenderingContext
-&
-aRenderingContext
+*
+aContext
 const
 nsRect
 &

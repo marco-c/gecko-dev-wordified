@@ -460,6 +460,9 @@ gfxMatrix
 .
 h
 "
+class
+nsRenderingContext
+;
 typedef
 nsContainerFrame
 nsSVGContainerFrameBase
@@ -699,7 +702,7 @@ interface
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

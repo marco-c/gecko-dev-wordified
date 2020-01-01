@@ -774,7 +774,7 @@ nsSVGInnerSVGFrame
 :
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const
@@ -875,7 +875,7 @@ gfx
 aContext
 -
 >
-GetGfxContext
+ThebesContext
 (
 )
 ;

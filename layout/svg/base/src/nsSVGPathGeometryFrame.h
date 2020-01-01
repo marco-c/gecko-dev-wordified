@@ -482,6 +482,9 @@ nsSVGGeometryFrame
 h
 "
 class
+nsRenderingContext
+;
+class
 nsSVGMarkerFrame
 ;
 class
@@ -632,7 +635,7 @@ interface
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const
@@ -756,7 +759,7 @@ private
 void
 Render
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 )

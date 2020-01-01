@@ -441,7 +441,7 @@ nsSVGContainerFrame
 h
 "
 class
-nsSVGRenderState
+nsRenderingContext
 ;
 class
 nsSVGFilterPaintCallback
@@ -502,7 +502,7 @@ aModType
 nsresult
 FilterPaint
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 nsIFrame

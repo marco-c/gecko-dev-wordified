@@ -496,6 +496,9 @@ nsTextFragment
 h
 "
 class
+nsRenderingContext
+;
+class
 nsSVGTextFrame
 ;
 class
@@ -1108,7 +1111,7 @@ NS_STATE_NONDISPLAY_CHILD
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const
