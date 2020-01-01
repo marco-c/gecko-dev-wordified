@@ -19127,6 +19127,12 @@ mResultArrayBuffer
 =
 nullptr
 ;
+mArrayBufferBuilder
+.
+reset
+(
+)
+;
 }
 }
 mProgressSinceLastProgressEvent
