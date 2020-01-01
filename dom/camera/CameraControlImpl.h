@@ -282,8 +282,6 @@ dom
 :
 CameraPosition
 aPosition
-uint64_t
-aDateTime
 nsICameraTakePictureCallback
 *
 onSuccess
@@ -2167,8 +2165,6 @@ dom
 :
 CameraPosition
 aPosition
-uint64_t
-aDateTime
 nsICameraTakePictureCallback
 *
 onSuccess
@@ -2200,10 +2196,6 @@ aFileFormat
 mPosition
 (
 aPosition
-)
-mDateTime
-(
-aDateTime
 )
 mOnSuccessCb
 (
@@ -2400,9 +2392,6 @@ dom
 :
 CameraPosition
 mPosition
-;
-uint64_t
-mDateTime
 ;
 nsMainThreadPtrHandle
 <
