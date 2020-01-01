@@ -2167,6 +2167,7 @@ persistCredentials
 function
 persistCredentials
 (
+force
 )
 {
 if
@@ -2174,6 +2175,9 @@ if
 this
 .
 _basicPasswordUpdated
+|
+|
+force
 )
 {
 if
@@ -2236,6 +2240,9 @@ if
 this
 .
 _syncKeyUpdated
+|
+|
+force
 )
 {
 if

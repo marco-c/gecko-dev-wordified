@@ -6322,6 +6322,7 @@ _identity
 .
 persistCredentials
 (
+true
 )
 ;
 }
