@@ -90,6 +90,13 @@ h
 "
 #
 include
+"
+nsSize
+.
+h
+"
+#
+include
 <
 stdint
 .

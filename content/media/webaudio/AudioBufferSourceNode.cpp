@@ -133,6 +133,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+AudioParam
+.
+h
+"
+#
+include
+"
 nsMathUtils
 .
 h

@@ -141,17 +141,6 @@ include
 "
 mozilla
 /
-dom
-/
-AudioParam
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Mutex
 .
 h
@@ -164,6 +153,9 @@ dom
 {
 struct
 ThreeDPoint
+;
+class
+AudioParamTimeline
 ;
 }
 class

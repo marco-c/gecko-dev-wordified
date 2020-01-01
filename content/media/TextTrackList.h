@@ -149,9 +149,6 @@ namespace
 dom
 {
 class
-TextTrack
-;
-class
 TextTrackList
 MOZ_FINAL
 :

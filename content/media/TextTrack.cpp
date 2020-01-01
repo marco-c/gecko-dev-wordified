@@ -133,6 +133,17 @@ TextTrackBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+TextTrackCueList
+.
+h
+"
 namespace
 mozilla
 {
