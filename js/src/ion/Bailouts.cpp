@@ -2028,12 +2028,6 @@ getUseCount
 }
 #
 endif
-SnapshotIterator
-iter
-(
-it
-)
-;
 /
 /
 Set
@@ -2454,6 +2448,12 @@ fp
 >
 setConstructing
 (
+)
+;
+SnapshotIterator
+iter
+(
+it
 )
 ;
 while
