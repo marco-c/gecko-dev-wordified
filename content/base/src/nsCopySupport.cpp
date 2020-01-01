@@ -4450,6 +4450,11 @@ event
 has
 fired
 .
+if
+(
+clipboardData
+)
+{
 clipboardData
 -
 >
@@ -4464,6 +4469,7 @@ SetReadOnly
 (
 )
 ;
+}
 return
 doDefault
 ;
@@ -4613,6 +4619,10 @@ false
 }
 }
 else
+if
+(
+clipboardData
+)
 {
 /
 /
