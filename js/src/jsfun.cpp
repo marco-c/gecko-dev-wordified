@@ -7653,6 +7653,9 @@ cx
 obj
 INT_TO_JSID
 (
+(
+int16
+)
 slot
 )
 &
