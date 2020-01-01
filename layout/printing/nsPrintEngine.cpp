@@ -14904,10 +14904,16 @@ docTitleStr
 docURLStr
 )
 ;
+docTitleStr
+=
+nsnull
+;
+docURLStr
+=
+nsnull
+;
 }
 }
-else
-{
 if
 (
 docTitleStr
@@ -14932,7 +14938,6 @@ Free
 docURLStr
 )
 ;
-}
 PR_PL
 (
 (
