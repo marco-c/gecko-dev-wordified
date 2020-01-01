@@ -577,6 +577,17 @@ channel
 "
 ;
 const
+PREF_APP_UPDATE_DESIREDCHANNEL
+=
+"
+app
+.
+update
+.
+desiredChannel
+"
+;
+const
 PREF_APP_UPDATE_ENABLED
 =
 "
