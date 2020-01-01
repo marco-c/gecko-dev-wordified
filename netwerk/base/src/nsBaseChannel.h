@@ -1627,12 +1627,10 @@ IsPending
 const
 {
 return
-(
 mPump
-!
-=
-nsnull
-)
+|
+|
+mWaitingOnAsyncRedirect
 ;
 }
 /
@@ -2263,6 +2261,9 @@ mSynthProgressEvents
 ;
 PRPackedBool
 mWasOpened
+;
+PRPackedBool
+mWaitingOnAsyncRedirect
 ;
 }
 ;

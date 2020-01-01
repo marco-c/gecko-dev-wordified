@@ -462,7 +462,7 @@ if
 (
 iid
 .
-Equals
+equals
 (
 Ci
 .
@@ -472,7 +472,7 @@ nsIStreamListener
 |
 iid
 .
-Equals
+equals
 (
 Ci
 .
@@ -482,7 +482,7 @@ nsIRequestObserver
 |
 iid
 .
-Equals
+equals
 (
 Ci
 .
