@@ -3697,7 +3697,7 @@ fp
 )
 -
 >
-maybeFun
+maybeScriptFunction
 (
 )
 ;
