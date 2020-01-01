@@ -1569,6 +1569,8 @@ adjust
 before
 returning
 .
+/
+/
 uint32
 HandleException
 (
