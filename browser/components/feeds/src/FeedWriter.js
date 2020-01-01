@@ -7154,6 +7154,16 @@ chooseApplicationMenuItem
 ;
 menuItem
 .
+className
+=
+"
+menuitem
+-
+iconic
+"
+;
+menuItem
+.
 setAttribute
 (
 "
