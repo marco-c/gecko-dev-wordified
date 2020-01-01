@@ -105,13 +105,6 @@ Logging
 h
 "
 #
-include
-"
-gfxFont
-.
-h
-"
-#
 ifdef
 MOZ_ENABLE_FREETYPE
 #
