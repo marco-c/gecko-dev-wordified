@@ -472,7 +472,7 @@ h
 *
 The
 basic
-implemetation
+implementation
 of
 nsIAccessibleSelectable
 .

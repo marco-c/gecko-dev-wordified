@@ -15378,7 +15378,7 @@ re
 sync
 when
 they
-loose
+lose
 coherence
 .
 |

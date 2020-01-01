@@ -949,7 +949,7 @@ gets
 and
 /
 /
-looses
+loses
 focus
 .
 void

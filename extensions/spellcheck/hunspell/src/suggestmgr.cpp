@@ -1161,7 +1161,7 @@ generate
 suggestions
 for
 a
-mispelled
+misspelled
 word
 /
 /

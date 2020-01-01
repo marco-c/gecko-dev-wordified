@@ -735,7 +735,7 @@ this
 .
 mInlineSpellChecker
 .
-getMispelledWord
+getMisspelledWord
 (
 rangeParent
 rangeOffset
