@@ -435,7 +435,7 @@ BLOCK
 The
 multiplex
 stream
-concatinates
+concatenates
 a
 list
 of
