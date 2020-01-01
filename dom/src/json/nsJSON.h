@@ -718,10 +718,6 @@ protected
 PRBool
 mNeedsConverter
 ;
-JSONParser
-*
-mJSONParser
-;
 JSContext
 *
 mCx
@@ -738,6 +734,12 @@ mDecoder
 ;
 nsCString
 mSniffBuffer
+;
+nsTArray
+<
+PRUnichar
+>
+mBufferedChars
 ;
 DecodingMode
 mDecodingMode
@@ -773,11 +775,6 @@ PRUnichar
 data
 PRUint32
 len
-)
-;
-void
-Cleanup
-(
 )
 ;
 }
