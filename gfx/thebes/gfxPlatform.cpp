@@ -5376,7 +5376,7 @@ INTENT_MIN
 define
 INTENT_MAX
 3
-PRBool
+int
 gfxPlatform
 :
 :

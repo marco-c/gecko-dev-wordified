@@ -1739,12 +1739,9 @@ first
 docshell
 .
 static
-PRBool
+PRUint32
 gValidateOrigin
 =
-(
-PRBool
-)
 0xffffffff
 ;
 /
@@ -26126,9 +26123,6 @@ if
 gValidateOrigin
 =
 =
-(
-PRBool
-)
 0xffffffff
 )
 {

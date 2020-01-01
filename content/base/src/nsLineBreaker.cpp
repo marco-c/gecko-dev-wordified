@@ -2145,7 +2145,7 @@ const
 PRUnichar
 *
 aTextLimit
-PRPackedBool
+PRUint8
 *
 aBreakState
 )
@@ -2793,7 +2793,7 @@ set
 it
 to
 false
-PRPackedBool
+PRUint8
 currentStart
 =
 breakState

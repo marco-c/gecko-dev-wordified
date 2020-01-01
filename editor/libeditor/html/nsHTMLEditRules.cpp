@@ -34538,7 +34538,7 @@ selected
 .
 /
 /
-PRBool
+nsresult
 nsHTMLEditRules
 :
 :

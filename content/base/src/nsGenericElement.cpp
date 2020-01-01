@@ -22514,7 +22514,7 @@ GetChildCount
 (
 )
 ;
-PRBool
+PRInt32
 firstInsPos
 =
 insPos

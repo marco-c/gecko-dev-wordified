@@ -63568,7 +63568,7 @@ r
 ret
 )
 ;
-JSBool
+int32
 cmp
 ;
 if

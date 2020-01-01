@@ -1945,7 +1945,7 @@ const
 PRUnichar
 *
 aTextLimit
-PRPackedBool
+PRUint8
 *
 aBreakState
 )

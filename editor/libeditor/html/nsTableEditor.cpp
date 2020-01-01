@@ -15998,7 +15998,7 @@ as
 just
 1
 )
-PRBool
+PRInt32
 nsHTMLEditor
 :
 :
@@ -16073,7 +16073,7 @@ isSelected
 NS_ENSURE_SUCCESS
 (
 res
-res
+0
 )
 ;
 if

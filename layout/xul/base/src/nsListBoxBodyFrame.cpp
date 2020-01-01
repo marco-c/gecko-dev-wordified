@@ -917,7 +917,7 @@ nsITimer
 >
 mRepeatTimer
 ;
-PRBool
+PRInt32
 mDelta
 ;
 nsListBoxBodyFrame

@@ -4743,9 +4743,6 @@ aHowToEnableFrameUI
 *
 aHowToEnableFrameUI
 =
-(
-PRInt32
-)
 mHowToEnableFrameUI
 ;
 return
