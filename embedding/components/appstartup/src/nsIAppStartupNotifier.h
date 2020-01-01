@@ -633,9 +633,7 @@ nsIObserver
 )
 and
 invoke
-it
-'
-s
+its
 Observe
 (
 )

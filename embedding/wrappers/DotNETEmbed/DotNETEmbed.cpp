@@ -650,9 +650,7 @@ String
 object
 and
 exposes
-it
-'
-s
+its
 underlying
 /
 /

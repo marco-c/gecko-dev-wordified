@@ -2038,9 +2038,7 @@ gets
 created
 and
 how
-it
-'
-s
+its
 mWebBrowser
 member
 /

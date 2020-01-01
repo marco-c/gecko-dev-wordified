@@ -6210,9 +6210,7 @@ dlg
 /
 then
 figure
-it
-'
-s
+its
 gap
 from
 the

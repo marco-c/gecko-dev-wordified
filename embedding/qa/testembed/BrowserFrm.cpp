@@ -1846,9 +1846,7 @@ it
 .
 Set
 up
-it
-'
-s
+its
 size
 (
 16
@@ -2416,9 +2414,7 @@ the
 progress
 bar
 into
-it
-'
-s
+its
 correct
 location
 /

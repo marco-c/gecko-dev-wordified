@@ -1322,9 +1322,7 @@ toolbar
 button
 based
 on
-it
-'
-s
+its
 current
 state
 /

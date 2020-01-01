@@ -2144,9 +2144,7 @@ re
 trying
 to
 find
-it
-'
-s
+its
 install
 /
 /
