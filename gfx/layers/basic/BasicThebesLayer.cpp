@@ -2225,7 +2225,7 @@ gfxASurface
 NS_RUNTIMEABORT
 (
 "
-ThebesLayerComposite
+ShadowThebesLayer
 can
 '
 t

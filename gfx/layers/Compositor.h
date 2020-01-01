@@ -265,7 +265,7 @@ abstractions
 Layer
 ShadowableLayer
 and
-LayerComposite
+ShadowLayer
 *
 (
 see

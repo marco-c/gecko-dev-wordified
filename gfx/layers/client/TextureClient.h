@@ -157,6 +157,9 @@ namespace
 layers
 {
 class
+PTextureChild
+;
+class
 ContentClient
 ;
 class
@@ -164,6 +167,9 @@ PlanarYCbCrImage
 ;
 class
 Image
+;
+class
+PTextureChild
 ;
 class
 CompositableForwarder

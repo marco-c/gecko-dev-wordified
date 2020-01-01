@@ -250,10 +250,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
 LayerManagerComposite
 .
 h
