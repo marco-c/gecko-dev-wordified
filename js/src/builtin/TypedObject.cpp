@@ -231,6 +231,17 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+Shape
+-
+inl
+.
+h
+"
 using
 mozilla
 :
