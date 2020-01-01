@@ -167,6 +167,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -735,6 +744,7 @@ anonymous
 namespace
 class
 MapsReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
