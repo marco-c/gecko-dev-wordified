@@ -634,13 +634,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsISelectionPrivate
 .
 h
@@ -649,13 +642,6 @@ h
 include
 "
 nsIServiceManager
-.
-h
-"
-#
-include
-"
-nsIViewManager
 .
 h
 "
