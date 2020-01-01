@@ -61599,6 +61599,9 @@ cx
 =
 aCx
 ;
+nsCxPusher
+pusher
+;
 if
 (
 !
@@ -61613,6 +61616,17 @@ nsContentUtils
 GetContextFromDocument
 (
 document
+)
+;
+pusher
+.
+Push
+(
+cx
+nsCxPusher
+:
+:
+ASSERT_SCRIPT_CONTEXT
 )
 ;
 }
