@@ -2406,6 +2406,12 @@ timeout
 self
 .
 timeout
+                                         
+device_serial
+=
+self
+.
+device_serial
 )
         
 elif
