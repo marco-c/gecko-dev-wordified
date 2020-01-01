@@ -1403,7 +1403,7 @@ i
 }
 #
 ifdef
-DEBUG
+DEBUG_hyph
 printf
 (
 "
