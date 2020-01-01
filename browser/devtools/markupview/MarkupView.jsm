@@ -2106,8 +2106,6 @@ parent
 )
 ;
 }
-/
-/
 LayoutHelpers
 .
 scrollIntoViewIfNeeded
@@ -2120,6 +2118,8 @@ get
 (
 aNode
 )
+.
+editor
 .
 elt
 false
