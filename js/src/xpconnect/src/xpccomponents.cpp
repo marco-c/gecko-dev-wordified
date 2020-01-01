@@ -15605,7 +15605,6 @@ CreateExplicitWrapper
 (
 cx
 wn
-JS_TRUE
 rval
 )
 ;
