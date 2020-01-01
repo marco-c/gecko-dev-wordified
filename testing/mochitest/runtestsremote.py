@@ -129,8 +129,8 @@ import
 MochitestServer
 import
 devicemanager
-devicemanagerADB
-devicemanagerSUT
+import
+droid
 import
 manifestparser
 class
@@ -4390,9 +4390,9 @@ deviceIP
             
 dm
 =
-devicemanagerADB
+droid
 .
-DeviceManagerADB
+DroidADB
 (
 options
 .
@@ -4412,9 +4412,9 @@ else
             
 dm
 =
-devicemanagerADB
+droid
 .
-DeviceManagerADB
+DroidADB
 (
 deviceRoot
 =
@@ -4428,9 +4428,9 @@ else
          
 dm
 =
-devicemanagerSUT
+droid
 .
-DeviceManagerSUT
+DroidSUT
 (
 options
 .
