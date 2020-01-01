@@ -11316,7 +11316,7 @@ false
 *
 Creates
 a
-Transeferable
+Transferable
 object
 that
 can
@@ -11474,7 +11474,6 @@ i
 ]
 )
 )
-;
 xferable
 .
 addDataFlavor
