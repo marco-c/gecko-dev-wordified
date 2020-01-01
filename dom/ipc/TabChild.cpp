@@ -3202,11 +3202,6 @@ GetViewportInfo
 (
 document
 mInnerSize
-.
-width
-mInnerSize
-.
-height
 )
 ;
 SendUpdateZoomConstraints
@@ -3247,12 +3242,7 @@ viewport
 (
 viewportInfo
 .
-GetWidth
-(
-)
-viewportInfo
-.
-GetHeight
+GetSize
 (
 )
 )

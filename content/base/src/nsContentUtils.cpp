@@ -27286,10 +27286,10 @@ GetViewportInfo
 nsIDocument
 *
 aDocument
-uint32_t
-aDisplayWidth
-uint32_t
-aDisplayHeight
+const
+ScreenIntSize
+&
+aDisplaySize
 )
 {
 return
@@ -27298,8 +27298,7 @@ aDocument
 >
 GetViewportInfo
 (
-aDisplayWidth
-aDisplayHeight
+aDisplaySize
 )
 ;
 }

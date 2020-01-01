@@ -62421,8 +62421,11 @@ GetViewportInfo
 GetDocument
 (
 )
+ScreenIntSize
+(
 screenWidth
 screenHeight
+)
 )
 ;
 if
