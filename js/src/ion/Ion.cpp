@@ -11217,13 +11217,6 @@ isFunctionFrame
 )
 )
 {
-fp
--
->
-cleanupTornValues
-(
-)
-;
 /
 /
 CountArgSlot
