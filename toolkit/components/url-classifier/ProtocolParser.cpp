@@ -3130,9 +3130,6 @@ hash
 Completion
 domHash
 ;
-Prefix
-newHash
-;
 rv
 =
 LookupCache
@@ -3200,6 +3197,9 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
+;
+Prefix
+newHash
 ;
 newHash
 .
