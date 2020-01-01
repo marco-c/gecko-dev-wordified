@@ -2233,6 +2233,15 @@ contains
 any
 data
 .
+Returns
+true
+if
+a
+drag
+has
+*
+started
+.
 *
 *
 aDragEvent
@@ -2275,7 +2284,7 @@ being
 dragged
 *
 /
-void
+PRBool
 DoDefaultDragStart
 (
 nsPresContext
