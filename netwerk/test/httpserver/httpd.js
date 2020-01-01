@@ -7518,7 +7518,7 @@ if
 readSuccess
 )
 return
-true
+false
 ;
 /
 /
