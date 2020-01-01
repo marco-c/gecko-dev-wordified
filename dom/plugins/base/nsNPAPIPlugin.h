@@ -808,7 +808,7 @@ aPluginTag
 nsresult
 CreatePluginInstance
 (
-nsNPAPIPluginInstance
+nsIPluginInstance
 *
 *
 aResult
@@ -942,6 +942,9 @@ inline
 NPIdentifier
 StringToNPIdentifier
 (
+JSContext
+*
+cx
 JSString
 *
 str
@@ -952,6 +955,7 @@ JSIdToNPIdentifier
 (
 INTERNED_STRING_TO_JSID
 (
+cx
 str
 )
 )

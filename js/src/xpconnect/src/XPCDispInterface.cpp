@@ -1209,6 +1209,7 @@ SetName
 (
 INTERNED_STRING_TO_JSID
 (
+cx
 str
 )
 )

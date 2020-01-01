@@ -18576,6 +18576,7 @@ sPasteInternal_id
 =
 INTERNED_STRING_TO_JSID
 (
+cx
 :
 :
 JS_InternString
@@ -18633,6 +18634,7 @@ sCutCopyInternal_id
 =
 INTERNED_STRING_TO_JSID
 (
+cx
 :
 :
 JS_InternString
