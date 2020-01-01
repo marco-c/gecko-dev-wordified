@@ -5323,17 +5323,6 @@ Label
 fail
 )
 {
-JSCompartment
-*
-compartment
-=
-GetIonContext
-(
-)
--
->
-compartment
-;
 void
 *
 interrupt
