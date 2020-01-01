@@ -4926,6 +4926,12 @@ dispatchEvent
 evt
 )
 ;
+Tabs
+.
+zombifyLru
+(
+)
+;
 return
 newTab
 ;
