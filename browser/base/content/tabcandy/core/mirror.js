@@ -560,6 +560,8 @@ lastDraw
 ;
 *
 /
+/
+*
 if
 (
 this
@@ -588,6 +590,8 @@ getMilliseconds
 (
 )
 ;
+*
+/
 ctx
 .
 save
@@ -640,6 +644,8 @@ restore
 (
 )
 ;
+/
+*
 var
 elapsed
 =
@@ -680,6 +686,8 @@ getMilliseconds
 )
 ;
 }
+*
+/
 ctx
 .
 restore
@@ -1376,6 +1384,8 @@ paint
 (
 )
 ;
+/
+*
 if
 (
 mirror
@@ -1386,6 +1396,8 @@ needsPaint
 <
 now
 )
+*
+/
 mirror
 .
 needsPaint
