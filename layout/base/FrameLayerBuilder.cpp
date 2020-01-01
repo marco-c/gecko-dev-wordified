@@ -9061,6 +9061,10 @@ matrix
 GetTranslation
 (
 )
++
+mParameters
+.
+mOffset
 ;
 /
 /
