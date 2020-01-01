@@ -159,7 +159,11 @@ h
 #
 include
 "
-nsHTMLVideoElement
+mozilla
+/
+dom
+/
+HTMLVideoElement
 .
 h
 "
