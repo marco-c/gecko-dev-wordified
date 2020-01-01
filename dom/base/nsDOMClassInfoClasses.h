@@ -416,10 +416,6 @@ DOMCI_CLASS
 (
 MozMobileConnection
 )
-DOMCI_CLASS
-(
-MozCellBroadcast
-)
 #
 endif
 /

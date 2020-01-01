@@ -588,6 +588,8 @@ ok
 (
 cbs
 instanceof
+window
+.
 MozCellBroadcast
 "
 mozCellBroadcast

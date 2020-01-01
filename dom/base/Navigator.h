@@ -225,9 +225,6 @@ class
 nsIDOMMozMobileConnection
 ;
 class
-nsIDOMMozCellBroadcast
-;
-class
 nsIDOMMozVoicemail
 ;
 class
@@ -513,6 +510,9 @@ Telephony
 /
 namespace
 Telephony
+;
+class
+CellBroadcast
 ;
 #
 endif
@@ -1190,7 +1190,7 @@ ErrorResult
 aRv
 )
 ;
-nsIDOMMozCellBroadcast
+CellBroadcast
 *
 GetMozCellBroadcast
 (
@@ -1905,9 +1905,9 @@ MobileConnection
 >
 mMobileConnection
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMMozCellBroadcast
+CellBroadcast
 >
 mCellBroadcast
 ;
