@@ -2646,6 +2646,9 @@ JS_ASSERT
 len
 !
 =
+(
+size_t
+)
 -
 1
 )

@@ -1225,12 +1225,17 @@ compileOnly
 =
 JS_FALSE
 ;
+#
+ifdef
+DEBUG
 static
 JSBool
 OOM_printAllocationCount
 =
 JS_FALSE
 ;
+#
+endif
 typedef
 enum
 JSShellErrNum
