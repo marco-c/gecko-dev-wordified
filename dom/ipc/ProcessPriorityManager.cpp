@@ -1266,11 +1266,12 @@ mMemoryMinimizerRunnable
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS3
 (
 ProcessPriorityManager
 nsIObserver
 nsIDOMEventListener
+nsITimerCallback
 )
 ProcessPriorityManager
 :
