@@ -673,6 +673,14 @@ IsContainingBlock
 )
 const
 ;
+virtual
+nsIAtom
+*
+GetType
+(
+)
+const
+;
 /
 /
 nsIScrollbarFrame
