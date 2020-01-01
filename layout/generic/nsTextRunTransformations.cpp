@@ -429,13 +429,6 @@ h
 #
 include
 "
-nsTextTransformer
-.
-h
-"
-#
-include
-"
 nsTextFrameUtils
 .
 h
@@ -472,6 +465,13 @@ h
 include
 "
 gfxContext
+.
+h
+"
+#
+include
+"
+nsContentUtils
 .
 h
 "
@@ -2280,7 +2280,7 @@ nsICaseConversion
 *
 converter
 =
-nsTextTransformer
+nsContentUtils
 :
 :
 GetCaseConv
@@ -3050,7 +3050,7 @@ nsICaseConversion
 *
 converter
 =
-nsTextTransformer
+nsContentUtils
 :
 :
 GetCaseConv
