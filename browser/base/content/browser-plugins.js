@@ -1022,11 +1022,6 @@ event
 )
 {
 let
-self
-=
-gPluginHandler
-;
-let
 plugin
 =
 event
@@ -1168,7 +1163,7 @@ this
 binding
 eventType
 =
-self
+this
 .
 _getBindingType
 (
@@ -1202,7 +1197,7 @@ case
 PluginCrashed
 "
 :
-self
+this
 .
 pluginInstanceCrashed
 (
@@ -1360,7 +1355,7 @@ installPluginLink
 "
 )
 ;
-self
+this
 .
 addLinkClickCallback
 (
@@ -1405,7 +1400,7 @@ failure
 :
 #
 endif
-self
+this
 .
 pluginUnavailable
 (
@@ -1436,7 +1431,7 @@ checkForUpdatesLink
 "
 )
 ;
-self
+this
 .
 addLinkClickCallback
 (
@@ -1461,7 +1456,7 @@ case
 PluginClickToPlay
 "
 :
-self
+this
 .
 _handleClickToPlayEvent
 (
@@ -1487,7 +1482,7 @@ mainBox
 let
 pluginName
 =
-self
+this
 .
 _getPluginInfo
 (
@@ -1592,7 +1587,7 @@ case
 PluginPlayPreview
 "
 :
-self
+this
 .
 _handlePlayPreviewEvent
 (
@@ -1622,7 +1617,7 @@ managePluginsLink
 "
 )
 ;
-self
+this
 .
 addLinkClickCallback
 (
@@ -1758,7 +1753,7 @@ overlay
 null
 &
 &
-self
+this
 .
 isTooSmall
 (
