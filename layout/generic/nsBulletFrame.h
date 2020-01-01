@@ -516,6 +516,15 @@ float
 aInflation
 )
 ;
+int32_t
+GetOrdinal
+(
+)
+{
+return
+mOrdinal
+;
+}
 protected
 :
 nsresult
