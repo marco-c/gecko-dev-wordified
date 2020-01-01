@@ -1175,6 +1175,11 @@ this
 .
 _folderTitles
 ;
+delete
+this
+.
+_separatorPos
+;
 }
 _findDupe
 :
