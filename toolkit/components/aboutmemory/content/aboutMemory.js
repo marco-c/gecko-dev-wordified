@@ -4728,6 +4728,7 @@ div
 "
 "
 legend
+hiddenOnMobile
 "
 legendText2
 )
