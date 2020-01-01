@@ -5977,7 +5977,7 @@ mApplicationCache
 nsDataHashtable
 <
 nsVoidPtrHashKey
-void
+JSObject
 *
 >
 mCachedXBLPrototypeHandlers
