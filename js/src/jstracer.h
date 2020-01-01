@@ -2289,6 +2289,8 @@ nanojit
 :
 Fragment
 *
+TreeInfo
+*
 unsigned
 ngslots
 uint8
