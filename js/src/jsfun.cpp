@@ -8434,7 +8434,7 @@ callObjArg
 i
 )
 ;
-GC_POKE
+GCPoke
 (
 cx
 *
@@ -8579,7 +8579,7 @@ getFlatClosureUpvar
 i
 )
 ;
-GC_POKE
+GCPoke
 (
 cx
 *
@@ -8932,7 +8932,7 @@ callObjVar
 i
 )
 ;
-GC_POKE
+GCPoke
 (
 cx
 *

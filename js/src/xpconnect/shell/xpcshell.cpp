@@ -3647,6 +3647,8 @@ cx
 PRUint8
 )
 zeal
+JS_DEFAULT_ZEAL_FREQ
+JS_FALSE
 )
 ;
 JS_SET_RVAL
@@ -10707,11 +10709,16 @@ return
 1
 ;
 }
+#
+ifdef
+MOZ_ENABLE_LIBXUL
 xpc_LocalizeContext
 (
 cx
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIXPConnect

@@ -3160,6 +3160,8 @@ PRUint8
 (
 zeal
 )
+JS_DEFAULT_ZEAL_FREQ
+JS_FALSE
 )
 ;
 return
