@@ -799,7 +799,7 @@ mozilla
 .
 org
 /
-accessibilityService
+accessibleRetrieval
 ;
 1
 '
@@ -811,7 +811,7 @@ Components
 .
 interfaces
 .
-nsIAccessibilityService
+nsIAccessibleRetrieval
 )
 ;
 viewer
