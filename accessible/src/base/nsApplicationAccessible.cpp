@@ -547,6 +547,11 @@ nsnull
 nsnull
 )
 {
+mFlags
+|
+=
+eApplicationAccessible
+;
 }
 /
 /
