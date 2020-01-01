@@ -567,9 +567,7 @@ aEvent
 |
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 false

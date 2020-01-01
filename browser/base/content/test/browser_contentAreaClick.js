@@ -1562,9 +1562,7 @@ prevent
 =
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 ;
 is
 (
@@ -1580,9 +1578,7 @@ desc
 :
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 is
 correct
 (

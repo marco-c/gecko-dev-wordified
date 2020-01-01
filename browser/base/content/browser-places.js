@@ -1000,9 +1000,7 @@ if
 (
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 {
 /
@@ -1111,9 +1109,7 @@ this
 necessary
 ?
 The
-getPreventDefault
-(
-)
+defaultPrevented
 check
 should
 /

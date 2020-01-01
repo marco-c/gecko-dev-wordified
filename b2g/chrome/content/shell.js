@@ -919,9 +919,7 @@ if
 (
 evt
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;

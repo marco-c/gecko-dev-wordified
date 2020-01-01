@@ -843,9 +843,7 @@ ok
 (
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 "
 Drag
 has
