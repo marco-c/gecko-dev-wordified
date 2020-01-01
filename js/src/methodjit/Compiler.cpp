@@ -36579,14 +36579,6 @@ branching
 to
 another
 opcode
-and
-before
-any
-jumps
-to
-the
-slow
-path
 .
 *
 /
