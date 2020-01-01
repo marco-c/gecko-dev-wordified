@@ -10166,7 +10166,7 @@ nsIMemoryReporter
 KIND_HEAP
 stats
 .
-typeInferenceMemory
+typeInferenceSizes
 .
 scripts
 "
@@ -10215,7 +10215,7 @@ nsIMemoryReporter
 KIND_HEAP
 stats
 .
-typeInferenceMemory
+typeInferenceSizes
 .
 objects
 "
@@ -10262,7 +10262,7 @@ nsIMemoryReporter
 KIND_HEAP
 stats
 .
-typeInferenceMemory
+typeInferenceSizes
 .
 tables
 "
@@ -10300,7 +10300,7 @@ nsIMemoryReporter
 KIND_HEAP
 stats
 .
-typeInferenceMemory
+typeInferenceSizes
 .
 temporary
 "
