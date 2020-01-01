@@ -28494,8 +28494,13 @@ nullptr
 ;
 while
 (
+static_cast
+<
+nsresult
+>
 (
 NS_ENUMERATOR_FALSE
+)
 =
 =
 enumerator
@@ -28503,7 +28508,6 @@ enumerator
 >
 IsDone
 (
-)
 )
 )
 {
