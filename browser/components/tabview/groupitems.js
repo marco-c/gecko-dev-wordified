@@ -7867,6 +7867,11 @@ length
 this
 .
 _activeTab
+&
+&
+tabItem
+.
+closedManually
 )
 UI
 .
