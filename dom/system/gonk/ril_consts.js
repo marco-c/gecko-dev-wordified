@@ -2690,6 +2690,12 @@ Service
 table
 this
 .
+ICC_EF_CSIM_SPN
+=
+0x6f41
+;
+this
+.
 ICC_PHASE_1
 =
 0x00
