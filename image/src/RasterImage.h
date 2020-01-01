@@ -3329,12 +3329,6 @@ RasterImage
 const
 image
 ;
-nsRefPtr
-<
-RasterImage
->
-kungFuDeathGrip
-;
 imgFrame
 *
 srcFrame
