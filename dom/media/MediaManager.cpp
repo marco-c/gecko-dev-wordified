@@ -3585,10 +3585,8 @@ i
 +
 )
 {
-nsRefPtr
-<
 MediaEngineVideoSource
->
+*
 vSource
 =
 videoSources
@@ -3635,10 +3633,8 @@ i
 +
 )
 {
-nsRefPtr
-<
 MediaEngineAudioSource
->
+*
 aSource
 =
 audioSources
@@ -5500,6 +5496,13 @@ listener
 -
 >
 Invalidate
+(
+)
+;
+listener
+-
+>
+Remove
 (
 )
 ;
