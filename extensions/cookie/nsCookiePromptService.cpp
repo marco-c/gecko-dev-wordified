@@ -1042,7 +1042,7 @@ get
 back
 output
 parameters
-PRBool
+PRInt32
 tempValue
 ;
 block

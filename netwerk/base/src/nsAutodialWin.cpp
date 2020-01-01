@@ -2397,7 +2397,7 @@ LoadRASapi32DLL
 )
 )
 return
-NS_ERROR_NULL_POINTER
+PR_FALSE
 ;
 DWORD
 result
@@ -3810,7 +3810,7 @@ LoadRASapi32DLL
 return
 PR_FALSE
 ;
-PRBool
+BOOL
 enabled
 ;
 if

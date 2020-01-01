@@ -2600,6 +2600,9 @@ hr
 )
 )
 {
+BOOL
+res
+;
 hr
 =
 pAAR
@@ -2609,8 +2612,14 @@ QueryAppIsDefaultAll
 (
 AL_EFFECTIVE
 APP_REG_NAME
-aIsDefaultBrowser
+&
+res
 )
+;
+*
+aIsDefaultBrowser
+=
+res
 ;
 pAAR
 -

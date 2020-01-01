@@ -1004,7 +1004,7 @@ char
 regPackageName
 int32
 len2
-PRBool
+XP_Bool
 bSharedList
 )
 ;

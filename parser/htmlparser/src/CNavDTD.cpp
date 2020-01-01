@@ -5409,10 +5409,10 @@ GetCount
 (
 )
 ;
-PRBool
+PRInt32
 theParentContains
 =
-PR_FALSE
+0
 ;
 do
 {

@@ -1326,7 +1326,7 @@ PRBool
 aValue
 )
 ;
-PRBool
+nscoord
 GetContentHeight
 (
 )
