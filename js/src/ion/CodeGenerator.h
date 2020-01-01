@@ -854,6 +854,14 @@ lir
 )
 ;
 bool
+visitNotV
+(
+LNotV
+*
+ins
+)
+;
+bool
 visitBoundsCheck
 (
 LBoundsCheck
