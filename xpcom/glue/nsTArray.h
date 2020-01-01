@@ -10069,6 +10069,7 @@ capacity
 )
 {
 }
+explicit
 nsTArray
 (
 const
@@ -10088,6 +10089,7 @@ template
 class
 Allocator
 >
+explicit
 nsTArray
 (
 const
@@ -10179,6 +10181,7 @@ capacity
 )
 {
 }
+explicit
 FallibleTArray
 (
 const
@@ -10201,6 +10204,7 @@ template
 class
 Allocator
 >
+explicit
 FallibleTArray
 (
 const
@@ -10835,6 +10839,7 @@ template
 typename
 Allocator
 >
+explicit
 nsAutoTArray
 (
 const
@@ -10963,6 +10968,7 @@ template
 typename
 Allocator
 >
+explicit
 AutoFallibleTArray
 (
 const
