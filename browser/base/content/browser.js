@@ -48912,6 +48912,10 @@ disabled
 "
 )
 ;
+if
+(
+gFindBar
+)
 gFindBar
 .
 getElement
