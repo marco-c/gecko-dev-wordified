@@ -800,7 +800,7 @@ getIsNull
 ;
 stmt
 .
-reset
+finalize
 (
 )
 ;
