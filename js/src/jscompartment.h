@@ -3306,6 +3306,14 @@ props
 )
 ;
 void
+mark
+(
+JSTracer
+*
+trc
+)
+;
+void
 sweep
 (
 JSContext
