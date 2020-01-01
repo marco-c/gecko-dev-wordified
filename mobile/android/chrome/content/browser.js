@@ -14858,6 +14858,11 @@ PositionHandles
 positions
 :
 positions
+rtl
+:
+this
+.
+_isRTL
 }
 }
 )

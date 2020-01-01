@@ -718,6 +718,19 @@ PositionHandles
 )
 {
 final
+boolean
+rtl
+=
+message
+.
+getBoolean
+(
+"
+rtl
+"
+)
+;
+final
 JSONArray
 positions
 =
@@ -848,6 +861,7 @@ positionFromGecko
 (
 left
 top
+rtl
 )
 ;
 }
