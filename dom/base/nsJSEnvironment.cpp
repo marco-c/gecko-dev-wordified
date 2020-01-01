@@ -2121,6 +2121,7 @@ nsJSContext
 :
 CC
 (
+PR_FALSE
 )
 ;
 return
@@ -5938,6 +5939,7 @@ nsJSContext
 :
 CC
 (
+PR_FALSE
 )
 ;
 /
@@ -20627,6 +20629,8 @@ nsJSContext
 :
 CC
 (
+PRBool
+aDrawGraph
 )
 {
 NS_TIME_FUNCTION_MIN
@@ -20729,6 +20733,7 @@ sCollectedObjectsCounts
 =
 nsCycleCollector_collect
 (
+aDrawGraph
 )
 ;
 sCCSuspectedCount
@@ -21173,6 +21178,7 @@ nsJSContext
 :
 CC
 (
+PR_FALSE
 )
 ;
 return
