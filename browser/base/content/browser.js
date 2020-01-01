@@ -53247,6 +53247,12 @@ of
 each
 other
 .
+if
+(
+this
+.
+_updateFeedTimeout
+)
 clearTimeout
 (
 this
