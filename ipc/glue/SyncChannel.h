@@ -987,14 +987,6 @@ IO
 thread
 .
 void
-OnSendReply
-(
-Message
-*
-msg
-)
-;
-void
 NotifyWorkerThread
 (
 )
