@@ -2426,6 +2426,11 @@ nsTextControlFrame
 aFrame
 )
 {
+if
+(
+aFrame
+)
+{
 mState
 -
 >
@@ -2434,6 +2439,7 @@ UnbindFromFrame
 aFrame
 )
 ;
+}
 }
 NS_IMETHODIMP
 nsHTMLTextAreaElement
