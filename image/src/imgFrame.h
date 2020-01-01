@@ -534,6 +534,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+imgIContainer
+.
+h
+"
 class
 imgFrame
 {
@@ -602,6 +609,13 @@ const
 nsIntRect
 &
 aSubimage
+PRUint32
+aImageFlags
+=
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 nsresult

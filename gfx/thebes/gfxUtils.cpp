@@ -3077,6 +3077,8 @@ gfxPattern
 GraphicsFilter
 &
 aFilter
+PRUint32
+aImageFlags
 )
 {
 bool
@@ -3088,6 +3090,17 @@ aImageRect
 Contains
 (
 aSourceRect
+)
+&
+&
+!
+(
+aImageFlags
+&
+imgIContainer
+:
+:
+FLAG_CLAMP
 )
 ;
 nsRefPtr
