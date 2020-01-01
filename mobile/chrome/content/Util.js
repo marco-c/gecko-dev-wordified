@@ -1351,9 +1351,6 @@ forceOnline
 (
 )
 {
-#
-ifdef
-MOZ_PLATFORM_MAEMO
 Services
 .
 io
@@ -1362,8 +1359,6 @@ offline
 =
 false
 ;
-#
-endif
 }
 isParentProcess
 :
