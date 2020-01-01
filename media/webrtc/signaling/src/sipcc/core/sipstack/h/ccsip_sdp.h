@@ -90,6 +90,15 @@ ccapi
 .
 h
 "
+#
+include
+"
+mozilla
+-
+config
+.
+h
+"
 /
 *
 SDP
@@ -287,7 +296,9 @@ SIPSDP_ORIGIN_USERNAME
 Mozilla
 -
 SIPUA
+-
 "
+MOZ_APP_UA_VERSION
 #
 define
 SIPSDP_SESSION_NAME
