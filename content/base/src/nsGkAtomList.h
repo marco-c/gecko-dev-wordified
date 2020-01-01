@@ -5325,6 +5325,13 @@ onget
 )
 GK_ATOM
 (
+ongroupchange
+"
+ongroupchange
+"
+)
+GK_ATOM
+(
 onhashchange
 "
 onhashchange
