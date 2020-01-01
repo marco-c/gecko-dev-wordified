@@ -1561,6 +1561,10 @@ AddBorderAndPadding
 min
 )
 ;
+PRBool
+widthSet
+heightSet
+;
 nsIBox
 :
 :
@@ -1569,6 +1573,8 @@ AddCSSMinSize
 aBoxLayoutState
 this
 min
+widthSet
+heightSet
 )
 ;
 return
