@@ -3806,6 +3806,14 @@ aDuration
 )
 MOZ_OVERRIDE
 ;
+void
+UpdateMediaDuration
+(
+int64_t
+aDuration
+)
+MOZ_OVERRIDE
+;
 /
 /
 Set
