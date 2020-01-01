@@ -1116,7 +1116,6 @@ col
 )
 ;
 void
-FASTCALL
 outputForEOL
 (
 const
@@ -1129,7 +1128,6 @@ format
 )
 ;
 void
-FASTCALL
 output
 (
 const
@@ -1139,7 +1137,6 @@ s
 )
 ;
 void
-FASTCALL
 outputf
 (
 const
@@ -1152,7 +1149,6 @@ format
 )
 ;
 void
-FASTCALL
 output_asm
 (
 const
