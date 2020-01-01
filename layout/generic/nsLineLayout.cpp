@@ -7209,6 +7209,7 @@ DeleteNextInFlowChild
 (
 mPresContext
 kidNextInFlow
+PR_TRUE
 )
 ;
 }

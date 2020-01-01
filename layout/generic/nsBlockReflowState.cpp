@@ -8052,6 +8052,7 @@ DeleteNextInFlowChild
 (
 mPresContext
 nextPlaceholder
+PR_TRUE
 )
 ;
 }

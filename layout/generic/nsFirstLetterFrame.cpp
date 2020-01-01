@@ -1860,6 +1860,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 kidNextInFlow
+PR_TRUE
 )
 ;
 }

@@ -869,6 +869,7 @@ PresContext
 (
 )
 nif
+PR_FALSE
 )
 ;
 }
@@ -1228,6 +1229,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 nextFrame
+PR_TRUE
 )
 ;
 }
