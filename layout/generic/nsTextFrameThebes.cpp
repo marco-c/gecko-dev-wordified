@@ -26896,6 +26896,7 @@ AppUnitsPerDevPixel
 (
 )
 aCtx
+aDirtyRect
 )
 ;
 if
