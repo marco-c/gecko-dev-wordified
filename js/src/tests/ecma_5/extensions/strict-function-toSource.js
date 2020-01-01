@@ -75,6 +75,18 @@ testRunOptionStrictMode
 true
 )
 ;
+if
+(
+typeof
+decompileBody
+!
+=
+=
+"
+undefined
+"
+)
+{
 assertEq
 (
 decompileBody
@@ -108,6 +120,8 @@ strict
 )
 true
 )
+;
+}
 reportCompare
 (
 true
