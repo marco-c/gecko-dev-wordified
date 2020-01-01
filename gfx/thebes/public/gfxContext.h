@@ -3027,6 +3027,11 @@ path
 *
 /
 gfxRect
+GetUserPathExtent
+(
+)
+;
+gfxRect
 GetUserFillExtent
 (
 )
