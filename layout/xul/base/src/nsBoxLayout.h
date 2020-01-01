@@ -634,6 +634,17 @@ nsMargin
 aMargin
 )
 ;
+virtual
+nsIGridPart
+*
+AsGridPart
+(
+)
+{
+return
+nsnull
+;
+}
 static
 void
 AddLargestSize

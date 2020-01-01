@@ -822,11 +822,7 @@ group
 )
 .
 *
-param
-aParentGridRow
-[
-OUT
-]
+returns
 The
 layout
 manager
@@ -836,7 +832,8 @@ aParentBox
 *
 /
 virtual
-void
+nsIGridPart
+*
 GetParentGridPart
 (
 nsIBox
@@ -846,10 +843,6 @@ nsIBox
 *
 *
 aParentBox
-nsIGridPart
-*
-*
-aParentGridRow
 )
 =
 0
