@@ -39347,6 +39347,16 @@ mCBReflowState
 &
 parentReflowState
 ;
+reflowState
+.
+mReflowDepth
+=
+aState
+.
+GetReflowDepth
+(
+)
+;
 /
 /
 mComputedWidth

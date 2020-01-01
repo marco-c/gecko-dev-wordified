@@ -462,6 +462,8 @@ aPresContext
 nsIRenderingContext
 *
 aRenderingContext
+PRUint16
+aReflowDepth
 )
 :
 mPresContext
@@ -475,6 +477,10 @@ aRenderingContext
 mLayoutFlags
 (
 0
+)
+mReflowDepth
+(
+aReflowDepth
 )
 mPaintingDisabled
 (
@@ -523,6 +529,14 @@ mLayoutFlags
 aState
 .
 mLayoutFlags
+)
+mReflowDepth
+(
+aState
+.
+mReflowDepth
++
+1
 )
 mPaintingDisabled
 (
