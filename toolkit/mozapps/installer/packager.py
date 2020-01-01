@@ -2184,6 +2184,9 @@ format
 %
 s
 '
+%
+args
+.
 format
 )
     
