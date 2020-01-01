@@ -39190,6 +39190,9 @@ INT_TO_JSVAL
 length
 )
 ;
+return
+JS_TRUE
+;
 }
 else
 if
@@ -39261,6 +39264,12 @@ JS_FALSE
 else
 if
 (
+JSVAL_IS_INT
+(
+id
+)
+&
+&
 JSVAL_TO_INT
 (
 id
