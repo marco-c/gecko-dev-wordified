@@ -267,9 +267,6 @@ ID3D10ShaderResourceView
 >
 mSRView
 ;
-PRUint32
-mCanvasFramebuffer
-;
 bool
 mDataIsPremultiplied
 ;
