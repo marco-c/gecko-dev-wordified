@@ -1496,7 +1496,7 @@ const
 }
 ;
 bool
-EnsureHasScopeObjects
+EnsureHasCallObject
 (
 JSContext
 *
