@@ -918,13 +918,6 @@ may
 be
 null
 void
-SetRightToLeftText
-(
-PRBool
-aIsRTL
-)
-;
-void
 SetTextRunRTL
 (
 PRBool
