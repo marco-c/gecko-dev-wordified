@@ -800,7 +800,7 @@ false
 ;
 this
 .
-possibleSpellChecking
+onEditableArea
 =
 false
 ;
@@ -3138,7 +3138,7 @@ canSpell
 |
 this
 .
-possibleSpellChecking
+onEditableArea
 )
 ;
 if
@@ -3369,7 +3369,7 @@ if
 (
 this
 .
-possibleSpellChecking
+onEditableArea
 )
 {
 /
@@ -4541,7 +4541,7 @@ bgImageURL
 ;
 this
 .
-possibleSpellChecking
+onEditableArea
 =
 false
 ;
@@ -4939,7 +4939,7 @@ password
 {
 this
 .
-possibleSpellChecking
+onEditableArea
 =
 true
 ;
@@ -5012,7 +5012,7 @@ readOnly
 {
 this
 .
-possibleSpellChecking
+onEditableArea
 =
 true
 ;
@@ -5782,6 +5782,14 @@ like
 in
 text
 inputs
+if
+(
+!
+this
+.
+onEditableArea
+)
+{
 var
 win
 =
@@ -5963,7 +5971,7 @@ true
 ;
 this
 .
-possibleSpellChecking
+onEditableArea
 =
 true
 ;
@@ -6020,6 +6028,7 @@ separator
 canSpell
 )
 ;
+}
 }
 }
 }
