@@ -357,6 +357,11 @@ getTabData
 tabItem
 .
 tab
+function
+(
+)
+{
+}
 )
 ;
 ok
