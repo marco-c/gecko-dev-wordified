@@ -3743,6 +3743,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 StringValue

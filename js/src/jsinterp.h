@@ -1559,8 +1559,6 @@ RunScript
 JSContext
 *
 cx
-HandleScript
-script
 StackFrame
 *
 fp

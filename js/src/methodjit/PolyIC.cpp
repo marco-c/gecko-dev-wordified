@@ -3113,13 +3113,12 @@ pc
 if
 (
 !
-JSScript
-:
-:
+script
+-
+>
 ensureRanInference
 (
 cx
-script
 )
 |
 |
@@ -19138,6 +19137,9 @@ if
 (
 !
 InternNonIntElementId
+<
+CanGC
+>
 (
 cx
 obj

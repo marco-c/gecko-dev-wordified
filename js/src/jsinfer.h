@@ -3334,7 +3334,8 @@ addGetProperty
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -3352,7 +3353,8 @@ addSetProperty
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -3370,7 +3372,8 @@ addSetElement
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -3400,7 +3403,8 @@ addArith
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -3421,7 +3425,8 @@ addTransformThis
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 TypeSet
 *
@@ -3434,7 +3439,8 @@ addPropagateThis
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -3454,7 +3460,8 @@ addSubsetBarrier
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -4019,7 +4026,8 @@ addGetProperty
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -4037,7 +4045,8 @@ addCallProperty
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -4063,7 +4072,8 @@ addSubsetBarrier
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -7456,7 +7466,8 @@ UseNewType
 JSContext
 *
 cx
-UnrootedScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -7489,7 +7500,8 @@ UseNewTypeForInitializer
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -7966,8 +7978,6 @@ StandardType
 JSContext
 *
 cx
-HandleScript
-script
 JSProtoKey
 kind
 )
@@ -7997,7 +8007,8 @@ InitObject
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -8041,7 +8052,8 @@ MonitorOverflow
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -8056,7 +8068,8 @@ MonitorString
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -8071,7 +8084,8 @@ MonitorUnknown
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -8206,7 +8220,8 @@ Monitor
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -8290,7 +8305,8 @@ SetThis
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 Type
 type
@@ -8304,7 +8320,8 @@ SetThis
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 const
 js
@@ -8323,7 +8340,8 @@ SetLocal
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 unsigned
 local
@@ -8339,7 +8357,8 @@ SetLocal
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 unsigned
 local
@@ -8360,7 +8379,8 @@ SetArgument
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 unsigned
 arg
@@ -8376,7 +8396,8 @@ SetArgument
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 unsigned
 arg
@@ -9471,7 +9492,8 @@ monitorBytecode
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 uint32_t
 offset

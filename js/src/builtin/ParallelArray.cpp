@@ -5063,6 +5063,9 @@ false
 propStr
 =
 ToString
+<
+CanGC
+>
 (
 cx
 propv
@@ -5186,6 +5189,9 @@ false
 propStr
 =
 ToString
+<
+CanGC
+>
 (
 cx
 propv

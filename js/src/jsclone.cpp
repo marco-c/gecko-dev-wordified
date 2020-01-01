@@ -4554,7 +4554,10 @@ context
 if
 (
 !
-js_HasOwnProperty
+HasOwnProperty
+<
+CanGC
+>
 (
 context
 (

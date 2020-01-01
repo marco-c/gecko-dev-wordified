@@ -1402,7 +1402,7 @@ GC
 nesting
 under
 *
-js_ConcatStrings
+ConcatString
 .
 *
 /
@@ -1881,7 +1881,10 @@ accum
 str
 )
 :
-js_ConcatStrings
+ConcatStrings
+<
+CanGC
+>
 (
 cx
 accum
@@ -2028,7 +2031,10 @@ str
 {
 accum
 =
-js_ConcatStrings
+ConcatStrings
+<
+CanGC
+>
 (
 cx
 accum
@@ -4928,7 +4934,10 @@ RootedString
 str
 (
 cx
-js_ConcatStrings
+ConcatStrings
+<
+CanGC
+>
 (
 cx
 left

@@ -3540,6 +3540,9 @@ hasDefined
 message
 =
 ToString
+<
+CanGC
+>
 (
 cx
 args
@@ -3631,6 +3634,9 @@ length
 filename
 =
 ToString
+<
+CanGC
+>
 (
 cx
 args
@@ -4027,6 +4033,9 @@ else
 name
 =
 ToString
+<
+CanGC
+>
 (
 cx
 nameVal
@@ -4118,6 +4127,9 @@ else
 message
 =
 ToString
+<
+CanGC
+>
 (
 cx
 msgVal
@@ -4437,6 +4449,9 @@ nameVal
 name
 =
 ToString
+<
+CanGC
+>
 (
 cx
 nameVal
@@ -4741,6 +4756,9 @@ RawString
 linenumber
 =
 ToString
+<
+CanGC
+>
 (
 cx
 linenoVal
@@ -6605,6 +6623,9 @@ str
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 exn
@@ -6778,7 +6799,10 @@ RootedString
 nameColon
 (
 cx
-js_ConcatStrings
+ConcatStrings
+<
+CanGC
+>
 (
 cx
 name
@@ -6796,7 +6820,10 @@ false
 ;
 str
 =
-js_ConcatStrings
+ConcatStrings
+<
+CanGC
+>
 (
 cx
 nameColon
@@ -6853,6 +6880,9 @@ RawString
 tmp
 =
 ToString
+<
+CanGC
+>
 (
 cx
 roots

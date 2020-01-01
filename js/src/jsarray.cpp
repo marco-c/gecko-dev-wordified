@@ -1188,6 +1188,9 @@ id
 ;
 return
 ValueToId
+<
+CanGC
+>
 (
 cx
 DoubleValue
@@ -4472,6 +4475,9 @@ hasDefined
 sepstr
 =
 ToString
+<
+CanGC
+>
 (
 cx
 args
@@ -5871,6 +5877,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 DoubleValue

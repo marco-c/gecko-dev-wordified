@@ -415,6 +415,9 @@ argc
 )
 ?
 ToString
+<
+CanGC
+>
 (
 cx
 args
@@ -4647,6 +4650,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 v
@@ -4728,6 +4734,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 v

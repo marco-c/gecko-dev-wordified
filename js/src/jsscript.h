@@ -4064,7 +4064,6 @@ purge
 .
 *
 /
-static
 inline
 bool
 ensureRanAnalysis
@@ -4072,11 +4071,6 @@ ensureRanAnalysis
 JSContext
 *
 cx
-JS
-:
-:
-HandleScript
-script
 )
 ;
 /
@@ -4092,7 +4086,6 @@ information
 .
 *
 /
-static
 inline
 bool
 ensureRanInference
@@ -4100,11 +4093,6 @@ ensureRanInference
 JSContext
 *
 cx
-JS
-:
-:
-HandleScript
-script
 )
 ;
 inline

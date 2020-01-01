@@ -175,7 +175,8 @@ init
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 )
 {
@@ -197,13 +198,12 @@ script
 )
 ;
 return
-JSScript
-:
-:
+script
+-
+>
 ensureRanInference
 (
 cx
-script
 )
 ;
 }

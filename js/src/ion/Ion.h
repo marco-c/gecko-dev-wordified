@@ -1181,7 +1181,8 @@ CanEnterAtBranch
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 AbstractFramePtr
 fp
@@ -1198,7 +1199,8 @@ CanEnter
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 AbstractFramePtr
 fp
