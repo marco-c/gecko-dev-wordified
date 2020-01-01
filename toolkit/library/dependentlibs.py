@@ -76,6 +76,11 @@ in
 the
 same
 directory
+followed
+by
+the
+library
+itself
 .
 '
 '
@@ -793,6 +798,12 @@ given
 list
 of
 paths
+followed
+by
+the
+library
+itself
+.
 '
 '
 '
@@ -1117,6 +1128,10 @@ options
 libpaths
 func
 )
++
+[
+lib
+]
 )
 if
 __name__

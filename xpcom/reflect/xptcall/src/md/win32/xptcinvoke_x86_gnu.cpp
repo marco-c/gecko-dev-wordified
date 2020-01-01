@@ -573,7 +573,7 @@ EXPORT_XPCOM_API
 (
 nsresult
 )
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 (
 nsISupports
 *
@@ -685,14 +685,14 @@ t
 "
 .
 globl
-_NS_InvokeByIndex_P
+_NS_InvokeByIndex
 \
 n
 \
 t
 "
 "
-_NS_InvokeByIndex_P
+_NS_InvokeByIndex
 :
 \
 n
@@ -1180,7 +1180,7 @@ ascii
 -
 export
 :
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 \
 "
 \

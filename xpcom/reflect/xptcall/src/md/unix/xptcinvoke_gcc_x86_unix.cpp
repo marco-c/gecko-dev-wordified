@@ -327,7 +327,7 @@ EXPORT_XPCOM_API
 (
 nsresult
 )
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 (
 nsISupports
 *
@@ -442,7 +442,7 @@ globl
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 \
 n
 \
@@ -457,7 +457,7 @@ type
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 function
 \
 n
@@ -466,7 +466,7 @@ n
 endif
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 :
 \
 n
@@ -948,13 +948,13 @@ size
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 .
 -
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 \
 n
 \
