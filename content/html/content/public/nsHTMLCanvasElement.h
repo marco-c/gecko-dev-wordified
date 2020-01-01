@@ -1148,13 +1148,10 @@ const
 nsAString
 &
 aOptions
-char
+nsIInputStream
 *
-&
-aData
-PRUint32
-&
-aSize
+*
+aStream
 bool
 &
 aFellBackToPNG
