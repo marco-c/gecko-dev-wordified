@@ -4241,10 +4241,7 @@ aRoot
 >
 SetVisibleRegion
 (
-nsIntRegion
-(
 visible
-)
 )
 ;
 FrameMetrics
@@ -20465,7 +20462,7 @@ aScrollFrame
 nsDisplayScrollLayer
 (
 aBuilder
-aScrolledFrame
+aScrollFrame
 aScrolledFrame
 aScrollFrame
 )
