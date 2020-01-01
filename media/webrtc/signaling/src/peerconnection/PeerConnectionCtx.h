@@ -525,6 +525,15 @@ aState
 }
 /
 /
+Telemetry
+Peer
+conection
+counter
+int
+mConnectionCounter
+;
+/
+/
 SIPCC
 objects
 PeerConnectionImpl
