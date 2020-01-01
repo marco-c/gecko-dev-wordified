@@ -592,6 +592,11 @@ NS_ADDREF
 aChild
 )
 ;
+DidInsertChild
+(
+aChild
+)
+;
 return
 ;
 }
@@ -682,6 +687,11 @@ child
 )
 ;
 NS_ADDREF
+(
+aChild
+)
+;
+DidInsertChild
 (
 aChild
 )
@@ -778,6 +788,11 @@ aChild
 SetParent
 (
 nsnull
+)
+;
+DidRemoveChild
+(
+aChild
 )
 ;
 NS_RELEASE
@@ -909,6 +924,11 @@ child
 SetParent
 (
 nsnull
+)
+;
+DidRemoveChild
+(
+aChild
 )
 ;
 NS_RELEASE
