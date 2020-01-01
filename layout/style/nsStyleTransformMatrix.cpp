@@ -2713,7 +2713,7 @@ GetPercentValue
 /
 *
 Helper
-functiont
+function
 to
 process
 a
