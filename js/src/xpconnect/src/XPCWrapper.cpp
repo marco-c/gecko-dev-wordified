@@ -1106,6 +1106,19 @@ sXPC_XOW_JSClass
 base
 )
 ;
+uintN
+attrs
+=
+JSPROP_ENUMERATE
+;
+if
+(
+OBJ_IS_NATIVE
+(
+innerObjp
+)
+)
+{
 JSScopeProperty
 *
 sprop
@@ -1119,7 +1132,6 @@ JSScopeProperty
 prop
 )
 ;
-uintN
 attrs
 =
 sprop
@@ -1159,6 +1171,7 @@ sprop
 slot
 )
 ;
+}
 }
 OBJ_DROP_PROPERTY
 (
