@@ -506,8 +506,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
-aDoSetAttr
 )
 ;
 PRBool
@@ -642,7 +640,6 @@ SetBaseValue
 (
 aValue
 mSVGElement
-PR_TRUE
 )
 ;
 return
