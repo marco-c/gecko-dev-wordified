@@ -12770,9 +12770,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aFixedPosFrame
 nsDisplayList
 *
 aList
@@ -12815,12 +12812,6 @@ FixedPosition
 "
 TYPE_FIXED_POSITION
 )
-protected
-:
-nsIFrame
-*
-mFixedPosFrame
-;
 }
 ;
 /

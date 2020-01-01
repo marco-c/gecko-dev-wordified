@@ -12753,9 +12753,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aFixedPosFrame
 nsDisplayList
 *
 aList
@@ -12766,10 +12763,6 @@ nsDisplayOwnLayer
 aBuilder
 aFrame
 aList
-)
-mFixedPosFrame
-(
-aFixedPosFrame
 )
 {
 MOZ_COUNT_CTOR
@@ -12891,7 +12884,7 @@ nsIFrame
 *
 viewportFrame
 =
-mFixedPosFrame
+mFrame
 -
 >
 GetParent
@@ -13095,7 +13088,7 @@ nsStylePosition
 *
 position
 =
-mFixedPosFrame
+mFrame
 -
 >
 GetStylePosition
