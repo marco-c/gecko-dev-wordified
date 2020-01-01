@@ -569,13 +569,9 @@ opacity
 tabbrowser
 -
 tabs
-:
-not
-(
 [
-pinnedonly
+positionpinnedtabs
 ]
-)
 >
 .
 tabbrowser
