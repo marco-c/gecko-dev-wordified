@@ -1154,6 +1154,10 @@ Ci
 .
 nsIRequest
 .
+LOAD_BYPASS_CACHE
+;
+/
+/
 VALIDATE_ALWAYS
 ;
 this
