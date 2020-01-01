@@ -68,9 +68,7 @@ Ci
 nsINavBookmarksService
 )
 ;
-var
-bmId
-=
+return
 bmsvc
 .
 insertBookmark
