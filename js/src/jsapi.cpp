@@ -7388,7 +7388,7 @@ JSObject
 target
 )
 {
-AssertHeapIsIdle
+AssertHeapIsIdleOrIterating
 (
 cx
 )
