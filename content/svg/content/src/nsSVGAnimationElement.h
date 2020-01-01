@@ -249,7 +249,7 @@ const
 ;
 /
 /
-nsGenericElement
+Element
 specializations
 virtual
 bool

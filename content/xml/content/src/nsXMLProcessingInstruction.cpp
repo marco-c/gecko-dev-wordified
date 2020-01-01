@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsGenericElement
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

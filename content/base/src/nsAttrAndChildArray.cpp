@@ -333,7 +333,7 @@ used
 ]
 sizeof
 (
-nsGenericElement
+Element
 )
 +
 4

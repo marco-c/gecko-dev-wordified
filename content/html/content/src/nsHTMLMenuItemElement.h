@@ -121,7 +121,13 @@ nsIDOMHTMLMenuItemElement
 public
 :
 using
-nsGenericElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 :
 :
 GetText

@@ -127,7 +127,7 @@ nsDOMSettableTokenList
 is
 traversed
 by
-nsGenericElement
+Element
 .
 class
 nsDOMSettableTokenList

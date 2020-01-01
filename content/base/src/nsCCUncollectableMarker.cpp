@@ -266,7 +266,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -284,6 +288,13 @@ nsObserverService
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 static
 bool
 sInited
@@ -528,7 +539,7 @@ GetMarkedCCGeneration
 )
 )
 {
-nsGenericElement
+Element
 :
 :
 MarkUserData
@@ -596,7 +607,7 @@ GetMarkedCCGeneration
 )
 )
 {
-nsGenericElement
+Element
 :
 :
 MarkUserDataHandler
@@ -1816,7 +1827,7 @@ shutdown
 )
 )
 {
-nsGenericElement
+Element
 :
 :
 ClearContentUnbinder
@@ -2014,7 +2025,7 @@ if
 prepareForCC
 )
 {
-nsGenericElement
+Element
 :
 :
 ClearContentUnbinder

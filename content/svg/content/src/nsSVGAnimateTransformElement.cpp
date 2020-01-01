@@ -218,7 +218,7 @@ const
 ;
 /
 /
-nsGenericElement
+Element
 specializations
 bool
 ParseAttribute

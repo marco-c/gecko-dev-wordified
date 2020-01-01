@@ -286,7 +286,7 @@ aNotify
 ;
 /
 /
-nsGenericElement
+Element
 specializations
 virtual
 bool

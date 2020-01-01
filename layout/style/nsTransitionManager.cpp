@@ -5224,7 +5224,7 @@ Document
 (
 )
 "
-nsGenericElement
+Element
 :
 :
 UnbindFromTree

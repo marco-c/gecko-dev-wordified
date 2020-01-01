@@ -157,6 +157,8 @@ nsIDOMDOMTokenList
 public
 nsWrapperCache
 {
+protected
+:
 typedef
 mozilla
 :

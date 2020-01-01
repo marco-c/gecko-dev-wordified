@@ -99,7 +99,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -139,7 +143,7 @@ nsDOMTokenList
 :
 nsDOMTokenList
 (
-nsGenericElement
+Element
 *
 aElement
 nsIAtom

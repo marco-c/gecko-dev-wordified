@@ -1808,7 +1808,7 @@ actions
 are
 performed
 by
-nsGenericElement
+Element
 :
 :
 BindToTree

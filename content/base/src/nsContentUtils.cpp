@@ -2432,7 +2432,7 @@ limit
 1000
 )
 ;
-nsGenericElement
+Element
 :
 :
 InitCCCallbacks

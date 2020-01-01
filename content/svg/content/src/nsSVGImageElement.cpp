@@ -155,6 +155,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsSVGElement
 :
 :
@@ -1945,7 +1952,7 @@ nsSVGImageElement
 :
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDest
 )

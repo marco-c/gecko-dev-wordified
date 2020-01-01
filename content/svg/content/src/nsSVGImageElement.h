@@ -345,7 +345,13 @@ const
 nsresult
 CopyInnerTo
 (
-nsGenericElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aDest
 )

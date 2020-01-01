@@ -415,7 +415,7 @@ subclasses
 that
 derive
 from
-nsGenericElement
+Element
 )
 *
 *

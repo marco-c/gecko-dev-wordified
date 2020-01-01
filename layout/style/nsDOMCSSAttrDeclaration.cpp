@@ -192,13 +192,6 @@ h
 #
 include
 "
-nsGenericElement
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -343,7 +336,7 @@ tmp
 mElement
 &
 &
-nsGenericElement
+Element
 :
 :
 CanSkip
@@ -438,7 +431,7 @@ tmp
 mElement
 &
 &
-nsGenericElement
+Element
 :
 :
 CanSkipInCC
@@ -471,7 +464,7 @@ tmp
 mElement
 &
 &
-nsGenericElement
+Element
 :
 :
 CanSkipThis

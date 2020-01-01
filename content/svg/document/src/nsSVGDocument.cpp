@@ -132,13 +132,6 @@ Element
 .
 h
 "
-#
-include
-"
-nsGenericElement
-.
-h
-"
 using
 namespace
 mozilla

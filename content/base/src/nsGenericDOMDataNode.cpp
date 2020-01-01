@@ -124,7 +124,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -293,6 +297,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsGenericDOMDataNode
 :
 :
@@ -452,7 +463,7 @@ NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_BEGIN
 nsGenericDOMDataNode
 )
 return
-nsGenericElement
+Element
 :
 :
 CanSkip
@@ -467,7 +478,7 @@ NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_BEGIN
 nsGenericDOMDataNode
 )
 return
-nsGenericElement
+Element
 :
 :
 CanSkipInCC
@@ -481,7 +492,7 @@ NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_THIS_BEGIN
 nsGenericDOMDataNode
 )
 return
-nsGenericElement
+Element
 :
 :
 CanSkipThis
@@ -2861,7 +2872,7 @@ See
 the
 comment
 in
-nsGenericElement
+Element
 :
 :
 BindToTree

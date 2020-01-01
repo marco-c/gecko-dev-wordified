@@ -471,6 +471,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 This
@@ -1162,7 +1169,7 @@ nsSVGElement
 /
 provided
 by
-nsGenericElement
+Element
 :
 /
 /
@@ -5610,7 +5617,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -5722,7 +5729,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -5841,7 +5848,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -5976,7 +5983,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -6053,7 +6060,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -6095,7 +6102,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -6137,7 +6144,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -6186,7 +6193,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -6221,7 +6228,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -6256,7 +6263,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -6298,7 +6305,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -6420,7 +6427,7 @@ aReturn
 *
 aReturn
 =
-nsGenericElement
+Element
 :
 :
 IsSupported
@@ -6513,7 +6520,7 @@ methods
 /
 forwarded
 to
-nsGenericElement
+Element
 implementations
 /
 /

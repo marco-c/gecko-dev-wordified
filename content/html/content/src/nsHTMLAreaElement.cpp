@@ -500,12 +500,12 @@ nsHTMLAreaElement
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLAreaElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLAreaElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

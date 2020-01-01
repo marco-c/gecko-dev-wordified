@@ -257,6 +257,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 *
 -
@@ -381,7 +388,7 @@ TableRowsCollection
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMHTMLCOLLECTION
 virtual
-nsGenericElement
+Element
 *
 GetElementAt
 (
@@ -1155,7 +1162,7 @@ is
 undefined
 .
 static
-nsGenericElement
+Element
 *
 GetItemOrCountInRowGroup
 (
@@ -1223,7 +1230,7 @@ return
 nullptr
 ;
 }
-nsGenericElement
+Element
 *
 TableRowsCollection
 :
@@ -1239,7 +1246,7 @@ DO_FOR_EACH_ROWGROUP
 uint32_t
 count
 ;
-nsGenericElement
+Element
 *
 node
 =
@@ -1888,12 +1895,12 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLTableElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLTableElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

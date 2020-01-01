@@ -511,12 +511,12 @@ DestroyImageLoadingContent
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLImageElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLImageElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (
@@ -1919,7 +1919,7 @@ the
 state
 gets
 in
-nsGenericElement
+Element
 '
 s
 attr
@@ -2678,7 +2678,7 @@ nsHTMLImageElement
 :
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDest
 )

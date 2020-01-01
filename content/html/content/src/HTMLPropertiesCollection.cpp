@@ -757,7 +757,7 @@ return
 nullptr
 ;
 }
-nsGenericElement
+Element
 *
 HTMLPropertiesCollection
 :

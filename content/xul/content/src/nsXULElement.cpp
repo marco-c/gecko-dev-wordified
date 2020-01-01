@@ -4525,7 +4525,7 @@ t
 call
 through
 to
-nsGenericElement
+Element
 here
 because
 the

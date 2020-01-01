@@ -1598,7 +1598,7 @@ nsGenericHTMLElement
 :
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDst
 )
@@ -2158,7 +2158,7 @@ tableFrame
 )
 ;
 }
-nsGenericElement
+Element
 *
 nsGenericHTMLElement
 :
@@ -2928,18 +2928,11 @@ height
 return
 offsetParent
 ?
-static_cast
-<
-nsGenericElement
-*
->
-(
 offsetParent
 -
 >
 AsElement
 (
-)
 )
 :
 nullptr
@@ -7015,7 +7008,7 @@ child
 )
 ;
 }
-nsGenericElement
+Element
 :
 :
 FireNodeInserted
@@ -13529,7 +13522,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -13580,7 +13573,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -13610,7 +13603,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -13640,7 +13633,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -13670,7 +13663,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -13707,7 +13700,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -13737,7 +13730,7 @@ static
 *
 /
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry

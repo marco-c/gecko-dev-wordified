@@ -202,6 +202,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 -
@@ -716,7 +723,7 @@ aResult
 ;
 }
 static
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -738,7 +745,7 @@ nullptr
 }
 ;
 static
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -781,7 +788,7 @@ nullptr
 }
 ;
 static
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -824,7 +831,7 @@ nullptr
 }
 ;
 static
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4384,7 +4391,7 @@ aVisitor
 nsresult
 rv
 =
-nsGenericElement
+Element
 :
 :
 PreHandleEvent

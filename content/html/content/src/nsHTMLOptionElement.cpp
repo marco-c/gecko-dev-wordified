@@ -482,12 +482,12 @@ ISupports
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLOptionElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLOptionElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (
@@ -2232,7 +2232,7 @@ nsHTMLOptionElement
 :
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDest
 )

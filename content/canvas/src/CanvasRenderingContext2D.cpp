@@ -2727,7 +2727,10 @@ IsBlack
 )
 )
 {
-nsGenericElement
+dom
+:
+:
+Element
 *
 canvasElement
 =
@@ -2759,7 +2762,10 @@ RemovePurple
 )
 ;
 }
-nsGenericElement
+dom
+:
+:
+Element
 :
 :
 MarkNodeChildren

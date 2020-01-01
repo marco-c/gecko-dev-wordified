@@ -501,7 +501,7 @@ aIsTrustedEvent
 ;
 /
 /
-nsGenericElement
+Element
 specializations
 :
 using

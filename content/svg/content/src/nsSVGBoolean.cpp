@@ -387,7 +387,7 @@ nsSVGElement
 :
 ParseAttribute
 under
-nsGenericElement
+Element
 :
 :
 SetAttr

@@ -270,12 +270,12 @@ nsISupports
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLLabelElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLLabelElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

@@ -1106,7 +1106,7 @@ nsGenericHTMLFrameElement
 :
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDest
 )

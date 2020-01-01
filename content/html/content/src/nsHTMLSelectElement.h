@@ -367,7 +367,13 @@ in
 /
 nsIDOMHTMLOptionsCollection
 virtual
-nsGenericElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetElementAt
 (

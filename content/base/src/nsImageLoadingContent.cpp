@@ -264,13 +264,6 @@ h
 #
 include
 "
-nsGenericElement
-.
-h
-"
-#
-include
-"
 nsImageFrame
 .
 h
