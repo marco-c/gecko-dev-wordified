@@ -426,13 +426,13 @@ null
 )
 ;
 }
-do_test_finished
+run_next_test
 (
 )
 ;
 }
 ;
-add_task
+add_test
 (
 function
 test_default
@@ -465,10 +465,6 @@ modified
 )
 ;
 }
-)
-;
-do_test_pending
-(
 )
 ;
 Services
