@@ -30212,10 +30212,6 @@ initial_values
 "
 clip
 "
-"
-clip
-clip
-"
 ]
 other_values
 :
@@ -30235,6 +30231,14 @@ ellipsis
 "
 hello
 "
+'
+'
+clip
+clip
+'
+'
+ellipsis
+ellipsis
 '
 '
 clip

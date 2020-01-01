@@ -47295,14 +47295,12 @@ right
 )
 ;
 else
+{
 aValue
-.
-SetPairValue
-(
+=
 left
-left
-)
 ;
+}
 return
 PR_TRUE
 ;
