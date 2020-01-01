@@ -2356,6 +2356,8 @@ resource
 /
 /
 testing
+-
+common
 /
 to
 the
@@ -2499,6 +2501,8 @@ setSubstitution
 (
 "
 testing
+-
+common
 "
 modulesURI
 )

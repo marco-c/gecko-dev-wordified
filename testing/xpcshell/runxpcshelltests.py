@@ -2090,9 +2090,6 @@ if
 self
 .
 testingModulesDir
-is
-not
-None
 :
         
 self
@@ -5394,9 +5391,6 @@ testsRootDir
     
 if
 testingModulesDir
-is
-not
-None
 :
         
 if
@@ -7998,7 +7992,7 @@ add_option
 "
 -
 -
-tests
+testing
 -
 modules
 -
