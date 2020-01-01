@@ -3153,7 +3153,7 @@ data
 ;
 }
 JS_ALWAYS_INLINE
-int32
+JSGCTraceKind
 gcKind
 (
 )
@@ -3167,9 +3167,12 @@ isMarkable
 )
 ;
 return
+JSGCTraceKind
+(
 JSVAL_TRACE_KIND_IMPL
 (
 data
+)
 )
 ;
 }
