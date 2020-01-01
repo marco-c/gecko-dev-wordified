@@ -1063,6 +1063,7 @@ while
 (
 p
 =
+=
 this
 .
 getPasswordObj
