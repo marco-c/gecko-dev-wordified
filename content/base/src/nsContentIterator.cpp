@@ -6290,9 +6290,6 @@ the
 top
 )
 .
-if
-(
-!
 oldParentStack
 .
 SetCapacity
@@ -6305,12 +6302,7 @@ Length
 +
 1
 )
-)
-{
-return
-NS_ERROR_FAILURE
 ;
-}
 /
 /
 We
