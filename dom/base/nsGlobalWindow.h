@@ -1008,6 +1008,9 @@ nsDOMOfflineResourceList
 class
 nsDOMMozURLProperty
 ;
+class
+nsDOMWindowUtils
+;
 #
 ifdef
 MOZ_DISABLE_DOMCRYPTO
@@ -5390,9 +5393,9 @@ nsBarProp
 >
 mScrollbars
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIWeakReference
+nsDOMWindowUtils
 >
 mWindowUtils
 ;

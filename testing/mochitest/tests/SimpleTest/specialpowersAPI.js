@@ -3079,6 +3079,10 @@ aWindow
 this
 .
 window
+.
+get
+(
+)
 &
 &
 this
@@ -5866,6 +5870,10 @@ this
 .
 window
 .
+get
+(
+)
+.
 document
 .
 createElementNS
@@ -7199,6 +7207,10 @@ el
 this
 .
 window
+.
+get
+(
+)
 .
 document
 .
