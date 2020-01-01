@@ -1639,8 +1639,6 @@ eCSSProperty_font_family
 case
 eCSSProperty_font_size
 :
-/
-/
 case
 eCSSProperty_font_size_adjust
 :

@@ -3599,6 +3599,11 @@ aSkipReason
 ;
 if
 (
+this
+.
+computedValMap
+&
+&
 !
 this
 .
