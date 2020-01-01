@@ -8449,16 +8449,6 @@ mDescent
 .
 0
 ;
-mBoundingBox
-=
-gfxRect
-(
-0
-0
-0
-0
-)
-;
 }
 void
 CombineWith
