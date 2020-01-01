@@ -365,6 +365,16 @@ serialno
 "
 )
 ;
+memset
+(
+address
+0
+sizeof
+(
+address
+)
+)
+;
 /
 /
 First
