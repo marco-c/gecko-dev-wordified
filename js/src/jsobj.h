@@ -4826,6 +4826,18 @@ jsid
 id
 )
 ;
+#
+ifdef
+__cplusplus
+/
+*
+Aargh
+libgjs
+bug
+492720
+.
+*
+/
 static
 JS_INLINE
 void
@@ -4857,6 +4869,8 @@ id
 )
 ;
 }
+#
+endif
 /
 *
 *
