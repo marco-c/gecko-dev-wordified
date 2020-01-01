@@ -2041,8 +2041,9 @@ NULL
 HMODULE
 module
 =
-GetModuleHandle
+GetModuleHandleW
 (
+L
 "
 kernel32
 .

@@ -813,8 +813,9 @@ dwMajorVersion
 {
 libWinsock2
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 Ws2_32
 .
