@@ -18437,9 +18437,6 @@ JSContext
 cx
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 /
 *
 *
@@ -18551,13 +18548,6 @@ JSContext
 cx
 )
 ;
-#
-endif
-/
-*
-JS_THREADSAFE
-*
-/
 /
 *
 *
