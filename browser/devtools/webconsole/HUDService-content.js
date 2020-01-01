@@ -3113,15 +3113,7 @@ ConsoleProgressListener
 =
 null
 ;
-Cc
-=
-Ci
-=
-Cu
-=
 XPCOMUtils
-=
-Services
 =
 gConsoleStorage
 =
@@ -9475,6 +9467,10 @@ NRL__findOpenResponse
 {
 if
 (
+!
+_alive
+|
+|
 this
 .
 _foundOpenResponse
@@ -10094,6 +10090,11 @@ receivedData
 "
 "
 ;
+if
+(
+_alive
+)
+{
 NetworkMonitor
 .
 sendActivity
@@ -10103,6 +10104,7 @@ this
 httpActivity
 )
 ;
+}
 this
 .
 httpActivity
@@ -10813,6 +10815,10 @@ openResponses
 .
 if
 (
+!
+_alive
+|
+|
 aTopic
 !
 =

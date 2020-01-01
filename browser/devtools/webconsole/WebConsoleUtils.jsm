@@ -5041,6 +5041,16 @@ trim
 (
 )
 ;
+if
+(
+!
+prop
+)
+{
+return
+null
+;
+}
 /
 /
 If
