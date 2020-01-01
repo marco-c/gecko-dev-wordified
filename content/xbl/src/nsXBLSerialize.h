@@ -195,8 +195,9 @@ Original
 Code
 is
 *
+the
 Mozilla
-Corporation
+Foundation
 .
 *
 Portions
