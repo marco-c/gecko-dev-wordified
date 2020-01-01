@@ -183,7 +183,6 @@ the
 audio
 backend
 (
-sydneyaudio
 via
 AudioStream
 )
@@ -191,8 +190,8 @@ currently
 supports
 .
 The
-*
 supported
+*
 sample
 rate
 is
@@ -202,9 +201,9 @@ to
 arbitrarily
 selected
 sane
-*
 values
 .
+*
 Support
 for
 additional

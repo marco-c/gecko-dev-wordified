@@ -559,17 +559,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_SYDNEYAUDIO
-#
 include
 "
 AudioStream
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_WIDGET_GONK
@@ -1348,9 +1343,6 @@ return
 rv
 ;
 }
-#
-ifdef
-MOZ_SYDNEYAUDIO
 AudioStream
 :
 :
@@ -1358,8 +1350,6 @@ InitLibrary
 (
 )
 ;
-#
-endif
 nsContentSink
 :
 :
@@ -1860,9 +1850,6 @@ Shutdown
 ;
 #
 endif
-#
-ifdef
-MOZ_SYDNEYAUDIO
 AudioStream
 :
 :
@@ -1870,8 +1857,6 @@ ShutdownLibrary
 (
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_WMF

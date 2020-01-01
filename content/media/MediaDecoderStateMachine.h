@@ -170,7 +170,7 @@ display
 At
 some
 point
-libsydneyaudio
+AudioStream
 will
 be
 refactored
@@ -743,8 +743,6 @@ hardware
 (
 via
 AudioStream
-and
-libsydneyaudio
 )
 .
 *
