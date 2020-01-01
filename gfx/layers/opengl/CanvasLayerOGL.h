@@ -114,7 +114,7 @@ h
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_X11
 )
 &
 &
@@ -199,7 +199,7 @@ false
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_X11
 )
 &
 &
@@ -365,7 +365,7 @@ mForceReadback
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_X11
 )
 &
 &
