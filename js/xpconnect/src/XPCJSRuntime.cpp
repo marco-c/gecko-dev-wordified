@@ -13130,6 +13130,14 @@ mAutoRoots
 (
 nsnull
 )
+mResolveName
+(
+JSID_VOID
+)
+mResolvingWrapper
+(
+nsnull
+)
 mWrappedJSMap
 (
 JSObject2WrappedJSMap
