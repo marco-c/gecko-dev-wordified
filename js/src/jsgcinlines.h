@@ -2176,6 +2176,10 @@ get
 }
 }
 ;
+typedef
+GCCompartmentsIter
+GCZonesIter
+;
 /
 *
 Iterates
@@ -2308,6 +2312,10 @@ get
 ;
 }
 }
+;
+typedef
+GCCompartmentGroupIter
+GCZoneGroupIter
 ;
 /
 *

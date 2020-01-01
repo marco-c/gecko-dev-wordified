@@ -4197,6 +4197,10 @@ get
 }
 }
 ;
+typedef
+CompartmentsIter
+ZonesIter
+;
 /
 *
 *
