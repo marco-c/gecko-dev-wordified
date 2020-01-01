@@ -2893,7 +2893,7 @@ v_ins
 )
 ;
 JS_REQUIRES_STACK
-bool
+void
 unbox_jsval
 (
 jsval
