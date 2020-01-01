@@ -546,6 +546,12 @@ shuffle
 =
 shuffle
                                           
+testsRootDir
+=
+self
+.
+tempdir
+                                          
 xunitFilename
 =
 xunitFilename
