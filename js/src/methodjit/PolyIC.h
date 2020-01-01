@@ -259,6 +259,7 @@ Lookup_Error
 0
 Lookup_Uncacheable
 Lookup_Cacheable
+Lookup_NoProperty
 }
 ;
 struct
