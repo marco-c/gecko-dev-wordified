@@ -1661,7 +1661,7 @@ PresContext
 )
 -
 >
-AppUnitsPerDevPixel
+AppUnitsPerCSSPixel
 (
 )
 )
