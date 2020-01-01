@@ -1907,6 +1907,17 @@ uint16_t
 index
 )
 ;
+uintN
+GetCallTargetCount
+(
+JSScript
+*
+script
+jsbytecode
+*
+pc
+)
+;
 }
 /
 *
