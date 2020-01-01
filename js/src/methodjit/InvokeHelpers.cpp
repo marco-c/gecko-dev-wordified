@@ -5827,6 +5827,11 @@ JS_TRACER
 /
 #
 if
+defined
+JS_TRACER
+#
+if
+defined
 JS_MONOIC
 void
 *
@@ -5917,3 +5922,15 @@ f
 }
 #
 endif
+/
+*
+JS_MONOIC
+*
+/
+#
+endif
+/
+*
+JS_TRACER
+*
+/
