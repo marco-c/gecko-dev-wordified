@@ -11240,9 +11240,6 @@ success
 PR_FALSE
 )
 ;
-#
-ifdef
-MOZ_PROFILING
 success
 =
 JS_DefineProfilingFunctions
@@ -11257,8 +11254,6 @@ success
 PR_FALSE
 )
 ;
-#
-endif
 if
 (
 IsPrivileged

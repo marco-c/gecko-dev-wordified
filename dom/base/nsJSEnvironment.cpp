@@ -19184,9 +19184,6 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-#
-ifdef
-MOZ_PROFILING
 /
 /
 Attempt
@@ -19202,8 +19199,6 @@ mContext
 globalObj
 )
 ;
-#
-endif
 #
 ifdef
 NS_TRACE_MALLOC
