@@ -1844,6 +1844,16 @@ aType
 )
 ;
 virtual
+bool
+RecvBroadcastVolume
+(
+const
+nsString
+&
+aVolumeName
+)
+;
+virtual
 void
 ProcessingError
 (
