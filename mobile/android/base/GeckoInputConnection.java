@@ -6388,12 +6388,6 @@ mIMEState
 !
 =
 IME_STATE_DISABLED
-&
-&
-mIMEState
-!
-=
-IME_STATE_PLUGIN
 )
 imm
 .

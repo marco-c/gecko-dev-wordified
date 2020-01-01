@@ -1107,9 +1107,11 @@ SWIPE_MIN_DISTANCE_INCHES
 .
 6
 ;
-static
 nsWindow
 *
+nsWindow
+:
+:
 TopWindow
 (
 )
@@ -2165,6 +2167,9 @@ FindTopLevel
 )
 =
 =
+nsWindow
+:
+:
 TopWindow
 (
 )
@@ -2457,6 +2462,9 @@ BringToFront
 else
 if
 (
+nsWindow
+:
+:
 TopWindow
 (
 )
@@ -2536,6 +2544,9 @@ FindTopLevel
 )
 =
 =
+nsWindow
+:
+:
 TopWindow
 (
 )
@@ -2894,6 +2905,9 @@ FindTopLevel
 )
 =
 =
+nsWindow
+:
+:
 TopWindow
 (
 )
@@ -3368,6 +3382,9 @@ FindTopLevel
 )
 =
 =
+nsWindow
+:
+:
 TopWindow
 (
 )

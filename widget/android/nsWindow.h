@@ -543,6 +543,13 @@ GetAndroidScreenBounds
 (
 )
 ;
+static
+nsWindow
+*
+TopWindow
+(
+)
+;
 nsWindow
 *
 FindWindowForPoint
