@@ -45899,17 +45899,6 @@ if
 placeholderPath
 )
 {
-nsIFrame
-*
-placeholderPathFC
-=
-placeholderPath
--
->
-GetFirstContinuation
-(
-)
-;
 for
 (
 ;
