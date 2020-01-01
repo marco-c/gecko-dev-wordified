@@ -2038,7 +2038,7 @@ IDBTransactionEvent
 )
 DOMCI_CLASS
 (
-IDBObjectStoreRequest
+IDBObjectStore
 )
 DOMCI_CLASS
 (

@@ -502,7 +502,7 @@ h
 #
 include
 "
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "
@@ -3197,7 +3197,7 @@ const
 nsAString
 &
 aName
-nsIIDBObjectStoreRequest
+nsIIDBObjectStore
 *
 *
 _retval
@@ -3327,11 +3327,11 @@ NS_ERROR_NOT_AVAILABLE
 }
 nsRefPtr
 <
-IDBObjectStoreRequest
+IDBObjectStore
 >
 objectStore
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 Create

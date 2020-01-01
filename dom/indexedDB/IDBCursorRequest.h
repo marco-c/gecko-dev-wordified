@@ -463,7 +463,7 @@ dom
 /
 indexedDB
 /
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "
@@ -492,7 +492,7 @@ class
 IDBRequest
 ;
 class
-IDBObjectStoreRequest
+IDBObjectStore
 ;
 class
 IDBTransaction
@@ -555,7 +555,7 @@ aRequest
 IDBTransaction
 *
 aTransaction
-IDBObjectStoreRequest
+IDBObjectStore
 *
 aObjectStore
 PRUint16
@@ -672,7 +672,7 @@ mTransaction
 ;
 nsRefPtr
 <
-IDBObjectStoreRequest
+IDBObjectStore
 >
 mObjectStore
 ;

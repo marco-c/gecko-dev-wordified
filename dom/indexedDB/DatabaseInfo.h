@@ -478,7 +478,7 @@ h
 #
 include
 "
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "
