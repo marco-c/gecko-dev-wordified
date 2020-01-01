@@ -5634,6 +5634,15 @@ resetInputConnection
 ;
 break
 ;
+case
+NOTIFY_IME_OPEN_VKB
+:
+showSoftInput
+(
+)
+;
+break
+;
 default
 :
 if
