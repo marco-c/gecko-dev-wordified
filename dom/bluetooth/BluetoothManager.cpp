@@ -229,6 +229,13 @@ Util
 .
 h
 "
+#
+include
+"
+nsIDOMDOMRequest
+.
+h
+"
 using
 namespace
 mozilla
