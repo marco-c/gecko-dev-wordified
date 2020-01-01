@@ -2080,8 +2080,6 @@ isObject
 )
 )
 return
-!
-!
 js_PrimitiveToObject
 (
 cx
@@ -3151,8 +3149,6 @@ clasp
 js_NoSuchMethodClass
 )
 return
-!
-!
 NoSuchMethod
 (
 cx
@@ -3714,8 +3710,6 @@ cx
 #
 endif
 return
-!
-!
 ok
 ;
 }
@@ -4650,8 +4644,6 @@ fp
 rval
 ;
 return
-!
-!
 ok
 ;
 }
@@ -5966,8 +5958,6 @@ hookData
 ;
 }
 return
-!
-!
 ok
 ;
 }
@@ -6676,8 +6666,6 @@ return
 JS_FALSE
 ;
 return
-!
-!
 JS_ReportErrorFlagsAndNumber
 (
 cx
@@ -6851,8 +6839,6 @@ lmask
 JSVAL_STRING_MASK
 )
 return
-!
-!
 js_EqualStrings
 (
 lval
@@ -7895,8 +7881,6 @@ UndefinedTag
 return
 BooleanTag
 (
-!
-!
 JSBOXEDWORD_TO_BOOLEAN
 (
 w
@@ -8059,7 +8043,7 @@ js_NewWeaklyRootedDoubleAtom
 cx
 v
 .
-asDouble
+asNumber
 (
 )
 )
@@ -12217,8 +12201,6 @@ else
 \
 b
 =
-!
-!
 js_ValueToBoolean
 (
 *
@@ -14013,8 +13995,6 @@ true
 slow_path
 :
 return
-!
-!
 js_IteratorNext
 (
 cx
@@ -16252,7 +16232,7 @@ JSOp
 op
 ;
 #
-if
+ifdef
 JS_THREADED_INTERP
 {
 jsint
@@ -16287,22 +16267,6 @@ loop
 .
 *
 /
-/
-/
-If
-we
-initialize
-in
-the
-declaration
-MSVC
-complains
-that
-the
-labels
-skip
-init
-.
 jsint
 len
 =
@@ -17543,6 +17507,8 @@ block
 .
 *
 /
+{
+jsint
 len
 =
 0
@@ -17552,6 +17518,7 @@ DO_NEXT_OP
 len
 )
 ;
+}
 case
 JSTRY_FINALLY
 :
@@ -17600,6 +17567,8 @@ throwing
 =
 JS_FALSE
 ;
+{
+jsint
 len
 =
 0
@@ -17609,6 +17578,7 @@ DO_NEXT_OP
 len
 )
 ;
+}
 case
 JSTRY_ITER
 :
