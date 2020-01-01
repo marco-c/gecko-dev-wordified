@@ -1072,6 +1072,11 @@ _doubleClickRadius
 =
 Util
 .
+getWindowUtils
+(
+window
+)
+.
 displayDPI
 *
 kDoubleClickRadius
@@ -4215,6 +4220,11 @@ dpi
 =
 Util
 .
+getWindowUtils
+(
+window
+)
+.
 displayDPI
 ;
 delete
@@ -5050,6 +5060,11 @@ this
 _lockRevertThreshold
 =
 Util
+.
+getWindowUtils
+(
+window
+)
 .
 displayDPI
 *
