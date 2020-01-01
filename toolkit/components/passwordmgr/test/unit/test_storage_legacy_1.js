@@ -90,10 +90,6 @@ nsIFile
 )
 .
 path
-+
-"
-/
-"
 ;
 var
 INDIR
@@ -127,14 +123,11 @@ txt
 parent
 .
 path
-+
-"
-/
-"
 ;
 function
 initStorage
 (
+aInputPathName
 aInputFileName
 aExpectedError
 )
@@ -173,6 +166,13 @@ nsILocalFile
 inputFile
 .
 initWithPath
+(
+aInputPathName
+)
+;
+inputFile
+.
+append
 (
 aInputFileName
 )
@@ -717,6 +717,7 @@ nsLoginInfo
 null
 )
 ;
+var
 testuser1
 =
 new
@@ -783,6 +784,7 @@ httpRealm
 =
 null
 ;
+var
 testuser2
 =
 new
@@ -1130,7 +1132,6 @@ file
 initStorage
 (
 OUTDIR
-+
 filename
 null
 )
@@ -1209,7 +1210,6 @@ file
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1281,7 +1281,6 @@ header
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1353,7 +1352,6 @@ empty
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1422,7 +1420,6 @@ logins
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1550,7 +1547,6 @@ format
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1634,7 +1630,6 @@ login
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1708,7 +1703,6 @@ login
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1800,7 +1794,6 @@ host
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1875,7 +1868,6 @@ logins
 initStorage
 (
 INDIR
-+
 "
 signons
 -
