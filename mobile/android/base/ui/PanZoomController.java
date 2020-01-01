@@ -622,7 +622,7 @@ FRICTION
 =
 0
 .
-97f
+85f
 ;
 /
 /
@@ -711,7 +711,7 @@ final
 int
 SNAP_TIME
 =
-150
+240
 ;
 /
 /
@@ -825,13 +825,13 @@ Math
 .
 PI
 /
-15
+6
 .
 0
 ;
 /
 /
-12
+30
 degrees
 private
 Timer
