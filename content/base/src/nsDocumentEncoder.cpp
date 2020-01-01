@@ -7414,7 +7414,7 @@ level
 /
 up
 the
-heirarchy
+hierarchy
 .
 rv
 =
