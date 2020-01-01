@@ -824,7 +824,7 @@ else
 {
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 L
@@ -835,7 +835,7 @@ dL
 ;
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 R

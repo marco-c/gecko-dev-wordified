@@ -44059,7 +44059,7 @@ NULL
 if
 (
 !
-js_SetClassPrototype
+LinkConstructorAndPrototype
 (
 cx
 FUN_OBJECT
@@ -44067,16 +44067,11 @@ FUN_OBJECT
 fun
 )
 proto
-JSPROP_READONLY
-|
-JSPROP_PERMANENT
 )
 )
-{
 return
 NULL
 ;
-}
 return
 proto
 ;
