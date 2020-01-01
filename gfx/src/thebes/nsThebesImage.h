@@ -658,10 +658,6 @@ gfxRect
 &
 aTileRect
 const
-nsIntRect
-&
-aSubimageRect
-const
 PRInt32
 aXPadding
 const

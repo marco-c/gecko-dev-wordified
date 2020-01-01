@@ -1357,10 +1357,6 @@ const
 nsRect
 *
 aTargetRect
-const
-nsIntRect
-*
-aSubimageRect
 )
 ;
 NS_IMETHOD
