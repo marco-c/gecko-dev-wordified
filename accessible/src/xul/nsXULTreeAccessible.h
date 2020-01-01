@@ -1000,6 +1000,9 @@ view
 void
 TreeViewChanged
 (
+nsITreeView
+*
+aView
 )
 ;
 protected
