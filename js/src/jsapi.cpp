@@ -26161,7 +26161,7 @@ alloca
 genericLen
 )
 ;
-snprintf
+JS_snprintf
 (
 genericName
 genericLen
@@ -26354,7 +26354,7 @@ alloca
 fullLen
 )
 ;
-snprintf
+JS_snprintf
 (
 fullName
 fullLen

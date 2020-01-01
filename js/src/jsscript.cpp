@@ -11802,7 +11802,7 @@ name
 40
 ]
 ;
-snprintf
+JS_snprintf
 (
 name
 sizeof
