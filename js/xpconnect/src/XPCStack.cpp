@@ -503,7 +503,7 @@ const
 unsigned
 MAX_FRAMES
 =
-3000
+100
 ;
 unsigned
 numFrames
