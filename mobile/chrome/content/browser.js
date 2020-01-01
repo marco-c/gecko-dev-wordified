@@ -8225,9 +8225,9 @@ selectedTab
 .
 clampZoomLevel
 (
-window
+ViewableAreaObserver
 .
-innerWidth
+width
 /
 (
 rect
@@ -14368,9 +14368,9 @@ return
 let
 width
 =
-window
+ViewableAreaObserver
 .
-innerWidth
+width
 /
 Browser
 .
