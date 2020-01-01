@@ -13460,6 +13460,13 @@ SVGUseFrame
 )
 GK_ATOM
 (
+svgViewFrame
+"
+SVGViewFrame
+"
+)
+GK_ATOM
+(
 HTMLVideoFrame
 "
 VideoFrame

@@ -186,6 +186,14 @@ mozilla
 SVGFragmentIdentifier
 ;
 friend
+class
+nsSVGSVGElement
+;
+friend
+class
+nsSVGOuterSVGFrame
+;
+friend
 nsresult
 NS_NewSVGViewElement
 (
