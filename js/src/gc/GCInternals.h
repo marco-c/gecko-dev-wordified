@@ -409,7 +409,8 @@ rt
 #
 ifdef
 JSGC_ROOT_ANALYSIS
-bool
+void
+*
 IsAddressableGCThing
 (
 JSRuntime
