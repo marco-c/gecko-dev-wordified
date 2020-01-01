@@ -1219,6 +1219,13 @@ PRUint32
 httpStatus
 )
 ;
+PRBool
+ShouldSSLProxyResponseContinue
+(
+PRUint32
+httpStatus
+)
+;
 nsresult
 ProcessFailedSSLConnect
 (
