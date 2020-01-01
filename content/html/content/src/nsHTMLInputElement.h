@@ -1267,7 +1267,7 @@ called
 if
 the
 radio
-elemnet
+element
 hasn
 '
 t
@@ -3101,7 +3101,7 @@ classes
 return
 Whether
 the
-elemnet
+element
 should
 have
 a

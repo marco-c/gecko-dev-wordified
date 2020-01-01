@@ -1483,7 +1483,7 @@ classes
 return
 Whether
 the
-elemnet
+element
 should
 have
 a
