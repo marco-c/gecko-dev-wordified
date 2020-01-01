@@ -1727,11 +1727,13 @@ if
 (
 Utils
 .
-OS
+MozBuildApp
 =
 =
 '
-Android
+mobile
+/
+android
 '
 )
 /
