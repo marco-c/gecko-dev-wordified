@@ -910,7 +910,7 @@ mScrollableRect
 |
 stored
 in
-device
+layer
 pixels
 .
 DECPRECATED
@@ -1011,7 +1011,7 @@ it
 s
 needed
 ?
-nsIntRect
+LayerIntRect
 mContentRect
 ;
 /
