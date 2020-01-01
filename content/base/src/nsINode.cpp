@@ -7868,8 +7868,10 @@ Remove
 (
 )
 {
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 GetParentNode
