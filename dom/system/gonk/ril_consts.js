@@ -5410,6 +5410,12 @@ CB_FORMAT_UMTS
 =
 3
 ;
+this
+.
+CB_MESSAGE_SIZE_ETWS
+=
+56
+;
 /
 /
 GSM
