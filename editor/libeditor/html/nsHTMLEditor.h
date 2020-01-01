@@ -5630,8 +5630,10 @@ nsIContentFilter
 >
 mContentFilters
 ;
+nsRefPtr
+<
 TypeInState
-*
+>
 mTypeInState
 ;
 PRPackedBool
@@ -5640,8 +5642,10 @@ mCRInParagraphCreatesParagraph
 PRPackedBool
 mCSSAware
 ;
+nsAutoPtr
+<
 nsHTMLCSSUtils
-*
+>
 mHTMLCSSUtils
 ;
 /
