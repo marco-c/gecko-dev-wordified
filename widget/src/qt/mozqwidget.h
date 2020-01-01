@@ -72,7 +72,7 @@ aCursor
 )
 ;
 void
-dropReciever
+dropReceiver
 (
 )
 {
@@ -84,7 +84,7 @@ mReceiver
 ;
 nsWindow
 *
-getReciever
+getReceiver
 (
 )
 {

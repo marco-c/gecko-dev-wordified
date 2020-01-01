@@ -514,6 +514,9 @@ class
 QEvent
 ;
 class
+MozQWidget
+;
+class
 nsWindow
 :
 public
@@ -1036,7 +1039,7 @@ class
 MozQWidget
 ;
 virtual
-bool
+nsEventStatus
 OnExposeEvent
 (
 QPaintEvent
@@ -1044,7 +1047,7 @@ QPaintEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnConfigureEvent
 (
 QMoveEvent
@@ -1052,7 +1055,7 @@ QMoveEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnSizeAllocate
 (
 QResizeEvent
@@ -1060,7 +1063,7 @@ QResizeEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnDeleteEvent
 (
 QCloseEvent
@@ -1068,7 +1071,7 @@ QCloseEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnEnterNotifyEvent
 (
 QEvent
@@ -1076,7 +1079,7 @@ QEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnLeaveNotifyEvent
 (
 QEvent
@@ -1084,7 +1087,7 @@ QEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnMotionNotifyEvent
 (
 QMouseEvent
@@ -1092,7 +1095,7 @@ QMouseEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnButtonPressEvent
 (
 QMouseEvent
@@ -1100,7 +1103,7 @@ QMouseEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnButtonReleaseEvent
 (
 QMouseEvent
@@ -1108,7 +1111,7 @@ QMouseEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 mouseDoubleClickEvent
 (
 QMouseEvent
@@ -1116,7 +1119,7 @@ QMouseEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnContainerFocusInEvent
 (
 QFocusEvent
@@ -1124,7 +1127,7 @@ QFocusEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnContainerFocusOutEvent
 (
 QFocusEvent
@@ -1132,7 +1135,7 @@ QFocusEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnKeyPressEvent
 (
 QKeyEvent
@@ -1140,7 +1143,7 @@ QKeyEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnKeyReleaseEvent
 (
 QKeyEvent
@@ -1148,7 +1151,7 @@ QKeyEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnScrollEvent
 (
 QWheelEvent
@@ -1156,7 +1159,7 @@ QWheelEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 contextMenuEvent
 (
 QContextMenuEvent
@@ -1164,7 +1167,7 @@ QContextMenuEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 imStartEvent
 (
 QEvent
@@ -1172,7 +1175,7 @@ QEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 imComposeEvent
 (
 QEvent
@@ -1180,7 +1183,7 @@ QEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 imEndEvent
 (
 QEvent
@@ -1188,7 +1191,7 @@ QEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnDragEnter
 (
 QDragEnterEvent
@@ -1196,7 +1199,7 @@ QDragEnterEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnDragMotionEvent
 (
 QDragMoveEvent
@@ -1204,7 +1207,7 @@ QDragMoveEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnDragLeaveEvent
 (
 QDragLeaveEvent
@@ -1212,7 +1215,7 @@ QDragLeaveEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 OnDragDropEvent
 (
 QDropEvent
@@ -1220,7 +1223,7 @@ QDropEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 showEvent
 (
 QShowEvent
@@ -1228,14 +1231,14 @@ QShowEvent
 )
 ;
 virtual
-bool
+nsEventStatus
 hideEvent
 (
 QHideEvent
 *
 )
 ;
-bool
+nsEventStatus
 OnWindowStateEvent
 (
 QEvent
@@ -1532,6 +1535,10 @@ aInitData
 QWidget
 *
 mDrawingarea
+;
+MozQWidget
+*
+mMozQWidget
 ;
 PRUint32
 mIsVisible

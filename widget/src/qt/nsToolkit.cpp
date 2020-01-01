@@ -478,6 +478,13 @@ nsGUIEvent
 .
 h
 "
+#
+include
+"
+nsWidgetAtoms
+.
+h
+"
 /
 /
 #
@@ -1101,6 +1108,13 @@ PRThread
 aThread
 )
 {
+nsWidgetAtoms
+:
+:
+RegisterAtoms
+(
+)
+;
 return
 NS_OK
 ;
