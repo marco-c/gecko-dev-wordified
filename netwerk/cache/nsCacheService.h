@@ -1161,10 +1161,6 @@ friend
 class
 nsOfflineCacheDevice
 ;
-friend
-class
-nsProcessRequestEvent
-;
 /
 *
 *
@@ -1481,12 +1477,6 @@ holding
 mLock
 #
 endif
-nsCOMPtr
-<
-nsIThread
->
-mCacheIOThread
-;
 nsTArray
 <
 nsISupports
