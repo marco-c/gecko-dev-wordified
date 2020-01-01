@@ -1505,7 +1505,7 @@ nsFrameScriptExecutor
 ;
 }
 void
-DidCreateCx
+DidCreateGlobal
 (
 )
 ;
