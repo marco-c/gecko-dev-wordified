@@ -991,12 +991,13 @@ nsAutoArrayPtr
 char
 >
 utf8Buffer
-=
+(
 new
 char
 [
 flen
 ]
+)
 ;
 if
 (
