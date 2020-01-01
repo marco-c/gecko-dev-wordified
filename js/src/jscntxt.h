@@ -5375,6 +5375,7 @@ register
 .
 *
 /
+JS_REQUIRES_STACK
 JSArenaPool
 stackPool
 ;

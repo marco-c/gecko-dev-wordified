@@ -625,6 +625,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 jsstr
 .
 h
@@ -1884,6 +1891,10 @@ cx
 version
 =
 JSVERSION_DEFAULT
+;
+VOUCH_DOES_NOT_REQUIRE_STACK
+(
+)
 ;
 JS_INIT_ARENA_POOL
 (
@@ -3210,6 +3221,10 @@ cx
 js_FreeRegExpStatics
 (
 cx
+)
+;
+VOUCH_DOES_NOT_REQUIRE_STACK
+(
 )
 ;
 JS_FinishArenaPool

@@ -3711,6 +3711,7 @@ space
 *
 /
 static
+JS_REQUIRES_STACK
 JSBool
 AllocateAfterSP
 (
@@ -3893,6 +3894,7 @@ JS_TRUE
 ;
 }
 JS_STATIC_INTERPRET
+JS_REQUIRES_STACK
 jsval
 *
 js_AllocRawStack
@@ -4016,6 +4018,7 @@ sp
 ;
 }
 JS_STATIC_INTERPRET
+JS_REQUIRES_STACK
 void
 js_FreeRawStack
 (
@@ -4038,6 +4041,7 @@ mark
 )
 ;
 }
+JS_REQUIRES_STACK
 JS_FRIEND_API
 (
 jsval
@@ -4372,6 +4376,7 @@ return
 sp
 ;
 }
+JS_REQUIRES_STACK
 JS_FRIEND_API
 (
 void
@@ -6509,6 +6514,7 @@ ok
 ;
 }
 static
+JS_REQUIRES_STACK
 JSBool
 NoSuchMethod
 (
@@ -6904,6 +6910,7 @@ value
 .
 *
 /
+JS_REQUIRES_STACK
 JS_FRIEND_API
 (
 JSBool
@@ -8371,10 +8378,10 @@ frame
 .
 down
 =
-js_GetTopStackFrame
-(
 cx
-)
+-
+>
+fp
 ;
 frame
 .
@@ -9072,6 +9079,7 @@ goto
 out2
 ;
 }
+JS_REQUIRES_STACK
 JSBool
 js_InternalInvoke
 (
@@ -9336,6 +9344,11 @@ rval
 JSSecurityCallbacks
 *
 callbacks
+;
+js_LeaveTrace
+(
+cx
+)
 ;
 /
 *
@@ -11285,6 +11298,7 @@ lval
 rval
 ;
 }
+JS_REQUIRES_STACK
 JSBool
 js_InvokeConstructor
 (

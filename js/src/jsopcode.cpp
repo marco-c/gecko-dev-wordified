@@ -26991,6 +26991,10 @@ if
 tmp
 )
 {
+VOUCH_DOES_NOT_REQUIRE_STACK
+(
+)
+;
 ok
 =
 js_MergeSort

@@ -3099,6 +3099,7 @@ functions
 *
 /
 extern
+JS_REQUIRES_STACK
 JS_FRIEND_API
 (
 jsval
@@ -3118,6 +3119,7 @@ markp
 )
 ;
 extern
+JS_REQUIRES_STACK
 JS_FRIEND_API
 (
 void
@@ -3594,6 +3596,7 @@ call
 *
 /
 extern
+JS_REQUIRES_STACK
 JS_FRIEND_API
 (
 JSBool
@@ -3869,6 +3872,7 @@ result
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_InvokeConstructor
 (
@@ -4082,6 +4086,7 @@ else
 define
 JS_STATIC_INTERPRET
 extern
+JS_REQUIRES_STACK
 jsval
 *
 js_AllocRawStack
@@ -4098,6 +4103,7 @@ markp
 )
 ;
 extern
+JS_REQUIRES_STACK
 void
 js_FreeRawStack
 (
