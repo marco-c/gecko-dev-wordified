@@ -52,9 +52,6 @@ tw
 99
 :
 *
-/
-/
-*
 This
 Source
 Code
@@ -136,13 +133,6 @@ h
 include
 "
 jsfriendapi
-.
-h
-"
-#
-include
-"
-jsscriptinlines
 .
 h
 "
