@@ -612,7 +612,6 @@ GetGlyph
 .
 *
 /
-virtual
 PRUint32
 GetGlyph
 (
