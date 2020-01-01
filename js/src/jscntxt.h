@@ -5676,6 +5676,12 @@ mTvr
 )
 ;
 }
+protected
+:
+JSContext
+*
+mContext
+;
 private
 :
 #
@@ -5702,10 +5708,6 @@ size_t
 ;
 #
 endif
-JSContext
-*
-mContext
-;
 JSTempValueRooter
 mTvr
 ;
