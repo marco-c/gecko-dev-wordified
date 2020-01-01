@@ -3099,7 +3099,7 @@ ATOM_TO_JSID
 (
 atom
 )
-JSGET_NO_METHOD_BARRIER
+0
 vp
 )
 )
@@ -8201,7 +8201,7 @@ js_GetMethod
 cx
 iterobj
 id
-JSGET_METHOD_BARRIER
+0
 rval
 )
 )

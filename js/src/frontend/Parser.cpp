@@ -7405,14 +7405,6 @@ pn_dflags
 =
 PND_BOUND
 ;
-funbox
--
->
-tcflags
-|
-=
-TCF_FUN_USES_OWN_NAME
-;
 foundCallee
 =
 1
@@ -13956,7 +13948,7 @@ hasSlot
 shape
 -
 >
-hasDefaultGetterOrIsMethod
+hasDefaultGetter
 (
 )
 |

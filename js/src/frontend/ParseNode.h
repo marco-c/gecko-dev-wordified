@@ -10268,12 +10268,6 @@ JSFunction
 object
 ;
 }
-bool
-joinable
-(
-)
-const
-;
 /
 *
 *

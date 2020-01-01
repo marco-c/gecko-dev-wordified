@@ -2811,10 +2811,6 @@ SET
 /
 JSOP_SETPROP
 JSOP_SETNAME
-SETMETHOD
-/
-/
-JSOP_SETMETHOD
 NAME
 /
 /
@@ -3271,12 +3267,6 @@ kind
 =
 =
 SET
-|
-|
-kind
-=
-=
-SETMETHOD
 ;
 }
 inline

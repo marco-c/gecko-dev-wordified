@@ -3866,9 +3866,6 @@ case
 JSOP_ENDINIT
 :
 case
-JSOP_INITMETHOD
-:
-case
 JSOP_INITPROP
 :
 case
@@ -3876,9 +3873,6 @@ JSOP_INITELEM
 :
 case
 JSOP_SETPROP
-:
-case
-JSOP_SETMETHOD
 :
 case
 JSOP_IN
@@ -10157,9 +10151,6 @@ break
 ;
 case
 JSOP_INITPROP
-:
-case
-JSOP_INITMETHOD
 :
 stack
 [
