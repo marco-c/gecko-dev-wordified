@@ -1901,6 +1901,15 @@ BatteryInformation
 aBatteryInfo
 )
 ;
+PRUint16
+GetNumberOfMessagesForText
+(
+const
+nsAString
+&
+aText
+)
+;
 protected
 :
 static
@@ -2151,6 +2160,9 @@ jMarkUriVisited
 ;
 jmethodID
 jEmitGeckoAccessibilityEvent
+;
+jmethodID
+jNumberOfMessages
 ;
 /
 /
