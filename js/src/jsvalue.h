@@ -3482,19 +3482,6 @@ marked
 .
 *
 /
-bool
-isUnderlyingTypeOfPrivate
-(
-)
-const
-{
-return
-JSVAL_IS_UNDERLYING_TYPE_OF_PRIVATE_IMPL
-(
-data
-)
-;
-}
 void
 setPrivate
 (
@@ -3520,7 +3507,7 @@ const
 {
 JS_ASSERT
 (
-JSVAL_IS_UNDERLYING_TYPE_OF_PRIVATE_IMPL
+JSVAL_IS_DOUBLE_IMPL
 (
 data
 )
@@ -3556,7 +3543,7 @@ const
 {
 JS_ASSERT
 (
-JSVAL_IS_UNDERLYING_TYPE_OF_PRIVATE_IMPL
+JSVAL_IS_DOUBLE_IMPL
 (
 data
 )
