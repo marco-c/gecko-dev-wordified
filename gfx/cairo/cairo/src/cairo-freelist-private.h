@@ -216,17 +216,6 @@ private
 .
 h
 "
-#
-include
-"
-cairo
--
-compiler
--
-private
-.
-h
-"
 /
 *
 Opaque

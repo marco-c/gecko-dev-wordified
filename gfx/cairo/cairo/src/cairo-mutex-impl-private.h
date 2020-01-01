@@ -391,6 +391,16 @@ h
 "
 #
 endif
+#
+include
+"
+cairo
+-
+features
+.
+h
+"
+CAIRO_BEGIN_DECLS
 /
 *
 A
@@ -1848,5 +1858,6 @@ support
 "
 #
 endif
+CAIRO_END_DECLS
 #
 endif

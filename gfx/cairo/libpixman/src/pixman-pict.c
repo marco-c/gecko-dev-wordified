@@ -308,7 +308,7 @@ include
 "
 pixman
 -
-sse2
+sse
 .
 h
 "
@@ -6022,7 +6022,7 @@ USE_SSE2
 static
 const
 FastPathInfo
-sse2_fast_paths
+sse_fast_paths
 [
 ]
 =
@@ -8056,7 +8056,7 @@ endif
 #
 ifdef
 USE_SSE2
-fbComposeSetupSSE2
+fbComposeSetupSSE
 (
 )
 ;
@@ -8510,7 +8510,7 @@ ifdef
 USE_SSE2
 if
 (
-pixman_have_sse2
+pixman_have_sse
 (
 )
 )
@@ -8518,7 +8518,7 @@ info
 =
 get_fast_path
 (
-sse2_fast_paths
+sse_fast_paths
 op
 pSrc
 pMask
@@ -10281,7 +10281,7 @@ mmx_present
 ifdef
 USE_SSE2
 pixman_bool_t
-pixman_have_sse2
+pixman_have_sse
 (
 void
 )
@@ -10294,7 +10294,7 @@ FALSE
 ;
 static
 pixman_bool_t
-sse2_present
+sse_present
 ;
 if
 (
@@ -10310,7 +10310,7 @@ detectCPUFeatures
 (
 )
 ;
-sse2_present
+sse_present
 =
 (
 features
@@ -10343,7 +10343,7 @@ TRUE
 ;
 }
 return
-sse2_present
+sse_present
 ;
 }
 #
