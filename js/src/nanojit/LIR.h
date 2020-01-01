@@ -2706,6 +2706,11 @@ a
 )
 {
 }
+~
+Entry
+(
+)
+;
 DRCWB
 (
 avmplus
@@ -2783,6 +2788,11 @@ AvmCore
 LabelMap
 *
 parent
+)
+;
+~
+LabelMap
+(
 )
 ;
 void
@@ -2977,6 +2987,11 @@ n
 )
 {
 }
+~
+Entry
+(
+)
+;
 DRCWB
 (
 avmplus
@@ -3061,6 +3076,11 @@ r
 )
 {
 }
+~
+LirNameMap
+(
+)
+;
 void
 addName
 (
