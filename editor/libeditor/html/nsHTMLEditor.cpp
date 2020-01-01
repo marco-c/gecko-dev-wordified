@@ -25330,7 +25330,7 @@ the
 parent
 /
 /
-nsINode
+nsIContent
 *
 nsHTMLEditor
 :
@@ -25557,7 +25557,7 @@ node
 .
 /
 /
-nsINode
+nsIContent
 *
 nsHTMLEditor
 :
@@ -25771,7 +25771,7 @@ the
 parent
 /
 /
-nsINode
+nsIContent
 *
 nsHTMLEditor
 :
@@ -25996,7 +25996,7 @@ of
 a
 node
 .
-nsINode
+nsIContent
 *
 nsHTMLEditor
 :
