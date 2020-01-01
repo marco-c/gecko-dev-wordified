@@ -3998,6 +3998,9 @@ gAndroidBounds
 height
 )
 {
+#
+ifdef
+MOZ_ANDROID_OMTC
 if
 (
 sCompositorParent
@@ -4054,6 +4057,8 @@ nh
 )
 ;
 }
+#
+endif
 gAndroidBounds
 .
 width
