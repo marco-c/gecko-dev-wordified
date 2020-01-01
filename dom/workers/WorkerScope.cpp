@@ -4854,6 +4854,7 @@ GetProtoObject
 (
 aCx
 global
+global
 )
 ;
 if
@@ -5102,6 +5103,7 @@ CreateInterfaceObjects
 (
 aCx
 global
+global
 )
 |
 |
@@ -5112,6 +5114,7 @@ XMLHttpRequestUpload_workers
 CreateInterfaceObjects
 (
 aCx
+global
 global
 )
 )

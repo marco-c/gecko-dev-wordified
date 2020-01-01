@@ -205,6 +205,9 @@ cx
 JSObject
 *
 global
+JSObject
+*
+receiver
 JSClass
 *
 constructorClass
@@ -335,7 +338,7 @@ if
 JS_DefineProperty
 (
 cx
-global
+receiver
 name
 OBJECT_TO_JSVAL
 (
@@ -475,7 +478,10 @@ JSObject
 global
 JSObject
 *
-parentProto
+receiver
+JSObject
+*
+protoProto
 JSClass
 *
 protoClass
@@ -597,7 +603,7 @@ CreateInterfacePrototypeObject
 (
 cx
 global
-parentProto
+protoProto
 protoClass
 methods
 properties
@@ -637,6 +643,7 @@ CreateInterfaceObject
 (
 cx
 global
+receiver
 constructorClass
 proto
 staticMethods
