@@ -1477,9 +1477,9 @@ Image
 aImage
 uint32_t
 aContentFlags
-gfxPattern
+gfxASurface
 *
-pat
+aSurface
 )
 ;
 }
