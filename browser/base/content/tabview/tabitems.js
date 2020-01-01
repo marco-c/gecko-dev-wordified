@@ -4991,6 +4991,16 @@ function
 (
 )
 {
+onZoomDone
+(
+)
+;
+setTimeout
+(
+function
+(
+)
+{
 TabItems
 .
 resumePainting
@@ -5011,8 +5021,8 @@ front
 "
 )
 ;
-onZoomDone
-(
+}
+0
 )
 ;
 }
