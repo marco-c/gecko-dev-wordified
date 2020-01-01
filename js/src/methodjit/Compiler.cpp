@@ -36027,6 +36027,13 @@ OBJECT_FLAG_NON_DENSE_ARRAY
 )
 )
 {
+frame
+.
+forgetMismatchedObject
+(
+top
+)
+;
 bool
 isObject
 =
@@ -53969,6 +53976,13 @@ outerScript
 )
 )
 {
+frame
+.
+forgetMismatchedObject
+(
+obj
+)
+;
 bool
 isPacked
 =
