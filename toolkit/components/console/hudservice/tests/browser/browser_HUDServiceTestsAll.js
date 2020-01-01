@@ -2239,7 +2239,7 @@ msgs
 i
 ]
 .
-innerHTML
+textContent
 .
 indexOf
 (
