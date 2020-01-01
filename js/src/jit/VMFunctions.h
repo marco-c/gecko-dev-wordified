@@ -4119,6 +4119,16 @@ cx
 )
 ;
 bool
+CheckOverRecursedWithExtra
+(
+JSContext
+*
+cx
+uint32_t
+extra
+)
+;
+bool
 DefVarOrConst
 (
 JSContext

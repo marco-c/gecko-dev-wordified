@@ -297,7 +297,14 @@ args
 Mark
 scope
 chain
+if
+it
+exists
 .
+if
+(
+scopeChain_
+)
 gc
 :
 :
