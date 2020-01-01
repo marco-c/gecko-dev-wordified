@@ -2139,6 +2139,15 @@ aValue
 )
 ;
 nsresult
+GetResize
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
 GetPageBreakAfter
 (
 nsIDOMCSSValue

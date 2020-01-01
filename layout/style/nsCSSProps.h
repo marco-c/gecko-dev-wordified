@@ -2228,6 +2228,13 @@ kRadialGradientSizeKTable
 static
 const
 PRInt32
+kResizeKTable
+[
+]
+;
+static
+const
+PRInt32
 kSpeakKTable
 [
 ]
