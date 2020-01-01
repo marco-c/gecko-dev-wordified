@@ -9461,12 +9461,10 @@ false
 if
 (
 !
-fp
--
->
-computeThis
+ComputeThis
 (
 cx
+fp
 )
 )
 return
