@@ -522,6 +522,16 @@ ThebesLayerD3D9
 (
 )
 {
+if
+(
+mD3DManager
+-
+>
+deviceManager
+(
+)
+)
+{
 mD3DManager
 -
 >
@@ -537,6 +547,7 @@ RemoveElement
 this
 )
 ;
+}
 }
 /
 *
