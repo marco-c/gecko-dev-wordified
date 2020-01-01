@@ -595,10 +595,9 @@ const
 Key
 &
 aKey
-const
-nsAString
+JSAutoStructuredCloneBuffer
 &
-aValue
+aCloneBuffer
 )
 ;
 /
@@ -691,10 +690,9 @@ const
 Key
 &
 aObjectKey
-const
-nsAString
+JSAutoStructuredCloneBuffer
 &
-aValue
+aCloneBuffer
 )
 ;
 enum
@@ -832,8 +830,8 @@ mKey
 Key
 mObjectKey
 ;
-nsString
-mValue
+JSAutoStructuredCloneBuffer
+mCloneBuffer
 ;
 Key
 mContinueToKey

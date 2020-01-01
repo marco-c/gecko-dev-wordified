@@ -8363,9 +8363,6 @@ cx
 ;
 JSAutoStructuredCloneBuffer
 buffer
-(
-cx
-)
 ;
 if
 (
@@ -8374,6 +8371,7 @@ buffer
 .
 write
 (
+cx
 argv
 [
 0
