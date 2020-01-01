@@ -7587,8 +7587,6 @@ function
 (
 )
 {
-window
-.
 Trenches
 .
 activateOthersTrenches
@@ -7628,8 +7626,6 @@ SNAP
 var
 newRect
 =
-window
-.
 Trenches
 .
 snap
@@ -7685,8 +7681,6 @@ pushAway
 (
 )
 ;
-window
-.
 Trenches
 .
 disactivate
