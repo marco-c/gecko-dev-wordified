@@ -6647,10 +6647,7 @@ GetNativeContext
 )
 {
 return
-xpc_UnmarkGrayContext
-(
 mContext
-)
 ;
 }
 nsresult
