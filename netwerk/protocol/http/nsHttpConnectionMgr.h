@@ -4052,6 +4052,9 @@ RestrictConnections
 (
 nsConnectionEntry
 *
+bool
+=
+false
 )
 ;
 nsresult
