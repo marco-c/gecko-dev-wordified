@@ -5094,7 +5094,7 @@ the
 code
 added
 to
-nsCSSFrameConstructor
+RestyleManager
 :
 :
 RestyleElement
@@ -5112,7 +5112,7 @@ there
 and
 /
 /
-nsCSSFrameConstructor
+RestyleManager
 :
 :
 ProcessRestyledFrames

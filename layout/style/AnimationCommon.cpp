@@ -2180,12 +2180,7 @@ mAnimationGeneration
 aPresContext
 -
 >
-PresShell
-(
-)
--
->
-FrameConstructor
+RestyleManager
 (
 )
 -

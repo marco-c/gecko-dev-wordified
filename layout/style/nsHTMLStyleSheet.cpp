@@ -2798,7 +2798,12 @@ GetShell
 )
 -
 >
-FrameConstructor
+GetPresContext
+(
+)
+-
+>
+RestyleManager
 (
 )
 -

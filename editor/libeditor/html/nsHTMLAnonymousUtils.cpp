@@ -1466,7 +1466,7 @@ NS_WARNING
 /
 /
 in
-nsCSSFrameConstructor
+RestyleManager
 :
 :
 RestyleForRemove

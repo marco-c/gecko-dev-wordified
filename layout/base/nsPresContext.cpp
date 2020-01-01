@@ -365,7 +365,7 @@ h
 #
 include
 "
-nsCSSFrameConstructor
+RestyleManager
 .
 h
 "
@@ -9892,10 +9892,7 @@ KeyframesListIsDirty
 (
 )
 ;
-mShell
--
->
-FrameConstructor
+RestyleManager
 (
 )
 -
@@ -9939,10 +9936,7 @@ here
 return
 ;
 }
-mShell
--
->
-FrameConstructor
+RestyleManager
 (
 )
 -
