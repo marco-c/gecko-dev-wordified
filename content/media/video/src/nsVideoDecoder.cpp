@@ -452,11 +452,6 @@ BLOCK
 /
 #
 include
-<
-new
->
-#
-include
 "
 prlog
 .
@@ -1119,12 +1114,6 @@ char
 aRGBBuffer
 )
 {
-nsAutoLock
-lock
-(
-mVideoUpdateLock
-)
-;
 if
 (
 mRGBWidth
@@ -1178,12 +1167,6 @@ mRGB
 mRGB
 =
 new
-(
-std
-:
-:
-nothrow
-)
 unsigned
 char
 [
