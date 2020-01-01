@@ -911,7 +911,7 @@ true
 compositorOGL
 -
 >
-GetFBOLayerProgramType
+GetFBOFormat
 (
 )
 )
