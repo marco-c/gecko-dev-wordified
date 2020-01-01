@@ -145,6 +145,8 @@ Lib
 \
 Armv4i
 "
+/
+/
 #
 define
 WCE_RC_BIN
@@ -170,8 +172,6 @@ bin
 \
 \
 "
-/
-/
 #
 define
 WCE_RC_BIN
@@ -193,7 +193,7 @@ Windows
 \
 v6
 .
-0a
+0
 \
 \
 bin
