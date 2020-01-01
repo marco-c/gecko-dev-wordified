@@ -15979,7 +15979,6 @@ not
 PRBool
 bContext
 =
-!
 aTagStack
 .
 IsEmpty
