@@ -667,6 +667,11 @@ nsAString
 aOutputOptions
 )
 {
+NS_ENSURE_ARG
+(
+aData
+)
+;
 /
 /
 validate
