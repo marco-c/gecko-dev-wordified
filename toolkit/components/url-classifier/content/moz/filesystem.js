@@ -1376,10 +1376,13 @@ this
 .
 file_
 =
-isString
-(
+typeof
 file
-)
+=
+=
+"
+string
+"
 ?
 G_File
 .

@@ -480,7 +480,7 @@ foo
 (
 )
 {
-alert
+dump
 (
 '
 hi

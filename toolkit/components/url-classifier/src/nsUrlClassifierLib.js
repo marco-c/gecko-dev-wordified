@@ -467,7 +467,7 @@ include
 /
 content
 /
-js
+moz
 /
 lang
 .
@@ -542,18 +542,6 @@ content
 moz
 /
 cryptohasher
-.
-js
-#
-include
-.
-.
-/
-content
-/
-moz
-/
-lang
 .
 js
 #

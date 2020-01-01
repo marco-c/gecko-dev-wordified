@@ -403,7 +403,7 @@ interfaces
 ;
 /
 /
-js
+moz
 /
 lang
 .
@@ -423,7 +423,7 @@ include
 /
 content
 /
-js
+moz
 /
 lang
 .

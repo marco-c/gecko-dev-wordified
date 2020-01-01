@@ -484,7 +484,7 @@ PROT_Preferences
 ;
 /
 /
-alert
+dump
 (
 p
 .
@@ -506,7 +506,7 @@ shows
 true
 /
 /
-alert
+dump
 (
 p
 .
@@ -529,7 +529,7 @@ shows
 true
 /
 /
-alert
+dump
 (
 p
 .
@@ -562,7 +562,7 @@ prefThatChanged
 {
 /
 /
-alert
+dump
 (
 "
 Pref
@@ -605,7 +605,7 @@ true
 ;
 /
 /
-alerts
+dumps
 /
 /
 p
