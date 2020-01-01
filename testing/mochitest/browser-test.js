@@ -942,6 +942,9 @@ Application
 __SS_tabsToRestore
 "
 "
+__SSi
+"
+"
 webConsoleCommandController
 "
 /
