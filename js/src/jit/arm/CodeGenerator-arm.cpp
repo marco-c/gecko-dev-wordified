@@ -244,6 +244,12 @@ mozilla
 :
 FloorLog2
 ;
+using
+mozilla
+:
+:
+NegativeInfinity
+;
 /
 /
 shared
@@ -7572,7 +7578,9 @@ masm
 .
 ma_vimm
 (
-js_NegativeInfinity
+NegativeInfinity
+(
+)
 ScratchFloatReg
 )
 ;
