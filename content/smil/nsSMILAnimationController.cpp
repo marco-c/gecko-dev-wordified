@@ -4975,6 +4975,16 @@ GetKey
 (
 )
 ;
+if
+(
+animElem
+-
+>
+PassesConditionalProcessingTests
+(
+)
+)
+{
 SampleAnimationParams
 *
 params
@@ -5006,6 +5016,7 @@ params
 mCompositorTable
 )
 ;
+}
 return
 PL_DHASH_NEXT
 ;
