@@ -1295,9 +1295,14 @@ move
 /
 focus
 .
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+urlbar
+"
+)
 .
 focus
 (
