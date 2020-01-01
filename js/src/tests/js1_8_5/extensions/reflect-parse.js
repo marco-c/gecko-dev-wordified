@@ -14864,7 +14864,7 @@ x
 .
 *
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -15069,7 +15069,7 @@ y
 :
 z
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -15259,7 +15259,7 @@ x
 .
 foo
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -15289,7 +15289,7 @@ x
 foo
 ]
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -15881,7 +15881,7 @@ aExpr
 "
 =
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -16139,7 +16139,7 @@ aExpr
 +
 =
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -16368,7 +16368,7 @@ updExpr
 +
 +
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -16586,7 +16586,7 @@ updExpr
 +
 +
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -16931,7 +16931,7 @@ singletonObjPatt
 "
 a
 "
-dotExpr
+memExpr
 (
 ident
 (
@@ -17208,7 +17208,7 @@ foo
 "
 emptyForInPatt
 (
-dotExpr
+memExpr
 (
 ident
 (
@@ -19367,7 +19367,7 @@ singletonObjPatt
 "
 a
 "
-dotExpr
+memExpr
 (
 ident
 (
