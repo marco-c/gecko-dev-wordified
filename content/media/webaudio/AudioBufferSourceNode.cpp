@@ -430,7 +430,10 @@ dom
 AudioParamTimeline
 &
 aValue
+TrackRate
+aSampleRate
 )
+MOZ_OVERRIDE
 {
 switch
 (

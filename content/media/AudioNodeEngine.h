@@ -1042,6 +1042,8 @@ dom
 AudioParamTimeline
 &
 aValue
+TrackRate
+aSampleRate
 )
 {
 NS_ERROR

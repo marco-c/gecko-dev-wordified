@@ -498,6 +498,8 @@ const
 AudioParamTimeline
 &
 aValue
+TrackRate
+aSampleRate
 )
 MOZ_OVERRIDE
 {
