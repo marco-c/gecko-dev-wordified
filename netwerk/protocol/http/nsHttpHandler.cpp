@@ -11046,6 +11046,7 @@ caps
 =
 NS_HTTP_ALLOW_PIPELINING
 ;
+}
 if
 (
 !
@@ -11072,7 +11073,6 @@ net_EnsurePSMInit
 (
 )
 ;
-}
 }
 rv
 =
