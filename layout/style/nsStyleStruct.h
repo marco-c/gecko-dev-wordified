@@ -3122,6 +3122,9 @@ count_
 NS_ASSERTION
 (
 (
+int32_t
+)
+(
 start_
 )
 >
