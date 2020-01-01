@@ -1024,10 +1024,16 @@ aId
 {
 mSize
 =
+static_cast
+<
+size_t
+>
+(
 *
 PtrToSize
 (
 mSegment
+)
 )
 ;
 }
@@ -1822,7 +1828,7 @@ const
 {
 }
 static
-size_t
+uint32
 *
 PtrToSize
 (
@@ -1859,7 +1865,7 @@ Size
 return
 reinterpret_cast
 <
-size_t
+uint32
 *
 >
 (
@@ -1867,7 +1873,7 @@ endOfSegment
 -
 sizeof
 (
-size_t
+uint32
 )
 )
 ;
