@@ -3099,7 +3099,6 @@ if
 (
 uri
 )
-{
 BrowserUI
 .
 newTab
@@ -3107,13 +3106,6 @@ newTab
 uri
 )
 ;
-BrowserUI
-.
-hidePanel
-(
-)
-;
-}
 }
 observe
 :
