@@ -547,14 +547,14 @@ public
 :
 static
 const
-char
+PRUnichar
 kThemeLibraryName
 [
 ]
 ;
 static
 const
-char
+PRUnichar
 kDwmLibraryName
 [
 ]

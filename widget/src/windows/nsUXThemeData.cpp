@@ -481,7 +481,7 @@ nsUXThemeData
 h
 "
 const
-char
+PRUnichar
 nsUXThemeData
 :
 :
@@ -489,6 +489,7 @@ kThemeLibraryName
 [
 ]
 =
+L
 "
 uxtheme
 .
@@ -496,7 +497,7 @@ dll
 "
 ;
 const
-char
+PRUnichar
 nsUXThemeData
 :
 :
@@ -504,6 +505,7 @@ kDwmLibraryName
 [
 ]
 =
+L
 "
 dwmapi
 .
@@ -788,7 +790,7 @@ sThemeDLL
 =
 :
 :
-LoadLibrary
+LoadLibraryW
 (
 kThemeLibraryName
 )
@@ -959,7 +961,7 @@ sDwmDLL
 =
 :
 :
-LoadLibrary
+LoadLibraryW
 (
 kDwmLibraryName
 )
