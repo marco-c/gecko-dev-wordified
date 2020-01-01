@@ -351,7 +351,7 @@ libc_candidates
 =
 [
 "
-libsystem
+libSystem
 .
 B
 .
