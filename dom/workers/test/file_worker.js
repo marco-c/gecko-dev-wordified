@@ -67,6 +67,14 @@ name
 ;
 rtnObj
 .
+lastModifiedDate
+=
+file
+.
+lastModifiedDate
+;
+rtnObj
+.
 mozFullPath
 =
 file
