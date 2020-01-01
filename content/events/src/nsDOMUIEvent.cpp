@@ -1701,7 +1701,7 @@ NS_TEXT_EVENT
 return
 static_cast
 <
-nsKeyEvent
+nsTextEvent
 *
 >
 (
