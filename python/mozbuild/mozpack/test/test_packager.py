@@ -1240,6 +1240,28 @@ maxDiff
 =
 None
         
+#
+The
+formatter
+is
+expected
+to
+reorder
+the
+manifest
+entries
+so
+that
+        
+#
+chrome
+entries
+appear
+before
+the
+others
+.
+        
 self
 .
 assertEqual
@@ -1282,13 +1304,13 @@ bar
 manifest
 '
 )
-1
+2
 )
              
 '
 add_manifest
 '
-ManifestResource
+ManifestContent
 (
 '
 foo
@@ -1321,13 +1343,13 @@ bar
 manifest
 '
 )
-2
+1
 )
              
 '
 add_manifest
 '
-ManifestContent
+ManifestResource
 (
 '
 foo

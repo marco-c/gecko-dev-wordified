@@ -990,6 +990,21 @@ files
 are
 added
 .
+Also
+assumes
+    
+manifest
+entries
+for
+resources
+are
+registered
+after
+chrome
+manifest
+    
+entries
+.
     
 '
 '
