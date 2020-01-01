@@ -2469,6 +2469,15 @@ thread
 "
 )
 ;
+if
+(
+GeckoProcessType_Content
+=
+=
+XRE_GetProcessType
+(
+)
+)
 aUILoop
 -
 >
