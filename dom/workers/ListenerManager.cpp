@@ -437,6 +437,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 ListenerManager
 .
 h
@@ -472,9 +481,10 @@ Events
 h
 "
 using
+namespace
 mozilla
-:
-:
+;
+using
 dom
 :
 :
@@ -2375,7 +2385,7 @@ JS_CallFunctionValue
 aCx
 aTarget
 listenerVal
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )

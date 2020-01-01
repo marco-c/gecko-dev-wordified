@@ -16539,7 +16539,7 @@ dir
 UINT
 count
 =
-PR_ARRAY_SIZE
+ArrayLength
 (
 selection
 )
@@ -16722,7 +16722,7 @@ item
 UINT
 count
 =
-PR_ARRAY_SIZE
+ArrayLength
 (
 selection
 )
