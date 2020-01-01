@@ -13892,7 +13892,7 @@ chromeWindow
 /
 Flag
 this
-object
+context
 and
 scripts
 compiled
@@ -13918,6 +13918,13 @@ a
 content
 DOM
 .
+:
+:
+JS_FlagSystemContext
+(
+mContext
+)
+;
 flags
 =
 nsIXPConnect
