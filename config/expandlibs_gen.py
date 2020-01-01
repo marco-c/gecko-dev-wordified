@@ -454,16 +454,11 @@ arg
 [
 1
 ]
-in
-[
+=
+=
 conf
 .
 OBJ_SUFFIX
-'
-.
-i_o
-'
-]
 :
             
 desc
