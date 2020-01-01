@@ -1594,7 +1594,7 @@ nsIFormControl
 methods
 NS_IMETHOD_
 (
-PRInt32
+PRUint32
 )
 GetType
 (
@@ -2564,7 +2564,7 @@ NS_FORM_INPUT_
 )
 *
 /
-PRInt8
+PRUint8
 mType
 ;
 /

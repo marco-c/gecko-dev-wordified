@@ -694,7 +694,7 @@ nsIFormControl
 methods
 NS_IMETHOD_
 (
-PRInt32
+PRUint32
 )
 GetType
 (

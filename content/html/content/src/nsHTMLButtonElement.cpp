@@ -813,7 +813,7 @@ nsIFormControl
 methods
 NS_IMETHOD_
 (
-PRInt32
+PRUint32
 )
 GetType
 (
@@ -1003,7 +1003,7 @@ return
 PR_TRUE
 ;
 }
-PRInt8
+PRUInt8
 mType
 ;
 PRPackedBool
