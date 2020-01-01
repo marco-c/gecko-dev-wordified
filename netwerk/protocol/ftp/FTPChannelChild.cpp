@@ -1117,7 +1117,7 @@ InputStream
 (
 mUploadStream
 )
-UsingPrivateBrowsing
+UsePrivateBrowsing
 (
 )
 )

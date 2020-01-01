@@ -6205,7 +6205,7 @@ mEntityID
 mChooseApplicationCache
 appCacheClientId
 mAllowSpdy
-UsingPrivateBrowsing
+UsePrivateBrowsing
 (
 )
 )

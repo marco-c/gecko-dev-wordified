@@ -157,6 +157,10 @@ const
 PRUint32
 &
 loadFlags
+const
+bool
+&
+usingPrivateBrowsing
 )
 ;
 virtual
