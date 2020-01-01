@@ -143,6 +143,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIAtom
 ;
@@ -184,6 +193,7 @@ nsBindingManager
 ;
 class
 nsNodeInfoManager
+MOZ_FINAL
 :
 public
 nsISupports
