@@ -20263,7 +20263,7 @@ str
 ;
 masm
 .
-rshiftPtr
+urshift32
 (
 Imm32
 (
