@@ -5422,11 +5422,9 @@ initializeProfile
 options
 .
 profilePath
-                                      
 options
 .
 extraPrefs
-                                      
 useServerLocations
 =
 True
@@ -6604,9 +6602,6 @@ runTests
 (
 self
 options
-onLaunch
-=
-None
 )
 :
     
@@ -6997,10 +6992,6 @@ symbolsPath
 timeout
 =
 timeout
-                                  
-onLaunch
-=
-onLaunch
 )
     
 except
