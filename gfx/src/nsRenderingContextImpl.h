@@ -1998,15 +1998,6 @@ mPenMode
 ;
 private
 :
-static
-nsIDrawingSurface
-*
-gBackbuffer
-;
-/
-/
-singleton
-backbuffer
 /
 /
 Largest
