@@ -6824,7 +6824,7 @@ isIPDL
 and
 t
 .
-isUnionType
+isUnion
 (
 )
 :
