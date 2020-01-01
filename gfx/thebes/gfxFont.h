@@ -3258,6 +3258,14 @@ AppendElement
 aFontEntry
 )
 ;
+aFontEntry
+-
+>
+SetFamily
+(
+this
+)
+;
 }
 /
 /
