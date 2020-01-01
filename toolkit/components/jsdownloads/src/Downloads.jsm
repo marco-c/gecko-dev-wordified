@@ -1241,7 +1241,7 @@ false
 yield
 DownloadIntegration
 .
-loadPersistent
+initializePublicDownloadList
 (
 list
 )
