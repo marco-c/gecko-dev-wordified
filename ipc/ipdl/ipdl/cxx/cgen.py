@@ -1344,6 +1344,21 @@ inline
 if
 md
 .
+inline
+:
+            
+self
+.
+write
+(
+'
+MOZ_NEVER_INLINE
+'
+)
+        
+if
+md
+.
 static
 :
             
