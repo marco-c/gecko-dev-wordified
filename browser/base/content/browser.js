@@ -42196,7 +42196,7 @@ var
 gPageStyleMenu
 =
 {
-getAllStyleSheets
+_getAllStyleSheets
 :
 function
 (
@@ -42242,7 +42242,7 @@ frameSheets
 =
 this
 .
-getAllStyleSheets
+_getAllStyleSheets
 (
 frameset
 .
@@ -42314,7 +42314,7 @@ styleSheets
 =
 this
 .
-getAllStyleSheets
+_getAllStyleSheets
 (
 window
 .
@@ -42896,7 +42896,7 @@ getAllStyleSheets
 =
 gPageStyleMenu
 .
-getAllStyleSheets
+_getAllStyleSheets
 .
 bind
 (
