@@ -782,8 +782,9 @@ ReparentFrameViewList
 nsPresContext
 *
 aPresContext
-nsIFrame
-*
+const
+nsFrameList
+&
 aChildFrameList
 nsIFrame
 *
