@@ -5239,15 +5239,6 @@ mPaintDC
 =
 nsnull
 ;
-mLastPaintEndTime
-=
-TimeStamp
-:
-:
-Now
-(
-)
-;
 #
 if
 defined
