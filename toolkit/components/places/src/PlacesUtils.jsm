@@ -14428,12 +14428,6 @@ function
 aResultSet
 )
 {
-let
-row
-haveMatches
-=
-false
-;
 for
 (
 let
