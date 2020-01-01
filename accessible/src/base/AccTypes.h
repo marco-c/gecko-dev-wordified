@@ -185,7 +185,6 @@ eHTMLFileInputType
 eHTMLGroupboxType
 eHTMLHRType
 eHTMLImageMapType
-eHTMLLabelType
 eHTMLLiType
 eHTMLSelectListType
 eHTMLMediaType
