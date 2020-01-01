@@ -672,7 +672,7 @@ can
 be
 allocated
 by
-LIR_alloc
+LIR_allocp
 in
 which
 case
@@ -689,7 +689,7 @@ a
 pointer
 to
 the
-LIR_alloc
+LIR_allocp
 /
 /
 LIns
@@ -884,7 +884,7 @@ values
 N
 slots
 for
-LIR_alloc
+LIR_allocp
 )
 .
 /
@@ -1331,7 +1331,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -1736,7 +1736,7 @@ are
 issued
 .
 Also
-LIR_alloc
+LIR_allocp
 instructions
 will
 consume
