@@ -600,6 +600,10 @@ aIdentifier
 const
 bool
 &
+aDumpAllTraces
+const
+bool
+&
 aDumpChildProcesses
 )
 ;
