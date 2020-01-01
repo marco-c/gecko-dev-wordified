@@ -935,6 +935,13 @@ None
         
 self
 .
+extra_emulators
+=
+[
+]
+        
+self
+.
 homedir
 =
 homedir
@@ -1162,6 +1169,22 @@ b2gbin
 self
 .
 b2ginstance
+.
+close
+(
+)
+        
+for
+qemu
+in
+self
+.
+extra_emulators
+:
+            
+qemu
+.
+emulator
 .
 close
 (
