@@ -215,8 +215,10 @@ pAMgr
 delete
 pHMgr
 ;
-delete
+free
+(
 csconv
+)
 ;
 csconv
 =
