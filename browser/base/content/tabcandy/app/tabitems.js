@@ -753,6 +753,14 @@ resumePainting
 )
 ;
 }
+duration
+:
+350
+easing
+:
+"
+tabcandyBounce
+"
 }
 )
 .
@@ -1657,11 +1665,6 @@ top
 left
 :
 0
-easing
-:
-"
-easein
-"
 width
 :
 orig
@@ -1678,6 +1681,9 @@ height
 scale
 }
 200
+"
+easeOutQuad
+"
 onZoomDone
 )
 ;
