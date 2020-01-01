@@ -1948,7 +1948,7 @@ targetdata
 targetdata
 -
 >
-preferXrays
+wantXrays
 &
 &
 IS_WN_WRAPPER
