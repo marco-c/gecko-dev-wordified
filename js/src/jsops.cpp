@@ -1729,7 +1729,6 @@ fp
 -
 >
 fun
-&
 fp
 -
 >
@@ -14394,6 +14393,7 @@ exitJSFun
 cx
 NULL
 fun
+*
 vp
 &
 lval
