@@ -837,11 +837,7 @@ NativeSurface
 &
 )
 const
-{
-return
-nullptr
 ;
-}
 virtual
 TemporaryRef
 <
