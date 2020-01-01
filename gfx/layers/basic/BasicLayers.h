@@ -737,6 +737,15 @@ CreateImageContainer
 )
 ;
 virtual
+already_AddRefed
+<
+ColorLayer
+>
+CreateColorLayer
+(
+)
+;
+virtual
 LayersBackend
 GetBackendType
 (
