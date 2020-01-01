@@ -4581,10 +4581,7 @@ ENABLE_JIT
 endif
 #
 if
-PLATFORM
-(
-QT
-)
+WTF_PLATFORM_QT
 #
 if
 WTF_CPU_X86_64
