@@ -132,13 +132,6 @@ gBrowser
 .
 selectedTab
 ;
-gBrowser
-.
-removeAllTabsBut
-(
-tabBlank
-)
-;
 let
 blankBrowser
 =
