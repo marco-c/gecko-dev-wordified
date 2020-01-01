@@ -2399,8 +2399,9 @@ frame
 .
 ulineno
 =
-PCToLineNumber
+js_PCToLineNumber
 (
+cx
 fp
 -
 >
@@ -5120,8 +5121,9 @@ done
 ?
 0
 :
-PCToLineNumber
+js_PCToLineNumber
 (
+cx
 iter
 .
 fp

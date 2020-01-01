@@ -2452,8 +2452,9 @@ report
 >
 lineno
 =
-PCToLineNumber
+js_PCToLineNumber
 (
+cx
 iter
 .
 fp
