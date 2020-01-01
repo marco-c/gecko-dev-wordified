@@ -1920,19 +1920,6 @@ ssh_key
 ssh_key
 )
     
-except
-:
-        
-print
-"
-Encountered
-error
-while
-uploading
-"
-        
-raise
-    
 finally
 :
         
