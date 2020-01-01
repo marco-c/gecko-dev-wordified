@@ -2035,14 +2035,12 @@ GetBounds
 (
 )
 +
-GetOffsetToCrossDoc
-(
 aBuilder
 -
 >
-ReferenceFrame
+ToReferenceFrame
 (
-)
+this
 )
 ;
 if
