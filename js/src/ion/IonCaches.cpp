@@ -14071,9 +14071,12 @@ if
 fun
 -
 >
-isCloneAtCallsite
+nonLazyScript
 (
 )
+-
+>
+shouldCloneAtCallsite
 )
 return
 fun

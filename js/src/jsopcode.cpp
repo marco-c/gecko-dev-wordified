@@ -3341,7 +3341,7 @@ return
 bytes
 -
 >
-encode
+encodeLatin1
 (
 cx
 str
@@ -3399,7 +3399,7 @@ return
 bytes
 -
 >
-encode
+encodeLatin1
 (
 cx
 source
@@ -10055,13 +10055,6 @@ if
 frameIter
 .
 done
-(
-)
-|
-|
-frameIter
-.
-poppedCallDuringSettle
 (
 )
 |

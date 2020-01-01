@@ -2878,6 +2878,8 @@ frames
 IonScript
 *
 ionScript
+=
+NULL
 ;
 if
 (
@@ -3990,6 +3992,8 @@ calleeToken
 IonScript
 *
 ionScript
+=
+NULL
 ;
 if
 (
@@ -7104,6 +7108,8 @@ IonFrame_OptimizedJS
 IonScript
 *
 ionScript
+=
+NULL
 ;
 if
 (
