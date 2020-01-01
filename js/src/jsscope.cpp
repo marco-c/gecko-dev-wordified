@@ -7094,6 +7094,9 @@ isExtensible
 /
 if
 (
+self
+-
+>
 isNative
 (
 )
