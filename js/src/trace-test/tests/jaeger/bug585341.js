@@ -1,14 +1,3 @@
-/
-/
-|
-trace
--
-test
-|
-error
-:
-invalid
-arguments
 __defineGetter__
 (
 "
