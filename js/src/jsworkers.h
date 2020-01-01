@@ -979,7 +979,7 @@ cx
 {
 #
 ifdef
-JS_WORKER_THREADSj
+JS_WORKER_THREADS
 return
 ion
 :
