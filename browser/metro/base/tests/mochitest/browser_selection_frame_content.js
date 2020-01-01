@@ -402,8 +402,8 @@ focus
 ;
 sendContextMenuClick
 (
-130
-95
+165
+35
 )
 ;
 yield
@@ -589,7 +589,7 @@ endMark
 .
 xPos
 ypos
-600
+640
 ypos
 )
 ;
@@ -688,7 +688,7 @@ endMark
 .
 xPos
 ypos
-300
+320
 ypos
 )
 ;
@@ -823,8 +823,8 @@ scrollPromise
 ;
 sendContextMenuClick
 (
-527
-188
+30
+240
 )
 ;
 yield
@@ -1239,7 +1239,7 @@ false
 sendContextMenuClick
 (
 114
-91
+130
 )
 ;
 yield

@@ -487,6 +487,12 @@ selectAllChildren
 span
 )
 ;
+yield
+waitForMs
+(
+0
+)
+;
 /
 /
 invoke
@@ -2493,6 +2499,12 @@ clipboard
 ?
 )
 emptyClipboard
+(
+)
+;
+ContextUI
+.
+dismiss
 (
 )
 ;
