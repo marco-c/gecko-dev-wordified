@@ -463,14 +463,14 @@ images
 *
 /
 class
-ImageClientSingle
+DeprecatedImageClientSingle
 :
 public
 ImageClient
 {
 public
 :
-ImageClientSingle
+DeprecatedImageClientSingle
 (
 CompositableForwarder
 *

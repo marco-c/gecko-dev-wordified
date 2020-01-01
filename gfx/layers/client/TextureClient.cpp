@@ -829,11 +829,11 @@ SurfaceDescriptor
 TYCbCrImage
 )
 ;
-SharedPlanarYCbCrImage
+DeprecatedSharedPlanarYCbCrImage
 *
 shYCbCr
 =
-SharedPlanarYCbCrImage
+DeprecatedSharedPlanarYCbCrImage
 :
 :
 FromSurfaceDescriptor
