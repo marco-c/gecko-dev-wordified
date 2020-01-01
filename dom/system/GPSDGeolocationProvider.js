@@ -1221,6 +1221,8 @@ n
 "
 )
 ;
+try
+{
 /
 /
 Turn
@@ -1306,6 +1308,15 @@ mode
 length
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+;
+}
 var
 dataListener
 =
