@@ -506,13 +506,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLButtonElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFormElement
 .
 h
