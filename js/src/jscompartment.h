@@ -1927,6 +1927,14 @@ FreeOp
 fop
 )
 ;
+bool
+isDiscardingJitCode
+(
+JSTracer
+*
+trc
+)
+;
 void
 sweep
 (
