@@ -480,18 +480,6 @@ panel
 :
 *
 /
-/
-*
-XXX
-:
-mostly
-disabled
-because
-of
-bug
-620658
-*
-/
 panel
 [
 type
@@ -509,8 +497,6 @@ transition
 opacity
 300ms
 ;
-/
-*
 -
 moz
 -
@@ -610,8 +596,6 @@ bottom
 -
 23px
 ;
-*
-/
 }
 .
 panel
@@ -622,8 +606,6 @@ padding
 :
 10px
 ;
-/
-*
 color
 :
 -
@@ -880,8 +862,6 @@ left
 -
 1px
 ;
-*
-/
 }
 /
 *
