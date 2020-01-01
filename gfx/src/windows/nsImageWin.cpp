@@ -14115,8 +14115,13 @@ output
 the
 composed
 image
+#
+ifdef
+_MSC_VER
 __try
 {
+#
+endif
 :
 :
 StretchDIBits
@@ -14147,6 +14152,9 @@ DIB_RGB_COLORS
 SRCCOPY
 )
 ;
+#
+ifdef
+_MSC_VER
 }
 __except
 (
@@ -14213,6 +14221,8 @@ SRCCOPY
 )
 ;
 }
+#
+endif
 :
 :
 SelectObject
