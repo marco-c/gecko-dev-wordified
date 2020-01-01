@@ -72211,7 +72211,7 @@ outController
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsDocShell
 :
 :
@@ -72277,7 +72277,7 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsDocShell
 :
 :
