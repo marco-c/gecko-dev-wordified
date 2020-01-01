@@ -1558,8 +1558,8 @@ if
 (
 !
 mActiveChannel
-&
-&
+|
+|
 !
 mActiveChannel
 -
