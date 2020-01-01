@@ -1155,6 +1155,14 @@ if
 (
 !
 doc
+|
+|
+doc
+-
+>
+Hidden
+(
+)
 )
 {
 return
