@@ -938,6 +938,9 @@ done
 void
 hb_ot_layout_position_finish
 (
+hb_face_t
+*
+face
 hb_buffer_t
 *
 buffer
