@@ -641,7 +641,7 @@ endif
 #
 define
 PROFILE_DEFAULT_ENTRY
-100000
+1000000
 #
 ifdef
 ANDROID
