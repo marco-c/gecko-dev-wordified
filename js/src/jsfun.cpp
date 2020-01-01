@@ -7969,7 +7969,10 @@ JSVAL_VOID
 getter
 setter
 attrs
-SPROP_HAS_SHORTID
+JSScopeProperty
+:
+:
+HAS_SHORTID
 (
 int16
 )
@@ -9803,7 +9806,10 @@ lfp
 -
 >
 attrs
-SPROP_HAS_SHORTID
+JSScopeProperty
+:
+:
+HAS_SHORTID
 lfp
 -
 >

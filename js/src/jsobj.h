@@ -5728,7 +5728,10 @@ SetPropertyHelper
 must
 pass
 the
-SPROP_IS_METHOD
+JSScopeProperty
+:
+:
+METHOD
 flag
 on
 to

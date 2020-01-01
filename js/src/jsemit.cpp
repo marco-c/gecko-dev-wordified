@@ -10318,9 +10318,9 @@ JS_ASSERT
 sprop
 -
 >
-flags
-&
-SPROP_HAS_SHORTID
+hasShortID
+(
+)
 )
 ;
 if
