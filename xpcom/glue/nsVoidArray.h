@@ -682,7 +682,7 @@ void
 aElement
 )
 ;
-bool
+void
 RemoveElementsAt
 (
 int32_t
@@ -691,7 +691,7 @@ int32_t
 aCount
 )
 ;
-bool
+void
 RemoveElementAt
 (
 int32_t
@@ -1600,7 +1600,7 @@ void
 aElement
 )
 ;
-bool
+void
 RemoveElementsAt
 (
 int32_t
@@ -1609,7 +1609,7 @@ int32_t
 aCount
 )
 ;
-bool
+void
 RemoveElementAt
 (
 int32_t
