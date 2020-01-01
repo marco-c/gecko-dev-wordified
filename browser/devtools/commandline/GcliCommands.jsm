@@ -1099,6 +1099,9 @@ lookup
 cmdDesc
 "
 )
+hidden
+:
+true
 }
 )
 ;
@@ -1134,6 +1137,9 @@ lookup
 cmdRefreshDesc
 "
 )
+hidden
+:
+true
 exec
 :
 function
@@ -1221,6 +1227,9 @@ returnType
 "
 string
 "
+hidden
+:
+true
 exec
 :
 function
@@ -8461,6 +8470,9 @@ returnValue
 '
 string
 '
+hidden
+:
+true
 params
 :
 [
