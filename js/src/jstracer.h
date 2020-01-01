@@ -795,9 +795,8 @@ gslots
 )
 ;
 }
-struct
-JSFrameRegs
-entryRegs
+unsigned
+entryStackDepth
 ;
 unsigned
 entryNativeStackSlots
