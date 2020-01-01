@@ -9481,7 +9481,6 @@ JSOP_IFEQ
 )
 guard
 (
-!
 cond
 x
 )
@@ -9510,6 +9509,7 @@ JSOP_IFNE
 )
 guard
 (
+!
 cond
 x
 )
@@ -11480,7 +11480,7 @@ JSOP_GOTO
 )
 {
 return
-false
+true
 ;
 }
 bool
