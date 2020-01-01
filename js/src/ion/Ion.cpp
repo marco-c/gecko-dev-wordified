@@ -2057,7 +2057,7 @@ ionCompartment
 (
 )
 ;
-MarkIonCodeRoot
+MarkIonCodeUnbarriered
 (
 trc
 ion
