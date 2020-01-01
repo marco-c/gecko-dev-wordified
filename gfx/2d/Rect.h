@@ -413,6 +413,12 @@ height
 )
 {
 }
+GFX2D_API
+void
+NudgeToIntegers
+(
+)
+;
 bool
 ToIntRect
 (
