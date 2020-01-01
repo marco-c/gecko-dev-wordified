@@ -501,7 +501,7 @@ h
 #
 include
 "
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 .
 h
 "
@@ -1100,7 +1100,7 @@ return
 mBaseBinding
 ;
 }
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 XBLDocumentInfo
 (
@@ -1429,7 +1429,7 @@ const
 nsACString
 &
 aRef
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aInfo
 nsIContent
@@ -1885,7 +1885,7 @@ non
 -
 null
 .
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 mXBLDocInfoWeak
 ;

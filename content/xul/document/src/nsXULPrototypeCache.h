@@ -492,7 +492,7 @@ h
 #
 include
 "
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 .
 h
 "
@@ -828,7 +828,7 @@ void
 aScriptObject
 )
 ;
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 GetXBLDocumentInfo
 (
@@ -849,7 +849,7 @@ aURL
 nsresult
 PutXBLDocumentInfo
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aDocumentInfo
 )
@@ -1030,10 +1030,10 @@ CacheScriptEntry
 >
 mScriptTable
 ;
-nsInterfaceHashtable
+nsRefPtrHashtable
 <
 nsURIHashKey
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 >
 mXBLDocTable
 ;

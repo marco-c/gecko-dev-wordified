@@ -533,7 +533,7 @@ class
 nsIURI
 ;
 class
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 ;
 class
 nsIStreamListener
@@ -1383,12 +1383,12 @@ ExecuteDetachedHandlers
 nsresult
 PutXBLDocumentInfo
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aDocumentInfo
 )
 ;
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 GetXBLDocumentInfo
 (
@@ -1400,7 +1400,7 @@ aURI
 void
 RemoveXBLDocumentInfo
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aDocumentInfo
 )
@@ -2283,7 +2283,7 @@ a
 string
 )
 to
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 .
 This
@@ -2309,10 +2309,10 @@ given
 bound
 document
 .
-nsInterfaceHashtable
+nsRefPtrHashtable
 <
 nsURIHashKey
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 >
 mDocumentTable
 ;

@@ -501,13 +501,6 @@ h
 #
 include
 "
-nsIXBLDocumentInfo
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
@@ -1361,7 +1354,7 @@ nsIScriptGlobalObjectOwner
 >
 globalOwner
 (
-do_QueryInterface
+do_QueryObject
 (
 aBinding
 -

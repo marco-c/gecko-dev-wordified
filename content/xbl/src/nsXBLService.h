@@ -611,7 +611,7 @@ class
 nsXBLBinding
 ;
 class
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 ;
 class
 nsIContent
@@ -795,7 +795,7 @@ nsIPrincipal
 aOriginPrincipal
 PRBool
 aForceSyncLoad
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 *
 aResult
