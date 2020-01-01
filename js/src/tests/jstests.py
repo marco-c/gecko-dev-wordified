@@ -3322,10 +3322,6 @@ exit
 (
 )
     
-results
-=
-None
-    
 if
 not
 test_list
@@ -3432,10 +3428,6 @@ close
 )
     
 if
-results
-is
-None
-or
 not
 results
 .
