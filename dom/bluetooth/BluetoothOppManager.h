@@ -454,6 +454,11 @@ SendAbortRequest
 (
 )
 ;
+nsresult
+HandleShutdown
+(
+)
+;
 private
 :
 BluetoothOppManager
