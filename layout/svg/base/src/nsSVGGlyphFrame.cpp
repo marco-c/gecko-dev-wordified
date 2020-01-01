@@ -4352,6 +4352,7 @@ yList
 ;
 GetEffectiveXY
 (
+strLength
 xList
 yList
 )
@@ -4365,6 +4366,7 @@ dyList
 ;
 GetEffectiveDxDy
 (
+strLength
 dxList
 dyList
 )
@@ -4377,6 +4379,7 @@ rotateList
 ;
 GetEffectiveRotate
 (
+strLength
 rotateList
 )
 ;
@@ -5180,6 +5183,12 @@ notUsed
 ;
 GetEffectiveDxDy
 (
+mTextRun
+-
+>
+GetLength
+(
+)
 dxlist
 notUsed
 )
@@ -6490,6 +6499,7 @@ yList
 ;
 GetEffectiveXY
 (
+strLength
 xList
 yList
 )
@@ -6689,6 +6699,7 @@ dyList
 ;
 GetEffectiveDxDy
 (
+strLength
 dxList
 dyList
 )
@@ -7522,6 +7533,8 @@ nsSVGGlyphFrame
 :
 GetEffectiveXY
 (
+PRInt32
+strLength
 nsTArray
 <
 float
@@ -7560,13 +7573,6 @@ y
 )
 ;
 PRInt32
-strLength
-=
-GetNumberOfChars
-(
-)
-;
-PRInt32
 xCount
 =
 NS_MAX
@@ -7688,6 +7694,8 @@ nsSVGGlyphFrame
 :
 GetEffectiveDxDy
 (
+PRInt32
+strLength
 nsTArray
 <
 float
@@ -7723,13 +7731,6 @@ GetEffectiveDxDy
 (
 dx
 dy
-)
-;
-PRInt32
-strLength
-=
-GetNumberOfChars
-(
 )
 ;
 PRInt32
@@ -7865,6 +7866,8 @@ nsSVGGlyphFrame
 :
 GetEffectiveRotate
 (
+PRInt32
+strLength
 nsTArray
 <
 float
@@ -7892,13 +7895,6 @@ mParent
 GetEffectiveRotate
 (
 rotate
-)
-;
-PRInt32
-strLength
-=
-GetNumberOfChars
-(
 )
 ;
 PRInt32
@@ -8210,6 +8206,9 @@ y
 ;
 GetEffectiveXY
 (
+GetNumberOfChars
+(
+)
 x
 y
 )

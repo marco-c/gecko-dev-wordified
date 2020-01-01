@@ -1992,6 +1992,12 @@ firstFragment
 >
 GetEffectiveXY
 (
+firstFragment
+-
+>
+GetNumberOfChars
+(
+)
 effectiveXList
 effectiveYList
 )
