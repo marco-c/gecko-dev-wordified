@@ -506,6 +506,11 @@ detached
 =
 false
 ;
+let
+parentNode
+=
+null
+;
 for
 (
 let
@@ -561,6 +566,12 @@ isConnected
 )
 )
 {
+parentNode
+=
+m
+.
+target
+;
 detached
 =
 true
@@ -594,6 +605,7 @@ emit
 "
 detached
 "
+parentNode
 )
 ;
 }
