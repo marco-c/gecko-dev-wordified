@@ -963,6 +963,14 @@ close
 (
 )
 ;
+if
+(
+mHandler
+!
+=
+null
+)
+{
 mHandler
 .
 removeMessages
@@ -981,6 +989,7 @@ mHandler
 =
 null
 ;
+}
 }
 public
 void
