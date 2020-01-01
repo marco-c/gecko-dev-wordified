@@ -2097,6 +2097,10 @@ insertAfter
 ElfSection
 *
 section
+bool
+dirty
+=
+true
 )
 {
 if
@@ -2173,6 +2177,10 @@ previous
 =
 this
 ;
+if
+(
+dirty
+)
 markDirty
 (
 )
