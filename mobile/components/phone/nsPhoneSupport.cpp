@@ -484,7 +484,7 @@ h
 endif
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 #
 include
 <
@@ -709,7 +709,12 @@ SwitchTask
 {
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
+/
+/
+5
+only
+?
 DBusError
 error
 ;

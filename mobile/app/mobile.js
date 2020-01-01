@@ -465,7 +465,7 @@ firstrun
 ;
 #
 if
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 pref
 (
 "
@@ -689,7 +689,7 @@ size
 tiles
 #
 elifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 pref
 (
 "
@@ -983,7 +983,7 @@ proxy
 ;
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 pref
 (
 "
@@ -3613,7 +3613,7 @@ true
 ;
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 pref
 (
 "
