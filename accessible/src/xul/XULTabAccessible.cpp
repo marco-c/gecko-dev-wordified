@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsXULTabAccessible
+XULTabAccessible
 .
 h
 "
@@ -272,7 +272,7 @@ a11y
 /
 /
 /
-nsXULTabAccessible
+XULTabAccessible
 /
 /
 /
@@ -353,10 +353,10 @@ nsXULTabAccessible
 /
 /
 /
-nsXULTabAccessible
+XULTabAccessible
 :
 :
-nsXULTabAccessible
+XULTabAccessible
 (
 nsIContent
 *
@@ -455,11 +455,11 @@ aDoc
 /
 /
 /
-nsXULTabAccessible
+XULTabAccessible
 :
 nsIAccessible
 PRUint8
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 ActionCount
@@ -483,7 +483,7 @@ action
 *
 /
 NS_IMETHODIMP
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 GetActionName
@@ -533,7 +533,7 @@ action
 *
 /
 NS_IMETHODIMP
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 DoAction
@@ -668,11 +668,11 @@ NS_ERROR_INVALID_ARG
 /
 /
 /
-nsXULTabAccessible
+XULTabAccessible
 :
 Accessible
 role
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 NativeRole
@@ -687,7 +687,7 @@ PAGETAB
 ;
 }
 PRUint64
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 NativeState
@@ -788,7 +788,7 @@ state
 ;
 }
 PRUint64
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 NativeInteractiveState
@@ -830,7 +830,7 @@ SELECTABLE
 /
 nsIAccessible
 Relation
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 RelationByType
@@ -1044,7 +1044,7 @@ rel
 /
 /
 /
-nsXULTabsAccessible
+XULTabsAccessible
 /
 /
 /
@@ -1125,10 +1125,10 @@ nsXULTabsAccessible
 /
 /
 /
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
-nsXULTabsAccessible
+XULTabsAccessible
 (
 nsIContent
 *
@@ -1146,7 +1146,7 @@ aDoc
 {
 }
 role
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
 NativeRole
@@ -1161,7 +1161,7 @@ PAGETABLIST
 ;
 }
 PRUint8
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
 ActionCount
@@ -1173,7 +1173,7 @@ return
 ;
 }
 void
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
 Value
@@ -1191,7 +1191,7 @@ Truncate
 ;
 }
 nsresult
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
 GetNameInternal
@@ -1291,7 +1291,7 @@ NS_OK
 /
 /
 /
-nsXULTabpanelsAccessible
+XULTabpanelsAccessible
 /
 /
 /
@@ -1372,10 +1372,10 @@ nsXULTabpanelsAccessible
 /
 /
 /
-nsXULTabpanelsAccessible
+XULTabpanelsAccessible
 :
 :
-nsXULTabpanelsAccessible
+XULTabpanelsAccessible
 (
 nsIContent
 *
@@ -1393,7 +1393,7 @@ aDoc
 {
 }
 role
-nsXULTabpanelsAccessible
+XULTabpanelsAccessible
 :
 :
 NativeRole
@@ -1489,7 +1489,7 @@ PANE
 /
 /
 /
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 /
 /
 /
@@ -1570,10 +1570,10 @@ nsXULTabpanelAccessible
 /
 /
 /
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 :
 :
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 (
 nsIContent
 *
@@ -1591,7 +1591,7 @@ aDoc
 {
 }
 role
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 :
 :
 NativeRole
@@ -1606,7 +1606,7 @@ PROPERTYPAGE
 ;
 }
 Relation
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 :
 :
 RelationByType

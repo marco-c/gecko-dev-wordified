@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsXULComboboxAccessible
+XULComboboxAccessible
 .
 h
 "
@@ -254,7 +254,7 @@ a11y
 /
 /
 /
-nsXULComboboxAccessible
+XULComboboxAccessible
 /
 /
 /
@@ -335,10 +335,10 @@ nsXULComboboxAccessible
 /
 /
 /
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
-nsXULComboboxAccessible
+XULComboboxAccessible
 (
 nsIContent
 *
@@ -386,7 +386,7 @@ eComboboxAccessible
 ;
 }
 role
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 NativeRole
@@ -410,7 +410,7 @@ COMBOBOX
 ;
 }
 PRUint64
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 NativeState
@@ -525,7 +525,7 @@ HASPOPUP
 ;
 }
 void
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 Description
@@ -631,7 +631,7 @@ aDescription
 }
 }
 void
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 Value
@@ -688,7 +688,7 @@ aValue
 ;
 }
 bool
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 CanHaveAnonChildren
@@ -759,7 +759,7 @@ widgets
 /
 /
 use
-nsXULComboboxAccessible
+XULComboboxAccessible
 .
 We
 need
@@ -806,7 +806,7 @@ false
 ;
 }
 PRUint8
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 ActionCount
@@ -827,7 +827,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 DoAction
@@ -841,7 +841,7 @@ if
 aIndex
 !
 =
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 eAction_Click
@@ -914,7 +914,7 @@ isDroppedDown
 ;
 }
 NS_IMETHODIMP
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 GetActionName
@@ -931,7 +931,7 @@ if
 aIndex
 !
 =
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 eAction_Click
@@ -1147,7 +1147,7 @@ NS_OK
 /
 Widgets
 bool
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 IsActiveWidget
@@ -1263,7 +1263,7 @@ mContent
 ;
 }
 bool
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 AreItemsOperable
