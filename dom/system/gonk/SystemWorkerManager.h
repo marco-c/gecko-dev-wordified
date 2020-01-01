@@ -591,14 +591,6 @@ JSContext
 cx
 )
 ;
-nsresult
-InitBluetooth
-(
-JSContext
-*
-cx
-)
-;
 nsCOMPtr
 <
 nsIWorkerHolder
