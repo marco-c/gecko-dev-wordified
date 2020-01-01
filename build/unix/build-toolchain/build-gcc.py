@@ -1272,6 +1272,14 @@ s
 "
 %
 tool_inst_dir
+                   
+"
+-
+-
+without
+-
+zlib
+"
 ]
 )
     
