@@ -16606,7 +16606,11 @@ JSObject
 parent
 (
 aCx
-                               
+    
+GetRealParentObject
+(
+aObject
+                        
 WrapNativeParent
 (
 aCx
@@ -16616,6 +16620,7 @@ aObject
 >
 GetParentObject
 (
+)
 )
 )
 )
