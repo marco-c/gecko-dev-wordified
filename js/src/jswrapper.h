@@ -1503,7 +1503,7 @@ frame
 JSFrameRegs
 regs
 ;
-JSRegExpStatics
+RegExpStatics
 statics
 ;
 AutoValueRooter
