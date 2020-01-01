@@ -15297,6 +15297,13 @@ true
 )
 )
 ;
+if
+(
+mConnectivityReceiver
+!
+=
+null
+)
 mConnectivityReceiver
 .
 unregisterFor
@@ -15364,6 +15371,13 @@ true
 )
 )
 ;
+if
+(
+mConnectivityReceiver
+!
+=
+null
+)
 mConnectivityReceiver
 .
 registerFor
