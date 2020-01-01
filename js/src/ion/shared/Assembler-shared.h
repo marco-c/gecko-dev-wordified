@@ -209,7 +209,7 @@ TimesEight
 static
 inline
 Scale
-ScaleFromShift
+ScaleFromElemWidth
 (
 int
 shift
