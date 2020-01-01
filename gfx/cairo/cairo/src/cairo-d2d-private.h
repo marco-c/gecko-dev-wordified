@@ -1381,16 +1381,6 @@ const
 cairo_pattern_t
 *
 pattern
-unsigned
-int
-lastrun
-unsigned
-int
-*
-runs_remaining
-bool
-*
-pushed_clip
 bool
 unique
 =
