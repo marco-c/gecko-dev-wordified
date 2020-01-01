@@ -484,9 +484,9 @@ nsARIAGridAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 /
@@ -759,9 +759,9 @@ nsARIAGridCellAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 /

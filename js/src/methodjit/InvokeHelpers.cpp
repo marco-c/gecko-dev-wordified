@@ -1986,10 +1986,9 @@ have
 been
 initialized
 by
-initJitFrameCallerHalf
-and
 the
-*
+caller
+and
 early
 prologue
 .

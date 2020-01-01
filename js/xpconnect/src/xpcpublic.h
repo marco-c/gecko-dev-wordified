@@ -1349,6 +1349,12 @@ nsIXPConnectWrappedJS
 aWrappedJS
 )
 ;
+extern
+void
+xpc_UnmarkSkippableJSHolders
+(
+)
+;
 /
 /
 No

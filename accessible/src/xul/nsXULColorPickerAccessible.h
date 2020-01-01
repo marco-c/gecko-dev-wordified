@@ -473,9 +473,9 @@ nsXULColorPickerTileAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 /
@@ -557,9 +557,9 @@ nsXULColorPickerAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 /

@@ -580,6 +580,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -644,6 +651,8 @@ public
 nsINavHistoryObserver
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :

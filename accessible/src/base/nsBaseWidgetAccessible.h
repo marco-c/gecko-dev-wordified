@@ -524,9 +524,9 @@ nsLeafAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 /
@@ -639,9 +639,9 @@ nsLinkableAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -802,9 +802,9 @@ nsEnumRoleAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 mozilla
 :
 :

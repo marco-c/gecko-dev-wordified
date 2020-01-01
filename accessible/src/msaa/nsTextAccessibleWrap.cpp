@@ -672,15 +672,15 @@ nsTextAccessibleWrap
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 :
 nsTextAccessible
 (
 aContent
-aShell
+aDoc
 )
 {
 }
@@ -1079,7 +1079,7 @@ nsDocAccessible
 *
 docAccessible
 =
-GetDocAccessible
+Document
 (
 )
 ;

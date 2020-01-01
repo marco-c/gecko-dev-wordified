@@ -1032,9 +1032,6 @@ ReflowCallbackCanceled
 void
 UpdateImageLayer
 (
-ImageContainer
-*
-aContainer
 const
 gfxRect
 &

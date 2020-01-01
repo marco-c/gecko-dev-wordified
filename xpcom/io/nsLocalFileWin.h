@@ -670,6 +670,9 @@ this
 is
 false
 bool
+mResolveDirty
+;
+bool
 mFollowSymlinks
 ;
 /
@@ -755,6 +758,10 @@ mDirty
 =
 true
 ;
+mResolveDirty
+=
+true
+;
 mShortWorkingPath
 .
 Truncate
@@ -764,6 +771,11 @@ Truncate
 }
 nsresult
 ResolveAndStat
+(
+)
+;
+nsresult
+Resolve
 (
 )
 ;
