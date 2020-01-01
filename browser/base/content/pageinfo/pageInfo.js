@@ -2405,9 +2405,6 @@ mediaInput
 "
 )
 ;
-#
-ifdef
-MOZ_MEDIA
 gStrings
 .
 mediaVideo
@@ -2434,8 +2431,6 @@ mediaAudio
 "
 )
 ;
-#
-endif
 var
 args
 =
@@ -4980,9 +4975,6 @@ e
 {
 }
 }
-#
-ifdef
-MOZ_MEDIA
 else
 if
 (
@@ -5029,8 +5021,6 @@ false
 )
 ;
 }
-#
-endif
 else
 if
 (
@@ -7309,9 +7299,6 @@ collapsed
 true
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 else
 if
 (
@@ -7480,8 +7467,6 @@ collapsed
 true
 ;
 }
-#
-endif
 else
 {
 /
