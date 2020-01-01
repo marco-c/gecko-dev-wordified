@@ -1443,10 +1443,10 @@ mStructs
 ;
 mHeaderStrategy
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 PREF_HEADER_STRATEGY
 mHeaderStrategy

@@ -968,10 +968,10 @@ default
 :
 mAccessKey
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 ui

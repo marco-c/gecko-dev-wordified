@@ -854,10 +854,10 @@ scrollbarPosition
 ;
 gSnapMultiplier
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 slider

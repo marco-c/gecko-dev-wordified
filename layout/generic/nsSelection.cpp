@@ -5775,10 +5775,10 @@ aLimiter
 ;
 mCaretMovementStyle
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 bidi
@@ -6086,10 +6086,10 @@ desiredX
 PRInt32
 caretStyle
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 layout

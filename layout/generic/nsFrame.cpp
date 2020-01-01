@@ -18741,10 +18741,10 @@ code
 PRInt32
 dragOutOfFrame
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 browser

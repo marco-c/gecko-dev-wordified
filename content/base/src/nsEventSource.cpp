@@ -1978,10 +1978,10 @@ origin
 ;
 mReconnectionTime
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 dom

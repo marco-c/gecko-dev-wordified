@@ -2735,10 +2735,10 @@ Init
 {
 mTimeout
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 geo
