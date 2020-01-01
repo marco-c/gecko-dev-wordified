@@ -1111,7 +1111,7 @@ to
 the
 array
 .
-nsAutoTArray
+AutoFallibleTArray
 <
 nsCountedRef
 <
