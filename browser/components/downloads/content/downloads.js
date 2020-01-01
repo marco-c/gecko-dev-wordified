@@ -2749,9 +2749,9 @@ focus
 }
 else
 {
-DownloadsView
+this
 .
-downloadsHistory
+panel
 .
 focus
 (
