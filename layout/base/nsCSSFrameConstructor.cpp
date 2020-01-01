@@ -1620,14 +1620,6 @@ gXBLService
 =
 nsnull
 ;
-PRUint32
-nsCSSFrameConstructor
-:
-:
-gDOMGeneration
-=
-0
-;
 #
 ifdef
 DEBUG
@@ -52411,10 +52403,6 @@ script
 blocker
 "
 )
-;
-+
-+
-gDOMGeneration
 ;
 +
 +
