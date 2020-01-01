@@ -5661,8 +5661,10 @@ str
 ;
 if
 (
-!
+JSVAL_IS_NULL
+(
 jsstr
+)
 )
 return
 JS_FALSE
@@ -5736,8 +5738,10 @@ str
 ;
 if
 (
-!
+JSVAL_IS_NULL
+(
 jsstr
+)
 )
 return
 JS_FALSE

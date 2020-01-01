@@ -2112,6 +2112,16 @@ JSCLASS_HAS_RESERVED_SLOTS
 1
 )
 )
+#
+define
+INVALID_OBJECT
+(
+(
+JSObject
+*
+)
+1
+)
 /
 *
 *
@@ -16439,7 +16449,7 @@ the
 /
 /
 bogus
-JSVAL_ONE
+INVALID_OBJECT
 value
 we
 can
@@ -16456,11 +16466,7 @@ mFlatJSObject
 mFlatJSObject
 !
 =
-(
-JSObject
-*
-)
-JSVAL_ONE
+INVALID_OBJECT
 )
 {
 JS_CALL_OBJECT_TRACER
@@ -24643,7 +24649,7 @@ pval
 :
 mVal
 (
-0
+JSVAL_VOID
 )
 mValPtr
 (

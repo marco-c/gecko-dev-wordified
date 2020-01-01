@@ -8625,7 +8625,6 @@ retval
 ;
 if
 (
-*
 retval
 )
 *

@@ -4594,6 +4594,9 @@ ok
 &
 &
 deleted
+=
+=
+JSVAL_TRUE
 )
 {
 /
@@ -4742,6 +4745,9 @@ ok
 &
 &
 deleted
+=
+=
+JSVAL_TRUE
 )
 {
 /

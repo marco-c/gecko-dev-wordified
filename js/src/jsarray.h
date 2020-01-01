@@ -1405,7 +1405,6 @@ rval
 endif
 extern
 JSBool
-JS_FASTCALL
 js_ArrayCompPush
 (
 JSContext
@@ -1419,7 +1418,7 @@ js
 :
 :
 Value
-*
+&
 vp
 )
 ;
