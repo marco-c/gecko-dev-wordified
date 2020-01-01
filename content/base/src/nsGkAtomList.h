@@ -5732,6 +5732,13 @@ rel
 )
 GK_ATOM
 (
+rem
+"
+rem
+"
+)
+GK_ATOM
+(
 removeelement
 "
 removeelement
@@ -10483,13 +10490,6 @@ GK_ATOM
 reln_
 "
 reln
-"
-)
-GK_ATOM
-(
-rem_
-"
-rem
 "
 )
 GK_ATOM
