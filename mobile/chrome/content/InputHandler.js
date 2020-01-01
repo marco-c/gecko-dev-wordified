@@ -976,7 +976,9 @@ document
 getElementById
 (
 "
-tile_container
+tile
+-
+container
 "
 )
 ;
@@ -1405,6 +1407,7 @@ DragData
 (
 owner
 dragRadius
+dragger
 dragStartTimeoutLength
 )
 {
@@ -1419,6 +1422,12 @@ this
 _dragRadius
 =
 dragRadius
+;
+this
+.
+_dragger
+=
+dragger
 ;
 this
 .
