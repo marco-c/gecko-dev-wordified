@@ -9588,7 +9588,7 @@ bailoutInfo
 info
 ;
 return
-BAILOUT_RETURN_BASELINE
+BAILOUT_RETURN_OK
 ;
 }
 static
