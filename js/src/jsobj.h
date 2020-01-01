@@ -2128,7 +2128,6 @@ hasShapeTable
 )
 const
 ;
-inline
 void
 sizeOfExcludingThis
 (
