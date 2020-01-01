@@ -5694,9 +5694,6 @@ mirror
 .
 showCachedData
 (
-item
-.
-tab
 tabData
 )
 ;
@@ -5748,9 +5745,6 @@ mirror
 .
 hideCachedData
 (
-item
-.
-tab
 )
 ;
 }
