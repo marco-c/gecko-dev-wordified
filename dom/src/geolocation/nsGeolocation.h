@@ -606,7 +606,7 @@ GetCachedPosition
 (
 )
 ;
-PRBool
+bool
 IsBetterPosition
 (
 nsIDOMGeoPosition
