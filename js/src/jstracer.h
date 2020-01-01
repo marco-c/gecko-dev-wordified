@@ -5115,10 +5115,6 @@ nanojit
 LIns
 *
 v_ins
-const
-char
-*
-name
 )
 ;
 void
@@ -5145,10 +5141,6 @@ nanojit
 LIns
 *
 v_ins
-const
-char
-*
-name
 )
 ;
 void
