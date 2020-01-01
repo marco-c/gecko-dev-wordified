@@ -1149,6 +1149,21 @@ x
 '
 ]
             
+SSRCS
+=
+[
+'
+fans
+.
+S
+'
+'
+tans
+.
+S
+'
+]
+            
 XPIDLSRCS
 =
 [
