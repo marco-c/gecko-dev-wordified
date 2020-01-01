@@ -994,8 +994,7 @@ PrototypeClass
   
 "
 %
-s
-Prototype
+sPrototype
 "
 0
   
