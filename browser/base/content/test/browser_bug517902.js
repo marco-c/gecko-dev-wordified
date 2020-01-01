@@ -243,12 +243,12 @@ text
 css
 '
 >
-%
-23test
+#
+test
 -
 image
-%
-23not
+#
+not
 -
 test
 -
