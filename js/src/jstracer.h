@@ -666,6 +666,10 @@ LirWriter
 *
 expr_filter
 ;
+struct
+JSFrameRegs
+markRegs
+;
 nanojit
 :
 :
@@ -728,6 +732,11 @@ pc
 }
 void
 mark
+(
+)
+;
+void
+recover
 (
 )
 ;
