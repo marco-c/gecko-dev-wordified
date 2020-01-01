@@ -795,7 +795,7 @@ endif
 NS_IMPL_CLASSINFO
 (
 nsPrincipal
-NULL
+nullptr
 nsIClassInfo
 :
 :
@@ -3529,7 +3529,7 @@ Principal
 NS_IMPL_CLASSINFO
 (
 nsExpandedPrincipal
-NULL
+nullptr
 nsIClassInfo
 :
 :

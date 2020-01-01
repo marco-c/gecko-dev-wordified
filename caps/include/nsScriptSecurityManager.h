@@ -782,7 +782,7 @@ pp
 >
 key
 =
-NULL
+nullptr
 ;
 }
 /
