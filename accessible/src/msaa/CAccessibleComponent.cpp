@@ -631,11 +631,15 @@ this
 ;
 if
 (
-!
 acc
+-
+>
+IsDefunct
+(
+)
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 /
 /
@@ -947,7 +951,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 nsIFrame
 *
@@ -1039,7 +1043,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 nsIFrame
 *
