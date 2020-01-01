@@ -4756,6 +4756,15 @@ Preserves3D
 )
 )
 {
+if
+(
+outFrames
+.
+Length
+(
+)
+)
+{
 nsDisplayTransform
 *
 transform
@@ -4852,6 +4861,7 @@ Length
 .
 mFrames
 ;
+}
 }
 else
 {
