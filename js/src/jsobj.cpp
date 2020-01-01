@@ -820,7 +820,6 @@ gc
 ;
 JS_FRIEND_DATA
 (
-const
 JSObjectMap
 )
 JSObjectMap
