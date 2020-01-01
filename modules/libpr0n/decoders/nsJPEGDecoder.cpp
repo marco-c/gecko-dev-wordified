@@ -684,7 +684,7 @@ profile
 =
 qcms_profile_from_memory
 (
-profile
+profilebuf
 profileLength
 )
 ;
