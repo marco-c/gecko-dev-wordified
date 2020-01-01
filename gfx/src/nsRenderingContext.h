@@ -1128,7 +1128,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 nsRenderingContext
 )
-nsresult
+void
 Init
 (
 nsIDeviceContext
@@ -1139,7 +1139,7 @@ gfxASurface
 aThebesSurface
 )
 ;
-nsresult
+void
 Init
 (
 nsIDeviceContext
@@ -1172,19 +1172,19 @@ mThebes
 /
 Graphics
 state
-nsresult
+void
 PushState
 (
 void
 )
 ;
-nsresult
+void
 PopState
 (
 void
 )
 ;
-nsresult
+void
 SetClipRect
 (
 const
@@ -1195,7 +1195,7 @@ nsClipCombine
 aCombine
 )
 ;
-nsresult
+void
 SetClipRegion
 (
 const
@@ -1206,21 +1206,21 @@ nsClipCombine
 aCombine
 )
 ;
-nsresult
+void
 SetLineStyle
 (
 nsLineStyle
 aLineStyle
 )
 ;
-nsresult
+void
 SetColor
 (
 nscolor
 aColor
 )
 ;
-nsresult
+void
 Translate
 (
 const
@@ -1229,7 +1229,7 @@ nsPoint
 aPt
 )
 ;
-nsresult
+void
 Scale
 (
 float
@@ -1297,7 +1297,7 @@ PopState
 /
 /
 Shapes
-nsresult
+void
 DrawLine
 (
 const
@@ -1310,7 +1310,7 @@ nsPoint
 aEndPt
 )
 ;
-nsresult
+void
 DrawLine
 (
 nscoord
@@ -1323,7 +1323,7 @@ nscoord
 aY1
 )
 ;
-nsresult
+void
 DrawRect
 (
 const
@@ -1332,7 +1332,7 @@ nsRect
 aRect
 )
 ;
-nsresult
+void
 DrawRect
 (
 nscoord
@@ -1345,7 +1345,7 @@ nscoord
 aHeight
 )
 ;
-nsresult
+void
 DrawEllipse
 (
 nscoord
@@ -1358,7 +1358,7 @@ nscoord
 aHeight
 )
 ;
-nsresult
+void
 DrawEllipse
 (
 const
@@ -1367,7 +1367,7 @@ nsRect
 aRect
 )
 ;
-nsresult
+void
 FillRect
 (
 const
@@ -1376,7 +1376,7 @@ nsRect
 aRect
 )
 ;
-nsresult
+void
 FillRect
 (
 nscoord
@@ -1389,7 +1389,7 @@ nscoord
 aHeight
 )
 ;
-nsresult
+void
 FillPolygon
 (
 const
@@ -1401,7 +1401,7 @@ PRInt32
 aNumPoints
 )
 ;
-nsresult
+void
 FillEllipse
 (
 const
@@ -1410,7 +1410,7 @@ nsRect
 aRect
 )
 ;
-nsresult
+void
 FillEllipse
 (
 nscoord
@@ -1423,7 +1423,7 @@ nscoord
 aHeight
 )
 ;
-nsresult
+void
 InvertRect
 (
 const
@@ -1432,7 +1432,7 @@ nsRect
 aRect
 )
 ;
-nsresult
+void
 InvertRect
 (
 nscoord
@@ -1448,7 +1448,7 @@ aHeight
 /
 /
 Text
-nsresult
+void
 SetFont
 (
 const
@@ -1463,7 +1463,7 @@ gfxUserFontSet
 aUserFontSet
 )
 ;
-nsresult
+void
 SetFont
 (
 const
@@ -1475,7 +1475,7 @@ gfxUserFontSet
 aUserFontSet
 )
 ;
-nsresult
+void
 SetFont
 (
 nsIFontMetrics
@@ -1491,7 +1491,7 @@ GetFontMetrics
 (
 )
 ;
-nsresult
+void
 SetRightToLeftText
 (
 PRBool
@@ -1616,7 +1616,7 @@ nsnull
 ;
 #
 endif
-nsresult
+void
 DrawString
 (
 const
@@ -1640,7 +1640,7 @@ aSpacing
 nsnull
 )
 ;
-nsresult
+void
 DrawString
 (
 const
@@ -1661,7 +1661,7 @@ aSpacing
 nsnull
 )
 ;
-nsresult
+void
 DrawString
 (
 const
@@ -1727,7 +1727,7 @@ aFontID
 nsnull
 )
 ;
-nsresult
+void
 DrawStringInternal
 (
 const
@@ -1748,7 +1748,7 @@ aSpacing
 nsnull
 )
 ;
-nsresult
+void
 DrawStringInternal
 (
 const
