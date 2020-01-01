@@ -525,7 +525,6 @@ const
 nsCString
 &
 aMIMEType
-const
 NSString
 *
 *
