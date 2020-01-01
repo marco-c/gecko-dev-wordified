@@ -103,8 +103,6 @@ testEcho
 (
 )
 {
-/
-*
 DeveloperToolbarTest
 .
 exec
@@ -134,8 +132,6 @@ message
 }
 )
 ;
-*
-/
 }
 function
 testConsole
