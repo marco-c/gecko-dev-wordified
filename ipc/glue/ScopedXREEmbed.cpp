@@ -478,6 +478,10 @@ mShouldKillEmbedding
 false
 )
 {
+NS_LogInit
+(
+)
+;
 }
 ScopedXREEmbed
 :
@@ -488,6 +492,10 @@ ScopedXREEmbed
 )
 {
 Stop
+(
+)
+;
+NS_LogTerm
 (
 )
 ;

@@ -430,7 +430,12 @@ TestShellChild
 :
 mXPCShell
 (
-nsnull
+XPCShellEnvironment
+:
+:
+CreateEnvironment
+(
+)
 )
 {
 }
