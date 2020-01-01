@@ -1041,11 +1041,9 @@ chrome
 :
 /
 /
-global
-/
-content
-/
 places
+/
+locale
 /
 places
 .
