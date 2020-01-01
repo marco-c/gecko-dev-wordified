@@ -245,7 +245,7 @@ using
 mozilla
 :
 :
-Move
+OldMove
 ;
 using
 mozilla
@@ -2860,7 +2860,7 @@ back
 (
 )
 =
-Move
+OldMove
 (
 NotableStringInfo
 (

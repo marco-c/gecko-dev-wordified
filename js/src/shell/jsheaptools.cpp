@@ -204,7 +204,7 @@ using
 mozilla
 :
 :
-Move
+OldMove
 ;
 using
 mozilla
@@ -676,7 +676,7 @@ kind
 )
 incoming
 (
-Move
+OldMove
 (
 rhs
 -
@@ -2040,7 +2040,7 @@ add
 (
 a
 cell
-Move
+OldMove
 (
 n
 )
@@ -2121,7 +2121,7 @@ incoming
 .
 append
 (
-Move
+OldMove
 (
 e
 )

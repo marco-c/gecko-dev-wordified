@@ -1264,7 +1264,7 @@ argCoercions_
 mozilla
 :
 :
-Move
+OldMove
 (
 rhs
 -
@@ -1544,7 +1544,7 @@ blocks
 mozilla
 :
 :
-Move
+OldMove
 (
 blocksVector
 )
@@ -1576,7 +1576,7 @@ blocks
 mozilla
 :
 :
-Move
+OldMove
 (
 copy
 .
@@ -2727,7 +2727,7 @@ append
 mozilla
 :
 :
-Move
+OldMove
 (
 func
 )
