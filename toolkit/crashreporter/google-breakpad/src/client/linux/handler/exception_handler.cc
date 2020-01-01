@@ -309,15 +309,6 @@ DAMAGE
 #
 include
 <
-asm
-/
-sigcontext
-.
-h
->
-#
-include
-<
 signal
 .
 h
