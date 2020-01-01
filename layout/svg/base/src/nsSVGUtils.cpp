@@ -8479,7 +8479,10 @@ metrics
 =
 do_QueryFrame
 (
+GetFirstNonAAncestorFrame
+(
 aFrame
+)
 )
 ;
 if
