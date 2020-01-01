@@ -1327,6 +1327,11 @@ all
 subtree
 roots
 .
+if
+(
+aBaseURI
+)
+{
 aBaseURI
 -
 >
@@ -1398,6 +1403,7 @@ GetNextSibling
 (
 )
 ;
+}
 }
 }
 if
