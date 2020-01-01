@@ -9838,6 +9838,10 @@ nullptr
 }
 }
 }
+mDidDocumentOpen
+=
+true
+;
 /
 /
 Call
