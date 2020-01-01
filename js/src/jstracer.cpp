@@ -15299,7 +15299,10 @@ lir
 >
 insImm
 (
+JSVAL_TO_BOOLEAN
+(
 JSVAL_VOID
+)
 )
 )
 ;
