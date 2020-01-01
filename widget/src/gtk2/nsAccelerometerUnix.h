@@ -421,6 +421,7 @@ eNoSensor
 eAppleSensor
 eIBMSensor
 eMaemoSensor
+eHPdv7Sensor
 }
 ;
 class
