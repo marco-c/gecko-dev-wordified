@@ -548,6 +548,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+cairo
+.
+h
+"
 class
 nsNativeDragTarget
 ;

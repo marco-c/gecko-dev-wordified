@@ -774,13 +774,6 @@ nsIDOMNSUIEvent
 .
 h
 "
-#
-include
-"
-cairo
-.
-h
-"
 extern
 "
 C
