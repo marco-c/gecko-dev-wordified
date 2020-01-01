@@ -12892,7 +12892,7 @@ nsGkAtoms
 :
 :
 slope
-0
+1
 }
 {
 &
@@ -12908,7 +12908,7 @@ nsGkAtoms
 :
 :
 amplitude
-0
+1
 }
 {
 &
@@ -12916,7 +12916,7 @@ nsGkAtoms
 :
 :
 exponent
-0
+1
 }
 {
 &
@@ -30146,7 +30146,7 @@ nsGkAtoms
 :
 :
 specularExponent
-0
+1
 }
 {
 &
