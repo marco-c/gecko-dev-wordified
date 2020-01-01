@@ -2820,12 +2820,6 @@ Bailout
 )
 )
 ;
-masm
-.
-finalizeABICall
-(
-)
-;
 /
 /
 Common
@@ -3296,12 +3290,6 @@ void
 *
 HandleException
 )
-)
-;
-masm
-.
-finalizeABICall
-(
 )
 ;
 /

@@ -2649,12 +2649,6 @@ Bailout
 )
 )
 ;
-masm
-.
-finalizeABICall
-(
-)
-;
 /
 /
 Stack
@@ -3020,12 +3014,6 @@ void
 *
 HandleException
 )
-)
-;
-masm
-.
-finalizeABICall
-(
 )
 ;
 /
