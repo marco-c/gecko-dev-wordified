@@ -1710,14 +1710,6 @@ failed
 aScriptContext
 -
 >
-SetGCOnDestruction
-(
-PR_FALSE
-)
-;
-aScriptContext
--
->
 DidInitializeContext
 (
 )
