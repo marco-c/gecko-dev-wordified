@@ -783,7 +783,6 @@ JSXDRMode
 {
 JSXDR_ENCODE
 JSXDR_DECODE
-JSXDR_FREE
 }
 JSXDRMode
 ;
@@ -1199,15 +1198,15 @@ JS_PUBLIC_API
 (
 JSBool
 )
-JS_XDRScript
+JS_XDRScriptObject
 (
 JSXDRState
 *
 xdr
-JSScript
+JSObject
 *
 *
-scriptp
+scriptObjp
 )
 ;
 extern
@@ -1396,7 +1395,7 @@ JSXDR_BYTECODE_VERSION
 (
 0xb973c0de
 -
-82
+83
 )
 /
 *

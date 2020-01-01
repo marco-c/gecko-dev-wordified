@@ -503,15 +503,15 @@ JSC
 :
 ExecutableAllocator
 *
-pool
+alloc
 Trampolines
 *
 tramps
 )
 :
-execPool
+execAlloc
 (
-pool
+alloc
 )
 trampolines
 (
@@ -608,7 +608,7 @@ JSC
 :
 ExecutableAllocator
 *
-execPool
+execAlloc
 ;
 Trampolines
 *
