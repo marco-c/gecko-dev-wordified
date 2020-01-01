@@ -719,10 +719,16 @@ cx
 throwing
 &
 &
+JSScript
+:
+:
+isValidOffset
+(
 script
 -
 >
 trynotesOffset
+)
 )
 {
 /
