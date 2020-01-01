@@ -697,11 +697,11 @@ xml
 ;
 addRow
 (
-feed
+link
 .
 title
 type
-feed
+link
 .
 href
 )
