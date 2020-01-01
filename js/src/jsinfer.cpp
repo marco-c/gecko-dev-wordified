@@ -12627,6 +12627,14 @@ script
 ;
 if
 (
+script
+-
+>
+hasJITCode
+(
+)
+&
+&
 !
 recompiler
 .
