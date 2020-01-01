@@ -2013,6 +2013,9 @@ gotTemporal
 &
 &
 gotSpatial
+&
+&
+gotResolution
 )
 {
 /
