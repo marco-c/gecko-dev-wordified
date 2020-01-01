@@ -519,16 +519,6 @@ bool
 aForward
 )
 ;
-virtual
-bool
-RecvsendEvent
-(
-const
-RemoteDOMEvent
-&
-aEvent
-)
-;
 void
 LoadURL
 (
