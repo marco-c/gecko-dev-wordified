@@ -1351,6 +1351,9 @@ DestroyWidget
 )
 ;
 }
+return
+NS_OK
+;
 }
 nsIWidget
 *
