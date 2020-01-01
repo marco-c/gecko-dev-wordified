@@ -2633,7 +2633,10 @@ ScaleWithFocus
 float
 aScale
 const
-nsIntPoint
+gfx
+:
+:
+Point
 &
 aFocus
 )
@@ -4140,7 +4143,10 @@ focus
 point
 )
 .
-nsIntPoint
+gfx
+:
+:
+Point
 mLastZoomFocus
 ;
 /
