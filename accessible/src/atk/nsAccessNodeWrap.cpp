@@ -780,7 +780,7 @@ Shutdown
 accessibility
 for
 ATK
-nsApplicationAccessibleWrap
+nsAppRootAccessible
 :
 :
 Unload

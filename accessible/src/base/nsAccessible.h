@@ -510,13 +510,6 @@ h
 #
 include
 "
-nsIAccessibleEvent
-.
-h
-"
-#
-include
-"
 nsIDOMNodeList
 .
 h

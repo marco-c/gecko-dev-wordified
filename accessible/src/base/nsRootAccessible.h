@@ -561,9 +561,6 @@ nsRootAccessible
 (
 )
 ;
-/
-/
-nsIAccessible
 NS_IMETHOD
 GetName
 (
@@ -706,11 +703,6 @@ aAccessibleCaret
 /
 /
 nsIAccessNode
-NS_IMETHOD
-Init
-(
-)
-;
 NS_IMETHOD
 Shutdown
 (

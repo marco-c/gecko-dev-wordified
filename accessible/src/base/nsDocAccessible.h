@@ -464,6 +464,13 @@ h
 #
 include
 "
+nsIAccessibleEvent
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
