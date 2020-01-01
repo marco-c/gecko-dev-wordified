@@ -533,11 +533,6 @@ aContext
 )
 {
 }
-NS_IMETHOD
-InitSVG
-(
-)
-;
 public
 :
 /
