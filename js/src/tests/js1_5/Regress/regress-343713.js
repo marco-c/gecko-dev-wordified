@@ -510,7 +510,7 @@ summary
 '
 Do
 not
-JS_Assert
+assert
 with
 nested
 function
