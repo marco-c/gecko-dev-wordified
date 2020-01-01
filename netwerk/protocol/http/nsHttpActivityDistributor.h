@@ -414,7 +414,9 @@ h
 #
 include
 "
-prlock
+mozilla
+/
+Mutex
 .
 h
 "
@@ -439,11 +441,6 @@ nsHttpActivityDistributor
 (
 )
 ;
-nsresult
-Init
-(
-)
-;
 protected
 :
 nsCOMArray
@@ -452,8 +449,10 @@ nsIHttpActivityObserver
 >
 mObservers
 ;
-PRLock
-*
+mozilla
+:
+:
+Mutex
 mLock
 ;
 }

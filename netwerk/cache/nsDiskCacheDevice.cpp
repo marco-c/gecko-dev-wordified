@@ -636,13 +636,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -3298,6 +3291,13 @@ Shutdown
 (
 )
 {
+nsCacheService
+:
+:
+AssertOwnsLock
+(
+)
+;
 nsresult
 rv
 =

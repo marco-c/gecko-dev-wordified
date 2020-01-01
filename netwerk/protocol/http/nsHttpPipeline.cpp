@@ -508,13 +508,6 @@ nsComponentManagerUtils
 h
 "
 #
-include
-"
-nsAutoLock
-.
-h
-"
-#
 ifdef
 DEBUG
 #
