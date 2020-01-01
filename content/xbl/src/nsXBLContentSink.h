@@ -752,9 +752,12 @@ protected
 /
 nsXMLContentSink
 overrides
+virtual
 void
 MaybeStartLayout
 (
+PRBool
+aIgnorePendingSheets
 )
 ;
 PRBool

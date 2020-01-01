@@ -774,6 +774,8 @@ nsXBLContentSink
 :
 MaybeStartLayout
 (
+PRBool
+aIgnorePendingSheets
 )
 {
 return

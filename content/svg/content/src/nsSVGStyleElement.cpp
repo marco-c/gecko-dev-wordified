@@ -1150,8 +1150,9 @@ rv
 )
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
+nsnull
 )
 ;
 }
@@ -1191,8 +1192,9 @@ rv
 )
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
+nsnull
 )
 ;
 }
@@ -1239,7 +1241,7 @@ rv
 rv
 )
 ;
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
 nsnull
 )
@@ -1279,7 +1281,7 @@ aDeep
 aNullParent
 )
 ;
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
 oldDoc
 )
@@ -1330,9 +1332,8 @@ rv
 )
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
-nsnull
 nsnull
 aNameSpaceID
 =
@@ -1410,9 +1411,8 @@ rv
 )
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
-nsnull
 nsnull
 aNameSpaceID
 =
