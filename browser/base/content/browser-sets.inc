@@ -3268,7 +3268,7 @@ commandkey
 command
 =
 "
-Tools
+Inspector
 :
 Inspect
 "
