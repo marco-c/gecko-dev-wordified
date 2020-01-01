@@ -1625,6 +1625,13 @@ bce
 return
 NULL
 ;
+bce
+.
+tellDebuggerAboutCompiledScript
+(
+cx
+)
+;
 if
 (
 !
