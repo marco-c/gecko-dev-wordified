@@ -1586,6 +1586,10 @@ DOMCI_CLASS
 (
 USSDReceivedEvent
 )
+DOMCI_CLASS
+(
+DataErrorEvent
+)
 /
 /
 font
