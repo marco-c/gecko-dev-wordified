@@ -595,7 +595,6 @@ p
 expect
 =
 '
-prototype
 '
 ;
 reportCompare
