@@ -1287,7 +1287,7 @@ are
 OK
 if
 (
-IsDebugFD
+IsDebugFile
 (
 fd
 )
@@ -1526,6 +1526,17 @@ namespace
 namespace
 mozilla
 {
+intptr_t
+FileDescriptorToID
+(
+int
+aFd
+)
+{
+return
+aFd
+;
+}
 void
 PoisonWrite
 (
