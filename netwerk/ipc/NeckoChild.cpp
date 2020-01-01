@@ -610,7 +610,7 @@ HttpChannelChild
 )
 ;
 }
-nsresult
+bool
 NeckoChild
 :
 :
@@ -625,7 +625,7 @@ delete
 channel
 ;
 return
-NS_OK
+true
 ;
 }
 }

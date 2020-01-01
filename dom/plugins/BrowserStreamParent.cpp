@@ -85,7 +85,7 @@ pdata
 this
 ;
 }
-nsresult
+bool
 BrowserStreamParent
 :
 :
@@ -106,7 +106,7 @@ if
 mStream
 )
 return
-NS_ERROR_NOT_INITIALIZED
+false
 ;
 if
 (
@@ -226,6 +226,9 @@ next
 NULL
 ;
 return
+NPERR_NO_ERROR
+=
+=
 mNPP
 -
 >

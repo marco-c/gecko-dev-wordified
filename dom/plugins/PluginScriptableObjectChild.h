@@ -483,13 +483,13 @@ PluginScriptableObjectChild
 )
 ;
 virtual
-nsresult
+bool
 AnswerInvalidate
 (
 )
 ;
 virtual
-nsresult
+bool
 AnswerHasMethod
 (
 const
@@ -502,7 +502,7 @@ aHasMethod
 )
 ;
 virtual
-nsresult
+bool
 AnswerInvoke
 (
 const
@@ -525,7 +525,7 @@ aSuccess
 )
 ;
 virtual
-nsresult
+bool
 AnswerInvokeDefault
 (
 const
@@ -544,7 +544,7 @@ aSuccess
 )
 ;
 virtual
-nsresult
+bool
 AnswerHasProperty
 (
 const
@@ -557,7 +557,7 @@ aHasProperty
 )
 ;
 virtual
-nsresult
+bool
 AnswerGetProperty
 (
 const
@@ -573,7 +573,7 @@ aSuccess
 )
 ;
 virtual
-nsresult
+bool
 AnswerSetProperty
 (
 const
@@ -590,7 +590,7 @@ aSuccess
 )
 ;
 virtual
-nsresult
+bool
 AnswerRemoveProperty
 (
 const
@@ -603,7 +603,7 @@ aSuccess
 )
 ;
 virtual
-nsresult
+bool
 AnswerEnumerate
 (
 nsTArray
@@ -618,7 +618,7 @@ aSuccess
 )
 ;
 virtual
-nsresult
+bool
 AnswerConstruct
 (
 const

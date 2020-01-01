@@ -517,7 +517,7 @@ HttpChannelParent
 )
 ;
 }
-nsresult
+bool
 NeckoParent
 :
 :
@@ -532,7 +532,7 @@ delete
 channel
 ;
 return
-NS_OK
+true
 ;
 }
 }

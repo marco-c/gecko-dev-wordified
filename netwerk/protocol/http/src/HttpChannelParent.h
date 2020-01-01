@@ -498,7 +498,7 @@ HttpChannelParent
 protected
 :
 virtual
-nsresult
+bool
 RecvasyncOpen
 (
 const

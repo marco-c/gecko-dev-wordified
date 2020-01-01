@@ -559,7 +559,7 @@ Hello
 world
 "
 example
-nsresult
+bool
 TestChild
 :
 :
@@ -582,7 +582,7 @@ SendWorld
 )
 ;
 return
-NS_OK
+true
 ;
 }
 #
@@ -673,7 +673,7 @@ Example
 solution
 to
 exercise
-nsresult
+bool
 TestChild
 :
 :
@@ -688,7 +688,7 @@ SendPong
 )
 ;
 }
-nsresult
+bool
 TestChild
 :
 :
@@ -701,10 +701,10 @@ status
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+false
 ;
 }
-nsresult
+bool
 TestChild
 :
 :
@@ -721,10 +721,10 @@ val
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+false
 ;
 }
-nsresult
+bool
 TestChild
 :
 :
@@ -741,7 +741,7 @@ vals
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+false
 ;
 }
 #

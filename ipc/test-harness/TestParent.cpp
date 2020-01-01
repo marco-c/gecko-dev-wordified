@@ -611,7 +611,7 @@ Hello
 world
 "
 exampl
-nsresult
+bool
 TestParent
 :
 :
@@ -631,7 +631,7 @@ world
 )
 ;
 return
-NS_OK
+true
 ;
 }
 #
@@ -722,7 +722,7 @@ Example
 solution
 to
 exercise
-nsresult
+bool
 TestParent
 :
 :
@@ -731,10 +731,10 @@ RecvPing
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+false
 ;
 }
-nsresult
+bool
 TestParent
 :
 :
@@ -768,10 +768,10 @@ status
 )
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 TestParent
 :
 :
@@ -784,10 +784,10 @@ key
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+false
 ;
 }
-nsresult
+bool
 TestParent
 :
 :
@@ -800,10 +800,10 @@ keys
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+false
 ;
 }
-nsresult
+bool
 TestParent
 :
 :
@@ -823,7 +823,7 @@ ok
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+false
 ;
 }
 #

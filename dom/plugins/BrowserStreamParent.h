@@ -95,7 +95,7 @@ BrowserStreamParent
 {
 }
 virtual
-nsresult
+bool
 AnswerNPN_RequestRead
 (
 const

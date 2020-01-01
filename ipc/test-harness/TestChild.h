@@ -557,7 +557,7 @@ world
 "
 example
 virtual
-nsresult
+bool
 RecvHello
 (
 )
@@ -651,13 +651,13 @@ solution
 to
 exercise
 virtual
-nsresult
+bool
 RecvPing
 (
 )
 ;
 virtual
-nsresult
+bool
 RecvPong
 (
 const
@@ -667,7 +667,7 @@ status
 )
 ;
 virtual
-nsresult
+bool
 RecvTellValue
 (
 const
@@ -681,7 +681,7 @@ val
 )
 ;
 virtual
-nsresult
+bool
 RecvTellValues
 (
 const

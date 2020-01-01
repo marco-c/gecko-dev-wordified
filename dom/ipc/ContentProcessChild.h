@@ -539,7 +539,7 @@ hwnd
 )
 ;
 virtual
-nsresult
+bool
 PIFrameEmbeddingDestructor
 (
 PIFrameEmbeddingChild
@@ -554,7 +554,7 @@ PTestShellConstructor
 )
 ;
 virtual
-nsresult
+bool
 PTestShellDestructor
 (
 PTestShellChild
@@ -569,7 +569,7 @@ PNeckoConstructor
 )
 ;
 virtual
-nsresult
+bool
 PNeckoDestructor
 (
 PNeckoChild
@@ -582,7 +582,7 @@ Quit
 )
 ;
 virtual
-nsresult
+bool
 RecvQuit
 (
 )

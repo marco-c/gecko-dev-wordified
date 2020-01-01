@@ -639,7 +639,7 @@ return
 nsnull
 ;
 }
-nsresult
+bool
 ContentProcessChild
 :
 :
@@ -658,7 +658,7 @@ iframe
 )
 ;
 return
-NS_OK
+true
 ;
 }
 PTestShellChild
@@ -703,7 +703,7 @@ return
 nsnull
 ;
 }
-nsresult
+bool
 ContentProcessChild
 :
 :
@@ -722,7 +722,7 @@ shell
 )
 ;
 return
-NS_OK
+true
 ;
 }
 PNeckoChild
@@ -741,7 +741,7 @@ NeckoChild
 )
 ;
 }
-nsresult
+bool
 ContentProcessChild
 :
 :
@@ -756,7 +756,7 @@ delete
 necko
 ;
 return
-NS_OK
+true
 ;
 }
 void
@@ -809,7 +809,7 @@ Quit
 )
 ;
 }
-nsresult
+bool
 ContentProcessChild
 :
 :
@@ -841,7 +841,7 @@ QuitIOLoop
 )
 ;
 return
-NS_OK
+true
 ;
 }
 }

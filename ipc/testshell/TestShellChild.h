@@ -457,7 +457,7 @@ TestShellChild
 (
 )
 ;
-nsresult
+bool
 RecvExecuteCommand
 (
 const
@@ -476,7 +476,7 @@ nsString
 aCommand
 )
 ;
-nsresult
+bool
 RecvPTestShellCommandConstructor
 (
 PTestShellCommandChild
@@ -488,7 +488,7 @@ nsString
 aCommand
 )
 ;
-nsresult
+bool
 PTestShellCommandDestructor
 (
 PTestShellCommandChild

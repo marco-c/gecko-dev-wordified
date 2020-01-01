@@ -968,7 +968,7 @@ TabParent
 )
 ;
 }
-nsresult
+bool
 ContentProcessParent
 :
 :
@@ -983,7 +983,7 @@ delete
 frame
 ;
 return
-NS_OK
+true
 ;
 }
 PTestShellParent
@@ -1002,7 +1002,7 @@ TestShellParent
 )
 ;
 }
-nsresult
+bool
 ContentProcessParent
 :
 :
@@ -1017,7 +1017,7 @@ delete
 shell
 ;
 return
-NS_OK
+true
 ;
 }
 PNeckoParent
@@ -1036,7 +1036,7 @@ NeckoParent
 )
 ;
 }
-nsresult
+bool
 ContentProcessParent
 :
 :
@@ -1051,7 +1051,7 @@ delete
 necko
 ;
 return
-NS_OK
+true
 ;
 }
 }

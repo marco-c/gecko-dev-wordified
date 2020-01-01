@@ -694,7 +694,7 @@ the
 window
 !
 }
-nsresult
+bool
 TabChild
 :
 :
@@ -751,7 +751,7 @@ NULL
 )
 ;
 }
-nsresult
+bool
 TabChild
 :
 :
@@ -838,6 +838,6 @@ PR_TRUE
 )
 ;
 return
-NS_OK
+true
 ;
 }

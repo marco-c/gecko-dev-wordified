@@ -553,7 +553,7 @@ class
 BrowserStreamChild
 ;
 virtual
-nsresult
+bool
 AnswerNPP_SetWindow
 (
 const
@@ -566,7 +566,7 @@ rv
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPP_GetValue_NPPVpluginScriptableNPObject
 (
 PPluginScriptableObjectChild
@@ -586,7 +586,7 @@ PPluginScriptableObjectConstructor
 )
 ;
 virtual
-nsresult
+bool
 PPluginScriptableObjectDestructor
 (
 PPluginScriptableObjectChild
@@ -636,7 +636,7 @@ stype
 )
 ;
 virtual
-nsresult
+bool
 PBrowserStreamDestructor
 (
 PBrowserStreamChild
@@ -683,7 +683,7 @@ result
 )
 ;
 virtual
-nsresult
+bool
 PStreamNotifyDestructor
 (
 PStreamNotifyChild

@@ -661,7 +661,7 @@ parentWidget
 )
 ;
 virtual
-nsresult
+bool
 PIFrameEmbeddingDestructor
 (
 PIFrameEmbeddingParent
@@ -677,7 +677,7 @@ PTestShellConstructor
 )
 ;
 virtual
-nsresult
+bool
 PTestShellDestructor
 (
 PTestShellParent
@@ -693,7 +693,7 @@ PNeckoConstructor
 )
 ;
 virtual
-nsresult
+bool
 PNeckoDestructor
 (
 PNeckoParent

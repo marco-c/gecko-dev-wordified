@@ -557,7 +557,7 @@ PPluginScriptableObjectConstructor
 )
 ;
 virtual
-nsresult
+bool
 PPluginScriptableObjectDestructor
 (
 PPluginScriptableObjectParent
@@ -607,7 +607,7 @@ stype
 )
 ;
 virtual
-nsresult
+bool
 AnswerPBrowserStreamDestructor
 (
 PBrowserStreamParent
@@ -624,7 +624,7 @@ artificial
 )
 ;
 virtual
-nsresult
+bool
 PBrowserStreamDestructor
 (
 PBrowserStreamParent
@@ -641,7 +641,7 @@ artificial
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPN_GetValue_NPNVjavascriptEnabledBool
 (
 bool
@@ -653,7 +653,7 @@ result
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPN_GetValue_NPNVisOfflineBool
 (
 bool
@@ -665,7 +665,7 @@ result
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPN_GetValue_NPNVWindowNPObject
 (
 PPluginScriptableObjectParent
@@ -678,7 +678,7 @@ result
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPN_GetValue_NPNVPluginElementNPObject
 (
 PPluginScriptableObjectParent
@@ -691,7 +691,7 @@ result
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPN_GetValue_NPNVprivateModeBool
 (
 bool
@@ -703,7 +703,7 @@ result
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPN_GetURL
 (
 const
@@ -720,7 +720,7 @@ result
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPN_PostURL
 (
 const
@@ -775,7 +775,7 @@ result
 )
 ;
 virtual
-nsresult
+bool
 PStreamNotifyDestructor
 (
 PStreamNotifyParent

@@ -516,7 +516,7 @@ PHttpChannelConstructor
 )
 ;
 virtual
-nsresult
+bool
 PHttpChannelDestructor
 (
 PHttpChannelParent
