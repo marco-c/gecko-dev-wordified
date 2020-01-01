@@ -1688,7 +1688,7 @@ void
 nsXBLProtoImpl
 :
 :
-Unlink
+UnlinkJSObjects
 (
 )
 {
