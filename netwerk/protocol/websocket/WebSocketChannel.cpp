@@ -335,9 +335,7 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
+TimeStamp
 .
 h
 "
@@ -346,7 +344,7 @@ include
 "
 mozilla
 /
-TimeStamp
+Telemetry
 .
 h
 "

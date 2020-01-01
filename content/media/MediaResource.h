@@ -177,15 +177,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TimeStamp
-.
-h
-"
 /
 /
 For
