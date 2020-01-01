@@ -125,15 +125,6 @@ graphics
 .
 drawable
 .
-ColorDrawable
-;
-import
-android
-.
-graphics
-.
-drawable
-.
 LayerDrawable
 ;
 import

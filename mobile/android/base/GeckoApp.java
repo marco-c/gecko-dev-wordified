@@ -237,15 +237,6 @@ mozilla
 .
 gecko
 .
-GeckoAccessibility
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 updater
 .
 UpdateServiceHelper

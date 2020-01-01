@@ -103,15 +103,6 @@ mozilla
 .
 gecko
 .
-GeckoApp
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 gfx
 .
 LayerView
