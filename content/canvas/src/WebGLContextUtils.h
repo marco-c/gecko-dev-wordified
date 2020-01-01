@@ -240,11 +240,8 @@ WebGLObjectType
 (
 object
 )
+&
 v
-.
-address
-(
-)
 )
 )
 {
