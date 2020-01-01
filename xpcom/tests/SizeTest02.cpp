@@ -24,15 +24,6 @@ nsString
 .
 h
 "
-#
-ifdef
-__MWERKS__
-#
-pragma
-exceptions
-off
-#
-endif
 NS_DEF_PTR
 (
 nsIDOMNode
