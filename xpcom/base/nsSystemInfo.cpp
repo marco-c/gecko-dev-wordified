@@ -546,6 +546,7 @@ information
 static
 const
 struct
+PropItems
 {
 const
 char
