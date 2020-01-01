@@ -1969,6 +1969,10 @@ mSuccessFlag
 =
 false
 ;
+mBodySegmentLength
+=
+0
+;
 }
 void
 BluetoothOppManager
@@ -3843,8 +3847,7 @@ mAbortFlag
 ReplyToPut
 (
 mPutFinalFlag
-!
-mAbortFlag
+false
 )
 ;
 sSentFileLength
