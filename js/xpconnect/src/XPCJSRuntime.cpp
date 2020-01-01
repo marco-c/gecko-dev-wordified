@@ -12279,7 +12279,14 @@ JS
 GetExplicitNonHeapForRuntime
 (
 rt
+reinterpret_cast
+<
+int64_t
+*
+>
+(
 n
+)
 xpc
 :
 :
