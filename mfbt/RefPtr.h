@@ -1413,8 +1413,12 @@ U
 )
 {
 return
-forget
+TemporaryRef
+<
+U
+>
 (
+ptr
 )
 ;
 }
