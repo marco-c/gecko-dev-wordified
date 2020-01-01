@@ -578,8 +578,10 @@ aContext
 Parameter
 must
 be
-an
-integer
+a
+valid
+ABI
+constant
 "
 )
 ;
