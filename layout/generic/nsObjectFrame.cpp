@@ -24794,11 +24794,9 @@ send_event
 =
 False
 ;
-PRBool
-eventHandled
-=
-PR_FALSE
-;
+#
+if
+0
 /
 *
 we
@@ -24821,8 +24819,11 @@ the
 plugin
 *
 /
-/
-/
+PRBool
+eventHandled
+=
+PR_FALSE
+;
 mInstance
 -
 >
@@ -24842,6 +24843,8 @@ rv
 =
 nsEventStatus_eConsumeNoDefault
 ;
+#
+endif
 return
 rv
 ;
