@@ -1168,7 +1168,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-nsIFrameIterator
+nsIFrameEnumerator
 >
 trav
 ;
