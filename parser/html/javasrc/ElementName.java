@@ -1471,13 +1471,13 @@ LI
 case
 TreeBuilder
 .
-LINK
+LINK_OR_BASEFONT_OR_BGSOUND
 :
 /
 /
 return
 "
-LINK
+LINK_OR_BASEFONT_OR_BGSOUND
 "
 ;
 /
@@ -1975,13 +1975,13 @@ EMBED_OR_IMG
 case
 TreeBuilder
 .
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 :
 /
 /
 return
 "
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 "
 ;
 /
@@ -4566,7 +4566,7 @@ wbr
 "
 TreeBuilder
 .
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 true
 false
 false
@@ -4635,7 +4635,7 @@ area
 "
 TreeBuilder
 .
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 true
 false
 false
@@ -5118,7 +5118,7 @@ link
 "
 TreeBuilder
 .
-LINK
+LINK_OR_BASEFONT_OR_BGSOUND
 true
 false
 false
@@ -7901,7 +7901,7 @@ spacer
 "
 TreeBuilder
 .
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 true
 false
 false
@@ -8269,7 +8269,7 @@ bgsound
 "
 TreeBuilder
 .
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+LINK_OR_BASEFONT_OR_BGSOUND
 true
 false
 false
@@ -9143,7 +9143,7 @@ basefont
 "
 TreeBuilder
 .
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+LINK_OR_BASEFONT_OR_BGSOUND
 true
 false
 false
