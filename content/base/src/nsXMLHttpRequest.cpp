@@ -12930,7 +12930,7 @@ nsIInputStream
 *
 *
 aResult
-uint64
+uint64_t
 *
 aContentLength
 nsACString
@@ -13170,7 +13170,7 @@ nsIInputStream
 *
 *
 aResult
-uint64
+uint64_t
 *
 aContentLength
 nsACString
@@ -13239,7 +13239,7 @@ nsIInputStream
 *
 *
 aResult
-uint64
+uint64_t
 *
 aContentLength
 nsACString
@@ -14008,7 +14008,7 @@ nsIInputStream
 *
 *
 aResult
-uint64
+uint64_t
 *
 aContentLength
 nsACString
