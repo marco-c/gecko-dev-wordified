@@ -1154,9 +1154,6 @@ cycleForgetFunc
 /
 /
 obsolete
-:
-use
-cycleForget2Func
 StringSetIsVoidFunc
 stringSetIsVoid
 ;
@@ -1185,6 +1182,9 @@ cycleSuspect2Func
 CycleCollectorForget2Func
 cycleForget2Func
 ;
+/
+/
+obsolete
 }
 XPCOMFunctions
 ;

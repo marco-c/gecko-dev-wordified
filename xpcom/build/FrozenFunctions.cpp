@@ -363,8 +363,7 @@ post
 9
 &
 NS_CycleCollectorSuspect2
-&
-NS_CycleCollectorForget2
+nullptr
 }
 ;
 EXPORT_XPCOM_API
