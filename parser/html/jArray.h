@@ -682,6 +682,12 @@ length
 if
 defined
 (
+MOZ_HAVE_CXX11_NULLPTR
+)
+#
+if
+defined
+(
 __clang__
 )
 /
@@ -708,11 +714,7 @@ nullptr
 jArray_nullptr_t
 ;
 #
-elif
-defined
-(
-MOZ_HAVE_CXX11_NULLPTR
-)
+else
 /
 /
 decltype
@@ -741,6 +743,8 @@ std
 nullptr_t
 jArray_nullptr_t
 ;
+#
+endif
 #
 elif
 defined
