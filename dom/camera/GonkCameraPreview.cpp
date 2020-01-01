@@ -225,13 +225,10 @@ aBuffer
 )
 return
 ;
-Image
-:
-:
-Format
+ImageFormat
 format
 =
-Image
+ImageFormat
 :
 :
 GONK_IO_SURFACE

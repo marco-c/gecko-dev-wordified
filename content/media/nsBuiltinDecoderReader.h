@@ -196,9 +196,6 @@ mStereoMode
 mozilla
 :
 :
-layers
-:
-:
 STEREO_MODE_MONO
 )
 mHasAudio
@@ -348,9 +345,6 @@ stereo
 videos
 .
 mozilla
-:
-:
-layers
 :
 :
 StereoMode
@@ -2838,10 +2832,7 @@ GetFormat
 mozilla
 :
 :
-layers
-:
-:
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR

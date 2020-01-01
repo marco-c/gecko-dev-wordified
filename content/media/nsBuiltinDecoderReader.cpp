@@ -1144,13 +1144,10 @@ PLANAR_YCBCR
 /
 format
 .
-Image
-:
-:
-Format
+ImageFormat
 format
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR
@@ -1196,7 +1193,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR

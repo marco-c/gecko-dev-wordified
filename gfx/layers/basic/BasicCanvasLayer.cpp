@@ -125,6 +125,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 BasicLayersImpl
 .
 h

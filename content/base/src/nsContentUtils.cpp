@@ -156,6 +156,13 @@ h
 #
 include
 "
+Layers
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

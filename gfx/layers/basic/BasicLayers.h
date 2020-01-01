@@ -181,6 +181,9 @@ ShadowColorLayer
 class
 ReadbackProcessor
 ;
+class
+ImageFactory
+;
 /
 *
 *

@@ -111,6 +111,17 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+/
+/
+for
+PlanarYCBCRImage
+#
+include
+"
 ipc
 /
 AutoOpenSurface
@@ -1250,7 +1261,7 @@ GetFormat
 )
 !
 =
-Image
+ImageFormat
 :
 :
 REMOTE_IMAGE_BITMAP
@@ -1301,7 +1312,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR
@@ -1785,7 +1796,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -2287,7 +2298,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 MAC_IO_SURFACE
@@ -2678,7 +2689,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 GONK_IO_SURFACE
@@ -3896,7 +3907,7 @@ GetFormat
 )
 !
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE

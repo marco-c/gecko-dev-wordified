@@ -64,6 +64,13 @@ CameraPreview
 h
 "
 #
+include
+"
+Layers
+.
+h
+"
+#
 define
 DOM_CAMERA_LOG_LEVEL
 3

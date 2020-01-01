@@ -99,7 +99,7 @@ GFX_SHAREDTEXTUREIMAGE_H
 #
 include
 "
-ImageLayers
+ImageContainer
 .
 h
 "
