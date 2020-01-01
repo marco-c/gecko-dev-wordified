@@ -8490,12 +8490,9 @@ sp
 stackfp
 -
 >
-setPrev
+resetGeneratorPrev
 (
 cx
--
->
-regs
 )
 ;
 stackfp
