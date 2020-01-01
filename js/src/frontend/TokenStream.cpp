@@ -1776,9 +1776,6 @@ length
 StrictModeGetter
 *
 smg
-AutoKeepAtoms
-&
-keepAtoms
 )
 :
 srcCoords

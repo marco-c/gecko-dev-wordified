@@ -3623,7 +3623,6 @@ get
 )
 length
 NULL
-keepAtoms
 )
 ;
 int
@@ -10056,7 +10055,6 @@ strictModeGetter
 *
 /
 NULL
-keepAtoms
 )
 ;
 /
