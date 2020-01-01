@@ -143,9 +143,8 @@ static
 void
 CreateObjectURL
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 nsIDOMBlob
 *
@@ -154,7 +153,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -166,9 +165,8 @@ static
 void
 CreateObjectURL
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 nsIDOMMediaStream
 *
@@ -183,7 +181,7 @@ dom
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 mozilla
@@ -198,9 +196,8 @@ static
 void
 RevokeObjectURL
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 const
 nsAString
@@ -234,7 +231,7 @@ dom
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 mozilla

@@ -377,10 +377,9 @@ EventSource
 >
 Constructor
 (
-const
-GlobalObject
-&
-aGlobal
+nsISupports
+*
+aOwner
 const
 nsAString
 &

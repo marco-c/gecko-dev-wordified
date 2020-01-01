@@ -56575,9 +56575,8 @@ nsIDocument
 :
 Constructor
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 ErrorResult
 &
@@ -56593,10 +56592,6 @@ global
 do_QueryInterface
 (
 aGlobal
-.
-Get
-(
-)
 )
 ;
 if
@@ -56625,10 +56620,6 @@ prin
 do_QueryInterface
 (
 aGlobal
-.
-Get
-(
-)
 )
 ;
 if

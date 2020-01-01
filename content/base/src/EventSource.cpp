@@ -1674,10 +1674,9 @@ EventSource
 :
 Constructor
 (
-const
-GlobalObject
-&
-aGlobal
+nsISupports
+*
+aOwner
 const
 nsAString
 &
@@ -1709,11 +1708,7 @@ eventSource
 >
 Init
 (
-aGlobal
-.
-Get
-(
-)
+aOwner
 aURL
 aEventSourceInitDict
 .
