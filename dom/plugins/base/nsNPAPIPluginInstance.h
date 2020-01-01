@@ -957,13 +957,6 @@ aWindowless
 )
 ;
 NPError
-SetWindowlessLocal
-(
-PRBool
-aWindowlessLocal
-)
-;
-NPError
 SetTransparent
 (
 PRBool
@@ -1406,9 +1399,6 @@ later
 query
 PRPackedBool
 mWindowless
-;
-PRPackedBool
-mWindowlessLocal
 ;
 PRPackedBool
 mTransparent
