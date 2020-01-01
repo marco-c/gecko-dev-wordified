@@ -8788,13 +8788,13 @@ vp
 ;
 if
 (
+JSVAL_IS_NULL
+(
 vp
 [
 2
 ]
-=
-=
-JSVAL_NULL
+)
 )
 return
 JS_FALSE
