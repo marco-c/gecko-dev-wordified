@@ -4200,6 +4200,10 @@ mTarget
 =
 nullptr
 ;
+mResetLayer
+=
+true
+;
 mForceSoftware
 =
 true
