@@ -221,7 +221,7 @@ the
 Initial
 Developer
 are
-Copyrigght
+Copyright
 (
 C
 )
