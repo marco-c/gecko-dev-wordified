@@ -1717,7 +1717,7 @@ the
 change
 of
 style
-GetPresContext
+PresContext
 (
 )
 -
