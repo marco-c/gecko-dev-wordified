@@ -175,6 +175,9 @@ masm
 FrameInfo
 frame
 ;
+ICStubSpace
+stubSpace_
+;
 js
 :
 :
