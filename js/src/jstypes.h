@@ -1362,8 +1362,6 @@ JS_PUBLIC_DATA
 (
 t
 )
-/
-*
 #
 if
 defined
@@ -1403,16 +1401,12 @@ fastcall
 )
 #
 else
-*
-/
 #
 define
 JS_FASTCALL
 #
 define
 JS_NO_FASTCALL
-/
-/
 #
 endif
 #
