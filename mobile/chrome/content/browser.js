@@ -4395,6 +4395,7 @@ show
 function
 (
 aMessage
+aValue
 aButtons
 aTab
 )
@@ -4511,6 +4512,9 @@ aButtons
 tabID
 :
 tabID
+value
+:
+aValue
 }
 }
 ;
@@ -12166,6 +12170,7 @@ doorhanger
 show
 (
 messageString
+aTopic
 buttons
 )
 ;
