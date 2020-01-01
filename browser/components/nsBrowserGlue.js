@@ -10616,7 +10616,7 @@ ones
 const
 SMART_BOOKMARKS_VERSION
 =
-3
+4
 ;
 const
 SMART_BOOKMARKS_ANNO
@@ -10800,18 +10800,6 @@ newURI
 "
 place
 :
-redirectsMode
-=
-"
-+
-Ci
-.
-nsINavHistoryQueryOptions
-.
-REDIRECTS_MODE_TARGET
-+
-"
-&
 sort
 =
 "
