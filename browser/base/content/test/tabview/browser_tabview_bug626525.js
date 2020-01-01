@@ -70,7 +70,7 @@ prefsBranch
 setBoolPref
 (
 "
-experienced_first_run
+experienced_first_use
 "
 false
 )
@@ -457,7 +457,7 @@ prefsBranch
 setBoolPref
 (
 "
-experienced_first_run
+experienced_first_use
 "
 true
 )

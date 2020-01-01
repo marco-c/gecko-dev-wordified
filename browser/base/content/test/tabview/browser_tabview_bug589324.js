@@ -1115,7 +1115,7 @@ gBrowser
 .
 tabContainer
 .
-addEventListener
+removeEventListener
 (
 "
 TabHide
