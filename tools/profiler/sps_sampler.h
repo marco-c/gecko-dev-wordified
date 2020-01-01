@@ -510,7 +510,7 @@ ThreadLocal
 <
 ProfileStack
 >
-pkey_stack
+tlsStack
 ;
 extern
 mozilla
@@ -520,7 +520,7 @@ ThreadLocal
 <
 TableTicker
 >
-pkey_ticker
+tlsTicker
 ;
 extern
 bool
@@ -1934,7 +1934,7 @@ pthread_getspecific
 with
 a
 null
-pkey_stack
+tlsStack
 which
 will
 return
@@ -1953,7 +1953,7 @@ ProfileStack
 *
 stack
 =
-pkey_stack
+tlsStack
 .
 get
 (
@@ -2118,7 +2118,7 @@ ProfileStack
 *
 stack
 =
-pkey_stack
+tlsStack
 .
 get
 (
