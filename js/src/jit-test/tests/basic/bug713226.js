@@ -50,11 +50,6 @@ optionNames
 i
 ]
 ;
-options
-(
-optionName
-)
-;
 evaluate
 (
 "
