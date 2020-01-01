@@ -4641,6 +4641,15 @@ AssignLiteral
 if
 defined
 (
+ANDROID
+)
+"
+Android
+"
+#
+elif
+defined
+(
 MOZ_WIDGET_PHOTON
 )
 "
