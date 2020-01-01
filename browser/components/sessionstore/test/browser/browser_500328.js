@@ -829,7 +829,7 @@ popstate
 arguments
 .
 callee
-false
+true
 )
 ;
 tab
@@ -844,7 +844,7 @@ load
 arguments
 .
 callee
-false
+true
 )
 ;
 gBrowser
