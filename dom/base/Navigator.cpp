@@ -3509,7 +3509,7 @@ NS_IMETHODIMP
 Navigator
 :
 :
-MozVibrate
+Vibrate
 (
 const
 jsval
