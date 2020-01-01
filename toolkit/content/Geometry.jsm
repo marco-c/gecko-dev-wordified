@@ -2146,6 +2146,16 @@ view
 buffer
 "
 ]
+[
+"
+toolbarContainer
+"
+"
+toolbar
+-
+container
+"
+]
 ]
 .
 forEach
