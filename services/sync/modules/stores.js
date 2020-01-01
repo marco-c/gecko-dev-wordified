@@ -7485,8 +7485,8 @@ JSON
 var
 items
 =
-[
-]
+{
+}
 ;
 var
 logins

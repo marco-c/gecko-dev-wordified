@@ -3298,7 +3298,7 @@ HistSync
 _itemExists
 :
 function
-BSC__itemExists
+HSC__itemExists
 (
 GUID
 )
@@ -3330,7 +3330,7 @@ false
 _commandLike
 :
 function
-BSC_commandLike
+HSC_commandLike
 (
 a
 b
