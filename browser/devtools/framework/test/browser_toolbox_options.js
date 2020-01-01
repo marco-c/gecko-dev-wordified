@@ -831,6 +831,8 @@ data
 if
 (
 data
+.
+id
 =
 =
 prefNodes
@@ -878,6 +880,8 @@ tab
 "
 +
 data
+.
+id
 )
 "
 Tab
@@ -886,6 +890,8 @@ for
 "
 +
 data
+.
+id
 )
 ;
 index
@@ -927,6 +933,8 @@ wrong
 "
 +
 data
+.
+id
 +
 "
 was
