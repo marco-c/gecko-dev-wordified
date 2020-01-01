@@ -8682,6 +8682,7 @@ clipRect
 else
 if
 (
+(
 aWidgetType
 =
 =
@@ -8692,6 +8693,15 @@ aWidgetType
 =
 =
 NS_THEME_WINDOW_BUTTON_BOX_MAXIMIZED
+)
+&
+&
+nsUXThemeData
+:
+:
+CheckForCompositor
+(
+)
 )
 {
 /
