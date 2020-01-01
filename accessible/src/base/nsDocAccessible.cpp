@@ -4151,6 +4151,12 @@ if
 rootTreeItem
 )
 {
+nsCOMPtr
+<
+nsIAccessibleDocument
+>
+rootAccDoc
+=
 GetDocAccessibleFor
 (
 rootTreeItem
@@ -4175,6 +4181,14 @@ GetRootAccessible
 (
 )
 ;
+/
+/
+Then
+get
+it
+as
+ref
+ptr
 NS_ENSURE_TRUE
 (
 rootAccessible
