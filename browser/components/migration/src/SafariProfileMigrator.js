@@ -2347,11 +2347,9 @@ mostly
 matches
 /
 /
-x
+EUC
 -
-windows
--
-949
+KR
 .
 if
 (
@@ -2368,11 +2366,9 @@ korean
 )
 return
 "
-x
+EUC
 -
-windows
--
-949
+KR
 "
 ;
 /
