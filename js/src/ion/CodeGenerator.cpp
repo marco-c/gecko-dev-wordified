@@ -3462,7 +3462,7 @@ Imm32
 call
 -
 >
-numStackArgs
+numActualArgs
 (
 )
 )
