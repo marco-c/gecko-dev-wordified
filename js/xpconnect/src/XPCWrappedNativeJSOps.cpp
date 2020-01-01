@@ -4394,6 +4394,7 @@ obj2
 {
 TraceInsideSlimWrapper
 (
+trc
 obj2
 )
 ;
