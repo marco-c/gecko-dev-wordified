@@ -1026,10 +1026,9 @@ SingleTileLayer
 image
 )
 ;
-tileLayer
-.
 beginTransaction
 (
+tileLayer
 )
 ;
 tileLayer
@@ -1048,10 +1047,9 @@ getDisplayportOrigin
 )
 )
 ;
-tileLayer
-.
 endTransaction
 (
+tileLayer
 )
 ;
 getLayerController

@@ -956,10 +956,9 @@ beginDrawing
 (
 )
 {
-mTileLayer
-.
 beginTransaction
 (
+mTileLayer
 )
 ;
 }
@@ -1234,10 +1233,9 @@ rect
 }
 finally
 {
-mTileLayer
-.
 endTransaction
 (
+mTileLayer
 )
 ;
 }
@@ -1745,10 +1743,9 @@ event
 )
 )
 {
-mTileLayer
-.
 beginTransaction
 (
+mTileLayer
 )
 ;
 try
@@ -1790,10 +1787,9 @@ e
 }
 finally
 {
-mTileLayer
-.
 endTransaction
 (
+mTileLayer
 )
 ;
 }
