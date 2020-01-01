@@ -10353,13 +10353,6 @@ addProgressListener
 window
 .
 XULBrowserWindow
-Components
-.
-interfaces
-.
-nsIWebProgress
-.
-NOTIFY_ALL
 )
 ;
 gBrowser
