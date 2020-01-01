@@ -470,7 +470,7 @@ include
 <
 mozilla
 /
-StdInt
+StandardInteger
 .
 h
 >
