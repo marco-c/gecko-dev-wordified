@@ -1213,9 +1213,6 @@ maxCallDepth
 TypeMap
 stackTypeMap
 ;
-unsigned
-mismatchCount
-;
 TreeInfo
 (
 nanojit
