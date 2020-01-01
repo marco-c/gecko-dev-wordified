@@ -2829,8 +2829,6 @@ try
 this
 .
 _fos
-(
-)
 .
 write
 (
