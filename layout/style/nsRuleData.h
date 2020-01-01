@@ -198,10 +198,6 @@ nsStyleContext
 const
 mStyleContext
 ;
-const
-nsPostResolveFunc
-mPostResolveCallback
-;
 /
 /
 We
