@@ -1416,6 +1416,7 @@ error
 private
 :
 PluginProcessParent
+*
 mSubprocess
 ;
 const

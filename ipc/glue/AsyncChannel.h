@@ -1103,6 +1103,11 @@ Message
 aMsg
 )
 ;
+void
+OnClose
+(
+)
+;
 Transport
 *
 mTransport
