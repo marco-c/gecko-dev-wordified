@@ -6271,6 +6271,10 @@ aDisp
 nsRect
 *
 aRect
+const
+nsSize
+&
+aSize
 )
 {
 NS_PRECONDITION
@@ -6332,9 +6336,7 @@ aRect
 >
 width
 =
-GetSize
-(
-)
+aSize
 .
 width
 -
@@ -6359,9 +6361,7 @@ aRect
 >
 height
 =
-GetSize
-(
-)
+aSize
 .
 height
 -
@@ -6404,6 +6404,12 @@ GetAbsPosClipRect
 (
 aDisp
 aRect
+aFrame
+-
+>
+GetSize
+(
+)
 )
 )
 return
@@ -33583,6 +33589,7 @@ GetAbsPosClipRect
 disp
 &
 absPosClipRect
+aNewSize
 )
 ;
 if
