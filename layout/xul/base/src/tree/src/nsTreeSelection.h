@@ -477,6 +477,13 @@ nsITimer
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsITreeBoxObject
 ;
@@ -503,7 +510,11 @@ nsTreeSelection
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsTreeSelection
+)
 NS_DECL_NSITREESELECTION
 friend
 struct
