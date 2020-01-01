@@ -3140,6 +3140,7 @@ interlace_type
 compression_type
 filter_type
 ;
+unsigned
 int
 channels
 ;
@@ -4292,6 +4293,18 @@ interlace_type
 PNG_INTERLACE_ADAM7
 )
 {
+if
+(
+height
+<
+INT_MAX
+/
+(
+width
+*
+channels
+)
+)
 decoder
 -
 >
