@@ -1206,7 +1206,7 @@ false
 uninit
 :
 function
-pipe_init
+pipe_uninit
 (
 )
 {
