@@ -18315,7 +18315,7 @@ if
 oracle
 -
 >
-arrayProtoHasIndexedProperty
+arrayPrototypeHasIndexedProperty
 (
 )
 )
@@ -18697,7 +18697,7 @@ if
 oracle
 -
 >
-arrayProtoHasIndexedProperty
+arrayPrototypeHasIndexedProperty
 (
 )
 )
