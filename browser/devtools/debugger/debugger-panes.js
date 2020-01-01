@@ -492,7 +492,7 @@ panes
 .
 DebuggerView
 .
-showPanesIfPreffered
+showPanesSoon
 (
 )
 ;
