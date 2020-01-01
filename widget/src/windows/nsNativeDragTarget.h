@@ -464,6 +464,9 @@ h
 >
 #
 ifndef
+WINCE
+#
+ifndef
 IDropTargetHelper
 #
 include
@@ -480,6 +483,11 @@ image
 interfaces
 #
 endif
+#
+endif
+/
+/
+WINCE
 class
 nsIDragService
 ;
@@ -881,10 +889,15 @@ mDragService
 Drag
 target
 helper
+#
+ifndef
+WINCE
 IDropTargetHelper
 *
 mDropTargetHelper
 ;
+#
+endif
 }
 ;
 #

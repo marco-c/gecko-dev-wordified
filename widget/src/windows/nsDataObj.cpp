@@ -14011,8 +14011,6 @@ reinterpret_cast
 LPFILEGROUPDESCRIPTORA
 >
 (
-:
-:
 GlobalLock
 (
 fileGroupDescHandle
@@ -14156,8 +14154,6 @@ dwFlags
 =
 FD_PROGRESSUI
 ;
-:
-:
 GlobalUnlock
 (
 fileGroupDescHandle
@@ -14223,8 +14219,6 @@ reinterpret_cast
 LPFILEGROUPDESCRIPTORW
 >
 (
-:
-:
 GlobalLock
 (
 fileGroupDescHandle
@@ -14358,8 +14352,6 @@ dwFlags
 =
 FD_PROGRESSUI
 ;
-:
-:
 GlobalUnlock
 (
 fileGroupDescHandle
