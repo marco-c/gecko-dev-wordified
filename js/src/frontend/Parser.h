@@ -2939,11 +2939,6 @@ HandleAtom
 atom
 FunctionSyntaxKind
 kind
-JSObject
-*
-proto
-=
-NULL
 )
 ;
 void
