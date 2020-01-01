@@ -4684,7 +4684,7 @@ NS_OK
 mEditor
 -
 >
-InitializeSelection
+OnFocus
 (
 target
 )
