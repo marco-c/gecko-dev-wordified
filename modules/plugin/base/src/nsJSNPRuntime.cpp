@@ -4352,6 +4352,11 @@ reporter
 cx
 )
 ;
+jsval
+deleted
+=
+JSVAL_FALSE
+;
 if
 (
 JSVAL_IS_STRING
@@ -4368,9 +4373,6 @@ JSVAL_TO_STRING
 (
 id
 )
-;
-jsval
-unused
 ;
 ok
 =
@@ -4396,7 +4398,7 @@ JS_GetStringLength
 str
 )
 &
-unused
+deleted
 )
 ;
 }
@@ -4426,7 +4428,7 @@ ok
 =
 :
 :
-JS_DeleteElement
+JS_DeleteElement2
 (
 cx
 npjsobj
@@ -4437,6 +4439,8 @@ JSVAL_TO_INT
 (
 id
 )
+&
+deleted
 )
 ;
 }
@@ -4469,6 +4473,12 @@ ok
 =
 =
 JS_TRUE
+&
+&
+deleted
+=
+=
+JSVAL_TRUE
 ;
 }
 /
