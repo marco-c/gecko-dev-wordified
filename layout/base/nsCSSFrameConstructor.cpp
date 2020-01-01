@@ -23056,7 +23056,7 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 aContent
 aStyleContext
@@ -24901,7 +24901,7 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 aContent
 aStyleContext
@@ -26864,7 +26864,7 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 aDocElement
 styleContext
@@ -29362,7 +29362,7 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 aContent
 aStyleContext
@@ -31187,7 +31187,7 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 aContent
 aStyleContext
@@ -31498,7 +31498,7 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 aContent
 aStyleContext
@@ -33942,7 +33942,7 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 aContent
 aStyleContext
@@ -52475,14 +52475,14 @@ containingBlock
 {
 haveFirstLetterStyle
 =
-HaveFirstLetterStyle
+HasFirstLetterStyle
 (
 containingBlock
 )
 ;
 haveFirstLineStyle
 =
-HaveFirstLineStyle
+ShouldHaveFirstLineStyle
 (
 containingBlock
 -
@@ -56081,14 +56081,14 @@ containingBlock
 {
 haveFirstLetterStyle
 =
-HaveFirstLetterStyle
+HasFirstLetterStyle
 (
 containingBlock
 )
 ;
 haveFirstLineStyle
 =
-HaveFirstLineStyle
+ShouldHaveFirstLineStyle
 (
 containingBlock
 -
@@ -59258,7 +59258,7 @@ haveFLS
 containingBlock
 &
 &
-HaveFirstLetterStyle
+HasFirstLetterStyle
 (
 containingBlock
 )
@@ -61656,7 +61656,7 @@ GetStyleContext
 ;
 haveFirstLetterStyle
 =
-HaveFirstLetterStyle
+HasFirstLetterStyle
 (
 block
 )
@@ -69926,7 +69926,7 @@ PRBool
 nsCSSFrameConstructor
 :
 :
-HaveFirstLetterStyle
+ShouldHaveFirstLetterStyle
 (
 nsIContent
 *
@@ -69961,7 +69961,7 @@ PRBool
 nsCSSFrameConstructor
 :
 :
-HaveFirstLetterStyle
+HasFirstLetterStyle
 (
 nsIFrame
 *
@@ -70038,7 +70038,7 @@ PRBool
 nsCSSFrameConstructor
 :
 :
-HaveFirstLineStyle
+ShouldHaveFirstLineStyle
 (
 nsIContent
 *
@@ -70073,7 +70073,7 @@ void
 nsCSSFrameConstructor
 :
 :
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 nsIContent
 *
@@ -70092,7 +70092,7 @@ aHaveFirstLineStyle
 *
 aHaveFirstLetterStyle
 =
-HaveFirstLetterStyle
+ShouldHaveFirstLetterStyle
 (
 aContent
 aStyleContext
@@ -70101,7 +70101,7 @@ aStyleContext
 *
 aHaveFirstLineStyle
 =
-HaveFirstLineStyle
+ShouldHaveFirstLineStyle
 (
 aContent
 aStyleContext
@@ -76962,7 +76962,7 @@ PRBool
 haveFirstLetterStyle
 haveFirstLineStyle
 ;
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 aContent
 aStyleContext

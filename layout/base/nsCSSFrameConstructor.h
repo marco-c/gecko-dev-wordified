@@ -3763,7 +3763,7 @@ aStyleContext
 )
 ;
 PRBool
-HaveFirstLetterStyle
+ShouldHaveFirstLetterStyle
 (
 nsIContent
 *
@@ -3806,7 +3806,7 @@ null
 either
 .
 PRBool
-HaveFirstLetterStyle
+HasFirstLetterStyle
 (
 nsIFrame
 *
@@ -3814,7 +3814,7 @@ aBlockFrame
 )
 ;
 PRBool
-HaveFirstLineStyle
+ShouldHaveFirstLineStyle
 (
 nsIContent
 *
@@ -3825,7 +3825,7 @@ aStyleContext
 )
 ;
 void
-HaveSpecialBlockStyle
+ShouldHaveSpecialBlockStyle
 (
 nsIContent
 *
