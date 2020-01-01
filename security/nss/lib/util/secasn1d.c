@@ -3452,8 +3452,6 @@ extraneous
 bits
 *
 /
-/
-/
 PORT_Assert
 (
 encode_kind
