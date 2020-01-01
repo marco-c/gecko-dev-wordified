@@ -912,6 +912,17 @@ GetPIDOMEventTarget
 (
 )
 ;
+already_AddRefed
+<
+nsIContent
+>
+FindSelectionRoot
+(
+nsINode
+*
+aNode
+)
+;
 /
 *
 -
