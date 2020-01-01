@@ -488,6 +488,10 @@ rt
 -
 >
 gcMaxMallocBytes
+*
+0
+.
+9
 )
 ;
 }
