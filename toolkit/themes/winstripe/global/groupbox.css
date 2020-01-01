@@ -720,11 +720,12 @@ Dialog
 tabpanels
 caption
 {
-background
 -
-color
+moz
+-
+appearance
 :
-menu
+tabpanel
 ;
 }
 .
