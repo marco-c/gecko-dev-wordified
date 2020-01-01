@@ -1427,6 +1427,7 @@ deleted
 *
 /
 class
+NS_FINAL_CLASS
 nsFrameSelection
 :
 public
@@ -1434,10 +1435,6 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
-(
-NS_FRAME_SELECTION_IID
-)
 enum
 HINT
 {
@@ -5095,11 +5092,6 @@ mCaretMovementStyle
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsFrameSelection
-NS_FRAME_SELECTION_IID
-)
 #
 endif
 /
