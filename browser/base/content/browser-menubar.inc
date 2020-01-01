@@ -4171,6 +4171,11 @@ id
 "
 historyUndoMenu
 "
+class
+=
+"
+recentlyClosedTabsMenu
+"
 label
 =
 "
@@ -4236,6 +4241,11 @@ id
 =
 "
 historyUndoWindowMenu
+"
+class
+=
+"
+recentlyClosedWindowsMenu
 "
 label
 =
