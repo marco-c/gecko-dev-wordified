@@ -2762,10 +2762,6 @@ cleanup
 )
 ;
 }
-mInitThread
-=
-nullptr
-;
 }
 NS_IMETHODIMP
 GonkGPSGeolocationProvider
