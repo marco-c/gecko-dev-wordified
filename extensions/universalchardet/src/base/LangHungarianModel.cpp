@@ -1211,7 +1211,7 @@ sequences
 %
 static
 const
-char
+PRUint8
 HungarianLangModel
 [
 ]

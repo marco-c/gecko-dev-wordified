@@ -513,7 +513,7 @@ char
 s
 order
 const
-char
+PRUint8
 *
 const
 precedenceMatrix

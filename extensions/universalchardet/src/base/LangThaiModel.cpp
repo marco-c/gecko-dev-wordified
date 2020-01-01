@@ -960,7 +960,7 @@ sequences
 %
 static
 const
-char
+PRUint8
 ThaiLangModel
 [
 ]

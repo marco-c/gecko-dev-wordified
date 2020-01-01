@@ -2269,7 +2269,7 @@ sequences
 %
 static
 const
-char
+PRUint8
 RussianLangModel
 [
 ]
