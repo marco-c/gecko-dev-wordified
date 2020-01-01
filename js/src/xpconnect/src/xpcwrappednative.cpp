@@ -12339,6 +12339,7 @@ return
 JS_FALSE
 ;
 }
+const
 nsID
 *
 iid
@@ -12454,11 +12455,6 @@ invokeResult
 ccx
 )
 ;
-PR_Free
-(
-iid
-)
-;
 return
 JS_FALSE
 ;
@@ -12494,11 +12490,6 @@ GetCurrentJSObject
 )
 &
 err
-)
-;
-PR_Free
-(
-iid
 )
 ;
 NS_IF_RELEASE
