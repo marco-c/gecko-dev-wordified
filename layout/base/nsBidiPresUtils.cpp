@@ -5331,6 +5331,9 @@ while
 end
 <
 endLine
+&
+&
+nextSibling
 )
 {
 mBuffer
