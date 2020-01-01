@@ -4835,12 +4835,9 @@ const
 PRInt32
 kInitialTokenPoolSize
 =
-NS_SIZE_IN_HEAP
-(
 sizeof
 (
 CToken
-)
 )
 *
 200
@@ -5872,12 +5869,9 @@ const
 PRInt32
 kInitialNodePoolSize
 =
-NS_SIZE_IN_HEAP
-(
 sizeof
 (
 nsCParserNode
-)
 )
 *
 35

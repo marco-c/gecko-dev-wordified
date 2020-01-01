@@ -3518,12 +3518,9 @@ kInitialPoolSize
 =
 1024
 *
-NS_SIZE_IN_HEAP
-(
 sizeof
 (
 nsTimerEvent
-)
 )
 ;
 sAllocator
