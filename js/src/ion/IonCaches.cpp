@@ -588,6 +588,7 @@ ION_CODE
 if
 (
 !
+*
 code
 )
 return
