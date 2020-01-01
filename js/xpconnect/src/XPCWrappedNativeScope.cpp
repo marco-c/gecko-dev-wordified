@@ -576,9 +576,6 @@ cx
 JSObject
 *
 aGlobal
-nsISupports
-*
-aNative
 )
 {
 XPCWrappedNativeScope
@@ -604,7 +601,6 @@ XPCWrappedNativeScope
 (
 cx
 aGlobal
-aNative
 )
 ;
 else
@@ -686,7 +682,6 @@ SetGlobal
 (
 cx
 aGlobal
-aNative
 )
 ;
 }
@@ -730,9 +725,6 @@ cx
 JSObject
 *
 aGlobal
-nsISupports
-*
-aNative
 )
 :
 mWrappedNativeMap
@@ -913,7 +905,6 @@ SetGlobal
 (
 cx
 aGlobal
-aNative
 )
 ;
 DEBUG_TrackNewScope
@@ -1364,9 +1355,6 @@ cx
 JSObject
 *
 aGlobal
-nsISupports
-*
-aNative
 )
 {
 /

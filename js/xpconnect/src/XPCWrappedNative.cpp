@@ -2201,7 +2201,6 @@ GetNewOrUsed
 (
 ccx
 global
-identity
 )
 ;
 MOZ_ASSERT
