@@ -295,13 +295,6 @@ SVGNumber
 )
 /
 /
-Canvas
-DOMCI_CLASS
-(
-MozCanvasPrintState
-)
-/
-/
 WindowUtils
 DOMCI_CLASS
 (
