@@ -15065,6 +15065,14 @@ GetDirectBufferAddress
 buffer
 )
 ;
+if
+(
+!
+data
+)
+return
+NS_ERROR_FAILURE
+;
 nsRefPtr
 <
 gfxImageSurface
