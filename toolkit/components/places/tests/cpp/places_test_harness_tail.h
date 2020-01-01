@@ -818,7 +818,7 @@ xpcom
 TEST_NAME
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 ShutdownObserver
 >
