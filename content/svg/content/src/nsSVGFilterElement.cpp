@@ -1221,7 +1221,7 @@ map
 )
 |
 |
-nsSVGGraphicElementBase
+nsSVGFilterElementBase
 :
 :
 IsAttributeMapped
