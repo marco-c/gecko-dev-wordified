@@ -210,11 +210,11 @@ kStartupCacheCIDs
 &
 kNS_STARTUPCACHE_CID
 false
-NULL
+nullptr
 StartupCacheWrapperConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -248,7 +248,7 @@ cache
 kNS_STARTUPCACHE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -270,10 +270,10 @@ Module
 kVersion
 kStartupCacheCIDs
 kStartupCacheContracts
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 NSMODULE_DEFN

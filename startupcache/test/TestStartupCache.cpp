@@ -558,7 +558,7 @@ char
 *
 outbufPtr
 =
-NULL
+nullptr
 ;
 nsAutoArrayPtr
 <
@@ -721,7 +721,7 @@ char
 *
 outbuf
 =
-NULL
+nullptr
 ;
 uint32_t
 len
@@ -1205,7 +1205,7 @@ char
 *
 bufPtr
 =
-NULL
+nullptr
 ;
 nsAutoArrayPtr
 <
@@ -1287,7 +1287,7 @@ char
 *
 buf2Ptr
 =
-NULL
+nullptr
 ;
 nsAutoArrayPtr
 <
@@ -1848,7 +1848,7 @@ char
 *
 outbuf
 =
-NULL
+nullptr
 ;
 uint32_t
 len
@@ -2110,7 +2110,7 @@ char
 *
 outbuf
 =
-NULL
+nullptr
 ;
 sc
 -
@@ -2456,7 +2456,7 @@ JSFunction
 *
 snapshot_fn
 =
-NULL
+nullptr
 ;
 Rooted
 <
@@ -2507,7 +2507,7 @@ h
 )
 snapshot_fn
 0
-NULL
+nullptr
 &
 ss
 )
@@ -3166,7 +3166,7 @@ JS_NewGlobalObject
 cx
 &
 global_class
-NULL
+nullptr
 )
 ;
 if
