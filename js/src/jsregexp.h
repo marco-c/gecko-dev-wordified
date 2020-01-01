@@ -1018,7 +1018,10 @@ js_NewRegExp
 JSContext
 *
 cx
-JSTokenStream
+js
+:
+:
+TokenStream
 *
 ts
 JSString
@@ -1332,7 +1335,10 @@ js_NewRegExpObject
 JSContext
 *
 cx
-JSTokenStream
+js
+:
+:
+TokenStream
 *
 ts
 const

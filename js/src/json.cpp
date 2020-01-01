@@ -5547,7 +5547,7 @@ len
 jsval
 keyword
 ;
-JSTokenType
+TokenKind
 tt
 =
 js_CheckKeyword
