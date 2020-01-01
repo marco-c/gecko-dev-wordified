@@ -807,6 +807,16 @@ to
 switch
 between
 .
+/
+/
+Ordered
+list
+ascending
+in
+order
+of
+bitrates
+.
 nsTArray
 <
 nsAutoPtr

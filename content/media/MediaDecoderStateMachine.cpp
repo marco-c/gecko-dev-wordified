@@ -5819,6 +5819,13 @@ audioPlaying
 )
 )
 {
+mReader
+-
+>
+PrepareToDecode
+(
+)
+;
 /
 /
 We
