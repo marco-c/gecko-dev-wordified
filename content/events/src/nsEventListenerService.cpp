@@ -506,16 +506,10 @@ if
 jsl
 )
 {
-JS
-:
-:
-Handle
-<
 JSObject
 *
->
 handler
-(
+=
 jsl
 -
 >
@@ -530,7 +524,6 @@ Ptr
 >
 Callable
 (
-)
 )
 ;
 if
