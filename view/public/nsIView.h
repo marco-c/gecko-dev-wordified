@@ -2096,6 +2096,11 @@ origin
 *
 param
 aOffset
+-
+if
+non
+-
+null
 the
 offset
 from
@@ -2106,11 +2111,11 @@ s
 origin
 to
 the
+*
 widget
 '
 s
 origin
-*
 (
 usually
 positive
@@ -2120,6 +2125,12 @@ in
 appunits
 of
 this
+will
+be
+*
+returned
+in
+aOffset
 .
 *
 return
