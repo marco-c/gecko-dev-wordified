@@ -680,7 +680,7 @@ h
 /
 /
 for
-JS_GetFrameScopeChainRaw
+JS_GetGlobalForFrame
 #
 include
 "
@@ -31665,7 +31665,7 @@ fp
 )
 scope
 =
-JS_GetFrameScopeChainRaw
+JS_GetGlobalForFrame
 (
 fp
 )
@@ -31678,7 +31678,7 @@ scope
 )
 scope
 =
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 cx
 )
@@ -31717,13 +31717,7 @@ XPConnect
 GetWrappedNativeOfJSObject
 (
 cx
-:
-:
-JS_GetGlobalForObject
-(
-cx
 scope
-)
 getter_AddRefs
 (
 wrapper
@@ -32123,13 +32117,9 @@ JSObject
 *
 global
 =
-JS_GetGlobalForObject
+JS_GetGlobalForScopeChain
 (
 cx
-JS_GetScopeChain
-(
-cx
-)
 )
 ;
 if
