@@ -2848,14 +2848,6 @@ CERT_GetDefaultCertDB
 (
 )
 ;
-const
-PRTime
-now
-=
-PR_Now
-(
-)
-;
 int
 chainLen
 =
@@ -4060,11 +4052,6 @@ nsIInterfaceRequestor
 ctx
 )
 {
-SECItem
-*
-*
-rawArray
-;
 RefPtr
 <
 CertVerifier
