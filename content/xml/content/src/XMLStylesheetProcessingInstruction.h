@@ -263,13 +263,6 @@ nsAString
 aCharset
 )
 ;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
 protected
 :
 nsCOMPtr
