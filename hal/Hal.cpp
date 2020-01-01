@@ -3649,6 +3649,14 @@ return
 BACKGROUND
 "
 ;
+case
+PROCESS_PRIORITY_UNKNOWN
+:
+return
+"
+UNKNOWN
+"
+;
 default
 :
 MOZ_ASSERT
