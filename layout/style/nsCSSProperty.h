@@ -664,7 +664,6 @@ enum
 nsCSSType
 {
 eCSSType_Value
-eCSSType_Rect
 eCSSType_ValueList
 eCSSType_ValuePairList
 }
