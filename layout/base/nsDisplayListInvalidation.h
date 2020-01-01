@@ -109,9 +109,6 @@ nsDisplayItem
 class
 nsDisplayListBuilder
 ;
-class
-nsDisplayBackgroundImage
-;
 /
 *
 *
@@ -407,7 +404,7 @@ public
 :
 nsDisplayBackgroundGeometry
 (
-nsDisplayBackgroundImage
+nsDisplayItem
 *
 aItem
 nsDisplayListBuilder
@@ -426,7 +423,10 @@ aOffset
 )
 ;
 nsRect
-mPositioningArea
+mPaddingRect
+;
+nsRect
+mContentRect
 ;
 }
 ;

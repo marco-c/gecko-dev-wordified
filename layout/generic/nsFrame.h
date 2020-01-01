@@ -723,7 +723,7 @@ struct
 nsBoxLayoutMetrics
 ;
 class
-nsDisplayBackgroundImage
+nsDisplayBackground
 ;
 /
 *
@@ -3409,7 +3409,7 @@ nsDisplayListSet
 aLists
 bool
 aForceBackground
-nsDisplayBackgroundImage
+nsDisplayBackground
 *
 *
 aBackground

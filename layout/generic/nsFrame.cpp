@@ -9129,7 +9129,7 @@ nsDisplayListSet
 aLists
 bool
 aForceBackground
-nsDisplayBackgroundImage
+nsDisplayBackground
 *
 *
 aBackground
@@ -9204,7 +9204,7 @@ mAppearance
 )
 {
 return
-nsDisplayBackgroundImage
+nsDisplayBackground
 :
 :
 AppendBackgroundItemsToTop
@@ -9338,7 +9338,7 @@ rv
 )
 ;
 }
-nsDisplayBackgroundImage
+nsDisplayBackground
 *
 bg
 ;
