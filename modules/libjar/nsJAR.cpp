@@ -2379,12 +2379,7 @@ jis
 >
 InitFile
 (
-mZip
-.
-GetFD
-(
-item
-)
+this
 item
 )
 ;
