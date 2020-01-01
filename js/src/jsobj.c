@@ -5997,6 +5997,11 @@ start
 =
 vchars
 ;
+uint8
+parenChomp
+=
+0
+;
 if
 (
 vchars
@@ -6009,10 +6014,16 @@ vchars
 (
 '
 )
+{
 vchars
 +
 +
 ;
+parenChomp
+=
+1
+;
+}
 vchars
 =
 js_strchr_limit
@@ -6038,7 +6049,7 @@ vchars
 -
 start
 +
-1
+parenChomp
 ;
 }
 else
