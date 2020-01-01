@@ -2356,7 +2356,7 @@ aObjectsArray
 )
 {
 return
-false
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
@@ -2575,7 +2575,7 @@ object
 )
 )
 return
-PR_FALSE
+NS_ERROR_FAILURE
 ;
 jsval
 funval
