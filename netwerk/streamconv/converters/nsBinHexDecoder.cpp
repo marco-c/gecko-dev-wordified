@@ -756,6 +756,7 @@ table
 .
 .
 static
+signed
 char
 binhex_decode
 [
