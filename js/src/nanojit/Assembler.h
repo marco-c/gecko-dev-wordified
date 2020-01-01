@@ -3142,6 +3142,13 @@ ins
 )
 ;
 void
+asm_q2i
+(
+LInsp
+ins
+)
+;
+void
 asm_promote
 (
 LIns
