@@ -157,9 +157,9 @@ the
 Original
 Code
 is
-*
+the
 Mozilla
-Corporation
+Foundation
 .
 *
 Portions
@@ -213,6 +213,15 @@ Matt
 Brubeck
 <
 mbrubeck
+mozilla
+.
+com
+>
+*
+Benjamin
+Stover
+<
+bstover
 mozilla
 .
 com
@@ -420,7 +429,7 @@ BLOCK
 *
 *
 /
-var
+let
 EXPORTED_SYMBOLS
 =
 [
