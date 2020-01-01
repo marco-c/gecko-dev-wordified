@@ -3724,7 +3724,7 @@ N
 class
 AllocPolicy
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Vector
 <
 T
@@ -3794,7 +3794,7 @@ N
 class
 AllocPolicy
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Vector
 <
 T
@@ -4045,7 +4045,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Vector
 <
 T
@@ -4105,7 +4105,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Vector
 <
 T
@@ -4345,7 +4345,7 @@ N
 class
 AP
 >
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 bool
 Vector
 <
@@ -5177,7 +5177,7 @@ template
 bool
 InitNewElems
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Vector
 <
@@ -5281,7 +5281,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Vector
 <
@@ -5316,7 +5316,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Vector
 <
@@ -5425,7 +5425,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Vector
 <
@@ -5634,7 +5634,7 @@ template
 class
 U
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Vector
 <
@@ -5711,7 +5711,7 @@ template
 class
 U
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 Vector
 <
@@ -5770,7 +5770,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Vector
 <
@@ -5848,7 +5848,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 Vector
 <
@@ -6169,7 +6169,7 @@ template
 class
 U
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Vector
 <
@@ -6266,7 +6266,7 @@ template
 class
 U
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 Vector
 <
@@ -6451,7 +6451,7 @@ template
 class
 U
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Vector
 <
@@ -6493,7 +6493,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 Vector
 <
@@ -6541,7 +6541,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 T
 Vector
 <
