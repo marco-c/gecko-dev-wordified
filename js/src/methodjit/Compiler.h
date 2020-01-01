@@ -4378,12 +4378,10 @@ fused
 )
 {
 return
-(
 fused
 =
 =
 JSOP_IFEQ
-)
 ?
 Assembler
 :
