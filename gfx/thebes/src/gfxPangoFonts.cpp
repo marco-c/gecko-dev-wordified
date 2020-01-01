@@ -1542,6 +1542,10 @@ aProxyEntry
 .
 mStretch
 ;
+mIsUserFont
+=
+PR_TRUE
+;
 }
 /
 /

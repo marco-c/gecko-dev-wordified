@@ -3687,13 +3687,6 @@ fe
 return
 fe
 ;
-fe
--
->
-mUserFont
-=
-PR_TRUE
-;
 if
 (
 isCFF
@@ -4477,7 +4470,7 @@ fe
 fe
 -
 >
-mUserFont
+mIsUserFont
 =
 PR_TRUE
 ;
@@ -6678,7 +6671,7 @@ if
 fe
 -
 >
-mUserFont
+mIsUserFont
 )
 {
 if
