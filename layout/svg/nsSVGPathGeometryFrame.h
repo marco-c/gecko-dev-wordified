@@ -484,6 +484,12 @@ gfxMatrix
 aTransform
 )
 ;
+gfxPoint
+GetOwnTransformIfOnlyTranslation
+(
+)
+const
+;
 private
 :
 enum
