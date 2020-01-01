@@ -5205,6 +5205,12 @@ value
 "
 "
 ;
+searchbox
+.
+focus
+(
+)
+;
 retrieveRepositoryAddons
 (
 "
