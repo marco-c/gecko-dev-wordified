@@ -5941,6 +5941,8 @@ actualFormat
 aFormat
 )
 ;
+/
+/
 actualFormat
 .
 samples
@@ -6013,6 +6015,7 @@ glContext
 ResizeOffscreenFBO
 (
 aSize
+true
 )
 )
 {
