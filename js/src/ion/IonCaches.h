@@ -1235,9 +1235,7 @@ const
 return
 CodeLocationLabel
 (
-lastJump
-(
-)
+initialJump_
 .
 raw
 (
