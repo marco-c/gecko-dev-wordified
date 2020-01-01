@@ -3164,6 +3164,8 @@ S_OK
 LONGLONG
 *
 frameDurationList
+=
+NULL
 ;
 LONGLONG
 maxFPS
