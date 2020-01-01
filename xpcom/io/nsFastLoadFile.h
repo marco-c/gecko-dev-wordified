@@ -2056,10 +2056,6 @@ mFile
 (
 aFile
 )
-mFd
-(
-nsnull
-)
 mFileLen
 (
 0
@@ -2759,16 +2755,6 @@ mFile
 .
 mfasl
 file
-PRFileDesc
-*
-mFd
-;
-/
-/
-OS
-file
--
-descriptor
 PRUint32
 mFileLen
 ;
