@@ -23964,6 +23964,11 @@ length
 #
 ifdef
 DEBUG
+if
+(
+vector
+)
+{
 for
 (
 int
@@ -23996,6 +24001,7 @@ JS_ARRAY_HOLE
 )
 )
 ;
+}
 #
 endif
 return

@@ -21932,6 +21932,7 @@ if
 (
 vp
 )
+{
 memcpy
 (
 obj
@@ -21957,6 +21958,18 @@ setDenseArrayInitializedLength
 length
 )
 ;
+}
+else
+{
+obj
+-
+>
+setDenseArrayInitializedLength
+(
+0
+)
+;
+}
 return
 obj
 ;

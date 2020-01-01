@@ -19227,6 +19227,10 @@ step
 .
 *
 /
+proto
+=
+objProto
+;
 }
 }
 /
