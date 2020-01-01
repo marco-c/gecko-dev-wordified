@@ -670,6 +670,8 @@ virtual
 void
 ShadowLayersUpdated
 (
+bool
+isFirstPaint
 )
 MOZ_OVERRIDE
 ;

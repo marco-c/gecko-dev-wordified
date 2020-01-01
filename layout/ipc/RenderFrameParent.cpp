@@ -3648,6 +3648,8 @@ RenderFrameParent
 :
 ShadowLayersUpdated
 (
+bool
+isFirstPaint
 )
 {
 mFrameLoader

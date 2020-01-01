@@ -909,6 +909,10 @@ LayerManager
 :
 LAYERS_NONE
 )
+mIsFirstPaint
+(
+false
+)
 {
 mTxn
 =
@@ -2126,7 +2130,7 @@ mShadowManager
 SendUpdate
 (
 cset
-false
+mIsFirstPaint
 aReplies
 )
 )
@@ -2152,6 +2156,10 @@ return
 false
 ;
 }
+mIsFirstPaint
+=
+false
+;
 MOZ_LAYERS_LOG
 (
 (
