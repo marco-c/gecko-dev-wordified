@@ -945,7 +945,9 @@ Log
 "
 network
 "
-null
+"
+netwarn
+"
 null
 "
 networkinfo
@@ -3429,6 +3431,9 @@ secerror
 "
 "
 secwarn
+"
+"
+netwarn
 "
 ]
 ;

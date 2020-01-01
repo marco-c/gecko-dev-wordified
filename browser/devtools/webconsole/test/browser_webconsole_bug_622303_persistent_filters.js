@@ -40,6 +40,9 @@ net
 network
 "
 "
+netwarn
+"
+"
 networkinfo
 "
 ]
