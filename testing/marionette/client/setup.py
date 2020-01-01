@@ -105,16 +105,6 @@ mozrunner
 .
 10
 '
-'
-datazilla
-=
-=
-0
-.
-2
-.
-1
-'
 ]
 setup
 (
