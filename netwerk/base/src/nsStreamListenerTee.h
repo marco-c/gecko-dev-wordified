@@ -472,12 +472,6 @@ nsIOutputStream
 >
 mSink
 ;
-nsCOMPtr
-<
-nsIRequestObserver
->
-mObserver
-;
 }
 ;
 #
