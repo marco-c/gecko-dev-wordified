@@ -2003,17 +2003,6 @@ return
 mUnicodeDecoder
 ;
 }
-void
-ReadyToCallDidBuildModelHtml5
-(
-)
-{
-ReadyToCallDidBuildModelImpl
-(
-mTerminated
-)
-;
-}
 private
 :
 void
