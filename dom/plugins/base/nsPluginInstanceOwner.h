@@ -608,6 +608,13 @@ IsRemoteDrawingCoreAnimation
 (
 )
 ;
+nsresult
+ContentsScaleFactorChanged
+(
+double
+aContentsScaleFactor
+)
+;
 NPEventModel
 GetEventModel
 (

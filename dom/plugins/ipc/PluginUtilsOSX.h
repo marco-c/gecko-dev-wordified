@@ -437,6 +437,11 @@ GetFrontSurfaceHeight
 (
 )
 ;
+double
+GetFrontSurfaceContentsScaleFactor
+(
+)
+;
 /
 /
 Returns
@@ -484,6 +489,11 @@ pixels
 .
 size_t
 GetBackSurfaceHeight
+(
+)
+;
+double
+GetBackSurfaceContentsScaleFactor
 (
 )
 ;

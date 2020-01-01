@@ -684,6 +684,16 @@ bool
 aDrawing
 )
 ;
+virtual
+nsresult
+ContentsScaleFactorChanged
+(
+NPP
+instance
+double
+aContentsScaleFactor
+)
+;
 #
 endif
 virtual

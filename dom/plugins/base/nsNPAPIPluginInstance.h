@@ -473,6 +473,13 @@ aDrawing
 )
 ;
 nsresult
+ContentsScaleFactorChanged
+(
+double
+aContentsScaleFactor
+)
+;
+nsresult
 GetJSObject
 (
 JSContext
