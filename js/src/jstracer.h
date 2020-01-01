@@ -1177,6 +1177,9 @@ char
 prefix
 int
 index
+JSStackFrame
+*
+localFrame
 jsuword
 *
 localNames
@@ -2140,6 +2143,9 @@ cx
 jsbytecode
 *
 oldpc
+uintN
+&
+inlineCallCount
 )
 ;
 extern
