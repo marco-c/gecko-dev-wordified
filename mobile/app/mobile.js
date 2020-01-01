@@ -3849,7 +3849,7 @@ sink
 .
 interactive_deflect_count
 "
-10
+1000
 )
 ;
 pref
@@ -3873,7 +3873,7 @@ sink
 .
 interactive_parse_time
 "
-50000
+5000
 )
 ;
 pref
@@ -3885,7 +3885,7 @@ sink
 .
 perf_parse_time
 "
-50000
+5000
 )
 ;
 pref
