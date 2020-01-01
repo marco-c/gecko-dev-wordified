@@ -111,9 +111,9 @@ var
 summary
 =
 '
-"
-Assertion
-failure
+Do
+not
+assert
 :
 !
 (
@@ -125,7 +125,6 @@ JSPROP_GETTER
 JSPROP_SETTER
 )
 )
-"
 with
 '
 +

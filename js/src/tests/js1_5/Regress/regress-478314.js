@@ -185,9 +185,6 @@ Do
 not
 assert
 :
-Assertion
-failed
-:
 "
 need
 a
