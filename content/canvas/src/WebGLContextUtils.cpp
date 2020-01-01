@@ -937,7 +937,7 @@ return
 checked_neededByteLength
 ;
 }
-nsresult
+void
 WebGLContext
 :
 :
@@ -1013,11 +1013,8 @@ mWebGLError
 =
 err
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 WebGLContext
 :
 :
@@ -1061,7 +1058,7 @@ err
 )
 ;
 }
-nsresult
+void
 WebGLContext
 :
 :
@@ -1103,7 +1100,7 @@ LOCAL_GL_INVALID_ENUM
 )
 ;
 }
-nsresult
+void
 WebGLContext
 :
 :
@@ -1145,7 +1142,7 @@ LOCAL_GL_INVALID_OPERATION
 )
 ;
 }
-nsresult
+void
 WebGLContext
 :
 :
@@ -1187,7 +1184,7 @@ LOCAL_GL_INVALID_VALUE
 )
 ;
 }
-nsresult
+void
 WebGLContext
 :
 :
@@ -1229,7 +1226,7 @@ LOCAL_GL_INVALID_FRAMEBUFFER_OPERATION
 )
 ;
 }
-nsresult
+void
 WebGLContext
 :
 :
