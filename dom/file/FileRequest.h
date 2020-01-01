@@ -193,6 +193,8 @@ aOwner
 LockedFile
 *
 aLockedFile
+bool
+aIsFileRequest
 )
 ;
 /
@@ -265,6 +267,9 @@ nsRefPtr
 LockedFile
 >
 mLockedFile
+;
+bool
+mIsFileRequest
 ;
 NS_DECL_EVENT_HANDLER
 (
