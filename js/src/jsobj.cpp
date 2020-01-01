@@ -34656,10 +34656,13 @@ uint32
 limit
 )
 {
+JS_ASSERT
+(
 JS_IS_OBJ_LOCKED
 (
 cx
 obj
+)
 )
 ;
 /
