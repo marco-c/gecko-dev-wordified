@@ -1029,6 +1029,10 @@ ORDER
 BY
 h
 .
+typed
+DESC
+h
+.
 visit_count
 DESC
 MAX
