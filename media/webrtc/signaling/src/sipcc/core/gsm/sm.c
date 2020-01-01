@@ -326,9 +326,8 @@ s
 -
 4d
 :
-0x
 %
-08lx
+px
 :
 sm
 entry
@@ -340,8 +339,6 @@ s
 %
 s
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

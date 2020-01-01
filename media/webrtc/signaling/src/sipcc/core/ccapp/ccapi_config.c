@@ -252,11 +252,11 @@ details
 user
 =
 %
-x
+s
 domain
 =
 %
-x
+s
 \
 n
 "

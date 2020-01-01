@@ -398,9 +398,7 @@ d
 handle
 =
 %
-x
-\
-n
+p
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2114,9 +2112,7 @@ DEB_F_PREFIX
 "
 returned
 %
-02X
-\
-n
+p
 "
 DEB_F_PREFIX_ARGS
 (

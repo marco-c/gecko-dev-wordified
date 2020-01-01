@@ -1720,7 +1720,7 @@ with
 address
 :
 %
-i
+p
 remote
 port
 :
@@ -1739,6 +1739,7 @@ entry
 >
 fd
 connid
+&
 entry
 -
 >
@@ -4560,7 +4561,7 @@ message
 size
 of
 %
-d
+lu
 "
 "
 bytes

@@ -3112,7 +3112,7 @@ endAllActiveCalls
 )
 :
 %
-d
+lu
 calls
 to
 be
@@ -3794,7 +3794,7 @@ info
 handle
 (
 %
-u
+p
 )
 as
 failed
@@ -4034,7 +4034,7 @@ s
 s
 [
 %
-d
+s
 |
 %
 s
@@ -4843,7 +4843,7 @@ d
 strId
 =
 %
-s
+d
 video
 =
 %

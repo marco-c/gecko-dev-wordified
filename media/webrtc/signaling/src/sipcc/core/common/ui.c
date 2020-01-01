@@ -10213,16 +10213,10 @@ state
 =
 %
 d
-attr
-=
-%
-d
 call_instance
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (

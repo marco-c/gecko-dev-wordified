@@ -29001,9 +29001,7 @@ header
 )
 =
 %
-d
-\
-n
+lu
 "
 fname
 strlen

@@ -5482,10 +5482,8 @@ SIP_F_PREFIX
 "
 Unknown
 message
-\
-n
-fname
 "
+fname
 )
 ;
 break

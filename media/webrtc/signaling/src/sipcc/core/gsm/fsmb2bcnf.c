@@ -6689,9 +6689,8 @@ debugif_printf
 %
 -
 6d
-0x
 %
-08p
+p
 %
 -
 11d

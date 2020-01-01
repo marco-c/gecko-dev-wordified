@@ -576,11 +576,8 @@ DEB_F_PREFIX
 Msg
 id
 =
-0x
 %
-0x
-\
-n
+p
 "
 DEB_F_PREFIX_ARGS
 (

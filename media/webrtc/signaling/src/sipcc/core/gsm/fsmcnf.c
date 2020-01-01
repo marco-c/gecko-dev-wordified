@@ -1864,10 +1864,8 @@ to
 get
 CCB
 .
-\
-n
 "
-fname
+__FUNCTION__
 )
 ;
 }

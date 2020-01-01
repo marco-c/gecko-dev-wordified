@@ -746,10 +746,6 @@ fid
 =
 %
 d
-video_pref
-=
-%
-s
 data
 =
 %

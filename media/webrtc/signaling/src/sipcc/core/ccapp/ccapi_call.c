@@ -322,9 +322,8 @@ DEB_F_PREFIX
 "
 ref
 =
-0x
 %
-x
+p
 :
 count
 =
@@ -1896,7 +1895,7 @@ d
 datap
 =
 %
-x
+p
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2051,7 +2050,7 @@ d
 datap
 =
 %
-x
+p
 "
 DEB_F_PREFIX_ARGS
 (
