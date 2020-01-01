@@ -681,7 +681,7 @@ XUL_FASTLOAD_FILE_VERSION
 (
 0xfeedbeef
 -
-23
+24
 )
 #
 define
