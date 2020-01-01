@@ -620,7 +620,7 @@ for
 details
 .
 virtual
-u_int64_t
+uint64_t
 ReturnAddress
 (
 )
@@ -886,7 +886,7 @@ the
 /
 machine
 .
-u_int64_t
+uint64_t
 instruction
 ;
 /
@@ -942,7 +942,7 @@ are
 not
 available
 .
-u_int64_t
+uint64_t
 function_base
 ;
 /
@@ -1011,7 +1011,7 @@ are
 not
 available
 .
-u_int64_t
+uint64_t
 source_line_base
 ;
 /

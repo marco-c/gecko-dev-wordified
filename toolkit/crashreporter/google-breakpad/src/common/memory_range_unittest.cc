@@ -343,7 +343,7 @@ Message
 namespace
 {
 const
-u_int32_t
+uint32_t
 kBuffer
 [
 10
@@ -363,14 +363,14 @@ kBuffer
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 kBufferPointer
 =
 reinterpret_cast
 <
 const
-u_int8_t
+uint8_t
 *
 >
 (

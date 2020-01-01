@@ -556,9 +556,9 @@ version
 }
 BasicCodeModule
 (
-u_int64_t
+uint64_t
 base_address
-u_int64_t
+uint64_t
 size
 const
 string
@@ -638,7 +638,7 @@ associated
 members
 .
 virtual
-u_int64_t
+uint64_t
 base_address
 (
 )
@@ -649,7 +649,7 @@ base_address_
 ;
 }
 virtual
-u_int64_t
+uint64_t
 size
 (
 )
@@ -733,10 +733,10 @@ this
 }
 private
 :
-u_int64_t
+uint64_t
 base_address_
 ;
-u_int64_t
+uint64_t
 size_
 ;
 string

@@ -501,7 +501,7 @@ operator
 >
 >
 (
-u_int8_t
+uint8_t
 &
 u8
 )
@@ -512,7 +512,7 @@ operator
 >
 >
 (
-u_int16_t
+uint16_t
 &
 u16
 )
@@ -523,7 +523,7 @@ operator
 >
 >
 (
-u_int32_t
+uint32_t
 &
 u32
 )
@@ -534,7 +534,7 @@ operator
 >
 >
 (
-u_int64_t
+uint64_t
 &
 u64
 )
@@ -567,7 +567,7 @@ operator
 <
 <
 (
-u_int8_t
+uint8_t
 u8
 )
 ;
@@ -577,7 +577,7 @@ operator
 <
 <
 (
-u_int16_t
+uint16_t
 u16
 )
 ;
@@ -587,7 +587,7 @@ operator
 <
 <
 (
-u_int32_t
+uint32_t
 u32
 )
 ;
@@ -597,7 +597,7 @@ operator
 <
 <
 (
-u_int64_t
+uint64_t
 u64
 )
 ;

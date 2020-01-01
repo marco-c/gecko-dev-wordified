@@ -640,7 +640,7 @@ data
 declarations
 below
 .
-u_int32_t
+uint32_t
 time_date_stamp
 (
 )
@@ -670,7 +670,7 @@ return
 crash_reason_
 ;
 }
-u_int64_t
+uint64_t
 crash_address
 (
 )
@@ -799,7 +799,7 @@ minidump
 time_t
 format
 )
-u_int32_t
+uint32_t
 time_date_stamp_
 ;
 /
@@ -936,7 +936,7 @@ caused
 the
 fault
 .
-u_int64_t
+uint64_t
 crash_address_
 ;
 /

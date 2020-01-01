@@ -958,7 +958,7 @@ breakpad_info_stream
 /
 /
 Helpers
-u_int64_t
+uint64_t
 CurrentPCForStack
 (
 breakpad_thread_state_data_t
@@ -1078,7 +1078,7 @@ MDLocationDescriptor
 register_location
 )
 ;
-u_int64_t
+uint64_t
 CurrentPCForStackARM
 (
 breakpad_thread_state_data_t
@@ -1110,7 +1110,7 @@ MDLocationDescriptor
 register_location
 )
 ;
-u_int64_t
+uint64_t
 CurrentPCForStackPPC
 (
 breakpad_thread_state_data_t
@@ -1137,7 +1137,7 @@ MDLocationDescriptor
 register_location
 )
 ;
-u_int64_t
+uint64_t
 CurrentPCForStackPPC64
 (
 breakpad_thread_state_data_t
@@ -1169,7 +1169,7 @@ MDLocationDescriptor
 register_location
 )
 ;
-u_int64_t
+uint64_t
 CurrentPCForStackX86
 (
 breakpad_thread_state_data_t
@@ -1196,7 +1196,7 @@ MDLocationDescriptor
 register_location
 )
 ;
-u_int64_t
+uint64_t
 CurrentPCForStackX86_64
 (
 breakpad_thread_state_data_t

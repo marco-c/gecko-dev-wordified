@@ -508,7 +508,7 @@ AMD64
 typedef
 SimpleCFIWalker
 <
-u_int64_t
+uint64_t
 MDRawContextAMD64
 >
 CFIWalker

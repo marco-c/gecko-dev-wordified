@@ -4536,7 +4536,7 @@ string
 &
 name
 const
-u_int8_t
+uint8_t
 identifier
 [
 sizeof

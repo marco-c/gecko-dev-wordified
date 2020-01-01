@@ -3088,7 +3088,7 @@ module_name_length
 1
 sizeof
 (
-u_int8_t
+uint8_t
 )
 )
 )
@@ -3617,7 +3617,7 @@ module
 base_of_image
 =
 (
-u_int64_t
+uint64_t
 )
 module_info
 .

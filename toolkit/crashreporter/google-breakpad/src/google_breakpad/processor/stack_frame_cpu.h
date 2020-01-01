@@ -625,7 +625,7 @@ the
 stack
 .
 virtual
-u_int64_t
+uint64_t
 ReturnAddress
 (
 )
@@ -1102,7 +1102,7 @@ the
 stack
 .
 virtual
-u_int64_t
+uint64_t
 ReturnAddress
 (
 )

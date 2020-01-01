@@ -879,7 +879,7 @@ of
 the
 stack
 .
-u_int32_t
+uint32_t
 stack_pointer
 ;
 if
@@ -1004,7 +1004,7 @@ a
 phantom
 frame
 .
-u_int32_t
+uint32_t
 instruction
 ;
 if

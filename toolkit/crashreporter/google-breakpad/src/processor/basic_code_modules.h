@@ -546,7 +546,7 @@ CodeModule
 *
 GetModuleForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const
@@ -605,7 +605,7 @@ the
 main
 module
 .
-u_int64_t
+uint64_t
 main_address_
 ;
 /
@@ -630,7 +630,7 @@ range
 .
 RangeMap
 <
-u_int64_t
+uint64_t
 linked_ptr
 <
 const

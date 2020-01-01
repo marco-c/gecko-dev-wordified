@@ -605,7 +605,7 @@ static
 void
 set_max_frames
 (
-u_int32_t
+uint32_t
 max_frames
 )
 {
@@ -615,7 +615,7 @@ max_frames
 ;
 }
 static
-u_int32_t
+uint32_t
 max_frames
 (
 )
@@ -846,7 +846,7 @@ otherwise
 bool
 InstructionAddressSeemsValid
 (
-u_int64_t
+uint64_t
 address
 )
 ;
@@ -1396,7 +1396,7 @@ infinite
 loops
 .
 static
-u_int32_t
+uint32_t
 max_frames_
 ;
 }

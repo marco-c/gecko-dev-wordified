@@ -1109,7 +1109,7 @@ offsets_
 i
 ]
 const
-u_int32_t
+uint32_t
 *
 offsets_
 ;

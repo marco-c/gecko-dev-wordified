@@ -791,7 +791,7 @@ extended_registers
 ;
 static
 const
-u_int8_t
+uint8_t
 x86_expected_contents
 [
 ]
@@ -1629,7 +1629,7 @@ extra
 ;
 static
 const
-u_int8_t
+uint8_t
 arm_expected_contents
 [
 ]

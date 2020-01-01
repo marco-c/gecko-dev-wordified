@@ -747,7 +747,7 @@ on
 this
 |
 .
-u_int32_t
+uint32_t
 entry_size_
 ;
 const

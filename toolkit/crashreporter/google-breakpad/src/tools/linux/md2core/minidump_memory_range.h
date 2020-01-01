@@ -670,7 +670,7 @@ md_str
 )
 {
 const
-u_int16_t
+uint16_t
 *
 buffer
 =
@@ -685,7 +685,7 @@ buffer
 ;
 for
 (
-u_int32_t
+uint32_t
 i
 =
 0

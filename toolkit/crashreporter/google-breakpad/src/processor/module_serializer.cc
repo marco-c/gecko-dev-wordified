@@ -591,7 +591,7 @@ kNumberMaps_
 *
 sizeof
 (
-u_int32_t
+uint32_t
 )
 ;
 for
@@ -672,7 +672,7 @@ kNumberMaps_
 *
 sizeof
 (
-u_int32_t
+uint32_t
 )
 )
 ;
@@ -683,7 +683,7 @@ kNumberMaps_
 *
 sizeof
 (
-u_int32_t
+uint32_t
 )
 ;
 /

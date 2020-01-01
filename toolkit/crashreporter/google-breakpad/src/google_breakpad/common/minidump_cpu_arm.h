@@ -691,7 +691,7 @@ minidumps
 typedef
 struct
 {
-u_int64_t
+uint64_t
 fpscr
 ;
 /
@@ -717,7 +717,7 @@ d31
 .
 *
 /
-u_int64_t
+uint64_t
 regs
 [
 MD_FLOATINGSAVEAREA_ARM_FPR_COUNT
@@ -730,7 +730,7 @@ control
 words
 *
 /
-u_int32_t
+uint32_t
 extra
 [
 MD_FLOATINGSAVEAREA_ARM_FPEXTRA_COUNT
@@ -767,7 +767,7 @@ are
 populated
 *
 /
-u_int32_t
+uint32_t
 context_flags
 ;
 /
@@ -809,7 +809,7 @@ program
 counter
 *
 /
-u_int32_t
+uint32_t
 iregs
 [
 MD_CONTEXT_ARM_GPR_COUNT
@@ -871,7 +871,7 @@ fields
 ignore
 *
 /
-u_int32_t
+uint32_t
 cpsr
 ;
 /

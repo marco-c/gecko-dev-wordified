@@ -432,7 +432,7 @@ offsets_
 reinterpret_cast
 <
 const
-u_int32_t
+uint32_t
 *
 >
 (

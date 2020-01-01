@@ -2851,7 +2851,7 @@ si
 )
 ;
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 si
@@ -2865,12 +2865,12 @@ some
 heap
 memory
 .
-u_int8_t
+uint8_t
 *
 memory
 =
 new
-u_int8_t
+uint8_t
 [
 kMemorySize
 ]
@@ -2909,7 +2909,7 @@ verified
 .
 for
 (
-u_int32_t
+uint32_t
 i
 =
 0
@@ -3159,7 +3159,7 @@ si
 )
 ;
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 si
@@ -3173,12 +3173,12 @@ some
 heap
 memory
 .
-u_int8_t
+uint8_t
 *
 memory
 =
 new
-u_int8_t
+uint8_t
 [
 kMemorySize
 ]
@@ -3217,7 +3217,7 @@ verified
 .
 for
 (
-u_int32_t
+uint32_t
 i
 =
 0

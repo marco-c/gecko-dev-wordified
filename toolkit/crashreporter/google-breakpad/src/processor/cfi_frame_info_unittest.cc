@@ -507,7 +507,7 @@ public
 MOCK_CONST_METHOD0
 (
 GetBase
-u_int64_t
+uint64_t
 (
 )
 )
@@ -515,7 +515,7 @@ u_int64_t
 MOCK_CONST_METHOD0
 (
 GetSize
-u_int32_t
+uint32_t
 (
 )
 )
@@ -525,8 +525,8 @@ MOCK_CONST_METHOD2
 GetMemoryAtAddress
 bool
 (
-u_int64_t
-u_int8_t
+uint64_t
+uint8_t
 *
 )
 )
@@ -536,8 +536,8 @@ MOCK_CONST_METHOD2
 GetMemoryAtAddress
 bool
 (
-u_int64_t
-u_int16_t
+uint64_t
+uint16_t
 *
 )
 )
@@ -547,8 +547,8 @@ MOCK_CONST_METHOD2
 GetMemoryAtAddress
 bool
 (
-u_int64_t
-u_int32_t
+uint64_t
+uint32_t
 *
 )
 )
@@ -558,8 +558,8 @@ MOCK_CONST_METHOD2
 GetMemoryAtAddress
 bool
 (
-u_int64_t
-u_int64_t
+uint64_t
+uint64_t
 *
 )
 )
@@ -629,7 +629,7 @@ GetMemoryAtAddress
 _
 A
 <
-u_int8_t
+uint8_t
 *
 >
 (
@@ -650,7 +650,7 @@ GetMemoryAtAddress
 _
 A
 <
-u_int16_t
+uint16_t
 *
 >
 (
@@ -671,7 +671,7 @@ GetMemoryAtAddress
 _
 A
 <
-u_int32_t
+uint32_t
 *
 >
 (
@@ -692,7 +692,7 @@ GetMemoryAtAddress
 _
 A
 <
-u_int64_t
+uint64_t
 *
 >
 (
@@ -717,7 +717,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int64_t
+uint64_t
 >
 registers
 caller_registers
@@ -778,7 +778,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -848,7 +848,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -920,7 +920,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -1157,7 +1157,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -1364,7 +1364,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -1495,7 +1495,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -1571,7 +1571,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -1694,7 +1694,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -1781,7 +1781,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -1870,7 +1870,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -1967,7 +1967,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -2079,7 +2079,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -2190,7 +2190,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -2339,7 +2339,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -2431,7 +2431,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -2480,7 +2480,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3477,7 +3477,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3658,7 +3658,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3733,7 +3733,7 @@ SimpleCFIWalkerFixture
 struct
 RawContext
 {
-u_int64_t
+uint64_t
 r0
 r1
 r2
@@ -3773,7 +3773,7 @@ PC_VALID
 typedef
 SimpleCFIWalker
 <
-u_int64_t
+uint64_t
 RawContext
 >
 CFIWalker
@@ -4087,7 +4087,7 @@ to
 recover
 it
 .
-u_int64_t
+uint64_t
 stack_top
 =
 0x83254944b20d5512ULL
@@ -4105,7 +4105,7 @@ GetMemoryAtAddress
 stack_top
 A
 <
-u_int64_t
+uint64_t
 *
 >
 (
@@ -4147,7 +4147,7 @@ stack_top
 16
 A
 <
-u_int64_t
+uint64_t
 *
 >
 (

@@ -732,7 +732,7 @@ initial
 length
 field
 .
-u_int64_t
+uint64_t
 post_length_offset_
 ;
 /

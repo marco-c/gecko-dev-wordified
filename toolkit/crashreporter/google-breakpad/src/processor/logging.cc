@@ -599,7 +599,7 @@ endl
 string
 HexString
 (
-u_int32_t
+uint32_t
 number
 )
 {
@@ -634,7 +634,7 @@ buffer
 string
 HexString
 (
-u_int64_t
+uint64_t
 number
 )
 {

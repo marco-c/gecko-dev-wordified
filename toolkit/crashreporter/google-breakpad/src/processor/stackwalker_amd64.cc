@@ -896,7 +896,7 @@ cfi_register_map_
 )
 {
 }
-u_int64_t
+uint64_t
 StackFrameAMD64
 :
 :
@@ -1213,7 +1213,7 @@ back
 )
 )
 ;
-u_int64_t
+uint64_t
 last_rsp
 =
 last_frame
@@ -1223,7 +1223,7 @@ context
 .
 rsp
 ;
-u_int64_t
+uint64_t
 caller_rip_address
 caller_rip
 ;
@@ -1479,7 +1479,7 @@ context
 rbp
 )
 {
-u_int64_t
+uint64_t
 caller_rbp
 =
 0

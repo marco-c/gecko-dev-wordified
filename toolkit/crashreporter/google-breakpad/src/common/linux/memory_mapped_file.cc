@@ -696,7 +696,7 @@ sys_munmap
 (
 const_cast
 <
-u_int8_t
+uint8_t
 *
 >
 (

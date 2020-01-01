@@ -2620,7 +2620,7 @@ minidump
 afterwards
 .
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 256
@@ -3026,7 +3026,7 @@ ASSERT_TRUE
 context
 )
 ;
-u_int64_t
+uint64_t
 instruction_pointer
 ;
 ASSERT_TRUE
@@ -3070,7 +3070,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 bytes
 =
@@ -3086,13 +3086,13 @@ ASSERT_TRUE
 bytes
 )
 ;
-u_int8_t
+uint8_t
 prefix_bytes
 [
 kOffset
 ]
 ;
-u_int8_t
+uint8_t
 suffix_bytes
 [
 kMemorySize
@@ -3262,7 +3262,7 @@ minidump
 afterwards
 .
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 256
@@ -3666,7 +3666,7 @@ ASSERT_TRUE
 context
 )
 ;
-u_int64_t
+uint64_t
 instruction_pointer
 ;
 ASSERT_TRUE
@@ -3712,7 +3712,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 bytes
 =
@@ -3728,7 +3728,7 @@ ASSERT_TRUE
 bytes
 )
 ;
-u_int8_t
+uint8_t
 suffix_bytes
 [
 kMemorySize
@@ -3911,7 +3911,7 @@ memory
 range
 .
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 4096
@@ -4318,7 +4318,7 @@ ASSERT_TRUE
 context
 )
 ;
-u_int64_t
+uint64_t
 instruction_pointer
 ;
 ASSERT_TRUE
@@ -4376,7 +4376,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 bytes
 =
@@ -4392,7 +4392,7 @@ ASSERT_TRUE
 bytes
 )
 ;
-u_int8_t
+uint8_t
 prefix_bytes
 [
 kPrefixSize
@@ -4869,7 +4869,7 @@ minidump
 afterwards
 .
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 sysconf
@@ -4889,7 +4889,7 @@ module
 "
 ;
 const
-u_int8_t
+uint8_t
 kModuleGUID
 [
 sizeof
@@ -6729,7 +6729,7 @@ AdditionalMemory
 )
 {
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 sysconf
@@ -6744,12 +6744,12 @@ some
 heap
 memory
 .
-u_int8_t
+uint8_t
 *
 memory
 =
 new
-u_int8_t
+uint8_t
 [
 kMemorySize
 ]
@@ -6788,7 +6788,7 @@ verified
 .
 for
 (
-u_int32_t
+uint32_t
 i
 =
 0
@@ -7013,7 +7013,7 @@ AdditionalMemoryRemove
 )
 {
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 sysconf
@@ -7028,12 +7028,12 @@ some
 heap
 memory
 .
-u_int8_t
+uint8_t
 *
 memory
 =
 new
-u_int8_t
+uint8_t
 [
 kMemorySize
 ]
@@ -7410,7 +7410,7 @@ ASSERT_TRUE
 exception
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE

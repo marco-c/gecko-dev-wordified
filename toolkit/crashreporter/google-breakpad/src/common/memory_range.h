@@ -562,7 +562,7 @@ data_
 reinterpret_cast
 <
 const
-u_int8_t
+uint8_t
 *
 >
 (
@@ -1061,7 +1061,7 @@ memory
 range
 .
 const
-u_int8_t
+uint8_t
 *
 data
 (
@@ -1108,7 +1108,7 @@ memory
 range
 .
 const
-u_int8_t
+uint8_t
 *
 data_
 ;

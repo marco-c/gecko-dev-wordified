@@ -976,7 +976,7 @@ components
 in
 Module
 .
-u_int32_t
+uint32_t
 map_sizes_
 [
 kNumberMaps_

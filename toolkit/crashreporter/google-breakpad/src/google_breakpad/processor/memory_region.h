@@ -403,7 +403,7 @@ memory
 region
 .
 virtual
-u_int64_t
+uint64_t
 GetBase
 (
 )
@@ -421,7 +421,7 @@ memory
 region
 .
 virtual
-u_int32_t
+uint32_t
 GetSize
 (
 )
@@ -549,9 +549,9 @@ virtual
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int8_t
+uint8_t
 *
 value
 )
@@ -563,9 +563,9 @@ virtual
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int16_t
+uint16_t
 *
 value
 )
@@ -577,9 +577,9 @@ virtual
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int32_t
+uint32_t
 *
 value
 )
@@ -591,9 +591,9 @@ virtual
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int64_t
+uint64_t
 *
 value
 )

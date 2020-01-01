@@ -1397,7 +1397,7 @@ virtual
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 =
@@ -1609,7 +1609,7 @@ Returns
 on
 failure
 .
-u_int32_t
+uint32_t
 GetContextCPU
 (
 )
@@ -1642,7 +1642,7 @@ architecture
 bool
 GetInstructionPointer
 (
-u_int64_t
+uint64_t
 *
 ip
 )
@@ -1824,7 +1824,7 @@ the
 weirdo
 AMD64
 context
-u_int32_t
+uint32_t
 context_flags_
 ;
 private
@@ -1840,7 +1840,7 @@ MinidumpException
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 ;
@@ -1927,7 +1927,7 @@ stream
 bool
 CheckAgainstSystemInfo
 (
-u_int32_t
+uint32_t
 context_cpu_type
 )
 ;
@@ -2053,7 +2053,7 @@ static
 void
 set_max_bytes
 (
-u_int32_t
+uint32_t
 max_bytes
 )
 {
@@ -2063,7 +2063,7 @@ max_bytes
 ;
 }
 static
-u_int32_t
+uint32_t
 max_bytes
 (
 )
@@ -2107,7 +2107,7 @@ memory
 region
 .
 const
-u_int8_t
+uint8_t
 *
 GetMemory
 (
@@ -2126,7 +2126,7 @@ the
 memory
 region
 .
-u_int64_t
+uint64_t
 GetBase
 (
 )
@@ -2143,7 +2143,7 @@ the
 memory
 region
 .
-u_int32_t
+uint32_t
 GetSize
 (
 )
@@ -2181,9 +2181,9 @@ address
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int8_t
+uint8_t
 *
 value
 )
@@ -2192,9 +2192,9 @@ const
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int16_t
+uint16_t
 *
 value
 )
@@ -2203,9 +2203,9 @@ const
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int32_t
+uint32_t
 *
 value
 )
@@ -2214,9 +2214,9 @@ const
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int64_t
+uint64_t
 *
 value
 )
@@ -2308,7 +2308,7 @@ T
 bool
 GetMemoryAtAddressInternal
 (
-u_int64_t
+uint64_t
 address
 T
 *
@@ -2338,7 +2338,7 @@ is
 1MB
 .
 static
-u_int32_t
+uint32_t
 max_bytes_
 ;
 /
@@ -2373,7 +2373,7 @@ memory
 mutable
 vector
 <
-u_int8_t
+uint8_t
 >
 *
 memory_
@@ -2590,7 +2590,7 @@ virtual
 bool
 GetThreadID
 (
-u_int32_t
+uint32_t
 *
 thread_id
 )
@@ -2724,7 +2724,7 @@ static
 void
 set_max_threads
 (
-u_int32_t
+uint32_t
 max_threads
 )
 {
@@ -2734,7 +2734,7 @@ max_threads
 ;
 }
 static
-u_int32_t
+uint32_t
 max_threads
 (
 )
@@ -2788,7 +2788,7 @@ MinidumpThread
 *
 GetThreadByID
 (
-u_int32_t
+uint32_t
 thread_id
 )
 ;
@@ -2830,7 +2830,7 @@ Minidump
 typedef
 map
 <
-u_int32_t
+uint32_t
 MinidumpThread
 *
 >
@@ -2845,7 +2845,7 @@ MinidumpThreads
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_THREAD_LIST_STREAM
@@ -2853,7 +2853,7 @@ MD_THREAD_LIST_STREAM
 bool
 Read
 (
-u_int32_t
+uint32_t
 aExpectedSize
 )
 ;
@@ -2880,7 +2880,7 @@ is
 256
 .
 static
-u_int32_t
+uint32_t
 max_threads_
 ;
 /
@@ -2910,7 +2910,7 @@ MinidumpThreads
 *
 threads_
 ;
-u_int32_t
+uint32_t
 thread_count_
 ;
 }
@@ -2984,7 +2984,7 @@ static
 void
 set_max_cv_bytes
 (
-u_int32_t
+uint32_t
 max_cv_bytes
 )
 {
@@ -2994,7 +2994,7 @@ max_cv_bytes
 ;
 }
 static
-u_int32_t
+uint32_t
 max_cv_bytes
 (
 )
@@ -3007,7 +3007,7 @@ static
 void
 set_max_misc_bytes
 (
-u_int32_t
+uint32_t
 max_misc_bytes
 )
 {
@@ -3017,7 +3017,7 @@ max_misc_bytes
 ;
 }
 static
-u_int32_t
+uint32_t
 max_misc_bytes
 (
 )
@@ -3048,7 +3048,7 @@ NULL
 CodeModule
 implementation
 virtual
-u_int64_t
+uint64_t
 base_address
 (
 )
@@ -3063,7 +3063,7 @@ base_of_image
 :
 static_cast
 <
-u_int64_t
+uint64_t
 >
 (
 -
@@ -3072,7 +3072,7 @@ u_int64_t
 ;
 }
 virtual
-u_int64_t
+uint64_t
 size
 (
 )
@@ -3158,7 +3158,7 @@ This
 is
 returned
 as
-u_int8_t
+uint8_t
 *
 because
 /
@@ -3279,11 +3279,11 @@ CodeView
 record
 .
 const
-u_int8_t
+uint8_t
 *
 GetCVRecord
 (
-u_int32_t
+uint32_t
 *
 size
 )
@@ -3366,7 +3366,7 @@ MDImageDebugMisc
 *
 GetMiscRecord
 (
-u_int32_t
+uint32_t
 *
 size
 )
@@ -3562,11 +3562,11 @@ is
 1024
 .
 static
-u_int32_t
+uint32_t
 max_cv_bytes_
 ;
 static
-u_int32_t
+uint32_t
 max_misc_bytes_
 ;
 /
@@ -3712,7 +3712,7 @@ entirely
 Stored
 as
 a
-u_int8_t
+uint8_t
 /
 /
 because
@@ -3740,7 +3740,7 @@ processed
 .
 vector
 <
-u_int8_t
+uint8_t
 >
 *
 cv_record_
@@ -3780,7 +3780,7 @@ that
 cv_record_
 contains
 .
-u_int32_t
+uint32_t
 cv_record_signature_
 ;
 /
@@ -3794,7 +3794,7 @@ present
 )
 stored
 as
-u_int8_t
+uint8_t
 /
 /
 because
@@ -3822,7 +3822,7 @@ processed
 .
 vector
 <
-u_int8_t
+uint8_t
 >
 *
 misc_record_
@@ -3896,7 +3896,7 @@ static
 void
 set_max_modules
 (
-u_int32_t
+uint32_t
 max_modules
 )
 {
@@ -3906,7 +3906,7 @@ max_modules
 ;
 }
 static
-u_int32_t
+uint32_t
 max_modules
 (
 )
@@ -3942,7 +3942,7 @@ MinidumpModule
 *
 GetModuleForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const
@@ -4033,7 +4033,7 @@ MinidumpModules
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_MODULE_LIST_STREAM
@@ -4041,7 +4041,7 @@ MD_MODULE_LIST_STREAM
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 ;
@@ -4068,7 +4068,7 @@ is
 1024
 .
 static
-u_int32_t
+uint32_t
 max_modules_
 ;
 /
@@ -4084,7 +4084,7 @@ key
 .
 RangeMap
 <
-u_int64_t
+uint64_t
 unsigned
 int
 >
@@ -4095,7 +4095,7 @@ MinidumpModules
 *
 modules_
 ;
-u_int32_t
+uint32_t
 module_count_
 ;
 }
@@ -4241,7 +4241,7 @@ static
 void
 set_max_regions
 (
-u_int32_t
+uint32_t
 max_regions
 )
 {
@@ -4251,7 +4251,7 @@ max_regions
 ;
 }
 static
-u_int32_t
+uint32_t
 max_regions
 (
 )
@@ -4316,7 +4316,7 @@ MinidumpMemoryRegion
 *
 GetMemoryRegionForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 ;
@@ -4361,7 +4361,7 @@ MemoryRegions
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_MEMORY_LIST_STREAM
@@ -4377,7 +4377,7 @@ minidump
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 ;
@@ -4405,7 +4405,7 @@ is
 256
 .
 static
-u_int32_t
+uint32_t
 max_regions_
 ;
 /
@@ -4422,7 +4422,7 @@ key
 .
 RangeMap
 <
-u_int64_t
+uint64_t
 unsigned
 int
 >
@@ -4489,7 +4489,7 @@ MemoryRegions
 *
 regions_
 ;
-u_int32_t
+uint32_t
 region_count_
 ;
 }
@@ -4644,7 +4644,7 @@ determined
 bool
 GetThreadID
 (
-u_int32_t
+uint32_t
 *
 thread_id
 )
@@ -4683,7 +4683,7 @@ Minidump
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_EXCEPTION_STREAM
@@ -4699,7 +4699,7 @@ minidump
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 ;
@@ -4836,7 +4836,7 @@ Minidump
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_ASSERTION_INFO_STREAM
@@ -4852,7 +4852,7 @@ minidump
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 ;
@@ -5192,7 +5192,7 @@ Minidump
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_SYSTEM_INFO_STREAM
@@ -5200,7 +5200,7 @@ MD_SYSTEM_INFO_STREAM
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 ;
@@ -5303,7 +5303,7 @@ Minidump
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_MISC_INFO_STREAM
@@ -5319,7 +5319,7 @@ minidump_
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size_
 )
 ;
@@ -5435,7 +5435,7 @@ determined
 bool
 GetDumpThreadID
 (
-u_int32_t
+uint32_t
 *
 thread_id
 )
@@ -5444,7 +5444,7 @@ const
 bool
 GetRequestingThreadID
 (
-u_int32_t
+uint32_t
 *
 thread_id
 )
@@ -5477,7 +5477,7 @@ Minidump
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_BREAKPAD_INFO_STREAM
@@ -5493,7 +5493,7 @@ minidump_
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size_
 )
 ;
@@ -5564,7 +5564,7 @@ the
 memory
 region
 .
-u_int64_t
+uint64_t
 GetBase
 (
 )
@@ -5591,7 +5591,7 @@ the
 memory
 region
 .
-u_int32_t
+uint32_t
 GetSize
 (
 )
@@ -5804,7 +5804,7 @@ MinidumpMemoryInfo
 *
 GetMemoryInfoForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const
@@ -5854,7 +5854,7 @@ MinidumpMemoryInfos
 ;
 static
 const
-u_int32_t
+uint32_t
 kStreamType
 =
 MD_MEMORY_INFO_LIST_STREAM
@@ -5870,7 +5870,7 @@ minidump
 bool
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 ;
@@ -5888,7 +5888,7 @@ key
 .
 RangeMap
 <
-u_int64_t
+uint64_t
 unsigned
 int
 >
@@ -5899,7 +5899,7 @@ MinidumpMemoryInfos
 *
 infos_
 ;
-u_int32_t
+uint32_t
 info_count_
 ;
 }
@@ -6050,7 +6050,7 @@ static
 void
 set_max_streams
 (
-u_int32_t
+uint32_t
 max_streams
 )
 {
@@ -6060,7 +6060,7 @@ max_streams
 ;
 }
 static
-u_int32_t
+uint32_t
 max_streams
 (
 )
@@ -6073,7 +6073,7 @@ static
 void
 set_max_string_length
 (
-u_int32_t
+uint32_t
 max_string_length
 )
 {
@@ -6083,7 +6083,7 @@ max_string_length
 ;
 }
 static
-u_int32_t
+uint32_t
 max_string_length
 (
 )
@@ -6225,7 +6225,7 @@ failed
 bool
 GetContextCPUFlagsFromSystemInfo
 (
-u_int32_t
+uint32_t
 *
 context_cpu_flags
 )
@@ -6796,9 +6796,9 @@ file
 bool
 SeekToStreamType
 (
-u_int32_t
+uint32_t
 stream_type
-u_int32_t
+uint32_t
 *
 stream_length
 )
@@ -6937,7 +6937,7 @@ MinidumpDirectoryEntries
 typedef
 map
 <
-u_int32_t
+uint32_t
 MinidumpStreamInfo
 >
 MinidumpStreamMap
@@ -7025,7 +7025,7 @@ is
 128
 .
 static
-u_int32_t
+uint32_t
 max_streams_
 ;
 /

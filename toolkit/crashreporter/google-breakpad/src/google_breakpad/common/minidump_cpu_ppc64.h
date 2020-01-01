@@ -819,10 +819,10 @@ float_save
 .
 *
 /
-u_int64_t
+uint64_t
 context_flags
 ;
-u_int64_t
+uint64_t
 srr0
 ;
 /
@@ -841,7 +841,7 @@ instruction
 )
 *
 /
-u_int64_t
+uint64_t
 srr1
 ;
 /
@@ -886,13 +886,13 @@ brevity
 .
 *
 /
-u_int64_t
+uint64_t
 gpr
 [
 MD_CONTEXT_PPC64_GPR_COUNT
 ]
 ;
-u_int64_t
+uint64_t
 cr
 ;
 /
@@ -900,7 +900,7 @@ cr
 Condition
 *
 /
-u_int64_t
+uint64_t
 xer
 ;
 /
@@ -914,7 +914,7 @@ point
 exception
 *
 /
-u_int64_t
+uint64_t
 lr
 ;
 /
@@ -922,7 +922,7 @@ lr
 Link
 *
 /
-u_int64_t
+uint64_t
 ctr
 ;
 /
@@ -930,7 +930,7 @@ ctr
 Count
 *
 /
-u_int64_t
+uint64_t
 vrsave
 ;
 /

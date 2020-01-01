@@ -756,7 +756,7 @@ this
 /
 should
 be
-u_int32_t
+uint32_t
 on
 machines
 with
@@ -767,7 +767,7 @@ addresses
 or
 /
 /
-u_int64_t
+uint64_t
 on
 machines
 with
@@ -1713,9 +1713,9 @@ registers
 either
 /
 /
-u_int32_t
+uint32_t
 or
-u_int64_t
+uint64_t
 .
 RawContextType
 should

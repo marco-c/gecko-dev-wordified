@@ -657,7 +657,7 @@ TestCodeModule
 {
 }
 virtual
-u_int64_t
+uint64_t
 base_address
 (
 )
@@ -668,7 +668,7 @@ return
 ;
 }
 virtual
-u_int64_t
+uint64_t
 size
 (
 )
@@ -782,7 +782,7 @@ MockMemoryRegion
 public
 MemoryRegion
 {
-u_int64_t
+uint64_t
 GetBase
 (
 )
@@ -792,7 +792,7 @@ return
 0x10000
 ;
 }
-u_int32_t
+uint32_t
 GetSize
 (
 )
@@ -805,9 +805,9 @@ return
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int8_t
+uint8_t
 *
 value
 )
@@ -827,9 +827,9 @@ true
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int16_t
+uint16_t
 *
 value
 )
@@ -849,9 +849,9 @@ true
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int32_t
+uint32_t
 *
 value
 )
@@ -958,9 +958,9 @@ true
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int64_t
+uint64_t
 *
 value
 )
@@ -1051,7 +1051,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 &
 expected
@@ -1061,7 +1061,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 &
 actual_regmap
@@ -1075,7 +1075,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 actual
 ;
@@ -1095,7 +1095,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1184,7 +1184,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 :
 :
@@ -2334,7 +2334,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 current_registers
 ;
@@ -2343,7 +2343,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 caller_registers
 ;
@@ -2355,7 +2355,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 expected_caller_registers
 ;
@@ -2557,7 +2557,7 @@ get
 >
 FindCallerRegs
 <
-u_int32_t
+uint32_t
 >
 (
 current_registers
@@ -2627,7 +2627,7 @@ get
 >
 FindCallerRegs
 <
-u_int32_t
+uint32_t
 >
 (
 current_registers
@@ -2697,7 +2697,7 @@ get
 >
 FindCallerRegs
 <
-u_int32_t
+uint32_t
 >
 (
 current_registers
@@ -2764,7 +2764,7 @@ get
 >
 FindCallerRegs
 <
-u_int32_t
+uint32_t
 >
 (
 current_registers
@@ -2831,7 +2831,7 @@ get
 >
 FindCallerRegs
 <
-u_int32_t
+uint32_t
 >
 (
 current_registers
@@ -2898,7 +2898,7 @@ get
 >
 FindCallerRegs
 <
-u_int32_t
+uint32_t
 >
 (
 current_registers

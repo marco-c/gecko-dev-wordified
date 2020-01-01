@@ -487,7 +487,7 @@ EntryType
 >
 serializer_
 ;
-u_int32_t
+uint32_t
 serialized_size_
 ;
 char
@@ -512,7 +512,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -591,7 +591,7 @@ Values
 6
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -701,7 +701,7 @@ Values
 15
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -827,7 +827,7 @@ EntryType
 >
 serializer_
 ;
-u_int32_t
+uint32_t
 serialized_size_
 ;
 char
@@ -852,7 +852,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -931,7 +931,7 @@ Values
 6
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1028,7 +1028,7 @@ Values
 8
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1157,7 +1157,7 @@ EntryType
 >
 serializer_
 ;
-u_int32_t
+uint32_t
 serialized_size_
 ;
 char
@@ -1182,7 +1182,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1269,7 +1269,7 @@ pairs
 6
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1367,7 +1367,7 @@ pairs
 3
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1498,7 +1498,7 @@ EntryType
 >
 serializer_
 ;
-u_int32_t
+uint32_t
 serialized_size_
 ;
 char
@@ -1550,7 +1550,7 @@ at
 root
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1692,7 +1692,7 @@ child
 CRM
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1946,7 +1946,7 @@ empty_map
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof

@@ -475,7 +475,7 @@ size
 *
 sizeof
 (
-u_int32_t
+uint32_t
 )
 ;
 size
@@ -635,7 +635,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -654,13 +654,13 @@ dest
 Nodes
 offsets
 .
-u_int32_t
+uint32_t
 *
 offsets
 =
 reinterpret_cast
 <
-u_int32_t
+uint32_t
 *
 >
 (
@@ -672,7 +672,7 @@ dest
 =
 sizeof
 (
-u_int32_t
+uint32_t
 )
 *
 m
@@ -759,7 +759,7 @@ index
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 dest
@@ -978,7 +978,7 @@ size
 *
 sizeof
 (
-u_int32_t
+uint32_t
 )
 ;
 size
@@ -1186,7 +1186,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1207,13 +1207,13 @@ dest
 Nodes
 offsets
 .
-u_int32_t
+uint32_t
 *
 offsets
 =
 reinterpret_cast
 <
-u_int32_t
+uint32_t
 *
 >
 (
@@ -1225,7 +1225,7 @@ dest
 =
 sizeof
 (
-u_int32_t
+uint32_t
 )
 *
 m
@@ -1320,7 +1320,7 @@ index
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 dest
@@ -1565,7 +1565,7 @@ entry_
 +
 sizeof
 (
-u_int32_t
+uint32_t
 )
 ;
 size
@@ -1596,7 +1596,7 @@ size
 =
 sizeof
 (
-u_int32_t
+uint32_t
 )
 ;
 if
@@ -1622,7 +1622,7 @@ size
 *
 sizeof
 (
-u_int32_t
+uint32_t
 )
 ;
 typename
@@ -1777,7 +1777,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1840,7 +1840,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1857,7 +1857,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1875,13 +1875,13 @@ size
 dest
 )
 ;
-u_int32_t
+uint32_t
 *
 offsets
 =
 reinterpret_cast
 <
-u_int32_t
+uint32_t
 *
 >
 (
@@ -1893,7 +1893,7 @@ dest
 =
 sizeof
 (
-u_int32_t
+uint32_t
 )
 *
 m
@@ -1989,7 +1989,7 @@ index
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 dest

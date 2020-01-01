@@ -418,7 +418,7 @@ map_
 new
 RangeMap
 <
-u_int64_t
+uint64_t
 linked_ptr
 <
 const
@@ -665,7 +665,7 @@ BasicCodeModules
 :
 GetModuleForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const

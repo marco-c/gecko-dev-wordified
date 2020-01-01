@@ -392,7 +392,7 @@ process
 /
 /
 (
-u_int64_t
+uint64_t
 )
 -
 1
@@ -400,7 +400,7 @@ on
 error
 .
 virtual
-u_int64_t
+uint64_t
 base_address
 (
 )
@@ -422,7 +422,7 @@ on
 error
 .
 virtual
-u_int64_t
+uint64_t
 size
 (
 )

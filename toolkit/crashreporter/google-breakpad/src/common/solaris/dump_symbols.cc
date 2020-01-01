@@ -980,7 +980,7 @@ the
 string
 table
 .
-u_int64_t
+uint64_t
 stringOffset
 =
 0

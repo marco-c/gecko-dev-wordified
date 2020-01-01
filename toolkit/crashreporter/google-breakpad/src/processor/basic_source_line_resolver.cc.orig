@@ -432,19 +432,6 @@ make_pair
 namespace
 google_breakpad
 {
-#
-ifdef
-_WIN32
-#
-define
-strtok_r
-strtok_s
-#
-define
-strtoull
-_strtoui64
-#
-endif
 static
 const
 char
@@ -2376,7 +2363,7 @@ return
 NULL
 ;
 }
-uint64_t
+u_int64_t
 address
 =
 strtoull
@@ -2389,7 +2376,7 @@ NULL
 16
 )
 ;
-uint64_t
+u_int64_t
 size
 =
 strtoull
@@ -2491,7 +2478,7 @@ return
 NULL
 ;
 }
-uint64_t
+u_int64_t
 address
 =
 strtoull
@@ -2504,7 +2491,7 @@ NULL
 16
 )
 ;
-uint64_t
+u_int64_t
 size
 =
 strtoull
@@ -2625,7 +2612,7 @@ return
 false
 ;
 }
-uint64_t
+u_int64_t
 address
 =
 strtoull
@@ -2891,7 +2878,7 @@ type
 =
 0
 ;
-uint64_t
+u_int64_t
 rva
 code_size
 ;

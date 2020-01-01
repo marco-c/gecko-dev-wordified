@@ -1353,7 +1353,7 @@ contents
 ;
 static
 const
-u_int8_t
+uint8_t
 expected_bytes
 [
 ]
@@ -1554,7 +1554,7 @@ contents
 ;
 static
 const
-u_int8_t
+uint8_t
 expected_bytes
 [
 ]

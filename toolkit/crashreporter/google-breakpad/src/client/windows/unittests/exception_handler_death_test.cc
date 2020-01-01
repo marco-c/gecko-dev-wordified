@@ -1849,7 +1849,7 @@ executable
 memory
 .
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 256
@@ -2192,7 +2192,7 @@ ASSERT_TRUE
 context
 )
 ;
-u_int64_t
+uint64_t
 instruction_pointer
 ;
 ASSERT_TRUE
@@ -2236,7 +2236,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 bytes
 =
@@ -2252,13 +2252,13 @@ ASSERT_TRUE
 bytes
 )
 ;
-u_int8_t
+uint8_t
 prefix_bytes
 [
 kOffset
 ]
 ;
-u_int8_t
+uint8_t
 suffix_bytes
 [
 kMemorySize
@@ -2434,7 +2434,7 @@ the
 structure
 .
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 256
@@ -2821,7 +2821,7 @@ ASSERT_TRUE
 context
 )
 ;
-u_int64_t
+uint64_t
 instruction_pointer
 ;
 ASSERT_TRUE
@@ -2867,7 +2867,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 bytes
 =
@@ -2883,7 +2883,7 @@ ASSERT_TRUE
 bytes
 )
 ;
-u_int8_t
+uint8_t
 suffix_bytes
 [
 kMemorySize
@@ -3377,7 +3377,7 @@ ASSERT_TRUE
 context
 )
 ;
-u_int64_t
+uint64_t
 instruction_pointer
 ;
 ASSERT_TRUE
@@ -3435,7 +3435,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 bytes
 =
@@ -3451,7 +3451,7 @@ ASSERT_TRUE
 bytes
 )
 ;
-u_int8_t
+uint8_t
 prefix_bytes
 [
 kPrefixSize

@@ -355,6 +355,13 @@ h
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -383,10 +390,6 @@ io
 .
 h
 >
-typedef
-SSIZE_T
-ssize_t
-;
 #
 define
 PRIx64
@@ -596,7 +599,7 @@ wider
 types
 but
 handle
-u_int8_t
+uint8_t
 too
 /
 /
@@ -612,7 +615,7 @@ inline
 void
 Swap
 (
-u_int8_t
+uint8_t
 *
 value
 )
@@ -702,7 +705,7 @@ inline
 void
 Swap
 (
-u_int16_t
+uint16_t
 *
 value
 )
@@ -732,7 +735,7 @@ inline
 void
 Swap
 (
-u_int32_t
+uint32_t
 *
 value
 )
@@ -786,18 +789,18 @@ inline
 void
 Swap
 (
-u_int64_t
+uint64_t
 *
 value
 )
 {
-u_int32_t
+uint32_t
 *
 value32
 =
 reinterpret_cast
 <
-u_int32_t
+uint32_t
 *
 >
 (
@@ -822,7 +825,7 @@ value32
 ]
 )
 ;
-u_int32_t
+uint32_t
 temp
 =
 value32
@@ -881,7 +884,7 @@ static
 void
 Normalize128
 (
-u_int128_t
+uint128_t
 *
 value
 bool
@@ -926,7 +929,7 @@ if
 is_big_endian
 )
 {
-u_int64_t
+uint64_t
 temp
 =
 value
@@ -986,7 +989,7 @@ static
 void
 Swap
 (
-u_int128_t
+uint128_t
 *
 value
 )
@@ -1290,7 +1293,7 @@ UTF16ToUTF8
 const
 vector
 <
-u_int16_t
+uint16_t
 >
 &
 in
@@ -1375,7 +1378,7 @@ for
 (
 vector
 <
-u_int16_t
+uint16_t
 >
 :
 :
@@ -1413,7 +1416,7 @@ value
 from
 the
 input
-u_int16_t
+uint16_t
 in_word
 =
 *
@@ -1447,7 +1450,7 @@ point
 unichar
 )
 .
-u_int32_t
+uint32_t
 unichar
 ;
 if
@@ -1569,7 +1572,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 high_word
 =
 in_word
@@ -1952,7 +1955,7 @@ size_t
 UTF16codeunits
 (
 const
-u_int16_t
+uint16_t
 *
 string
 size_t
@@ -2086,7 +2089,7 @@ MinidumpContext
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -2235,7 +2238,7 @@ context_amd64
 context_flags
 )
 ;
-u_int32_t
+uint32_t
 cpu_type
 =
 context_amd64
@@ -2970,7 +2973,7 @@ release
 }
 else
 {
-u_int32_t
+uint32_t
 context_flags
 ;
 if
@@ -3024,7 +3027,7 @@ Swap
 context_flags
 )
 ;
-u_int32_t
+uint32_t
 cpu_type
 =
 context_flags
@@ -3322,13 +3325,13 @@ context_x86
 context_flags
 )
 ;
-u_int8_t
+uint8_t
 *
 context_after_flags
 =
 reinterpret_cast
 <
-u_int8_t
+uint8_t
 *
 >
 (
@@ -3904,13 +3907,13 @@ context_ppc
 context_flags
 )
 ;
-u_int8_t
+uint8_t
 *
 context_after_flags
 =
 reinterpret_cast
 <
-u_int8_t
+uint8_t
 *
 >
 (
@@ -4445,13 +4448,13 @@ context_sparc
 context_flags
 )
 ;
-u_int8_t
+uint8_t
 *
 context_after_flags
 =
 reinterpret_cast
 <
-u_int8_t
+uint8_t
 *
 >
 (
@@ -4831,13 +4834,13 @@ context_arm
 context_flags
 )
 ;
-u_int8_t
+uint8_t
 *
 context_after_flags
 =
 reinterpret_cast
 <
-u_int8_t
+uint8_t
 *
 >
 (
@@ -5152,7 +5155,7 @@ return
 true
 ;
 }
-u_int32_t
+uint32_t
 MinidumpContext
 :
 :
@@ -5209,7 +5212,7 @@ MinidumpContext
 :
 GetInstructionPointer
 (
-u_int64_t
+uint64_t
 *
 ip
 )
@@ -5738,7 +5741,7 @@ MinidumpContext
 :
 CheckAgainstSystemInfo
 (
-u_int32_t
+uint32_t
 context_cpu_type
 )
 {
@@ -8444,7 +8447,7 @@ break
 MinidumpMemoryRegion
 /
 /
-u_int32_t
+uint32_t
 MinidumpMemoryRegion
 :
 :
@@ -8523,7 +8526,7 @@ data_size
 =
 numeric_limits
 <
-u_int64_t
+uint64_t
 >
 :
 :
@@ -8538,7 +8541,7 @@ start_of_memory_range
 ;
 }
 const
-u_int8_t
+uint8_t
 *
 MinidumpMemoryRegion
 :
@@ -8691,7 +8694,7 @@ scoped_ptr
 <
 vector
 <
-u_int8_t
+uint8_t
 >
 >
 memory
@@ -8699,7 +8702,7 @@ memory
 new
 vector
 <
-u_int8_t
+uint8_t
 >
 (
 descriptor_
@@ -8775,7 +8778,7 @@ memory_
 ]
 ;
 }
-u_int64_t
+uint64_t
 MinidumpMemoryRegion
 :
 :
@@ -8806,7 +8809,7 @@ GetBase
 return
 static_cast
 <
-u_int64_t
+uint64_t
 >
 (
 -
@@ -8821,7 +8824,7 @@ descriptor_
 start_of_memory_range
 ;
 }
-u_int32_t
+uint32_t
 MinidumpMemoryRegion
 :
 :
@@ -8889,7 +8892,7 @@ MinidumpMemoryRegion
 :
 GetMemoryAtAddressInternal
 (
-u_int64_t
+uint64_t
 address
 T
 *
@@ -8975,7 +8978,7 @@ T
 >
 numeric_limits
 <
-u_int64_t
+uint64_t
 >
 :
 :
@@ -9073,7 +9076,7 @@ false
 ;
 }
 const
-u_int8_t
+uint8_t
 *
 memory
 =
@@ -9174,9 +9177,9 @@ MinidumpMemoryRegion
 :
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int8_t
+uint8_t
 *
 value
 )
@@ -9196,9 +9199,9 @@ MinidumpMemoryRegion
 :
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int16_t
+uint16_t
 *
 value
 )
@@ -9218,9 +9221,9 @@ MinidumpMemoryRegion
 :
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int32_t
+uint32_t
 *
 value
 )
@@ -9240,9 +9243,9 @@ MinidumpMemoryRegion
 :
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int64_t
+uint64_t
 *
 value
 )
@@ -9288,7 +9291,7 @@ return
 ;
 }
 const
-u_int8_t
+uint8_t
 *
 memory
 =
@@ -9583,7 +9586,7 @@ data_size
 >
 numeric_limits
 <
-u_int64_t
+uint64_t
 >
 :
 :
@@ -9855,7 +9858,7 @@ MinidumpThread
 :
 GetThreadID
 (
-u_int32_t
+uint32_t
 *
 thread_id
 )
@@ -10268,7 +10271,7 @@ n
 MinidumpThreadList
 /
 /
-u_int32_t
+uint32_t
 MinidumpThreadList
 :
 :
@@ -10321,7 +10324,7 @@ MinidumpThreadList
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -10352,7 +10355,7 @@ valid_
 =
 false
 ;
-u_int32_t
+uint32_t
 thread_count
 ;
 if
@@ -10452,7 +10455,7 @@ thread_count
 >
 numeric_limits
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -10544,7 +10547,7 @@ MDRawThread
 )
 )
 {
-u_int32_t
+uint32_t
 useless
 ;
 if
@@ -10764,7 +10767,7 @@ return
 false
 ;
 }
-u_int32_t
+uint32_t
 thread_id
 ;
 if
@@ -10998,7 +11001,7 @@ MinidumpThreadList
 :
 GetThreadByID
 (
-u_int32_t
+uint32_t
 thread_id
 )
 {
@@ -11150,7 +11153,7 @@ Print
 MinidumpModule
 /
 /
-u_int32_t
+uint32_t
 MinidumpModule
 :
 :
@@ -11158,7 +11161,7 @@ max_cv_bytes_
 =
 32768
 ;
-u_int32_t
+uint32_t
 MinidumpModule
 :
 :
@@ -11556,7 +11559,7 @@ size_of_image
 >
 numeric_limits
 <
-u_int64_t
+uint64_t
 >
 :
 :
@@ -12637,7 +12640,7 @@ expects
 a
 vector
 <
-u_int16_t
+uint16_t
 >
 so
 create
@@ -12658,7 +12661,7 @@ it
 .
 vector
 <
-u_int16_t
+uint16_t
 >
 string_utf16
 (
@@ -13535,14 +13538,14 @@ this
 ;
 }
 const
-u_int8_t
+uint8_t
 *
 MinidumpModule
 :
 :
 GetCVRecord
 (
-u_int32_t
+uint32_t
 *
 size
 )
@@ -13719,7 +13722,7 @@ but
 is
 allocated
 as
-u_int8_t
+uint8_t
 [
 ]
 can
@@ -13790,7 +13793,7 @@ scoped_ptr
 <
 vector
 <
-u_int8_t
+uint8_t
 >
 >
 cv_record
@@ -13798,7 +13801,7 @@ cv_record
 new
 vector
 <
-u_int8_t
+uint8_t
 >
 (
 module_
@@ -13852,7 +13855,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 signature
 =
 MD_CVINFOUNKNOWN_SIGNATURE
@@ -14490,7 +14493,7 @@ return
 it
 casted
 to
-u_int8_t
+uint8_t
 *
 .
 cv_record_
@@ -14538,7 +14541,7 @@ MinidumpModule
 :
 GetMiscRecord
 (
-u_int32_t
+uint32_t
 *
 size
 )
@@ -14735,7 +14738,7 @@ but
 is
 allocated
 as
-u_int8_t
+uint8_t
 [
 ]
 can
@@ -14802,7 +14805,7 @@ scoped_ptr
 <
 vector
 <
-u_int8_t
+uint8_t
 >
 >
 misc_record_mem
@@ -14810,7 +14813,7 @@ misc_record_mem
 new
 vector
 <
-u_int8_t
+uint8_t
 >
 (
 module_
@@ -14987,13 +14990,13 @@ layout
 of
 MDImageDebugMisc
 .
-u_int16_t
+uint16_t
 *
 data16
 =
 reinterpret_cast
 <
-u_int16_t
+uint16_t
 *
 >
 (
@@ -15652,11 +15655,11 @@ c_str
 )
 )
 ;
-u_int32_t
+uint32_t
 cv_record_size
 ;
 const
-u_int8_t
+uint8_t
 *
 cv_record
 =
@@ -16364,7 +16367,7 @@ n
 MinidumpModuleList
 /
 /
-u_int32_t
+uint32_t
 MinidumpModuleList
 :
 :
@@ -16391,7 +16394,7 @@ range_map_
 new
 RangeMap
 <
-u_int64_t
+uint64_t
 unsigned
 int
 >
@@ -16429,7 +16432,7 @@ MinidumpModuleList
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -16461,7 +16464,7 @@ valid_
 =
 false
 ;
-u_int32_t
+uint32_t
 module_count
 ;
 if
@@ -16562,7 +16565,7 @@ module_count
 >
 numeric_limits
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -16645,7 +16648,7 @@ module_count
 MD_MODULE_SIZE
 )
 {
-u_int32_t
+uint32_t
 useless
 ;
 if
@@ -17114,7 +17117,7 @@ module
 is
 valid
 .
-u_int64_t
+uint64_t
 base_address
 =
 module
@@ -17124,7 +17127,7 @@ base_address
 (
 )
 ;
-u_int64_t
+uint64_t
 module_size
 =
 module
@@ -17141,7 +17144,7 @@ base_address
 =
 static_cast
 <
-u_int64_t
+uint64_t
 >
 (
 -
@@ -17300,7 +17303,7 @@ MinidumpModuleList
 :
 GetModuleForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const
@@ -17783,7 +17786,7 @@ Print
 MinidumpMemoryList
 /
 /
-u_int32_t
+uint32_t
 MinidumpMemoryList
 :
 :
@@ -17810,7 +17813,7 @@ range_map_
 new
 RangeMap
 <
-u_int64_t
+uint64_t
 unsigned
 int
 >
@@ -17855,7 +17858,7 @@ MinidumpMemoryList
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -17894,7 +17897,7 @@ valid_
 =
 false
 ;
-u_int32_t
+uint32_t
 region_count
 ;
 if
@@ -17996,7 +17999,7 @@ region_count
 >
 numeric_limits
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -18088,7 +18091,7 @@ MDMemoryDescriptor
 )
 )
 {
-u_int32_t
+uint32_t
 useless
 ;
 if
@@ -18351,7 +18354,7 @@ Swap
 descriptor
 )
 ;
-u_int64_t
+uint64_t
 base_address
 =
 descriptor
@@ -18359,7 +18362,7 @@ descriptor
 >
 start_of_memory_range
 ;
-u_int32_t
+uint32_t
 region_size
 =
 descriptor
@@ -18392,7 +18395,7 @@ region_size
 >
 numeric_limits
 <
-u_int64_t
+uint64_t
 >
 :
 :
@@ -18658,7 +18661,7 @@ MinidumpMemoryList
 :
 GetMemoryRegionForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 {
@@ -19014,7 +19017,7 @@ MinidumpException
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -19273,7 +19276,7 @@ MinidumpException
 :
 GetThreadID
 (
-u_int32_t
+uint32_t
 *
 thread_id
 )
@@ -19863,7 +19866,7 @@ MinidumpAssertion
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -20020,7 +20023,7 @@ length
 from
 that
 .
-u_int32_t
+uint32_t
 word_length
 =
 UTF16codeunits
@@ -20043,7 +20046,7 @@ word_length
 0
 )
 {
-u_int32_t
+uint32_t
 byte_length
 =
 word_length
@@ -20052,7 +20055,7 @@ word_length
 ;
 vector
 <
-u_int16_t
+uint16_t
 >
 expression_utf16
 (
@@ -20131,7 +20134,7 @@ if
 word_length
 )
 {
-u_int32_t
+uint32_t
 byte_length
 =
 word_length
@@ -20140,7 +20143,7 @@ word_length
 ;
 vector
 <
-u_int16_t
+uint16_t
 >
 function_utf16
 (
@@ -20221,7 +20224,7 @@ word_length
 0
 )
 {
-u_int32_t
+uint32_t
 byte_length
 =
 word_length
@@ -20230,7 +20233,7 @@ word_length
 ;
 vector
 <
-u_int16_t
+uint16_t
 >
 file_utf16
 (
@@ -20506,7 +20509,7 @@ MinidumpSystemInfo
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -21999,7 +22002,7 @@ MinidumpMiscInfo
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -22513,7 +22516,7 @@ MinidumpBreakpadInfo
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -22647,7 +22650,7 @@ MinidumpBreakpadInfo
 :
 GetDumpThreadID
 (
-u_int32_t
+uint32_t
 *
 thread_id
 )
@@ -22754,7 +22757,7 @@ MinidumpBreakpadInfo
 :
 GetRequestingThreadID
 (
-u_int32_t
+uint32_t
 *
 thread_id
 )
@@ -23043,7 +23046,7 @@ IsExecutable
 )
 const
 {
-u_int32_t
+uint32_t
 protection
 =
 memory_info_
@@ -23080,7 +23083,7 @@ IsWritable
 )
 const
 {
-u_int32_t
+uint32_t
 protection
 =
 memory_info_
@@ -23255,7 +23258,7 @@ region_size
 >
 numeric_limits
 <
-u_int64_t
+uint64_t
 >
 :
 :
@@ -23501,7 +23504,7 @@ range_map_
 new
 RangeMap
 <
-u_int64_t
+uint64_t
 unsigned
 int
 >
@@ -23539,7 +23542,7 @@ MinidumpMemoryInfoList
 :
 Read
 (
-u_int32_t
+uint32_t
 expected_size
 )
 {
@@ -23839,7 +23842,7 @@ number_of_entries
 >
 numeric_limits
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -24058,7 +24061,7 @@ return
 false
 ;
 }
-u_int64_t
+uint64_t
 base_address
 =
 info
@@ -24068,7 +24071,7 @@ GetBase
 (
 )
 ;
-u_int32_t
+uint32_t
 region_size
 =
 info
@@ -24265,7 +24268,7 @@ MinidumpMemoryInfoList
 :
 GetMemoryInfoForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const
@@ -24468,7 +24471,7 @@ n
 Minidump
 /
 /
-u_int32_t
+uint32_t
 Minidump
 :
 :
@@ -24800,7 +24803,7 @@ Minidump
 :
 GetContextCPUFlagsFromSystemInfo
 (
-u_int32_t
+uint32_t
 *
 context_cpu_flags
 )
@@ -25210,7 +25213,7 @@ byte
 order
 marker
 .
-u_int32_t
+uint32_t
 signature_swapped
 =
 header_
@@ -26513,7 +26516,7 @@ end
 iterator
 )
 {
-u_int32_t
+uint32_t
 stream_type
 =
 iterator
@@ -27026,7 +27029,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 bytes
 ;
 if
@@ -27174,7 +27177,7 @@ NULL
 }
 vector
 <
-u_int16_t
+uint16_t
 >
 string_utf16
 (
@@ -27247,9 +27250,9 @@ Minidump
 :
 SeekToStreamType
 (
-u_int32_t
+uint32_t
 stream_type
-u_int32_t
+uint32_t
 *
 stream_length
 )
@@ -27554,7 +27557,7 @@ return
 type
 .
 const
-u_int32_t
+uint32_t
 stream_type
 =
 T
@@ -27773,7 +27776,7 @@ return
 stream
 ;
 }
-u_int32_t
+uint32_t
 stream_length
 ;
 if

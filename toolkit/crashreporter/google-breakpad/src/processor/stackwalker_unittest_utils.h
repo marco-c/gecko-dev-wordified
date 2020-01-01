@@ -508,7 +508,7 @@ contents
 void
 Init
 (
-u_int64_t
+uint64_t
 base_address
 const
 string
@@ -525,7 +525,7 @@ contents_
 contents
 ;
 }
-u_int64_t
+uint64_t
 GetBase
 (
 )
@@ -535,7 +535,7 @@ return
 base_address_
 ;
 }
-u_int32_t
+uint32_t
 GetSize
 (
 )
@@ -552,9 +552,9 @@ size
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int8_t
+uint8_t
 *
 value
 )
@@ -571,9 +571,9 @@ value
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int16_t
+uint16_t
 *
 value
 )
@@ -590,9 +590,9 @@ value
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int32_t
+uint32_t
 *
 value
 )
@@ -609,9 +609,9 @@ value
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int64_t
+uint64_t
 *
 value
 )
@@ -665,7 +665,7 @@ ValueType
 bool
 GetMemoryLittleEndian
 (
-u_int64_t
+uint64_t
 address
 ValueType
 *
@@ -780,7 +780,7 @@ return
 true
 ;
 }
-u_int64_t
+uint64_t
 base_address_
 ;
 string
@@ -801,9 +801,9 @@ public
 :
 MockCodeModule
 (
-u_int64_t
+uint64_t
 base_address
-u_int64_t
+uint64_t
 size
 const
 string
@@ -829,7 +829,7 @@ code_file
 )
 {
 }
-u_int64_t
+uint64_t
 base_address
 (
 )
@@ -839,7 +839,7 @@ return
 base_address_
 ;
 }
-u_int64_t
+uint64_t
 size
 (
 )
@@ -926,10 +926,10 @@ this
 }
 private
 :
-u_int64_t
+uint64_t
 base_address_
 ;
-u_int64_t
+uint64_t
 size_
 ;
 string
@@ -1002,7 +1002,7 @@ CodeModule
 *
 GetModuleForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const

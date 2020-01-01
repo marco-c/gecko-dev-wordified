@@ -635,7 +635,7 @@ process_state
 system_info_
 )
 ;
-u_int32_t
+uint32_t
 dump_thread_id
 =
 0
@@ -645,7 +645,7 @@ has_dump_thread
 =
 false
 ;
-u_int32_t
+uint32_t
 requesting_thread_id
 =
 0
@@ -1199,7 +1199,7 @@ return
 PROCESS_ERROR_GETTING_THREAD
 ;
 }
-u_int32_t
+uint32_t
 thread_id
 ;
 if
@@ -3008,7 +3008,7 @@ GetCrashReason
 Minidump
 *
 dump
-u_int64_t
+uint64_t
 *
 address
 )
@@ -3142,7 +3142,7 @@ reason_string
 24
 ]
 ;
-u_int32_t
+uint32_t
 exception_code
 =
 raw_exception
@@ -3152,7 +3152,7 @@ exception_record
 .
 exception_code
 ;
-u_int32_t
+uint32_t
 exception_flags
 =
 raw_exception
