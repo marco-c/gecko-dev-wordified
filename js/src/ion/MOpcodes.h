@@ -625,6 +625,11 @@ LoadSlot
 \
 _
 (
+StoreSlot
+)
+\
+_
+(
 TypeBarrier
 )
 \
