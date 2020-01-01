@@ -544,7 +544,7 @@ newName
 PropertyName
 *
 name
-bool
+InBlockBool
 inBlock
 uint32_t
 blockid
@@ -576,7 +576,7 @@ newPlaceholder
 JSAtom
 *
 atom
-bool
+InBlockBool
 inBlock
 uint32_t
 blockid

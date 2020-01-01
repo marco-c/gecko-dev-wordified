@@ -1759,13 +1759,15 @@ init
 (
 )
 ;
-bool
+InBlockBool
 inBlock
 (
 )
 const
 {
 return
+InBlockBool
+(
 !
 topStmt
 |
@@ -1777,6 +1779,7 @@ type
 =
 =
 STMT_BLOCK
+)
 ;
 }
 unsigned
