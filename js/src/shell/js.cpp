@@ -18305,6 +18305,7 @@ datap
 nbytes
 NULL
 NULL
+JSVAL_VOID
 )
 )
 return
@@ -18370,10 +18371,10 @@ datap
 nbytes
 )
 ;
-JS_free
+JS_ClearStructuredClone
 (
-cx
 datap
+nbytes
 )
 ;
 JS_SET_RVAL

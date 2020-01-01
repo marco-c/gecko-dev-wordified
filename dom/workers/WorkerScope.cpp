@@ -4093,6 +4093,11 @@ false
 jsval
 message
 ;
+jsval
+transferable
+=
+JSVAL_VOID
+;
 if
 (
 !
@@ -4107,9 +4112,13 @@ aVp
 )
 "
 v
+/
+v
 "
 &
 message
+&
+transferable
 )
 )
 {
@@ -4128,6 +4137,7 @@ PostMessageToParent
 (
 aCx
 message
+transferable
 )
 ;
 }
