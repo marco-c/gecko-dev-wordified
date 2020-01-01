@@ -1244,7 +1244,7 @@ IsHistoryDisabled
 )
 {
 return
-mExpireDaysMax
+mExpireDays
 =
 =
 0
@@ -3530,13 +3530,10 @@ DoneSearching
 )
 ;
 PRInt32
-mExpireDaysMin
+mExpireDays
 ;
 PRInt32
-mExpireDaysMax
-;
-PRInt32
-mExpireSites
+mExpireVisits
 ;
 /
 /
