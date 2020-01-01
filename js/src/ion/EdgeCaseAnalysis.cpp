@@ -13,7 +13,7 @@ tab
 -
 width
 :
-8
+4
 ;
 indent
 -
@@ -34,9 +34,6 @@ offset
 *
 -
 *
-/
-/
-*
 vim
 :
 set
@@ -49,11 +46,9 @@ sw
 et
 tw
 =
-79
+99
 :
 *
-/
-/
 *
 This
 Source
@@ -87,8 +82,8 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain
