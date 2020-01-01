@@ -13651,9 +13651,6 @@ splitter
 className
 =
 "
-toolbar
--
-splitter
 chromeclass
 -
 toolbar
