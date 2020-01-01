@@ -6955,3 +6955,15 @@ disable_input_file
 true
 )
 ;
+pref
+(
+"
+general
+.
+useragent
+.
+enable_overrides
+"
+true
+)
+;
