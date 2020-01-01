@@ -5439,6 +5439,13 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+defined
+(
+WINCE
+)
 /
 /
 On

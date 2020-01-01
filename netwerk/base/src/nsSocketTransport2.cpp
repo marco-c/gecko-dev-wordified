@@ -7793,6 +7793,13 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+defined
+(
+WINCE
+)
 /
 /
 If
