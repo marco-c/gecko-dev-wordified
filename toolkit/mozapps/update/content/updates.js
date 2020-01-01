@@ -7953,7 +7953,7 @@ strings
 getFormattedString
 (
 "
-resumePausedAfterCloseMessage
+resumePausedAfterCloseMsg
 "
 [
 gUpdates
