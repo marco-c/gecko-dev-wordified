@@ -995,6 +995,14 @@ aOriginPrincipal
 )
 ;
 nsresult
+ClearBinding
+(
+nsIContent
+*
+aContent
+)
+;
+nsresult
 RemoveLayeredBinding
 (
 nsIContent
