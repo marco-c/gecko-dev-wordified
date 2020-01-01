@@ -281,6 +281,15 @@ define
 Decimal_h
 #
 include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -649,6 +658,7 @@ m_sign
 ;
 }
 ;
+MFBT_API
 Decimal
 (
 int32_t
@@ -656,6 +666,7 @@ int32_t
 0
 )
 ;
+MFBT_API
 Decimal
 (
 Sign
@@ -665,6 +676,7 @@ uint64_t
 coefficient
 )
 ;
+MFBT_API
 Decimal
 (
 const
@@ -672,6 +684,7 @@ Decimal
 &
 )
 ;
+MFBT_API
 Decimal
 &
 operator
@@ -682,6 +695,7 @@ Decimal
 &
 )
 ;
+MFBT_API
 Decimal
 &
 operator
@@ -693,6 +707,7 @@ Decimal
 &
 )
 ;
+MFBT_API
 Decimal
 &
 operator
@@ -704,6 +719,7 @@ Decimal
 &
 )
 ;
+MFBT_API
 Decimal
 &
 operator
@@ -715,6 +731,7 @@ Decimal
 &
 )
 ;
+MFBT_API
 Decimal
 &
 operator
@@ -726,6 +743,7 @@ Decimal
 &
 )
 ;
+MFBT_API
 Decimal
 operator
 -
@@ -733,6 +751,7 @@ operator
 )
 const
 ;
+MFBT_API
 bool
 operator
 =
@@ -744,6 +763,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 bool
 operator
 !
@@ -755,6 +775,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 bool
 operator
 <
@@ -765,6 +786,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 bool
 operator
 <
@@ -776,6 +798,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 bool
 operator
 >
@@ -786,6 +809,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 bool
 operator
 >
@@ -797,6 +821,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 Decimal
 operator
 +
@@ -807,6 +832,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 Decimal
 operator
 -
@@ -817,6 +843,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 Decimal
 operator
 *
@@ -827,6 +854,7 @@ Decimal
 )
 const
 ;
+MFBT_API
 Decimal
 operator
 /
@@ -958,24 +986,28 @@ isZero
 )
 ;
 }
+MFBT_API
 Decimal
 abs
 (
 )
 const
 ;
+MFBT_API
 Decimal
 ceiling
 (
 )
 const
 ;
+MFBT_API
 Decimal
 floor
 (
 )
 const
 ;
+MFBT_API
 Decimal
 remainder
 (
@@ -985,12 +1017,14 @@ Decimal
 )
 const
 ;
+MFBT_API
 Decimal
 round
 (
 )
 const
 ;
+MFBT_API
 double
 toDouble
 (
@@ -1011,6 +1045,7 @@ but
 fromString
 not
 .
+MFBT_API
 String
 toString
 (
@@ -1018,6 +1053,7 @@ toString
 const
 ;
 static
+MFBT_API
 Decimal
 fromDouble
 (
@@ -1146,6 +1182,7 @@ nan
 "
 .
 static
+MFBT_API
 Decimal
 fromString
 (
@@ -1155,6 +1192,7 @@ String
 )
 ;
 static
+MFBT_API
 Decimal
 infinity
 (
@@ -1162,12 +1200,14 @@ Sign
 )
 ;
 static
+MFBT_API
 Decimal
 nan
 (
 )
 ;
 static
+MFBT_API
 Decimal
 zero
 (
@@ -1190,6 +1230,7 @@ for
 unit
 testing
 .
+MFBT_API
 explicit
 Decimal
 (
@@ -1226,11 +1267,13 @@ exponent
 ;
 }
 ;
+MFBT_API
 Decimal
 (
 double
 )
 ;
+MFBT_API
 Decimal
 compareTo
 (
@@ -1241,6 +1284,7 @@ Decimal
 const
 ;
 static
+MFBT_API
 AlignedOperands
 alignOperands
 (
