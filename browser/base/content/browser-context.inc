@@ -2413,7 +2413,7 @@ label
 =
 "
 &
-spellEnable
+spellCheckEnable
 .
 label
 ;
@@ -2427,7 +2427,7 @@ accesskey
 =
 "
 &
-spellEnable
+spellCheckEnable
 .
 accesskey
 ;
