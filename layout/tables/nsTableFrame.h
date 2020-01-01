@@ -3235,7 +3235,7 @@ change
 .
 *
 param
-aOrigOverflowRect
+aOrigVisualOverflow
 The
 original
 overflow
@@ -3279,7 +3279,7 @@ aOrigRect
 const
 nsRect
 &
-aOrigOverflowRect
+aOrigVisualOverflow
 PRBool
 aIsFirstReflow
 )
@@ -3746,7 +3746,7 @@ aOriginalKidRect
 const
 nsRect
 &
-aOriginalKidOverflowRect
+aOriginalKidVisualOverflow
 )
 ;
 void

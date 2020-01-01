@@ -5941,12 +5941,12 @@ GetRect
 )
 ;
 nsRect
-origInnerOverflowRect
+origInnerVisualOverflow
 =
 mInnerTableFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -5971,7 +5971,7 @@ nsRect
 origCaptionRect
 ;
 nsRect
-origCaptionOverflowRect
+origCaptionVisualOverflow
 ;
 PRBool
 captionFirstReflow
@@ -5990,12 +5990,12 @@ GetRect
 (
 )
 ;
-origCaptionOverflowRect
+origCaptionVisualOverflow
 =
 mCaptionFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -6813,7 +6813,7 @@ InvalidateFrame
 (
 mInnerTableFrame
 origInnerRect
-origInnerOverflowRect
+origInnerVisualOverflow
 innerFirstReflow
 )
 ;
@@ -6829,7 +6829,7 @@ InvalidateFrame
 (
 mCaptionFrame
 origCaptionRect
-origCaptionOverflowRect
+origCaptionVisualOverflow
 captionFirstReflow
 )
 ;

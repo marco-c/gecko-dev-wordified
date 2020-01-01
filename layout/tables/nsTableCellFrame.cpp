@@ -5720,12 +5720,12 @@ GetRect
 )
 ;
 nsRect
-origOverflowRect
+origVisualOverflow
 =
 firstKid
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -5971,7 +5971,7 @@ InvalidateFrame
 (
 firstKid
 origRect
-origOverflowRect
+origVisualOverflow
 firstReflow
 )
 ;
