@@ -476,8 +476,6 @@ http
 :
 /
 /
-www
-.
 example
 .
 com
@@ -513,8 +511,6 @@ http
 :
 /
 /
-www
-.
 example
 .
 org
@@ -594,8 +590,6 @@ http
 :
 /
 /
-www
-.
 example
 .
 com
