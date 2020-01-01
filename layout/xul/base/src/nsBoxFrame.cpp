@@ -12530,7 +12530,7 @@ aState
 outFrames
 )
 ;
-PRInt32
+PRUint32
 originalLength
 =
 aOutFrames
@@ -12540,7 +12540,7 @@ Length
 (
 )
 ;
-PRInt32
+PRUint32
 localLength
 =
 outFrames
