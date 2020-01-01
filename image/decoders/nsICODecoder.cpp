@@ -1316,7 +1316,7 @@ org
 /
 supports
 -
-uint32_t
+PRUint32
 ;
 1
 "
@@ -1337,7 +1337,7 @@ org
 /
 supports
 -
-uint32_t
+PRUint32
 ;
 1
 "
