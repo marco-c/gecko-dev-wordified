@@ -531,6 +531,13 @@ h
 #
 include
 "
+imgIContainer
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h
@@ -614,13 +621,6 @@ h
 include
 "
 nsIInterfaceRequestorUtils
-.
-h
-"
-#
-include
-"
-nsIImage
 .
 h
 "
@@ -2896,7 +2896,7 @@ the
 element
 nsCOMPtr
 <
-nsIImage
+imgIContainer
 >
 image
 =

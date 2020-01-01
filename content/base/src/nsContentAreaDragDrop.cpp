@@ -711,13 +711,6 @@ h
 #
 include
 "
-nsIImage
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -796,6 +789,13 @@ h
 include
 "
 nsIMIMEService
+.
+h
+"
+#
+include
+"
+imgIContainer
 .
 h
 "
@@ -1157,7 +1157,7 @@ mIsAnchor
 ;
 nsCOMPtr
 <
-nsIImage
+imgIContainer
 >
 mImage
 ;
@@ -5539,7 +5539,7 @@ request
 .
 nsCOMPtr
 <
-nsIImage
+imgIContainer
 >
 img
 =

@@ -541,9 +541,6 @@ FrameChanged
 imgIContainer
 *
 container
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect
@@ -818,9 +815,6 @@ FrameChanged
 imgIContainer
 *
 container
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect

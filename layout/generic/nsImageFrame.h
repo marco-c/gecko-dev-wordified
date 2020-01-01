@@ -597,9 +597,8 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
-aFrame
+PRBool
+aCurrentFrame
 const
 nsIntRect
 *
@@ -633,9 +632,6 @@ FrameChanged
 imgIContainer
 *
 aContainer
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect
@@ -1274,9 +1270,8 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
-aFrame
+PRBool
+aCurrentFrame
 const
 nsIntRect
 *
@@ -1303,9 +1298,6 @@ FrameChanged
 imgIContainer
 *
 aContainer
-gfxIImageFrame
-*
-aNewframe
 nsIntRect
 *
 aDirtyRect

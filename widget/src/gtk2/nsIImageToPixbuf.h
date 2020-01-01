@@ -435,7 +435,7 @@ NSIIMAGETOPIXBUF_IID
 }
 }
 class
-nsIImage
+imgIContainer
 ;
 typedef
 struct
@@ -451,8 +451,12 @@ interface
 that
 allows
 converting
+the
+current
+frame
+of
 an
-nsIImage
+imgIContainer
 to
 a
 GdkPixbuf
@@ -479,7 +483,7 @@ GdkPixbuf
 )
 ConvertImageToPixbuf
 (
-nsIImage
+imgIContainer
 *
 aImage
 )

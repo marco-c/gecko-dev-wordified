@@ -663,13 +663,6 @@ nsEscape
 .
 h
 "
-#
-include
-"
-nsIImage
-.
-h
-"
 /
 /
 oddly

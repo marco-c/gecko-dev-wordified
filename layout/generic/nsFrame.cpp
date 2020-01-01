@@ -919,13 +919,6 @@ h
 #
 include
 "
-gfxIImageFrame
-.
-h
-"
-#
-include
-"
 nsILookAndFeel
 .
 h

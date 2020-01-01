@@ -454,13 +454,6 @@ imgIDecoderObserver
 h
 "
 #
-include
-"
-gfxIImageFrame
-.
-h
-"
-#
 define
 NS_XBMDECODER_CID
 \
@@ -566,12 +559,6 @@ nsCOMPtr
 imgIContainer
 >
 mImage
-;
-nsCOMPtr
-<
-gfxIImageFrame
->
-mFrame
 ;
 PRUint32
 mCurRow

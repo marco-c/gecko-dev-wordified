@@ -12983,10 +12983,10 @@ addrefs
 *
 aResult
 .
-PRUint32
-numFrames
+PRBool
+animated
 =
-1
+PR_FALSE
 ;
 if
 (
@@ -12999,10 +12999,10 @@ aResult
 )
 -
 >
-GetNumFrames
+GetAnimated
 (
 &
-numFrames
+animated
 )
 ;
 if
@@ -13020,9 +13020,7 @@ STATUS_LOAD_COMPLETE
 )
 |
 |
-numFrames
->
-1
+animated
 )
 {
 /

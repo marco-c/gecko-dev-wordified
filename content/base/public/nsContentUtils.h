@@ -636,6 +636,9 @@ class
 nsIURI
 ;
 class
+imgIContainer
+;
+class
 imgIDecoderObserver
 ;
 class
@@ -649,9 +652,6 @@ imgICache
 ;
 class
 nsIPrefBranch
-;
-class
-nsIImage
 ;
 class
 nsIImageLoadingContent
@@ -3996,7 +3996,7 @@ Method
 to
 get
 an
-nsIImage
+imgIContainer
 from
 an
 image
@@ -4028,7 +4028,7 @@ out
 *
 return
 the
-nsIImage
+imgIContainer
 corresponding
 to
 the
@@ -4042,7 +4042,7 @@ image
 static
 already_AddRefed
 <
-nsIImage
+imgIContainer
 >
 GetImageFromContent
 (

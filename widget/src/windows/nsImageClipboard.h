@@ -513,7 +513,7 @@ h
 #
 include
 "
-nsIImage
+imgIContainer
 .
 h
 "
@@ -539,7 +539,7 @@ class
 that
 takes
 an
-nsIImage
+imgIContainer
 and
 does
 all
@@ -566,7 +566,7 @@ public
 :
 nsImageToClipboard
 (
-nsIImage
+imgIContainer
 *
 inImage
 )
@@ -678,7 +678,7 @@ work
 nsresult
 CreateFromImage
 (
-nsIImage
+imgIContainer
 *
 inImage
 HANDLE
@@ -688,7 +688,7 @@ outBitmap
 ;
 nsCOMPtr
 <
-nsIImage
+imgIContainer
 >
 mImage
 ;

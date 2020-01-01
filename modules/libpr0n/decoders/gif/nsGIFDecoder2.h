@@ -465,13 +465,6 @@ h
 #
 include
 "
-gfxIImageFrame
-.
-h
-"
-#
-include
-"
 GIF2
 .
 h
@@ -729,12 +722,6 @@ mImageContainer
 ;
 nsCOMPtr
 <
-gfxIImageFrame
->
-mImageFrame
-;
-nsCOMPtr
-<
 imgIDecoderObserver
 >
 mObserver
@@ -787,6 +774,9 @@ used
 in
 Cairo
 format
+PRUint32
+mColormapSize
+;
 PRUint32
 mOldColor
 ;
