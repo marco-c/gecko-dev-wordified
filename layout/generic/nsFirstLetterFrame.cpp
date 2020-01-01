@@ -2038,11 +2038,6 @@ one
 if
 (
 !
-GetStyleDisplay
-(
-)
--
->
 IsFloating
 (
 )
@@ -2259,11 +2254,6 @@ aIsFluid
 {
 NS_ASSERTION
 (
-GetStyleDisplay
-(
-)
--
->
 IsFloating
 (
 )
