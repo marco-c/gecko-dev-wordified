@@ -6285,8 +6285,10 @@ mAutoQualityMinFontSizePixelsPref
 #
 ifdef
 IBMBIDI
+nsAutoPtr
+<
 nsBidiPresUtils
-*
+>
 mBidiUtils
 ;
 #
