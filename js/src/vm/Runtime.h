@@ -9376,6 +9376,8 @@ js
 GetCPUCount
 (
 )
+-
+1
 ;
 return
 requestedHelperThreadCount
