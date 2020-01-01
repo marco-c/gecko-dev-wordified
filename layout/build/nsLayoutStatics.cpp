@@ -1454,13 +1454,6 @@ ReleaseGlobals
 (
 )
 ;
-nsXULTooltipListener
-:
-:
-ReleaseInstance
-(
-)
-;
 nsSprocketLayout
 :
 :
