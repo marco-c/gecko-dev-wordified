@@ -607,7 +607,7 @@ h
 #
 include
 "
-nsIDOMEventTarget
+nsIDOMEventReceiver
 .
 h
 "
@@ -1520,9 +1520,9 @@ nsXBLPrototypeHandler
 :
 ExecuteHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
-aTarget
+aReceiver
 nsIDOMEvent
 *
 aEvent
@@ -1905,7 +1905,7 @@ windowRoot
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -1936,7 +1936,7 @@ privateWindow
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -1954,7 +1954,7 @@ elt
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -2037,7 +2037,7 @@ doc
 =
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 ;
 if
@@ -2110,7 +2110,7 @@ controller
 =
 GetController
 (
-aTarget
+aReceiver
 )
 ;
 /
@@ -2803,7 +2803,7 @@ winRoot
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -2942,7 +2942,7 @@ boundGlobal
 =
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 ;
 if
@@ -2959,7 +2959,7 @@ boundDocument
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -2985,7 +2985,7 @@ content
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -3114,7 +3114,7 @@ else
 {
 scriptTarget
 =
-aTarget
+aReceiver
 ;
 }
 /
@@ -3366,9 +3366,9 @@ nsXBLPrototypeHandler
 :
 GetController
 (
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
-aTarget
+aReceiver
 )
 {
 /
@@ -3416,7 +3416,7 @@ xulElement
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -3449,7 +3449,7 @@ htmlTextArea
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -3483,7 +3483,7 @@ htmlInputElement
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -3517,7 +3517,7 @@ domWindow
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;

@@ -487,6 +487,13 @@ h
 #
 include
 "
+nsIDOMEventReceiver
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h

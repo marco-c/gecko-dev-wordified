@@ -546,6 +546,13 @@ h
 #
 include
 "
+nsIDOMEventReceiver
+.
+h
+"
+#
+include
+"
 nsIPrivateDOMEvent
 .
 h

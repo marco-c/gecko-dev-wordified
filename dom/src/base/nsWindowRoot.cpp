@@ -619,7 +619,7 @@ incr
 (
 NS_STATIC_CAST
 (
-nsIDOMEventTarget
+nsIDOMEventReceiver
 *
 this
 )
@@ -655,7 +655,7 @@ decr
 (
 NS_STATIC_CAST
 (
-nsIDOMEventTarget
+nsIDOMEventReceiver
 *
 this
 )
@@ -697,7 +697,11 @@ nsWindowRoot
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIDOMEventTarget
+nsIDOMEventReceiver
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsIDOMEventReceiver
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -1113,7 +1117,7 @@ nsnull
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsWindowRoot
 :
 :
@@ -1166,7 +1170,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsWindowRoot
 :
 :
@@ -1219,7 +1223,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsWindowRoot
 :
 :
@@ -1283,7 +1287,7 @@ SetListenerTarget
 (
 NS_STATIC_CAST
 (
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
 this
 )
@@ -1305,7 +1309,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsWindowRoot
 :
 :

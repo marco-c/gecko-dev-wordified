@@ -2856,9 +2856,9 @@ req
 }
 nsCOMPtr
 <
-nsIDOMEventTarget
+nsIDOMEventReceiver
 >
-target
+rec
 (
 do_QueryInterface
 (
@@ -2866,7 +2866,7 @@ mBindingDocument
 )
 )
 ;
-target
+rec
 -
 >
 RemoveEventListener
@@ -4600,9 +4600,9 @@ nsXBLService
 :
 AttachGlobalKeyHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
-aTarget
+aReceiver
 )
 {
 /
@@ -4636,11 +4636,11 @@ case
 .
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
-piTarget
+rec
 =
-aTarget
+aReceiver
 ;
 nsCOMPtr
 <
@@ -4650,7 +4650,7 @@ contentNode
 (
 do_QueryInterface
 (
-aTarget
+aReceiver
 )
 )
 ;
@@ -4688,7 +4688,7 @@ if
 (
 doc
 )
-piTarget
+rec
 =
 do_QueryInterface
 (
@@ -4713,7 +4713,7 @@ document
 if
 (
 !
-piTarget
+rec
 )
 return
 NS_ERROR_FAILURE
@@ -4743,7 +4743,7 @@ handler
 NS_NewXBLWindowKeyHandler
 (
 elt
-piTarget
+rec
 &
 handler
 )
@@ -4774,7 +4774,7 @@ nsIDOMEventGroup
 >
 systemGroup
 ;
-piTarget
+rec
 -
 >
 GetSystemEventGroup
@@ -4793,7 +4793,7 @@ target
 =
 do_QueryInterface
 (
-piTarget
+rec
 )
 ;
 target
@@ -7312,9 +7312,9 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+nsIDOMEventReceiver
 >
-target
+rec
 (
 do_QueryInterface
 (
@@ -7322,7 +7322,7 @@ doc
 )
 )
 ;
-target
+rec
 -
 >
 AddEventListener
@@ -7333,12 +7333,11 @@ NS_LITERAL_STRING
 load
 "
 )
-NS_STATIC_CAST
 (
 nsIDOMLoadListener
 *
-xblListener
 )
+xblListener
 PR_FALSE
 )
 ;

@@ -801,7 +801,7 @@ Focus
 #
 include
 "
-nsIDOMEventTarget
+nsIDOMEventReceiver
 .
 h
 "

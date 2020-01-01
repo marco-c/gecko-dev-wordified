@@ -507,7 +507,7 @@ class
 nsIDOMMouseEvent
 ;
 class
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 ;
 class
 nsIDOM3EventTarget
@@ -856,9 +856,9 @@ aHandler
 nsresult
 ExecuteHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
-aTarget
+aReceiver
 nsIDOMEvent
 *
 aEvent
@@ -993,9 +993,9 @@ nsIController
 >
 GetController
 (
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
-aTarget
+aReceiver
 )
 ;
 inline

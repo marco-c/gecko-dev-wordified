@@ -462,14 +462,7 @@ h
 #
 include
 "
-nsIDOMEventListener
-.
-h
-"
-#
-include
-"
-nsIDOMEventTarget
+nsIDOMEventReceiver
 .
 h
 "
@@ -652,9 +645,9 @@ target
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
-piTarget
+receiver
 =
 do_QueryInterface
 (
@@ -666,7 +659,7 @@ mProtoHandler
 >
 ExecuteHandler
 (
-piTarget
+receiver
 aEvent
 )
 ;
@@ -861,9 +854,9 @@ target
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
-piTarget
+receiver
 =
 do_QueryInterface
 (
@@ -999,7 +992,7 @@ handler
 >
 ExecuteHandler
 (
-piTarget
+receiver
 aEvent
 )
 ;

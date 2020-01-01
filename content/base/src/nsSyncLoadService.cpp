@@ -532,6 +532,13 @@ h
 #
 include
 "
+nsIDOMEventReceiver
+.
+h
+"
+#
+include
+"
 nsIPrivateDOMImplementation
 .
 h
@@ -1268,7 +1275,7 @@ the
 document
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
 target
 =
