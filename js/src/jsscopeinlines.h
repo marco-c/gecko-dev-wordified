@@ -546,15 +546,13 @@ emptyScope
 clasp
 )
 ;
+return
 emptyScope
 -
 >
 hold
 (
 )
-;
-return
-emptyScope
 ;
 }
 return

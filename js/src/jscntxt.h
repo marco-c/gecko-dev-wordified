@@ -9071,6 +9071,10 @@ JSEmptyScope
 *
 emptyBlockScope
 ;
+JSEmptyScope
+*
+emptyCallScope
+;
 /
 *
 *
