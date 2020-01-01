@@ -1228,7 +1228,12 @@ mBrowserToolbar
 .
 setTitle
 (
+StringUtils
+.
+prettyURL
+(
 url
+)
 )
 ;
 super
@@ -1569,7 +1574,12 @@ mBrowserToolbar
 .
 setTitle
 (
+StringUtils
+.
+prettyURL
+(
 uri
+)
 )
 ;
 }
