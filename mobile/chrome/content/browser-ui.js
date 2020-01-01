@@ -8006,12 +8006,10 @@ Browser
 .
 _browserView
 ;
-bv
+Browser
 .
-onBeforeVisibleMove
+forceChromeReflow
 (
-0
-0
 )
 ;
 Browser
