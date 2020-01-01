@@ -515,6 +515,8 @@ public
 :
 nsWebShellWindow
 (
+PRUint32
+aChromeFlags
 )
 ;
 /

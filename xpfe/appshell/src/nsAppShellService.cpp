@@ -1804,6 +1804,7 @@ window
 new
 nsWebShellWindow
 (
+aChromeMask
 )
 ;
 NS_ENSURE_TRUE

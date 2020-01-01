@@ -690,6 +690,8 @@ PAD_SIZE
 ;
 nsXULWindow
 (
+PRUint32
+aChromeFlags
 )
 ;
 virtual

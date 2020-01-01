@@ -845,10 +845,13 @@ nsWebShellWindow
 :
 nsWebShellWindow
 (
+PRUint32
+aChromeFlags
 )
 :
 nsXULWindow
 (
+aChromeFlags
 )
 {
 mSPTimerLock
@@ -1523,7 +1526,7 @@ nsnull
 aUrl
 )
 {
-nsCAutoString
+nsCString
 tmpStr
 ;
 rv
