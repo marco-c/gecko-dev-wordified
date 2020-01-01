@@ -4174,7 +4174,7 @@ relative
 to
 the
 returned
-element
+aOffsetParent
 .
 *
 *
@@ -4190,13 +4190,16 @@ parent
 *
 /
 virtual
-nsGenericElement
-*
+void
 GetOffsetRect
 (
 nsRect
 &
 aRect
+nsIContent
+*
+*
+aOffsetParent
 )
 ;
 /

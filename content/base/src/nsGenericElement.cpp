@@ -2625,8 +2625,7 @@ frame
 nullptr
 ;
 }
-nsGenericElement
-*
+void
 nsGenericElement
 :
 :
@@ -2635,8 +2634,17 @@ GetOffsetRect
 nsRect
 &
 aRect
+nsIContent
+*
+*
+aOffsetParent
 )
 {
+*
+aOffsetParent
+=
+nullptr
+;
 aRect
 =
 nsRect
@@ -2658,7 +2666,6 @@ frame
 )
 {
 return
-nullptr
 ;
 }
 nsPoint
@@ -2816,9 +2823,6 @@ rcFrame
 .
 height
 )
-;
-return
-nullptr
 ;
 }
 nsIntSize

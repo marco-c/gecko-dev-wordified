@@ -1256,7 +1256,7 @@ nullptr
 Others
 and
 helpers
-nsICSSDeclaration
+nsIDOMCSSStyleDeclaration
 *
 nsStyledElementNotElementCSSInlineStyle
 :

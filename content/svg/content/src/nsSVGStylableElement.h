@@ -170,7 +170,7 @@ DoGetClasses
 )
 const
 ;
-nsICSSDeclaration
+nsIDOMCSSStyleDeclaration
 *
 GetStyle
 (
