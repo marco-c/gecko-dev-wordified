@@ -404,8 +404,8 @@ IsSymlink
 is
 broken
 for
-dangling
-symlinks
+nonexistent
+files
 /
 /
 Bug
