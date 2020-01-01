@@ -3137,6 +3137,9 @@ pure
 static
 =
 0
+warn_unused
+=
+0
                  
 typeop
 =
@@ -3276,6 +3279,14 @@ bool
         
 self
 .
+warn_unused
+=
+warn_unused
+#
+bool
+        
+self
+.
 typeop
 =
 typeop
@@ -3332,6 +3343,9 @@ pure
 self
 .
 static
+self
+.
+warn_unused
             
 copy
 .
