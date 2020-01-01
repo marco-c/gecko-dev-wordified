@@ -4359,9 +4359,6 @@ string
 \
 n
 \
-#
-ifdef
-DEBUG
 <
 key
 >
@@ -4373,14 +4370,12 @@ key
 \
 n
 \
+#
+expand
 <
 string
 >
-org
-.
-mozilla
-.
-NightlyDebug
+__MOZ_MACBUNDLE_ID__
 <
 /
 string
@@ -4388,8 +4383,6 @@ string
 \
 n
 \
-#
-endif
 <
 /
 dict
