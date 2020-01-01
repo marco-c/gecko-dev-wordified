@@ -2465,15 +2465,6 @@ png
 button
 -
 checkbox
->
-.
-button
--
-box
-.
-button
--
-checkbox
 :
 hover
 :
@@ -2519,7 +2510,7 @@ padding
 -
 start
 :
-padding_small
+margin_small
 ;
 -
 moz
@@ -2528,7 +2519,7 @@ padding
 -
 end
 :
-padding_small
+margin_small
 ;
 }
 /
