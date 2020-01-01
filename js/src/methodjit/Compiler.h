@@ -2427,6 +2427,9 @@ bool
 recompiling
 ;
 bool
+inlining
+;
+bool
 oomInVector
 ;
 /
@@ -3229,6 +3232,11 @@ argc
 ;
 void
 interruptCheckHelper
+(
+)
+;
+void
+recompileCheckHelper
 (
 )
 ;
