@@ -2364,8 +2364,6 @@ copyString
 selected
 .
 url
-this
-.
 document
 )
 ;
