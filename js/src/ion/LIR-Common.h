@@ -19824,16 +19824,6 @@ temp1
 )
 ;
 }
-bool
-isCall
-(
-)
-const
-{
-return
-true
-;
-}
 const
 LAllocation
 *
@@ -21765,7 +21755,6 @@ return
 true
 ;
 }
-;
 /
 /
 LInstruction

@@ -402,8 +402,6 @@ TempObject
 uintptr_t
 bits_
 ;
-protected
-:
 static
 const
 uintptr_t
@@ -458,6 +456,8 @@ KIND_BITS
 -
 1
 ;
+protected
+:
 static
 const
 uintptr_t

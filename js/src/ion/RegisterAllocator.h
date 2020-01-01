@@ -1706,8 +1706,6 @@ data
 InstructionDataMap
 insData
 ;
-public
-:
 RegisterAllocator
 (
 MIRGenerator
@@ -1751,12 +1749,7 @@ FramePointer
 InvalidReg
 &
 &
-lir
--
->
 mir
-(
-)
 -
 >
 instrumentedProfiling
@@ -1848,8 +1841,6 @@ NANReg
 #
 endif
 }
-protected
-:
 bool
 init
 (

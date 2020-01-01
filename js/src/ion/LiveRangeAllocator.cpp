@@ -2629,12 +2629,7 @@ false
 ;
 liveIn
 =
-lir
--
->
 mir
-(
-)
 -
 >
 allocate
@@ -2738,12 +2733,7 @@ vregs
 .
 init
 (
-lir
--
->
 mir
-(
-)
 graph
 .
 numVirtualRegisters
