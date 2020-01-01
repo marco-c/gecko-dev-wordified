@@ -2620,9 +2620,6 @@ GetBaseElement
 if
 (
 treeContent
-&
-&
-treeContent
 -
 >
 AttrValueIs
