@@ -7393,8 +7393,8 @@ this
 _serializeHistoryEntry
 (
 child
-)
 aFullData
+)
 )
 ;
 }
