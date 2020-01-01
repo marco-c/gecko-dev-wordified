@@ -244,11 +244,13 @@ define
 YarrCanonicalizeUCS2_H
 #
 include
-<
-stdint
+"
+mozilla
+/
+StandardInteger
 .
 h
->
+"
 #
 include
 "
