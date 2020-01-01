@@ -6947,6 +6947,16 @@ GetNativeContext
 (
 )
 ;
+nsCxPusher
+pusher
+;
+pusher
+.
+Push
+(
+cx
+)
+;
 nsCOMPtr
 <
 nsIXPConnectJSObjectHolder
