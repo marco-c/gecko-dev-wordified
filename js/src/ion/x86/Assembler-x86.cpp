@@ -683,7 +683,7 @@ read
 {
 IonCode
 *
-code
+child
 =
 CodeFromJump
 (
