@@ -5236,6 +5236,13 @@ StmtReturn
 )
                 
 or
+isinstance
+(
+block
+StmtSwitch
+)
+                
+or
 (
 hasattr
 (
@@ -5287,6 +5294,28 @@ self
 addstmt
 (
 block
+)
+        
+self
+.
+nr_cases
++
+=
+1
+    
+def
+addfallthrough
+(
+self
+case
+)
+:
+        
+self
+.
+addstmt
+(
+case
 )
         
 self
