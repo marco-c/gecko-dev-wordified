@@ -33246,9 +33246,13 @@ JS_TRUE
 ;
 obj2
 =
+js_GetWrappedObject
+(
+cx
 JSVAL_TO_OBJECT
 (
 v
+)
 )
 ;
 while
