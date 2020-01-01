@@ -285,10 +285,6 @@ GetPlugins
 ;
 nsHTMLDocument
 (
-bool
-aUseXPConnectToWrap
-=
-false
 )
 ;
 virtual

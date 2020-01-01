@@ -373,10 +373,6 @@ DOMCI_CLASS
 (
 ChromeWindow
 )
-DOMCI_CLASS
-(
-ImageDocument
-)
 #
 ifdef
 MOZ_XUL

@@ -161,10 +161,6 @@ public
 :
 MediaDocument
 (
-bool
-aUseXPConnectToWrap
-=
-false
 )
 ;
 virtual
