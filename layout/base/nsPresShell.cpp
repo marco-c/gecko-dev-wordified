@@ -15743,6 +15743,15 @@ nsnull
 status
 )
 ;
+/
+/
+|
+this
+|
+may
+now
+be
+destroyed
 }
 }
 NS_IMETHODIMP
