@@ -5046,6 +5046,7 @@ NS_DISPLAY_DECL_NAME
 "
 SelectionOverlay
 "
+TYPE_SELECTION_OVERLAY
 )
 private
 :
@@ -7685,6 +7686,10 @@ PaintDebugBorder
 "
 DebugBorder
 "
+nsDisplayItem
+:
+:
+TYPE_DEBUG_BORDER
 )
 )
 ;
@@ -7750,6 +7755,10 @@ PaintEventTargetBorder
 "
 EventTargetBorder
 "
+nsDisplayItem
+:
+:
+TYPE_EVENT_TARGET_BORDER
 )
 )
 ;

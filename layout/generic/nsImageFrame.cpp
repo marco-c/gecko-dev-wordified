@@ -7680,6 +7680,7 @@ NS_DISPLAY_DECL_NAME
 "
 Image
 "
+TYPE_IMAGE
 )
 private
 :
@@ -8336,6 +8337,10 @@ PaintAltFeedback
 "
 AltFeedback
 "
+nsDisplayItem
+:
+:
+TYPE_ALT_FEEDBACK
 )
 )
 ;
@@ -8448,6 +8453,10 @@ PaintDebugImageMap
 "
 DebugImageMap
 "
+nsDisplayItem
+:
+:
+TYPE_DEBUG_IMAGE_MAP
 )
 )
 ;

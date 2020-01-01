@@ -3249,6 +3249,10 @@ PaintPrintPreviewBackground
 "
 PrintPreviewBackground
 "
+nsDisplayItem
+:
+:
+TYPE_PRINT_PREVIEW_BACKGROUND
 )
 )
 ;
@@ -3283,6 +3287,10 @@ PaintPageContent
 "
 PageContent
 "
+nsDisplayItem
+:
+:
+TYPE_PAGE_CONTENT
 )
 )
 ;
@@ -3328,6 +3336,10 @@ PaintHeaderFooter
 "
 HeaderFooter
 "
+nsDisplayItem
+:
+:
+TYPE_HEADER_FOOTER
 )
 )
 ;

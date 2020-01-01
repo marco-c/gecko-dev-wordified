@@ -2557,6 +2557,7 @@ NS_DISPLAY_DECL_NAME
 "
 Video
 "
+TYPE_VIDEO
 )
 /
 /

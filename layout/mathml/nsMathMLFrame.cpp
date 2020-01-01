@@ -3093,6 +3093,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLBoundingMetrics
 "
+TYPE_MATHML_BOUNDING_METRICS
 )
 private
 :
@@ -3326,6 +3327,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLBar
 "
+TYPE_MATHML_BAR
 )
 private
 :

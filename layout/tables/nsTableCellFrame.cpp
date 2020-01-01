@@ -2475,6 +2475,7 @@ NS_DISPLAY_DECL_NAME
 "
 TableCellBackground
 "
+TYPE_TABLE_CELL_BACKGROUND
 )
 }
 ;
@@ -3120,6 +3121,10 @@ PaintTableCellSelection
 "
 TableCellSelection
 "
+nsDisplayItem
+:
+:
+TYPE_TABLE_CELL_SELECTION
 )
 )
 ;

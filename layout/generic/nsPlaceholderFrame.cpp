@@ -1576,6 +1576,10 @@ PaintDebugPlaceholder
 "
 DebugPlaceholder
 "
+nsDisplayItem
+:
+:
+TYPE_DEBUG_PLACEHOLDER
 )
 )
 ;

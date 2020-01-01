@@ -7391,6 +7391,7 @@ NS_DISPLAY_DECL_NAME
 "
 TableBorderBackground
 "
+TYPE_TABLE_BORDER_BACKGROUND
 )
 }
 ;

@@ -1663,16 +1663,6 @@ nsDisplayPlugin
 #
 endif
 virtual
-Type
-GetType
-(
-)
-{
-return
-TYPE_PLUGIN
-;
-}
-virtual
 nsRect
 GetBounds
 (
@@ -1722,6 +1712,7 @@ NS_DISPLAY_DECL_NAME
 "
 Plugin
 "
+TYPE_PLUGIN
 )
 /
 /
