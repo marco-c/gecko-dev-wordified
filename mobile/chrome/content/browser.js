@@ -1571,7 +1571,6 @@ return
 ;
 }
 }
-;
 }
 get
 content
