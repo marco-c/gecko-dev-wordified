@@ -74,6 +74,13 @@ va_list
 #
 include
 <
+ctype
+.
+h
+>
+#
+include
+<
 string
 >
 #
