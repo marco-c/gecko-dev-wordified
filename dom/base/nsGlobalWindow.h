@@ -3720,6 +3720,12 @@ GetMainWidget
 (
 )
 ;
+nsIWidget
+*
+GetNearestWidget
+(
+)
+;
 void
 Freeze
 (

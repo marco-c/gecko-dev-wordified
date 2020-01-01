@@ -1139,6 +1139,15 @@ GetThebesSurface
 (
 )
 ;
+NS_IMETHOD
+OnDefaultButtonLoaded
+(
+const
+nsIntRect
+&
+aButtonRect
+)
+;
 virtual
 nsresult
 SynthesizeNativeKeyEvent
