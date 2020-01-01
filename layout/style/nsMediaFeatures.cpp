@@ -2021,7 +2021,7 @@ eMinMaxNotAllowed
 nsMediaFeature
 :
 :
-eInteger
+eBoolInteger
 nsnull
 GetGrid
 }
