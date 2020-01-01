@@ -449,11 +449,9 @@ VERSION
 "
 0
 .
+2
+.
 0
-.
-1
-.
-svn
 "
 /
 *
@@ -560,10 +558,7 @@ data
 alignment
 *
 /
-/
-*
 #
-undef
+define
 ATTRIBUTE_ALIGNED_MAX
-*
-/
+16
