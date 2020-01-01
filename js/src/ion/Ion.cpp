@@ -3845,7 +3845,7 @@ IonScript
 copyConstants
 (
 const
-HeapValue
+Value
 *
 vp
 )
