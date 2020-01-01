@@ -1231,6 +1231,12 @@ options
 xrePath
 )
   
+if
+options
+.
+symbolsPath
+:
+    
 options
 .
 symbolsPath
