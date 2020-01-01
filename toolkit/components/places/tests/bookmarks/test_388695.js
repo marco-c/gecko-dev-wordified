@@ -212,7 +212,7 @@ Original
 Code
 is
 Mozilla
-Corporation
+Foundation
 .
 *
 Portions
