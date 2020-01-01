@@ -10342,7 +10342,6 @@ new
 nsSVGTransformSMILAttr
 (
 list
-this
 )
 ;
 }
