@@ -1029,17 +1029,6 @@ MediaConstraints
 aConstraints
 )
 ;
-nsresult
-InitializeDataChannel
-(
-uint16_t
-aLocalport
-uint16_t
-aRemoteport
-uint16_t
-aNumstreams
-)
-;
 /
 /
 Called
