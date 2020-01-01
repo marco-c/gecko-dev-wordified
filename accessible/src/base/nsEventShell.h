@@ -568,7 +568,7 @@ FireEvent
 (
 PRUint32
 aEventType
-nsIAccessible
+nsAccessible
 *
 aAccessible
 PRBool

@@ -554,6 +554,9 @@ class
 nsAccessible
 ;
 class
+nsHyperTextAccessible
+;
+class
 nsHTMLTableAccessible
 ;
 class
@@ -1564,7 +1567,7 @@ accessible
 static
 already_AddRefed
 <
-nsIAccessibleText
+nsHyperTextAccessible
 >
 GetTextAccessibleFromSelection
 (
