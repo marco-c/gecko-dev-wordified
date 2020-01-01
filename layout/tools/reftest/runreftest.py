@@ -1340,6 +1340,7 @@ shutil
 rmtree
 (
 profileDir
+True
 )
   
 def
