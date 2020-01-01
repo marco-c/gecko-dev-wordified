@@ -336,6 +336,14 @@ nsIFrame
 aFrame
 )
 ;
+bool
+IsHTMLContent
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 /
 button
