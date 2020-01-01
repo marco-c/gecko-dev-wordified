@@ -1226,6 +1226,9 @@ case
 eColor_highlight
 :
 case
+eColor__moz_html_cellhighlight
+:
+case
 eColor__moz_menuhover
 :
 idx
@@ -1467,6 +1470,9 @@ case
 endif
 case
 eColor_highlighttext
+:
+case
+eColor__moz_html_cellhighlighttext
 :
 idx
 =
