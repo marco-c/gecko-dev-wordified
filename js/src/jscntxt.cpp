@@ -6640,7 +6640,7 @@ toObject
 (
 )
 .
-getFunctionPrivate
+toFunction
 (
 )
 -

@@ -22,6 +22,14 @@ time
 we
 ask
 .
+/
+/
+XXX
+bug
+693754
+disabled
+/
+*
 var
 global
 =
@@ -745,3 +753,5 @@ scripts2
 argument
 )
 ;
+*
+/

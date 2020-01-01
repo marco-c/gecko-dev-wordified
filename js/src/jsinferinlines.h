@@ -2197,7 +2197,7 @@ fun
 callee
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;

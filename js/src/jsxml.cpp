@@ -33462,7 +33462,7 @@ vp
 )
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;

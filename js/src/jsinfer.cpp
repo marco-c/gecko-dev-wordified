@@ -7610,7 +7610,7 @@ if
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -7736,7 +7736,7 @@ native
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -7932,7 +7932,7 @@ callee
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -8558,7 +8558,7 @@ isFunction
 object
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -8574,7 +8574,7 @@ callee
 object
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -31027,7 +31027,7 @@ isFunction
 scriptObj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -31048,7 +31048,7 @@ function
 scriptObj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -33693,7 +33693,7 @@ nargs
 callee
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -33707,7 +33707,7 @@ script
 callee
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -38896,12 +38896,7 @@ isFunction
 )
 &
 &
-getFunctionPrivate
-(
-)
-&
-&
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -38916,7 +38911,7 @@ type
 >
 interpretedFunction
 =
-getFunctionPrivate
+toFunction
 (
 )
 ;

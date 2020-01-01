@@ -19732,7 +19732,7 @@ callee
 (
 )
 .
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -22287,7 +22287,7 @@ name
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -22410,7 +22410,7 @@ fun
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -22680,7 +22680,7 @@ fun
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;

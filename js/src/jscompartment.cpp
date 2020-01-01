@@ -5549,7 +5549,7 @@ isFunction
 scriptObject
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -

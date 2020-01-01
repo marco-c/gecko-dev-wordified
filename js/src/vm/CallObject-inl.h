@@ -649,7 +649,7 @@ toObject
 (
 )
 .
-getFunctionPrivate
+toFunction
 (
 )
 ;

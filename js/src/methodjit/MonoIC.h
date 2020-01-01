@@ -1649,11 +1649,6 @@ funObjReg
 :
 5
 ;
-RegisterID
-funPtrReg
-:
-5
-;
 bool
 hit
 :

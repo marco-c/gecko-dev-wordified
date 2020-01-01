@@ -640,7 +640,7 @@ return
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;

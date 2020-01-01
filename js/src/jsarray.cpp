@@ -21123,16 +21123,12 @@ JSObject
 *
 obj
 =
-detail
-:
-:
 NewObject
 <
 WithProto
 :
 :
 Class
-false
 >
 (
 cx
