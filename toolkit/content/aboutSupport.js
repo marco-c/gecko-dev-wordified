@@ -2497,12 +2497,6 @@ let
 msg
 =
 acceleratedWindows
-+
-"
-/
-"
-+
-totalWindows
 ;
 if
 (
@@ -2512,6 +2506,12 @@ acceleratedWindows
 msg
 +
 =
+"
+/
+"
++
+totalWindows
++
 "
 "
 +
