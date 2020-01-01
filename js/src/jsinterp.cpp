@@ -3495,6 +3495,7 @@ CanEnter
 cx
 script
 fp
+false
 )
 ;
 if
@@ -3528,7 +3529,6 @@ Cannon
 (
 cx
 fp
-false
 )
 ;
 }
@@ -17868,6 +17868,7 @@ regs
 fp
 (
 )
+newType
 )
 ;
 if
@@ -17907,7 +17908,6 @@ regs
 fp
 (
 )
-newType
 )
 ;
 CHECK_INTERRUPT_HANDLER

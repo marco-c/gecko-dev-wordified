@@ -968,6 +968,8 @@ script
 StackFrame
 *
 fp
+bool
+newType
 )
 ;
 bool
@@ -979,8 +981,6 @@ cx
 StackFrame
 *
 fp
-bool
-newType
 )
 ;
 bool
