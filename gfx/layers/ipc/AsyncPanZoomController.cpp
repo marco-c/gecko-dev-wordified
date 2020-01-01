@@ -7423,6 +7423,10 @@ ViewTransform
 -
 translation
 localScale
+/
+frame
+.
+mDevPixelsPerCSSPixel
 )
 ;
 aScrollOffset
