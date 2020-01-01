@@ -494,13 +494,6 @@ h
 #
 include
 "
-nsICharsetDetectionAdaptor
-.
-h
-"
-#
-include
-"
 nsICharsetDetectionObserver
 .
 h
@@ -530,13 +523,6 @@ h
 include
 "
 nsXMLEncodingCID
-.
-h
-"
-#
-include
-"
-nsCharsetDetectionAdaptorCID
 .
 h
 "

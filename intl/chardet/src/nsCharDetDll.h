@@ -464,13 +464,6 @@ nsIStringCharsetDetector
 h
 "
 #
-include
-"
-nsICharsetDetectionAdaptor
-.
-h
-"
-#
 endif
 /
 *
