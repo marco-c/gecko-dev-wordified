@@ -2121,6 +2121,34 @@ destname
     
 if
 (
+os
+.
+name
+=
+=
+"
+nt
+"
+)
+:
+      
+destname
+=
+destname
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
+)
+    
+if
+(
 self
 .
 debug
@@ -3721,6 +3749,9 @@ fireProcess
 (
 self
 appname
+failIfRunning
+=
+False
 )
 :
     
@@ -3812,6 +3843,15 @@ n
 "
 %
 appname
+      
+if
+(
+failIfRunning
+)
+:
+        
+return
+None
     
 try
 :
@@ -3968,6 +4008,9 @@ env
 =
 '
 '
+failIfRunning
+=
+False
 )
 :
     
@@ -4098,6 +4141,7 @@ self
 fireProcess
 (
 cmdline
+failIfRunning
 )
 is
 None
@@ -8133,6 +8177,16 @@ process
 =
 proclist
     
+if
+(
+self
+.
+debug
+>
+=
+3
+)
+:
 print
 "
 results
@@ -9209,19 +9263,6 @@ iteritems
 )
 )
 )
-    
-print
-"
-got
-retval
-:
-'
-%
-s
-'
-"
-%
-retVal
     
 if
 (
