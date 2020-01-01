@@ -218,6 +218,11 @@ DispatchInputEvent
 nsGUIEvent
 &
 aEvent
+bool
+*
+aWasCaptured
+=
+nullptr
 )
 ;
 NS_IMETHOD
