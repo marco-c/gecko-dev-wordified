@@ -711,10 +711,7 @@ Dict
 const
 Optional
 <
-JS
-:
-:
-Value
+LazyRootedValue
 >
 &
 const
@@ -2956,10 +2953,7 @@ JSContext
 const
 Optional
 <
-JS
-:
-:
-Value
+LazyRootedValue
 >
 &
 )
