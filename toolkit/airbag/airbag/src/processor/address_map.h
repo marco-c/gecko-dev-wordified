@@ -370,7 +370,7 @@ include
 map
 >
 namespace
-google_airbag
+google_breakpad
 {
 template
 <
@@ -611,7 +611,7 @@ map_
 /
 /
 namespace
-google_airbag
+google_breakpad
 #
 endif
 /

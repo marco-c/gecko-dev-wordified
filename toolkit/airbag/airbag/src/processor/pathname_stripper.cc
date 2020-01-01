@@ -340,7 +340,7 @@ pathname_stripper
 h
 "
 namespace
-google_airbag
+google_breakpad
 {
 /
 /
@@ -462,4 +462,4 @@ file_start
 /
 /
 namespace
-google_airbag
+google_breakpad

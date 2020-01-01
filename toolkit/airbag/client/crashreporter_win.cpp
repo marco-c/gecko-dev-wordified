@@ -1773,6 +1773,9 @@ url
 sendURL
 )
 ;
+wstring
+result
+;
 if
 (
 url
@@ -1791,7 +1794,8 @@ else
 {
 finishedOk
 =
-google_airbag
+(
+google_breakpad
 :
 :
 CrashReportSender
@@ -1811,6 +1815,15 @@ td
 -
 >
 dumpFile
+&
+result
+)
+=
+=
+google_breakpad
+:
+:
+RESULT_SUCCEEDED
 )
 ;
 }
@@ -1828,9 +1841,6 @@ finishedOk
 0
 0
 )
-;
-delete
-td
 ;
 return
 0

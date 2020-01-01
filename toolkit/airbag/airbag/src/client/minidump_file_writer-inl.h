@@ -345,7 +345,7 @@ minidump_file_writer
 h
 "
 namespace
-google_airbag
+google_breakpad
 {
 template
 <
@@ -657,7 +657,7 @@ MDType
 /
 /
 namespace
-google_airbag
+google_breakpad
 #
 endif
 /

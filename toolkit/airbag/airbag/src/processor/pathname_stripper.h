@@ -331,7 +331,7 @@ include
 string
 >
 namespace
-google_airbag
+google_breakpad
 {
 using
 std
@@ -403,7 +403,7 @@ path
 /
 /
 namespace
-google_airbag
+google_breakpad
 #
 endif
 /

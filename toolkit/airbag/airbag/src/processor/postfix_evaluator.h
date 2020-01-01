@@ -554,7 +554,7 @@ include
 vector
 >
 namespace
-google_airbag
+google_breakpad
 {
 using
 std
@@ -1218,7 +1218,7 @@ stack_
 /
 /
 namespace
-google_airbag
+google_breakpad
 #
 endif
 /

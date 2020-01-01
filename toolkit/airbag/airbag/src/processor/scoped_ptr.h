@@ -493,7 +493,7 @@ free
 )
 decl
 namespace
-google_airbag
+google_breakpad
 {
 template
 <
@@ -1896,7 +1896,7 @@ get
 /
 /
 namespace
-google_airbag
+google_breakpad
 #
 endif
 /
