@@ -2878,7 +2878,7 @@ JSContext
 *
 cx
 RegExpShared
-*
+&
 shared
 )
 ;
