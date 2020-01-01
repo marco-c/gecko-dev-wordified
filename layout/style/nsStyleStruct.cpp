@@ -9062,7 +9062,7 @@ nsresult
 nsStyleImage
 :
 :
-RequestDecode
+StartDecoding
 (
 )
 const
