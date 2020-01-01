@@ -2329,10 +2329,10 @@ fprintf
 (
 fp
 "
-allocation
-retries
-after
+last
+ditch
 GC
+runs
 :
 %
 lu
@@ -2341,7 +2341,7 @@ n
 "
 ULSTAT
 (
-retry
+lastditch
 )
 )
 ;
