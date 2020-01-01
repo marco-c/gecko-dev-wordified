@@ -618,7 +618,7 @@ aCORSMode
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 void
 FireScriptAvailable
 (
@@ -779,7 +779,7 @@ on
 other
 threads
 .
-NS_IMPL_THREADSAFE_ISUPPORTS0
+NS_IMPL_ISUPPORTS0
 (
 nsScriptLoadRequest
 )

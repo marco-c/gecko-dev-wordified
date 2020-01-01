@@ -872,7 +872,7 @@ return
 false
 ;
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 #
 ifdef
 MOZ_B2G_CAMERA
@@ -1745,7 +1745,7 @@ bool
 isStereo
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 private
 :
 static

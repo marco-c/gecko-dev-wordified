@@ -1276,7 +1276,7 @@ IUnknown
 ref
 counting
 .
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD

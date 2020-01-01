@@ -144,7 +144,7 @@ source
 .
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS0
+NS_IMPL_ISUPPORTS0
 (
 MediaEngineWebRTCAudioSource
 )

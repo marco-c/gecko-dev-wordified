@@ -439,7 +439,7 @@ nsIInputStream
 _retval
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 /
 /
 These
@@ -569,11 +569,11 @@ mSerializableInputStream
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 DataOwnerAdapter
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 DataOwnerAdapter
 )
@@ -2443,11 +2443,11 @@ GetMutable
 =
 =
 false
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsDOMFile
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsDOMFile
 )
@@ -3416,7 +3416,7 @@ MOZ_FINAL
 public
 nsIMemoryMultiReporter
 {
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD
 GetName
 (
@@ -3918,7 +3918,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsDOMMemoryFileDataOwnerMemoryReporter
 nsIMemoryMultiReporter

@@ -156,7 +156,7 @@ AUDIO_RATE
 namespace
 mozilla
 {
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 MediaEngineDefaultVideoSource
 nsITimerCallback
@@ -1326,7 +1326,7 @@ source
 .
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 MediaEngineDefaultAudioSource
 nsITimerCallback
