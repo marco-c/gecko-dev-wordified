@@ -24300,10 +24300,10 @@ windowed
 nsAdoptingCString
 wmodeType
 =
-nsContentUtils
+Preferences
 :
 :
-GetCharPref
+GetCString
 (
 "
 plugins
