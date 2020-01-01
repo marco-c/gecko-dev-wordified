@@ -32088,6 +32088,7 @@ function
 aWebProgress
 aRequest
 aLocationURI
+aFlags
 )
 {
 var
@@ -35201,6 +35202,7 @@ aBrowser
 aWebProgress
 aRequest
 aLocationURI
+aFlags
 )
 {
 /

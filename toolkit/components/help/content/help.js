@@ -3789,6 +3789,7 @@ function
 aWebProgress
 aRequest
 aLocation
+aFlags
 )
 {
 UpdateBackForwardButtons

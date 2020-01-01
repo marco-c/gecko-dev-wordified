@@ -2410,6 +2410,8 @@ aRequest
 nsIURI
 *
 location
+PRUint32
+aFlags
 )
 {
 return

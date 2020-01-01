@@ -627,6 +627,7 @@ function
 aWebProgress
 aRequest
 aLocation
+aFlags
 )
 {
 UpdateBackForwardCommands

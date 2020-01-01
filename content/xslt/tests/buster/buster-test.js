@@ -1652,6 +1652,7 @@ function
 aProg
 aRequest
 aURI
+aFlags
 )
 {
 }

@@ -579,6 +579,7 @@ aBrowser
 aWebProgress
 aRequest
 aLocationURI
+aFlags
 )
 {
 var

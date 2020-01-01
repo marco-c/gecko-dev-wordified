@@ -1742,6 +1742,12 @@ to
 update
 the
 UI
+without
+/
+/
+updating
+security
+info
 .
 void
 FireDummyOnLocationChange
@@ -1753,6 +1759,7 @@ FireOnLocationChange
 this
 nsnull
 mCurrentURI
+LOCATION_CHANGE_SAME_DOCUMENT
 )
 ;
 }
@@ -3817,6 +3824,8 @@ nsIRequest
 aRequest
 bool
 aFireOnLocationChange
+PRUint32
+aLocationFlags
 )
 ;
 /
