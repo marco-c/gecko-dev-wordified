@@ -45371,6 +45371,7 @@ nsIFrame
 *
 GetIBSpecialSiblingForAnonymousBlock
 (
+const
 nsIFrame
 *
 aFrame
@@ -46253,6 +46254,7 @@ nsFrame
 DoGetParentStyleContextFrame
 (
 )
+const
 {
 if
 (
@@ -46457,6 +46459,7 @@ placeholder
 s
 parent
 .
+const
 nsIFrame
 *
 oofFrame

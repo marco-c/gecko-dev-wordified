@@ -1394,6 +1394,7 @@ nsTableFrame
 GetParentStyleContextFrame
 (
 )
+const
 {
 /
 /

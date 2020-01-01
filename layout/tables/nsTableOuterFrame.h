@@ -523,6 +523,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 ;
 #
 ifdef
@@ -980,6 +981,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 ;
 /
 *
@@ -1432,6 +1434,7 @@ nsTableFrame
 InnerTableFrame
 (
 )
+const
 {
 return
 static_cast
