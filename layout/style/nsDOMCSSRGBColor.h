@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIDOMNSRGBAColor
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -156,7 +149,7 @@ class
 nsDOMCSSRGBColor
 :
 public
-nsIDOMNSRGBAColor
+nsISupports
 public
 nsWrapperCache
 {
@@ -188,8 +181,6 @@ void
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMRGBCOLOR
-NS_DECL_NSIDOMNSRGBACOLOR
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMCSSRGBColor
