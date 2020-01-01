@@ -331,7 +331,6 @@ STYLE_STRUCT_INHERITED
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 void
@@ -396,7 +395,6 @@ STYLE_STRUCT_RESET
 (
 name
 checkdata_cb
-ctor_args
 )
 #
 include
@@ -564,7 +562,6 @@ STYLE_STRUCT_RESET
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 void
@@ -629,7 +626,6 @@ STYLE_STRUCT_INHERITED
 (
 name
 checkdata_cb
-ctor_args
 )
 #
 include
@@ -873,7 +869,6 @@ STYLE_STRUCT_INHERITED
 (
 name_
 checkdata_cb_
-ctor_args_
 )
 \
 nsStyle
@@ -925,7 +920,6 @@ STYLE_STRUCT_RESET
 (
 name_
 checkdata_cb_
-ctor_args_
 )
 \
 nsStyle
@@ -3926,7 +3920,6 @@ STYLE_STRUCT
 (
 name_
 checkdata_cb_
-ctor_args_
 )
 \
 const

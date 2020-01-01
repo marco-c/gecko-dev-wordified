@@ -195,14 +195,12 @@ STYLE_STRUCT_INHERITED
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 STYLE_STRUCT
 (
 name
 checkdata_cb
-ctor_args
 )
 #
 define
@@ -218,14 +216,12 @@ STYLE_STRUCT_RESET
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 STYLE_STRUCT
 (
 name
 checkdata_cb
-ctor_args
 )
 #
 define
@@ -347,9 +343,6 @@ STYLE_STRUCT_INHERITED
 (
 Font
 CheckFontCallback
-(
-SSARG_PRESCONTEXT
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -361,9 +354,6 @@ STYLE_STRUCT_INHERITED
 (
 Color
 CheckColorCallback
-(
-SSARG_PRESCONTEXT
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -390,8 +380,6 @@ STYLE_STRUCT_INHERITED
 (
 List
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -403,8 +391,6 @@ STYLE_STRUCT_INHERITED
 (
 Text
 CheckTextCallback
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -445,9 +431,6 @@ STYLE_STRUCT_INHERITED
 (
 Visibility
 nullptr
-(
-SSARG_PRESCONTEXT
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -459,8 +442,6 @@ STYLE_STRUCT_INHERITED
 (
 Quotes
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -487,8 +468,6 @@ STYLE_STRUCT_INHERITED
 (
 UserInterface
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -500,9 +479,6 @@ STYLE_STRUCT_INHERITED
 (
 TableBorder
 nullptr
-(
-SSARG_PRESCONTEXT
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -563,8 +539,6 @@ STYLE_STRUCT_INHERITED
 (
 SVG
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -576,8 +550,6 @@ STYLE_STRUCT_RESET
 (
 Background
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -604,8 +576,6 @@ STYLE_STRUCT_RESET
 (
 Position
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -617,8 +587,6 @@ STYLE_STRUCT_RESET
 (
 TextReset
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -659,8 +627,6 @@ STYLE_STRUCT_RESET
 (
 Display
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -672,8 +638,6 @@ STYLE_STRUCT_RESET
 (
 Content
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -700,8 +664,6 @@ STYLE_STRUCT_RESET
 (
 UIReset
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -713,8 +675,6 @@ STYLE_STRUCT_RESET
 (
 Table
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -765,8 +725,6 @@ STYLE_STRUCT_RESET
 (
 Margin
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -778,8 +736,6 @@ STYLE_STRUCT_RESET
 (
 Padding
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -806,9 +762,6 @@ STYLE_STRUCT_RESET
 (
 Border
 nullptr
-(
-SSARG_PRESCONTEXT
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -820,9 +773,6 @@ STYLE_STRUCT_RESET
 (
 Outline
 nullptr
-(
-SSARG_PRESCONTEXT
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -859,8 +809,6 @@ STYLE_STRUCT_RESET
 (
 XUL
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -872,8 +820,6 @@ STYLE_STRUCT_RESET
 (
 SVGReset
 nullptr
-(
-)
 )
 STYLE_STRUCT_TEST_CODE
 (
@@ -905,9 +851,6 @@ STYLE_STRUCT_RESET
 (
 Column
 nullptr
-(
-SSARG_PRESCONTEXT
-)
 )
 STYLE_STRUCT_TEST_CODE
 (

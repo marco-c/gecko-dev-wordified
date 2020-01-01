@@ -9021,7 +9021,6 @@ STYLE_STRUCT
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 ePropertyCount_for_
