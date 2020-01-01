@@ -982,6 +982,7 @@ MoveTo
 (
 aLeft
 aTop
+PR_TRUE
 )
 ;
 }
