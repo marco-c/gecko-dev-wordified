@@ -2137,6 +2137,9 @@ NPPVpluginEventModel
 void
 *
 )
+(
+intptr_t
+)
 eventModel
 )
 ;
