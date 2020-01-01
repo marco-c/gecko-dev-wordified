@@ -1738,16 +1738,6 @@ catch
 e
 )
 {
-dump
-(
-"
-exception
-:
-"
-+
-e
-)
-;
 }
 }
 )
