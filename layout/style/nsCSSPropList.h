@@ -3309,7 +3309,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackAttachment
-eCSSType_ValueList
+eCSSType_Value
 kBackgroundAttachmentKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3326,7 +3326,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackClip
-eCSSType_ValueList
+eCSSType_Value
 kBackgroundOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3368,7 +3368,7 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 CSS_PROPERTY_START_IMAGE_LOADS
 Color
 mBackImage
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3405,7 +3405,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackOrigin
-eCSSType_ValueList
+eCSSType_Value
 kBackgroundOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3439,7 +3439,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackRepeat
-eCSSType_ValueList
+eCSSType_Value
 kBackgroundRepeatKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3538,7 +3538,7 @@ Margin
 mBorderColors
 .
 mBottom
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3880,7 +3880,7 @@ Margin
 mBorderColors
 .
 mLeft
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4182,7 +4182,7 @@ Margin
 mBorderColors
 .
 mRight
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4577,7 +4577,7 @@ Margin
 mBorderColors
 .
 mTop
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4673,7 +4673,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Margin
 mBoxShadow
-eCSSType_ValueList
+eCSSType_Value
 kBoxShadowTypeKTable
 offsetof
 (
@@ -4915,7 +4915,7 @@ Content
 CSS_PROPERTY_START_IMAGE_LOADS
 Content
 mContent
-eCSSType_ValueList
+eCSSType_Value
 kContentKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5005,7 +5005,7 @@ CSS_PROPERTY_START_IMAGE_LOADS
 CSS_PROPERTY_IMAGE_IS_IN_ARRAY_0
 UserInterface
 mCursor
-eCSSType_ValueList
+eCSSType_Value
 kCursorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6711,7 +6711,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Text
 mTextShadow
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -6746,7 +6746,7 @@ MozTransform
 0
 Display
 mTransform
-eCSSType_ValueList
+eCSSType_Value
 kDisplayKTable
 offsetof
 (
@@ -6815,7 +6815,7 @@ MozTransitionDelay
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Display
 mTransitionDelay
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6833,7 +6833,7 @@ MozTransitionDuration
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Display
 mTransitionDuration
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6851,7 +6851,7 @@ MozTransitionProperty
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Display
 mTransitionProperty
-eCSSType_ValueList
+eCSSType_Value
 /
 *
 list
@@ -6883,7 +6883,7 @@ MozTransitionTimingFunction
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Display
 mTransitionTimingFunction
-eCSSType_ValueList
+eCSSType_Value
 kTransitionTimingFunctionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -7834,7 +7834,7 @@ StrokeDasharray
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 SVG
 mStrokeDasharray
-eCSSType_ValueList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 /

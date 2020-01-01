@@ -4223,6 +4223,7 @@ nsCSSShadowArray
 >
 GetShadowData
 (
+const
 nsCSSValueList
 *
 aList
