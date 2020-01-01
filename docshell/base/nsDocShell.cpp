@@ -41204,7 +41204,7 @@ doc
 }
 nsCOMPtr
 <
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
+nsIMarkupDocumentViewer
 >
 oldMUDV
 (
@@ -41216,7 +41216,7 @@ mContentViewer
 ;
 nsCOMPtr
 <
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
+nsIMarkupDocumentViewer
 >
 newMUDV
 (
@@ -45575,7 +45575,7 @@ above
 vars
 nsCOMPtr
 <
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
+nsIMarkupDocumentViewer
 >
 newMUDV
 ;
@@ -45589,7 +45589,7 @@ parent
 {
 nsCOMPtr
 <
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
+nsIMarkupDocumentViewer
 >
 oldMUDV
 ;
