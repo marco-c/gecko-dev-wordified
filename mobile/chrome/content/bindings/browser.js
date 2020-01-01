@@ -2010,7 +2010,7 @@ addMessageListener
 "
 Content
 :
-SetCssViewportSize
+SetWindowSize
 "
 this
 )
@@ -2182,7 +2182,7 @@ case
 "
 Content
 :
-SetCssViewportSize
+SetWindowSize
 "
 :
 {
