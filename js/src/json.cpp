@@ -4464,6 +4464,7 @@ getDenseArrayCapacity
 HashSet
 <
 jsid
+JsidHasher
 >
 idSet
 (
@@ -4736,6 +4737,7 @@ iv
 HashSet
 <
 jsid
+JsidHasher
 >
 :
 :
