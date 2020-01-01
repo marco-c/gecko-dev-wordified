@@ -383,9 +383,6 @@ trace_malloc_allocs
 '
 ts
 '
-'
-codesighs
-'
                                
 '
 tsvg_nochrome
