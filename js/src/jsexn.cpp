@@ -5538,10 +5538,16 @@ if
 cx
 -
 >
+runtime
+-
+>
 localeCallbacks
 &
 &
 cx
+-
+>
+runtime
 -
 >
 localeCallbacks
@@ -5553,6 +5559,9 @@ localeGetErrorMessage
 errorString
 =
 cx
+-
+>
+runtime
 -
 >
 localeCallbacks

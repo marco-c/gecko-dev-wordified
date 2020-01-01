@@ -4763,11 +4763,6 @@ return
 false
 ;
 }
-xpc_LocalizeContext
-(
-cx
-)
-;
 nsRefPtr
 <
 FullTrustSecMan

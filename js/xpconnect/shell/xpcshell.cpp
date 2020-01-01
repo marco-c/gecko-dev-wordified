@@ -10408,11 +10408,6 @@ argv
 argc
 )
 ;
-xpc_LocalizeContext
-(
-cx
-)
-;
 nsCOMPtr
 <
 nsIXPConnect
