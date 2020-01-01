@@ -206,6 +206,9 @@ indexedDBPDir
 "
 permissionDBPDir
 "
+"
+UpdRootD
+"
 ]
 ;
 if
