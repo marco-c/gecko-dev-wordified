@@ -443,13 +443,11 @@ edit
 /
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 "

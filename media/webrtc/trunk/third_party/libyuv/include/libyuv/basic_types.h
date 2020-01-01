@@ -134,13 +134,11 @@ uintptr_t
 endif
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 typedef
 uint64_t
 uint64

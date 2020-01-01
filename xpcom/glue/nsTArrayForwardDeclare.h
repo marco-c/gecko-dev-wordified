@@ -189,13 +189,11 @@ parameters
 /
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 template
 <
 class

@@ -116,13 +116,11 @@ define
 ion_shared_IonFrames_x86_shared_h
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 "

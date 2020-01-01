@@ -203,13 +203,11 @@ __gl_h_
 /
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 /
 /
 ARB_sync

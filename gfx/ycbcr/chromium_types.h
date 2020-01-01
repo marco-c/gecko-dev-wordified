@@ -98,13 +98,11 @@ define
 GFX_CHROMIUMTYPES_H
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 /
 /
 On

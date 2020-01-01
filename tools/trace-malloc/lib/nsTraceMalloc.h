@@ -97,13 +97,11 @@ define
 nsTraceMalloc_h___
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 <

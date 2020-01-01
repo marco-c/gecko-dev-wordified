@@ -478,13 +478,11 @@ define
 GFX_SCRIPTITEMIZER_H
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 "

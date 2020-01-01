@@ -147,13 +147,11 @@ define
 SHARED_SURFACE_H_
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 "

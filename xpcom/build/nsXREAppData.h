@@ -101,13 +101,11 @@ define
 nsXREAppData_h
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 class
 nsIFile
 ;

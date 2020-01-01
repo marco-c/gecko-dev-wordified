@@ -112,13 +112,11 @@ define
 NSTRACEMALLOCCALLBACKS_H
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 <

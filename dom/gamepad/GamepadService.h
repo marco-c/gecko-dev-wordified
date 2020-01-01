@@ -64,13 +64,11 @@ define
 mozilla_dom_GamepadService_h_
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 "

@@ -64,13 +64,11 @@ define
 mozilla_a11y_Filters_h__
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 /
 *
 *

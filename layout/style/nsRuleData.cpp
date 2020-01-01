@@ -111,13 +111,11 @@ h
 "
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 inline
 size_t
 nsRuleData

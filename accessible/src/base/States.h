@@ -116,13 +116,11 @@ define
 _states_h_
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 namespace
 mozilla
 {

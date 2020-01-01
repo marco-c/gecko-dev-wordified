@@ -560,9 +560,7 @@ day
 #
 include
 <
-mozilla
-/
-StandardInteger
+stdint
 .
 h
 >

@@ -689,13 +689,11 @@ Conversion
 endif
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 /
 /
 The

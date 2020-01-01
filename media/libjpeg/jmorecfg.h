@@ -100,13 +100,11 @@ file
 /
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 /
 *
 *

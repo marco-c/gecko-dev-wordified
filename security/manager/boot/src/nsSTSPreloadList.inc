@@ -248,13 +248,11 @@ it
 /
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 const
 PRTime
 gPreloadListExpirationTime

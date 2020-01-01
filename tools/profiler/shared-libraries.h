@@ -162,9 +162,7 @@ h
 #
 include
 <
-mozilla
-/
-StandardInteger
+stdint
 .
 h
 >

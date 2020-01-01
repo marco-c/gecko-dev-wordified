@@ -101,13 +101,11 @@ define
 nsTextFragmentImpl_h__
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 template
 <
 size_t

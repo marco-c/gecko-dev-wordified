@@ -101,13 +101,11 @@ define
 MacLaunchHelper_h_
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 <

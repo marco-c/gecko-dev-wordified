@@ -90,13 +90,11 @@ C
 endif
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 /
 *
 *

@@ -138,13 +138,11 @@ h
 "
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 ifdef
 __cplusplus
