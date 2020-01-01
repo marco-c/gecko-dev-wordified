@@ -1782,7 +1782,6 @@ rootKind
 )
 ;
 }
-;
 }
 ;
 template

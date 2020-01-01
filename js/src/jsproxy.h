@@ -419,7 +419,6 @@ mHasPrototype
 hasPrototype
 ;
 }
-;
 public
 :
 explicit

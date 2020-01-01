@@ -893,10 +893,9 @@ thing
 )
 )
 ;
-JS_SET_TRACING_LOCATION
+JS_UNSET_TRACING_LOCATION
 (
 trc
-NULL
 )
 ;
 }
@@ -2034,10 +2033,9 @@ MarkInternal
 .
 *
 /
-JS_SET_TRACING_LOCATION
+JS_UNSET_TRACING_LOCATION
 (
 trc
-NULL
 )
 ;
 }
@@ -2376,10 +2374,9 @@ MarkInternal
 .
 *
 /
-JS_SET_TRACING_LOCATION
+JS_UNSET_TRACING_LOCATION
 (
 trc
-NULL
 )
 ;
 }
