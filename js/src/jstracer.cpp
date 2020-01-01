@@ -15927,6 +15927,9 @@ fragment
 ip
 )
 ;
+#
+ifdef
+JS_METHODJIT
 if
 (
 TRACE_PROFILER
@@ -15939,6 +15942,8 @@ AbortProfiling
 cx
 )
 ;
+#
+endif
 JS_ASSERT
 (
 JS_THREAD_DATA
@@ -45805,6 +45810,9 @@ tracerState
 =
 this
 ;
+#
+ifdef
+JS_METH
 if
 (
 TRACE_PROFILER
@@ -45817,6 +45825,8 @@ AbortProfiling
 cx
 )
 ;
+#
+endif
 JS_ASSERT
 (
 JS_THREAD_DATA
