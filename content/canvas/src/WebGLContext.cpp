@@ -2082,6 +2082,9 @@ InvalidateCanvas
 }
 if
 (
+gl
+&
+&
 mWidth
 =
 =
