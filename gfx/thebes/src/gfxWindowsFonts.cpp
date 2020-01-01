@@ -4413,9 +4413,10 @@ space
 SIZE
 size
 ;
-GetTextExtentPoint32
+GetTextExtentPoint32W
 (
 dc
+L
 "
 "
 1
@@ -4556,9 +4557,10 @@ glyph
 DWORD
 ret
 =
-GetGlyphIndicesA
+GetGlyphIndicesW
 (
 dc
+L
 "
 "
 1
