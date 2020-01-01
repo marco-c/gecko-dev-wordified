@@ -131,9 +131,9 @@ h
 #
 include
 "
-gc
+js
 /
-Root
+HashTable
 .
 h
 "
@@ -142,7 +142,7 @@ include
 "
 js
 /
-HashTable
+RootingAPI
 .
 h
 "

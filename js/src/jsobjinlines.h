@@ -258,9 +258,9 @@ h
 #
 include
 "
-gc
+js
 /
-Root
+MemoryMetrics
 .
 h
 "
@@ -269,7 +269,7 @@ include
 "
 js
 /
-MemoryMetrics
+RootingAPI
 .
 h
 "
