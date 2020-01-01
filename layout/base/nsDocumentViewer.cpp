@@ -5725,7 +5725,7 @@ if
 restoring
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 mDocument
 -
