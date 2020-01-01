@@ -6755,15 +6755,6 @@ case
 LAYER_CLIENT_TYPE_GL
 :
 {
-/
-/
-TODO
-:
-Implement
-.
-#
-if
-0
 AndroidGeckoGLLayerClient
 *
 client
@@ -6785,8 +6776,6 @@ mLayerClient
 =
 client
 ;
-#
-endif
 break
 ;
 }
