@@ -4474,7 +4474,7 @@ content
 ;
 windowUtils
 .
-sendMouseEvent
+sendMouseEventToWindow
 (
 aName
 aX
