@@ -24776,7 +24776,7 @@ return
 accService
 -
 >
-CreateHTMLTextAccessible
+CreateTextLeafAccessible
 (
 mContent
 PresContext

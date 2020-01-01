@@ -580,7 +580,7 @@ already_AddRefed
 <
 nsAccessible
 >
-CreateHTMLTextAccessible
+CreateTextLeafAccessible
 (
 nsIContent
 *

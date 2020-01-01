@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 .
 h
 "
@@ -252,8 +252,7 @@ a11y
 /
 /
 /
-nsTextAccessibleWrap
-Accessible
+TextLeafAccessibleWrap
 /
 /
 /
@@ -334,10 +333,10 @@ Accessible
 /
 /
 /
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 (
 nsIContent
 *
@@ -347,7 +346,7 @@ nsDocAccessible
 aDoc
 )
 :
-nsTextAccessible
+TextLeafAccessible
 (
 aContent
 aDoc
@@ -358,7 +357,7 @@ STDMETHODIMP_
 (
 ULONG
 )
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 AddRef
@@ -378,7 +377,7 @@ STDMETHODIMP_
 (
 ULONG
 )
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 Release
@@ -395,7 +394,7 @@ Release
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 QueryInterface
@@ -498,7 +497,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 get_domText
@@ -619,7 +618,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 get_clippedSubstringBounds
@@ -869,7 +868,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 get_unclippedSubstringBounds
@@ -1007,7 +1006,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 scrollToSubstring
@@ -1111,7 +1110,7 @@ S_OK
 }
 nsIFrame
 *
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 GetPointFromOffset
@@ -1194,7 +1193,7 @@ appropriately
 *
 /
 nsresult
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 GetCharacterExtents
@@ -1464,7 +1463,7 @@ NS_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 get_fontFamily

@@ -233,6 +233,9 @@ HTMLLIAccessible
 class
 TableAccessible
 ;
+class
+TextLeafAccessible
+;
 /
 *
 *
@@ -323,9 +326,6 @@ name
 ;
 }
 }
-class
-nsTextAccessible
-;
 class
 nsXULTreeAccessible
 ;
@@ -2967,7 +2967,13 @@ mFlags
 eTextLeafAccessible
 ;
 }
-nsTextAccessible
+mozilla
+:
+:
+a11y
+:
+:
+TextLeafAccessible
 *
 AsTextLeaf
 (

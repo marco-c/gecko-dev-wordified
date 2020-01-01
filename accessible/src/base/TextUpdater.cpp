@@ -119,10 +119,17 @@ h
 #
 include
 "
-nsTextAccessible
+TextLeafAccessible
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 void
 TextUpdater
 :
@@ -132,7 +139,7 @@ Run
 nsDocAccessible
 *
 aDocument
-nsTextAccessible
+TextLeafAccessible
 *
 aTextLeaf
 const

@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsTextAccessible
-.
-h
-"
-#
-include
-"
 Role
 .
 h
@@ -169,6 +162,13 @@ h
 include
 "
 States
+.
+h
+"
+#
+include
+"
+TextLeafAccessible
 .
 h
 "
@@ -2255,7 +2255,7 @@ aAccessible
 return
 1
 ;
-nsTextAccessible
+TextLeafAccessible
 *
 textLeaf
 =

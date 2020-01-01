@@ -294,6 +294,13 @@ h
 #
 endif
 #
+include
+"
+TextLeafAccessible
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -2396,7 +2403,7 @@ nsAccessible
 nsAccessibilityService
 :
 :
-CreateHTMLTextAccessible
+CreateTextLeafAccessible
 (
 nsIContent
 *
@@ -2411,7 +2418,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLTextAccessible
+TextLeafAccessible
 (
 aContent
 GetDocAccessible
