@@ -3213,9 +3213,6 @@ drained
 bool
 DrainOverflowLines
 (
-nsBlockReflowState
-&
-aState
 )
 ;
 /

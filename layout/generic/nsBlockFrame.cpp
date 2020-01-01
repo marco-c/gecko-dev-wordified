@@ -6951,7 +6951,6 @@ passes
 .
 DrainOverflowLines
 (
-state
 )
 ;
 /
@@ -32764,9 +32763,6 @@ nsBlockFrame
 :
 DrainOverflowLines
 (
-nsBlockReflowState
-&
-aState
 )
 {
 #
