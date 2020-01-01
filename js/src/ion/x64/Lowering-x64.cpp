@@ -977,7 +977,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
@@ -1046,6 +1046,7 @@ defineReuseInput
 (
 ins
 mir
+0
 )
 ;
 }
@@ -1077,7 +1078,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 input
 )
@@ -1088,6 +1089,7 @@ defineReuseInput
 (
 ins
 mir
+0
 )
 ;
 }
@@ -1122,7 +1124,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
@@ -1145,6 +1147,7 @@ defineReuseInput
 (
 ins
 mir
+0
 )
 ;
 }
@@ -1174,7 +1177,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
@@ -1197,6 +1200,7 @@ defineReuseInput
 (
 ins
 mir
+0
 )
 ;
 }
@@ -1266,7 +1270,7 @@ lir
 new
 LDivI
 (
-useFixed
+useFixedAtStart
 (
 div
 -
@@ -1296,6 +1300,7 @@ defineReuseInput
 (
 lir
 div
+0
 )
 &
 &
