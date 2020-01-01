@@ -417,7 +417,10 @@ AsyncOpenFailed
 (
 )
 ;
+nsRefPtr
+<
 ChannelEventQueue
+>
 mEventQ
 ;
 bool
