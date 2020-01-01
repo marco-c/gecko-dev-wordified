@@ -831,7 +831,7 @@ JSArena
 arena
 ;
 jsval
-stack
+slots
 [
 1
 ]
