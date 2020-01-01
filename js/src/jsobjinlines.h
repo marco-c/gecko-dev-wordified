@@ -7072,6 +7072,12 @@ JSObject
 obj
 =
 js_NewGCObject
+<
+js
+:
+:
+ALLOW_GC
+>
 (
 cx
 kind
@@ -7416,6 +7422,12 @@ JSObject
 obj
 =
 js_NewGCObject
+<
+js
+:
+:
+ALLOW_GC
+>
 (
 cx
 kind
@@ -11710,8 +11722,9 @@ JS_ASSERT
 global
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 id
 )
 )

@@ -822,7 +822,10 @@ JSObject
 *
 obj
 =
-js_TryNewGCObject
+js_NewGCObject
+<
+DONT_ALLOW_GC
+>
 (
 cx
 entry

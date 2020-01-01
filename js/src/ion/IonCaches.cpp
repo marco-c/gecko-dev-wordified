@@ -2659,8 +2659,9 @@ expando
 expando
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 propName
 )
 )

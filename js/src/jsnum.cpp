@@ -3642,6 +3642,9 @@ JSShortString
 str
 =
 js_NewGCShortString
+<
+ALLOW_GC
+>
 (
 cx
 )
@@ -8178,6 +8181,9 @@ JSShortString
 str
 =
 js_NewGCShortString
+<
+ALLOW_GC
+>
 (
 cx
 )

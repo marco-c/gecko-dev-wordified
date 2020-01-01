@@ -1970,8 +1970,9 @@ JS_ASSERT
 self
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 NameToId
 (
 cx
@@ -1999,8 +2000,9 @@ JS_ASSERT
 self
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 NameToId
 (
 cx
@@ -2028,8 +2030,9 @@ JS_ASSERT
 self
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 NameToId
 (
 cx
@@ -2057,8 +2060,9 @@ JS_ASSERT
 self
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 NameToId
 (
 cx
@@ -2086,8 +2090,9 @@ JS_ASSERT
 self
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 NameToId
 (
 cx
@@ -2115,8 +2120,9 @@ JS_ASSERT
 self
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 NameToId
 (
 cx

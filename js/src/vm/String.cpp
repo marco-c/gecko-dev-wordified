@@ -2457,14 +2457,10 @@ JSShortString
 *
 str
 =
-allowGC
-?
 js_NewGCShortString
-(
-cx
-)
-:
-js_TryNewGCShortString
+<
+allowGC
+>
 (
 cx
 )

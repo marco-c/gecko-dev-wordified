@@ -877,6 +877,7 @@ gc
 NewGCThing
 <
 JSObject
+ALLOW_GC
 >
 (
 cx
