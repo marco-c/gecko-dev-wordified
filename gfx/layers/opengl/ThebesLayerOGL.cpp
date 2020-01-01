@@ -437,9 +437,6 @@ BLOCK
 *
 /
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -461,8 +458,6 @@ ShadowLayers
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -5823,9 +5818,6 @@ return
 mBuffer
 ;
 }
-#
-ifdef
-MOZ_IPC
 class
 ShadowBufferOGL
 :
@@ -6697,11 +6689,6 @@ mOGLManager
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_IPC
 }
 /
 *

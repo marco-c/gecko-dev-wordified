@@ -612,8 +612,10 @@ null
 only
 in
 the
-MOZ_IPC
 parent
+(
+chrome
+)
 process
 .
 *

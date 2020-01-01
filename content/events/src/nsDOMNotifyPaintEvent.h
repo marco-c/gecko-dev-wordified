@@ -494,9 +494,6 @@ to
 base
 class
 NS_FORWARD_TO_NSDOMEVENT
-#
-ifdef
-MOZ_IPC
 virtual
 void
 Serialize
@@ -528,8 +525,6 @@ void
 aIter
 )
 ;
-#
-endif
 private
 :
 nsRegion

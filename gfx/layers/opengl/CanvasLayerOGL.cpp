@@ -428,17 +428,12 @@ BLOCK
 *
 /
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 gfxSharedImageSurface
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1485,9 +1480,6 @@ mCanvasGLContext
 ;
 }
 }
-#
-ifdef
-MOZ_IPC
 ShadowCanvasLayerOGL
 :
 :
@@ -1888,8 +1880,3 @@ program
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_IPC

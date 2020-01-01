@@ -1787,9 +1787,6 @@ gIOService
 =
 this
 ;
-#
-ifdef
-MOZ_IPC
 /
 /
 go
@@ -1811,8 +1808,6 @@ XRE_GetProcessType
 =
 GeckoProcessType_Default
 )
-#
-endif
 mNetworkLinkService
 =
 do_GetService
@@ -4402,9 +4397,6 @@ null
 "
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -4457,8 +4449,6 @@ get
 ;
 }
 }
-#
-endif
 while
 (
 mSetOfflineValue

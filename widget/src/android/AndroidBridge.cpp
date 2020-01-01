@@ -435,17 +435,12 @@ log
 h
 >
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsXULAppAPI
 .
 h
 "
-#
-endif
 #
 include
 <

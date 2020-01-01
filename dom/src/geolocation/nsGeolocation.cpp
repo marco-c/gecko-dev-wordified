@@ -392,9 +392,6 @@ BLOCK
 *
 /
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsContentPermissionHelper
@@ -504,8 +501,6 @@ TabChild
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2483,9 +2478,6 @@ mErrorCallback
 nsnull
 ;
 }
-#
-ifdef
-MOZ_IPC
 bool
 nsGeolocationRequest
 :
@@ -2521,8 +2513,6 @@ return
 true
 ;
 }
-#
-endif
 /
 /
 /
@@ -3476,9 +3466,6 @@ SetDisconnectTimer
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -3511,8 +3498,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 /
 /
 Start
@@ -3692,9 +3677,6 @@ mDisconnectTimer
 nsnull
 ;
 }
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -3730,8 +3712,6 @@ return
 bail
 early
 }
-#
-endif
 nsCOMPtr
 <
 nsIObserverService
@@ -5324,9 +5304,6 @@ nsGeolocationRequest
 request
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -5468,8 +5445,6 @@ return
 true
 ;
 }
-#
-endif
 if
 (
 nsContentUtils

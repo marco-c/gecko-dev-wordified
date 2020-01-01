@@ -1086,9 +1086,6 @@ headers
 *
 /
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -1099,8 +1096,6 @@ RPCChannel
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2664,9 +2659,6 @@ endif
 /
 /
 ACCESSIBILITY
-#
-ifdef
-MOZ_IPC
 /
 /
 Used
@@ -2701,8 +2693,6 @@ RegisterWindowMessageW
 kOOPPPluginFocusEventId
 )
 ;
-#
-endif
 MSG
 nsWindow
 :
@@ -30171,9 +30161,6 @@ helpers
 *
 *
 /
-#
-ifdef
-MOZ_IPC
 /
 /
 static
@@ -30739,11 +30726,6 @@ dwResult
 ;
 }
 }
-#
-endif
-/
-/
-MOZ_IPC
 /
 *
 *
@@ -31653,9 +31635,6 @@ GetNSWindowPtr
 hWnd
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 someWindow
@@ -31670,8 +31649,6 @@ wParam
 lParam
 )
 ;
-#
-endif
 /
 /
 create
@@ -37885,9 +37862,6 @@ SetHasTaskbarIconBeenCreated
 ;
 #
 endif
-#
-ifdef
-MOZ_IPC
 if
 (
 msg
@@ -38000,8 +37974,6 @@ NS_DEACTIVATE
 }
 }
 }
-#
-endif
 }
 break
 ;
@@ -44601,9 +44573,6 @@ PR_FALSE
 /
 break
 }
-#
-ifdef
-MOZ_IPC
 /
 /
 The
@@ -44648,8 +44617,6 @@ isVertical
 TRUE
 )
 ;
-#
-endif
 /
 /
 Assume
@@ -52687,9 +52654,6 @@ handle
 it
 ourself
 .
-#
-ifdef
-MOZ_IPC
 /
 /
 XXX
@@ -52754,8 +52718,6 @@ TRUE
 0
 )
 ;
-#
-endif
 /
 /
 First
@@ -53217,9 +53179,6 @@ return
 PR_FALSE
 ;
 }
-#
-ifdef
-MOZ_IPC
 /
 /
 The
@@ -53260,8 +53219,6 @@ ReplyMessage
 0
 )
 ;
-#
-endif
 scrollevent
 .
 isShift

@@ -3153,9 +3153,6 @@ endif
 /
 /
 MOZ_XUL
-#
-ifdef
-MOZ_IPC
 static
 bool
 IsAsyncResponseEvent
@@ -3181,11 +3178,6 @@ LPARAM
 lParam
 )
 ;
-#
-endif
-/
-/
-MOZ_IPC
 /
 *
 *
@@ -3497,15 +3489,10 @@ HasBogusPopupsDropShadowOnMultiMonitor
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 static
 PRUint32
 sOOPPPluginFocusEvent
 ;
-#
-endif
 /
 /
 Non

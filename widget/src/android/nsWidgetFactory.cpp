@@ -566,9 +566,6 @@ nsIMEPicker
 h
 "
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsFilePickerProxy
@@ -582,8 +579,6 @@ nsXULAppAPI
 .
 h
 "
-#
-endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsToolkit
@@ -708,9 +703,6 @@ nsIFilePicker
 >
 picker
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -728,8 +720,6 @@ nsFilePickerProxy
 )
 ;
 else
-#
-endif
 picker
 =
 new

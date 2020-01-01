@@ -3523,9 +3523,6 @@ return
 NS_IsMainThread
 (
 )
-#
-ifdef
-MOZ_IPC
 &
 &
 XRE_GetProcessType
@@ -3534,8 +3531,6 @@ XRE_GetProcessType
 =
 =
 GeckoProcessType_Default
-#
-endif
 ;
 }
 static

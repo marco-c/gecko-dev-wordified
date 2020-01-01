@@ -492,9 +492,6 @@ OS2
 *
 /
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -523,8 +520,6 @@ mozilla
 :
 net
 ;
-#
-endif
 #
 include
 "
@@ -1154,9 +1149,6 @@ Init
 (
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 IsNeckoChild
@@ -1170,11 +1162,6 @@ InitNeckoChild
 (
 )
 ;
-#
-endif
-/
-/
-MOZ_IPC
 if
 (
 mIdleTimeout
@@ -1862,9 +1849,6 @@ nsBaseChannel
 >
 channel
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 IsNeckoChild
@@ -1880,8 +1864,6 @@ uri
 )
 ;
 else
-#
-endif
 channel
 =
 new
