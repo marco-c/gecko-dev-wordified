@@ -559,7 +559,7 @@ fun
 >
 flags
 &
-JSFUN_TRACEABLE
+JSFUN_TRCINFO
 )
 &
 &

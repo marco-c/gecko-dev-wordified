@@ -24144,12 +24144,12 @@ fs
 >
 flags
 &
-JSFUN_TRACEABLE
+JSFUN_TRCINFO
 )
 ?
 JS_FUNC_TO_DATA_PTR
 (
-JSTraceableNative
+JSNativeTraceInfo
 *
 fs
 -
@@ -24767,7 +24767,7 @@ nargs
 flags
 &
 ~
-JSFUN_TRACEABLE
+JSFUN_TRCINFO
 )
 ;
 if
