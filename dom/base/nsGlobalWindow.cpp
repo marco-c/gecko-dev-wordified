@@ -12381,6 +12381,13 @@ inner
 {
 NS_ASSERTION
 (
+!
+inner
+-
+>
+mOuterWindow
+|
+|
 inner
 -
 >
@@ -39065,6 +39072,13 @@ inner
 {
 NS_ASSERTION
 (
+!
+inner
+-
+>
+mOuterWindow
+|
+|
 inner
 -
 >
