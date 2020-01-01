@@ -1740,6 +1740,7 @@ function
 WifiStatusChangeEvent
 (
 network
+status
 )
 {
 this
@@ -1747,6 +1748,12 @@ this
 network
 =
 network
+;
+this
+.
+status
+=
+status
 ;
 }
 WifiStatusChangeEvent
