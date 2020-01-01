@@ -16316,7 +16316,7 @@ allow
 it
 in
 .
-nsresult
+NS_IMETHODIMP
 nsNavHistory
 :
 :
@@ -16330,6 +16330,11 @@ PRBool
 canAdd
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 nsCAutoString
 scheme
 ;
@@ -16612,6 +16617,11 @@ PRInt64
 aVisitID
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 /
 /
 Filter
