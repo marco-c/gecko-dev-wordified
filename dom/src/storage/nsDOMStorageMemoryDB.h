@@ -522,13 +522,6 @@ mUsageDelta
 0
 )
 {
-mTable
-.
-Init
-(
-20
-)
-;
 }
 }
 ;
