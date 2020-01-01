@@ -699,7 +699,7 @@ PR_FALSE
 )
 ;
 PRBool
-allSites
+disabled
 =
 PR_FALSE
 ;
@@ -713,10 +713,10 @@ GetBoolPref
 "
 webgl
 .
-enabled_for_all_sites
+disabled
 "
 &
-allSites
+disabled
 )
 ;
 if
@@ -727,7 +727,8 @@ rv
 )
 &
 &
-allSites
+!
+disabled
 )
 {
 /
