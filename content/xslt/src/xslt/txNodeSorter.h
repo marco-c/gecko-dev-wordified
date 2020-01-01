@@ -624,6 +624,7 @@ aNodeIndex
 txList
 mSortKeys
 ;
+unsigned
 int
 mNKeys
 ;
