@@ -1529,7 +1529,7 @@ printed
                 
 print
 (
-HOMEBREW_PACKAGES
+PACKAGE_MANAGER_PACKAGES
 )
                 
 printed
