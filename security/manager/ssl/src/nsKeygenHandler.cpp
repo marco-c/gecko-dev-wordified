@@ -2717,7 +2717,7 @@ dialogs
 >
 ChooseToken
 (
-nsnull
+m_ctx
 (
 const
 PRUnichar
