@@ -13263,7 +13263,7 @@ move
 )
 BMDS
 .
-beginUpdateBatch
+endUpdateBatch
 (
 )
 ;
