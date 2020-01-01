@@ -945,11 +945,7 @@ bool
 WidgetPaintsBackground
 (
 )
-{
-return
-true
 ;
-}
 #
 endif
 protected
