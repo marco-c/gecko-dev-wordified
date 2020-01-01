@@ -683,14 +683,6 @@ mozIStorageConnection
 aConnection
 )
 ;
-nsresult
-ExpireEmbeddedLinks
-(
-mozIStorageConnection
-*
-aConnection
-)
-;
 /
 /
 parts
