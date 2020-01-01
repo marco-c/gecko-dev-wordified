@@ -137,7 +137,6 @@ BGRALayerProgramType
 RGBXLayerProgramType
 BGRXLayerProgramType
 RGBARectLayerProgramType
-BGRARectLayerProgramType
 RGBAExternalLayerProgramType
 ColorLayerProgramType
 YCbCrLayerProgramType
