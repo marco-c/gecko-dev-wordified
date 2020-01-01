@@ -668,6 +668,9 @@ mLevel
 bool
 mCharging
 ;
+double
+mDischargingTime
+;
 nsRefPtr
 <
 nsDOMEventListenerWrapper
@@ -679,6 +682,12 @@ nsRefPtr
 nsDOMEventListenerWrapper
 >
 mOnChargingChangeListener
+;
+nsRefPtr
+<
+nsDOMEventListenerWrapper
+>
+mOnDischargingTimeChangeListener
 ;
 }
 ;
