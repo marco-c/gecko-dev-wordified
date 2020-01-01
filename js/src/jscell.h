@@ -6,6 +6,8 @@
 Mode
 :
 C
++
++
 ;
 tab
 -
@@ -594,15 +596,6 @@ JS_ALWAYS_INLINE
 size_t
 cellIndex
 (
-)
-const
-;
-JS_ALWAYS_INLINE
-void
-mark
-(
-uint32
-color
 )
 const
 ;
