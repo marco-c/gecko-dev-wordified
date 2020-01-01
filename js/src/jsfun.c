@@ -10875,7 +10875,7 @@ args_length
 old_args_length
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -10938,7 +10938,7 @@ jschar
 )
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )

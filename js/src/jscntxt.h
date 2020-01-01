@@ -6105,6 +6105,15 @@ JSContext
 cx
 )
 ;
+extern
+void
+js_ReportAllocationOverflow
+(
+JSContext
+*
+cx
+)
+;
 #
 define
 JS_CHECK_RECURSION
