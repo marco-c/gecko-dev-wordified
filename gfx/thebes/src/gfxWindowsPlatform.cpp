@@ -4770,9 +4770,12 @@ gfxWindowsPlatform
 MakePlatformFont
 (
 const
-gfxFontEntry
+gfxProxyFontEntry
 *
 aProxyEntry
+nsISupports
+*
+aLoader
 const
 PRUint8
 *

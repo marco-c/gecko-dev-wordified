@@ -879,6 +879,14 @@ aChar8Ptr
 }
 static
 PRUint8
+FcSlantToThebesStyle
+(
+int
+aFcSlant
+)
+;
+static
+PRUint8
 GetThebesStyle
 (
 FcPattern
@@ -965,7 +973,10 @@ FcPattern
 NewPattern
 (
 const
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aFamilies
 const
