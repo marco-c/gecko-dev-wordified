@@ -805,13 +805,6 @@ h
 #
 include
 "
-nsIDOMPopStateEvent_MOZILLA_2_BRANCH
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -11931,10 +11924,6 @@ nsIDOMPopStateEvent
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMPopStateEvent
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMPopStateEvent_MOZILLA_2_BRANCH
 )
 DOM_CLASSINFO_EVENT_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
