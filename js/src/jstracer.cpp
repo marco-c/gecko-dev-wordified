@@ -33078,6 +33078,9 @@ through
 case
 BRANCH_EXIT
 :
+case
+CASE_EXIT
+:
 /
 *
 abort
