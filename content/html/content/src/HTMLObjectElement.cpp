@@ -2141,10 +2141,17 @@ JSObject
 aScope
 )
 {
+JS
+:
+:
+Rooted
+<
 JSObject
 *
+>
 obj
-=
+(
+aCx
 HTMLObjectElementBinding
 :
 :
@@ -2153,6 +2160,7 @@ Wrap
 aCx
 aScope
 this
+)
 )
 ;
 if

@@ -3786,10 +3786,17 @@ JSObject
 aScope
 )
 {
+JS
+:
+:
+Rooted
+<
 JSObject
 *
+>
 obj
-=
+(
+aCx
 XMLDocumentBinding
 :
 :
@@ -3798,6 +3805,7 @@ Wrap
 aCx
 aScope
 this
+)
 )
 ;
 if
