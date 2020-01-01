@@ -1280,11 +1280,12 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLSelectElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE2
+NS_HTML_CONTENT_INTERFACE_TABLE3
 (
 nsHTMLSelectElement
 nsIDOMHTMLSelectElement
 nsISelectElement
+nsConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -1321,9 +1322,6 @@ nsAString
 aError
 )
 {
-nsresult
-rv
-=
 nsConstraintValidation
 :
 :
@@ -1359,7 +1357,7 @@ NS_EVENT_STATE_VALID
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -7861,7 +7859,6 @@ if
 (
 IsCandidateForConstraintValidation
 (
-this
 )
 )
 {

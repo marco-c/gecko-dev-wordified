@@ -5342,6 +5342,12 @@ IsLabelableControl
 )
 const
 ;
+PRBool
+IsSubmittableControl
+(
+)
+const
+;
 /
 /
 nsIContent
