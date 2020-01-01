@@ -2380,18 +2380,6 @@ sp
 =
 NULL
 ;
-state
-.
-rp
-=
-NULL
-;
-state
-.
-f
-=
-NULL
-;
 /
 *
 Begin
@@ -2484,7 +2472,7 @@ LIR_trace
 frag
 -
 >
-param0
+state
 =
 lirout
 -
