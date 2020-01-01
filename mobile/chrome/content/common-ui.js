@@ -5094,6 +5094,9 @@ true
 if
 (
 focusedElement
+&
+&
+focusedElement
 .
 localName
 =
