@@ -788,6 +788,10 @@ OverrideMapping
 >
 &
 overrides
+const
+nsCString
+&
+locale
 )
 ;
 virtual
