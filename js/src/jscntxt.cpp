@@ -2171,15 +2171,6 @@ JS_AbortIfWrongThread
 rt
 )
 ;
-JS_ASSERT
-(
-!
-cx
--
->
-enumerators
-)
-;
 #
 ifdef
 JS_THREADSAFE
@@ -7126,10 +7117,6 @@ NULL
 )
 #
 endif
-enumerators
-(
-NULL
-)
 innermostGenerator_
 (
 NULL
