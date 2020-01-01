@@ -488,6 +488,12 @@ mLock
 ;
 #
 if
+defined
+(
+WINCE
+)
+#
+elif
 !
 defined
 (
