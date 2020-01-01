@@ -2468,6 +2468,9 @@ gcLastBytes
 bool
 hold
 ;
+bool
+systemGCChunks
+;
 /
 *
 *
