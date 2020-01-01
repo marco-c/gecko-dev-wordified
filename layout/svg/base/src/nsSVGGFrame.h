@@ -452,6 +452,13 @@ nsSVGContainerFrame
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 typedef
 nsSVGDisplayContainerFrame
 nsSVGGFrameBase
@@ -603,10 +610,7 @@ nsSVGContainerFrame
 methods
 :
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

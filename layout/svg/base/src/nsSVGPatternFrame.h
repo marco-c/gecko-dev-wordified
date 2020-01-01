@@ -581,10 +581,7 @@ nsSVGContainerFrame
 methods
 :
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

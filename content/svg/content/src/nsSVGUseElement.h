@@ -655,6 +655,16 @@ nsSVGElement
 specializations
 :
 virtual
+gfxMatrix
+PrependLocalTransformTo
+(
+const
+gfxMatrix
+&
+aMatrix
+)
+;
+virtual
 void
 DidChangeLength
 (

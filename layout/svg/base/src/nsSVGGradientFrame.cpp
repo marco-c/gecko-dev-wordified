@@ -1518,6 +1518,10 @@ return
 bboxMatrix
 ;
 return
+bboxMatrix
+.
+PreMultiply
+(
 nsSVGUtils
 :
 :
@@ -1525,8 +1529,7 @@ ConvertSVGMatrixToThebes
 (
 gradientTransform
 )
-*
-bboxMatrix
+)
 ;
 }
 PRUint16

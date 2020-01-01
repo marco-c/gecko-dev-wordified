@@ -460,6 +460,13 @@ nsISVGGlyphFragmentNode
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 typedef
 nsSVGTextContainerFrame
 nsSVGTSpanFrameBase
@@ -600,10 +607,7 @@ nsSVGContainerFrame
 methods
 :
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

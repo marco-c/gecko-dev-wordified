@@ -433,6 +433,13 @@ nsSVGContainerFrame
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 class
 gfxContext
 ;
@@ -651,10 +658,7 @@ nsSVGContainerFrame
 methods
 :
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

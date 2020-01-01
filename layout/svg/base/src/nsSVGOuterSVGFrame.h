@@ -474,6 +474,13 @@ nsIDOMSVGNumber
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 class
 nsSVGForeignObjectFrame
 ;
@@ -933,10 +940,7 @@ nsSVGContainerFrame
 methods
 :
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )
