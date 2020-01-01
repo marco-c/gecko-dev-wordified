@@ -1307,10 +1307,12 @@ nsXULPrototypeDocument
 :
 Read
 and
-nsXULPDGlobalObject
+/
+/
+nsXULPrototypeDocument
 :
 :
-GetGlobalObject
+GetScriptGlobalObject
 .
 /
 /

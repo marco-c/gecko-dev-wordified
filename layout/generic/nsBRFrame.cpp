@@ -1124,7 +1124,7 @@ line
 height
 is
 less
-that
+than
 1
 .
 nsLayoutUtils
