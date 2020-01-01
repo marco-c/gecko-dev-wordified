@@ -1102,7 +1102,7 @@ nsIDOMCSSValue
 aResult
 )
 ;
-nsresult
+void
 GetCSSGradientString
 (
 const
@@ -1114,7 +1114,7 @@ nsAString
 aString
 )
 ;
-nsresult
+void
 GetImageRectString
 (
 nsIURI
@@ -2899,7 +2899,7 @@ nscolor
 aColor
 )
 ;
-nsresult
+void
 SetValueToStyleImage
 (
 const
