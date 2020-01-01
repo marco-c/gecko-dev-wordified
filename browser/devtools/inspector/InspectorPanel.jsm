@@ -2928,6 +2928,12 @@ highlighter
 =
 null
 ;
+this
+.
+_searchResults
+=
+null
+;
 return
 Promise
 .

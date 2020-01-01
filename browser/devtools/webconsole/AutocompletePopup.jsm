@@ -1365,6 +1365,15 @@ selectedIndex
 =
 aIndex
 ;
+if
+(
+this
+.
+_list
+.
+ensureIndexIsVisible
+)
+{
 this
 .
 _list
@@ -1378,6 +1387,7 @@ _list
 selectedIndex
 )
 ;
+}
 }
 /
 *

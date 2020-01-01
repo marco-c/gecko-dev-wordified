@@ -467,7 +467,13 @@ toolbox
 destroy
 (
 )
-;
+.
+then
+(
+function
+(
+)
+{
 gBrowser
 .
 removeCurrentTab
@@ -486,6 +492,9 @@ null
 ;
 finish
 (
+)
+;
+}
 )
 ;
 }

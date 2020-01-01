@@ -4060,10 +4060,6 @@ aRequest
 URI
 .
 spec
-title
-:
-"
-"
 nativeConsoleAPI
 :
 true
