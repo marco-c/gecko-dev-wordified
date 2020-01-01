@@ -4061,6 +4061,8 @@ focusedElement
 nsIDOMNode
 *
 focusedNode
+=
+nsnull
 ;
 if
 (
@@ -4093,9 +4095,14 @@ focusedWinInternal
 ;
 if
 (
+!
 focusedWinInternal
 )
 {
+return
+nsnull
+;
+}
 nsCOMPtr
 <
 nsIDOMDocument
@@ -4141,7 +4148,6 @@ void
 focusedNode
 )
 ;
-}
 }
 else
 {
