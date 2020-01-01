@@ -1748,7 +1748,6 @@ e
 )
 {
 }
-}
 /
 /
 We
@@ -1801,6 +1800,7 @@ processNextEvent
 false
 )
 ;
+}
 }
 function
 run_test
