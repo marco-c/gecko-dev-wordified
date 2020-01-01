@@ -495,11 +495,6 @@ locale
 &
 charset
 nsresult
-InitInfo
-(
-)
-;
-nsresult
 MapToCharset
 (
 short

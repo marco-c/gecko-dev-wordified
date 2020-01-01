@@ -207,11 +207,6 @@ file
 in
 [
 "
-charsetalias
-.
-properties
-"
-"
 charsetData
 .
 properties
