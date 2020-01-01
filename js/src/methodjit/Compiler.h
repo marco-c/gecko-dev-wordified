@@ -4473,6 +4473,11 @@ jsop_pos
 (
 )
 ;
+void
+jsop_in
+(
+)
+;
 static
 inline
 Assembler
