@@ -408,6 +408,13 @@ Preferences_uninit
 (
 )
 {
+if
+(
+this
+.
+_branch
+)
+{
 this
 .
 _branch
@@ -425,6 +432,7 @@ _branch
 =
 null
 ;
+}
 }
 observe
 :
