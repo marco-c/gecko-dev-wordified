@@ -1739,6 +1739,11 @@ void
 aCallbackData
 )
 {
+if
+(
+mRoot
+)
+{
 mCurrentCallbackInfo
 .
 Callback
@@ -1806,6 +1811,7 @@ CallbackData
 =
 nsnull
 ;
+}
 mTarget
 =
 nsnull
@@ -2810,11 +2816,6 @@ Render
 (
 )
 {
-if
-(
-mRoot
-)
-{
 static_cast
 <
 LayerD3D10
@@ -2834,7 +2835,6 @@ Validate
 (
 )
 ;
-}
 SetupPipeline
 (
 )
@@ -2873,11 +2873,6 @@ GetClientBounds
 rect
 )
 ;
-if
-(
-mRoot
-)
-{
 const
 nsIntRect
 *
@@ -3021,7 +3016,6 @@ RenderLayer
 (
 )
 ;
-}
 if
 (
 mTarget

@@ -1048,6 +1048,11 @@ GetDeviceResetCount
 (
 )
 ;
+if
+(
+mRoot
+)
+{
 mCurrentCallbackInfo
 .
 Callback
@@ -1124,6 +1129,7 @@ CallbackData
 =
 NULL
 ;
+}
 /
 /
 Clear
@@ -1513,11 +1519,6 @@ BeginScene
 (
 )
 ;
-if
-(
-mRoot
-)
-{
 const
 nsIntRect
 *
@@ -1660,7 +1661,6 @@ RenderLayer
 (
 )
 ;
-}
 device
 (
 )

@@ -2290,6 +2290,11 @@ manager
 return
 ;
 }
+if
+(
+mRoot
+)
+{
 /
 /
 The
@@ -2349,6 +2354,7 @@ mThebesLayerCallbackData
 =
 nsnull
 ;
+}
 mTarget
 =
 NULL
