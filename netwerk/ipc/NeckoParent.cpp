@@ -1056,9 +1056,7 @@ if
 error
 )
 {
-NS_WARNING
-(
-nsPrintfCString
+printf_stderr
 (
 "
 NeckoParent
@@ -1081,11 +1079,6 @@ PROCESS
 n
 "
 error
-)
-.
-get
-(
-)
 )
 ;
 return
@@ -1197,9 +1190,7 @@ if
 error
 )
 {
-NS_WARNING
-(
-nsPrintfCString
+printf_stderr
 (
 "
 NeckoParent
@@ -1222,11 +1213,6 @@ PROCESS
 n
 "
 error
-)
-.
-get
-(
-)
 )
 ;
 return
@@ -1435,9 +1421,7 @@ if
 error
 )
 {
-NS_WARNING
-(
-nsPrintfCString
+printf_stderr
 (
 "
 NeckoParent
@@ -1460,11 +1444,6 @@ PROCESS
 n
 "
 error
-)
-.
-get
-(
-)
 )
 ;
 return
@@ -1748,7 +1727,7 @@ if
 aBrowser
 )
 {
-NS_WARNING
+printf_stderr
 (
 "
 NeckoParent
@@ -2155,7 +2134,7 @@ Length
 )
 )
 {
-NS_WARNING
+printf_stderr
 (
 "
 NeckoParent
@@ -2302,7 +2281,7 @@ mustMatch
 )
 )
 {
-NS_WARNING
+printf_stderr
 (
 "
 NeckoParent
