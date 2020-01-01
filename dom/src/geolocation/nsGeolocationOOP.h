@@ -421,6 +421,13 @@ h
 #
 include
 "
+nsIGeolocationPrompt
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
