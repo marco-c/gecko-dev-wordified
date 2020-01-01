@@ -4940,6 +4940,7 @@ XPCStringConvert
 :
 JSStringToReadable
 (
+ccx
 str
 )
 ;

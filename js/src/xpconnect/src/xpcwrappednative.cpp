@@ -15337,12 +15337,16 @@ IsValDOMString
 (
 )
 )
-delete
+ccx
+.
+DeleteString
+(
 (
 nsAString
 *
 )
 p
+)
 ;
 else
 if
