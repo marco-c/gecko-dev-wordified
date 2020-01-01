@@ -479,6 +479,9 @@ nsIPrincipal
 *
 *
 aPrincipal
+bool
+*
+aBypassCache
 )
 ;
 virtual

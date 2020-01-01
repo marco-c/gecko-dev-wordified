@@ -2851,6 +2851,9 @@ principal
 =
 nullptr
 ;
+bool
+bypassCache
+;
 nsresult
 rv
 =
@@ -2860,6 +2863,8 @@ CheckFontLoad
 currSrc
 &
 principal
+&
+bypassCache
 )
 ;
 if
@@ -2874,6 +2879,12 @@ principal
 !
 =
 nullptr
+)
+{
+if
+(
+!
+bypassCache
 )
 {
 /
@@ -2919,6 +2930,7 @@ fe
 return
 STATUS_LOADED
 ;
+}
 }
 /
 /
@@ -3018,16 +3030,12 @@ rv
 )
 &
 &
-(
-fe
-=
 LoadFont
 (
 aFamily
 aProxyEntry
 buffer
 bufferLength
-)
 )
 )
 {
