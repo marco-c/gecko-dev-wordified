@@ -16152,11 +16152,11 @@ obj
 |
 |
 !
-JS_SetParent
+JS_SetPrivate
 (
 cx
 obj
-NULL
+cpx
 )
 )
 {
