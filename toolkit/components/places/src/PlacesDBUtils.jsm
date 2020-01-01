@@ -828,7 +828,7 @@ Check
 for
 idle
 every
-30
+10
 minutes
 and
 do
@@ -849,7 +849,7 @@ IDLE_TIMEOUT
 const
 IDLE_LOOKUP_REPEAT
 =
-30
+10
 *
 60
 *
