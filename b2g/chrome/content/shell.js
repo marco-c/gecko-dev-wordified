@@ -654,6 +654,11 @@ webcontacts
 -
 manage
 '
+'
+wifi
+-
+manage
+'
 ]
 ;
 urls

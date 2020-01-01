@@ -2205,7 +2205,7 @@ throw
 new
 Components
 .
-exception
+Exception
 (
 "
 Denied
@@ -2239,7 +2239,7 @@ throw
 new
 Components
 .
-exception
+Exception
 (
 "
 Denied
