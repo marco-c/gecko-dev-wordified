@@ -2804,6 +2804,10 @@ isGetter
 bool
 *
 isDOM
+MDefinition
+*
+*
+guardOut
 )
 ;
 bool
