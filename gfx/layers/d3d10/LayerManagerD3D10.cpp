@@ -1886,6 +1886,10 @@ BeginTransaction
 (
 )
 {
+mInTransaction
+=
+true
+;
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
@@ -1922,6 +1926,10 @@ gfxContext
 aTarget
 )
 {
+mInTransaction
+=
+true
+;
 mTarget
 =
 aTarget
@@ -1937,6 +1945,10 @@ EndTransactionFlags
 aFlags
 )
 {
+mInTransaction
+=
+false
+;
 if
 (
 !
@@ -1971,6 +1983,10 @@ EndTransactionFlags
 aFlags
 )
 {
+mInTransaction
+=
+false
+;
 if
 (
 mRoot
