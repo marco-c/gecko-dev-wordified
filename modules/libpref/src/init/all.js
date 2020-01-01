@@ -3803,7 +3803,7 @@ telemetry
 infoURL
 "
 "
-http
+https
 :
 /
 /
@@ -3811,7 +3811,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 legal
 /
