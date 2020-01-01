@@ -9185,8 +9185,6 @@ this
 .
 element
 =
-cwu
-.
 elementFromPoint
 (
 json
@@ -9195,8 +9193,6 @@ x
 json
 .
 y
-false
-false
 )
 ;
 cancelled
