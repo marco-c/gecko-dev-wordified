@@ -1955,6 +1955,12 @@ DoGetWhiteSpace
 ;
 nsIDOMCSSValue
 *
+DoGetWordBreak
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetWordWrap
 (
 )
