@@ -940,11 +940,6 @@ NotifySVGChanged
 nsISVGChildFrame
 :
 :
-DO_NOT_NOTIFY_RENDERING_OBSERVERS
-|
-nsISVGChildFrame
-:
-:
 TRANSFORM_CHANGED
 )
 ;
