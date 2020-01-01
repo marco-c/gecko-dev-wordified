@@ -11311,7 +11311,7 @@ reference
 to
 the
 defined
-grammer
+grammar
 "
 bnf
 "
