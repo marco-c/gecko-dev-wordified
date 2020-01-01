@@ -3563,6 +3563,10 @@ if
 (
 !
 mMenuParent
+|
+|
+!
+mMenuParent
 -
 >
 IsRecentlyClosed
