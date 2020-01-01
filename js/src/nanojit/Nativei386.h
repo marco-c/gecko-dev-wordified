@@ -468,6 +468,9 @@ __nanojit_Nativei386__
 ifdef
 PERFM
 #
+define
+DOPROF
+#
 include
 "
 .
@@ -1699,7 +1702,7 @@ NanoAssert
 (
 unsigned
 (
-r
+i
 )
 <
 8
@@ -1715,7 +1718,7 @@ b
 &
 unsigned
 (
-i
+r
 )
 <
 8
@@ -4603,6 +4606,9 @@ _nIns
 )
 |
 (
+(
+uint8_t
+)
 i
 <
 <
@@ -4626,6 +4632,9 @@ _nIns
 )
 |
 (
+(
+uint8_t
+)
 r
 <
 <
@@ -6311,6 +6320,10 @@ b
 )
 do
 {
+count_ld
+(
+)
+;
 NanoAssert
 (
 (
