@@ -1400,10 +1400,6 @@ LambdaPar
 )
 SAFE_OP
 (
-DumpPar
-)
-SAFE_OP
-(
 AbortPar
 )
 UNSAFE_OP
