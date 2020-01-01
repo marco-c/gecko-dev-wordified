@@ -732,12 +732,11 @@ me
 -
 >
 buffer
-=
+!
 =
 NULL
 )
-return
-;
+{
 trash
 -
 >
@@ -808,6 +807,7 @@ NULL
 {
 return
 ;
+}
 }
 /
 *
