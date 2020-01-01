@@ -2356,6 +2356,15 @@ bool
 constructing
 )
 ;
+InliningStatus
+inlineArrayConcat
+(
+uint32
+argc
+bool
+constructing
+)
+;
 /
 /
 Math

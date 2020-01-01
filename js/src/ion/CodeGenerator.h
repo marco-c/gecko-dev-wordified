@@ -1084,6 +1084,14 @@ lir
 )
 ;
 bool
+visitArrayConcat
+(
+LArrayConcat
+*
+lir
+)
+;
+bool
 visitLoadTypedArrayElement
 (
 LLoadTypedArrayElement

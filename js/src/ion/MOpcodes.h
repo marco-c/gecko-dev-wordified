@@ -587,6 +587,11 @@ ArrayPush
 \
 _
 (
+ArrayConcat
+)
+\
+_
+(
 LoadTypedArrayElement
 )
 \
