@@ -12771,6 +12771,17 @@ _type
 )
 return
 ;
+if
+(
+aIsInstall
+&
+&
+aObj
+.
+existingAddon
+)
+return
+;
 let
 prop
 =
