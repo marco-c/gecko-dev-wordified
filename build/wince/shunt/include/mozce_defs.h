@@ -3448,6 +3448,10 @@ endif
 define
 SHGetSpecialFolderPathW
 SHGetSpecialFolderPath
+#
+define
+SHGetFileInfoW
+SHGetFileInfo
 /
 /
 On
