@@ -12848,7 +12848,7 @@ aStatus
 aLastChildReflowed
 aDesiredSize
 .
-mOverflowArea
+mOverflowAreas
 )
 ;
 ReflowColGroups
@@ -17573,7 +17573,7 @@ update
 aReflowMetrics
 a
 aStatus
-NS_METHOD
+nsresult
 nsTableFrame
 :
 :
@@ -17589,9 +17589,9 @@ nsIFrame
 *
 &
 aLastChildReflowed
-nsRect
+nsOverflowAreas
 &
-aOverflowArea
+aOverflowAreas
 )
 {
 aStatus
@@ -17659,14 +17659,10 @@ availSize
 .
 height
 ;
-aOverflowArea
-=
-nsRect
+aOverflowAreas
+.
+Clear
 (
-0
-0
-0
-0
 )
 ;
 PRBool
@@ -19237,7 +19233,7 @@ height
 }
 ConsiderChildOverflow
 (
-aOverflowArea
+aOverflowAreas
 kidFrame
 )
 ;

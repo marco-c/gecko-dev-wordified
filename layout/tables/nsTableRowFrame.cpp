@@ -4817,7 +4817,7 @@ height
 )
 ;
 }
-NS_METHOD
+nsresult
 nsTableRowFrame
 :
 :

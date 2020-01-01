@@ -2612,7 +2612,7 @@ in
 flow
 *
 /
-NS_METHOD
+nsresult
 ReflowChildren
 (
 nsPresContext

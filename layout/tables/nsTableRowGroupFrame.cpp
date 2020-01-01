@@ -2195,7 +2195,7 @@ height
 }
 }
 }
-NS_METHOD
+nsresult
 nsTableRowGroupFrame
 :
 :

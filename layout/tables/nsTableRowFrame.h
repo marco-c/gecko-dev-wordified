@@ -1698,7 +1698,7 @@ cells
 .
 *
 /
-NS_IMETHOD
+nsresult
 ReflowChildren
 (
 nsPresContext

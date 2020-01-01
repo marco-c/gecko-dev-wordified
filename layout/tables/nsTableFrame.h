@@ -3410,7 +3410,7 @@ nscoord
 aDesiredHeight
 )
 ;
-NS_METHOD
+nsresult
 ReflowChildren
 (
 nsTableReflowState
@@ -3423,9 +3423,9 @@ nsIFrame
 *
 &
 aLastChildReflowed
-nsRect
+nsOverflowAreas
 &
-aOverflowArea
+aOverflowAreas
 )
 ;
 /
