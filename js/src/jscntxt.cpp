@@ -8367,9 +8367,12 @@ undef
 MSG_DEF
 }
 ;
+JS_FRIEND_API
+(
 const
 JSErrorFormatString
 *
+)
 js_GetErrorMessage
 (
 void
