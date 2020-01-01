@@ -133,7 +133,7 @@ h
 #
 include
 "
-jsprvtd
+jsbytecode
 .
 h
 "
