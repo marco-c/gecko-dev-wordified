@@ -2961,6 +2961,7 @@ parent
 .
 *
 /
+virtual
 void
 BindToParent
 (
