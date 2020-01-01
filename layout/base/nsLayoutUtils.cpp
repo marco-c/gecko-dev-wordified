@@ -18121,7 +18121,7 @@ fontAscent
 aFontMetrics
 -
 >
-GetHeight
+GetMaxHeight
 (
 fontHeight
 )

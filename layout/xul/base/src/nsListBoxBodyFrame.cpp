@@ -1436,7 +1436,7 @@ fm
 fm
 -
 >
-GetHeight
+GetMaxHeight
 (
 mRowHeight
 )

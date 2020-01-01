@@ -15464,7 +15464,7 @@ fm
 fm
 -
 >
-GetHeight
+GetMaxHeight
 (
 lineHeight
 )

@@ -16130,11 +16130,6 @@ nsRect
 aRect
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 /
 /
 Get
@@ -18020,11 +18015,6 @@ nsRect
 aRect
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 /
 /
 Get

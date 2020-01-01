@@ -783,9 +783,6 @@ nsHTMLReflowMetrics
 aDesiredSize
 )
 {
-nsresult
-rv
-;
 /
 /
 clear
