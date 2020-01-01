@@ -1102,6 +1102,17 @@ MOZ_GTK_TREE_HEADER_CELL
 /
 *
 Paints
+sort
+arrows
+in
+treeheader
+cells
+*
+/
+MOZ_GTK_TREE_HEADER_SORTARROW
+/
+*
+Paints
 the
 background
 of
