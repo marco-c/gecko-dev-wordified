@@ -7216,7 +7216,7 @@ runtime
 if
 (
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 obj
@@ -7255,7 +7255,7 @@ ECMA
 if
 (
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 obj

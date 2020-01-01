@@ -9532,7 +9532,7 @@ ctor
 |
 \
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 ctor
@@ -9562,7 +9562,7 @@ JSPROP_READONLY
 |
 \
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 proto

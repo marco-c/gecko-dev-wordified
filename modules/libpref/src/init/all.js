@@ -7122,7 +7122,7 @@ options
 .
 typeinference
 "
-false
+true
 )
 ;
 /

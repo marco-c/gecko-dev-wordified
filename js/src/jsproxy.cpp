@@ -9170,7 +9170,7 @@ type
 if
 (
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 obj
