@@ -457,7 +457,7 @@ gfxMatrix
 h
 "
 class
-nsIDOMSVGAnimatedPreserveAspectRatio
+nsSVGPreserveAspectRatio
 ;
 class
 nsIFrame
@@ -792,13 +792,11 @@ GetPatternTransform
 (
 )
 ;
-NS_IMETHOD
+const
+nsSVGPreserveAspectRatio
+&
 GetPreserveAspectRatio
 (
-nsIDOMSVGAnimatedPreserveAspectRatio
-*
-*
-aPreserveAspectRatio
 )
 ;
 NS_IMETHOD
