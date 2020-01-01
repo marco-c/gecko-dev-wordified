@@ -514,7 +514,10 @@ JSContext
 *
 cx
 jsval
-aPath
+path
+JSCTypesCallbacks
+*
+callbacks
 )
 ;
 bool
