@@ -2003,6 +2003,14 @@ atom
 )
 ;
 bool
+jsop_setprop
+(
+JSAtom
+*
+atom
+)
+;
+bool
 jsop_newarray
 (
 uint32
