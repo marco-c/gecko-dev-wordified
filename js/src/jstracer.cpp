@@ -85532,12 +85532,6 @@ js_AllocFlatClosure
 OOM_EXIT
 )
 ;
-stack
-(
-0
-call_ins
-)
-;
 if
 (
 fun
@@ -85640,6 +85634,12 @@ upvar_ins
 ;
 }
 }
+stack
+(
+0
+call_ins
+)
+;
 return
 JSRS_CONTINUE
 ;
