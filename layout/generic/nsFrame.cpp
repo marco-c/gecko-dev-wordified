@@ -37441,7 +37441,7 @@ as
 well
 .
 Otherwise
-ReParentStyleContext
+ReparentStyleContext
 could
 cause
 /

@@ -818,7 +818,7 @@ parent
 frameManager
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 e
 .

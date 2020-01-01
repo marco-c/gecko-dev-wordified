@@ -838,7 +838,7 @@ GetSkipSides
 const
 ;
 void
-ReParentFrameList
+ReparentFrameList
 (
 const
 nsFrameList
@@ -3760,7 +3760,7 @@ legend
 for
 this
 fieldset
-ReParentFrameList
+ReparentFrameList
 (
 aFrameList
 )
@@ -3845,7 +3845,7 @@ legend
 for
 this
 fieldset
-ReParentFrameList
+ReparentFrameList
 (
 aFrameList
 )
@@ -3997,7 +3997,7 @@ void
 nsFieldSetFrame
 :
 :
-ReParentFrameList
+ReparentFrameList
 (
 const
 nsFrameList
@@ -4094,7 +4094,7 @@ mContentFrame
 frameManager
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 e
 .

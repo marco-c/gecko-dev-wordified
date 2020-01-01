@@ -1143,7 +1143,7 @@ NS_HIDDEN_
 (
 nsresult
 )
-ReParentStyleContext
+ReparentStyleContext
 (
 nsIFrame
 *

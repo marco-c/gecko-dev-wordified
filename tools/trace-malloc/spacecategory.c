@@ -878,7 +878,7 @@ return
 ;
 }
 int
-ReParent
+Reparent
 (
 STCategoryNode
 *
@@ -2005,7 +2005,7 @@ this
 node
 *
 /
-ReParent
+Reparent
 (
 node
 child

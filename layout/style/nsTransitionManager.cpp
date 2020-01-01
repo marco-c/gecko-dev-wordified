@@ -2444,7 +2444,7 @@ we
 were
 called
 from
-ReParentStyleContext
+ReparentStyleContext
 this
 assertion
 would
