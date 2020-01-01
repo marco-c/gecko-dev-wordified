@@ -659,7 +659,7 @@ nsMathMLFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 /
 /
@@ -6416,7 +6416,7 @@ endif
 nsresult
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReflowChild

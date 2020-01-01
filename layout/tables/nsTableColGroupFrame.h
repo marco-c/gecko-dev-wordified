@@ -438,7 +438,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -526,7 +526,7 @@ class
 nsTableColGroupFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 {
 public
 :
@@ -1679,7 +1679,7 @@ implement
 abstract
 method
 on
-nsHTMLContainerFrame
+nsContainerFrame
 *
 /
 virtual
@@ -1741,7 +1741,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )

@@ -884,7 +884,7 @@ CreateAccessible
 endif
 /
 /
-nsHTMLContainerFrame
+nsContainerFrame
 virtual
 PRIntn
 GetSkipSides

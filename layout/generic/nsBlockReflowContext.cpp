@@ -514,7 +514,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -2612,7 +2612,7 @@ mFrame
 ;
 static_cast
 <
-nsHTMLContainerFrame
+nsContainerFrame
 *
 >
 (

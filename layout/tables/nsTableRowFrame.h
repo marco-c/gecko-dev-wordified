@@ -438,7 +438,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -576,7 +576,7 @@ class
 nsTableRowFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 {
 public
 :
@@ -1636,7 +1636,7 @@ implement
 abstract
 method
 on
-nsHTMLContainerFrame
+nsContainerFrame
 *
 /
 virtual

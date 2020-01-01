@@ -443,7 +443,7 @@ nsInlineFrame_h___
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -454,13 +454,6 @@ nsLineLayout
 .
 h
 "
-class
-nsAnonymousBlockFrame
-;
-#
-define
-nsInlineFrameSuper
-nsHTMLContainerFrame
 /
 *
 *
@@ -583,7 +576,7 @@ class
 nsInlineFrame
 :
 public
-nsInlineFrameSuper
+nsContainerFrame
 {
 public
 :
@@ -672,7 +665,7 @@ aFlags
 const
 {
 return
-nsInlineFrameSuper
+nsContainerFrame
 :
 :
 IsFrameOfType
@@ -1069,7 +1062,7 @@ nsStyleContext
 aContext
 )
 :
-nsInlineFrameSuper
+nsContainerFrame
 (
 aContext
 )
