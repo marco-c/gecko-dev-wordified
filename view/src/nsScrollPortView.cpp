@@ -3243,7 +3243,7 @@ mViewManager
 UpdateView
 (
 this
-0
+NS_VMREFRESH_DEFERRED
 )
 ;
 }
@@ -3350,7 +3350,7 @@ mViewManager
 UpdateView
 (
 this
-0
+NS_VMREFRESH_DEFERRED
 )
 ;
 }

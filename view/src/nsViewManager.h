@@ -2525,6 +2525,10 @@ a
 view
 has
 scrolled
+via
+a
+*
+bitblit
 .
 *
 The
