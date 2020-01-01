@@ -730,8 +730,6 @@ function
 (
 aURI
 aPageTitle
-aUserTitle
-aUserTitleChanged
 )
 {
 }
