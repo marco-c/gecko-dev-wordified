@@ -1902,9 +1902,9 @@ VISIBLE
 )
 return
 ;
-SiteIdentityPopup
+mActivity
 .
-getInstance
+getSiteIdentityPopup
 (
 )
 .
