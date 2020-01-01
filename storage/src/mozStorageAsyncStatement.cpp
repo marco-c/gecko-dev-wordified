@@ -1900,7 +1900,7 @@ void
 :
 NS_ProxyRelease
 (
-mDBConnection
+forgottenConn
 -
 >
 threadOpenedOn
