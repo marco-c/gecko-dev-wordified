@@ -858,6 +858,7 @@ map
 object
 .
 foo
+object
 )
 )
 ;
