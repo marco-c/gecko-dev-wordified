@@ -4438,13 +4438,13 @@ aValue
 Helper
 method
 for
-NS_IMPL_FLOAT_ATTR
+NS_IMPL_DOUBLE_ATTR
 macro
 .
 *
 Gets
 the
-float
+double
 -
 value
 of
@@ -4469,7 +4469,7 @@ t
 set
 to
 a
-float
+double
 .
 Only
 works
@@ -4517,7 +4517,7 @@ NS_HIDDEN_
 (
 nsresult
 )
-GetFloatAttr
+GetDoubleAttr
 (
 nsIAtom
 *
@@ -4536,7 +4536,7 @@ aValue
 Helper
 method
 for
-NS_IMPL_FLOAT_ATTR
+NS_IMPL_DOUBLE_ATTR
 macro
 .
 *
@@ -4546,7 +4546,7 @@ of
 attribute
 to
 specified
-float
+double
 .
 Only
 works
@@ -4568,7 +4568,7 @@ attribute
 *
 param
 aValue
-Float
+Double
 value
 of
 attribute
@@ -4579,7 +4579,7 @@ NS_HIDDEN_
 (
 nsresult
 )
-SetFloatAttr
+SetDoubleAttr
 (
 nsIAtom
 *
@@ -7686,10 +7686,10 @@ property
 The
 method
 uses
-GetFloatAttr
+GetDoubleAttr
 and
 *
-SetFloatAttr
+SetDoubleAttr
 methods
 .
 *
@@ -7740,7 +7740,7 @@ aValue
 {
 \
 return
-GetFloatAttr
+GetDoubleAttr
 (
 nsGkAtoms
 :
@@ -7770,7 +7770,7 @@ aValue
 {
 \
 return
-SetFloatAttr
+SetDoubleAttr
 (
 nsGkAtoms
 :

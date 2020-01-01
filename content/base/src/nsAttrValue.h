@@ -946,7 +946,7 @@ eSVGValue
 0x12
 #
 endif
-eFloatValue
+eDoubleValue
 =
 0x13
 eIntMarginValue
@@ -1163,7 +1163,7 @@ const
 endif
 inline
 double
-GetFloatValue
+GetDoubleValue
 (
 )
 const
@@ -2160,7 +2160,7 @@ parsed
 *
 /
 PRBool
-ParseFloatValue
+ParseDoubleValue
 (
 const
 nsAString
@@ -2387,7 +2387,7 @@ mSVGValue
 #
 endif
 double
-mFloatValue
+mDoubleValue
 ;
 nsIntMargin
 *
@@ -3006,7 +3006,7 @@ double
 nsAttrValue
 :
 :
-GetFloatValue
+GetDoubleValue
 (
 )
 const
@@ -3018,7 +3018,7 @@ Type
 )
 =
 =
-eFloatValue
+eDoubleValue
 "
 wrong
 type
@@ -3031,7 +3031,7 @@ GetMiscContainer
 )
 -
 >
-mFloatValue
+mDoubleValue
 ;
 }
 inline
