@@ -4340,6 +4340,10 @@ scriptable
 =
 False
     
+builtinclass
+=
+False
+    
 function
 =
 False
@@ -4410,6 +4414,19 @@ noscript
 True
     
 def
+setbuiltinclass
+(
+self
+)
+:
+        
+self
+.
+builtinclass
+=
+True
+    
+def
 setdeprecated
 (
 self
@@ -4442,6 +4459,15 @@ scriptable
 (
 False
 setscriptable
+)
+        
+'
+builtinclass
+'
+:
+(
+False
+setbuiltinclass
 )
         
 '
@@ -4681,6 +4707,24 @@ append
 "
 \
 tscriptable
+\
+n
+"
+)
+        
+if
+self
+.
+builtinclass
+:
+            
+l
+.
+append
+(
+"
+\
+tbuiltinclass
 \
 n
 "
