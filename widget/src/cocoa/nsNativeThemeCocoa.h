@@ -680,9 +680,12 @@ ThemeNeedsComboboxDropmarker
 )
 ;
 virtual
-nsTransparencyMode
+Transparency
 GetWidgetTransparency
 (
+nsIFrame
+*
+aFrame
 PRUint8
 aWidgetType
 )
