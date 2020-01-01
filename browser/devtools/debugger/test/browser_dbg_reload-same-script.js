@@ -1137,7 +1137,7 @@ function
 (
 )
 {
-dump
+info
 (
 "
 count
@@ -1174,6 +1174,14 @@ scripts
 "
 )
 ;
+window
+.
+clearInterval
+(
+intervalID
+)
+;
+return
 closeDebuggerAndFinish
 (
 )
