@@ -2047,6 +2047,9 @@ nsICacheEntryDescriptor
 >
 mCacheEntry
 ;
+PRPackedBool
+mDoomCache
+;
 nsCString
 mSuppliedEntityID
 ;
