@@ -702,6 +702,17 @@ NULL
 0
 0
 NULL
+{
+NULL
+}
+reinterpret_cast
+<
+void
+*
+>
+(
+1
+)
 }
 ;
 #

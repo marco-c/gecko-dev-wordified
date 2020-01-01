@@ -784,6 +784,9 @@ mics
 StubCompiler
 stubcc
 ;
+Label
+invokeLabel
+;
 public
 :
 /
