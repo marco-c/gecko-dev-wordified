@@ -52,10 +52,6 @@ evaluate
 (
 \
 "
-mjitChunkLimit
-(
-5
-)
 \
 "
 )

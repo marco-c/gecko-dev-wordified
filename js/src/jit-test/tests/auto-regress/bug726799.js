@@ -59,10 +59,6 @@ f
 {
 }
 }
-mjitChunkLimit
-(
-25
-)
 tryItOut
 (
 "

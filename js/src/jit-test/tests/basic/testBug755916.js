@@ -39,10 +39,6 @@ h2
 =
 {
 }
-mjitChunkLimit
-(
-8
-)
 h2
 .
 a

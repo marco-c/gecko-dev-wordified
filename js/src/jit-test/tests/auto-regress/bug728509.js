@@ -95,10 +95,6 @@ e
 g
 (
 "
-mjitChunkLimit
-(
-8
-)
 "
 )
 g

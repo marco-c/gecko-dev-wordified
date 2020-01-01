@@ -535,12 +535,6 @@ defined
 (
 ANDROID
 )
-&
-&
-defined
-(
-JS_METHODJIT
-)
 return
 !
 cx
