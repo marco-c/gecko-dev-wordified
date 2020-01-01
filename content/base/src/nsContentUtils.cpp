@@ -18573,6 +18573,8 @@ const
 nsAString
 &
 aFragment
+PRBool
+aWillOwnFragment
 nsIDOMDocumentFragment
 *
 *
@@ -19526,6 +19528,7 @@ sink
 >
 GetFragment
 (
+aWillOwnFragment
 aReturn
 )
 ;
