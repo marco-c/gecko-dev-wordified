@@ -244,7 +244,7 @@ return
 mId
 ;
 }
-ContainerLayer
+Layer
 *
 GetRoot
 (
@@ -544,7 +544,7 @@ layer
 tree
 nsRefPtr
 <
-ContainerLayer
+Layer
 >
 mRoot
 ;
