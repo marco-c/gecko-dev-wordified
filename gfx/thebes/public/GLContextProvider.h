@@ -458,6 +458,7 @@ namespace
 gl
 {
 class
+THEBES_API
 GLContextProvider
 {
 public
@@ -558,6 +559,7 @@ aWidget
 }
 ;
 extern
+THEBES_API
 GLContextProvider
 sGLContextProvider
 ;
