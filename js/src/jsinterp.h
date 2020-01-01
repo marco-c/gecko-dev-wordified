@@ -2416,11 +2416,9 @@ OnUnknownMethod
 JSContext
 *
 cx
-JSObject
-*
-obj
-Value
-idval
+js
+:
+:
 Value
 *
 vp
