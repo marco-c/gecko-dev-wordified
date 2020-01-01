@@ -4033,6 +4033,7 @@ JSAutoRequest
 JSContext
 *
 cx
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -4044,6 +4045,8 @@ mSaveDepth
 0
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 JS_BeginRequest
 (
 mContext
@@ -4095,6 +4098,7 @@ mContext
 jsrefcount
 mSaveDepth
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 #
 if
 0
@@ -4141,6 +4145,7 @@ JSAutoSuspendRequest
 JSContext
 *
 cx
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -4152,6 +4157,8 @@ mSaveDepth
 0
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 mContext
@@ -4207,6 +4214,7 @@ mContext
 jsrefcount
 mSaveDepth
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 #
 if
 0
@@ -6841,6 +6849,7 @@ JSAutoLocalRootScope
 JSContext
 *
 cx
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -6848,6 +6857,8 @@ mContext
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 JS_EnterLocalRootScope
 (
 mContext
@@ -6886,6 +6897,7 @@ JSContext
 *
 mContext
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 #
 if
 0

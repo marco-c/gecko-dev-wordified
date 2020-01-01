@@ -7321,6 +7321,7 @@ len
 jsval
 *
 vec
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -7328,6 +7329,8 @@ mContext
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 JS_PUSH_TEMP_ROOT
 (
 mContext
@@ -7348,6 +7351,7 @@ jsval
 v
 =
 JSVAL_NULL
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -7355,6 +7359,8 @@ mContext
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 JS_PUSH_SINGLE_TEMP_ROOT
 (
 mContext
@@ -7372,6 +7378,7 @@ cx
 JSString
 *
 str
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -7379,6 +7386,8 @@ mContext
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 JS_PUSH_TEMP_ROOT_STRING
 (
 mContext
@@ -7396,6 +7405,7 @@ cx
 JSObject
 *
 obj
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -7403,6 +7413,8 @@ mContext
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 JS_PUSH_TEMP_ROOT_OBJECT
 (
 mContext
@@ -7488,6 +7500,7 @@ endif
 JSTempValueRooter
 mTvr
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -7508,6 +7521,7 @@ INT_TO_JSID
 (
 0
 )
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -7515,6 +7529,8 @@ mContext
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 JS_PUSH_SINGLE_TEMP_ROOT
 (
 mContext
@@ -7584,6 +7600,7 @@ mContext
 JSTempValueRooter
 mTvr
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -7599,6 +7616,7 @@ cx
 JSIdArray
 *
 ida
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 cx
@@ -7610,6 +7628,8 @@ idArray
 ida
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 ida
@@ -7734,6 +7754,7 @@ idArray
 JSTempValueRooter
 tvr
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -7770,6 +7791,7 @@ obj
 jsval
 *
 statep
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -7781,6 +7803,8 @@ mStatep
 statep
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 JS_ASSERT
 (
 obj
@@ -7853,6 +7877,7 @@ jsval
 *
 mStatep
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -7867,6 +7892,7 @@ JSContext
 cx
 uintN
 flags
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -7881,6 +7907,8 @@ cx
 resolveFlags
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 cx
 -
 >
@@ -7911,6 +7939,7 @@ mContext
 uintN
 mSaved
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 #
