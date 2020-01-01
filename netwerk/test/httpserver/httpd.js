@@ -575,7 +575,7 @@ otherwise
 var
 DEBUG
 =
-false
+true
 ;
 /
 /
