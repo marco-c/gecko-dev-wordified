@@ -121,6 +121,14 @@ scheme
 "
 blob
 "
+and
+*
+MediaStreams
+with
+scheme
+"
+mediastream
+"
 .
 *
 /
