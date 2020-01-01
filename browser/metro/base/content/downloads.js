@@ -1314,6 +1314,14 @@ buttons
 priority
 )
 {
+this
+.
+_notificationBox
+.
+notificationsHidden
+=
+false
+;
 return
 this
 .
