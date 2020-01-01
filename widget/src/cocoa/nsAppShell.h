@@ -715,6 +715,9 @@ mNotifiedWillTerminate
 PRPackedBool
 mSkippedNativeCallback
 ;
+PRPackedBool
+mRunningCocoaEmbedded
+;
 /
 /
 mHadMoreEventsCount
