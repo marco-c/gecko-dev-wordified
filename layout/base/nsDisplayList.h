@@ -13498,6 +13498,17 @@ RemoveScrollLayerCount
 (
 )
 ;
+virtual
+nsIFrame
+*
+GetScrolledFrame
+(
+)
+{
+return
+mScrolledFrame
+;
+}
 private
 :
 nsIFrame
