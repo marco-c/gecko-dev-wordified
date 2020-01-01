@@ -1822,17 +1822,20 @@ if
 options
 .
 output_file
-and
-(
+:
+        
+if
+not
 options
 .
 show_cmd
-or
+:
+            
 options
 .
 show_output
-)
-:
+=
+True
         
 try
 :
