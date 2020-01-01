@@ -10208,12 +10208,5 @@ function
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 }
 ;

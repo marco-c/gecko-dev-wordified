@@ -993,14 +993,6 @@ onEndUpdateBatch
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-onBeforeItemRemoved
-(
-)
-{
-}
 onItemRemoved
 :
 function

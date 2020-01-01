@@ -276,14 +276,6 @@ function
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-(
-id
-)
-{
-}
 onItemRemoved
 :
 function

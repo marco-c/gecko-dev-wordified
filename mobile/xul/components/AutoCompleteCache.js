@@ -2899,13 +2899,6 @@ update
 )
 ;
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 onItemRemoved
 :
 function

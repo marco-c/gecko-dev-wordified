@@ -405,14 +405,6 @@ onPageExpired
 )
 {
 }
-onBeforeDeleteURI
-:
-function
-onBeforeDeleteURI
-(
-)
-{
-}
 onDeleteURI
 :
 function

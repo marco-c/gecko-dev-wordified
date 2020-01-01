@@ -2800,13 +2800,6 @@ function
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 onBeginUpdateBatch
 :
 function

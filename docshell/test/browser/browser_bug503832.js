@@ -255,14 +255,6 @@ finish
 ;
 }
 }
-onBeforeDeleteURI
-:
-function
-(
-aURI
-)
-{
-}
 onDeleteURI
 :
 function

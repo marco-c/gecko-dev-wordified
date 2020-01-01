@@ -4764,13 +4764,6 @@ function
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 onItemRemoved
 :
 function
@@ -4877,13 +4870,6 @@ function
 {
 }
 onTitleChanged
-:
-function
-(
-)
-{
-}
-onBeforeDeleteURI
 :
 function
 (

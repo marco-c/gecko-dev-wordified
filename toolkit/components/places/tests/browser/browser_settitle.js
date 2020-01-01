@@ -422,13 +422,6 @@ data
 )
 ;
 }
-onBeforeDeleteURI
-:
-function
-(
-)
-{
-}
 onDeleteURI
 :
 function

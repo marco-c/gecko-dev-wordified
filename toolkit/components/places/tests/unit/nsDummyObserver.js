@@ -227,13 +227,6 @@ function
 )
 {
 }
-onBeforeDeleteURI
-:
-function
-(
-)
-{
-}
 onDeleteURI
 :
 function
@@ -339,13 +332,6 @@ null
 ;
 }
 onItemChanged
-:
-function
-(
-)
-{
-}
-onBeforeItemRemoved
 :
 function
 (

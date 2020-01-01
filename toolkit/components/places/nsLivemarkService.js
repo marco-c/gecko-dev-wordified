@@ -4013,13 +4013,6 @@ function
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 _itemAdded
 :
 null
@@ -4396,13 +4389,6 @@ function
 {
 }
 onDeleteVisits
-:
-function
-(
-)
-{
-}
-onBeforeDeleteURI
 :
 function
 (

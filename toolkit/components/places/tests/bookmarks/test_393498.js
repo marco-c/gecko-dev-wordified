@@ -243,13 +243,6 @@ _itemAddedIndex
 index
 ;
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 onItemRemoved
 :
 function

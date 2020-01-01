@@ -7550,13 +7550,6 @@ function
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 onItemVisited
 :
 function
