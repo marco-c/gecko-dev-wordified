@@ -9650,14 +9650,11 @@ return
 retval
 ;
 }
-already_AddRefed
-<
-nsIHandlerInfo
->
+NS_IMETHODIMP
 nsOSHelperAppService
 :
 :
-GetProtocolInfoFromOS
+GetProtocolHandlerInfoFromOS
 (
 const
 nsACString
@@ -9666,6 +9663,10 @@ aScheme
 PRBool
 *
 found
+nsIHandlerInfo
+*
+*
+_retval
 )
 {
 NS_ASSERTION
@@ -9742,7 +9743,7 @@ rv
 )
 )
 return
-nsnull
+rv
 ;
 nsMIMEInfoUnix
 *
@@ -9766,6 +9767,9 @@ nsnull
 ;
 NS_ADDREF
 (
+*
+_retval
+=
 handlerInfo
 )
 ;
@@ -9803,7 +9807,7 @@ empty
 object
 .
 return
-handlerInfo
+NS_OK
 ;
 }
 nsAutoString
@@ -9824,7 +9828,7 @@ desc
 )
 ;
 return
-handlerInfo
+NS_OK
 ;
 }
 void
