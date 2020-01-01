@@ -4298,13 +4298,6 @@ XXX_framebuffer_multisample
 )
 )
 {
-MOZ_ASSERT
-(
-SupportsSplitFramebuffer
-(
-)
-)
-;
 SymLoadStruct
 auxSymbols
 [
@@ -5639,8 +5632,9 @@ mMaxSamples
 ;
 if
 (
-SupportsFramebufferMultisample
+IsExtensionSupported
 (
+XXX_framebuffer_multisample
 )
 )
 {
