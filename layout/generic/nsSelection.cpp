@@ -6658,13 +6658,13 @@ frameEnd
 if
 (
 aAmount
->
+=
 =
 eSelectCharacter
-&
-&
+|
+|
 aAmount
-<
+=
 =
 eSelectWord
 )
@@ -11686,7 +11686,7 @@ nsIDOMKeyEvent
 :
 DOM_VK_RIGHT
 aExtend
-eSelectCluster
+eSelectCharacter
 )
 ;
 else
@@ -11698,7 +11698,7 @@ nsIDOMKeyEvent
 :
 DOM_VK_LEFT
 aExtend
-eSelectCluster
+eSelectCharacter
 )
 ;
 }
@@ -11718,7 +11718,7 @@ nsIDOMKeyEvent
 :
 DOM_VK_DELETE
 PR_TRUE
-eSelectCluster
+eSelectCharacter
 )
 ;
 }
@@ -32070,7 +32070,7 @@ character
 {
 amount
 =
-eSelectCluster
+eSelectCharacter
 ;
 keycode
 =
