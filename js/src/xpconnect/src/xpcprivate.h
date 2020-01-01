@@ -3735,6 +3735,12 @@ void
 p
 )
 ;
+virtual
+void
+SuspectExtraPointers
+(
+)
+;
 #
 endif
 JSObjectRefcounts
