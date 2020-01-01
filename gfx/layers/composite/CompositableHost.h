@@ -1092,6 +1092,11 @@ aIs3D
 false
 )
 ;
+void
+RemoveMaskEffect
+(
+)
+;
 Compositor
 *
 GetCompositor
