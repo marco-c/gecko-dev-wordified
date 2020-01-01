@@ -225,6 +225,10 @@ const
 LAllocation
 &
 rhs
+const
+LDefinition
+&
+temp
 )
 {
 setOperand
@@ -237,6 +241,12 @@ setOperand
 (
 1
 rhs
+)
+;
+setTemp
+(
+0
+temp
 )
 ;
 }

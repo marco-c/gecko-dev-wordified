@@ -661,7 +661,7 @@ lir
 new
 LModI
 (
-useFixed
+useRegister
 (
 mod
 -
@@ -669,7 +669,6 @@ mod
 lhs
 (
 )
-eax
 )
 useRegister
 (
@@ -679,6 +678,10 @@ mod
 rhs
 (
 )
+)
+tempFixed
+(
+eax
 )
 )
 ;
