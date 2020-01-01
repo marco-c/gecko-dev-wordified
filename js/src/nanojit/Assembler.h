@@ -2747,13 +2747,6 @@ LIns
 ins
 )
 ;
-Register
-asm_prep_fcall
-(
-LInsp
-ins
-)
-;
 void
 asm_nongp_copy
 (
