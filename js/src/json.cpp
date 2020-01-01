@@ -2302,7 +2302,7 @@ obj
 scx
 &
 outputValue
-false
+true
 )
 )
 {
