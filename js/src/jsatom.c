@@ -2264,6 +2264,17 @@ valueOfAtom
 js_valueOf_str
 )
 ;
+FROB
+(
+void0Atom
+"
+(
+void
+0
+)
+"
+)
+;
 #
 if
 JS_HAS_XML_SUPPORT
