@@ -9193,11 +9193,14 @@ getIdentity
 void
 infer
 (
+JSContext
+*
+cx
 const
 TypeOracle
 :
 :
-Binary
+BinaryTypes
 &
 b
 )
