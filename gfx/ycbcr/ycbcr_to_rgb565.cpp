@@ -481,6 +481,13 @@ ycbcr_to_rgb565
 h
 "
 #
+include
+"
+nsAlgorithm
+.
+h
+"
+#
 ifdef
 HAVE_YCBCR_TO_RGB565
 namespace
@@ -1148,7 +1155,7 @@ b
 ;
 r
 =
-NS_CLAMP
+clamped
 (
 (
 74
@@ -1176,7 +1183,7 @@ dither
 ;
 g
 =
-NS_CLAMP
+clamped
 (
 (
 74
@@ -1208,7 +1215,7 @@ dither
 ;
 b
 =
-NS_CLAMP
+clamped
 (
 (
 74
@@ -3719,7 +3726,7 @@ source_y0_q16
 ;
 source_y
 =
-NS_CLAMP
+clamped
 (
 source_y
 ymin
@@ -3753,7 +3760,7 @@ y_shift
 ;
 source_y
 =
-NS_CLAMP
+clamped
 (
 source_y
 uvmin

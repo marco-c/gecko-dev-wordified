@@ -448,6 +448,13 @@ gfx3DMatrix
 .
 h
 "
+#
+include
+"
+nsAlgorithm
+.
+h
+"
 struct
 THEBES_API
 gfxQuaternion
@@ -765,7 +772,10 @@ aCoeff
 gfxFloat
 dot
 =
-NS_CLAMP
+mozilla
+:
+:
+clamped
 (
 DotProduct
 (

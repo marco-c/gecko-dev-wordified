@@ -3605,9 +3605,7 @@ aMetrics
 .
 width
 =
-NS_MIN
-(
-NS_MAX
+clamped
 (
 nsPresContext
 :
@@ -3619,7 +3617,6 @@ EMBED_DEF_WIDTH
 aReflowState
 .
 mComputedMinWidth
-)
 aReflowState
 .
 mComputedMaxWidth
@@ -3640,9 +3637,7 @@ aMetrics
 .
 height
 =
-NS_MIN
-(
-NS_MAX
+clamped
 (
 nsPresContext
 :
@@ -3654,7 +3649,6 @@ EMBED_DEF_HEIGHT
 aReflowState
 .
 mComputedMinHeight
-)
 aReflowState
 .
 mComputedMaxHeight
