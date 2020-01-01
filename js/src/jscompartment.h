@@ -2640,10 +2640,9 @@ const
 size_t
 TYPE_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 =
-1
-<
-<
-12
+256
+*
+1024
 ;
 js
 :
