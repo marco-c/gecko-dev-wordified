@@ -2661,12 +2661,6 @@ JSCompartment
 compartment
 )
 ;
-inline
-size_t
-computedSizeOfExcludingThis
-(
-)
-;
 /
 *
 Whether
@@ -7055,12 +7049,6 @@ sweep
 FreeOp
 *
 fop
-)
-;
-inline
-size_t
-computedSizeOfExcludingThis
-(
 )
 ;
 void
