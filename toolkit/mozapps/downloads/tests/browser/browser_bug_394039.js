@@ -463,7 +463,11 @@ dmFile
 append
 (
 "
-dmuitest
+dm
+-
+ui
+-
+test
 .
 file
 "
@@ -1069,6 +1073,13 @@ win
 .
 close
 (
+)
+;
+dmFile
+.
+remove
+(
+false
 )
 ;
 finish
