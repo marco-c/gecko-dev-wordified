@@ -7949,7 +7949,9 @@ ifdef
 JS_THREADSAFE
 if
 (
-ss
+active
+(
+)
 )
 {
 cx
@@ -7968,7 +7970,9 @@ this
 JS_ASSERT
 (
 !
-ss
+active
+(
+)
 )
 ;
 }
@@ -8000,6 +8004,13 @@ abort
 (
 )
 {
+JS_ASSERT
+(
+active
+(
+)
+)
+;
 #
 ifdef
 JS_THREADSAFE
