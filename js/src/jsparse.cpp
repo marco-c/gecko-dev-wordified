@@ -20746,10 +20746,12 @@ numSlots
 &
 &
 !
-js_GrowSlots
+blockObj
+-
+>
+growSlots
 (
 cx
-blockObj
 slot
 +
 1
