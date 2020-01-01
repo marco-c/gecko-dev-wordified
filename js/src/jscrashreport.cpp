@@ -1605,7 +1605,7 @@ callback
 {
 #
 if
-0
+1
 if
 (
 !
