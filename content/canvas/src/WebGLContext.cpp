@@ -6171,6 +6171,11 @@ extensions
 "
 false
 )
+|
+|
+IsWebGL2
+(
+)
 )
 {
 switch
