@@ -256,11 +256,6 @@ ParCheckOverRecursed
 \
 _
 (
-RecompileCheck
-)
-\
-_
-(
 DefVar
 )
 \

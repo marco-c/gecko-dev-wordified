@@ -770,7 +770,7 @@ addIndexEntry
 ;
 IonSpew
 (
-IonSpew_BaselineScripts
+IonSpew_BaselineOp
 "
 PCMapping
 (

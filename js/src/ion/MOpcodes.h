@@ -197,11 +197,6 @@ CheckOverRecursed
 \
 _
 (
-RecompileCheck
-)
-\
-_
-(
 DefVar
 )
 \

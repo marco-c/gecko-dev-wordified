@@ -14390,7 +14390,7 @@ JS
 :
 SkipZoneForGC
 (
-js
+JS
 :
 :
 GetObjectZone
