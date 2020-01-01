@@ -277,6 +277,12 @@ true
 ;
 this
 .
+_adjustDOMforViewState
+(
+)
+;
+this
+.
 root
 =
 aRoot

@@ -191,6 +191,12 @@ this
 true
 )
 ;
+this
+.
+_adjustDOMforViewState
+(
+)
+;
 }
 HistoryView
 .
