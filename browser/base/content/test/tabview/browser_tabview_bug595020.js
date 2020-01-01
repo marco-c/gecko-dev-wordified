@@ -231,9 +231,8 @@ title
 "
 )
 ;
-waitForFocus
-(
 finish
+(
 )
 ;
 }
