@@ -939,6 +939,15 @@ newRect
 ;
 }
 }
+else
+{
+Trenches
+.
+hideGuides
+(
+)
+;
+}
 /
 /
 make
