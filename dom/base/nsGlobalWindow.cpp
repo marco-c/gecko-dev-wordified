@@ -54221,7 +54221,7 @@ ac
 {
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -54798,7 +54798,7 @@ ac
 {
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -55498,7 +55498,7 @@ false
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -55583,7 +55583,7 @@ PRUint32
 aType
 )
 {
-PRUint32
+PRInt32
 doomedElement
 =
 -
@@ -55591,7 +55591,7 @@ doomedElement
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
