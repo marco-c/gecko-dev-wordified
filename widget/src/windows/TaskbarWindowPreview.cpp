@@ -772,7 +772,6 @@ mWnd
 )
 DetachFromNSWindow
 (
-PR_TRUE
 )
 ;
 }
@@ -1585,13 +1584,6 @@ TaskbarWindowPreview
 :
 DetachFromNSWindow
 (
-PRBool
-windowIsAlive
-)
-{
-if
-(
-windowIsAlive
 )
 {
 /
@@ -1645,13 +1637,11 @@ TaskbarProgressWindowHook
 this
 )
 ;
-}
 TaskbarPreview
 :
 :
 DetachFromNSWindow
 (
-windowIsAlive
 )
 ;
 }

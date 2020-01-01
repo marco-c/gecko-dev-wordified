@@ -611,8 +611,6 @@ virtual
 void
 DetachFromNSWindow
 (
-PRBool
-windowIsAlive
 )
 ;
 /
