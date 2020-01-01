@@ -676,7 +676,7 @@ in
 /
 nsIDOMHTMLOptionsCollection
 virtual
-nsISupports
+nsIContent
 *
 GetNodeAt
 (

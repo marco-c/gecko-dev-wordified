@@ -1654,7 +1654,7 @@ aContent
 /
 nsIHTMLCollection
 virtual
-nsISupports
+nsIContent
 *
 GetNodeAt
 (

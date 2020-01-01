@@ -2603,7 +2603,7 @@ PR_TRUE
 )
 ;
 }
-nsISupports
+nsIContent
 *
 nsContentList
 :

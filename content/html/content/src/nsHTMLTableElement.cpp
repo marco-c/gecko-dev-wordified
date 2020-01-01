@@ -849,7 +849,7 @@ Init
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMHTMLCOLLECTION
 virtual
-nsISupports
+nsIContent
 *
 GetNodeAt
 (
@@ -1690,7 +1690,7 @@ is
 undefined
 .
 static
-nsINode
+nsIContent
 *
 GetItemOrCountInRowGroup
 (
@@ -1756,7 +1756,7 @@ return
 nsnull
 ;
 }
-nsISupports
+nsIContent
 *
 TableRowsCollection
 :
@@ -1780,7 +1780,7 @@ DO_FOR_EACH_ROWGROUP
 PRUint32
 count
 ;
-nsINode
+nsIContent
 *
 node
 =
