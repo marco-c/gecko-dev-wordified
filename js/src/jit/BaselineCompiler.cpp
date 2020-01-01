@@ -5578,12 +5578,12 @@ alone
 .
 if
 (
-!
 function
 (
 )
-|
-|
+&
+&
+(
 function
 (
 )
@@ -5601,6 +5601,7 @@ function
 >
 isSelfHostedBuiltin
 (
+)
 )
 )
 return
