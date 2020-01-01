@@ -4492,7 +4492,7 @@ return
 int
 dw
 =
-tab
+Tabs
 .
 getThumbnailWidth
 (
@@ -4501,7 +4501,7 @@ getThumbnailWidth
 int
 dh
 =
-tab
+Tabs
 .
 getThumbnailHeight
 (
