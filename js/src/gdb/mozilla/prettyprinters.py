@@ -1884,6 +1884,10 @@ code
 gdb
 .
 TYPE_CODE_STRUCT
+and
+t2
+.
+tag
 :
                         
 p
@@ -1943,6 +1947,10 @@ code
 gdb
 .
 TYPE_CODE_STRUCT
+and
+t
+.
+tag
 :
                     
 m
