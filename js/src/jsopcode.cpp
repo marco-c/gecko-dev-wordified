@@ -27267,8 +27267,8 @@ is
 LIFO
 using
 malloc
-*
 or
+*
 more
 commonly
 arena
@@ -27278,8 +27278,7 @@ from
 cx
 -
 >
-tempPool
-.
+tempLifoAlloc
 *
 Therefore
 after
@@ -27287,8 +27286,8 @@ InitSprintStack
 succeeds
 we
 must
-*
 release
+*
 to
 mark
 before
@@ -28047,8 +28046,8 @@ the
 result
 left
 on
-*
 the
+*
 top
 of
 ss2
@@ -28060,13 +28059,12 @@ ss2
 arena
 -
 allocate
-*
 from
+*
 cx
 '
 s
-tempPool
-.
+tempLifoAlloc
 *
 /
 rval

@@ -1254,7 +1254,7 @@ We
 use
 JSContext
 .
-tempPool
+tempLifoAlloc
 to
 allocate
 parsed
@@ -1262,8 +1262,8 @@ objects
 and
 place
 them
-on
 *
+on
 a
 list
 in
@@ -1276,9 +1276,9 @@ safety
 .
 Thus
 the
-tempPool
-arenas
+tempLifoAlloc
 *
+arenas
 containing
 the
 entries
@@ -1290,8 +1290,8 @@ we
 are
 done
 with
-scanning
 *
+scanning
 parsing
 and
 code
@@ -1304,6 +1304,7 @@ or
 top
 -
 level
+*
 function
 .
 *
@@ -1417,7 +1418,7 @@ We
 use
 JSContext
 .
-tempPool
+tempLifoAlloc
 to
 allocate
 parsed
@@ -1425,8 +1426,8 @@ objects
 and
 place
 them
-on
 *
+on
 a
 list
 in
@@ -1439,9 +1440,9 @@ safety
 .
 Thus
 the
-tempPool
-arenas
+tempLifoAlloc
 *
+arenas
 containing
 the
 entries
@@ -1453,8 +1454,8 @@ we
 are
 done
 with
-scanning
 *
+scanning
 parsing
 and
 code
@@ -1467,6 +1468,7 @@ or
 top
 -
 level
+*
 function
 .
 *

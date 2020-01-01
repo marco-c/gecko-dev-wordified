@@ -3170,7 +3170,7 @@ class
 uses
 JSContext
 .
-tempPool
+tempLifoAlloc
 to
 allocate
 internal

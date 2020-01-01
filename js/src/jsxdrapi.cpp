@@ -3836,7 +3836,7 @@ Don
 t
 use
 the
-tempPool
+tempLifoAlloc
 arena
 for
 this
@@ -3849,10 +3849,13 @@ will
 be
 bigger
 than
-tempPool
+tempLifoAlloc
 '
 s
-arenasize
+default
+*
+chunk
+size
 .
 *
 /

@@ -5151,8 +5151,8 @@ of
 stack
 "
 space
-above
 *
+above
 their
 tempMark
 points
@@ -5164,8 +5164,8 @@ you
 cannot
 alloc
 from
-tempPool
 *
+tempLifoAlloc
 and
 save
 the
@@ -5174,6 +5174,7 @@ beyond
 the
 next
 CodeGenerator
+*
 destructor
 call
 .

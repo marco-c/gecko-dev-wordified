@@ -834,7 +834,7 @@ tempPoolMark
 initial
 JSContext
 .
-tempPool
+tempLifoAlloc
 mark
 *
 /
@@ -1025,8 +1025,8 @@ to
 init
 tokenStream
 .
-*
 The
+*
 compiler
 owns
 the
@@ -1046,7 +1046,7 @@ current
 *
 JSContext
 .
-tempPool
+tempLifoAlloc
 mark
 .
 This
@@ -1055,8 +1055,8 @@ you
 cannot
 allocate
 from
-tempPool
 *
+tempLifoAlloc
 and
 save
 the
@@ -1066,6 +1066,7 @@ the
 next
 Parser
 destructor
+*
 invocation
 .
 *
@@ -1205,10 +1206,11 @@ or
 function
 container
 from
+*
 cx
 -
 >
-tempPool
+tempLifoAlloc
 .
 *
 /
