@@ -2058,7 +2058,7 @@ NS_OK
 }
 }
 }
-SAMPLE_MARKER
+PROFILER_MARKER
 (
 "
 Shutdown

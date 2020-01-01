@@ -2266,7 +2266,7 @@ rv
 =
 NS_OK
 ;
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsPluginStreamListenerPeer

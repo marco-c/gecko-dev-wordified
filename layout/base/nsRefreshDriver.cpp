@@ -4525,7 +4525,7 @@ tick
 return
 ;
 }
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsRefreshDriver

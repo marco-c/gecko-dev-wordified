@@ -3507,7 +3507,7 @@ bool
 mayWait
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsAppShell
@@ -3533,7 +3533,7 @@ int
 event_count
 ;
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsAppShell

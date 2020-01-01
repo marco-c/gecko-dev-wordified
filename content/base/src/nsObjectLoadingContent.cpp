@@ -4630,7 +4630,7 @@ nsISupports
 aContext
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsObjectLoadingContent

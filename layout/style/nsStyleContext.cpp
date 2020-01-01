@@ -2946,7 +2946,7 @@ nsChangeHint
 aParentHintsNotHandledForDescendants
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsStyleContext

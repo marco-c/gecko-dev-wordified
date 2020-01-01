@@ -1452,11 +1452,11 @@ aArgv
 ]
 )
 ;
-SAMPLER_INIT
+profiler_init
 (
 )
 ;
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 Startup

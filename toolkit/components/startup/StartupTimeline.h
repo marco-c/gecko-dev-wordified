@@ -352,7 +352,7 @@ Event
 ev
 )
 {
-SAMPLE_MARKER
+PROFILER_MARKER
 (
 Describe
 (
