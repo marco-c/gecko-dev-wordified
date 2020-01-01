@@ -6016,7 +6016,7 @@ create
 file
 .
 NORMAL_FILE_TYPE
-0x666
+0666
 )
 ;
 let
@@ -8859,7 +8859,7 @@ createUnique
 file
 .
 NORMAL_FILE_TYPE
-0x666
+0666
 )
 ;
 fileName
