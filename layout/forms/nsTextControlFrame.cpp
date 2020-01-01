@@ -6861,7 +6861,6 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
-aRenderingContext
 this
 )
 ;
