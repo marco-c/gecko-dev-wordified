@@ -311,7 +311,7 @@ contentWindow
 .
 GroupItems
 .
-group
+groupItem
 (
 groupOneId
 )
@@ -323,7 +323,7 @@ contentWindow
 .
 GroupItems
 .
-group
+groupItem
 (
 groupTwoId
 )
