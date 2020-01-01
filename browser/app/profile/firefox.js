@@ -1155,14 +1155,10 @@ blocklist
 detailsURL
 "
 "
-http
+https
 :
 /
 /
-%
-LOCALE
-%
-.
 www
 .
 mozilla
