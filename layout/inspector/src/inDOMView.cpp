@@ -4887,6 +4887,15 @@ oldNode
 )
 return
 ;
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 /
 /
 The

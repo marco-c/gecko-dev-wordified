@@ -2221,6 +2221,15 @@ many
 /
 /
 XMLEventsListeners
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 /
 /
 If
