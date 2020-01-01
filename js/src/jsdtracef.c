@@ -1241,9 +1241,6 @@ case
 JSOP_SETGVAR
 :
 case
-JSOP_CALLVAR
-:
-case
 JSOP_CALLARG
 :
 case
