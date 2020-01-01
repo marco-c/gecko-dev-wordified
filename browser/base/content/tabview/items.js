@@ -2520,6 +2520,8 @@ degrees
 var
 value
 =
+degrees
+?
 "
 rotate
 (
@@ -2535,6 +2537,8 @@ replace
 /
 degrees
 )
+:
+null
 ;
 iQ
 (
