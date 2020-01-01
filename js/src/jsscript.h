@@ -3239,14 +3239,6 @@ bool
 needsArgsObj
 )
 ;
-bool
-applySpeculationFailed
-(
-JSContext
-*
-cx
-)
-;
 uint32_t
 natoms
 ;
