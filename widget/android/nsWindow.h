@@ -477,9 +477,6 @@ gfxASurface
 class
 nsIdleService
 ;
-struct
-ANPEvent
-;
 namespace
 mozilla
 {
@@ -1482,9 +1479,6 @@ mozilla
 AndroidGeckoEvent
 &
 key
-ANPEvent
-*
-pluginEvent
 )
 ;
 bool
