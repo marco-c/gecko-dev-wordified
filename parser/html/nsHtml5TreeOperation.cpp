@@ -3803,7 +3803,6 @@ aBuilder
 GetNodeInfoManager
 (
 )
-nsnull
 name
 publicId
 systemId

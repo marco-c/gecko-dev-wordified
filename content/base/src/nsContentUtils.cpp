@@ -19956,6 +19956,7 @@ aDocumentURI
 aBaseURI
 aPrincipal
 PR_TRUE
+aEventObject
 )
 ;
 NS_ENSURE_SUCCESS
@@ -19974,14 +19975,6 @@ do_QueryInterface
 (
 *
 aResult
-)
-;
-document
--
->
-SetScriptHandlingObject
-(
-aEventObject
 )
 ;
 /

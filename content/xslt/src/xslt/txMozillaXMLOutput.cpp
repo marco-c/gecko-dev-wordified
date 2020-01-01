@@ -5197,7 +5197,6 @@ getter_AddRefs
 documentType
 )
 mNodeInfoManager
-nsnull
 doctypeName
 mOutputFormat
 .

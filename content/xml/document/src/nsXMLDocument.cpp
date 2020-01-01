@@ -963,6 +963,9 @@ nsIPrincipal
 aPrincipal
 PRBool
 aLoadedAsData
+nsIScriptGlobalObject
+*
+aEventObject
 )
 {
 /
@@ -1412,6 +1415,14 @@ return
 rv
 ;
 }
+d
+-
+>
+SetScriptHandlingObject
+(
+aEventObject
+)
+;
 if
 (
 isHTML
