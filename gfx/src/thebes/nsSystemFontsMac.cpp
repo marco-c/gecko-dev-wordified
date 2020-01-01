@@ -1027,7 +1027,7 @@ eSystemFont_List
 :
 fontID
 =
-kThemeSystemFont
+kThemeSmallSystemFont
 ;
 break
 ;
