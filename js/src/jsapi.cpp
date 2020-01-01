@@ -4084,6 +4084,10 @@ JSGC_MODE_GLOBAL
 gcAllocationThreshold
 (
 30
+*
+1024
+*
+1024
 )
 gcHighFrequencyGC
 (
