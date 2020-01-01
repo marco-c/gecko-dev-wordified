@@ -775,6 +775,7 @@ called
 by
 a
 CompositableForwarder
+virtual
 void
 SetIPDLActor
 (
