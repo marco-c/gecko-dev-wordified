@@ -6572,10 +6572,9 @@ frameStatus
 )
 ;
 }
-aStatus
-=
-NS_FRAME_MERGE_INCOMPLETE
+NS_MergeReflowStatusInto
 (
+&
 aStatus
 frameStatus
 )
