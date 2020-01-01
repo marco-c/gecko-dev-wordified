@@ -666,6 +666,16 @@ LAllocation
 to
 )
 {
+JS_ASSERT
+(
+*
+from
+!
+=
+*
+to
+)
+;
 return
 moves_
 .
