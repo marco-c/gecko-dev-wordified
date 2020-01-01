@@ -6095,7 +6095,7 @@ pn
 >
 isKind
 (
-PNK_FUNCTIONDECL
+PNK_FUNCTION
 )
 )
 ;
@@ -6282,7 +6282,7 @@ pn
 >
 isKind
 (
-PNK_FUNCTIONDECL
+PNK_FUNCTION
 )
 |
 |
@@ -8398,7 +8398,7 @@ pn
 >
 isKind
 (
-PNK_FUNCTIONDECL
+PNK_FUNCTION
 )
 pn
 -
@@ -41023,10 +41023,7 @@ getKind
 )
 {
 case
-PNK_FUNCTIONDECL
-:
-case
-PNK_FUNCTIONEXPR
+PNK_FUNCTION
 :
 ok
 =
@@ -41326,7 +41323,7 @@ pn2
 >
 isKind
 (
-PNK_FUNCTIONDECL
+PNK_FUNCTION
 )
 &
 &

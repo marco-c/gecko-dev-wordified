@@ -10392,7 +10392,7 @@ pn
 >
 isKind
 (
-PNK_FUNCTIONDECL
+PNK_FUNCTION
 )
 |
 |
@@ -10434,7 +10434,7 @@ getKind
 )
 {
 case
-PNK_FUNCTIONDECL
+PNK_FUNCTION
 :
 return
 function
@@ -12105,7 +12105,7 @@ getKind
 )
 {
 case
-PNK_FUNCTIONDECL
+PNK_FUNCTION
 :
 case
 PNK_VAR
@@ -14108,7 +14108,7 @@ getKind
 )
 {
 case
-PNK_FUNCTIONEXPR
+PNK_FUNCTION
 :
 return
 function
