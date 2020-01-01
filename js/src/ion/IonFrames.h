@@ -1521,6 +1521,9 @@ class_
 }
 }
 ;
+struct
+BaselineBailoutInfo
+;
 /
 /
 Data
@@ -1562,6 +1565,13 @@ RESUME_FORCED_RETURN
 =
 3
 ;
+static
+const
+uint32_t
+RESUME_BAILOUT
+=
+4
+;
 uint8_t
 *
 framePointer
@@ -1593,6 +1603,10 @@ block
 .
 Value
 exception
+;
+BaselineBailoutInfo
+*
+bailoutInfo
 ;
 }
 ;
