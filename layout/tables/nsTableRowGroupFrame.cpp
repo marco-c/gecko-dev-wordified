@@ -1906,6 +1906,11 @@ aBuilder
 IsAtRootOfPseudoStackingContext
 (
 )
+|
+|
+IsScrolled
+(
+)
 ;
 nsDisplayTableItem
 *

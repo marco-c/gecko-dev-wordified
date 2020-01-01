@@ -3196,6 +3196,14 @@ rg
 IsPseudoStackingContextFromStyle
 (
 )
+|
+|
+rg
+-
+>
+IsScrolled
+(
+)
 )
 ;
 if
