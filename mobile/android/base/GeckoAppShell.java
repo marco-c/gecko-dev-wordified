@@ -1511,6 +1511,8 @@ native
 void
 processNextNativeEvent
 (
+boolean
+mayWait
 )
 ;
 public

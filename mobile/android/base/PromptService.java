@@ -2397,6 +2397,7 @@ GeckoAppShell
 .
 processNextNativeEvent
 (
+false
 )
 ;
 }

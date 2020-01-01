@@ -1501,6 +1501,7 @@ GeckoAppShell
 .
 processNextNativeEvent
 (
+false
 )
 ;
 }
