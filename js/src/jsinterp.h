@@ -4499,6 +4499,7 @@ upvar
 /
 extern
 jsval
+&
 js_GetUpvar
 (
 JSContext

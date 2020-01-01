@@ -13373,6 +13373,7 @@ JS_TRUE
 ;
 }
 jsval
+&
 js_GetUpvar
 (
 JSContext
