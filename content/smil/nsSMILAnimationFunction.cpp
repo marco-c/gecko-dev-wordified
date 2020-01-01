@@ -4844,8 +4844,7 @@ i
 +
 i
 )
-{
-}
+;
 if
 (
 aCalcMode

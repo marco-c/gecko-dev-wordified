@@ -535,6 +535,13 @@ h
 #
 include
 "
+nsCharsetSource
+.
+h
+"
+#
+include
+"
 nsIRequestObserver
 .
 h

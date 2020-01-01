@@ -3422,23 +3422,6 @@ todo
 =
 1
             
-logFile
-.
-append
-(
-"
-%
-s
-%
-s
-"
-%
-(
-incr
-line
-)
-)
-            
 incr
 +
 =

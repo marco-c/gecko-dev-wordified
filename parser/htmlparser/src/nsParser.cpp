@@ -712,6 +712,13 @@ nsParserConstants
 .
 h
 "
+#
+include
+"
+nsCharsetSource
+.
+h
+"
 using
 namespace
 mozilla

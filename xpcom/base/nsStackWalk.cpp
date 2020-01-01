@@ -1148,13 +1148,11 @@ check
 the
 addresses
 .
-MOZ_ASSERT
-(
+malloc_logger_t
+*
+old_malloc_logger
+=
 malloc_logger
-=
-=
-NULL
-)
 ;
 malloc_logger
 =
@@ -1240,7 +1238,7 @@ abstime
 ;
 malloc_logger
 =
-NULL
+old_malloc_logger
 ;
 /
 /

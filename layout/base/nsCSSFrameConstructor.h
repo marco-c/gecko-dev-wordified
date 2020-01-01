@@ -9011,10 +9011,10 @@ nsIFrame
 *
 aParentFrame
 nsFrameItems
-*
+&
 aBlockItems
 nsFrameItems
-*
+&
 aNewItems
 )
 ;

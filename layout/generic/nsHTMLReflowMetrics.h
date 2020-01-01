@@ -676,6 +676,12 @@ aIndex
 {
 NS_ASSERTION
 (
+0
+<
+=
+aIndex
+&
+&
 aIndex
 <
 2
@@ -706,6 +712,12 @@ const
 {
 NS_ASSERTION
 (
+0
+<
+=
+aIndex
+&
+&
 aIndex
 <
 2

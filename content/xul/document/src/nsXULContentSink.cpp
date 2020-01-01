@@ -625,13 +625,6 @@ h
 #
 include
 "
-nsIParser
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

@@ -2245,6 +2245,7 @@ attribute
 IDRefsIterator
 iter
 (
+mDoc
 mContent
 nsGkAtoms
 :

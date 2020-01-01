@@ -2709,6 +2709,9 @@ IDRefsIterator
 :
 IDRefsIterator
 (
+nsDocAccessible
+*
+aDoc
 nsIContent
 *
 aContent
@@ -2724,6 +2727,10 @@ mCurrIdx
 mContent
 (
 aContent
+)
+mDoc
+(
+aDoc
 )
 {
 if
@@ -3236,15 +3243,12 @@ NextElem
 return
 nextElm
 ?
-GetAccService
-(
-)
+mDoc
 -
 >
 GetAccessible
 (
 nextElm
-nsnull
 )
 :
 nsnull
