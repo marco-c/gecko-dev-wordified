@@ -2268,7 +2268,7 @@ Social
 .
 provider
 .
-_getWorkerPort
+getWorkerPort
 (
 )
 ;
