@@ -2582,6 +2582,8 @@ aDataLength
 JS_STRUCTURED_CLONE_VERSION
 &
 clone
+NULL
+NULL
 )
 )
 {

@@ -22933,6 +22933,9 @@ uint32
 tag
 uint32
 data
+void
+*
+closure
 )
 {
 /
@@ -22975,6 +22978,9 @@ writer
 JSObject
 *
 obj
+void
+*
+closure
 )
 {
 /
