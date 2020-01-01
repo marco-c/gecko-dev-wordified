@@ -206,7 +206,7 @@ C
 )
 2009
 -
-2010
+2012
 *
 the
 Initial
@@ -228,6 +228,15 @@ Patrick
 Walton
 <
 pcwalton
+mozilla
+.
+com
+>
+*
+Kartikaya
+Gupta
+<
+kgupta
 mozilla
 .
 com
