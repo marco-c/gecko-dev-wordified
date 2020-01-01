@@ -2078,6 +2078,7 @@ fprintf
 (
 fp
 "
+0x
 %
 x
 "
