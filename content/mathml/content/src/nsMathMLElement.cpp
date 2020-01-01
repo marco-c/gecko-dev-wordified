@@ -704,8 +704,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 mathml
 .
