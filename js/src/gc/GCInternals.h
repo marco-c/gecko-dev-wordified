@@ -124,6 +124,13 @@ h
 #
 include
 "
+jsworkers
+.
+h
+"
+#
+include
+"
 vm
 /
 Runtime
@@ -274,6 +281,9 @@ js
 :
 HeapState
 prevState
+;
+AutoPauseWorkersForGC
+pause
 ;
 }
 ;

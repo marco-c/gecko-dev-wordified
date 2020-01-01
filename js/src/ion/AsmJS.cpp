@@ -32893,7 +32893,7 @@ true
 }
 #
 ifdef
-JS_PARALLEL_COMPILATION
+JS_WORKER_THREADS
 /
 /
 State
@@ -34274,7 +34274,7 @@ true
 endif
 /
 /
-JS_PARALLEL_COMPILATION
+JS_WORKER_THREADS
 static
 bool
 CheckFuncPtrTable
@@ -43507,7 +43507,7 @@ false
 ;
 #
 ifdef
-JS_PARALLEL_COMPILATION
+JS_WORKER_THREADS
 if
 (
 OffThreadCompilationEnabled
@@ -43848,7 +43848,7 @@ support
 ;
 #
 ifdef
-JS_PARALLEL_COMPILATION
+JS_WORKER_THREADS
 if
 (
 OffThreadCompilationEnabled
@@ -43860,7 +43860,7 @@ cx
 if
 (
 !
-EnsureParallelCompilationInitialized
+EnsureWorkerThreadsInitialized
 (
 cx
 -

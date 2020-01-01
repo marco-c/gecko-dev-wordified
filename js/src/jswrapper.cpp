@@ -865,6 +865,11 @@ ref
 context
 (
 )
+-
+>
+asJSContext
+(
+)
 ;
 if
 (

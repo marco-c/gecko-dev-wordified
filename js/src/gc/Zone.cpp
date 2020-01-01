@@ -246,6 +246,10 @@ isSystem
 (
 false
 )
+usedByExclusiveThread
+(
+false
+)
 scheduledForDestruction
 (
 false

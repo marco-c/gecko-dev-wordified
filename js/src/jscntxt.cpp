@@ -1661,8 +1661,9 @@ false
 *
 Off
 thread
-ion
-compilations
+compilation
+and
+parsing
 depend
 on
 atoms
@@ -1696,6 +1697,11 @@ CancelOffThreadIonCompile
 (
 c
 NULL
+)
+;
+WaitForOffThreadParsingToFinish
+(
+rt
 )
 ;
 /
@@ -6483,6 +6489,10 @@ perThreadData
 (
 pt
 )
+allocator_
+(
+NULL
+)
 {
 }
 bool
@@ -6573,10 +6583,6 @@ NULL
 generatingError
 (
 false
-)
-enterCompartmentDepth_
-(
-0
 )
 savedFrameChains_
 (

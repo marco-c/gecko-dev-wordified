@@ -4878,6 +4878,12 @@ JSContext
 cx
 )
 {
+AutoLockForExclusiveAccess
+lock
+(
+cx
+)
+;
 AutoCompartment
 ac
 (
