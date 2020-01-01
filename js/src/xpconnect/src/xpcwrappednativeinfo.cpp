@@ -3862,10 +3862,15 @@ GetMapLock
 )
 )
 ;
+#
+ifdef
+DEBUG
 XPCNativeSet
 *
 set2
 =
+#
+endif
 map
 -
 >
