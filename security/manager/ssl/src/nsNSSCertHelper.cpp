@@ -1592,12 +1592,12 @@ unsigned
 long
 one
 =
-NS_MIN
+PR_MIN
 (
 val
 /
 40
-2UL
+2
 )
 ;
 /
