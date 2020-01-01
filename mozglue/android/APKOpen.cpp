@@ -1510,6 +1510,14 @@ testDirectTexture
 bool
 )
 ;
+SHELL_WRAPPER3
+(
+onSmsSent
+jstring
+jstring
+jlong
+)
+;
 static
 void
 *
@@ -3875,6 +3883,11 @@ bindWidgetTexture
 GETFUNC
 (
 testDirectTexture
+)
+;
+GETFUNC
+(
+onSmsSent
 )
 ;
 #
