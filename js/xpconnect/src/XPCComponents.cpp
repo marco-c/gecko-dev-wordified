@@ -20119,7 +20119,7 @@ unwrappedProto
 ;
 if
 (
-IS_WRAPPER_CLASS
+IS_WN_CLASS
 (
 unwrappedClass
 )

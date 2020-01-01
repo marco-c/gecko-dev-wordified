@@ -392,7 +392,7 @@ mReturnRawObject
 unwrapped
 &
 &
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 unwrapped
 )

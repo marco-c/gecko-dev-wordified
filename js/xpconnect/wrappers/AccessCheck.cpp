@@ -1178,7 +1178,7 @@ XPCWrappedNative
 *
 wn
 =
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 obj
 )
@@ -1751,7 +1751,7 @@ obj
 if
 (
 !
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 obj
 )

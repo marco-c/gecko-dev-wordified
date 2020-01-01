@@ -4652,15 +4652,9 @@ isSystem
 &
 &
 !
-IS_WRAPPER_CLASS
-(
-js
-:
-:
-GetObjectClass
+IS_WN_REFLECTOR
 (
 selfObj
-)
 )
 )
 {

@@ -17462,15 +17462,9 @@ false
 if
 (
 !
-IS_WRAPPER_CLASS
-(
-js
-:
-:
-GetObjectClass
+IS_WN_REFLECTOR
 (
 obj
-)
 )
 )
 return

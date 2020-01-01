@@ -5629,15 +5629,9 @@ NS_ASSERTION
 flat
 |
 |
-IS_WRAPPER_CLASS
-(
-js
-:
-:
-GetObjectClass
+IS_WN_REFLECTOR
 (
 flat
-)
 )
 "
 What
@@ -5694,7 +5688,7 @@ else
 {
 MOZ_ASSERT
 (
-IS_WN_WRAPPER_OBJECT
+IS_WN_REFLECTOR
 (
 flat
 )
@@ -6463,7 +6457,7 @@ nullptr
 ;
 if
 (
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 inner
 )
@@ -7366,7 +7360,7 @@ XPCWrappedNative
 *
 wrapper
 =
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 unwrapped
 )

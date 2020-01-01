@@ -369,7 +369,7 @@ obj
 ;
 if
 (
-IS_WRAPPER_CLASS
+IS_WN_CLASS
 (
 clasp
 )
@@ -2959,7 +2959,7 @@ obj
 {
 MOZ_ASSERT
 (
-IS_WN_WRAPPER_OBJECT
+IS_WN_REFLECTOR
 (
 obj
 )

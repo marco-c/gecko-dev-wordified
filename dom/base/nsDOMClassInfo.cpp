@@ -21558,7 +21558,7 @@ false
 if
 (
 !
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 obj
 )
