@@ -841,7 +841,7 @@ createStatement
 (
 "
 UPDATE
-moz_places
+moz_places_view
 SET
 title
 =
@@ -970,7 +970,7 @@ createStatement
 (
 "
 UPDATE
-moz_places
+moz_places_view
 SET
 visit_count
 =
