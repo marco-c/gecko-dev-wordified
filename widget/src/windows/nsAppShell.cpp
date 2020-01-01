@@ -1260,7 +1260,7 @@ hModuleSnap
 =
 INVALID_HANDLE_VALUE
 ;
-MODULEENTRY32
+MODULEENTRY32W
 module
 ;
 /
@@ -1310,7 +1310,7 @@ dwSize
 =
 sizeof
 (
-MODULEENTRY32
+MODULEENTRY32W
 )
 ;
 /
@@ -1335,7 +1335,7 @@ PRBool
 done
 =
 !
-Module32First
+Module32FirstW
 (
 hModuleSnap
 &
@@ -1496,7 +1496,7 @@ LOADEDMODULEINFO_STRSIZE
 done
 =
 !
-Module32Next
+Module32NextW
 (
 hModuleSnap
 &
