@@ -2423,7 +2423,7 @@ else
 typedef
 XrayWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 >
 Xray
 ;
@@ -2577,7 +2577,7 @@ ClassIsDOMObject
 typedef
 XrayWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 >
 Xray
 ;
@@ -2621,7 +2621,7 @@ wrapper
 &
 FilteringWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 ExposedPropertiesOnly
 >
 :
@@ -2687,7 +2687,7 @@ wrapper
 &
 FilteringWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 OnlyIfSubjectIsSystem
 >
 :
@@ -2867,7 +2867,7 @@ wrapper
 &
 FilteringWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 CrossOriginAccessiblePropertiesOnly
 >
 :
@@ -2900,7 +2900,7 @@ else
 typedef
 XrayWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 >
 Xray
 ;
@@ -3065,7 +3065,7 @@ FilteringWrapper
 <
 XrayWrapper
 <
-Wrapper
+SameCompartmentSecurityWrapper
 >
 SameOriginOrCrossOriginAccessiblePropertiesOnly
 >
@@ -3441,7 +3441,7 @@ obj
 &
 FilteringWrapper
 <
-Wrapper
+SameCompartmentSecurityWrapper
 OnlyIfSubjectIsSystem
 >
 :

@@ -2737,7 +2737,7 @@ wrapper
 &
 FilteringWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 CrossOriginAccessiblePropertiesOnly
 >
 :

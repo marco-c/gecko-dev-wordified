@@ -1019,7 +1019,7 @@ define
 SOW
 FilteringWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 OnlyIfSubjectIsSystem
 >
 #
@@ -1027,7 +1027,7 @@ define
 SCSOW
 FilteringWrapper
 <
-Wrapper
+SameCompartmentSecurityWrapper
 OnlyIfSubjectIsSystem
 >
 #
@@ -1035,7 +1035,7 @@ define
 COW
 FilteringWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 ExposedPropertiesOnly
 >
 #
@@ -1045,7 +1045,7 @@ FilteringWrapper
 <
 XrayWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 >
 \
 CrossOriginAccessiblePropertiesOnly
@@ -1064,7 +1064,8 @@ define
 NNXOW
 FilteringWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
+\
 CrossOriginAccessiblePropertiesOnly
 >
 #
@@ -1074,7 +1075,7 @@ FilteringWrapper
 <
 XrayWrapper
 <
-Wrapper
+SameCompartmentSecurityWrapper
 >
 \
 SameOriginOrCrossOriginAccessiblePropertiesOnly
@@ -1086,7 +1087,7 @@ FilteringWrapper
 <
 XrayWrapper
 <
-CrossCompartmentWrapper
+CrossCompartmentSecurityWrapper
 >
 \
 SameOriginOrCrossOriginAccessiblePropertiesOnly
