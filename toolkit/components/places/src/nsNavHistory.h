@@ -2008,8 +2008,6 @@ Import
 friendly
 version
 of
-SetPageDetails
-+
 AddVisit
 .
 /
