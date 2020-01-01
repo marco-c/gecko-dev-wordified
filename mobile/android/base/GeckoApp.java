@@ -8344,7 +8344,7 @@ getId
 )
 )
 ;
-GeckoAppShell
+ScreenshotHandler
 .
 screenshotWholePage
 (
