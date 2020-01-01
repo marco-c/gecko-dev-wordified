@@ -312,13 +312,6 @@ android
 .
 widget
 .
-ImageView
-;
-import
-android
-.
-widget
-.
 ListView
 ;
 import
