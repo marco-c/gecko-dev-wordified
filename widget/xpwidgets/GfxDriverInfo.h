@@ -632,7 +632,7 @@ version
 driver
 <
 versionMax
-DRIVER_UNKNOWN_COMPARISON
+DRIVER_COMPARISON_IGNORED
 }
 ;
 enum
