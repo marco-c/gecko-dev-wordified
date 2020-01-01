@@ -22856,12 +22856,7 @@ return
 NS_NewElement
 (
 aReturn
-nodeInfo
--
->
-NamespaceID
-(
-)
+ns
 nodeInfo
 .
 forget
