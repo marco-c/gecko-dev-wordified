@@ -3036,7 +3036,7 @@ rv
 pluginHost
 -
 >
-NewEmbeddedPluginStreamListener
+NewPluginStreamListener
 (
 mURI
 inst
@@ -4159,7 +4159,7 @@ rv
 pluginHost
 -
 >
-InstantiateEmbeddedPluginInstance
+InstantiatePluginInstance
 (
 mContentType
 .
