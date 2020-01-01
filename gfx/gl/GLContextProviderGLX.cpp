@@ -1700,6 +1700,11 @@ mUseTextureFromPixmap
 gfxPlatformGtk
 :
 :
+GetPlatform
+(
+)
+-
+>
 UseXRender
 (
 )
