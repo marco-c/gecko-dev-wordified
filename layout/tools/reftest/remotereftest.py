@@ -1953,12 +1953,8 @@ server
 .
 "
             
-sys
-.
-exit
-(
+return
 2
-)
         
 self
 .
@@ -2121,12 +2117,8 @@ stop
 (
 )
             
-sys
-.
-exit
-(
+return
 1
-)
     
 def
 stop
@@ -2611,12 +2603,8 @@ os
 name
 )
             
-sys
-.
-exit
-(
+return
 1
-)
         
 paths
 .
@@ -2741,12 +2729,8 @@ os
 name
 )
             
-sys
-.
-exit
-(
+return
 1
-)
         
 options
 .
@@ -2771,6 +2755,8 @@ self
 scriptDir
 )
         
+retVal
+=
 self
 .
 server
@@ -2779,6 +2765,15 @@ start
 (
 )
         
+if
+retVal
+:
+            
+return
+retVal
+        
+retVal
+=
 self
 .
 server
@@ -2789,6 +2784,13 @@ self
 .
 SERVER_STARTUP_TIMEOUT
 )
+        
+if
+retVal
+:
+            
+return
+retVal
         
 options
 .
@@ -2801,6 +2803,9 @@ options
 utilityPath
 =
 remoteUtilityPath
+        
+return
+0
     
 def
 stopWebServer
@@ -3319,6 +3324,7 @@ pidFile
 def
 main
 (
+args
 )
 :
     
@@ -3377,12 +3383,8 @@ device
 option
 "
         
-sys
-.
-exit
-(
+return
 1
-)
     
 try
 :
@@ -3480,12 +3482,8 @@ state
 .
 "
         
-sys
-.
-exit
-(
+return
 1
-)
     
 automation
 .
@@ -3562,12 +3560,8 @@ valid
 options
 "
         
-sys
-.
-exit
-(
+return
 1
-)
     
 if
 not
@@ -3675,12 +3669,8 @@ width
 height
 )
             
-sys
-.
-exit
-(
+return
 1
-)
     
 automation
 .
@@ -3941,24 +3931,29 @@ s
 %
 manifest
         
-sys
-.
-exit
-(
+return
 1
-)
     
 #
 Start
 the
 webserver
     
+retVal
+=
 reftest
 .
 startWebServer
 (
 options
 )
+    
+if
+retVal
+:
+        
+return
+retVal
     
 procName
 =
@@ -4035,6 +4030,11 @@ reftest
 list
 "
     
+logcat
+=
+[
+]
+    
 try
 :
         
@@ -4059,6 +4059,12 @@ cmdlineArgs
 [
 ]
         
+dm
+.
+recordLogcat
+(
+)
+        
 reftest
 .
 runTests
@@ -4066,6 +4072,14 @@ runTests
 manifest
 options
 cmdlineArgs
+)
+        
+logcat
+=
+dm
+.
+getLogcat
+(
 )
     
 except
@@ -4093,12 +4107,8 @@ stopWebServer
 options
 )
         
-sys
-.
-exit
-(
+return
 1
-)
     
 reftest
 .
@@ -4106,6 +4116,25 @@ stopWebServer
 (
 options
 )
+    
+print
+'
+'
+.
+join
+(
+logcat
+[
+-
+500
+:
+-
+1
+]
+)
+    
+return
+0
 if
 __name__
 =
@@ -4115,6 +4144,18 @@ __main__
 "
 :
     
+sys
+.
+exit
+(
 main
 (
+sys
+.
+argv
+[
+1
+:
+]
+)
 )

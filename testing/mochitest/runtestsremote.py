@@ -3960,6 +3960,11 @@ retVal
 =
 None
         
+logcat
+=
+[
+]
+        
 for
 test
 in
@@ -4068,6 +4073,12 @@ InstrumentationTestRunner
 try
 :
                 
+dm
+.
+recordLogcat
+(
+)
+                
 retVal
 =
 mochitest
@@ -4075,6 +4086,14 @@ mochitest
 runTests
 (
 options
+)
+                
+logcat
+=
+dm
+.
+getLogcat
+(
 )
                 
 mochitest
@@ -4191,6 +4210,12 @@ else
 try
 :
         
+dm
+.
+recordLogcat
+(
+)
+        
 retVal
 =
 mochitest
@@ -4198,6 +4223,14 @@ mochitest
 runTests
 (
 options
+)
+        
+logcat
+=
+dm
+.
+getLogcat
+(
 )
       
 except
@@ -4266,6 +4299,22 @@ sys
 exit
 (
 1
+)
+    
+print
+'
+'
+.
+join
+(
+logcat
+[
+-
+500
+:
+-
+1
+]
 )
     
 sys
