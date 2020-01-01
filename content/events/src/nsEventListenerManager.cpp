@@ -4901,6 +4901,13 @@ SCRIPTVERSION_DEFAULT
 for
 now
 ?
+/
+*
+aIsXBL
+=
+*
+/
+false
 handler
 )
 ;

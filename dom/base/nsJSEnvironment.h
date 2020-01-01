@@ -440,6 +440,8 @@ uint32_t
 aLineNo
 uint32_t
 aVersion
+bool
+aIsXBL
 nsScriptObjectHolder
 <
 JSObject
@@ -523,6 +525,8 @@ uint32_t
 aVersion
 bool
 aShared
+bool
+aIsXBL
 JSObject
 *
 *

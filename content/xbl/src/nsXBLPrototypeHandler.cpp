@@ -2063,6 +2063,13 @@ get
 )
 mLineNumber
 JSVERSION_LATEST
+/
+*
+aIsXBL
+=
+*
+/
+true
 aHandler
 )
 ;

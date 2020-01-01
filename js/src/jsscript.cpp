@@ -14492,6 +14492,16 @@ src
 >
 isGeneratorExp
 ;
+dst
+-
+>
+userBit
+=
+src
+-
+>
+userBit
+;
 /
 *
 *
