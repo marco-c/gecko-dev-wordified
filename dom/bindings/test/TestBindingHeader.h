@@ -2679,6 +2679,14 @@ DictContainingDict
 &
 )
 ;
+void
+PassDictContainingSequence
+(
+const
+DictContainingSequence
+&
+)
+;
 /
 /
 Typedefs
