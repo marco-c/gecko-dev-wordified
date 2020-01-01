@@ -135,7 +135,11 @@ h
 #
 include
 "
-nsSVGSwitchElement
+mozilla
+/
+dom
+/
+SVGSwitchElement
 .
 h
 "
@@ -1343,7 +1347,13 @@ activeChild
 =
 static_cast
 <
-nsSVGSwitchElement
+mozilla
+:
+:
+dom
+:
+:
+SVGSwitchElement
 *
 >
 (

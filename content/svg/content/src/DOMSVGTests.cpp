@@ -117,7 +117,11 @@ h
 #
 include
 "
-nsSVGSwitchElement
+mozilla
+/
+dom
+/
+SVGSwitchElement
 .
 h
 "
@@ -1541,7 +1545,10 @@ kNameSpaceID_SVG
 {
 static_cast
 <
-nsSVGSwitchElement
+dom
+:
+:
+SVGSwitchElement
 *
 >
 (
