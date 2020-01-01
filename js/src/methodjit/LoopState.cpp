@@ -2254,6 +2254,16 @@ uint32
 slot
 )
 {
+if
+(
+slot
+=
+=
+UNASSIGNED
+)
+return
+true
+;
 /
 *
 Watch
