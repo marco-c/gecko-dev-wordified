@@ -2370,7 +2370,10 @@ arena
 {
 siBuffer
 P
-PR_ARRAY_SIZE
+mozilla
+:
+:
+ArrayLength
 (
 P
 )
@@ -2378,7 +2381,10 @@ P
 {
 siBuffer
 Q
-PR_ARRAY_SIZE
+mozilla
+:
+:
+ArrayLength
 (
 Q
 )
@@ -2386,7 +2392,10 @@ Q
 {
 siBuffer
 G
-PR_ARRAY_SIZE
+mozilla
+:
+:
+ArrayLength
 (
 G
 )

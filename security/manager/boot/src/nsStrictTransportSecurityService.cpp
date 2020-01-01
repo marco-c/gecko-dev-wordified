@@ -2418,7 +2418,10 @@ bsearch
 (
 aHost
 kSTSPreloadList
-PR_ARRAY_SIZE
+mozilla
+:
+:
+ArrayLength
 (
 kSTSPreloadList
 )
