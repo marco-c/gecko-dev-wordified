@@ -172,6 +172,14 @@ aMode
 )
 ;
 NS_IMETHOD
+Open
+(
+nsIFilePickerShownCallback
+*
+aCallback
+)
+;
+NS_IMETHOD
 AppendFilters
 (
 PRInt32
