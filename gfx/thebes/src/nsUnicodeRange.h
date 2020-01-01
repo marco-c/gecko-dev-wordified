@@ -429,6 +429,9 @@ nscore
 .
 h
 "
+class
+nsIAtom
+;
 /
 /
 The
@@ -892,8 +895,7 @@ PRUnichar
 ch
 )
 ;
-const
-char
+nsIAtom
 *
 LangGroupFromUnicodeRange
 (

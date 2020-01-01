@@ -707,9 +707,8 @@ rmode
 nsresult
 GetFontList
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 const
 nsACString

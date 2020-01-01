@@ -1244,8 +1244,7 @@ mEnableKerning
 void
 GetPrefFonts
 (
-const
-char
+nsIAtom
 *
 aLangGroup
 nsTArray
@@ -1280,9 +1279,8 @@ const
 nsString
 &
 aFamilies
-const
-nsCString
-&
+nsIAtom
+*
 aLangGroup
 nsTArray
 <

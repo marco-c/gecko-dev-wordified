@@ -1287,9 +1287,8 @@ gfxQtPlatform
 :
 GetFontList
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 const
 nsACString
