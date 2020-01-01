@@ -27809,9 +27809,9 @@ document
 getElementById
 (
 "
-statusbar
+urlbar
 -
-icon
+progress
 "
 )
 ;
@@ -28649,8 +28649,6 @@ this
 .
 statusMeter
 .
-parentNode
-.
 collapsed
 =
 false
@@ -29117,8 +29115,6 @@ self
 self
 .
 statusMeter
-.
-parentNode
 .
 collapsed
 =
