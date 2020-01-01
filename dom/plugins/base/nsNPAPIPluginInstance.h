@@ -1023,6 +1023,13 @@ aWindowless
 )
 ;
 NPError
+SetWindowlessLocal
+(
+bool
+aWindowlessLocal
+)
+;
+NPError
 SetTransparent
 (
 bool
@@ -1086,6 +1093,13 @@ PRUint32
 aModel
 )
 ;
+/
+/
+This
+stuff
+is
+for
+kSurface_ANPDrawingModel
 void
 *
 GetJavaSurface
@@ -1552,6 +1566,9 @@ later
 query
 bool
 mWindowless
+;
+bool
+mWindowlessLocal
 ;
 bool
 mTransparent
