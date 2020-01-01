@@ -125,7 +125,7 @@ h
 #
 include
 "
-CAccessibleEditableText
+ia2AccessibleEditableText
 .
 h
 "
@@ -144,7 +144,7 @@ HyperTextAccessible
 public
 ia2AccessibleHypertext
 public
-CAccessibleEditableText
+ia2AccessibleEditableText
 {
 public
 :

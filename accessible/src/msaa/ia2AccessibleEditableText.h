@@ -137,7 +137,7 @@ AccessibleEditableText
 h
 "
 class
-CAccessibleEditableText
+ia2AccessibleEditableText
 :
 public
 IAccessibleEditableText
