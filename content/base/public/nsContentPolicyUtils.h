@@ -499,17 +499,6 @@ __nsContentPolicyUtils_h__
 #
 define
 __nsContentPolicyUtils_h__
-/
-/
-for
-PR_LOGGING
-#
-include
-"
-prlog
-.
-h
-"
 #
 include
 "
