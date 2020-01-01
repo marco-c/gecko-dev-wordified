@@ -886,7 +886,7 @@ faviconView
 .
 updateImage
 (
-favicon
+bitmap
 url
 )
 ;
