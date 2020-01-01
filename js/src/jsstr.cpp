@@ -2991,9 +2991,7 @@ JS_ALWAYS_INLINE
 bool
 IsString
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

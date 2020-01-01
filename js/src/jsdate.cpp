@@ -8687,9 +8687,7 @@ JS_ALWAYS_INLINE
 bool
 IsDate
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

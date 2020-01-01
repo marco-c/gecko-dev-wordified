@@ -260,9 +260,7 @@ JS_ALWAYS_INLINE
 bool
 IsBoolean
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -311,9 +309,7 @@ CallArgs
 args
 )
 {
-const
-Value
-&
+HandleValue
 thisv
 =
 args
@@ -487,9 +483,7 @@ CallArgs
 args
 )
 {
-const
-Value
-&
+HandleValue
 thisv
 =
 args
@@ -602,9 +596,7 @@ CallArgs
 args
 )
 {
-const
-Value
-&
+HandleValue
 thisv
 =
 args

@@ -361,9 +361,7 @@ static
 bool
 TestProtoGetterThis
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -399,9 +397,7 @@ thisv
 )
 )
 ;
-const
-Value
-&
+HandleValue
 thisv
 =
 args
@@ -554,9 +550,7 @@ static
 bool
 TestProtoSetterThis
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -651,9 +645,7 @@ thisv
 )
 )
 ;
-const
-Value
-&
+HandleValue
 thisv
 =
 args

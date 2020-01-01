@@ -799,9 +799,7 @@ JS_ALWAYS_INLINE
 bool
 IsArrayBuffer
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -9001,9 +8999,7 @@ static
 bool
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -11736,9 +11732,7 @@ static
 bool
 IsThisClass
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -25028,9 +25022,7 @@ js
 :
 IsTypedArrayConstructor
 (
-const
-Value
-&
+HandleValue
 v
 uint32_t
 type
@@ -25203,9 +25195,7 @@ js
 :
 IsTypedArrayBuffer
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

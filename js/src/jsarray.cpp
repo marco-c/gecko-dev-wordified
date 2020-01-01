@@ -5407,9 +5407,7 @@ JS_ALWAYS_INLINE
 bool
 IsArray
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

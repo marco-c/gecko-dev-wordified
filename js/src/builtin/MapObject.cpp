@@ -6629,9 +6629,7 @@ inline
 bool
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 ;
@@ -7194,9 +7192,7 @@ MapIteratorObject
 :
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -8811,9 +8807,7 @@ MapObject
 :
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -10266,9 +10260,7 @@ inline
 bool
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 ;
@@ -10818,9 +10810,7 @@ SetIteratorObject
 :
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -11852,9 +11842,7 @@ SetObject
 :
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

@@ -2109,9 +2109,7 @@ JS_ALWAYS_INLINE
 bool
 IsRegExp
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

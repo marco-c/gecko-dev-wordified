@@ -2486,9 +2486,7 @@ TYPE_MAX
 bool
 IsTypedArrayConstructor
 (
-const
-Value
-&
+HandleValue
 v
 uint32_t
 type
@@ -2497,9 +2495,7 @@ type
 bool
 IsTypedArrayBuffer
 (
-const
-Value
-&
+HandleValue
 v
 )
 ;
@@ -2641,9 +2637,7 @@ static
 bool
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
