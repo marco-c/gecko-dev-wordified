@@ -3304,7 +3304,16 @@ addonsSearchNone
 label
 "
 )
-null
+strings
+.
+getString
+(
+"
+addonsSearchSuccess
+.
+button
+"
+)
 true
 )
 ;
