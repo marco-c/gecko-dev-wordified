@@ -8475,6 +8475,9 @@ WrapEscapingClosure
 (
 cx
 fp
+-
+>
+down
 FUN_OBJECT
 (
 caller
