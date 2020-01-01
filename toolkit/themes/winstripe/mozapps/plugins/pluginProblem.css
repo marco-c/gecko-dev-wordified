@@ -236,7 +236,7 @@ skin
 /
 plugins
 /
-pluginGeneric
+contentPluginDownload
 .
 png
 )
@@ -268,7 +268,7 @@ skin
 /
 plugins
 /
-pluginDisabled
+contentPluginDisabled
 .
 png
 )
@@ -300,7 +300,7 @@ skin
 /
 plugins
 /
-pluginBlocked
+contentPluginBlocked
 .
 png
 )
@@ -332,7 +332,7 @@ skin
 /
 plugins
 /
-pluginCrashed
+contentPluginCrashed
 .
 png
 )
