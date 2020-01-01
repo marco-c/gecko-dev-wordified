@@ -13927,6 +13927,9 @@ aFrame
 gfxContext
 *
 aContext
+gfxTextObjectPaint
+*
+aObjectPaint
 )
 {
 if

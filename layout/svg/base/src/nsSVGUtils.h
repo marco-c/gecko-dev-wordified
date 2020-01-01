@@ -213,6 +213,13 @@ h
 #
 include
 "
+nsStyleStruct
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Constants
@@ -4413,6 +4420,11 @@ aFrame
 gfxContext
 *
 aContext
+gfxTextObjectPaint
+*
+aObjectPaint
+=
+nullptr
 )
 ;
 /

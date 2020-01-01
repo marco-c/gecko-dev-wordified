@@ -8999,7 +8999,9 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HN
-nullptr
+|
+VARIANT_KEYWORD
+kObjectOpacityKTable
 offsetof
 (
 nsStyleSVG
@@ -9382,7 +9384,9 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HN
-nullptr
+|
+VARIANT_KEYWORD
+kObjectOpacityKTable
 offsetof
 (
 nsStyleSVG
