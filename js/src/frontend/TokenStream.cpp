@@ -1111,11 +1111,14 @@ cx
 )
 originPrincipals
 (
-originPrin
-?
-originPrin
+JSScript
 :
+:
+normalizeOriginPrincipals
+(
 prin
+originPrin
+)
 )
 {
 if
