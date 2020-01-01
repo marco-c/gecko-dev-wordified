@@ -1398,9 +1398,12 @@ lastSlash
 |
 |
 (
+size_t
+(
 lastSlash
 -
 exePath
+)
 >
 MAXPATHLEN
 -
