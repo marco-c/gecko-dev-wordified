@@ -1547,6 +1547,7 @@ null
 moment
 *
 /
+MOZ_CONSTEXPR
 TimeStamp
 (
 )
