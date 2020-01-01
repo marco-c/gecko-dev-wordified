@@ -931,6 +931,9 @@ script
 debugMode
 !
 =
+(
+bool
+)
 debug
 &
 &

@@ -1450,6 +1450,16 @@ debugMode
 bool
 addTraceHints
 ;
+Compiler
+*
+thisFromCtor
+(
+)
+{
+return
+this
+;
+}
 public
 :
 /

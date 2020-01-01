@@ -912,7 +912,9 @@ stubcc
 (
 cx
 *
-this
+thisFromCtor
+(
+)
 frame
 script
 )
