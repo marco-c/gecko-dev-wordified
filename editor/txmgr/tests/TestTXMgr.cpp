@@ -6157,6 +6157,7 @@ mTXMgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -6348,6 +6349,7 @@ mTXMgr
 >
 EndBatch
 (
+false
 )
 ;
 return
@@ -6426,6 +6428,7 @@ mTXMgr
 >
 EndBatch
 (
+false
 )
 ;
 return
@@ -6497,6 +6500,7 @@ mTXMgr
 >
 EndBatch
 (
+false
 )
 ;
 return
@@ -6522,6 +6526,7 @@ mTXMgr
 >
 EndBatch
 (
+false
 )
 ;
 return
@@ -22750,6 +22755,7 @@ call
 to
 EndBatch
 (
+false
 )
 with
 empty
@@ -22916,6 +22922,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -22931,6 +22938,7 @@ fail
 "
 EndBatch
 (
+false
 )
 returned
 unexpected
@@ -23037,6 +23045,7 @@ Test
 unbalanced
 EndBatch
 (
+false
 )
 with
 empty
@@ -23290,6 +23299,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -23305,6 +23315,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -23409,6 +23420,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -23424,6 +23436,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -23703,6 +23716,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -23718,6 +23732,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -23985,6 +24000,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -24000,6 +24016,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -24410,6 +24427,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -24425,6 +24443,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -24612,6 +24631,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -24627,6 +24647,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -25155,6 +25176,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -25170,6 +25192,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -25413,6 +25436,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -25428,6 +25452,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -25671,6 +25696,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -25686,6 +25712,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -25929,6 +25956,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -25944,6 +25972,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -25968,6 +25997,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -25983,6 +26013,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -26007,6 +26038,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -26022,6 +26054,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -27370,6 +27403,7 @@ call
 to
 EndBatch
 (
+false
 )
 throws
 an
@@ -27462,6 +27496,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -27477,6 +27512,7 @@ fail
 "
 EndBatch
 (
+false
 )
 returned
 unexpected
@@ -27668,6 +27704,7 @@ of
 unbalanced
 EndBatch
 (
+false
 )
 on
 undo
@@ -27854,6 +27891,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -27869,6 +27907,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -28056,6 +28095,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -28071,6 +28111,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -28425,6 +28466,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -28440,6 +28482,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -28791,6 +28834,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -28806,6 +28850,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -29749,6 +29794,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -29764,6 +29810,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -29837,6 +29884,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -29852,6 +29900,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -30464,6 +30513,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -30479,6 +30529,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -30552,6 +30603,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -30567,6 +30619,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -31341,6 +31394,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -31356,6 +31410,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -31429,6 +31484,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -31444,6 +31500,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -32721,6 +32778,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -32736,6 +32794,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -32810,6 +32869,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -32825,6 +32885,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .
@@ -33344,6 +33405,7 @@ mgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 if
@@ -33359,6 +33421,7 @@ fail
 "
 BeginBatch
 (
+nullptr
 )
 failed
 .
@@ -33433,6 +33496,7 @@ mgr
 >
 EndBatch
 (
+false
 )
 ;
 if
@@ -33448,6 +33512,7 @@ fail
 "
 EndBatch
 (
+false
 )
 failed
 .

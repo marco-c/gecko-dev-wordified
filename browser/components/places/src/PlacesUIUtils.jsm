@@ -7605,6 +7605,7 @@ transactionManager
 .
 beginBatch
 (
+null
 )
 endBatch
 :
@@ -7617,6 +7618,7 @@ transactionManager
 .
 endBatch
 (
+false
 )
 doTransaction
 :
