@@ -756,6 +756,9 @@ different
 /
 IME
 keys
+kJapanese_Eisu
+=
+0x66
 kJapanese_Kana
 =
 0x68
