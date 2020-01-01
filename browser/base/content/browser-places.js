@@ -1744,6 +1744,7 @@ editBookmarkPanelContent
 hidden
 )
 {
+let
 fieldToFocus
 =
 "
