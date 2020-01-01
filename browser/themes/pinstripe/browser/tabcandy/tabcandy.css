@@ -749,12 +749,16 @@ group
 {
 position
 :
-relative
+absolute
 ;
+/
+*
 float
 :
 left
 ;
+*
+/
 cursor
 :
 move
