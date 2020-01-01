@@ -3286,7 +3286,7 @@ BluetoothSocketType
 :
 RFCOMM
 true
-false
+true
 this
 runnable
 )
@@ -3397,7 +3397,7 @@ BluetoothSocketType
 :
 RFCOMM
 true
-false
+true
 this
 )
 ;
