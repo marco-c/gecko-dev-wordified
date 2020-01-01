@@ -8386,13 +8386,10 @@ reachable
 /
 if
 (
+IsIncrementalGCInProgress
+(
 rt
--
->
-gcIncrementalState
-!
-=
-NO_INCREMENTAL
+)
 &
 &
 rt

@@ -4504,6 +4504,17 @@ JSRuntime
 rt
 )
 ;
+JS_FRIEND_API
+(
+bool
+)
+IsIncrementalGCInProgress
+(
+JSRuntime
+*
+rt
+)
+;
 extern
 JS_FRIEND_API
 (
