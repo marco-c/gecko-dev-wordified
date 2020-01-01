@@ -890,6 +890,9 @@ mHWnd
 PRBool
 mCanMove
 ;
+PRBool
+mMovePreferred
+;
 /
 /
 Gecko
