@@ -872,17 +872,6 @@ RESOLVE_FAILED
 return
 PR_FALSE
 ;
-xptiInterfaceInfoManager
-*
-mgr
-=
-xptiInterfaceInfoManager
-:
-:
-GetSingleton
-(
-)
-;
 NS_ASSERTION
 (
 GetResolveState
