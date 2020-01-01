@@ -106,6 +106,13 @@ nsBaseWidget
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 /
 *
 *
