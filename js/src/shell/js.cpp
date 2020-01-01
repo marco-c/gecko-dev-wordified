@@ -16508,6 +16508,7 @@ cx
 NULL
 )
 ;
+{
 JSAutoCrossCompartmentCall
 ac
 ;
@@ -16631,6 +16632,7 @@ rval
 return
 false
 ;
+}
 }
 return
 cx
