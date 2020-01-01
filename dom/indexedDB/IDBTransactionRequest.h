@@ -695,6 +695,8 @@ bool
 aAutoIncrement
 bool
 aUnique
+bool
+aOverwrite
 )
 ;
 already_AddRefed
