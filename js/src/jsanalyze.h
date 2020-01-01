@@ -7908,10 +7908,6 @@ JSScript
 outer
 )
 :
-cx
-(
-cx
-)
 outerFrame
 (
 OUTER_FRAME
@@ -7937,10 +7933,6 @@ cv
 ;
 private
 :
-JSContext
-*
-cx
-;
 Frame
 outerFrame
 ;
