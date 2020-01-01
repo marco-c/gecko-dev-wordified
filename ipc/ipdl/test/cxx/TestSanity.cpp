@@ -176,7 +176,7 @@ float
 &
 zeroPtTwoFive
 const
-uint8_t
+PRUint8
 &
 /
 *
@@ -369,7 +369,7 @@ float
 &
 zeroPtFive
 const
-int8_t
+PRInt8
 &
 /
 *
