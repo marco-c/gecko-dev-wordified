@@ -43589,7 +43589,7 @@ kind
 )
 {
 case
-JSTN_CATCH
+JSTRY_CATCH
 :
 JS_ASSERT
 (
@@ -43684,7 +43684,7 @@ len
 )
 ;
 case
-JSTN_FINALLY
+JSTRY_FINALLY
 :
 /
 *
@@ -43741,7 +43741,7 @@ len
 )
 ;
 case
-JSTN_ITER
+JSTRY_ITER
 :
 /
 *
