@@ -629,7 +629,7 @@ Weave
 .
 Utils
 .
-makeTimerForCall
+delay
 (
 function
 (
