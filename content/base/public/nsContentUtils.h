@@ -4499,7 +4499,7 @@ error
 *
 param
 [
-aWindowId
+aInnerWindowId
 =
 0
 ]
@@ -4511,10 +4511,10 @@ window
 ID
 of
 the
-outer
+inner
 window
-the
 *
+the
 message
 originates
 from
@@ -4572,7 +4572,7 @@ char
 *
 aCategory
 PRUint64
-aWindowId
+aInnerWindowId
 =
 0
 )

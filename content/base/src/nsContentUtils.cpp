@@ -14802,7 +14802,7 @@ char
 *
 aCategory
 PRUint64
-aWindowId
+aInnerWindowId
 )
 {
 NS_ASSERTION
@@ -14982,7 +14982,7 @@ aLineNumber
 aColumnNumber
 aErrorFlags
 aCategory
-aWindowId
+aInnerWindowId
 )
 ;
 NS_ENSURE_SUCCESS
@@ -15065,7 +15065,7 @@ uri
 aURI
 ;
 PRUint64
-windowID
+innerWindowID
 =
 0
 ;
@@ -15090,12 +15090,12 @@ GetDocumentURI
 )
 ;
 }
-windowID
+innerWindowID
 =
 aDocument
 -
 >
-OuterWindowID
+InnerWindowID
 (
 )
 ;
@@ -15113,7 +15113,7 @@ aLineNumber
 aColumnNumber
 aErrorFlags
 aCategory
-windowID
+innerWindowID
 )
 ;
 }
