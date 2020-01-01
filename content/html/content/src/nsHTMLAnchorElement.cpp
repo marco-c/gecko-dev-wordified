@@ -780,6 +780,12 @@ nsHTMLAnchorElement
 Type
 type
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLAnchorElement
+Download
+download
+)
 int32_t
 nsHTMLAnchorElement
 :
