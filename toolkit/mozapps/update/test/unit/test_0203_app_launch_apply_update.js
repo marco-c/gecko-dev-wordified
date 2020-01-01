@@ -2594,6 +2594,9 @@ for
 update
 to
 be
+"
++
+"
 applied
 current
 state
@@ -3205,6 +3208,8 @@ directory
 so
 it
 should
+/
+/
 exist
 .
 logTestInfo
@@ -3620,6 +3625,9 @@ waiting
 for
 state
 to
+"
++
+"
 change
 to
 succeeded
@@ -4256,7 +4264,7 @@ exists
 )
 )
 ;
-removeCallbackCopy
+waitForFilesInUse
 (
 )
 ;
