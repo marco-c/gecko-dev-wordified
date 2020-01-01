@@ -677,9 +677,17 @@ result
 =
 nsnull
 )
+{
+delete
+filename
+;
+delete
+result
+;
 return
 nsnull
 ;
+}
 result
 -
 >
