@@ -3060,10 +3060,6 @@ WINCE_HAVE_SOFTKB
 )
 static
 PRBool
-sSoftKeyMenuBar
-;
-static
-PRBool
 sSoftKeyboardState
 ;
 #
