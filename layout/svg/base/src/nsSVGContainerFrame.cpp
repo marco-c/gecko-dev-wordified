@@ -1509,6 +1509,16 @@ if
 (
 !
 suppressInvalidation
+&
+&
+!
+(
+GetStateBits
+(
+)
+&
+NS_STATE_SVG_NONDISPLAY_CHILD
+)
 )
 nsSVGUtils
 :
