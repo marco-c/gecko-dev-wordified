@@ -556,6 +556,7 @@ printStatus
 summary
 )
 ;
+(
 function
 (
 )
@@ -609,6 +610,8 @@ c
 {
 }
 }
+)
+;
 reportCompare
 (
 expect

@@ -731,6 +731,7 @@ Crash
 ;
 try
 {
+(
 function
 (
 )
@@ -759,6 +760,8 @@ in
 {
 }
 }
+)
+;
 }
 catch
 (

@@ -721,6 +721,7 @@ printStatus
 summary
 )
 ;
+(
 function
 (
 )
@@ -738,6 +739,8 @@ finally
 }
 }
 }
+)
+;
 reportCompare
 (
 expect

@@ -723,6 +723,7 @@ printStatus
 summary
 )
 ;
+(
 function
 (
 )
@@ -753,6 +754,8 @@ z
 )
 }
 }
+)
+;
 reportCompare
 (
 expect

@@ -739,6 +739,7 @@ printStatus
 summary
 )
 ;
+(
 function
 (
 )
@@ -756,6 +757,8 @@ const
 x
 ;
 }
+)
+;
 reportCompare
 (
 expect
