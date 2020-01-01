@@ -8115,16 +8115,12 @@ ok
 JS_DumpHeap
 (
 cx
+dumpFile
 startThing
 startTraceKind
 thingToFind
 maxDepth
 thingToIgnore
-(
-JSPrintfFormater
-)
-fprintf
-dumpFile
 )
 ;
 if
