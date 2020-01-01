@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-__ion_assembler_buffer_h
+ion_shared_IonAssemblerBuffer_h
 #
 define
-__ion_assembler_buffer_h
+ion_shared_IonAssemblerBuffer_h
 /
 /
 needed
@@ -1474,5 +1474,7 @@ js
 #
 endif
 /
+*
+ion_shared_IonAssemblerBuffer_h
+*
 /
-__ion_assembler_buffer_h

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_mir_opcodes_h__
+ion_MOpcodes_h
 #
 define
-jsion_mir_opcodes_h__
+ion_MOpcodes_h
 namespace
 js
 {
@@ -1183,5 +1183,7 @@ js
 #
 endif
 /
+*
+ion_MOpcodes_h
+*
 /
-jsion_mir_opcodes_h__

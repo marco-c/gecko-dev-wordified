@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_lir_opcodes_arm_h__
+ion_arm_LOpcodes_arm_h
 #
 define
-jsion_lir_opcodes_arm_h__
+ion_arm_LOpcodes_arm_h
 #
 define
 LIR_CPU_OPCODE_LIST
@@ -188,5 +188,7 @@ AsmJSLoadFuncPtr
 #
 endif
 /
+*
+ion_arm_LOpcodes_arm_h
+*
 /
-jsion_lir_opcodes_arm_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_lowering_shared_h__
+ion_shared_Lowering_shared_h
 #
 define
-jsion_lowering_shared_h__
+ion_shared_Lowering_shared_h
 /
 /
 This
@@ -1394,5 +1394,7 @@ js
 #
 endif
 /
+*
+ion_shared_Lowering_shared_h
+*
 /
-jsion_lowering_shared_h__

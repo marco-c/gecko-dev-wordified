@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_unreachable_code_elimination_h__
+ion_UnreachableCodeElimination_h
 #
 define
-jsion_unreachable_code_elimination_h__
+ion_UnreachableCodeElimination_h
 #
 include
 "
@@ -296,3 +296,8 @@ js
 /
 #
 endif
+/
+*
+ion_UnreachableCodeElimination_h
+*
+/

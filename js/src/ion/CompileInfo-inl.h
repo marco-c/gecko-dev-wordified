@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_compileinfo_inl_h__
+ion_CompileInfo_inl_h
 #
 define
-jsion_compileinfo_inl_h__
+ion_CompileInfo_inl_h
 #
 include
 "
@@ -540,5 +540,7 @@ pc
 #
 endif
 /
+*
+ion_CompileInfo_inl_h
+*
 /
-jsion_compileinfo_inl_h__

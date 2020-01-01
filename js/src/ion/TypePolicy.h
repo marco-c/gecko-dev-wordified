@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_type_policy_h__
+ion_TypePolicy_h
 #
 define
-jsion_type_policy_h__
+ion_TypePolicy_h
 #
 include
 "
@@ -1250,5 +1250,7 @@ js
 #
 endif
 /
+*
+ion_TypePolicy_h
+*
 /
-jsion_type_policy_h__

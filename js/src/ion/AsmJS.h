@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_asmjs_h__
+ion_AsmJS_h
 #
 define
-jsion_asmjs_h__
+ion_AsmJS_h
 #
 ifdef
 XP_MACOSX
@@ -1321,5 +1321,7 @@ js
 #
 endif
 /
+*
+ion_AsmJS_h
+*
 /
-jsion_asmjs_h__

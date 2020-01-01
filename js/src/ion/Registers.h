@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_cpu_registers_h__
+ion_Registers_h
 #
 define
-jsion_cpu_registers_h__
+ion_Registers_h
 #
 include
 "
@@ -800,5 +800,7 @@ js
 #
 endif
 /
+*
+ion_Registers_h
+*
 /
-jsion_cpu_registers_h__

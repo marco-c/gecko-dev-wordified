@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_architecture_x86_h__
+ion_x86_Architecture_x86_h
 #
 define
-jsion_architecture_x86_h__
+ion_x86_Architecture_x86_h
 #
 include
 "
@@ -940,5 +940,7 @@ js
 #
 endif
 /
+*
+ion_x86_Architecture_x86_h
+*
 /
-jsion_architecture_x86_h__

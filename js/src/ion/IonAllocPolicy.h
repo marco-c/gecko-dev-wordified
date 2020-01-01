@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_alloc_policy_h__
+ion_IonAllocPolicy_h
 #
 define
-jsion_ion_alloc_policy_h__
+ion_IonAllocPolicy_h
 #
 include
 "
@@ -758,5 +758,7 @@ js
 #
 endif
 /
+*
+ion_IonAllocPolicy_h
+*
 /
-jsion_temp_alloc_policy_h__

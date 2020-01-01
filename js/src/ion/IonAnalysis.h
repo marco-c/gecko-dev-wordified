@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_analysis_h__
+ion_IonAnalysis_h
 #
 define
-jsion_ion_analysis_h__
+ion_IonAnalysis_h
 /
 /
 This
@@ -585,5 +585,7 @@ js
 #
 endif
 /
+*
+ion_IonAnalysis_h
+*
 /
-jsion_ion_analysis_h__

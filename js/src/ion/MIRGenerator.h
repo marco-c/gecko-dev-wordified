@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_mirgen_h__
+ion_MIRGenerator_h
 #
 define
-jsion_mirgen_h__
+ion_MIRGenerator_h
 /
 /
 This
@@ -768,5 +768,7 @@ js
 #
 endif
 /
+*
+ion_MIRGenerator_h
+*
 /
-jsion_mirgen_h__

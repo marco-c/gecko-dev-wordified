@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_edge_case_analysis_h__
+ion_EdgeCaseAnalysis_h
 #
 define
-jsion_ion_edge_case_analysis_h__
+ion_EdgeCaseAnalysis_h
 namespace
 js
 {
@@ -166,5 +166,7 @@ js
 #
 endif
 /
+*
+ion_EdgeCaseAnalysis_h
+*
 /
-jsion_ion_edge_case_analysis_h__

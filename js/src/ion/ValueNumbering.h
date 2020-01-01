@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_value_numbering_h__
+ion_ValueNumbering_h
 #
 define
-jsion_value_numbering_h__
+ion_ValueNumbering_h
 #
 include
 "
@@ -807,5 +807,7 @@ js
 #
 endif
 /
+*
+ion_ValueNumbering_h
+*
 /
-jsion_value_numbering_h__

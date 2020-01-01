@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baselinecompiler_x64_h__
+ion_x64_BaselineCompiler_x64_h
 #
 define
-jsion_baselinecompiler_x64_h__
+ion_x64_BaselineCompiler_x64_h
 #
 include
 "
@@ -171,5 +171,7 @@ js
 #
 endif
 /
+*
+ion_x64_BaselineCompiler_x64_h
+*
 /
-jsion_baselinecompiler_x64_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_snapshots_h__
+ion_SnapshotReader_h
 #
 define
-jsion_snapshots_h__
+ion_SnapshotReader_h
 #
 include
 "
@@ -1085,5 +1085,7 @@ frameCount_
 #
 endif
 /
+*
+ion_SnapshotReader_h
+*
 /
-jsion_snapshots_h__

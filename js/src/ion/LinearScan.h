@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_ion_linearscan_h__
+ion_LinearScan_h
 #
 define
-js_ion_linearscan_h__
+ion_LinearScan_h
 #
 include
 "
@@ -700,3 +700,8 @@ namespace
 js
 #
 endif
+/
+*
+ion_LinearScan_h
+*
+/

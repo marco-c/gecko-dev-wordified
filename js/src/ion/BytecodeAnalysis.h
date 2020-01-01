@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_bytecodeanalysis_h__
+ion_BytecodeAnalysis_h
 #
 define
-jsion_bytecodeanalysis_h__
+ion_BytecodeAnalysis_h
 #
 include
 "
@@ -347,5 +347,7 @@ js
 #
 endif
 /
+*
+ion_BytecodeAnalysis_h
+*
 /
-jsion_bytecodeanalysis_h__

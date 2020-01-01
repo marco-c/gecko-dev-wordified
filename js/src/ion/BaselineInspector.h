@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baseline_inspector_h__
+ion_BaselineInspector_h
 #
 define
-jsion_baseline_inspector_h__
+ion_BaselineInspector_h
 #
 ifdef
 JS_ION
@@ -633,5 +633,7 @@ JS_ION
 #
 endif
 /
+*
+ion_BaselineInspector_h
+*
 /
-jsion_baseline_inspector_h__

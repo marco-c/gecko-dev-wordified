@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_asmjsmodule_h__
+ion_AsmJSModule_h
 #
 define
-jsion_asmjsmodule_h__
+ion_AsmJSModule_h
 #
 ifdef
 JS_ION
@@ -4207,5 +4207,7 @@ JS_ION
 #
 endif
 /
+*
+ion_AsmJSModule_h
+*
 /
-jsion_asmjsmodule_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_codegen_arm_h__
+ion_arm_CodeGenerator_arm_h
 #
 define
-jsion_codegen_arm_h__
+ion_arm_CodeGenerator_arm_h
 #
 include
 "
@@ -1276,5 +1276,7 @@ js
 #
 endif
 /
+*
+ion_arm_CodeGenerator_arm_h
+*
 /
-jsion_codegen_arm_h__

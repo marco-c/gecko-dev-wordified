@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_inline_list_h__
+ion_InlineList_h
 #
 define
-js_inline_list_h__
+ion_InlineList_h
 #
 include
 "
@@ -2201,5 +2201,7 @@ js
 #
 endif
 /
+*
+ion_InlineList_h
+*
 /
-js_inline_list_h__

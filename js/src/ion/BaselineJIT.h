@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baseline_jit_h__
+ion_BaselineJIT_h
 #
 define
-jsion_baseline_jit_h__
+ion_BaselineJIT_h
 #
 ifdef
 JS_ION
@@ -1833,5 +1833,7 @@ JS_ION
 #
 endif
 /
+*
+ion_BaselineJIT_h
+*
 /
-jsion_baseline_jit_h__

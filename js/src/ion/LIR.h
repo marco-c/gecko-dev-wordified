@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_lir_h__
+ion_LIR_h
 #
 define
-jsion_lir_h__
+ion_LIR_h
 /
 /
 This
@@ -7973,5 +7973,7 @@ h
 #
 endif
 /
+*
+ion_LIR_h
+*
 /
-jsion_lir_h__

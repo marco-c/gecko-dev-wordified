@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baseline_frame_inl_h__
+ion_BaselineFrame_inl_h
 #
 define
-jsion_baseline_frame_inl_h__
+ion_BaselineFrame_inl_h
 #
 ifdef
 JS_ION
@@ -512,5 +512,7 @@ JS_ION
 #
 endif
 /
+*
+ion_BaselineFrame_inl_h
+*
 /
-jsion_baseline_frame_inl_h__

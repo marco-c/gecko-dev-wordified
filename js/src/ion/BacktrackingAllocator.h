@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_ion_backtrackingallocator_h__
+ion_BacktrackingAllocator_h
 #
 define
-js_ion_backtrackingallocator_h__
+ion_BacktrackingAllocator_h
 #
 include
 "
@@ -1423,3 +1423,8 @@ namespace
 js
 #
 endif
+/
+*
+ion_BacktrackingAllocator_h
+*
+/

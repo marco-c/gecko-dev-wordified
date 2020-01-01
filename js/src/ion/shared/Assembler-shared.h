@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_assembler_shared_h__
+ion_shared_Assembler_shared_h
 #
 define
-jsion_assembler_shared_h__
+ion_shared_Assembler_shared_h
 #
 include
 <
@@ -2723,5 +2723,7 @@ js
 #
 endif
 /
+*
+ion_shared_Assembler_shared_h
+*
 /
-jsion_assembler_shared_h__

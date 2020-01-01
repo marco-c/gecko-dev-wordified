@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_lowering_arm_h__
+ion_arm_Lowering_arm_h
 #
 define
-jsion_ion_lowering_arm_h__
+ion_arm_Lowering_arm_h
 #
 include
 "
@@ -637,5 +637,7 @@ js
 #
 endif
 /
+*
+ion_arm_Lowering_arm_h
+*
 /
-jsion_ion_lowering_arm_h__

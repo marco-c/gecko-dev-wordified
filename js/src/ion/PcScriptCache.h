@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-pcscriptcache_h__
+ion_PcScriptCache_h
 #
 define
-pcscriptcache_h__
+ion_PcScriptCache_h
 /
 /
 Defines
@@ -446,5 +446,7 @@ js
 #
 endif
 /
+*
+ion_PcScriptCache_h
+*
 /
-pcscriptcache_h__

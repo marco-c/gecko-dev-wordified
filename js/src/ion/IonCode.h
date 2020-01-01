@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_coderef_h__
+ion_IonCode_h
 #
 define
-jsion_coderef_h__
+ion_IonCode_h
 #
 include
 "
@@ -3833,5 +3833,7 @@ js
 #
 endif
 /
+*
+ion_IonCode_h
+*
 /
-jsion_coderef_h__

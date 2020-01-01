@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_alias_analysis_h__
+ion_AliasAnalysis_h
 #
 define
-jsion_alias_analysis_h__
+ion_AliasAnalysis_h
 #
 include
 "
@@ -305,5 +305,7 @@ ion
 #
 endif
 /
+*
+ion_AliasAnalysis_h
+*
 /
-jsion_alias_analysis_h__

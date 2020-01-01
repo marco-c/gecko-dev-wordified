@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_bytecode_analyzer_h__
+ion_IonBuilder_h
 #
 define
-jsion_bytecode_analyzer_h__
+ion_IonBuilder_h
 #
 ifdef
 JS_ION
@@ -4976,5 +4976,7 @@ JS_ION
 #
 endif
 /
+*
+ion_IonBuilder_h
+*
 /
-jsion_bytecode_analyzer_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_ion_liverangeallocator_h__
+ion_LiveRangeAllocator_h
 #
 define
-js_ion_liverangeallocator_h__
+ion_LiveRangeAllocator_h
 #
 include
 "
@@ -3730,3 +3730,8 @@ namespace
 js
 #
 endif
+/
+*
+ion_LiveRangeAllocator_h
+*
+/

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_compartment_h__
+ion_IonCompartment_h
 #
 define
-jsion_ion_compartment_h__
+ion_IonCompartment_h
 #
 ifdef
 JS_ION
@@ -1787,5 +1787,7 @@ JS_ION
 #
 endif
 /
+*
+ion_IonCompartment_h
+*
 /
-jsion_ion_compartment_h__

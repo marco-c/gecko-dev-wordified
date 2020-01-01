@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_lowering_x64_h__
+ion_x64_Lowering_x64_h
 #
 define
-jsion_ion_lowering_x64_h__
+ion_x64_Lowering_x64_h
 #
 include
 "
@@ -365,5 +365,7 @@ js
 #
 endif
 /
+*
+ion_x64_Lowering_x64_h
+*
 /
-jsion_ion_lowering_x64_h__

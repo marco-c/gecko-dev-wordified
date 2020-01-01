@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_licm_h__
+ion_LICM_h
 #
 define
-jsion_licm_h__
+ion_LICM_h
 #
 include
 "
@@ -561,5 +561,7 @@ js
 #
 endif
 /
+*
+ion_LICM_h
+*
 /
-jsion_licm_h__

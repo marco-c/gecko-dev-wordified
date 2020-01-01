@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_assembler_buffer_with_constant_pools_h__
+ion_shared_IonAssemblerBufferWithConstantPools_h
 #
 define
-jsion_ion_assembler_buffer_with_constant_pools_h__
+ion_shared_IonAssemblerBufferWithConstantPools_h
 #
 include
 "
@@ -10243,5 +10243,7 @@ js
 #
 endif
 /
+*
+ion_shared_IonAssemblerBufferWithConstantPools_h
+*
 /
-jsion_ion_assembler_buffer_with_constant_pools_h__

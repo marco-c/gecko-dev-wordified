@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_architecture_arm_h__
+ion_arm_Architecture_arm_h
 #
 define
-jsion_architecture_arm_h__
+ion_arm_Architecture_arm_h
 #
 include
 <
@@ -1245,5 +1245,7 @@ js
 #
 endif
 /
+*
+ion_arm_Architecture_arm_h
+*
 /
-jsion_architecture_arm_h__

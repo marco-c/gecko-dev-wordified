@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baselinecompiler_x86_shared_h__
+ion_shared_BaselineCompiler_x86_shared_h
 #
 define
-jsion_baselinecompiler_x86_shared_h__
+ion_shared_BaselineCompiler_x86_shared_h
 #
 include
 "
@@ -165,5 +165,7 @@ js
 #
 endif
 /
+*
+ion_shared_BaselineCompiler_x86_shared_h
+*
 /
-jsion_baselinecompiler_x86_shared_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_bitset_h__
+ion_BitSet_h
 #
 define
-jsion_bitset_h__
+ion_BitSet_h
 #
 include
 "
@@ -963,3 +963,8 @@ index_
 }
 #
 endif
+/
+*
+ion_BitSet_h
+*
+/

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_snapshot_writer_h__
+ion_SnapshotWriter_h
 #
 define
-jsion_snapshot_writer_h__
+ion_SnapshotWriter_h
 #
 include
 "
@@ -462,5 +462,7 @@ buffer
 #
 endif
 /
+*
+ion_SnapshotWriter_h
+*
 /
-jsion_snapshot_writer_h__

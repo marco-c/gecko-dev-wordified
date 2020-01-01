@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_ion_registerallocator_h__
+ion_RegisterAllocator_h
 #
 define
-js_ion_registerallocator_h__
+ion_RegisterAllocator_h
 #
 include
 "
@@ -2155,3 +2155,8 @@ namespace
 js
 #
 endif
+/
+*
+ion_RegisterAllocator_h
+*
+/

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baseline_frameinfo_h__
+ion_BaselineFrameInfo_h
 #
 define
-jsion_baseline_frameinfo_h__
+ion_BaselineFrameInfo_h
 #
 ifdef
 JS_ION
@@ -1959,5 +1959,7 @@ JS_ION
 #
 endif
 /
+*
+ion_BaselineFrameInfo_h
+*
 /
-jsion_baseline_frameinfo_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_fixed_list_h__
+ion_FixedList_h
 #
 define
-jsion_ion_fixed_list_h__
+ion_FixedList_h
 namespace
 js
 {
@@ -434,5 +434,7 @@ js
 #
 endif
 /
+*
+ion_FixedList_h
+*
 /
-jsion_ion_fixed_list_h__

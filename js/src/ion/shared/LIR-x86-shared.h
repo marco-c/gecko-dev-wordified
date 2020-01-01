@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_lir_x86_shared_h__
+ion_shared_LIR_x86_shared_h
 #
 define
-jsion_lir_x86_shared_h__
+ion_shared_LIR_x86_shared_h
 namespace
 js
 {
@@ -1390,5 +1390,7 @@ js
 #
 endif
 /
+*
+ion_shared_LIR_x86_shared_h
+*
 /
-jsion_lir_x86_shared_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_spewer_h__
+ion_IonSpewer_h
 #
 define
-jsion_ion_spewer_h__
+ion_IonSpewer_h
 #
 include
 <
@@ -1134,6 +1134,6 @@ js
 endif
 /
 *
-jsion_ion_spewer_h__
+ion_IonSpewer_h
 *
 /

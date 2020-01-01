@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ionframes_arm_h__
+ion_arm_IonFrames_arm_h
 #
 define
-jsion_ionframes_arm_h__
+ion_arm_IonFrames_arm_h
 #
 include
 "
@@ -2632,5 +2632,7 @@ js
 #
 endif
 /
+*
+ion_arm_IonFrames_arm_h
+*
 /
-jsion_ionframes_arm_h

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_range_analysis_h__
+ion_RangeAnalysis_h
 #
 define
-jsion_range_analysis_h__
+ion_RangeAnalysis_h
 #
 include
 "
@@ -2232,5 +2232,7 @@ js
 #
 endif
 /
+*
+ion_RangeAnalysis_h
+*
 /
-jsion_range_analysis_h__

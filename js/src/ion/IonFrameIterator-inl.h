@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_frame_iterator_inl_h__
+ion_IonFrameIterator_inl_h
 #
 define
-jsion_frame_iterator_inl_h__
+ion_IonFrameIterator_inl_h
 #
 ifdef
 JS_ION
@@ -1530,5 +1530,7 @@ JS_ION
 #
 endif
 /
+*
+ion_IonFrameIterator_inl_h
+*
 /
-jsion_frame_iterator_inl_h__

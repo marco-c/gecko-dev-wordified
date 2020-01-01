@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_codegen_inl_h__
+ion_shared_CodeGenerator_shared_inl_h
 #
 define
-jsion_codegen_inl_h__
+ion_shared_CodeGenerator_shared_inl_h
 namespace
 js
 {
@@ -836,5 +836,7 @@ js
 #
 endif
 /
+*
+ion_shared_CodeGenerator_shared_inl_h
+*
 /
-jsion_codegen_inl_h__

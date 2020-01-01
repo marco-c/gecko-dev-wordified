@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_h__
+ion_Ion_h
 #
 define
-jsion_ion_h__
+ion_Ion_h
 #
 ifdef
 JS_ION
@@ -1804,5 +1804,7 @@ JS_ION
 #
 endif
 /
+*
+ion_Ion_h
+*
 /
-jsion_ion_h__

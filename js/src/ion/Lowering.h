@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_lowering_h__
+ion_Lowering_h
 #
 define
-jsion_ion_lowering_h__
+ion_Lowering_h
 /
 /
 This
@@ -1892,5 +1892,7 @@ js
 #
 endif
 /
+*
+ion_Lowering_h
+*
 /
-jsion_ion_lowering_h__

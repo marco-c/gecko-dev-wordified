@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ionframes_shared_h__
+ion_shared_IonFrames_shared_h
 #
 define
-jsion_ionframes_shared_h__
+ion_shared_IonFrames_shared_h
 #
 define
 ION_FRAME_DOMGETTER
@@ -176,3 +176,8 @@ IonCode
 )
 #
 endif
+/
+*
+ion_shared_IonFrames_shared_h
+*
+/

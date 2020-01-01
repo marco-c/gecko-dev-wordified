@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_macro_assembler_x86_shared_h__
+ion_shared_MacroAssembler_x86_shared_h
 #
 define
-jsion_macro_assembler_x86_shared_h__
+ion_shared_MacroAssembler_x86_shared_h
 #
 include
 "
@@ -3134,5 +3134,7 @@ js
 #
 endif
 /
+*
+ion_shared_MacroAssembler_x86_shared_h
+*
 /
-jsion_macro_assembler_x86_shared_h__

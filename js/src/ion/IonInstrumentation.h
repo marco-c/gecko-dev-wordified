@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_instrumentation_h__
+ion_IonInstrumentation_h
 #
 define
-jsion_ion_instrumentation_h__
+ion_IonInstrumentation_h
 namespace
 js
 {
@@ -213,5 +213,7 @@ js
 #
 endif
 /
+*
+ion_IonInstrumentation_h
+*
 /
-jsion_ion_instrumentation_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_move_emitter_h__
+ion_MoveEmitter_h
 #
 define
-jsion_move_emitter_h__
+ion_MoveEmitter_h
 #
 if
 defined
@@ -174,5 +174,7 @@ endif
 #
 endif
 /
+*
+ion_MoveEmitter_h
+*
 /
-jsion_move_emitter_h__

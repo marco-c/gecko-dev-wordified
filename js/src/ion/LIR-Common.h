@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_lir_common_h__
+ion_LIR_Common_h
 #
 define
-jsion_lir_common_h__
+ion_LIR_Common_h
 #
 include
 "
@@ -21321,5 +21321,7 @@ js
 #
 endif
 /
+*
+ion_LIR_Common_h
+*
 /
-jsion_lir_common_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baseline_registers_arm_h__
+ion_arm_BaselineRegisters_arm_h
 #
 define
-jsion_baseline_registers_arm_h__
+ion_arm_BaselineRegisters_arm_h
 #
 ifdef
 JS_ION
@@ -391,5 +391,7 @@ JS_ION
 #
 endif
 /
+*
+ion_arm_BaselineRegisters_arm_h
+*
 /
-jsion_baseline_registers_arm_h__

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_gc_h__
+ion_CompilerRoot_h
 #
 define
-jsion_ion_gc_h__
+ion_CompilerRoot_h
 #
 ifdef
 JS_ION
@@ -444,5 +444,7 @@ JS_ION
 #
 endif
 /
+*
+ion_CompilerRoot_h
+*
 /
-jsion_ion_gc_h__

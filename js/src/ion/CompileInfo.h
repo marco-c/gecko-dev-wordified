@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_compileinfo_h__
+ion_CompileInfo_h
 #
 define
-jsion_compileinfo_h__
+ion_CompileInfo_h
 #
 include
 "
@@ -1058,3 +1058,8 @@ namespace
 js
 #
 endif
+/
+*
+ion_CompileInfo_h
+*
+/

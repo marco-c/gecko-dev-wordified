@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_move_group_resolver_h__
+ion_MoveResolver_h
 #
 define
-jsion_move_group_resolver_h__
+ion_MoveResolver_h
 #
 include
 "
@@ -1056,5 +1056,7 @@ js
 #
 endif
 /
+*
+ion_MoveResolver_h
+*
 /
-jsion_move_group_resolver_h__

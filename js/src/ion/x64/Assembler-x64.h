@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_cpu_x64_assembler_h__
+ion_x64_Assembler_x64_h
 #
 define
-jsion_cpu_x64_assembler_h__
+ion_x64_Assembler_x64_h
 #
 include
 "
@@ -5688,5 +5688,7 @@ js
 #
 endif
 /
+*
+ion_x64_Assembler_x64_h
+*
 /
-jsion_cpu_x64_assembler_h__

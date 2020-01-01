@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_codegen_h__
+ion_CodeGenerator_h
 #
 define
-jsion_codegen_h__
+ion_CodeGenerator_h
 #
 if
 defined
@@ -2536,5 +2536,7 @@ js
 #
 endif
 /
+*
+ion_CodeGenerator_h
+*
 /
-jsion_codegen_h__

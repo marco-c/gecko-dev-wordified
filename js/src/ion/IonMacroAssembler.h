@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_macro_assembler_h__
+ion_IonMacroAssembler_h
 #
 define
-jsion_macro_assembler_h__
+ion_IonMacroAssembler_h
 #
 ifdef
 JS_ION
@@ -6834,5 +6834,7 @@ JS_ION
 #
 endif
 /
+*
+ion_IonMacroAssembler_h
+*
 /
-jsion_macro_assembler_h__

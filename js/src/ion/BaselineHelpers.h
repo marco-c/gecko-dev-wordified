@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baseline_helpers_h__
+ion_BaselineHelpers_h
 #
 define
-jsion_baseline_helpers_h__
+ion_BaselineHelpers_h
 #
 ifdef
 JS_ION
@@ -203,5 +203,7 @@ JS_ION
 #
 endif
 /
+*
+ion_BaselineHelpers_h
+*
 /
-jsion_baseline_helpers_h__

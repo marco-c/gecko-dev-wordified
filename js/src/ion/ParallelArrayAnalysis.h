@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_parallel_array_analysis_h__
+ion_ParallelArrayAnalysis_h
 #
 define
-jsion_parallel_array_analysis_h__
+ion_ParallelArrayAnalysis_h
 #
 include
 "
@@ -331,5 +331,7 @@ js
 #
 endif
 /
+*
+ion_ParallelArrayAnalysis_h
+*
 /
-jsion_parallel_array_analysis_h

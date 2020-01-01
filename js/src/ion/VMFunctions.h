@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_vm_functions_h__
+ion_VMFunctions_h
 #
 define
-jsion_vm_functions_h__
+ion_VMFunctions_h
 #
 include
 "
@@ -4477,5 +4477,7 @@ js
 #
 endif
 /
+*
+ion_VMFunctions_h
+*
 /
-jsion_vm_functions_h_

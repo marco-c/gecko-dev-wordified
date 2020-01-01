@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_compact_buffer_h__
+ion_Compactbuffer_h
 #
 define
-jsion_compact_buffer_h__
+ion_Compactbuffer_h
 #
 include
 "
@@ -979,5 +979,7 @@ js
 #
 endif
 /
+*
+ion_Compactbuffer_h
+*
 /
-jsion_compact_buffer_h__

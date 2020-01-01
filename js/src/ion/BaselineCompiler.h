@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_baseline_compiler_h__
+ion_BaselineCompiler_h
 #
 define
-jsion_baseline_compiler_h__
+ion_BaselineCompiler_h
 #
 ifdef
 JS_ION
@@ -1342,5 +1342,7 @@ JS_ION
 #
 endif
 /
+*
+ion_BaselineCompiler_h
+*
 /
-jsion_baseline_compiler_h__

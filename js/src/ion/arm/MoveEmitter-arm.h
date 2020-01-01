@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_move_resolver_arm_shared_h__
+ion_arm_MoveEmitter_arm_h
 #
 define
-jsion_move_resolver_arm_shared_h__
+ion_arm_MoveEmitter_arm_h
 #
 include
 "
@@ -434,5 +434,7 @@ js
 #
 endif
 /
+*
+ion_arm_MoveEmitter_arm_h
+*
 /
-jsion_move_resolver_arm_shared_h__

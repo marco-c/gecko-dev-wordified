@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_ion_stupidallocator_h__
+ion_StupidAllocator_h
 #
 define
-js_ion_stupidallocator_h__
+ion_StupidAllocator_h
 #
 include
 "
@@ -473,3 +473,8 @@ namespace
 js
 #
 endif
+/
+*
+ion_StupidAllocator_h
+*
+/

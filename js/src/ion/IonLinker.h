@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_linker_h__
+ion_IonLinker_h
 #
 define
-jsion_linker_h__
+ion_IonLinker_h
 #
 include
 "
@@ -531,5 +531,7 @@ js
 #
 endif
 /
+*
+ion_IonLinker_h
+*
 /
-jsion_linker_h__

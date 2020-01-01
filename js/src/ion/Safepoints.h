@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsion_include_safepoints_h_
+ion_Safepoints_h
 #
 define
-jsion_include_safepoints_h_
+ion_Safepoints_h
 #
 include
 "
@@ -528,5 +528,7 @@ js
 #
 endif
 /
+*
+ion_Safepoints_h
+*
 /
-jsion_include_safepoints_h_
