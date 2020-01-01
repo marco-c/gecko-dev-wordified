@@ -888,7 +888,6 @@ script
 >
 strictModeCode
 )
-{
 bce
 .
 sc
@@ -898,15 +897,6 @@ setInStrictMode
 (
 )
 ;
-parser
-.
-tokenStream
-.
-setStrictMode
-(
-)
-;
-}
 #
 ifdef
 DEBUG
@@ -1706,14 +1696,6 @@ init
 return
 false
 ;
-TokenStream
-&
-tokenStream
-=
-parser
-.
-tokenStream
-;
 SharedContext
 funsc
 (
@@ -2054,6 +2036,8 @@ pn
 if
 (
 !
+parser
+.
 tokenStream
 .
 matchToken
