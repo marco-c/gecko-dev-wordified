@@ -776,7 +776,6 @@ aFrame
 GetContent
 (
 )
-PR_TRUE
 )
 ;
 if
