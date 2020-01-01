@@ -6039,13 +6039,7 @@ len
 i
 )
 {
-nsCOMPtr
-<
-nsIXPConnectWrappedJS
->
-wjs
-=
-do_QueryInterface
+xpc_TryUnmarkWrappedGrayObject
 (
 mListeners
 [
@@ -6053,11 +6047,6 @@ i
 ]
 .
 mListener
-)
-;
-xpc_UnmarkGrayObject
-(
-wjs
 )
 ;
 }
