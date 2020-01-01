@@ -13500,7 +13500,6 @@ message
 nsAString
 &
 aRet
-NS_OUTPARAM
 )
 {
 AndroidBridge

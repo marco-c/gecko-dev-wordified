@@ -363,7 +363,6 @@ url
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -375,7 +374,6 @@ url
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 /

@@ -520,7 +520,6 @@ nsIDOMDOMRequest
 *
 *
 _retval
-NS_OUTPARAM
 bool
 aEditable
 )

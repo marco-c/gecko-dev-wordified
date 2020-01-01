@@ -5519,7 +5519,6 @@ nsIDOMDOMRequest
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 /
@@ -5582,7 +5581,6 @@ nsIDOMDOMRequest
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 /
@@ -5734,7 +5732,6 @@ nsIDOMDOMRequest
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 return
@@ -5767,7 +5764,6 @@ nsIDOMDOMRequest
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 return
@@ -5800,7 +5796,6 @@ nsIDOMDOMRequest
 *
 *
 _retval
-NS_OUTPARAM
 bool
 aEditable
 )
@@ -5998,7 +5993,6 @@ nsIDOMDOMRequest
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 nsCOMPtr

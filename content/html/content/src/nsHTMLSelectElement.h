@@ -1699,7 +1699,6 @@ aIndex
 bool
 *
 aIsDisabled
-NS_OUTPARAM
 )
 ;
 /
@@ -1885,7 +1884,6 @@ aNotify
 bool
 *
 aChangedSomething
-NS_OUTPARAM
 )
 ;
 /
@@ -1951,7 +1949,6 @@ aForward
 PRInt32
 *
 aIndex
-NS_OUTPARAM
 )
 ;
 /

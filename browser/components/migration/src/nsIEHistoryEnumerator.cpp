@@ -456,7 +456,6 @@ HasMoreElements
 bool
 *
 _retval
-NS_OUTPARAM
 )
 {
 *
@@ -760,7 +759,6 @@ nsISupports
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 *

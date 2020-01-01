@@ -1353,7 +1353,6 @@ evt
 bool
 *
 _retval
-NS_OUTPARAM
 )
 {
 \
@@ -1504,7 +1503,6 @@ GetContextForEventHandlers
 nsresult
 *
 aRv
-NS_OUTPARAM
 )
 {
 \

@@ -1118,7 +1118,6 @@ nsIURI
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 LOG
@@ -1225,7 +1224,6 @@ nsIChannel
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 LOG
@@ -1266,7 +1264,6 @@ scheme
 bool
 *
 _retval
-NS_OUTPARAM
 )
 {
 LOG

@@ -228,7 +228,6 @@ aSource
 nsACString
 &
 aDest
-NS_OUTPARAM
 )
 ;
 void
@@ -241,7 +240,6 @@ aSource
 nsAString
 &
 aDest
-NS_OUTPARAM
 )
 ;
 void
@@ -254,7 +252,6 @@ aSource
 nsACString
 &
 aDest
-NS_OUTPARAM
 )
 ;
 void
@@ -267,7 +264,6 @@ aSource
 nsAString
 &
 aDest
-NS_OUTPARAM
 )
 ;
 void
@@ -280,7 +276,6 @@ aSource
 nsACString
 &
 aDest
-NS_OUTPARAM
 )
 ;
 void
@@ -293,7 +288,6 @@ aSource
 nsAString
 &
 aDest
-NS_OUTPARAM
 )
 ;
 void
@@ -306,7 +300,6 @@ aSource
 nsACString
 &
 aDest
-NS_OUTPARAM
 )
 ;
 void
@@ -319,7 +312,6 @@ aSource
 nsAString
 &
 aDest
-NS_OUTPARAM
 )
 ;
 void

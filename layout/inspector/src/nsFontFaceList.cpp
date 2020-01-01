@@ -376,7 +376,6 @@ nsIDOMFontFace
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 NS_ENSURE_TRUE

@@ -326,7 +326,6 @@ nsIVolume
 *
 *
 aResult
-NS_OUTPARAM
 )
 {
 nsRefPtr
@@ -388,7 +387,6 @@ nsIVolume
 *
 *
 aResult
-NS_OUTPARAM
 )
 {
 nsCString

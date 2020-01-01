@@ -721,7 +721,6 @@ aCount
 PRUint32
 *
 aRead
-NS_OUTPARAM
 )
 {
 return
@@ -750,7 +749,6 @@ aCount
 PRUint32
 *
 aRead
-NS_OUTPARAM
 )
 {
 *

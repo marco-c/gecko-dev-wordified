@@ -2040,7 +2040,6 @@ nsZipHandle
 *
 *
 ret
-NS_OUTPARAM
 )
 ;
 static
@@ -2058,7 +2057,6 @@ nsZipHandle
 *
 *
 ret
-NS_OUTPARAM
 )
 ;
 NS_METHOD_

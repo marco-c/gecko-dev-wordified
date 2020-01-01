@@ -591,7 +591,6 @@ Show
 PRInt16
 *
 _retval
-NS_OUTPARAM
 )
 {
 if

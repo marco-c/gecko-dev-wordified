@@ -6106,7 +6106,6 @@ src
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 {
 NS_PRECONDITION
@@ -6481,7 +6480,6 @@ aCode
 nsACString
 &
 aBuf
-NS_OUTPARAM
 )
 {
 aBuf
@@ -6573,7 +6571,6 @@ aValue
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 {
 NS_PRECONDITION
@@ -6925,7 +6922,6 @@ aFontDescID
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 const
 {
@@ -7429,7 +7425,6 @@ propertyName
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 {
 return
@@ -7470,7 +7465,6 @@ nsIDOMCSSValue
 *
 *
 aResult
-NS_OUTPARAM
 )
 {
 /
@@ -7519,7 +7513,6 @@ propertyName
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 {
 nsCSSFontDesc
@@ -7632,7 +7625,6 @@ propertyName
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 {
 /
@@ -7812,7 +7804,6 @@ index
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 {
 PRInt32

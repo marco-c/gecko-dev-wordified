@@ -547,7 +547,6 @@ serializable
 nsACString
 &
 _retval
-NS_OUTPARAM
 )
 {
 return
@@ -572,7 +571,6 @@ nsISupports
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 return

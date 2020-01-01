@@ -2808,7 +2808,6 @@ aFeature
 PRInt32
 *
 aStatus
-NS_OUTPARAM
 )
 {
 if
@@ -3981,7 +3980,6 @@ aFeature
 nsAString
 &
 aVersion
-NS_OUTPARAM
 )
 {
 nsCString
@@ -4039,7 +4037,6 @@ aParam
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 {
 return
@@ -4425,13 +4422,11 @@ GetFailures
 PRUint32
 *
 failureCount
-NS_OUTPARAM
 char
 *
 *
 *
 failures
-NS_OUTPARAM
 )
 {
 NS_ENSURE_ARG_POINTER

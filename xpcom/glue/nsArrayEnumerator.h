@@ -151,7 +151,6 @@ nsISimpleEnumerator
 *
 *
 result
-NS_OUTPARAM
 nsIArray
 *
 array
@@ -216,7 +215,6 @@ nsISimpleEnumerator
 *
 *
 aResult
-NS_OUTPARAM
 const
 nsCOMArray_base
 &

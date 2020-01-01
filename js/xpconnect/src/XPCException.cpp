@@ -783,7 +783,6 @@ StealJSVal
 jsval
 *
 vp
-NS_OUTPARAM
 )
 {
 if

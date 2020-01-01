@@ -5715,7 +5715,6 @@ comp
 index_type
 *
 idx
-NS_OUTPARAM
 )
 const
 {

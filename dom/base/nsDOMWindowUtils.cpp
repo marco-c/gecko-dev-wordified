@@ -9619,12 +9619,10 @@ StopFrameTimeRecording
 PRUint32
 *
 frameCount
-NS_OUTPARAM
 float
 *
 *
 frames
-NS_OUTPARAM
 )
 {
 NS_ENSURE_ARG_POINTER
