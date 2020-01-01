@@ -6816,7 +6816,6 @@ code
 .
 *
 /
-static
 nsresult
 ReorderLogical
 (
@@ -7044,7 +7043,6 @@ code
 .
 *
 /
-static
 nsresult
 ReorderVisual
 (
@@ -7865,7 +7863,6 @@ nsBidiLevel
 aMaxLevel
 )
 ;
-static
 PRBool
 PrepareReorder
 (
