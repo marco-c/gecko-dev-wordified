@@ -814,6 +814,14 @@ NS_CRYPTO_HMAC_CID
 0x8a
 }
 }
+extern
+PRBool
+EnsureNSSInitialized
+(
+PRBool
+reset
+)
+;
 /
 /
 -
@@ -1673,6 +1681,11 @@ RegisterPSMContentListener
 ;
 nsresult
 RegisterObservers
+(
+)
+;
+nsresult
+DeregisterObservers
 (
 )
 ;

@@ -1399,6 +1399,10 @@ Cleanup
 )
 ;
 static
+PRBool
+nsSSLIOLayerInitialized
+;
+static
 PRDescIdentity
 nsSSLIOLayerIdentity
 ;
