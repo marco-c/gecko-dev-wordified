@@ -428,6 +428,12 @@ tps
 phase
 import
 TPSTestPhase
+from
+tps
+.
+mozhttpd
+import
+MozHttpd
 class
 TempFile
 (
@@ -3301,6 +3307,28 @@ self
 testfile
 )
     
+self
+.
+mozhttpd
+=
+MozHttpd
+(
+port
+=
+4567
+docroot
+=
+testdir
+)
+    
+self
+.
+mozhttpd
+.
+start
+(
+)
+    
 #
 run
 each
@@ -3447,6 +3475,14 @@ numfailed
 +
 =
 1
+    
+self
+.
+mozhttpd
+.
+stop
+(
+)
     
 #
 generate
