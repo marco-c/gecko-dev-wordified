@@ -9526,6 +9526,14 @@ m_cap
 =
 newcap
 ;
+m_gc
+-
+>
+Free
+(
+list
+)
+;
 WB
 (
 m_gc
