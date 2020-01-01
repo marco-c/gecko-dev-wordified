@@ -2200,6 +2200,10 @@ is
 gURLBar
 .
 value
+gURLBar
+.
+trimValue
+(
 "
 http
 :
@@ -2210,6 +2214,7 @@ example
 com
 /
 "
+)
 "
 Address
 bar

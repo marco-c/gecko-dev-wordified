@@ -432,6 +432,15 @@ switchtab
 +
 testURL
 ;
+testURL
+=
+gURLBar
+.
+trimValue
+(
+testURL
+)
+;
 let
 testTab
 ;
