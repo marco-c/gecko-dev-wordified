@@ -201,7 +201,7 @@ nsNativeDragTarget
 (
 nsIWidget
 *
-aWnd
+aWidget
 )
 ;
 ~
@@ -570,7 +570,7 @@ Gecko
 Stuff
 nsIWidget
 *
-mWindow
+mWidget
 ;
 nsIDragService
 *
