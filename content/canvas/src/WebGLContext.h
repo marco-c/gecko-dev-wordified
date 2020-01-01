@@ -1709,7 +1709,7 @@ true
 )
 antialias
 (
-false
+true
 )
 preserveDrawingBuffer
 (
