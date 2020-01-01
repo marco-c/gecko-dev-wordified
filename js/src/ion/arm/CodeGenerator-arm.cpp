@@ -6879,7 +6879,6 @@ mir_
 Vector
 <
 CodeLabel
-*
 8
 IonAllocPolicy
 >
@@ -6933,7 +6932,6 @@ bool
 addCodeLabel
 (
 CodeLabel
-*
 label
 )
 {
@@ -6947,7 +6945,6 @@ label
 ;
 }
 CodeLabel
-*
 codeLabel
 (
 unsigned
@@ -7079,7 +7076,6 @@ is
 finished
 .
 CodeLabel
-*
 cl
 =
 ool
@@ -7091,8 +7087,7 @@ i
 )
 ;
 cl
--
->
+.
 src
 (
 )
@@ -7653,21 +7648,14 @@ i
 )
 {
 CodeLabel
-*
 cl
-=
-new
-CodeLabel
-(
-)
 ;
 masm
 .
 writeCodePointer
 (
 cl
--
->
+.
 dest
 (
 )
