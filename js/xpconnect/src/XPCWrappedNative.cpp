@@ -1183,6 +1183,16 @@ obj
 )
 ;
 }
+if
+(
+tmp
+-
+>
+MightHaveExpandoObject
+(
+)
+)
+{
 XPCJSRuntime
 *
 rt
@@ -1232,6 +1242,7 @@ TraverseExpandoObjects
 closure
 )
 ;
+}
 /
 /
 XPCWrappedNative
