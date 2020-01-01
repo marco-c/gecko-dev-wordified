@@ -1420,14 +1420,6 @@ JSScript
 script
 )
 ;
-void
-SweepCallICs
-(
-JSContext
-*
-cx
-)
-;
 static
 inline
 CompileStatus
