@@ -7105,6 +7105,18 @@ return
 false
 )
 ;
+JS_ASSERT
+(
+!
+cx
+-
+>
+compartment
+-
+>
+activeAnalysis
+)
+;
 Value
 *
 stackLimit
@@ -9377,6 +9389,7 @@ JS
 code
 line
 AutoArenaAllocator
+alloc
 (
 &
 cx
