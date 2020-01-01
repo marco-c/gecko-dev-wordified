@@ -2952,7 +2952,7 @@ SELECTION_NORMAL
 nsISelectionController
 :
 :
-SELECTION_FOCUS_REGION
+SELECTION_WHOLE_SELECTION
 nsISelectionController
 :
 :
