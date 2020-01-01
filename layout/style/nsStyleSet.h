@@ -216,6 +216,15 @@ nsCSSAnonBoxes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIURI
 ;
@@ -236,6 +245,7 @@ TreeMatchContext
 ;
 class
 nsEmptyStyleRule
+MOZ_FINAL
 :
 public
 nsIStyleRule
@@ -275,6 +285,7 @@ endif
 ;
 class
 nsInitialStyleRule
+MOZ_FINAL
 :
 public
 nsIStyleRule

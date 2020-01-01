@@ -438,6 +438,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIEventListenerService
 .
 h
@@ -1748,6 +1757,7 @@ fixed
 .
 class
 LayoutShutdownObserver
+MOZ_FINAL
 :
 public
 nsIObserver

@@ -200,6 +200,15 @@ nsStyleConsts
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 X
@@ -1596,6 +1605,7 @@ mCloseMenuMode
 ;
 class
 nsXULPopupManager
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

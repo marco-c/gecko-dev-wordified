@@ -141,15 +141,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsTextControlFrame
 ;
@@ -391,7 +382,6 @@ MouseListener
 ;
 class
 MouseListener
-MOZ_FINAL
 :
 public
 nsIDOMEventListener
@@ -409,6 +399,13 @@ aFrame
 mFrame
 (
 aFrame
+)
+{
+}
+virtual
+~
+MouseListener
+(
 )
 {
 }

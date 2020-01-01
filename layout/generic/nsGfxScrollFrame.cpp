@@ -432,6 +432,15 @@ nsSVGOuterSVGFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -8284,6 +8293,7 @@ nsGfxScrollFrameInner
 :
 :
 AsyncScroll
+MOZ_FINAL
 :
 public
 nsARefreshObserver
@@ -10054,6 +10064,7 @@ false
 }
 class
 ScrollFrameActivityTracker
+MOZ_FINAL
 :
 public
 nsExpirationTracker
