@@ -2509,8 +2509,6 @@ context
 -
 >
 stack
-(
-)
 .
 pushDummyFrame
 (

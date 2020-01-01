@@ -597,13 +597,13 @@ hasDebuggerHandler
 typedef
 HashMap
 <
-JSStackFrame
+StackFrame
 *
 JSObject
 *
 DefaultHasher
 <
-JSStackFrame
+StackFrame
 *
 >
 SystemAllocPolicy
@@ -792,7 +792,7 @@ getScriptFrame
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 fp
 Value
