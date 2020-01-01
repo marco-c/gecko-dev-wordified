@@ -592,6 +592,13 @@ prmon
 .
 h
 "
+#
+include
+"
+nsINetUtil
+.
+h
+"
 class
 nsITransportSecurityInfo
 ;
@@ -684,6 +691,12 @@ mOnStateLocationChangeReentranceDetection
 ;
 nsWeakPtr
 mWindow
+;
+nsCOMPtr
+<
+nsINetUtil
+>
+mIOService
 ;
 nsCOMPtr
 <
