@@ -1400,7 +1400,7 @@ stacking
 context
 .
 A
-psuedo
+pseudo
 *
 stacking
 context

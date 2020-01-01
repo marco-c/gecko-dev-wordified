@@ -8891,7 +8891,7 @@ clipRect
 /
 /
 A
-psuedo
+pseudo
 -
 stacking
 context
@@ -34134,7 +34134,7 @@ For
 placeholder
 frames
 walk
-ot
+out
 /
 /
 of
@@ -34142,7 +34142,7 @@ all
 pseudo
 -
 elements
-a
+as
 well
 .
 Otherwise
