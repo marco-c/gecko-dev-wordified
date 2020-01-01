@@ -2885,8 +2885,8 @@ ContextMenuUI
 _panel
 0
 15
-175
-190
+220
+230
 )
 ;
 promise
@@ -5661,6 +5661,10 @@ test
 (
 )
 {
+setDevPixelEqualToPx
+(
+)
+;
 runTests
 (
 )
