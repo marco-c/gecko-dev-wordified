@@ -8216,7 +8216,7 @@ mbLast
 .
 t
 =
-t
+now
 ;
 return
 ;
