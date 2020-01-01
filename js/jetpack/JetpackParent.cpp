@@ -1040,10 +1040,6 @@ nsIJSContextStack
 >
 mCXStack
 ;
-JSContext
-*
-mCX
-;
 }
 ;
 /
