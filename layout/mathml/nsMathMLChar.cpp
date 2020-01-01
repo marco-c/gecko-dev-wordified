@@ -15425,8 +15425,6 @@ aCtx
 mFrame
 mVisibleRect
 rect
-*
-border
 styleContext
 skipSides
 )

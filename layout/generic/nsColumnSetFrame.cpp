@@ -1783,7 +1783,7 @@ ruleSize
 nsCSSRendering
 :
 :
-PaintBorder
+PaintBorderWithStyleBorder
 (
 presContext
 *

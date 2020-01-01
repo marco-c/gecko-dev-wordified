@@ -8903,15 +8903,6 @@ IsVisible
 )
 )
 {
-const
-nsStyleBorder
-*
-border
-=
-GetStyleBorder
-(
-)
-;
 if
 (
 !
@@ -8948,8 +8939,6 @@ aRenderingContext
 this
 aDirtyRect
 rect
-*
-border
 mStyleContext
 skipSides
 )

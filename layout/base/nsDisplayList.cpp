@@ -8690,13 +8690,6 @@ GetSize
 (
 )
 )
-*
-mFrame
--
->
-GetStyleBorder
-(
-)
 mFrame
 -
 >
