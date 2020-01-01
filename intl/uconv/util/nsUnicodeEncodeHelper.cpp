@@ -648,6 +648,12 @@ med
 {
 if
 (
+aScanClass
+=
+=
+u1ByteCharset
+&
+&
 *
 (
 src
