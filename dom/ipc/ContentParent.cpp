@@ -3419,12 +3419,13 @@ return
 true
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_THREADSAFE_ISUPPORTS4
 (
 ContentParent
 nsIObserver
 nsIThreadObserver
 nsIDOMGeoPositionCallback
+nsIDeviceMotionListener
 )
 NS_IMETHODIMP
 ContentParent
