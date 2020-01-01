@@ -856,6 +856,11 @@ sizeof
 JSStackFrame
 )
 )
+|
+|
+offset_
+<
+0
 ;
 }
 int32
