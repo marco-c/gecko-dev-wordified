@@ -466,7 +466,7 @@ nsHTMLImageAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 nsHTMLImageAccessibleWrap
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 CAccessibleImage
 )
 ;

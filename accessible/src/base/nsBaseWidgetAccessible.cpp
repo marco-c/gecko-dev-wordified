@@ -865,7 +865,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 (
 aNode
 aShell
@@ -887,7 +887,7 @@ PR_FALSE
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsLinkableAccessible
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 )
 /
 /
@@ -1005,7 +1005,7 @@ TakeFocus
 )
 ;
 return
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 :
 :
 TakeFocus
@@ -1030,7 +1030,7 @@ aExtraState
 nsresult
 rv
 =
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 :
 :
 GetStateInternal
@@ -1115,7 +1115,7 @@ Truncate
 (
 )
 ;
-nsHyperTextAccessible
+nsAccessible
 :
 :
 GetValue
@@ -1325,7 +1325,7 @@ aIndex
 )
 ;
 return
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 :
 :
 DoAction
@@ -1645,7 +1645,7 @@ CacheActionContent
 )
 ;
 return
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 :
 :
 Init
@@ -1666,7 +1666,7 @@ mActionContent
 nsnull
 ;
 return
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 :
 :
 Shutdown

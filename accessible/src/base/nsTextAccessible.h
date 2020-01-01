@@ -487,7 +487,6 @@ nsLinkableAccessible
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 nsTextAccessible
 (
 nsIDOMNode
