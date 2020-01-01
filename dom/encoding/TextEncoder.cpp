@@ -106,7 +106,7 @@ namespace
 dom
 {
 void
-TextEncoderBase
+TextEncoder
 :
 :
 Init
@@ -321,7 +321,7 @@ return
 }
 JSObject
 *
-TextEncoderBase
+TextEncoder
 :
 :
 Encode
@@ -649,7 +649,7 @@ outView
 ;
 }
 void
-TextEncoderBase
+TextEncoder
 :
 :
 GetEncoding
