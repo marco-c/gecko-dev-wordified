@@ -2104,6 +2104,14 @@ aShell
 )
 {
 }
+NS_IMPL_ISUPPORTS_INHERITED3
+(
+nsHTMLTextFieldAccessible
+nsAccessible
+nsHyperTextAccessible
+nsIAccessibleText
+nsIAccessibleEditableText
+)
 NS_IMETHODIMP
 nsHTMLTextFieldAccessible
 :

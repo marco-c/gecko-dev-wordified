@@ -791,6 +791,14 @@ aShell
 )
 {
 }
+NS_IMPL_ISUPPORTS_INHERITED3
+(
+nsXFormsInputAccessible
+nsAccessible
+nsHyperTextAccessible
+nsIAccessibleText
+nsIAccessibleEditableText
+)
 NS_IMETHODIMP
 nsXFormsInputAccessible
 :
