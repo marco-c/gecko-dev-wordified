@@ -105,6 +105,9 @@ nsICycleCollectorListener
 class
 nsISupports
 ;
+class
+nsScriptObjectTracer
+;
 #
 include
 "

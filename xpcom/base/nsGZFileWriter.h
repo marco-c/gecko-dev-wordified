@@ -123,6 +123,13 @@ h
 "
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 zlib
 .

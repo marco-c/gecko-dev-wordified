@@ -149,6 +149,13 @@ endif
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 nsUUIDGenerator
 .
 h

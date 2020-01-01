@@ -127,9 +127,13 @@ nsIMemoryInfoDumper
 .
 h
 "
-class
-nsACString
-;
+#
+include
+"
+nsString
+.
+h
+"
 /
 *
 *

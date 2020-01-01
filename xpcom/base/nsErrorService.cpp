@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsCRTGlue
+nsCRT
 .
 h
 "

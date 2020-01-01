@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsIServiceManager
+.
+h
+"
+#
+include
+"
 nsCOMArray
 .
 h
@@ -160,6 +167,13 @@ h
 include
 "
 nsIClassInfoImpl
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "
