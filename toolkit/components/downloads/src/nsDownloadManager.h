@@ -1476,10 +1476,8 @@ ifdef
 DOWNLOAD_SCANNER
 private
 :
-nsRefPtr
-<
 nsDownloadScanner
->
+*
 mScanner
 ;
 #
