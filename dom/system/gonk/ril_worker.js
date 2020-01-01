@@ -22701,9 +22701,6 @@ message
 postMessage
 (
 message
-"
-*
-"
 )
 ;
 }
