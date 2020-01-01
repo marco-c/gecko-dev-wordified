@@ -10655,7 +10655,8 @@ first
 frame
 in
 the
-flow
+continuation
+chain
 .
 Walk
 back
@@ -10670,7 +10671,7 @@ aFrame
 aFrame
 -
 >
-GetFirstInFlow
+GetFirstContinuation
 (
 )
 ;
