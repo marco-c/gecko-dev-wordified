@@ -4713,6 +4713,9 @@ nsFrameList
 &
 aFromFrameList
 nsLineList
+&
+aFromLineList
+nsLineList
 :
 :
 iterator
