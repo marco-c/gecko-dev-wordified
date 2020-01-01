@@ -1535,7 +1535,7 @@ VMFrame
 f
 )
 ;
-JSBool
+void
 JS_FASTCALL
 StrictEq
 (
@@ -1544,7 +1544,7 @@ VMFrame
 f
 )
 ;
-JSBool
+void
 JS_FASTCALL
 StrictNe
 (
