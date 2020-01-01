@@ -574,7 +574,7 @@ gfxSharedImageSurface
 static
 *
 /
-bool
+PRBool
 gfxSharedImageSurface
 :
 :

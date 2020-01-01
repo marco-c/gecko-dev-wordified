@@ -803,7 +803,7 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 {
@@ -1016,7 +1016,7 @@ aPairIndex
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 {
@@ -1097,7 +1097,7 @@ aValue2
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 {
@@ -1301,7 +1301,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

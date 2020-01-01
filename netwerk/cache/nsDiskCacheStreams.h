@@ -784,7 +784,7 @@ current
 end
 of
 buffer
-bool
+PRBool
 mBufDirty
 ;
 char

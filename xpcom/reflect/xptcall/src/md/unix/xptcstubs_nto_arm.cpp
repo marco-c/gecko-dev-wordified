@@ -1053,7 +1053,7 @@ b
 *
 (
 (
-bool
+PRBool
 *
 )
 ap

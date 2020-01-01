@@ -900,7 +900,7 @@ getResources
 )
 ;
 File
-watchDir
+filesDir
 =
 new
 File
@@ -909,13 +909,13 @@ GeckoApp
 .
 sGREDir
 "
-components
+files
 "
 )
 ;
 if
 (
-watchDir
+filesDir
 .
 exists
 (
@@ -2007,12 +2007,6 @@ if
 doSyncDraw
 )
 {
-GeckoAppShell
-.
-scheduleRedraw
-(
-)
-;
 Object
 syncDrawObject
 =

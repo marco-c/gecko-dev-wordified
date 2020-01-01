@@ -750,7 +750,7 @@ nsMIMEInfoUnix
 :
 GetHasDefaultHandler
 (
-bool
+PRBool
 *
 _retval
 )
@@ -1605,7 +1605,7 @@ NS_OK
 static
 *
 /
-bool
+PRBool
 nsMIMEInfoUnix
 :
 :
@@ -1617,10 +1617,10 @@ char
 aProtocolScheme
 )
 {
-bool
+PRBool
 isEnabled
 =
-false
+PR_FALSE
 ;
 HildonURIAction
 *

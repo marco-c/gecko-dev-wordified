@@ -552,7 +552,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -1160,7 +1160,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHTMLFrameSetElement
 :
 :
@@ -1602,7 +1602,7 @@ in
 the
 loop
 .
-bool
+PRBool
 isInQuirks
 =
 InNavQuirksMode

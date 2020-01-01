@@ -754,7 +754,7 @@ mShmem
 ;
 }
 static
-bool
+PRBool
 IsSharedImage
 (
 gfxASurface

@@ -540,7 +540,7 @@ aSrc
 const
 ;
 virtual
-bool
+PRBool
 IsEqual
 (
 const

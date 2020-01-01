@@ -669,10 +669,10 @@ port
 nsProxyInfo
 *
 proxyInfo
-bool
+PRBool
 usingSSL
 =
-false
+PR_FALSE
 )
 :
 mRef
@@ -1027,7 +1027,7 @@ the
 same
 host
 .
-bool
+PRBool
 Equals
 (
 const
@@ -1086,7 +1086,7 @@ return
 mProxyInfo
 ;
 }
-bool
+PRBool
 UsingHttpProxy
 (
 )
@@ -1096,7 +1096,7 @@ return
 mUsingHttpProxy
 ;
 }
-bool
+PRBool
 UsingSSL
 (
 )
@@ -1123,7 +1123,7 @@ NS_HTTP_DEFAULT_PORT
 void
 SetAnonymous
 (
-bool
+PRBool
 anon
 )
 {
@@ -1144,7 +1144,7 @@ A
 )
 ;
 }
-bool
+PRBool
 ShouldForceConnectMethod
 (
 )
@@ -1169,10 +1169,10 @@ nsProxyInfo
 >
 mProxyInfo
 ;
-bool
+PRPackedBool
 mUsingHttpProxy
 ;
-bool
+PRPackedBool
 mUsingSSL
 ;
 }

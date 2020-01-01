@@ -651,7 +651,7 @@ callee
 NS_IMETHOD
 GetReturnValueWasSet
 (
-bool
+PRBool
 *
 aResult
 )
@@ -661,7 +661,7 @@ aResult
 NS_IMETHOD
 SetReturnValueWasSet
 (
-bool
+PRBool
 aValue
 )
 =

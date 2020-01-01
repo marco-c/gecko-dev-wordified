@@ -560,10 +560,10 @@ NS_IOSERVICE_CID
 )
 ;
 static
-bool
+PRBool
 gError
 =
-false
+PR_FALSE
 ;
 static
 PRInt32
@@ -609,7 +609,7 @@ Equals
 void
 *
 aPtr
-bool
+PRBool
 *
 _retval
 )
@@ -643,7 +643,7 @@ Equals
 void
 *
 aPtr
-bool
+PRBool
 *
 _retval
 )
@@ -727,7 +727,7 @@ aContext
 /
 member
 data
-bool
+PRBool
 mOnStart
 ;
 /
@@ -738,7 +738,7 @@ received
 an
 OnStart
 ?
-bool
+PRBool
 mOnStop
 ;
 /
@@ -1394,10 +1394,10 @@ rv
 return
 rv
 ;
-bool
+PRBool
 same
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -1539,10 +1539,10 @@ rv
 =
 NS_OK
 ;
-bool
+PRBool
 cmdLineURL
 =
-false
+PR_FALSE
 ;
 if
 (

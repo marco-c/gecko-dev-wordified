@@ -520,7 +520,7 @@ the
 given
 boolean
 pref
-bool
+PRBool
 TestBoolPref
 (
 const
@@ -545,7 +545,7 @@ hosts
 in
 the
 pref
-bool
+PRBool
 TestPref
 (
 nsIURI
@@ -556,7 +556,7 @@ char
 pref
 )
 ;
-bool
+PRBool
 MatchesBaseURI
 (
 const

@@ -606,7 +606,7 @@ return
 mEntries
 ;
 }
-bool
+PRBool
 IsEqual
 (
 const
@@ -808,7 +808,7 @@ index
 SetDeadKey
 (
 aShiftState
-false
+PR_FALSE
 )
 ;
 for
@@ -942,7 +942,7 @@ index
 SetDeadKey
 (
 aShiftState
-true
+PR_TRUE
 )
 ;
 mShiftStates
@@ -1437,7 +1437,7 @@ ReleaseDeadKeyTables
 )
 ;
 }
-bool
+PRBool
 KeyboardLayout
 :
 :
@@ -1457,7 +1457,7 @@ aVirtualKey
 0
 ;
 }
-bool
+PRBool
 KeyboardLayout
 :
 :
@@ -2654,7 +2654,7 @@ PBYTE
 aKbdState
 )
 {
-bool
+PRBool
 isShift
 =
 (
@@ -2669,7 +2669,7 @@ VK_SHIFT
 =
 0
 ;
-bool
+PRBool
 isCtrl
 =
 (
@@ -2684,7 +2684,7 @@ VK_CONTROL
 =
 0
 ;
-bool
+PRBool
 isAlt
 =
 (
@@ -2699,7 +2699,7 @@ VK_MENU
 =
 0
 ;
-bool
+PRBool
 isCaps
 =
 (
@@ -3942,13 +3942,13 @@ p
 ;
 }
 }
-bool
+PRBool
 KeyboardLayout
 :
 :
 EnsureDeadKeyActive
 (
-bool
+PRBool
 aIsActive
 PRUint8
 aDeadKey
@@ -4133,7 +4133,7 @@ mDeadKeyShiftState
 ;
 EnsureDeadKeyActive
 (
-false
+PR_FALSE
 mActiveDeadKey
 kbdState
 )
@@ -4144,7 +4144,7 @@ mActiveDeadKey
 1
 ;
 }
-bool
+PRBool
 KeyboardLayout
 :
 :
@@ -4191,7 +4191,7 @@ aBaseChar
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -4214,7 +4214,7 @@ CompositeChar
 aCompositeChar
 ;
 return
-true
+PR_TRUE
 ;
 }
 PRUint32
@@ -4237,10 +4237,10 @@ PRUint32
 aMaxEntries
 )
 {
-bool
+PRBool
 deadKeyActive
 =
-false
+PR_FALSE
 ;
 PRUint32
 entries
@@ -4404,7 +4404,7 @@ deadKeyActive
 =
 EnsureDeadKeyActive
 (
-true
+PR_TRUE
 aDeadKey
 aDeadKeyKbdState
 )
@@ -4620,7 +4620,7 @@ entries
 }
 deadKeyActive
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -4671,7 +4671,7 @@ combination
 .
 deadKeyActive
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -4688,7 +4688,7 @@ deadKeyActive
 =
 EnsureDeadKeyActive
 (
-false
+PR_FALSE
 aDeadKey
 aDeadKeyKbdState
 )

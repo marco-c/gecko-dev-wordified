@@ -500,7 +500,7 @@ CurrentItem
 0
 ;
 virtual
-bool
+PRBool
 IsDone
 (
 )
@@ -748,11 +748,11 @@ nsIFrame
 aStart
 PRInt32
 aType
-bool
+PRBool
 aVisual
-bool
+PRBool
 aLockInScrollView
-bool
+PRBool
 aFollowOOFs
 )
 =

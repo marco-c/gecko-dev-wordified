@@ -529,7 +529,7 @@ nsIURI
 aURI
 )
 ;
-bool
+PRBool
 PossiblyByteExpandedFileName
 (
 const
@@ -538,7 +538,7 @@ nsAString
 aIn
 )
 ;
-bool
+PRBool
 PossiblyHostPortUrl
 (
 const
@@ -547,7 +547,7 @@ nsACString
 aUrl
 )
 ;
-bool
+PRBool
 MakeAlternateURI
 (
 nsIURI
@@ -555,7 +555,7 @@ nsIURI
 aURI
 )
 ;
-bool
+PRBool
 IsLikelyFTP
 (
 const

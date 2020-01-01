@@ -537,7 +537,7 @@ protected
 nsresult
 IsCallerChrome
 (
-bool
+PRBool
 *
 aIsCallerChrome
 )

@@ -2471,7 +2471,7 @@ retained
 mode
 .
 static
-bool
+PRBool
 IsTempLayerManager
 (
 LayerManager
@@ -4094,10 +4094,6 @@ mFrameLoader
 (
 aFrameLoader
 )
-mFrameLoaderDestroyed
-(
-false
-)
 {
 if
 (
@@ -4209,10 +4205,6 @@ Destroy
 )
 ;
 }
-mFrameLoaderDestroyed
-=
-true
-;
 }
 nsContentView
 *
@@ -5158,9 +5150,6 @@ if
 (
 !
 mFrameLoader
-|
-|
-mFrameLoaderDestroyed
 )
 {
 *

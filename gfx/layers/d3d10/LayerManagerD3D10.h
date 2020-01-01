@@ -888,10 +888,6 @@ aCallback
 void
 *
 aCallbackData
-EndTransactionFlags
-aFlags
-=
-END_DEFAULT
 )
 ;
 const

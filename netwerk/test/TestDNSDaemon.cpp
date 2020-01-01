@@ -1583,10 +1583,10 @@ socket_fd
 =
 0
 ;
-bool
+PRBool
 notDone
 =
-true
+PR_TRUE
 ;
 char
 buf

@@ -647,7 +647,7 @@ aSpec
 )
 ;
 virtual
-bool
+PRBool
 IsInside
 (
 nscoord
@@ -690,7 +690,7 @@ aRect
 void
 HasFocus
 (
-bool
+PRBool
 aHasFocus
 )
 ;
@@ -707,7 +707,7 @@ mCoords
 PRInt32
 mNumCoords
 ;
-bool
+PRPackedBool
 mHasFocus
 ;
 }
@@ -784,7 +784,7 @@ stdlib
 h
 >
 inline
-bool
+PRBool
 is_space
 (
 char
@@ -1132,7 +1132,7 @@ n_str
 '
 )
 {
-bool
+PRBool
 has_comma
 ;
 /
@@ -1619,7 +1619,7 @@ Area
 :
 HasFocus
 (
-bool
+PRBool
 aHasFocus
 )
 {
@@ -1716,7 +1716,7 @@ aArea
 )
 ;
 virtual
-bool
+PRBool
 IsInside
 (
 nscoord
@@ -1768,7 +1768,7 @@ aArea
 )
 {
 }
-bool
+PRBool
 DefaultArea
 :
 :
@@ -2062,7 +2062,7 @@ aSpec
 )
 ;
 virtual
-bool
+PRBool
 IsInside
 (
 nscoord
@@ -2134,10 +2134,10 @@ ParseCoords
 aSpec
 )
 ;
-bool
+PRBool
 saneRect
 =
-true
+PR_TRUE
 ;
 PRInt32
 flag
@@ -2312,7 +2312,7 @@ ImageMapRectBoundsError
 ;
 }
 }
-bool
+PRBool
 RectArea
 :
 :
@@ -2800,7 +2800,7 @@ aSpec
 )
 ;
 virtual
-bool
+PRBool
 IsInside
 (
 nscoord
@@ -2919,7 +2919,7 @@ ImageMapPolyWrongNumberOfCoords
 ;
 }
 }
-bool
+PRBool
 PolyArea
 :
 :
@@ -3880,7 +3880,7 @@ aSpec
 )
 ;
 virtual
-bool
+PRBool
 IsInside
 (
 nscoord
@@ -3952,10 +3952,10 @@ ParseCoords
 aSpec
 )
 ;
-bool
+PRBool
 wrongNumberOfCoords
 =
-false
+PR_FALSE
 ;
 PRInt32
 flag
@@ -4041,7 +4041,7 @@ ImageMapCircleWrongNumberOfCoords
 ;
 }
 }
-bool
+PRBool
 CircleArea
 :
 :
@@ -4442,6 +4442,10 @@ nsImageMap
 (
 )
 :
+mPresShell
+(
+nsnull
+)
 mImageFrame
 (
 nsnull
@@ -4736,6 +4740,9 @@ nsImageMap
 :
 Init
 (
+nsIPresShell
+*
+aPresShell
 nsIFrame
 *
 aImageFrame
@@ -4763,6 +4770,10 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
+mPresShell
+=
+aPresShell
+;
 mImageFrame
 =
 aImageFrame
@@ -4808,10 +4819,10 @@ SearchForAreas
 nsIContent
 *
 aParent
-bool
+PRBool
 &
 aFoundArea
-bool
+PRBool
 &
 aFoundAnchor
 )
@@ -5127,15 +5138,15 @@ FreeAreas
 (
 )
 ;
-bool
+PRBool
 foundArea
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 foundAnchor
 =
-false
+PR_FALSE
 ;
 mContainsBlockContents
 =
@@ -5474,7 +5485,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsImageMap
 :
 :
@@ -5940,7 +5951,7 @@ GetType
 eventType
 )
 ;
-bool
+PRBool
 focus
 =
 eventType

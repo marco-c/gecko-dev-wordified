@@ -573,7 +573,7 @@ inifinity
 *
 /
 static
-bool
+PRBool
 isInfinite
 (
 double
@@ -595,7 +595,7 @@ NaN
 *
 /
 static
-bool
+PRBool
 isNaN
 (
 double
@@ -617,7 +617,7 @@ negative
 *
 /
 static
-bool
+PRBool
 isNeg
 (
 double
@@ -719,7 +719,7 @@ txDouble
 Double
 ;
 typedef
-bool
+PRBool
 MBool
 ;
 #

@@ -1232,7 +1232,7 @@ val
 b
 =
 (
-bool
+PRBool
 )
 value
 ;

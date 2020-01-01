@@ -592,7 +592,7 @@ class
 ElementType
 >
 static
-bool
+PRBool
 test_basic_array
 (
 ElementType
@@ -1540,7 +1540,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_int_array
 (
 )
@@ -1578,7 +1578,7 @@ int
 ;
 }
 static
-bool
+PRBool
 test_int64_array
 (
 )
@@ -1616,7 +1616,7 @@ PRInt64
 ;
 }
 static
-bool
+PRBool
 test_char_array
 (
 )
@@ -1654,7 +1654,7 @@ char
 ;
 }
 static
-bool
+PRBool
 test_uint32_array
 (
 )
@@ -1788,7 +1788,7 @@ return
 this
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -1817,7 +1817,7 @@ other
 mNum
 ;
 }
-bool
+PRBool
 operator
 <
 (
@@ -1885,7 +1885,7 @@ mNum
 }
 ;
 static
-bool
+PRBool
 test_object_array
 (
 )
@@ -2103,7 +2103,7 @@ supported
 if
 0
 static
-bool
+PRBool
 test_autoptr_array
 (
 )
@@ -2308,7 +2308,7 @@ endif
 -
 -
 static
-bool
+PRBool
 operator
 =
 =
@@ -2333,7 +2333,7 @@ b
 ;
 }
 static
-bool
+PRBool
 test_string_array
 (
 )
@@ -2733,7 +2733,7 @@ nsFileNameComparator
 {
 public
 :
-bool
+PRBool
 Equals
 (
 const
@@ -2770,7 +2770,7 @@ b
 }
 ;
 static
-bool
+PRBool
 test_comptr_array
 (
 )
@@ -3020,15 +3020,15 @@ rc
 }
 ;
 static
-bool
+PRBool
 test_refptr_array
 (
 )
 {
-bool
+PRBool
 rv
 =
-true
+PR_TRUE
 ;
 nsTArray
 <
@@ -3156,7 +3156,7 @@ rv
 -
 -
 static
-bool
+PRBool
 test_ptrarray
 (
 )
@@ -3390,7 +3390,7 @@ builds
 ifdef
 DEBUG
 static
-bool
+PRBool
 test_autoarray
 (
 )
@@ -3878,7 +3878,7 @@ finds
 it
 .
 static
-bool
+PRBool
 test_indexof
 (
 )
@@ -3953,7 +3953,7 @@ class
 Array
 >
 static
-bool
+PRBool
 is_heap
 (
 const
@@ -4008,7 +4008,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_heap
 (
 )
@@ -4663,7 +4663,7 @@ while
 0
 )
 static
-bool
+PRBool
 test_swap
 (
 )
@@ -5952,7 +5952,7 @@ PR_TRUE
 -
 -
 typedef
-bool
+PRBool
 (
 *
 TestFunc

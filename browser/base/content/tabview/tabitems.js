@@ -1856,11 +1856,6 @@ if
 this
 .
 parent
-&
-&
-this
-.
-parent
 .
 getActiveTab
 (
@@ -4597,9 +4592,7 @@ this
 .
 canvas
 ;
-Search
-.
-hide
+hideSearch
 (
 )
 ;

@@ -4007,10 +4007,10 @@ GetCaret
 (
 )
 ;
-bool
+PRBool
 visible
 =
-false
+PR_FALSE
 ;
 if
 (

@@ -535,7 +535,7 @@ GetCurrentSize
 )
 ;
 virtual
-bool
+PRBool
 SetLayerManager
 (
 LayerManager
@@ -750,7 +750,7 @@ AllocateTextures
 (
 )
 ;
-bool
+PRBool
 HasData
 (
 )
@@ -838,7 +838,7 @@ ID3D10ShaderResourceView
 >
 mCrView
 ;
-bool
+PRPackedBool
 mHasData
 ;
 }

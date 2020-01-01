@@ -871,10 +871,10 @@ port
 -
 1
 ;
-bool
+PRBool
 usingSSL
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -1518,7 +1518,7 @@ HttpBaseChannel
 :
 IsPending
 (
-bool
+PRBool
 *
 aIsPending
 )
@@ -2115,7 +2115,7 @@ nsCAutoString
 contentTypeBuf
 charsetBuf
 ;
-bool
+PRBool
 hadCharset
 ;
 net_ParseContentType
@@ -2173,7 +2173,7 @@ content
 type
 hint
 .
-bool
+PRBool
 dummy
 ;
 net_ParseContentType
@@ -3198,7 +3198,7 @@ const
 nsACString
 &
 aMethod
-bool
+PRBool
 aStreamHasHeaders
 )
 {
@@ -3354,7 +3354,7 @@ HttpBaseChannel
 :
 GetUploadStreamHasHeaders
 (
-bool
+PRBool
 *
 hasHeaders
 )
@@ -3543,7 +3543,7 @@ HttpBaseChannel
 :
 GetApplyConversion
 (
-bool
+PRBool
 *
 value
 )
@@ -3563,7 +3563,7 @@ HttpBaseChannel
 :
 SetApplyConversion
 (
-bool
+PRBool
 value
 )
 {
@@ -4342,7 +4342,7 @@ nsContentEncodings
 :
 HasMore
 (
-bool
+PRBool
 *
 aMoreEncodings
 )
@@ -4458,10 +4458,10 @@ EndReading
 end
 )
 ;
-bool
+PRBool
 haveType
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -5617,7 +5617,7 @@ referrerGrip
 nsresult
 rv
 ;
-bool
+PRBool
 match
 ;
 /
@@ -6496,7 +6496,7 @@ const
 nsACString
 &
 aValue
-bool
+PRBool
 aMerge
 )
 {
@@ -6842,7 +6842,7 @@ const
 nsACString
 &
 value
-bool
+PRBool
 merge
 )
 {
@@ -7044,7 +7044,7 @@ HttpBaseChannel
 :
 GetAllowPipelining
 (
-bool
+PRBool
 *
 value
 )
@@ -7069,7 +7069,7 @@ HttpBaseChannel
 :
 SetAllowPipelining
 (
-bool
+PRBool
 value
 )
 {
@@ -7145,7 +7145,7 @@ HttpBaseChannel
 :
 IsNoStoreResponse
 (
-bool
+PRBool
 *
 value
 )
@@ -7178,7 +7178,7 @@ HttpBaseChannel
 :
 IsNoCacheResponse
 (
-bool
+PRBool
 *
 value
 )
@@ -7292,7 +7292,7 @@ HttpBaseChannel
 :
 GetRequestSucceeded
 (
-bool
+PRBool
 *
 aValue
 )
@@ -7776,7 +7776,7 @@ HttpBaseChannel
 :
 GetForceAllowThirdPartyCookie
 (
-bool
+PRBool
 *
 aForce
 )
@@ -7796,7 +7796,7 @@ HttpBaseChannel
 :
 SetForceAllowThirdPartyCookie
 (
-bool
+PRBool
 aForce
 )
 {
@@ -7818,7 +7818,7 @@ HttpBaseChannel
 :
 GetCanceled
 (
-bool
+PRBool
 *
 aCanceled
 )
@@ -7838,7 +7838,7 @@ HttpBaseChannel
 :
 GetChannelIsForDownload
 (
-bool
+PRBool
 *
 aChannelIsForDownload
 )
@@ -7858,7 +7858,7 @@ HttpBaseChannel
 :
 SetChannelIsForDownload
 (
-bool
+PRBool
 aChannelIsForDownload
 )
 {
@@ -9852,7 +9852,7 @@ newURI
 nsIChannel
 *
 newChannel
-bool
+PRBool
 preserveMethod
 )
 {

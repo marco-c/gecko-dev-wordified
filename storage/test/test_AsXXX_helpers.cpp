@@ -401,7 +401,7 @@ do_check_true
 valueArray
 )
 ;
-bool
+PRBool
 hasMore
 ;
 do_check_true
@@ -686,7 +686,7 @@ getMemoryDatabase
 ;
 nsCOMPtr
 <
-mozIStorageAsyncStatement
+mozIStorageStatement
 >
 stmt
 ;
@@ -696,7 +696,7 @@ void
 db
 -
 >
-CreateAsyncStatement
+CreateStatement
 (
 NS_LITERAL_CSTRING
 (

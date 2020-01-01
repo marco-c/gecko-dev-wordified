@@ -1623,12 +1623,12 @@ beginTransaction
 if
 (
 mMode
-!
+=
 =
 nsIIDBTransaction
 :
 :
-READ_ONLY
+READ_WRITE
 )
 {
 beginTransaction
@@ -4383,7 +4383,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 aThread
-bool
+PRBool
 aMayWait
 PRUint32
 aRecursionDepth
@@ -4866,7 +4866,7 @@ event
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-bool
+PRBool
 dummy
 ;
 if
@@ -4964,7 +4964,7 @@ NS_NAMED_LITERAL_CSTRING
 (
 release
 "
-COMMIT
+END
 TRANSACTION
 "
 )

@@ -1222,7 +1222,7 @@ DidAnimateTransformList
 )
 ;
 }
-bool
+PRBool
 SVGAnimatedTransformList
 :
 :
@@ -1429,7 +1429,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

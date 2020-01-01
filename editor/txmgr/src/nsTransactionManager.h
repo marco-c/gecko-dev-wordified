@@ -625,7 +625,7 @@ WillDoNotify
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aInterrupt
 )
@@ -648,7 +648,7 @@ WillUndoNotify
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aInterrupt
 )
@@ -671,7 +671,7 @@ WillRedoNotify
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aInterrupt
 )
@@ -691,7 +691,7 @@ virtual
 nsresult
 WillBeginBatchNotify
 (
-bool
+PRBool
 *
 aInterrupt
 )
@@ -708,7 +708,7 @@ virtual
 nsresult
 WillEndBatchNotify
 (
-bool
+PRBool
 *
 aInterrupt
 )
@@ -731,7 +731,7 @@ aTop
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aInterrupt
 )
@@ -746,7 +746,7 @@ aTop
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 aDidMerge
 nsresult
 aMergeResult

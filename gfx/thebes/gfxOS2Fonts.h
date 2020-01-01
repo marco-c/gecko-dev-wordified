@@ -617,7 +617,7 @@ aStyle
 protected
 :
 virtual
-bool
+PRBool
 SetupCairoFont
 (
 gfxContext
@@ -648,7 +648,7 @@ mSpaceGlyph
 int
 mHinting
 ;
-bool
+PRBool
 mAntialias
 ;
 }
@@ -929,7 +929,7 @@ aUTF8Length
 )
 ;
 static
-bool
+PRBool
 FontCallback
 (
 const
@@ -940,7 +940,7 @@ const
 nsACString
 &
 aGenericName
-bool
+PRBool
 aUseFontSet
 void
 *
@@ -949,7 +949,7 @@ aClosure
 ;
 private
 :
-bool
+PRBool
 mEnableKerning
 ;
 }

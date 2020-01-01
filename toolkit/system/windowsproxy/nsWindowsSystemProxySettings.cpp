@@ -532,7 +532,7 @@ nsIWindowsRegKey
 >
 mKey
 ;
-bool
+PRBool
 MatchOverride
 (
 const
@@ -541,7 +541,7 @@ nsACString
 aHost
 )
 ;
-bool
+PRBool
 PatternMatch
 (
 const
@@ -866,7 +866,7 @@ DIRECT
 )
 ;
 }
-bool
+PRBool
 nsWindowsSystemProxySettings
 :
 :
@@ -1175,7 +1175,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsWindowsSystemProxySettings
 :
 :
@@ -1222,10 +1222,10 @@ offset
 =
 0
 ;
-bool
+PRBool
 star
 =
-false
+PR_FALSE
 ;
 while
 (

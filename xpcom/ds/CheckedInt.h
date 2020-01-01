@@ -2446,7 +2446,7 @@ follows
 :
 \
 code
-bool
+PRBool
 compute_x_plus_y_over_z
 (
 PRInt32
@@ -3135,14 +3135,14 @@ checked
 integer
 *
 /
-bool
+PRBool
 valid
 (
 )
 const
 {
 return
-bool
+PRBool
 (
 mIsValid
 )
@@ -3584,7 +3584,7 @@ value
 .
 *
 /
-bool
+PRBool
 operator
 =
 =
@@ -3597,7 +3597,7 @@ other
 const
 {
 return
-bool
+PRBool
 (
 mIsValid
 &
@@ -3807,7 +3807,7 @@ template
 typename
 U
 >
-bool
+PRBool
 operator
 !
 =
@@ -4456,7 +4456,7 @@ typename
 U
 >
 inline
-bool
+PRBool
 operator
 =
 =
@@ -4493,7 +4493,7 @@ typename
 U
 >
 inline
-bool
+PRBool
 operator
 =
 =

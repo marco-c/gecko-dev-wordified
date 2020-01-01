@@ -1146,7 +1146,7 @@ return
 mLength
 ;
 }
-bool
+PRBool
 IsEmpty
 (
 )
@@ -1159,7 +1159,7 @@ mLength
 0
 ;
 }
-bool
+PRBool
 IsVoid
 (
 )
@@ -1176,7 +1176,7 @@ F_VOIDED
 0
 ;
 }
-bool
+PRBool
 IsTerminated
 (
 )
@@ -1332,7 +1332,7 @@ const
 equality
 *
 /
-bool
+PRBool
 NS_FASTCALL
 Equals
 (
@@ -1342,7 +1342,7 @@ self_type
 )
 const
 ;
-bool
+PRBool
 NS_FASTCALL
 Equals
 (
@@ -1355,7 +1355,7 @@ comparator_type
 )
 const
 ;
-bool
+PRBool
 NS_FASTCALL
 Equals
 (
@@ -1366,7 +1366,7 @@ data
 )
 const
 ;
-bool
+PRBool
 NS_FASTCALL
 Equals
 (
@@ -1416,7 +1416,7 @@ data
 .
 *
 /
-bool
+PRBool
 NS_FASTCALL
 EqualsASCII
 (
@@ -1463,7 +1463,7 @@ terminated
 .
 *
 /
-bool
+PRBool
 NS_FASTCALL
 EqualsASCII
 (
@@ -1542,7 +1542,7 @@ thanks
 ifdef
 NS_DISABLE_LITERAL_TEMPLATE
 inline
-bool
+PRBool
 EqualsLiteral
 (
 const
@@ -1567,7 +1567,7 @@ int
 N
 >
 inline
-bool
+PRBool
 EqualsLiteral
 (
 const
@@ -1598,7 +1598,7 @@ int
 N
 >
 inline
-bool
+PRBool
 EqualsLiteral
 (
 char
@@ -1697,7 +1697,7 @@ throw
 assertions
 too
 .
-bool
+PRBool
 NS_FASTCALL
 LowerCaseEqualsASCII
 (
@@ -1710,7 +1710,7 @@ len
 )
 const
 ;
-bool
+PRBool
 NS_FASTCALL
 LowerCaseEqualsASCII
 (
@@ -1768,7 +1768,7 @@ them
 ifdef
 NS_DISABLE_LITERAL_TEMPLATE
 inline
-bool
+PRBool
 LowerCaseEqualsLiteral
 (
 const
@@ -1793,7 +1793,7 @@ int
 N
 >
 inline
-bool
+PRBool
 LowerCaseEqualsLiteral
 (
 const
@@ -1824,7 +1824,7 @@ int
 N
 >
 inline
-bool
+PRBool
 LowerCaseEqualsLiteral
 (
 char
@@ -3077,7 +3077,7 @@ chars
 .
 *
 /
-bool
+PRBool
 NS_FASTCALL
 SetCapacity
 (
@@ -3369,7 +3369,7 @@ void
 NS_FASTCALL
 SetIsVoid
 (
-bool
+PRBool
 )
 ;
 /
@@ -4036,7 +4036,7 @@ old_data
 .
 *
 /
-bool
+PRBool
 NS_FASTCALL
 MutatePrep
 (
@@ -4200,7 +4200,7 @@ memory
 .
 *
 /
-bool
+PRBool
 ReplacePrep
 (
 index_type
@@ -4279,7 +4279,7 @@ newTotalLen
 )
 ;
 }
-bool
+PRBool
 NS_FASTCALL
 ReplacePrepInternal
 (
@@ -4381,7 +4381,7 @@ BeginWriting
 .
 *
 /
-bool
+PRBool
 NS_FASTCALL
 EnsureMutable
 (
@@ -4413,7 +4413,7 @@ fragment
 .
 *
 /
-bool
+PRBool
 IsDependentOn
 (
 const
@@ -5033,7 +5033,7 @@ nsTDefaultStringComparator_CharT
 )
 ;
 inline
-bool
+PRBool
 operator
 !
 =
@@ -5065,7 +5065,7 @@ rhs
 ;
 }
 inline
-bool
+PRBool
 operator
 <
 (
@@ -5096,7 +5096,7 @@ rhs
 ;
 }
 inline
-bool
+PRBool
 operator
 <
 =
@@ -5129,7 +5129,7 @@ rhs
 ;
 }
 inline
-bool
+PRBool
 operator
 =
 =
@@ -5160,7 +5160,7 @@ rhs
 ;
 }
 inline
-bool
+PRBool
 operator
 >
 =
@@ -5193,7 +5193,7 @@ rhs
 ;
 }
 inline
-bool
+PRBool
 operator
 >
 (

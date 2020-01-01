@@ -574,13 +574,13 @@ dest
 file
 *
 /
-bool
+PRBool
 cancel
 ;
 /
 *
 If
-true
+PR_TRUE
 user
 cancelled
 *

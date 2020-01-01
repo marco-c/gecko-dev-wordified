@@ -963,7 +963,7 @@ or
 animVal
 list
 .
-bool
+PRBool
 IsAnimValList
 (
 )

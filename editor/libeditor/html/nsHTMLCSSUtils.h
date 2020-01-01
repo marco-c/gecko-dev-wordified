@@ -622,10 +622,10 @@ char
 *
 appendValue
 ;
-bool
+PRBool
 gettable
 ;
-bool
+PRBool
 caseSensitiveValue
 ;
 }
@@ -709,7 +709,7 @@ element
 above
 *
 /
-bool
+PRBool
 IsCSSEditableProperty
 (
 nsIDOMNode
@@ -814,7 +814,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aSuppressTransaction
 )
 ;
@@ -829,7 +829,7 @@ nsIAtom
 aProperty
 PRInt32
 aIntValue
-bool
+PRBool
 aSuppressTxn
 )
 ;
@@ -846,7 +846,7 @@ const
 nsAString
 &
 aPropertyValue
-bool
+PRBool
 aSuppressTransaction
 )
 ;
@@ -1229,7 +1229,7 @@ is
 irrelevant
 *
 /
-bool
+PRBool
 IsCSSInvertable
 (
 nsIAtom
@@ -1365,7 +1365,7 @@ HasClassOrID
 nsIDOMElement
 *
 aElement
-bool
+PRBool
 &
 aReturn
 )
@@ -1627,7 +1627,7 @@ const
 nsAString
 *
 aAttribute
-bool
+PRBool
 &
 aIsSet
 nsAString
@@ -1767,7 +1767,7 @@ aValue
 PRInt32
 *
 aCount
-bool
+PRBool
 aSuppressTransaction
 )
 ;
@@ -1871,7 +1871,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aSuppressTransaction
 )
 ;
@@ -1999,7 +1999,7 @@ pref
 nsresult
 SetCSSEnabled
 (
-bool
+PRBool
 aIsCSSPrefChecked
 )
 ;
@@ -2036,7 +2036,7 @@ css
 pref
 *
 /
-bool
+PRBool
 IsCSSPrefChecked
 (
 )
@@ -2115,7 +2115,7 @@ DOM
 node
 *
 /
-bool
+PRBool
 ElementsSameStyle
 (
 nsIDOMNode
@@ -2474,7 +2474,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aGetOrRemoveRequest
 )
 ;
@@ -2631,7 +2631,7 @@ nsString
 >
 &
 aValueArray
-bool
+PRBool
 aGetOrRemoveRequest
 )
 ;
@@ -2736,7 +2736,7 @@ ChangeCSSInlineStyleTxn
 *
 *
 aTxn
-bool
+PRBool
 aRemoveProperty
 )
 ;
@@ -2845,7 +2845,7 @@ nsHTMLEditor
 *
 mHTMLEditor
 ;
-bool
+PRBool
 mIsCSSPrefChecked
 ;
 }

@@ -2898,7 +2898,7 @@ nsHtml5TreeBuilder
 :
 start
 (
-bool
+PRBool
 fragment
 )
 {
@@ -4416,7 +4416,7 @@ mHandlesUsed
 ]
 ;
 }
-bool
+PRBool
 nsHtml5TreeBuilder
 :
 :
@@ -4458,13 +4458,13 @@ IsRunScript
 )
 ;
 }
-bool
+PRBool
 nsHtml5TreeBuilder
 :
 :
 Flush
 (
-bool
+PRBool
 aDiscretionary
 )
 {
@@ -4564,7 +4564,7 @@ if
 mOpSink
 )
 {
-bool
+PRBool
 hasOps
 =
 !

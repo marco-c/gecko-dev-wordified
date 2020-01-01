@@ -914,7 +914,7 @@ opaque
 NS_IMETHOD
 SetIsOpaque
 (
-bool
+PRBool
 isOpaque
 )
 =
@@ -1034,7 +1034,7 @@ accelerated
 CanvasLayer
 .
 virtual
-bool
+PRBool
 ShouldForceInactiveLayer
 (
 LayerManager
@@ -1043,7 +1043,7 @@ aManager
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 virtual
@@ -1171,7 +1171,7 @@ lost
 NS_IMETHOD
 SetIsIPC
 (
-bool
+PRBool
 isIPC
 )
 =

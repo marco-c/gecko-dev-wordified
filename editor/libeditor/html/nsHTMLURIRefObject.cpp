@@ -1923,7 +1923,7 @@ const
 nsAString
 &
 aNewPat
-bool
+PRBool
 aMakeRel
 )
 {

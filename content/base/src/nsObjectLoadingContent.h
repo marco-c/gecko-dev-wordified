@@ -1031,7 +1031,7 @@ const
 void
 SetIsNetworkCreated
 (
-bool
+PRBool
 aNetworkCreated
 )
 {
@@ -1175,7 +1175,7 @@ const
 nsAString
 &
 aURI
-bool
+PRBool
 aNotify
 const
 nsCString
@@ -1185,10 +1185,10 @@ aTypeHint
 EmptyCString
 (
 )
-bool
+PRBool
 aForceLoad
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -1435,7 +1435,7 @@ LoadObject
 nsIURI
 *
 aURI
-bool
+PRBool
 aNotify
 const
 nsCString
@@ -1445,10 +1445,10 @@ aTypeHint
 EmptyCString
 (
 )
-bool
+PRBool
 aForceLoad
 =
-false
+PR_FALSE
 )
 ;
 enum
@@ -1629,7 +1629,7 @@ content
 void
 Fallback
 (
-bool
+PRBool
 aNotify
 )
 ;
@@ -1709,7 +1709,7 @@ load
 *
 /
 static
-bool
+PRBool
 IsSuccessfulRequest
 (
 nsIRequest
@@ -1733,7 +1733,7 @@ internally
 *
 /
 static
-bool
+PRBool
 CanHandleURI
 (
 nsIURI
@@ -1758,7 +1758,7 @@ type
 .
 *
 /
-bool
+PRBool
 IsSupportedDocument
 (
 const
@@ -1911,9 +1911,9 @@ ObjectType
 aOldType
 nsEventStates
 aOldState
-bool
+PRBool
 aSync
-bool
+PRBool
 aNotify
 )
 ;
@@ -2753,7 +2753,7 @@ Instantiate
 .
 *
 /
-bool
+PRPackedBool
 mInstantiating
 :
 1
@@ -2765,12 +2765,12 @@ status
 from
 content
 policy
-bool
+PRPackedBool
 mUserDisabled
 :
 1
 ;
-bool
+PRPackedBool
 mSuppressed
 :
 1
@@ -2810,7 +2810,7 @@ lose
 the
 flag
 .
-bool
+PRPackedBool
 mNetworkCreated
 :
 1

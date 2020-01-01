@@ -875,7 +875,7 @@ others
 NS_IMETHOD
 GetIsSSL
 (
-bool
+PRBool
 *
 aIsSSL
 )
@@ -883,7 +883,7 @@ aIsSSL
 NS_IMETHOD
 GetProxyMethodIsConnect
 (
-bool
+PRBool
 *
 aProxyMethodIsConnect
 )
@@ -938,7 +938,7 @@ OnAuthAvailable
 NS_IMETHOD
 OnAuthCancelled
 (
-bool
+PRBool
 userCancel
 )
 ;
@@ -1163,7 +1163,7 @@ uploadStream
 void
 SetUploadStreamHasHeaders
 (
-bool
+PRBool
 hasHeaders
 )
 {
@@ -1239,7 +1239,7 @@ nsresult
 result
 )
 ;
-bool
+PRBool
 RequestIsConditional
 (
 )
@@ -1247,10 +1247,10 @@ RequestIsConditional
 nsresult
 Connect
 (
-bool
+PRBool
 firstTime
 =
-true
+PR_TRUE
 )
 ;
 nsresult
@@ -1309,7 +1309,7 @@ ContinueProcessRedirectionAfterFallback
 nsresult
 )
 ;
-bool
+PRBool
 ShouldSSLProxyResponseContinue
 (
 PRUint32
@@ -1326,7 +1326,7 @@ httpStatus
 nsresult
 ProcessFallback
 (
-bool
+PRBool
 *
 waitingForRedirectCallback
 )
@@ -1337,7 +1337,7 @@ ContinueProcessFallback
 nsresult
 )
 ;
-bool
+PRBool
 ResponseWouldVary
 (
 )
@@ -1410,7 +1410,7 @@ nsIURI
 *
 nsIChannel
 *
-bool
+PRBool
 preserveMethod
 )
 ;
@@ -1473,14 +1473,14 @@ nsCacheAccessMode
 aAccess
 nsresult
 aResult
-bool
+PRBool
 aSync
 )
 ;
 nsresult
 OpenNormalCacheEntry
 (
-bool
+PRBool
 aSync
 )
 ;
@@ -1494,7 +1494,7 @@ nsCacheAccessMode
 aAccess
 nsresult
 aResult
-bool
+PRBool
 aSync
 )
 ;
@@ -1526,7 +1526,7 @@ CheckCache
 nsresult
 ShouldUpdateOfflineCacheEntry
 (
-bool
+PRBool
 *
 shouldCacheForOfflineUse
 )
@@ -1539,7 +1539,7 @@ ReadFromCache
 void
 CloseCacheEntry
 (
-bool
+PRBool
 doomOnFailure
 )
 ;
@@ -1654,7 +1654,7 @@ ProcessPartialContent
 nsresult
 OnDoneReadingPartialCacheEntry
 (
-bool
+PRBool
 *
 streamDone
 )
@@ -1666,7 +1666,7 @@ nsAHttpConnection
 *
 )
 ;
-bool
+PRBool
 MustValidateBasedOnQueryUrl
 (
 )
@@ -1870,7 +1870,7 @@ Request
 URI
 "
 inline
-bool
+PRBool
 HostPartIsTheSame
 (
 nsIURI
@@ -1992,13 +1992,13 @@ nsICacheEntryDescriptor
 *
 nsCacheAccessMode
 nsresult
-bool
+PRBool
 )
 ;
 nsOnCacheEntryAvailableCallback
 mOnCacheEntryAvailableCallback
 ;
-bool
+PRBool
 mAsyncCacheOpen
 ;
 nsCOMPtr

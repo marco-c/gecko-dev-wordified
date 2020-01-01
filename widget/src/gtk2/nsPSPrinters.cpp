@@ -600,7 +600,7 @@ cups
 .
 enabled
 "
-true
+PR_TRUE
 )
 &
 &
@@ -634,7 +634,7 @@ at
 runtime
 *
 /
-bool
+PRBool
 nsPSPrinterList
 :
 :
@@ -682,7 +682,7 @@ false
 )
 )
 return
-false
+PR_FALSE
 ;
 /
 /
@@ -705,7 +705,7 @@ postscript
 .
 enabled
 "
-true
+PR_TRUE
 )
 ;
 }

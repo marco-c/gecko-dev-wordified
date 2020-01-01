@@ -744,7 +744,7 @@ aChannel
 nsIAuthInformation
 *
 aAuthInfo
-bool
+PRBool
 machineProcessing
 nsCString
 &

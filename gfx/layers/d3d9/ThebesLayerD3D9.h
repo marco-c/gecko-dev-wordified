@@ -521,7 +521,7 @@ GetLayer
 )
 ;
 virtual
-bool
+PRBool
 IsEmpty
 (
 )
@@ -908,7 +908,7 @@ GetLayer
 )
 ;
 virtual
-bool
+PRBool
 IsEmpty
 (
 )

@@ -830,7 +830,7 @@ Reset
 (
 )
 ;
-bool
+PRBool
 IsIdentity
 (
 )
@@ -944,7 +944,7 @@ exists
 .
 *
 /
-bool
+PRBool
 IsSingular
 (
 )
@@ -1373,7 +1373,7 @@ integers
 .
 *
 /
-bool
+PRBool
 HasNonIntegerTranslation
 (
 )
@@ -1435,7 +1435,7 @@ straight
 translation
 *
 /
-bool
+PRBool
 HasNonTranslation
 (
 )
@@ -1499,7 +1499,7 @@ translation
 .
 *
 /
-bool
+PRBool
 HasOnlyIntegerTranslation
 (
 )
@@ -1542,7 +1542,7 @@ flip
 )
 *
 /
-bool
+PRBool
 HasNonTranslationOrFlip
 (
 )
@@ -1633,7 +1633,7 @@ rotation
 .
 *
 /
-bool
+PRBool
 HasNonAxisAlignedTransform
 (
 )
@@ -1739,7 +1739,7 @@ not
 gfxSize
 ScaleFactors
 (
-bool
+PRBool
 xMajor
 )
 const
@@ -1951,7 +1951,7 @@ translation
 .
 *
 /
-bool
+PRBool
 PreservesAxisAlignedRectangles
 (
 )
@@ -2016,7 +2016,7 @@ integer
 scale
 *
 /
-bool
+PRBool
 HasNonIntegerScale
 (
 )
@@ -2056,7 +2056,7 @@ yy
 private
 :
 static
-bool
+PRBool
 FuzzyEqual
 (
 gfxFloat

@@ -1240,7 +1240,7 @@ return
 NODESET_RESULT
 ;
 }
-bool
+PRBool
 DocumentFunctionCall
 :
 :

@@ -594,7 +594,7 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 ;
@@ -700,11 +700,11 @@ nsIRequestObserver
 >
 mParserObserver
 ;
-bool
+PRBool
 mIsAsyncParse
 ;
 static
-bool
+PRBool
 TryChannelCharset
 (
 nsIChannel

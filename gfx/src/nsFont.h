@@ -497,7 +497,7 @@ PR_FALSE
 to
 stop
 typedef
-bool
+PRBool
 (
 *
 nsFontFamilyEnumFunc
@@ -507,7 +507,7 @@ const
 nsString
 &
 aFamily
-bool
+PRBool
 aGeneric
 void
 *
@@ -1047,7 +1047,7 @@ nsFont
 (
 )
 ;
-bool
+PRBool
 operator
 =
 =
@@ -1066,7 +1066,7 @@ aOther
 )
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -1089,7 +1089,7 @@ and
 '
 decoration
 '
-bool
+PRBool
 BaseEquals
 (
 const
@@ -1151,7 +1151,7 @@ compressed
 as
 needed
 )
-bool
+PRBool
 EnumerateFamilies
 (
 nsFontFamilyEnumFunc

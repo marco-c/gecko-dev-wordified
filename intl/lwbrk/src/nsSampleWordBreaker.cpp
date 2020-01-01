@@ -465,7 +465,7 @@ NS_IMPL_ISUPPORTS1
 nsSampleWordBreaker
 nsIWordBreaker
 )
-bool
+PRBool
 nsSampleWordBreaker
 :
 :

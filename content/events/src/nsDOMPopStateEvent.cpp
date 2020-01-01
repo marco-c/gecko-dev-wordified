@@ -557,9 +557,9 @@ const
 nsAString
 &
 aTypeArg
-bool
+PRBool
 aCanBubbleArg
-bool
+PRBool
 aCancelableArg
 nsIVariant
 *

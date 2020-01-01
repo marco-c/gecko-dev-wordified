@@ -1286,7 +1286,7 @@ result
 NS_IMETHOD
 IsDone
 (
-bool
+PRBool
 *
 aIsDone
 )

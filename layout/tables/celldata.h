@@ -576,7 +576,7 @@ cellmap
 entry
 *
 /
-bool
+PRBool
 IsOrig
 (
 )
@@ -624,7 +624,7 @@ is
 nsnull
 *
 /
-bool
+PRBool
 IsDead
 (
 )
@@ -660,7 +660,7 @@ or
 colspan
 *
 /
-bool
+PRBool
 IsSpan
 (
 )
@@ -689,7 +689,7 @@ a
 rowspan
 *
 /
-bool
+PRBool
 IsRowSpan
 (
 )
@@ -748,7 +748,7 @@ zero
 rowspan
 *
 /
-bool
+PRBool
 IsZeroRowSpan
 (
 )
@@ -786,7 +786,7 @@ rowspan
 void
 SetZeroRowSpan
 (
-bool
+PRBool
 aIsZero
 )
 ;
@@ -887,7 +887,7 @@ a
 colspan
 *
 /
-bool
+PRBool
 IsColSpan
 (
 )
@@ -950,7 +950,7 @@ zero
 colspan
 *
 /
-bool
+PRBool
 IsZeroColSpan
 (
 )
@@ -988,7 +988,7 @@ colspan
 void
 SetZeroColSpan
 (
-bool
+PRBool
 aIsZero
 )
 ;
@@ -1098,7 +1098,7 @@ a
 colspan
 *
 /
-bool
+PRBool
 IsOverlap
 (
 )
@@ -1142,7 +1142,7 @@ colspan
 void
 SetOverlap
 (
-bool
+PRBool
 aOverlap
 )
 ;
@@ -1669,7 +1669,7 @@ GetLeftEdge
 BCBorderOwner
 &
 aOwner
-bool
+PRBool
 &
 aStart
 )
@@ -1682,7 +1682,7 @@ BCBorderOwner
 aOwner
 nscoord
 aSize
-bool
+PRBool
 aStart
 )
 ;
@@ -1692,7 +1692,7 @@ GetTopEdge
 BCBorderOwner
 &
 aOwner
-bool
+PRBool
 &
 aStart
 )
@@ -1705,7 +1705,7 @@ BCBorderOwner
 aOwner
 nscoord
 aSize
-bool
+PRBool
 aStart
 )
 ;
@@ -1721,7 +1721,7 @@ css
 Side
 &
 aCornerOwner
-bool
+PRPackedBool
 &
 aBevel
 )
@@ -1740,11 +1740,11 @@ css
 :
 Side
 aOwner
-bool
+PRBool
 aBevel
 )
 ;
-bool
+PRBool
 IsLeftStart
 (
 )
@@ -1753,11 +1753,11 @@ const
 void
 SetLeftStart
 (
-bool
+PRBool
 aValue
 )
 ;
-bool
+PRBool
 IsTopStart
 (
 )
@@ -1766,7 +1766,7 @@ const
 void
 SetTopStart
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -2375,7 +2375,7 @@ aCellFrame
 ;
 }
 inline
-bool
+PRBool
 CellData
 :
 :
@@ -2408,7 +2408,7 @@ mBits
 ;
 }
 inline
-bool
+PRBool
 CellData
 :
 :
@@ -2427,7 +2427,7 @@ mBits
 ;
 }
 inline
-bool
+PRBool
 CellData
 :
 :
@@ -2450,7 +2450,7 @@ mBits
 ;
 }
 inline
-bool
+PRBool
 CellData
 :
 :
@@ -2485,7 +2485,7 @@ mBits
 ;
 }
 inline
-bool
+PRBool
 CellData
 :
 :
@@ -2538,7 +2538,7 @@ CellData
 :
 SetZeroRowSpan
 (
-bool
+PRBool
 aIsZeroSpan
 )
 {
@@ -2673,7 +2673,7 @@ ROW_SPAN
 ;
 }
 inline
-bool
+PRBool
 CellData
 :
 :
@@ -2708,7 +2708,7 @@ mBits
 ;
 }
 inline
-bool
+PRBool
 CellData
 :
 :
@@ -2761,7 +2761,7 @@ CellData
 :
 SetZeroColSpan
 (
-bool
+PRBool
 aIsZeroSpan
 )
 {
@@ -2896,7 +2896,7 @@ COL_SPAN
 ;
 }
 inline
-bool
+PRBool
 CellData
 :
 :
@@ -2937,7 +2937,7 @@ CellData
 :
 SetOverlap
 (
-bool
+PRBool
 aOverlap
 )
 {
@@ -3032,7 +3032,7 @@ GetLeftEdge
 BCBorderOwner
 &
 aOwner
-bool
+PRBool
 &
 aStart
 )
@@ -3048,7 +3048,7 @@ mLeftOwner
 aStart
 =
 (
-bool
+PRBool
 )
 mLeftStart
 ;
@@ -3070,7 +3070,7 @@ BCBorderOwner
 aOwner
 nscoord
 aSize
-bool
+PRBool
 aStart
 )
 {
@@ -3105,7 +3105,7 @@ GetTopEdge
 BCBorderOwner
 &
 aOwner
-bool
+PRBool
 &
 aStart
 )
@@ -3121,7 +3121,7 @@ mTopOwner
 aStart
 =
 (
-bool
+PRBool
 )
 mTopStart
 ;
@@ -3143,7 +3143,7 @@ BCBorderOwner
 aOwner
 nscoord
 aSize
-bool
+PRBool
 aStart
 )
 {
@@ -3184,7 +3184,7 @@ css
 Side
 &
 aOwnerSide
-bool
+PRPackedBool
 &
 aBevel
 )
@@ -3206,7 +3206,7 @@ mCornerSide
 aBevel
 =
 (
-bool
+PRBool
 )
 mCornerBevel
 ;
@@ -3231,7 +3231,7 @@ css
 :
 Side
 aOwnerSide
-bool
+PRBool
 aBevel
 )
 {
@@ -3249,7 +3249,7 @@ aBevel
 ;
 }
 inline
-bool
+PRBool
 BCData
 :
 :
@@ -3260,7 +3260,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mLeftStart
 ;
@@ -3272,7 +3272,7 @@ BCData
 :
 SetLeftStart
 (
-bool
+PRBool
 aValue
 )
 {
@@ -3282,7 +3282,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 BCData
 :
 :
@@ -3293,7 +3293,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mTopStart
 ;
@@ -3305,7 +3305,7 @@ BCData
 :
 SetTopStart
 (
-bool
+PRBool
 aValue
 )
 {

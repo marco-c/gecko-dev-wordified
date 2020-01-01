@@ -1031,6 +1031,18 @@ aContext
 ;
 nsIFrame
 *
+NS_NewPositionedInlineFrame
+(
+nsIPresShell
+*
+aPresShell
+nsStyleContext
+*
+aContext
+)
+;
+nsIFrame
+*
 NS_NewObjectFrame
 (
 nsIPresShell
@@ -1504,7 +1516,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-bool
+PRBool
 aIsBorderCollapse
 )
 ;

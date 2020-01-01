@@ -528,10 +528,10 @@ aNode
 nsIDOMRange
 *
 aRange
-bool
+PRBool
 *
 outNodeBefore
-bool
+PRBool
 *
 outNodeAfter
 )

@@ -820,7 +820,7 @@ _class
 )
 ;
 }
-bool
+PRBool
 nsStyledElementNotElementCSSInlineStyle
 :
 :
@@ -1013,7 +1013,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 aNotify
 )
 {
@@ -1081,7 +1081,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -1186,7 +1186,7 @@ css
 StyleRule
 *
 aStyleRule
-bool
+PRBool
 aNotify
 )
 {
@@ -1194,15 +1194,15 @@ SetMayHaveStyle
 (
 )
 ;
-bool
+PRBool
 modification
 =
-false
+PR_FALSE
 ;
 nsAutoString
 oldValueStr
 ;
-bool
+PRBool
 hasListeners
 =
 aNotify
@@ -1523,7 +1523,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 {
@@ -1626,9 +1626,9 @@ nsStyledElementNotElementCSSInlineStyle
 :
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
-bool
+PRBool
 aNullParent
 )
 {
@@ -1849,7 +1849,7 @@ nsStyledElementNotElementCSSInlineStyle
 :
 ReparseStyleAttribute
 (
-bool
+PRBool
 aForceInDataDoc
 )
 {
@@ -1983,7 +1983,7 @@ aValue
 nsAttrValue
 &
 aResult
-bool
+PRBool
 aForceInDataDoc
 )
 {
@@ -2022,10 +2022,10 @@ IsStaticDocument
 )
 )
 {
-bool
+PRBool
 isCSS
 =
-true
+PR_TRUE
 ;
 /
 /

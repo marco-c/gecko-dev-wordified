@@ -339,7 +339,7 @@ getBrowser
 (
 )
 ;
-Util
+BookmarkHelper
 .
 createShortcut
 (
@@ -354,9 +354,6 @@ spec
 browser
 .
 mIconURL
-"
-bookmark
-"
 )
 ;
 }

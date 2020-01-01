@@ -870,7 +870,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 )
@@ -1244,7 +1244,7 @@ debug_rv
 )
 )
 {
-bool
+PRBool
 same
 ;
 debug_rv
@@ -1511,10 +1511,10 @@ file
 )
 )
 ;
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 file
 -

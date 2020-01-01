@@ -591,9 +591,9 @@ const
 nsAString
 &
 aEventType
-bool
+PRBool
 aBubbles
-bool
+PRBool
 aDispatchChromeOnly
 )
 :
@@ -679,10 +679,10 @@ mEvent
 nsString
 mEventType
 ;
-bool
+PRPackedBool
 mBubbles
 ;
-bool
+PRPackedBool
 mDispatchChromeOnly
 ;
 }
@@ -704,9 +704,9 @@ const
 nsAString
 &
 aEventType
-bool
+PRBool
 aBubbles
-bool
+PRBool
 aDispatchChromeOnly
 )
 :

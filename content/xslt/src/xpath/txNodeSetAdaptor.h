@@ -527,7 +527,7 @@ get
 )
 ;
 }
-bool
+PRBool
 mWritable
 ;
 }

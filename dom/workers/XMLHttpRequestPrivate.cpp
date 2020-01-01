@@ -5111,7 +5111,7 @@ if
 progressEvent
 )
 {
-bool
+PRBool
 lengthComputable
 ;
 PRUint64

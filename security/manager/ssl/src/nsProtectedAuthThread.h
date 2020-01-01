@@ -446,13 +446,13 @@ nsIObserver
 >
 mStatusObserver
 ;
-bool
+PRBool
 mIAmRunning
 ;
-bool
+PRBool
 mStatusObserverNotified
 ;
-bool
+PRBool
 mLoginReady
 ;
 PRThread

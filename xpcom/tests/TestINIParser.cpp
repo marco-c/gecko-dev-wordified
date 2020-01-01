@@ -418,7 +418,7 @@ nsILocalFile
 h
 "
 static
-bool
+PRBool
 StringCB
 (
 const
@@ -454,7 +454,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 SectionCB
 (
 const

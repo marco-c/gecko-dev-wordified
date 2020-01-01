@@ -2459,7 +2459,7 @@ if
 targ
 )
 {
-bool
+PRBool
 defaultActionEnabled
 ;
 targ
@@ -2711,7 +2711,7 @@ nsXULWindow
 :
 SetIntrinsicallySized
 (
-bool
+PRBool
 aIntrinsicallySized
 )
 {
@@ -2729,7 +2729,7 @@ nsXULWindow
 :
 GetIntrinsicallySized
 (
-bool
+PRBool
 *
 aIntrinsicallySized
 )
@@ -3765,10 +3765,10 @@ if
 parent
 )
 {
-bool
+PRBool
 parentVisible
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -4377,7 +4377,7 @@ PRInt32
 aCX
 PRInt32
 aCY
-bool
+PRBool
 aRepaint
 )
 {
@@ -4582,7 +4582,7 @@ PRInt32
 aCX
 PRInt32
 aCY
-bool
+PRBool
 aRepaint
 )
 {
@@ -4831,9 +4831,9 @@ Center
 nsIXULWindow
 *
 aRelative
-bool
+PRBool
 aScreen
-bool
+PRBool
 aAlert
 )
 {
@@ -4845,10 +4845,10 @@ height
 ourWidth
 ourHeight
 ;
-bool
+PRBool
 screenCoordinates
 =
-false
+PR_FALSE
 windowCoordinates
 =
 PR_FALSE
@@ -5226,7 +5226,7 @@ nsXULWindow
 :
 Repaint
 (
-bool
+PRBool
 aForce
 )
 {
@@ -5411,7 +5411,7 @@ nsXULWindow
 :
 GetVisibility
 (
-bool
+PRBool
 *
 aVisibility
 )
@@ -5468,7 +5468,7 @@ nsXULWindow
 :
 SetVisibility
 (
-bool
+PRBool
 aVisibility
 )
 {
@@ -5752,7 +5752,7 @@ nsXULWindow
 :
 GetEnabled
 (
-bool
+PRBool
 *
 aEnabled
 )
@@ -5796,7 +5796,7 @@ nsXULWindow
 :
 SetEnabled
 (
-bool
+PRBool
 aEnable
 )
 {
@@ -5827,7 +5827,7 @@ nsXULWindow
 :
 GetBlurSuppression
 (
-bool
+PRBool
 *
 aBlurSuppression
 )
@@ -5854,7 +5854,7 @@ nsXULWindow
 :
 SetBlurSuppression
 (
-bool
+PRBool
 aBlurSuppression
 )
 {
@@ -6706,7 +6706,7 @@ SizeToContent
 )
 ;
 }
-bool
+PRBool
 positionSet
 =
 !
@@ -6870,7 +6870,7 @@ PAD_SIZE
 PAD_MISC
 ;
 }
-bool
+PRBool
 nsXULWindow
 :
 :
@@ -6881,10 +6881,10 @@ LoadPositionFromXUL
 nsresult
 rv
 ;
-bool
+PRBool
 gotPosition
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -7252,7 +7252,7 @@ return
 gotPosition
 ;
 }
-bool
+PRBool
 nsXULWindow
 :
 :
@@ -7263,10 +7263,10 @@ LoadSizeFromXUL
 nsresult
 rv
 ;
-bool
+PRBool
 gotSize
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -7717,7 +7717,7 @@ processing
 .
 *
 /
-bool
+PRBool
 nsXULWindow
 :
 :
@@ -7728,10 +7728,10 @@ LoadMiscPersistentAttributesFromXUL
 nsresult
 rv
 ;
-bool
+PRBool
 gotState
 =
-false
+PR_FALSE
 ;
 /
 *
@@ -8295,7 +8295,7 @@ kSlop
 nsresult
 rv
 ;
-bool
+PRBool
 keepTrying
 ;
 int
@@ -8453,10 +8453,10 @@ screenLeft
 issuing
 warnings
 .
-bool
+PRBool
 gotScreen
 =
-false
+PR_FALSE
 ;
 {
 /
@@ -8625,7 +8625,7 @@ collision
 .
 do
 {
-bool
+PRBool
 more
 ;
 windowList
@@ -9093,7 +9093,7 @@ margins
 accelerated
 "
 attribute
-bool
+PRBool
 isAccelerated
 ;
 rv
@@ -10221,9 +10221,9 @@ ContentShellAdded
 nsIDocShellTreeItem
 *
 aContentShell
-bool
+PRBool
 aPrimary
-bool
+PRBool
 aTargetable
 const
 nsAString
@@ -10652,7 +10652,7 @@ first
 "
 order
 .
-bool
+PRBool
 inserted
 ;
 if
@@ -11684,7 +11684,7 @@ nsXULWindow
 :
 EnableParent
 (
-bool
+PRBool
 aEnable
 )
 {
@@ -11746,13 +11746,13 @@ proper
 z
 -
 level
-bool
+PRBool
 nsXULWindow
 :
 :
 ConstrainToZLevel
 (
-bool
+PRBool
 aImmediate
 nsWindowZ
 *
@@ -11862,7 +11862,7 @@ mediator
 return
 PR_FALSE
 ;
-bool
+PRBool
 altered
 ;
 PRUint32
@@ -12542,7 +12542,7 @@ get
 next
 lower
 window
-bool
+PRBool
 more
 ;
 while
@@ -12698,7 +12698,7 @@ nsXULWindow
 :
 SetContentScrollbarVisibility
 (
-bool
+PRBool
 aVisible
 )
 {
@@ -12750,7 +12750,7 @@ aVisible
 ;
 }
 }
-bool
+PRBool
 nsXULWindow
 :
 :

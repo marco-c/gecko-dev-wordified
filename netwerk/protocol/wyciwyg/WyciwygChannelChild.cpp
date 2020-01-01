@@ -2131,7 +2131,7 @@ WyciwygChannelChild
 :
 IsPending
 (
-bool
+PRBool
 *
 aIsPending
 )

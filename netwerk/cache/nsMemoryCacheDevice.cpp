@@ -1065,7 +1065,7 @@ FindEntry
 nsCString
 *
 key
-bool
+PRBool
 *
 collision
 )
@@ -2087,7 +2087,7 @@ EvictEntry
 nsCacheEntry
 *
 entry
-bool
+PRBool
 deleteEntry
 )
 {
@@ -2521,7 +2521,7 @@ deviceInfo
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-bool
+PRBool
 keepGoing
 ;
 nsresult

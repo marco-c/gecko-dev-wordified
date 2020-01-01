@@ -559,7 +559,7 @@ h
 *
 *
 /
-bool
+PRBool
 xpc
 :
 :
@@ -601,7 +601,7 @@ mPrincipal
 return
 PR_TRUE
 ;
-bool
+PRBool
 equals
 ;
 if
@@ -1046,12 +1046,11 @@ state
 ;
 NS_ABORT_IF_FALSE
 (
-js
-:
-:
-GetObjectCompartment
-(
 scope
+-
+>
+compartment
+(
 )
 =
 =
@@ -1936,10 +1935,10 @@ iid
 )
 const
 {
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 mInfo
 -

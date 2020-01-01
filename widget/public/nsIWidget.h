@@ -1245,9 +1245,9 @@ PR_FALSE
 }
 nsIMEUpdatePreference
 (
-bool
+PRBool
 aWantUpdates
-bool
+PRBool
 aWantHints
 )
 :
@@ -1261,10 +1261,10 @@ aWantHints
 )
 {
 }
-bool
+PRPackedBool
 mWantUpdates
 ;
-bool
+PRPackedBool
 mWantHints
 ;
 }
@@ -1343,7 +1343,7 @@ FOCUS_FROM_CONTENT_PROCESS
 0x0100
 }
 ;
-bool
+PRBool
 FocusMovedByUser
 (
 )
@@ -1365,7 +1365,7 @@ FOCUS_MOVED_BY_KEY
 ;
 }
 ;
-bool
+PRBool
 FocusMovedInContentProcess
 (
 )
@@ -2059,10 +2059,10 @@ nsWidgetInitData
 aInitData
 =
 nsnull
-bool
+PRBool
 aForceUseIWidgetParent
 =
-false
+PR_FALSE
 )
 =
 0
@@ -2794,7 +2794,7 @@ it
 NS_IMETHOD
 Show
 (
-bool
+PRBool
 aState
 )
 =
@@ -2814,7 +2814,7 @@ modal
 NS_IMETHOD
 SetModal
 (
-bool
+PRBool
 aModal
 )
 =
@@ -2836,7 +2836,7 @@ visible
 NS_IMETHOD
 IsVisible
 (
-bool
+PRBool
 &
 aState
 )
@@ -2997,7 +2997,7 @@ parameters
 NS_IMETHOD
 ConstrainPosition
 (
-bool
+PRBool
 aAllowSlop
 PRInt32
 *
@@ -3150,7 +3150,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 =
@@ -3252,7 +3252,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 =
@@ -3349,7 +3349,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 =
@@ -3516,7 +3516,7 @@ aPlacement
 nsIWidget
 *
 aWidget
-bool
+PRBool
 aActivate
 )
 =
@@ -3623,7 +3623,7 @@ it
 NS_IMETHOD
 Enable
 (
-bool
+PRBool
 aState
 )
 =
@@ -3654,7 +3654,7 @@ enabled
 NS_IMETHOD
 IsEnabled
 (
-bool
+PRBool
 *
 aState
 )
@@ -3754,10 +3754,10 @@ Create
 NS_IMETHOD
 SetFocus
 (
-bool
+PRBool
 aRaise
 =
-false
+PR_FALSE
 )
 =
 0
@@ -4968,7 +4968,7 @@ virtual
 void
 SetShowsToolbarButton
 (
-bool
+PRBool
 aShow
 )
 =
@@ -4995,7 +4995,7 @@ widget
 NS_IMETHOD
 HideWindowChrome
 (
-bool
+PRBool
 aShouldHide
 )
 =
@@ -5022,7 +5022,7 @@ mode
 NS_IMETHOD
 MakeFullScreen
 (
-bool
+PRBool
 aFullScreen
 )
 =
@@ -5072,7 +5072,7 @@ const
 nsIntRect
 &
 aRect
-bool
+PRBool
 aIsSynchronous
 )
 =
@@ -5867,7 +5867,7 @@ temporary
 NS_IMETHOD
 EnableDragDrop
 (
-bool
+PRBool
 aEnable
 )
 =
@@ -5901,7 +5901,7 @@ capture
 NS_IMETHOD
 CaptureMouse
 (
-bool
+PRBool
 aCapture
 )
 =
@@ -6004,9 +6004,9 @@ aListener
 nsIMenuRollup
 *
 aMenuRollup
-bool
+PRBool
 aDoCapture
-bool
+PRBool
 aConsumeRollupEvent
 )
 =
@@ -6165,7 +6165,7 @@ instance
 *
 /
 virtual
-bool
+PRBool
 HasPendingInputEvent
 (
 )
@@ -6431,7 +6431,7 @@ SetWindowTitlebarColor
 (
 nscolor
 aColor
-bool
+PRBool
 aActive
 )
 =
@@ -6523,7 +6523,7 @@ virtual
 void
 SetDrawsInTitlebar
 (
-bool
+PRBool
 aState
 )
 =
@@ -6591,7 +6591,7 @@ shown
 *
 /
 virtual
-bool
+PRBool
 ShowsResizeIndicator
 (
 nsIntRect
@@ -7694,7 +7694,7 @@ Closed
 NS_IMETHOD
 SetIMEOpenState
 (
-bool
+PRBool
 aState
 )
 =
@@ -7743,7 +7743,7 @@ PR_FALSE
 NS_IMETHOD
 GetIMEOpenState
 (
-bool
+PRBool
 *
 aState
 )
@@ -8156,7 +8156,7 @@ False
 NS_IMETHOD
 SetAcceleratedRendering
 (
-bool
+PRBool
 aEnabled
 )
 =
@@ -8240,7 +8240,7 @@ GetToggledKeyState
 (
 PRUint32
 aKeyCode
-bool
+PRBool
 *
 aLEDState
 )
@@ -8342,7 +8342,7 @@ NOT
 NS_IMETHOD
 OnIMEFocusChange
 (
-bool
+PRBool
 aFocus
 )
 =
@@ -8662,7 +8662,7 @@ OverrideSystemMouseScrollSpeed
 (
 PRInt32
 aOriginalDelta
-bool
+PRBool
 aIsHorizontal
 PRInt32
 &

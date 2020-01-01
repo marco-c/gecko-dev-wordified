@@ -557,7 +557,7 @@ class
 NS_FORWARD_TO_NSDOMEVENT
 private
 :
-bool
+PRBool
 mLengthComputable
 ;
 PRUint64

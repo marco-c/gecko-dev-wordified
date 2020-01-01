@@ -523,7 +523,7 @@ a
 /
 previous
 binding
-bool
+PRBool
 mHasDependency
 ;
 RDFBinding
@@ -867,7 +867,7 @@ the
 result
 *
 /
-bool
+PRBool
 SyncAssignments
 (
 nsIRDFResource

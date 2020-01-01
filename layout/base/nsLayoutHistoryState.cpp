@@ -535,7 +535,7 @@ aKey
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 HasStates
 (
@@ -546,7 +546,7 @@ NS_IMETHOD
 SetScrollPositionOnly
 (
 const
-bool
+PRBool
 aFlag
 )
 ;
@@ -558,7 +558,7 @@ nsLayoutHistoryState
 )
 {
 }
-bool
+PRBool
 mScrollPositionOnly
 ;
 nsClassHashtable
@@ -707,7 +707,7 @@ nsPresState
 aState
 )
 {
-bool
+PRBool
 entryExists
 =
 mStates
@@ -779,7 +779,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsLayoutHistoryState
 :
@@ -807,7 +807,7 @@ nsLayoutHistoryState
 SetScrollPositionOnly
 (
 const
-bool
+PRBool
 aFlag
 )
 {

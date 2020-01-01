@@ -1502,7 +1502,7 @@ of
 it
 for
 later
-bool
+PRBool
 trailingDot
 =
 aHostname

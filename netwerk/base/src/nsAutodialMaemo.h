@@ -459,7 +459,7 @@ on
 network
 error
 ?
-bool
+PRBool
 ShouldDialOnNetworkError
 (
 )

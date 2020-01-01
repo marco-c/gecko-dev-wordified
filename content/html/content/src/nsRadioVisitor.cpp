@@ -479,7 +479,7 @@ NS_IMPL_ISUPPORTS1
 nsRadioVisitor
 nsIRadioVisitor
 )
-bool
+PRBool
 nsRadioSetCheckedChangedVisitor
 :
 :
@@ -532,7 +532,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsRadioGetCheckedChangedVisitor
 :
 :
@@ -599,7 +599,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsRadioSetValueMissingState
 :
 :

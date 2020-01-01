@@ -727,7 +727,7 @@ nsString
 >
 &
 aURLs
-bool
+PRBool
 aExecute
 )
 {
@@ -823,7 +823,7 @@ along
 the
 way
 .
-bool
+PRBool
 success
 =
 mLoadInfos
@@ -1140,10 +1140,10 @@ thread
 )
 ;
 volatile
-bool
+PRBool
 done
 =
-false
+PR_FALSE
 ;
 mDoneRunnable
 =
@@ -1720,7 +1720,7 @@ aCx
 JSOPTION_DONT_REPORT_UNCAUGHT
 )
 ;
-bool
+PRBool
 success
 =
 JS_ExecuteScript
@@ -2081,10 +2081,10 @@ method
 not
 here
 .
-bool
+PRBool
 needsNotify
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -3563,7 +3563,7 @@ if
 httpChannel
 )
 {
-bool
+PRBool
 requestSucceeded
 ;
 rv
@@ -4045,7 +4045,7 @@ channelPrincipal
 )
 )
 {
-bool
+PRBool
 isResource
 ;
 rv
@@ -4618,7 +4618,7 @@ GetLock
 #
 ifdef
 DEBUG
-bool
+PRBool
 removed
 =
 #
@@ -4998,7 +4998,7 @@ nsDOMWorkerScriptLoader
 *
 aLoader
 volatile
-bool
+PRBool
 *
 aDoneFlag
 )

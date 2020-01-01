@@ -1102,7 +1102,7 @@ resume
 nsresult
 PauseAllDownloads
 (
-bool
+PRBool
 aSetResume
 )
 ;
@@ -1174,7 +1174,7 @@ resume
 nsresult
 ResumeAllDownloads
 (
-bool
+PRBool
 aResumeAll
 )
 ;
@@ -1545,7 +1545,7 @@ enum
 DatabaseType
 mDBType
 ;
-bool
+PRBool
 mInPrivateBrowsing
 ;
 static
@@ -1924,7 +1924,7 @@ transferring
 ?
 *
 /
-bool
+PRBool
 IsPaused
 (
 )
@@ -1945,7 +1945,7 @@ transfer
 ?
 *
 /
-bool
+PRBool
 IsResumable
 (
 )
@@ -1960,7 +1960,7 @@ resumed
 ?
 *
 /
-bool
+PRBool
 WasResumed
 (
 )
@@ -1983,7 +1983,7 @@ not
 .
 *
 /
-bool
+PRBool
 ShouldAutoResume
 (
 )
@@ -2006,7 +2006,7 @@ download
 ?
 *
 /
-bool
+PRBool
 IsFinishable
 (
 )
@@ -2025,7 +2025,7 @@ all
 ?
 *
 /
-bool
+PRBool
 IsFinished
 (
 )
@@ -2330,7 +2330,7 @@ mResumedAt
 double
 mSpeed
 ;
-bool
+PRBool
 mHasMultipleFiles
 ;
 /

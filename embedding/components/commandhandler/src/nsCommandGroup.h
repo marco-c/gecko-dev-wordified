@@ -522,7 +522,7 @@ ClearGroupsHash
 protected
 :
 static
-bool
+PRBool
 ClearEnumerator
 (
 nsHashKey

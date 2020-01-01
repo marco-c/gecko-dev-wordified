@@ -1199,10 +1199,10 @@ if
 tab
 )
 {
-bool
+PRBool
 selected
 =
-false
+PR_FALSE
 ;
 if
 (

@@ -1176,7 +1176,7 @@ UpdateAfterPreferencesChanged
 ifdef
 IBMBIDI
 static
-bool
+PRBool
 IsVisualCharset
 (
 const
@@ -2484,10 +2484,10 @@ for
 it
 .
 static
-bool
+PRBool
 sNoTheme
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -2532,7 +2532,7 @@ one
 prescontext
 .
 static
-bool
+PRBool
 sLookAndFeelChanged
 ;
 /
@@ -2577,7 +2577,7 @@ one
 prescontext
 .
 static
-bool
+PRBool
 sThemeChanged
 ;
 void
@@ -3914,10 +3914,10 @@ useAccessibilityTheme
 =
 0
 ;
-bool
+PRBool
 usePrefColors
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -4007,7 +4007,7 @@ display
 .
 use_system_colors
 "
-false
+PR_FALSE
 )
 ;
 }
@@ -6501,15 +6501,15 @@ IsDynamic
 docURI
 )
 {
-bool
+PRBool
 isChrome
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 isRes
 =
-false
+PR_FALSE
 ;
 docURI
 -
@@ -8570,7 +8570,7 @@ SetBidi
 (
 PRUint32
 aSource
-bool
+PRBool
 aForceRestyle
 )
 {
@@ -8801,7 +8801,7 @@ endif
 /
 /
 IBMBIDI
-bool
+PRBool
 nsPresContext
 :
 :
@@ -9425,7 +9425,7 @@ nsPresContext
 :
 MediaFeatureValuesChanged
 (
-bool
+PRBool
 aCallerWillRebuildStyleData
 )
 {
@@ -10100,7 +10100,7 @@ nsPresContext
 :
 SetPaginatedScrolling
 (
-bool
+PRBool
 aPaginated
 )
 {
@@ -10148,7 +10148,7 @@ mPrintSettings
 aPrintSettings
 ;
 }
-bool
+PRBool
 nsPresContext
 :
 :
@@ -10316,7 +10316,7 @@ aFrame
 }
 #
 endif
-bool
+PRBool
 nsPresContext
 :
 :
@@ -10325,10 +10325,10 @@ IsChromeSlow
 )
 const
 {
-bool
+PRBool
 isChrome
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -10438,7 +10438,7 @@ InvalidateIsChromeCacheInternal
 virtual
 *
 /
-bool
+PRBool
 nsPresContext
 :
 :
@@ -10582,7 +10582,7 @@ why
 #
 ifdef
 DEBUG
-bool
+PRBool
 userFontSetGottenBefore
 =
 mGetUserFontSetCalled
@@ -10876,10 +10876,10 @@ mUserFontSet
 return
 ;
 }
-bool
+PRBool
 changed
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -11361,7 +11361,7 @@ NS_STYLE_HINT_REFLOW
 )
 ;
 }
-bool
+PRBool
 nsPresContext
 :
 :
@@ -11503,7 +11503,7 @@ IsChrome
 )
 )
 {
-bool
+PRBool
 notifyContent
 =
 mSendAfterPaintToContent
@@ -11844,7 +11844,7 @@ nsnull
 ;
 }
 static
-bool
+PRBool
 MayHavePaintEventListener
 (
 nsPIDOMWindow
@@ -12077,7 +12077,7 @@ MayHavePaintEventListener
 )
 ;
 }
-bool
+PRBool
 nsPresContext
 :
 :
@@ -12292,7 +12292,7 @@ aFlags
 ;
 }
 static
-bool
+PRBool
 NotifyDidPaintSubdocumentCallback
 (
 nsIDocument
@@ -12436,7 +12436,7 @@ nsnull
 )
 ;
 }
-bool
+PRBool
 nsPresContext
 :
 :
@@ -12462,10 +12462,10 @@ HasCachedStyleData
 ;
 }
 static
-bool
+PRBool
 sGotInterruptEnv
 =
-false
+PR_FALSE
 ;
 enum
 InterruptMode
@@ -12858,7 +12858,7 @@ ev
 ;
 }
 }
-bool
+PRBool
 nsPresContext
 :
 :
@@ -12975,7 +12975,7 @@ nsPresContext
 :
 ReflowStarted
 (
-bool
+PRBool
 aInterruptible
 )
 {
@@ -13138,7 +13138,7 @@ Now
 ;
 }
 }
-bool
+PRBool
 nsPresContext
 :
 :
@@ -13307,7 +13307,7 @@ return
 mHasPendingInterrupt
 ;
 }
-bool
+PRBool
 nsPresContext
 :
 :
@@ -13965,7 +13965,7 @@ aBuilder
 nsDisplayList
 *
 aList
-bool
+PRBool
 aInTransform
 PluginGeometryClosure
 *
@@ -14269,10 +14269,10 @@ stdio
 h
 >
 static
-bool
+PRBool
 gDumpPluginList
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -14677,7 +14677,7 @@ closure
 ;
 }
 static
-bool
+PRBool
 HasOverlap
 (
 const
@@ -15060,10 +15060,10 @@ pluginsToMove
 i
 ]
 ;
-bool
+PRBool
 foundOverlap
 =
-false
+PR_FALSE
 ;
 for
 (

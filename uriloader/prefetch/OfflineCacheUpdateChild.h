@@ -636,13 +636,13 @@ STATE_FINISHED
 }
 mState
 ;
-bool
+PRPackedBool
 mIsUpgrade
 ;
-bool
+PRPackedBool
 mSucceeded
 ;
-bool
+PRPackedBool
 mIPCActivated
 ;
 nsCString

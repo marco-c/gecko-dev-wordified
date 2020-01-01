@@ -601,7 +601,7 @@ ThinkPadSensor
 (
 )
 ;
-bool
+PRBool
 Startup
 (
 )
@@ -649,7 +649,7 @@ ThinkPadSensor
 )
 {
 }
-bool
+PRBool
 ThinkPadSensor
 :
 :
@@ -1000,10 +1000,10 @@ twice
 "
 )
 ;
-bool
+PRBool
 started
 =
-false
+PR_FALSE
 ;
 mSensor
 =

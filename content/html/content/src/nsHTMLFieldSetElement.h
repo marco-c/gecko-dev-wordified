@@ -604,7 +604,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 ;
@@ -617,7 +617,7 @@ nsIContent
 aChild
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 ;
@@ -627,7 +627,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 ;
@@ -760,7 +760,7 @@ changed
 void
 NotifyElementsForFirstLegendChange
 (
-bool
+PRBool
 aNotify
 )
 ;
@@ -781,7 +781,7 @@ elements
 )
 .
 static
-bool
+PRBool
 MatchListedElements
 (
 nsIContent

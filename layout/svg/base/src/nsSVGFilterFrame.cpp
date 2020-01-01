@@ -1307,7 +1307,7 @@ upscaling
 downscaling
 to
 filterRes
-bool
+PRBool
 overflow
 ;
 filterRes
@@ -1431,7 +1431,7 @@ upscaling
 downscaling
 to
 filterRes
-bool
+PRBool
 overflow
 ;
 filterRes

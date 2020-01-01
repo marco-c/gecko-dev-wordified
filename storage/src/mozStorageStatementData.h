@@ -872,7 +872,7 @@ if
 asyncThread
 )
 {
-bool
+PRBool
 onAsyncThread
 ;
 NS_ASSERTION

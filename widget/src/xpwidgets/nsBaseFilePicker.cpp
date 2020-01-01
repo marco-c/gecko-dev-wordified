@@ -1606,7 +1606,7 @@ nsBaseFilePicker
 :
 GetAddToRecentDocs
 (
-bool
+PRBool
 *
 aFlag
 )
@@ -1626,7 +1626,7 @@ nsBaseFilePicker
 :
 SetAddToRecentDocs
 (
-bool
+PRBool
 aFlag
 )
 {

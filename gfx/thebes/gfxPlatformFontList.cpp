@@ -1062,7 +1062,7 @@ gfxPlatformFontList
 :
 gfxPlatformFontList
 (
-bool
+PRBool
 aNeedFullnamePostscriptNames
 )
 :
@@ -1616,7 +1616,7 @@ i
 +
 )
 {
-bool
+PRBool
 found
 ;
 nsAutoString
@@ -1832,7 +1832,7 @@ key
 ;
 }
 }
-bool
+PRBool
 gfxPlatformFontList
 :
 :
@@ -2010,7 +2010,7 @@ data
 >
 mLangGroup
 ;
-bool
+PRBool
 needsBold
 ;
 nsRefPtr
@@ -2462,7 +2462,7 @@ fontEntry
 =
 nsnull
 ;
-bool
+PRBool
 needsBold
 ;
 /
@@ -2921,7 +2921,7 @@ gfxFontFamily
 *
 familyEntry
 ;
-bool
+PRBool
 found
 ;
 GenerateFontListKey
@@ -3147,7 +3147,7 @@ const
 gfxFontStyle
 *
 aStyle
-bool
+PRBool
 &
 aNeedsBold
 )
@@ -3184,7 +3184,7 @@ return
 nsnull
 ;
 }
-bool
+PRBool
 gfxPlatformFontList
 :
 :
@@ -3264,7 +3264,7 @@ aOtherFamilyName
 nsAutoString
 key
 ;
-bool
+PRBool
 found
 ;
 GenerateFontListKey
@@ -3379,7 +3379,7 @@ nsAString
 aFullname
 )
 {
-bool
+PRBool
 found
 ;
 if
@@ -3468,7 +3468,7 @@ nsAString
 aPostscriptName
 )
 {
-bool
+PRBool
 found
 ;
 if
@@ -3543,7 +3543,7 @@ get
 endif
 }
 }
-bool
+PRBool
 gfxPlatformFontList
 :
 :
@@ -3605,7 +3605,7 @@ Length
 )
 ;
 }
-bool
+PRBool
 gfxPlatformFontList
 :
 :

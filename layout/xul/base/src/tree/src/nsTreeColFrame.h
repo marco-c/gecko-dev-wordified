@@ -545,10 +545,10 @@ const
 nsRect
 &
 aRect
-bool
+PRBool
 aRemoveOverflowArea
 =
-false
+PR_FALSE
 )
 ;
 friend
@@ -628,10 +628,10 @@ it
 void
 InvalidateColumns
 (
-bool
+PRBool
 aCanWalkFrameTree
 =
-true
+PR_TRUE
 )
 ;
 }

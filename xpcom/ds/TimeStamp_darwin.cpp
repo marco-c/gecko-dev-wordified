@@ -1069,10 +1069,10 @@ TimeStampInitialization
 initOnce
 ;
 static
-bool
+PRBool
 gInitialized
 =
-false
+PR_FALSE
 ;
 nsresult
 TimeStamp

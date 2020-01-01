@@ -1489,7 +1489,7 @@ requestHead
 nsIInputStream
 *
 requestBody
-bool
+PRBool
 requestBodyHasHeaders
 nsIEventTarget
 *
@@ -1580,7 +1580,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 activityDistributorActive
 ;
 rv
@@ -2053,7 +2053,7 @@ a
 SSL
 tunnel
 .
-bool
+PRBool
 pruneProxyHeaders
 =
 cinfo
@@ -3262,7 +3262,7 @@ progressMax
 )
 ;
 }
-bool
+PRBool
 nsHttpTransaction
 :
 :
@@ -4243,10 +4243,10 @@ letting
 it
 go
 .
-bool
+PRBool
 connReused
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -4528,10 +4528,10 @@ return
 ;
 }
 }
-bool
+PRBool
 relConn
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -5166,7 +5166,7 @@ char
 buf
 PRUint32
 len
-bool
+PRBool
 aAllowPartialMatch
 )
 {
@@ -5434,10 +5434,10 @@ Truncate
 )
 ;
 }
-bool
+PRBool
 firstByte
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -6952,10 +6952,10 @@ cause
 a
 reset
 .
-bool
+PRBool
 reset
 =
-false
+PR_FALSE
 ;
 mConnection
 -
@@ -8741,7 +8741,7 @@ this
 )
 )
 ;
-bool
+PRBool
 val
 ;
 if

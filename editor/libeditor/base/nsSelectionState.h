@@ -705,12 +705,12 @@ nsISelection
 aSel
 )
 ;
-bool
+PRBool
 IsCollapsed
 (
 )
 ;
-bool
+PRBool
 IsEqual
 (
 nsSelectionState
@@ -723,7 +723,7 @@ MakeEmpty
 (
 )
 ;
-bool
+PRBool
 IsEmpty
 (
 )
@@ -1060,7 +1060,7 @@ nsRangeStore
 >
 mArray
 ;
-bool
+PRBool
 mLock
 ;
 }

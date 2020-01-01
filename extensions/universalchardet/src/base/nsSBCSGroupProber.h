@@ -528,7 +528,7 @@ mProbers
 NUM_OF_SBCS_PROBERS
 ]
 ;
-bool
+PRBool
 mIsActive
 [
 NUM_OF_SBCS_PROBERS

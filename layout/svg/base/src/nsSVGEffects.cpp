@@ -808,7 +808,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 :
@@ -950,7 +950,7 @@ GetObserverList
 target
 )
 ;
-bool
+PRBool
 inObserverList
 =
 observerList
@@ -1079,7 +1079,7 @@ GetReferencedFrame
 nsIAtom
 *
 aFrameType
-bool
+PRBool
 *
 aOK
 )
@@ -1979,7 +1979,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 {
@@ -2004,7 +2004,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 {
@@ -2029,7 +2029,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 {
@@ -2054,7 +2054,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 {
@@ -2094,7 +2094,7 @@ nsIURI
 *
 nsIFrame
 *
-bool
+PRBool
 )
 )
 {
@@ -2316,7 +2316,7 @@ nsIURI
 *
 nsIFrame
 *
-bool
+PRBool
 )
 )
 {
@@ -2419,7 +2419,7 @@ if
 prop
 )
 {
-bool
+PRBool
 watchImage
 =
 aProperty
@@ -2608,7 +2608,7 @@ EffectProperties
 :
 GetClipPathFrame
 (
-bool
+PRBool
 *
 aOK
 )
@@ -2681,7 +2681,7 @@ EffectProperties
 :
 GetMaskFrame
 (
-bool
+PRBool
 *
 aOK
 )

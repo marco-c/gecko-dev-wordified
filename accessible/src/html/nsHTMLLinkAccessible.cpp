@@ -1453,7 +1453,7 @@ nsnull
 /
 Protected
 members
-bool
+PRBool
 nsHTMLLinkAccessible
 :
 :

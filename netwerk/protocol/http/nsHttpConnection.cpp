@@ -1641,7 +1641,7 @@ ProxyStartSSL
 )
 ;
 }
-bool
+PRBool
 nsHttpConnection
 :
 :
@@ -1649,7 +1649,7 @@ CanReuse
 (
 )
 {
-bool
+PRBool
 canReuse
 =
 IsKeepAlive
@@ -1863,7 +1863,7 @@ return
 tmp
 ;
 }
-bool
+PRBool
 nsHttpConnection
 :
 :
@@ -1879,7 +1879,7 @@ mSocketTransport
 return
 PR_FALSE
 ;
-bool
+PRBool
 alive
 ;
 nsresult
@@ -1949,7 +1949,7 @@ return
 alive
 ;
 }
-bool
+PRBool
 nsHttpConnection
 :
 :
@@ -2630,7 +2630,7 @@ requestHead
 nsHttpResponseHead
 *
 responseHead
-bool
+PRBool
 *
 reset
 )
@@ -3664,7 +3664,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHttpConnection
 :
 :
@@ -4902,10 +4902,10 @@ rv
 PRUint32
 n
 ;
-bool
+PRBool
 again
 =
-true
+PR_TRUE
 ;
 do
 {
@@ -5584,10 +5584,10 @@ rv
 PRUint32
 n
 ;
-bool
+PRBool
 again
 =
-true
+PR_TRUE
 ;
 do
 {

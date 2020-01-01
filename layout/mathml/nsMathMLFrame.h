@@ -552,7 +552,7 @@ nsIMathMLFrame
 -
 -
 virtual
-bool
+PRBool
 IsSpaceLike
 (
 )
@@ -776,7 +776,7 @@ aParenStyleContext
 nsMathMLChar
 *
 aMathMLChar
-bool
+PRBool
 aIsMutableChar
 )
 ;
@@ -1034,10 +1034,10 @@ aFrame
 nsPresentationData
 &
 aPresentationData
-bool
+PRBool
 aClimbTree
 =
-true
+PR_TRUE
 )
 ;
 /
@@ -1127,7 +1127,7 @@ doesn
 t
 exist
 static
-bool
+PRBool
 GetAttribute
 (
 nsIContent
@@ -1166,7 +1166,7 @@ in
 twips
 .
 static
-bool
+PRBool
 ParseNumericValue
 (
 const
@@ -1215,7 +1215,7 @@ aCSSValue
 )
 ;
 static
-bool
+PRBool
 ParseNamedSpaceValue
 (
 nsIFrame

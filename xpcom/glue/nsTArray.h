@@ -1155,7 +1155,7 @@ or
 false
 otherwise
 .
-bool
+PRBool
 IsEmpty
 (
 )
@@ -1300,7 +1300,7 @@ available
 true
 otherwise
 .
-bool
+PRBool
 EnsureCapacity
 (
 size_type
@@ -1590,7 +1590,7 @@ an
 array
 element
 .
-bool
+PRBool
 InsertSlotsAt
 (
 index_type
@@ -1608,7 +1608,7 @@ template
 class
 Allocator
 >
-bool
+PRBool
 SwapArrayElements
 (
 nsTArray_base
@@ -1661,7 +1661,7 @@ Alloc
 &
 mArray
 ;
-bool
+PRBool
 mIsAuto
 ;
 }
@@ -1695,7 +1695,7 @@ built
 in
 buffer
 .
-bool
+PRBool
 EnsureNotUsingAutoArrayBuffer
 (
 size_type
@@ -1719,7 +1719,7 @@ built
 in
 buffer
 .
-bool
+PRBool
 IsAutoArray
 (
 )
@@ -1894,7 +1894,7 @@ store
 its
 elements
 .
-bool
+PRBool
 UsesAutoArrayBuffer
 (
 )
@@ -2415,7 +2415,7 @@ nsDefaultComparator
 {
 public
 :
-bool
+PRBool
 Equals
 (
 const
@@ -2436,7 +2436,7 @@ a
 b
 ;
 }
-bool
+PRBool
 LessThan
 (
 const
@@ -2627,7 +2627,7 @@ otherwise
 /
 /
 /
-bool
+PRBool
 Equals
 (
 const
@@ -2664,7 +2664,7 @@ otherwise
 /
 /
 /
-bool
+PRBool
 LessThan
 (
 const
@@ -4012,7 +4012,7 @@ Item
 class
 Comparator
 >
-bool
+PRBool
 Contains
 (
 const
@@ -4101,7 +4101,7 @@ template
 class
 Item
 >
-bool
+PRBool
 Contains
 (
 const
@@ -5696,7 +5696,7 @@ Item
 class
 Comparator
 >
-bool
+PRBool
 GreatestIndexLtEq
 (
 const
@@ -6036,7 +6036,7 @@ Item
 class
 Comparator
 >
-bool
+PRBool
 GreatestIndexLtEq
 (
 const
@@ -6079,7 +6079,7 @@ template
 class
 Item
 >
-bool
+PRBool
 GreatestIndexLtEq
 (
 const
@@ -6978,7 +6978,7 @@ Item
 class
 Comparator
 >
-bool
+PRBool
 RemoveElement
 (
 const
@@ -7050,7 +7050,7 @@ template
 class
 Item
 >
-bool
+PRBool
 RemoveElement
 (
 const
@@ -7141,7 +7141,7 @@ Item
 class
 Comparator
 >
-bool
+PRBool
 RemoveElementSorted
 (
 const
@@ -7157,7 +7157,7 @@ comp
 index_type
 index
 ;
-bool
+PRBool
 found
 =
 GreatestIndexLtEq
@@ -7197,7 +7197,7 @@ template
 class
 Item
 >
-bool
+PRBool
 RemoveElementSorted
 (
 const
@@ -7246,7 +7246,7 @@ template
 class
 Allocator
 >
-bool
+PRBool
 SwapElements
 (
 nsTArray
@@ -7360,7 +7360,7 @@ ran
 out
 of
 memory
-bool
+PRBool
 SetCapacity
 (
 size_type
@@ -7481,7 +7481,7 @@ than
 the
 old
 .
-bool
+PRBool
 SetLength
 (
 size_type
@@ -7701,7 +7701,7 @@ succeeded
 false
 otherwise
 .
-bool
+PRBool
 EnsureLengthAtLeast
 (
 size_type

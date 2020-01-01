@@ -582,7 +582,7 @@ nsIContent
 interface
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -621,7 +621,7 @@ protected
 nsSVGElement
 overrides
 virtual
-bool
+PRBool
 IsEventName
 (
 nsIAtom
@@ -1081,7 +1081,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGTSpanElement
 :
@@ -1209,7 +1209,7 @@ name
 /
 nsSVGElement
 overrides
-bool
+PRBool
 nsSVGTSpanElement
 :
 :

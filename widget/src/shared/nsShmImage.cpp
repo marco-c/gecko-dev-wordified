@@ -545,12 +545,12 @@ try
 again
 .
 static
-bool
+PRBool
 gShmAvailable
 =
-true
+PR_TRUE
 ;
-bool
+PRBool
 nsShmImage
 :
 :

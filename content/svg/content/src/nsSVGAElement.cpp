@@ -1188,7 +1188,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 {
@@ -1230,9 +1230,9 @@ nsSVGAElement
 :
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
-bool
+PRBool
 aNullParent
 )
 {
@@ -1358,7 +1358,7 @@ nsnull
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGAElement
 :
@@ -1413,7 +1413,7 @@ name
 )
 ;
 }
-bool
+PRBool
 nsSVGAElement
 :
 :
@@ -1422,7 +1422,7 @@ IsFocusable
 PRInt32
 *
 aTabIndex
-bool
+PRBool
 aWithMouse
 )
 {
@@ -1488,7 +1488,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsSVGAElement
 :
 :
@@ -2007,7 +2007,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -2139,7 +2139,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttr
-bool
+PRBool
 aNotify
 )
 {

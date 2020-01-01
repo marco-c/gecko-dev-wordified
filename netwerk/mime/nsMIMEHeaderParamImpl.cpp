@@ -619,7 +619,7 @@ PRUint32
 )
 ;
 static
-bool
+PRBool
 Is7bitNonAsciiString
 (
 const
@@ -653,7 +653,7 @@ char
 const
 char
 *
-bool
+PRBool
 nsACString
 &
 )
@@ -782,7 +782,7 @@ const
 nsACString
 &
 aFallbackCharset
-bool
+PRBool
 aTryLocaleCharset
 char
 *
@@ -1733,10 +1733,10 @@ valueEnd
 =
 0
 ;
-bool
+PRBool
 seenEquals
 =
-false
+PR_FALSE
 ;
 NS_ASSERTION
 (
@@ -1873,10 +1873,10 @@ str
 +
 str
 ;
-bool
+PRBool
 needUnquote
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2233,7 +2233,7 @@ pass
 '
 *
 '
-bool
+PRBool
 needUnescape
 =
 *
@@ -3125,9 +3125,9 @@ const
 char
 *
 aDefaultCharset
-bool
+PRBool
 aOverrideCharset
-bool
+PRBool
 aEatContinuations
 nsACString
 &
@@ -3366,7 +3366,7 @@ const
 char
 *
 aDefaultCharset
-bool
+PRBool
 aOverrideCharset
 nsACString
 &
@@ -4144,7 +4144,7 @@ RFC
 /
 /
 static
-bool
+PRBool
 Is7bitNonAsciiString
 (
 const
@@ -4658,7 +4658,7 @@ non
 ascii
 charset
 .
-bool
+PRBool
 skipCheck
 =
 (
@@ -4923,7 +4923,7 @@ const
 char
 *
 aDefaultCharset
-bool
+PRBool
 aOverrideCharset
 nsACString
 &

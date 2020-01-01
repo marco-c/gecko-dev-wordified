@@ -1228,7 +1228,7 @@ args
 1
 )
 ;
-bool
+PRBool
 accessPointsChanged
 =
 !

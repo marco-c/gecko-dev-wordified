@@ -647,7 +647,7 @@ ChangeMenuItem
 nsMenuFrame
 *
 aMenuItem
-bool
+PRBool
 aSelectFirstItem
 )
 =
@@ -669,7 +669,7 @@ returns
 false
 .
 virtual
-bool
+PRBool
 IsOpen
 (
 )
@@ -693,7 +693,7 @@ returns
 false
 .
 virtual
-bool
+PRBool
 IsActive
 (
 )
@@ -717,7 +717,7 @@ is
 a
 popup
 virtual
-bool
+PRBool
 IsMenuBar
 (
 )
@@ -749,7 +749,7 @@ this
 returns
 false
 virtual
-bool
+PRBool
 IsMenu
 (
 )
@@ -767,7 +767,7 @@ a
 context
 menu
 virtual
-bool
+PRBool
 IsContextMenu
 (
 )
@@ -788,7 +788,7 @@ inactive
 NS_IMETHOD
 SetActive
 (
-bool
+PRBool
 aActiveFlag
 )
 =
@@ -830,7 +830,7 @@ the
 caller
 .
 virtual
-bool
+PRBool
 MenuClosed
 (
 )
@@ -905,14 +905,14 @@ virtual
 void
 LockMenuUntilClosed
 (
-bool
+PRBool
 aLock
 )
 =
 0
 ;
 virtual
-bool
+PRBool
 IsMenuLocked
 (
 )

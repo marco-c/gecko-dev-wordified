@@ -596,7 +596,7 @@ nsISupports
 >
 *
 aState
-bool
+PRBool
 aIsCaseSensitive
 )
 :
@@ -696,7 +696,7 @@ FunctionCall
 aFunction
 )
 ;
-bool
+PRBool
 caseInsensitiveNameTests
 (
 )
@@ -742,7 +742,7 @@ mState
 nsresult
 mLastError
 ;
-bool
+PRBool
 mIsCaseSensitive
 ;
 }
@@ -1653,7 +1653,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsXPathEvaluatorParseContext
 :
 :

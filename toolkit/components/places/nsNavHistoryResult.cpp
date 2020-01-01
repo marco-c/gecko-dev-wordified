@@ -1954,10 +1954,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasTags
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2753,7 +2753,7 @@ nsACString
 aIconURI
 PRUint32
 aContainerType
-bool
+PRBool
 aReadOnly
 const
 nsACString
@@ -2823,7 +2823,7 @@ nsACString
 aIconURI
 PRUint32
 aContainerType
-bool
+PRBool
 aReadOnly
 const
 nsACString
@@ -2991,7 +2991,7 @@ Clear
 )
 ;
 }
-bool
+PRBool
 nsNavHistoryContainerResultNode
 :
 :
@@ -3083,7 +3083,7 @@ nsNavHistoryContainerResultNode
 :
 GetContainerOpen
 (
-bool
+PRBool
 *
 aContainerOpen
 )
@@ -3103,7 +3103,7 @@ nsNavHistoryContainerResultNode
 :
 SetContainerOpen
 (
-bool
+PRBool
 aContainerOpen
 )
 {
@@ -3623,7 +3623,7 @@ nsNavHistoryContainerResultNode
 :
 CloseContainer
 (
-bool
+PRBool
 aSuppressNotifications
 )
 {
@@ -4111,7 +4111,7 @@ nsNavHistoryContainerResultNode
 :
 CancelAsyncOpen
 (
-bool
+PRBool
 aRestart
 )
 {
@@ -4667,7 +4667,7 @@ GetResult
 (
 )
 ;
-bool
+PRBool
 shouldNotify
 =
 result
@@ -4697,10 +4697,10 @@ mAccessCount
 =
 aAccessCountChange
 ;
-bool
+PRBool
 timeChanged
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -4785,7 +4785,7 @@ GetSortType
 (
 )
 ;
-bool
+PRBool
 sortingByVisitCount
 =
 sortMode
@@ -4805,7 +4805,7 @@ nsINavHistoryQueryOptions
 :
 SORT_BY_VISITCOUNT_DESCENDING
 ;
-bool
+PRBool
 sortingByTime
 =
 sortMode
@@ -5503,7 +5503,7 @@ const
 char
 *
 aData
-bool
+PRBool
 *
 aItemExists
 )
@@ -5848,7 +5848,7 @@ resorted
 .
 *
 /
-bool
+PRBool
 nsNavHistoryContainerResultNode
 :
 :
@@ -7226,15 +7226,15 @@ IsEmpty
 0
 )
 ;
-bool
+PRBool
 a_itemAnno
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 b_itemAnno
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -7369,7 +7369,7 @@ annosvc
 0
 )
 ;
-bool
+PRBool
 a_hasAnno
 b_hasAnno
 ;
@@ -8771,7 +8771,7 @@ nsNavHistoryResultNode
 aNode
 PRInt32
 aIndex
-bool
+PRBool
 aIsTemporary
 )
 {
@@ -9049,9 +9049,9 @@ InsertSortedChild
 nsNavHistoryResultNode
 *
 aNode
-bool
+PRBool
 aIsTemporary
-bool
+PRBool
 aIgnoreDuplicates
 )
 {
@@ -9235,7 +9235,7 @@ GetSortingAnnotation
 sortingAnnotation
 )
 ;
-bool
+PRBool
 itemExists
 ;
 PRUint32
@@ -9341,7 +9341,7 @@ otherwise
 .
 *
 /
-bool
+PRBool
 nsNavHistoryContainerResultNode
 :
 :
@@ -10450,7 +10450,7 @@ RemoveChildAt
 (
 PRInt32
 aIndex
-bool
+PRBool
 aIsTemporary
 )
 {
@@ -10721,7 +10721,7 @@ nsNavHistoryContainerResultNode
 :
 RecursiveFindURIs
 (
-bool
+PRBool
 aOnlyOne
 nsNavHistoryContainerResultNode
 *
@@ -10911,11 +10911,11 @@ nsNavHistoryContainerResultNode
 :
 UpdateURIs
 (
-bool
+PRBool
 aRecursive
-bool
+PRBool
 aOnlyOne
-bool
+PRBool
 aUpdateSort
 const
 nsCString
@@ -11575,9 +11575,9 @@ const
 nsACString
 &
 aNewTitle
-bool
+PRBool
 aRecursive
-bool
+PRBool
 aOnlyOne
 )
 {
@@ -11677,7 +11677,7 @@ GetSortType
 (
 )
 ;
-bool
+PRBool
 updateSorting
 =
 (
@@ -11782,7 +11782,7 @@ nsNavHistoryContainerResultNode
 :
 GetHasChildren
 (
-bool
+PRBool
 *
 aHasChildren
 )
@@ -11974,7 +11974,7 @@ PRTime
 aTime
 PRInt64
 aItemId
-bool
+PRBool
 aRecursive
 nsINavHistoryResultNode
 *
@@ -12167,7 +12167,7 @@ nsNavHistoryContainerResultNode
 :
 GetChildrenReadOnly
 (
-bool
+PRBool
 *
 aChildrenReadOnly
 )
@@ -13800,7 +13800,7 @@ unset
 .
 *
 /
-bool
+PRBool
 nsNavHistoryQueryResultNode
 :
 :
@@ -13958,7 +13958,7 @@ always
 expandable
 *
 /
-bool
+PRBool
 nsNavHistoryQueryResultNode
 :
 :
@@ -14352,7 +14352,7 @@ nsNavHistoryQueryResultNode
 :
 GetHasChildren
 (
-bool
+PRBool
 *
 aHasChildren
 )
@@ -16139,7 +16139,7 @@ nsNavHistoryQueryResultNode
 :
 ClearChildren
 (
-bool
+PRBool
 aUnregister
 )
 {
@@ -17314,7 +17314,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasDomain
 ;
 queryHost
@@ -17474,7 +17474,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasIt
 ;
 query
@@ -18147,7 +18147,7 @@ newTitle
 aPageTitle
 )
 ;
-bool
+PRBool
 onlyOneEntry
 =
 (
@@ -18721,7 +18721,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 onlyOneEntry
 =
 (
@@ -19122,7 +19122,7 @@ newFavicon
 aNewValue
 )
 ;
-bool
+PRBool
 onlyOneEntry
 =
 (
@@ -19357,7 +19357,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 onlyOneEntry
 =
 (
@@ -19929,7 +19929,7 @@ const
 nsACString
 &
 aProperty
-bool
+PRBool
 aIsAnnotationProperty
 const
 nsACString
@@ -21254,7 +21254,7 @@ nsNavHistoryFolderResultNode
 :
 GetHasChildren
 (
-bool
+PRBool
 *
 aHasChildren
 )
@@ -21474,7 +21474,7 @@ nsNavHistoryFolderResultNode
 :
 GetChildrenReadOnly
 (
-bool
+PRBool
 *
 aChildrenReadOnly
 )
@@ -23072,7 +23072,7 @@ nsNavHistoryFolderResultNode
 :
 ClearChildren
 (
-bool
+PRBool
 unregister
 )
 {
@@ -23111,7 +23111,7 @@ Clear
 (
 )
 ;
-bool
+PRBool
 needsUnregister
 =
 unregister
@@ -23371,7 +23371,7 @@ false
 .
 *
 /
-bool
+PRBool
 nsNavHistoryFolderResultNode
 :
 :
@@ -23932,7 +23932,7 @@ update
 "
 )
 ;
-bool
+PRBool
 excludeItems
 =
 (
@@ -24102,10 +24102,10 @@ results
 and
 views
 .
-bool
+PRBool
 isQuery
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -24578,7 +24578,7 @@ RESTART_AND_RETURN_IF_ASYNC_PENDING
 (
 )
 ;
-bool
+PRBool
 excludeItems
 =
 (
@@ -24825,7 +24825,7 @@ const
 nsACString
 &
 aProperty
-bool
+PRBool
 aIsAnnotationProperty
 const
 nsACString
@@ -24874,7 +24874,7 @@ NS_ENSURE_STATE
 result
 )
 ;
-bool
+PRBool
 shouldNotify
 =
 !
@@ -25321,7 +25321,7 @@ const
 nsACString
 &
 aProperty
-bool
+PRBool
 aIsAnnotationProperty
 const
 nsACString
@@ -25368,7 +25368,7 @@ mQueryItemId
 1
 )
 {
-bool
+PRBool
 isTitleChange
 =
 aProperty
@@ -25477,7 +25477,7 @@ nsACString
 aParentGUID
 )
 {
-bool
+PRBool
 excludeItems
 =
 (
@@ -27590,7 +27590,7 @@ BookmarkFolderObserversForId
 (
 PRInt64
 aFolderId
-bool
+PRBool
 aCreate
 )
 {
@@ -27881,7 +27881,7 @@ AddObserver
 nsINavHistoryResultObserver
 *
 aObserver
-bool
+PRBool
 aOwnsWeak
 )
 {
@@ -28002,7 +28002,7 @@ nsNavHistoryResult
 :
 GetSuppressNotifications
 (
-bool
+PRBool
 *
 _retval
 )
@@ -28022,7 +28022,7 @@ nsNavHistoryResult
 :
 SetSuppressNotifications
 (
-bool
+PRBool
 aSuppressNotifications
 )
 {
@@ -28835,7 +28835,7 @@ const
 nsACString
 &
 aProperty
-bool
+PRBool
 aIsAnnotationProperty
 const
 nsACString
@@ -29001,7 +29001,7 @@ update
 non
 visible
 items
-bool
+PRBool
 excludeItems
 =
 (
@@ -29493,10 +29493,10 @@ any
 of
 them
 .
-bool
+PRBool
 todayIsMissing
 =
-false
+PR_FALSE
 ;
 PRUint32
 resultType

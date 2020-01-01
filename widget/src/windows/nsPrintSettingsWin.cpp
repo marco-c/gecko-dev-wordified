@@ -1670,7 +1670,7 @@ nsIPrintSettings
 :
 :
 kPrintOddPages
-true
+PR_TRUE
 )
 ;
 ps
@@ -1682,7 +1682,7 @@ nsIPrintSettings
 :
 :
 kPrintEvenPages
-false
+PR_FALSE
 )
 ;
 ps
@@ -1740,7 +1740,7 @@ ps
 >
 SetPrintBGColors
 (
-true
+PR_TRUE
 )
 ;
 ps
@@ -1748,7 +1748,7 @@ ps
 >
 SetPrintBGImages
 (
-true
+PR_TRUE
 )
 ;
 ps
@@ -1931,7 +1931,7 @@ ps
 >
 SetPrintReversed
 (
-true
+PR_TRUE
 )
 ;
 ps
@@ -1939,7 +1939,7 @@ ps
 >
 SetPrintInColor
 (
-true
+PR_TRUE
 )
 ;
 ps
@@ -2001,7 +2001,7 @@ ps
 >
 SetPrintToFile
 (
-true
+PR_TRUE
 )
 ;
 ps

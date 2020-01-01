@@ -1141,7 +1141,7 @@ unit
 |
 namedspace
 )
-bool
+PRBool
 nsMathMLmpaddedFrame
 :
 :
@@ -1332,13 +1332,13 @@ i
 get
 the
 number
-bool
+PRBool
 gotDot
 =
-false
+PR_FALSE
 gotPercent
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2467,7 +2467,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &

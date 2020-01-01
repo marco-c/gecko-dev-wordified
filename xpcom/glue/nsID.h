@@ -557,7 +557,7 @@ not
 *
 /
 inline
-bool
+PRBool
 Equals
 (
 const
@@ -684,7 +684,7 @@ nsID
 *
 /
 NS_COM_GLUE
-bool
+PRBool
 Parse
 (
 const

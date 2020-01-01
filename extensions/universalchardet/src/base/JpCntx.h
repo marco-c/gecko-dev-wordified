@@ -613,7 +613,7 @@ void
 void
 Reset
 (
-bool
+PRBool
 aIsPreferredLanguage
 )
 ;
@@ -623,7 +623,7 @@ SetOpion
 )
 {
 }
-bool
+PRBool
 GotEnoughData
 (
 )
@@ -761,7 +761,7 @@ conclusion
 has
 been
 made
-bool
+PRBool
 mDone
 ;
 }

@@ -742,7 +742,7 @@ const
 nsACString
 &
 aValue
-bool
+PRBool
 aMerge
 )
 ;
@@ -880,7 +880,7 @@ nsHttpResponseHead
 &
 responseHead
 const
-bool
+PRBool
 &
 useResponseHead
 const
@@ -888,11 +888,11 @@ RequestHeaderTuples
 &
 requestHeaders
 const
-bool
+PRBool
 &
 isFromCache
 const
-bool
+PRBool
 &
 cacheEntryAvailable
 const
@@ -1064,10 +1064,10 @@ nsISupports
 >
 mSecurityInfo
 ;
-bool
+PRPackedBool
 mIsFromCache
 ;
-bool
+PRPackedBool
 mCacheEntryAvailable
 ;
 PRUint32
@@ -1157,7 +1157,7 @@ nsHttpResponseHead
 &
 responseHead
 const
-bool
+PRBool
 &
 useResponseHead
 const
@@ -1165,11 +1165,11 @@ RequestHeaderTuples
 &
 requestHeaders
 const
-bool
+PRBool
 &
 isFromCache
 const
-bool
+PRBool
 &
 cacheEntryAvailable
 const

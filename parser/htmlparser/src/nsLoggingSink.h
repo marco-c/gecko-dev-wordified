@@ -510,7 +510,7 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 ;
@@ -630,7 +630,7 @@ IsEnabled
 (
 PRInt32
 aTag
-bool
+PRBool
 *
 aReturn
 )
@@ -674,14 +674,14 @@ NS_OK
 }
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsFormOnStack
 (
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 NS_IMETHOD
@@ -737,10 +737,10 @@ SetOutputStream
 PRFileDesc
 *
 aStream
-bool
+PRBool
 autoDelete
 =
-false
+PR_FALSE
 )
 ;
 nsresult
@@ -808,7 +808,7 @@ char
 aResult
 )
 ;
-bool
+PRBool
 WillWriteAttributes
 (
 const
@@ -830,7 +830,7 @@ nsIHTMLContentSink
 *
 mSink
 ;
-bool
+PRBool
 mAutoDeleteOutput
 ;
 nsIParser

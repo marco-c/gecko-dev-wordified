@@ -696,7 +696,7 @@ aDtorFunc
 void
 *
 aDtorData
-bool
+PRBool
 aTransfer
 )
 NS_HIDDEN
@@ -726,7 +726,7 @@ property
 value
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 DeletePropertyFor
 (
@@ -755,7 +755,7 @@ Destroy
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 Equals
 (
@@ -813,7 +813,7 @@ to
 pass
 to
 dtor
-bool
+PRPackedBool
 mTransfer
 ;
 /
@@ -1168,7 +1168,7 @@ aObject
 nsIAtom
 *
 aPropertyName
-bool
+PRBool
 aRemove
 nsresult
 *
@@ -1325,7 +1325,7 @@ aPropDtorFunc
 void
 *
 aPropDtorData
-bool
+PRBool
 aTransfer
 void
 *
@@ -1853,7 +1853,7 @@ aDtorFunc
 void
 *
 aDtorData
-bool
+PRBool
 aTransfer
 )
 :
@@ -2036,7 +2036,7 @@ nsnull
 )
 ;
 }
-bool
+PRBool
 nsPropertyTable
 :
 :

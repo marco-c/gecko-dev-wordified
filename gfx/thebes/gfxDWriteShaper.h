@@ -491,7 +491,7 @@ gfxDWriteShaper
 ;
 }
 virtual
-bool
+PRBool
 InitTextRun
 (
 gfxContext

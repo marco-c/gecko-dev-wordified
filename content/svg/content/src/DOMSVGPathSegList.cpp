@@ -558,7 +558,7 @@ aList
 nsSVGElement
 *
 aElement
-bool
+PRBool
 aIsAnimValList
 )
 {
@@ -1845,7 +1845,7 @@ error
 )
 ;
 }
-bool
+PRBool
 DOMSVGPathSegList
 :
 :
@@ -3148,7 +3148,7 @@ ToSVGPathSegEncodedData
 segAsRaw
 )
 ;
-bool
+PRBool
 ok
 =
 !

@@ -504,7 +504,7 @@ gfxMatrix
 aMatrix
 )
 ;
-bool
+PRBool
 ClipHitTest
 (
 nsIFrame
@@ -560,12 +560,12 @@ mask
 based
 clipping
 .
-bool
+PRBool
 IsTrivial
 (
 )
 ;
-bool
+PRBool
 IsValid
 (
 )
@@ -797,7 +797,7 @@ mClipParentMatrix
 recursion
 prevention
 flag
-bool
+PRPackedBool
 mInUse
 ;
 /

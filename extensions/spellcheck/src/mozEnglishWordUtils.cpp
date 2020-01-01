@@ -1087,7 +1087,7 @@ This
 needs
 vast
 improvement
-bool
+PRBool
 mozEnglishWordUtils
 :
 :

@@ -704,7 +704,7 @@ bool
 RecvNotifyIMEFocus
 (
 const
-bool
+PRBool
 &
 aFocus
 nsIMEUpdatePreference
@@ -766,7 +766,7 @@ bool
 RecvEndIMEComposition
 (
 const
-bool
+PRBool
 &
 aCancel
 nsString
@@ -809,7 +809,7 @@ virtual
 bool
 RecvGetIMEOpenState
 (
-bool
+PRBool
 *
 aValue
 )
@@ -819,7 +819,7 @@ bool
 RecvSetIMEOpenState
 (
 const
-bool
+PRBool
 &
 aValue
 )
@@ -993,7 +993,7 @@ PRInt32
 aClickCount
 PRInt32
 aModifiers
-bool
+PRBool
 aIgnoreRootScrollFrame
 )
 ;
@@ -1010,7 +1010,7 @@ PRInt32
 aCharCode
 PRInt32
 aModifiers
-bool
+PRBool
 aPreventDefault
 )
 ;
@@ -1209,7 +1209,7 @@ const
 nsString
 &
 aMessage
-bool
+PRBool
 aSync
 const
 nsString
@@ -1315,12 +1315,12 @@ DelayedDialogData
 >
 mDelayedDialogs
 ;
-bool
+PRBool
 ShouldDelayDialogs
 (
 )
 ;
-bool
+PRBool
 AllowContentIME
 (
 )
@@ -1360,10 +1360,10 @@ mIMESelectionAnchor
 PRUint32
 mIMESelectionFocus
 ;
-bool
+PRPackedBool
 mIMEComposing
 ;
-bool
+PRPackedBool
 mIMECompositionEnding
 ;
 /

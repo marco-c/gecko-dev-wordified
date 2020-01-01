@@ -519,7 +519,7 @@ nsStyleContext
 )
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32
@@ -647,14 +647,14 @@ virtual
 void
 SetFocus
 (
-bool
+PRBool
 aOn
 =
-true
-bool
+PR_TRUE
+PRBool
 aRepaint
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -698,7 +698,7 @@ RegUnRegAccessKey
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aDoReg
 )
 ;
@@ -980,7 +980,7 @@ removed
 void
 GetCurrentCheckState
 (
-bool
+PRBool
 *
 aState
 )

@@ -1073,7 +1073,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1115,7 +1115,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1157,7 +1157,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1199,7 +1199,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1244,7 +1244,7 @@ statep
 jsid
 *
 idp
-bool
+PRBool
 *
 _retval
 )
@@ -1281,7 +1281,7 @@ cx
 JSObject
 *
 obj
-bool
+PRBool
 *
 _retval
 )
@@ -1326,7 +1326,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -1368,7 +1368,7 @@ type
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1446,7 +1446,7 @@ mode
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1491,7 +1491,7 @@ argv
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1536,7 +1536,7 @@ argv
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1577,10 +1577,10 @@ const
 jsval
 &
 val
-bool
+PRBool
 *
 bp
-bool
+PRBool
 *
 _retval
 )
@@ -1655,7 +1655,7 @@ const
 jsval
 &
 val
-bool
+PRBool
 *
 bp
 )

@@ -585,7 +585,7 @@ aContext
 nsresult
 RegUnregAccessKey
 (
-bool
+PRBool
 aDoReg
 )
 ;

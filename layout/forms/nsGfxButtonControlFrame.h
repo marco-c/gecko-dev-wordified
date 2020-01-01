@@ -640,7 +640,7 @@ aModType
 )
 ;
 virtual
-bool
+PRBool
 IsLeaf
 (
 )
@@ -671,7 +671,7 @@ nsXPIDLString
 aLabel
 )
 ;
-bool
+PRBool
 IsFileBrowseButton
 (
 PRInt32
@@ -686,13 +686,13 @@ of
 file
 input
 virtual
-bool
+PRBool
 IsInput
 (
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 private

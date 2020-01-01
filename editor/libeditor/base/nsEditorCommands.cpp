@@ -532,7 +532,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -558,11 +558,11 @@ if
 editor
 )
 {
-bool
+PRBool
 isEnabled
 isEditable
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -694,7 +694,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -729,7 +729,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -755,11 +755,11 @@ if
 editor
 )
 {
-bool
+PRBool
 isEnabled
 isEditable
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -891,7 +891,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -926,7 +926,7 @@ aCommandName
 nsISupports
 *
 refCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -1091,7 +1091,7 @@ NS_ENSURE_ARG_POINTER
 aParams
 )
 ;
-bool
+PRBool
 enabled
 ;
 nsresult
@@ -1135,7 +1135,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -1161,10 +1161,10 @@ if
 editor
 )
 {
-bool
+PRBool
 isEditable
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -1293,7 +1293,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -1328,7 +1328,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -1433,7 +1433,7 @@ rv
 selection
 )
 {
-bool
+PRBool
 isCollapsed
 ;
 rv
@@ -1527,7 +1527,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -1562,7 +1562,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -1588,10 +1588,10 @@ if
 editor
 )
 {
-bool
+PRBool
 isEditable
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -1720,7 +1720,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -1755,7 +1755,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -1860,7 +1860,7 @@ rv
 selection
 )
 {
-bool
+PRBool
 isCollapsed
 ;
 rv
@@ -1954,7 +1954,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -1989,7 +1989,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2015,10 +2015,10 @@ if
 editor
 )
 {
-bool
+PRBool
 isEditable
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -2154,7 +2154,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -2189,7 +2189,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2215,10 +2215,10 @@ if
 editor
 )
 {
-bool
+PRBool
 isEditable
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -2449,7 +2449,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-bool
+PRBool
 canPaste
 ;
 nsresult
@@ -2495,7 +2495,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2623,10 +2623,10 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canSwitchTextDirection
 =
-true
+PR_TRUE
 ;
 IsCommandEnabled
 (
@@ -2660,7 +2660,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2701,10 +2701,10 @@ editor
 NS_OK
 )
 ;
-bool
+PRBool
 isEditable
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -3130,7 +3130,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -3165,7 +3165,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3185,7 +3185,7 @@ outCmdEnabled
 =
 PR_FALSE
 ;
-bool
+PRBool
 docIsEmpty
 selectionIsEditable
 ;
@@ -3358,7 +3358,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -3393,7 +3393,7 @@ aCommandName
 nsISupports
 *
 aCommandRefCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4402,7 +4402,7 @@ nsISupports
 aCommandRefCon
 )
 {
-bool
+PRBool
 canUndo
 ;
 IsCommandEnabled
@@ -4437,7 +4437,7 @@ aCommandName
 nsISupports
 *
 refCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4614,10 +4614,10 @@ NS_ENSURE_ARG_POINTER
 aParams
 )
 ;
-bool
+PRBool
 outCmdEnabled
 =
-false
+PR_FALSE
 ;
 IsCommandEnabled
 (
@@ -4651,7 +4651,7 @@ aCommandName
 nsISupports
 *
 refCon
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4867,10 +4867,10 @@ if
 editor
 )
 {
-bool
+PRBool
 enabled
 =
-false
+PR_FALSE
 ;
 editor
 -

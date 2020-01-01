@@ -1135,7 +1135,7 @@ key
 ;
 }
 static
-bool
+PRBool
 MatchEntry
 (
 PLDHashTable
@@ -1344,7 +1344,7 @@ key
 ;
 }
 static
-bool
+PRBool
 MatchEntry
 (
 PLDHashTable
@@ -1549,7 +1549,7 @@ key
 ;
 }
 static
-bool
+PRBool
 MatchEntry
 (
 PLDHashTable
@@ -1810,7 +1810,7 @@ h32
 ;
 }
 static
-bool
+PRBool
 MatchEntry
 (
 PLDHashTable
@@ -2057,7 +2057,7 @@ EqualsNode
 nsIRDFNode
 *
 aNode
-bool
+PRBool
 *
 aEquals
 )
@@ -2373,7 +2373,7 @@ h
 ;
 }
 static
-bool
+PRBool
 MatchEntry
 (
 PLDHashTable
@@ -3092,7 +3092,7 @@ EqualsNode
 nsIRDFNode
 *
 aNode
-bool
+PRBool
 *
 aResult
 )
@@ -3383,7 +3383,7 @@ EqualsDate
 nsIRDFDate
 *
 date
-bool
+PRBool
 *
 result
 )
@@ -3592,7 +3592,7 @@ EqualsNode
 nsIRDFNode
 *
 node
-bool
+PRBool
 *
 result
 )
@@ -3701,7 +3701,7 @@ EqualsDate
 nsIRDFDate
 *
 date
-bool
+PRBool
 *
 result
 )
@@ -3892,7 +3892,7 @@ EqualsInt
 nsIRDFInt
 *
 value
-bool
+PRBool
 *
 result
 )
@@ -4100,7 +4100,7 @@ EqualsNode
 nsIRDFNode
 *
 node
-bool
+PRBool
 *
 result
 )
@@ -4209,7 +4209,7 @@ EqualsInt
 nsIRDFInt
 *
 intValue
-bool
+PRBool
 *
 result
 )
@@ -5053,7 +5053,7 @@ xyz
 ;
 static
 inline
-bool
+PRBool
 IsLegalSchemeCharacter
 (
 const
@@ -5083,7 +5083,7 @@ aChar
 )
 ;
 return
-bool
+PRBool
 (
 (
 mask
@@ -6625,7 +6625,7 @@ IsAnonymousResource
 nsIRDFResource
 *
 aResource
-bool
+PRBool
 *
 _result
 )
@@ -6785,7 +6785,7 @@ RegisterResource
 nsIRDFResource
 *
 aResource
-bool
+PRBool
 aReplace
 )
 {
@@ -7292,7 +7292,7 @@ RegisterDataSource
 nsIRDFDataSource
 *
 aDataSource
-bool
+PRBool
 aReplace
 )
 {
@@ -7878,7 +7878,7 @@ const
 char
 *
 aURI
-bool
+PRBool
 aBlock
 nsIRDFDataSource
 *

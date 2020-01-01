@@ -460,7 +460,7 @@ h
 namespace
 TestAtoms
 {
-bool
+PRBool
 test_basic
 (
 )
@@ -652,7 +652,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 test_16vs8
 (
 )
@@ -724,7 +724,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 test_buffersharing
 (
 )
@@ -774,7 +774,7 @@ GetUTF16String
 )
 ;
 }
-bool
+PRBool
 test_null
 (
 )
@@ -891,7 +891,7 @@ strCut
 )
 ;
 }
-bool
+PRBool
 test_invalid
 (
 )
@@ -1271,7 +1271,7 @@ sAtom3
 )
 }
 ;
-bool
+PRBool
 isStaticAtom
 (
 nsIAtom
@@ -1404,7 +1404,7 @@ Release
 )
 ;
 }
-bool
+PRBool
 test_atomtable
 (
 )
@@ -1566,7 +1566,7 @@ atom
 World
 !
 "
-bool
+PRBool
 test_permanent
 (
 )
@@ -1749,7 +1749,7 @@ count
 ;
 }
 typedef
-bool
+PRBool
 (
 *
 TestFunc

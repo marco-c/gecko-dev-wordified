@@ -1918,7 +1918,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 )
@@ -1980,7 +1980,7 @@ aClosure
 )
 )
 ;
-bool
+PRBool
 found
 =
 gFtpHandler
@@ -2105,10 +2105,10 @@ nsnull
 PRUint32
 i
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 for
 (

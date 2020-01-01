@@ -813,7 +813,7 @@ mStatus
 nsLoadFlags
 mLoadFlags
 ;
-bool
+PRBool
 mWasOpened
 ;
 nsCOMPtr
@@ -1127,10 +1127,10 @@ GetScheme
 urlScheme
 )
 ;
-bool
+PRBool
 haveHandler
 =
-false
+PR_FALSE
 ;
 extProtService
 -
@@ -1752,7 +1752,7 @@ nsExtProtocolChannel
 :
 IsPending
 (
-bool
+PRBool
 *
 result
 )
@@ -2094,7 +2094,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 )
@@ -2132,7 +2132,7 @@ and
 false
 otherwise
 .
-bool
+PRBool
 nsExternalProtocolHandler
 :
 :
@@ -2143,10 +2143,10 @@ nsIURI
 aURI
 )
 {
-bool
+PRBool
 haveHandler
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2371,7 +2371,7 @@ uses
 gnome_url_show
 .
 )
-bool
+PRBool
 haveExternalHandler
 =
 HaveExternalProtocolHandler
@@ -2612,7 +2612,7 @@ const
 nsACString
 &
 aScheme
-bool
+PRBool
 *
 _retval
 )

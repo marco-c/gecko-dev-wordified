@@ -1024,7 +1024,7 @@ n
 "
 )
 ;
-bool
+PRBool
 hasMore
 ;
 while

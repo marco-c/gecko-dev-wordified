@@ -537,7 +537,7 @@ mousevents
 NS_IMETHOD
 ShouldRollupOnMouseWheelEvent
 (
-bool
+PRBool
 *
 aShould
 )
@@ -568,7 +568,7 @@ Mouse
 NS_IMETHOD
 ShouldRollupOnMouseActivate
 (
-bool
+PRBool
 *
 aShould
 )

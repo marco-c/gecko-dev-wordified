@@ -1293,10 +1293,10 @@ rv
 =
 NS_OK
 ;
-bool
+PRBool
 processed
 =
-true
+PR_TRUE
 ;
 while
 (

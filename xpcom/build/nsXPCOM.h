@@ -1407,7 +1407,7 @@ const
 nsAString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -1425,7 +1425,7 @@ const
 nsACString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -2421,12 +2421,9 @@ versions
 .
 *
 /
-#
-ifdef
-__cplusplus
 XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorSuspect
 (
@@ -2437,7 +2434,7 @@ n
 ;
 XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorForget
 (
@@ -2460,7 +2457,7 @@ n
 ;
 XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorForget2
 (
@@ -2469,8 +2466,6 @@ nsPurpleBufferEntry
 e
 )
 ;
-#
-endif
 /
 *
 *

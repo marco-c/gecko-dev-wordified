@@ -1270,9 +1270,9 @@ PRInt32
 aSize
 PRInt32
 aCount
-bool
+PRBool
 aOwner
-bool
+PRBool
 aHasAuto
 )
 {
@@ -1392,7 +1392,7 @@ deferred
 GC
 releases
 .
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -1409,14 +1409,14 @@ GetArraySize
 (
 )
 ;
-bool
+PRBool
 isOwner
 =
 IsArrayOwner
 (
 )
 ;
-bool
+PRBool
 hasAuto
 =
 HasAutoBuffer
@@ -1957,7 +1957,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -2617,7 +2617,7 @@ mImpl
 )
 ;
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -2958,7 +2958,7 @@ return
 1
 ;
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -3220,7 +3220,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -3534,7 +3534,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -3898,7 +3898,7 @@ for
 doing
 LRU
 arrays
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -4136,7 +4136,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -4307,7 +4307,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -4736,7 +4736,7 @@ ctx
 ;
 }
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -4755,10 +4755,10 @@ index
 -
 1
 ;
-bool
+PRBool
 running
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -4805,7 +4805,7 @@ return
 running
 ;
 }
-bool
+PRBool
 nsVoidArray
 :
 :
@@ -4818,10 +4818,10 @@ void
 aData
 )
 {
-bool
+PRBool
 running
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -5540,7 +5540,7 @@ return
 }
 #
 endif
-bool
+PRBool
 nsCStringArray
 :
 :
@@ -5593,7 +5593,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsCStringArray
 :
 :
@@ -5647,7 +5647,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsCStringArray
 :
 :
@@ -5689,7 +5689,7 @@ PR_FALSE
 #
 ifdef
 MOZILLA_INTERNAL_API
-bool
+PRBool
 nsCStringArray
 :
 :
@@ -5730,7 +5730,7 @@ PR_FALSE
 }
 #
 endif
-bool
+PRBool
 nsCStringArray
 :
 :
@@ -6041,7 +6041,7 @@ aData
 )
 ;
 }
-bool
+PRBool
 nsCStringArray
 :
 :
@@ -6054,10 +6054,10 @@ void
 aData
 )
 {
-bool
+PRBool
 running
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -6118,7 +6118,7 @@ return
 running
 ;
 }
-bool
+PRBool
 nsCStringArray
 :
 :
@@ -6131,10 +6131,10 @@ void
 aData
 )
 {
-bool
+PRBool
 running
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -6599,7 +6599,7 @@ aPossibleElement
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -6684,7 +6684,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -6816,7 +6816,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -6908,7 +6908,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -6984,7 +6984,7 @@ aElement
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -7036,7 +7036,7 @@ aElement
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -7085,7 +7085,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -7178,7 +7178,7 @@ Clear
 ;
 }
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -7346,7 +7346,7 @@ aData
 ;
 }
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -7392,7 +7392,7 @@ aData
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :
@@ -7438,7 +7438,7 @@ aData
 )
 ;
 }
-bool
+PRBool
 nsSmallVoidArray
 :
 :

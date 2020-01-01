@@ -1382,7 +1382,7 @@ nsITimer
 >
 mTimer
 ;
-bool
+PRBool
 mStartupWriteInitiated
 ;
 static
@@ -1391,7 +1391,7 @@ StartupCache
 gStartupCache
 ;
 static
-bool
+PRBool
 gShutdownInitiated
 ;
 PRThread
@@ -1487,7 +1487,7 @@ NS_FORWARD_SAFE_NSIOUTPUTSTREAM
 (
 mBinaryStream
 )
-bool
+PRBool
 CheckReferences
 (
 nsISupports

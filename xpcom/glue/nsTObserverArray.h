@@ -828,7 +828,7 @@ or
 false
 otherwise
 .
-bool
+PRBool
 IsEmpty
 (
 )
@@ -1141,7 +1141,7 @@ template
 class
 Item
 >
-bool
+PRBool
 Contains
 (
 const
@@ -1330,7 +1330,7 @@ template
 class
 Item
 >
-bool
+PRBool
 PrependElementUnlessExists
 (
 const
@@ -1505,7 +1505,7 @@ template
 class
 Item
 >
-bool
+PRBool
 AppendElementUnlessExists
 (
 const
@@ -1656,7 +1656,7 @@ template
 class
 Item
 >
-bool
+PRBool
 RemoveElement
 (
 const
@@ -2026,7 +2026,7 @@ aArray
 )
 {
 }
-bool
+PRBool
 operator
 <
 (
@@ -2108,7 +2108,7 @@ not
 be
 called
 .
-bool
+PRBool
 HasMore
 (
 )
@@ -2306,7 +2306,7 @@ not
 be
 called
 .
-bool
+PRBool
 HasMore
 (
 )

@@ -861,10 +861,10 @@ nsIStreamListener
 *
 *
 aDocListener
-bool
+PRBool
 aReset
 =
-true
+PR_TRUE
 nsIContentSink
 *
 aSink
@@ -891,7 +891,7 @@ virtual
 void
 OnPageShow
 (
-bool
+PRBool
 aPersisted
 nsIDOMEventTarget
 *
@@ -980,7 +980,7 @@ CreateSyntheticDocument
 nsresult
 CheckOverflowing
 (
-bool
+PRBool
 changeState
 )
 ;
@@ -996,7 +996,7 @@ PRInt32
 aX
 PRInt32
 aY
-bool
+PRBool
 restoreImage
 )
 ;
@@ -1051,13 +1051,13 @@ mImageWidth
 PRInt32
 mImageHeight
 ;
-bool
+PRPackedBool
 mResizeImageByDefault
 ;
-bool
+PRPackedBool
 mClickResizingEnabled
 ;
-bool
+PRPackedBool
 mImageIsOverflowing
 ;
 /
@@ -1071,7 +1071,7 @@ image
 is
 currently
 resized
-bool
+PRPackedBool
 mImageIsResized
 ;
 /
@@ -1112,10 +1112,10 @@ when
 this
 is
 true
-bool
+PRPackedBool
 mShouldResize
 ;
-bool
+PRPackedBool
 mFirstResize
 ;
 /
@@ -1129,7 +1129,7 @@ observer
 is
 set
 .
-bool
+PRPackedBool
 mObservingImageLoader
 ;
 float
@@ -1649,7 +1649,7 @@ nsIStreamListener
 *
 *
 aDocListener
-bool
+PRBool
 aReset
 nsIContentSink
 *
@@ -1693,7 +1693,7 @@ Preferences
 GetBool
 (
 SITE_SPECIFIC_ZOOM
-false
+PR_FALSE
 )
 ?
 1
@@ -2111,7 +2111,7 @@ ImageDocument
 :
 OnPageShow
 (
-bool
+PRBool
 aPersisted
 nsIDOMEventTarget
 *
@@ -2131,7 +2131,7 @@ Preferences
 GetBool
 (
 SITE_SPECIFIC_ZOOM
-false
+PR_FALSE
 )
 ?
 1
@@ -2159,7 +2159,7 @@ ImageDocument
 :
 GetImageResizingEnabled
 (
-bool
+PRBool
 *
 aImageResizingEnabled
 )
@@ -2179,7 +2179,7 @@ ImageDocument
 :
 GetImageIsOverflowing
 (
-bool
+PRBool
 *
 aImageIsOverflowing
 )
@@ -2199,7 +2199,7 @@ ImageDocument
 :
 GetImageIsResized
 (
-bool
+PRBool
 *
 aImageIsResized
 )
@@ -2488,7 +2488,7 @@ PRInt32
 aX
 PRInt32
 aY
-bool
+PRBool
 restoreImage
 )
 {
@@ -3210,7 +3210,7 @@ aEvent
 PRUint32
 charCode
 ;
-bool
+PRBool
 ctrlKey
 metaKey
 altKey
@@ -3805,7 +3805,7 @@ ImageDocument
 :
 CheckOverflowing
 (
-bool
+PRBool
 changeState
 )
 {
@@ -4028,7 +4028,7 @@ height
 )
 ;
 }
-bool
+PRBool
 imageWasOverflowing
 =
 mImageIsOverflowing
@@ -4044,7 +4044,7 @@ mImageHeight
 >
 mVisibleHeight
 ;
-bool
+PRBool
 windowBecameBigEnough
 =
 imageWasOverflowing

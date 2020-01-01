@@ -1299,7 +1299,7 @@ val
 b
 =
 (
-bool
+PRBool
 )
 gprData
 [
@@ -1319,7 +1319,7 @@ b
 *
 (
 (
-bool
+PRBool
 *
 )
 ap

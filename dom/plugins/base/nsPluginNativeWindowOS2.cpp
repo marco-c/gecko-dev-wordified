@@ -993,7 +993,7 @@ mLParam
 ;
 }
 ;
-bool
+PRBool
 InUse
 (
 )
@@ -1258,7 +1258,7 @@ mInst
 >
 PushPopupsEnabledState
 (
-false
+PR_FALSE
 )
 ;
 return
@@ -1537,7 +1537,7 @@ mPluginType
 *
 /
 static
-bool
+PRBool
 ProcessFlashMessageDelayed
 (
 nsPluginNativeWindowOS2
@@ -1618,7 +1618,7 @@ msg
 WM_USER_FLASH
 )
 return
-false
+PR_FALSE
 ;
 /
 /
@@ -1658,11 +1658,11 @@ pwe
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 /
@@ -1975,10 +1975,10 @@ nsPluginType_Other
 }
 }
 }
-bool
+PRBool
 enablePopups
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -2085,7 +2085,7 @@ widget
 >
 CaptureMouse
 (
-true
+PR_TRUE
 )
 ;
 break
@@ -2110,7 +2110,7 @@ WM_BUTTON1UP
 )
 enablePopups
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -2138,7 +2138,7 @@ widget
 >
 CaptureMouse
 (
-false
+PR_FALSE
 )
 ;
 break
@@ -2169,7 +2169,7 @@ break
 ;
 enablePopups
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2576,7 +2576,7 @@ inst
 >
 PushPopupsEnabledState
 (
-true
+PR_TRUE
 )
 ;
 }

@@ -1081,7 +1081,7 @@ testing
 /
 purposes
 .
-bool
+PRBool
 match
 ;
 if
@@ -1292,7 +1292,7 @@ aUpdateErrorCallback
 nsIUrlClassifierCallback
 *
 aDownloadErrorCallback
-bool
+PRBool
 *
 _retval
 )
@@ -2630,10 +2630,10 @@ context
 nsresult
 rv
 ;
-bool
+PRBool
 downloadError
 =
-false
+PR_FALSE
 ;
 nsCAutoString
 strStatus
@@ -2726,10 +2726,10 @@ status
 )
 )
 {
-bool
+PRBool
 succeeded
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -3467,7 +3467,7 @@ const
 nsACString
 &
 targetSite
-bool
+PRBool
 *
 _retval
 )
@@ -3579,7 +3579,7 @@ const
 nsACString
 &
 targetSite
-bool
+PRBool
 *
 _retval
 )

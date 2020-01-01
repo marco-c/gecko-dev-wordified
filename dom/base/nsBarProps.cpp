@@ -607,7 +607,7 @@ nsBarProp
 :
 GetVisibleByFlag
 (
-bool
+PRBool
 *
 aVisible
 PRUint32
@@ -672,7 +672,7 @@ nsBarProp
 :
 SetVisibleByFlag
 (
-bool
+PRBool
 aVisible
 PRUint32
 aChromeFlag
@@ -694,10 +694,10 @@ browserChrome
 NS_OK
 )
 ;
-bool
+PRBool
 enabled
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -883,7 +883,7 @@ nsMenubarProp
 :
 GetVisible
 (
-bool
+PRBool
 *
 aVisible
 )
@@ -908,7 +908,7 @@ nsMenubarProp
 :
 SetVisible
 (
-bool
+PRBool
 aVisible
 )
 {
@@ -966,7 +966,7 @@ nsToolbarProp
 :
 GetVisible
 (
-bool
+PRBool
 *
 aVisible
 )
@@ -991,7 +991,7 @@ nsToolbarProp
 :
 SetVisible
 (
-bool
+PRBool
 aVisible
 )
 {
@@ -1049,7 +1049,7 @@ nsLocationbarProp
 :
 GetVisible
 (
-bool
+PRBool
 *
 aVisible
 )
@@ -1074,7 +1074,7 @@ nsLocationbarProp
 :
 SetVisible
 (
-bool
+PRBool
 aVisible
 )
 {
@@ -1132,7 +1132,7 @@ nsPersonalbarProp
 :
 GetVisible
 (
-bool
+PRBool
 *
 aVisible
 )
@@ -1157,7 +1157,7 @@ nsPersonalbarProp
 :
 SetVisible
 (
-bool
+PRBool
 aVisible
 )
 {
@@ -1215,7 +1215,7 @@ nsStatusbarProp
 :
 GetVisible
 (
-bool
+PRBool
 *
 aVisible
 )
@@ -1240,7 +1240,7 @@ nsStatusbarProp
 :
 SetVisible
 (
-bool
+PRBool
 aVisible
 )
 {
@@ -1298,7 +1298,7 @@ nsScrollbarsProp
 :
 GetVisible
 (
-bool
+PRBool
 *
 aVisible
 )
@@ -1428,14 +1428,14 @@ nsScrollbarsProp
 :
 SetVisible
 (
-bool
+PRBool
 aVisible
 )
 {
-bool
+PRBool
 enabled
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <

@@ -2640,9 +2640,11 @@ false
 JSVersion
 version
 =
-JS_GetVersion
-(
 cx
+-
+>
+findVersion
+(
 )
 ;
 nsCAutoString

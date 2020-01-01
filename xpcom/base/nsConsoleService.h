@@ -575,7 +575,7 @@ least
 once
 ?
 )
-bool
+PRBool
 mFull
 ;
 /
@@ -611,7 +611,7 @@ prevent
 stack
 overflows
 .
-bool
+PRBool
 mListening
 ;
 /

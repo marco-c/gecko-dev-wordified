@@ -522,7 +522,7 @@ effects
 *
 /
 static
-bool
+PRBool
 UsingEffectsForFrame
 (
 const
@@ -763,7 +763,7 @@ aFrame
 *
 /
 static
-bool
+PRBool
 HitTestFrameForEffects
 (
 nsIFrame

@@ -701,7 +701,7 @@ gfxCachedTempSurface
 (
 )
 ;
-bool
+PRBool
 IsSurface
 (
 gfxASurface

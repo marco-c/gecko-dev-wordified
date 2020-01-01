@@ -851,7 +851,7 @@ mWrapperPtrBits
 0
 ;
 }
-bool
+PRBool
 PreservingWrapper
 (
 )
@@ -878,7 +878,7 @@ mWrapperPtrBits
 WRAPPER_IS_PROXY
 ;
 }
-bool
+PRBool
 IsProxy
 (
 )
@@ -909,7 +909,7 @@ nsContentUtils
 void
 SetPreservingWrapper
 (
-bool
+PRBool
 aPreserve
 )
 {

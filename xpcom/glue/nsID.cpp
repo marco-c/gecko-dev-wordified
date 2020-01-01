@@ -879,7 +879,7 @@ and
 .
 *
 /
-bool
+PRBool
 nsID
 :
 :
@@ -908,7 +908,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 expectFormat1
 =
 (

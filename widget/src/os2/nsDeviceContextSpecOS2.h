@@ -761,7 +761,7 @@ aWidget
 nsIPrintSettings
 *
 aPS
-bool
+PRBool
 aIsPrintPreview
 )
 ;
@@ -807,7 +807,7 @@ aPath
 NS_IMETHOD
 GetUserCancelled
 (
-bool
+PRBool
 &
 aCancel
 )
@@ -921,7 +921,7 @@ mPrintSettings
 HDC
 mPrintDC
 ;
-bool
+PRPackedBool
 mPrintingStarted
 ;
 }

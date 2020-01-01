@@ -637,8 +637,6 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
-aFlags
 )
 ;
 private
@@ -1149,8 +1147,6 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
-aFlags
 )
 {
 nsIFrame
@@ -1226,7 +1222,6 @@ svgKid
 GetBBoxContribution
 (
 transform
-aFlags
 )
 ;
 }

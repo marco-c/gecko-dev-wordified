@@ -1685,7 +1685,7 @@ nsSyncStreamListener
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )

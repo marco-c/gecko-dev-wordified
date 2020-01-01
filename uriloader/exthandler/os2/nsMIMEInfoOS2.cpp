@@ -835,10 +835,10 @@ isn
 t
 present
 static
-bool
+PRBool
 sUseRws
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -2052,7 +2052,7 @@ nsMIMEInfoOS2
 :
 GetHasDefaultHandler
 (
-bool
+PRBool
 *
 _retval
 )
@@ -3105,10 +3105,10 @@ channel
 "
 )
 ;
-bool
+PRBool
 replaced
 =
-false
+PR_FALSE
 ;
 if
 (

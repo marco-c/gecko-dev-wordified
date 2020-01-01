@@ -1038,7 +1038,7 @@ on
 OS
 /
 2
-bool
+PRBool
 nsOS2Locale
 :
 :

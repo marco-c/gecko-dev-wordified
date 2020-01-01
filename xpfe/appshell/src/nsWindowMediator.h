@@ -660,10 +660,10 @@ mTopmostWindow
 PRInt32
 mTimeStamp
 ;
-bool
+PRBool
 mSortingZOrder
 ;
-bool
+PRBool
 mReady
 ;
 mozilla

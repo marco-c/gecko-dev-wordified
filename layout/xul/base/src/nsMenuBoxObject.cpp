@@ -571,7 +571,7 @@ nsMenuBoxObject
 :
 OpenMenu
 (
-bool
+PRBool
 aOpenFlag
 )
 {
@@ -838,7 +838,7 @@ HandleKeyPress
 nsIDOMKeyEvent
 *
 aKeyEvent
-bool
+PRBool
 *
 aHandledFlag
 )
@@ -900,10 +900,10 @@ domNSEvent
 return
 NS_OK
 ;
-bool
+PRBool
 eventHandled
 =
-false
+PR_FALSE
 ;
 domNSEvent
 -
@@ -1073,7 +1073,7 @@ nsMenuBoxObject
 :
 GetOpenedWithKey
 (
-bool
+PRBool
 *
 aOpenedWithKey
 )

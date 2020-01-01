@@ -627,7 +627,7 @@ nsnull
 #
 ifdef
 DEBUG
-bool
+PRBool
 found
 =
 #
@@ -769,7 +769,7 @@ return
 #
 ifdef
 DEBUG
-bool
+PRBool
 result
 =
 #

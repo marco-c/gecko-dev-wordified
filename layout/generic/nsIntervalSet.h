@@ -671,7 +671,7 @@ intervals
 ?
 *
 /
-bool
+PRBool
 Intersects
 (
 coord_type
@@ -702,7 +702,7 @@ intervals
 ?
 *
 /
-bool
+PRBool
 Contains
 (
 coord_type
@@ -712,7 +712,7 @@ aEnd
 )
 const
 ;
-bool
+PRBool
 IsEmpty
 (
 )

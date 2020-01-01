@@ -628,7 +628,7 @@ const
 nsACString
 &
 aFileExt
-bool
+PRBool
 *
 aFound
 )
@@ -640,7 +640,7 @@ const
 nsACString
 &
 aScheme
-bool
+PRBool
 *
 found
 nsIHandlerInfo
@@ -673,7 +673,7 @@ const
 char
 *
 aProtocolScheme
-bool
+PRBool
 *
 aHandlerExists
 )
@@ -795,10 +795,10 @@ aLineInputStream
 nsACString
 &
 aBuffer
-bool
+PRBool
 *
 aNetscapeFormat
-bool
+PRBool
 *
 aMore
 )

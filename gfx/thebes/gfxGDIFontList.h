@@ -694,7 +694,7 @@ mFont
 }
 }
 }
-bool
+PRBool
 IsValid
 (
 )
@@ -728,7 +728,7 @@ mFont
 HFONT
 mOldFont
 ;
-bool
+PRBool
 mOwnsFont
 ;
 }
@@ -921,7 +921,7 @@ ReadCMAP
 )
 ;
 virtual
-bool
+PRBool
 IsSymbolFont
 (
 )
@@ -932,13 +932,13 @@ FillLogFont
 LOGFONTW
 *
 aLogFont
-bool
+PRBool
 aItalic
 PRUint16
 aWeight
 gfxFloat
 aSize
-bool
+PRBool
 aUseCleartype
 )
 ;
@@ -1040,7 +1040,7 @@ return
 feType
 ;
 }
-bool
+PRBool
 IsType1
 (
 )
@@ -1055,7 +1055,7 @@ GFX_FONT_TYPE_TYPE1
 )
 ;
 }
-bool
+PRBool
 IsTrueType
 (
 )
@@ -1083,7 +1083,7 @@ GFX_FONT_TYPE_TT_OPENTYPE
 ;
 }
 virtual
-bool
+PRBool
 MatchesGenericFamily
 (
 const
@@ -1308,7 +1308,7 @@ PR_FALSE
 ;
 }
 virtual
-bool
+PRBool
 SupportsLangGroup
 (
 nsIAtom
@@ -1632,7 +1632,7 @@ PR_FALSE
 ;
 }
 virtual
-bool
+PRBool
 SupportsRange
 (
 PRUint8
@@ -1649,7 +1649,7 @@ range
 ;
 }
 virtual
-bool
+PRBool
 SkipDuringSystemFallback
 (
 )
@@ -1670,7 +1670,7 @@ SFNT
 fonts
 }
 virtual
-bool
+PRBool
 TestCharacterMap
 (
 PRUint32
@@ -1701,7 +1701,7 @@ nsAString
 aName
 gfxWindowsFontType
 aFontType
-bool
+PRBool
 aItalic
 PRUint16
 aWeight
@@ -1749,12 +1749,12 @@ mWindowsPitch
 gfxWindowsFontType
 mFontType
 ;
-bool
+PRPackedBool
 mForceGDI
 :
 1
 ;
-bool
+PRPackedBool
 mUnknownCMAP
 :
 1
@@ -1779,7 +1779,7 @@ nsAString
 aFaceName
 gfxWindowsFontType
 aFontType
-bool
+PRBool
 aItalic
 PRUint16
 aWeight
@@ -1810,7 +1810,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
+PRBool
 aNeedsBold
 )
 ;
@@ -1940,7 +1940,7 @@ const
 gfxFontStyle
 *
 aStyle
-bool
+PRBool
 &
 aNeedsBold
 )
@@ -1978,7 +1978,7 @@ aLength
 )
 ;
 virtual
-bool
+PRBool
 ResolveFontName
 (
 const

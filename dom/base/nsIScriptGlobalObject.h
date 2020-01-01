@@ -915,7 +915,7 @@ with
 the
 status
 .
-bool
+PRBool
 NS_HandleScriptError
 (
 nsIScriptGlobalObject
@@ -1341,9 +1341,9 @@ virtual
 void
 SetScriptsEnabled
 (
-bool
+PRBool
 aEnabled
-bool
+PRBool
 aFireTimeouts
 )
 =

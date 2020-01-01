@@ -564,7 +564,7 @@ long
 cookies
 are
 stored
-bool
+PRPackedBool
 mCookiesAlwaysAcceptSession
 ;
 /

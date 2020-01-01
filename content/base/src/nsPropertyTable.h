@@ -1102,10 +1102,10 @@ aDtor
 void
 *
 aDtorData
-bool
+PRBool
 aTransfer
 =
-false
+PR_FALSE
 void
 *
 *
@@ -1556,7 +1556,7 @@ aObject
 nsIAtom
 *
 aPropertyName
-bool
+PRBool
 aRemove
 nsresult
 *
@@ -1582,7 +1582,7 @@ aDtor
 void
 *
 aDtorData
-bool
+PRBool
 aTransfer
 void
 *

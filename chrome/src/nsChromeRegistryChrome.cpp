@@ -870,7 +870,7 @@ crash
 *
 /
 static
-bool
+PRBool
 LanguagesMatch
 (
 const
@@ -1181,10 +1181,10 @@ PackageEntry
 return
 NS_ERROR_FAILURE
 ;
-bool
+PRBool
 safeMode
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1697,7 +1697,7 @@ const
 nsACString
 &
 package
-bool
+PRBool
 *
 aResult
 )
@@ -1999,10 +1999,10 @@ prefs
 nsresult
 rv
 ;
-bool
+PRBool
 matchOSLocale
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -3044,7 +3044,7 @@ PL_DHASH_NEXT
 ;
 }
 static
-bool
+PRBool
 CanLoadResource
 (
 nsIURI
@@ -3052,10 +3052,10 @@ nsIURI
 aResourceURI
 )
 {
-bool
+PRBool
 isLocalResource
 =
-false
+PR_FALSE
 ;
 (
 void
@@ -3354,7 +3354,7 @@ str
 )
 ;
 }
-bool
+PRBool
 nsChromeRegistryChrome
 :
 :
@@ -3452,7 +3452,7 @@ PackageEntry
 )
 ;
 }
-bool
+PRBool
 nsChromeRegistryChrome
 :
 :
@@ -4005,7 +4005,7 @@ i
 -
 )
 {
-bool
+PRBool
 equals
 ;
 if
@@ -5755,10 +5755,10 @@ do_QueryInterface
 ph
 )
 ;
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 rv
 =

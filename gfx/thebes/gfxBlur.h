@@ -1168,7 +1168,7 @@ it
 nsIntRect
 mSkipRect
 ;
-bool
+PRPackedBool
 mHasDirtyRect
 ;
 }

@@ -3057,10 +3057,10 @@ aWeight
 100
 )
 ;
-bool
+PRBool
 negativeStep
 =
-bool
+PRBool
 (
 50
 <
@@ -3145,7 +3145,7 @@ Compare
 two
 language
 strings
-bool
+PRBool
 nsStyleUtil
 :
 :
@@ -3165,7 +3165,7 @@ nsStringComparator
 aComparator
 )
 {
-bool
+PRBool
 result
 ;
 PRUint32
@@ -3815,10 +3815,10 @@ PRUnichar
 in
 ;
 }
-bool
+PRBool
 first
 =
-true
+PR_TRUE
 ;
 for
 (
@@ -4391,7 +4391,7 @@ rounded
 static
 *
 /
-bool
+PRBool
 nsStyleUtil
 :
 :
@@ -4400,9 +4400,9 @@ IsSignificantChild
 nsIContent
 *
 aChild
-bool
+PRBool
 aTextIsSignificant
-bool
+PRBool
 aWhitespaceIsSignificant
 )
 {
@@ -4419,7 +4419,7 @@ arguments
 "
 )
 ;
-bool
+PRBool
 isText
 =
 aChild

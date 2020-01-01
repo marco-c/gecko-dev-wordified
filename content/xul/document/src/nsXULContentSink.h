@@ -581,7 +581,7 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 ;
@@ -688,7 +688,7 @@ mTextLength
 PRInt32
 mTextSize
 ;
-bool
+PRBool
 mConstrainSize
 ;
 nsresult
@@ -834,7 +834,7 @@ aLineNumber
 )
 ;
 static
-bool
+PRBool
 IsDataInBuffer
 (
 PRUnichar
@@ -867,10 +867,10 @@ management
 nsresult
 FlushText
 (
-bool
+PRBool
 aCreateTextNode
 =
-true
+PR_TRUE
 )
 ;
 nsresult

@@ -749,7 +749,7 @@ aPrincipal
 nsIURI
 *
 aBindingDocURI
-bool
+PRBool
 *
 aDidInstall
 )
@@ -873,7 +873,7 @@ compile
 the
 literal
 string
-bool
+PRBool
 undefined
 ;
 nsCOMPtr

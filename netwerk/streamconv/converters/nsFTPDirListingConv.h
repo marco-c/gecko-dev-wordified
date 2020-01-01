@@ -595,7 +595,7 @@ mBuffer
 buffered
 data
 .
-bool
+PRBool
 mSentHeading
 ;
 /

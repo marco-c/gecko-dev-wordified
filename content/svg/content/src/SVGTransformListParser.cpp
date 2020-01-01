@@ -751,7 +751,7 @@ nsIAtom
 *
 *
 aKeyAtom
-bool
+PRBool
 aAdvancePos
 )
 {
@@ -1094,7 +1094,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 SVGTransformListParser
 :
 :

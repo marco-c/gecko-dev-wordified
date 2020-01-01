@@ -562,7 +562,7 @@ nsTableCellMap
 nsTableFrame
 &
 aTableFrame
-bool
+PRBool
 aBorderCollapse
 )
 :
@@ -1816,7 +1816,7 @@ mFirstMap
 nextMap
 ;
 }
-bool
+PRBool
 nsTableCellMap
 :
 :
@@ -2090,7 +2090,7 @@ GetRowCount
 rowIndex
 )
 {
-bool
+PRBool
 zeroColSpan
 ;
 return
@@ -2155,7 +2155,7 @@ aColIndex
 CellData
 &
 aData
-bool
+PRBool
 aUseRowIfOverlap
 )
 const
@@ -2695,7 +2695,7 @@ nsTableRowFrame
 aRows
 PRInt32
 aFirstRowIndex
-bool
+PRBool
 aConsiderSpans
 nsRect
 &
@@ -2982,7 +2982,7 @@ PRInt32
 aFirstRowIndex
 PRInt32
 aNumRowsToRemove
-bool
+PRBool
 aConsiderSpans
 nsRect
 &
@@ -3178,7 +3178,7 @@ nsTableCellFrame
 aCellFrame
 PRInt32
 aRowIndex
-bool
+PRBool
 aRebuildIfNecessary
 nsRect
 &
@@ -3835,7 +3835,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-bool
+PRBool
 aInsert
 nsRect
 &
@@ -4404,10 +4404,10 @@ css
 Side
 side
 ;
-bool
+PRBool
 segStart
 ;
-bool
+PRPackedBool
 bevel
 ;
 PRInt32
@@ -4742,7 +4742,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-bool
+PRBool
 *
 aOriginates
 PRInt32
@@ -5282,7 +5282,7 @@ GetNextSibling
 ;
 }
 }
-bool
+PRBool
 nsTableCellMap
 :
 :
@@ -5358,7 +5358,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsTableCellMap
 :
 :
@@ -5526,7 +5526,7 @@ PRUint32
 aRowIndex
 PRUint32
 aColIndex
-bool
+PRBool
 aIsLowerRight
 )
 {
@@ -5870,7 +5870,7 @@ BCBorderOwner
 aOwner
 nscoord
 aSize
-bool
+PRBool
 aChanged
 )
 {
@@ -5909,7 +5909,7 @@ aRowIndex
 -
 aCellMapStart
 ;
-bool
+PRBool
 changed
 ;
 switch
@@ -6474,9 +6474,9 @@ Side
 aOwner
 nscoord
 aSubSize
-bool
+PRBool
 aBevel
-bool
+PRBool
 aIsBottomRight
 )
 {
@@ -6901,7 +6901,7 @@ nsCellMap
 nsTableRowGroupFrame
 *
 aRowGroup
-bool
+PRBool
 aIsBC
 )
 :
@@ -7106,7 +7106,7 @@ aColIndexIn
 CellData
 &
 aData
-bool
+PRBool
 aUseRowIfOverlap
 )
 const
@@ -7697,7 +7697,7 @@ return
 }
 }
 }
-bool
+PRBool
 nsCellMap
 :
 :
@@ -7883,7 +7883,7 @@ nsTableRowFrame
 aRows
 PRInt32
 aFirstRowIndex
-bool
+PRBool
 aConsiderSpans
 nsRect
 &
@@ -8026,7 +8026,7 @@ being
 inserted
 then
 rebuild
-bool
+PRBool
 spansCauseRebuild
 =
 CellsSpanInOrOut
@@ -8168,7 +8168,7 @@ PRInt32
 aFirstRowIndex
 PRInt32
 aNumRowsToRemove
-bool
+PRBool
 aConsiderSpans
 nsRect
 &
@@ -8304,7 +8304,7 @@ numRows
 1
 ;
 }
-bool
+PRBool
 spansCauseRebuild
 =
 CellsSpanInOrOut
@@ -8361,7 +8361,7 @@ nsTableCellFrame
 aCellFrame
 PRInt32
 aRowIndex
-bool
+PRBool
 aRebuildIfNecessary
 nsRect
 &
@@ -8406,10 +8406,10 @@ GetColCount
 (
 )
 ;
-bool
+PRBool
 zeroRowSpan
 =
-false
+PR_FALSE
 ;
 PRInt32
 rowSpan
@@ -8698,10 +8698,10 @@ startColIndex
 +
 1
 ;
-bool
+PRBool
 zeroColSpan
 =
-false
+PR_FALSE
 ;
 PRInt32
 colSpan
@@ -9685,7 +9685,7 @@ GetRowSpanOffset
 (
 )
 ;
-bool
+PRBool
 zeroSpan
 ;
 PRInt32
@@ -9868,7 +9868,7 @@ cell
 }
 }
 }
-bool
+PRBool
 nsCellMap
 :
 :
@@ -9954,7 +9954,7 @@ if
 cellFrame
 )
 {
-bool
+PRBool
 zeroSpan
 ;
 PRInt32
@@ -10032,7 +10032,7 @@ colspans
 into
 the
 region
-bool
+PRBool
 nsCellMap
 :
 :
@@ -10741,10 +10741,10 @@ or
 table
 sizing
 .
-bool
+PRBool
 spansCauseRebuild
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -10766,10 +10766,10 @@ Length
 (
 )
 ;
-bool
+PRBool
 zeroRowSpan
 =
-false
+PR_FALSE
 ;
 PRInt32
 rowSpan
@@ -11208,7 +11208,7 @@ same
 for
 all
 cells
-bool
+PRBool
 aRowSpanIsZero
 nsRect
 &
@@ -11340,10 +11340,10 @@ for
 the
 new
 cell
-bool
+PRBool
 zeroColSpan
 =
-false
+PR_FALSE
 ;
 PRInt32
 colSpan
@@ -12330,7 +12330,7 @@ GetColSpanForNewCell
 nsTableCellFrame
 &
 aCellFrameToAdd
-bool
+PRBool
 &
 aIsZeroColSpan
 )
@@ -12395,7 +12395,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-bool
+PRBool
 &
 aZeroColSpan
 )
@@ -12460,10 +12460,10 @@ maxCols
 =
 numColsInTable
 ;
-bool
+PRBool
 hitOverlap
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -12475,7 +12475,7 @@ ever
 being
 set
 to
-true
+PR_TRUE
 for
 (
 colX
@@ -12700,7 +12700,7 @@ nsTableCellFrame
 aCellFrameToAdd
 PRInt32
 aRowIndex
-bool
+PRBool
 &
 aIsZeroRowSpan
 )
@@ -12774,7 +12774,7 @@ return
 rowSpan
 ;
 }
-bool
+PRBool
 nsCellMap
 :
 :
@@ -12977,7 +12977,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-bool
+PRBool
 aGetEffective
 )
 const
@@ -13125,7 +13125,7 @@ content
 may
 have
 changed
-bool
+PRBool
 zeroColSpan
 ;
 PRUint32
@@ -14556,7 +14556,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndex
-bool
+PRBool
 aInsert
 nsRect
 &
@@ -15270,7 +15270,7 @@ or
 table
 sizing
 .
-bool
+PRBool
 spansCauseRebuild
 =
 CellsSpanInOrOut
@@ -15554,7 +15554,7 @@ GetColSpan
 (
 )
 ;
-bool
+PRBool
 rowZeroSpan
 =
 (
@@ -15569,7 +15569,7 @@ GetRowSpan
 )
 )
 ;
-bool
+PRBool
 colZeroSpan
 =
 (
@@ -15975,7 +15975,7 @@ nsCellMap
 :
 Dump
 (
-bool
+PRBool
 aIsBorderCollapse
 )
 const
@@ -16357,10 +16357,10 @@ css
 Side
 side
 ;
-bool
+PRBool
 segStart
 ;
-bool
+PRPackedBool
 bevel
 ;
 for
@@ -17057,7 +17057,7 @@ PRInt32
 aRowX
 PRInt32
 aColX
-bool
+PRBool
 *
 aOriginates
 PRInt32
@@ -17160,7 +17160,7 @@ GetColIndex
 initialColIndex
 )
 ;
-bool
+PRBool
 zeroSpan
 ;
 *
@@ -17180,7 +17180,7 @@ return
 cellFrame
 ;
 }
-bool
+PRBool
 nsCellMap
 :
 :
@@ -17321,7 +17321,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsCellMap
 :
 :
@@ -18268,7 +18268,7 @@ mCurMapStart
 +
 mCurMapRow
 ;
-bool
+PRBool
 ignoredZeroSpan
 ;
 *

@@ -698,7 +698,7 @@ aListOfFonts
 )
 ;
 virtual
-bool
+PRBool
 ResolveFontName
 (
 const
@@ -796,12 +796,12 @@ const
 gfxFontStyle
 *
 aStyle
-bool
+PRBool
 &
 aNeedsBold
 )
 ;
-bool
+PRBool
 GetPrefFontFamilyEntries
 (
 eFontPrefLang
@@ -872,7 +872,7 @@ nsAString
 aPostscriptName
 )
 ;
-bool
+PRBool
 NeedFullnamePostscriptNames
 (
 )
@@ -908,7 +908,7 @@ const
 gfxFontStyle
 *
 aStyle
-bool
+PRBool
 &
 aNeedsBold
 )
@@ -1018,7 +1018,7 @@ eg
 Mac
 )
 virtual
-bool
+PRBool
 GetStandardFamilyName
 (
 const
@@ -1034,10 +1034,10 @@ protected
 :
 gfxPlatformFontList
 (
-bool
+PRBool
 aNeedFullnamePostscriptNames
 =
-true
+PR_TRUE
 )
 ;
 static
@@ -1246,7 +1246,7 @@ InitLoader
 )
 ;
 virtual
-bool
+PRBool
 RunLoader
 (
 )
@@ -1337,7 +1337,7 @@ first
 name
 lookup
 miss
-bool
+PRPackedBool
 mOtherFamilyNamesInitialized
 ;
 /
@@ -1352,7 +1352,7 @@ name
 lists
 are
 populated
-bool
+PRPackedBool
 mFaceNamesInitialized
 ;
 /
@@ -1365,7 +1365,7 @@ for
 a
 given
 platform
-bool
+PRPackedBool
 mNeedFullnamePostscriptNames
 ;
 /

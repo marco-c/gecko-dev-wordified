@@ -787,7 +787,7 @@ DOMSVGPathSegList
 aList
 PRUint32
 aListIndex
-bool
+PRBool
 aIsAnimValItem
 )
 ;
@@ -826,7 +826,7 @@ Clone
 =
 0
 ;
-bool
+PRBool
 IsInList
 (
 )
@@ -866,7 +866,7 @@ IsInList
 .
 *
 /
-bool
+PRBool
 HasOwner
 (
 )
@@ -989,7 +989,7 @@ DOMSVGPathSegList
 aList
 PRUint32
 aListIndex
-bool
+PRBool
 aIsAnimValItem
 )
 ;
@@ -1235,7 +1235,7 @@ DOMSVGPathSegList
 aList
 PRUint32
 aListIndex
-bool
+PRBool
 aIsAnimValItem
 )
 ;
@@ -1440,7 +1440,7 @@ PtrToMemberArgs
 #
 ifdef
 DEBUG
-bool
+PRBool
 IndexIsValid
 (
 )
@@ -1639,9 +1639,9 @@ float
 r2
 float
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 )
 ;
@@ -1659,9 +1659,9 @@ float
 r2
 float
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 )
 ;

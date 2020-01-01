@@ -850,7 +850,7 @@ call
 ClearFreeList
 (
 )
-bool
+PRBool
 mTouched
 ;
 #
@@ -987,10 +987,10 @@ Malloc
 (
 PRSize
 size
-bool
+PRBool
 zeroit
 =
-false
+PR_FALSE
 )
 ;
 void

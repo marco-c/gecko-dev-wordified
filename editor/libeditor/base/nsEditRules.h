@@ -765,10 +765,10 @@ aSelection
 nsRulesInfo
 *
 aInfo
-bool
+PRBool
 *
 aCancel
-bool
+PRBool
 *
 aHandled
 )
@@ -793,7 +793,7 @@ aResult
 NS_IMETHOD
 DocumentIsEmpty
 (
-bool
+PRBool
 *
 aDocumentIsEmpty
 )

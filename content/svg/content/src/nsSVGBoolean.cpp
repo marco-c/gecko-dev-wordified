@@ -515,7 +515,7 @@ const
 nsAString
 &
 aValueAsString
-bool
+PRBool
 *
 aValue
 )
@@ -579,11 +579,11 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 {
-bool
+PRBool
 val
 ;
 nsresult
@@ -719,7 +719,7 @@ nsSVGBoolean
 :
 SetBaseValue
 (
-bool
+PRBool
 aValue
 nsSVGElement
 *
@@ -801,7 +801,7 @@ nsSVGBoolean
 :
 SetAnimValue
 (
-bool
+PRBool
 aValue
 nsSVGElement
 *
@@ -917,13 +917,13 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )
 const
 {
-bool
+PRBool
 value
 ;
 nsresult

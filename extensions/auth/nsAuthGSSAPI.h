@@ -730,7 +730,7 @@ mServiceFlags
 nsString
 mUsername
 ;
-bool
+PRBool
 mComplete
 ;
 }

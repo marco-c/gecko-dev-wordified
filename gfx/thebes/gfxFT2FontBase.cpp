@@ -1519,7 +1519,7 @@ PRUint8
 >
 buffer
 ;
-bool
+PRBool
 haveTable
 =
 gfxFT2LockedFace
@@ -1658,7 +1658,7 @@ x_advance
 )
 ;
 }
-bool
+PRBool
 gfxFT2FontBase
 :
 :

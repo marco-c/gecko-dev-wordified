@@ -2422,7 +2422,7 @@ margin
 )
 ;
 }
-bool
+PRBool
 b
 ;
 nsAutoString
@@ -2567,7 +2567,7 @@ double
 width
 height
 ;
-bool
+PRBool
 success
 =
 GETINTPREF
@@ -4402,7 +4402,7 @@ name
 ;
 }
 }
-bool
+PRBool
 b
 ;
 PRUnichar
@@ -5645,7 +5645,7 @@ aPrinter
 nsIPrintSettings
 *
 aPrintSettings
-bool
+PRBool
 *
 aDisplayed
 )
@@ -6020,12 +6020,12 @@ rv
 )
 )
 {
-bool
+PRBool
 isValid
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 hasMore
 ;
 while
@@ -6203,7 +6203,7 @@ match
 }
 #
 endif
-bool
+PRBool
 isInitialized
 ;
 aPrintSettings
@@ -6350,7 +6350,7 @@ GetAdjustedPrinterName
 nsIPrintSettings
 *
 aPS
-bool
+PRBool
 aUsePNP
 nsAString
 &
@@ -6663,7 +6663,7 @@ InitPrintSettingsFromPrefs
 nsIPrintSettings
 *
 aPS
-bool
+PRBool
 aUsePNP
 PRUint32
 aFlags
@@ -6674,7 +6674,7 @@ NS_ENSURE_ARG_POINTER
 aPS
 )
 ;
-bool
+PRBool
 isInitialized
 ;
 aPS
@@ -6863,7 +6863,7 @@ SavePrintSettingsToPrefs
 nsIPrintSettings
 *
 aPS
-bool
+PRBool
 aUsePrinterNamePrefix
 PRUint32
 aFlags

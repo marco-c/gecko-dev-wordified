@@ -869,7 +869,7 @@ Operator
 Dictionary
 .
 static
-bool
+PRBool
 LookupOperator
 (
 const
@@ -1016,7 +1016,7 @@ stretchy
 or
 largeop
 static
-bool
+PRBool
 IsMutableOperator
 (
 const

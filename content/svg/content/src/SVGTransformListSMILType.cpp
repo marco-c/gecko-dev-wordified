@@ -781,7 +781,7 @@ we
 have
 sufficient
 memory
-bool
+PRBool
 result
 =
 dstTransforms
@@ -813,7 +813,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 SVGTransformListSMILType
 :
 :
@@ -2892,7 +2892,7 @@ NS_ERROR_OUT_OF_MEMORY
 /
 /
 static
-bool
+PRBool
 SVGTransformListSMILType
 :
 :
@@ -3026,7 +3026,7 @@ PR_TRUE
 /
 /
 static
-bool
+PRBool
 SVGTransformListSMILType
 :
 :

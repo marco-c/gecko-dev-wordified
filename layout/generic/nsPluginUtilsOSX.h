@@ -592,7 +592,7 @@ has
 main
 status
 .
-bool
+PRBool
 NS_NPAPI_CocoaWindowIsMain
 (
 void

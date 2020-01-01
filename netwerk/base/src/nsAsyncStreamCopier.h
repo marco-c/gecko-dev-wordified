@@ -632,7 +632,7 @@ called
 on
 any
 thread
-bool
+PRBool
 IsComplete
 (
 nsresult
@@ -711,13 +711,13 @@ mChunkSize
 nsresult
 mStatus
 ;
-bool
+PRPackedBool
 mIsPending
 ;
-bool
+PRPackedBool
 mCloseSource
 ;
-bool
+PRPackedBool
 mCloseSink
 ;
 }

@@ -1304,7 +1304,7 @@ deviceID
 nsICacheDeviceInfo
 *
 deviceInfo
-bool
+PRBool
 *
 visitEntries
 )
@@ -2118,7 +2118,7 @@ deviceID
 nsICacheEntryInfo
 *
 entryInfo
-bool
+PRBool
 *
 visitNext
 )
@@ -2150,7 +2150,7 @@ key
 nsXPIDLCString
 clientID
 ;
-bool
+PRBool
 streamBased
 ;
 rv

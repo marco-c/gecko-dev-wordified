@@ -1067,7 +1067,7 @@ nsnull
 ;
 }
 static
-bool
+PRBool
 HasOpaqueAncestorLayer
 (
 Layer
@@ -1156,7 +1156,7 @@ GetEffectiveOpacity
 (
 )
 ;
-bool
+PRBool
 useIntermediate
 =
 UseIntermediateSurface
@@ -1415,7 +1415,7 @@ if
 mSupportsComponentAlphaChildren
 )
 {
-bool
+PRBool
 is2d
 =
 transform3D

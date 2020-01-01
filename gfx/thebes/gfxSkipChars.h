@@ -786,7 +786,7 @@ DoChars
 (
 PRUint32
 aChars
-bool
+PRBool
 aSkipped
 )
 {
@@ -828,7 +828,7 @@ mRunCharCount
 aChars
 ;
 }
-bool
+PRBool
 IsOK
 (
 )
@@ -849,7 +849,7 @@ mCharCount
 mRunCharCount
 ;
 }
-bool
+PRBool
 GetAllCharsKept
 (
 )
@@ -919,7 +919,7 @@ mCharCount
 PRUint32
 mRunCharCount
 ;
-bool
+PRPackedBool
 mRunSkipped
 ;
 /
@@ -933,7 +933,7 @@ Length
 )
 &
 1
-bool
+PRPackedBool
 mInErrorState
 ;
 }
@@ -1742,7 +1742,7 @@ usable
 .
 *
 /
-bool
+PRBool
 IsInitialized
 (
 )
@@ -1977,7 +1977,7 @@ zero
 .
 *
 /
-bool
+PRBool
 IsOriginalCharSkipped
 (
 PRInt32
@@ -2156,7 +2156,7 @@ SetOffsets
 (
 PRUint32
 aOffset
-bool
+PRBool
 aInOriginalString
 )
 ;

@@ -679,7 +679,7 @@ exception
 was
 set
 .
-bool
+PRBool
 ResolveAllFields
 (
 JSContext
@@ -728,7 +728,7 @@ obj
 )
 const
 ;
-bool
+PRBool
 CompiledMembers
 (
 )

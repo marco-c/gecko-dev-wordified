@@ -554,7 +554,7 @@ aWidget
 nsIPrintSettings
 *
 aPS
-bool
+PRBool
 aIsPrintPreview
 )
 ;

@@ -628,10 +628,6 @@ sGfxLogLevel
 {
 printf
 (
-"
-%
-s
-"
 aString
 .
 c_str

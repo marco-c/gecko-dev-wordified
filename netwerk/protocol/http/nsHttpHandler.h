@@ -801,11 +801,11 @@ nsHttpHeaderArray
 *
 PRUint8
 capabilities
-bool
+PRBool
 useProxy
 )
 ;
-bool
+PRBool
 IsAcceptableEncoding
 (
 const
@@ -848,7 +848,7 @@ return
 mReferrerLevel
 ;
 }
-bool
+PRBool
 SendSecureXSiteReferrer
 (
 )
@@ -944,7 +944,7 @@ return
 mIdleSynTimeout
 ;
 }
-bool
+PRBool
 FastFallbackToIPv4
 (
 )
@@ -953,7 +953,7 @@ return
 mFastFallbackToIPv4
 ;
 }
-bool
+PRBool
 IsPersistentHttpsCachingEnabled
 (
 )
@@ -962,7 +962,7 @@ return
 mEnablePersistentHttpsCaching
 ;
 }
-bool
+PRBool
 PromptTempRedirect
 (
 )
@@ -1320,7 +1320,7 @@ private
 browsing
 mode
 .
-bool
+PRBool
 InPrivateBrowsingMode
 (
 )
@@ -1745,7 +1745,7 @@ mProxyCapabilities
 PRUint8
 mReferrerLevel
 ;
-bool
+PRPackedBool
 mFastFallbackToIPv4
 ;
 PRUint16
@@ -1842,7 +1842,7 @@ mPhishyUserPassLength
 PRUint8
 mQoSBits
 ;
-bool
+PRPackedBool
 mPipeliningOverSSL
 ;
 /
@@ -1937,7 +1937,7 @@ mUserAgent
 nsXPIDLCString
 mUserAgentOverride
 ;
-bool
+PRPackedBool
 mUserAgentIsDirty
 ;
 /
@@ -1948,10 +1948,10 @@ mUserAgent
 should
 be
 rebuilt
-bool
+PRPackedBool
 mUseCache
 ;
-bool
+PRPackedBool
 mPromptTempRedirect
 ;
 /
@@ -1974,7 +1974,7 @@ non
 -
 matching
 hosts
-bool
+PRPackedBool
 mSendSecureXSiteReferrer
 ;
 /
@@ -1983,7 +1983,7 @@ Persistent
 HTTPS
 caching
 flag
-bool
+PRPackedBool
 mEnablePersistentHttpsCaching
 ;
 /
@@ -1996,7 +1996,7 @@ to
 not
 be
 tracked
-bool
+PRPackedBool
 mDoNotTrackEnabled
 ;
 }

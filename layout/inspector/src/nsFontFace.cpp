@@ -637,7 +637,7 @@ nsFontFace
 :
 GetFromFontGroup
 (
-bool
+PRBool
 *
 aFromFontGroup
 )
@@ -676,7 +676,7 @@ nsFontFace
 :
 GetFromLanguagePrefs
 (
-bool
+PRBool
 *
 aFromLanguagePrefs
 )
@@ -715,7 +715,7 @@ nsFontFace
 :
 GetFromSystemFallback
 (
-bool
+PRBool
 *
 aFromSystemFallback
 )

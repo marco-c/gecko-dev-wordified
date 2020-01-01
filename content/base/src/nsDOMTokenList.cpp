@@ -743,7 +743,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsDOMTokenList
 :
 :
@@ -801,7 +801,7 @@ const
 nsAString
 &
 aToken
-bool
+PRBool
 *
 aResult
 )
@@ -1094,10 +1094,10 @@ iter
 nsAutoString
 output
 ;
-bool
+PRBool
 lastTokenRemoved
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1462,7 +1462,7 @@ const
 nsAString
 &
 aToken
-bool
+PRBool
 *
 aResult
 )

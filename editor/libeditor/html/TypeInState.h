@@ -950,10 +950,10 @@ outRelSize
 nsresult
 GetTypingState
 (
-bool
+PRBool
 &
 isSet
-bool
+PRBool
 &
 theSetting
 nsIAtom
@@ -964,10 +964,10 @@ aProp
 nsresult
 GetTypingState
 (
-bool
+PRBool
 &
 isSet
-bool
+PRBool
 &
 theSetting
 nsIAtom
@@ -982,10 +982,10 @@ aAttr
 nsresult
 GetTypingState
 (
-bool
+PRBool
 &
 isSet
-bool
+PRBool
 &
 theSetting
 nsIAtom
@@ -1001,7 +1001,7 @@ outValue
 )
 ;
 static
-bool
+PRBool
 FindPropInList
 (
 nsIAtom
@@ -1052,7 +1052,7 @@ nsString
 aAttr
 )
 ;
-bool
+PRBool
 IsPropSet
 (
 nsIAtom
@@ -1067,7 +1067,7 @@ nsString
 outValue
 )
 ;
-bool
+PRBool
 IsPropSet
 (
 nsIAtom
@@ -1085,7 +1085,7 @@ PRInt32
 outIndex
 )
 ;
-bool
+PRBool
 IsPropCleared
 (
 nsIAtom
@@ -1097,7 +1097,7 @@ nsString
 aAttr
 )
 ;
-bool
+PRBool
 IsPropCleared
 (
 nsIAtom

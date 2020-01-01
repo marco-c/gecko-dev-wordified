@@ -782,10 +782,10 @@ change
 ;
 }
 }
-bool
+PRBool
 cleared
 =
-false
+PR_FALSE
 ;
 if
 (

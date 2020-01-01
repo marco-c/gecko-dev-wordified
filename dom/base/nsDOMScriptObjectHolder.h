@@ -678,7 +678,7 @@ return
 this
 ;
 }
-bool
+PRBool
 operator
 !
 (

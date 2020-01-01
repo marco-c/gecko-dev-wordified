@@ -998,7 +998,7 @@ const
 nsAString
 &
 aAnonClass
-bool
+PRBool
 aIsCreatedHidden
 nsIDOMElement
 *
@@ -1387,7 +1387,7 @@ aEvent
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
 nsIDOMElement
 *
@@ -2607,10 +2607,10 @@ first
 .
 .
 .
-bool
+PRBool
 isPositioned
 =
-false
+PR_FALSE
 ;
 nsresult
 res

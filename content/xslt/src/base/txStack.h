@@ -724,7 +724,7 @@ stack
 *
 /
 inline
-bool
+PRBool
 isEmpty
 (
 )
@@ -852,7 +852,7 @@ return
 *
 /
 inline
-bool
+PRBool
 hasNext
 (
 )

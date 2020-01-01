@@ -735,7 +735,7 @@ NotifyListener
 (
 )
 ;
-bool
+PRBool
 IsOnCacheIOThread
 (
 )
@@ -743,13 +743,13 @@ IsOnCacheIOThread
 nsresult
 mStatus
 ;
-bool
+PRPackedBool
 mIsPending
 ;
-bool
+PRPackedBool
 mCharsetAndSourceSet
 ;
-bool
+PRPackedBool
 mNeedToWriteCharset
 ;
 PRInt32

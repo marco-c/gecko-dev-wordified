@@ -691,7 +691,7 @@ nsSAXXMLReader
 :
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 {
@@ -1692,7 +1692,7 @@ aSourceText
 nsIScriptError
 *
 aError
-bool
+PRBool
 *
 _retval
 )
@@ -2036,7 +2036,7 @@ const
 nsAString
 &
 aName
-bool
+PRBool
 aValue
 )
 {
@@ -2054,7 +2054,7 @@ const
 nsAString
 &
 aName
-bool
+PRBool
 *
 aResult
 )
@@ -2135,7 +2135,7 @@ const
 nsAString
 &
 aName
-bool
+PRBool
 *
 aResult
 )
@@ -3023,7 +3023,7 @@ from
 nsDocument
 .
 cpp
-bool
+PRBool
 nsSAXXMLReader
 :
 :

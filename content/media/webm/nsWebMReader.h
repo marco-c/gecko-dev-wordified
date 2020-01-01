@@ -988,7 +988,7 @@ ResetDecode
 )
 ;
 virtual
-bool
+PRBool
 DecodeAudioData
 (
 )
@@ -1032,10 +1032,10 @@ time
 info
 .
 virtual
-bool
+PRBool
 DecodeVideoFrame
 (
-bool
+PRBool
 &
 aKeyframeSkip
 PRInt64
@@ -1043,7 +1043,7 @@ aTimeThreshold
 )
 ;
 virtual
-bool
+PRBool
 HasAudio
 (
 )
@@ -1071,7 +1071,7 @@ mHasAudio
 ;
 }
 virtual
-bool
+PRBool
 HasVideo
 (
 )
@@ -1257,9 +1257,9 @@ char
 aData
 size_t
 aLength
-bool
+PRBool
 aBOS
-bool
+PRBool
 aEOS
 PRInt64
 aGranulepos
@@ -1287,7 +1287,7 @@ audio
 queue
 .
 Returns
-true
+PR_TRUE
 when
 there
 '
@@ -1298,7 +1298,7 @@ to
 decode
 /
 /
-false
+PR_FALSE
 if
 the
 audio
@@ -1355,7 +1355,7 @@ packet
 after
 calling
 .
-bool
+PRBool
 DecodeAudioPacket
 (
 nestegg_packet
@@ -1516,7 +1516,7 @@ of
 the
 first
 audio
-frame
+sample
 we
 '
 ve
@@ -1529,8 +1529,7 @@ mAudioStartUsec
 /
 Number
 of
-audio
-frames
+samples
 we
 '
 ve
@@ -1542,7 +1541,7 @@ at
 mAudioStartMs
 .
 PRUint64
-mAudioFrames
+mAudioSamples
 ;
 /
 /
@@ -1635,10 +1634,10 @@ and
 or
 video
 data
-bool
+PRPackedBool
 mHasVideo
 ;
-bool
+PRPackedBool
 mHasAudio
 ;
 }

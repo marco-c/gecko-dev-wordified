@@ -3435,7 +3435,7 @@ mDBStatement
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-bool
+PRBool
 ret
 ;
 nsresult
@@ -3471,7 +3471,7 @@ Statement
 :
 ExecuteStep
 (
-bool
+PRBool
 *
 _moreResults
 )
@@ -4879,7 +4879,7 @@ GetIsNull
 (
 PRUint32
 aIndex
-bool
+PRBool
 *
 _isNull
 )

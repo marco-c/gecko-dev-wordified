@@ -805,7 +805,7 @@ char
 *
 *
 aResponse
-bool
+PRBool
 *
 aSucceeded
 )
@@ -918,7 +918,7 @@ char
 *
 *
 aResponse
-bool
+PRBool
 *
 aSucceeded
 )

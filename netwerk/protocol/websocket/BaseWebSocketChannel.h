@@ -688,7 +688,7 @@ mProtocol
 nsCString
 mOrigin
 ;
-bool
+PRBool
 mEncrypted
 ;
 nsCString

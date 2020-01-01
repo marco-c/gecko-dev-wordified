@@ -1023,7 +1023,7 @@ nsCacheEntryDescriptor
 :
 IsStreamBased
 (
-bool
+PRBool
 *
 result
 )
@@ -1788,10 +1788,10 @@ policy
 against
 session
 ?
-bool
+PRBool
 storageEnabled
 =
-false
+PR_FALSE
 ;
 storageEnabled
 =
@@ -2835,7 +2835,7 @@ nsInputStreamWrapper
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )
@@ -3549,7 +3549,7 @@ nsOutputStreamWrapper
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )

@@ -511,7 +511,7 @@ nsnull
 )
 mUserCancelled
 (
-false
+PR_FALSE
 )
 {
 mDataTransfer
@@ -734,7 +734,7 @@ fEsc
 {
 mUserCancelled
 =
-true
+PR_TRUE
 ;
 return
 DRAGDROP_S_CANCEL

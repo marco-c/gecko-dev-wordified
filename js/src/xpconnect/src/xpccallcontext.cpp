@@ -1836,10 +1836,10 @@ cleanup
 .
 .
 .
-bool
+PRBool
 shouldReleaseXPC
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2719,7 +2719,7 @@ NS_OK
 /
 *
 attribute
-bool
+PRBool
 ReturnValueWasSet
 ;
 *
@@ -2730,7 +2730,7 @@ XPCCallContext
 :
 GetReturnValueWasSet
 (
-bool
+PRBool
 *
 aReturnValueWasSet
 )
@@ -2750,7 +2750,7 @@ XPCCallContext
 :
 SetReturnValueWasSet
 (
-bool
+PRBool
 aReturnValueWasSet
 )
 {

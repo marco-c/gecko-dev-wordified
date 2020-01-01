@@ -707,7 +707,7 @@ const
 nsSubstring
 &
 aData
-bool
+PRBool
 aDOE
 )
 =
@@ -1081,7 +1081,7 @@ const
 nsSubstring
 &
 aData
-bool
+PRBool
 aDOE
 )
 ;

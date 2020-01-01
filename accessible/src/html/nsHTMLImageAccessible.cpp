@@ -914,7 +914,7 @@ if
 imgContainer
 )
 {
-bool
+PRBool
 animated
 ;
 imgContainer
@@ -954,7 +954,7 @@ nsAString
 aName
 )
 {
-bool
+PRBool
 hasAltAttrib
 =
 mContent
@@ -1756,7 +1756,7 @@ NS_OK
 /
 Private
 methods
-bool
+PRBool
 nsHTMLImageAccessible
 :
 :
@@ -1787,7 +1787,7 @@ longdesc
 )
 ;
 }
-bool
+PRBool
 nsHTMLImageAccessible
 :
 :

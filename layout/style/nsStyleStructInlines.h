@@ -535,7 +535,7 @@ mBorderImage
 ;
 }
 inline
-bool
+PRBool
 nsStyleBorder
 :
 :

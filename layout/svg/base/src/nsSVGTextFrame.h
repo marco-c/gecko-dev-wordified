@@ -693,8 +693,6 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
-aFlags
 )
 ;
 /
@@ -826,7 +824,7 @@ NS_STATE_NONDISPLAY_CHILD
 void
 UpdateGlyphPositioning
 (
-bool
+PRBool
 aForceGlobalTransform
 )
 ;
@@ -854,7 +852,7 @@ suspended
 UpdateState
 mMetricsState
 ;
-bool
+PRPackedBool
 mPositioningDirty
 ;
 }

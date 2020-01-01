@@ -483,7 +483,7 @@ PRIntervalTime
 ifdef
 CALL_SAFETY_ON
 extern
-bool
+PRBool
 gSkipPluginSafeCalls
 ;
 #
@@ -586,7 +586,7 @@ fun
 \
 MOZ_SEH_EXCEPT
 (
-true
+PR_TRUE
 )
 \
 {
@@ -707,7 +707,7 @@ fun
 \
 MOZ_SEH_EXCEPT
 (
-true
+PR_TRUE
 )
 \
 {

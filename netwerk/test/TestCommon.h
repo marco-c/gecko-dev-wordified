@@ -504,10 +504,10 @@ return
 -
 -
 static
-bool
+PRBool
 gKeepPumpingEvents
 =
-false
+PR_FALSE
 ;
 class
 nsQuitPumpingEvent

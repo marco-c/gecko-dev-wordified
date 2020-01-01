@@ -540,7 +540,7 @@ virtual
 nsresult
 GetModifiedText
 (
-bool
+PRBool
 aGetInsertedText
 nsAString
 &

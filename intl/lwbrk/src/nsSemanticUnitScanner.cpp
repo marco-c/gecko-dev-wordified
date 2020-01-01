@@ -553,7 +553,7 @@ PRInt32
 length
 PRInt32
 pos
-bool
+PRBool
 isLastBuffer
 PRInt32
 *
@@ -561,7 +561,7 @@ begin
 PRInt32
 *
 end
-bool
+PRBool
 *
 _retval
 )

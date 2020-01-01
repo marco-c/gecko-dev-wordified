@@ -600,7 +600,7 @@ nsIRDFContainer
 aResult
 )
 ;
-bool
+PRBool
 IsA
 (
 nsIRDFDataSource
@@ -882,7 +882,7 @@ IsOrdinalProperty
 nsIRDFResource
 *
 aProperty
-bool
+PRBool
 *
 _retval
 )
@@ -1366,7 +1366,7 @@ aDataSource
 nsIRDFResource
 *
 aResource
-bool
+PRBool
 *
 _retval
 )
@@ -1487,7 +1487,7 @@ aDataSource
 nsIRDFResource
 *
 aResource
-bool
+PRBool
 *
 _retval
 )
@@ -1641,7 +1641,7 @@ aDataSource
 nsIRDFResource
 *
 aResource
-bool
+PRBool
 *
 _retval
 )
@@ -1732,7 +1732,7 @@ aDataSource
 nsIRDFResource
 *
 aResource
-bool
+PRBool
 *
 _retval
 )
@@ -1823,7 +1823,7 @@ aDataSource
 nsIRDFResource
 *
 aResource
-bool
+PRBool
 *
 _retval
 )
@@ -2473,7 +2473,7 @@ do
 it
 again
 .
-bool
+PRBool
 isContainer
 ;
 rv
@@ -2600,7 +2600,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 RDFContainerUtilsImpl
 :
 :
@@ -2647,7 +2647,7 @@ PR_FALSE
 nsresult
 rv
 ;
-bool
+PRBool
 result
 ;
 rv
@@ -2811,10 +2811,10 @@ while
 1
 )
 {
-bool
+PRBool
 hasMoreArcs
 =
-false
+PR_FALSE
 ;
 arcsIn
 -
@@ -2874,7 +2874,7 @@ property
 )
 continue
 ;
-bool
+PRBool
 isOrdinal
 ;
 IsOrdinalProperty
@@ -2923,10 +2923,10 @@ while
 1
 )
 {
-bool
+PRBool
 hasMoreSources
 =
-false
+PR_FALSE
 ;
 sources
 -

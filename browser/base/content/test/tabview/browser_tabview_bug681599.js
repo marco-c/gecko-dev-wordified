@@ -95,9 +95,7 @@ ok
 (
 cw
 .
-Search
-.
-isEnabled
+isSearchEnabled
 (
 )
 "
@@ -130,9 +128,7 @@ ok
 !
 cw
 .
-Search
-.
-isEnabled
+isSearchEnabled
 (
 )
 "

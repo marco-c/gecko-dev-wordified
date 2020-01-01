@@ -451,7 +451,7 @@ flags
 NS_HTML5ELEMENT_NAME_GROUP_MASK
 ;
 }
-bool
+PRBool
 nsHtml5StackNode
 :
 :
@@ -467,7 +467,7 @@ NS_HTML5ELEMENT_NAME_SCOPING
 )
 ;
 }
-bool
+PRBool
 nsHtml5StackNode
 :
 :
@@ -483,7 +483,7 @@ NS_HTML5ELEMENT_NAME_SPECIAL
 )
 ;
 }
-bool
+PRBool
 nsHtml5StackNode
 :
 :
@@ -499,7 +499,7 @@ NS_HTML5ELEMENT_NAME_FOSTER_PARENTING
 )
 ;
 }
-bool
+PRBool
 nsHtml5StackNode
 :
 :
@@ -835,7 +835,7 @@ node
 nsIAtom
 *
 popName
-bool
+PRBool
 markAsIntegrationPoint
 )
 :
@@ -943,7 +943,7 @@ prepareMathFlags
 (
 PRInt32
 flags
-bool
+PRBool
 markAsIntegrationPoint
 )
 {

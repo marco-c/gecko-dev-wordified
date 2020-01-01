@@ -763,7 +763,7 @@ NS_ERROR_OUT_OF_MEMORY
 \
 }
 \
-bool
+PRBool
 Contains
 (
 const

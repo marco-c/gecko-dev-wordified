@@ -932,7 +932,7 @@ nsACString
 _retval
 )
 ;
-bool
+PRBool
 FillStatCache
 (
 )

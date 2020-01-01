@@ -851,9 +851,9 @@ PRInt32
 aXPos
 PRInt32
 aYPos
-bool
+PRBool
 aIsContextMenu
-bool
+PRBool
 aAttributesOverride
 nsIDOMEvent
 *
@@ -922,7 +922,7 @@ PRInt32
 aXPos
 PRInt32
 aYPos
-bool
+PRBool
 aIsContextMenu
 nsIDOMEvent
 *
@@ -1087,7 +1087,7 @@ nsPopupBoxObject
 :
 GetAutoPosition
 (
-bool
+PRBool
 *
 aShouldAutoPosition
 )
@@ -1126,7 +1126,7 @@ nsPopupBoxObject
 :
 SetAutoPosition
 (
-bool
+PRBool
 aShouldAutoPosition
 )
 {
@@ -1162,7 +1162,7 @@ nsPopupBoxObject
 :
 EnableRollup
 (
-bool
+PRBool
 aShouldRollup
 )
 {
@@ -1218,7 +1218,7 @@ nsPopupBoxObject
 :
 EnableKeyboardNavigator
 (
-bool
+PRBool
 aEnableKeyboardNavigator
 )
 {

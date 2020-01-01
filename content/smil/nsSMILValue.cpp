@@ -688,7 +688,7 @@ return
 this
 ;
 }
-bool
+PRBool
 nsSMILValue
 :
 :

@@ -536,7 +536,7 @@ nsObserverService
 void
 )
 ;
-bool
+PRBool
 mShuttingDown
 ;
 nsTHashtable

@@ -602,7 +602,7 @@ txList
 *
 /
 inline
-bool
+PRBool
 isEmpty
 (
 )

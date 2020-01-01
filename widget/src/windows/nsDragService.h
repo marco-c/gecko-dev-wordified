@@ -538,7 +538,7 @@ const
 char
 *
 aDataFlavor
-bool
+PRBool
 *
 _retval
 )
@@ -546,7 +546,7 @@ _retval
 NS_IMETHOD
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 ;
@@ -621,7 +621,7 @@ private
 /
 /
 collections
-bool
+PRBool
 IsCollectionObject
 (
 IDataObject
@@ -647,7 +647,7 @@ bitmap
 for
 drag
 operations
-bool
+PRBool
 CreateDragImage
 (
 nsIDOMNode
@@ -673,7 +673,7 @@ IDataObject
 *
 mDataObject
 ;
-bool
+PRPackedBool
 mSentLocalDropEvent
 ;
 }

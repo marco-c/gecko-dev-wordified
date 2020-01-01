@@ -600,7 +600,7 @@ state
 void
 Reset
 (
-bool
+PRBool
 aIsPreferredLanguage
 )
 {
@@ -678,7 +678,7 @@ of
 data
 is
 enough
-bool
+PRBool
 GotEnoughData
 (
 )
@@ -764,7 +764,7 @@ conclusion
 has
 been
 made
-bool
+PRBool
 mDone
 ;
 /

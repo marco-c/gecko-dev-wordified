@@ -1177,7 +1177,7 @@ const
 nsACString
 &
 aElementName
-bool
+PRBool
 *
 _exists
 )
@@ -1368,7 +1368,7 @@ mDBMutex
 .
 *
 /
-bool
+PRBool
 mTransactionInProgress
 ;
 /

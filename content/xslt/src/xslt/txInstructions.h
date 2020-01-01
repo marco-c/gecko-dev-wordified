@@ -972,12 +972,12 @@ public
 :
 txMessage
 (
-bool
+PRBool
 aTerminate
 )
 ;
 TX_DECL_TXINSTRUCTION
-bool
+PRBool
 mTerminate
 ;
 }
@@ -1260,12 +1260,12 @@ public
 :
 txPushStringHandler
 (
-bool
+PRBool
 aOnlyText
 )
 ;
 TX_DECL_TXINSTRUCTION
-bool
+PRBool
 mOnlyText
 ;
 }
@@ -1473,7 +1473,7 @@ const
 nsAString
 &
 aStr
-bool
+PRBool
 aDOE
 )
 ;
@@ -1481,7 +1481,7 @@ TX_DECL_TXINSTRUCTION
 nsString
 mStr
 ;
-bool
+PRBool
 mDOE
 ;
 }
@@ -1501,7 +1501,7 @@ nsAutoPtr
 Expr
 >
 aExpr
-bool
+PRBool
 aDOE
 )
 ;
@@ -1512,7 +1512,7 @@ Expr
 >
 mExpr
 ;
-bool
+PRBool
 mDOE
 ;
 }

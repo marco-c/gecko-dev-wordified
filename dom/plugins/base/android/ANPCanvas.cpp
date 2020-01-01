@@ -556,6 +556,9 @@ bitmap
 format
 =
 =
+ANPBitmapFormats
+:
+:
 kRGBA_8888_ANPBitmapFormat
 )
 {
@@ -585,6 +588,9 @@ bitmap
 format
 =
 =
+ANPBitmapFormats
+:
+:
 kRGB_565_ANPBitmapFormat
 )
 {

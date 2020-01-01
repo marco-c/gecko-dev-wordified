@@ -649,7 +649,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -751,7 +751,7 @@ Init
 ;
 protected
 :
-bool
+PRBool
 mDirty
 ;
 /

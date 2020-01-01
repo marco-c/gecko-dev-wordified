@@ -638,7 +638,7 @@ nsISHEntry
 >
 mChildren
 ;
-bool
+PRPackedBool
 mURIWasModified
 ;
 nsCOMPtr

@@ -588,6 +588,12 @@ NativeRole
 )
 ;
 virtual
+PRUint64
+NativeState
+(
+)
+;
+virtual
 nsresult
 GetAttributesInternal
 (
@@ -616,7 +622,7 @@ InvalidateChildren
 )
 ;
 virtual
-bool
+PRBool
 AppendChild
 (
 nsAccessible
@@ -625,7 +631,7 @@ aAccessible
 )
 ;
 virtual
-bool
+PRBool
 RemoveChild
 (
 nsAccessible

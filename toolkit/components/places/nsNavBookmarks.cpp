@@ -2029,7 +2029,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-bool
+PRBool
 exists
 ;
 nsresult
@@ -4297,7 +4297,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 haveNullGuids
 ;
 rv
@@ -4386,7 +4386,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 while
@@ -5056,7 +5056,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsNavBookmarks
 :
 :
@@ -5187,7 +5187,7 @@ a
 livemark
 item
 .
-bool
+PRBool
 isBookmark
 ;
 rv
@@ -5257,7 +5257,7 @@ IsBookmarkedInDatabase
 (
 PRInt64
 aPlaceId
-bool
+PRBool
 *
 aIsBookmarked
 )
@@ -6064,7 +6064,7 @@ lastInsertIdStmt
 mDBGetLastBookmarkID
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -7509,7 +7509,7 @@ GetFolderReadonly
 (
 PRInt64
 aFolder
-bool
+PRBool
 *
 aResult
 )
@@ -7573,7 +7573,7 @@ SetFolderReadonly
 (
 PRInt64
 aFolder
-bool
+PRBool
 aReadOnly
 )
 {
@@ -7634,7 +7634,7 @@ rv
 }
 else
 {
-bool
+PRBool
 hasAnno
 ;
 rv
@@ -7702,7 +7702,7 @@ const
 nsAString
 &
 aContractId
-bool
+PRBool
 aIsBookmarkFolder
 PRInt32
 *
@@ -8235,7 +8235,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 found
 ;
 rv
@@ -8414,7 +8414,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 found
 ;
 rv
@@ -8627,7 +8627,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasMore
 ;
 while
@@ -8815,7 +8815,7 @@ type
 TYPE_FOLDER
 )
 {
-bool
+PRBool
 isNull
 ;
 rv
@@ -10972,7 +10972,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -11023,7 +11023,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 isNull
 ;
 rv
@@ -12280,10 +12280,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasMore
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -13042,7 +13042,7 @@ index
 -
 1
 ;
-bool
+PRBool
 hasResult
 ;
 while
@@ -13369,7 +13369,7 @@ only
 skip
 it
 .
-bool
+PRBool
 readOnly
 ;
 if
@@ -13734,7 +13734,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -13793,7 +13793,7 @@ doesn
 t
 exist
 .
-bool
+PRBool
 isNull
 ;
 rv
@@ -13900,7 +13900,7 @@ IsBookmarked
 nsIURI
 *
 aURI
-bool
+PRBool
 *
 aBookmarked
 )
@@ -14137,7 +14137,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasBookmarkedOrigin
 ;
 if
@@ -14695,7 +14695,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 more
 ;
 while
@@ -14871,7 +14871,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 more
 ;
 nsAutoString
@@ -16255,10 +16255,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasMore
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -16626,7 +16626,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasMore
 ;
 while
@@ -16816,7 +16816,7 @@ AddObserver
 nsINavBookmarkObserver
 *
 aObserver
-bool
+PRBool
 aOwnsWeak
 )
 {
@@ -17801,7 +17801,7 @@ or
 to
 folder
 URIs
-bool
+PRBool
 isPlaceURI
 ;
 rv

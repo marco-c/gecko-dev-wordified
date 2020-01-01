@@ -1372,7 +1372,7 @@ aProperty
 ;
 static
 inline
-bool
+PRBool
 IsShorthand
 (
 nsCSSProperty
@@ -1578,7 +1578,7 @@ of
 the
 propertyID
 static
-bool
+PRBool
 GetColorName
 (
 PRInt32
@@ -1625,7 +1625,7 @@ aValue
 |
 .
 static
-bool
+PRBool
 FindKeyword
 (
 nsCSSKeyword
@@ -1759,7 +1759,7 @@ public
 :
 static
 inline
-bool
+PRBool
 PropHasFlags
 (
 nsCSSProperty
@@ -2173,7 +2173,7 @@ nsCSSProperty
 gShorthandsContainingPool
 ;
 static
-bool
+PRBool
 BuildShorthandsContainingTable
 (
 )

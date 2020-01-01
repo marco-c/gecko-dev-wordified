@@ -486,7 +486,7 @@ nsIContent
 interface
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -530,7 +530,7 @@ nsSVGPathGeometryElement
 methods
 :
 virtual
-bool
+PRBool
 AttributeDefinesGeometry
 (
 const
@@ -540,13 +540,13 @@ aName
 )
 ;
 virtual
-bool
+PRBool
 IsMarkable
 (
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 virtual

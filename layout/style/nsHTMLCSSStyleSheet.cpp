@@ -996,7 +996,7 @@ nsRestyleHint
 virtual
 *
 /
-bool
+PRBool
 nsHTMLCSSStyleSheet
 :
 :
@@ -1098,7 +1098,7 @@ nsRestyleHint
 virtual
 *
 /
-bool
+PRBool
 nsHTMLCSSStyleSheet
 :
 :
@@ -1233,7 +1233,7 @@ html
 virtual
 *
 /
-bool
+PRBool
 nsHTMLCSSStyleSheet
 :
 :
@@ -1265,7 +1265,7 @@ PR_TRUE
 virtual
 *
 /
-bool
+PRBool
 nsHTMLCSSStyleSheet
 :
 :
@@ -1289,7 +1289,7 @@ nsHTMLCSSStyleSheet
 :
 SetEnabled
 (
-bool
+PRBool
 aEnabled
 )
 {
@@ -1307,7 +1307,7 @@ disabled
 virtual
 *
 /
-bool
+PRBool
 nsHTMLCSSStyleSheet
 :
 :

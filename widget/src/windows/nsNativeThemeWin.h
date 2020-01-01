@@ -524,7 +524,7 @@ aResult
 )
 ;
 virtual
-bool
+PRBool
 GetWidgetPadding
 (
 nsDeviceContext
@@ -541,7 +541,7 @@ aResult
 )
 ;
 virtual
-bool
+PRBool
 GetWidgetOverflow
 (
 nsDeviceContext
@@ -571,7 +571,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-bool
+PRBool
 *
 aIsOverridable
 )
@@ -598,7 +598,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 *
 aShouldRepaint
 )
@@ -608,7 +608,7 @@ ThemeChanged
 (
 )
 ;
-bool
+PRBool
 ThemeSupportsWidget
 (
 nsPresContext
@@ -621,14 +621,14 @@ PRUint8
 aWidgetType
 )
 ;
-bool
+PRBool
 WidgetIsContainer
 (
 PRUint8
 aWidgetType
 )
 ;
-bool
+PRBool
 ThemeDrawsFocusForWidget
 (
 nsPresContext
@@ -641,7 +641,7 @@ PRUint8
 aWidgetType
 )
 ;
-bool
+PRBool
 ThemeNeedsComboboxDropmarker
 (
 )
@@ -695,7 +695,7 @@ aPart
 PRInt32
 &
 aState
-bool
+PRBool
 &
 aFocused
 )
@@ -737,7 +737,7 @@ nsIntMargin
 aResult
 )
 ;
-bool
+PRBool
 ClassicGetWidgetPadding
 (
 nsDeviceContext
@@ -767,12 +767,12 @@ aWidgetType
 nsIntSize
 *
 aResult
-bool
+PRBool
 *
 aIsOverridable
 )
 ;
-bool
+PRBool
 ClassicThemeSupportsWidget
 (
 nsPresContext
@@ -817,11 +817,11 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-bool
+PRBool
 wantFocused
 )
 ;
-bool
+PRBool
 IsMenuActive
 (
 nsIFrame

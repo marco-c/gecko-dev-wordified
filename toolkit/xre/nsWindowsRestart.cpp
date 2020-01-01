@@ -1488,12 +1488,6 @@ i
 ]
 )
 {
-FreeAllocStrings
-(
-i
-argvConverted
-)
-;
 return
 FALSE
 ;

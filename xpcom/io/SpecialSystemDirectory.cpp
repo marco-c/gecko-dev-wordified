@@ -1251,7 +1251,7 @@ static
 nsresult
 GetRegWindowsAppDataFolder
 (
-bool
+PRBool
 aLocal
 nsILocalFile
 *
@@ -2838,7 +2838,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 exists
 ;
 rv

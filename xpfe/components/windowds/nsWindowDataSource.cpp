@@ -1610,10 +1610,10 @@ rv
 return
 NS_OK
 ;
-bool
+PRBool
 more
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1879,7 +1879,7 @@ resultWindow
 }
 ;
 static
-bool
+PRBool
 findWindow
 (
 nsHashKey
@@ -2253,7 +2253,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-bool
+PRBool
 aTruthValue
 nsIRDFNode
 *
@@ -2472,7 +2472,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 nsIRDFResource
 *
@@ -2530,7 +2530,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -2588,7 +2588,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-bool
+PRBool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -2652,7 +2652,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 {
@@ -2888,9 +2888,9 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
-bool
+PRBool
 *
 _retval
 )
@@ -3157,7 +3157,7 @@ aCommand
 nsISupportsArray
 *
 aArguments
-bool
+PRBool
 *
 _retval
 )
@@ -3308,7 +3308,7 @@ aNode
 nsIRDFResource
 *
 aArc
-bool
+PRBool
 *
 _retval
 )
@@ -3359,7 +3359,7 @@ aSource
 nsIRDFResource
 *
 aArc
-bool
+PRBool
 *
 _retval
 )

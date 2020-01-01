@@ -1380,7 +1380,7 @@ const
 gfxRect
 &
 rect
-bool
+PRBool
 snapToPixels
 )
 {
@@ -2285,7 +2285,7 @@ ymin
 )
 ;
 }
-bool
+PRBool
 gfxContext
 :
 :
@@ -2294,7 +2294,7 @@ UserToDevicePixelSnapped
 gfxRect
 &
 rect
-bool
+PRBool
 ignoreScale
 )
 const
@@ -2686,7 +2686,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 gfxContext
 :
 :
@@ -2695,7 +2695,7 @@ UserToDevicePixelSnapped
 gfxPoint
 &
 pt
-bool
+PRBool
 ignoreScale
 )
 const
@@ -3764,7 +3764,7 @@ ymin
 )
 ;
 }
-bool
+PRBool
 gfxContext
 :
 :
@@ -3785,10 +3785,10 @@ cairo_copy_clip_rectangle_list
 mCairo
 )
 ;
-bool
+PRBool
 result
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -4023,7 +4023,7 @@ a
 )
 ;
 }
-bool
+PRBool
 gfxContext
 :
 :
@@ -4828,7 +4828,7 @@ mCairo
 )
 ;
 }
-bool
+PRBool
 gfxContext
 :
 :
@@ -4853,7 +4853,7 @@ y
 )
 ;
 }
-bool
+PRBool
 gfxContext
 :
 :
@@ -5034,7 +5034,7 @@ return
 path
 ;
 }
-bool
+PRBool
 gfxContext
 :
 :
@@ -5066,7 +5066,7 @@ const
 gfxCornerSizes
 &
 corners
-bool
+PRBool
 draw_clockwise
 )
 {

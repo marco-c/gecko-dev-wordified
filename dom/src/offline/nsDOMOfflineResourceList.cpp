@@ -1501,7 +1501,7 @@ const
 nsAString
 &
 aURI
-bool
+PRBool
 *
 aExists
 )
@@ -1904,7 +1904,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 match
 ;
 rv
@@ -3127,7 +3127,7 @@ Count
 i
 )
 {
-bool
+PRBool
 dummy
 ;
 nsCOMPtr
@@ -3347,7 +3347,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 dummy
 ;
 DispatchEvent
@@ -3752,7 +3752,7 @@ Ignore
 partial
 updates
 .
-bool
+PRBool
 partial
 ;
 nsresult
@@ -3807,7 +3807,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 equals
 ;
 rv
@@ -4069,7 +4069,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 partial
 ;
 mCacheUpdate
@@ -4081,7 +4081,7 @@ GetPartial
 partial
 )
 ;
-bool
+PRBool
 isUpgrade
 ;
 mCacheUpdate
@@ -4093,7 +4093,7 @@ GetIsUpgrade
 isUpgrade
 )
 ;
-bool
+PRBool
 succeeded
 ;
 nsresult

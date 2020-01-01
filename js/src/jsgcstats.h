@@ -760,14 +760,6 @@ a
 chunk
 *
 /
-CGCT_OTHERCOMPARTMENT
-/
-*
-in
-another
-compartment
-*
-/
 CGCT_NOTCHUNK
 /
 *

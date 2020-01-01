@@ -576,7 +576,7 @@ SetDocument
 nsITextServicesDocument
 *
 aDoc
-bool
+PRBool
 aFromStartofDoc
 )
 {
@@ -639,7 +639,7 @@ SetupDoc
 selOffset
 )
 ;
-bool
+PRBool
 isMisspelled
 done
 ;
@@ -865,7 +865,7 @@ const
 nsAString
 &
 aWord
-bool
+PRBool
 *
 aIsMisspelled
 nsTArray
@@ -879,7 +879,7 @@ aSuggestions
 nsresult
 result
 ;
-bool
+PRBool
 correct
 ;
 if
@@ -1032,7 +1032,7 @@ const
 nsAString
 &
 aNewWord
-bool
+PRBool
 aAllOccurrences
 )
 {
@@ -1070,7 +1070,7 @@ PRInt32
 begin
 end
 ;
-bool
+PRBool
 done
 ;
 nsresult
@@ -1917,7 +1917,7 @@ words
 )
 )
 ;
-bool
+PRBool
 hasMore
 ;
 nsAutoString
@@ -2950,10 +2950,10 @@ blockIndex
 =
 0
 ;
-bool
+PRBool
 isDone
 =
-false
+PR_FALSE
 ;
 nsresult
 result
@@ -3028,7 +3028,7 @@ aSpellCheckingEngines
 nsresult
 rv
 ;
-bool
+PRBool
 hasMoreEngines
 ;
 nsCOMPtr

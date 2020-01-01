@@ -727,7 +727,7 @@ mAccumulatedBytes
 ;
 mIsStarted
 =
-false
+PR_FALSE
 ;
 }
 void
@@ -749,7 +749,7 @@ aNow
 ;
 mIsStarted
 =
-true
+PR_TRUE
 ;
 }
 void
@@ -775,7 +775,7 @@ mLastStartTime
 ;
 mIsStarted
 =
-false
+PR_FALSE
 ;
 }
 void
@@ -826,7 +826,7 @@ aBytes
 double
 GetRateAtLastStop
 (
-bool
+PRPackedBool
 *
 aReliable
 )
@@ -881,7 +881,7 @@ GetRate
 (
 TimeStamp
 aNow
-bool
+PRPackedBool
 *
 aReliable
 )
@@ -960,7 +960,7 @@ mAccumulatedTime
 TimeStamp
 mLastStartTime
 ;
-bool
+PRPackedBool
 mIsStarted
 ;
 }
@@ -1044,7 +1044,7 @@ start
 )
 ;
 }
-bool
+PRBool
 IsNull
 (
 )
@@ -1334,7 +1334,7 @@ virtual
 void
 Suspend
 (
-bool
+PRBool
 aCloseImmediately
 )
 =
@@ -2043,7 +2043,7 @@ virtual
 double
 GetDownloadRate
 (
-bool
+PRPackedBool
 *
 aIsReliable
 )
@@ -2261,7 +2261,7 @@ return
 false
 .
 virtual
-bool
+PRBool
 IsDataCachedToEndOfStream
 (
 PRInt64
@@ -2328,7 +2328,7 @@ this
 changes
 .
 virtual
-bool
+PRBool
 IsSuspendedByCache
 (
 )
@@ -2347,7 +2347,7 @@ been
 suspended
 .
 virtual
-bool
+PRBool
 IsSuspended
 (
 )
@@ -2625,7 +2625,7 @@ aURI
 )
 mLoadInBackground
 (
-false
+PR_FALSE
 )
 {
 MOZ_COUNT_CTOR
@@ -2785,7 +2785,7 @@ mURI
 ;
 /
 /
-True
+PR_TRUE
 if
 MoveLoadsToBackground
 (
@@ -2815,7 +2815,7 @@ in
 the
 background
 .
-bool
+PRPackedBool
 mLoadInBackground
 ;
 }
@@ -3124,7 +3124,7 @@ CacheClientSeek
 (
 PRInt64
 aOffset
-bool
+PRBool
 aResume
 )
 ;
@@ -3185,7 +3185,7 @@ virtual
 void
 Suspend
 (
-bool
+PRBool
 aCloseImmediately
 )
 ;
@@ -3207,7 +3207,7 @@ GetCurrentPrincipal
 /
 /
 Return
-true
+PR_TRUE
 if
 the
 stream
@@ -3215,7 +3215,7 @@ has
 been
 closed
 .
-bool
+PRBool
 IsClosed
 (
 )
@@ -3325,7 +3325,7 @@ virtual
 double
 GetDownloadRate
 (
-bool
+PRPackedBool
 *
 aIsReliable
 )
@@ -3353,7 +3353,7 @@ aOffset
 )
 ;
 virtual
-bool
+PRBool
 IsDataCachedToEndOfStream
 (
 PRInt64
@@ -3361,13 +3361,13 @@ aOffset
 )
 ;
 virtual
-bool
+PRBool
 IsSuspendedByCache
 (
 )
 ;
 virtual
-bool
+PRBool
 IsSuspended
 (
 )
@@ -3728,7 +3728,7 @@ reopen
 the
 stream
 .
-bool
+PRPackedBool
 mReopenOnError
 ;
 /
@@ -3751,7 +3751,7 @@ the
 /
 channel
 .
-bool
+PRPackedBool
 mIgnoreClose
 ;
 /
@@ -3781,7 +3781,7 @@ mCacheSuspendCount
 ;
 /
 /
-True
+PR_TRUE
 if
 we
 couldn
@@ -3826,7 +3826,7 @@ the
 suspend
 request
 .
-bool
+PRPackedBool
 mIgnoreResume
 ;
 }

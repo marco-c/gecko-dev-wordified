@@ -907,7 +907,7 @@ nsGSettingsCollection
 ;
 private
 :
-bool
+PRBool
 KeyExists
 (
 const
@@ -916,7 +916,7 @@ nsACString
 aKey
 )
 ;
-bool
+PRBool
 SetValue
 (
 const
@@ -958,7 +958,7 @@ mSettings
 )
 ;
 }
-bool
+PRBool
 nsGSettingsCollection
 :
 :
@@ -1022,7 +1022,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsGSettingsCollection
 :
 :
@@ -1132,7 +1132,7 @@ value
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-bool
+PRBool
 res
 =
 SetValue
@@ -1159,7 +1159,7 @@ const
 nsACString
 &
 aKey
-bool
+PRBool
 aValue
 )
 {
@@ -1180,7 +1180,7 @@ value
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-bool
+PRBool
 res
 =
 SetValue
@@ -1228,7 +1228,7 @@ value
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-bool
+PRBool
 res
 =
 SetValue
@@ -1353,7 +1353,7 @@ const
 nsACString
 &
 aKey
-bool
+PRBool
 *
 aResult
 )

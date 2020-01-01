@@ -517,7 +517,7 @@ aNewIndex
 NS_IMETHOD
 VisibilityChanged
 (
-bool
+PRBool
 aVisible
 )
 =

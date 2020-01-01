@@ -863,7 +863,7 @@ scripts
 .
 *
 /
-bool
+PRBool
 GetScriptDeferred
 (
 )
@@ -904,7 +904,7 @@ scripts
 .
 *
 /
-bool
+PRBool
 GetScriptAsync
 (
 )
@@ -940,7 +940,7 @@ script
 ?
 *
 /
-bool
+PRBool
 GetScriptExternal
 (
 )
@@ -1022,7 +1022,7 @@ mMalformed
 PR_TRUE
 ;
 }
-bool
+PRBool
 IsMalformed
 (
 )
@@ -1068,10 +1068,10 @@ dom
 :
 NOT_FROM_PARSER
 ;
-bool
+PRBool
 async
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1302,7 +1302,7 @@ HTML5
 .
 *
 /
-bool
+PRPackedBool
 mAlreadyStarted
 ;
 /
@@ -1321,7 +1321,7 @@ tag
 .
 *
 /
-bool
+PRPackedBool
 mMalformed
 ;
 /
@@ -1345,7 +1345,7 @@ yet
 .
 *
 /
-bool
+PRPackedBool
 mDoneAddingChildren
 ;
 /
@@ -1370,7 +1370,7 @@ attribute
 .
 *
 /
-bool
+PRPackedBool
 mForceAsync
 ;
 /
@@ -1387,7 +1387,7 @@ frozen
 .
 *
 /
-bool
+PRPackedBool
 mFrozen
 ;
 /
@@ -1400,7 +1400,7 @@ deferredness
 .
 *
 /
-bool
+PRPackedBool
 mDefer
 ;
 /
@@ -1413,7 +1413,7 @@ asyncness
 .
 *
 /
-bool
+PRPackedBool
 mAsync
 ;
 /
@@ -1446,7 +1446,7 @@ string
 .
 *
 /
-bool
+PRPackedBool
 mExternal
 ;
 /

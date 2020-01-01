@@ -1933,7 +1933,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer

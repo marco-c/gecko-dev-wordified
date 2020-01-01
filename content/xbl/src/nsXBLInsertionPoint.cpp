@@ -651,7 +651,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 nsXBLInsertionPoint
 :
 :

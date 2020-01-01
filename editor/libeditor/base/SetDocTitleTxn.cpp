@@ -1025,10 +1025,10 @@ headNode
 NS_ERROR_FAILURE
 )
 ;
-bool
+PRBool
 newTitleNode
 =
-false
+PR_FALSE
 ;
 PRUint32
 newTitleIndex
@@ -1367,7 +1367,7 @@ SetDocTitleTxn
 :
 GetIsTransient
 (
-bool
+PRBool
 *
 aIsTransient
 )

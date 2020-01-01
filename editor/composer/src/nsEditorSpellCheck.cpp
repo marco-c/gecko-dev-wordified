@@ -991,7 +991,7 @@ SetAsISupports
 docUri
 )
 ;
-bool
+PRBool
 hasPref
 ;
 if
@@ -1459,7 +1459,7 @@ nsEditorSpellCheck
 :
 CanSpellCheck
 (
-bool
+PRBool
 *
 _retval
 )
@@ -1551,7 +1551,7 @@ InitSpellChecker
 nsIEditor
 *
 aEditor
-bool
+PRBool
 aEnableSelectionChecking
 )
 {
@@ -1779,10 +1779,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 collapsed
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -2141,7 +2141,7 @@ const
 PRUnichar
 *
 aSuggestedWord
-bool
+PRBool
 *
 aIsMisspelled
 )
@@ -2182,7 +2182,7 @@ const
 PRUnichar
 *
 aSuggestedWord
-bool
+PRBool
 *
 aIsMisspelled
 )
@@ -2222,7 +2222,7 @@ const
 PRUnichar
 *
 aReplaceWord
-bool
+PRBool
 allOccurrences
 )
 {

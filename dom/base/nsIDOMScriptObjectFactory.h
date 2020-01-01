@@ -662,9 +662,9 @@ aScriptTypeID
 NS_IMETHOD
 NewScriptGlobalObject
 (
-bool
+PRBool
 aIsChrome
-bool
+PRBool
 aIsModalContentWindow
 nsIScriptGlobalObject
 *
@@ -783,7 +783,7 @@ nsIID
 aInterfaces
 PRUint32
 aScriptableFlags
-bool
+PRBool
 aHasClassInterface
 const
 nsCID

@@ -1341,7 +1341,7 @@ queue
 /
 extern
 NS_COM_GLUE
-bool
+PRBool
 NS_HasPendingEvents
 (
 nsIThread
@@ -1469,7 +1469,7 @@ processed
 /
 extern
 NS_COM_GLUE
-bool
+PRBool
 NS_ProcessNextEvent
 (
 nsIThread
@@ -1477,10 +1477,10 @@ nsIThread
 thread
 =
 nsnull
-bool
+PRBool
 mayWait
 =
-true
+PR_TRUE
 )
 ;
 /
@@ -2942,7 +2942,7 @@ mEvent
 nsnull
 ;
 }
-bool
+PRBool
 IsPending
 (
 )

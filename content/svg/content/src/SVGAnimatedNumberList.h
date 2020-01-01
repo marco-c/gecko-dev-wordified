@@ -795,7 +795,7 @@ of
 the
 attribute
 .
-bool
+PRBool
 IsExplicitlySet
 (
 )
@@ -810,7 +810,7 @@ mAnimVal
 mIsBaseSet
 ;
 }
-bool
+PRBool
 IsAnimating
 (
 )
@@ -932,7 +932,7 @@ SVGNumberList
 >
 mAnimVal
 ;
-bool
+PRPackedBool
 mIsBaseSet
 ;
 #
@@ -1037,7 +1037,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

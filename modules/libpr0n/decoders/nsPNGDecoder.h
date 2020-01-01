@@ -504,12 +504,6 @@ public
 :
 nsPNGDecoder
 (
-RasterImage
-*
-aImage
-imgIDecoderObserver
-*
-aObserver
 )
 ;
 virtual
@@ -685,10 +679,10 @@ mHeaderBytesRead
 PRUint8
 mChannels
 ;
-bool
+PRPackedBool
 mFrameHasNoAlpha
 ;
-bool
+PRPackedBool
 mFrameIsHidden
 ;
 /
@@ -704,7 +698,7 @@ off
 PRUint32
 mCMSMode
 ;
-bool
+PRPackedBool
 mDisablePremultipliedAlpha
 ;
 /

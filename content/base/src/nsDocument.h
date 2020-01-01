@@ -1158,7 +1158,7 @@ SetInvalidName
 (
 )
 ;
-bool
+PRBool
 IsInvalidName
 (
 )
@@ -1182,7 +1182,7 @@ Element
 aElement
 )
 ;
-bool
+PRBool
 IsEmpty
 (
 )
@@ -1326,7 +1326,7 @@ OOM
 .
 *
 /
-bool
+PRBool
 AddIdElement
 (
 Element
@@ -1393,7 +1393,7 @@ Element
 aElement
 )
 ;
-bool
+PRBool
 HasContentChangeCallback
 (
 )
@@ -1416,7 +1416,7 @@ aCallback
 void
 *
 aData
-bool
+PRBool
 aForImage
 )
 ;
@@ -1431,7 +1431,7 @@ aCallback
 void
 *
 aData
-bool
+PRBool
 aForImage
 )
 ;
@@ -1479,7 +1479,7 @@ void
 *
 mData
 ;
-bool
+PRBool
 mForImage
 ;
 }
@@ -1542,7 +1542,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1654,10 +1654,10 @@ aOldElement
 Element
 *
 aNewElement
-bool
+PRBool
 aImageOnly
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -2114,7 +2114,7 @@ mHaveShutDown
 PR_TRUE
 ;
 }
-bool
+PRBool
 HaveShutDown
 (
 )
@@ -2701,7 +2701,7 @@ PendingLoad
 >
 mPendingLoads
 ;
-bool
+PRPackedBool
 mHaveShutDown
 ;
 }
@@ -2932,10 +2932,10 @@ nsIStreamListener
 *
 *
 aDocListener
-bool
+PRBool
 aReset
 =
-true
+PR_TRUE
 nsIContentSink
 *
 aContentSink
@@ -2955,7 +2955,7 @@ virtual
 void
 NotifyPossibleTitleChange
 (
-bool
+PRBool
 aBoundTitleElement
 )
 ;
@@ -3184,7 +3184,7 @@ aObserver
 void
 *
 aData
-bool
+PRBool
 aForImage
 )
 ;
@@ -3200,7 +3200,7 @@ aObserver
 void
 *
 aData
-bool
+PRBool
 aForImage
 )
 ;
@@ -3489,7 +3489,7 @@ SetStyleSheetApplicableState
 nsIStyleSheet
 *
 aSheet
-bool
+PRBool
 aApplicable
 )
 ;
@@ -3843,7 +3843,7 @@ found
 *
 /
 virtual
-bool
+PRBool
 RemoveObserver
 (
 nsIDocumentObserver
@@ -4014,7 +4014,7 @@ Standalone
 )
 ;
 virtual
-bool
+PRBool
 IsScriptEnabled
 (
 )
@@ -4023,7 +4023,7 @@ virtual
 void
 OnPageShow
 (
-bool
+PRBool
 aPersisted
 nsIDOMEventTarget
 *
@@ -4034,7 +4034,7 @@ virtual
 void
 OnPageHide
 (
-bool
+PRBool
 aPersisted
 nsIDOMEventTarget
 *
@@ -4063,7 +4063,7 @@ aTarget
 /
 nsINode
 virtual
-bool
+PRBool
 IsNodeOfType
 (
 PRUint32
@@ -4135,7 +4135,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 ;
@@ -4146,7 +4146,7 @@ AppendChildTo
 nsIContent
 *
 aKid
-bool
+PRBool
 aNotify
 )
 ;
@@ -4156,7 +4156,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 ;
@@ -4191,7 +4191,7 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-bool
+PRBool
 aFlushContent
 )
 ;
@@ -4242,7 +4242,7 @@ nsAString
 &
 aName
 const
-bool
+PRBool
 aPrevious
 nsIDOMHTMLInputElement
 *
@@ -4375,7 +4375,7 @@ nsEventListenerManager
 *
 GetListenerManager
 (
-bool
+PRBool
 aCreateIfNotFound
 )
 ;
@@ -4433,7 +4433,7 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
-bool
+PRBool
 aDocumentDefaultType
 nsIContent
 *
@@ -4510,7 +4510,7 @@ aData
 virtual
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 CanSavePresentation
 (
@@ -4566,7 +4566,7 @@ void
 )
 UnblockOnload
 (
-bool
+PRBool
 aFireSync
 )
 ;
@@ -4672,9 +4672,9 @@ float
 aX
 float
 aY
-bool
+PRBool
 aIgnoreRootScrollFrame
-bool
+PRBool
 aFlushLayout
 nsIDOMElement
 *
@@ -4701,9 +4701,9 @@ float
 aBottomSize
 float
 aLeftSize
-bool
+PRBool
 aIgnoreRootScrollFrame
-bool
+PRBool
 aFlushLayout
 nsIDOMNodeList
 *
@@ -4759,7 +4759,7 @@ aShell
 virtual
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 FrameLoaderScheduledToBeFinalized
 (
@@ -4852,7 +4852,7 @@ MOZ_SMIL
 void
 SetImagesNeedAnimating
 (
-bool
+PRBool
 aAnimating
 )
 ;
@@ -4868,7 +4868,7 @@ virtual
 void
 UnsuppressEventHandlingAndFireEvents
 (
-bool
+PRBool
 aFireEvents
 )
 ;
@@ -4909,7 +4909,7 @@ mExternalResourceMap
 void
 SetLoadedAsData
 (
-bool
+PRBool
 aLoadedAsData
 )
 {
@@ -4970,7 +4970,7 @@ LoadChromeSheetSync
 nsIURI
 *
 uri
-bool
+PRBool
 isAgentSheet
 nsCSSStyleSheet
 *
@@ -5049,7 +5049,7 @@ virtual
 void
 SetChangeScrollPosWhenScrollingToRef
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -5143,7 +5143,7 @@ nsresult
 )
 SetImageLockingState
 (
-bool
+PRBool
 aLocked
 )
 ;
@@ -5217,12 +5217,12 @@ virtual
 void
 UpdateFullScreenStatus
 (
-bool
+PRBool
 aIsFullScreen
 )
 ;
 virtual
-bool
+PRBool
 IsFullScreenDoc
 (
 )
@@ -5269,7 +5269,7 @@ otherwise
 *
 /
 inline
-bool
+PRBool
 CheckGetElementByIdArg
 (
 const
@@ -5318,7 +5318,7 @@ aChannel
 )
 ;
 static
-bool
+PRBool
 TryChannelCharset
 (
 nsIChannel
@@ -5534,7 +5534,7 @@ are
 safe
 to
 flush
-bool
+PRBool
 IsSafeToFlush
 (
 )
@@ -5561,7 +5561,7 @@ const
 nsAString
 &
 aType
-bool
+PRBool
 aPersisted
 )
 ;
@@ -5589,7 +5589,7 @@ GetScriptHandlingObjectInternal
 const
 ;
 virtual
-bool
+PRBool
 InternalAllowXULXBL
 (
 )
@@ -6001,7 +6001,7 @@ its
 content
 viewer
 .
-bool
+PRPackedBool
 mIsGoingAway
 :
 1
@@ -6016,7 +6016,7 @@ is
 being
 destroyed
 .
-bool
+PRPackedBool
 mInDestructor
 :
 1
@@ -6043,22 +6043,22 @@ element
 bound
 to
 it
-bool
+PRPackedBool
 mMayHaveTitleElement
 :
 1
 ;
-bool
+PRPackedBool
 mHasWarnedAboutBoxObjects
 :
 1
 ;
-bool
+PRPackedBool
 mDelayFrameLoaderInitialization
 :
 1
 ;
-bool
+PRPackedBool
 mSynchronousDOMContentLoaded
 :
 1
@@ -6087,12 +6087,12 @@ created
 entirely
 in
 memory
-bool
+PRPackedBool
 mHaveInputEncoding
 :
 1
 ;
-bool
+PRPackedBool
 mInXBLUpdate
 :
 1
@@ -6151,7 +6151,7 @@ nsDocument
 :
 GetAnimationController
 .
-bool
+PRPackedBool
 mLoadedAsInteractiveData
 :
 1
@@ -6172,7 +6172,7 @@ of
 our
 images
 .
-bool
+PRPackedBool
 mLockingImages
 :
 1
@@ -6187,7 +6187,7 @@ our
 images
 to
 animate
-bool
+PRPackedBool
 mAnimatingImages
 :
 1
@@ -6209,7 +6209,7 @@ the
 DOM
 API
 .
-bool
+PRPackedBool
 mIsFullScreen
 :
 1
@@ -6439,7 +6439,7 @@ const
 nsAString
 &
 aSheetSet
-bool
+PRBool
 aUpdateCSSLoader
 )
 ;
@@ -6801,7 +6801,7 @@ ifdef
 DEBUG
 protected
 :
-bool
+PRBool
 mWillReparent
 ;
 #

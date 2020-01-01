@@ -3312,10 +3312,10 @@ void
 )
 {
 static
-bool
+PRBool
 sInitialized
 =
-false
+PR_FALSE
 ;
 /
 /

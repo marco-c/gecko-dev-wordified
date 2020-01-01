@@ -684,7 +684,7 @@ Equals
 nsIJumpListItem
 *
 item
-bool
+PRBool
 *
 _retval
 )
@@ -762,7 +762,7 @@ Equals
 nsIJumpListItem
 *
 item
-bool
+PRBool
 *
 _retval
 )
@@ -910,7 +910,7 @@ Equals
 nsIJumpListItem
 *
 item
-bool
+PRBool
 *
 _retval
 )
@@ -989,7 +989,7 @@ nsILocalHandlerApp
 >
 mHandlerApp
 ;
-bool
+PRBool
 ExecutableExists
 (
 nsCOMPtr

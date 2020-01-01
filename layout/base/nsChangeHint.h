@@ -982,7 +982,7 @@ the
 destination
 changed
 inline
-bool
+PRBool
 NS_UpdateHint
 (
 nsChangeHint
@@ -1004,7 +1004,7 @@ aDest
 aSrc
 )
 ;
-bool
+PRBool
 changed
 =
 (
@@ -1043,7 +1043,7 @@ the
 first
 hint
 inline
-bool
+PRBool
 NS_IsHintSubset
 (
 nsChangeHint

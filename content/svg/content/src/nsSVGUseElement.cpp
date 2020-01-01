@@ -2651,8 +2651,9 @@ child
 newcontent
 -
 >
-GetFirstChild
+GetChildAt
 (
+0
 )
 ;
 newcontent
@@ -2925,7 +2926,7 @@ mClone
 /
 implementation
 helpers
-bool
+PRBool
 nsSVGUseElement
 :
 :
@@ -3525,7 +3526,7 @@ DidChangeLength
 (
 PRUint8
 aAttrEnum
-bool
+PRBool
 aDoSetAttr
 )
 {
@@ -3800,7 +3801,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGUseElement
 :

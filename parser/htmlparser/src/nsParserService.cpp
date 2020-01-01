@@ -760,7 +760,7 @@ IsContainer
 (
 PRInt32
 aId
-bool
+PRBool
 &
 aIsContainer
 )
@@ -791,7 +791,7 @@ IsBlock
 (
 PRInt32
 aId
-bool
+PRBool
 &
 aIsBlock
 )
@@ -1131,7 +1131,7 @@ const
 nsAString
 &
 aQName
-bool
+PRBool
 aNamespaceAware
 const
 PRUnichar
@@ -1272,7 +1272,7 @@ mString
 ;
 public
 :
-bool
+PRBool
 matched
 ;
 nsObserverEntry

@@ -752,10 +752,10 @@ processed
 *
 /
 virtual
-bool
+PRBool
 ProcessNextNativeEvent
 (
-bool
+PRBool
 mayWait
 )
 =
@@ -769,10 +769,10 @@ mEventloopNestingLevel
 ;
 private
 :
-bool
+PRBool
 DoProcessNextNativeEvent
 (
-bool
+PRBool
 mayWait
 )
 ;
@@ -858,7 +858,7 @@ s
 .
 *
 /
-bool
+PRBool
 *
 mBlockedWait
 ;
@@ -921,10 +921,10 @@ nsIRunnable
 >
 mSyncSections
 ;
-bool
+PRPackedBool
 mRunning
 ;
-bool
+PRPackedBool
 mExiting
 ;
 /
@@ -1031,7 +1031,7 @@ all
 .
 *
 /
-bool
+PRPackedBool
 mBlockNativeEvent
 ;
 /
@@ -1166,7 +1166,7 @@ NS_ProcessPendingEvents
 .
 *
 /
-bool
+PRPackedBool
 mProcessedGeckoEvents
 ;
 }

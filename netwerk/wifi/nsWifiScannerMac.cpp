@@ -607,7 +607,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 accessPointsChanged
 =
 !
@@ -1066,7 +1066,7 @@ ap
 )
 ;
 }
-bool
+PRBool
 accessPointsChanged
 =
 !

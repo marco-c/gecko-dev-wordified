@@ -1637,10 +1637,10 @@ mWorker
 )
 )
 ;
-bool
+PRBool
 stopPropagation
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -2133,7 +2133,7 @@ nsIRunnable
 aRunnable
 PRIntervalTime
 aTimeoutInterval
-bool
+PRBool
 aClearQueue
 )
 {
@@ -2563,7 +2563,7 @@ JS_TriggerOperationCallback
 cx
 )
 ;
-bool
+PRBool
 killWorkerWhenDone
 ;
 {
@@ -2897,7 +2897,7 @@ RunQueue
 JSContext
 *
 aCx
-bool
+PRBool
 *
 aCloseRunnableSet
 )
@@ -3157,7 +3157,7 @@ mCloseRunnable
 PRIntervalTime
 mCloseTimeoutInterval
 ;
-bool
+PRBool
 mKillWorkerWhenDone
 ;
 }
@@ -3289,7 +3289,7 @@ null
 "
 )
 ;
-bool
+PRBool
 canceled
 =
 worker
@@ -3366,7 +3366,7 @@ when
 we
 failed
 .
-bool
+PRBool
 extraThreadAllowed
 =
 NS_SUCCEEDED
@@ -4041,7 +4041,7 @@ scope
 "
 )
 ;
-bool
+PRBool
 hasListeners
 =
 scope
@@ -4143,10 +4143,10 @@ mErrorHandlerRecursionCount
 +
 +
 ;
-bool
+PRBool
 preventDefaultCalled
 =
-false
+PR_FALSE
 ;
 scope
 -
@@ -4660,7 +4660,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 success
 =
 mWorkersInProgress
@@ -5357,7 +5357,7 @@ nsIRunnable
 aRunnable
 PRIntervalTime
 aTimeoutInterval
-bool
+PRBool
 aClearQueue
 )
 {
@@ -5609,7 +5609,7 @@ aTimeoutInterval
 PR_FALSE
 )
 ;
-bool
+PRBool
 success
 =
 mWorkersInProgress
@@ -5950,7 +5950,7 @@ mWorker
 )
 ;
 }
-bool
+PRBool
 nsDOMThreadService
 :
 :
@@ -6203,7 +6203,7 @@ GetPoolForGlobal
 nsIScriptGlobalObject
 *
 aGlobalObject
-bool
+PRBool
 aRemove
 )
 {
@@ -7046,7 +7046,7 @@ const
 nsACString
 &
 aContractId
-bool
+PRBool
 aIsThreadsafe
 )
 {
@@ -7076,7 +7076,7 @@ mReentrantMonitor
 ifdef
 DEBUG
 {
-bool
+PRBool
 isThreadsafe
 ;
 if
@@ -7166,7 +7166,7 @@ mon
 mReentrantMonitor
 )
 ;
-bool
+PRBool
 isThreadsafe
 ;
 if
@@ -7335,7 +7335,7 @@ nsDOMThreadService
 :
 IsOnCurrentThread
 (
-bool
+PRBool
 *
 _retval
 )
@@ -8252,7 +8252,7 @@ mon
 mReentrantMonitor
 )
 ;
-bool
+PRBool
 success
 =
 mPools

@@ -882,7 +882,7 @@ GetStyleVisibility
 (
 )
 ;
-bool
+PRBool
 collapseCol
 =
 (

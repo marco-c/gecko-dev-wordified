@@ -628,7 +628,7 @@ mAsciiHost
 PRInt32
 mPort
 ;
-bool
+PRBool
 mIsTemporary
 ;
 /
@@ -792,7 +792,7 @@ HostWithPortPtr
 )
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1102,7 +1102,7 @@ nsIX509Cert
 *
 aCert
 const
-bool
+PRBool
 aIsTemporary
 const
 nsACString

@@ -740,10 +740,10 @@ nsMediaList
 >
 mMediaList
 ;
-bool
+PRPackedBool
 mMatches
 ;
-bool
+PRPackedBool
 mMatchesValid
 ;
 ListenerList

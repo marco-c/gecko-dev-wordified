@@ -604,7 +604,7 @@ gfxIgnoreCaseCStringComparator
 {
 public
 :
-bool
+PRBool
 Equals
 (
 const
@@ -633,7 +633,7 @@ nsCaseInsensitiveCStringComparator
 )
 ;
 }
-bool
+PRBool
 LessThan
 (
 const
@@ -670,7 +670,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 gfxFontNameList
 )
-bool
+PRBool
 Exists
 (
 nsAString
@@ -756,7 +756,7 @@ aCallback
 void
 *
 aClosure
-bool
+PRBool
 &
 aAborted
 )
@@ -1068,7 +1068,7 @@ aStretch
 )
 ;
 static
-bool
+PRBool
 GetFullnameFromFamilyAndStyle
 (
 FcPattern
@@ -1556,7 +1556,7 @@ mKey
 )
 {
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1720,7 +1720,7 @@ mKey
 )
 {
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1742,7 +1742,7 @@ mKey
 0
 ;
 }
-bool
+PRBool
 IsKeyInitialized
 (
 )
@@ -1825,7 +1825,7 @@ mFonts
 )
 {
 }
-bool
+PRBool
 AddFont
 (
 FcPattern
@@ -2042,7 +2042,7 @@ mFonts
 )
 {
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -2050,7 +2050,7 @@ aKey
 )
 const
 ;
-bool
+PRBool
 AddFont
 (
 FcPattern
@@ -2188,7 +2188,7 @@ gfxFontconfigUtils
 *
 sUtils
 ;
-bool
+PRBool
 IsExistingFamily
 (
 const
@@ -2214,10 +2214,10 @@ aLangGroup
 nsresult
 UpdateFontListInternal
 (
-bool
+PRBool
 aForce
 =
-false
+PR_FALSE
 )
 ;
 void
@@ -2233,7 +2233,7 @@ const
 FcChar8
 *
 aLang
-bool
+PRBool
 aWithFonts
 )
 ;

@@ -659,7 +659,7 @@ mTargetKey
 mProxyType
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -985,7 +985,7 @@ gInstance
 nsnull
 ;
 }
-bool
+PRBool
 nsProxyObjectManager
 :
 :
@@ -1299,7 +1299,7 @@ NS_PROXY_ALWAYS
 )
 )
 {
-bool
+PRBool
 result
 ;
 aTarget

@@ -551,7 +551,7 @@ href
 prepend
 text
 .
-bool
+PRBool
 prepend
 ;
 /
@@ -1065,7 +1065,7 @@ mPageTitle
 /
 Page
 title
-bool
+PRBool
 mPreFormatHTML
 ;
 /

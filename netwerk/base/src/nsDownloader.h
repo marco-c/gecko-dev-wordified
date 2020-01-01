@@ -501,7 +501,7 @@ nsISupports
 >
 mCacheToken
 ;
-bool
+PRBool
 mLocationIsTemp
 ;
 }

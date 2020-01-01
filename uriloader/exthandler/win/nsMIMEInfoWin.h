@@ -499,7 +499,7 @@ aFile
 NS_IMETHOD
 GetHasDefaultHandler
 (
-bool
+PRBool
 *
 _retval
 )
@@ -575,7 +575,7 @@ its
 nsILocalHandlerApp
 instance
 .
-bool
+PRBool
 GetLocalHandlerApp
 (
 const
@@ -611,7 +611,7 @@ root
 /
 Applications
 .
-bool
+PRBool
 GetAppsVerbCommandHandler
 (
 const
@@ -621,7 +621,7 @@ appExeName
 nsAString
 &
 applicationPath
-bool
+PRBool
 bEdit
 )
 ;
@@ -645,7 +645,7 @@ located
 in
 root
 .
-bool
+PRBool
 GetProgIDVerbCommandHandler
 (
 const
@@ -655,7 +655,7 @@ appProgIDName
 nsAString
 &
 applicationPath
-bool
+PRBool
 bEdit
 )
 ;
@@ -681,7 +681,7 @@ rundll32
 .
 exe
 .
-bool
+PRBool
 GetDllLaunchInfo
 (
 nsIFile
@@ -693,7 +693,7 @@ aFile
 nsAString
 &
 args
-bool
+PRBool
 bEdit
 )
 ;

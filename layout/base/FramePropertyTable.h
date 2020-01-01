@@ -1010,7 +1010,7 @@ const
 FramePropertyDescriptor
 *
 aProperty
-bool
+PRBool
 *
 aFoundResult
 =
@@ -1141,7 +1141,7 @@ const
 FramePropertyDescriptor
 *
 aProperty
-bool
+PRBool
 *
 aFoundResult
 =
@@ -1340,7 +1340,7 @@ aValue
 )
 {
 }
-bool
+PRBool
 IsArray
 (
 )
@@ -1473,7 +1473,7 @@ PropertyComparator
 {
 public
 :
-bool
+PRBool
 Equals
 (
 const
@@ -1498,7 +1498,7 @@ b
 mProperty
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -1521,7 +1521,7 @@ b
 mProperty
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -1768,7 +1768,7 @@ const
 FramePropertyDescriptor
 *
 aProperty
-bool
+PRBool
 *
 aFoundResult
 =
@@ -1796,7 +1796,7 @@ const
 FramePropertyDescriptor
 *
 aProperty
-bool
+PRBool
 *
 aFoundResult
 =

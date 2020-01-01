@@ -1437,7 +1437,7 @@ ID
 .
 *
 /
-bool
+PRBool
 Equals
 (
 nsINodeInfo
@@ -1470,7 +1470,7 @@ mNamespaceID
 )
 ;
 }
-bool
+PRBool
 NameAndNamespaceEquals
 (
 nsINodeInfo
@@ -1500,7 +1500,7 @@ mNamespaceID
 )
 ;
 }
-bool
+PRBool
 Equals
 (
 nsIAtom
@@ -1518,7 +1518,7 @@ mName
 aNameAtom
 ;
 }
-bool
+PRBool
 Equals
 (
 nsIAtom
@@ -1551,7 +1551,7 @@ aPrefixAtom
 )
 ;
 }
-bool
+PRBool
 Equals
 (
 nsIAtom
@@ -1585,7 +1585,7 @@ aNamespaceID
 )
 ;
 }
-bool
+PRBool
 Equals
 (
 nsIAtom
@@ -1632,7 +1632,7 @@ aNamespaceID
 )
 ;
 }
-bool
+PRBool
 NamespaceEquals
 (
 PRInt32
@@ -1649,7 +1649,7 @@ mNamespaceID
 aNamespaceID
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -1671,7 +1671,7 @@ aName
 )
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -1720,7 +1720,7 @@ IsEmpty
 )
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -1752,7 +1752,7 @@ aName
 )
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -1812,7 +1812,7 @@ IsEmpty
 ;
 }
 virtual
-bool
+PRBool
 NamespaceEquals
 (
 const
@@ -1824,7 +1824,7 @@ const
 =
 0
 ;
-bool
+PRBool
 QualifiedNameEquals
 (
 nsIAtom
@@ -1867,7 +1867,7 @@ mQualifiedName
 )
 ;
 }
-bool
+PRBool
 QualifiedNameEquals
 (
 const

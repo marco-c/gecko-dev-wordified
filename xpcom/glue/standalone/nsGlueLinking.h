@@ -443,7 +443,7 @@ const
 char
 *
 aDependentLib
-bool
+PRBool
 do_preload
 )
 ;

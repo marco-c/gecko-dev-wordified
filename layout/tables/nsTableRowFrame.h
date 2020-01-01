@@ -1124,7 +1124,7 @@ const
 nsHTMLReflowState
 &
 aReflowState
-bool
+PRBool
 aIsTopOfPage
 nsTableCellFrame
 *
@@ -1225,9 +1225,9 @@ nscoord
 aRowOffset
 nscoord
 aWidth
-bool
+PRBool
 aCollapseGroup
-bool
+PRBool
 &
 aDidCollapse
 )
@@ -1313,7 +1313,7 @@ nscoord
 aDesiredHeight
 )
 ;
-bool
+PRBool
 IsFirstInserted
 (
 )
@@ -1322,7 +1322,7 @@ const
 void
 SetFirstInserted
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -1339,13 +1339,13 @@ nscoord
 aTwipValue
 )
 ;
-bool
+PRBool
 HasStyleHeight
 (
 )
 const
 ;
-bool
+PRBool
 HasFixedHeight
 (
 )
@@ -1354,11 +1354,11 @@ const
 void
 SetHasFixedHeight
 (
-bool
+PRBool
 aValue
 )
 ;
-bool
+PRBool
 HasPctHeight
 (
 )
@@ -1367,7 +1367,7 @@ const
 void
 SetHasPctHeight
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -1395,10 +1395,10 @@ SetPctHeight
 (
 float
 aPctValue
-bool
+PRBool
 aForce
 =
-false
+PR_FALSE
 )
 ;
 nscoord
@@ -1418,7 +1418,7 @@ GetNextRow
 )
 const
 ;
-bool
+PRBool
 HasUnpaginatedHeight
 (
 )
@@ -1426,7 +1426,7 @@ HasUnpaginatedHeight
 void
 SetHasUnpaginatedHeight
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -1622,7 +1622,7 @@ const
 nsSize
 &
 aAvailSize
-bool
+PRBool
 aBorderCollapse
 nsTableCellReflowState
 &
@@ -2032,7 +2032,7 @@ aRowIndex
 ;
 }
 inline
-bool
+PRBool
 nsTableRowFrame
 :
 :
@@ -2042,7 +2042,7 @@ IsFirstInserted
 const
 {
 return
-bool
+PRBool
 (
 mBits
 .
@@ -2057,7 +2057,7 @@ nsTableRowFrame
 :
 SetFirstInserted
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2069,7 +2069,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableRowFrame
 :
 :
@@ -2080,7 +2080,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2088,7 +2088,7 @@ mHasFixedHeight
 |
 |
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2096,7 +2096,7 @@ mHasPctHeight
 ;
 }
 inline
-bool
+PRBool
 nsTableRowFrame
 :
 :
@@ -2107,7 +2107,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2121,7 +2121,7 @@ nsTableRowFrame
 :
 SetHasFixedHeight
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2133,7 +2133,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableRowFrame
 :
 :
@@ -2144,7 +2144,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2158,7 +2158,7 @@ nsTableRowFrame
 :
 SetHasPctHeight
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2257,7 +2257,7 @@ return
 ;
 }
 inline
-bool
+PRBool
 nsTableRowFrame
 :
 :
@@ -2283,7 +2283,7 @@ nsTableRowFrame
 :
 SetHasUnpaginatedHeight
 (
-bool
+PRBool
 aValue
 )
 {

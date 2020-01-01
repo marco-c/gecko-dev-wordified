@@ -1184,7 +1184,7 @@ Clone
 nsINode
 *
 aNode
-bool
+PRBool
 aDeep
 nsNodeInfoManager
 *
@@ -1576,7 +1576,7 @@ nsIDocument
 aOwnerDocument
 PRUint16
 aOperation
-bool
+PRBool
 aCloned
 )
 ;
@@ -1705,9 +1705,9 @@ CloneNodeImpl
 nsINode
 *
 aNode
-bool
+PRBool
 aDeep
-bool
+PRBool
 aCallUserDataHandlers
 nsIDOMNode
 *
@@ -2025,9 +2025,9 @@ CloneAndAdopt
 nsINode
 *
 aNode
-bool
+PRBool
 aClone
-bool
+PRBool
 aDeep
 nsNodeInfoManager
 *
@@ -2196,9 +2196,9 @@ CloneAndAdopt
 nsINode
 *
 aNode
-bool
+PRBool
 aClone
-bool
+PRBool
 aDeep
 nsNodeInfoManager
 *

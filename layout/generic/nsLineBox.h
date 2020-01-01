@@ -668,7 +668,7 @@ nsFloatCacheList
 (
 )
 ;
-bool
+PRBool
 IsEmpty
 (
 )
@@ -681,7 +681,7 @@ nsnull
 mHead
 ;
 }
-bool
+PRBool
 NotEmpty
 (
 )
@@ -949,7 +949,7 @@ endif
 Reimplement
 trivial
 functions
-bool
+PRBool
 IsEmpty
 (
 )
@@ -984,7 +984,7 @@ return
 mTail
 ;
 }
-bool
+PRBool
 NotEmpty
 (
 )
@@ -1227,7 +1227,7 @@ nsIFrame
 aFrame
 PRInt32
 aCount
-bool
+PRBool
 aIsBlock
 )
 ;
@@ -1447,7 +1447,7 @@ nsIFrame
 aFrame
 PRInt32
 aCount
-bool
+PRBool
 aIsBlock
 )
 ;
@@ -1530,7 +1530,7 @@ nsIFrame
 aFrame
 PRInt32
 aCount
-bool
+PRBool
 aIsBlock
 )
 ;
@@ -1546,7 +1546,7 @@ aPresShell
 /
 mBlock
 bit
-bool
+PRBool
 IsBlock
 (
 )
@@ -1558,7 +1558,7 @@ mFlags
 mBlock
 ;
 }
-bool
+PRBool
 IsInline
 (
 )
@@ -1601,7 +1601,7 @@ mDirty
 0
 ;
 }
-bool
+PRBool
 IsDirty
 (
 )
@@ -1641,7 +1641,7 @@ mPreviousMarginDirty
 0
 ;
 }
-bool
+PRBool
 IsPreviousMarginDirty
 (
 )
@@ -1681,7 +1681,7 @@ mHasClearance
 0
 ;
 }
-bool
+PRBool
 HasClearance
 (
 )
@@ -1700,7 +1700,7 @@ bit
 void
 SetLineIsImpactedByFloat
 (
-bool
+PRBool
 aValue
 )
 {
@@ -1740,7 +1740,7 @@ mImpactedByFloat
 aValue
 ;
 }
-bool
+PRBool
 IsImpactedByFloat
 (
 )
@@ -1759,7 +1759,7 @@ bit
 void
 SetLineWrapped
 (
-bool
+PRBool
 aOn
 )
 {
@@ -1799,7 +1799,7 @@ mLineWrapped
 aOn
 ;
 }
-bool
+PRBool
 IsLineWrapped
 (
 )
@@ -1818,7 +1818,7 @@ bit
 void
 SetInvalidateTextRuns
 (
-bool
+PRBool
 aOn
 )
 {
@@ -1858,7 +1858,7 @@ mInvalidateTextRuns
 aOn
 ;
 }
-bool
+PRBool
 GetInvalidateTextRuns
 (
 )
@@ -1898,7 +1898,7 @@ mResizeReflowOptimizationDisabled
 PR_FALSE
 ;
 }
-bool
+PRBool
 ResizeReflowOptimizationDisabled
 (
 )
@@ -1946,7 +1946,7 @@ InvalidateCachedIsEmpty
 )
 ;
 }
-bool
+PRBool
 HasBullet
 (
 )
@@ -1986,7 +1986,7 @@ mHadFloatPushed
 PR_FALSE
 ;
 }
-bool
+PRBool
 HadFloatPushed
 (
 )
@@ -2112,7 +2112,7 @@ names
 should
 help
 .
-bool
+PRBool
 HasBreakBefore
 (
 )
@@ -2198,7 +2198,7 @@ mBreakType
 NS_STYLE_CLEAR_NONE
 ;
 }
-bool
+PRBool
 HasBreakAfter
 (
 )
@@ -2262,7 +2262,7 @@ mBreakType
 aBreakType
 ;
 }
-bool
+PRBool
 HasFloatBreakAfter
 (
 )
@@ -2338,7 +2338,7 @@ if
 the
 margin
 changed
-bool
+PRBool
 SetCarriedOutBottomMargin
 (
 nsCollapsingMargin
@@ -2348,7 +2348,7 @@ aValue
 /
 /
 mFloats
-bool
+PRBool
 HasFloats
 (
 )
@@ -2397,7 +2397,7 @@ nsFloatCacheFreeList
 aFreeList
 )
 ;
-bool
+PRBool
 RemoveFloat
 (
 nsIFrame
@@ -2774,7 +2774,7 @@ list
 )
 .
 static
-bool
+PRBool
 RFindLineContaining
 (
 nsIFrame
@@ -2830,7 +2830,7 @@ LastChild
 )
 const
 ;
-bool
+PRBool
 IsLastChild
 (
 nsIFrame
@@ -2848,7 +2848,7 @@ aFrame
 )
 const
 ;
-bool
+PRBool
 Contains
 (
 nsIFrame
@@ -2886,7 +2886,7 @@ nsIFrame
 :
 IsEmpty
 )
-bool
+PRBool
 IsEmpty
 (
 )
@@ -2936,11 +2936,10 @@ reflowing
 the
 block
 .
-bool
+PRBool
 CachedIsEmpty
 (
 )
-const
 ;
 void
 InvalidateCachedIsEmpty
@@ -2959,11 +2958,10 @@ PR_FALSE
 For
 debugging
 purposes
-bool
+PRBool
 IsValidCachedIsEmpty
 (
 )
-const
 {
 return
 mFlags
@@ -3058,13 +3056,11 @@ for
 a
 resize
 reflow
-mutable
 PRUint32
 mEmptyCacheValid
 :
 1
 ;
-mutable
 PRUint32
 mEmptyCacheState
 :
@@ -3860,7 +3856,7 @@ keep
 AIX
 happy
 .
-bool
+PRBool
 operator
 =
 =
@@ -3897,7 +3893,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -3934,7 +3930,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -3970,7 +3966,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -4493,7 +4489,7 @@ keep
 AIX
 happy
 .
-bool
+PRBool
 operator
 =
 =
@@ -4530,7 +4526,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -4567,7 +4563,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -4603,7 +4599,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5111,7 +5107,7 @@ keep
 AIX
 happy
 .
-bool
+PRBool
 operator
 =
 =
@@ -5148,7 +5144,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5185,7 +5181,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -5221,7 +5217,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5691,7 +5687,7 @@ keep
 AIX
 happy
 .
-bool
+PRBool
 operator
 =
 =
@@ -5728,7 +5724,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5765,7 +5761,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -5801,7 +5797,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -6300,7 +6296,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 empty
 (
 )
@@ -8024,7 +8020,7 @@ GetNumLines
 )
 ;
 virtual
-bool
+PRBool
 GetDirection
 (
 )
@@ -8073,10 +8069,10 @@ nsIFrame
 *
 *
 aFrameFound
-bool
+PRBool
 *
 aXIsBeforeFirstFrame
-bool
+PRBool
 *
 aXIsAfterLastFrame
 )
@@ -8100,7 +8096,7 @@ CheckLineOrder
 (
 PRInt32
 aLine
-bool
+PRBool
 *
 aIsReordered
 nsIFrame
@@ -8121,7 +8117,7 @@ Init
 nsLineList
 &
 aLines
-bool
+PRBool
 aRightToLeft
 )
 ;
@@ -8230,7 +8226,7 @@ mIndex
 PRInt32
 mNumLines
 ;
-bool
+PRPackedBool
 mRightToLeft
 ;
 }

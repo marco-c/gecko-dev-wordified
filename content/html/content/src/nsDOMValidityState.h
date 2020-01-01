@@ -539,7 +539,7 @@ instance
 *
 /
 inline
-bool
+PRBool
 GetValidityState
 (
 nsIConstraintValidation

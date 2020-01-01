@@ -549,7 +549,7 @@ aEndPageRange
 NS_IMETHOD
 GetPrintReversed
 (
-bool
+PRBool
 *
 aPrintReversed
 )
@@ -557,14 +557,14 @@ aPrintReversed
 NS_IMETHOD
 SetPrintReversed
 (
-bool
+PRBool
 aPrintReversed
 )
 ;
 NS_IMETHOD
 GetPrintInColor
 (
-bool
+PRBool
 *
 aPrintInColor
 )
@@ -572,7 +572,7 @@ aPrintInColor
 NS_IMETHOD
 SetPrintInColor
 (
-bool
+PRBool
 aPrintInColor
 )
 ;

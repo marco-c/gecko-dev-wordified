@@ -492,7 +492,7 @@ nsTemplateMatch
 *
 &
 aMatch
-bool
+PRBool
 aRemoveResult
 )
 {

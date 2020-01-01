@@ -482,7 +482,7 @@ const
 nsACString
 &
 aPublicKey
-bool
+PRBool
 *
 _retval
 )

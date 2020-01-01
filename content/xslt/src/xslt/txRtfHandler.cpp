@@ -536,7 +536,7 @@ mStringValue
 nsnull
 ;
 }
-bool
+PRBool
 txResultTreeFragment
 :
 :

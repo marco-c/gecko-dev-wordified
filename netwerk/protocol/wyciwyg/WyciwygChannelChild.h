@@ -657,7 +657,7 @@ private
 nsresult
 mStatus
 ;
-bool
+PRBool
 mIsPending
 ;
 bool

@@ -568,7 +568,7 @@ nsBoxLayoutState
 aBoxLayoutState
 )
 ;
-bool
+PRBool
 IsCollapsed
 (
 nsBoxLayoutState

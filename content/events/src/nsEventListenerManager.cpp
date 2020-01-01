@@ -2136,7 +2136,7 @@ break
 }
 static
 inline
-bool
+PRBool
 ListenerCanHandle
 (
 nsListenerStruct
@@ -2452,7 +2452,7 @@ aName
 JSObject
 *
 aHandler
-bool
+PRBool
 aPermitUntrustedEvents
 nsListenerStruct
 *
@@ -2658,9 +2658,9 @@ nsAString
 aBody
 PRUint32
 aLanguage
-bool
+PRBool
 aDeferCompilation
-bool
+PRBool
 aPermitUntrustedEvents
 )
 {
@@ -3049,7 +3049,7 @@ if
 csp
 )
 {
-bool
+PRBool
 inlineOK
 ;
 rv
@@ -3444,7 +3444,7 @@ CompileEventHandlerInternal
 nsListenerStruct
 *
 aListenerStruct
-bool
+PRBool
 aNeedsCxPush
 const
 nsAString
@@ -4684,10 +4684,10 @@ aEvent
 )
 )
 ;
-bool
+PRBool
 hasListener
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -5018,9 +5018,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
-bool
+PRBool
 aWantsUntrusted
 )
 {
@@ -5066,7 +5066,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
 )
 {
@@ -5087,7 +5087,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 nsEventListenerManager
 :
 :
@@ -5275,7 +5275,7 @@ return
 bits
 ;
 }
-bool
+PRBool
 nsEventListenerManager
 :
 :
@@ -5362,7 +5362,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsEventListenerManager
 :
 :
@@ -5453,7 +5453,7 @@ ElementAt
 i
 )
 ;
-bool
+PRBool
 capturing
 =
 !
@@ -5466,7 +5466,7 @@ mFlags
 NS_EVENT_FLAG_CAPTURE
 )
 ;
-bool
+PRBool
 systemGroup
 =
 !
@@ -5479,7 +5479,7 @@ mFlags
 NS_EVENT_FLAG_SYSTEM_EVENT
 )
 ;
-bool
+PRBool
 allowsUntrusted
 =
 !
@@ -5603,7 +5603,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsEventListenerManager
 :
 :

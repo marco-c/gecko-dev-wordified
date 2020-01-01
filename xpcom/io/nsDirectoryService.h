@@ -581,7 +581,7 @@ aFile
 )
 ;
 static
-bool
+PRBool
 ReleaseValues
 (
 nsHashKey

@@ -1821,7 +1821,7 @@ nsIAsyncInputStream
 nsIAsyncOutputStream
 *
 *
-bool
+PRBool
 isBackup
 )
 ;
@@ -2130,7 +2130,7 @@ seconds
 PRUint16
 mMaxPipelinedRequests
 ;
-bool
+PRPackedBool
 mIsShuttingDown
 ;
 /
@@ -2377,14 +2377,14 @@ void
 *
 )
 ;
-bool
+PRBool
 ProcessPendingQForEntry
 (
 nsConnectionEntry
 *
 )
 ;
-bool
+PRBool
 AtActiveConnectionLimit
 (
 nsConnectionEntry
@@ -2400,7 +2400,7 @@ nsConnectionEntry
 *
 nsHttpTransaction
 *
-bool
+PRBool
 nsHttpConnection
 *
 *
@@ -2419,7 +2419,7 @@ nsHttpConnection
 *
 )
 ;
-bool
+PRBool
 BuildPipeline
 (
 nsConnectionEntry

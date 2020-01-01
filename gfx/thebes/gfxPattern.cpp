@@ -983,7 +983,7 @@ mPattern
 )
 ;
 }
-bool
+PRBool
 gfxPattern
 :
 :

@@ -162,9 +162,7 @@ number
 ;
 contentWindow
 .
-Search
-.
-hide
+hideSearch
 (
 null
 )

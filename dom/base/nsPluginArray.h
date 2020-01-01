@@ -658,7 +658,7 @@ GetPlugins
 (
 )
 ;
-bool
+PRBool
 AllowPlugins
 (
 )

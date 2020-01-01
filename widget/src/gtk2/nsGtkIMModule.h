@@ -741,7 +741,7 @@ the
 normal
 editors
 .
-bool
+PRBool
 IsEnabled
 (
 )
@@ -827,7 +827,7 @@ focus
 void
 OnFocusChangeInGecko
 (
-bool
+PRBool
 aFocus
 )
 ;
@@ -896,7 +896,7 @@ before
 compositionstart
 event
 .
-bool
+PRBool
 OnKeyEvent
 (
 nsWindow
@@ -905,10 +905,10 @@ aWindow
 GdkEventKey
 *
 aEvent
-bool
+PRBool
 aKeyDownEventWasSent
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -973,7 +973,7 @@ Otherwise
 FALSE
 .
 static
-bool
+PRBool
 IsVirtualKeyboardOpened
 (
 )
@@ -1404,7 +1404,7 @@ is
 /
 TRUE
 .
-bool
+PRPackedBool
 mIsComposing
 ;
 /
@@ -1437,7 +1437,7 @@ gtk_im_context_focus_out
 (
 )
 .
-bool
+PRPackedBool
 mIsIMFocused
 ;
 /
@@ -1475,7 +1475,7 @@ commit
 /
 handler
 .
-bool
+PRPackedBool
 mFilterKeyEvent
 ;
 /
@@ -1522,7 +1522,7 @@ ShouldIgnoreNativeCompositionEvent
 (
 )
 .
-bool
+PRPackedBool
 mIgnoreNativeCompositionEvent
 ;
 /
@@ -1588,7 +1588,7 @@ dispatch
 keydown
 event
 .
-bool
+PRPackedBool
 mKeyDownEventWasSent
 ;
 /
@@ -1897,7 +1897,7 @@ disabled
 |
 editors
 .
-bool
+PRBool
 IsEditable
 (
 )
@@ -1917,7 +1917,7 @@ destroyed
 returns
 TRUE
 .
-bool
+PRBool
 IsDestroyed
 (
 )
@@ -2151,7 +2151,7 @@ GtkIMContext
 aContext
 )
 ;
-bool
+PRBool
 ShouldIgnoreNativeCompositionEvent
 (
 )
@@ -2220,7 +2220,7 @@ by
 the
 aString
 .
-bool
+PRBool
 CommitCompositionBy
 (
 const
@@ -2242,12 +2242,12 @@ composition
 end
 event
 .
-bool
+PRBool
 DispatchCompositionStart
 (
 )
 ;
-bool
+PRBool
 DispatchCompositionEnd
 (
 )
@@ -2278,14 +2278,14 @@ composing
 text
 event
 .
-bool
+PRBool
 DispatchTextEvent
 (
 const
 nsAString
 &
 aCompositionString
-bool
+PRBool
 aCheckAttr
 )
 ;

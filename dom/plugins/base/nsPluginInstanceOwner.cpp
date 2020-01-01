@@ -1085,7 +1085,7 @@ AsyncPaintWaitEvent
 nsIContent
 *
 aContent
-bool
+PRBool
 aFinished
 )
 :
@@ -1131,8 +1131,8 @@ NS_LITERAL_STRING
 MozPaintWait
 "
 )
-true
-true
+PR_TRUE
+PR_TRUE
 )
 ;
 return
@@ -1147,7 +1147,7 @@ nsIContent
 >
 mContent
 ;
-bool
+PRPackedBool
 mFinished
 ;
 }
@@ -1205,7 +1205,7 @@ new
 AsyncPaintWaitEvent
 (
 mContent
-false
+PR_FALSE
 )
 ;
 /
@@ -1332,7 +1332,7 @@ endif
 /
 /
 XP_MACOSX
-bool
+PRBool
 nsPluginInstanceOwner
 :
 :
@@ -1468,7 +1468,7 @@ image
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -1481,7 +1481,7 @@ nsnull
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 void
@@ -1603,7 +1603,7 @@ rect
 ;
 }
 }
-bool
+PRBool
 nsPluginInstanceOwner
 :
 :
@@ -1629,10 +1629,10 @@ GetImageContainer
 ;
 #
 endif
-bool
+PRBool
 useAsyncRendering
 ;
-bool
+PRBool
 result
 =
 (
@@ -1847,7 +1847,7 @@ mInCGPaintLevel
 ;
 mSentInitialTopLevelWindowEvent
 =
-false
+PR_FALSE
 ;
 mColorProfile
 =
@@ -1855,25 +1855,25 @@ nsnull
 ;
 mPluginPortChanged
 =
-false
+PR_FALSE
 ;
 #
 endif
 mContentFocused
 =
-false
+PR_FALSE
 ;
 mWidgetVisible
 =
-true
+PR_TRUE
 ;
 mPluginWindowVisible
 =
-false
+PR_FALSE
 ;
 mPluginDocumentActiveState
 =
-true
+PR_TRUE
 ;
 mNumCachedAttrs
 =
@@ -1893,7 +1893,7 @@ nsnull
 ;
 mDestroyWidget
 =
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -1917,7 +1917,7 @@ endif
 endif
 mWaitingForPaint
 =
-false
+PR_FALSE
 ;
 }
 nsPluginInstanceOwner
@@ -1979,7 +1979,7 @@ new
 AsyncPaintWaitEvent
 (
 mContent
-true
+PR_TRUE
 )
 ;
 NS_DispatchToMainThread
@@ -2590,16 +2590,15 @@ NS_ENSURE_ARG_POINTER
 aInstance
 )
 ;
+NS_IF_ADDREF
+(
+mInstance
+)
+;
 *
 aInstance
 =
 mInstance
-;
-NS_IF_ADDREF
-(
-*
-aInstance
-)
 ;
 return
 NS_OK
@@ -2892,7 +2891,7 @@ get
 )
 aPostStream
 headersDataStream
-true
+PR_TRUE
 )
 ;
 return
@@ -3269,7 +3268,7 @@ new
 AsyncPaintWaitEvent
 (
 mContent
-true
+PR_TRUE
 )
 ;
 NS_DispatchToMainThread
@@ -3442,7 +3441,7 @@ invalidRect
 >
 top
 )
-false
+PR_FALSE
 )
 ;
 return
@@ -4513,7 +4512,7 @@ mObjectFrame
 >
 CallSetWindow
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -4619,7 +4618,7 @@ if
 mWidget
 )
 return
-false
+PR_FALSE
 ;
 return
 NS_NPAPI_ConvertPointCocoa
@@ -4651,7 +4650,7 @@ for
 all
 platforms
 return
-false
+PR_FALSE
 ;
 #
 endif
@@ -8190,9 +8189,9 @@ t
 \
 b
 "
-true
-true
-false
+PR_TRUE
+PR_TRUE
+PR_FALSE
 )
 ;
 value
@@ -8209,9 +8208,9 @@ t
 \
 b
 "
-true
-true
-false
+PR_TRUE
+PR_TRUE
+PR_FALSE
 )
 ;
 mCachedAttrParamNames
@@ -8396,7 +8395,7 @@ return
 drawingModel
 ;
 }
-bool
+PRBool
 nsPluginInstanceOwner
 :
 :
@@ -8410,9 +8409,9 @@ if
 mInstance
 )
 return
-false
+PR_FALSE
 ;
-bool
+PRBool
 coreAnimation
 ;
 if
@@ -8431,7 +8430,7 @@ coreAnimation
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 coreAnimation
@@ -9634,7 +9633,7 @@ port
 ;
 mPluginPortChanged
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -9738,7 +9737,7 @@ window
 ;
 mPluginPortChanged
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -10382,7 +10381,7 @@ else
 {
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -10543,7 +10542,7 @@ StopPropagation
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -10559,7 +10558,7 @@ null
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -10690,7 +10689,7 @@ StopPropagation
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -10706,7 +10705,7 @@ null
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -10928,10 +10927,10 @@ back
 down
 .
 static
-bool
+PRBool
 sInKeyDispatch
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -10951,7 +10950,7 @@ consume
 event
 sInKeyDispatch
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -10963,7 +10962,7 @@ aKeyEvent
 ;
 sInKeyDispatch
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -11195,7 +11194,7 @@ StopPropagation
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -11211,7 +11210,7 @@ null
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -11445,7 +11444,7 @@ event
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -11461,7 +11460,7 @@ null
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -11639,7 +11638,7 @@ StopPropagation
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -11655,7 +11654,7 @@ null
 else
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 nsPluginInstanceOwner
 :
@@ -11707,7 +11706,7 @@ focus
 {
 mContentFocused
 =
-true
+PR_TRUE
 ;
 return
 DispatchFocusToPlugin
@@ -11730,7 +11729,7 @@ blur
 {
 mContentFocused
 =
-false
+PR_FALSE
 ;
 return
 DispatchFocusToPlugin
@@ -13820,7 +13819,7 @@ mObjectFrame
 >
 GetWindowOriginInPixels
 (
-true
+PR_TRUE
 )
 ;
 pPluginEvent
@@ -16015,7 +16014,7 @@ focus
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16030,7 +16029,7 @@ blur
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16045,7 +16044,7 @@ mouseup
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16060,7 +16059,7 @@ mousedown
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16075,7 +16074,7 @@ mousemove
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16090,7 +16089,7 @@ click
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16105,7 +16104,7 @@ dblclick
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16120,7 +16119,7 @@ mouseover
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16135,7 +16134,7 @@ mouseout
 "
 )
 this
-false
+PR_FALSE
 )
 ;
 mContent
@@ -16150,7 +16149,7 @@ keypress
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16165,7 +16164,7 @@ keydown
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16180,7 +16179,7 @@ keyup
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16195,7 +16194,7 @@ drop
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16210,7 +16209,7 @@ dragdrop
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16225,7 +16224,7 @@ drag
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16240,7 +16239,7 @@ dragenter
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16255,7 +16254,7 @@ dragover
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16270,7 +16269,7 @@ dragleave
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16285,7 +16284,7 @@ dragexit
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16300,7 +16299,7 @@ dragstart
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16315,7 +16314,7 @@ draggesture
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -16330,7 +16329,7 @@ dragend
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 #
@@ -16359,7 +16358,7 @@ text
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 #
@@ -16422,7 +16421,7 @@ nsPluginInstanceOwner
 :
 PrepareToStop
 (
-bool
+PRBool
 aDelayedStop
 )
 {
@@ -16700,7 +16699,7 @@ mWidget
 >
 Show
 (
-false
+PR_FALSE
 )
 ;
 mWidget
@@ -16708,7 +16707,7 @@ mWidget
 >
 Enable
 (
-false
+PR_FALSE
 )
 ;
 /
@@ -16751,7 +16750,7 @@ nsnull
 ;
 mDestroyWidget
 =
-true
+PR_TRUE
 ;
 }
 #
@@ -17653,7 +17652,7 @@ currentMatrix
 .
 ScaleFactors
 (
-true
+PR_TRUE
 )
 ;
 printf_stderr
@@ -18440,7 +18439,7 @@ Renderer
 DRAW_SUPPORTS_ALTERNATE_VISUAL
 ;
 }
-bool
+PRBool
 transparent
 ;
 mInstance
@@ -18741,10 +18740,10 @@ new
 window
 parameters
 .
-bool
+PRBool
 doupdatewindow
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -18790,7 +18789,7 @@ y
 ;
 doupdatewindow
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -18831,7 +18830,7 @@ height
 ;
 doupdatewindow
 =
-true
+PR_TRUE
 ;
 }
 /
@@ -19162,7 +19161,7 @@ newClipRect
 ;
 doupdatewindow
 =
-true
+PR_TRUE
 ;
 }
 NPSetWindowCallbackStruct
@@ -19234,7 +19233,7 @@ visual
 ;
 doupdatewindow
 =
-true
+PR_TRUE
 ;
 }
 #
@@ -19724,7 +19723,7 @@ nsPluginInstanceOwner
 :
 StartTimer
 (
-bool
+PRBool
 isVisible
 )
 {
@@ -19921,8 +19920,8 @@ focus
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -19937,8 +19936,8 @@ blur
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -19953,8 +19952,8 @@ mouseup
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -19969,8 +19968,8 @@ mousedown
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -19985,8 +19984,8 @@ mousemove
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -20001,8 +20000,8 @@ click
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -20017,8 +20016,8 @@ dblclick
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -20033,8 +20032,8 @@ mouseover
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -20049,8 +20048,8 @@ mouseout
 "
 )
 this
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 mContent
@@ -20065,7 +20064,7 @@ keypress
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20080,7 +20079,7 @@ keydown
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20095,7 +20094,7 @@ keyup
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20110,7 +20109,7 @@ drop
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20125,7 +20124,7 @@ dragdrop
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20140,7 +20139,7 @@ drag
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20155,7 +20154,7 @@ dragenter
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20170,7 +20169,7 @@ dragover
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20185,7 +20184,7 @@ dragleave
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20200,7 +20199,7 @@ dragexit
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20215,7 +20214,7 @@ dragstart
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20230,7 +20229,7 @@ draggesture
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 mContent
@@ -20245,7 +20244,7 @@ dragend
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 #
@@ -20274,7 +20273,7 @@ text
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 #
@@ -20560,10 +20559,10 @@ if
 mWidget
 )
 {
-bool
+PRBool
 windowless
 =
-false
+PR_FALSE
 ;
 mInstance
 -
@@ -20643,7 +20642,7 @@ GetWidget
 ;
 if
 (
-true
+PR_TRUE
 =
 =
 windowless
@@ -21021,7 +21020,7 @@ timer
 .
 StartTimer
 (
-true
+PR_TRUE
 )
 ;
 #
@@ -21351,7 +21350,7 @@ pluginOrigin
 nsIntRect
 widgetClip
 ;
-bool
+PRBool
 widgetVisible
 ;
 pluginWidget
@@ -21822,7 +21821,7 @@ CallSetWindow
 ;
 mPluginPortChanged
 =
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -21883,7 +21882,7 @@ bottom
 {
 StartTimer
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -21891,7 +21890,7 @@ else
 {
 StartTimer
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -21910,7 +21909,7 @@ CallSetWindow
 ;
 mPluginPortChanged
 =
-false
+PR_FALSE
 ;
 }
 /
@@ -21961,12 +21960,12 @@ recursion
 .
 mSentInitialTopLevelWindowEvent
 =
-true
+PR_TRUE
 ;
 nsPluginEvent
 pluginEvent
 (
-true
+PR_TRUE
 NS_PLUGIN_FOCUS_EVENT
 nsnull
 )
@@ -22128,7 +22127,7 @@ left
 ;
 mWidgetVisible
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -22167,7 +22166,7 @@ nsPluginInstanceOwner
 :
 UpdateWindowPositionAndClipRect
 (
-bool
+PRBool
 aSetWindow
 )
 {
@@ -22239,7 +22238,7 @@ oldWindow
 *
 mPluginWindow
 ;
-bool
+PRBool
 windowless
 =
 (
@@ -22558,7 +22557,7 @@ nsPluginInstanceOwner
 :
 UpdateWindowVisibility
 (
-bool
+PRBool
 aVisible
 )
 {
@@ -22568,7 +22567,7 @@ aVisible
 ;
 UpdateWindowPositionAndClipRect
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -22578,7 +22577,7 @@ nsPluginInstanceOwner
 :
 UpdateDocumentActiveState
 (
-bool
+PRBool
 aIsActive
 )
 {
@@ -22588,7 +22587,7 @@ aIsActive
 ;
 UpdateWindowPositionAndClipRect
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -22838,7 +22837,7 @@ contextmenu
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 return
@@ -22895,7 +22894,7 @@ contextmenu
 "
 )
 this
-true
+PR_TRUE
 )
 ;
 }

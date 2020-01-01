@@ -847,7 +847,7 @@ the
 adjacency
 list
 static
-bool
+PRBool
 DeleteAdjacencyEntry
 (
 nsHashKey
@@ -1980,7 +1980,7 @@ state
 table
 .
 static
-bool
+PRBool
 InitBFSTable
 (
 nsHashKey
@@ -2127,7 +2127,7 @@ BFS
 state
 table
 static
-bool
+PRBool
 DeleteBFSEntry
 (
 nsHashKey
@@ -3529,7 +3529,7 @@ const
 char
 *
 aToType
-bool
+PRBool
 *
 _retval
 )

@@ -4008,7 +4008,7 @@ return
 mScaledFont
 ;
 }
-bool
+PRBool
 gfxOS2Font
 :
 :
@@ -4973,7 +4973,7 @@ static
 PRInt32
 AppendDirectionalIndicatorUTF8
 (
-bool
+PRBool
 aIsRTL
 nsACString
 &
@@ -5402,7 +5402,7 @@ char
 aString
 )
 ;
-bool
+PRBool
 isRTL
 =
 textRun
@@ -6133,10 +6133,10 @@ aUTF8
 aUTF8Length
 )
 {
-bool
+PRBool
 glyphFound
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -7414,7 +7414,7 @@ if
 not
 already
 present
-bool
+PRBool
 gfxOS2FontGroup
 :
 :
@@ -7428,7 +7428,7 @@ const
 nsACString
 &
 aGenericName
-bool
+PRBool
 aUseFontSet
 void
 *

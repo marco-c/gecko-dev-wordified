@@ -570,7 +570,7 @@ be
 inline
 .
 virtual
-bool
+PRBool
 IsEqual
 (
 const

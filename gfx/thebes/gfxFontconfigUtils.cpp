@@ -1852,10 +1852,10 @@ aLang
 )
 ;
 }
-bool
+PRBool
 useWeakBinding
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2634,7 +2634,7 @@ x_user_def
 }
 ;
 static
-bool
+PRBool
 TryLangForGroup
 (
 const
@@ -3441,7 +3441,7 @@ gfxFontconfigUtils
 :
 UpdateFontListInternal
 (
-bool
+PRBool
 aForce
 )
 {
@@ -3707,7 +3707,7 @@ if
 entry
 )
 {
-bool
+PRBool
 added
 =
 entry
@@ -4496,10 +4496,10 @@ nfont
 )
 continue
 ;
-bool
+PRBool
 equal
 =
-true
+PR_TRUE
 ;
 for
 (
@@ -4647,7 +4647,7 @@ aCallback
 void
 *
 aClosure
-bool
+PRBool
 &
 aAborted
 )
@@ -4869,7 +4869,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 gfxFontconfigUtils
 :
 :
@@ -5022,7 +5022,7 @@ families
 or
 styles
 .
-bool
+PRBool
 gfxFontconfigUtils
 :
 :
@@ -5134,7 +5134,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 gfxFontconfigUtils
 :
 :
@@ -5367,7 +5367,7 @@ obtain
 the
 key
 .
-bool
+PRBool
 added
 =
 entry
@@ -6076,7 +6076,7 @@ const
 FcChar8
 *
 aLang
-bool
+PRBool
 aWithFonts
 )
 {
@@ -6666,7 +6666,7 @@ entry
 mFonts
 ;
 }
-bool
+PRBool
 gfxFontNameList
 :
 :

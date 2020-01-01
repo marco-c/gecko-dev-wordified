@@ -619,7 +619,7 @@ private
 nsresult
 StartTimer
 (
-bool
+PRBool
 aUseDelay
 )
 ;

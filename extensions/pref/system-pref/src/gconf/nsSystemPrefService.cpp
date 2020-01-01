@@ -781,7 +781,7 @@ void
 )
 ;
 typedef
-bool
+PRBool
 (
 *
 GConfClientGetBoolType
@@ -1023,7 +1023,7 @@ value
 )
 ;
 typedef
-bool
+PRBool
 (
 *
 GConfValueGetBoolType
@@ -1258,7 +1258,7 @@ GConfProxy
 (
 )
 ;
-bool
+PRBool
 Init
 (
 )
@@ -1270,7 +1270,7 @@ const
 char
 *
 aMozKey
-bool
+PRBool
 *
 retval
 )
@@ -1385,7 +1385,7 @@ PRLibrary
 *
 mGConfLib
 ;
-bool
+PRBool
 mInitialized
 ;
 nsSystemPrefService
@@ -1584,7 +1584,7 @@ nsISupports
 *
 observer
 ;
-bool
+PRBool
 bIsWeakRef
 ;
 PRUint32
@@ -1592,7 +1592,7 @@ prefAtom
 ;
 }
 ;
-bool
+PRBool
 sysPrefDeleteObserver
 (
 void
@@ -1880,7 +1880,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 *
 _retval
 )
@@ -1925,7 +1925,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 aValue
 )
 {
@@ -2254,7 +2254,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 *
 _retval
 )
@@ -2285,7 +2285,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 *
 _retval
 )
@@ -2463,7 +2463,7 @@ aDomain
 nsIObserver
 *
 aObserver
-bool
+PRBool
 aHoldWeak
 )
 {
@@ -3862,7 +3862,7 @@ nsnull
 }
 }
 ;
-bool
+PRBool
 gconfDeleteObserver
 (
 void
@@ -3983,7 +3983,7 @@ mGConfLib
 )
 ;
 }
-bool
+PRBool
 GConfProxy
 :
 :
@@ -4376,7 +4376,7 @@ const
 char
 *
 aMozKey
-bool
+PRBool
 *
 retval
 )

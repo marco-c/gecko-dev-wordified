@@ -608,7 +608,7 @@ NOT_FOUND
 1
 }
 ;
-bool
+PRBool
 Init
 (
 const

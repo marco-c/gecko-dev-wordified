@@ -772,7 +772,7 @@ aIndent
 )
 ;
 static
-bool
+PRBool
 CompareTrees
 (
 Node
@@ -2424,7 +2424,7 @@ r
 ;
 }
 static
-bool
+PRBool
 EatWS
 (
 FILE
@@ -2481,7 +2481,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 Expect
 (
 FILE
@@ -3644,7 +3644,7 @@ next
 ;
 }
 }
-bool
+PRBool
 nsFrameUtil
 :
 :
@@ -3658,10 +3658,10 @@ Node
 tree2
 )
 {
-bool
+PRBool
 result
 =
-true
+PR_TRUE
 ;
 for
 (
@@ -4450,7 +4450,7 @@ continue
 }
 else
 {
-bool
+PRBool
 equiv
 =
 CompareTrees

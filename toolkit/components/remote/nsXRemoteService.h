@@ -545,7 +545,7 @@ nsXRemoteService
 )
 ;
 static
-bool
+PRBool
 HandleNewProperty
 (
 Window

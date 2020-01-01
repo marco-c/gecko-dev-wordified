@@ -956,7 +956,7 @@ T_BOOL
 *
 (
 (
-bool
+PRBool
 *
 )
 l_d

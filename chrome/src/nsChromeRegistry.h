@@ -702,7 +702,7 @@ AllowScriptsForPackage
 nsIURI
 *
 url
-bool
+PRBool
 *
 _retval
 NS_OUTPARAM
@@ -714,7 +714,7 @@ AllowContentToAccess
 nsIURI
 *
 url
-bool
+PRBool
 *
 _retval
 NS_OUTPARAM
@@ -727,7 +727,7 @@ methods
 :
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 WrappersEnabled
 (
@@ -1324,7 +1324,7 @@ CONTENT_ACCESSIBLE
 2
 }
 ;
-bool
+PRBool
 mInitialized
 ;
 /

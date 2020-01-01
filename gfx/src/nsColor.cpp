@@ -967,7 +967,7 @@ component
 }
 NS_GFX_
 (
-bool
+PRBool
 )
 NS_HexToRGB
 (
@@ -1414,7 +1414,7 @@ color
 value
 NS_GFX_
 (
-bool
+PRBool
 )
 NS_LooseHexToRGB
 (
@@ -1597,10 +1597,10 @@ newdpc
 2
 )
 {
-bool
+PRBool
 haveNonzero
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -1857,7 +1857,7 @@ PR_TRUE
 }
 NS_GFX_
 (
-bool
+PRBool
 )
 NS_ColorNameToRGB
 (

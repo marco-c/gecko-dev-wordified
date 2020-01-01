@@ -444,7 +444,7 @@ nsXULTemplateResultSetRDF
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )

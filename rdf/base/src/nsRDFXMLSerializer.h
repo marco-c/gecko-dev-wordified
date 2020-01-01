@@ -646,14 +646,14 @@ aResource
 nsIRDFResource
 *
 aProperty
-bool
+PRBool
 aInline
 PRInt32
 *
 aSkipped
 )
 ;
-bool
+PRBool
 IsContainerProperty
 (
 nsIRDFResource
@@ -718,7 +718,7 @@ CollectNamespaces
 (
 )
 ;
-bool
+PRBool
 IsA
 (
 nsIRDFDataSource

@@ -897,7 +897,7 @@ virtual
 void
 ClearForm
 (
-bool
+PRBool
 aRemoveFromForm
 )
 =
@@ -1148,7 +1148,7 @@ otherwise
 *
 /
 virtual
-bool
+PRBool
 RestoreState
 (
 nsPresState
@@ -1159,7 +1159,7 @@ aState
 0
 ;
 virtual
-bool
+PRBool
 AllowDrop
 (
 )
@@ -1199,7 +1199,7 @@ control
 *
 /
 inline
-bool
+PRBool
 IsSubmitControl
 (
 )
@@ -1238,10 +1238,10 @@ control
 *
 /
 inline
-bool
+PRBool
 IsTextControl
 (
-bool
+PRBool
 aExcludePassword
 )
 const
@@ -1283,10 +1283,10 @@ control
 *
 /
 inline
-bool
+PRBool
 IsSingleLineTextControl
 (
-bool
+PRBool
 aExcludePassword
 )
 const
@@ -1317,7 +1317,7 @@ control
 *
 /
 inline
-bool
+PRBool
 IsLabelableControl
 (
 )
@@ -1349,7 +1349,7 @@ control
 *
 /
 inline
-bool
+PRBool
 IsSubmittableControl
 (
 )
@@ -1383,7 +1383,7 @@ children
 *
 /
 inline
-bool
+PRBool
 AllowDraggableChildren
 (
 )
@@ -1488,7 +1488,7 @@ const
 ;
 }
 ;
-bool
+PRBool
 nsIFormControl
 :
 :
@@ -1523,13 +1523,13 @@ type
 NS_FORM_BUTTON_SUBMIT
 ;
 }
-bool
+PRBool
 nsIFormControl
 :
 :
 IsTextControl
 (
-bool
+PRBool
 aExcludePassword
 )
 const
@@ -1555,13 +1555,13 @@ type
 )
 ;
 }
-bool
+PRBool
 nsIFormControl
 :
 :
 IsSingleLineTextControl
 (
-bool
+PRBool
 aExcludePassword
 )
 const
@@ -1636,7 +1636,7 @@ NS_FORM_INPUT_PASSWORD
 )
 ;
 }
-bool
+PRBool
 nsIFormControl
 :
 :
@@ -1741,7 +1741,7 @@ type
 NS_FORM_TEXTAREA
 ;
 }
-bool
+PRBool
 nsIFormControl
 :
 :
@@ -1808,7 +1808,7 @@ type
 NS_FORM_INPUT_ELEMENT
 ;
 }
-bool
+PRBool
 nsIFormControl
 :
 :

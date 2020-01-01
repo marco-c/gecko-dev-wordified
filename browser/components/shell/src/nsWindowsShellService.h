@@ -509,15 +509,15 @@ NS_DECL_NSISHELLSERVICE
 NS_DECL_NSIWINDOWSSHELLSERVICE
 protected
 :
-bool
+PRBool
 IsDefaultBrowserVista
 (
-bool
+PRBool
 *
 aIsDefaultBrowser
 )
 ;
-bool
+PRBool
 GetMailAccountKey
 (
 HKEY
@@ -527,7 +527,7 @@ aResult
 ;
 private
 :
-bool
+PRBool
 mCheckedThisSession
 ;
 }

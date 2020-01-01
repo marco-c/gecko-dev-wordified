@@ -613,7 +613,7 @@ const
 PRUnichar
 *
 aChars
-bool
+PRBool
 *
 aSuccess
 )
@@ -839,7 +839,7 @@ const
 nsAString
 &
 aString
-bool
+PRBool
 *
 aSuccess
 )

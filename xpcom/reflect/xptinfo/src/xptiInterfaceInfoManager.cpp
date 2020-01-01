@@ -2837,7 +2837,7 @@ NS_OK
 }
 /
 *
-bool
+PRBool
 hasAdditionalManagers
 (
 )
@@ -2850,7 +2850,7 @@ xptiInterfaceInfoManager
 :
 HasAdditionalManagers
 (
-bool
+PRBool
 *
 _retval
 )

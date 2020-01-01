@@ -1334,7 +1334,7 @@ rv
 #
 ifdef
 DEBUG
-bool
+PRBool
 isChrome
 ;
 aChromeURL
@@ -2424,7 +2424,7 @@ windowEnumerator
 )
 )
 ;
-bool
+PRBool
 more
 ;
 windowEnumerator
@@ -2638,7 +2638,7 @@ nsnull
 ;
 }
 static
-bool
+PRBool
 IsChromeURI
 (
 nsIURI
@@ -2646,10 +2646,10 @@ nsIURI
 aURI
 )
 {
-bool
+PRBool
 isChrome
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3523,7 +3523,7 @@ Get
 each
 dom
 window
-bool
+PRBool
 more
 ;
 rv
@@ -3677,7 +3677,7 @@ AllowScriptsForPackage
 nsIURI
 *
 aChromeURI
-bool
+PRBool
 *
 aResult
 )
@@ -3693,7 +3693,7 @@ PR_FALSE
 #
 ifdef
 DEBUG
-bool
+PRBool
 isChrome
 ;
 aChromeURI
@@ -3792,7 +3792,7 @@ AllowContentToAccess
 nsIURI
 *
 aURI
-bool
+PRBool
 *
 aResult
 )
@@ -3808,7 +3808,7 @@ PR_FALSE
 #
 ifdef
 DEBUG
-bool
+PRBool
 isChrome
 ;
 aURI
@@ -3932,7 +3932,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsChromeRegistry
 :
@@ -3964,10 +3964,10 @@ chromeURL
 return
 PR_FALSE
 ;
-bool
+PRBool
 isChrome
 =
-false
+PR_FALSE
 ;
 nsresult
 rv

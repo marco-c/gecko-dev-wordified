@@ -465,7 +465,7 @@ nsReadableUtils
 h
 "
 static
-bool
+PRBool
 ParseLocaleString
 (
 const
@@ -980,7 +980,7 @@ CC
 .
 Extra
 static
-bool
+PRBool
 ParseLocaleString
 (
 const

@@ -628,7 +628,7 @@ change
 .
 *
 /
-bool
+PRBool
 SyncAssignments
 (
 nsIRDFResource
@@ -663,7 +663,7 @@ element
 .
 *
 /
-bool
+PRBool
 HasMemoryElement
 (
 const

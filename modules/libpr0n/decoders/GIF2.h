@@ -958,7 +958,7 @@ renders
 .
 *
 /
-bool
+PRPackedBool
 progressive_display
 ;
 /
@@ -971,7 +971,7 @@ interlace
 hack
 *
 /
-bool
+PRPackedBool
 interlaced
 ;
 /
@@ -984,7 +984,7 @@ interlaced
 order
 *
 /
-bool
+PRPackedBool
 is_transparent
 ;
 /

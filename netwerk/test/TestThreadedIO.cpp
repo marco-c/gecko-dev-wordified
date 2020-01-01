@@ -918,7 +918,7 @@ p
 ;
 private
 :
-bool
+PRBool
 mDone
 ;
 int

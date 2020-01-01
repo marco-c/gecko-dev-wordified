@@ -134,7 +134,7 @@ CHECK_EQUAL
 regexpProto
 -
 >
-compartment
+getCompartment
 (
 )
 -
@@ -181,7 +181,7 @@ CHECK_EQUAL
 robj
 -
 >
-compartment
+getCompartment
 (
 )
 -
@@ -317,7 +317,7 @@ front
 regexpProto
 -
 >
-compartment
+getCompartment
 (
 )
 -
@@ -466,7 +466,7 @@ front
 regexpProto
 -
 >
-compartment
+getCompartment
 (
 )
 -

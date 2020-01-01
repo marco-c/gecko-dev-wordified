@@ -1630,10 +1630,10 @@ nsIUnicodeDecoder
 decoder
 ;
 static
-bool
+PRBool
 hasConverter
 =
-false
+PR_FALSE
 ;
 if
 (

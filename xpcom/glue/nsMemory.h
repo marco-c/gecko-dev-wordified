@@ -648,7 +648,7 @@ NS_COM_GLUE
 nsresult
 HeapMinimize
 (
-bool
+PRBool
 aImmediate
 )
 ;

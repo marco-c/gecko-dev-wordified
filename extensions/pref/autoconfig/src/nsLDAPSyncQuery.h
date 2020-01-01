@@ -577,7 +577,7 @@ mServerURL
 /
 LDAP
 URL
-bool
+PRBool
 mFinished
 ;
 /

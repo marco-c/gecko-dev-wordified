@@ -667,7 +667,7 @@ continue
 *
 /
 typedef
-bool
+PRBool
 (
 *
 INISectionCallback
@@ -726,7 +726,7 @@ continue
 *
 /
 typedef
-bool
+PRBool
 (
 *
 INIStringCallback

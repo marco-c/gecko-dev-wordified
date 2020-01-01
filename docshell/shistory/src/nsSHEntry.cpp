@@ -846,7 +846,7 @@ mStateData
 {
 }
 static
-bool
+PRBool
 ClearParentPtr
 (
 nsISHEntry
@@ -1300,7 +1300,7 @@ nsSHEntry
 :
 GetURIWasModified
 (
-bool
+PRBool
 *
 aOut
 )
@@ -1320,7 +1320,7 @@ nsSHEntry
 :
 SetURIWasModified
 (
-bool
+PRBool
 aIn
 )
 {
@@ -1665,7 +1665,7 @@ nsSHEntry
 :
 SetSticky
 (
-bool
+PRBool
 aSticky
 )
 {
@@ -1686,7 +1686,7 @@ nsSHEntry
 :
 GetSticky
 (
-bool
+PRBool
 *
 aSticky
 )
@@ -2016,7 +2016,7 @@ nsSHEntry
 :
 GetIsSubFrame
 (
-bool
+PRBool
 *
 aFlag
 )
@@ -2039,7 +2039,7 @@ nsSHEntry
 :
 SetIsSubFrame
 (
-bool
+PRBool
 aFlag
 )
 {
@@ -2112,7 +2112,7 @@ nsSHEntry
 :
 GetSaveLayoutStateFlag
 (
-bool
+PRBool
 *
 aFlag
 )
@@ -2135,7 +2135,7 @@ nsSHEntry
 :
 SetSaveLayoutStateFlag
 (
-bool
+PRBool
 aFlag
 )
 {
@@ -2177,7 +2177,7 @@ nsSHEntry
 :
 GetExpirationStatus
 (
-bool
+PRBool
 *
 aFlag
 )
@@ -2200,7 +2200,7 @@ nsSHEntry
 :
 SetExpirationStatus
 (
-bool
+PRBool
 aFlag
 )
 {
@@ -2291,7 +2291,7 @@ nsISupports
 aOwner
 PRUint64
 aDocShellID
-bool
+PRBool
 aDynamicCreation
 )
 {
@@ -2742,7 +2742,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSHEntry
 :
 :
@@ -2827,7 +2827,7 @@ SharesDocumentWith
 nsISHEntry
 *
 aEntry
-bool
+PRBool
 *
 aOut
 )
@@ -3229,10 +3229,10 @@ n
 "
 )
 ;
-bool
+PRBool
 newChildIsDyn
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3328,10 +3328,10 @@ if
 entry
 )
 {
-bool
+PRBool
 dyn
 =
-false
+PR_FALSE
 ;
 entry
 -
@@ -3555,10 +3555,10 @@ if
 entry
 )
 {
-bool
+PRBool
 dyn
 =
-false
+PR_FALSE
 ;
 entry
 -
@@ -3768,15 +3768,15 @@ aChild
 NS_ERROR_FAILURE
 )
 ;
-bool
+PRBool
 childRemoved
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 dynamic
 =
-false
+PR_FALSE
 ;
 aChild
 -
@@ -4208,7 +4208,7 @@ aData
 ;
 }
 }
-bool
+PRBool
 nsSHEntry
 :
 :
@@ -4280,7 +4280,7 @@ nsSHEntry
 :
 IsDynamicallyAdded
 (
-bool
+PRBool
 *
 aAdded
 )
@@ -4303,7 +4303,7 @@ nsSHEntry
 :
 HasDynamicallyAddedChild
 (
-bool
+PRBool
 *
 aAdded
 )

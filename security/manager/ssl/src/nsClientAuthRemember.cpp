@@ -1102,7 +1102,7 @@ aCert
 nsACString
 &
 aCertDBKey
-bool
+PRBool
 *
 _retval
 )

@@ -687,7 +687,7 @@ PR_TRUE
 *
 *
 /
-bool
+PRBool
 GetWidthOrHeight
 (
 Dimension
@@ -850,7 +850,7 @@ aPresShell
 *
 Returns
 a
-bool
+PRBool
 indicating
 whether
 the
@@ -896,7 +896,7 @@ SVG
 *
 /
 inline
-bool
+PRBool
 ParsedSuccessfully
 (
 )
@@ -1055,7 +1055,7 @@ FlushImageTransformInvalidation
 *
 Returns
 a
-bool
+PRBool
 indicating
 whether
 the
@@ -1082,7 +1082,7 @@ PR_FALSE
 .
 *
 /
-bool
+PRBool
 IsAnimated
 (
 )
@@ -1124,7 +1124,7 @@ doc
 .
 *
 /
-bool
+PRBool
 ShouldIgnoreInvalidation
 (
 )
@@ -1215,10 +1215,10 @@ nsIStreamListener
 >
 mListener
 ;
-bool
+PRPackedBool
 mIgnoreInvalidation
 ;
-bool
+PRPackedBool
 mRegisteredForXPCOMShutdown
 ;
 /

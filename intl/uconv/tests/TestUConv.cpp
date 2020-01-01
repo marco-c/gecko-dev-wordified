@@ -1815,7 +1815,7 @@ res
 return
 res
 ;
-bool
+PRBool
 hasMore
 ;
 encoders
@@ -2125,7 +2125,7 @@ n
 "
 )
 ;
-bool
+PRBool
 hasMore
 ;
 detectors
@@ -2481,7 +2481,7 @@ allCharsets
 nsCAutoString
 charset
 ;
-bool
+PRBool
 hasMore
 ;
 encoders

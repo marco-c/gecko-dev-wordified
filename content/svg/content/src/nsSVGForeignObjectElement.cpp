@@ -1278,7 +1278,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGForeignObjectElement
 :

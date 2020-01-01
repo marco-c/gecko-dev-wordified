@@ -774,7 +774,7 @@ src
 )
 ;
 }
-bool
+PRBool
 SVGLengthListSMILType
 :
 :

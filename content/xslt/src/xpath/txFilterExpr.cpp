@@ -856,7 +856,7 @@ aExpr
 ;
 }
 }
-bool
+PRBool
 FilterExpr
 :
 :

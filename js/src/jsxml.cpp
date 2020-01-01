@@ -1666,10 +1666,7 @@ isNamespace
 ReportIncompatibleMethod
 (
 cx
-CallReceiverFromVp
-(
 vp
-)
 &
 NamespaceClass
 )
@@ -2759,10 +2756,7 @@ isQName
 ReportIncompatibleMethod
 (
 cx
-CallReceiverFromVp
-(
 vp
-)
 &
 QNameClass
 )
@@ -33343,10 +33337,7 @@ isXML
 ReportIncompatibleMethod
 (
 cx
-CallReceiverFromVp
-(
 vp
-)
 &
 XMLClass
 )
@@ -33577,10 +33568,7 @@ isXML
 ReportIncompatibleMethod
 (
 cx
-CallReceiverFromVp
-(
 vp
-)
 &
 XMLClass
 )
@@ -36298,10 +36286,7 @@ isXML
 ReportIncompatibleMethod
 (
 cx
-CallReceiverFromVp
-(
 vp
-)
 &
 XMLClass
 )

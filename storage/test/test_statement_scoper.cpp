@@ -631,7 +631,7 @@ scoper
 stmt
 )
 ;
-bool
+PRBool
 hasMore
 ;
 do_check_true
@@ -874,7 +874,7 @@ scoper
 stmt
 )
 ;
-bool
+PRBool
 hasMore
 ;
 do_check_true

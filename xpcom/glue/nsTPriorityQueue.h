@@ -663,7 +663,7 @@ otherwise
 .
 *
 /
-bool
+PRBool
 IsEmpty
 (
 )
@@ -844,7 +844,7 @@ memory
 .
 *
 /
-bool
+PRBool
 Push
 (
 const

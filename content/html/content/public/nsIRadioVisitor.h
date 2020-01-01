@@ -614,7 +614,7 @@ nsIRadioControlElement
 *
 /
 virtual
-bool
+PRBool
 Visit
 (
 nsIFormControl

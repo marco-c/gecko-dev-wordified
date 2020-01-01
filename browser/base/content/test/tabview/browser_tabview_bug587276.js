@@ -160,9 +160,7 @@ ok
 (
 contentWindow
 .
-Search
-.
-isEnabled
+isSearchEnabled
 (
 )
 "
@@ -210,9 +208,7 @@ ok
 !
 contentWindow
 .
-Search
-.
-isEnabled
+isSearchEnabled
 (
 )
 "

@@ -502,7 +502,7 @@ char
 clientID
 nsCacheStoragePolicy
 storagePolicy
-bool
+PRBool
 streamBased
 )
 ;
@@ -560,7 +560,7 @@ mInfo
 eStreamBasedMask
 ;
 }
-bool
+PRBool
 IsStreamBased
 (
 )
@@ -599,7 +599,7 @@ mInfo
 eDoomEntriesIfExpiredMask
 ;
 }
-bool
+PRBool
 WillDoomEntriesIfExpired
 (
 )

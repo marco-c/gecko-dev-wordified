@@ -1435,7 +1435,7 @@ XP_MACOSX
 nsresult
 IsRemoteDrawingCoreAnimation
 (
-bool
+PRBool
 *
 aDrawing
 )

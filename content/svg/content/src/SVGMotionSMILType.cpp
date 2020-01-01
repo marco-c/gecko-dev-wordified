@@ -1085,7 +1085,7 @@ mPath
 /
 Comparison
 operators
-bool
+PRBool
 operator
 =
 =
@@ -1258,7 +1258,7 @@ mDistToPoint
 )
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -1700,7 +1700,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 SVGMotionSMILType
 :
 :

@@ -2213,7 +2213,7 @@ hook
 forwarded
 *
 to
-JS_EnumerateState
+js_Enumerate
 which
 really
 means

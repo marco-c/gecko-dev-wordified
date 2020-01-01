@@ -1040,7 +1040,7 @@ nsDocShellEditorData
 :
 MakeEditable
 (
-bool
+PRBool
 inWaitForUriLoad
 )
 {
@@ -1266,7 +1266,7 @@ GetEditable
 -
 *
 /
-bool
+PRBool
 nsDocShellEditorData
 :
 :

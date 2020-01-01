@@ -489,7 +489,7 @@ nsDOMCloseEvent
 :
 GetWasClean
 (
-bool
+PRBool
 *
 aWasClean
 )
@@ -552,11 +552,11 @@ const
 nsAString
 &
 aType
-bool
+PRBool
 aCanBubble
-bool
+PRBool
 aCancelable
-bool
+PRBool
 aWasClean
 PRUint16
 aReasonCode

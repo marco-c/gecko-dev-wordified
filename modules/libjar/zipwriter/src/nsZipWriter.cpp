@@ -758,7 +758,7 @@ nsZipWriter
 :
 GetInQueue
 (
-bool
+PRBool
 *
 aInQueue
 )
@@ -1682,7 +1682,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -1976,7 +1976,7 @@ const
 nsACString
 &
 aZipEntry
-bool
+PRBool
 *
 _retval
 )
@@ -2027,7 +2027,7 @@ nsACString
 aZipEntry
 PRTime
 aModTime
-bool
+PRBool
 aQueue
 )
 {
@@ -2141,7 +2141,7 @@ aCompression
 nsIFile
 *
 aFile
-bool
+PRBool
 aQueue
 )
 {
@@ -2232,7 +2232,7 @@ mInQueue
 return
 NS_ERROR_IN_PROGRESS
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -2260,7 +2260,7 @@ exists
 return
 NS_ERROR_FILE_NOT_FOUND
 ;
-bool
+PRBool
 isdir
 ;
 rv
@@ -2443,7 +2443,7 @@ aCompression
 nsIChannel
 *
 aChannel
-bool
+PRBool
 aQueue
 )
 {
@@ -2637,7 +2637,7 @@ aCompression
 nsIInputStream
 *
 aStream
-bool
+PRBool
 aQueue
 )
 {
@@ -2700,7 +2700,7 @@ aCompression
 nsIInputStream
 *
 aStream
-bool
+PRBool
 aQueue
 PRUint32
 aPermissions
@@ -2963,7 +2963,7 @@ const
 nsACString
 &
 aZipEntry
-bool
+PRBool
 aQueue
 )
 {
@@ -4704,7 +4704,7 @@ BeginProcessingAddition
 nsZipQueueItem
 *
 aItem
-bool
+PRBool
 *
 complete
 )
@@ -4717,7 +4717,7 @@ aItem
 mFile
 )
 {
-bool
+PRBool
 exists
 ;
 nsresult
@@ -4749,7 +4749,7 @@ exists
 return
 NS_ERROR_FILE_NOT_FOUND
 ;
-bool
+PRBool
 isdir
 ;
 rv
@@ -5700,10 +5700,10 @@ NS_ERROR_FILE_ALREADY_EXISTS
 return
 ;
 }
-bool
+PRBool
 complete
 =
-false
+PR_FALSE
 ;
 nsresult
 rv

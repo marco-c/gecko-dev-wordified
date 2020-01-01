@@ -432,7 +432,7 @@ attempted
 *
 /
 static
-bool
+PRBool
 OnConnectionFailed
 (
 const
@@ -462,7 +462,7 @@ system
 *
 /
 static
-bool
+PRBool
 IsAutodialEnabled
 (
 )

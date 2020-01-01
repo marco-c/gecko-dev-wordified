@@ -1040,7 +1040,7 @@ FilterInstantiations
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 *
 aCantHandleYet
 )
@@ -1105,7 +1105,7 @@ last
 inst
 )
 {
-bool
+PRBool
 hasSourceBinding
 ;
 nsCOMPtr
@@ -1160,7 +1160,7 @@ sourceValue
 )
 ;
 }
-bool
+PRBool
 hasTargetBinding
 ;
 nsCOMPtr
@@ -1334,7 +1334,7 @@ assignment
 that
 is
 consistent
-bool
+PRBool
 hasAssertion
 ;
 rv
@@ -1575,7 +1575,7 @@ while
 1
 )
 {
-bool
+PRBool
 hasMore
 ;
 rv
@@ -2006,7 +2006,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsRDFPropertyTestNode
 :
 :
@@ -2027,7 +2027,7 @@ aInitialBindings
 )
 const
 {
-bool
+PRBool
 result
 ;
 if

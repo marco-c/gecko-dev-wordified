@@ -568,7 +568,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 Equals
 (
 const

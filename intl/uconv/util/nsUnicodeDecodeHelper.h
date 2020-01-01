@@ -585,10 +585,10 @@ aShiftInTable
 uMappingTable
 *
 aMappingTable
-bool
+PRBool
 aErrorSignal
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -636,10 +636,10 @@ uMappingTable
 *
 *
 aMappingTable
-bool
+PRBool
 aErrorSignal
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -679,7 +679,7 @@ PRUnichar
 aFastTable
 PRInt32
 aTableSize
-bool
+PRBool
 aErrorSignal
 )
 ;

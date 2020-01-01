@@ -972,7 +972,7 @@ aId
 jsval
 *
 _result
-bool
+PRBool
 *
 _retval
 )

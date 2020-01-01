@@ -912,7 +912,7 @@ mAnimationElement
 aAnimationElement
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -933,10 +933,10 @@ nsresult
 aParseResult
 )
 {
-bool
+PRBool
 foundMatch
 =
-true
+PR_TRUE
 ;
 nsresult
 parseResult
@@ -1214,7 +1214,7 @@ return
 foundMatch
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -1225,10 +1225,10 @@ nsIAtom
 aAttribute
 )
 {
-bool
+PRBool
 foundMatch
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -1619,7 +1619,7 @@ nsSMILAnimationFunction
 :
 Inactivate
 (
-bool
+PRBool
 aIsFrozen
 )
 {
@@ -1861,7 +1861,7 @@ function
 failed
 unexpectedly
 .
-bool
+PRBool
 isAdditive
 =
 IsAdditive
@@ -2430,7 +2430,7 @@ otherContent
 1
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -2533,7 +2533,7 @@ mHasChanged
 )
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -2549,7 +2549,7 @@ mHasChanged
 mValueNeedsReparsingEverySample
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -5036,7 +5036,7 @@ aProgress
 )
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -5082,7 +5082,7 @@ aAttName
 )
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -5240,7 +5240,7 @@ PR_TRUE
 .
 *
 /
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -5256,7 +5256,7 @@ aSMILAttr
 nsSMILValue
 &
 aResult
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )
@@ -5274,7 +5274,7 @@ attValue
 )
 )
 {
-bool
+PRBool
 preventCachingOfSandwich
 ;
 nsresult
@@ -5532,7 +5532,7 @@ values
 attValue
 )
 ;
-bool
+PRBool
 preventCachingOfSandwich
 ;
 nsresult
@@ -5582,15 +5582,15 @@ by
 }
 else
 {
-bool
+PRBool
 preventCachingOfSandwich
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 parseOk
 =
-true
+PR_TRUE
 ;
 nsSMILValue
 to
@@ -6025,7 +6025,7 @@ to
 be
 2
 .
-bool
+PRBool
 matchingNumOfValues
 =
 numKeyTimes
@@ -6336,7 +6336,7 @@ PR_FALSE
 )
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -6438,7 +6438,7 @@ mPrevSampleWasSingleValueAnimation
 /
 Property
 getters
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -6477,7 +6477,7 @@ GetEnumValue
 )
 ;
 }
-bool
+PRBool
 nsSMILAnimationFunction
 :
 :
@@ -6661,7 +6661,7 @@ mHasChanged
 =
 PR_TRUE
 ;
-bool
+PRBool
 parseResult
 =
 aResult
@@ -6724,7 +6724,7 @@ mHasChanged
 =
 PR_TRUE
 ;
-bool
+PRBool
 parseResult
 =
 aResult
@@ -6787,7 +6787,7 @@ mHasChanged
 =
 PR_TRUE
 ;
-bool
+PRBool
 parseResult
 =
 aResult

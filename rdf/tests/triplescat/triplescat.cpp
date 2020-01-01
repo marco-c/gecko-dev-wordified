@@ -1017,7 +1017,7 @@ NS_ERROR_NOT_IMPLEMENTED
 NS_IMETHOD
 IsNonBlocking
 (
-bool
+PRBool
 *
 aNonBlocking
 )
@@ -1334,10 +1334,10 @@ do_GetCurrentThread
 (
 )
 ;
-bool
+PRBool
 done
 =
-false
+PR_FALSE
 ;
 while
 (

@@ -557,13 +557,13 @@ aURL
 nsIPrincipal
 *
 aOriginPrincipal
-bool
+PRBool
 aAugmentFlag
 nsXBLBinding
 *
 *
 aBinding
-bool
+PRBool
 *
 aResolveStyle
 )
@@ -591,7 +591,7 @@ aBoundElement
 nsIURI
 *
 aURI
-bool
+PRBool
 *
 aIsReady
 )
@@ -683,7 +683,7 @@ aBindingURI
 nsIPrincipal
 *
 aOriginPrincipal
-bool
+PRBool
 aForceSyncLoad
 nsXBLDocumentInfo
 *

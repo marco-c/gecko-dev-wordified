@@ -1463,7 +1463,7 @@ PR_IntervalNow
 )
 {
 }
-bool
+PRBool
 Reset
 (
 )
@@ -1918,7 +1918,7 @@ addr
 )
 ;
 }
-bool
+PRBool
 nsHostRecord
 :
 :
@@ -2368,7 +2368,7 @@ af
 ;
 }
 static
-bool
+PRBool
 HostDB_MatchEntry
 (
 PLDHashTable
@@ -2744,7 +2744,7 @@ rec
 ;
 }
 static
-bool
+PRBool
 HostDB_InitEntry
 (
 PLDHashTable
@@ -3561,7 +3561,7 @@ endif
 }
 static
 inline
-bool
+PRBool
 IsHighPriority
 (
 PRUint16
@@ -3589,7 +3589,7 @@ RES_PRIORITY_MEDIUM
 }
 static
 inline
-bool
+PRBool
 IsMediumPriority
 (
 PRUint16
@@ -3607,7 +3607,7 @@ RES_PRIORITY_MEDIUM
 }
 static
 inline
-bool
+PRBool
 IsLowPriority
 (
 PRUint16
@@ -5238,7 +5238,7 @@ onQueue
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsHostResolver
 :
 :
@@ -5250,10 +5250,10 @@ nsHostRecord
 result
 )
 {
-bool
+PRBool
 timedOut
 =
-false
+PR_FALSE
 ;
 PRIntervalTime
 epoch

@@ -743,7 +743,7 @@ aOldStyleContext
 nsStyleContext
 *
 aNewStyleContext
-bool
+PRBool
 *
 aStartedAny
 nsCSSPropertySet
@@ -769,7 +769,7 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
-bool
+PRBool
 aCreateIfNeeded
 )
 ;

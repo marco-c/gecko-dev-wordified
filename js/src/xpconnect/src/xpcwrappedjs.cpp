@@ -3201,7 +3201,7 @@ cur
 mNext
 )
 {
-bool
+PRBool
 found
 ;
 if
@@ -4036,7 +4036,7 @@ XPC_LOG_INDENT
 (
 )
 ;
-bool
+PRBool
 isRoot
 =
 mRoot

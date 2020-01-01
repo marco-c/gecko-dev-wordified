@@ -1387,7 +1387,7 @@ xptiWorkingSet
 (
 )
 ;
-bool
+PRBool
 IsValid
 (
 )
@@ -1451,7 +1451,7 @@ nsILocalFile
 dir
 )
 ;
-bool
+PRBool
 FindDirectory
 (
 nsILocalFile
@@ -1462,7 +1462,7 @@ PRUint32
 index
 )
 ;
-bool
+PRBool
 FindDirectoryOfFile
 (
 nsILocalFile
@@ -1473,7 +1473,7 @@ PRUint32
 index
 )
 ;
-bool
+PRBool
 DirectoryAtMatchesPersistentDescriptor
 (
 PRUint32
@@ -1790,7 +1790,7 @@ SetFlagBit
 (
 PRUint8
 flag
-bool
+PRBool
 on
 )
 {
@@ -1820,7 +1820,7 @@ GetStateMask
 flag
 ;
 }
-bool
+PRBool
 GetFlagBit
 (
 PRUint8
@@ -2003,7 +2003,7 @@ GetState
 )
 ;
 }
-bool
+PRBool
 IsFullyResolved
 (
 )
@@ -2024,7 +2024,7 @@ FULLY_RESOLVED
 void
 SetScriptableFlag
 (
-bool
+PRBool
 on
 )
 {
@@ -2040,7 +2040,7 @@ on
 )
 ;
 }
-bool
+PRBool
 GetScriptableFlag
 (
 )
@@ -2061,7 +2061,7 @@ SCRIPTABLE
 void
 SetBuiltinClassFlag
 (
-bool
+PRBool
 on
 )
 {
@@ -2077,7 +2077,7 @@ on
 )
 ;
 }
-bool
+PRBool
 GetBuiltinClassFlag
 (
 )
@@ -2120,7 +2120,7 @@ return
 mName
 ;
 }
-bool
+PRBool
 EnsureResolved
 (
 )
@@ -2146,7 +2146,7 @@ xptiInterfaceInfo
 info
 )
 ;
-bool
+PRBool
 InterfaceInfoEquals
 (
 const
@@ -2274,7 +2274,7 @@ aIID
 nsresult
 IsScriptable
 (
-bool
+PRBool
 *
 _retval
 )
@@ -2282,7 +2282,7 @@ _retval
 nsresult
 IsBuiltinClass
 (
-bool
+PRBool
 *
 _retval
 )
@@ -2471,7 +2471,7 @@ const
 nsIID
 *
 IID
-bool
+PRBool
 *
 _retval
 )
@@ -2499,7 +2499,7 @@ iid
 nsresult
 IsFunction
 (
-bool
+PRBool
 *
 _retval
 )
@@ -2511,7 +2511,7 @@ const
 nsIID
 *
 iid
-bool
+PRBool
 *
 _retval
 )
@@ -2575,7 +2575,7 @@ state
 )
 ;
 }
-bool
+PRBool
 Resolve
 (
 )
@@ -2621,7 +2621,7 @@ the
 locked
 state
 .
-bool
+PRBool
 EnsureResolvedLocked
 (
 )
@@ -2638,7 +2638,7 @@ ResolveLocked
 )
 ;
 }
-bool
+PRBool
 ResolveLocked
 (
 )
@@ -2812,7 +2812,7 @@ aIID
 NS_IMETHOD
 IsScriptable
 (
-bool
+PRBool
 *
 _retval
 )
@@ -2835,7 +2835,7 @@ _retval
 NS_IMETHOD
 IsBuiltinClass
 (
-bool
+PRBool
 *
 _retval
 )
@@ -3238,7 +3238,7 @@ const
 nsIID
 *
 IID
-bool
+PRBool
 *
 _retval
 )
@@ -3312,7 +3312,7 @@ iid
 NS_IMETHOD
 IsFunction
 (
-bool
+PRBool
 *
 _retval
 )
@@ -3339,7 +3339,7 @@ const
 nsIID
 *
 iid
-bool
+PRBool
 *
 _retval
 )
@@ -3441,7 +3441,7 @@ t
 have
 one
 .
-bool
+PRBool
 EnsureParent
 (
 )
@@ -3482,7 +3482,7 @@ BuildParent
 )
 ;
 }
-bool
+PRBool
 EnsureResolved
 (
 )
@@ -3499,7 +3499,7 @@ EnsureResolved
 )
 ;
 }
-bool
+PRBool
 BuildParent
 (
 )

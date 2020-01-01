@@ -603,7 +603,7 @@ iter
 ;
 \
 }
-bool
+PRBool
 nsParserUtils
 :
 :
@@ -1207,7 +1207,7 @@ and
 /
 PR_FALSE
 otherwise
-bool
+PRBool
 nsParserUtils
 :
 :

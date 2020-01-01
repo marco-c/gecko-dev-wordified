@@ -583,7 +583,7 @@ h
 /
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -695,7 +695,7 @@ inline
 style
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -955,7 +955,7 @@ format
 node
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1185,7 +1185,7 @@ or
 blockquote
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1380,7 +1380,7 @@ blockquote
 /
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1611,7 +1611,7 @@ html
 header
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1805,7 +1805,7 @@ html
 paragraph
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1917,7 +1917,7 @@ horizontal
 rule
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -2030,7 +2030,7 @@ list
 item
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -2196,7 +2196,7 @@ tr
 .
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -2423,7 +2423,7 @@ table
 )
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -2628,7 +2628,7 @@ html
 table
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -2740,7 +2740,7 @@ html
 tr
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -2854,7 +2854,7 @@ or
 th
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3006,7 +3006,7 @@ or
 th
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3167,7 +3167,7 @@ html
 list
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3329,7 +3329,7 @@ ordered
 list
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3442,7 +3442,7 @@ unordered
 list
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3555,7 +3555,7 @@ blockquote
 node
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3668,7 +3668,7 @@ pre
 node
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3781,7 +3781,7 @@ address
 node
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3894,7 +3894,7 @@ image
 node
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3919,7 +3919,7 @@ img
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3984,7 +3984,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -4137,7 +4137,7 @@ div
 node
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -4254,7 +4254,7 @@ type
 _moz
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -4379,7 +4379,7 @@ type
 cite
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -4667,7 +4667,7 @@ some
 kind
 /
 /
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -4785,7 +4785,7 @@ input
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -5555,10 +5555,10 @@ mGroup
 PRUint32
 mCanContainGroups
 ;
-bool
+PRPackedBool
 mIsContainer
 ;
-bool
+PRPackedBool
 mCanContainSelf
 ;
 }
@@ -6773,7 +6773,7 @@ GROUP_FLOW_ELEMENT
 )
 }
 ;
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -6829,10 +6829,10 @@ range
 ifdef
 DEBUG
 static
-bool
+PRBool
 checked
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -7056,7 +7056,7 @@ mGroup
 0
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :

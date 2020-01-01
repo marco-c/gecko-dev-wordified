@@ -562,7 +562,7 @@ allocate
 sufficient
 memory
 .
-bool
+PRBool
 PutEvent
 (
 nsIRunnable
@@ -660,10 +660,10 @@ the
 resulting
 event
 .
-bool
+PRBool
 GetEvent
 (
-bool
+PRBool
 mayWait
 nsIRunnable
 *
@@ -684,7 +684,7 @@ a
 pending
 event
 .
-bool
+PRBool
 HasPendingEvent
 (
 )
@@ -709,7 +709,7 @@ event
 or
 null
 .
-bool
+PRBool
 GetPendingEvent
 (
 nsIRunnable
@@ -739,7 +739,7 @@ next
 pending
 event
 .
-bool
+PRBool
 WaitPendingEvent
 (
 nsIRunnable
@@ -782,7 +782,7 @@ mReentrantMonitor
 }
 private
 :
-bool
+PRBool
 IsEmpty
 (
 )

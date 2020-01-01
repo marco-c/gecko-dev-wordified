@@ -500,7 +500,7 @@ delete
 mTrailers
 ;
 }
-bool
+PRBool
 ReachedEOF
 (
 )
@@ -600,10 +600,10 @@ hold
 a
 partial
 line
-bool
+PRPackedBool
 mReachedEOF
 ;
-bool
+PRPackedBool
 mWaitEOF
 ;
 }

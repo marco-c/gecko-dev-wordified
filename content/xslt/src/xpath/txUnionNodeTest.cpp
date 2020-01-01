@@ -467,7 +467,7 @@ txSingleNodeContext
 .
 h
 "
-bool
+PRBool
 txUnionNodeTest
 :
 :
@@ -559,7 +559,7 @@ Double
 NaN
 ;
 }
-bool
+PRBool
 txUnionNodeTest
 :
 :

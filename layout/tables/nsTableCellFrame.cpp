@@ -1175,7 +1175,7 @@ but
 nothing
 below
 that
-bool
+PRBool
 nsTableCellFrame
 :
 :
@@ -2700,7 +2700,7 @@ emptyCellStyle
 )
 )
 {
-bool
+PRBool
 isRoot
 =
 aBuilder
@@ -2754,7 +2754,7 @@ we
 need
 to
 .
-bool
+PRBool
 hasBoxShadow
 =
 !
@@ -3063,7 +3063,7 @@ if
 we
 need
 to
-bool
+PRBool
 isSelected
 =
 (
@@ -3996,7 +3996,7 @@ return
 NS_STYLE_VERTICAL_ALIGN_BASELINE
 ;
 }
-bool
+PRBool
 nsTableCellFrame
 :
 :
@@ -5714,7 +5714,7 @@ GetVisualOverflowRect
 (
 )
 ;
-bool
+PRBool
 firstReflow
 =
 (
@@ -5883,7 +5883,7 @@ GetPrevInFlow
 (
 )
 ;
-bool
+PRBool
 isEmpty
 ;
 if
@@ -6395,7 +6395,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-bool
+PRBool
 aIsBorderCollapse
 )
 {
@@ -6473,6 +6473,24 @@ nsGkAtoms
 :
 :
 tableCellFrame
+;
+}
+/
+*
+virtual
+*
+/
+PRBool
+nsTableCellFrame
+:
+:
+IsContainingBlock
+(
+)
+const
+{
+return
+PR_TRUE
 ;
 }
 #
@@ -6591,7 +6609,7 @@ result
 virtual
 *
 /
-bool
+PRBool
 nsBCTableCellFrame
 :
 :

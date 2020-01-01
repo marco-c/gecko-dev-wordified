@@ -1096,7 +1096,7 @@ GetChildBox
 (
 )
 ;
-bool
+PRBool
 horiz
 =
 scrolledBox
@@ -1126,7 +1126,7 @@ curIndex
 =
 0
 ;
-bool
+PRBool
 isLTR
 =
 scrolledBox

@@ -199,9 +199,6 @@ css
 log
 x
 "
-aHudRef
-.
-hudId
 )
 ;
 ConsoleUtils
@@ -264,9 +261,6 @@ log
 "
 +
 i
-aHudRef
-.
-hudId
 )
 ;
 ConsoleUtils

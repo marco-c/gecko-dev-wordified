@@ -730,7 +730,7 @@ to
 double
 check
 .
-bool
+PRBool
 nsMathMLmoFrame
 :
 :
@@ -758,10 +758,10 @@ aFrame
 return
 PR_FALSE
 ;
-bool
+PRBool
 isSelected
 =
-false
+PR_FALSE
 ;
 aFrame
 -
@@ -846,7 +846,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsMathMLmoFrame
 :
 :
@@ -905,7 +905,7 @@ rv
 =
 NS_OK
 ;
-bool
+PRBool
 useMathMLChar
 =
 UseMathMLChar
@@ -975,10 +975,10 @@ text
 frame
 is
 selected
-bool
+PRBool
 isSelected
 =
-false
+PR_FALSE
 ;
 nsRect
 selectedRect
@@ -1506,7 +1506,7 @@ allFlags
 &
 NS_MATHML_OPERATOR_MOVABLELIMITS
 ;
-bool
+PRBool
 isMutable
 =
 NS_MATHML_OPERATOR_IS_STRETCHY
@@ -2898,7 +2898,7 @@ GetData
 data
 )
 ;
-bool
+PRBool
 found
 =
 nsMathMLOperators
@@ -4298,7 +4298,7 @@ nsOperatorFlags
 aFlags
 nsPresentationData
 aPresentationData
-bool
+PRBool
 aIsVertical
 )
 {
@@ -4785,7 +4785,7 @@ stretch
 next
 time
 )
-bool
+PRBool
 useMathMLChar
 =
 UseMathMLChar
@@ -4802,10 +4802,10 @@ aDesiredStretchSize
 .
 mBoundingMetrics
 ;
-bool
+PRBool
 isVertical
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -5887,7 +5887,7 @@ mFlags
 )
 )
 {
-bool
+PRBool
 largeopOnly
 =
 (
@@ -6300,7 +6300,7 @@ munder
 <
 munderover
 >
-bool
+PRBool
 isAccent
 =
 NS_MATHML_EMBELLISH_IS_ACCENT

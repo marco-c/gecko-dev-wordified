@@ -551,7 +551,7 @@ SetDocumentInternal
 nsIDocument
 *
 aDocument
-bool
+PRBool
 aForceReuseInnerWindow
 )
 =

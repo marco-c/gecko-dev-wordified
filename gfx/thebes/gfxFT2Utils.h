@@ -772,7 +772,7 @@ PRUint32
 aSpaceGlyph
 )
 ;
-bool
+PRBool
 GetFontTable
 (
 PRUint32

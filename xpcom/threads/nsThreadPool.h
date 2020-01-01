@@ -561,7 +561,7 @@ nsIThreadPoolListener
 >
 mListener
 ;
-bool
+PRBool
 mShutdown
 ;
 }

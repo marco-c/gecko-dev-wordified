@@ -653,7 +653,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;
@@ -704,7 +704,7 @@ GetType
 const
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32

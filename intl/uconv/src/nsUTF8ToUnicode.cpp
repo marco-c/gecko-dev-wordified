@@ -1914,7 +1914,7 @@ this
 >
 mBytes
 ;
-bool
+PRPackedBool
 mFirst
 =
 this

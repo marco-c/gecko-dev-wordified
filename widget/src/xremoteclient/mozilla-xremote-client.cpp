@@ -725,10 +725,10 @@ any
 easier
 than
 this
-bool
+PRBool
 success
 =
-false
+PR_FALSE
 ;
 char
 *

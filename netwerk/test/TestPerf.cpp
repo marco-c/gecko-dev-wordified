@@ -149,7 +149,7 @@ nsnull
 -
 -
 static
-bool
+PRBool
 load_sync_1
 (
 nsISupports
@@ -680,7 +680,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 load_async_1
 (
 nsISupports
@@ -1231,7 +1231,7 @@ return
 nsresult
 rv
 ;
-bool
+PRBool
 sync
 ;
 if

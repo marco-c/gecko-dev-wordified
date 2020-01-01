@@ -771,11 +771,11 @@ aEventType
 const
 PRUint32
 aEffectAllowed
-bool
+PRBool
 aCursorState
-bool
+PRBool
 aIsExternal
-bool
+PRBool
 aUserCancelled
 nsTArray
 <
@@ -920,7 +920,7 @@ or
 null
 otherwise
 .
-bool
+PRBool
 ConvertFromVariant
 (
 nsIVariant
@@ -1199,7 +1199,7 @@ cursor
 during
 drag
 operations
-bool
+PRPackedBool
 mCursorState
 ;
 /
@@ -1221,7 +1221,7 @@ and
 effect
 allowed
 .
-bool
+PRPackedBool
 mReadOnly
 ;
 /
@@ -1243,7 +1243,7 @@ from
 another
 application
 .
-bool
+PRPackedBool
 mIsExternal
 ;
 /
@@ -1263,7 +1263,7 @@ the
 dragend
 event
 .
-bool
+PRPackedBool
 mUserCancelled
 ;
 /

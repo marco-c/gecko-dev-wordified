@@ -736,7 +736,7 @@ const
 char
 *
 aCharset
-bool
+PRBool
 aSkipCheck
 nsACString
 &
@@ -1055,7 +1055,7 @@ character
 to
 unescape
 .
-bool
+PRBool
 written
 =
 NS_UnescapeURL

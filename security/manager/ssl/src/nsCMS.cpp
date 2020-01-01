@@ -925,7 +925,7 @@ nsCMSMessage
 :
 ContentIsEncrypted
 (
-bool
+PRBool
 *
 isEncrypted
 )
@@ -989,7 +989,7 @@ nsCMSMessage
 :
 ContentIsSigned
 (
-bool
+PRBool
 *
 isSigned
 )
@@ -2580,7 +2580,7 @@ PR_FALSE
 )
 ;
 }
-bool
+PRBool
 allocate
 (
 PRUint32
@@ -4106,7 +4106,7 @@ add
 it
 twice
 .
-bool
+PRBool
 addEncryptionCert
 =
 (

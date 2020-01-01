@@ -766,7 +766,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -774,7 +774,7 @@ aKey
 )
 const
 {
-bool
+PRBool
 eq
 ;
 mKey
@@ -1089,7 +1089,7 @@ mSet
 }
 ;
 static
-bool
+PRBool
 InitPropertyPolicyEntry
 (
 PLDHashTable
@@ -1348,7 +1348,7 @@ to
 )
 ;
 static
-bool
+PRBool
 InitClassPolicyEntry
 (
 PLDHashTable
@@ -1513,7 +1513,7 @@ _printPopulationInfo
 #
 endif
 }
-bool
+PRBool
 Init
 (
 )
@@ -1643,7 +1643,7 @@ sGeneration
 +
 ;
 }
-bool
+PRBool
 IsInvalid
 (
 )
@@ -1977,7 +1977,7 @@ otherwise
 *
 /
 static
-bool
+PRBool
 SecurityCompareURIs
 (
 nsIURI
@@ -2038,7 +2038,7 @@ aPrincipal
 )
 ;
 static
-bool
+PRBool
 GetStrictFileOriginPolicy
 (
 )
@@ -2149,10 +2149,10 @@ obj
 #
 ifdef
 DEBUG
-bool
+PRBool
 aAllowShortCircuit
 =
-true
+PR_TRUE
 #
 endif
 )
@@ -2358,7 +2358,7 @@ aCertificate
 nsIURI
 *
 aURI
-bool
+PRBool
 aModifyTable
 nsIPrincipal
 *
@@ -2727,7 +2727,7 @@ rv
 )
 ;
 static
-bool
+PRBool
 CheckConfirmDialog
 (
 JSContext
@@ -2740,7 +2740,7 @@ const
 char
 *
 aCapability
-bool
+PRBool
 *
 checkValue
 )
@@ -3257,20 +3257,20 @@ nsIPrincipal
 >
 mPrincipals
 ;
-bool
+PRPackedBool
 mPrefInitialized
 ;
-bool
+PRPackedBool
 mIsJavaScriptEnabled
 ;
-bool
+PRPackedBool
 mIsWritingPrefs
 ;
-bool
+PRPackedBool
 mPolicyPrefsChanged
 ;
 static
-bool
+PRBool
 sStrictFileOriginPolicy
 ;
 static

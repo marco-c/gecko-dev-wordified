@@ -510,7 +510,7 @@ nsApplicationAccessibleWrap
 /
 nsAccessNode
 virtual
-bool
+PRBool
 Init
 (
 )
@@ -519,7 +519,7 @@ Init
 /
 nsAccessible
 virtual
-bool
+PRBool
 AppendChild
 (
 nsAccessible
@@ -528,7 +528,7 @@ aChild
 )
 ;
 virtual
-bool
+PRBool
 RemoveChild
 (
 nsAccessible

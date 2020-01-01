@@ -448,7 +448,7 @@ txMapItemComparator
 {
 public
 :
-bool
+PRBool
 Equals
 (
 const

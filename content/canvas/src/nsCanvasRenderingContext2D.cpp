@@ -1568,9 +1568,9 @@ pat
 nsIPrincipal
 *
 principalForSecurityCheck
-bool
+PRBool
 forceWriteOnly
-bool
+PRBool
 CORSUsed
 )
 :
@@ -1614,7 +1614,7 @@ return
 mPrincipal
 ;
 }
-bool
+PRBool
 GetForceWriteOnly
 (
 )
@@ -1624,7 +1624,7 @@ return
 mForceWriteOnly
 ;
 }
-bool
+PRBool
 GetCORSUsed
 (
 )
@@ -1650,11 +1650,11 @@ nsIPrincipal
 mPrincipal
 ;
 const
-bool
+PRPackedBool
 mForceWriteOnly
 ;
 const
-bool
+PRPackedBool
 mCORSUsed
 ;
 }
@@ -1905,7 +1905,7 @@ PRInt32
 height
 )
 ;
-bool
+PRBool
 EnsureSurface
 (
 )
@@ -1973,7 +1973,7 @@ nsnull
 NS_IMETHOD
 SetIsOpaque
 (
-bool
+PRBool
 isOpaque
 )
 ;
@@ -2001,7 +2001,7 @@ aManager
 )
 ;
 virtual
-bool
+PRBool
 ShouldForceInactiveLayer
 (
 LayerManager
@@ -2018,7 +2018,7 @@ MarkContextClean
 NS_IMETHOD
 SetIsIPC
 (
-bool
+PRBool
 isIPC
 )
 ;
@@ -2367,10 +2367,10 @@ ApplyStyle
 (
 Style
 aWhichStyle
-bool
+PRBool
 aUseGlobalAlpha
 =
-true
+PR_TRUE
 )
 ;
 /
@@ -2462,19 +2462,19 @@ PRInt32
 mWidth
 mHeight
 ;
-bool
+PRPackedBool
 mValid
 ;
-bool
+PRPackedBool
 mZero
 ;
-bool
+PRPackedBool
 mOpaque
 ;
-bool
+PRPackedBool
 mResetLayer
 ;
-bool
+PRPackedBool
 mIPC
 ;
 /
@@ -2564,7 +2564,7 @@ gfxASurface
 >
 mSurface
 ;
-bool
+PRPackedBool
 mSurfaceCreated
 ;
 PRUint32
@@ -2600,7 +2600,7 @@ called
 .
 *
 /
-bool
+PRPackedBool
 mIsEntireFrameInvalid
 ;
 /
@@ -2639,7 +2639,7 @@ calls
 .
 *
 /
-bool
+PRPackedBool
 mPredictManyRedrawCalls
 ;
 /
@@ -2664,7 +2664,7 @@ user
 .
 *
 /
-bool
+PRPackedBool
 mHasPath
 ;
 /
@@ -2736,7 +2736,7 @@ canvas
 .
 *
 /
-bool
+PRBool
 OperatorAffectsUncoveredAreas
 (
 gfxContext
@@ -2805,7 +2805,7 @@ operation
 .
 *
 /
-bool
+PRBool
 NeedToDrawShadow
 (
 )
@@ -2936,7 +2936,7 @@ operations
 .
 *
 /
-bool
+PRBool
 NeedToUseIntermediateSurface
 (
 )
@@ -3209,7 +3209,7 @@ surface
 .
 *
 /
-bool
+PRBool
 NeedIntermediateSurfaceToHandleGlobalAlpha
 (
 Style
@@ -3706,7 +3706,7 @@ style
 Style
 mLastStyle
 ;
-bool
+PRPackedBool
 mDirtyStyle
 [
 STYLE_MAX
@@ -3974,7 +3974,7 @@ color
 *
 /
 inline
-bool
+PRBool
 StyleIsColor
 (
 Style
@@ -4046,7 +4046,7 @@ patternStyles
 STYLE_MAX
 ]
 ;
-bool
+PRPackedBool
 imageSmoothingEnabled
 ;
 }
@@ -4511,9 +4511,6 @@ mValid
 &
 !
 mDocShell
-&
-&
-mSurface
 )
 gCanvasMemoryUsed
 -
@@ -5134,7 +5131,7 @@ ApplyStyle
 (
 Style
 aWhichStyle
-bool
+PRBool
 aUseGlobalAlpha
 )
 {
@@ -5952,7 +5949,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-bool
+PRBool
 nsCanvasRenderingContext2D
 :
 :
@@ -6393,7 +6390,7 @@ nsCanvasRenderingContext2D
 :
 SetIsOpaque
 (
-bool
+PRBool
 isOpaque
 )
 {
@@ -6454,7 +6451,7 @@ nsCanvasRenderingContext2D
 :
 SetIsIPC
 (
-bool
+PRBool
 isIPC
 )
 {
@@ -9889,10 +9886,10 @@ EnsureSurface
 return
 NS_ERROR_FAILURE
 ;
-bool
+PRBool
 doUseIntermediateSurface
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -10032,7 +10029,7 @@ style
 )
 ;
 }
-bool
+PRBool
 doDrawShadow
 =
 NeedToDrawShadow
@@ -11978,7 +11975,7 @@ float
 startAngle
 float
 endAngle
-bool
+PRBool
 ccw
 )
 {
@@ -12215,7 +12212,7 @@ StyleRule
 >
 rule
 ;
-bool
+PRBool
 changed
 ;
 nsIPrincipal
@@ -13083,7 +13080,7 @@ mFont
 size
 )
 ;
-bool
+PRBool
 printerFont
 =
 (
@@ -14652,7 +14649,7 @@ box
 should
 be
 measured
-bool
+PRBool
 mDoMeasureBoundingBox
 ;
 }
@@ -14869,10 +14866,10 @@ if
 not
 in
 doc
-bool
+PRBool
 isRTL
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -14977,7 +14974,7 @@ Stroke
 )
 does
 that
-bool
+PRBool
 doDrawShadow
 =
 aOp
@@ -14990,7 +14987,7 @@ NeedToDrawShadow
 (
 )
 ;
-bool
+PRBool
 doUseIntermediateSurface
 =
 aOp
@@ -17381,7 +17378,7 @@ float
 x
 float
 y
-bool
+PRBool
 *
 retVal
 )
@@ -18509,7 +18506,7 @@ DirtyAllStyles
 (
 )
 ;
-bool
+PRBool
 doUseIntermediateSurface
 =
 NeedToUseIntermediateSurface
@@ -20003,7 +20000,7 @@ aH
 return
 NS_ERROR_FAILURE
 ;
-bool
+PRBool
 flush
 =
 (
@@ -21247,7 +21244,7 @@ char
 aData
 PRUint32
 aDataLen
-bool
+PRBool
 hasDirtyRect
 PRInt32
 dirtyX
@@ -21956,7 +21953,7 @@ nsCanvasRenderingContext2D
 :
 GetMozImageSmoothingEnabled
 (
-bool
+PRBool
 *
 retVal
 )
@@ -21980,7 +21977,7 @@ nsCanvasRenderingContext2D
 :
 SetMozImageSmoothingEnabled
 (
-bool
+PRBool
 val
 )
 {
@@ -22432,7 +22429,7 @@ forget
 )
 ;
 }
-bool
+PRBool
 nsCanvasRenderingContext2D
 :
 :

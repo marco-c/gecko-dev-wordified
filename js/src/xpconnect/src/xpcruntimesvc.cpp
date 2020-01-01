@@ -589,7 +589,7 @@ above
 /
 /
 *
-bool
+PRBool
 newResolve
 (
 in
@@ -637,7 +637,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )

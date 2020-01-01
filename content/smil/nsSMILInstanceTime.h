@@ -823,9 +823,9 @@ const
 nsSMILTimeContainer
 *
 aSrcContainer
-bool
+PRBool
 aBeginObjectChanged
-bool
+PRBool
 aEndObjectChanged
 )
 ;
@@ -863,7 +863,7 @@ return
 mCreator
 ;
 }
-bool
+PRBool
 IsDynamic
 (
 )
@@ -879,7 +879,7 @@ kDynamic
 )
 ;
 }
-bool
+PRBool
 IsFixedTime
 (
 )
@@ -894,7 +894,7 @@ kMayUpdate
 )
 ;
 }
-bool
+PRBool
 FromDOM
 (
 )
@@ -910,7 +910,7 @@ kFromDOM
 )
 ;
 }
-bool
+PRBool
 ShouldPreserve
 (
 )
@@ -966,7 +966,7 @@ mTime
 aNewTime
 ;
 }
-bool
+PRBool
 IsDependent
 (
 )
@@ -978,7 +978,7 @@ return
 mBaseInterval
 ;
 }
-bool
+PRBool
 IsDependentOn
 (
 const
@@ -1008,7 +1008,7 @@ GetBaseTime
 )
 const
 ;
-bool
+PRBool
 SameTimeAndBase
 (
 const
@@ -1393,7 +1393,7 @@ kDynamic
 kMayUpdate
 etc
 .
-bool
+PRPackedBool
 mVisited
 ;
 /

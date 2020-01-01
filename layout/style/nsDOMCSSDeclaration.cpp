@@ -971,7 +971,7 @@ env
 mCSSLoader
 )
 ;
-bool
+PRBool
 changed
 ;
 nsresult
@@ -1647,7 +1647,7 @@ const
 nsAString
 &
 aPropValue
-bool
+PRBool
 aIsImportant
 )
 {
@@ -1788,7 +1788,7 @@ env
 mCSSLoader
 )
 ;
-bool
+PRBool
 changed
 ;
 nsresult

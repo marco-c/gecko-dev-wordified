@@ -509,7 +509,7 @@ connection
 0
 ;
 virtual
-bool
+PRBool
 HandleMessage
 (
 DBusMessage
@@ -757,7 +757,7 @@ them
 from
 static
 functions
-bool
+PRBool
 HandleMessage
 (
 DBusMessage

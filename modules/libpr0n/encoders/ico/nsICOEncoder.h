@@ -604,7 +604,7 @@ aOptions
 PRUint32
 *
 bpp
-bool
+PRBool
 *
 usePNG
 )
@@ -870,7 +870,7 @@ is
 done
 being
 encoded
-bool
+PRPackedBool
 mFinished
 ;
 /
@@ -884,7 +884,7 @@ image
 is
 a
 PNG
-bool
+PRPackedBool
 mUsePNG
 ;
 nsCOMPtr

@@ -576,7 +576,7 @@ this
 one
 .
 virtual
-bool
+PRBool
 Init
 (
 )
@@ -704,7 +704,7 @@ represented
 for
 it
 .
-bool
+PRBool
 IsIgnored
 (
 )
@@ -712,11 +712,11 @@ IsIgnored
 PRInt32
 GetUnignoredChildCount
 (
-bool
+PRBool
 aDeepCount
 )
 ;
-bool
+PRBool
 HasPopup
 (
 )
@@ -816,7 +816,7 @@ AT
 .
 *
 /
-bool
+PRBool
 AncestorIsFlat
 (
 )

@@ -551,7 +551,7 @@ interface
 /
 nsINode
 virtual
-bool
+PRBool
 IsNodeOfType
 (
 PRUint32
@@ -567,7 +567,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-bool
+PRBool
 aCloneText
 )
 const
@@ -607,10 +607,10 @@ PRInt32
 aIndent
 =
 0
-bool
+PRBool
 aDumpAll
 =
-true
+PR_TRUE
 )
 const
 {
@@ -792,7 +792,7 @@ NS_IMPL_RELEASE_INHERITED
 nsCommentNode
 nsGenericDOMDataNode
 )
-bool
+PRBool
 nsCommentNode
 :
 :
@@ -829,7 +829,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-bool
+PRBool
 aCloneText
 )
 const

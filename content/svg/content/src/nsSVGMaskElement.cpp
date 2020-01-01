@@ -1377,7 +1377,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGMaskElement
 :
@@ -1405,7 +1405,6 @@ sFEFloodMap
 sFiltersMap
 sFontSpecificationMap
 sGradientStopMap
-sGraphicsMap
 sMarkersMap
 sTextContentElementsMap
 sViewportsMap

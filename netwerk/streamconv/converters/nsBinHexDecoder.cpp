@@ -2608,7 +2608,7 @@ PRUint32
 numBytesInBuffer
 )
 {
-bool
+PRBool
 foundStart
 ;
 PRInt16

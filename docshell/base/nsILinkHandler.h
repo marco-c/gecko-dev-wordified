@@ -610,7 +610,7 @@ aPostDataStream
 nsIInputStream
 *
 aHeadersDataStream
-bool
+PRBool
 aIsTrusted
 )
 =

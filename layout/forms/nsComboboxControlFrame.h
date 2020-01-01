@@ -831,7 +831,7 @@ GetType
 const
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32
@@ -1051,9 +1051,9 @@ virtual
 void
 SetFocus
 (
-bool
+PRBool
 aOn
-bool
+PRBool
 aRepaint
 )
 ;
@@ -1061,7 +1061,7 @@ aRepaint
 /
 nsIComboboxControlFrame
 virtual
-bool
+PRBool
 IsDroppedDown
 (
 )
@@ -1089,7 +1089,7 @@ virtual
 void
 ShowDropDown
 (
-bool
+PRBool
 aDoDropDown
 )
 ;
@@ -1196,7 +1196,7 @@ index
 NS_IMETHOD
 DoneAddingChildren
 (
-bool
+PRBool
 aIsDone
 )
 ;
@@ -1205,7 +1205,7 @@ OnOptionSelected
 (
 PRInt32
 aIndex
-bool
+PRBool
 aSelected
 )
 ;
@@ -1284,7 +1284,7 @@ area
 NS_IMETHOD
 ShouldRollupOnMouseWheelEvent
 (
-bool
+PRBool
 *
 aShouldRollup
 )
@@ -1329,7 +1329,7 @@ mouse
 NS_IMETHOD
 ShouldRollupOnMouseActivate
 (
-bool
+PRBool
 *
 aShouldRollup
 )
@@ -1366,7 +1366,7 @@ aState
 )
 ;
 static
-bool
+PRBool
 ToolkitHasNativePopup
 (
 )
@@ -1483,7 +1483,7 @@ this
 void
 ShowPopup
 (
-bool
+PRBool
 aShowPopup
 )
 ;
@@ -1535,10 +1535,10 @@ alive
 .
 *
 /
-bool
+PRBool
 ShowList
 (
-bool
+PRBool
 aShowList
 )
 ;
@@ -1567,7 +1567,7 @@ HandleRedisplayTextEvent
 void
 ActuallyDisplayText
 (
-bool
+PRBool
 aNotify
 )
 ;
@@ -1722,7 +1722,7 @@ marker
 nscoord
 mDisplayWidth
 ;
-bool
+PRPackedBool
 mDroppedDown
 ;
 /
@@ -1733,11 +1733,11 @@ of
 the
 dropdown
 list
-true
+PR_TRUE
 is
 dropped
 down
-bool
+PRPackedBool
 mInRedisplayText
 ;
 nsRevocableEventPtr

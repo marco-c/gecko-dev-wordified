@@ -503,7 +503,7 @@ mEntryType
 ;
 union
 {
-bool
+PRBool
 mBoolean
 ;
 PRInt32
@@ -939,7 +939,7 @@ key
 )
 ;
 static
-bool
+PRBool
 HashMatchEntry
 (
 PLDHashTable

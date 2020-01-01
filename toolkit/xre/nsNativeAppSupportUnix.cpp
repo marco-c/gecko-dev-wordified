@@ -1095,7 +1095,7 @@ save
 nsnull
 )
 ;
-bool
+PRBool
 status
 ;
 didSaveSession
@@ -1176,7 +1176,7 @@ requested
 nsnull
 )
 ;
-bool
+PRBool
 abortQuit
 ;
 cancelQuit
@@ -1253,7 +1253,7 @@ public
 NS_IMETHOD
 Start
 (
-bool
+PRBool
 *
 aRetVal
 )
@@ -1261,7 +1261,7 @@ aRetVal
 NS_IMETHOD
 Stop
 (
-bool
+PRBool
 *
 aResult
 )
@@ -1500,7 +1500,7 @@ static
 void
 OssoSetWindowOrientation
 (
-bool
+PRBool
 aPortrait
 )
 {
@@ -1515,10 +1515,10 @@ ignore
 any
 orientation
 changes
-bool
+PRBool
 lockScreen
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1775,7 +1775,7 @@ landscape
 }
 }
 static
-bool
+PRBool
 OssoIsScreenOn
 (
 osso_context_t
@@ -1789,10 +1789,10 @@ rv
 osso_rpc_t
 ret
 ;
-bool
+PRBool
 result
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -1857,7 +1857,7 @@ OssoRequestAccelerometer
 osso_context_t
 *
 ctx
-bool
+PRBool
 aEnabled
 )
 {
@@ -2786,7 +2786,7 @@ nsNativeAppSupportUnix
 :
 Start
 (
-bool
+PRBool
 *
 aRetVal
 )
@@ -3588,7 +3588,7 @@ executablePath
 nsresult
 rv
 ;
-bool
+PRBool
 dummy
 ;
 rv
@@ -3754,7 +3754,7 @@ nsNativeAppSupportUnix
 :
 Stop
 (
-bool
+PRBool
 *
 aResult
 )

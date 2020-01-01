@@ -1583,7 +1583,7 @@ IsRemoteDrawingCoreAnimation
 (
 NPP
 instance
-bool
+PRBool
 *
 aDrawing
 )
@@ -1610,7 +1610,7 @@ NS_ERROR_NULL_POINTER
 *
 aDrawing
 =
-false
+PR_FALSE
 ;
 return
 NS_OK

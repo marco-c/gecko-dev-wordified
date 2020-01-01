@@ -569,10 +569,10 @@ nsIURI
 aFirstURI
 PRInt32
 aContentType
-bool
+PRBool
 *
 aPermission
-bool
+PRBool
 *
 aFromPrefs
 )

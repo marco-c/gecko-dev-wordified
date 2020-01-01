@@ -631,7 +631,7 @@ Updater
 *
 mUpdaters
 ;
-bool
+PRBool
 Matches
 (
 const

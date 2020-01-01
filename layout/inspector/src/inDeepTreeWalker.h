@@ -612,10 +612,10 @@ nsIDOMNode
 aNode
 )
 ;
-bool
+PRBool
 mShowAnonymousContent
 ;
-bool
+PRBool
 mShowSubDocuments
 ;
 nsCOMPtr

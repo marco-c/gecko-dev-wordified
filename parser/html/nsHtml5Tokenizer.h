@@ -568,7 +568,7 @@ nsHtml5StreamParser
 *
 encodingDeclarationHandler
 ;
-bool
+PRBool
 lastCR
 ;
 PRInt32
@@ -586,7 +586,7 @@ index
 ;
 private
 :
-bool
+PRBool
 forceQuirks
 ;
 PRUnichar
@@ -620,7 +620,7 @@ value
 ;
 private
 :
-bool
+PRBool
 seenDigits
 ;
 protected
@@ -689,7 +689,7 @@ endTagExpectationAsArray
 ;
 protected
 :
-bool
+PRBool
 endTag
 ;
 private
@@ -725,12 +725,12 @@ attributes
 PRInt32
 mappingLangToXmlLang
 ;
-bool
+PRBool
 shouldSuspend
 ;
 protected
 :
-bool
+PRBool
 confident
 ;
 private
@@ -1016,7 +1016,7 @@ strBufToElementNameString
 PRInt32
 emitCurrentTagToken
 (
-bool
+PRBool
 selfClosing
 PRInt32
 pos
@@ -1044,7 +1044,7 @@ start
 (
 )
 ;
-bool
+PRBool
 tokenizeBuffer
 (
 nsHtml5UTF16Buffer
@@ -1066,7 +1066,7 @@ pos
 PRUnichar
 *
 buf
-bool
+PRBool
 reconsume
 PRInt32
 returnState
@@ -1284,7 +1284,7 @@ pos
 }
 public
 :
-bool
+PRBool
 internalEncodingDeclaration
 (
 nsString
@@ -1328,7 +1328,7 @@ requestSuspension
 (
 )
 ;
-bool
+PRBool
 isInDataState
 (
 )

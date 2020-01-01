@@ -1043,10 +1043,10 @@ was
 successfully
 extended
 static
-bool
+PRPackedBool
 gDialogWasExtended
 =
-false
+PR_FALSE
 ;
 #
 define
@@ -1204,7 +1204,7 @@ mWidth
 double
 mHeight
 ;
-bool
+PRBool
 mIsInches
 ;
 }
@@ -1732,7 +1732,7 @@ kNumPaperSizes
 -
 -
 static
-bool
+PRBool
 CheckForExtendedDialog
 (
 )
@@ -2942,10 +2942,10 @@ dmFields
 DM_PAPERWIDTH
 )
 {
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -3709,12 +3709,12 @@ HWND
 aParent
 UINT
 aId
-bool
+PRBool
 aIsSet
-bool
+PRBool
 isEnabled
 =
-true
+PR_TRUE
 )
 {
 HWND
@@ -4447,7 +4447,7 @@ Show
 (
 HWND
 aWnd
-bool
+PRBool
 bState
 )
 {
@@ -7097,7 +7097,7 @@ cshould
 extend
 it
 static
-bool
+PRBool
 ShouldExtendPrintDialog
 (
 )
@@ -7150,7 +7150,7 @@ rv
 PR_TRUE
 )
 ;
-bool
+PRBool
 result
 ;
 rv
@@ -7719,8 +7719,6 @@ PD_ALLPAGES
 PD_RETURNIC
 |
 PD_USEDEVMODECOPIESANDCOLLATE
-|
-PD_COLLATE
 ;
 /
 /
@@ -7746,7 +7744,7 @@ nsIPrintSettings
 :
 kFrameEnableNone
 ;
-bool
+PRBool
 isOn
 ;
 aPrintSettings
@@ -8713,7 +8711,7 @@ defined
 (
 DEBUG_dcone
 )
-bool
+PRBool
 printSelection
 =
 prntdlg
@@ -8722,7 +8720,7 @@ Flags
 &
 PD_SELECTION
 ;
-bool
+PRBool
 printAllPages
 =
 prntdlg
@@ -8731,7 +8729,7 @@ Flags
 &
 PD_ALLPAGES
 ;
-bool
+PRBool
 printNumPages
 =
 prntdlg
@@ -10128,8 +10126,6 @@ PD_RETURNDC
 PD_USEDEVMODECOPIESANDCOLLATE
 |
 PD_NOCURRENTPAGE
-|
-PD_COLLATE
 ;
 prntdlg
 .
@@ -10169,7 +10165,7 @@ aPrintSettings
 nsnull
 )
 {
-bool
+PRBool
 isOn
 ;
 aPrintSettings
@@ -11236,7 +11232,7 @@ defined
 (
 DEBUG_dcone
 )
-bool
+PRBool
 printSelection
 =
 prntdlg
@@ -11245,7 +11241,7 @@ Flags
 &
 PD_SELECTION
 ;
-bool
+PRBool
 printAllPages
 =
 prntdlg
@@ -11254,7 +11250,7 @@ Flags
 &
 PD_ALLPAGES
 ;
-bool
+PRBool
 printNumPages
 =
 prntdlg
@@ -11492,16 +11488,16 @@ null
 "
 )
 ;
-bool
+PRBool
 isFramesetDocument
 ;
-bool
+PRBool
 isFramesetFrameSelected
 ;
-bool
+PRBool
 isIFrameSelected
 ;
-bool
+PRBool
 isRangeSelection
 ;
 aWebBrowserPrint

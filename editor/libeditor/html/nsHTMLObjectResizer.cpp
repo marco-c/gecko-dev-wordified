@@ -3384,7 +3384,7 @@ ratio
 or
 not
 ?
-bool
+PRBool
 preserveRatio
 =
 nsHTMLEditUtils
@@ -3408,7 +3408,7 @@ resizing
 .
 preserve_ratio
 "
-true
+PR_TRUE
 )
 ;
 /
@@ -3784,10 +3784,10 @@ nsIDOMEvent
 aEvent
 )
 {
-bool
+PRBool
 anonElement
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -4072,7 +4072,7 @@ PRInt32
 aW
 PRInt32
 aH
-bool
+PRBool
 aPreserveRatio
 )
 {
@@ -4688,10 +4688,10 @@ res
 res
 )
 ;
-bool
+PRBool
 hasClass
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -5697,7 +5697,7 @@ aX
 aY
 )
 ;
-bool
+PRBool
 setWidth
 =
 !
@@ -5711,7 +5711,7 @@ width
 mResizedObjectWidth
 )
 ;
-bool
+PRBool
 setHeight
 =
 !
@@ -5779,7 +5779,7 @@ enabled
 editor
 or
 not
-bool
+PRBool
 useCSS
 ;
 GetIsCSSEnabled
@@ -5825,10 +5825,10 @@ height
 "
 )
 ;
-bool
+PRBool
 hasAttr
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -6261,7 +6261,7 @@ nsHTMLEditor
 :
 GetObjectResizingEnabled
 (
-bool
+PRBool
 *
 aIsObjectResizingEnabled
 )
@@ -6281,7 +6281,7 @@ nsHTMLEditor
 :
 SetObjectResizingEnabled
 (
-bool
+PRBool
 aObjectResizingEnabled
 )
 {

@@ -591,7 +591,7 @@ aEvent
 nsEventStatus
 *
 aEventStatus
-bool
+PRBool
 aControlHeld
 )
 ;
@@ -657,7 +657,7 @@ virtual
 void
 GetInitialOrientation
 (
-bool
+PRBool
 &
 aIsHorizontal
 )

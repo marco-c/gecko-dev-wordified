@@ -716,7 +716,7 @@ nsSMILMilestone
 (
 nsSMILTime
 aTime
-bool
+PRBool
 aIsEnd
 )
 :
@@ -744,7 +744,7 @@ PR_FALSE
 )
 {
 }
-bool
+PRBool
 operator
 =
 =
@@ -773,7 +773,7 @@ aOther
 mIsEnd
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -796,7 +796,7 @@ aOther
 )
 ;
 }
-bool
+PRBool
 operator
 <
 (
@@ -848,7 +848,7 @@ mIsEnd
 )
 ;
 }
-bool
+PRBool
 operator
 <
 =
@@ -874,7 +874,7 @@ this
 aOther
 ;
 }
-bool
+PRBool
 operator
 >
 =
@@ -924,12 +924,12 @@ it
 is
 used
 .
-bool
+PRPackedBool
 mIsEnd
 ;
 /
 /
-true
+PR_TRUE
 if
 this
 milestone

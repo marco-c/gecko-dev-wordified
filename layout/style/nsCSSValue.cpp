@@ -1386,7 +1386,7 @@ return
 this
 ;
 }
-bool
+PRBool
 nsCSSValue
 :
 :
@@ -3765,7 +3765,7 @@ image
 ;
 }
 }
-bool
+PRBool
 nsCSSValue
 :
 :
@@ -3936,7 +3936,7 @@ return
 func
 ;
 }
-bool
+PRBool
 nsCSSValue
 :
 :
@@ -4627,10 +4627,10 @@ GetArrayValue
 (
 )
 ;
-bool
+PRBool
 mark
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -8606,7 +8606,7 @@ Release
 )
 ;
 }
-bool
+PRBool
 nsCSSValue
 :
 :
@@ -8624,7 +8624,7 @@ aOther
 )
 const
 {
-bool
+PRBool
 eq
 ;
 return
@@ -8727,7 +8727,7 @@ eq
 )
 ;
 }
-bool
+PRBool
 nsCSSValue
 :
 :
@@ -8766,7 +8766,7 @@ null
 "
 )
 ;
-bool
+PRBool
 eq
 ;
 /
@@ -9139,9 +9139,9 @@ nsCSSValueGradient
 :
 nsCSSValueGradient
 (
-bool
+PRBool
 aIsRadial
-bool
+PRBool
 aIsRepeating
 )
 :

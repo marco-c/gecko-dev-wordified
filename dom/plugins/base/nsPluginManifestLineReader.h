@@ -551,7 +551,7 @@ return
 mBase
 ;
 }
-bool
+PRBool
 NextLine
 (
 )
@@ -564,7 +564,7 @@ mNext
 mLimit
 )
 return
-false
+PR_FALSE
 ;
 mCur
 =
@@ -617,7 +617,7 @@ mNext
 PLUGIN_REGISTRY_END_OF_LINE_MARKER
 )
 return
-false
+PR_FALSE
 ;
 *
 lastDelimiter
@@ -667,7 +667,7 @@ break
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -692,7 +692,7 @@ mLength
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 int
@@ -820,7 +820,7 @@ return
 mLength
 ;
 }
-bool
+PRBool
 IsEOL
 (
 char

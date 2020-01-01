@@ -572,11 +572,11 @@ h
 atoi
 #
 ifndef
-ANDROID
+__arm__
 /
 /
 no
-Android
+arm
 impl
 #
 include
@@ -1367,7 +1367,7 @@ LINUX
 !
 defined
 (
-ANDROID
+__arm__
 )
 ucontext_t
 *

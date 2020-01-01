@@ -838,13 +838,13 @@ MemoryElement
 public
 :
 static
-bool
+PRBool
 Init
 (
 )
 ;
 static
-bool
+PRBool
 gPoolInited
 ;
 static
@@ -880,7 +880,7 @@ const
 0
 ;
 virtual
-bool
+PRBool
 Equals
 (
 const
@@ -892,7 +892,7 @@ const
 =
 0
 ;
-bool
+PRBool
 operator
 =
 =
@@ -911,7 +911,7 @@ aMemoryElement
 )
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -1420,7 +1420,7 @@ mCurrent
 mElement
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -1441,7 +1441,7 @@ aConstIterator
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -1687,7 +1687,7 @@ nsAssignment
 )
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -1716,7 +1716,7 @@ aAssignment
 mValue
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -2315,7 +2315,7 @@ mCurrent
 mAssignment
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -2336,7 +2336,7 @@ aConstIterator
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -2491,7 +2491,7 @@ otherwise
 .
 *
 /
-bool
+PRBool
 HasAssignment
 (
 nsIAtom
@@ -2538,7 +2538,7 @@ otherwise
 .
 *
 /
-bool
+PRBool
 HasAssignment
 (
 const
@@ -2604,7 +2604,7 @@ otherwise
 .
 *
 /
-bool
+PRBool
 HasAssignmentFor
 (
 nsIAtom
@@ -2672,7 +2672,7 @@ variable
 .
 *
 /
-bool
+PRBool
 GetAssignmentFor
 (
 nsIAtom
@@ -2738,7 +2738,7 @@ otherwise
 .
 *
 /
-bool
+PRBool
 IsEmpty
 (
 )
@@ -2751,7 +2751,7 @@ mAssignments
 nsnull
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -2761,7 +2761,7 @@ aSet
 )
 const
 ;
-bool
+PRBool
 operator
 =
 =
@@ -2780,7 +2780,7 @@ aSet
 )
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -3304,7 +3304,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -3323,7 +3323,7 @@ aInstantiation
 mAssignments
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -3342,7 +3342,7 @@ aInstantiation
 )
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -3790,7 +3790,7 @@ mCurrent
 mInstantiation
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -3811,7 +3811,7 @@ aConstIterator
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -4015,7 +4015,7 @@ mCurrent
 mInstantiation
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -4036,7 +4036,7 @@ aConstIterator
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -4090,7 +4090,7 @@ mHead
 )
 ;
 }
-bool
+PRBool
 Empty
 (
 )
@@ -4149,7 +4149,7 @@ Clear
 (
 )
 ;
-bool
+PRBool
 HasAssignmentFor
 (
 nsIAtom
@@ -4484,9 +4484,9 @@ Propagate
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 aIsUpdate
-bool
+PRBool
 &
 aTakenInstantiations
 )
@@ -4737,7 +4737,7 @@ return
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -4758,7 +4758,7 @@ aConstIterator
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -4917,7 +4917,7 @@ return
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -4938,7 +4938,7 @@ aConstIterator
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5537,9 +5537,9 @@ Propagate
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 aIsUpdate
-bool
+PRBool
 &
 aTakenInstantiations
 )
@@ -5804,7 +5804,7 @@ FilterInstantiations
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 *
 aCantHandleYet
 )
@@ -5870,7 +5870,7 @@ otherwise
 .
 *
 /
-bool
+PRBool
 HasAncestor
 (
 const

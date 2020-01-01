@@ -631,7 +631,7 @@ bytes
 /
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 Grow
 (

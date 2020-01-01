@@ -568,7 +568,7 @@ const
 nsACString
 &
 aFileExt
-bool
+PRBool
 *
 aFound
 )
@@ -580,7 +580,7 @@ const
 nsACString
 &
 aScheme
-bool
+PRBool
 *
 found
 nsIHandlerInfo
@@ -601,7 +601,7 @@ const
 char
 *
 aProtocolScheme
-bool
+PRBool
 *
 aHandlerExists
 )
@@ -808,7 +808,7 @@ aMinorType
 nsAString
 &
 aDescription
-bool
+PRBool
 aUserData
 )
 ;
@@ -831,10 +831,10 @@ aLineInputStream
 nsACString
 &
 aBuffer
-bool
+PRBool
 *
 aNetscapeFormat
-bool
+PRBool
 *
 aMore
 )
@@ -1054,7 +1054,7 @@ aDescription
 nsAString
 &
 aMozillaFlags
-bool
+PRBool
 aUserData
 )
 ;

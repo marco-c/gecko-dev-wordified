@@ -575,7 +575,7 @@ nsGenericHTMLElement
 nsIDOMHTMLTableRowElement
 NS_DECL_NSIDOMHTMLTABLEROWELEMENT
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -601,7 +601,7 @@ const
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -1006,10 +1006,10 @@ GetLength
 numRows
 )
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -1148,10 +1148,10 @@ rows
 )
 )
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 PRUint32
 numRows
@@ -1241,7 +1241,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 IsCell
 (
 nsIContent
@@ -1848,7 +1848,7 @@ nsHTMLTableRowElement
 VAlign
 valign
 )
-bool
+PRBool
 nsHTMLTableRowElement
 :
 :
@@ -2369,7 +2369,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsHTMLTableRowElement
 :

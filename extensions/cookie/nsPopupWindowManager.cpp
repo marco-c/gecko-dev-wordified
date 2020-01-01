@@ -729,7 +729,7 @@ rv
 )
 )
 {
-bool
+PRBool
 permission
 ;
 rv
@@ -1305,10 +1305,10 @@ disable
 popups
 "
 pref
-bool
+PRBool
 permission
 =
-true
+PR_TRUE
 ;
 prefBranch
 -

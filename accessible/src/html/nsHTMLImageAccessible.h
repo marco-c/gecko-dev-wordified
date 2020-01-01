@@ -593,7 +593,7 @@ present
 .
 *
 /
-bool
+PRBool
 HasLongDesc
 (
 )
@@ -661,7 +661,7 @@ action
 .
 *
 /
-bool
+PRBool
 IsValidLongDescIndex
 (
 PRUint8

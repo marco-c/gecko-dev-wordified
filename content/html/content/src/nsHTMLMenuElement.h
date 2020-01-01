@@ -569,7 +569,7 @@ NS_DECL_NSIDOMHTMLMENUELEMENT
 nsIHTMLMenu
 NS_DECL_NSIHTMLMENU
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -620,7 +620,7 @@ mType
 protected
 :
 static
-bool
+PRBool
 CanLoadIcon
 (
 nsIContent

@@ -1025,7 +1025,7 @@ aContent
 nsHTMLStyleSheet
 *
 aSheet
-bool
+PRBool
 aWillAddAttr
 nsMappedAttributes
 *
@@ -1188,14 +1188,14 @@ ATTRCHILD_ARRAY_ATTR_SLOTS_BITS
 )
 ;
 }
-bool
+PRBool
 GrowBy
 (
 PRUint32
 aGrowSize
 )
 ;
-bool
+PRBool
 AddAttrSlot
 (
 )

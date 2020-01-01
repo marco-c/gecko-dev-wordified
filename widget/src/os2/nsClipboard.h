@@ -470,7 +470,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-bool
+PRBool
 *
 _retval
 )
@@ -510,7 +510,7 @@ char
 aMimeStr
 )
 ;
-bool
+PRBool
 GetClipboardData
 (
 const
@@ -519,7 +519,7 @@ char
 aFlavour
 )
 ;
-bool
+PRBool
 GetClipboardDataByID
 (
 PRUint32

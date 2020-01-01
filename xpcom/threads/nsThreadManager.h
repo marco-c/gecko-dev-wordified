@@ -772,7 +772,7 @@ mLock
 /
 protects
 tables
-bool
+PRBool
 mInitialized
 ;
 }

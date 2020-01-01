@@ -544,7 +544,7 @@ nsHTMLMediaElement
 nsIDOMHTMLVideoElement
 NS_DECL_NSIDOMHTMLVIDEOELEMENT
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -563,7 +563,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (

@@ -1216,7 +1216,7 @@ example
 *
 AutoRestore
 <
-bool
+PRBool
 >
 savePainting
 (

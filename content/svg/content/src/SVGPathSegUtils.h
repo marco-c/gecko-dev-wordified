@@ -595,7 +595,7 @@ eUpdateAll
 )
 {
 }
-bool
+PRBool
 ShouldUpdateLengthAndControlPoints
 (
 )
@@ -1634,7 +1634,7 @@ aType
 ;
 }
 static
-bool
+PRBool
 IsValidType
 (
 PRUint32
@@ -1655,7 +1655,7 @@ NS_SVG_PATH_SEG_LAST_VALID_TYPE
 ;
 }
 static
-bool
+PRBool
 IsCubicType
 (
 PRUint32
@@ -1700,7 +1700,7 @@ PATHSEG_CURVETO_CUBIC_SMOOTH_ABS
 ;
 }
 static
-bool
+PRBool
 IsQuadraticType
 (
 PRUint32
@@ -1745,7 +1745,7 @@ PATHSEG_CURVETO_QUADRATIC_SMOOTH_ABS
 ;
 }
 static
-bool
+PRBool
 IsArcType
 (
 PRUint32
@@ -1772,7 +1772,7 @@ PATHSEG_ARC_REL
 ;
 }
 static
-bool
+PRBool
 IsRelativeOrAbsoluteType
 (
 PRUint32
@@ -1836,7 +1836,7 @@ PATHSEG_MOVETO_ABS
 ;
 }
 static
-bool
+PRBool
 IsRelativeType
 (
 PRUint32

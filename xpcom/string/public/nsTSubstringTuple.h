@@ -707,7 +707,7 @@ sequence
 .
 *
 /
-bool
+PRBool
 IsDependentOn
 (
 const

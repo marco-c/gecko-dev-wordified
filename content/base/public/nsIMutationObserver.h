@@ -556,7 +556,7 @@ append
 .
 *
 /
-bool
+PRBool
 mAppend
 ;
 /

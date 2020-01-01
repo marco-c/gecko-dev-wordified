@@ -594,7 +594,7 @@ nsPrivateBrowsingServiceWrapper
 :
 GetPrivateBrowsingEnabled
 (
-bool
+PRBool
 *
 aPrivateBrowsingEnabled
 )
@@ -626,7 +626,7 @@ nsPrivateBrowsingServiceWrapper
 :
 SetPrivateBrowsingEnabled
 (
-bool
+PRBool
 aPrivateBrowsingEnabled
 )
 {
@@ -649,7 +649,7 @@ nsPrivateBrowsingServiceWrapper
 :
 GetAutoStarted
 (
-bool
+PRBool
 *
 aAutoStarted
 )
@@ -681,7 +681,7 @@ nsPrivateBrowsingServiceWrapper
 :
 GetLastChangedByCommandLine
 (
-bool
+PRBool
 *
 aReason
 )

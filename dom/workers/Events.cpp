@@ -476,7 +476,7 @@ h
 #
 include
 "
-jsfriendapi
+jsobj
 .
 h
 "

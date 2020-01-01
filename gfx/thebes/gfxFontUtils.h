@@ -735,7 +735,7 @@ block
 ;
 }
 }
-bool
+PRBool
 test
 (
 PRUint32
@@ -837,7 +837,7 @@ aIndex
 0
 ;
 }
-bool
+PRBool
 TestRange
 (
 PRUint32
@@ -906,10 +906,10 @@ false
 PRUint32
 blockIndex
 ;
-bool
+PRBool
 hasBlocksInRange
 =
-false
+PR_FALSE
 ;
 endBlock
 =
@@ -1392,7 +1392,7 @@ set
 (
 PRUint32
 aIndex
-bool
+PRBool
 aValue
 )
 {
@@ -1540,10 +1540,10 @@ if
 block
 )
 {
-bool
+PRBool
 fullBlock
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -4255,7 +4255,7 @@ aTableOffset
 PRUint32
 *
 aUVSTableOffset
-bool
+PRBool
 *
 aSymbolEncoding
 )
@@ -4276,10 +4276,10 @@ aCharacterMap
 PRUint32
 &
 aUVSOffset
-bool
+PRPackedBool
 &
 aUnicodeFont
-bool
+PRPackedBool
 &
 aSymbolFont
 )
@@ -4442,14 +4442,14 @@ rather
 than
 TrueType
 static
-bool
+PRBool
 IsCffFont
 (
 const
 PRUint8
 *
 aFontData
-bool
+PRBool
 &
 hasVertical
 )
@@ -4545,7 +4545,7 @@ thorough
 validation
 .
 static
-bool
+PRBool
 ValidateSFNTHeaders
 (
 const
@@ -4802,7 +4802,7 @@ handle
 the
 encoding
 static
-bool
+PRBool
 DecodeFontName
 (
 const
@@ -5008,7 +5008,7 @@ kUnicodeRLO
 ;
 static
 inline
-bool
+PRBool
 PotentialRTLChar
 (
 PRUnichar
@@ -5765,7 +5765,7 @@ to
 indicate
 done
 virtual
-bool
+PRBool
 RunLoader
 (
 )
@@ -5853,7 +5853,7 @@ mInterval
 )
 ;
 }
-bool
+PRBool
 done
 =
 RunLoader

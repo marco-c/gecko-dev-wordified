@@ -676,7 +676,7 @@ PRInt32
 >
 mContentToFrameIndex
 ;
-bool
+PRPackedBool
 mIsVisual
 ;
 nsBidiLevel
@@ -1540,7 +1540,7 @@ kPDF
 }
 }
 static
-bool
+PRBool
 IsFrameInCurrentLine
 (
 nsBlockInFlowLineIterator
@@ -1759,7 +1759,7 @@ child
 #
 ifdef
 DEBUG
-bool
+PRBool
 hasNext
 =
 #
@@ -1828,7 +1828,7 @@ PRUint8
 >
 mLevels
 ;
-bool
+PRBool
 mIsReordered
 ;
 BidiLineData
@@ -1871,15 +1871,15 @@ Clear
 (
 )
 ;
-bool
+PRBool
 isReordered
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 hasRTLFrames
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2127,7 +2127,7 @@ between
 text
 runs
 ?
-bool
+PRBool
 IsBidiSplittable
 (
 nsIFrame
@@ -2710,7 +2710,7 @@ nsIFrame
 *
 *
 aNewFrame
-bool
+PRBool
 aIsFluid
 )
 {
@@ -3750,10 +3750,10 @@ in
 its
 content
 node
-bool
+PRBool
 isTextFrame
 =
-false
+PR_FALSE
 ;
 nsIFrame
 *
@@ -5208,7 +5208,7 @@ building
 mLogicalFrames
 )
 ?
-bool
+PRBool
 IsBidiLeaf
 (
 nsIFrame
@@ -5360,7 +5360,7 @@ GetNextSibling
 (
 )
 ;
-bool
+PRBool
 isLastFrame
 =
 !
@@ -6116,10 +6116,10 @@ nsnull
 break
 ;
 }
-bool
+PRBool
 createdContinuation
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -6956,7 +6956,7 @@ aFrame
 nsContinuationStates
 *
 aContinuationStates
-bool
+PRBool
 &
 aIsLeftMost
 /
@@ -6964,7 +6964,7 @@ aIsLeftMost
 out
 *
 /
-bool
+PRBool
 &
 aIsRightMost
 /
@@ -6986,7 +6986,7 @@ GetStyleVisibility
 (
 )
 ;
-bool
+PRBool
 isLTR
 =
 (
@@ -7614,7 +7614,7 @@ RepositionFrame
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aIsOddLevel
 nscoord
 &
@@ -7631,7 +7631,7 @@ aFrame
 )
 return
 ;
-bool
+PRBool
 isLeftMost
 isRightMost
 ;
@@ -8182,7 +8182,7 @@ GetStyleVisibility
 (
 )
 ;
-bool
+PRBool
 isLTR
 =
 (
@@ -8438,7 +8438,7 @@ continuationStates
 /
 for
 }
-bool
+PRBool
 nsBidiPresUtils
 :
 :
@@ -9033,7 +9033,7 @@ PRInt32
 aTextLength
 nsCharType
 aCharType
-bool
+PRBool
 aIsOddLevel
 )
 {
@@ -9575,10 +9575,10 @@ PRUint8
 aPrevCharType
 )
 {
-bool
+PRBool
 strongTypeFound
 =
-false
+PR_FALSE
 ;
 PRInt32
 offset
@@ -11775,7 +11775,7 @@ copied
 static
 *
 /
-bool
+PRBool
 nsBidiPresUtils
 :
 :
@@ -12082,7 +12082,7 @@ nsAString
 aDest
 nsBidiLevel
 aBaseDirection
-bool
+PRBool
 aOverride
 )
 {

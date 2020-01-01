@@ -764,7 +764,7 @@ nsProfileDirServiceProvider
 :
 nsProfileDirServiceProvider
 (
-bool
+PRBool
 aNotifyObservers
 )
 :
@@ -832,7 +832,7 @@ if
 mProfileDir
 )
 {
-bool
+PRBool
 isEqual
 ;
 if
@@ -1626,7 +1626,7 @@ const
 char
 *
 prop
-bool
+PRBool
 *
 persistant
 nsIFile
@@ -2527,7 +2527,7 @@ location
 nsresult
 rv
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -2744,7 +2744,7 @@ rv
 }
 else
 {
-bool
+PRBool
 isDir
 ;
 rv
@@ -2865,7 +2865,7 @@ rv
 )
 )
 {
-bool
+PRBool
 exists
 ;
 rv
@@ -2910,7 +2910,7 @@ DIRECTORY_TYPE
 }
 else
 {
-bool
+PRBool
 isDir
 ;
 rv
@@ -2978,7 +2978,7 @@ destDir
 nsresult
 rv
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -3449,7 +3449,7 @@ function
 nsresult
 NS_NewProfileDirServiceProvider
 (
-bool
+PRBool
 aNotifyObservers
 nsProfileDirServiceProvider
 *

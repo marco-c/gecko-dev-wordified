@@ -1046,7 +1046,7 @@ IsContainer
 (
 PRInt32
 aId
-bool
+PRBool
 &
 aIsContainer
 )
@@ -1059,7 +1059,7 @@ IsBlock
 (
 PRInt32
 aId
-bool
+PRBool
 &
 aIsBlock
 )
@@ -1128,7 +1128,7 @@ const
 nsAString
 &
 aQName
-bool
+PRBool
 aNamespaceAware
 const
 PRUnichar
@@ -1140,7 +1140,7 @@ aColon
 0
 ;
 virtual
-bool
+PRBool
 IsXMLLetter
 (
 PRUnichar
@@ -1150,7 +1150,7 @@ aChar
 0
 ;
 virtual
-bool
+PRBool
 IsXMLNCNameChar
 (
 PRUnichar

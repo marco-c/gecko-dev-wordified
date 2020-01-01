@@ -529,7 +529,7 @@ m2b
 aKeyStr
 ;
 }
-bool
+PRBool
 mIsUnichar
 ;
 union
@@ -572,7 +572,7 @@ mIndex
 }
 ;
 static
-bool
+PRBool
 matchNameKeysCaseInsensitive
 (
 PLDHashTable
@@ -1062,7 +1062,7 @@ nsStaticCaseInsensitiveNameTable
 )
 ;
 }
-bool
+PRBool
 nsStaticCaseInsensitiveNameTable
 :
 :

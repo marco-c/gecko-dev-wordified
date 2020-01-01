@@ -605,7 +605,7 @@ thread
 -
 -
 -
-bool
+PRBool
 nsNativeConnectionHelper
 :
 :
@@ -707,7 +707,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsNativeConnectionHelper
 :
 :

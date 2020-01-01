@@ -843,7 +843,7 @@ itself
 NS_IMETHOD
 OnPrototypeLoadDone
 (
-bool
+PRBool
 aResumeWalk
 )
 =
@@ -867,7 +867,7 @@ properly
 *
 /
 virtual
-bool
+PRBool
 OnDocumentParserError
 (
 )

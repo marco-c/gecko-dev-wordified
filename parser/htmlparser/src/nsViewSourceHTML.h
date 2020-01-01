@@ -621,7 +621,7 @@ virtual
 void
 SetVerification
 (
-bool
+PRBool
 aEnable
 )
 ;
@@ -646,7 +646,7 @@ nsSubstring
 aText
 PRInt32
 attrCount
-bool
+PRBool
 aTagInError
 )
 ;
@@ -662,7 +662,7 @@ nsTokenAllocator
 allocator
 PRInt32
 attrCount
-bool
+PRBool
 aOwnerInError
 )
 ;
@@ -703,7 +703,7 @@ nsAString
 aAttrValue
 )
 ;
-bool
+PRBool
 IsUrlAttribute
 (
 const
@@ -837,7 +837,7 @@ const_iterator
 end
 )
 ;
-bool
+PRBool
 IsTokenValueTrimmableCharacter
 (
 PRUnichar
@@ -933,16 +933,16 @@ weak
 PRInt32
 mTabSize
 ;
-bool
+PRPackedBool
 mSyntaxHighlight
 ;
-bool
+PRPackedBool
 mWrapLongLines
 ;
-bool
+PRPackedBool
 mHasOpenRoot
 ;
-bool
+PRPackedBool
 mHasOpenBody
 ;
 nsDTDMode

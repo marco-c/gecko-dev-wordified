@@ -526,7 +526,7 @@ key
 /
 no
 ownership
-bool
+PRPackedBool
 mCritInit
 [
 max_criterions
@@ -662,7 +662,7 @@ nsCertOverride
 OverrideBits
 mOverrideBits
 ;
-bool
+PRBool
 mIsTemporary
 ;
 nsCOMPtr

@@ -495,7 +495,7 @@ generation
 *
 /
 static
-bool
+PRBool
 InGeneration
 (
 nsCycleCollectionTraversalCallback

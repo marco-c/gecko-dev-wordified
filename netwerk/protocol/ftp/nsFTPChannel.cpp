@@ -1310,7 +1310,7 @@ nsFtpChannel
 :
 OpenContentStream
 (
-bool
+PRBool
 async
 nsIInputStream
 *
@@ -1389,7 +1389,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsFtpChannel
 :
 :
@@ -1561,7 +1561,7 @@ OnFTPControlLogRunnable
 nsIFTPEventSink
 *
 aTarget
-bool
+PRBool
 aServer
 const
 char
@@ -1592,7 +1592,7 @@ nsIFTPEventSink
 >
 mTarget
 ;
-bool
+PRBool
 mServer
 ;
 nsCString
@@ -1627,7 +1627,7 @@ FTPEventSinkProxy
 :
 OnFTPControlLog
 (
-bool
+PRBool
 aServer
 const
 char

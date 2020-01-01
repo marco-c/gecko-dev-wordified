@@ -600,7 +600,7 @@ aLoaderPrincipal
 nsILoadGroup
 *
 aLoadGroup
-bool
+PRBool
 aForceToXML
 nsIDOMDocument
 *

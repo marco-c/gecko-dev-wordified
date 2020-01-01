@@ -521,7 +521,7 @@ GetType
 const
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32
@@ -653,7 +653,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;
@@ -726,13 +726,13 @@ aModType
 )
 ;
 virtual
-bool
+PRBool
 ComputesOwnOverflowArea
 (
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 protected

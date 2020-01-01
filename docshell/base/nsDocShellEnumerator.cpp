@@ -604,7 +604,7 @@ nsDocShellEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 outHasMore
 )

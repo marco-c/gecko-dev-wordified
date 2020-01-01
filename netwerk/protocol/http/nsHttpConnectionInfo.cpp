@@ -821,7 +821,7 @@ return
 clone
 ;
 }
-bool
+PRBool
 nsHttpConnectionInfo
 :
 :

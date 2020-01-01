@@ -766,7 +766,7 @@ functions
 *
 /
 static
-bool
+PRBool
 IsValidUnitType
 (
 PRUint16
@@ -2145,7 +2145,7 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 {
@@ -2491,7 +2491,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

@@ -1152,7 +1152,7 @@ aCommandName
 nsISupports
 *
 aCommandContext
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -1535,10 +1535,10 @@ non
 chrome
 documents
 .
-bool
+PRBool
 caretOn
 =
-false
+PR_FALSE
 ;
 selCont
 -
@@ -2860,7 +2860,7 @@ aCommandName
 nsISupports
 *
 aContext
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3115,7 +3115,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3340,7 +3340,7 @@ aCommandName
 nsISupports
 *
 aCommandContext
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3649,7 +3649,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3718,7 +3718,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3782,7 +3782,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3919,7 +3919,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4002,7 +4002,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4086,10 +4086,10 @@ Assign
 format
 )
 ;
-bool
+PRBool
 selectionOnly
 =
-false
+PR_FALSE
 ;
 aParams
 -
@@ -4178,7 +4178,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4256,7 +4256,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4306,7 +4306,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4515,7 +4515,7 @@ aCommandName
 nsISupports
 *
 aCommandContext
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4760,7 +4760,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -4812,7 +4812,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -5071,7 +5071,7 @@ aCommandName
 nsISupports
 *
 aCommandContext
-bool
+PRBool
 *
 outCmdEnabled
 )

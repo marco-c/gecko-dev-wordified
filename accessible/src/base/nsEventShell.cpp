@@ -875,13 +875,13 @@ false
 nsEventShell
 :
 private
-bool
+PRBool
 nsEventShell
 :
 :
 sEventFromUserInput
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <

@@ -1067,7 +1067,7 @@ addStep
 txPattern
 *
 aPattern
-bool
+PRBool
 isChild
 )
 ;
@@ -1086,7 +1086,7 @@ txPattern
 >
 pattern
 ;
-bool
+PRBool
 isChild
 ;
 }
@@ -1132,7 +1132,7 @@ public
 void
 setSerialize
 (
-bool
+PRBool
 aSerialize
 )
 {
@@ -1158,7 +1158,7 @@ used
 in
 a
 txLocPathPattern
-bool
+PRBool
 mSerialize
 ;
 #
@@ -1275,7 +1275,7 @@ txStepPattern
 txNodeTest
 *
 aNodeTest
-bool
+PRBool
 isAttr
 )
 :
@@ -1333,7 +1333,7 @@ txNodeTest
 >
 mNodeTest
 ;
-bool
+PRBool
 mIsAttr
 ;
 }

@@ -615,7 +615,7 @@ deleteLater
 )
 ;
 }
-bool
+PRBool
 nsQtNetworkManager
 :
 :
@@ -624,7 +624,7 @@ isOnline
 )
 {
 static
-bool
+PRBool
 sForceOnlineUSB
 =
 getenv
@@ -751,7 +751,7 @@ directly
 .
 *
 /
-bool
+PRBool
 nsQtNetworkManager
 :
 :

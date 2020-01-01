@@ -439,7 +439,7 @@ aModule
 ifdef
 DEBUG
 {
-bool
+PRBool
 isAbout
 ;
 NS_ASSERTION

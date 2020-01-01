@@ -1069,7 +1069,7 @@ void
 )
 ;
 virtual
-bool
+PRBool
 IsEmpty
 (
 void
@@ -1079,7 +1079,7 @@ virtual
 void
 SetEmpty
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -1163,7 +1163,7 @@ aContainerInfo
 }
 }
 virtual
-bool
+PRBool
 IsWellFormed
 (
 void
@@ -1185,13 +1185,13 @@ protected
 eContainerInfo
 mContainerInfo
 ;
-bool
+PRPackedBool
 mEmpty
 ;
 #
 ifdef
 DEBUG
-bool
+PRPackedBool
 mAttributed
 ;
 #
@@ -1873,7 +1873,7 @@ aStr
 nsresult
 ConsumeCharacterData
 (
-bool
+PRBool
 aIgnoreComments
 nsScanner
 &
@@ -1884,7 +1884,7 @@ nsAString
 aEndTagName
 PRInt32
 aFlag
-bool
+PRBool
 &
 aFlushTokens
 )
@@ -1892,9 +1892,9 @@ aFlushTokens
 nsresult
 ConsumeParsedCharacterData
 (
-bool
+PRBool
 aDiscardFirstNewline
-bool
+PRBool
 aConservativeConsume
 nsScanner
 &
@@ -1905,7 +1905,7 @@ nsAString
 aEndTagName
 PRInt32
 aFlag
-bool
+PRBool
 &
 aFound
 )
@@ -2323,7 +2323,7 @@ nsAString
 anOutputString
 )
 ;
-bool
+PRPackedBool
 mHasEqualWithoutValue
 ;
 protected

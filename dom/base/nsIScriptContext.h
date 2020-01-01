@@ -856,7 +856,7 @@ aVersion
 nsAString
 *
 aRetValue
-bool
+PRBool
 *
 aIsUndefined
 )
@@ -922,7 +922,7 @@ aVersion
 void
 *
 aRetValue
-bool
+PRBool
 *
 aIsUndefined
 )
@@ -1201,7 +1201,7 @@ aScopeObject
 nsAString
 *
 aRetValue
-bool
+PRBool
 *
 aIsUndefined
 )
@@ -1915,7 +1915,7 @@ PRUint32
 aLineNo
 PRUint32
 aVersion
-bool
+PRBool
 aShared
 void
 *
@@ -2085,7 +2085,7 @@ CreateNativeGlobalForInner
 nsIScriptGlobalObject
 *
 aNewInner
-bool
+PRBool
 aIsChrome
 nsIPrincipal
 *
@@ -2333,7 +2333,7 @@ not
 *
 /
 virtual
-bool
+PRBool
 IsContextInitialized
 (
 )
@@ -2520,7 +2520,7 @@ virtual
 void
 ScriptEvaluated
 (
-bool
+PRBool
 aTerminated
 )
 =
@@ -2682,7 +2682,7 @@ context
 *
 /
 virtual
-bool
+PRBool
 GetScriptsEnabled
 (
 )
@@ -2693,9 +2693,9 @@ virtual
 void
 SetScriptsEnabled
 (
-bool
+PRBool
 aEnabled
-bool
+PRBool
 aFireTimeouts
 )
 =
@@ -2766,7 +2766,7 @@ tag
 *
 /
 virtual
-bool
+PRBool
 GetProcessingScriptTag
 (
 )
@@ -2777,7 +2777,7 @@ virtual
 void
 SetProcessingScriptTag
 (
-bool
+PRBool
 aResult
 )
 =
@@ -2803,7 +2803,7 @@ script
 *
 /
 virtual
-bool
+PRBool
 GetExecutingScript
 (
 )
@@ -2850,7 +2850,7 @@ virtual
 void
 SetGCOnDestruction
 (
-bool
+PRBool
 aGCOnDestruction
 )
 =
@@ -3024,7 +3024,7 @@ ClearScope
 void
 *
 aGlobalObj
-bool
+PRBool
 aClearFromProtoChain
 )
 =

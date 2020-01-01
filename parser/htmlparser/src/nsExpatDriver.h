@@ -658,7 +658,7 @@ const
 PRUnichar
 *
 aPubid
-bool
+PRBool
 aHasInternalSubset
 )
 ;
@@ -958,7 +958,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-bool
+PRBool
 aIsFinal
 PRUint32
 *
@@ -977,7 +977,7 @@ nsresult
 aState
 )
 ;
-bool
+PRBool
 BlockedOrInterrupted
 (
 )
@@ -1023,16 +1023,16 @@ mPublicID
 nsString
 mInternalSubset
 ;
-bool
+PRPackedBool
 mInCData
 ;
-bool
+PRPackedBool
 mInInternalSubset
 ;
-bool
+PRPackedBool
 mInExternalDTD
 ;
-bool
+PRPackedBool
 mMadeFinalCallToExpat
 ;
 /
@@ -1057,7 +1057,7 @@ from
 /
 /
 Necko
-bool
+PRPackedBool
 mIsFinalChunk
 ;
 nsresult

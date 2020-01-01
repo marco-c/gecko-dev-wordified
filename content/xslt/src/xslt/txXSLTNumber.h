@@ -609,7 +609,7 @@ aContext
 )
 ;
 static
-bool
+PRBool
 getPrevInDocumentOrder
 (
 txXPathTreeWalker

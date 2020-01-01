@@ -892,11 +892,11 @@ ContentCreationNotifier
 nsIObserver
 )
 static
-bool
+PRBool
 gMenu
 ;
 static
-bool
+PRBool
 gMenuConsumed
 ;
 /
@@ -1243,10 +1243,6 @@ mFocus
 (
 nsnull
 )
-mIMEComposing
-(
-PR_FALSE
-)
 {
 }
 nsWindow
@@ -1305,7 +1301,7 @@ this
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -2098,7 +2094,7 @@ nsWindow
 :
 Show
 (
-bool
+PRBool
 aState
 )
 {
@@ -2427,7 +2423,7 @@ nsWindow
 :
 SetModal
 (
-bool
+PRBool
 aState
 )
 {
@@ -2464,7 +2460,7 @@ nsWindow
 :
 IsVisible
 (
-bool
+PRBool
 &
 aState
 )
@@ -2483,7 +2479,7 @@ nsWindow
 :
 ConstrainPosition
 (
-bool
+PRBool
 aAllowSlop
 PRInt32
 *
@@ -2606,7 +2602,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 {
@@ -2639,7 +2635,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 {
@@ -2682,7 +2678,7 @@ aHeight
 aRepaint
 )
 ;
-bool
+PRBool
 needSizeDispatch
 =
 aWidth
@@ -2834,7 +2830,7 @@ aPlacement
 nsIWidget
 *
 aWidget
-bool
+PRBool
 aActivate
 )
 {
@@ -2895,7 +2891,7 @@ nsWindow
 :
 Enable
 (
-bool
+PRBool
 aState
 )
 {
@@ -2932,7 +2928,7 @@ nsWindow
 :
 IsEnabled
 (
-bool
+PRBool
 *
 aState
 )
@@ -2956,7 +2952,7 @@ const
 nsIntRect
 &
 aRect
-bool
+PRBool
 aIsSynchronous
 )
 {
@@ -3086,7 +3082,7 @@ nsWindow
 :
 SetFocus
 (
-bool
+PRBool
 aRaise
 )
 {
@@ -3546,7 +3542,7 @@ nsWindow
 :
 MakeFullScreen
 (
-bool
+PRBool
 aFullScreen
 )
 {
@@ -4991,7 +4987,7 @@ break
 ;
 }
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -5472,7 +5468,7 @@ y
 )
 )
 ;
-bool
+PRBool
 ok
 =
 mChildren
@@ -8589,7 +8585,7 @@ nsIAtom
 >
 command
 ;
-bool
+PRBool
 isDown
 =
 ae
@@ -8605,7 +8601,7 @@ AndroidKeyEvent
 :
 ACTION_DOWN
 ;
-bool
+PRBool
 isLongPress
 =
 !
@@ -8624,10 +8620,10 @@ AndroidKeyEvent
 FLAG_LONG_PRESS
 )
 ;
-bool
+PRBool
 doCommand
 =
-false
+PR_FALSE
 ;
 PRUint32
 keyCode
@@ -10658,7 +10654,7 @@ ime
 .
 strict_policy
 "
-false
+PR_FALSE
 )
 &
 &
@@ -10823,7 +10819,7 @@ nsWindow
 :
 OnIMEFocusChange
 (
-bool
+PRBool
 aFocus
 )
 {

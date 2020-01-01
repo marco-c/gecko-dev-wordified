@@ -1641,7 +1641,7 @@ this
 ?
 *
 /
-bool
+PRBool
 nsBidi
 :
 :
@@ -1654,7 +1654,7 @@ aMemory
 PRSize
 *
 aSize
-bool
+PRBool
 aMayAllocate
 PRSize
 aSizeNeeded
@@ -10441,7 +10441,7 @@ left
 .
 *
 /
-bool
+PRBool
 nsBidi
 :
 :
@@ -12827,7 +12827,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsBidi
 :
 :

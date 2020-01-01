@@ -614,7 +614,7 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 ;
@@ -662,7 +662,7 @@ GetTarget
 )
 ;
 virtual
-bool
+PRBool
 IsScriptExecuting
 (
 )
@@ -697,14 +697,14 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-bool
+PRBool
 aWasAlternate
 nsresult
 aStatus
 )
 ;
 static
-bool
+PRBool
 ParsePIData
 (
 const
@@ -720,7 +720,7 @@ aTitle
 nsString
 &
 aMedia
-bool
+PRBool
 &
 aIsAlternate
 )
@@ -769,7 +769,7 @@ virtual
 void
 MaybeStartLayout
 (
-bool
+PRBool
 aIgnorePendingSheets
 )
 ;
@@ -799,7 +799,7 @@ aLength
 )
 ;
 virtual
-bool
+PRBool
 OnOpenContainer
 (
 const
@@ -861,7 +861,7 @@ the
 root
 element
 virtual
-bool
+PRBool
 SetDocElement
 (
 PRInt32
@@ -875,13 +875,13 @@ aContent
 )
 ;
 virtual
-bool
+PRBool
 NotifyForDocElement
 (
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 virtual
@@ -904,7 +904,7 @@ nsIContent
 *
 *
 aResult
-bool
+PRBool
 *
 aAppendContent
 mozilla
@@ -949,10 +949,10 @@ virtual
 nsresult
 FlushText
 (
-bool
+PRBool
 aReleaseTextNode
 =
-true
+PR_TRUE
 )
 ;
 nsresult
@@ -988,7 +988,7 @@ PopContent
 (
 )
 ;
-bool
+PRBool
 HaveNotifiedForCurrentContent
 (
 )
@@ -1037,7 +1037,7 @@ const
 nsSubstring
 &
 aHref
-bool
+PRBool
 aAlternate
 const
 nsSubstring
@@ -1061,7 +1061,7 @@ nsIURI
 aUrl
 )
 ;
-bool
+PRBool
 CanStillPrettyPrint
 (
 )
@@ -1071,7 +1071,7 @@ MaybePrettyPrint
 (
 )
 ;
-bool
+PRBool
 IsMonolithicContainer
 (
 nsINodeInfo
@@ -1097,7 +1097,7 @@ PRInt32
 aIndex
 PRUint32
 aLineNumber
-bool
+PRBool
 aInterruptable
 )
 ;
@@ -1108,7 +1108,7 @@ const
 PRUnichar
 *
 aName
-bool
+PRBool
 aInterruptable
 )
 ;
@@ -1121,7 +1121,7 @@ PRUnichar
 aData
 PRUint32
 aLength
-bool
+PRBool
 aInterruptable
 )
 ;

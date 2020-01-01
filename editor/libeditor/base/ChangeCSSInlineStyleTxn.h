@@ -604,7 +604,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aRemoveProperty
 )
 ;
@@ -686,7 +686,7 @@ needed
 *
 /
 static
-bool
+PRBool
 ValueIncludes
 (
 const
@@ -697,7 +697,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aCaseSensitive
 )
 ;
@@ -810,7 +810,7 @@ CSS
 property
 *
 /
-bool
+PRBool
 AcceptsMoreThanOneValue
 (
 nsIAtom
@@ -934,7 +934,7 @@ attribute
 nsresult
 SetStyle
 (
-bool
+PRBool
 aAttributeWasSet
 nsAString
 &
@@ -1086,7 +1086,7 @@ before
 DoTransaction
 *
 /
-bool
+PRBool
 mUndoAttributeWasSet
 ;
 /
@@ -1106,7 +1106,7 @@ after
 DoTransaction
 *
 /
-bool
+PRBool
 mRedoAttributeWasSet
 ;
 /
@@ -1124,7 +1124,7 @@ from
 mElement
 *
 /
-bool
+PRBool
 mRemoveProperty
 ;
 }

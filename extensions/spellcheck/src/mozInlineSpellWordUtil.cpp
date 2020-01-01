@@ -576,7 +576,7 @@ in
 input
 .
 inline
-bool
+PRBool
 IsIgnorableCharacter
 (
 PRUnichar
@@ -652,7 +652,7 @@ otherwise
 punctuation
 .
 inline
-bool
+PRBool
 IsConditionalPunctuation
 (
 PRUnichar
@@ -917,7 +917,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 IsTextNode
 (
 nsIDOMNode
@@ -2232,7 +2232,7 @@ nsIDOMRange
 *
 *
 aRange
-bool
+PRBool
 *
 aSkipChecking
 )
@@ -2614,7 +2614,7 @@ DOM
 word
 .
 static
-bool
+PRBool
 IsDOMWordSeparator
 (
 PRUnichar
@@ -2767,7 +2767,7 @@ PR_FALSE
 ;
 }
 static
-bool
+PRBool
 IsBRElement
 (
 nsIDOMNode
@@ -3035,7 +3035,7 @@ false
 *
 /
 static
-bool
+PRBool
 ContainsDOMWordSeparator
 (
 nsIDOMNode
@@ -3238,7 +3238,7 @@ PR_FALSE
 ;
 }
 static
-bool
+PRBool
 IsBreakElement
 (
 nsIDOMWindow
@@ -3468,7 +3468,7 @@ nsIDOMWindow
 *
 mDocView
 ;
-bool
+PRPackedBool
 mLeftBreakElement
 ;
 }
@@ -3950,10 +3950,10 @@ Clear
 (
 )
 ;
-bool
+PRBool
 seenSoftEnd
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -3994,10 +3994,10 @@ seenSoftEnd
 PR_TRUE
 ;
 }
-bool
+PRBool
 exit
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -5063,7 +5063,7 @@ PRInt32
 aSoftTextOffset
 DOMMapHint
 aHint
-bool
+PRBool
 aSearchForward
 )
 {
@@ -5591,7 +5591,7 @@ ClassifyCharacter
 (
 PRInt32
 aIndex
-bool
+PRBool
 aRecurse
 )
 const
@@ -5704,7 +5704,7 @@ breaking
 /
 rules
 .
-bool
+PRBool
 ShouldSkipWord
 (
 PRInt32
@@ -5729,7 +5729,7 @@ ClassifyCharacter
 (
 PRInt32
 aIndex
-bool
+PRBool
 aRecurse
 )
 const
@@ -6586,10 +6586,10 @@ the
 URL
 finder
 .
-bool
+PRBool
 foundDot
 =
-false
+PR_FALSE
 ;
 PRInt32
 firstColon
@@ -7156,7 +7156,7 @@ WordSplitState
 :
 :
 ShouldSkipWord
-bool
+PRBool
 WordSplitState
 :
 :

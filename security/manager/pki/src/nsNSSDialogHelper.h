@@ -524,10 +524,10 @@ url
 nsISupports
 *
 params
-bool
+PRBool
 modal
 =
-true
+PR_TRUE
 )
 ;
 }

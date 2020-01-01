@@ -966,10 +966,10 @@ nsIMutableArray
 >
 iargv
 ;
-bool
+PRBool
 handledScriptError
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1688,7 +1688,7 @@ then
 prevent
 default
 .
-bool
+PRBool
 brv
 ;
 if

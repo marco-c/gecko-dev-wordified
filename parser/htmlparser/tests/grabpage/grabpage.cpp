@@ -690,7 +690,7 @@ PRUint32
 status
 )
 ;
-bool
+PRBool
 IsDone
 (
 )
@@ -700,7 +700,7 @@ return
 mDone
 ;
 }
-bool
+PRBool
 HaveError
 (
 )
@@ -718,10 +718,10 @@ StreamToFile
 (
 )
 ;
-bool
+PRBool
 mDone
 ;
-bool
+PRBool
 mError
 ;
 FILE

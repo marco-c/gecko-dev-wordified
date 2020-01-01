@@ -474,7 +474,7 @@ aFirstDomain
 nsIURI
 *
 aSecondURI
-bool
+PRBool
 *
 aResult
 )

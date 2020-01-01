@@ -642,7 +642,7 @@ NS_IsAsciiWhitespace
 /
 template
 <
-bool
+PRBool
 IsWhitespace
 (
 PRUnichar
@@ -800,7 +800,7 @@ available
 .
 *
 /
-bool
+PRBool
 hasMoreTokens
 (
 )
@@ -840,7 +840,7 @@ mIter
 mEnd
 ;
 }
-bool
+PRBool
 firstTokenBeganWithWhitespace
 (
 )
@@ -850,7 +850,7 @@ return
 mFirstTokenBeganWithWhitespace
 ;
 }
-bool
+PRBool
 lastTokenEndedWithSeparator
 (
 )
@@ -860,7 +860,7 @@ return
 mLastTokenEndedWithSeparator
 ;
 }
-bool
+PRBool
 lastTokenEndedWithWhitespace
 (
 )
@@ -1246,13 +1246,13 @@ const_char_iterator
 mIter
 mEnd
 ;
-bool
+PRPackedBool
 mFirstTokenBeganWithWhitespace
 ;
-bool
+PRPackedBool
 mLastTokenEndedWithWhitespace
 ;
-bool
+PRPackedBool
 mLastTokenEndedWithSeparator
 ;
 PRUnichar
@@ -1368,7 +1368,7 @@ available
 .
 *
 /
-bool
+PRBool
 hasMoreTokens
 (
 )
@@ -1566,7 +1566,7 @@ mEnd
 char
 mSeparatorChar
 ;
-bool
+PRBool
 isWhitespace
 (
 unsigned

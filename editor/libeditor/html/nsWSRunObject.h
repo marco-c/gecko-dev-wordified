@@ -2760,7 +2760,7 @@ WSFragment
 *
 *
 outRun
-bool
+PRBool
 after
 )
 ;
@@ -2959,7 +2959,7 @@ up
 ws
 info
 .
-bool
+PRBool
 mPRE
 ;
 /

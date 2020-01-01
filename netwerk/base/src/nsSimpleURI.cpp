@@ -834,7 +834,7 @@ aStream
 nsresult
 rv
 ;
-bool
+PRBool
 isMutable
 ;
 /
@@ -846,7 +846,7 @@ doesn
 '
 t
 support
-bool
+PRPackedBool
 *
 )
 rv
@@ -941,7 +941,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 isRefValid
 ;
 rv
@@ -1270,7 +1270,7 @@ NS_OK
 nsIIPCSerializable
 methods
 :
-bool
+PRBool
 nsSimpleURI
 :
 :
@@ -1632,7 +1632,7 @@ nsSimpleURI
 :
 GetHasRef
 (
-bool
+PRBool
 *
 result
 )
@@ -2608,7 +2608,7 @@ Equals
 nsIURI
 *
 other
-bool
+PRBool
 *
 result
 )
@@ -2631,7 +2631,7 @@ EqualsExceptRef
 nsIURI
 *
 other
-bool
+PRBool
 *
 result
 )
@@ -2664,7 +2664,7 @@ nsSimpleURI
 :
 RefHandlingEnum
 refHandlingMode
-bool
+PRBool
 *
 result
 )
@@ -2822,7 +2822,7 @@ const
 char
 *
 i_Scheme
-bool
+PRBool
 *
 o_Equals
 )
@@ -3785,7 +3785,7 @@ nsSimpleURI
 :
 GetMutable
 (
-bool
+PRBool
 *
 value
 )
@@ -3805,7 +3805,7 @@ nsSimpleURI
 :
 SetMutable
 (
-bool
+PRBool
 value
 )
 {

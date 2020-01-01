@@ -737,7 +737,7 @@ nsAString
 aType
 )
 ;
-bool
+PRBool
 HasListeners
 (
 const
@@ -801,7 +801,7 @@ WeakListenerArray
 struct
 ListenerCollection
 {
-bool
+PRBool
 operator
 =
 =
@@ -1010,7 +1010,7 @@ nsEventListenerManager
 *
 GetListenerManager
 (
-bool
+PRBool
 aMayCreate
 )
 {

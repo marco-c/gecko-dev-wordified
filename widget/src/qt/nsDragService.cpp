@@ -1484,7 +1484,7 @@ void
 endDragSession
 (
 in
-bool
+PRBool
 aDoneDrag
 )
 ;
@@ -1496,7 +1496,7 @@ nsDragService
 :
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 {

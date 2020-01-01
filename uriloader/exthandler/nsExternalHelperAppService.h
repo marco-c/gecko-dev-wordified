@@ -908,7 +908,7 @@ const
 nsACString
 &
 aFileExt
-bool
+PRBool
 *
 aFound
 )
@@ -1072,7 +1072,7 @@ const
 char
 *
 aScheme
-bool
+PRBool
 *
 aExists
 )
@@ -1102,7 +1102,7 @@ mode
 .
 *
 /
-bool
+PRBool
 InPrivateBrowsing
 (
 )
@@ -1308,7 +1308,7 @@ otherwise
 /
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 GetTypeFromExtras
 (
@@ -1602,7 +1602,7 @@ browsing
 mode
 *
 /
-bool
+PRBool
 mInPrivateBrowsing
 ;
 }
@@ -1811,7 +1811,7 @@ nsAString
 aFilename
 PRUint32
 aReason
-bool
+PRBool
 aForceSave
 )
 ;
@@ -2019,7 +2019,7 @@ dialog
 .
 *
 /
-bool
+PRPackedBool
 mForceSave
 ;
 /
@@ -2054,7 +2054,7 @@ file
 .
 *
 /
-bool
+PRPackedBool
 mCanceled
 ;
 /
@@ -2092,7 +2092,7 @@ it
 .
 *
 /
-bool
+PRPackedBool
 mShouldCloseWindow
 ;
 /
@@ -2118,16 +2118,16 @@ this
 content
 *
 /
-bool
+PRPackedBool
 mReceivedDispositionInfo
 ;
-bool
+PRPackedBool
 mStopRequestIssued
 ;
-bool
+PRPackedBool
 mProgressListenerInitialized
 ;
-bool
+PRPackedBool
 mIsFileChannel
 ;
 /
@@ -2182,7 +2182,7 @@ file
 .
 *
 /
-bool
+PRBool
 mTempFileIsExecutable
 ;
 PRTime
@@ -2679,7 +2679,7 @@ mime
 type
 *
 /
-bool
+PRBool
 GetNeverAskFlagFromPref
 (
 const
@@ -2917,7 +2917,7 @@ further
 .
 *
 /
-bool
+PRBool
 mKeepRequestAlive
 ;
 /

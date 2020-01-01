@@ -466,13 +466,6 @@ h
 #
 include
 "
-jsinterp
-.
-h
-"
-#
-include
-"
 Bailouts
 .
 h

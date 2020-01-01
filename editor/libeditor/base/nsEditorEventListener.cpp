@@ -849,10 +849,10 @@ if
 bidiKeyboard
 )
 {
-bool
+PRBool
 haveBidiKeyboards
 =
-false
+PR_FALSE
 ;
 bidiKeyboard
 -
@@ -2806,7 +2806,7 @@ if
 NSEvent
 )
 {
-bool
+PRBool
 defaultPrevented
 ;
 NSEvent
@@ -2911,10 +2911,10 @@ do_QueryInterface
 aMouseEvent
 )
 ;
-bool
+PRBool
 isTrusted
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2963,7 +2963,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 preventDefault
 ;
 nsresult
@@ -3095,7 +3095,7 @@ middlemouse
 .
 paste
 "
-false
+PR_FALSE
 )
 )
 {
@@ -3228,10 +3228,10 @@ alt
 middle
 specially
 .
-bool
+PRBool
 ctrlKey
 =
-false
+PR_FALSE
 ;
 mouseEvent
 -
@@ -3570,7 +3570,7 @@ started
 .
 .
 .
-bool
+PRBool
 canDrag
 ;
 nsresult
@@ -3715,7 +3715,7 @@ if
 domNSEvent
 )
 {
-bool
+PRBool
 defaultPrevented
 ;
 domNSEvent
@@ -4026,7 +4026,7 @@ if
 domNSEvent
 )
 {
-bool
+PRBool
 defaultPrevented
 ;
 domNSEvent
@@ -4242,7 +4242,7 @@ aMouseEvent
 )
 ;
 }
-bool
+PRBool
 nsEditorEventListener
 :
 :
@@ -4357,7 +4357,7 @@ dropped
 as
 well
 .
-bool
+PRBool
 typeSupported
 ;
 types
@@ -4665,7 +4665,7 @@ selection
 return
 PR_FALSE
 ;
-bool
+PRBool
 isCollapsed
 ;
 rv
@@ -4850,10 +4850,10 @@ iterate
 through
 them
 all
-bool
+PRBool
 inRange
 =
-true
+PR_TRUE
 ;
 (
 void

@@ -675,7 +675,7 @@ NotifyEvictedFromRenderingObserverList
 (
 )
 ;
-bool
+PRBool
 IsInObserverList
 (
 )
@@ -729,7 +729,7 @@ GetReferencedFrame
 nsIAtom
 *
 aFrameType
-bool
+PRBool
 *
 aOK
 )
@@ -837,7 +837,7 @@ at
 this
 time
 .
-bool
+PRPackedBool
 mInObserverList
 ;
 }
@@ -963,7 +963,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 ;
@@ -1098,13 +1098,13 @@ changes
 *
 /
 virtual
-bool
+PRBool
 IsPersistent
 (
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 private
@@ -1239,7 +1239,7 @@ aURI
 nsIFrame
 *
 aFilteredFrame
-bool
+PRBool
 aReferenceImage
 )
 :
@@ -1322,7 +1322,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 :
@@ -1360,7 +1360,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 :
@@ -1398,7 +1398,7 @@ aURI
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aReferenceImage
 )
 :
@@ -1650,7 +1650,7 @@ aObserver
 #
 ifdef
 DEBUG
-bool
+PRBool
 Contains
 (
 nsSVGRenderingObserver
@@ -1674,7 +1674,7 @@ nsnull
 }
 #
 endif
-bool
+PRBool
 IsEmpty
 (
 )
@@ -1963,7 +1963,7 @@ nsSVGClipPathFrame
 *
 GetClipPathFrame
 (
-bool
+PRBool
 *
 aOK
 )
@@ -2026,7 +2026,7 @@ nsSVGMaskFrame
 *
 GetMaskFrame
 (
-bool
+PRBool
 *
 aOK
 )
@@ -2091,7 +2091,7 @@ nsSVGFilterFrame
 *
 GetFilterFrame
 (
-bool
+PRBool
 *
 aOK
 )

@@ -723,7 +723,7 @@ stmt
 )
 )
 ;
-bool
+PRBool
 hasResult
 ;
 do_check_success
@@ -911,7 +911,7 @@ stmt
 )
 )
 ;
-bool
+PRBool
 hasResult
 ;
 nsresult
@@ -1379,7 +1379,7 @@ WaitFor
 WRITE_LOCK
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -1541,7 +1541,7 @@ try
 to
 execute
 .
-bool
+PRBool
 hasResult
 ;
 rv
@@ -1730,7 +1730,7 @@ try
 to
 execute
 .
-bool
+PRBool
 hasResult
 ;
 rv

@@ -953,7 +953,7 @@ char
 aBuf
 PRUint32
 aLen
-bool
+PRBool
 *
 oDontFeedMe
 )

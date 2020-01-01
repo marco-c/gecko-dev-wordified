@@ -514,7 +514,7 @@ d
 }
 ;
 static
-bool
+PRBool
 test_basic_1
 (
 )
@@ -782,7 +782,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_basic_2
 (
 )
@@ -1066,7 +1066,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_convert
 (
 )
@@ -1177,7 +1177,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_append
 (
 )
@@ -1361,7 +1361,7 @@ nl
 }
 }
 static
-bool
+PRBool
 test_replace_driver
 (
 const
@@ -1477,12 +1477,12 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_replace
 (
 )
 {
-bool
+PRBool
 rv
 ;
 rv
@@ -1777,7 +1777,7 @@ i
 ;
 }
 static
-bool
+PRBool
 test_compress_ws
 (
 )
@@ -1821,7 +1821,7 @@ s
 d
 )
 ;
-bool
+PRBool
 rv
 =
 !
@@ -1866,7 +1866,7 @@ rv
 ;
 }
 static
-bool
+PRBool
 test_depend
 (
 )
@@ -1915,7 +1915,7 @@ s
 sd
 )
 ;
-bool
+PRBool
 rv
 =
 (
@@ -1935,7 +1935,7 @@ rv
 ;
 }
 static
-bool
+PRBool
 test_depend_sub
 (
 )
@@ -1974,7 +1974,7 @@ NS_CSTRING_CONTAINER_INIT_SUBSTRING
 PR_FALSE
 )
 ;
-bool
+PRBool
 terminated
 ;
 const
@@ -1994,7 +1994,7 @@ sd
 terminated
 )
 ;
-bool
+PRBool
 rv
 =
 (
@@ -2029,7 +2029,7 @@ rv
 ;
 }
 static
-bool
+PRBool
 test_adopt
 (
 )
@@ -2110,7 +2110,7 @@ s
 sd
 )
 ;
-bool
+PRBool
 rv
 =
 (
@@ -2130,7 +2130,7 @@ rv
 ;
 }
 static
-bool
+PRBool
 test_adopt_sub
 (
 )
@@ -2208,7 +2208,7 @@ failure
 *
 shrug
 *
-bool
+PRBool
 terminated
 ;
 const
@@ -2228,7 +2228,7 @@ sd
 terminated
 )
 ;
-bool
+PRBool
 rv
 =
 (
@@ -2263,7 +2263,7 @@ rv
 ;
 }
 static
-bool
+PRBool
 test_mutation
 (
 )
@@ -2455,7 +2455,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_ascii
 (
 )
@@ -2557,7 +2557,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_chars
 (
 )
@@ -2695,7 +2695,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_stripchars
 (
 )
@@ -2764,7 +2764,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_trim
 (
 )
@@ -2915,7 +2915,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_find
 (
 )
@@ -2989,7 +2989,7 @@ uni
 Find
 (
 khello
-false
+PR_FALSE
 )
 ;
 if
@@ -3010,7 +3010,7 @@ uni
 Find
 (
 khello
-true
+PR_TRUE
 )
 ;
 if
@@ -3091,7 +3091,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_compressws
 (
 )
@@ -3141,12 +3141,12 @@ Testing
 ;
 }
 static
-bool
+PRBool
 test_comparisons
 (
 )
 {
-bool
+PRBool
 result
 ;
 /
@@ -4510,7 +4510,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_parse_string_helper
 (
 const
@@ -4626,7 +4626,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 test_parse_string_helper0
 (
 const
@@ -4649,7 +4649,7 @@ nsnull
 ;
 }
 static
-bool
+PRBool
 test_parse_string_helper1
 (
 const
@@ -4676,7 +4676,7 @@ nsnull
 ;
 }
 static
-bool
+PRBool
 test_parse_string_helper2
 (
 const
@@ -4707,7 +4707,7 @@ s2
 ;
 }
 static
-bool
+PRBool
 test_parse_string
 (
 )
@@ -4833,7 +4833,7 @@ foo
 -
 -
 typedef
-bool
+PRBool
 (
 *
 TestFunc

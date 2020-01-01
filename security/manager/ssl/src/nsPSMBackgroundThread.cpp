@@ -540,7 +540,7 @@ nsPSMBackgroundThread
 )
 {
 }
-bool
+PRBool
 nsPSMBackgroundThread
 :
 :

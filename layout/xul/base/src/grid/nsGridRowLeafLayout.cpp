@@ -577,7 +577,7 @@ aBox
 index
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -689,7 +689,7 @@ aBox
 index
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -768,7 +768,7 @@ aBox
 index
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -864,7 +864,7 @@ aBox
 index
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -930,7 +930,7 @@ aBox
 index
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -1199,10 +1199,10 @@ GetBox
 (
 )
 ;
-bool
+PRBool
 collapsed
 =
-false
+PR_FALSE
 ;
 nscoord
 topMargin
@@ -1729,7 +1729,7 @@ if
 aBox
 )
 {
-bool
+PRBool
 isHorizontal
 =
 aBox

@@ -692,7 +692,7 @@ ResetMembers
 (
 )
 ;
-bool
+PRBool
 DelayInEffect
 (
 )
@@ -746,7 +746,7 @@ mMaxProgress
 nsString
 mCurrentStatusMsg
 ;
-bool
+PRBool
 mStatusIsDirty
 ;
 PRInt32
@@ -770,7 +770,7 @@ mTotalRequests
 PRInt32
 mFinishedRequests
 ;
-bool
+PRPackedBool
 mUseRealProgressFlag
 ;
 /
@@ -781,10 +781,10 @@ a
 timeout
 is
 pending
-bool
+PRPackedBool
 mDelayedStatus
 ;
-bool
+PRPackedBool
 mDelayedProgress
 ;
 }

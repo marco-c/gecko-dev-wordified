@@ -660,18 +660,6 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsMenuBarFrame
 )
-NS_QUERYFRAME_HEAD
-(
-nsMenuBarFrame
-)
-NS_QUERYFRAME_ENTRY
-(
-nsMenuBarFrame
-)
-NS_QUERYFRAME_TAIL_INHERITING
-(
-nsBoxFrame
-)
 /
 /
 /
@@ -978,7 +966,7 @@ nsMenuBarFrame
 :
 SetActive
 (
-bool
+PRBool
 aActiveFlag
 )
 {
@@ -2029,7 +2017,7 @@ aOldMenu
 nsIContent
 *
 aNewMenu
-bool
+PRBool
 aSelectFirstItem
 )
 :
@@ -2242,7 +2230,7 @@ nsIContent
 >
 mNewMenu
 ;
-bool
+PRBool
 mSelectFirstItem
 ;
 }
@@ -2256,7 +2244,7 @@ ChangeMenuItem
 nsMenuFrame
 *
 aMenuItem
-bool
+PRBool
 aSelectFirstItem
 )
 {
@@ -2328,10 +2316,10 @@ the
 current
 child
 .
-bool
+PRBool
 wasOpen
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2544,7 +2532,7 @@ return
 mCurrentMenu
 ;
 }
-bool
+PRBool
 nsMenuBarFrame
 :
 :

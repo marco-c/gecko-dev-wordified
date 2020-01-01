@@ -510,7 +510,7 @@ dom
 Helper
 function
 static
-bool
+PRBool
 GetCSSComputedValue
 (
 nsIContent
@@ -1122,7 +1122,7 @@ Style
 nsAutoString
 computedStyleVal
 ;
-bool
+PRBool
 didGetComputedVal
 =
 GetCSSComputedValue
@@ -1301,7 +1301,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )
@@ -1594,7 +1594,7 @@ html
 /
 /
 static
-bool
+PRBool
 nsSMILCSSProperty
 :
 :

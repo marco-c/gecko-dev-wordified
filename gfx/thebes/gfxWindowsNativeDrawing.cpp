@@ -1544,7 +1544,7 @@ nsnull
 ;
 }
 }
-bool
+PRBool
 gfxWindowsNativeDrawing
 :
 :
@@ -1671,7 +1671,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 gfxWindowsNativeDrawing
 :
 :

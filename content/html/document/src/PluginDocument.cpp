@@ -559,10 +559,10 @@ nsIStreamListener
 *
 *
 aDocListener
-bool
+PRBool
 aReset
 =
-true
+PR_TRUE
 nsIContentSink
 *
 aSink
@@ -580,7 +580,7 @@ aScriptGlobalObject
 )
 ;
 virtual
-bool
+PRBool
 CanSavePresentation
 (
 nsIRequest
@@ -707,7 +707,7 @@ all
 go
 away
 .
-bool
+PRBool
 mWillHandleInstantiation
 ;
 }
@@ -1315,7 +1315,7 @@ nsnull
 ;
 }
 }
-bool
+PRBool
 PluginDocument
 :
 :
@@ -1382,7 +1382,7 @@ nsIStreamListener
 *
 *
 aDocListener
-bool
+PRBool
 aReset
 nsIContentSink
 *
@@ -1430,10 +1430,10 @@ if
 dsti
 )
 {
-bool
+PRBool
 isMsgPane
 =
-false
+PR_FALSE
 ;
 dsti
 -
@@ -2057,7 +2057,7 @@ PluginDocument
 :
 GetWillHandleInstantiation
 (
-bool
+PRBool
 *
 aWillHandle
 )

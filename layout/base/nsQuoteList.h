@@ -564,7 +564,7 @@ range
 ;
 }
 virtual
-bool
+PRBool
 InitTextFrame
 (
 nsGenConList
@@ -596,7 +596,7 @@ open
 quote
 '
 ?
-bool
+PRBool
 IsOpenQuote
 (
 )
@@ -632,7 +632,7 @@ close
 quote
 '
 ?
-bool
+PRBool
 IsCloseQuote
 (
 )
@@ -660,7 +660,7 @@ close
 quote
 '
 ?
-bool
+PRBool
 IsRealQuote
 (
 )

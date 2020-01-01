@@ -503,12 +503,6 @@ public
 :
 nsICODecoder
 (
-RasterImage
-*
-aImage
-imgIDecoderObserver
-*
-aObserver
 )
 ;
 virtual
@@ -647,7 +641,7 @@ returns
 PR_TRUE
 if
 successful
-bool
+PRBool
 FillBitmapFileHeaderBuffer
 (
 PRInt8
@@ -960,7 +954,7 @@ type
 (
 icon
 )
-bool
+PRPackedBool
 mIsCursor
 ;
 /
@@ -975,7 +969,7 @@ resource
 is
 a
 PNG
-bool
+PRPackedBool
 mIsPNG
 ;
 }

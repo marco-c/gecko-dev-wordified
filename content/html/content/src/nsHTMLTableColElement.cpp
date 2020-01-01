@@ -571,7 +571,7 @@ nsGenericHTMLElement
 nsIDOMHTMLTableColElement
 NS_DECL_NSIDOMHTMLTABLECOLELEMENT
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -596,7 +596,7 @@ const
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -741,7 +741,7 @@ nsHTMLTableColElement
 Width
 width
 )
-bool
+PRBool
 nsHTMLTableColElement
 :
 :
@@ -1401,7 +1401,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsHTMLTableColElement
 :

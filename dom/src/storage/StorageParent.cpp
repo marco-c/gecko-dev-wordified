@@ -1161,7 +1161,7 @@ aKey
 nsString
 *
 aValue
-bool
+PRBool
 *
 aSecure
 nsresult
@@ -1202,7 +1202,7 @@ nsString
 &
 aValue
 const
-bool
+PRBool
 &
 aSecure
 nsresult
@@ -1238,7 +1238,7 @@ nsString
 &
 aKey
 const
-bool
+PRBool
 &
 aSecure
 nsresult

@@ -491,7 +491,7 @@ realWidth
 realHeight
 ]
 inline
-bool
+PRBool
 CheckSaneSubrectSize
 (
 PRInt32
@@ -619,9 +619,9 @@ aCanvasElement
 nsIPrincipal
 *
 aPrincipal
-bool
+PRBool
 forceWriteOnly
-bool
+PRBool
 CORSUsed
 )
 ;
@@ -809,7 +809,7 @@ _f
 return
 PR_FALSE
 inline
-bool
+PRBool
 FloatValidate
 (
 double
@@ -826,7 +826,7 @@ PR_TRUE
 ;
 }
 inline
-bool
+PRBool
 FloatValidate
 (
 double
@@ -850,7 +850,7 @@ PR_TRUE
 ;
 }
 inline
-bool
+PRBool
 FloatValidate
 (
 double
@@ -881,7 +881,7 @@ PR_TRUE
 ;
 }
 inline
-bool
+PRBool
 FloatValidate
 (
 double
@@ -919,7 +919,7 @@ PR_TRUE
 ;
 }
 inline
-bool
+PRBool
 FloatValidate
 (
 double
@@ -964,7 +964,7 @@ PR_TRUE
 ;
 }
 inline
-bool
+PRBool
 FloatValidate
 (
 double

@@ -480,7 +480,7 @@ mChildCount
 ;
 }
 inline
-bool
+PRBool
 Contains
 (
 nsIContent
@@ -500,7 +500,7 @@ aNode
 ;
 }
 inline
-bool
+PRBool
 HaveNotifiedIndex
 (
 PRUint32

@@ -744,10 +744,10 @@ nsIGeolocationUpdate
 >
 mCallback
 ;
-bool
+PRPackedBool
 mHasSeenLocation
 ;
-bool
+PRPackedBool
 mHasGPS
 ;
 nsCOMPtr
@@ -764,7 +764,7 @@ LocationGPSDevice
 *
 mGPSDevice
 ;
-bool
+PRBool
 mIgnoreMinorChanges
 ;
 double
@@ -773,13 +773,13 @@ mPrevLat
 double
 mPrevLong
 ;
-bool
+PRBool
 mIgnoreBigHErr
 ;
 PRInt32
 mMaxHErr
 ;
-bool
+PRBool
 mIgnoreBigVErr
 ;
 PRInt32

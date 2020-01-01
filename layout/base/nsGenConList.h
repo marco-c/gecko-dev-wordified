@@ -761,7 +761,7 @@ dirty
 *
 /
 virtual
-bool
+PRBool
 InitTextFrame
 (
 nsGenConList
@@ -1052,7 +1052,7 @@ nodes
 have
 been
 destroyed
-bool
+PRBool
 DestroyNodesFor
 (
 nsIFrame
@@ -1084,7 +1084,7 @@ aNode2
 |
 .
 static
-bool
+PRBool
 NodeAfter
 (
 const
@@ -1115,7 +1115,7 @@ mSize
 -
 ;
 }
-bool
+PRBool
 IsLast
 (
 nsGenConNode

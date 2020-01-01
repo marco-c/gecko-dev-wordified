@@ -731,7 +731,7 @@ const
 char
 *
 aURI
-bool
+PRBool
 aBlock
 nsIRDFDataSource
 *

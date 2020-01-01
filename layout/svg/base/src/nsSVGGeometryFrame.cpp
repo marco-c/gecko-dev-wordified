@@ -1342,7 +1342,7 @@ GetStyleIfVisited
 (
 )
 ;
-bool
+PRBool
 isServer
 =
 paint
@@ -1587,7 +1587,7 @@ return
 aFillOrStrokeOpacity
 ;
 }
-bool
+PRBool
 nsSVGGeometryFrame
 :
 :
@@ -1770,7 +1770,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsSVGGeometryFrame
 :
 :
@@ -2041,7 +2041,7 @@ dashArray
 ;
 }
 }
-bool
+PRBool
 nsSVGGeometryFrame
 :
 :

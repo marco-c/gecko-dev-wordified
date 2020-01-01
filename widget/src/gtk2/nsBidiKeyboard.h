@@ -485,7 +485,7 @@ nsBidiKeyboard
 (
 )
 ;
-bool
+PRPackedBool
 mHaveBidiKeyboards
 ;
 nsresult

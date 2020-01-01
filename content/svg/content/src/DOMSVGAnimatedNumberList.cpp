@@ -1036,7 +1036,7 @@ Length
 ;
 }
 }
-bool
+PRBool
 DOMSVGAnimatedNumberList
 :
 :

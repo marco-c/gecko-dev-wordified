@@ -588,7 +588,7 @@ nsINIParserFactory
 :
 LockFactory
 (
-bool
+PRBool
 aLock
 )
 {
@@ -602,7 +602,7 @@ nsINIParserImpl
 nsIINIParser
 )
 static
-bool
+PRBool
 SectionCB
 (
 const
@@ -722,7 +722,7 @@ rv
 ;
 }
 static
-bool
+PRBool
 KeyCB
 (
 const

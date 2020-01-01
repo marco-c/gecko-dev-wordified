@@ -587,7 +587,7 @@ unitString
 )
 ;
 }
-bool
+PRBool
 SVGLength
 :
 :
@@ -823,7 +823,7 @@ PR_FALSE
 }
 inline
 static
-bool
+PRBool
 IsAbsoluteUnit
 (
 PRUint8

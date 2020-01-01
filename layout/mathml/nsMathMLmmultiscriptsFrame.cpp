@@ -707,10 +707,10 @@ count
 =
 0
 ;
-bool
+PRBool
 isSubScript
 =
-false
+PR_FALSE
 ;
 nsAutoTArray
 <
@@ -1029,7 +1029,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -1886,10 +1886,10 @@ mprescripts
 if
 there
 .
-bool
+PRBool
 isSubScript
 =
-false
+PR_FALSE
 ;
 nscoord
 minSubScriptShift
@@ -1951,10 +1951,10 @@ supScriptFrame
 =
 nsnull
 ;
-bool
+PRBool
 firstPrescriptsPair
 =
-false
+PR_FALSE
 ;
 nsBoundingMetrics
 bmBase

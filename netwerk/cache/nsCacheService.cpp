@@ -1262,7 +1262,7 @@ nsIPrefBranch
 branch
 )
 ;
-bool
+PRBool
 DiskCacheEnabled
 (
 )
@@ -1301,7 +1301,7 @@ return
 mDiskCacheParentDirectory
 ;
 }
-bool
+PRBool
 OfflineCacheEnabled
 (
 )
@@ -1325,7 +1325,7 @@ return
 mOfflineCacheParentDirectory
 ;
 }
-bool
+PRBool
 MemoryCacheEnabled
 (
 )
@@ -1361,14 +1361,14 @@ PermittedToSmartSize
 (
 nsIPrefBranch
 *
-bool
+PRBool
 firstRun
 )
 ;
-bool
+PRBool
 mHaveProfile
 ;
-bool
+PRBool
 mDiskCacheEnabled
 ;
 PRInt32
@@ -1391,7 +1391,7 @@ nsILocalFile
 >
 mDiskCacheParentDirectory
 ;
-bool
+PRBool
 mOfflineCacheEnabled
 ;
 PRInt32
@@ -1407,7 +1407,7 @@ nsILocalFile
 >
 mOfflineCacheParentDirectory
 ;
-bool
+PRBool
 mMemoryCacheEnabled
 ;
 PRInt32
@@ -1424,7 +1424,7 @@ mMemoryCacheMaxEntrySize
 /
 in
 kilobytes
-bool
+PRBool
 mInPrivateBrowsing
 ;
 }
@@ -1546,7 +1546,7 @@ mObserver
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-bool
+PRBool
 smartSizeEnabled
 ;
 nsCOMPtr
@@ -2758,7 +2758,7 @@ on
 or
 off
 ?
-bool
+PRBool
 smartSizeEnabled
 ;
 rv
@@ -4071,7 +4071,7 @@ PermittedToSmartSize
 nsIPrefBranch
 *
 branch
-bool
+PRBool
 firstRun
 )
 {
@@ -4095,7 +4095,7 @@ size
 in
 the
 past
-bool
+PRBool
 userSet
 ;
 rv
@@ -4229,7 +4229,7 @@ MAX_CACHE_SIZE
 )
 ;
 }
-bool
+PRBool
 smartSizeEnabled
 ;
 rv
@@ -4481,7 +4481,7 @@ if
 profDir
 )
 {
-bool
+PRBool
 same
 ;
 if
@@ -4551,7 +4551,7 @@ rv
 )
 )
 {
-bool
+PRBool
 exists
 ;
 if
@@ -4643,7 +4643,7 @@ if
 mDiskCacheParentDirectory
 )
 {
-bool
+PRBool
 firstSmartSizeRun
 ;
 rv
@@ -5289,7 +5289,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsCacheProfilePrefObserver
 :
 :
@@ -5319,7 +5319,7 @@ return
 mDiskCacheEnabled
 ;
 }
-bool
+PRBool
 nsCacheProfilePrefObserver
 :
 :
@@ -5349,7 +5349,7 @@ return
 mOfflineCacheEnabled
 ;
 }
-bool
+PRBool
 nsCacheProfilePrefObserver
 :
 :
@@ -6995,7 +6995,7 @@ char
 clientID
 nsCacheStoragePolicy
 storagePolicy
-bool
+PRBool
 streamBased
 nsICacheSession
 *
@@ -7442,7 +7442,7 @@ IsStorageEnabledForPolicy
 (
 nsCacheStoragePolicy
 storagePolicy
-bool
+PRBool
 *
 result
 )
@@ -7475,7 +7475,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsCacheService
 :
 :
@@ -8401,7 +8401,7 @@ nsACString
 clientKey
 nsCacheAccessMode
 accessRequested
-bool
+PRBool
 blockingMode
 nsICacheListener
 *
@@ -8839,7 +8839,7 @@ ProcessRequest
 nsCacheRequest
 *
 request
-bool
+PRBool
 calledFromOpenCacheEntry
 nsICacheEntryDescriptor
 *
@@ -9467,7 +9467,7 @@ nsACString
 key
 nsCacheAccessMode
 accessRequested
-bool
+PRBool
 blockingMode
 nsICacheListener
 *
@@ -9924,10 +9924,10 @@ cache
 devices
 for
 entry
-bool
+PRBool
 collision
 =
-false
+PR_FALSE
 ;
 entry
 =
@@ -10389,7 +10389,7 @@ nsCString
 key
 nsCacheStoragePolicy
 policy
-bool
+PRBool
 *
 collision
 )
@@ -11290,7 +11290,7 @@ DoomEntry_Internal
 nsCacheEntry
 *
 entry
-bool
+PRBool
 doProcessPendingRequests
 )
 {
@@ -11546,7 +11546,7 @@ nsCacheService
 :
 OnProfileShutdown
 (
-bool
+PRBool
 cleanse
 )
 {
@@ -12207,7 +12207,7 @@ nsCacheService
 :
 SetDiskCacheEnabled
 (
-bool
+PRBool
 enabled
 )
 {
@@ -12380,7 +12380,7 @@ nsCacheService
 :
 SetOfflineCacheEnabled
 (
-bool
+PRBool
 enabled
 )
 {
@@ -12829,7 +12829,7 @@ CacheEntry
 (
 )
 ;
-bool
+PRBool
 stillActive
 =
 entry
@@ -13191,7 +13191,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-bool
+PRBool
 isCur
 ;
 if
@@ -13727,10 +13727,10 @@ nsCacheRequest
 *
 nextRequest
 ;
-bool
+PRBool
 newWriter
 =
-false
+PR_FALSE
 ;
 CACHE_LOG_DEBUG
 (

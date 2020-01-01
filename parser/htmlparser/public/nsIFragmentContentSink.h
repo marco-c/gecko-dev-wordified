@@ -839,7 +839,7 @@ unexecutable
 NS_IMETHOD
 SetPreventScriptExecution
 (
-bool
+PRBool
 aPreventScriptExecution
 )
 =

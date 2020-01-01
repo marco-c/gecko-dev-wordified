@@ -957,13 +957,13 @@ mBackgroundColor
 /
 calculated
 values
-bool
+PRPackedBool
 mOneUnitBorder
 ;
-bool
+PRPackedBool
 mNoBorderRadius
 ;
-bool
+PRPackedBool
 mAvoidStroke
 ;
 /
@@ -988,7 +988,7 @@ color
 and
 style
 ?
-bool
+PRBool
 AreBorderSideFinalStylesSame
 (
 PRUint8
@@ -1009,7 +1009,7 @@ a
 solid
 color
 ?
-bool
+PRBool
 IsSolidCornerStyle
 (
 PRUint8

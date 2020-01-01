@@ -852,7 +852,7 @@ nsnull
 )
 mSentLocalDropEvent
 (
-false
+PR_FALSE
 )
 {
 }
@@ -1038,7 +1038,7 @@ mDataObject
 )
 ;
 }
-bool
+PRBool
 nsDragService
 :
 :
@@ -1061,7 +1061,7 @@ if
 psdi
 )
 return
-false
+PR_FALSE
 ;
 memset
 (
@@ -1079,7 +1079,7 @@ if
 aDOMNode
 )
 return
-false
+PR_FALSE
 ;
 /
 /
@@ -1122,7 +1122,7 @@ if
 surface
 )
 return
-false
+PR_FALSE
 ;
 PRUint32
 bmWidth
@@ -1150,7 +1150,7 @@ bmHeight
 0
 )
 return
-false
+PR_FALSE
 ;
 psdi
 -
@@ -1185,7 +1185,7 @@ if
 imgSurface
 )
 return
-false
+PR_FALSE
 ;
 nsRefPtr
 <
@@ -1205,7 +1205,7 @@ if
 context
 )
 return
-false
+PR_FALSE
 ;
 context
 -
@@ -2363,7 +2363,7 @@ aActionType
 ;
 mSentLocalDropEvent
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -2687,12 +2687,12 @@ y
 ;
 EndDragSession
 (
-true
+PR_TRUE
 )
 ;
 mDoingDrag
 =
-false
+PR_FALSE
 ;
 return
 DRAGDROP_S_DROP
@@ -3773,7 +3773,7 @@ it
 .
 mSentLocalDropEvent
 =
-true
+PR_TRUE
 ;
 return
 ;
@@ -3863,7 +3863,7 @@ const
 char
 *
 aDataFlavor
-bool
+PRBool
 *
 _retval
 )
@@ -3926,7 +3926,7 @@ endif
 *
 _retval
 =
-false
+PR_FALSE
 ;
 FORMATETC
 fe
@@ -4069,7 +4069,7 @@ fe
 *
 _retval
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -4191,7 +4191,7 @@ S_OK
 *
 _retval
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -4323,7 +4323,7 @@ S_OK
 *
 _retval
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -4429,7 +4429,7 @@ S_OK
 *
 _retval
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -4499,7 +4499,7 @@ format
 .
 /
 /
-bool
+PRBool
 nsDragService
 :
 :
@@ -4510,10 +4510,10 @@ IDataObject
 inDataObj
 )
 {
-bool
+PRBool
 isCollection
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -4610,7 +4610,7 @@ S_OK
 )
 isCollection
 =
-true
+PR_TRUE
 ;
 return
 isCollection
@@ -4682,7 +4682,7 @@ nsDragService
 :
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 {

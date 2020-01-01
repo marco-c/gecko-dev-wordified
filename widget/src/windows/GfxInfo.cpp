@@ -653,11 +653,11 @@ mWindowsVersion
 )
 mHasDualGPU
 (
-false
+PR_FALSE
 )
 mIsGPU2Active
 (
-false
+PR_FALSE
 )
 {
 }
@@ -699,7 +699,7 @@ GfxInfo
 :
 GetD2DEnabled
 (
-bool
+PRBool
 *
 aEnabled
 )
@@ -735,7 +735,7 @@ GfxInfo
 :
 GetDWriteEnabled
 (
-bool
+PRBool
 *
 aEnabled
 )
@@ -765,7 +765,7 @@ GfxInfo
 :
 GetAzureEnabled
 (
-bool
+PRBool
 *
 aEnabled
 )
@@ -773,9 +773,9 @@ aEnabled
 *
 aEnabled
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 d2dEnabled
 =
 gfxWindowsPlatform
@@ -801,10 +801,10 @@ if
 d2dEnabled
 )
 {
-bool
+PRBool
 azure
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -844,7 +844,7 @@ azure
 *
 aEnabled
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2739,7 +2739,7 @@ ERROR_SUCCESS
 {
 mHasDualGPU
 =
-true
+PR_TRUE
 ;
 mDeviceKey2
 =
@@ -3044,7 +3044,7 @@ mAdapterVendorID
 }
 mHasDriverVersionMismatch
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3094,7 +3094,7 @@ of
 the
 DLL
 .
-bool
+PRBool
 is64bitApp
 =
 sizeof
@@ -3213,7 +3213,7 @@ driverNumericVersion
 )
 mHasDriverVersionMismatch
 =
-true
+PR_TRUE
 ;
 }
 const
@@ -3805,7 +3805,7 @@ GfxInfo
 :
 GetIsGPU2Active
 (
-bool
+PRBool
 *
 aIsGPU2Active
 )
@@ -5904,7 +5904,7 @@ aSuggestedDriverVersion
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 PRInt32

@@ -477,10 +477,10 @@ drawable
 glitz_surface_t
 *
 glitzSurface
-bool
+PRBool
 takeOwnership
 =
-false
+PR_FALSE
 )
 ;
 virtual
@@ -556,7 +556,7 @@ glitz_surface_t
 *
 mGlitzSurface
 ;
-bool
+PRBool
 mOwnsSurface
 ;
 }

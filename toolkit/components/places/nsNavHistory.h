@@ -704,7 +704,7 @@ member
 define
 PRIVATEBROWSING_NOTINITED
 (
-bool
+PRBool
 (
 0xffffffff
 )
@@ -1892,7 +1892,7 @@ enabled
 or
 not
 .
-bool
+PRBool
 IsHistoryDisabled
 (
 )
@@ -2237,12 +2237,12 @@ aQueries
 nsNavHistoryQueryOptions
 *
 aOptions
-bool
+PRBool
 *
 aHasSearchTerms
 )
 ;
-bool
+PRBool
 EvaluateQueryForNode
 (
 const
@@ -2415,7 +2415,7 @@ in
 private
 browsing
 mode
-bool
+PRBool
 InPrivateBrowsingMode
 (
 )
@@ -3784,7 +3784,7 @@ PRInt32
 aTyped
 PRInt32
 aVisitCount
-bool
+PRBool
 aIsBookmarked
 PRInt32
 *
@@ -3870,7 +3870,7 @@ true
 nsresult
 InitDBFile
 (
-bool
+PRBool
 aForceInit
 )
 ;
@@ -4071,9 +4071,9 @@ nsIURI
 aURI
 PRTime
 aTime
-bool
+PRBool
 aRedirect
-bool
+PRBool
 aToplevel
 nsIURI
 *
@@ -4088,9 +4088,9 @@ nsIURI
 aURI
 PRTime
 aTime
-bool
+PRBool
 aToplevel
-bool
+PRBool
 aRedirect
 nsIURI
 *
@@ -4113,13 +4113,13 @@ const
 nsAString
 &
 aTitle
-bool
+PRBool
 aHidden
-bool
+PRBool
 aTyped
 PRInt32
 aVisitCount
-bool
+PRBool
 aCalculateFrecency
 PRInt64
 *
@@ -4147,7 +4147,7 @@ PRInt64
 aVisitID
 )
 ;
-bool
+PRBool
 FindLastVisit
 (
 nsIURI
@@ -4164,7 +4164,7 @@ PRInt64
 aSessionID
 )
 ;
-bool
+PRBool
 IsURIStringVisited
 (
 const
@@ -4329,7 +4329,7 @@ aOptions
 nsCString
 &
 queryString
-bool
+PRBool
 &
 aParamsPresent
 StringHash
@@ -4356,7 +4356,7 @@ aClause
 nsresult
 BindQueryClauseParameters
 (
-mozIStorageBaseStatement
+mozIStorageStatement
 *
 statement
 PRInt32
@@ -4590,7 +4590,7 @@ VisitHashKey
 >
 mEmbedVisits
 ;
-bool
+PRBool
 CheckIsRecentEvent
 (
 RecentEventHash
@@ -4656,7 +4656,7 @@ history
 enabled
 preference
 .
-bool
+PRBool
 mHistoryEnabled
 ;
 /
@@ -4757,7 +4757,7 @@ aOptions
 PRInt64
 mTagsFolder
 ;
-bool
+PRBool
 mInPrivateBrowsing
 ;
 PRUint16
@@ -4810,7 +4810,7 @@ query
 *
 /
 inline
-bool
+PRBool
 IsQueryURI
 (
 const

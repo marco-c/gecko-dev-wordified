@@ -579,10 +579,10 @@ newStrength
 ;
 private
 :
-bool
+PRPackedBool
 mInit
 ;
-bool
+PRPackedBool
 mHasCollator
 ;
 LocaleRef

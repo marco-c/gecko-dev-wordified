@@ -835,7 +835,7 @@ const
 char
 *
 referrer
-bool
+PRBool
 forceJSEnabled
 )
 ;
@@ -855,7 +855,7 @@ const
 char
 *
 postData
-bool
+PRBool
 isFile
 const
 char
@@ -872,7 +872,7 @@ const
 char
 *
 referrer
-bool
+PRBool
 forceJSEnabled
 PRUint32
 postHeadersLength
@@ -967,7 +967,7 @@ AddIdleTimeTarget
 nsIPluginInstanceOwner
 *
 objectFrame
-bool
+PRBool
 isVisible
 )
 ;
@@ -1086,10 +1086,10 @@ char
 referrer
 =
 NULL
-bool
+PRBool
 forceJSEnabled
 =
-false
+PR_FALSE
 PRUint32
 getHeadersLength
 =
@@ -1190,7 +1190,7 @@ does
 Java
 )
 static
-bool
+PRBool
 IsJavaMIMEType
 (
 const
@@ -1488,7 +1488,7 @@ const
 char
 *
 aMimeType
-bool
+PRBool
 aCheckEnabled
 )
 ;
@@ -1510,9 +1510,9 @@ aMimeType
 nsresult
 FindPlugins
 (
-bool
+PRBool
 aCreatePluginList
-bool
+PRBool
 *
 aPluginsChanged
 )
@@ -1523,9 +1523,9 @@ ScanPluginsDirectory
 nsIFile
 *
 pluginsDir
-bool
+PRBool
 aCreatePluginList
-bool
+PRBool
 *
 aPluginsChanged
 )
@@ -1536,9 +1536,9 @@ ScanPluginsDirectoryList
 nsISimpleEnumerator
 *
 dirEnum
-bool
+PRBool
 aCreatePluginList
-bool
+PRBool
 *
 aPluginsChanged
 )
@@ -1551,7 +1551,7 @@ nsPluginTag
 plugin
 )
 ;
-bool
+PRBool
 IsRunningPlugin
 (
 nsPluginTag
@@ -1639,7 +1639,7 @@ of
 live
 tags
 .
-bool
+PRBool
 IsLiveTag
 (
 nsIPluginTag
@@ -1695,7 +1695,7 @@ in
 some
 different
 place
-bool
+PRBool
 IsDuplicatePlugin
 (
 nsPluginTag
@@ -1734,13 +1734,13 @@ nsInvalidPluginTag
 >
 mInvalidPlugins
 ;
-bool
+PRPackedBool
 mPluginsLoaded
 ;
-bool
+PRPackedBool
 mDontShowBadPluginMessage
 ;
-bool
+PRPackedBool
 mIsDestroyed
 ;
 /
@@ -1751,7 +1751,7 @@ pref
 plugin
 .
 override_internal_types
-bool
+PRPackedBool
 mOverrideInternalTypes
 ;
 /
@@ -1762,7 +1762,7 @@ pref
 plugin
 .
 disable
-bool
+PRPackedBool
 mPluginsDisabled
 ;
 /
@@ -2032,7 +2032,7 @@ PluginDestructionGuard
 )
 ;
 static
-bool
+PRBool
 DelayDestroy
 (
 nsNPAPIPluginInstance
@@ -2064,7 +2064,7 @@ thread
 ;
 mDelayedDestroy
 =
-false
+PR_FALSE
 ;
 PR_INIT_CLIST
 (
@@ -2085,7 +2085,7 @@ nsNPAPIPluginInstance
 >
 mInstance
 ;
-bool
+PRBool
 mDelayedDestroy
 ;
 static

@@ -566,7 +566,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 ;
@@ -599,7 +599,7 @@ aRuleWalker
 )
 ;
 virtual
-bool
+PRBool
 SetMappedAttribute
 (
 nsIDocument

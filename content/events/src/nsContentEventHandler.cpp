@@ -1120,7 +1120,7 @@ get
 (
 )
 ;
-bool
+PRBool
 isCollapsed
 ;
 rv
@@ -1323,7 +1323,7 @@ the
 end
 .
 static
-bool
+PRBool
 IsContentBR
 (
 nsIContent
@@ -2522,7 +2522,7 @@ ExpandToClusterBoundary
 nsIContent
 *
 aContent
-bool
+PRBool
 aForward
 PRUint32
 *
@@ -2891,7 +2891,7 @@ PRUint32
 aNativeOffset
 PRUint32
 aNativeLength
-bool
+PRBool
 aExpandToClusterBoundaries
 )
 {
@@ -4045,7 +4045,7 @@ nsINode
 aNode
 PRInt32
 aOffset
-bool
+PRBool
 aHint
 nsIFrame
 *
@@ -5027,7 +5027,7 @@ real
 caret
 rect
 .
-bool
+PRBool
 selectionIsCollapsed
 ;
 rv

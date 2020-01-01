@@ -638,7 +638,7 @@ mOriginalURI
 nsCString
 mContentType
 ;
-bool
+PRBool
 mIsDocument
 ;
 /
@@ -649,7 +649,7 @@ of
 the
 LOAD_DOCUMENT_URI
 flag
-bool
+PRBool
 mOpened
 ;
 }

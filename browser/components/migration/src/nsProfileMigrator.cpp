@@ -847,7 +847,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRBool
 sourceExists
 ;
 bpm
@@ -1765,10 +1765,10 @@ NS_OK
 }
 #
 else
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 #
 define
@@ -1855,7 +1855,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRBool
 nsProfileMigrator
 :
 :
@@ -2173,10 +2173,10 @@ NR_StartupRegistry
 return
 PR_FALSE
 ;
-bool
+PRBool
 migrated
 =
-false
+PR_FALSE
 ;
 HREG
 reg

@@ -1248,7 +1248,7 @@ secMan
 )
 {
 \
-bool
+PRBool
 isSystem
 ;
 \

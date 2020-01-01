@@ -847,7 +847,7 @@ executed
 again
 *
 /
-bool
+PRBool
 ShouldRenderAgain
 (
 )
@@ -867,7 +867,7 @@ place
 .
 *
 /
-bool
+PRBool
 IsDoublePass
 (
 )

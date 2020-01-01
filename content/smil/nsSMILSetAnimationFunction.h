@@ -652,7 +652,7 @@ otherwise
 *
 /
 virtual
-bool
+PRBool
 SetAttr
 (
 nsIAtom
@@ -702,7 +702,7 @@ otherwise
 /
 NS_OVERRIDE
 virtual
-bool
+PRBool
 UnsetAttr
 (
 nsIAtom
@@ -765,7 +765,7 @@ attempted
 .
 NS_OVERRIDE
 virtual
-bool
+PRBool
 IsToAnimation
 (
 )
@@ -792,7 +792,7 @@ duration
 .
 NS_OVERRIDE
 virtual
-bool
+PRBool
 IsValueFixedForSimpleDuration
 (
 )
@@ -804,7 +804,7 @@ PR_TRUE
 }
 NS_OVERRIDE
 virtual
-bool
+PRBool
 HasAttr
 (
 nsIAtom
@@ -828,7 +828,7 @@ const
 ;
 NS_OVERRIDE
 virtual
-bool
+PRBool
 GetAttr
 (
 nsIAtom
@@ -842,13 +842,13 @@ const
 ;
 NS_OVERRIDE
 virtual
-bool
+PRBool
 WillReplace
 (
 )
 const
 ;
-bool
+PRBool
 IsDisallowedAttribute
 (
 const

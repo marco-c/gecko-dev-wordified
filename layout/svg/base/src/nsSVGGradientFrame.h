@@ -445,6 +445,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -1013,7 +1020,7 @@ pservers
 html
 #
 LinearGradientElementHrefAttribute
-bool
+PRPackedBool
 mLoopFlag
 ;
 /
@@ -1041,7 +1048,7 @@ isn
 t
 happening
 .
-bool
+PRPackedBool
 mNoHRefURI
 ;
 }

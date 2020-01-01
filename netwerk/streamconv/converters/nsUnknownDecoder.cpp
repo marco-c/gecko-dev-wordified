@@ -594,7 +594,7 @@ if
 prefs
 )
 {
-bool
+PRBool
 val
 ;
 if
@@ -1512,7 +1512,7 @@ NS_OK
 Actual
 sniffing
 code
-bool
+PRBool
 nsUnknownDecoder
 :
 :
@@ -1593,10 +1593,10 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 isLocalFile
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1695,10 +1695,10 @@ nsIRequest
 *
 and
 returns
-bool
+PRBool
 -
 -
-true
+PR_TRUE
 if
 *
 it
@@ -2362,7 +2362,7 @@ now
 )
 ;
 }
-bool
+PRBool
 nsUnknownDecoder
 :
 :
@@ -2442,7 +2442,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 hasMore
 ;
 while
@@ -2606,7 +2606,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsUnknownDecoder
 :
 :
@@ -3145,7 +3145,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsUnknownDecoder
 :
 :
@@ -3228,7 +3228,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsUnknownDecoder
 :
 :
@@ -3452,7 +3452,7 @@ ch
 =
 27
 )
-bool
+PRBool
 nsUnknownDecoder
 :
 :

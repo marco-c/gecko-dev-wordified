@@ -1128,7 +1128,7 @@ b
 *
 (
 (
-bool
+PRBool
 *
 )
 args

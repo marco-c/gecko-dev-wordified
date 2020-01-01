@@ -581,7 +581,7 @@ nsGenericHTMLElement
 nsIDOMHTMLTableCellElement
 NS_DECL_NSIDOMHTMLTABLECELLELEMENT
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -615,7 +615,7 @@ aRuleWalker
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -1020,10 +1020,10 @@ GetLength
 numCells
 )
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 PRUint32
 i
@@ -1414,7 +1414,7 @@ NS_STYLE_CELL_SCOPE_COLGROUP
 }
 }
 ;
-bool
+PRBool
 nsHTMLTableCellElement
 :
 :
@@ -1503,7 +1503,7 @@ nsGkAtoms
 colspan
 )
 {
-bool
+PRBool
 res
 =
 aResult
@@ -1606,7 +1606,7 @@ nsGkAtoms
 rowspan
 )
 {
-bool
+PRBool
 res
 =
 aResult
@@ -2499,7 +2499,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsHTMLTableCellElement
 :

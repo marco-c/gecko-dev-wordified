@@ -1302,7 +1302,7 @@ our
 singleton
 instance
 static
-bool
+PRBool
 sInit
 =
 FALSE
@@ -1657,7 +1657,7 @@ const
 char
 *
 aExt
-bool
+PRBool
 aNeedMini
 PRUint32
 *
@@ -1671,7 +1671,7 @@ const
 char
 *
 aExt
-bool
+PRBool
 aIsMini
 PRUint32
 aIcon
@@ -1721,10 +1721,10 @@ const
 char
 *
 aExt
-bool
+PRBool
 aSet
 =
-false
+PR_FALSE
 )
 ;
 PRUint32
@@ -2076,7 +2076,7 @@ const
 char
 *
 aExt
-bool
+PRBool
 aNeedMini
 PRUint32
 *
@@ -2314,9 +2314,9 @@ const
 char
 *
 aPath
-bool
+PRBool
 aAbstract
-bool
+PRBool
 aNeedMini
 PRUint32
 *
@@ -2476,7 +2476,7 @@ IconFromHandle
 (
 PRUint32
 aHandle
-bool
+PRBool
 aNeedMini
 PRUint32
 *
@@ -4290,7 +4290,7 @@ const
 char
 *
 aPath
-bool
+PRBool
 aAbstract
 )
 {
@@ -6728,7 +6728,7 @@ PRUnichar
 *
 pDst
 ;
-bool
+PRBool
 fSkip
 ;
 /
@@ -7249,7 +7249,7 @@ const
 char
 *
 aExt
-bool
+PRBool
 aNeedMini
 PRUint32
 *
@@ -7450,7 +7450,7 @@ const
 char
 *
 aExt
-bool
+PRBool
 aIsMini
 PRUint32
 aIcon
@@ -8174,7 +8174,7 @@ const
 char
 *
 aExt
-bool
+PRBool
 aSet
 )
 {

@@ -535,7 +535,7 @@ TaskbarPreviewButton
 {
 SetVisible
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -640,7 +640,7 @@ TaskbarPreviewButton
 :
 GetDismissOnClick
 (
-bool
+PRBool
 *
 dismiss
 )
@@ -671,7 +671,7 @@ TaskbarPreviewButton
 :
 SetDismissOnClick
 (
-bool
+PRBool
 dismiss
 )
 {
@@ -711,7 +711,7 @@ TaskbarPreviewButton
 :
 GetHasBorder
 (
-bool
+PRBool
 *
 hasBorder
 )
@@ -742,7 +742,7 @@ TaskbarPreviewButton
 :
 SetHasBorder
 (
-bool
+PRBool
 hasBorder
 )
 {
@@ -782,7 +782,7 @@ TaskbarPreviewButton
 :
 GetDisabled
 (
-bool
+PRBool
 *
 disabled
 )
@@ -813,7 +813,7 @@ TaskbarPreviewButton
 :
 SetDisabled
 (
-bool
+PRBool
 disabled
 )
 {
@@ -927,19 +927,9 @@ nsWindowGfx
 CreateIcon
 (
 img
-false
+PR_FALSE
 0
 0
-nsWindowGfx
-:
-:
-GetIconMetrics
-(
-nsWindowGfx
-:
-:
-kRegularIcon
-)
 &
 Button
 (
@@ -978,7 +968,7 @@ TaskbarPreviewButton
 :
 GetVisible
 (
-bool
+PRBool
 *
 visible
 )
@@ -1009,7 +999,7 @@ TaskbarPreviewButton
 :
 SetVisible
 (
-bool
+PRBool
 visible
 )
 {

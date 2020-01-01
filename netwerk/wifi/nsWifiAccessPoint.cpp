@@ -656,7 +656,7 @@ NS_OK
 Helper
 functions
 :
-bool
+PRBool
 AccessPointsEqual
 (
 nsCOMArray
@@ -751,10 +751,10 @@ mSsid
 )
 )
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 for
 (

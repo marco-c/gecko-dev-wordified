@@ -502,7 +502,7 @@ nsTArray
 .
 h
 "
-bool
+PRBool
 nsCounterUseNode
 :
 :
@@ -550,7 +550,7 @@ Insert
 this
 )
 ;
-bool
+PRBool
 dirty
 =
 counterList
@@ -1740,7 +1740,7 @@ Init
 )
 ;
 }
-bool
+PRBool
 nsCounterManager
 :
 :
@@ -1814,10 +1814,10 @@ PRInt32
 i
 i_end
 ;
-bool
+PRBool
 dirty
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -1909,7 +1909,7 @@ return
 dirty
 ;
 }
-bool
+PRBool
 nsCounterManager
 :
 :
@@ -2261,7 +2261,7 @@ nsIFrame
 *
 mFrame
 ;
-bool
+PRBool
 mDestroyedAny
 ;
 }
@@ -2328,7 +2328,7 @@ return
 PL_DHASH_NEXT
 ;
 }
-bool
+PRBool
 nsCounterManager
 :
 :

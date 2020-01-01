@@ -3053,7 +3053,7 @@ flags
 char
 *
 name
-bool
+PRBool
 isGlobal
 PRUint32
 interfacesBitmap
@@ -3793,7 +3793,7 @@ unnecessary
 /
 work
 .
-bool
+PRBool
 AddLink
 (
 JSObject

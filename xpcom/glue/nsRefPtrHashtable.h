@@ -604,7 +604,7 @@ nsnull
 .
 *
 /
-bool
+PRBool
 Get
 (
 KeyType
@@ -673,7 +673,7 @@ GetWeak
 (
 KeyType
 aKey
-bool
+PRBool
 *
 aFound
 =
@@ -814,7 +814,7 @@ nsnull
 .
 *
 /
-bool
+PRBool
 Get
 (
 KeyType
@@ -877,7 +877,7 @@ KeyClass
 class
 RefPtr
 >
-bool
+PRBool
 nsRefPtrHashtable
 <
 KeyClass
@@ -997,7 +997,7 @@ GetWeak
 (
 KeyType
 aKey
-bool
+PRBool
 *
 aFound
 )
@@ -1081,7 +1081,7 @@ KeyClass
 class
 RefPtr
 >
-bool
+PRBool
 nsRefPtrHashtableMT
 <
 KeyClass

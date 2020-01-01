@@ -725,7 +725,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 ;
@@ -752,12 +752,12 @@ virtual
 nsresult
 DoneAddingChildren
 (
-bool
+PRBool
 aHaveNotified
 )
 ;
 virtual
-bool
+PRBool
 IsDoneAddingChildren
 (
 )
@@ -792,7 +792,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 ;
@@ -805,7 +805,7 @@ GetClassInfo
 ;
 protected
 :
-bool
+PRBool
 IsOnloadEventForWindow
 (
 )
@@ -814,7 +814,7 @@ IsOnloadEventForWindow
 /
 nsScriptElement
 virtual
-bool
+PRBool
 HasScriptContent
 (
 )
@@ -927,7 +927,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 {
@@ -1167,7 +1167,7 @@ nsHTMLScriptElement
 :
 GetAsync
 (
-bool
+PRBool
 *
 aValue
 )
@@ -1203,7 +1203,7 @@ nsHTMLScriptElement
 :
 SetAsync
 (
-bool
+PRBool
 aValue
 )
 {
@@ -1237,7 +1237,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -1331,7 +1331,7 @@ nsHTMLScriptElement
 :
 DoneAddingChildren
 (
-bool
+PRBool
 aHaveNotified
 )
 {
@@ -1381,7 +1381,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsHTMLScriptElement
 :
 :
@@ -1546,7 +1546,7 @@ mExternal
 =
 PR_TRUE
 ;
-bool
+PRBool
 defer
 async
 ;
@@ -1580,7 +1580,7 @@ mFrozen
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsHTMLScriptElement
 :
 :

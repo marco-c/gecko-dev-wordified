@@ -636,7 +636,7 @@ NS_ITOKENIZER_IID
 NS_IMETHOD
 WillTokenize
 (
-bool
+PRBool
 aIsFinalChunk
 nsTokenAllocator
 *
@@ -651,7 +651,7 @@ ConsumeToken
 nsScanner
 &
 aScanner
-bool
+PRBool
 &
 aFlushTokens
 )
@@ -661,7 +661,7 @@ aFlushTokens
 NS_IMETHOD
 DidTokenize
 (
-bool
+PRBool
 aIsFinalChunk
 )
 =
@@ -792,7 +792,7 @@ NS_DECL_NSITOKENIZER
 NS_IMETHOD
 WillTokenize
 (
-bool
+PRBool
 aIsFinalChunk
 nsTokenAllocator
 *
@@ -806,7 +806,7 @@ ConsumeToken
 nsScanner
 &
 aScanner
-bool
+PRBool
 &
 aFlushTokens
 )
@@ -815,7 +815,7 @@ aFlushTokens
 NS_IMETHOD
 DidTokenize
 (
-bool
+PRBool
 aIsFinalChunk
 )
 ;

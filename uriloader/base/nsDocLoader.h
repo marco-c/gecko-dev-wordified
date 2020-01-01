@@ -1000,7 +1000,7 @@ nsDocLoader
 aLoader
 )
 ;
-bool
+PRBool
 IsBusy
 (
 )
@@ -1302,7 +1302,7 @@ nsIURI
 aUri
 )
 ;
-bool
+PRBool
 RefreshAttempted
 (
 nsIWebProgress
@@ -1313,7 +1313,7 @@ nsIURI
 aURI
 PRInt32
 aDelay
-bool
+PRBool
 aSameURI
 )
 ;
@@ -1455,7 +1455,7 @@ onload
 /
 handler
 .
-bool
+PRBool
 ChildEnteringOnload
 (
 nsIDocumentLoader
@@ -1752,7 +1752,7 @@ fired
 .
 *
 /
-bool
+PRPackedBool
 mIsLoadingDocument
 ;
 /
@@ -1774,7 +1774,7 @@ document
 .
 *
 /
-bool
+PRPackedBool
 mIsRestoringDocument
 ;
 /
@@ -1805,7 +1805,7 @@ flush
 .
 *
 /
-bool
+PRPackedBool
 mDontFlushLayout
 ;
 /
@@ -1849,7 +1849,7 @@ flushing
 .
 *
 /
-bool
+PRPackedBool
 mIsFlushingLayout
 ;
 private
@@ -1989,7 +1989,7 @@ true
 void
 DocLoaderIsEmpty
 (
-bool
+PRBool
 aFlushLayout
 )
 ;

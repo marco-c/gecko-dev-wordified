@@ -1630,7 +1630,7 @@ expr
 aExpr
 ;
 }
-bool
+PRBool
 PathExpr
 :
 :

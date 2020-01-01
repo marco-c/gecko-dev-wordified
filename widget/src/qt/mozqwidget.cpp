@@ -3012,10 +3012,10 @@ receive
 the
 gesture
 events
-bool
+PRBool
 handled
 =
-false
+PR_FALSE
 ;
 mReceiver
 -
@@ -3046,10 +3046,10 @@ Gesture
 )
 :
 {
-bool
+PRBool
 handled
 =
-false
+PR_FALSE
 ;
 mReceiver
 -

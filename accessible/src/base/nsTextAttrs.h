@@ -664,10 +664,10 @@ nsTextAttrsMgr
 nsHyperTextAccessible
 *
 aHyperTextAcc
-bool
+PRBool
 aIncludeDefAttrs
 =
-true
+PR_TRUE
 nsAccessible
 *
 aOffsetAcc
@@ -884,7 +884,7 @@ nsHyperTextAccessible
 >
 mHyperTextAcc
 ;
-bool
+PRBool
 mIncludeDefAttrs
 ;
 nsRefPtr
@@ -1108,13 +1108,13 @@ applied
 *
 /
 virtual
-bool
+PRBool
 GetValue
 (
 nsAString
 &
 aValue
-bool
+PRBool
 aIncludeDefAttrValue
 )
 =
@@ -1145,7 +1145,7 @@ value
 *
 /
 virtual
-bool
+PRBool
 Equal
 (
 nsIContent
@@ -1191,7 +1191,7 @@ public
 :
 nsTextAttr
 (
-bool
+PRBool
 aGetRootValue
 )
 :
@@ -1205,13 +1205,13 @@ aGetRootValue
 /
 nsITextAttr
 virtual
-bool
+PRBool
 GetValue
 (
 nsAString
 &
 aValue
-bool
+PRBool
 aIncludeDefAttrValue
 )
 {
@@ -1230,7 +1230,7 @@ return
 mIsRootDefined
 ;
 }
-bool
+PRBool
 isDefined
 =
 mIsDefined
@@ -1299,7 +1299,7 @@ PR_TRUE
 ;
 }
 virtual
-bool
+PRBool
 Equal
 (
 nsIContent
@@ -1310,7 +1310,7 @@ aContent
 T
 nativeValue
 ;
-bool
+PRBool
 isDefined
 =
 GetValueFor
@@ -1376,7 +1376,7 @@ DOM
 element
 .
 virtual
-bool
+PRBool
 GetValueFor
 (
 nsIContent
@@ -1424,7 +1424,7 @@ should
 be
 exposed
 .
-bool
+PRBool
 mGetRootValue
 ;
 /
@@ -1464,7 +1464,7 @@ root
 T
 mNativeValue
 ;
-bool
+PRBool
 mIsDefined
 ;
 /
@@ -1492,7 +1492,7 @@ classes
 T
 mRootNativeValue
 ;
-bool
+PRBool
 mIsRootDefined
 ;
 }
@@ -1568,7 +1568,7 @@ protected
 /
 nsTextAttr
 virtual
-bool
+PRBool
 GetValueFor
 (
 nsIContent
@@ -1594,7 +1594,7 @@ aFormattedValue
 ;
 private
 :
-bool
+PRBool
 GetLang
 (
 nsIContent
@@ -1675,7 +1675,7 @@ protected
 /
 nsTextAttr
 virtual
-bool
+PRBool
 GetValueFor
 (
 nsIContent
@@ -1776,7 +1776,7 @@ protected
 /
 nsTextAttr
 virtual
-bool
+PRBool
 GetValueFor
 (
 nsIContent
@@ -1802,7 +1802,7 @@ aFormattedValue
 ;
 private
 :
-bool
+PRBool
 GetColor
 (
 nsIFrame
@@ -1889,7 +1889,7 @@ protected
 /
 nsTextAttr
 virtual
-bool
+PRBool
 GetValueFor
 (
 nsIContent
@@ -2032,7 +2032,7 @@ protected
 /
 nsTextAttr
 virtual
-bool
+PRBool
 GetValueFor
 (
 nsIContent

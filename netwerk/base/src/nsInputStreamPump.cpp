@@ -819,7 +819,7 @@ PRUint32
 segsize
 PRUint32
 segcount
-bool
+PRBool
 closeWhenDone
 )
 {
@@ -1583,7 +1583,7 @@ nsInputStreamPump
 :
 IsPending
 (
-bool
+PRBool
 *
 result
 )
@@ -2154,7 +2154,7 @@ PRUint32
 segsize
 PRUint32
 segcount
-bool
+PRBool
 closeWhenDone
 )
 {
@@ -2280,7 +2280,7 @@ support
 nsIAsyncInputStream
 /
 /
-bool
+PRBool
 nonBlocking
 ;
 nsresult

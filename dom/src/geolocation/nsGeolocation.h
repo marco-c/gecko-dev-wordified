@@ -600,10 +600,10 @@ errorCallback
 nsIDOMGeoPositionOptions
 *
 options
-bool
+PRBool
 watchPositionRequest
 =
-false
+PR_FALSE
 )
 ;
 nsresult
@@ -631,7 +631,7 @@ location
 has
 changed
 .
-bool
+void
 Update
 (
 nsIDOMGeoPosition
@@ -652,7 +652,7 @@ MarkCleared
 (
 )
 ;
-bool
+PRBool
 IsActive
 (
 )
@@ -662,7 +662,7 @@ return
 mCleared
 ;
 }
-bool
+PRBool
 Allowed
 (
 )
@@ -709,13 +709,13 @@ PRInt16
 errorCode
 )
 ;
-bool
+PRPackedBool
 mAllowed
 ;
-bool
+PRPackedBool
 mCleared
 ;
-bool
+PRPackedBool
 mIsWatchPositionRequest
 ;
 nsCOMPtr
@@ -1119,7 +1119,7 @@ the
 callbacks
 are
 repeating
-bool
+PRBool
 HasActiveCallbacks
 (
 )
@@ -1204,7 +1204,7 @@ the
 widnow
 still
 exists
-bool
+PRBool
 WindowOwnerStillExists
 (
 )

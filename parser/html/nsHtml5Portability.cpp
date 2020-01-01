@@ -837,7 +837,7 @@ delete
 str
 ;
 }
-bool
+PRBool
 nsHtml5Portability
 :
 :
@@ -875,7 +875,7 @@ length
 )
 ;
 }
-bool
+PRBool
 nsHtml5Portability
 :
 :
@@ -1042,7 +1042,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsHtml5Portability
 :
 :
@@ -1077,7 +1077,7 @@ lowerCaseLiteral
 )
 ;
 }
-bool
+PRBool
 nsHtml5Portability
 :
 :
@@ -1112,7 +1112,7 @@ literal
 )
 ;
 }
-bool
+PRBool
 nsHtml5Portability
 :
 :

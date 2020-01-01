@@ -622,14 +622,14 @@ kDNSServiceCID
 NS_DNSSERVICE_CID
 )
 ;
-bool
+PRBool
 sDisablePrefetchHTTPSPref
 ;
 static
-bool
+PRBool
 sInitialized
 =
-false
+PR_FALSE
 ;
 static
 nsIDNSService
@@ -792,7 +792,7 @@ dns
 .
 disablePrefetchFromHTTPS
 "
-true
+PR_TRUE
 )
 ;
 NS_IF_RELEASE
@@ -892,7 +892,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHTMLDNSPrefetch
 :
 :

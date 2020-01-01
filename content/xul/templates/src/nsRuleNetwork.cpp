@@ -612,7 +612,7 @@ nsRDFPropertyTestNode
 .
 h
 "
-bool
+PRBool
 MemoryElement
 :
 :
@@ -627,7 +627,7 @@ gPool
 /
 /
 static
-bool
+PRBool
 MemoryElement
 :
 :
@@ -1110,7 +1110,7 @@ return
 count
 ;
 }
-bool
+PRBool
 nsAssignmentSet
 :
 :
@@ -1173,7 +1173,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsAssignmentSet
 :
 :
@@ -1224,7 +1224,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsAssignmentSet
 :
 :
@@ -1300,7 +1300,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsAssignmentSet
 :
 :
@@ -2076,7 +2076,7 @@ return
 result
 ;
 }
-bool
+PRBool
 InstantiationSet
 :
 :
@@ -2319,9 +2319,9 @@ Propagate
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 aIsUpdate
-bool
+PRBool
 &
 aTakenInstantiations
 )
@@ -2426,7 +2426,7 @@ the
 child
 without
 copying
-bool
+PRBool
 shouldCopy
 =
 (
@@ -2544,10 +2544,10 @@ if
 shouldCopy
 )
 {
-bool
+PRBool
 owned
 =
-false
+PR_FALSE
 ;
 InstantiationSet
 *
@@ -2742,10 +2742,10 @@ any
 missing
 information
 .
-bool
+PRBool
 cantHandleYet
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -2926,7 +2926,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 TestNode
 :
 :

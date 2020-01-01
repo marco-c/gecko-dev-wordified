@@ -895,14 +895,14 @@ aBorderStyle
 nsresult
 Show
 (
-bool
+PRBool
 aState
 )
 ;
 void
 SetWindowListVisibility
 (
-bool
+PRBool
 aState
 )
 ;
@@ -930,7 +930,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 ;
@@ -945,7 +945,7 @@ PRInt32
 w
 PRInt32
 h
-bool
+PRBool
 aRepaint
 )
 ;
@@ -964,7 +964,7 @@ aMode
 nsresult
 HideWindowChrome
 (
-bool
+PRBool
 aShouldHide
 )
 ;
@@ -989,7 +989,7 @@ aIconSpec
 nsresult
 ConstrainPosition
 (
-bool
+PRBool
 aAllowSlop
 PRInt32
 *
@@ -1110,7 +1110,7 @@ mFrameIcon
 current
 frame
 icon
-bool
+PRBool
 mChromeHidden
 ;
 /
@@ -1120,7 +1120,7 @@ frame
 controls
 hidden
 ?
-bool
+PRBool
 mNeedActivation
 ;
 /

@@ -29923,10 +29923,10 @@ i
 i
 )
 {
-bool
+PRBool
 success
 =
-false
+PR_FALSE
 ;
 /
 /

@@ -1496,10 +1496,10 @@ GetPath
 targetPath
 )
 ;
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 targetFile
 -
@@ -1703,10 +1703,10 @@ if
 file
 )
 {
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 file
 -

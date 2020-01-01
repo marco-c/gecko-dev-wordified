@@ -755,10 +755,10 @@ arg
 struct
 retrieval_context
 {
-bool
+PRPackedBool
 completed
 ;
-bool
+PRPackedBool
 timed_out
 ;
 void
@@ -771,11 +771,11 @@ retrieval_context
 :
 completed
 (
-false
+PR_FALSE
 )
 timed_out
 (
-false
+PR_FALSE
 )
 data
 (
@@ -786,7 +786,7 @@ nsnull
 }
 ;
 static
-bool
+PRBool
 wait_for_retrieval
 (
 GtkClipboard
@@ -941,7 +941,7 @@ quit
 -
 application
 "
-false
+PR_FALSE
 )
 ;
 return
@@ -1264,10 +1264,10 @@ s
 supported
 type
 .
-bool
+PRBool
 imagesAdded
 =
-false
+PR_FALSE
 ;
 PRUint32
 count
@@ -1492,7 +1492,7 @@ TRUE
 ;
 imagesAdded
 =
-true
+PR_TRUE
 ;
 }
 continue
@@ -1734,10 +1734,10 @@ length
 =
 0
 ;
-bool
+PRBool
 foundData
 =
-false
+PR_FALSE
 ;
 nsCAutoString
 foundFlavor
@@ -1955,7 +1955,7 @@ new_text
 ;
 foundData
 =
-true
+PR_TRUE
 ;
 foundFlavor
 =
@@ -2343,7 +2343,7 @@ length
 }
 foundData
 =
-true
+PR_TRUE
 ;
 foundFlavor
 =
@@ -2499,7 +2499,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-bool
+PRBool
 *
 _retval
 )
@@ -2519,7 +2519,7 @@ NS_ERROR_NULL_POINTER
 *
 _retval
 =
-false
+PR_FALSE
 ;
 GtkSelectionData
 *
@@ -2643,7 +2643,7 @@ selection_data
 *
 _retval
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2698,7 +2698,7 @@ i
 *
 _retval
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -2739,7 +2739,7 @@ jpeg
 *
 _retval
 =
-true
+PR_TRUE
 ;
 g_free
 (
@@ -2775,7 +2775,7 @@ nsClipboard
 :
 SupportsSelectionClipboard
 (
-bool
+PRBool
 *
 _retval
 )
@@ -2783,7 +2783,7 @@ _retval
 *
 _retval
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -5330,7 +5330,7 @@ kClipboardTimeout
 500000
 ;
 static
-bool
+PRBool
 wait_for_retrieval
 (
 GtkClipboard
@@ -5355,7 +5355,7 @@ request
 completed
 synchronously
 return
-true
+PR_TRUE
 ;
 Display
 *
@@ -5524,7 +5524,7 @@ r_context
 completed
 )
 return
-true
+PR_TRUE
 ;
 }
 tv
@@ -5582,10 +5582,10 @@ r_context
 >
 timed_out
 =
-true
+PR_TRUE
 ;
 return
-false
+PR_FALSE
 ;
 }
 static
@@ -5634,7 +5634,7 @@ context
 >
 completed
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -5791,7 +5791,7 @@ context
 >
 completed
 =
-true
+PR_TRUE
 ;
 context
 -

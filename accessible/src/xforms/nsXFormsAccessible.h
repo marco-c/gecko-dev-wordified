@@ -716,7 +716,7 @@ PR_FALSE
 value
 .
 virtual
-bool
+PRBool
 GetAllowsAnonChildAccessibles
 (
 )
@@ -1049,7 +1049,7 @@ PR_TRUE
 value
 .
 virtual
-bool
+PRBool
 GetAllowsAnonChildAccessibles
 (
 )
@@ -1244,7 +1244,7 @@ aAccessible
 nsnull
 )
 ;
-bool
+PRBool
 mIsSelect1Element
 ;
 }

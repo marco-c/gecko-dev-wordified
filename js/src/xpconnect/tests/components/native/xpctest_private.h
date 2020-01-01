@@ -506,7 +506,7 @@ xpcTestObjectReadOnly
 ;
 private
 :
-bool
+PRBool
 boolProperty
 ;
 PRInt16
@@ -544,7 +544,7 @@ xpcTestObjectReadWrite
 ;
 private
 :
-bool
+PRBool
 boolProperty
 ;
 PRInt16

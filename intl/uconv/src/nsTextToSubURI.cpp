@@ -1189,7 +1189,7 @@ rv
 ;
 }
 static
-bool
+PRBool
 statefulCharset
 (
 const
@@ -1279,7 +1279,7 @@ const
 nsAFlatCString
 &
 aURI
-bool
+PRBool
 aIRI
 nsAString
 &
@@ -1306,7 +1306,7 @@ ASCII
 after
 we
 decode
-bool
+PRBool
 isStatefulCharset
 =
 statefulCharset

@@ -527,7 +527,7 @@ nsBaseContentStream
 :
 DispatchCallback
 (
-bool
+PRBool
 async
 )
 {
@@ -968,7 +968,7 @@ nsBaseContentStream
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )
@@ -1184,7 +1184,7 @@ parameter
 #
 ifdef
 DEBUG
-bool
+PRBool
 correctThread
 ;
 target

@@ -3530,7 +3530,7 @@ rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv

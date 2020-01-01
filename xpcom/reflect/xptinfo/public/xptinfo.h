@@ -612,7 +612,7 @@ return
 flags
 ;
 }
-bool
+PRBool
 IsPointer
 (
 )
@@ -630,7 +630,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsReference
 (
 )
@@ -648,7 +648,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsArithmetic
 (
 )
@@ -668,7 +668,7 @@ flags
 T_WCHAR
 ;
 }
-bool
+PRBool
 IsInterfacePointer
 (
 )
@@ -697,7 +697,7 @@ PR_TRUE
 ;
 }
 }
-bool
+PRBool
 IsArray
 (
 )
@@ -759,7 +759,7 @@ param
 really
 is
 .
-bool
+PRBool
 IsDependent
 (
 )
@@ -942,7 +942,7 @@ this
 desc
 ;
 }
-bool
+PRBool
 IsIn
 (
 )
@@ -960,7 +960,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsOut
 (
 )
@@ -978,7 +978,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsRetval
 (
 )
@@ -996,7 +996,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsShared
 (
 )
@@ -1014,7 +1014,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsDipper
 (
 )
@@ -1032,7 +1032,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsOptional
 (
 )
@@ -1096,7 +1096,7 @@ certain
 /
 types
 .
-bool
+PRBool
 IsIndirect
 (
 )
@@ -1193,7 +1193,7 @@ this
 desc
 ;
 }
-bool
+PRBool
 IsGetter
 (
 )
@@ -1211,7 +1211,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsSetter
 (
 )
@@ -1229,7 +1229,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsNotXPCOM
 (
 )
@@ -1247,7 +1247,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsConstructor
 (
 )
@@ -1265,7 +1265,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 IsHidden
 (
 )
@@ -1283,7 +1283,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 WantsOptArgc
 (
 )
@@ -1301,7 +1301,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 WantsContext
 (
 )

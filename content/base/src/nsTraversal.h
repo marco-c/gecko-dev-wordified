@@ -484,7 +484,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-bool
+PRBool
 aExpandEntityReferences
 )
 ;
@@ -511,10 +511,10 @@ nsIDOMNodeFilter
 >
 mFilter
 ;
-bool
+PRPackedBool
 mExpandEntityReferences
 ;
-bool
+PRPackedBool
 mInAcceptNode
 ;
 /

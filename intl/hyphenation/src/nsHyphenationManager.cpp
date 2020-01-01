@@ -1092,7 +1092,7 @@ hyphenation
 )
 )
 ;
-bool
+PRBool
 equals
 ;
 if
@@ -1137,10 +1137,10 @@ aDir
 nsresult
 rv
 ;
-bool
+PRBool
 check
 =
-false
+PR_FALSE
 ;
 rv
 =

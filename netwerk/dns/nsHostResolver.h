@@ -923,7 +923,7 @@ PRNetAddr
 *
 addr
 ;
-bool
+PRBool
 negative
 ;
 /
@@ -984,7 +984,7 @@ since
 epoch
 *
 /
-bool
+PRBool
 HasResult
 (
 )
@@ -1009,7 +1009,7 @@ calling
 the
 blacklist
 functions
-bool
+PRBool
 Blacklisted
 (
 PRNetAddr
@@ -1046,7 +1046,7 @@ of
 callbacks
 *
 /
-bool
+PRBool
 resolving
 ;
 /
@@ -1081,7 +1081,7 @@ threads
 .
 *
 /
-bool
+PRBool
 onQueue
 ;
 /
@@ -1104,7 +1104,7 @@ getaddrinfo
 )
 *
 /
-bool
+PRBool
 usingAnyThread
 ;
 /
@@ -1741,7 +1741,7 @@ nsHostRecord
 *
 )
 ;
-bool
+PRBool
 GetHostToLookup
 (
 nsHostRecord
@@ -1853,7 +1853,7 @@ mPendingCount
 PRTime
 mCreationTime
 ;
-bool
+PRBool
 mShutdown
 ;
 PRIntervalTime

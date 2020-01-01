@@ -500,7 +500,7 @@ const
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 Grow
 (

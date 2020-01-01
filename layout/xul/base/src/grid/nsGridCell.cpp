@@ -958,7 +958,7 @@ return
 sum
 ;
 }
-bool
+PRBool
 nsGridCell
 :
 :

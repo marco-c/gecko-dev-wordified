@@ -533,7 +533,7 @@ imported
 .
 *
 /
-bool
+PRBool
 ImportRegistryProfiles
 (
 const

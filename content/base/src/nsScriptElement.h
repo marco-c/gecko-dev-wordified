@@ -536,7 +536,7 @@ inline
 *
 /
 virtual
-bool
+PRBool
 HasScriptContent
 (
 )

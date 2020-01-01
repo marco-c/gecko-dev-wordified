@@ -502,11 +502,6 @@ getDefaultPresentParameters
 (
 )
 ;
-bool
-restoreLostDevice
-(
-)
-;
 EGLNativeDisplayType
 mDisplayId
 ;

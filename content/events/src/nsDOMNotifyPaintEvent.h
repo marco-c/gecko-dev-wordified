@@ -504,12 +504,12 @@ IPC
 Message
 *
 aMsg
-bool
+PRBool
 aSerializeInterfaceType
 )
 ;
 virtual
-bool
+PRBool
 Deserialize
 (
 const

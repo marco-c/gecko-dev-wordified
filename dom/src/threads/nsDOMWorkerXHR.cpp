@@ -1596,7 +1596,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
 )
 {
@@ -1656,7 +1656,7 @@ DispatchEvent
 nsIDOMEvent
 *
 aEvent
-bool
+PRBool
 *
 _retval
 )
@@ -1720,9 +1720,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
-bool
+PRBool
 aWantsUntrusted
 PRUint8
 optional_argc
@@ -2973,7 +2973,7 @@ const
 nsACString
 &
 aUrl
-bool
+PRBool
 aAsync
 const
 nsAString
@@ -3428,7 +3428,7 @@ nsDOMWorkerXHR
 :
 GetMultipart
 (
-bool
+PRBool
 *
 aMultipart
 )
@@ -3487,7 +3487,7 @@ nsDOMWorkerXHR
 :
 SetMultipart
 (
-bool
+PRBool
 aMultipart
 )
 {
@@ -3540,7 +3540,7 @@ nsDOMWorkerXHR
 :
 GetMozBackgroundRequest
 (
-bool
+PRBool
 *
 aMozBackgroundRequest
 )
@@ -3587,7 +3587,7 @@ nsDOMWorkerXHR
 :
 SetMozBackgroundRequest
 (
-bool
+PRBool
 aMozBackgroundRequest
 )
 {
@@ -3858,7 +3858,7 @@ nsDOMWorkerXHR
 :
 GetWithCredentials
 (
-bool
+PRBool
 *
 aWithCredentials
 )
@@ -3917,7 +3917,7 @@ nsDOMWorkerXHR
 :
 SetWithCredentials
 (
-bool
+PRBool
 aWithCredentials
 )
 {

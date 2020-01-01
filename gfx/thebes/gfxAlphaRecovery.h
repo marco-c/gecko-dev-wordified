@@ -468,10 +468,10 @@ public
 struct
 Analysis
 {
-bool
+PRBool
 uniformColor
 ;
-bool
+PRBool
 uniformAlpha
 ;
 gfxFloat
@@ -640,7 +640,7 @@ success
 *
 /
 static
-bool
+PRBool
 RecoverAlpha
 (
 gfxImageSurface
@@ -703,7 +703,7 @@ function
 *
 /
 static
-bool
+PRBool
 RecoverAlphaSSE2
 (
 gfxImageSurface

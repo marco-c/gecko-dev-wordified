@@ -756,7 +756,7 @@ nsFont
 )
 {
 }
-bool
+PRBool
 nsFont
 :
 :
@@ -872,7 +872,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsFont
 :
 :
@@ -1007,7 +1007,7 @@ this
 ;
 }
 static
-bool
+PRBool
 IsGenericFontFamily
 (
 const
@@ -1082,7 +1082,7 @@ PRUnichar
 '
 )
 ;
-bool
+PRBool
 nsFont
 :
 :
@@ -1150,7 +1150,7 @@ p_end
 return
 PR_TRUE
 ;
-bool
+PRBool
 generic
 ;
 if
@@ -1363,14 +1363,14 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 FontEnumCallback
 (
 const
 nsString
 &
 aFamily
-bool
+PRBool
 aGeneric
 void
 *

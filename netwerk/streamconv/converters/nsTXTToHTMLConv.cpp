@@ -1071,7 +1071,7 @@ nsTXTToHTMLConv
 :
 PreFormatHTML
 (
-bool
+PRBool
 value
 )
 {

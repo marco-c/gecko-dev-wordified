@@ -576,7 +576,7 @@ GetLayer
 )
 ;
 virtual
-bool
+PRBool
 IsEmpty
 (
 )
@@ -599,7 +599,7 @@ friend
 class
 BasicBufferOGL
 ;
-bool
+PRBool
 CreateSurface
 (
 )
@@ -707,7 +707,7 @@ GetLayer
 )
 ;
 virtual
-bool
+PRBool
 IsEmpty
 (
 )

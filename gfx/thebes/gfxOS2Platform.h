@@ -545,7 +545,7 @@ aCallback
 void
 *
 aClosure
-bool
+PRBool
 &
 aAborted
 )
@@ -664,7 +664,7 @@ font
 for
 this
 char
-bool
+PRBool
 noFontWithChar
 (
 PRUint32

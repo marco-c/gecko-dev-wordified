@@ -848,7 +848,7 @@ StartupCache
 :
 gStartupCache
 ;
-bool
+PRBool
 StartupCache
 :
 :
@@ -1415,7 +1415,7 @@ LoadArchive
 (
 )
 {
-bool
+PRBool
 exists
 ;
 mArchive
@@ -2098,7 +2098,7 @@ size
 #
 ifdef
 DEBUG
-bool
+PRBool
 hasEntry
 ;
 rv
@@ -2982,7 +2982,7 @@ nsIObjectOutputStream
 nsIBinaryOutputStream
 nsIOutputStream
 )
-bool
+PRBool
 StartupCacheDebugOutputStream
 :
 :
@@ -3131,7 +3131,7 @@ WriteObject
 nsISupports
 *
 aObject
-bool
+PRBool
 aIsStrongRef
 )
 {
@@ -3170,7 +3170,7 @@ WriteCompoundObject
 "
 )
 ;
-bool
+PRBool
 check
 =
 CheckReferences
@@ -3241,7 +3241,7 @@ WriteCompoundObject
 "
 )
 ;
-bool
+PRBool
 check
 =
 CheckReferences
@@ -3278,7 +3278,7 @@ const
 nsIID
 &
 aIID
-bool
+PRBool
 aIsStrongRef
 )
 {
@@ -3339,7 +3339,7 @@ WriteCompoundObject
 "
 )
 ;
-bool
+PRBool
 check
 =
 CheckReferences
@@ -3678,7 +3678,7 @@ StartupCacheWrapper
 :
 StartupWriteComplete
 (
-bool
+PRBool
 *
 complete
 )

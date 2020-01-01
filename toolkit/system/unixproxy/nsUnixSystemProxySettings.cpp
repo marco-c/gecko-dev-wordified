@@ -563,7 +563,7 @@ nsIGConfService
 >
 mGConf
 ;
-bool
+PRBool
 IsProxyMode
 (
 const
@@ -632,7 +632,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsUnixSystemProxySettings
 :
 :
@@ -746,7 +746,7 @@ aResult
 ;
 }
 static
-bool
+PRBool
 IsInNoProxyList
 (
 const
@@ -1325,7 +1325,7 @@ find
 any
 documentation
 .
-bool
+PRBool
 isHTTP
 ;
 rv
@@ -1781,7 +1781,7 @@ mask_len
 }
 }
 static
-bool
+PRBool
 ConvertToIPV6Addr
 (
 const
@@ -1906,7 +1906,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 GConfIgnoreHost
 (
 const
@@ -2151,10 +2151,10 @@ nsACString
 aResult
 )
 {
-bool
+PRBool
 masterProxySwitch
 =
-false
+PR_FALSE
 ;
 mGConf
 -
@@ -2342,10 +2342,10 @@ NS_OK
 }
 }
 }
-bool
+PRBool
 useHttpProxyForAll
 =
-false
+PR_FALSE
 ;
 /
 /

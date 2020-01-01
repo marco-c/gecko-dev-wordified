@@ -627,7 +627,7 @@ css
 StyleRule
 *
 aStyleRule
-bool
+PRBool
 aNotify
 )
 ;
@@ -644,7 +644,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 ;
@@ -652,9 +652,9 @@ virtual
 void
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
-bool
+PRBool
 aNullParent
 )
 ;
@@ -667,7 +667,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 aNotify
 )
 ;
@@ -684,7 +684,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 ;
@@ -760,12 +760,12 @@ aValue
 nsAttrValue
 &
 aResult
-bool
+PRBool
 aForceInDataDoc
 )
 ;
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -842,7 +842,7 @@ document
 nsresult
 ReparseStyleAttribute
 (
-bool
+PRBool
 aForceInDataDoc
 )
 ;

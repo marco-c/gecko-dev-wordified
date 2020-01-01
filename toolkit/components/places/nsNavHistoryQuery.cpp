@@ -715,7 +715,7 @@ const
 nsCString
 &
 aString
-bool
+PRBool
 *
 aValue
 )
@@ -732,7 +732,7 @@ BoolQueryGetter
 nsINavHistoryQuery
 GetOnlyBookmarked
 (
-bool
+PRBool
 *
 )
 )
@@ -829,7 +829,7 @@ BoolQuerySetter
 nsINavHistoryQuery
 SetOnlyBookmarked
 (
-bool
+PRBool
 )
 )
 ;
@@ -914,7 +914,7 @@ BoolOptionsSetter
 nsINavHistoryQueryOptions
 SetExpandQueries
 (
-bool
+PRBool
 )
 )
 ;
@@ -2361,7 +2361,7 @@ QUERYKEY_SEPARATOR
 )
 ;
 }
-bool
+PRBool
 hasIt
 ;
 /
@@ -2745,7 +2745,7 @@ rv
 nsCString
 escapedDomain
 ;
-bool
+PRBool
 success
 =
 NS_Escape
@@ -2873,7 +2873,7 @@ rv
 nsCAutoString
 escaped
 ;
-bool
+PRBool
 success
 =
 NS_Escape
@@ -2937,7 +2937,7 @@ AppendAmpersandIfNonempty
 queryString
 )
 ;
-bool
+PRBool
 annotationIsNot
 ;
 query
@@ -2988,7 +2988,7 @@ annot
 nsCAutoString
 escaped
 ;
-bool
+PRBool
 success
 =
 NS_Escape
@@ -5882,7 +5882,7 @@ const
 nsCString
 &
 aString
-bool
+PRBool
 *
 aValue
 )
@@ -6265,7 +6265,7 @@ nsNavHistoryQuery
 :
 GetHasBeginTime
 (
-bool
+PRBool
 *
 _retval
 )
@@ -6443,7 +6443,7 @@ nsNavHistoryQuery
 :
 GetHasEndTime
 (
-bool
+PRBool
 *
 _retval
 )
@@ -6558,7 +6558,7 @@ nsNavHistoryQuery
 :
 GetHasSearchTerms
 (
-bool
+PRBool
 *
 _retval
 )
@@ -6695,7 +6695,7 @@ nsNavHistoryQuery
 :
 GetOnlyBookmarked
 (
-bool
+PRBool
 *
 aOnlyBookmarked
 )
@@ -6715,7 +6715,7 @@ nsNavHistoryQuery
 :
 SetOnlyBookmarked
 (
-bool
+PRBool
 aOnlyBookmarked
 )
 {
@@ -6741,7 +6741,7 @@ nsNavHistoryQuery
 :
 GetDomainIsHost
 (
-bool
+PRBool
 *
 aDomainIsHost
 )
@@ -6761,7 +6761,7 @@ nsNavHistoryQuery
 :
 SetDomainIsHost
 (
-bool
+PRBool
 aDomainIsHost
 )
 {
@@ -6826,7 +6826,7 @@ nsNavHistoryQuery
 :
 GetHasDomain
 (
-bool
+PRBool
 *
 _retval
 )
@@ -6878,7 +6878,7 @@ nsNavHistoryQuery
 :
 GetUriIsPrefix
 (
-bool
+PRBool
 *
 aIsPrefix
 )
@@ -6898,7 +6898,7 @@ nsNavHistoryQuery
 :
 SetUriIsPrefix
 (
-bool
+PRBool
 aIsPrefix
 )
 {
@@ -6967,7 +6967,7 @@ nsNavHistoryQuery
 :
 GetHasUri
 (
-bool
+PRBool
 *
 aHasUri
 )
@@ -7000,7 +7000,7 @@ nsNavHistoryQuery
 :
 GetAnnotationIsNot
 (
-bool
+PRBool
 *
 aIsNot
 )
@@ -7020,7 +7020,7 @@ nsNavHistoryQuery
 :
 SetAnnotationIsNot
 (
-bool
+PRBool
 aIsNot
 )
 {
@@ -7085,7 +7085,7 @@ nsNavHistoryQuery
 :
 GetHasAnnotation
 (
-bool
+PRBool
 *
 aHasIt
 )
@@ -7837,7 +7837,7 @@ nsNavHistoryQuery
 :
 GetTagsAreNot
 (
-bool
+PRBool
 *
 aTagsAreNot
 )
@@ -7862,7 +7862,7 @@ nsNavHistoryQuery
 :
 SetTagsAreNot
 (
-bool
+PRBool
 aTagsAreNot
 )
 {
@@ -8475,7 +8475,7 @@ nsNavHistoryQueryOptions
 :
 GetExcludeItems
 (
-bool
+PRBool
 *
 aExclude
 )
@@ -8495,7 +8495,7 @@ nsNavHistoryQueryOptions
 :
 SetExcludeItems
 (
-bool
+PRBool
 aExclude
 )
 {
@@ -8516,7 +8516,7 @@ nsNavHistoryQueryOptions
 :
 GetExcludeQueries
 (
-bool
+PRBool
 *
 aExclude
 )
@@ -8536,7 +8536,7 @@ nsNavHistoryQueryOptions
 :
 SetExcludeQueries
 (
-bool
+PRBool
 aExclude
 )
 {
@@ -8557,7 +8557,7 @@ nsNavHistoryQueryOptions
 :
 GetExcludeReadOnlyFolders
 (
-bool
+PRBool
 *
 aExclude
 )
@@ -8577,7 +8577,7 @@ nsNavHistoryQueryOptions
 :
 SetExcludeReadOnlyFolders
 (
-bool
+PRBool
 aExclude
 )
 {
@@ -8646,7 +8646,7 @@ nsNavHistoryQueryOptions
 :
 GetExpandQueries
 (
-bool
+PRBool
 *
 aExpand
 )
@@ -8666,7 +8666,7 @@ nsNavHistoryQueryOptions
 :
 SetExpandQueries
 (
-bool
+PRBool
 aExpand
 )
 {
@@ -8687,7 +8687,7 @@ nsNavHistoryQueryOptions
 :
 GetIncludeHidden
 (
-bool
+PRBool
 *
 aIncludeHidden
 )
@@ -8707,7 +8707,7 @@ nsNavHistoryQueryOptions
 :
 SetIncludeHidden
 (
-bool
+PRBool
 aIncludeHidden
 )
 {
@@ -8885,7 +8885,7 @@ nsNavHistoryQueryOptions
 :
 GetAsyncEnabled
 (
-bool
+PRBool
 *
 _asyncEnabled
 )
@@ -8905,7 +8905,7 @@ nsNavHistoryQueryOptions
 :
 SetAsyncEnabled
 (
-bool
+PRBool
 aAsyncEnabled
 )
 {
@@ -9094,7 +9094,7 @@ BoolQueryGetter
 getter
 )
 {
-bool
+PRBool
 value
 ;
 DebugOnly
@@ -9377,7 +9377,7 @@ BoolQuerySetter
 setter
 )
 {
-bool
+PRBool
 value
 ;
 nsresult
@@ -9467,7 +9467,7 @@ BoolOptionsSetter
 setter
 )
 {
-bool
+PRBool
 value
 ;
 nsresult

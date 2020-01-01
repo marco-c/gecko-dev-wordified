@@ -532,7 +532,7 @@ gVolumeList
 nsnull
 ;
 static
-bool
+PRBool
 pathBeginsWithVolName
 (
 const
@@ -1366,10 +1366,10 @@ fileBaseName
 fileExtension
 path
 ;
-bool
+PRBool
 bHFSPath
 =
-false
+PR_FALSE
 ;
 rv
 =

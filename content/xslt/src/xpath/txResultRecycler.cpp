@@ -1524,7 +1524,7 @@ txResultRecycler
 :
 getBoolResult
 (
-bool
+PRBool
 aValue
 txAExprResult
 *

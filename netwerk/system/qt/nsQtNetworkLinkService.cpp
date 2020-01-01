@@ -480,7 +480,7 @@ nsQtNetworkLinkService
 :
 GetIsLinkUp
 (
-bool
+PRBool
 *
 aIsUp
 )
@@ -510,7 +510,7 @@ nsQtNetworkLinkService
 :
 GetLinkStatusKnown
 (
-bool
+PRBool
 *
 aIsKnown
 )

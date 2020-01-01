@@ -1394,7 +1394,7 @@ aKey
 nsAString
 &
 aValue
-bool
+PRBool
 *
 aSecure
 )
@@ -1440,7 +1440,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aSecure
 )
 {
@@ -1476,7 +1476,7 @@ const
 nsAString
 &
 aKey
-bool
+PRBool
 aSecure
 )
 {

@@ -1115,7 +1115,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 )

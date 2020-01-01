@@ -806,7 +806,7 @@ sheet
 void
 EnableQuirkStyleSheet
 (
-bool
+PRBool
 aEnable
 )
 ;
@@ -1342,7 +1342,7 @@ false
 for
 failure
 .
-bool
+PRBool
 AppendFontFaceRules
 (
 nsPresContext
@@ -1380,7 +1380,7 @@ false
 for
 failure
 .
-bool
+PRBool
 AppendKeyframesRules
 (
 nsPresContext
@@ -1582,7 +1582,7 @@ a
 document
 state
 .
-bool
+PRBool
 HasDocumentStateDependentStyle
 (
 nsPresContext
@@ -1658,7 +1658,7 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-bool
+PRBool
 aAttrHasChanged
 )
 ;
@@ -1700,7 +1700,7 @@ result
 .
 *
 /
-bool
+PRBool
 MediumFeaturesChanged
 (
 nsPresContext
@@ -1904,7 +1904,7 @@ Doc
 PresHint
 levels
 )
-bool
+PRBool
 GetAuthorStyleDisabled
 (
 )
@@ -1912,7 +1912,7 @@ GetAuthorStyleDisabled
 nsresult
 SetAuthorStyleDisabled
 (
-bool
+PRBool
 aStyleDisabled
 )
 ;
@@ -2182,7 +2182,7 @@ correct
 rule
 cascade
 .
-bool
+PRBool
 HasCachedStyleData
 (
 )
@@ -2326,7 +2326,7 @@ of
 -
 memory
 .
-bool
+PRBool
 BuildDefaultStyleData
 (
 nsPresContext
@@ -2651,7 +2651,7 @@ aFunc
 RuleProcessorData
 *
 aData
-bool
+PRBool
 aWalkAllXBLStylesheets
 )
 ;
@@ -2670,9 +2670,9 @@ aRuleNode
 nsRuleNode
 *
 aVisitedRuleNode
-bool
+PRBool
 aIsLink
-bool
+PRBool
 aIsVisitedLink
 nsIAtom
 *
@@ -2682,7 +2682,7 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
-bool
+PRBool
 aDoAnimation
 mozilla
 :

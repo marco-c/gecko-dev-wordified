@@ -506,9 +506,9 @@ const
 char
 *
 aCharSet
-bool
+PRBool
 aIsCopying
-bool
+PRBool
 aIsWholeDocument
 )
 =

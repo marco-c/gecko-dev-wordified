@@ -581,9 +581,9 @@ const
 char
 *
 aCharSet
-bool
+PRBool
 aIsCopying
-bool
+PRBool
 aRewriteEncodingDeclaration
 )
 ;
@@ -979,7 +979,7 @@ nsASingleFragmentString
 :
 const_char_iterator
 aSequenceStart
-bool
+PRBool
 &
 aMayIgnoreStartOfLineWhitespaceSequence
 nsAString
@@ -1015,10 +1015,10 @@ nsASingleFragmentString
 :
 const_char_iterator
 aSequenceStart
-bool
+PRBool
 &
 aMayIgnoreStartOfLineWhitespaceSequence
-bool
+PRBool
 &
 aSequenceStartAfterAWhiteSpace
 nsAString
@@ -1131,7 +1131,7 @@ aEndOffset
 nsAString
 &
 aStr
-bool
+PRBool
 aTranslateEntities
 )
 ;
@@ -1359,7 +1359,7 @@ empty
 .
 *
 /
-bool
+PRBool
 ConfirmPrefix
 (
 nsAString
@@ -1372,7 +1372,7 @@ aURI
 nsIContent
 *
 aElement
-bool
+PRBool
 aIsAttribute
 )
 ;
@@ -1440,7 +1440,7 @@ nsAString
 aStr
 PRUint32
 aSkipAttr
-bool
+PRBool
 aAddNSAttr
 )
 ;
@@ -1462,11 +1462,11 @@ aValue
 nsAString
 &
 aStr
-bool
+PRBool
 aDoEscapeEntities
 )
 ;
-bool
+PRBool
 IsJavaScript
 (
 nsIContent
@@ -1548,13 +1548,13 @@ output
 *
 /
 virtual
-bool
+PRBool
 CheckElementStart
 (
 nsIContent
 *
 aContent
-bool
+PRBool
 &
 aForceFormat
 nsAString
@@ -1722,13 +1722,13 @@ output
 *
 /
 virtual
-bool
+PRBool
 CheckElementEnd
 (
 nsIContent
 *
 aContent
-bool
+PRBool
 &
 aForceFormat
 nsAString
@@ -1806,7 +1806,7 @@ tag
 *
 /
 virtual
-bool
+PRBool
 LineBreakBeforeOpen
 (
 PRInt32
@@ -1837,7 +1837,7 @@ tag
 *
 /
 virtual
-bool
+PRBool
 LineBreakAfterOpen
 (
 PRInt32
@@ -1868,7 +1868,7 @@ tag
 *
 /
 virtual
-bool
+PRBool
 LineBreakBeforeClose
 (
 PRInt32
@@ -1899,7 +1899,7 @@ tag
 *
 /
 virtual
-bool
+PRBool
 LineBreakAfterClose
 (
 PRInt32
@@ -2120,7 +2120,7 @@ done
 OutputFormated
 flag
 )
-bool
+PRPackedBool
 mDoFormat
 ;
 /
@@ -2149,7 +2149,7 @@ OutputWrap
 is
 set
 .
-bool
+PRPackedBool
 mDoRaw
 ;
 /
@@ -2164,7 +2164,7 @@ done
 OutputWrap
 flag
 )
-bool
+PRPackedBool
 mDoWrap
 ;
 /
@@ -2226,7 +2226,7 @@ on
 the
 current
 line
-bool
+PRPackedBool
 mIsIndentationAddedOnCurrentLine
 ;
 /
@@ -2241,7 +2241,7 @@ is
 in
 an
 attribute
-bool
+PRPackedBool
 mInAttribute
 ;
 /
@@ -2273,7 +2273,7 @@ and
 /
 /
 MaybeFlagNewlineForRootNode
-bool
+PRPackedBool
 mAddNewlineForRootNode
 ;
 /
@@ -2325,7 +2325,7 @@ when
 mDoFormat
 =
 true
-bool
+PRPackedBool
 mAddSpace
 ;
 /
@@ -2368,10 +2368,10 @@ into
 the
 output
 string
-bool
+PRPackedBool
 mMayIgnoreLineBreakSequence
 ;
-bool
+PRPackedBool
 mBodyOnly
 ;
 PRInt32

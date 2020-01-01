@@ -1594,7 +1594,7 @@ return
 mKeys
 ;
 }
-bool
+PRBool
 txStylesheet
 :
 :
@@ -3546,7 +3546,7 @@ nsAutoPtr
 txInstruction
 >
 aFirstInstruction
-bool
+PRBool
 aIsParam
 )
 :

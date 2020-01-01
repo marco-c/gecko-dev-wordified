@@ -600,7 +600,7 @@ assertion
 *
 /
 virtual
-bool
+PRBool
 CanPropagate
 (
 nsIRDFResource

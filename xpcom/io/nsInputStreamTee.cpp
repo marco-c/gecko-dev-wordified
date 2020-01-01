@@ -753,7 +753,7 @@ mSink
 =
 aSink
 ;
-bool
+PRBool
 isNonBlocking
 ;
 mSink
@@ -1713,7 +1713,7 @@ nsInputStreamTee
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )
@@ -1796,7 +1796,7 @@ if
 sink
 )
 {
-bool
+PRBool
 nonBlocking
 ;
 nsresult

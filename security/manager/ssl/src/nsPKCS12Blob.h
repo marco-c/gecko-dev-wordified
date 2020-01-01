@@ -885,7 +885,7 @@ const_iterator
 *
 mDigestIterator
 ;
-bool
+PRBool
 mTokenSet
 ;
 /

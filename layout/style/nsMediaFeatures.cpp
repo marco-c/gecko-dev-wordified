@@ -1985,7 +1985,7 @@ mData
 .
 mMetric
 ;
-bool
+PRBool
 hasMetric
 =
 nsCSSRuleProcessor

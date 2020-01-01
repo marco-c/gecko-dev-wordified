@@ -2062,7 +2062,7 @@ nsGB18030Unique4BytesToUnicode
 )
 ;
 }
-bool
+PRBool
 nsGB18030ToUnicode
 :
 :
@@ -2329,7 +2329,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsGBKToUnicode
 :
 :
@@ -2489,7 +2489,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsGBKToUnicode
 :
 :
@@ -2508,7 +2508,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsGBKToUnicode
 :
 :

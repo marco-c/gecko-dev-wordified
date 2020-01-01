@@ -715,7 +715,7 @@ prop
 /
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsDOMStringMap
 :
@@ -1465,7 +1465,7 @@ fish
 .
 *
 /
-bool
+PRBool
 nsDOMStringMap
 :
 :
@@ -1850,7 +1850,7 @@ aBigFish
 .
 *
 /
-bool
+PRBool
 nsDOMStringMap
 :
 :

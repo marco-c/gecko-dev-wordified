@@ -509,7 +509,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 ;
@@ -532,7 +532,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 ;
@@ -566,7 +566,7 @@ return
 mAnimVal
 ;
 }
-bool
+PRBool
 IsExplicitlySet
 (
 )
@@ -638,10 +638,10 @@ specified
 tracking
 for
 attribute
-bool
+PRPackedBool
 mIsAnimated
 ;
-bool
+PRPackedBool
 mIsBaseSet
 ;
 nsSVGEnumMapping
@@ -902,7 +902,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

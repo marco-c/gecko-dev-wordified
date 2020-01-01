@@ -653,7 +653,7 @@ static
 void
 Output
 (
-bool
+PRBool
 isError
 const
 char
@@ -794,7 +794,7 @@ name
 *
 /
 static
-bool
+PRBool
 IsArg
 (
 const
@@ -901,7 +901,7 @@ directory
 *
 /
 static
-bool
+PRBool
 FolderExists
 (
 const
@@ -1200,10 +1200,10 @@ greDir
 MAXPATHLEN
 ]
 ;
-bool
+PRBool
 greFound
 =
-false
+PR_FALSE
 ;
 #
 if
@@ -1579,10 +1579,10 @@ pathdup
 return
 1
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 char
 *

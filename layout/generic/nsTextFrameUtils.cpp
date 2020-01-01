@@ -546,7 +546,7 @@ define
 UNICODE_ZWSP
 0x200B
 static
-bool
+PRBool
 IsDiscardable
 (
 PRUnichar
@@ -652,7 +652,7 @@ ch
 ;
 }
 static
-bool
+PRBool
 IsDiscardable
 (
 PRUint8
@@ -727,10 +727,10 @@ outputStart
 =
 aOutput
 ;
-bool
+PRBool
 lastCharArabic
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -898,7 +898,7 @@ INCOMING_WHITESPACE
 }
 else
 {
-bool
+PRBool
 inWhitespace
 =
 (
@@ -937,7 +937,7 @@ aText
 +
 +
 ;
-bool
+PRBool
 nowInWhitespace
 ;
 if
@@ -1400,7 +1400,7 @@ INCOMING_WHITESPACE
 }
 else
 {
-bool
+PRBool
 inWhitespace
 =
 (
@@ -1439,7 +1439,7 @@ aText
 +
 +
 ;
-bool
+PRBool
 nowInWhitespace
 =
 ch
@@ -1629,7 +1629,7 @@ return
 aOutput
 ;
 }
-bool
+PRBool
 nsSkipCharsRunIterator
 :
 :

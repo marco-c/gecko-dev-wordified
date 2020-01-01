@@ -842,7 +842,7 @@ not
 .
 *
 /
-bool
+PRBool
 Initialize
 (
 )
@@ -1002,10 +1002,6 @@ aCallback
 void
 *
 aCallbackData
-EndTransactionFlags
-aFlags
-=
-END_DEFAULT
 )
 ;
 const
@@ -1231,7 +1227,7 @@ methods
 void
 SetClippingEnabled
 (
-bool
+PRBool
 aEnabled
 )
 ;

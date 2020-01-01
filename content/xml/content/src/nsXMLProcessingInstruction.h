@@ -534,7 +534,7 @@ nsGenericDOMDataNode
 /
 nsINode
 virtual
-bool
+PRBool
 IsNodeOfType
 (
 PRUint32
@@ -550,7 +550,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-bool
+PRBool
 aCloneText
 )
 const
@@ -579,7 +579,7 @@ FILE
 out
 PRInt32
 aIndent
-bool
+PRBool
 aDumpAll
 )
 const
@@ -703,7 +703,7 @@ present
 .
 *
 /
-bool
+PRBool
 GetAttrValue
 (
 nsIAtom

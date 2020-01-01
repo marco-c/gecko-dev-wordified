@@ -437,7 +437,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGPaintServerFrame
 )
-bool
+PRBool
 nsSVGPaintServerFrame
 :
 :

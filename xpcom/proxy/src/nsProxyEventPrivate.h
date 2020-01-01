@@ -1359,7 +1359,7 @@ return
 mResult
 ;
 }
-bool
+PRBool
 GetCompleted
 (
 )
@@ -1400,7 +1400,7 @@ nsIEventTarget
 target
 )
 ;
-bool
+PRBool
 IsSync
 (
 )
@@ -1549,14 +1549,14 @@ nsProxyObject
 void
 RefCountInInterfacePointers
 (
-bool
+PRBool
 addRef
 )
 ;
 void
 CopyStrings
 (
-bool
+PRBool
 copy
 )
 ;
@@ -1776,7 +1776,7 @@ GetInstance
 )
 ;
 static
-bool
+PRBool
 IsManagerShutdown
 (
 )

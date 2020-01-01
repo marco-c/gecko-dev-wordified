@@ -2523,7 +2523,7 @@ const
 char
 *
 string
-bool
+PRBool
 default_to_gmt
 PRTime
 *

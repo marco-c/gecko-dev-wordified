@@ -1168,11 +1168,11 @@ PRInt64
 aLastAccessed
 PRInt64
 aCreationTime
-bool
+PRBool
 aIsSession
-bool
+PRBool
 aIsSecure
-bool
+PRBool
 aIsHttpOnly
 )
 {
@@ -1681,7 +1681,7 @@ nsCookie
 :
 GetIsSession
 (
-bool
+PRBool
 *
 aIsSession
 )
@@ -1703,7 +1703,7 @@ nsCookie
 :
 GetIsDomain
 (
-bool
+PRBool
 *
 aIsDomain
 )
@@ -1725,7 +1725,7 @@ nsCookie
 :
 GetIsSecure
 (
-bool
+PRBool
 *
 aIsSecure
 )
@@ -1747,7 +1747,7 @@ nsCookie
 :
 GetIsHttpOnly
 (
-bool
+PRBool
 *
 aHttpOnly
 )

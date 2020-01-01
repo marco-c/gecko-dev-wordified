@@ -460,7 +460,7 @@ PRUint32
 &
 flags
 const
-bool
+PRBool
 &
 flush
 const

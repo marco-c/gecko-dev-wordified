@@ -341,13 +341,6 @@ define
 MINIMUM_BUMP_POOL_SIZE
 0x2000
 #
-elif
-WTF_CPU_IA64
-#
-define
-MINIMUM_BUMP_POOL_SIZE
-0x4000
-#
 else
 #
 define

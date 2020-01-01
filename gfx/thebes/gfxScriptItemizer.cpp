@@ -1531,7 +1531,7 @@ reset
 )
 ;
 }
-bool
+PRBool
 gfxScriptItemizer
 :
 :

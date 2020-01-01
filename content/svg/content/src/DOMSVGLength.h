@@ -1162,7 +1162,7 @@ return
 copy
 ;
 }
-bool
+PRBool
 IsInList
 (
 )
@@ -1202,7 +1202,7 @@ IsInList
 .
 *
 /
-bool
+PRBool
 HasOwner
 (
 )
@@ -1613,7 +1613,7 @@ InternalItem
 #
 ifdef
 DEBUG
-bool
+PRBool
 IndexIsValid
 (
 )

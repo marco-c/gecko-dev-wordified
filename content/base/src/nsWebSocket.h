@@ -678,9 +678,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
-bool
+PRBool
 aWantsUntrusted
 PRUint8
 optional_argc
@@ -696,7 +696,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
 )
 ;
@@ -708,7 +708,7 @@ preferences
 allow
 WebSocket
 static
-bool
+PRBool
 PrefEnabled
 (
 )
@@ -784,7 +784,7 @@ aData
 nsresult
 CreateAndDispatchCloseEvent
 (
-bool
+PRBool
 aWasClean
 PRUint16
 aCode
@@ -920,7 +920,7 @@ steps
 nsString
 mOriginalURL
 ;
-bool
+PRPackedBool
 mSecure
 ;
 /
@@ -947,13 +947,13 @@ scheme
 with
 no
 SSL
-bool
+PRPackedBool
 mKeepingAlive
 ;
-bool
+PRPackedBool
 mCheckMustKeepAlive
 ;
-bool
+PRPackedBool
 mTriggeredCloseEvent
 ;
 nsCString

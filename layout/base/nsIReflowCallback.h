@@ -570,7 +570,7 @@ this
 *
 /
 virtual
-bool
+PRBool
 ReflowFinished
 (
 )

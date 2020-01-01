@@ -856,7 +856,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -1152,7 +1152,7 @@ return
 retval
 ;
 }
-bool
+PRBool
 nsHTMLCanvasElement
 :
 :
@@ -1919,10 +1919,10 @@ to
 the
 encoder
 .
-bool
+PRBool
 usingCustomParseOptions
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2401,7 +2401,7 @@ const
 nsAString
 &
 aContextId
-bool
+PRBool
 aForceThebes
 nsICanvasRenderingContextInternal
 *
@@ -2781,10 +2781,10 @@ aContext
 nsresult
 rv
 ;
-bool
+PRBool
 forceThebes
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -3677,7 +3677,7 @@ GetWidthHeight
 )
 ;
 }
-bool
+PRBool
 nsHTMLCanvasElement
 :
 :
@@ -4137,7 +4137,7 @@ return
 NULL
 ;
 }
-bool
+PRBool
 nsHTMLCanvasElement
 :
 :
@@ -4196,7 +4196,7 @@ aManager
 )
 ;
 }
-bool
+PRBool
 nsHTMLCanvasElement
 :
 :
@@ -4351,7 +4351,7 @@ azure
 .
 enabled
 "
-false
+PR_FALSE
 )
 )
 {

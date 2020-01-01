@@ -865,10 +865,10 @@ check
 if
 any
 .
-bool
+PRBool
 checked
 =
-true
+PR_TRUE
 ;
 GetCurrentCheckState
 (

@@ -507,7 +507,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetD2DEnabled
 (
-bool
+PRBool
 *
 aD2DEnabled
 )
@@ -516,7 +516,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetDWriteEnabled
 (
-bool
+PRBool
 *
 aDWriteEnabled
 )
@@ -525,7 +525,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAzureEnabled
 (
-bool
+PRBool
 *
 aAzureEnabled
 )
@@ -678,7 +678,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetIsGPU2Active
 (
-bool
+PRBool
 *
 aIsGPU2Active
 )
@@ -796,13 +796,13 @@ mAdapterSubsysID2
 PRUint32
 mWindowsVersion
 ;
-bool
+PRBool
 mHasDualGPU
 ;
-bool
+PRBool
 mIsGPU2Active
 ;
-bool
+PRBool
 mHasDriverVersionMismatch
 ;
 }

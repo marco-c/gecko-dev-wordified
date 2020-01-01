@@ -119,9 +119,7 @@ ok
 !
 cw
 .
-Search
-.
-isEnabled
+isSearchEnabled
 (
 )
 "

@@ -576,7 +576,7 @@ attribute
 .
 *
 /
-bool
+PRBool
 IsLinked
 (
 )

@@ -616,7 +616,7 @@ GetCellInfoAt
 .
 *
 /
-bool
+PRBool
 AddCell
 (
 PRInt32
@@ -773,7 +773,7 @@ aIndex
 ARRAY_BASE
 ;
 }
-bool
+PRBool
 UseArrayForSpan
 (
 PRInt32
@@ -841,7 +841,7 @@ key
 )
 ;
 static
-bool
+PRBool
 HashTableMatchEntry
 (
 PLDHashTable

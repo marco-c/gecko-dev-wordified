@@ -648,7 +648,7 @@ str
 ;
 }
 static
-bool
+PRBool
 GlobalNameHashMatchEntry
 (
 PLDHashTable
@@ -925,7 +925,7 @@ nsGlobalNameStruct
 ;
 }
 static
-bool
+PRBool
 GlobalNameHashInitEntry
 (
 PLDHashTable
@@ -1593,7 +1593,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 found_old
 ;
 nsCOMPtr
@@ -1748,7 +1748,7 @@ nsScriptNameSpaceManager
 :
 RegisterExternalInterfaces
 (
-bool
+PRBool
 aAsProto
 )
 {
@@ -1841,7 +1841,7 @@ nsIInterfaceInfo
 >
 if_info
 ;
-bool
+PRBool
 found_old
 dom_prefix
 ;
@@ -2190,7 +2190,7 @@ const
 nsIID
 *
 aIfIID
-bool
+PRBool
 *
 aFoundOld
 )
@@ -2912,9 +2912,9 @@ char
 aClassName
 PRInt32
 aDOMClassInfoID
-bool
+PRBool
 aPrivileged
-bool
+PRBool
 aDisabled
 const
 PRUnichar
@@ -3111,7 +3111,7 @@ const
 nsIID
 *
 aConstructorProtoIID
-bool
+PRBool
 *
 aFoundOld
 )
@@ -3348,7 +3348,7 @@ nsIID
 aInterfaces
 PRUint32
 aScriptableFlags
-bool
+PRBool
 aHasClassInterface
 const
 nsCID

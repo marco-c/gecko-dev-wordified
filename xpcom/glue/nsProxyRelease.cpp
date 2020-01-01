@@ -484,7 +484,7 @@ target
 nsISupports
 *
 doomed
-bool
+PRBool
 alwaysProxy
 )
 {
@@ -512,10 +512,10 @@ if
 alwaysProxy
 )
 {
-bool
+PRBool
 onCurrentThread
 =
-false
+PR_FALSE
 ;
 rv
 =

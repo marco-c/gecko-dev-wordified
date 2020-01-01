@@ -2055,7 +2055,7 @@ to
 render
 this
 char
-bool
+PRBool
 Has
 (
 nsPresContext
@@ -2081,7 +2081,7 @@ to
 render
 this
 char
-bool
+PRBool
 HasVariantsOf
 (
 nsPresContext
@@ -2109,7 +2109,7 @@ to
 render
 this
 char
-bool
+PRBool
 HasPartsOf
 (
 nsPresContext
@@ -2136,7 +2136,7 @@ chars
 in
 this
 table
-bool
+PRBool
 IsComposite
 (
 nsPresContext
@@ -4165,7 +4165,7 @@ kNullGlyph
 ch
 ;
 }
-bool
+PRBool
 nsGlyphTable
 :
 :
@@ -4371,7 +4371,7 @@ kSpaceCh
 )
 ;
 }
-bool
+PRBool
 nsGlyphTable
 :
 :
@@ -4400,7 +4400,7 @@ aChar
 )
 ;
 }
-bool
+PRBool
 nsGlyphTable
 :
 :
@@ -4441,7 +4441,7 @@ Exists
 )
 ;
 }
-bool
+PRBool
 nsGlyphTable
 :
 :
@@ -4955,10 +4955,10 @@ gGlyphTableList
 nsnull
 ;
 static
-bool
+PRBool
 gInitialized
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -5573,7 +5573,7 @@ font
 families
 .
 static
-bool
+PRBool
 GetFontExtensionPref
 (
 PRUnichar
@@ -5955,14 +5955,14 @@ IsEmpty
 ;
 }
 static
-bool
+PRBool
 MathFontEnumCallback
 (
 const
 nsString
 &
 aFamily
-bool
+PRBool
 aGeneric
 void
 *
@@ -7693,7 +7693,7 @@ NS_MATHML_DELIMITER_SHORTFALL_POINTS
 .
 0f
 static
-bool
+PRBool
 IsSizeOK
 (
 nsPresContext
@@ -7779,7 +7779,7 @@ mrow
 /
 mrow
 >
-bool
+PRBool
 isNormal
 =
 (
@@ -7789,7 +7789,7 @@ NS_STRETCH_NORMAL
 )
 &
 &
-bool
+PRBool
 (
 float
 (
@@ -7869,10 +7869,10 @@ within
 and
 within
 5pt
-bool
+PRBool
 isNearer
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -7912,7 +7912,7 @@ NS_MATHML_DELIMITER_SHORTFALL_POINTS
 ;
 isNearer
 =
-bool
+PRBool
 (
 float
 (
@@ -7951,7 +7951,7 @@ candidate
 /
 /
 choices
-bool
+PRBool
 isSmaller
 =
 (
@@ -7961,7 +7961,7 @@ NS_STRETCH_SMALLER
 )
 &
 &
-bool
+PRBool
 (
 (
 float
@@ -8009,7 +8009,7 @@ size
 is
 tall
 enough
-bool
+PRBool
 isLarger
 =
 (
@@ -8023,7 +8023,7 @@ NS_STRETCH_LARGEOP
 )
 &
 &
-bool
+PRBool
 (
 a
 >
@@ -8047,7 +8047,7 @@ isLarger
 ;
 }
 static
-bool
+PRBool
 IsSizeBetter
 (
 nscoord
@@ -9039,7 +9039,7 @@ const
 nsAString
 &
 aFamilies
-bool
+PRBool
 &
 aGlyphFound
 )
@@ -9091,14 +9091,14 @@ aGlyphFound
 {
 }
 static
-bool
+PRBool
 EnumCallback
 (
 const
 nsString
 &
 aFamily
-bool
+PRBool
 aGeneric
 void
 *
@@ -9108,7 +9108,7 @@ aData
 private
 :
 static
-bool
+PRBool
 ResolverCallback
 (
 const
@@ -9120,7 +9120,7 @@ void
 aData
 )
 ;
-bool
+PRBool
 TryVariants
 (
 nsGlyphTable
@@ -9132,7 +9132,7 @@ nsAString
 aFamily
 )
 ;
-bool
+PRBool
 TryParts
 (
 nsGlyphTable
@@ -9185,10 +9185,10 @@ mFamilies
 ;
 public
 :
-bool
+PRPackedBool
 mTryVariants
 ;
-bool
+PRPackedBool
 mTryParts
 ;
 private
@@ -9210,7 +9210,7 @@ mGlyphTable
 for
 this
 callback
-bool
+PRBool
 &
 mGlyphFound
 ;
@@ -9258,7 +9258,7 @@ match
 is
 found
 .
-bool
+PRBool
 nsMathMLChar
 :
 :
@@ -9329,7 +9329,7 @@ Truncate
 (
 )
 ;
-bool
+PRBool
 isVertical
 =
 (
@@ -9339,7 +9339,7 @@ mDirection
 NS_STRETCH_DIRECTION_VERTICAL
 )
 ;
-bool
+PRBool
 largeop
 =
 (
@@ -9351,7 +9351,7 @@ mStretchHint
 =
 0
 ;
-bool
+PRBool
 largeopOnly
 =
 largeop
@@ -9366,7 +9366,7 @@ mStretchHint
 =
 0
 ;
-bool
+PRBool
 maxWidth
 =
 (
@@ -9399,10 +9399,10 @@ mBoundingMetrics
 .
 leftBearing
 ;
-bool
+PRBool
 haveBetter
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -9878,7 +9878,7 @@ match
 is
 found
 .
-bool
+PRBool
 nsMathMLChar
 :
 :
@@ -10243,7 +10243,7 @@ mPresContext
 mChar
 )
 ;
-bool
+PRBool
 isVertical
 =
 (
@@ -10253,7 +10253,7 @@ mDirection
 NS_STRETCH_DIRECTION_VERTICAL
 )
 ;
-bool
+PRBool
 maxWidth
 =
 (
@@ -11104,7 +11104,7 @@ that
 matches
 the
 container
-bool
+PRBool
 nsMathMLChar
 :
 :
@@ -11229,7 +11229,7 @@ context
 mTryVariants
 )
 {
-bool
+PRBool
 isOK
 =
 context
@@ -11263,7 +11263,7 @@ context
 mTryParts
 )
 {
-bool
+PRBool
 isOK
 =
 context
@@ -11306,7 +11306,7 @@ it
 exists
 or
 not
-bool
+PRBool
 nsMathMLChar
 :
 :
@@ -11319,7 +11319,7 @@ const
 nsString
 &
 aFamily
-bool
+PRBool
 aGeneric
 void
 *
@@ -11422,7 +11422,7 @@ aFamily
 aData
 )
 ;
-bool
+PRBool
 aborted
 ;
 gfxPlatform
@@ -11506,7 +11506,7 @@ NS_STRETCH_MAXWIDTH
 :
 float
 aMaxSize
-bool
+PRBool
 aMaxSizeIsAbsolute
 )
 {
@@ -11663,7 +11663,7 @@ doing
 GetMaxWidth
 (
 )
-bool
+PRBool
 maxWidth
 =
 (
@@ -12062,7 +12062,7 @@ largeop
 or
 largeopOnly
 request
-bool
+PRBool
 largeop
 =
 (
@@ -12074,7 +12074,7 @@ aStretchHint
 =
 0
 ;
-bool
+PRBool
 stretchy
 =
 (
@@ -12086,7 +12086,7 @@ aStretchHint
 =
 0
 ;
-bool
+PRBool
 largeopOnly
 =
 largeop
@@ -12095,7 +12095,7 @@ largeop
 !
 stretchy
 ;
-bool
+PRBool
 isVertical
 =
 (
@@ -12382,15 +12382,15 @@ initialSize
 .
 leftBearing
 ;
-bool
+PRBool
 done
 =
 (
 mGlyphTable
 ?
-false
+PR_FALSE
 :
-true
+PR_TRUE
 )
 ;
 if
@@ -12656,10 +12656,10 @@ size
 /
 /
 /
-bool
+PRBool
 glyphFound
 =
-false
+PR_FALSE
 ;
 nsAutoString
 cssFamilies
@@ -13735,7 +13735,7 @@ PRUint32
 aStretchHint
 float
 aMaxSize
-bool
+PRBool
 aMaxSizeIsAbsolute
 )
 {
@@ -14653,7 +14653,7 @@ aFrame
 nsMathMLChar
 *
 aChar
-bool
+PRBool
 aIsSelected
 )
 :
@@ -14829,7 +14829,7 @@ nsMathMLChar
 *
 mChar
 ;
-bool
+PRPackedBool
 mIsSelected
 ;
 }
@@ -15461,7 +15461,7 @@ nsRenderingContext
 aRenderingContext
 nsPoint
 aPt
-bool
+PRBool
 aIsSelected
 )
 {

@@ -652,7 +652,7 @@ flags
 )
 ;
 }
-bool
+PRBool
 Init
 (
 )
@@ -709,7 +709,7 @@ it
 .
 *
 /
-bool
+PRBool
 AddPendingRestyle
 (
 Element
@@ -901,7 +901,7 @@ undefined
 .
 *
 /
-bool
+PRBool
 GetRestyleData
 (
 Element
@@ -1248,13 +1248,13 @@ possibly
 have
 any
 .
-bool
+PRBool
 mHaveLaterSiblingRestyles
 ;
 }
 ;
 inline
-bool
+PRBool
 RestyleTracker
 :
 :
@@ -1366,7 +1366,7 @@ RestyleBit
 )
 ;
 }
-bool
+PRBool
 hadRestyleLaterSiblings
 =
 (

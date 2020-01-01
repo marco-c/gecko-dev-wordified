@@ -847,7 +847,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-bool
+PRBool
 aWasAlternate
 nsresult
 aStatus
@@ -918,7 +918,7 @@ void
 )
 DidBuildModelImpl
 (
-bool
+PRBool
 aTerminated
 )
 ;
@@ -931,7 +931,7 @@ DropParserAndPerfHint
 void
 )
 ;
-bool
+PRBool
 IsScriptExecutingImpl
 (
 )
@@ -959,12 +959,12 @@ UpdateChildCounts
 =
 0
 ;
-bool
+PRBool
 IsTimeToNotify
 (
 )
 ;
-bool
+PRBool
 LinkContextIsOurDocument
 (
 const
@@ -1250,7 +1250,7 @@ const
 nsSubstring
 &
 aHref
-bool
+PRBool
 aAlternate
 const
 nsSubstring
@@ -1276,7 +1276,7 @@ aHref
 nsIContent
 *
 aSource
-bool
+PRBool
 aExplicit
 )
 ;
@@ -1488,7 +1488,7 @@ aLoadApplicationCache
 nsIURI
 *
 aManifestURI
-bool
+PRBool
 aFetchedWithHTTPGetOrEquiv
 CacheSelectionAction
 *
@@ -1827,7 +1827,7 @@ public
 void
 StartLayout
 (
-bool
+PRBool
 aIgnorePendingSheets
 )
 ;
@@ -1845,7 +1845,7 @@ protected
 void
 FavorPerformanceHint
 (
-bool
+PRBool
 perfOverStarvation
 PRUint32
 starvationDelay
@@ -1935,7 +1935,7 @@ or
 whatnot
 )
 .
-bool
+PRBool
 WaitForPendingSheets
 (
 )
@@ -2313,7 +2313,7 @@ a
 pending
 event
 ?
-bool
+PRBool
 mHasPendingEvent
 ;
 /
@@ -2384,7 +2384,7 @@ on
 time
 ?
 static
-bool
+PRBool
 sNotifyOnTimer
 ;
 /
@@ -2559,7 +2559,7 @@ PRInt32
 sEnablePerfMode
 ;
 static
-bool
+PRBool
 sCanInterruptParser
 ;
 }

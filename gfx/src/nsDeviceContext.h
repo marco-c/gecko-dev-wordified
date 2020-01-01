@@ -1816,7 +1816,7 @@ changed
 )
 *
 /
-bool
+PRBool
 CheckDPIChange
 (
 )
@@ -1867,7 +1867,7 @@ factor
 .
 *
 /
-bool
+PRBool
 SetPixelScale
 (
 float
@@ -1890,7 +1890,7 @@ printing
 .
 *
 /
-bool
+PRBool
 IsPrinterSurface
 (
 )

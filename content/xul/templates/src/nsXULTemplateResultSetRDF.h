@@ -517,7 +517,7 @@ List
 *
 mCurrent
 ;
-bool
+PRBool
 mCheckedNext
 ;
 public

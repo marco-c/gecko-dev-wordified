@@ -3611,7 +3611,7 @@ protected
 :
 nsEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -3664,7 +3664,7 @@ public
 :
 nsEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -3888,7 +3888,7 @@ protected
 :
 nsGUIEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -3929,7 +3929,7 @@ public
 :
 nsGUIEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -3999,7 +3999,7 @@ public
 :
 nsScriptErrorEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4059,7 +4059,7 @@ public
 :
 nsSizeEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4156,7 +4156,7 @@ public
 :
 nsSizeModeEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4204,7 +4204,7 @@ public
 :
 nsZLevelEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4269,7 +4269,7 @@ below
 returned
 by
 handler
-bool
+PRBool
 mImmediate
 /
 /
@@ -4306,7 +4306,7 @@ public
 :
 nsPaintEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4337,7 +4337,7 @@ repainting
 nsIntRegion
 region
 ;
-bool
+PRPackedBool
 willSendDidPaint
 ;
 }
@@ -4360,7 +4360,7 @@ public
 :
 nsScrollbarEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4427,7 +4427,7 @@ both
 ;
 nsScrollPortEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4464,7 +4464,7 @@ public
 :
 nsScrollAreaEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4497,7 +4497,7 @@ protected
 :
 nsInputEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4542,7 +4542,7 @@ public
 :
 nsInputEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4586,7 +4586,7 @@ shift
 key
 is
 down
-bool
+PRBool
 isShift
 ;
 /
@@ -4599,7 +4599,7 @@ control
 key
 is
 down
-bool
+PRBool
 isControl
 ;
 /
@@ -4612,7 +4612,7 @@ alt
 key
 is
 down
-bool
+PRBool
 isAlt
 ;
 /
@@ -4633,7 +4633,7 @@ the
 Command
 key
 )
-bool
+PRBool
 isMeta
 ;
 }
@@ -4683,7 +4683,7 @@ nsMouseEvent_base
 }
 nsMouseEvent_base
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4841,7 +4841,7 @@ protected
 :
 nsMouseEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -4928,7 +4928,7 @@ public
 :
 nsMouseEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -5103,7 +5103,7 @@ it
 (
 0
 )
-bool
+PRPackedBool
 acceptActivation
 ;
 /
@@ -5121,7 +5121,7 @@ bounds
 during
 dispatch
 .
-bool
+PRPackedBool
 ignoreRootScrollFrame
 ;
 reasonType
@@ -5168,7 +5168,7 @@ public
 :
 nsDragEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -5223,7 +5223,7 @@ nsIDOMDataTransfer
 >
 dataTransfer
 ;
-bool
+PRPackedBool
 userCancelled
 ;
 }
@@ -5249,7 +5249,7 @@ public
 :
 nsAccessibleEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -5353,7 +5353,7 @@ nsKeyEvent
 }
 nsKeyEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -5446,7 +5446,7 @@ signifies
 a
 printable
 character
-bool
+PRBool
 isChar
 ;
 }
@@ -5561,7 +5561,7 @@ NS_RGBA
 )
 ;
 }
-bool
+PRBool
 IsDefined
 (
 )
@@ -5574,7 +5574,7 @@ mDefinedStyles
 DEFINED_NONE
 ;
 }
-bool
+PRBool
 IsLineStyleDefined
 (
 )
@@ -5591,7 +5591,7 @@ DEFINED_LINESTYLE
 0
 ;
 }
-bool
+PRBool
 IsForegroundColorDefined
 (
 )
@@ -5608,7 +5608,7 @@ DEFINED_FOREGROUND_COLOR
 0
 ;
 }
-bool
+PRBool
 IsBackgroundColorDefined
 (
 )
@@ -5625,7 +5625,7 @@ DEFINED_BACKGROUND_COLOR
 0
 ;
 }
-bool
+PRBool
 IsUnderlineColorDefined
 (
 )
@@ -5642,7 +5642,7 @@ DEFINED_UNDERLINE_COLOR
 0
 ;
 }
-bool
+PRBool
 IsNoChangeStyle
 (
 )
@@ -5672,7 +5672,7 @@ mLineStyle
 LINESTYLE_NONE
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -5783,7 +5783,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5802,7 +5802,7 @@ aOther
 )
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -5829,7 +5829,7 @@ mLineStyle
 /
 /
 DEFINED_LINESTYLE
-bool
+PRPackedBool
 mIsBoldLine
 ;
 /
@@ -5947,7 +5947,7 @@ public
 :
 nsTextEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -6019,7 +6019,7 @@ array
 nsTextRangeArray
 rangeArray
 ;
-bool
+PRBool
 isChar
 ;
 }
@@ -6066,7 +6066,7 @@ public
 :
 nsCompositionEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -6778,7 +6778,7 @@ event
 ;
 nsMouseScrollEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -6928,12 +6928,12 @@ ePanBoth
 ePanDirection
 panDirection
 ;
-bool
+PRPackedBool
 displayPanFeedback
 ;
 nsGestureNotifyEvent
 (
-bool
+PRBool
 aIsTrusted
 PRUint32
 aMsg
@@ -7010,7 +7010,7 @@ public
 :
 nsQueryContentEvent
 (
-bool
+PRBool
 aIsTrusted
 PRUint32
 aMsg
@@ -7276,10 +7276,10 @@ Length
 )
 ;
 }
-bool
+PRBool
 mSucceeded
 ;
-bool
+PRPackedBool
 mWasAsync
 ;
 struct
@@ -7347,7 +7347,7 @@ nsIWidget
 *
 mFocusedWidget
 ;
-bool
+PRPackedBool
 mReversed
 ;
 /
@@ -7362,7 +7362,7 @@ end
 <
 start
 )
-bool
+PRPackedBool
 mHasSelection
 ;
 /
@@ -7372,7 +7372,7 @@ if
 the
 selection
 exists
-bool
+PRPackedBool
 mWidgetIsHit
 ;
 /
@@ -7513,7 +7513,7 @@ public
 :
 nsFocusEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -7535,10 +7535,10 @@ PR_FALSE
 )
 {
 }
-bool
+PRPackedBool
 fromRaise
 ;
-bool
+PRPackedBool
 isRefocus
 ;
 }
@@ -7585,7 +7585,7 @@ public
 :
 nsSelectionEvent
 (
-bool
+PRBool
 aIsTrusted
 PRUint32
 aMsg
@@ -7628,7 +7628,7 @@ mLength
 length
 of
 selection
-bool
+PRPackedBool
 mReversed
 ;
 /
@@ -7641,7 +7641,7 @@ should
 be
 in
 front
-bool
+PRPackedBool
 mExpandToClusterBoundary
 ;
 /
@@ -7653,7 +7653,7 @@ or
 character
 -
 based
-bool
+PRPackedBool
 mSucceeded
 ;
 }
@@ -7668,17 +7668,17 @@ public
 :
 nsContentCommandEvent
 (
-bool
+PRBool
 aIsTrusted
 PRUint32
 aMsg
 nsIWidget
 *
 aWidget
-bool
+PRBool
 aOnlyEnabledCheck
 =
-false
+PR_FALSE
 )
 :
 nsGUIEvent
@@ -7690,7 +7690,7 @@ NS_CONTENT_COMMAND_EVENT
 )
 mOnlyEnabledCheck
 (
-bool
+PRPackedBool
 (
 aOnlyEnabledCheck
 )
@@ -7772,7 +7772,7 @@ mUnit
 [
 in
 ]
-bool
+PRPackedBool
 mIsHorizontal
 ;
 /
@@ -7783,7 +7783,7 @@ in
 }
 mScroll
 ;
-bool
+PRPackedBool
 mOnlyEnabledCheck
 ;
 /
@@ -7791,7 +7791,7 @@ mOnlyEnabledCheck
 [
 in
 ]
-bool
+PRPackedBool
 mSucceeded
 ;
 /
@@ -7799,7 +7799,7 @@ mSucceeded
 [
 out
 ]
-bool
+PRPackedBool
 mIsEnabled
 ;
 /
@@ -7819,7 +7819,7 @@ public
 :
 nsMozTouchEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -7896,7 +7896,7 @@ public
 :
 nsFormEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -7949,7 +7949,7 @@ public
 :
 nsCommandEvent
 (
-bool
+PRBool
 isTrusted
 nsIAtom
 *
@@ -8005,7 +8005,7 @@ public
 :
 nsUIEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -8049,7 +8049,7 @@ public
 :
 nsSimpleGestureEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -8153,7 +8153,7 @@ public
 :
 nsTransitionEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -8199,7 +8199,7 @@ public
 :
 nsAnimationEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -8245,7 +8245,7 @@ public
 :
 nsUIStateChangeEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -8301,7 +8301,7 @@ public
 :
 nsPluginEvent
 (
-bool
+PRBool
 isTrusted
 PRUint32
 msg
@@ -8349,7 +8349,7 @@ Defaults
 to
 false
 .
-bool
+PRBool
 retargetToFocusedDocument
 ;
 }
@@ -10425,7 +10425,7 @@ TRUE
 *
 /
 inline
-bool
+PRBool
 NS_IsEventUsingCoordinates
 (
 nsEvent
@@ -10621,7 +10621,7 @@ window
 *
 /
 inline
-bool
+PRBool
 NS_IsEventTargetedAtFocusedWindow
 (
 nsEvent
@@ -10780,7 +10780,7 @@ window
 *
 /
 inline
-bool
+PRBool
 NS_IsEventTargetedAtFocusedContent
 (
 nsEvent

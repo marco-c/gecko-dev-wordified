@@ -1250,7 +1250,7 @@ count
 ifdef
 NS_DEBUG
 static
-bool
+PRBool
 IsTable
 (
 PRUint8

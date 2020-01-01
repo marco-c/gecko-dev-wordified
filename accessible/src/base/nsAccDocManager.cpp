@@ -1011,7 +1011,7 @@ mAccessible
 /
 nsAccDocManager
 protected
-bool
+PRBool
 nsAccDocManager
 :
 :
@@ -2447,7 +2447,7 @@ AddListeners
 nsIDocument
 *
 aDocument
-bool
+PRBool
 aAddDOMContentLoadedListener
 )
 {
@@ -2675,7 +2675,7 @@ rootElm
 return
 nsnull
 ;
-bool
+PRBool
 isRootDoc
 =
 nsCoreUtils
@@ -3074,7 +3074,6 @@ finished
 "
 aDocument
 )
-NS_LOG_ACCDOCCREATE_STACK
 AddListeners
 (
 aDocument

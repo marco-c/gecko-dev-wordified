@@ -825,7 +825,7 @@ nsIChannel
 newChannel
 PRUint32
 redirectFlags
-bool
+PRBool
 openNewChannel
 )
 {
@@ -938,7 +938,7 @@ nsAsyncRedirectVerifyHelper
 (
 )
 ;
-bool
+PRBool
 checkRedirectSynchronously
 =
 !
@@ -1229,7 +1229,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsBaseChannel
 :
 :
@@ -1369,7 +1369,7 @@ const
 char
 *
 toType
-bool
+PRBool
 invalidatesContentLength
 nsIStreamListener
 *
@@ -2172,7 +2172,7 @@ nsBaseChannel
 :
 IsPending
 (
-bool
+PRBool
 *
 result
 )
@@ -2722,7 +2722,7 @@ unchanged
 if
 not
 parsed
-bool
+PRBool
 dummy
 ;
 net_ParseContentType

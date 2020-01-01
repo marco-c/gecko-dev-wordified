@@ -881,7 +881,7 @@ appended
 for
 appends
 .
-bool
+PRBool
 MaybeConstructLazily
 (
 Operation
@@ -927,7 +927,7 @@ aStartChild
 nsIContent
 *
 aEndChild
-bool
+PRBool
 aAllowLazyConstruction
 )
 ;
@@ -1013,7 +1013,7 @@ aStartChild
 nsIContent
 *
 aEndChild
-bool
+PRBool
 aAllowLazyConstruction
 )
 ;
@@ -1032,7 +1032,7 @@ child
 false
 otherwise
 .
-bool
+PRBool
 MaybeRecreateForFrameset
 (
 nsIFrame
@@ -1540,7 +1540,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-bool
+PRBool
 aAllowLazyConstruction
 )
 ;
@@ -1576,7 +1576,7 @@ aChild
 nsILayoutHistoryState
 *
 aFrameState
-bool
+PRBool
 aAllowLazyConstruction
 )
 ;
@@ -1674,7 +1674,7 @@ aEndChild
 nsILayoutHistoryState
 *
 aFrameState
-bool
+PRBool
 aAllowLazyConstruction
 )
 ;
@@ -1699,7 +1699,7 @@ nsIContent
 aOldNextSibling
 RemoveFlags
 aFlags
-bool
+PRBool
 *
 aDidReconstruct
 )
@@ -2497,14 +2497,14 @@ nsRestyleHint
 aRestyleHint
 nsChangeHint
 aMinChangeHint
-bool
+PRBool
 aForAnimation
 )
 ;
 void
 PostRestyleEventInternal
 (
-bool
+PRBool
 aForLazyConstruction
 )
 ;
@@ -2653,10 +2653,10 @@ nsIFrame
 *
 *
 aContinuingFrame
-bool
+PRBool
 aIsFluid
 =
-true
+PR_TRUE
 )
 ;
 /
@@ -2705,7 +2705,7 @@ nsIFrame
 *
 *
 aInsertionPoint
-bool
+PRBool
 *
 aMultiple
 =
@@ -2731,9 +2731,9 @@ nsIFrame
 *
 *
 aResult
-bool
+PRBool
 aIsAppend
-bool
+PRBool
 aIsScrollbar
 nsILayoutHistoryState
 *
@@ -2927,7 +2927,7 @@ aMinHint
 RestyleTracker
 &
 aRestyleTracker
-bool
+PRBool
 aRestyleDescendants
 )
 ;
@@ -2950,10 +2950,10 @@ aPrevInFlow
 nsIFrame
 *
 aNewFrame
-bool
+PRBool
 aAllowCounters
 =
-true
+PR_TRUE
 )
 ;
 /
@@ -3162,7 +3162,7 @@ aState
 nsIContent
 *
 aContent
-bool
+PRBool
 aSuppressWhiteSpaceOptimizations
 nsIFrame
 *
@@ -3688,10 +3688,10 @@ aFrameList
 nsIFrame
 *
 aPrevSibling
-bool
+PRBool
 aIsRecursiveCall
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -5733,7 +5733,7 @@ point
 void
 SetLineBoundaryAtStart
 (
-bool
+PRBool
 aBoundary
 )
 {
@@ -5745,7 +5745,7 @@ aBoundary
 void
 SetLineBoundaryAtEnd
 (
-bool
+PRBool
 aBoundary
 )
 {
@@ -5757,7 +5757,7 @@ aBoundary
 void
 SetParentHasNoXBLChildren
 (
-bool
+PRBool
 aHasNoXBLChildren
 )
 {
@@ -5766,7 +5766,7 @@ mParentHasNoXBLChildren
 aHasNoXBLChildren
 ;
 }
-bool
+PRBool
 HasLineBoundaryAtStart
 (
 )
@@ -5775,7 +5775,7 @@ return
 mLineBoundaryAtStart
 ;
 }
-bool
+PRBool
 HasLineBoundaryAtEnd
 (
 )
@@ -5784,7 +5784,7 @@ return
 mLineBoundaryAtEnd
 ;
 }
-bool
+PRBool
 ParentHasNoXBLChildren
 (
 )
@@ -5793,7 +5793,7 @@ return
 mParentHasNoXBLChildren
 ;
 }
-bool
+PRBool
 IsEmpty
 (
 )
@@ -5807,7 +5807,7 @@ mItems
 )
 ;
 }
-bool
+PRBool
 AnyItemsNeedBlockParent
 (
 )
@@ -5820,7 +5820,7 @@ mLineParticipantCount
 0
 ;
 }
-bool
+PRBool
 AreAllItemsInline
 (
 )
@@ -5833,7 +5833,7 @@ mInlineCount
 mItemCount
 ;
 }
-bool
+PRBool
 AreAllItemsBlock
 (
 )
@@ -5846,7 +5846,7 @@ mBlockCount
 mItemCount
 ;
 }
-bool
+PRBool
 AllWantParentType
 (
 ParentType
@@ -5915,7 +5915,7 @@ already_AddRefed
 nsStyleContext
 >
 aStyleContext
-bool
+PRBool
 aSuppressWhiteSpaceOptimizations
 )
 {
@@ -6062,7 +6062,7 @@ mList
 )
 {
 }
-bool
+PRBool
 operator
 =
 =
@@ -6100,7 +6100,7 @@ aOther
 mCurrent
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -6202,7 +6202,7 @@ mCurrent
 )
 ;
 }
-bool
+PRBool
 IsDone
 (
 )
@@ -6215,7 +6215,7 @@ mCurrent
 mEnd
 ;
 }
-bool
+PRBool
 AtStart
 (
 )
@@ -6344,7 +6344,7 @@ is
 called
 .
 inline
-bool
+PRBool
 SkipItemsWantingParentType
 (
 ParentType
@@ -6391,7 +6391,7 @@ is
 called
 .
 inline
-bool
+PRBool
 SkipWhitespace
 (
 nsFrameConstructorState
@@ -6843,7 +6843,7 @@ created
 by
 these
 items
-bool
+PRPackedBool
 mLineBoundaryAtStart
 ;
 /
@@ -6867,7 +6867,7 @@ created
 by
 these
 items
-bool
+PRPackedBool
 mLineBoundaryAtEnd
 ;
 /
@@ -6884,7 +6884,7 @@ no
 XBL
 anonymous
 children
-bool
+PRPackedBool
 mParentHasNoXBLChildren
 ;
 }
@@ -6993,7 +6993,7 @@ already_AddRefed
 nsStyleContext
 >
 aStyleContext
-bool
+PRBool
 aSuppressWhiteSpaceOptimizations
 )
 :
@@ -7133,7 +7133,7 @@ reframe
 /
 things
 .
-bool
+PRBool
 IsWhitespace
 (
 nsFrameConstructorState
@@ -7142,7 +7142,7 @@ aState
 )
 const
 ;
-bool
+PRBool
 IsLineBoundary
 (
 )
@@ -7375,7 +7375,7 @@ to
 be
 suppressed
 .
-bool
+PRPackedBool
 mSuppressWhiteSpaceOptimizations
 ;
 /
@@ -7388,7 +7388,7 @@ text
 content
 item
 .
-bool
+PRPackedBool
 mIsText
 ;
 /
@@ -7412,7 +7412,7 @@ a
 strong
 pointer
 .
-bool
+PRPackedBool
 mIsGeneratedContent
 ;
 /
@@ -7427,7 +7427,7 @@ the
 root
 popupgroup
 .
-bool
+PRPackedBool
 mIsRootPopupgroup
 ;
 /
@@ -7483,7 +7483,7 @@ all
 be
 inline
 .
-bool
+PRPackedBool
 mIsAllInline
 ;
 /
@@ -7558,7 +7558,7 @@ containing
 block
 )
 .
-bool
+PRPackedBool
 mIsBlock
 ;
 /
@@ -7610,7 +7610,7 @@ ib
 }
 splits
 .
-bool
+PRPackedBool
 mHasInlineEnds
 ;
 /
@@ -7636,7 +7636,7 @@ global
 popup
 items
 .
-bool
+PRPackedBool
 mIsPopup
 ;
 /
@@ -7651,7 +7651,7 @@ as
 a
 line
 participant
-bool
+PRPackedBool
 mIsLineParticipant
 ;
 /
@@ -8540,7 +8540,7 @@ nsIAtom
 aTag
 PRInt32
 aNameSpaceID
-bool
+PRBool
 aSuppressWhiteSpaceOptimizations
 nsStyleContext
 *
@@ -8612,7 +8612,7 @@ aFrameItems
 )
 ;
 static
-bool
+PRBool
 AtLineBoundary
 (
 FCItemIterator
@@ -9502,13 +9502,13 @@ nsIFrame
 *
 aFrame
 const
-bool
+PRBool
 aCanHaveGeneratedContent
 nsFrameItems
 &
 aFrameItems
 const
-bool
+PRBool
 aAllowBlockStyles
 PendingBinding
 *
@@ -9714,7 +9714,7 @@ aParentFrame
 nsIAtom
 *
 aScrolledPseudo
-bool
+PRBool
 aIsRoot
 nsIFrame
 *
@@ -9812,7 +9812,7 @@ aParentFrame
 nsStyleContext
 *
 aStyleContext
-bool
+PRBool
 aBuildCombobox
 PendingBinding
 *
@@ -9863,7 +9863,7 @@ RecreateFramesForContent
 nsIContent
 *
 aContent
-bool
+PRBool
 aAsyncInsert
 )
 ;
@@ -9997,7 +9997,7 @@ not
 null
 )
 .
-bool
+PRBool
 MaybeRecreateContainerForFrameRemoval
 (
 nsIFrame
@@ -10142,7 +10142,7 @@ nsStyleContext
 aStyleContext
 )
 ;
-bool
+PRBool
 ShouldHaveFirstLetterStyle
 (
 nsIContent
@@ -10185,7 +10185,7 @@ in
 null
 either
 .
-bool
+PRBool
 HasFirstLetterStyle
 (
 nsIFrame
@@ -10193,7 +10193,7 @@ nsIFrame
 aBlockFrame
 )
 ;
-bool
+PRBool
 ShouldHaveFirstLineStyle
 (
 nsIContent
@@ -10213,10 +10213,10 @@ aContent
 nsStyleContext
 *
 aStyleContext
-bool
+PRBool
 *
 aHaveFirstLetterStyle
-bool
+PRBool
 *
 aHaveFirstLineStyle
 )
@@ -10398,7 +10398,7 @@ aNewFrame
 nsFrameItems
 &
 aFrameItems
-bool
+PRBool
 aAbsPosContainer
 PendingBinding
 *
@@ -10578,7 +10578,7 @@ aState
 nsIFrame
 *
 aInitialInline
-bool
+PRBool
 aIsPositioned
 nsFrameItems
 &
@@ -10752,7 +10752,7 @@ PR_FALSE
 /
 /
 otherwise
-bool
+PRBool
 WipeContainingBlock
 (
 nsFrameConstructorState
@@ -10767,7 +10767,7 @@ aFrame
 FrameConstructionItemList
 &
 aItems
-bool
+PRBool
 aIsAppend
 nsIFrame
 *
@@ -11126,7 +11126,7 @@ aPrevFrame
 nsFrameItems
 &
 aLetterFrames
-bool
+PRBool
 *
 aStopLooking
 )
@@ -11182,7 +11182,7 @@ aFrame
 nsIFrame
 *
 aBlockFrame
-bool
+PRBool
 *
 aStopLooking
 )
@@ -11215,7 +11215,7 @@ aFrameManager
 nsIFrame
 *
 aBlockFrame
-bool
+PRBool
 *
 aStopLooking
 )
@@ -11612,7 +11612,7 @@ aTargetContent
 PRUint8
 &
 aTargetContentDisplay
-bool
+PRBool
 aPrevSibling
 )
 ;
@@ -11921,10 +11921,10 @@ aContainer
 nsIContent
 *
 aChild
-bool
+PRBool
 *
 aIsAppend
-bool
+PRBool
 *
 aIsRangeInsertSafe
 nsIContent
@@ -11984,7 +11984,7 @@ based
 on
 aDisplay
 !
-bool
+PRBool
 IsValidSibling
 (
 nsIFrame
@@ -12211,22 +12211,22 @@ mCounterManager
 PRUint16
 mUpdateCount
 ;
-bool
+PRPackedBool
 mQuotesDirty
 :
 1
 ;
-bool
+PRPackedBool
 mCountersDirty
 :
 1
 ;
-bool
+PRPackedBool
 mIsDestroyingFrameTree
 :
 1
 ;
-bool
+PRPackedBool
 mRebuildAllStyleData
 :
 1
@@ -12241,7 +12241,7 @@ mDocElementContainingBlock
 supports
 absolute
 positioning
-bool
+PRPackedBool
 mHasRootAbsPosContainingBlock
 :
 1
@@ -12259,7 +12259,7 @@ for
 a
 refresh
 notification
-bool
+PRPackedBool
 mObservingRefreshDriver
 :
 1
@@ -12278,7 +12278,7 @@ of
 a
 nsRefreshDriver
 refresh
-bool
+PRPackedBool
 mInStyleRefresh
 :
 1

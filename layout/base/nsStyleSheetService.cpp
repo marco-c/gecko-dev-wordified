@@ -653,7 +653,7 @@ aEnumerator
 )
 return
 ;
-bool
+PRBool
 hasMore
 ;
 while
@@ -821,7 +821,7 @@ i
 -
 )
 {
-bool
+PRBool
 bEqual
 ;
 nsIURI
@@ -1261,7 +1261,7 @@ nsIURI
 sheetURI
 PRUint32
 aSheetType
-bool
+PRBool
 *
 _retval
 )

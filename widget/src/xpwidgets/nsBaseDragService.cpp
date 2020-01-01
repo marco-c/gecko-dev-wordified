@@ -824,7 +824,7 @@ nsBaseDragService
 :
 SetCanDrop
 (
-bool
+PRBool
 aCanDrop
 )
 {
@@ -901,7 +901,7 @@ nsBaseDragService
 :
 GetCanDrop
 (
-bool
+PRBool
 *
 aCanDrop
 )
@@ -980,7 +980,7 @@ nsBaseDragService
 :
 SetOnlyChromeDrop
 (
-bool
+PRBool
 aOnlyChrome
 )
 {
@@ -1057,7 +1057,7 @@ nsBaseDragService
 :
 GetOnlyChromeDrop
 (
-bool
+PRBool
 *
 aOnlyChrome
 )
@@ -1789,7 +1789,7 @@ const
 char
 *
 aDataFlavor
-bool
+PRBool
 *
 _retval
 )
@@ -2767,7 +2767,7 @@ nsBaseDragService
 :
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 {
@@ -3431,7 +3431,7 @@ drag
 images
 are
 disabled
-bool
+PRBool
 enableDragImages
 =
 Preferences
@@ -3440,7 +3440,7 @@ Preferences
 GetBool
 (
 DRAGIMAGES_PREF
-true
+PR_TRUE
 )
 ;
 /

@@ -510,7 +510,7 @@ nsIRequestObserver
 aListener
 eAutoDetectResult
 aStatus
-bool
+PRBool
 aCopyUnused
 )
 :

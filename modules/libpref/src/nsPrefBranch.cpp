@@ -718,7 +718,7 @@ const
 char
 *
 aPrefRoot
-bool
+PRBool
 aDefaultBranch
 )
 {
@@ -1009,7 +1009,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 *
 _retval
 )
@@ -1048,7 +1048,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 aValue
 )
 {
@@ -1403,10 +1403,10 @@ getPrefName
 aPrefName
 )
 ;
-bool
+PRBool
 bNeedDefault
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2659,7 +2659,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 *
 _retval
 )
@@ -2764,7 +2764,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 *
 _retval
 )
@@ -3312,7 +3312,7 @@ aDomain
 nsIObserver
 *
 aObserver
-bool
+PRBool
 aHoldWeak
 )
 {
@@ -3470,7 +3470,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 putSucceeded
 =
 mObservers

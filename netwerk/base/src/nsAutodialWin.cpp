@@ -982,7 +982,7 @@ its
 db
 .
 )
-bool
+PRBool
 nsAutodial
 :
 :
@@ -2052,7 +2052,7 @@ sizeof
 rasDialDlg
 )
 ;
-bool
+PRBool
 dialed
 =
 (
@@ -2223,7 +2223,7 @@ sizeof
 rasPBDlg
 )
 ;
-bool
+PRBool
 dialed
 =
 (
@@ -2358,7 +2358,7 @@ is
 already
 connected
 .
-bool
+PRBool
 nsAutodial
 :
 :
@@ -3164,7 +3164,7 @@ on
 this
 PC
 .
-bool
+PRBool
 nsAutodial
 :
 :
@@ -3327,7 +3327,7 @@ the
 autodial
 directory
 .
-bool
+PRBool
 nsAutodial
 :
 :
@@ -3781,7 +3781,7 @@ location
 is
 enabled
 .
-bool
+PRBool
 nsAutodial
 :
 :
@@ -3852,7 +3852,7 @@ return
 enabled
 ;
 }
-bool
+PRBool
 nsAutodial
 :
 :
@@ -4054,7 +4054,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsAutodial
 :
 :

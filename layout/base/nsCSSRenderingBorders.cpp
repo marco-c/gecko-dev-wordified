@@ -1007,7 +1007,7 @@ the
 given
 value
 static
-bool
+PRBool
 CheckFourFloatsEqual
 (
 const
@@ -2027,7 +2027,7 @@ height
 ;
 }
 }
-bool
+PRBool
 nsCSSBorderRenderer
 :
 :
@@ -2274,7 +2274,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsCSSBorderRenderer
 :
 :
@@ -3497,7 +3497,7 @@ _s
 =
 NS_STYLE_BORDER_STYLE_DOTTED
 )
-bool
+PRBool
 isDashed
 =
 IS_DASHED_OR_DOTTED
@@ -3508,7 +3508,7 @@ aSide
 ]
 )
 ;
-bool
+PRBool
 startIsDashed
 =
 IS_DASHED_OR_DOTTED
@@ -3522,7 +3522,7 @@ aSide
 ]
 )
 ;
-bool
+PRBool
 endIsDashed
 =
 IS_DASHED_OR_DOTTED
@@ -9796,10 +9796,10 @@ DrawBorders
 (
 )
 {
-bool
+PRBool
 forceSeparateCorners
 =
-false
+PR_FALSE
 ;
 /
 /
@@ -9823,7 +9823,7 @@ go
 or
 not
 .
-bool
+PRBool
 tlBordersSame
 =
 AreBorderSideFinalStylesSame
@@ -9833,7 +9833,7 @@ SIDE_BIT_TOP
 SIDE_BIT_LEFT
 )
 ;
-bool
+PRBool
 brBordersSame
 =
 AreBorderSideFinalStylesSame
@@ -9843,7 +9843,7 @@ SIDE_BIT_BOTTOM
 SIDE_BIT_RIGHT
 )
 ;
-bool
+PRBool
 allBordersSame
 =
 AreBorderSideFinalStylesSame
@@ -10237,7 +10237,7 @@ Round
 )
 ;
 }
-bool
+PRBool
 allBordersSameWidth
 =
 AllBordersSameWidth
@@ -10282,7 +10282,7 @@ zero
 return
 ;
 }
-bool
+PRBool
 allBordersSolid
 ;
 bool
@@ -11553,7 +11553,7 @@ sides
 ]
 )
 ;
-bool
+PRBool
 simpleCornerStyle
 =
 mCompositeColors

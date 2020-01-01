@@ -549,7 +549,7 @@ endif
 static
 *
 /
-bool
+PRBool
 nsGNOMERegistry
 :
 :
@@ -628,7 +628,7 @@ if
 gconf
 )
 {
-bool
+PRBool
 isEnabled
 ;
 nsCAutoString
@@ -912,7 +912,7 @@ name
 }
 else
 {
-bool
+PRBool
 isEnabled
 ;
 if

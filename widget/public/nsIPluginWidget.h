@@ -489,7 +489,7 @@ outClipRect
 nsIntPoint
 &
 outOrigin
-bool
+PRBool
 &
 outWidgetVisible
 )

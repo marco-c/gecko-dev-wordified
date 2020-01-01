@@ -1079,7 +1079,7 @@ aBuffer
 StringType
 &
 aLine
-bool
+PRBool
 *
 more
 )

@@ -482,7 +482,7 @@ private
 nsresult
 createHandlerAndFlush
 (
-bool
+PRBool
 aHTMLRoot
 const
 nsSubstring
@@ -571,7 +571,7 @@ to
 that
 handler
 .
-bool
+PRBool
 mFlushed
 ;
 }

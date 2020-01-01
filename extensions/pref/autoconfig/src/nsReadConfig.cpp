@@ -629,11 +629,11 @@ const
 char
 *
 filename
-bool
+PRBool
 bGlobalContext
-bool
+PRBool
 bCallbacks
-bool
+PRBool
 skipFirstLine
 )
 ;
@@ -1791,9 +1791,9 @@ char
 aFileName
 PRInt32
 obscureValue
-bool
+PRBool
 isEncoded
-bool
+PRBool
 isBinDir
 )
 {

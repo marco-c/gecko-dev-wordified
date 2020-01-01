@@ -547,7 +547,7 @@ mTypicalPositiveRatio
 freqSeqs
 /
 totalSeqs
-bool
+PRBool
 keepEnglishLetter
 ;
 /
@@ -612,7 +612,7 @@ const
 SequenceModel
 *
 model
-bool
+PRBool
 reversed
 nsCharSetProber
 *
@@ -756,7 +756,7 @@ the
 English
 letters
 .
-bool
+PRBool
 KeepEnglishLetters
 (
 )
@@ -797,12 +797,12 @@ const
 mModel
 ;
 const
-bool
+PRBool
 mReversed
 ;
 /
 /
-true
+PR_TRUE
 if
 we
 need

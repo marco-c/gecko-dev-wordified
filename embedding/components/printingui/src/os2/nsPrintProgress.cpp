@@ -591,7 +591,7 @@ parameters
 nsIObserver
 *
 openDialogObserver
-bool
+PRBool
 *
 notifyOnOpen
 )
@@ -800,7 +800,7 @@ nsPrintProgress
 :
 CloseProgressDialog
 (
-bool
+PRBool
 forceClose
 )
 {
@@ -887,7 +887,7 @@ nsPrintProgress
 :
 GetProcessCanceledByUser
 (
-bool
+PRBool
 *
 aProcessCanceledByUser
 )
@@ -912,7 +912,7 @@ nsPrintProgress
 :
 SetProcessCanceledByUser
 (
-bool
+PRBool
 aProcessCanceledByUser
 )
 {

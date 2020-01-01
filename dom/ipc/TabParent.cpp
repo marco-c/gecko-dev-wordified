@@ -1143,7 +1143,7 @@ target
 true
 )
 ;
-bool
+PRBool
 dummy
 ;
 target
@@ -1598,7 +1598,7 @@ PRInt32
 aClickCount
 PRInt32
 aModifiers
-bool
+PRBool
 aIgnoreRootScrollFrame
 )
 {
@@ -1639,7 +1639,7 @@ PRInt32
 aCharCode
 PRInt32
 aModifiers
-bool
+PRBool
 aPreventDefault
 )
 {
@@ -1833,7 +1833,7 @@ TabParent
 RecvNotifyIMEFocus
 (
 const
-bool
+PRBool
 &
 aFocus
 nsIMEUpdatePreference
@@ -2768,7 +2768,7 @@ TabParent
 RecvEndIMEComposition
 (
 const
-bool
+PRBool
 &
 aCancel
 nsString
@@ -3104,7 +3104,7 @@ TabParent
 :
 RecvGetIMEOpenState
 (
-bool
+PRBool
 *
 aValue
 )
@@ -3142,7 +3142,7 @@ TabParent
 RecvSetIMEOpenState
 (
 const
-bool
+PRBool
 &
 aValue
 )
@@ -3347,7 +3347,7 @@ const
 nsString
 &
 aMessage
-bool
+PRBool
 aSync
 const
 nsString
@@ -4356,7 +4356,7 @@ return
 true
 ;
 }
-bool
+PRBool
 TabParent
 :
 :
@@ -4380,10 +4380,10 @@ frameLoader
 PR_TRUE
 )
 ;
-bool
+PRBool
 delay
 =
-false
+PR_FALSE
 ;
 frameLoader
 -
@@ -4398,7 +4398,7 @@ return
 delay
 ;
 }
-bool
+PRBool
 TabParent
 :
 :

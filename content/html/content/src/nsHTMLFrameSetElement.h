@@ -870,7 +870,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -901,7 +901,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 ;
@@ -1049,7 +1049,7 @@ aSpecs
 )
 ;
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32

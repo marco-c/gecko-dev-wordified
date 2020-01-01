@@ -2477,7 +2477,7 @@ FALSE
 *
 /
 static
-bool
+PRBool
 GetEchoPassword
 (
 )

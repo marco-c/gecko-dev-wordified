@@ -753,7 +753,7 @@ aResult
 NS_IMETHOD
 LockFactory
 (
-bool
+PRBool
 aLock
 )
 {

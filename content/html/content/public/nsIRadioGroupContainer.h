@@ -560,7 +560,7 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-bool
+PRBool
 aFlushContent
 )
 =
@@ -714,7 +714,7 @@ nsAString
 &
 aName
 const
-bool
+PRBool
 aPrevious
 nsIDOMHTMLInputElement
 *

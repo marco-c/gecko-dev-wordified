@@ -472,7 +472,7 @@ const
 char
 *
 aKey
-bool
+PRBool
 *
 aPersist
 nsIFile
@@ -625,7 +625,7 @@ AppendingEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -682,7 +682,7 @@ rv
 Ignore
 all
 errors
-bool
+PRBool
 more
 ;
 while
@@ -770,7 +770,7 @@ dictionaries
 )
 )
 ;
-bool
+PRBool
 exists
 ;
 rv

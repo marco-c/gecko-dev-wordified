@@ -189,7 +189,7 @@ nsILocalFile
 localFile
 PRInt32
 testNumber
-bool
+PRBool
 readWrite
 )
 {

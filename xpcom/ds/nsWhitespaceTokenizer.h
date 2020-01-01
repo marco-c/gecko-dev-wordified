@@ -507,7 +507,7 @@ available
 .
 *
 /
-bool
+PRBool
 hasMoreTokens
 (
 )
@@ -610,7 +610,7 @@ const_char_iterator
 mIter
 mEnd
 ;
-bool
+PRBool
 isWhitespace
 (
 PRUnichar
@@ -725,7 +725,7 @@ available
 .
 *
 /
-bool
+PRBool
 hasMoreTokens
 (
 )
@@ -828,7 +828,7 @@ const_char_iterator
 mIter
 mEnd
 ;
-bool
+PRBool
 isWhitespace
 (
 char

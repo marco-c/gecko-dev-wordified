@@ -463,10 +463,10 @@ h
 ifdef
 NS_DEBUG
 static
-bool
+PRBool
 gNoisy
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -934,7 +934,7 @@ if
 editor
 gives
 permission
-bool
+PRBool
 bAdjustSelection
 ;
 mEditor

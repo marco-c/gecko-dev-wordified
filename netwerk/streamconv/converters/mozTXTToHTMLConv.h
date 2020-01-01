@@ -1297,7 +1297,7 @@ is
 empty
 *
 /
-bool
+PRBool
 ItMatchesDelimited
 (
 const
@@ -1447,7 +1447,7 @@ ch
 nsString
 &
 aStringToAppendto
-bool
+PRBool
 inAttribute
 )
 ;
@@ -1471,7 +1471,7 @@ EscapeStr
 nsString
 &
 aInString
-bool
+PRBool
 inAttribute
 )
 ;
@@ -1822,7 +1822,7 @@ URL
 found
 *
 /
-bool
+PRBool
 FindURL
 (
 const
@@ -2160,7 +2160,7 @@ been
 found
 *
 /
-bool
+PRBool
 FindURLStart
 (
 const
@@ -2247,7 +2247,7 @@ been
 found
 *
 /
-bool
+PRBool
 FindURLEnd
 (
 const
@@ -2460,7 +2460,7 @@ successful
 )
 *
 /
-bool
+PRBool
 CheckURLAndCreateHTML
 (
 const
@@ -2650,7 +2650,7 @@ Conversion
 succeeded
 *
 /
-bool
+PRBool
 StructPhraseHit
 (
 const
@@ -2659,7 +2659,7 @@ PRUnichar
 aInString
 PRInt32
 aInStringLength
-bool
+PRBool
 col0
 const
 PRUnichar
@@ -2750,7 +2750,7 @@ see
 GlyphHit
 *
 /
-bool
+PRBool
 SmilyHit
 (
 const
@@ -2759,7 +2759,7 @@ PRUnichar
 aInString
 PRInt32
 aLength
-bool
+PRBool
 col0
 const
 char
@@ -2906,7 +2906,7 @@ see
 StructPhraseHit
 *
 /
-bool
+PRBool
 GlyphHit
 (
 const
@@ -2915,7 +2915,7 @@ PRUnichar
 aInString
 PRInt32
 aInLength
-bool
+PRBool
 col0
 nsString
 &
@@ -2951,7 +2951,7 @@ on
 .
 *
 /
-bool
+PRBool
 ShouldLinkify
 (
 const

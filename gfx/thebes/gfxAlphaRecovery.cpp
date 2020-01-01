@@ -463,7 +463,7 @@ h
 static
 *
 /
-bool
+PRBool
 gfxAlphaRecovery
 :
 :

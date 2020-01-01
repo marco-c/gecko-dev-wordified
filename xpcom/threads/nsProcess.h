@@ -609,7 +609,7 @@ ProcessComplete
 nsresult
 CopyArgsAndRunProcess
 (
-bool
+PRBool
 blocking
 const
 char
@@ -621,14 +621,14 @@ count
 nsIObserver
 *
 observer
-bool
+PRBool
 holdWeak
 )
 ;
 nsresult
 CopyArgsAndRunProcessw
 (
-bool
+PRBool
 blocking
 const
 PRUnichar
@@ -640,7 +640,7 @@ count
 nsIObserver
 *
 observer
-bool
+PRBool
 holdWeak
 )
 ;
@@ -659,7 +659,7 @@ terminated
 nsresult
 RunProcess
 (
-bool
+PRBool
 blocking
 char
 *
@@ -668,9 +668,9 @@ args
 nsIObserver
 *
 observer
-bool
+PRBool
 holdWeak
-bool
+PRBool
 argsUTF8
 )
 ;
@@ -684,7 +684,7 @@ mozilla
 Mutex
 mLock
 ;
-bool
+PRBool
 mShutdown
 ;
 nsCOMPtr

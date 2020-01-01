@@ -596,7 +596,7 @@ nsIInputStream
 *
 *
 _retval
-bool
+PRBool
 nonBlocking
 )
 ;

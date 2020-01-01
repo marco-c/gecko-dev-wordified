@@ -3290,7 +3290,7 @@ return
 TRUE
 ;
 }
-bool
+PRBool
 nsApplicationAccessibleWrap
 :
 :
@@ -3346,10 +3346,10 @@ disabled
 by
 environment
 variable
-bool
+PRBool
 isGnomeATEnabled
 =
-false
+PR_FALSE
 ;
 const
 char
@@ -4059,7 +4059,7 @@ return
 FALSE
 ;
 }
-bool
+PRBool
 nsApplicationAccessibleWrap
 :
 :
@@ -4197,7 +4197,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsApplicationAccessibleWrap
 :
 :

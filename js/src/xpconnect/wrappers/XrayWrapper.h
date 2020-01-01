@@ -490,7 +490,7 @@ them
 out
 of
 the
-Wrapper
+JSWrapper
 inheritance
 hierarchy
 and

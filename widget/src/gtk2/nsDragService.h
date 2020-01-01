@@ -548,7 +548,7 @@ StartDragSession
 NS_IMETHOD
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 ;
@@ -558,14 +558,14 @@ nsIDragSession
 NS_IMETHOD
 SetCanDrop
 (
-bool
+PRBool
 aCanDrop
 )
 ;
 NS_IMETHOD
 GetCanDrop
 (
-bool
+PRBool
 *
 aCanDrop
 )
@@ -595,7 +595,7 @@ const
 char
 *
 aDataFlavor
-bool
+PRBool
 *
 _retval
 )
@@ -790,7 +790,7 @@ drop
 on
 us
 ?
-bool
+PRBool
 mCanDrop
 ;
 /
@@ -802,7 +802,7 @@ our
 drag
 data
 ?
-bool
+PRBool
 mTargetDragDataReceived
 ;
 /
@@ -832,7 +832,7 @@ contain
 a
 list
 ?
-bool
+PRBool
 IsTargetContextList
 (
 void
@@ -965,7 +965,7 @@ successful
 FALSE
 if
 not
-bool
+PRBool
 SetAlphaPixmap
 (
 gfxASurface

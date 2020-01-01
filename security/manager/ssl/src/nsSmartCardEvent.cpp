@@ -757,7 +757,7 @@ aTarget
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSmartCardEvent
 :
@@ -824,7 +824,7 @@ nsSmartCardEvent
 :
 SetTrusted
 (
-bool
+PRBool
 aResult
 )
 {
@@ -861,7 +861,7 @@ IPC
 Message
 *
 aMsg
-bool
+PRBool
 aSerializeInterfaceType
 )
 {
@@ -886,7 +886,7 @@ aSerializeInterfaceType
 )
 ;
 }
-bool
+PRBool
 nsSmartCardEvent
 :
 :
@@ -1094,7 +1094,7 @@ nsSmartCardEvent
 :
 GetIsTrusted
 (
-bool
+PRBool
 *
 aIsTrusted
 )
@@ -1126,7 +1126,7 @@ nsSmartCardEvent
 :
 GetPreventDefault
 (
-bool
+PRBool
 *
 aReturn
 )
@@ -1292,7 +1292,7 @@ nsSmartCardEvent
 :
 GetBubbles
 (
-bool
+PRBool
 *
 aBubbles
 )
@@ -1324,7 +1324,7 @@ nsSmartCardEvent
 :
 GetCancelable
 (
-bool
+PRBool
 *
 aCancelable
 )
@@ -1444,7 +1444,7 @@ nsSmartCardEvent
 :
 GetDefaultPrevented
 (
-bool
+PRBool
 *
 aReturn
 )
@@ -1480,9 +1480,9 @@ const
 nsAString
 &
 eventTypeArg
-bool
+PRBool
 canBubbleArg
-bool
+PRBool
 cancelableArg
 )
 {

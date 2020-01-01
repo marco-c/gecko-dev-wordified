@@ -672,15 +672,15 @@ PR_TRUE
 nsresult
 Unlock
 (
-bool
+PRBool
 aFatalSignal
 =
-false
+PR_FALSE
 )
 ;
 private
 :
-bool
+PRPackedBool
 mHaveLock
 ;
 #
@@ -732,7 +732,7 @@ static
 void
 RemovePidLockFiles
 (
-bool
+PRBool
 aFatalSignal
 )
 ;
@@ -809,7 +809,7 @@ const
 nsACString
 &
 lockFilePath
-bool
+PRBool
 aHaveFcntlLock
 )
 ;

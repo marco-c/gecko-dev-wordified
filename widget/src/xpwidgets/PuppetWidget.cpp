@@ -970,7 +970,7 @@ aToolkit
 nsWidgetInitData
 *
 aInitData
-bool
+PRBool
 aForceUseIWidgetParent
 )
 {
@@ -1098,7 +1098,7 @@ PuppetWidget
 :
 Show
 (
-bool
+PRBool
 aState
 )
 {
@@ -1125,7 +1125,7 @@ widget
 "
 )
 ;
-bool
+PRBool
 wasVisible
 =
 mVisible
@@ -1169,7 +1169,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 {
@@ -1292,7 +1292,7 @@ PuppetWidget
 :
 SetFocus
 (
-bool
+PRBool
 aRaise
 )
 {
@@ -1332,7 +1332,7 @@ const
 nsIntRect
 &
 aRect
-bool
+PRBool
 aIsSynchronous
 )
 {
@@ -1949,7 +1949,7 @@ PuppetWidget
 :
 IMEEndComposition
 (
-bool
+PRBool
 aCancel
 )
 {
@@ -2105,7 +2105,7 @@ PuppetWidget
 :
 SetIMEOpenState
 (
-bool
+PRBool
 aState
 )
 {
@@ -2178,7 +2178,7 @@ PuppetWidget
 :
 GetIMEOpenState
 (
-bool
+PRBool
 *
 aState
 )
@@ -2243,7 +2243,7 @@ PuppetWidget
 :
 OnIMEFocusChange
 (
-bool
+PRBool
 aFocus
 )
 {

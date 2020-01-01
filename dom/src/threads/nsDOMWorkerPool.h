@@ -724,10 +724,10 @@ workers
 ReentrantMonitor
 mReentrantMonitor
 ;
-bool
+PRPackedBool
 mCanceled
 ;
-bool
+PRPackedBool
 mSuspended
 ;
 const

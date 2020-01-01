@@ -652,7 +652,7 @@ aContent
 )
 ;
 }
-bool
+PRBool
 Matches
 (
 nsIContent

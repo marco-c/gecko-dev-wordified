@@ -1650,7 +1650,7 @@ other
 .
 *
 /
-bool
+PRBool
 hasRx
 =
 mLengthAttributes
@@ -1662,7 +1662,7 @@ IsExplicitlySet
 (
 )
 ;
-bool
+PRBool
 hasRy
 =
 mLengthAttributes

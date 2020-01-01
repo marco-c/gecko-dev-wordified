@@ -437,6 +437,13 @@ h
 #
 include
 "
+nsISVGValueUtils
+.
+h
+"
+#
+include
+"
 SVGAnimatedPreserveAspectRatio
 .
 h
@@ -1753,7 +1760,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGMarkerElement
 :
@@ -1884,7 +1891,7 @@ name
 /
 nsSVGElement
 methods
-bool
+PRBool
 nsSVGMarkerElement
 :
 :
@@ -1953,7 +1960,7 @@ aResult
 )
 ;
 }
-bool
+PRBool
 nsSVGMarkerElement
 :
 :
@@ -2052,7 +2059,7 @@ aNamespaceID
 nsIAtom
 *
 aName
-bool
+PRBool
 aNotify
 )
 {

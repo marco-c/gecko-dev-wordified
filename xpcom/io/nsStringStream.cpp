@@ -901,7 +901,7 @@ mOffset
 PRUint32
 mLength
 ;
-bool
+PRPackedBool
 mOwned
 ;
 }
@@ -1687,7 +1687,7 @@ nsStringInputStream
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 aNonBlocking
 )
@@ -1934,7 +1934,7 @@ implementation
 /
 /
 /
-bool
+PRBool
 nsStringInputStream
 :
 :

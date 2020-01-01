@@ -529,7 +529,7 @@ url
 nsISupports
 *
 params
-bool
+PRBool
 modal
 )
 {

@@ -767,7 +767,7 @@ it
 succeeded
 *
 /
-bool
+PRBool
 GetSolidColor
 (
 gfxRGBA

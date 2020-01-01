@@ -632,7 +632,7 @@ are
 already
 styled
 .
-bool
+PRBool
 IsWidgetStyled
 (
 nsPresContext
@@ -669,7 +669,7 @@ aEventStates
 RTL
 chrome
 direction
-bool
+PRBool
 IsFrameRTL
 (
 nsIFrame
@@ -681,7 +681,7 @@ aFrame
 /
 button
 :
-bool
+PRBool
 IsDefaultButton
 (
 nsIFrame
@@ -700,7 +700,7 @@ _default
 )
 ;
 }
-bool
+PRBool
 IsButtonTypeMenu
 (
 nsIFrame
@@ -712,7 +712,7 @@ aFrame
 /
 checkbox
 :
-bool
+PRBool
 IsChecked
 (
 nsIFrame
@@ -732,7 +732,7 @@ PR_FALSE
 /
 radiobutton
 :
-bool
+PRBool
 IsSelected
 (
 nsIFrame
@@ -748,7 +748,7 @@ PR_TRUE
 )
 ;
 }
-bool
+PRBool
 IsFocused
 (
 nsIFrame
@@ -784,7 +784,7 @@ aFrame
 /
 tab
 :
-bool
+PRBool
 IsSelectedTab
 (
 nsIFrame
@@ -803,7 +803,7 @@ selected
 )
 ;
 }
-bool
+PRBool
 IsNextToSelectedTab
 (
 nsIFrame
@@ -813,7 +813,7 @@ PRInt32
 aOffset
 )
 ;
-bool
+PRBool
 IsBeforeSelectedTab
 (
 nsIFrame
@@ -830,7 +830,7 @@ aFrame
 )
 ;
 }
-bool
+PRBool
 IsAfterSelectedTab
 (
 nsIFrame
@@ -846,7 +846,7 @@ aFrame
 )
 ;
 }
-bool
+PRBool
 IsLeftToSelectedTab
 (
 nsIFrame
@@ -871,7 +871,7 @@ aFrame
 )
 ;
 }
-bool
+PRBool
 IsRightToSelectedTab
 (
 nsIFrame
@@ -902,7 +902,7 @@ button
 /
 toolbarbutton
 :
-bool
+PRBool
 IsCheckedButton
 (
 nsIFrame
@@ -921,7 +921,7 @@ checked
 )
 ;
 }
-bool
+PRBool
 IsSelectedButton
 (
 nsIFrame
@@ -950,7 +950,7 @@ selected
 )
 ;
 }
-bool
+PRBool
 IsOpenButton
 (
 nsIFrame
@@ -969,7 +969,7 @@ open
 )
 ;
 }
-bool
+PRBool
 IsPressedButton
 (
 nsIFrame
@@ -989,7 +989,7 @@ nsIFrame
 aFrame
 )
 ;
-bool
+PRBool
 IsLastTreeHeaderCell
 (
 nsIFrame
@@ -1001,7 +1001,7 @@ aFrame
 /
 tab
 :
-bool
+PRBool
 IsBottomTab
 (
 nsIFrame
@@ -1009,7 +1009,7 @@ nsIFrame
 aFrame
 )
 ;
-bool
+PRBool
 IsFirstTab
 (
 nsIFrame
@@ -1017,7 +1017,7 @@ nsIFrame
 aFrame
 )
 ;
-bool
+PRBool
 IsHorizontal
 (
 nsIFrame
@@ -1029,7 +1029,7 @@ aFrame
 /
 progressbar
 :
-bool
+PRBool
 IsIndeterminateProgress
 (
 nsIFrame
@@ -1039,7 +1039,7 @@ nsEventStates
 aEventStates
 )
 ;
-bool
+PRBool
 IsVerticalProgress
 (
 nsIFrame
@@ -1051,7 +1051,7 @@ aFrame
 /
 textfield
 :
-bool
+PRBool
 IsReadOnly
 (
 nsIFrame
@@ -1074,13 +1074,13 @@ readonly
 /
 menupopup
 :
-bool
+PRBool
 IsSubmenu
 (
 nsIFrame
 *
 aFrame
-bool
+PRBool
 *
 aLeftOfParent
 )
@@ -1099,7 +1099,7 @@ item
 or
 menulist
 item
-bool
+PRBool
 IsRegularMenuItem
 (
 nsIFrame
@@ -1107,7 +1107,7 @@ nsIFrame
 aFrame
 )
 ;
-bool
+PRBool
 IsMenuListEditable
 (
 nsIFrame
@@ -1137,7 +1137,7 @@ PRInt32
 defaultValue
 )
 ;
-bool
+PRBool
 CheckBooleanAttr
 (
 nsIFrame
@@ -1148,17 +1148,17 @@ nsIAtom
 aAtom
 )
 ;
-bool
+PRBool
 GetCheckedOrSelected
 (
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aCheckSelected
 )
 ;
-bool
+PRBool
 GetIndeterminate
 (
 nsIFrame
@@ -1166,7 +1166,7 @@ nsIFrame
 aFrame
 )
 ;
-bool
+PRBool
 QueueAnimatedContentForRefresh
 (
 nsIContent
@@ -1183,7 +1183,7 @@ GetAdjacentSiblingFrameWithSameAppearance
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aNextSibling
 )
 ;

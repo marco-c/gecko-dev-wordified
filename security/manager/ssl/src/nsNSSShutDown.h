@@ -538,7 +538,7 @@ UI
 currently
 shown
 ?
-bool
+PRBool
 isBlockingUIActive
 (
 )
@@ -557,7 +557,7 @@ while
 holding
 resources
 ?
-bool
+PRBool
 isUIForbidden
 (
 )
@@ -622,7 +622,7 @@ test_only
 do_it_for_real
 }
 ;
-bool
+PRBool
 ifPossibleDisallowUI
 (
 RealOrTesting
@@ -809,7 +809,7 @@ UI
 is
 currently
 forbidden
-bool
+PRBool
 mIsUIForbidden
 ;
 /
@@ -895,7 +895,7 @@ nsPSMUITracker
 (
 )
 ;
-bool
+PRBool
 isUIForbidden
 (
 )
@@ -1040,7 +1040,7 @@ trackSSLSocketClose
 )
 ;
 static
-bool
+PRBool
 areSSLSocketsActive
 (
 )
@@ -1073,7 +1073,7 @@ is
 not
 possible
 .
-bool
+PRBool
 isUIActive
 (
 )
@@ -1110,7 +1110,7 @@ change
 the
 possibility
 .
-bool
+PRBool
 ifPossibleDisallowUI
 (
 )
@@ -1711,7 +1711,7 @@ PR_TRUE
 ;
 }
 }
-bool
+PRBool
 isAlreadyShutDown
 (
 )
@@ -1733,7 +1733,7 @@ virtualDestroyNSSReference
 private
 :
 volatile
-bool
+PRBool
 mAlreadyShutDown
 ;
 }
@@ -1831,7 +1831,7 @@ mIsLoggedOut
 PR_TRUE
 ;
 }
-bool
+PRBool
 isPK11LoggedOut
 (
 )
@@ -1843,7 +1843,7 @@ mIsLoggedOut
 private
 :
 volatile
-bool
+PRBool
 mIsLoggedOut
 ;
 }

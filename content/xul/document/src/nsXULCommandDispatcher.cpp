@@ -2675,7 +2675,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsXULCommandDispatcher
 :
 :
@@ -2961,7 +2961,7 @@ nsXULCommandDispatcher
 :
 GetSuppressFocusScroll
 (
-bool
+PRBool
 *
 aSuppressFocusScroll
 )
@@ -2981,7 +2981,7 @@ nsXULCommandDispatcher
 :
 SetSuppressFocusScroll
 (
-bool
+PRBool
 aSuppressFocusScroll
 )
 {

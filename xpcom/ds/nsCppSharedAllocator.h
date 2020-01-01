@@ -293,7 +293,7 @@ template
 class
 T
 >
-bool
+PRBool
 operator
 =
 =
@@ -321,7 +321,7 @@ template
 class
 T
 >
-bool
+PRBool
 operator
 !
 =

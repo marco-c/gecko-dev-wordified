@@ -735,7 +735,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsScrollbarButtonFrame
 :
 :
@@ -1042,10 +1042,10 @@ the
 click
 action
 .
-bool
+PRBool
 repeat
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -1055,10 +1055,10 @@ scrolling
 by
 default
 .
-bool
+PRBool
 smoothScroll
 =
-true
+PR_TRUE
 ;
 switch
 (
@@ -1395,7 +1395,7 @@ nsScrollbarButtonFrame
 :
 DoButtonAction
 (
-bool
+PRBool
 aSmoothScroll
 )
 {

@@ -705,7 +705,7 @@ nsXBLResourceLoader
 :
 LoadResources
 (
-bool
+PRBool
 *
 aResult
 )
@@ -1029,7 +1029,7 @@ content
 policy
 check
 ?
-bool
+PRBool
 chrome
 ;
 nsresult
@@ -1229,7 +1229,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-bool
+PRBool
 aWasAlternate
 nsresult
 aStatus
@@ -1491,10 +1491,10 @@ ObjectAt
 j
 )
 ;
-bool
+PRBool
 ready
 =
-false
+PR_FALSE
 ;
 xblService
 -

@@ -1104,10 +1104,10 @@ nsIDOMCharacterData
 aTextNode
 PRInt32
 aOffset
-bool
+PRBool
 aSuppressIME
 =
-false
+PR_FALSE
 )
 ;
 NS_IMETHOD
@@ -1169,10 +1169,10 @@ nsAString
 aValue
 =
 nsnull
-bool
+PRBool
 aCloneAttributes
 =
-false
+PR_FALSE
 )
 ;
 nsresult
@@ -1352,10 +1352,10 @@ FireTrustedInputEvent
 nsEditor
 *
 aSelf
-bool
+PRBool
 aActive
 =
-true
+PR_TRUE
 )
 :
 mEditor
@@ -1415,7 +1415,7 @@ nsEditor
 *
 mEditor
 ;
-bool
+PRBool
 mShouldAct
 ;
 }
@@ -2050,7 +2050,7 @@ match
 NS_IMETHOD
 ScrollSelectionIntoView
 (
-bool
+PRBool
 aScrollToAnchor
 )
 ;
@@ -2064,7 +2064,7 @@ in
 source
 .
 virtual
-bool
+PRBool
 IsBlockNode
 (
 nsIDOMNode
@@ -2083,7 +2083,7 @@ GetPriorNodeImpl
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -2091,10 +2091,10 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -2108,7 +2108,7 @@ GetNextNodeImpl
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -2116,10 +2116,10 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -2188,7 +2188,7 @@ editor
 .
 *
 /
-bool
+PRBool
 GetDesiredSpellCheckState
 (
 )
@@ -2202,7 +2202,7 @@ nsIDOMKeyEvent
 aDOMKeyEvent
 )
 ;
-bool
+PRBool
 CanEnableSpellCheck
 (
 )
@@ -2327,7 +2327,7 @@ editor
 actions
 *
 /
-bool
+PRBool
 ArePreservingSelection
 (
 )
@@ -2561,7 +2561,7 @@ aNodeToJoin
 nsIDOMNode
 *
 aParent
-bool
+PRBool
 aNodeToKeepIsFirst
 )
 ;
@@ -2805,7 +2805,7 @@ GetPriorNode
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -2813,10 +2813,10 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -2844,7 +2844,7 @@ nsIDOMNode
 aParentNode
 PRInt32
 aOffset
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -2852,10 +2852,10 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -2935,7 +2935,7 @@ GetNextNode
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -2943,10 +2943,10 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -2974,7 +2974,7 @@ nsIDOMNode
 aParentNode
 PRInt32
 aOffset
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -2982,10 +2982,10 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -3019,10 +3019,10 @@ GetRightmostChild
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 bNoBlockCrossing
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -3056,10 +3056,10 @@ GetLeftmostChild
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 bNoBlockCrossing
 =
-false
+PR_FALSE
 )
 ;
 /
@@ -3080,7 +3080,7 @@ aTag
 /
 static
 inline
-bool
+PRBool
 NodeIsType
 (
 nsIDOMNode
@@ -3115,7 +3115,7 @@ we
 can
 static
 inline
-bool
+PRBool
 NodeIsTypeString
 (
 nsIDOMNode
@@ -3165,7 +3165,7 @@ type
 aTag
 *
 /
-bool
+PRBool
 CanContainTag
 (
 nsIDOMNode
@@ -3177,7 +3177,7 @@ nsAString
 aTag
 )
 ;
-bool
+PRBool
 TagCanContain
 (
 const
@@ -3190,7 +3190,7 @@ aChild
 )
 ;
 virtual
-bool
+PRBool
 TagCanContainTag
 (
 const
@@ -3216,7 +3216,7 @@ root
 node
 *
 /
-bool
+PRBool
 IsRootNode
 (
 nsIDOMNode
@@ -3240,7 +3240,7 @@ root
 node
 *
 /
-bool
+PRBool
 IsDescendantOfBody
 (
 nsIDOMNode
@@ -3261,7 +3261,7 @@ container
 *
 /
 virtual
-bool
+PRBool
 IsContainer
 (
 nsIDOMNode
@@ -3282,7 +3282,7 @@ editable
 node
 *
 /
-bool
+PRBool
 IsEditable
 (
 nsIDOMNode
@@ -3291,7 +3291,7 @@ aNode
 )
 ;
 virtual
-bool
+PRBool
 IsTextInDirtyFrameVisible
 (
 nsIDOMNode
@@ -3312,7 +3312,7 @@ MozEditorBogus
 node
 *
 /
-bool
+PRBool
 IsMozEditorBogusNode
 (
 nsIDOMNode
@@ -3400,7 +3400,7 @@ PRInt32
 length
 )
 ;
-bool
+PRBool
 IsIMEComposing
 (
 )
@@ -3469,7 +3469,7 @@ aNode
 )
 ;
 virtual
-bool
+PRBool
 NodesSameType
 (
 nsIDOMNode
@@ -3481,7 +3481,7 @@ aNode2
 )
 ;
 static
-bool
+PRBool
 IsTextOrElementNode
 (
 nsIDOMNode
@@ -3490,7 +3490,7 @@ aNode
 )
 ;
 static
-bool
+PRBool
 IsTextNode
 (
 nsIDOMNode
@@ -3676,7 +3676,7 @@ IsPreformatted
 nsIDOMNode
 *
 aNode
-bool
+PRBool
 *
 aResult
 )
@@ -3695,10 +3695,10 @@ aSplitPointOffset
 PRInt32
 *
 outOffset
-bool
+PRBool
 aNoEmptyContainers
 =
-false
+PR_FALSE
 nsCOMPtr
 <
 nsIDOMNode
@@ -3762,7 +3762,7 @@ EndUpdateViewBatch
 void
 )
 ;
-bool
+PRBool
 GetShouldTxnSetSelection
 (
 )
@@ -3834,7 +3834,7 @@ Accessor
 methods
 to
 flags
-bool
+PRBool
 IsPlaintextEditor
 (
 )
@@ -3854,7 +3854,7 @@ eEditorPlaintextMask
 0
 ;
 }
-bool
+PRBool
 IsSingleLineEditor
 (
 )
@@ -3874,7 +3874,7 @@ eEditorSingleLineMask
 0
 ;
 }
-bool
+PRBool
 IsPasswordEditor
 (
 )
@@ -3894,7 +3894,7 @@ eEditorPasswordMask
 0
 ;
 }
-bool
+PRBool
 IsReadonly
 (
 )
@@ -3914,7 +3914,7 @@ eEditorReadonlyMask
 0
 ;
 }
-bool
+PRBool
 IsDisabled
 (
 )
@@ -3934,7 +3934,7 @@ eEditorDisabledMask
 0
 ;
 }
-bool
+PRBool
 IsInputFiltered
 (
 )
@@ -3954,7 +3954,7 @@ eEditorFilterInputMask
 0
 ;
 }
-bool
+PRBool
 IsMailEditor
 (
 )
@@ -3974,7 +3974,7 @@ eEditorMailMask
 0
 ;
 }
-bool
+PRBool
 UseAsyncUpdate
 (
 )
@@ -3994,7 +3994,7 @@ eEditorUseAsyncUpdatesMask
 0
 ;
 }
-bool
+PRBool
 IsWrapHackEnabled
 (
 )
@@ -4014,7 +4014,7 @@ eEditorEnableWrapHackMask
 0
 ;
 }
-bool
+PRBool
 IsFormWidget
 (
 )
@@ -4034,7 +4034,7 @@ eEditorWidgetMask
 0
 ;
 }
-bool
+PRBool
 NoCSS
 (
 )
@@ -4054,7 +4054,7 @@ eEditorNoCSSMask
 0
 ;
 }
-bool
+PRBool
 IsInteractionAllowed
 (
 )
@@ -4074,7 +4074,7 @@ eEditorAllowInteraction
 0
 ;
 }
-bool
+PRBool
 DontEchoPassword
 (
 )
@@ -4094,7 +4094,7 @@ eEditorDontEchoPassword
 0
 ;
 }
-bool
+PRBool
 IsTabbable
 (
 )
@@ -4189,7 +4189,7 @@ was
 active
 .
 virtual
-bool
+PRBool
 IsActiveInDOMWindow
 (
 )
@@ -4246,7 +4246,7 @@ ancestor
 elements
 .
 virtual
-bool
+PRBool
 IsAcceptableInputEvent
 (
 nsIDOMEvent
@@ -4664,7 +4664,7 @@ of
 IME
 comp
 string
-bool
+PRPackedBool
 mInIMEMode
 ;
 /
@@ -4676,7 +4676,7 @@ an
 IME
 composition
 ?
-bool
+PRPackedBool
 mIsIMEComposing
 ;
 /
@@ -4699,7 +4699,7 @@ see
 Bug
 98434
 .
-bool
+PRPackedBool
 mShouldTxnSetSelection
 ;
 /
@@ -4712,7 +4712,7 @@ selection
 adjustment
 by
 txns
-bool
+PRPackedBool
 mDidPreDestroy
 ;
 /
@@ -4722,7 +4722,7 @@ PreDestroy
 has
 been
 called
-bool
+PRPackedBool
 mDidPostCreate
 ;
 /
@@ -4838,7 +4838,7 @@ Tristate
 mLastKeypressEventWasTrusted
 ;
 friend
-bool
+PRBool
 NSCanUnload
 (
 nsISupports

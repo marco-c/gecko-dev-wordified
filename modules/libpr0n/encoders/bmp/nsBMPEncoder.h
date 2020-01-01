@@ -862,7 +862,7 @@ is
 done
 being
 encoded
-bool
+PRPackedBool
 mFinished
 ;
 nsCOMPtr

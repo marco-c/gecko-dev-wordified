@@ -732,7 +732,7 @@ Equals
 nsIHandlerApp
 *
 aHandlerApp
-bool
+PRBool
 *
 _retval
 )
@@ -1428,7 +1428,7 @@ const
 nsAString
 &
 aParam
-bool
+PRBool
 *
 _retval
 )

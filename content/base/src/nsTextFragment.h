@@ -849,7 +849,7 @@ PRUnichar
 data
 *
 /
-bool
+PRBool
 Is2b
 (
 )
@@ -902,7 +902,7 @@ true
 .
 *
 /
-bool
+PRBool
 IsBidi
 (
 )
@@ -1040,7 +1040,7 @@ mState
 mLength
 ;
 }
-bool
+PRBool
 CanGrowBy
 (
 size_t
@@ -1131,7 +1131,7 @@ PRUnichar
 aBuffer
 PRInt32
 aLength
-bool
+PRBool
 aUpdateBidi
 )
 ;
@@ -1187,7 +1187,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-bool
+PRBool
 aUpdateBidi
 )
 ;
@@ -1502,7 +1502,7 @@ not
 /
 Making
 these
-bool
+PRPackedBool
 causes
 Windows
 to

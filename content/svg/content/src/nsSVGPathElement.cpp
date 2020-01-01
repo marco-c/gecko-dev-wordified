@@ -499,6 +499,13 @@ h
 #
 include
 "
+nsISVGValueUtils
+.
+h
+"
+#
+include
+"
 nsSVGUtils
 .
 h
@@ -1868,9 +1875,9 @@ float
 r2
 float
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 nsIDOMSVGPathSegArcAbs
 *
@@ -1963,9 +1970,9 @@ float
 r2
 float
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 nsIDOMSVGPathSegArcRel
 *
@@ -2925,7 +2932,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGPathElement
 :
@@ -3077,7 +3084,7 @@ aMatrix
 /
 nsSVGPathGeometryElement
 methods
-bool
+PRBool
 nsSVGPathElement
 :
 :
@@ -3108,7 +3115,7 @@ nsGkAtoms
 pathLength
 ;
 }
-bool
+PRBool
 nsSVGPathElement
 :
 :

@@ -716,7 +716,7 @@ preferences
 allow
 EventSource
 static
-bool
+PRBool
 PrefEnabled
 (
 )
@@ -874,7 +874,7 @@ PRUnichar
 aChr
 )
 ;
-bool
+PRBool
 CheckCanRequestSrc
 (
 nsIURI
@@ -1115,13 +1115,13 @@ PARSE_STATE_BEGIN_OF_LINE
 ParserStatus
 mStatus
 ;
-bool
+PRPackedBool
 mFrozen
 ;
-bool
+PRPackedBool
 mErrorLoadOnRedirect
 ;
-bool
+PRPackedBool
 mGoingToDispatchAllMessages
 ;
 /

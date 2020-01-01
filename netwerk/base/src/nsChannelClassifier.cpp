@@ -655,7 +655,7 @@ types
 of
 URIs
 .
-bool
+PRBool
 hasFlags
 ;
 rv
@@ -808,7 +808,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 expectCallback
 ;
 rv
@@ -1075,7 +1075,7 @@ nsnull
 )
 ;
 }
-bool
+PRBool
 nsChannelClassifier
 :
 :
@@ -1125,7 +1125,7 @@ without
 /
 validation
 .
-bool
+PRBool
 fromCache
 ;
 if

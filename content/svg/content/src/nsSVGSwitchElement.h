@@ -565,7 +565,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 ;
@@ -575,7 +575,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 ;
@@ -584,7 +584,7 @@ aNotify
 nsIContent
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (

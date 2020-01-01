@@ -562,7 +562,7 @@ f
 double
 d
 ;
-bool
+PRBool
 b
 ;
 char
@@ -979,7 +979,7 @@ flags
 VAL_NEEDS_CLEANUP
 ;
 }
-bool
+PRBool
 IsIndirect
 (
 )
@@ -996,7 +996,7 @@ PTR_IS_DATA
 )
 ;
 }
-bool
+PRBool
 DoesValNeedCleanup
 (
 )
@@ -1025,7 +1025,7 @@ IsIndirect
 )
 instead
 .
-bool
+PRBool
 IsPtrData
 (
 )

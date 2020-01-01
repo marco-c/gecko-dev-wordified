@@ -1199,7 +1199,7 @@ return
 1
 ;
 }
-bool
+PRBool
 nsMediaExpression
 :
 :
@@ -2373,7 +2373,7 @@ const
 nsMediaExpression
 *
 aExpression
-bool
+PRBool
 aExpressionMatches
 )
 {
@@ -2496,7 +2496,7 @@ eentry
 )
 ;
 }
-bool
+PRBool
 nsMediaQueryResultCacheKey
 :
 :
@@ -3500,7 +3500,7 @@ forget
 )
 ;
 }
-bool
+PRBool
 nsMediaQuery
 :
 :
@@ -3522,7 +3522,7 @@ mHadUnknownExpression
 return
 PR_FALSE
 ;
-bool
+PRBool
 match
 =
 mMediaType
@@ -3862,10 +3862,10 @@ aMediaText
 nsCSSParser
 parser
 ;
-bool
+PRBool
 htmlMode
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3909,7 +3909,7 @@ htmlMode
 )
 ;
 }
-bool
+PRBool
 nsMediaList
 :
 :
@@ -4691,7 +4691,7 @@ buf
 #
 ifdef
 DEBUG
-bool
+PRBool
 ok
 =
 #
@@ -4910,7 +4910,7 @@ nullprincipal
 ;
 }
 static
-bool
+PRBool
 SetStyleSheetReference
 (
 css
@@ -4950,7 +4950,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 CloneRuleInto
 (
 css
@@ -5098,7 +5098,7 @@ mDocument
 }
 }
 ;
-bool
+PRBool
 nsCSSStyleSheet
 :
 :
@@ -5728,7 +5728,7 @@ urlSpec
 ;
 }
 static
-bool
+PRBool
 CreateNameSpace
 (
 css
@@ -6797,7 +6797,7 @@ css
 )
 ;
 }
-bool
+PRBool
 nsCSSStyleSheet
 :
 :
@@ -6854,7 +6854,7 @@ aMedia
 virtual
 *
 /
-bool
+PRBool
 nsCSSStyleSheet
 :
 :
@@ -6877,7 +6877,7 @@ StyleRuleCount
 virtual
 *
 /
-bool
+PRBool
 nsCSSStyleSheet
 :
 :
@@ -6908,7 +6908,7 @@ nsCSSStyleSheet
 :
 SetEnabled
 (
-bool
+PRBool
 aEnabled
 )
 {
@@ -6923,7 +6923,7 @@ handle
 BeginUpdate
 /
 EndUpdate
-bool
+PRBool
 oldDisabled
 =
 mDisabled
@@ -6974,7 +6974,7 @@ mDisabled
 virtual
 *
 /
-bool
+PRBool
 nsCSSStyleSheet
 :
 :
@@ -8323,7 +8323,7 @@ return
 eUniqueInner_ClonedInner
 ;
 }
-bool
+PRBool
 nsCSSStyleSheet
 :
 :
@@ -8964,7 +8964,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-bool
+PRBool
 subsumes
 ;
 rv
@@ -9105,7 +9105,7 @@ nsCSSStyleSheet
 :
 GetDisabled
 (
-bool
+PRBool
 *
 aDisabled
 )
@@ -9125,7 +9125,7 @@ nsCSSStyleSheet
 :
 SetDisabled
 (
-bool
+PRBool
 aDisabled
 )
 {
@@ -10280,7 +10280,7 @@ NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 ;
 }
 }
-bool
+PRBool
 insertResult
 =
 mInner
@@ -10434,10 +10434,10 @@ is
 importing
 is
 loaded
-bool
+PRBool
 notify
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -11441,7 +11441,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-bool
+PRBool
 aWasAlternate
 nsresult
 aStatus

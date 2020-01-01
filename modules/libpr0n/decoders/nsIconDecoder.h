@@ -862,12 +862,6 @@ public
 :
 nsIconDecoder
 (
-RasterImage
-*
-aImage
-imgIDecoderObserver
-*
-aObserver
 )
 ;
 virtual

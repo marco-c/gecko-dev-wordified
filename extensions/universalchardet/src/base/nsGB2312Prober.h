@@ -470,7 +470,7 @@ public
 :
 nsGB18030Prober
 (
-bool
+PRBool
 aIsPreferredLanguage
 )
 :
@@ -590,7 +590,7 @@ mLastChar
 2
 ]
 ;
-bool
+PRBool
 mIsPreferredLanguage
 ;
 }

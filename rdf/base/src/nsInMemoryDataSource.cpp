@@ -898,7 +898,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 {
@@ -1102,7 +1102,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 ;
@@ -1219,7 +1219,7 @@ PR_TRUE
 ;
 }
 inline
-bool
+PRBool
 IsMarked
 (
 )
@@ -1320,14 +1320,14 @@ mInvNext
 /
 make
 sure
-bool
+PRPackedBool
 are
 final
 elements
-bool
+PRPackedBool
 mTruthValue
 ;
-bool
+PRPackedBool
 mMarked
 ;
 }
@@ -1373,7 +1373,7 @@ aligned
 PRUint16
 mRefCnt
 ;
-bool
+PRPackedBool
 mHashEntry
 ;
 private
@@ -1517,7 +1517,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 :
@@ -2066,7 +2066,7 @@ property
 nsIRDFNode
 *
 target
-bool
+PRBool
 tv
 )
 ;
@@ -2407,15 +2407,15 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 =
-true
+PR_TRUE
 )
 ;
 #
 endif
-bool
+PRBool
 mPropagateChanges
 ;
 }
@@ -2537,7 +2537,7 @@ mValue
 PRInt32
 mCount
 ;
-bool
+PRBool
 mTruthValue
 ;
 Assertion
@@ -2614,7 +2614,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 ;
@@ -2643,7 +2643,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 {
@@ -2883,7 +2883,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 :
@@ -3148,7 +3148,7 @@ InMemoryAssertionEnumeratorImpl
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -3172,10 +3172,10 @@ while
 mNextAssertion
 )
 {
-bool
+PRBool
 foundIt
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3382,7 +3382,7 @@ aResult
 nsresult
 rv
 ;
-bool
+PRBool
 hasMore
 ;
 rv
@@ -4174,7 +4174,7 @@ InMemoryArcsEnumeratorImpl
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -4518,10 +4518,10 @@ mProperty
 )
 )
 ;
-bool
+PRBool
 alreadyReturned
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -4614,7 +4614,7 @@ aResult
 nsresult
 rv
 ;
-bool
+PRBool
 hasMore
 ;
 rv
@@ -5614,7 +5614,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 {
@@ -5945,7 +5945,7 @@ property
 nsIRDFNode
 *
 target
-bool
+PRBool
 tv
 nsIRDFResource
 *
@@ -6110,7 +6110,7 @@ source
 nsIRDFResource
 *
 property
-bool
+PRBool
 tv
 nsIRDFNode
 *
@@ -6410,9 +6410,9 @@ property
 nsIRDFNode
 *
 target
-bool
+PRBool
 tv
-bool
+PRBool
 *
 hasAssertion
 )
@@ -6683,7 +6683,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -6801,7 +6801,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-bool
+PRBool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -6922,7 +6922,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 {
@@ -6963,7 +6963,7 @@ as
 =
 nsnull
 ;
-bool
+PRBool
 haveHash
 =
 (
@@ -6975,7 +6975,7 @@ next
 >
 mHashEntry
 :
-false
+PR_FALSE
 ;
 if
 (
@@ -7444,7 +7444,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 {
@@ -7710,7 +7710,7 @@ as
 =
 nsnull
 ;
-bool
+PRBool
 haveHash
 =
 (
@@ -7722,7 +7722,7 @@ next
 >
 mHashEntry
 :
-false
+PR_FALSE
 ;
 if
 (
@@ -7770,10 +7770,10 @@ mAssertions
 :
 nsnull
 ;
-bool
+PRBool
 first
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -8111,10 +8111,10 @@ NS_OK
 #
 ifdef
 DEBUG
-bool
+PRBool
 foundReverseArc
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -9198,7 +9198,7 @@ aNode
 nsIRDFResource
 *
 aArc
-bool
+PRBool
 *
 result
 )
@@ -9280,7 +9280,7 @@ aSource
 nsIRDFResource
 *
 aArc
-bool
+PRBool
 *
 result
 )
@@ -9754,7 +9754,7 @@ nsIRDFResource
 /
 *
 aArguments
-bool
+PRBool
 *
 aResult
 )
@@ -10009,7 +10009,7 @@ GetForwardArcs
 aSource
 )
 ;
-bool
+PRBool
 haveHash
 =
 (
@@ -10021,7 +10021,7 @@ as
 >
 mHashEntry
 :
-false
+PR_FALSE
 ;
 /
 /
@@ -10379,7 +10379,7 @@ InMemoryDataSource
 :
 GetPropagateChanges
 (
-bool
+PRBool
 *
 aPropagateChanges
 )
@@ -10399,7 +10399,7 @@ InMemoryDataSource
 :
 SetPropagateChanges
 (
-bool
+PRBool
 aPropagateChanges
 )
 {
@@ -10502,9 +10502,9 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
-bool
+PRBool
 *
 aDidMark
 )

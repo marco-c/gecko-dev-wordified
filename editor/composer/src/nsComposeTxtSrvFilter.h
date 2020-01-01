@@ -529,7 +529,7 @@ Intializer
 void
 Init
 (
-bool
+PRBool
 aIsForMail
 )
 {
@@ -540,7 +540,7 @@ aIsForMail
 }
 protected
 :
-bool
+PRBool
 mIsForMail
 ;
 nsCOMPtr

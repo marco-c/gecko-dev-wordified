@@ -565,7 +565,7 @@ map
 .
 *
 /
-bool
+PRBool
 Contains
 (
 unsigned
@@ -752,14 +752,14 @@ ret
 =
 url
 .
-bool
+PRBool
 SpecialEncode
 (
 const
 nsACString
 &
 url
-bool
+PRBool
 foldSlashes
 nsACString
 &
@@ -787,7 +787,7 @@ nsACString
 num
 PRUint32
 bytes
-bool
+PRBool
 allowOctal
 nsACString
 &
@@ -887,7 +887,7 @@ encode
 a
 character
 .
-bool
+PRBool
 ShouldURLEscape
 (
 const

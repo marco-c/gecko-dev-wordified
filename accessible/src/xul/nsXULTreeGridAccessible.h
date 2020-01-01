@@ -873,7 +873,7 @@ IsDefunct
 const
 ;
 virtual
-bool
+PRBool
 Init
 (
 )
@@ -910,14 +910,6 @@ IndexInParent
 (
 )
 const
-;
-virtual
-Relation
-RelationByType
-(
-PRUint32
-aType
-)
 ;
 virtual
 PRUint32
@@ -1043,7 +1035,7 @@ modified
 .
 *
 /
-bool
+PRBool
 IsEditable
 (
 )

@@ -746,7 +746,7 @@ aTarget
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsDispatchStopped
 (
@@ -764,7 +764,7 @@ GetInternalNSEvent
 NS_IMETHOD
 SetTrusted
 (
-bool
+PRBool
 aTrusted
 )
 ;
@@ -778,12 +778,12 @@ IPC
 Message
 *
 aMsg
-bool
+PRBool
 aSerializeInterfaceType
 )
 ;
 virtual
-bool
+PRBool
 Deserialize
 (
 const
@@ -877,10 +877,10 @@ mExplicitOriginalTarget
 nsString
 mCachedType
 ;
-bool
+PRPackedBool
 mEventIsInternal
 ;
-bool
+PRPackedBool
 mPrivateDataDuplicated
 ;
 }

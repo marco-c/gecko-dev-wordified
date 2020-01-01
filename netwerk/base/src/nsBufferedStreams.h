@@ -711,7 +711,7 @@ cast
 to
 appropriate
 subclass
-bool
+PRPackedBool
 mBufferDisabled
 ;
 PRUint8

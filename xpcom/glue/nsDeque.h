@@ -1481,7 +1481,7 @@ nsDeque
 anOther
 )
 ;
-bool
+PRBool
 GrowCapacity
 (
 )
@@ -1886,7 +1886,7 @@ equal
 .
 *
 /
-bool
+PRBool
 operator
 !
 =
@@ -1955,7 +1955,7 @@ deque
 .
 *
 /
-bool
+PRBool
 operator
 <
 (
@@ -1993,7 +1993,7 @@ if
 EQUAL
 *
 /
-bool
+PRBool
 operator
 =
 =
@@ -2068,7 +2068,7 @@ deque
 .
 *
 /
-bool
+PRBool
 operator
 >
 =

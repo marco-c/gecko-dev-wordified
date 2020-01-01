@@ -561,7 +561,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 const
@@ -571,7 +571,7 @@ aKey
 )
 const
 {
-bool
+PRBool
 eq
 ;
 if

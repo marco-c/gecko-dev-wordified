@@ -1381,7 +1381,7 @@ TabChild
 :
 IsWindowModal
 (
-bool
+PRBool
 *
 aRetVal
 )
@@ -1603,7 +1603,7 @@ TabChild
 :
 GetVisibility
 (
-bool
+PRBool
 *
 aVisibility
 )
@@ -1623,7 +1623,7 @@ TabChild
 :
 SetVisibility
 (
-bool
+PRBool
 aVisibility
 )
 {
@@ -1845,11 +1845,11 @@ nsIDOMWindow
 aParent
 PRUint32
 aChromeFlags
-bool
+PRBool
 aCalledFromJS
-bool
+PRBool
 aPositionSpecified
-bool
+PRBool
 aSizeSpecified
 nsIURI
 *
@@ -1862,7 +1862,7 @@ const
 nsACString
 &
 aFeatures
-bool
+PRBool
 *
 aWindowIsNew
 nsIDOMWindow
@@ -3387,10 +3387,10 @@ utils
 true
 )
 ;
-bool
+PRBool
 ignored
 =
-false
+PR_FALSE
 ;
 utils
 -
@@ -4257,7 +4257,7 @@ SetTrusted
 PR_TRUE
 )
 ;
-bool
+PRBool
 dummy
 ;
 mTabChildGlobal

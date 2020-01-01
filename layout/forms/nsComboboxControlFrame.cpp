@@ -2712,9 +2712,9 @@ nsComboboxControlFrame
 :
 SetFocus
 (
-bool
+PRBool
 aOn
-bool
+PRBool
 aRepaint
 )
 {
@@ -2943,7 +2943,7 @@ nsComboboxControlFrame
 :
 ShowPopup
 (
-bool
+PRBool
 aShowPopup
 )
 {
@@ -3103,13 +3103,13 @@ status
 )
 ;
 }
-bool
+PRBool
 nsComboboxControlFrame
 :
 :
 ShowList
 (
-bool
+PRBool
 aShowList
 )
 {
@@ -3876,10 +3876,10 @@ frame
 =
 this
 ;
-bool
+PRBool
 is3DTransform
 =
-false
+PR_FALSE
 ;
 gfxMatrix
 transform
@@ -6156,7 +6156,7 @@ nsComboboxControlFrame
 :
 ShowDropDown
 (
-bool
+PRBool
 aDoDropDown
 )
 {
@@ -6817,7 +6817,7 @@ nsComboboxControlFrame
 :
 ActuallyDisplayText
 (
-bool
+PRBool
 aNotify
 )
 {
@@ -7047,7 +7047,7 @@ nsComboboxControlFrame
 :
 DoneAddingChildren
 (
-bool
+PRBool
 aIsDone
 )
 {
@@ -8249,7 +8249,7 @@ GetType
 const
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32
@@ -10426,7 +10426,7 @@ OnOptionSelected
 (
 PRInt32
 aIndex
-bool
+PRBool
 aSelected
 )
 {
@@ -10839,7 +10839,7 @@ widget
 static
 *
 /
-bool
+PRBool
 nsComboboxControlFrame
 :
 :

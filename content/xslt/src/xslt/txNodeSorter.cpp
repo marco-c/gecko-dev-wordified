@@ -1806,7 +1806,7 @@ indexB
 /
 /
 static
-bool
+PRBool
 txNodeSorter
 :
 :

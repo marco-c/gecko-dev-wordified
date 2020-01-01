@@ -640,7 +640,7 @@ windows
 1255
 "
 )
-bool
+PRBool
 nsHebrewProber
 :
 :
@@ -693,7 +693,7 @@ FINAL_TSADI
 )
 ;
 }
-bool
+PRBool
 nsHebrewProber
 :
 :

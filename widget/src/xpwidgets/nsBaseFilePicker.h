@@ -572,7 +572,7 @@ endif
 NS_IMETHOD
 GetAddToRecentDocs
 (
-bool
+PRBool
 *
 aFlag
 )
@@ -580,7 +580,7 @@ aFlag
 NS_IMETHOD
 SetAddToRecentDocs
 (
-bool
+PRBool
 aFlag
 )
 ;
@@ -603,7 +603,7 @@ aMode
 =
 0
 ;
-bool
+PRBool
 mAddToRecentDocs
 ;
 #

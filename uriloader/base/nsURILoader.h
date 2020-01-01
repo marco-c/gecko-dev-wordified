@@ -575,7 +575,7 @@ aFlags
 nsIInterfaceRequestor
 *
 aWindowContext
-bool
+PRBool
 aChannelOpen
 nsIStreamListener
 *

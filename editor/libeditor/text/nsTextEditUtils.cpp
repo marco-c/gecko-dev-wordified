@@ -567,7 +567,7 @@ only
 configured
 build
 .
-bool
+PRBool
 nsTextEditUtils
 :
 :
@@ -689,7 +689,7 @@ previous
 comment
 regarding
 NodeisType
-bool
+PRBool
 nsTextEditUtils
 :
 :
@@ -808,7 +808,7 @@ type
 _moz
 /
 /
-bool
+PRBool
 nsTextEditUtils
 :
 :
@@ -966,7 +966,7 @@ rules
 )
 /
 /
-bool
+PRBool
 nsTextEditUtils
 :
 :

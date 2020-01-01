@@ -501,7 +501,14 @@ aStatus
 )
 ;
 virtual
-bool
+PRBool
+IsContainingBlock
+(
+)
+const
+;
+virtual
+PRBool
 IsFrameOfType
 (
 PRUint32
@@ -582,7 +589,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;

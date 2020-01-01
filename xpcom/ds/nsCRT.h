@@ -1964,7 +1964,7 @@ char
 start
 PRUint32
 length
-bool
+PRBool
 *
 err
 )
@@ -2015,7 +2015,7 @@ aChar
 ;
 }
 static
-bool
+PRBool
 IsUpper
 (
 char
@@ -2030,7 +2030,7 @@ aChar
 ;
 }
 static
-bool
+PRBool
 IsLower
 (
 char
@@ -2045,7 +2045,7 @@ aChar
 ;
 }
 static
-bool
+PRBool
 IsAscii
 (
 PRUnichar
@@ -2060,7 +2060,7 @@ aChar
 ;
 }
 static
-bool
+PRBool
 IsAscii
 (
 const
@@ -2077,7 +2077,7 @@ aString
 ;
 }
 static
-bool
+PRBool
 IsAsciiAlpha
 (
 PRUnichar
@@ -2092,7 +2092,7 @@ aChar
 ;
 }
 static
-bool
+PRBool
 IsAsciiDigit
 (
 PRUnichar
@@ -2107,7 +2107,7 @@ aChar
 ;
 }
 static
-bool
+PRBool
 IsAsciiSpace
 (
 PRUnichar
@@ -2122,7 +2122,7 @@ aChar
 ;
 }
 static
-bool
+PRBool
 IsAscii
 (
 const
@@ -2139,7 +2139,7 @@ aString
 ;
 }
 static
-bool
+PRBool
 IsAscii
 (
 const

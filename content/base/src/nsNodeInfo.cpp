@@ -1435,7 +1435,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsNodeInfo
 :
 :

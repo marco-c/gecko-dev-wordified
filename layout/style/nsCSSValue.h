@@ -2048,7 +2048,7 @@ nsCSSValue
 aCopy
 )
 ;
-bool
+PRBool
 operator
 =
 =
@@ -2060,7 +2060,7 @@ aOther
 )
 const
 ;
-bool
+PRBool
 operator
 !
 =
@@ -2131,7 +2131,7 @@ return
 mUnit
 ;
 }
-bool
+PRBool
 IsLengthUnit
 (
 )
@@ -2187,7 +2187,7 @@ device
 .
 *
 /
-bool
+PRBool
 IsFixedLengthUnit
 (
 )
@@ -2282,7 +2282,7 @@ scaled
 .
 *
 /
-bool
+PRBool
 IsRelativeLengthUnit
 (
 )
@@ -2321,7 +2321,7 @@ pixels
 .
 *
 /
-bool
+PRBool
 IsPixelLengthUnit
 (
 )
@@ -2340,7 +2340,7 @@ mUnit
 eCSSUnit_Pixel
 ;
 }
-bool
+PRBool
 IsAngularUnit
 (
 )
@@ -2359,7 +2359,7 @@ mUnit
 eCSSUnit_Radian
 ;
 }
-bool
+PRBool
 IsFrequencyUnit
 (
 )
@@ -2378,7 +2378,7 @@ mUnit
 eCSSUnit_Kilohertz
 ;
 }
-bool
+PRBool
 IsTimeUnit
 (
 )
@@ -2397,7 +2397,7 @@ mUnit
 eCSSUnit_Milliseconds
 ;
 }
-bool
+PRBool
 IsCalcUnit
 (
 )
@@ -2416,7 +2416,7 @@ mUnit
 eCSSUnit_Calc_Divided
 ;
 }
-bool
+PRBool
 UnitHasStringValue
 (
 )
@@ -2435,7 +2435,7 @@ mUnit
 eCSSUnit_Element
 ;
 }
-bool
+PRBool
 UnitHasArrayValue
 (
 )
@@ -2705,7 +2705,7 @@ mValue
 mColor
 ;
 }
-bool
+PRBool
 IsNonTransparentColor
 (
 )
@@ -3383,7 +3383,7 @@ specified
 function
 id
 .
-bool
+PRBool
 EqualsFunction
 (
 nsCSSKeyword
@@ -3543,7 +3543,7 @@ URL
 (
 )
 ;
-bool
+PRBool
 operator
 =
 =
@@ -3613,7 +3613,7 @@ is
 the
 case
 .
-bool
+PRBool
 URIEquals
 (
 const
@@ -3727,7 +3727,7 @@ URL
 private
 :
 mutable
-bool
+PRBool
 mURIResolved
 ;
 /
@@ -4196,7 +4196,7 @@ return
 mCount
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -5094,7 +5094,7 @@ aResult
 )
 const
 ;
-bool
+PRBool
 operator
 =
 =
@@ -5139,7 +5139,7 @@ aOther
 mLeft
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5223,7 +5223,7 @@ Reset
 )
 ;
 }
-bool
+PRBool
 HasValue
 (
 )
@@ -5530,7 +5530,7 @@ nsCSSValuePair
 )
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -5559,7 +5559,7 @@ aOther
 mYValue
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5624,7 +5624,7 @@ Reset
 )
 ;
 }
-bool
+PRBool
 HasValue
 (
 )
@@ -5857,7 +5857,7 @@ nsCSSValueTriplet
 )
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -5894,7 +5894,7 @@ aOther
 mZValue
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -5977,7 +5977,7 @@ Reset
 )
 ;
 }
-bool
+PRBool
 HasValue
 (
 )
@@ -6608,7 +6608,7 @@ mLocation
 nsCSSValue
 mColor
 ;
-bool
+PRBool
 operator
 =
 =
@@ -6639,7 +6639,7 @@ mColor
 )
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -6669,9 +6669,9 @@ nsCSSValueGradient
 {
 nsCSSValueGradient
 (
-bool
+PRBool
 aIsRadial
-bool
+PRBool
 aIsRepeating
 )
 ;
@@ -6687,10 +6687,10 @@ if
 it
 is
 linear
-bool
+PRPackedBool
 mIsRadial
 ;
-bool
+PRPackedBool
 mIsRepeating
 ;
 /
@@ -6725,7 +6725,7 @@ nsCSSValueGradientStop
 >
 mStops
 ;
-bool
+PRBool
 operator
 =
 =
@@ -6852,7 +6852,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -6983,7 +6983,7 @@ aCorner
 ]
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -7026,7 +7026,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -7069,7 +7069,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 HasValue
 (
 )

@@ -490,6 +490,14 @@ NSPR
 types
     
 '
+PRBool
+'
+    
+'
+PRPackedBool
+'
+    
+'
 PRInt8
 '
     

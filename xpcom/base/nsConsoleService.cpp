@@ -799,7 +799,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 snapshot_enum_func
 (
 nsHashKey

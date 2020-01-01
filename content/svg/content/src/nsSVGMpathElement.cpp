@@ -1054,7 +1054,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 {
@@ -1158,9 +1158,9 @@ nsSVGMpathElement
 :
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
-bool
+PRBool
 aNullParent
 )
 {
@@ -1179,7 +1179,7 @@ aNullParent
 )
 ;
 }
-bool
+PRBool
 nsSVGMpathElement
 :
 :
@@ -1199,7 +1199,7 @@ nsAttrValue
 aResult
 )
 {
-bool
+PRBool
 returnVal
 =
 nsSVGMpathElementBase
@@ -1288,7 +1288,7 @@ aNamespaceID
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 aNotify
 )
 {
@@ -2051,7 +2051,7 @@ nsSVGMpathElement
 :
 UnlinkHrefTarget
 (
-bool
+PRBool
 aNotifyParent
 )
 {

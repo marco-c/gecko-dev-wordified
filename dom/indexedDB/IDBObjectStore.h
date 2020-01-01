@@ -938,7 +938,7 @@ mName
 nsString
 mKeyPath
 ;
-bool
+PRBool
 mAutoIncrement
 ;
 PRUint32

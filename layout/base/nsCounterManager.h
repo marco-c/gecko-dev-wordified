@@ -1002,7 +1002,7 @@ for
 counters
 (
 )
-bool
+PRBool
 mAllCounters
 ;
 /
@@ -1027,7 +1027,7 @@ Array
 aCounterStyle
 PRUint32
 aContentIndex
-bool
+PRBool
 aAllCounters
 )
 :
@@ -1060,7 +1060,7 @@ range
 ;
 }
 virtual
-bool
+PRBool
 InitTextFrame
 (
 nsGenConList
@@ -1726,7 +1726,7 @@ RecalcAll
 (
 )
 ;
-bool
+PRBool
 IsDirty
 (
 )
@@ -1747,7 +1747,7 @@ PR_TRUE
 }
 private
 :
-bool
+PRBool
 mDirty
 ;
 }
@@ -1796,7 +1796,7 @@ Returns
 true
 if
 dirty
-bool
+PRBool
 AddCounterResetsAndIncrements
 (
 nsIFrame
@@ -1874,7 +1874,7 @@ nodes
 were
 destroyed
 .
-bool
+PRBool
 DestroyNodesFor
 (
 nsIFrame
@@ -1919,7 +1919,7 @@ for
 AddCounterResetsAndIncrements
 |
 only
-bool
+PRBool
 AddResetOrIncrement
 (
 nsIFrame

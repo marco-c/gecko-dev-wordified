@@ -1094,7 +1094,7 @@ array
 /
 nsPluginsDir
 class
-bool
+PRBool
 nsPluginsDir
 :
 :
@@ -1122,7 +1122,7 @@ leaf
 )
 )
 return
-false
+PR_FALSE
 ;
 const
 char
@@ -1204,12 +1204,12 @@ np
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 /

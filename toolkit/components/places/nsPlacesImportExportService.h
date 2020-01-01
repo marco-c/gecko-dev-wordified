@@ -187,7 +187,7 @@ nsIChannel
 >
 mImportChannel
 ;
-bool
+PRBool
 mIsImportDefaults
 ;
 nsresult
@@ -196,11 +196,11 @@ ImportHTMLFromFileInternal
 nsILocalFile
 *
 aFile
-bool
+PRBool
 aAllowRootChanges
 PRInt64
 aFolder
-bool
+PRBool
 aIsImportDefaults
 )
 ;
@@ -210,11 +210,11 @@ ImportHTMLFromURIInternal
 nsIURI
 *
 aURI
-bool
+PRBool
 aAllowRootChanges
 PRInt64
 aFolder
-bool
+PRBool
 aIsImportDefaults
 )
 ;

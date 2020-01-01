@@ -1444,7 +1444,7 @@ mode
 *
 /
 static
-bool
+PRBool
 CheckForFullscreenWindow
 (
 )
@@ -1501,10 +1501,10 @@ for
 ;
 )
 {
-bool
+PRBool
 more
 =
-false
+PR_FALSE
 ;
 windowList
 -
@@ -1645,7 +1645,7 @@ PRInt32
 aInitialWidth
 PRInt32
 aInitialHeight
-bool
+PRBool
 aIsHiddenWindow
 nsIAppShell
 *
@@ -2298,7 +2298,7 @@ PR_TRUE
 )
 ;
 }
-bool
+PRBool
 center
 =
 aChromeMask
@@ -2341,10 +2341,10 @@ global
 "
 )
 ;
-bool
+PRBool
 isRTL
 =
-false
+PR_FALSE
 ;
 reg
 -
@@ -2853,7 +2853,7 @@ nsAppShellService
 :
 GetApplicationProvidedHiddenWindow
 (
-bool
+PRBool
 *
 aAPHW
 )

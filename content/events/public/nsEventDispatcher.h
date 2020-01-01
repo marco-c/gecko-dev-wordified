@@ -948,7 +948,7 @@ nsIDOMEvent
 aDOMEvent
 nsEventStatus
 aEventStatus
-bool
+PRBool
 aIsInAnon
 )
 :
@@ -1092,7 +1092,7 @@ chain
 .
 *
 /
-bool
+PRPackedBool
 mCanHandle
 ;
 /
@@ -1130,7 +1130,7 @@ Bug
 329119
 *
 /
-bool
+PRPackedBool
 mForceContentDispatch
 ;
 /
@@ -1162,7 +1162,7 @@ events
 .
 *
 /
-bool
+PRPackedBool
 mRelatedTargetIsInAnon
 ;
 /
@@ -1195,7 +1195,7 @@ targets
 .
 *
 /
-bool
+PRPackedBool
 mOriginalTargetIsInAnon
 ;
 /
@@ -1220,7 +1220,7 @@ PR_FALSE
 ;
 *
 /
-bool
+PRPackedBool
 mWantsWillHandleEvent
 ;
 /
@@ -1254,7 +1254,7 @@ PR_FALSE
 .
 *
 /
-bool
+PRPackedBool
 mMayHaveListenerManager
 ;
 /

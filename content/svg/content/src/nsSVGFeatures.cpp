@@ -608,7 +608,7 @@ mozilla
 static
 *
 /
-bool
+PRBool
 nsSVGFeatures
 :
 :
@@ -719,7 +719,7 @@ javascript
 .
 enabled
 "
-false
+PR_FALSE
 )
 ;
 }
@@ -769,7 +769,7 @@ PR_FALSE
 static
 *
 /
-bool
+PRBool
 nsSVGFeatures
 :
 :
@@ -827,7 +827,7 @@ PR_TRUE
 static
 *
 /
-bool
+PRBool
 nsSVGFeatures
 :
 :
@@ -907,7 +907,7 @@ PR_FALSE
 static
 *
 /
-bool
+PRBool
 nsSVGFeatures
 :
 :
@@ -961,7 +961,7 @@ PR_TRUE
 static
 *
 /
-bool
+PRBool
 nsSVGFeatures
 :
 :
@@ -1148,7 +1148,7 @@ nextToken
 (
 )
 ;
-bool
+PRBool
 exactMatch
 =
 (
@@ -1158,7 +1158,7 @@ languageToken
 attributeToken
 )
 ;
-bool
+PRBool
 prefixOnlyMatch
 =
 !
@@ -1251,7 +1251,7 @@ lowestRank
 static
 *
 /
-bool
+PRBool
 nsSVGFeatures
 :
 :
@@ -1326,7 +1326,7 @@ nsString
 static
 *
 /
-bool
+PRBool
 nsSVGFeatures
 :
 :

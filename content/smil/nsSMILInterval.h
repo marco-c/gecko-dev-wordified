@@ -610,10 +610,10 @@ nsSMILInterval
 void
 Unlink
 (
-bool
+PRBool
 aFiltered
 =
-false
+PR_FALSE
 )
 ;
 const
@@ -786,7 +786,7 @@ interval
 can
 be
 filtered
-bool
+PRBool
 IsDependencyChainLink
 (
 )
@@ -939,10 +939,10 @@ will
 not
 change
 .
-bool
+PRPackedBool
 mBeginFixed
 ;
-bool
+PRPackedBool
 mEndFixed
 ;
 }

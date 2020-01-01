@@ -515,7 +515,7 @@ aActionType
 NS_IMETHOD
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 ;
@@ -539,7 +539,7 @@ const
 char
 *
 aDataFlavor
-bool
+PRBool
 *
 _retval
 )

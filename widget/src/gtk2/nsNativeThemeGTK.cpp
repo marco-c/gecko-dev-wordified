@@ -725,7 +725,7 @@ xpcom
 -
 shutdown
 "
-false
+PR_FALSE
 )
 ;
 memset
@@ -872,7 +872,7 @@ NS_VMREFRESH_NO_SYNC
 ;
 }
 static
-bool
+PRBool
 IsFrameContentNodeInNamespace
 (
 nsIFrame
@@ -916,7 +916,7 @@ aNamespace
 ;
 }
 static
-bool
+PRBool
 IsWidgetTypeDisabled
 (
 PRUint8
@@ -1043,7 +1043,7 @@ aWidgetType
 ;
 }
 static
-bool
+PRBool
 IsWidgetStateSafe
 (
 PRUint8
@@ -1258,7 +1258,7 @@ margin
 )
 ;
 }
-bool
+PRBool
 nsNativeThemeGTK
 :
 :
@@ -1550,7 +1550,7 @@ if
 inputElt
 )
 {
-bool
+PRBool
 isHTMLChecked
 ;
 inputElt
@@ -2093,7 +2093,7 @@ aState
 >
 disabled
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -2163,7 +2163,7 @@ aState
 >
 active
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -2283,10 +2283,10 @@ aWidgetType
 NS_THEME_MENUARROW
 )
 {
-bool
+PRBool
 isTopLevel
 =
-false
+PR_FALSE
 ;
 nsMenuFrame
 *
@@ -2486,7 +2486,7 @@ aWidgetType
 NS_THEME_DROPDOWN_BUTTON
 )
 {
-bool
+PRBool
 menuOpen
 =
 IsOpenButton
@@ -2911,13 +2911,13 @@ eTreeSortDirection_Natural
 *
 aWidgetFlags
 =
-false
+PR_FALSE
 ;
 else
 *
 aWidgetFlags
 =
-true
+PR_TRUE
 ;
 }
 aGtkWidgetType
@@ -3014,7 +3014,7 @@ GTK_ARROW_NONE
 #
 else
 return
-false
+PR_FALSE
 ;
 /
 /
@@ -3109,7 +3109,7 @@ case
 NS_THEME_DROPDOWN_TEXT
 :
 return
-false
+PR_FALSE
 ;
 /
 /
@@ -3598,11 +3598,11 @@ break
 default
 :
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 class
@@ -3839,7 +3839,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsNativeThemeGTK
 :
 :
@@ -3929,7 +3929,7 @@ bottom
 1
 ;
 return
-true
+PR_TRUE
 ;
 case
 NS_THEME_SCROLLBAR_THUMB_HORIZONTAL
@@ -3947,7 +3947,7 @@ right
 1
 ;
 return
-true
+PR_TRUE
 ;
 /
 /
@@ -4031,7 +4031,7 @@ left
 indicator_spacing
 ;
 return
-true
+PR_TRUE
 ;
 }
 case
@@ -4110,7 +4110,7 @@ left
 left
 ;
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -4127,7 +4127,7 @@ aFrame
 )
 )
 return
-false
+PR_FALSE
 ;
 gint
 gap_height
@@ -4154,7 +4154,7 @@ extra
 0
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -4186,7 +4186,7 @@ extra
 default
 :
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -4343,7 +4343,7 @@ in
 any
 case
 .
-bool
+PRBool
 snapXY
 =
 ctx
@@ -4822,7 +4822,7 @@ widget
 "
 )
 ;
-bool
+PRBool
 safeState
 =
 IsWidgetStateSafe
@@ -5511,7 +5511,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsNativeThemeGTK
 :
 :
@@ -5617,7 +5617,7 @@ SizeTo
 )
 ;
 return
-true
+PR_TRUE
 ;
 case
 NS_THEME_MENUITEM
@@ -5650,7 +5650,7 @@ aFrame
 )
 )
 return
-false
+PR_FALSE
 ;
 aResult
 -
@@ -5753,15 +5753,15 @@ right
 horizontal_padding
 ;
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
-bool
+PRBool
 nsNativeThemeGTK
 :
 :
@@ -5801,7 +5801,7 @@ extraSize
 )
 )
 return
-false
+PR_FALSE
 ;
 p2a
 =
@@ -5855,7 +5855,7 @@ m
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 NS_IMETHODIMP
@@ -5875,7 +5875,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-bool
+PRBool
 *
 aIsOverridable
 )
@@ -5895,7 +5895,7 @@ height
 *
 aIsOverridable
 =
-true
+PR_TRUE
 ;
 switch
 (
@@ -5939,7 +5939,7 @@ stepper_size
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -5981,7 +5981,7 @@ slider_width
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6050,7 +6050,7 @@ metrics
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6168,7 +6168,7 @@ slider_width
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6255,7 +6255,7 @@ it
 Setting
 aIsOverridable
 to
-true
+PR_TRUE
 has
 no
 effect
@@ -6370,7 +6370,7 @@ min_slider_size
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6447,7 +6447,7 @@ thumb_height
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6476,7 +6476,7 @@ height
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6502,7 +6502,7 @@ height
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6530,7 +6530,7 @@ separator_height
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6604,7 +6604,7 @@ indicator_size
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6642,7 +6642,7 @@ height
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6843,7 +6843,7 @@ height
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -6878,7 +6878,7 @@ expander_size
 *
 aIsOverridable
 =
-false
+PR_FALSE
 ;
 }
 break
@@ -6902,7 +6902,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 *
 aShouldRepaint
 )
@@ -7012,7 +7012,7 @@ NS_THEME_DIALOG
 *
 aShouldRepaint
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -7069,7 +7069,7 @@ maxpos
 *
 aShouldRepaint
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -7142,7 +7142,7 @@ repaint
 *
 aShouldRepaint
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -7171,7 +7171,7 @@ etc
 *
 aShouldRepaint
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -7258,7 +7258,7 @@ parentfocused
 *
 aShouldRepaint
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -7296,7 +7296,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsNativeThemeGTK
 :
@@ -7322,7 +7322,7 @@ aWidgetType
 )
 )
 return
-false
+PR_FALSE
 ;
 switch
 (
@@ -7678,12 +7678,12 @@ aWidgetType
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsNativeThemeGTK
 :
@@ -7762,13 +7762,13 @@ aWidgetType
 NS_THEME_BUTTON_ARROW_PREVIOUS
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
-bool
+PRBool
 nsNativeThemeGTK
 :
 :
@@ -7804,13 +7804,13 @@ aWidgetType
 NS_THEME_TREEVIEW_HEADER_CELL
 )
 return
-true
+PR_TRUE
 ;
 return
-false
+PR_FALSE
 ;
 }
-bool
+PRBool
 nsNativeThemeGTK
 :
 :
@@ -7819,7 +7819,7 @@ ThemeNeedsComboboxDropmarker
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 nsITheme

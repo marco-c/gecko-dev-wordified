@@ -1059,7 +1059,7 @@ wlan_handle
 NULL
 )
 ;
-bool
+PRBool
 accessPointsChanged
 =
 !

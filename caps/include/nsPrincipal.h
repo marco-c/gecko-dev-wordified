@@ -629,9 +629,9 @@ aDeniedList
 nsISupports
 *
 aCert
-bool
+PRBool
 aIsCert
-bool
+PRBool
 aTrusted
 )
 ;
@@ -889,7 +889,7 @@ aOther
 '
 s
 .
-bool
+PRBool
 CertificateEquals
 (
 nsIPrincipal
@@ -966,10 +966,10 @@ nsIURI
 >
 mDomain
 ;
-bool
+PRPackedBool
 mTrusted
 ;
-bool
+PRPackedBool
 mInitialized
 ;
 /
@@ -985,10 +985,10 @@ non
 null
 and
 immutable
-bool
+PRPackedBool
 mCodebaseImmutable
 ;
-bool
+PRPackedBool
 mDomainImmutable
 ;
 }

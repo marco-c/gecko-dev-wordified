@@ -2638,7 +2638,7 @@ accTable
 FALSE
 )
 ;
-bool
+PRBool
 outValue
 ;
 nsresult
@@ -2728,7 +2728,7 @@ accTable
 FALSE
 )
 ;
-bool
+PRBool
 outValue
 ;
 nsresult
@@ -2820,7 +2820,7 @@ accTable
 FALSE
 )
 ;
-bool
+PRBool
 outValue
 ;
 nsresult

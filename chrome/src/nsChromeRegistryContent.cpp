@@ -1420,7 +1420,7 @@ const
 nsACString
 &
 package
-bool
+PRBool
 *
 aResult
 )

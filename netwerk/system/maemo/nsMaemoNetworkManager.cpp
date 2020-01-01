@@ -589,10 +589,10 @@ gConnection
 nsnull
 ;
 static
-bool
+PRBool
 gConnectionCallbackInvoked
 =
-false
+PR_FALSE
 ;
 using
 namespace
@@ -724,7 +724,7 @@ NotifyNetworkLinkObservers
 )
 ;
 }
-bool
+PRBool
 nsMaemoNetworkManager
 :
 :
@@ -862,7 +862,7 @@ gConnection
 )
 ;
 }
-bool
+PRBool
 nsMaemoNetworkManager
 :
 :
@@ -877,7 +877,7 @@ gInternalState
 InternalState_Connected
 ;
 }
-bool
+PRBool
 nsMaemoNetworkManager
 :
 :
@@ -892,7 +892,7 @@ gInternalState
 InternalState_Invalid
 ;
 }
-bool
+PRBool
 nsMaemoNetworkManager
 :
 :

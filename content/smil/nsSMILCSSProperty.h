@@ -614,7 +614,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )
@@ -694,7 +694,7 @@ otherwise
 *
 /
 static
-bool
+PRBool
 IsPropertyAnimatable
 (
 nsCSSProperty

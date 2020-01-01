@@ -478,7 +478,7 @@ socket
 transport
 thread
 static
-bool
+PRBool
 OpenConnectionSync
 (
 )
@@ -490,13 +490,13 @@ CloseConnection
 )
 ;
 static
-bool
+PRBool
 IsConnected
 (
 )
 ;
 static
-bool
+PRBool
 GetLinkStatusKnown
 (
 )
@@ -513,7 +513,7 @@ thread
 only
 )
 static
-bool
+PRBool
 Startup
 (
 )

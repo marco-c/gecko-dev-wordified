@@ -708,7 +708,7 @@ ClearCachedKeys
 (
 )
 ;
-bool
+PRBool
 mInitialized
 ;
 nsCOMPtr

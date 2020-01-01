@@ -572,7 +572,7 @@ if
 aCaseSensitive
 is
 true
-bool
+PRBool
 ChangeCSSInlineStyleTxn
 :
 :
@@ -586,7 +586,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aCaseSensitive
 )
 {
@@ -596,10 +596,10 @@ valueList
 aValueList
 )
 ;
-bool
+PRBool
 result
 =
-false
+PR_FALSE
 ;
 valueList
 .
@@ -1074,7 +1074,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aRemoveProperty
 )
 {
@@ -1329,7 +1329,7 @@ because
 of
 bug
 62682
-bool
+PRBool
 multiple
 =
 AcceptsMoreThanOneValue
@@ -1698,7 +1698,7 @@ ChangeCSSInlineStyleTxn
 :
 SetStyle
 (
-bool
+PRBool
 aAttributeWasSet
 nsAString
 &
@@ -2037,7 +2037,7 @@ more
 than
 one
 value
-bool
+PRBool
 ChangeCSSInlineStyleTxn
 :
 :

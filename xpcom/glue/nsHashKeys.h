@@ -683,7 +683,7 @@ return
 mStr
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 const
@@ -834,7 +834,7 @@ return
 mStr
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -981,7 +981,7 @@ return
 mValue
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1123,7 +1123,7 @@ return
 mValue
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1276,7 +1276,7 @@ return
 mSupports
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1439,7 +1439,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1723,7 +1723,7 @@ return
 mID
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -1919,7 +1919,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 const
@@ -2123,7 +2123,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -2319,7 +2319,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -2468,7 +2468,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 const
@@ -2478,7 +2478,7 @@ aKey
 )
 const
 {
-bool
+PRBool
 eq
 ;
 if

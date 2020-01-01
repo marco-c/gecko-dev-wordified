@@ -974,7 +974,7 @@ popupState
 .
 target
 ;
-Util
+BookmarkHelper
 .
 createShortcut
 (
@@ -1002,9 +1002,6 @@ getAttribute
 src
 "
 )
-"
-bookmark
-"
 )
 ;
 }

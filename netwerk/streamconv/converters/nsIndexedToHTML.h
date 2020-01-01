@@ -676,7 +676,7 @@ by
 201
 lines
 .
-bool
+PRBool
 mExpectAbsLoc
 ;
 nsString

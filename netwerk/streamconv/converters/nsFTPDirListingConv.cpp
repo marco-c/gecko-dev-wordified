@@ -1955,10 +1955,10 @@ char
 *
 eol
 ;
-bool
+PRBool
 cr
 =
-false
+PR_FALSE
 ;
 list_state
 state

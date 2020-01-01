@@ -564,7 +564,7 @@ StartSelectionEquals
 nsSelectionState
 *
 aSelState
-bool
+PRBool
 *
 aResult
 )

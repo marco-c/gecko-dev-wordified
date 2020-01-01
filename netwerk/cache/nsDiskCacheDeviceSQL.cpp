@@ -727,7 +727,7 @@ nsIFile
 dir
 )
 {
-bool
+PRBool
 exists
 ;
 nsresult
@@ -772,7 +772,7 @@ rv
 ;
 }
 static
-bool
+PRBool
 DecomposeCacheEntryKey
 (
 const
@@ -3233,7 +3233,7 @@ nsOfflineCacheEntryInfo
 :
 IsStreamBased
 (
-bool
+PRBool
 *
 aStreamBased
 )
@@ -3754,7 +3754,7 @@ nsApplicationCache
 :
 GetActive
 (
-bool
+PRBool
 *
 out
 )
@@ -4578,7 +4578,7 @@ Shutdown
 static
 *
 /
-bool
+PRBool
 nsOfflineCacheDevice
 :
 :
@@ -4597,7 +4597,7 @@ do_GetService
 NS_PREFSERVICE_CONTRACTID
 )
 ;
-bool
+PRBool
 retval
 ;
 if
@@ -4657,7 +4657,7 @@ statement
 mStatement_CacheSize
 )
 ;
-bool
+PRBool
 hasRows
 ;
 nsresult
@@ -4711,7 +4711,7 @@ statement
 mStatement_EntryCount
 )
 ;
-bool
+PRBool
 hasRows
 ;
 nsresult
@@ -5091,7 +5091,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -5242,7 +5242,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -5289,7 +5289,7 @@ DeleteEntry
 nsCacheEntry
 *
 entry
-bool
+PRBool
 deleteData
 )
 {
@@ -5405,7 +5405,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -7273,7 +7273,7 @@ statement
 mStatement_EnumerateGroups
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -7754,10 +7754,10 @@ on
 the
 correct
 thread
-bool
+PRBool
 isOnCurrentThread
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -7852,7 +7852,7 @@ FindEntry
 nsCString
 *
 fullKey
-bool
+PRBool
 *
 collision
 )
@@ -7976,7 +7976,7 @@ rv
 nsnull
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -8212,7 +8212,7 @@ Data
 (
 )
 ;
-bool
+PRBool
 isFile
 ;
 rv
@@ -9106,7 +9106,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -10056,7 +10056,7 @@ nsOfflineCacheDeviceInfo
 this
 )
 ;
-bool
+PRBool
 keepGoing
 ;
 nsresult
@@ -10170,7 +10170,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 for
@@ -10335,7 +10335,7 @@ AsInt64
 9
 )
 ;
-bool
+PRBool
 keepGoing
 ;
 rv
@@ -11160,7 +11160,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -11185,10 +11185,10 @@ out
 =
 nsnull
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 nsCString
 nsSpec
@@ -11500,7 +11500,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -11931,7 +11931,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -12045,7 +12045,7 @@ char
 values
 )
 {
-bool
+PRBool
 hasRows
 ;
 nsresult
@@ -12674,7 +12674,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsOfflineCacheDevice
 :
 :
@@ -12905,7 +12905,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasRows
 ;
 rv
@@ -13411,7 +13411,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsOfflineCacheDevice
 :
 :

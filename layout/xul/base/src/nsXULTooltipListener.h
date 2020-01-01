@@ -604,7 +604,7 @@ tooltips
 pref
 changes
 static
-bool
+PRBool
 sShowTooltips
 ;
 static
@@ -881,7 +881,7 @@ bug
 395668
 )
 .
-bool
+PRBool
 mTooltipShownOnce
 ;
 #
@@ -894,10 +894,10 @@ members
 for
 handling
 trees
-bool
+PRBool
 mIsSourceTree
 ;
-bool
+PRBool
 mNeedTitletip
 ;
 PRInt32

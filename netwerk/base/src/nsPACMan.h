@@ -966,7 +966,7 @@ file
 .
 *
 /
-bool
+PRBool
 IsLoading
 (
 )
@@ -998,7 +998,7 @@ file
 .
 *
 /
-bool
+PRBool
 IsPACURI
 (
 nsIURI
@@ -1006,7 +1006,7 @@ nsIURI
 uri
 )
 {
-bool
+PRBool
 result
 ;
 return
@@ -1198,10 +1198,10 @@ nsIStreamLoader
 >
 mLoader
 ;
-bool
+PRPackedBool
 mLoadPending
 ;
-bool
+PRPackedBool
 mShutdown
 ;
 PRTime

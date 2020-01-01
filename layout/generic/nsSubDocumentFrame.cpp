@@ -1517,7 +1517,7 @@ mCallingShow
 =
 PR_TRUE
 ;
-bool
+PRBool
 didCreateDoc
 =
 frameloader
@@ -3283,7 +3283,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 {
@@ -3351,7 +3351,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 {
@@ -3867,7 +3867,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSubDocumentFrame
 :
 :
@@ -4493,7 +4493,7 @@ type
 value
 )
 ;
-bool
+PRBool
 is_primary
 =
 value
@@ -4595,7 +4595,7 @@ nsCaseInsensitiveStringComparator
 )
 )
 {
-bool
+PRBool
 is_targetable
 =
 is_primary
@@ -5087,7 +5087,7 @@ get
 }
 }
 static
-bool
+PRBool
 BeginSwapDocShellsForDocument
 (
 nsIDocument
@@ -5570,7 +5570,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 EndSwapDocShellsForDocument
 (
 nsIDocument

@@ -2960,7 +2960,7 @@ nsSimplePageSequenceFrame
 :
 IsDoingPrintRange
 (
-bool
+PRBool
 *
 aDoing
 )
@@ -3035,7 +3035,7 @@ const
 char
 *
 aDefPropVal
-bool
+PRBool
 aPageNumOnly
 )
 {
@@ -3713,7 +3713,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRBool
 printEvenPages
 printOddPages
 ;
@@ -4024,10 +4024,10 @@ to
 work
 with
 IFrames
-bool
+PRBool
 continuePrinting
 =
-true
+PR_TRUE
 ;
 nscoord
 width
@@ -5117,7 +5117,7 @@ SetPageNumberFormat
 PRUnichar
 *
 aFormatStr
-bool
+PRBool
 aForPageNumOnly
 )
 {

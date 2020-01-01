@@ -849,7 +849,7 @@ aDocShell
 nsIDOMDocument
 *
 aDoc
-bool
+PRBool
 aPrintPreview
 )
 {

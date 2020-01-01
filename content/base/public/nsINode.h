@@ -1792,7 +1792,7 @@ mutations
 .
 *
 /
-bool
+PRBool
 Mutated
 (
 PRUint8
@@ -2454,7 +2454,7 @@ in
 *
 /
 virtual
-bool
+PRBool
 IsNodeOfType
 (
 PRUint32
@@ -3305,7 +3305,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 =
@@ -3474,7 +3474,7 @@ AppendChildTo
 nsIContent
 *
 aKid
-bool
+PRBool
 aNotify
 )
 {
@@ -3584,7 +3584,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 =
@@ -3951,10 +3951,10 @@ NSPropertyDtorFunc
 aDtor
 =
 nsnull
-bool
+PRBool
 aTransfer
 =
-false
+PR_FALSE
 )
 {
 return
@@ -4129,10 +4129,10 @@ NSPropertyDtorFunc
 aDtor
 =
 nsnull
-bool
+PRBool
 aTransfer
 =
-false
+PR_FALSE
 void
 *
 *
@@ -4531,7 +4531,7 @@ aStatus
 nsnull
 )
 ;
-bool
+PRBool
 HasProperties
 (
 )
@@ -5206,7 +5206,7 @@ same
 .
 *
 /
-bool
+PRBool
 HasSameOwnerDoc
 (
 nsINode
@@ -5443,7 +5443,7 @@ GetSlots
 }
 #
 endif
-bool
+PRBool
 HasFlag
 (
 PtrBits
@@ -5564,7 +5564,7 @@ aFlagsToUnset
 void
 SetEditableFlag
 (
-bool
+PRBool
 aEditable
 )
 {
@@ -5588,7 +5588,7 @@ NODE_IS_EDITABLE
 ;
 }
 }
-bool
+PRBool
 IsEditable
 (
 )
@@ -5633,7 +5633,7 @@ anonymous
 .
 *
 /
-bool
+PRBool
 IsInNativeAnonymousSubtree
 (
 )
@@ -6559,7 +6559,7 @@ IsSameNode
 nsIDOMNode
 *
 aOther
-bool
+PRBool
 *
 aReturn
 )
@@ -6583,7 +6583,7 @@ const
 nsAString
 &
 aNamespaceURI
-bool
+PRBool
 *
 aResult
 )
@@ -6631,12 +6631,12 @@ IsEqualNode
 nsIDOMNode
 *
 aOther
-bool
+PRBool
 *
 aReturn
 )
 ;
-bool
+PRBool
 IsEqualTo
 (
 nsINode
@@ -6900,7 +6900,7 @@ tree
 .
 *
 /
-bool
+PRBool
 Contains
 (
 const
@@ -6916,7 +6916,7 @@ Contains
 nsIDOMNode
 *
 aOther
-bool
+PRBool
 *
 aReturn
 )
@@ -6932,7 +6932,7 @@ nsINode
 *
 aRoot
 const
-bool
+PRBool
 aSkipChildren
 )
 const
@@ -7902,7 +7902,7 @@ CreateSlots
 (
 )
 ;
-bool
+PRBool
 HasSlots
 (
 )
@@ -7979,14 +7979,14 @@ mMutationObservers
 nsnull
 ;
 }
-bool
+PRBool
 IsEditableInternal
 (
 )
 const
 ;
 virtual
-bool
+PRBool
 IsEditableExternal
 (
 )
@@ -8102,7 +8102,7 @@ aOwnerDocument
 nsresult
 ReplaceOrInsertBefore
 (
-bool
+PRBool
 aReplace
 nsIDOMNode
 *
@@ -8120,7 +8120,7 @@ nsINode
 *
 ReplaceOrInsertBefore
 (
-bool
+PRBool
 aReplace
 nsINode
 *
@@ -8168,7 +8168,7 @@ virtual
 nsresult
 ReplaceOrInsertBefore
 (
-bool
+PRBool
 aReplace
 nsINode
 *
@@ -8356,7 +8356,7 @@ doRemoveChildAt
 (
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 nsIContent
 *
@@ -8451,7 +8451,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 nsAttrAndChildArray
 &

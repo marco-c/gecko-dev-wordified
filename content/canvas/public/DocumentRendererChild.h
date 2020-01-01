@@ -467,7 +467,7 @@ nsString
 bgcolor
 PRUint32
 renderFlags
-bool
+PRBool
 flushLayout
 const
 nsIntSize

@@ -569,7 +569,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aRemoveAttribute
 )
 ;
@@ -692,7 +692,7 @@ of
 execution
 *
 /
-bool
+PRBool
 mAttributeWasSet
 ;
 /
@@ -710,7 +710,7 @@ from
 mElement
 *
 /
-bool
+PRBool
 mRemoveAttribute
 ;
 }

@@ -507,11 +507,11 @@ nsDocShellEditorData
 nsresult
 MakeEditable
 (
-bool
+PRBool
 inWaitForUriLoad
 )
 ;
-bool
+PRBool
 GetEditable
 (
 )
@@ -565,7 +565,7 @@ nsIDocShell
 aDocShell
 )
 ;
-bool
+PRBool
 WaitingForLoad
 (
 )
@@ -637,7 +637,7 @@ a
 url
 load
 .
-bool
+PRBool
 mMakeEditable
 ;
 /
@@ -691,7 +691,7 @@ session
 history
 bfcache
 .
-bool
+PRBool
 mIsDetached
 ;
 /
@@ -705,7 +705,7 @@ editor
 is
 detached
 .
-bool
+PRBool
 mDetachedMakeEditable
 ;
 /

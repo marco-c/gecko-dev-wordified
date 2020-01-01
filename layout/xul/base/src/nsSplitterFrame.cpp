@@ -798,7 +798,7 @@ nsSplitterInfo
 aChildInfos
 PRInt32
 aCount
-bool
+PRBool
 aIsHorizontal
 )
 ;
@@ -836,7 +836,7 @@ PRInt32
 aChildrenBeforeCount
 PRInt32
 aChildrenAfterCount
-bool
+PRBool
 aBounded
 )
 ;
@@ -909,7 +909,7 @@ PRInt32
 aCount
 )
 ;
-bool
+PRBool
 SupportsCollapseDirection
 (
 CollapseDirection
@@ -932,7 +932,7 @@ nsIBox
 aChildBox
 nscoord
 aOnePixel
-bool
+PRBool
 aIsHorizontal
 nscoord
 *
@@ -943,7 +943,7 @@ nsSplitterFrame
 *
 mOuter
 ;
-bool
+PRBool
 mDidDrag
 ;
 nscoord
@@ -956,7 +956,7 @@ nsIBox
 *
 mParentBox
 ;
-bool
+PRBool
 mPressed
 ;
 nsSplitterInfo
@@ -979,7 +979,7 @@ mState
 nscoord
 mSplitterPos
 ;
-bool
+PRBool
 mDragging
 ;
 }
@@ -1973,7 +1973,7 @@ nsSplitterFrame
 :
 GetInitialOrientation
 (
-bool
+PRBool
 &
 aIsHorizontal
 )
@@ -2048,7 +2048,7 @@ aEvent
 nsEventStatus
 *
 aEventStatus
-bool
+PRBool
 aControlHeld
 )
 {
@@ -2551,7 +2551,7 @@ n
 "
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 !
@@ -2643,7 +2643,7 @@ GetResizeAfter
 (
 )
 ;
-bool
+PRBool
 bounded
 ;
 if
@@ -2747,7 +2747,7 @@ GetState
 (
 )
 ;
-bool
+PRBool
 supportsBefore
 =
 SupportsCollapseDirection
@@ -2755,7 +2755,7 @@ SupportsCollapseDirection
 Before
 )
 ;
-bool
+PRBool
 supportsAfter
 =
 SupportsCollapseDirection
@@ -2764,7 +2764,7 @@ After
 )
 ;
 const
-bool
+PRBool
 isRTL
 =
 mOuter
@@ -2780,7 +2780,7 @@ mDirection
 =
 NS_STYLE_DIRECTION_RTL
 ;
-bool
+PRBool
 pastEnd
 =
 oldPos
@@ -2792,7 +2792,7 @@ oldPos
 >
 pos
 ;
-bool
+PRBool
 pastBegin
 =
 oldPos
@@ -2818,7 +2818,7 @@ checks
 in
 RTL
 mode
-bool
+PRBool
 tmp
 =
 pastEnd
@@ -2833,7 +2833,7 @@ tmp
 ;
 }
 const
-bool
+PRBool
 isCollapsedBefore
 =
 pastBegin
@@ -2842,7 +2842,7 @@ pastBegin
 supportsBefore
 ;
 const
-bool
+PRBool
 isCollapsedAfter
 =
 pastEnd
@@ -3708,7 +3708,7 @@ EnsureOrient
 (
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 !
@@ -4796,7 +4796,7 @@ aChildInfos
 infos
 ;
 }
-bool
+PRBool
 nsSplitterFrameInner
 :
 :
@@ -5237,7 +5237,7 @@ EnsureOrient
 (
 )
 {
-bool
+PRBool
 isHorizontal
 =
 !
@@ -5290,7 +5290,7 @@ EnsureOrient
 (
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 !
@@ -5430,7 +5430,7 @@ nsSplitterInfo
 aChildInfos
 PRInt32
 aCount
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -5600,7 +5600,7 @@ nsIBox
 aChildBox
 nscoord
 aOnePixel
-bool
+PRBool
 aIsHorizontal
 nscoord
 *
@@ -6121,7 +6121,7 @@ PRInt32
 aChildrenBeforeCount
 PRInt32
 aChildrenAfterCount
-bool
+PRBool
 aBounded
 )
 {

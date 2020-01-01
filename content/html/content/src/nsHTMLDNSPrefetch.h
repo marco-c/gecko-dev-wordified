@@ -573,7 +573,7 @@ be
 performed
 .
 static
-bool
+PRBool
 IsAllowed
 (
 nsIDocument
@@ -891,7 +891,7 @@ nsITimer
 >
 mTimer
 ;
-bool
+PRBool
 mTimerArmed
 ;
 static

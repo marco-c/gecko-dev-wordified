@@ -616,7 +616,7 @@ Merge
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aDidMerge
 )
@@ -688,7 +688,7 @@ StartSelectionEquals
 nsSelectionState
 *
 aSelState
-bool
+PRBool
 *
 aResult
 )
@@ -735,7 +735,7 @@ the
 selection
 *
 /
-bool
+PRBool
 mAbsorb
 ;
 /
@@ -787,7 +787,7 @@ to
 broken
 transaction
 interfaces
-bool
+PRBool
 mCommitted
 ;
 /

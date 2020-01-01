@@ -1882,7 +1882,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -2556,10 +2556,10 @@ AssignASCII
 cbuf
 )
 ;
-bool
+PRBool
 notify
 =
-false
+PR_FALSE
 ;
 /
 /

@@ -1189,7 +1189,7 @@ https
 return
 NS_OK
 ;
-bool
+PRBool
 shouldLoad
 fromPrefs
 ;
@@ -1606,10 +1606,10 @@ nsIURI
 aFirstURI
 PRInt32
 aContentType
-bool
+PRBool
 *
 aPermission
-bool
+PRBool
 *
 aFromPrefs
 )
@@ -1833,10 +1833,10 @@ aFirstURI
 return
 NS_OK
 ;
-bool
+PRBool
 trustedSource
 =
-false
+PR_FALSE
 ;
 rv
 =

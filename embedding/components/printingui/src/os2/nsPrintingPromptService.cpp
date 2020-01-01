@@ -1250,7 +1250,7 @@ ok
 to
 be
 null
-bool
+PRBool
 isForPrinting
 nsIWebProgressListener
 *
@@ -1260,7 +1260,7 @@ nsIPrintProgressParams
 *
 *
 printProgressParams
-bool
+PRBool
 *
 notifyOnOpen
 )
@@ -1531,7 +1531,7 @@ rv
 )
 )
 {
-bool
+PRBool
 displayed
 ;
 rv

@@ -1863,7 +1863,7 @@ nsJARInputStream
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 aNonBlocking
 )

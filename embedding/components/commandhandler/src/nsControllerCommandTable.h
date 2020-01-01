@@ -497,7 +497,7 @@ keyed
 by
 command
 name
-bool
+PRBool
 mMutable
 ;
 /
