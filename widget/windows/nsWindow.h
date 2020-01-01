@@ -3707,14 +3707,6 @@ bool
 sNeedsToInitMouseWheelSettings
 ;
 static
-ULONG
-sMouseWheelScrollLines
-;
-static
-ULONG
-sMouseWheelScrollChars
-;
-static
 void
 InitMouseWheelScrollData
 (
