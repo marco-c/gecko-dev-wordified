@@ -429,6 +429,18 @@ run_test
 (
 )
 {
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
+test_onlyBookmarked
+(
+)
+{
 /
 /
 This
@@ -444,7 +456,8 @@ with
 the
 above
 data
-populateDB
+yield
+task_populateDB
 (
 testData
 )
@@ -755,7 +768,8 @@ false
 }
 ]
 ;
-populateDB
+yield
+task_populateDB
 (
 liveUpdateTestData
 )
@@ -989,3 +1003,5 @@ containerOpen
 false
 ;
 }
+)
+;

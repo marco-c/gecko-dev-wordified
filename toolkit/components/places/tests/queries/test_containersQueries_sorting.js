@@ -3268,6 +3268,18 @@ run_test
 (
 )
 {
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
+test_containersQueries_sorting
+(
+)
+{
 /
 /
 Add
@@ -3386,7 +3398,8 @@ true
 )
 )
 ;
-populateDB
+yield
+task_populateDB
 (
 visits
 )
@@ -3401,3 +3414,5 @@ test_query_callback
 )
 ;
 }
+)
+;

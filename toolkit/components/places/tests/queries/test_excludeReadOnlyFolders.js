@@ -217,7 +217,20 @@ run_test
 (
 )
 {
-populateDB
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
+test_excludeReadOnlyFolders
+(
+)
+{
+yield
+task_populateDB
 (
 testData
 )
@@ -349,3 +362,5 @@ containerOpen
 false
 ;
 }
+)
+;
