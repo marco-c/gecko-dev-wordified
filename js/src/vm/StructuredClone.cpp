@@ -5829,10 +5829,6 @@ Chars
 (
 )
 {
-if
-(
-p
-)
 js_free
 (
 p

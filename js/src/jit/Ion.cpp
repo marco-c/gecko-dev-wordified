@@ -2621,10 +2621,6 @@ IonCompartment
 (
 )
 {
-if
-(
-stubCodes_
-)
 js_delete
 (
 stubCodes_

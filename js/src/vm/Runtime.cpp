@@ -1794,10 +1794,6 @@ removeFromThreadList
 #
 ifdef
 JS_WORKER_THREADS
-if
-(
-workerThreadState
-)
 js_delete
 (
 workerThreadState
@@ -2093,10 +2089,6 @@ ionRuntime_
 .
 *
 /
-if
-(
-ionPcScriptCache
-)
 js_delete
 (
 ionPcScriptCache

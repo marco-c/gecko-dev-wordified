@@ -709,10 +709,6 @@ BaselineStackBuilder
 (
 )
 {
-if
-(
-buffer_
-)
 js_free
 (
 buffer_

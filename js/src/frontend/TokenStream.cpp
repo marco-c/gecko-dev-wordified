@@ -2315,10 +2315,6 @@ TokenStream
 (
 )
 {
-if
-(
-sourceMap
-)
 js_free
 (
 sourceMap
@@ -5743,10 +5739,6 @@ length
 (
 )
 ;
-if
-(
-sourceMap
-)
 js_free
 (
 sourceMap
