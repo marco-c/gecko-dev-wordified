@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsRegion
-.
-h
-"
-#
-include
-"
 nsStringGlue
 .
 h
@@ -247,6 +240,9 @@ ViewWrapper
 ;
 class
 nsIWidgetListener
+;
+class
+nsIntRegion
 ;
 namespace
 mozilla
