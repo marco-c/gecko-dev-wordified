@@ -406,7 +406,7 @@ class
 js
 :
 :
-RootMethods
+GCMethods
 <
 nsXBLMaybeCompiled
 <
@@ -440,7 +440,7 @@ class
 UncompiledT
 >
 struct
-RootMethods
+GCMethods
 <
 nsXBLMaybeCompiled
 <
@@ -449,7 +449,7 @@ UncompiledT
 >
 :
 public
-RootMethods
+GCMethods
 <
 JSObject
 *
@@ -457,7 +457,7 @@ JSObject
 {
 typedef
 struct
-RootMethods
+GCMethods
 <
 JSObject
 *

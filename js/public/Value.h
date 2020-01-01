@@ -6898,7 +6898,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 const
 JS
@@ -6964,7 +6964,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 JS
 :

@@ -1002,7 +1002,7 @@ typename
 T
 >
 struct
-RootMethods
+GCMethods
 {
 }
 ;
@@ -1461,7 +1461,7 @@ init
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1516,7 +1516,7 @@ if
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1663,7 +1663,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1680,7 +1680,7 @@ if
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1707,7 +1707,7 @@ if
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1760,7 +1760,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1781,7 +1781,7 @@ if
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1810,7 +1810,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1825,7 +1825,7 @@ ptr
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -1851,7 +1851,7 @@ JSGC_GENERATIONAL
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -2771,7 +2771,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -3554,7 +3554,7 @@ typename
 T
 >
 struct
-RootMethods
+GCMethods
 <
 T
 *
@@ -3903,7 +3903,7 @@ ptr
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -3961,7 +3961,7 @@ ptr
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -4037,7 +4037,7 @@ ptr
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -4289,7 +4289,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -4341,7 +4341,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -4432,7 +4432,7 @@ kind
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -4483,7 +4483,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >
@@ -5190,7 +5190,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 ptr
 (
-RootMethods
+GCMethods
 <
 T
 >
@@ -5302,7 +5302,7 @@ value
 JS_ASSERT
 (
 !
-RootMethods
+GCMethods
 <
 T
 >
@@ -5461,7 +5461,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 T
 >

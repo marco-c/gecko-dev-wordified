@@ -1207,7 +1207,7 @@ static
 *
 /
 Bindings
-RootMethods
+GCMethods
 <
 Bindings
 >

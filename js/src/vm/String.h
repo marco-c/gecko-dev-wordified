@@ -4204,7 +4204,7 @@ JS_ASSERT
 js
 :
 :
-RootMethods
+GCMethods
 <
 JSStableString
 *
