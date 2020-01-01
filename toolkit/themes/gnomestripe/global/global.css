@@ -789,6 +789,17 @@ menubar
 :
 not
 (
+[
+autohide
+=
+"
+true
+"
+]
+)
+:
+not
+(
 :
 -
 moz
