@@ -38768,7 +38768,7 @@ JSOP_SETLOCALPOP
 )
 BEGIN_CASE
 (
-JSOP_IFPRIMTOP
+JSOP_IFCANTCALLTOP
 )
 /
 *
@@ -38817,6 +38817,9 @@ base
 ;
 if
 (
+!
+js_IsCallable
+(
 regs
 .
 sp
@@ -38824,9 +38827,6 @@ sp
 -
 1
 ]
-.
-isPrimitive
-(
 )
 )
 {
@@ -38847,7 +38847,7 @@ len
 }
 END_CASE
 (
-JSOP_IFPRIMTOP
+JSOP_IFCANTCALLTOP
 )
 BEGIN_CASE
 (
