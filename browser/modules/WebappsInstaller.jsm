@@ -2165,6 +2165,12 @@ writer
 .
 writeFile
 (
+null
+Ci
+.
+nsIINIParserWriter
+.
+WRITE_UTF16
 )
 ;
 /
@@ -2280,6 +2286,12 @@ writer
 .
 writeFile
 (
+null
+Ci
+.
+nsIINIParserWriter
+.
+WRITE_UTF16
 )
 ;
 writer
