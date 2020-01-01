@@ -2111,9 +2111,13 @@ disable
 )
 *
 /
+/
+*
 #
 define
 WANT_TRACE_CHECK_FAILURES
+*
+/
 #
 ifdef
 WANT_TRACE_CHECK_FAILURES

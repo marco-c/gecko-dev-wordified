@@ -501,7 +501,7 @@ SOFTOKEN_VERSION
 .
 12
 .
-1
+2
 .
 0
 "
@@ -517,7 +517,7 @@ SOFTOKEN_VMINOR
 #
 define
 SOFTOKEN_VPATCH
-1
+2
 #
 define
 SOFTOKEN_BETA

@@ -729,11 +729,8 @@ name
 *
 *
 /
-PR_IMPLEMENT
-(
 NSSRWLock
 *
-)
 NSSRWLock_New
 (
 PRUint32
@@ -973,10 +970,7 @@ lock
 .
 *
 /
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_Destroy
 (
 NSSRWLock
@@ -1098,10 +1092,7 @@ RWLock
 .
 *
 /
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_LockRead
 (
 NSSRWLock
@@ -1367,10 +1358,7 @@ lock
 .
 *
 /
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_UnlockRead
 (
 NSSRWLock
@@ -1547,10 +1535,7 @@ RWLock
 .
 *
 /
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_LockWrite
 (
 NSSRWLock
@@ -1861,10 +1846,7 @@ lock
 .
 *
 /
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_UnlockWrite
 (
 NSSRWLock
@@ -2120,10 +2102,7 @@ calls
 .
 *
 /
-PR_IMPLEMENT
-(
 PRBool
-)
 NSSRWLock_HaveWriteLock
 (
 NSSRWLock

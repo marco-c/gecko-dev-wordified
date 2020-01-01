@@ -1586,7 +1586,7 @@ rv
 if
 defined
 (
-DEBUG_jpierre
+DEBUG_jp96085
 )
 PRIntervalTime
 starttime
@@ -1672,7 +1672,7 @@ PK11_GetInternalKeySlot
 if
 defined
 (
-DEBUG_jpierre
+DEBUG_jp96085
 )
 starttime
 =
@@ -1701,7 +1701,7 @@ decodeOptions
 if
 defined
 (
-DEBUG_jpierre
+DEBUG_jp96085
 )
 endtime
 =

@@ -9067,16 +9067,6 @@ nick
 >
 data
 ;
-/
-*
-Mac
-breaks
-without
-this
-type
-cast
-*
-/
 if
 (
 (

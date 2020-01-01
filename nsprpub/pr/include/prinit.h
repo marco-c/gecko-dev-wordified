@@ -781,8 +781,6 @@ PR_VERSION
 7
 .
 2
-Beta
-4
 "
 #
 define
@@ -799,7 +797,7 @@ PR_VPATCH
 #
 define
 PR_BETA
-PR_TRUE
+PR_FALSE
 /
 *
 *

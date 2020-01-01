@@ -1123,17 +1123,6 @@ buf
 CMD_FILE_BUFSIZE
 fd
 )
-buf
-&
-&
-*
-buf
-!
-=
-'
-\
-0
-'
 )
 {
 char
