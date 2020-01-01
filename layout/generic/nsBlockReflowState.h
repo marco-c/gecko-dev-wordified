@@ -859,6 +859,8 @@ nsReflowStatus
 aReflowStatus
 )
 ;
+private
+:
 PRBool
 CanPlaceFloat
 (
@@ -870,6 +872,8 @@ nsFlowAreaRect
 aFloatAvailableSpace
 )
 ;
+public
+:
 PRBool
 FlowAndPlaceFloat
 (
@@ -881,6 +885,18 @@ nsReflowStatus
 aReflowStatus
 )
 ;
+private
+:
+void
+PushFloatPastBreak
+(
+nsIFrame
+*
+aFloat
+)
+;
+public
+:
 PRBool
 PlaceBelowCurrentLineFloats
 (
