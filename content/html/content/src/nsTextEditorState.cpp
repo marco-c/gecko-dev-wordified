@@ -546,7 +546,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLTextAreaElement
+nsIDOMHTMLTextAreaElement
 .
 h
 "
@@ -3913,7 +3913,7 @@ else
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLTextAreaElement
+nsIDOMHTMLTextAreaElement
 >
 textArea
 =
@@ -6349,7 +6349,7 @@ else
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLTextAreaElement
+nsIDOMHTMLTextAreaElement
 >
 textAreaElement
 =
@@ -7621,7 +7621,7 @@ else
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLTextAreaElement
+nsIDOMHTMLTextAreaElement
 >
 textAreaElement
 =

@@ -455,13 +455,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLTextAreaElement
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h

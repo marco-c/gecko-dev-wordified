@@ -521,13 +521,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLTextAreaElement
-.
-h
-"
-#
-include
-"
 nsIDOMWindowInternal
 .
 h
