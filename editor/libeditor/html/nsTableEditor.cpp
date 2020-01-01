@@ -4935,9 +4935,7 @@ will
 call
 SetSelectionAfterTableEdit
 in
-it
-'
-s
+its
 destructor
 nsSetSelectionAfterTableEdit
 setCaret
@@ -5674,9 +5672,7 @@ will
 call
 SetSelectionAfterTableEdit
 in
-it
-'
-s
+its
 destructor
 nsSetSelectionAfterTableEdit
 setCaret
@@ -13913,9 +13909,7 @@ target
 cell
 will
 extend
-it
-'
-s
+its
 colspan
 res
 =

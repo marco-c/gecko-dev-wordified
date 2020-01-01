@@ -7220,9 +7220,7 @@ doc
 and
 contain
 all
-it
-'
-s
+its
 context
 .
 /
@@ -16628,9 +16626,7 @@ paste
 it
 instead
 of
-it
-'
-s
+its
 descendants
 if
 (

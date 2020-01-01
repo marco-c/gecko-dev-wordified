@@ -12624,9 +12624,7 @@ parent
 offset
 }
 and
-it
-'
-s
+its
 ancestors
 for
 divs
@@ -21413,9 +21411,7 @@ routine
 examines
 aNode
 and
-it
-'
-s
+its
 ancestors
 looking
 for
@@ -24525,9 +24521,7 @@ node
 and
 see
 if
-it
-'
-s
+its
 leftTextNode
 nsCOMPtr
 <
@@ -24757,9 +24751,7 @@ RemoveBlockContainer
 remove
 inNode
 reparenting
-it
-'
-s
+its
 children
 into
 their
