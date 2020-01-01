@@ -288,10 +288,7 @@ nsHttpAtom
 &
 requestMethod
 const
-IPC
-:
-:
-InputStream
+OptionalInputStreamParams
 &
 uploadStream
 const
