@@ -550,6 +550,13 @@ nsIGfxInfo
 h
 "
 #
+include
+"
+npapi
+.
+h
+"
+#
 ifdef
 DEBUG
 #
