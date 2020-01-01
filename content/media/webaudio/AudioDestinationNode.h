@@ -165,12 +165,14 @@ nsWrapperCache
 {
 public
 :
-explicit
 AudioDestinationNode
 (
 AudioContext
 *
 aContext
+MediaStreamGraph
+*
+aGraph
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
