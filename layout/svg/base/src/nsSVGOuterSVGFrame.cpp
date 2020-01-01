@@ -1326,18 +1326,6 @@ PR_TRUE
 }
 /
 /
-AddMutationObserver
-checks
-that
-the
-observer
-is
-not
-already
-added
-.
-/
-/
 sSVGMutationObserver
 has
 the
@@ -1358,7 +1346,7 @@ removed
 doc
 -
 >
-AddMutationObserver
+AddMutationObserverUnlessExists
 (
 &
 sSVGMutationObserver
