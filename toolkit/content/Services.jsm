@@ -619,7 +619,9 @@ org
 /
 dom
 /
-storagemanager
+localStorage
+-
+manager
 ;
 1
 "

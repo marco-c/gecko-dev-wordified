@@ -694,10 +694,6 @@ PStorageChild
 *
 AllocPStorage
 (
-const
-StorageConstructData
-&
-aData
 )
 ;
 virtual
