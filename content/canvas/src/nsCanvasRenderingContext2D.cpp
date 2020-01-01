@@ -14548,8 +14548,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 GetPresShell
