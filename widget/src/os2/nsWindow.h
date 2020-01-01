@@ -1115,14 +1115,6 @@ PRBool
 aConsumeRollupEvent
 )
 ;
-NS_IMETHOD
-GetLastInputEventTime
-(
-PRUint32
-&
-aTime
-)
-;
 virtual
 PRBool
 HasPendingInputEvent

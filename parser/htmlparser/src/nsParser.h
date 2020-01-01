@@ -2224,10 +2224,10 @@ kmcclusk
 98
 *
 /
+virtual
 PRBool
 CanInterrupt
 (
-void
 )
 ;
 /
