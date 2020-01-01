@@ -1498,6 +1498,10 @@ friend
 class
 nsASyncMenuInitialization
 ;
+friend
+class
+nsMenuAttributeChangedEvent
+;
 /
 /
 initialize
