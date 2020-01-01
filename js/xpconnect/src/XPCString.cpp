@@ -553,13 +553,6 @@ nsStringBuffer
 h
 "
 static
-int
-sDOMStringFinalizerIndex
-=
--
-1
-;
-static
 void
 FinalizeDOMString
 (
