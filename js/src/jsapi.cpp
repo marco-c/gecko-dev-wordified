@@ -15682,8 +15682,8 @@ OBJECT_TO_JSVAL
 (
 proto
 )
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 (
 clasp
 -
@@ -15740,7 +15740,7 @@ obj
 atom
 constructor
 nargs
-0
+JSFUN_STUB_GSOPS
 )
 ;
 named
