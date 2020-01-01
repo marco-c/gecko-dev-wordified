@@ -11557,7 +11557,7 @@ aName
 aContainer
 aIndex
 aAnnotations
-aChildItemsTransaction
+aChildItemsTransactions
 )
 {
 this
