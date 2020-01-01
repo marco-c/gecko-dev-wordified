@@ -942,6 +942,9 @@ fName
 }
 #
 endif
+bool
+snap
+;
 nsRect
 rect
 =
@@ -951,6 +954,8 @@ i
 GetBounds
 (
 aBuilder
+&
+snap
 )
 ;
 switch
@@ -1094,6 +1099,9 @@ DidComputeVisibility
 )
 )
 {
+bool
+forceTransparentSurface
+;
 opaque
 =
 i
@@ -1102,6 +1110,10 @@ i
 GetOpaqueRegion
 (
 aBuilder
+&
+snap
+&
+forceTransparentSurface
 )
 ;
 }

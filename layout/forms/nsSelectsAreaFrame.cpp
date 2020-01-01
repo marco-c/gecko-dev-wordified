@@ -1159,8 +1159,16 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aSnap
 )
 {
+*
+aSnap
+=
+false
+;
 /
 /
 override
