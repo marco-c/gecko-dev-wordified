@@ -37057,7 +37057,7 @@ NS_ERROR_FAILURE
 PRUint32
 flags
 =
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_NONE
@@ -37073,7 +37073,7 @@ mScrollViewStop
 flags
 |
 =
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_LOCK_SCROLL
@@ -37658,7 +37658,7 @@ storeOldResultFrame
 PRUint32
 flags
 =
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_NONE
@@ -37674,7 +37674,7 @@ mScrollViewStop
 flags
 |
 =
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_LOCK_SCROLL
@@ -42849,7 +42849,7 @@ lines
 PRUint32
 flags
 =
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_FOLLOW_OUT_OF_FLOW
@@ -42862,7 +42862,7 @@ aScrollViewStop
 flags
 |
 =
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_LOCK_SCROLL
@@ -42884,7 +42884,7 @@ BidiEnabled
 flags
 |
 =
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_VISUAL

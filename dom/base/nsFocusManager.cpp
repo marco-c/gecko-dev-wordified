@@ -14510,7 +14510,7 @@ frameTraversal
 presContext
 startFrame
 eLeaf
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_FOLLOW_OUT_OF_FLOW
@@ -17159,7 +17159,7 @@ frameTraversal
 presContext
 startFrame
 ePreOrder
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_FOLLOW_OUT_OF_FLOW
