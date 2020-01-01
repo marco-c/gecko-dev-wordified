@@ -3221,6 +3221,17 @@ aTag
 *
 /
 bool
+CanContain
+(
+nsIDOMNode
+*
+aParent
+nsIDOMNode
+*
+aChild
+)
+;
+bool
 CanContainTag
 (
 nsIDOMNode
