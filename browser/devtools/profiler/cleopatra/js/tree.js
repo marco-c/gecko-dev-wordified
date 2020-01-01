@@ -3683,6 +3683,7 @@ span
 '
 +
 (
+(
 nodeName
 =
 =
@@ -3692,6 +3693,10 @@ nodeName
 total
 )
 '
+|
+|
+gHideSourceLinks
+)
 ?
 '
 '
