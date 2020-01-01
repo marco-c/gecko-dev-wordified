@@ -7479,6 +7479,17 @@ break
 ;
 case
 '
+d
+'
+:
+xpc_ActivateDebugMode
+(
+)
+;
+break
+;
+case
+'
 P
 '
 :
