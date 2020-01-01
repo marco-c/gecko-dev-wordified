@@ -591,13 +591,6 @@ h
 #
 include
 "
-nsIMenuBar
-.
-h
-"
-#
-include
-"
 nsHashtable
 .
 h
