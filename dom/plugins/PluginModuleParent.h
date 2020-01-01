@@ -1029,6 +1029,13 @@ bool
 aBoolVal
 )
 ;
+NS_OVERRIDE
+virtual
+bool
+AnswerProcessSomeEvents
+(
+)
+;
 static
 PluginInstanceParent
 *
