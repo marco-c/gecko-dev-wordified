@@ -3299,6 +3299,13 @@ Clear
 (
 )
 ;
+delete
+gNeuteredWindows
+;
+gNeuteredWindows
+=
+NULL
+;
 }
 void
 Init
