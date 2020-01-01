@@ -412,7 +412,7 @@ return
 {
 /
 /
-Poperties
+Properties
 /
 functions
 needed
@@ -1134,7 +1134,7 @@ return
 {
 /
 /
-Poperties
+Properties
 /
 functions
 needed
@@ -1658,6 +1658,8 @@ panel
 this
 .
 len
+=
+0
 ;
 this
 .
@@ -1882,6 +1884,11 @@ args
 )
 )
 ;
+var
+self
+=
+this
+;
 for
 (
 var
@@ -2012,11 +2019,6 @@ cbox
 checked
 =
 checked
-;
-var
-self
-=
-this
 ;
 cbox
 .
@@ -2379,6 +2381,7 @@ break
 ;
 }
 }
+;
 dom
 .
 addEventListener
@@ -2595,7 +2598,7 @@ return
 {
 /
 /
-Poperties
+Properties
 /
 functions
 needed
@@ -3272,6 +3275,11 @@ this
 .
 tools
 ;
+var
+self
+=
+this
+;
 for
 (
 var
@@ -3329,11 +3337,6 @@ textContent
 tool
 .
 name
-;
-var
-self
-=
-this
 ;
 panelButton
 .
