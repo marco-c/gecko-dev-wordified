@@ -4604,6 +4604,10 @@ this
 if
 (
 mListener
+&
+&
+!
+mCanceled
 )
 {
 /
