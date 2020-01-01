@@ -614,7 +614,9 @@ http
 :
 /
 /
-localhost
+mochi
+.
+test
 :
 8888
 )
@@ -647,7 +649,9 @@ http
 :
 /
 /
-localhost
+mochi
+.
+test
 :
 8888
 /
