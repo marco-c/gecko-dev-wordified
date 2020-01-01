@@ -261,7 +261,7 @@ timer
 "
 )
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 mTimer
 )
@@ -589,7 +589,7 @@ timer
 "
 )
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 mTimer
 )
@@ -1147,6 +1147,11 @@ mMediaStream
 aMediaStream
 )
 {
+MOZ_ASSERT
+(
+aMediaStream
+)
+;
 }
 ~
 LocalSourceStreamInfo
@@ -1369,6 +1374,11 @@ mPipelines
 (
 )
 {
+MOZ_ASSERT
+(
+aMediaStream
+)
+;
 }
 nsDOMMediaStream
 *
