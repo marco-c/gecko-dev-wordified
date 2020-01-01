@@ -567,7 +567,6 @@ MoveTo
 aCP1
 )
 ;
-else
 CGPathAddCurveToPoint
 (
 mCGPath
@@ -621,7 +620,6 @@ MoveTo
 aCP1
 )
 ;
-else
 CGPathAddQuadCurveToPoint
 (
 mCGPath
