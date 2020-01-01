@@ -497,8 +497,6 @@ change_password
 }
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -507,16 +505,12 @@ username
 johndoe
 "
 ;
-Weave
-.
 Service
 .
 password
 =
 JAPANESE
 ;
-Weave
-.
 Service
 .
 passphrase
@@ -530,8 +524,6 @@ irrelevant
 .
 "
 ;
-Weave
-.
 Service
 .
 serverURL
@@ -571,8 +563,6 @@ foobar
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 verifyLogin
@@ -626,8 +616,6 @@ LOWBYTES
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 verifyLogin
@@ -667,8 +655,6 @@ ours
 "
 )
 ;
-Weave
-.
 Service
 .
 password
@@ -677,8 +663,6 @@ APPLES
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 verifyLogin
@@ -707,8 +691,6 @@ stop
 do_test_finished
 )
 ;
-Weave
-.
 Svc
 .
 Prefs

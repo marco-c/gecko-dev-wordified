@@ -294,8 +294,6 @@ login_handler
 ;
 try
 {
-Weave
-.
 Service
 .
 serverURL
@@ -311,8 +309,6 @@ localhost
 /
 "
 ;
-Weave
-.
 Service
 .
 clusterURL
@@ -387,8 +383,6 @@ yet
 "
 )
 ;
-Weave
-.
 Service
 .
 login
@@ -413,8 +407,6 @@ LOGIN_FAILED_NO_USERNAME
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 isLoggedIn
@@ -448,8 +440,6 @@ set
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -458,8 +448,6 @@ username
 johndoe
 "
 ;
-Weave
-.
 Service
 .
 password
@@ -468,8 +456,6 @@ password
 ilovejane
 "
 ;
-Weave
-.
 Service
 .
 login
@@ -494,8 +480,6 @@ LOGIN_FAILED_NO_PASSPHRASE
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 isLoggedIn
@@ -527,8 +511,6 @@ set
 "
 )
 ;
-Weave
-.
 Service
 .
 passphrase
@@ -537,8 +519,6 @@ passphrase
 foo
 "
 ;
-Weave
-.
 Service
 .
 login
@@ -563,8 +543,6 @@ LOGIN_SUCCEEDED
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 isLoggedIn
@@ -603,8 +581,6 @@ login
 "
 )
 ;
-Weave
-.
 Service
 .
 login
@@ -622,8 +598,6 @@ bar
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 username
@@ -634,8 +608,6 @@ janedoe
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 password
@@ -646,8 +618,6 @@ incorrectpassword
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 passphrase
@@ -674,8 +644,6 @@ LOGIN_FAILED_LOGIN_REJECTED
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 isLoggedIn
@@ -693,8 +661,6 @@ password
 "
 )
 ;
-Weave
-.
 Service
 .
 login
@@ -725,8 +691,6 @@ LOGIN_SUCCEEDED
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 isLoggedIn
@@ -771,8 +735,6 @@ notified
 =
 false
 ;
-Weave
-.
 Svc
 .
 Obs
@@ -799,8 +761,6 @@ true
 }
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -808,8 +768,6 @@ username
 "
 "
 ;
-Weave
-.
 Service
 .
 password
@@ -817,8 +775,6 @@ password
 "
 "
 ;
-Weave
-.
 Service
 .
 passphrase
@@ -826,8 +782,6 @@ passphrase
 "
 "
 ;
-Weave
-.
 Service
 .
 login
@@ -866,8 +820,6 @@ LOGIN_SUCCEEDED
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 isLoggedIn
@@ -895,8 +847,6 @@ Logout
 "
 )
 ;
-Weave
-.
 Service
 .
 logout
@@ -905,8 +855,6 @@ logout
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 isLoggedIn
@@ -942,8 +890,6 @@ harm
 "
 )
 ;
-Weave
-.
 Service
 .
 logout
@@ -952,8 +898,6 @@ logout
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 isLoggedIn
