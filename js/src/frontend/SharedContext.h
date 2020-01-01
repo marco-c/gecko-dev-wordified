@@ -344,7 +344,7 @@ accessed
 .
 Non
 -
-exmaples
+examples
 are
 :
 /
