@@ -190,7 +190,7 @@ WebGLShader
 MOZ_FINAL
 :
 public
-nsISupports
+nsWrapperCache
 public
 WebGLRefCountedObject
 <
@@ -203,8 +203,6 @@ WebGLShader
 >
 public
 WebGLContextBoundObject
-public
-nsWrapperCache
 {
 friend
 class
@@ -424,8 +422,11 @@ scope
 )
 MOZ_OVERRIDE
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+WebGLShader
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 WebGLShader
 )

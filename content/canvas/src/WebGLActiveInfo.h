@@ -144,9 +144,6 @@ mozilla
 class
 WebGLActiveInfo
 MOZ_FINAL
-:
-public
-nsISupports
 {
 public
 :
@@ -235,7 +232,10 @@ JSObject
 scope
 )
 ;
-NS_DECL_ISUPPORTS
+NS_INLINE_DECL_REFCOUNTING
+(
+WebGLActiveInfo
+)
 protected
 :
 WebGLint
