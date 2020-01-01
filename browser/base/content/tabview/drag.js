@@ -1028,9 +1028,11 @@ keepProportional
 checkItemStatus
 )
 {
-var
+if
+(
+!
 stationaryCorner
-=
+)
 stationaryCorner
 |
 |

@@ -2892,9 +2892,6 @@ hideTabView
 ;
 }
 }
-return
-false
-;
 }
 )
 ;
