@@ -491,6 +491,9 @@ namespace
 jsipc
 {
 class
+ContextWrapperParent
+;
+class
 ObjectWrapperParent
 :
 public
@@ -549,6 +552,12 @@ ActorDestroy
 (
 ActorDestroyReason
 why
+)
+;
+ContextWrapperParent
+*
+Manager
+(
 )
 ;
 private
