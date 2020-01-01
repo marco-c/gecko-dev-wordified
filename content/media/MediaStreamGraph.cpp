@@ -11472,11 +11472,13 @@ Run
 (
 )
 {
-mStream
--
+static_cast
+<
+ProcessedMediaStream
+*
 >
-AsProcessedStream
 (
+mStream
 )
 -
 >
