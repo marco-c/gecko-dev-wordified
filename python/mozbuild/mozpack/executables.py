@@ -445,6 +445,8 @@ on
 OS
 /
 2
+and
+WINNT
         
 -
 the
@@ -498,19 +500,25 @@ OS
 OS
 /
 X
-and
 ELF
+and
+WINNT
+(
+in
+GCC
+build
+)
 systems
 we
 don
 '
 t
 bother
+    
 detecting
 other
 kind
 of
-    
 executables
 .
     
@@ -544,6 +552,18 @@ OS_ARCH
 =
 '
 OS2
+'
+or
+substs
+[
+'
+OS_ARCH
+'
+]
+=
+=
+'
+WINNT
 '
 :
         
