@@ -221,14 +221,7 @@ JSScript
 *
 *
 scriptp
-JSFunction
-*
-*
-functionp
 )
-;
-bool
-mReuseLoaderGlobal
 ;
 nsCOMPtr
 <
