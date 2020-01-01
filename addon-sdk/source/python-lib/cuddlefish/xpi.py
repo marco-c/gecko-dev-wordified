@@ -268,6 +268,13 @@ rdf
 '
 )
     
+#
+Handle
+add
+-
+on
+icon
+    
 if
 '
 icon
@@ -339,6 +346,12 @@ harness_options
 icon64
 '
 ]
+    
+#
+Handle
+simple
+-
+prefs
     
 if
 '
@@ -1248,7 +1261,7 @@ parentpath
 )
     
 #
-create
+Create
 zipfile
 in
 alphabetical
@@ -1312,6 +1325,12 @@ name
 name
 )
     
+#
+Add
+extra
+harness
+options
+    
 harness_options
 =
 harness_options
@@ -1372,6 +1391,14 @@ key
 ]
 =
 value
+    
+#
+Write
+harness
+-
+options
+.
+json
     
 open
 (

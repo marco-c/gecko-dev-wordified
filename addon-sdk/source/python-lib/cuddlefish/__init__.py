@@ -6851,30 +6851,13 @@ mainPath
 '
 ]
 =
-manifest
-.
-get_manifest_entry
-(
-"
-addon
--
-sdk
-"
-"
-lib
-"
-"
+'
 sdk
 /
 test
 /
 runner
-"
-)
-.
-get_path
-(
-)
+'
     
 else
 :
@@ -7369,6 +7352,11 @@ xpi
 import
 build_xpi
         
+#
+Generate
+extra
+options
+        
 extra_harness_options
 =
 {
@@ -7401,6 +7389,11 @@ key
 ]
 =
 value
+        
+#
+Generate
+xpi
+filepath
         
 xpi_path
 =

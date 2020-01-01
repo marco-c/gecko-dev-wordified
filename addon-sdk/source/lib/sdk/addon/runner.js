@@ -699,10 +699,6 @@ get
 access
 to
 it
-if
-(
-data
-)
 definePseudo
 (
 options
@@ -714,6 +710,10 @@ l10n
 data
 '
 data
+?
+data
+:
+null
 )
 ;
 run
