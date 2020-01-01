@@ -3972,7 +3972,7 @@ statistics
   
 MAX_LEAK_COUNT
 =
-23
+21
   
 def
 __init__
@@ -4485,20 +4485,6 @@ serial
 "
 )
     
-#
-log
-line
-has
-invalid
-format
-    
-if
-not
-id
-:
-      
-return
-    
 if
 self
 .
@@ -4597,20 +4583,6 @@ id
 "
 )
     
-#
-log
-line
-has
-invalid
-format
-    
-if
-not
-id
-:
-      
-return
-    
 if
 self
 .
@@ -4676,8 +4648,7 @@ name
 )
 :
     
-match
-=
+return
 re
 .
 search
@@ -4700,21 +4671,11 @@ s
 name
 line
 )
-    
-if
-match
-:
-      
-return
-match
 .
 group
 (
 1
 )
-    
-return
-None
   
 def
 _parseLeakingTests
