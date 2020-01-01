@@ -11258,7 +11258,8 @@ nsIURI
 aHostURI
 bool
 aIsForeign
-nsDependentCString
+const
+nsCString
 &
 aCookieHeader
 const
@@ -11625,6 +11626,12 @@ cookie
 in
 the
 header
+nsDependentCString
+cookieHeader
+(
+aCookieHeader
+)
+;
 while
 (
 SetCookieInternal
@@ -11633,7 +11640,7 @@ aHostURI
 baseDomain
 requireHostMatch
 cookieStatus
-aCookieHeader
+cookieHeader
 serverTime
 aFromHttp
 )

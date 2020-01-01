@@ -739,13 +739,6 @@ hostURI
 return
 false
 ;
-nsDependentCString
-cookieString
-(
-aCookieString
-0
-)
-;
 mCookieService
 -
 >
@@ -753,7 +746,7 @@ SetCookieStringInternal
 (
 hostURI
 aIsForeign
-cookieString
+aCookieString
 aServerTime
 aFromHttp
 )
