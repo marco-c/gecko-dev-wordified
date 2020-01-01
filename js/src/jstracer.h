@@ -8211,7 +8211,7 @@ aobj
 JSObject
 *
 obj2
-JSPropCacheEntry
+PropertyCacheEntry
 *
 entry
 jsuword
@@ -8773,7 +8773,7 @@ setProp
 jsval
 &
 l
-JSPropCacheEntry
+PropertyCacheEntry
 *
 entry
 JSScopeProperty
@@ -9934,7 +9934,7 @@ JS_REQUIRES_STACK
 AbortableRecordingStatus
 record_SetPropHit
 (
-JSPropCacheEntry
+PropertyCacheEntry
 *
 entry
 JSScopeProperty

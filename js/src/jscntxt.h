@@ -3535,7 +3535,10 @@ invocation
 .
 *
 /
-JSPropertyCache
+js
+:
+:
+PropertyCache
 propertyCache
 ;
 /
@@ -13245,6 +13248,9 @@ runtime
 shapeGen
 >
 =
+js
+:
+:
 SHAPE_OVERFLOW_BIT
 ;
 }
@@ -13339,6 +13345,9 @@ shape
 (
 shape
 &
+js
+:
+:
 SHAPE_OVERFLOW_BIT
 )
 ;

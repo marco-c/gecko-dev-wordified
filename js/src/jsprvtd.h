@@ -888,11 +888,6 @@ JSParseNode
 ;
 typedef
 struct
-JSPropCacheEntry
-JSPropCacheEntry
-;
-typedef
-struct
 JSProperty
 JSProperty
 ;
@@ -1198,6 +1193,12 @@ HashSet
 ;
 class
 DeflatedStringCache
+;
+struct
+PropertyCache
+;
+struct
+PropertyCacheEntry
 ;
 }
 /

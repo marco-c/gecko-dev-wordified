@@ -7095,7 +7095,10 @@ sprop
 isMethod
 )
 since
-js_FillPropertyCache
+PropertyCache
+:
+:
+fill
 gives
 precedence
 to
