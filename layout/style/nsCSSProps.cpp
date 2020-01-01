@@ -1049,15 +1049,6 @@ gAliases
 -
 moz
 -
-opacity
-"
-eCSSProperty_opacity
-}
-{
-"
--
-moz
--
 outline
 "
 eCSSProperty_outline
