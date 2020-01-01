@@ -12828,16 +12828,7 @@ foldIfEqual
 )
 {
 return
-MConstant
-:
-:
-New
-(
-Int32Value
-(
-0
-)
-)
+this
 ;
 }
 }
