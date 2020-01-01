@@ -1229,7 +1229,7 @@ to
 surface
 bounds
 when
-NULL
+nullptr
 is
 specified
 .
@@ -1428,7 +1428,7 @@ mPath
 is
 non
 -
-NULL
+nullptr
 the
 mTransform
 member

@@ -186,7 +186,7 @@ aFilename
 :
 DrawEventRecorderPrivate
 (
-NULL
+nullptr
 )
 mOutputFile
 (

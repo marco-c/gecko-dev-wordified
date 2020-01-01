@@ -1022,7 +1022,7 @@ DWriteFontFileLoader
 :
 mInstance
 =
-NULL
+nullptr
 ;
 HRESULT
 STDMETHODCALLTYPE
@@ -1297,7 +1297,7 @@ index
 *
 fragmentContext
 =
-NULL
+nullptr
 ;
 return
 S_OK

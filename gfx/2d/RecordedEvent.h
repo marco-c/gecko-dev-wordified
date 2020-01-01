@@ -4135,7 +4135,7 @@ aRefPtr
 )
 mData
 (
-NULL
+nullptr
 )
 {
 aScaledFont

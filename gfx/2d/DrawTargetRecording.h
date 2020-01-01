@@ -1058,7 +1058,7 @@ GlyphRenderingOptions
 *
 aRenderingOptions
 =
-NULL
+nullptr
 )
 ;
 /
