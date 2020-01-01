@@ -2147,6 +2147,14 @@ const
 str
 )
         
+assert
+not
+isinstance
+(
+T
+str
+)
+        
 Node
 .
 __init__
