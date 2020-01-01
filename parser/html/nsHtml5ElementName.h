@@ -1073,6 +1073,11 @@ ELT_MEAN
 static
 nsHtml5ElementName
 *
+ELT_MAIN
+;
+static
+nsHtml5ElementName
+*
 ELT_MSUP
 ;
 static
