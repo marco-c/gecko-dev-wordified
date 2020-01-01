@@ -5182,7 +5182,6 @@ nsIDOMCSSRule
 aParent
 )
 ;
-virtual
 void
 DropReference
 (
@@ -5272,6 +5271,17 @@ Release
 void
 )
 ;
+virtual
+nsISupports
+*
+GetParentObject
+(
+)
+{
+return
+nsnull
+;
+}
 friend
 class
 DOMCSSStyleRuleImpl

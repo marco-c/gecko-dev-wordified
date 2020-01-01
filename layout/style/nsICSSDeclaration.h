@@ -695,6 +695,15 @@ aValue
 =
 0
 ;
+virtual
+nsISupports
+*
+GetParentObject
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
