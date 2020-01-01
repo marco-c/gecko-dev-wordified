@@ -5573,9 +5573,10 @@ return_
 )
 )
 ;
-jsid
+RootedId
 throwId
-=
+(
+cx
 NameToId
 (
 cx
@@ -5586,6 +5587,7 @@ names
 )
 .
 throw_
+)
 )
 ;
 bool
