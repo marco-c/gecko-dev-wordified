@@ -625,6 +625,16 @@ widget
 specific
 state
 information
+bool
+IsDisabled
+(
+nsIFrame
+*
+aFrame
+PRInt32
+aEventStates
+)
+;
 /
 /
 RTL
