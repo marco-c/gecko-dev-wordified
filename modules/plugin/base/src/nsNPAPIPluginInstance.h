@@ -1253,6 +1253,9 @@ nsIURI
 >
 mURI
 ;
+PRPackedBool
+mUsePluginLayersPref
+;
 }
 ;
 #
