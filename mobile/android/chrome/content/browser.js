@@ -3851,6 +3851,9 @@ ownerDocument
 }
 )
 ;
+#
+ifdef
+MOZ_ANDROID_WALLPAPER
 NativeWindow
 .
 contextmenus
@@ -3905,6 +3908,8 @@ src
 }
 )
 ;
+#
+endif
 NativeWindow
 .
 contextmenus
