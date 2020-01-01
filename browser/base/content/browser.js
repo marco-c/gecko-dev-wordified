@@ -10667,14 +10667,6 @@ Services
 .
 downloads
 ;
-#
-ifdef
-XP_WIN
-if
-(
-Win7Features
-)
-{
 let
 DownloadTaskbarProgress
 =
@@ -10708,9 +10700,6 @@ onBrowserWindowLoad
 window
 )
 ;
-}
-#
-endif
 }
 10000
 )
