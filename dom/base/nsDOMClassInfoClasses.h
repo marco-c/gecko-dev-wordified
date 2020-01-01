@@ -898,10 +898,6 @@ CSSStyleDeclaration
 )
 DOMCI_CLASS
 (
-ComputedCSSStyleDeclaration
-)
-DOMCI_CLASS
-(
 ROCSSPrimitiveValue
 )
 /
