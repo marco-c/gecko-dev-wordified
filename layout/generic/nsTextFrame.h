@@ -1828,6 +1828,10 @@ PR_UINT32_MAX
 nsOverflowAreas
 RecomputeOverflow
 (
+const
+nsHTMLReflowState
+&
+aBlockReflowState
 )
 ;
 void
@@ -3127,6 +3131,10 @@ UnionAdditionalOverflow
 nsPresContext
 *
 aPresContext
+const
+nsHTMLReflowState
+&
+aBlockReflowState
 PropertyProvider
 &
 aProvider
