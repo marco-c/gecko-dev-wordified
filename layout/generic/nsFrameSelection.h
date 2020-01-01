@@ -4661,9 +4661,6 @@ PRPackedBool
 mNotifyFrames
 ;
 PRPackedBool
-mIsEditor
-;
-PRPackedBool
 mDragSelectingCells
 ;
 PRPackedBool
