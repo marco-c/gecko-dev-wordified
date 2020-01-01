@@ -1765,9 +1765,6 @@ nsDisplayListSet
 aLists
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -1776,12 +1773,6 @@ BuildDisplayList
 aBuilder
 aDirtyRect
 aLists
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /
@@ -1821,7 +1812,6 @@ visibility
 here
 right
 ?
-return
 aLists
 .
 Outlines
@@ -1841,6 +1831,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 return

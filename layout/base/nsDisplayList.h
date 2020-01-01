@@ -2257,7 +2257,6 @@ return
 NS_OK
 ;
 }
-return
 frame
 -
 >
@@ -2267,6 +2266,9 @@ this
 aDirtyRect
 aList
 )
+;
+return
+NS_OK
 ;
 }
 /

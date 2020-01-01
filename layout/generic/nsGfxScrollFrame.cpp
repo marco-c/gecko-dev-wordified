@@ -12613,9 +12613,6 @@ nsDisplayListSet
 aLists
 )
 {
-nsresult
-rv
-=
 mOuter
 -
 >
@@ -12623,12 +12620,6 @@ DisplayBorderBackgroundOutline
 (
 aBuilder
 aLists
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -12767,7 +12758,6 @@ pass
 aLists
 directly
 .
-return
 mOuter
 -
 >
@@ -12778,6 +12768,9 @@ mScrolledFrame
 aDirtyRect
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -13176,8 +13169,6 @@ displayPort
 nsDisplayListCollection
 set
 ;
-rv
-=
 mOuter
 -
 >
@@ -13187,12 +13178,6 @@ aBuilder
 mScrolledFrame
 dirtyRect
 set
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /
@@ -13517,8 +13502,6 @@ by
 us
 )
 .
-rv
-=
 mOuter
 -
 >
@@ -13531,12 +13514,6 @@ clip
 radii
 true
 mIsRoot
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
