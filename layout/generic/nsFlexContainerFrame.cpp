@@ -16315,8 +16315,9 @@ array
 per
 line
 )
+const
 nscoord
-flexContainerMainSize
+contentBoxMainSize
 =
 ComputeFlexContainerMainSize
 (
@@ -16328,7 +16329,7 @@ items
 ResolveFlexibleLengths
 (
 axisTracker
-flexContainerMainSize
+contentBoxMainSize
 items
 )
 ;
@@ -16352,10 +16353,11 @@ border
 and
 padding
 .
+const
 nscoord
 frameMainSize
 =
-flexContainerMainSize
+contentBoxMainSize
 +
 axisTracker
 .
