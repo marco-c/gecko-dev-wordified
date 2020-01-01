@@ -1853,13 +1853,10 @@ if
 isPrintPreview
 )
 {
-nscoord
-deadSpaceGapTwips
-;
 GetDeadSpaceValue
 (
 &
-deadSpaceGapTwips
+gapInTwips
 )
 ;
 deadSpaceGap
