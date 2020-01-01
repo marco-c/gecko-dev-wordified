@@ -36875,6 +36875,11 @@ GetRootContent
 ;
 if
 (
+rootElem
+)
+{
+if
+(
 aActivate
 )
 rootElem
@@ -36910,6 +36915,7 @@ active
 PR_TRUE
 )
 ;
+}
 }
 }
 }
