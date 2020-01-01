@@ -679,6 +679,9 @@ nsIScriptContext
 class
 nsIRunnable
 ;
+class
+nsIInterfaceRequestor
+;
 template
 <
 class
@@ -8034,6 +8037,13 @@ GetCurrentJSContext
 (
 )
 ;
+static
+nsIInterfaceRequestor
+*
+GetSameOriginChecker
+(
+)
+;
 private
 :
 static
@@ -8306,6 +8316,11 @@ sBlockedScriptRunners
 static
 PRUint32
 sRunnersCountAtFirstBlocker
+;
+static
+nsIInterfaceRequestor
+*
+sSameOriginChecker
 ;
 }
 ;
