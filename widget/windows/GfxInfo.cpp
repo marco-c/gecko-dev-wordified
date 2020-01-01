@@ -147,15 +147,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 prenv
 .
 h
@@ -1435,8 +1426,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 =

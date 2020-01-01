@@ -332,15 +332,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 nsGenericElement
 .
 h
@@ -22403,8 +22394,6 @@ DispatchContentLoadedEvents
 (
 )
 {
-NS_TIME_FUNCTION
-;
 /
 /
 If

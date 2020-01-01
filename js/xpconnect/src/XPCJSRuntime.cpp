@@ -166,15 +166,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 prsystem
 .
 h
@@ -13953,8 +13944,6 @@ JSDHashEntryStub
 ;
 #
 endif
-NS_TIME_FUNCTION
-;
 DOM_InitInterfaces
 (
 )
@@ -14652,8 +14641,6 @@ JSContext
 cx
 )
 {
-NS_TIME_FUNCTION
-;
 /
 /
 if

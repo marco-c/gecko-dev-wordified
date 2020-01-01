@@ -294,15 +294,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -2869,11 +2860,6 @@ PR_GetCurrentThread
 )
 )
 return
-;
-NS_TIME_FUNCTION_MIN
-(
-30
-)
 ;
 PR_JoinThread
 (

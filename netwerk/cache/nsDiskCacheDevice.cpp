@@ -305,15 +305,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -3086,8 +3077,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 ;

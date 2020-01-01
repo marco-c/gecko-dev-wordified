@@ -333,15 +333,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 net
 /
 NeckoCommon
@@ -6950,8 +6941,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 /
 /
 Thie

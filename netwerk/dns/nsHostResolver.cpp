@@ -266,15 +266,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
@@ -2778,8 +2769,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 PL_DHashTableInit
 (
 &

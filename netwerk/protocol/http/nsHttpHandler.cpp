@@ -523,15 +523,6 @@ HttpChannelChild
 h
 "
 #
-include
-"
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
 ifdef
 DEBUG
 /
@@ -1457,8 +1448,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 ;
@@ -2277,8 +2266,6 @@ InitConnectionMgr
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 ;

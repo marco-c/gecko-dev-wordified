@@ -184,15 +184,6 @@ FileUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-FunctionTimer
-.
-h
-"
 bool
 mozilla
 :
@@ -206,8 +197,6 @@ int64_t
 aLength
 )
 {
-NS_TIME_FUNCTION
-;
 #
 if
 defined

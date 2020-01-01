@@ -382,15 +382,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CORSMode
 .
 h
@@ -4945,8 +4936,6 @@ script
 ;
 nsAutoString
 textData
-;
-NS_TIME_FUNCTION
 ;
 nsCOMPtr
 <

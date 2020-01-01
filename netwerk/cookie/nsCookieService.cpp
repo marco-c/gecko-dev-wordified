@@ -388,15 +388,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Util
 .
 h
@@ -5206,8 +5197,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 ;

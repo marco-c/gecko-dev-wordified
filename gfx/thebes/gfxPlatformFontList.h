@@ -150,15 +150,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
@@ -555,8 +546,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 NS_ASSERTION
 (
 !

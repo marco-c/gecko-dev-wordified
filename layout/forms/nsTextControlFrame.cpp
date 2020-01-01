@@ -604,15 +604,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Selection
 .
 h
@@ -1827,8 +1818,6 @@ mUseEditor
 )
 return
 NS_OK
-;
-NS_TIME_FUNCTION
 ;
 nsIDocument
 *

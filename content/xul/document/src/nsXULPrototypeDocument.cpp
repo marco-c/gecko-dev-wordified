@@ -215,15 +215,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 nsIDOMScriptObjectFactory
 .
 h
@@ -1277,8 +1268,6 @@ nsIObjectInputStream
 aStream
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 ;

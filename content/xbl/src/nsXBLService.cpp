@@ -231,15 +231,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -6511,8 +6502,6 @@ nsIDocument
 aResult
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 =
