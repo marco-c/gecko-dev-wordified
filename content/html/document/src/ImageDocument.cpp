@@ -658,7 +658,7 @@ aImage
 )
 ;
 nsresult
-OnStopDecode
+OnStopRequest
 (
 imgIRequest
 *
@@ -2539,7 +2539,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_CONTAINER
+STOP_DECODE
 )
 {
 if
@@ -2664,7 +2664,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_DECODE
+STOP_REQUEST
 )
 {
 uint32_t
@@ -2694,7 +2694,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 return
-OnStopDecode
+OnStopRequest
 (
 aRequest
 status
@@ -2773,7 +2773,7 @@ nsresult
 ImageDocument
 :
 :
-OnStopDecode
+OnStopRequest
 (
 imgIRequest
 *
