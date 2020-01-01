@@ -15752,6 +15752,9 @@ endif
 NJ_VERBOSE
 #
 ifdef
+FEATURE_NANOJIT
+#
+ifdef
 DEBUG
 LIns
 *
@@ -16201,6 +16204,8 @@ s2
 )
 ;
 }
+#
+endif
 #
 endif
 }
