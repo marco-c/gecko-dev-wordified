@@ -4444,6 +4444,11 @@ it
 exists
 if
 (
+name
+in
+thisObj
+&
+&
 thisObj
 [
 name
