@@ -6663,8 +6663,6 @@ dc
 FLOAT
 )
 (
-scale
-*
 style
 -
 >

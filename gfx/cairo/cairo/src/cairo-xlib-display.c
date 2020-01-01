@@ -1494,6 +1494,11 @@ codes
 NULL
 )
 {
+_cairo_error_throw
+(
+CAIRO_STATUS_NO_MEMORY
+)
+;
 free
 (
 display

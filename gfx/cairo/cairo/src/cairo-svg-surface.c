@@ -426,6 +426,17 @@ org
 *
 /
 #
+define
+_BSD_SOURCE
+/
+*
+for
+snprintf
+(
+)
+*
+/
+#
 include
 "
 cairoint

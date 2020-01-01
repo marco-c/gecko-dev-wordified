@@ -402,6 +402,17 @@ com
 *
 /
 #
+define
+_BSD_SOURCE
+/
+*
+for
+strdup
+(
+)
+*
+/
+#
 include
 "
 cairoint
