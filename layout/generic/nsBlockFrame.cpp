@@ -40700,6 +40700,9 @@ GetBreakTypeAfter
 ;
 }
 }
+return
+NS_STYLE_CLEAR_NONE
+;
 }
 nsresult
 nsBlockFrame
