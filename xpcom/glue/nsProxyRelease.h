@@ -1487,6 +1487,17 @@ get
 )
 ;
 }
+operator
+bool
+(
+)
+{
+return
+get
+(
+)
+;
+}
 /
 /
 These
