@@ -615,15 +615,10 @@ operationCallbackLock
 (
 NULL
 )
-#
-ifdef
-DEBUG
 operationCallbackOwner
 (
 NULL
 )
-#
-endif
 #
 endif
 #
