@@ -387,6 +387,16 @@ name
 ;
 /
 /
+Mangled
+name
+of
+the
+function
+string
+mangled_name
+;
+/
+/
 File
 containing
 this
@@ -1160,6 +1170,9 @@ reader_
 FunctionInfo
 *
 current_function_info_
+;
+uint64
+current_compilation_unit_offset_
 ;
 }
 ;
