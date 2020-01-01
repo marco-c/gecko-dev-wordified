@@ -747,6 +747,15 @@ SurfaceMode
 aMode
 )
 ;
+void
+SetupDualViewports
+(
+const
+gfxIntSize
+&
+aSize
+)
+;
 /
 /
 Fill
