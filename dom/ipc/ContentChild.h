@@ -859,6 +859,16 @@ nsString
 aJSON
 )
 ;
+virtual
+bool
+RecvGeolocationUpdate
+(
+const
+GeoPosition
+&
+somewhere
+)
+;
 private
 :
 NS_OVERRIDE
