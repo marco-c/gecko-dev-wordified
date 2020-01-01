@@ -1471,7 +1471,13 @@ aIndex
 )
 ;
 virtual
-nsGenericElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetElementAt
 (
