@@ -477,9 +477,6 @@ nsLineLayout
 class
 nsIPercentHeightObserver
 ;
-class
-nsPlaceholderFrame
-;
 struct
 nsStyleDisplay
 ;
@@ -1168,7 +1165,7 @@ member
 .
 *
 return
-true
+PR_TRUE
 if
 the
 margin
@@ -1211,7 +1208,7 @@ member
 .
 *
 return
-true
+PR_TRUE
 if
 the
 padding
@@ -3496,7 +3493,7 @@ CalculateHypotheticalBox
 nsPresContext
 *
 aPresContext
-nsPlaceholderFrame
+nsIFrame
 *
 aPlaceholderFrame
 nsIFrame
