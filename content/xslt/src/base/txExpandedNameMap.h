@@ -744,12 +744,6 @@ key
 NS_ASSERTION
 (
 mCurrentPos
->
-=
-0
-&
-&
-mCurrentPos
 <
 mMap
 .
@@ -801,12 +795,6 @@ itemValue
 {
 NS_ASSERTION
 (
-mCurrentPos
->
-=
-0
-&
-&
 mCurrentPos
 <
 mMap
