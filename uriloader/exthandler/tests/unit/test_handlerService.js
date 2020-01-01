@@ -312,7 +312,7 @@ getBranch
 )
 ;
 let
-isWin7OrHigher
+isWin7
 =
 false
 ;
@@ -378,14 +378,14 @@ version
 "
 )
 ;
-isWin7OrHigher
+isWin7
 =
 (
 parseFloat
 (
 version
 )
->
+=
 =
 6
 .
@@ -1517,7 +1517,7 @@ mailto
 handler
 if
 (
-isWin7OrHigher
+isWin7
 )
 do_check_true
 (
@@ -1656,7 +1656,7 @@ ignored
 .
 if
 (
-isWin7OrHigher
+isWin7
 )
 do_check_true
 (
