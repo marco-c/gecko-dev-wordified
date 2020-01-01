@@ -7134,10 +7134,16 @@ mib
 CTL_KERN
 KERN_PROC
 KERN_PROC_PID
+static_cast
+<
+int
+>
+(
 info_ptr
 -
 >
 process_id
+)
 }
 ;
 u_int
