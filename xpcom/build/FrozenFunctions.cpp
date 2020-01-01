@@ -361,9 +361,14 @@ post
 1
 .
 9
-&
-NS_CycleCollectorSuspect2
+but
+then
+made
+obsolete
 nullptr
+nullptr
+&
+NS_CycleCollectorSuspect3
 }
 ;
 EXPORT_XPCOM_API

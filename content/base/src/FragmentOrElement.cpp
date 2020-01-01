@@ -6415,6 +6415,10 @@ PR_USEC_PER_MSEC
 )
 ;
 }
+nsCycleCollector_dispatchDeferredDeletion
+(
+)
+;
 if
 (
 this
@@ -10489,7 +10493,7 @@ NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 FragmentOrElement
 )
-NS_IMPL_CYCLE_COLLECTING_RELEASE_WITH_DESTROY
+NS_IMPL_CYCLE_COLLECTING_RELEASE_WITH_LAST_RELEASE
 (
 FragmentOrElement
 nsNodeUtils

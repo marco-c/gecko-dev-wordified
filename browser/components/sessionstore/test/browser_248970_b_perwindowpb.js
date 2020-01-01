@@ -858,7 +858,11 @@ html
 ;
 whenNewWindowLoaded
 (
+{
+private
+:
 false
+}
 function
 (
 aWin
@@ -1217,7 +1221,11 @@ tab_A_restored
 ;
 whenNewWindowLoaded
 (
+{
+private
+:
 true
+}
 function
 (
 aWin

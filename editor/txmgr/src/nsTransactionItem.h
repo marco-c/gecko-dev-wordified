@@ -342,6 +342,11 @@ int32_t
 aNumItems
 )
 ;
+void
+CleanUp
+(
+)
+;
 protected
 :
 nsCycleCollectingAutoRefCnt

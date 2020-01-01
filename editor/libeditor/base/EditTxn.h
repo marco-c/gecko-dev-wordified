@@ -170,6 +170,13 @@ EditTxn
 (
 )
 ;
+virtual
+void
+LastRelease
+(
+)
+{
+}
 NS_IMETHOD
 RedoTransaction
 (

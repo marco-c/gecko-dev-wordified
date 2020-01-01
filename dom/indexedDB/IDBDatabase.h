@@ -632,6 +632,13 @@ IDBObjectStore
 _retval
 )
 ;
+virtual
+void
+LastRelease
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 IDBDatabase

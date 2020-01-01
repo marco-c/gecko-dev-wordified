@@ -1680,9 +1680,6 @@ aNode
 aNode
 )
 ;
-delete
-aNode
-;
 }
 struct
 MOZ_STACK_CLASS

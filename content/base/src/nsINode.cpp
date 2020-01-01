@@ -1011,7 +1011,7 @@ nsINode
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 HasSlots
@@ -1029,7 +1029,7 @@ called
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mSubtreeRoot
 =

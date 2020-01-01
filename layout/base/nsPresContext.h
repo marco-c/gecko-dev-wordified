@@ -7262,6 +7262,11 @@ nsString
 aColor
 )
 ;
+void
+LastRelease
+(
+)
+;
 #
 ifdef
 DEBUG
