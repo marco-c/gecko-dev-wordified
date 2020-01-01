@@ -1413,6 +1413,11 @@ closeAudio
 s
 )
 ;
+free
+(
+s
+)
+;
 return
 status
 ;
