@@ -441,7 +441,7 @@ gecko
 .
 gfx
 .
-IntSize
+DisplayPortMetrics
 ;
 import
 org
@@ -452,7 +452,7 @@ gecko
 .
 gfx
 .
-RectUtils
+IntSize
 ;
 import
 org
@@ -2946,7 +2946,7 @@ createViewportEvent
 (
 ViewportMetrics
 viewport
-RectF
+DisplayPortMetrics
 displayPort
 )
 {
@@ -3063,11 +3063,10 @@ displayPort
 .
 append
 (
-RectUtils
+displayPort
 .
 toJSON
 (
-displayPort
 )
 )
 .
