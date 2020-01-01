@@ -1303,7 +1303,8 @@ JSSTRING_SET_DEFLATED
 (
 str
 )
-js_AtomicSetMask
+\
+JS_ATOMIC_SET_MASK
 (
 (
 jsword
@@ -1316,10 +1317,8 @@ str
 -
 >
 length
-\
 JSSTRFLAG_DEFLATED
 )
-;
 #
 define
 JSSTRING_CHARS_AND_LENGTH
@@ -1839,7 +1838,7 @@ str
 )
 ;
 \
-js_AtomicSetMask
+JS_ATOMIC_SET_MASK
 (
 (
 jsword
