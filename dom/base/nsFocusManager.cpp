@@ -681,7 +681,7 @@ aPresShell
 nsIDocument
 *
 aDocument
-nsIDOMEventTarget
+EventTarget
 *
 aTarget
 )
@@ -755,7 +755,7 @@ mDocument
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 mTarget
 ;
@@ -5995,7 +5995,7 @@ mType
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =
@@ -12191,7 +12191,7 @@ SendFocusOrBlurEvent
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 eventTarget
 =
