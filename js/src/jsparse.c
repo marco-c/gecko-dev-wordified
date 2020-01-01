@@ -10415,7 +10415,7 @@ js_LexicalLookup
 tc
 atom
 NULL
-JS_FALSE
+0
 )
 ;
 ATOM_LIST_SEARCH
