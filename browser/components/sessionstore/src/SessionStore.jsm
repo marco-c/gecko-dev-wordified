@@ -4993,7 +4993,7 @@ aWindow
 this
 .
 _deferredInitialState
-true
+false
 )
 ;
 this
