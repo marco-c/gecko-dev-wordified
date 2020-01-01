@@ -4331,6 +4331,11 @@ GetInheritedFrameType
 (
 )
 ;
+bool
+HasUnloadedParent
+(
+)
+;
 /
 /
 hash
