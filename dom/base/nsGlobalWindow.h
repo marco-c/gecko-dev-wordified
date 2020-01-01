@@ -4950,6 +4950,15 @@ nsAString
 aManifestURL
 )
 ;
+nsresult
+GetApp
+(
+mozIDOMApplication
+*
+*
+aApplication
+)
+;
 /
 /
 Implements
