@@ -767,10 +767,6 @@ fill
 in
 returned
 value
-when
-non
--
-null
 .
 nsStyleAnimation
 :
@@ -793,16 +789,6 @@ AppendElement
 (
 )
 ;
-if
-(
-!
-p
-)
-{
-return
-nsnull
-;
-}
 p
 -
 >
@@ -834,7 +820,7 @@ mValue
 ;
 private
 :
-nsTArray
+InfallibleTArray
 <
 PropertyValuePair
 >

@@ -1602,15 +1602,6 @@ pt
 mProperty
 )
 ;
-if
-(
-!
-val
-)
-{
-continue
-;
-}
 double
 valuePortion
 =
