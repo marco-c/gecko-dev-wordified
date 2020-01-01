@@ -2055,8 +2055,6 @@ nsSupportsWeakReference
 public
 nsIInterfaceRequestor
 public
-nsIDOMWindow_2_0_BRANCH
-public
 nsWrapperCache
 public
 PRCListStr
@@ -2262,10 +2260,6 @@ NS_DECL_NSIDOMJSWINDOW
 /
 nsIDOMEventTarget
 NS_DECL_NSIDOMEVENTTARGET
-/
-/
-nsIDOMWindow_2_0_BRANCH
-NS_DECL_NSIDOMWINDOW_2_0_BRANCH
 /
 /
 nsPIDOMWindow
