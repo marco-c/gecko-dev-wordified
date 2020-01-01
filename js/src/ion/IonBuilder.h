@@ -1681,9 +1681,6 @@ MBasicBlock
 header
 jsbytecode
 *
-loopHead
-jsbytecode
-*
 loopEntry
 )
 ;
