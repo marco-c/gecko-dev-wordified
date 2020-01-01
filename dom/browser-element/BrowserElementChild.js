@@ -438,6 +438,12 @@ this
 ;
 docShell
 .
+isBrowserFrame
+=
+true
+;
+docShell
+.
 QueryInterface
 (
 Ci
