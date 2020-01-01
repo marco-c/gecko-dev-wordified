@@ -3868,7 +3868,7 @@ to
 Flush
 (
 )
-diry
+dirty
 datasource
 during
 XPCOM
