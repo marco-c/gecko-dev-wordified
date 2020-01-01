@@ -426,6 +426,13 @@ BLOCK
 /
 #
 include
+<
+assert
+.
+h
+>
+#
+include
 "
 gfxQPainterSurface
 .
@@ -661,7 +668,7 @@ isurf
 return
 nsnull
 ;
-if
+assert
 (
 cairo_surface_get_type
 (
@@ -671,8 +678,6 @@ isurf
 =
 CAIRO_SURFACE_TYPE_IMAGE
 )
-return
-nsnull
 ;
 nsRefPtr
 <
