@@ -6717,7 +6717,7 @@ script
 )
 -
 >
-compileAndGo
+global
 )
 return
 disable
@@ -6732,6 +6732,7 @@ compile
 and
 -
 go
+global
 "
 )
 ;

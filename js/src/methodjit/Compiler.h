@@ -2046,7 +2046,7 @@ analyze
 CrossScriptSSA
 ssa
 ;
-JSObject
+GlobalObject
 *
 globalObj
 ;
@@ -2054,6 +2054,14 @@ Value
 *
 globalSlots
 ;
+/
+*
+Original
+slots
+pointer
+.
+*
+/
 Assembler
 masm
 ;
