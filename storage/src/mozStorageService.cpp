@@ -3403,7 +3403,7 @@ ConstructTelemetryVFS
 ;
 #
 ifdef
-MOZ_MEMORY
+MOZ_STORAGE_MEMORY
 #
 include
 "
@@ -3831,7 +3831,7 @@ namespace
 endif
 /
 /
-MOZ_MEMORY
+MOZ_STORAGE_MEMORY
 nsresult
 Service
 :
@@ -3847,7 +3847,7 @@ rc
 ;
 #
 ifdef
-MOZ_MEMORY
+MOZ_STORAGE_MEMORY
 rc
 =
 :
