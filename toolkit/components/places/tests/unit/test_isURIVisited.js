@@ -549,6 +549,7 @@ callback
 )
 ;
 yield
+undefined
 ;
 }
 }

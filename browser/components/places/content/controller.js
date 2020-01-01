@@ -6617,6 +6617,7 @@ DISPATCH_NORMAL
 )
 ;
 yield
+undefined
 ;
 }
 }
