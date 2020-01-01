@@ -439,6 +439,12 @@ pc
 .
 _observer
 ;
+pc
+.
+_pc
+=
+null
+;
 }
 )
 ;
