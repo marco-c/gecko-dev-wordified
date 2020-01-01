@@ -2179,9 +2179,6 @@ keyword
 location
 "
 "
-folderPicker
-"
-"
 loadInSidebar
 "
 ]
@@ -5209,6 +5206,13 @@ itemId
 readOnly
 :
 isRootItem
+hiddenRows
+:
+[
+"
+folderPicker
+"
+]
 }
 window
 .

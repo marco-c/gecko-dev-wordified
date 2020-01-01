@@ -1159,9 +1159,6 @@ description
 location
 "
 "
-folderPicker
-"
-"
 loadInSidebar
 "
 "

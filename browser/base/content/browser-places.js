@@ -2760,9 +2760,6 @@ location
 loadInSidebar
 "
 "
-folderPicker
-"
-"
 keyword
 "
 ]

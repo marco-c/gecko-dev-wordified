@@ -10939,9 +10939,6 @@ location
 loadInSidebar
 "
 "
-folderPicker
-"
-"
 keyword
 "
 ]
