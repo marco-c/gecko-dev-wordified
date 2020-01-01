@@ -1336,16 +1336,6 @@ return
 empty
 ;
 }
-virtual
-PRBool
-SupportsSelfCopy
-(
-)
-{
-return
-PR_TRUE
-;
-}
 /
 *
 *

@@ -889,16 +889,6 @@ GetAsImageSurface
 (
 )
 ;
-virtual
-PRBool
-SupportsSelfCopy
-(
-)
-{
-return
-PR_FALSE
-;
-}
 /
 *
 *
