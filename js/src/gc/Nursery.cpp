@@ -332,7 +332,6 @@ return
 true
 ;
 }
-void
 js
 :
 :
