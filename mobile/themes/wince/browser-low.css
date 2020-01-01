@@ -2344,12 +2344,6 @@ tool
 bookmarks
 -
 close
-#
-tool
--
-folders
--
-close
 {
 min
 -
@@ -2423,7 +2417,9 @@ placeitem
 [
 type
 =
+"
 folder
+"
 ]
 .
 bookmark
