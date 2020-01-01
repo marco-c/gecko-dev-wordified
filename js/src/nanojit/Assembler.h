@@ -1531,7 +1531,7 @@ None
 0
 StackFull
 UnknownBranch
-ConditionalBranchTooFar
+BranchTooFar
 }
 ;
 typedef
@@ -3725,7 +3725,6 @@ RegAlloc
 a
 )
 ;
-static
 void
 nPatchBranch
 (

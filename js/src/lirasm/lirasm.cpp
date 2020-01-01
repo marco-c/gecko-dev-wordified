@@ -5758,13 +5758,13 @@ case
 nanojit
 :
 :
-ConditionalBranchTooFar
+BranchTooFar
 :
 cerr
 <
 <
 "
-ConditionalBranchTooFar
+BranchTooFar
 "
 ;
 break
