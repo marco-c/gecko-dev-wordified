@@ -30668,7 +30668,7 @@ SetInitialChildList
 nsGkAtoms
 :
 :
-popupList
+selectPopupList
 popupItems
 .
 childList
