@@ -42564,6 +42564,12 @@ inlineCallCount
 ;
 #
 endif
+JSContext
+*
+localCx
+=
+cx
+;
 VMSideExit
 *
 innermostNestedGuard
@@ -42603,7 +42609,7 @@ if
 !
 TRACE_RECORDER
 (
-cx
+localCx
 )
 )
 return
@@ -42697,12 +42703,6 @@ if
 innermostNestedGuard
 )
 {
-JSContext
-*
-_cx
-=
-cx
-;
 js_AbortRecording
 (
 cx
@@ -42728,7 +42728,7 @@ tree
 return
 AttemptToExtendTree
 (
-_cx
+localCx
 innermostNestedGuard
 lr
 outer
@@ -42794,12 +42794,6 @@ stable
 .
 *
 /
-JSContext
-*
-_cx
-=
-cx
-;
 JSObject
 *
 _globalObj
@@ -42825,7 +42819,7 @@ recording
 return
 AttemptToStabilizeTree
 (
-_cx
+localCx
 _globalObj
 lr
 outer
@@ -42898,12 +42892,6 @@ tree
 .
 *
 /
-JSContext
-*
-_cx
-=
-cx
-;
 js_AbortRecording
 (
 cx
@@ -42923,7 +42911,7 @@ recording
 return
 AttemptToExtendTree
 (
-_cx
+localCx
 lr
 NULL
 outer
