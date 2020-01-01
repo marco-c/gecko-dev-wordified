@@ -194,7 +194,7 @@ URI_TO_LOAD
 "
 about
 :
-home
+mozilla
 "
 ;
 function

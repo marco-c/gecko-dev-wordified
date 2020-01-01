@@ -48,7 +48,7 @@ url
 "
 about
 :
-home
+mozilla
 "
 }
 ]
@@ -73,7 +73,7 @@ url
 "
 about
 :
-home
+mozilla
 "
 "
 groupID
@@ -120,7 +120,7 @@ url
 "
 about
 :
-home
+mozilla
 "
 }
 ]
@@ -172,7 +172,7 @@ url
 "
 about
 :
-home
+mozilla
 "
 "
 groupID
