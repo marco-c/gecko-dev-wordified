@@ -1342,6 +1342,12 @@ NSUInteger
 )
 pressedMouseButtons
 ;
++
+(
+NSUInteger
+)
+modifierFlags
+;
 end
 #
 endif
