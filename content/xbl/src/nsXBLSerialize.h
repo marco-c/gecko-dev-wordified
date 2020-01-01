@@ -549,9 +549,14 @@ aContext
 nsIObjectInputStream
 *
 aStream
+JS
+:
+:
+MutableHandle
+<
 JSObject
 *
-*
+>
 aFunctionObject
 )
 ;

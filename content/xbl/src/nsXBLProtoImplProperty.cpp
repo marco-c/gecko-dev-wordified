@@ -1894,11 +1894,8 @@ XBL_DeserializeFunction
 (
 aContext
 aStream
+&
 getterObject
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1953,11 +1950,8 @@ XBL_DeserializeFunction
 (
 aContext
 aStream
+&
 setterObject
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
