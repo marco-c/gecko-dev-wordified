@@ -1437,6 +1437,10 @@ UpdateSurface
 (
 )
 ;
+FireDidTransactionCallback
+(
+)
+;
 if
 (
 !

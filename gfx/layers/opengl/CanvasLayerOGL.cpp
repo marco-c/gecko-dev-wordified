@@ -1157,6 +1157,10 @@ UpdateSurface
 (
 )
 ;
+FireDidTransactionCallback
+(
+)
+;
 mOGLManager
 -
 >

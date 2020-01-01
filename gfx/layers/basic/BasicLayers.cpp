@@ -6185,6 +6185,10 @@ UpdateSurface
 (
 )
 ;
+FireDidTransactionCallback
+(
+)
+;
 PaintWithOpacity
 (
 aContext
