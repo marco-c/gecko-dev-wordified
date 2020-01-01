@@ -776,6 +776,12 @@ define
 EMMS
 (
 )
+(
+(
+void
+)
+0
+)
 #
 endif
 }
