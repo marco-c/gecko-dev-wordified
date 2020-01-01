@@ -948,6 +948,14 @@ BStreamListeners
 (
 )
 ;
+nsresult
+AsyncSetWindow
+(
+NPWindow
+&
+window
+)
+;
 protected
 :
 nsresult
