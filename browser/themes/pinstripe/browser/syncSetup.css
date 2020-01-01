@@ -404,11 +404,7 @@ width
 ;
 }
 #
-add
--
-device
--
-throbber
+pairDeviceThrobber
 >
 image
 #

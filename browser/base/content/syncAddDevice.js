@@ -555,11 +555,7 @@ document
 getElementById
 (
 "
-add
--
-device
--
-throbber
+pairDeviceThrobber
 "
 )
 ;
