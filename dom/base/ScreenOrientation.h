@@ -105,7 +105,7 @@ java
 enum
 ScreenOrientation
 {
-eScreenOrientation_Current
+eScreenOrientation_None
 =
 0
 eScreenOrientation_PortraitPrimary
@@ -200,7 +200,7 @@ ScreenOrientationWrapper
 :
 orientation
 (
-eScreenOrientation_Current
+eScreenOrientation_None
 )
 {
 }
@@ -308,7 +308,7 @@ mozilla
 dom
 :
 :
-eScreenOrientation_Current
+eScreenOrientation_None
 mozilla
 :
 :
