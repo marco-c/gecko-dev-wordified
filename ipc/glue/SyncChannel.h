@@ -753,6 +753,11 @@ Message
 aMsg
 )
 ;
+void
+WaitForNotify
+(
+)
+;
 /
 /
 Executed
@@ -767,6 +772,11 @@ OnSendReply
 Message
 *
 msg
+)
+;
+void
+NotifyWorkerThread
+(
 )
 ;
 /
