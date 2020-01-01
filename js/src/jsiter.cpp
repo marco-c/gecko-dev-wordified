@@ -2359,10 +2359,6 @@ vp
 &
 arg
 vp
-.
-address
-(
-)
 )
 )
 return
@@ -4071,10 +4067,6 @@ method
 0
 NULL
 vp
-.
-address
-(
-)
 )
 )
 return
@@ -8354,10 +8346,6 @@ rval
 0
 NULL
 rval
-.
-address
-(
-)
 )
 )
 {

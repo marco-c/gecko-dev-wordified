@@ -3286,8 +3286,7 @@ argc
 Value
 *
 argv
-Value
-*
+MutableHandleValue
 rval
 )
 {
@@ -3444,13 +3443,15 @@ args
 return
 false
 ;
-*
 rval
-=
+.
+set
+(
 args
 .
 rval
 (
+)
 )
 ;
 return
@@ -3825,8 +3826,7 @@ argc
 Value
 *
 argv
-Value
-*
+MutableHandleValue
 rval
 )
 {
