@@ -176,6 +176,9 @@ see
 bug
 586550
 #
+ifndef
+WTF_OS_ANDROID
+#
 include
 <
 asm
@@ -184,6 +187,8 @@ hwcap
 .
 h
 >
+#
+endif
 #
 include
 "
