@@ -160,6 +160,12 @@ accept
 self
 )
         
+if
+tu
+.
+protocol
+:
+            
 tu
 .
 protocol
