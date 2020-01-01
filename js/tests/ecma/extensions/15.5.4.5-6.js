@@ -643,7 +643,7 @@ Note
 that
 the
 charCodeAt
-funciton
+function
 is
 intentionally
 generic
