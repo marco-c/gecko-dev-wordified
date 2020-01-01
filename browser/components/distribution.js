@@ -1698,7 +1698,7 @@ this
 .
 _bmSvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 "
 BookmarksMenu
 "
