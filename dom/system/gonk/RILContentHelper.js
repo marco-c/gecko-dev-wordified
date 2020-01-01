@@ -2525,6 +2525,8 @@ if
 (
 this
 .
+rilContext
+.
 networkSelectionMode
 =
 =
@@ -2698,6 +2700,8 @@ request
 if
 (
 this
+.
+rilContext
 .
 networkSelectionMode
 =
@@ -5711,6 +5715,8 @@ NetworkSelectionModeChanged
 :
 this
 .
+rilContext
+.
 networkSelectionMode
 =
 msg
@@ -6734,6 +6740,8 @@ _selectingNetwork
 null
 ;
 this
+.
+rilContext
 .
 networkSelectionMode
 =
