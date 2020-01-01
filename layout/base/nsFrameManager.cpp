@@ -1574,14 +1574,6 @@ mLastLookup
 nsFrameManager
 :
 :
-nsFrameManager
-(
-)
-{
-}
-nsFrameManager
-:
-:
 ~
 nsFrameManager
 (
@@ -1608,9 +1600,6 @@ nsFrameManager
 :
 Init
 (
-nsIPresShell
-*
-aPresShell
 nsStyleSet
 *
 aStyleSet
@@ -1619,7 +1608,7 @@ aStyleSet
 if
 (
 !
-aPresShell
+mPresShell
 )
 {
 NS_ERROR
@@ -1654,10 +1643,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-mPresShell
-=
-aPresShell
-;
 mStyleSet
 =
 aStyleSet
