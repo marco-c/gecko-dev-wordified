@@ -1500,6 +1500,15 @@ return
 mPrincipal
 ;
 }
+void
+SetBackgroundColor
+(
+const
+nscolor
+&
+aColor
+)
+;
 protected
 :
 NS_OVERRIDE
@@ -1590,6 +1599,9 @@ mChromeFlags
 ;
 nsIntRect
 mOuterRect
+;
+nscolor
+mLastBackgroundColor
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

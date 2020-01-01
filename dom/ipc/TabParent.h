@@ -836,6 +836,16 @@ aValue
 ;
 virtual
 bool
+RecvSetBackgroundColor
+(
+const
+nscolor
+&
+aValue
+)
+;
+virtual
+bool
 RecvGetDPI
 (
 float
