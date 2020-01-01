@@ -606,7 +606,7 @@ Length
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
