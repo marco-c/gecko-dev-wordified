@@ -2148,7 +2148,9 @@ shadow
 inset
 3px
 3px
-8px
+5
+.
+5px
 #
 555
 ;
@@ -4458,7 +4460,9 @@ shadow
 777
 1px
 1px
-2px
+1
+.
+5px
 ;
 width
 :
@@ -5065,7 +5069,7 @@ shadow
 00FF00
 0px
 0px
-6px
+4px
 -
 1px
 ;
@@ -5090,7 +5094,7 @@ shadow
 FFD800
 0px
 0px
-6px
+4px
 -
 1px
 ;
@@ -5115,7 +5119,7 @@ shadow
 FF0000
 0px
 0px
-6px
+4px
 -
 1px
 ;

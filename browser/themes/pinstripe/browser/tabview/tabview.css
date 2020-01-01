@@ -164,7 +164,9 @@ shadow
 :
 0
 1px
-2px
+1
+.
+5px
 rgba
 (
 0
@@ -692,7 +694,7 @@ rgba
 )
 1px
 1px
-6px
+4px
 ;
 }
 .
@@ -717,7 +719,9 @@ rgba
 )
 1px
 1px
-2px
+1
+.
+5px
 ;
 color
 :
@@ -764,7 +768,9 @@ shadow
 :
 0
 0
-8px
+5
+.
+5px
 -
 moz
 -
@@ -1013,7 +1019,7 @@ shadow
 :
 0
 1px
-4px
+3px
 rgba
 (
 0
@@ -1062,7 +1068,9 @@ rgba
 )
 1px
 1px
-8px
+5
+.
+5px
 ;
 }
 .
@@ -1110,7 +1118,9 @@ shadow
 :
 3px
 3px
-8px
+5
+.
+5px
 rgba
 (
 0
@@ -1171,7 +1181,9 @@ rgba
 )
 2px
 2px
-8px
+5
+.
+5px
 inset
 rgba
 (
@@ -1482,7 +1494,7 @@ rgba
 )
 1px
 1px
-4px
+3px
 ;
 }
 .
@@ -1761,7 +1773,7 @@ shadow
 :
 5px
 5px
-4px
+3px
 rgba
 (
 0
@@ -1784,7 +1796,7 @@ shadow
 :
 2px
 2px
-10px
+7px
 -
 1px
 rgba
