@@ -129,6 +129,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -413,6 +422,7 @@ frame
 /
 class
 AsyncPanZoomController
+MOZ_FINAL
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
