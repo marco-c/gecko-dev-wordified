@@ -268,6 +268,11 @@ ssid
 "
 r
 "
+security
+:
+"
+r
+"
 capabilities
 :
 "
