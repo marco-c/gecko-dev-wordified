@@ -137,3 +137,9 @@ v6
 v7
 ;
 }
+reportCompare
+(
+true
+true
+)
+;
