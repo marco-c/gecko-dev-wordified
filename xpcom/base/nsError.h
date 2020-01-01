@@ -687,7 +687,7 @@ define
 NS_ERROR_MODULE_DOM_XPATH
 22
 /
-/
+*
 23
 used
 to
@@ -698,6 +698,8 @@ see
 bug
 711047
 )
+*
+/
 #
 define
 NS_ERROR_MODULE_URILOADER
