@@ -5214,8 +5214,20 @@ Func
 )
 )
             
-addHeaderForFunc
+#
+getExtendedAttribute
 (
+)
+returns
+a
+list
+extract
+the
+entry
+.
+            
+funcList
+=
 desc
 .
 interface
@@ -5226,6 +5238,20 @@ getExtendedAttribute
 Func
 "
 )
+            
+if
+funcList
+is
+not
+None
+:
+                
+addHeaderForFunc
+(
+funcList
+[
+0
+]
 )
         
 for
