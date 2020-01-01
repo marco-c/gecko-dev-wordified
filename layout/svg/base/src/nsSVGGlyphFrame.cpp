@@ -6110,6 +6110,12 @@ ps
 GetPaintServerPattern
 (
 this
+aContext
+-
+>
+CurrentMatrix
+(
+)
 &
 nsStyleSVG
 :
