@@ -204,6 +204,15 @@ Vector
 .
 h
 "
+#
+include
+"
+vm
+/
+RegExpObject
+.
+h
+"
 namespace
 js
 {
