@@ -923,6 +923,11 @@ PEERCONNECTION_MODULE
 \
 GIO_MODULE
 \
+MODULE
+(
+DiskSpaceWatcherModule
+)
+\
 /
 *
 end
