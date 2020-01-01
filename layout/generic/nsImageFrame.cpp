@@ -6484,15 +6484,13 @@ within
 the
 formatting
 rect
-nsCOMPtr
-<
 nsIFontMetrics
->
+*
 fm
 =
 aRenderingContext
 .
-GetFontMetrics
+FontMetrics
 (
 )
 ;

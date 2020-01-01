@@ -3707,15 +3707,13 @@ nscoord
 offset
 baseline
 ;
-nsCOMPtr
-<
 nsIFontMetrics
->
+*
 metrics
 =
 aRenderingContext
 .
-GetFontMetrics
+FontMetrics
 (
 )
 ;
