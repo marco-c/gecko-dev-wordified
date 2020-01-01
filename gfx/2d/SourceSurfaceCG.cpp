@@ -713,8 +713,10 @@ if
 mImage
 )
 {
-delete
+free
+(
 data
+)
 ;
 return
 false
