@@ -2205,6 +2205,7 @@ void
 =
 8
 ;
+const
 PRUnichar
 *
 dllFileName
