@@ -507,6 +507,9 @@ BEGIN_INDEXEDDB_NAMESPACE
 struct
 ObjectStoreInfo
 ;
+struct
+IndexUpdateInfo
+;
 class
 Key
 {
@@ -1328,7 +1331,7 @@ IDBObjectStoreRequest
 )
 ;
 nsresult
-GetJSONAndKeyForAdd
+GetAddInfo
 (
 /
 *
@@ -1345,6 +1348,12 @@ aJSON
 Key
 &
 aKey
+nsTArray
+<
+IndexUpdateInfo
+>
+&
+aUpdateInfoArray
 )
 ;
 private
