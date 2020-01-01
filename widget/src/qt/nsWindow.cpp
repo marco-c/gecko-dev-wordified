@@ -2992,16 +2992,7 @@ aY
 ;
 if
 (
-mWindowType
-=
-=
-eWindowType_toplevel
-|
-|
-mWindowType
-=
-=
-eWindowType_dialog
+mIsTopLevel
 )
 {
 SetSizeMode
