@@ -3337,8 +3337,6 @@ DEFAULT
 "
 )
 {
-try
-{
 prefBranch
 .
 clearUserPref
@@ -3352,13 +3350,6 @@ homepage
 "
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 }
 else
 {
