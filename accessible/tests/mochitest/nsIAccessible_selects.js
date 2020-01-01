@@ -712,7 +712,7 @@ extraState
 ;
 aAcc
 .
-getFinalState
+getState
 (
 state
 extraState

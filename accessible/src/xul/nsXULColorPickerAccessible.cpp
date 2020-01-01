@@ -536,11 +536,11 @@ focusable
 selected
 *
 /
-NS_IMETHODIMP
+nsresult
 nsXULColorPickerTileAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -566,7 +566,7 @@ rv
 nsFormControlAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState
@@ -822,11 +822,11 @@ disabled
 )
 *
 /
-NS_IMETHODIMP
+nsresult
 nsXULColorPickerAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -852,7 +852,7 @@ rv
 nsFormControlAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

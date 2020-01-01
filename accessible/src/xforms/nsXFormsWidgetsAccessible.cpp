@@ -494,11 +494,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXFormsDropmarkerWidgetAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -822,11 +822,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXFormsComboboxPopupWidgetAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -847,7 +847,7 @@ rv
 nsXFormsAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

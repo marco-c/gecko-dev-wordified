@@ -1482,11 +1482,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLTableAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -1502,7 +1502,7 @@ rv
 nsAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState
@@ -5659,7 +5659,7 @@ extState
 docAccessible
 -
 >
-GetFinalState
+GetState
 (
 &
 state

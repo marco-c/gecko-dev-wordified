@@ -1043,11 +1043,11 @@ aFinalRole
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsApplicationAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *

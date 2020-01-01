@@ -543,11 +543,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULAlertAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -563,7 +563,7 @@ rv
 nsAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

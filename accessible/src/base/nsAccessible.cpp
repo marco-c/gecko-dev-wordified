@@ -5656,7 +5656,7 @@ nsresult
 nsAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -12698,7 +12698,7 @@ state
 =
 0
 ;
-GetFinalState
+GetState
 (
 &
 state
@@ -14461,7 +14461,7 @@ NS_IMETHODIMP
 nsAccessible
 :
 :
-GetFinalState
+GetState
 (
 PRUint32
 *
@@ -14479,7 +14479,7 @@ aState
 nsresult
 rv
 =
-GetState
+GetStateInternal
 (
 aState
 aExtraState

@@ -1552,11 +1552,11 @@ chromeFlags
 }
 #
 endif
-NS_IMETHODIMP
+nsresult
 nsRootAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -1572,7 +1572,7 @@ rv
 nsDocAccessibleWrap
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState
@@ -4696,7 +4696,7 @@ A11y
 nsXULListitemAccessible
 :
 :
-GetState
+GetStateInternal
 uses
 STATE_SELECTED
 in

@@ -683,7 +683,7 @@ rv
 acc
 -
 >
-GetFinalState
+GetState
 (
 &
 states

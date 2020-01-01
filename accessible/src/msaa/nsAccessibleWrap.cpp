@@ -4050,7 +4050,7 @@ NS_FAILED
 xpAccessible
 -
 >
-GetFinalState
+GetState
 (
 &
 state
@@ -8441,7 +8441,7 @@ extraStates
 nsresult
 rv
 =
-GetFinalState
+GetState
 (
 &
 states

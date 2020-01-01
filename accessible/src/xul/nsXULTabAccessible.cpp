@@ -708,11 +708,11 @@ disabled
 offscreen
 *
 /
-NS_IMETHODIMP
+nsresult
 nsXULTabAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -738,7 +738,7 @@ rv
 nsLeafAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

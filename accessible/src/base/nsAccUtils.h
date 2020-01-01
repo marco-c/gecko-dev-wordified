@@ -1602,7 +1602,7 @@ aAcc
 aAcc
 -
 >
-GetFinalState
+GetState
 (
 &
 state

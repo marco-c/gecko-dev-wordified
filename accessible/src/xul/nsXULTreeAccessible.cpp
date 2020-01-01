@@ -1180,11 +1180,11 @@ aBoxObject
 nsnull
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULTreeAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -1208,7 +1208,7 @@ rv
 nsAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState
@@ -4844,11 +4844,11 @@ expanded
 /
 collapsed
 invisible
-NS_IMETHODIMP
+nsresult
 nsXULTreeitemAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *

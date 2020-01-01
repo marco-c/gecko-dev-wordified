@@ -727,7 +727,7 @@ state
 =
 0
 ;
-GetState
+GetStateInternal
 (
 &
 state
