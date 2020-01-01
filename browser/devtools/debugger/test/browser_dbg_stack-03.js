@@ -60,6 +60,7 @@ gDebugger
 ;
 let
 gFrames
+gFramesScrollingInterval
 ;
 function
 test
@@ -283,7 +284,7 @@ window
 .
 clearInterval
 (
-scrollingIntervalId
+gFramesScrollingInterval
 )
 ;
 closeDebuggerAndFinish
@@ -300,8 +301,7 @@ gPanel
 }
 )
 ;
-let
-scrollingIntervalId
+gFramesScrollingInterval
 =
 window
 .
@@ -335,6 +335,17 @@ function
 (
 )
 {
+window
+.
+clearInterval
+(
+gFramesScrollingInterval
+)
+;
+gFramesScrollingInterval
+=
+null
+;
 gTab
 =
 null
