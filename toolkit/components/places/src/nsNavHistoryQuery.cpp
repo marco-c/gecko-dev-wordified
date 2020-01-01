@@ -2442,6 +2442,14 @@ folders
 )
 ;
 }
+nsMemory
+:
+:
+Free
+(
+folders
+)
+;
 }
 /
 /
