@@ -4277,7 +4277,7 @@ parser
 helper
 methods
 void
-ParseLoop
+ParseChunk
 (
 morkEnv
 *
