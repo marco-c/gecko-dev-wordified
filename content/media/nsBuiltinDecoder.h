@@ -5609,6 +5609,16 @@ on
 the
 monitor
 .
+/
+/
+This
+can
+only
+be
+PLAY_STATE_PAUSED
+or
+PLAY_STATE_PLAYING
+.
 PlayState
 mNextState
 ;
