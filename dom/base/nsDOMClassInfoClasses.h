@@ -1892,6 +1892,10 @@ DOMCI_CLASS
 (
 MozSmsFilter
 )
+DOMCI_CLASS
+(
+MozSmsCursor
+)
 /
 /
 font
