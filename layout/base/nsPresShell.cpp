@@ -48148,7 +48148,7 @@ nsPresContext
 cx
 =
 new
-nsPresContext
+nsRootPresContext
 (
 mDocument
 mPresContext

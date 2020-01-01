@@ -15844,7 +15844,7 @@ aPO
 mPresContext
 =
 new
-nsPresContext
+nsRootPresContext
 (
 aPO
 -
