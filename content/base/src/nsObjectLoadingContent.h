@@ -448,7 +448,7 @@ BLOCK
 A
 base
 class
-implementING
+implementing
 nsIObjectLoadingContent
 for
 use
