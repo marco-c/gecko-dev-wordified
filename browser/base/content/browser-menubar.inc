@@ -1002,6 +1002,11 @@ type
 "
 checkbox
 "
+observes
+=
+"
+workOfflineMenuitemState
+"
 oncommand
 =
 "
