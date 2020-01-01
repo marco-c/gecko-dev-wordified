@@ -13693,7 +13693,7 @@ is
 only
 set
 in
-nsXMLDocument
+XMLDocument
 for
 e
 .

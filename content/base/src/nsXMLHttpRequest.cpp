@@ -3158,7 +3158,7 @@ This
 piece
 copied
 from
-nsXMLDocument
+XMLDocument
 we
 try
 to
