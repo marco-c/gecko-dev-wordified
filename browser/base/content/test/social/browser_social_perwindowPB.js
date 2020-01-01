@@ -361,7 +361,7 @@ content
 /
 test
 /
-social
+general
 /
 moz
 .

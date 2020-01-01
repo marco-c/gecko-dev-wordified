@@ -549,6 +549,8 @@ content
 /
 test
 /
+general
+/
 browser_tabMatchesInAwesomebar
 .
 js
