@@ -511,6 +511,17 @@ numVirtualRegisters_
 (
 0
 )
+numInstructions_
+(
+1
+)
+/
+/
+First
+id
+is
+1
+.
 localSlotCount_
 (
 0

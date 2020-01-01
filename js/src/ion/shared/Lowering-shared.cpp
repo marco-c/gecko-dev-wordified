@@ -730,11 +730,13 @@ type
 )
 )
 ;
-return
 annotate
 (
 lir
 )
+;
+return
+true
 ;
 }
 void
