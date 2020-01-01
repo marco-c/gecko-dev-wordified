@@ -2013,13 +2013,6 @@ PRBool
 aShow
 )
 ;
-virtual
-nsIMenuBar
-*
-GetMenuBar
-(
-)
-;
 NS_IMETHOD
 GetPreferredSize
 (

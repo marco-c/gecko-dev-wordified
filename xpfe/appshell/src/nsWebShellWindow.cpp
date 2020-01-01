@@ -3377,6 +3377,14 @@ pnsMenuBar
 )
 return
 ;
+pnsMenuBar
+-
+>
+Create
+(
+aParentWindow
+)
+;
 /
 /
 fake
