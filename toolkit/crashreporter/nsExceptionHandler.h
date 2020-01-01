@@ -832,13 +832,8 @@ defined
 (
 XP_MACOSX
 )
-/
-/
-FIXME
-:
-mach_port_t
 typedef
-int
+task_t
 ProcessHandle
 ;
 typedef
