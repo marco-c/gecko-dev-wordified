@@ -641,8 +641,6 @@ const
 uint32_t
 *
 mask
-uint32_t
-mask_bits
 )
 {
 pixman_vector_t
@@ -1196,8 +1194,6 @@ if
 mask
 +
 +
-&
-mask_bits
 )
 *
 buffer
@@ -1382,8 +1378,6 @@ mask
 mask
 +
 +
-&
-mask_bits
 )
 {
 if
@@ -1596,15 +1590,6 @@ image
 linear_gradient_t
 *
 linear
-;
-return_val_if_fail
-(
-n_stops
->
-=
-2
-NULL
-)
 ;
 image
 =

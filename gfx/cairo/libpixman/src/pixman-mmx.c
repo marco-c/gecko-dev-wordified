@@ -791,7 +791,7 @@ MC
 (
 x
 )
-M64
+to_m64
 (
 c
 .
@@ -840,7 +840,7 @@ endif
 static
 force_inline
 __m64
-M64
+to_m64
 (
 uint64_t
 x
@@ -906,7 +906,7 @@ endif
 static
 force_inline
 uint64_t
-UINT64
+to_uint64
 (
 __m64
 x
@@ -5456,7 +5456,7 @@ vdest
 =
 expand565
 (
-M64
+to_m64
 (
 d
 )
@@ -5480,7 +5480,7 @@ vdest
 *
 dst
 =
-UINT64
+to_uint64
 (
 vdest
 )
@@ -5626,7 +5626,7 @@ vdest
 =
 expand565
 (
-M64
+to_m64
 (
 d
 )
@@ -5650,7 +5650,7 @@ vdest
 *
 dst
 =
-UINT64
+to_uint64
 (
 vdest
 )
@@ -7788,7 +7788,7 @@ vdest
 =
 expand565
 (
-M64
+to_m64
 (
 d
 )
@@ -7815,7 +7815,7 @@ vdest
 *
 dst
 =
-UINT64
+to_uint64
 (
 vdest
 )
@@ -8049,7 +8049,7 @@ vdest
 =
 expand565
 (
-M64
+to_m64
 (
 d
 )
@@ -8076,7 +8076,7 @@ vdest
 *
 dst
 =
-UINT64
+to_uint64
 (
 vdest
 )
@@ -8314,7 +8314,7 @@ vsrc
 vsrca
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m
 )
@@ -8438,7 +8438,7 @@ vsrc
 vsrca
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m0
 )
@@ -8458,7 +8458,7 @@ vsrc
 vsrca
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m1
 )
@@ -8537,7 +8537,7 @@ vsrc
 vsrca
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m
 )
@@ -8841,7 +8841,7 @@ xor
 ;
 vfill
 =
-M64
+to_m64
 (
 fill
 )
@@ -9748,7 +9748,7 @@ in
 vsrc
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m
 )
@@ -9874,7 +9874,7 @@ in
 vsrc
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m0
 )
@@ -9888,7 +9888,7 @@ in
 vsrc
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m1
 )
@@ -9973,7 +9973,7 @@ in
 vsrc
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m
 )
@@ -10166,7 +10166,7 @@ _mm_setzero_si64
 ;
 src16
 =
-UINT64
+to_uint64
 (
 tmp
 )
@@ -10269,7 +10269,7 @@ dst
 __m64
 vd
 =
-M64
+to_m64
 (
 d
 )
@@ -10283,7 +10283,7 @@ vsrc
 vsrca
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m
 )
@@ -10309,7 +10309,7 @@ _mm_setzero_si64
 *
 dst
 =
-UINT64
+to_uint64
 (
 vd
 )
@@ -10442,7 +10442,7 @@ dst
 ;
 vm0
 =
-M64
+to_m64
 (
 m0
 )
@@ -10471,7 +10471,7 @@ vdest
 ;
 vm1
 =
-M64
+to_m64
 (
 m1
 )
@@ -10500,7 +10500,7 @@ vdest
 ;
 vm2
 =
-M64
+to_m64
 (
 m2
 )
@@ -10529,7 +10529,7 @@ vdest
 ;
 vm3
 =
-M64
+to_m64
 (
 m3
 )
@@ -10611,7 +10611,7 @@ dst
 __m64
 vd
 =
-M64
+to_m64
 (
 d
 )
@@ -10625,7 +10625,7 @@ vsrc
 vsrca
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m
 )
@@ -10651,7 +10651,7 @@ _mm_setzero_si64
 *
 dst
 =
-UINT64
+to_uint64
 (
 vd
 )
@@ -10848,7 +10848,7 @@ vdest
 =
 expand565
 (
-M64
+to_m64
 (
 d
 )
@@ -10871,7 +10871,7 @@ vdest
 *
 dst
 =
-UINT64
+to_uint64
 (
 vdest
 )
@@ -11230,7 +11230,7 @@ vdest
 =
 expand565
 (
-M64
+to_m64
 (
 d
 )
@@ -11253,7 +11253,7 @@ vdest
 *
 dst
 =
-UINT64
+to_uint64
 (
 vdest
 )
@@ -11898,7 +11898,7 @@ vdest
 =
 expand565
 (
-M64
+to_m64
 (
 d
 )
@@ -11926,7 +11926,7 @@ vdest
 *
 q
 =
-UINT64
+to_uint64
 (
 vdest
 )
@@ -12161,7 +12161,7 @@ vdest
 =
 expand565
 (
-M64
+to_m64
 (
 d
 )
@@ -12189,7 +12189,7 @@ vdest
 *
 q
 =
-UINT64
+to_uint64
 (
 vdest
 )
@@ -13135,7 +13135,7 @@ _mm_empty
 }
 static
 void
-mmx_composite_add_8000_8000
+mmx_composite_add_8_8
 (
 pixman_implementation_t
 *
@@ -13613,7 +13613,7 @@ uint64_t
 )
 dst
 =
-UINT64
+to_uint64
 (
 dst64
 )
@@ -14967,7 +14967,7 @@ vm
 =
 expand_alpha_rev
 (
-M64
+to_m64
 (
 m
 )
@@ -15407,7 +15407,7 @@ ADD
 a8
 null
 a8
-mmx_composite_add_8000_8000
+mmx_composite_add_8_8
 )
 PIXMAN_STD_FAST_PATH
 (
