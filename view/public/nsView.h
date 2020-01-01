@@ -191,9 +191,6 @@ stdio
 h
 >
 class
-nsIViewManager
-;
-class
 nsViewManager
 ;
 class
@@ -474,7 +471,7 @@ a
 view
 go
 through
-nsIViewManager
+nsViewManager
 .
 *
 /
@@ -542,7 +539,7 @@ view
 manager
 *
 /
-nsIViewManager
+nsViewManager
 *
 GetViewManager
 (
@@ -552,7 +549,7 @@ const
 return
 reinterpret_cast
 <
-nsIViewManager
+nsViewManager
 *
 >
 (

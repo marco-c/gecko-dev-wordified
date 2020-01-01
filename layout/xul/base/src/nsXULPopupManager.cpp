@@ -215,7 +215,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -14525,7 +14525,7 @@ The
 order
 of
 the
-nsIViewManager
+nsViewManager
 and
 nsIPresShell
 COM
@@ -14764,7 +14764,7 @@ PresShell
 ;
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 kungFuDeathGrip
 =

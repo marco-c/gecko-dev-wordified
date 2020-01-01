@@ -4852,7 +4852,7 @@ aDocument
 nsPresContext
 *
 aPresContext
-nsIViewManager
+nsViewManager
 *
 aViewManager
 nsStyleSet
@@ -11585,7 +11585,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 viewManagerDeathGrip
 =
@@ -11841,7 +11841,7 @@ GetPresContext
 Reflow
 )
 ;
-nsIViewManager
+nsViewManager
 :
 :
 AutoDisableRefresh
@@ -22302,7 +22302,7 @@ if
 we
 are
 painting
-nsIViewManager
+nsViewManager
 *
 viewManager
 =
@@ -22681,7 +22681,7 @@ alive
 .
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 viewManagerDeathGrip
 =
@@ -31547,7 +31547,7 @@ that
 pres
 shell
 .
-nsIViewManager
+nsViewManager
 *
 pointVM
 =
@@ -47178,7 +47178,7 @@ GetPresContext
 Reflow
 )
 ;
-nsIViewManager
+nsViewManager
 :
 :
 AutoDisableRefresh
@@ -51441,7 +51441,7 @@ manager
 .
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 vm
 =

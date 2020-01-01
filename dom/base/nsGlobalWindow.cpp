@@ -881,7 +881,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -61055,7 +61055,7 @@ presShell
 NS_ERROR_FAILURE
 )
 ;
-nsIViewManager
+nsViewManager
 *
 vm
 =

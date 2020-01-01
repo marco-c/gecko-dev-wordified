@@ -189,7 +189,7 @@ class
 nsIParser
 ;
 class
-nsIViewManager
+nsViewManager
 ;
 typedef
 enum
