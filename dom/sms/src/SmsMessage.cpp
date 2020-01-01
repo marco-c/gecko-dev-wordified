@@ -474,7 +474,7 @@ JS_NewDateObjectMsec
 #
 include
 "
-jsdate
+jsfriendapi
 .
 h
 "
