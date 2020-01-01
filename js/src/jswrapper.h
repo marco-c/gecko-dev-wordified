@@ -2119,9 +2119,6 @@ JSObject
 )
 UnwrapObjectChecked
 (
-JSContext
-*
-cx
 RawObject
 obj
 )
@@ -2161,10 +2158,7 @@ JSObject
 )
 UnwrapOneChecked
 (
-JSContext
-*
-cx
-HandleObject
+RawObject
 obj
 )
 ;

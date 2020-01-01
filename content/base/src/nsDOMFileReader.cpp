@@ -1466,7 +1466,6 @@ char
 JS_GetArrayBufferData
 (
 mResultArrayBuffer
-NULL
 )
 +
 aOffset

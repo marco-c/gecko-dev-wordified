@@ -213,7 +213,6 @@ data
 JS_GetArrayBufferData
 (
 obj
-cx
 )
 ;
 if
@@ -963,7 +962,6 @@ NS_ENSURE_TRUE
 JS_IsTypedArrayObject
 (
 obj
-aCx
 )
 NS_ERROR_FAILURE
 )
@@ -973,7 +971,6 @@ NS_ENSURE_TRUE
 JS_IsUint8Array
 (
 obj
-aCx
 )
 NS_ERROR_FAILURE
 )
@@ -984,7 +981,6 @@ nbytes
 JS_GetTypedArrayByteLength
 (
 obj
-aCx
 )
 ;
 uint8_t
@@ -994,7 +990,6 @@ data
 JS_GetUint8ArrayData
 (
 obj
-aCx
 )
 ;
 if

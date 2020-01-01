@@ -14292,14 +14292,12 @@ if
 JS_IsArrayBufferObject
 (
 obj
-cx
 )
 )
 {
 ArrayBuffer
 buf
 (
-cx
 obj
 )
 ;

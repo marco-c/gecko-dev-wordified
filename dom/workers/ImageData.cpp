@@ -172,7 +172,6 @@ MOZ_ASSERT
 JS_IsTypedArrayObject
 (
 aData
-aCx
 )
 )
 ;
@@ -181,7 +180,6 @@ MOZ_ASSERT
 JS_IsUint8ClampedArray
 (
 aData
-aCx
 )
 )
 ;
