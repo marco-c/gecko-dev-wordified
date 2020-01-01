@@ -1746,11 +1746,6 @@ success
 )
 ;
 }
-template
-<
-typename
-AddrType
->
 inline
 void
 EmitPreBarrier
@@ -1759,7 +1754,7 @@ MacroAssembler
 &
 masm
 const
-AddrType
+BaseIndex
 &
 addr
 MIRType

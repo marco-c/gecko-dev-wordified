@@ -3045,12 +3045,6 @@ type
 =
 =
 MIRType_Object
-|
-|
-type
-=
-=
-MIRType_Shape
 )
 ;
 Label
