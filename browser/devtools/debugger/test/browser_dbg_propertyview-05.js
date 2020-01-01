@@ -173,7 +173,7 @@ something
 ;
 testVar
 .
-_setGrip
+setGrip
 (
 1
 .
@@ -258,7 +258,7 @@ nodes
 ;
 testVar
 .
-_setGrip
+setGrip
 (
 {
 "
