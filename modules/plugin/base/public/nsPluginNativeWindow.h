@@ -489,6 +489,13 @@ nsIWidget
 .
 h
 "
+#
+include
+"
+nsTraceRefcnt
+.
+h
+"
 /
 *
 *
@@ -518,6 +525,11 @@ nsPluginWindow
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+nsPluginNativeWindow
+)
+;
 }
 virtual
 ~
@@ -525,6 +537,11 @@ nsPluginNativeWindow
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsPluginNativeWindow
+)
+;
 }
 /
 *
