@@ -1629,7 +1629,8 @@ b
 .
 type
 =
-1
+?
+2
 AND
 b
 .
@@ -16536,6 +16537,8 @@ rv
 rv
 )
 ;
+rv
+=
 mDBFindURIBookmarks
 -
 >
@@ -16543,6 +16546,12 @@ BindInt32Parameter
 (
 1
 TYPE_BOOKMARK
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 PRBool
