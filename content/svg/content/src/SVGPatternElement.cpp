@@ -137,6 +137,17 @@ mozilla
 /
 dom
 /
+SVGAnimatedLength
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGPatternElement
 .
 h
@@ -1222,7 +1233,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGPatternElement
 :
@@ -1281,7 +1292,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGPatternElement
 :
@@ -1340,7 +1351,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGPatternElement
 :
@@ -1399,7 +1410,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGPatternElement
 :

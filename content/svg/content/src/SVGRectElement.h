@@ -289,7 +289,7 @@ this
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 X
 (
@@ -297,7 +297,7 @@ X
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Y
 (
@@ -305,7 +305,7 @@ Y
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Height
 (
@@ -313,7 +313,7 @@ Height
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Width
 (
@@ -321,7 +321,7 @@ Width
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Rx
 (
@@ -329,7 +329,7 @@ Rx
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Ry
 (

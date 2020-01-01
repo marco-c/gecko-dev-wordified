@@ -358,6 +358,17 @@ h
 "
 #
 include
+"
+mozilla
+/
+dom
+/
+SVGAnimatedLength
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -1449,7 +1460,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGSVGElement
 :
@@ -1508,7 +1519,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGSVGElement
 :
@@ -1567,7 +1578,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGSVGElement
 :
@@ -1626,7 +1637,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGSVGElement
 :

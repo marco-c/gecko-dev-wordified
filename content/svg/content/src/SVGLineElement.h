@@ -316,7 +316,7 @@ this
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 X1
 (
@@ -324,7 +324,7 @@ X1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Y1
 (
@@ -332,7 +332,7 @@ Y1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 X2
 (
@@ -340,7 +340,7 @@ X2
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Y2
 (

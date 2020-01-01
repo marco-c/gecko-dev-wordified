@@ -118,6 +118,17 @@ mozilla
 /
 dom
 /
+SVGAnimatedLength
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGRadialGradientElementBinding
 .
 h
@@ -1819,7 +1830,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGLinearGradientElement
 :
@@ -1878,7 +1889,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGLinearGradientElement
 :
@@ -1937,7 +1948,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGLinearGradientElement
 :
@@ -1996,7 +2007,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGLinearGradientElement
 :
@@ -2730,7 +2741,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2789,7 +2800,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2848,7 +2859,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2907,7 +2918,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2966,7 +2977,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGRadialGradientElement
 :

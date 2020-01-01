@@ -289,7 +289,7 @@ this
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Cx
 (
@@ -297,7 +297,7 @@ Cx
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Cy
 (
@@ -305,7 +305,7 @@ Cy
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Rx
 (
@@ -313,7 +313,7 @@ Rx
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Ry
 (

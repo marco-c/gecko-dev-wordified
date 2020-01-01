@@ -393,7 +393,7 @@ MOZ_OVERRIDE
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 StartOffset
 (

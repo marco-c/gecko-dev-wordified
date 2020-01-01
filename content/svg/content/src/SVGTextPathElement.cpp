@@ -164,6 +164,17 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+SVGAnimatedLength
+.
+h
+"
 DOMCI_NODE_DATA
 (
 SVGTextPathElement
@@ -925,7 +936,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGTextPathElement
 :

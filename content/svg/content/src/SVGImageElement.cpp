@@ -116,6 +116,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SVGAnimatedLength
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -747,7 +758,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGImageElement
 :
@@ -806,7 +817,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGImageElement
 :
@@ -865,7 +876,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGImageElement
 :
@@ -924,7 +935,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGImageElement
 :
