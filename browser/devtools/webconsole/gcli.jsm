@@ -4763,7 +4763,7 @@ gcli
 /
 ui
 /
-display
+console
 '
 ]
 function
@@ -4924,7 +4924,7 @@ cli
 Requisition
 ;
 var
-Display
+Console
 =
 require
 (
@@ -4933,11 +4933,11 @@ gcli
 /
 ui
 /
-display
+console
 '
 )
 .
-Display
+Console
 ;
 var
 cli
@@ -5186,10 +5186,10 @@ chromeDocument
 }
 opts
 .
-display
+console
 =
 new
-Display
+Console
 (
 opts
 )
@@ -5221,7 +5221,7 @@ opts
 {
 opts
 .
-display
+console
 .
 destroy
 (
@@ -5230,7 +5230,7 @@ destroy
 delete
 opts
 .
-display
+console
 ;
 opts
 .
@@ -36663,7 +36663,7 @@ gcli
 /
 ui
 /
-display
+console
 '
 [
 '
@@ -36779,7 +36779,7 @@ FocusManager
 *
 *
 *
-Display
+Console
 is
 responsible
 for
@@ -36802,7 +36802,7 @@ Firefox
 *
 /
 function
-Display
+Console
 (
 options
 )
@@ -37108,7 +37108,7 @@ memory
 leaks
 *
 /
-Display
+Console
 .
 prototype
 .
@@ -37285,7 +37285,7 @@ divider
 slide
 *
 /
-Display
+Console
 .
 prototype
 .
@@ -37603,9 +37603,9 @@ white
 ;
 exports
 .
-Display
+Console
 =
-Display
+Console
 ;
 }
 )

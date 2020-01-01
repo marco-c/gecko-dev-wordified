@@ -409,6 +409,9 @@ EXPORTED_SYMBOLS
 "
 Templater
 "
+"
+template
+"
 ]
 ;
 Components
