@@ -1268,10 +1268,6 @@ const
 uint32
 MAX_INFO_VALUE
 =
-1
-;
-/
-/
 (
 1
 <
