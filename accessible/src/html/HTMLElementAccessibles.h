@@ -296,6 +296,15 @@ NativeRole
 (
 )
 ;
+virtual
+Relation
+RelationByType
+(
+uint32_t
+aType
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
