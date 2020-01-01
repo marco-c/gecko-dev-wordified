@@ -231,6 +231,13 @@ h
 #
 include
 "
+nsIDOMWindow
+.
+h
+"
+#
+include
+"
 DictionaryHelpers
 .
 h
@@ -253,9 +260,6 @@ h
 "
 class
 nsGeolocationService
-;
-class
-nsIDOMWindow
 ;
 namespace
 mozilla
