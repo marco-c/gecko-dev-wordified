@@ -506,7 +506,7 @@ Sullivan
 import
 time
 import
-syck
+yaml
 import
 sys
 import
@@ -805,52 +805,13 @@ r
 '
 )
   
-#
-some
-versions
-of
-syck
-take
-a
-file
-while
-others
-take
-a
-string
-  
-try
-:
-    
-yaml
+yaml_config
 =
-syck
+yaml
 .
 load
 (
 config_file
-)
-  
-except
-:
-    
-yaml
-=
-syck
-.
-load
-(
-"
-"
-.
-join
-(
-config_file
-.
-readlines
-(
-)
-)
 )
   
 config_file
@@ -862,7 +823,7 @@ close
 for
 item
 in
-yaml
+yaml_config
 :
     
 if
@@ -876,7 +837,7 @@ title
       
 title
 =
-yaml
+yaml_config
 [
 item
 ]
@@ -892,7 +853,7 @@ filename
       
 filename_prefix
 =
-yaml
+yaml_config
 [
 item
 ]
@@ -908,7 +869,7 @@ testdate
       
 testdate
 =
-yaml
+yaml_config
 [
 item
 ]
@@ -919,7 +880,7 @@ else
 new_config
 =
 [
-yaml
+yaml_config
 [
 item
 ]
@@ -929,7 +890,7 @@ preferences
 '
 ]
                     
-yaml
+yaml_config
 [
 item
 ]
@@ -939,7 +900,7 @@ extensions
 '
 ]
                     
-yaml
+yaml_config
 [
 item
 ]
@@ -949,7 +910,7 @@ firefox
 '
 ]
                     
-yaml
+yaml_config
 [
 item
 ]
@@ -959,7 +920,7 @@ branch
 '
 ]
                     
-yaml
+yaml_config
 [
 item
 ]
@@ -969,7 +930,7 @@ branchid
 '
 ]
                     
-yaml
+yaml_config
 [
 item
 ]
@@ -979,7 +940,7 @@ profile_path
 '
 ]
                     
-yaml
+yaml_config
 [
 item
 ]
