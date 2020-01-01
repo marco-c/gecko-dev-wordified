@@ -547,6 +547,11 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 SmsRequest
 nsDOMEventTargetWrapperCache
 )
+void
+Reset
+(
+)
+;
 private
 :
 SmsRequest
