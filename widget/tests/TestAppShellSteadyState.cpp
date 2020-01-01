@@ -157,6 +157,15 @@ nsThreadUtils
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -640,6 +649,7 @@ NS_OK
 ;
 class
 EventListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener
