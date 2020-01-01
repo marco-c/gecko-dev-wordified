@@ -2798,15 +2798,6 @@ HKL
 aHKL
 )
 ;
-void
-OnSettingsChange
-(
-WPARAM
-wParam
-LPARAM
-lParam
-)
-;
 PRBool
 OnPaint
 (

@@ -547,14 +547,6 @@ aRgn
 )
 ;
 static
-void
-OnSettingsChangeGfx
-(
-WPARAM
-wParam
-)
-;
-static
 nsresult
 CreateIcon
 (
