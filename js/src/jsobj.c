@@ -11372,8 +11372,8 @@ emptyAtom
 *
 See
 comments
-in
-CheckDestructuring
+before
+EnsureNonEmptyLet
 from
 jsparse
 .
