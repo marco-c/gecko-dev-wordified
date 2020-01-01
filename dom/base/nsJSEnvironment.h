@@ -1115,6 +1115,9 @@ static
 void
 CC
 (
+nsICycleCollectorListener
+*
+aListener
 )
 ;
 /

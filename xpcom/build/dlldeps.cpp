@@ -1898,6 +1898,7 @@ nsXPCOMCycleCollectionParticipant
 ;
 nsCycleCollector_collect
 (
+nsnull
 )
 ;
 #
