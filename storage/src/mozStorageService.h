@@ -1016,10 +1016,6 @@ static
 int32_t
 sDefaultPageSize
 ;
-friend
-class
-ServiceMainThreadInitializer
-;
 }
 ;
 }
