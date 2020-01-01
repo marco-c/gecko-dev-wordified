@@ -1620,6 +1620,14 @@ extensions
 return
 PR_FALSE
 ;
+extensionsStr
+=
+xQueryExtensionsString
+(
+display
+screen
+)
+;
 LibrarySymbolLoader
 :
 :
