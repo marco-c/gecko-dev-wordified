@@ -3485,6 +3485,10 @@ aType
 const
 nsString
 &
+aInputmode
+const
+nsString
+&
 aActionHint
 const
 PRInt32
@@ -3623,6 +3627,15 @@ mHTMLInputType
 Assign
 (
 aType
+)
+;
+context
+.
+mHTMLInputInputmode
+.
+Assign
+(
+aInputmode
 )
 ;
 context
