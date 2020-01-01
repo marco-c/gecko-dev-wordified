@@ -6015,8 +6015,9 @@ set
 as
 attachment
 )
-if
-(
+var
+discardUpdate
+=
 this
 .
 mLauncher
@@ -6044,12 +6045,7 @@ rememberChoice
 )
 .
 checked
-)
-{
-return
-false
 ;
-}
 var
 needUpdate
 =
@@ -6478,6 +6474,10 @@ checked
 ;
 return
 needUpdate
+&
+&
+!
+discardUpdate
 ;
 }
 /
