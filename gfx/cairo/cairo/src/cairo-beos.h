@@ -344,11 +344,11 @@ define
 CAIRO_BEOS_H
 #
 include
-<
+"
 cairo
 .
 h
->
+"
 #
 if
 CAIRO_HAS_BEOS_SURFACE

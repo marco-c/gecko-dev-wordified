@@ -481,9 +481,6 @@ CAIRO_FORMAT_RGB16_565
 define
 CAIRO_FONT_TYPE_ATSUI
 CAIRO_FONT_TYPE_QUARTZ
-#
-ifndef
-_CAIROINT_H_
 /
 *
 Obsolete
@@ -910,8 +907,6 @@ cairo_get_status_string_DEPRECATED_BY_cairo_status_AND_cairo_status_to_string
 define
 cairo_status_string
 cairo_status_string_DEPRECATED_BY_cairo_status_AND_cairo_status_to_string
-#
-endif
 #
 endif
 /

@@ -557,7 +557,7 @@ CAIRO_MUTEX_INITIALIZE
 (
 )
 ;
-_cairo_font_reset_static_data
+_cairo_font_face_reset_static_data
 (
 )
 ;
@@ -570,11 +570,11 @@ _cairo_ft_font_reset_static_data
 ;
 #
 endif
-_cairo_pattern_reset_static_data
+_cairo_scaled_font_reset_static_data
 (
 )
 ;
-_cairo_scaled_font_reset_static_data
+_cairo_pattern_reset_static_data
 (
 )
 ;

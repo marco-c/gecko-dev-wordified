@@ -342,11 +342,11 @@ define
 CAIRO_QUARTZ_H
 #
 include
-<
+"
 cairo
 .
 h
->
+"
 #
 if
 CAIRO_HAS_QUARTZ_SURFACE

@@ -9447,6 +9447,9 @@ num_glyphs
 cairo_scaled_font_t
 *
 scaled_font
+int
+*
+remaining_glyphs
 )
 {
 cairo_directfb_surface_t

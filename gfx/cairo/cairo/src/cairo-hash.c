@@ -1953,6 +1953,7 @@ if
 successful
 or
 *
+%
 CAIRO_STATUS_NO_MEMORY
 if
 out
@@ -2661,6 +2662,7 @@ if
 predicate
 is
 *
+%
 NULL
 a
 %
@@ -2959,6 +2961,7 @@ if
 successful
 or
 *
+%
 CAIRO_STATUS_NO_MEMORY
 if
 insufficient
@@ -3166,6 +3169,7 @@ if
 successful
 or
 *
+%
 CAIRO_STATUS_NO_MEMORY
 if
 out
