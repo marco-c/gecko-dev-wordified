@@ -19906,6 +19906,7 @@ if
 needsRestart
 )
 {
+let
 buttons
 =
 [
