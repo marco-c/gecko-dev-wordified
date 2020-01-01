@@ -492,6 +492,8 @@ do_check_neq
 SyntaxError
 :
 /
+.
+exec
 (
 e
 +

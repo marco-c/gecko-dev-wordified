@@ -788,6 +788,8 @@ abc
 )
 ;
 x
+.
+exec
 (
 \
 "
@@ -798,6 +800,8 @@ hi
 "
 null
 x
+.
+exec
 (
 "
 hi
