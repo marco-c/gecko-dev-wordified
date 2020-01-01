@@ -3509,11 +3509,6 @@ D
 (
 REFRESH_FRAME
 )
-\
-D
-(
-FULL_GC_TIMER
-)
 namespace
 gcreason
 {
