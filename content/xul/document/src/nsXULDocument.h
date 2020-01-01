@@ -1093,11 +1093,8 @@ aElement
 )
 ;
 nsresult
-GetPixelDimensions
+GetViewportSize
 (
-nsIPresShell
-*
-aShell
 PRInt32
 *
 aWidth
