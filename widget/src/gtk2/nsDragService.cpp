@@ -1753,6 +1753,7 @@ if
 (
 dragPixbuf
 )
+{
 gtk_drag_set_icon_pixbuf
 (
 context
@@ -1761,11 +1762,19 @@ offsetX
 offsetY
 )
 ;
+g_object_unref
+(
+dragPixbuf
+)
+;
+}
 else
+{
 needsFallbackIcon
 =
 PR_TRUE
 ;
+}
 }
 }
 else
