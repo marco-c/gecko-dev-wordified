@@ -1092,6 +1092,10 @@ write
 define
 _S_IEXEC
 0000100
+#
+define
+S_IFREG
+0x8000
 struct
 stat
 {
