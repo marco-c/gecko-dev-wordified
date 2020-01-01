@@ -510,7 +510,7 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 Connect
 (
 const

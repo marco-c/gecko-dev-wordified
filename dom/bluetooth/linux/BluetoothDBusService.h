@@ -590,7 +590,7 @@ aPath
 )
 ;
 virtual
-bool
+void
 Connect
 (
 const
