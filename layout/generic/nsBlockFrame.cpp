@@ -43941,10 +43941,6 @@ if
 (
 !
 mContent
-|
-|
-!
-mContent
 -
 >
 GetParent
