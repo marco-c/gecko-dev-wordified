@@ -1045,6 +1045,8 @@ ScrollIntoView
 (
 PRBool
 aTop
+PRUint8
+optional_argc
 )
 ;
 /

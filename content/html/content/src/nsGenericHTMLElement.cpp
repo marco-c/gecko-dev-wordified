@@ -4031,6 +4031,8 @@ ScrollIntoView
 (
 PRBool
 aTop
+PRUint8
+optional_argc
 )
 {
 nsIDocument
@@ -4078,6 +4080,17 @@ presShell
 {
 return
 NS_OK
+;
+}
+if
+(
+!
+optional_argc
+)
+{
+aTop
+=
+PR_TRUE
 ;
 }
 PRIntn
