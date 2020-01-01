@@ -185,13 +185,7 @@ rm
 "
 "
 -
--
-recursive
-"
-"
--
--
-force
+rf
 "
 dest
 ]
