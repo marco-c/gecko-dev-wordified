@@ -192,7 +192,7 @@ static
 int
 NumNurseryChunks
 =
-8
+16
 ;
 const
 static
