@@ -15828,7 +15828,7 @@ CheckDestructuring
 from
 jsparse
 .
-c
+cpp
 .
 *
 /
