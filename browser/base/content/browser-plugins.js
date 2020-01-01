@@ -3444,7 +3444,7 @@ gNavigatorBundle
 getString
 (
 "
-activatePluginsMessage
+activateAllPluginsMessage
 .
 label
 "
