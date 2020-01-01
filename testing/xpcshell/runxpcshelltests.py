@@ -1843,6 +1843,15 @@ s
 |
 test
 failed
+(
+with
+xpcshell
+return
+code
+:
+%
+d
+)
 see
 following
 log
@@ -1872,6 +1881,9 @@ s
 %
 (
 test
+proc
+.
+returncode
 stdout
 )
         
