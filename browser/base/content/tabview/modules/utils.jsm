@@ -4074,7 +4074,7 @@ just
 this
 function
 .
-var
+let
 stack
 =
 Error
@@ -4098,8 +4098,8 @@ n
 \
 n
 /
-'
-'
+"
+"
 )
 ;
 /
@@ -4149,8 +4149,8 @@ replace
 \
 n
 /
-'
-'
+"
+"
 )
 ;
 this
@@ -4389,8 +4389,8 @@ n
 \
 n
 /
-'
-'
+"
+"
 )
 ;
 throw
@@ -5309,7 +5309,7 @@ obj
 {
 for
 (
-var
+let
 name
 in
 obj
