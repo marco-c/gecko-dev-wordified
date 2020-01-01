@@ -601,6 +601,15 @@ h
 #
 include
 "
+mozilla
+/
+AutoRestore
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -10034,6 +10043,7 @@ endif
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoGCRoot
 {
 public
@@ -10060,6 +10070,7 @@ aPtr
 nsresult
 *
 aResult
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mPtr
@@ -10067,6 +10078,8 @@ mPtr
 aPtr
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 mResult
 =
 *
@@ -10105,6 +10118,7 @@ aPtr
 nsresult
 *
 aResult
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mPtr
@@ -10112,6 +10126,8 @@ mPtr
 aPtr
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 mResult
 =
 *
@@ -10148,6 +10164,7 @@ aPtr
 nsresult
 *
 aResult
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mPtr
@@ -10155,6 +10172,8 @@ mPtr
 aPtr
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 mResult
 =
 *
@@ -10236,17 +10255,22 @@ mPtr
 nsresult
 mResult
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoScriptBlocker
 {
 public
 :
 nsAutoScriptBlocker
 (
+MOZILLA_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 nsContentUtils
 :
 :
@@ -10268,9 +10292,13 @@ RemoveScriptBlocker
 )
 ;
 }
+private
+:
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
+NS_STACK_CLASS
 mozAutoRemovableBlockerRemover
 {
 public
@@ -10280,6 +10308,7 @@ mozAutoRemovableBlockerRemover
 nsIDocument
 *
 aDocument
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -10304,6 +10333,7 @@ nsIDocumentObserver
 >
 mObserver
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 #
