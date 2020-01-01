@@ -30083,11 +30083,11 @@ toJSObject
 )
 )
 ;
-JSProperty
-*
+RootedShape
 prop
-=
-NULL
+(
+cx
+)
 ;
 RootedObject
 pobj

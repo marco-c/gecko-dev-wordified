@@ -3542,9 +3542,13 @@ context
 )
 )
 ;
-JSProperty
-*
+RootedShape
 prop
+(
+context
+(
+)
+)
 ;
 if
 (

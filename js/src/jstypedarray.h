@@ -329,9 +329,7 @@ HandleId
 id
 MutableHandleObject
 objp
-JSProperty
-*
-*
+MutableHandleShape
 propp
 )
 ;
@@ -348,9 +346,7 @@ HandlePropertyName
 name
 MutableHandleObject
 objp
-JSProperty
-*
-*
+MutableHandleShape
 propp
 )
 ;
@@ -367,9 +363,7 @@ uint32_t
 index
 MutableHandleObject
 objp
-JSProperty
-*
-*
+MutableHandleShape
 propp
 )
 ;
@@ -386,9 +380,7 @@ HandleSpecialId
 sid
 MutableHandleObject
 objp
-JSProperty
-*
-*
+MutableHandleShape
 propp
 )
 ;
@@ -1097,9 +1089,7 @@ HandleId
 id
 MutableHandleObject
 objp
-JSProperty
-*
-*
+MutableHandleShape
 propp
 )
 ;
@@ -1116,9 +1106,7 @@ HandlePropertyName
 name
 MutableHandleObject
 objp
-JSProperty
-*
-*
+MutableHandleShape
 propp
 )
 ;
@@ -1135,9 +1123,7 @@ uint32_t
 index
 MutableHandleObject
 objp
-JSProperty
-*
-*
+MutableHandleShape
 propp
 )
 ;
@@ -1154,9 +1140,7 @@ HandleSpecialId
 sid
 MutableHandleObject
 objp
-JSProperty
-*
-*
+MutableHandleShape
 propp
 )
 ;
