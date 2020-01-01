@@ -733,6 +733,8 @@ mobile
 /
 chrome
 /
+tests
+/
 "
 ;
 messageManager
