@@ -38852,15 +38852,6 @@ NS_FRAME_OUTSIDE_CHILDREN
 {
 /
 /
-make
-sure
-we
-store
-the
-overflow
-size
-/
-/
 This
 kinda
 sucks
