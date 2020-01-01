@@ -14680,17 +14680,6 @@ do_QueryInterface
 topDocument
 )
 ;
-nsIURI
-*
-topUri
-=
-topDoc
--
->
-GetDocumentURI
-(
-)
-;
 nsCOMPtr
 <
 nsIPermissionManager
