@@ -20432,6 +20432,8 @@ OptionallyBreak
 nsIRenderingContext
 *
 aRenderingContext
+nscoord
+aHyphenWidth
 )
 {
 trailingTextFrame
@@ -20509,6 +20511,8 @@ floats
 if
 (
 currentLine
++
+aHyphenWidth
 <
 0
 |
@@ -20516,6 +20520,11 @@ currentLine
 atStartOfLine
 )
 return
+;
+currentLine
++
+=
+aHyphenWidth
 ;
 ForceBreak
 (
