@@ -618,7 +618,8 @@ handle
 def
 ProcessesWithNameExist
 (
-process_name
+*
+process_names
 )
 :
   
@@ -656,6 +657,8 @@ Args
 process_name
 :
 String
+or
+strings
 containing
 the
 process
@@ -688,9 +691,15 @@ otherwise
 "
 "
   
-try
+for
+process_name
+in
+process_names
 :
     
+try
+:
+      
 pids
 =
 win32pdhutil
@@ -705,18 +714,22 @@ ID
 Process
 "
 )
-    
-return
+      
+if
 len
 (
 pids
 )
 >
 0
-  
+:
+        
+return
+True
+    
 except
 :
-    
+      
 #
 Might
 get
@@ -732,13 +745,16 @@ the
 process
 running
 .
-    
+      
+continue
+  
 return
 False
 def
 TerminateAllProcesses
 (
-process_name
+*
+process_names
 )
 :
   
@@ -763,6 +779,8 @@ Args
 process_name
 :
 String
+or
+strings
 containing
 the
 process
@@ -779,6 +797,12 @@ firefox
 "
 "
   
+for
+process_name
+in
+process_names
+:
+    
 #
 Get
 all
@@ -795,10 +819,10 @@ and
 terminate
 them
 .
-  
+    
 try
 :
-    
+      
 pids
 =
 win32pdhutil
@@ -813,21 +837,21 @@ ID
 Process
 "
 )
-    
+      
 for
 pid
 in
 pids
 :
-      
+        
 TerminateProcess
 (
 pid
 )
-  
+    
 except
 :
-    
+      
 #
 Might
 get
@@ -843,8 +867,8 @@ the
 process
 running
 .
-    
-pass
+      
+continue
 def
 NonBlockingReadProcessOutput
 (

@@ -779,7 +779,8 @@ matchingPids
 def
 ProcessesWithNameExist
 (
-process_name
+*
+process_names
 )
 :
   
@@ -814,9 +815,11 @@ running
 Args
 :
     
-process_name
+process_names
 :
 String
+or
+strings
 containing
 the
 process
@@ -849,20 +852,33 @@ otherwise
 "
 "
   
+for
+process_name
+in
+process_names
+:
+    
 pids
 =
 GetPidsByName
 (
 process_name
 )
-  
-return
+    
+if
 len
 (
 pids
 )
 >
 0
+:
+      
+return
+True
+  
+return
+False
 def
 TerminateProcess
 (
@@ -1019,7 +1035,8 @@ strerror
 def
 TerminateAllProcesses
 (
-process_name
+*
+process_names
 )
 :
   
@@ -1041,9 +1058,11 @@ name
 Args
 :
     
-process_name
+process_names
 :
 String
+or
+strings
 containing
 the
 process
@@ -1060,19 +1079,25 @@ firefox
 "
 "
   
+for
+process_name
+in
+process_names
+:
+    
 pids
 =
 GetPidsByName
 (
 process_name
 )
-  
+    
 for
 pid
 in
 pids
 :
-    
+      
 TerminateProcess
 (
 pid
