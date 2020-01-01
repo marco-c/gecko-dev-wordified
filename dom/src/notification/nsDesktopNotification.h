@@ -439,6 +439,10 @@ mAllow
 bool
 mShowHasBeenCalled
 ;
+static
+uint32_t
+sCount
+;
 }
 ;
 /
