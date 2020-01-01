@@ -462,6 +462,10 @@ PRBool
 aForPrinting
 )
 :
+mCGContext
+(
+NULL
+)
 mSize
 (
 size
