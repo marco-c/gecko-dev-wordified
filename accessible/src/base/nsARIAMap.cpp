@@ -1163,6 +1163,7 @@ states
 :
 :
 READONLY
+eIndeterminateIfNoValue
 }
 {
 "

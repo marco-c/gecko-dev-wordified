@@ -176,6 +176,7 @@ eARIAReadonlyOrEditable
 eARIARequired
 eARIASelectable
 eReadonlyUntilEditable
+eIndeterminateIfNoValue
 }
 ;
 /
