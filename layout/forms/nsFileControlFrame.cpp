@@ -3265,10 +3265,6 @@ mCachedState
 ;
 }
 else
-if
-(
-mTextContent
-)
 {
 nsCOMPtr
 <
@@ -3278,7 +3274,7 @@ fileControl
 =
 do_QueryInterface
 (
-mTextContent
+mContent
 )
 ;
 if
