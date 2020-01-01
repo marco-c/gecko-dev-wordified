@@ -62602,6 +62602,16 @@ DocumentModifiedWorker
 (
 )
 {
+if
+(
+!
+mHTMLEditor
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIHTMLEditor
