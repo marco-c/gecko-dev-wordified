@@ -4869,8 +4869,8 @@ OpenURI
 nsIChannel
 *
 channel
-bool
-aIsContentPreferred
+uint32_t
+aFlags
 nsIInterfaceRequestor
 *
 aWindowContext
@@ -4954,11 +4954,7 @@ rv
 OpenChannel
 (
 channel
-aIsContentPreferred
-?
-IS_CONTENT_PREFERRED
-:
-0
+aFlags
 aWindowContext
 false
 getter_AddRefs
