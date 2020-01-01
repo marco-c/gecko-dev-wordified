@@ -2190,13 +2190,6 @@ method
 next_method
 ;
 }
-if
-(
-member_descriptor
--
->
-invoke_func_obj
-)
 JS_RemoveRoot
 (
 cx
