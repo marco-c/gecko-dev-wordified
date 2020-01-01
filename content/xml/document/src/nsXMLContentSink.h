@@ -603,13 +603,6 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-void
-)
-;
-virtual
-PRBool
-ReadyToCallDidBuildModel
-(
 PRBool
 aTerminated
 )

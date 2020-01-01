@@ -581,7 +581,8 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 ;
 NS_IMETHOD

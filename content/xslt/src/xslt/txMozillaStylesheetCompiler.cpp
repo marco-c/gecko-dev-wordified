@@ -803,6 +803,8 @@ NS_OK
 NS_IMETHOD
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 ;
 NS_IMETHOD
@@ -1309,6 +1311,8 @@ txStylesheetSink
 :
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 return

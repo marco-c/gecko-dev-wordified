@@ -850,6 +850,8 @@ nsHtml5TreeOpExecutor
 :
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 NS_ASSERTION
@@ -908,6 +910,7 @@ from
 nsXMLContentSink
 DidBuildModelImpl
 (
+aTerminated
 )
 ;
 mDocument
