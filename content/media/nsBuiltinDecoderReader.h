@@ -983,6 +983,10 @@ F
 )
 )
 #
+define
+MOZ_SAMPLE_TYPE_S16LE
+1
+#
 else
 /
 *
@@ -1024,6 +1028,10 @@ x
 (
 x
 )
+#
+define
+MOZ_SAMPLE_TYPE_FLOAT32
+1
 #
 endif
 /
