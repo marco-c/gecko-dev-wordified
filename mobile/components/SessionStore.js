@@ -759,7 +759,7 @@ _interval
 10000
 _maxTabsUndo
 :
-5
+1
 _shouldRestore
 :
 false
