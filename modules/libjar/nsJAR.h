@@ -214,7 +214,7 @@ h
 #
 include
 "
-nsIPrincipal
+nsICertificatePrincipal
 .
 h
 "
@@ -660,7 +660,7 @@ been
 parsed
 nsCOMPtr
 <
-nsIPrincipal
+nsICertificatePrincipal
 >
 mPrincipal
 ;
