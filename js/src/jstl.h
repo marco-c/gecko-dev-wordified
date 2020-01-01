@@ -1645,7 +1645,7 @@ entered
 (
 obj
 .
-mEntered
+entered
 )
 #
 endif
