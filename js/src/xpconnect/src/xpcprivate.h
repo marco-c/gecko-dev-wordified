@@ -12712,14 +12712,6 @@ GET_IT
 WANT_OUTER_OBJECT
 )
 JSBool
-WantInnerObject
-(
-)
-GET_IT
-(
-WANT_INNER_OBJECT
-)
-JSBool
 UseJSStubForAddProperty
 (
 )
@@ -15992,8 +15984,6 @@ return
 mSet
 ;
 }
-private
-:
 void
 SetSet
 (
@@ -16015,6 +16005,8 @@ mSet
 set
 ;
 }
+private
+:
 inline
 void
 ExpireWrapper

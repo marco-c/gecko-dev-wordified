@@ -664,8 +664,6 @@ clickEvent
 =
 content
 .
-wrappedJSObject
-.
 document
 .
 createEvent
@@ -674,8 +672,6 @@ createEvent
 MouseEvents
 "
 )
-.
-wrappedJSObject
 ;
 clickEvent
 .
@@ -687,8 +683,6 @@ click
 true
 true
 content
-.
-wrappedJSObject
 0
 0
 0

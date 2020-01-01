@@ -502,6 +502,16 @@ NS_DECL_ISUPPORTS
 /
 nsIDOMHistory
 NS_DECL_NSIDOMHISTORY
+nsIDocShell
+*
+GetDocShell
+(
+)
+{
+return
+mDocShell
+;
+}
 void
 SetDocShell
 (
