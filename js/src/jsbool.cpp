@@ -1196,13 +1196,11 @@ only
 ever
 taken
 for
+proxies
+wrapping
 Boolean
 objects
-from
-other
 *
-compartments
-.
 The
 only
 caller
@@ -1214,10 +1212,7 @@ JSON
 '
 s
 PreprocessValue
-*
-makes
-sure
-of
+ensures
 that
 .
 *
@@ -1240,7 +1235,7 @@ JS_ASSERT
 wrappedBool
 -
 >
-isCrossCompartmentWrapper
+isProxy
 (
 )
 )
