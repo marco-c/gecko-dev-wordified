@@ -408,7 +408,7 @@ js
 JSSLOT_PROXY_EXTRA
 +
 JSPROXYSLOT_EXPANDO
-DOMProxyShadow
+DOMProxyShadows
 )
 ;
 }
