@@ -639,6 +639,8 @@ RegExpStaticsClass
 RegExpStatics
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 JS_PropertyStub
 /
 *

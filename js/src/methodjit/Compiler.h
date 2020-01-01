@@ -2575,7 +2575,7 @@ a
 reserved
 space
 .
-uint32_t
+uint64_t
 gcNumber
 ;
 enum
