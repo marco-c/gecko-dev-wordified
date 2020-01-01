@@ -143,13 +143,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jslock
 .
 h

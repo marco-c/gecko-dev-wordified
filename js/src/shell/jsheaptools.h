@@ -120,7 +120,9 @@ DEBUG
 #
 include
 "
-jsapi
+js
+/
+TypeDecls
 .
 h
 "
@@ -132,7 +134,10 @@ JSContext
 cx
 unsigned
 argc
-jsval
+JS
+:
+:
+Value
 *
 vp
 )

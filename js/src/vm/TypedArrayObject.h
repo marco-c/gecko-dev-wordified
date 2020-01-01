@@ -117,13 +117,6 @@ vm_TypedArrayObject_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h

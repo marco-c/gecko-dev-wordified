@@ -110,13 +110,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h

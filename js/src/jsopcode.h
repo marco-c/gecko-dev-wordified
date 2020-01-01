@@ -126,13 +126,6 @@ definitions
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsbytecode
 .
 h

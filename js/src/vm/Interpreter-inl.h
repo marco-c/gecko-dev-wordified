@@ -126,13 +126,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jscompartment
 .
 h

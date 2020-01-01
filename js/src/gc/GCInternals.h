@@ -117,13 +117,6 @@ gc_GCInternals_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsworkers
 .
 h
