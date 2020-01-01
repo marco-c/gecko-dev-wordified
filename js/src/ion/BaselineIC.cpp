@@ -4063,7 +4063,7 @@ infoPtr
 *
 infoPtr
 =
-false
+NULL
 ;
 RootedScript
 script
