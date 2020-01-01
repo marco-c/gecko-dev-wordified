@@ -1849,6 +1849,10 @@ mIndexInParent
 1
 nsnull
 )
+.
+get
+(
+)
 :
 nsnull
 ;
@@ -1874,6 +1878,10 @@ mIndexInParent
 -
 1
 nsnull
+)
+.
+get
+(
 )
 :
 nsnull
