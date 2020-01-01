@@ -6981,10 +6981,14 @@ rv
 if
 (
 !
-EnsureStringLength
-(
 aString
+.
+SetLength
+(
 unicodeLength
+fallible_t
+(
+)
 )
 )
 {

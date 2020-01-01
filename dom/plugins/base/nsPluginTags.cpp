@@ -1338,10 +1338,14 @@ rv
 if
 (
 !
-EnsureStringLength
-(
 buffer
+.
+SetLength
+(
 outUnicodeLen
+fallible_t
+(
+)
 )
 )
 return

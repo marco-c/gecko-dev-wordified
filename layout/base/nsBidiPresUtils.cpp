@@ -13084,10 +13084,14 @@ return
 if
 (
 !
-EnsureStringLength
-(
 aDest
+.
+SetLength
+(
 srcLength
+fallible_t
+(
+)
 )
 )
 {

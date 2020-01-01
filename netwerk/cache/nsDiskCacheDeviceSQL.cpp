@@ -5031,10 +5031,14 @@ MetaDataSize
 if
 (
 !
-EnsureStringLength
-(
 metaDataBuf
+.
+SetLength
+(
 mdSize
+fallible_t
+(
+)
 )
 )
 return
