@@ -12673,18 +12673,6 @@ ROLE_COMBOBOX_OPTION
 ;
 }
 }
-if
-(
-mRoleMapEntry
-=
-=
-&
-nsARIAMap
-:
-:
-gEmptyRoleMap
-)
-{
 /
 /
 We
@@ -12700,9 +12688,9 @@ role
 map
 entry
 which
-/
-/
 will
+/
+/
 cause
 ATK
 to
@@ -12716,8 +12704,6 @@ a
 BSTR
 role
 with
-/
-/
 the
 ARIA
 role
@@ -12727,6 +12713,8 @@ element
 s
 tag
 .
+/
+/
 In
 either
 case
@@ -12735,8 +12723,6 @@ AT
 can
 also
 use
-/
-/
 the
 object
 attributes
@@ -12753,7 +12739,6 @@ more
 return
 NS_OK
 ;
-}
 }
 return
 mDOMNode
