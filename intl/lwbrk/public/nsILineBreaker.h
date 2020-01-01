@@ -682,16 +682,6 @@ TABULATION
 u
 =
 =
-0x000A
-|
-|
-/
-/
-LINE
-FEED
-u
-=
-=
 0x000D
 |
 |
