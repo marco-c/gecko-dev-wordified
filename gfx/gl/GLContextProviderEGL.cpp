@@ -8541,6 +8541,14 @@ MOZ_WIDGET_GONK
 if
 (
 gUseBackingSurface
+&
+&
+aSize
+.
+width
+>
+=
+64
 )
 {
 mGLContext
