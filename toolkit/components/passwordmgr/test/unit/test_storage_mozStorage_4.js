@@ -984,6 +984,7 @@ testnum
 +
 +
 ;
+var
 testdesc
 =
 "

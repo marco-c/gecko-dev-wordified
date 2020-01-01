@@ -920,6 +920,9 @@ value
 "
 )
 ;
+let
+error
+;
 try
 {
 logins
@@ -1116,6 +1119,7 @@ searchLogins
 matchData
 )
 ;
+let
 loginsF
 =
 storage
