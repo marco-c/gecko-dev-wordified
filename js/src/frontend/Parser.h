@@ -273,15 +273,6 @@ Definition
 >
 DeclVector
 ;
-typedef
-Vector
-<
-JSFunction
-*
-4
->
-FunctionVector
-;
 struct
 GenericParseContext
 {
@@ -1592,7 +1583,7 @@ when
 parsing
 syntax
 .
-FunctionVector
+AutoFunctionVector
 innerFunctions
 ;
 /
