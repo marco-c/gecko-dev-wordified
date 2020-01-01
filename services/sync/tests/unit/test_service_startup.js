@@ -169,6 +169,11 @@ Trace
 "
 )
 ;
+new
+SyncTestingInfrastructure
+(
+)
+;
 /
 /
 Test

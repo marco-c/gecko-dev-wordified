@@ -632,9 +632,7 @@ Service
 .
 serverURL
 =
-server
-.
-baseURI
+TEST_SERVER_URL
 ;
 try
 {

@@ -367,7 +367,6 @@ fixtures
 new
 SyncTestingInfrastructure
 (
-server
 "
 johndoe
 "
