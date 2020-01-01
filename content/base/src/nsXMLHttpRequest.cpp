@@ -438,7 +438,7 @@ h
 #
 include
 "
-nsContentErrors
+nsError
 .
 h
 "
@@ -453,13 +453,6 @@ h
 include
 "
 nsCrossSiteListenerProxy
-.
-h
-"
-#
-include
-"
-nsDOMError
 .
 h
 "

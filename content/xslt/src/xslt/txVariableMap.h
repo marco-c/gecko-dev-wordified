@@ -102,7 +102,7 @@ TRANSFRMX_VARIABLEMAP_H
 #
 include
 "
-txError
+nsError
 .
 h
 "

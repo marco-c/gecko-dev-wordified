@@ -746,7 +746,7 @@ includes
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "

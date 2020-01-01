@@ -692,7 +692,7 @@ h
 #
 include
 "
-nsPluginError
+nsError
 .
 h
 "
@@ -791,13 +791,6 @@ h
 include
 "
 nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
-nsContentErrors
 .
 h
 "

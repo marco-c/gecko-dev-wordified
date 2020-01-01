@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-nsContentErrors
+nsError
 .
 h
 "

@@ -532,7 +532,7 @@ IBMBIDI
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "

@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -3944,14 +3944,14 @@ WebGLContext
 *
 oldestContext
 =
-nullptr
+nsnull
 ;
 const
 WebGLContext
 *
 oldestContextThisPrincipal
 =
-nullptr
+nsnull
 ;
 size_t
 numContexts

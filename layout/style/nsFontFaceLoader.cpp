@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsDOMError
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -278,13 +271,6 @@ h
 include
 "
 nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
-nsContentErrors
 .
 h
 "

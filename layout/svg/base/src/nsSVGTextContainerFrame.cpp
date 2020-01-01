@@ -121,7 +121,7 @@ order
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "

@@ -160,7 +160,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -9473,8 +9473,8 @@ getter_AddRefs
 (
 domEvent
 )
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 nsCOMPtr

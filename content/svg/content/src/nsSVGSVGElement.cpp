@@ -229,7 +229,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -261,17 +261,6 @@ nsSVGSVGElement
 .
 h
 "
-#
-include
-"
-nsContentErrors
-.
-h
-"
-/
-/
-For
-NS_PROPTABLE_PROP_OVERWRITTEN
 #
 include
 "

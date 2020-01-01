@@ -954,7 +954,7 @@ n
 include
 \
 "
-nsDOMError
+nsError
 .
 h
 \

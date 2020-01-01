@@ -102,7 +102,7 @@ TRANSFRMX_TXXSLTNUMBER_H
 #
 include
 "
-txError
+nsError
 .
 h
 "
