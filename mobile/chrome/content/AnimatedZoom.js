@@ -992,7 +992,6 @@ function
 (
 )
 {
-{
 return
 ;
 /
