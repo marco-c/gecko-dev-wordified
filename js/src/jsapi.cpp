@@ -15631,10 +15631,12 @@ isDenseArray
 &
 &
 !
-js_MakeArraySlow
+obj
+-
+>
+makeDenseArraySlow
 (
 cx
-obj
 )
 )
 return

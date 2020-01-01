@@ -2971,6 +2971,14 @@ to
 a
 slow
 array
+JSBool
+makeDenseArraySlow
+(
+JSContext
+*
+cx
+)
+;
 /
 *
 *
