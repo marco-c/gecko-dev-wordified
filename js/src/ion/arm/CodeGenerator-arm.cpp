@@ -2790,6 +2790,15 @@ isConstant
 )
 )
 {
+/
+/
+Bailout
+when
+this
+condition
+is
+met
+.
 Assembler
 :
 :
@@ -2922,6 +2931,7 @@ ToRegister
 (
 dest
 )
+SetCond
 )
 ;
 break
@@ -3003,6 +3013,13 @@ dest
 SetCond
 )
 ;
+/
+/
+Overflow
+is
+handled
+later
+.
 break
 ;
 default
