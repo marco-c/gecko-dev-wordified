@@ -1038,6 +1038,12 @@ OnIMESelectionChange
 void
 )
 ;
+virtual
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+;
 #
 endif
 /

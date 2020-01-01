@@ -820,6 +820,12 @@ OnSelectionChangeInternal
 ;
 }
 static
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+;
+static
 void
 CompositionTimerCallbackFunc
 (
