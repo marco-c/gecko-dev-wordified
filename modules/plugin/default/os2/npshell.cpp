@@ -2560,7 +2560,7 @@ NPP_WriteReady
 -
 -
 -
-int32
+int32_t
 NP_LOADDS
 NPP_WriteReady
 (
@@ -2821,7 +2821,7 @@ NPP_Write
 -
 -
 -
-int32
+int32_t
 NP_LOADDS
 NPP_Write
 (
@@ -2830,9 +2830,9 @@ pInstance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *
