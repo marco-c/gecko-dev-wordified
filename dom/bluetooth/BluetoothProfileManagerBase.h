@@ -133,6 +133,9 @@ h
 BEGIN_BLUETOOTH_NAMESPACE
 class
 BluetoothProfileManagerBase
+:
+public
+nsISupports
 {
 public
 :
@@ -159,6 +162,17 @@ void
 OnUpdateSdpRecords
 (
 const
+nsAString
+&
+aDeviceAddress
+)
+=
+0
+;
+virtual
+void
+GetAddress
+(
 nsAString
 &
 aDeviceAddress
