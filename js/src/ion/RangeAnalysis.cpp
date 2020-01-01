@@ -4506,6 +4506,10 @@ range
 ;
 if
 (
+!
+implicitTruncate_
+&
+&
 isPossibleTruncated
 (
 )
