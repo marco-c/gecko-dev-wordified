@@ -727,9 +727,6 @@ class
 nsIContentSink
 ;
 class
-nsIScriptEventManager
-;
-class
 nsHTMLStyleSheet
 ;
 class
@@ -5354,15 +5351,6 @@ return
 container
 ;
 }
-virtual
-nsIScriptEventManager
-*
-GetScriptEventManager
-(
-)
-=
-0
-;
 /
 *
 *
