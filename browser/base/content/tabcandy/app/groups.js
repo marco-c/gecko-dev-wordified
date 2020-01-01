@@ -7346,7 +7346,7 @@ left
 {
 duration
 :
-350
+200
 easing
 :
 '
