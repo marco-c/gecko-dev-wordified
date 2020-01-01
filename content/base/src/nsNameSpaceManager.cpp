@@ -1415,8 +1415,10 @@ nsIContent
 aResult
 PRInt32
 aElementType
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser

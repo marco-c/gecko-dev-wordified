@@ -800,6 +800,10 @@ mPosterImage
 NS_NewHTMLImageElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 NS_ENSURE_TRUE
@@ -984,6 +988,10 @@ mVideoControls
 )
 kNameSpaceID_XUL
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 ;

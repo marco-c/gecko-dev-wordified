@@ -1516,6 +1516,10 @@ root
 NS_NewHTMLHtmlElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 if
@@ -1604,6 +1608,10 @@ head
 NS_NewHTMLHeadElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 if
@@ -1655,6 +1663,10 @@ body
 NS_NewHTMLBodyElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 if

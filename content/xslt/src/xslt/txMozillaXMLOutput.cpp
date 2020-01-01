@@ -2786,6 +2786,10 @@ mOpenedElement
 )
 aNsID
 ni
+.
+forget
+(
+)
 PR_FALSE
 )
 ;
@@ -3213,10 +3217,13 @@ mDocument
 >
 CreateElem
 (
+nsAtomString
+(
 nsGkAtoms
 :
 :
 result
+)
 nsGkAtoms
 :
 :
@@ -5110,6 +5117,10 @@ NS_NewHTMLElement
 (
 aResult
 ni
+.
+forget
+(
+)
 PR_FALSE
 )
 ;

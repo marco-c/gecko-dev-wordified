@@ -11039,8 +11039,10 @@ nsGenericElement
 :
 nsGenericElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

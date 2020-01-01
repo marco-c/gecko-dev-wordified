@@ -2069,6 +2069,10 @@ htmlElement
 NS_NewHTMLHtmlElement
 (
 htmlNodeInfo
+.
+forget
+(
+)
 )
 ;
 /
@@ -2102,6 +2106,10 @@ headElement
 NS_NewHTMLHeadElement
 (
 htmlNodeInfo
+.
+forget
+(
+)
 )
 ;
 /
@@ -2110,7 +2118,7 @@ generate
 an
 html
 body
-element
+elemment
 htmlNodeInfo
 =
 nim
@@ -2135,6 +2143,10 @@ bodyElement
 NS_NewHTMLBodyElement
 (
 htmlNodeInfo
+.
+forget
+(
+)
 )
 ;
 /

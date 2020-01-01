@@ -501,8 +501,10 @@ public
 :
 nsHTMLTitleElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -607,6 +609,13 @@ PRBool
 aHaveNotified
 )
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 private
 :
 void
@@ -627,8 +636,10 @@ nsHTMLTitleElement
 :
 nsHTMLTitleElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -662,7 +673,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTitleElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLTitleElement
 nsHTMLTitleElement

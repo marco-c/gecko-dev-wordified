@@ -630,7 +630,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGForeignObjectElement
 nsSVGForeignObjectElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGForeignObjectElement
 nsSVGForeignObjectElement
@@ -735,8 +735,10 @@ nsSVGForeignObjectElement
 :
 nsSVGForeignObjectElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

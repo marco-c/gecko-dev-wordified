@@ -579,6 +579,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 /

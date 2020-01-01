@@ -641,7 +641,7 @@ h
 nsISupports
 methods
 :
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 MathMLElement
 nsMathMLElement

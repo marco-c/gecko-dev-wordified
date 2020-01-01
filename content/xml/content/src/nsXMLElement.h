@@ -463,8 +463,10 @@ public
 :
 nsXMLElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -514,6 +516,13 @@ nsINode
 aResult
 )
 const
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
 ;
 /
 /

@@ -526,8 +526,10 @@ protected
 :
 nsMappedAttributeElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

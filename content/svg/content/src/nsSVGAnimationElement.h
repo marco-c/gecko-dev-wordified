@@ -518,8 +518,10 @@ protected
 :
 nsSVGAnimationElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;

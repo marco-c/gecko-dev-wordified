@@ -13205,8 +13205,10 @@ nsGenericHTMLFormElement
 :
 nsGenericHTMLFormElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

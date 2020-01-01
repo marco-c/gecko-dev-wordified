@@ -1259,7 +1259,10 @@ doc
 >
 CreateElem
 (
+nsAtomString
+(
 aName
+)
 nsnull
 kNameSpaceID_None
 PR_FALSE

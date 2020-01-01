@@ -816,6 +816,13 @@ nsIHTMLDocument
 .
 h
 "
+#
+include
+"
+nsGenericElement
+.
+h
+"
 /
 /
 =
@@ -1830,7 +1837,7 @@ mLoopingForSyncLoad
 PR_FALSE
 ;
 }
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 XMLDocument
 nsXMLDocument

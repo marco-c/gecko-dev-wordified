@@ -671,8 +671,10 @@ nsGenericHTMLElement
 *
 NS_NewHTMLOptionElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -797,6 +799,10 @@ new
 nsHTMLOptionElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 }
@@ -805,8 +811,10 @@ nsHTMLOptionElement
 :
 nsHTMLOptionElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -850,7 +858,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLOptionElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLOptionElement
 nsHTMLOptionElement

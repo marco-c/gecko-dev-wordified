@@ -891,8 +891,10 @@ nsIContent
 *
 *
 aResult
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -900,8 +902,10 @@ aFromParser
 ;
 nsSVGSVGElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -1344,6 +1348,13 @@ aSize
 height
 ;
 }
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 /

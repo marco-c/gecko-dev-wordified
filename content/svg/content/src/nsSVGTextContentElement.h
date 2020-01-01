@@ -535,8 +535,10 @@ protected
 :
 nsSVGTextContentElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

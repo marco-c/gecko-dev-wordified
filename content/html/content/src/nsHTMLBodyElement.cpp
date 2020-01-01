@@ -808,8 +808,10 @@ public
 :
 nsHTMLBodyElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -936,6 +938,13 @@ nsINode
 aResult
 )
 const
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
 ;
 private
 :
@@ -2406,8 +2415,10 @@ nsHTMLBodyElement
 :
 nsHTMLBodyElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -2458,7 +2469,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLBodyElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLBodyElement
 nsHTMLBodyElement

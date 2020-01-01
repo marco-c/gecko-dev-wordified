@@ -483,8 +483,10 @@ public
 :
 nsHTMLTableCaptionElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -581,6 +583,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 }
 ;
 NS_IMPL_NS_NEW_HTML_ELEMENT
@@ -592,8 +601,10 @@ nsHTMLTableCaptionElement
 :
 nsHTMLTableCaptionElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -622,7 +633,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTableCaptionElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLTableCaptionElement
 nsHTMLTableCaptionElement

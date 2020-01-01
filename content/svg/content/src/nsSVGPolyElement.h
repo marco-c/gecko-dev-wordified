@@ -487,8 +487,10 @@ protected
 :
 nsSVGPolyElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;

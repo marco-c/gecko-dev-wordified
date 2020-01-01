@@ -1415,6 +1415,13 @@ aElementId
 )
 ;
 }
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 nsresult

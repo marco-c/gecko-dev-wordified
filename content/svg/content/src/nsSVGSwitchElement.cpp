@@ -644,7 +644,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGSwitchElement
 nsSVGSwitchElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGSwitchElement
 nsSVGSwitchElement
@@ -749,8 +749,10 @@ nsSVGSwitchElement
 :
 nsSVGSwitchElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

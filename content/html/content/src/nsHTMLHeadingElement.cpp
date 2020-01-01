@@ -490,8 +490,10 @@ public
 :
 nsHTMLHeadingElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -587,6 +589,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 }
 ;
 NS_IMPL_NS_NEW_HTML_ELEMENT
@@ -598,8 +607,10 @@ nsHTMLHeadingElement
 :
 nsHTMLHeadingElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -628,7 +639,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLHeadingElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLHeadingElement
 nsHTMLHeadingElement

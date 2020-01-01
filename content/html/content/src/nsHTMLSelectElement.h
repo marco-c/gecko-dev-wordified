@@ -1416,8 +1416,10 @@ public
 :
 nsHTMLSelectElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -1742,6 +1744,13 @@ aSupports
 )
 ;
 }
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 friend

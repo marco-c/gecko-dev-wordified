@@ -545,8 +545,10 @@ public
 :
 nsHTMLStyleElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -722,6 +724,13 @@ NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 already_AddRefed
@@ -821,8 +830,10 @@ nsHTMLStyleElement
 :
 nsHTMLStyleElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -856,7 +867,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLStyleElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLStyleElement
 nsHTMLStyleElement

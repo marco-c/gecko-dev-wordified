@@ -476,8 +476,10 @@ public
 :
 nsHTMLMetaElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -579,6 +581,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 }
 ;
 NS_IMPL_NS_NEW_HTML_ELEMENT
@@ -590,8 +599,10 @@ nsHTMLMetaElement
 :
 nsHTMLMetaElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -620,7 +631,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLMetaElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLMetaElement
 nsHTMLMetaElement

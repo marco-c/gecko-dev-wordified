@@ -526,8 +526,10 @@ nsGenericHTMLElement
 *
 NS_NewHTMLCanvasElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -546,8 +548,10 @@ nsHTMLCanvasElement
 :
 nsHTMLCanvasElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -594,7 +598,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLCanvasElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLCanvasElement
 nsHTMLCanvasElement

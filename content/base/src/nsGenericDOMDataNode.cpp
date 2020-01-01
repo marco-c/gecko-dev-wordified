@@ -623,8 +623,10 @@ nsGenericDOMDataNode
 :
 nsGenericDOMDataNode
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

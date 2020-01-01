@@ -510,8 +510,10 @@ public
 :
 nsHTMLOptionElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -722,6 +724,13 @@ nsGenericElement
 aDest
 )
 const
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
 ;
 protected
 :

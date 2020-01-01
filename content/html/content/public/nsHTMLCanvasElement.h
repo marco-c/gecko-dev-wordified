@@ -595,8 +595,10 @@ public
 :
 nsHTMLCanvasElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -1058,6 +1060,13 @@ needed
 .
 void
 MarkContextClean
+(
+)
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
 (
 )
 ;

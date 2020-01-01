@@ -445,8 +445,10 @@ nsIContent
 *
 *
 aInstancePtrResult
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 {
@@ -482,7 +484,7 @@ return
 NS_OK
 ;
 }
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 Element
 nsXMLElement

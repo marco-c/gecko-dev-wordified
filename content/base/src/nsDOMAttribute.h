@@ -568,8 +568,10 @@ nsDOMAttribute
 nsDOMAttributeMap
 *
 aAttrMap
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 const
 nsAString
@@ -889,6 +891,13 @@ nsDOMAttribute
 nsIAttribute
 )
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 virtual

@@ -698,7 +698,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGMaskElement
 nsSVGMaskElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGMaskElement
 nsSVGMaskElement
@@ -804,8 +804,10 @@ nsSVGMaskElement
 :
 nsSVGMaskElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

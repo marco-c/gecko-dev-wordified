@@ -953,8 +953,10 @@ nsSVGElement
 :
 nsSVGElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

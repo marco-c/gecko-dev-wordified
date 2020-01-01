@@ -472,8 +472,10 @@ protected
 :
 nsSVGStylableElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;

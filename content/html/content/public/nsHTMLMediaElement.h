@@ -587,8 +587,10 @@ CANPLAY_YES
 ;
 nsHTMLMediaElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser

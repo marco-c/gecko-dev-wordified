@@ -1176,6 +1176,13 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsXULDocument
 nsXMLDocument
 )
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 /

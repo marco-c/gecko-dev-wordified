@@ -467,8 +467,10 @@ public
 :
 nsXMLEventsElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -533,8 +535,10 @@ nsXMLEventsElement
 :
 nsXMLEventsElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -687,8 +691,10 @@ nsIContent
 *
 *
 aInstancePtrResult
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 {

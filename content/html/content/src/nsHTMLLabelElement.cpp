@@ -562,8 +562,10 @@ public
 :
 nsHTMLLabelElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -776,6 +778,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 already_AddRefed
@@ -831,8 +840,10 @@ nsHTMLLabelElement
 :
 nsHTMLLabelElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -868,7 +879,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLabelElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLLabelElement
 nsHTMLLabelElement

@@ -623,7 +623,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGMpathElement
 nsSVGMpathElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGMpathElement
 nsSVGMpathElement
@@ -723,8 +723,10 @@ nsSVGMpathElement
 :
 nsSVGMpathElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

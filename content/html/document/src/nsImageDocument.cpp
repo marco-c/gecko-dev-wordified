@@ -918,6 +918,13 @@ mResizeImageByDefault
 )
 ;
 }
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 virtual
@@ -1746,7 +1753,7 @@ NS_IMPL_RELEASE_INHERITED
 nsImageDocument
 nsMediaDocument
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 ImageDocument
 nsImageDocument
@@ -3450,6 +3457,10 @@ mImageContent
 NS_NewHTMLImageElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 if

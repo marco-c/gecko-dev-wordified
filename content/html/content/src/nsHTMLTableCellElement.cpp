@@ -518,8 +518,10 @@ public
 :
 nsHTMLTableCellElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -624,6 +626,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 /
@@ -682,8 +691,10 @@ nsHTMLTableCellElement
 :
 nsHTMLTableCellElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -712,7 +723,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTableCellElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLTableCellElement
 nsHTMLTableCellElement

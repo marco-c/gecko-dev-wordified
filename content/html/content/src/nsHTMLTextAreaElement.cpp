@@ -779,8 +779,10 @@ public
 :
 nsHTMLTextAreaElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -1300,6 +1302,13 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsHTMLTextAreaElement
 nsGenericHTMLFormElement
 )
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 using
@@ -1642,8 +1651,10 @@ nsHTMLTextAreaElement
 :
 nsHTMLTextAreaElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -1734,7 +1745,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTextAreaElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLTextAreaElement
 nsHTMLTextAreaElement

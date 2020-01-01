@@ -546,8 +546,10 @@ public
 :
 nsHTMLObjectElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -837,6 +839,13 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 nsHTMLObjectElement
 nsGenericHTMLFormElement
 )
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 private
 :
 /
@@ -881,8 +890,10 @@ nsHTMLObjectElement
 :
 nsHTMLObjectElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -1016,7 +1027,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLObjectElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLObjectElement
 nsHTMLObjectElement

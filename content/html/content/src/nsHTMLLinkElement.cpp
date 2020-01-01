@@ -622,8 +622,10 @@ public
 :
 nsHTMLLinkElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -860,6 +862,13 @@ IntrinsicState
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 virtual
@@ -903,8 +912,10 @@ nsHTMLLinkElement
 :
 nsHTMLLinkElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -933,7 +944,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLinkElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLLinkElement
 nsHTMLLinkElement

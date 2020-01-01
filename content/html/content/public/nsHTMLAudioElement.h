@@ -503,8 +503,10 @@ public
 :
 nsHTMLAudioElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -597,6 +599,13 @@ nsINode
 aResult
 )
 const
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
 ;
 }
 ;

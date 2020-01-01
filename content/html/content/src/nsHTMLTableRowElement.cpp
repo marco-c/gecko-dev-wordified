@@ -525,8 +525,10 @@ public
 :
 nsHTMLTableRowElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -617,6 +619,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 (
 nsHTMLTableRowElement
@@ -659,8 +668,10 @@ nsHTMLTableRowElement
 :
 nsHTMLTableRowElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -695,7 +706,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTableRowElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLTableRowElement
 nsHTMLTableRowElement
@@ -1581,6 +1592,10 @@ cellContent
 NS_NewHTMLTableCellElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 if

@@ -653,7 +653,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLVideoElement
 nsHTMLMediaElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLVideoElement
 nsHTMLVideoElement
@@ -788,8 +788,10 @@ nsHTMLVideoElement
 :
 nsHTMLVideoElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser

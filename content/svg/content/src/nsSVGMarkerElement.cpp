@@ -785,7 +785,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGMarkerElement
 nsSVGMarkerElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGMarkerElement
 nsSVGMarkerElement
@@ -1018,8 +1018,10 @@ nsSVGMarkerElement
 :
 nsSVGMarkerElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

@@ -719,8 +719,10 @@ nsSVGGraphicElement
 :
 nsSVGGraphicElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

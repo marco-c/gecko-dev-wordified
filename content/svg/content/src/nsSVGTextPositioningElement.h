@@ -532,8 +532,10 @@ protected
 :
 nsSVGTextPositioningElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
