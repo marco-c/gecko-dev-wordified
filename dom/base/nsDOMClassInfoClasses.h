@@ -682,17 +682,3 @@ DOMCI_CLASS
 (
 CSSFontFeatureValuesRule
 )
-#
-ifdef
-MOZ_TIME_MANAGER
-DOMCI_CLASS
-(
-MozTimeManager
-)
-#
-endif
-#
-ifdef
-MOZ_WEBRTC
-#
-endif

@@ -9994,7 +9994,7 @@ Navigator
 :
 GetMozTime
 (
-nsIDOMMozTimeManager
+nsISupports
 *
 *
 aTime
@@ -10034,6 +10034,9 @@ time
 :
 TimeManager
 (
+GetWindow
+(
+)
 )
 ;
 }
