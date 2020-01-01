@@ -1648,6 +1648,8 @@ this
 getTagsForURI
 (
 aURI
+{
+}
 )
 ;
 }
@@ -1872,6 +1874,7 @@ function
 TS_getTagsForURI
 (
 aURI
+aCount
 )
 {
 if
@@ -2010,6 +2013,14 @@ tags
 sort
 (
 )
+;
+aCount
+.
+value
+=
+tags
+.
+length
 ;
 return
 tags

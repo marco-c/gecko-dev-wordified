@@ -1028,6 +1028,8 @@ getTagsForURI
 this
 .
 _uri
+{
+}
 )
 .
 join
@@ -3183,6 +3185,8 @@ getTagsForURI
 this
 .
 _uri
+{
+}
 )
 ;
 var
@@ -5585,6 +5589,8 @@ getTagsForURI
 this
 .
 _uri
+{
+}
 )
 .
 join
