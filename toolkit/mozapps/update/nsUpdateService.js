@@ -16740,6 +16740,12 @@ logic
 var
 useComplete
 =
+getDesiredChannel
+(
+)
+?
+true
+:
 false
 ;
 if
