@@ -9077,7 +9077,7 @@ endif
 *
 NB
 :
-jumpAndTrace
+jumpAndRun
 emits
 to
 the
@@ -9107,7 +9107,7 @@ path
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 fast
 target
@@ -10618,7 +10618,7 @@ Changes
 *
 NB
 :
-jumpAndTrace
+jumpAndRun
 emits
 to
 the
@@ -10648,7 +10648,7 @@ path
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 j
 target
@@ -11068,7 +11068,7 @@ ReturnReg
 )
 ;
 return
-jumpAndTrace
+jumpAndRun
 (
 fast
 target
@@ -12075,19 +12075,6 @@ label
 )
 )
 ;
-/
-*
-:
-TODO
-:
-make
-double
-path
-invoke
-tracer
-.
-*
-/
 if
 (
 hasDoublePath
@@ -12147,7 +12134,7 @@ jump
 *
 NB
 :
-jumpAndTrace
+jumpAndRun
 emits
 to
 the
@@ -12177,7 +12164,7 @@ path
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 fast
 target

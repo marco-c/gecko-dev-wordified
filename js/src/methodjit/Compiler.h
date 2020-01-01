@@ -3580,7 +3580,7 @@ handlers
 *
 /
 bool
-jumpAndTrace
+jumpAndRun
 (
 Jump
 j
