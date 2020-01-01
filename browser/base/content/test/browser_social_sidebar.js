@@ -405,7 +405,7 @@ browser
 addEventListener
 (
 "
-sidebarhide
+socialFrameHide
 "
 function
 sidebarhide
@@ -417,7 +417,7 @@ browser
 removeEventListener
 (
 "
-sidebarhide
+socialFrameHide
 "
 sidebarhide
 )
@@ -432,7 +432,7 @@ browser
 addEventListener
 (
 "
-sidebarshow
+socialFrameShow
 "
 function
 sidebarshow
@@ -444,7 +444,7 @@ browser
 removeEventListener
 (
 "
-sidebarshow
+socialFrameShow
 "
 sidebarshow
 )
