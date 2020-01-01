@@ -168,11 +168,18 @@ UINT8_MAX
 )
 .
 let
+buf
+=
+worker
+.
+Buf
+;
+let
 request
 =
 parcel
 [
-worker
+buf
 .
 PARCEL_SIZE_SIZE
 +
@@ -601,7 +608,7 @@ pA_dataLength
 =
 buf
 .
-INCOMING_BUFFER_LENGTH
+incomingBufferLength
 /
 2
 ;
@@ -630,7 +637,7 @@ pA
 .
 length
 -
-worker
+buf
 .
 PARCEL_SIZE_SIZE
 ;
@@ -639,7 +646,7 @@ pB_dataLength
 =
 buf
 .
-INCOMING_BUFFER_LENGTH
+incomingBufferLength
 *
 3
 /
@@ -670,7 +677,7 @@ pB
 .
 length
 -
-worker
+buf
 .
 PARCEL_SIZE_SIZE
 ;
@@ -776,7 +783,7 @@ p1
 .
 length
 -
-worker
+buf
 .
 PARCEL_SIZE_SIZE
 )

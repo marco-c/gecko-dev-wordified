@@ -1135,7 +1135,7 @@ handleParcel
 request_type
 this
 .
-mReadAvailable
+readAvailable
 options
 )
 ;
@@ -1239,7 +1239,7 @@ beginning
 .
 this
 .
-mOutgoingIndex
+outgoingIndex
 =
 this
 .
