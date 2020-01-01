@@ -1920,6 +1920,12 @@ GetStyleFont
 >
 mFont
 nsnull
+presContext
+-
+>
+GetUserFontSet
+(
+)
 )
 ;
 nsCOMPtr
