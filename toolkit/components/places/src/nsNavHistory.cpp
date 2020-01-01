@@ -5657,6 +5657,8 @@ NS_LITERAL_CSTRING
 "
 DROP
 TABLE
+IF
+EXISTS
 moz_bookmarks
 "
 )
@@ -5680,6 +5682,8 @@ NS_LITERAL_CSTRING
 "
 DROP
 TABLE
+IF
+EXISTS
 moz_bookmarks_folders
 "
 )
@@ -5703,6 +5707,8 @@ NS_LITERAL_CSTRING
 "
 DROP
 TABLE
+IF
+EXISTS
 moz_bookmarks_roots
 "
 )
@@ -5726,6 +5732,8 @@ NS_LITERAL_CSTRING
 "
 DROP
 TABLE
+IF
+EXISTS
 moz_keywords
 "
 )
@@ -5953,6 +5961,8 @@ NS_LITERAL_CSTRING
 "
 DROP
 TABLE
+IF
+EXISTS
 moz_annos
 "
 )
