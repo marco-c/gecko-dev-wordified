@@ -2617,7 +2617,7 @@ inlined
 fp
 -
 >
-pc
+pcQuadratic
 (
 cx
 next
@@ -3436,7 +3436,7 @@ fp
 fp
 -
 >
-pc
+pcQuadratic
 (
 cx
 NULL

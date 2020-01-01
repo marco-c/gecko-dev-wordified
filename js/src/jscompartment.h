@@ -814,16 +814,6 @@ tree
 we
 initially
 invoked
-uintN
-*
-inlineCallCountp
-;
-/
-/
-inline
-call
-count
-counter
 VMSideExit
 *
 *
@@ -938,9 +928,6 @@ tm
 TreeFragment
 *
 ti
-uintN
-&
-inlineCallCountp
 VMSideExit
 *
 *

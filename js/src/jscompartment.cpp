@@ -847,7 +847,6 @@ analysis
 "
 4096
 8
-NULL
 )
 ;
 freeLists
