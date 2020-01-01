@@ -5383,12 +5383,6 @@ C
 access
 to
 gBrowser
-gBrowser
-.
-init
-(
-)
-;
 XULBrowserWindow
 .
 init
