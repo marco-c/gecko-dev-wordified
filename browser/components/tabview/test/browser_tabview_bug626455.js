@@ -501,11 +501,7 @@ spec
 is
 (
 location
-"
-about
-:
-blank
-"
+BROWSER_NEW_TAB_URL
 "
 The
 open
