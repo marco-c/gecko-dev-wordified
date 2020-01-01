@@ -5774,6 +5774,7 @@ DTrace
 ExecutionScope
 executionScope
 (
+cx
 script
 )
 ;
