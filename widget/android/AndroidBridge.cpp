@@ -372,7 +372,7 @@ NS_IMPL_ISUPPORTS0
 (
 nsFilePickerCallback
 )
-StaticRefPtr
+nsRefPtr
 <
 AndroidBridge
 >
@@ -380,6 +380,8 @@ AndroidBridge
 :
 :
 sBridge
+=
+nullptr
 ;
 static
 unsigned
@@ -9549,7 +9551,7 @@ mMainThread
 ;
 }
 ;
-StaticRefPtr
+nsCOMPtr
 <
 TracerRunnable
 >
