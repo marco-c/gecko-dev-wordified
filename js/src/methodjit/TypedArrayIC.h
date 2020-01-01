@@ -1014,7 +1014,7 @@ TypedArray
 TYPE_UINT8_CLAMPED
 )
 ?
-js_TypedArray_uint8_clamp_double
+ClampDoubleToUint8
 (
 v
 .

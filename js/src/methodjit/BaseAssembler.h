@@ -8079,7 +8079,10 @@ this
 Inline
 version
 of
-js_TypedArray_uint8_clamp_double
+js
+:
+:
+ClampDoubleToUint8
 .
 void
 clampDoubleToUint8
@@ -8305,7 +8308,10 @@ value
 /
 /
 See
-js_TypedArray_uint8_clamp_double
+js
+:
+:
+ClampDoubleToUint8
 for
 the
 reasoning

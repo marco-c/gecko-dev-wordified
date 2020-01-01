@@ -12242,7 +12242,7 @@ if
 Clamped
 )
 return
-js_TypedArray_uint8_clamp_double
+ClampDoubleToUint8
 (
 vp
 -
