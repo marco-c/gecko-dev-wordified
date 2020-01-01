@@ -332,6 +332,8 @@ else
 define
 YARR_CALL
 #
+endif
+#
 if
 JS_TRACE_LOGGING
 #
@@ -341,8 +343,6 @@ TraceLogging
 .
 h
 "
-#
-endif
 #
 endif
 namespace
