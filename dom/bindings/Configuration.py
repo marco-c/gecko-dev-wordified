@@ -4041,22 +4041,12 @@ PrefControlled
 )
 or
             
-not
-all
-(
-m
-.
-isConst
-(
-)
-for
-m
-in
 self
 .
 interface
 .
-members
+hasInterfacePrototypeObject
+(
 )
 )
 #

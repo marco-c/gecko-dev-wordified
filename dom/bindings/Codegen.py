@@ -10328,16 +10328,18 @@ non
 static
 methods
 for
-callback
 interfaces
+without
+a
+proto
+object
         
 if
-not
 descriptor
 .
 interface
 .
-isCallback
+hasInterfacePrototypeObject
 (
 )
 or
@@ -11050,16 +11052,18 @@ non
 static
 attributes
 for
-callback
 interfaces
+without
+a
+proto
+object
         
 if
-not
 descriptor
 .
 interface
 .
-isCallback
+hasInterfacePrototypeObject
 (
 )
 or
