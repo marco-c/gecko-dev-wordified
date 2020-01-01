@@ -5774,6 +5774,13 @@ onRequest
 )
 GK_ATOM
 (
+onrequestmediaplaystatus
+"
+onrequestmediaplaystatus
+"
+)
+GK_ATOM
+(
 onreset
 "
 onreset

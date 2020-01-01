@@ -702,6 +702,11 @@ pairedstatuschanged
 ;
 IMPL_EVENT_HANDLER
 (
+requestmediaplaystatus
+)
+;
+IMPL_EVENT_HANDLER
+(
 scostatuschanged
 )
 ;
