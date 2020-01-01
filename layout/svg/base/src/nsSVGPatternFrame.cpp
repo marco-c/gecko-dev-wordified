@@ -5724,6 +5724,14 @@ if
 (
 !
 pattern
+|
+|
+pattern
+-
+>
+CairoStatus
+(
+)
 )
 return
 PR_FALSE
