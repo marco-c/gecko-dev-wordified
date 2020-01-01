@@ -939,6 +939,10 @@ kUploadTimePref
 ]
 =
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 upload
@@ -956,6 +960,10 @@ kPingTimePref
 ]
 =
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 upload
@@ -973,6 +981,10 @@ kEventCountPref
 ]
 =
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 event
@@ -988,6 +1000,10 @@ kEnablePref
 ]
 =
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 upload
@@ -5385,6 +5401,8 @@ mozilla
 .
 org
 /
+extensions
+/
 metrics
 /
 collector
@@ -6284,6 +6302,10 @@ prefs
 GetIntPref
 (
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 event
@@ -6313,6 +6335,10 @@ kSessionIDPref
 ]
 =
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 last
@@ -7443,6 +7469,10 @@ prefs
 GetCharPref
 (
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 upload
@@ -8166,6 +8196,10 @@ kClientIDPref
 ]
 =
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 client

@@ -558,6 +558,8 @@ mozilla
 .
 org
 /
+extensions
+/
 metrics
 /
 collector
