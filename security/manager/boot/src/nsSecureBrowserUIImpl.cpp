@@ -5448,6 +5448,8 @@ PR_FALSE
 ;
 lockIconState
 warnSecurityState
+=
+lis_no_security
 ;
 if
 (

@@ -612,6 +612,15 @@ amount
 enum
 ssl_state
 {
+ssl_invalid
+/
+/
+used
+for
+initializating
+should
+never
+occur
 ssl_idle
 /
 /
