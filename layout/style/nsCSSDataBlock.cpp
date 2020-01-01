@@ -4023,6 +4023,7 @@ Clone
 if
 (
 !
+*
 aBlock
 )
 {
