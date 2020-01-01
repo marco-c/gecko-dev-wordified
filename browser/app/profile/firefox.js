@@ -3278,16 +3278,6 @@ warnOnQuit
 true
 )
 ;
-pref
-(
-"
-browser
-.
-warnOnRestart
-"
-false
-)
-;
 /
 /
 browser
