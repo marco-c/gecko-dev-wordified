@@ -2882,7 +2882,6 @@ nsIntRect
 )
 eventHandler
 dx
-nsnull
 &
 initData
 )

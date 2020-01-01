@@ -568,6 +568,13 @@ nsScreenManagerGtk
 h
 "
 #
+include
+"
+nsGTKToolkit
+.
+h
+"
+#
 ifdef
 NS_PRINTING
 #
@@ -1978,6 +1985,13 @@ nsWindow
 :
 :
 ReleaseGlobals
+(
+)
+;
+nsGTKToolkit
+:
+:
+Shutdown
 (
 )
 ;

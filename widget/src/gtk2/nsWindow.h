@@ -903,9 +903,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIToolkit
-*
-aToolkit
 nsWidgetInitData
 *
 aInitData

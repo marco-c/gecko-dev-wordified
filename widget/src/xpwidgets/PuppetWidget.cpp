@@ -771,9 +771,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIToolkit
-*
-aToolkit
 nsWidgetInitData
 *
 aInitData
@@ -800,7 +797,6 @@ nsnull
 aRect
 aHandleEventFunction
 aContext
-aToolkit
 aInitData
 )
 ;
@@ -957,9 +953,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIToolkit
-*
-aToolkit
 nsWidgetInitData
 *
 aInitData
@@ -1011,7 +1004,6 @@ nsnull
 aRect
 aHandleEventFunction
 aContext
-aToolkit
 aInitData
 )
 )
