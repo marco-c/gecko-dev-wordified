@@ -3080,6 +3080,10 @@ const
 nsIntRegion
 &
 aRegion
+const
+nsIntPoint
+&
+aFrom
 )
 {
 nsRefPtr
@@ -3109,6 +3113,7 @@ ctx
 SetSource
 (
 aSurface
+aFrom
 )
 ;
 ctx
@@ -3155,9 +3160,7 @@ mGLContext
 fBindTexture
 (
 LOCAL_GL_TEXTURE_2D
-Texture
-(
-)
+mTexture
 )
 ;
 sGLXLibrary
@@ -3223,6 +3226,17 @@ return
 mInUpdate
 ;
 }
+virtual
+GLuint
+GetTextureID
+(
+)
+{
+return
+mTexture
+;
+}
+;
 private
 :
 TextureImageGLX
@@ -3249,7 +3263,6 @@ aPixmap
 :
 TextureImage
 (
-aTexture
 aSize
 aWrapMode
 aContentType
@@ -3269,6 +3282,10 @@ aPixmap
 mInUpdate
 (
 PR_FALSE
+)
+mTexture
+(
+aTexture
 )
 {
 if
@@ -3321,6 +3338,9 @@ mPixmap
 ;
 PRPackedBool
 mInUpdate
+;
+GLuint
+mTexture
 ;
 }
 ;
