@@ -655,9 +655,17 @@ __GLIBC__
 )
 &
 &
+(
 defined
 (
 __FreeBSD_kernel__
+)
+|
+|
+defined
+(
+__GNU__
+)
 )
 )
 #
