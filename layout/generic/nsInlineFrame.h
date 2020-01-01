@@ -868,6 +868,12 @@ CanContinueTextRun
 )
 const
 ;
+virtual
+void
+PullOverflowsFromPrevInFlow
+(
+)
+;
 /
 /
 Take
@@ -1448,6 +1454,12 @@ aReflowState
 nsReflowStatus
 &
 aStatus
+)
+;
+virtual
+void
+PullOverflowsFromPrevInFlow
+(
 )
 ;
 /
