@@ -2222,6 +2222,11 @@ SendOutputStreamData
 (
 )
 ;
+void
+FinishOutputStreams
+(
+)
+;
 bool
 HaveEnoughDecodedAudio
 (
