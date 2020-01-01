@@ -221,7 +221,6 @@ terms
 *
 count
 (
-terms
 queryData
 callback
 )
@@ -5744,6 +5743,11 @@ numSearches
 +
 +
 ;
+let
+changeToUpdate
+=
+change
+;
 FormHistory
 .
 search
@@ -5856,7 +5860,7 @@ foundResult
 =
 true
 ;
-change
+changeToUpdate
 .
 guid
 =
