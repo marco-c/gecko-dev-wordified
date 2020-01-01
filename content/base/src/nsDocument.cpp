@@ -17487,7 +17487,7 @@ Unknown
 ;
 }
 }
-bool
+void
 nsDocument
 :
 :
@@ -17507,18 +17507,6 @@ nsHtml5TreeOpExecutor
 aExecutor
 )
 {
-if
-(
-kCharsetFromChannel
-<
-=
-aCharsetSource
-)
-{
-return
-true
-;
-}
 if
 (
 aChannel
@@ -17570,7 +17558,6 @@ aCharsetSource
 kCharsetFromChannel
 ;
 return
-true
 ;
 }
 else
@@ -17598,9 +17585,6 @@ this
 }
 }
 }
-return
-false
-;
 }
 nsresult
 nsDocument

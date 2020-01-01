@@ -850,6 +850,12 @@ inherited
 from
 nsIDocument
 .
+virtual
+bool
+WillIgnoreCharsetOverride
+(
+)
+;
 /
 /
 WebIDL
@@ -1739,8 +1745,7 @@ nsACString
 aCharset
 )
 ;
-static
-bool
+void
 TryUserForcedCharset
 (
 nsIMarkupDocumentViewer
@@ -1758,7 +1763,7 @@ aCharset
 )
 ;
 static
-bool
+void
 TryCacheCharset
 (
 nsICachingChannel
@@ -1798,7 +1803,7 @@ aCharset
 ;
 static
 void
-UseWeakDocTypeDefault
+TryWeakDocTypeDefault
 (
 int32_t
 &
@@ -1809,7 +1814,7 @@ aCharset
 )
 ;
 static
-bool
+void
 TryDefaultCharset
 (
 nsIMarkupDocumentViewer

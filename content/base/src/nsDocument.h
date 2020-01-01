@@ -5854,7 +5854,7 @@ nsIChannel
 aChannel
 )
 ;
-bool
+void
 TryChannelCharset
 (
 nsIChannel
