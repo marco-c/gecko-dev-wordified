@@ -459,6 +459,12 @@ h
 struct
 nsCSSValueList
 ;
+class
+nsStyleContext
+;
+class
+nsPresContext
+;
 /
 *
 *
@@ -636,12 +642,6 @@ xA
 .
 *
 /
-class
-nsStyleContext
-;
-class
-nsPresContext
-;
 class
 nsStyleTransformMatrix
 {
