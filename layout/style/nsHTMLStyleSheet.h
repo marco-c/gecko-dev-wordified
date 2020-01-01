@@ -757,6 +757,14 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+size_t
+DOMSizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 nsresult
 Init
 (
@@ -821,12 +829,6 @@ nsMappedAttributes
 *
 aMapped
 )
-;
-PRInt64
-DOMSizeOf
-(
-)
-const
 ;
 private
 :
