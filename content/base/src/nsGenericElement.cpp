@@ -22046,6 +22046,13 @@ if
 slots
 )
 {
+slots
+-
+>
+mStyle
+=
+nsnull
+;
 if
 (
 slots
