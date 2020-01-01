@@ -3703,9 +3703,6 @@ void
 data
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 extern
 JS_PUBLIC_API
 (
@@ -3896,13 +3893,6 @@ endif
 JS_BEGIN_EXTERN_C
 #
 endif
-#
-endif
-/
-*
-JS_THREADSAFE
-*
-/
 extern
 JS_PUBLIC_API
 (
