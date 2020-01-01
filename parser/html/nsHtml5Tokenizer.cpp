@@ -378,6 +378,13 @@ h
 #
 include
 "
+nsAHtml5EncodingDeclarationHandler
+.
+h
+"
+#
+include
+"
 nsHtml5TreeBuilder
 .
 h
@@ -16468,7 +16475,7 @@ nsHtml5Tokenizer
 :
 setEncodingDeclarationHandler
 (
-nsHtml5StreamParser
+nsAHtml5EncodingDeclarationHandler
 *
 encodingDeclarationHandler
 )

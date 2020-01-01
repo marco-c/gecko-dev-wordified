@@ -475,6 +475,13 @@ h
 #
 include
 "
+nsICharsetAlias
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -1466,6 +1473,7 @@ mTreeBuilder
 SetDocumentCharset
 (
 mCharset
+mCharsetSource
 )
 ;
 }
@@ -1604,6 +1612,7 @@ mTreeBuilder
 SetDocumentCharset
 (
 mCharset
+mCharsetSource
 )
 ;
 }
@@ -1813,6 +1822,7 @@ mTreeBuilder
 SetDocumentCharset
 (
 mCharset
+mCharsetSource
 )
 ;
 mSniffingBuffer
@@ -2046,6 +2056,7 @@ mTreeBuilder
 SetDocumentCharset
 (
 mCharset
+mCharsetSource
 )
 ;
 }
@@ -2621,6 +2632,7 @@ mTreeBuilder
 SetDocumentCharset
 (
 mCharset
+mCharsetSource
 )
 ;
 mMetaScanner
@@ -2695,6 +2707,7 @@ mTreeBuilder
 SetDocumentCharset
 (
 mCharset
+mCharsetSource
 )
 ;
 mMetaScanner
