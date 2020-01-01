@@ -2219,6 +2219,16 @@ this
 function
 .
 virtual
+~
+LogControl
+(
+)
+{
+}
+#
+ifdef
+NJ_VERBOSE
+virtual
 void
 printf
 (
@@ -2236,6 +2246,8 @@ PRINTF_CHECK
 3
 )
 ;
+#
+endif
 /
 /
 An
