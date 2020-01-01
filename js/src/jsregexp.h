@@ -1320,7 +1320,7 @@ flags
 ;
 extern
 JSBool
-js_XDRRegExp
+js_XDRRegExpObject
 (
 JSXDRState
 *
