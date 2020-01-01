@@ -13337,9 +13337,8 @@ errorStr
 ;
 }
 }
-#
-ifdef
-DEBUG
+else
+{
 NS_WARNING
 (
 "
@@ -13348,8 +13347,7 @@ Profile
 "
 )
 ;
-#
-endif
+}
 }
 void
 BluetoothDBusService

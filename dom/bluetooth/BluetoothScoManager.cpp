@@ -675,6 +675,7 @@ BluetoothScoManagerObserver
 ;
 if
 (
+!
 sScoObserver
 -
 >
