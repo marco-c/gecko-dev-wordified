@@ -4197,6 +4197,9 @@ compatible
 class
 TraceRecorder
 {
+VMAllocator
+tempAlloc
+;
 JSContext
 *
 cx
@@ -6670,6 +6673,11 @@ outerArgc
 ;
 ~
 TraceRecorder
+(
+)
+;
+bool
+outOfMemory
 (
 )
 ;
