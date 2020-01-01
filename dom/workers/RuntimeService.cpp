@@ -4187,6 +4187,7 @@ CycleCollectedJSRuntime
 (
 WORKER_DEFAULT_RUNTIME_HEAPSIZE
 JS_NO_HELPER_THREADS
+false
 )
 {
 /
