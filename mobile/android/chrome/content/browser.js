@@ -9901,6 +9901,8 @@ BrowserApp
 getBrowserForWindow
 (
 aOpener
+.
+top
 )
 )
 ;
