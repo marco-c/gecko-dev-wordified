@@ -26259,7 +26259,7 @@ p
 EnumValueList
 :
 STRING
-EnumValues
+EnumValueListComma
         
 "
 "
@@ -26291,7 +26291,7 @@ p
 )
     
 def
-p_EnumValues
+p_EnumValueListComma
 (
 self
 p
@@ -26302,11 +26302,68 @@ p
 "
 "
             
-EnumValues
+EnumValueListComma
 :
 COMMA
+EnumValueListString
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+p
+[
+2
+]
+    
+def
+p_EnumValueListCommaEmpty
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+EnumValueListComma
+:
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+[
+]
+    
+def
+p_EnumValueListString
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+EnumValueListString
+:
 STRING
-EnumValues
+EnumValueListComma
         
 "
 "
@@ -26320,7 +26377,7 @@ p
 [
 p
 [
-2
+1
 ]
 ]
         
@@ -26333,12 +26390,12 @@ extend
 (
 p
 [
-3
+2
 ]
 )
     
 def
-p_EnumValuesEmpty
+p_EnumValueListStringEmpty
 (
 self
 p
@@ -26349,7 +26406,7 @@ p
 "
 "
             
-EnumValues
+EnumValueListString
 :
         
 "
