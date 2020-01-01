@@ -3695,7 +3695,7 @@ testNotificationCount
 test
 (
 Test
-6
+7
 )
 *
 note
