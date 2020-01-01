@@ -537,6 +537,12 @@ MODULE
 MODULE
 '
             
+SIMPLE_PROGRAMS
+=
+'
+SIMPLE_PROGRAMS
+'
+            
 XPIDL_FLAGS
 =
 '
