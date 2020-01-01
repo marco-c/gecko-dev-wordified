@@ -276,7 +276,7 @@ gre
 /
 modules
 /
-PermissionsInstaller
+PermissionsTable
 .
 jsm
 "
