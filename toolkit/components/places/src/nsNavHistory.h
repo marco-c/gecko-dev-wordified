@@ -3375,6 +3375,11 @@ void
 aClosure
 )
 ;
+void
+DoneSearching
+(
+)
+;
 PRInt32
 mExpireDays
 ;
