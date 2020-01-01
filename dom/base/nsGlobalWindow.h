@@ -3084,12 +3084,6 @@ PRUint32
 aType
 )
 ;
-nsTArray
-<
-PRUint32
->
-mEnabledSensors
-;
 virtual
 nsresult
 SetArguments
@@ -5932,6 +5926,12 @@ nsDOMEventTargetHelper
 >
 >
 mEventTargetObjects
+;
+nsTArray
+<
+PRUint32
+>
+mEnabledSensors
 ;
 friend
 class
