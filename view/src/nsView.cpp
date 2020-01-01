@@ -1263,14 +1263,6 @@ mWidgetIsTopLevel
 =
 false
 ;
-mParent
-=
-nsnull
-;
-mWindow
-=
-nsnull
-;
 }
 void
 nsView
