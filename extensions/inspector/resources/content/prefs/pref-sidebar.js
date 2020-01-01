@@ -873,17 +873,6 @@ xul
 /
 /
 /
-window
-.
-addEventListener
-(
-"
-load
-"
-SidebarPrefs_initialize
-false
-)
-;
 function
 SidebarPrefs_initialize
 (
