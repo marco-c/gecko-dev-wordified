@@ -874,9 +874,6 @@ size_t
 mathCache
 ;
 size_t
-scriptFilenames
-;
-size_t
 scriptData
 ;
 size_t

@@ -1884,6 +1884,8 @@ script
 -
 >
 filename
+(
+)
 it
 .
 script
@@ -3957,6 +3959,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -4120,6 +4124,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -4300,6 +4306,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -5232,6 +5240,8 @@ script
 -
 >
 filename
+(
+)
 PCToLineNumber
 (
 cx

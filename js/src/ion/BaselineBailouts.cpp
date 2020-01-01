@@ -3976,6 +3976,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -5378,6 +5380,8 @@ script
 -
 >
 filename
+(
+)
 (
 int
 )
@@ -8482,6 +8486,8 @@ script
 -
 >
 filename
+(
+)
 iter
 .
 script
@@ -8639,6 +8645,8 @@ nonLazyScript
 -
 >
 filename
+(
+)
 callee
 -
 >
@@ -8959,6 +8967,8 @@ innerScript
 -
 >
 filename
+(
+)
 innerScript
 -
 >
@@ -8967,6 +8977,8 @@ outerScript
 -
 >
 filename
+(
+)
 outerScript
 -
 >
@@ -9118,6 +9130,8 @@ innerScript
 -
 >
 filename
+(
+)
 innerScript
 -
 >
@@ -9126,6 +9140,8 @@ outerScript
 -
 >
 filename
+(
+)
 outerScript
 -
 >
@@ -9268,6 +9284,8 @@ innerScript
 -
 >
 filename
+(
+)
 innerScript
 -
 >
@@ -9276,6 +9294,8 @@ outerScript
 -
 >
 filename
+(
+)
 outerScript
 -
 >
@@ -9857,6 +9877,8 @@ outerScript
 -
 >
 filename
+(
+)
 outerScript
 -
 >
@@ -9871,6 +9893,8 @@ innerScript
 -
 >
 filename
+(
+)
 innerScript
 -
 >

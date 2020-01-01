@@ -8153,6 +8153,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -8214,6 +8216,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -8260,6 +8264,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -9684,6 +9690,8 @@ invalid
 -
 >
 filename
+(
+)
 invalid
 -
 >
@@ -9895,6 +9903,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -11945,6 +11955,8 @@ script
 -
 >
 filename
+(
+)
 it
 .
 script
@@ -13287,6 +13299,8 @@ script
 -
 >
 filename
+(
+)
 co
 .
 script
@@ -14221,6 +14235,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
