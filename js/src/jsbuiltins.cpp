@@ -2750,7 +2750,6 @@ jsval
 (
 fun
 )
-DSLOTS_NULL_INIT_CLOSURE
 )
 ;
 return

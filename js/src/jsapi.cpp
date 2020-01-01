@@ -23272,10 +23272,10 @@ fun
 {
 JS_ASSERT
 (
-DSLOTS_IS_NOT_NULL
-(
 funobj
-)
+-
+>
+dslots
 )
 ;
 if
