@@ -1452,6 +1452,7 @@ gfxASurface
 Flush
 (
 )
+const
 {
 cairo_surface_flush
 (

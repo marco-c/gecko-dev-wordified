@@ -696,6 +696,10 @@ mOwnsData
 (
 PR_FALSE
 )
+mData
+(
+nsnull
+)
 mFormat
 (
 format
@@ -728,9 +732,8 @@ zero
 sized
 surface
 just
-set
+leave
 mData
-to
 nsnull
 if
 (
@@ -764,13 +767,6 @@ if
 mData
 )
 return
-;
-}
-else
-{
-mData
-=
-nsnull
 ;
 }
 mOwnsData
