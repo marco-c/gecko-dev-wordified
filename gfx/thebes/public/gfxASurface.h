@@ -466,6 +466,9 @@ void
 data
 )
 ;
+class
+gfxImageSurface
+;
 /
 *
 *
