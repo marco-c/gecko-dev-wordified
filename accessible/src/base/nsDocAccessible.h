@@ -821,7 +821,7 @@ timeout
 *
 *
 param
-aEvent
+aEventType
 [
 in
 ]
@@ -886,10 +886,10 @@ event
 *
 /
 nsresult
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 PRUint32
-aEvent
+aEventType
 nsIDOMNode
 *
 aDOMNode
