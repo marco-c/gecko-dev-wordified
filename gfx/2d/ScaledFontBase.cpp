@@ -432,13 +432,6 @@ ScaledFontBase
 h
 "
 #
-include
-"
-gfxFont
-.
-h
-"
-#
 ifdef
 USE_SKIA
 #
