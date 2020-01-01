@@ -3522,6 +3522,7 @@ css
 StyleRule
 *
 aRule
+const
 nsCSSSelector
 *
 aSelector
@@ -8564,6 +8565,7 @@ aElement
 TreeMatchContext
 &
 aTreeMatchContext
+const
 nsPseudoClassList
 *
 pseudoClass
@@ -9194,6 +9196,7 @@ const
 Element
 *
 aElement
+const
 nsCSSSelector
 *
 aSelector
@@ -9378,6 +9381,7 @@ false
 ;
 }
 }
+const
 nsAtomList
 *
 IDList
@@ -9560,6 +9564,7 @@ false
 ;
 }
 }
+const
 nsAtomList
 *
 classList
@@ -9789,6 +9794,7 @@ class
 match
 for
 (
+const
 nsPseudoClassList
 *
 pseudoClass
@@ -10542,6 +10548,7 @@ nsCSSPseudoClasses
 ePseudoClass_any
 :
 {
+const
 nsCSSSelectorList
 *
 l
@@ -10567,6 +10574,7 @@ l
 mNext
 )
 {
+const
 nsCSSSelector
 *
 s
@@ -11912,6 +11920,7 @@ result
 =
 true
 ;
+const
 nsAttrSelector
 *
 attr
@@ -12438,6 +12447,7 @@ isNegated
 {
 for
 (
+const
 nsCSSSelector
 *
 negation
@@ -12631,6 +12641,7 @@ const
 Element
 *
 aPrevElement
+const
 nsCSSSelector
 *
 aSelector
@@ -12641,6 +12652,7 @@ bool
 aLookForRelevantLink
 )
 {
+const
 nsCSSSelector
 *
 selector
@@ -13382,6 +13394,7 @@ css
 StyleRule
 *
 aRule
+const
 nsCSSSelector
 *
 aSelector
@@ -13427,6 +13440,7 @@ mTreeMatchContext
 )
 )
 {
+const
 nsCSSSelector
 *
 next
@@ -18993,6 +19007,7 @@ aElement
 TreeMatchContext
 &
 aTreeMatchContext
+const
 nsCSSSelectorList
 *
 aSelectorList
@@ -19003,6 +19018,7 @@ while
 aSelectorList
 )
 {
+const
 nsCSSSelector
 *
 sel
@@ -19064,6 +19080,7 @@ aTreeMatchContext
 )
 )
 {
+const
 nsCSSSelector
 *
 next

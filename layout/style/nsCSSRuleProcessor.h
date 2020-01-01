@@ -776,6 +776,7 @@ aElement
 TreeMatchContext
 &
 aTreeMatchContext
+const
 nsCSSSelectorList
 *
 aSelectorList
