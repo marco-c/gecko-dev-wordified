@@ -79,7 +79,7 @@ h
 >
 PyObject
 *
-get_open_files
+psutil_get_open_files
 (
 long
 pid

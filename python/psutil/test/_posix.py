@@ -8,28 +8,6 @@ bin
 env
 python
 #
-#
-Id
-:
-_posix
-.
-py
-1386
-2012
--
-06
--
-27
-15
-:
-44
-:
-36Z
-g
-.
-rodola
-#
-#
 Copyright
 (
 c
@@ -119,7 +97,7 @@ LINUX
 OSX
                          
 BSD
-ignore_access_denied
+skip_on_access_denied
 sh
 skipIf
 )
@@ -580,7 +558,9 @@ username_ps
 username_psutil
 )
     
-ignore_access_denied
+skip_on_access_denied
+(
+)
     
 def
 test_process_rss_memory
@@ -670,7 +650,9 @@ rss_ps
 rss_psutil
 )
     
-ignore_access_denied
+skip_on_access_denied
+(
+)
     
 def
 test_process_vsz_memory

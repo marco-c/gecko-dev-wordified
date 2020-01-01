@@ -8,28 +8,6 @@ bin
 env
 python
 #
-#
-Id
-:
-_psposix
-.
-py
-1409
-2012
--
-07
--
-04
-08
-:
-21
-:
-06Z
-g
-.
-rodola
-#
-#
 Copyright
 (
 c
@@ -97,7 +75,7 @@ glob
 from
 psutil
 .
-error
+_error
 import
 TimeoutExpired
 from
@@ -107,6 +85,7 @@ _common
 import
 nt_diskinfo
 usage_percent
+memoize
 def
 pid_exists
 (
@@ -130,26 +109,6 @@ table
 "
 "
 "
-    
-if
-not
-isinstance
-(
-pid
-int
-)
-:
-        
-raise
-TypeError
-(
-'
-an
-integer
-is
-required
-'
-)
     
 if
 pid
@@ -302,9 +261,7 @@ None
 :
             
 if
-time
-.
-time
+timer
 (
 )
 >
@@ -336,6 +293,19 @@ delay
 04
 )
     
+timer
+=
+getattr
+(
+time
+'
+monotonic
+'
+time
+.
+time
+)
+    
 if
 timeout
 is
@@ -359,9 +329,7 @@ WNOHANG
         
 stop_at
 =
-time
-.
-time
+timer
 (
 )
 +
@@ -796,6 +764,7 @@ used
 free
 percent
 )
+memoize
 def
 _get_terminal_map
 (
@@ -848,6 +817,9 @@ not
 in
 ret
         
+try
+:
+            
 ret
 [
 os
@@ -861,6 +833,34 @@ st_rdev
 ]
 =
 name
+        
+except
+OSError
+:
+            
+err
+=
+sys
+.
+exc_info
+(
+)
+[
+1
+]
+            
+if
+err
+.
+errno
+!
+=
+errno
+.
+ENOENT
+:
+                
+raise
     
 return
 ret
