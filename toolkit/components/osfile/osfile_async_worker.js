@@ -285,6 +285,9 @@ operation
 .
 if
 (
+options
+&
+&
 typeof
 options
 =
