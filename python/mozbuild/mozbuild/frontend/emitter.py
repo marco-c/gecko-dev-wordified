@@ -567,24 +567,6 @@ EXTRA_PP_COMPONENTS
 EXTRA_PP_COMPONENTS
 '
             
-GTEST_CMMSRCS
-=
-'
-GTEST_CMM_SOURCES
-'
-            
-GTEST_CPPSRCS
-=
-'
-GTEST_CPP_SOURCES
-'
-            
-GTEST_CSRCS
-=
-'
-GTEST_C_SOURCES
-'
-            
 HOST_CSRCS
 =
 '
