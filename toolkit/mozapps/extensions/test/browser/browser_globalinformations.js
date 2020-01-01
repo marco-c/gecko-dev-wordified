@@ -165,7 +165,7 @@ getElementById
 "
 category
 -
-plugins
+plugin
 "
 )
 {
