@@ -283,7 +283,7 @@ Error
 codes
 24
 -
-32
+34
 are
 related
 to
@@ -333,6 +333,14 @@ SERVICE_UPDATER_NOT_FIXED_DRIVE
 define
 SERVICE_COULD_NOT_LOCK_UPDATER
 32
+#
+define
+SERVICE_INSTALLDIR_ERROR
+33
+#
+define
+NO_INSTALLDIR_ERROR
+34
 /
 /
 The

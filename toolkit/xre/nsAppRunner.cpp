@@ -1146,11 +1146,9 @@ nsIProfileLock
 *
 gProfileLock
 ;
-static
 int
 gRestartArgc
 ;
-static
 char
 *
 *

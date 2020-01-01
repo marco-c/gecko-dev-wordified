@@ -66,9 +66,3 @@ LPWSTR
 argv
 )
 ;
-BOOL
-GetUpdateDirectoryPath
-(
-LPWSTR
-)
-;

@@ -224,6 +224,13 @@ nsXREDirProvider
 (
 )
 ;
+static
+nsXREDirProvider
+*
+GetSingleton
+(
+)
+;
 /
 /
 We

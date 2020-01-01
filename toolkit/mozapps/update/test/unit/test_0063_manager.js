@@ -294,15 +294,9 @@ removed
 .
 file
 =
-getCurrentProcessDir
+getUpdatesXMLFile
 (
-)
-;
-file
-.
-append
-(
-FILE_UPDATE_ACTIVE
+true
 )
 ;
 logTestInfo

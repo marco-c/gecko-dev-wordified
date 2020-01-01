@@ -1428,7 +1428,7 @@ binary
 process
 exitValue
 for
-success
+failure
 when
 "
 +
@@ -1443,7 +1443,7 @@ mar
 do_check_eq
 (
 exitValue
-0
+1
 )
 ;
 setupHelperFinish
