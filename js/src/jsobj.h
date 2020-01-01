@@ -1851,10 +1851,16 @@ jsval
 value
 JSPropertyOp
 getter
+=
+JS_PropertyStub
 JSPropertyOp
 setter
+=
+JS_PropertyStub
 uintN
 attrs
+=
+JSPROP_ENUMERATE
 )
 {
 return
