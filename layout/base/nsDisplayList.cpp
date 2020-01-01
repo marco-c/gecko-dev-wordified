@@ -16497,6 +16497,14 @@ mFrame
 Preserves3D
 (
 )
+|
+|
+mFrame
+-
+>
+Preserves3DChildren
+(
+)
 )
 {
 container
