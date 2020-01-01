@@ -1190,16 +1190,6 @@ node
 to
 test
 *
-param
-aWeakShell
-A
-weak
-reference
-to
-the
-pres
-shell
-*
 return
 PR_TRUE
 if
@@ -1221,9 +1211,6 @@ HasUniversalAriaProperty
 nsIContent
 *
 aContent
-nsIWeakReference
-*
-aWeakShell
 )
 ;
 /
