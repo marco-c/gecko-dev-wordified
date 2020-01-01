@@ -602,7 +602,7 @@ bitmap
 if
 (
 mBitmap
-!
+=
 =
 null
 |
