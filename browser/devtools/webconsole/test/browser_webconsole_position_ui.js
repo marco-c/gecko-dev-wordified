@@ -261,7 +261,7 @@ parentNode
 .
 childNodes
 [
-0
+2
 ]
 .
 getAttribute
@@ -286,7 +286,7 @@ hudRef
 .
 positionMenuitems
 .
-above
+below
 .
 getAttribute
 (
@@ -302,7 +302,7 @@ position
 menu
 checkbox
 is
-above
+below
 "
 )
 ;
@@ -317,12 +317,12 @@ getCharPref
 POSITION_PREF
 )
 "
-above
+below
 "
 "
 pref
 is
-above
+below
 "
 )
 ;
@@ -331,7 +331,7 @@ hudRef
 positionConsole
 (
 "
-below
+above
 "
 )
 ;
@@ -344,7 +344,7 @@ parentNode
 .
 childNodes
 [
-2
+0
 ]
 .
 getAttribute
@@ -359,7 +359,7 @@ is
 id
 hudId
 "
-below
+above
 position
 is
 correct
@@ -372,7 +372,7 @@ hudRef
 .
 positionMenuitems
 .
-below
+above
 .
 getAttribute
 (
@@ -388,7 +388,7 @@ position
 menu
 checkbox
 is
-below
+above
 "
 )
 ;
@@ -403,12 +403,12 @@ getCharPref
 POSITION_PREF
 )
 "
-below
+above
 "
 "
 pref
 is
-below
+above
 "
 )
 ;
