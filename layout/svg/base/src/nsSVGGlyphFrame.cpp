@@ -2518,7 +2518,7 @@ nsRefPtr
 <
 gfxContext
 >
-context
+tmpCtx
 =
 MakeTmpCtx
 (
@@ -2526,7 +2526,7 @@ MakeTmpCtx
 ;
 SetupGlobalTransform
 (
-context
+tmpCtx
 )
 ;
 CharacterIterator
@@ -2540,7 +2540,7 @@ iter
 .
 SetInitialMatrix
 (
-context
+tmpCtx
 )
 ;
 /
@@ -2693,10 +2693,10 @@ iter
 .
 SetupForMetrics
 (
-context
+tmpCtx
 )
 ;
-context
+tmpCtx
 -
 >
 Rectangle
@@ -2710,7 +2710,7 @@ mBoundingBox
 gfxPoint
 userSpacePoint
 =
-context
+tmpCtx
 -
 >
 DeviceToUser
@@ -2761,7 +2761,7 @@ SVG_HIT_TEST_STROKE
 {
 isHit
 =
-context
+tmpCtx
 -
 >
 PointInFill
