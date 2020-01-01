@@ -40213,7 +40213,12 @@ res
 context
 -
 >
-regExpStatics
+global
+(
+)
+-
+>
+getRegExpStatics
 (
 )
 )

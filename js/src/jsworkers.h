@@ -1426,6 +1426,15 @@ runtime
 bool
 needsUnpause
 ;
+mozilla
+:
+:
+DebugOnly
+<
+bool
+>
+oldExclusiveThreadsPaused
+;
 #
 endif
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
