@@ -388,6 +388,12 @@ aType
 =
 =
 TEXTURE_CONTENT
+|
+|
+aType
+=
+=
+TEXTURE_D3D11_HANDLE
 ;
 }
 virtual

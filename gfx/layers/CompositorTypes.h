@@ -1121,6 +1121,12 @@ TEXTURE_STREAM_GL
 WebGL
 streaming
 buffer
+TEXTURE_D3D11_HANDLE
+/
+/
+D3D11Texture
+share
+handle
 TEXTURE_FALLBACK
 /
 /
