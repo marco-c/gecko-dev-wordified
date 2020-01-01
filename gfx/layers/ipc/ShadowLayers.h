@@ -487,6 +487,9 @@ struct
 EditReply
 ;
 class
+OptionalThebesBuffer
+;
+class
 PLayerChild
 ;
 class
@@ -3056,6 +3059,12 @@ aNewXResolution
 float
 *
 aNewYResolution
+OptionalThebesBuffer
+*
+aReadOnlyFront
+nsIntRegion
+*
+aFrontUpdatedRegion
 )
 =
 0

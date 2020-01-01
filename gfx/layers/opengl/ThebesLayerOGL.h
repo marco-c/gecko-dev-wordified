@@ -689,6 +689,12 @@ aNewXResolution
 float
 *
 aNewYResolution
+OptionalThebesBuffer
+*
+aReadOnlyFront
+nsIntRegion
+*
+aFrontUpdatedRegion
 )
 ;
 virtual
