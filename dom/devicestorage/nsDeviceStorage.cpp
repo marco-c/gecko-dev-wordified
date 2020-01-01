@@ -1817,7 +1817,7 @@ DeviceStorageFile
 >
 &
 aFiles
-uint64_t
+PRTime
 aSince
 )
 {
@@ -1870,7 +1870,7 @@ DeviceStorageFile
 >
 &
 aFiles
-uint64_t
+PRTime
 aSince
 nsAString
 &
@@ -4290,7 +4290,7 @@ aPrincipal
 DeviceStorageFile
 *
 aFile
-uint64_t
+PRTime
 aSince
 )
 :
