@@ -2144,6 +2144,8 @@ NS_LITERAL_STRING
 (
 SUCCESS_EVT_STR
 )
+eDoesNotBubble
+eNotCancelable
 )
 ;
 }
@@ -2384,7 +2386,8 @@ NS_LITERAL_STRING
 (
 ERROR_EVT_STR
 )
-true
+eDoesBubble
+eCancelable
 )
 ;
 if

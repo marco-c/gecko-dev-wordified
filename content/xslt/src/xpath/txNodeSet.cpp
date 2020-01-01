@@ -2784,7 +2784,7 @@ str
 )
 ;
 return
-Double
+txDouble
 :
 :
 toDouble

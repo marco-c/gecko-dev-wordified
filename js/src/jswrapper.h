@@ -461,7 +461,7 @@ include
 "
 mozilla
 /
-Types
+Attributes
 .
 h
 "

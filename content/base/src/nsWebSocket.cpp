@@ -1174,6 +1174,10 @@ nsIMozWebSocket
 CLOSED
 )
 ;
+if
+(
+mWebSocketChannel
+)
 mWebSocketChannel
 -
 >

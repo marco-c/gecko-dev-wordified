@@ -442,6 +442,15 @@ nsTextFragment_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -725,8 +734,8 @@ subclassed
 *
 /
 class
-NS_FINAL_CLASS
 nsTextFragment
+MOZ_FINAL
 {
 public
 :

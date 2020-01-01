@@ -2978,6 +2978,11 @@ LPWINDOWPOS
 info
 )
 ;
+void
+OnSysColorChanged
+(
+)
+;
 /
 *
 *

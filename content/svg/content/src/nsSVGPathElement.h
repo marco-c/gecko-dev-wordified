@@ -703,6 +703,13 @@ nsGkAtoms
 d
 ;
 }
+enum
+PathLengthScaleForType
+{
+eForTextPath
+eForStroking
+}
+;
 /
 *
 *
@@ -762,6 +769,8 @@ textPath
 gfxFloat
 GetPathLengthScale
 (
+PathLengthScaleForType
+aFor
 )
 ;
 protected

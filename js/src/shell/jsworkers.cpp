@@ -447,6 +447,15 @@ ifdef
 JS_THREADSAFE
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 string
 .
@@ -2222,6 +2231,7 @@ EventQueue
 ;
 class
 MainQueue
+MOZ_FINAL
 :
 public
 EventQueue
@@ -2671,6 +2681,7 @@ time
 /
 class
 WorkerQueue
+MOZ_FINAL
 :
 public
 ThreadSafeQueue
@@ -3591,6 +3602,7 @@ terminate
 /
 class
 Worker
+MOZ_FINAL
 :
 public
 WorkerParent

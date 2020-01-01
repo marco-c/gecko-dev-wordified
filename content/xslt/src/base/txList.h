@@ -476,7 +476,7 @@ class
 txList
 :
 public
-TxObject
+txObject
 {
 friend
 class

@@ -526,7 +526,7 @@ class
 txElementContext
 :
 public
-TxObject
+txObject
 {
 public
 :
@@ -794,12 +794,12 @@ popChooseGotoList
 nsresult
 pushObject
 (
-TxObject
+txObject
 *
 aObject
 )
 ;
-TxObject
+txObject
 *
 popObject
 (

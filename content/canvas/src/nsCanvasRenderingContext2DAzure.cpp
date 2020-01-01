@@ -19070,9 +19070,11 @@ NS_ERROR_NOT_AVAILABLE
 /
 /
 Ignore
-nsnull
 cairo
 surfaces
+that
+are
+bad
 !
 See
 bug
@@ -19080,13 +19082,12 @@ bug
 .
 if
 (
-!
 res
 .
 mSurface
 -
 >
-CairoSurface
+CairoStatus
 (
 )
 )

@@ -465,6 +465,15 @@ nsFrameSelection
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -2339,8 +2348,8 @@ table
 selection
 class
 NS_STACK_CLASS
-NS_FINAL_CLASS
 nsSelectionBatcher
+MOZ_FINAL
 {
 private
 :

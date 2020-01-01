@@ -792,9 +792,6 @@ mIsIMEComposing
 bool
 mIgnoreHandleText
 ;
-bool
-mIsOpen
-;
 PRUint16
 mSearchStatus
 ;

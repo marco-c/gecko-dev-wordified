@@ -1945,6 +1945,9 @@ errors
 bool
 mReconnectAndLoginAgain
 ;
+bool
+mCacheConnection
+;
 /
 /
 *

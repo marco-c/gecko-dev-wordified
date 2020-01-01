@@ -3828,7 +3828,7 @@ recycler
 >
 getNumberResult
 (
-Double
+txDouble
 :
 :
 NaN
@@ -3906,7 +3906,7 @@ str
 double
 val
 =
-Double
+txDouble
 :
 :
 toDouble
@@ -3916,7 +3916,7 @@ str
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNaN
@@ -3927,7 +3927,7 @@ val
 {
 res
 =
-Double
+txDouble
 :
 :
 NaN
@@ -4137,7 +4137,7 @@ str
 double
 val
 =
-Double
+txDouble
 :
 :
 toDouble
@@ -4147,7 +4147,7 @@ str
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNaN

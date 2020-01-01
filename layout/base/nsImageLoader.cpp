@@ -750,6 +750,16 @@ mRequest
 mRequestRegistered
 )
 ;
+}
+mFrame
+=
+nsnull
+;
+if
+(
+mRequest
+)
+{
 mRequest
 -
 >
@@ -759,10 +769,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-mFrame
-=
-nsnull
-;
 mRequest
 =
 nsnull

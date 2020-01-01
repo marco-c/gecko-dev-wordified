@@ -547,11 +547,6 @@ xpc_qsFunctionSpec
 *
 functions
 ;
-const
-xpc_qsTraceableSpec
-*
-traceables
-;
 /
 /
 These

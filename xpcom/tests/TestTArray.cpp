@@ -4624,6 +4624,9 @@ arr
 Length
 (
 )
+(
+PRUint32
+)
 ArrayLength
 (
 data

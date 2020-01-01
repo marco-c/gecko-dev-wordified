@@ -2570,7 +2570,7 @@ expr
 new
 txLiteralExpr
 (
-Double
+txDouble
 :
 :
 toDouble

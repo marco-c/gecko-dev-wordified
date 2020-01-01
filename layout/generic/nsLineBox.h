@@ -485,6 +485,15 @@ nsLineBox_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsILineIterator
 .
 h
@@ -7990,8 +7999,8 @@ aOther
 -
 -
 class
-NS_FINAL_CLASS
 nsLineIterator
+MOZ_FINAL
 :
 public
 nsILineIterator

@@ -674,10 +674,6 @@ mIgnoreHandleText
 (
 false
 )
-mIsOpen
-(
-false
-)
 mSearchStatus
 (
 nsAutoCompleteController
@@ -925,10 +921,6 @@ ClearResults
 (
 )
 ;
-if
-(
-mIsOpen
-)
 ClosePopup
 (
 )
@@ -5335,10 +5327,6 @@ mRowCount
 minResults
 )
 {
-mIsOpen
-=
-true
-;
 return
 mInput
 -
@@ -5427,10 +5415,6 @@ SetSelectedIndex
 -
 1
 )
-;
-mIsOpen
-=
-false
 ;
 return
 mInput

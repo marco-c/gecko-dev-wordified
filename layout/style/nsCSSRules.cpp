@@ -910,7 +910,6 @@ rules
 /
 /
 class
-NS_FINAL_CLASS
 GroupRuleRuleList
 :
 public

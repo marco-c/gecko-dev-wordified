@@ -743,11 +743,6 @@ JSSubString
 ;
 typedef
 struct
-JSNativeTraceInfo
-JSNativeTraceInfo
-;
-typedef
-struct
 JSSpecializedNative
 JSSpecializedNative
 ;
@@ -931,12 +926,6 @@ InvokeArgsGuard
 ;
 class
 StringBuffer
-;
-class
-TraceRecorder
-;
-struct
-TraceMonitor
 ;
 class
 FrameRegs
