@@ -851,8 +851,10 @@ devUnknown
 ;
 if
 (
-!
+NS_FAILED
+(
 rv
+)
 )
 {
 NS_WARNING
@@ -880,9 +882,16 @@ true
 FIREFOX_3DV_APP_HANDLE
 )
 ;
-NS_ASSERTION
+if
+(
+NS_FAILED
 (
 rv
+)
+)
+{
+NS_WARNING
+(
 "
 Nv3DVStreaming
 Nv3DVControl
@@ -891,6 +900,7 @@ failed
 "
 )
 ;
+}
 }
 /
 *
