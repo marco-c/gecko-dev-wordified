@@ -2428,8 +2428,6 @@ function
 (
 )
 {
-/
-*
 this
 .
 _private
@@ -2438,8 +2436,6 @@ paintingPaused
 +
 +
 ;
-*
-/
 }
 /
 /
@@ -2495,8 +2491,6 @@ function
 (
 )
 {
-/
-*
 this
 .
 _private
@@ -2505,8 +2499,6 @@ paintingPaused
 -
 -
 ;
-*
-/
 }
 /
 /
