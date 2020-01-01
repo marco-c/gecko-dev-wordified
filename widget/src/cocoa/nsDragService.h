@@ -567,6 +567,14 @@ drag
 started
 within
 gecko
+NSView
+*
+mNativeDragView
+;
+NSEvent
+*
+mNativeDragEvent
+;
 }
 ;
 #
