@@ -12384,6 +12384,7 @@ addstmts
 _generateMessageClass
 (
 md
+md
 .
 msgClass
 (
@@ -12441,6 +12442,7 @@ addstmts
 _generateMessageClass
 (
                         
+md
 md
 .
 replyClass
@@ -13911,6 +13913,7 @@ transitionfunc
 def
 _generateMessageClass
 (
+md
 clsname
 msgid
 typedefs
@@ -14040,6 +14043,33 @@ COMPRESSION_NONE
 '
 )
     
+if
+md
+.
+decl
+.
+type
+.
+isUrgent
+(
+)
+:
+        
+priority
+=
+'
+PRIORITY_HIGH
+'
+    
+else
+:
+        
+priority
+=
+'
+PRIORITY_NORMAL
+'
+    
 ctor
 =
 ConstructorDefn
@@ -14082,9 +14112,7 @@ ID
                                        
 ExprVar
 (
-'
-PRIORITY_NORMAL
-'
+priority
 )
                                        
 compression
@@ -36251,6 +36279,14 @@ ipdl
 ast
 .
 RPC
+or
+sems
+is
+ipdl
+.
+ast
+.
+URGENT
 :
                 
 self

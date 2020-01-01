@@ -1141,6 +1141,10 @@ union
 '
         
 '
+urgent
+'
+        
+'
 using
 '
 )
@@ -4934,6 +4938,9 @@ ASYNC
 RPC
                          
 |
+URGENT
+                         
+|
 SYNC
 "
 "
@@ -4990,6 +4997,21 @@ p
 ]
 =
 SYNC
+    
+elif
+'
+urgent
+'
+=
+=
+s
+:
+p
+[
+0
+]
+=
+URGENT
     
 else
 :
