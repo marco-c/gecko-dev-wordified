@@ -1051,6 +1051,9 @@ Pattern
 const
 DrawOptions
 &
+const
+GlyphRenderingOptions
+*
 )
 ;
 virtual
