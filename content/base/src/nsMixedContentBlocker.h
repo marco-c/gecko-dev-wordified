@@ -154,15 +154,15 @@ of
 content
 that
 is
-blocked
+detected
 when
 an
 /
 /
-nsMixedContentBlockedEvent
+nsMixedContentEvent
 fires
 enum
-MixedContentBlockedTypes
+MixedContentTypes
 {
 /
 /
@@ -183,7 +183,7 @@ iframes
 WebSockets
 and
 XHR
-eBlockedMixedScript
+eMixedScript
 /
 /
 "
@@ -200,7 +200,7 @@ and
 a
 ping
 >
-eBlockedMixedDisplay
+eMixedDisplay
 }
 ;
 #
