@@ -1406,7 +1406,7 @@ status
 nsresult
 statusResult
 ;
-PRInt32
+PRUint16
 readyState
 ;
 nsresult
