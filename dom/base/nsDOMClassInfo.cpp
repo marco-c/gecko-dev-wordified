@@ -32907,12 +32907,6 @@ if
 script_cx
 )
 {
-JSAutoSuspendRequest
-asr
-(
-cx
-)
-;
 /
 /
 Make

@@ -3279,12 +3279,6 @@ JS_IsInRequest
 (
 rt
 )
-|
-|
-JS_IsInSuspendedRequest
-(
-rt
-)
 )
 return
 false
