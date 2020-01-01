@@ -2719,8 +2719,10 @@ container
 =
 =
 mStartParent
-&
-&
+)
+{
+if
+(
 aIndexInContainer
 <
 mStartOffset
@@ -2730,6 +2732,7 @@ mStartOffset
 -
 mStartOffset
 ;
+}
 }
 /
 /
@@ -2781,8 +2784,10 @@ container
 =
 =
 mEndParent
-&
-&
+)
+{
+if
+(
 aIndexInContainer
 <
 mEndOffset
@@ -2792,6 +2797,7 @@ mEndOffset
 -
 mEndOffset
 ;
+}
 }
 else
 if
