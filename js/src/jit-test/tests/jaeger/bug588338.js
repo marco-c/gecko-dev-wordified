@@ -7,11 +7,6 @@ test
 |
 error
 :
-[
-1
-2
-3
-]
 is
 not
 a
