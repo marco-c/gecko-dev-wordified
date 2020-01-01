@@ -7401,10 +7401,6 @@ setValidationOptions
 mPrefBranch
 )
 ;
-RegisterMyOCSPAIAInfoCallback
-(
-)
-;
 mHttpForNSS
 .
 initTable
@@ -7594,10 +7590,6 @@ nullptr
 mHttpForNSS
 .
 unregisterHttpClient
-(
-)
-;
-UnregisterMyOCSPAIAInfoCallback
 (
 )
 ;
