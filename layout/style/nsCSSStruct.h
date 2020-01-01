@@ -2782,6 +2782,15 @@ mColumnWidth
 nsCSSValue
 mColumnGap
 ;
+nsCSSValue
+mColumnRuleColor
+;
+nsCSSValue
+mColumnRuleWidth
+;
+nsCSSValue
+mColumnRuleStyle
+;
 private
 :
 nsCSSColumn
