@@ -4015,6 +4015,10 @@ gcFinalizeCallback
 (
 NULL
 )
+gcMallocBytes
+(
+0
+)
 gcBlackRootsTraceOp
 (
 NULL
