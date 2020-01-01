@@ -346,7 +346,7 @@ OggPlay
 me
 int
 content_type
-int
+long
 serialno
 )
 ;

@@ -250,10 +250,14 @@ DAMAGE
 /
 *
 *
+file
+*
 oggplay_reader
 .
 h
 *
+*
+authors
 *
 Shane
 Stephens
@@ -304,6 +308,11 @@ h
 struct
 _OggPlayReader
 ;
+/
+*
+*
+*
+/
 typedef
 struct
 _OggPlayReader
@@ -479,8 +488,9 @@ handle
 *
 retval
 NULL
-on
+if
 error
+occured
 .
 *
 /
@@ -488,6 +498,7 @@ OggPlayReader
 *
 oggplay_file_reader_new
 (
+const
 char
 *
 filename
@@ -550,9 +561,11 @@ OggPlayReader
 *
 oggplay_tcp_reader_new
 (
+const
 char
 *
 uri
+const
 char
 *
 proxy
