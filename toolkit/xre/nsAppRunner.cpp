@@ -21097,9 +21097,8 @@ XRE_DeinitCommandLine
 #
 ifdef
 OS_LINUX
-fprintf
+printf
 (
-stderr
 "
 TEST
 -
