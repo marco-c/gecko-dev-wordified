@@ -11477,9 +11477,6 @@ WINCE
 case
 nsSizeMode_Maximized
 :
-#
-ifdef
-WINCE_WINDOWS_MOBILE
 :
 :
 SetForegroundWindow
@@ -11487,8 +11484,6 @@ SetForegroundWindow
 mWnd
 )
 ;
-#
-endif
 :
 :
 ShowWindow
@@ -11549,7 +11544,7 @@ CanTakeFocus
 {
 #
 ifdef
-WINCE_WINDOWS_MOBILE
+WINCE
 :
 :
 SetForegroundWindow
