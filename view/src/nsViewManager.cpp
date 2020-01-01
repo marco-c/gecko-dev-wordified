@@ -2469,7 +2469,7 @@ mRecursiveRefreshPending
 =
 false
 ;
-UpdateAllViews
+InvalidateAllViews
 (
 )
 ;
@@ -2806,7 +2806,7 @@ GetViewManager
 widgetVM
 -
 >
-UpdateWidgetArea
+InvalidateWidgetArea
 (
 nearestViewWithWidget
 r
@@ -2824,7 +2824,7 @@ NS_IMETHODIMP
 nsViewManager
 :
 :
-UpdateView
+InvalidateView
 (
 nsIView
 *
@@ -2840,7 +2840,7 @@ view
 as
 damaged
 return
-UpdateView
+InvalidateView
 (
 aView
 aView
@@ -2984,7 +2984,7 @@ void
 nsViewManager
 :
 :
-UpdateWidgetArea
+InvalidateWidgetArea
 (
 nsView
 *
@@ -3007,7 +3007,7 @@ GetViewManager
 =
 this
 "
-UpdateWidgetArea
+InvalidateWidgetArea
 called
 on
 view
@@ -3045,7 +3045,7 @@ GetBounds
 printf
 (
 "
-UpdateWidgetArea
+InvalidateWidgetArea
 view
 :
 %
@@ -3692,7 +3692,7 @@ nsresult
 nsViewManager
 :
 :
-UpdateView
+InvalidateView
 (
 nsIView
 *
@@ -3741,7 +3741,7 @@ NS_OK
 ;
 }
 return
-UpdateViewNoSuppression
+InvalidateViewNoSuppression
 (
 aView
 aRect
@@ -3752,7 +3752,7 @@ NS_IMETHODIMP
 nsViewManager
 :
 :
-UpdateViewNoSuppression
+InvalidateViewNoSuppression
 (
 nsIView
 *
@@ -3800,7 +3800,7 @@ GetViewManager
 =
 this
 "
-UpdateView
+InvalidateViewNoSuppression
 called
 on
 view
@@ -3993,7 +3993,7 @@ NS_IMETHODIMP
 nsViewManager
 :
 :
-UpdateAllViews
+InvalidateAllViews
 (
 )
 {
@@ -4013,12 +4013,12 @@ RootViewManager
 )
 -
 >
-UpdateAllViews
+InvalidateAllViews
 (
 )
 ;
 }
-UpdateViews
+InvalidateViews
 (
 mRootView
 )
@@ -4031,7 +4031,7 @@ void
 nsViewManager
 :
 :
-UpdateViews
+InvalidateViews
 (
 nsView
 *
@@ -4040,18 +4040,18 @@ aView
 {
 /
 /
-update
+Invalidate
 this
 view
 .
-UpdateView
+InvalidateView
 (
 aView
 )
 ;
 /
 /
-update
+Invalidate
 all
 children
 as
@@ -4084,7 +4084,7 @@ GetViewManager
 )
 -
 >
-UpdateViews
+InvalidateViews
 (
 childView
 )
@@ -4809,7 +4809,7 @@ true
 vm
 -
 >
-UpdateView
+InvalidateView
 (
 vm
 -
@@ -6847,7 +6847,7 @@ GetViewManager
 )
 -
 >
-UpdateView
+InvalidateView
 (
 child
 )
@@ -7013,7 +7013,7 @@ GetViewManager
 )
 -
 >
-UpdateView
+InvalidateView
 (
 child
 )
@@ -7182,7 +7182,7 @@ GetViewManager
 parentVM
 -
 >
-UpdateView
+InvalidateView
 (
 parentView
 oldBounds
@@ -7191,7 +7191,7 @@ oldBounds
 parentVM
 -
 >
-UpdateView
+InvalidateView
 (
 parentView
 view
@@ -7269,7 +7269,7 @@ x
 height
 )
 ;
-UpdateView
+InvalidateView
 (
 aView
 r
@@ -7306,7 +7306,7 @@ width
 height
 )
 ;
-UpdateView
+InvalidateView
 (
 aView
 r
@@ -7351,7 +7351,7 @@ XMost
 height
 )
 ;
-UpdateView
+InvalidateView
 (
 aView
 r
@@ -7669,7 +7669,7 @@ old
 and
 new
 size
-UpdateView
+InvalidateView
 (
 view
 aRect
@@ -7678,7 +7678,7 @@ aRect
 parentVM
 -
 >
-UpdateView
+InvalidateView
 (
 parentView
 oldBounds
@@ -7966,7 +7966,7 @@ GetViewManager
 )
 -
 >
-UpdateView
+InvalidateView
 (
 parentView
 view
@@ -7981,7 +7981,7 @@ GetBoundsInParentUnits
 }
 else
 {
-UpdateView
+InvalidateView
 (
 view
 )
@@ -8262,7 +8262,7 @@ oldIsAuto
 aAutoZIndex
 )
 {
-UpdateView
+InvalidateView
 (
 view
 )
