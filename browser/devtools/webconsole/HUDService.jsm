@@ -26630,7 +26630,6 @@ stylePanel
 selectNode
 (
 aNode
-true
 )
 ;
 }
