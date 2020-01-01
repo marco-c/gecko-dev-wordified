@@ -9303,10 +9303,6 @@ isPackedArray
 (
 false
 )
-possiblePackedArray
-(
-false
-)
 {
 #
 ifdef
