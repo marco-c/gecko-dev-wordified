@@ -1746,7 +1746,6 @@ nsIGenericFactory
 >
 fact
 ;
-nsresult
 rv
 =
 NS_NewGenericFactory
