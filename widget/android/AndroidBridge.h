@@ -1324,15 +1324,6 @@ ProvideEGLSurface
 (
 )
 ;
-static
-bool
-HaveValidSurface
-(
-JNIEnv
-*
-env
-)
-;
 bool
 GetStaticStringField
 (
