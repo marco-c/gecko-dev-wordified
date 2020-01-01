@@ -12826,6 +12826,10 @@ mOrient
 =
 NS_STYLE_ORIENT_AUTO
 ;
+mMixBlendMode
+=
+NS_STYLE_BLEND_NORMAL
+;
 mTransitions
 .
 AppendElement
@@ -13065,6 +13069,12 @@ mOrient
 aSource
 .
 mOrient
+)
+mMixBlendMode
+(
+aSource
+.
+mMixBlendMode
 )
 mBackfaceVisibility
 (
