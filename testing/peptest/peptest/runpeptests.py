@@ -1274,10 +1274,6 @@ testName
 unknown
 "
         
-foundCrash
-=
-False
-        
 dumpDir
 =
 os
@@ -1317,6 +1313,19 @@ dmp
 )
 )
         
+if
+len
+(
+dumps
+)
+=
+=
+0
+:
+            
+return
+False
+        
 symbolsPath
 =
 self
@@ -1333,10 +1342,6 @@ dumps
             
 import
 subprocess
-            
-foundCrash
-=
-True
             
 self
 .
@@ -1635,7 +1640,7 @@ symbolsPath
 )
         
 return
-foundCrash
+True
 class
 FirefoxPeptest
 (
