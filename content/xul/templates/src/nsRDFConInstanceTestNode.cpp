@@ -1355,13 +1355,11 @@ Element
 *
 element
 =
+new
 nsRDFConInstanceTestNode
 :
 :
 Element
-:
-:
-Create
 (
 valueres
 container
