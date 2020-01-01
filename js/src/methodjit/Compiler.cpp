@@ -3885,15 +3885,6 @@ m_size
 )
 )
 ;
-if
-(
-!
-*
-jitp
-)
-return
-Compile_Abort
-;
 return
 Compile_Okay
 ;
