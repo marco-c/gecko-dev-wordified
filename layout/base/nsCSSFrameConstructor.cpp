@@ -1029,6 +1029,13 @@ Element
 h
 "
 #
+include
+"
+FrameLayerBuilder
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -49055,6 +49062,13 @@ aChange
 nsChangeHint_UpdateOpacityLayer
 )
 {
+aFrame
+-
+>
+MarkLayersActive
+(
+)
+;
 aFrame
 -
 >

@@ -3372,6 +3372,12 @@ DisplayReflowShutdown
 ;
 #
 endif
+static
+void
+ShutdownLayerActivityTimer
+(
+)
+;
 /
 *
 *
