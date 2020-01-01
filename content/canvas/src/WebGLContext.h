@@ -5282,9 +5282,6 @@ dppass
 void
 TexImage2D
 (
-JSContext
-*
-cx
 WebGLenum
 target
 WebGLint
@@ -5315,9 +5312,6 @@ rv
 void
 TexImage2D
 (
-JSContext
-*
-cx
 WebGLenum
 target
 WebGLint
@@ -5364,13 +5358,6 @@ ElementType
 void
 TexImage2D
 (
-JSContext
-*
-/
-*
-unused
-*
-/
 WebGLenum
 target
 WebGLint
@@ -5544,9 +5531,6 @@ nullptr
 void
 TexSubImage2D
 (
-JSContext
-*
-cx
 WebGLenum
 target
 WebGLint
@@ -5577,9 +5561,6 @@ rv
 void
 TexSubImage2D
 (
-JSContext
-*
-cx
 WebGLenum
 target
 WebGLint
@@ -5628,13 +5609,6 @@ ElementType
 void
 TexSubImage2D
 (
-JSContext
-*
-/
-*
-unused
-*
-/
 WebGLenum
 target
 WebGLint

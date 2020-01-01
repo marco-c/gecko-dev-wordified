@@ -1575,9 +1575,6 @@ error
 void
 PutImageData
 (
-JSContext
-*
-cx
 mozilla
 :
 :
@@ -1602,9 +1599,6 @@ error
 void
 PutImageData
 (
-JSContext
-*
-cx
 mozilla
 :
 :
