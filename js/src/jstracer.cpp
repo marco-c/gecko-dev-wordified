@@ -20134,7 +20134,13 @@ record_JSOP_STOP
 )
 {
 return
-true
+(
+getCallDepth
+(
+)
+>
+0
+)
 ;
 }
 bool
