@@ -3625,9 +3625,6 @@ case
 JSOP_EXCEPTION
 :
 case
-JSOP_DEFLOCALFUN
-:
-case
 JSOP_LAMBDA
 :
 case
@@ -5174,9 +5171,6 @@ JSOP_SETLOCAL
 :
 case
 JSOP_SETLOCALPOP
-:
-case
-JSOP_DEFLOCALFUN
 :
 {
 uint32_t
