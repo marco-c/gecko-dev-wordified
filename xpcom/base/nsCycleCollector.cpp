@@ -1511,6 +1511,11 @@ h
 >
 #
 endif
+/
+/
+#
+define
+COLLECT_TIME_DEBUG
 #
 ifdef
 DEBUG_CC
