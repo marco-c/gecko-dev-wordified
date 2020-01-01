@@ -1252,6 +1252,11 @@ Paint
 gfxContext
 *
 aContext
+gfxPattern
+:
+:
+GraphicsFilter
+aFilter
 const
 gfxRect
 &
@@ -1368,6 +1373,14 @@ Height
 (
 )
 )
+)
+;
+pat
+-
+>
+SetFilter
+(
+aFilter
 )
 ;
 /

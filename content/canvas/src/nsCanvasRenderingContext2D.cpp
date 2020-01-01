@@ -17116,6 +17116,10 @@ video
 Paint
 (
 ctx
+gfxPattern
+:
+:
+FILTER_GOOD
 gfxRect
 (
 0
