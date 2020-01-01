@@ -859,6 +859,16 @@ AnimTestcaseFromTo
 none
 "
 "
+none
+"
+)
+new
+AnimTestcaseFromTo
+(
+"
+none
+"
+"
 blue
 "
 {
