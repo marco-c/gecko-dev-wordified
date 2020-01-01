@@ -4326,10 +4326,6 @@ value
 .
 ToInteger
 (
-(
-PRInt32
-*
-)
 &
 rv
 )
@@ -4389,10 +4385,6 @@ value
 .
 ToInteger
 (
-(
-PRInt32
-*
-)
 &
 rv
 )
