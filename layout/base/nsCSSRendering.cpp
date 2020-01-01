@@ -32143,7 +32143,7 @@ DrawSolidBorderSegment
 (
 aContext
 rect
-PR_TRUE
+twipsPerPixel
 )
 ;
 for
@@ -32196,7 +32196,7 @@ DrawSolidBorderSegment
 (
 aContext
 rect
-PR_TRUE
+twipsPerPixel
 )
 ;
 }
@@ -32234,7 +32234,7 @@ DrawSolidBorderSegment
 (
 aContext
 rect
-PR_FALSE
+twipsPerPixel
 )
 ;
 for
@@ -32287,7 +32287,7 @@ DrawSolidBorderSegment
 (
 aContext
 rect
-PR_FALSE
+twipsPerPixel
 )
 ;
 }
