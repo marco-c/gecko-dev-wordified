@@ -511,7 +511,7 @@ dot
 )
 ;
 gfxFloat
-w
+rightWeight
 =
 sin
 (
@@ -545,12 +545,12 @@ theta
 -
 dot
 *
-w
+rightWeight
 ;
 right
 *
 =
-w
+rightWeight
 ;
 return
 left
