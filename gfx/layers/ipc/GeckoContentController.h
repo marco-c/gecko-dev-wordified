@@ -187,7 +187,6 @@ GeckoContentController
 )
 {
 }
-;
 virtual
 ~
 GeckoContentController
@@ -195,7 +194,6 @@ GeckoContentController
 )
 {
 }
-;
 }
 ;
 }
