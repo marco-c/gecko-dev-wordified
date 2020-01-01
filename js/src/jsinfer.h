@@ -1718,6 +1718,8 @@ script
 is
 considered
 uninlineable
+in
+JM
 .
 *
 /
