@@ -1520,6 +1520,9 @@ caps
 if
 (
 mDeviceEx
+&
+&
+mDeviceEx
 -
 >
 GetDeviceCaps
