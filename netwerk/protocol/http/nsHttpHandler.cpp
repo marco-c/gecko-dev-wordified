@@ -2089,7 +2089,7 @@ mAppVersion
 .
 AssignLiteral
 (
-MOZ_APP_VERSION
+MOZ_APP_UA_VERSION
 )
 ;
 }
