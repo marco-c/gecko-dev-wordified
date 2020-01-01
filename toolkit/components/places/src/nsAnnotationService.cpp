@@ -2136,6 +2136,7 @@ moz_items_annos_attributesindex
 ON
 moz_items_annos
 (
+item_id
 anno_attribute_id
 )
 "
