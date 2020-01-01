@@ -1385,7 +1385,7 @@ nsIURI
 aURL
 PRUint32
 aLineNumber
-nsTArray
+InfallibleTArray
 <
 float
 >
