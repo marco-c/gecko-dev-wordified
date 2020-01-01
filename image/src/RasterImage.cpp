@@ -845,7 +845,7 @@ image
 static
 *
 /
-nsRefPtr
+StaticRefPtr
 <
 RasterImage
 :

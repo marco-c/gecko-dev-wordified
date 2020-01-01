@@ -269,6 +269,15 @@ LinkedList
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -2875,7 +2884,7 @@ statics
 *
 /
 static
-nsRefPtr
+StaticRefPtr
 <
 DecodeWorker
 >

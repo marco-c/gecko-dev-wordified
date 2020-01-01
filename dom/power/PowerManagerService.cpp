@@ -167,7 +167,7 @@ nsIPowerManagerService
 static
 *
 /
-nsRefPtr
+StaticRefPtr
 <
 PowerManagerService
 >

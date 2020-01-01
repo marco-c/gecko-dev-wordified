@@ -205,6 +205,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Hal
 .
 h
@@ -901,7 +910,7 @@ main
 thread
 .
 static
-nsAutoPtr
+StaticAutoPtr
 <
 OrientationObserver
 >

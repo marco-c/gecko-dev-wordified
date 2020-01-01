@@ -334,6 +334,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
+"
 Connection
 .
 h
@@ -3015,7 +3024,7 @@ NS_IMPL_ISUPPORTS1
 VibrateWindowListener
 nsIDOMEventListener
 )
-nsRefPtr
+StaticRefPtr
 <
 VibrateWindowListener
 >

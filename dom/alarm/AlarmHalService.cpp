@@ -126,7 +126,7 @@ UnregisterTheOneAlarmObserver
 static
 *
 /
-nsRefPtr
+StaticRefPtr
 <
 AlarmHalService
 >
