@@ -190,11 +190,6 @@ aBody
 const
 uint64_t
 aUnreadCount
-mobilemessage
-:
-:
-MessageType
-aLastMessageType
 )
 ;
 MobileMessageThread
@@ -233,10 +228,6 @@ aBody
 const
 uint64_t
 aUnreadCount
-const
-nsAString
-&
-aLastMessageType
 JSContext
 *
 aCx
