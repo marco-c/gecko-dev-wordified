@@ -534,6 +534,10 @@ functionToFail
 NPError
 failureCode
 ;
+NPObject
+*
+callOnDestroy
+;
 PostMode
 postMode
 ;
