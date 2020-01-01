@@ -654,6 +654,9 @@ NS_FAILED
 (
 rv
 )
+&
+&
+domWrapper
 )
 {
 /
