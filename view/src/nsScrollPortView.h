@@ -809,10 +809,6 @@ nscoord
 mOffsetX
 mOffsetY
 ;
-nscoord
-mOffsetXpx
-mOffsetYpx
-;
 PRUint32
 mScrollProperties
 ;
