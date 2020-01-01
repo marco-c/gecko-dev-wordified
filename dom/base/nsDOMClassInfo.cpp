@@ -840,6 +840,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+nsLocation
+.
+h
+"
 /
 /
 Window
@@ -1443,6 +1450,13 @@ h
 include
 "
 nsIDOMCSSStyleDeclaration
+.
+h
+"
+#
+include
+"
+nsStyleSet
 .
 h
 "

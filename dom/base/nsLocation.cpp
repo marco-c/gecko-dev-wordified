@@ -461,7 +461,7 @@ BLOCK
 #
 include
 "
-nsGlobalWindow
+nsLocation
 .
 h
 "
@@ -587,13 +587,6 @@ h
 #
 include
 "
-nsJSUtils
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -693,6 +686,13 @@ h
 include
 "
 nsJSUtils
+.
+h
+"
+#
+include
+"
+jsdbgapi
 .
 h
 "
