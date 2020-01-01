@@ -522,6 +522,17 @@ Async
 .
 sugar
 ;
+Utils
+.
+lazy
+(
+this
+'
+DAV
+'
+DAVCollection
+)
+;
 /
 *
 *

@@ -596,14 +596,6 @@ Async
 .
 sugar
 ;
-let
-Crypto
-=
-new
-WeaveCrypto
-(
-)
-;
 function
 Engine
 (
