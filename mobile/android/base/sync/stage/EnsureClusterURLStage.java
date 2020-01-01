@@ -675,6 +675,8 @@ HttpResponse
 response
 )
 {
+try
+{
 int
 status
 =
@@ -744,7 +746,7 @@ handleThrottled
 (
 )
 ;
-SyncResourceDelegate
+BaseResource
 .
 consumeEntity
 (
@@ -797,7 +799,7 @@ readLine
 (
 )
 ;
-SyncResourceDelegate
+BaseResource
 .
 consumeReader
 (
@@ -824,7 +826,7 @@ handleError
 e
 )
 ;
-SyncResourceDelegate
+BaseResource
 .
 consumeEntity
 (
@@ -847,7 +849,7 @@ handleError
 e
 )
 ;
-SyncResourceDelegate
+BaseResource
 .
 consumeEntity
 (
@@ -1042,7 +1044,18 @@ response
 )
 ;
 }
-SyncResourceDelegate
+}
+finally
+{
+BaseResource
+.
+consumeEntity
+(
+response
+)
+;
+}
+BaseResource
 .
 consumeEntity
 (

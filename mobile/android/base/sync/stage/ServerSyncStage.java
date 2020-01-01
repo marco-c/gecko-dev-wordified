@@ -112,7 +112,7 @@ gecko
 .
 sync
 .
-Logger
+HTTPFailureException
 ;
 import
 org
@@ -123,7 +123,7 @@ gecko
 .
 sync
 .
-HTTPFailureException
+Logger
 ;
 import
 org
@@ -259,15 +259,6 @@ sync
 synchronizer
 .
 SynchronizerDelegate
-;
-import
-ch
-.
-boye
-.
-httpclientandroidlib
-.
-HttpResponse
 ;
 import
 android
