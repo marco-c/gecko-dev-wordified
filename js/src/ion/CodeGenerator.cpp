@@ -1848,7 +1848,7 @@ pf
 (
 JSContext
 *
-jsint
+int
 )
 ;
 static
