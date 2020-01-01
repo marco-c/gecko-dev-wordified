@@ -588,14 +588,6 @@ PRBool
 aUnit
 =
 =
-eStyleUnit_Null
-)
-|
-|
-(
-aUnit
-=
-=
 eStyleUnit_Coord
 )
 |
@@ -1304,12 +1296,6 @@ GetUnit
 )
 )
 {
-case
-eStyleUnit_Null
-:
-return
-0
-;
 case
 eStyleUnit_Coord
 :
