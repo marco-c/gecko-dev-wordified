@@ -5378,6 +5378,7 @@ unboundedLastColumn
 isBalancing
 &
 &
+!
 nextInFlow
 ;
 nsCollapsingMargin
