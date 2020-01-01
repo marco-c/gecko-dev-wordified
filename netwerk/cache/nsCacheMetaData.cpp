@@ -1190,7 +1190,8 @@ rv
 !
 keepGoing
 )
-break
+return
+NS_OK
 ;
 /
 /
