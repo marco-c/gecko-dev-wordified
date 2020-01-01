@@ -3235,15 +3235,12 @@ child
 nodes
 *
 /
-nsresult
+PRUint32
 CountEditableChildren
 (
-nsIDOMNode
+nsINode
 *
 aNode
-PRUint32
-&
-outCount
 )
 ;
 /
