@@ -4661,6 +4661,9 @@ loadBaselineOrIonCode
 (
 Register
 script
+Label
+*
+failure
 )
 ;
 void

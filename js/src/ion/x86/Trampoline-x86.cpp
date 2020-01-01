@@ -2729,6 +2729,7 @@ masm
 loadBaselineOrIonCode
 (
 eax
+NULL
 )
 ;
 masm

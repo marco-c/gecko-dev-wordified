@@ -12327,6 +12327,8 @@ masm
 loadBaselineOrIonCode
 (
 callee
+&
+failure
 )
 ;
 /
