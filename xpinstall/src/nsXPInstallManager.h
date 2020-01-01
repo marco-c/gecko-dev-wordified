@@ -550,6 +550,13 @@ h
 #
 include
 "
+nsILoadGroup
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -844,6 +851,12 @@ nsCOMPtr
 nsIDOMWindowInternal
 >
 mParentWindow
+;
+nsCOMPtr
+<
+nsILoadGroup
+>
+mLoadGroup
 ;
 }
 ;
