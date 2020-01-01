@@ -1555,7 +1555,7 @@ rec
 =
 record
 .
-getPayload
+getEnvelope
 (
 )
 ;
