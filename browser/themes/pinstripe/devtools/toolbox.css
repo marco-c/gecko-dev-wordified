@@ -386,6 +386,7 @@ image
 :
 url
 (
+"
 chrome
 :
 /
@@ -401,6 +402,7 @@ command
 responsivemode
 .
 png
+"
 )
 ;
 -
@@ -514,6 +516,7 @@ image
 :
 url
 (
+"
 chrome
 :
 /
@@ -529,6 +532,7 @@ command
 tilt
 .
 png
+"
 )
 ;
 -
@@ -642,6 +646,7 @@ image
 :
 url
 (
+"
 chrome
 :
 /
@@ -657,6 +662,7 @@ command
 scratchpad
 .
 png
+"
 )
 ;
 -
@@ -750,6 +756,7 @@ image
 :
 url
 (
+"
 background
 -
 noise
@@ -757,6 +764,7 @@ noise
 toolbar
 .
 png
+"
 )
 linear
 -
@@ -1192,6 +1200,7 @@ hsla
 )
 ;
 background
+-
 size
 :
 1px
@@ -1283,7 +1292,6 @@ radial
 -
 gradient
 (
-ellipse
 farthest
 -
 corner
@@ -1307,7 +1315,6 @@ radial
 -
 gradient
 (
-ellipse
 farthest
 -
 side
