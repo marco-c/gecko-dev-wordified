@@ -110,11 +110,9 @@ h
 "
 #
 if
+defined
 (
-MOZ_WIDGET_GTK
-=
-=
-2
+MOZ_WIDGET_GTK2
 )
 #
 include

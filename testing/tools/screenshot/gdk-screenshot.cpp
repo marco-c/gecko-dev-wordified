@@ -496,11 +496,9 @@ HAVE_LIBXSS
 )
 &
 &
+defined
 (
-MOZ_WIDGET_GTK
-=
-=
-2
+MOZ_WIDGET_GTK2
 )
 int
 event_base
@@ -864,11 +862,9 @@ TODO
 GTK3
 #
 if
+defined
 (
-MOZ_WIDGET_GTK
-=
-=
-2
+MOZ_WIDGET_GTK2
 )
 screenshot
 =
