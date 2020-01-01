@@ -5361,7 +5361,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 Anchor
@@ -5442,7 +5442,7 @@ location
 xpc_qsSelfRef
 location_selfref
 ;
-js
+JS
 :
 :
 Anchor
@@ -5772,7 +5772,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 Anchor
@@ -5853,7 +5853,7 @@ location
 xpc_qsSelfRef
 location_selfref
 ;
-js
+JS
 :
 :
 Anchor
@@ -6187,7 +6187,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 Anchor
@@ -6268,7 +6268,7 @@ location
 xpc_qsSelfRef
 location_selfref
 ;
-js
+JS
 :
 :
 Anchor

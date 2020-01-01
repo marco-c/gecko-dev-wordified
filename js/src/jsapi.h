@@ -7893,7 +7893,7 @@ ifdef
 __cplusplus
 JS_END_EXTERN_C
 namespace
-js
+JS
 {
 /
 *
@@ -8356,7 +8356,7 @@ alive
 *
 *
 A
-js
+JS
 :
 :
 Anchor
@@ -8410,7 +8410,7 @@ str
 )
 {
 *
-js
+JS
 :
 :
 Anchor
@@ -9347,7 +9347,7 @@ endif
 /
 *
 namespace
-js
+JS
 *
 /
 JS_BEGIN_EXTERN_C
