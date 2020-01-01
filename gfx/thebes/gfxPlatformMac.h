@@ -508,6 +508,12 @@ GetPlatformCMSOutputProfile
 (
 )
 ;
+virtual
+bool
+SupportsOffMainThreadCompositing
+(
+)
+;
 /
 /
 read
