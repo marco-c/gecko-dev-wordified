@@ -2800,7 +2800,7 @@ is
 *
 not
 *
-neccesarily
+necessarily
 the
 owner
 document

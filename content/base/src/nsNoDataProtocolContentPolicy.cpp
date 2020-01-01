@@ -612,7 +612,7 @@ they
 don
 '
 t
-neccesarily
+necessarily
 open
 external
 apps
