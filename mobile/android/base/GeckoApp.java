@@ -8232,7 +8232,7 @@ getInstance
 (
 )
 .
-attachToActivity
+attachToContext
 (
 this
 )
@@ -14002,17 +14002,6 @@ mNotificationHelper
 .
 destroy
 (
-)
-;
-Tabs
-.
-getInstance
-(
-)
-.
-detachFromActivity
-(
-this
 )
 ;
 if
