@@ -3644,12 +3644,12 @@ access
 =
 0
 ;
-PRInt32
+int32_t
 disposition
 =
 0
 ;
-PRInt32
+int32_t
 attributes
 =
 0

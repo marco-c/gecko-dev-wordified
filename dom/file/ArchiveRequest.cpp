@@ -1092,7 +1092,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

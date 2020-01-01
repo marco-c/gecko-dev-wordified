@@ -1955,7 +1955,7 @@ MobileConnection
 :
 GetCallForwardingOption
 (
-PRUint16
+uint16_t
 aReason
 nsIDOMDOMRequest
 *
