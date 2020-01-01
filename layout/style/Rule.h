@@ -588,10 +588,8 @@ NS_DECL_OWNINGTHREAD
 public
 :
 virtual
-already_AddRefed
-<
 nsIStyleSheet
->
+*
 GetStyleSheet
 (
 )

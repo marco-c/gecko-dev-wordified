@@ -751,10 +751,8 @@ Rule
 virtual
 *
 /
-already_AddRefed
-<
 nsIStyleSheet
->
+*
 Rule
 :
 :
@@ -763,11 +761,6 @@ GetStyleSheet
 )
 const
 {
-NS_IF_ADDREF
-(
-mSheet
-)
-;
 return
 mSheet
 ;
