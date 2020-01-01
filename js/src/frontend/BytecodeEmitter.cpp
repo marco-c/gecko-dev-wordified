@@ -41000,6 +41000,8 @@ return
 value
 *
 /
+if
+(
 ParseNode
 *
 pn2
@@ -41008,10 +41010,6 @@ pn
 -
 >
 pn_kid
-;
-if
-(
-pn2
 )
 {
 if
@@ -41025,7 +41023,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -41042,7 +41040,7 @@ JSOP_PUSH
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -41172,7 +41170,7 @@ JSOP_RETURN
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -41185,7 +41183,7 @@ NULL
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -41226,7 +41224,7 @@ JSOP_RETRVAL
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -41239,7 +41237,7 @@ bce
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 return
