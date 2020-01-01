@@ -908,7 +908,7 @@ PR_NewLock
 If
 an
 error
-occured
+occurred
 in
 NSPR
 report

@@ -1778,7 +1778,7 @@ one
 character
 past
 the
-preceeding
+preceding
 '
 (
 '

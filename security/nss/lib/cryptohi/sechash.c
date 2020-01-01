@@ -1483,7 +1483,7 @@ SEC_OID_UNKNOWN
 ;
 switch
 (
-hmacOid
+hashOid
 )
 {
 /

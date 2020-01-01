@@ -442,8 +442,6 @@ h
 #
 include
 <
-sys
-/
 fcntl
 .
 h

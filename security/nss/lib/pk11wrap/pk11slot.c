@@ -2883,7 +2883,7 @@ PK11SlotInfo
 slot
 )
 {
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 slot
@@ -3124,7 +3124,7 @@ slot
 {
 if
 (
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 slot

@@ -3257,7 +3257,7 @@ before
 an
 error
 has
-occured
+occurred
 .
 *
 /

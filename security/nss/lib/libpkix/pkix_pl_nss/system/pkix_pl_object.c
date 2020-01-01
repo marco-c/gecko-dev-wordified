@@ -3550,7 +3550,7 @@ object
 counter
 *
 /
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 ctEntry
@@ -4338,7 +4338,7 @@ references
 /
 refCount
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 objectHeader
@@ -4531,7 +4531,7 @@ PKIX_RECEIVEDCORRUPTEDOBJECTARGUMENT
 ;
 refCount
 =
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 objectHeader
@@ -4775,7 +4775,7 @@ object
 counter
 *
 /
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 ctEntry

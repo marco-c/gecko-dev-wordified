@@ -558,7 +558,7 @@ Temporary
 -
 add
 debugging
-ouput
+output
 on
 windows
 for

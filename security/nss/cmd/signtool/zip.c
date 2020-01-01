@@ -712,6 +712,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -1328,6 +1330,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -1477,6 +1481,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -2080,6 +2086,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -2177,6 +2185,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -2512,6 +2522,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -2678,6 +2690,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -2809,6 +2823,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -2951,6 +2967,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -3042,6 +3060,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -3129,6 +3149,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -3585,6 +3607,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -3691,6 +3715,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -3806,6 +3832,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -4073,6 +4101,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText
@@ -4189,6 +4219,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_GetErrorText

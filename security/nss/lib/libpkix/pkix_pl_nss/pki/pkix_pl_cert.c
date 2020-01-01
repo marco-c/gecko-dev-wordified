@@ -14817,7 +14817,7 @@ PKIX_CERT_DEBUG
 t
 \
 tCalling
-CERT_GetCertificateNames
+CERT_GetConstrainedCertificateNames
 \
 n
 "
@@ -14825,13 +14825,14 @@ n
 ;
 nssSubjectNames
 =
-CERT_GetCertificateNames
+CERT_GetConstrainedCertificateNames
 (
 cert
 -
 >
 nssCert
 arena
+PR_TRUE
 )
 ;
 PKIX_CHECK

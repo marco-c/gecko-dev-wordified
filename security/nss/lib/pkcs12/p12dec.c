@@ -1766,7 +1766,7 @@ the
 error
 will
 have
-occured
+occurred
 either
 in
 memory
@@ -2580,7 +2580,7 @@ indicates
 that
 an
 error
-occured
+occurred
 .
 *
 /

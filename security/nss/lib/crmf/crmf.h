@@ -676,7 +676,7 @@ crmft
 h
 where
 the
-CRMFEncoderOuputCallback
+CRMFEncoderOutputCallback
 type
 is
 *
@@ -709,7 +709,7 @@ value
 indicates
 an
 error
-occured
+occurred
 during
 encoding
 .
@@ -925,7 +925,7 @@ crmft
 h
 where
 the
-CRMFEncoderOuputCallback
+CRMFEncoderOutputCallback
 type
 is
 *

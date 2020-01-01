@@ -1413,13 +1413,12 @@ This
 function
 checks
 if
-CERTGeneral
-names
+CERTGeneralNames
 in
 "
 nssSubjectNames
 "
-complies
+comply
 *
 with
 the

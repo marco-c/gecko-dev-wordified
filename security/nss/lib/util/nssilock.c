@@ -863,7 +863,7 @@ RetryTrace
 :
 idx
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 traceIndex

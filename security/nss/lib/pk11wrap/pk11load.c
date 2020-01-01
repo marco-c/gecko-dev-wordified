@@ -867,12 +867,16 @@ CK_SLOT_ID
 *
 ids
 ;
-SECStatus
-rv
-;
 SECMODConfigList
 *
 conflist
+=
+NULL
+;
+SECStatus
+rv
+=
+SECFailure
 ;
 int
 count
@@ -2383,7 +2387,7 @@ softoken_LoadDSO
 return
 SECFailure
 ;
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 softokenLoadCount
@@ -3553,7 +3557,7 @@ if
 0
 =
 =
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 softokenLoadCount

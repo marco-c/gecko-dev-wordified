@@ -3740,7 +3740,7 @@ SEC_ERROR_BASE
 Libpkix
 internal
 error
-occured
+occurred
 during
 cert
 validation

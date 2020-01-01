@@ -5120,7 +5120,7 @@ signed
 values
 *
 /
-PR_AtomicAdd
+PR_ATOMIC_ADD
 (
 (
 PRInt32
@@ -5151,7 +5151,7 @@ PRIntervalTime
 start
 )
 {
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 (
 PRInt32
@@ -6834,7 +6834,7 @@ phSession
 {
 COMMON_DEFINITIONS
 ;
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 (
 PRInt32
@@ -6991,7 +6991,7 @@ hSession
 {
 COMMON_DEFINITIONS
 ;
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 (
 PRInt32

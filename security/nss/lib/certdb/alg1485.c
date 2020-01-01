@@ -4635,7 +4635,7 @@ must
 be
 escaped
 by
-preceeding
+preceding
 with
 a
 '
