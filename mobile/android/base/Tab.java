@@ -583,7 +583,7 @@ HomePager
 .
 Page
 .
-BOOKMARKS
+TOP_SITES
 ;
 mTitle
 =
@@ -984,7 +984,7 @@ mFavicon
 ;
 }
 public
-BitmapDrawable
+Drawable
 getThumbnail
 (
 )
