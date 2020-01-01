@@ -1718,7 +1718,7 @@ true
 ;
 mAwesomeTabs
 .
-setCurrentTabByTag
+setCurrentItemByTag
 (
 bookmarksTab
 .
