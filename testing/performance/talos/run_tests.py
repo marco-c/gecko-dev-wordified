@@ -771,11 +771,15 @@ wb
     
 if
 res
-=
-=
+in
+(
 '
 ts
 '
+'
+twinopen
+'
+)
 :
       
 i
@@ -802,16 +806,33 @@ in
 browser_dump
 :
         
+val_list
+=
+val
+.
+split
+(
+'
+|
+'
+)
+        
+for
+v
+in
+val_list
+:
+          
 writer
 .
 writerow
 (
 [
 i
-val
+v
 ]
 )
-        
+          
 i
 +
 =
@@ -1473,11 +1494,15 @@ w
     
 if
 res
-=
-=
+in
+(
 '
 ts
 '
+'
+twinopen
+'
+)
 :
        
 i
@@ -1489,7 +1514,24 @@ val
 in
 browser_dump
 :
-         
+        
+val_list
+=
+val
+.
+split
+(
+'
+|
+'
+)
+        
+for
+v
+in
+val_list
+:
+          
 tmpf
 .
 write
@@ -1499,7 +1541,7 @@ result_format
 (
 float
 (
-val
+v
 )
 res
 tbox
@@ -1525,7 +1567,7 @@ ms
 "
 )
 )
-         
+          
 i
 +
 =
