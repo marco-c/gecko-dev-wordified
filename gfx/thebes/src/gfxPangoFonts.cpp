@@ -3637,7 +3637,6 @@ mHaveFallbackFonts
 ;
 }
 ;
-static
 typedef
 FcBool
 (
