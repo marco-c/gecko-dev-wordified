@@ -930,10 +930,8 @@ else
 {
 value
 .
-Trim
+CompressWhitespace
 (
-"
-"
 )
 ;
 }
@@ -1046,10 +1044,8 @@ else
 {
 value
 .
-Trim
+CompressWhitespace
 (
-"
-"
 )
 ;
 }
