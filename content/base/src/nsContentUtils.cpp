@@ -27467,6 +27467,9 @@ aDisplayHeight
 )
 ;
 }
+#
+ifdef
+MOZ_WIDGET_ANDROID
 /
 *
 static
@@ -27606,6 +27609,8 @@ dpi
 )
 ;
 }
+#
+endif
 /
 *
 static
