@@ -729,7 +729,7 @@ js_dmod
 DOUBLE
 DOUBLE
 1
-1
+ACC_NONE
 )
 int32
 FASTCALL
@@ -776,7 +776,7 @@ js_imod
 INT32
 INT32
 1
-1
+ACC_NONE
 )
 /
 *
@@ -901,7 +901,7 @@ js_BoxDouble
 CONTEXT
 DOUBLE
 1
-1
+ACC_NONE
 )
 jsval
 FASTCALL
@@ -992,7 +992,7 @@ js_BoxInt32
 CONTEXT
 INT32
 1
-1
+ACC_NONE
 )
 jsdouble
 FASTCALL
@@ -1036,7 +1036,7 @@ DOUBLE
 js_UnboxDouble
 JSVAL
 1
-1
+ACC_NONE
 )
 int32
 FASTCALL
@@ -1080,7 +1080,7 @@ INT32
 js_UnboxInt32
 JSVAL
 1
-1
+ACC_NONE
 )
 JSBool
 FASTCALL
@@ -1168,7 +1168,7 @@ js_TryUnboxInt32
 JSVAL
 INT32PTR
 1
-1
+ACC_NONE
 )
 int32
 FASTCALL
@@ -1192,7 +1192,7 @@ INT32
 js_DoubleToInt32
 DOUBLE
 1
-1
+ACC_NONE
 )
 uint32
 FASTCALL
@@ -1216,7 +1216,7 @@ UINT32
 js_DoubleToUint32
 DOUBLE
 1
-1
+ACC_NONE
 )
 jsdouble
 FASTCALL
@@ -1326,7 +1326,7 @@ js_StringToNumber
 CONTEXT
 STRING
 1
-1
+ACC_NONE
 )
 int32
 FASTCALL
@@ -1493,7 +1493,7 @@ js_StringToInt32
 CONTEXT
 STRING
 1
-1
+ACC_NONE
 )
 JSBool
 FASTCALL
@@ -1802,7 +1802,7 @@ CONTEXT
 OBJECT
 SCOPEPROP
 0
-0
+ACC_STORE_ANY
 )
 static
 JSBool
@@ -2012,7 +2012,7 @@ CONTEXT
 OBJECT
 STRING
 0
-0
+ACC_STORE_ANY
 )
 JSBool
 FASTCALL
@@ -2066,7 +2066,7 @@ CONTEXT
 OBJECT
 INT32
 0
-0
+ACC_STORE_ANY
 )
 JSString
 *
@@ -2135,7 +2135,7 @@ js_TypeOfObject
 CONTEXT
 OBJECT
 1
-1
+ACC_NONE
 )
 JSString
 *
@@ -2217,7 +2217,7 @@ js_TypeOfBoolean
 CONTEXT
 INT32
 1
-1
+ACC_NONE
 )
 jsdouble
 FASTCALL
@@ -2269,7 +2269,7 @@ js_BooleanOrUndefinedToNumber
 CONTEXT
 INT32
 1
-1
+ACC_NONE
 )
 JSString
 *
@@ -2320,7 +2320,7 @@ js_BooleanOrUndefinedToString
 CONTEXT
 INT32
 1
-1
+ACC_NONE
 )
 JSObject
 *
@@ -2436,7 +2436,7 @@ OBJECT
 OBJECT
 OBJECT
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 JSBool
@@ -2750,7 +2750,7 @@ js_PopInterpFrame
 CONTEXT
 INTERPSTATE
 0
-0
+ACC_STORE_ANY
 )
 JSString
 *
@@ -3001,5 +3001,5 @@ CONTEXT
 STRINGPTR
 UINT32
 0
-0
+ACC_STORE_ANY
 )
