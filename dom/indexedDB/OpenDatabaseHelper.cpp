@@ -10598,7 +10598,13 @@ manager
 >
 AllowNextSynchronizedOp
 (
+OriginOrPatternString
+:
+:
+FromOrigin
+(
 mASCIIOrigin
+)
 mDatabaseId
 )
 ;
