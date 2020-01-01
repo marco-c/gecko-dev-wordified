@@ -4065,9 +4065,11 @@ val
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-SetValueToCoord
-(
 val
+-
+>
+SetAppUnits
+(
 GetStyleColumn
 (
 )

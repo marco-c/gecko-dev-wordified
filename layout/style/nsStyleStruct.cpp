@@ -1669,6 +1669,10 @@ nsStyleCoord
 zero
 (
 0
+nsStyleCoord
+:
+:
+CoordConstructor
 )
 ;
 NS_FOR_CSS_SIDES
@@ -1954,6 +1958,10 @@ nsStyleCoord
 zero
 (
 0
+nsStyleCoord
+:
+:
+CoordConstructor
 )
 ;
 NS_FOR_CSS_SIDES
@@ -2338,6 +2346,10 @@ corner
 nsStyleCoord
 (
 0
+nsStyleCoord
+:
+:
+CoordConstructor
 )
 )
 ;
@@ -3244,6 +3256,10 @@ nsStyleCoord
 zero
 (
 0
+nsStyleCoord
+:
+:
+CoordConstructor
 )
 ;
 NS_FOR_CSS_HALF_CORNERS

@@ -627,6 +627,10 @@ nsStyleCoord
 sZeroCoord
 (
 0
+nsStyleCoord
+:
+:
+CoordConstructor
 )
 ;
 static
@@ -662,6 +666,10 @@ NS_RGB
 0
 0
 )
+nsStyleCoord
+:
+:
+ColorConstructor
 )
 ;
 /
