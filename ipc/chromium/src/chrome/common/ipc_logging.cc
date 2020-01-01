@@ -188,6 +188,9 @@ ipc_message_utils
 .
 h
 "
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 /
 /
 This
@@ -301,6 +304,8 @@ plugin_messages
 .
 h
 "
+#
+endif
 #
 endif
 #
@@ -717,9 +722,18 @@ true
 ;
 #
 elif
+(
+!
+defined
+(
+CHROMIUM_MOZILLA_BUILD
+)
+&
+&
 defined
 (
 OS_POSIX
+)
 )
 if
 (

@@ -56,6 +56,9 @@ include
 limits
 >
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 include
 "
 app
@@ -64,6 +67,8 @@ l10n_util
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -101,6 +106,9 @@ string_util
 h
 "
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 include
 "
 grit
@@ -109,6 +117,8 @@ generated_resources
 .
 h
 "
+#
+endif
 std
 :
 :
@@ -208,6 +218,14 @@ GetLocalizedTitle
 )
 const
 {
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+return
+name_
+;
+#
+else
 std
 :
 :
@@ -382,6 +400,8 @@ message_id
 title
 )
 ;
+#
+endif
 }
 ChildProcessInfo
 :

@@ -53,6 +53,9 @@ message_router
 h
 "
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 include
 "
 chrome
@@ -63,6 +66,8 @@ render_messages
 .
 h
 "
+#
+endif
 void
 MessageRouter
 :

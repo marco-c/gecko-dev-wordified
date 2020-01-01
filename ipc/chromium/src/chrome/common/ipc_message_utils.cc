@@ -64,6 +64,9 @@ rect
 h
 "
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 include
 "
 googleurl
@@ -74,6 +77,8 @@ gurl
 .
 h
 "
+#
+endif
 #
 ifndef
 EXCLUDE_SKIA_DEPENDENCIES
@@ -87,6 +92,9 @@ h
 #
 endif
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 include
 "
 webkit
@@ -97,6 +105,8 @@ dom_operations
 .
 h
 "
+#
+endif
 namespace
 IPC
 {
@@ -600,6 +610,9 @@ endif
 /
 /
 EXCLUDE_SKIA_DEPENDENCIES
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 void
 ParamTraits
 <
@@ -1710,6 +1723,11 @@ WebApplicationInfo
 )
 ;
 }
+#
+endif
+/
+/
+CHROMIUM_MOZILLA_BUILD
 }
 /
 /
