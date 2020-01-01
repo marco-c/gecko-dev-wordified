@@ -2541,12 +2541,11 @@ nsIFrame
 *
 bodyFrame
 =
-shell
+bodyContent
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-bodyContent
 )
 ;
 if

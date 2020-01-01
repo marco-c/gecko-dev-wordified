@@ -745,9 +745,6 @@ GetFrameFor
 nsIDOMElement
 *
 aElement
-nsIPresShell
-*
-aShell
 )
 {
 nsCOMPtr
@@ -762,12 +759,11 @@ aElement
 )
 ;
 return
-aShell
+content
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-content
 )
 ;
 }

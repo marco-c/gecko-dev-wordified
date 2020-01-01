@@ -5872,12 +5872,11 @@ NS_ERROR_FAILURE
 ;
 aAnchorFrame
 =
-shell
+mAnchorContent
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-mAnchorContent
 )
 ;
 }
