@@ -848,6 +848,15 @@ SyncProfile
 (
 )
 ;
+#
+ifdef
+XP_UNIX
+sync
+(
+)
+;
+#
+endif
 _exit
 (
 0
