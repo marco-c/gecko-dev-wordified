@@ -9549,7 +9549,7 @@ rv
 /
 Check
 for
-exisitance
+existence
 PRBool
 triggerExists
 ;
@@ -9785,7 +9785,7 @@ rv
 /
 Check
 for
-exisitance
+existence
 rv
 =
 triggerDetection
