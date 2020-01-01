@@ -3233,7 +3233,7 @@ LAddV
 if
 (
 !
-useBoxAtStart
+useBox
 (
 lir
 LAddV
@@ -3249,7 +3249,7 @@ false
 if
 (
 !
-useBoxAtStart
+useBox
 (
 lir
 LAddV
@@ -3350,11 +3350,11 @@ lir
 new
 LConcat
 (
-useRegisterAtStart
+useRegister
 (
 lhs
 )
-useRegisterAtStart
+useRegister
 (
 rhs
 )
@@ -4164,7 +4164,7 @@ lir
 new
 LIntToString
 (
-useRegisterAtStart
+useRegister
 (
 opd
 )
@@ -5692,7 +5692,7 @@ lir
 setOperand
 (
 0
-useRegisterAtStart
+useRegister
 (
 ins
 -
@@ -5745,7 +5745,7 @@ lir
 setOperand
 (
 0
-useRegisterAtStart
+useRegister
 (
 ins
 -
@@ -5798,7 +5798,7 @@ lir
 setOperand
 (
 0
-useRegisterAtStart
+useRegister
 (
 ins
 -
