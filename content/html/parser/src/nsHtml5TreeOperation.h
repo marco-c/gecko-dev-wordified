@@ -434,7 +434,6 @@ on
 -
 pop
 ops
-eTreeOpScriptEnd
 eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
 eTreeOpUpdateStyleSheet
