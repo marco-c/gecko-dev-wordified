@@ -9195,15 +9195,10 @@ nsnull
 }
 #
 if
+!
 defined
 (
-ANDROID
-)
-|
-|
-defined
-(
-XP_WIN
+MOZ_X11
 )
 bool
 usePBuffers
