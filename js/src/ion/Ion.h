@@ -970,12 +970,12 @@ assemblerCount_
 }
 private
 :
-int
-assemblerCount_
-;
 IonContext
 *
 prev_
+;
+int
+assemblerCount_
 ;
 }
 ;
