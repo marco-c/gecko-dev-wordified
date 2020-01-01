@@ -1115,14 +1115,6 @@ Network
 is
 offline
 "
-kSyncInPrivateBrowsing
-:
-"
-Private
-browsing
-is
-enabled
-"
 kSyncBackoffNotMet
 :
 "
