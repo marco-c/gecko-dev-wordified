@@ -894,6 +894,10 @@ mPrevSampleWasSingleValueAnimation
 (
 false
 )
+mWasSkippedInPrevSample
+(
+false
+)
 {
 }
 void
@@ -1662,6 +1666,10 @@ mHasChanged
 false
 ;
 mPrevSampleWasSingleValueAnimation
+=
+false
+;
+mWasSkippedInPrevSample
 =
 false
 ;
