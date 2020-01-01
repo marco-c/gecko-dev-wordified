@@ -8221,3 +8221,17 @@ showInConsole
 true
 )
 ;
+pref
+(
+"
+full
+-
+screen
+-
+api
+.
+enabled
+"
+true
+)
+;
