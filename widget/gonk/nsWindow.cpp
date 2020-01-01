@@ -2860,7 +2860,7 @@ mLayerManager
 /
 /
 Set
-mUseAcceleratedRendering
+mUseLayersAcceleration
 here
 to
 make
@@ -2873,10 +2873,11 @@ nsBaseWidget
 :
 :
 GetLayerManager
-mUseAcceleratedRendering
+mUseLayersAcceleration
 =
-GetShouldAccelerate
+ComputeShouldAccelerate
 (
+mUseLayersAcceleration
 )
 ;
 nsWindow
@@ -2929,7 +2930,7 @@ mLayerManager
 }
 if
 (
-mUseAcceleratedRendering
+mUseLayersAcceleration
 )
 {
 DebugOnly
@@ -3126,7 +3127,7 @@ BasicShadowLayerManager
 this
 )
 ;
-mUseAcceleratedRendering
+mUseLayersAcceleration
 =
 false
 ;

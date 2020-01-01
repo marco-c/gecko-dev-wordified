@@ -15861,8 +15861,9 @@ MOZ_GL_PROVIDER
 )
 if
 (
-GetShouldAccelerate
+ComputeShouldAccelerate
 (
+mUseLayersAcceleration
 )
 )
 {

@@ -3563,10 +3563,11 @@ return
 mLayerManager
 ;
 }
-mUseAcceleratedRendering
+mUseLayersAcceleration
 =
-GetShouldAccelerate
+ComputeShouldAccelerate
 (
+mUseLayersAcceleration
 )
 ;
 bool
@@ -3623,7 +3624,7 @@ true
 if
 (
 !
-mUseAcceleratedRendering
+mUseLayersAcceleration
 |
 |
 sFailedToCreateGLContext

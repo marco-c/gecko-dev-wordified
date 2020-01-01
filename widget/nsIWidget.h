@@ -9044,8 +9044,8 @@ GetInputContext
 *
 *
 Set
-accelerated
-rendering
+layers
+acceleration
 to
 '
 True
@@ -9057,7 +9057,7 @@ False
 *
 /
 NS_IMETHOD
-SetAcceleratedRendering
+SetLayersAcceleration
 (
 bool
 aEnabled
