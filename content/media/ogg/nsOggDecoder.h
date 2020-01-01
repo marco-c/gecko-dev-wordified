@@ -2309,6 +2309,13 @@ nsOggDecoder_h_
 #
 include
 "
+nsMediaDecoder
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -2403,13 +2410,6 @@ include
 oggplay
 /
 oggplay
-.
-h
-"
-#
-include
-"
-nsMediaDecoder
 .
 h
 "
