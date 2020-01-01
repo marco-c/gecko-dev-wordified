@@ -30667,6 +30667,9 @@ RENDER_IS_UNTRUSTED
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
+nsAutoScriptBlocker
+blockScripts
+;
 /
 /
 Set
