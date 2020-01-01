@@ -4945,13 +4945,13 @@ menuitem
 id
 =
 "
-headsUpDisplayConsole
+webConsole
 "
 label
 =
 "
 &
-hudConsoleCmd
+webConsoleCmd
 .
 label
 ;
@@ -4960,7 +4960,7 @@ accesskey
 =
 "
 &
-hudConsoleCmd
+webConsoleCmd
 .
 accesskey
 ;
@@ -4968,7 +4968,7 @@ accesskey
 key
 =
 "
-key_hudConsole
+key_webConsole
 "
 oncommand
 =
