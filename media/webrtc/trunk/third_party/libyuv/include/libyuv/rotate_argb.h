@@ -132,6 +132,7 @@ endif
 Rotate
 ARGB
 frame
+LIBYUV_API
 int
 ARGBRotate
 (

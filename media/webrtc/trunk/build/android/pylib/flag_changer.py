@@ -37,6 +37,8 @@ LICENSE
 file
 .
 import
+constants
+import
 traceback
 import
 warnings
@@ -51,13 +53,11 @@ flags
 from
 CHROME_COMMAND_FILE
 =
+constants
+.
+TEST_EXECUTABLE_DIR
++
 '
-/
-data
-/
-local
-/
-tmp
 /
 chrome
 -

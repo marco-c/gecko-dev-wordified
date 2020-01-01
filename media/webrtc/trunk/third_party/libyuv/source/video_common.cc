@@ -213,6 +213,7 @@ FOURCC_24BG
 }
 }
 ;
+LIBYUV_API
 uint32
 CanonicalFourCC
 (

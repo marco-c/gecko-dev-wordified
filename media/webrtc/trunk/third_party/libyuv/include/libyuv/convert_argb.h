@@ -226,6 +226,7 @@ endif
 /
 /
 Alias
+.
 #
 define
 ARGBToARGB
@@ -237,6 +238,7 @@ ARGB
 to
 ARGB
 .
+LIBYUV_API
 int
 ARGBCopy
 (
@@ -264,6 +266,7 @@ I420
 to
 ARGB
 .
+LIBYUV_API
 int
 I420ToARGB
 (
@@ -303,6 +306,7 @@ I422
 to
 ARGB
 .
+LIBYUV_API
 int
 I422ToARGB
 (
@@ -342,6 +346,7 @@ I444
 to
 ARGB
 .
+LIBYUV_API
 int
 I444ToARGB
 (
@@ -381,6 +386,7 @@ I411
 to
 ARGB
 .
+LIBYUV_API
 int
 I411ToARGB
 (
@@ -423,6 +429,7 @@ grey
 to
 ARGB
 .
+LIBYUV_API
 int
 I400ToARGB
 (
@@ -454,6 +461,7 @@ Reverse
 of
 ARGBToI400
 .
+LIBYUV_API
 int
 I400ToARGB_Reference
 (
@@ -481,6 +489,7 @@ NV12
 to
 ARGB
 .
+LIBYUV_API
 int
 NV12ToARGB
 (
@@ -514,6 +523,7 @@ NV21
 to
 ARGB
 .
+LIBYUV_API
 int
 NV21ToARGB
 (
@@ -547,6 +557,7 @@ M420
 to
 ARGB
 .
+LIBYUV_API
 int
 M420ToARGB
 (
@@ -579,6 +590,9 @@ Q420
 to
 ARGB
 .
+/
+/
+LIBYUV_API
 /
 /
 int
@@ -620,6 +634,7 @@ YUY2
 to
 ARGB
 .
+LIBYUV_API
 int
 YUY2ToARGB
 (
@@ -647,6 +662,7 @@ UYVY
 to
 ARGB
 .
+LIBYUV_API
 int
 UYVYToARGB
 (
@@ -679,6 +695,9 @@ V210
 to
 ARGB
 .
+/
+/
+LIBYUV_API
 /
 /
 int
@@ -717,6 +736,8 @@ memory
 )
 to
 ARGB
+.
+LIBYUV_API
 int
 BGRAToARGB
 (
@@ -749,8 +770,44 @@ memory
 )
 to
 ARGB
+.
+LIBYUV_API
 int
 ABGRToARGB
+(
+const
+uint8
+*
+src_frame
+int
+src_stride_frame
+uint8
+*
+dst_argb
+int
+dst_stride_argb
+int
+width
+int
+height
+)
+;
+/
+/
+RGBA
+little
+endian
+(
+abgr
+in
+memory
+)
+to
+ARGB
+.
+LIBYUV_API
+int
+RGBAToARGB
 (
 const
 uint8
@@ -791,6 +848,8 @@ memory
 )
 to
 ARGB
+.
+LIBYUV_API
 int
 RGB24ToARGB
 (
@@ -823,6 +882,8 @@ memory
 )
 to
 ARGB
+.
+LIBYUV_API
 int
 RAWToARGB
 (
@@ -854,6 +915,8 @@ little
 endian
 to
 ARGB
+.
+LIBYUV_API
 int
 RGB565ToARGB
 (
@@ -885,6 +948,8 @@ little
 endian
 to
 ARGB
+.
+LIBYUV_API
 int
 ARGB1555ToARGB
 (
@@ -916,6 +981,8 @@ little
 endian
 to
 ARGB
+.
+LIBYUV_API
 int
 ARGB4444ToARGB
 (
@@ -958,6 +1025,7 @@ determine
 final
 size
 .
+LIBYUV_API
 int
 MJPGToARGB
 (
@@ -999,6 +1067,7 @@ in
 format_conversion
 .
 h
+.
 /
 /
 Convert
@@ -1303,6 +1372,7 @@ zero
 for
 failure
 .
+LIBYUV_API
 int
 ConvertToARGB
 (

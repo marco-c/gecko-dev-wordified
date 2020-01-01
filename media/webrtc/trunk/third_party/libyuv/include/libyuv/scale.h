@@ -129,6 +129,7 @@ Point
 sample
 ;
 Fastest
+.
 kFilterBilinear
 =
 1
@@ -150,6 +151,7 @@ kFilterBox
 /
 Highest
 quality
+.
 }
 ;
 /
@@ -159,6 +161,7 @@ a
 YUV
 plane
 .
+LIBYUV_API
 void
 ScalePlane
 (
@@ -293,6 +296,7 @@ Returns
 if
 successful
 .
+LIBYUV_API
 int
 I420Scale
 (
@@ -347,6 +351,8 @@ Legacy
 API
 .
 Deprecated
+.
+LIBYUV_API
 int
 Scale
 (
@@ -401,6 +407,8 @@ Legacy
 API
 .
 Deprecated
+.
+LIBYUV_API
 int
 ScaleOffset
 (
@@ -432,8 +440,10 @@ testing
 allow
 disabling
 of
-optimizations
+specialized
+scalers
 .
+LIBYUV_API
 void
 SetUseReferenceImpl
 (

@@ -134,6 +134,23 @@ CHDIR
   
 test
 .
+up_to_date
+(
+'
+hello
+.
+gyp
+'
+'
+resource_only_dll
+'
+chdir
+=
+CHDIR
+)
+  
+test
+.
 run_built_executable
 (
 '

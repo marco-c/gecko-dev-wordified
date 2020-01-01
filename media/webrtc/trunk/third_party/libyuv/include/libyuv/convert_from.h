@@ -135,6 +135,7 @@ from
 formats
 to
 I420
+.
 /
 /
 I420Copy
@@ -142,6 +143,8 @@ in
 convert
 to
 I420ToI420
+.
+LIBYUV_API
 int
 I420ToI422
 (
@@ -184,6 +187,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToI444
 (
@@ -226,6 +230,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToI411
 (
@@ -278,11 +283,14 @@ Source
 can
 be
 I420
-422
-444
-400
+I422
+I444
+I400
 NV12
+or
 NV21
+.
+LIBYUV_API
 int
 I400Copy
 (
@@ -327,6 +335,7 @@ fbarchard
 )
 :
 I420ToQ420
+LIBYUV_API
 int
 I420ToYUY2
 (
@@ -359,6 +368,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToUYVY
 (
@@ -391,6 +401,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToV210
 (
@@ -423,6 +434,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToARGB
 (
@@ -455,6 +467,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToBGRA
 (
@@ -487,6 +500,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToABGR
 (
@@ -519,6 +533,40 @@ int
 height
 )
 ;
+LIBYUV_API
+int
+I420ToRGBA
+(
+const
+uint8
+*
+src_y
+int
+src_stride_y
+const
+uint8
+*
+src_u
+int
+src_stride_u
+const
+uint8
+*
+src_v
+int
+src_stride_v
+uint8
+*
+dst_rgba
+int
+dst_stride_rgba
+int
+width
+int
+height
+)
+;
+LIBYUV_API
 int
 I420ToRGB24
 (
@@ -551,6 +599,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToRAW
 (
@@ -583,6 +632,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToRGB565
 (
@@ -615,6 +665,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToARGB1555
 (
@@ -647,6 +698,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToARGB4444
 (
@@ -694,6 +746,7 @@ in
 format_conversion
 .
 h
+.
 /
 /
 Convert
@@ -738,6 +791,7 @@ of
 is
 optimal
 .
+LIBYUV_API
 int
 ConvertFromI420
 (

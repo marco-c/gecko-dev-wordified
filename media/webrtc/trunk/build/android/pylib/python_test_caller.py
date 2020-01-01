@@ -65,8 +65,7 @@ def
 CallPythonTest
 (
 test
-device_id
-shard_index
+options
 )
 :
   
@@ -259,31 +258,16 @@ of
 PythonTestBase
 .
     
-device_id
+options
 :
-device
-ID
-against
-which
-the
-test
-will
-run
+Options
+to
+use
+for
+setting
+up
+tests
 .
-    
-shard_index
-:
-index
-#
-of
-the
-shard
-on
-which
-this
-test
-is
-running
   
 Returns
 :
@@ -342,8 +326,7 @@ test
 .
 SetUp
 (
-device_id
-shard_index
+options
 )
   
 except

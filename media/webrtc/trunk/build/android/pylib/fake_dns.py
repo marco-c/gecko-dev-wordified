@@ -71,13 +71,11 @@ tool
   
 _FAKE_DNS_PATH
 =
+constants
+.
+TEST_EXECUTABLE_DIR
++
 '
-/
-data
-/
-local
-/
-tmp
 /
 fake_dns
 '

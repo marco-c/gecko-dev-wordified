@@ -162,6 +162,114 @@ from
 constants
 import
 CHROME_DIR
+def
+SetChromeTimeoutScale
+(
+adb
+scale
+)
+:
+  
+"
+"
+"
+Sets
+the
+timeout
+scale
+in
+/
+data
+/
+local
+/
+tmp
+/
+chrome_timeout_scale
+to
+scale
+.
+"
+"
+"
+  
+path
+=
+'
+/
+data
+/
+local
+/
+tmp
+/
+chrome_timeout_scale
+'
+  
+if
+not
+scale
+or
+scale
+=
+=
+1
+.
+0
+:
+    
+#
+Delete
+if
+scale
+is
+None
+/
+0
+.
+0
+/
+1
+.
+0
+since
+the
+default
+timeout
+scale
+is
+1
+.
+0
+    
+adb
+.
+RunShellCommand
+(
+'
+rm
+%
+s
+'
+%
+path
+)
+  
+else
+:
+    
+adb
+.
+SetFileContents
+(
+path
+'
+%
+f
+'
+%
+scale
+)
 class
 BaseTool
 (
@@ -181,20 +289,6 @@ nothing
 "
 "
 "
-  
-def
-__init__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-    
-pass
   
 def
 GetTestWrapper
@@ -239,7 +333,18 @@ self
 "
 "
 Returns
-a
+the
+wrapper
+name
+for
+the
+utilities
+.
+    
+Returns
+:
+       
+A
 string
 that
 is
@@ -259,6 +364,8 @@ forwarder
 etc
 .
 )
+.
+    
 "
 "
 "
@@ -401,6 +508,8 @@ info
 .
     
 Returns
+:
+      
 True
 if
 this
@@ -438,14 +547,14 @@ tool
   
 WRAPPER_PATH
 =
-"
+'
 /
 system
 /
 bin
 /
 asanwrapper
-"
+'
   
 def
 __init__
@@ -457,13 +566,13 @@ adb
     
 self
 .
-adb
+_adb
 =
 adb
     
 self
 .
-wrap_properties
+_wrap_properties
 =
 [
 '
@@ -479,7 +588,7 @@ apps
 .
 ch
 '
-                            
+                             
 '
 wrap
 .
@@ -565,7 +674,7 @@ ANDROID_PRODUCT_OUT
     
 self
 .
-adb
+_adb
 .
 MakeSystemFolderWritable
 (
@@ -579,7 +688,7 @@ files
       
 self
 .
-adb
+_adb
 .
 PushIfNeeded
 (
@@ -592,7 +701,7 @@ join
 android_product_out
 f
 )
-                            
+                             
 os
 .
 path
@@ -628,6 +737,16 @@ self
 "
 "
 "
+Returns
+the
+wrapper
+for
+utilities
+such
+as
+forwarder
+.
+    
 AddressSanitizer
 wrapper
 must
@@ -678,12 +797,12 @@ prop
 in
 self
 .
-wrap_properties
+_wrap_properties
 :
       
 self
 .
-adb
+_adb
 .
 RunShellCommand
 (
@@ -709,28 +828,15 @@ GetTestWrapper
 )
 )
     
+SetChromeTimeoutScale
+(
 self
 .
-adb
-.
-RunShellCommand
-(
-'
-setprop
-chrome
-.
-timeout_scale
-%
-f
-'
-%
-(
-        
+_adb
 self
 .
 GetTimeoutScale
 (
-)
 )
 )
   
@@ -746,12 +852,12 @@ prop
 in
 self
 .
-wrap_properties
+_wrap_properties
 :
       
 self
 .
-adb
+_adb
 .
 RunShellCommand
 (
@@ -768,20 +874,12 @@ prop
 )
 )
     
+SetChromeTimeoutScale
+(
 self
 .
-adb
-.
-RunShellCommand
-(
-'
-setprop
-chrome
-.
-timeout_scale
-"
-"
-'
+_adb
+None
 )
   
 def
@@ -853,15 +951,12 @@ __init__
 (
 self
 adb
-renderer
-=
-False
 )
 :
     
 self
 .
-adb
+_adb
 =
 adb
     
@@ -876,7 +971,7 @@ PROP_NAME_MAX
     
 self
 .
-wrap_properties
+_wrap_properties
 =
 [
 '
@@ -892,7 +987,7 @@ apps
 .
 ch
 '
-                            
+                             
 '
 wrap
 .
@@ -927,7 +1022,7 @@ device
     
 self
 .
-adb
+_adb
 .
 RunShellCommand
 (
@@ -943,7 +1038,7 @@ mkdir
 s
 '
 %
-                             
+                              
 (
 ValgrindTool
 .
@@ -956,7 +1051,7 @@ VG_DIR
     
 self
 .
-adb
+_adb
 .
 RunShellCommand
 (
@@ -972,11 +1067,12 @@ mkdir
 s
 '
 %
-                             
+                              
 (
 ValgrindTool
 .
 VGLOGS_DIR
+                               
 ValgrindTool
 .
 VGLOGS_DIR
@@ -999,7 +1095,7 @@ files
       
 self
 .
-adb
+_adb
 .
 PushIfNeeded
 (
@@ -1012,7 +1108,7 @@ join
 CHROME_DIR
 f
 )
-                            
+                             
 os
 .
 path
@@ -1022,7 +1118,7 @@ join
 ValgrindTool
 .
 VG_DIR
-                                         
+                                          
 os
 .
 path
@@ -1055,7 +1151,7 @@ environment
     
 self
 .
-adb
+_adb
 .
 RunShellCommand
 (
@@ -1076,12 +1172,12 @@ prop
 in
 self
 .
-wrap_properties
+_wrap_properties
 :
       
 self
 .
-adb
+_adb
 .
 RunShellCommand
 (
@@ -1107,28 +1203,15 @@ GetTestWrapper
 )
 )
     
+SetChromeTimeoutScale
+(
 self
 .
-adb
-.
-RunShellCommand
-(
-'
-setprop
-chrome
-.
-timeout_scale
-%
-f
-'
-%
-(
-        
+_adb
 self
 .
 GetTimeoutScale
 (
-)
 )
 )
   
@@ -1156,12 +1239,12 @@ prop
 in
 self
 .
-wrap_properties
+_wrap_properties
 :
       
 self
 .
-adb
+_adb
 .
 RunShellCommand
 (
@@ -1178,20 +1261,12 @@ prop
 )
 )
     
+SetChromeTimeoutScale
+(
 self
 .
-adb
-.
-RunShellCommand
-(
-'
-setprop
-chrome
-.
-timeout_scale
-"
-"
-'
+_adb
+None
 )
   
 def
@@ -1242,6 +1317,8 @@ info
 .
     
 Returns
+:
+      
 True
 if
 this
@@ -1282,9 +1359,6 @@ __init__
 (
 self
 adb
-renderer
-=
-False
 )
 :
     
@@ -1297,7 +1371,6 @@ self
 __init__
 (
 adb
-renderer
 )
   
 def
@@ -1482,9 +1555,6 @@ __init__
 (
 self
 adb
-renderer
-=
-False
 )
 :
     
@@ -1497,7 +1567,6 @@ self
 __init__
 (
 adb
-renderer
 )
   
 def
@@ -1657,10 +1726,12 @@ values
     
 return
 30
+.
+0
 TOOL_REGISTRY
 =
 {
-  
+    
 '
 memcheck
 '
@@ -1671,9 +1742,8 @@ x
 MemcheckTool
 (
 x
-False
 )
-  
+    
 '
 memcheck
 -
@@ -1686,9 +1756,8 @@ x
 MemcheckTool
 (
 x
-True
 )
-  
+    
 '
 tsan
 '
@@ -1699,9 +1768,8 @@ x
 TSanTool
 (
 x
-False
 )
-  
+    
 '
 tsan
 -
@@ -1714,9 +1782,8 @@ x
 TSanTool
 (
 x
-True
 )
-  
+    
 '
 asan
 '
@@ -1773,6 +1840,17 @@ will
 use
 .
   
+Returns
+:
+    
+A
+tool
+for
+the
+specified
+tool_name
+.
+  
 "
 "
 "
@@ -1823,7 +1901,7 @@ s
 '
 %
 (
-      
+        
 tool_name
 '
 '

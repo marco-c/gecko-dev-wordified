@@ -127,7 +127,7 @@ stdout
 expect
 ignore_line_numbers
 =
-False
+True
 )
 #
 Verify

@@ -173,21 +173,6 @@ tests
 )
 :
     
-assert
-num_devices
->
-1
-'
-At
-least
-two
-devices
-must
-be
-attached
-.
-'
-    
 self
 .
 num_devices

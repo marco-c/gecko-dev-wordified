@@ -86,7 +86,7 @@ textwrap
 import
 re
 def
-escape_spaces
+escape_path
 (
 word
 )
@@ -108,6 +108,16 @@ replace
 '
 '
 '
+'
+)
+.
+replace
+(
+'
+:
+'
+'
+:
 '
 )
 class
@@ -290,7 +300,6 @@ False
 rspfile
 =
 None
-             
 rspfile_content
 =
 None
@@ -478,7 +487,7 @@ list
 (
 map
 (
-escape_spaces
+escape_path
 outputs
 )
 )
@@ -489,7 +498,7 @@ list
 (
 map
 (
-escape_spaces
+escape_path
 all_inputs
 )
 )
@@ -502,7 +511,7 @@ implicit
 =
 map
 (
-escape_spaces
+escape_path
 self
 .
 _as_list
@@ -535,7 +544,7 @@ order_only
 =
 map
 (
-escape_spaces
+escape_path
 self
 .
 _as_list

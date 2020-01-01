@@ -112,6 +112,7 @@ the
 following
 headers
 includes
+.
 #
 include
 "
@@ -155,6 +156,7 @@ endif
 /
 /
 Alias
+.
 #
 define
 I420ToI420
@@ -166,6 +168,7 @@ I420
 to
 I420
 .
+LIBYUV_API
 int
 I420Copy
 (
@@ -215,6 +218,7 @@ I422
 to
 I420
 .
+LIBYUV_API
 int
 I422ToI420
 (
@@ -264,6 +268,7 @@ I444
 to
 I420
 .
+LIBYUV_API
 int
 I444ToI420
 (
@@ -313,6 +318,7 @@ I411
 to
 I420
 .
+LIBYUV_API
 int
 I411ToI420
 (
@@ -365,6 +371,7 @@ grey
 to
 I420
 .
+LIBYUV_API
 int
 I400ToI420
 (
@@ -407,6 +414,7 @@ used
 for
 NV21
 .
+LIBYUV_API
 int
 NV12ToI420
 (
@@ -450,6 +458,7 @@ M420
 to
 I420
 .
+LIBYUV_API
 int
 M420ToI420
 (
@@ -487,6 +496,7 @@ Q420
 to
 I420
 .
+LIBYUV_API
 int
 Q420ToI420
 (
@@ -530,6 +540,7 @@ YUY2
 to
 I420
 .
+LIBYUV_API
 int
 YUY2ToI420
 (
@@ -567,6 +578,7 @@ UYVY
 to
 I420
 .
+LIBYUV_API
 int
 UYVYToI420
 (
@@ -604,6 +616,7 @@ V210
 to
 I420
 .
+LIBYUV_API
 int
 V210ToI420
 (
@@ -646,6 +659,8 @@ memory
 )
 to
 I420
+.
+LIBYUV_API
 int
 ARGBToI420
 (
@@ -688,6 +703,8 @@ memory
 )
 to
 I420
+.
+LIBYUV_API
 int
 BGRAToI420
 (
@@ -730,8 +747,54 @@ memory
 )
 to
 I420
+.
+LIBYUV_API
 int
 ABGRToI420
+(
+const
+uint8
+*
+src_frame
+int
+src_stride_frame
+uint8
+*
+dst_y
+int
+dst_stride_y
+uint8
+*
+dst_u
+int
+dst_stride_u
+uint8
+*
+dst_v
+int
+dst_stride_v
+int
+width
+int
+height
+)
+;
+/
+/
+RGBA
+little
+endian
+(
+abgr
+in
+memory
+)
+to
+I420
+.
+LIBYUV_API
+int
+RGBAToI420
 (
 const
 uint8
@@ -772,6 +835,8 @@ memory
 )
 to
 I420
+.
+LIBYUV_API
 int
 RGB24ToI420
 (
@@ -814,6 +879,8 @@ memory
 )
 to
 I420
+.
+LIBYUV_API
 int
 RAWToI420
 (
@@ -855,6 +922,8 @@ little
 endian
 to
 I420
+.
+LIBYUV_API
 int
 RGB565ToI420
 (
@@ -896,6 +965,8 @@ little
 endian
 to
 I420
+.
+LIBYUV_API
 int
 ARGB1555ToI420
 (
@@ -937,6 +1008,8 @@ little
 endian
 to
 I420
+.
+LIBYUV_API
 int
 ARGB4444ToI420
 (
@@ -978,6 +1051,7 @@ height
 provided
 by
 capture
+.
 /
 /
 dst_width
@@ -989,6 +1063,7 @@ determine
 final
 size
 .
+LIBYUV_API
 int
 MJPGToI420
 (
@@ -1344,6 +1419,7 @@ zero
 for
 failure
 .
+LIBYUV_API
 int
 ConvertToI420
 (

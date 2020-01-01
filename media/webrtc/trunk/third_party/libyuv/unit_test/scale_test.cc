@@ -117,6 +117,9 @@ h
 #
 include
 "
+.
+.
+/
 unit_test
 /
 unit_test
@@ -142,6 +145,8 @@ FilterMode
 f
 int
 rounding
+int
+benchmark_iterations
 )
 {
 const
@@ -476,12 +481,6 @@ random
 ;
 }
 }
-const
-int
-runs
-=
-1000
-;
 align_buffer_page_end
 (
 dst_y_c
@@ -712,7 +711,7 @@ i
 ;
 i
 <
-runs
+benchmark_iterations
 ;
 +
 +
@@ -799,7 +798,7 @@ get_time
 c_time
 )
 /
-runs
+benchmark_iterations
 ;
 MaskCpuFlags
 (
@@ -829,7 +828,7 @@ i
 ;
 i
 <
-runs
+benchmark_iterations
 ;
 +
 +
@@ -916,7 +915,7 @@ get_time
 opt_time
 )
 /
-runs
+benchmark_iterations
 ;
 /
 /
@@ -1325,6 +1324,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1402,6 +1402,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1409,7 +1410,6 @@ EXPECT_LE
 max_diff
 2
 )
-;
 ;
 /
 /
@@ -1493,6 +1493,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1570,6 +1571,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1647,6 +1649,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1728,6 +1731,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1805,6 +1809,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1874,6 +1879,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1945,6 +1951,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -2014,6 +2021,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -2083,6 +2091,7 @@ FilterMode
 f
 )
 0
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -2165,6 +2174,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -2234,6 +2244,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -2303,6 +2314,7 @@ FilterMode
 f
 )
 1
+benchmark_iterations_
 )
 ;
 EXPECT_LE

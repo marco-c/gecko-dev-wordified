@@ -208,14 +208,11 @@ from
 run_java_tests
 import
 TestRunner
-import
-test_options_parser
 from
 test_result
 import
 SingleTestResult
 TestResults
-PYTHON
 #
 aka
 the
@@ -344,33 +341,39 @@ class_name
 self
 .
 test_name
-    
-self
-.
-ports_to_forward
-=
-[
-]
   
 def
 SetUp
 (
 self
-device_id
-shard_index
+options
 )
 :
     
 self
 .
+options
+=
+options
+    
+self
+.
 shard_index
 =
+self
+.
+options
+.
 shard_index
     
 self
 .
 device_id
 =
+self
+.
+options
+.
 device_id
     
 self
@@ -385,6 +388,13 @@ self
 .
 device_id
 )
+    
+self
+.
+ports_to_forward
+=
+[
+]
   
 def
 TearDown
@@ -543,26 +553,6 @@ suite
 test
 )
     
-#
-Get
-a
-set
-of
-default
-options
-    
-options
-=
-test_options_parser
-.
-ParseInstrumentationArgs
-(
-[
-'
-'
-]
-)
-    
 apks
 =
 [
@@ -570,9 +560,14 @@ apk_info
 .
 ApkInfo
 (
+self
+.
 options
 .
 test_apk_path
+            
+self
+.
 options
 .
 test_apk_jar_path
@@ -583,6 +578,8 @@ java_test_runner
 =
 TestRunner
 (
+self
+.
 options
 self
 .
@@ -1042,54 +1039,6 @@ information
 .
 '
       
-short_error_msg
-=
-single_result
-.
-log
-.
-split
-(
-'
-\
-n
-'
-)
-[
-0
-]
-      
-#
-err_info
-is
-ostensibly
-for
-Sponge
-to
-consume
-;
-it
-'
-s
-a
-short
-error
-      
-#
-message
-and
-a
-longer
-one
-.
-      
-err_info
-=
-(
-short_error_msg
-log
-)
-      
 python_result
 =
 SingleTestResult
@@ -1101,11 +1050,7 @@ start_ms
                                        
 duration_ms
                                        
-PYTHON
-                                       
 log
-                                       
-err_info
 )
       
 #
@@ -1191,8 +1136,6 @@ qualified_name
 start_ms
                                        
 duration_ms
-                                       
-PYTHON
 )
       
 test_results

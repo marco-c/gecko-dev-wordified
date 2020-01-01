@@ -1316,7 +1316,7 @@ android
 c
 '
 '
-64M
+128M
 '
         
 '
@@ -1649,6 +1649,21 @@ size
 '
 '
 512
+'
+        
+#
+Enable
+GPU
+by
+default
+.
+        
+'
+-
+gpu
+'
+'
+on
 '
         
 #

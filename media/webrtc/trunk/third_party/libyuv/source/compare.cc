@@ -138,7 +138,7 @@ h
 #
 include
 "
-source
+libyuv
 /
 row
 .
@@ -1559,6 +1559,7 @@ of
 5381
 recommended
 .
+LIBYUV_API
 uint32
 HashDjb2
 (
@@ -2687,6 +2688,7 @@ return
 sse
 ;
 }
+LIBYUV_API
 uint64
 ComputeSumSquareError
 (
@@ -2982,6 +2984,7 @@ return
 sse
 ;
 }
+LIBYUV_API
 uint64
 ComputeSumSquareErrorPlane
 (
@@ -3144,6 +3147,7 @@ return
 sse
 ;
 }
+LIBYUV_API
 double
 SumSquareErrorToPsnr
 (
@@ -3231,6 +3235,7 @@ return
 psnr
 ;
 }
+LIBYUV_API
 double
 CalcFramePsnr
 (
@@ -3282,6 +3287,7 @@ samples
 )
 ;
 }
+LIBYUV_API
 double
 I420Psnr
 (
@@ -3800,6 +3806,7 @@ penalize
 blocking
 artifacts
 .
+LIBYUV_API
 double
 CalcFrameSsim
 (
@@ -3946,6 +3953,7 @@ return
 ssim_total
 ;
 }
+LIBYUV_API
 double
 I420Ssim
 (

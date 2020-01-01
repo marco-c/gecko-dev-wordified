@@ -122,6 +122,7 @@ formats
 to
 I420
 .
+LIBYUV_API
 int
 BayerBGGRToI420
 (
@@ -152,6 +153,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerGBRGToI420
 (
@@ -182,6 +184,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerGRBGToI420
 (
@@ -212,6 +215,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerRGGBToI420
 (
@@ -247,6 +251,7 @@ height
 Temporary
 API
 mapper
+.
 #
 define
 BayerRGBToI420
@@ -278,6 +283,7 @@ w
 h
 f
 )
+LIBYUV_API
 int
 BayerToI420
 (
@@ -319,6 +325,7 @@ Bayer
 RGB
 formats
 .
+LIBYUV_API
 int
 I420ToBayerBGGR
 (
@@ -351,6 +358,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToBayerGBRG
 (
@@ -383,6 +391,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToBayerGRBG
 (
@@ -415,6 +424,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToBayerRGGB
 (
@@ -452,6 +462,7 @@ height
 Temporary
 API
 mapper
+.
 #
 define
 I420ToBayerRGB
@@ -483,6 +494,7 @@ w
 h
 f
 )
+LIBYUV_API
 int
 I420ToBayer
 (
@@ -526,6 +538,7 @@ formats
 to
 ARGB
 .
+LIBYUV_API
 int
 BayerBGGRToARGB
 (
@@ -546,6 +559,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerGBRGToARGB
 (
@@ -566,6 +580,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerGRBGToARGB
 (
@@ -586,6 +601,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerRGGBToARGB
 (
@@ -611,6 +627,7 @@ height
 Temporary
 API
 mapper
+.
 #
 define
 BayerRGBToARGB
@@ -633,6 +650,7 @@ w
 h
 f
 )
+LIBYUV_API
 int
 BayerToARGB
 (
@@ -664,6 +682,7 @@ Bayer
 RGB
 formats
 .
+LIBYUV_API
 int
 ARGBToBayerBGGR
 (
@@ -684,6 +703,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGBToBayerGBRG
 (
@@ -704,6 +724,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGBToBayerGRBG
 (
@@ -724,6 +745,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGBToBayerRGGB
 (
@@ -749,6 +771,7 @@ height
 Temporary
 API
 mapper
+.
 #
 define
 ARGBToBayerRGB
@@ -771,6 +794,7 @@ w
 h
 f
 )
+LIBYUV_API
 int
 ARGBToBayer
 (

@@ -118,29 +118,30 @@ stats
   
 DEVICE_PATH
 =
+constants
+.
+TEST_EXECUTABLE_DIR
++
 '
-/
-data
-/
-local
-/
-tmp
 /
 device_stats_monitor
 '
   
 PROFILE_PATH
 =
+(
+constants
+.
+DEVICE_PERF_OUTPUT_DIR
++
+      
 '
-/
-sdcard
-/
-Download
 /
 device_stats_monitor
 .
 profile
 '
+)
   
 RESULT_VIEWER_PATH
 =
