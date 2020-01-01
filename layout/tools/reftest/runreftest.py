@@ -1233,6 +1233,20 @@ own
 risk
 .
     
+#
+NO_EM_RESTART
+:
+will
+do
+a
+'
+-
+silent
+'
+run
+instead
+.
+    
 browserEnv
 [
 "
@@ -1414,8 +1428,6 @@ options
 app
 profileDir
                                
-extraArgs
-=
 [
 "
 -
@@ -1423,17 +1435,17 @@ silent
 "
 ]
                                
-symbolsPath
+xrePath
 =
 options
 .
-symbolsPath
+xrePath
                                
-xrePath
+symbolsPath
 =
 options
 .
-xrePath
+symbolsPath
 )
     
 #
@@ -1592,8 +1604,6 @@ options
 app
 profileDir
                                
-extraArgs
-=
 [
 "
 -
@@ -1602,17 +1612,17 @@ reftest
 reftestlist
 ]
                                
-symbolsPath
+xrePath
 =
 options
 .
-symbolsPath
+xrePath
                                
-xrePath
+symbolsPath
 =
 options
 .
-xrePath
+symbolsPath
 )
     
 automation
