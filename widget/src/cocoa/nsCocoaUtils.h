@@ -1268,6 +1268,15 @@ NSWindow
 aWindow
 )
 ;
+static
+BOOL
+IsMomentumScrollEvent
+(
+NSEvent
+*
+aEvent
+)
+;
 /
 /
 Hides

@@ -2582,6 +2582,15 @@ aEvent
 ;
 static
 void
+MouseScrolled
+(
+NSEvent
+*
+aEvent
+)
+;
+static
+void
 OnDestroyView
 (
 ChildView
@@ -2676,6 +2685,10 @@ static
 NSWindow
 *
 sWindowUnderMouse
+;
+static
+NSPoint
+sLastScrollEventScreenLocation
 ;
 }
 ;
