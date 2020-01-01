@@ -31883,10 +31883,6 @@ sgo
 >
 OnFinalize
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 obj
 )
 ;
