@@ -283,9 +283,9 @@ h
 define
 TARGET_SUBDIR
 "
-downloads
+Download
 /
-bluetooth
+Bluetooth
 /
 "
 USING_BLUETOOTH_NAMESPACE
