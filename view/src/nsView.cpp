@@ -1511,16 +1511,6 @@ SetClientData
 nsnull
 )
 ;
-if
-(
-!
-(
-mVFlags
-&
-NS_VIEW_DISOWNS_WIDGET
-)
-)
-{
 mWindow
 -
 >
@@ -1528,7 +1518,6 @@ Destroy
 (
 )
 ;
-}
 NS_RELEASE
 (
 mWindow
