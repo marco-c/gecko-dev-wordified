@@ -26917,6 +26917,14 @@ Can
 t
 do
 selection
+nsCOMPtr
+<
+nsINode
+>
+kungfuDeathGrip
+=
+aParentNode
+;
 mFrameSelection
 -
 >
