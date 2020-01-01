@@ -759,7 +759,7 @@ vp
 ;
 virtual
 bool
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -1256,7 +1256,7 @@ vp
 ;
 static
 bool
-enumerateOwn
+keys
 (
 JSContext
 *

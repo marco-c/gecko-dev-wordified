@@ -1289,7 +1289,7 @@ bool
 JSProxyHandler
 :
 :
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -1508,7 +1508,7 @@ JSITER_OWNONLY
 )
 ?
 !
-enumerateOwn
+keys
 (
 cx
 proxy
@@ -2184,7 +2184,7 @@ atom
 =
 ATOM
 (
-enumerateOwn
+keys
 )
 |
 |
@@ -3075,7 +3075,7 @@ vp
 ;
 virtual
 bool
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -4365,7 +4365,7 @@ bool
 JSScriptedProxyHandler
 :
 :
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -4403,7 +4403,7 @@ cx
 handler
 ATOM
 (
-enumerateOwn
+keys
 )
 tvr
 .
@@ -4431,7 +4431,7 @@ return
 JSProxyHandler
 :
 :
-enumerateOwn
+keys
 (
 cx
 proxy
@@ -5435,7 +5435,7 @@ bool
 JSProxy
 :
 :
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -5471,7 +5471,7 @@ getProxyHandler
 )
 -
 >
-enumerateOwn
+keys
 (
 cx
 proxy

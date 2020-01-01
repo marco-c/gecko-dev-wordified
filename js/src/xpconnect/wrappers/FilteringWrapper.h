@@ -511,7 +511,7 @@ props
 ;
 virtual
 bool
-enumerateOwn
+keys
 (
 JSContext
 *

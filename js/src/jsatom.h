@@ -2532,7 +2532,7 @@ hasOwnAtom
 ;
 JSAtom
 *
-enumerateOwnAtom
+keysAtom
 ;
 JSAtom
 *

@@ -1596,11 +1596,11 @@ hasOwnAtom
 *
 /
 "
-enumerateOwn
+keys
 "
 /
 *
-enumerateOwnAtom
+keysAtom
 *
 /
 "

@@ -181,7 +181,7 @@ Proxy
 create
 (
 {
-enumerateOwn
+keys
 :
 function
 (
@@ -248,7 +248,7 @@ Proxy
 create
 (
 {
-enumerateOwn
+keys
 :
 function
 (

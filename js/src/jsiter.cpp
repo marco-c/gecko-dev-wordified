@@ -2251,7 +2251,7 @@ if
 JSProxy
 :
 :
-enumerateOwn
+keys
 (
 cx
 pobj
