@@ -2277,7 +2277,10 @@ aOffset
 0
 |
 |
+PRUint32
+(
 aOffset
+)
 >
 (
 selflen
@@ -2418,7 +2421,10 @@ aOffset
 0
 |
 |
+PRUint32
+(
 aOffset
+)
 >
 (
 selflen
@@ -4187,7 +4193,10 @@ aOffset
 0
 |
 |
+PRUint32
+(
 aOffset
+)
 >
 (
 selflen
@@ -4312,7 +4321,7 @@ end
 if
 (
 aLen
-=
+<
 =
 0
 )
@@ -4337,7 +4346,10 @@ return
 }
 if
 (
+PRUint32
+(
 aLen
+)
 >
 selflen
 )
