@@ -4669,6 +4669,9 @@ Message
 message
 )
 {
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 chrome
 :
 :
@@ -4683,6 +4686,8 @@ Increment
 (
 )
 ;
+#
+endif
 #
 ifdef
 IPC_MESSAGE_DEBUG_EXTRA
