@@ -97,6 +97,15 @@ nsIPrefBranch
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIPrefBranch
 ;
@@ -182,6 +191,7 @@ nsIPrefBranch
 /
 class
 nsContentBlocker
+MOZ_FINAL
 :
 public
 nsIContentPolicy
