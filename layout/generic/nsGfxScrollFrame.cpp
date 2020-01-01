@@ -24045,6 +24045,11 @@ XMost
 (
 )
 ;
+if
+(
+mHasVerticalScrollbar
+)
+{
 nsMargin
 margin
 ;
@@ -24063,6 +24068,7 @@ Deflate
 margin
 )
 ;
+}
 AdjustScrollbarRectForResizer
 (
 mOuter
@@ -24139,6 +24145,11 @@ aContentArea
 .
 y
 ;
+if
+(
+mHasHorizontalScrollbar
+)
+{
 nsMargin
 margin
 ;
@@ -24157,6 +24168,7 @@ Deflate
 margin
 )
 ;
+}
 AdjustScrollbarRectForResizer
 (
 mOuter
