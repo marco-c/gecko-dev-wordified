@@ -1714,12 +1714,6 @@ defined
 (
 XP_OS2
 )
-|
-|
-defined
-(
-WINCE
-)
 #
 define
 XPCOM_SEARCH_KEY
