@@ -789,6 +789,10 @@ MozSmsManager
 )
 DOMCI_CLASS
 (
+MozMobileMessageManager
+)
+DOMCI_CLASS
+(
 MozSmsMessage
 )
 DOMCI_CLASS

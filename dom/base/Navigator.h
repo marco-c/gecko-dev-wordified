@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsIDOMNavigatorMobileMessage
+.
+h
+"
+#
+include
+"
 nsIDOMNavigatorNetwork
 .
 h
@@ -511,6 +518,9 @@ battery
 class
 SmsManager
 ;
+class
+MobileMessageManager
+;
 namespace
 network
 {
@@ -586,6 +596,8 @@ public
 nsINavigatorBattery
 public
 nsIDOMMozNavigatorSms
+public
+nsIDOMMozNavigatorMobileMessage
 public
 nsIObserver
 #
@@ -666,6 +678,7 @@ NS_DECL_NSIDOMNAVIGATORGEOLOCATION
 NS_DECL_NSIDOMNAVIGATORDESKTOPNOTIFICATION
 NS_DECL_NSINAVIGATORBATTERY
 NS_DECL_NSIDOMMOZNAVIGATORSMS
+NS_DECL_NSIDOMMOZNAVIGATORMOBILEMESSAGE
 NS_DECL_NSIOBSERVER
 #
 ifdef
@@ -868,6 +881,12 @@ nsRefPtr
 SmsManager
 >
 mSmsManager
+;
+nsRefPtr
+<
+MobileMessageManager
+>
+mMobileMessageManager
 ;
 #
 ifdef
