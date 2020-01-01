@@ -2591,7 +2591,7 @@ nsIDOMMouseListener
 (
 this
 )
-PR_FALSE
+PR_TRUE
 )
 ;
 return
@@ -2692,7 +2692,7 @@ nsIDOMMouseListener
 (
 this
 )
-PR_FALSE
+PR_TRUE
 )
 ;
 return
