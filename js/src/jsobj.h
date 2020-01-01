@@ -2721,6 +2721,15 @@ isXML
 )
 const
 ;
+inline
+bool
+unbrand
+(
+JSContext
+*
+cx
+)
+;
 }
 ;
 /
