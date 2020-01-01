@@ -8132,6 +8132,9 @@ JSScript
 thing
 )
 ;
+#
+if
+JS_SCRIPT_INLINE_DATA_LIMIT
 if
 (
 script
@@ -8145,6 +8148,8 @@ script
 >
 inlineData
 )
+#
+endif
 {
 size_t
 usable
