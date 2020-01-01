@@ -7975,7 +7975,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -8112,7 +8112,7 @@ i
 +
 )
 {
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -8374,7 +8374,7 @@ return
 NS_OK
 ;
 }
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -8626,7 +8626,7 @@ rv
 )
 ;
 }
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -8783,7 +8783,7 @@ i
 +
 )
 {
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -9371,7 +9371,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -9581,7 +9581,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -9996,7 +9996,7 @@ mRoot
 NS_ERROR_INVALID_ARG
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -10442,7 +10442,7 @@ mToolbarFolder
 0
 ;
 }
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -11187,7 +11187,7 @@ remove
 this
 child
 .
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -11716,7 +11716,7 @@ folderChildrenArray
 i
 ]
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -11869,7 +11869,7 @@ i
 +
 )
 {
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -12855,12 +12855,7 @@ rv
 rv
 )
 ;
-/
-/
-notify
-bookmark
-observers
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -13116,7 +13111,7 @@ lastModified
 to
 aDateAdded
 .
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -13312,7 +13307,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -14068,7 +14063,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -16441,7 +16436,7 @@ URI
 to
 OnItemChanged
 .
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -17252,7 +17247,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -17806,7 +17801,7 @@ keyword
 to
 OnItemChanged
 .
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -18311,7 +18306,7 @@ BeginTransaction
 (
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -18360,7 +18355,7 @@ mBatchHasTransaction
 =
 PR_FALSE
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -18636,7 +18631,7 @@ i
 +
 +
 )
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -18775,7 +18770,7 @@ i
 +
 +
 )
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -19058,7 +19053,7 @@ Length
 1
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -19157,7 +19152,7 @@ i
 +
 +
 )
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -19321,7 +19316,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -19434,7 +19429,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
