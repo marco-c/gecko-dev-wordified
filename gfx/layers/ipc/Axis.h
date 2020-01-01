@@ -1399,10 +1399,8 @@ page
 int32_t
 mAcceleration
 ;
-nsRefPtr
-<
 AsyncPanZoomController
->
+*
 mAsyncPanZoomController
 ;
 }
