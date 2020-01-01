@@ -1697,6 +1697,11 @@ menuseparator
 >
 <
 menuitem
+id
+=
+"
+menu_tabsOnTop
+"
 command
 =
 "
