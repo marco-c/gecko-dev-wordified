@@ -647,8 +647,14 @@ ClearRuleCascades
 )
 ;
 static
-void
+nsresult
 Startup
+(
+)
+;
+static
+void
+Shutdown
 (
 )
 ;
