@@ -9944,8 +9944,6 @@ this
 .
 endSelection
 (
-0
-0
 )
 ;
 /
@@ -11287,6 +11285,14 @@ copy
 !
 if
 (
+arguments
+.
+length
+=
+=
+2
+&
+&
 selectedText
 .
 length
@@ -12325,8 +12331,6 @@ this
 .
 endSelection
 (
-0
-0
 )
 ;
 return
@@ -12824,8 +12828,6 @@ this
 .
 endSelection
 (
-0
-0
 )
 ;
 break
