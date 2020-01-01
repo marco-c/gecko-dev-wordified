@@ -2508,13 +2508,6 @@ XP_WIN
 !
 defined
 (
-DEBUG
-)
-&
-&
-!
-defined
-(
 __GNUC__
 )
 /
