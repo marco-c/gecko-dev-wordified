@@ -158,9 +158,8 @@ Original
 Code
 is
 *
-mozilla
-.
-org
+Mozilla
+Foundation
 .
 *
 Portions
