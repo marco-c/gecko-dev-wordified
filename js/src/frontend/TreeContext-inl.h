@@ -752,6 +752,14 @@ funcStmts
 (
 NULL
 )
+hasReturnExpr
+(
+false
+)
+hasReturnVoid
+(
+false
+)
 {
 prs
 -
