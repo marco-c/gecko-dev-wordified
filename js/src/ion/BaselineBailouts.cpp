@@ -9134,6 +9134,17 @@ setBailoutExpected
 (
 )
 ;
+iter
+.
+script
+(
+)
+-
+>
+updateBaselineOrIonRaw
+(
+)
+;
 /
 /
 Allocate

@@ -2139,6 +2139,17 @@ setBailoutExpected
 (
 )
 ;
+it
+.
+script
+(
+)
+-
+>
+updateBaselineOrIonRaw
+(
+)
+;
 /
 /
 We
