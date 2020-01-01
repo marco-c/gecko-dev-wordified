@@ -6111,11 +6111,6 @@ class
 PostMessageEvent
 ;
 static
-nsIDOMStorageList
-*
-sGlobalStorageList
-;
-static
 WindowByIdTable
 *
 sWindowsById

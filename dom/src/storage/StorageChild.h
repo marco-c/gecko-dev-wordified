@@ -544,16 +544,6 @@ aCanUseChromePersist
 )
 ;
 virtual
-void
-InitAsGlobalStorage
-(
-const
-nsACString
-&
-aDomainDemanded
-)
-;
-virtual
 bool
 CacheStoragePermissions
 (
