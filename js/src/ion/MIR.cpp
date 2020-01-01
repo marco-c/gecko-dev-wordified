@@ -10221,6 +10221,14 @@ mode_
 mode
 )
 {
+block
+-
+>
+addResumePoint
+(
+this
+)
+;
 }
 void
 MResumePoint
