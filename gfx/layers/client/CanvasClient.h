@@ -345,13 +345,6 @@ ClientCanvasLayer
 aLayer
 )
 ;
-virtual
-void
-Updated
-(
-)
-MOZ_OVERRIDE
-;
 }
 ;
 /
@@ -422,6 +415,13 @@ ClientCanvasLayer
 *
 aLayer
 )
+;
+virtual
+void
+Updated
+(
+)
+MOZ_OVERRIDE
 ;
 }
 ;
