@@ -1734,9 +1734,6 @@ after
 linking
 class
 CodeLabel
-:
-public
-TempObject
 {
 /
 /

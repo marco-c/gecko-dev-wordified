@@ -5347,12 +5347,7 @@ return
 size_t
 size
 =
-GetDeflatedStringLength
-(
-context
-chars
 length
-)
 ;
 if
 (

@@ -3598,10 +3598,6 @@ scriptSource
 ScriptSourceHolder
 ssh
 (
-cx
--
->
-runtime
 ss
 )
 ;
@@ -8115,9 +8111,6 @@ ScriptSource
 :
 destroy
 (
-JSRuntime
-*
-rt
 )
 {
 JS_ASSERT
@@ -12663,12 +12656,6 @@ scriptSource_
 >
 decref
 (
-fop
--
->
-runtime
-(
-)
 )
 ;
 if
