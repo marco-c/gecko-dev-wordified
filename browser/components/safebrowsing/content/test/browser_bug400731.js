@@ -174,6 +174,8 @@ style
 display
 "
 inline
+-
+block
 "
 "
 Ignore
@@ -184,6 +186,8 @@ be
 display
 :
 inline
+-
+block
 for
 malware
 "
@@ -297,6 +301,8 @@ style
 display
 "
 inline
+-
+block
 "
 "
 Ignore
@@ -307,6 +313,8 @@ be
 display
 :
 inline
+-
+block
 for
 phishing
 "
