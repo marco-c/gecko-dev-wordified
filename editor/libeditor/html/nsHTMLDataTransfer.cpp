@@ -12592,7 +12592,7 @@ Initially
 aResult
 must
 be
-NULL
+nullptr
 .
 *
 *
@@ -12696,7 +12696,7 @@ the
 current
 result
 is
-NULL
+nullptr
 then
 aStart
 is

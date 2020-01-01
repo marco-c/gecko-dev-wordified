@@ -103,7 +103,7 @@ h
 /
 /
 for
-NULL
+nullptr
 #
 include
 "
@@ -366,7 +366,7 @@ EditTxn
 )
 mEditor
 (
-NULL
+nullptr
 )
 {
 }
@@ -523,7 +523,7 @@ EditTxn
 )
 mEditor
 (
-NULL
+nullptr
 )
 {
 }

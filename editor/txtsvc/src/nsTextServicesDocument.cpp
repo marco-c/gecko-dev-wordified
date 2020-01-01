@@ -103,7 +103,7 @@ h
 /
 /
 for
-NULL
+nullptr
 #
 include
 "
@@ -9628,7 +9628,7 @@ aRange
 *
 aRange
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <

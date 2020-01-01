@@ -23723,7 +23723,7 @@ NS_ERROR_NULL_POINTER
 *
 outNode
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -23954,7 +23954,7 @@ NS_ERROR_NULL_POINTER
 *
 outNode
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -24393,7 +24393,7 @@ NS_ERROR_NULL_POINTER
 *
 outNode
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <

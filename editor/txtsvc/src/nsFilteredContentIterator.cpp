@@ -2069,7 +2069,7 @@ can
 '
 t
 be
-NULL
+nullptr
 "
 )
 ;

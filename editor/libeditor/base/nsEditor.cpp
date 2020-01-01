@@ -116,7 +116,7 @@ h
 /
 /
 for
-NULL
+nullptr
 stdout
 #
 include
@@ -2982,7 +2982,7 @@ Setting
 the
 spellchecker
 to
-NULL
+nullptr
 could
 free
 the
@@ -3680,7 +3680,7 @@ mDocWeak
 NS_ENSURE_TRUE
 (
 doc
-NULL
+nullptr
 )
 ;
 nsCOMPtr
@@ -4716,7 +4716,7 @@ aTxnManager
 *
 aTxnManager
 =
-NULL
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -28275,7 +28275,7 @@ then
 we
 must
 set
-NULL
+nullptr
 .
 /
 /

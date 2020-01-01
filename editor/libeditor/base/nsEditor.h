@@ -4513,7 +4513,7 @@ of
 this
 editor
 returns
-NULL
+nullptr
 .
 If
 this

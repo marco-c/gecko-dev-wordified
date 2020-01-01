@@ -1265,7 +1265,7 @@ AssignLiteral
 (
 "
 <
-NULL
+nullptr
 >
 "
 )

@@ -1230,7 +1230,7 @@ transaction
 it
 should
 be
-NULL
+nullptr
 .
 This
 may

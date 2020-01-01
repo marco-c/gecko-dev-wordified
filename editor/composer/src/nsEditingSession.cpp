@@ -121,7 +121,7 @@ h
 /
 /
 for
-NULL
+nullptr
 strcmp
 #
 include
@@ -2165,7 +2165,7 @@ xul
 +
 xml
 "
-NULL
+nullptr
 /
 /
 IMPORTANT
@@ -7572,7 +7572,7 @@ Cancel
 ;
 mLoadBlankDocTimer
 =
-NULL
+nullptr
 ;
 }
 mLoadBlankDocTimer
