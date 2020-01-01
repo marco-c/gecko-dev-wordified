@@ -954,11 +954,6 @@ trace
 ;
 let
 rootClient
-=
-RootFront
-(
-client
-)
 ;
 client
 .
@@ -1011,6 +1006,13 @@ xpcshell
 -
 tests
 "
+)
+;
+rootClient
+=
+RootFront
+(
+client
 )
 ;
 rootClient
