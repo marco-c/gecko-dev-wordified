@@ -24187,9 +24187,6 @@ JSOP_LSH
 case
 JSOP_URSH
 :
-case
-JSOP_ACTUALSFILLED
-:
 pushed
 [
 0
