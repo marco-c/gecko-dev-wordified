@@ -46776,14 +46776,14 @@ allowed
 "
 geolocation
 .
-alwaysAllow
+allow
 "
 denied
 :
 "
 geolocation
 .
-neverAllow
+dontAllow
 "
 }
 "
