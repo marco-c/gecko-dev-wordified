@@ -144,15 +144,6 @@ nsHTMLContentSerializer_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsXHTMLContentSerializer
 .
 h
@@ -220,7 +211,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendElementEnd
@@ -238,7 +228,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendDocumentStart
@@ -250,7 +239,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -293,7 +281,6 @@ nsAString
 &
 aOutputStr
 )
-MOZ_OVERRIDE
 ;
 }
 ;

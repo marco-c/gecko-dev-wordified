@@ -102,15 +102,6 @@ WEBGLCONTEXT_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 WebGLElementArrayCache
 .
 h
@@ -1113,7 +1104,6 @@ width
 int32_t
 height
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InitializeWithSurface
@@ -1129,7 +1119,6 @@ width
 int32_t
 height
 )
-MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1139,7 +1128,6 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
 {
 /
 *
@@ -1168,7 +1156,6 @@ aFlags
 =
 RenderFlagPremultAlpha
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetInputStream
@@ -1186,7 +1173,6 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetThebesSurface
@@ -1196,7 +1182,6 @@ gfxASurface
 *
 surface
 )
-MOZ_OVERRIDE
 ;
 mozilla
 :
@@ -1214,7 +1199,6 @@ SourceSurface
 GetSurfaceSnapshot
 (
 )
-MOZ_OVERRIDE
 {
 return
 nullptr
@@ -1226,7 +1210,6 @@ SetIsOpaque
 bool
 b
 )
-MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -1240,7 +1223,6 @@ nsIPropertyBag
 *
 aOptions
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetIsIPC
@@ -1248,7 +1230,6 @@ SetIsIPC
 bool
 b
 )
-MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1508,7 +1489,6 @@ LayerManager
 *
 aManager
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -1536,7 +1516,6 @@ void
 MarkContextClean
 (
 )
-MOZ_OVERRIDE
 {
 mInvalidated
 =

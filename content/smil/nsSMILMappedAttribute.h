@@ -117,15 +117,6 @@ NS_SMILMAPPEDATTRIBUTE_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsSMILCSSProperty
 .
 h
@@ -374,7 +365,6 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsSMILValue
@@ -382,7 +372,6 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -393,14 +382,12 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
 ;
 protected
 :

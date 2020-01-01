@@ -102,15 +102,6 @@ nsXBLProtoImplProperty_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
@@ -246,7 +237,6 @@ JSObject
 >
 aTargetClassObject
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -269,7 +259,6 @@ JSObject
 >
 aClassObject
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -283,7 +272,6 @@ void
 *
 aClosure
 )
-MOZ_OVERRIDE
 ;
 nsresult
 Read
@@ -309,7 +297,6 @@ nsIObjectOutputStream
 *
 aStream
 )
-MOZ_OVERRIDE
 ;
 protected
 :

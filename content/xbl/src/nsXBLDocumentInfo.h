@@ -65,15 +65,6 @@ nsXBLDocumentInfo_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -271,7 +262,6 @@ nsIScriptGlobalObject
 GetScriptGlobalObject
 (
 )
-MOZ_OVERRIDE
 ;
 void
 MarkInCCGeneration

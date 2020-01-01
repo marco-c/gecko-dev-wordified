@@ -160,15 +160,6 @@ mozilla_dom_EventSource_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsDOMEventTargetHelper
 .
 h
@@ -488,7 +479,6 @@ void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
 ;
 protected
 :

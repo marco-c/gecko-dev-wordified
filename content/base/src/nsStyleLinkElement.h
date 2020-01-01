@@ -138,15 +138,6 @@ nsStyleLinkElement_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -244,7 +235,6 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
 =
 0
 ;
@@ -273,7 +263,6 @@ nsCSSStyleSheet
 *
 aStyleSheet
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetStyleSheet
@@ -283,7 +272,6 @@ nsIStyleSheet
 &
 aStyleSheet
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InitStyleLinkElement
@@ -291,7 +279,6 @@ InitStyleLinkElement
 bool
 aDontLoadStyle
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UpdateStyleSheet
@@ -306,7 +293,6 @@ bool
 *
 aIsAlternate
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetEnableUpdates
@@ -314,7 +300,6 @@ SetEnableUpdates
 bool
 aEnableUpdates
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCharset
@@ -323,7 +308,6 @@ nsAString
 &
 aCharset
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -333,7 +317,6 @@ nsIURI
 *
 aNewBaseURI
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -342,7 +325,6 @@ SetLineNumber
 uint32_t
 aLineNumber
 )
-MOZ_OVERRIDE
 ;
 static
 uint32_t

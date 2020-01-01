@@ -102,15 +102,6 @@ mozilla_dom_HTMLTableRowElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -454,7 +445,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -462,7 +452,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -476,7 +465,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -491,7 +479,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -499,7 +486,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

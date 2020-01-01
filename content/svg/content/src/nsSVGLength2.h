@@ -102,15 +102,6 @@ __NS_SVGLENGTH2_H__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -1028,7 +1019,6 @@ uint16_t
 *
 aResult
 )
-MOZ_OVERRIDE
 {
 *
 aResult
@@ -1049,7 +1039,6 @@ float
 *
 aResult
 )
-MOZ_OVERRIDE
 {
 *
 aResult
@@ -1072,7 +1061,6 @@ SetValue
 float
 aValue
 )
-MOZ_OVERRIDE
 {
 if
 (
@@ -1108,7 +1096,6 @@ float
 *
 aResult
 )
-MOZ_OVERRIDE
 {
 *
 aResult
@@ -1128,7 +1115,6 @@ SetValueInSpecifiedUnits
 float
 aValue
 )
-MOZ_OVERRIDE
 {
 if
 (
@@ -1165,7 +1151,6 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
 {
 return
 mVal
@@ -1186,7 +1171,6 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
 {
 mVal
 -
@@ -1208,7 +1192,6 @@ unitType
 float
 valueInSpecifiedUnits
 )
-MOZ_OVERRIDE
 {
 return
 mVal
@@ -1228,7 +1211,6 @@ ConvertToSpecifiedUnits
 uint16_t
 unitType
 )
-MOZ_OVERRIDE
 {
 return
 mVal
@@ -1333,7 +1315,6 @@ uint16_t
 *
 aResult
 )
-MOZ_OVERRIDE
 {
 mSVGElement
 -
@@ -1361,7 +1342,6 @@ float
 *
 aResult
 )
-MOZ_OVERRIDE
 {
 mSVGElement
 -
@@ -1391,7 +1371,6 @@ SetValue
 float
 aValue
 )
-MOZ_OVERRIDE
 {
 return
 NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
@@ -1404,7 +1383,6 @@ float
 *
 aResult
 )
-MOZ_OVERRIDE
 {
 mSVGElement
 -
@@ -1431,7 +1409,6 @@ SetValueInSpecifiedUnits
 float
 aValue
 )
-MOZ_OVERRIDE
 {
 return
 NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
@@ -1445,7 +1422,6 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
 {
 return
 NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
@@ -1458,7 +1434,6 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
 {
 mSVGElement
 -
@@ -1487,7 +1462,6 @@ unitType
 float
 valueInSpecifiedUnits
 )
-MOZ_OVERRIDE
 {
 return
 NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
@@ -1499,7 +1473,6 @@ ConvertToSpecifiedUnits
 uint16_t
 unitType
 )
-MOZ_OVERRIDE
 {
 return
 NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
@@ -1608,7 +1581,6 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsSMILValue
@@ -1616,14 +1588,12 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1634,7 +1604,6 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
 ;
 }
 ;

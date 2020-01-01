@@ -102,15 +102,6 @@ nsDOMFile_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsICharsetDetectionObserver
 .
 h
@@ -1571,7 +1562,6 @@ uint64_t
 *
 aSize
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetType
@@ -1580,7 +1570,6 @@ nsAString
 &
 aType
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetLastModifiedDate
@@ -1595,7 +1584,6 @@ Value
 *
 aLastModifiedDate
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetMozLastModifiedDate
@@ -1604,7 +1592,6 @@ uint64_t
 *
 aLastModifiedDate
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetMozFullPathInternal
@@ -1613,7 +1600,6 @@ nsAString
 &
 aFullPath
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetInternalStream
@@ -1622,7 +1608,6 @@ nsIInputStream
 *
 *
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -1785,7 +1770,6 @@ nsAString
 &
 aContentType
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1793,7 +1777,6 @@ IsStoredFile
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mStoredFile
@@ -1805,7 +1788,6 @@ IsWholeFile
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mWholeFile
@@ -1980,7 +1962,6 @@ nsIInputStream
 *
 *
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -2063,7 +2044,6 @@ nsAString
 &
 aContentType
 )
-MOZ_OVERRIDE
 ;
 /
 /

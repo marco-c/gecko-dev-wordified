@@ -121,15 +121,6 @@ mozilla_dom_HTMLVideoElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLVideoElement
 .
 h
@@ -246,7 +237,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -254,7 +244,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -269,7 +258,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 /
 /
@@ -320,7 +308,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

@@ -102,15 +102,6 @@ nsDOMFileReader_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsISupportsUtils
 .
 h
@@ -313,7 +304,6 @@ nsAString
 &
 aTerminationEvent
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoOnDataAvailable
@@ -332,7 +322,6 @@ aOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
 ;
 nsPIDOMWindow
 *

@@ -536,7 +536,6 @@ nsILoadGroup
 *
 aLoadGroup
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -552,7 +551,6 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -585,7 +583,6 @@ aSink
 =
 nullptr
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -596,14 +593,12 @@ nsAString
 &
 aContentType
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 EndLoad
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -633,7 +628,6 @@ nsIContent
 &
 aElements
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetScriptGlobalObjectOwner
@@ -643,7 +637,6 @@ nsIScriptGlobalObjectOwner
 *
 aGlobalOwner
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddSubtreeToDocument
@@ -652,7 +645,6 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveSubtreeFromDocument
@@ -661,7 +653,6 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetTemplateBuilderFor
@@ -673,7 +664,6 @@ nsIXULTemplateBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetTemplateBuilderFor
@@ -686,7 +676,6 @@ nsIXULTemplateBuilder
 *
 aResult
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnPrototypeLoadDone
@@ -694,13 +683,11 @@ OnPrototypeLoadDone
 bool
 aResumeWalk
 )
-MOZ_OVERRIDE
 ;
 bool
 OnDocumentParserError
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -807,7 +794,6 @@ nsAString
 &
 elementId
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -828,7 +814,6 @@ aWasAlternate
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -837,35 +822,30 @@ EndUpdate
 nsUpdateType
 aUpdateType
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
 IsDocumentRightToLeft
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 ResetDocumentDirection
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 int
 GetDocumentLWTheme
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 ResetDocumentLWTheme
 (
 )
-MOZ_OVERRIDE
 {
 mDocLWTheme
 =
@@ -1145,7 +1125,6 @@ Init
 (
 void
 )
-MOZ_OVERRIDE
 ;
 nsresult
 StartLayout
@@ -2614,7 +2593,6 @@ Phase
 GetPhase
 (
 )
-MOZ_OVERRIDE
 {
 return
 eHookup
@@ -2625,7 +2603,6 @@ Result
 Resolve
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -2725,7 +2702,6 @@ Phase
 GetPhase
 (
 )
-MOZ_OVERRIDE
 {
 return
 eConstruction
@@ -2736,7 +2712,6 @@ Result
 Resolve
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -2783,7 +2758,6 @@ Phase
 GetPhase
 (
 )
-MOZ_OVERRIDE
 {
 return
 eHookup
@@ -2794,7 +2768,6 @@ Result
 Resolve
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;

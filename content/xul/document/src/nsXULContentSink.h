@@ -102,15 +102,6 @@ nsXULContentSink_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIExpatSink
 .
 h
@@ -213,7 +204,6 @@ WillParse
 (
 void
 )
-MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -225,7 +215,6 @@ WillBuildModel
 nsDTDMode
 aDTDMode
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidBuildModel
@@ -233,21 +222,18 @@ DidBuildModel
 bool
 aTerminated
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillInterrupt
 (
 void
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillResume
 (
 void
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetParser
@@ -256,7 +242,6 @@ nsParserBase
 *
 aParser
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -265,7 +250,6 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
-MOZ_OVERRIDE
 {
 }
 NS_IMETHOD
@@ -275,7 +259,6 @@ nsACString
 &
 aCharset
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsISupports
@@ -283,7 +266,6 @@ nsISupports
 GetTarget
 (
 )
-MOZ_OVERRIDE
 ;
 /
 *

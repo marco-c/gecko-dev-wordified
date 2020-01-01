@@ -760,15 +760,6 @@ MediaDecoderStateMachine_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -1634,7 +1625,6 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2380,7 +2370,6 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
 {
 nsRefPtr
 <

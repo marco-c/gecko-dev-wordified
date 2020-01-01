@@ -102,15 +102,6 @@ TRANSFRMX_XPATHRESULTCOMPARATOR_H
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 txCore
 .
 h
@@ -284,7 +275,6 @@ txObject
 *
 aVal2
 )
-MOZ_OVERRIDE
 ;
 nsresult
 createSortableValue
@@ -300,7 +290,6 @@ txObject
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 private
 :
@@ -416,7 +405,6 @@ txObject
 *
 aVal2
 )
-MOZ_OVERRIDE
 ;
 nsresult
 createSortableValue
@@ -432,7 +420,6 @@ txObject
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 private
 :

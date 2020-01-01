@@ -102,15 +102,6 @@ mozilla_dom_SVGStyleElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -513,7 +504,6 @@ bool
 *
 aIsInline
 )
-MOZ_OVERRIDE
 ;
 void
 GetStyleSheetInfo
@@ -534,7 +524,6 @@ bool
 *
 aIsAlternate
 )
-MOZ_OVERRIDE
 ;
 virtual
 CORSMode

@@ -102,15 +102,6 @@ NS_SMILTIMEVALUESPEC_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsSMILTimeValueSpecParams
 .
 h
@@ -683,7 +674,6 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
 {
 nsReferencedElement
 :
@@ -709,7 +699,6 @@ bool
 IsPersistent
 (
 )
-MOZ_OVERRIDE
 {
 return
 true

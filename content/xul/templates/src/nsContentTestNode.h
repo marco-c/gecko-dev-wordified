@@ -102,15 +102,6 @@ nsContentTestNode_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -210,7 +201,6 @@ bool
 aCantHandleYet
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 Constrain
@@ -219,7 +209,6 @@ InstantiationSet
 &
 aInstantiations
 )
-MOZ_OVERRIDE
 ;
 void
 SetTag

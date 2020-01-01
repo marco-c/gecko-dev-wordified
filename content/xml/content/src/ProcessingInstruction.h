@@ -102,15 +102,6 @@ mozilla_dom_ProcessingInstruction_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMProcessingInstruction
 .
 h
@@ -209,7 +200,6 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -225,7 +215,6 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -240,7 +229,6 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
 ;
 #
 endif
@@ -250,7 +238,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

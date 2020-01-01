@@ -102,15 +102,6 @@ mozilla_dom_HTMLImageElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -259,7 +250,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsChangeHint
@@ -273,7 +263,6 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -287,7 +276,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -295,7 +283,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -305,7 +292,6 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 bool
 IsHTMLFocusable
@@ -319,7 +305,6 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -387,7 +372,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -401,7 +385,6 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -419,7 +402,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -430,7 +412,6 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -438,7 +419,6 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -453,7 +433,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 CopyInnerTo
@@ -474,7 +453,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -890,7 +868,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -901,7 +878,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 JSObject

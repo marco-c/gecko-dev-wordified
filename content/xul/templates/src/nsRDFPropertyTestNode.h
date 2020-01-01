@@ -102,15 +102,6 @@ nsRDFPropertyTestNode_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -273,7 +264,6 @@ bool
 aCantHandleYet
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -293,7 +283,6 @@ Instantiation
 aInitialBindings
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -310,7 +299,6 @@ nsIRDFNode
 aTarget
 )
 const
-MOZ_OVERRIDE
 ;
 class
 Element
@@ -378,7 +366,6 @@ Type
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 "
@@ -395,7 +382,6 @@ Hash
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mozilla
@@ -431,7 +417,6 @@ MemoryElement
 aElement
 )
 const
-MOZ_OVERRIDE
 {
 if
 (

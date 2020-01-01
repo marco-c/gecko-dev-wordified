@@ -144,15 +144,6 @@ nsXHTMLContentSerializer_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsXMLContentSerializer
 .
 h
@@ -218,7 +209,6 @@ aIsCopying
 bool
 aRewriteEncodingDeclaration
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendText
@@ -234,7 +224,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendDocumentStart
@@ -246,7 +235,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -264,7 +252,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -282,7 +269,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -298,7 +284,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -314,7 +299,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -327,7 +311,6 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -339,7 +322,6 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -351,7 +333,6 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -363,7 +344,6 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -375,7 +355,6 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
 ;
 bool
 HasLongLines
@@ -412,7 +391,6 @@ nsIContent
 *
 aNode
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -422,7 +400,6 @@ nsIContent
 *
 aNode
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -452,7 +429,6 @@ aSkipAttr
 bool
 aAddNSAttr
 )
-MOZ_OVERRIDE
 ;
 bool
 IsFirstChildOfOL
@@ -498,7 +474,6 @@ nsAString
 &
 aOutputStr
 )
-MOZ_OVERRIDE
 ;
 nsresult
 EscapeURI

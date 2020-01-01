@@ -121,15 +121,6 @@ MOZILLA_SVGTRANSFORMLISTPARSER_H__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsSVGDataParser
 .
 h
@@ -326,7 +317,6 @@ nsresult
 Match
 (
 )
-MOZ_OVERRIDE
 ;
 nsresult
 MatchNumberArguments

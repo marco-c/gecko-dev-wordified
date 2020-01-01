@@ -102,15 +102,6 @@ HTMLBodyElement_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -175,7 +166,6 @@ nsRuleData
 *
 aRuleData
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -195,7 +185,6 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
 ;
 #
 endif
@@ -722,7 +711,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -737,7 +725,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -745,7 +732,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -754,7 +740,6 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -768,7 +753,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -778,7 +762,6 @@ nsIEditor
 GetAssociatedEditor
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -793,7 +776,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -801,7 +783,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

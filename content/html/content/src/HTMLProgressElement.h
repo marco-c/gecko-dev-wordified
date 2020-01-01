@@ -102,15 +102,6 @@ mozilla_dom_HTMLProgressElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLProgressElement
 .
 h
@@ -204,7 +195,6 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 Clone
@@ -218,7 +208,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 ParseAttribute
@@ -236,7 +225,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -244,7 +232,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

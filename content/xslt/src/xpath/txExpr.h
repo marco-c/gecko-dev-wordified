@@ -102,15 +102,6 @@ TRANSFRMX_EXPR_H
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -1374,7 +1365,6 @@ getSubExprAt
 uint32_t
 aPos
 )
-MOZ_OVERRIDE
 ;
 void
 setSubExprAt
@@ -1385,7 +1375,6 @@ Expr
 *
 aExpr
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -2087,7 +2076,6 @@ NodeTestType
 getType
 (
 )
-MOZ_OVERRIDE
 ;
 TX_DECL_NODE_TEST
 nsCOMPtr
@@ -2219,7 +2207,6 @@ NodeTestType
 getType
 (
 )
-MOZ_OVERRIDE
 ;
 TX_DECL_NODE_TEST
 private

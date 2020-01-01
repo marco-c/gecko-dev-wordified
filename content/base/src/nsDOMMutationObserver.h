@@ -121,15 +121,6 @@ nsDOMMutationObserver_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -1651,7 +1642,6 @@ nsIAtom
 *
 aAttribute
 )
-MOZ_OVERRIDE
 {
 /
 /

@@ -102,15 +102,6 @@ MOZILLA_SVGANIMATEDLENGTHLIST_H__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -664,7 +655,6 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsSMILValue
@@ -672,14 +662,12 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -690,7 +678,6 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
 ;
 }
 ;

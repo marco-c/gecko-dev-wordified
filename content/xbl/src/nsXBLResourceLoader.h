@@ -96,15 +96,6 @@ MPL
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -255,7 +246,6 @@ aWasAlternate
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
 ;
 void
 LoadResources

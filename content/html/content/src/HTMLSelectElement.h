@@ -102,15 +102,6 @@ mozilla_dom_HTMLSelectElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -1234,7 +1225,6 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1244,7 +1234,6 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1259,7 +1248,6 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1273,7 +1261,6 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1284,7 +1271,6 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -1299,7 +1285,6 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 NS_FORM_SELECT
@@ -1309,7 +1294,6 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -1318,13 +1302,11 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SaveState
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1334,7 +1316,6 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1343,7 +1324,6 @@ IsDisabledForEvents
 uint32_t
 aMessage
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1352,14 +1332,12 @@ FieldSetDisabledChanged
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 nsEventStates
 IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 /
 *
@@ -1895,7 +1873,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1906,7 +1883,6 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1924,7 +1900,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1942,7 +1917,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1956,7 +1930,6 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1965,14 +1938,12 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
 IsDoneAddingChildren
 (
 )
-MOZ_OVERRIDE
 {
 return
 mIsDoneAddingChildren
@@ -1995,7 +1966,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -2003,7 +1973,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsChangeHint
@@ -2017,7 +1986,6 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -2031,7 +1999,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -2046,7 +2013,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -2069,7 +2035,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -2087,7 +2052,6 @@ aValidationMessage
 ValidityStateType
 aType
 )
-MOZ_OVERRIDE
 ;
 /
 *

@@ -123,15 +123,6 @@ nsGenericDOMDataNode_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -371,7 +362,6 @@ nsAString
 &
 aNodeValue
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -388,7 +378,6 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -490,7 +479,6 @@ GetChildCount
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -501,7 +489,6 @@ uint32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -515,7 +502,6 @@ uint32_t
 aChildCount
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -527,7 +513,6 @@ nsINode
 aPossibleChild
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -541,7 +526,6 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -552,7 +536,6 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -562,7 +545,6 @@ nsAString
 &
 aTextContent
 )
-MOZ_OVERRIDE
 {
 GetNodeValue
 (
@@ -585,7 +567,6 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
 {
 /
 /
@@ -632,7 +613,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -647,7 +627,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -659,7 +638,6 @@ GetChildren
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -668,7 +646,6 @@ GetIDAttributeName
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -683,7 +660,6 @@ nsAString
 aStr
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -731,7 +707,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -745,7 +720,6 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 const
@@ -757,7 +731,6 @@ uint32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -765,7 +738,6 @@ GetAttrCount
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 const
@@ -774,7 +746,6 @@ nsTextFragment
 GetText
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -782,7 +753,6 @@ TextLength
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -797,7 +767,6 @@ aLength
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -852,14 +821,12 @@ aLength
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
 TextIsOnlyWhitespace
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -869,21 +836,18 @@ nsAString
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 SaveSubtreeState
 (
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -899,7 +863,6 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -914,7 +877,6 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
 ;
 #
 endif
@@ -925,7 +887,6 @@ GetBindingParent
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -935,7 +896,6 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -947,7 +907,6 @@ nsIURI
 aURI
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -956,7 +915,6 @@ DoGetID
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 const
@@ -966,7 +924,6 @@ DoGetClasses
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -975,7 +932,6 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -1024,7 +980,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 {
 *
 aResult
@@ -1504,7 +1459,6 @@ nsSlots
 CreateSlots
 (
 )
-MOZ_OVERRIDE
 ;
 nsDataSlots
 *
@@ -1698,7 +1652,6 @@ bool
 OwnedOnlyByTheDOMTree
 (
 )
-MOZ_OVERRIDE
 {
 return
 GetParent
@@ -1721,7 +1674,6 @@ bool
 IsPurple
 (
 )
-MOZ_OVERRIDE
 {
 return
 mRefCnt
@@ -1736,7 +1688,6 @@ void
 RemovePurple
 (
 )
-MOZ_OVERRIDE
 {
 mRefCnt
 .

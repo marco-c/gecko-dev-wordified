@@ -794,7 +794,6 @@ ErrorResult
 aRv
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 ;
 void
 SetY
@@ -809,7 +808,6 @@ ErrorResult
 aRv
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 ;
 void
 SetWidth
@@ -824,7 +822,6 @@ ErrorResult
 aRv
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 ;
 void
 SetHeight
@@ -839,7 +836,6 @@ ErrorResult
 aRv
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -848,7 +844,6 @@ GetParentObject
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mSVGElement
@@ -1072,7 +1067,6 @@ ErrorResult
 aRv
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 {
 aRv
 .
@@ -1095,7 +1089,6 @@ ErrorResult
 aRv
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 {
 aRv
 .
@@ -1118,7 +1111,6 @@ ErrorResult
 aRv
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 {
 aRv
 .
@@ -1141,7 +1133,6 @@ ErrorResult
 aRv
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 {
 aRv
 .
@@ -1158,7 +1149,6 @@ GetParentObject
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mSVGElement
@@ -1267,7 +1257,6 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsSMILValue
@@ -1275,14 +1264,12 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1293,7 +1280,6 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
 ;
 }
 ;

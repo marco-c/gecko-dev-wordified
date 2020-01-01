@@ -116,15 +116,6 @@ mozilla_dom_HTMLObjectElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -246,7 +237,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -261,7 +251,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -282,7 +271,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -296,7 +284,6 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -311,14 +298,12 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
 ;
 virtual
 IMEState
 GetDesiredIMEState
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -333,7 +318,6 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 NS_FORM_OBJECT
@@ -343,7 +327,6 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -352,7 +335,6 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -360,7 +342,6 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 false
@@ -373,14 +354,12 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
 IsDoneAddingChildren
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -399,7 +378,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -407,7 +385,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -421,7 +398,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -429,14 +405,12 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -447,7 +421,6 @@ GetCapabilities
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -462,7 +435,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 CopyInnerTo
@@ -494,7 +466,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -1267,7 +1238,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1278,7 +1248,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 JSObject
