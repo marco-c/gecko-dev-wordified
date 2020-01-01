@@ -529,14 +529,9 @@ nsColorMap
 class
 imgIContainer
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 class
 gfxASurface
 ;
-#
-endif
 /
 *
 *
@@ -5809,9 +5804,6 @@ aTime
 =
 0
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 /
 *
 *
@@ -5836,8 +5828,6 @@ GetThebesSurface
 =
 0
 ;
-#
-endif
 /
 *
 *
