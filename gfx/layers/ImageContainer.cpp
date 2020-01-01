@@ -276,6 +276,14 @@ mozilla
 namespace
 layers
 {
+PRInt32
+Image
+:
+:
+sSerialCounter
+=
+0
+;
 already_AddRefed
 <
 Image
