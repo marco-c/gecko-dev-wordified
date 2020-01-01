@@ -555,7 +555,7 @@ h
 #
 include
 "
-gfxUnicodeProperties
+nsUnicodeProperties
 .
 h
 "
@@ -12506,7 +12506,10 @@ src
 }
 UTF32Char
 =
-gfxUnicodeProperties
+mozilla
+:
+:
+unicode
 :
 :
 GetMirroredChar

@@ -556,13 +556,6 @@ endif
 #
 include
 "
-gfxUnicodeProperties
-.
-h
-"
-#
-include
-"
 gfxAtoms
 .
 h

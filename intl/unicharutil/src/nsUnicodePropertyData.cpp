@@ -418,7 +418,7 @@ Unicode
 Character
 Database
 by
-genUnicodeScriptData
+genUnicodePropertyData
 .
 pl
 *
@@ -464,14 +464,14 @@ BLOCK
 *
 Created
 on
-Mon
+Thu
 Feb
+23
 13
-09
 :
-25
+15
 :
-50
+51
 2012
 from
 UCD
