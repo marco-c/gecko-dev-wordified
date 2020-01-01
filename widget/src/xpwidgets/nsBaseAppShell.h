@@ -536,8 +536,7 @@ virtual
 nsBaseAppShell
 (
 )
-{
-}
+;
 /
 *
 *
