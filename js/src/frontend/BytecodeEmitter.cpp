@@ -8120,7 +8120,7 @@ change
 js
 :
 :
-CheckUndeclaredVarAssignment
+ReportIfUndeclaredVarAssignment
 .
 switch
 (
