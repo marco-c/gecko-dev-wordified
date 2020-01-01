@@ -20886,7 +20886,10 @@ char
 siteEnd
 )
 =
-NULL
+'
+\
+0
+'
 ;
 const
 char
@@ -20912,7 +20915,10 @@ char
 flagsEnd
 )
 =
-NULL
+'
+\
+0
+'
 ;
 *
 (
@@ -20923,7 +20929,10 @@ char
 next
 )
 =
-NULL
+'
+\
+0
+'
 ;
 siteData
 data
