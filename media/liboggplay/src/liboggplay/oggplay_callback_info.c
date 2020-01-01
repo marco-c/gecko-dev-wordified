@@ -1078,6 +1078,15 @@ p
 next
 )
 {
+if
+(
+!
+p
+-
+>
+has_been_presented
+)
+{
 track_info
 -
 >
@@ -1132,6 +1141,7 @@ p
 >
 presentation_time
 ;
+}
 }
 }
 if
