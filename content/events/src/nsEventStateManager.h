@@ -3483,6 +3483,15 @@ mGestureDownAlt
 bool
 mGestureDownMeta
 ;
+mozilla
+:
+:
+widget
+:
+:
+Modifiers
+mGestureModifiers
+;
 nsCOMPtr
 <
 nsIContent

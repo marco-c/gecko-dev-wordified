@@ -4825,6 +4825,10 @@ button
 (
 0
 )
+modifiers
+(
+0
+)
 pressure
 (
 0
@@ -4853,6 +4857,15 @@ relatedTarget
 ;
 PRInt16
 button
+;
+mozilla
+:
+:
+widget
+:
+:
+Modifiers
+modifiers
 ;
 /
 /
