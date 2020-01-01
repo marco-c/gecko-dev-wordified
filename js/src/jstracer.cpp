@@ -88021,6 +88021,7 @@ overwritten
 .
 *
 /
+JS_REQUIRES_STACK
 jsval
 *
 js_ConcatPostImacroStackCleanup
