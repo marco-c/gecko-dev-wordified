@@ -2040,6 +2040,10 @@ mAtkObject
 if
 (
 !
+mWeakShell
+|
+|
+!
 IsEmbeddedObject
 (
 this
@@ -2056,6 +2060,14 @@ create
 ATK
 objects
 for
+node
+which
+has
+been
+shutdown
+or
+/
+/
 nsIAccessible
 plain
 text
