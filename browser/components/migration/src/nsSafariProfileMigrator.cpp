@@ -603,13 +603,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h
@@ -1553,7 +1546,7 @@ nsSafariProfileMigrator
 :
 GetSourceProfiles
 (
-nsISupportsArray
+nsIArray
 *
 *
 aResult
