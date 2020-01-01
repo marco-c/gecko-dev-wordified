@@ -2217,11 +2217,10 @@ if
 !
 :
 :
-JS_SealObject
+JS_FreezeObject
 (
 ccx
 class_obj
-JS_FALSE
 )
 )
 {

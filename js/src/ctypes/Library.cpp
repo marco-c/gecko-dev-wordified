@@ -2752,11 +2752,10 @@ isFunction
 &
 &
 !
-JS_SealObject
+JS_FreezeObject
 (
 cx
 result
-JS_FALSE
 )
 )
 return

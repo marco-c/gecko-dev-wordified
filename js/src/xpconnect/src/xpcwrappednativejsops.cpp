@@ -5871,6 +5871,10 @@ nsnull
 /
 /
 trace
+nsnull
+/
+/
+fix
 XPC_WN_JSOp_ThisObject
 XPC_WN_JSOp_Clear
 }

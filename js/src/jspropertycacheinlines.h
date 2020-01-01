@@ -1168,11 +1168,10 @@ getClass
 ;
 JS_ASSERT
 (
-!
 obj
 -
 >
-sealed
+isExtensible
 (
 )
 )

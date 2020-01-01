@@ -59,7 +59,7 @@ h
 "
 BEGIN_TEST
 (
-testSeal_bug535703
+testDeepFreeze_bug535703
 )
 {
 JSObject
@@ -79,11 +79,10 @@ CHECK
 obj
 )
 ;
-JS_SealObject
+JS_DeepFreezeObject
 (
 cx
 obj
-JS_TRUE
 )
 ;
 /
@@ -98,5 +97,5 @@ true
 }
 END_TEST
 (
-testSeal_bug535703
+testDeepFreeze_bug535703
 )
