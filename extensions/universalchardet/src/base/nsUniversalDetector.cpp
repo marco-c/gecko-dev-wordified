@@ -494,8 +494,10 @@ if
 (
 aLen
 >
+=
 2
 )
+{
 switch
 (
 aBuf
@@ -512,6 +514,13 @@ xEF
 :
 if
 (
+(
+aLen
+>
+2
+)
+&
+&
 (
 '
 \
@@ -539,6 +548,7 @@ aBuf
 ]
 )
 )
+{
 /
 /
 EF
@@ -557,6 +567,7 @@ UTF
 8
 "
 ;
+}
 break
 ;
 case
@@ -578,6 +589,7 @@ aBuf
 1
 ]
 )
+{
 /
 /
 FE
@@ -596,6 +608,7 @@ UTF
 16BE
 "
 ;
+}
 break
 ;
 case
@@ -617,6 +630,7 @@ aBuf
 1
 ]
 )
+{
 /
 /
 FF
@@ -635,12 +649,14 @@ UTF
 16LE
 "
 ;
+}
 break
 ;
 }
 /
 /
 switch
+}
 if
 (
 mDetectedCharset
