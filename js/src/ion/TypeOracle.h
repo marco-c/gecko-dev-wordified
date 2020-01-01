@@ -527,12 +527,6 @@ as
 a
 placeholder
 .
-MIRType_Slots
-/
-/
-A
-slots
-vector
 }
 ;
 class
