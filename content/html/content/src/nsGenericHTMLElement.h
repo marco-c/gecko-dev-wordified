@@ -850,7 +850,7 @@ nsAString
 aLang
 )
 ;
-nsresult
+NS_IMETHOD
 GetDir
 (
 nsAString
@@ -858,7 +858,7 @@ nsAString
 aDir
 )
 ;
-nsresult
+NS_IMETHOD
 SetDir
 (
 const
