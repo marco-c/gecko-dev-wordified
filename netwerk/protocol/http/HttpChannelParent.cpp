@@ -1288,9 +1288,9 @@ get
 httpChan
 -
 >
-SetRemoteChannel
+SetServicingRemoteChannel
 (
-true
+PR_TRUE
 )
 ;
 if
