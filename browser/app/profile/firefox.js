@@ -2273,8 +2273,6 @@ urlbar
 hideProtocols
 "
 "
-http
-https
 "
 )
 ;
