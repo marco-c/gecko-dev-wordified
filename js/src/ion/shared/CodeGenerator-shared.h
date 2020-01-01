@@ -1960,6 +1960,12 @@ f
 LInstruction
 *
 ins
+const
+Register
+*
+dynStack
+=
+NULL
 )
 ;
 template

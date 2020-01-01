@@ -983,6 +983,14 @@ call
 )
 ;
 bool
+visitApplyArgs
+(
+MApplyArgs
+*
+apply
+)
+;
+bool
 visitTest
 (
 MTest

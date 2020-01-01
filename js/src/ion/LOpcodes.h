@@ -580,6 +580,11 @@ CallConstructor
 \
 _
 (
+ApplyArgsGeneric
+)
+\
+_
+(
 StackArg
 )
 \
