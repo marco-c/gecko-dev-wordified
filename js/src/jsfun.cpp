@@ -10510,7 +10510,7 @@ thisv
 =
 thisv
 ;
-memcpy
+PodCopy
 (
 args
 .
@@ -10519,10 +10519,6 @@ array
 )
 argv
 argc
-*
-sizeof
-*
-argv
 )
 ;
 bool
@@ -11519,7 +11515,7 @@ getBoundFunctionArgument
 i
 )
 ;
-memcpy
+PodCopy
 (
 args
 .
@@ -11532,11 +11528,6 @@ vp
 +
 2
 argc
-*
-sizeof
-(
-Value
-)
 )
 ;
 /

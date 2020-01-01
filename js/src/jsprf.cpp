@@ -2220,7 +2220,7 @@ return
 0
 ;
 }
-memcpy
+js_memcpy
 (
 fin
 fmt0
@@ -5568,7 +5568,7 @@ pattern
 %
 '
 ;
-memcpy
+js_memcpy
 (
 &
 pattern

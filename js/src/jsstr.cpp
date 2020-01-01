@@ -21207,7 +21207,7 @@ news
 return
 NULL
 ;
-memcpy
+js_memcpy
 (
 news
 s
