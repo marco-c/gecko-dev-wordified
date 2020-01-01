@@ -581,6 +581,13 @@ RecvCancelDefaultPanZoom
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvDetectScrollableSubframe
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 PLayersParent
 *
 AllocPLayers
