@@ -5203,17 +5203,7 @@ mScanner
 .
 Init
 (
-nsnull
 aString
-.
-BeginReading
-(
-)
-aString
-.
-Length
-(
-)
 aSheetURI
 aLineNumber
 mSheet
