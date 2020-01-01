@@ -1883,11 +1883,10 @@ unknown
 for
 the
 app
-this
-app
-must
-be
-excluded
+let
+'
+s
+continue
 .
 if
 (
@@ -1903,8 +1902,7 @@ filters
 )
 )
 {
-return
-false
+continue
 ;
 }
 /
