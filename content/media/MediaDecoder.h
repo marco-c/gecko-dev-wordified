@@ -5576,6 +5576,17 @@ IsDASHEnabled
 ;
 #
 endif
+#
+ifdef
+MOZ_WMF
+static
+bool
+IsWMFEnabled
+(
+)
+;
+#
+endif
 /
 /
 Schedules

@@ -758,6 +758,14 @@ mpeg
 "
 #
 define
+AUDIO_MP4
+"
+audio
+/
+mp4
+"
+#
+define
 BINARY_OCTET_STREAM
 "
 binary
