@@ -678,6 +678,9 @@ None
 timeout
 =
 None
+root
+=
+False
 )
 :
     
@@ -742,14 +745,22 @@ to
 get
 it
     
+if
+root
+:
+      
 cmdline
 =
 "
+su
+-
+c
+\
+"
 %
 s
-;
-echo
-?
+\
+"
 "
 %
 self
@@ -758,6 +769,27 @@ _escapedCommandLine
 (
 cmd
 )
+    
+else
+:
+      
+cmdline
+=
+self
+.
+_escapedCommandLine
+(
+cmd
+)
+    
+cmdline
++
+=
+"
+;
+echo
+?
+"
     
 #
 prepend
