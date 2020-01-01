@@ -1675,6 +1675,9 @@ result
 =
 SA_SUCCESS
 ;
+pthread_t
+thread_id
+;
 if
 (
 s
@@ -1696,6 +1699,13 @@ s
 mutex
 )
 ;
+thread_id
+=
+s
+-
+>
+thread_id
+;
 /
 *
 *
@@ -1706,7 +1716,7 @@ thread
 sending
 data
 to
-ALSA
+OSS
 to
 stop
 *
@@ -1774,6 +1784,12 @@ s
 -
 >
 mutex
+)
+;
+pthread_join
+(
+thread_id
+NULL
 )
 ;
 /
