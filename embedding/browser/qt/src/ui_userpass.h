@@ -233,13 +233,6 @@ UI_USERPASS_H
 #
 include
 <
-Qt3Support
-/
-Q3MimeSourceFactory
->
-#
-include
-<
 QtCore
 /
 QVariant
