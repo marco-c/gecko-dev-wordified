@@ -5389,8 +5389,6 @@ nsNavigator
 public
 nsIDOMNavigator
 public
-nsIDOMJSNavigator
-public
 nsIDOMClientInformation
 public
 nsIDOMNavigatorGeolocation
@@ -5412,7 +5410,6 @@ nsNavigator
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMNAVIGATOR
-NS_DECL_NSIDOMJSNAVIGATOR
 NS_DECL_NSIDOMCLIENTINFORMATION
 NS_DECL_NSIDOMNAVIGATORGEOLOCATION
 void
@@ -5471,10 +5468,6 @@ mDocShell
 /
 weak
 reference
-static
-jsval
-sPrefInternal_id
-;
 }
 ;
 class
