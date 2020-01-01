@@ -2730,6 +2730,8 @@ ExpressionBody
 Node
 functionBody
 (
+FunctionSyntaxKind
+kind
 FunctionBodyType
 type
 )
@@ -3138,6 +3140,8 @@ Normal
 bool
 functionArguments
 (
+FunctionSyntaxKind
+kind
 Node
 *
 list
@@ -3160,6 +3164,8 @@ TokenStream
 Position
 &
 start
+size_t
+startOffset
 FunctionType
 type
 FunctionSyntaxKind
@@ -3175,6 +3181,8 @@ HandleFunction
 fun
 HandlePropertyName
 funName
+size_t
+startOffset
 FunctionType
 type
 FunctionSyntaxKind

@@ -9000,6 +9000,7 @@ FunctionSyntaxKind
 {
 Expression
 Statement
+Arrow
 }
 ;
 }
