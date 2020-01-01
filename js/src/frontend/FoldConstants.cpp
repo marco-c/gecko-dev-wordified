@@ -211,6 +211,12 @@ mozilla
 :
 PositiveInfinity
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 static
 ParseNode
 *
@@ -926,9 +932,6 @@ d
 )
 d
 =
-JS
-:
-:
 GenericNaN
 (
 )
@@ -984,9 +987,6 @@ d2
 {
 d
 =
-JS
-:
-:
 GenericNaN
 (
 )
