@@ -904,6 +904,15 @@ f
 ;
 void
 JS_FASTCALL
+PutCallObject
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 PutActivationObjects
 (
 VMFrame
