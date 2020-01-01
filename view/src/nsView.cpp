@@ -4363,8 +4363,6 @@ bool
 aAuto
 int32_t
 aZIndex
-bool
-aTopMost
 )
 {
 bool
@@ -4394,11 +4392,6 @@ NS_VIEW_FLAG_AUTO_ZINDEX
 mZIndex
 =
 aZIndex
-;
-SetTopMost
-(
-aTopMost
-)
 ;
 if
 (
