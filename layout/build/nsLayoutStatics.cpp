@@ -772,7 +772,7 @@ h
 #
 include
 "
-nsFileControlFrame
+nsHTMLInputElement
 .
 h
 "
@@ -2116,7 +2116,7 @@ Shutdown
 (
 )
 ;
-nsFileControlFrame
+nsHTMLInputElement
 :
 :
 DestroyUploadLastDir
