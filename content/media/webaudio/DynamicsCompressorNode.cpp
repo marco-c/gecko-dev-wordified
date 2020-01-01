@@ -911,7 +911,7 @@ aContext
 AudioNode
 (
 aContext
-2
+DEFAULT_NUMBER_OF_CHANNELS
 ChannelCountMode
 :
 :
@@ -1028,7 +1028,6 @@ MediaStreamGraph
 :
 :
 INTERNAL_STREAM
-DEFAULT_NUMBER_OF_CHANNELS
 )
 ;
 engine

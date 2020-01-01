@@ -687,6 +687,10 @@ mChannelCount
 =
 aChannelCount
 ;
+SendChannelMixingParametersToStream
+(
+)
+;
 }
 ChannelCountMode
 ChannelCountModeValue
@@ -709,6 +713,10 @@ mChannelCountMode
 =
 aMode
 ;
+SendChannelMixingParametersToStream
+(
+)
+;
 }
 ChannelInterpretation
 ChannelInterpretationValue
@@ -730,6 +738,10 @@ aMode
 mChannelInterpretation
 =
 aMode
+;
+SendChannelMixingParametersToStream
+(
+)
 ;
 }
 struct
@@ -901,6 +913,11 @@ const
 ThreeDPoint
 &
 aValue
+)
+;
+void
+SendChannelMixingParametersToStream
+(
 )
 ;
 static
