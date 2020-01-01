@@ -3816,6 +3816,9 @@ PRBool
 mAutoCompleteOnlyTyped
 ;
 PRBool
+mAutoCompleteOnWordBoundary
+;
+PRBool
 mAutoCompleteFilterJavascript
 ;
 PRInt32
