@@ -29658,9 +29658,6 @@ aTitle
 )
 ;
 }
-#
-ifndef
-MOZILLA_1_8_BRANCH
 /
 /
 nsNavHistory
@@ -29740,8 +29737,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-#
-endif
 /
 /
 nsIGlobalHistory3
