@@ -544,7 +544,7 @@ PRBool
 nsLangTextAttr
 :
 :
-equal
+Equal
 (
 nsIDOMElement
 *
@@ -960,7 +960,7 @@ PRBool
 nsCSSTextAttr
 :
 :
-equal
+Equal
 (
 nsIDOMElement
 *
@@ -1075,7 +1075,7 @@ PRBool
 nsCSSTextAttr
 :
 :
-iterate
+Iterate
 (
 )
 {
@@ -1100,7 +1100,7 @@ PRBool
 nsCSSTextAttr
 :
 :
-get
+Get
 (
 nsACString
 &
@@ -1472,7 +1472,7 @@ PRBool
 nsBackgroundTextAttr
 :
 :
-equal
+Equal
 (
 nsIDOMElement
 *
@@ -1500,13 +1500,13 @@ return
 PR_FALSE
 ;
 return
-getColor
+GetColor
 (
 mFrame
 )
 =
 =
-getColor
+GetColor
 (
 frame
 )
@@ -1516,7 +1516,7 @@ PRBool
 nsBackgroundTextAttr
 :
 :
-get
+Get
 (
 nsAString
 &
@@ -1550,7 +1550,7 @@ value
 nscolor
 color
 =
-getColor
+GetColor
 (
 mFrame
 )
@@ -1563,7 +1563,7 @@ mRootFrame
 color
 =
 =
-getColor
+GetColor
 (
 mRootFrame
 )
@@ -1666,7 +1666,7 @@ nscolor
 nsBackgroundTextAttr
 :
 :
-getColor
+GetColor
 (
 nsIFrame
 *
@@ -1772,13 +1772,13 @@ parentFrame
 mRootFrame
 )
 return
-getColor
+GetColor
 (
 mRootFrame
 )
 ;
 return
-getColor
+GetColor
 (
 parentFrame
 )

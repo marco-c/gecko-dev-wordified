@@ -532,7 +532,7 @@ attribute
 /
 virtual
 PRBool
-equal
+Equal
 (
 nsIDOMElement
 *
@@ -597,7 +597,7 @@ aRootContent
 }
 virtual
 PRBool
-equal
+Equal
 (
 nsIDOMElement
 *
@@ -665,7 +665,7 @@ aRootElm
 nsTextAttr
 virtual
 PRBool
-equal
+Equal
 (
 nsIDOMElement
 *
@@ -686,7 +686,7 @@ attributes
 *
 /
 PRBool
-iterate
+Iterate
 (
 )
 ;
@@ -704,7 +704,7 @@ attribute
 *
 /
 PRBool
-get
+Get
 (
 nsACString
 &
@@ -787,7 +787,7 @@ aRootFrame
 nsTextAttr
 virtual
 PRBool
-equal
+Equal
 (
 nsIDOMElement
 *
@@ -821,7 +821,7 @@ exposed
 /
 virtual
 PRBool
-get
+Get
 (
 nsAString
 &
@@ -917,7 +917,7 @@ color
 *
 /
 nscolor
-getColor
+GetColor
 (
 nsIFrame
 *

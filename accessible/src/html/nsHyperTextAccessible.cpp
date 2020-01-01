@@ -7792,7 +7792,7 @@ while
 (
 textAttr
 .
-iterate
+Iterate
 (
 )
 )
@@ -7808,7 +7808,7 @@ if
 (
 textAttr
 .
-get
+Get
 (
 name
 value
@@ -7856,7 +7856,7 @@ if
 (
 backgroundTextAttr
 .
-get
+Get
 (
 value
 )
@@ -14004,7 +14004,7 @@ while
 (
 textAttr
 .
-iterate
+Iterate
 (
 )
 )
@@ -14023,7 +14023,7 @@ aAttributes
 &
 textAttr
 .
-get
+Get
 (
 name
 value
@@ -14110,7 +14110,7 @@ if
 (
 backgroundTextAttr
 .
-get
+Get
 (
 value
 )
@@ -14349,7 +14349,7 @@ aNode
 aComparer
 -
 >
-equal
+Equal
 (
 currElm
 )
@@ -14550,7 +14550,7 @@ if
 aComparer
 -
 >
-equal
+Equal
 (
 currElm
 )
@@ -14776,7 +14776,7 @@ if
 aComparer
 -
 >
-equal
+Equal
 (
 currElm
 )
@@ -15039,7 +15039,7 @@ if
 aComparer
 -
 >
-equal
+Equal
 (
 currElm
 )
