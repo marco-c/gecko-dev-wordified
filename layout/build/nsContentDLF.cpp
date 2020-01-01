@@ -2511,7 +2511,7 @@ imgILoader
 >
 loader
 (
-do_GetService
+do_CreateInstance
 (
 "
 mozilla
