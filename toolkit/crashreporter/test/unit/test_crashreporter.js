@@ -94,13 +94,6 @@ can
 enable
 the
 crashreporter
-do_check_false
-(
-cr
-.
-enabled
-)
-;
 cr
 .
 enabled
