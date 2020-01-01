@@ -547,6 +547,7 @@ timeout
 maxTime
 startTime
 debuggerInfo
+symbolsDir
 )
 :
         
