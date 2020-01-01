@@ -469,7 +469,6 @@ nsDragService
 (
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
 /
 *
 photon
