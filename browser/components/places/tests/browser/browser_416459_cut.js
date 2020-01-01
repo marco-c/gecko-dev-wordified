@@ -48,6 +48,9 @@ gLibrary
 let
 gItemId
 ;
+let
+PlacesOrganizer
+;
 function
 test
 (
@@ -68,7 +71,6 @@ onLibraryReady
 function
 onLibraryReady
 (
-library
 )
 {
 PlacesOrganizer

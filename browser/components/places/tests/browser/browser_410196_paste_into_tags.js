@@ -158,6 +158,8 @@ waitForExplicitFinish
 (
 )
 ;
+gLibrary
+=
 openLibrary
 (
 onLibraryReady
@@ -167,13 +169,8 @@ onLibraryReady
 function
 onLibraryReady
 (
-library
 )
 {
-gLibrary
-=
-library
-;
 ok
 (
 PlacesUtils
