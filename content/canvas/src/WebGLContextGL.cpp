@@ -12045,7 +12045,7 @@ MakeContextCurrent
 /
 Always
 call
-glGetError
+GetAndClearError
 to
 clear
 any
@@ -12062,7 +12062,7 @@ err
 gl
 -
 >
-fGetError
+GetAndClearError
 (
 )
 ;
