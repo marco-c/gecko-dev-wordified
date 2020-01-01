@@ -4515,6 +4515,9 @@ marionetteLog
 this
 .
 marionettePerf
+this
+.
+scriptTimeout
 )
 ;
 let
@@ -5214,6 +5217,9 @@ marionetteLog
 this
 .
 marionettePerf
+this
+.
+scriptTimeout
 )
 ;
 marionette

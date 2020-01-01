@@ -1943,6 +1943,7 @@ content
 "
 marionetteLogObj
 marionettePerf
+marionetteTimeout
 )
 ;
 sandbox
@@ -3187,14 +3188,6 @@ out
 }
 marionetteTimeout
 )
-;
-sandbox
-.
-marionette
-.
-timeout
-=
-marionetteTimeout
 ;
 curWindow
 .
