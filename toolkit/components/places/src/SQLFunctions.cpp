@@ -1140,10 +1140,10 @@ while
 !
 caseInsensitiveCompare
 (
-*
 testTokenItr
-*
 testSourceItr
+1
+1
 )
 )
 {

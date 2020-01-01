@@ -42096,6 +42096,7 @@ comp
 aChars1
 aChars2
 aNumChars1
+aNumChars2
 )
 =
 =
