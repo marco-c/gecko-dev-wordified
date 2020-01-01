@@ -9823,7 +9823,6 @@ nsCString
 prefix
 (
 "
-<
 XUL
 "
 )
