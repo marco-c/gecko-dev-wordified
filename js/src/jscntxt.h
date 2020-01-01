@@ -1734,9 +1734,6 @@ JSTracer
 *
 gcMarkingTracer
 ;
-uint32
-gcTriggerFactor
-;
 /
 *
 *
