@@ -150,6 +150,15 @@ nsIContentSniffer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 ed905ba3
@@ -197,6 +206,7 @@ sniffer
 "
 class
 nsMediaSniffer
+MOZ_FINAL
 :
 public
 nsIContentSniffer
