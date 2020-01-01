@@ -8319,6 +8319,14 @@ return
 nsnull
 ;
 }
+mDisplayContent
+-
+>
+SetPrimaryFrame
+(
+mTextFrame
+)
+;
 nsFrameList
 textList
 (

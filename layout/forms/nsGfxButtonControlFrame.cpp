@@ -1060,6 +1060,14 @@ parentFrame
 nsnull
 )
 ;
+mTextContent
+-
+>
+SetPrimaryFrame
+(
+newFrame
+)
+;
 }
 }
 }
