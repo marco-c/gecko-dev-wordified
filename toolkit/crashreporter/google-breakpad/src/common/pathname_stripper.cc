@@ -333,7 +333,7 @@ Mentovai
 #
 include
 "
-processor
+common
 /
 pathname_stripper
 .
