@@ -4107,6 +4107,7 @@ ProvideWindow
 (
 aParent
 chromeFlags
+aCalledFromJS
 sizeSpec
 .
 PositionSpecified

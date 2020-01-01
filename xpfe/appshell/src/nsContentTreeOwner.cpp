@@ -5933,6 +5933,8 @@ aParent
 PRUint32
 aChromeFlags
 PRBool
+aCalledFromJS
+PRBool
 aPositionSpecified
 PRBool
 aSizeSpecified
@@ -6159,6 +6161,11 @@ return
 NS_OK
 ;
 }
+if
+(
+aCalledFromJS
+)
+{
 /
 *
 Now
@@ -6318,6 +6325,7 @@ aSizeSpecified
 return
 NS_OK
 ;
+}
 }
 nsCOMPtr
 <
