@@ -1373,6 +1373,9 @@ HASHContext
 *
 mHashContext
 ;
+PRBool
+mInitialized
+;
 }
 ;
 class
