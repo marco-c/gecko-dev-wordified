@@ -782,6 +782,10 @@ OS
 %
 VERSION
 %
+/
+%
+COMPATIBILITY_MODE
+%
 ?
 src
 =
