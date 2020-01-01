@@ -790,7 +790,7 @@ public
 :
 ContinueCursorEvent
 (
-nsRefPtr
+already_AddRefed
 <
 mozilla
 :
@@ -800,7 +800,6 @@ dom
 :
 DOMRequest
 >
-&
 aRequest
 )
 ;
