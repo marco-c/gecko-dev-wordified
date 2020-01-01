@@ -5167,9 +5167,11 @@ ContinueCursorEvent
 mRequest
 )
 ;
-NS_DispatchToMainThread
-(
 event
+-
+>
+Continue
+(
 )
 ;
 return
@@ -5698,9 +5700,11 @@ ContinueCursorEvent
 this
 )
 ;
-NS_DispatchToMainThread
-(
 event
+-
+>
+Continue
+(
 )
 ;
 mOkToCallContinue
