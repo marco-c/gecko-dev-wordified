@@ -1281,6 +1281,13 @@ Classify
 (
 )
 ;
+void
+CancelPipeline
+(
+PRUint32
+reason
+)
+;
 static
 NS_METHOD
 ReadRequestSegment
@@ -1569,6 +1576,9 @@ mClassification
 ;
 PRInt32
 mPipelinePosition
+;
+PRInt64
+mMaxPipelineObjectSize
 ;
 /
 /
