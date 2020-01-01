@@ -6264,6 +6264,11 @@ PRBool
 aPreserveRatio
 )
 ;
+void
+HideAnonymousEditingUIs
+(
+)
+;
 /
 *
 ABSOLUTE
