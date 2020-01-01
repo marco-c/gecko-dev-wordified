@@ -1039,6 +1039,17 @@ flag
 )
 .
 *
+*
+N
+.
+B
+.
+flagStr
+must
+be
+rooted
+.
+*
 /
 static
 bool
