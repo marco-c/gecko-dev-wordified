@@ -442,8 +442,8 @@ PostScrollSelectionIntoViewEvent
 (
 SelectionRegion
 aRegion
-bool
-aFirstAncestorOnly
+int32_t
+aFlags
 nsIPresShell
 :
 :
@@ -476,6 +476,12 @@ SCROLL_DO_FLUSH
 <
 <
 3
+SCROLL_OVERFLOW_HIDDEN
+=
+1
+<
+<
+5
 }
 ;
 /
@@ -951,8 +957,8 @@ nsIPresShell
 :
 ScrollAxis
 aHorizontal
-bool
-aFirstAncestorOnly
+int32_t
+aFlags
 )
 :
 mSelection
@@ -971,9 +977,9 @@ mHorizontalScroll
 (
 aHorizontal
 )
-mFirstAncestorOnly
+mFlags
 (
-aFirstAncestorOnly
+aFlags
 )
 {
 NS_ASSERTION
@@ -1017,8 +1023,8 @@ nsIPresShell
 ScrollAxis
 mHorizontalScroll
 ;
-bool
-mFirstAncestorOnly
+int32_t
+mFlags
 ;
 }
 ;

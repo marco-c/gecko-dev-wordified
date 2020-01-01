@@ -12944,7 +12944,10 @@ nsISelectionController
 :
 SELECTION_NORMAL
 region
-0
+nsISelectionController
+:
+:
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 }

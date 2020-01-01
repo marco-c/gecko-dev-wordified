@@ -1265,9 +1265,16 @@ h
 #
 define
 ANCHOR_SCROLL_FLAGS
+\
 (
+nsIPresShell
+:
+:
 SCROLL_OVERFLOW_HIDDEN
 |
+nsIPresShell
+:
+:
 SCROLL_NO_PARENT_FRAMES
 )
 using
@@ -41847,6 +41854,9 @@ nsIPresShell
 :
 SCROLL_IF_NOT_VISIBLE
 )
+nsIPresShell
+:
+:
 SCROLL_OVERFLOW_HIDDEN
 )
 ;
@@ -42275,6 +42285,9 @@ ScrollAxis
 ScrollAxis
 (
 )
+nsIPresShell
+:
+:
 SCROLL_OVERFLOW_HIDDEN
 )
 ;
