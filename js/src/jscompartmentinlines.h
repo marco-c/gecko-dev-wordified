@@ -114,6 +114,13 @@ jscompartment_inlines_h___
 #
 define
 jscompartment_inlines_h___
+#
+include
+"
+jscompartment
+.
+h
+"
 inline
 void
 JSCompartment
