@@ -476,6 +476,7 @@ processClientCommands
 updateEnabledEngines
 *
 /
+syncTabs
 syncBookmarks
 syncHistory
 completed
