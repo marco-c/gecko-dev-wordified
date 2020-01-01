@@ -450,9 +450,13 @@ keyPath
 "
 weight
 "
+options
+:
+{
 unique
 :
 false
+}
 }
 ]
 ;
@@ -662,8 +666,8 @@ db
 createObjectStore
 (
 objectStoreName
-"
-"
+{
+}
 )
 ;
 let
@@ -769,7 +773,7 @@ indexData
 i
 ]
 .
-unique
+options
 )
 ;
 }
