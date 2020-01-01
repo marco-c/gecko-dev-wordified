@@ -5463,6 +5463,17 @@ aNewSize
 {
 if
 (
+!
+IsOffscreenSizeAllowed
+(
+aNewSize
+)
+)
+return
+false
+;
+if
+(
 mIsPBuffer
 )
 {
