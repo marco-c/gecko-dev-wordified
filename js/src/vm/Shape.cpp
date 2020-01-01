@@ -1884,7 +1884,8 @@ child
 )
 ;
 {
-RawUnownedBaseShape
+UnownedBaseShape
+*
 nbase
 =
 BaseShape
@@ -4617,7 +4618,8 @@ getter
 setter
 )
 ;
-RawUnownedBaseShape
+UnownedBaseShape
+*
 nbase
 =
 BaseShape
@@ -6819,7 +6821,8 @@ parent
 =
 parent
 ;
-RawUnownedBaseShape
+UnownedBaseShape
+*
 nbase
 =
 BaseShape
@@ -7312,7 +7315,8 @@ flags
 =
 flag
 ;
-RawUnownedBaseShape
+UnownedBaseShape
+*
 nbase
 =
 BaseShape
@@ -7473,7 +7477,8 @@ flags
 ~
 flag
 ;
-RawUnownedBaseShape
+UnownedBaseShape
+*
 nbase
 =
 BaseShape
@@ -7701,7 +7706,8 @@ StackBaseShape
 :
 match
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 key
 const
 StackBaseShape
@@ -7885,12 +7891,14 @@ BaseShape
 base
 )
 ;
-RawUnownedBaseShape
+UnownedBaseShape
+*
 nbase
 =
 static_cast
 <
-RawUnownedBaseShape
+UnownedBaseShape
+*
 >
 (
 nbase_
@@ -7974,7 +7982,8 @@ popFront
 )
 )
 {
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 =
 e

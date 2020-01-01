@@ -1861,10 +1861,8 @@ however
 .
 *
 /
-ForwardDeclare
-(
+class
 UnownedBaseShape
-)
 ;
 ForwardDeclare
 (
@@ -2340,7 +2338,8 @@ inline
 void
 adoptUnowned
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 other
 )
 ;
@@ -2348,7 +2347,8 @@ inline
 void
 setOwned
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 unowned
 )
 ;
@@ -2865,7 +2865,8 @@ unowned_
 return
 static_cast
 <
-RawUnownedBaseShape
+UnownedBaseShape
+*
 >
 (
 this
@@ -3071,7 +3072,8 @@ inline
 bool
 match
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 key
 const
 StackBaseShape
@@ -4402,7 +4404,8 @@ h
 /
 Shape
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 uint32_t
 nfixed
@@ -6344,7 +6347,8 @@ Shape
 {
 EmptyShape
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 uint32_t
 nfixed
@@ -6739,7 +6743,8 @@ necessary
 .
 *
 /
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 ;
 RawId
@@ -6760,7 +6765,8 @@ shortid
 explicit
 StackShape
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 jsid
 propid

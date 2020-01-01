@@ -1054,7 +1054,8 @@ BaseShape
 :
 adoptUnowned
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 other
 )
 {
@@ -1147,7 +1148,8 @@ BaseShape
 :
 setOwned
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 unowned
 )
 {
@@ -1183,7 +1185,8 @@ isOwned
 )
 )
 {
-RawUnownedBaseShape
+UnownedBaseShape
+*
 unowned
 =
 baseUnowned
@@ -1367,7 +1370,8 @@ Shape
 :
 Shape
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 uint32_t
 nfixed
@@ -2485,7 +2489,8 @@ EmptyShape
 :
 EmptyShape
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 uint32_t
 nfixed
