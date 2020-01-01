@@ -19823,7 +19823,7 @@ import
 (
 in
 AUTF8String
-moduleURL
+registryLocation
 *
 [
 optional
