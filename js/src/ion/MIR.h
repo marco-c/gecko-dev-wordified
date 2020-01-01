@@ -5493,6 +5493,14 @@ canBeNegativeZero_
 true
 )
 {
+setCommutative
+(
+)
+;
+setIdempotent
+(
+)
+;
 setResultType
 (
 MIRType_Value
