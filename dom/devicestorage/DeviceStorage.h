@@ -119,6 +119,10 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsDOMDeviceStorage
 nsDOMEventTargetHelper
 )
+NS_DECL_EVENT_HANDLER
+(
+change
+)
 nsDOMDeviceStorage
 (
 )
@@ -136,7 +140,7 @@ aType
 )
 ;
 void
-SetRootFileForType
+SetRootDirectoryForType
 (
 const
 nsAString
@@ -224,14 +228,14 @@ nsIDOMDeviceStorageCursor
 aRetval
 )
 ;
-int32_t
+nsString
 mStorageType
 ;
 nsCOMPtr
 <
 nsIFile
 >
-mFile
+mRootDirectory
 ;
 nsCOMPtr
 <
@@ -252,7 +256,8 @@ const
 char
 *
 aReason
-nsIFile
+class
+DeviceStorageFile
 *
 aFile
 )
