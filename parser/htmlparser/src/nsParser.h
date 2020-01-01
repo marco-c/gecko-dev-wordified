@@ -1458,7 +1458,10 @@ aSourceBuffer
 void
 *
 aKey
-nsVoidArray
+nsTArray
+<
+nsAutoString
+>
 &
 aTagStack
 PRBool
