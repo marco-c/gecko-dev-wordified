@@ -717,7 +717,13 @@ appeared
 #
 define
 PARTIAL_EXPIRATION_TIMEOUT
-3500
+(
+3
+.
+5
+*
+PR_MSEC_PER_SEC
+)
 /
 /
 The
@@ -737,7 +743,11 @@ ones
 #
 define
 SUBSEQUENT_EXPIRATION_TIMEOUT
-20000
+(
+20
+*
+PR_MSEC_PER_SEC
+)
 /
 /
 Number
