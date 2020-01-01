@@ -5214,6 +5214,9 @@ JS_REQUIRES_STACK
 JSRecordingStatus
 setCallProp
 (
+JSObject
+*
+callobj
 nanojit
 :
 :
