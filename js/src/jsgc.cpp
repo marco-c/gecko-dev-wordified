@@ -16152,7 +16152,12 @@ cx
 >
 stackLimit
 +
-4096
+(
+1
+<
+<
+14
+)
 &
 stackDummy
 )
@@ -16163,7 +16168,7 @@ else
 /
 *
 -
-4k
+16k
 because
 it
 is
@@ -16192,7 +16197,12 @@ cx
 >
 stackLimit
 -
-4096
+(
+1
+<
+<
+14
+)
 &
 stackDummy
 )
