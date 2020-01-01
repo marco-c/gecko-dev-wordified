@@ -680,6 +680,13 @@ nsTransitionManager
 .
 h
 "
+#
+include
+"
+nsViewportInfo
+.
+h
+"
 using
 namespace
 mozilla
@@ -32543,7 +32550,7 @@ screenWidth
 screenHeight
 )
 ;
-ViewportInfo
+nsViewportInfo
 vInf
 =
 nsContentUtils
@@ -32570,7 +32577,9 @@ if
 (
 vInf
 .
-defaultZoom
+GetDefaultZoom
+(
+)
 >
 =
 1
@@ -32580,7 +32589,9 @@ defaultZoom
 |
 vInf
 .
-autoSize
+IsAutoSizeEnabled
+(
+)
 )
 {
 return
