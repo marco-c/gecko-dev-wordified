@@ -164,14 +164,11 @@ inline
 bool
 BooleanGetPrimitiveValue
 (
+HandleObject
+obj
 JSContext
 *
 cx
-HandleObject
-obj
-Value
-*
-vp
 )
 ;
 }
