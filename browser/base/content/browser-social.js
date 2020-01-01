@@ -1866,6 +1866,17 @@ SocialChatBar_focus
 (
 )
 {
+if
+(
+!
+this
+.
+chatbar
+.
+selectedChat
+)
+return
+;
 let
 commandDispatcher
 =
@@ -1882,6 +1893,8 @@ advanceFocusIntoSubtree
 this
 .
 chatbar
+.
+selectedChat
 )
 ;
 }
