@@ -5382,9 +5382,10 @@ blur
 )
 )
 {
+NS_IF_ADDREF
+(
 gLastFocusedNode
-=
-nsnull
+)
 ;
 gLastFocusedFrameType
 =
