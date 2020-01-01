@@ -860,7 +860,7 @@ internal
 header
 file
 "
-jsconfig
+jsversion
 .
 h
 "

@@ -456,7 +456,7 @@ definitions
 #
 include
 "
-jsconfig
+jsversion
 .
 h
 "

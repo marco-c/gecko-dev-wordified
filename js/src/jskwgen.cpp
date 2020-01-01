@@ -495,7 +495,7 @@ h
 #
 include
 "
-jsconfig
+jsversion
 .
 h
 "

@@ -576,7 +576,7 @@ h
 #
 include
 "
-jsconfig
+jsversion
 .
 h
 "
@@ -4518,7 +4518,7 @@ for
 testing
 only
 see
-jsconfig
+jsversion
 .
 h
 )

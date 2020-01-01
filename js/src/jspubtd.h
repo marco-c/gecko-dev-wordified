@@ -510,7 +510,7 @@ version
 enumeration
 .
 See
-jsconfig
+jsversion
 .
 h
 for
