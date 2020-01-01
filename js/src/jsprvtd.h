@@ -834,6 +834,9 @@ typedef
 uint32
 jsatomid
 ;
+#
+ifdef
+__cplusplus
 /
 *
 Class
@@ -857,6 +860,8 @@ struct
 Compiler
 ;
 }
+#
+endif
 /
 *
 Struct
