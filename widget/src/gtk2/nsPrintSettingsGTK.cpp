@@ -664,6 +664,10 @@ mGTKPrinter
 (
 NULL
 )
+mPrintSelectionOnly
+(
+PR_FALSE
+)
 {
 /
 /
