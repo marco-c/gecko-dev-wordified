@@ -711,7 +711,7 @@ run_test_1
 {
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -832,7 +832,7 @@ restartManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -959,7 +959,7 @@ restartManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -1081,7 +1081,7 @@ restartManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "

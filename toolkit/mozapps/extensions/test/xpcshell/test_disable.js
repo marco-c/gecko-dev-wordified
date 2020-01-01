@@ -184,7 +184,7 @@ startupManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -251,7 +251,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -400,7 +400,7 @@ onDisabling
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -463,7 +463,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddonsWithPendingOperations
+getAddonsWithOperationsByTypes
 (
 null
 function
@@ -504,7 +504,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -645,7 +645,7 @@ onEnabling
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -698,7 +698,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddonsWithPendingOperations
+getAddonsWithOperationsByTypes
 (
 null
 function
@@ -739,7 +739,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -873,7 +873,7 @@ onDisabling
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -961,7 +961,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1

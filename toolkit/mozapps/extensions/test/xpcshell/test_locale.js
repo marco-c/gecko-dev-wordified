@@ -255,7 +255,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -341,7 +341,7 @@ run_test_3
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -487,7 +487,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -616,7 +616,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -701,7 +701,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -780,7 +780,7 @@ run_test_7
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -860,7 +860,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1

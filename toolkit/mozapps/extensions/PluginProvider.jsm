@@ -603,7 +603,7 @@ Addon
 to
 *
 /
-getAddon
+getAddonByID
 :
 function
 PL_getAddon
@@ -868,7 +868,7 @@ plugins
 {
 this
 .
-getAddon
+getAddonByID
 (
 id
 function
@@ -940,10 +940,10 @@ Addons
 to
 *
 /
-getAddonsWithPendingOperations
+getAddonsWithOperationsByTypes
 :
 function
-PL_getAddonsWithPendingOperations
+PL_getAddonsWithOperationsByTypes
 (
 aTypes
 aCallback
@@ -1001,10 +1001,10 @@ AddonInstalls
 to
 *
 /
-getInstalls
+getInstallsByTypes
 :
 function
-PL_getInstalls
+PL_getInstallsByTypes
 (
 aTypes
 aCallback
