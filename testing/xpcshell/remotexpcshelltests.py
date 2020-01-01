@@ -2561,6 +2561,23 @@ self
 )
 :
         
+if
+not
+os
+.
+path
+.
+isdir
+(
+self
+.
+pluginsPath
+)
+:
+            
+return
+None
+        
 #
 making
 sure
