@@ -2310,7 +2310,7 @@ this
 .
 _visibleRect
 .
-x
+left
 ;
 }
 getVisibleRectY
@@ -2325,7 +2325,7 @@ this
 .
 _visibleRect
 .
-y
+top
 ;
 }
 getVisibleRectWidth
