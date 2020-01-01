@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIDOMSVGPathSeg
-.
-h
-"
-#
-include
-"
 nsIDOMSVGPathSegList
 .
 h

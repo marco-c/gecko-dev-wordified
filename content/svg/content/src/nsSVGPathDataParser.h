@@ -205,7 +205,7 @@ that
 builds
 /
 /
-nsIDOMSVGPathSegs
+DOMSVGPathSegs
 from
 path
 data

@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsIDOMSVGPathSeg
-.
-h
-"
-#
-include
-"
 DOMSVGPathSeg
 .
 h
@@ -843,7 +836,7 @@ NS_OK
 }
 /
 *
-nsIDOMSVGPathSegClosePath
+nsISupports
 createSVGPathSegClosePath
 (
 )
@@ -856,13 +849,13 @@ nsSVGPathElement
 :
 CreateSVGPathSegClosePath
 (
-nsIDOMSVGPathSegClosePath
+nsISupports
 *
 *
 _retval
 )
 {
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -886,7 +879,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegMovetoAbs
+nsISupports
 createSVGPathSegMovetoAbs
 (
 in
@@ -909,7 +902,7 @@ float
 x
 float
 y
-nsIDOMSVGPathSegMovetoAbs
+nsISupports
 *
 *
 _retval
@@ -922,7 +915,7 @@ y
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -948,7 +941,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegMovetoRel
+nsISupports
 createSVGPathSegMovetoRel
 (
 in
@@ -971,7 +964,7 @@ float
 x
 float
 y
-nsIDOMSVGPathSegMovetoRel
+nsISupports
 *
 *
 _retval
@@ -984,7 +977,7 @@ y
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1010,7 +1003,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegLinetoAbs
+nsISupports
 createSVGPathSegLinetoAbs
 (
 in
@@ -1033,7 +1026,7 @@ float
 x
 float
 y
-nsIDOMSVGPathSegLinetoAbs
+nsISupports
 *
 *
 _retval
@@ -1046,7 +1039,7 @@ y
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1072,7 +1065,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegLinetoRel
+nsISupports
 createSVGPathSegLinetoRel
 (
 in
@@ -1095,7 +1088,7 @@ float
 x
 float
 y
-nsIDOMSVGPathSegLinetoRel
+nsISupports
 *
 *
 _retval
@@ -1108,7 +1101,7 @@ y
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1134,7 +1127,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegCurvetoCubicAbs
+nsISupports
 createSVGPathSegCurvetoCubicAbs
 (
 in
@@ -1177,7 +1170,7 @@ float
 x2
 float
 y2
-nsIDOMSVGPathSegCurvetoCubicAbs
+nsISupports
 *
 *
 _retval
@@ -1194,7 +1187,7 @@ y2
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1224,7 +1217,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegCurvetoCubicRel
+nsISupports
 createSVGPathSegCurvetoCubicRel
 (
 in
@@ -1267,7 +1260,7 @@ float
 x2
 float
 y2
-nsIDOMSVGPathSegCurvetoCubicRel
+nsISupports
 *
 *
 _retval
@@ -1284,7 +1277,7 @@ y2
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1314,7 +1307,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegCurvetoQuadraticAbs
+nsISupports
 createSVGPathSegCurvetoQuadraticAbs
 (
 in
@@ -1347,7 +1340,7 @@ float
 x1
 float
 y1
-nsIDOMSVGPathSegCurvetoQuadraticAbs
+nsISupports
 *
 *
 _retval
@@ -1362,7 +1355,7 @@ y1
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1390,7 +1383,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegCurvetoQuadraticRel
+nsISupports
 createSVGPathSegCurvetoQuadraticRel
 (
 in
@@ -1423,7 +1416,7 @@ float
 x1
 float
 y1
-nsIDOMSVGPathSegCurvetoQuadraticRel
+nsISupports
 *
 *
 _retval
@@ -1438,7 +1431,7 @@ y1
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1466,7 +1459,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegArcAbs
+nsISupports
 createSVGPathSegArcAbs
 (
 in
@@ -1514,7 +1507,7 @@ bool
 largeArcFlag
 bool
 sweepFlag
-nsIDOMSVGPathSegArcAbs
+nsISupports
 *
 *
 _retval
@@ -1530,7 +1523,7 @@ angle
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1561,7 +1554,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegArcRel
+nsISupports
 createSVGPathSegArcRel
 (
 in
@@ -1609,7 +1602,7 @@ bool
 largeArcFlag
 bool
 sweepFlag
-nsIDOMSVGPathSegArcRel
+nsISupports
 *
 *
 _retval
@@ -1625,7 +1618,7 @@ angle
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1656,7 +1649,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegLinetoHorizontalAbs
+nsISupports
 createSVGPathSegLinetoHorizontalAbs
 (
 in
@@ -1674,7 +1667,7 @@ CreateSVGPathSegLinetoHorizontalAbs
 (
 float
 x
-nsIDOMSVGPathSegLinetoHorizontalAbs
+nsISupports
 *
 *
 _retval
@@ -1686,7 +1679,7 @@ x
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1711,7 +1704,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegLinetoHorizontalRel
+nsISupports
 createSVGPathSegLinetoHorizontalRel
 (
 in
@@ -1729,7 +1722,7 @@ CreateSVGPathSegLinetoHorizontalRel
 (
 float
 x
-nsIDOMSVGPathSegLinetoHorizontalRel
+nsISupports
 *
 *
 _retval
@@ -1741,7 +1734,7 @@ x
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1766,7 +1759,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegLinetoVerticalAbs
+nsISupports
 createSVGPathSegLinetoVerticalAbs
 (
 in
@@ -1784,7 +1777,7 @@ CreateSVGPathSegLinetoVerticalAbs
 (
 float
 y
-nsIDOMSVGPathSegLinetoVerticalAbs
+nsISupports
 *
 *
 _retval
@@ -1796,7 +1789,7 @@ y
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1821,7 +1814,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegLinetoVerticalRel
+nsISupports
 createSVGPathSegLinetoVerticalRel
 (
 in
@@ -1839,7 +1832,7 @@ CreateSVGPathSegLinetoVerticalRel
 (
 float
 y
-nsIDOMSVGPathSegLinetoVerticalRel
+nsISupports
 *
 *
 _retval
@@ -1851,7 +1844,7 @@ y
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1876,7 +1869,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegCurvetoCubicSmoothAbs
+nsISupports
 createSVGPathSegCurvetoCubicSmoothAbs
 (
 in
@@ -1909,7 +1902,7 @@ float
 x2
 float
 y2
-nsIDOMSVGPathSegCurvetoCubicSmoothAbs
+nsISupports
 *
 *
 _retval
@@ -1924,7 +1917,7 @@ y2
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -1952,7 +1945,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegCurvetoCubicSmoothRel
+nsISupports
 createSVGPathSegCurvetoCubicSmoothRel
 (
 in
@@ -1985,7 +1978,7 @@ float
 x2
 float
 y2
-nsIDOMSVGPathSegCurvetoCubicSmoothRel
+nsISupports
 *
 *
 _retval
@@ -2000,7 +1993,7 @@ y2
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -2028,7 +2021,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegCurvetoQuadraticSmoothAbs
+nsISupports
 createSVGPathSegCurvetoQuadraticSmoothAbs
 (
 in
@@ -2051,7 +2044,7 @@ float
 x
 float
 y
-nsIDOMSVGPathSegCurvetoQuadraticSmoothAbs
+nsISupports
 *
 *
 _retval
@@ -2064,7 +2057,7 @@ y
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =
@@ -2090,7 +2083,7 @@ _retval
 }
 /
 *
-nsIDOMSVGPathSegCurvetoQuadraticSmoothRel
+nsISupports
 createSVGPathSegCurvetoQuadraticSmoothRel
 (
 in
@@ -2113,7 +2106,7 @@ float
 x
 float
 y
-nsIDOMSVGPathSegCurvetoQuadraticSmoothRel
+nsISupports
 *
 *
 _retval
@@ -2126,7 +2119,7 @@ y
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsIDOMSVGPathSeg
+nsISupports
 *
 seg
 =

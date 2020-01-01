@@ -232,9 +232,6 @@ class
 nsIDOMSVGNumberList
 ;
 class
-nsIDOMSVGPathSeg
-;
-class
 nsIDOMSVGPathSegList
 ;
 class
