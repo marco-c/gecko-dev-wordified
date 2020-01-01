@@ -8634,7 +8634,7 @@ flags
 if
 (
 !
-js_ValueToIterator
+ValueToIterator
 (
 f
 .
@@ -9184,7 +9184,7 @@ base
 if
 (
 !
-js_CloseIterator
+CloseIterator
 (
 f
 .
