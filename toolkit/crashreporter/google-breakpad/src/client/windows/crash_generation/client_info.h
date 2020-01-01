@@ -578,7 +578,7 @@ for
 the
 client
 .
-bool
+void
 UnregisterWaits
 (
 )
