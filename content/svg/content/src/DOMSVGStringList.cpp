@@ -923,14 +923,13 @@ mElement
 )
 ;
 return
-*
 tests
 -
 >
-GetOrCreateStringListAttribute
-(
+mStringListAttributes
+[
 mAttrEnum
-)
+]
 ;
 }
 return
