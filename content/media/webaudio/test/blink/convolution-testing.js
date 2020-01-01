@@ -425,9 +425,9 @@ var
 allowedDeviationDecibels
 =
 -
-133
+129
 .
-5
+4
 ;
 var
 maxDeviationDecibels
