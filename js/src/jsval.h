@@ -1966,6 +1966,11 @@ JSString
 ;
 typedef
 struct
+JSFlatString
+JSFlatString
+;
+typedef
+struct
 JSObject
 JSObject
 ;

@@ -399,9 +399,12 @@ cx
 ;
 CHECK
 (
-JS_MatchStringAndAscii
+JS_FlatStringEqualsAscii
+(
+JS_ASSERT_STRING_IS_FLAT
 (
 trapClosure
+)
 trapClosureText
 )
 )
@@ -439,9 +442,12 @@ cx
 ;
 CHECK
 (
-JS_MatchStringAndAscii
+JS_FlatStringEqualsAscii
+(
+JS_ASSERT_STRING_IS_FLAT
 (
 trapClosure
+)
 trapClosureText
 )
 )
