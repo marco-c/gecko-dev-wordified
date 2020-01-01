@@ -2906,8 +2906,16 @@ return
 tmp
 -
 >
-IsBlack
+IsBlackAndDoesNotNeedTracing
 (
+static_cast
+<
+nsDOMEventTargetHelper
+*
+>
+(
+tmp
+)
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_END
