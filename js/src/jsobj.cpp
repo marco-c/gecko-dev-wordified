@@ -11595,6 +11595,10 @@ runtime
 >
 atomState
 ;
+JSObject
+*
+desc
+;
 MUST_FLOW_THROUGH
 (
 "
@@ -11639,10 +11643,6 @@ descriptor
 .
 *
 /
-JSObject
-*
-desc
-;
 desc
 =
 js_NewObject
