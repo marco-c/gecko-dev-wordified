@@ -455,14 +455,6 @@ aWindow
 }
 static
 bool
-IsDoingKakuteiUndo
-(
-HWND
-aWnd
-)
-;
-static
-bool
 CanOptimizeKeyAndIMEMessages
 (
 MSG
