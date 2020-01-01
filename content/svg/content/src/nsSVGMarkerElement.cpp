@@ -2606,6 +2606,7 @@ MARKERUNITS
 .
 GetAnimValue
 (
+this
 )
 =
 =

@@ -541,6 +541,9 @@ mBaseVal
 PRUint16
 GetAnimValue
 (
+nsSVGElement
+*
+aSVGElement
 )
 const
 {
@@ -694,6 +697,7 @@ mVal
 >
 GetAnimValue
 (
+mSVGElement
 )
 ;
 return

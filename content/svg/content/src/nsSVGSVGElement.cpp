@@ -4837,6 +4837,7 @@ ZOOMANDPAN
 .
 GetAnimValue
 (
+this
 )
 ;
 return
