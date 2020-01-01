@@ -1082,6 +1082,15 @@ PRBool
 aAllowsAnonChildren
 )
 ;
+virtual
+nsresult
+GetAttributesInternal
+(
+nsIPersistentProperties
+*
+aAttributes
+)
+;
 protected
 :
 already_AddRefed
