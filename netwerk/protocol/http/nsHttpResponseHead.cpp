@@ -2044,11 +2044,12 @@ mStatus
 )
 |
 |
+nsHttp
+:
+:
+IsPermanentRedirect
 (
 mStatus
-=
-=
-301
 )
 )
 {
