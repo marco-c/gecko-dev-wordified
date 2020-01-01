@@ -812,6 +812,7 @@ localhost
 masterEntry
 "
 )
+null
 )
 ;
 do_test_pending
