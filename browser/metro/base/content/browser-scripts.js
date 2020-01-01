@@ -359,7 +359,7 @@ jsm
 ;
 XPCOMUtils
 .
-defineLazyGetter
+defineLazyModuleGetter
 (
 this
 "
