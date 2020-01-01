@@ -579,11 +579,13 @@ SCHEDULED_SYNC_INTERVAL
 60
 *
 1000
+*
+5
 ;
 /
 /
-one
-minute
+five
+minutes
 /
 /
 INITIAL_THRESHOLD
@@ -639,7 +641,7 @@ threshold
 const
 INITIAL_THRESHOLD
 =
-100
+75
 ;
 /
 /
@@ -676,7 +678,7 @@ engine
 const
 THRESHOLD_DECREMENT_STEP
 =
-5
+25
 ;
 Cu
 .
