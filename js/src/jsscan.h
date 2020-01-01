@@ -3972,7 +3972,7 @@ ptr
 base
 ;
 }
-int32
+jschar
 getRawChar
 (
 )
@@ -3995,7 +3995,7 @@ poisoned
 *
 /
 }
-int32
+jschar
 peekRawChar
 (
 )
@@ -4020,7 +4020,7 @@ poisoned
 bool
 matchRawChar
 (
-int32
+jschar
 c
 )
 {
@@ -4059,7 +4059,7 @@ false
 bool
 matchRawCharBackwards
 (
-int32
+jschar
 c
 )
 {
@@ -4546,6 +4546,16 @@ getChar
 )
 ;
 }
+void
+updateLineInfoForEOL
+(
+)
+;
+void
+updateFlagsForEOL
+(
+)
+;
 JSContext
 *
 const
