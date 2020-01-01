@@ -2097,8 +2097,6 @@ close
 (
 )
         
-output
-=
 self
 .
 _run_adb
@@ -2118,11 +2116,10 @@ d
 self
 .
 port
-                                
 '
 forward
 '
-                                
+                       
 '
 tcp
 :
@@ -2131,7 +2128,7 @@ d
 '
 %
 local_port
-                                
+                       
 '
 tcp
 :

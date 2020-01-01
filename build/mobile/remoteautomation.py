@@ -56,17 +56,15 @@ MPL
 import
 time
 import
-sys
-import
 os
-import
-socket
 import
 automationutils
 import
 tempfile
 import
 shutil
+import
+subprocess
 from
 automation
 import
@@ -74,7 +72,6 @@ Automation
 from
 devicemanager
 import
-DeviceManager
 NetworkTools
 class
 RemoteAutomation
