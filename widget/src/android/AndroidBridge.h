@@ -759,6 +759,11 @@ aNewEnd
 )
 ;
 void
+AcknowledgeEventSync
+(
+)
+;
+void
 EnableAccelerometer
 (
 bool
@@ -1469,6 +1474,9 @@ jNotifyIMEEnabled
 ;
 jmethodID
 jNotifyIMEChange
+;
+jmethodID
+jAcknowledgeEventSync
 ;
 jmethodID
 jEnableAccelerometer
