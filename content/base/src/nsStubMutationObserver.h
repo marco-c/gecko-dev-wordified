@@ -250,6 +250,8 @@ nsStubMutationObserver
 public
 nsIMutationObserver
 {
+public
+:
 NS_DECL_NSIMUTATIONOBSERVER
 }
 ;
