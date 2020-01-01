@@ -229,7 +229,7 @@ FLING_FRICTION_FAST
 =
 0
 .
-010f
+0025f
 ;
 /
 *
@@ -256,7 +256,7 @@ FLING_FRICTION_SLOW
 =
 0
 .
-008f
+0015f
 ;
 /
 *
@@ -276,9 +276,9 @@ const
 float
 VELOCITY_THRESHOLD
 =
-0
+1
 .
-5f
+0f
 ;
 /
 *
@@ -741,6 +741,8 @@ VELOCITY_THRESHOLD
 mVelocity
 *
 =
+NS_MAX
+(
 1
 .
 0f
@@ -752,6 +754,10 @@ aDelta
 ToMilliseconds
 (
 )
+0
+.
+0
+)
 ;
 }
 else
@@ -759,6 +765,8 @@ else
 mVelocity
 *
 =
+NS_MAX
+(
 1
 .
 0f
@@ -769,6 +777,10 @@ aDelta
 .
 ToMilliseconds
 (
+)
+0
+.
+0
 )
 ;
 }
