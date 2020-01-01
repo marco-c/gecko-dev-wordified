@@ -1126,7 +1126,7 @@ popFront
 (
 )
 )
-removeDebuggee
+removeDebuggeeGlobal
 (
 e
 .
@@ -1656,7 +1656,7 @@ in
 Debug
 :
 :
-removeDebuggee
+removeDebuggeeGlobal
 to
 make
 sure
@@ -4702,7 +4702,7 @@ popFront
 dbg
 -
 >
-removeDebuggee
+removeDebuggeeGlobal
 (
 e
 .
@@ -4907,7 +4907,7 @@ back
 )
 -
 >
-removeDebuggee
+removeDebuggeeGlobal
 (
 global
 compartmentEnum
@@ -6131,7 +6131,7 @@ cx
 dbg
 -
 >
-addDebuggee
+addDebuggeeGlobal
 (
 cx
 debuggee
@@ -6167,7 +6167,7 @@ bool
 Debug
 :
 :
-addDebuggee
+addDebuggeeGlobal
 (
 JSContext
 *
@@ -6330,7 +6330,7 @@ void
 Debug
 :
 :
-removeDebuggee
+removeDebuggeeGlobal
 (
 GlobalObject
 *
