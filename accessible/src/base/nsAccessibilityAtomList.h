@@ -1555,6 +1555,15 @@ API
 )
 ACCESSIBILITY_ATOM
 (
+backgroundColor
+"
+background
+-
+color
+"
+)
+ACCESSIBILITY_ATOM
+(
 invalid
 "
 invalid
