@@ -878,7 +878,7 @@ argv
 )
 )
 :
-JS_FALSE
+JSVAL_FALSE
 ;
 if
 (
