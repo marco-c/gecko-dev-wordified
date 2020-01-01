@@ -967,6 +967,16 @@ PRBool
 0xffffffff
 )
 )
+#
+define
+PLACES_INIT_COMPLETE_EVENT_TOPIC
+"
+places
+-
+init
+-
+complete
+"
 struct
 AutoCompleteIntermediateResult
 ;
@@ -4613,6 +4623,9 @@ mTagsFolder
 ;
 PRBool
 mInPrivateBrowsing
+;
+PRBool
+mDatabaseStatus
 ;
 }
 ;
