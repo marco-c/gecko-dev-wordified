@@ -533,6 +533,13 @@ nsIObserverService
 .
 h
 "
+#
+include
+"
+nsLayoutStatics
+.
+h
+"
 static
 NS_DEFINE_CID
 (
