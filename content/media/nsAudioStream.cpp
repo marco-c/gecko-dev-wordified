@@ -1911,7 +1911,9 @@ sa_stream_t
 &
 mAudioHandle
 )
-NULL
+"
+Mozilla
+"
 SA_MODE_WRONLY
 SA_PCM_FORMAT_S16_NE
 aRate
