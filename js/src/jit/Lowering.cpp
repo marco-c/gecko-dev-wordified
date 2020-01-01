@@ -15816,6 +15816,13 @@ define
 lir
 ins
 )
+&
+&
+assignSafepoint
+(
+lir
+ins
+)
 ;
 }
 default

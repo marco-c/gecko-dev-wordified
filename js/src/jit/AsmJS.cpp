@@ -41106,6 +41106,14 @@ ReturnFloatReg
 ReturnReg
 &
 oolConvert
+/
+*
+-
+0
+check
+*
+/
+false
 )
 ;
 break
