@@ -4210,7 +4210,7 @@ PR_CREATE_FILE
 octal
 *
 /
-0600
+0666
 0
 )
 ;
