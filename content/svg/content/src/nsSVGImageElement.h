@@ -283,6 +283,16 @@ aCompileEventHandlers
 )
 ;
 virtual
+void
+UnbindFromTree
+(
+bool
+aDeep
+bool
+aNullParent
+)
+;
+virtual
 nsEventStates
 IntrinsicState
 (
