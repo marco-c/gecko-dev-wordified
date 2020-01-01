@@ -9151,7 +9151,7 @@ toConstant
 (
 )
 elements
-index
+indexReg
 )
 ;
 else
