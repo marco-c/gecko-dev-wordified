@@ -5070,7 +5070,7 @@ if
 content
 -
 >
-IsNativeAnonymous
+IsInNativeAnonymousSubtree
 (
 )
 )

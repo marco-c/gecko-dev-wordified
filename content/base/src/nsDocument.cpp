@@ -28487,7 +28487,7 @@ content
 content
 -
 >
-IsNativeAnonymous
+IsInNativeAnonymousSubtree
 (
 )
 )

@@ -3745,12 +3745,11 @@ mContent
 |
 |
 !
-nsContentUtils
-:
-:
-IsNativeAnonymous
-(
 mContent
+-
+>
+IsInNativeAnonymousSubtree
+(
 )
 )
 &
