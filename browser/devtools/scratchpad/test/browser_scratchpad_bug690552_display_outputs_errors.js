@@ -180,6 +180,8 @@ var
 openComment
 =
 "
+\
+n
 /
 *
 \

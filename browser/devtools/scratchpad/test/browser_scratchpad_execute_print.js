@@ -317,6 +317,8 @@ getText
 window
 .
 foobarBug636725
+\
+n
 /
 *
 \
@@ -345,6 +347,8 @@ sp
 .
 selectedText
 "
+\
+n
 /
 *
 \
@@ -390,7 +394,7 @@ is
 selection
 .
 end
-31
+32
 "
 selection
 .
@@ -753,6 +757,8 @@ foobarBug636725
 "
 +
 "
+\
+n
 /
 *
 \
@@ -802,6 +808,8 @@ sp
 .
 selectedText
 "
+\
+n
 /
 *
 \
@@ -846,7 +854,7 @@ is
 selection
 .
 end
-29
+30
 "
 selection
 .
