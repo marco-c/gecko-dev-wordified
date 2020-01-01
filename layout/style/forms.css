@@ -4301,16 +4301,6 @@ elements
 .
 *
 /
-/
-*
-TODO
-:
-uncomment
-this
-with
-bug
-609017
-.
 :
 not
 (
@@ -4337,8 +4327,6 @@ shadow
 red
 ;
 }
-*
-/
 output
 :
 invalid
