@@ -170,13 +170,6 @@ algorithm
 #
 include
 "
-jsdbgapi
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -1383,7 +1376,10 @@ here
 .
 global
 =
-JS_UnwrapObject
+js
+:
+:
+UncheckedUnwrap
 (
 global
 )
