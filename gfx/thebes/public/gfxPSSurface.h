@@ -459,6 +459,13 @@ nsIOutputStream
 .
 h
 "
+#
+include
+"
+gfxContext
+.
+h
+"
 class
 THEBES_API
 gfxPSSurface
