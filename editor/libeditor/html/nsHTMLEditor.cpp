@@ -474,6 +474,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLBodyElement
+.
+h
+"
+#
+include
+"
 nsTextFragment
 .
 h
@@ -11807,7 +11818,7 @@ element
 element
 -
 >
-GetParentElement
+GetElementParent
 (
 )
 ;
