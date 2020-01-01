@@ -7928,6 +7928,7 @@ regs
 rebaseFromTo
 (
 stackRegs
+*
 genfp
 )
 ;

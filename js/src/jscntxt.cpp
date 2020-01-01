@@ -9193,12 +9193,14 @@ JS_ASSERT
 (
 stack
 .
-contains
+containsSlow
 (
 fp
 )
-&
-&
+)
+;
+JS_ASSERT
+(
 fp
 -
 >

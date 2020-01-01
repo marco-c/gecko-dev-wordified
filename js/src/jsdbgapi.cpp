@@ -1230,7 +1230,7 @@ continue
 endif
 for
 (
-AllFramesIter
+FrameRegsIter
 i
 (
 icx
@@ -1259,15 +1259,12 @@ fp
 )
 -
 >
-maybeScript
+script
 (
 )
 ;
 if
 (
-script
-&
-&
 script
 -
 >
@@ -9590,7 +9587,7 @@ cx
 >
 stack
 .
-contains
+containsSlow
 (
 fp
 )
@@ -9690,7 +9687,7 @@ cx
 >
 stack
 .
-contains
+containsSlow
 (
 fp
 )
