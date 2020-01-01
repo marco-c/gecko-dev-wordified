@@ -560,9 +560,6 @@ h
 "
 #
 endif
-class
-nsIFastLoadService
-;
 /
 *
 6bd13476
