@@ -5824,6 +5824,21 @@ sTextContentElementsMap
 ]
 =
 {
+/
+/
+Properties
+that
+we
+don
+'
+t
+support
+are
+commented
+out
+.
+/
+/
 {
 &
 nsGkAtoms
@@ -5831,6 +5846,8 @@ nsGkAtoms
 :
 alignment_baseline
 }
+/
+/
 {
 &
 nsGkAtoms
@@ -5852,6 +5869,8 @@ nsGkAtoms
 :
 dominant_baseline
 }
+/
+/
 {
 &
 nsGkAtoms
@@ -5859,6 +5878,8 @@ nsGkAtoms
 :
 glyph_orientation_horizontal
 }
+/
+/
 {
 &
 nsGkAtoms
@@ -5866,6 +5887,8 @@ nsGkAtoms
 :
 glyph_orientation_vertical
 }
+/
+/
 {
 &
 nsGkAtoms
