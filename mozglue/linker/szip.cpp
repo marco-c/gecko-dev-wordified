@@ -565,10 +565,9 @@ them
 /
 ret
 =
-posix_fallocate
+ftruncate
 (
 outFd
-0
 offset
 )
 ;
