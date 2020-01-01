@@ -162,17 +162,6 @@ include
 "
 mozilla
 /
-layers
-/
-CompositorTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 unused
 .
 h
@@ -1398,7 +1387,7 @@ already_AddRefed
 <
 TextureImage
 >
-LayerManagerComposite
+ShadowLayerManager
 :
 :
 OpenDescriptorForDirectTexturing
@@ -1417,7 +1406,7 @@ aWrapMode
 PROFILER_LABEL
 (
 "
-LayerManagerComposite
+ShadowLayerManager
 "
 "
 OpenDescriptorForDirectTexturing
@@ -1478,7 +1467,7 @@ static
 *
 /
 bool
-LayerManagerComposite
+ShadowLayerManager
 :
 :
 SupportsDirectTexturing
@@ -1495,7 +1484,7 @@ static
 *
 /
 void
-LayerManagerComposite
+ShadowLayerManager
 :
 :
 PlatformSyncBeforeReplyUpdate

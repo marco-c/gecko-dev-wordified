@@ -389,7 +389,7 @@ This
 will
 let
 the
-LayerComposite
+ShadowLayer
 on
 the
 compositor

@@ -129,17 +129,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-CompositorTypes
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -361,7 +350,7 @@ static
 *
 /
 void
-LayerManagerComposite
+ShadowLayerManager
 :
 :
 PlatformSyncBeforeReplyUpdate
@@ -392,7 +381,7 @@ already_AddRefed
 <
 TextureImage
 >
-LayerManagerComposite
+ShadowLayerManager
 :
 :
 OpenDescriptorForDirectTexturing
@@ -415,7 +404,7 @@ static
 *
 /
 bool
-LayerManagerComposite
+ShadowLayerManager
 :
 :
 SupportsDirectTexturing

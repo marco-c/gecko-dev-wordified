@@ -140,17 +140,6 @@ gfxPlatform
 .
 h
 "
-#
-include
-"
-mozilla
-/
-layers
-/
-LayerManagerComposite
-.
-h
-"
 namespace
 mozilla
 {
@@ -199,7 +188,7 @@ nullptr
 }
 if
 (
-LayerManagerComposite
+ShadowLayerManager
 :
 :
 SupportsDirectTexturing

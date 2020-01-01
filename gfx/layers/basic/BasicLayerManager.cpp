@@ -8085,7 +8085,7 @@ s
 changeset
 to
 our
-LayerManagerComposite
+ShadowLayerManager
 AutoInfallibleTArray
 <
 EditReply
