@@ -260,7 +260,7 @@ txn
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoPlaceHolderBatch
 {
 private
@@ -439,6 +439,7 @@ redo
 *
 /
 class
+MOZ_STACK_CLASS
 nsAutoEditBatch
 :
 public
@@ -572,7 +573,7 @@ afterwards
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoSelectionReset
 {
 private
@@ -773,7 +774,7 @@ sandwich
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoRules
 {
 public
@@ -978,7 +979,7 @@ transactions
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoTxnsConserveSelection
 {
 public
@@ -1145,7 +1146,7 @@ requests
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoUpdateViewBatch
 {
 public
@@ -1397,7 +1398,7 @@ aNode
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsDOMIterator
 {
 public
@@ -1454,6 +1455,7 @@ mIter
 }
 ;
 class
+MOZ_STACK_CLASS
 nsDOMSubtreeIterator
 :
 public
@@ -1681,7 +1683,7 @@ struct
 *
 /
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 DOMPoint
 {
 nsCOMPtr

@@ -861,7 +861,7 @@ actions
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoTrackDOMPoint
 {
 private
@@ -1093,7 +1093,7 @@ DidReplaceContainer
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoReplaceContainerSelNotify
 {
 private
@@ -1258,7 +1258,7 @@ DidRemoveContainer
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoRemoveContainerSelNotify
 {
 private
@@ -1453,7 +1453,7 @@ DidInsertContainer
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoInsertContainerSelNotify
 {
 private
@@ -1594,7 +1594,7 @@ DidMoveNode
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoMoveNodeSelNotify
 {
 private
