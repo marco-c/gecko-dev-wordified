@@ -6223,6 +6223,23 @@ closed
 '
             
 #
+shutdown
+the
+test
+harness
+            
+self
+.
+mozmill
+.
+stop
+(
+fatal
+=
+disconnected
+)
+            
+#
 print
 statistics
 and
@@ -6242,23 +6259,6 @@ self
 options
 .
 report
-)
-            
-#
-shutdown
-the
-test
-harness
-            
-self
-.
-mozmill
-.
-stop
-(
-fatal
-=
-disconnected
 )
             
 if

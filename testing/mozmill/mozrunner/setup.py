@@ -455,7 +455,7 @@ PACKAGE_VERSION
 .
 5
 .
-2
+2rc2
 "
 deps
 =
