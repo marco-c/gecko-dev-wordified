@@ -9836,9 +9836,11 @@ nsXPCClassInfo
 GetClassInfo
 (
 )
-=
-0
+{
+return
+nullptr
 ;
+}
 /
 /
 Makes
