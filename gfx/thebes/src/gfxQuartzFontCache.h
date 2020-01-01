@@ -768,15 +768,6 @@ mFamily
 ATSUFontID
 mATSUFontID
 ;
-std
-:
-:
-bitset
-<
-128
->
-mUnicodeRanges
-;
 gfxSparseBitSet
 mCharacterMap
 ;
