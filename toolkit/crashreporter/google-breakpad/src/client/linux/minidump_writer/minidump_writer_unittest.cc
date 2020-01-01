@@ -1494,10 +1494,6 @@ Minidump
 minidump
 (
 templ
-.
-c_str
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -2366,10 +2362,6 @@ Minidump
 minidump
 (
 dumpfile
-.
-c_str
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -2962,10 +2954,6 @@ Minidump
 minidump
 (
 templ
-.
-c_str
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -3560,10 +3548,6 @@ Minidump
 minidump
 (
 templ
-.
-c_str
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -4095,10 +4079,6 @@ Minidump
 minidump
 (
 templ
-.
-c_str
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -4800,10 +4780,6 @@ Minidump
 minidump
 (
 normal_dump
-.
-c_str
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -5421,10 +5397,6 @@ Minidump
 minidump
 (
 limit_dump
-.
-c_str
-(
-)
 )
 ;
 ASSERT_TRUE

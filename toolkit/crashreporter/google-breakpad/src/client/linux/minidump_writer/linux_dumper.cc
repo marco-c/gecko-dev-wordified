@@ -796,14 +796,6 @@ kLinuxGateLibraryName
 0
 )
 {
-const
-uintptr_t
-kPageSize
-=
-getpagesize
-(
-)
-;
 void
 *
 linux_gate
@@ -842,7 +834,9 @@ allocator_
 .
 Alloc
 (
-kPageSize
+mapping
+.
+size
 )
 ;
 CopyFromProcess
@@ -860,7 +854,9 @@ mapping
 .
 start_addr
 )
-kPageSize
+mapping
+.
+size
 )
 ;
 }
