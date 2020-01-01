@@ -7746,15 +7746,6 @@ aStates
 =
 0
 ;
-if
-(
-IsDefunct
-(
-)
-)
-return
-CO_E_OBJNOTCONNECTED
-;
 /
 /
 XXX
