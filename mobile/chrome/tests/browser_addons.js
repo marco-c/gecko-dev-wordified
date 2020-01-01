@@ -2459,7 +2459,7 @@ document
 getElementsByClassName
 (
 "
-prompt
+action
 -
 button
 "

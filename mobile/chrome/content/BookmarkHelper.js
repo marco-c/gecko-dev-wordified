@@ -97,7 +97,7 @@ popup
 opened
 like
 the
-bookmakr
+bookmark
 popup
 BookmarkPopup
 .

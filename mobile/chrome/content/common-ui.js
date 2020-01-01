@@ -224,7 +224,7 @@ button
 className
 =
 "
-prompt
+action
 -
 button
 "
