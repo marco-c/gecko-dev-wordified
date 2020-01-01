@@ -317,7 +317,7 @@ MS_PER_S
 1000
 ;
 class
-nsNativeAudioStream
+NativeAudioStream
 :
 public
 AudioStream
@@ -325,11 +325,11 @@ AudioStream
 public
 :
 ~
-nsNativeAudioStream
+NativeAudioStream
 (
 )
 ;
-nsNativeAudioStream
+NativeAudioStream
 (
 )
 ;
@@ -1458,10 +1458,10 @@ return
 NS_OK
 ;
 }
-nsNativeAudioStream
+NativeAudioStream
 :
 :
-nsNativeAudioStream
+NativeAudioStream
 (
 )
 :
@@ -1485,11 +1485,11 @@ false
 )
 {
 }
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 ~
-nsNativeAudioStream
+NativeAudioStream
 (
 )
 {
@@ -1499,7 +1499,7 @@ Shutdown
 ;
 }
 nsresult
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 Init
@@ -1565,7 +1565,7 @@ gAudioStreamLog
 PR_LOG_ERROR
 (
 "
-nsNativeAudioStream
+NativeAudioStream
 :
 sa_stream_create_pcm
 error
@@ -1624,7 +1624,7 @@ gAudioStreamLog
 PR_LOG_ERROR
 (
 "
-nsNativeAudioStream
+NativeAudioStream
 :
 sa_stream_set_stream_type
 error
@@ -1680,7 +1680,7 @@ gAudioStreamLog
 PR_LOG_ERROR
 (
 "
-nsNativeAudioStream
+NativeAudioStream
 :
 sa_stream_open
 error
@@ -1707,7 +1707,7 @@ NS_OK
 ;
 }
 void
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 Shutdown
@@ -1743,7 +1743,7 @@ true
 ;
 }
 int32_t
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 WriteToBackend
@@ -1834,7 +1834,7 @@ aSamples
 ;
 }
 nsresult
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 Write
@@ -2069,7 +2069,7 @@ gAudioStreamLog
 PR_LOG_ERROR
 (
 "
-nsNativeAudioStream
+NativeAudioStream
 :
 sa_stream_write
 error
@@ -2090,7 +2090,7 @@ NS_OK
 ;
 }
 uint32_t
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 Available
@@ -2164,7 +2164,7 @@ short
 ;
 }
 void
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 SetVolume
@@ -2226,7 +2226,7 @@ gAudioStreamLog
 PR_LOG_ERROR
 (
 "
-nsNativeAudioStream
+NativeAudioStream
 :
 sa_stream_set_volume_abs
 error
@@ -2249,7 +2249,7 @@ aVolume
 endif
 }
 void
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 Drain
@@ -2378,7 +2378,7 @@ gAudioStreamLog
 PR_LOG_ERROR
 (
 "
-nsNativeAudioStream
+NativeAudioStream
 :
 sa_stream_write
 error
@@ -2460,7 +2460,7 @@ gAudioStreamLog
 PR_LOG_ERROR
 (
 "
-nsNativeAudioStream
+NativeAudioStream
 :
 sa_stream_drain
 error
@@ -2475,7 +2475,7 @@ true
 }
 }
 void
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 Pause
@@ -2506,7 +2506,7 @@ mAudioHandle
 ;
 }
 void
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 Resume
@@ -2537,7 +2537,7 @@ mAudioHandle
 ;
 }
 int64_t
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 GetPosition
@@ -2553,7 +2553,7 @@ GetPosition
 ;
 }
 int64_t
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 GetPositionInFrames
@@ -2569,7 +2569,7 @@ GetPositionInFrames
 ;
 }
 int64_t
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 GetPositionInFramesInternal
@@ -2646,7 +2646,7 @@ return
 ;
 }
 bool
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 IsPaused
@@ -2658,7 +2658,7 @@ mPaused
 ;
 }
 int32_t
-nsNativeAudioStream
+NativeAudioStream
 :
 :
 GetMinWriteSize
@@ -3147,19 +3147,19 @@ mCount
 }
 ;
 class
-nsBufferedAudioStream
+BufferedAudioStream
 :
 public
 AudioStream
 {
 public
 :
-nsBufferedAudioStream
+BufferedAudioStream
 (
 )
 ;
 ~
-nsBufferedAudioStream
+BufferedAudioStream
 (
 )
 ;
@@ -3267,7 +3267,7 @@ aFrames
 return
 static_cast
 <
-nsBufferedAudioStream
+BufferedAudioStream
 *
 >
 (
@@ -3297,7 +3297,7 @@ aState
 {
 static_cast
 <
-nsBufferedAudioStream
+BufferedAudioStream
 *
 >
 (
@@ -3734,7 +3734,7 @@ GetUseCubeb
 {
 return
 new
-nsBufferedAudioStream
+BufferedAudioStream
 (
 )
 ;
@@ -3743,7 +3743,7 @@ nsBufferedAudioStream
 endif
 return
 new
-nsNativeAudioStream
+NativeAudioStream
 (
 )
 ;
@@ -3754,17 +3754,17 @@ defined
 (
 MOZ_CUBEB
 )
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
-nsBufferedAudioStream
+BufferedAudioStream
 (
 )
 :
 mMonitor
 (
 "
-nsBufferedAudioStream
+BufferedAudioStream
 "
 )
 mLostFrames
@@ -3787,11 +3787,11 @@ INITIALIZED
 )
 {
 }
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 ~
-nsBufferedAudioStream
+BufferedAudioStream
 (
 )
 {
@@ -3801,7 +3801,7 @@ Shutdown
 ;
 }
 nsresult
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 Init
@@ -3923,7 +3923,7 @@ cubebContext
 &
 stream
 "
-nsBufferedAudioStream
+BufferedAudioStream
 "
 params
 GetCubebLatency
@@ -4025,7 +4025,7 @@ NS_OK
 ;
 }
 void
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 Shutdown
@@ -4059,7 +4059,7 @@ reset
 }
 }
 nsresult
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 Write
@@ -4264,7 +4264,7 @@ NS_OK
 ;
 }
 uint32_t
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 Available
@@ -4309,7 +4309,7 @@ Available
 ;
 }
 int32_t
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 GetMinWriteSize
@@ -4321,7 +4321,7 @@ return
 ;
 }
 void
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 SetVolume
@@ -4364,7 +4364,7 @@ aVolume
 ;
 }
 void
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 Drain
@@ -4409,7 +4409,7 @@ Wait
 }
 }
 void
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 Pause
@@ -4476,7 +4476,7 @@ STOPPED
 }
 }
 void
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 Resume
@@ -4543,7 +4543,7 @@ STARTED
 }
 }
 int64_t
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 GetPosition
@@ -4588,7 +4588,7 @@ off
 #
 endif
 int64_t
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 GetPositionInFrames
@@ -4617,7 +4617,7 @@ on
 #
 endif
 int64_t
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 GetPositionInFramesInternal
@@ -4637,7 +4637,7 @@ GetPositionInFramesUnlocked
 ;
 }
 int64_t
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 GetPositionInFramesUnlocked
@@ -4749,7 +4749,7 @@ INT64_MAX
 ;
 }
 bool
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 IsPaused
@@ -4770,7 +4770,7 @@ STOPPED
 ;
 }
 long
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 GetUnprocessed
@@ -4969,7 +4969,7 @@ flushedFrames
 ;
 }
 long
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 GetTimeStretched
@@ -5243,7 +5243,7 @@ processedFrames
 ;
 }
 long
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 DataCallback
@@ -5487,7 +5487,7 @@ servicedFrames
 ;
 }
 void
-nsBufferedAudioStream
+BufferedAudioStream
 :
 :
 StateCallback

@@ -196,7 +196,7 @@ virtual
 nsresult
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags

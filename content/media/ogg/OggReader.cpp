@@ -999,7 +999,7 @@ OggReader
 :
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags
@@ -1767,7 +1767,7 @@ frame_height
 ;
 if
 (
-nsVideoInfo
+VideoInfo
 :
 :
 ValidateVideoRegion

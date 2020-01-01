@@ -204,11 +204,11 @@ media
 frames
 .
 class
-nsVideoInfo
+VideoInfo
 {
 public
 :
-nsVideoInfo
+VideoInfo
 (
 )
 :
@@ -803,7 +803,7 @@ VideoData
 *
 Create
 (
-nsVideoInfo
+VideoInfo
 &
 aInfo
 ImageContainer
@@ -832,7 +832,7 @@ VideoData
 *
 Create
 (
-nsVideoInfo
+VideoInfo
 &
 aInfo
 ImageContainer
@@ -2220,7 +2220,7 @@ virtual
 nsresult
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags
@@ -2876,7 +2876,7 @@ required
 for
 playback
 .
-nsVideoInfo
+VideoInfo
 mInfo
 ;
 }

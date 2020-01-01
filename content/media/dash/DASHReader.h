@@ -325,7 +325,7 @@ only
 nsresult
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags

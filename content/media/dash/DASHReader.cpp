@@ -761,7 +761,7 @@ DASHReader
 :
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags
@@ -870,7 +870,7 @@ from
 child
 readers
 .
-nsVideoInfo
+VideoInfo
 audioInfo
 videoInfo
 ;

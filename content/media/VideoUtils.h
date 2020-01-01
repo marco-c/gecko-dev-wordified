@@ -877,7 +877,7 @@ must
 be
 validated
 by
-nsVideoInfo
+VideoInfo
 :
 :
 ValidateVideoRegion

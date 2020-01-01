@@ -12319,7 +12319,7 @@ get
 nsresult
 res
 ;
-nsVideoInfo
+VideoInfo
 info
 ;
 MetadataTags

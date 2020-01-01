@@ -261,7 +261,7 @@ MediaOmxReader
 :
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags
@@ -453,7 +453,7 @@ height
 if
 (
 !
-nsVideoInfo
+VideoInfo
 :
 :
 ValidateVideoRegion

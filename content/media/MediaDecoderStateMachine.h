@@ -6316,7 +6316,7 @@ when
 accessing
 this
 .
-nsVideoInfo
+VideoInfo
 mInfo
 ;
 }
