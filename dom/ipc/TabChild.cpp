@@ -3760,12 +3760,10 @@ isFirstPaint
 CSSToScreenScale
 intrinsicScale
 =
-AsyncPanZoomController
-:
-:
+metrics
+.
 CalculateIntrinsicScale
 (
-metrics
 )
 ;
 /
