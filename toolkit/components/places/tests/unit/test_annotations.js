@@ -3013,6 +3013,13 @@ lastModified4
 lastModified4
 )
 ;
+/
+/
+XXX
+bug
+381240
+/
+/
 do_check_true
 (
 lastModified4
