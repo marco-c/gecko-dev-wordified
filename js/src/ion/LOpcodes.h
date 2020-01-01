@@ -463,11 +463,6 @@ CompareStrictS
 \
 _
 (
-ParCompareS
-)
-\
-_
-(
 CompareB
 )
 \
