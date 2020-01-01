@@ -1746,10 +1746,12 @@ ID
 /
 /
 The
-elementsnodes
+elements
 are
 stored
-addrefed
+as
+weak
+pointers
 .
 nsSmallVoidArray
 mIdContentList

@@ -1001,6 +1001,16 @@ return
 this
 ;
 }
+virtual
+void
+NodeInfoChanged
+(
+nsINodeInfo
+*
+aOldNodeInfo
+)
+{
+}
 protected
 :
 virtual
