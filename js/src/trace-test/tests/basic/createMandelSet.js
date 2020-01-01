@@ -1,5 +1,14 @@
 /
 /
+|
+trace
+-
+test
+|
+slow
+;
+/
+/
 XXXbz
 I
 would
