@@ -1705,7 +1705,9 @@ NoIndex
 foundIndex
 =
 =
-kNotFound
+accessKeys
+.
+NoIndex
 |
 |
 index
@@ -2131,6 +2133,10 @@ PR_FALSE
 )
 )
 ;
+if
+(
+menubar
+)
 menubar
 -
 >
