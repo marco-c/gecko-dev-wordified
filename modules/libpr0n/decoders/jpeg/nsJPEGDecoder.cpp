@@ -465,13 +465,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -494,13 +487,6 @@ h
 include
 "
 ImageLogging
-.
-h
-"
-#
-include
-"
-nsIInterfaceRequestorUtils
 .
 h
 "
