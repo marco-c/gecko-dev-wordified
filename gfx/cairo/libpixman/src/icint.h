@@ -216,6 +216,15 @@ endif
 #
 include
 "
+cairo
+-
+platform
+.
+h
+"
+#
+include
+"
 pixman
 .
 h
