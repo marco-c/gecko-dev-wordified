@@ -737,6 +737,16 @@ nsIPrefBranch
 prefs
 )
 ;
+#
+ifdef
+MOZ_OMNIJAR
+nsresult
+CheckOmnijarChrome
+(
+)
+;
+#
+endif
 static
 nsresult
 RefreshWindow
@@ -837,7 +847,7 @@ char
 aBuffer
 PRInt32
 aLength
-nsILocalFile
+nsIURI
 *
 aManifest
 PRBool
