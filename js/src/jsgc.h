@@ -6847,6 +6847,16 @@ bool
 enabled
 )
 ;
+void
+SetFullCompartmentChecks
+(
+JSContext
+*
+cx
+bool
+enabled
+)
+;
 /
 *
 Wait
