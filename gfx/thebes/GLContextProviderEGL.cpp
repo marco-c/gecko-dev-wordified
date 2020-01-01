@@ -1366,7 +1366,7 @@ mHave_EGL_KHR_lock_surface
 =
 PR_FALSE
 ;
-mHave_EGL_ANGLE_surface_d3d_share_handle
+mHave_EGL_ANGLE_surface_d3d_texture_2d_share_handle
 =
 PR_FALSE
 ;
@@ -2975,7 +2975,7 @@ strstr
 (
 extensions
 "
-EGL_ANGLE_surface_d3d_share_handle
+EGL_ANGLE_surface_d3d_texture_2d_share_handle
 "
 )
 )
@@ -3036,7 +3036,7 @@ if
 fQuerySurfacePointerANGLE
 )
 {
-mHave_EGL_ANGLE_surface_d3d_share_handle
+mHave_EGL_ANGLE_surface_d3d_texture_2d_share_handle
 =
 PR_TRUE
 ;
@@ -3111,12 +3111,12 @@ mHave_EGL_KHR_lock_surface
 ;
 }
 PRBool
-HasANGLESurfaceD3DShareHandle
+HasANGLESurfaceD3DTexture2DShareHandle
 (
 )
 {
 return
-mHave_EGL_ANGLE_surface_d3d_share_handle
+mHave_EGL_ANGLE_surface_d3d_texture_2d_share_handle
 ;
 }
 void
@@ -3544,7 +3544,7 @@ PRPackedBool
 mHave_EGL_KHR_lock_surface
 ;
 PRPackedBool
-mHave_EGL_ANGLE_surface_d3d_share_handle
+mHave_EGL_ANGLE_surface_d3d_texture_2d_share_handle
 ;
 }
 sEGLLibrary
@@ -4734,7 +4734,7 @@ if
 !
 sEGLLibrary
 .
-HasANGLESurfaceD3DShareHandle
+HasANGLESurfaceD3DTexture2DShareHandle
 (
 )
 )
