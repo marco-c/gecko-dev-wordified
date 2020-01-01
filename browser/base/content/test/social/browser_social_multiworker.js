@@ -87,6 +87,12 @@ function
 finishcb
 )
 {
+Social
+.
+enabled
+=
+true
+;
 runSocialTests
 (
 tests
