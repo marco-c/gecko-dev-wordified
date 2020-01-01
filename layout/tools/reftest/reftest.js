@@ -2458,16 +2458,10 @@ vendor
 vendorSub
 "
 "
-vendorComment
-"
-"
 product
 "
 "
 productSub
-"
-"
-productComment
 "
 "
 platform
