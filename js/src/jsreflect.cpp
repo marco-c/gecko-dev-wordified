@@ -8219,7 +8219,8 @@ lineno
 RawValue
 unrootedAtomContents
 (
-RawAtom
+JSAtom
+*
 atom
 )
 {

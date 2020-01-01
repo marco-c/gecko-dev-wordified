@@ -167,11 +167,6 @@ Barrier
 .
 h
 "
-ForwardDeclareJS
-(
-Atom
-)
-;
 namespace
 js
 {
@@ -1458,10 +1453,8 @@ inline
 void
 setGuessedAtom
 (
-js
-:
-:
-RawAtom
+JSAtom
+*
 atom
 )
 ;

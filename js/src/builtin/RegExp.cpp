@@ -1361,10 +1361,11 @@ empty
 (
 )
 ?
-RawAtom
 (
-unescaped
+JSAtom
+*
 )
+unescaped
 :
 sb
 .

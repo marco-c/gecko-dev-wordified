@@ -150,11 +150,6 @@ h
 "
 ForwardDeclareJS
 (
-Atom
-)
-;
-ForwardDeclareJS
-(
 FlatString
 )
 ;
@@ -813,10 +808,8 @@ created
 .
 *
 /
-js
-:
-:
-RawAtom
+JSAtom
+*
 finishAtom
 (
 )

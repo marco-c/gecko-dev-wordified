@@ -213,11 +213,6 @@ CommonPropertyNames
 .
 h
 "
-ForwardDeclareJS
-(
-Atom
-)
-;
 struct
 JSIdArray
 {
@@ -497,7 +492,8 @@ bits
 }
 AtomStateEntry
 (
-RawAtom
+JSAtom
+*
 ptr
 bool
 tagged
@@ -1288,7 +1284,8 @@ true
 }
 ;
 extern
-RawAtom
+JSAtom
+*
 Atomize
 (
 JSContext
@@ -1318,7 +1315,8 @@ AllowGC
 allowGC
 >
 extern
-RawAtom
+JSAtom
+*
 AtomizeChars
 (
 JSContext
@@ -1348,7 +1346,8 @@ AllowGC
 allowGC
 >
 extern
-RawAtom
+JSAtom
+*
 AtomizeString
 (
 JSContext

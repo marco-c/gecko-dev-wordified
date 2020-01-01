@@ -453,7 +453,8 @@ return
 str
 ;
 }
-RawAtom
+JSAtom
+*
 StringBuffer
 :
 :
@@ -495,7 +496,8 @@ names
 .
 empty
 ;
-RawAtom
+JSAtom
+*
 atom
 =
 AtomizeChars

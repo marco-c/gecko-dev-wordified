@@ -1602,7 +1602,8 @@ memory
 /
 JS_ALWAYS_INLINE
 static
-RawAtom
+JSAtom
+*
 AtomizeAndTakeOwnership
 (
 JSContext
@@ -1631,7 +1632,8 @@ length
 ;
 if
 (
-RawAtom
+JSAtom
+*
 s
 =
 cx
@@ -1777,7 +1779,8 @@ if
 p
 )
 {
-RawAtom
+JSAtom
+*
 atom
 =
 p
@@ -1856,7 +1859,8 @@ return
 NULL
 ;
 }
-RawAtom
+JSAtom
+*
 atom
 =
 flat
@@ -1940,7 +1944,8 @@ allowGC
 >
 JS_ALWAYS_INLINE
 static
-RawAtom
+JSAtom
+*
 AtomizeAndCopyChars
 (
 JSContext
@@ -1958,7 +1963,8 @@ ib
 {
 if
 (
-RawAtom
+JSAtom
+*
 s
 =
 cx
@@ -2093,7 +2099,8 @@ if
 p
 )
 {
-RawAtom
+JSAtom
+*
 atom
 =
 p
@@ -2145,7 +2152,8 @@ flat
 return
 NULL
 ;
-RawAtom
+JSAtom
+*
 atom
 =
 flat
@@ -2210,7 +2218,8 @@ template
 AllowGC
 allowGC
 >
-RawAtom
+JSAtom
+*
 js
 :
 :
@@ -2496,7 +2505,8 @@ ib
 ;
 }
 template
-RawAtom
+JSAtom
+*
 js
 :
 :
@@ -2519,7 +2529,8 @@ ib
 )
 ;
 template
-RawAtom
+JSAtom
+*
 js
 :
 :
@@ -2541,7 +2552,8 @@ InternBehavior
 ib
 )
 ;
-RawAtom
+JSAtom
+*
 js
 :
 :
@@ -2741,7 +2753,8 @@ template
 AllowGC
 allowGC
 >
-RawAtom
+JSAtom
+*
 js
 :
 :
@@ -2794,7 +2807,8 @@ ib
 ;
 }
 template
-RawAtom
+JSAtom
+*
 js
 :
 :
@@ -2817,7 +2831,8 @@ ib
 )
 ;
 template
-RawAtom
+JSAtom
+*
 js
 :
 :
