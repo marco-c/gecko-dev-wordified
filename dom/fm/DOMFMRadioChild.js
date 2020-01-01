@@ -346,6 +346,9 @@ nsIDOMFMRadio
 Ci
 .
 nsIDOMGlobalPropertyInitializer
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 /
@@ -583,7 +586,7 @@ antennaChange
 ;
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 messages

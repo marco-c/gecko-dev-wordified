@@ -5212,7 +5212,7 @@ aWindow
 {
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 [
@@ -5372,6 +5372,9 @@ nsIDOMContactManager
 Ci
 .
 nsIDOMGlobalPropertyInitializer
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classInfo

@@ -1574,7 +1574,7 @@ aWindow
 {
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 [
@@ -1765,6 +1765,9 @@ XPCOMUtils
 generateQI
 (
 [
+Ci
+.
+nsISupportsWeakReference
 Ci
 .
 mozIDOMApplicationRegistry
@@ -2329,7 +2332,7 @@ null
 ;
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 [
@@ -3973,6 +3976,9 @@ generateQI
 Ci
 .
 mozIDOMApplication
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classInfo
@@ -4054,7 +4060,7 @@ aWindow
 {
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 [
@@ -4994,6 +5000,9 @@ generateQI
 Ci
 .
 mozIDOMApplicationMgmt
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classInfo

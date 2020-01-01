@@ -278,6 +278,9 @@ nsIDOMMozAlarmsManager
 Ci
 .
 nsIDOMGlobalPropertyInitializer
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classInfo
@@ -985,7 +988,7 @@ listened
 .
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 [

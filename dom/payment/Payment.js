@@ -251,6 +251,9 @@ nsINavigatorPayment
 Ci
 .
 nsIDOMGlobalPropertyInitializer
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classID
@@ -496,7 +499,7 @@ aWindow
 ;
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 PAYMENT_IPC_MSG_NAMES

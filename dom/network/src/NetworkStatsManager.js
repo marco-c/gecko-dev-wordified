@@ -1375,7 +1375,7 @@ null
 }
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 [
@@ -1438,6 +1438,9 @@ nsIDOMMozNetworkStatsManager
 Ci
 .
 nsIDOMGlobalPropertyInitializer
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classInfo
