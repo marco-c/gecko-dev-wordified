@@ -1931,8 +1931,10 @@ mOwnerRule
 /
 weak
 ref
+nsRefPtr
+<
 CSSRuleListImpl
-*
+>
 mRuleCollection
 ;
 nsIDocument
