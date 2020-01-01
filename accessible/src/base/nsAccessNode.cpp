@@ -2896,6 +2896,7 @@ frame
 ;
 while
 (
+(
 parentFrame
 =
 parentFrame
@@ -2903,6 +2904,7 @@ parentFrame
 >
 GetParent
 (
+)
 )
 )
 nsAccUtils

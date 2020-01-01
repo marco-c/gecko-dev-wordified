@@ -8855,7 +8855,7 @@ tableNode
 ;
 NS_ASSERTION
 (
-roleMapEntry
+tableRoleMapEntry
 &
 &
 !
@@ -8864,7 +8864,7 @@ nsCRT
 :
 strcmp
 (
-roleMapEntry
+tableRoleMapEntry
 -
 >
 roleString
