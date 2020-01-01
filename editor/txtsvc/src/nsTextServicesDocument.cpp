@@ -15119,8 +15119,10 @@ PRInt32
 aResult
 )
 {
-nsresult
-result
+*
+aResult
+=
+0
 ;
 if
 (
@@ -15128,6 +15130,7 @@ if
 sRangeHelper
 )
 {
+nsresult
 result
 =
 CallGetService
