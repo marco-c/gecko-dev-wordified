@@ -1994,11 +1994,12 @@ return
 (
 HashNumber
 )
-value_
-.
-asRawBits
+JSVAL_TO_IMPL
 (
+value_
 )
+.
+asBits
 ;
 }
 bool
