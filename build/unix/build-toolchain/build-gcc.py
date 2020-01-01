@@ -1308,7 +1308,9 @@ glibc_version
 "
 2
 .
-7
+6
+.
+1
 "
 #
 FIXME
