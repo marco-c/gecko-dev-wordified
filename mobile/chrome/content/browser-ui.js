@@ -6092,7 +6092,7 @@ switchTask
 try
 {
 let
-phone
+shell
 =
 Cc
 [
@@ -6101,9 +6101,11 @@ mozilla
 .
 org
 /
-phone
+browser
 /
-support
+shell
+-
+service
 ;
 1
 "
@@ -6113,10 +6115,10 @@ createInstance
 (
 Ci
 .
-nsIPhoneSupport
+nsIShellService
 )
 ;
-phone
+shell
 .
 switchTask
 (
