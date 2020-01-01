@@ -116,10 +116,11 @@ MPL
 body
 {
 background
--
-color
 :
-white
+-
+moz
+-
+dialog
 ;
 }
 /

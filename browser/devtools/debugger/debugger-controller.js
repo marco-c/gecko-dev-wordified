@@ -582,7 +582,7 @@ initialize
 ;
 DebuggerView
 .
-toggleCloseButton
+showCloseButton
 (
 !
 this
