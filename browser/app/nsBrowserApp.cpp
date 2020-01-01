@@ -463,7 +463,7 @@ wide_msg
 else
 MessageBoxW
 (
-NULL
+nullptr
 wide_msg
 L
 "
@@ -2036,10 +2036,10 @@ get
 )
 GENERIC_READ
 0
-NULL
+nullptr
 OPEN_EXISTING
 FILE_ATTRIBUTE_NORMAL
-NULL
+nullptr
 )
 ;
 if
@@ -2104,7 +2104,7 @@ buffer
 1
 &
 bytesRead
-NULL
+nullptr
 )
 |
 |
@@ -2190,7 +2190,7 @@ while
 ptr
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -2846,7 +2846,7 @@ xulurl
 =
 CFURLCreateCopyAppendingPathComponent
 (
-NULL
+nullptr
 absfwurl
 CFSTR
 (
@@ -2869,7 +2869,7 @@ xpcomurl
 =
 CFURLCreateCopyAppendingPathComponent
 (
-NULL
+nullptr
 xulurl
 CFSTR
 (

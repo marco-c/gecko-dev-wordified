@@ -351,7 +351,7 @@ Release
 *
 ppT
 =
-NULL
+nullptr
 ;
 }
 }
@@ -434,11 +434,11 @@ mRef
 )
 mShellItemArray
 (
-NULL
+nullptr
 )
 mUnkSite
 (
-NULL
+nullptr
 )
 mTargetIsFileSystemLink
 (
@@ -766,7 +766,7 @@ IShellItem
 *
 item
 =
-NULL
+nullptr
 ;
 if
 (
@@ -787,7 +787,7 @@ item
 LPWSTR
 str
 =
-NULL
+nullptr
 ;
 if
 (
@@ -883,7 +883,7 @@ IShellItem
 *
 item
 =
-NULL
+nullptr
 ;
 if
 (
@@ -979,7 +979,7 @@ aInt
 *
 aInt
 =
-NULL
+nullptr
 ;
 return
 mShellItemArray
@@ -1089,7 +1089,7 @@ aInt
 *
 aInt
 =
-NULL
+nullptr
 ;
 return
 mUnkSite
@@ -1166,7 +1166,7 @@ IServiceProvider
 *
 pSvcProvider
 =
-NULL
+nullptr
 ;
 hr
 =
@@ -1220,7 +1220,7 @@ IExecuteCommandHost
 *
 pHost
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1492,7 +1492,7 @@ hr
 CoCreateInstance
 (
 CLSID_ApplicationAssociationRegistration
-NULL
+nullptr
 CLSCTX_INPROC
 IID_IApplicationAssociationRegistration
 (
@@ -1783,7 +1783,7 @@ if
 !
 GetModuleFileName
 (
-NULL
+nullptr
 buffer
 MAX_PATH
 )
@@ -2053,8 +2053,8 @@ L
 "
 AppUserModelID
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -2527,7 +2527,7 @@ aItem
 >
 BindToHandler
 (
-NULL
+nullptr
 BHID_DataObject
 IID_IDataObject
 reinterpret_cast
@@ -2691,7 +2691,7 @@ name
 LPWSTR
 str
 =
-NULL
+nullptr
 ;
 mTargetIsFileSystemLink
 =
@@ -2925,19 +2925,19 @@ seinfo
 .
 fMask
 =
-NULL
+nullptr
 ;
 seinfo
 .
 hwnd
 =
-NULL
+nullptr
 ;
 seinfo
 .
 lpVerb
 =
-NULL
+nullptr
 ;
 seinfo
 .
@@ -2955,7 +2955,7 @@ seinfo
 .
 lpDirectory
 =
-NULL
+nullptr
 ;
 seinfo
 .
@@ -3089,7 +3089,7 @@ IApplicationActivationManager
 *
 activateMgr
 =
-NULL
+nullptr
 ;
 DWORD
 processID
@@ -3101,7 +3101,7 @@ FAILED
 CoCreateInstance
 (
 CLSID_ApplicationActivationManager
-NULL
+nullptr
 CLSCTX_LOCAL_SERVER
 IID_IApplicationActivationManager
 (
@@ -3226,7 +3226,7 @@ hr
 CoAllowSetForegroundWindow
 (
 activateMgr
-NULL
+nullptr
 )
 ;
 if
@@ -3612,7 +3612,7 @@ IUnknown
 *
 punk
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3688,7 +3688,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3810,7 +3810,7 @@ Embedding
 {
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 CExecuteCommandVerb
@@ -3872,7 +3872,7 @@ Release
 ;
 ppi
 =
-NULL
+nullptr
 ;
 /
 /
@@ -3909,10 +3909,10 @@ if
 !
 SetTimer
 (
-NULL
+nullptr
 1
 HEARTBEAT_MSEC
-NULL
+nullptr
 )
 )
 {

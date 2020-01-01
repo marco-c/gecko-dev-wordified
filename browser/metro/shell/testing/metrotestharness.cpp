@@ -303,7 +303,7 @@ fmt
 va_list
 a
 =
-NULL
+nullptr
 ;
 wchar_t
 szDebugString
@@ -390,7 +390,7 @@ fmt
 va_list
 a
 =
-NULL
+nullptr
 ;
 wchar_t
 szDebugString
@@ -512,7 +512,7 @@ if
 !
 GetModuleFileName
 (
-NULL
+nullptr
 buffer
 MAX_PATH
 )
@@ -799,8 +799,8 @@ L
 "
 AppUserModelID
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -982,7 +982,7 @@ FAILED
 CoCreateInstance
 (
 CLSID_ApplicationActivationManager
-NULL
+nullptr
 CLSCTX_LOCAL_SERVER
 IID_IApplicationActivationManager
 (
@@ -1117,7 +1117,7 @@ hr
 CoAllowSetForegroundWindow
 (
 activateMgr
-NULL
+nullptr
 )
 ;
 if
@@ -1297,7 +1297,7 @@ if
 !
 GetModuleFileNameA
 (
-NULL
+nullptr
 path
 MAX_PATH
 )
@@ -1404,10 +1404,10 @@ CreateFileA
 testFilePath
 GENERIC_WRITE
 0
-NULL
+nullptr
 CREATE_ALWAYS
 FILE_ATTRIBUTE_NORMAL
-NULL
+nullptr
 )
 ;
 if
@@ -1460,7 +1460,7 @@ asciiParams
 GetLength
 (
 )
-NULL
+nullptr
 0
 )
 )
@@ -1643,7 +1643,7 @@ PeekMessage
 (
 &
 msg
-NULL
+nullptr
 0
 0
 PM_REMOVE
@@ -1691,7 +1691,7 @@ argv
 {
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 int
