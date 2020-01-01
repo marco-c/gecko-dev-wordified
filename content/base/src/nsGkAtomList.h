@@ -12655,13 +12655,6 @@ DeckFrame
 )
 GK_ATOM
 (
-directionalFrame
-"
-DirectionalFrame
-"
-)
-GK_ATOM
-(
 fieldSetFrame
 "
 FieldSetFrame
