@@ -9328,7 +9328,7 @@ SetAsEmpty
 )
 ;
 return
-NS_OK
+OK
 ;
 }
 nsRefPtr
