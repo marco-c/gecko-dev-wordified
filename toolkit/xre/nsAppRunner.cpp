@@ -4000,7 +4000,7 @@ NS_OK
 #
 else
 return
-NS_ERROR_NOT_AVIALABLE
+NS_ERROR_NOT_AVAILABLE
 ;
 #
 endif
