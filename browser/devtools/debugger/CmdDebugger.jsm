@@ -1009,7 +1009,7 @@ breakaddlineLineDesc
 returnType
 :
 "
-string
+html
 "
 exec
 :
@@ -1253,7 +1253,7 @@ breakdelBreakidDesc
 returnType
 :
 "
-string
+html
 "
 exec
 :
@@ -2219,7 +2219,7 @@ params
 returnType
 :
 "
-dom
+html
 "
 exec
 :

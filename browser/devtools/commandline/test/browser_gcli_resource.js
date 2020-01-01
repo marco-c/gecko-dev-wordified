@@ -425,7 +425,7 @@ resource
 =
 types
 .
-createType
+getType
 (
 '
 resource
@@ -537,7 +537,7 @@ resource
 =
 types
 .
-createType
+getType
 (
 {
 name
@@ -660,7 +660,7 @@ resource
 =
 types
 .
-createType
+getType
 (
 {
 name
@@ -777,7 +777,7 @@ scriptRes
 =
 types
 .
-createType
+getType
 (
 {
 name
@@ -814,7 +814,7 @@ styleRes
 =
 types
 .
-createType
+getType
 (
 {
 name
@@ -851,7 +851,7 @@ allRes
 =
 types
 .
-createType
+getType
 (
 {
 name
@@ -948,7 +948,7 @@ res1
 =
 types
 .
-createType
+getType
 (
 {
 name
@@ -978,7 +978,7 @@ res2
 =
 types
 .
-createType
+getType
 (
 '
 resource
