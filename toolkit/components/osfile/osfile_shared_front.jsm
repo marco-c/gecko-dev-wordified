@@ -384,7 +384,11 @@ this
 readTo
 (
 buffer
+{
 bytes
+:
+bytes
+}
 )
 ;
 if
