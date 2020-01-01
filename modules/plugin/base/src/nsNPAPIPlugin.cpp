@@ -2445,7 +2445,6 @@ nsNPAPIPlugin
 ~
 nsNPAPIPlugin
 (
-void
 )
 {
 /

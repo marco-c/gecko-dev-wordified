@@ -930,7 +930,7 @@ class
 .
 NPPluginFuncs
 *
-fCallbacks
+mCallbacks
 ;
 /
 /
@@ -950,7 +950,7 @@ the
 browser
 .
 NPP_t
-fNPP
+mNPP
 ;
 #
 ifdef
@@ -991,9 +991,6 @@ PRPackedBool
 mCached
 ;
 PRPackedBool
-mIsJavaPlugin
-;
-PRPackedBool
 mWantsAllNetworkStreams
 ;
 public
@@ -1018,7 +1015,7 @@ mInPluginInitCall
 ;
 PRLibrary
 *
-fLibrary
+mLibrary
 ;
 nsInstanceStream
 *
