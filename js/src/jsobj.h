@@ -9053,8 +9053,7 @@ strict
 js
 :
 :
-Value
-*
+MutableHandleValue
 vp
 )
 ;
