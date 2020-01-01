@@ -433,6 +433,9 @@ record
 "
 )
 ;
+let
+resp
+=
 res
 .
 get
@@ -547,11 +550,9 @@ roquefort
 ;
 do_check_eq
 (
-res
+resp
 .
-lastChannel
-.
-responseStatus
+status
 200
 )
 ;
@@ -640,11 +641,9 @@ do_check_eq
 (
 Records
 .
-lastResource
+response
 .
-lastChannel
-.
-responseStatus
+status
 200
 )
 ;
