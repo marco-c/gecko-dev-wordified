@@ -3609,9 +3609,9 @@ transparent
 {
 nsCOMPtr
 <
-nsIDOMViewCSS
+nsIDOMWindow
 >
-viewCSS
+window
 ;
 res
 =
@@ -3623,7 +3623,7 @@ GetDefaultViewCSS
 aElement
 getter_AddRefs
 (
-viewCSS
+window
 )
 )
 ;
@@ -3641,7 +3641,7 @@ cssDecl
 ;
 res
 =
-viewCSS
+window
 -
 >
 GetComputedStyle

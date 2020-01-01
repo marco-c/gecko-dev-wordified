@@ -496,7 +496,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMAbstractView
+nsIDOMWindow
 >
 mView
 ;

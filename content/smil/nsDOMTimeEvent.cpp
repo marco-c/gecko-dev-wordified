@@ -456,13 +456,6 @@ nsIInterfaceRequestorUtils
 .
 h
 "
-#
-include
-"
-nsIDOMAbstractView
-.
-h
-"
 nsDOMTimeEvent
 :
 :
@@ -673,7 +666,7 @@ nsDOMTimeEvent
 :
 GetView
 (
-nsIDOMAbstractView
+nsIDOMWindow
 *
 *
 aView
@@ -724,7 +717,7 @@ const
 nsAString
 &
 aTypeArg
-nsIDOMAbstractView
+nsIDOMWindow
 *
 aViewArg
 PRInt32
