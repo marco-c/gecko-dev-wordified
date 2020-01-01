@@ -867,10 +867,6 @@ init
 (
 )
 {
-chunk
-=
-NULL
-;
 for
 (
 unsigned
@@ -3040,10 +3036,6 @@ uint32
 releaseInterval
 )
 {
-chunk
-=
-NULL
-;
 /
 *
 Remove
@@ -3699,14 +3691,6 @@ endif
 #
 ifdef
 JS_METHODJIT
-js
-:
-:
-CheckCompartmentScripts
-(
-this
-)
-;
 for
 (
 JSScript

@@ -2527,16 +2527,6 @@ js
 gc
 :
 :
-Chunk
-*
-chunk
-;
-js
-:
-:
-gc
-:
-:
 ArenaList
 arenas
 [

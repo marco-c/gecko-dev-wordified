@@ -33654,6 +33654,14 @@ pn
 ;
 }
 else
+{
+pn
+-
+>
+pn_expr
+=
+NULL
+;
 if
 (
 opn
@@ -33680,13 +33688,6 @@ out
 .
 *
 /
-pn
--
->
-pn_expr
-=
-NULL
-;
 pn
 -
 >
@@ -33723,6 +33724,7 @@ opn
 tc
 )
 ;
+}
 }
 return
 pn
