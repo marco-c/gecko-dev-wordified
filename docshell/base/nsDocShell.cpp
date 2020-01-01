@@ -55294,6 +55294,11 @@ nsIRequest
 :
 :
 LOAD_BYPASS_CACHE
+|
+nsIRequest
+:
+:
+LOAD_FRESH_CONNECTION
 ;
 break
 ;
