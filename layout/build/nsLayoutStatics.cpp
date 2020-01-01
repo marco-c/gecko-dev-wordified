@@ -728,6 +728,13 @@ nsXMLHttpRequest
 h
 "
 #
+include
+"
+nsIFocusEventSuppressor
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1772,6 +1779,10 @@ nsXMLHttpRequest
 :
 :
 ShutdownACCache
+(
+)
+;
+NS_ShutdownFocusSuppressor
 (
 )
 ;
