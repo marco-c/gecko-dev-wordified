@@ -82,12 +82,6 @@ predicted
 *
 /
 #
-ifndef
-Likely_h_
-#
-define
-Likely_h_
-#
 if
 defined
 (
@@ -160,10 +154,3 @@ x
 )
 #
 endif
-#
-endif
-/
-*
-Likely_h_
-*
-/

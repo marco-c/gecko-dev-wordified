@@ -614,6 +614,13 @@ h
 #
 include
 "
+nsIURL
+.
+h
+"
+#
+include
+"
 nsILoadGroup
 .
 h
@@ -721,6 +728,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsIServiceManager
+.
+h
+"
 #
 include
 "

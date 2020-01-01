@@ -668,6 +668,13 @@ h
 #
 include
 "
+nsThemeConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -1702,9 +1709,7 @@ aDestructRoot
 Child
 frame
 enumeration
-const
 nsFrameList
-&
 nsContainerFrame
 :
 :

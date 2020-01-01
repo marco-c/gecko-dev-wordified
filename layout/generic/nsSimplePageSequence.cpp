@@ -559,6 +559,13 @@ Options
 #
 include
 "
+nsIPrintSettings
+.
+h
+"
+#
+include
+"
 nsIPrintOptions
 .
 h

@@ -473,6 +473,13 @@ nsMappedAttributes
 .
 h
 "
+#
+include
+"
+nsDOMMemoryReporter
+.
+h
+"
 using
 namespace
 mozilla
@@ -537,6 +544,11 @@ nsGenericHTMLElement
 /
 nsIDOMHTMLDivElement
 NS_DECL_NSIDOMHTMLDIVELEMENT
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+nsHTMLDivElement
+nsGenericHTMLElement
+)
 virtual
 bool
 ParseAttribute

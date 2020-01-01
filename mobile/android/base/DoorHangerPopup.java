@@ -1011,15 +1011,6 @@ hidePopup
 return
 ;
 }
-if
-(
-!
-mInflated
-)
-init
-(
-)
-;
 /
 /
 Hide

@@ -497,6 +497,13 @@ nsCSSAnonBoxes
 .
 h
 "
+#
+include
+"
+nsIDOMHTMLInputElement
+.
+h
+"
 static
 void
 PaintCheckMark

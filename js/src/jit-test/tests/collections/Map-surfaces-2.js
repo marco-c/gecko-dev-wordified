@@ -86,16 +86,6 @@ Map
 .
 prototype
 .
-size
-)
-;
-testcase
-(
-obj
-Map
-.
-prototype
-.
 get
 "
 x

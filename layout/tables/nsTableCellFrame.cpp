@@ -455,6 +455,13 @@ h
 #
 include
 "
+nsTableFrame
+.
+h
+"
+#
+include
+"
 nsTableRowGroupFrame
 .
 h

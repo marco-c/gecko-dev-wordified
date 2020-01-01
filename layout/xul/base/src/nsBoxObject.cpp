@@ -474,6 +474,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -534,6 +541,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsIFrame
+.
+h
+"
 #
 include
 "

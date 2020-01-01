@@ -1411,9 +1411,7 @@ GetBaseline
 const
 ;
 virtual
-const
 nsFrameList
-&
 GetChildList
 (
 ChildListID
@@ -4922,11 +4920,6 @@ const
 nsDisplayList
 &
 aList
-FILE
-*
-aFile
-=
-stdout
 )
 ;
 #

@@ -7247,7 +7247,7 @@ all
 )
 ;
 }
-uint32_t
+size_t
 count
 (
 )
@@ -8904,7 +8904,7 @@ all
 )
 ;
 }
-uint32_t
+size_t
 count
 (
 )

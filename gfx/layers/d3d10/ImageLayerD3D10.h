@@ -569,7 +569,7 @@ mCrView
 }
 ;
 struct
-TextureD3D10BackendData
+CairoD3D10BackendData
 :
 public
 ImageBackendData

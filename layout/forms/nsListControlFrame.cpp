@@ -712,6 +712,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsCSSRendering
 .
 h

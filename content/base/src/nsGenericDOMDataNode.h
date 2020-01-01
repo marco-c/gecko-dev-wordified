@@ -494,6 +494,13 @@ h
 #
 include
 "
+nsDOMMemoryReporter
+.
+h
+"
+#
+include
+"
 nsISMILAttr
 .
 h
@@ -646,7 +653,7 @@ nsIContent
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_SIZEOF_EXCLUDING_THIS
+NS_DECL_DOM_MEMORY_REPORTER_SIZEOF
 nsGenericDOMDataNode
 (
 already_AddRefed

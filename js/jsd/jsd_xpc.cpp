@@ -14207,10 +14207,7 @@ if
 !
 JS_DumpHeap
 (
-JS_GetRuntime
-(
 cx
-)
 file
 NULL
 JSTRACE_OBJECT

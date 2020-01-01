@@ -583,6 +583,7 @@ aIUI
 )
 ;
 }
+;
 StyleInspector
 .
 prototype
@@ -760,7 +761,7 @@ highlighter
 .
 button
 .
-tooltip2
+tooltip
 "
 )
 accesskey
