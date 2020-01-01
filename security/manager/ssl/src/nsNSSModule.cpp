@@ -203,6 +203,13 @@ nsCrypto
 .
 h
 "
+#
+include
+"
+nsCryptoHash
+.
+h
+"
 /
 /
 For
