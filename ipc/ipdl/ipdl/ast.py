@@ -745,8 +745,14 @@ t
 )
 :
         
+for
+toState
+in
 t
 .
+toStates
+:
+            
 toState
 .
 accept
