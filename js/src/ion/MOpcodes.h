@@ -474,11 +474,6 @@ NewStringObject
 \
 _
 (
-InitElem
-)
-\
-_
-(
 InitProp
 )
 \

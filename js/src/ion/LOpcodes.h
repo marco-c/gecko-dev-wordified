@@ -243,11 +243,6 @@ ParBailout
 \
 _
 (
-InitElem
-)
-\
-_
-(
 InitProp
 )
 \
