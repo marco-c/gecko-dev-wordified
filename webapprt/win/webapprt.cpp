@@ -240,6 +240,18 @@ ini
 ;
 const
 char
+kWEBAPPRT_INI
+[
+]
+=
+"
+webapprt
+.
+ini
+"
+;
+const
+char
 kWEBAPPRT_PATH
 [
 ]
@@ -1310,7 +1322,7 @@ joinPath
 (
 rtIniPath
 rtPath
-kAPP_INI
+kWEBAPPRT_INI
 MAXPATHLEN
 )
 ;
