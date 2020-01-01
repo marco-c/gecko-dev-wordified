@@ -797,12 +797,12 @@ here
 if
 ionStackLimit
 is
-NULL
+MAXADDR
 but
 interrupt
+/
+/
 has
-/
-/
 not
 yet
 been

@@ -1145,13 +1145,14 @@ but
 ionStackLimit
 is
 *
-NULL
+MAXADDR
 .
 *
 /
 ionStackLimit
 =
-0
+-
+1
 ;
 /
 *
