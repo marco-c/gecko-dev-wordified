@@ -2107,14 +2107,6 @@ ShellOperationCallback
 )
 ;
 }
-#
-ifdef
-WINCE
-int
-errno
-;
-#
-endif
 static
 void
 Process
@@ -2274,8 +2266,6 @@ file
 )
 )
 )
-#
-endif
 {
 /
 *
@@ -2492,6 +2482,13 @@ file
 return
 ;
 }
+#
+endif
+/
+*
+WINCE
+*
+/
 /
 *
 It
