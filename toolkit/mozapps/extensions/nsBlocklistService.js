@@ -6609,6 +6609,9 @@ theme
 "
 locale
 "
+"
+dictionary
+"
 ]
 function
 (

@@ -676,6 +676,7 @@ DEFAULT_CACHE_TYPES
 extension
 theme
 locale
+dictionary
 "
 ;
 const
@@ -5613,6 +5614,19 @@ type
 =
 "
 theme
+"
+;
+break
+;
+case
+3
+:
+addon
+.
+type
+=
+"
+dictionary
 "
 ;
 break
