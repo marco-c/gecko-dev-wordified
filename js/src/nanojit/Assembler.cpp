@@ -10619,11 +10619,6 @@ LIR_qirsh
 case
 LIR_qior
 :
-CASE64
-(
-LIR_qaddp
-:
-)
 case
 LIR_qxor
 :
@@ -10641,11 +10636,6 @@ endif
 case
 LIR_add
 :
-CASE32
-(
-LIR_iaddp
-:
-)
 case
 LIR_sub
 :
