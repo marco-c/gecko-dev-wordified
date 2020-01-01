@@ -599,6 +599,9 @@ imgIContainer
 class
 nsDOMDataTransfer
 ;
+class
+MouseEnterLeaveDispatcher
+;
 namespace
 mozilla
 {
@@ -1496,6 +1499,10 @@ aIsFullScreen
 ;
 protected
 :
+friend
+class
+MouseEnterLeaveDispatcher
+;
 void
 UpdateCursor
 (
