@@ -851,9 +851,11 @@ getBrowser
 (
 )
 .
-_frameLoader
+_contentViewManager
 .
-setViewportScale
+rootContentView
+.
+setScale
 (
 zoomLevel
 zoomLevel
@@ -863,9 +865,11 @@ getBrowser
 (
 )
 .
-_frameLoader
+_contentViewManager
 .
-scrollViewportTo
+rootContentView
+.
+scrollTo
 (
 nextRect
 .
