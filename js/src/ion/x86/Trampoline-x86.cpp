@@ -547,6 +547,9 @@ cx
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /

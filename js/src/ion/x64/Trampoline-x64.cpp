@@ -574,6 +574,9 @@ ArgReg4
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /

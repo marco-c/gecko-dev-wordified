@@ -5228,6 +5228,14 @@ IonCode
 code
 )
 {
+code
+-
+>
+trace
+(
+trc
+)
+;
 }
 #
 ifdef
