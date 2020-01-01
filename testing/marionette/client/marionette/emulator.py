@@ -85,6 +85,10 @@ from
 emulator_battery
 import
 EmulatorBattery
+from
+emulator_geo
+import
+EmulatorGeo
 class
 LogcatProc
 (
@@ -354,6 +358,15 @@ self
 battery
 =
 EmulatorBattery
+(
+self
+)
+        
+self
+.
+geo
+=
+EmulatorGeo
 (
 self
 )
@@ -2486,6 +2499,14 @@ self
 _emulator_launched
 =
 True
+        
+self
+.
+geo
+.
+set_default_location
+(
+)
         
 if
 self
