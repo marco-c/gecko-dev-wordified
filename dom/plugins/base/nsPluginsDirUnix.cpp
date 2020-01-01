@@ -2705,9 +2705,6 @@ name
 =
 NULL
 ;
-NPError
-nperr
-=
 npGetValue
 (
 NULL
@@ -2754,8 +2751,6 @@ description
 =
 NULL
 ;
-nperr
-=
 npGetValue
 (
 NULL
