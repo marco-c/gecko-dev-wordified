@@ -650,7 +650,6 @@ for
 txMozillaXSLTProcessor
 *
 /
-virtual
 ~
 txMozillaXSLTProcessor
 (

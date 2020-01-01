@@ -921,13 +921,6 @@ txIMatchContext
 {
 public
 :
-virtual
-~
-txIEvalContext
-(
-)
-{
-}
 /
 *
 *

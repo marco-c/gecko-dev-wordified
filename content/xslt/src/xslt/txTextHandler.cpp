@@ -465,15 +465,6 @@ aOnlyText
 )
 {
 }
-txTextHandler
-:
-:
-~
-txTextHandler
-(
-)
-{
-}
 nsresult
 txTextHandler
 :

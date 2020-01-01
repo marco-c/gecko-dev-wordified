@@ -707,13 +707,6 @@ aObserver
 )
 {
 }
-virtual
-~
-txToDocHandlerFactory
-(
-)
-{
-}
 TX_DECL_TXAOUTPUTHANDLERFACTORY
 private
 :
@@ -759,13 +752,6 @@ aFragment
 mFragment
 (
 aFragment
-)
-{
-}
-virtual
-~
-txToFragmentHandlerFactory
-(
 )
 {
 }

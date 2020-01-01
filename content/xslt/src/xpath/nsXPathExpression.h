@@ -519,12 +519,6 @@ nsIDOMDocument
 aDocument
 )
 ;
-virtual
-~
-nsXPathExpression
-(
-)
-;
 /
 /
 nsISupports
@@ -602,12 +596,6 @@ NS_OK
 mRecycler
 (
 aRecycler
-)
-{
-}
-~
-EvalContextImpl
-(
 )
 {
 }

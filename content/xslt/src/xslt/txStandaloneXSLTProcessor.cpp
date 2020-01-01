@@ -543,13 +543,6 @@ aStream
 )
 {
 }
-virtual
-~
-txStandaloneHandlerFactory
-(
-)
-{
-}
 TX_DECL_TXAOUTPUTHANDLERFACTORY
 private
 :

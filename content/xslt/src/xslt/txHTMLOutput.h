@@ -463,11 +463,6 @@ ostream
 aOut
 )
 ;
-~
-txHTMLOutput
-(
-)
-;
 /
 *
 *

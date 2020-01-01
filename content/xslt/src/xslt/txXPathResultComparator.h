@@ -617,12 +617,6 @@ nsAFlatString
 aLanguage
 )
 ;
-virtual
-~
-txResultStringComparator
-(
-)
-;
 int
 compareValues
 (
@@ -766,12 +760,6 @@ txResultNumberComparator
 (
 MBool
 aAscending
-)
-;
-virtual
-~
-txResultNumberComparator
-(
 )
 ;
 int

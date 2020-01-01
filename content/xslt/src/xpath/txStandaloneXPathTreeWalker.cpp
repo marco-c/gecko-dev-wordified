@@ -512,15 +512,6 @@ aNode
 )
 {
 }
-txXPathTreeWalker
-:
-:
-~
-txXPathTreeWalker
-(
-)
-{
-}
 #
 define
 INNER

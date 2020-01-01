@@ -679,7 +679,6 @@ nsXPathResult
 (
 )
 ;
-virtual
 ~
 nsXPathResult
 (

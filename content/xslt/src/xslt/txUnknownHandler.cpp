@@ -483,15 +483,6 @@ aEs
 )
 {
 }
-txUnknownHandler
-:
-:
-~
-txUnknownHandler
-(
-)
-{
-}
 nsresult
 txUnknownHandler
 :

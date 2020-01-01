@@ -492,12 +492,6 @@ aContextNodeSet
 )
 {
 }
-~
-txForwardContext
-(
-)
-{
-}
 TX_DECL_EVAL_CONTEXT
 ;
 private

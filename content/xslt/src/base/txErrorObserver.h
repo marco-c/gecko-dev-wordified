@@ -658,14 +658,6 @@ ostream
 errStream
 )
 ;
-virtual
-~
-SimpleErrorObserver
-(
-)
-{
-}
-;
 /
 *
 *

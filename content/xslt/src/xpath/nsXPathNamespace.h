@@ -519,16 +519,6 @@ nsIDOMXPathNamespace
 {
 public
 :
-nsXPathNamespace
-(
-)
-;
-virtual
-~
-nsXPathNamespace
-(
-)
-;
 /
 /
 nsISupports

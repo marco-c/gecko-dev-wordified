@@ -614,15 +614,6 @@ kUnknownIndex
 )
 {
 }
-txXPathTreeWalker
-:
-:
-~
-txXPathTreeWalker
-(
-)
-{
-}
 void
 txXPathTreeWalker
 :

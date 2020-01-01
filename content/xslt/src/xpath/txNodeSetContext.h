@@ -488,13 +488,6 @@ aContext
 )
 {
 }
-virtual
-~
-txNodeSetContext
-(
-)
-{
-}
 /
 /
 Iteration

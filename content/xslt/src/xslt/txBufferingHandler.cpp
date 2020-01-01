@@ -880,15 +880,6 @@ txResultBuffer
 )
 ;
 }
-txBufferingHandler
-:
-:
-~
-txBufferingHandler
-(
-)
-{
-}
 nsresult
 txBufferingHandler
 :

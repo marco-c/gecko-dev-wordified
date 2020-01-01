@@ -571,12 +571,6 @@ mLocalName
 )
 {
 }
-~
-txExpandedName
-(
-)
-{
-}
 nsresult
 init
 (

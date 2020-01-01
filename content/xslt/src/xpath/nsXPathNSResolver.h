@@ -495,12 +495,6 @@ nsIDOMNode
 aNode
 )
 ;
-virtual
-~
-nsXPathNSResolver
-(
-)
-;
 /
 /
 nsISupports
