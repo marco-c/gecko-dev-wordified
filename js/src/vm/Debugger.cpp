@@ -1508,7 +1508,7 @@ if
 script
 -
 >
-hasJITCode
+hasJITInfo
 (
 )
 )

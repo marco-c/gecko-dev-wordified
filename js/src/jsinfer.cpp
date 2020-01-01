@@ -13953,15 +13953,6 @@ JSScript
 (
 )
 ;
-if
-(
-script
--
->
-hasJITCode
-(
-)
-)
 mjit
 :
 :
