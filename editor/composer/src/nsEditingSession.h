@@ -759,6 +759,9 @@ mCanCreateEditor
 PRPackedBool
 mInteractive
 ;
+PRPackedBool
+mMakeWholeDocumentEditable
+;
 /
 /
 True
