@@ -62,6 +62,17 @@ org
 mozilla
 .
 gecko
+.
+home
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+GeckoAppShell
 ;
 import
 org

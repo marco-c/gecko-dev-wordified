@@ -159,6 +159,8 @@ org
 mozilla
 .
 gecko
+.
+home
 ;
 import
 android
