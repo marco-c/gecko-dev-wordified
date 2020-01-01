@@ -25588,7 +25588,7 @@ case
 eCSSProperty__moz_border_radius_bottomLeft
 :
 return
-ParseVariant
+ParsePositiveVariant
 (
 aErrorCode
 aValue
@@ -25647,7 +25647,7 @@ case
 eCSSProperty__moz_outline_radius_bottomLeft
 :
 return
-ParseVariant
+ParsePositiveVariant
 (
 aErrorCode
 aValue
