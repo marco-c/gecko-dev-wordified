@@ -23468,11 +23468,16 @@ target
 defer
 )
 ;
-NS_ENSURE_STATE
+if
 (
+!
 manager
 )
+{
+return
+NS_OK
 ;
+}
 defer
 =
 defer
