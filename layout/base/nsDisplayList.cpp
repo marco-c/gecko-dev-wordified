@@ -4420,12 +4420,6 @@ EndFrameTreesLocked
 (
 )
 ;
-PL_FreeArenaPool
-(
-&
-mPool
-)
-;
 PL_FinishArenaPool
 (
 &
