@@ -17785,9 +17785,12 @@ NULL
 ;
 }
 }
+#
+ifdef
+JS_THREADSAFE
 static
 void
-AssertBackgroundSweepingFinshed
+AssertBackgroundSweepingFinished
 (
 JSRuntime
 *
@@ -17874,9 +17877,6 @@ i
 }
 }
 }
-#
-ifdef
-JS_THREADSAFE
 static
 unsigned
 GetCPUCount
@@ -18731,7 +18731,7 @@ gcIncrementalState
 =
 NO_INCREMENTAL
 )
-AssertBackgroundSweepingFinshed
+AssertBackgroundSweepingFinished
 (
 rt
 )
@@ -18811,7 +18811,7 @@ gcIncrementalState
 =
 NO_INCREMENTAL
 )
-AssertBackgroundSweepingFinshed
+AssertBackgroundSweepingFinished
 (
 rt
 )
