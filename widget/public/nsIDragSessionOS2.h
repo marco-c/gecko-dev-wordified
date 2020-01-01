@@ -600,7 +600,6 @@ NS_IDRAGSESSIONOS2_IID
 0xc0
 }
 }
-;
 class
 nsIDragSessionOS2
 :
