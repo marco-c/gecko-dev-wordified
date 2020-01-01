@@ -27327,7 +27327,7 @@ Forget
 (
 )
 ;
-nsScrollbarEvent
+nsGUIEvent
 event
 (
 true
