@@ -178,7 +178,7 @@ JavaScript
 frame
 *
 |
-fp
+frame
 |
 .
 Call
@@ -291,12 +291,7 @@ ScriptDebugPrologue
 has
 set
 |
-cx
--
->
-fp
-(
-)
+frame
 |
 '
 s
@@ -313,9 +308,8 @@ ScriptDebugPrologue
 JSContext
 *
 cx
-StackFrame
-*
-fp
+AbstractFramePtr
+frame
 )
 ;
 /
@@ -334,7 +328,7 @@ a
 JavaScript
 frame
 |
-fp
+frame
 |
 .
 *
@@ -388,7 +382,7 @@ current
 exception
 and
 |
-fp
+frame
 |
 '
 s
@@ -494,9 +488,8 @@ ScriptDebugEpilogue
 JSContext
 *
 cx
-StackFrame
-*
-fp
+AbstractFramePtr
+frame
 bool
 ok
 )
