@@ -218,6 +218,10 @@ mCARenderer
 (
 nullptr
 )
+mWrapperCALayer
+(
+nullptr
+)
 mFBOTexture
 (
 0
@@ -511,7 +515,7 @@ buffer
 swapping
 .
 void
-DettachCALayer
+DetachCALayer
 (
 )
 ;
@@ -609,6 +613,10 @@ Destroy
 void
 *
 mCARenderer
+;
+void
+*
+mWrapperCALayer
 ;
 GLuint
 mFBOTexture

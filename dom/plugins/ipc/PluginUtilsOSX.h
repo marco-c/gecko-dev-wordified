@@ -242,6 +242,8 @@ void
 aPluginInstance
 bool
 aAvoidCGCrashes
+double
+aContentsScaleFactor
 )
 ;
 void

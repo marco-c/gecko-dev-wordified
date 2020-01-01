@@ -16530,6 +16530,7 @@ GetCGLayer
 CallCGDraw
 this
 avoidCGCrashes
+mContentsScaleFactor
 )
 ;
 if
