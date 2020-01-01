@@ -26783,6 +26783,8 @@ JSObject
 *
 *
 ctorp
+AllocKind
+ctorKind
 )
 {
 /
@@ -27369,6 +27371,7 @@ nargs
 JSFUN_CONSTRUCTOR
 obj
 atom
+ctorKind
 )
 ;
 if
@@ -28163,6 +28166,8 @@ JSObject
 *
 *
 ctorp
+AllocKind
+ctorKind
 )
 {
 JSAtom
@@ -28344,6 +28349,7 @@ fs
 static_ps
 static_fs
 ctorp
+ctorKind
 )
 ;
 }

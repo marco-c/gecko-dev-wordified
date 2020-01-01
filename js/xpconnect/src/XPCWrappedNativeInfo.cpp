@@ -1170,7 +1170,10 @@ JSFunction
 *
 fun
 =
-JS_NewFunctionById
+js
+:
+:
+NewFunctionByIdWithReserved
 (
 ccx
 callback
