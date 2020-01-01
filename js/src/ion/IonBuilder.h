@@ -2042,6 +2042,14 @@ atom
 )
 ;
 bool
+jsop_bindname
+(
+PropertyName
+*
+name
+)
+;
+bool
 jsop_getfcslot
 (
 uint16

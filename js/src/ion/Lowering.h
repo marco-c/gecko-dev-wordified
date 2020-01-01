@@ -1391,6 +1391,14 @@ ins
 )
 ;
 bool
+visitBindNameCache
+(
+MBindNameCache
+*
+ins
+)
+;
+bool
 visitGuardClass
 (
 MGuardClass

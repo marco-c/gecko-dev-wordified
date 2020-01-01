@@ -945,6 +945,11 @@ GetPropertyCacheT
 \
 _
 (
+BindNameCache
+)
+\
+_
+(
 CallGetProperty
 )
 \
