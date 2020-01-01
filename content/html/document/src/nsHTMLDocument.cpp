@@ -2403,10 +2403,12 @@ static_cast
 nsIDOMNodeList
 *
 >
+(
 entry
 -
 >
 mDocAllList
+)
 )
 ;
 return
