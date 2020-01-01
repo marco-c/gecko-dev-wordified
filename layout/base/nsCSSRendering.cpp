@@ -16752,6 +16752,13 @@ aLayer
 mAttachment
 )
 {
+aPresContext
+-
+>
+SetHasFixedBackgroundFrame
+(
+)
+;
 /
 /
 If
