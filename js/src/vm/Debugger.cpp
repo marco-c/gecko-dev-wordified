@@ -6124,13 +6124,6 @@ return
 JSTRAP_ERROR
 ;
 }
-Value
-frame
-=
-UndefinedValue
-(
-)
-;
 for
 (
 Breakpoint
