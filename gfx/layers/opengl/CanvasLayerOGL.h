@@ -511,6 +511,10 @@ mTexture
 (
 0
 )
+mDelayedUpdates
+(
+PR_FALSE
+)
 {
 mImplData
 =
@@ -615,6 +619,9 @@ mTexture
 ;
 nsIntRect
 mUpdatedRect
+;
+PRPackedBool
+mDelayedUpdates
 ;
 PRPackedBool
 mGLBufferIsPremultiplied

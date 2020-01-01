@@ -4245,6 +4245,15 @@ char
 extension
 )
 ;
+GLint
+GetMaxTextureSize
+(
+)
+{
+return
+mMaxTextureSize
+;
+}
 protected
 :
 PRPackedBool
@@ -4698,6 +4707,9 @@ nsTArray
 nsIntRect
 >
 mScissorStack
+;
+GLint
+mMaxTextureSize
 ;
 public
 :

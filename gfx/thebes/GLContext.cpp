@@ -3580,6 +3580,13 @@ Qualcomm
 "
 }
 ;
+fGetIntegerv
+(
+LOCAL_GL_MAX_TEXTURE_SIZE
+&
+mMaxTextureSize
+)
+;
 mVendor
 =
 VendorOther
