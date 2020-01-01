@@ -2104,7 +2104,6 @@ test
 allow_oom
 and
 '
-:
 out
 of
 memory

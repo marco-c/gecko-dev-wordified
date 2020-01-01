@@ -7530,6 +7530,11 @@ script
 jsbytecode
 *
 pc
+unsigned
+*
+columnp
+=
+NULL
 )
 ;
 extern
@@ -7547,6 +7552,11 @@ code
 jsbytecode
 *
 pc
+unsigned
+*
+columnp
+=
+NULL
 )
 ;
 extern
