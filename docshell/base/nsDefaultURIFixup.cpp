@@ -3168,9 +3168,6 @@ numDots
 iter
 ;
 }
-nsresult
-rv
-;
 /
 /
 Get
