@@ -13126,6 +13126,17 @@ if
 (
 !
 sameTypeParent
+&
+&
+mParentWidget
+-
+>
+GetTransparencyMode
+(
+)
+!
+=
+eTransparencyTransparent
 )
 {
 containerView

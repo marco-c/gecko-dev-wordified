@@ -3023,6 +3023,17 @@ aTwipsDelta
 updateRegion
 )
 )
+&
+&
+scrollWidget
+-
+>
+GetTransparencyMode
+(
+)
+!
+=
+eTransparencyTransparent
 ;
 if
 (
