@@ -10649,6 +10649,13 @@ datacall
 .
 gw
 ;
+if
+(
+datacall
+.
+dns
+)
+{
 this
 .
 dns1
@@ -10671,6 +10678,7 @@ dns
 1
 ]
 ;
+}
 if
 (
 !
