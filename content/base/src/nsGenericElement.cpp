@@ -10096,6 +10096,11 @@ FindFirstNonAnonContent
 aContent
 )
 ;
+if
+(
+nonAnon
+)
+{
 nsIContent
 *
 nonAnonRelated
@@ -10105,6 +10110,11 @@ FindFirstNonAnonContent
 relatedTarget
 )
 ;
+if
+(
+nonAnonRelated
+)
+{
 if
 (
 nonAnon
@@ -10150,6 +10160,8 @@ isAnonForEvents
 return
 NS_OK
 ;
+}
+}
 }
 }
 }
