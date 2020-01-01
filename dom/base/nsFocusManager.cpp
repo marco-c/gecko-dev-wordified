@@ -7701,7 +7701,7 @@ for
 (
 len
 =
-PR_MIN
+NS_MIN
 (
 pos1
 pos2

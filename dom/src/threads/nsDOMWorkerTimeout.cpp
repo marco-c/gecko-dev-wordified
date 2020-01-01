@@ -868,7 +868,7 @@ aCx
 PRInt32
 lateness
 =
-PR_MAX
+NS_MAX
 (
 0
 PRInt32
@@ -2140,7 +2140,7 @@ Cancel
 ;
 mSuspendInterval
 =
-PR_MAX
+NS_MAX
 (
 0
 PRInt32

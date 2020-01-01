@@ -20680,7 +20680,7 @@ aScrollMaxX
 *
 aScrollMaxX
 =
-PR_MAX
+NS_MAX
 (
 0
 (
@@ -20709,7 +20709,7 @@ aScrollMaxY
 *
 aScrollMaxY
 =
-PR_MAX
+NS_MAX
 (
 0
 (
@@ -51670,7 +51670,7 @@ consistency
 PRUint32
 delay
 =
-PR_MAX
+NS_MAX
 (
 (
 (
@@ -51687,6 +51687,9 @@ PRTime
 )
 PR_USEC_PER_MSEC
 )
+)
+(
+PRUint32
 )
 DOM_MIN_TIMEOUT_VALUE
 )
