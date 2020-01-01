@@ -489,6 +489,13 @@ h
 #
 include
 "
+HalImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
