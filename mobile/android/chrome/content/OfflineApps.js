@@ -312,8 +312,6 @@ document
 let
 requestor
 =
-chromeWin
-.
 BrowserApp
 .
 manifest
@@ -322,8 +320,6 @@ manifest
 '
 "
 +
-chromeWin
-.
 BrowserApp
 .
 manifest
