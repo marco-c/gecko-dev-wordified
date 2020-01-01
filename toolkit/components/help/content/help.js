@@ -4056,17 +4056,6 @@ true
 }
 }
 function
-getMarkupDocumentViewer
-(
-)
-{
-return
-helpBrowser
-.
-markupDocumentViewer
-;
-}
-function
 onselect_loadURI
 (
 tree
