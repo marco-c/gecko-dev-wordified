@@ -2304,6 +2304,19 @@ setName
 type
 )
             
+parent
+.
+deps
+.
+extend
+(
+self
+.
+IDL
+.
+deps
+)
+            
 return
         
 raise
@@ -2346,6 +2359,13 @@ self
 productions
 =
 productions
+        
+self
+.
+deps
+=
+[
+]
     
 def
 setName
@@ -10461,7 +10481,8 @@ input
 data
 )
         
-return
+idl
+=
 self
 .
 parser
@@ -10472,6 +10493,25 @@ lexer
 =
 self
 )
+        
+if
+filename
+is
+not
+None
+:
+            
+idl
+.
+deps
+.
+append
+(
+filename
+)
+        
+return
+idl
     
 def
 getLocation
