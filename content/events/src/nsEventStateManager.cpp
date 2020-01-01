@@ -669,7 +669,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 .
 h
 "
@@ -13234,7 +13234,7 @@ dragContent
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 >
 htmlElement
 =

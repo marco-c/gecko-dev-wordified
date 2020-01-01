@@ -590,7 +590,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 .
 h
 "
@@ -9086,7 +9086,7 @@ attribute
 ?
 nsCOMPtr
 <
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 >
 htmlElement
 =

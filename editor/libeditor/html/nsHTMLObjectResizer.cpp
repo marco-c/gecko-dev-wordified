@@ -443,13 +443,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h

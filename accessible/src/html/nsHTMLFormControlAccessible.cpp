@@ -492,13 +492,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMNSEditableElement
 .
 h

@@ -334,13 +334,13 @@ interfaces
 nsIDOMNode
 ;
 const
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 =
 Components
 .
 interfaces
 .
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 ;
 const
 nsIDOMWindow

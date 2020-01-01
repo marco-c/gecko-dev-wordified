@@ -701,13 +701,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h
