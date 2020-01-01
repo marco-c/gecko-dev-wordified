@@ -5768,10 +5768,6 @@ nsIFrame
 *
 &
 aNewFrame
-nsStyleContext
-*
-&
-aScrolledChildStyle
 )
 ;
 /
