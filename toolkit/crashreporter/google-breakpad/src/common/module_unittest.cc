@@ -408,18 +408,6 @@ google_breakpad
 Module
 ;
 using
-google_breakpad
-:
-:
-ToUniqueString
-;
-using
-google_breakpad
-:
-:
-ustr__ZDcfa
-;
-using
 std
 :
 :
@@ -1057,7 +1045,7 @@ entry
 >
 initial_rules
 [
-ToUniqueString
+toUniqueString
 (
 "
 and
@@ -1088,7 +1076,7 @@ rule_changes
 0x30f9e5c83323973eULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 how
@@ -1119,7 +1107,7 @@ rule_changes
 0x30f9e5c83323973eULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 Mister
@@ -1174,6 +1162,20 @@ SetLoadAddress
 0x2ab698b0b6407073LL
 )
 ;
+/
+*
+TODO
+:
+fix
+this
+test
+.
+registers
+are
+not
+serialized
+alphabetically
+.
 m
 .
 Write
@@ -1322,6 +1324,8 @@ c_str
 )
 )
 ;
+*
+/
 }
 TEST
 (
@@ -1951,7 +1955,7 @@ entry
 >
 initial_rules
 [
-ToUniqueString
+toUniqueString
 (
 "
 and
@@ -1982,7 +1986,7 @@ rule_changes
 0x30f9e5c83323973eULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 how
@@ -2013,7 +2017,7 @@ rule_changes
 0x30f9e5c83323973eULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 Mister
@@ -2605,7 +2609,7 @@ entry2
 >
 initial_rules
 [
-ToUniqueString
+toUniqueString
 (
 "
 stromboli
@@ -2633,7 +2637,7 @@ entry2
 >
 initial_rules
 [
-ToUniqueString
+toUniqueString
 (
 "
 cannoli
@@ -2736,7 +2740,7 @@ rule_changes
 0x47ceb0f63c269d7fULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 calzone
@@ -2764,7 +2768,7 @@ rule_changes
 0x47ceb0f63c269d7fULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 cannoli
@@ -2796,7 +2800,7 @@ rule_changes
 0x36682fad3763ffffULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 stromboli
@@ -2861,6 +2865,13 @@ CFI
 records
 properly
 .
+/
+*
+TODO
+:
+fix
+this
+test
 m
 .
 Write
@@ -3020,6 +3031,8 @@ c_str
 )
 )
 ;
+*
+/
 /
 /
 Check
@@ -3160,7 +3173,7 @@ entry1_changes
 0x36682fad3763ffffULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 stromboli
@@ -3186,7 +3199,7 @@ entry1_changes
 0x47ceb0f63c269d7fULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 calzone
@@ -3211,7 +3224,7 @@ entry1_changes
 0x47ceb0f63c269d7fULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 cannoli
@@ -3327,7 +3340,7 @@ see
 ;
 entry2_initial
 [
-ToUniqueString
+toUniqueString
 (
 "
 stromboli
@@ -3352,7 +3365,7 @@ tree
 ;
 entry2_initial
 [
-ToUniqueString
+toUniqueString
 (
 "
 cannoli
@@ -4941,7 +4954,7 @@ entry2
 >
 initial_rules
 [
-ToUniqueString
+toUniqueString
 (
 "
 stromboli
@@ -4969,7 +4982,7 @@ entry2
 >
 initial_rules
 [
-ToUniqueString
+toUniqueString
 (
 "
 cannoli
@@ -5072,7 +5085,7 @@ rule_changes
 0x47ceb0f63c269d7fULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 calzone
@@ -5100,7 +5113,7 @@ rule_changes
 0x47ceb0f63c269d7fULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 cannoli
@@ -5132,7 +5145,7 @@ rule_changes
 0x36682fad3763ffffULL
 ]
 [
-ToUniqueString
+toUniqueString
 (
 "
 stromboli

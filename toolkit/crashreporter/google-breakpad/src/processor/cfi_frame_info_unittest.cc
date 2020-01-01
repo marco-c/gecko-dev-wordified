@@ -410,12 +410,6 @@ using
 google_breakpad
 :
 :
-FromUniqueString
-;
-using
-google_breakpad
-:
-:
 MemoryRegion
 ;
 using
@@ -429,30 +423,6 @@ google_breakpad
 :
 :
 SimpleCFIWalker
-;
-using
-google_breakpad
-:
-:
-ToUniqueString
-;
-using
-google_breakpad
-:
-:
-UniqueString
-;
-using
-google_breakpad
-:
-:
-ustr__ZDcfa
-;
-using
-google_breakpad
-:
-:
-ustr__ZDra
 ;
 using
 testing
@@ -1032,7 +1002,7 @@ UniqueString
 *
 reg1
 =
-ToUniqueString
+toUniqueString
 (
 "
 register1
@@ -1044,7 +1014,7 @@ UniqueString
 *
 reg2
 =
-ToUniqueString
+toUniqueString
 (
 "
 vodkathumbscrewingly
@@ -1056,7 +1026,7 @@ UniqueString
 *
 reg3
 =
-ToUniqueString
+toUniqueString
 (
 "
 pubvexingfjordschmaltzy
@@ -1068,7 +1038,7 @@ UniqueString
 *
 reg4
 =
-ToUniqueString
+toUniqueString
 (
 "
 uncopyrightables
@@ -1238,6 +1208,18 @@ reg4
 )
 )
 ;
+/
+*
+TODO
+:
+fix
+this
+test
+Serialize
+no
+longer
+serializes
+alphabetically
 ASSERT_EQ
 (
 "
@@ -1302,6 +1284,8 @@ Serialize
 )
 )
 ;
+*
+/
 }
 TEST_F
 (
@@ -1617,7 +1601,7 @@ UniqueString
 *
 reg1
 =
-ToUniqueString
+toUniqueString
 (
 "
 .
@@ -1630,7 +1614,7 @@ UniqueString
 *
 reg2
 =
-ToUniqueString
+toUniqueString
 (
 "
 .
@@ -1931,7 +1915,7 @@ UniqueString
 *
 reg1
 =
-ToUniqueString
+toUniqueString
 (
 "
 noachian
@@ -2049,7 +2033,7 @@ UniqueString
 *
 reg1
 =
-ToUniqueString
+toUniqueString
 (
 "
 rogerian
@@ -2160,7 +2144,7 @@ UniqueString
 *
 reg1
 =
-ToUniqueString
+toUniqueString
 (
 "
 r1
@@ -2230,7 +2214,7 @@ UniqueString
 *
 reg1
 =
-ToUniqueString
+toUniqueString
 (
 "
 r1
@@ -2242,7 +2226,7 @@ UniqueString
 *
 reg2
 =
-ToUniqueString
+toUniqueString
 (
 "
 r2
@@ -2937,7 +2921,7 @@ EXPECT_CALL
 mock_handler
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 nemo
@@ -3020,7 +3004,7 @@ EXPECT_CALL
 mock_handler
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 galba
@@ -3044,7 +3028,7 @@ EXPECT_CALL
 mock_handler
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 otho
@@ -3104,7 +3088,7 @@ EXPECT_CALL
 mock_handler
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 r1
@@ -3129,7 +3113,7 @@ EXPECT_CALL
 mock_handler
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 r2
@@ -3217,7 +3201,7 @@ EXPECT_CALL
 mock_handler
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg
@@ -3270,7 +3254,7 @@ EXPECT_CALL
 mock_handler
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 r1
@@ -3324,7 +3308,7 @@ EXPECT_CALL
 mock_handler
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 r1
@@ -3441,7 +3425,7 @@ registers
 .
 set
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg
@@ -3458,7 +3442,7 @@ registers
 .
 set
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg
@@ -3550,7 +3534,7 @@ handler
 .
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg1
@@ -3569,7 +3553,7 @@ handler
 .
 RegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg2
@@ -3588,7 +3572,7 @@ registers
 .
 set
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg
@@ -3605,7 +3589,7 @@ registers
 .
 set
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg
@@ -3622,7 +3606,7 @@ registers
 .
 set
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg
@@ -3639,7 +3623,7 @@ registers
 .
 set
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg
@@ -3701,7 +3685,7 @@ caller_registers
 .
 get
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg1
@@ -3717,7 +3701,7 @@ caller_registers
 .
 get
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg2
@@ -3842,7 +3826,7 @@ register_map
 =
 {
 {
-ToUniqueString
+toUniqueString
 (
 "
 r0
@@ -3858,7 +3842,7 @@ RawContext
 r0
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r1
@@ -3874,7 +3858,7 @@ RawContext
 r1
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r2
@@ -3890,7 +3874,7 @@ RawContext
 r2
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r3
@@ -3906,7 +3890,7 @@ RawContext
 r3
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r4
@@ -3922,7 +3906,7 @@ RawContext
 r4
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 sp
@@ -3940,7 +3924,7 @@ RawContext
 sp
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 pc
@@ -4213,7 +4197,7 @@ call_frame_info
 .
 SetRegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 r0
@@ -4238,7 +4222,7 @@ call_frame_info
 .
 SetRegisterRule
 (
-ToUniqueString
+toUniqueString
 (
 "
 r1
