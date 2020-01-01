@@ -5315,9 +5315,6 @@ JSBool
 )
 js_DateIsValid
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -5330,9 +5327,6 @@ double
 )
 js_DateGetMsecSinceEpoch
 (
-JSContext
-*
-cx
 JSRawObject
 obj
 )

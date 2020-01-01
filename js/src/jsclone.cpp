@@ -3886,9 +3886,6 @@ d
 =
 js_DateGetMsecSinceEpoch
 (
-context
-(
-)
 obj
 )
 ;

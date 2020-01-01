@@ -9494,7 +9494,6 @@ obj
 &
 js_DateIsValid
 (
-aCx
 obj
 )
 )
@@ -9503,7 +9502,6 @@ result
 =
 js_DateGetMsecSinceEpoch
 (
-aCx
 obj
 )
 ;
