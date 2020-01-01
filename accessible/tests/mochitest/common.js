@@ -926,6 +926,16 @@ false
 /
 Accessible
 general
+const
+kEmbedChar
+=
+String
+.
+fromCharCode
+(
+0xfffc
+)
+;
 /
 *
 *
