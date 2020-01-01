@@ -44529,7 +44529,7 @@ pref
 "
 device
 .
-motion
+sensors
 .
 enabled
 "
