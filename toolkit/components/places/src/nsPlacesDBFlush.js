@@ -1710,6 +1710,7 @@ aItemId
 aParentId
 aIndex
 aItemType
+aURI
 )
 {
 /

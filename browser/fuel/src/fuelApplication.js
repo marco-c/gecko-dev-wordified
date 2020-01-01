@@ -2621,6 +2621,8 @@ bm_oia
 aId
 aFolder
 aIndex
+aItemType
+aURI
 )
 {
 /
@@ -3518,6 +3520,8 @@ bmf_oia
 aId
 aFolder
 aIndex
+aItemType
+aURI
 )
 {
 /

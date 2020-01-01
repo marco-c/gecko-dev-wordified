@@ -635,6 +635,8 @@ function
 aItemId
 aFolder
 aIndex
+aItemType
+aURI
 )
 {
 do_check_eq

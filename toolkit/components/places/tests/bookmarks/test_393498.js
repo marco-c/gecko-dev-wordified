@@ -555,6 +555,7 @@ id
 folder
 index
 itemType
+uri
 )
 {
 this

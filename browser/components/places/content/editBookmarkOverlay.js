@@ -8526,6 +8526,7 @@ aItemId
 aFolder
 aIndex
 aItemType
+aURI
 )
 {
 this
