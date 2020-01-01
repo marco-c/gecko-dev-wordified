@@ -117,13 +117,6 @@ builtin_BinaryData_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h

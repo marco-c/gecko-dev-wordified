@@ -117,13 +117,6 @@ builtin_TestingFunctions_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h
@@ -149,7 +142,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -162,7 +155,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )

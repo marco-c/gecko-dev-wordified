@@ -117,13 +117,6 @@ builtin_Eval_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsbytecode
 .
 h

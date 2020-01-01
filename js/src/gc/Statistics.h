@@ -135,7 +135,7 @@ h
 #
 include
 "
-jsapi
+jsalloc
 .
 h
 "
@@ -152,6 +152,15 @@ include
 js
 /
 GCAPI
+.
+h
+"
+#
+include
+"
+js
+/
+Vector
 .
 h
 "

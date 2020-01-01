@@ -135,13 +135,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h
@@ -171,6 +164,9 @@ Unicode
 .
 h
 "
+class
+JSAutoByteString
+;
 class
 JSFlatString
 ;
