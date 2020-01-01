@@ -1515,6 +1515,10 @@ aArgv
 ]
 )
 ;
+sChildProcessType
+=
+aProcess
+;
 SetupErrorHandling
 (
 aArgv
@@ -1522,10 +1526,6 @@ aArgv
 0
 ]
 )
-;
-sChildProcessType
-=
-aProcess
 ;
 #
 if
