@@ -825,9 +825,6 @@ PRPackedBool
 mCanUnloadLibrary
 ;
 PRPackedBool
-mXPConnected
-;
-PRPackedBool
 mIsJavaPlugin
 ;
 PRPackedBool
@@ -901,9 +898,6 @@ mStopped
 ;
 PRPackedBool
 mDefaultPlugin
-;
-PRPackedBool
-mXPConnected
 ;
 /
 /
