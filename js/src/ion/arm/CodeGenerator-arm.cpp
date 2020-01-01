@@ -897,12 +897,6 @@ generatePrologue
 (
 )
 {
-masm
-.
-breakpoint
-(
-)
-;
 /
 /
 Note
