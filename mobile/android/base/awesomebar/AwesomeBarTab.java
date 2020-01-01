@@ -143,6 +143,13 @@ BitmapFactory
 import
 android
 .
+net
+.
+Uri
+;
+import
+android
+.
 text
 .
 TextUtils
@@ -573,7 +580,12 @@ url
 =
 "
 +
+Uri
+.
+encode
+(
 url
+)
 ;
 }
 protected
