@@ -498,6 +498,13 @@ h
 #
 include
 "
+nsIDOM3Node
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

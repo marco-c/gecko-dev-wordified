@@ -1213,7 +1213,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMNode
+nsIDOM3Node
 )
 .
 textContent
@@ -1389,7 +1389,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMNode
+nsIDOM3Node
 )
 .
 QueryInterface
@@ -1861,7 +1861,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMNode
+nsIDOM3Node
 )
 .
 textContent
@@ -1993,7 +1993,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMNode
+nsIDOM3Node
 )
 .
 QueryInterface

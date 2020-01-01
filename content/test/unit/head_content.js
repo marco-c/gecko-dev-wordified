@@ -531,6 +531,13 @@ I
 nsIDOMNode
 ;
 const
+nsIDOM3Node
+=
+I
+.
+nsIDOM3Node
+;
+const
 nsIDOMCharacterData
 =
 I

@@ -1978,10 +1978,6 @@ GetNodeInfo
 name
 nsnull
 kNameSpaceID_None
-nsIDOMNode
-:
-:
-ATTRIBUTE_NODE
 getter_AddRefs
 (
 ni
@@ -2373,10 +2369,6 @@ name
 NamespaceID
 (
 )
-nsIDOMNode
-:
-:
-ATTRIBUTE_NODE
 )
 ;
 if
@@ -2706,10 +2698,6 @@ GetPrefix
 (
 )
 nameSpaceID
-nsIDOMNode
-:
-:
-ATTRIBUTE_NODE
 )
 ;
 NS_ENSURE_TRUE

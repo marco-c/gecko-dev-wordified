@@ -1505,10 +1505,6 @@ nsGkAtoms
 html
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -1587,10 +1583,6 @@ nsGkAtoms
 head
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -1660,10 +1652,6 @@ nsGkAtoms
 body
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE

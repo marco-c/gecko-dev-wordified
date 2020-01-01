@@ -467,6 +467,13 @@ h
 #
 include
 "
+nsIDOM3Node
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h

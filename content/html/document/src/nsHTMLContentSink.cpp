@@ -3249,10 +3249,6 @@ GetNodeInfo
 name
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 }
@@ -3335,10 +3331,6 @@ GetNodeInfo
 name
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 NS_IF_ADDREF
@@ -8720,10 +8712,6 @@ nsGkAtoms
 html
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -8815,10 +8803,6 @@ nsGkAtoms
 head
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -13974,10 +13958,6 @@ nsGkAtoms
 link
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 result

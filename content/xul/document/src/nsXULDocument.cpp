@@ -22708,10 +22708,6 @@ mNodeInfo
 NamespaceID
 (
 )
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 if

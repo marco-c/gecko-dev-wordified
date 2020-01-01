@@ -505,12 +505,14 @@ nsIDOMNode
 *
 aNode
 )
-:
+{
 mNode
+=
+do_QueryInterface
 (
 aNode
 )
-{
+;
 NS_ASSERTION
 (
 mNode
