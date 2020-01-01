@@ -951,11 +951,6 @@ JSCodeGenerator
 ;
 typedef
 struct
-JSDependentString
-JSDependentString
-;
-typedef
-struct
 JSGCThing
 JSGCThing
 ;
