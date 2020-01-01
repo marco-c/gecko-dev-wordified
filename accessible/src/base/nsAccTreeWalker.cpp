@@ -1119,7 +1119,6 @@ mState
 childIdx
 <
 length
-;
 )
 {
 nsIContent
