@@ -805,7 +805,7 @@ do_check_eq
 (
 Cr
 .
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 e
 .
 result
@@ -818,6 +818,8 @@ value
 :
 callback
 abort
+/
+/
 do_check_eq
 (
 msc
@@ -826,6 +828,10 @@ lastError
 4
 )
 ;
+XXX
+see
+Bug
+387609
 }
 }
 var

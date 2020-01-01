@@ -579,6 +579,12 @@ SQLITE_MISUSE
 return
 NS_ERROR_UNEXPECTED
 ;
+case
+SQLITE_ABORT
+:
+return
+NS_ERROR_ABORT
+;
 }
 /
 /
