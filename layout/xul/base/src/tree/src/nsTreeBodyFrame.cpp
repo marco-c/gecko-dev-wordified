@@ -22261,15 +22261,6 @@ mDirection
 =
 NS_STYLE_DIRECTION_RTL
 ;
-nscoord
-rightEdge
-=
-aTextRect
-.
-XMost
-(
-)
-;
 /
 /
 Now
