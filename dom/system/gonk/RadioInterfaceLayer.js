@@ -17996,6 +17996,7 @@ updateICCContact
 (
 contactType
 contact
+pin2
 callback
 )
 {
@@ -18058,6 +18059,9 @@ contactType
 contact
 :
 contact
+pin2
+:
+pin2
 requestId
 :
 requestId
