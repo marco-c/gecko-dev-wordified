@@ -504,13 +504,6 @@ h
 #
 include
 "
-nsIDOMNSXBLFormControl
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFormElement
 .
 h
@@ -1405,8 +1398,6 @@ nsIDOMHTMLSelectElement
 public
 nsIDOMNSHTMLSelectElement
 public
-nsIDOMNSXBLFormControl
-public
 nsISelectElement
 {
 public
@@ -1467,10 +1458,6 @@ NS_DECL_NSIDOMHTMLSELECTELEMENT
 /
 nsIDOMNSHTMLSelectElement
 NS_DECL_NSIDOMNSHTMLSELECTELEMENT
-/
-/
-nsIDOMNSXBLFormControl
-NS_DECL_NSIDOMNSXBLFORMCONTROL
 /
 /
 nsIContent
