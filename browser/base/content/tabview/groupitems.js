@@ -8567,6 +8567,11 @@ icon
 .
 remove
 (
+{
+preserveEventHandlers
+:
+true
+}
 )
 ;
 if
