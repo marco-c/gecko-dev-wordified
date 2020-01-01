@@ -2194,6 +2194,7 @@ in
 this
 strategy
 }
+Override
 public
 DisplayPortMetrics
 calculate
@@ -2226,6 +2227,7 @@ zoomFactor
 )
 ;
 }
+Override
 public
 boolean
 aboutToCheckerboard
@@ -2491,6 +2493,7 @@ PREF_DISPLAYPORT_FM_DANGER_Y
 )
 ;
 }
+Override
 public
 DisplayPortMetrics
 calculate
@@ -2784,6 +2787,7 @@ metrics
 )
 ;
 }
+Override
 public
 boolean
 aboutToCheckerboard
@@ -3490,6 +3494,7 @@ return
 margins
 ;
 }
+Override
 public
 DisplayPortMetrics
 calculate
@@ -3765,6 +3770,7 @@ metrics
 )
 ;
 }
+Override
 public
 boolean
 aboutToCheckerboard
@@ -4941,6 +4947,7 @@ prefs
 for
 now
 }
+Override
 public
 DisplayPortMetrics
 calculate
@@ -5973,6 +5980,7 @@ SLOW_SPLIT_FACTOR
 ;
 }
 }
+Override
 public
 boolean
 aboutToCheckerboard
@@ -6440,6 +6448,7 @@ resetPageState
 )
 ;
 }
+Override
 public
 DisplayPortMetrics
 calculate
@@ -6773,6 +6782,7 @@ metrics
 )
 ;
 }
+Override
 public
 boolean
 aboutToCheckerboard

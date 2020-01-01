@@ -2070,6 +2070,7 @@ return
 numFound
 ;
 }
+Override
 public
 int
 getPosition
@@ -2080,6 +2081,7 @@ return
 mIndex
 ;
 }
+Override
 public
 int
 getCount
@@ -2090,6 +2092,7 @@ return
 mSize
 ;
 }
+Override
 public
 boolean
 isAfterLast
@@ -2103,6 +2106,7 @@ mIndex
 mSize
 ;
 }
+Override
 public
 boolean
 isBeforeFirst
@@ -2115,6 +2119,7 @@ mIndex
 0
 ;
 }
+Override
 public
 boolean
 isLast
@@ -2130,6 +2135,7 @@ mSize
 1
 ;
 }
+Override
 public
 boolean
 moveToNext
@@ -2145,6 +2151,7 @@ mIndex
 )
 ;
 }
+Override
 public
 boolean
 moveToPrevious
@@ -2160,6 +2167,7 @@ mIndex
 )
 ;
 }
+Override
 public
 boolean
 moveToPosition
@@ -2261,6 +2269,7 @@ isAfterLast
 )
 ;
 }
+Override
 public
 long
 getLong
@@ -2326,6 +2335,7 @@ return
 0
 ;
 }
+Override
 public
 String
 getString
@@ -2436,6 +2446,7 @@ return
 "
 ;
 }
+Override
 public
 boolean
 move
@@ -2453,6 +2464,7 @@ offset
 )
 ;
 }
+Override
 public
 boolean
 moveToFirst
@@ -2466,6 +2478,7 @@ moveToPosition
 )
 ;
 }
+Override
 public
 boolean
 moveToLast

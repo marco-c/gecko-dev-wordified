@@ -1334,6 +1334,7 @@ return
 mBackgroundColor
 ;
 }
+Override
 public
 void
 setBackgroundColor
@@ -2473,6 +2474,7 @@ mParent
 aParent
 ;
 }
+Override
 protected
 void
 onLayout

@@ -679,6 +679,7 @@ AllPagesHandler
 )
 ;
 }
+Override
 public
 boolean
 onBackPressed
@@ -689,6 +690,7 @@ return
 false
 ;
 }
+Override
 public
 int
 getTitleStringId
@@ -703,6 +705,7 @@ string
 awesomebar_all_pages_title
 ;
 }
+Override
 public
 String
 getTag
@@ -754,6 +757,7 @@ return
 mListView
 ;
 }
+Override
 public
 View
 getView
@@ -891,6 +895,7 @@ return
 mView
 ;
 }
+Override
 public
 void
 destroy
@@ -1149,6 +1154,7 @@ String
 (
 )
 {
+Override
 protected
 ArrayList
 <
@@ -1175,6 +1181,7 @@ query
 )
 ;
 }
+Override
 protected
 void
 onPostExecute
@@ -4842,6 +4849,7 @@ ic_awesomebar_star
 ;
 }
 }
+Override
 public
 ContextMenuSubject
 getSubject

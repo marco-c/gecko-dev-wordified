@@ -337,6 +337,7 @@ mShowReadingList
 =
 false
 ;
+Override
 public
 int
 getTitleStringId
@@ -351,6 +352,7 @@ string
 awesomebar_bookmarks_title
 ;
 }
+Override
 public
 String
 getTag
@@ -374,6 +376,7 @@ context
 )
 ;
 }
+Override
 public
 View
 getView
@@ -587,6 +590,7 @@ mShowReadingList
 showReadingList
 ;
 }
+Override
 public
 void
 destroy
@@ -634,6 +638,7 @@ close
 )
 ;
 }
+Override
 public
 boolean
 onBackPressed
@@ -1620,6 +1625,7 @@ FIXED_READING_LIST_ID
 )
 ;
 }
+Override
 public
 int
 getItemViewType
@@ -2551,6 +2557,7 @@ isInReadingList
 )
 ;
 }
+Override
 public
 ContextMenuSubject
 getSubject
