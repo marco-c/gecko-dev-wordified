@@ -2793,7 +2793,7 @@ nsIFrame
 aFrame
 PRInt32
 aOffset
-nsIAccessible
+nsAccessible
 *
 aAccessible
 nsIDOMNode
