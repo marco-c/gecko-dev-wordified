@@ -1489,7 +1489,7 @@ owner
 /
 nsIDocument
 *
-OwnerDoc
+GetOwnerDoc
 (
 )
 const
