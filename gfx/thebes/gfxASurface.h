@@ -790,6 +790,16 @@ GetDeviceOffset
 )
 const
 ;
+virtual
+PRBool
+GetRotateForLandscape
+(
+)
+{
+return
+PR_FALSE
+;
+}
 void
 Flush
 (
