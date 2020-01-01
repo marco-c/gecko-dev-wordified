@@ -7167,9 +7167,11 @@ if
 proto
 &
 &
-OBJ_IS_NATIVE
-(
 proto
+-
+>
+isNative
+(
 )
 &
 &

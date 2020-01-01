@@ -463,7 +463,7 @@ jsval
 JSObject
 :
 :
-lockAndGetSlot
+getSlotMT
 (
 JSContext
 *
@@ -484,7 +484,7 @@ thread
 safe
 define
 a
-lockAndGetSlot
+getSlotMT
 (
 )
 that
@@ -626,7 +626,7 @@ void
 JSObject
 :
 :
-lockAndSetSlot
+setSlotMT
 (
 JSContext
 *
@@ -823,9 +823,11 @@ cx
 {
 if
 (
-OBJ_IS_NATIVE
-(
 this
+-
+>
+isNative
+(
 )
 )
 {

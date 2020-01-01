@@ -499,9 +499,11 @@ index
 ;
 JS_ASSERT
 (
-HAS_FUNCTION_CLASS
-(
 funobj
+-
+>
+isFunction
+(
 )
 )
 ;

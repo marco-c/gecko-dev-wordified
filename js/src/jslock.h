@@ -1259,7 +1259,12 @@ objects
 objects
 for
 which
-OBJ_IS_NATIVE
+obj
+-
+>
+isNative
+(
+)
 returns
 true
 )
@@ -1276,7 +1281,10 @@ engine
 are
 predicated
 on
-OBJ_IS_NATIVE
+obj
+-
+>
+isNative
 or
 equivalent
 checks

@@ -32532,7 +32532,12 @@ so
 XML
 objects
 satisfy
-OBJ_IS_NATIVE
+obj
+-
+>
+isNative
+(
+)
 tests
 .
 *
@@ -43924,7 +43929,7 @@ cval
 pobj
 -
 >
-lockAndGetSlot
+getSlotMT
 (
 cx
 sprop

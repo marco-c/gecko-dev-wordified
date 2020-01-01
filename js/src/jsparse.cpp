@@ -1521,9 +1521,11 @@ obj
 ;
 JS_ASSERT
 (
-HAS_FUNCTION_CLASS
-(
 obj
+-
+>
+isFunction
+(
 )
 )
 ;

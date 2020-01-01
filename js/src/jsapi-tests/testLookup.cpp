@@ -199,9 +199,11 @@ r
 ;
 CHECK
 (
-HAS_FUNCTION_CLASS
-(
 funobj
+-
+>
+isFunction
+(
 )
 )
 ;

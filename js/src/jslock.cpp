@@ -8275,9 +8275,11 @@ title
 ;
 JS_ASSERT
 (
-OBJ_IS_NATIVE
-(
 obj
+-
+>
+isNative
+(
 )
 )
 ;
@@ -8455,9 +8457,11 @@ obj
 {
 JS_ASSERT
 (
-OBJ_IS_NATIVE
-(
 obj
+-
+>
+isNative
+(
 )
 )
 ;

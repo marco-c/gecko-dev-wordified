@@ -533,11 +533,13 @@ arrays
 are
 not
 native
-(
-OBJ_IS_NATIVE
-(
-cx
+-
+-
 aobj
+-
+>
+isNative
+(
 )
 for
 a
@@ -559,7 +561,6 @@ point
 to
 a
 JSScope
-)
 .
 *
 *

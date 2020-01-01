@@ -3073,9 +3073,11 @@ prop
 {
 if
 (
-OBJ_IS_NATIVE
-(
 obj2
+-
+>
+isNative
+(
 )
 )
 {

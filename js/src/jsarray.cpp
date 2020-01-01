@@ -5300,9 +5300,11 @@ prop
 {
 if
 (
-OBJ_IS_NATIVE
-(
 obj2
+-
+>
+isNative
+(
 )
 )
 {
@@ -5825,9 +5827,11 @@ true
 if
 (
 !
-OBJ_IS_NATIVE
-(
 obj
+-
+>
+isNative
+(
 )
 )
 return

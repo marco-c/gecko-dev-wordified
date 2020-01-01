@@ -10077,9 +10077,11 @@ i
 ;
 if
 (
-HAS_FUNCTION_CLASS
-(
 obj
+-
+>
+isFunction
+(
 )
 )
 {
@@ -17071,9 +17073,11 @@ JS_TRUE
 if
 (
 !
-OBJ_IS_NATIVE
-(
 obj
+-
+>
+isNative
+(
 )
 )
 {
