@@ -3236,14 +3236,11 @@ rememberLastScreen
 true
 )
 ;
-GeckoAppShell
+System
 .
-nativeQuit
+exit
 (
-)
-;
-finish
-(
+0
 )
 ;
 }
