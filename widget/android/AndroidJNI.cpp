@@ -2814,9 +2814,6 @@ endif
 /
 /
 MOZ_WEBSMS_BACKEND
-#
-ifdef
-MOZ_ANDROID_OMTC
 NS_EXPORT
 void
 JNICALL
@@ -4089,6 +4086,4 @@ NotifyFrameAvailable
 )
 ;
 }
-#
-endif
 }
