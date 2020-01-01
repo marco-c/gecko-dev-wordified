@@ -15590,7 +15590,7 @@ ok
 if
 (
 gckind
-!
+=
 =
 GC_LAST_DITCH
 )
@@ -15610,7 +15610,7 @@ JSGC_BEGIN
 if
 (
 gckind
-!
+=
 =
 GC_LAST_DITCH
 )
