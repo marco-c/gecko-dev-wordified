@@ -575,6 +575,12 @@ __osf__
 |
 defined
 (
+IRIX
+)
+|
+|
+defined
+(
 HPUX
 )
 /
