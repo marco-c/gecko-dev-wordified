@@ -27,7 +27,7 @@ publicdomain
 /
 runDSTOffsetCachingTestsFraction
 (
-1
-4
+7
+8
 )
 ;
