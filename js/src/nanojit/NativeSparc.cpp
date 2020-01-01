@@ -7138,6 +7138,10 @@ genEpilogue
 (
 )
 ;
+releaseRegisters
+(
+)
+;
 assignSavedRegs
 (
 )

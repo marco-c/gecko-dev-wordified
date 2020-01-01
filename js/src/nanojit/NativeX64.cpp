@@ -16394,6 +16394,10 @@ RSP
 FP
 )
 ;
+releaseRegisters
+(
+)
+;
 assignSavedRegs
 (
 )
