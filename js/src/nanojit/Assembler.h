@@ -742,6 +742,10 @@ a
 fragment
 *
 /
+void
+*
+vmprivate
+;
 verbose_only
 (
 uint32_t
