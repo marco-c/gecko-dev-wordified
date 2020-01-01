@@ -3752,13 +3752,6 @@ if
 mPluginInstance
 )
 {
-mPluginInstance
--
->
-Start
-(
-)
-;
 mOwner
 -
 >
