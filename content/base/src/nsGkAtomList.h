@@ -4950,13 +4950,6 @@ ondatachange
 )
 GK_ATOM
 (
-ondataerror
-"
-ondataerror
-"
-)
-GK_ATOM
-(
 ondblclick
 "
 ondblclick
