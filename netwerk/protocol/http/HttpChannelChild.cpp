@@ -4336,8 +4336,9 @@ Set_Cookie
 )
 ;
 bool
-preserveMethod
+rewriteToGET
 =
+ShouldRewriteRedirectToGET
 (
 mResponseHead
 -
@@ -4345,9 +4346,11 @@ mResponseHead
 Status
 (
 )
-=
-=
-307
+mRequestHead
+.
+Method
+(
+)
 )
 ;
 rv
@@ -4356,7 +4359,8 @@ SetupReplacementChannel
 (
 uri
 newChannel
-preserveMethod
+!
+rewriteToGET
 )
 ;
 if
