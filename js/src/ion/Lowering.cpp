@@ -14138,7 +14138,7 @@ arrayType
 )
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32

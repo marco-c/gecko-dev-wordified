@@ -22473,7 +22473,7 @@ arrayType
 &
 arrayType
 <
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX
@@ -22544,7 +22544,7 @@ return
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -22711,7 +22711,7 @@ arrayType
 &
 arrayType
 <
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX
@@ -22782,7 +22782,7 @@ return
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -22923,7 +22923,7 @@ true
 int
 type
 =
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -22936,7 +22936,7 @@ if
 type
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -22945,7 +22945,7 @@ TYPE_FLOAT32
 type
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -23182,7 +23182,7 @@ arrayType
 &
 arrayType
 <
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX
@@ -23245,7 +23245,7 @@ return
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -23254,7 +23254,7 @@ TYPE_INT8
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
@@ -23263,7 +23263,7 @@ TYPE_UINT8
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -23281,7 +23281,7 @@ return
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -23290,7 +23290,7 @@ TYPE_FLOAT32
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -23510,7 +23510,7 @@ arrayType
 &
 arrayType
 <
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX
@@ -23577,7 +23577,7 @@ return
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -23586,7 +23586,7 @@ TYPE_INT8
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
@@ -23595,7 +23595,7 @@ TYPE_UINT8
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -23613,7 +23613,7 @@ return
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -23622,7 +23622,7 @@ TYPE_FLOAT32
 arrayType_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64

@@ -22950,7 +22950,7 @@ unboxInt32
 Address
 (
 obj
-TypedArray
+TypedArrayObject
 :
 :
 lengthOffset
@@ -23008,7 +23008,7 @@ loadPtr
 Address
 (
 obj
-TypedArray
+TypedArrayObject
 :
 :
 dataOffset
@@ -44452,7 +44452,7 @@ arrayType
 int
 width
 =
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth
@@ -44719,7 +44719,7 @@ unboxInt32
 Address
 (
 object
-TypedArray
+TypedArrayObject
 :
 :
 lengthOffset
@@ -44771,7 +44771,7 @@ loadPtr
 Address
 (
 object
-TypedArray
+TypedArrayObject
 :
 :
 dataOffset
@@ -44799,7 +44799,7 @@ arrayType
 int
 width
 =
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth
@@ -45154,7 +45154,7 @@ if
 arrayType
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -45163,7 +45163,7 @@ TYPE_FLOAT32
 arrayType
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -45277,7 +45277,7 @@ arrayType
 int
 width
 =
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth
@@ -45414,7 +45414,7 @@ arrayType
 int
 width
 =
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth

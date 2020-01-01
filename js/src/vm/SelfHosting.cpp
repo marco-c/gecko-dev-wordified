@@ -3133,7 +3133,7 @@ JS_ASSERT
 (
 idx
 <
-TypedArray
+TypedArrayObject
 :
 :
 length

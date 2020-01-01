@@ -3990,7 +3990,7 @@ in
 this
 set
 or
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX

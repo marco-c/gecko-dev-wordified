@@ -429,7 +429,7 @@ x
 }
 inline
 Value
-TypedArray
+TypedArrayObject
 :
 :
 lengthValue
@@ -461,7 +461,7 @@ LENGTH_SLOT
 }
 inline
 uint32_t
-TypedArray
+TypedArrayObject
 :
 :
 length
@@ -484,7 +484,7 @@ toInt32
 }
 inline
 Value
-TypedArray
+TypedArrayObject
 :
 :
 byteOffsetValue
@@ -516,7 +516,7 @@ BYTEOFFSET_SLOT
 }
 inline
 uint32_t
-TypedArray
+TypedArrayObject
 :
 :
 byteOffset
@@ -539,7 +539,7 @@ toInt32
 }
 inline
 Value
-TypedArray
+TypedArrayObject
 :
 :
 byteLengthValue
@@ -571,7 +571,7 @@ BYTELENGTH_SLOT
 }
 inline
 uint32_t
-TypedArray
+TypedArrayObject
 :
 :
 byteLength
@@ -594,7 +594,7 @@ toInt32
 }
 inline
 uint32_t
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -630,7 +630,7 @@ toInt32
 }
 inline
 Value
-TypedArray
+TypedArrayObject
 :
 :
 bufferValue
@@ -663,7 +663,7 @@ BUFFER_SLOT
 inline
 ArrayBufferObject
 *
-TypedArray
+TypedArrayObject
 :
 :
 buffer
@@ -695,7 +695,7 @@ ArrayBufferObject
 inline
 void
 *
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -731,7 +731,7 @@ DATA_SLOT
 }
 inline
 uint32_t
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth
@@ -749,7 +749,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -758,7 +758,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
@@ -767,7 +767,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -779,7 +779,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT16
@@ -788,7 +788,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT16
@@ -800,7 +800,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT32
@@ -809,7 +809,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -818,7 +818,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -830,7 +830,7 @@ case
 js
 :
 :
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -854,7 +854,7 @@ type
 }
 inline
 int
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth
@@ -1114,7 +1114,7 @@ proto
 byteLength
 >
 =
-TypedArray
+TypedArrayObject
 :
 :
 SINGLETON_TYPE_BYTE_LENGTH
@@ -1302,7 +1302,7 @@ if
 byteLength
 >
 =
-TypedArray
+TypedArrayObject
 :
 :
 SINGLETON_TYPE_BYTE_LENGTH

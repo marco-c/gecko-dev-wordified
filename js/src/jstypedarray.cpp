@@ -663,7 +663,7 @@ raw
 buffer
 that
 the
-TypedArray
+TypedArrayObject
 classes
 *
 access
@@ -677,7 +677,7 @@ and
 passed
 to
 a
-TypedArray
+TypedArrayObject
 or
 *
 can
@@ -687,7 +687,7 @@ implicitly
 by
 constructing
 a
-TypedArray
+TypedArrayObject
 with
 a
 size
@@ -4447,7 +4447,7 @@ NextView
 view
 )
 )
-TypedArray
+TypedArrayObject
 :
 :
 neuter
@@ -7374,7 +7374,7 @@ true
 /
 *
 *
-TypedArray
+TypedArrayObject
 *
 *
 The
@@ -7409,7 +7409,7 @@ subclasses
 /
 inline
 bool
-TypedArray
+TypedArrayObject
 :
 :
 isArrayIndex
@@ -7491,7 +7491,7 @@ DataViewObject
 ;
 }
 void
-TypedArray
+TypedArrayObject
 :
 :
 neuter
@@ -7557,7 +7557,7 @@ NULL
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_lookupGeneric
@@ -7661,7 +7661,7 @@ propp
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_lookupProperty
@@ -7704,7 +7704,7 @@ propp
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_lookupElement
@@ -7806,7 +7806,7 @@ true
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_lookupSpecial
@@ -7849,7 +7849,7 @@ propp
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_getGenericAttributes
@@ -7878,7 +7878,7 @@ true
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_getPropertyAttributes
@@ -7907,7 +7907,7 @@ true
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_getElementAttributes
@@ -7936,7 +7936,7 @@ true
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_getSpecialAttributes
@@ -7977,7 +7977,7 @@ attrsp
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_setGenericAttributes
@@ -8007,7 +8007,7 @@ false
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_setPropertyAttributes
@@ -8037,7 +8037,7 @@ false
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_setElementAttributes
@@ -8067,7 +8067,7 @@ false
 ;
 }
 JSBool
-TypedArray
+TypedArrayObject
 :
 :
 obj_setSpecialAttributes
@@ -8102,7 +8102,7 @@ static
 *
 /
 int
-TypedArray
+TypedArrayObject
 :
 :
 lengthOffset
@@ -8125,7 +8125,7 @@ static
 *
 /
 int
-TypedArray
+TypedArrayObject
 :
 :
 dataOffset
@@ -8349,14 +8349,14 @@ is
 used
 to
 trace
-TypedArray
+TypedArrayObjects
 and
 DataViewObjects
 .
 We
 need
-a
 *
+a
 custom
 tracer
 because
@@ -8368,8 +8368,8 @@ ArrayBufferViewObject
 s
 reserved
 slots
-are
 *
+are
 weak
 references
 and
@@ -8381,6 +8381,7 @@ updated
 specially
 during
 moving
+*
 GCs
 .
 *
@@ -8543,7 +8544,7 @@ int8_t
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -8563,7 +8564,7 @@ uint8_t
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
@@ -8583,7 +8584,7 @@ int16_t
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT16
@@ -8603,7 +8604,7 @@ uint16_t
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT16
@@ -8623,7 +8624,7 @@ int32_t
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT32
@@ -8643,7 +8644,7 @@ uint32_t
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -8663,7 +8664,7 @@ float
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -8683,7 +8684,7 @@ double
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -8703,7 +8704,7 @@ uint8_clamped
 )
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -8812,7 +8813,7 @@ class
 TypedArrayTemplate
 :
 public
-TypedArray
+TypedArrayObject
 {
 public
 :
@@ -8911,7 +8912,7 @@ protoClass
 {
 return
 &
-TypedArray
+TypedArrayObject
 :
 :
 protoClasses
@@ -8932,7 +8933,7 @@ fastClass
 {
 return
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
@@ -9814,7 +9815,7 @@ ArrayTypeID
 )
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -10754,7 +10755,7 @@ NativeType
 )
 >
 =
-TypedArray
+TypedArrayObject
 :
 :
 SINGLETON_TYPE_BYTE_LENGTH
@@ -12352,7 +12353,7 @@ tarray
 uint32_t
 length
 =
-TypedArray
+TypedArrayObject
 :
 :
 length
@@ -12591,7 +12592,7 @@ dest
 uint32_t
 length
 =
-TypedArray
+TypedArrayObject
 :
 :
 length
@@ -15159,7 +15160,7 @@ tarray
 )
 {
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -15213,13 +15214,13 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
 :
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -15273,7 +15274,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT16
@@ -15327,7 +15328,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT16
@@ -15381,7 +15382,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT32
@@ -15435,7 +15436,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -15489,7 +15490,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -15543,7 +15544,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -15604,7 +15605,7 @@ MOZ_ASSUME_UNREACHABLE
 copyFrom
 with
 a
-TypedArray
+TypedArrayObject
 of
 unknown
 type
@@ -15768,7 +15769,7 @@ tarray
 )
 {
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -15819,13 +15820,13 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
 :
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -15876,7 +15877,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT16
@@ -15927,7 +15928,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT16
@@ -15978,7 +15979,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT32
@@ -16029,7 +16030,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -16080,7 +16081,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -16131,7 +16132,7 @@ break
 ;
 }
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -16189,7 +16190,7 @@ MOZ_ASSUME_UNREACHABLE
 copyFromWithOverlap
 with
 a
-TypedArray
+TypedArrayObject
 of
 unknown
 type
@@ -21165,7 +21166,7 @@ JS_FS_END
 /
 *
 *
-TypedArray
+TypedArrayObject
 boilerplate
 *
 /
@@ -21526,7 +21527,7 @@ clasp
 =
 =
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
@@ -21664,7 +21665,7 @@ clasp
 !
 =
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
@@ -21689,7 +21690,7 @@ NULL
 *
 length
 =
-TypedArray
+TypedArrayObject
 :
 :
 length
@@ -21707,7 +21708,7 @@ ExternalType
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -21794,7 +21795,7 @@ Prototype
 \
 JSCLASS_HAS_RESERVED_SLOTS
 (
-TypedArray
+TypedArrayObject
 :
 :
 RESERVED_SLOTS
@@ -21861,7 +21862,7 @@ _typedArray
 \
 JSCLASS_HAS_RESERVED_SLOTS
 (
-TypedArray
+TypedArrayObject
 :
 :
 RESERVED_SLOTS
@@ -22493,7 +22494,7 @@ Uint8ClampedArray
 )
 ;
 Class
-TypedArray
+TypedArrayObject
 :
 :
 classes
@@ -22541,7 +22542,7 @@ Uint8ClampedArray
 }
 ;
 Class
-TypedArray
+TypedArrayObject
 :
 :
 protoClasses
@@ -24038,7 +24039,7 @@ type
 )
 {
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -24054,7 +24055,7 @@ class_constructor
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
@@ -24070,7 +24071,7 @@ class_constructor
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT16
@@ -24086,7 +24087,7 @@ class_constructor
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT16
@@ -24102,7 +24103,7 @@ class_constructor
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT32
@@ -24118,7 +24119,7 @@ class_constructor
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -24134,7 +24135,7 @@ class_constructor
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -24150,7 +24151,7 @@ class_constructor
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -24166,7 +24167,7 @@ class_constructor
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -24839,7 +24840,7 @@ isTypedArray
 )
 ;
 return
-TypedArray
+TypedArrayObject
 :
 :
 length
@@ -24885,7 +24886,7 @@ isTypedArray
 )
 ;
 return
-TypedArray
+TypedArrayObject
 :
 :
 byteOffset
@@ -24931,7 +24932,7 @@ isTypedArray
 )
 ;
 return
-TypedArray
+TypedArrayObject
 :
 :
 byteLength
@@ -24984,7 +24985,7 @@ static_cast
 JSArrayBufferViewType
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25061,7 +25062,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25083,7 +25084,7 @@ int8_t
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25132,7 +25133,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25154,7 +25155,7 @@ uint8_t
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25203,7 +25204,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25225,7 +25226,7 @@ uint8_t
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25274,7 +25275,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25296,7 +25297,7 @@ int16_t
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25345,7 +25346,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25367,7 +25368,7 @@ uint16_t
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25416,7 +25417,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25438,7 +25439,7 @@ int32_t
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25487,7 +25488,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25509,7 +25510,7 @@ uint32_t
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25558,7 +25559,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25580,7 +25581,7 @@ float
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25629,7 +25630,7 @@ isTypedArray
 ;
 JS_ASSERT
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25651,7 +25652,7 @@ double
 *
 >
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -25921,7 +25922,7 @@ dataPointer
 (
 )
 :
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -26068,7 +26069,7 @@ byteLength
 (
 )
 :
-TypedArray
+TypedArrayObject
 :
 :
 byteLengthValue
@@ -26168,7 +26169,7 @@ byteLength
 (
 )
 :
-TypedArray
+TypedArrayObject
 :
 :
 byteLengthValue
@@ -26213,7 +26214,7 @@ dataPointer
 (
 )
 :
-TypedArray
+TypedArrayObject
 :
 :
 viewData

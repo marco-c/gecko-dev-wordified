@@ -2957,7 +2957,7 @@ JSProto_Uint8ClampedArray
 :
 return
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes

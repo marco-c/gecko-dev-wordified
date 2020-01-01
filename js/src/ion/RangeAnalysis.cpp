@@ -5405,13 +5405,13 @@ type
 )
 {
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
 :
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
@@ -5425,7 +5425,7 @@ UINT8_MAX
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT16
@@ -5439,7 +5439,7 @@ UINT16_MAX
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -5453,7 +5453,7 @@ UINT32_MAX
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -5467,7 +5467,7 @@ INT8_MAX
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT16
@@ -5481,7 +5481,7 @@ INT16_MAX
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT32
@@ -5495,13 +5495,13 @@ INT32_MAX
 )
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
 :
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -5556,7 +5556,7 @@ range
 =
 GetTypedArrayRange
 (
-TypedArray
+TypedArrayObject
 :
 :
 type
