@@ -3319,13 +3319,6 @@ bool
 aIsRoot
 )
 ;
-virtual
-int
-GetSkipSides
-(
-)
-const
-;
 void
 SetSuppressScrollbarUpdate
 (
@@ -4680,13 +4673,6 @@ aContext
 bool
 aIsRoot
 )
-;
-virtual
-int
-GetSkipSides
-(
-)
-const
 ;
 void
 ClampAndSetBounds

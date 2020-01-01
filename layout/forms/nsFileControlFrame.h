@@ -617,14 +617,6 @@ eReplacedContainsBlock
 )
 ;
 }
-virtual
-int
-GetSkipSides
-(
-)
-const
-MOZ_OVERRIDE
-;
 /
 *
 *

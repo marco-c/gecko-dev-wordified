@@ -551,17 +551,6 @@ MOZ_OVERRIDE
 endif
 /
 /
-nsContainerFrame
-virtual
-int
-GetSkipSides
-(
-)
-const
-MOZ_OVERRIDE
-;
-/
-/
 nsIListControlFrame
 virtual
 void

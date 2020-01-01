@@ -918,13 +918,6 @@ nsIFrame
 aChildFrame
 )
 ;
-virtual
-int
-GetSkipSides
-(
-)
-const
-;
 void
 ReflowPlaceChild
 (

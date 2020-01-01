@@ -598,13 +598,6 @@ const
 ;
 protected
 :
-virtual
-int
-GetSkipSides
-(
-)
-const
-;
 /
 /
 Data
