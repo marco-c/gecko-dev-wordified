@@ -1596,7 +1596,7 @@ typeaheadfind
 .
 casesensitive
 "
-false
+0
 )
 ;
 /
