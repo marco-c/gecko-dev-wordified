@@ -495,6 +495,13 @@ h
 #
 include
 "
+jsscriptinlines
+.
+h
+"
+#
+include
+"
 methodjit
 /
 MethodJIT
