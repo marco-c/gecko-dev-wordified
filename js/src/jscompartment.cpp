@@ -2726,6 +2726,17 @@ removeFront
 }
 }
 #
+ifdef
+JS_TRACER
+traceMonitor
+.
+sweep
+(
+)
+;
+#
+endif
+#
 if
 defined
 JS_METHODJIT

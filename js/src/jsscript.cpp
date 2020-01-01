@@ -3033,12 +3033,6 @@ js_DestroyScriptFromGC
 (
 cx
 script
-obj
--
->
-compartment
-(
-)
 )
 ;
 }
@@ -8356,9 +8350,6 @@ cx
 JSScript
 *
 script
-JSCompartment
-*
-comp
 )
 {
 #
@@ -8774,7 +8765,10 @@ JS_TRACER
 PurgeScriptFragments
 (
 &
-comp
+script
+-
+>
+compartment
 -
 >
 traceMonitor
@@ -8845,10 +8839,6 @@ DestroyScript
 (
 cx
 script
-cx
--
->
-compartment
 )
 ;
 }
@@ -8861,9 +8851,6 @@ cx
 JSScript
 *
 script
-JSCompartment
-*
-comp
 )
 {
 JS_ASSERT
@@ -8881,7 +8868,6 @@ DestroyScript
 (
 cx
 script
-comp
 )
 ;
 }

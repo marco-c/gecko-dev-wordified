@@ -3543,9 +3543,6 @@ cx
 JSScript
 *
 script
-JSCompartment
-*
-comp
 )
 ;
 extern
