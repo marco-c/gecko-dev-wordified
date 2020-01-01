@@ -2433,7 +2433,9 @@ GetBoolPref
 "
 webgl
 .
-prefer_egl
+prefer
+-
+egl
 "
 &
 preferEGL
@@ -2447,7 +2449,11 @@ GetBoolPref
 "
 webgl
 .
-prefer_gl
+prefer
+-
+native
+-
+gl
 "
 &
 preferOpenGL
