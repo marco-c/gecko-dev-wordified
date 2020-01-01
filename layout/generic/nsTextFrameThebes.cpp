@@ -50782,7 +50782,7 @@ GetLine
 flowEndInTextRun
 )
 ;
-NS_ABORT_IF_FALSE
+NS_ASSERTION
 (
 IsCurrentFontInflation
 (
