@@ -731,6 +731,15 @@ when
 mouse
 is
 over
+eColor__moz_menubartext
+/
+/
+used
+to
+menu
+bar
+item
+text
 eColor__moz_menubarhovertext
 /
 /

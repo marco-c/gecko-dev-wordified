@@ -1338,6 +1338,9 @@ break
 case
 eColor_menutext
 :
+case
+eColor__moz_menubartext
+:
 aColor
 =
 QCOLOR_TO_NS_RGB

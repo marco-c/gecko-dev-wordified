@@ -566,6 +566,14 @@ sMenuBackground
 ;
 static
 nscolor
+sMenuBarText
+;
+static
+nscolor
+sMenuBarHoverText
+;
+static
+nscolor
 sMenuText
 ;
 static
