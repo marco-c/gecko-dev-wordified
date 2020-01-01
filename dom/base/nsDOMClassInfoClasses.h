@@ -1288,10 +1288,6 @@ XPath
 objects
 DOMCI_CLASS
 (
-XPathEvaluator
-)
-DOMCI_CLASS
-(
 XPathExpression
 )
 DOMCI_CLASS
