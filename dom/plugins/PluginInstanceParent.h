@@ -501,7 +501,7 @@ namespace
 plugins
 {
 class
-PluginStreamParent
+BrowserStreamParent
 ;
 class
 PluginInstanceParent
@@ -515,7 +515,7 @@ PluginModuleParent
 ;
 friend
 class
-PluginStreamParent
+BrowserStreamParent
 ;
 public
 :
@@ -586,9 +586,9 @@ _retval
 )
 ;
 virtual
-PPluginStreamProtocolParent
+PBrowserStreamProtocolParent
 *
-PPluginStreamConstructor
+PBrowserStreamConstructor
 (
 const
 nsCString
@@ -624,9 +624,9 @@ stype
 ;
 virtual
 nsresult
-AnswerPPluginStreamDestructor
+AnswerPBrowserStreamDestructor
 (
-PPluginStreamProtocolParent
+PBrowserStreamProtocolParent
 *
 stream
 const
@@ -641,9 +641,9 @@ artificial
 ;
 virtual
 nsresult
-PPluginStreamDestructor
+PBrowserStreamDestructor
 (
-PPluginStreamProtocolParent
+PBrowserStreamProtocolParent
 *
 stream
 const

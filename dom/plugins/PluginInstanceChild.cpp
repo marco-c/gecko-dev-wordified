@@ -446,7 +446,7 @@ h
 #
 include
 "
-PluginStreamChild
+BrowserStreamChild
 .
 h
 "
@@ -1992,12 +1992,12 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PPluginStreamProtocolChild
+PBrowserStreamProtocolChild
 *
 PluginInstanceChild
 :
 :
-PPluginStreamConstructor
+PBrowserStreamConstructor
 (
 const
 nsCString
@@ -2033,7 +2033,7 @@ stype
 {
 return
 new
-PluginStreamChild
+BrowserStreamChild
 (
 this
 url
@@ -2051,9 +2051,9 @@ nsresult
 PluginInstanceChild
 :
 :
-PPluginStreamDestructor
+PBrowserStreamDestructor
 (
-PPluginStreamProtocolChild
+PBrowserStreamProtocolChild
 *
 stream
 const

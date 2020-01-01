@@ -38,7 +38,7 @@ width
 #
 include
 "
-PluginStreamParent
+BrowserStreamParent
 .
 h
 "
@@ -55,10 +55,10 @@ mozilla
 namespace
 plugins
 {
-PluginStreamParent
+BrowserStreamParent
 :
 :
-PluginStreamParent
+BrowserStreamParent
 (
 PluginInstanceParent
 *
@@ -86,7 +86,7 @@ this
 ;
 }
 nsresult
-PluginStreamParent
+BrowserStreamParent
 :
 :
 AnswerNPN_RequestRead
@@ -240,7 +240,7 @@ rp
 ;
 }
 int32_t
-PluginStreamParent
+BrowserStreamParent
 :
 :
 WriteReady
@@ -293,7 +293,7 @@ result
 ;
 }
 int32_t
-PluginStreamParent
+BrowserStreamParent
 :
 :
 Write
@@ -354,7 +354,7 @@ result
 mNPP
 -
 >
-CallPPluginStreamDestructor
+CallPBrowserStreamDestructor
 (
 this
 NPRES_USER_BREAK
@@ -366,7 +366,7 @@ result
 ;
 }
 void
-PluginStreamParent
+BrowserStreamParent
 :
 :
 StreamAsFile
@@ -387,7 +387,7 @@ fname
 ;
 }
 NPError
-PluginStreamParent
+BrowserStreamParent
 :
 :
 NPN_DestroyStream

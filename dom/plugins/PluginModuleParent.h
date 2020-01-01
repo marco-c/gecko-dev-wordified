@@ -1226,7 +1226,7 @@ instance
 )
 ;
 static
-PluginStreamParent
+BrowserStreamParent
 *
 StreamCast
 (

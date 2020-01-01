@@ -37,10 +37,10 @@ width
 /
 #
 ifndef
-mozilla_plugins_NPBrowserStreamParent_h
+mozilla_plugins_BrowserStreamParent_h
 #
 define
-mozilla_plugins_NPBrowserStreamParent_h
+mozilla_plugins_BrowserStreamParent_h
 #
 include
 "
@@ -48,7 +48,7 @@ mozilla
 /
 plugins
 /
-PPluginStreamProtocolParent
+PBrowserStreamProtocolParent
 .
 h
 "
@@ -62,10 +62,10 @@ class
 PluginInstanceParent
 ;
 class
-PluginStreamParent
+BrowserStreamParent
 :
 public
-PPluginStreamProtocolParent
+PBrowserStreamProtocolParent
 {
 friend
 class
@@ -77,7 +77,7 @@ PluginInstanceParent
 ;
 public
 :
-PluginStreamParent
+BrowserStreamParent
 (
 PluginInstanceParent
 *
@@ -89,7 +89,7 @@ stream
 ;
 virtual
 ~
-PluginStreamParent
+BrowserStreamParent
 (
 )
 {
