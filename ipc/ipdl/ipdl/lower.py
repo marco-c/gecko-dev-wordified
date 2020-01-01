@@ -20228,6 +20228,26 @@ protocol
 =
 p
         
+ptype
+=
+p
+.
+decl
+.
+type
+        
+toplevel
+=
+p
+.
+decl
+.
+type
+.
+toplevel
+(
+)
+        
 #
 FIXME
 :
@@ -20239,11 +20259,7 @@ for
 now
         
 if
-p
-.
-decl
-.
-type
+ptype
 .
 isManager
 (
@@ -20368,19 +20384,11 @@ _FindFriends
 .
 findFriends
 (
-p
-.
-decl
-.
-type
+ptype
 )
         
 if
-p
-.
-decl
-.
-type
+ptype
 .
 isManaged
 (
@@ -20391,11 +20399,7 @@ friends
 .
 update
 (
-p
-.
-decl
-.
-type
+ptype
 .
 managers
 )
@@ -20421,11 +20425,7 @@ friends
 .
 update
 (
-p
-.
-decl
-.
-type
+ptype
 .
 manages
 )
@@ -20743,11 +20743,7 @@ constructedType
             
 if
 not
-p
-.
-decl
-.
-type
+ptype
 .
 isManagerOf
 (
@@ -21002,11 +20998,7 @@ clsname
 )
         
 if
-p
-.
-decl
-.
-type
+ptype
 .
 isToplevel
 (
@@ -21233,11 +21225,7 @@ NL
 )
         
 if
-p
-.
-decl
-.
-type
+ptype
 .
 isToplevel
 (
@@ -21480,11 +21468,7 @@ NL
         
 if
 not
-p
-.
-decl
-.
-type
+ptype
 .
 isToplevel
 (
@@ -21591,11 +21575,7 @@ T
 for
 managed
 in
-p
-.
-decl
-.
-type
+ptype
 .
 manages
 :
@@ -21775,15 +21755,7 @@ msgtype
 )
         
 if
-p
-.
-decl
-.
-type
-.
 toplevel
-(
-)
 .
 talksSync
 (
@@ -21800,15 +21772,7 @@ msgtype
 )
             
 if
-p
-.
-decl
-.
-type
-.
 toplevel
-(
-)
 .
 talksRpc
 (
@@ -21942,15 +21906,7 @@ default
 )
         
 if
-p
-.
-decl
-.
-type
-.
 toplevel
-(
-)
 .
 talksSync
 (
@@ -21970,15 +21926,7 @@ default
 )
             
 if
-p
-.
-decl
-.
-type
-.
 toplevel
-(
-)
 .
 talksRpc
 (
@@ -22345,21 +22293,13 @@ method
 dispatches
 =
 (
-p
-.
-decl
-.
-type
+ptype
 .
 isToplevel
 (
 )
 and
-p
-.
-decl
-.
-type
+ptype
 .
 isManager
 (
@@ -22399,15 +22339,7 @@ NL
 )
         
 if
-p
-.
-decl
-.
-type
-.
 toplevel
-(
-)
 .
 talksSync
 (
@@ -22447,15 +22379,7 @@ NL
 )
             
 if
-p
-.
-decl
-.
-type
-.
 toplevel
-(
-)
 .
 talksRpc
 (
@@ -22529,18 +22453,26 @@ OnChannelClose
 )
 )
         
+if
+ptype
+.
+isToplevel
+(
+)
+:
+            
 onclose
 .
 addstmts
 (
 [
-            
+                
 StmtExpr
 (
 ExprCall
 (
 destroysubtreevar
-                              
+                                  
 args
 =
 [
@@ -22550,7 +22482,7 @@ NormalShutdown
 ]
 )
 )
-            
+                
 StmtExpr
 (
 ExprCall
@@ -22558,8 +22490,31 @@ ExprCall
 deallocsubtreevar
 )
 )
-        
+            
 ]
+)
+        
+else
+:
+            
+onclose
+.
+addstmt
+(
+                
+_runtimeAbort
+(
+"
+OnClose
+'
+called
+on
+non
+-
+toplevel
+actor
+"
+)
 )
         
 self
@@ -22577,7 +22532,7 @@ NL
 )
         
 #
-OnChannelClose
+OnChannelError
 (
 )
         
@@ -22593,18 +22548,26 @@ OnChannelError
 )
 )
         
+if
+ptype
+.
+isToplevel
+(
+)
+:
+            
 onerror
 .
 addstmts
 (
 [
-            
+                
 StmtExpr
 (
 ExprCall
 (
 destroysubtreevar
-                              
+                                  
 args
 =
 [
@@ -22614,7 +22577,7 @@ AbnormalShutdown
 ]
 )
 )
-            
+                
 StmtExpr
 (
 ExprCall
@@ -22622,8 +22585,31 @@ ExprCall
 deallocsubtreevar
 )
 )
-        
+            
 ]
+)
+        
+else
+:
+            
+onerror
+.
+addstmt
+(
+                
+_runtimeAbort
+(
+"
+OnError
+'
+called
+on
+non
+-
+toplevel
+actor
+"
+)
 )
         
 self
@@ -22684,11 +22670,7 @@ simpler
 if
 1
 or
-p
-.
-decl
-.
-type
+ptype
 .
 isManager
 (
@@ -22730,11 +22712,7 @@ makeShmemIface
 )
         
 if
-p
-.
-decl
-.
-type
+ptype
 .
 isToplevel
 (
@@ -22986,11 +22964,7 @@ NL
         
 if
 (
-p
-.
-decl
-.
-type
+ptype
 .
 isToplevel
 (
@@ -23005,11 +22979,7 @@ parent
 '
             
 and
-p
-.
-decl
-.
-type
+ptype
 .
 talksRpc
 (
@@ -23502,11 +23472,7 @@ name
 )
         
 if
-p
-.
-decl
-.
-type
+ptype
 .
 isManager
 (
@@ -23580,11 +23546,7 @@ NL
 for
 managed
 in
-p
-.
-decl
-.
-type
+ptype
 .
 manages
 :
@@ -23813,11 +23775,7 @@ name
 for
 managed
 in
-p
-.
-decl
-.
-type
+ptype
 .
 manages
 :
@@ -24174,11 +24132,7 @@ mChannel
 )
         
 if
-p
-.
-decl
-.
-type
+ptype
 .
 isToplevel
 (
@@ -24264,11 +24218,7 @@ name
 )
         
 elif
-p
-.
-decl
-.
-type
+ptype
 .
 isManaged
 (
@@ -24391,11 +24341,7 @@ name
 for
 managed
 in
-p
-.
-decl
-.
-type
+ptype
 .
 manages
 :
