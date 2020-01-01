@@ -846,6 +846,20 @@ notflattened
 False
 )
         
+self
+.
+register
+=
+desc
+.
+get
+(
+'
+register
+'
+True
+)
+        
 #
 If
 we

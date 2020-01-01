@@ -2836,6 +2836,34 @@ interface
 )
 :
         
+#
+Use
+our
+local
+version
+of
+the
+header
+not
+the
+exported
+one
+so
+that
+        
+#
+test
+bindings
+which
+don
+'
+t
+export
+will
+work
+correctly
+.
+        
 basename
 =
 os
@@ -2852,15 +2880,6 @@ filename
 )
         
 return
-'
-mozilla
-/
-dom
-/
-'
-+
-\
-               
 basename
 .
 replace
@@ -27499,6 +27518,10 @@ False
 workers
 =
 False
+                                                        
+register
+=
+True
 )
 ]
         
@@ -28779,6 +28802,10 @@ True
 workers
 =
 False
+                                                            
+register
+=
+True
 )
 ]
         
