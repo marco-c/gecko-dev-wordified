@@ -712,7 +712,7 @@ FieldText
 }
 textbox
 [
-isempty
+empty
 =
 "
 true

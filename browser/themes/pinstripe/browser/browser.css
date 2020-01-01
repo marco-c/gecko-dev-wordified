@@ -12087,7 +12087,7 @@ inherit
 #
 editBMPanel_tagsField
 [
-isempty
+empty
 =
 "
 true

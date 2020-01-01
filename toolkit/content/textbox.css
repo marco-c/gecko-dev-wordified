@@ -120,7 +120,7 @@ inherit
 }
 textbox
 [
-isempty
+empty
 =
 "
 true
@@ -135,7 +135,7 @@ textbox
 input
 textbox
 [
-isempty
+empty
 =
 "
 true
@@ -162,7 +162,7 @@ ltr
 }
 textbox
 [
-isempty
+empty
 =
 "
 true
@@ -184,7 +184,7 @@ textbox
 input
 textbox
 [
-isempty
+empty
 =
 "
 true
@@ -218,7 +218,7 @@ rtl
 }
 textbox
 [
-isempty
+empty
 =
 "
 true
@@ -240,7 +240,7 @@ true
 ]
 textbox
 [
-isempty
+empty
 =
 "
 true
