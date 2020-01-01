@@ -694,7 +694,7 @@ Relocation
 :
 CODE
 )
-MarkIonCode
+MarkIonCodeUnbarriered
 (
 trc
 IonCode

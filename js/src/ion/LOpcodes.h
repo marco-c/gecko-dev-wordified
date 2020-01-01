@@ -650,6 +650,16 @@ GuardShape
 \
 _
 (
+WriteBarrierV
+)
+\
+_
+(
+WriteBarrierT
+)
+\
+_
+(
 TypeBarrier
 )
 #
