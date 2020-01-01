@@ -1401,13 +1401,13 @@ const
 uint32
 JSSLOT_PROXY_CALL
 =
-2
+3
 ;
 const
 uint32
 JSSLOT_PROXY_CONSTRUCT
 =
-3
+4
 ;
 extern
 JS_FRIEND_API
