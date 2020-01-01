@@ -1410,6 +1410,13 @@ _M_IX86
 if
 defined
 (
+_MSC_VER
+)
+|
+|
+(
+defined
+(
 ATTRIBUTE_ALIGNED_MAX
 )
 &
@@ -1418,6 +1425,7 @@ ATTRIBUTE_ALIGNED_MAX
 >
 =
 16
+)
 if
 (
 features
