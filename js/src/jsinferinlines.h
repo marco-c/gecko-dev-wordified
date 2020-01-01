@@ -4305,11 +4305,6 @@ fun
 script
 (
 )
-.
-get
-(
-nogc
-)
 ;
 if
 (
@@ -5797,11 +5792,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 )
 ;

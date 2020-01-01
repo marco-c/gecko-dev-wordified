@@ -12135,11 +12135,6 @@ fun
 script
 (
 )
-.
-get
-(
-nogc
-)
 )
 return
 false
@@ -13727,11 +13722,6 @@ fp
 script
 (
 )
-.
-get
-(
-nogc
-)
 cx
 -
 >
@@ -13807,11 +13797,6 @@ iter
 script
 (
 )
-.
-get
-(
-nogc
-)
 ;
 *
 file
@@ -13830,11 +13815,6 @@ iter
 .
 script
 (
-)
-.
-get
-(
-nogc
 )
 iter
 .

@@ -832,11 +832,6 @@ vmframe
 script
 (
 )
-.
-get
-(
-nogc
-)
 )
 ;
 }

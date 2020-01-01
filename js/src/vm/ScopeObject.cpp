@@ -625,11 +625,6 @@ toFunction
 script
 (
 )
-.
-get
-(
-nogc
-)
 ;
 }
 /
@@ -8342,11 +8337,6 @@ maybefp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 unsigned
