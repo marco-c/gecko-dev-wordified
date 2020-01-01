@@ -86,9 +86,6 @@ waitable_event_watcher
 .
 h
 "
-class
-ResourceDispatcherHost
-;
 #
 include
 "
@@ -339,15 +336,11 @@ iterator_
 ;
 protected
 :
+explicit
 ChildProcessHost
 (
 ProcessType
 type
-ResourceDispatcherHost
-*
-resource_dispatcher_host
-=
-0
 )
 ;
 /
@@ -723,10 +716,6 @@ host_
 ;
 ListenerHook
 listener_
-;
-ResourceDispatcherHost
-*
-resource_dispatcher_host_
 ;
 /
 /
