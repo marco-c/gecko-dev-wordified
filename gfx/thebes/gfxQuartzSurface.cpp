@@ -908,6 +908,11 @@ gfxContext
 :
 :
 FLAG_DISABLE_SNAPPING
+|
+gfxContext
+:
+:
+FLAG_DISABLE_COPY_BACKGROUND
 ;
 return
 0
