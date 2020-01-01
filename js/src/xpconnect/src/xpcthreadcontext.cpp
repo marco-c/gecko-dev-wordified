@@ -1745,11 +1745,11 @@ nsnull
 }
 if
 (
+mSafeJSContext
+&
+&
 !
 glob
-&
-&
-mSafeJSContext
 )
 {
 /
