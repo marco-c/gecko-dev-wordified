@@ -712,6 +712,8 @@ n
 pn_dval
 )
 ;
+default
+:
 /
 *
 *
@@ -751,8 +753,6 @@ fatal
 .
 *
 /
-default
-:
 return
 false
 ;
@@ -1252,6 +1252,8 @@ pos
 fallthrough
 *
 /
+default
+:
 /
 *
 Save
@@ -1267,8 +1269,6 @@ up
 .
 *
 /
-default
-:
 JS_ASSERT
 (
 *
@@ -2303,6 +2303,8 @@ prefix
 /
 *
 *
+FIXME
+?
 Occasionally
 pn_left
 =
@@ -2340,8 +2342,8 @@ because
 we
 want
 to
-*
 traverse
+*
 everything
 at
 most
