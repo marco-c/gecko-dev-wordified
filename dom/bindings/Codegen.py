@@ -4500,8 +4500,6 @@ descriptor
 self
 .
 _ctor
-{
-}
 )
         
 return
@@ -15550,6 +15548,39 @@ returnType
     
 return
 result
+def
+isResultAlreadyAddRefed
+(
+descriptor
+extendedAttributes
+)
+:
+    
+#
+Default
+to
+already_AddRefed
+on
+the
+main
+thread
+raw
+pointer
+in
+workers
+    
+return
+not
+descriptor
+.
+workers
+and
+not
+'
+resultNotAddRefed
+'
+in
+extendedAttributes
 class
 CGCallGenerator
 (
@@ -15607,7 +15638,7 @@ argCount
 argsPre
 returnType
                  
-resultAlreadyAddRefed
+extendedAttributes
 descriptorProvider
 nativeMethodName
 static
@@ -15722,6 +15753,15 @@ rv
 )
 )
         
+resultAlreadyAddRefed
+=
+isResultAlreadyAddRefed
+(
+descriptorProvider
+                                                        
+extendedAttributes
+)
+        
 result
 =
 getRetvalDeclarationForType
@@ -15731,6 +15771,22 @@ descriptorProvider
                                              
 resultAlreadyAddRefed
 )
+        
+if
+'
+implicitJSContext
+'
+in
+extendedAttributes
+:
+            
+argsPre
+=
+"
+cx
+"
++
+argsPre
         
 #
 Build
@@ -16232,10 +16288,16 @@ static
                  
 descriptor
 idlNode
-extendedAttributes
 argConversionStartsAt
 =
 0
+                 
+getter
+=
+False
+setter
+=
+False
 )
 :
         
@@ -16268,62 +16330,24 @@ self
 .
 extendedAttributes
 =
-extendedAttributes
-        
-#
-Default
-to
-already_AddRefed
-on
-the
-main
-thread
-raw
-pointer
-in
-workers
-        
-self
-.
-resultAlreadyAddRefed
-=
-not
 descriptor
 .
-workers
-and
-not
-'
-resultNotAddRefed
-'
-in
-self
-.
-extendedAttributes
-        
-self
-.
-argsPre
+getExtendedAttributes
+(
+idlNode
+                                                                   
+getter
 =
-"
-cx
-"
-if
-'
-implicitJSContext
-'
-in
-self
-.
-extendedAttributes
-else
-"
-"
+getter
+                                                                   
+setter
+=
+setter
+)
         
 self
 .
 argsPre
-+
 =
 argsPre
         
@@ -16444,7 +16468,7 @@ returnType
                     
 self
 .
-resultAlreadyAddRefed
+extendedAttributes
 descriptor
 nativeMethodName
                     
@@ -17098,8 +17122,6 @@ nativeMethodName
 static
 descriptor
 method
-                 
-extendedAttributes
 )
 :
         
@@ -17380,8 +17402,6 @@ static
 descriptor
                                       
 method
-extendedAttributes
-                                      
 argConversionStartsAt
 )
         
@@ -19451,9 +19471,26 @@ nativeMethodName
 descriptor
                  
 attr
-extendedAttributes
+getter
+=
+False
+setter
+=
+False
 )
 :
+        
+assert
+bool
+(
+getter
+)
+!
+=
+bool
+(
+setter
+)
         
 CGPerSignatureCall
 .
@@ -19470,7 +19507,12 @@ False
 descriptor
 attr
                                     
-extendedAttributes
+getter
+=
+getter
+setter
+=
+setter
 )
     
 def
@@ -19536,8 +19578,6 @@ returnType
 nativeMethodName
 descriptor
 attr
-                 
-extendedAttributes
 )
 :
         
@@ -19553,7 +19593,9 @@ nativeMethodName
                                     
 descriptor
 attr
-extendedAttributes
+getter
+=
+True
 )
     
 def
@@ -19675,8 +19717,6 @@ argType
 nativeMethodName
 descriptor
 attr
-                 
-extendedAttributes
 )
 :
         
@@ -19697,7 +19737,9 @@ nativeMethodName
 descriptor
 attr
                                     
-extendedAttributes
+setter
+=
+True
 )
     
 def
@@ -19926,15 +19968,8 @@ self
 descriptor
 name
 args
-extendedAttributes
 )
 :
-        
-self
-.
-extendedAttributes
-=
-extendedAttributes
         
 CGAbstractStaticMethod
 .
@@ -20220,13 +20255,6 @@ self
 descriptor
 baseName
 args
-                                         
-descriptor
-.
-getExtendedAttributes
-(
-method
-)
 )
     
 def
@@ -20283,10 +20311,6 @@ descriptor
 self
 .
 method
-                            
-self
-.
-extendedAttributes
 )
 class
 CGNativeGetter
@@ -20446,18 +20470,6 @@ self
 descriptor
 name
 args
-                                         
-descriptor
-.
-getExtendedAttributes
-(
-self
-.
-attr
-getter
-=
-True
-)
 )
     
 def
@@ -20543,9 +20555,6 @@ descriptor
 self
 .
 attr
-self
-.
-extendedAttributes
 )
 )
 class
@@ -20724,18 +20733,6 @@ self
 descriptor
 name
 args
-                                         
-descriptor
-.
-getExtendedAttributes
-(
-self
-.
-attr
-setter
-=
-True
-)
 )
     
 def
@@ -20821,9 +20818,6 @@ descriptor
 self
 .
 attr
-self
-.
-extendedAttributes
 )
 )
 def
