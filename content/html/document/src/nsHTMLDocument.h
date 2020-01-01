@@ -350,7 +350,10 @@ aPrincipal
 )
 ;
 virtual
-nsresult
+already_AddRefed
+<
+nsIPresShell
+>
 CreateShell
 (
 nsPresContext
@@ -362,11 +365,8 @@ aViewManager
 nsStyleSet
 *
 aStyleSet
-nsIPresShell
-*
-*
-aInstancePtrResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

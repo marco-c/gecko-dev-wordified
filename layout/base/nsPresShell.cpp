@@ -53309,8 +53309,6 @@ nsCOMPtr
 nsIPresShell
 >
 sh
-;
-rv
 =
 mDocument
 -
@@ -53320,15 +53318,11 @@ CreateShell
 cx
 vm
 newSet
-getter_AddRefs
-(
-sh
-)
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
-rv
+sh
 false
 )
 ;
