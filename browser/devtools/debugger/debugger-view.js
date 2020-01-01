@@ -1678,6 +1678,8 @@ source
 +
 aSource
 .
+source
+.
 url
 +
 "
@@ -1853,6 +1855,8 @@ setEditorMode
 (
 aSource
 .
+source
+.
 url
 aSource
 .
@@ -1918,6 +1922,8 @@ Sources
 selectedValue
 =
 aSource
+.
+source
 .
 url
 ;

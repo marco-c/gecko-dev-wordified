@@ -219,6 +219,13 @@ this
 conn
 .
 prefix
+traits
+:
+{
+sourcesAndNewSource
+:
+true
+}
 }
 ;
 }

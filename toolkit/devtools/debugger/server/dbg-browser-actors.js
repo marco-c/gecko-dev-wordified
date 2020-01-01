@@ -349,6 +349,9 @@ browser
 traits
 :
 {
+sources
+:
+true
 }
 }
 ;
