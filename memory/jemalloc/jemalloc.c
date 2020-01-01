@@ -38332,12 +38332,6 @@ lock
 )
 ;
 }
-malloc_spin_unlock
-(
-&
-arenas_lock
-)
-;
 malloc_mutex_lock
 (
 &
@@ -38385,12 +38379,6 @@ malloc_mutex_unlock
 (
 &
 base_mtx
-)
-;
-malloc_spin_lock
-(
-&
-arenas_lock
 )
 ;
 for
