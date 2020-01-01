@@ -151,6 +151,17 @@ function
 (
 )
 {
+gBrowser
+.
+selectedTab
+=
+gBrowser
+.
+tabs
+[
+0
+]
+;
 is
 (
 groupItems

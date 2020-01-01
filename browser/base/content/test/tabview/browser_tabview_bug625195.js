@@ -320,7 +320,7 @@ selectedTab
 ;
 gBrowser
 .
-selected
+selectedTab
 =
 originalTab
 ;

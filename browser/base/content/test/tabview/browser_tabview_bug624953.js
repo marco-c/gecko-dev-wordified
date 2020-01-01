@@ -144,7 +144,13 @@ stacked
 closeGroupItem
 (
 groupItem
+function
+(
+)
+hideTabView
+(
 finish
+)
 )
 ;
 }
