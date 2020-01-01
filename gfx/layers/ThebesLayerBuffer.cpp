@@ -2434,7 +2434,7 @@ aYResolution
 gfxUtils
 :
 :
-ClipToRegion
+ClipToRegionSnapped
 (
 result
 .
