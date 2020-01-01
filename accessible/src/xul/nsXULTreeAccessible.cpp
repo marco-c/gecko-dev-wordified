@@ -4176,6 +4176,7 @@ rowCount
 =
 0
 ;
+nsresult
 rv
 =
 mTreeView
