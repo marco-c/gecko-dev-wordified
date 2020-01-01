@@ -1647,6 +1647,9 @@ Shadow
 (
 aCanvas
 )
+nsIntRect
+(
+)
 aNewFrontSurface
 -
 >
