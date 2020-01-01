@@ -452,9 +452,8 @@ virtual
 JSBackgroundTask
 (
 )
-=
-0
-;
+{
+}
 virtual
 void
 run
