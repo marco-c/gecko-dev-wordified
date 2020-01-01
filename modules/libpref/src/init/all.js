@@ -8615,7 +8615,7 @@ websocket
 .
 enabled
 "
-false
+true
 )
 ;
 /
