@@ -3342,6 +3342,9 @@ BrowserUI
 newTab
 (
 uri
+Browser
+.
+selectedTab
 )
 ;
 }

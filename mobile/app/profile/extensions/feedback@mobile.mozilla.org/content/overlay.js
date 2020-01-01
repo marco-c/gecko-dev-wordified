@@ -787,6 +787,9 @@ BrowserUI
 newTab
 (
 url
+Browser
+.
+selectedTab
 )
 ;
 /
@@ -917,6 +920,9 @@ BrowserUI
 newTab
 (
 url
+Browser
+.
+selectedTab
 )
 ;
 }

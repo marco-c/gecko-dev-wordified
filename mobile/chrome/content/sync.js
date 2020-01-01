@@ -4468,7 +4468,9 @@ BrowserUI
 newTab
 (
 url
-null
+Browser
+.
+selectedTab
 )
 ;
 }
