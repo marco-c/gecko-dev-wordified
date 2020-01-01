@@ -9558,6 +9558,11 @@ extendedStyle
 =
 WS_EX_TOOLWINDOW
 ;
+else
+parent
+=
+NULL
+;
 }
 else
 if
