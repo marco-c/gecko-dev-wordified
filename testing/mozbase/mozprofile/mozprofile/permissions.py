@@ -1542,6 +1542,19 @@ cursor
 )
 ;
         
+cursor
+.
+execute
+(
+"
+PRAGMA
+user_version
+=
+3
+"
+)
+;
+        
 #
 SQL
 copied
