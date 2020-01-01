@@ -1777,14 +1777,6 @@ eTreeConstructed
 mDocument
 -
 >
-CacheChildrenInSubtree
-(
-mDocument
-)
-;
-mDocument
--
->
 NotifyOfInitialUpdate
 (
 )
