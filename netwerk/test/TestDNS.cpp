@@ -248,13 +248,7 @@ mHost
 get
 (
 )
-static_cast
-<
-uint32_t
->
-(
 status
-)
 (
 void
 *
@@ -706,13 +700,7 @@ x
 \
 n
 "
-static_cast
-<
-uint32_t
->
-(
 rv
-)
 )
 ;
 }
