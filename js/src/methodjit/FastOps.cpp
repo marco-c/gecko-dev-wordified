@@ -6756,7 +6756,6 @@ popGuaranteed
 (
 PC
 )
-true
 )
 ;
 }
@@ -6885,7 +6884,6 @@ frame
 storeLocal
 (
 slot
-true
 true
 )
 ;
