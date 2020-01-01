@@ -2874,15 +2874,9 @@ mSpan
 /
 The
 frame
-and
-its
-type
 nsIFrame
 *
 mFrame
-;
-nsCSSFrameType
-mFrameType
 ;
 /
 /
