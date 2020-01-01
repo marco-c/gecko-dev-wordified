@@ -646,13 +646,6 @@ h
 #
 include
 "
-nsAHtml5FragmentParser
-.
-h
-"
-#
-include
-"
 nsHtml5Module
 .
 h
