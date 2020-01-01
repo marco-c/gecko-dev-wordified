@@ -1091,6 +1091,13 @@ aEnable
 )
 ;
 void
+EnableLocationHighAccuracy
+(
+bool
+aEnable
+)
+;
+void
 EnableSensor
 (
 int
@@ -2574,6 +2581,9 @@ jAcknowledgeEventSync
 ;
 jmethodID
 jEnableLocation
+;
+jmethodID
+jEnableLocationHighAccuracy
 ;
 jmethodID
 jEnableSensor
