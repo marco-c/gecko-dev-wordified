@@ -1837,13 +1837,13 @@ mLayerClient
 null
 )
 {
-notifyLayerClientOfGeometryChange
-(
-)
-;
 mLayerClient
 .
 viewportSizeChanged
+(
+)
+;
+notifyLayerClientOfGeometryChange
 (
 )
 ;
