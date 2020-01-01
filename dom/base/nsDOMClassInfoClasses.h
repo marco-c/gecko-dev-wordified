@@ -802,10 +802,6 @@ SVGClipPathElement
 )
 DOMCI_CLASS
 (
-SVGEllipseElement
-)
-DOMCI_CLASS
-(
 SVGFEBlendElement
 )
 DOMCI_CLASS

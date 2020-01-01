@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIDOMSVGEllipseElement
-.
-h
-"
-#
-include
-"
 nsSVGLength2
 .
 h
@@ -151,7 +144,7 @@ MOZ_FINAL
 public
 SVGEllipseElementBase
 public
-nsIDOMSVGEllipseElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -207,7 +200,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGELLIPSEELEMENT
 /
 /
 xxx
@@ -265,13 +257,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
