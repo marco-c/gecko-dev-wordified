@@ -781,7 +781,7 @@ RootedObject
 global
 (
 cx
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 cx
 )

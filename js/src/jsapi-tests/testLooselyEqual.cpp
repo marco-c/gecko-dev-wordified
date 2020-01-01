@@ -359,7 +359,7 @@ obj
 =
 OBJECT_TO_JSVAL
 (
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 cx
 )
