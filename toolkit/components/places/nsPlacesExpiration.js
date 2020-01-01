@@ -5350,6 +5350,7 @@ Ci
 nsINavHistoryObserver
 .
 REASON_EXPIRED
+0
 )
 ;
 }

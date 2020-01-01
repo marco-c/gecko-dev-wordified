@@ -17258,6 +17258,7 @@ nsINavHistoryObserver
 :
 :
 REASON_DELETED
+0
 )
 )
 ;
@@ -22769,6 +22770,8 @@ nsACString
 aGUID
 uint16_t
 aReason
+uint32_t
+aTransitionType
 )
 {
 /
@@ -22862,6 +22865,7 @@ aURI
 aVisitTime
 aGUID
 aReason
+aTransitionType
 )
 )
 ;

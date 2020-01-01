@@ -610,3 +610,15 @@ return
 NS_OK
 ;
 }
+NS_IMETHODIMP
+nsDownloadHistory
+:
+:
+RemoveAllDownloads
+(
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
