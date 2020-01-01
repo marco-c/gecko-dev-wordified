@@ -1632,10 +1632,6 @@ DOMCI_CLASS
 (
 BluetoothDevice
 )
-DOMCI_CLASS
-(
-BluetoothPropertyEvent
-)
 #
 endif
 DOMCI_CLASS
