@@ -318,9 +318,9 @@ confirmNextInstall
 var
 Ci
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 ;
 var
 popupPanel
