@@ -3572,6 +3572,10 @@ mIsFrameInvalid
 (
 PR_FALSE
 )
+mLastStyle
+(
+STYLE_MAX
+)
 mStyleStack
 (
 20
