@@ -1661,14 +1661,13 @@ cacheFile
 ;
 channel
 .
-setContentType
-(
+contentType
+=
 "
 application
 /
 json
 "
-)
 ;
 NetUtil
 .
