@@ -19564,7 +19564,7 @@ name
 output
 )
 ;
-if
+JS_ASSERT
 (
 mir
 -
@@ -19572,7 +19572,11 @@ mir
 resumePoint
 (
 )
+!
+=
+NULL
 )
+;
 cache
 .
 setScriptedLocation
@@ -19603,13 +19607,6 @@ resumePoint
 pc
 (
 )
-)
-;
-else
-cache
-.
-setIdempotent
-(
 )
 ;
 size_t
