@@ -2281,8 +2281,6 @@ nsISupports
 if
 found
 .
-Refcounted
-.
 *
 /
 NS_IMETHOD
