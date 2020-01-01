@@ -1582,7 +1582,7 @@ image
 .
 *
 /
-already_AddRefed
+nsRefPtr
 <
 ImageContainer
 >
@@ -6713,7 +6713,7 @@ NS_RGBA
 )
 ;
 }
-already_AddRefed
+nsRefPtr
 <
 ImageContainer
 >
