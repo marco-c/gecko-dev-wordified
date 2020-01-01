@@ -1800,7 +1800,7 @@ bp
 *
 bp
 =
-true
+false
 ;
 /
 /
@@ -1821,6 +1821,8 @@ JSID_VOID
 ;
 JSBool
 b
+=
+JS_FALSE
 ;
 GET
 (
