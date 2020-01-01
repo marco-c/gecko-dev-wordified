@@ -14808,6 +14808,7 @@ jschar
 CharCmp
 0
 tmp
+JS_SORTING_GENERIC
 )
 ;
 js_MergeSort
@@ -14829,6 +14830,7 @@ jschar
 CharCmp
 0
 tmp
+JS_SORTING_GENERIC
 )
 ;
 return
