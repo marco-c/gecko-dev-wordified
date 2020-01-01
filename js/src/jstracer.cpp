@@ -11929,6 +11929,9 @@ bool
 pre
 )
 {
+return
+false
+;
 jsval
 &
 r
