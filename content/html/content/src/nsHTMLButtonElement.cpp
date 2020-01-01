@@ -1616,13 +1616,9 @@ nsIFrame
 *
 formFrame
 =
-nsnull
-;
-CallQueryInterface
+do_QueryFrame
 (
 formControlFrame
-&
-formFrame
 )
 ;
 if

@@ -15351,13 +15351,11 @@ GetFirstChild
 nsnull
 )
 ;
-nsCOMPtr
-<
 nsIScrollableFrame
->
+*
 scrollFrame
 =
-do_QueryInterface
+do_QueryFrame
 (
 scrollingChild
 )

@@ -519,7 +519,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_QUERYFRAME
 /
 /
 Overloaded

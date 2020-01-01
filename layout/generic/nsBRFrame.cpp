@@ -1929,14 +1929,7 @@ accService
 >
 CreateHTMLBRAccessible
 (
-static_cast
-<
-nsIFrame
-*
->
-(
 this
-)
 aAccessible
 )
 ;
