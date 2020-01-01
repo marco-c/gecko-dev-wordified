@@ -581,6 +581,14 @@ APP
 %
 /
 discovery
+/
+%
+VERSION
+%
+/
+%
+OS
+%
 "
 )
 ;
