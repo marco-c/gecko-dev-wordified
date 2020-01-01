@@ -18435,11 +18435,8 @@ if
 JS_GetPendingException
 (
 my_cx
+&
 exn
-.
-address
-(
-)
 )
 )
 {

@@ -623,8 +623,11 @@ the
 child
 process
 .
-jsval
+RootedValue
 exn
+(
+cx
+)
 ;
 if
 (

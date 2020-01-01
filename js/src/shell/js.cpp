@@ -5024,11 +5024,8 @@ throwing
 JS_GetPendingException
 (
 newcx
+&
 exc
-.
-address
-(
-)
 )
 ;
 newCompartment

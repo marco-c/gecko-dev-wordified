@@ -5159,10 +5159,6 @@ JS_GetPendingException
 (
 cx
 aException
-.
-address
-(
-)
 )
 ;
 JS_ClearPendingException
@@ -5444,10 +5440,6 @@ JS_GetPendingException
 (
 cx
 aException
-.
-address
-(
-)
 )
 ;
 JS_ClearPendingException

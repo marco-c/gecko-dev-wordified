@@ -27051,8 +27051,10 @@ JS_GetPendingException
 JSContext
 *
 cx
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 vp
 )
 ;
@@ -27066,7 +27068,10 @@ JS_SetPendingException
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+HandleValue
 v
 )
 ;
@@ -27325,7 +27330,10 @@ JS_ErrorFromException
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+HandleValue
 v
 )
 ;

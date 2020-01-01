@@ -1366,11 +1366,8 @@ if
 JS_GetPendingException
 (
 mCx
+&
 exn
-.
-address
-(
-)
 )
 &
 &
