@@ -235,7 +235,9 @@ XMLHttpRequest
 ;
 xhr
 .
-onuploadprogress
+upload
+.
+onprogress
 =
 uploadprogress
 ;
@@ -256,7 +258,7 @@ event
 initProgressEvent
 (
 "
-uploadprogress
+progress
 "
 false
 false
@@ -266,6 +268,8 @@ false
 )
 ;
 xhr
+.
+upload
 .
 dispatchEvent
 (
@@ -278,9 +282,12 @@ called
 "
 XMLHttpRequest
 .
-onuploadprogress
+upload
+.
+onprogress
 sets
-uploadprogress
+upload
+progress
 event
 listener
 "
