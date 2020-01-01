@@ -2328,6 +2328,11 @@ in
 )
 CSS_KEY
 (
+interlace
+interlace
+)
+CSS_KEY
+(
 inactive
 inactive
 )
@@ -2783,6 +2788,11 @@ CSS_KEY
 (
 progress
 progress
+)
+CSS_KEY
+(
+progressive
+progressive
 )
 CSS_KEY
 (

@@ -1161,6 +1161,8 @@ aResult
 )
 const
 ;
+public
+:
 /
 /
 return
@@ -1201,6 +1203,8 @@ nsAString
 aResult
 )
 ;
+private
+:
 /
 /
 May
