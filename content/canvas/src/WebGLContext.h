@@ -2791,6 +2791,13 @@ WebGLfloat
 >
 mFakeVertexAttrib0Array
 ;
+WebGLint
+mStencilRef
+;
+WebGLuint
+mStencilValueMask
+mStencilWriteMask
+;
 public
 :
 /
