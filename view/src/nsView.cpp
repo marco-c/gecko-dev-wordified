@@ -2018,7 +2018,7 @@ if
 mViewManager
 -
 >
-IsRefreshEnabled
+IsPaintingAllowed
 (
 )
 )
