@@ -6713,6 +6713,10 @@ aleFreeList
 (
 NULL
 )
+tokenStream
+(
+cx
+)
 principals
 (
 NULL
@@ -6774,7 +6778,8 @@ are
 passed
 on
 to
-js_InitTokenStream
+init
+tokenStream
 .
 *
 The

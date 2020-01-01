@@ -1034,11 +1034,6 @@ JSStackHeader
 ;
 typedef
 struct
-JSStringBuffer
-JSStringBuffer
-;
-typedef
-struct
 JSSubString
 JSSubString
 ;
