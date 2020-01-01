@@ -5781,7 +5781,7 @@ above
 Do
 any
 deferred
-released
+releases
 of
 native
 objects
