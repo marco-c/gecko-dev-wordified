@@ -909,6 +909,8 @@ GetChildProcess
 (
 )
 ;
+#
+endif
 NS_IMETHOD
 GetCrossProcessObjectWrapper
 (
@@ -918,8 +920,6 @@ nsIVariant
 cpow
 )
 ;
-#
-endif
 nsFrameMessageManager
 *
 GetFrameMessageManager
