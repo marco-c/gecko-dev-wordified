@@ -1726,7 +1726,7 @@ set
 .
 static
 inline
-int
+unsigned
 msbSet32
 (
 uint32_t
@@ -1788,7 +1788,7 @@ set
 .
 static
 inline
-int
+unsigned
 lsbSet32
 (
 uint32_t
@@ -1908,7 +1908,7 @@ set
 .
 static
 inline
-int
+unsigned
 msbSet64
 (
 uint64_t
@@ -1970,7 +1970,7 @@ set
 .
 static
 inline
-int
+unsigned
 lsbSet64
 (
 uint64_t
@@ -2033,7 +2033,7 @@ is
 set
 .
 static
-int
+unsigned
 msbSet64
 (
 uint64_t
@@ -2084,7 +2084,7 @@ is
 set
 .
 static
-int
+unsigned
 lsbSet64
 (
 uint64_t
@@ -2160,7 +2160,7 @@ set
 .
 static
 inline
-int
+unsigned
 msbSet32
 (
 uint32_t
@@ -2194,7 +2194,7 @@ set
 .
 static
 inline
-int
+unsigned
 lsbSet32
 (
 uint32_t
@@ -2226,7 +2226,7 @@ set
 .
 static
 inline
-int
+unsigned
 msbSet64
 (
 uint64_t
@@ -2260,7 +2260,7 @@ set
 .
 static
 inline
-int
+unsigned
 lsbSet64
 (
 uint64_t
@@ -2295,7 +2295,7 @@ searching
 iteratively
 .
 static
-int
+unsigned
 msbSet32
 (
 uint32_t
@@ -2353,7 +2353,7 @@ searching
 iteratively
 .
 static
-int
+unsigned
 lsbSet32
 (
 uint32_t
@@ -2410,7 +2410,7 @@ searching
 iteratively
 .
 static
-int
+unsigned
 msbSet64
 (
 uint64_t
@@ -2468,7 +2468,7 @@ searching
 iteratively
 .
 static
-int
+unsigned
 lsbSet64
 (
 uint64_t
