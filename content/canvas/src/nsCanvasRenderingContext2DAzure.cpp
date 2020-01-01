@@ -5271,7 +5271,7 @@ ANDROID
 !
 defined
 (
-XP_LINUX
+LINUX
 )
 return
 NS_ERROR_NOT_AVAILABLE
