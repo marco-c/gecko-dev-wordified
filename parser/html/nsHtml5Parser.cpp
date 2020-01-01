@@ -3013,6 +3013,13 @@ DropParserAndPerfHint
 (
 )
 ;
+mExecutor
+-
+>
+DropHeldElements
+(
+)
+;
 mAtomTable
 .
 Clear

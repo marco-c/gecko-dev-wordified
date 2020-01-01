@@ -4762,6 +4762,10 @@ Reset
 (
 )
 {
+DropHeldElements
+(
+)
+;
 mHasProcessedBase
 =
 PR_FALSE
