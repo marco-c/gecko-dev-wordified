@@ -619,7 +619,7 @@ inner
 box
 -
 >
-getInput
+getOperand
 (
 0
 )
@@ -873,7 +873,7 @@ inner
 unbox
 -
 >
-getInput
+getOperand
 (
 0
 )
@@ -1104,7 +1104,7 @@ opd
 ret
 -
 >
-getInput
+getOperand
 (
 0
 )
@@ -1435,7 +1435,7 @@ opd
 ins
 -
 >
-getInput
+getOperand
 (
 i
 )
@@ -1625,7 +1625,7 @@ ins
 mir
 -
 >
-getInput
+getOperand
 (
 i
 )

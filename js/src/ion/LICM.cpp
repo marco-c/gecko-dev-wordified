@@ -1528,7 +1528,7 @@ isInLoop
 ins
 -
 >
-getInput
+getOperand
 (
 i
 )
@@ -1539,7 +1539,7 @@ i
 ins
 -
 >
-getInput
+getOperand
 (
 i
 )
@@ -1561,7 +1561,7 @@ IonSpew_LICM
 ins
 -
 >
-getInput
+getOperand
 (
 i
 )

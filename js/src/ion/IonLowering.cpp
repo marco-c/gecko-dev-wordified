@@ -1081,7 +1081,7 @@ opd
 test
 -
 >
-getInput
+getOperand
 (
 0
 )
@@ -1395,7 +1395,7 @@ lhs
 ins
 -
 >
-getInput
+getOperand
 (
 0
 )
@@ -1407,7 +1407,7 @@ rhs
 ins
 -
 >
-getInput
+getOperand
 (
 1
 )
@@ -1556,7 +1556,7 @@ lhs
 ins
 -
 >
-getInput
+getOperand
 (
 0
 )
@@ -1568,7 +1568,7 @@ rhs
 ins
 -
 >
-getInput
+getOperand
 (
 1
 )
@@ -1759,7 +1759,7 @@ opd
 ins
 -
 >
-getInput
+getOperand
 (
 i
 )
@@ -2395,7 +2395,7 @@ opd
 phi
 -
 >
-getInput
+getOperand
 (
 position
 )
