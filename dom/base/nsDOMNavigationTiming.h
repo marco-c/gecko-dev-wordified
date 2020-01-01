@@ -723,6 +723,9 @@ RedirectCheckState
 RedirectCheckState
 mRedirectCheck
 ;
+PRInt16
+mRedirectCount
+;
 nsDOMPerformanceNavigationType
 mNavigationType
 ;
