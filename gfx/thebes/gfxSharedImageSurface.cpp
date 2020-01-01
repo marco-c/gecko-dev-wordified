@@ -563,6 +563,11 @@ gfxSharedImageSurface
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+gfxSharedImageSurface
+)
+;
 }
 /
 *
@@ -627,6 +632,11 @@ Shmem
 aShmem
 )
 {
+MOZ_COUNT_CTOR
+(
+gfxSharedImageSurface
+)
+;
 mSize
 =
 aSize
