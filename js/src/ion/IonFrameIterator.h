@@ -751,6 +751,12 @@ isConstructing
 )
 const
 ;
+Value
+baselineThisValue
+(
+)
+const
+;
 bool
 isEntryJSFrame
 (

@@ -680,6 +680,8 @@ script
 StackFrame
 *
 fp
+bool
+newType
 )
 ;
 IonExecStatus
