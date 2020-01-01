@@ -931,15 +931,6 @@ void
 ;
 NS_HIDDEN_
 (
-PRBool
-)
-ReadyToCallDidBuildModelImpl
-(
-void
-)
-;
-NS_HIDDEN_
-(
 void
 )
 DropParserAndPerfHint
@@ -1959,7 +1950,7 @@ implemented
 protected
 :
 void
-ContinueInterruptedParsingAsyncIfEnabled
+ContinueInterruptedParsingAsync
 (
 )
 ;
@@ -2224,11 +2215,6 @@ sheets
 load
 PRUint8
 mDeferredFlushTags
-:
-1
-;
-PRUint8
-mDidGetReadyToCallDidBuildModelCall
 :
 1
 ;
