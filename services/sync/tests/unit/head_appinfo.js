@@ -91,10 +91,16 @@ js
 ;
 }
 else
+{
 do_load_httpd_js
 (
 )
 ;
+do_get_profile
+(
+)
+;
+}
 Cu
 .
 import
