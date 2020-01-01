@@ -3808,11 +3808,7 @@ SetUserData
 (
 &
 gLayerManagerLayerBuilder
-new
-LayerManagerLayerBuilder
-(
 layerBuilder
-)
 )
 ;
 if
