@@ -585,6 +585,11 @@ CleanResources
 (
 )
 ;
+void
+CreateTexture
+(
+)
+;
 protected
 :
 typedef
