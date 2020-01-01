@@ -1263,9 +1263,11 @@ return
 false
 ;
 }
-js_UpdateMallocCounter
-(
 cx
+-
+>
+updateMallocCounter
+(
 JS_BIT
 (
 sizeLog2
