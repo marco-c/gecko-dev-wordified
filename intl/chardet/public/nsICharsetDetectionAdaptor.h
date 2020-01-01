@@ -537,7 +537,7 @@ Init
 (
 nsIWebShellServices
 *
-aWebShell
+aDocShell
 nsICharsetDetector
 *
 aDetector

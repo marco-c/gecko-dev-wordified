@@ -7569,7 +7569,7 @@ stuff
 /
 /
 that
-nsWebShell
+nsDocShell
 does
 (
 need

@@ -1575,7 +1575,7 @@ res
 {
 res
 =
-NotifyWebShell
+NotifyDocShell
 (
 0
 0

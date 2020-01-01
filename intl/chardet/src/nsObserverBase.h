@@ -644,11 +644,11 @@ value
 protected
 :
 NS_IMETHOD
-NotifyWebShell
+NotifyDocShell
 (
 nsISupports
 *
-aWebShell
+aDocShell
 nsISupports
 *
 aChannel

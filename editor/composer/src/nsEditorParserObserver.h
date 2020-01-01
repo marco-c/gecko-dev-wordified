@@ -549,7 +549,7 @@ Notify
 (
 nsISupports
 *
-aWebShell
+aDocShell
 nsISupports
 *
 aChannel

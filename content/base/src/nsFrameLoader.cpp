@@ -2803,7 +2803,7 @@ type
 from
 our
 parent
-webshell
+docshell
 .
 If
 it
@@ -5173,7 +5173,7 @@ mozilla
 .
 org
 /
-webshell
+docshell
 ;
 1
 "

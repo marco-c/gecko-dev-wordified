@@ -424,7 +424,7 @@ BLOCK
 /
 #
 define
-DONT_INFORM_WEBSHELL
+DONT_INFORM_DOCSHELL
 #
 include
 "
@@ -539,11 +539,11 @@ NS_IMETHODIMP
 nsObserverBase
 :
 :
-NotifyWebShell
+NotifyDocShell
 (
 nsISupports
 *
-aWebShell
+aDocShell
 nsISupports
 *
 aChannel
@@ -633,7 +633,7 @@ wss
 =
 do_QueryInterface
 (
-aWebShell
+aDocShell
 &
 res
 )
@@ -648,7 +648,7 @@ res
 {
 #
 ifndef
-DONT_INFORM_WEBSHELL
+DONT_INFORM_DOCSHELL
 /
 /
 ask

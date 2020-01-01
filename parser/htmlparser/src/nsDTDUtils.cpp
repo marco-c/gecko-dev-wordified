@@ -6538,7 +6538,7 @@ nsIParser
 aParser
 nsISupports
 *
-aWebShell
+aDocShell
 const
 PRUint32
 aFlags
@@ -6909,7 +6909,7 @@ observer
 >
 Notify
 (
-aWebShell
+aDocShell
 channel
 nsHTMLTags
 :

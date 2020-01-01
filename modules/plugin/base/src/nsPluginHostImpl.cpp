@@ -32279,7 +32279,7 @@ be
 canceled
 form
 |
-nsWebShell
+nsDocShell
 :
 :
 OnLinkClickSync
