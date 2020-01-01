@@ -363,6 +363,9 @@ flag
 bool
 mOpened
 ;
+bool
+mIsSrcdocChannel
+;
 }
 ;
 #
