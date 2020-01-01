@@ -469,7 +469,7 @@ eSortAction
 eNoLiveAttr
 eTableCell
 kNoReqStates
-eARIASelectable
+eARIASelectableIfDefined
 eARIAReadonlyOrEditableIfDefined
 }
 {
@@ -1210,7 +1210,7 @@ eSortAction
 eNoLiveAttr
 eTableCell
 kNoReqStates
-eARIASelectable
+eARIASelectableIfDefined
 eARIAReadonlyOrEditableIfDefined
 }
 {
