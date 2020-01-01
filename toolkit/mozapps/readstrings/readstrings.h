@@ -574,6 +574,12 @@ results
 [
 MAX_TEXT_LEN
 ]
+const
+char
+*
+section
+=
+NULL
 )
 ;
 #
