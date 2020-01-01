@@ -448,11 +448,6 @@ JS_THREADSAFE
 #
 include
 <
-algorithm
->
-#
-include
-<
 string
 .
 h
@@ -1008,10 +1003,10 @@ empty
 )
 )
 {
-std
+js
 :
 :
-reverse
+Reverse
 (
 back
 -
