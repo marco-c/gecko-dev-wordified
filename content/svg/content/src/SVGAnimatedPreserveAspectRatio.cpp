@@ -441,7 +441,7 @@ BLOCK
 #
 include
 "
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 .
 h
 "
