@@ -2895,6 +2895,13 @@ Linux
 #
 ifdef
 __linux__
+&
+&
+!
+defined
+(
+ANDROID
+)
 #
 define
 WTF_OS_LINUX
