@@ -3379,6 +3379,12 @@ aAllowPercentages
 PR_FALSE
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 private
 :
 /
@@ -3393,7 +3399,7 @@ surfaces
 static
 gfxASurface
 *
-mThebesComputationalSurface
+gThebesComputationalSurface
 ;
 }
 ;
