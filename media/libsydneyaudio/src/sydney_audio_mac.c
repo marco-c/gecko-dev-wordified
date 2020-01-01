@@ -383,6 +383,15 @@ h
 #
 include
 <
+CoreServices
+/
+CoreServices
+.
+h
+>
+#
+include
+<
 AudioUnit
 /
 AudioUnit
