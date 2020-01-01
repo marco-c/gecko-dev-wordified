@@ -2521,6 +2521,12 @@ JSInlineString
 this
 ;
 }
+bool
+isShort
+(
+)
+const
+;
 JS_ALWAYS_INLINE
 JSStableString
 &
@@ -2874,12 +2880,6 @@ THING_ROOT_STRING
 #
 ifdef
 DEBUG
-bool
-isShort
-(
-)
-const
-;
 void
 dump
 (

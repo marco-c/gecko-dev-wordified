@@ -158,9 +158,6 @@ using
 namespace
 js
 ;
-#
-ifdef
-DEBUG
 bool
 JSString
 :
@@ -249,8 +246,6 @@ return
 is_short
 ;
 }
-#
-endif
 bool
 JSString
 :
