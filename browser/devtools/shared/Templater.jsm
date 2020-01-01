@@ -3147,6 +3147,12 @@ inserter
 {
 if
 (
+thing
+!
+=
+null
+&
+&
 typeof
 thing
 .
