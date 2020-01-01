@@ -150,6 +150,9 @@ JSScript
 namespace
 js
 {
+class
+TypedArrayObject
+;
 namespace
 ion
 {
@@ -4842,9 +4845,9 @@ cx
 IonScript
 *
 ion
-JSObject
+TypedArrayObject
 *
-obj
+tarr
 const
 Value
 &

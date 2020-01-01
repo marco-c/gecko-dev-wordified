@@ -6947,12 +6947,11 @@ range
 =
 GetTypedArrayRange
 (
-TypedArrayObject
-:
-:
+typedArray_
+-
+>
 type
 (
-typedArray_
 )
 )
 )

@@ -22920,7 +22920,7 @@ MUnaryInstruction
 {
 MLoadTypedArrayElementStatic
 (
-JSObject
+TypedArrayObject
 *
 typedArray
 MDefinition
@@ -22944,12 +22944,11 @@ true
 int
 type
 =
-TypedArrayObject
-:
-:
+typedArray_
+-
+>
 type
 (
-typedArray_
 )
 ;
 if
@@ -22983,7 +22982,11 @@ MIRType_Int32
 )
 ;
 }
-CompilerRootObject
+CompilerRoot
+<
+TypedArrayObject
+*
+>
 typedArray_
 ;
 bool
@@ -23001,7 +23004,7 @@ MLoadTypedArrayElementStatic
 *
 New
 (
-JSObject
+TypedArrayObject
 *
 typedArray
 MDefinition
@@ -23760,7 +23763,7 @@ StoreTypedArrayElementStaticPolicy
 {
 MStoreTypedArrayElementStatic
 (
-JSObject
+TypedArrayObject
 *
 typedArray
 MDefinition
@@ -23782,7 +23785,11 @@ typedArray
 )
 {
 }
-CompilerRootObject
+CompilerRoot
+<
+TypedArrayObject
+*
+>
 typedArray_
 ;
 public
@@ -23797,7 +23804,7 @@ MStoreTypedArrayElementStatic
 *
 New
 (
-JSObject
+TypedArrayObject
 *
 typedArray
 MDefinition
