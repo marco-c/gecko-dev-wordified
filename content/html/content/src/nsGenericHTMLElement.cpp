@@ -1494,14 +1494,6 @@ NS_INTERFACE_MAP_END_AGGREGATED
 (
 mElement
 )
-NS_IMPL_INT_ATTR_DEFAULT_VALUE
-(
-nsGenericHTMLElement
-TabIndex
-tabindex
--
-1
-)
 NS_IMPL_BOOL_ATTR
 (
 nsGenericHTMLElement
