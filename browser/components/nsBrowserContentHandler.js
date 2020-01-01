@@ -6227,17 +6227,6 @@ icon
 registerType
 (
 "
-image
-/
-x
--
-xbitmap
-"
-)
-;
-registerType
-(
-"
 application
 /
 http
