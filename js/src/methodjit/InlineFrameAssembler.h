@@ -875,7 +875,7 @@ frameDepth
 =
 frameSize
 .
-staticFrameDepth
+staticLocalSlots
 (
 )
 ;
