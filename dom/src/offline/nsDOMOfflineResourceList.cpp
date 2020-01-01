@@ -1459,7 +1459,7 @@ NS_IMETHODIMP
 nsDOMOfflineResourceList
 :
 :
-GetItems
+GetMozItems
 (
 nsIDOMDOMStringList
 *
@@ -1632,7 +1632,7 @@ NS_IMETHODIMP
 nsDOMOfflineResourceList
 :
 :
-HasItem
+MozHasItem
 (
 const
 nsAString
@@ -1756,7 +1756,7 @@ NS_IMETHODIMP
 nsDOMOfflineResourceList
 :
 :
-GetLength
+GetMozLength
 (
 PRUint32
 *
@@ -1816,7 +1816,7 @@ NS_IMETHODIMP
 nsDOMOfflineResourceList
 :
 :
-Item
+MozItem
 (
 PRUint32
 aIndex
@@ -1882,7 +1882,7 @@ NS_IMETHODIMP
 nsDOMOfflineResourceList
 :
 :
-Add
+MozAdd
 (
 const
 nsAString
@@ -2045,7 +2045,7 @@ length
 ;
 rv
 =
-GetLength
+GetMozLength
 (
 &
 length
@@ -2177,7 +2177,7 @@ NS_IMETHODIMP
 nsDOMOfflineResourceList
 :
 :
-Remove
+MozRemove
 (
 const
 nsAString

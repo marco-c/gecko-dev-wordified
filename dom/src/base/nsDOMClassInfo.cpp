@@ -51516,7 +51516,7 @@ return
 list
 -
 >
-Item
+MozItem
 (
 aIndex
 aResult
