@@ -13545,7 +13545,7 @@ Probes
 registerMJITCode
 (
 cx
-jit
+chunk
 a
 (
 JSActiveFrame
