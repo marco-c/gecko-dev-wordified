@@ -1377,9 +1377,12 @@ str
 =
 {
 _val
+uint32_t
+(
 strlen
 (
 _val
+)
 )
 }
 ;
@@ -1421,7 +1424,10 @@ str
 =
 {
 _val
+uint32_t
+(
 _len
+)
 }
 ;
 \
