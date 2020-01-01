@@ -3092,6 +3092,16 @@ local
 sortindex
 &
 &
+item
+.
+deleted
+=
+=
+local
+.
+deleted
+&
+&
 Utils
 .
 deepEquals
