@@ -992,6 +992,12 @@ nsIObserverService
 >
 obs
 =
+mozilla
+:
+:
+services
+:
+:
 GetObserverService
 (
 )
