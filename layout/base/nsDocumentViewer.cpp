@@ -21103,6 +21103,11 @@ if
 mPrintEngine
 )
 {
+NS_ENSURE_STATE
+(
+mDeviceContext
+)
+;
 mPrintEngine
 =
 new
