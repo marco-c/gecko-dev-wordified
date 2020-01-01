@@ -224,7 +224,7 @@ JS_ION
 #
 include
 "
-ion
+jit
 /
 IonFrameIterator
 .
@@ -233,7 +233,7 @@ h
 #
 include
 "
-ion
+jit
 /
 IonMacroAssembler
 .

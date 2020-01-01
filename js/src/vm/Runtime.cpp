@@ -246,7 +246,7 @@ h
 #
 include
 "
-ion
+jit
 /
 AsmJSSignalHandlers
 .
@@ -255,7 +255,7 @@ h
 #
 include
 "
-ion
+jit
 /
 IonCompartment
 .
@@ -264,7 +264,7 @@ h
 #
 include
 "
-ion
+jit
 /
 PcScriptCache
 .

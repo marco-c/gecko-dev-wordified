@@ -146,7 +146,7 @@ JS_WORKER_THREADS
 #
 include
 "
-ion
+jit
 /
 ExecutionModeInlines
 .
@@ -155,7 +155,7 @@ h
 #
 include
 "
-ion
+jit
 /
 IonBuilder
 .

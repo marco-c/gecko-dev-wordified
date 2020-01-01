@@ -150,7 +150,7 @@ JS_ION
 #
 include
 "
-ion
+jit
 /
 BaselineFrame
 .
@@ -159,7 +159,7 @@ h
 #
 include
 "
-ion
+jit
 /
 IonCompartment
 .

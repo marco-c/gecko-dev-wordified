@@ -130,7 +130,7 @@ JS_ION
 #
 include
 "
-ion
+jit
 /
 BaselineJIT
 .
@@ -139,7 +139,7 @@ h
 #
 include
 "
-ion
+jit
 /
 Ion
 .
@@ -148,7 +148,7 @@ h
 #
 include
 "
-ion
+jit
 /
 IonCompartment
 .

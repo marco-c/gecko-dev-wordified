@@ -636,7 +636,7 @@ JS_ION
 #
 include
 "
-ion
+jit
 /
 BaselineJIT
 .
@@ -647,7 +647,7 @@ endif
 #
 include
 "
-ion
+jit
 /
 IonCode
 .
