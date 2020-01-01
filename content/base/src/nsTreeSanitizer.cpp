@@ -8277,8 +8277,10 @@ NamespaceID
 (
 )
 ;
+nsCOMPtr
+<
 nsIAtom
-*
+>
 attrLocal
 =
 attrName
