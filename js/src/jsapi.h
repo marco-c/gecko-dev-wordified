@@ -10263,10 +10263,7 @@ extra
 >
 16
 :
-If
-slow
-native
-reserved
+Reserved
 for
 future
 use
@@ -10275,14 +10272,6 @@ must
 be
 0
 )
-.
-*
-If
-fast
-native
-minimum
-required
-argc
 .
 *
 /

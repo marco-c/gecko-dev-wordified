@@ -1165,14 +1165,11 @@ CallInfo
 *
 call
 =
-callInfoFor
-(
 ins
 -
 >
-fid
+callInfo
 (
-)
 )
 ;
 uint32_t
