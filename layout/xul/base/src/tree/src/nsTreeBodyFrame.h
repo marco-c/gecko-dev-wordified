@@ -620,13 +620,6 @@ LookAndFeel
 .
 h
 "
-#
-include
-"
-nsITreeImageListener
-.
-h
-"
 class
 nsOverflowChecker
 ;
