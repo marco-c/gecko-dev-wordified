@@ -573,7 +573,6 @@ this
 at
 home
 !
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -594,7 +593,6 @@ bad_exception
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -615,7 +613,6 @@ bad_alloc
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -636,7 +633,6 @@ bad_cast
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -657,7 +653,6 @@ bad_typeid
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -675,7 +670,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -693,7 +687,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -711,7 +704,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -729,7 +721,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -747,7 +738,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -765,7 +755,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -783,7 +772,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -801,7 +789,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -819,7 +806,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
@@ -837,7 +823,6 @@ msg
 )
 ;
 }
-NS_ALWAYS_INLINE
 inline
 void
 NS_NORETURN
