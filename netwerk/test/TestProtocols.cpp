@@ -637,6 +637,13 @@ h
 #
 include
 "
+nsIAsyncVerifyRedirectCallback
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -1993,7 +2000,7 @@ NS_IMETHODIMP
 TestChannelEventSink
 :
 :
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *
@@ -2003,6 +2010,9 @@ nsIChannel
 newChannel
 PRUint32
 flags
+nsIAsyncVerifyRedirectCallback
+*
+callback
 )
 {
 LOG
@@ -2032,6 +2042,14 @@ n
 "
 flags
 )
+)
+;
+callback
+-
+>
+OnRedirectVerifyCallback
+(
+NS_OK
 )
 ;
 return

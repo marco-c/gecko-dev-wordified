@@ -576,6 +576,13 @@ nsPresContext
 .
 h
 "
+#
+include
+"
+nsIAsyncVerifyRedirectCallback
+.
+h
+"
 static
 NS_DEFINE_CID
 (
@@ -9019,7 +9026,7 @@ NS_IMETHODIMP
 nsDocLoader
 :
 :
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *
@@ -9029,6 +9036,9 @@ nsIChannel
 aNewChannel
 PRUint32
 aFlags
+nsIAsyncVerifyRedirectCallback
+*
+cb
 )
 {
 if
@@ -9162,6 +9172,14 @@ NS_OK
 )
 ;
 }
+cb
+-
+>
+OnRedirectVerifyCallback
+(
+NS_OK
+)
+;
 return
 NS_OK
 ;

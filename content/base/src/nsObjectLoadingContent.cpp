@@ -676,6 +676,13 @@ h
 #
 include
 "
+nsIAsyncVerifyRedirectCallback
+.
+h
+"
+#
+include
+"
 nsPluginError
 .
 h
@@ -5975,7 +5982,7 @@ NS_IMETHODIMP
 nsObjectLoadingContent
 :
 :
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *
@@ -5985,6 +5992,9 @@ nsIChannel
 aNewChannel
 PRUint32
 aFlags
+nsIAsyncVerifyRedirectCallback
+*
+cb
 )
 {
 /
@@ -6017,6 +6027,14 @@ NS_BINDING_ABORTED
 mChannel
 =
 aNewChannel
+;
+cb
+-
+>
+OnRedirectVerifyCallback
+(
+NS_OK
+)
 ;
 return
 NS_OK

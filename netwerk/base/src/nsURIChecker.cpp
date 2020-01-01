@@ -485,6 +485,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsIAsyncVerifyRedirectCallback
+.
+h
+"
 /
 /
 -
@@ -3153,7 +3160,7 @@ NS_IMETHODIMP
 nsURIChecker
 :
 :
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *
@@ -3163,6 +3170,9 @@ nsIChannel
 aNewChannel
 PRUint32
 aFlags
+nsIAsyncVerifyRedirectCallback
+*
+callback
 )
 {
 /
@@ -3175,6 +3185,14 @@ channel
 mChannel
 =
 aNewChannel
+;
+callback
+-
+>
+OnRedirectVerifyCallback
+(
+NS_OK
+)
 ;
 return
 NS_OK

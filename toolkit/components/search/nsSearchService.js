@@ -2804,7 +2804,7 @@ aCount
 /
 /
 nsIChannelEventSink
-onChannelRedirect
+asyncOnChannelRedirect
 :
 function
 SRCH_loadCRedirect
@@ -2812,6 +2812,7 @@ SRCH_loadCRedirect
 aOldChannel
 aNewChannel
 aFlags
+callback
 )
 {
 this
@@ -2819,6 +2820,17 @@ this
 _channel
 =
 aNewChannel
+;
+callback
+.
+onRedirectVerifyCallback
+(
+Components
+.
+results
+.
+NS_OK
+)
 ;
 }
 /
