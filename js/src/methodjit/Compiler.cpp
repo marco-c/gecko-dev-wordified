@@ -4728,7 +4728,14 @@ break
 }
 frame
 .
-popAfterSet
+popn
+(
+2
+)
+;
+frame
+.
+pushSynced
 (
 )
 ;
