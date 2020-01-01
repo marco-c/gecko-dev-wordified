@@ -10143,7 +10143,7 @@ offsetOfScopeChain
 ;
 masm
 .
-loadPtr
+loadPayload
 (
 parent
 pic
@@ -12982,7 +12982,7 @@ chain
 ;
 masm
 .
-loadPtr
+loadPayload
 (
 parent
 pic
