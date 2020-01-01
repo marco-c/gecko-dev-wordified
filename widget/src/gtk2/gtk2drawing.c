@@ -2140,6 +2140,8 @@ relief
 GtkWidget
 *
 widget
+GtkTextDirection
+direction
 )
 {
 GtkShadowType
@@ -2908,6 +2910,8 @@ gboolean
 selected
 gboolean
 isradio
+GtkTextDirection
+direction
 )
 {
 GtkStateType
@@ -3375,6 +3379,8 @@ GtkWidgetState
 state
 GtkArrowType
 type
+GtkTextDirection
+direction
 )
 {
 GtkStateType
@@ -3828,6 +3834,8 @@ cliprect
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -4006,6 +4014,8 @@ cliprect
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 GtkStateType
@@ -4389,6 +4399,8 @@ isDown
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 GdkRectangle
@@ -4606,6 +4618,8 @@ GtkWidgetState
 state
 GtkOrientation
 flags
+GtkTextDirection
+direction
 )
 {
 gint
@@ -4828,6 +4842,8 @@ GtkWidgetState
 state
 GtkOrientation
 flags
+GtkTextDirection
+direction
 )
 {
 GtkStateType
@@ -5039,6 +5055,8 @@ cliprect
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 GtkStateType
@@ -5139,6 +5157,8 @@ cliprect
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 gint
@@ -5638,6 +5658,8 @@ cliprect
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -5854,6 +5876,8 @@ cliprect
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 moz_gtk_button_paint
@@ -5864,6 +5888,7 @@ cliprect
 state
 GTK_RELIEF_NORMAL
 gTreeHeaderCellWidget
+direction
 )
 ;
 return
@@ -5888,6 +5913,8 @@ GtkWidgetState
 state
 GtkArrowType
 flags
+GtkTextDirection
+direction
 )
 {
 GdkRectangle
@@ -6050,6 +6077,8 @@ GtkWidgetState
 state
 GtkExpanderStyle
 expander_state
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -6600,6 +6629,8 @@ cliprect
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 GdkRectangle
@@ -6642,6 +6673,7 @@ cliprect
 state
 GTK_RELIEF_NORMAL
 gDropdownButtonWidget
+direction
 )
 ;
 /
@@ -6907,6 +6939,8 @@ GtkWidgetState
 state
 gboolean
 isradio
+GtkTextDirection
+direction
 )
 {
 GtkStateType
@@ -7150,6 +7184,8 @@ GtkWidgetState
 state
 gboolean
 isradio
+GtkTextDirection
+direction
 )
 {
 GtkStateType
@@ -7308,6 +7344,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -7412,6 +7450,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -7666,6 +7706,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -7767,6 +7809,8 @@ cliprect
 GtkWidgetState
 *
 state
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -7849,6 +7893,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -7941,6 +7987,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -8017,6 +8065,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -8095,6 +8145,8 @@ GdkRectangle
 cliprect
 gint
 flags
+GtkTextDirection
+direction
 )
 {
 /
@@ -8631,6 +8683,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -8707,6 +8761,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -8811,6 +8867,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -8912,6 +8970,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -9170,6 +9230,8 @@ GtkWidgetState
 state
 gint
 flags
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -9430,10 +9492,10 @@ GtkWidgetState
 state
 gboolean
 checked
-GtkTextDirection
-direction
 gboolean
 isradio
+GtkTextDirection
+direction
 )
 {
 GtkStateType
@@ -9476,6 +9538,7 @@ rect
 cliprect
 state
 FALSE
+direction
 )
 ;
 ensure_check_menu_item_widget
@@ -9722,6 +9785,8 @@ rect
 GdkRectangle
 *
 cliprect
+GtkTextDirection
+direction
 )
 {
 GtkStyle
@@ -11454,6 +11519,7 @@ GtkReliefStyle
 )
 flags
 gToggleButtonWidget
+direction
 )
 ;
 }
@@ -11473,6 +11539,7 @@ GtkReliefStyle
 )
 flags
 gButtonWidget
+direction
 )
 ;
 break
@@ -11500,6 +11567,7 @@ widget
 =
 MOZ_GTK_RADIOBUTTON
 )
+direction
 )
 ;
 break
@@ -11518,6 +11586,7 @@ state
 GtkArrowType
 )
 flags
+direction
 )
 ;
 break
@@ -11536,6 +11605,7 @@ drawable
 rect
 cliprect
 state
+direction
 )
 ;
 break
@@ -11554,6 +11624,7 @@ drawable
 rect
 cliprect
 state
+direction
 )
 ;
 break
@@ -11575,6 +11646,7 @@ state
 GtkOrientation
 )
 flags
+direction
 )
 ;
 break
@@ -11596,6 +11668,7 @@ state
 GtkOrientation
 )
 flags
+direction
 )
 ;
 break
@@ -11618,6 +11691,7 @@ widget
 MOZ_GTK_SPINBUTTON_DOWN
 )
 state
+direction
 )
 ;
 break
@@ -11632,6 +11706,7 @@ drawable
 rect
 cliprect
 state
+direction
 )
 ;
 break
@@ -11646,6 +11721,7 @@ drawable
 rect
 cliprect
 state
+direction
 )
 ;
 break
@@ -11660,6 +11736,7 @@ drawable
 rect
 cliprect
 state
+direction
 )
 ;
 break
@@ -11678,6 +11755,7 @@ state
 GtkArrowType
 )
 flags
+direction
 )
 ;
 break
@@ -11696,6 +11774,7 @@ state
 GtkExpanderStyle
 )
 flags
+direction
 )
 ;
 break
@@ -11710,6 +11789,7 @@ drawable
 rect
 cliprect
 state
+direction
 )
 ;
 break
@@ -11739,6 +11819,7 @@ drawable
 rect
 cliprect
 state
+direction
 )
 ;
 break
@@ -11762,6 +11843,7 @@ widget
 =
 MOZ_GTK_RADIOBUTTON_CONTAINER
 )
+direction
 )
 ;
 break
@@ -11785,6 +11867,7 @@ widget
 =
 MOZ_GTK_RADIOBUTTON_LABEL
 )
+direction
 )
 ;
 break
@@ -11798,6 +11881,7 @@ moz_gtk_toolbar_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11811,6 +11895,7 @@ moz_gtk_toolbar_separator_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11824,6 +11909,7 @@ moz_gtk_tooltip_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11837,6 +11923,7 @@ moz_gtk_frame_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11851,6 +11938,7 @@ drawable
 rect
 cliprect
 state
+direction
 )
 ;
 break
@@ -11864,6 +11952,7 @@ moz_gtk_progressbar_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11877,6 +11966,7 @@ moz_gtk_progress_chunk_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11891,6 +11981,7 @@ drawable
 rect
 cliprect
 flags
+direction
 )
 ;
 break
@@ -11904,6 +11995,7 @@ moz_gtk_tabpanels_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11917,6 +12009,7 @@ moz_gtk_menu_bar_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11930,6 +12023,7 @@ moz_gtk_menu_popup_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11943,6 +12037,7 @@ moz_gtk_menu_separator_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
@@ -11958,6 +12053,7 @@ rect
 cliprect
 state
 flags
+direction
 )
 ;
 break
@@ -11994,13 +12090,13 @@ state
 gboolean
 )
 flags
-direction
 (
 widget
 =
 =
 MOZ_GTK_RADIOMENUITEM
 )
+direction
 )
 ;
 break
@@ -12014,6 +12110,7 @@ moz_gtk_window_paint
 drawable
 rect
 cliprect
+direction
 )
 ;
 break
