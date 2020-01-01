@@ -603,6 +603,10 @@ DumpAtomTable
 }
 Options
 ;
+#
+define
+MAX_IF_NESTING
+64
 struct
 CPPStruct_Rec
 {
@@ -758,7 +762,7 @@ processor
 int
 elsedepth
 [
-64
+MAX_IF_NESTING
 ]
 ;
 /

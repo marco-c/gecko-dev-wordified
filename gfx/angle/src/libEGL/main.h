@@ -77,15 +77,6 @@ egl
 .
 h
 >
-#
-include
-<
-EGL
-/
-eglext
-.
-h
->
 namespace
 egl
 {

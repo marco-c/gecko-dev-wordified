@@ -297,6 +297,13 @@ TString
 postString
 )
 ;
+void
+outputLineDirective
+(
+int
+line
+)
+;
 TString
 argumentString
 (
