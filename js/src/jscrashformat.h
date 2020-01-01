@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jscrashformat_h___
+jscrashformat_h
 #
 define
-jscrashformat_h___
+jscrashformat_h
 #
 include
 <
@@ -484,3 +484,8 @@ js
 /
 #
 endif
+/
+*
+jscrashformat_h
+*
+/

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-jsperf_h___
+perf_jsperf_h
 #
 define
-jsperf_h___
+perf_jsperf_h
 #
 include
 "
@@ -796,5 +796,7 @@ JS
 #
 endif
 /
+*
+perf_jsperf_h
+*
 /
-jsperf_h___

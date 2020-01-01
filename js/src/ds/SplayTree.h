@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jssplaytree_h_
+ds_SplayTree_h
 #
 define
-jssplaytree_h_
+ds_SplayTree_h
 #
 include
 "
@@ -1642,6 +1642,6 @@ js
 endif
 /
 *
-jssplaytree_h_
+ds_SplayTree_h
 *
 /

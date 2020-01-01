@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-BitArray_h__
+ds_BitArray_h
 #
 define
-BitArray_h__
+ds_BitArray_h
 #
 include
 "
@@ -389,3 +389,8 @@ js
 /
 #
 endif
+/
+*
+ds_BitArray_h
+*
+/

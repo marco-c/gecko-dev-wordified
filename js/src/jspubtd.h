@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jspubtd_h___
+jspubtd_h
 #
 define
-jspubtd_h___
+jspubtd_h
 /
 *
 *
@@ -2087,6 +2087,6 @@ js
 endif
 /
 *
-jspubtd_h___
+jspubtd_h
 *
 /

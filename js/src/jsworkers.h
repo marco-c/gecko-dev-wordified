@@ -149,10 +149,10 @@ workers
 /
 #
 ifndef
-jsworkers_h___
+jsworkers_h
 #
 define
-jsworkers_h___
+jsworkers_h
 #
 include
 "
@@ -1214,5 +1214,7 @@ js
 #
 endif
 /
+*
+jsworkers_h
+*
 /
-jsworkers_h___

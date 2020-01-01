@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jscompartment_h___
+jscompartment_h
 #
 define
-jscompartment_h___
+jscompartment_h
 #
 include
 "
@@ -3509,6 +3509,6 @@ js
 endif
 /
 *
-jscompartment_h___
+jscompartment_h
 *
 /

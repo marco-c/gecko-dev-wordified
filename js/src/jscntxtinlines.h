@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jscntxtinlines_h___
+jscntxtinlines_h
 #
 define
-jscntxtinlines_h___
+jscntxtinlines_h
 #
 include
 "
@@ -3472,6 +3472,6 @@ NULL
 endif
 /
 *
-jscntxtinlines_h___
+jscntxtinlines_h
 *
 /

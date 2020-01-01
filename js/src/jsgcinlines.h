@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsgcinlines_h___
+jsgcinlines_h
 #
 define
-jsgcinlines_h___
+jsgcinlines_h
 #
 include
 "
@@ -3336,6 +3336,6 @@ TenuredHeap
 endif
 /
 *
-jsgcinlines_h___
+jsgcinlines_h
 *
 /

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_cpucfg___
+jscpucfg_h
 #
 define
-js_cpucfg___
+jscpucfg_h
 #
 define
 JS_HAVE_LONG_LONG
@@ -717,6 +717,6 @@ endif
 endif
 /
 *
-js_cpucfg___
+jscpucfg_h
 *
 /

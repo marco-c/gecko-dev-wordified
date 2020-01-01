@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsprvtd_h___
+jsprvtd_h
 #
 define
-jsprvtd_h___
+jsprvtd_h
 /
 *
 *
@@ -1377,6 +1377,6 @@ keysonly
 endif
 /
 *
-jsprvtd_h___
+jsprvtd_h
 *
 /

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsdtoa_h___
+jsdtoa_h
 #
 define
-jsdtoa_h___
+jsdtoa_h
 /
 *
 *
@@ -1024,6 +1024,6 @@ d
 endif
 /
 *
-jsdtoa_h___
+jsdtoa_h
 *
 /

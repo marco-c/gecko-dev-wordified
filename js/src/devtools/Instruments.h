@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-Instruments_h__
+devtools_Instruments_h
 #
 define
-Instruments_h__
+devtools_Instruments_h
 #
 ifdef
 __APPLE__
@@ -104,6 +104,6 @@ __APPLE__
 endif
 /
 *
-Instruments_h__
+devtools_Instruments_h
 *
 /

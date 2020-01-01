@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsalloc_h_
+jsalloc_h
 #
 define
-jsalloc_h_
+jsalloc_h
 #
 include
 "
@@ -652,6 +652,6 @@ js
 endif
 /
 *
-jsalloc_h_
+jsalloc_h
 *
 /

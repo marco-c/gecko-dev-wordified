@@ -118,10 +118,10 @@ descriptor
 /
 #
 ifndef
-jsscript_h___
+jsscript_h
 #
 define
-jsscript_h___
+jsscript_h
 #
 include
 "
@@ -9171,6 +9171,6 @@ js
 endif
 /
 *
-jsscript_h___
+jsscript_h
 *
 /

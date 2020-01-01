@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsscriptinlines_h___
+jsscriptinlines_h
 #
 define
-jsscriptinlines_h___
+jsscriptinlines_h
 #
 include
 "
@@ -1217,6 +1217,6 @@ fun
 endif
 /
 *
-jsscriptinlines_h___
+jsscriptinlines_h
 *
 /

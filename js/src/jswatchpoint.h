@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jswatchpoint_h___
+jswatchpoint_h
 #
 define
-jswatchpoint_h___
+jswatchpoint_h
 #
 include
 "
@@ -506,6 +506,6 @@ map
 endif
 /
 *
-jswatchpoint_h___
+jswatchpoint_h
 *
 /

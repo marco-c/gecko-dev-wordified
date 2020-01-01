@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsbool_h___
+jsbool_h
 #
 define
-jsbool_h___
+jsbool_h
 /
 *
 *
@@ -182,6 +182,6 @@ js
 endif
 /
 *
-jsbool_h___
+jsbool_h
 *
 /

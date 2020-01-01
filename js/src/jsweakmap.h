@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsweakmap_h___
+jsweakmap_h
 #
 define
-jsweakmap_h___
+jsweakmap_h
 #
 include
 "
@@ -2116,3 +2116,8 @@ obj
 ;
 #
 endif
+/
+*
+jsweakmap_h
+*
+/

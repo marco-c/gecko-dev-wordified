@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsprf_h___
+jsprf_h
 #
 define
-jsprf_h___
+jsprf_h
 /
 *
 *
@@ -773,6 +773,6 @@ ap
 endif
 /
 *
-jsprf_h___
+jsprf_h
 *
 /

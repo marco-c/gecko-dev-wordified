@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsfriendapi_h___
+jsfriendapi_h
 #
 define
-jsfriendapi_h___
+jsfriendapi_h
 #
 include
 "
@@ -10225,6 +10225,6 @@ v
 endif
 /
 *
-jsfriendapi_h___
+jsfriendapi_h
 *
 /

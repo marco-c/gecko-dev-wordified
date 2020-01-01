@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-LifoAlloc_h__
+ds_LifoAlloc_h
 #
 define
-LifoAlloc_h__
+ds_LifoAlloc_h
 #
 include
 "
@@ -2331,3 +2331,8 @@ namespace
 js
 #
 endif
+/
+*
+ds_LifoAlloc_h
+*
+/

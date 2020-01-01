@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsversion_h___
+jsversion_h
 #
 define
-jsversion_h___
+jsversion_h
 /
 *
 *
@@ -568,6 +568,6 @@ endif
 endif
 /
 *
-jsversion_h___
+jsversion_h
 *
 /

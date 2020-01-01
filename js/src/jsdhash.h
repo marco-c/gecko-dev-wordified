@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsdhash_h___
+jsdhash_h
 #
 define
-jsdhash_h___
+jsdhash_h
 /
 *
 *
@@ -4882,6 +4882,6 @@ endif
 endif
 /
 *
-jsdhash_h___
+jsdhash_h
 *
 /

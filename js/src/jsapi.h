@@ -117,10 +117,10 @@ API
 /
 #
 ifndef
-jsapi_h___
+jsapi_h
 #
 define
-jsapi_h___
+jsapi_h
 #
 include
 "
@@ -33195,6 +33195,6 @@ js
 endif
 /
 *
-jsapi_h___
+jsapi_h
 *
 /

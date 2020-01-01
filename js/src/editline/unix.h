@@ -88,6 +88,12 @@ MPL
 .
 *
 /
+#
+ifndef
+editline_unix_h
+#
+define
+editline_unix_h
 /
 *
 *
@@ -404,5 +410,12 @@ defined
 (
 S_ISDIR
 )
+*
+/
+#
+endif
+/
+*
+editline_unix_h
 *
 /

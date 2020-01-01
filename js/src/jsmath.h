@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsmath_h___
+jsmath_h
 #
 define
-jsmath_h___
+jsmath_h
 #
 include
 "
@@ -963,6 +963,6 @@ js
 endif
 /
 *
-jsmath_h___
+jsmath_h
 *
 /

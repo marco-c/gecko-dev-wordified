@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsstrinlines_h___
+jsstrinlines_h
 #
 define
-jsstrinlines_h___
+jsstrinlines_h
 #
 include
 "
@@ -697,6 +697,6 @@ js
 endif
 /
 *
-jsstrinlines_h___
+jsstrinlines_h
 *
 /

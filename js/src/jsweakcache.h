@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsweakcache_h___
+jsweakcache_h
 #
 define
-jsweakcache_h___
+jsweakcache_h
 #
 include
 "
@@ -904,5 +904,7 @@ js
 #
 endif
 /
+*
+jsweakcache_h
+*
 /
-jsweakcache_h___

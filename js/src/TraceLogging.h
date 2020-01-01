@@ -109,15 +109,11 @@ MPL
 *
 /
 #
-if
-!
-defined
-(
-TraceLogging_h__
-)
+ifndef
+TraceLogging_h
 #
 define
-TraceLogging_h__
+TraceLogging_h
 #
 include
 "
@@ -550,5 +546,7 @@ js
 #
 endif
 /
+*
+TraceLogging_h
+*
 /
-TraceLogging_h__

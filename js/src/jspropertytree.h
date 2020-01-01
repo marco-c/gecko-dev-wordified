@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jspropertytree_h___
+jspropertytree_h
 #
 define
-jspropertytree_h___
+jspropertytree_h
 #
 include
 "
@@ -614,6 +614,6 @@ js
 endif
 /
 *
-jspropertytree_h___
+jspropertytree_h
 *
 /

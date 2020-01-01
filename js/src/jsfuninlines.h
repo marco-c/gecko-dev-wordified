@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsfuninlines_h___
+jsfuninlines_h
 #
 define
-jsfuninlines_h___
+jsfuninlines_h
 #
 include
 "
@@ -1598,6 +1598,6 @@ call
 endif
 /
 *
-jsfuninlines_h___
+jsfuninlines_h
 *
 /

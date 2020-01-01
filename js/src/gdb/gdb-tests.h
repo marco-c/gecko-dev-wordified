@@ -109,6 +109,12 @@ MPL
 .
 *
 /
+#
+ifndef
+gdb_gdb_tests_h
+#
+define
+gdb_gdb_tests_h
 /
 /
 Support
@@ -683,3 +689,10 @@ _
 #
 #
 subname
+#
+endif
+/
+*
+gdb_gdb_tests_h
+*
+/

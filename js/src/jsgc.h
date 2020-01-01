@@ -118,10 +118,10 @@ Collector
 /
 #
 ifndef
-jsgc_h___
+jsgc_h
 #
 define
-jsgc_h___
+jsgc_h
 #
 include
 "
@@ -7403,6 +7403,6 @@ js
 endif
 /
 *
-jsgc_h___
+jsgc_h
 *
 /

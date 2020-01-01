@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsheaptools_h___
+shell_jsheaptools_h
 #
 define
-jsheaptools_h___
+shell_jsheaptools_h
 #
 include
 "
@@ -148,6 +148,6 @@ DEBUG
 endif
 /
 *
-jsheaptools_h___
+shell_jsheaptools_h
 *
 /

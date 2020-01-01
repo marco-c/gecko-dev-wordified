@@ -119,10 +119,10 @@ analysis
 /
 #
 ifndef
-jsanalyze_h___
+jsanalyze_h
 #
 define
-jsanalyze_h___
+jsanalyze_h
 #
 include
 "
@@ -6667,5 +6667,7 @@ mozilla
 #
 endif
 /
+*
+jsanalyze_h
+*
 /
-jsanalyze_h___

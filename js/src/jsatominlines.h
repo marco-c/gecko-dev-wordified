@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsatominlines_h___
+jsatominlines_h
 #
 define
-jsatominlines_h___
+jsatominlines_h
 #
 include
 "
@@ -1246,6 +1246,6 @@ js
 endif
 /
 *
-jsatominlines_h___
+jsatominlines_h
 *
 /

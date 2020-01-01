@@ -271,10 +271,10 @@ h
 "
 #
 ifndef
-jsinferinlines_h___
+jsinferinlines_h
 #
 define
-jsinferinlines_h___
+jsinferinlines_h
 inline
 bool
 js
@@ -12072,5 +12072,7 @@ JS
 #
 endif
 /
+*
+jsinferinlines_h
+*
 /
-jsinferinlines_h___

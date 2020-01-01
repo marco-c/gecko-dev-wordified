@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsobj_h___
+jsobj_h
 #
 define
-jsobj_h___
+jsobj_h
 /
 *
 *
@@ -10074,6 +10074,6 @@ js
 endif
 /
 *
-jsobj_h___
+jsobj_h
 *
 /

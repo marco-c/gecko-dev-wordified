@@ -88,6 +88,12 @@ MPL
 .
 *
 /
+#
+ifndef
+editline_editline_h
+#
+define
+editline_editline_h
 /
 *
 *
@@ -768,5 +774,12 @@ defined
 (
 HAVE_STDLIB
 )
+*
+/
+#
+endif
+/
+*
+editline_editline_h
 *
 /

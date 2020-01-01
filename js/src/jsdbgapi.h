@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsdbgapi_h___
+jsdbgapi_h
 #
 define
-jsdbgapi_h___
+jsdbgapi_h
 /
 *
 *
@@ -3285,6 +3285,6 @@ cx
 endif
 /
 *
-jsdbgapi_h___
+jsdbgapi_h
 *
 /

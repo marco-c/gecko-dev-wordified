@@ -108,6 +108,12 @@ MPL
 .
 *
 /
+#
+ifndef
+jswin_h
+#
+define
+jswin_h
 /
 *
 *
@@ -170,3 +176,10 @@ undef
 PASSTHROUGH
 #
 endif
+#
+endif
+/
+*
+jswin_h
+*
+/

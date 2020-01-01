@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsopcodeinlines_h__
+jsopcodeinlines_h
 #
 define
-jsopcodeinlines_h__
+jsopcodeinlines_h
 #
 include
 "
@@ -1117,6 +1117,6 @@ lineno
 endif
 /
 *
-jsopcodeinlines_h__
+jsopcodeinlines_h
 *
 /

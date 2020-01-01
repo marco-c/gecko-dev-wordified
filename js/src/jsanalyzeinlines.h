@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsanalyzeinlines_h___
+jsanalyzeinlines_h
 #
 define
-jsanalyzeinlines_h___
+jsanalyzeinlines_h
 #
 include
 "
@@ -854,5 +854,7 @@ js
 #
 endif
 /
+*
+jsanalyzeinlines_h
+*
 /
-jsanalyzeinlines_h___

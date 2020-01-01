@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsiter_h___
+jsiter_h
 #
 define
-jsiter_h___
+jsiter_h
 /
 *
 *
@@ -1935,6 +1935,6 @@ obj
 endif
 /
 *
-jsiter_h___
+jsiter_h
 *
 /

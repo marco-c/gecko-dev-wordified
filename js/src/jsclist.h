@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsclist_h___
+jsclist_h
 #
 define
-jsclist_h___
+jsclist_h
 #
 include
 "
@@ -749,6 +749,6 @@ _l
 endif
 /
 *
-jsclist_h___
+jsclist_h
 *
 /

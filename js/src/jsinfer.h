@@ -121,10 +121,10 @@ inference
 /
 #
 ifndef
-jsinfer_h___
+jsinfer_h
 #
 define
-jsinfer_h___
+jsinfer_h
 #
 include
 "
@@ -10152,5 +10152,7 @@ js
 #
 endif
 /
+*
+jsinfer_h
+*
 /
-jsinfer_h___

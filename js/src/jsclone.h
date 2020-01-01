@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsclone_h___
+jsclone_h
 #
 define
-jsclone_h___
+jsclone_h
 #
 include
 "
@@ -1299,6 +1299,6 @@ v
 endif
 /
 *
-jsclone_h___
+jsclone_h
 *
 /

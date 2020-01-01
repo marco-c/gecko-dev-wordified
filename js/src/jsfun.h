@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsfun_h___
+jsfun_h
 #
 define
-jsfun_h___
+jsfun_h
 /
 *
 *
@@ -3221,6 +3221,6 @@ argslen
 endif
 /
 *
-jsfun_h___
+jsfun_h
 *
 /

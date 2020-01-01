@@ -118,10 +118,10 @@ context
 /
 #
 ifndef
-jscntxt_h___
+jscntxt_h
 #
 define
-jscntxt_h___
+jscntxt_h
 #
 include
 "
@@ -13215,6 +13215,6 @@ endif
 endif
 /
 *
-jscntxt_h___
+jscntxt_h
 *
 /

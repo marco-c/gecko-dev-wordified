@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsclass_h__
+jsclass_h
 #
 define
-jsclass_h__
+jsclass_h
 /
 *
 *
@@ -2478,6 +2478,6 @@ js
 endif
 /
 *
-jsclass_h__
+jsclass_h
 *
 /

@@ -125,10 +125,10 @@ values
 /
 #
 ifndef
-jsprototypes_h___
+jsprototypes_h
 #
 define
-jsprototypes_h___
+jsprototypes_h
 #
 include
 "
@@ -470,6 +470,6 @@ js_InitIntlClass
 endif
 /
 *
-jsprototypes_h___
+jsprototypes_h
 *
 /

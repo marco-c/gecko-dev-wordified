@@ -119,10 +119,10 @@ checker
 /
 #
 ifndef
-jsutil_h___
+jsutil_h
 #
 define
-jsutil_h___
+jsutil_h
 #
 include
 "
@@ -2236,6 +2236,6 @@ endif
 endif
 /
 *
-jsutil_h___
+jsutil_h
 *
 /

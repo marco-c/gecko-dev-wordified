@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jspriorityqueue_h_
+ds_PriorityQueue_h
 #
 define
-jspriorityqueue_h_
+ds_PriorityQueue_h
 #
 include
 "
@@ -759,6 +759,6 @@ js
 endif
 /
 *
-jspriorityqueue_h_
+ds_PriorityQueue_h
 *
 /

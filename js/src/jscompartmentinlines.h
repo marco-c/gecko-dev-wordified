@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jscompartment_inlines_h___
+jscompartmentinlines_h
 #
 define
-jscompartment_inlines_h___
+jscompartmentinlines_h
 #
 include
 "
@@ -468,6 +468,6 @@ js
 endif
 /
 *
-jscompartment_inlines_h___
+jscompartmentinlines_h
 *
 /

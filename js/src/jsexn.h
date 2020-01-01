@@ -120,10 +120,10 @@ classes
 /
 #
 ifndef
-jsexn_h___
+jsexn_h
 #
 define
-jsexn_h___
+jsexn_h
 #
 include
 "
@@ -575,6 +575,6 @@ exn
 endif
 /
 *
-jsexn_h___
+jsexn_h
 *
 /
