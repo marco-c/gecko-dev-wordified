@@ -209,7 +209,7 @@ ThreadMain
 )
 ;
 return
-NULL
+0
 ;
 }
 }

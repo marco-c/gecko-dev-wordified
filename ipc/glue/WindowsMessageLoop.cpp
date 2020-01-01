@@ -814,11 +814,6 @@ gUIThreadId
 =
 0
 ;
-int
-gEventLoopDepth
-=
-0
-;
 static
 UINT
 sAppShellGeckoMsgId
@@ -2976,7 +2971,10 @@ possible
 "
 )
 ;
+DebugOnly
+<
 LONG_PTR
+>
 currentWndProc
 =
 SetWindowLongPtr
@@ -4339,7 +4337,7 @@ false
 UINT_PTR
 timerId
 =
-NULL
+0
 ;
 TimeoutData
 timeoutData
@@ -5234,7 +5232,7 @@ false
 UINT_PTR
 timerId
 =
-NULL
+0
 ;
 TimeoutData
 timeoutData
@@ -5371,7 +5369,7 @@ timerId
 ;
 timerId
 =
-NULL
+0
 ;
 }
 /
@@ -6282,7 +6280,7 @@ NULL
 ;
 lParam
 =
-NULL
+0
 ;
 }
 }
