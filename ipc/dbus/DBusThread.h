@@ -126,9 +126,6 @@ mozilla
 namespace
 ipc
 {
-class
-nsCString
-;
 /
 *
 *
