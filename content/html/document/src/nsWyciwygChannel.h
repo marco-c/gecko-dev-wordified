@@ -687,6 +687,17 @@ aDelayFlag
 nsnull
 )
 ;
+void
+WriteCharsetAndSourceToCache
+(
+PRInt32
+aSource
+const
+nsCString
+&
+aCharset
+)
+;
 nsresult
 mStatus
 ;
@@ -694,7 +705,7 @@ PRPackedBool
 mIsPending
 ;
 PRPackedBool
-mCharsetSet
+mNeedToWriteCharset
 ;
 PRInt32
 mCharsetSource
