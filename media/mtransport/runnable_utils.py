@@ -782,6 +782,21 @@ member
 {
 }
 "
+        
+print
+"
+virtual
+bool
+returns_value
+(
+)
+const
+{
+return
+true
+;
+}
+"
     
 print
     
