@@ -530,7 +530,7 @@ getService
 (
 Ci
 .
-nsIDOMGeoGeolocation
+nsISupports
 )
 ;
 watchID
