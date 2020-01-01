@@ -118,6 +118,15 @@ client
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_GCONFSERVICE_CID
 \
@@ -138,6 +147,7 @@ NS_GCONFSERVICE_CID
 }
 class
 nsGConfService
+MOZ_FINAL
 :
 public
 nsIGConfService
