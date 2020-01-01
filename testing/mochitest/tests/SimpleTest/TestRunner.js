@@ -72,7 +72,7 @@ hang
 .
 Runs
 every
-120
+180
 seconds
 but
 it
@@ -81,7 +81,7 @@ will
 take
 up
 to
-240
+360
 seconds
 to
 detect
@@ -191,7 +191,7 @@ deferred
 =
 callLater
 (
-120
+180
 TestRunner
 .
 _checkForHangs
