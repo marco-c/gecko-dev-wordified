@@ -30837,8 +30837,6 @@ BEGIN_CASE
 (
 JSOP_APPLY
 )
-do_call
-:
 argc
 =
 GET_ARGC
