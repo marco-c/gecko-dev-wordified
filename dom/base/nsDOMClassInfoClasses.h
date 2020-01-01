@@ -496,10 +496,6 @@ TimeEvent
 )
 DOMCI_CLASS
 (
-SVGFEBlendElement
-)
-DOMCI_CLASS
-(
 SVGFEColorMatrixElement
 )
 DOMCI_CLASS
