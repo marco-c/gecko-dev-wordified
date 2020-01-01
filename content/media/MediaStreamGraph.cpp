@@ -10114,6 +10114,12 @@ if
 IsEmpty
 (
 )
+&
+&
+mLifecycleState
+>
+=
+LIFECYCLE_WAITING_FOR_STREAM_DESTRUCTION
 )
 {
 if
