@@ -507,7 +507,7 @@ Only
 one
 instance
 of
-nsAppRootAccessible
+nsApplicationAccessible
 exists
 for
 one
