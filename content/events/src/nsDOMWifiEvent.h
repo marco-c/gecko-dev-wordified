@@ -264,6 +264,9 @@ mRelSignalStrength
 int32_t
 mLinkSpeed
 ;
+nsString
+mIpAddress
+;
 }
 ;
 #
