@@ -5133,7 +5133,7 @@ writeString
 (
 options
 .
-path
+pathid
 )
 ;
 Buf
