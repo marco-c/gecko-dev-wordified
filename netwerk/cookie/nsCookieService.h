@@ -1643,6 +1643,9 @@ aBaseDomain
 nsCookie
 *
 aCookie
+DBState
+*
+aDBState
 mozIStorageBindingParamsArray
 *
 aParamsArray
