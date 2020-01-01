@@ -39214,7 +39214,7 @@ kshape
 )
 "
 )
-MISMATCH_EXIT
+BRANCH_EXIT
 )
 ;
 }
@@ -39348,7 +39348,7 @@ kobj
 )
 "
 )
-MISMATCH_EXIT
+BRANCH_EXIT
 )
 ;
 }
@@ -39471,7 +39471,7 @@ ins_eq0
 (
 obj2_ins
 )
-MISMATCH_EXIT
+BRANCH_EXIT
 )
 ;
 }
@@ -39565,7 +39565,7 @@ vshape
 )
 "
 )
-MISMATCH_EXIT
+BRANCH_EXIT
 )
 ;
 }
@@ -41924,7 +41924,7 @@ shape
 )
 "
 )
-MISMATCH_EXIT
+BRANCH_EXIT
 )
 ;
 return
@@ -47791,7 +47791,7 @@ shape
 )
 "
 )
-MISMATCH_EXIT
+BRANCH_EXIT
 )
 ;
 if
