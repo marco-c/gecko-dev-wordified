@@ -1552,15 +1552,6 @@ doc
 instanceof
 C_i
 .
-nsIDOMDocumentTraversal
-)
-;
-do_check_true
-(
-doc
-instanceof
-C_i
-.
 nsIDOMXPathEvaluator
 )
 ;

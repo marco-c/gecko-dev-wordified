@@ -1778,13 +1778,6 @@ h
 #
 include
 "
-nsIDOMDocumentTraversal
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentXBL
 .
 h
@@ -11505,11 +11498,6 @@ nsIDOMDocumentStyle
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMNSDocumentStyle
-)
-\
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMDocumentTraversal
 )
 \
 DOM_CLASSINFO_MAP_ENTRY

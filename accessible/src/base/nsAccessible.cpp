@@ -555,13 +555,6 @@ h
 #
 include
 "
-nsIDOMDocumentTraversal
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLDocument
 .
 h
@@ -18470,9 +18463,9 @@ accessible
 ;
 nsCOMPtr
 <
-nsIDOMDocumentTraversal
+nsIDOMDocument
 >
-trav
+domDoc
 =
 do_QueryInterface
 (
@@ -18486,7 +18479,7 @@ GetOwnerDoc
 ;
 NS_ENSURE_TRUE
 (
-trav
+domDoc
 nsnull
 )
 ;
@@ -18506,12 +18499,11 @@ nsCOMPtr
 nsIDOMNode
 >
 rootNode
-(
+=
 do_QueryInterface
 (
 GetNode
 (
-)
 )
 )
 ;
@@ -18521,7 +18513,7 @@ nsIDOMTreeWalker
 >
 walker
 ;
-trav
+domDoc
 -
 >
 CreateTreeWalker
