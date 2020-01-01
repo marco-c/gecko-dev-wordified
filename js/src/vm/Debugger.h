@@ -3214,8 +3214,7 @@ Env
 *
 >
 env
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -3307,8 +3306,7 @@ wrapDebuggeeValue
 JSContext
 *
 cx
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -3572,8 +3570,7 @@ unwrapDebuggeeValue
 JSContext
 *
 cx
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -3710,8 +3707,7 @@ rv
 JSTrapStatus
 *
 status
-Value
-*
+MutableHandleValue
 value
 )
 ;
@@ -3780,8 +3776,7 @@ JSTrapStatus
 status
 Value
 value
-Value
-*
+MutableHandleValue
 result
 )
 ;
@@ -3900,8 +3895,7 @@ bool
 ok
 Value
 val
-Value
-*
+MutableHandleValue
 vp
 )
 ;
