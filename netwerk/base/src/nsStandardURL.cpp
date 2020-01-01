@@ -8050,7 +8050,6 @@ mUsername
 .
 mLen
 >
-=
 0
 )
 {
@@ -8796,6 +8795,7 @@ mUsername
 .
 mLen
 <
+=
 0
 )
 {
