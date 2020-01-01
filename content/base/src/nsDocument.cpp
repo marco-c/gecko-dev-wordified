@@ -1464,6 +1464,13 @@ imgILoader
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 using
 namespace
 mozilla

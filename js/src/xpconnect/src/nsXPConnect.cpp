@@ -622,6 +622,13 @@ dombindings
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 NS_IMPL_THREADSAFE_ISUPPORTS7
 (
 nsXPConnect
@@ -5796,7 +5803,7 @@ xpc
 dom
 :
 :
-instanceIsDOMProxy
+instanceIsProxy
 (
 obj
 )

@@ -482,6 +482,13 @@ XPCWrapper
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 /
 *
 *

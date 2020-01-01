@@ -520,6 +520,13 @@ xpcpublic
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 nsresult
 NS_NewDOMDocumentType
 (

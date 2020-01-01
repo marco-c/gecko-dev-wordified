@@ -15595,6 +15595,13 @@ h
 #
 include
 "
+nsWrapperCacheInlines
+.
+h
+"
+#
+include
+"
 jsbuiltins
 .
 h

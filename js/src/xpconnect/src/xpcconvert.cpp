@@ -553,6 +553,13 @@ dombindings
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 /
 /
 #
