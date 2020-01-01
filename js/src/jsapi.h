@@ -20111,16 +20111,6 @@ JSAutoCompartment
 JSContext
 *
 cx
-JSStackFrame
-*
-target
-)
-;
-JSAutoCompartment
-(
-JSContext
-*
-cx
 JSString
 *
 target
