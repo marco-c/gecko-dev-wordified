@@ -4772,6 +4772,16 @@ null
 .
 if
 (
+!
+mPrt
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
+if
+(
 NS_SUCCEEDED
 (
 rv
@@ -4808,9 +4818,6 @@ true
 ;
 if
 (
-mPrt
-&
-&
 mPrt
 -
 >
