@@ -2204,9 +2204,6 @@ mCollapsedResizer
 :
 1
 ;
-#
-ifdef
-MOZ_IPC
 /
 /
 If
@@ -2236,8 +2233,6 @@ mShouldBuildLayer
 :
 1
 ;
-#
-endif
 }
 ;
 /

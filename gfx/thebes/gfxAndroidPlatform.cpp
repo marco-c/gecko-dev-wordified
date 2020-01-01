@@ -2792,9 +2792,6 @@ FontListEntry
 retValue
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -2827,8 +2824,6 @@ retValue
 return
 ;
 }
-#
-endif
 if
 (
 mFontList

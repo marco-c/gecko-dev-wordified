@@ -451,9 +451,6 @@ BLOCK
 *
 /
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -480,8 +477,6 @@ dom
 :
 ContentChild
 ;
-#
-endif
 #
 include
 "
@@ -658,9 +653,6 @@ nsAString
 aAlertName
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -730,8 +722,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 #
 ifdef
 ANDROID
