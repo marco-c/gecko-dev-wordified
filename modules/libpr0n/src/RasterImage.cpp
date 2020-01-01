@@ -503,7 +503,7 @@ h
 #
 include
 "
-imgIDecoder
+Decoder
 .
 h
 "
