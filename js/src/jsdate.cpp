@@ -14554,7 +14554,10 @@ prinrval
 .
 h
 "
+JS_FRIEND_API
+(
 uint32
+)
 js_IntervalNow
 (
 )
@@ -14579,7 +14582,10 @@ else
 JS_THREADSAFE
 *
 /
+JS_FRIEND_API
+(
 uint32
+)
 js_IntervalNow
 (
 )
