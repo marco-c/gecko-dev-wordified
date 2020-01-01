@@ -843,10 +843,6 @@ period
 .
 #
 define
-MAX_NON_PRIORITY_REQUESTS
-150
-#
-define
 HighThreadThreshold
 MAX_RESOLVER_THREADS_FOR_ANY_PRIORITY
 #
