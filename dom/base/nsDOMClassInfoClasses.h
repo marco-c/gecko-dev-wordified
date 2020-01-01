@@ -195,6 +195,10 @@ DragEvent
 )
 DOMCI_CLASS
 (
+ClipboardEvent
+)
+DOMCI_CLASS
+(
 KeyboardEvent
 )
 DOMCI_CLASS

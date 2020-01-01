@@ -28951,6 +28951,7 @@ aDragEvent
 -
 >
 message
+true
 )
 ;
 NS_ENSURE_TRUE
