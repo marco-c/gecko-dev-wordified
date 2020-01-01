@@ -4210,6 +4210,9 @@ iconPath
 )
 )
 )
+unused
+<
+<
 SendSetAudioSessionData
 (
 id
@@ -5296,6 +5299,9 @@ defined
 (
 OS_WIN
 )
+unused
+<
+<
 SendProcessNativeEventsInRPCCall
 (
 )
