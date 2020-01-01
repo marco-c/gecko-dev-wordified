@@ -1802,7 +1802,7 @@ JSObject
 obj
 jsid
 id
-unsigned
+uint32_t
 *
 ip
 =
@@ -2267,7 +2267,7 @@ JS_NewArrayBuffer
 JSContext
 *
 cx
-unsigned
+uint32_t
 nbytes
 )
 ;

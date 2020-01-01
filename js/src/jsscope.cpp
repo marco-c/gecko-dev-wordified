@@ -4234,7 +4234,7 @@ lastProperty
 (
 )
 ;
-unsigned
+uint32_t
 index
 ;
 bool
@@ -4990,7 +4990,7 @@ cx
 )
 ;
 {
-unsigned
+uint32_t
 index
 ;
 bool

@@ -3505,7 +3505,7 @@ Step
 .
 *
 /
-unsigned
+uint32_t
 length
 ;
 if
@@ -4692,7 +4692,7 @@ ii
 .
 *
 /
-unsigned
+uint32_t
 len
 ;
 JS_ALWAYS_TRUE
@@ -4760,7 +4760,7 @@ iii
 .
 *
 /
-unsigned
+uint32_t
 i
 =
 0

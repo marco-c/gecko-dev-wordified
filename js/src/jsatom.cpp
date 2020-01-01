@@ -4942,7 +4942,7 @@ s
 +
 n
 ;
-unsigned
+uint32_t
 index
 =
 JS7_UNDEC
@@ -4953,12 +4953,12 @@ cp
 +
 )
 ;
-unsigned
+uint32_t
 oldIndex
 =
 0
 ;
-unsigned
+uint32_t
 c
 =
 0

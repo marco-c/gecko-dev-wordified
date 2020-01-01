@@ -13922,7 +13922,7 @@ JSVAL_TO_OBJECT
 val
 )
 ;
-unsigned
+uint32_t
 sourceLength
 ;
 if
@@ -14032,7 +14032,7 @@ false
 }
 for
 (
-unsigned
+uint32_t
 i
 =
 0
@@ -28826,7 +28826,7 @@ JSObject
 fieldsObj
 )
 {
-unsigned
+uint32_t
 len
 ;
 ASSERT_OK
@@ -29134,7 +29134,7 @@ structAlign
 ;
 for
 (
-unsigned
+uint32_t
 i
 =
 0
@@ -34228,7 +34228,7 @@ argv
 ]
 )
 ;
-unsigned
+uint32_t
 len
 ;
 ASSERT_OK
@@ -34311,7 +34311,7 @@ begin
 ;
 for
 (
-unsigned
+uint32_t
 i
 =
 0

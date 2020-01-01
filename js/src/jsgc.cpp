@@ -4771,7 +4771,7 @@ allocate
 .
 *
 /
-unsigned
+uint32_t
 Chunk
 :
 :

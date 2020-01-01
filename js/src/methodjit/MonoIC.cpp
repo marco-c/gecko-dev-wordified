@@ -8535,7 +8535,7 @@ toObject
 (
 )
 ;
-unsigned
+uint32_t
 length
 ;
 if

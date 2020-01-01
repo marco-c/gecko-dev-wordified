@@ -413,7 +413,7 @@ obj
 )
 )
 ;
-unsigned
+uint32_t
 len
 ;
 CHECK

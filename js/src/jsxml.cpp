@@ -29753,7 +29753,7 @@ JSContext
 cx
 jsval
 id
-unsigned
+uint32_t
 *
 indexp
 bool
@@ -29797,7 +29797,7 @@ true
 indexp
 =
 (
-unsigned
+uint32_t
 )
 i
 ;
@@ -38206,7 +38206,7 @@ prefix
 *
 nsprefix
 ;
-unsigned
+uint32_t
 i
 length
 ;

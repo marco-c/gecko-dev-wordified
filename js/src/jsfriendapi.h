@@ -2854,7 +2854,7 @@ StringIsArrayIndex
 JSLinearString
 *
 str
-unsigned
+uint32_t
 *
 indexp
 )

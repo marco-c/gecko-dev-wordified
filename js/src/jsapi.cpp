@@ -24738,7 +24738,7 @@ vector
 vector
 ?
 (
-unsigned
+uint32_t
 )
 length
 :
@@ -24751,7 +24751,7 @@ NewDenseCopiedArray
 (
 cx
 (
-unsigned
+uint32_t
 )
 length
 vector
@@ -24800,7 +24800,7 @@ cx
 JSObject
 *
 obj
-unsigned
+uint32_t
 *
 lengthp
 )
@@ -24842,7 +24842,7 @@ cx
 JSObject
 *
 obj
-unsigned
+uint32_t
 length
 )
 {
