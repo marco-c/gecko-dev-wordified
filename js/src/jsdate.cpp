@@ -16265,10 +16265,10 @@ Step
 .
 *
 /
-JSObject
-*
+RootedObject
 obj
-=
+(
+cx
 ToObject
 (
 cx
@@ -16277,6 +16277,7 @@ vp
 [
 1
 ]
+)
 )
 ;
 if
