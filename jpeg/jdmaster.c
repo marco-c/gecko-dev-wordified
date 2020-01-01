@@ -116,6 +116,7 @@ array
 *
 /
 const
+unsigned
 char
 static_range_table
 [
