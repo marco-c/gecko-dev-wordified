@@ -1780,6 +1780,10 @@ right
 >
 -
 1
+&
+&
+!
+assumeConstantSize
 )
 rect
 .
@@ -1950,6 +1954,10 @@ bottom
 >
 -
 1
+&
+&
+!
+assumeConstantSize
 )
 rect
 .
