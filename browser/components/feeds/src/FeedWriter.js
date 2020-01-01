@@ -5248,7 +5248,7 @@ prefs
 .
 getCharPref
 (
-getPrefActionFromType
+getPrefActionForType
 (
 feedType
 )
@@ -5845,7 +5845,7 @@ prefs
 .
 getCharPref
 (
-getPrefReaderFromType
+getPrefReaderForType
 (
 feedType
 )
@@ -5895,7 +5895,7 @@ prefs
 .
 getComplexValue
 (
-getPrefWebFromType
+getPrefWebForType
 (
 feedType
 )
@@ -5990,7 +5990,7 @@ prefs
 .
 getComplexValue
 (
-getPrefAppFromType
+getPrefAppForType
 (
 feedType
 )
@@ -6338,7 +6338,7 @@ prefs
 .
 getComplexValue
 (
-getPrefAppFromType
+getPrefAppForType
 (
 feedType
 )
@@ -8328,7 +8328,7 @@ prefs
 .
 setCharPref
 (
-getPrefReaderFromType
+getPrefReaderForType
 (
 feedType
 )
@@ -8372,7 +8372,7 @@ prefs
 .
 setComplexValue
 (
-getPrefWebFromType
+getPrefWebForType
 (
 feedType
 )
@@ -8494,7 +8494,7 @@ prefs
 .
 setCharPref
 (
-getPrefReaderFromType
+getPrefReaderForType
 (
 feedType
 )
@@ -8507,7 +8507,7 @@ prefs
 .
 setComplexValue
 (
-getPrefAppFromType
+getPrefAppForType
 (
 feedType
 )
@@ -8532,7 +8532,7 @@ prefs
 .
 setCharPref
 (
-getPrefReaderFromType
+getPrefReaderForType
 (
 feedType
 )
@@ -8545,7 +8545,7 @@ prefs
 .
 setComplexValue
 (
-getPrefAppFromType
+getPrefAppForType
 (
 feedType
 )
@@ -8576,7 +8576,7 @@ prefs
 .
 setCharPref
 (
-getPrefReaderFromType
+getPrefReaderForType
 (
 feedType
 )
@@ -8746,7 +8746,7 @@ prefs
 .
 setCharPref
 (
-getPrefActionFromType
+getPrefActionForType
 (
 feedType
 )
@@ -8758,7 +8758,7 @@ prefs
 .
 setCharPref
 (
-getPrefActionFromType
+getPrefActionForType
 (
 feedType
 )
