@@ -780,10 +780,13 @@ cx
 JSAtom
 *
 atom
+JSAutoByteString
+*
+bytes
 )
 {
 return
-js_ValueToPrintableString
+js_ValueToPrintable
 (
 cx
 StringValue
@@ -793,6 +796,7 @@ ATOM_TO_STRING
 atom
 )
 )
+bytes
 )
 ;
 }

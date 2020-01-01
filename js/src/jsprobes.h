@@ -505,6 +505,9 @@ const
 JSFunction
 *
 fun
+JSAutoByteString
+*
+bytes
 )
 ;
 static
