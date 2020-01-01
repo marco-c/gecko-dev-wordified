@@ -3310,13 +3310,6 @@ pobj
 !
 =
 NULL
-&
-&
-\
-OBJ_IS_NATIVE
-(
-tmp_
-)
 )
 {
 \

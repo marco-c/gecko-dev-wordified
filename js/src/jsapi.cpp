@@ -3820,6 +3820,7 @@ JSObject
 *
 obj
 ;
+const
 JSObjectOps
 *
 ops
