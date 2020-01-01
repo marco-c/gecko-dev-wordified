@@ -1432,6 +1432,8 @@ ret
 =
 data
 ;
+break
+;
 case
 "
 XXTEA

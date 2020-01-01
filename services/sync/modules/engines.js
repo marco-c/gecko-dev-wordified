@@ -1233,7 +1233,9 @@ unlocked
 =
 yield
 ;
-checkStatus
+this
+.
+_checkStatus
 (
 statusResp
 .
@@ -1249,7 +1251,9 @@ file
 true
 )
 ;
-checkStatus
+this
+.
+_checkStatus
 (
 snapshotResp
 .
@@ -1265,7 +1269,9 @@ file
 true
 )
 ;
-checkStatus
+this
+.
+_checkStatus
 (
 deltasResp
 .
