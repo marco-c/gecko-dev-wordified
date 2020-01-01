@@ -355,6 +355,8 @@ end
         
 if
 value
+and
+value
 [
 -
 1
