@@ -36625,6 +36625,11 @@ NULL
 ;
 if
 (
+foldConstants
+)
+{
+if
+(
 propExpr
 -
 >
@@ -36753,6 +36758,7 @@ asPropertyName
 (
 )
 ;
+}
 }
 }
 if
