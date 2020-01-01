@@ -29199,6 +29199,10 @@ obj2
 entry
 )
 ;
+sprop
+=
+NULL
+;
 if
 (
 obj
@@ -29271,10 +29275,7 @@ obj2
 ;
 if
 (
-obj
-=
-=
-obj2
+sprop
 )
 {
 TRACE_2
