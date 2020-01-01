@@ -650,18 +650,11 @@ cxx_env
 os
 .
 environ
-.
-get
-(
+[
 '
 CXX
 '
-'
-c
-+
-+
-'
-)
+]
     
 print
 '
