@@ -592,6 +592,14 @@ aMaxDelayTime
 0
 .
 f
+|
+|
+aMaxDelayTime
+>
+=
+3
+.
+f
 )
 {
 aRv
