@@ -608,6 +608,12 @@ graph
 HandleScript
 )
 ;
+bool
+isSpewingFunction
+(
+)
+const
+;
 void
 spewPass
 (
