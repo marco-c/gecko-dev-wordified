@@ -1270,6 +1270,10 @@ NS_PRESSHELL_SCROLL_ANYWHERE
 HPercent
 *
 /
+nsIPresShell
+:
+:
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 return

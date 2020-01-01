@@ -4534,6 +4534,10 @@ ScrollContentIntoView
 this
 vpercent
 NS_PRESSHELL_SCROLL_ANYWHERE
+nsIPresShell
+:
+:
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 return
