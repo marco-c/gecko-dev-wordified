@@ -2461,7 +2461,7 @@ SetJSEventListener
 nsIScriptContext
 *
 aContext
-void
+JSObject
 *
 aScopeObject
 nsIAtom

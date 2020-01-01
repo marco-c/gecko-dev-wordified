@@ -616,7 +616,7 @@ nsJSEventListener
 nsIScriptContext
 *
 aContext
-void
+JSObject
 *
 aScopeObject
 nsISupports
@@ -1866,7 +1866,7 @@ NS_NewJSEventListener
 nsIScriptContext
 *
 aContext
-void
+JSObject
 *
 aScopeObject
 nsISupports

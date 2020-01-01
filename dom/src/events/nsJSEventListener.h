@@ -515,7 +515,7 @@ nsJSEventListener
 nsIScriptContext
 *
 aContext
-void
+JSObject
 *
 aScopeObject
 nsISupports
