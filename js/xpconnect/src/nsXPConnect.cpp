@@ -9568,6 +9568,16 @@ cx
 JSVAL_VOID
 )
 ;
+AUTO_MARK_JSVAL
+(
+ccx
+rval
+.
+address
+(
+)
+)
+;
 SandboxOptions
 options
 (
