@@ -444,6 +444,16 @@ nsDebug
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
+/
+/
+NS_INLINE_DECL_REFCOUNTING
 /
 /
 /
@@ -709,6 +719,10 @@ aRights
 )
 ;
 }
+NS_INLINE_DECL_REFCOUNTING
+(
+SharedMemory
+)
 static
 void
 SystemProtect
