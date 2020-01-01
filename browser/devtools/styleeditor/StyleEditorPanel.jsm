@@ -720,6 +720,10 @@ jump
 to
 after
 selecting
+.
+One
+-
+indexed
 *
 param
 {
@@ -734,6 +738,10 @@ jump
 to
 after
 selecting
+.
+One
+-
+indexed
 *
 /
 selectStyleSheet
@@ -782,7 +790,11 @@ selectStyleSheet
 (
 href
 line
+-
+1
 col
+-
+1
 )
 ;
 }
