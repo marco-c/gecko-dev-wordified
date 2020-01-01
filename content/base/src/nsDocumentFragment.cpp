@@ -379,6 +379,17 @@ GetIDAttributeName
 )
 const
 ;
+virtual
+Element
+*
+GetNameSpaceElement
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 nsresult
