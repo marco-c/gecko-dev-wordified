@@ -1226,6 +1226,10 @@ size_t
 >
 1
 ;
+resetGCMallocBytes
+(
+)
+;
 for
 (
 ZonesIter
