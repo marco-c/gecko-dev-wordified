@@ -40298,9 +40298,6 @@ is_constructing
 (
 )
 )
-NoCheck
-(
-)
 )
 ;
 #
@@ -46663,6 +46660,7 @@ space
 .
 ensureEnoughSpaceToEnterTrace
 (
+cx
 )
 )
 {

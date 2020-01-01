@@ -4519,7 +4519,10 @@ argc
 )
 <
 =
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 ;
 if
@@ -5383,6 +5386,7 @@ space
 getStackLimit
 (
 cx
+REPORT_ERROR
 )
 ;
 if
@@ -26649,9 +26653,6 @@ callee
 fun
 newScript
 construct
-OOMCheck
-(
-)
 )
 )
 goto
@@ -33901,7 +33902,10 @@ id
 )
 )
 <
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 ;
 if

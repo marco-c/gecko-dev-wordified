@@ -26829,7 +26829,6 @@ first
 if
 JS_HAS_BLOCK_SCOPE
 bool
-forInLet
 popScope
 ;
 JSStmtInfo
@@ -27064,13 +27063,6 @@ PNX_FORINVAR
 #
 if
 JS_HAS_BLOCK_SCOPE
-forInLet
-=
-let
-&
-&
-forInVar
-;
 popScope
 =
 (
@@ -32203,6 +32195,13 @@ continue
 .
 *
 /
+off
+=
+CG_OFFSET
+(
+cg
+)
+;
 stmt
 =
 &
@@ -32215,10 +32214,7 @@ stmt
 >
 update
 =
-CG_OFFSET
-(
-cg
-)
+off
 ;
 }
 while
@@ -32401,7 +32397,7 @@ noteIndex
 1
 +
 (
-beq
+off
 -
 top
 )

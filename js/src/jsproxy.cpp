@@ -6515,7 +6515,7 @@ trc
 obj
 )
 ;
-MarkValue
+MarkCrossCompartmentValue
 (
 trc
 obj
@@ -6529,7 +6529,7 @@ private
 "
 )
 ;
-MarkValue
+MarkCrossCompartmentValue
 (
 trc
 obj
@@ -6553,7 +6553,7 @@ isFunctionProxy
 )
 )
 {
-MarkValue
+MarkCrossCompartmentValue
 (
 trc
 GetCall
@@ -6565,7 +6565,7 @@ call
 "
 )
 ;
-MarkValue
+MarkCrossCompartmentValue
 (
 trc
 GetConstruct
@@ -6597,7 +6597,7 @@ trc
 obj
 )
 ;
-MarkValue
+MarkCrossCompartmentValue
 (
 trc
 GetCall
@@ -6609,7 +6609,7 @@ call
 "
 )
 ;
-MarkValue
+MarkCrossCompartmentValue
 (
 trc
 GetConstruct

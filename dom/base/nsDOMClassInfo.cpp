@@ -6960,7 +6960,7 @@ NewChromeWorker
 NS_DEFINE_CONSTRUCTOR_FUNC_DATA
 (
 File
-nsDOMFile
+nsDOMFileFile
 :
 :
 NewFile
