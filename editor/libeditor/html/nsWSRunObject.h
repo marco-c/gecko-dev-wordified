@@ -152,7 +152,7 @@ class
 nsHTMLEditor
 ;
 class
-nsIDOMDocument
+nsIDocument
 ;
 class
 nsIDOMNode
@@ -1790,7 +1790,7 @@ aInOutNode
 int32_t
 *
 aInOutOffset
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 )

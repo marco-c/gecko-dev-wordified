@@ -148,7 +148,7 @@ class
 nsIContentIterator
 ;
 class
-nsIDOMDocument
+nsIDocument
 ;
 class
 nsIDOMRange
@@ -1821,7 +1821,7 @@ static
 bool
 DoInsertionHook
 (
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 nsIDOMEvent
@@ -1838,7 +1838,7 @@ static
 nsresult
 GetHookEnumeratorFromDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 nsISimpleEnumerator

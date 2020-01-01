@@ -168,10 +168,10 @@ class
 nsIContentIterator
 ;
 class
-nsIDOMCharacterData
+nsIDocument
 ;
 class
-nsIDOMDocument
+nsIDOMCharacterData
 ;
 class
 nsIDOMNode
@@ -431,7 +431,7 @@ TSDIteratorStatus
 ;
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
 mDOMDocument
 ;

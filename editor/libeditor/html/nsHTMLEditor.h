@@ -2208,7 +2208,7 @@ aInOutNode
 int32_t
 *
 aInOutOffset
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 )
@@ -3826,7 +3826,7 @@ nsISupports
 aObject
 bool
 aIsSafe
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsIDOMNode
@@ -3882,7 +3882,7 @@ InsertFromTransferable
 nsITransferable
 *
 transferable
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 const
@@ -3910,7 +3910,7 @@ nsIDOMDataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsIDOMNode
@@ -3953,7 +3953,7 @@ const
 nsAString
 &
 aFlavor
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 bool
@@ -5156,7 +5156,7 @@ const
 nsAString
 &
 aFlavor
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsIDOMNode
