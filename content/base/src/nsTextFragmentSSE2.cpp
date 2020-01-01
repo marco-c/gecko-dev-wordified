@@ -88,8 +88,8 @@ _mm_setzero_si128
 0xffff
 ;
 }
-PRBool
-Is8Bit
+PRInt32
+FirstNon8Bit
 (
 const
 PRUnichar
@@ -238,7 +238,7 @@ i
 255
 )
 return
-PR_FALSE
+i
 ;
 }
 /
@@ -322,7 +322,7 @@ vectmask
 )
 )
 return
-PR_FALSE
+i
 ;
 }
 /
@@ -387,7 +387,7 @@ word
 mask
 )
 return
-PR_FALSE
+i
 ;
 }
 /
@@ -426,12 +426,13 @@ i
 )
 {
 return
-PR_FALSE
+i
 ;
 }
 }
 return
-PR_TRUE
+-
+1
 ;
 }
 }
