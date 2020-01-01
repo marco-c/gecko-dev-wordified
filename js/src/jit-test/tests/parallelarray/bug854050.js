@@ -55,6 +55,14 @@ x
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 bug854050
 (
 )

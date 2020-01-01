@@ -19,6 +19,15 @@ Flags
 :
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 ParallelArray
 (
 )
@@ -34,3 +43,4 @@ function
 {
 }
 )
+}

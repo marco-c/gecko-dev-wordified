@@ -100,7 +100,17 @@ r
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 bug854381
 (
 )
 ;
+}

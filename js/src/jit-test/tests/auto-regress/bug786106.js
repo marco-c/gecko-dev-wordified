@@ -19,6 +19,15 @@ Flags
 :
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 var
 p
 =
@@ -63,3 +72,4 @@ b
 }
 )
 ;
+}

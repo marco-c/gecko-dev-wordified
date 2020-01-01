@@ -19,6 +19,14 @@ Flags
 :
 /
 /
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 print
 (
 ParallelArray
