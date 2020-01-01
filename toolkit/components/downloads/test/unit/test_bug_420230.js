@@ -864,11 +864,6 @@ DOWNLOAD_CANCELED
 case
 dm
 .
-DOWNLOAD_FAILED
-:
-case
-dm
-.
 DOWNLOAD_DIRTY
 :
 case
