@@ -633,7 +633,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 SVGFETurbulenceElement
 :

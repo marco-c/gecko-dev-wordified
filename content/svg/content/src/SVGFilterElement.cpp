@@ -734,7 +734,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 SVGFilterElement
 :
@@ -761,7 +761,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 SVGFilterElement
 :

@@ -342,7 +342,7 @@ BaseFrequencyY
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 NumOctaves
 (
