@@ -7749,15 +7749,6 @@ container
 BookmarksPanelView
 "
 "
-downloads
--
-container
-"
-:
-"
-DownloadsPanelView
-"
-"
 console
 -
 container
