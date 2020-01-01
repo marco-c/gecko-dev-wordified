@@ -722,6 +722,9 @@ let
 obj
 =
 {
+inScope
+:
+false
 }
 ;
 const
@@ -747,6 +750,12 @@ function
 accessCount
 +
 +
+;
+this
+.
+inScope
+=
+true
 ;
 return
 TEST_VALUE
@@ -785,6 +794,13 @@ do_check_eq
 (
 accessCount
 1
+)
+;
+do_check_true
+(
+obj
+.
+inScope
 )
 ;
 /
