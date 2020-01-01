@@ -7848,7 +7848,6 @@ EXT_robustness
 ARB_sync
 OES_EGL_image
 OES_EGL_sync
-OES_EGL_image_external
 Extensions_Max
 }
 ;
@@ -14948,7 +14947,7 @@ OES_EGL_image
 GLES
 )
 void
-fEGLImageTargetTexture2D
+fImageTargetTexture2D
 (
 GLenum
 target
@@ -14960,7 +14959,7 @@ BEFORE_GL_CALL
 ;
 mSymbols
 .
-fEGLImageTargetTexture2D
+fImageTargetTexture2D
 (
 target
 image
