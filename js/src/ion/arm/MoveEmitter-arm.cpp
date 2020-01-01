@@ -1724,7 +1724,7 @@ ma_add
 (
 from
 .
-reg
+base
 (
 )
 Imm32
