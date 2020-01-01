@@ -6060,6 +6060,7 @@ masm
 .
 jump
 (
+&
 returnLabel_
 )
 ;
@@ -49131,6 +49132,7 @@ masm
 .
 jump
 (
+&
 returnLabel_
 )
 ;
@@ -49553,6 +49555,7 @@ masm
 .
 jump
 (
+&
 returnLabel_
 )
 ;
@@ -50217,6 +50220,7 @@ masm
 .
 jump
 (
+&
 returnLabel_
 )
 ;
@@ -50280,6 +50284,7 @@ masm
 .
 jump
 (
+&
 returnLabel_
 )
 ;

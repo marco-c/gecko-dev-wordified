@@ -183,12 +183,10 @@ common
 return
 path
 .
-HeapLabel
-*
+NonAssertingLabel
 returnLabel_
 ;
-HeapLabel
-*
+NonAssertingLabel
 deoptLabel_
 ;
 /
