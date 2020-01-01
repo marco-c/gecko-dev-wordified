@@ -356,7 +356,7 @@ and
 return
 masm
 .
-boxNonDouble
+tagValue
 (
 JSVAL_TYPE_BOOLEAN
 R0
@@ -600,7 +600,7 @@ and
 return
 masm
 .
-boxNonDouble
+tagValue
 (
 JSVAL_TYPE_INT32
 scratchReg
