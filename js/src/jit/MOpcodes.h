@@ -169,11 +169,6 @@ FunctionDispatch
 \
 _
 (
-PolyInlineDispatch
-)
-\
-_
-(
 Compare
 )
 \
