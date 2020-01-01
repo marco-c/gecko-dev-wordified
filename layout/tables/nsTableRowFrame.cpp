@@ -3399,16 +3399,6 @@ if
 cellFrame
 )
 {
-nscoord
-availWidth
-=
-cellFrame
--
->
-GetPriorAvailWidth
-(
-)
-;
 nsSize
 desSize
 =
