@@ -2040,7 +2040,8 @@ ReadPluginInfo
 /
 Given
 a
-filename
+file
+path
 returns
 the
 plugins
@@ -2063,7 +2064,7 @@ RemoveCachedPluginsInfo
 const
 char
 *
-filename
+filePath
 nsPluginTag
 *
 *
