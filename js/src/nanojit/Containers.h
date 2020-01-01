@@ -2245,6 +2245,8 @@ hash
 (
 k
 )
+%
+nbuckets
 ;
 Seq
 <
