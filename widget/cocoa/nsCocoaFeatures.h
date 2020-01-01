@@ -102,6 +102,15 @@ nsCocoaFeatures_h_
 #
 include
 "
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
+"
 prtypes
 .
 h

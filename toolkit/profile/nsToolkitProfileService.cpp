@@ -2676,7 +2676,8 @@ seconds
 srand
 (
 (
-uint
+unsigned
+int
 )
 (
 fpTime

@@ -806,7 +806,7 @@ tmp64
 ;
 return
 (
-uint32
+uint32_t
 )
 bigone
 ;

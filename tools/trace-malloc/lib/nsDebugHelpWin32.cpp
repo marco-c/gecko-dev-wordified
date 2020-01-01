@@ -1183,7 +1183,7 @@ stuff
 PIMAGE_IMPORT_DESCRIPTOR
 desc
 ;
-uint32_t
+ULONG
 size
 ;
 desc

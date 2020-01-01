@@ -103,12 +103,11 @@ h
 /
 /
 must
-include
+be
 before
-any
-headers
+anything
 that
-include
+includes
 prtime
 .
 h

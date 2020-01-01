@@ -146,6 +146,15 @@ includes
 #
 include
 "
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
