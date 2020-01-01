@@ -3470,16 +3470,12 @@ nsRefPtr
 nsCaret
 >
 caret
-;
+=
 presShell
 -
 >
 GetCaret
 (
-getter_AddRefs
-(
-caret
-)
 )
 ;
 if
