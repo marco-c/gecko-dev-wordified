@@ -13274,6 +13274,13 @@ pathStrRef
 path
 )
 ;
+:
+:
+CFRelease
+(
+pathStrRef
+)
+;
 *
 aResult
 =
