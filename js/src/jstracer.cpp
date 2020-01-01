@@ -6415,12 +6415,12 @@ isconst
 return
 i
 ;
-AvmAssert
+JS_ASSERT
 (
 i
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -6495,7 +6495,7 @@ if
 i
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -6565,7 +6565,7 @@ if
 i
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -8359,7 +8359,7 @@ if
 s0
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -8424,7 +8424,7 @@ if
 s0
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -50225,7 +50225,7 @@ JS_ASSERT_IF
 s0
 -
 >
-isconstq
+isconstf
 (
 )
 &
@@ -50233,13 +50233,13 @@ isconstq
 s1
 -
 >
-isconstq
+isconstf
 (
 )
 result
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -50345,7 +50345,7 @@ v1
 s1
 -
 >
-isconstq
+isconstf
 (
 )
 &
@@ -51857,7 +51857,7 @@ v_ins
 lir
 -
 >
-insImmq
+insImmf
 (
 0
 )
@@ -62650,7 +62650,7 @@ v_ins
 lir
 -
 >
-insImmq
+insImmf
 (
 0
 )
@@ -63244,7 +63244,7 @@ v
 lir
 -
 >
-insImmq
+insImmf
 (
 0
 )
@@ -65060,7 +65060,7 @@ res_ins
 lir
 -
 >
-insImmq
+insImmf
 (
 0
 )
@@ -72607,7 +72607,7 @@ if
 idx_ins
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -80349,7 +80349,7 @@ stack
 lir
 -
 >
-insImmq
+insImmf
 (
 0
 )
