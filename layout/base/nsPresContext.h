@@ -171,6 +171,13 @@ h
 #
 include
 "
+nsIAtom
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h

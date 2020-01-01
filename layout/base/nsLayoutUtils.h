@@ -241,6 +241,13 @@ h
 "
 #
 include
+"
+nsIWidget
+.
+h
+"
+#
+include
 <
 limits
 >
