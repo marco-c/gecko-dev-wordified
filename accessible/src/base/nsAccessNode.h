@@ -867,9 +867,9 @@ const
 nsAString
 &
 aPseudoElt
-nsIDOMElement
+nsIDOMNode
 *
-aElement
+aNode
 nsIDOMCSSStyleDeclaration
 *
 *
