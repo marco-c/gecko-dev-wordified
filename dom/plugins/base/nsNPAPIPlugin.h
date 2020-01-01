@@ -808,7 +808,7 @@ aPluginTag
 nsresult
 CreatePluginInstance
 (
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 *
 aResult
