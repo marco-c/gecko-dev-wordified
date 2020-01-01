@@ -5445,14 +5445,6 @@ return
 false
 ;
 }
-static
-uint8_t
-CharRangeBit
-(
-uint32_t
-ch
-)
-;
 /
 /
 for
