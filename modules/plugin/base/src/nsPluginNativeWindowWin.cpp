@@ -2939,6 +2939,10 @@ AddHook
 "
 SetWindowLongPtrA
 "
+(
+void
+*
+)
 SetWindowLongPtrAHook
 (
 void
@@ -2956,6 +2960,10 @@ AddHook
 "
 SetWindowLongPtrW
 "
+(
+void
+*
+)
 SetWindowLongPtrWHook
 (
 void
@@ -2975,6 +2983,10 @@ AddHook
 "
 SetWindowLongA
 "
+(
+void
+*
+)
 SetWindowLongAHook
 (
 void
@@ -2992,6 +3004,10 @@ AddHook
 "
 SetWindowLongW
 "
+(
+void
+*
+)
 SetWindowLongWHook
 (
 void
@@ -3068,7 +3084,7 @@ NULL
 ;
 mParentProc
 =
-NULL
+0
 ;
 if
 (
@@ -4402,7 +4418,7 @@ NULL
 ;
 mParentProc
 =
-NULL
+0
 ;
 }
 return
