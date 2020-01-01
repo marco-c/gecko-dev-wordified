@@ -1025,6 +1025,9 @@ OnContentRemoved
 nsPresContext
 *
 aPresContext
+nsIContent
+*
+aContainer
 nsIFrame
 *
 aChildFrame
