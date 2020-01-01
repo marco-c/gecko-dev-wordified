@@ -252,6 +252,15 @@ interfaces
 .
 nsIDOMNode
 ;
+const
+nsIPropertyElement
+=
+Components
+.
+interfaces
+.
+nsIPropertyElement
+;
 /
 /
 /
