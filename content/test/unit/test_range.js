@@ -3474,15 +3474,6 @@ WRONG_DOCUMENT_ERR
 return
 false
 ?
-do_check_true
-(
-baseRange
-instanceof
-C_i
-.
-nsIDOMNSRange
-)
-;
 do_check_false
 (
 baseRange

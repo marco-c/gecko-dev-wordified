@@ -523,13 +523,6 @@ h
 #
 include
 "
-nsIDOMNSRange
-.
-h
-"
-#
-include
-"
 nsIDOMCharacterData
 .
 h

@@ -2338,13 +2338,6 @@ h
 #
 include
 "
-nsIDOMNSRange
-.
-h
-"
-#
-include
-"
 nsIDOMRangeException
 .
 h
@@ -12703,10 +12696,6 @@ nsIDOMRange
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMRange
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSRange
 )
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN

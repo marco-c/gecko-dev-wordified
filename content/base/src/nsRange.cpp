@@ -2763,10 +2763,6 @@ nsIRange
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMNSRange
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIMutationObserver
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
@@ -5025,8 +5021,6 @@ newRoot
 *
 *
 *
-*
-*
 Utilities
 for
 comparing
@@ -5034,9 +5028,7 @@ points
 :
 API
 from
-nsIDOMNSRange
-*
-*
+nsIDOMRange
 *
 *
 *
@@ -14240,10 +14232,6 @@ return
 NS_OK
 ;
 }
-/
-/
-nsIDOMNSRange
-interface
 NS_IMETHODIMP
 nsRange
 :
