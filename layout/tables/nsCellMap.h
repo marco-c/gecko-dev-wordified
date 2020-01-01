@@ -1773,7 +1773,7 @@ nsCellMap
 )
 ;
 static
-nsresult
+void
 Init
 (
 )

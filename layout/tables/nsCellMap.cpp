@@ -1057,11 +1057,6 @@ mBCInfo
 nsnull
 )
 ;
-if
-(
-newMap
-)
-{
 nsCellMap
 *
 prevMap
@@ -1171,7 +1166,6 @@ prevMap
 newMap
 )
 ;
-}
 }
 void
 nsTableCellMap
@@ -7044,7 +7038,7 @@ colX
 static
 *
 /
-nsresult
+void
 nsCellMap
 :
 :
@@ -7052,7 +7046,7 @@ Init
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 !
 sEmptyRow
@@ -7074,15 +7068,6 @@ nsCellMap
 CellDataArray
 (
 )
-;
-NS_ENSURE_TRUE
-(
-sEmptyRow
-NS_ERROR_OUT_OF_MEMORY
-)
-;
-return
-NS_OK
 ;
 }
 /
