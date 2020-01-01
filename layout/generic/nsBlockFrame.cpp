@@ -24621,6 +24621,12 @@ nsnull
 pushedFrame
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 if
 (
 frameReflowStatus
