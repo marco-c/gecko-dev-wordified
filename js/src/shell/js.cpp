@@ -19893,7 +19893,7 @@ v
 )
 ;
 *
-rval
+vp
 =
 OBJECT_TO_JSVAL
 (
@@ -19956,7 +19956,7 @@ xclasp
 outerObject
 )
 *
-rval
+vp
 =
 OBJECT_TO_JSVAL
 (
