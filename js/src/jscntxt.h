@@ -6896,6 +6896,17 @@ gcHelperThread
 ;
 #
 ifdef
+XP_MACOSX
+js
+:
+:
+AsmJSMachExceptionHandler
+asmJSMachExceptionHandler
+;
+#
+endif
+#
+ifdef
 JS_THREADSAFE
 #
 ifdef
