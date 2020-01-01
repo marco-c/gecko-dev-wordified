@@ -108,7 +108,7 @@ nsIMathMLFrame_h___
 #
 include
 "
-nsIFrame
+nsQueryFrame
 .
 h
 "
@@ -123,6 +123,9 @@ nsHTMLReflowMetrics
 ;
 class
 nsRenderingContext
+;
+class
+nsIFrame
 ;
 /
 /
