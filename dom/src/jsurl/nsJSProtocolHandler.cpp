@@ -921,14 +921,9 @@ aChannel
 globalOwner
 )
 ;
-if
+NS_ASSERTION
 (
-!
 globalOwner
-)
-{
-NS_WARNING
-(
 "
 Unable
 to
@@ -944,7 +939,6 @@ channel
 "
 )
 ;
-}
 if
 (
 !

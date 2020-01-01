@@ -2425,7 +2425,7 @@ if
 doc
 )
 return
-nsnull
+NS_OK
 ;
 return
 doc
