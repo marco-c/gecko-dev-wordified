@@ -826,7 +826,6 @@ isAlive
 (
 )
 )
-{
 runDataThrd
 .
 SendToDataChannel
@@ -834,6 +833,5 @@ SendToDataChannel
 strToSend
 )
 ;
-}
 }
 }
