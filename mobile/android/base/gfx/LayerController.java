@@ -1829,7 +1829,7 @@ void
 notifyPanZoomControllerOfGeometryChange
 (
 boolean
-abortFling
+abortAnimation
 )
 {
 if
@@ -1843,7 +1843,7 @@ mPanZoomController
 .
 geometryChanged
 (
-abortFling
+abortAnimation
 )
 ;
 }
