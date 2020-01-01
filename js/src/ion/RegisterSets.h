@@ -597,6 +597,7 @@ payload_
 ;
 public
 :
+MOZ_CONSTEXPR
 ValueOperand
 (
 Register
@@ -711,6 +712,7 @@ value_
 public
 :
 explicit
+MOZ_CONSTEXPR
 ValueOperand
 (
 Register
@@ -1394,6 +1396,7 @@ bits_
 public
 :
 explicit
+MOZ_CONSTEXPR
 TypedRegisterSet
 (
 uint32_t
@@ -1406,6 +1409,7 @@ bits
 )
 {
 }
+MOZ_CONSTEXPR
 TypedRegisterSet
 (
 )
@@ -1416,6 +1420,7 @@ bits_
 )
 {
 }
+MOZ_CONSTEXPR
 TypedRegisterSet
 (
 const
@@ -2464,6 +2469,7 @@ RegisterSet
 )
 {
 }
+MOZ_CONSTEXPR
 RegisterSet
 (
 const
@@ -3182,6 +3188,7 @@ clear
 )
 ;
 }
+MOZ_CONSTEXPR
 GeneralRegisterSet
 gprs
 (
@@ -3192,6 +3199,7 @@ return
 gpr_
 ;
 }
+MOZ_CONSTEXPR
 FloatRegisterSet
 fpus
 (

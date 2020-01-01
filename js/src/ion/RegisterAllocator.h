@@ -117,6 +117,15 @@ js_ion_registerallocator_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 Ion
 .
 h
@@ -1060,6 +1069,7 @@ CodePosition
 {
 private
 :
+MOZ_CONSTEXPR
 CodePosition
 (
 const
@@ -1135,6 +1145,7 @@ INPUT
 OUTPUT
 }
 ;
+MOZ_CONSTEXPR
 CodePosition
 (
 )
