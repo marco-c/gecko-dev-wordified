@@ -4101,9 +4101,6 @@ nsIRequest
 >
 requests
 ;
-if
-(
-!
 requests
 .
 SetCapacity
@@ -4112,12 +4109,7 @@ mRequests
 .
 entryCount
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 PL_DHashTableEnumerate
 (
 &

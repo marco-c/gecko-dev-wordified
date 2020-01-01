@@ -3325,9 +3325,6 @@ it
 while
 adding
 elements
-if
-(
-!
 props
 .
 SetCapacity
@@ -3336,9 +3333,6 @@ mTable
 .
 entryCount
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 /
 /

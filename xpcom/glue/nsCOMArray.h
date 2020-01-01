@@ -1002,7 +1002,7 @@ deletes
 any
 objects
 .
-bool
+void
 SetCapacity
 (
 uint32_t
@@ -1015,18 +1015,6 @@ SetCapacity
 (
 aCapacity
 )
-;
-/
-/
-TODO
-:
-Make
-this
-method
-return
-void
-return
-true
 ;
 }
 uint32_t
