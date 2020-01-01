@@ -541,6 +541,13 @@ Services
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 nsApplicationAccessible
 :
 :

@@ -710,6 +710,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 /
 /
 /
