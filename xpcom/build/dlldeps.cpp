@@ -469,6 +469,13 @@ nsWindowsRegKey
 h
 "
 #
+include
+"
+nsSetDllDirectory
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -1914,6 +1921,11 @@ NS_SetHasLoadedNewDLLs
 )
 ;
 NS_NewWindowsRegKey
+(
+nsnull
+)
+;
+NS_SetDllDirectory
 (
 nsnull
 )
