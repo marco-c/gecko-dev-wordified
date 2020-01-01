@@ -3034,11 +3034,6 @@ functionExpr
 Node
 statements
 (
-bool
-*
-hasFunctionStmt
-=
-NULL
 )
 ;
 Node
@@ -3374,9 +3369,6 @@ Node
 pn
 Node
 kid
-bool
-*
-hasFunctionStmt
 )
 ;
 bool
