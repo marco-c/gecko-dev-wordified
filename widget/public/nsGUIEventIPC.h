@@ -1620,6 +1620,13 @@ paramType
 aResult
 )
 {
+aResult
+-
+>
+mWasAsync
+=
+PR_TRUE
+;
 return
 ReadParam
 (
