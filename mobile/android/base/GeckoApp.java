@@ -1268,13 +1268,6 @@ mProfile
 ;
 public
 static
-boolean
-sIsGeckoReady
-=
-false
-;
-public
-static
 int
 mOrientation
 ;
@@ -6351,10 +6344,6 @@ mGeckoReadyStartupTimer
 stop
 (
 )
-;
-sIsGeckoReady
-=
-true
 ;
 setLaunchState
 (

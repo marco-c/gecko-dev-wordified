@@ -2892,7 +2892,14 @@ readSessionFile
 (
 GeckoApp
 .
-sIsGeckoReady
+checkLaunchState
+(
+GeckoApp
+.
+LaunchState
+.
+GeckoRunning
+)
 )
 ;
 if
