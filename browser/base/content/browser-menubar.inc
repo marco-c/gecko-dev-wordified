@@ -4075,7 +4075,7 @@ label
 =
 "
 &
-addCurPageAsCmd
+bookmarkThisPageCmd
 .
 label
 ;
