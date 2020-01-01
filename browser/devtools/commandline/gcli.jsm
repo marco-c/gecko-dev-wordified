@@ -42737,7 +42737,9 @@ ALWAYS
 }
 defaultValue
 :
-1
+Eagerness
+.
+SOMETIMES
 description
 :
 l10n
@@ -43742,6 +43744,9 @@ outputVisible
 this
 .
 isOutputVisible
+dimensions
+:
+dimensions
 }
 ;
 this
