@@ -6877,7 +6877,7 @@ accessible
 ;
 nsIFrame
 *
-frame
+primaryFrame
 =
 accessNode
 -
@@ -6888,9 +6888,15 @@ GetFrame
 ;
 NS_ENSURE_TRUE
 (
-frame
+primaryFrame
 NS_ERROR_FAILURE
 )
+;
+nsIFrame
+*
+frame
+=
+primaryFrame
 ;
 while
 (
@@ -7020,7 +7026,7 @@ rv
 =
 ContentToRenderedOffset
 (
-frame
+primaryFrame
 contentOffsets
 .
 offset
