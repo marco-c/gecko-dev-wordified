@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIAnnotationService
-.
-h
-"
-#
-include
-"
 nsIProtocolHandler
 .
 h
