@@ -667,7 +667,7 @@ Get
 nsIFrame
 :
 :
-ComputedStickyOffsetProperty
+ComputedOffsetProperty
 (
 )
 )
@@ -693,7 +693,7 @@ Set
 nsIFrame
 :
 :
-ComputedStickyOffsetProperty
+ComputedOffsetProperty
 (
 )
 new
@@ -776,7 +776,7 @@ Get
 nsIFrame
 :
 :
-ComputedStickyOffsetProperty
+ComputedOffsetProperty
 (
 )
 )

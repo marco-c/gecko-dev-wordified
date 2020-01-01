@@ -7262,7 +7262,7 @@ DestroyPoint
 )
 NS_DECLARE_FRAME_PROPERTY
 (
-ComputedStickyOffsetProperty
+ComputedOffsetProperty
 DestroyMargin
 )
 NS_DECLARE_FRAME_PROPERTY
