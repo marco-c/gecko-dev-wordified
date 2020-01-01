@@ -480,13 +480,6 @@ h
 #
 include
 "
-nsCSSStruct
-.
-h
-"
-#
-include
-"
 nsStyleStructFwd
 .
 h

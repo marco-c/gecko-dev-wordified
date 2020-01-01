@@ -534,13 +534,6 @@ h
 #
 include
 "
-nsCSSStruct
-.
-h
-"
-#
-include
-"
 prlog
 .
 h

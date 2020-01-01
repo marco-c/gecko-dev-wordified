@@ -488,13 +488,6 @@ h
 #
 include
 "
-nsCSSStruct
-.
-h
-"
-#
-include
-"
 nsRuleData
 .
 h
