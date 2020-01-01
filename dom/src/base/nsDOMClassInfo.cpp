@@ -3634,6 +3634,11 @@ nsIXPCScriptable
 :
 :
 WANT_HASINSTANCE
+|
+nsIXPCScriptable
+:
+:
+DONT_ENUM_QUERY_INTERFACE
 )
 NS_DEFINE_CLASSINFO_DATA
 (
@@ -3655,6 +3660,11 @@ nsIXPCScriptable
 :
 :
 WANT_CONSTRUCT
+|
+nsIXPCScriptable
+:
+:
+DONT_ENUM_QUERY_INTERFACE
 )
 /
 /
