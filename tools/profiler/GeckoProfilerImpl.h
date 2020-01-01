@@ -854,6 +854,18 @@ info
 )
 #
 define
+PROFILER_MARKER_PAYLOAD
+(
+info
+payload
+)
+mozilla_sampler_add_marker
+(
+info
+payload
+)
+#
+define
 PROFILER_MAIN_THREAD_LABEL
 (
 name_space
@@ -1766,6 +1778,9 @@ const
 char
 *
 aMarker
+ProfilerMarkerPayload
+*
+aPayload
 )
 {
 if
@@ -1864,6 +1879,7 @@ stack
 addMarker
 (
 aMarker
+aPayload
 )
 ;
 }
