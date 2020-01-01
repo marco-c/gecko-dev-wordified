@@ -217,9 +217,6 @@ aEditor
 &
 &
 aCharData
-&
-&
-aNumCharsToDelete
 )
 ;
 mEditor
