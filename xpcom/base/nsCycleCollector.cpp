@@ -18169,7 +18169,7 @@ reporter
 /
 static
 PRInt64
-ReportCycleCollectorMem
+GetCycleCollectorSize
 (
 )
 {
@@ -18249,7 +18249,7 @@ collector
 "
 KIND_HEAP
 UNITS_BYTES
-ReportCycleCollectorMem
+GetCycleCollectorSize
 "
 Memory
 used
