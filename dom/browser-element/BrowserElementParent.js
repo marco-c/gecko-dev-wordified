@@ -1348,6 +1348,16 @@ _fireEventFromMsg
 addMessageListener
 (
 "
+firstpaint
+"
+this
+.
+_fireEventFromMsg
+)
+;
+addMessageListener
+(
+"
 keyevent
 "
 this
