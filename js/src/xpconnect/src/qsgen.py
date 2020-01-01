@@ -1831,6 +1831,14 @@ not
 member
 .
 implicit_jscontext
+and
+not
+isVariantType
+(
+member
+.
+realtype
+)
 :
         
 #
@@ -9445,6 +9453,13 @@ type
 )
 :
     
+type
+=
+getBuiltinOrNativeTypeName
+(
+type
+)
+    
 assert
 type
 is
@@ -9454,13 +9469,6 @@ not
 jsval
 ]
 '
-    
-type
-=
-getBuiltinOrNativeTypeName
-(
-type
-)
     
 return
 traceParamTypeMap
@@ -9481,6 +9489,20 @@ type
 :
     
 assert
+not
+isVariantType
+(
+type
+)
+    
+type
+=
+getBuiltinOrNativeTypeName
+(
+type
+)
+    
+assert
 type
 is
 not
@@ -9489,13 +9511,6 @@ not
 jsval
 ]
 '
-    
-type
-=
-getBuiltinOrNativeTypeName
-(
-type
-)
     
 return
 traceReturnTypeMap
@@ -9515,6 +9530,13 @@ type
 )
 :
     
+type
+=
+getBuiltinOrNativeTypeName
+(
+type
+)
+    
 assert
 type
 is
@@ -9524,13 +9546,6 @@ not
 jsval
 ]
 '
-    
-type
-=
-getBuiltinOrNativeTypeName
-(
-type
-)
     
 return
 traceParamTypeMap
@@ -9551,6 +9566,20 @@ type
 :
     
 assert
+not
+isVariantType
+(
+type
+)
+    
+type
+=
+getBuiltinOrNativeTypeName
+(
+type
+)
+    
+assert
 type
 is
 not
@@ -9559,13 +9588,6 @@ not
 jsval
 ]
 '
-    
-type
-=
-getBuiltinOrNativeTypeName
-(
-type
-)
     
 return
 traceReturnTypeMap
@@ -9586,6 +9608,20 @@ type
 :
     
 assert
+not
+isVariantType
+(
+type
+)
+    
+type
+=
+getBuiltinOrNativeTypeName
+(
+type
+)
+    
+assert
 type
 is
 not
@@ -9594,13 +9630,6 @@ not
 jsval
 ]
 '
-    
-type
-=
-getBuiltinOrNativeTypeName
-(
-type
-)
     
 return
 traceReturnTypeMap
