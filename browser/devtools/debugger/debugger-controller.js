@@ -9879,7 +9879,7 @@ identifier
 =
 this
 .
-_getIdentifier
+getIdentifier
 (
 aLocation
 )
@@ -9973,7 +9973,7 @@ newIdentifier
 =
 this
 .
-_getIdentifier
+getIdentifier
 (
 aResponse
 .
@@ -10397,7 +10397,7 @@ identifier
 =
 this
 .
-_getIdentifier
+getIdentifier
 (
 aLocation
 )
@@ -10878,17 +10878,6 @@ to
 be
 displayed
 *
--
-actor
-:
-the
-breakpoint
-'
-s
-corresponding
-actor
-id
-*
 param
 object
 aOptions
@@ -11215,7 +11204,7 @@ get
 (
 this
 .
-_getIdentifier
+getIdentifier
 (
 aLocation
 )
@@ -11300,7 +11289,7 @@ get
 (
 this
 .
-_getIdentifier
+getIdentifier
 (
 aLocation
 )
@@ -11360,7 +11349,7 @@ string
 .
 *
 /
-_getIdentifier
+getIdentifier
 :
 function
 (
