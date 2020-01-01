@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5SpeculativeLoad_h_
+nsHtml5SpeculativeLoad_h
 #
 define
-nsHtml5SpeculativeLoad_h_
+nsHtml5SpeculativeLoad_h
 #
 include
 "
@@ -832,4 +832,4 @@ mCrossOrigin
 endif
 /
 /
-nsHtml5SpeculativeLoad_h_
+nsHtml5SpeculativeLoad_h

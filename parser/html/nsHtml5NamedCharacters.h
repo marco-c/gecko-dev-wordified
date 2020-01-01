@@ -206,10 +206,10 @@ SOFTWARE
 /
 #
 ifndef
-nsHtml5NamedCharacters_h_
+nsHtml5NamedCharacters_h
 #
 define
-nsHtml5NamedCharacters_h_
+nsHtml5NamedCharacters_h
 #
 include
 "
@@ -331,4 +331,4 @@ releaseStatics
 endif
 /
 /
-nsHtml5NamedCharacters_h_
+nsHtml5NamedCharacters_h

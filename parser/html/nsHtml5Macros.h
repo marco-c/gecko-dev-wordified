@@ -204,10 +204,10 @@ SOFTWARE
 /
 #
 ifndef
-nsHtml5Macros_h_
+nsHtml5Macros_h
 #
 define
-nsHtml5Macros_h_
+nsHtml5Macros_h
 #
 define
 NS_HTML5_CONTINUE
@@ -233,6 +233,6 @@ _end
 endif
 /
 *
-nsHtml5Macros_h_
+nsHtml5Macros_h
 *
 /

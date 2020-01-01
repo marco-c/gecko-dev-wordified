@@ -240,10 +240,10 @@ regenerate
 /
 #
 ifndef
-nsHtml5StackNode_h__
+nsHtml5StackNode_h
 #
 define
-nsHtml5StackNode_h__
+nsHtml5StackNode_h
 #
 include
 "

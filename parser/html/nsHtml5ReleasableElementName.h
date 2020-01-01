@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5ReleasableElementName_h__
+nsHtml5ReleasableElementName_h
 #
 define
-nsHtml5ReleasableElementName_h__
+nsHtml5ReleasableElementName_h
 #
 include
 "
@@ -116,4 +116,4 @@ interner
 endif
 /
 /
-nsHtml5ReleasableElementName_h__
+nsHtml5ReleasableElementName_h

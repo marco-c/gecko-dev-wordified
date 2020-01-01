@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5DependentUTF16Buffer_h_
+nsHtml5DependentUTF16Buffer_h
 #
 define
-nsHtml5DependentUTF16Buffer_h_
+nsHtml5DependentUTF16Buffer_h
 #
 include
 "
@@ -197,4 +197,4 @@ FalliblyCopyAsOwningBuffer
 endif
 /
 /
-nsHtml5DependentUTF16Buffer_h_
+nsHtml5DependentUTF16Buffer_h

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsAHtml5TreeOpSink_h___
+nsAHtml5TreeOpSink_h
 #
 define
-nsAHtml5TreeOpSink_h___
+nsAHtml5TreeOpSink_h
 /
 *
 *
@@ -161,6 +161,6 @@ aOpQueue
 endif
 /
 *
-nsAHtml5TreeOpSink_h___
+nsAHtml5TreeOpSink_h
 *
 /

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5DocumentMode_h__
+nsHtml5DocumentMode_h
 #
 define
-nsHtml5DocumentMode_h__
+nsHtml5DocumentMode_h
 enum
 nsHtml5DocumentMode
 {
@@ -74,4 +74,4 @@ QUIRKS_MODE
 endif
 /
 /
-nsHtml5DocumentMode_h__
+nsHtml5DocumentMode_h

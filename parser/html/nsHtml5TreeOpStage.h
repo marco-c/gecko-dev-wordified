@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5TreeOpStage_h___
+nsHtml5TreeOpStage_h
 #
 define
-nsHtml5TreeOpStage_h___
+nsHtml5TreeOpStage_h
 #
 include
 "
@@ -274,6 +274,6 @@ mMutex
 endif
 /
 *
-nsHtml5TreeOpStage_h___
+nsHtml5TreeOpStage_h
 *
 /

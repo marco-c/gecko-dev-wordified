@@ -204,10 +204,10 @@ SOFTWARE
 /
 #
 ifndef
-nsHtml5ArrayCopy_h__
+nsHtml5ArrayCopy_h
 #
 define
-nsHtml5ArrayCopy_h__
+nsHtml5ArrayCopy_h
 #
 include
 "
@@ -498,4 +498,4 @@ nsHtml5StackNode
 endif
 /
 /
-nsHtml5ArrayCopy_h__
+nsHtml5ArrayCopy_h

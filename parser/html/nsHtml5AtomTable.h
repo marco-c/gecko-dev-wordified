@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5AtomTable_h_
+nsHtml5AtomTable_h
 #
 define
-nsHtml5AtomTable_h_
+nsHtml5AtomTable_h
 #
 include
 "
@@ -703,4 +703,4 @@ endif
 endif
 /
 /
-nsHtml5AtomTable_h_
+nsHtml5AtomTable_h

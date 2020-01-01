@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-NS_HTML5_PARSER__
+NS_HTML5_PARSER
 #
 define
-NS_HTML5_PARSER__
+NS_HTML5_PARSER
 #
 include
 "

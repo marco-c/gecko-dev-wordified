@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsParserUtils_h_
+nsParserUtils_h
 #
 define
-nsParserUtils_h_
+nsParserUtils_h
 #
 include
 "
@@ -142,4 +142,4 @@ NS_DECL_NSIPARSERUTILS
 endif
 /
 /
-nsParserUtils_h_
+nsParserUtils_h

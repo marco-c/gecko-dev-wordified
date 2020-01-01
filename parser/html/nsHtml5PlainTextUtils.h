@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5PlainTextUtils_h_
+nsHtml5PlainTextUtils_h
 #
 define
-nsHtml5PlainTextUtils_h_
+nsHtml5PlainTextUtils_h
 #
 include
 "
@@ -87,4 +87,4 @@ NewLinkAttributes
 endif
 /
 /
-nsHtml5PlainTextUtils_h_
+nsHtml5PlainTextUtils_h

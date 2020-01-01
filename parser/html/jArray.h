@@ -206,10 +206,10 @@ SOFTWARE
 /
 #
 ifndef
-jArray_h_
+jArray_h
 #
 define
-jArray_h_
+jArray_h
 #
 include
 "
@@ -842,4 +842,4 @@ length
 endif
 /
 /
-jArray_h_
+jArray_h

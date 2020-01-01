@@ -139,10 +139,10 @@ unloaded
 /
 #
 ifndef
-nsHtml5Atoms_h___
+nsHtml5Atoms_h
 #
 define
-nsHtml5Atoms_h___
+nsHtml5Atoms_h
 #
 include
 "
@@ -232,6 +232,6 @@ HTML5_ATOM
 endif
 /
 *
-nsHtml5Atoms_h___
+nsHtml5Atoms_h
 *
 /

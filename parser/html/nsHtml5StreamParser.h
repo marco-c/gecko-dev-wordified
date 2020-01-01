@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHtml5StreamParser_h__
+nsHtml5StreamParser_h
 #
 define
-nsHtml5StreamParser_h__
+nsHtml5StreamParser_h
 #
 include
 "
@@ -2684,4 +2684,4 @@ sTimerSubsequentDelay
 endif
 /
 /
-nsHtml5StreamParser_h__
+nsHtml5StreamParser_h

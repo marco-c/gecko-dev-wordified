@@ -232,10 +232,10 @@ regenerate
 /
 #
 ifndef
-nsHtml5ElementName_h__
+nsHtml5ElementName_h
 #
 define
-nsHtml5ElementName_h__
+nsHtml5ElementName_h
 #
 include
 "

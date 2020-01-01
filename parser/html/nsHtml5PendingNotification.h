@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5PendingNotification_h__
+nsHtml5PendingNotification_h
 #
 define
-nsHtml5PendingNotification_h__
+nsHtml5PendingNotification_h
 #
 include
 "
@@ -210,4 +210,4 @@ mChildCount
 endif
 /
 /
-nsHtml5PendingNotification_h__
+nsHtml5PendingNotification_h

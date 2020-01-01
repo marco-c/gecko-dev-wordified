@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsHtml5TokenizerLoopPolicies_h_
+nsHtml5TokenizerLoopPolicies_h
 #
 define
-nsHtml5TokenizerLoopPolicies_h_
+nsHtml5TokenizerLoopPolicies_h
 /
 *
 *
@@ -211,4 +211,4 @@ CompletedNamedCharacterReference
 endif
 /
 /
-nsHtml5TokenizerLoopPolicies_h_
+nsHtml5TokenizerLoopPolicies_h

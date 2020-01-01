@@ -40,10 +40,10 @@ document
 /
 #
 ifndef
-nsHtml5NamedCharactersAccel_h_
+nsHtml5NamedCharactersAccel_h
 #
 define
-nsHtml5NamedCharactersAccel_h_
+nsHtml5NamedCharactersAccel_h
 #
 include
 "
@@ -106,4 +106,4 @@ HILO_ACCEL
 endif
 /
 /
-nsHtml5NamedCharactersAccel_h_
+nsHtml5NamedCharactersAccel_h

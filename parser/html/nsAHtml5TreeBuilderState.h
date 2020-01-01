@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsAHtml5TreeBuilderState_h___
+nsAHtml5TreeBuilderState_h
 #
 define
-nsAHtml5TreeBuilderState_h___
+nsAHtml5TreeBuilderState_h
 /
 *
 *
@@ -268,6 +268,6 @@ nsAHtml5TreeBuilderState
 endif
 /
 *
-nsAHtml5TreeBuilderState_h___
+nsAHtml5TreeBuilderState_h
 *
 /
