@@ -837,9 +837,6 @@ GetSampleOffset
 (
 )
 ;
-unused
-<
-<
 SendSampleOffsetUpdate
 (
 offset
