@@ -2298,7 +2298,7 @@ VERSION
 SDK_INT
 >
 =
-10
+14
 )
 {
 NfcAdapter
@@ -2655,7 +2655,7 @@ VERSION
 SDK_INT
 >
 =
-10
+14
 )
 {
 NfcAdapter
