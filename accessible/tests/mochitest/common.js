@@ -690,6 +690,13 @@ nsIAccessibleStates
 STATE_HASPOPUP
 ;
 const
+STATE_MIXED
+=
+nsIAccessibleStates
+.
+STATE_MIXED
+;
+const
 STATE_MULTISELECTABLE
 =
 nsIAccessibleStates
