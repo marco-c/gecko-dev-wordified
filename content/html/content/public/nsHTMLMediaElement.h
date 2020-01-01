@@ -657,6 +657,12 @@ PRBool
 aHaveNotified
 )
 ;
+virtual
+void
+DestroyContent
+(
+)
+;
 /
 /
 Called
