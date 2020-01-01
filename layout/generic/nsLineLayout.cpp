@@ -13919,7 +13919,11 @@ d
 \
 n
 "
-verticalAlignUnit
+verticalAlign
+.
+GetUnit
+(
+)
 (
 (
 eStyleUnit_Enumerated
@@ -15965,11 +15969,11 @@ mMinLineHeight
 :
 %
 d
-fontHeight
+yTop
 :
 %
 d
-fontAscent
+yBottom
 :
 %
 d
@@ -15977,8 +15981,8 @@ d
 n
 "
 mMinLineHeight
-fontHeight
-fontAscent
+yTop
+yBottom
 )
 ;
 #
