@@ -1745,9 +1745,7 @@ mValue
 .
 mAppUnits
 *
-2
-.
-54f
+CM_PER_INCH_FLOAT
 /
 float
 (
@@ -1776,9 +1774,7 @@ mValue
 .
 mAppUnits
 *
-25
-.
-4f
+MM_PER_INCH_FLOAT
 /
 float
 (
