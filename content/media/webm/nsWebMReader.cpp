@@ -767,6 +767,14 @@ PR_TRUE
 break
 ;
 }
+decoder
+-
+>
+NotifyBytesConsumed
+(
+bytes
+)
+;
 aLength
 -
 =
