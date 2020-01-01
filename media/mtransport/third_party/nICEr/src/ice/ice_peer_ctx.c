@@ -1622,7 +1622,6 @@ _status
 )
 ;
 }
-static
 int
 nr_ice_peer_ctx_find_pstream
 (
