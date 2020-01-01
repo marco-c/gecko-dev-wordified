@@ -122,13 +122,6 @@ nsIRunnable
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 /
 /
 nsMemoryImpl
