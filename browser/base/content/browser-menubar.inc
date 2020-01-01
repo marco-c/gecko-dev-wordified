@@ -3717,6 +3717,11 @@ maxResults
 =
 10
 "
+tooltip
+=
+"
+btTooltip
+"
 >
 <
 menuitem
@@ -4124,6 +4129,11 @@ onPopupShowing
 event
 )
 ;
+"
+tooltip
+=
+"
+btTooltip
 "
 >
 <
