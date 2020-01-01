@@ -2167,7 +2167,7 @@ aLastRow
 PRBool
 aFirstRowIsTopOfPage
 nscoord
-aAvailHeight
+aSpanningRowBottom
 nsTableRowFrame
 *
 &
