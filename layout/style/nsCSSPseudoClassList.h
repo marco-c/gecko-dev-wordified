@@ -791,7 +791,7 @@ document
 that
 has
 a
-bright
+dark
 lightweight
 theme
 CSS_PSEUDO_CLASS
