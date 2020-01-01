@@ -5072,14 +5072,6 @@ domTreeView
 =
 null
 ;
-this
-.
-propertyPanel
-.
-destroy
-(
-)
-;
 }
 this
 .
