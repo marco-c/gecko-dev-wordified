@@ -1333,13 +1333,13 @@ call
 NULL
 /
 *
-construct
+hasInstance
 *
 /
 NULL
 /
 *
-hasInstance
+construct
 *
 /
 regexp_trace

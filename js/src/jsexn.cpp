@@ -433,13 +433,13 @@ call
 NULL
 /
 *
-construct
+hasInstance
 *
 /
 NULL
 /
 *
-hasInstance
+construct
 *
 /
 exn_trace

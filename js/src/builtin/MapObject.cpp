@@ -7639,11 +7639,11 @@ call
 NULL
 /
 /
-construct
+hasInstance
 NULL
 /
 /
-hasInstance
+construct
 mark
 }
 ;
@@ -11227,11 +11227,11 @@ call
 NULL
 /
 /
-construct
+hasInstance
 NULL
 /
 /
-hasInstance
+construct
 mark
 }
 ;

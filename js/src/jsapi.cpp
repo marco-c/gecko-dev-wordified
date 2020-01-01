@@ -25564,13 +25564,13 @@ call
 NULL
 /
 *
-construct
+hasInstance
 *
 /
 NULL
 /
 *
-hasInstance
+construct
 *
 /
 prop_iter_trace

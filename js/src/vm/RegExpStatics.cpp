@@ -346,13 +346,13 @@ call
 NULL
 /
 *
-construct
+hasInstance
 *
 /
 NULL
 /
 *
-hasInstance
+construct
 *
 /
 resc_trace
