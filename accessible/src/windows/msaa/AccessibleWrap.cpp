@@ -4548,10 +4548,11 @@ navAccessible
 =
 nullptr
 ;
-uint32_t
+int32_t
 xpRelation
 =
-0
+-
+1
 ;
 switch
 (
@@ -4878,6 +4879,9 @@ VT_EMPTY
 if
 (
 xpRelation
+>
+=
+0
 )
 {
 Relation
