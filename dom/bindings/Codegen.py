@@ -20079,22 +20079,6 @@ follows
 {
 val
 }
-replaced
-by
-an
-expression
-for
-the
-JS
-:
-:
-Value
-in
-question
-          
-{
-valHandle
-}
 is
 a
 handle
@@ -20413,7 +20397,7 @@ use
 things
 like
 {
-valHandle
+val
 }
 .
 This
@@ -20462,7 +20446,7 @@ use
 things
 like
 {
-valHandle
+val
 }
 .
                     
@@ -22203,7 +22187,7 @@ declName
 =
 &
 {
-valHandle
+val
 }
 .
 toObject
@@ -23001,14 +22985,6 @@ temp
 "
                         
 "
-valHandle
-"
-:
-"
-temp
-"
-                        
-"
 mutableVal
 "
 :
@@ -23369,7 +23345,7 @@ s
 (
 cx
 {
-valHandle
+val
 }
 {
 mutableVal
@@ -23508,7 +23484,7 @@ s
 (
 cx
 {
-valHandle
+val
 }
 {
 mutableVal
@@ -23742,7 +23718,7 @@ s
 (
 cx
 {
-valHandle
+val
 }
 {
 mutableVal
@@ -24116,7 +24092,7 @@ argObj
 cx
 &
 {
-valHandle
+val
 }
 .
 toObject
@@ -24135,7 +24111,7 @@ CGIfWrapper
 templateBody
 "
 {
-valHandle
+val
 }
 .
 isObject
@@ -24264,7 +24240,7 @@ s
 (
 cx
 {
-valHandle
+val
 }
 {
 mutableVal
@@ -25607,7 +25583,7 @@ callbackObj
 cx
 &
 {
-valHandle
+val
 }
 .
 toObject
@@ -26910,7 +26886,7 @@ ConvertJSValueToString
 (
 cx
 {
-valHandle
+val
 }
 {
 mutableVal
@@ -27897,7 +27873,7 @@ declName
 =
 &
 {
-valHandle
+val
 }
 .
 toObject
@@ -28644,7 +28620,7 @@ haveValue
 )
 ?
 {
-valHandle
+val
 }
 :
 JS
@@ -28660,7 +28636,7 @@ val
 =
 "
 {
-valHandle
+val
 }
 "
         
@@ -28714,7 +28690,7 @@ IsObjectValueConvertibleToDictionary
 (
 cx
 {
-valHandle
+val
 }
 )
 "
@@ -29309,7 +29285,7 @@ s
 (
 cx
 {
-valHandle
+val
 }
 &
 %
@@ -29394,7 +29370,7 @@ s
 (
 cx
 {
-valHandle
+val
 }
 &
 %
@@ -30900,24 +30876,6 @@ self
 replacementVariables
 [
 "
-valHandle
-"
-]
-=
-self
-.
-replacementVariables
-[
-"
-val
-"
-]
-        
-self
-.
-replacementVariables
-[
-"
 mutableVal
 "
 ]
@@ -31530,12 +31488,6 @@ substitute
                         
 "
 val
-"
-:
-val
-                        
-"
-valHandle
 "
 :
 val
@@ -40497,12 +40449,6 @@ val
 distinguishingArg
                         
 "
-valHandle
-"
-:
-distinguishingArg
-                        
-"
 mutableVal
 "
 :
@@ -48720,14 +48666,6 @@ value
 "
                 
 "
-valHandle
-"
-:
-"
-value
-"
-                
-"
 mutableVal
 "
 :
@@ -55440,17 +55378,6 @@ _holder
                 
 "
 val
-"
-:
-"
-desc
--
->
-value
-"
-                
-"
-valHandle
 "
 :
 "
@@ -66280,14 +66207,6 @@ replacements
 {
 "
 val
-"
-:
-"
-temp
-"
-                         
-"
-valHandle
 "
 :
 "
@@ -79905,14 +79824,6 @@ replacements
             
 "
 val
-"
-:
-"
-rval
-"
-            
-"
-valHandle
 "
 :
 "
