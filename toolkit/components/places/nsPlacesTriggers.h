@@ -810,6 +810,8 @@ rev_host
 "
 MAX
 (
+IFNULL
+(
 (
 SELECT
 frecency
@@ -827,6 +829,9 @@ NEW
 rev_host
 )
 )
+)
+-
+1
 )
 NEW
 .
