@@ -10807,6 +10807,15 @@ isop
 (
 LIR_float
 )
+|
+|
+a
+-
+>
+isop
+(
+LIR_fcall
+)
 )
 ;
 allow
