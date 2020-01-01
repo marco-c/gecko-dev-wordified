@@ -1564,6 +1564,10 @@ Clear
 (
 )
 ;
+mPendingNotification
+=
+nsnull
+;
 }
 mWatchDocument
 =
