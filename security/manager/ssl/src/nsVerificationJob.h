@@ -132,6 +132,13 @@ nsICMSMessage2
 .
 h
 "
+#
+include
+"
+nsProxyRelease
+.
+h
+"
 class
 nsBaseVerificationJob
 {
@@ -168,7 +175,7 @@ nsIX509Cert
 >
 mCert
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsICertVerificationListener
 >
