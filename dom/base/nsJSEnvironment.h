@@ -1581,7 +1581,7 @@ collector
 .
 nsCOMPtr
 <
-nsISupports
+nsIScriptGlobalObject
 >
 mGlobalObjectRef
 ;
