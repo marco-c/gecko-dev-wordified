@@ -1449,7 +1449,7 @@ attrValue
 modType
 hasListeners
 aNotify
-false
+kDontCallAfterSetAttr
 )
 ;
 }
