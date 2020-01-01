@@ -1391,8 +1391,8 @@ Context
 context
 LayerView
 view
-LayerController
-controller
+GeckoLayerClient
+layerClient
 )
 {
 mView
@@ -1415,7 +1415,7 @@ new
 GestureDetector
 (
 context
-controller
+layerClient
 .
 getGestureListener
 (
@@ -1427,7 +1427,7 @@ mScaleGestureDetector
 new
 SimpleScaleGestureDetector
 (
-controller
+layerClient
 .
 getScaleGestureListener
 (
@@ -1436,7 +1436,7 @@ getScaleGestureListener
 ;
 mPanZoomController
 =
-controller
+layerClient
 .
 getPanZoomController
 (
@@ -1457,7 +1457,7 @@ mGestureDetector
 .
 setOnDoubleTapListener
 (
-controller
+layerClient
 .
 getDoubleTapListener
 (

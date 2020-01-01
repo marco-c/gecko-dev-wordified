@@ -1426,7 +1426,7 @@ GeckoApp
 .
 mAppContext
 .
-getLayerController
+getLayerClient
 (
 )
 .
