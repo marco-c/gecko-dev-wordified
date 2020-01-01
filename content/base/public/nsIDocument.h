@@ -11624,7 +11624,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
