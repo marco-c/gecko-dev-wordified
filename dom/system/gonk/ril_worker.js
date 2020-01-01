@@ -17061,6 +17061,12 @@ break
 case
 CARD_APPSTATE_UNKNOWN
 :
+newCardState
+=
+GECKO_CARDSTATE_UNKNOWN
+;
+break
+;
 case
 CARD_APPSTATE_DETECTED
 :
