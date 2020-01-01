@@ -8579,6 +8579,15 @@ JSTreeContext
 tc
 )
 ;
+void
+cleanFunctionList
+(
+JSFunctionBox
+*
+*
+funbox
+)
+;
 bool
 markFunArgs
 (
