@@ -6569,6 +6569,14 @@ identifier
 "
 NavigatorProperty
 "
+or
+                  
+identifier
+=
+=
+"
+Func
+"
 )
 :
                 
