@@ -339,7 +339,7 @@ PanelView
 mPanel
 ;
 private
-TabsPanelToolbar
+LinearLayout
 mFooter
 ;
 private
@@ -832,7 +832,7 @@ initToolbar
 mFooter
 =
 (
-TabsPanelToolbar
+LinearLayout
 )
 findViewById
 (
