@@ -2132,17 +2132,6 @@ Process
 output
 aData
 aLength
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
--
->
-PreserveOTLTablesWhenSanitizing
-(
-)
 )
 )
 {
