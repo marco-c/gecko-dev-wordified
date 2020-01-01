@@ -1070,7 +1070,7 @@ list
 let
 newWin
 =
-open
+openDialog
 (
 location
 "
@@ -1078,6 +1078,9 @@ location
 "
 chrome
 all
+dialog
+=
+no
 "
 )
 ;
