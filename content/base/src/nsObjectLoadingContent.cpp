@@ -18286,8 +18286,14 @@ the
 scriptable
 plugin
 .
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 my_proto
 =
 GetDOMClass

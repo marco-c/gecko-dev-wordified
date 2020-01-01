@@ -2186,8 +2186,14 @@ cx
 JSObject
 *
 global
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 protoProto
 JSClass
 *

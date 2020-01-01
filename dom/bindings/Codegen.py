@@ -13615,11 +13615,18 @@ protoChain
 getParentProto
 =
 "
+aCx
 JS_GetObjectPrototype
 (
 aCx
 aGlobal
 )
+"
+            
+parentProtoType
+=
+"
+Rooted
 "
         
 else
@@ -13658,6 +13665,12 @@ toBindingNamespace
 parentProtoName
 )
 )
+            
+parentProtoType
+=
+"
+Handle
+"
         
 needInterfaceObject
 =
@@ -14250,12 +14263,20 @@ getParentProto
 =
 (
 "
-JSObject
-*
-parentProto
-=
+JS
+:
+:
 %
 s
+<
+JSObject
+*
+>
+parentProto
+(
+%
+s
+)
 ;
 \
 n
@@ -14289,7 +14310,10 @@ n
 "
 )
 %
+(
+parentProtoType
 getParentProto
+)
         
 if
 (
@@ -14967,8 +14991,14 @@ descriptor
 name
                                   
 '
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 '
 args
 inline
@@ -15002,6 +15032,7 @@ self
 :
         
 return
+(
 "
 "
 "
@@ -15045,7 +15076,12 @@ JSCLASS_DOM_GLOBAL
 {
     
 return
-NULL
+JS
+:
+:
+NullPtr
+(
+)
 ;
   
 }
@@ -15076,21 +15112,14 @@ aGlobal
 )
 ;
   
-JSObject
-*
-cachedObject
-=
+if
+(
+!
 protoAndIfaceArray
 [
 %
 s
 ]
-;
-  
-if
-(
-!
-cachedObject
 )
 {
     
@@ -15101,21 +15130,13 @@ aGlobal
 protoAndIfaceArray
 )
 ;
-    
-cachedObject
-=
-protoAndIfaceArray
-[
-%
-s
-]
-;
   
 }
   
 /
 *
-cachedObject
+The
+object
 might
 _still_
 be
@@ -15129,12 +15150,31 @@ OK
 /
   
 return
-cachedObject
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+:
+:
+fromMarkedLocation
+(
+&
+protoAndIfaceArray
+[
+%
+s
+]
+)
 ;
 "
 "
 "
 %
+                
 (
 self
 .
@@ -15142,6 +15182,7 @@ id
 self
 .
 id
+)
 )
 class
 CGGetProtoObjectMethod
@@ -17186,8 +17227,14 @@ parent
 )
 ;
   
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 proto
 =
 GetProtoObject
@@ -17584,8 +17631,14 @@ aScope
 )
 ;
   
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 proto
 =
 GetProtoObject
