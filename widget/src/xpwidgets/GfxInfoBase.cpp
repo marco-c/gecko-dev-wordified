@@ -3876,7 +3876,8 @@ i
 +
 )
 {
-nsPromiseFlatCString
+nsCString
+&
 flattenedFailureMessage
 (
 mFailures

@@ -2131,10 +2131,7 @@ devinfo
 setupGetClassDevs
 (
 NULL
-PromiseFlatString
-(
 mDeviceID
-)
 .
 get
 (
