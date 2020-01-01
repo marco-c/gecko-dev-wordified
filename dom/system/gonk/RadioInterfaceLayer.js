@@ -2010,7 +2010,7 @@ sendAsyncMessage
 "
 RIL
 :
-CardStateChange
+CardStateChanged
 "
 message
 )
