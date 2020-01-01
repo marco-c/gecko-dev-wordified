@@ -1030,6 +1030,12 @@ sure
 this
 is
 a
+valid
+item
+which
+should
+be
+snapped
 snapBounds
 :
 function
