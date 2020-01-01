@@ -5548,6 +5548,9 @@ void
 )
 #
 endif
+#
+ifdef
+MOZ_IPC
 nsGeolocationRequestProxy
 :
 :
@@ -5986,3 +5989,5 @@ dom
 /
 namespace
 mozilla
+#
+endif
