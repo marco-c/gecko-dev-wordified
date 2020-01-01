@@ -851,6 +851,9 @@ SendLink
 menuseparator
 /
 >
+#
+ifndef
+WINCE
 <
 menuitem
 id
@@ -1003,6 +1006,8 @@ XP_MACOSX
 menuseparator
 /
 >
+#
+endif
 #
 endif
 <
