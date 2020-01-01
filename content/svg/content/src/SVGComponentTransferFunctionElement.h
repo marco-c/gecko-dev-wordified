@@ -266,7 +266,7 @@ TableValues
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Slope
 (
@@ -274,7 +274,7 @@ Slope
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Intercept
 (
@@ -282,7 +282,7 @@ Intercept
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Amplitude
 (
@@ -290,7 +290,7 @@ Amplitude
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Exponent
 (
@@ -298,7 +298,7 @@ Exponent
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Offset
 (

@@ -509,7 +509,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFEMorphologyElement
 :
@@ -536,7 +536,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFEMorphologyElement
 :

@@ -361,7 +361,7 @@ In1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 StdDeviationX
 (
@@ -369,7 +369,7 @@ StdDeviationX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 StdDeviationY
 (

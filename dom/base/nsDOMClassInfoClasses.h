@@ -322,10 +322,6 @@ SVG
 classes
 DOMCI_CLASS
 (
-SVGAnimatedNumber
-)
-DOMCI_CLASS
-(
 SVGLength
 )
 DOMCI_CLASS

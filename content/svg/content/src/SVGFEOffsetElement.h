@@ -360,7 +360,7 @@ In1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Dx
 (
@@ -368,7 +368,7 @@ Dx
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Dy
 (

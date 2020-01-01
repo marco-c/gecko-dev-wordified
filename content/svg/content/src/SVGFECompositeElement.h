@@ -398,7 +398,7 @@ Operator
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 K1
 (
@@ -406,7 +406,7 @@ K1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 K2
 (
@@ -414,7 +414,7 @@ K2
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 K3
 (
@@ -422,7 +422,7 @@ K3
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 K4
 (

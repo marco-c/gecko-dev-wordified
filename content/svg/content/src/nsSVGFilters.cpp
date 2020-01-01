@@ -2883,7 +2883,7 @@ TABLEVALUES
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :
@@ -2906,7 +2906,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :
@@ -2929,7 +2929,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :
@@ -2952,7 +2952,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :
@@ -2975,7 +2975,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :

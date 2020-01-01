@@ -434,7 +434,7 @@ aFor
 WebIDL
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 PathLength
 (

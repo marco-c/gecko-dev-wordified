@@ -579,7 +579,7 @@ SVGFETurbulenceElement
 -
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFETurbulenceElement
 :
@@ -606,7 +606,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFETurbulenceElement
 :
@@ -656,7 +656,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFETurbulenceElement
 :
