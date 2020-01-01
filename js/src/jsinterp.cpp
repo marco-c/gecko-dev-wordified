@@ -15398,7 +15398,6 @@ i
 ;
 if
 (
-!
 guard_jsval_is_null
 (
 regs
