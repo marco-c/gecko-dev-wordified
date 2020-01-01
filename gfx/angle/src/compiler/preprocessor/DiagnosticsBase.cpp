@@ -47,7 +47,7 @@ file
 #
 include
 "
-Diagnostics
+DiagnosticsBase
 .
 h
 "

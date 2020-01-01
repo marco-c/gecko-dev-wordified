@@ -67,7 +67,7 @@ namespace
 TString
 mapLongName
 (
-int
+size_t
 id
 const
 TString
@@ -487,7 +487,7 @@ mappedName
 )
 ;
 }
-int
+size_t
 LongNameMap
 :
 :
@@ -715,7 +715,7 @@ NULL
 return
 mappedName
 ;
-int
+size_t
 id
 =
 mGlobalMap

@@ -359,6 +359,11 @@ getBoundTexture
 )
 const
 ;
+void
+recreateAdditionalSwapChain
+(
+)
+;
 private
 :
 DISALLOW_COPY_AND_ASSIGN

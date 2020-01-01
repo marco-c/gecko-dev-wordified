@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2010
+2013
 The
 ANGLE
 Project
@@ -71,6 +71,10 @@ ConstantUnion
 iConst
 =
 0
+;
+type
+=
+EbtVoid
 ;
 }
 POOL_ALLOCATOR_NEW_DELETE
