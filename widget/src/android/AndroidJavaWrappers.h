@@ -968,6 +968,11 @@ int
 stride
 )
 ;
+jobject
+GetSurface
+(
+)
+;
 /
 /
 must
@@ -1026,6 +1031,10 @@ jGetSoftwareDrawBitmapMethod
 static
 jmethodID
 jGetSoftwareDrawBufferMethod
+;
+static
+jmethodID
+jGetSurfaceMethod
 ;
 static
 jmethodID
