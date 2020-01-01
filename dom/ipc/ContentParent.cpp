@@ -6614,7 +6614,7 @@ is
 that
 /
 /
-gAppContentParent
+sAppContentParents
 -
 >
 Get
