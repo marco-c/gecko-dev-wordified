@@ -118,6 +118,14 @@ InitTest
 (
 )
 ;
+static
+void
+SetSendLM
+(
+bool
+sendLM
+)
+;
 private
 :
 nsString
