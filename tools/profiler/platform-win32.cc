@@ -380,6 +380,16 @@ IsActive
 )
 )
 {
+if
+(
+!
+sampler_
+-
+>
+IsPaused
+(
+)
+)
 SampleContext
 (
 sampler_
@@ -716,6 +726,10 @@ profiling_
 profiling
 )
 active_
+(
+false
+)
+paused_
 (
 false
 )
