@@ -1310,8 +1310,8 @@ aIndex
 ;
 protected
 :
-PRBool
-IsItemSelected
+bool
+IsSelected
 (
 )
 ;

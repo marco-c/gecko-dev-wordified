@@ -3764,11 +3764,11 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXFormsSelectableItemAccessible
 :
 :
-IsItemSelected
+IsSelected
 (
 )
 {
