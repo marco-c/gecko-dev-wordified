@@ -3883,7 +3883,7 @@ rv
 ;
 /
 /
-Unfiled
+Unsorted
 Bookmarks
 nsXPIDLString
 unfiledTitle
@@ -3898,7 +3898,7 @@ GetStringFromName
 NS_LITERAL_STRING
 (
 "
-UnfiledBookmarksFolderTitle
+UnsortedBookmarksFolderTitle
 "
 )
 .
