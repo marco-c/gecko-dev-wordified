@@ -137,8 +137,7 @@ mask
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -492,8 +491,7 @@ a
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -567,8 +565,7 @@ v
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -606,8 +603,7 @@ v
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -648,8 +644,7 @@ a
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -711,8 +706,7 @@ b
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1295,8 +1289,7 @@ mask
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1337,8 +1330,7 @@ mask
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )

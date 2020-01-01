@@ -176,8 +176,7 @@ cap
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -241,8 +240,7 @@ cap
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -376,8 +374,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -2357,8 +2354,7 @@ index
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -2465,8 +2461,7 @@ cap
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )

@@ -421,8 +421,7 @@ texture
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -523,8 +522,7 @@ shader
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -687,8 +685,7 @@ name
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -798,8 +795,7 @@ wfb
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -930,8 +926,7 @@ wrb
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1048,8 +1043,7 @@ tex
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1186,8 +1180,7 @@ mode
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1235,8 +1228,7 @@ modeAlpha
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1297,8 +1289,7 @@ dfactor
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1381,8 +1372,7 @@ dstAlpha
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1728,8 +1718,7 @@ target
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -2618,8 +2607,7 @@ border
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3255,8 +3243,7 @@ height
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3759,8 +3746,7 @@ CreateProgram
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3802,8 +3788,7 @@ type
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3871,8 +3856,7 @@ face
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3917,8 +3901,7 @@ fbuf
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3993,8 +3976,7 @@ rbuf
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -4081,8 +4063,7 @@ tex
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -4250,8 +4231,7 @@ prog
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -4306,8 +4286,7 @@ shader
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -4365,8 +4344,7 @@ shader
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -4458,8 +4436,7 @@ func
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -4505,8 +4482,7 @@ zFar
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -6056,8 +6032,7 @@ wrb
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -6115,8 +6090,7 @@ level
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -6166,8 +6140,7 @@ mode
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -6231,8 +6204,7 @@ index
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -6404,8 +6376,7 @@ target
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -6792,8 +6763,7 @@ index
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -7240,8 +7210,7 @@ SetNull
 ;
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -7354,8 +7323,7 @@ name
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -7460,8 +7428,7 @@ pname
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -7626,8 +7593,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -8057,8 +8023,7 @@ pname
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -8239,8 +8204,7 @@ CreateTexture
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -8280,7 +8244,7 @@ if
 mContextStatus
 =
 =
-ContextStable
+ContextNotLost
 )
 {
 MakeContextCurrent
@@ -8339,8 +8303,7 @@ pname
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -8623,8 +8586,7 @@ retval
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -8877,8 +8839,7 @@ floatParamPtr
 ;
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -9348,8 +9309,7 @@ pname
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -9560,8 +9520,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -10587,8 +10546,7 @@ name
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -10733,8 +10691,7 @@ mode
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -10815,8 +10772,7 @@ fb
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -10863,8 +10819,7 @@ prog
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -10903,8 +10858,7 @@ rb
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -10951,8 +10905,7 @@ shader
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -10991,8 +10944,7 @@ tex
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -11221,8 +11173,7 @@ program
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -11997,8 +11948,7 @@ param
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -12204,8 +12154,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -13812,8 +13761,7 @@ height
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -14367,8 +14315,7 @@ height
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -14428,8 +14375,7 @@ mask
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -14499,8 +14445,7 @@ mask
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -14618,8 +14563,7 @@ dppass
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -14697,8 +14641,7 @@ dppass
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -16688,8 +16631,7 @@ prog
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -16783,8 +16725,7 @@ prog
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -16902,8 +16843,7 @@ CreateFramebuffer
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -16943,8 +16883,7 @@ CreateRenderbuffer
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -16989,8 +16928,7 @@ height
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -17047,8 +16985,7 @@ shader
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -18732,8 +18669,7 @@ view
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -18939,8 +18875,7 @@ view
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -19483,8 +19418,7 @@ pname
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -19709,8 +19643,7 @@ retval
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -19884,8 +19817,7 @@ precisiontype
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -20077,8 +20009,7 @@ retval
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -20138,8 +20069,7 @@ source
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -21338,8 +21268,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -21449,8 +21378,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -22301,8 +22229,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -22409,8 +22336,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -22506,8 +22432,7 @@ LoseContext
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -22532,7 +22457,8 @@ RestoreContext
 {
 if
 (
-IsContextStable
+!
+IsContextLost
 (
 )
 |

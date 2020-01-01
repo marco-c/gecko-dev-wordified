@@ -138,8 +138,7 @@ array
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -319,8 +318,7 @@ CreateVertexArray
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -384,8 +382,7 @@ array
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -451,8 +448,7 @@ array
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )

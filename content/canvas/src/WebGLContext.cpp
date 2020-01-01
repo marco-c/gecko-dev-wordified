@@ -1069,7 +1069,7 @@ timer
 ;
 mContextStatus
 =
-ContextStable
+ContextNotLost
 ;
 mContextLostErrorSet
 =
@@ -5133,8 +5133,7 @@ aManager
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -5524,8 +5523,7 @@ SetNull
 ;
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -5646,8 +5644,7 @@ retval
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -7416,7 +7413,7 @@ return
 }
 mContextStatus
 =
-ContextStable
+ContextNotLost
 ;
 nsContentUtils
 :
@@ -7514,7 +7511,7 @@ if
 mContextStatus
 !
 =
-ContextStable
+ContextNotLost
 |
 |
 gl

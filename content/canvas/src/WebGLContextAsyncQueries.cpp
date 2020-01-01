@@ -340,8 +340,7 @@ CreateQuery
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -511,8 +510,7 @@ query
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -668,8 +666,7 @@ query
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1115,8 +1112,7 @@ target
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1406,8 +1402,7 @@ query
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1466,8 +1461,7 @@ pname
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1586,8 +1580,7 @@ pname
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )

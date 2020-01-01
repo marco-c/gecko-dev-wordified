@@ -140,8 +140,7 @@ buffer
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -315,8 +314,7 @@ buffer
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -530,8 +528,7 @@ size
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -792,8 +789,7 @@ usage
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1056,8 +1052,7 @@ usage
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1351,8 +1346,7 @@ usage
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1594,8 +1588,7 @@ maybeData
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1872,8 +1865,7 @@ data
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -2101,8 +2093,7 @@ CreateBuffer
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -2142,8 +2133,7 @@ buffer
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -2289,8 +2279,7 @@ buffer
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
