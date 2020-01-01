@@ -884,7 +884,7 @@ nsIAccessibleRole
 :
 ROLE_COMBOBOX
 eNameLabelOrTitle
-eHasValueMinMax
+eNoValue
 kNoReqStates
 {
 "
@@ -1968,7 +1968,7 @@ nsIAccessibleRole
 :
 ROLE_ENTRY
 eNameLabelOrTitle
-eHasValueMinMax
+eNoValue
 kNoReqStates
 /
 /
