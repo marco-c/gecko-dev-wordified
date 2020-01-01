@@ -124,6 +124,15 @@ SerializedLoadContext
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -202,6 +211,7 @@ it
 /
 class
 LoadContext
+MOZ_FINAL
 :
 public
 nsILoadContext
