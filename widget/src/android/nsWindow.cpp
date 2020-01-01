@@ -11635,6 +11635,14 @@ aAction
 ContentGotFocusByTrustedCause
 (
 )
+&
+&
+!
+aAction
+.
+UserMightRequestOpenVKB
+(
+)
 )
 {
 return
