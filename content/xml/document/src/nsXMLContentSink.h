@@ -649,6 +649,12 @@ GetTarget
 (
 )
 ;
+virtual
+PRBool
+IsScriptExecuting
+(
+)
+;
 /
 /
 nsITransformObserver
