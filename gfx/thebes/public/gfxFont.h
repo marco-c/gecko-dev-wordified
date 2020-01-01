@@ -2313,6 +2313,16 @@ SetBadUnderlineFonts
 ;
 }
 }
+PRBool
+IsBadUnderlineFamily
+(
+)
+const
+{
+return
+mIsBadUnderlineFamily
+;
+}
 /
 /
 sort

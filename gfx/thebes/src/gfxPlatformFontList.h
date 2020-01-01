@@ -1054,7 +1054,7 @@ PreloadNamesList
 ;
 /
 /
-initialize
+load
 the
 bad
 underline
@@ -1062,9 +1062,8 @@ blacklist
 from
 pref
 .
-virtual
 void
-InitBadUnderlineList
+LoadBadUnderlineList
 (
 )
 ;
@@ -1336,6 +1335,12 @@ lookup
 miss
 PRPackedBool
 mOtherFamilyNamesInitialized
+;
+nsTHashtable
+<
+nsStringHashKey
+>
+mBadUnderlineFamilyNames
 ;
 /
 /
