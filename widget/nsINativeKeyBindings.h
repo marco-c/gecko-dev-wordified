@@ -157,9 +157,9 @@ type
 struct
 nsNativeKeyEvent
 {
-nsEvent
+nsKeyEvent
 *
-nativeEvent
+mGeckoEvent
 ;
 /
 /
