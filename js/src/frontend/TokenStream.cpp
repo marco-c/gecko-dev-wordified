@@ -1125,9 +1125,8 @@ if
 (
 originPrincipals
 )
-JSPRINCIPALS_HOLD
+JS_HoldPrincipals
 (
-cx
 originPrincipals
 )
 ;
@@ -1884,9 +1883,12 @@ if
 (
 originPrincipals
 )
-JSPRINCIPALS_DROP
+JS_DropPrincipals
 (
 cx
+-
+>
+runtime
 originPrincipals
 )
 ;

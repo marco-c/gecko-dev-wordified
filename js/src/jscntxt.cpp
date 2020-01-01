@@ -6045,10 +6045,6 @@ outstandingRequests
 )
 #
 endif
-securityCallbacks
-(
-NULL
-)
 resolveFlags
 (
 0

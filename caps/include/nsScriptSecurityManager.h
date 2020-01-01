@@ -2089,6 +2089,16 @@ jsval
 vp
 )
 ;
+static
+JSPrincipals
+*
+ObjectPrincipalFinder
+(
+JSObject
+*
+obj
+)
+;
 /
 /
 Decides
