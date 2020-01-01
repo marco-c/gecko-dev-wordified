@@ -1691,6 +1691,13 @@ nsIStyleSheet
 aReferenceSheet
 )
 ;
+nsresult
+DirtyRuleProcessors
+(
+sheetType
+aType
+)
+;
 /
 /
 Enable
