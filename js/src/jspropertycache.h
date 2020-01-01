@@ -558,7 +558,7 @@ enum
 {
 SIZE_LOG2
 =
-12
+8
 SIZE
 =
 JS_BIT
