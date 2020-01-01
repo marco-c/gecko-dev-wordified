@@ -4024,7 +4024,6 @@ mLayerClient
 =
 null
 )
-{
 return
 ;
 synchronized
