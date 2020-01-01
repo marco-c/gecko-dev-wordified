@@ -3272,11 +3272,6 @@ JSString
 str
 )
 {
-JS_ASSERT
-(
-str
-)
-;
 jsval_layout
 l
 ;
@@ -3287,6 +3282,11 @@ strBits
 uint64
 )
 str
+;
+JS_ASSERT
+(
+str
+)
 ;
 JS_ASSERT
 (
