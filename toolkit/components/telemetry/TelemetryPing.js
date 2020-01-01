@@ -1248,8 +1248,8 @@ that
 matches
 histograms
 we
-carea
-bout
+care
+about
 during
 startup
 .
