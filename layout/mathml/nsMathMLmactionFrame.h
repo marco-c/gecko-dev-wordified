@@ -496,6 +496,11 @@ aContext
 )
 ;
 NS_IMETHOD
+TransmitAutomaticData
+(
+)
+;
+NS_IMETHOD
 Init
 (
 nsIContent

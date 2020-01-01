@@ -523,6 +523,17 @@ aParent
 )
 ;
 NS_IMETHOD
+TransmitAutomaticData
+(
+)
+{
+return
+TransmitAutomaticDataForMrowLikeElement
+(
+)
+;
+}
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder

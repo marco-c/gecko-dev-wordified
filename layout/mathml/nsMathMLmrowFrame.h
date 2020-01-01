@@ -533,6 +533,17 @@ nsIFrame
 aParent
 )
 ;
+NS_IMETHOD
+TransmitAutomaticData
+(
+)
+{
+return
+TransmitAutomaticDataForMrowLikeElement
+(
+)
+;
+}
 protected
 :
 nsMathMLmrowFrame
