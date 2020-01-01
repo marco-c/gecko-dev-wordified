@@ -3287,6 +3287,9 @@ os
 walk
 (
 localDir
+followlinks
+=
+True
 )
 :
       
@@ -3463,6 +3466,17 @@ match
 "
 +
 dirname
+.
+replace
+(
+'
+^
+'
+'
+\
+^
+'
+)
 +
 "
 "

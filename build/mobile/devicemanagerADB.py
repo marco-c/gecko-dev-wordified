@@ -1829,9 +1829,7 @@ walk
 localDir
 followlinks
 =
-'
-true
-'
+True
 )
 :
           
