@@ -423,6 +423,8 @@ import
 threading
 import
 time
+import
+traceback
 from
 Queue
 import
@@ -776,6 +778,16 @@ self
 _handle
 :
                     
+if
+hasattr
+(
+self
+'
+_internal_poll
+'
+)
+:
+                        
 self
 .
 _internal_poll
@@ -783,6 +795,20 @@ _internal_poll
 _deadstate
 =
 _maxint
+)
+                    
+else
+:
+                        
+self
+.
+poll
+(
+_deadstate
+=
+sys
+.
+maxint
 )
                 
 if
@@ -1827,6 +1853,22 @@ processes
 "
 "
                         
+tb
+=
+traceback
+.
+format_exc
+(
+)
+                        
+print
+>
+>
+sys
+.
+stderr
+tb
+                        
 #
 Ensure
 no
@@ -1861,9 +1903,14 @@ ht
 )
                 
 if
+getattr
+(
 self
-.
+'
 _procmgrthread
+'
+None
+)
 :
                     
 self
@@ -2714,11 +2761,38 @@ self
 .
 returncode
                 
+#
+Python
+2
+.
+5
+uses
+isAlive
+versus
+is_alive
+use
+the
+proper
+one
+                
+threadalive
+=
+False
+                
 if
+hasattr
+(
 self
 .
-_job
-and
+_procmgrthread
+'
+is_alive
+'
+)
+:
+                    
+threadalive
+=
 self
 .
 _procmgrthread
@@ -2726,6 +2800,26 @@ _procmgrthread
 is_alive
 (
 )
+                
+else
+:
+                    
+threadalive
+=
+self
+.
+_procmgrthread
+.
+isAlive
+(
+)
+                
+if
+self
+.
+_job
+and
+threadalive
 :
                     
 #
@@ -3177,9 +3271,13 @@ place
 "
                 
 if
+getattr
+(
 self
-.
+'
 _job
+'
+)
 and
 self
 .
@@ -3237,9 +3335,14 @@ _job
 None
                 
 if
+getattr
+(
 self
-.
+'
 _io_port
+'
+None
+)
 and
 self
 .
@@ -3275,9 +3378,14 @@ _io_port
 None
                 
 if
+getattr
+(
 self
-.
+'
 _procmgrthread
+'
+None
+)
 :
                     
 self

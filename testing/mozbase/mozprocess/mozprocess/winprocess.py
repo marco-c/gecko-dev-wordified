@@ -1632,7 +1632,7 @@ INVALID_HANDLE_VALUE
 "
 ExistingCompletionPort
 "
-None
+0
 )
                                
 (
