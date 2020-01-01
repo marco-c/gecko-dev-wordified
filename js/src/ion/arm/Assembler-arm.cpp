@@ -15568,12 +15568,6 @@ used_
 =
 true
 ;
-static
-int
-count
-=
-0
-;
 if
 (
 start_
