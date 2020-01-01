@@ -2470,10 +2470,6 @@ argc
 =
 1
 )
-{
-if
-(
-!
 JS_ValueToECMAUint32
 (
 cx
@@ -2484,11 +2480,7 @@ argv
 &
 chromeType
 )
-)
-return
-JS_FALSE
 ;
-}
 /
 /
 make
