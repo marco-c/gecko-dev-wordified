@@ -2137,6 +2137,20 @@ name
 :
 ]
         
+#
+TODO
+:
+Bug
+872377
+Restore
+"
+toJSON
+"
+to
+below
+list
+.
+        
 if
 name
 in
@@ -2149,9 +2163,6 @@ iterator
 "
 "
 toString
-"
-"
-toJSON
 "
 ]
 and
