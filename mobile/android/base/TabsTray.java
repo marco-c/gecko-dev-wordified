@@ -369,8 +369,6 @@ View
 (
 )
 ;
-/
-/
 setItemsCanFocus
 (
 true
