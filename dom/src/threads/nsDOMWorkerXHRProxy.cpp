@@ -1188,10 +1188,10 @@ mStatus
 PRInt32
 mReadyState
 ;
-PRUint32
+PRUint64
 mLoaded
 ;
-PRUint32
+PRUint64
 mTotal
 ;
 PRInt32
@@ -2251,7 +2251,7 @@ nsDOMWorkerXHREvent
 :
 GetLoaded
 (
-PRUint32
+PRUint64
 *
 aLoaded
 )
@@ -2276,7 +2276,7 @@ nsDOMWorkerXHREvent
 :
 GetTotal
 (
-PRUint32
+PRUint64
 *
 aTotal
 )
@@ -2311,9 +2311,9 @@ PRBool
 aCancelableArg
 PRBool
 aLengthComputableArg
-PRUint32
+PRUint64
 aLoadedArg
-PRUint32
+PRUint64
 aTotalArg
 )
 {

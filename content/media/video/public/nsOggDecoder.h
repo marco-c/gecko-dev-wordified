@@ -2628,7 +2628,7 @@ virtual
 void
 UpdateBytesDownloaded
 (
-PRUint32
+PRUint64
 aBytes
 )
 ;
@@ -2940,7 +2940,7 @@ progress
 events
 .
 virtual
-PRUint32
+PRUint64
 GetBytesLoaded
 (
 )
@@ -3125,7 +3125,7 @@ downloaded
 so
 far
 .
-PRUint32
+PRUint64
 mBytesDownloaded
 ;
 /
