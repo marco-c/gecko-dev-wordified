@@ -216,7 +216,7 @@ offmainthreadcomposition
 .
 enabled
 "
-false
+true
 )
 ;
 /
