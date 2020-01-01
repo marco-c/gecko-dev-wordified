@@ -9830,6 +9830,17 @@ TYPE_BACKGROUND
 )
 protected
 :
+nsRegion
+GetInsideClipRegion
+(
+PRUint8
+aClip
+const
+nsRect
+&
+aRect
+)
+;
 /
 *
 Used
