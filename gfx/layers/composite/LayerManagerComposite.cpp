@@ -193,7 +193,7 @@ FrameMetrics
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "

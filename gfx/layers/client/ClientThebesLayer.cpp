@@ -122,7 +122,7 @@ uint32_t
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "

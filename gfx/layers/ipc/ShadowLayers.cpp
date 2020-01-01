@@ -145,7 +145,7 @@ etc
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "

@@ -128,7 +128,7 @@ ClientTiledThebesLayer
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "

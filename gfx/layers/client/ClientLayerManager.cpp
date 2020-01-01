@@ -111,7 +111,7 @@ CompositorChild
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "

@@ -144,7 +144,7 @@ ToData
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "

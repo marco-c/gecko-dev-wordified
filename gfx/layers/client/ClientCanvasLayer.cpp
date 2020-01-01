@@ -122,7 +122,7 @@ GLScreenBuffer
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "
