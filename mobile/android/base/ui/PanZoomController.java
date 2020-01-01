@@ -589,13 +589,6 @@ view
 MotionEvent
 ;
 import
-android
-.
-view
-.
-ScaleGestureDetector
-;
-import
 java
 .
 util
@@ -659,9 +652,9 @@ GestureDetector
 .
 SimpleOnGestureListener
 implements
-ScaleGestureDetector
+SimpleScaleGestureDetector
 .
-OnScaleGestureListener
+SimpleScaleGestureListener
 GeckoEventListener
 {
 private
@@ -5006,7 +4999,7 @@ public
 boolean
 onScaleBegin
 (
-ScaleGestureDetector
+SimpleScaleGestureDetector
 detector
 )
 {
@@ -5089,7 +5082,7 @@ public
 boolean
 onScale
 (
-ScaleGestureDetector
+SimpleScaleGestureDetector
 detector
 )
 {
@@ -5427,7 +5420,7 @@ public
 void
 onScaleEnd
 (
-ScaleGestureDetector
+SimpleScaleGestureDetector
 detector
 )
 {
