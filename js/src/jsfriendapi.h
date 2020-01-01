@@ -2019,16 +2019,6 @@ js
 :
 Class
 )
-DeclEnvClass
-;
-extern
-JS_FRIEND_DATA
-(
-js
-:
-:
-Class
-)
 FunctionClass
 ;
 extern

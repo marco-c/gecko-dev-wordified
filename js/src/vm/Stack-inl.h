@@ -283,7 +283,10 @@ BlockObject
 obj
 -
 >
-isDeclEnv
+is
+<
+DeclEnvObject
+>
 (
 )
 )
@@ -1308,7 +1311,10 @@ enclosingScope
 (
 )
 .
-asDeclEnv
+as
+<
+DeclEnvObject
+>
 (
 )
 .
