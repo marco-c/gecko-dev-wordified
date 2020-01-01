@@ -2650,7 +2650,7 @@ portRect
 height
 /
 2
-NS_VMREFRESH_IMMEDIATE
+0
 )
 ;
 return

@@ -25289,7 +25289,7 @@ CSSPixelsToAppUnits
 (
 aYScroll
 )
-NS_VMREFRESH_IMMEDIATE
+0
 )
 ;
 }

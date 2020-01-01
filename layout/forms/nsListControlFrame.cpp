@@ -15315,7 +15315,7 @@ ScrollTo
 (
 0
 0
-PR_TRUE
+0
 )
 ;
 return
@@ -15751,7 +15751,7 @@ pnt
 .
 x
 y
-PR_TRUE
+0
 )
 ;
 }

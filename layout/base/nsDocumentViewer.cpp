@@ -21015,7 +21015,7 @@ ScrollTo
 (
 0
 0
-PR_TRUE
+0
 )
 ;
 return
@@ -21514,7 +21514,7 @@ ScrollTo
 (
 0
 newYPosn
-PR_TRUE
+0
 )
 ;
 }

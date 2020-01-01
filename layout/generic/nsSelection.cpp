@@ -28280,7 +28280,7 @@ bounds
 y
 +
 dy
-NS_VMREFRESH_NO_SYNC
+0
 )
 ;
 if
@@ -35683,7 +35683,7 @@ ScrollTo
 (
 scrollOffsetX
 scrollOffsetY
-NS_VMREFRESH_IMMEDIATE
+0
 )
 ;
 if

@@ -22139,7 +22139,7 @@ ScrollTo
 (
 0
 0
-NS_VMREFRESH_IMMEDIATE
+0
 )
 ;
 }
@@ -23791,7 +23791,7 @@ ScrollTo
 (
 scrollOffsetX
 scrollOffsetY
-NS_VMREFRESH_IMMEDIATE
+0
 )
 ;
 }
