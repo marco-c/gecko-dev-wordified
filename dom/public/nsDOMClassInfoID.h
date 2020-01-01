@@ -1056,6 +1056,15 @@ eDOMClassInfo_Geolocation_id
 eDOMClassInfo_Geolocator_id
 /
 /
+font
+-
+face
+in
+CSS
+eDOMClassInfo_CSSFontFaceRule_id
+eDOMClassInfo_CSSFontFaceStyleDecl_id
+/
+/
 WhatWG
 Video
 Element
