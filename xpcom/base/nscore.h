@@ -1017,6 +1017,9 @@ NS_STDCALL
 __stdcall
 #
 define
+NS_HAVE_STDCALL
+#
+define
 NS_FROZENCALL
 __cdecl
 /
