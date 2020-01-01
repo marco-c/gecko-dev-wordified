@@ -479,6 +479,7 @@ size
 height
 )
 )
+)
 return
 ;
 cairo_surface_t
