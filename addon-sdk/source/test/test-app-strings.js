@@ -210,7 +210,7 @@ let
 name
 =
 "
-Yes
+CheckMessage
 "
 )
 {
@@ -246,7 +246,7 @@ let
 name
 =
 "
-ExtensionCapability
+CreateWrapperDenied
 "
 args
 =
