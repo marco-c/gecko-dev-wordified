@@ -625,7 +625,7 @@ aClosure
 )
 -
 >
-AllocateFrame
+AllocateMisc
 (
 aSize
 )
@@ -667,7 +667,7 @@ aClosure
 )
 -
 >
-FreeFrame
+FreeMisc
 (
 aSize
 aPtr

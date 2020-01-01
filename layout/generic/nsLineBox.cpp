@@ -796,7 +796,7 @@ return
 aPresShell
 -
 >
-AllocateFrame
+AllocateMisc
 (
 sz
 )
@@ -878,7 +878,7 @@ memory
 aPresShell
 -
 >
-FreeFrame
+FreeMisc
 (
 sizeof
 (
