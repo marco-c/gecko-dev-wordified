@@ -183,33 +183,7 @@ DOMMediaStream
 *
 aWrapper
 )
-:
-MediaStream
-(
-aWrapper
-)
-mMutex
-(
-"
-mozilla
-:
-:
-camera
-:
-:
-CameraPreviewMediaStream
-"
-)
-mFrameCallback
-(
-nullptr
-)
-{
-mIsConsumed
-=
-false
 ;
-}
 virtual
 void
 AddAudioOutput
@@ -218,6 +192,7 @@ void
 *
 aKey
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -229,6 +204,7 @@ aKey
 float
 aVolume
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -238,6 +214,7 @@ void
 *
 aKey
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -247,6 +224,7 @@ VideoFrameContainer
 *
 aContainer
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -256,6 +234,7 @@ VideoFrameContainer
 *
 aContainer
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -264,6 +243,7 @@ ChangeExplicitBlockerCount
 int32_t
 aDelta
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -273,6 +253,7 @@ MediaStreamListener
 *
 aListener
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -282,6 +263,7 @@ MediaStreamListener
 *
 aListener
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
