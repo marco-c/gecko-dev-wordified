@@ -3412,9 +3412,7 @@ cx
 fp
 -
 >
-getScopeChain
-(
-)
+scopeChain
 -
 >
 getGlobal

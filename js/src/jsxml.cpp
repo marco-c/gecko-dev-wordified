@@ -10531,9 +10531,7 @@ cx
 )
 -
 >
-getScopeChain
-(
-)
+scopeChain
 ;
 JSParseNode
 *
@@ -44015,9 +44013,7 @@ tmp
 fp
 -
 >
-getScopeChain
-(
-)
+scopeChain
 ;
 tmp
 ;
@@ -45180,9 +45176,7 @@ cx
 )
 -
 >
-getScopeChain
-(
-)
+scopeChain
 ;
 do
 {

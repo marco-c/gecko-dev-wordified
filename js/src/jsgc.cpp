@@ -15389,9 +15389,7 @@ if
 fp
 -
 >
-hasScopeChain
-(
-)
+scopeChain
 )
 JS_CALL_OBJECT_TRACER
 (
@@ -15399,9 +15397,7 @@ trc
 fp
 -
 >
-getScopeChain
-(
-)
+scopeChain
 "
 scope
 chain
