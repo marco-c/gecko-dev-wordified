@@ -2643,7 +2643,7 @@ clasp
 =
 =
 &
-js_BlockClass
+BlockClass
 )
 {
 char
@@ -2822,7 +2822,7 @@ clasp
 =
 =
 &
-js_FunctionClass
+FunctionClass
 )
 {
 JSFunction
@@ -2872,7 +2872,7 @@ clasp
 =
 =
 &
-js_RegExpClass
+RegExpClass
 )
 {
 AutoValueRooter

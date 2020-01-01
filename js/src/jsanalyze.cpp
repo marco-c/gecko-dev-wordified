@@ -6126,15 +6126,10 @@ startOffset
 )
 ;
 }
-#
-ifdef
-DEBUG
 found
 =
 true
 ;
-#
-endif
 break
 ;
 }

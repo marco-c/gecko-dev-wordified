@@ -4428,14 +4428,14 @@ clasp
 =
 =
 &
-js_FunctionClass
+FunctionClass
 |
 |
 clasp
 =
 =
 &
-js_BlockClass
+BlockClass
 )
 ;
 isBlock
@@ -4445,7 +4445,7 @@ clasp
 =
 =
 &
-js_BlockClass
+BlockClass
 )
 ?
 1
@@ -5144,7 +5144,10 @@ script
 }
 }
 Class
-js_ScriptClass
+js
+:
+:
+ScriptClass
 =
 {
 "
@@ -9672,7 +9675,7 @@ Class
 (
 cx
 &
-js_ScriptClass
+ScriptClass
 NULL
 NULL
 )
