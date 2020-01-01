@@ -7341,6 +7341,7 @@ NS_IsMainThread
 (
 )
 )
+{
 DEBUG_ReportWrapperThreadSafetyError
 (
 ccx
@@ -7357,6 +7358,10 @@ thread
 this
 )
 ;
+return
+JS_FALSE
+;
+}
 #
 endif
 /
