@@ -958,6 +958,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIScriptObjectPrincipal
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsIGlobalObject
+)
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 ContentFrameMessageManager
