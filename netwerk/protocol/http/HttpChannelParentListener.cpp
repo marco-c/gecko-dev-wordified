@@ -2811,12 +2811,11 @@ mIPCClosed
 unused
 <
 <
-HttpChannelParent
-:
-:
-Send__delete__
-(
 channelToDelete
+-
+>
+SendDeleteSelf
+(
 )
 ;
 mRedirectChannel
