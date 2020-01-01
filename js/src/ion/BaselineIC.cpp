@@ -24666,7 +24666,7 @@ scratch
 ;
 masm
 .
-subPtr
+sub32
 (
 scratch
 key
