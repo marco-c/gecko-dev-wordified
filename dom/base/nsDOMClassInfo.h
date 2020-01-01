@@ -1763,6 +1763,10 @@ sStatusbar_id
 ;
 static
 jsval
+sDialogArguments_id
+;
+static
+jsval
 sDirectories_id
 ;
 static
