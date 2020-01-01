@@ -6100,10 +6100,8 @@ nsIWidget
 aWidget
 nsIntRegion
 aRegion
-bool
-aSentWillPaint
-bool
-aWillSendDidPaint
+uint32_t
+aFlags
 )
 {
 nsCOMPtr
@@ -6122,8 +6120,7 @@ PaintWindow
 (
 aWidget
 aRegion
-aSentWillPaint
-aWillSendDidPaint
+aFlags
 )
 ;
 }

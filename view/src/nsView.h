@@ -1231,10 +1231,8 @@ nsIWidget
 aWidget
 nsIntRegion
 aRegion
-bool
-aSentDidPaint
-bool
-aWillSendDidPaint
+uint32_t
+aFlags
 )
 ;
 void
