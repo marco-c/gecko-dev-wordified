@@ -591,14 +591,6 @@ gCachedContentList
 nsBaseContentList
 :
 :
-nsBaseContentList
-(
-)
-{
-}
-nsBaseContentList
-:
-:
 ~
 nsBaseContentList
 (
@@ -648,7 +640,7 @@ nsIDOMNodeList
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIDOMNodeList
+nsINodeList
 )
 NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
 (

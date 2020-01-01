@@ -871,13 +871,6 @@ h
 #
 include
 "
-nsGenericDOMNodeList
-.
-h
-"
-#
-include
-"
 nsICSSLoader
 .
 h
@@ -15393,7 +15386,7 @@ create
 a
 /
 /
-nsFormNameContentList
+nsFormContentList
 which
 will
 filter

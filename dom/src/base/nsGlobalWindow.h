@@ -936,9 +936,6 @@ class
 nsDOMOfflineResourceList
 ;
 class
-nsDOMOfflineLoadStatusList
-;
-class
 nsGeolocation
 ;
 /
