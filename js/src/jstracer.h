@@ -10332,11 +10332,8 @@ v
 ;
 JS_REQUIRES_STACK
 void
-clearCurrentFrameSlotsFromTracker
+clearReturningFrameFromNativeveTracker
 (
-Tracker
-&
-which
 )
 ;
 JS_REQUIRES_STACK
