@@ -1892,6 +1892,7 @@ done
 dragging
 EndDragSession
 (
+PR_TRUE
 )
 ;
 /
@@ -3867,6 +3868,8 @@ nsDragService
 :
 EndDragSession
 (
+PRBool
+aDoneDrag
 )
 {
 nsBaseDragService
@@ -3874,6 +3877,7 @@ nsBaseDragService
 :
 EndDragSession
 (
+aDoneDrag
 )
 ;
 NS_IF_RELEASE

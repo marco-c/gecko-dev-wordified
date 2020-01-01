@@ -8996,6 +8996,14 @@ case
 Ph_EV_DND_MOTION
 :
 {
+sDragService
+-
+>
+FireDragEventAtSource
+(
+NS_DRAGDROP_DRAG
+)
+;
 pWidget
 -
 >
@@ -9075,6 +9083,7 @@ sDragService
 >
 EndDragSession
 (
+PR_TRUE
 )
 ;
 (
@@ -9117,6 +9126,7 @@ sDragService
 >
 EndDragSession
 (
+PR_FALSE
 )
 ;
 break
@@ -9146,6 +9156,7 @@ sDragService
 >
 EndDragSession
 (
+PR_TRUE
 )
 ;
 (

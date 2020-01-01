@@ -1563,6 +1563,8 @@ nsDragService
 :
 EndDragSession
 (
+PRBool
+aDoneDrag
 )
 {
 PR_LOG
@@ -1596,6 +1598,7 @@ nsBaseDragService
 :
 EndDragSession
 (
+aDoneDrag
 )
 ;
 }
@@ -6715,6 +6718,7 @@ drag
 .
 EndDragSession
 (
+PR_TRUE
 )
 ;
 }

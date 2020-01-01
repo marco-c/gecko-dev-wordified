@@ -2098,6 +2098,11 @@ lock
 the
 desktop
 PS
+FireDragEventAtSource
+(
+NS_DRAGDROP_END
+)
+;
 mDoingDrag
 =
 PR_FALSE
@@ -2990,6 +2995,8 @@ nsDragService
 :
 EndDragSession
 (
+PRBool
+aDragDone
 )
 {
 NS_ASSERTION

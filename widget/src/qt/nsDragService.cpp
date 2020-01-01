@@ -1660,6 +1660,8 @@ nsDragService
 :
 EndDragSession
 (
+PRBool
+aDragDone
 )
 {
 #
@@ -1688,6 +1690,7 @@ nsBaseDragService
 :
 EndDragSession
 (
+aDragDone
 )
 ;
 }

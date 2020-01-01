@@ -2349,6 +2349,14 @@ E_FAIL
 )
 ;
 }
+mDragService
+-
+>
+FireDragEventAtSource
+(
+NS_DRAGDROP_DRAG
+)
+;
 /
 /
 Now
@@ -2576,6 +2584,7 @@ mDragService
 >
 EndDragSession
 (
+PR_FALSE
 )
 ;
 }
@@ -2805,6 +2814,7 @@ serv
 >
 EndDragSession
 (
+PR_TRUE
 )
 ;
 return

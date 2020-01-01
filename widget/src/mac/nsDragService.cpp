@@ -2208,6 +2208,7 @@ theDragRgn
 ;
 EndDragSession
 (
+PR_TRUE
 )
 ;
 /

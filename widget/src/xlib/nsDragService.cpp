@@ -1033,6 +1033,8 @@ nsDragService
 :
 EndDragSession
 (
+PRBool
+aDoneDrag
 )
 {
 if
@@ -1061,6 +1063,7 @@ nsBaseDragService
 :
 EndDragSession
 (
+aDoneDrag
 )
 ;
 }
@@ -1453,6 +1456,7 @@ dataLen
 }
 EndDragSession
 (
+PR_TRUE
 )
 ;
 return

@@ -1302,6 +1302,7 @@ mDragService
 >
 EndDragSession
 (
+PR_FALSE
 )
 ;
 }
