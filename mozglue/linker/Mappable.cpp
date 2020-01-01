@@ -3271,7 +3271,7 @@ offsetOf
 addrPage
 )
 ;
-size_t
+off_t
 chunk
 =
 mapOffset
@@ -3400,7 +3400,7 @@ GetChunkSize
 chunk
 )
 ;
-size_t
+off_t
 chunkStart
 =
 chunk
@@ -3411,7 +3411,7 @@ GetChunkSize
 (
 )
 ;
-size_t
+off_t
 chunkEnd
 =
 chunkStart
@@ -3962,7 +3962,9 @@ mprotect
 p
 0x
 %
-x
+"
+PRIxSize
+"
 0x
 %
 x
@@ -4048,10 +4050,14 @@ s
 s
 ;
 %
-ld
+"
+PRIdSize
+"
 /
 %
-ld
+"
+PRIdSize
+"
 chunks
 decompressed
 "
