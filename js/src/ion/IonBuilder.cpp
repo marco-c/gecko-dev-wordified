@@ -4469,6 +4469,9 @@ true
 case
 JSOP_GETLOCAL
 :
+case
+JSOP_CALLLOCAL
+:
 current
 -
 >
