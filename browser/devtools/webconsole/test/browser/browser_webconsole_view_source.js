@@ -88,6 +88,10 @@ test
 (
 )
 {
+expectUncaughtException
+(
+)
+;
 addTab
 (
 TEST_URI

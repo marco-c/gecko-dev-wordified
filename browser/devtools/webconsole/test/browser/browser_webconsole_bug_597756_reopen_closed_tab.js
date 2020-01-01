@@ -181,6 +181,10 @@ tabReloaded
 true
 )
 ;
+expectUncaughtException
+(
+)
+;
 content
 .
 location
@@ -325,6 +329,10 @@ tabLoaded
 true
 )
 ;
+expectUncaughtException
+(
+)
+;
 content
 .
 location
@@ -357,6 +365,10 @@ test
 (
 )
 {
+expectUncaughtException
+(
+)
+;
 addTab
 (
 TEST_URI
