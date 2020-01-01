@@ -8645,6 +8645,11 @@ true
 )
 ;
 }
+.
+bind
+(
+this
+)
 true
 )
 ;
@@ -8687,6 +8692,8 @@ frames
 if
 (
 target
+.
+ownerDocument
 .
 defaultView
 !
