@@ -2960,6 +2960,10 @@ NS_STYLE_POSITION_STICKY
 &
 &
 !
+aPrevInFlow
+&
+&
+!
 (
 mState
 &
