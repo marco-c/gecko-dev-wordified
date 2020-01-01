@@ -815,8 +815,6 @@ host
 .
 getPluginTags
 (
-{
-}
 )
 ;
 for

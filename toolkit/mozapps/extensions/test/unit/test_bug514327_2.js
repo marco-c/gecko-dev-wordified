@@ -460,8 +460,6 @@ host
 .
 getPluginTags
 (
-{
-}
 )
 ;
 for

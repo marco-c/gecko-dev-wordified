@@ -7702,8 +7702,6 @@ phs
 .
 getPluginTags
 (
-{
-}
 )
 ;
 var

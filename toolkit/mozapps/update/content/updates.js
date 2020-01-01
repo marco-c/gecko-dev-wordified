@@ -4260,8 +4260,6 @@ phs
 .
 getPluginTags
 (
-{
-}
 )
 ;
 var

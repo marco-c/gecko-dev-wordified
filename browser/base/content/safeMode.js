@@ -936,8 +936,6 @@ phs
 .
 getPluginTags
 (
-{
-}
 )
 ;
 for

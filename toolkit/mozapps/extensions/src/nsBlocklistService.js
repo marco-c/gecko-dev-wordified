@@ -5936,8 +5936,6 @@ phs
 .
 getPluginTags
 (
-{
-}
 )
 ;
 for

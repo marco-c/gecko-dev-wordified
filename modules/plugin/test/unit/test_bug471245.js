@@ -696,8 +696,6 @@ host
 .
 getPluginTags
 (
-{
-}
 )
 ;
 for
