@@ -3224,7 +3224,7 @@ isUnusedOrHasUnknownReg
 {
 ra
 =
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 a
 rr
@@ -4389,7 +4389,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ?
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 RAX
@@ -9802,7 +9802,7 @@ isUnusedOrHasUnknownReg
 {
 ra
 =
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 a
 rr
