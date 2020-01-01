@@ -8609,7 +8609,7 @@ position
 mBookmarksService
 -
 >
-MoveFolder
+MoveItem
 (
 ourID
 CurFrame

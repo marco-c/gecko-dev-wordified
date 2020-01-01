@@ -2240,7 +2240,7 @@ function
 )
 {
 }
-onFolderMoved
+onItemMoved
 :
 function
 (
