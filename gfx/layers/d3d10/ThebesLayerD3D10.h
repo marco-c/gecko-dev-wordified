@@ -509,6 +509,7 @@ LayerD3D10
 implementation
 *
 /
+virtual
 Layer
 *
 GetLayer
