@@ -38,6 +38,7 @@ offset
 /
 *
 vim
+set
 :
 sw
 =
