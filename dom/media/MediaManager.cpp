@@ -6222,7 +6222,7 @@ mPrefs
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 if
 (
 mCameraManager
@@ -6810,7 +6810,7 @@ MOZ_WEBRTC
 )
 #
 ifndef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 mBackend
 =
 new

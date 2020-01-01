@@ -225,7 +225,7 @@ aVSources
 {
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 MutexAutoLock
 lock
 (
