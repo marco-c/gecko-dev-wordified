@@ -1186,6 +1186,10 @@ aOther
 .
 mPtr
 ;
+return
+*
+this
+;
 }
 operator
 nsMainThreadPtrHolder
