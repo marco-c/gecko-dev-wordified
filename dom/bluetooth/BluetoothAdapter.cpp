@@ -593,9 +593,7 @@ error
 int
 isEnabled
 =
-sBluedroidFunctions
-.
-bt_is_enabled
+IsBluetoothEnabled
 (
 )
 ;
@@ -651,9 +649,7 @@ mEnabled
 result
 =
 (
-sBluedroidFunctions
-.
-bt_enable
+EnableBluetooth
 (
 )
 =
@@ -671,9 +667,7 @@ else
 result
 =
 (
-sBluedroidFunctions
-.
-bt_disable
+DisableBluetooth
 (
 )
 =
