@@ -12051,6 +12051,9 @@ extData
 {
 if
 (
+aOverwriteTabs
+|
+|
 !
 this
 .
@@ -12077,6 +12080,7 @@ extData
 =
 {
 }
+;
 }
 for
 (
