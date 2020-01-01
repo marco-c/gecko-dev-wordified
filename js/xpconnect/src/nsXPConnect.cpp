@@ -7572,7 +7572,7 @@ if
 nsXPCComponents
 :
 :
-AttachComponentsObject
+AttachNewComponentsObject
 (
 ccx
 scope
@@ -8867,7 +8867,7 @@ if
 nsXPCComponents
 :
 :
-AttachComponentsObject
+AttachNewComponentsObject
 (
 ccx
 wrappedGlobal
