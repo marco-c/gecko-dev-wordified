@@ -1214,7 +1214,7 @@ WriteBack
 ;
 for
 (
-GeneralRegisterBackwardIterator
+GeneralRegisterIterator
 iter
 (
 set
@@ -1263,7 +1263,7 @@ diffG
 ;
 for
 (
-GeneralRegisterBackwardIterator
+GeneralRegisterIterator
 iter
 (
 set
@@ -1342,7 +1342,7 @@ diffF
 ;
 for
 (
-FloatRegisterBackwardIterator
+FloatRegisterIterator
 iter
 (
 set
@@ -1519,7 +1519,7 @@ endif
 {
 for
 (
-FloatRegisterBackwardIterator
+FloatRegisterIterator
 iter
 (
 set
@@ -1621,7 +1621,7 @@ WriteBack
 ;
 for
 (
-GeneralRegisterBackwardIterator
+GeneralRegisterIterator
 iter
 (
 set
@@ -1671,7 +1671,7 @@ endif
 {
 for
 (
-GeneralRegisterBackwardIterator
+GeneralRegisterIterator
 iter
 (
 set
