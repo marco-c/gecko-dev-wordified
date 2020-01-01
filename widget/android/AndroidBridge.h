@@ -1311,11 +1311,6 @@ GetShowPasswordSetting
 (
 )
 ;
-void
-FireAndWaitForTracerEvent
-(
-)
-;
 /
 *
 See
@@ -2323,9 +2318,6 @@ jGetSystemColors
 ;
 jmethodID
 jGetIconForExtension
-;
-jmethodID
-jFireAndWaitForTracerEvent
 ;
 jmethodID
 jCreateShortcut
