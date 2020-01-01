@@ -13194,7 +13194,7 @@ PRADDRINFO
 res
 hints
 ;
-PRStatus
+int
 rv
 ;
 /
