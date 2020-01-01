@@ -3475,7 +3475,7 @@ TypeOracle
 oracle
 ;
 size_t
-inliningDepth
+inliningDepth_
 ;
 Vector
 <
