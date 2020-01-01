@@ -5946,7 +5946,7 @@ revMethodIndependentFlags
 CERTValInParam
 cvin
 [
-3
+4
 ]
 ;
 cvin
