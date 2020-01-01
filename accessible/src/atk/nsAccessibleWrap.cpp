@@ -5945,12 +5945,6 @@ is
 shut
 down
 }
-AtkTableChange
-*
-pAtkTableChange
-=
-nsnull
-;
 switch
 (
 type
