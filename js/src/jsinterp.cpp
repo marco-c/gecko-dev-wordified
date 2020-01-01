@@ -16515,7 +16515,7 @@ cx
 debugHooks
 -
 >
-interruptHandler
+interruptHook
 )
 \
 ENABLE_INTERRUPTS
@@ -17686,7 +17686,7 @@ JS_FALSE
 }
 else
 {
-JSTrapHandler
+JSThrowHook
 handler
 ;
 JSTryNote

@@ -495,8 +495,8 @@ moreInterrupts
 =
 false
 ;
-JSTrapHandler
-handler
+JSInterruptHook
+hook
 =
 cx
 -
@@ -504,11 +504,11 @@ cx
 debugHooks
 -
 >
-interruptHandler
+interruptHook
 ;
 if
 (
-handler
+hook
 )
 {
 #
@@ -526,7 +526,7 @@ AbortRecording
 cx
 "
 interrupt
-handler
+hook
 "
 )
 ;
@@ -534,7 +534,7 @@ handler
 endif
 switch
 (
-handler
+hook
 (
 cx
 script
@@ -549,7 +549,7 @@ cx
 debugHooks
 -
 >
-interruptHandlerData
+interruptHookData
 )
 )
 {
@@ -23323,7 +23323,7 @@ BEGIN_CASE
 JSOP_DEBUGGER
 )
 {
-JSTrapHandler
+JSDebuggerHandler
 handler
 =
 cx

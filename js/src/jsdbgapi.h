@@ -541,6 +541,17 @@ JSScript
 script
 )
 ;
+/
+*
+The
+closure
+argument
+will
+be
+marked
+.
+*
+/
 extern
 JS_PUBLIC_API
 (
@@ -559,8 +570,7 @@ jsbytecode
 pc
 JSTrapHandler
 handler
-void
-*
+jsval
 closure
 )
 ;
@@ -601,8 +611,7 @@ pc
 JSTrapHandler
 *
 handlerp
-void
-*
+jsval
 *
 closurep
 )
@@ -665,7 +674,7 @@ JS_SetInterrupt
 JSRuntime
 *
 rt
-JSTrapHandler
+JSInterruptHook
 handler
 void
 *
@@ -682,7 +691,7 @@ JS_ClearInterrupt
 JSRuntime
 *
 rt
-JSTrapHandler
+JSInterruptHook
 *
 handlerp
 void
@@ -2647,8 +2656,8 @@ JS_SetDebuggerHandler
 JSRuntime
 *
 rt
-JSTrapHandler
-handler
+JSDebuggerHandler
+hook
 void
 *
 closure
@@ -2732,7 +2741,7 @@ JS_SetThrowHook
 JSRuntime
 *
 rt
-JSTrapHandler
+JSThrowHook
 hook
 void
 *
