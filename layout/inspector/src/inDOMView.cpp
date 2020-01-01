@@ -4813,6 +4813,9 @@ nsIContent
 aChild
 PRInt32
 aIndexInContainer
+nsIContent
+*
+aPreviousSibling
 )
 {
 if

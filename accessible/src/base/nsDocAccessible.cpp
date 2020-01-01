@@ -7721,6 +7721,9 @@ PRInt32
 unused
 *
 /
+nsIContent
+*
+aPreviousSibling
 )
 {
 /
