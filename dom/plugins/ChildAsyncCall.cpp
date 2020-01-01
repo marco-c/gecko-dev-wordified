@@ -511,7 +511,7 @@ mData
 NULL
 ;
 }
-NS_IMETHODIMP
+void
 ChildAsyncCall
 :
 :
@@ -524,11 +524,6 @@ if
 mFunc
 )
 {
-mFunc
-(
-mData
-)
-;
 mInstance
 -
 >
@@ -539,10 +534,12 @@ RemoveElement
 this
 )
 ;
-}
-return
-NS_OK
+mFunc
+(
+mData
+)
 ;
+}
 }
 }
 /

@@ -448,17 +448,6 @@ h
 #
 include
 "
-mozilla
-/
-ipc
-/
-GeckoThread
-.
-h
-"
-#
-include
-"
 TabParent
 .
 h
