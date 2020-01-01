@@ -7558,6 +7558,14 @@ mIMEMode
 [
 reset
 ]
+PRUint8
+mWindowShadow
+;
+/
+/
+[
+reset
+]
 }
 ;
 struct
