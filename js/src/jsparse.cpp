@@ -3783,7 +3783,7 @@ Global
 variables
 and
 regexps
-shares
+share
 the
 index
 space
