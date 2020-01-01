@@ -6536,6 +6536,19 @@ ourChange
 )
 )
 {
+if
+(
+!
+(
+ourChange
+&
+nsChangeHint_ReconstructFrame
+)
+|
+|
+aContent
+)
+{
 aChangeList
 -
 >
@@ -6546,6 +6559,7 @@ aContent
 ourChange
 )
 ;
+}
 }
 return
 aMinChange
