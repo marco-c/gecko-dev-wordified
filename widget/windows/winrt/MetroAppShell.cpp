@@ -867,7 +867,10 @@ PM_NOREMOVE
 )
 )
 {
-WaitMessage
+WinUtils
+:
+:
+WaitForMessage
 (
 )
 ;

@@ -1589,9 +1589,10 @@ Suspend
 (
 )
 ;
+WinUtils
 :
 :
-WaitMessage
+WaitForMessage
 (
 )
 ;
