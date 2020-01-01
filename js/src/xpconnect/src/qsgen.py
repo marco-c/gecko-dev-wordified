@@ -3561,9 +3561,6 @@ n
 "
         
 "
-if
-(
-!
 JS_ValueToBoolean
 (
 cx
@@ -3575,14 +3572,6 @@ argVal
 name
 }
 )
-)
-\
-n
-"
-        
-"
-return
-JS_FALSE
 ;
 \
 n
