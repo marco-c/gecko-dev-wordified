@@ -1841,6 +1841,7 @@ was
 parsed
 *
 /
+static
 PRBool
 ParseTableHAlignValue
 (
@@ -1852,7 +1853,6 @@ nsAttrValue
 &
 aResult
 )
-const
 ;
 /
 *
