@@ -2543,6 +2543,11 @@ application
 xhtml
 +
 xml
+application
+/
+xslt
++
+xml
 *
 /
 *
