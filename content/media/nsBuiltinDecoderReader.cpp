@@ -2087,6 +2087,8 @@ return
 videoData
 ;
 }
+/
+*
 template
 <
 class
@@ -2199,6 +2201,8 @@ d
 nullptr
 ;
 }
+*
+/
 nsresult
 nsBuiltinDecoderReader
 :
