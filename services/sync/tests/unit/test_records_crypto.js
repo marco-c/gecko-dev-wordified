@@ -971,6 +971,11 @@ server
 .
 stop
 (
+function
+(
+)
+{
+}
 )
 ;
 }

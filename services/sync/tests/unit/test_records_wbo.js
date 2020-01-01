@@ -675,6 +675,11 @@ server
 .
 stop
 (
+function
+(
+)
+{
+}
 )
 ;
 }

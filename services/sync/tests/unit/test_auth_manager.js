@@ -416,6 +416,11 @@ server
 .
 stop
 (
+function
+(
+)
+{
+}
 )
 ;
 }

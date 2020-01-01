@@ -3101,6 +3101,11 @@ server
 .
 stop
 (
+function
+(
+)
+{
+}
 )
 ;
 }
