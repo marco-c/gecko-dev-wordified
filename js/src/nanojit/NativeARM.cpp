@@ -10183,7 +10183,7 @@ return
 ins
 -
 >
-isImmAny
+isImmI
 (
 )
 |

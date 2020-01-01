@@ -7976,7 +7976,7 @@ return
 ins
 -
 >
-isImmAny
+isImmI
 (
 )
 |

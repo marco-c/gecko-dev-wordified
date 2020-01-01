@@ -1981,7 +1981,7 @@ return
 ins
 -
 >
-isImmAny
+isImmI
 (
 )
 |
