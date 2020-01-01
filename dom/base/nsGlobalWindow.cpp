@@ -18880,7 +18880,7 @@ if
 nsContentUtils
 :
 :
-IsCallerTrustedForRead
+IsCallerChrome
 (
 )
 )

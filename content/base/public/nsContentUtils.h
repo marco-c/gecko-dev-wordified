@@ -983,12 +983,6 @@ IsCallerChrome
 ;
 static
 bool
-IsCallerTrustedForRead
-(
-)
-;
-static
-bool
 IsCallerTrustedForWrite
 (
 )

@@ -1819,7 +1819,7 @@ mWriteOnly
 nsContentUtils
 :
 :
-IsCallerTrustedForRead
+IsCallerChrome
 (
 )
 )
@@ -3014,7 +3014,7 @@ mWriteOnly
 nsContentUtils
 :
 :
-IsCallerTrustedForRead
+IsCallerChrome
 (
 )
 )
@@ -3250,7 +3250,7 @@ mWriteOnly
 nsContentUtils
 :
 :
-IsCallerTrustedForRead
+IsCallerChrome
 (
 )
 )
@@ -4277,7 +4277,7 @@ if
 nsContentUtils
 :
 :
-IsCallerTrustedForRead
+IsCallerChrome
 (
 )
 )
