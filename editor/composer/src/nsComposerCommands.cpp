@@ -794,7 +794,6 @@ return
 ToggleState
 (
 editor
-mTagName
 )
 ;
 }
@@ -861,7 +860,6 @@ return
 GetCurrentState
 (
 editor
-mTagName
 aParams
 )
 ;
@@ -1124,10 +1122,6 @@ GetCurrentState
 nsIEditor
 *
 aEditor
-const
-char
-*
-aTagName
 nsICommandParams
 *
 aParams
@@ -1188,7 +1182,7 @@ styleAtom
 =
 do_GetAtom
 (
-aTagName
+mTagName
 )
 ;
 rv
@@ -1292,10 +1286,6 @@ ToggleState
 nsIEditor
 *
 aEditor
-const
-char
-*
-aTagName
 )
 {
 nsCOMPtr
@@ -1397,7 +1387,7 @@ tagName
 .
 AssignWithConversion
 (
-aTagName
+mTagName
 )
 ;
 bool
@@ -1448,7 +1438,6 @@ rv
 GetCurrentState
 (
 aEditor
-aTagName
 params
 )
 ;
@@ -1701,10 +1690,6 @@ GetCurrentState
 nsIEditor
 *
 aEditor
-const
-char
-*
-aTagName
 nsICommandParams
 *
 aParams
@@ -1824,10 +1809,6 @@ ToggleState
 nsIEditor
 *
 aEditor
-const
-char
-*
-aTagName
 )
 {
 nsCOMPtr
@@ -1895,7 +1876,6 @@ rv
 GetCurrentState
 (
 aEditor
-mTagName
 params
 )
 ;
@@ -1988,10 +1968,6 @@ GetCurrentState
 nsIEditor
 *
 aEditor
-const
-char
-*
-aTagName
 nsICommandParams
 *
 aParams
@@ -2172,10 +2148,6 @@ ToggleState
 nsIEditor
 *
 aEditor
-const
-char
-*
-aTagName
 )
 {
 NS_ASSERTION
@@ -2253,7 +2225,6 @@ rv
 GetCurrentState
 (
 aEditor
-mTagName
 params
 )
 ;
@@ -5251,10 +5222,6 @@ GetCurrentState
 nsIEditor
 *
 aEditor
-const
-char
-*
-aTagName
 nsICommandParams
 *
 aParams
@@ -5409,10 +5376,6 @@ ToggleState
 nsIEditor
 *
 aEditor
-const
-char
-*
-aTagName
 )
 {
 NS_ASSERTION
