@@ -2264,6 +2264,11 @@ nsIntRect
 aRect
 )
 ;
+LayerForwarderQuirks
+GetForwarderQuirks
+(
+)
+;
 private
 :
 /
