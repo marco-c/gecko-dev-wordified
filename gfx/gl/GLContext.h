@@ -293,8 +293,7 @@ class
 GLContext
 ;
 typedef
-void
-*
+uintptr_t
 SharedTextureHandle
 ;
 enum
