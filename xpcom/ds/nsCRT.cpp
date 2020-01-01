@@ -1513,12 +1513,10 @@ str
 )
 )
 ;
-LL_ADD
-(
 ll
-ll
++
+=
 digitll
-)
 ;
 str
 +

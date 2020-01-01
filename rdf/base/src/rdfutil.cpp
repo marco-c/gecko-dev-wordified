@@ -849,12 +849,10 @@ temp
 usec
 )
 ;
-LL_ADD
-(
 t
-t
++
+=
 temp
-)
 ;
 }
 return
