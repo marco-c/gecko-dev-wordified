@@ -37242,13 +37242,7 @@ index
 ContentInserted
 (
 aContainer
-aContainer
--
->
-GetChildAt
-(
-i
-)
+content
 i
 mTempFrameTreeState
 )
