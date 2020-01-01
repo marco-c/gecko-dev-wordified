@@ -4917,6 +4917,10 @@ SP_onEditPopupShowing
 (
 )
 {
+goUpdateGlobalEditMenuItems
+(
+)
+;
 let
 undo
 =
