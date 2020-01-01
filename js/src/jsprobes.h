@@ -490,6 +490,17 @@ h
 "
 #
 endif
+#
+include
+"
+vm
+/
+ObjectImpl
+-
+inl
+.
+h
+"
 namespace
 js
 {
