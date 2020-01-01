@@ -9534,12 +9534,12 @@ aWeakShell
 |
 |
 roleMapEntry
-)
 |
 |
 HasRelatedContent
 (
 content
+)
 )
 )
 {
