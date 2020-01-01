@@ -396,7 +396,7 @@ void
 RefCounted
 <
 LibHandle
-NonAtomicRefCount
+AtomicRefCount
 >
 :
 :
@@ -411,7 +411,7 @@ inline
 RefCounted
 <
 LibHandle
-NonAtomicRefCount
+AtomicRefCount
 >
 :
 :
@@ -492,7 +492,7 @@ public
 mozilla
 :
 :
-RefCounted
+AtomicRefCounted
 <
 LibHandle
 >
@@ -784,7 +784,7 @@ directRefCnt
 mozilla
 :
 :
-RefCounted
+AtomicRefCounted
 <
 LibHandle
 >
@@ -839,7 +839,7 @@ directRefCnt
 mozilla
 :
 :
-RefCounted
+AtomicRefCounted
 <
 LibHandle
 >
@@ -863,7 +863,7 @@ true
 mozilla
 :
 :
-RefCounted
+AtomicRefCounted
 <
 LibHandle
 >
@@ -1205,7 +1205,7 @@ void
 RefCounted
 <
 LibHandle
-NonAtomicRefCount
+AtomicRefCount
 >
 :
 :
