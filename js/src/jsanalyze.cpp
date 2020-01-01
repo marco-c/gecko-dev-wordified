@@ -3763,9 +3763,11 @@ ifdef
 JS_TYPE_INFERENCE
 if
 (
-function
+fun
 )
 function
+(
+)
 -
 >
 returnTypes
@@ -5051,6 +5053,14 @@ script
 code
 +
 offset
+;
+UntrapOpcode
+untrap
+(
+cx
+script
+pc
+)
 ;
 offset
 +

@@ -1321,7 +1321,7 @@ jsbytecode
 *
 pc
 ;
-uint32
+size_t
 id
 ;
 bool
@@ -1337,7 +1337,7 @@ returnOffset
 jsbytecode
 *
 pc
-uint32
+size_t
 id
 bool
 call
@@ -1579,6 +1579,9 @@ debugMode_
 bool
 addTraceHints
 ;
+bool
+recompiling
+;
 #
 ifdef
 JS_TYPE_INFERENCE
@@ -1769,8 +1772,6 @@ addReturnSite
 (
 Label
 joinPoint
-uint32
-id
 )
 ;
 bool
@@ -2546,6 +2547,8 @@ JSOp
 op
 VoidStub
 stub
+JSValueType
+type
 )
 ;
 void
@@ -2561,6 +2564,8 @@ JSOp
 op
 VoidStub
 stub
+JSValueType
+type
 )
 ;
 void
@@ -2573,6 +2578,8 @@ JSOp
 op
 VoidStub
 stub
+JSValueType
+type
 )
 ;
 void
@@ -2588,6 +2595,8 @@ JSOp
 op
 VoidStub
 stub
+JSValueType
+type
 )
 ;
 void
@@ -3090,11 +3099,10 @@ stub
 do
 {
 \
-Call
-cl
+void
+*
+nstub
 =
-emitStubCall
-(
 JS_FUNC_TO_DATA_PTR
 (
 void
@@ -3103,6 +3111,14 @@ void
 stub
 )
 )
+;
+\
+Call
+cl
+=
+emitStubCall
+(
+nstub
 )
 ;
 \
@@ -3116,7 +3132,10 @@ callReturnOffset
 cl
 )
 PC
-__LINE__
+(
+size_t
+)
+nstub
 \
 true
 false
@@ -3199,9 +3218,7 @@ void
 stub
 )
 )
-__LINE__
 )
-\
 /
 /
 Same
@@ -3236,7 +3253,6 @@ stub
 (
 slots
 )
-__LINE__
 )
 \
 }
