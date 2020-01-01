@@ -842,14 +842,6 @@ TakeFocus
 )
 ;
 NS_IMETHOD
-GetNumActions
-(
-PRUint8
-*
-aNumActions
-)
-;
-NS_IMETHOD
 GetActionName
 (
 PRUint8
@@ -970,6 +962,12 @@ InvalidateChildren
 /
 /
 ActionAccessible
+virtual
+PRUint8
+ActionCount
+(
+)
+;
 virtual
 KeyBinding
 AccessKey

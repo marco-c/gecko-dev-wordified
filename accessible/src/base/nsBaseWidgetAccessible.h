@@ -649,14 +649,6 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 nsIAccessible
 NS_IMETHOD
-GetNumActions
-(
-PRUint8
-*
-_retval
-)
-;
-NS_IMETHOD
 GetActionName
 (
 PRUint8
@@ -707,6 +699,12 @@ NativeState
 /
 /
 ActionAccessible
+virtual
+PRUint8
+ActionCount
+(
+)
+;
 virtual
 KeyBinding
 AccessKey
