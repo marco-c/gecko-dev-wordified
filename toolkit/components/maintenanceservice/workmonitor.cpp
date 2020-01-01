@@ -2730,12 +2730,14 @@ updater
 HMODULE
 updaterModule
 =
-LoadLibrary
+LoadLibraryEx
 (
 argv
 [
 0
 ]
+NULL
+LOAD_LIBRARY_AS_DATAFILE
 )
 ;
 if
