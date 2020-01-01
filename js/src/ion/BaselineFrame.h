@@ -439,6 +439,14 @@ slot
 )
 ;
 }
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 /
 /
 Methods
