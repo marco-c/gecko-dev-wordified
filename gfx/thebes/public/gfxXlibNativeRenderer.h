@@ -779,7 +779,7 @@ default
 screen
 DRAW_SUPPORTS_NONDEFAULT_VISUAL
 =
-0x08
+0x10
 /
 /
 If
@@ -808,7 +808,7 @@ Draw
 '
 DRAW_SUPPORTS_ALTERNATE_DISPLAY
 =
-0x10
+0x20
 }
 ;
 struct
