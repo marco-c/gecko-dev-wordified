@@ -432,13 +432,7 @@ BLOCK
 if
 defined
 (
-_M_IA32
-)
-|
-|
-defined
-(
-_M_X86
+_M_IX86
 )
 |
 |
