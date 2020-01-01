@@ -23111,7 +23111,7 @@ JSContext
 cx
 JSObject
 *
-obj
+objArg
 jsid
 id_
 jsval
@@ -23124,6 +23124,17 @@ id
 (
 cx
 id_
+)
+;
+Rooted
+<
+JSObject
+*
+>
+obj
+(
+cx
+objArg
 )
 ;
 AssertNoGC
@@ -23159,6 +23170,7 @@ obj
 setGeneric
 (
 cx
+obj
 id
 vp
 false
@@ -23176,7 +23188,7 @@ JSContext
 cx
 JSObject
 *
-obj
+obj_
 uint32_t
 index
 jsval
@@ -23184,6 +23196,13 @@ jsval
 vp
 )
 {
+RootedObject
+obj
+(
+cx
+obj_
+)
+;
 AssertNoGC
 (
 cx
@@ -23218,6 +23237,7 @@ obj
 setElement
 (
 cx
+obj
 index
 vp
 false
