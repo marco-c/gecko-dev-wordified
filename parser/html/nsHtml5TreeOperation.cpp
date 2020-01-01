@@ -1578,7 +1578,6 @@ nsIDOMMutationEvent
 :
 ADDITION
 )
-stateMask
 )
 ;
 }

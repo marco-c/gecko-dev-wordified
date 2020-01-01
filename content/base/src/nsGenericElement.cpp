@@ -24528,7 +24528,6 @@ this
 aNamespaceID
 aName
 modType
-stateMask
 )
 ;
 }
@@ -25919,7 +25918,6 @@ nsIDOMMutationEvent
 :
 :
 REMOVAL
-stateMask
 )
 ;
 }

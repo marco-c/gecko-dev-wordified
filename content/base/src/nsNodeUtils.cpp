@@ -894,8 +894,6 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
 )
 {
 nsIDocument
@@ -919,7 +917,6 @@ aContent
 aNameSpaceID
 aAttribute
 aModType
-aStateMask
 )
 )
 ;

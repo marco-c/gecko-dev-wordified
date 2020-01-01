@@ -708,12 +708,6 @@ change
 removal
 )
 *
-param
-aStateMask
-States
-which
-changed
-*
 see
 nsIMutationObserver
 :
@@ -735,8 +729,6 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
 )
 ;
 /
