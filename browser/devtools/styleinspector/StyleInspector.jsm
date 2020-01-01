@@ -1113,7 +1113,7 @@ this
 .
 inspector
 .
-removeListener
+off
 (
 "
 select
@@ -1127,7 +1127,7 @@ this
 .
 inspector
 .
-removeListener
+off
 (
 "
 change
@@ -1141,7 +1141,7 @@ this
 .
 inspector
 .
-removeListener
+off
 (
 "
 sidebaractivated
@@ -1562,7 +1562,7 @@ this
 .
 inspector
 .
-removeListener
+off
 (
 "
 select
@@ -1576,7 +1576,7 @@ this
 .
 inspector
 .
-removeListener
+off
 (
 "
 change
@@ -1590,7 +1590,7 @@ this
 .
 inspector
 .
-removeListener
+off
 (
 "
 sidebaractivated
