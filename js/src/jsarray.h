@@ -509,6 +509,8 @@ isDenseArray
 ;
 return
 initializedLength
+(
+)
 ;
 }
 inline

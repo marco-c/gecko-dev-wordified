@@ -4459,10 +4459,11 @@ nj
 :
 LIR_ldi
 array
-offsetof
-(
 JSObject
-initializedLength
+:
+:
+offsetOfInitializedLength
+(
 )
 ACCSET_OBJ_CAPACITY
 )

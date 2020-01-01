@@ -2054,7 +2054,7 @@ GlobalObject
 globalObj
 ;
 const
-Value
+HeapValue
 *
 globalSlots
 ;

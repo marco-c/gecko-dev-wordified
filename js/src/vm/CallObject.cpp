@@ -791,7 +791,9 @@ r
 obj
 -
 >
-lastProp
+lastProperty
+(
+)
 ;
 !
 r
@@ -864,7 +866,7 @@ asCall
 ;
 callobj
 .
-setCallee
+initCallee
 (
 callee
 )

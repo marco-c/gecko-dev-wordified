@@ -673,9 +673,11 @@ js
 typedef
 WeakMap
 <
+HeapPtr
+<
 JSObject
-*
-Value
+>
+HeapValue
 >
 ObjectValueMap
 ;
@@ -1746,7 +1748,7 @@ false
 obj
 -
 >
-setPrivate
+initPrivate
 (
 NULL
 )
@@ -1951,7 +1953,7 @@ NULL
 weakMapProto
 -
 >
-setPrivate
+initPrivate
 (
 NULL
 )

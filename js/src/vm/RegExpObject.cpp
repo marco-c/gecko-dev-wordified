@@ -499,6 +499,17 @@ inl
 h
 "
 #
+include
+"
+vm
+/
+RegExpStatics
+-
+inl
+.
+h
+"
+#
 ifdef
 JS_TRACER
 #

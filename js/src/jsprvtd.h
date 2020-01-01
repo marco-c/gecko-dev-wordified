@@ -756,16 +756,6 @@ struct
 JSXML
 JSXML
 ;
-typedef
-struct
-JSXMLArray
-JSXMLArray
-;
-typedef
-struct
-JSXMLArrayCursor
-JSXMLArrayCursor
-;
 /
 *
 *
@@ -859,6 +849,9 @@ js
 {
 struct
 ArgumentsData
+;
+struct
+FlatClosureData
 ;
 struct
 Class

@@ -1525,6 +1525,10 @@ mJSProtoObject
 x
 "
 mJSProtoObject
+.
+get
+(
+)
 )
 )
 ;
