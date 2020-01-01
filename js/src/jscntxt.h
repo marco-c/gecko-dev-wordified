@@ -10755,7 +10755,7 @@ definition
 .
 *
 /
-JSPackedBool
+JSBool
 throwing
 ;
 /
