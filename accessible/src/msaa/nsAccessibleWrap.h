@@ -502,6 +502,13 @@ AccessibleAction
 h
 "
 #
+include
+"
+CAccessibleValue
+.
+h
+"
+#
 define
 DECL_IUNKNOWN_INHERITED
 \
@@ -681,6 +688,8 @@ nsAccessibleWrap
 :
 public
 nsAccessible
+public
+CAccessibleValue
 public
 IAccessible2
 public
