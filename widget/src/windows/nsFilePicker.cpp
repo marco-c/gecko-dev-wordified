@@ -1481,8 +1481,8 @@ IsEmpty
 )
 )
 initialDir
-=
-NS_LITERAL_STRING
+.
+AssignLiteral
 (
 "
 .
