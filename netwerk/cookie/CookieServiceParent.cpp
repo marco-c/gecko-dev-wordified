@@ -554,6 +554,17 @@ aCookieString
 0
 )
 ;
+/
+/
+TODO
+:
+bug
+812475
+pass
+a
+real
+channel
+object
 mCookieService
 -
 >
@@ -567,6 +578,7 @@ aFromHttp
 appId
 isInBrowserElement
 isPrivate
+nullptr
 )
 ;
 return
