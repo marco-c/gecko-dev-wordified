@@ -654,6 +654,8 @@ split
 ;
 this
 .
+data
+.
 id
 =
 foo
@@ -1165,16 +1167,12 @@ Resource
 url
 )
 ;
-yield
 this
 .
 lastResource
 .
 get
 (
-self
-.
-cb
 )
 ;
 record
